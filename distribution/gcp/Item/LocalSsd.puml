@@ -8,8 +8,8 @@ sprite $LocalSsdMd [16x16/16z] bOt50SH030FDdluRFaWMVW4pIl9UhCwiFNg8NqgO1u13w-YF7
 
 sprite $LocalSsdLg [20x20/16z] fOx50G0X40EpMAR_Xi_z-37eUZH8TBw5yrkvVRHONuCUJfeCX6ugArLFyfRv91cSacbtBU0jzrbTMcoveIS6YfuKOEjvUG9Wx-T7LZvLNhwxaJN83
 
-!procedure LocalSsd($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/LocalSsd', $name, $tech)
+!procedure LocalSsd($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/LocalSsd', $name, $tech, $desc)
 !endprocedure
 
 !procedure LocalSsdCard($id, $funcName="", $content="")

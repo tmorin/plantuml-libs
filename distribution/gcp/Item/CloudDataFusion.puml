@@ -8,8 +8,8 @@ sprite $CloudDataFusionMd [16x16/16z] TSt50G0n20117Ffl-2Ik6vqNS0t_1lANbfVpgzODH6
 
 sprite $CloudDataFusionLg [20x20/16z] dSY53K0n30FHaAtil_1dnhOdEZrfoATYE9lELWFMsumycvd5rOPMM-7D78ZTzjeiChFMOWcxSMyryD1iE2VFzG
 
-!procedure CloudDataFusion($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudDataFusion', $name, $tech)
+!procedure CloudDataFusion($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudDataFusion', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudDataFusionCard($id, $funcName="", $content="")

@@ -11,8 +11,8 @@ fOu54WGn20G7X_z_-CYjIygs8rCu-4P5moZpQ7BnOH5RPF_LhCBiuilwirYpMcs6ZxHPV3bWf5eEC2C6
 h3l7cSdEFm
 }
 
-!procedure GameServers($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/GameServers', $name, $tech)
+!procedure GameServers($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/GameServers', $name, $tech, $desc)
 !endprocedure
 
 !procedure GameServersCard($id, $funcName="", $content="")

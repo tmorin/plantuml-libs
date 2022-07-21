@@ -11,8 +11,8 @@ bT170aGn209Ga4Yy_uMdb-Zkitmf5boDd4D2aUauYNfVRG_VDypJrjlYD841vFXGjjdBIiN5_XGkWJwC
 SWS
 }
 
-!procedure CloudHsm($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudHsm', $name, $tech)
+!procedure CloudHsm($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudHsm', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudHsmCard($id, $funcName="", $content="")

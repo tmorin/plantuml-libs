@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Administration')
 
 ' renders the element
-Administration('Administration', 'Administration', 'an optional tech label')
+Administration('Administration', 'Administration', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Administration')
 
 ' renders the element
-Administration('Administration', 'Administration', 'an optional tech label')
+Administration('Administration', 'Administration', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

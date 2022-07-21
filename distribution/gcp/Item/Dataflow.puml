@@ -11,8 +11,8 @@ bOq74eC020JX3ZVy_yMnQtgyOIXBYqiI6dtr0oo6kdN5eppm258sS9uRIPWeo7tAEVdHZltKF3lwV6Ip
 wKTKeA1vW3hyUzq1
 }
 
-!procedure Dataflow($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Dataflow', $name, $tech)
+!procedure Dataflow($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Dataflow', $name, $tech, $desc)
 !endprocedure
 
 !procedure DataflowCard($id, $funcName="", $content="")

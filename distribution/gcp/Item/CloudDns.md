@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudDns')
 
 ' renders the element
-CloudDns('CloudDns', 'Cloud Dns', 'an optional tech label')
+CloudDns('CloudDns', 'Cloud Dns', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudDns')
 
 ' renders the element
-CloudDns('CloudDns', 'Cloud Dns', 'an optional tech label')
+CloudDns('CloudDns', 'Cloud Dns', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

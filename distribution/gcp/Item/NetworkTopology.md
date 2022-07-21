@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/NetworkTopology')
 
 ' renders the element
-NetworkTopology('NetworkTopology', 'Network Topology', 'an optional tech label')
+NetworkTopology('NetworkTopology', 'Network Topology', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/NetworkTopology')
 
 ' renders the element
-NetworkTopology('NetworkTopology', 'Network Topology', 'an optional tech label')
+NetworkTopology('NetworkTopology', 'Network Topology', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

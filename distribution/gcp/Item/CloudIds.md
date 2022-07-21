@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudIds')
 
 ' renders the element
-CloudIds('CloudIds', 'Cloud Ids', 'an optional tech label')
+CloudIds('CloudIds', 'Cloud Ids', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudIds')
 
 ' renders the element
-CloudIds('CloudIds', 'Cloud Ids', 'an optional tech label')
+CloudIds('CloudIds', 'Cloud Ids', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

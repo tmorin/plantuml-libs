@@ -8,8 +8,8 @@ sprite $DeveloperPortalMd [16x16/16z] dOor0G0m20HnVl-9GxpdSAKUeamVHNZchssjyDsT7P
 
 sprite $DeveloperPortalLg [20x20/16z] jOqv5W0n24ADGUJ-9vwdQMRlyXjNm7Q1cDV5I35ISNb2bxGRupBKqoHP0zUAS7UwWLMZBmipiF5QHca9iEkq1kkzY_z6fseCNPP8INJRmW4
 
-!procedure DeveloperPortal($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/DeveloperPortal', $name, $tech)
+!procedure DeveloperPortal($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/DeveloperPortal', $name, $tech, $desc)
 !endprocedure
 
 !procedure DeveloperPortalCard($id, $funcName="", $content="")

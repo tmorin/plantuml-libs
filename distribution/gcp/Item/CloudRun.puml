@@ -8,8 +8,8 @@ sprite $CloudRunMd [16x16/16z] XOk50G0W20I1j_QVsEuwam_wmamaD024mykC7k7mHw3FAO3MA
 
 sprite $CloudRunLg [20x20/16z] fOq55i0W3CMAS_yJhnaEJoOVpske_8jrLiIPZJcs5IfZioj3rfooPl9vm6OVZMqkpJcmtKcTkSPywv6pYC-a_vTWKKbiPAX-84EPnHi9z6BDpEdcvNqk
 
-!procedure CloudRun($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudRun', $name, $tech)
+!procedure CloudRun($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudRun', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudRunCard($id, $funcName="", $content="")

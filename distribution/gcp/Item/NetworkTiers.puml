@@ -11,8 +11,8 @@ bSs53GHH20JGiS_IVyFdvDnUZ623_xYEYAlKq6rlN3eIKucphlUsRxwkXnuornGnjcvZN7iRWEuE7Xnw
 2SYrTnNZlJq
 }
 
-!procedure NetworkTiers($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/NetworkTiers', $name, $tech)
+!procedure NetworkTiers($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/NetworkTiers', $name, $tech, $desc)
 !endprocedure
 
 !procedure NetworkTiersCard($id, $funcName="", $content="")

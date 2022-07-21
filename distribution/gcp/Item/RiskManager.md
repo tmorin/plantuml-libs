@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/RiskManager')
 
 ' renders the element
-RiskManager('RiskManager', 'Risk Manager', 'an optional tech label')
+RiskManager('RiskManager', 'Risk Manager', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/RiskManager')
 
 ' renders the element
-RiskManager('RiskManager', 'Risk Manager', 'an optional tech label')
+RiskManager('RiskManager', 'Risk Manager', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

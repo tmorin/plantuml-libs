@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/VisualInspection')
 
 ' renders the element
-VisualInspection('VisualInspection', 'Visual Inspection', 'an optional tech label')
+VisualInspection('VisualInspection', 'Visual Inspection', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/VisualInspection')
 
 ' renders the element
-VisualInspection('VisualInspection', 'Visual Inspection', 'an optional tech label')
+VisualInspection('VisualInspection', 'Visual Inspection', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

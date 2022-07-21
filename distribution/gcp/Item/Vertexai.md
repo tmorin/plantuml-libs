@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Vertexai')
 
 ' renders the element
-Vertexai('Vertexai', 'Vertexai', 'an optional tech label')
+Vertexai('Vertexai', 'Vertexai', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Vertexai')
 
 ' renders the element
-Vertexai('Vertexai', 'Vertexai', 'an optional tech label')
+Vertexai('Vertexai', 'Vertexai', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

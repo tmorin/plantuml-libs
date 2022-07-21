@@ -8,8 +8,8 @@ sprite $RuntimeConfigMd [16x16/16z] XSl50S1G20DG7FPVkDxlycwG13fuAK-MiER--NSxFypk
 
 sprite $RuntimeConfigLg [20x20/16z] dSnL0W11209GruBxNtYxU-PzAY2_cILvT_DPn7RRR3UR9QzxystpSRFLtQr-JwInGFZnPcOa2cwRsvkg0YbtEW
 
-!procedure RuntimeConfig($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/RuntimeConfig', $name, $tech)
+!procedure RuntimeConfig($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/RuntimeConfig', $name, $tech, $desc)
 !endprocedure
 
 !procedure RuntimeConfigCard($id, $funcName="", $content="")

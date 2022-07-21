@@ -8,8 +8,8 @@ sprite $PartnerInterconnectMd [16x16/16z] hOs50G0X3CJGzFPV-DrT2DJD5S3Jiymj0inY4r
 
 sprite $PartnerInterconnectLg [20x20/16z] lO_L0O10242bsNzYhvDVVPSqF7y1sjdriikSo3f8BpQT9xAEqbkzYJOTKTAfhZfJYM9ZNTnB0W188H7EyGKl
 
-!procedure PartnerInterconnect($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/PartnerInterconnect', $name, $tech)
+!procedure PartnerInterconnect($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/PartnerInterconnect', $name, $tech, $desc)
 !endprocedure
 
 !procedure PartnerInterconnectCard($id, $funcName="", $content="")

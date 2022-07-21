@@ -11,8 +11,8 @@ bOy5WWGW30CdoH7u_uTltNtGUiklg8-gT3oeelPU1xdN7Q-BGeAn3D8b5xGi8BceHa7B-A1i1GiW4re3
 0G
 }
 
-!procedure CloudApis($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudApis', $name, $tech)
+!procedure CloudApis($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudApis', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudApisCard($id, $funcName="", $content="")

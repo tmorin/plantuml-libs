@@ -8,8 +8,8 @@ sprite $StackdriverMd [16x16/16z] ZSgt0S0W40D0VJJxJsnUn9Bh5F12wKGhOZEA4T91Crgcd5
 
 sprite $StackdriverLg [20x20/16z] fSq53W8134JHgJ1m_mjZrK04Tb_yfuApH8DWM09dh9BIFyO49B_7EbR2AyMs9ZZVi76QtGACBnUyNACn1WKlceCYzM8F-lemWuRY_GR3W-0l3m
 
-!procedure Stackdriver($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Stackdriver', $name, $tech)
+!procedure Stackdriver($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Stackdriver', $name, $tech, $desc)
 !endprocedure
 
 !procedure StackdriverCard($id, $funcName="", $content="")

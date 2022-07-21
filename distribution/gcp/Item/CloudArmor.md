@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudArmor')
 
 ' renders the element
-CloudArmor('CloudArmor', 'Cloud Armor', 'an optional tech label')
+CloudArmor('CloudArmor', 'Cloud Armor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudArmor')
 
 ' renders the element
-CloudArmor('CloudArmor', 'Cloud Armor', 'an optional tech label')
+CloudArmor('CloudArmor', 'Cloud Armor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -11,8 +11,8 @@ NP055i0m24EfqUJ-5rxWqTcVzbSGEpIt7tC3yFusEBGo2y0Usfq_qmG2IyPPMjyPf-sNqvkajZzkcr4i
 gZwa0ptSFgq3d09wthsYg9r5BsblsW8nQd01
 }
 
-!procedure CertificateAuthorityService($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CertificateAuthorityService', $name, $tech)
+!procedure CertificateAuthorityService($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CertificateAuthorityService', $name, $tech, $desc)
 !endprocedure
 
 !procedure CertificateAuthorityServiceCard($id, $funcName="", $content="")

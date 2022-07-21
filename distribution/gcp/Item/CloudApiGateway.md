@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudApiGateway')
 
 ' renders the element
-CloudApiGateway('CloudApiGateway', 'Cloud Api Gateway', 'an optional tech label')
+CloudApiGateway('CloudApiGateway', 'Cloud Api Gateway', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudApiGateway')
 
 ' renders the element
-CloudApiGateway('CloudApiGateway', 'Cloud Api Gateway', 'an optional tech label')
+CloudApiGateway('CloudApiGateway', 'Cloud Api Gateway', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

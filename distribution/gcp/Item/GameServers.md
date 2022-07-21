@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/GameServers')
 
 ' renders the element
-GameServers('GameServers', 'Game Servers', 'an optional tech label')
+GameServers('GameServers', 'Game Servers', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/GameServers')
 
 ' renders the element
-GameServers('GameServers', 'Game Servers', 'an optional tech label')
+GameServers('GameServers', 'Game Servers', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

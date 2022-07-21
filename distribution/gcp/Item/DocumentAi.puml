@@ -8,8 +8,8 @@ sprite $DocumentAiMd [16x16/16z] ZKt70G0X20igWVqNFdjzdHL8mu-b98ysUEjTLz--joTsBm8
 
 sprite $DocumentAiLg [20x20/16z] fOw50SD030FFhFqNBZCtkKUpM8bf3n1NNofsW6GtlkCxBtmKttoctOdSFLSVLLJYTxuJ_L0xCqgUykvdp13fTpuYThjVQUuRtnv0kbRtxBZc_SeM
 
-!procedure DocumentAi($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/DocumentAi', $name, $tech)
+!procedure DocumentAi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/DocumentAi', $name, $tech, $desc)
 !endprocedure
 
 !procedure DocumentAiCard($id, $funcName="", $content="")

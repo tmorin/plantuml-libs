@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Batch')
 
 ' renders the element
-Batch('Batch', 'Batch', 'an optional tech label')
+Batch('Batch', 'Batch', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Batch')
 
 ' renders the element
-Batch('Batch', 'Batch', 'an optional tech label')
+Batch('Batch', 'Batch', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

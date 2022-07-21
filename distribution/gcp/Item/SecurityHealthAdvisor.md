@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/SecurityHealthAdvisor')
 
 ' renders the element
-SecurityHealthAdvisor('SecurityHealthAdvisor', 'Security Health Advisor', 'an optional tech label')
+SecurityHealthAdvisor('SecurityHealthAdvisor', 'Security Health Advisor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/SecurityHealthAdvisor')
 
 ' renders the element
-SecurityHealthAdvisor('SecurityHealthAdvisor', 'Security Health Advisor', 'an optional tech label')
+SecurityHealthAdvisor('SecurityHealthAdvisor', 'Security Health Advisor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

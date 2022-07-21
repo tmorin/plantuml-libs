@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/PremiumNetworkTier')
 
 ' renders the element
-PremiumNetworkTier('PremiumNetworkTier', 'Premium Network Tier', 'an optional tech label')
+PremiumNetworkTier('PremiumNetworkTier', 'Premium Network Tier', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/PremiumNetworkTier')
 
 ' renders the element
-PremiumNetworkTier('PremiumNetworkTier', 'Premium Network Tier', 'an optional tech label')
+PremiumNetworkTier('PremiumNetworkTier', 'Premium Network Tier', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

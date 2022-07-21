@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/AgentAssist')
 
 ' renders the element
-AgentAssist('AgentAssist', 'Agent Assist', 'an optional tech label')
+AgentAssist('AgentAssist', 'Agent Assist', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/AgentAssist')
 
 ' renders the element
-AgentAssist('AgentAssist', 'Agent Assist', 'an optional tech label')
+AgentAssist('AgentAssist', 'Agent Assist', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

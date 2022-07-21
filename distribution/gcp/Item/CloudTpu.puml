@@ -11,8 +11,8 @@ fL07aWGm228YnF-_-CnjSTfsKcJiYfzXWMuHew9DEMd5g0QtmCDy66KB1qsozi9oK-aMYrXPLSbRBDLC
 sQe8N9GUFDq1r3gr27o2Fm
 }
 
-!procedure CloudTpu($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudTpu', $name, $tech)
+!procedure CloudTpu($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudTpu', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudTpuCard($id, $funcName="", $content="")

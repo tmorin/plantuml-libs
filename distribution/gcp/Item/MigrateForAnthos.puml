@@ -11,8 +11,8 @@ hOs50SCm3C3CrlyNhv2CULCRaad-GkkDCl8sBRXET2IuSlYoua8bqc9SfYssfVDSPQ_MJcEygFMLtJKK
 omQJIwn2Nd4
 }
 
-!procedure MigrateForAnthos($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/MigrateForAnthos', $name, $tech)
+!procedure MigrateForAnthos($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/MigrateForAnthos', $name, $tech, $desc)
 !endprocedure
 
 !procedure MigrateForAnthosCard($id, $funcName="", $content="")

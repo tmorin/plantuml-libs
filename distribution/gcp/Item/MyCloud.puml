@@ -8,8 +8,8 @@ sprite $MyCloudMd [16x16/16z] hOt50SKm3CMUKVjF_B5uAIinavuXCpGJq325XlsIOuJh2_4tFa
 
 sprite $MyCloudLg [20x20/16z] lKq54e0m36Er_F_7tBI1SsI1MMF7HXGtkuq25SeZmAgKXuv-6iWtewOGu0n8BOHGkrXzwfHHjl1izi0liwWpGPWlH8yl8DJH6vm
 
-!procedure MyCloud($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/MyCloud', $name, $tech)
+!procedure MyCloud($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/MyCloud', $name, $tech, $desc)
 !endprocedure
 
 !procedure MyCloudCard($id, $funcName="", $content="")

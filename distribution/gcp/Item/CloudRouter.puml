@@ -11,8 +11,8 @@ bOu55e0m34ChMTxkVsAcnUt3h9R8NonVX3BFeS95Q5k9ihINMSGuOY6acifJITOHgbfYwoIBQn_lSOiO
 0W
 }
 
-!procedure CloudRouter($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudRouter', $name, $tech)
+!procedure CloudRouter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudRouter', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudRouterCard($id, $funcName="", $content="")

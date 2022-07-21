@@ -8,8 +8,8 @@ sprite $SecurityHealthAdvisorMd [16x16/16z] ZOs50G0n308Xv6dtN_ZT_Qenm3yO-qYsf2L5
 
 sprite $SecurityHealthAdvisorLg [20x20/16z] hSZL0KKn34En4xlnxVuJFsO6VOe_66tfSf9uxJJQ39JELc5F5wSxDpT9dLzNG6DZqtEZQPZ8dAjb69yk3ImJhEDr2XZex2fXm-R4QT2-JXdRnGKDYm-j
 
-!procedure SecurityHealthAdvisor($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/SecurityHealthAdvisor', $name, $tech)
+!procedure SecurityHealthAdvisor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/SecurityHealthAdvisor', $name, $tech, $desc)
 !endprocedure
 
 !procedure SecurityHealthAdvisorCard($id, $funcName="", $content="")

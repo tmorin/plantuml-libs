@@ -11,8 +11,8 @@ fOq53WCn40Dj9sxs_ny-3Yc2jZVYaG5lKHmWsUYKqnLua2bEFeVBg4GiNL_51_LOBL6i1pqcrTYWhY0Z
 OGS
 }
 
-!procedure Automl($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Automl', $name, $tech)
+!procedure Automl($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Automl', $name, $tech, $desc)
 !endprocedure
 
 !procedure AutomlCard($id, $funcName="", $content="")

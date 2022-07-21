@@ -8,8 +8,8 @@ sprite $AssuredWorkloadsMd [16x16/16z] ZSs54G1124FHa43c-c_utFsllZ7mAvexXMJddeJjc
 
 sprite $AssuredWorkloadsLg [20x20/16z] fOw35K1H34E3f_qN_hPnZzi8Bw5s9pd5pSbsIcajig7c6AQJMnXIotJgw4vJg3AOmM8KOY0MeFozTTErkNNrtDtOtUmmx9F8VhPwfkdOq7KyfWO
 
-!procedure AssuredWorkloads($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/AssuredWorkloads', $name, $tech)
+!procedure AssuredWorkloads($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/AssuredWorkloads', $name, $tech, $desc)
 !endprocedure
 
 !procedure AssuredWorkloadsCard($id, $funcName="", $content="")

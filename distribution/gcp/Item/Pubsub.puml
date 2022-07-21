@@ -11,8 +11,8 @@ bOy54i0W30JZa_z_k2tEmLXnDdhqTwZAYLXLRpzaDSYSgtz37bvObdU4KhkZEDlEgFvKkPR24kCBJ6wa
 0G
 }
 
-!procedure Pubsub($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Pubsub', $name, $tech)
+!procedure Pubsub($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Pubsub', $name, $tech, $desc)
 !endprocedure
 
 !procedure PubsubCard($id, $funcName="", $content="")

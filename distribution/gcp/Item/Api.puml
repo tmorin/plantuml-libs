@@ -8,8 +8,8 @@ sprite $ApiMd [16x16/16z] fOg55S1024Dp0ddTV-66kki_WGZ-aiqAO5Rr2L0aq-UW01EOdHA8jz
 
 sprite $ApiLg [20x20/16z] lSW54a9130JHpYRp1-v_OMfmAqLwDOz_L2Crb3GBb702foedRCfT5kEXj9zwCjeDjZgsIR5riftTbTjSRHJRPkfcL4oaTpQovj7AYMxeeXUf4r_k
 
-!procedure Api($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Api', $name, $tech)
+!procedure Api($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Api', $name, $tech, $desc)
 !endprocedure
 
 !procedure ApiCard($id, $funcName="", $content="")

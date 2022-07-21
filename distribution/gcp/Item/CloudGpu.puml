@@ -11,8 +11,8 @@ bT055WCn20HGCi7kV-9YVJofplfde_HFn3akaFi7IzgC16rCE6oh_Q7nO6xJCkDRnRBhRIMgQSUTaQRR
 VTehrXiNI9NUvG4
 }
 
-!procedure CloudGpu($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudGpu', $name, $tech)
+!procedure CloudGpu($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudGpu', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudGpuCard($id, $funcName="", $content="")

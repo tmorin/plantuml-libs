@@ -11,8 +11,8 @@ bSv50WGm34BH7qXRxd_XSVTvooZyHtQIuiex6ZDPnNM80oUNAN5IAtMgGRcnGPa0CjSQCvSnjQkxW0Ym
 PGiwG6TnOXzgjoNgDEVcZXUVR04
 }
 
-!procedure Connectors($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Connectors', $name, $tech)
+!procedure Connectors($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Connectors', $name, $tech, $desc)
 !endprocedure
 
 !procedure ConnectorsCard($id, $funcName="", $content="")

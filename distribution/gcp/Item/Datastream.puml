@@ -8,8 +8,8 @@ sprite $DatastreamMd [16x16/16z] XSo30KGn44NHEmfU__sk-NdY33Ybmlao2Qdn4VSbvq_Nkik
 
 sprite $DatastreamLg [20x20/16z] fSt50GGn34FHRvn4_VUxp0plPXH_aGPpv4rl8cdXKW8CENSaxgJosM8Om5IHcPXK3Ca0INHtu5gGb80tEm6GcbpekizjurOtPwKWyg9rpZKkr7J2-C4Q
 
-!procedure Datastream($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Datastream', $name, $tech)
+!procedure Datastream($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Datastream', $name, $tech, $desc)
 !endprocedure
 
 !procedure DatastreamCard($id, $funcName="", $content="")

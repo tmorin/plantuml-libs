@@ -8,8 +8,8 @@ sprite $AdvancedAgentModelingMd [16x16/16z] TSx50KGX303HXS6I_llTRxZCxQ7v7JAZW8wy
 
 sprite $AdvancedAgentModelingLg [20x20/16z] bS_50SGW40NGSTd--usYiwVy2F1m-1fYBC9FLaNkMQPTKPOL7merlKeQTb66sMPgwPVPFixiboP_viQRYPddPlqiYz63zIfT29PG7rJiac84DLYXvWG
 
-!procedure AdvancedAgentModeling($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/AdvancedAgentModeling', $name, $tech)
+!procedure AdvancedAgentModeling($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/AdvancedAgentModeling', $name, $tech, $desc)
 !endprocedure
 
 !procedure AdvancedAgentModelingCard($id, $funcName="", $content="")

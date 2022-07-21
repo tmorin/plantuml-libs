@@ -11,8 +11,8 @@ bOy74iCm20IH3jRy_yK90tBAj6HjDVhP7spPiCvDaZc5BscDRGDI04zZfsuOBrZV36hFQww5TrHcLjrz
 WICrq0XFy1fHmSK9smnYUiIkp0YlyYxxcGS
 }
 
-!procedure CloudScheduler($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudScheduler', $name, $tech)
+!procedure CloudScheduler($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudScheduler', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudSchedulerCard($id, $funcName="", $content="")

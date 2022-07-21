@@ -11,8 +11,8 @@ bSy50W8n3031UFR_BoQbkBFdSzRAdx5MvujnxIHgsEaqEPt1ZL6dqx7eRX-JKpgMG4YYcwelLdHkj1kx
 zEry0op0nMNMKyLKyb2cofSE
 }
 
-!procedure MigrateForComputeEngine($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/MigrateForComputeEngine', $name, $tech)
+!procedure MigrateForComputeEngine($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/MigrateForComputeEngine', $name, $tech, $desc)
 !endprocedure
 
 !procedure MigrateForComputeEngineCard($id, $funcName="", $content="")

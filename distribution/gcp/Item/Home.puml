@@ -8,8 +8,8 @@ sprite $HomeMd [16x16/16z] hOvN0i0W2CLK28_U_y3TU_pLdQX0-MZSaBEeeBE0JW4d34tYGBI92
 
 sprite $HomeLg [20x20/16z] lT0t5eH04CJGTPhQkV-1yGXFYA9-F-jwtVOx4XmG3WYb8ah9Z5A9A949fK14YOWI4JzG_u1MuFL-ZQJv0iFrhFtwrYEs
 
-!procedure Home($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Home', $name, $tech)
+!procedure Home($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Home', $name, $tech, $desc)
 !endprocedure
 
 !procedure HomeCard($id, $funcName="", $content="")

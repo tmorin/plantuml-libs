@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/ComputeEngine')
 
 ' renders the element
-ComputeEngine('ComputeEngine', 'Compute Engine', 'an optional tech label')
+ComputeEngine('ComputeEngine', 'Compute Engine', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/ComputeEngine')
 
 ' renders the element
-ComputeEngine('ComputeEngine', 'Compute Engine', 'an optional tech label')
+ComputeEngine('ComputeEngine', 'Compute Engine', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

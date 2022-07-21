@@ -8,8 +8,8 @@ sprite $VirtualPrivateCloudMd [16x16/16z] dOx50S0m24Lns7_YnltK5yK_N61Y-I2BQR6PpQ
 
 sprite $VirtualPrivateCloudLg [20x20/16z] fO-50KGn24EvaAJTV-6pxswlYaES9bDszqtRdKxABvpeQl4NJNGalanYv_b2bT7Xshmg8rrf8upee1_haX8RpIjfSczUcryEvvt70knq06p56Xy
 
-!procedure VirtualPrivateCloud($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/VirtualPrivateCloud', $name, $tech)
+!procedure VirtualPrivateCloud($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/VirtualPrivateCloud', $name, $tech, $desc)
 !endprocedure
 
 !procedure VirtualPrivateCloudCard($id, $funcName="", $content="")

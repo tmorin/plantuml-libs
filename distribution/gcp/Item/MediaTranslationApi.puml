@@ -8,8 +8,8 @@ sprite $MediaTranslationApiMd [16x16/16z] bSc53GD13031DRl_YgEd0q6ItyEH-PdO7QA7qv
 
 sprite $MediaTranslationApiLg [20x20/16z] dSd50S0m3CLG6Mh__HSkOuvL-8M_sRvDTHNXXrNQtME0YQsNQQy0kstxRvvsGrvG3HMtfGnKRpDb4vtzcCi8Ij9ZHuBEo-pLQLEzOxSonXvwClws
 
-!procedure MediaTranslationApi($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/MediaTranslationApi', $name, $tech)
+!procedure MediaTranslationApi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/MediaTranslationApi', $name, $tech, $desc)
 !endprocedure
 
 !procedure MediaTranslationApiCard($id, $funcName="", $content="")

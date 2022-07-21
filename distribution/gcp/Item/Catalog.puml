@@ -8,8 +8,8 @@ sprite $CatalogMd [16x16/16z] ZOs50GCn30FDiF_0mVQPBcYIu1io-KKu4DLVKGV_s3gRs3k_-3
 
 sprite $CatalogLg [20x20/16z] hSs50SGW44JHMKFwR_WOpkB-uZy87c3nyIloCMWU7xycHZfgdYdscZVclQarR9KCbFcgR2FJ1kY_bKuy8tuDn3VpNqk8zb0Dv4_xCQRLVMq2Yru
 
-!procedure Catalog($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Catalog', $name, $tech)
+!procedure Catalog($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Catalog', $name, $tech, $desc)
 !endprocedure
 
 !procedure CatalogCard($id, $funcName="", $content="")

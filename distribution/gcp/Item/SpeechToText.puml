@@ -8,8 +8,8 @@ sprite $SpeechToTextMd [16x16/16z] ZSU50S0m2011w6FxJrntoqVWv2MzCBOLDgF35xuvc8qEX
 
 sprite $SpeechToTextLg [20x20/16z] bSY53S1G30DHXzpilt2P11zoejD3DQSCBEnd4QVHVqRsZ3oDNhKqv0BF-weMVbhepu3JW9u1jztrpOXU6m
 
-!procedure SpeechToText($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/SpeechToText', $name, $tech)
+!procedure SpeechToText($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/SpeechToText', $name, $tech, $desc)
 !endprocedure
 
 !procedure SpeechToTextCard($id, $funcName="", $content="")

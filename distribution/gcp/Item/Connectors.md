@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Connectors')
 
 ' renders the element
-Connectors('Connectors', 'Connectors', 'an optional tech label')
+Connectors('Connectors', 'Connectors', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Connectors')
 
 ' renders the element
-Connectors('Connectors', 'Connectors', 'an optional tech label')
+Connectors('Connectors', 'Connectors', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

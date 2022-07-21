@@ -8,8 +8,8 @@ sprite $DatapolMd [16x16/16z] RKu50W0n21h2ulyVliBhsIrbHW3iCYTf6qSQ9Ele9Edngm_tsv
 
 sprite $DatapolLg [20x20/16z] bO_L0S0W34JXfCt-2zTTuVt4vL8L9B7R2N30jaPxp2b2t1lpLD_jX1SVUww9XwDQx6YsPG2EopZIH71Yxnl1dZg9I3jjf1juqok9LxrUzEOFlHd0QB7OEpq
 
-!procedure Datapol($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Datapol', $name, $tech)
+!procedure Datapol($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Datapol', $name, $tech, $desc)
 !endprocedure
 
 !procedure DatapolCard($id, $funcName="", $content="")

@@ -11,8 +11,8 @@ ZSy7WWCW24JHhpBCUlyBRo2zn-wpmgSq_6po8mx9ZwWsFr2Rxmt6erNxYscY9ojnd66AE1bBrtDdItlL
 YxObmrYPa7P9JTTzaFy
 }
 
-!procedure Launcher($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Launcher', $name, $tech)
+!procedure Launcher($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Launcher', $name, $tech, $desc)
 !endprocedure
 
 !procedure LauncherCard($id, $funcName="", $content="")

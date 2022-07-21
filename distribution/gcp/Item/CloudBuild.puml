@@ -8,8 +8,8 @@ sprite $CloudBuildMd [16x16/16z] ZOw54S0m30C5eVqNBjUdutpGBEmXAopwHXNxOJa8_WaoY3w
 
 sprite $CloudBuildLg [20x20/16z] bS-tbGL148LGNZ5Rf_DFUDLNBQp1l1xSpcoGKekvKbqqJl5CDJ1H5IdiOB3-JONkPe2JsHs7MUsBSLYktRWOevdDa2xAsHIY_pRZUVTlOQx4ubu_
 
-!procedure CloudBuild($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudBuild', $name, $tech)
+!procedure CloudBuild($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudBuild', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudBuildCard($id, $funcName="", $content="")

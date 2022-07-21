@@ -8,8 +8,8 @@ sprite $CloudDeployMd [16x16/16z] ZSZ50GG13810ukc_uTDrvpVmCDkuMpVkcX1AzgSOdO7KPq
 
 sprite $CloudDeployLg [20x20/16z] hSYr0GC1302nCyRxBnn-Pb0fRb4sSrLpLq77vNrVrbs64D_KxZ8TiZqHD3-KzjGKudtHlpUqlJPbT4XpZ-ve3XiS_ZcG_a4meC9nBm
 
-!procedure CloudDeploy($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudDeploy', $name, $tech)
+!procedure CloudDeploy($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudDeploy', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudDeployCard($id, $funcName="", $content="")

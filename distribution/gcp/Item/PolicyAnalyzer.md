@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/PolicyAnalyzer')
 
 ' renders the element
-PolicyAnalyzer('PolicyAnalyzer', 'Policy Analyzer', 'an optional tech label')
+PolicyAnalyzer('PolicyAnalyzer', 'Policy Analyzer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/PolicyAnalyzer')
 
 ' renders the element
-PolicyAnalyzer('PolicyAnalyzer', 'Policy Analyzer', 'an optional tech label')
+PolicyAnalyzer('PolicyAnalyzer', 'Policy Analyzer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

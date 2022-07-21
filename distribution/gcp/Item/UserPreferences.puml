@@ -11,8 +11,8 @@ XT250G8n40J0ZPtqtp2dEFo-PkB1dp2hwYkDDnjsdx3prCqaJDNUGPaDpInWbmtiGe12SgIqKxXovEnR
 YosazxkXXCwwFByAaKXtkm4
 }
 
-!procedure UserPreferences($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/UserPreferences', $name, $tech)
+!procedure UserPreferences($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/UserPreferences', $name, $tech, $desc)
 !endprocedure
 
 !procedure UserPreferencesCard($id, $funcName="", $content="")

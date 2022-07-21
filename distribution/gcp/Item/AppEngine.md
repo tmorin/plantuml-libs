@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/AppEngine')
 
 ' renders the element
-AppEngine('AppEngine', 'App Engine', 'an optional tech label')
+AppEngine('AppEngine', 'App Engine', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/AppEngine')
 
 ' renders the element
-AppEngine('AppEngine', 'App Engine', 'an optional tech label')
+AppEngine('AppEngine', 'App Engine', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

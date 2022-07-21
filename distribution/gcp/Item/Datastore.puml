@@ -8,8 +8,8 @@ sprite $DatastoreMd [16x16/16z] bSa70e0W34FHj35m_niRt7iyPNoAtx8X2HeGlgk4AIBTR0rV
 
 sprite $DatastoreLg [20x20/16z] hSX50e1G24LH6lU_OXzCxFRyvDBlf90LwGjD8TYPMKrmprhzZ74_QLx8GBblsXUPwQnWqZVQWAFTGYlwW-OYekmGweN-DW8
 
-!procedure Datastore($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Datastore', $name, $tech)
+!procedure Datastore($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Datastore', $name, $tech, $desc)
 !endprocedure
 
 !procedure DatastoreCard($id, $funcName="", $content="")

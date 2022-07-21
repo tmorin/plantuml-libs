@@ -11,8 +11,8 @@ bSs50GD124HHu5y6-gyuvwwp_jRiQ_98oWCsedvhY426YeLeuwtb2ec-giN5yDuMNEwsATawgCSycghf
 D7QRFm
 }
 
-!procedure ManagedServiceForMicrosoftActiveDirectory($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/ManagedServiceForMicrosoftActiveDirectory', $name, $tech)
+!procedure ManagedServiceForMicrosoftActiveDirectory($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/ManagedServiceForMicrosoftActiveDirectory', $name, $tech, $desc)
 !endprocedure
 
 !procedure ManagedServiceForMicrosoftActiveDirectoryCard($id, $funcName="", $content="")

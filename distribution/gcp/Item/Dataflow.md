@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Dataflow')
 
 ' renders the element
-Dataflow('Dataflow', 'Dataflow', 'an optional tech label')
+Dataflow('Dataflow', 'Dataflow', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Dataflow')
 
 ' renders the element
-Dataflow('Dataflow', 'Dataflow', 'an optional tech label')
+Dataflow('Dataflow', 'Dataflow', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

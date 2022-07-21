@@ -11,8 +11,8 @@ bP075iGW24I5Fqwu_udt6RAzs_rqnXyZG3RhcSIE81F9aXAna4mkYQjAENPcW6cxRPhfAS1x5fcIuie0
 LR6O1bNLeRLjtHuuhawg7OtlumG
 }
 
-!procedure Workflows($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Workflows', $name, $tech)
+!procedure Workflows($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Workflows', $name, $tech, $desc)
 !endprocedure
 
 !procedure WorkflowsCard($id, $funcName="", $content="")

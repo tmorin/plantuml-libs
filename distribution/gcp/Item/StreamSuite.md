@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/StreamSuite')
 
 ' renders the element
-StreamSuite('StreamSuite', 'Stream Suite', 'an optional tech label')
+StreamSuite('StreamSuite', 'Stream Suite', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/StreamSuite')
 
 ' renders the element
-StreamSuite('StreamSuite', 'Stream Suite', 'an optional tech label')
+StreamSuite('StreamSuite', 'Stream Suite', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

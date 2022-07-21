@@ -8,8 +8,8 @@ sprite $CloudDeploymentManagerMd [16x16/16z] XOs50G0n30A9i__2xoxjLME0Bdx10CauoJd
 
 sprite $CloudDeploymentManagerLg [20x20/16z] fSs53SCm54NH1_wm_yHLc4KzuHi3_f8tOsgXiuof3QmqtQxD7fTcGbRfqefJJkrDPYG1AFTc0CH4MnEnkUnxQ-6pfTrCZPwegZp3ZjsDcsaShobcngSV
 
-!procedure CloudDeploymentManager($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudDeploymentManager', $name, $tech)
+!procedure CloudDeploymentManager($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudDeploymentManager', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudDeploymentManagerCard($id, $funcName="", $content="")

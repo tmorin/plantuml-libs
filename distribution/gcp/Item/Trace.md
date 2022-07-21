@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Trace')
 
 ' renders the element
-Trace('Trace', 'Trace', 'an optional tech label')
+Trace('Trace', 'Trace', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Trace')
 
 ' renders the element
-Trace('Trace', 'Trace', 'an optional tech label')
+Trace('Trace', 'Trace', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

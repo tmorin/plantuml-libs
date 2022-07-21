@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/DataprocMetastore')
 
 ' renders the element
-DataprocMetastore('DataprocMetastore', 'Dataproc Metastore', 'an optional tech label')
+DataprocMetastore('DataprocMetastore', 'Dataproc Metastore', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/DataprocMetastore')
 
 ' renders the element
-DataprocMetastore('DataprocMetastore', 'Dataproc Metastore', 'an optional tech label')
+DataprocMetastore('DataprocMetastore', 'Dataproc Metastore', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

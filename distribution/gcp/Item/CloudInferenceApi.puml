@@ -8,8 +8,8 @@ sprite $CloudInferenceApiMd [16x16/16z] XSm55e0m30HH9ilB_OyC4LowrL_9D8oe5PrjPnE8
 
 sprite $CloudInferenceApiLg [20x20/16z] bSc53S004CD0vsd_ZSlCjIYwy3dttNmpS-rDMaoJoMqnrxkPJSPeCeQCVPNpYF5FKOLIC8pEepHE-s6m6EpDusnJYs5YGIvh0G
 
-!procedure CloudInferenceApi($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudInferenceApi', $name, $tech)
+!procedure CloudInferenceApi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudInferenceApi', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudInferenceApiCard($id, $funcName="", $content="")

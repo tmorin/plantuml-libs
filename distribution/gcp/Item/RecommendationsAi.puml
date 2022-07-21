@@ -8,8 +8,8 @@ sprite $RecommendationsAiMd [16x16/16z] TOs50GDH349fYUq_yKNEvNsD0Jxu3NlCnh8GYKqi
 
 sprite $RecommendationsAiLg [20x20/16z] bSw55O0m34NHMcJ_YObyt1-IdekMttN4jXvHdutTr9EnD_PbMEi5HdPAitcopREjjR3XXGbxPf9VS_kQHWEJqeI8XXjPtGd_ukRpfx55PkABD8u8y-wF9m
 
-!procedure RecommendationsAi($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/RecommendationsAi', $name, $tech)
+!procedure RecommendationsAi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/RecommendationsAi', $name, $tech, $desc)
 !endprocedure
 
 !procedure RecommendationsAiCard($id, $funcName="", $content="")

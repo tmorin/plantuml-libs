@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudDataFusion')
 
 ' renders the element
-CloudDataFusion('CloudDataFusion', 'Cloud Data Fusion', 'an optional tech label')
+CloudDataFusion('CloudDataFusion', 'Cloud Data Fusion', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudDataFusion')
 
 ' renders the element
-CloudDataFusion('CloudDataFusion', 'Cloud Data Fusion', 'an optional tech label')
+CloudDataFusion('CloudDataFusion', 'Cloud Data Fusion', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

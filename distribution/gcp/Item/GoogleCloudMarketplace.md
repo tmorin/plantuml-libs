@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/GoogleCloudMarketplace')
 
 ' renders the element
-GoogleCloudMarketplace('GoogleCloudMarketplace', 'Google Cloud Marketplace', 'an optional tech label')
+GoogleCloudMarketplace('GoogleCloudMarketplace', 'Google Cloud Marketplace', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/GoogleCloudMarketplace')
 
 ' renders the element
-GoogleCloudMarketplace('GoogleCloudMarketplace', 'Google Cloud Marketplace', 'an optional tech label')
+GoogleCloudMarketplace('GoogleCloudMarketplace', 'Google Cloud Marketplace', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

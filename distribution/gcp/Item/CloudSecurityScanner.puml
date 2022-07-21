@@ -11,8 +11,8 @@ hOq55a8n40EdcsxwxtzX93WymQOUUUK_LF72a6ZxAL1gcY1nHXCJDzAS0Dt9sLjsDr24QF81O8neRRze
 0G
 }
 
-!procedure CloudSecurityScanner($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudSecurityScanner', $name, $tech)
+!procedure CloudSecurityScanner($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudSecurityScanner', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudSecurityScannerCard($id, $funcName="", $content="")

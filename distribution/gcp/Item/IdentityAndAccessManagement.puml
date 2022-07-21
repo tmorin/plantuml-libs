@@ -11,8 +11,8 @@ bSy53W0X34HHz7VkV-4rPDqcrhn0nVrD5dk8W2JI-eGvMfBMHn1yKR_QN5mP1miNxqZ9j5ekbekjS-DI
 XQAhN6K4
 }
 
-!procedure IdentityAndAccessManagement($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/IdentityAndAccessManagement', $name, $tech)
+!procedure IdentityAndAccessManagement($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/IdentityAndAccessManagement', $name, $tech, $desc)
 !endprocedure
 
 !procedure IdentityAndAccessManagementCard($id, $funcName="", $content="")

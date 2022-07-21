@@ -11,8 +11,8 @@ bSk5RKL150FHkUIt_LSShPDynX4VsNnRLN1PsWee_f9i2RqQDoh-niY8vAiq06lLjlPsUZWswizAtkIb
 UPa1iLRWolEgFUCYsssHlEe7
 }
 
-!procedure CloudAuditLogs($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudAuditLogs', $name, $tech)
+!procedure CloudAuditLogs($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudAuditLogs', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudAuditLogsCard($id, $funcName="", $content="")

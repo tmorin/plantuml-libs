@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Workflows')
 
 ' renders the element
-Workflows('Workflows', 'Workflows', 'an optional tech label')
+Workflows('Workflows', 'Workflows', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Workflows')
 
 ' renders the element
-Workflows('Workflows', 'Workflows', 'an optional tech label')
+Workflows('Workflows', 'Workflows', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

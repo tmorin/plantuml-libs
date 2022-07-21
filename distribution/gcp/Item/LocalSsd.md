@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/LocalSsd')
 
 ' renders the element
-LocalSsd('LocalSsd', 'Local Ssd', 'an optional tech label')
+LocalSsd('LocalSsd', 'Local Ssd', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/LocalSsd')
 
 ' renders the element
-LocalSsd('LocalSsd', 'Local Ssd', 'an optional tech label')
+LocalSsd('LocalSsd', 'Local Ssd', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

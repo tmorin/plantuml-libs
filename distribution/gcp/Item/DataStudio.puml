@@ -8,8 +8,8 @@ sprite $DataStudioMd [16x16/16z] ZSwr0G0X30NG7y_-2v_IuBmAuZWZ_eXa5FxApDcVvQ6A5tt
 
 sprite $DataStudioLg [20x20/16z] dO-54S1G24Dns7_XklVxE-Em9308FclRY8YxjxTywTdLqskFuTFqK4Xplw9_wwyO2xStEVVyvNqdbMg3dgrYDatqf92jpWm
 
-!procedure DataStudio($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/DataStudio', $name, $tech)
+!procedure DataStudio($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/DataStudio', $name, $tech, $desc)
 !endprocedure
 
 !procedure DataStudioCard($id, $funcName="", $content="")

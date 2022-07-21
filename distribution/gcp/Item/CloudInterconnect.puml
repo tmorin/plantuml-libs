@@ -8,8 +8,8 @@ sprite $CloudInterconnectMd [16x16/16z] ZOs50G0X201fs7_Xxx3rb2vO0VMcY0qoo1xBp6P6
 
 sprite $CloudInterconnectLg [20x20/16z] fT053i0m30F0heaj___5ApUYuGaBmVGVft2NEyoxmDPTDZDdyVhEtS9TEPKx2U5EuiyQnL5OiUuYuyqECAKNJW
 
-!procedure CloudInterconnect($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudInterconnect', $name, $tech)
+!procedure CloudInterconnect($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudInterconnect', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudInterconnectCard($id, $funcName="", $content="")

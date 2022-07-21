@@ -11,8 +11,8 @@ XO-54G0X30I16Ec_u1VSsV6RoArPGnzCNUJ-J6GO2o4t4SICsq5AU6pF1TGR6-Qn3BAYmUQP1kBO5q8O
 HEjHgHwL5m
 }
 
-!procedure Project($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Project', $name, $tech)
+!procedure Project($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Project', $name, $tech, $desc)
 !endprocedure
 
 !procedure ProjectCard($id, $funcName="", $content="")

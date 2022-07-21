@@ -11,8 +11,8 @@ fS-r0KGn30DGXMJjl_21uMDpyBh4Z7zDfRR_wVv7YSkXT4cuiAXP3SSqUWTEl7WaMe-EHO_WPNZQU27G
 Jm
 }
 
-!procedure AutomlTables($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/AutomlTables', $name, $tech)
+!procedure AutomlTables($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/AutomlTables', $name, $tech, $desc)
 !endprocedure
 
 !procedure AutomlTablesCard($id, $funcName="", $content="")

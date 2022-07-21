@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/ToolsForPowershell')
 
 ' renders the element
-ToolsForPowershell('ToolsForPowershell', 'Tools For Powershell', 'an optional tech label')
+ToolsForPowershell('ToolsForPowershell', 'Tools For Powershell', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/ToolsForPowershell')
 
 ' renders the element
-ToolsForPowershell('ToolsForPowershell', 'Tools For Powershell', 'an optional tech label')
+ToolsForPowershell('ToolsForPowershell', 'Tools For Powershell', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

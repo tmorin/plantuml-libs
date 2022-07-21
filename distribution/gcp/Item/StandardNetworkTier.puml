@@ -8,8 +8,8 @@ sprite $StandardNetworkTierMd [16x16/16z] hKm50G11369E_yAlPm7c1g35187J2Wwkf-O_y5
 
 sprite $StandardNetworkTierLg [20x20/16z] nKs50S0m3AAImFyFp-ezO8qhu5UnVK03OJwVn983SZ-2sgDgTW9YgAUXxwBavS2-pwynYUYYWjjcPa2ZobQGOi0fkG4
 
-!procedure StandardNetworkTier($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/StandardNetworkTier', $name, $tech)
+!procedure StandardNetworkTier($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/StandardNetworkTier', $name, $tech, $desc)
 !endprocedure
 
 !procedure StandardNetworkTierCard($id, $funcName="", $content="")

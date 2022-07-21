@@ -8,8 +8,8 @@ sprite $PremiumNetworkTierMd [16x16/16z] jOkr0S0020HnRl-5uzR6S5xaILW1gVjRn3I33QZ
 
 sprite $PremiumNetworkTierLg [20x20/16z] pScr0GC14CH07M__3PivzTE44ak8TBwOReQtLZaGBUDXnAzytPZcJlueKj79HStzN0HWN2YVZPSnhlhnt3YwCm
 
-!procedure PremiumNetworkTier($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/PremiumNetworkTier', $name, $tech)
+!procedure PremiumNetworkTier($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/PremiumNetworkTier', $name, $tech, $desc)
 !endprocedure
 
 !procedure PremiumNetworkTierCard($id, $funcName="", $content="")

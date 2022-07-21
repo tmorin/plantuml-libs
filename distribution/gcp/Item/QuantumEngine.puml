@@ -11,8 +11,8 @@ bO-75SGW34DjPC3xJtoYNtgY5F4-hl99W2XeEe02Pa1xqHZIl_vP37yCneEcA3HUUpgo77lk7-jjDynm
 ZGQvqWy
 }
 
-!procedure QuantumEngine($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/QuantumEngine', $name, $tech)
+!procedure QuantumEngine($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/QuantumEngine', $name, $tech, $desc)
 !endprocedure
 
 !procedure QuantumEngineCard($id, $funcName="", $content="")

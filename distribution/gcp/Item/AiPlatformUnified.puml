@@ -8,8 +8,8 @@ sprite $AiPlatformUnifiedMd [16x16/16z] fOn50WGn40AB9alo_m-lZTx6wePo1a7GfigYPT7b
 
 sprite $AiPlatformUnifiedLg [20x20/16z] hSl50GD044BHFp1Bjl-6u-xsZWYVKcuIodYS1zWYCLM7p8MSfaRCWOr39noei3k9i0uh18xGQ5rzCvipAeTf45jbQvUfPuuhUvlDMHpLThTeBZd07pF4Coi
 
-!procedure AiPlatformUnified($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/AiPlatformUnified', $name, $tech)
+!procedure AiPlatformUnified($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/AiPlatformUnified', $name, $tech, $desc)
 !endprocedure
 
 !procedure AiPlatformUnifiedCard($id, $funcName="", $content="")

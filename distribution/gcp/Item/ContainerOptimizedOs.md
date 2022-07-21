@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/ContainerOptimizedOs')
 
 ' renders the element
-ContainerOptimizedOs('ContainerOptimizedOs', 'Container Optimized Os', 'an optional tech label')
+ContainerOptimizedOs('ContainerOptimizedOs', 'Container Optimized Os', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/ContainerOptimizedOs')
 
 ' renders the element
-ContainerOptimizedOs('ContainerOptimizedOs', 'Container Optimized Os', 'an optional tech label')
+ContainerOptimizedOs('ContainerOptimizedOs', 'Container Optimized Os', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

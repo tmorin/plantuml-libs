@@ -8,8 +8,8 @@ sprite $KuberunMd [16x16/16z] dKu30aK136gi-r_u6y-QlR12DibxdCOuz-eQfALyiF-wQWZKTx
 
 sprite $KuberunLg [20x20/16z] jSp5OGLG44BHEyQZ_uRZ-UvoTYF0lL8SQIKtA6cIFRQyF7khHPXmiv6Mq-aslwgH6Ck1InM0X4OMThcb1Y8OJzggSKPi-fA56RCrNeN60LljRy6-pE1DFW4
 
-!procedure Kuberun($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Kuberun', $name, $tech)
+!procedure Kuberun($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Kuberun', $name, $tech, $desc)
 !endprocedure
 
 !procedure KuberunCard($id, $funcName="", $content="")

@@ -8,8 +8,8 @@ sprite $CloudApiGatewayMd [16x16/16z] VSlL0SCm54FHQp_I_WktOKxEfu0NZPFAug0B7HVMiT
 
 sprite $CloudApiGatewayLg [20x20/16z] bSx50SH030J15dhoJ_WOpLi_iHZLQcPIhfZbbAJcVORBMFWPJZqzSpCgkji0VqD5LJcWDwPQdPLK0DPFA7dpUdhcPkQ_T11Y-TiyPoePCpOPEwu
 
-!procedure CloudApiGateway($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudApiGateway', $name, $tech)
+!procedure CloudApiGateway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudApiGateway', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudApiGatewayCard($id, $funcName="", $content="")

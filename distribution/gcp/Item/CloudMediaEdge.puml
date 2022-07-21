@@ -11,8 +11,8 @@ bT350GH124JH3qNNad_4EwwdURSMbA_4IzcGoOq5Kh5A9P3zGuhZJjZkDeTGK5dTwS6XfZW2Hb89aw2x
 JijT8ENPTPG2q14jYR3VYxBvw0y
 }
 
-!procedure CloudMediaEdge($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudMediaEdge', $name, $tech)
+!procedure CloudMediaEdge($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudMediaEdge', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudMediaEdgeCard($id, $funcName="", $content="")

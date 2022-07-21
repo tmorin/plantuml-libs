@@ -11,8 +11,8 @@ bOzN0i0m2491bEJ-9wxTuwzalpZnJyelYJ7jUA4nvoZRDyacsROMcBcRA-lyjGzhIJo9v3qPDsflJ-r9
 h0WcK0_BsEB9xvObDH5UefpuhGK
 }
 
-!procedure DatabaseMigrationService($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/DatabaseMigrationService', $name, $tech)
+!procedure DatabaseMigrationService($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/DatabaseMigrationService', $name, $tech, $desc)
 !endprocedure
 
 !procedure DatabaseMigrationServiceCard($id, $funcName="", $content="")

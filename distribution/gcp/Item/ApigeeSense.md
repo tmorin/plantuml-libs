@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/ApigeeSense')
 
 ' renders the element
-ApigeeSense('ApigeeSense', 'Apigee Sense', 'an optional tech label')
+ApigeeSense('ApigeeSense', 'Apigee Sense', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/ApigeeSense')
 
 ' renders the element
-ApigeeSense('ApigeeSense', 'Apigee Sense', 'an optional tech label')
+ApigeeSense('ApigeeSense', 'Apigee Sense', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

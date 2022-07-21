@@ -8,8 +8,8 @@ sprite $DataprocMd [16x16/16z] ZOx70S1G24A1fzb_u_HwolScNKCNyEirX0yjaVTlVNd8vtTNl
 
 sprite $DataprocLg [20x20/16z] dK-50S0W35iJ-F_buUvrb-yMHDe8BNGnoqtCC7XGfsb3NKotiK-wpGm7nID1GZb3nLBNP6CWJH3n3D2G9kAHrX9t2YN5I5Ys5c2r3nPMVkm9VW
 
-!procedure Dataproc($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Dataproc', $name, $tech)
+!procedure Dataproc($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Dataproc', $name, $tech, $desc)
 !endprocedure
 
 !procedure DataprocCard($id, $funcName="", $content="")

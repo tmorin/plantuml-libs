@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Stackdriver')
 
 ' renders the element
-Stackdriver('Stackdriver', 'Stackdriver', 'an optional tech label')
+Stackdriver('Stackdriver', 'Stackdriver', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Stackdriver')
 
 ' renders the element
-Stackdriver('Stackdriver', 'Stackdriver', 'an optional tech label')
+Stackdriver('Stackdriver', 'Stackdriver', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

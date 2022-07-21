@@ -11,8 +11,8 @@ bSx50GCm34FHRrAq_y9bvhvJOkO_uJtkZFU26pvfBjRn4_9Sgu2IG4xsOaujfJvtdFTL8ChMJIoAphZ6
 P-DL4JbsSf4-MDmgxt5FEyrxMm
 }
 
-!procedure ApigeeSense($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/ApigeeSense', $name, $tech)
+!procedure ApigeeSense($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/ApigeeSense', $name, $tech, $desc)
 !endprocedure
 
 !procedure ApigeeSenseCard($id, $funcName="", $content="")

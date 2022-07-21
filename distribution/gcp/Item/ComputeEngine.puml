@@ -11,8 +11,8 @@ bP250G0X30DBKjj_uNTNEFoAInDkGXyQVBe2LL01vIR1dMMTA_TefW-jsUZAoE0YR8bAuK2ElGaEJ2v6
 3Wtbozt_wauF
 }
 
-!procedure ComputeEngine($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/ComputeEngine', $name, $tech)
+!procedure ComputeEngine($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/ComputeEngine', $name, $tech, $desc)
 !endprocedure
 
 !procedure ComputeEngineCard($id, $funcName="", $content="")

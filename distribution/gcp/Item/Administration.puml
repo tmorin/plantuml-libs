@@ -8,8 +8,8 @@ sprite $AdministrationMd [16x16/16z] XKm55a0X23COFEv_u1zsEvEL6K40HAJCkCw6oBGpWRc
 
 sprite $AdministrationLg [20x20/16z] hOo53S1054B9tGVI_GUkkzkBejWZHGrhCD5grrnxiUCXX9MNKpZs_mhsZDkrbqEiFVUijkgzQGieiEVzlNtWxL41
 
-!procedure Administration($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Administration', $name, $tech)
+!procedure Administration($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Administration', $name, $tech, $desc)
 !endprocedure
 
 !procedure AdministrationCard($id, $funcName="", $content="")

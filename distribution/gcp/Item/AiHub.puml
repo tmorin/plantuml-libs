@@ -11,8 +11,8 @@ bSsr0S0m30H0lNZ_YMEcBb_P9wA_OS4Za1e-UtWgfeoF76fKN-YzgSEiJBTroCEqJYOUqyXgZjEoMFqk
 Lg2-PUUH9ny
 }
 
-!procedure AiHub($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/AiHub', $name, $tech)
+!procedure AiHub($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/AiHub', $name, $tech, $desc)
 !endprocedure
 
 !procedure AiHubCard($id, $funcName="", $content="")

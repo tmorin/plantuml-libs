@@ -8,8 +8,8 @@ sprite $DataQnaMd [16x16/16z] bSUr0S0m402n2ppilt0OpLOdMaotyQm-WFd1SN-ydwRF1OblQl
 
 sprite $DataQnaLg [20x20/16z] fSZ50G0X402n0TRwR_ZSNV8CVnLRI0UNWIopGd-nj3nJtPsMihu49-TcFu_-be3-T4Ol2Zk5hse
 
-!procedure DataQna($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/DataQna', $name, $tech)
+!procedure DataQna($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/DataQna', $name, $tech, $desc)
 !endprocedure
 
 !procedure DataQnaCard($id, $funcName="", $content="")

@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/AnthosServiceMesh')
 
 ' renders the element
-AnthosServiceMesh('AnthosServiceMesh', 'Anthos Service Mesh', 'an optional tech label')
+AnthosServiceMesh('AnthosServiceMesh', 'Anthos Service Mesh', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/AnthosServiceMesh')
 
 ' renders the element
-AnthosServiceMesh('AnthosServiceMesh', 'Anthos Service Mesh', 'an optional tech label')
+AnthosServiceMesh('AnthosServiceMesh', 'Anthos Service Mesh', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

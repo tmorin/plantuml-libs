@@ -8,8 +8,8 @@ sprite $PersistentDiskMd [16x16/16z] RSk35G0n303G-cN_XG-DySkePLtTU8fHn_Uz95xNbFX
 
 sprite $PersistentDiskLg [20x20/16z] bSx50S0W30LG7FPVk5ui_exHx_H2dDbhhXDgeNpGMeVNo96HfTTyQ-shvK-lpKRDvwxNOklOMYWpXpi1
 
-!procedure PersistentDisk($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/PersistentDisk', $name, $tech)
+!procedure PersistentDisk($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/PersistentDisk', $name, $tech, $desc)
 !endprocedure
 
 !procedure PersistentDiskCard($id, $funcName="", $content="")

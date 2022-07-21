@@ -8,8 +8,8 @@ sprite $CloudExternalIpAddressesMd [16x16/16z] Oy096440YSi10a2Q3Gn0V0OcC9yL141y9
 
 sprite $CloudExternalIpAddressesLg [20x20/16z] lSp50S0m40D1cTr_mu4DCsT-1v9ko8YIN8jT2EnYYvtKxWBOMTlkfdt7kmZNxYROJOOVTnReTbFimfJMbG
 
-!procedure CloudExternalIpAddresses($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudExternalIpAddresses', $name, $tech)
+!procedure CloudExternalIpAddresses($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudExternalIpAddresses', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudExternalIpAddressesCard($id, $funcName="", $content="")

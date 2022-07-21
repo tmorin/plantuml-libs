@@ -8,8 +8,8 @@ sprite $BillingMd [16x16/16z] ZSp50K0X30FG1Ahx3_pTbNUf5uquW-ZCBt9nhMqH2rKS-Qs-_9
 
 sprite $BillingLg [20x20/16z] fSp50G1120F0B4x_1P-xoxpGu0yUoOXquWToydHsbAUA3JkS7VqUpyQD6pkRoMecSAYKjhF6-fSFyl133G
 
-!procedure Billing($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Billing', $name, $tech)
+!procedure Billing($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Billing', $name, $tech, $desc)
 !endprocedure
 
 !procedure BillingCard($id, $funcName="", $content="")

@@ -8,8 +8,8 @@ sprite $CloudHealthcareApiMd [16x16/16z] VOt50O1G34D38-m_CUxotwaImG_TVILvMstV_ab
 
 sprite $CloudHealthcareApiLg [20x20/16z] bOy50e0m548NWFU_iVpPxPwkVfDwgRLSJEPiay4vphPBFOOfxu9Ww2KkLksORRbTm4ZOUiRrD4fn3gixrylGBd8CnSL6DNYSc1fmAhVr_R9PwniZ
 
-!procedure CloudHealthcareApi($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudHealthcareApi', $name, $tech)
+!procedure CloudHealthcareApi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudHealthcareApi', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudHealthcareApiCard($id, $funcName="", $content="")

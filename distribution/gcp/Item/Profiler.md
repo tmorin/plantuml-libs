@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Profiler')
 
 ' renders the element
-Profiler('Profiler', 'Profiler', 'an optional tech label')
+Profiler('Profiler', 'Profiler', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Profiler')
 
 ' renders the element
-Profiler('Profiler', 'Profiler', 'an optional tech label')
+Profiler('Profiler', 'Profiler', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

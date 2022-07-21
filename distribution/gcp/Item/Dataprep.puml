@@ -8,8 +8,8 @@ sprite $DataprepMd [16x16/16z] ROx50S1020HnwB_YvDoO7x82EOZdRBfF16OYE4P5ieZWCV-dD
 
 sprite $DataprepLg [20x20/16z] bT350GGW3031XHZzDtokEFD3efmAsxWJY3k-32FA3L-QlBaZGxYgJckOPf95UNbc8oDKTmf8X3zDUaucL2rZA56rfrhVpVTISsNc2W
 
-!procedure Dataprep($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Dataprep', $name, $tech)
+!procedure Dataprep($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Dataprep', $name, $tech, $desc)
 !endprocedure
 
 !procedure DataprepCard($id, $funcName="", $content="")

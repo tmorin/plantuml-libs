@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Beyondcorp')
 
 ' renders the element
-Beyondcorp('Beyondcorp', 'Beyondcorp', 'an optional tech label')
+Beyondcorp('Beyondcorp', 'Beyondcorp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Beyondcorp')
 
 ' renders the element
-Beyondcorp('Beyondcorp', 'Beyondcorp', 'an optional tech label')
+Beyondcorp('Beyondcorp', 'Beyondcorp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

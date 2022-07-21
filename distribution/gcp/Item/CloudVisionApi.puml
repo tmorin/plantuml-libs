@@ -8,8 +8,8 @@ sprite $CloudVisionApiMd [16x16/16z] dOl50G0n20HnwB_XkBvE9ieA_8IlYPWPpv60onaqRmj
 
 sprite $CloudVisionApiLg [20x20/16z] hOxL5G0X30HZx4l_5L_i_9V5Xq5eI_YFHB-GDI9l5gJQov9s-I5nlN73liaTyT1S2a0fcVUYJ0DMhDo81uqQVI6QpBu2Heyi8EhtqwL-8g0TEG
 
-!procedure CloudVisionApi($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudVisionApi', $name, $tech)
+!procedure CloudVisionApi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudVisionApi', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudVisionApiCard($id, $funcName="", $content="")

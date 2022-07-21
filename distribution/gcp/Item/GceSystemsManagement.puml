@@ -11,8 +11,8 @@ fO_5OGD030HFFFqtdDX7PfwNMBljTmp8gre0TPPx6eE8LMVEE83tKlKeAaq0v5ZBCGMe0Uj-w2WsQl_q
 fbwjUkIterNbxKF-0G
 }
 
-!procedure GceSystemsManagement($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/GceSystemsManagement', $name, $tech)
+!procedure GceSystemsManagement($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/GceSystemsManagement', $name, $tech, $desc)
 !endprocedure
 
 !procedure GceSystemsManagementCard($id, $funcName="", $content="")

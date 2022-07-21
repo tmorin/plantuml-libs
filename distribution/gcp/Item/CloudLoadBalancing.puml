@@ -8,8 +8,8 @@ sprite $CloudLoadBalancingMd [16x16/16z] bSS50e1024HHOKBlVs6xU_y6lEgcc5kS0Dp7Jsy
 
 sprite $CloudLoadBalancingLg [20x20/16z] fSd70S0m24DH1oGb-o_ibjxRFnXu3cyopwc4_pQ4hf_lpBp4rckzKSjwSrbz-_-zGJqvWVmAQEhRcrGkoUlxqyoGpKoIbPVXg0G
 
-!procedure CloudLoadBalancing($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudLoadBalancing', $name, $tech)
+!procedure CloudLoadBalancing($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudLoadBalancing', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudLoadBalancingCard($id, $funcName="", $content="")

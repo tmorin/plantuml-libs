@@ -11,8 +11,8 @@ ZT150WKX30FGCgdU_y2ZeTybkpmSUPV5p4OttPk8HGGeL_jiskQd3K1h8KK2u3d4gFl3tOu4ArHrY5qv
 Ptxubx_jNJO
 }
 
-!procedure Debugger($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Debugger', $name, $tech)
+!procedure Debugger($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Debugger', $name, $tech, $desc)
 !endprocedure
 
 !procedure DebuggerCard($id, $funcName="", $content="")

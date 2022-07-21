@@ -8,8 +8,8 @@ sprite $DialogflowInsightsMd [16x16/16z] TOt50S0m4CEIw8hxxrjMEVBhm7Qga9yJy9mModC
 
 sprite $DialogflowInsightsLg [20x20/16z] bS_L0K0X241HmOJzztrfj_Vpc8ZJf8HAGBvXkSdNY9R-WiemDsMahSoNcr7AILRBVMGqL_jQGvc2Sh9wEFIRAlEI6uew48jk
 
-!procedure DialogflowInsights($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/DialogflowInsights', $name, $tech)
+!procedure DialogflowInsights($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/DialogflowInsights', $name, $tech, $desc)
 !endprocedure
 
 !procedure DialogflowInsightsCard($id, $funcName="", $content="")

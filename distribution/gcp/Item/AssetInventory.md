@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/AssetInventory')
 
 ' renders the element
-AssetInventory('AssetInventory', 'Asset Inventory', 'an optional tech label')
+AssetInventory('AssetInventory', 'Asset Inventory', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/AssetInventory')
 
 ' renders the element
-AssetInventory('AssetInventory', 'Asset Inventory', 'an optional tech label')
+AssetInventory('AssetInventory', 'Asset Inventory', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

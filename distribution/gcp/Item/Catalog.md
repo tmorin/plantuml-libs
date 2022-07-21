@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Catalog')
 
 ' renders the element
-Catalog('Catalog', 'Catalog', 'an optional tech label')
+Catalog('Catalog', 'Catalog', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Catalog')
 
 ' renders the element
-Catalog('Catalog', 'Catalog', 'an optional tech label')
+Catalog('Catalog', 'Catalog', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

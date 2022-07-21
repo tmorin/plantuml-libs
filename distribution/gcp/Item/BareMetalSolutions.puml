@@ -8,8 +8,8 @@ sprite $BareMetalSolutionsMd [16x16/16z] ZOw30G0n5CNIx_qdFfklJ4f-He-OwWS4zGFs8Wu
 
 sprite $BareMetalSolutionsLg [20x20/16z] hOor0KCn4CLqVFil7FvWkmcfV23-WRVCaIMzHiYuZE1Ehn7IkaNfRDHsbpffjsopUx5XyVnuaEUmbKZw57LGuLI5FAFe6uNJTuGZJRatne4TctEQoeTS0G
 
-!procedure BareMetalSolutions($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/BareMetalSolutions', $name, $tech)
+!procedure BareMetalSolutions($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/BareMetalSolutions', $name, $tech, $desc)
 !endprocedure
 
 !procedure BareMetalSolutionsCard($id, $funcName="", $content="")

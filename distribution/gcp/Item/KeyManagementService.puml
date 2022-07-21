@@ -11,8 +11,8 @@ bSu53W0n24JHmQRS_yIRkaJtnry5yBT8tc0aCvE-hx2MBT-NQ82KYh8iuEcupS0iZpcOV8m2GsnJrXpP
 dTxozW4
 }
 
-!procedure KeyManagementService($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/KeyManagementService', $name, $tech)
+!procedure KeyManagementService($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/KeyManagementService', $name, $tech, $desc)
 !endprocedure
 
 !procedure KeyManagementServiceCard($id, $funcName="", $content="")

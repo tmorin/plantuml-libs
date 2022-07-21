@@ -8,8 +8,8 @@ sprite $CloudFirewallRulesMd [16x16/16z] XSo53S1030D0XxF_n9KjLL2yvm_WnkGyO4k55Tn
 
 sprite $CloudFirewallRulesLg [20x20/16z] fT350KCX403HWHNel-7OtEB9VoTqZQzj1Sj50qj1koYUYmX622AcyPXROBpCPAIkk-2vqYHTv8lwXbouUlIibgTdnsRL2if5ySmP
 
-!procedure CloudFirewallRules($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudFirewallRules', $name, $tech)
+!procedure CloudFirewallRules($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudFirewallRules', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudFirewallRulesCard($id, $funcName="", $content="")

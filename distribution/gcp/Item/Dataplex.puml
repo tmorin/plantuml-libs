@@ -11,8 +11,8 @@ bSxLOK1H3CDG1Pwlzb-upDpp6JJ_DJRlzL5JxsfUAxeyCG5M6CzZjIvygb7AWtXSUY56daKeskgdsbnG
 3oekArN4uPckQtXdzGmV3J-v1G
 }
 
-!procedure Dataplex($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Dataplex', $name, $tech)
+!procedure Dataplex($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Dataplex', $name, $tech, $desc)
 !endprocedure
 
 !procedure DataplexCard($id, $funcName="", $content="")

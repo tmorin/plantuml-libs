@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/ConfigurationManagement')
 
 ' renders the element
-ConfigurationManagement('ConfigurationManagement', 'Configuration Management', 'an optional tech label')
+ConfigurationManagement('ConfigurationManagement', 'Configuration Management', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/ConfigurationManagement')
 
 ' renders the element
-ConfigurationManagement('ConfigurationManagement', 'Configuration Management', 'an optional tech label')
+ConfigurationManagement('ConfigurationManagement', 'Configuration Management', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -95,13 +95,16 @@ skinparam DefaultFontColor $FONT_COLOR
 
 ' IconElement
 
-!procedure IconElement($id, $stereotype, $icon, $name="", $tech="")
+!procedure IconElement($id, $stereotype, $icon, $name="", $tech="", $desc="")
     !local $H="<img:" + getIcon($icon)+ ">"
     !if ($name != "")
         !$H=$H + "\n" + $name
     !endif
     !if ($tech != "")
         !$H=$H + "\n" + "<size:" + $FONT_SIZE_XS + "><color:" + $FONT_COLOR_LIGHT + ">[" + $tech + "]</color></size>"
+    !endif
+    !if ($desc != "")
+        !$H=$H + "\n\n" + $desc
     !endif
     card $id <<$stereotype>> as "$H"
 !endprocedure

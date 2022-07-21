@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/HealthcareNlpApi')
 
 ' renders the element
-HealthcareNlpApi('HealthcareNlpApi', 'Healthcare Nlp Api', 'an optional tech label')
+HealthcareNlpApi('HealthcareNlpApi', 'Healthcare Nlp Api', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/HealthcareNlpApi')
 
 ' renders the element
-HealthcareNlpApi('HealthcareNlpApi', 'Healthcare Nlp Api', 'an optional tech label')
+HealthcareNlpApi('HealthcareNlpApi', 'Healthcare Nlp Api', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

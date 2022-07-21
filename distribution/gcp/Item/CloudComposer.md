@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudComposer')
 
 ' renders the element
-CloudComposer('CloudComposer', 'Cloud Composer', 'an optional tech label')
+CloudComposer('CloudComposer', 'Cloud Composer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudComposer')
 
 ' renders the element
-CloudComposer('CloudComposer', 'Cloud Composer', 'an optional tech label')
+CloudComposer('CloudComposer', 'Cloud Composer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

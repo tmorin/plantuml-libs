@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/NetworkConnectivityCenter')
 
 ' renders the element
-NetworkConnectivityCenter('NetworkConnectivityCenter', 'Network Connectivity Center', 'an optional tech label')
+NetworkConnectivityCenter('NetworkConnectivityCenter', 'Network Connectivity Center', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/NetworkConnectivityCenter')
 
 ' renders the element
-NetworkConnectivityCenter('NetworkConnectivityCenter', 'Network Connectivity Center', 'an optional tech label')
+NetworkConnectivityCenter('NetworkConnectivityCenter', 'Network Connectivity Center', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

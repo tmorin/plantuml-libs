@@ -11,8 +11,8 @@ PS_N0S0W201HZ0Zd_WEd0Qdt-Qn8faoJLpRtm9URc67GYmP5K0OxkfrcTVtUSPE3KqT1uu2HPZ3sRR6H
 6l8eoEMPtfVTKTzzeyatf_zCaMe3
 }
 
-!procedure GoogleMapsPlatform($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/GoogleMapsPlatform', $name, $tech)
+!procedure GoogleMapsPlatform($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/GoogleMapsPlatform', $name, $tech, $desc)
 !endprocedure
 
 !procedure GoogleMapsPlatformCard($id, $funcName="", $content="")

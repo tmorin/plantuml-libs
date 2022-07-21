@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudInferenceApi')
 
 ' renders the element
-CloudInferenceApi('CloudInferenceApi', 'Cloud Inference Api', 'an optional tech label')
+CloudInferenceApi('CloudInferenceApi', 'Cloud Inference Api', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudInferenceApi')
 
 ' renders the element
-CloudInferenceApi('CloudInferenceApi', 'Cloud Inference Api', 'an optional tech label')
+CloudInferenceApi('CloudInferenceApi', 'Cloud Inference Api', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

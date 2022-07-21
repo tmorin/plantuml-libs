@@ -8,8 +8,8 @@ sprite $TransferApplianceMd [16x16/16z] hSgt5S1G349HK7Z7-o_i76l_Mqc0Xd2Spf-O3lj3
 
 sprite $TransferApplianceLg [20x20/16z] lSs54KCn30DGWwJV_IVkXM60l2EpxQ6OV9O-_ZgLF4c4TDGyqowHcUxVnB9Q131sQGEdB6bAD4nHQWwu4yVVmaisQm_y0G
 
-!procedure TransferAppliance($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/TransferAppliance', $name, $tech)
+!procedure TransferAppliance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/TransferAppliance', $name, $tech, $desc)
 !endprocedure
 
 !procedure TransferApplianceCard($id, $funcName="", $content="")

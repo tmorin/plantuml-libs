@@ -11,8 +11,8 @@ bSZ7OKDH5491uDp7T_yDEobdQPQZJqrq3QrrjGMvIoVJ94J3OMW4bWbZ_OjC3971sY7YNqvNamvTkhZb
 8h0kJNL7zCGF
 }
 
-!procedure Bigtable($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Bigtable', $name, $tech)
+!procedure Bigtable($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Bigtable', $name, $tech, $desc)
 !endprocedure
 
 !procedure BigtableCard($id, $funcName="", $content="")

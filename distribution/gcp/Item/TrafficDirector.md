@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/TrafficDirector')
 
 ' renders the element
-TrafficDirector('TrafficDirector', 'Traffic Director', 'an optional tech label')
+TrafficDirector('TrafficDirector', 'Traffic Director', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/TrafficDirector')
 
 ' renders the element
-TrafficDirector('TrafficDirector', 'Traffic Director', 'an optional tech label')
+TrafficDirector('TrafficDirector', 'Traffic Director', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,8 +8,8 @@ sprite $BatchMd [16x16/16z] dOsr0GH154BVT_fl-7Gz73AS5TY3Z_UWEYXjI8gTfZFwmFyqDYhP
 
 sprite $BatchLg [20x20/16z] jOwr5G1H20Jdezj_nUSUtpmYO8K_6TnGqqtAhbKpDD3CE5T66Qw5VLM3TaowbXdajL8lkuXbkEsMfI-_Tb-n1DHWt3EMfRUDcbVZsLc4-3BuXGa
 
-!procedure Batch($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Batch', $name, $tech)
+!procedure Batch($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Batch', $name, $tech, $desc)
 !endprocedure
 
 !procedure BatchCard($id, $funcName="", $content="")

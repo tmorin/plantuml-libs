@@ -8,8 +8,8 @@ sprite $PermissionsMd [16x16/16z] ZOp50K0n34999OJz1_xksdT3yKoET9Iaf8ESD2zQhzedNS
 
 sprite $PermissionsLg [20x20/16z] dK_L0KD13E8kolu3jy_T-KnGNA5QtLnA1CdjARWvnd2h1xTyU5j57sIWjhV4HrIJrGeTSsbpvdWRhx6-qG7TtWZOiziH_W
 
-!procedure Permissions($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Permissions', $name, $tech)
+!procedure Permissions($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Permissions', $name, $tech, $desc)
 !endprocedure
 
 !procedure PermissionsCard($id, $funcName="", $content="")

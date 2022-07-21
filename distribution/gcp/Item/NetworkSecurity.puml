@@ -11,8 +11,8 @@ bSz94WCn20J1be0Q_V_53eoN3i_9TKojwDyu9MybSCwvuYqR66iU2xgAGRSKDqCBDmfO2BFGhawwp1Qp
 BlSU
 }
 
-!procedure NetworkSecurity($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/NetworkSecurity', $name, $tech)
+!procedure NetworkSecurity($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/NetworkSecurity', $name, $tech, $desc)
 !endprocedure
 
 !procedure NetworkSecurityCard($id, $funcName="", $content="")

@@ -8,8 +8,8 @@ sprite $CloudHealthcareMarketplaceMd [16x16/16z] TSlL0G0n30BGKs3_XK_XfqrUDRRCDeK
 
 sprite $CloudHealthcareMarketplaceLg [20x20/16z] dSo50G0X20LGch__mjUTwhCbw8NbRll3ZZw8xMfh-U2hrk2BEFpjMyCV9dxwKmseIdq_XV0iGIjid3RcCwLH3m
 
-!procedure CloudHealthcareMarketplace($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudHealthcareMarketplace', $name, $tech)
+!procedure CloudHealthcareMarketplace($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudHealthcareMarketplace', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudHealthcareMarketplaceCard($id, $funcName="", $content="")

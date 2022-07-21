@@ -11,8 +11,8 @@ bSy50e1G20DG6kv_OMFVRcS_OqW_aqpkMz2i6gpAUPOQ0yCHh-tCLrjUM8qGMGqKOJZTbCUGkNHhifbk
 qIOEqosXLkWXFG
 }
 
-!procedure SecurityCommandCenter($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/SecurityCommandCenter', $name, $tech)
+!procedure SecurityCommandCenter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/SecurityCommandCenter', $name, $tech, $desc)
 !endprocedure
 
 !procedure SecurityCommandCenterCard($id, $funcName="", $content="")

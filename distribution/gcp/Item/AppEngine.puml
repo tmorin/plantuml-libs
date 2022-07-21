@@ -8,8 +8,8 @@ sprite $AppEngineMd [16x16/16z] dOt50S1G3483BytVV-AwNohSy7Y9kbBVEAaJ4nDETAwmbnsG
 
 sprite $AppEngineLg [20x20/16z] hT253GD134JHyNp3zTzmI6Yj8FIM6VInq87MePgZZxGsyxIsV3MzEc6NKeHHOAvdfgTkuMVq1DbTage4iiqbiWgz64tI4-iGAokDzsLiO7-0rvN_wmu
 
-!procedure AppEngine($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/AppEngine', $name, $tech)
+!procedure AppEngine($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/AppEngine', $name, $tech, $desc)
 !endprocedure
 
 !procedure AppEngineCard($id, $funcName="", $content="")

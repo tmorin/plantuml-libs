@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/AutomlTranslation')
 
 ' renders the element
-AutomlTranslation('AutomlTranslation', 'Automl Translation', 'an optional tech label')
+AutomlTranslation('AutomlTranslation', 'Automl Translation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/AutomlTranslation')
 
 ' renders the element
-AutomlTranslation('AutomlTranslation', 'Automl Translation', 'an optional tech label')
+AutomlTranslation('AutomlTranslation', 'Automl Translation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

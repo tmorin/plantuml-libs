@@ -11,8 +11,8 @@ TP050i0m20F3aEJ_BnwTwzMl3dxn99b-LIedAahOSHe8T37kImbO0WW3k6-iOfUr5XgluRkiTOtTYQjR
 3UbUNQYO4AdO_glBtlrxGPGsRl6BLTqPql30OjGp
 }
 
-!procedure RiskManager($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/RiskManager', $name, $tech)
+!procedure RiskManager($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/RiskManager', $name, $tech, $desc)
 !endprocedure
 
 !procedure RiskManagerCard($id, $funcName="", $content="")

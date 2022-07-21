@@ -8,8 +8,8 @@ sprite $CertificateManagerMd [16x16/16z] XSV10G0G34FH1CZ-2mF0gH_Q1pldPrpKRjghVm0
 
 sprite $CertificateManagerLg [20x20/16z] fSg55SGW44NHyVdzDuophid3xu7E9ObLwhR4jMtZflsBW-Hg3cJV6NAnFdcONuq5z606-0kp9rDvjDNL4hxAYoakMRSLNxgOu9hInjXTw8Sg
 
-!procedure CertificateManager($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CertificateManager', $name, $tech)
+!procedure CertificateManager($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CertificateManager', $name, $tech, $desc)
 !endprocedure
 
 !procedure CertificateManagerCard($id, $funcName="", $content="")

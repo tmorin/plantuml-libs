@@ -8,8 +8,8 @@ sprite $BigqueryMd [16x16/16z] RSp50K91303HYSsd_uQHNHpU9Hx-Y-2blEb7sKuHhO_fdeJ3Z
 
 sprite $BigqueryLg [20x20/16z] bL253G0W39jd_p-C-s8Khs3m1RGA34o1NjGvLfZ9c8dfii6Mpn5bwOkZkLW3KUIuSiG7Xuj3qtrku_Qve2RrtFD-LJKSxt2OqFbUTyUJRRb2nazp9mXeL4G6
 
-!procedure Bigquery($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Bigquery', $name, $tech)
+!procedure Bigquery($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Bigquery', $name, $tech, $desc)
 !endprocedure
 
 !procedure BigqueryCard($id, $funcName="", $content="")

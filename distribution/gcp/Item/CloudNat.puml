@@ -8,8 +8,8 @@ sprite $CloudNatMd [16x16/16z] ZSw50GD12031nUc_uUYxpxa2ZrIm8D3A93nBcecccRQp8iKWZ
 
 sprite $CloudNatLg [20x20/16z] bO_L0G0n24Enfjb_uYDVv_QgEDXFU5O5STJqEIXHc2ZwJYU2unHhoUVI0rcYTNspf4E0mkWKeMIrZPr-FqgMZ9Yx_XnAbsRxoebpUnhjGBBiHDWp2m
 
-!procedure CloudNat($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudNat', $name, $tech)
+!procedure CloudNat($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudNat', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudNatCard($id, $funcName="", $content="")

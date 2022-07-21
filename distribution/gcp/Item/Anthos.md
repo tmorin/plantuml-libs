@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Anthos')
 
 ' renders the element
-Anthos('Anthos', 'Anthos', 'an optional tech label')
+Anthos('Anthos', 'Anthos', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Anthos')
 
 ' renders the element
-Anthos('Anthos', 'Anthos', 'an optional tech label')
+Anthos('Anthos', 'Anthos', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

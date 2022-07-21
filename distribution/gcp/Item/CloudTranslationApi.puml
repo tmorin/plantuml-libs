@@ -8,8 +8,8 @@ sprite $CloudTranslationApiMd [16x16/16z] ZSUr0S1030D0cMJllt3uiSeL0lmI6Fp2E-Iv4W
 
 sprite $CloudTranslationApiLg [20x20/16z] fSu53iHG28JX_r4OkF-5rsNIo4g_A0x7bN0oFDI3LCME4fSBGWkN0kq7LIKWfpnvcvnfVqy5QnXBRKXqqx8KKKnIyqm5Lp5NoKrmqvsPBTpScp4fhdhZMsS
 
-!procedure CloudTranslationApi($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudTranslationApi', $name, $tech)
+!procedure CloudTranslationApi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudTranslationApi', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudTranslationApiCard($id, $funcName="", $content="")

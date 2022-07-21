@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/UserPreferences')
 
 ' renders the element
-UserPreferences('UserPreferences', 'User Preferences', 'an optional tech label')
+UserPreferences('UserPreferences', 'User Preferences', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/UserPreferences')
 
 ' renders the element
-UserPreferences('UserPreferences', 'User Preferences', 'an optional tech label')
+UserPreferences('UserPreferences', 'User Preferences', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

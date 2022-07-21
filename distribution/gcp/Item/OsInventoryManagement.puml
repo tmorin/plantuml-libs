@@ -11,8 +11,8 @@ bT250SGW50JHXRzmqt_35tUV-8kZRmLahSgsAPLsaoQZIp5i9XiP-SbotyR6JYrxRnquhIq00LwPWGoK
 rm
 }
 
-!procedure OsInventoryManagement($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/OsInventoryManagement', $name, $tech)
+!procedure OsInventoryManagement($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/OsInventoryManagement', $name, $tech, $desc)
 !endprocedure
 
 !procedure OsInventoryManagementCard($id, $funcName="", $content="")

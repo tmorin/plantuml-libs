@@ -11,8 +11,8 @@ dOw50SG020CFWks_yBjhMzm9syZbRpMJU2--f07aSr5oLFLoo_6AFnWCbPxc994LJ_Sym0J8ED8Jz0kM
 0m
 }
 
-!procedure ApiMonetization($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/ApiMonetization', $name, $tech)
+!procedure ApiMonetization($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/ApiMonetization', $name, $tech, $desc)
 !endprocedure
 
 !procedure ApiMonetizationCard($id, $funcName="", $content="")

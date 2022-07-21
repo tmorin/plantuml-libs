@@ -11,8 +11,8 @@ fOu73iCm30D9xV-_k60CMCNkkCJhe8M_gQh4pDIgo92h7Dimk9pJ6yl9NUEPLIGOqzstGPquaLAX67yS
 ENcTtJWi4U7Q3D_m0W
 }
 
-!procedure AiPlatform($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/AiPlatform', $name, $tech)
+!procedure AiPlatform($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/AiPlatform', $name, $tech, $desc)
 !endprocedure
 
 !procedure AiPlatformCard($id, $funcName="", $content="")

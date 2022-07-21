@@ -11,8 +11,8 @@ bOw50GH120Cd2N3NVyFlxZ-hUFW7lVY5CtFZ4q14SSP7Nvdr9izeM7BZ0qDOcziPmSDQDtaYshl1Dtb-
 pIFTva-s
 }
 
-!procedure Vertexai($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Vertexai', $name, $tech)
+!procedure Vertexai($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Vertexai', $name, $tech, $desc)
 !endprocedure
 
 !procedure VertexaiCard($id, $funcName="", $content="")

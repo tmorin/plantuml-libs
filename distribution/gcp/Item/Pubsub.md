@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Pubsub')
 
 ' renders the element
-Pubsub('Pubsub', 'Pubsub', 'an optional tech label')
+Pubsub('Pubsub', 'Pubsub', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Pubsub')
 
 ' renders the element
-Pubsub('Pubsub', 'Pubsub', 'an optional tech label')
+Pubsub('Pubsub', 'Pubsub', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

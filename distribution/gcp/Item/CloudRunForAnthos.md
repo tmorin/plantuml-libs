@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudRunForAnthos')
 
 ' renders the element
-CloudRunForAnthos('CloudRunForAnthos', 'Cloud Run For Anthos', 'an optional tech label')
+CloudRunForAnthos('CloudRunForAnthos', 'Cloud Run For Anthos', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudRunForAnthos')
 
 ' renders the element
-CloudRunForAnthos('CloudRunForAnthos', 'Cloud Run For Anthos', 'an optional tech label')
+CloudRunForAnthos('CloudRunForAnthos', 'Cloud Run For Anthos', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

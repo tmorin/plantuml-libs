@@ -8,8 +8,8 @@ sprite $ConnectivityTestMd [16x16/16z] bKwr0S0032BE_m_NtSiKmV07kjkSjTcCz678120rR
 
 sprite $ConnectivityTestLg [20x20/16z] hO_50KGX30KVdyZqt_0gVbiPD9xeVnYdvWBAhacmzgU-dgPPT0OkhReBSik39sbDi7ZheAgHpNyc2iuS3g5DPn15gwwq2QQknEZNwaZjsZ52Nt47
 
-!procedure ConnectivityTest($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/ConnectivityTest', $name, $tech)
+!procedure ConnectivityTest($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/ConnectivityTest', $name, $tech, $desc)
 !endprocedure
 
 !procedure ConnectivityTestCard($id, $funcName="", $content="")

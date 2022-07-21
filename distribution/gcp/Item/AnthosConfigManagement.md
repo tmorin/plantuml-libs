@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/AnthosConfigManagement')
 
 ' renders the element
-AnthosConfigManagement('AnthosConfigManagement', 'Anthos Config Management', 'an optional tech label')
+AnthosConfigManagement('AnthosConfigManagement', 'Anthos Config Management', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/AnthosConfigManagement')
 
 ' renders the element
-AnthosConfigManagement('AnthosConfigManagement', 'Anthos Config Management', 'an optional tech label')
+AnthosConfigManagement('AnthosConfigManagement', 'Anthos Config Management', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

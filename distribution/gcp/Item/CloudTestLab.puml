@@ -11,8 +11,8 @@ ZK-53GH02CFQO_-97qdUhI6uLVw6abQ6ZD8dJ-Uueb8voypO74PxIULGEIEc15nd_yT9BSsqqaxlL6Rl
 4LXM7JZqolVnBjqg7ViVD6ROOpHL9YblSG4
 }
 
-!procedure CloudTestLab($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudTestLab', $name, $tech)
+!procedure CloudTestLab($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudTestLab', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudTestLabCard($id, $funcName="", $content="")

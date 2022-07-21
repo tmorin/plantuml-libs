@@ -14,8 +14,8 @@ TT05kY0n20FWG95m_mjllie-p_ZFLF5t8hix0nzPVF57HOO1y2JxaLvo5fIPEaMHpmnhpVIfJ20uCbxA
 iL1qNGim89YwOZ-TBTGhRVy3ycF1TZuHUnqbIUEC_Art9qR1svTQ1eiMyVl-oHnuklTvOUSV
 }
 
-!procedure CloudOps($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudOps', $name, $tech)
+!procedure CloudOps($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudOps', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudOpsCard($id, $funcName="", $content="")

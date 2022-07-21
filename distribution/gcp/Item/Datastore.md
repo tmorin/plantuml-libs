@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Datastore')
 
 ' renders the element
-Datastore('Datastore', 'Datastore', 'an optional tech label')
+Datastore('Datastore', 'Datastore', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Datastore')
 
 ' renders the element
-Datastore('Datastore', 'Datastore', 'an optional tech label')
+Datastore('Datastore', 'Datastore', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

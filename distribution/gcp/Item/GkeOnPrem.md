@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/GkeOnPrem')
 
 ' renders the element
-GkeOnPrem('GkeOnPrem', 'Gke On Prem', 'an optional tech label')
+GkeOnPrem('GkeOnPrem', 'Gke On Prem', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/GkeOnPrem')
 
 ' renders the element
-GkeOnPrem('GkeOnPrem', 'Gke On Prem', 'an optional tech label')
+GkeOnPrem('GkeOnPrem', 'Gke On Prem', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

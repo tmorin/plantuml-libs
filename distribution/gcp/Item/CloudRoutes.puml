@@ -11,8 +11,8 @@ dOw50GD120HFO9_-AyvYSP_N6tJynNxY8FaLaPb9UmE8NoEHKynobD8kImup7GfuhT9q-HxO8vvYKQxu
 pyaEjsJfBLG_S08
 }
 
-!procedure CloudRoutes($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudRoutes', $name, $tech)
+!procedure CloudRoutes($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudRoutes', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudRoutesCard($id, $funcName="", $content="")

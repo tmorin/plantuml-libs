@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Genomics')
 
 ' renders the element
-Genomics('Genomics', 'Genomics', 'an optional tech label')
+Genomics('Genomics', 'Genomics', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Genomics')
 
 ' renders the element
-Genomics('Genomics', 'Genomics', 'an optional tech label')
+Genomics('Genomics', 'Genomics', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

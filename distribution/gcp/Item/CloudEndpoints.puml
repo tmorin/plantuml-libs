@@ -8,8 +8,8 @@ sprite $CloudEndpointsMd [16x16/16z] hOo35S1044H7X_uRZlKS_JNn0zBYgxVIn4plMF3MPsz
 
 sprite $CloudEndpointsLg [20x20/16z] lOw70OGm30DbItcq_y90UXPuBiMzu2ioeydoutAHGx67AyWOwkMhAsG2MG7i66a06maLzZG1RWZeVK9EgFdsEFN6e_TGxB9SWUNCSz6X3ry6_i03
 
-!procedure CloudEndpoints($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudEndpoints', $name, $tech)
+!procedure CloudEndpoints($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudEndpoints', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudEndpointsCard($id, $funcName="", $content="")

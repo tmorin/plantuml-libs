@@ -11,8 +11,8 @@ bSy50iGW40F0zV3_5r-MytfJ0GQNcncVu6k8P_1ZzQgyZTsquiHycxAnjlwlJLMNvgCXqvVskw-5Azho
 9Aly9v1obWS
 }
 
-!procedure VmwareEngine($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/VmwareEngine', $name, $tech)
+!procedure VmwareEngine($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/VmwareEngine', $name, $tech, $desc)
 !endprocedure
 
 !procedure VmwareEngineCard($id, $funcName="", $content="")

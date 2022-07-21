@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Home')
 
 ' renders the element
-Home('Home', 'Home', 'an optional tech label')
+Home('Home', 'Home', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Home')
 
 ' renders the element
-Home('Home', 'Home', 'an optional tech label')
+Home('Home', 'Home', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

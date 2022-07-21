@@ -8,8 +8,8 @@ sprite $CloudVpnMd [16x16/16z] VKvL0e1G368l1lU_iDsA-niDVn5n-oMLlv_YxKVV_FS_fGgqV
 
 sprite $CloudVpnLg [20x20/16z] fP350S0m200fSh3_nELNrrmyEFABgkBlNvxyIKno-PTD7-ghlsfKtJHLrt-GVG5MVo9As5cCdt_ZFG12Jfa1
 
-!procedure CloudVpn($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudVpn', $name, $tech)
+!procedure CloudVpn($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudVpn', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudVpnCard($id, $funcName="", $content="")

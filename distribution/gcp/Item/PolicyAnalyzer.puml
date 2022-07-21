@@ -8,8 +8,8 @@ sprite $PolicyAnalyzerMd [16x16/16z] XOe50WHH24B5WljVU6Ewv_rGmjwX9YQzJDnfIl9j3c2
 
 sprite $PolicyAnalyzerLg [20x20/16z] bS_50GG120J1mJl_XCzTLkg9ens6kzQDapV5CwORmvPZnKcznw9EOcClzXQp2ybUO-wkQCZttkJYRKSIhk7jjq2GjvXwpWnr9de3KIgzSQ3rQKh_704
 
-!procedure PolicyAnalyzer($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/PolicyAnalyzer', $name, $tech)
+!procedure PolicyAnalyzer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/PolicyAnalyzer', $name, $tech, $desc)
 !endprocedure
 
 !procedure PolicyAnalyzerCard($id, $funcName="", $content="")

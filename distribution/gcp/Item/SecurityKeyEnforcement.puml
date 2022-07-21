@@ -8,8 +8,8 @@ sprite $SecurityKeyEnforcementMd [16x16/16z] TSs54GCW40NHnJxRVyN9CN5v8t3EJwr1Wvl
 
 sprite $SecurityKeyEnforcementLg [20x20/16z] dOw50SD030FFf6Z_XSlCpJsQnL_8Tj7AgslndY7LdF29O7JZIyPUG2TdxdmGXrkwpxltdKX6mPrJfEPUJ5CgRjWF3Gt_-iBsMXyHyMg696AQjsm1
 
-!procedure SecurityKeyEnforcement($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/SecurityKeyEnforcement', $name, $tech)
+!procedure SecurityKeyEnforcement($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/SecurityKeyEnforcement', $name, $tech, $desc)
 !endprocedure
 
 !procedure SecurityKeyEnforcementCard($id, $funcName="", $content="")

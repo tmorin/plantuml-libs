@@ -8,8 +8,8 @@ sprite $WorkloadIdentityPoolMd [16x16/16z] bSsr0S1020107FPVE7ctZgjm80rvePh7gRG35
 
 sprite $WorkloadIdentityPoolLg [20x20/16z] hOt54G0W30I9f_-6SUVBuYT3-0yVO97yWeecHykrQL2uDCnGADQc1IQedy6ckJtTV6HDLN5fbBbobKCptgcQ-0c4toG
 
-!procedure WorkloadIdentityPool($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/WorkloadIdentityPool', $name, $tech)
+!procedure WorkloadIdentityPool($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/WorkloadIdentityPool', $name, $tech, $desc)
 !endprocedure
 
 !procedure WorkloadIdentityPoolCard($id, $funcName="", $content="")

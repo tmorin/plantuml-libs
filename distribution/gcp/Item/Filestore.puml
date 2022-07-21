@@ -8,8 +8,8 @@ sprite $FilestoreMd [16x16/16z] Oo03C39309pF104mMGI0o280DiFOW8032DX132YVZPqTo8No
 
 sprite $FilestoreLg [20x20/16z] Ow0OC4C18qA8YHa646ACJ320gGgXaXa5CE6r4seAJ24R2B1pW02OoGeIWmko8SJWW5PYb
 
-!procedure Filestore($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Filestore', $name, $tech)
+!procedure Filestore($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Filestore', $name, $tech, $desc)
 !endprocedure
 
 !procedure FilestoreCard($id, $funcName="", $content="")

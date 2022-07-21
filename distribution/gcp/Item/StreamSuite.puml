@@ -8,8 +8,8 @@ sprite $StreamSuiteMd [16x16/16z] hSUr0S1054EnT_Yz_y9XS1TK9_vG-oBLsBueITvAbAMjBs
 
 sprite $StreamSuiteLg [20x20/16z] jSgt0GDG24F1znDe_uMTK4NZVFNnRmEROMDeKj8s2heZof8DD2ZR5Zfq8SgHZQL1futPE9aqakX4xbVUs8CtNG4
 
-!procedure StreamSuite($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/StreamSuite', $name, $tech)
+!procedure StreamSuite($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/StreamSuite', $name, $tech, $desc)
 !endprocedure
 
 !procedure StreamSuiteCard($id, $funcName="", $content="")

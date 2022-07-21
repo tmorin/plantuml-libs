@@ -11,8 +11,8 @@ bS-53KKn34FH6xAy_yAV6HvOVDeGknC_g4xvuVc6CUaFJCszmvEAdW9uV9p1blNy68Wsf26u_2iXHe1p
 p_LLxCqH
 }
 
-!procedure CloudOptimizationAi($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudOptimizationAi', $name, $tech)
+!procedure CloudOptimizationAi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudOptimizationAi', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudOptimizationAiCard($id, $funcName="", $content="")

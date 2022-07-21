@@ -8,8 +8,8 @@ sprite $TensorflowEnterpriseMd [16x16/16z] dSUr0GC140Cm7tl_XPDdPdN2Ds6sc9F6qc5IR
 
 sprite $TensorflowEnterpriseLg [20x20/16z] hSZ50SDG50Cm_uVUV-4sp9peA7oYh4QfEHz9Kad7g9hcIEtBE1p7Yz9S6Ky5xGaCe_Qek7Hbuu2pGts9XL311_u
 
-!procedure TensorflowEnterprise($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/TensorflowEnterprise', $name, $tech)
+!procedure TensorflowEnterprise($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/TensorflowEnterprise', $name, $tech, $desc)
 !endprocedure
 
 !procedure TensorflowEnterpriseCard($id, $funcName="", $content="")

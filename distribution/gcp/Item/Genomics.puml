@@ -8,8 +8,8 @@ sprite $GenomicsMd [16x16/16z] XSk50G0X34FHX5za_uNFNHzQqo-y4cc8ooeBz2IFGgGr3WPJl
 
 sprite $GenomicsLg [20x20/16z] fSZL0GCm3CL0-Ibri__2PMQup-Cleyy66i3sfD3YASDEpEcwvrP5uTPDnUAMXbjrKmgrrLvSBPORVN5LN4ku53OqDK-wsOZWIGOVMmC
 
-!procedure Genomics($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Genomics', $name, $tech)
+!procedure Genomics($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Genomics', $name, $tech, $desc)
 !endprocedure
 
 !procedure GenomicsCard($id, $funcName="", $content="")

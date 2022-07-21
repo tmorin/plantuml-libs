@@ -11,8 +11,8 @@ bOy54aGn24ERf3_b_YVUgS7OMXKUtlvSJyHGgPGykjWvHIocXkqnVt8pyKQ9XraNzHH7koWbQtzsf4Ve
 psoisN0OBfDm_31d33yEQugrmFPflG
 }
 
-!procedure Eventarc($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Eventarc', $name, $tech)
+!procedure Eventarc($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Eventarc', $name, $tech, $desc)
 !endprocedure
 
 !procedure EventarcCard($id, $funcName="", $content="")

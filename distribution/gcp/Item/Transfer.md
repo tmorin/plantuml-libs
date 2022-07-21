@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Transfer')
 
 ' renders the element
-Transfer('Transfer', 'Transfer', 'an optional tech label')
+Transfer('Transfer', 'Transfer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Transfer')
 
 ' renders the element
-Transfer('Transfer', 'Transfer', 'an optional tech label')
+Transfer('Transfer', 'Transfer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

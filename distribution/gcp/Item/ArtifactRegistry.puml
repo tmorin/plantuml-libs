@@ -11,8 +11,8 @@ bP055W8m34DNpNB_2zCNt66-N-_wP_Zb5QUxeDVfdNCc03kHym_8gyQCHgtD4pgf1skHGjiZz7BYp4ZZ
 7fRpAeRoasDpXNGbNw_gVUxBg_wz7WS
 }
 
-!procedure ArtifactRegistry($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/ArtifactRegistry', $name, $tech)
+!procedure ArtifactRegistry($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/ArtifactRegistry', $name, $tech, $desc)
 !endprocedure
 
 !procedure ArtifactRegistryCard($id, $funcName="", $content="")

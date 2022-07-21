@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Dataproc')
 
 ' renders the element
-Dataproc('Dataproc', 'Dataproc', 'an optional tech label')
+Dataproc('Dataproc', 'Dataproc', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Dataproc')
 
 ' renders the element
-Dataproc('Dataproc', 'Dataproc', 'an optional tech label')
+Dataproc('Dataproc', 'Dataproc', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

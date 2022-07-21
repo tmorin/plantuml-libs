@@ -11,8 +11,8 @@ hSf50WCn04BH7qW6xd_XkdTLUJk4lv1uq_1g9k95SNcsBSZaaNfide_nIkRQk1j9eBFYGjRO68FaUlGH
 0G
 }
 
-!procedure CloudRunForAnthos($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudRunForAnthos', $name, $tech)
+!procedure CloudRunForAnthos($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudRunForAnthos', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudRunForAnthosCard($id, $funcName="", $content="")

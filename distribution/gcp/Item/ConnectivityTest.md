@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/ConnectivityTest')
 
 ' renders the element
-ConnectivityTest('ConnectivityTest', 'Connectivity Test', 'an optional tech label')
+ConnectivityTest('ConnectivityTest', 'Connectivity Test', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/ConnectivityTest')
 
 ' renders the element
-ConnectivityTest('ConnectivityTest', 'Connectivity Test', 'an optional tech label')
+ConnectivityTest('ConnectivityTest', 'Connectivity Test', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

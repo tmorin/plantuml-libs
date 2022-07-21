@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudEkm')
 
 ' renders the element
-CloudEkm('CloudEkm', 'Cloud Ekm', 'an optional tech label')
+CloudEkm('CloudEkm', 'Cloud Ekm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudEkm')
 
 ' renders the element
-CloudEkm('CloudEkm', 'Cloud Ekm', 'an optional tech label')
+CloudEkm('CloudEkm', 'Cloud Ekm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

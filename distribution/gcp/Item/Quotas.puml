@@ -8,8 +8,8 @@ sprite $QuotasMd [16x16/16z] hSU50SH024JHMMIW_uRlukx9Nu67TMLOser210XdT0xKXuCL1eK
 
 sprite $QuotasLg [20x20/16z] lSwr0GD14C107Ipqtx3zp4mJAXB79OsqrBjc1CL8ijCIH18X3XgjXveMl21VjkMNYjUePIbP9R7i3m
 
-!procedure Quotas($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Quotas', $name, $tech)
+!procedure Quotas($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Quotas', $name, $tech, $desc)
 !endprocedure
 
 !procedure QuotasCard($id, $funcName="", $content="")

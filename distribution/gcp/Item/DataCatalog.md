@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/DataCatalog')
 
 ' renders the element
-DataCatalog('DataCatalog', 'Data Catalog', 'an optional tech label')
+DataCatalog('DataCatalog', 'Data Catalog', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/DataCatalog')
 
 ' renders the element
-DataCatalog('DataCatalog', 'Data Catalog', 'an optional tech label')
+DataCatalog('DataCatalog', 'Data Catalog', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

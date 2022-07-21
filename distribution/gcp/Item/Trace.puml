@@ -8,8 +8,8 @@ sprite $TraceMd [16x16/16z] Oy00Z420p6LZOsF5msTW0W86mW2X7mmu800BdnKCs260I3DPMDWW
 
 sprite $TraceLg [20x20/16z] Oo0Qi840cM9C8C107c141o0xe8032jY85wCSiB2mmCnbXOaXsu5FZ9ML5Q4N6m
 
-!procedure Trace($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Trace', $name, $tech)
+!procedure Trace($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Trace', $name, $tech, $desc)
 !endprocedure
 
 !procedure TraceCard($id, $funcName="", $content="")

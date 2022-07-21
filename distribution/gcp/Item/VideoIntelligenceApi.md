@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/VideoIntelligenceApi')
 
 ' renders the element
-VideoIntelligenceApi('VideoIntelligenceApi', 'Video Intelligence Api', 'an optional tech label')
+VideoIntelligenceApi('VideoIntelligenceApi', 'Video Intelligence Api', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/VideoIntelligenceApi')
 
 ' renders the element
-VideoIntelligenceApi('VideoIntelligenceApi', 'Video Intelligence Api', 'an optional tech label')
+VideoIntelligenceApi('VideoIntelligenceApi', 'Video Intelligence Api', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,8 +8,8 @@ sprite $SecurityMd [16x16/16z] bSy54a8n40FGzGptlp1a2totZFMbBli9n0JDJ02bBVj81Hqsa
 
 sprite $SecurityLg [20x20/16z] hSy54iCm34HHONPw_mF7i5Av7SeFlv0j_mh4ksG2psfJqh7AeWdh5EoWyHLKDBlOcEnkdwRWCPuiQoxsP82mXoMoJDiSaCvfaxIaFuccRj4XRsbADm
 
-!procedure Security($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Security', $name, $tech)
+!procedure Security($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Security', $name, $tech, $desc)
 !endprocedure
 
 !procedure SecurityCard($id, $funcName="", $content="")

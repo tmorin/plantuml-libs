@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudDeploymentManager')
 
 ' renders the element
-CloudDeploymentManager('CloudDeploymentManager', 'Cloud Deployment Manager', 'an optional tech label')
+CloudDeploymentManager('CloudDeploymentManager', 'Cloud Deployment Manager', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudDeploymentManager')
 
 ' renders the element
-CloudDeploymentManager('CloudDeploymentManager', 'Cloud Deployment Manager', 'an optional tech label')
+CloudDeploymentManager('CloudDeploymentManager', 'Cloud Deployment Manager', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

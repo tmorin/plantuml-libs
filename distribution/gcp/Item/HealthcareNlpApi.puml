@@ -8,8 +8,8 @@ sprite $HealthcareNlpApiMd [16x16/16z] XSsx5G0m24BHvz_z9ywXiyjLQE7F1PKX9QWC82-mk
 
 sprite $HealthcareNlpApiLg [20x20/16z] fSo54SCm40NH5V_-Aywimec7x2VM0HT5aspS5Na8zHyDo8_9iVoOX_tKFCe3s-eza0TK1ep1jmcpiuGqTqKLqjhtMWilewF4yw5orWq
 
-!procedure HealthcareNlpApi($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/HealthcareNlpApi', $name, $tech)
+!procedure HealthcareNlpApi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/HealthcareNlpApi', $name, $tech, $desc)
 !endprocedure
 
 !procedure HealthcareNlpApiCard($id, $funcName="", $content="")

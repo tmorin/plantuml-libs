@@ -11,8 +11,8 @@ bS_50S0W50FG25_sNxZkjwO2F1n_G_CZicMzT97zVuD5E0GPlAO1kIG0sZiAoZtGOGG2gmmqTeAqY1cC
 ZzjoaurkzNtV6o7YLsO
 }
 
-!procedure GkeOnPrem($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/GkeOnPrem', $name, $tech)
+!procedure GkeOnPrem($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/GkeOnPrem', $name, $tech, $desc)
 !endprocedure
 
 !procedure GkeOnPremCard($id, $funcName="", $content="")

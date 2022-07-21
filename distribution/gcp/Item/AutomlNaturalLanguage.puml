@@ -8,8 +8,8 @@ sprite $AutomlNaturalLanguageMd [16x16/16z] dSe55i0m20FGO8_S_yHRlNqs-LKW-8CLXZXh
 
 sprite $AutomlNaturalLanguageLg [20x20/16z] fSkt0S103810Fadilx1pRdqry5lhcm8tTybjk0jkElX8vQDftVPNbfnQdbtbxBIn2Q0ie6lbS7QQV0pbrZRQkHGFS7DN-6i6
 
-!procedure AutomlNaturalLanguage($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/AutomlNaturalLanguage', $name, $tech)
+!procedure AutomlNaturalLanguage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/AutomlNaturalLanguage', $name, $tech, $desc)
 !endprocedure
 
 !procedure AutomlNaturalLanguageCard($id, $funcName="", $content="")

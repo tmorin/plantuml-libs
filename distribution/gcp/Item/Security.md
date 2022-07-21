@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Security')
 
 ' renders the element
-Security('Security', 'Security', 'an optional tech label')
+Security('Security', 'Security', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Security')
 
 ' renders the element
-Security('Security', 'Security', 'an optional tech label')
+Security('Security', 'Security', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,8 +8,8 @@ sprite $AnthosServiceMeshMd [16x16/16z] dSkr0GCm30NHiosu_HSEHstWbH_uHmXRnZ7GQG-q
 
 sprite $AnthosServiceMeshLg [20x20/16z] fSin5iGW40BGh_g4-vzugoJs-xiPmFyMhE7MCbktT3azt7PJ3C1ga0wyytP9dQ6DhzbXD_6PNTWTt-VCrIrZTx_BCjkmMs3q884SdqQMssZPZLk37d_x0G
 
-!procedure AnthosServiceMesh($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/AnthosServiceMesh', $name, $tech)
+!procedure AnthosServiceMesh($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/AnthosServiceMesh', $name, $tech, $desc)
 !endprocedure
 
 !procedure AnthosServiceMeshCard($id, $funcName="", $content="")

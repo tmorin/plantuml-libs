@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/SecurityKeyEnforcement')
 
 ' renders the element
-SecurityKeyEnforcement('SecurityKeyEnforcement', 'Security Key Enforcement', 'an optional tech label')
+SecurityKeyEnforcement('SecurityKeyEnforcement', 'Security Key Enforcement', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/SecurityKeyEnforcement')
 
 ' renders the element
-SecurityKeyEnforcement('SecurityKeyEnforcement', 'Security Key Enforcement', 'an optional tech label')
+SecurityKeyEnforcement('SecurityKeyEnforcement', 'Security Key Enforcement', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

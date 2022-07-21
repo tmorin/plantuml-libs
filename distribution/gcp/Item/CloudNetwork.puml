@@ -8,8 +8,8 @@ sprite $CloudNetworkMd [16x16/16z] ZOu54W1H2485bV7-5zxk_6_25gmDEawrkvzgfCuBnNEZZ
 
 sprite $CloudNetworkLg [20x20/16z] bS-55O0m4C3GyyV-4nFSfS4_rafhgbTpjnlpgsLTK3ihlvZiK7Ms0QSB9vqppXUhkU3SPZFVKY6pB15b8uEcGFunjo5smVWxNwon7W
 
-!procedure CloudNetwork($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudNetwork', $name, $tech)
+!procedure CloudNetwork($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudNetwork', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudNetworkCard($id, $funcName="", $content="")

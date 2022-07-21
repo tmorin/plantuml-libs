@@ -8,8 +8,8 @@ sprite $AgentAssistMd [16x16/16z] TSZ50GLG2C0mU0BPV-7lBhsbyQTyqw2V9nli6oVsBkJ5HR
 
 sprite $AgentAssistLg [20x20/16z] bP250S0m3CF2zlyFZvcdiigHlnJzO98Ti8rHJc2phICosQ6J8ra2Hj_9rVM55JldxB6TimGhzouKpEEwtXtM4IImSSM1Y2Bjz8_QHw03Tef1Pmukv8Z92oq
 
-!procedure AgentAssist($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/AgentAssist', $name, $tech)
+!procedure AgentAssist($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/AgentAssist', $name, $tech, $desc)
 !endprocedure
 
 !procedure AgentAssistCard($id, $funcName="", $content="")

@@ -8,8 +8,8 @@ sprite $CloudTasksMd [16x16/16z] Oo0PC34nC05920q4hAmCR4mCR12Q33uR6mC74mC7cAQSJoe
 
 sprite $CloudTasksLg [20x20/16z] lSX50G0m30F0bElVy7WA1lS9u3uXY81bjyuPRX3VxSMNWWnexlRZkwu2
 
-!procedure CloudTasks($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudTasks', $name, $tech)
+!procedure CloudTasks($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudTasks', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudTasksCard($id, $funcName="", $content="")

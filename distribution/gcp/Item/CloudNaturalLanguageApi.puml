@@ -8,8 +8,8 @@ sprite $CloudNaturalLanguageApiMd [16x16/16z] Oo0PC34n8RCOsTZOe5mmYv4TePGPn0TY9W
 
 sprite $CloudNaturalLanguageApiLg [20x20/16z] hOy35W0n34GdzVqlN2jhz3_462n7HfelQc0YlHvzdNEOSJcd0AgaiELaXQQSgj11tqrkSDct_yLkPis9DXtfkUWhF2K
 
-!procedure CloudNaturalLanguageApi($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudNaturalLanguageApi', $name, $tech)
+!procedure CloudNaturalLanguageApi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudNaturalLanguageApi', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudNaturalLanguageApiCard($id, $funcName="", $content="")

@@ -8,8 +8,8 @@ sprite $ReleaseNotesMd [16x16/16z] ZSc53GD14C10ttB_3IVFJ2Eqp6VUcBGUgJAKrW181uW4f
 
 sprite $ReleaseNotesLg [20x20/16z] dSk53S0m4CLGX-x-_WkNcPidjcHgv5C9fZM6E01ZZguHXE0UXgOI1X3L2MDZOGPJqoWHMPgF4gnju_nAIqkZi6sb1soRUeSsUcjRpY3Ogd2Z1G
 
-!procedure ReleaseNotes($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/ReleaseNotes', $name, $tech)
+!procedure ReleaseNotes($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/ReleaseNotes', $name, $tech, $desc)
 !endprocedure
 
 !procedure ReleaseNotesCard($id, $funcName="", $content="")

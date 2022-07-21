@@ -8,8 +8,8 @@ sprite $CloudDomainsMd [16x16/16z] hKnL5i0m36g0SlyZB_BM_qarwFfhsKlU1pBdxUWv8X87x
 
 sprite $CloudDomainsLg [20x20/16z] lOl50GHH24F3Vo7zbxpZUjx1YUZRI5fEhX29rIzC8-5mHKKiJbdcrvECzEaQcbyuP5KrlmZwWD2CJOqtR7u7e1CgRCrGdPZjairyw2_n0m
 
-!procedure CloudDomains($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudDomains', $name, $tech)
+!procedure CloudDomains($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudDomains', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudDomainsCard($id, $funcName="", $content="")

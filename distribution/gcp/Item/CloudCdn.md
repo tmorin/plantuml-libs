@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudCdn')
 
 ' renders the element
-CloudCdn('CloudCdn', 'Cloud Cdn', 'an optional tech label')
+CloudCdn('CloudCdn', 'Cloud Cdn', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudCdn')
 
 ' renders the element
-CloudCdn('CloudCdn', 'Cloud Cdn', 'an optional tech label')
+CloudCdn('CloudCdn', 'Cloud Cdn', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

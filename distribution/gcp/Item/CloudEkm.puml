@@ -8,8 +8,8 @@ sprite $CloudEkmMd [16x16/16z] VSlL0K0n34BHMoFil_1pbvwl2F2IhgRLLySUjxq2ElSWtDXsI
 
 sprite $CloudEkmLg [20x20/16z] ZSo50O0m30J0Z__-2-EkFQZ5q8mN-HshkCOA0pl7niFXvrYDcywn1QUjS5G5AECKqsNgMT9nvSI5QDnYla_xx8N5FVROQualFG
 
-!procedure CloudEkm($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudEkm', $name, $tech)
+!procedure CloudEkm($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudEkm', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudEkmCard($id, $funcName="", $content="")

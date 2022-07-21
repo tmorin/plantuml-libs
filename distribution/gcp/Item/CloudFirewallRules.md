@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudFirewallRules')
 
 ' renders the element
-CloudFirewallRules('CloudFirewallRules', 'Cloud Firewall Rules', 'an optional tech label')
+CloudFirewallRules('CloudFirewallRules', 'Cloud Firewall Rules', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudFirewallRules')
 
 ' renders the element
-CloudFirewallRules('CloudFirewallRules', 'Cloud Firewall Rules', 'an optional tech label')
+CloudFirewallRules('CloudFirewallRules', 'Cloud Firewall Rules', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

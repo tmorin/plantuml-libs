@@ -8,8 +8,8 @@ sprite $DialogflowCxMd [16x16/16z] TOx50KCX50I1MRJ_VfFl-DoUh9WDjfiSOEiD4BXwzANax
 
 sprite $DialogflowCxLg [20x20/16z] bS_5WGGn3031iSlIGFxvtYrh6VfPlvv-ZNud7RVQ8E52C6_R5cXbsw65NZQM7QKR2sCbRYmpHEQTxVjiSI9bo1nG8mX5jx-tLbjbVRglJH_w1m
 
-!procedure DialogflowCx($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/DialogflowCx', $name, $tech)
+!procedure DialogflowCx($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/DialogflowCx', $name, $tech, $desc)
 !endprocedure
 
 !procedure DialogflowCxCard($id, $funcName="", $content="")

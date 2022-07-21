@@ -11,8 +11,8 @@ bSq50eGm44FHP2JtF_9IRzVv-AE2kwNy14z5N1Udc1GeITd9Y_H2x1EnqZANlLZPLJhCodMOp04wKMpi
 OS-bL19d37ph0G
 }
 
-!procedure CloudArmor($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudArmor', $name, $tech)
+!procedure CloudArmor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudArmor', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudArmorCard($id, $funcName="", $content="")

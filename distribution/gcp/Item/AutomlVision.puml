@@ -8,8 +8,8 @@ sprite $AutomlVisionMd [16x16/16z] ZSx50GH130F17eEi_1C-Pjnw6iK6uPF5nVX4S59s7t5X9
 
 sprite $AutomlVisionLg [20x20/16z] fSxL0S0W30JGGtFxBumxFvLN1MBuox9HSu_tdYUzAz1faZZ8LgU7UKpbk9NsIVaWCVHpIxNIaWkafhQEeB5JfE30Eyok8sWfjk7PsRbdsE2D2
 
-!procedure AutomlVision($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/AutomlVision', $name, $tech)
+!procedure AutomlVision($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/AutomlVision', $name, $tech, $desc)
 !endprocedure
 
 !procedure AutomlVisionCard($id, $funcName="", $content="")

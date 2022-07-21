@@ -14,8 +14,8 @@ ZOvN0eCX28DL8EJ-9su9sAUk_CFuCTV_EW0WGp8lSWVsSgQZ8T3_O1dZgPilGOPEvei5oM6treb8xghT
 fTnUi6AzSwD9R6_COQ6jJY4eGp_1xhLHiYMTp2rZYFL13m
 }
 
-!procedure ApigeeApiPlatform($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/ApigeeApiPlatform', $name, $tech)
+!procedure ApigeeApiPlatform($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/ApigeeApiPlatform', $name, $tech, $desc)
 !endprocedure
 
 !procedure ApigeeApiPlatformCard($id, $funcName="", $content="")

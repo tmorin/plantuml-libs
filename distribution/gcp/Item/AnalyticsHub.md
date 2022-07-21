@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/AnalyticsHub')
 
 ' renders the element
-AnalyticsHub('AnalyticsHub', 'Analytics Hub', 'an optional tech label')
+AnalyticsHub('AnalyticsHub', 'Analytics Hub', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/AnalyticsHub')
 
 ' renders the element
-AnalyticsHub('AnalyticsHub', 'Analytics Hub', 'an optional tech label')
+AnalyticsHub('AnalyticsHub', 'Analytics Hub', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

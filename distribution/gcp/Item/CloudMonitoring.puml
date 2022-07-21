@@ -8,8 +8,8 @@ sprite $CloudMonitoringMd [16x16/16z] fSV50S0m30ImCtl_XSlCJVGJQf5ltH-y7d2aydoAH6
 
 sprite $CloudMonitoringLg [20x20/16z] lSY53SC050DHVtAz_y8DCucIfnCTFi6TUdhkssTj0Ly_9C8bZ-KP9LCBCRnMQkB3q0vFNcAMT6nvybU9TpG
 
-!procedure CloudMonitoring($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudMonitoring', $name, $tech)
+!procedure CloudMonitoring($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudMonitoring', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudMonitoringCard($id, $funcName="", $content="")

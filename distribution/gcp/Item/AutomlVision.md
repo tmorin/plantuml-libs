@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/AutomlVision')
 
 ' renders the element
-AutomlVision('AutomlVision', 'Automl Vision', 'an optional tech label')
+AutomlVision('AutomlVision', 'Automl Vision', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/AutomlVision')
 
 ' renders the element
-AutomlVision('AutomlVision', 'Automl Vision', 'an optional tech label')
+AutomlVision('AutomlVision', 'Automl Vision', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

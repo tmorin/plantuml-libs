@@ -11,8 +11,8 @@ bSc50GCW34JHWzZjFt7JO7Nv-0F_rDtTWDplo8iszdsLULjqTw-ZCO0ejB95pDinKj59oftHe4z681wj
 dJIpxBehtdK1
 }
 
-!procedure ErrorReporting($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/ErrorReporting', $name, $tech)
+!procedure ErrorReporting($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/ErrorReporting', $name, $tech, $desc)
 !endprocedure
 
 !procedure ErrorReportingCard($id, $funcName="", $content="")

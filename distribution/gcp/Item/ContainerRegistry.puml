@@ -11,8 +11,8 @@ fP350GKX30L3Ngp_XdTnEtr1XmbEVoPW8azL7ACnhqu0KQBKHh0ICREeuCMPD1VHWzEHXTBfKYdCovMT
 rtk1TF_1mhJcqHVf1G
 }
 
-!procedure ContainerRegistry($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/ContainerRegistry', $name, $tech)
+!procedure ContainerRegistry($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/ContainerRegistry', $name, $tech, $desc)
 !endprocedure
 
 !procedure ContainerRegistryCard($id, $funcName="", $content="")

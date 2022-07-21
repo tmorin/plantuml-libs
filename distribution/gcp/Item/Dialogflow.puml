@@ -8,8 +8,8 @@ sprite $DialogflowMd [16x16/16z] TOo54G0n3CDIKhB_mezbq97fB0VSu3pGai17oacauALFGdR
 
 sprite $DialogflowLg [20x20/16z] bSg53G0n049HgBB_mdTrZVN7o0jupGLpISukuaFF77HSBt6UeAzYGZCfhoIKD4poJ1yjrdits3WaD5gkn1ApUE0quZI7vtu
 
-!procedure Dialogflow($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Dialogflow', $name, $tech)
+!procedure Dialogflow($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Dialogflow', $name, $tech, $desc)
 !endprocedure
 
 !procedure DialogflowCard($id, $funcName="", $content="")

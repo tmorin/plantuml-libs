@@ -8,8 +8,8 @@ sprite $GoogleKubernetesEngineMd [16x16/16z] TSwr0G0n34DHGMZ_XOyX-2i_Ly8Yjh9LKPR
 
 sprite $GoogleKubernetesEngineLg [20x20/16z] bO-50S0m40AVz_qdRgpknE3Yz5SiE96Y7KNDfGXl5vKWnInB-pHa-Cwu4kdnXJapGtFFt2ZpoFp0u8F5maHBvnHIrYzCDg_7ufhTVgwdxVfbRK57WPuq0G
 
-!procedure GoogleKubernetesEngine($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/GoogleKubernetesEngine', $name, $tech)
+!procedure GoogleKubernetesEngine($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/GoogleKubernetesEngine', $name, $tech, $desc)
 !endprocedure
 
 !procedure GoogleKubernetesEngineCard($id, $funcName="", $content="")

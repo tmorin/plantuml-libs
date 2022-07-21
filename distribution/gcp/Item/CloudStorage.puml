@@ -8,8 +8,8 @@ sprite $CloudStorageMd [16x16/16z] Oo0LCB8nmm4B1pAVaPc57Snd12fZ1f9CB6oewZ7vr3IV2
 
 sprite $CloudStorageLg [20x20/16z] fSwr0G1H20FGuEo_yBb-gNWb6fIeofVPLdFxrTB_DQAtXjrM0xYVsnhnhnryhvdfbnb6-YmnpyUx8ykurcUPvgjO0G
 
-!procedure CloudStorage($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudStorage', $name, $tech)
+!procedure CloudStorage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudStorage', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudStorageCard($id, $funcName="", $content="")

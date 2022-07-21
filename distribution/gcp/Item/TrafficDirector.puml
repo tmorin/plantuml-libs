@@ -8,8 +8,8 @@ sprite $TrafficDirectorMd [16x16/16z] ZOp70O0m54BvO33xBsmln9FlHiKlcaPjVt93VC9Jwv
 
 sprite $TrafficDirectorLg [20x20/16z] bSe73eKX20DWB52v_uLTMJLl_dNofVOmV2Ld_6MDQUuo-uj5CLzwdLLO5cA6LhkR3jFqPNI_BBOjX5JzM7ENBewjr_5YLm9YKYLUCDEUPG8
 
-!procedure TrafficDirector($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/TrafficDirector', $name, $tech)
+!procedure TrafficDirector($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/TrafficDirector', $name, $tech, $desc)
 !endprocedure
 
 !procedure TrafficDirectorCard($id, $funcName="", $content="")

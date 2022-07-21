@@ -8,8 +8,8 @@ sprite $FinancialServicesMarketplaceMd [16x16/16z] ZOp50G0n20HnwB_XSuadmuirw83vA
 
 sprite $FinancialServicesMarketplaceLg [20x20/16z] jS-r0GK0309H8X3sN_YxkxxokiExP5qbT11d8Z0mpX43dHKnsOORUoc9cMrxi5DSqmPsijPw0m-KrcRZq0YXdJNmtvfQJPFJVl1nPGa
 
-!procedure FinancialServicesMarketplace($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/FinancialServicesMarketplace', $name, $tech)
+!procedure FinancialServicesMarketplace($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/FinancialServicesMarketplace', $name, $tech, $desc)
 !endprocedure
 
 !procedure FinancialServicesMarketplaceCard($id, $funcName="", $content="")

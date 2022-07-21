@@ -11,8 +11,8 @@ fSj7GW0W30J00KAo_t-n9tlNkQIkVygeJC-KHpkzW8v7TGTmfXPOrsqz1qc3k-cxTcMvAH38mN0A35sI
 06ikZoP7qjdmQ5KdvQrTll
 }
 
-!procedure FleetEngine($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/FleetEngine', $name, $tech)
+!procedure FleetEngine($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/FleetEngine', $name, $tech, $desc)
 !endprocedure
 
 !procedure FleetEngineCard($id, $funcName="", $content="")

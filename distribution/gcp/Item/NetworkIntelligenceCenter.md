@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/NetworkIntelligenceCenter')
 
 ' renders the element
-NetworkIntelligenceCenter('NetworkIntelligenceCenter', 'Network Intelligence Center', 'an optional tech label')
+NetworkIntelligenceCenter('NetworkIntelligenceCenter', 'Network Intelligence Center', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/NetworkIntelligenceCenter')
 
 ' renders the element
-NetworkIntelligenceCenter('NetworkIntelligenceCenter', 'Network Intelligence Center', 'an optional tech label')
+NetworkIntelligenceCenter('NetworkIntelligenceCenter', 'Network Intelligence Center', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

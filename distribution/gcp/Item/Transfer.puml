@@ -8,8 +8,8 @@ sprite $TransferMd [16x16/16z] ZSp50K0X201G6lPV-7VO-Yuqi0hvpoxXUDVnaMQDTFhtotyrY
 
 sprite $TransferLg [20x20/16z] hSt50G0n30D11RtzDtpC39cVKIg4f4aS04uzpqBUzwRDR3qWQGEq4tKhPcqusFOI2-gmebvaPXf1FinzhmO
 
-!procedure Transfer($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Transfer', $name, $tech)
+!procedure Transfer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Transfer', $name, $tech, $desc)
 !endprocedure
 
 !procedure TransferCard($id, $funcName="", $content="")

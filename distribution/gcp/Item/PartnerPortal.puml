@@ -14,8 +14,8 @@ XP05WaKX30C3LEZzBxmqsUysJncaWYzaLjMZ6azk0CFf_6wRvs7K8RKu1R2ABC0uJXvIkoKGN9IJEz3E
 cBWas8fH2wvrqC955rHDBqf5C5JWmlhTFn6nTq3y0G
 }
 
-!procedure PartnerPortal($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/PartnerPortal', $name, $tech)
+!procedure PartnerPortal($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/PartnerPortal', $name, $tech, $desc)
 !endprocedure
 
 !procedure PartnerPortalCard($id, $funcName="", $content="")

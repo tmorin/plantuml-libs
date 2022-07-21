@@ -8,8 +8,8 @@ sprite $CloudLoggingMd [16x16/16z] RSt50K0n20FGuEo_y7Tf2--61WKTnb94MEtnrEQFfcOLn
 
 sprite $CloudLoggingLg [20x20/16z] bOt50G0n20HnwB_XSurddgim3E-KDBG7dTKWGUAGSWqVBar4Vdkxvk6PHe2PbdtKDNxPDTuFiht8VdTG7mH6MG4
 
-!procedure CloudLogging($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudLogging', $name, $tech)
+!procedure CloudLogging($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudLogging', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudLoggingCard($id, $funcName="", $content="")

@@ -8,8 +8,8 @@ sprite $ProducerPortalMd [16x16/16z] ZSU53G0n00EnAqRPV-1dnbfe_WGT0UK8GZs2egE0n4u
 
 sprite $ProducerPortalLg [20x20/16z] fSZL0SDG34MnyyYttd_WXfaJVOhRj6Axjy_M86eDiagOaw2eC6UAI86vh8msokxXJiiz0ib_V3sr5jURNnu1X9pOKm4
 
-!procedure ProducerPortal($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/ProducerPortal', $name, $tech)
+!procedure ProducerPortal($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/ProducerPortal', $name, $tech, $desc)
 !endprocedure
 
 !procedure ProducerPortalCard($id, $funcName="", $content="")

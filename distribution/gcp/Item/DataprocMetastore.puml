@@ -8,8 +8,8 @@ sprite $DataprocMetastoreMd [16x16/16z] ZSor0GGm30D0cRN_mW_XTBd6R3mIN9A9pVdd68fT
 
 sprite $DataprocMetastoreLg [20x20/16z] hKw35G1H3AkR_HS-s_XvZga4s7bB6G1RCPfeaJfJ7TEpisrWrd7l65-KIJCRY6POUcSE7OC9GJHe0g1PjPJDScuNDYjs-2K6rneDHJiOlKKD
 
-!procedure DataprocMetastore($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/DataprocMetastore', $name, $tech)
+!procedure DataprocMetastore($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/DataprocMetastore', $name, $tech, $desc)
 !endprocedure
 
 !procedure DataprocMetastoreCard($id, $funcName="", $content="")

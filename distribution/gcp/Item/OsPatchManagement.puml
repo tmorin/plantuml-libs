@@ -11,8 +11,8 @@ bSs5OGKm203HmvBRV-5wl-kB2y3xYdFPUzkSskxS1iJnQW49gCaFXr-XVmdQanp6xoQlomeG4mkWrl5k
 d2cxWml1Gvy
 }
 
-!procedure OsPatchManagement($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/OsPatchManagement', $name, $tech)
+!procedure OsPatchManagement($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/OsPatchManagement', $name, $tech, $desc)
 !endprocedure
 
 !procedure OsPatchManagementCard($id, $funcName="", $content="")

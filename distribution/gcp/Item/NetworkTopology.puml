@@ -11,8 +11,8 @@ fK-50SD043g7_HUklDQLvEqCaF-WFY-sOcIq4vot5GDKdAFKiZLIJtkmnwBEkxUNpHXR3FSnIxkBaRYB
 Z2C
 }
 
-!procedure NetworkTopology($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/NetworkTopology', $name, $tech)
+!procedure NetworkTopology($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/NetworkTopology', $name, $tech, $desc)
 !endprocedure
 
 !procedure NetworkTopologyCard($id, $funcName="", $content="")

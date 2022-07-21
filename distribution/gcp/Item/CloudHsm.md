@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudHsm')
 
 ' renders the element
-CloudHsm('CloudHsm', 'Cloud Hsm', 'an optional tech label')
+CloudHsm('CloudHsm', 'Cloud Hsm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudHsm')
 
 ' renders the element
-CloudHsm('CloudHsm', 'Cloud Hsm', 'an optional tech label')
+CloudHsm('CloudHsm', 'Cloud Hsm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

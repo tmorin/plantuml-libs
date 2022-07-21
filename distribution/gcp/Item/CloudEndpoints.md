@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudEndpoints')
 
 ' renders the element
-CloudEndpoints('CloudEndpoints', 'Cloud Endpoints', 'an optional tech label')
+CloudEndpoints('CloudEndpoints', 'Cloud Endpoints', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudEndpoints')
 
 ' renders the element
-CloudEndpoints('CloudEndpoints', 'Cloud Endpoints', 'an optional tech label')
+CloudEndpoints('CloudEndpoints', 'Cloud Endpoints', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

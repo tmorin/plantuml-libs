@@ -8,8 +8,8 @@ sprite $SupportMd [16x16/16z] bSc55S0m30DHAJ7kFt2PkJzupxZccTkqhhbfFSnXgVDl52F2Hp
 
 sprite $SupportLg [20x20/16z] jSg53S1G549HgfJz1wvzr-WxKMx0n4fTg92gu_8rJN_XAAQnUKS0xFGKT9ldsed0fXqmRRK7
 
-!procedure Support($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Support', $name, $tech)
+!procedure Support($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Support', $name, $tech, $desc)
 !endprocedure
 
 !procedure SupportCard($id, $funcName="", $content="")

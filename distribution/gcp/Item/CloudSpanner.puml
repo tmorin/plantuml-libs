@@ -8,8 +8,8 @@ sprite $CloudSpannerMd [16x16/16z] ZSZL0SLG3CDGXNop_yAFeToUByjSOaPDEmpLj2CNBJaJD
 
 sprite $CloudSpannerLg [20x20/16z] fO-50GD120Jt6DZGVyDnjxSvnK7R6GnHNtH-rqNwGuVVTGfSUgTwbIvFnzr8SLLnnEuJ2TnKx9fJD4Vof0kLKoTi1DVyhflkDeDl__AjyQZKpLneFWS
 
-!procedure CloudSpanner($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudSpanner', $name, $tech)
+!procedure CloudSpanner($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudSpanner', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudSpannerCard($id, $funcName="", $content="")

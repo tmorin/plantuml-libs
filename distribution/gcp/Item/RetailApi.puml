@@ -8,8 +8,8 @@ sprite $RetailApiMd [16x16/16z] XSS7bWCX40FH4Wn2zp_nFj8wsv_GNVoKT0Q5BGAgejtLLAoe
 
 sprite $RetailApiLg [20x20/16z] ZSo50SDG20JGms__XMj0tLxo3SF_L0LZBrP5jA1WbUCaynpJBINKEYR4e6sCZc4b7NC2Ynq3zHPpsbaKRenDSPE15yIhud9yOJClybQMcJBdcph3_uu
 
-!procedure RetailApi($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/RetailApi', $name, $tech)
+!procedure RetailApi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/RetailApi', $name, $tech, $desc)
 !endprocedure
 
 !procedure RetailApiCard($id, $funcName="", $content="")

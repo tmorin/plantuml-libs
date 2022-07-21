@@ -11,8 +11,8 @@ bSx50KC120FGuEm_SOlKzUVuK1m9HMP0NAx2MNcql3FFAF9xCoZDwCrIiW_edM5MHesFAJOHLMC-csKj
 jf2OuVjzYedUx3vi1ZR6nvm
 }
 
-!procedure Datashare($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Datashare', $name, $tech)
+!procedure Datashare($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Datashare', $name, $tech, $desc)
 !endprocedure
 
 !procedure DatashareCard($id, $funcName="", $content="")

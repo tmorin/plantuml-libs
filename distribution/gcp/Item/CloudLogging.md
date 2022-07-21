@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudLogging')
 
 ' renders the element
-CloudLogging('CloudLogging', 'Cloud Logging', 'an optional tech label')
+CloudLogging('CloudLogging', 'Cloud Logging', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudLogging')
 
 ' renders the element
-CloudLogging('CloudLogging', 'Cloud Logging', 'an optional tech label')
+CloudLogging('CloudLogging', 'Cloud Logging', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

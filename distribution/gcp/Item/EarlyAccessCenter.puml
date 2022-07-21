@@ -8,8 +8,8 @@ sprite $EarlyAccessCenterMd [16x16/16z] ZSp50GD130J1Nd7-2Tl7JFKI3j_OeIyMQeTPWBiY
 
 sprite $EarlyAccessCenterLg [20x20/16z] hOv50W0X30EHIlx_uSKTRZkNUXFp0y9dJsajRSkyzWmjWvs_8R9-L6JK33mgVlJGu4jFhhrXHYhU45mMNK0sImjelWTyjeoShJS1
 
-!procedure EarlyAccessCenter($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/EarlyAccessCenter', $name, $tech)
+!procedure EarlyAccessCenter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/EarlyAccessCenter', $name, $tech, $desc)
 !endprocedure
 
 !procedure EarlyAccessCenterCard($id, $funcName="", $content="")

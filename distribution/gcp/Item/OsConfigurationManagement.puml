@@ -8,8 +8,8 @@ sprite $OsConfigurationManagementMd [16x16/16z] VSp7OGCm581GfD_OV-74lTll3donUBBa
 
 sprite $OsConfigurationManagementLg [20x20/16z] dT230SH054NHzttxRtXj9ZbZGsibUkEjF-oKGzyRekGoG7BHvzsLN2bTPm0CGDtF14vvwmxcbCUzgm1N0lVEuUpUD-4KG0-QyoduVKjHkklEpNzbfL_s
 
-!procedure OsConfigurationManagement($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/OsConfigurationManagement', $name, $tech)
+!procedure OsConfigurationManagement($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/OsConfigurationManagement', $name, $tech, $desc)
 !endprocedure
 
 !procedure OsConfigurationManagementCard($id, $funcName="", $content="")

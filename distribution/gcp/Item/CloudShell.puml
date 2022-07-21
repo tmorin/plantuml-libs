@@ -8,8 +8,8 @@ sprite $CloudShellMd [16x16/16z] XSs50S0m2031HohxBrnlN2uk05EMK11BVMVGU4utyRyWoLb
 
 sprite $CloudShellLg [20x20/16z] bS-53S0m40D0GsZ_XSjeKNkYAC_uZc_hbmEFFz4N7Ny6gFpRNeo_jHx8Fs_lh5NEOCwLilP0yleBkkvLhPKRN3J6m5kjhRNgrr_R5Fmo0m
 
-!procedure CloudShell($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudShell', $name, $tech)
+!procedure CloudShell($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudShell', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudShellCard($id, $funcName="", $content="")

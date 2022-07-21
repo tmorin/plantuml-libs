@@ -8,8 +8,8 @@ sprite $CloudGenericMd [16x16/16z] Oy00ZCW0oEL01ZZvx2XyPg0vx0W-AzXWLYYV3MuLXCy8v
 
 sprite $CloudGenericLg [20x20/16z] fO-35G0n40KdoQh_XiysvddnmMDYWtsO-MwM05lF2lJ3OJPCXkamoypuC6D1EfXnCBDXjX3Kenx_PxP1EQ86
 
-!procedure CloudGeneric($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudGeneric', $name, $tech)
+!procedure CloudGeneric($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudGeneric', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudGenericCard($id, $funcName="", $content="")

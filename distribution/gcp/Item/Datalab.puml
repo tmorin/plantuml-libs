@@ -8,8 +8,8 @@ sprite $DatalabMd [16x16/16z] ZOt50G1120E3XluRFdVT-K4CZUZrpjD9CNoG974aSBfLKSUxGC
 
 sprite $DatalabLg [20x20/16z] bS-r0S1030D0oRp_mc7cNFLWn5zcNmCBHyvFoTexl6L4-h638d1GXCcXNC2Z3c7dLRI_kUS-p7eHswPQ7RA8cRhMQ9ixlJbMZ15kjG
 
-!procedure Datalab($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Datalab', $name, $tech)
+!procedure Datalab($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Datalab', $name, $tech, $desc)
 !endprocedure
 
 !procedure DatalabCard($id, $funcName="", $content="")

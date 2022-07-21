@@ -8,8 +8,8 @@ sprite $CloudJobsApiMd [16x16/16z] ZSc53KG1381Gwjr_uTFl_g84dicFO5OWOwlDdZG2SsFjL
 
 sprite $CloudJobsApiLg [20x20/16z] bOk30KH144CpJlyDd_6rUii9i8Zd4zrf4UuUTj3UrnVReKkQG4wQXudkjQ8N8Lij4u0HMusArtsXsKxxT7UmF4ZPYy4I4cVoKaIFEm
 
-!procedure CloudJobsApi($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudJobsApi', $name, $tech)
+!procedure CloudJobsApi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudJobsApi', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudJobsApiCard($id, $funcName="", $content="")

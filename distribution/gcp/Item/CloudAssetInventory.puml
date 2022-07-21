@@ -8,8 +8,8 @@ sprite $CloudAssetInventoryMd [16x16/16z] dSl70S1G209GxEu_SVAxjnHlJm2_JXLEXH6Af4
 
 sprite $CloudAssetInventoryLg [20x20/16z] hSg53O1G00FHVk_-2-DmM0Hfj2-d7nPko5d59qfjm7OaQIYh3rI3bXAofh8OgegcbAlI-3sxouXrned2H9HKegIYfA9SY38eGU_N0m
 
-!procedure CloudAssetInventory($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudAssetInventory', $name, $tech)
+!procedure CloudAssetInventory($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudAssetInventory', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudAssetInventoryCard($id, $funcName="", $content="")

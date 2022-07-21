@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/TensorflowEnterprise')
 
 ' renders the element
-TensorflowEnterprise('TensorflowEnterprise', 'Tensorflow Enterprise', 'an optional tech label')
+TensorflowEnterprise('TensorflowEnterprise', 'Tensorflow Enterprise', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/TensorflowEnterprise')
 
 ' renders the element
-TensorflowEnterprise('TensorflowEnterprise', 'Tensorflow Enterprise', 'an optional tech label')
+TensorflowEnterprise('TensorflowEnterprise', 'Tensorflow Enterprise', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

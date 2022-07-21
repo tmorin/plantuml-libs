@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Datalab')
 
 ' renders the element
-Datalab('Datalab', 'Datalab', 'an optional tech label')
+Datalab('Datalab', 'Datalab', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Datalab')
 
 ' renders the element
-Datalab('Datalab', 'Datalab', 'an optional tech label')
+Datalab('Datalab', 'Datalab', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

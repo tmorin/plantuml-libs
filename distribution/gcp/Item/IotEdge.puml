@@ -11,8 +11,8 @@ fSs74S0W30D0OSkwx3znH1-0JyKLJvA6LXsMhwC6OegqKf4yiJHAVk7KafaEsOobOwgGQZIqXcakB8t1
 aOILB2Ll5yz6Ims1Lpy
 }
 
-!procedure IotEdge($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/IotEdge', $name, $tech)
+!procedure IotEdge($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/IotEdge', $name, $tech, $desc)
 !endprocedure
 
 !procedure IotEdgeCard($id, $funcName="", $content="")

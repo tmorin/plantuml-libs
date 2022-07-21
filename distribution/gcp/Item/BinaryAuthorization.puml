@@ -8,8 +8,8 @@ sprite $BinaryAuthorizationMd [16x16/16z] ZOp50G8130Gdjad_5VC1pcL-gxobjh9dcsghXu
 
 sprite $BinaryAuthorizationLg [20x20/16z] dStL0KGn20NHGNFxRtZTz_bydWJWGFrFO_oHz6VT-Mic_an9_Hde2m8NhUwE3mj13hxC7bOlSqU9BkPl2rmNzUPTE2se-hvCVNy32xjGy9L7jFERiTGP
 
-!procedure BinaryAuthorization($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/BinaryAuthorization', $name, $tech)
+!procedure BinaryAuthorization($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/BinaryAuthorization', $name, $tech, $desc)
 !endprocedure
 
 !procedure BinaryAuthorizationCard($id, $funcName="", $content="")

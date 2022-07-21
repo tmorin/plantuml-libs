@@ -8,8 +8,8 @@ sprite $DataLossPreventionApiMd [16x16/16z] dOp50SDG3CLaVlilt8QJyvSPMICgU35rpbn5
 
 sprite $DataLossPreventionApiLg [20x20/16z] jSwr0G8034JHVz7RVs7SQU5ryV0dPI_lrbthueLD96LkWi113-o00WYK1WHjheAKbJFDEB9qdssTu8XKS2LtK1_VXEsFb8o2Tnu-bSKNyIj7
 
-!procedure DataLossPreventionApi($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/DataLossPreventionApi', $name, $tech)
+!procedure DataLossPreventionApi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/DataLossPreventionApi', $name, $tech, $desc)
 !endprocedure
 
 !procedure DataLossPreventionApiCard($id, $funcName="", $content="")

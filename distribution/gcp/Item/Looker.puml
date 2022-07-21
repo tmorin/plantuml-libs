@@ -8,8 +8,8 @@ sprite $LookerMd [16x16/16z] VK_50S0m4EAS_HUkUvFmEaNGWCYWprJHkmr3uW6FTuy8qHTVWkJ
 
 sprite $LookerLg [20x20/16z] TO-50G0X3CGALBB_mk-27buDibAQcL9k3LRIeSRcxjB9x32lR6skg8noiDPY8G2bCYbn4a65Gpmddoc_L-FxY_ssyfVxBfzDU8Y36aulKuC8k8Etq0toGZi
 
-!procedure Looker($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Looker', $name, $tech)
+!procedure Looker($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Looker', $name, $tech, $desc)
 !endprocedure
 
 !procedure LookerCard($id, $funcName="", $content="")

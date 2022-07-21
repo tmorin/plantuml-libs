@@ -8,8 +8,8 @@ sprite $PrivateConnectivityMd [16x16/16z] hOp50S0m3CHCf-u_SHcVJI8psWYSbNgNxWLsma
 
 sprite $PrivateConnectivityLg [20x20/16z] jKz50W0X4782zlyljlkyOXFgX6UGct0Ms4xbinRU3fU2cXNPRNauycY4Y6RRqAGwpQnmybNEhCSBfuqB0okx7ZP22wfjaGrdORxA-1q9
 
-!procedure PrivateConnectivity($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/PrivateConnectivity', $name, $tech)
+!procedure PrivateConnectivity($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/PrivateConnectivity', $name, $tech, $desc)
 !endprocedure
 
 !procedure PrivateConnectivityCard($id, $funcName="", $content="")

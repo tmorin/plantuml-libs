@@ -11,8 +11,8 @@ bSq5SWG034BH7o1Cxt_XUhjkRpGAhvfoGJCSMu02MduP8pTWyKTlEy1knByTkPtCyN_PRVdBdc2iIMep
 2IXWSqpbWcGk3FTy
 }
 
-!procedure NetworkConnectivityCenter($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/NetworkConnectivityCenter', $name, $tech)
+!procedure NetworkConnectivityCenter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/NetworkConnectivityCenter', $name, $tech, $desc)
 !endprocedure
 
 !procedure NetworkConnectivityCenterCard($id, $funcName="", $content="")

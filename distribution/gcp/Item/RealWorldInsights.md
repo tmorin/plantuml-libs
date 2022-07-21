@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/RealWorldInsights')
 
 ' renders the element
-RealWorldInsights('RealWorldInsights', 'Real World Insights', 'an optional tech label')
+RealWorldInsights('RealWorldInsights', 'Real World Insights', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/RealWorldInsights')
 
 ' renders the element
-RealWorldInsights('RealWorldInsights', 'Real World Insights', 'an optional tech label')
+RealWorldInsights('RealWorldInsights', 'Real World Insights', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

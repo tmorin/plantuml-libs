@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Onboarding')
 
 ' renders the element
-Onboarding('Onboarding', 'Onboarding', 'an optional tech label')
+Onboarding('Onboarding', 'Onboarding', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Onboarding')
 
 ' renders the element
-Onboarding('Onboarding', 'Onboarding', 'an optional tech label')
+Onboarding('Onboarding', 'Onboarding', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

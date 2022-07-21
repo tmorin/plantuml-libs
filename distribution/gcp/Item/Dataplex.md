@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Dataplex')
 
 ' renders the element
-Dataplex('Dataplex', 'Dataplex', 'an optional tech label')
+Dataplex('Dataplex', 'Dataplex', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Dataplex')
 
 ' renders the element
-Dataplex('Dataplex', 'Dataplex', 'an optional tech label')
+Dataplex('Dataplex', 'Dataplex', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

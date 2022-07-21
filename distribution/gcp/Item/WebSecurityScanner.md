@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/WebSecurityScanner')
 
 ' renders the element
-WebSecurityScanner('WebSecurityScanner', 'Web Security Scanner', 'an optional tech label')
+WebSecurityScanner('WebSecurityScanner', 'Web Security Scanner', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/WebSecurityScanner')
 
 ' renders the element
-WebSecurityScanner('WebSecurityScanner', 'Web Security Scanner', 'an optional tech label')
+WebSecurityScanner('WebSecurityScanner', 'Web Security Scanner', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

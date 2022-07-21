@@ -11,8 +11,8 @@ bT254KD1409GrbZwR_YxniCOyyuF_yPeZn91vaqZ70GPX_Wa004dSvza049Btt2cQ4a5u3JNqdItLaaF
 AyRjmK2o7Z-6vNYCuLD6
 }
 
-!procedure AnthosConfigManagement($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/AnthosConfigManagement', $name, $tech)
+!procedure AnthosConfigManagement($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/AnthosConfigManagement', $name, $tech, $desc)
 !endprocedure
 
 !procedure AnthosConfigManagementCard($id, $funcName="", $content="")

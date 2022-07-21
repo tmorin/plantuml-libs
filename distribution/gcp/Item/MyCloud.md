@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/MyCloud')
 
 ' renders the element
-MyCloud('MyCloud', 'My Cloud', 'an optional tech label')
+MyCloud('MyCloud', 'My Cloud', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/MyCloud')
 
 ' renders the element
-MyCloud('MyCloud', 'My Cloud', 'an optional tech label')
+MyCloud('MyCloud', 'My Cloud', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

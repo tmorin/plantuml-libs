@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/VirtualPrivateCloud')
 
 ' renders the element
-VirtualPrivateCloud('VirtualPrivateCloud', 'Virtual Private Cloud', 'an optional tech label')
+VirtualPrivateCloud('VirtualPrivateCloud', 'Virtual Private Cloud', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/VirtualPrivateCloud')
 
 ' renders the element
-VirtualPrivateCloud('VirtualPrivateCloud', 'Virtual Private Cloud', 'an optional tech label')
+VirtualPrivateCloud('VirtualPrivateCloud', 'Virtual Private Cloud', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

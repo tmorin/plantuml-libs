@@ -8,8 +8,8 @@ sprite $VisualInspectionMd [16x16/16z] ZSl50G0W20NGJxF_n7RTV2Q5J_o68lo6Tu9QLCyfq
 
 sprite $VisualInspectionLg [20x20/16z] hSw53SGm30NGRmZilt2O8xXh-qIM6LyWlbCYWXrBnbX8mriJ0RGagQJKSscVgrBAU_HvjXby0grnIn9xxqhEe1YHM2keIbqJh1-oBHGhjdFLD5Sj1F-A
 
-!procedure VisualInspection($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/VisualInspection', $name, $tech)
+!procedure VisualInspection($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/VisualInspection', $name, $tech, $desc)
 !endprocedure
 
 !procedure VisualInspectionCard($id, $funcName="", $content="")

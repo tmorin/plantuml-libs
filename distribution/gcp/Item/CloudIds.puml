@@ -11,8 +11,8 @@ fO_L0S0m20KVpluJ5wb-z-8N0_n3y88OXSDcf34-SnCXLPOCKQ6m-tgHXUA6stbBVhj-xN74L0xcZ78o
 bWWrb3EmwNvYmNXmnoyE
 }
 
-!procedure CloudIds($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudIds', $name, $tech)
+!procedure CloudIds($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudIds', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudIdsCard($id, $funcName="", $content="")

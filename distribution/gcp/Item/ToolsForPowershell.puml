@@ -8,8 +8,8 @@ sprite $ToolsForPowershellMd [16x16/16z] hSV94S0m3CD0YeZOVydnsO7tWu6UCE0x_OaXQci
 
 sprite $ToolsForPowershellLg [20x20/16z] lOw55KGX30IZqt_9nvBxrW23P5_S3fBYwmgvkbufDMbWSFdaMXOog75vJAi6__lAngV4y2s3NCAN0jH8D4gi00dVla1pWMrVAoFi73y
 
-!procedure ToolsForPowershell($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/ToolsForPowershell', $name, $tech)
+!procedure ToolsForPowershell($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/ToolsForPowershell', $name, $tech, $desc)
 !endprocedure
 
 !procedure ToolsForPowershellCard($id, $funcName="", $content="")

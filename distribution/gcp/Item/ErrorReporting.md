@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/ErrorReporting')
 
 ' renders the element
-ErrorReporting('ErrorReporting', 'Error Reporting', 'an optional tech label')
+ErrorReporting('ErrorReporting', 'Error Reporting', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/ErrorReporting')
 
 ' renders the element
-ErrorReporting('ErrorReporting', 'Error Reporting', 'an optional tech label')
+ErrorReporting('ErrorReporting', 'Error Reporting', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

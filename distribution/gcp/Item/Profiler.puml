@@ -11,8 +11,8 @@ bOu73WG1209HXFy_-Q8RhxUTD4A9uXmUwi6hWVX9jnAGSntwGFQrPF58j5QC303NsYYRJ8HpQqIrHrwB
 GNWWIiGNBW
 }
 
-!procedure Profiler($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Profiler', $name, $tech)
+!procedure Profiler($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Profiler', $name, $tech, $desc)
 !endprocedure
 
 !procedure ProfilerCard($id, $funcName="", $content="")

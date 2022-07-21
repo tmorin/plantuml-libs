@@ -8,8 +8,8 @@ sprite $CloudCodeMd [16x16/16z] hOf75i10249b2iFzJnpBC_kKRnVi3-Q8XlkS_l26Llj6dkGe
 
 sprite $CloudCodeLg [20x20/16z] lSpN5KCX30DGkGdjFt7eXmNoxWUuupCM-trB4VjzIXt6urYSQyBxMrnJ9FSbBxBGSJWRdQChLiW0i3aPc1YI0kolExQH5Lf_4vVKvXjur7mJV_43
 
-!procedure CloudCode($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudCode', $name, $tech)
+!procedure CloudCode($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudCode', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudCodeCard($id, $funcName="", $content="")

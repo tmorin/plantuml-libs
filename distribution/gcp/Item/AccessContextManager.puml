@@ -8,8 +8,8 @@ sprite $AccessContextManagerMd [16x16/16z] ZSfN0e0m20JHTBZ_YTsnhd-nvWsKlQlr-YV1o
 
 sprite $AccessContextManagerLg [20x20/16z] bSq53W0X44FH3dx_4o-bEB4rvES5yFSnZpTv_wRwFGbESILDbq8BxbI9OoXBiINFbhXcKajMMz4PtgaPNG2MP49eQafRjsxI3xHaqwUKVUJpNEfwFW
 
-!procedure AccessContextManager($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/AccessContextManager', $name, $tech)
+!procedure AccessContextManager($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/AccessContextManager', $name, $tech, $desc)
 !endprocedure
 
 !procedure AccessContextManagerCard($id, $funcName="", $content="")

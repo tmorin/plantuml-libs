@@ -11,8 +11,8 @@ fOz50iHG24E31Uv_uYdKknbB--tXmFzILZuPwKyeT5Gz_PnfDs9gHj9lp6PFFNDjB1SMMwfciY2bejQ8
 W8QHsRKBhM0Bi6fjmtZ4JA2H8VXSBm
 }
 
-!procedure PhishingProtection($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/PhishingProtection', $name, $tech)
+!procedure PhishingProtection($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/PhishingProtection', $name, $tech, $desc)
 !endprocedure
 
 !procedure PhishingProtectionCard($id, $funcName="", $content="")

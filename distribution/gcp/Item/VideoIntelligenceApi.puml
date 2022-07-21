@@ -8,8 +8,8 @@ sprite $VideoIntelligenceApiMd [16x16/16z] dOb10WCm10G7RFF_5pVsb6ix2SpYP_eIsp6XX
 
 sprite $VideoIntelligenceApiLg [20x20/16z] jOz55WDH20GBwpVtlt2aYQypzHK7_euCvVjBrpnrRLtShmJhZlkbOUpP4drO1w4k6RIw5QhlVEa2yzH5b3g-OwUH-Sf7nAZyOrQtu0jIlxETmXK
 
-!procedure VideoIntelligenceApi($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/VideoIntelligenceApi', $name, $tech)
+!procedure VideoIntelligenceApi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/VideoIntelligenceApi', $name, $tech, $desc)
 !endprocedure
 
 !procedure VideoIntelligenceApiCard($id, $funcName="", $content="")

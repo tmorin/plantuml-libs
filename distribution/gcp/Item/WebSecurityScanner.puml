@@ -11,8 +11,8 @@ hSe5RWKm30N1IMo_vluNBduKbaQyMlzZ2ikJbKW2L04gOpViS55p6QQnkY1fIC8wvxoWngLjSzwX0ogX
 VkGD
 }
 
-!procedure WebSecurityScanner($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/WebSecurityScanner', $name, $tech)
+!procedure WebSecurityScanner($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/WebSecurityScanner', $name, $tech, $desc)
 !endprocedure
 
 !procedure WebSecurityScannerCard($id, $funcName="", $content="")

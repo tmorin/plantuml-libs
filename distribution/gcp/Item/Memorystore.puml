@@ -11,8 +11,8 @@ bOo50KCX4CKUd7N_XP7KlSrN0XVzWq5k1Ev-uzPYkVLpumuPoqK4IhWgl_QwddjDJxqkFVNuyMslFRwN
 fpDzOG5wmmG
 }
 
-!procedure Memorystore($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Memorystore', $name, $tech)
+!procedure Memorystore($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Memorystore', $name, $tech, $desc)
 !endprocedure
 
 !procedure MemorystoreCard($id, $funcName="", $content="")

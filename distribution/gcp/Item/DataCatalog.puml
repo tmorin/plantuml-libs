@@ -8,8 +8,8 @@ sprite $DataCatalogMd [16x16/16z] ZOc50K9134DJp_uJSoqEtzv931Snl161aIr3aD9voQmjnW
 
 sprite $DataCatalogLg [20x20/16z] hSx50GGX40J07gNpJ_W4vtMoMoyOnnsKVluLPgIAAZgIKcFEKMmqr3e1agXOQdy8067CsCHilOv9Yimxf4NIKBNvDMN9-38sPqkYIS4I19I6dV4D9tyH_EO9
 
-!procedure DataCatalog($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/DataCatalog', $name, $tech)
+!procedure DataCatalog($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/DataCatalog', $name, $tech, $desc)
 !endprocedure
 
 !procedure DataCatalogCard($id, $funcName="", $content="")

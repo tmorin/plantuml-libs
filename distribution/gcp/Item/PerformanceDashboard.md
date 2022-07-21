@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/PerformanceDashboard')
 
 ' renders the element
-PerformanceDashboard('PerformanceDashboard', 'Performance Dashboard', 'an optional tech label')
+PerformanceDashboard('PerformanceDashboard', 'Performance Dashboard', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/PerformanceDashboard')
 
 ' renders the element
-PerformanceDashboard('PerformanceDashboard', 'Performance Dashboard', 'an optional tech label')
+PerformanceDashboard('PerformanceDashboard', 'Performance Dashboard', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

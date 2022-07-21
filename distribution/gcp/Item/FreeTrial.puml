@@ -8,8 +8,8 @@ sprite $FreeTrialMd [16x16/16z] dSe30W1120NGZFjVU6qCth3wK44LnvjLrj8tDDSO4UunMjCZ
 
 sprite $FreeTrialLg [20x20/16z] jStL0SD0201G7Bh_mCcv_THVz53uahgxCOWds6A-a1RZIDmZQn4jKaoB7DCZHc_4G1zPYfKlGYRHzXRK5g-z-9SOIecPvu_0wsu
 
-!procedure FreeTrial($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/FreeTrial', $name, $tech)
+!procedure FreeTrial($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/FreeTrial', $name, $tech, $desc)
 !endprocedure
 
 !procedure FreeTrialCard($id, $funcName="", $content="")

@@ -8,8 +8,8 @@ sprite $ConfigurationManagementMd [16x16/16z] bOe54e1030CtbpBq_n_6tTcJDi8FobwwQD
 
 sprite $ConfigurationManagementLg [20x20/16z] hSYr0SDG34319upsNpZiJvNfokCsAh0oCGPk2WZQ9ghCJ03jyxwlTjNEuU0zsjb_d6Wd_pEq7Ut8_x59CV9xsawgmDx788nJNW
 
-!procedure ConfigurationManagement($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/ConfigurationManagement', $name, $tech)
+!procedure ConfigurationManagement($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/ConfigurationManagement', $name, $tech, $desc)
 !endprocedure
 
 !procedure ConfigurationManagementCard($id, $funcName="", $content="")

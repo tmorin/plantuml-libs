@@ -8,8 +8,8 @@ sprite $DataLabelingMd [16x16/16z] dStL4G1120DG4eRCzT_mUdxFthe0yGFI45FoIExds4Ziv
 
 sprite $DataLabelingLg [20x20/16z] fSz70iGW30D0hMHhy_yFfuTwP6xWZcLKyQjV5HuIF_KF4mbusj2stcwmVVzcvfTcoqQMmTlj7uPlWKVuX9O8-Ux3aaVX4n4iYH_Ms-Oxe8fOSW
 
-!procedure DataLabeling($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/DataLabeling', $name, $tech)
+!procedure DataLabeling($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/DataLabeling', $name, $tech, $desc)
 !endprocedure
 
 !procedure DataLabelingCard($id, $funcName="", $content="")

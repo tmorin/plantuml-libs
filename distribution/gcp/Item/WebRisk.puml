@@ -8,8 +8,8 @@ sprite $WebRiskMd [16x16/16z] bSV50GGm24JHmUc_uRYTLdu47lwDSkIpRhaD0o0L1i3BxWenlc
 
 sprite $WebRiskLg [20x20/16z] fS-53GGn34JHCSsb_ufFXcLnllW5ZQtKEvlIriGfqcZtsWAPco0xpOAvM-z6vgPbShU0Wl8qmfVYOLvdrN0pa8hN6v1WqjrI1RZinygxjC-yXft-
 
-!procedure WebRisk($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/WebRisk', $name, $tech)
+!procedure WebRisk($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/WebRisk', $name, $tech, $desc)
 !endprocedure
 
 !procedure WebRiskCard($id, $funcName="", $content="")

@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/ContactCenterAi')
 
 ' renders the element
-ContactCenterAi('ContactCenterAi', 'Contact Center Ai', 'an optional tech label')
+ContactCenterAi('ContactCenterAi', 'Contact Center Ai', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/ContactCenterAi')
 
 ' renders the element
-ContactCenterAi('ContactCenterAi', 'Contact Center Ai', 'an optional tech label')
+ContactCenterAi('ContactCenterAi', 'Contact Center Ai', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

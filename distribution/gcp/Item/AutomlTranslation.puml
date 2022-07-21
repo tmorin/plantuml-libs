@@ -8,8 +8,8 @@ sprite $AutomlTranslationMd [16x16/16z] ZOs50GD120InW-c_uUJTRKwnNVc0CQ1pN0pa50Qq
 
 sprite $AutomlTranslationLg [20x20/16z] fS_50SL0203H0IBJVyDnp-NBM_U5VpLkWeFlkKwxTi4kLHvw3OYEKsf7TJE003YkNkfreLoRI21qlOzPLAnVI7PLL1BQSqYWKFCTOySk-uNAmLt3eTpmZH4
 
-!procedure AutomlTranslation($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/AutomlTranslation', $name, $tech)
+!procedure AutomlTranslation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/AutomlTranslation', $name, $tech, $desc)
 !endprocedure
 
 !procedure AutomlTranslationCard($id, $funcName="", $content="")

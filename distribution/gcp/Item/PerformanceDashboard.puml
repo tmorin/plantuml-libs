@@ -8,8 +8,8 @@ sprite $PerformanceDashboardMd [16x16/16z] dSt50GCm30J1CUhwRpXChz3QOl8VRJUl98Kxj
 
 sprite $PerformanceDashboardLg [20x20/16z] jKs35GHG3AkR_HS-VEFnK3EXVud3hnc0VI0eipp-B9K2t4Swlc9Ki5OmPIEolamRjUVoE13RQBQEqXYYq9Lde70ak3PHanRI2W0fl2ki2NqbJm
 
-!procedure PerformanceDashboard($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/PerformanceDashboard', $name, $tech)
+!procedure PerformanceDashboard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/PerformanceDashboard', $name, $tech, $desc)
 !endprocedure
 
 !procedure PerformanceDashboardCard($id, $funcName="", $content="")

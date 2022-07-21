@@ -8,8 +8,8 @@ sprite $OnboardingMd [16x16/16z] ZKx50S0W43iBwVuB5xSVVXQHfsLWx4m1aFIH1dfEsiXcJgh
 
 sprite $OnboardingLg [20x20/16z] bSt95GD120DHOIZhEV-0lMlMqzJnTmEwslWaOBEL6tniemqnkxy4MxChj34ZrTvut9SJv8-_9itVf1Yj6hutMGmabJJsng3KzchRkqeLwpz48vjwTBKN
 
-!procedure Onboarding($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Onboarding', $name, $tech)
+!procedure Onboarding($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Onboarding', $name, $tech, $desc)
 !endprocedure
 
 !procedure OnboardingCard($id, $funcName="", $content="")

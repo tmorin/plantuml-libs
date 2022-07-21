@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Filestore')
 
 ' renders the element
-Filestore('Filestore', 'Filestore', 'an optional tech label')
+Filestore('Filestore', 'Filestore', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Filestore')
 
 ' renders the element
-Filestore('Filestore', 'Filestore', 'an optional tech label')
+Filestore('Filestore', 'Filestore', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
