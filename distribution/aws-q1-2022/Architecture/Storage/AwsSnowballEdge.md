@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Storage/AwsSnowballEdge')
 
 ' renders the element
-AwsSnowballEdge('AwsSnowballEdge', 'Aws Snowball Edge', 'an optional tech label')
+AwsSnowballEdge('AwsSnowballEdge', 'Aws Snowball Edge', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Storage/AwsSnowballEdge')
 
 ' renders the element
-AwsSnowballEdge('AwsSnowballEdge', 'Aws Snowball Edge', 'an optional tech label')
+AwsSnowballEdge('AwsSnowballEdge', 'Aws Snowball Edge', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

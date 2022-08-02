@@ -2,17 +2,17 @@
 
 sprite $AmazonLocationServiceGeofenceXs [10x10/16z] LSR50SKm00KWsdZU_lD-LqxuSwOVAZJOZYHdYB1vBMSTQviWE5vxwN0c5Lm1
 
-sprite $AmazonLocationServiceGeofenceSm [12x12/16z] NKo30S0m4CnR-yyRrGt_sFxBgZ8aztoyTRpgUqPZcE-SlScXpe-tjv3B4yz4uwUZ7OazaToYmobQrJ4D
+sprite $AmazonLocationServiceGeofenceSm [12x12/16z] NKs50G0X4CAk_UVzKAyx0LxQMhFbkUiJrucndxg5E-aePvA0ZBblykgJFf0Fnf7mUJtLdgS38QodU04
 
-sprite $AmazonLocationServiceGeofenceMd [16x16/16z] ROs5WGGm20HdYKF_zVwVmFaakF4RjR7ZWcTSTgNTQNl5Smb0SC9Nd-80JR2pBu2PWi403iW0oTeusmCQHRnTBCyfZcLNjekNM5vfFmFcuebi6ya_
+sprite $AmazonLocationServiceGeofenceMd [16x16/16z] TOs50G0n20FJuh3_lEykLy49VY3ncaYixDOswvlbFUvhfG5HQQnhIzzRfxvQpVJMWan6jnwqJXAUKmzXfswAkvVOYRrhRz_DhQyo2533XUvzTqS
 
 sprite $AmazonLocationServiceGeofenceLg [20x20/16z] {
-VOm7ZWKn24D3X_Z-v_tJOTNMK_pq4ddz6s8nZwnjds4WNUaaRITD8H-PVhIfJzqZRyAr7RWIlD0ESbqkNikrtQpak8_wruv5AxAmsxcxcHVJjS6v9dXAzQ-Z
-kun62PwEKVxDLAljGt8tGrQ74q0gMlIwhya1
+VL050iGm22kf8Fd_U-UZEqqjnQ7yXmYWve5R0D96ausrbDLaAZVhAOiCfWrg1-DsHBb3KPWoOcU-dI4fcr7iLSQydZBKvchEIDbe09hBsP6L2PuFsgUionJL
+IwPJDEumdg8OoN3b8ae2Hj8QFsUCnsS5
 }
 
-!procedure AmazonLocationServiceGeofence($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/FrontEndWebMobile/AmazonLocationServiceGeofence', $name, $tech)
+!procedure AmazonLocationServiceGeofence($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/FrontEndWebMobile/AmazonLocationServiceGeofence', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonLocationServiceGeofenceCard($id, $funcName="", $content="")

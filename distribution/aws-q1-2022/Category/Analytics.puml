@@ -11,8 +11,8 @@ RSp50G0W30H1F5pelrxSOPyJeL_QRfcI98UQxn6HghRZj1sBCU3dmuB567fkkc6i6ndt6AJUZG47unrs
 WCTujwa_ushgBG4
 }
 
-!procedure Analytics($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Category/Analytics', $name, $tech)
+!procedure Analytics($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Category/Analytics', $name, $tech, $desc)
 !endprocedure
 
 !procedure AnalyticsCard($id, $funcName="", $content="")

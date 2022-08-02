@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Analytics/AmazonEmr')
 
 ' renders the element
-AmazonEmr('AmazonEmr', 'Amazon Emr', 'an optional tech label')
+AmazonEmr('AmazonEmr', 'Amazon Emr', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Analytics/AmazonEmr')
 
 ' renders the element
-AmazonEmr('AmazonEmr', 'Amazon Emr', 'an optional tech label')
+AmazonEmr('AmazonEmr', 'Amazon Emr', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

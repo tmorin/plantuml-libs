@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/SecurityIdentityAndCompliance/AmazonInspectorAgent')
 
 ' renders the element
-AmazonInspectorAgent('AmazonInspectorAgent', 'Amazon Inspector Agent', 'an optional tech label')
+AmazonInspectorAgent('AmazonInspectorAgent', 'Amazon Inspector Agent', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/SecurityIdentityAndCompliance/AmazonInspectorAgent')
 
 ' renders the element
-AmazonInspectorAgent('AmazonInspectorAgent', 'Amazon Inspector Agent', 'an optional tech label')
+AmazonInspectorAgent('AmazonInspectorAgent', 'Amazon Inspector Agent', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Analytics/AmazonAthena')
 
 ' renders the element
-AmazonAthena('AmazonAthena', 'Amazon Athena', 'an optional tech label')
+AmazonAthena('AmazonAthena', 'Amazon Athena', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Analytics/AmazonAthena')
 
 ' renders the element
-AmazonAthena('AmazonAthena', 'Amazon Athena', 'an optional tech label')
+AmazonAthena('AmazonAthena', 'Amazon Athena', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

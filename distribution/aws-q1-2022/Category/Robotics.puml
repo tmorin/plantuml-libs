@@ -14,8 +14,8 @@ RSX90e0W30F0MWf9ol_Vwxxh70T_Ids824VJXWSSTy_vSXkpuNPBieL7t6vDEdMxDODLkb_I6ieWtKwX
 GURjTYjPEIxcqygC-tMIs537pN9tktiw_6i2
 }
 
-!procedure Robotics($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Category/Robotics', $name, $tech)
+!procedure Robotics($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Category/Robotics', $name, $tech, $desc)
 !endprocedure
 
 !procedure RoboticsCard($id, $funcName="", $content="")

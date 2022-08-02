@@ -11,8 +11,8 @@ PSm75WGX20DGkmJlVzyDSQTdgly5eDYPoG0l_PhGyMtwnbdArNHX7a1lbn6RkgtNoxn06PPEcvMWrzuQ
 InkxirMiJp0hKFC5AK0cx8N9bmbtJllW-g3iWpy
 }
 
-!procedure AwsClientVpn($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/NetworkingContentDelivery/AwsClientVpn', $name, $tech)
+!procedure AwsClientVpn($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/NetworkingContentDelivery/AwsClientVpn', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsClientVpnCard($id, $funcName="", $content="")

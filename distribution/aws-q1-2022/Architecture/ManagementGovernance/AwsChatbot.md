@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/ManagementGovernance/AwsChatbot')
 
 ' renders the element
-AwsChatbot('AwsChatbot', 'Aws Chatbot', 'an optional tech label')
+AwsChatbot('AwsChatbot', 'Aws Chatbot', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/ManagementGovernance/AwsChatbot')
 
 ' renders the element
-AwsChatbot('AwsChatbot', 'Aws Chatbot', 'an optional tech label')
+AwsChatbot('AwsChatbot', 'Aws Chatbot', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

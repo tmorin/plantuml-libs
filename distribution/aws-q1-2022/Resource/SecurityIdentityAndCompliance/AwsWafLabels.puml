@@ -2,14 +2,14 @@
 
 sprite $AwsWafLabelsXs [10x10/16z] Oq02t404PN1n0mcSW1i26F03HZ00CW
 
-sprite $AwsWafLabelsSm [12x12/16z] NOo30G0m40CVgVUVj_OLpuGUL4JYI1aKbMpFNQtguzwVcrTE8zSq-VeIEkxi_pvnqF82
+sprite $AwsWafLabelsSm [12x12/16z] NOg50G0n30AFryh-yzRzuW4sT4ckxJTEl6NzuFf1qDg-juTyu_pRmd_wvt2Ll4S
 
-sprite $AwsWafLabelsMd [16x16/16z] RStL0O1G243HIxpUVruBMyyN3L_U5yP1Ao9KEVAEr0gTC41AZI3Q80Aq8m-Vd3EtSVdhemSYjqFaGJ__VlDnOZK3
+sprite $AwsWafLabelsMd [16x16/16z] ZOs30G0m30HhxZzlRURAw1_jC1EWFPRnKhY69WGoFGaREqJyr791V-8kXsrdgvzYN1dh6EO_M4Ky
 
-sprite $AwsWafLabelsLg [20x20/16z] TOw10G0G2C0g0F_V2m1eWA421XaAk2iAK0XJj8Ds4j0VYdoPvNpf2G13FIizdnNQoHuEMAS_3ZOdmex-lMCT-OLatos8gPbrk1XERyYc4W
+sprite $AwsWafLabelsLg [20x20/16z] VOk55G0n5CAWBllFUrgtLCdZOuEABvtY7xFCmNW2eLCCtnsp2f__iZQrzl0drpbiNJ-RgOwnHOozysoeSDixEtToh6Gd6lYh6m
 
-!procedure AwsWafLabels($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/SecurityIdentityAndCompliance/AwsWafLabels', $name, $tech)
+!procedure AwsWafLabels($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/SecurityIdentityAndCompliance/AwsWafLabels', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsWafLabelsCard($id, $funcName="", $content="")

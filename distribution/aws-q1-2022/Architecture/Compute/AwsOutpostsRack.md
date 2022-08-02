@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Compute/AwsOutpostsRack')
 
 ' renders the element
-AwsOutpostsRack('AwsOutpostsRack', 'Aws Outposts Rack', 'an optional tech label')
+AwsOutpostsRack('AwsOutpostsRack', 'Aws Outposts Rack', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Compute/AwsOutpostsRack')
 
 ' renders the element
-AwsOutpostsRack('AwsOutpostsRack', 'Aws Outposts Rack', 'an optional tech label')
+AwsOutpostsRack('AwsOutpostsRack', 'Aws Outposts Rack', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

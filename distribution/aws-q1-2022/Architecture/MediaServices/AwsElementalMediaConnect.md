@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/MediaServices/AwsElementalMediaConnect')
 
 ' renders the element
-AwsElementalMediaConnect('AwsElementalMediaConnect', 'Aws Elemental Media Connect', 'an optional tech label')
+AwsElementalMediaConnect('AwsElementalMediaConnect', 'Aws Elemental Media Connect', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/MediaServices/AwsElementalMediaConnect')
 
 ' renders the element
-AwsElementalMediaConnect('AwsElementalMediaConnect', 'Aws Elemental Media Connect', 'an optional tech label')
+AwsElementalMediaConnect('AwsElementalMediaConnect', 'Aws Elemental Media Connect', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

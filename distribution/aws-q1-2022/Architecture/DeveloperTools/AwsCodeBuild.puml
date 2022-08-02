@@ -14,8 +14,8 @@ PSY50S0m20LHYF8ltN_Ukb-K1-WiZk2F_72pNcuyhRXTbSjIr99wpUjxc5dnadFslBJO0A9v0IbfAyQ2
 XaKxBJ0o5AJRYcE-TLcAEZYJfjLgo-E1quOm7ZWjU7RR7sS
 }
 
-!procedure AwsCodeBuild($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/DeveloperTools/AwsCodeBuild', $name, $tech)
+!procedure AwsCodeBuild($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/DeveloperTools/AwsCodeBuild', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsCodeBuildCard($id, $funcName="", $content="")

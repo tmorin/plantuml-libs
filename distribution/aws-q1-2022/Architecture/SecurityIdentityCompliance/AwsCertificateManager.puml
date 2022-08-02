@@ -11,8 +11,8 @@ RSp50GGm2031EDP_lqZqP9-3q0ft041_aFyW6y9kM8RCtFQDrs3QY7fKbxq_-pP7I8wFCRQ4kHjsF4RP
 SomJtbrBEtkItA9tq-mFoXzK
 }
 
-!procedure AwsCertificateManager($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/SecurityIdentityCompliance/AwsCertificateManager', $name, $tech)
+!procedure AwsCertificateManager($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/SecurityIdentityCompliance/AwsCertificateManager', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsCertificateManagerCard($id, $funcName="", $content="")

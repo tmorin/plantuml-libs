@@ -2,14 +2,14 @@
 
 sprite $AwsStorageGatewayFileGatewayXs [10x10/16z] Oq02d53Cm0xXucGnip0mi89Pd61HDlmi
 
-sprite $AwsStorageGatewayFileGatewaySm [12x12/16z] Oq01J1pCZ6oSZ60cH8I513OB2v22iHauG80HmWO3l6mE2604
+sprite $AwsStorageGatewayFileGatewaySm [12x12/16z] Oq01J1nCZ2oSo2AC9B1PM935E420Q3Cu8801
 
-sprite $AwsStorageGatewayFileGatewayMd [16x16/16z] Oy02E3WvE3ZPu3nM2CtA0UN393YfncTcOG4oME1yJY2203WV9aSvdnriECny
+sprite $AwsStorageGatewayFileGatewayMd [16x16/16z] Oy02E3WvE3ZPu3mM2CtA0UN393YfncTc0Td10kTp0X44mFamEShvx633OUO3
 
-sprite $AwsStorageGatewayFileGatewayLg [20x20/16z] lKtL0SGW5EEU9Tb_uAjx-uj3j7sD0CMA4rBo-NPXWt3mhWtx7PRUc4V4zCuJ9lTWBSCsxB1RFJ7lWCszCM9Pnx0s
+sprite $AwsStorageGatewayFileGatewayLg [20x20/16z] lOl55K11308tWLZ_1NztkIud7ioqlo2oqlMoU65zAlOfpbzgtovAxmqavswNhKGqTOtiswchlpVfiEcyoLmkaJO2
 
-!procedure AwsStorageGatewayFileGateway($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AwsStorageGatewayFileGateway', $name, $tech)
+!procedure AwsStorageGatewayFileGateway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AwsStorageGatewayFileGateway', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsStorageGatewayFileGatewayCard($id, $funcName="", $content="")

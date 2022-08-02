@@ -11,8 +11,8 @@ RSx5WGKn30JH8LjTFVd7k_jPfZe-WmIWR_4EMbsPqXfTcHg3H7-WlMbpIJiAL3ze-u8hO3lLM0YTn0Lf
 qjnOwigSDjty1m
 }
 
-!procedure AmazonFSxForOpenZfs($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Storage/AmazonFSxForOpenZfs', $name, $tech)
+!procedure AmazonFSxForOpenZfs($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Storage/AmazonFSxForOpenZfs', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonFSxForOpenZfsCard($id, $funcName="", $content="")

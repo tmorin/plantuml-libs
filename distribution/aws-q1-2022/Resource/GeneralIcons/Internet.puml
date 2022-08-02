@@ -2,17 +2,17 @@
 
 sprite $InternetXs [10x10/16z] Oy01sA4qDro42OXPG0nU1buU1Ywu51T8YWSi0KQO
 
-sprite $InternetSm [12x12/16z] ZOZ50S1G24FVTo7iFsxzM8Cu_sxKx5VCksZ6tQwjdN6A23dkMjWLOnwv3X2uob38cZpT2W
+sprite $InternetSm [12x12/16z] ZOgr0S1030Fl6IplFswu35qZv1yZHxzi0j04uEhQQQS0SYHUBp3cuUi0WIir4JHvOWK
 
-sprite $InternetMd [16x16/16z] dSR9GGCm40Gm-RQNIV_jGWj4B_bARm3mxjWV04w76802gWUqoyEm5zOYLHG-XE4s2fx0rTN4Zsgu99VTUCcyoTxvY__w1G
+sprite $InternetMd [16x16/16z] dKn70e0m30hfRl7_tnMt7cts06pAyDbQXI_FMlOlRr0_6tXmgnZgRY6gfIHixmTCAXJ2AavQqowhGdVNCAmVkv55P0X2ef8faNJxQoi
 
 sprite $InternetLg [20x20/16z] {
-jOx75KCn20H7MOAb_tRzSFRTVnJ9opMCLVdbdD5MDBxmGI8-57--akRJDr-jEXWarG5b-IeCx-aA83oTbWN7mSXgOpzzd8P835w-Eh6NhnzhKM1tcfu-HWJG
-ykgIp93EI8MRltC3
+jKr50WCW34kBb_3_xmxhxBpXHF6VaOf-8QsffF61zhGlVc3t9XdlCxXf0dPUicHSzW9e3miQynXzWIQhhnzr54Ez69hSjiLSJ0FCiTXCLquL25sNneB2EfIa
+6SYMvi6Aduy7
 }
 
-!procedure Internet($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/GeneralIcons/Internet', $name, $tech)
+!procedure Internet($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/GeneralIcons/Internet', $name, $tech, $desc)
 !endprocedure
 
 !procedure InternetCard($id, $funcName="", $content="")

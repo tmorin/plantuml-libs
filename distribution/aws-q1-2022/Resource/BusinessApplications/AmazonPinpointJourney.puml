@@ -2,20 +2,17 @@
 
 sprite $AmazonPinpointJourneyXs [10x10/16z] LS650SGm00GWsdXk_tdV5VpPyP9uYxSZHy99Px1ZXL2dH0fBTqXW0LS
 
-sprite $AmazonPinpointJourneySm [12x12/16z] NScr0GD000GWtkNstpTDd1R_ihqKyLOBRvcKzzph4DeSX9HrIb2uHpbX8MLEiLKSBZOe1V
+sprite $AmazonPinpointJourneySm [12x12/16z] NSYt5KDH3CKm_Foak_--RXnqZ8xqByl79aOCkUVeLeJzlWXnrnQWorRXGPoNMA1eBAON
 
-sprite $AmazonPinpointJourneyMd [16x16/16z] {
-RKu74WD12BB5MRd__pUSgLlOgiA07A7GgRwufjhdMeBycR4qAfBDbwhWuYokSB8osKBYlWUjKpdHHnDv1gshsj-ZUoKMojeXX5bcT3wGsrdLfDusDmOmfPdm
-1
-}
+sprite $AmazonPinpointJourneyMd [16x16/16z] TSUt0SCm40GmC4ZY_-s_hsidTF3JQ6yYxn_nPl4ktjNU9E2fQKao9kuRVJVwu9R41OKZgWHZe9InXD4mnxrdX7OWKAWUu7J7Foy
 
 sprite $AmazonPinpointJourneyLg [20x20/16z] {
-XOy50WGX24Lfr7__yqwmRDSpQQ0VgB-fR1bUTKdqfbDCq1k3ttKCUWV8irZoNHLC41PqhG2MU38oSt7f87L72TagdYiWPQ5IoJfVJC9Tvsf14BHabrj7sN7U
-qEvrXKuxTHQTuH0rc2QVza1FEbGCbOZhBd8w_M47
+XP250G0X30CJMZJxp_lkUlZXnGSCDnMQw-eoS7DK5MuKFA0dfmo06Jk9K63GiZv9ZPOXCs-pKvZgD0toh8ZQaiZz9awhLQ7T1ME2k9njFZbd0J0xoPRLpLbz
+T4pB2TLX2QZSBmTA8MpPn3rIDUA77W
 }
 
-!procedure AmazonPinpointJourney($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/BusinessApplications/AmazonPinpointJourney', $name, $tech)
+!procedure AmazonPinpointJourney($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/BusinessApplications/AmazonPinpointJourney', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonPinpointJourneyCard($id, $funcName="", $content="")

@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Database/AmazonAuroraMySqlInstanceAlternate')
 
 ' renders the element
-AmazonAuroraMySqlInstanceAlternate('AmazonAuroraMySqlInstanceAlternate', 'Amazon Aurora My Sql Instance Alternate', 'an optional tech label')
+AmazonAuroraMySqlInstanceAlternate('AmazonAuroraMySqlInstanceAlternate', 'Amazon Aurora My Sql Instance Alternate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Database/AmazonAuroraMySqlInstanceAlternate')
 
 ' renders the element
-AmazonAuroraMySqlInstanceAlternate('AmazonAuroraMySqlInstanceAlternate', 'Amazon Aurora My Sql Instance Alternate', 'an optional tech label')
+AmazonAuroraMySqlInstanceAlternate('AmazonAuroraMySqlInstanceAlternate', 'Amazon Aurora My Sql Instance Alternate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

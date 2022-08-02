@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/BusinessApplications/AmazonHoneycode')
 
 ' renders the element
-AmazonHoneycode('AmazonHoneycode', 'Amazon Honeycode', 'an optional tech label')
+AmazonHoneycode('AmazonHoneycode', 'Amazon Honeycode', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/BusinessApplications/AmazonHoneycode')
 
 ' renders the element
-AmazonHoneycode('AmazonHoneycode', 'Amazon Honeycode', 'an optional tech label')
+AmazonHoneycode('AmazonHoneycode', 'Amazon Honeycode', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/LoT/AwsIoTThingLightbulb')
 
 ' renders the element
-AwsIoTThingLightbulb('AwsIoTThingLightbulb', 'Aws Io T Thing Lightbulb', 'an optional tech label')
+AwsIoTThingLightbulb('AwsIoTThingLightbulb', 'Aws Io T Thing Lightbulb', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/LoT/AwsIoTThingLightbulb')
 
 ' renders the element
-AwsIoTThingLightbulb('AwsIoTThingLightbulb', 'Aws Io T Thing Lightbulb', 'an optional tech label')
+AwsIoTThingLightbulb('AwsIoTThingLightbulb', 'Aws Io T Thing Lightbulb', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

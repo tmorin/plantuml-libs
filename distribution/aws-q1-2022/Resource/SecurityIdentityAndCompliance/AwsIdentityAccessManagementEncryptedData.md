@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessManagementEncryptedData')
 
 ' renders the element
-AwsIdentityAccessManagementEncryptedData('AwsIdentityAccessManagementEncryptedData', 'Aws Identity Access Management Encrypted Data', 'an optional tech label')
+AwsIdentityAccessManagementEncryptedData('AwsIdentityAccessManagementEncryptedData', 'Aws Identity Access Management Encrypted Data', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessManagementEncryptedData')
 
 ' renders the element
-AwsIdentityAccessManagementEncryptedData('AwsIdentityAccessManagementEncryptedData', 'Aws Identity Access Management Encrypted Data', 'an optional tech label')
+AwsIdentityAccessManagementEncryptedData('AwsIdentityAccessManagementEncryptedData', 'Aws Identity Access Management Encrypted Data', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

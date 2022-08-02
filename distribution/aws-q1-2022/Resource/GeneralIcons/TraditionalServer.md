@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/GeneralIcons/TraditionalServer')
 
 ' renders the element
-TraditionalServer('TraditionalServer', 'Traditional Server', 'an optional tech label')
+TraditionalServer('TraditionalServer', 'Traditional Server', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/GeneralIcons/TraditionalServer')
 
 ' renders the element
-TraditionalServer('TraditionalServer', 'Traditional Server', 'an optional tech label')
+TraditionalServer('TraditionalServer', 'Traditional Server', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

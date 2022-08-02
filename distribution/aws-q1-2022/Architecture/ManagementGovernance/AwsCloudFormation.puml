@@ -11,8 +11,8 @@ RS_L0KGX34HH93QX_tgVP9dr-tdGe0hcT_Y3-8FuWqcJxiJSs08g6_E1KLjRysqoxdhTEMWP0HWA6-tj
 YvPl5b9TJgjozy-IzhFp1
 }
 
-!procedure AwsCloudFormation($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/ManagementGovernance/AwsCloudFormation', $name, $tech)
+!procedure AwsCloudFormation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/ManagementGovernance/AwsCloudFormation', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsCloudFormationCard($id, $funcName="", $content="")

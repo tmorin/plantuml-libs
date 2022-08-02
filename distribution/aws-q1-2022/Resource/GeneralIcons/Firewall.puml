@@ -2,17 +2,17 @@
 
 sprite $FirewallXs [10x10/16z] LSk30S0030J0g_dxZrippiCdXkTgvJn2slEg9O7v-FeU6gRJkgyeIQdmYnK
 
-sprite $FirewallSm [12x12/16z] TS630SH0002mj6VjF-xRIForcswYfW7QQFe40kBAO98jjLPs9ZkTIfPIIMcAKTLQRst2i6tRyEO8
+sprite $FirewallSm [12x12/16z] TScr0SH0000WadFRVznt5rhyjPbkTaq3jD7qsmJ4bS4aMcgjx4pGAMGXf12cFQXQwwrD6BPj6zuS0G
 
-sprite $FirewallMd [16x16/16z] XSU5WKCn30Km_R03-uzxpD3A-Dnt8lcgv7HykeJOdp7QbA_mRhIcNETyP4md1j0W7EC9DZfCIc9XgRtltcDK2zl2n6PVbXKH-saMUXhXmlB5UkAtHm
+sprite $FirewallMd [16x16/16z] XSU5WGD130Gm7IxP_PVx4ER8EBxBngrbacurDMxIrisQitrVBJ8l6LtMUesQLFyWKA0pOs1OIubIMjqCX86E81X6Qot-Pg1CjPamt1X_FFi5
 
 sprite $FirewallLg [20x20/16z] {
-bSZ5OGLG202mF5Vs7xVkf_xW-B-qghzov3BzqPiLVgeiulWXhatq_lENxoH4Ipw5MWXnuiSFPOdTV2WN3f7hVD6m-EodlDYuq1gSXFrHTXRxnMixNLiuIK0W
-TzPa5h5UlBRTKQFaGNefnxUUfJtdl1xm3
+bSZLOGL12030OS_MwB_SvBdztU0ueQr-HSPI_TYBbZu5ZHm-vDJ9VV_ynQoat3v-rY3bo8yVeic-UOW9WuorNcneUFHH8g9ZmbPWG7-K7h9VNDieIiCW8L4M
+MgM6R1VNrXUi6UKW5WnlUuXUQvrE-0S
 }
 
-!procedure Firewall($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/GeneralIcons/Firewall', $name, $tech)
+!procedure Firewall($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/GeneralIcons/Firewall', $name, $tech, $desc)
 !endprocedure
 
 !procedure FirewallCard($id, $funcName="", $content="")

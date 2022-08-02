@@ -14,8 +14,8 @@ PSr90iCm24FHs3WWaVlVj-167J-xvm7keABZFyhUA5ks4sQRiSAfcvbjY1CkGpOQkxSrJe30ego36vO7
 PPdLFN9RUdQi1gkhojuvQin0MJTpzKtPLjOqlarH9XK-
 }
 
-!procedure AwsChatbot($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/ManagementGovernance/AwsChatbot', $name, $tech)
+!procedure AwsChatbot($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/ManagementGovernance/AwsChatbot', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsChatbotCard($id, $funcName="", $content="")

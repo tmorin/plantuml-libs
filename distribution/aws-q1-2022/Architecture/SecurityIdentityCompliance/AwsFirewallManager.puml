@@ -14,8 +14,8 @@ RSk5TGKW50FGvnBstxTOlmU_9_HD_ISp-mVY1m87NX4RoqZPdhOmZLPFDFyD7ht3_Enfj-TMknREw2PU
 QPdMOw724C0KFpOnZQUl3trj8aeCnNtj8eGSmBMBDyU-SVp0Fm
 }
 
-!procedure AwsFirewallManager($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/SecurityIdentityCompliance/AwsFirewallManager', $name, $tech)
+!procedure AwsFirewallManager($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/SecurityIdentityCompliance/AwsFirewallManager', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsFirewallManagerCard($id, $funcName="", $content="")

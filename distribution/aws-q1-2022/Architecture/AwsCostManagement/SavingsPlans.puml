@@ -14,8 +14,8 @@ RSf9beG020HHHYMe-z-t2yMUSvV_1K0zE-_1T_t75baymlF19PblFhXs10mUTc6FEIOgedNcOFSGPH4J
 FKOsyVO0-EowlKxijjUhUw0ZEODhjtL8fWIFhKBpozRNLh_X1m
 }
 
-!procedure SavingsPlans($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/AwsCostManagement/SavingsPlans', $name, $tech)
+!procedure SavingsPlans($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/AwsCostManagement/SavingsPlans', $name, $tech, $desc)
 !endprocedure
 
 !procedure SavingsPlansCard($id, $funcName="", $content="")

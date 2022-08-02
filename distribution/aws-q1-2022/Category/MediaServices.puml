@@ -11,8 +11,8 @@ RSp50O0m40LHiZRfls7auv0vlXL6MPpvKIDOgxjCaxrqP2KBEthOT6pwsvHNixpDVBEmYisoRrPOahTr
 DZKoeSp-BG
 }
 
-!procedure MediaServices($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Category/MediaServices', $name, $tech)
+!procedure MediaServices($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Category/MediaServices', $name, $tech, $desc)
 !endprocedure
 
 !procedure MediaServicesCard($id, $funcName="", $content="")

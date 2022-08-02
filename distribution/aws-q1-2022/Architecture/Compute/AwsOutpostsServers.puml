@@ -8,8 +8,8 @@ sprite $AwsOutpostsServersMd [16x16/16z] NOu54iH02C1ciV3_3vy1rvQC9Yi048Exqs4AAr1
 
 sprite $AwsOutpostsServersLg [20x20/16z] RSg53S0m4CNGuFTr_u7BuLZyP9xKodVCg6BCDgCexOp9iWjEZ1O07t8nUpz0U8ePYhp9LxD8AL4igrZv7WpfBTxvtooGl9U_YwbOz3K7iZ-wR8EsGTlWiS4B
 
-!procedure AwsOutpostsServers($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Compute/AwsOutpostsServers', $name, $tech)
+!procedure AwsOutpostsServers($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Compute/AwsOutpostsServers', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsOutpostsServersCard($id, $funcName="", $content="")

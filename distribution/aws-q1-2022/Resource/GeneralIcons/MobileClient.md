@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/GeneralIcons/MobileClient')
 
 ' renders the element
-MobileClient('MobileClient', 'Mobile Client', 'an optional tech label')
+MobileClient('MobileClient', 'Mobile Client', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/GeneralIcons/MobileClient')
 
 ' renders the element
-MobileClient('MobileClient', 'Mobile Client', 'an optional tech label')
+MobileClient('MobileClient', 'Mobile Client', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

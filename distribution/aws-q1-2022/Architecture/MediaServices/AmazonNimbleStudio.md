@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/MediaServices/AmazonNimbleStudio')
 
 ' renders the element
-AmazonNimbleStudio('AmazonNimbleStudio', 'Amazon Nimble Studio', 'an optional tech label')
+AmazonNimbleStudio('AmazonNimbleStudio', 'Amazon Nimble Studio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/MediaServices/AmazonNimbleStudio')
 
 ' renders the element
-AmazonNimbleStudio('AmazonNimbleStudio', 'Amazon Nimble Studio', 'an optional tech label')
+AmazonNimbleStudio('AmazonNimbleStudio', 'Amazon Nimble Studio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,17 +2,17 @@
 
 sprite $AwsIoTActionXs [10x10/16z] Oq06d53CmCZ00M92U6n0p0vHm0nYmG0JaZvEk1YO2INPsPauWI8
 
-sprite $AwsIoTActionSm [12x12/16z] LOk50SDG20NlE-m_S9jS7ES9toZPoqpFNboZG2aGFY2P-7Hyx88n8PYUIrofvge_hhyCy3H6HbRW3m
+sprite $AwsIoTActionSm [12x12/16z] NKo50G112C9hzX_uuyfk0GHZbiev5TY6yPSASABMaZ6NcR9WxKVMEVPvvoNB51jMR8rpuU0lyG8
 
-sprite $AwsIoTActionMd [16x16/16z] RKu73iGm3F8U___m6P5g7bAn6KqY_s0xi_CfNHKWctBkUnjuGKCZHOmPZMRCBc08k3Mue8acxPDbuFpoTB0hh4D0yl3May6IWUSCIhhluRv82QjEjdu
+sprite $AwsIoTActionMd [16x16/16z] FSof0S1G20Mml7y1-ozSLnSL002mfdiQm0IS0fhyOdvnMG4DYW4KY0Puy3H0GHd02zn_3YmSE1iC2lk04sY0Su1Ri2O0yke27m
 
 sprite $AwsIoTActionLg [20x20/16z] {
-TKs54GCm47gN_GUkSA7UFo5evFz5pqxQYvBhm5wbD2cyyODtSuwuWI9IKKp2EPj7z1O9Fu527faMNf_F3NsAWNB8Kk6qvKjE5n0k-P8YM3Ebr5vjNDezC90C
-2cl-yhNn7UCizjFkRRTO3h0KwNnV0G
+TKw50GGn22FGDh3_m2_KNt8UFVaFfOTN74mDooTZKMvVhuxtRP213APKsdIcCZe72OhOB6lvaXxA1CVuo0zIttV3h9DLhNhuqEK2gTkr7k2YzZDkgkh-Sypn
+lDl7T0AE6UHM6JGj4IeNe9YlJm
 }
 
-!procedure AwsIoTAction($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTAction', $name, $tech)
+!procedure AwsIoTAction($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTAction', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTActionCard($id, $funcName="", $content="")

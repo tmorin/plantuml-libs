@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/MigrationAndTransfer/AwsMainframeModernizationAnalyzer')
 
 ' renders the element
-AwsMainframeModernizationAnalyzer('AwsMainframeModernizationAnalyzer', 'Aws Mainframe Modernization Analyzer', 'an optional tech label')
+AwsMainframeModernizationAnalyzer('AwsMainframeModernizationAnalyzer', 'Aws Mainframe Modernization Analyzer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/MigrationAndTransfer/AwsMainframeModernizationAnalyzer')
 
 ' renders the element
-AwsMainframeModernizationAnalyzer('AwsMainframeModernizationAnalyzer', 'Aws Mainframe Modernization Analyzer', 'an optional tech label')
+AwsMainframeModernizationAnalyzer('AwsMainframeModernizationAnalyzer', 'Aws Mainframe Modernization Analyzer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

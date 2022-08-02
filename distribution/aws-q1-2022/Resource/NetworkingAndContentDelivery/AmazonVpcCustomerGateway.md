@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/NetworkingAndContentDelivery/AmazonVpcCustomerGateway')
 
 ' renders the element
-AmazonVpcCustomerGateway('AmazonVpcCustomerGateway', 'Amazon Vpc Customer Gateway', 'an optional tech label')
+AmazonVpcCustomerGateway('AmazonVpcCustomerGateway', 'Amazon Vpc Customer Gateway', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/NetworkingAndContentDelivery/AmazonVpcCustomerGateway')
 
 ' renders the element
-AmazonVpcCustomerGateway('AmazonVpcCustomerGateway', 'Amazon Vpc Customer Gateway', 'an optional tech label')
+AmazonVpcCustomerGateway('AmazonVpcCustomerGateway', 'Amazon Vpc Customer Gateway', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

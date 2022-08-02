@@ -2,20 +2,20 @@
 
 sprite $AwsWafBotControlXs [10x10/16z] 5S450GH1000XJbUcVzuN041K8683WVHdoamanoCUtEzztmSs787PGry
 
-sprite $AwsWafBotControlSm [12x12/16z] JSQtOGCm40GmC3pJxJ-lBNL21Rz2Upb09bDpC37fHKC5nPFtjNKPDqFUlN7SpEyrMkxNFj0zJODJqtK4w6d8Fm
+sprite $AwsWafBotControlSm [12x12/16z] JSQ5RGHG00KWlilRVz-cvyJmAxZP_4kZApQQ_ok3VoreNBd_9b9EcjnpOdlTlvn_QqDn5VxjqHnRy2-GFm
 
 sprite $AwsWafBotControlMd [16x16/16z] {
-NKg73GGW409B5Db_tqVzpYL7nJzyFirFG0-wI2ZpjU1MrtA_rRQljtv_zhmHBgEPF6b8l9XG8aChUNLNYM61t8d9gTtZ_81X7pyavrHxGL3oZGKGnyx6VA0d
-3MQKbJkpYxVY0m
+NK-50GGn30frolxpdf3NeurxFA4_aPfw26HWVKAtPZEnsstN37zvJm9c4s3lnHc9TMjIS2kYgX9o0jMl81QTcTp-aEr9YY9BXGDklEC5hEhig9zD-vqkFAuo
+JW
 }
 
 sprite $AwsWafBotControlLg [20x20/16z] {
-RT073WCX34JHRx0Nmzp_lj58wScZzy8_5tV2tkf7vl6yTrO7DAIhRpEN1b07h32bLuuOM6EXz-q387KEjW8GR3rCPj_xk7DD83Mx9GY9ZNJTrpglhBa9tTU6
-ohN3fbnRoSc7lkyjHkRLgSma6gm6Z0i1mRth17U1i6gcraJKRX0FqP8AqxyFvmO
+RP274KGX24GHuOji__qU62-jwP5df7-I3TYmsP5wJWv8BPuuTU7ER2Xngq-Npe1aPOcLEjdtcTa2dz1Me6ChQctvQ2a9iM7K3Q34y06yQlDcaPfvgxP0appo
+EAbLSjworHjPzPX0HEROa1OYveXTgHyiAw16Z9OMzoZ4JJ00-lEtVEW5
 }
 
-!procedure AwsWafBotControl($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/SecurityIdentityAndCompliance/AwsWafBotControl', $name, $tech)
+!procedure AwsWafBotControl($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/SecurityIdentityAndCompliance/AwsWafBotControl', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsWafBotControlCard($id, $funcName="", $content="")

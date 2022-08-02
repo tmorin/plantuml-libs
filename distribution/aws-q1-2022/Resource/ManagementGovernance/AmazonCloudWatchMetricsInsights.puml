@@ -2,20 +2,20 @@
 
 sprite $AmazonCloudWatchMetricsInsightsXs [10x10/16z] LSP50GG1000XrcNwvprNNlYnc55QzwEMa9DTDfmHHub8_6z-2UFSE705
 
-sprite $AmazonCloudWatchMetricsInsightsSm [12x12/16z] LOk50GD140BdNEY_tx1vdvCLW2zgmlH9wIncAMn8WvKtReVxHKdKc3ecAtetSYEYJwNqs4I_YlyLU8zKhhsHudUSlAKTaHy
+sprite $AmazonCloudWatchMetricsInsightsSm [12x12/16z] LOY50O0m30IlBhV_lXI7v9t_cTsjTAWCbZ4XD4QOUsmh3n8x9XKW6lSCcf4z1sBUbpsFNST--wxXtjVfhXa8K-S4DW
 
 sprite $AmazonCloudWatchMetricsInsightsMd [16x16/16z] {
-ROe54WGW30CNADBa__-zwRajqaRumx8xXNoLlR6lsgjnZjeMFcUZ1gfZ18ZM41bWO8xIVO-mC6rJUWLNbhbg2DjWSTL9oYgVgrRFcltAUEfn9HfYsCcpx_Ca
-CnjSiNanVEK0N
+RSo5WKGX54FHYqFIVxqh6PVp1PxonRGh_-I4m4hi3dkB8RptGe3-7r-l1SHfO62K_vXLguKfY_zuD6AOnD1jWqNYmv55NFVbZ0egYKiq4CK-ZtxlktCELpOF
+nR41VW4
 }
 
 sprite $AmazonCloudWatchMetricsInsightsLg [20x20/16z] {
-TOg5OS0m30GlJeI__xm5Gxbda1xuZplBpje-fnKyOYAqPnIscja99Vd8KKYIeLLwrnqqG5yaQ5xQ0DAcAi8xVCgxM8q89jqIo_DaazTCDKL94aZFzWpKMUAW
-S_dkzRMytlpN0vFatxpd1u9XYvGjRXPZFAunniK7bs_6bAy
+TOg7bGCm2CNa3lpzvxs2kPf4hkY9LpJpnMN4pdSvJ948rNkSSKiB0vTsi-P8qa8t-fpZ40011ifDB01REJbdnzavTkSMvv14I5mtZS8uvG2N991QkGuASq4X
+QlFNHRaeNdMm9Eq_Rlv3q7gobaPF6fVUvzRFNEvtymu
 }
 
-!procedure AmazonCloudWatchMetricsInsights($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/ManagementGovernance/AmazonCloudWatchMetricsInsights', $name, $tech)
+!procedure AmazonCloudWatchMetricsInsights($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/ManagementGovernance/AmazonCloudWatchMetricsInsights', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonCloudWatchMetricsInsightsCard($id, $funcName="", $content="")

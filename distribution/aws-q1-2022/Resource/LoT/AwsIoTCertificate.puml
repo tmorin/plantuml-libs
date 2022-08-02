@@ -2,17 +2,17 @@
 
 sprite $AwsIoTCertificateXs [10x10/16z] Oq06d0mCZ2mG1WWmWfdCO3wC0F5OE3cWN4PapQnW1MW6WiG
 
-sprite $AwsIoTCertificateSm [12x12/16z] NSlL0GCm20JG5uFB_WltfuvpuYzoHXUGpppEWe5aEub2ToJfHcPVMB0_NgCP5z1ZcQ_R_TpJddW
+sprite $AwsIoTCertificateSm [12x12/16z] NOk50SC020GFX_q7RkE6yy8dsYNpEEyPg5oALgAQLLNhpgnQSQdX3B-ziBB3UGjotVEuyVN-0m
 
-sprite $AwsIoTCertificateMd [16x16/16z] RKw30K1H2BnS-m_yZQVi3YkYp2p_Kht3f3jbU-fvku8ybSkHkI3W-WomH1YSrIEklbOnwY2z3mINLNFG2FY3_x4Q7l8Gbf8Vxv5IeibXQ7DBgYO70_0hsW4
+sprite $AwsIoTCertificateMd [16x16/16z] RO-50SD0200FX_q7hb5FxXK7JkdkoRVa-sqMSVXM31BxsyTIAD9U3b8L99PL3rbdbBaXQo-Pc5V2LvRlpwfnVnjAi56-a9VNE_PRzcQ-PGLsg2i
 
 sprite $AwsIoTCertificateLg [20x20/16z] {
-TSg5jSKW50NHuVhfl-2N1BxBncV1_wn6dNobvhOKV1Zdg8H3phjUR3PO9eVOaX0k5WkqpdzKXS-jLyHkGwivvAVLlcNbpSfsYp3b39luEDtOeZZMy4wyYx5p
-Ql5fL3bAlXhC5_MZtNwsDLq_cWIcxotWPcmN
+TOs50GCW40CJNhF_m3MaVlZnWlymMnLlIeKRbEFGn2HZAn6RsjS6REp_UGHSC87WSGLbOlIDedEbbcgdsdG9cS4oRY2derFHlNkSavpNaPYmiH4sOqaJNcXb
+j09l3YIG7mxuTbtvuIHWwDtnPSSL
 }
 
-!procedure AwsIoTCertificate($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTCertificate', $name, $tech)
+!procedure AwsIoTCertificate($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTCertificate', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTCertificateCard($id, $funcName="", $content="")

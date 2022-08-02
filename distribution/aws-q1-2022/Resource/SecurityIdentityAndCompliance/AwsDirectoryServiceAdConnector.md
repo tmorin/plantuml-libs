@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/SecurityIdentityAndCompliance/AwsDirectoryServiceAdConnector')
 
 ' renders the element
-AwsDirectoryServiceAdConnector('AwsDirectoryServiceAdConnector', 'Aws Directory Service Ad Connector', 'an optional tech label')
+AwsDirectoryServiceAdConnector('AwsDirectoryServiceAdConnector', 'Aws Directory Service Ad Connector', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/SecurityIdentityAndCompliance/AwsDirectoryServiceAdConnector')
 
 ' renders the element
-AwsDirectoryServiceAdConnector('AwsDirectoryServiceAdConnector', 'Aws Directory Service Ad Connector', 'an optional tech label')
+AwsDirectoryServiceAdConnector('AwsDirectoryServiceAdConnector', 'Aws Directory Service Ad Connector', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

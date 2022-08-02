@@ -2,14 +2,14 @@
 
 sprite $AwsIoTAnalyticsDatasetXs [10x10/16z] Oq07d4n0Wf4L23X1N6PE3avEJhWiJXOJ6n20MK3bC1sCOC
 
-sprite $AwsIoTAnalyticsDatasetSm [12x12/16z] RShL0K1H209GRDr_uDTnwtmfW8xGIQwR_Q22Ec-SdflqyDnX4R7OQBEnqxpHstMZybBO0G
+sprite $AwsIoTAnalyticsDatasetSm [12x12/16z] RShL0K1H209GRDr_uDTnwtmfW8xGIQwR_A10dJSkptrkdjlr62qsSdfkEyqRlLqtAY-57G
 
-sprite $AwsIoTAnalyticsDatasetMd [16x16/16z] XSc53G113CJ0FKhY_Wj-PhJG6jtoM6Bv5Q8nVPeqMSZEldogPE3TmN-SJu-fLsTjVgbeQNcsf1u
+sprite $AwsIoTAnalyticsDatasetMd [16x16/16z] XSc53S100810wcN_WUlwIfGSKTDyvVKtpAtd7qetC_xz_aRKFkkRLToYpqTPz-vywBYwtYTO0G
 
-sprite $AwsIoTAnalyticsDatasetLg [20x20/16z] XSs50O102010Mjb_OFCxptmInhmGOrQaaV2F8N-GmKaqnFH32a-ljhqvnkhdwOzDNHEBEqWVknrq1BiTz44gU-qZjkxrBCOQ6h-OfLY10Mu
+sprite $AwsIoTAnalyticsDatasetLg [20x20/16z] dSs54S1G309GI1lRV-2wU_yx3t31jToORxQ98Pnk783ThTRnHXrGknlql9rl5JCYEvUzvnjLePst7-AJWXzY0zfpBpU6sybyKwxccsmGQ04
 
-!procedure AwsIoTAnalyticsDataset($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTAnalyticsDataset', $name, $tech)
+!procedure AwsIoTAnalyticsDataset($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTAnalyticsDataset', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTAnalyticsDatasetCard($id, $funcName="", $content="")

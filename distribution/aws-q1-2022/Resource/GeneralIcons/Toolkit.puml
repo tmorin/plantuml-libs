@@ -2,20 +2,20 @@
 
 sprite $ToolkitXs [10x10/16z] LSU30GD000F0Utl_SMl6yOTZWH9UCSHWJi7Wf7pSBkbKc4RAocEj8n-my5nAWoi
 
-sprite $ToolkitSm [12x12/16z] NSQt0G8n00Gm_JlRn_xZ4ZjKoRyrEg1Ex1jEBPG8btjoCd0XkmPkx4VyNauzpkydiNNOzq1l4mG1k7F12m
+sprite $ToolkitSm [12x12/16z] NSp50O1044FHlouJ-YyN2oVUw2dyhTwnCe6T0A9cI480QK9eODfLVFOXB4KDmdz8R3flsW3wcmpoMFPt0G
 
 sprite $ToolkitMd [16x16/16z] {
-ROu3Wa0n30MdI9NN-nztyQqfOl2DAN8I5SWAh0GlYsnz5Iqt01yi0QTcGSzUcS005oZKlDWEe1HgO8-3pGc7tHKcEknXL8HMs-bU0wYbnKwA9GCayx0kxm11
-YPtUrjrEd9LV
+RO-54GGn3CGKS6Wt_PVxp7yoQZnaZWdd3qjE5BzK5O0nxsFK0Q252Y1wDSogpWOMoE3Kyyq5u4A7vnrYRzu-dJP--GewndSNKntmA3TFJf41SX4txZDzl307
+QdmYxfm1
 }
 
 sprite $ToolkitLg [20x20/16z] {
-VT25hKKn30JH2SUm_PVxuJ7U4QsEXUQe7fMNP4JmsFO2j9mt6IeyhjEr-scjtDXfMiMh2ZINJrRXP2WBpD7tWu5AYoxnQ6Gj1XVpaxKgJO39nVgA8cm-sBBU
-l3isxfRgWk7uk5XdXGde8TW0VrBdEgtEqE3KxID5ngqM4ufvuR6X9TuQj_KB
+VP150WGn40BfkF7_xouxxdLee78Bll3TheeLlPzCQH0sqcOYxTBq6jhKyYYeKws6vlxlrjWIlCqE73eXkh8xGVWUI1mTXhCAaKsdJSuxCa7epCvYDwA6Wyir
+-1OQQjpTe2SWsVpY0dAlX6JNBH0ovlBKF3m3PdhVVsV3UjAj3ISYCt4ZRkq7
 }
 
-!procedure Toolkit($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/GeneralIcons/Toolkit', $name, $tech)
+!procedure Toolkit($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/GeneralIcons/Toolkit', $name, $tech, $desc)
 !endprocedure
 
 !procedure ToolkitCard($id, $funcName="", $content="")

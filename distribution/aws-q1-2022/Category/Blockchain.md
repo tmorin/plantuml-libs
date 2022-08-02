@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Category/Blockchain')
 
 ' renders the element
-Blockchain('Blockchain', 'Blockchain', 'an optional tech label')
+Blockchain('Blockchain', 'Blockchain', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Category/Blockchain')
 
 ' renders the element
-Blockchain('Blockchain', 'Blockchain', 'an optional tech label')
+Blockchain('Blockchain', 'Blockchain', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,20 +2,20 @@
 
 sprite $AwsIoTThingPoliceEmergencyXs [10x10/16z] Oq01h9oSd0peW1CY1QOvGJIOnGYcMK5Y414EDbOW6vjv
 
-sprite $AwsIoTThingPoliceEmergencySm [12x12/16z] LSt50GH024FHDnxwBtXT_mrY_bbQRI3hIR6czu-fJdA4DWr4cfecIigQ0_hRFwmZc1W8Aa_st-uL
+sprite $AwsIoTThingPoliceEmergencySm [12x12/16z] LSt50GLG30AmFAVx3_nTSsq1_nQrWTsVYjKzPT7LIOwW6uXGtKH9MRtz_G_h_U-LeFAq_tQl
 
 sprite $AwsIoTThingPoliceEmergencyMd [16x16/16z] {
-PO_N0KDH24AnNMN_XUCZFU7lM07uLs50otXY5ukdkrBuCMXNzyrPgNwSe7Dv-qDOcyD1vBJwWvKTzKc0sbxcN6KFSICTo8QLcBg_39yEzlOoddwqaYOJBxLQ
-LZP6BtKrzf7l1W
+RO-55SH024G7X_uBJhB6wQp-X-EF38a2oy6mil88qsLjyRI-iUcqirDHBNi-RqnhWJEcFIVBj5SzPxA3AyT3D3ccdKV8YHU6FamPgETbbMEKqm-KM_u-ZoYs
+z6s-6m
 }
 
 sprite $AwsIoTThingPoliceEmergencyLg [20x20/16z] {
-TP25WSKm3CNacFSV-C0VoYe_Q80d37LwZYz-qUg0ZPQy-Nwv7xLoVJk5DDZxIpKXlL8hSa6gO9wiPj3UTMEDbk-hEw5bD9V_Rnz72eRUSkfVxPkZJ01DstAm
-gcC2tzoWmFUhs1DpjwpCofuZv77_G14bvlZd5m
+TP050aGX24H7cljVU7VyNS-M1byOXgFdsF77NrqGaCJA_dA__fMFLLAWBrjVOoIGNgaLEG0kywJEP3GEsnYxVwxkGuygtR982Wjzw0q__Wuzco7I3Zr0ggEf
+VUWHFMfR0-m4Y6JbV_OSyTK_CZXb3l83
 }
 
-!procedure AwsIoTThingPoliceEmergency($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTThingPoliceEmergency', $name, $tech)
+!procedure AwsIoTThingPoliceEmergency($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTThingPoliceEmergency', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTThingPoliceEmergencyCard($id, $funcName="", $content="")

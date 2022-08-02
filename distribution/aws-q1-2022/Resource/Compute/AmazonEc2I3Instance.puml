@@ -2,17 +2,17 @@
 
 sprite $AmazonEc2I3InstanceXs [10x10/16z] Oq0576n876Oq5WS7cCK1H2n05WS3I34ZaCM6h8uP35YHp0C
 
-sprite $AmazonEc2I3InstanceSm [12x12/16z] NOs50G0X202FPl-5lqCzfOkPL5f93ZeVu92RJlJrI-7mm_ooVVeUXzDNZvTyFHVB7ghh-ZxTtG4
+sprite $AmazonEc2I3InstanceSm [12x12/16z] NOs50GC1308lpluBj-yML-0jRGXwBTM7mEgRgB6p7jiEAsBBMkiiq0uG0wn-tdzm6Crc-UBz0m
 
-sprite $AmazonEc2I3InstanceMd [16x16/16z] RO-50S0m20IZp-y_ST7wHIyAxGSqQTI6q25QwBth6eMeGiPr4T3zcskJsE_Tp-R-w6tdFkc-Q4xM_kJZVW3vll_zNr3mcqyurE5-
+sprite $AmazonEc2I3InstanceMd [16x16/16z] TS-50G0W30CmlFt_OTnXUF2fJmeAYhc6RdIZqUgHa1MWry5GZYmNOLz7Ny_5zNMosh6O7EkMyldbx_i88_4VJyYPkHOd
 
 sprite $AmazonEc2I3InstanceLg [20x20/16z] {
-bP255GD1449XbFuRZkTSr_U_KR0t2Wa8HTG1ozPh_W__iCPaU02eqenrnQPTvjokqlzselIt6nYO0vFqPT4V9kNKZgjQEDP2BchXhJvyCZ9-vXqLeTVrMaUQ
-1Xml7CJ7x0a
+bL250KHH20AJ_HU-lj_9Irl17We92FN-xUkorUh_nO-kCO6_TLMQwRguwPSvzwiS_0Hfy1jqy8_EteBqrKL_T99D_RZgXVkzsBqvV88atY2RHHFRsJpYbEz6
+3Fmrz0G
 }
 
-!procedure AmazonEc2I3Instance($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Compute/AmazonEc2I3Instance', $name, $tech)
+!procedure AmazonEc2I3Instance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Compute/AmazonEc2I3Instance', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonEc2I3InstanceCard($id, $funcName="", $content="")

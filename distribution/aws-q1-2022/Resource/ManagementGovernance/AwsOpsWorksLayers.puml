@@ -2,14 +2,14 @@
 
 sprite $AwsOpsWorksLayersXs [10x10/16z] Oy04p5XPR320f98R1h3gO8O2LW
 
-sprite $AwsOpsWorksLayersSm [12x12/16z] Oq06p4mmmCN021V5mqO057FO4O0eSxZWW1i
+sprite $AwsOpsWorksLayersSm [12x12/16z] Oq06p8mmmCN021V5pSO5s160A7Euu80R
 
-sprite $AwsOpsWorksLayersMd [16x16/16z] Oq07t5meW84BHPPaFffvd0o402CA0Bg71HbGxXvE5C06
+sprite $AwsOpsWorksLayersMd [16x16/16z] Oq07t5meW84BHPPaFffvd0oa0cvcP42vUpXH01i
 
-sprite $AwsOpsWorksLayersLg [20x20/16z] Oy06kBZH0Gi3DxeYPbRgYp6Z0LPM1XOsTC38G0dWnW2i0-StLdJ02
+sprite $AwsOpsWorksLayersLg [20x20/16z] Oy06kBZH0HC3DxeYPXg8CQ81LYO65ZPqm40Hu1uelp6Z0Q3Vc3000m
 
-!procedure AwsOpsWorksLayers($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/ManagementGovernance/AwsOpsWorksLayers', $name, $tech)
+!procedure AwsOpsWorksLayers($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/ManagementGovernance/AwsOpsWorksLayers', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsOpsWorksLayersCard($id, $funcName="", $content="")

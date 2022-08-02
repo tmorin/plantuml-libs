@@ -2,20 +2,17 @@
 
 sprite $AmazonMqBrokerXs [10x10/16z] Oq01B1nG1ZUCO6K04OmGGMvkECt9pS74m0XaSq756244GYy2
 
-sprite $AmazonMqBrokerSm [12x12/16z] NSQ5OGGm30J1CTjI__KcptIuVbKA86U_xOrxUUqmKGHZq4QmgIttaDc5jJWPH6MK2cKXrDVkMAsi7Rxq3m
+sprite $AmazonMqBrokerSm [12x12/16z] TSQ50GCW40J1mU7flzwuo-dwgztAPIzSdbiq4DHAQS4asRFPkmfzi7OGYIQ1WU2nCqPMPtZJ4G
 
-sprite $AmazonMqBrokerMd [16x16/16z] {
-XSw5ZGDG40FHMVgmxh_UWp1d14yMck_bDFNMoCb_LimxLzQjQS4XY_LF0rfZ_ra6KvFQuDP8q6nfGheo_bSlV5ju19B10jf8mG3mdETVzOyDvgsSViH9pAdM
-yZ-V-mK
-}
+sprite $AmazonMqBrokerMd [16x16/16z] XSwrWGD040J1EeRDFzu7CMlGRTzLXzWh-j-3QjpzBEtsgmH84pQYrxKf6D7LHRP5iAs8HXKrsTOUh5Ja8Y8niPCIL4WNZj4-yUJJGzinlTGl
 
 sprite $AmazonMqBrokerLg [20x20/16z] {
-bSR5eKCn34N18p-XR__rViPmPZKyoRk3NuTsTApbvM_Zmu1EL-5dyqY-H1hlh00va0ah-HPwnvViJeJ0X53A44XomPejRrPIMSMOC6IDGWPcG4fRUj_1km4A
-O0L4y44oJjQ6piRvRBRjoMmTR-Dnhm
+bSt50GH124JHtuPL_lckkyuxuR3HZ5ZSTDMAtbhpgJet4lGS-HelqLp6sR9sxW8wn6RGxUxF0MSMOGW1GiXq293K16Hf1htZvawUvmBDGzGQO59908E3FF-c
+BLW33gJ6KnIWVoAog3GBzNsqmGu
 }
 
-!procedure AmazonMqBroker($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/ApplicationIntegration/AmazonMqBroker', $name, $tech)
+!procedure AmazonMqBroker($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/ApplicationIntegration/AmazonMqBroker', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonMqBrokerCard($id, $funcName="", $content="")

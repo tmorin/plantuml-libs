@@ -14,8 +14,8 @@ RSe53aGX4C1GOBopzp_lvdk4nbyAr5FUiK4so0RvqFB0sr9bYPNwVG9cvpcpAaviqEMPOJCgXnpOZK94
 bzbQiXHrnB_lE2l42YvZUbRgWWa7_lg8Eaw24ty7Nl7qs-1lWty
 }
 
-!procedure AmazonAurora($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Database/AmazonAurora', $name, $tech)
+!procedure AmazonAurora($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Database/AmazonAurora', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonAuroraCard($id, $funcName="", $content="")

@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/LoT/AwsIoTThingBicycle')
 
 ' renders the element
-AwsIoTThingBicycle('AwsIoTThingBicycle', 'Aws Io T Thing Bicycle', 'an optional tech label')
+AwsIoTThingBicycle('AwsIoTThingBicycle', 'Aws Io T Thing Bicycle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/LoT/AwsIoTThingBicycle')
 
 ' renders the element
-AwsIoTThingBicycle('AwsIoTThingBicycle', 'Aws Io T Thing Bicycle', 'an optional tech label')
+AwsIoTThingBicycle('AwsIoTThingBicycle', 'Aws Io T Thing Bicycle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

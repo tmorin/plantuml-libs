@@ -2,20 +2,20 @@
 
 sprite $AmazonRedshiftMlXs [10x10/16z] Oq01t2W4DpTSd0ckW14a3cLnGXKpWkKWB6w461iN4pShApSJ
 
-sprite $AmazonRedshiftMlSm [12x12/16z] NKk50G112E9QOFzvl_DAISn7BBafxp1Voe6BHFB4kpDmOJHfnwRBDdUS4T3LRHjE7rnsE6L06hOSM04
+sprite $AmazonRedshiftMlSm [12x12/16z] NKg50S0m3A8UuFzxvzeeXhd4dAeEc2xbm4aYUUBT6RWmchHZqtcx1qQSxdRRXl71QOTJ1gHXou4L
 
 sprite $AmazonRedshiftMlMd [16x16/16z] {
-RSn50W0X509Gi8NxttVirTZF7_WVsPRiSEXpntpCUQOQjQqizTvJFjvNhRXEIglBCJkjecMwEuqRtXOQCd4RfJRC_YmCls5uEJ-Z3uVuyc7sSN4gQ5wLeu2b
-jJBq0G
+RSw50KGX30FGu3JPVz_hHy_mXxNuNuf4Id5HQuvbUwX5JhEGPXRJyfnQmtPY7g-MOK6id9OfZtcQwCW1epXoTmSx9jod21eknp1tkEyXc4zZ8t2azJm8jVVg
+U04
 }
 
 sprite $AmazonRedshiftMlLg [20x20/16z] {
-VSq54WGX30NHHYF__kTTOwXPxr8UaF2lPY4fh9qaP-NQP8LT7zkqq3Kqjp5JSOkif-rf_ScgLI3WoOGe2YZR86PAv66ca10mT9XFWghAesLHSH1FbiRTUZwP
-U1ZpsTeoVpAqvhtkQCyx7cV8gLGTyj67wVWmQ0MeVVG6S0K
+VSu54WD020F0m6d8_zzREQkNCMPH_0jhbCHc3r9VITUcXXFPjsbt5Hr33V4M23zsjkKdit6Hm9C90dGpsmQmXeHOraIDBXGjwnc4QVy_Z3S6X2UBDipZoOHX
+gCzcq_gJGNEVFnlzzGODG5I5tDLBBarhm65ZoDn7SWK
 }
 
-!procedure AmazonRedshiftMl($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Analytics/AmazonRedshiftMl', $name, $tech)
+!procedure AmazonRedshiftMl($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Analytics/AmazonRedshiftMl', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonRedshiftMlCard($id, $funcName="", $content="")

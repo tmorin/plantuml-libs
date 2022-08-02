@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Database/AmazonAuroraAmazonRdsInstanceAternate')
 
 ' renders the element
-AmazonAuroraAmazonRdsInstanceAternate('AmazonAuroraAmazonRdsInstanceAternate', 'Amazon Aurora Amazon Rds Instance Aternate', 'an optional tech label')
+AmazonAuroraAmazonRdsInstanceAternate('AmazonAuroraAmazonRdsInstanceAternate', 'Amazon Aurora Amazon Rds Instance Aternate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Database/AmazonAuroraAmazonRdsInstanceAternate')
 
 ' renders the element
-AmazonAuroraAmazonRdsInstanceAternate('AmazonAuroraAmazonRdsInstanceAternate', 'Amazon Aurora Amazon Rds Instance Aternate', 'an optional tech label')
+AmazonAuroraAmazonRdsInstanceAternate('AmazonAuroraAmazonRdsInstanceAternate', 'Amazon Aurora Amazon Rds Instance Aternate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,20 +2,20 @@
 
 sprite $AmazonBraketQpuXs [10x10/16z] NS770SGm400XdAJfl-4B-pHuAJp6lXddWn6Zx8Gx9PShnVDOtSKu-G8
 
-sprite $AmazonBraketQpuSm [12x12/16z] LOo30G1H3CLIl_qdFkEd9YlTCCw1-cI0wEm33zW31zu6Lov_JYLIoHovLGlXny4C333ka2Dq7LHInrFC02Li
+sprite $AmazonBraketQpuSm [12x12/16z] LOm55W9134DJp_rFpAi0kt-ack1D9b2RCeUk97roaTv8DD9XSmek9-5qLESIIN05LMjRxU15S0NX234STE03
 
 sprite $AmazonBraketQpuMd [16x16/16z] {
-RO_N0KH1209dWLNxR_XolZT_He03IeAbUfHgHx9R04xq8F6rLkf6TAtbvw4KWVAiWmJeKUy5lEgP9ZEmVAq3FMqQ-J4tQmggbDhK26O0HP9XzfWDk9FLFQgn
-NtbeXYyQu0m
+RS_5eGKm24JHEmIP_Xl-mdCvkmJdYnQ0cgi91SImT7Hr0b0eUwL2-xuLxXlTti6wlOkhVTj3shVtWV70tFhP1zpGhUoYBR01GYB0PL7NVPanxJYFUmRpOW1-
+0G
 }
 
 sprite $AmazonBraketQpuLg [20x20/16z] {
-TP25WSL020K7V_qtVC9-bqdMSE0RpP0W1DzbDTfljrX9YJi-bH0nP5ymxt20eJcuUwraH7FtdNwsAyMUcNUxSzxjJ9AJ8zrb3PAcY4BIoY9Hqa9sx3BXU4d9
-sba4HAyi1J3-1mLIgSa0egP4TKafeRZD2lT8sZ2MelUKDwzOxV4B
+VP05ZWD14CHSsrJ___1TqWgJXosBXcyqGuBnBrVZ7Rl5cZ9tD9KW3TaNf9O0XkR2eLeplZkOwUUkh3qpxztbl7UsHOvzTxrsYX2srqNYf8qldGHZ0tQodI8W
+UbrwEqcYm2utAI1gobINdJRMxQ-Gug3XGbtkFfetjFi_
 }
 
-!procedure AmazonBraketQpu($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/QuantumTechnologies/AmazonBraketQpu', $name, $tech)
+!procedure AmazonBraketQpu($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/QuantumTechnologies/AmazonBraketQpu', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonBraketQpuCard($id, $funcName="", $content="")

@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/LoT/AwsIoTThingGeneric')
 
 ' renders the element
-AwsIoTThingGeneric('AwsIoTThingGeneric', 'Aws Io T Thing Generic', 'an optional tech label')
+AwsIoTThingGeneric('AwsIoTThingGeneric', 'Aws Io T Thing Generic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/LoT/AwsIoTThingGeneric')
 
 ' renders the element
-AwsIoTThingGeneric('AwsIoTThingGeneric', 'Aws Io T Thing Generic', 'an optional tech label')
+AwsIoTThingGeneric('AwsIoTThingGeneric', 'Aws Io T Thing Generic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

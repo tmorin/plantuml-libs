@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/MigrationTransfer/AwsTransferFamily')
 
 ' renders the element
-AwsTransferFamily('AwsTransferFamily', 'Aws Transfer Family', 'an optional tech label')
+AwsTransferFamily('AwsTransferFamily', 'Aws Transfer Family', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/MigrationTransfer/AwsTransferFamily')
 
 ' renders the element
-AwsTransferFamily('AwsTransferFamily', 'Aws Transfer Family', 'an optional tech label')
+AwsTransferFamily('AwsTransferFamily', 'Aws Transfer Family', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

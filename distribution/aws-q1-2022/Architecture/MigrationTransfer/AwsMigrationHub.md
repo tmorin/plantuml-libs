@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/MigrationTransfer/AwsMigrationHub')
 
 ' renders the element
-AwsMigrationHub('AwsMigrationHub', 'Aws Migration Hub', 'an optional tech label')
+AwsMigrationHub('AwsMigrationHub', 'Aws Migration Hub', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/MigrationTransfer/AwsMigrationHub')
 
 ' renders the element
-AwsMigrationHub('AwsMigrationHub', 'Aws Migration Hub', 'an optional tech label')
+AwsMigrationHub('AwsMigrationHub', 'Aws Migration Hub', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

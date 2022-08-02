@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Storage/CloudEndureDisasterRecovery')
 
 ' renders the element
-CloudEndureDisasterRecovery('CloudEndureDisasterRecovery', 'Cloud Endure Disaster Recovery', 'an optional tech label')
+CloudEndureDisasterRecovery('CloudEndureDisasterRecovery', 'Cloud Endure Disaster Recovery', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Storage/CloudEndureDisasterRecovery')
 
 ' renders the element
-CloudEndureDisasterRecovery('CloudEndureDisasterRecovery', 'Cloud Endure Disaster Recovery', 'an optional tech label')
+CloudEndureDisasterRecovery('CloudEndureDisasterRecovery', 'Cloud Endure Disaster Recovery', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

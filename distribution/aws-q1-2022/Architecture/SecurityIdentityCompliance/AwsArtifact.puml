@@ -14,8 +14,8 @@ RSYt0KCX50D0U5bY_trDhFolF5prP2O-aX_9cs5gUPCxenK0R-zcQgXCMPBl8Y00l6VrTvqG4mrfA3sN
 0GCQW36pancJ1yhsdMJI27JS6-Z5nbRLwzx4R6XXHfmx-Ppxp_6HFm
 }
 
-!procedure AwsArtifact($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/SecurityIdentityCompliance/AwsArtifact', $name, $tech)
+!procedure AwsArtifact($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/SecurityIdentityCompliance/AwsArtifact', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsArtifactCard($id, $funcName="", $content="")

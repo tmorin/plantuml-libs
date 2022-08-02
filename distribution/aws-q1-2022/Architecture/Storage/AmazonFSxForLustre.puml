@@ -8,8 +8,8 @@ sprite $AmazonFSxForLustreMd [16x16/16z] NSd70S1G2CFGv3SGx3zlUhLlUWRmSxOF0GGGG20
 
 sprite $AmazonFSxForLustreLg [20x20/16z] PSe73e103CH0UkBb_--bSnTfhJuoGFx56rHr-n7y13_1J-6dz4bHIV5GKYs1W3aNkkKZp4p3-fi4B6ii4VFq6XBJp3qEkJpsHgkRYksxdzrKh9vkwcRd2G
 
-!procedure AmazonFSxForLustre($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Storage/AmazonFSxForLustre', $name, $tech)
+!procedure AmazonFSxForLustre($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Storage/AmazonFSxForLustre', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonFSxForLustreCard($id, $funcName="", $content="")

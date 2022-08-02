@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Storage/AwsBackup')
 
 ' renders the element
-AwsBackup('AwsBackup', 'Aws Backup', 'an optional tech label')
+AwsBackup('AwsBackup', 'Aws Backup', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Storage/AwsBackup')
 
 ' renders the element
-AwsBackup('AwsBackup', 'Aws Backup', 'an optional tech label')
+AwsBackup('AwsBackup', 'Aws Backup', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

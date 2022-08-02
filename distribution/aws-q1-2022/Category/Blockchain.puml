@@ -8,8 +8,8 @@ sprite $BlockchainMd [16x16/16z] XOp50GD130DZmThzDvnZfla9yuusOyV9Y5CZJfCuVU1qYgm
 
 sprite $BlockchainLg [20x20/16z] TSe55iKm24HHcC7sl-6lBQ7sulSaxuBjSKlJybEitF6tgNSMRQtFras3glfdXOZyp2j5GG6e1Erl9Knt90s1PS3lZu6-MLLsqJOms-h69YwhEwixgpPSUmC
 
-!procedure Blockchain($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Category/Blockchain', $name, $tech)
+!procedure Blockchain($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Category/Blockchain', $name, $tech, $desc)
 !endprocedure
 
 !procedure BlockchainCard($id, $funcName="", $content="")

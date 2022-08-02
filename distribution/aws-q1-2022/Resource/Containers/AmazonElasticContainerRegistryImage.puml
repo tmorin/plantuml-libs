@@ -2,17 +2,14 @@
 
 sprite $AmazonElasticContainerRegistryImageXs [10x10/16z] Oy04ZAWiDeGO6qAM4S9Y0P9GCHQ4EXOmYn4Ac
 
-sprite $AmazonElasticContainerRegistryImageSm [12x12/16z] JOor0G0m20JZOV-5SRi6UHcTDOC_PdvjNxN3UBd_jVZM_UeFP0S-FfyWjmG4q9xA2bltdm01
+sprite $AmazonElasticContainerRegistryImageSm [12x12/16z] PKo50G0X4EBuLzb_ORkz3W2xqOO5sBm-i-3d78nGcrszgSpAIyYhoewIjLOTlskopc6Q4W
 
-sprite $AmazonElasticContainerRegistryImageMd [16x16/16z] TOw50G0X30D3DVil_2xeeVMWXrb396eMTYcDRMPIsm6mja7UvxRzZe2tJNdpUTe4rDzotW6DJez4PLUEKIyRV0S
+sprite $AmazonElasticContainerRegistryImageMd [16x16/16z] ZOw50GCn58M8i__2xRaRqU-F8xOjqjZopKuvnQrTmQsDZcUqonZ1qNR9jxU5KEPonq2en_drO5DlzBcZ_04
 
-sprite $AmazonElasticContainerRegistryImageLg [20x20/16z] {
-bS_50G0X44FHZAV_YjTT-JSUZhkAvnp4AObMqwinUJPr24-6W2TG1tCEv9JL0aFL0sSJHWvaw84o6W7FOTKO1-Cm20whXeJhcprl_XPvidNboU2RoIaDU9pJ
-3W
-}
+sprite $AmazonElasticContainerRegistryImageLg [20x20/16z] bS_50S1030D1cTL_ms7cx7CEZQkAnmJ48T6_9cTZycXg7HyC0KcWTkRiIRbQ35u2S3PQzgJeuc2zUWwx1koDw38gfgWOQDXvditoOClEWq5NaqEg7Hz32m
 
-!procedure AmazonElasticContainerRegistryImage($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Containers/AmazonElasticContainerRegistryImage', $name, $tech)
+!procedure AmazonElasticContainerRegistryImage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Containers/AmazonElasticContainerRegistryImage', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonElasticContainerRegistryImageCard($id, $funcName="", $content="")

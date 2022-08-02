@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/ManagementGovernance/AwsOpsWorksMonitoring')
 
 ' renders the element
-AwsOpsWorksMonitoring('AwsOpsWorksMonitoring', 'Aws Ops Works Monitoring', 'an optional tech label')
+AwsOpsWorksMonitoring('AwsOpsWorksMonitoring', 'Aws Ops Works Monitoring', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/ManagementGovernance/AwsOpsWorksMonitoring')
 
 ' renders the element
-AwsOpsWorksMonitoring('AwsOpsWorksMonitoring', 'Aws Ops Works Monitoring', 'an optional tech label')
+AwsOpsWorksMonitoring('AwsOpsWorksMonitoring', 'Aws Ops Works Monitoring', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -11,8 +11,8 @@ RSY74SGm20H0aJdKVx_FUvojdRpOv2bQntDNrrduR5GXydbPLHd0OwlHueApOz_z1ZiFjUriFtLJYdGA
 9rSziY-pdja7r3FdvfbpaNEHFm
 }
 
-!procedure AmazonKinesisFirehose($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Analytics/AmazonKinesisFirehose', $name, $tech)
+!procedure AmazonKinesisFirehose($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Analytics/AmazonKinesisFirehose', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonKinesisFirehoseCard($id, $funcName="", $content="")

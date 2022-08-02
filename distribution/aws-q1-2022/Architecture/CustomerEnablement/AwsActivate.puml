@@ -14,8 +14,8 @@ RSm54iGW38LXf6po_lJ-vzqCDbQSBmBe3D-33-G3kVXiF4OlNhqaN_CgzPpfEbQ1hYQfAZ7c5uRBVfAD
 iYX1UicDoZRpI2aq6BujMiGoTOv5jsdZWSGtvVHipA5t8xcqZ7VXycCV-0S
 }
 
-!procedure AwsActivate($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/CustomerEnablement/AwsActivate', $name, $tech)
+!procedure AwsActivate($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/CustomerEnablement/AwsActivate', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsActivateCard($id, $funcName="", $content="")

@@ -14,8 +14,8 @@ PSe55iCm30HHWsZL-z-tihSDJcBwJzZ5aLV0Grz6J9A9d9WRkmDJ_vWBhQXGvc69WN93H3jCbmatMdea
 ox0h8yge9jY7EFRiQOLeisfnMA7aRfvMo92q0ndjZLy
 }
 
-!procedure AwsDirectConnect($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/NetworkingContentDelivery/AwsDirectConnect', $name, $tech)
+!procedure AwsDirectConnect($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/NetworkingContentDelivery/AwsDirectConnect', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsDirectConnectCard($id, $funcName="", $content="")

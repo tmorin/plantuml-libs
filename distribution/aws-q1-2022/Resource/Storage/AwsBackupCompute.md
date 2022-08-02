@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Storage/AwsBackupCompute')
 
 ' renders the element
-AwsBackupCompute('AwsBackupCompute', 'Aws Backup Compute', 'an optional tech label')
+AwsBackupCompute('AwsBackupCompute', 'Aws Backup Compute', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Storage/AwsBackupCompute')
 
 ' renders the element
-AwsBackupCompute('AwsBackupCompute', 'Aws Backup Compute', 'an optional tech label')
+AwsBackupCompute('AwsBackupCompute', 'Aws Backup Compute', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,14 +2,14 @@
 
 sprite $AmazonDynamoDbAttributesXs [10x10/16z] Oq02pAmCJ40AY7bue2mU86024I1vk2mtXYmZ4301CJDGbWjT5W
 
-sprite $AmazonDynamoDbAttributesSm [12x12/16z] JSg55G0W20JG8ytzv_NPV8D496oyDP32mRDRmSYukKpd9xJNZ_jvularj8dN3sANjy_vvNtYzGy
+sprite $AmazonDynamoDbAttributesSm [12x12/16z] LOo50G0n2CHozGBxh_kkmPKlMLLAsd1KQ2Gs336uyxHpUU5t_xS_TjBk7Dz9XqUqzFviklFOIOTV0G
 
-sprite $AmazonDynamoDbAttributesMd [16x16/16z] RSm50i0W30F0P9ek_Vztvmw7Ky5VUfED3p3624I3dO_nULDylVi3pnCP6pTnd30qJf_wNCVhJOgCXhjAFoaaDzhj_OPlFt_xWJrVRnwkSm4
+sprite $AmazonDynamoDbAttributesMd [16x16/16z] NOo70G0n2099ryVzr_sMdajL0PmOFyop0gAeGdoTigwjXhYbTfNncdxGwy_lBTVcDzYHXwKEbV6QY8hGoy-Vb_Syddd9GKTzy
 
-sprite $AmazonDynamoDbAttributesLg [20x20/16z] ZOw50GD120GNE5_wRpTvTvjpWG5Nq2TqtYGGC8y0DM50Xpi7vNpdftzQx71tuIWpEcy2223Zx3N_L4jiwTsRPcJU62WYrWrgaW4R7UdAs_HuLrZVlHVy0G
+sprite $AmazonDynamoDbAttributesLg [20x20/16z] ZOw54KHH30A1V2Vzjtlkzsp7cDW69PmFz0em43a3bd13jrh2XLh-rRJ5jJQzQYN7zaIl00DOyUzW3lqo7ykhLlKg7k0LO991qbfu8-wEfUGz-5lRlFUz1Su
 
-!procedure AmazonDynamoDbAttributes($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Database/AmazonDynamoDbAttributes', $name, $tech)
+!procedure AmazonDynamoDbAttributes($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Database/AmazonDynamoDbAttributes', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonDynamoDbAttributesCard($id, $funcName="", $content="")

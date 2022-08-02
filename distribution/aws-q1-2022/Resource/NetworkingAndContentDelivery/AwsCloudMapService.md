@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/NetworkingAndContentDelivery/AwsCloudMapService')
 
 ' renders the element
-AwsCloudMapService('AwsCloudMapService', 'Aws Cloud Map Service', 'an optional tech label')
+AwsCloudMapService('AwsCloudMapService', 'Aws Cloud Map Service', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/NetworkingAndContentDelivery/AwsCloudMapService')
 
 ' renders the element
-AwsCloudMapService('AwsCloudMapService', 'Aws Cloud Map Service', 'an optional tech label')
+AwsCloudMapService('AwsCloudMapService', 'Aws Cloud Map Service', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

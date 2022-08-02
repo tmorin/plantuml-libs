@@ -2,17 +2,17 @@
 
 sprite $AmazonLocationServicePlaceXs [10x10/16z] NS710G0G00IW0BZzz_LN022K0s6oGHCBB74GqE1sk_bD0847
 
-sprite $AmazonLocationServicePlaceSm [12x12/16z] PKk30G1H2CtSVzupF-iHXjD6aIVqKzX7RO-t8HjE8DXVdgRjGpUCz6bHR4BlwApZ3Jzexqzu1G
+sprite $AmazonLocationServicePlaceSm [12x12/16z] Oq03t2oCx9mG9Zj404Hm0H4Za602iZaP6C4Id119LWW11WXTJ1mmhH3jZ71vHXJRCDW
 
-sprite $AmazonLocationServicePlaceMd [16x16/16z] RSs50GGn2031ZQ7zr_joBfcu0CoKp4XdPuC_x-jHAl0VLjPx6De2-0zgXrolVN9U_rl9zV-QRwM5Qo5liAhH2ESYkHq92bVTk4lkZDKN
+sprite $AmazonLocationServicePlaceMd [16x16/16z] ROgr0GGn4CHaMko_teTZi991PfJCI3-YzKMyhb4snLPnw5e2Y2LNoBNsQNPeMlBu2nkwgVTL6Xib6c5SI6wHeDnoC-uaTspJBm
 
 sprite $AmazonLocationServicePlaceLg [20x20/16z] {
-TSm54eGm44JHZetU_xvRNSpYV3GlWk-cHOOq7BNKxUCxzTYNxt_9rn2-bssq9bs6KtCpfuyQwzXD-HEjDW76TLhhl8DDehdaA6VPKV6uAcRzc68lSb9ou9nE
-HCcH8N0leGzp6G-JnAD-sD7S_tu
+TOu53e1G34FxTTBxtvViPpWyl1RmJr6dJroXB8E60qVIZpV6hQtcq3HxwBrOgCJ2mc_vBUNGP9yT5K5CLCcSbVotC6oof1uG1zAGUCaN5HmuUoZSKqVfI1ye
+74y8UMasoqlhn8j2lAd7smO
 }
 
-!procedure AmazonLocationServicePlace($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/FrontEndWebMobile/AmazonLocationServicePlace', $name, $tech)
+!procedure AmazonLocationServicePlace($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/FrontEndWebMobile/AmazonLocationServicePlace', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonLocationServicePlaceCard($id, $funcName="", $content="")

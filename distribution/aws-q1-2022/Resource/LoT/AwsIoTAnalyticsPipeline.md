@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/LoT/AwsIoTAnalyticsPipeline')
 
 ' renders the element
-AwsIoTAnalyticsPipeline('AwsIoTAnalyticsPipeline', 'Aws Io T Analytics Pipeline', 'an optional tech label')
+AwsIoTAnalyticsPipeline('AwsIoTAnalyticsPipeline', 'Aws Io T Analytics Pipeline', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/LoT/AwsIoTAnalyticsPipeline')
 
 ' renders the element
-AwsIoTAnalyticsPipeline('AwsIoTAnalyticsPipeline', 'Aws Io T Analytics Pipeline', 'an optional tech label')
+AwsIoTAnalyticsPipeline('AwsIoTAnalyticsPipeline', 'Aws Io T Analytics Pipeline', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

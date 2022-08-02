@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Database/AmazonRds')
 
 ' renders the element
-AmazonRds('AmazonRds', 'Amazon Rds', 'an optional tech label')
+AmazonRds('AmazonRds', 'Amazon Rds', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Database/AmazonRds')
 
 ' renders the element
-AmazonRds('AmazonRds', 'Amazon Rds', 'an optional tech label')
+AmazonRds('AmazonRds', 'Amazon Rds', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

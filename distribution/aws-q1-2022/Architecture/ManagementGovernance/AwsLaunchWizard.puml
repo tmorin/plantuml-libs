@@ -14,8 +14,8 @@ RSs7WSGW30NHbP757-Y_toDpQPoV2Ooqopt-GVv13gQK-jMm0482rzEE9ENIC2iorrGwZjRSRXVrojsN
 BBn0C9fcylvdLsl5SYT541RJokSzkpzqwrZBmMLTTykE7lm2
 }
 
-!procedure AwsLaunchWizard($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/ManagementGovernance/AwsLaunchWizard', $name, $tech)
+!procedure AwsLaunchWizard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/ManagementGovernance/AwsLaunchWizard', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsLaunchWizardCard($id, $funcName="", $content="")

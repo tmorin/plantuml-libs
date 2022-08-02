@@ -2,20 +2,17 @@
 
 sprite $AmazonDevOpsGuruInsightsXs [10x10/16z] LSE53GGW00Imud3xx_kkJUfVRXXpDdD1DoAPa7Gb976sIQqaYhVw66-1Am
 
-sprite $AmazonDevOpsGuruInsightsSm [12x12/16z] PSR70SGm40EneLQ9xB_Voz762voCb8g7CAmIgqhUqDNHderCzsq4E50qbEmmWuJinKgf6UqR04pM4dFTR80smjVpLm
+sprite $AmazonDevOpsGuruInsightsSm [12x12/16z] NS650GHG34AnnxSMzX_uN1FujpCGTs4RmP7aXd6jFYB7iuq01oQWfCC9LxABYZIC-WgkJAhWr5LpfHq-0bSN
 
-sprite $AmazonDevOpsGuruInsightsMd [16x16/16z] {
-TSVPWGCW4CDGmIoCxVxxtTntylGbVXaEWnkvcLO1TOHnQs58dRI0lyh4MnllWESn392H6UY-Fba56W8h2MB6473RFjzMC9vd30dENoTS67NtWjqdAavAX6SZ
-uPMvE
-}
+sprite $AmazonDevOpsGuruInsightsMd [16x16/16z] TSU74G9H34F1vy-SBQd_ViaPRYSkUyhXHHxAAkwCHnk6rCK8M2k5MuqxO5p60AaGcBcVR0k4m4g2M344FBQfc5OmvgOamBYkk36QcGFqNAW0M29yoDSnDoS
 
 sprite $AmazonDevOpsGuruInsightsLg [20x20/16z] {
-VSh5WG0020F1nI7z5tpkChy8_4yINwHMQ1Jm9YSyAiBEWUf75elQvn2m6O-yS_tvtc68pA2h1CX4zrjdgTYpq7WZdfHSf86L4l5YV0q_Eq3eKIgnqq8rY7ha
-hAxekx50-2FZaLQ0DUAUBPZPM_UDDxKpqq3F2ndFN22-SONWknK_5MyU
+XSY5OIXG24FHcpm1il--N-hUWyClal3EJeTKzEPLaYmn0ixzXzNakeO0hGVNBS2r5uJzRznp0eHmJR35PSSzE6KJ_ZjHs80S4HwL6pGC4FAFic7IS2u4_mET
+EToPafv__wK3o8HvqFpt_Fl0PdLLNU3Me_38WV1H73xfyDdXsLy
 }
 
-!procedure AmazonDevOpsGuruInsights($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/MachineLearning/AmazonDevOpsGuruInsights', $name, $tech)
+!procedure AmazonDevOpsGuruInsights($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/MachineLearning/AmazonDevOpsGuruInsights', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonDevOpsGuruInsightsCard($id, $funcName="", $content="")

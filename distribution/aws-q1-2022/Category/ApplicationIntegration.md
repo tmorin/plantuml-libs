@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Category/ApplicationIntegration')
 
 ' renders the element
-ApplicationIntegration('ApplicationIntegration', 'Application Integration', 'an optional tech label')
+ApplicationIntegration('ApplicationIntegration', 'Application Integration', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Category/ApplicationIntegration')
 
 ' renders the element
-ApplicationIntegration('ApplicationIntegration', 'Application Integration', 'an optional tech label')
+ApplicationIntegration('ApplicationIntegration', 'Application Integration', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

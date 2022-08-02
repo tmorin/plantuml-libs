@@ -2,17 +2,17 @@
 
 sprite $AmazonAuroraMariaDbInstanceXs [10x10/16z] HKe50W0X29jAi_z_zph85VvQpoUWgWC-vMHSpfGt8_A5yaFpGKjVH3eeHsabTm
 
-sprite $AmazonAuroraMariaDbInstanceSm [12x12/16z] LOg50GC120E3w_xhrljoE0ckBFz942d02B81XRTBczI0G8HFlVSFDQs_lG7CPU__lZLxy_1t9-L6pXlCB3q1
+sprite $AmazonAuroraMariaDbInstanceSm [12x12/16z] LOgr0G1148GuNUs_tNSb6e4lMIwgKag7YZ228jDdyzPiozmyMSFxbVtQx-ntJelyEVNA1KTZXuXa1G
 
-sprite $AmazonAuroraMariaDbInstanceMd [16x16/16z] NOs55SH024G723hflzrpuUNlueOhoiK949i4HqAXebQQ6B0dmc1XOY43EevGg6j8O2xpAoPhABzOwgduZotPkk80iEEZfdtNB_DUVDRF_saW4iXvuR1mmHq
+sprite $AmazonAuroraMariaDbInstanceMd [16x16/16z] TSc53GGm4CH0Xuus_RVxp63Xo7pMzT86yPgZme06gpc5icmEXi6minVJEdrXNCnBhvQYr9uEeEdfOHMlNW0ldb4v_dzMA9VOToSm7RmkJOOjE08
 
 sprite $AmazonAuroraMariaDbInstanceLg [20x20/16z] {
-RSs30KKn50FGN1VPVzwFPwG-5LxJ9iyP_YN3DHHCA0I0A602WyVNPcHec0HwgTRVQcHsYcLrireiaFpPA59x_ksMkrdupNeFZwASZVBVoOlL97jUxT_hrPRt
-hWRBWERpZxhQv3TV6_S_BE7qDHOSrSclIwnnG4o_yW4
+RP050aGX24HnA8FxN_TtoUxOZx6WlweZlkfbGvmyGJJeLTchO6D3JQ5Sb9e3VZ3lXXR4uetPJmQos5dt26fsiAJCM2MnrW3u_9Ou8vYOZuXc-FLXPkTvoSUc
+sNVqFhCZQnlhsSUW4dA9DRgtE2AujMUmRDqA
 }
 
-!procedure AmazonAuroraMariaDbInstance($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Database/AmazonAuroraMariaDbInstance', $name, $tech)
+!procedure AmazonAuroraMariaDbInstance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Database/AmazonAuroraMariaDbInstance', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonAuroraMariaDbInstanceCard($id, $funcName="", $content="")

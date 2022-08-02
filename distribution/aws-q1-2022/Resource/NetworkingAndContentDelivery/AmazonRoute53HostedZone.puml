@@ -2,17 +2,17 @@
 
 sprite $AmazonRoute53HostedZoneXs [10x10/16z] Oq02t2340YOXW8M1Ym4DC29a6H4Q4ImeXmaYn0gc
 
-sprite $AmazonRoute53HostedZoneSm [12x12/16z] 1S450G0m300WxfF-VGy0m9j6KrZ3vMn50zW0D0QWAO350P0sW1803xE2LHSm6tm
+sprite $AmazonRoute53HostedZoneSm [12x12/16z] DSit0G0m00CWkfT_lxt23n2hyBWeT5frUQ8JZyWXCOuchWqmu6xAdMaFV
 
-sprite $AmazonRoute53HostedZoneMd [16x16/16z] POw30GGm34L_L6N_UGyrNX43BsbyLatJ4cCMDrS7m6bbKWOoOL7Q6uYSTYtrPGS2IB7mUXTnb0_eZ1iT-t06G2LfJOrkmryYks1dJFq2
+sprite $AmazonRoute53HostedZoneMd [16x16/16z] POw30GKm34J3wlQVzwF6A-EZbpGkhwPRYJ4B78g_7McHwrwKUYR2qrwTiMpx7LPQeEw5Z_81r_ZUWDCMhM9AacevVEgA3A6hil85
 
 sprite $AmazonRoute53HostedZoneLg [20x20/16z] {
-TSZ5WGH1400WsgNoZ_TSTemd7ZJ85J9Wn4H4fKQ0CjMr1ttlfWsaS30hVJge2pjx5Q1xrS7m8dNerQiDuM0cUdQGWitHmmtN4zchdM57yIElI41gCnfrhvQz
-Q17JHVRh7G
+ZS-50G0X20LGHAN-_lDUTzhwJEWbrQajOyCBAMneWJ8uC54sOWyT8A9IrT50fsJZTZjRzg69T39ChPnidkcH4ayBVDeNJ--csxPfJr2RwOCHBk-cgKLUWHrR
+Z8OwG7WznLa1eu_K0m
 }
 
-!procedure AmazonRoute53HostedZone($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/NetworkingAndContentDelivery/AmazonRoute53HostedZone', $name, $tech)
+!procedure AmazonRoute53HostedZone($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/NetworkingAndContentDelivery/AmazonRoute53HostedZone', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonRoute53HostedZoneCard($id, $funcName="", $content="")

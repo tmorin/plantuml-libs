@@ -11,8 +11,8 @@ RSo53G0n34FHScDt_tqlbdBSBtu1GDdPLDWWDeWDSeFS80DhAdYOi038kCsncMvp6hTPWff8jrKYgZLi
 YsvxwCvuc_V40m
 }
 
-!procedure AwsCloudTrail($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/ManagementGovernance/AwsCloudTrail', $name, $tech)
+!procedure AwsCloudTrail($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/ManagementGovernance/AwsCloudTrail', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsCloudTrailCard($id, $funcName="", $content="")

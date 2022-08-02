@@ -2,20 +2,17 @@
 
 sprite $AwsIoTThingVibrationSensorXs [10x10/16z] JOp50KCn3CNK9WRjF_1dqiNmW2_PwdiE20Ho18M9FGg1NuyXudPwR7y8XZ37Jd_wLW
 
-sprite $AwsIoTThingVibrationSensorSm [12x12/16z] LSr70i8024JHJtE6-n_OhadUYWvNIQwJ5-kZeSItLg3YnZI2595uKBBQUMNQnO90pPfKTe1mWlWGq9PthRZyVG
+sprite $AwsIoTThingVibrationSensorSm [12x12/16z] LSr70SKm50Cm9Htsum_uprD5G9uMKw3vErdnrqMMszw2G2zXCjlQCgE1dAPadOWY_eApwKppVDy
 
-sprite $AwsIoTThingVibrationSensorMd [16x16/16z] {
-ROz9WaKn209BJ0BU_y3TVyhkrSfPu06rcP9lkbOqtHO0jViIe9UWWGrklNCPACqdTrITejTW6oHjawh1m8o6f8Zi2TLY-xTVXLfQNam7IzWY3Po3VK3YOW3Y
-InxztFm0_0C
-}
+sprite $AwsIoTThingVibrationSensorMd [16x16/16z] RSyvWcKn30B0mcz1ll-1PtfpzYkI8C87KLlgpyhOrldl78Ei4Dmq8Kd1LdHY3TVQsYBhgKcsOkziCp7QFOYd-Ekp8kzjPpJHnWJletqHHy7qc8zxpl_2Vm
 
 sprite $AwsIoTThingVibrationSensorLg [20x20/16z] {
-TP1LeW0m2CFI5GQz_u6VkoHV4vJ_EAqXBtvmhlRxtTdDXyCBonTSmF421I21sw8xa0OW5qyRQJcZ5RS9Ri5C8ES2qUAT0fQwtev2v0AI49QejpnE6bWKxMbo
-bez_n0E4yF7FGu6bVFbt0j3Xyz_FsM3AdwnveNfwAo_w__s1J7DV17W4
+TP07SWGn3CD0UsM9__zmmjIhu5GCjjYyGqNZxCOTvjvfndzh2CCDMwaKj_zSP9N1HV1XTwKSr0oSmfyTq9rE9nd3dlxkhhEcBATRW6qIM3NQlUtOGP7r_Qn-
+Egm6ZFdl6i6A_U-M0ShyT_-a2ttjV-RRaL-OPMLwVt-HY4KMFW
 }
 
-!procedure AwsIoTThingVibrationSensor($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTThingVibrationSensor', $name, $tech)
+!procedure AwsIoTThingVibrationSensor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTThingVibrationSensor', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTThingVibrationSensorCard($id, $funcName="", $content="")

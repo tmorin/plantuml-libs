@@ -14,8 +14,8 @@ PSm70iGW24HHG0M6tF--2qjwVghFWioFh2kxz6FLQNCTQaFR9cor63ctBREbgfnFMnGgCl5irF8en7Ge
 WgsR8HFq2Mr4nO94uhHjYnd18aOYGfWEfBd8SK0TMfQwXwxjwBJloXy
 }
 
-!procedure AwsIoTRoboRunner($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/InternetOfThings/AwsIoTRoboRunner', $name, $tech)
+!procedure AwsIoTRoboRunner($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/InternetOfThings/AwsIoTRoboRunner', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTRoboRunnerCard($id, $funcName="", $content="")

@@ -11,8 +11,8 @@ RSxN0S0W24LHK6cF_VTDBEcvdyS2iV8ZCuiVn0y24wJLfWina7GSbBfiH-tKaKw36XMHHioNZMjzXRiX
 AhWAExVJij-ZOY9yMRe6u72don9ClOPf2u-6_M3-u0O
 }
 
-!procedure AmazonCloudDirectory($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/SecurityIdentityCompliance/AmazonCloudDirectory', $name, $tech)
+!procedure AmazonCloudDirectory($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/SecurityIdentityCompliance/AmazonCloudDirectory', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonCloudDirectoryCard($id, $funcName="", $content="")

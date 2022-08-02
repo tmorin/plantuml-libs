@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/NetworkingAndContentDelivery/AmazonVpcNetworkAccessAnalyzer')
 
 ' renders the element
-AmazonVpcNetworkAccessAnalyzer('AmazonVpcNetworkAccessAnalyzer', 'Amazon Vpc Network Access Analyzer', 'an optional tech label')
+AmazonVpcNetworkAccessAnalyzer('AmazonVpcNetworkAccessAnalyzer', 'Amazon Vpc Network Access Analyzer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/NetworkingAndContentDelivery/AmazonVpcNetworkAccessAnalyzer')
 
 ' renders the element
-AmazonVpcNetworkAccessAnalyzer('AmazonVpcNetworkAccessAnalyzer', 'Amazon Vpc Network Access Analyzer', 'an optional tech label')
+AmazonVpcNetworkAccessAnalyzer('AmazonVpcNetworkAccessAnalyzer', 'Amazon Vpc Network Access Analyzer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

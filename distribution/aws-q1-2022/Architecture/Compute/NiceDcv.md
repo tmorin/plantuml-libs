@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Compute/NiceDcv')
 
 ' renders the element
-NiceDcv('NiceDcv', 'Nice Dcv', 'an optional tech label')
+NiceDcv('NiceDcv', 'Nice Dcv', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Compute/NiceDcv')
 
 ' renders the element
-NiceDcv('NiceDcv', 'Nice Dcv', 'an optional tech label')
+NiceDcv('NiceDcv', 'Nice Dcv', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

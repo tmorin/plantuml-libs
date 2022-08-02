@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/NetworkingContentDelivery/AmazonCloudFront')
 
 ' renders the element
-AmazonCloudFront('AmazonCloudFront', 'Amazon Cloud Front', 'an optional tech label')
+AmazonCloudFront('AmazonCloudFront', 'Amazon Cloud Front', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/NetworkingContentDelivery/AmazonCloudFront')
 
 ' renders the element
-AmazonCloudFront('AmazonCloudFront', 'Amazon Cloud Front', 'an optional tech label')
+AmazonCloudFront('AmazonCloudFront', 'Amazon Cloud Front', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

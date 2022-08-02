@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Compute/AwsElasticBeanstalkDeployment')
 
 ' renders the element
-AwsElasticBeanstalkDeployment('AwsElasticBeanstalkDeployment', 'Aws Elastic Beanstalk Deployment', 'an optional tech label')
+AwsElasticBeanstalkDeployment('AwsElasticBeanstalkDeployment', 'Aws Elastic Beanstalk Deployment', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Compute/AwsElasticBeanstalkDeployment')
 
 ' renders the element
-AwsElasticBeanstalkDeployment('AwsElasticBeanstalkDeployment', 'Aws Elastic Beanstalk Deployment', 'an optional tech label')
+AwsElasticBeanstalkDeployment('AwsElasticBeanstalkDeployment', 'Aws Elastic Beanstalk Deployment', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

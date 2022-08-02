@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/ManagementGovernance/AmazonManagedServiceForGrafana')
 
 ' renders the element
-AmazonManagedServiceForGrafana('AmazonManagedServiceForGrafana', 'Amazon Managed Service For Grafana', 'an optional tech label')
+AmazonManagedServiceForGrafana('AmazonManagedServiceForGrafana', 'Amazon Managed Service For Grafana', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/ManagementGovernance/AmazonManagedServiceForGrafana')
 
 ' renders the element
-AmazonManagedServiceForGrafana('AmazonManagedServiceForGrafana', 'Amazon Managed Service For Grafana', 'an optional tech label')
+AmazonManagedServiceForGrafana('AmazonManagedServiceForGrafana', 'Amazon Managed Service For Grafana', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

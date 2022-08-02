@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Database/AmazonRdsOnVMware')
 
 ' renders the element
-AmazonRdsOnVMware('AmazonRdsOnVMware', 'Amazon Rds On V Mware', 'an optional tech label')
+AmazonRdsOnVMware('AmazonRdsOnVMware', 'Amazon Rds On V Mware', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Database/AmazonRdsOnVMware')
 
 ' renders the element
-AmazonRdsOnVMware('AmazonRdsOnVMware', 'Amazon Rds On V Mware', 'an optional tech label')
+AmazonRdsOnVMware('AmazonRdsOnVMware', 'Amazon Rds On V Mware', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

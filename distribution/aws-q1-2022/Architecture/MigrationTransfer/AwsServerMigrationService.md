@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/MigrationTransfer/AwsServerMigrationService')
 
 ' renders the element
-AwsServerMigrationService('AwsServerMigrationService', 'Aws Server Migration Service', 'an optional tech label')
+AwsServerMigrationService('AwsServerMigrationService', 'Aws Server Migration Service', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/MigrationTransfer/AwsServerMigrationService')
 
 ' renders the element
-AwsServerMigrationService('AwsServerMigrationService', 'Aws Server Migration Service', 'an optional tech label')
+AwsServerMigrationService('AwsServerMigrationService', 'Aws Server Migration Service', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

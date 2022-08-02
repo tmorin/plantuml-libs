@@ -2,17 +2,17 @@
 
 sprite $AwsIoTActuatorXs [10x10/16z] DSP70S0m00GWidF-1NUN5m1W6y10EZJ28gXe81GW83-PNVUild82
 
-sprite $AwsIoTActuatorSm [12x12/16z] LSg52GHG5C2mFFcs_y3d6YXQ_sB5zZ9nJa04E13C32Q9pxzmNc6U1DLlx5XiPgJTonfbPjeVUGK
+sprite $AwsIoTActuatorSm [12x12/16z] NSg50GCX3030myd-0xVlTaZKnqZJeIF2Gq2YGINZsX-8uw57iacBkdvCO_rqsQn3RrbTyql-0m
 
-sprite $AwsIoTActuatorMd [16x16/16z] ROw54GGn30Cbi_jl-CVEyvr2ks7S9QlgIvVxhMBJiyAEEt7I2odJfSsA3kxIvv9r3XqFUL_lYunWjbi4tc5_w3i0nVByKS9gl4nGT2XodGgeAgXIi_CxU
+sprite $AwsIoTActuatorMd [16x16/16z] RKw50SD02CHb_uNxH-F9uGvz8Qlg4exVPwnGN26Ny6n9WKfaVTmfdKicvgOz3jazz8znodPTvaIVtXLO9Vd_aSCSSUaAsKWf9yQ3gb22kAwW7m
 
 sprite $AwsIoTActuatorLg [20x20/16z] {
-TSg5bKKn24NH4opGVyEpxjX_kYCehtnFEoVHG3P7ZMHc898ECYiIH3aYuyUu9r0e_UL8CJzHdr85QoHSsuQi0SbrN3oELdLlR8pkJWvcYfiyBbofHsrWjNQh
-6FMi8g0ZDTTHrBgFVdq_UsVgvKNm1G
+TSs50IKW30MmuBpz1pxXkmMNjdugAxjvqJV6zco3DaPtCueZ-d0LRbAkQuELVfO9ipgBN5V4aRf1QLZ5aUU2URuhSSozbv9gxpqyIIRlXeUyGym56sDEGSei
+dTq7EUsieIKXkTxLLq5zK_m5
 }
 
-!procedure AwsIoTActuator($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTActuator', $name, $tech)
+!procedure AwsIoTActuator($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTActuator', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTActuatorCard($id, $funcName="", $content="")

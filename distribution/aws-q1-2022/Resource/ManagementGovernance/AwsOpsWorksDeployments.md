@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/ManagementGovernance/AwsOpsWorksDeployments')
 
 ' renders the element
-AwsOpsWorksDeployments('AwsOpsWorksDeployments', 'Aws Ops Works Deployments', 'an optional tech label')
+AwsOpsWorksDeployments('AwsOpsWorksDeployments', 'Aws Ops Works Deployments', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/ManagementGovernance/AwsOpsWorksDeployments')
 
 ' renders the element
-AwsOpsWorksDeployments('AwsOpsWorksDeployments', 'Aws Ops Works Deployments', 'an optional tech label')
+AwsOpsWorksDeployments('AwsOpsWorksDeployments', 'Aws Ops Works Deployments', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

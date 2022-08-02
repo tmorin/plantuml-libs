@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/NetworkingAndContentDelivery/AmazonVpcElasticNetworkAdapter')
 
 ' renders the element
-AmazonVpcElasticNetworkAdapter('AmazonVpcElasticNetworkAdapter', 'Amazon Vpc Elastic Network Adapter', 'an optional tech label')
+AmazonVpcElasticNetworkAdapter('AmazonVpcElasticNetworkAdapter', 'Amazon Vpc Elastic Network Adapter', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/NetworkingAndContentDelivery/AmazonVpcElasticNetworkAdapter')
 
 ' renders the element
-AmazonVpcElasticNetworkAdapter('AmazonVpcElasticNetworkAdapter', 'Amazon Vpc Elastic Network Adapter', 'an optional tech label')
+AmazonVpcElasticNetworkAdapter('AmazonVpcElasticNetworkAdapter', 'Amazon Vpc Elastic Network Adapter', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

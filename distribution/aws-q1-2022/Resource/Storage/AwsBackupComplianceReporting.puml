@@ -2,17 +2,17 @@
 
 sprite $AwsBackupComplianceReportingXs [10x10/16z] NSkr0S0m00F1JupQVs0pNodW58Hev9mJl2oDXz4QpKjWSpHVyvC1
 
-sprite $AwsBackupComplianceReportingSm [12x12/16z] NSQt0O10302nSxRt7nZuKA5A_5HR1qiWAAKDABPGh1Ebt0zGvmQqdGSvS8wktLjOSx-SzpMy
+sprite $AwsBackupComplianceReportingSm [12x12/16z] NSPB5iGW20NHKlxxNt1tyWwZb0ANJzNM8JbmgDEwvusIiJgiXrVo0HhaImvhZYHpupHh9VSs_04
 
-sprite $AwsBackupComplianceReportingMd [16x16/16z] ROo30G0n301ZxB_meyQL5y4DH0t49av96aIczha3A7ya41NdGlEFxpSycTI7vvT4QyxyFzxyJO0Jo9HF-Zvx_vYlFCt_ajzl-4TpZ6oygGS
+sprite $AwsBackupComplianceReportingMd [16x16/16z] TOl50G0X30Hd3qt_1UFanGsQ5Tx4YbDaIbMAAQyH4XD3PzR6PzXVdosGCZuRatpc-_ZdGnGHxonXWlBN1_kK2ZuVtZFLBWKw
 
 sprite $AwsBackupComplianceReportingLg [20x20/16z] {
-VO-50KGn2CL2aVBs7_XSlgUA0rT46okc99xdIzSGU45uLF6a6CeN9UYF3lym_he52vsLMh7M2I1wgPFn9EElymBmP54t3SSdAvsZ4YkT2HAmXOuPF5dLfMPu
-obSwy3JWQhQs1MFon6j10dS
+VS-54GGX40NHneRv-GTyijXwbr4Fvwti9wYIa3J13K4qI2cRRMQWicK27nP6EzkrCvCh7qtpETF4LihBWcrIqB8O2AJAmH8oiRTjN3XPpVDjqx0QGbBOstRh
+Nzx-vc5Nh9k5k0_u0W
 }
 
-!procedure AwsBackupComplianceReporting($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AwsBackupComplianceReporting', $name, $tech)
+!procedure AwsBackupComplianceReporting($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AwsBackupComplianceReporting', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsBackupComplianceReportingCard($id, $funcName="", $content="")

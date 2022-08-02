@@ -14,8 +14,8 @@ RSo54KGn24LH71xflzwLPFYhT_mWsDMKp_07yGVn1_i84-c5lP41f0ps4nNFWjZ76Z8_wJ9A34eSS_I6
 A5O0U1cuF7JZMgCmJGuPcm3XRKS7yMCzDdhX7G
 }
 
-!procedure AmazonCloudWatch($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/ManagementGovernance/AmazonCloudWatch', $name, $tech)
+!procedure AmazonCloudWatch($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/ManagementGovernance/AmazonCloudWatch', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonCloudWatchCard($id, $funcName="", $content="")

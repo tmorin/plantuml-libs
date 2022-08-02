@@ -11,8 +11,8 @@ RSu5aWKn28HX9cYJ-zztQwJPPt_v5m5S5Sip_43yG0pQODD41hlvTWMVDn4BOm-wcINjh001ob0vfdMQ
 xNqhOX77sWKzHZtxPKsZ3lu1
 }
 
-!procedure AwsApplicationAutoScaling($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/ManagementGovernance/AwsApplicationAutoScaling', $name, $tech)
+!procedure AwsApplicationAutoScaling($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/ManagementGovernance/AwsApplicationAutoScaling', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsApplicationAutoScalingCard($id, $funcName="", $content="")

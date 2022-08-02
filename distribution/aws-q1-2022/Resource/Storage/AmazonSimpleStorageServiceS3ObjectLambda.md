@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Storage/AmazonSimpleStorageServiceS3ObjectLambda')
 
 ' renders the element
-AmazonSimpleStorageServiceS3ObjectLambda('AmazonSimpleStorageServiceS3ObjectLambda', 'Amazon Simple Storage Service S3 Object Lambda', 'an optional tech label')
+AmazonSimpleStorageServiceS3ObjectLambda('AmazonSimpleStorageServiceS3ObjectLambda', 'Amazon Simple Storage Service S3 Object Lambda', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Storage/AmazonSimpleStorageServiceS3ObjectLambda')
 
 ' renders the element
-AmazonSimpleStorageServiceS3ObjectLambda('AmazonSimpleStorageServiceS3ObjectLambda', 'Amazon Simple Storage Service S3 Object Lambda', 'an optional tech label')
+AmazonSimpleStorageServiceS3ObjectLambda('AmazonSimpleStorageServiceS3ObjectLambda', 'Amazon Simple Storage Service S3 Object Lambda', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

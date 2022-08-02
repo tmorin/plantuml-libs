@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/FrontEndWebMobile/AmazonLocationService')
 
 ' renders the element
-AmazonLocationService('AmazonLocationService', 'Amazon Location Service', 'an optional tech label')
+AmazonLocationService('AmazonLocationService', 'Amazon Location Service', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/FrontEndWebMobile/AmazonLocationService')
 
 ' renders the element
-AmazonLocationService('AmazonLocationService', 'Amazon Location Service', 'an optional tech label')
+AmazonLocationService('AmazonLocationService', 'Amazon Location Service', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

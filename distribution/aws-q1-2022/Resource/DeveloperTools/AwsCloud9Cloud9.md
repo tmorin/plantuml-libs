@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/DeveloperTools/AwsCloud9Cloud9')
 
 ' renders the element
-AwsCloud9Cloud9('AwsCloud9Cloud9', 'Aws Cloud9 Cloud9', 'an optional tech label')
+AwsCloud9Cloud9('AwsCloud9Cloud9', 'Aws Cloud9 Cloud9', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/DeveloperTools/AwsCloud9Cloud9')
 
 ' renders the element
-AwsCloud9Cloud9('AwsCloud9Cloud9', 'Aws Cloud9 Cloud9', 'an optional tech label')
+AwsCloud9Cloud9('AwsCloud9Cloud9', 'Aws Cloud9 Cloud9', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

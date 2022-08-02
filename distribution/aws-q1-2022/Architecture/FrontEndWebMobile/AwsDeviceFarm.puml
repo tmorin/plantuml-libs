@@ -14,8 +14,8 @@ RSg55GGW30HHefiD_VTxuTnm_XlUHpq60Fx1_eFT3_8dzXtDkF2omTGogr2yR1Kz5aZJXmacuAabdfOc
 rOvn3og2Ie4YxMwxiIP3pSsx3ROxh2Jvii5UwdE-RF0n7lQD-mzU
 }
 
-!procedure AwsDeviceFarm($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/FrontEndWebMobile/AwsDeviceFarm', $name, $tech)
+!procedure AwsDeviceFarm($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/FrontEndWebMobile/AwsDeviceFarm', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsDeviceFarmCard($id, $funcName="", $content="")

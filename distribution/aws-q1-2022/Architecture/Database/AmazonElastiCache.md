@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Database/AmazonElastiCache')
 
 ' renders the element
-AmazonElastiCache('AmazonElastiCache', 'Amazon Elasti Cache', 'an optional tech label')
+AmazonElastiCache('AmazonElastiCache', 'Amazon Elasti Cache', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Database/AmazonElastiCache')
 
 ' renders the element
-AmazonElastiCache('AmazonElastiCache', 'Amazon Elasti Cache', 'an optional tech label')
+AmazonElastiCache('AmazonElastiCache', 'Amazon Elasti Cache', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

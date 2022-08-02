@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/NetworkingAndContentDelivery/AmazonRoute53ReadinessChecks')
 
 ' renders the element
-AmazonRoute53ReadinessChecks('AmazonRoute53ReadinessChecks', 'Amazon Route53 Readiness Checks', 'an optional tech label')
+AmazonRoute53ReadinessChecks('AmazonRoute53ReadinessChecks', 'Amazon Route53 Readiness Checks', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/NetworkingAndContentDelivery/AmazonRoute53ReadinessChecks')
 
 ' renders the element
-AmazonRoute53ReadinessChecks('AmazonRoute53ReadinessChecks', 'Amazon Route53 Readiness Checks', 'an optional tech label')
+AmazonRoute53ReadinessChecks('AmazonRoute53ReadinessChecks', 'Amazon Route53 Readiness Checks', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

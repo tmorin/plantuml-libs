@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessManagementMfaToken')
 
 ' renders the element
-AwsIdentityAccessManagementMfaToken('AwsIdentityAccessManagementMfaToken', 'Aws Identity Access Management Mfa Token', 'an optional tech label')
+AwsIdentityAccessManagementMfaToken('AwsIdentityAccessManagementMfaToken', 'Aws Identity Access Management Mfa Token', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessManagementMfaToken')
 
 ' renders the element
-AwsIdentityAccessManagementMfaToken('AwsIdentityAccessManagementMfaToken', 'Aws Identity Access Management Mfa Token', 'an optional tech label')
+AwsIdentityAccessManagementMfaToken('AwsIdentityAccessManagementMfaToken', 'Aws Identity Access Management Mfa Token', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/GeneralIcons/General')
 
 ' renders the element
-General('General', 'General', 'an optional tech label')
+General('General', 'General', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/GeneralIcons/General')
 
 ' renders the element
-General('General', 'General', 'an optional tech label')
+General('General', 'General', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

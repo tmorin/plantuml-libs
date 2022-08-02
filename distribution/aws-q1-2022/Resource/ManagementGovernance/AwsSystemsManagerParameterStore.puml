@@ -2,17 +2,17 @@
 
 sprite $AwsSystemsManagerParameterStoreXs [10x10/16z] NOk30K0n50FpMTp-yzQ-PqG7b9GftQFEe_z7VOSWTzRs7M3olYZC9LHmxqi4
 
-sprite $AwsSystemsManagerParameterStoreSm [12x12/16z] LOl50K0n5CAezv7zv_skEQ7w4Nd3XtGvgDeO9uVsjJprJ8b7IwZFyibzQ-QSN5yqX3YHDts2RLO
+sprite $AwsSystemsManagerParameterStoreSm [12x12/16z] LOk50K0X44An5VQVzuTzxpg0eRaFzdPav_4H1lxiqKPV0Pa-rt3jkNhLMZMrGlb20_3h1oAf5m
 
-sprite $AwsSystemsManagerParameterStoreMd [16x16/16z] PSp50SKm30DGoG7J_lEs3Nry9wFmXnb3dduND4mQlYHdN_N05DX4JX_3Hp-Iygz7MknUjIIaG7VlNfEj5gspZzPQTb98Zdxgg2fuUbtwp2IEfvVFNdpW3G
+sprite $AwsSystemsManagerParameterStoreMd [16x16/16z] PSp50KHH24FH-rpIVxtVWD6pGiC_xPkYZMBo67iPMPzAi7xZKef-ty1xIz9_hxczRpqBCjNxjQh8XPOihxMc3fcdDvqqdhng-fFvrlcMruqJ
 
 sprite $AwsSystemsManagerParameterStoreLg [20x20/16z] {
-RSw54S0W44JHnK_wxpV84lzZDm_5VyKPhlQS_A80rifryeeMsrMbbOGpmsLvb9vcjUTFazfQw5OGB-CteukVfghH0UrSj_K2xvDjCKPuzDMoDQS6P60PwsQj
-V2puUh-nsWqwxIff7j5OMU4
+RSu53WGn34DHEodd_lVTCcZdYwmtqE8xjHbEQ_FWML7d4Bl2J4yoIHIxSXbxhvLGizUIgAAQ1u_DEz6IRSivDykLmx8Qvl_ICf0mscZOs8o00uRDgfNe_umL
+hArPg8RSxSJiMez1HlW1
 }
 
-!procedure AwsSystemsManagerParameterStore($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/ManagementGovernance/AwsSystemsManagerParameterStore', $name, $tech)
+!procedure AwsSystemsManagerParameterStore($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/ManagementGovernance/AwsSystemsManagerParameterStore', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsSystemsManagerParameterStoreCard($id, $funcName="", $content="")

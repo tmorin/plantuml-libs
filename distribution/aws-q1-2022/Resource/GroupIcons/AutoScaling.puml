@@ -8,8 +8,8 @@ sprite $AutoScalingMd [16x16/16z] uo0IiA5ocHZH1JX8uBEp8OcmCJ4nCG0fHY2Df8I3ZHJpsP
 
 sprite $AutoScalingLg [20x20/16z] hSwd0S0030D1T__-4ySebQGTqoFnXr8kt9GBuyTc3KHkUwX2YusjEwFZnozjpPbASf4yjG
 
-!procedure AutoScaling($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/GroupIcons/AutoScaling', $name, $tech)
+!procedure AutoScaling($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/GroupIcons/AutoScaling', $name, $tech, $desc)
 !endprocedure
 
 !procedure AutoScalingCard($id, $funcName="", $content="")

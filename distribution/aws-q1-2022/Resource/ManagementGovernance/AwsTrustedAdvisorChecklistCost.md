@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/ManagementGovernance/AwsTrustedAdvisorChecklistCost')
 
 ' renders the element
-AwsTrustedAdvisorChecklistCost('AwsTrustedAdvisorChecklistCost', 'Aws Trusted Advisor Checklist Cost', 'an optional tech label')
+AwsTrustedAdvisorChecklistCost('AwsTrustedAdvisorChecklistCost', 'Aws Trusted Advisor Checklist Cost', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/ManagementGovernance/AwsTrustedAdvisorChecklistCost')
 
 ' renders the element
-AwsTrustedAdvisorChecklistCost('AwsTrustedAdvisorChecklistCost', 'Aws Trusted Advisor Checklist Cost', 'an optional tech label')
+AwsTrustedAdvisorChecklistCost('AwsTrustedAdvisorChecklistCost', 'Aws Trusted Advisor Checklist Cost', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -14,8 +14,8 @@ PSy70e0W241HPKFtlsy1sVpjrr8xqquozp_w5zi4CrbOXfQnBMm302EvCCsPsLZ7maXJbNntJ6mB9nSH
 oZfov3NtRMj3XpH_6WVeRKlzxBQ7bhNUk0C
 }
 
-!procedure AwsServerMigrationService($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/MigrationTransfer/AwsServerMigrationService', $name, $tech)
+!procedure AwsServerMigrationService($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/MigrationTransfer/AwsServerMigrationService', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsServerMigrationServiceCard($id, $funcName="", $content="")

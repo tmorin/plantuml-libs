@@ -14,8 +14,8 @@ RSx50GH120LHsld5v1_lZh5UnzS2W3A_um_o1qdiYMbCKnadfgso9Aqo9QLz_Hc0zLTjnuZTQDP0RbEx
 1VJcWrdpFoyHbUaoXziYUWye_Lv-s-N-apjjYGgoRSViPR_u
 }
 
-!procedure AwsTrainingCertification($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/CustomerEnablement/AwsTrainingCertification', $name, $tech)
+!procedure AwsTrainingCertification($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/CustomerEnablement/AwsTrainingCertification', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsTrainingCertificationCard($id, $funcName="", $content="")

@@ -2,17 +2,14 @@
 
 sprite $AwsCloud9Cloud9Xs [10x10/16z] RS470S0m40GWEhBFlzuOU52R-O1WW9T58mG2uBK0KRW
 
-sprite $AwsCloud9Cloud9Sm [12x12/16z] VKh50S0W33nSzryNYFxQw1b-AaI72sX1OA4pTwEt7trM4lXsl9iHGOyI2_tTCIKSHvTQ-AeB
+sprite $AwsCloud9Cloud9Sm [12x12/16z] ZS550GH1000WnhL_tTFl6dXcqG0PvcwmIOk0ZQqXYv0gbeOnOGkZ_ordtW
 
-sprite $AwsCloud9Cloud9Md [16x16/16z] dOx50S0m30CLDks_RY7eRtj1i_27p2quKoFGwZQvtpLIy3PeVYBraiTu3shgJbZlrFU3QBT1tUwUSK-RsX0I0QMDLdpb1W
+sprite $AwsCloud9Cloud9Md [16x16/16z] dOY54O103C3ohllForMmSyXBc_27DDfJLu1MBXtwrz1VJlSbIb_o1marQcGZMQumbpfTNOlzxgqXf02hNwpALmu
 
-sprite $AwsCloud9Cloud9Lg [20x20/16z] {
-jKt50GCn37FCjF-wnvH_QqO9_YBUtJIFYhTWyHtrE9BOEyAuTw5rbOh7LHnHZX7L_ce2-yresqTz_ctZe-2jYWiqBSyg26xKTwjmROd4Bqe6kTRZFk-TCVqZ
-aV1pMG4
-}
+sprite $AwsCloud9Cloud9Lg [20x20/16z] jKx50GCn35F8lF-wfV2_PsOBZv14HBbBdW2mdgNehl4k9Pqz9HzXphyf_SMjZ_Lh1R-Pu6yfvir-hWQWuu2nzKWJvjNTpHZTafhqY3BoQASJBPiSf8Q_qni
 
-!procedure AwsCloud9Cloud9($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/DeveloperTools/AwsCloud9Cloud9', $name, $tech)
+!procedure AwsCloud9Cloud9($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/DeveloperTools/AwsCloud9Cloud9', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsCloud9Cloud9Card($id, $funcName="", $content="")

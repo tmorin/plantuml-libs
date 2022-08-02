@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/MachineLearning/AmazonAugmentedAiA2I')
 
 ' renders the element
-AmazonAugmentedAiA2I('AmazonAugmentedAiA2i', 'Amazon Augmented Ai A2i', 'an optional tech label')
+AmazonAugmentedAiA2I('AmazonAugmentedAiA2i', 'Amazon Augmented Ai A2i', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/MachineLearning/AmazonAugmentedAiA2I')
 
 ' renders the element
-AmazonAugmentedAiA2I('AmazonAugmentedAiA2i', 'Amazon Augmented Ai A2i', 'an optional tech label')
+AmazonAugmentedAiA2I('AmazonAugmentedAiA2i', 'Amazon Augmented Ai A2i', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

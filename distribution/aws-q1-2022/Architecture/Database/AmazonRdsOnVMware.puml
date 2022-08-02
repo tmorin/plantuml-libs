@@ -14,8 +14,8 @@ RSm75iH0209GfwgO-vztySNPJlf_401-OXNyGNnZcLcHwZ4JGzNQE6QzvcCFJwluLlRen4XOwCgspniZ
 69Y8J4ocjguBJEFIjjN_DfiG6ATbdEIz8xEvlU94xZZyUY5EhYyi-y47
 }
 
-!procedure AmazonRdsOnVMware($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Database/AmazonRdsOnVMware', $name, $tech)
+!procedure AmazonRdsOnVMware($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Database/AmazonRdsOnVMware', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonRdsOnVMwareCard($id, $funcName="", $content="")

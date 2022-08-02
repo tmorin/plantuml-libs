@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Compute/AmazonEc2TrainiumInstance')
 
 ' renders the element
-AmazonEc2TrainiumInstance('AmazonEc2TrainiumInstance', 'Amazon Ec2 Trainium Instance', 'an optional tech label')
+AmazonEc2TrainiumInstance('AmazonEc2TrainiumInstance', 'Amazon Ec2 Trainium Instance', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Compute/AmazonEc2TrainiumInstance')
 
 ' renders the element
-AmazonEc2TrainiumInstance('AmazonEc2TrainiumInstance', 'Amazon Ec2 Trainium Instance', 'an optional tech label')
+AmazonEc2TrainiumInstance('AmazonEc2TrainiumInstance', 'Amazon Ec2 Trainium Instance', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

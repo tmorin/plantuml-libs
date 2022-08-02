@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Robotics/AwsRoboMakerDevelopmentEnvironment')
 
 ' renders the element
-AwsRoboMakerDevelopmentEnvironment('AwsRoboMakerDevelopmentEnvironment', 'Aws Robo Maker Development Environment', 'an optional tech label')
+AwsRoboMakerDevelopmentEnvironment('AwsRoboMakerDevelopmentEnvironment', 'Aws Robo Maker Development Environment', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Robotics/AwsRoboMakerDevelopmentEnvironment')
 
 ' renders the element
-AwsRoboMakerDevelopmentEnvironment('AwsRoboMakerDevelopmentEnvironment', 'Aws Robo Maker Development Environment', 'an optional tech label')
+AwsRoboMakerDevelopmentEnvironment('AwsRoboMakerDevelopmentEnvironment', 'Aws Robo Maker Development Environment', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

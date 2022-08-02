@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Storage/AmazonS3OnOutposts')
 
 ' renders the element
-AmazonS3OnOutposts('AmazonS3OnOutposts', 'Amazon S3 On Outposts', 'an optional tech label')
+AmazonS3OnOutposts('AmazonS3OnOutposts', 'Amazon S3 On Outposts', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Storage/AmazonS3OnOutposts')
 
 ' renders the element
-AmazonS3OnOutposts('AmazonS3OnOutposts', 'Amazon S3 On Outposts', 'an optional tech label')
+AmazonS3OnOutposts('AmazonS3OnOutposts', 'Amazon S3 On Outposts', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

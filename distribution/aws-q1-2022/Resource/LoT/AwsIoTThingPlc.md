@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/LoT/AwsIoTThingPlc')
 
 ' renders the element
-AwsIoTThingPlc('AwsIoTThingPlc', 'Aws Io T Thing Plc', 'an optional tech label')
+AwsIoTThingPlc('AwsIoTThingPlc', 'Aws Io T Thing Plc', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/LoT/AwsIoTThingPlc')
 
 ' renders the element
-AwsIoTThingPlc('AwsIoTThingPlc', 'Aws Io T Thing Plc', 'an optional tech label')
+AwsIoTThingPlc('AwsIoTThingPlc', 'Aws Io T Thing Plc', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

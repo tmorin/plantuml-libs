@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/ApplicationIntegration/AmazonEventBridgeSchema')
 
 ' renders the element
-AmazonEventBridgeSchema('AmazonEventBridgeSchema', 'Amazon Event Bridge Schema', 'an optional tech label')
+AmazonEventBridgeSchema('AmazonEventBridgeSchema', 'Amazon Event Bridge Schema', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/ApplicationIntegration/AmazonEventBridgeSchema')
 
 ' renders the element
-AmazonEventBridgeSchema('AmazonEventBridgeSchema', 'Amazon Event Bridge Schema', 'an optional tech label')
+AmazonEventBridgeSchema('AmazonEventBridgeSchema', 'Amazon Event Bridge Schema', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,8 +8,8 @@ sprite $VpcSubnetPrivateMd [16x16/16z] dOc50G0X203fs7_Wxqxro8DiGyYEIaCT3puKlhh6X
 
 sprite $VpcSubnetPrivateLg [20x20/16z] jOs50O0m40C9x_iFZBjBUzMt93AXe6AJCcskJPBQotsLA_lkHKO9r3FdPFpmEkUopr7GBWVZRQwtli_jVJ4IVwa1
 
-!procedure VpcSubnetPrivate($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/GroupIcons/VpcSubnetPrivate', $name, $tech)
+!procedure VpcSubnetPrivate($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/GroupIcons/VpcSubnetPrivate', $name, $tech, $desc)
 !endprocedure
 
 !procedure VpcSubnetPrivateCard($id, $funcName="", $content="")

@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/GeneralIcons/Firewall')
 
 ' renders the element
-Firewall('Firewall', 'Firewall', 'an optional tech label')
+Firewall('Firewall', 'Firewall', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/GeneralIcons/Firewall')
 
 ' renders the element
-Firewall('Firewall', 'Firewall', 'an optional tech label')
+Firewall('Firewall', 'Firewall', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

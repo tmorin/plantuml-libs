@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Database/AmazonRdsProxyInstanceAlternate')
 
 ' renders the element
-AmazonRdsProxyInstanceAlternate('AmazonRdsProxyInstanceAlternate', 'Amazon Rds Proxy Instance Alternate', 'an optional tech label')
+AmazonRdsProxyInstanceAlternate('AmazonRdsProxyInstanceAlternate', 'Amazon Rds Proxy Instance Alternate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Database/AmazonRdsProxyInstanceAlternate')
 
 ' renders the element
-AmazonRdsProxyInstanceAlternate('AmazonRdsProxyInstanceAlternate', 'Amazon Rds Proxy Instance Alternate', 'an optional tech label')
+AmazonRdsProxyInstanceAlternate('AmazonRdsProxyInstanceAlternate', 'Amazon Rds Proxy Instance Alternate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

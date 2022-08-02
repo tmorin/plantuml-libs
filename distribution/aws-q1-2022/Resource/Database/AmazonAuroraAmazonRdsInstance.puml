@@ -2,20 +2,20 @@
 
 sprite $AmazonAuroraAmazonRdsInstanceXs [10x10/16z] HKg30G113BjQsN_TDyfe_INFnp43O4PEjQER3pGL1zCJoHMgByuF4diHa0SzoYkn0m
 
-sprite $AmazonAuroraAmazonRdsInstanceSm [12x12/16z] JSY55KGn20NH2H9vq7-xw_8dmZrmhUtRPZmkOy3Gu_e9wUHvc6yFRr-2Kqh6ylKWK0pWRNtTf_goB-pj4IQsdb7LTWS
+sprite $AmazonAuroraAmazonRdsInstanceSm [12x12/16z] JSZ70SCm40F1PIQ1wxzTMrcQ3m9VaIvvaYONaLHMbLPR8l7vMnc2QJNII0CMO19mTjqzbkFpctprX9ZQOGT_
 
 sprite $AmazonAuroraAmazonRdsInstanceMd [16x16/16z] {
-NSa54WH12CNG_4QQXRd_TTVzbQR2lpLV3XZ4Hp6qChNJjv9cLfcxjSl2T6kMXBavujeA1Pk7srycI-Yf7btRhmqgGCFm8AlfzTK9V7TKd-Blw-TFnt3mr40K
-LDy5jaDS
+PSc54S0m3C10kOOuiF-yPTRXd_WszKS3EizoSIE24be8sk9KCss6kcxU4a5Wiw8uIuSNwkBMitLPR28i9I1zyP56p-bXP-bXorRrzn_EthmpEAg09cJRChGu
+p
 }
 
 sprite $AmazonAuroraAmazonRdsInstanceLg [20x20/16z] {
-RSw50GCn20LGWjl-yvRQ-J_DYm0yngkFIHwYovfUKB3iP2nZsbZLDfSKbj7RCecyDL4SXVnZ2aAQOgE9g1-xv6DP66xs7VFFd2Xup4DPhDTd7L62V3gRX8uH
-8CyzPjKTgiSQ_NdZsKBUvrtMaSgwhFlKk9nNFN65lDOW1Mxw1RN3l7jyoIyCW8GZBm
+ROu56aGX20RXHvhxdtVvjcjUg2D5VucUTufNoLVC43MHVxY3TJRSFRuF6ks2TLKYCLQa0PMuEYCLA_MrHR2h--Bggf7XVZthkRiGoRCk4e0FNUDOYd2TR4ci
+OzgNUPttJDfxZtiSFbs2uVCL9wRVSTV_LxsU9K3r7ISWZDo1JNhCzGOFY9XvnGK
 }
 
-!procedure AmazonAuroraAmazonRdsInstance($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Database/AmazonAuroraAmazonRdsInstance', $name, $tech)
+!procedure AmazonAuroraAmazonRdsInstance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Database/AmazonAuroraAmazonRdsInstance', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonAuroraAmazonRdsInstanceCard($id, $funcName="", $content="")

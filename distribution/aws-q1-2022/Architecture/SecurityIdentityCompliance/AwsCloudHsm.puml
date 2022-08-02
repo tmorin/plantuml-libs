@@ -14,8 +14,8 @@ RSm7aWKX24LHoJnw__iTiOPsmhzbfIE0xtAA27p0-e3LA9CThCQOoJMMjYqzW6kAW0c2WDUC0neidjSA
 Ykf8VQ5x6aLtnQnZZITV11eRhEIaiHUn9CSk9iOkrjWV_08
 }
 
-!procedure AwsCloudHsm($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/SecurityIdentityCompliance/AwsCloudHsm', $name, $tech)
+!procedure AwsCloudHsm($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/SecurityIdentityCompliance/AwsCloudHsm', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsCloudHsmCard($id, $funcName="", $content="")

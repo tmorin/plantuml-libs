@@ -14,8 +14,8 @@ RSrNOW0X24LHwJnczh_U45lg_JmAn7-9T_Oz3g_2BbVJVkaoqaKyx5W0Z8wIqiy_gvpV13IkINA2aHQ6
 hWNOOENhvpAdHsp_f3DRbF8qkblMfxsDg7KTg6MDgrfDUtyR2__k0m
 }
 
-!procedure DeveloperTools($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Category/DeveloperTools', $name, $tech)
+!procedure DeveloperTools($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Category/DeveloperTools', $name, $tech, $desc)
 !endprocedure
 
 !procedure DeveloperToolsCard($id, $funcName="", $content="")

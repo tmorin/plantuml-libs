@@ -2,14 +2,14 @@
 
 sprite $AmazonElasticBlockStoreMultipleVolumesXs [10x10/16z] RSR50S0W542n1z_t7xZk9QSmqW4i09LLjO1LONMDmHfzLTAupG
 
-sprite $AmazonElasticBlockStoreMultipleVolumesSm [12x12/16z] XSP50G1140Em3dVz2pvcp2jurQgAS-aZYkVmcNiGWL70ekq7_-vf0SvmqGC
+sprite $AmazonElasticBlockStoreMultipleVolumesSm [12x12/16z] XSR50K0n20MmXyF-0tztQNCAVbL4vDgaMO9v-ahL4eAPWQpEmtid8KQky302
 
-sprite $AmazonElasticBlockStoreMultipleVolumesMd [16x16/16z] bSlL0S0m409GJbFs7xZkdlTr0lYc8ooAZTHz-gQFAEvfGCPCIMa0oaIT73h4H1ocmkEEcltSzzG8iCnS1Dyw
+sprite $AmazonElasticBlockStoreMultipleVolumesMd [16x16/16z] fSUt0ODG04F19_se_GTsDj2HhZjE6tehbZvrrqUmBUZjnuacX9-QkDRrHf1Rr_P5HJOPFuKZdW
 
-sprite $AmazonElasticBlockStoreMultipleVolumesLg [20x20/16z] jSYr0GD040F1FNxrNx2PdHWd4V2TMaV6XGz7gzQfcl9aqYQxWSYuICboOFf2KHLIC5m8egHw-k3_dzdzvzbL5OnVo2ACdQWhthC5
+sprite $AmazonElasticBlockStoreMultipleVolumesLg [20x20/16z] jSZ90S9030J1rcY5Tl8FcFlc0zYkPx5CpGiUr5pCcis55HSzQ4b0ZhmRTeo6tjqvgz8MpPqXogwFW-qlukqYImfQTuxC00Wzy9i3
 
-!procedure AmazonElasticBlockStoreMultipleVolumes($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AmazonElasticBlockStoreMultipleVolumes', $name, $tech)
+!procedure AmazonElasticBlockStoreMultipleVolumes($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AmazonElasticBlockStoreMultipleVolumes', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonElasticBlockStoreMultipleVolumesCard($id, $funcName="", $content="")

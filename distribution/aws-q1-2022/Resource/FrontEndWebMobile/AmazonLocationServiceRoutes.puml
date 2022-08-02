@@ -2,14 +2,14 @@
 
 sprite $AmazonLocationServiceRoutesXs [10x10/16z] Oq02N9pC40QOOaL8S2CnuMmkRZ2V7Q8QhWEXW0N6
 
-sprite $AmazonLocationServiceRoutesSm [12x12/16z] Oq067DmCJ8nGDZSdY6I2IM5m694vxDm8DZSNX08gO8Q8S05Px50R47OXQ-64Cm4
+sprite $AmazonLocationServiceRoutesSm [12x12/16z] Oq067Dm8DZSdY6H2bcPam0NOaJLoGIX6k0QW03Cxr0PSTi4
 
-sprite $AmazonLocationServiceRoutesMd [16x16/16z] NOq50iGm2C1IH_x_thlv1gaN2Hcp5jzurw9KJffmq2kHHK9onXYQN5XukpyMTWhSfqDhztC0tleZueEQ9aTyrwZy0m
+sprite $AmazonLocationServiceRoutesMd [16x16/16z] NOq50iGW30G7X-J_xxshjvk1k14nInhZUR6uitbUDgCC0ZEXrBeG39FO_LvQ23ZaPry5l3mzam_BLhYXSTQJVm
 
-sprite $AmazonLocationServiceRoutesLg [20x20/16z] PSu5WWKW24NHYyzc_-kT-Mrmx0GWqkpS9cNcqJHOUXa9Cup9ZuoFGcGL8YSo8qhkRl6rAfVfpfTzXiRYhvNM5kfG4ub5F9NYB9sO4PT95PUH1q4Hbty
+sprite $AmazonLocationServiceRoutesLg [20x20/16z] ZS-r0GGX443HZuptt-ybP-ky3COvqzFPIoHxs0X-NA9zeb-33-64Sg9OLLNi5QEpaoTvnayr0yRlY-QWZSR-597Ynzbg9nibSx0JCpZeZPqN
 
-!procedure AmazonLocationServiceRoutes($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/FrontEndWebMobile/AmazonLocationServiceRoutes', $name, $tech)
+!procedure AmazonLocationServiceRoutes($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/FrontEndWebMobile/AmazonLocationServiceRoutes', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonLocationServiceRoutesCard($id, $funcName="", $content="")

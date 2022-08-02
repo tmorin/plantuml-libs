@@ -14,8 +14,8 @@ NSi13iKW20DG01NAxd_VNsFu9dPJzQM0oKwSRBlwM6FRqspeTnwRilvnenLHmPWlLkUkLs79TXqsQICo
 EO-LLa5S9O0xMyIf1fhU7Z5pM_ByleBTw4g0ri79jgklDRQzpHy
 }
 
-!procedure FreeRtos($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/InternetOfThings/FreeRtos', $name, $tech)
+!procedure FreeRtos($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/InternetOfThings/FreeRtos', $name, $tech, $desc)
 !endprocedure
 
 !procedure FreeRtosCard($id, $funcName="", $content="")

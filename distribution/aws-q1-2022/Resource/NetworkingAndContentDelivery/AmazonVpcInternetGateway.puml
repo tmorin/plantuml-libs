@@ -2,20 +2,17 @@
 
 sprite $AmazonVpcInternetGatewayXs [10x10/16z] Oq06t53Cm0ZZSWCXEn1pW0L1V4uuYnd60a4eYmbY09Jau6Jc1ee
 
-sprite $AmazonVpcInternetGatewaySm [12x12/16z] LSO5OGH000F1EORurrlkGt2zgsJK5J3BuqhHSs-rYTcoKfY6UL29-k1hFJZouCeS5rTGDlmWPcugFW4
+sprite $AmazonVpcInternetGatewaySm [12x12/16z] NSQr0GDH00KWlilRVzzKiQF2GtgP0HCOGCcznIPcpKfXwkP19Shdr_myydbXj8ihi460cPkA5m
 
-sprite $AmazonVpcInternetGatewayMd [16x16/16z] {
-POc75KGn2CDaal23sN_Uw_r4rJFmpsYxhOUfxr_MNOjdO806xNOV40b3h1pbhOA2XXmJy085ldeydFtZHNzvVkTJA3-yWTAoWCDa03Yua-jnIy3iu4diId7b
-3
-}
+sprite $AmazonVpcInternetGatewayMd [16x16/16z] PSd7GKLH20N0uTq8zD-lA_M7MPs0RwEhklpg02k1zAkWSRlw49iHndwoRYH9iqUW5aAnXzz-lVVKRts__m-MtquZZO9JLa05O2rW9umEl-Bc1du
 
 sprite $AmazonVpcInternetGatewayLg [20x20/16z] {
-TSY54GGX54J1j_05PlBFz-hSkxpvBvUidZoLWxFjWniLTmeuqy6J0w0AA5dU0GZ0C3p93iem5sH07UgOkS-7OS7vE6i3Uw3FYy2VDnDzNWNzUOQvlm-_Nm_W
-4AdcJ69ipi8y37CLcbprvc5vnonxy6fa1ZSd
+TP25ZGKm3CKSAENjl-yfzvaiibmklubTgcKyc4gQetkg_D0o7iZeXGbagNIYPtGJc8Anajc-8HAcrJABqwtdREX6ixeTezvREdfluP_pfh7Ucy3EPqElRNbR
+4RLegdfPa-AEwIRtNrY7EridOqhEC-PkD_y3
 }
 
-!procedure AmazonVpcInternetGateway($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/NetworkingAndContentDelivery/AmazonVpcInternetGateway', $name, $tech)
+!procedure AmazonVpcInternetGateway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/NetworkingAndContentDelivery/AmazonVpcInternetGateway', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonVpcInternetGatewayCard($id, $funcName="", $content="")

@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Analytics/AmazonKinesis')
 
 ' renders the element
-AmazonKinesis('AmazonKinesis', 'Amazon Kinesis', 'an optional tech label')
+AmazonKinesis('AmazonKinesis', 'Amazon Kinesis', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Analytics/AmazonKinesis')
 
 ' renders the element
-AmazonKinesis('AmazonKinesis', 'Amazon Kinesis', 'an optional tech label')
+AmazonKinesis('AmazonKinesis', 'Amazon Kinesis', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

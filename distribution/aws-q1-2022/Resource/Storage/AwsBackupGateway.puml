@@ -2,17 +2,17 @@
 
 sprite $AwsBackupGatewayXs [10x10/16z] Oy01E9avGHGJ2uXaXX0S39n0SH0R9WXK0oKP4LevW9WD8W71
 
-sprite $AwsBackupGatewaySm [12x12/16z] NSQt0GD030GWFfwq_y3EbQdmBnE0gWqOGKFNOB0wqkumfzj4C1NExmFMvm4Th0Ds9La5pi2PF04
+sprite $AwsBackupGatewaySm [12x12/16z] NSt5OGGm40F0CMhTVy79COb_yelLthjgFcTmNAFG62VsiUdjEaJG5DPZWvPdS8A-GAyalTwlr_W7
 
-sprite $AwsBackupGatewayMd [16x16/16z] RSw50S0m20H0UEpPV-2wDvuZXemBYPTR-6H6qIvfwp9wRK157d6k8SeoH6yFSgqqWSaAAIuN3G8ihgrj6s_dQSTcZSCyaxFDY9sQwG1eVRZA5iVfi-Wwp
+sprite $AwsBackupGatewayMd [16x16/16z] RKs50S0m30hKoFy7JvXhBMZyVn8USuRkOsz3lBFBn-4tHkj72CTon7AqTA12JeRPYE6MVHvU9fvpF-QZaVkievwUqVQvTm8GSvzRntfwVdyp
 
 sprite $AwsBackupGatewayLg [20x20/16z] {
-VSx50G1124FH8DaX_HUyxlQF3qRmLwV0FK9tikBTHWYNNPSmrRY28_TJ8VWqotdgP08miHo53A3Lo0f02C9L06hvupHe6BjO1AOOX-qVrs6sMTbkjDMCkmbR
-yjMSXzLYwlOzvgXJ3UtOKs2gQRTx0m
+VSc5WGGX04MnuFp-2pvPrmd-S6IcUZN4YxBBQnlHwdFS3QpXhEhXh4N5wkVVCHgaxMBhZRMfQKIhIZOscCY2fzOQpiUjnLbuRVQzZUAiZ5kBgrnR7VUspoqp
+d8qY-z-oN2K5h2nV_08
 }
 
-!procedure AwsBackupGateway($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AwsBackupGateway', $name, $tech)
+!procedure AwsBackupGateway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AwsBackupGateway', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsBackupGatewayCard($id, $funcName="", $content="")

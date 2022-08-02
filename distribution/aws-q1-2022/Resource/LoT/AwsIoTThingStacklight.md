@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/LoT/AwsIoTThingStacklight')
 
 ' renders the element
-AwsIoTThingStacklight('AwsIoTThingStacklight', 'Aws Io T Thing Stacklight', 'an optional tech label')
+AwsIoTThingStacklight('AwsIoTThingStacklight', 'Aws Io T Thing Stacklight', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/LoT/AwsIoTThingStacklight')
 
 ' renders the element
-AwsIoTThingStacklight('AwsIoTThingStacklight', 'Aws Io T Thing Stacklight', 'an optional tech label')
+AwsIoTThingStacklight('AwsIoTThingStacklight', 'Aws Io T Thing Stacklight', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Analytics/AmazonRedshiftRa3')
 
 ' renders the element
-AmazonRedshiftRa3('AmazonRedshiftRa3', 'Amazon Redshift Ra3', 'an optional tech label')
+AmazonRedshiftRa3('AmazonRedshiftRa3', 'Amazon Redshift Ra3', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Analytics/AmazonRedshiftRa3')
 
 ' renders the element
-AmazonRedshiftRa3('AmazonRedshiftRa3', 'Amazon Redshift Ra3', 'an optional tech label')
+AmazonRedshiftRa3('AmazonRedshiftRa3', 'Amazon Redshift Ra3', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

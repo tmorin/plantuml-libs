@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/CustomerEnablement/AwsRePost')
 
 ' renders the element
-AwsRePost('AwsRePost', 'Aws Re Post', 'an optional tech label')
+AwsRePost('AwsRePost', 'Aws Re Post', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/CustomerEnablement/AwsRePost')
 
 ' renders the element
-AwsRePost('AwsRePost', 'Aws Re Post', 'an optional tech label')
+AwsRePost('AwsRePost', 'Aws Re Post', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

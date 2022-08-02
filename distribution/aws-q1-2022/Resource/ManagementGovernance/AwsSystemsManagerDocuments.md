@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/ManagementGovernance/AwsSystemsManagerDocuments')
 
 ' renders the element
-AwsSystemsManagerDocuments('AwsSystemsManagerDocuments', 'Aws Systems Manager Documents', 'an optional tech label')
+AwsSystemsManagerDocuments('AwsSystemsManagerDocuments', 'Aws Systems Manager Documents', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/ManagementGovernance/AwsSystemsManagerDocuments')
 
 ' renders the element
-AwsSystemsManagerDocuments('AwsSystemsManagerDocuments', 'Aws Systems Manager Documents', 'an optional tech label')
+AwsSystemsManagerDocuments('AwsSystemsManagerDocuments', 'Aws Systems Manager Documents', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

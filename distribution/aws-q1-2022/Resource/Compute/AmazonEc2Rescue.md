@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Compute/AmazonEc2Rescue')
 
 ' renders the element
-AmazonEc2Rescue('AmazonEc2Rescue', 'Amazon Ec2 Rescue', 'an optional tech label')
+AmazonEc2Rescue('AmazonEc2Rescue', 'Amazon Ec2 Rescue', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Compute/AmazonEc2Rescue')
 
 ' renders the element
-AmazonEc2Rescue('AmazonEc2Rescue', 'Amazon Ec2 Rescue', 'an optional tech label')
+AmazonEc2Rescue('AmazonEc2Rescue', 'Amazon Ec2 Rescue', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

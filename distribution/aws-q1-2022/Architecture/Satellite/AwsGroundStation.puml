@@ -11,8 +11,8 @@ PSYv0KGX20L0LCxdxx_UNH4Y9nm0qRpWoRmdKIcidNqZnAcoZbtMTAj4MVF4pNt2pSPICx-vJywOFdsv
 HG3oIX_Uo_pwn2RXvbS9RCGzV9dzVM_-
 }
 
-!procedure AwsGroundStation($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Satellite/AwsGroundStation', $name, $tech)
+!procedure AwsGroundStation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Satellite/AwsGroundStation', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsGroundStationCard($id, $funcName="", $content="")

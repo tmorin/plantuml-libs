@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/NetworkingAndContentDelivery/AmazonCloudFrontEdgeLocation')
 
 ' renders the element
-AmazonCloudFrontEdgeLocation('AmazonCloudFrontEdgeLocation', 'Amazon Cloud Front Edge Location', 'an optional tech label')
+AmazonCloudFrontEdgeLocation('AmazonCloudFrontEdgeLocation', 'Amazon Cloud Front Edge Location', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/NetworkingAndContentDelivery/AmazonCloudFrontEdgeLocation')
 
 ' renders the element
-AmazonCloudFrontEdgeLocation('AmazonCloudFrontEdgeLocation', 'Amazon Cloud Front Edge Location', 'an optional tech label')
+AmazonCloudFrontEdgeLocation('AmazonCloudFrontEdgeLocation', 'Amazon Cloud Front Edge Location', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

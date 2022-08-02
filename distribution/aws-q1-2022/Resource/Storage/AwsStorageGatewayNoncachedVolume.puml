@@ -2,14 +2,14 @@
 
 sprite $AwsStorageGatewayNoncachedVolumeXs [10x10/16z] Oy00Z1IpE3avmIn68C79oCG
 
-sprite $AwsStorageGatewayNoncachedVolumeSm [12x12/16z] Oq01p8mGm0baCq75QCTcOs9YXh0vE80a4uW4
+sprite $AwsStorageGatewayNoncachedVolumeSm [12x12/16z] Oq01p8mGm0baCqB5QCTc1be8ONDm04ac40a
 
 sprite $AwsStorageGatewayNoncachedVolumeMd [16x16/16z] Oy00x1nmm0dc8wJOXWgVWusDZHs9pmB4C3uh9oSd4v06Ka3_0G
 
-sprite $AwsStorageGatewayNoncachedVolumeLg [20x20/16z] xSX70O0030F0fBl-1RCtIE2UXszzuyi5BXYN-wzwzZXCBfSarnDIrlE8S4mi9WAC
+sprite $AwsStorageGatewayNoncachedVolumeLg [20x20/16z] Oy0EE5404rYC3La18xBOg1W7E9pGn40C935sHaP6Y1WJ8oCJH8m91C1cGHa
 
-!procedure AwsStorageGatewayNoncachedVolume($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AwsStorageGatewayNoncachedVolume', $name, $tech)
+!procedure AwsStorageGatewayNoncachedVolume($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AwsStorageGatewayNoncachedVolume', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsStorageGatewayNoncachedVolumeCard($id, $funcName="", $content="")

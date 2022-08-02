@@ -11,8 +11,8 @@ RSv7WWKX24LHbKpjVxyDLB-VxynZ8Yf7TjVsr5_ci4w9RV1fgu1u42RUzvcE3MRRmPlB6xEG63_friBC
 2_zX4R_jkiR2iisZ-pVfuHV3HYEhQ8AXW46V-0S
 }
 
-!procedure AwsStorageGateway($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Storage/AwsStorageGateway', $name, $tech)
+!procedure AwsStorageGateway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Storage/AwsStorageGateway', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsStorageGatewayCard($id, $funcName="", $content="")

@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Compute/AwsThinkBoxStoke')
 
 ' renders the element
-AwsThinkBoxStoke('AwsThinkBoxStoke', 'Aws Think Box Stoke', 'an optional tech label')
+AwsThinkBoxStoke('AwsThinkBoxStoke', 'Aws Think Box Stoke', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Compute/AwsThinkBoxStoke')
 
 ' renders the element
-AwsThinkBoxStoke('AwsThinkBoxStoke', 'Aws Think Box Stoke', 'an optional tech label')
+AwsThinkBoxStoke('AwsThinkBoxStoke', 'Aws Think Box Stoke', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

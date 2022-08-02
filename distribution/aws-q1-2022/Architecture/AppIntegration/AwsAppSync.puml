@@ -14,8 +14,8 @@ RSe7RaKn20LHN67m_lUR1oB9BnwXThXazfj6N90BSa4lwYBI2ZrnpjUb1qu34fk61SwSBcprNJOeO-ig
 _4GDIAi0CO1pKdNZjdf8MRJcTYXBhMxcPT_B7m
 }
 
-!procedure AwsAppSync($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/AppIntegration/AwsAppSync', $name, $tech)
+!procedure AwsAppSync($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/AppIntegration/AwsAppSync', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsAppSyncCard($id, $funcName="", $content="")

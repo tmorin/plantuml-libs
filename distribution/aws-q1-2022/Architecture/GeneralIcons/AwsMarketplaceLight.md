@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/GeneralIcons/AwsMarketplaceLight')
 
 ' renders the element
-AwsMarketplaceLight('AwsMarketplaceLight', 'Aws Marketplace Light', 'an optional tech label')
+AwsMarketplaceLight('AwsMarketplaceLight', 'Aws Marketplace Light', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/GeneralIcons/AwsMarketplaceLight')
 
 ' renders the element
-AwsMarketplaceLight('AwsMarketplaceLight', 'Aws Marketplace Light', 'an optional tech label')
+AwsMarketplaceLight('AwsMarketplaceLight', 'Aws Marketplace Light', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

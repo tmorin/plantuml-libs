@@ -2,17 +2,17 @@
 
 sprite $AmazonBraketSimulatorXs [10x10/16z] JSR50S104CGm7qpM_JSS9ht4nrkW3mu5yb_dS4n7FwSuY06JSEZ5Qu4D
 
-sprite $AmazonBraketSimulatorSm [12x12/16z] JSY53G1148LGnd__3P_B4dk1jVa2CtUkdFvoxBu5hus4nwrcRalOn6qN6OqVKTCoyNJhCR03
+sprite $AmazonBraketSimulatorSm [12x12/16z] JSQ73SC030InKzV-2oUk3nEDV8s06T82ngL09_NUPkxlmlXzMzmREs3Jo_AmU_87
 
-sprite $AmazonBraketSimulatorMd [16x16/16z] PSV50GH130InChRpJ_XmUVGJJtO3yWk1ohtO2AOl1aJpPw3Bsw6FTpMTnuNrjAFj5agooxOp3TO32aLu4ECA2_n7bLEJqMmC8QvSmUeD
+sprite $AmazonBraketSimulatorMd [16x16/16z] XSVL0SLG34EnSmDszb_uCKEhFx77wuN13SsDOVHYm8W7lrm1UhnBAEj-WqRWsqadgUJ-4Q01Oo1OWuE4TO9MJKyX7env5LvyEm8
 
 sprite $AmazonBraketSimulatorLg [20x20/16z] {
-ZSY53GD130NHCV_-6mxdLhBePj6FkurM1SBTaYkRdyMoNhtjiq-sh6NRF7btB6VaT4yVUxzI1rwNjRkI7cIN8GbC2exLVAm6LFNQHODKAYem_uGgDQMcaokt
-SORTHBFpGxid
+ZSY50GD120NHWGtm-wyuvswpokDhfKC1mkZtKlNcJZjO7kgjtziEbZgP_-XRpQjaP5QkrhzIDjmMIqnE5c8n90rtsrZKO57z5TqE4gJkInZO4BAc2YLfBBaL
+5CVAycI-qAa_
 }
 
-!procedure AmazonBraketSimulator($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/QuantumTechnologies/AmazonBraketSimulator', $name, $tech)
+!procedure AmazonBraketSimulator($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/QuantumTechnologies/AmazonBraketSimulator', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonBraketSimulatorCard($id, $funcName="", $content="")

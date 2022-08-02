@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/BusinessApplications/AmazonChimeVoiceConnector')
 
 ' renders the element
-AmazonChimeVoiceConnector('AmazonChimeVoiceConnector', 'Amazon Chime Voice Connector', 'an optional tech label')
+AmazonChimeVoiceConnector('AmazonChimeVoiceConnector', 'Amazon Chime Voice Connector', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/BusinessApplications/AmazonChimeVoiceConnector')
 
 ' renders the element
-AmazonChimeVoiceConnector('AmazonChimeVoiceConnector', 'Amazon Chime Voice Connector', 'an optional tech label')
+AmazonChimeVoiceConnector('AmazonChimeVoiceConnector', 'Amazon Chime Voice Connector', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

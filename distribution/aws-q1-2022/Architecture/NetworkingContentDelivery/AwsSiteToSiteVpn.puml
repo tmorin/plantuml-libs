@@ -11,8 +11,8 @@ NSs73G0X241HAytzzpsbXTnFVmgmHXdUbAfMAoY1UqAWE3OYw8vYEFKhfWaZ3zsvQSM_jh8npAHJNf_e
 aBI7-8n4YXq4hvXmbdOrIllX1m
 }
 
-!procedure AwsSiteToSiteVpn($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/NetworkingContentDelivery/AwsSiteToSiteVpn', $name, $tech)
+!procedure AwsSiteToSiteVpn($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/NetworkingContentDelivery/AwsSiteToSiteVpn', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsSiteToSiteVpnCard($id, $funcName="", $content="")

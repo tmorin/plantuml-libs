@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/NetworkingAndContentDelivery/ElasticLoadBalancingGatewayLoadBalancer')
 
 ' renders the element
-ElasticLoadBalancingGatewayLoadBalancer('ElasticLoadBalancingGatewayLoadBalancer', 'Elastic Load Balancing Gateway Load Balancer', 'an optional tech label')
+ElasticLoadBalancingGatewayLoadBalancer('ElasticLoadBalancingGatewayLoadBalancer', 'Elastic Load Balancing Gateway Load Balancer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/NetworkingAndContentDelivery/ElasticLoadBalancingGatewayLoadBalancer')
 
 ' renders the element
-ElasticLoadBalancingGatewayLoadBalancer('ElasticLoadBalancingGatewayLoadBalancer', 'Elastic Load Balancing Gateway Load Balancer', 'an optional tech label')
+ElasticLoadBalancingGatewayLoadBalancer('ElasticLoadBalancingGatewayLoadBalancer', 'Elastic Load Balancing Gateway Load Balancer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

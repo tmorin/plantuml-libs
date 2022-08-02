@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Category/BusinessApplications')
 
 ' renders the element
-BusinessApplications('BusinessApplications', 'Business Applications', 'an optional tech label')
+BusinessApplications('BusinessApplications', 'Business Applications', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Category/BusinessApplications')
 
 ' renders the element
-BusinessApplications('BusinessApplications', 'Business Applications', 'an optional tech label')
+BusinessApplications('BusinessApplications', 'Business Applications', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

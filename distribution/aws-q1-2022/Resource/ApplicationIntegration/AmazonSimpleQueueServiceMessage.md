@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/ApplicationIntegration/AmazonSimpleQueueServiceMessage')
 
 ' renders the element
-AmazonSimpleQueueServiceMessage('AmazonSimpleQueueServiceMessage', 'Amazon Simple Queue Service Message', 'an optional tech label')
+AmazonSimpleQueueServiceMessage('AmazonSimpleQueueServiceMessage', 'Amazon Simple Queue Service Message', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/ApplicationIntegration/AmazonSimpleQueueServiceMessage')
 
 ' renders the element
-AmazonSimpleQueueServiceMessage('AmazonSimpleQueueServiceMessage', 'Amazon Simple Queue Service Message', 'an optional tech label')
+AmazonSimpleQueueServiceMessage('AmazonSimpleQueueServiceMessage', 'Amazon Simple Queue Service Message', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

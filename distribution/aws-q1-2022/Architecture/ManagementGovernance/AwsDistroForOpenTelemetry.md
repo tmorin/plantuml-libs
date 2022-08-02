@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/ManagementGovernance/AwsDistroForOpenTelemetry')
 
 ' renders the element
-AwsDistroForOpenTelemetry('AwsDistroForOpenTelemetry', 'Aws Distro For Open Telemetry', 'an optional tech label')
+AwsDistroForOpenTelemetry('AwsDistroForOpenTelemetry', 'Aws Distro For Open Telemetry', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/ManagementGovernance/AwsDistroForOpenTelemetry')
 
 ' renders the element
-AwsDistroForOpenTelemetry('AwsDistroForOpenTelemetry', 'Aws Distro For Open Telemetry', 'an optional tech label')
+AwsDistroForOpenTelemetry('AwsDistroForOpenTelemetry', 'Aws Distro For Open Telemetry', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

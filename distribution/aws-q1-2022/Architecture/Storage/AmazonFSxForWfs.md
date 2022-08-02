@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Storage/AmazonFSxForWfs')
 
 ' renders the element
-AmazonFSxForWfs('AmazonFSxForWfs', 'Amazon F Sx For Wfs', 'an optional tech label')
+AmazonFSxForWfs('AmazonFSxForWfs', 'Amazon F Sx For Wfs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Storage/AmazonFSxForWfs')
 
 ' renders the element
-AmazonFSxForWfs('AmazonFSxForWfs', 'Amazon F Sx For Wfs', 'an optional tech label')
+AmazonFSxForWfs('AmazonFSxForWfs', 'Amazon F Sx For Wfs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

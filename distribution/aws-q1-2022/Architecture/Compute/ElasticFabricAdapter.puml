@@ -11,8 +11,8 @@ RSxL0KGX34JHs33P_XjUBC_l7mSBH-qCFMuyA-FB2YjMRpCBkCRLP9qCFytgkcDOpWLbfcsMIGVSnKHT
 X1NrjYLDLUjqLZpB3ymF_7tW7m
 }
 
-!procedure ElasticFabricAdapter($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Compute/ElasticFabricAdapter', $name, $tech)
+!procedure ElasticFabricAdapter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Compute/ElasticFabricAdapter', $name, $tech, $desc)
 !endprocedure
 
 !procedure ElasticFabricAdapterCard($id, $funcName="", $content="")

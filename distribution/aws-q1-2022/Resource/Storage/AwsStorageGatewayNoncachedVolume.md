@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Storage/AwsStorageGatewayNoncachedVolume')
 
 ' renders the element
-AwsStorageGatewayNoncachedVolume('AwsStorageGatewayNoncachedVolume', 'Aws Storage Gateway Noncached Volume', 'an optional tech label')
+AwsStorageGatewayNoncachedVolume('AwsStorageGatewayNoncachedVolume', 'Aws Storage Gateway Noncached Volume', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Storage/AwsStorageGatewayNoncachedVolume')
 
 ' renders the element
-AwsStorageGatewayNoncachedVolume('AwsStorageGatewayNoncachedVolume', 'Aws Storage Gateway Noncached Volume', 'an optional tech label')
+AwsStorageGatewayNoncachedVolume('AwsStorageGatewayNoncachedVolume', 'Aws Storage Gateway Noncached Volume', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

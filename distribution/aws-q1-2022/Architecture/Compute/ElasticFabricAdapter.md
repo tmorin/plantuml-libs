@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Compute/ElasticFabricAdapter')
 
 ' renders the element
-ElasticFabricAdapter('ElasticFabricAdapter', 'Elastic Fabric Adapter', 'an optional tech label')
+ElasticFabricAdapter('ElasticFabricAdapter', 'Elastic Fabric Adapter', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Compute/ElasticFabricAdapter')
 
 ' renders the element
-ElasticFabricAdapter('ElasticFabricAdapter', 'Elastic Fabric Adapter', 'an optional tech label')
+ElasticFabricAdapter('ElasticFabricAdapter', 'Elastic Fabric Adapter', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

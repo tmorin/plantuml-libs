@@ -11,8 +11,8 @@ PSY5OKH12431DHZIVy6ddzYzLGRaJ_68ngxDfrcFTdQNaUlJDBQDCVXdd9JxicgSZBPwIsxojBtm39Ef
 PnNiSzhWVMVcsphTroUw0m
 }
 
-!procedure AwsLambda($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Compute/AwsLambda', $name, $tech)
+!procedure AwsLambda($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Compute/AwsLambda', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsLambdaCard($id, $funcName="", $content="")

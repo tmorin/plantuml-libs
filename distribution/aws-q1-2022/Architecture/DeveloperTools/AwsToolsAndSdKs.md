@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/DeveloperTools/AwsToolsAndSdKs')
 
 ' renders the element
-AwsToolsAndSdKs('AwsToolsAndSdKs', 'Aws Tools And Sd Ks', 'an optional tech label')
+AwsToolsAndSdKs('AwsToolsAndSdKs', 'Aws Tools And Sd Ks', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/DeveloperTools/AwsToolsAndSdKs')
 
 ' renders the element
-AwsToolsAndSdKs('AwsToolsAndSdKs', 'Aws Tools And Sd Ks', 'an optional tech label')
+AwsToolsAndSdKs('AwsToolsAndSdKs', 'Aws Tools And Sd Ks', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

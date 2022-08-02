@@ -2,17 +2,17 @@
 
 sprite $AmazonSimpleStorageServiceBucketXs [10x10/16z] PKg30S1038on_y356-49bih_g0F48cccTpEBLYYc-GpTYFzW4DedlG
 
-sprite $AmazonSimpleStorageServiceBucketSm [12x12/16z] LSq50GH04CIm7C_w5_oC4T3wix9wdpaedZPLgzDMGdWA0wrGDA1Qce_P69xQimKT0gpdf7A3Am
+sprite $AmazonSimpleStorageServiceBucketSm [12x12/16z] LOp50G0m30AXIlOVkAxtIZ1yH0NIAxVJZjPky_sY10YBTdILTiFzeeX3QBV39Pth3Fbfc1hjg
 
-sprite $AmazonSimpleStorageServiceBucketMd [16x16/16z] PKo50GCn4CevxBzm-Qktl2Je-OSD8R1j6Vrf1FN3PxBFoKPjmWiTqap154AdY-TbYWcxEDUjWEVrETWqK2VVywIz_LVrpNVQNzJZ_T-axS5yK3vtOu29TMy
+sprite $AmazonSimpleStorageServiceBucketMd [16x16/16z] RKs50O00398b_7-mtRfE67wanLbKMoSSSzCSUB-SJwBewmMSvTiOY5XcwzoM46lqzMVjsNDS_0GiWLhuJdH8k17kztdriU6VWZFU2-qNVY9xa-rhEG4
 
 sprite $AmazonSimpleStorageServiceBucketLg [20x20/16z] {
-TKm7SW1128eT_l_Xn9qrrvc2qdw-u54WKM6ZaFzdi9eKSguOkeVh3bUkTsHLF53SXWH8ilplnTREo9F6pN7ItDclBQrqQa9AejhfvL63nLaOp5A-QBXfGmEj
-Pyvjxos-RHVXAc99dconYF0HVW4
+TKv50e0029FU_lzW6rjEm7Bu6ua2YGhf3scz1clbu2x1-pTm_Q5CsXV57PXtpbC-dzX_rydBZzoZBpzpBgUjlKgE7gGabeOTsgNP3iUmazu_F7wlWlNcYUr-
+7NprBi9Ln9AqgqPr_kx71
 }
 
-!procedure AmazonSimpleStorageServiceBucket($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AmazonSimpleStorageServiceBucket', $name, $tech)
+!procedure AmazonSimpleStorageServiceBucket($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AmazonSimpleStorageServiceBucket', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonSimpleStorageServiceBucketCard($id, $funcName="", $content="")

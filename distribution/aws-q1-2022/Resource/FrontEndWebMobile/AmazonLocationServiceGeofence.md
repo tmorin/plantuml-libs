@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/FrontEndWebMobile/AmazonLocationServiceGeofence')
 
 ' renders the element
-AmazonLocationServiceGeofence('AmazonLocationServiceGeofence', 'Amazon Location Service Geofence', 'an optional tech label')
+AmazonLocationServiceGeofence('AmazonLocationServiceGeofence', 'Amazon Location Service Geofence', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/FrontEndWebMobile/AmazonLocationServiceGeofence')
 
 ' renders the element
-AmazonLocationServiceGeofence('AmazonLocationServiceGeofence', 'Amazon Location Service Geofence', 'an optional tech label')
+AmazonLocationServiceGeofence('AmazonLocationServiceGeofence', 'Amazon Location Service Geofence', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/QuantumTechnologies/AmazonBraketTensorNetwork')
 
 ' renders the element
-AmazonBraketTensorNetwork('AmazonBraketTensorNetwork', 'Amazon Braket Tensor Network', 'an optional tech label')
+AmazonBraketTensorNetwork('AmazonBraketTensorNetwork', 'Amazon Braket Tensor Network', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/QuantumTechnologies/AmazonBraketTensorNetwork')
 
 ' renders the element
-AmazonBraketTensorNetwork('AmazonBraketTensorNetwork', 'Amazon Braket Tensor Network', 'an optional tech label')
+AmazonBraketTensorNetwork('AmazonBraketTensorNetwork', 'Amazon Braket Tensor Network', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

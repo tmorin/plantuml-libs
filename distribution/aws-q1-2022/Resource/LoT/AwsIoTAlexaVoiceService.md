@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/LoT/AwsIoTAlexaVoiceService')
 
 ' renders the element
-AwsIoTAlexaVoiceService('AwsIoTAlexaVoiceService', 'Aws Io T Alexa Voice Service', 'an optional tech label')
+AwsIoTAlexaVoiceService('AwsIoTAlexaVoiceService', 'Aws Io T Alexa Voice Service', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/LoT/AwsIoTAlexaVoiceService')
 
 ' renders the element
-AwsIoTAlexaVoiceService('AwsIoTAlexaVoiceService', 'Aws Io T Alexa Voice Service', 'an optional tech label')
+AwsIoTAlexaVoiceService('AwsIoTAlexaVoiceService', 'Aws Io T Alexa Voice Service', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

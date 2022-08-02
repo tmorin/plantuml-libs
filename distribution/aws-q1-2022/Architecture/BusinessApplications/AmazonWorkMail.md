@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/BusinessApplications/AmazonWorkMail')
 
 ' renders the element
-AmazonWorkMail('AmazonWorkMail', 'Amazon Work Mail', 'an optional tech label')
+AmazonWorkMail('AmazonWorkMail', 'Amazon Work Mail', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/BusinessApplications/AmazonWorkMail')
 
 ' renders the element
-AmazonWorkMail('AmazonWorkMail', 'Amazon Work Mail', 'an optional tech label')
+AmazonWorkMail('AmazonWorkMail', 'Amazon Work Mail', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

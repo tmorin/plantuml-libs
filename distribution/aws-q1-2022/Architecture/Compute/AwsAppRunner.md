@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Compute/AwsAppRunner')
 
 ' renders the element
-AwsAppRunner('AwsAppRunner', 'Aws App Runner', 'an optional tech label')
+AwsAppRunner('AwsAppRunner', 'Aws App Runner', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Compute/AwsAppRunner')
 
 ' renders the element
-AwsAppRunner('AwsAppRunner', 'Aws App Runner', 'an optional tech label')
+AwsAppRunner('AwsAppRunner', 'Aws App Runner', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

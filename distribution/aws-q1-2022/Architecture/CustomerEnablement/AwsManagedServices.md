@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/CustomerEnablement/AwsManagedServices')
 
 ' renders the element
-AwsManagedServices('AwsManagedServices', 'Aws Managed Services', 'an optional tech label')
+AwsManagedServices('AwsManagedServices', 'Aws Managed Services', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/CustomerEnablement/AwsManagedServices')
 
 ' renders the element
-AwsManagedServices('AwsManagedServices', 'Aws Managed Services', 'an optional tech label')
+AwsManagedServices('AwsManagedServices', 'Aws Managed Services', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

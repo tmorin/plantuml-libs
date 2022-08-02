@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/AwsCostManagement/AwsBudgets')
 
 ' renders the element
-AwsBudgets('AwsBudgets', 'Aws Budgets', 'an optional tech label')
+AwsBudgets('AwsBudgets', 'Aws Budgets', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/AwsCostManagement/AwsBudgets')
 
 ' renders the element
-AwsBudgets('AwsBudgets', 'Aws Budgets', 'an optional tech label')
+AwsBudgets('AwsBudgets', 'Aws Budgets', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

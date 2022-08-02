@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Category/AwsCostManagement')
 
 ' renders the element
-AwsCostManagement('AwsCostManagement', 'Aws Cost Management', 'an optional tech label')
+AwsCostManagement('AwsCostManagement', 'Aws Cost Management', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Category/AwsCostManagement')
 
 ' renders the element
-AwsCostManagement('AwsCostManagement', 'Aws Cost Management', 'an optional tech label')
+AwsCostManagement('AwsCostManagement', 'Aws Cost Management', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

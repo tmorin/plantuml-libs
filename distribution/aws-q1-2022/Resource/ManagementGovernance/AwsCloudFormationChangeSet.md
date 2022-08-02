@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/ManagementGovernance/AwsCloudFormationChangeSet')
 
 ' renders the element
-AwsCloudFormationChangeSet('AwsCloudFormationChangeSet', 'Aws Cloud Formation Change Set', 'an optional tech label')
+AwsCloudFormationChangeSet('AwsCloudFormationChangeSet', 'Aws Cloud Formation Change Set', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/ManagementGovernance/AwsCloudFormationChangeSet')
 
 ' renders the element
-AwsCloudFormationChangeSet('AwsCloudFormationChangeSet', 'Aws Cloud Formation Change Set', 'an optional tech label')
+AwsCloudFormationChangeSet('AwsCloudFormationChangeSet', 'Aws Cloud Formation Change Set', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

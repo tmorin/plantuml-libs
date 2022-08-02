@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/SecurityIdentityAndCompliance/AwsDirectoryServiceAwsManagedMicrosoftAd')
 
 ' renders the element
-AwsDirectoryServiceAwsManagedMicrosoftAd('AwsDirectoryServiceAwsManagedMicrosoftAd', 'Aws Directory Service Aws Managed Microsoft Ad', 'an optional tech label')
+AwsDirectoryServiceAwsManagedMicrosoftAd('AwsDirectoryServiceAwsManagedMicrosoftAd', 'Aws Directory Service Aws Managed Microsoft Ad', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/SecurityIdentityAndCompliance/AwsDirectoryServiceAwsManagedMicrosoftAd')
 
 ' renders the element
-AwsDirectoryServiceAwsManagedMicrosoftAd('AwsDirectoryServiceAwsManagedMicrosoftAd', 'Aws Directory Service Aws Managed Microsoft Ad', 'an optional tech label')
+AwsDirectoryServiceAwsManagedMicrosoftAd('AwsDirectoryServiceAwsManagedMicrosoftAd', 'Aws Directory Service Aws Managed Microsoft Ad', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

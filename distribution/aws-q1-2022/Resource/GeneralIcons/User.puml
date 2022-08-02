@@ -2,17 +2,17 @@
 
 sprite $UserXs [10x10/16z] Oq01p0nS40Ox4FF2XRc16CBdO80mUTaGcZWGJ2w8MgWY9WZW1
 
-sprite $UserSm [12x12/16z] NSc50K0H543Hgtl_SNze3g-vw20JdGGybQjPr6nNs-wPhfJH1W5ONLig8G594y6mf4c-
+sprite $UserSm [12x12/16z] NSO50S1040EmZDc_tF5Z3bgLTcwts35xJPAUPCREvpX2NHeC_LjzclS-AuDaYrm
 
-sprite $UserMd [16x16/16z] RKw50G0W2BCB-FzSkvLknhva452iDF1ih1gfqDN1o6rpcl_oDO_hNhdjvNgWYMXbelwsOrxrU_q0ztCGEun1KfNZMRS1Fc3tMOuxiGG
+sprite $UserMd [16x16/16z] TKw30K0X4Crrsd_SpsoS7jHs1IRMBSKtzhQa-e-evF7_x2dNxlkuyPdd0TC4l8YqJBFvFEJKX1pa0kGq5wW3lZXKRN5deynolzGD
 
 sprite $UserLg [20x20/16z] {
-VOu50W9124Md2xZ_SMrItJ_98zE51k1k7b5zN6TRXENrpAweJGvNnYXX5hRu0yhwSBdktvTXvTLud33WGyEH1QEMDf6fBRquEvEPu0DTvTDVOIjPuMlsujjn
-0wFMdwmujVrW8wYcEm
+VP250GGX30Hnf_zoSOYyx2aJZ_WZbqkK55KzNYbYLBQBju2Kl-x0_FC75kvFHh7kC_R-su2ON8LTOWqEEK92Lb9ANu12wf00FPa3IUQaNiUWGdi7ZqgPifCf
+8ZENg9caw
 }
 
-!procedure User($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/GeneralIcons/User', $name, $tech)
+!procedure User($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/GeneralIcons/User', $name, $tech, $desc)
 !endprocedure
 
 !procedure UserCard($id, $funcName="", $content="")

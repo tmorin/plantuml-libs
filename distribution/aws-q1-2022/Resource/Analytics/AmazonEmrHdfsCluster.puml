@@ -2,20 +2,17 @@
 
 sprite $AmazonEmrHdfsClusterXs [10x10/16z] NOd50G0n48I8hVPVxxc6pmZyIShThDXH0eTsVfBcJEGuRPAqmLdRBLk15G
 
-sprite $AmazonEmrHdfsClusterSm [12x12/16z] PSot0SKm481GbE_4_lF-7ErNKS69rMzZy1J5kfJC50ZP5CXfwQ6F1X2UdKOigRMkIgcRpLqDeyVu_2ilRe4h
+sprite $AmazonEmrHdfsClusterSm [12x12/16z] POpL0KDH34BFTHBsdxVUftpXtE3YdMFzg33B9Y8Co2G5ehiKsH_-dV3boz8mfPG9aEJloEggst-17qy3Jm
 
-sprite $AmazonEmrHdfsClusterMd [16x16/16z] {
-TOxL0GLG24BFJHNsd_Tr1tzAyWUMukq6lTrpfjlpR7iGTj9F6Bgy14AdUtP8LrvkO9GdhDYhN-zrx-1wz_94QHVM2Hqewx6X1eXixNQpqxccrtZTc-_xNq-o
-QW4S0G
-}
+sprite $AmazonEmrHdfsClusterMd [16x16/16z] TSwr0GHG3CDGVKnYxp_lCOEwrua_MOetWzxSMlg5x47OIJlL1HY14320TENThJnXnLxzwWM0WQi9JvHsOPrgG5cFXseWyc5sEkTqRw-_2RpubMJL0ZW2
 
 sprite $AmazonEmrHdfsClusterLg [20x20/16z] {
-VT1LeiGW5C3Gu1Uo__K-gOrF_dgAyxMbFflGqnkpF50oOgKPTrHNgcQ6MW_g2vYLWD9mRMrZTUss7uIaFHiHypJTpZ5cpvdJs7huMiDHm654EGq8RVk-VVnd
-0j8SRdPa0I5AQPSnOnfKUqkFRr1yVPVWoKePwSbgErV_1G
+VSq50iGW40J1HWB3pl__U-ovTxo2yBUm_MuRMlbYhcycHLdYKG-Q2zE-Znq1h8wWLHnP4iMEYv55mgYMj6ws8HzpZLAu6TdhLqpF730jbPi1ie_BlcDc9blx
+cNRDbwNLsd4tbfP5TtyGEQes0syctgorMTwixY0x0G
 }
 
-!procedure AmazonEmrHdfsCluster($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Analytics/AmazonEmrHdfsCluster', $name, $tech)
+!procedure AmazonEmrHdfsCluster($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Analytics/AmazonEmrHdfsCluster', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonEmrHdfsClusterCard($id, $funcName="", $content="")

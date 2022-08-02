@@ -14,8 +14,8 @@ RStL0G0X30DGj4ro-yzxXlqq-CFu1ol-XG4oG0QeIJLxwXCriFMQgfM16cYDcQbkKsIAhPVNSgLlgwfc
 7Sc_u_Lc_4FZo36vjEse59cs3Jtu
 }
 
-!procedure AwsTrustedAdvisor($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/ManagementGovernance/AwsTrustedAdvisor', $name, $tech)
+!procedure AwsTrustedAdvisor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/ManagementGovernance/AwsTrustedAdvisor', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsTrustedAdvisorCard($id, $funcName="", $content="")

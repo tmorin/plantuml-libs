@@ -2,20 +2,17 @@
 
 sprite $AmazonBraketTensorNetworkXs [10x10/16z] 7SP70SH0000XidNy6xuINW00PSVY0eG32u8evSHuzyHyntIQXR3u0W
 
-sprite $AmazonBraketTensorNetworkSm [12x12/16z] JSc50GCm40B0YpIm_y9rUq7zpvoahCL61uMBm8O4WFDkOQ5r6gFGLJKofpuO5f88JktbZ8KTT7C3
+sprite $AmazonBraketTensorNetworkSm [12x12/16z] JKo50GD1329diF_43VJj98BXUqO1530zzzVr6w3RSY5VmmcxCziaDSJBf24Fh3AEs2e1z6BpcZZ1bW7rz0C
 
-sprite $AmazonBraketTensorNetworkMd [16x16/16z] {
-NKs50GD138eziF_4pNFrk4ByYxGXkR64tvw85QuZVUg7QwrTZMDYJj4P5k9aV1W-ty-Y90QatF8oIPAg-uS4uAUKkVs8Tn_Jvnximq5aKKnoohTz9xqPCvty
-_
-}
+sprite $AmazonBraketTensorNetworkMd [16x16/16z] NOtL0KDH34Av5jX_uSf9zV4HHNH58cduMLF_kqlFAeb1eHvf3QQjRfEXqJ9Glmce0SD8h4e6XeJOGMDNLOj2Da8gk-PeNfbEu7GiUqwur2Zw0-8x
 
 sprite $AmazonBraketTensorNetworkLg [20x20/16z] {
-RSc5WI0m20J0YS7st_0RxtUJu3xJULCQ9u5uKu9t0YyNKXSx3zoBqq33r3szTOqYHctZ9lvtRnd9CLOkSAu_EtX9jafcMX2IzBKVbRdia-L5K3VllIiTLhAn
-Ri2fiBDdgeCcgNxk1JbRLwTF8WVKRVPwHsDKfizz_hTczHK
+RO_LWGHG2CJo14Z_3P_D-Mv-S1cUCLRC04S1f684QWbGRW3x0Zj3t0MS0O2OsFYiIsZmnmrB-S-wJT05mHrxDZ-v_AIRraIB5DIvx0LjAli89GAzhQgB8w0R
+MDTSQ05tebvHeZqLhU3PJ8zp59FhDUI10K8RtriyaB5N
 }
 
-!procedure AmazonBraketTensorNetwork($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/QuantumTechnologies/AmazonBraketTensorNetwork', $name, $tech)
+!procedure AmazonBraketTensorNetwork($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/QuantumTechnologies/AmazonBraketTensorNetwork', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonBraketTensorNetworkCard($id, $funcName="", $content="")

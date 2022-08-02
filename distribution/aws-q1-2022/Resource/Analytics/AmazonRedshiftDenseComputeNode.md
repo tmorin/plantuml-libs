@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Analytics/AmazonRedshiftDenseComputeNode')
 
 ' renders the element
-AmazonRedshiftDenseComputeNode('AmazonRedshiftDenseComputeNode', 'Amazon Redshift Dense Compute Node', 'an optional tech label')
+AmazonRedshiftDenseComputeNode('AmazonRedshiftDenseComputeNode', 'Amazon Redshift Dense Compute Node', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Analytics/AmazonRedshiftDenseComputeNode')
 
 ' renders the element
-AmazonRedshiftDenseComputeNode('AmazonRedshiftDenseComputeNode', 'Amazon Redshift Dense Compute Node', 'an optional tech label')
+AmazonRedshiftDenseComputeNode('AmazonRedshiftDenseComputeNode', 'Amazon Redshift Dense Compute Node', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

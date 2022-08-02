@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/GroupIcons/AutoScaling')
 
 ' renders the element
-AutoScaling('AutoScaling', 'Auto Scaling', 'an optional tech label')
+AutoScaling('AutoScaling', 'Auto Scaling', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/GroupIcons/AutoScaling')
 
 ' renders the element
-AutoScaling('AutoScaling', 'Auto Scaling', 'an optional tech label')
+AutoScaling('AutoScaling', 'Auto Scaling', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/SecurityIdentityAndCompliance/AwsWafLabels')
 
 ' renders the element
-AwsWafLabels('AwsWafLabels', 'Aws Waf Labels', 'an optional tech label')
+AwsWafLabels('AwsWafLabels', 'Aws Waf Labels', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/SecurityIdentityAndCompliance/AwsWafLabels')
 
 ' renders the element
-AwsWafLabels('AwsWafLabels', 'Aws Waf Labels', 'an optional tech label')
+AwsWafLabels('AwsWafLabels', 'Aws Waf Labels', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

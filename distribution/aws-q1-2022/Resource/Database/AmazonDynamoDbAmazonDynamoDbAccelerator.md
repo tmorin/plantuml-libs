@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Database/AmazonDynamoDbAmazonDynamoDbAccelerator')
 
 ' renders the element
-AmazonDynamoDbAmazonDynamoDbAccelerator('AmazonDynamoDbAmazonDynamoDbAccelerator', 'Amazon Dynamo Db Amazon Dynamo Db Accelerator', 'an optional tech label')
+AmazonDynamoDbAmazonDynamoDbAccelerator('AmazonDynamoDbAmazonDynamoDbAccelerator', 'Amazon Dynamo Db Amazon Dynamo Db Accelerator', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Database/AmazonDynamoDbAmazonDynamoDbAccelerator')
 
 ' renders the element
-AmazonDynamoDbAmazonDynamoDbAccelerator('AmazonDynamoDbAmazonDynamoDbAccelerator', 'Amazon Dynamo Db Amazon Dynamo Db Accelerator', 'an optional tech label')
+AmazonDynamoDbAmazonDynamoDbAccelerator('AmazonDynamoDbAmazonDynamoDbAccelerator', 'Amazon Dynamo Db Amazon Dynamo Db Accelerator', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

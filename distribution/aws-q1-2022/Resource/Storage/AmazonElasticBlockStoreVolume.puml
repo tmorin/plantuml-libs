@@ -2,14 +2,14 @@
 
 sprite $AmazonElasticBlockStoreVolumeXs [10x10/16z] Oq02R70MEnXm0bcS4C103c040oO6
 
-sprite $AmazonElasticBlockStoreVolumeSm [12x12/16z] Oq05x8mWm0PYSa1461c111CKWDZCKAMSL6HpG04d0m
+sprite $AmazonElasticBlockStoreVolumeSm [12x12/16z] Oq05x8mWm0PYSY09Cq418v3D21NZf2AR0meu6G
 
-sprite $AmazonElasticBlockStoreVolumeMd [16x16/16z] pST70K0X30Mmrztw5_pt10IGMp1GUPApJZWbTk9og_t4h_rXZpYEXyzmgnUm0W
+sprite $AmazonElasticBlockStoreVolumeMd [16x16/16z] pST50S0m542nrtxsBtZCCz3S0d-LkyR6EIIhvkrKhFfjRRHBREVY8zpg1ZC
 
-sprite $AmazonElasticBlockStoreVolumeLg [20x20/16z] tSh50G0X40J11bRp3_ZS9G7gDy8VprrXOy8kMTNW8BPjVf6o_cwstzNsCwxwwhnSrBLJkwem0W
+sprite $AmazonElasticBlockStoreVolumeLg [20x20/16z] Oy05s3bX02x4nW9dmWGPEH0wcDcWSkn8W9CHBCQ40g3gK00Bn0eKDmmlCNP69C34WZrS
 
-!procedure AmazonElasticBlockStoreVolume($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AmazonElasticBlockStoreVolume', $name, $tech)
+!procedure AmazonElasticBlockStoreVolume($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AmazonElasticBlockStoreVolume', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonElasticBlockStoreVolumeCard($id, $funcName="", $content="")

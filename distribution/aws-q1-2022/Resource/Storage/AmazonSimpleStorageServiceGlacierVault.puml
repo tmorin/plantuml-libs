@@ -2,14 +2,14 @@
 
 sprite $AmazonSimpleStorageServiceGlacierVaultXs [10x10/16z] Oq02x0mCh50ccCN90CISd2n031TZ9875oCZ8oiZ8n
 
-sprite $AmazonSimpleStorageServiceGlacierVaultSm [12x12/16z] fKgr0S1023mSzbyuI9NwqJFyoqcCA0OcmDQxSXVtMcDJrTbgp9V1Ayukwory
+sprite $AmazonSimpleStorageServiceGlacierVaultSm [12x12/16z] fSR10G1114FH0EY_uVtNFS-3H7zbKMOZh6J52GtdYXvcMMPsT6EBVEsBuauV
 
-sprite $AmazonSimpleStorageServiceGlacierVaultMd [16x16/16z] pKx50S0m28pds7_WuBmwG77dsWSHG1l0zFI8Ogknj5VUhffrb8PPAvBIDkj3DN_-a3ko6VWO
+sprite $AmazonSimpleStorageServiceGlacierVaultMd [16x16/16z] pKx50S0m28pds7_WuBmwG77dsWSHG1l0zFI8OglnV6NUhgL7QPYr8YbjipvKy-SFkIERWOy1
 
-sprite $AmazonSimpleStorageServiceGlacierVaultLg [20x20/16z] tOk50O0m30JZil_0EDGNuAfvWHMHcIvvGA_aSkhAnvsFH06VflequTLAq2wKxfSlBIz2xlSkMzr5-vNcU79evqEtfdOYP1S4i0C
+sprite $AmazonSimpleStorageServiceGlacierVaultLg [20x20/16z] tOk54G0X30I99_qN32Jlri0lSZCdxGkF2EEOm6OPf2_vnrvhkqToM8jt5BKGN1JAYy9vKLnwvotyopD8N2W55myBM3Ij0G
 
-!procedure AmazonSimpleStorageServiceGlacierVault($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AmazonSimpleStorageServiceGlacierVault', $name, $tech)
+!procedure AmazonSimpleStorageServiceGlacierVault($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AmazonSimpleStorageServiceGlacierVault', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonSimpleStorageServiceGlacierVaultCard($id, $funcName="", $content="")

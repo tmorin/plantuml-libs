@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Satellite/AwsGroundStation')
 
 ' renders the element
-AwsGroundStation('AwsGroundStation', 'Aws Ground Station', 'an optional tech label')
+AwsGroundStation('AwsGroundStation', 'Aws Ground Station', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Satellite/AwsGroundStation')
 
 ' renders the element
-AwsGroundStation('AwsGroundStation', 'Aws Ground Station', 'an optional tech label')
+AwsGroundStation('AwsGroundStation', 'Aws Ground Station', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

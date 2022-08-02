@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Storage/AwsBackupRecoveryTimeObjective')
 
 ' renders the element
-AwsBackupRecoveryTimeObjective('AwsBackupRecoveryTimeObjective', 'Aws Backup Recovery Time Objective', 'an optional tech label')
+AwsBackupRecoveryTimeObjective('AwsBackupRecoveryTimeObjective', 'Aws Backup Recovery Time Objective', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Storage/AwsBackupRecoveryTimeObjective')
 
 ' renders the element
-AwsBackupRecoveryTimeObjective('AwsBackupRecoveryTimeObjective', 'Aws Backup Recovery Time Objective', 'an optional tech label')
+AwsBackupRecoveryTimeObjective('AwsBackupRecoveryTimeObjective', 'Aws Backup Recovery Time Objective', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

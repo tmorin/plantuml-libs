@@ -2,20 +2,20 @@
 
 sprite $AwsCloudMapNamespaceXs [10x10/16z] JSY54GCm0CGmDPpy_lEMoQSZ-wlCgIO42f7MA9UWb0TJR9mPWl8G3Sht1VG9Dm
 
-sprite $AwsCloudMapNamespaceSm [12x12/16z] LOU50KKn4C9oKe7kl-ztUJaXS46cLuGB6XJuAVxuq_JmwYgm7RuppU6nJ7BJYC2ijHWx3bfKcPr33wSIyfp04WyUbGSt
+sprite $AwsCloudMapNamespaceSm [12x12/16z] LSR50GGn50KW8YF_fVzwrvKJ_bICWmmcrOH1tdTVtT_xw2HfkPcnMDZrqr2QE8xTF2rrw3rEi-xN6zPgKWLe2rm1
 
 sprite $AwsCloudMapNamespaceMd [16x16/16z] {
-PSV7WSCm40GmC4gSxR_Uoz763vvbCGgPSFLHLQhYxenDxn48yUUpK-USZy_S1u68SseCAac_ahPZNKQZG5cxAOg8CTKKPVVqa2EgxAkttZ4jxTwhz-iSABJS
-gqViS_lKKsetVnoVNW4
+PSV5WI0n40GmZTdL-STxi0pwoM-Pj486xATLbQhOw9D714Bu_6ZKlVVbBUSYUFczrJkLn4xqc5j_A53ce2WYUbD3bFLokQBAsZmFkidfux7kXOAS8QBV0v1I
+orSNy1S
 }
 
 sprite $AwsCloudMapNamespaceLg [20x20/16z] {
-TO_5eG0m2CM2jxpzv_tkaXRB2VY7uq0kGDUxqjW8XQiL03MGIj7T1W9208je1p11ztU705LclZcJ163doSMByur90HntD-JjWz04t7vYgMu6XKvWWYSFW2-3
-O0nEWVeuwtGQ2ohyRPT5NYmtkOjM3YsFOXHFTdd3aO7Y5ikvrm1c05R-SLkhUC7ggiHJdkGBfH6_ADvv1
+TSy50YWX24NH0sECllslztV7DMdm7zx2Ss7DRwhEhXrvEYi5SrEfwDK8Ad15DmXh_QsJESRufgiatsfqb_XqtzuZl-XwzHRPnHcVTDUdovRAMmHdWRgsiF5E
+ijvsonXSChNevagtwmpdoaspKa_RgK_QwnijI9_XUiyfs1jk-iTiAnCmJcPykdVxXPaTVz5yuoC
 }
 
-!procedure AwsCloudMapNamespace($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/NetworkingAndContentDelivery/AwsCloudMapNamespace', $name, $tech)
+!procedure AwsCloudMapNamespace($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/NetworkingAndContentDelivery/AwsCloudMapNamespace', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsCloudMapNamespaceCard($id, $funcName="", $content="")

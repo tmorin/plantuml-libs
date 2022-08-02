@@ -14,8 +14,8 @@ PS_N0KCn24DHt17UVzy0okltyxY2J8zMX2-wVP7I-rmNMbe5Lg_zZnOuUBmgiy22h5nc62cGcpL40X4f
 feD8mzwXNTrqjj8c3hDIfNBsD2hx697ssVa3
 }
 
-!procedure AmazonManagedServiceForGrafana($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/ManagementGovernance/AmazonManagedServiceForGrafana', $name, $tech)
+!procedure AmazonManagedServiceForGrafana($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/ManagementGovernance/AmazonManagedServiceForGrafana', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonManagedServiceForGrafanaCard($id, $funcName="", $content="")

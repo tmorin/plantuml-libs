@@ -2,20 +2,20 @@
 
 sprite $AwsIoTThingDoorLockXs [10x10/16z] LOo50G01209jlVq7_aux0FbP0kVKtUVWmlaIPojRiDrYkt1C-KmSqsPLzTDR0G
 
-sprite $AwsIoTThingDoorLockSm [12x12/16z] LSsr0G0W34JHJppx3unMH5zt_EMCZiUqLmrkr1WZAOVjbjY6iPrt1hsDiTt4SHq77FSnroBotFKgljm5
+sprite $AwsIoTThingDoorLockSm [12x12/16z] LSsd0G0W4CNGqFdx3ymrHTHpuM-1Td7tIh0w5pZS1MwntAGTQRcPkCKEt_26iCAaMsjbtMf_NmC
 
 sprite $AwsIoTThingDoorLockMd [16x16/16z] {
-RSv15WCX20JHOgG1xd_X89diKhl_L84_YQBD_STKgoDJlWHyEY2xfv0skI7vdYTp_TYULu_dBAuhttFHxtdtDSvr5nRhMZ-6vtNaMlwQNkyI4C-aiG4kUToa
-ucQoidxSZMzEKdOEqmS
+PSy54W8n40NHtl6v_uKXlt2wzCK3_oN3Oi63dPjRtHaYS9t0D0iDWfqLURnLN9gVXNQGfn_poJxcTuy9ZdUWvE4nRwtrBRiHCYk7Gq9Tzmoj9yoyJcRr-HyF
+7WNDO0vm0m
 }
 
 sprite $AwsIoTThingDoorLockLg [20x20/16z] {
-TP050iGW30GtIlB_3zyjTPlw56Bu8c2Evd5nSNKrJfI3300vXVAD--BlD8GqTuKkwnYk4xMkCvkk1Q5qmmGUY-EjhdiplVQztTD17DDrnvv30ezr5VvOvosF
-TMXSrsagwNNTyZUIwEuyAqTbpoFbOtv48OgO1_a1
+TP070i0W20C11Sd_Frn3zqhtzTAgyXSNxG9kD-PtbkEIj69Z7b60py6UJsPD6B3bkdfD1GZ9pLCjDXMtf36rxZjJptitGlFe0iKuwcA0xPw8oSjBrvVNyFO4
+Z-zPLmQRjxxrOEnW5XaZ0xN5t_enojrgOnO
 }
 
-!procedure AwsIoTThingDoorLock($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTThingDoorLock', $name, $tech)
+!procedure AwsIoTThingDoorLock($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTThingDoorLock', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTThingDoorLockCard($id, $funcName="", $content="")

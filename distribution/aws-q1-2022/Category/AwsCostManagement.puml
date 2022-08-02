@@ -11,8 +11,8 @@ RStN0KGX24JHLKc3_VUxpClfVXu5_AkXHxBMN575bhDEko7Dm7vL8vucGH3YOM4D4ICOBO4kykD14Ika
 3RHPndVk2mT0cmdVAgBvBDm23hiXhR_x0m
 }
 
-!procedure AwsCostManagement($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Category/AwsCostManagement', $name, $tech)
+!procedure AwsCostManagement($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Category/AwsCostManagement', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsCostManagementCard($id, $funcName="", $content="")

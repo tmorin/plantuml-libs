@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Analytics/AmazonOpenSearchService')
 
 ' renders the element
-AmazonOpenSearchService('AmazonOpenSearchService', 'Amazon Open Search Service', 'an optional tech label')
+AmazonOpenSearchService('AmazonOpenSearchService', 'Amazon Open Search Service', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Analytics/AmazonOpenSearchService')
 
 ' renders the element
-AmazonOpenSearchService('AmazonOpenSearchService', 'Amazon Open Search Service', 'an optional tech label')
+AmazonOpenSearchService('AmazonOpenSearchService', 'Amazon Open Search Service', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

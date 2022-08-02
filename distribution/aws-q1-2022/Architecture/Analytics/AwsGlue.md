@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Analytics/AwsGlue')
 
 ' renders the element
-AwsGlue('AwsGlue', 'Aws Glue', 'an optional tech label')
+AwsGlue('AwsGlue', 'Aws Glue', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Analytics/AwsGlue')
 
 ' renders the element
-AwsGlue('AwsGlue', 'Aws Glue', 'an optional tech label')
+AwsGlue('AwsGlue', 'Aws Glue', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

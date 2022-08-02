@@ -14,8 +14,8 @@ NSlB5SGm24DHC3P2fFz-1pBvlntt2Ex56Jf-yBGlzcbttfWaubxEACmi6qATnBAoAZCHLhOuXrmMeN_J
 4TjMbXK0vwIGkqb7DOMiHNAhSa_1WF6spiJSJpkLrTUgswed_W
 }
 
-!procedure AwsConfig($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/ManagementGovernance/AwsConfig', $name, $tech)
+!procedure AwsConfig($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/ManagementGovernance/AwsConfig', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsConfigCard($id, $funcName="", $content="")

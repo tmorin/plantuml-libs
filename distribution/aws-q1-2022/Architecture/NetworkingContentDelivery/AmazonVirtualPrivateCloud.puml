@@ -14,8 +14,8 @@ PStP0SGW24LHb9tflz_1bpsvdqU1H77c7UYkNmFMRkuN5j39REY1jJ0aEtKxh94JKGm_RPoNvcv9jGkD
 fKqYytUXKXibxC2P8gQm2vd84WOyIjW7OH_y0m
 }
 
-!procedure AmazonVirtualPrivateCloud($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/NetworkingContentDelivery/AmazonVirtualPrivateCloud', $name, $tech)
+!procedure AmazonVirtualPrivateCloud($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/NetworkingContentDelivery/AmazonVirtualPrivateCloud', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonVirtualPrivateCloudCard($id, $funcName="", $content="")

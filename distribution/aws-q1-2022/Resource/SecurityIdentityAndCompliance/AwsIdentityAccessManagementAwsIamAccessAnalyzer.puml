@@ -2,17 +2,14 @@
 
 sprite $AwsIdentityAccessManagementAwsIamAccessAnalyzerXs [10x10/16z] Oy04t3065mUIA1SNc6A14DoS30oS34nC81wGmcSAApS
 
-sprite $AwsIdentityAccessManagementAwsIamAccessAnalyzerSm [12x12/16z] RSl50S0m34Mn5uw_zv-tp8tkOaGfGKuRfq5YbtX9qTWu1CpnQ9s0r5X9uZxt3nsmdH2deZ03
+sprite $AwsIdentityAccessManagementAwsIamAccessAnalyzerSm [12x12/16z] PS650GD140GWtavc-wytxW7yoxgnBpUbixXRV5bDe5ZCKkQmI3f8mk9jSJSmxoAuE-8C
 
-sprite $AwsIdentityAccessManagementAwsIamAccessAnalyzerMd [16x16/16z] VOl50SCm40H7hDlhlzx4pFQy5lcWo85gAo85C5QKnD4J0HedXj-M1427XwVPc_31T0GkBNrmgKFaZBtwq0jWSSMf0SBP7r7Y3m
+sprite $AwsIdentityAccessManagementAwsIamAccessAnalyzerMd [16x16/16z] VSl50KKn44BH6mzC__L-b-TdDG9SQ0wWwyjaG7mvUxMJ00OhabONBngHtxjC46bY25lVjptPqVa-Cw3q5JIMWiwA2tS
 
-sprite $AwsIdentityAccessManagementAwsIamAccessAnalyzerLg [20x20/16z] {
-XS-t5GGn3CHGK4_BesRwh_UyM_z3PE1Sau85Wm5KFtgtugUaMZPQy6l_ueu5InfyzGuO-6lsftMJPfYY3t1cZjz6fXlHMWk-yGuWMQkJ5dLPDHC6q9y1Pa5J
-cgMfmmq
-}
+sprite $AwsIdentityAccessManagementAwsIamAccessAnalyzerLg [20x20/16z] XT2r0KG13CDGnKU9lV-ynqp_bIh5CjaVBH00zuElhNbekzyR1VUsABQ7kxM004yjkRLrs8O9ZGOYQRWgIobAKd6Z8u0jdtgfzUxUFhuycMjxvitseo710G
 
-!procedure AwsIdentityAccessManagementAwsIamAccessAnalyzer($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessManagementAwsIamAccessAnalyzer', $name, $tech)
+!procedure AwsIdentityAccessManagementAwsIamAccessAnalyzer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessManagementAwsIamAccessAnalyzer', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIdentityAccessManagementAwsIamAccessAnalyzerCard($id, $funcName="", $content="")

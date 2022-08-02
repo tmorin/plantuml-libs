@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/ManagementGovernance/AwsOrganizations')
 
 ' renders the element
-AwsOrganizations('AwsOrganizations', 'Aws Organizations', 'an optional tech label')
+AwsOrganizations('AwsOrganizations', 'Aws Organizations', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/ManagementGovernance/AwsOrganizations')
 
 ' renders the element
-AwsOrganizations('AwsOrganizations', 'Aws Organizations', 'an optional tech label')
+AwsOrganizations('AwsOrganizations', 'Aws Organizations', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

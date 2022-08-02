@@ -2,14 +2,14 @@
 
 sprite $AmazonElastiCacheCacheNodeXs [10x10/16z] Oq00TYZDmy30oi34mC01f1WOc5cv6DY0B2WWWSN32W5S
 
-sprite $AmazonElastiCacheCacheNodeSm [12x12/16z] fSQr0G0W0C2mulh_kxZjP0glB1UjaLY9qMq90LxIEhvyNhzF6nK
+sprite $AmazonElastiCacheCacheNodeSm [12x12/16z] fSQt0O0m402n-qJUVrt0sRrLYTaZbJb226Pgt0WSWYlvrU9jkjyD7m
 
-sprite $AmazonElastiCacheCacheNodeMd [16x16/16z] lOY55SD03CLqPhzs_td3E41arEVD-FzkmDnZYSTwVVRvT52YpC_iWaNU7DDvX66xt_ZQw-avmEjYC04
+sprite $AmazonElastiCacheCacheNodeMd [16x16/16z] lST50S104C3072_vjrjc0Sqh0z_27u7phEtMXf3MsPnxHzBbzLQatNV_MzxkG9Cxc04
 
-sprite $AmazonElastiCacheCacheNodeLg [20x20/16z] rSZL0OKm54J14zcziVxRVQv00ypdSCXp_Ue97FnRC04ZYWkomFL-0kT0H0FqEc9iZbvG7WMvlsxZfDVP69cqh5zZ0DG_6Qu
+sprite $AmazonElastiCacheCacheNodeLg [20x20/16z] rSY50G8m3031hyIp_xgumm9yDSVFjFgrE9FnNaET7M7gG5H0nzdEdsbCp06PDxFyC68X8q-NnjrU-riBFie1hV9Q9i2Ohmqu0W
 
-!procedure AmazonElastiCacheCacheNode($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Database/AmazonElastiCacheCacheNode', $name, $tech)
+!procedure AmazonElastiCacheCacheNode($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Database/AmazonElastiCacheCacheNode', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonElastiCacheCacheNodeCard($id, $funcName="", $content="")

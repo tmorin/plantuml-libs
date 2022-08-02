@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Compute/AwsServerlessApplicationRepository')
 
 ' renders the element
-AwsServerlessApplicationRepository('AwsServerlessApplicationRepository', 'Aws Serverless Application Repository', 'an optional tech label')
+AwsServerlessApplicationRepository('AwsServerlessApplicationRepository', 'Aws Serverless Application Repository', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Compute/AwsServerlessApplicationRepository')
 
 ' renders the element
-AwsServerlessApplicationRepository('AwsServerlessApplicationRepository', 'Aws Serverless Application Repository', 'an optional tech label')
+AwsServerlessApplicationRepository('AwsServerlessApplicationRepository', 'Aws Serverless Application Repository', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/SecurityIdentityAndCompliance/AwsDirectoryServiceSimpleAd')
 
 ' renders the element
-AwsDirectoryServiceSimpleAd('AwsDirectoryServiceSimpleAd', 'Aws Directory Service Simple Ad', 'an optional tech label')
+AwsDirectoryServiceSimpleAd('AwsDirectoryServiceSimpleAd', 'Aws Directory Service Simple Ad', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/SecurityIdentityAndCompliance/AwsDirectoryServiceSimpleAd')
 
 ' renders the element
-AwsDirectoryServiceSimpleAd('AwsDirectoryServiceSimpleAd', 'Aws Directory Service Simple Ad', 'an optional tech label')
+AwsDirectoryServiceSimpleAd('AwsDirectoryServiceSimpleAd', 'Aws Directory Service Simple Ad', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

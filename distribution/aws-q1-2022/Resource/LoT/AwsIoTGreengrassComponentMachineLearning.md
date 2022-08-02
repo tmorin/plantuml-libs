@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/LoT/AwsIoTGreengrassComponentMachineLearning')
 
 ' renders the element
-AwsIoTGreengrassComponentMachineLearning('AwsIoTGreengrassComponentMachineLearning', 'Aws Io T Greengrass Component Machine Learning', 'an optional tech label')
+AwsIoTGreengrassComponentMachineLearning('AwsIoTGreengrassComponentMachineLearning', 'Aws Io T Greengrass Component Machine Learning', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/LoT/AwsIoTGreengrassComponentMachineLearning')
 
 ' renders the element
-AwsIoTGreengrassComponentMachineLearning('AwsIoTGreengrassComponentMachineLearning', 'Aws Io T Greengrass Component Machine Learning', 'an optional tech label')
+AwsIoTGreengrassComponentMachineLearning('AwsIoTGreengrassComponentMachineLearning', 'Aws Io T Greengrass Component Machine Learning', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

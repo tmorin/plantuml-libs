@@ -2,14 +2,14 @@
 
 sprite $AwsIdentityAccessManagementAddOnXs [10x10/16z] Oo00k3bP80nMC8-R6I75oS21f8uRjna
 
-sprite $AwsIdentityAccessManagementAddOnSm [12x12/16z] ZS6r0S0m000WulR_lVNk0NkYNoZ2z1erCSkLc9hNCYFg3Ltgjfq
+sprite $AwsIdentityAccessManagementAddOnSm [12x12/16z] ZSR50G1124FHFuRsN--wN7b8Gatxsu3WvhE3hLW6hIkt91gmJe2TMxO3
 
-sprite $AwsIdentityAccessManagementAddOnMd [16x16/16z] hS47OSD000GmsR__-EDjinC0bbpWFFmOizJug0MYDnjoP26rRTdiPVZO8eCZJvmTugEcZUqg_m
+sprite $AwsIdentityAccessManagementAddOnMd [16x16/16z] hS47OSD000GmsR__-EDjinC0bbpWy6lCeyH7FI5wio575bBRbirUXeyjqZdon54XFahQsAxo3m
 
-sprite $AwsIdentityAccessManagementAddOnLg [20x20/16z] lSZL0SKm34FH6xAjQFzv7sC7wFaHS9RUEP1BdlnwpWoOCBXRYuUDlEp7ANOOw35PYwW4KoG_j13I1cOzIVVEW_cX0DgU_5g-uMHN
+sprite $AwsIdentityAccessManagementAddOnLg [20x20/16z] lSf7WGGn300mfSSnVxnNjmCOlUKgfVWGkIExLzbWTIe5ZE7F4JdoFuGp4tKsevfxaRRbHLGXug3jVn7KxKzw4HDEzMha3nVx1W
 
-!procedure AwsIdentityAccessManagementAddOn($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessManagementAddOn', $name, $tech)
+!procedure AwsIdentityAccessManagementAddOn($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessManagementAddOn', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIdentityAccessManagementAddOnCard($id, $funcName="", $content="")

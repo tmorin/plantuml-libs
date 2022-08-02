@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Compute/AmazonEc2X2IednInstance')
 
 ' renders the element
-AmazonEc2X2IednInstance('AmazonEc2X2IednInstance', 'Amazon Ec2 X2 Iedn Instance', 'an optional tech label')
+AmazonEc2X2IednInstance('AmazonEc2X2IednInstance', 'Amazon Ec2 X2 Iedn Instance', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Compute/AmazonEc2X2IednInstance')
 
 ' renders the element
-AmazonEc2X2IednInstance('AmazonEc2X2IednInstance', 'Amazon Ec2 X2 Iedn Instance', 'an optional tech label')
+AmazonEc2X2IednInstance('AmazonEc2X2IednInstance', 'Amazon Ec2 X2 Iedn Instance', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

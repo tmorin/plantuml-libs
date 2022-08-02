@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/MachineLearning/AmazonRekognitionImage')
 
 ' renders the element
-AmazonRekognitionImage('AmazonRekognitionImage', 'Amazon Rekognition Image', 'an optional tech label')
+AmazonRekognitionImage('AmazonRekognitionImage', 'Amazon Rekognition Image', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/MachineLearning/AmazonRekognitionImage')
 
 ' renders the element
-AmazonRekognitionImage('AmazonRekognitionImage', 'Amazon Rekognition Image', 'an optional tech label')
+AmazonRekognitionImage('AmazonRekognitionImage', 'Amazon Rekognition Image', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

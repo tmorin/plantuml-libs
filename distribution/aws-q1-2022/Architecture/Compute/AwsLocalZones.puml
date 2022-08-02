@@ -11,8 +11,8 @@ RSe74W8n34DHLscv_uMn1uN-qz-46rxrn6_4CNwPC2DRAl82a6rucI4z0ewNDH8a3DLF2mROZa2kNG-h
 nXBME2OqSjTsx48ogAvJTRti99Affzt-u1q
 }
 
-!procedure AwsLocalZones($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Compute/AwsLocalZones', $name, $tech)
+!procedure AwsLocalZones($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Compute/AwsLocalZones', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsLocalZonesCard($id, $funcName="", $content="")

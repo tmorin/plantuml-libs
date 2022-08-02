@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/MachineLearning/AmazonForecast')
 
 ' renders the element
-AmazonForecast('AmazonForecast', 'Amazon Forecast', 'an optional tech label')
+AmazonForecast('AmazonForecast', 'Amazon Forecast', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/MachineLearning/AmazonForecast')
 
 ' renders the element
-AmazonForecast('AmazonForecast', 'Amazon Forecast', 'an optional tech label')
+AmazonForecast('AmazonForecast', 'Amazon Forecast', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

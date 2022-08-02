@@ -14,8 +14,8 @@ RSYtbS103CJGMKzG_TTxXgl9X8VeKuKx__61V20VcBQXOyoBgmUhlPeNcmwZBLjXPocmNUorxU9kqLSB
 0tZ-KcvoPsU2JH8fAQTKLkKRbSreinf_0G
 }
 
-!procedure AwsOrganizations($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/ManagementGovernance/AwsOrganizations', $name, $tech)
+!procedure AwsOrganizations($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/ManagementGovernance/AwsOrganizations', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsOrganizationsCard($id, $funcName="", $content="")

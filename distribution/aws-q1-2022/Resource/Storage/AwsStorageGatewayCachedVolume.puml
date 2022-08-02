@@ -2,14 +2,14 @@
 
 sprite $AwsStorageGatewayCachedVolumeXs [10x10/16z] Oy00J62IcO6PbGakHXgBavCJp6824fnCB0m
 
-sprite $AwsStorageGatewayCachedVolumeSm [12x12/16z] fSQt0S10202n8yF-0pjHkNvLuiTaDQ0XABQtL32-iywVghRl7j3kvWO
+sprite $AwsStorageGatewayCachedVolumeSm [12x12/16z] hSR50G0X000WRDr_uElyomi_APmwGYRWUApHVSnv8ftlVH1xxrO
 
-sprite $AwsStorageGatewayCachedVolumeMd [16x16/16z] nSVP0O0W4CJG0Bips7_1thS5c7mzFhcV3QifyxNCQND3mYaErqmSUVZeFrjIlpc0ms6x0fw32G
+sprite $AwsStorageGatewayCachedVolumeMd [16x16/16z] nSY50G0n20J1mw7_WjybKa0sEc0gygikuyjl4zoExQ-Ps61ghz_METpT6kjnNcj4y3a_0dO
 
-sprite $AwsStorageGatewayCachedVolumeLg [20x20/16z] rSZ50SGm00Cmnn3OV-23CYrGFOLduyJJLHmmouM6RIZSZh22I2dR2RN_3YAssxtz-lYx77uErqYEwKXwllmOFyvF0Ru
+sprite $AwsStorageGatewayCachedVolumeLg [20x20/16z] rSZ50SH04C0mZvVxB_WWJ0r4J_5idCHqbGDThYZcJ1ItWvmA9KLXEydzTuJxxTv-VVnTZf_3DNLCf-Rv_0b-mX_W2m
 
-!procedure AwsStorageGatewayCachedVolume($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AwsStorageGatewayCachedVolume', $name, $tech)
+!procedure AwsStorageGatewayCachedVolume($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AwsStorageGatewayCachedVolume', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsStorageGatewayCachedVolumeCard($id, $funcName="", $content="")

@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Category/Containers')
 
 ' renders the element
-Containers('Containers', 'Containers', 'an optional tech label')
+Containers('Containers', 'Containers', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Category/Containers')
 
 ' renders the element
-Containers('Containers', 'Containers', 'an optional tech label')
+Containers('Containers', 'Containers', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

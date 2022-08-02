@@ -2,20 +2,20 @@
 
 sprite $SslPadlockXs [10x10/16z] FSct0OD000GmmUTm-wzhLwWL0DJItcSSBXPY4G7oLn7HLHSHrVFjue20qGf-
 
-sprite $SslPadlockSm [12x12/16z] LSQ54GCn30J0DOES_jlDQFW5T-ipiTLRn61GG2iUNWqS2ZLxIyIzzwM3RheqC_rBXvxkqYv06RItSLu1MYJy0G
+sprite $SslPadlockSm [12x12/16z] LSnL0WGn20FGDzeMsFiVTuslmIM9X-Mq1NbniO6TGcs91Tq7DXaHPP9iRi7Ht9SW7UpEdaDRgzV4AcrxWWy
 
 sprite $SslPadlockMd [16x16/16z] {
-POe54W9130GxiZxt_-zIAHnw9HdX7ndO1UG0c3wbnP5o14Id28eDmm5VhdiNTFSjWNL_SIAo6nQ0G5PicFUUEDtPr1NrnaK91eVIt3NNFU-zjrPw4vCt1t3D
-eCXLahl5NiuR4tTk
+PO-5SKL130DNnw3NVxiP3UJJ7ffjVZ6W1sWpujAqDzUkGr0xGOG3iqJQSkGfC4HF1JRab5jAWWNWx71WWMhaEqha0oPdF4HWSebCPF8uyXYZzyW7JLvSG5uY
+b1qno8EpVuOCVm
 }
 
 sprite $SslPadlockLg [20x20/16z] {
-TSs5eSCW50308rYn_SVzGjqkobDVD3Z6VbTRJolAwvX1dID1gPHQ2AKcHY1DMsh1jaZ37b2EbY0ix5_hyZYvliEunYPeh8jqYTNCGY9dsiEaMKvo8apgSOdL
-kcF6OJpKxbYevZNMBZ7L2OzxjIYimwCyO8xWAgvcE-eO6NMsua5TUKKlGd7r2m
+TOy5WeKm30Md0g6H-nztBUb-7wZ57nzO0Ct-TacJpXWSqRqXRXFWbD_LgTs0vlmn5qb0johGrjmsLijRBYxOkssRxr6Yc6MJaH4T-b73HYu_B_hCPEbb4qcR
+DUmMcxOc-BQjiY4vIHIpvet6FSC0tDhD4YMxYLa7n4jo8N74u9cJpJS
 }
 
-!procedure SslPadlock($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/GeneralIcons/SslPadlock', $name, $tech)
+!procedure SslPadlock($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/GeneralIcons/SslPadlock', $name, $tech, $desc)
 !endprocedure
 
 !procedure SslPadlockCard($id, $funcName="", $content="")

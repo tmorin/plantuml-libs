@@ -11,8 +11,8 @@ RSsv0G0X24JHzMO6-wztlJNWXqy1ajZ9YWRIm2uYvJOjogwznJ8DaXDMQVtxtfffCuxsFuXgjz1n6rIr
 pIA9xmDH6wwugmPM0ty
 }
 
-!procedure AwsCommandLineInterface($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/DeveloperTools/AwsCommandLineInterface', $name, $tech)
+!procedure AwsCommandLineInterface($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/DeveloperTools/AwsCommandLineInterface', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsCommandLineInterfaceCard($id, $funcName="", $content="")

@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/MigrationAndTransfer/AwsMigrationHubRefactorSpacesApplications')
 
 ' renders the element
-AwsMigrationHubRefactorSpacesApplications('AwsMigrationHubRefactorSpacesApplications', 'Aws Migration Hub Refactor Spaces Applications', 'an optional tech label')
+AwsMigrationHubRefactorSpacesApplications('AwsMigrationHubRefactorSpacesApplications', 'Aws Migration Hub Refactor Spaces Applications', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/MigrationAndTransfer/AwsMigrationHubRefactorSpacesApplications')
 
 ' renders the element
-AwsMigrationHubRefactorSpacesApplications('AwsMigrationHubRefactorSpacesApplications', 'Aws Migration Hub Refactor Spaces Applications', 'an optional tech label')
+AwsMigrationHubRefactorSpacesApplications('AwsMigrationHubRefactorSpacesApplications', 'Aws Migration Hub Refactor Spaces Applications', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -11,8 +11,8 @@ RSe54iGW50JHp03VSl_pHl2LBd_L_cGZRRssz9_Piat_cKtBwL6HZb4jgThnKCE8QYI49QDYD7HLC46G
 P4V9maU79LD_7_VNplCroH4-gzRQREa_YsK_vmq
 }
 
-!procedure AwsIoTEvents($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/InternetOfThings/AwsIoTEvents', $name, $tech)
+!procedure AwsIoTEvents($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/InternetOfThings/AwsIoTEvents', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTEventsCard($id, $funcName="", $content="")

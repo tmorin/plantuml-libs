@@ -2,17 +2,17 @@
 
 sprite $AmazonSimpleStorageServiceGeneralAccessPointsXs [10x10/16z] 1S490O0m000XTE_rBpm00F4j29b0qm070FeHs91SG0221m
 
-sprite $AmazonSimpleStorageServiceGeneralAccessPointsSm [12x12/16z] NOk50GC12CI2m_u3j-yMN8uF4rB9HcxHm9P4mO28aYfd02k4YEs-gLItFW0yX4CyIB1XESL9JdCnM_u3
+sprite $AmazonSimpleStorageServiceGeneralAccessPointsSm [12x12/16z] NS6v0S0W400Wr7ltNpXzmC--KmKKoi3W70vUjkwmE8r8WuBB8E45C2mFEBKDe7O0MF01
 
-sprite $AmazonSimpleStorageServiceGeneralAccessPointsMd [16x16/16z] RSc5WGGm202mr67_WLyubxIuRrf6vEPghohHbLKrEKgLDeA0eOqkJxBL-VHGPbEpOEUn6heITS0rhzpNRWwi-u4rIQ9njLl6yYpxwvZ7Yqtv1G
+sprite $AmazonSimpleStorageServiceGeneralAccessPointsMd [16x16/16z] ROc50KGn5C9Iuy7-0v_BjrGmBeaT_PBcIzpUSRqqK00VQTrWW06jaGheFTTxWBx9YjwvyyAl0VZyA_guqPxnDy2S430_H3pPahQFANReetS
 
 sprite $AmazonSimpleStorageServiceGeneralAccessPointsLg [20x20/16z] {
-TSw5aG9044JHlpQIVy1tG5VZl9ALKNvRKPrdyAG3OFJ1HetR0ITmbevgE5ltFPKTkN3Snzu5IosJh4hM1Q2EGJ8J99rt8c57XFCQAMYc-cbzvJb1fypm9HrP
-YSsUq135arFqYObzTBLQdHzfrOiF6_i7
+TKu50WGX2AJZ_ny-3BYU3QTKu3_G8btVhBGTv8iRJTIcTPCiKmuNkaSwTZwBI9t1k8M3HpXWeTGvqSgjzyAxfrPKpAnxEHCL9Tgy1zszdFa6r4EZxwHPDsbx
+5l02Zl8DHt-TsWXEfoyp6Rw0mnu
 }
 
-!procedure AmazonSimpleStorageServiceGeneralAccessPoints($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AmazonSimpleStorageServiceGeneralAccessPoints', $name, $tech)
+!procedure AmazonSimpleStorageServiceGeneralAccessPoints($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AmazonSimpleStorageServiceGeneralAccessPoints', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonSimpleStorageServiceGeneralAccessPointsCard($id, $funcName="", $content="")

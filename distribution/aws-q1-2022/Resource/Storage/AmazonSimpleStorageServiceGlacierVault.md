@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Storage/AmazonSimpleStorageServiceGlacierVault')
 
 ' renders the element
-AmazonSimpleStorageServiceGlacierVault('AmazonSimpleStorageServiceGlacierVault', 'Amazon Simple Storage Service Glacier Vault', 'an optional tech label')
+AmazonSimpleStorageServiceGlacierVault('AmazonSimpleStorageServiceGlacierVault', 'Amazon Simple Storage Service Glacier Vault', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Storage/AmazonSimpleStorageServiceGlacierVault')
 
 ' renders the element
-AmazonSimpleStorageServiceGlacierVault('AmazonSimpleStorageServiceGlacierVault', 'Amazon Simple Storage Service Glacier Vault', 'an optional tech label')
+AmazonSimpleStorageServiceGlacierVault('AmazonSimpleStorageServiceGlacierVault', 'Amazon Simple Storage Service Glacier Vault', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

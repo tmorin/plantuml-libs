@@ -11,8 +11,8 @@ PSe7KWDG3CHGhylgS_y30t5wekbln2K_c__uHD-DRrkiXzwjql5kGn9fzyCc990d9kucaYohNJkUDGSK
 GHMs9WgyTZ80GSS0QyjoS-lS2zMN7NZQD_vy8ty
 }
 
-!procedure AwsThinkBoxXMesh($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Compute/AwsThinkBoxXMesh', $name, $tech)
+!procedure AwsThinkBoxXMesh($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Compute/AwsThinkBoxXMesh', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsThinkBoxXMeshCard($id, $funcName="", $content="")

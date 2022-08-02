@@ -2,17 +2,17 @@
 
 sprite $AmazonElasticFileSystemFileSystemXs [10x10/16z] HSQ50G1130B1lJZz5_mk4m5-BZEbQIWowKGmr-Q2rGTKwB5ONBGOdWf_qsC7
 
-sprite $AmazonElasticFileSystemFileSystemSm [12x12/16z] LS650SH040EnELhR_HVy48x4Yq9B8JMAwYOOKKbNGb8S9FxojrfCpybuxMePSOXXi1i1SmZGJry
+sprite $AmazonElasticFileSystemFileSystemSm [12x12/16z] LS650S1000AnUmNs7xYk2JyA9GC99XKJZ9W9IaWc5ubTTesOcfjnlmmZBZ4KJYLWBW7gRGK
 
-sprite $AmazonElasticFileSystemFileSystemMd [16x16/16z] POZP5K9H4CAOdUc_ORdk-lAHGy25R093gKQo7KuSvP4QhKPr4jFgtVAZa1Bma28JdbeVqf_PyG28662_CFwa1z7ui2I-ZreryU6qrQURqlBDg7-v0G
+sprite $AmazonElasticFileSystemFileSystemMd [16x16/16z] NSS92iGm3C109Rx__-6rzseR0OA1C_K4ordqAFNOfHbhrcQtCLz9UBlAreoU0cjzjhHtfNpfyWb40keM-U2MnBcgJF3BMktaQenUzd7Pl_RH2m
 
 sprite $AmazonElasticFileSystemFileSystemLg [20x20/16z] {
-ROq7ZiKm20KV7Uv_uGNsjoGUMPIH0PnHiuvcqb5a8gIg6DpHDYO1ON2V9qcUGFLFjtdMBiZ6SRl-xnk39iu_HCP6sqj6k92P2YmKBn9KuUkAtW14Qcsk11ai
-mt-G6dUzC_ywNfo7j4k-VYphwDUFw_BYU9rSFvPjlA8uy0S
+ROv50W0n20C3HV__uKtNRGv0fef_H9LLLLX5PiNeReMo-bgBBYa24P12KBG0GUTmkeGVZljZhRdMwP2LQtLMTnSyg2exFfCx1NJ6wbeE015JcYSf2g-C6wFf
+Nk_CVQmF5pde2W-wbJMU6rVtshWwZPTRwnF13mi
 }
 
-!procedure AmazonElasticFileSystemFileSystem($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AmazonElasticFileSystemFileSystem', $name, $tech)
+!procedure AmazonElasticFileSystemFileSystem($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AmazonElasticFileSystemFileSystem', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonElasticFileSystemFileSystemCard($id, $funcName="", $content="")

@@ -11,8 +11,8 @@ RSv7WaKX24JHbXQeqlslzmN2ptTu3C08dT_n1_87ihF_Q5wusYGkOJfyDGhTpQ0EhCQHRoKjKNAGbgqo
 CkwhD8_cgmsxKlrZMcgy9P_MbRK-yGG
 }
 
-!procedure AwsConsoleMobileApplication($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/AppIntegration/AwsConsoleMobileApplication', $name, $tech)
+!procedure AwsConsoleMobileApplication($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/AppIntegration/AwsConsoleMobileApplication', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsConsoleMobileApplicationCard($id, $funcName="", $content="")

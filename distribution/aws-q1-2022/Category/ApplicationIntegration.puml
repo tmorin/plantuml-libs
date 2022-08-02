@@ -11,8 +11,8 @@ RSp70KGX201HCupst-yYkZ_FyH7agrmlbLcKXgShiPBR5RUbSAPkdO0b-5fLjpujP1oRwc4LwshTBA8X
 J1jk2eU96yWosJPKZjXczHsddUYMtlq
 }
 
-!procedure ApplicationIntegration($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Category/ApplicationIntegration', $name, $tech)
+!procedure ApplicationIntegration($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Category/ApplicationIntegration', $name, $tech, $desc)
 !endprocedure
 
 !procedure ApplicationIntegrationCard($id, $funcName="", $content="")

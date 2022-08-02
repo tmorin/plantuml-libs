@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Category/Analytics')
 
 ' renders the element
-Analytics('Analytics', 'Analytics', 'an optional tech label')
+Analytics('Analytics', 'Analytics', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Category/Analytics')
 
 ' renders the element
-Analytics('Analytics', 'Analytics', 'an optional tech label')
+Analytics('Analytics', 'Analytics', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

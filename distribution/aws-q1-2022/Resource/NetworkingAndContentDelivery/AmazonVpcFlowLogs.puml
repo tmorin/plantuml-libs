@@ -2,20 +2,17 @@
 
 sprite $AmazonVpcFlowLogsXs [10x10/16z] JOo30G0n302lYFUVzurUJ5RgCPeVa6TL1us0Enj-93Vzx9bPeqvf1ypxmUF3UnsT7G
 
-sprite $AmazonVpcFlowLogsSm [12x12/16z] LSU5SGGm5CN0DVwCN__rvfXsIFAhPVKAM0tiHclwLHJ1d3EKHTjxPxReUJdAOxl8inbiVrTnq0eSe78oS04
+sprite $AmazonVpcFlowLogsSm [12x12/16z] NSR70S8m00GmfRZU_ljYEaGlkSYvrRWht9tSRKjKWljfpjLQQmwnvMsgxFSH-VpWr9UOKE7UkvQP0pS
 
-sprite $AmazonVpcFlowLogsMd [16x16/16z] {
-RSh5OGKm3C1G6KBE_lC6sy_lAl6BzHuzX4kwikN69e4VAi7I8UbMaGAcu7sn2kraF2rI0IC0OLE2HaX_ihX_NgHweX20irKmGJ9uNRHoOXDQFKZ64iALCaTf
-B1R6FsjHX6q2
-}
+sprite $AmazonVpcFlowLogsMd [16x16/16z] PSp5WGGm30GmXHEx_teFba4lu-1RoumCTrd0E40e5mGauz9l5gtGyq_T71BzduqcK40LZf1FBIJw_5Ds7vP01vjQ6FJzfsm2XxClz081BZ70Eb2Zk6idLW6_
 
 sprite $AmazonVpcFlowLogsLg [20x20/16z] {
-TSs5TG0n30DG6OBQVzy-XSh_C4Ryh_J9sU9hX0aPD1opuXhbX0pz06QknWhGbsR0L8nw6gKQ40CekUEYcFuxljPveCVkTooc7L50D7xZTTSr3qbpQa5JZDba
-xp3jLgpAZjt75iLgQja0s9Tfi0b9uZ5YondOwiGpsCEJJ7mLfQPX-m
+TSy5WaCX34NHcn3qxN-_yx6njWTtmcUf3Org_CWAfYwk4LmzdocZ7NSz1yYMR31uQ9QgoGsiGuezFxdjVkFtFaiqs-UTQwJaYAe_tFU-YXqYEvM7eaxt3Ukp
+DP_st2sspBaIF3geBUF6GOWVjn_3sCg0gwib3oduRJxCyGK
 }
 
-!procedure AmazonVpcFlowLogs($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/NetworkingAndContentDelivery/AmazonVpcFlowLogs', $name, $tech)
+!procedure AmazonVpcFlowLogs($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/NetworkingAndContentDelivery/AmazonVpcFlowLogs', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonVpcFlowLogsCard($id, $funcName="", $content="")

@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/GroupIcons/AwsStepFunction')
 
 ' renders the element
-AwsStepFunction('AwsStepFunction', 'Aws Step Function', 'an optional tech label')
+AwsStepFunction('AwsStepFunction', 'Aws Step Function', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/GroupIcons/AwsStepFunction')
 
 ' renders the element
-AwsStepFunction('AwsStepFunction', 'Aws Step Function', 'an optional tech label')
+AwsStepFunction('AwsStepFunction', 'Aws Step Function', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

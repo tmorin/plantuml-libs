@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/SecurityIdentityCompliance/AwsShield')
 
 ' renders the element
-AwsShield('AwsShield', 'Aws Shield', 'an optional tech label')
+AwsShield('AwsShield', 'Aws Shield', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/SecurityIdentityCompliance/AwsShield')
 
 ' renders the element
-AwsShield('AwsShield', 'Aws Shield', 'an optional tech label')
+AwsShield('AwsShield', 'Aws Shield', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

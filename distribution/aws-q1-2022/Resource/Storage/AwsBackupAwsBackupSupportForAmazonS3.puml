@@ -2,20 +2,17 @@
 
 sprite $AwsBackupAwsBackupSupportForAmazonS3Xs [10x10/16z] Oq02d404PN2oCN10EAmG4OGYC1igmy4Auc2eG30vs3bP6G
 
-sprite $AwsBackupAwsBackupSupportForAmazonS3Sm [12x12/16z] LSh50GH040B1McVo3_XS-M3jJprzrYisOulTYC0ZTQcprpdPbW2wik65JG4mpnbOe7SuO880kwecLm
+sprite $AwsBackupAwsBackupSupportForAmazonS3Sm [12x12/16z] LOo50S0m3CFK1Vt_mMEgmiXC3nClIU_6xlkPCsYLcLKdzlONHFxVl1EmAZjNFkhqVhyyIKbxOmC
 
-sprite $AwsBackupAwsBackupSupportForAmazonS3Md [16x16/16z] {
-ROw53KH120K7X_uRlf1RedzMySS7tJt6OGaWyqn9Y2aekXHwz-90o1fJpg8vVninSrSbrw0v2an8ZeqC8VBiOPFQTVBobx3WPYxrFc9NziBoybSeaiCXwhP1
-VW
-}
+sprite $AwsBackupAwsBackupSupportForAmazonS3Md [16x16/16z] PS6v0KCX500Wr7Vklt2gNmNuDpFxV5x2MO0ajsdJXs5081YsBpYv38iNSGcMyMdUKJw3THt0Gi-r1Hh8aq00BS1d0HUGVI2Npuq7VW
 
 sprite $AwsBackupAwsBackupSupportForAmazonS3Lg [20x20/16z] {
-TOy50iGW40DXDVd_XwyuPscnMI__v22ytaGfpruP5ygsYnPxe0p6viDuNj0IPClL7YkavnXlUjaAzj022v00YD3bLuxQe_ML5weOEUFkrblXQBwocFLv0kA5
-M7EkIPXOe-LLY-jwCVrcMxaljikUCPr49iY9fgf87RSN
+TO-55GGn24I3p_JVy5tihKVXu-rh6OYu4ch_c2TK_HLf_eSo6Vjb_dqXBSdkrfKLCdDCdQS2oHaAIP00Y9Jjr_QQIW-h4zfEUKBIdSAQoS5qo0cDHYmMoxrO
+sAFLgHQtU69sPcVX75kw9J_6319L8AEzhny
 }
 
-!procedure AwsBackupAwsBackupSupportForAmazonS3($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AwsBackupAwsBackupSupportForAmazonS3', $name, $tech)
+!procedure AwsBackupAwsBackupSupportForAmazonS3($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AwsBackupAwsBackupSupportForAmazonS3', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsBackupAwsBackupSupportForAmazonS3Card($id, $funcName="", $content="")

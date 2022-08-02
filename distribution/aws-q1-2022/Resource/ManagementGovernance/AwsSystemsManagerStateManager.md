@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/ManagementGovernance/AwsSystemsManagerStateManager')
 
 ' renders the element
-AwsSystemsManagerStateManager('AwsSystemsManagerStateManager', 'Aws Systems Manager State Manager', 'an optional tech label')
+AwsSystemsManagerStateManager('AwsSystemsManagerStateManager', 'Aws Systems Manager State Manager', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/ManagementGovernance/AwsSystemsManagerStateManager')
 
 ' renders the element
-AwsSystemsManagerStateManager('AwsSystemsManagerStateManager', 'Aws Systems Manager State Manager', 'an optional tech label')
+AwsSystemsManagerStateManager('AwsSystemsManagerStateManager', 'Aws Systems Manager State Manager', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,20 +2,17 @@
 
 sprite $AmazonRedshiftDenseComputeNodeXs [10x10/16z] LOk30G1130Jd4FTVxvjn5loZQFVbpOyZ2HX7bPR7JmMjX75QYo6Svu3p6WrM
 
-sprite $AmazonRedshiftDenseComputeNodeSm [12x12/16z] POp50KC1349Vg96m_xprzXj-WWEYB9luErtHBQ6xq-0mr6X8dPrGOr4GU1Lqx5kGT3jJ6eONvFZio_zVV949y
+sprite $AmazonRedshiftDenseComputeNodeSm [12x12/16z] POo50GG12CFQrqBst_VSWwiUO8vSP4qp5dzGLL5ZYLhkqM47nZoI9JI5aIBv8jk_prZsA3CXdxps_zOApUW7
 
-sprite $AmazonRedshiftDenseComputeNodeMd [16x16/16z] {
-TSwr0GGm0CD0XHrx_tcV6THT9_uKUxqP_ERUbV9acOsLY7ggfKAAmRXUAefrCMEuq66iEIgcQq410c0sOv6EbMpYIx3ZnyDkO5JApKn5esUqrr-z_xyIxJq0
-ZW
-}
+sprite $AmazonRedshiftDenseComputeNodeMd [16x16/16z] TSwr0GHG3CDGvMDYxp_lCOEwrua_MTfl1hqv8lr2LcVRIPng3Z028G28jFBgEHKCc7lDXcYv8G03Y6HCF53QXNK9odeyL838Xrdf7CCjNdyJUF4hoQe9S0G
 
 sprite $AmazonRedshiftDenseComputeNodeLg [20x20/16z] {
-VT25WKKX34JH6m9XOFglT-MxleExS6ZRveMXuaEVywahBErOugxlw6vCsvspsi3g27BWVMRezZxt4GcTigjPqlhlAyfG3PYhMkFKfzlTp3clcKEK4Zmj9UQi
-GlOudrlpdpKXrlIfxy891cMEMnzBowAxHZp_GVhzNyGpPyxWMH_NtNy1
+VSvLeaGX30JH2a4QUl_hVJ8-r-hp80cNBTjRCsGScCl6f1LJlAkBT33irzs-W5aHPC7hdY7iTJSYeP9sBvOq_wtJVJk6CNi4DzDhDmCt6wM9L827fS3Sov3T
+xdFx-CyQm1o-sIC769JPNiRKjAYkRm93IGCR4nlB7B6nyXUtVW4
 }
 
-!procedure AmazonRedshiftDenseComputeNode($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Analytics/AmazonRedshiftDenseComputeNode', $name, $tech)
+!procedure AmazonRedshiftDenseComputeNode($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Analytics/AmazonRedshiftDenseComputeNode', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonRedshiftDenseComputeNodeCard($id, $funcName="", $content="")

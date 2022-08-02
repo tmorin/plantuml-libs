@@ -14,8 +14,8 @@ PSs70SCm24HHgWHu_trpCIZrkp-h98hJxfxsrdyR7DjkgkOREEQqUgJIZhQmztmEOE6BoM_RIh3OLR2C
 CSaOgrM3X6lCgd7ikl0jDTYxtHR4vgu4QeFsi6ePExrjz8qF
 }
 
-!procedure AmazonSimpleStorageService($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Storage/AmazonSimpleStorageService', $name, $tech)
+!procedure AmazonSimpleStorageService($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Storage/AmazonSimpleStorageService', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonSimpleStorageServiceCard($id, $funcName="", $content="")

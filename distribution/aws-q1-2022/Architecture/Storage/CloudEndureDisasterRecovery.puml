@@ -11,8 +11,8 @@ RSt50KGn20JG18Vjlz-DmFSvFcHyn2gwC-YYNsQdNVHYqh6mhAaRIc5CWdKD31jZ8lf2iROm1Z9L3q0Q
 CChH34RRi8eAL_llbyRWbSCqBdPeV5cSzjhy0m
 }
 
-!procedure CloudEndureDisasterRecovery($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Storage/CloudEndureDisasterRecovery', $name, $tech)
+!procedure CloudEndureDisasterRecovery($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Storage/CloudEndureDisasterRecovery', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudEndureDisasterRecoveryCard($id, $funcName="", $content="")

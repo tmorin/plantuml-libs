@@ -2,17 +2,17 @@
 
 sprite $AwsRoboMakerSimulationXs [10x10/16z] Oy06M1WukC40BiBD0EI0A4u8bmF8P0Gos1ZOOR9iR6mi35W1
 
-sprite $AwsRoboMakerSimulationSm [12x12/16z] TSl50G0n30D1XTTn__KUCyp7AFt9oSj6uDe5RNrqcVcyiTxNFP1j_K6bjfghSdOMCQ_P3JWRNOm
+sprite $AwsRoboMakerSimulationSm [12x12/16z] TSlL0K1H209GkAco_xolEywF2VuKgcvW9ko8hQVWFlUqY7LlPiNN7qCjlUM6JDc2QSrkp6GRN8m
 
-sprite $AwsRoboMakerSimulationMd [16x16/16z] XSrN0aKn14NHZPi4P_xZVRtNzQNZdtgIz49vpr6cuAv1zyHHX03MO9H3cmagocTgNkRJKdHXe3bLm8H9dFi5KLZv2DGjieuSV_a7X9diZeZmkEF57W
+sprite $AwsRoboMakerSimulationMd [16x16/16z] XOlL0KCn30ClR4lxprlkWwzSq09sv8r02yTbTeIv8F0vL5phPrwTdeUVBPdXyPk3C4eAU0mdCD-xVVptN0Eor8Ob4_ccK7xz2-qwxta2
 
 sprite $AwsRoboMakerSimulationLg [20x20/16z] {
-fP250GGn20GXsM3RVx_Fk_lSnN2GVs14C2w14DfoNc1xkrlVtJhZl9H1chcgtyrUDfYIYRClifry6157sQHq9crBqNvd9aVeFbwSyzhS9RJ-UCoh2S20HIcU
-yjeEtDTyn1x85icwcS67R
+fP250GCm20I1wEVstxVKtIyksDi_CEVSZZDkrEqz5yJ-twtjRfmPNDxLxUHbcR75jWGoASwsLMaqebFdyQvWsqWehRUBHCojROvvZjjz5x1dunHNxjxT0rkS
+ulOTzJRdC_t1NG3hHeCFsG
 }
 
-!procedure AwsRoboMakerSimulation($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Robotics/AwsRoboMakerSimulation', $name, $tech)
+!procedure AwsRoboMakerSimulation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Robotics/AwsRoboMakerSimulation', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsRoboMakerSimulationCard($id, $funcName="", $content="")

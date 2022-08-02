@@ -11,8 +11,8 @@ RS_10G0G243HAgZQVrv0NFpZ0zALtEf8Jmy_Dj0qUcZsBBADjNAI_6mY5sOM2bk8X8Y9hmd0t3d_8037
 fgWObf6Zj6ncaQxyW_v1_s07
 }
 
-!procedure AwsDataPipeline($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Analytics/AwsDataPipeline', $name, $tech)
+!procedure AwsDataPipeline($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Analytics/AwsDataPipeline', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsDataPipelineCard($id, $funcName="", $content="")

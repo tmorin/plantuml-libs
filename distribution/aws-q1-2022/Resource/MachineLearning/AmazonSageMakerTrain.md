@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/MachineLearning/AmazonSageMakerTrain')
 
 ' renders the element
-AmazonSageMakerTrain('AmazonSageMakerTrain', 'Amazon Sage Maker Train', 'an optional tech label')
+AmazonSageMakerTrain('AmazonSageMakerTrain', 'Amazon Sage Maker Train', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/MachineLearning/AmazonSageMakerTrain')
 
 ' renders the element
-AmazonSageMakerTrain('AmazonSageMakerTrain', 'Amazon Sage Maker Train', 'an optional tech label')
+AmazonSageMakerTrain('AmazonSageMakerTrain', 'Amazon Sage Maker Train', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

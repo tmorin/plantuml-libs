@@ -14,8 +14,8 @@ RSn50e1G201HVX5w__iws3NBH_YURMaMySNumVZ1oq3HHEnIiJOIuqBfhaMn2P1EvjQy81Wek7BLlVXg
 B35RRPut0vzsQpDqAxOkkoD4Jrm
 }
 
-!procedure AwsTransferFamily($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/MigrationTransfer/AwsTransferFamily', $name, $tech)
+!procedure AwsTransferFamily($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/MigrationTransfer/AwsTransferFamily', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsTransferFamilyCard($id, $funcName="", $content="")

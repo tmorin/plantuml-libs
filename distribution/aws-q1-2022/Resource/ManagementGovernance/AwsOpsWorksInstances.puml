@@ -2,17 +2,14 @@
 
 sprite $AwsOpsWorksInstancesXs [10x10/16z] JKc30G113AkL_UTzuugGrk4WW6HH_qHm1n2vj0VWcbyjhGYd068x
 
-sprite $AwsOpsWorksInstancesSm [12x12/16z] NSg53G0n581GQb_td_TSI_AYyArLtHYr1WNPA12e-YL_VoswCKhv_wQ-YVd_FFy_8cyh
+sprite $AwsOpsWorksInstancesSm [12x12/16z] LSg52G014CJ0FRV-wttNGD31Do47KuAeGH00iTrmSOZKzlmy7oQt_pwZjXiHV_-Ql--U-nK
 
-sprite $AwsOpsWorksInstancesMd [16x16/16z] XOv50W9H34DJeqF-_UzBYlkyHLs2TnQvG94r5WGEOomBm6U-kezWTsV94EzGO9E9bDbsxz6intYMcH4f46DCnb42AMCk4-_x-_bDZuTCdm
+sprite $AwsOpsWorksInstancesMd [16x16/16z] bOu53WKX50CB_LhkVzyT8kiwoNFLcfOq1VpkMf6CGhzHsxZP7yNmHg8r0VrGrQZVUluoDgXs9LJH6-Ik2ifFzqt_5AE-0m
 
-sprite $AwsOpsWorksInstancesLg [20x20/16z] {
-hP053i9W58FxMrz6xtzVkeue3claotF18rraeIk8iI3xsGODnUZyt5TLMnkReHX5F58V5Z22co6IUwsX6CN_Tjc54Hp6Uly3dV23tdkrKOPYJ6BHSggr3gDV
-0G
-}
+sprite $AwsOpsWorksInstancesLg [20x20/16z] hP053WGm408Njix__tlat9tAP8XKubwMd82ss0f3xXDeXhR23xhCRC0qj9NEk1V0sUCWQgrDO1hQIl_nBkTls-vy_GVwmn-Gx40tj9L2rqviSP0D
 
-!procedure AwsOpsWorksInstances($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/ManagementGovernance/AwsOpsWorksInstances', $name, $tech)
+!procedure AwsOpsWorksInstances($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/ManagementGovernance/AwsOpsWorksInstances', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsOpsWorksInstancesCard($id, $funcName="", $content="")

@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/NetworkingContentDelivery/AwsSiteToSiteVpn')
 
 ' renders the element
-AwsSiteToSiteVpn('AwsSiteToSiteVpn', 'Aws Site To Site Vpn', 'an optional tech label')
+AwsSiteToSiteVpn('AwsSiteToSiteVpn', 'Aws Site To Site Vpn', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/NetworkingContentDelivery/AwsSiteToSiteVpn')
 
 ' renders the element
-AwsSiteToSiteVpn('AwsSiteToSiteVpn', 'Aws Site To Site Vpn', 'an optional tech label')
+AwsSiteToSiteVpn('AwsSiteToSiteVpn', 'Aws Site To Site Vpn', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

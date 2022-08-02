@@ -2,17 +2,17 @@
 
 sprite $AmazonEc2MacInstanceXs [10x10/16z] Oq0576n876PK5XixXCK1fDZP69Wv6DYWicp8wfZ1W1N9F
 
-sprite $AmazonEc2MacInstanceSm [12x12/16z] LOs70SGm20FFDWZjl_1_UaBl4bqqyKG0rYKWSOh5lEkQe1Wrrnm2AvJbnEutTzrne5o7HUFz0m
+sprite $AmazonEc2MacInstanceSm [12x12/16z] NOs50S0m408l1ko_S5tphi1VL0W88Be494w9A7Vj0kgure8WwcfE8u7dXhUUS71yMF_nhW
 
-sprite $AmazonEc2MacInstanceMd [16x16/16z] RO-50GCm40AZmFuJzxLEz20w_WY3GzQGk6X5qGUUrQ8Xp6q1iFoDhP5hppeAZFpWocPSxafsu3RUbakU-modShwVpz_pV-ydMlhzJpAC4Vm
+sprite $AmazonEc2MacInstanceMd [16x16/16z] RK-50G11298BOV-9NxxhqWRYPsKmL3TtdxlFpUqu5brCN8tfbiktHw9lbclzO-HKMOGz2GEzVEUbUbq_Puyy-gzv_Cx_uZEFfNyz7gnz_08
 
 sprite $AmazonEc2MacInstanceLg [20x20/16z] {
-bL25OGH02CkLsFuBzztzN808NZL3GE45ltbJckQqpFujk6f307Pltc8-ZPDkuwpPnz68h-BsRrgqXkRQlxK5KJXoW6c5VToU9JN-UybbhJikwoSTSzN4OtXe
-iWmPllEK643WmZvi0m
+bP250GCm20Jl8V3ilt3TlHSF3kze2eQ6_l1N7e_FczXZRaW1tNFtvzPBlQfxlQwZtceSLxtZNsb5n6gH0SmCYo5SRSYPEEe1uLNPl-SI_zMHDvJO8rcj63bb
+VUgf40G20Mm1
 }
 
-!procedure AmazonEc2MacInstance($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Compute/AmazonEc2MacInstance', $name, $tech)
+!procedure AmazonEc2MacInstance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Compute/AmazonEc2MacInstance', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonEc2MacInstanceCard($id, $funcName="", $content="")

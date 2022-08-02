@@ -2,14 +2,14 @@
 
 sprite $TraditionalServerXs [10x10/16z] Oo08c9YOe2mE3Wu6aW0Z400r0m
 
-sprite $TraditionalServerSm [12x12/16z] Oq05N4mWm0PXSm01DZOF431ZOOD9yjWyt230pi
+sprite $TraditionalServerSm [12x12/16z] Oq05N8mWm0PXim810vJD0GGmSHuWOCB21fFaiNcuGO2TWG4
 
-sprite $TraditionalServerMd [16x16/16z] Oy02UBWXW1tAvs9c1G46DXWVGY7uh1mWWCJd107SwfdPG01TdcvyRXu8O0Qo0G
+sprite $TraditionalServerMd [16x16/16z] Oy02UBWXW1tAvs9Y1G46DXWVGY7up1mWWCJd107SwfdOG01TdcvyRXu8O0Ao0G
 
-sprite $TraditionalServerLg [20x20/16z] Oy05UE205Ix61MUn8SIWAZc0OlZLSO01AueO4nWmeeYnWG4B5hriA6BCOC24pTx1AiO81Kni25auO0Hn0G
+sprite $TraditionalServerLg [20x20/16z] Oy05UE206Ix61MUn8SIWAZc0OlZLSO01AueO4nWmeeWnWm4J5hriA6AC483Dti4gnWW5J0Wn9cOO07C1
 
-!procedure TraditionalServer($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/GeneralIcons/TraditionalServer', $name, $tech)
+!procedure TraditionalServer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/GeneralIcons/TraditionalServer', $name, $tech, $desc)
 !endprocedure
 
 !procedure TraditionalServerCard($id, $funcName="", $content="")

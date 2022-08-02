@@ -14,8 +14,8 @@ RSY50GGn24HHufdFzb_lnSuNvm5wHZ_13NA3FB4yyMcKe92Uk2Ns-SQo4MYcmJQWMvtea1dKwLbIqa3t
 gOMKwp77eWCr1UMdkRVO4TPQ2qYN7xK2nIgWwudkFEFwns7_-
 }
 
-!procedure AwsSupport($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/CustomerEnablement/AwsSupport', $name, $tech)
+!procedure AwsSupport($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/CustomerEnablement/AwsSupport', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsSupportCard($id, $funcName="", $content="")

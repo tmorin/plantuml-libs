@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Containers/AmazonElasticContainerRegistryImage')
 
 ' renders the element
-AmazonElasticContainerRegistryImage('AmazonElasticContainerRegistryImage', 'Amazon Elastic Container Registry Image', 'an optional tech label')
+AmazonElasticContainerRegistryImage('AmazonElasticContainerRegistryImage', 'Amazon Elastic Container Registry Image', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Containers/AmazonElasticContainerRegistryImage')
 
 ' renders the element
-AmazonElasticContainerRegistryImage('AmazonElasticContainerRegistryImage', 'Amazon Elastic Container Registry Image', 'an optional tech label')
+AmazonElasticContainerRegistryImage('AmazonElasticContainerRegistryImage', 'Amazon Elastic Container Registry Image', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,14 +2,14 @@
 
 sprite $AwsIoTFireTvXs [10x10/16z] Oy06E640Bi84Ot20M8nWAIQ4BAeE28K
 
-sprite $AwsIoTFireTvSm [12x12/16z] Oy05c120WH4koe7APeQgPGQBit5oSZAYgs5XXW4EY10dYXterW8
+sprite $AwsIoTFireTvSm [12x12/16z] Oo06CC9P7AXiPWYBYHaipiR9oSc8heQ56GOu84ASUAq2
 
-sprite $AwsIoTFireTvMd [16x16/16z] bSl50S0020F0uB3_m7NttWj9y5ViA7B_VThDXvrYN2d67P3gv5j_t6idC2bicRiJlcW1
+sprite $AwsIoTFireTvMd [16x16/16z] Oo0LiAC05WOEL5byV6OMC9-H7IR91fLdvWG23dpw4NnE5C0Ea-14KSRAniR6I9Ht
 
-sprite $AwsIoTFireTvLg [20x20/16z] hSsr0S1G20JGms7_WUEU9l9VXnvQgnj3uOBVz1GxJPhtE4qm4hVORYbhfAypBiIGTINOt9_K2F_r
+sprite $AwsIoTFireTvLg [20x20/16z] hSsr0SDG54FHgy_QV-34Z8tfT0_5rtmYp448Dtg9LMhJdbeMFPLSbrirzzBjZ8COQ3uI2tCWztZl3m
 
-!procedure AwsIoTFireTv($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTFireTv', $name, $tech)
+!procedure AwsIoTFireTv($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTFireTv', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTFireTvCard($id, $funcName="", $content="")

@@ -2,17 +2,17 @@
 
 sprite $AwsIdentityAccessManagementEncryptedDataXs [10x10/16z] NSc34G0m00J1YzL_lR5tzE0Z_KwCc6JBZI2Dr0xNayFiv6PAbMr9TPO2
 
-sprite $AwsIdentityAccessManagementEncryptedDataSm [12x12/16z] LSUr0G114810JjRxh_TTYGP-pRwNXmT7URafLNbwK52dUNoCtnR5RcCVSvk-TxZop5W1
+sprite $AwsIdentityAccessManagementEncryptedDataSm [12x12/16z] LSUr0G114810JjRxh_TTYGP-pRRLyt3ZA6ztgl9qew1Ey_WOlpqLkurzp6tETbUU6Ii
 
-sprite $AwsIdentityAccessManagementEncryptedDataMd [16x16/16z] TSU35G11442nlnprN-_Po6DuwRwAxSOgFDsFf-Er4vFzKbC0kdzA_dyfpFnoZ_ljSUHnBa-wwFjtwvCT14O
+sprite $AwsIdentityAccessManagementEncryptedDataMd [16x16/16z] TSU35G11442nlnprN-_Po6DuwRwAxSOg_77yVCh4P7zF1A3xf-J_fyBCZoSyxhV7aSUv75tq_OVbs45W1
 
 sprite $AwsIdentityAccessManagementEncryptedDataLg [20x20/16z] {
-RSy54i0m24JH6BjXkFzvwr7wnvZNni9_QYrsgsr8Lhs1z1POPnF4Q5Sop2JPzs-pSer9LqEy_rsC2XB6D2n_fsLEnlirqPiKPr2_DjEPEoFP5uPDVQPv2lBk
-8dCNd
+RSs54KKn20NH1Q9p-w_tQtY-uoS1U6ugwsI3bMlSpNk_6tqiIp1zyjrKNUifpHlOl9W1Ebcq5b4KjfkjQz4Frc4Ax6hLRrOcDxD-DxYOLcstlRGPXzhVp8y1
+Rm
 }
 
-!procedure AwsIdentityAccessManagementEncryptedData($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessManagementEncryptedData', $name, $tech)
+!procedure AwsIdentityAccessManagementEncryptedData($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessManagementEncryptedData', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIdentityAccessManagementEncryptedDataCard($id, $funcName="", $content="")

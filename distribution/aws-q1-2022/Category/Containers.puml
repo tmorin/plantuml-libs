@@ -11,8 +11,8 @@ ZSo70GCX34DHx4WM-qySqzDp_ogFeayvLhUP2ShYH7gthhxmc3Dcsm0BFbkH8cWFvbXdObcnKUI3Pgmo
 qRJPksNR_Bqx
 }
 
-!procedure Containers($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Category/Containers', $name, $tech)
+!procedure Containers($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Category/Containers', $name, $tech, $desc)
 !endprocedure
 
 !procedure ContainersCard($id, $funcName="", $content="")

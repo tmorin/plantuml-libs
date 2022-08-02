@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/SecurityIdentityCompliance/AwsSecurityHub')
 
 ' renders the element
-AwsSecurityHub('AwsSecurityHub', 'Aws Security Hub', 'an optional tech label')
+AwsSecurityHub('AwsSecurityHub', 'Aws Security Hub', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/SecurityIdentityCompliance/AwsSecurityHub')
 
 ' renders the element
-AwsSecurityHub('AwsSecurityHub', 'Aws Security Hub', 'an optional tech label')
+AwsSecurityHub('AwsSecurityHub', 'Aws Security Hub', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

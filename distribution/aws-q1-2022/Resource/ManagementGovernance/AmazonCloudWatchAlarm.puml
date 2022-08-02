@@ -2,14 +2,14 @@
 
 sprite $AmazonCloudWatchAlarmXs [10x10/16z] Oq07N0oSS3OtbERWXejmCm55kS5oO1Ot0nik5Xm
 
-sprite $AmazonCloudWatchAlarmSm [12x12/16z] VSP50G0n402nAI_urtlCqBp2Xvpbk8BlDyZiKhnqUY4iX_KLxxzKf7Wg1Umq0W
+sprite $AmazonCloudWatchAlarmSm [12x12/16z] VSR50O0m542n1vLl-y-BkpIdy24dEMuGR1mokuv3we6odUsLQ3zbD4LA2VGq0W
 
-sprite $AmazonCloudWatchAlarmMd [16x16/16z] dSU30KH1303HMKRzrtl6jsQHFDQh4NN09203vmma_jdp3ahkQUWm2q1LyzklYv3QrDtCHuP-sI8vYmXDf4ECyZi
+sprite $AmazonCloudWatchAlarmMd [16x16/16z] dOq50W0X20HjOFV_xxtkFaVfSlSaCctZClmLFyYAzNyBi0jfniw8o1GFt-LXopvEAjZ5_UcwUBZdUvL5IfVQWHO
 
-sprite $AmazonCloudWatchAlarmLg [20x20/16z] jSZL0SKW50JHmM6t_tgVIpnVEUWTJcMfhXAKmSnhD3FQQAL2N3IwBHOA91PiAm9wwDy69RxVuCtcXxfia2viOqYlkxxkoAQwaku
+sprite $AmazonCloudWatchAlarmLg [20x20/16z] jSZ50SKm30JHKTYx_TVx6OsdFAE6eKdQiXI2DV7dCPe_ghHbWobh7BR8J11aR6i2T7Ey6qpJyyNLvfijRn0djfIanxqzxecghH1N
 
-!procedure AmazonCloudWatchAlarm($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/ManagementGovernance/AmazonCloudWatchAlarm', $name, $tech)
+!procedure AmazonCloudWatchAlarm($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/ManagementGovernance/AmazonCloudWatchAlarm', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonCloudWatchAlarmCard($id, $funcName="", $content="")

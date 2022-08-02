@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/InternetOfThings/AwsIoTExpressLink')
 
 ' renders the element
-AwsIoTExpressLink('AwsIoTExpressLink', 'Aws Io T Express Link', 'an optional tech label')
+AwsIoTExpressLink('AwsIoTExpressLink', 'Aws Io T Express Link', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/InternetOfThings/AwsIoTExpressLink')
 
 ' renders the element
-AwsIoTExpressLink('AwsIoTExpressLink', 'Aws Io T Express Link', 'an optional tech label')
+AwsIoTExpressLink('AwsIoTExpressLink', 'Aws Io T Express Link', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

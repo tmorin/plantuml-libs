@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Storage/AmazonElasticBlockStoreAmazonDataLifecycleManager')
 
 ' renders the element
-AmazonElasticBlockStoreAmazonDataLifecycleManager('AmazonElasticBlockStoreAmazonDataLifecycleManager', 'Amazon Elastic Block Store Amazon Data Lifecycle Manager', 'an optional tech label')
+AmazonElasticBlockStoreAmazonDataLifecycleManager('AmazonElasticBlockStoreAmazonDataLifecycleManager', 'Amazon Elastic Block Store Amazon Data Lifecycle Manager', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Storage/AmazonElasticBlockStoreAmazonDataLifecycleManager')
 
 ' renders the element
-AmazonElasticBlockStoreAmazonDataLifecycleManager('AmazonElasticBlockStoreAmazonDataLifecycleManager', 'Amazon Elastic Block Store Amazon Data Lifecycle Manager', 'an optional tech label')
+AmazonElasticBlockStoreAmazonDataLifecycleManager('AmazonElasticBlockStoreAmazonDataLifecycleManager', 'Amazon Elastic Block Store Amazon Data Lifecycle Manager', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

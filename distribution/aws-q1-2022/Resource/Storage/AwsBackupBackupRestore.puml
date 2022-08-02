@@ -2,20 +2,20 @@
 
 sprite $AwsBackupBackupRestoreXs [10x10/16z] JOU50S0m3CDKJFJ_mMEesQpmCV7T9gr1GW_XMbb4RJ2jj514jLf0uCbXjy0E
 
-sprite $AwsBackupBackupRestoreSm [12x12/16z] LKl50G102CAM_GU-ydMs1FuGkYJVcV9Mt6MOo0kuHnNF0PH8dyD0QAasI9vPtcqWMma2hifArV7VdtVLUuWNngQSlG4
+sprite $AwsBackupBackupRestoreSm [12x12/16z] NSYt0GD030GWFagt_y9kd2dn9skSW0ji67ZTsVjKXKFHx2bcpTcIQ6TrBqcBC4dTCTXWZ42102kTWGS
 
 sprite $AwsBackupBackupRestoreMd [16x16/16z] {
-ROrHbWGm10GB2TttF_3kZ9VFgGG0_28jMS7IuLpdpXgPHsXrmIDw--nXPYviWoK7q109U4O1Uw4HpfX0jWTX5743zUdX8iW2L5bp87etZAgg3KoorCsxhbw2
-BfQpcUk4HvokMEyV
+RKo74GGX4DhCqd_3FvmwyRcWHFk7u2xtaZ6w2GKJblPm8d9VLhycOG3w1ZJsp12VbhvSQMiCXoW9CPLKdHfOYtag7kO8-pm2sCmSxS8EFBnTbzLVc3ndVKho
+wPAUzmC
 }
 
 sprite $AwsBackupBackupRestoreLg [20x20/16z] {
-TSq5WWGm24FHNmYKtF_0AwpBlBg6ntJ7qycNidQyFh1wYWyZbk_XatE7tE63MMbV8dCFSpRJ6N98sc3ldkhAV9ZOUnuRmhUdaJ2QE6aeloABGQsMeIeYJOc2
-jXrGsRUC3p70vfTdxCtr0RzAAzfzDfmFgeYxip3hnpnShDENJsMNsZvyTpBZO_uC
+TSs5OSKm40DGwLZx3_p1KEvBp0Vud_TeYlYK2horSDGuhWaiQdpIVYU1JyBYKiFy1G1dnSaHualu3MHaXt0DLvn6Mirg2a487ACBCBt13GEMsRfBCnEIIA0a
+6M1UdO9ExzNVDADrjyURAwnKn0gwQBJ6cmdNvvuYjcfyI2cZ9E8RaZYU
 }
 
-!procedure AwsBackupBackupRestore($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AwsBackupBackupRestore', $name, $tech)
+!procedure AwsBackupBackupRestore($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AwsBackupBackupRestore', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsBackupBackupRestoreCard($id, $funcName="", $content="")

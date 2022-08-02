@@ -2,14 +2,14 @@
 
 sprite $GenericDatabaseXs [10x10/16z] Oq02t2n0WfKJIF02COYa4F2oix033G4
 
-sprite $GenericDatabaseSm [12x12/16z] fOZ50S0m30DL1btt7xSKViSMgptEUPnF_p5EryjpCITU_EMuzsQgh0aCe_G
+sprite $GenericDatabaseSm [12x12/16z] fOZ50S0m30CDPLtt7xSCoJkssEfZIizPLtoczU0IOa6XCpzxQwR8bY1minq
 
-sprite $GenericDatabaseMd [16x16/16z] nKn50W0X4B83-FztRJtjVSqXpSVoaZYEsr3kyVDrlDZ9pjT7YA1gJ1k_edzmV3XFR0hSGXxfy3O1DIwn0m
+sprite $GenericDatabaseMd [16x16/16z] nKwr0G0X34IZj_-wE5JVVznpuOCo01yITuhZGy9oVkVYpbCok3aqvPs7I__avUMqh5ZSSqONE9bfNTKE
 
-sprite $GenericDatabaseLg [20x20/16z] tKj50SLG37jKJltB_JW60yibN6x1wW1SQKa2OrAKzXSwjW_-pvBMQ1f68GF20p0gSxR1mpBokYGDVLB8a366H6u_TH1Hd_Pl
+sprite $GenericDatabaseLg [20x20/16z] tKl50SGm34jYjkNznptcQnUeFkAnY-K987szaW8_b7JSXVDuG_K-Qtb7Zs6D5K1b0R76C_l0mJBATpAn7WfTninM_VMPQwtvq6S
 
-!procedure GenericDatabase($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/GeneralIcons/GenericDatabase', $name, $tech)
+!procedure GenericDatabase($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/GeneralIcons/GenericDatabase', $name, $tech, $desc)
 !endprocedure
 
 !procedure GenericDatabaseCard($id, $funcName="", $content="")

@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/GameTech/AmazonGameLift')
 
 ' renders the element
-AmazonGameLift('AmazonGameLift', 'Amazon Game Lift', 'an optional tech label')
+AmazonGameLift('AmazonGameLift', 'Amazon Game Lift', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/GameTech/AmazonGameLift')
 
 ' renders the element
-AmazonGameLift('AmazonGameLift', 'Amazon Game Lift', 'an optional tech label')
+AmazonGameLift('AmazonGameLift', 'Amazon Game Lift', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

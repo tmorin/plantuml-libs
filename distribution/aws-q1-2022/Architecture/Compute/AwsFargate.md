@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Compute/AwsFargate')
 
 ' renders the element
-AwsFargate('AwsFargate', 'Aws Fargate', 'an optional tech label')
+AwsFargate('AwsFargate', 'Aws Fargate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Compute/AwsFargate')
 
 ' renders the element
-AwsFargate('AwsFargate', 'Aws Fargate', 'an optional tech label')
+AwsFargate('AwsFargate', 'Aws Fargate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

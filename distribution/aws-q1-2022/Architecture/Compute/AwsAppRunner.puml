@@ -11,8 +11,8 @@ RSm7biKW34FHH4OIi_yDZtq-Jd-fN8ehdJ7p4zNcBsi4AFcEOslR0MpCry1eGpsa1b8U9g5iNinjyteU
 HZQSbUtCjyzcrk_JkXF_Fl0V
 }
 
-!procedure AwsAppRunner($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Compute/AwsAppRunner', $name, $tech)
+!procedure AwsAppRunner($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Compute/AwsAppRunner', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsAppRunnerCard($id, $funcName="", $content="")

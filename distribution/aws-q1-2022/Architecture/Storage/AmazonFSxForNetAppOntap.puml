@@ -11,8 +11,8 @@ RSg54GDH3CJGZ_RArt-zuMH36duZ03tBUm3MVoORrdyc6s0iViygCeAziLRLXWu9oxPIkM4iy5T0m5IR
 S3VhFolRpta6
 }
 
-!procedure AmazonFSxForNetAppOntap($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Storage/AmazonFSxForNetAppOntap', $name, $tech)
+!procedure AmazonFSxForNetAppOntap($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Storage/AmazonFSxForNetAppOntap', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonFSxForNetAppOntapCard($id, $funcName="", $content="")

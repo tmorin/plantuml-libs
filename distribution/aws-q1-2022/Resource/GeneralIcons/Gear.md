@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/GeneralIcons/Gear')
 
 ' renders the element
-Gear('Gear', 'Gear', 'an optional tech label')
+Gear('Gear', 'Gear', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/GeneralIcons/Gear')
 
 ' renders the element
-Gear('Gear', 'Gear', 'an optional tech label')
+Gear('Gear', 'Gear', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

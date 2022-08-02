@@ -8,8 +8,8 @@ sprite $ArVrMd [16x16/16z] NSk73G0n3090VQfDzj_ttL9HFGJz3Ml88ahkMKpFGeoh48DxzaotM
 
 sprite $ArVrLg [20x20/16z] RSi74e0W34HHXVJS_xxEnXxz5k0DqRycFoAqgdXbUxWrO0rX3M7H4TQnB0P6gddQibujUjfZN6wBFmiTNni-onoM8NFEuSVY3iiuSWJJx0Zh26jusOsmyMq3
 
-!procedure ArVr($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Category/ArVr', $name, $tech)
+!procedure ArVr($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Category/ArVr', $name, $tech, $desc)
 !endprocedure
 
 !procedure ArVrCard($id, $funcName="", $content="")

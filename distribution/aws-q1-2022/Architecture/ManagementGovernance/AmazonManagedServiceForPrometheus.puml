@@ -11,8 +11,8 @@ RSv50aGX30DGl4su_tq72sC_orV5YYisWmV40-9YgKBAcXLraWj6NuXsa1CpqfX5I5L6r1A78bYI3OI5
 AKFlMs4ilyRKZDUE0df9fiYa5ry
 }
 
-!procedure AmazonManagedServiceForPrometheus($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/ManagementGovernance/AmazonManagedServiceForPrometheus', $name, $tech)
+!procedure AmazonManagedServiceForPrometheus($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/ManagementGovernance/AmazonManagedServiceForPrometheus', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonManagedServiceForPrometheusCard($id, $funcName="", $content="")

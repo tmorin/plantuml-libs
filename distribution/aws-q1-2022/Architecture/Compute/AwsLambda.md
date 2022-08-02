@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Compute/AwsLambda')
 
 ' renders the element
-AwsLambda('AwsLambda', 'Aws Lambda', 'an optional tech label')
+AwsLambda('AwsLambda', 'Aws Lambda', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Compute/AwsLambda')
 
 ' renders the element
-AwsLambda('AwsLambda', 'Aws Lambda', 'an optional tech label')
+AwsLambda('AwsLambda', 'Aws Lambda', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

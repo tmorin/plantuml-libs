@@ -14,8 +14,8 @@ RSm50WGX34DHj91o__jk2cJzZ_8GxAOQ4VuWVb5chRtGD-K1b2xqG2C1jTU37bY2k6accLkO6RcLQyD8
 6ir0NCjlg3oqJUBBqemASIrfBb66JBiRSEobMrucbKc53m
 }
 
-!procedure AwsSystemsManagerIncidentManager($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/ManagementGovernance/AwsSystemsManagerIncidentManager', $name, $tech)
+!procedure AwsSystemsManagerIncidentManager($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/ManagementGovernance/AwsSystemsManagerIncidentManager', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsSystemsManagerIncidentManagerCard($id, $funcName="", $content="")

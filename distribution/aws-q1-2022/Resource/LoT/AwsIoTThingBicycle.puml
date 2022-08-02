@@ -2,20 +2,20 @@
 
 sprite $AwsIoTThingBicycleXs [10x10/16z] Oq01h9oSd0neW1Cg1MHnWcYW02Sx8v0DeY5oK3P839jv
 
-sprite $AwsIoTThingBicycleSm [12x12/16z] LSt15SD02CHGiGzWfl-24zkSzgi0SIl2pMTo6IfPAaWw6114abq21SvnXdnaEeycgL53YYy1oH9WhRw-Vm
+sprite $AwsIoTThingBicycleSm [12x12/16z] LSr10iH014JHtq2v_u5dabZrOmV5BM6AJzaQI6CfmIXe461OfK0mrXD7ypHbH-ragy34Lxk_18nMNRb_
 
 sprite $AwsIoTThingBicycleMd [16x16/16z] {
-PSw5aGLG24FHY-H1-YzuvRkSqGmAtyJYwBx7aUKpexfM7nJ_rPUiljJ3KBVw6XZ9W7OkTPpuLhSPUoFjb9SusGTxbrK6FLLW1aPTzB2zWSwHkhx-eVKm_0l5
-XhCxk6g6ZIg0Nm
+RO-50GDH2CM2y_OVkEwzVCM10uf5U3x5APLwfk9kVU4twuTSURSBx65V0HCXm7SUTaSFkyH8QovTpa9ZZRJBNkq-68Y1yN1os5oexl2Cltv8Vp6VyqJo81aM
+3u0p
 }
 
 sprite $AwsIoTThingBicycleLg [20x20/16z] {
-TP250S0W30GFuliFN7VvL8yuVp94gSMkpEuiuwBKXGLNEM1sPsbzywkw-eai38XaVaf3bzYeIQ_OJkKUMnMpLrIpMaxAPh_kk6bDbDhzeYCuYUA7du4B2QSV
-FZ_Wakyz6oHlffuUwRMOjz_zGQTrRB5P8m
+TL055WKW368-nyRzB_mTlmkRiF0FYTYGookNxrpN2tgPAxo2ayjthZDkFkdL5s5kj1wk0jZEbWw-iW7PHwzgNAL8MT4QtzfWRXqMkliA212Depry2N0T3ayV
+A9MdWdtVRnlq3swnMKsvyC__6J5rkGmk
 }
 
-!procedure AwsIoTThingBicycle($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTThingBicycle', $name, $tech)
+!procedure AwsIoTThingBicycle($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTThingBicycle', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTThingBicycleCard($id, $funcName="", $content="")

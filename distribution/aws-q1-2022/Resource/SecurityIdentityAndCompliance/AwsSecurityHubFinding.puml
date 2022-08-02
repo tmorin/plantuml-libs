@@ -2,17 +2,17 @@
 
 sprite $AwsSecurityHubFindingXs [10x10/16z] PSR50O0000GWxBZzvxLRNdYAPeGOszHA4l0VZjNGeHTPcr8bI98gPW
 
-sprite $AwsSecurityHubFindingSm [12x12/16z] TSQr0GDH00KWlilRVz-qiQF2fv9n6nX7pJ22QzdQcRZOt8SlEDX2QARTe37xs1ishIiA5SoScbGl
+sprite $AwsSecurityHubFindingSm [12x12/16z] TSQt0SD050KWfCl_xR-lIsSgV4Yl1iOXGm_AibpdHc5HVxxWO0cXQLQ3nhZRsh2vcXSpHy83
 
-sprite $AwsSecurityHubFindingMd [16x16/16z] bSV5eGKW302m58VkF-ztboUvnL_Yv0u0FJj6DX2BdfbDR8ZI9obM6-7bICgTZuhFH_QPYDwGjahYMEIWCx2q9HUT5aZwZ0e7d5MKKraL415YJpm2
+sprite $AwsSecurityHubFindingMd [16x16/16z] bSV5OGH0400WrcNwhpUUS-M7ctQiOreKrAZ0e4L4PO7K1i7C-Uy8lFlaz2bg3oWLOIa4jabq6XLJdcBIA13KaGfii6UMTsOKHsaDV08
 
 sprite $AwsSecurityHubFindingLg [20x20/16z] {
-hSr50W8m34JHNqyozxylL73OCVLNutUoUNkL9fzTtA5wL6WzaKrzco25kaiLUZwcaM50rvF1ClpFrZbvM9U5fnVpkfQxip8jZGNPvwAYESmTiHj1LRbQVh8-
-mAJSe72CiJ-BXCEUGz8Cyj9LU4rk5U02
+hSe54WCW34JH3mG9U__xTaBgCjh57yllbENrLReyjlse-6vGBSgoD05RmnKmAccQm8Ggwjr8m_zi0tYpeRNzrTpYL6wh79i7giUZe3ZYHxVYfggysPYmfDgX
+tOpfP1y_CwC8yZRKU4sf9OuB
 }
 
-!procedure AwsSecurityHubFinding($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/SecurityIdentityAndCompliance/AwsSecurityHubFinding', $name, $tech)
+!procedure AwsSecurityHubFinding($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/SecurityIdentityAndCompliance/AwsSecurityHubFinding', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsSecurityHubFindingCard($id, $funcName="", $content="")

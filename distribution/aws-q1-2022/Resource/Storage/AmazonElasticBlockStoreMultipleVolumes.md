@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Storage/AmazonElasticBlockStoreMultipleVolumes')
 
 ' renders the element
-AmazonElasticBlockStoreMultipleVolumes('AmazonElasticBlockStoreMultipleVolumes', 'Amazon Elastic Block Store Multiple Volumes', 'an optional tech label')
+AmazonElasticBlockStoreMultipleVolumes('AmazonElasticBlockStoreMultipleVolumes', 'Amazon Elastic Block Store Multiple Volumes', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Storage/AmazonElasticBlockStoreMultipleVolumes')
 
 ' renders the element
-AmazonElasticBlockStoreMultipleVolumes('AmazonElasticBlockStoreMultipleVolumes', 'Amazon Elastic Block Store Multiple Volumes', 'an optional tech label')
+AmazonElasticBlockStoreMultipleVolumes('AmazonElasticBlockStoreMultipleVolumes', 'Amazon Elastic Block Store Multiple Volumes', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/CustomerEnablement/AwsIq')
 
 ' renders the element
-AwsIq('AwsIq', 'Aws Iq', 'an optional tech label')
+AwsIq('AwsIq', 'Aws Iq', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/CustomerEnablement/AwsIq')
 
 ' renders the element
-AwsIq('AwsIq', 'Aws Iq', 'an optional tech label')
+AwsIq('AwsIq', 'Aws Iq', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

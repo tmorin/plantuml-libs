@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Storage/AwsSnowballSnowballImportExport')
 
 ' renders the element
-AwsSnowballSnowballImportExport('AwsSnowballSnowballImportExport', 'Aws Snowball Snowball Import Export', 'an optional tech label')
+AwsSnowballSnowballImportExport('AwsSnowballSnowballImportExport', 'Aws Snowball Snowball Import Export', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Storage/AwsSnowballSnowballImportExport')
 
 ' renders the element
-AwsSnowballSnowballImportExport('AwsSnowballSnowballImportExport', 'Aws Snowball Snowball Import Export', 'an optional tech label')
+AwsSnowballSnowballImportExport('AwsSnowballSnowballImportExport', 'Aws Snowball Snowball Import Export', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

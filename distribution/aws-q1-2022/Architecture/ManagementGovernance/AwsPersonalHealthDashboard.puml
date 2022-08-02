@@ -14,8 +14,8 @@ RSu7baKX20DGx2JkVxyZmVazhtgF0b3yFok27uWVY1z8hSri-jBx87ce0nYpdVKOvyM3XeZfkAMno8R7
 sfSfwjvo-BrbtWdC0U4rpacloEnzjK7qPZJoQTBCB-Erxvr_
 }
 
-!procedure AwsPersonalHealthDashboard($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/ManagementGovernance/AwsPersonalHealthDashboard', $name, $tech)
+!procedure AwsPersonalHealthDashboard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/ManagementGovernance/AwsPersonalHealthDashboard', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsPersonalHealthDashboardCard($id, $funcName="", $content="")

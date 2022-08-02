@@ -2,20 +2,20 @@
 
 sprite $ElasticLoadBalancingApplicationLoadBalancerXs [10x10/16z] JOgr0G0n08I82_lF-ouvgO0rFYUWCa7kZ8zttaGWI1En6MDFPF1J6JsQOGS
 
-sprite $ElasticLoadBalancingApplicationLoadBalancerSm [12x12/16z] LSh55GKW302mb28Fkl-ytpNd-1SrsYem8ZBJ329if4MnyuPbGC7Hl8vZcQP2AMDbwxKbSxPfZdaG2nnWrQd45G
+sprite $ElasticLoadBalancingApplicationLoadBalancerSm [12x12/16z] NSgt0SCm40Gmy4Gn_Vxxkd563N-gjr7W1ZgmqGoAdQGnTIWuskiuXXWAfVJPajekUaII0mCSODQf2my
 
 sprite $ElasticLoadBalancingApplicationLoadBalancerMd [16x16/16z] {
-RSg5OKKn20NGGtWIOFzvwzwFNlEeSgQd0n2pm5KWMjHBRT4mh8KYRd9zSyKWzfwz8JLKJHMKvZkl3TVkrrEujUYxw-t845VcLAteNHeLrt5TNi-Pq04uB-0k
-o4u0MNq7U0O
+RKy74iCm20EIcFN__rOMtQqoDUyi_t1qLzUJjl9pvL0O2GJ-w8hGtwwZgsyyQOj4T0INf-FUxWoHF_DWo9lZV_aCmY-lrFqIG_9IwmoJYYb31VWwTJRkEDTy
+dTDM-ZfWbW-x0G
 }
 
 sprite $ElasticLoadBalancingApplicationLoadBalancerLg [20x20/16z] {
-TOm5WWKW24I759dxttSNVzUpdXH-4zNiPSyHEePDmPLEtDXn3Gd0mmBQJsDE74FTZ7Y9sGR2JwA6TQqfNE7rBRjsDOSSjG3nEW-QvvVT18npmnrhOeA9BKoC
-0jjOnIhgxgh69OxbBALcbMsa0v2jcPQ1p7-Hnk347Rcvjrqj6tSsozH9npCMwNBrFm
+TOs7aGKX34DbaOpLVxytPipz_7O11G9-qpmKo_1Wg2FPmYKwBdjKP80Ew_OZvq3YLmalcMsWzLDuiexChb2jRdKgbCoKZLK_xWDv72C4c7969rPcXinMpaTj
+B9UxkCCzKFdgSehJlMtC3W3RI2Dnvdgj2m-kxc6bPZpQBM_iKiSpHXB57m
 }
 
-!procedure ElasticLoadBalancingApplicationLoadBalancer($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/NetworkingAndContentDelivery/ElasticLoadBalancingApplicationLoadBalancer', $name, $tech)
+!procedure ElasticLoadBalancingApplicationLoadBalancer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/NetworkingAndContentDelivery/ElasticLoadBalancingApplicationLoadBalancer', $name, $tech, $desc)
 !endprocedure
 
 !procedure ElasticLoadBalancingApplicationLoadBalancerCard($id, $funcName="", $content="")

@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/ManagementGovernance/AmazonCloudWatchLogs')
 
 ' renders the element
-AmazonCloudWatchLogs('AmazonCloudWatchLogs', 'Amazon Cloud Watch Logs', 'an optional tech label')
+AmazonCloudWatchLogs('AmazonCloudWatchLogs', 'Amazon Cloud Watch Logs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/ManagementGovernance/AmazonCloudWatchLogs')
 
 ' renders the element
-AmazonCloudWatchLogs('AmazonCloudWatchLogs', 'Amazon Cloud Watch Logs', 'an optional tech label')
+AmazonCloudWatchLogs('AmazonCloudWatchLogs', 'Amazon Cloud Watch Logs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

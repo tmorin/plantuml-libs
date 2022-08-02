@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Category/ArVr')
 
 ' renders the element
-ArVr('ArVr', 'Ar Vr', 'an optional tech label')
+ArVr('ArVr', 'Ar Vr', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Category/ArVr')
 
 ' renders the element
-ArVr('ArVr', 'Ar Vr', 'an optional tech label')
+ArVr('ArVr', 'Ar Vr', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

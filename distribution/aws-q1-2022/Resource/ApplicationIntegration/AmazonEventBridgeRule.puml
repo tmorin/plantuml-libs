@@ -2,17 +2,14 @@
 
 sprite $AmazonEventBridgeRuleXs [10x10/16z] Oq01R52Q6mYH03U2P8AAW01CZ0k86H6wkO4S5
 
-sprite $AmazonEventBridgeRuleSm [12x12/16z] VOk30K0n30Ml3lQVzzlenNZqI2WhlkGAA8ZPqa8WBbNctic-i4efgwmYgkoqvROG8VDa1
+sprite $AmazonEventBridgeRuleSm [12x12/16z] VOo30G0n302l3lQVzstqOj8ZeLlcYwymTyHiJXV2ucNEdEGBMx-iPnLHPQSjR_VJp9CH
 
-sprite $AmazonEventBridgeRuleMd [16x16/16z] ZSl5WGGW402mC3ZqN-_fkkSV7vbaHut1Th8XqnpLMgK9qgnMH4mi81VECzci_QyfH452xk3qC-H9pba0CXEMaquGd5MFVGC
+sprite $AmazonEventBridgeRuleMd [16x16/16z] ZSor0GD030F0UwRzvmsw2rvfI_ANHI5q6WVXGAOJSiuiO3KR4nj8LJX83liyTIN-2Na0qPSXhTWFYGKROP25qBnt1G
 
-sprite $AmazonEventBridgeRuleLg [20x20/16z] {
-bT35eG8n5030YPEy_klz0gpUTk8kdadzte6WdliZ4ond0IgvkslXBKSdhJdda4ZU2l4joOktrabVRK4MY5qnUbE7tIoy1InOtwwNxxbsaNZhTebUPChBIT0J
-u_PJjNdg5m
-}
+sprite $AmazonEventBridgeRuleLg [20x20/16z] bSyt0WGX2030GJQe_F-_LrsYs-cKxA4BNP6__nKKkoSXYKjt5X1rOA-rRbz9GSBOWD-9vuQXK1_XleRyQRKIKB1X9p3fSoj0l_aAGSvst0XkFoxYzDGB
 
-!procedure AmazonEventBridgeRule($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/ApplicationIntegration/AmazonEventBridgeRule', $name, $tech)
+!procedure AmazonEventBridgeRule($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/ApplicationIntegration/AmazonEventBridgeRule', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonEventBridgeRuleCard($id, $funcName="", $content="")

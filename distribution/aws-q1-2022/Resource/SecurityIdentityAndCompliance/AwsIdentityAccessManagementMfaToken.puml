@@ -2,17 +2,17 @@
 
 sprite $AwsIdentityAccessManagementMfaTokenXs [10x10/16z] JSU50GGW00B0UrlPVzxlel6FlAs0l1ysaPHZaPCe2aKf5oK2Q0JltAkaSGC
 
-sprite $AwsIdentityAccessManagementMfaTokenSm [12x12/16z] LSQ54GGW302mb287tN_UTyrP_8iQRHKO0MOGuMbHtfOHA_COGscHCwljxLX1RYZbBPcU3c9zYbMd4bS
+sprite $AwsIdentityAccessManagementMfaTokenSm [12x12/16z] NSod0GD00CGmVI-t_xuXwK96zYUzp801T5ycyR9qgxPh356KsLBFSKsq0n4lxJExC3_9oat30m
 
-sprite $AwsIdentityAccessManagementMfaTokenMd [16x16/16z] RSV9LKKn30N1adM-_NoLVxvicA5MtVxJCvaKe6Q1VK45lcfygaClNoxZjJmIfsYnumhFuOhTiqslliJOR16z7E5Bbzg-1BTyU3MaFdO3vqAdVUYRK-0D
+sprite $AwsIdentityAccessManagementMfaTokenMd [16x16/16z] HSUv0GCn4CGmd7xDzj-lCmiHwNbwLIe0wWFp0e5NvTdqptCfaoEnqSMAAvpD5UkheRf-YR8O8hxF5fxsCJt1VJi-o7yNi2-qV03wpVx03m
 
 sprite $AwsIdentityAccessManagementMfaTokenLg [20x20/16z] {
-TSu5eaGX2030CN2VSF_p_joEiHDy5aTMdeQRg0bsDMUvN6ISn-wc9iHoBw4y69kOEhhUkuxYeCAgLgFBoJ4ajUrgrOND24MDRDLgoBxfIrAwQidHOuZfv193
-GrVDs1xLQtvhecrtMe8eBjfbFdDS7YONkuxHPzLqRyIQ3V0D
+TSjBGWCn30KmsScq4x_xtvSDVwZsyjgw9_CiNwviSEB3R1_c0gPzoOPh-suWVgZ3sWgbYaAuoUKHMMsAkmmvJgGiXzL2QaIMwKEt8KeCTwtbQayQhHLQgEEd
+87vuR3Y-6t3bruGzzH673oVtwfritrLt0xm1
 }
 
-!procedure AwsIdentityAccessManagementMfaToken($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessManagementMfaToken', $name, $tech)
+!procedure AwsIdentityAccessManagementMfaToken($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessManagementMfaToken', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIdentityAccessManagementMfaTokenCard($id, $funcName="", $content="")

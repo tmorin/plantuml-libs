@@ -2,17 +2,17 @@
 
 sprite $AwsStorageGatewayTapeGatewayXs [10x10/16z] NKg30S1038on_y3jM-49Tga0i5T4KteG3XJbSjUozCnfHuPLx2ub4Vm
 
-sprite $AwsStorageGatewayTapeGatewaySm [12x12/16z] XSQt0S1034BHVqc2_GTse7Db1NXynZMMLYWowyzR8SfXuiAO4tl0GB4uD2TcioXfKO1boTm
+sprite $AwsStorageGatewayTapeGatewaySm [12x12/16z] XOh50K0n24DV3PBz1_wkfw8nVkLHgke1TIfbXjkJFwXF71imzS0-_MF58BSzU0D2QiG6B4jc1G
 
-sprite $AwsStorageGatewayTapeGatewayMd [16x16/16z] fSYt0GCn5CDGI3-H-m_id5qUkWV-AqkUzTGyBxV4epdWjfrl6s3DqxcnJEo7ZO1XNZOWzB2OHHJry2vImMJcpMG3YhKC2u3IBJW3
+sprite $AwsStorageGatewayTapeGatewayMd [16x16/16z] fSUrWGD040Gm7U_qN_2ZsQ6LoRkLgfpRjZyZ_fIByy5Nak7sG3ikdwHYjCkZS9pRWrANbqERrkM6MSCPlVlxtAX6NApwmpS
 
 sprite $AwsStorageGatewayTapeGatewayLg [20x20/16z] {
-hSr9bWKX20NHGEdU_XTSdQUopzcFuLM0bo9RdN4KEG1JjT6VBCr_6snzr8pLPg78r3nQ1m0rTvl9Q1N8DYiGc20s4s50JEfeBElD6bkp5fjvOf9EDwZrdbNL
-pJ9ICL8vnX1xCrO6tm
+hT350GGX50DG-9x-2yPbzJOE3mkaFrUsG5X-4OMCFyCtaRpqtqPtoAEsibnZA1derK97sVaQMUCU6TTMhRrw34dR2ltZhvQcnR7u6Zisdm6yh753cBj7xCms
+CXiHuVMmQLwjM04
 }
 
-!procedure AwsStorageGatewayTapeGateway($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AwsStorageGatewayTapeGateway', $name, $tech)
+!procedure AwsStorageGatewayTapeGateway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AwsStorageGatewayTapeGateway', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsStorageGatewayTapeGatewayCard($id, $funcName="", $content="")

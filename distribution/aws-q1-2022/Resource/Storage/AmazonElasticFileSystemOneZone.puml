@@ -2,20 +2,17 @@
 
 sprite $AmazonElasticFileSystemOneZoneXs [10x10/16z] LS650GCn00GWuhdz1wxt1To426pcxCXGYq97jK8GmayOmvGIUY1HVl84
 
-sprite $AmazonElasticFileSystemOneZoneSm [12x12/16z] NSR7OGGn30GmB6cBe_uBlfpnWXzhO_eF5BCIw5R5uh_eL48D1EFOXOquWDUFJLq_tNj4NJ-D5P6tCm
+sprite $AmazonElasticFileSystemOneZoneSm [12x12/16z] NOi50e1G24D7m_qlhFksZuxXHmwJEaugkrb58Bm0eO2rSAt54-y56TvdpUp8tS_Pbs2A0lPBd8tT7ZO
 
-sprite $AmazonElasticFileSystemOneZoneMd [16x16/16z] {
-RSS95WCX20JHQb1ext_XF9tiIRd0vszBvxSlgkUcYicf0Lmp-Z0o2OgOsc9aOB0Ad5q2Ewm5c6Rd0KYuLspl_vXNRwwNCyKoZBhiRDojGLsEPjTZ74U8Ko2n
-Fj8D
-}
+sprite $AmazonElasticFileSystemOneZoneMd [16x16/16z] RStLeKDH24JHnHMOqt_1J-F9_eCn7ra5Am7CZgMTbnlIkm5LfJG7bCCcH9EQHY8MOa1s59dBM5rk04ztFzyh7As8rCYCNTzkcFruxxEUy0q
 
 sprite $AmazonElasticFileSystemOneZoneLg [20x20/16z] {
-TSm5WWKn28FX7ze0kV-1LyPMNqRx8RpEwlDRxhZDhkCJuDjYZcwfAlN3ibIzzqcvLdBCvJDhQL0IJGU4zbQ1MgcI2XZk1KgWCVYsx0DFi_F0COz5SkSnU6Nj
-xnQIe6iJTfosjSnqcmPVjky5NxPcXWlxd8rVCUpw5V4E
+TSm50aCn28FXFwn0S_y3JvXRdlP3-9ze9kL-c5tpcUUU3Q3CgeXtgwnUkf4qVqQFMMTk8b3J0b8h2w8ZiZ9h5cancUMDmHp6KEVi7BCrkCt395up1l-i_MQP
+2LrYLeyfPNQtQV3Drct1g-szkU4eraSCYizm0W
 }
 
-!procedure AmazonElasticFileSystemOneZone($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AmazonElasticFileSystemOneZone', $name, $tech)
+!procedure AmazonElasticFileSystemOneZone($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AmazonElasticFileSystemOneZone', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonElasticFileSystemOneZoneCard($id, $funcName="", $content="")

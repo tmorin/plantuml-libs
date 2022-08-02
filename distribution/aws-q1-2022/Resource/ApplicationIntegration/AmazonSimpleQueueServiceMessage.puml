@@ -2,14 +2,14 @@
 
 sprite $AmazonSimpleQueueServiceMessageXs [10x10/16z] Oq00JWOM18kRWPi5pcA5iDWPs9aXBE9qCB6nCx43nG
 
-sprite $AmazonSimpleQueueServiceMessageSm [12x12/16z] ZKo50GGn3A9jFFlF-t_k5XS0MwkrkbJXKe4kF12EQLumtKmWGfanRbSOWJ3AHvq8pqXZmHy
+sprite $AmazonSimpleQueueServiceMessageSm [12x12/16z] XOor0G0n30CLC-m_xpDMkSOWm8ynKeS81dQoK7dlU4c1oBqNCYQUUKzLTdKGOmK
 
-sprite $AmazonSimpleQueueServiceMessageMd [16x16/16z] jOs30G1H34FVDxh_l6URDHDM8ZcBSjbgyIGWrTPBrok5qedTlUxs-Sv-YH_vXLygmOabUm8b
+sprite $AmazonSimpleQueueServiceMessageMd [16x16/16z] jOtL0S0m24HVFC3-yzRxKrTSxrY9gPfB6frv13hlR9QfTu0JJlVwPb_vXTyw8Lb4FOKM
 
-sprite $AmazonSimpleQueueServiceMessageLg [20x20/16z] nG_50SD0w3YqiF--HUgIRt2NzHCq4j1tR4SNy8fTzbf4pvfdJAjZOvhFMAGLLQv7lVSwVgk3jE3N3imT_8nPMlOHEzvnwX-uj-IEdNyGpCqe2S3GZ1Mx0W
+sprite $AmazonSimpleQueueServiceMessageLg [20x20/16z] nG-34S10x8ra_ttxjewD3R84ZGueKC_0AFYOTInOhQanxJieTsQDePD8NK0VUdCTaxdklaFMc77IvDZJZb__u8mfjuEv7IBTJ9a3aj7J1m
 
-!procedure AmazonSimpleQueueServiceMessage($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/ApplicationIntegration/AmazonSimpleQueueServiceMessage', $name, $tech)
+!procedure AmazonSimpleQueueServiceMessage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/ApplicationIntegration/AmazonSimpleQueueServiceMessage', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonSimpleQueueServiceMessageCard($id, $funcName="", $content="")

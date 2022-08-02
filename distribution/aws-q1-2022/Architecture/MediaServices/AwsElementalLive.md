@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/MediaServices/AwsElementalLive')
 
 ' renders the element
-AwsElementalLive('AwsElementalLive', 'Aws Elemental Live', 'an optional tech label')
+AwsElementalLive('AwsElementalLive', 'Aws Elemental Live', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/MediaServices/AwsElementalLive')
 
 ' renders the element
-AwsElementalLive('AwsElementalLive', 'Aws Elemental Live', 'an optional tech label')
+AwsElementalLive('AwsElementalLive', 'Aws Elemental Live', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

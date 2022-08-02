@@ -2,17 +2,17 @@
 
 sprite $AwsTrustedAdvisorChecklistCostXs [10x10/16z] NKW50W0X389TAlz_hzqRZUEKnKH9-qQ_RaQVpU4ZaAAboqjcjGyjVeW
 
-sprite $AwsTrustedAdvisorChecklistCostSm [12x12/16z] JSj50G0m30F0ZCc_tb7nFiN0I_7fluyXNUtteU3Y7jtwXLfhudrveVcp7Qk4Zl7trzs-eJv_ky36ltr_Um
+sprite $AwsTrustedAdvisorChecklistCostSm [12x12/16z] JOZ70K0X58F8i-l-y_vYpoK0zvnCKkui34XqDWwJ3pTYZ6xs0AOAO9aMb2cz0tyjOFzwRSmLwi9UNm
 
-sprite $AwsTrustedAdvisorChecklistCostMd [16x16/16z] NSV5WGH1400WsgNoZ_TaPOmVdc9_L60p8NqVMvjp7fV1UUFslPJMsd75uNKDkQHuVurKkxA8rrE31F7wIu2Wlmd8qo58YrFaMvdu1G
+sprite $AwsTrustedAdvisorChecklistCostMd [16x16/16z] LSV50GGW302muD3kF--vvXVyotXfGB31-nd6tljp1Nnl_JsEsdl_NCLNC51RIH1dwLCx94GPK20HG8AaFaaesqVYy9NbhsnS0G
 
 sprite $AwsTrustedAdvisorChecklistCostLg [20x20/16z] {
-RSm52aGn38JXYLMI-zztjmAlzc5X-0bUF3wOsa7pNBQKpeqZGF5dIwVVkHnoRzdEZSBlVuo6qz_opm0aPZAV6r5LY2HnWvNPHGLoJjJgKGO8JJ8qlGoUV8uE
-M9fGnkYAHIzpnggLEU7Wdd7fltu
+TSr50i0m20NHWJRskVzvwovlEGd05yM9JN2ujfoVpIEmcFZbdttDqhrRUJKB_UxpoMLVMfCb7Qrrc7cdHAfRYmQbJB-0fEindnFhp_2DjYZm7NMDSYuqnrAu
+cd-Mp8DKU74c8m
 }
 
-!procedure AwsTrustedAdvisorChecklistCost($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/ManagementGovernance/AwsTrustedAdvisorChecklistCost', $name, $tech)
+!procedure AwsTrustedAdvisorChecklistCost($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/ManagementGovernance/AwsTrustedAdvisorChecklistCost', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsTrustedAdvisorChecklistCostCard($id, $funcName="", $content="")

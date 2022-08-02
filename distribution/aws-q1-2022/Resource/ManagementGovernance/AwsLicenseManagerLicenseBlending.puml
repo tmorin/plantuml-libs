@@ -2,17 +2,17 @@
 
 sprite $AwsLicenseManagerLicenseBlendingXs [10x10/16z] LSQ30G0130F0rDf_tZUBvF2PsV_KFxHEoNw7SYj6pyO6vbHW6ndCDfigmRnZ1G
 
-sprite $AwsLicenseManagerLicenseBlendingSm [12x12/16z] LSg50GGW20NGPuliF-zrah_yLQktIW_Om87om17jWprY3nm8hCA68vjRRwGLEyc8HQnJAHgAhTqAoiXrJi8L
+sprite $AwsLicenseManagerLicenseBlendingSm [12x12/16z] LOo50G0X203F5jX_tW_RevCRzs4j2pIqTLigubhUQ6ijbs45gBGJ2pXy1OmYrS144aXHzh_A8bXHDO0N
 
-sprite $AwsLicenseManagerLicenseBlendingMd [16x16/16z] PSk70G8m24JH7p05s7zVFUpwKcdyEodrZFP1Hj6IHqn-nH7Xdx7aHvmIhxXqROQ-kWujySNgjhOeMqT1cPaNXEKgnUwkGKlFZRWZ-xA9Hilgpp1eXsrrGxi2
+sprite $AwsLicenseManagerLicenseBlendingMd [16x16/16z] PSp70OGm44FHxsnh-gyNi3OlxwI9t4rjyQh6P4k1YMUDVkgrLlggJL-rjlMk_MsGNd5YedIQrwmJkKyzjtB0GZLsdLC2ICeQEBbcrC4oJE500fkC51Vi1
 
 sprite $AwsLicenseManagerLicenseBlendingLg [20x20/16z] {
-TSu5WWKW24NHArZmzh_U2VaTnqxWYz2HF1375XUvcZYc9KLmtSFqkXSHwOzxfLlOqvxDzKUFUvvSUy5yoCZe1hWQO9lh5w1Dr2TbT2odwkP8W2P8H9o7ody1
-M0wv0DRYIj5IbEaSxkeibSOHrZT7uogqXVqJLmwT-Syelm
+TSu50iGW34JHZvFC_S-xbgsthmh4U63wSNOKdod-V2nxFVaMjEo1pdjcvcc_5sgoTDXBVNnelrSyth6NTnCbwk-ZttiISWPDB8g4bidULVHR-5B34POd8Fyo
+87bJL1o3XGmNeQVubgBAK21OhfCJqnJvIomIfDXBX3S
 }
 
-!procedure AwsLicenseManagerLicenseBlending($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/ManagementGovernance/AwsLicenseManagerLicenseBlending', $name, $tech)
+!procedure AwsLicenseManagerLicenseBlending($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/ManagementGovernance/AwsLicenseManagerLicenseBlending', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsLicenseManagerLicenseBlendingCard($id, $funcName="", $content="")

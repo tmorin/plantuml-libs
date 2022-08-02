@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Compute/AwsThinkBoxSequoia')
 
 ' renders the element
-AwsThinkBoxSequoia('AwsThinkBoxSequoia', 'Aws Think Box Sequoia', 'an optional tech label')
+AwsThinkBoxSequoia('AwsThinkBoxSequoia', 'Aws Think Box Sequoia', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Compute/AwsThinkBoxSequoia')
 
 ' renders the element
-AwsThinkBoxSequoia('AwsThinkBoxSequoia', 'Aws Think Box Sequoia', 'an optional tech label')
+AwsThinkBoxSequoia('AwsThinkBoxSequoia', 'Aws Think Box Sequoia', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

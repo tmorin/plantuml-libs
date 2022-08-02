@@ -14,8 +14,8 @@ RSe7RaH128FXHyUU-zyt91hITdzG-sJSUgigl46-GIwQsIA_qD49wLeRj984sbLppGj0F3siQnIuLQOK
 kUTH0mJJ6OIIakK1wBL3umHoTv-rke8XEhHsI7eAoMiN0V3YMTpM_k47
 }
 
-!procedure AmazonGuardDuty($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/SecurityIdentityCompliance/AmazonGuardDuty', $name, $tech)
+!procedure AmazonGuardDuty($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/SecurityIdentityCompliance/AmazonGuardDuty', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonGuardDutyCard($id, $funcName="", $content="")

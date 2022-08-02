@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Category/MachineLearning')
 
 ' renders the element
-MachineLearning('MachineLearning', 'Machine Learning', 'an optional tech label')
+MachineLearning('MachineLearning', 'Machine Learning', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Category/MachineLearning')
 
 ' renders the element
-MachineLearning('MachineLearning', 'Machine Learning', 'an optional tech label')
+MachineLearning('MachineLearning', 'Machine Learning', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

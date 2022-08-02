@@ -2,17 +2,17 @@
 
 sprite $AmazonEventBridgeCustomEventBusXs [10x10/16z] Oq01x52Qcu4JYE605KGmSJ60nDXWWamW1Ln06gmBo85fO6JW0DDmjG
 
-sprite $AmazonEventBridgeCustomEventBusSm [12x12/16z] NS790G8W302mWBsq--_hdyJh060ru8ToKVHkt0CXQ2RnXRCvWi361_IQ0OrOWAxn-WC
+sprite $AmazonEventBridgeCustomEventBusSm [12x12/16z] TS770S0W400Wx7gt_xvvfm7-fGK8J0MDcTaAw3gBrN6WPDiQ7Lahc6bjC50IO8tjwG8
 
-sprite $AmazonEventBridgeCustomEventBusMd [16x16/16z] ZSlL0SDG34FH-yYu_xm5bp4vNmQ9NNg3mTMefNTk0a2WSwEgWaXLSs4Dl9Rh-zfo7N1zCScMZOn6_KcIKltkBIW2PikcKNm0DdF1ZP7HUTv_EW8
+sprite $AmazonEventBridgeCustomEventBusMd [16x16/16z] ZS47GGD0402m_BxXtoy6W3RnbO45iB3C0Q3WCW2yzuvxOVRoa3201qMy1GcsraCN3xG6F4W5NFO-CGF8WJTw0n2w023ywGS
 
 sprite $AmazonEventBridgeCustomEventBusLg [20x20/16z] {
-bSe5WiGm20308MrZ_F-zPvpxJWHre-6hhFSgJrOJwPrDS0GjA46vDcYpOVVUL-YKrUm34dhrjGt6nLerjvHBjfMCdIzxMhO-AVkebZMysltGP-IfH0Rab5xi
--i-rmpinxBbyaE4wVDJzvHu
+bSo5aGGW30303JSFaVxhVNU_nOcuql7LFAyN4vIFVneiX2zk6iX0xxsBxLaj7J2mDn0DpeMgNg1UsfbLm-bvoHCJEpthW3NgyA9ts6akdWsOD5uqwAZsNXoT
+vODXXO-slzm1
 }
 
-!procedure AmazonEventBridgeCustomEventBus($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/ApplicationIntegration/AmazonEventBridgeCustomEventBus', $name, $tech)
+!procedure AmazonEventBridgeCustomEventBus($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/ApplicationIntegration/AmazonEventBridgeCustomEventBus', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonEventBridgeCustomEventBusCard($id, $funcName="", $content="")

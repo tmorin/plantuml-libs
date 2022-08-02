@@ -2,20 +2,17 @@
 
 sprite $AwsIoTThingTemperatureSensorXs [10x10/16z] JSp50G0n3CH01MtrN_0nn3YlPQsPwkC1xRhbk6qGXuGM-CXJEZx5ANexAvUy7G
 
-sprite $AwsIoTThingTemperatureSensorSm [12x12/16z] LOsv5S0024A_cAUm_y0vgt1ty8TGB1vuFnpG2zCqRbWmfQVrx5In8j-61EzJJnWjg0qMBCn-pU5rugtVxmK
+sprite $AwsIoTThingTemperatureSensorSm [12x12/16z] LKs54S0m42BsmFuBbrurxmhOfG7MLOgNp4m9h9Qbiayjj9PyrRvcVceRufbuOINraQphVl6wnnHbYpll0G
 
-sprite $AwsIoTThingTemperatureSensorMd [16x16/16z] {
-RS-50GKn309G2hsGx3zmxRjm-bB7dr16DVh1tfCbcOVjaiIkbLnKt-LIKB1uToBlTXux8s0Ru76j2hn7rjthxVLkkhirU3tSzfNQxIJiDplkyvLZ6plfH_Bl
-UHuEh4m
-}
+sprite $AwsIoTThingTemperatureSensorMd [16x16/16z] RS-70GCn3090-2BG_Wj7E3rvztCNBX8XDAYdDtgyFNsGtDBGsRnnscQHq5GmDhAcL2_BLP0oizoM4NK_dBsh_V3pVftUOnBIk1vMFVQtAaQIzKo-ZEVfolW6
 
 sprite $AwsIoTThingTemperatureSensorLg [20x20/16z] {
-TL054iH0329BQCB_7tnIdHgiCd6yOIWAddbeK_HP6ztUMPZHyncQB-RVYejMR92W692ycXaIM28YUj72c0Qe0AeMk_Hyiold79jcBpdiivsjavt6oSx3gRDT
-j8SCdErarYKUNOtD3gZaWIPcf4gTdidt-G512DFCFxu
+TP074iGm20C5X0Fz_yC7TdgHKdUM5EChuWXmz60_v9L99lV6PBdDTqpwMYQBEel06hfpQ0hMDInSjbcnOZyjhsTYUWl7sJ8Ehna9Kw3ELu_KY-SAayEZSl6R
+brGdSFMS5ZTF68dfTMAn8paPnC9IALtvNh-6LHtj_04
 }
 
-!procedure AwsIoTThingTemperatureSensor($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTThingTemperatureSensor', $name, $tech)
+!procedure AwsIoTThingTemperatureSensor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTThingTemperatureSensor', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTThingTemperatureSensorCard($id, $funcName="", $content="")

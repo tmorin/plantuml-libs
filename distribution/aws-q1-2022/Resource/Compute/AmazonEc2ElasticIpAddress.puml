@@ -2,14 +2,14 @@
 
 sprite $AmazonEc2ElasticIpAddressXs [10x10/16z] Oo00c60CDcHH3Z1Wu61W1F5O2PW1
 
-sprite $AmazonEc2ElasticIpAddressSm [12x12/16z] bS470G11200WRgdz2_zC86Yhcc2GJB0Pg9yYGE8S3JS
+sprite $AmazonEc2ElasticIpAddressSm [12x12/16z] Oo0PS70mmfZi30mGDWk4mG4131mC36mm1GpChAIO3W
 
-sprite $AmazonEc2ElasticIpAddressMd [16x16/16z] hKc30G102Cor_y9lD40wGlcW6IPB2g0dyC4nUC5XNqMSiLMjy78mnRFbqm4
+sprite $AmazonEc2ElasticIpAddressMd [16x16/16z] Ow0-O6D3vZ6oCZ2mCaBOx43CmG0be3GxM8832jX0Gc11X0Oc9Wuub-e
 
-sprite $AmazonEc2ElasticIpAddressLg [20x20/16z] nKw50G0X2AIv_HV-i7K1wURe8WcV5GzpQC_Yxrly8KgXHraY6uE2KY_H92Cl3toySMi7E4V9Yml09owwHoy
+sprite $AmazonEc2ElasticIpAddressLg [20x20/16z] pKo50S0m2CFX_uUtkZtGuf84BXhXUL53Zd6rNB3K690yUPcGXr1q1COq1AsYEEIb2Q2FKyLOXC8BzWC
 
-!procedure AmazonEc2ElasticIpAddress($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Compute/AmazonEc2ElasticIpAddress', $name, $tech)
+!procedure AmazonEc2ElasticIpAddress($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Compute/AmazonEc2ElasticIpAddress', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonEc2ElasticIpAddressCard($id, $funcName="", $content="")

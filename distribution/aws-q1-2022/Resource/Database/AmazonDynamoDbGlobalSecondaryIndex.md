@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Database/AmazonDynamoDbGlobalSecondaryIndex')
 
 ' renders the element
-AmazonDynamoDbGlobalSecondaryIndex('AmazonDynamoDbGlobalSecondaryIndex', 'Amazon Dynamo Db Global Secondary Index', 'an optional tech label')
+AmazonDynamoDbGlobalSecondaryIndex('AmazonDynamoDbGlobalSecondaryIndex', 'Amazon Dynamo Db Global Secondary Index', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Database/AmazonDynamoDbGlobalSecondaryIndex')
 
 ' renders the element
-AmazonDynamoDbGlobalSecondaryIndex('AmazonDynamoDbGlobalSecondaryIndex', 'Amazon Dynamo Db Global Secondary Index', 'an optional tech label')
+AmazonDynamoDbGlobalSecondaryIndex('AmazonDynamoDbGlobalSecondaryIndex', 'Amazon Dynamo Db Global Secondary Index', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/ApplicationIntegration/AmazonSimpleNotificationServiceTopic')
 
 ' renders the element
-AmazonSimpleNotificationServiceTopic('AmazonSimpleNotificationServiceTopic', 'Amazon Simple Notification Service Topic', 'an optional tech label')
+AmazonSimpleNotificationServiceTopic('AmazonSimpleNotificationServiceTopic', 'Amazon Simple Notification Service Topic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/ApplicationIntegration/AmazonSimpleNotificationServiceTopic')
 
 ' renders the element
-AmazonSimpleNotificationServiceTopic('AmazonSimpleNotificationServiceTopic', 'Amazon Simple Notification Service Topic', 'an optional tech label')
+AmazonSimpleNotificationServiceTopic('AmazonSimpleNotificationServiceTopic', 'Amazon Simple Notification Service Topic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

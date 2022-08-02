@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/ManagementGovernance/AwsAutoScaling')
 
 ' renders the element
-AwsAutoScaling('AwsAutoScaling', 'Aws Auto Scaling', 'an optional tech label')
+AwsAutoScaling('AwsAutoScaling', 'Aws Auto Scaling', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/ManagementGovernance/AwsAutoScaling')
 
 ' renders the element
-AwsAutoScaling('AwsAutoScaling', 'Aws Auto Scaling', 'an optional tech label')
+AwsAutoScaling('AwsAutoScaling', 'Aws Auto Scaling', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

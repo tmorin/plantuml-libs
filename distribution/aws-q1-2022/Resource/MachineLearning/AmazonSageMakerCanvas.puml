@@ -2,17 +2,17 @@
 
 sprite $AmazonSageMakerCanvasXs [10x10/16z] PSd50S0040B1FI3QVxznpxmG_ehsq44g8HI7BOrho95whobBKkwtBtJm3
 
-sprite $AmazonSageMakerCanvasSm [12x12/16z] JSY73SCm4CLGNadmJ_iFR5lzeH7a5hOKvZXTaR6ylxaaatWRhFjQ11_r_xPxx-PlL_9VF-n7RxsSjsjh3m
+sprite $AmazonSageMakerCanvasSm [12x12/16z] JOk50G0n20Clhy3--zRjgaGukJHn9DHLvpxra9cLKtH1b-lVw5ZLZt_KoM--gOktTwqWojyNaG4
 
-sprite $AmazonSageMakerCanvasMd [16x16/16z] RSv50aGX30FGa2A1-zztf3BwtwvU_3hx2pP5eJnY-tGHDt5AMjJmVX9fUlpSKhnkgFtA-bTCUhpFZBY97iyEVlGRna35V89PndJv_vTr1m
+sprite $AmazonSageMakerCanvasMd [16x16/16z] RSx50S0m30D0XUNkls_3dFkPZTCd6mYeY2x7JO_LglPxaW5qjL-XyNrUkbOdAjRw5lUwVBx5L2Ns1chfLp0EFLOPj7dzkmaH
 
 sprite $AmazonSageMakerCanvasLg [20x20/16z] {
-RSw54G0n24JHnJdwx_VSmkIFlmXWrb8zGw55lfi7XupchTXDMheRM8dq2A9y_vUlgUPfyxaAr9UUblXTrijiOhXDCkMnL3hDol0OFyQf08Qt18GrE_9yBPSp
-VtRcbZZCUxm1
+RSk53S103CLGvnzd_ttBcDRY9vc_XiU44xBLQgFPssgeBMQXl1ZAM5uZPUqlNQ0rJFsmq6OP_CxsTp7EycxbnpZCUa-dTTjDNZXD-J3r3DplNYjVetPEwsEh
+ShmA9Q5Fp
 }
 
-!procedure AmazonSageMakerCanvas($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/MachineLearning/AmazonSageMakerCanvas', $name, $tech)
+!procedure AmazonSageMakerCanvas($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/MachineLearning/AmazonSageMakerCanvas', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonSageMakerCanvasCard($id, $funcName="", $content="")

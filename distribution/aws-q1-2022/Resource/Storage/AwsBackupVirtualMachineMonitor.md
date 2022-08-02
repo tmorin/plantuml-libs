@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Storage/AwsBackupVirtualMachineMonitor')
 
 ' renders the element
-AwsBackupVirtualMachineMonitor('AwsBackupVirtualMachineMonitor', 'Aws Backup Virtual Machine Monitor', 'an optional tech label')
+AwsBackupVirtualMachineMonitor('AwsBackupVirtualMachineMonitor', 'Aws Backup Virtual Machine Monitor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Storage/AwsBackupVirtualMachineMonitor')
 
 ' renders the element
-AwsBackupVirtualMachineMonitor('AwsBackupVirtualMachineMonitor', 'Aws Backup Virtual Machine Monitor', 'an optional tech label')
+AwsBackupVirtualMachineMonitor('AwsBackupVirtualMachineMonitor', 'Aws Backup Virtual Machine Monitor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

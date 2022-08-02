@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Category/ManagementGovernance')
 
 ' renders the element
-ManagementGovernance('ManagementGovernance', 'Management Governance', 'an optional tech label')
+ManagementGovernance('ManagementGovernance', 'Management Governance', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Category/ManagementGovernance')
 
 ' renders the element
-ManagementGovernance('ManagementGovernance', 'Management Governance', 'an optional tech label')
+ManagementGovernance('ManagementGovernance', 'Management Governance', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

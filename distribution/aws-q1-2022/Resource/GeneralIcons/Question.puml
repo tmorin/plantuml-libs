@@ -2,14 +2,14 @@
 
 sprite $QuestionXs [10x10/16z] Oq06l0mCZ70M3oTSc0CkpmnbSCFbU1am02ydAWi
 
-sprite $QuestionSm [12x12/16z] NKk50S0W3CEXzl-vyr7NI0h1ey1uppe9HrPgfAuonINXVm8LLOWwaVHkNU-ID9YVTG8
+sprite $QuestionSm [12x12/16z] Oq03FAoCx6mG9YCxDnShaXGR0nD26KAObu4BnkJaPaIeu4KeuU96i1cPaDZ85aEC1
 
-sprite $QuestionMd [16x16/16z] ROh50SCm40JtI7ZflzoORT6y5WOhsBrwUgiOM83wTa_25SfeYMnj9Ur-TdXJNRkgL1CQc7xeqB5htuDrDPD8smlG2pNVOGC
+sprite $QuestionMd [16x16/16z] RKo50SGm2Bm8nFSVzx_U8b5EuQqmvvZrXVdunYlN40PI425251qf1b69-O4p2vWmgWXZGQoiS8mIiyGDIH0ToC8msZNy0G
 
-sprite $QuestionLg [20x20/16z] ZOo54GGX0CGMr-s_t9VpmnqocQ0_T4WvkISHTFlrOCh_lB_61wFzdnb1bL52cvhvqdCMB2s7-DP2b3ARifLItITMM8x4oX3Er3qHR85a06BboSe37hql
+sprite $QuestionLg [20x20/16z] ZOpL0KKX5CE2mv7zntskL-bVBUmh3ZLjVv4_RF2VAFJRxZxx2ODN81aZi92Juphhorsh-7BLaFIN325OMh9Krtnd9ZDnfjJYcXT6NKHXWAnsSRM3ykLT0G
 
-!procedure Question($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/GeneralIcons/Question', $name, $tech)
+!procedure Question($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/GeneralIcons/Question', $name, $tech, $desc)
 !endprocedure
 
 !procedure QuestionCard($id, $funcName="", $content="")

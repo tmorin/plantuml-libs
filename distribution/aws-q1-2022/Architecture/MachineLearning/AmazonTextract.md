@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/MachineLearning/AmazonTextract')
 
 ' renders the element
-AmazonTextract('AmazonTextract', 'Amazon Textract', 'an optional tech label')
+AmazonTextract('AmazonTextract', 'Amazon Textract', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/MachineLearning/AmazonTextract')
 
 ' renders the element
-AmazonTextract('AmazonTextract', 'Amazon Textract', 'an optional tech label')
+AmazonTextract('AmazonTextract', 'Amazon Textract', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

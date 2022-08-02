@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/NetworkingAndContentDelivery/AmazonVpcNetworkAccessControlList')
 
 ' renders the element
-AmazonVpcNetworkAccessControlList('AmazonVpcNetworkAccessControlList', 'Amazon Vpc Network Access Control List', 'an optional tech label')
+AmazonVpcNetworkAccessControlList('AmazonVpcNetworkAccessControlList', 'Amazon Vpc Network Access Control List', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/NetworkingAndContentDelivery/AmazonVpcNetworkAccessControlList')
 
 ' renders the element
-AmazonVpcNetworkAccessControlList('AmazonVpcNetworkAccessControlList', 'Amazon Vpc Network Access Control List', 'an optional tech label')
+AmazonVpcNetworkAccessControlList('AmazonVpcNetworkAccessControlList', 'Amazon Vpc Network Access Control List', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

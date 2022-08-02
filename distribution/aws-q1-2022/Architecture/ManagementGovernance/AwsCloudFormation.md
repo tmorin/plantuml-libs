@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/ManagementGovernance/AwsCloudFormation')
 
 ' renders the element
-AwsCloudFormation('AwsCloudFormation', 'Aws Cloud Formation', 'an optional tech label')
+AwsCloudFormation('AwsCloudFormation', 'Aws Cloud Formation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/ManagementGovernance/AwsCloudFormation')
 
 ' renders the element
-AwsCloudFormation('AwsCloudFormation', 'Aws Cloud Formation', 'an optional tech label')
+AwsCloudFormation('AwsCloudFormation', 'Aws Cloud Formation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

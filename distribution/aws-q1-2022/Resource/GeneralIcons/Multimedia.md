@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/GeneralIcons/Multimedia')
 
 ' renders the element
-Multimedia('Multimedia', 'Multimedia', 'an optional tech label')
+Multimedia('Multimedia', 'Multimedia', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/GeneralIcons/Multimedia')
 
 ' renders the element
-Multimedia('Multimedia', 'Multimedia', 'an optional tech label')
+Multimedia('Multimedia', 'Multimedia', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

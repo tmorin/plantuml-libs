@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/FrontEndWebMobile/AwsAmplify')
 
 ' renders the element
-AwsAmplify('AwsAmplify', 'Aws Amplify', 'an optional tech label')
+AwsAmplify('AwsAmplify', 'Aws Amplify', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/FrontEndWebMobile/AwsAmplify')
 
 ' renders the element
-AwsAmplify('AwsAmplify', 'Aws Amplify', 'an optional tech label')
+AwsAmplify('AwsAmplify', 'Aws Amplify', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

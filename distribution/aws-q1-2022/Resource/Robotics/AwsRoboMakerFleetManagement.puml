@@ -2,20 +2,20 @@
 
 sprite $AwsRoboMakerFleetManagementXs [10x10/16z] HSm50G0n4C2mZhUhVxtF407XDm3fF3902nFMoYjd0aaK19QpHGmwkWm564xBVx83
 
-sprite $AwsRoboMakerFleetManagementSm [12x12/16z] LS6v0GC130CWvFkj_VTD7V0dVRrsmBLueGlxm5V7S-ux3-YU-PfeHIp5jDtkLKOaIw7VvEq0dUzo0jBW1m
+sprite $AwsRoboMakerFleetManagementSm [12x12/16z] LSYr0GH140Cm7IoD-w_t6PKO_CiqrGREmeGKr80LszXhReybTLf1WatnA4agrSBs-ylQjvdDGwpczF9uhm
 
 sprite $AwsRoboMakerFleetManagementMd [16x16/16z] {
-PS65WGD0202mS7wm_xplsYQUX5rDY09InPRM6Bvi462k2oeNs2DLOvmu6nfnPjPTjqyarKzLLjxBY6qH77H2ktNod3fL6s9UWxJcehX3N-lQ8y2EQZbQzV8f
-urHLIxwilEMVaU0L
+ROw5WKGn20M7V8Az_kkzM_U9uC8FKW1SVmQH3E76ZOCdEne0ZL-Bro03BsfpetpKqSk10QsIMjCDRaw0GLqx6zQggL99UPtHE0pR0mJj715DtXP9qvgrjCIL
+iPB4S2UcnHj-3Vu3
 }
 
 sprite $AwsRoboMakerFleetManagementLg [20x20/16z] {
-TSQ5WG0m24FHZxTa_tdFNHwIy9zKlsRpQYxY4eBjv9LpPo7XolZ1FygUUcrT-zQgV54Pc2AL0Cm1gsj7g-ipy6RHw_XnG0iorKhQaWby1mHOKm78e0k_kZcJ
-VR8r0O1VgSvKRwqcWG01NcI2hK5V4B8hQLqkNlb9kP1f9dap4zAHAYuVUYEKK7mrul3Bs6i-0W
+TSg5WGGm24JH3n42qt-zP-HyzqLGdXdQ7JSj4f6OeBRJZ8m2XnH_EPVLMPtDLRVhomgv0RAfoRium4oEIcaHS1NguyS15SWqIb9D8Q021DZ61vs_9wdqM3wF
+RuNn8QLrOkrQrJsx-_FzGW4xGOYKLCX4ypFbGYXYSaKCwKXh95zssT20nKyX3ly4xHK
 }
 
-!procedure AwsRoboMakerFleetManagement($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Robotics/AwsRoboMakerFleetManagement', $name, $tech)
+!procedure AwsRoboMakerFleetManagement($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Robotics/AwsRoboMakerFleetManagement', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsRoboMakerFleetManagementCard($id, $funcName="", $content="")

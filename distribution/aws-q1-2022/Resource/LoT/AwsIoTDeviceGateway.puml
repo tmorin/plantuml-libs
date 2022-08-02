@@ -2,17 +2,17 @@
 
 sprite $AwsIoTDeviceGatewayXs [10x10/16z] Oq02Z0Wc9oS32oUw55004x0oe_8v8Nf1Yc4o
 
-sprite $AwsIoTDeviceGatewaySm [12x12/16z] LOo30G0m3C0o5Vy_F2ir-H5e51fc14BGqb9iJGi1qqOHZ9QxIcFb0KukJLSkppuqMawKyH-n06HW-0e
+sprite $AwsIoTDeviceGatewaySm [12x12/16z] LOo50G0n30AlKRh_mEyQ5u2_rL5pBz8nTsuZkhx9GBrP5DhdsHLrpmEUEJJlkLxyhICih_bemLLN
 
-sprite $AwsIoTDeviceGatewayMd [16x16/16z] PSw50S0W30J0ZvRilt1n_LGu77X39otrHZ1oL4F9aSi_BiGOTtoKaHyfoKPKEplpRgE8s0m1y-OyAhkPoQJxsNyxFziSeMJ8vKY2F3plxtZo0m
+sprite $AwsIoTDeviceGatewayMd [16x16/16z] XOpL0KLH2CDoa5ww_y3FNSCNDVxJmnbpfDA5ZgVjz7BrnSRn6TOH13xzYI0V_iRsevz4FFosy_5VhCxh_xxFYVFVmaKVJym2vkfRlB47
 
 sprite $AwsIoTDeviceGatewayLg [20x20/16z] {
-bP254GGm2C1I0xB_mE_kdtgk1ln1Ayvu6hjNLoSfYebp67ZO1TTzSLZBlQEjawlSuzvnTk5-V7GP4G-EpdZOLn7EUjp7SjmxQy-zE_71fTp5svpGQrttPGO7
-nbF-dja2
+bO-50G0X3CGEAyt-0x-xV_1WhNuGN3FCYjKvynw8AdB0n71AMi_Pi4Pxfr0cvxM7tcbsHZyUNJQpWrDKEfnpCx8VpwcGzWxlsRkPUrVHBjz0w4-LzLojfe6q
+EdH32m
 }
 
-!procedure AwsIoTDeviceGateway($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTDeviceGateway', $name, $tech)
+!procedure AwsIoTDeviceGateway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTDeviceGateway', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTDeviceGatewayCard($id, $funcName="", $content="")

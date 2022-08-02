@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/ManagementGovernance/AwsWellArchitectedTool')
 
 ' renders the element
-AwsWellArchitectedTool('AwsWellArchitectedTool', 'Aws Well Architected Tool', 'an optional tech label')
+AwsWellArchitectedTool('AwsWellArchitectedTool', 'Aws Well Architected Tool', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/ManagementGovernance/AwsWellArchitectedTool')
 
 ' renders the element
-AwsWellArchitectedTool('AwsWellArchitectedTool', 'Aws Well Architected Tool', 'an optional tech label')
+AwsWellArchitectedTool('AwsWellArchitectedTool', 'Aws Well Architected Tool', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

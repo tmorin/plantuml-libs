@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Storage/AmazonSimpleStorageServiceVpcAccessPoints')
 
 ' renders the element
-AmazonSimpleStorageServiceVpcAccessPoints('AmazonSimpleStorageServiceVpcAccessPoints', 'Amazon Simple Storage Service Vpc Access Points', 'an optional tech label')
+AmazonSimpleStorageServiceVpcAccessPoints('AmazonSimpleStorageServiceVpcAccessPoints', 'Amazon Simple Storage Service Vpc Access Points', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Storage/AmazonSimpleStorageServiceVpcAccessPoints')
 
 ' renders the element
-AmazonSimpleStorageServiceVpcAccessPoints('AmazonSimpleStorageServiceVpcAccessPoints', 'Amazon Simple Storage Service Vpc Access Points', 'an optional tech label')
+AmazonSimpleStorageServiceVpcAccessPoints('AmazonSimpleStorageServiceVpcAccessPoints', 'Amazon Simple Storage Service Vpc Access Points', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

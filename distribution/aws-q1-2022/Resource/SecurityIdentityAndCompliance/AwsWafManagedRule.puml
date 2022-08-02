@@ -2,17 +2,17 @@
 
 sprite $AwsWafManagedRuleXs [10x10/16z] Oq009cvkRZ3Dm0rciNC2MLmCB50n3cQeB0HmiJB1TMAoM9cP69YWW0K
 
-sprite $AwsWafManagedRuleSm [12x12/16z] LSY35G1140JHMeppZ_VC_z3WHrLQtoMEjpg-H88OW9DeTozYK_Hg5UoInY7ywUS_n-tvcxUdzxxrVDGA
+sprite $AwsWafManagedRuleSm [12x12/16z] LSZ50SH034FHFsnB_TUx4Cwx27YPOr3-H11u-yH8iW21c2N2v8-fnicVA6moxhxzhPoklmHtBmXT_0K
 
-sprite $AwsWafManagedRuleMd [16x16/16z] PSh50SH034FHRtjGwh_UPKpUJS1PMO6U319hTku2KxjBTS-z5iPiAk_v5kzvE7QOV30nee9lPi-qUPWOyUQLVva4u_tBY5-_UQp-dtVZ_FSVNG4
+sprite $AwsWafManagedRuleMd [16x16/16z] POl50S103CDqdCJxprlcwcNaJr90x6XLZD7O4SbRH5vzoRPuuIGgiDZLrpKHQKEaIcBnEm8VMOSTYmzEPBpy_fC_UVMyzztAorT_-nMX5p43
 
 sprite $AwsWafManagedRuleLg [20x20/16z] {
-TSo54KKn20NHZM6t_tg_wvETZ9q0d3Gp0RqpwDBjYNVTG33QYFKKQpURGguf1xfRShCQSq6r05Z1mpGASkhlNZDbqo3hcO4i6ANvEuULQmwUHR-P-3Oh5XjZ
-63k3fyMsexcDLUJEbiRE77zOtpGDspMk
+TSpN0KCn2CLGkGDt_tsJrxl-V0pmKNK7j9KXIzERhPn1a4ZM5kcJLQ6XgW6aqNsoIBb1OFnh1fCf1NZLzLwNeuB7qcJTAA5ydgF7K2aisMJYA8Mrkv4g3vkQ
+pEwzpTqip1_ML1us64oMRzLCViGF
 }
 
-!procedure AwsWafManagedRule($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/SecurityIdentityAndCompliance/AwsWafManagedRule', $name, $tech)
+!procedure AwsWafManagedRule($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/SecurityIdentityAndCompliance/AwsWafManagedRule', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsWafManagedRuleCard($id, $funcName="", $content="")

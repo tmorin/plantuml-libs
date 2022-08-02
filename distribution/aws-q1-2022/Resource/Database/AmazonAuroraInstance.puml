@@ -2,17 +2,17 @@
 
 sprite $AmazonAuroraInstanceXs [10x10/16z] HKg30G113Ckvsd_TPuq8LSE_FNCO1-YkV4YsEFBGT5JQt87C6DQVMdlQ3G
 
-sprite $AmazonAuroraInstanceSm [12x12/16z] LSh50KC1309Guhh_klL-UPS8u6hvhq0LuS86D8XOXC6VlSmZ1D-_Ya4uJK5uIm1px2xztpTdRnt-xgJIg7x3pl0J
+sprite $AmazonAuroraInstanceSm [12x12/16z] RSh50GD134FHFs1s_-s6EVik1ebFFHvcCC9CrroG3CO5tFOGDPltdRs4ENHl1bSEr6kNcS-zlVgmCqWYh-YgUGO
 
-sprite $AmazonAuroraInstanceMd [16x16/16z] VOc5SGD04CJqTBJVVxk9cMqTQfPNkXxO82Pt0k5kexLm0A7MUX_7lZWEGEEQbvibSNKkB6qLDsy6K7TtIQa71zg3MrRQprornEP20ICWTCAmoiu_
+sprite $AmazonAuroraInstanceMd [16x16/16z] PSlL0KH134BHEnfX-cztVP-UlmJWgkfWWUZi764sMobk049GllwtyVM_qsOFVBj_kfQImmsG-ssIJFizBliP6VruttBb4Ej_1r0TN1-3cG5F
 
 sprite $AmazonAuroraInstanceLg [20x20/16z] {
-ROs55GGn20LnWlJVxjswJtpWvSCde_fAogGOxZH2WOemAfEop8vjSgFTDGJKVNOqEsOY4YOXEXp1mU4it4Qe-SLvXcagnCKTICKO5N1rlLRivYeZEkxkuxyE
-PR5-z8aRFlfmtksHqHDXaCyCDf1csj0sbfmhQ1iA8AO4y0S
+RSk53GHH549HuEkJ_kjT6PSJlm6ycf5dhcygk4eWe4f2f2Xy5NtRp36Q2MqCVEdNk1AvjvEzTHkzMUlZr8PRbpVOgUqKDcSOpYtnKtLfuMPfUkvqRIQovcrN
+HwTUlltQ8hzCyFkk2CgYLSjUgYU-j04e4VW
 }
 
-!procedure AmazonAuroraInstance($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Database/AmazonAuroraInstance', $name, $tech)
+!procedure AmazonAuroraInstance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Database/AmazonAuroraInstance', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonAuroraInstanceCard($id, $funcName="", $content="")

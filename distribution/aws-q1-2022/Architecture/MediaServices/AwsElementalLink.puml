@@ -11,8 +11,8 @@ RSz50aCn24NHe8_kVyED0RzoXoSALjxP38MjQ6mhbD8ozl6ql7kLHWcgocdW6U1JbiMoVkXOF4pbMe1a
 8Q6iiUqFllxW6m
 }
 
-!procedure AwsElementalLink($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/MediaServices/AwsElementalLink', $name, $tech)
+!procedure AwsElementalLink($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/MediaServices/AwsElementalLink', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsElementalLinkCard($id, $funcName="", $content="")

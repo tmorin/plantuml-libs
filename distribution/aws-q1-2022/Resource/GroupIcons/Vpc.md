@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/GroupIcons/Vpc')
 
 ' renders the element
-Vpc('Vpc', 'Vpc', 'an optional tech label')
+Vpc('Vpc', 'Vpc', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/GroupIcons/Vpc')
 
 ' renders the element
-Vpc('Vpc', 'Vpc', 'an optional tech label')
+Vpc('Vpc', 'Vpc', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

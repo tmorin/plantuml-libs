@@ -11,8 +11,8 @@ RSk53GDH3C3GiDFz1pxyALly97DMh_A8RwmnlcpGxWvbohho77lTyJ8bLFt3pA_4B-lBeZZJkkt0n9T5
 O4odPSQHlEo8h_eLq-CFxW
 }
 
-!procedure AmazonEc2($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Compute/AmazonEc2', $name, $tech)
+!procedure AmazonEc2($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Compute/AmazonEc2', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonEc2Card($id, $funcName="", $content="")

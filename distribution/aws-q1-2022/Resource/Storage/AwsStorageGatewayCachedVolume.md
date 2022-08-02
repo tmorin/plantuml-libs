@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Storage/AwsStorageGatewayCachedVolume')
 
 ' renders the element
-AwsStorageGatewayCachedVolume('AwsStorageGatewayCachedVolume', 'Aws Storage Gateway Cached Volume', 'an optional tech label')
+AwsStorageGatewayCachedVolume('AwsStorageGatewayCachedVolume', 'Aws Storage Gateway Cached Volume', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Storage/AwsStorageGatewayCachedVolume')
 
 ' renders the element
-AwsStorageGatewayCachedVolume('AwsStorageGatewayCachedVolume', 'Aws Storage Gateway Cached Volume', 'an optional tech label')
+AwsStorageGatewayCachedVolume('AwsStorageGatewayCachedVolume', 'Aws Storage Gateway Cached Volume', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Database/AmazonTimestream')
 
 ' renders the element
-AmazonTimestream('AmazonTimestream', 'Amazon Timestream', 'an optional tech label')
+AmazonTimestream('AmazonTimestream', 'Amazon Timestream', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Database/AmazonTimestream')
 
 ' renders the element
-AmazonTimestream('AmazonTimestream', 'Amazon Timestream', 'an optional tech label')
+AmazonTimestream('AmazonTimestream', 'Amazon Timestream', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -11,8 +11,8 @@ RSY54SCm40H0wr7txh_VY67Y7Lx_mdeH4N93boVVjxDSZDBpQYgP2Tc-0EU7AKb-ZdC62E3hvFku7iwB
 EhjRgNqbXtrdxjjPZ_xz
 }
 
-!procedure SecurityIdentityCompliance($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Category/SecurityIdentityCompliance', $name, $tech)
+!procedure SecurityIdentityCompliance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Category/SecurityIdentityCompliance', $name, $tech, $desc)
 !endprocedure
 
 !procedure SecurityIdentityComplianceCard($id, $funcName="", $content="")

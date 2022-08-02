@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/LoT/AwsIoTThingPoliceEmergency')
 
 ' renders the element
-AwsIoTThingPoliceEmergency('AwsIoTThingPoliceEmergency', 'Aws Io T Thing Police Emergency', 'an optional tech label')
+AwsIoTThingPoliceEmergency('AwsIoTThingPoliceEmergency', 'Aws Io T Thing Police Emergency', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/LoT/AwsIoTThingPoliceEmergency')
 
 ' renders the element
-AwsIoTThingPoliceEmergency('AwsIoTThingPoliceEmergency', 'Aws Io T Thing Police Emergency', 'an optional tech label')
+AwsIoTThingPoliceEmergency('AwsIoTThingPoliceEmergency', 'Aws Io T Thing Police Emergency', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

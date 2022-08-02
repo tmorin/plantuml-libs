@@ -2,20 +2,20 @@
 
 sprite $AwsWafFilteringRuleXs [10x10/16z] 1S450G0n000XNYVNl-y008JW1j7zObe8cS333Rb8W9T0iERTom4
 
-sprite $AwsWafFilteringRuleSm [12x12/16z] LS6t0GD140GWtjsQwRzVnGB_hdnt1NmNE1VNTLTF7qKakvjMFcuCSTEuMOKHHD3WuT2DnLLWWShcmGy
+sprite $AwsWafFilteringRuleSm [12x12/16z] NS790S0W40GWl7Md_txp3_Z9R3jW0HEqSzzTDf5KLQvZql68naMZR3n111iC9lkYO8C2JYe37m
 
 sprite $AwsWafFilteringRuleMd [16x16/16z] {
-POs50GD020Clxy3-yrQWNbmJu5zwX8UB4aNBlAnQ1pwgeArZTlP26teZpffZRWiC0bQJchG57ITde0DOzfhFeLUon04snHQLkz2g_W0vDC6T4fWzXu8ivY9b
-6q3t79Ar-LPMLm
+PO-50GCm408l_hB_l9MdtXXmSU2_ZCp8UCLi9SiLG_9qILlcRgV3WT586xttwOb3mjR-0upQavKDyCfjFM5874RJ7jsMqjvWAP_d0xooBM2sh_VDBJrUUwEz
+F-XnbAu
 }
 
 sprite $AwsWafFilteringRuleLg [20x20/16z] {
-TOu5SWGm3CGKi6Fu_tiBsNBl58wrC-Ov5jLr5jzORzx97Y3A-QGCdPDlb31d-edC23UeMs7sHaIp4cn3sObuzygW8O3PqiRx6KlvK3W1bd4LxUi0J9V7Ziy2
-jZb8dCJGRR2Ior52Tl_-ymqCYHdt7AhODVspGx5h8LoMWXrhxkwD4Cjy3yGh
+TS-5eOKm343H6wEH_UTzXdqzE6sC_rdsz19kCSvR3QTsJXt7Kxdj4U68hgpAt1JwiuBE6Po359X3nyfyxsk7WGHas0sGiiUdyLO0fior0Li0glGnnxb0A8kF
+4LBE42a-5dtNcU__Dh-gKRa_zvMOp_ePkVCMTbjpgKbJdt6-4bNby0G
 }
 
-!procedure AwsWafFilteringRule($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/SecurityIdentityAndCompliance/AwsWafFilteringRule', $name, $tech)
+!procedure AwsWafFilteringRule($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/SecurityIdentityAndCompliance/AwsWafFilteringRule', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsWafFilteringRuleCard($id, $funcName="", $content="")

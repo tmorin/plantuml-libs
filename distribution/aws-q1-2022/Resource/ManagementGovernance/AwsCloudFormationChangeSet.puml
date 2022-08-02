@@ -2,17 +2,17 @@
 
 sprite $AwsCloudFormationChangeSetXs [10x10/16z] Oq00JWIBcuE3Yu4TpE9cOE3YHfC5YZ8nSAE8SNB1PRc0Ui0w62600G
 
-sprite $AwsCloudFormationChangeSetSm [12x12/16z] JOh70SCm3CGWYPtxpvkustXT0L_cJSAKCfnYpuhDOlQUkJYolrcmxi7OC_PnvEi8JlUU5slMbUkY-GC
+sprite $AwsCloudFormationChangeSetSm [12x12/16z] PSp50S102031FKFxhpVkcGyEB-NWG0z12TPy82MewTosVDnvHpBBlq-vyqf7oUDF8Ouy3iaC
 
-sprite $AwsCloudFormationChangeSetMd [16x16/16z] RSk50G0X30F0rB3il-_ttGXwqE8NZZkMxYAoVJXqCuFcmsJeOUHjAC7T7e5CHEp6bTr6trHZDy7Ed91o_zUSFkyNwii4WGffl5pRQ61xr0joRUOZYWK
+sprite $AwsCloudFormationChangeSetMd [16x16/16z] RKk50S0m328ovVzx9tMZac2OmBlYvnSI718uZP1RSKlYk3yk12ENg4kQfO_KDtfWk-S-T_8Rs9Dlm57ygGzAugKVyYSBz_C-mNEPPmFW1G
 
 sprite $AwsCloudFormationChangeSetLg [20x20/16z] {
-ZS_50KKn20NH0IA4st-ztrtVB4yKFZRrrEBGSXwhisMcGO3hPY8FNaNDThVbxZLYefj9ng6IRiP3lwnIG8TPQGzlw90FJ4_xLjptRNzZgNWr8M0QsNItCXq2
-tUSTftrEaXSB2xjtiXXFTTW3
+bS_LWKKX34NH3GJBwR_UcMVNVNt6mwwgXGxGMN207bfhG82W8HP5UyNTyMfJh8SGt595334909U660idCMy2CbHlJ3lGIooWHLsFGzsJ7Ls-ZWKXe0QQQThh
+w0Kq_8lAKCUmDuKK9WuGuXBy0m
 }
 
-!procedure AwsCloudFormationChangeSet($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/ManagementGovernance/AwsCloudFormationChangeSet', $name, $tech)
+!procedure AwsCloudFormationChangeSet($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/ManagementGovernance/AwsCloudFormationChangeSet', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsCloudFormationChangeSetCard($id, $funcName="", $content="")

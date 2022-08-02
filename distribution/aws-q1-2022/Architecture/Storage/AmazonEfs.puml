@@ -14,8 +14,8 @@ FSx10SGW24HHL026xR_V9PB9FpvLG9SifYOgaSPeVWurpXax0bhgUWqBC8qcKsqhtAJryC-wk1E0hZrO
 IG2lPScw9RBjzwiJLjsyrWGUMrv4aySQWI9cKriZmzCObVW7
 }
 
-!procedure AmazonEfs($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Storage/AmazonEfs', $name, $tech)
+!procedure AmazonEfs($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Storage/AmazonEfs', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonEfsCard($id, $funcName="", $content="")

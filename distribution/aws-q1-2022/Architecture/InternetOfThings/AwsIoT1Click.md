@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/InternetOfThings/AwsIoT1Click')
 
 ' renders the element
-AwsIoT1Click('AwsIoT1Click', 'Aws Io T1 Click', 'an optional tech label')
+AwsIoT1Click('AwsIoT1Click', 'Aws Io T1 Click', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/InternetOfThings/AwsIoT1Click')
 
 ' renders the element
-AwsIoT1Click('AwsIoT1Click', 'Aws Io T1 Click', 'an optional tech label')
+AwsIoT1Click('AwsIoT1Click', 'Aws Io T1 Click', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,17 +2,17 @@
 
 sprite $AwsIoTGreengrassArtifactXs [10x10/16z] Oq01J9oC40Od1AF9GYWs8EHau02Iw01DBum6
 
-sprite $AwsIoTGreengrassArtifactSm [12x12/16z] NKq50W0X38Br_l_Wwr3N2LY5pRVinu6KAsaSuIxV723y-alqfSd_XikznlraJte7-9Xs
+sprite $AwsIoTGreengrassArtifactSm [12x12/16z] Oy00d0WMdCVE2AQOs804c0cdsO0qAqGD0oSOiYEhGMUpGJGnmIWcDZHx0G
 
-sprite $AwsIoTGreengrassArtifactMd [16x16/16z] TSw5bGKm202mKANx3tp2-owfA_ZYUBHwpCd5I90TjDCeFGFRNLxMhQQNZjrDVIgdoN14LGAjCo_ppQMx_1TSHC9Sb7MPo5bP1XVHTcyU9UKN
+sprite $AwsIoTGreengrassArtifactMd [16x16/16z] TKw50S0m20jr_ZzuYaw2E_W1fsXKwjsYiYwpYhHIoayubiHqkQAEL4L7xJQ-3YqicmhGBa_sZRGlxKSV-gKwgyet2Ygp4YAqk0C
 
 sprite $AwsIoTGreengrassArtifactLg [20x20/16z] {
-VOy50WKX20K7LE3T_y0_jsjsLJfumcGSSCJUw3M0g8qrDGdAIHXoc6WQV0csnCusHInoTqZ6f64TgaCwCQ0R4888-3u52YO6tV5-wAJBliU8bUABPQnHvPFa
-wjDcpigGcMkmfwbnOWrw0m
+VK-50O102Fm4Rl-5fMnzkgCi0Qz8qrYzXsIg8Bb466c0q-WucngwQxfDeLjidfxRe-bKipBJTUtGK2saWUx5KDOEn34una_hRlsn2U-zhuhRb_bQLjvVniWl
+swMZGmLwkKD5BIyuspO
 }
 
-!procedure AwsIoTGreengrassArtifact($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTGreengrassArtifact', $name, $tech)
+!procedure AwsIoTGreengrassArtifact($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTGreengrassArtifact', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTGreengrassArtifactCard($id, $funcName="", $content="")

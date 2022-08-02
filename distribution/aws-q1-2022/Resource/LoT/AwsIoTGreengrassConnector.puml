@@ -2,14 +2,14 @@
 
 sprite $AwsIoTGreengrassConnectorXs [10x10/16z] Oo0QS31mCh00CGInG6Ye67u
 
-sprite $AwsIoTGreengrassConnectorSm [12x12/16z] bOS50S10009lXlGFF0_mZyCyv1tVlb7m6hXF3UBUBUJV6zoX5OanN
+sprite $AwsIoTGreengrassConnectorSm [12x12/16z] bSP70SD0300mtRJD7t2R1I3HIxvRCKLqAA8bavfiIHNvl4CRpHZU-GC
 
-sprite $AwsIoTGreengrassConnectorMd [16x16/16z] jOU70S0m2CF4XlyFxku7YHYss87g_sxArOLKBUD27QmhWGPck5oulQP1ulBCsuURQ4yXtKTOpWa
+sprite $AwsIoTGreengrassConnectorMd [16x16/16z] jOW70GCn3CIKUFCdN6SnwCjJnnUCyTOY5067c2ncTqOx2LITQBdKIgpTT7cnq5pYgiN_-G4
 
-sprite $AwsIoTGreengrassConnectorLg [20x20/16z] pOh70O1G34Bv7VPVMB1leE-GqF0pcaZvaLmuwFIHVmUAVs2Ek9AXvKZ2iuiVlkkz6pwcwjaruQ1CakvyEpva0m
+sprite $AwsIoTGreengrassConnectorLg [20x20/16z] pOs50S0W40E39_iFZCjlq1wy6tv642d0aInOE7OrSd7P0OSIoyo5C089hs_4lkjY-vB3HAyl29jCSjsD-906
 
-!procedure AwsIoTGreengrassConnector($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTGreengrassConnector', $name, $tech)
+!procedure AwsIoTGreengrassConnector($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTGreengrassConnector', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTGreengrassConnectorCard($id, $funcName="", $content="")

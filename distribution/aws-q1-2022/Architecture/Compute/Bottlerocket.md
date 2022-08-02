@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Compute/Bottlerocket')
 
 ' renders the element
-Bottlerocket('Bottlerocket', 'Bottlerocket', 'an optional tech label')
+Bottlerocket('Bottlerocket', 'Bottlerocket', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Compute/Bottlerocket')
 
 ' renders the element
-Bottlerocket('Bottlerocket', 'Bottlerocket', 'an optional tech label')
+Bottlerocket('Bottlerocket', 'Bottlerocket', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

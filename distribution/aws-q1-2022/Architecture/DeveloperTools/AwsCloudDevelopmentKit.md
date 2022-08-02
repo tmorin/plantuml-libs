@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/DeveloperTools/AwsCloudDevelopmentKit')
 
 ' renders the element
-AwsCloudDevelopmentKit('AwsCloudDevelopmentKit', 'Aws Cloud Development Kit', 'an optional tech label')
+AwsCloudDevelopmentKit('AwsCloudDevelopmentKit', 'Aws Cloud Development Kit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/DeveloperTools/AwsCloudDevelopmentKit')
 
 ' renders the element
-AwsCloudDevelopmentKit('AwsCloudDevelopmentKit', 'Aws Cloud Development Kit', 'an optional tech label')
+AwsCloudDevelopmentKit('AwsCloudDevelopmentKit', 'Aws Cloud Development Kit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Compute/AmazonEc2AutoScaling')
 
 ' renders the element
-AmazonEc2AutoScaling('AmazonEc2AutoScaling', 'Amazon Ec2 Auto Scaling', 'an optional tech label')
+AmazonEc2AutoScaling('AmazonEc2AutoScaling', 'Amazon Ec2 Auto Scaling', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Compute/AmazonEc2AutoScaling')
 
 ' renders the element
-AmazonEc2AutoScaling('AmazonEc2AutoScaling', 'Amazon Ec2 Auto Scaling', 'an optional tech label')
+AmazonEc2AutoScaling('AmazonEc2AutoScaling', 'Amazon Ec2 Auto Scaling', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

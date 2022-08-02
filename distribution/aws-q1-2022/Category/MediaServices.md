@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Category/MediaServices')
 
 ' renders the element
-MediaServices('MediaServices', 'Media Services', 'an optional tech label')
+MediaServices('MediaServices', 'Media Services', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Category/MediaServices')
 
 ' renders the element
-MediaServices('MediaServices', 'Media Services', 'an optional tech label')
+MediaServices('MediaServices', 'Media Services', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

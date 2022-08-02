@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Containers/AmazonEksAnywhere')
 
 ' renders the element
-AmazonEksAnywhere('AmazonEksAnywhere', 'Amazon Eks Anywhere', 'an optional tech label')
+AmazonEksAnywhere('AmazonEksAnywhere', 'Amazon Eks Anywhere', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Containers/AmazonEksAnywhere')
 
 ' renders the element
-AmazonEksAnywhere('AmazonEksAnywhere', 'Amazon Eks Anywhere', 'an optional tech label')
+AmazonEksAnywhere('AmazonEksAnywhere', 'Amazon Eks Anywhere', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

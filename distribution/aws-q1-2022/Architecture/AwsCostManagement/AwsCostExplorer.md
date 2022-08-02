@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/AwsCostManagement/AwsCostExplorer')
 
 ' renders the element
-AwsCostExplorer('AwsCostExplorer', 'Aws Cost Explorer', 'an optional tech label')
+AwsCostExplorer('AwsCostExplorer', 'Aws Cost Explorer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/AwsCostManagement/AwsCostExplorer')
 
 ' renders the element
-AwsCostExplorer('AwsCostExplorer', 'Aws Cost Explorer', 'an optional tech label')
+AwsCostExplorer('AwsCostExplorer', 'Aws Cost Explorer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -11,8 +11,8 @@ RT1L0iKW30NHDEYTiF_jFgsN-JmuWBRw6XDaWgnOLZoPdMV-n2ldcK1ne2wolc90XkuDgNh_OSJNR3tT
 SBB0KmAIwx00g2wGne6ozPV62RV61CS4tm
 }
 
-!procedure AwsCodeArtifact($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/DeveloperTools/AwsCodeArtifact', $name, $tech)
+!procedure AwsCodeArtifact($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/DeveloperTools/AwsCodeArtifact', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsCodeArtifactCard($id, $funcName="", $content="")

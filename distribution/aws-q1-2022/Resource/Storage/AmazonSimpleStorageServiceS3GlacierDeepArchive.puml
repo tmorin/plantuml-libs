@@ -2,20 +2,17 @@
 
 sprite $AmazonSimpleStorageServiceS3GlacierDeepArchiveXs [10x10/16z] LSk50S1020F0g_BPV-2wuaHy8Z0NxGDDIK6kfg3BN3yV0oD8qX8gZNHM
 
-sprite $AmazonSimpleStorageServiceS3GlacierDeepArchiveSm [12x12/16z] LKo50G01477D_WD_vtK0FokMUtAsKVUjjrdbW1K9yBvlG-nTPzfvbT4-UdQ2Fbhj2UdaZpISsX_PNX2n0W
+sprite $AmazonSimpleStorageServiceS3GlacierDeepArchiveSm [12x12/16z] LKi50W0X29i1RF__y9sjD0iyOQmf5SP_QcF_hTAkJ09S-7zqLBSOIapOKVyxuuJ_bIkauGyf68OVJHqdFW
 
-sprite $AmazonSimpleStorageServiceS3GlacierDeepArchiveMd [16x16/16z] {
-POo5GGK024HfxlPVM43zIUUJRz4cHbXw7Ur_uPo0ryiKYKAwJks9yibJUupuP9i-xZKtreQ-J-2__0SM5PpC9vxKv_x__qYc2_KjBy1AZBqxym4tOGIFnH3j
-3370VhakjO0kbHy
-}
+sprite $AmazonSimpleStorageServiceS3GlacierDeepArchiveMd [16x16/16z] PS790GDH20KWz6--_XjExWDylSnVBf02w600uB3lh88wSnUWzYuKDFI11HTg7XuCuAOc281AC01SED2m6XPCNvrte7WlKva4ijGxhMSQM4xZNNu
 
 sprite $AmazonSimpleStorageServiceS3GlacierDeepArchiveLg [20x20/16z] {
-TKx7WGCm3B9LBDX_OVTobuI7ke3q2-O14k6w9-Gf2wCdGNvV5FslXHSSTvrdt8evWckHFTWGrbhiumVbcN5bVsQYxAsEMSX-osGkYBwnIvQTu6Ouu5OwE0r6
-ZC41qtlkbEXHuzmP2usAQ75Gj7Fnra6jnKL59h1pa9d7L_iMIJssiW8
+TO-r0G113CCEOsl_WPyPL8Gn_P6x35RFUmJgRWPQQfokPE_Y0alCgdcVQx4bSXSJQfFhBNObBZ4stI-nN9dTkjobVDm1EQmvazD9nsmJJjWtxPoE5xaUxfRF
+yaxHBAkEkapGgDOabn5v_Qwuj4bkeo2PUGPaqabPPPx42
 }
 
-!procedure AmazonSimpleStorageServiceS3GlacierDeepArchive($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AmazonSimpleStorageServiceS3GlacierDeepArchive', $name, $tech)
+!procedure AmazonSimpleStorageServiceS3GlacierDeepArchive($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AmazonSimpleStorageServiceS3GlacierDeepArchive', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonSimpleStorageServiceS3GlacierDeepArchiveCard($id, $funcName="", $content="")

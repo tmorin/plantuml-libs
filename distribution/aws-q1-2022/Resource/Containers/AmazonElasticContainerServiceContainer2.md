@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Containers/AmazonElasticContainerServiceContainer2')
 
 ' renders the element
-AmazonElasticContainerServiceContainer2('AmazonElasticContainerServiceContainer2', 'Amazon Elastic Container Service Container2', 'an optional tech label')
+AmazonElasticContainerServiceContainer2('AmazonElasticContainerServiceContainer2', 'Amazon Elastic Container Service Container2', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Containers/AmazonElasticContainerServiceContainer2')
 
 ' renders the element
-AmazonElasticContainerServiceContainer2('AmazonElasticContainerServiceContainer2', 'Amazon Elastic Container Service Container2', 'an optional tech label')
+AmazonElasticContainerServiceContainer2('AmazonElasticContainerServiceContainer2', 'Amazon Elastic Container Service Container2', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Compute/AwsThinkBoxDeadline')
 
 ' renders the element
-AwsThinkBoxDeadline('AwsThinkBoxDeadline', 'Aws Think Box Deadline', 'an optional tech label')
+AwsThinkBoxDeadline('AwsThinkBoxDeadline', 'Aws Think Box Deadline', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Compute/AwsThinkBoxDeadline')
 
 ' renders the element
-AwsThinkBoxDeadline('AwsThinkBoxDeadline', 'Aws Think Box Deadline', 'an optional tech label')
+AwsThinkBoxDeadline('AwsThinkBoxDeadline', 'Aws Think Box Deadline', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Database/AmazonAurora')
 
 ' renders the element
-AmazonAurora('AmazonAurora', 'Amazon Aurora', 'an optional tech label')
+AmazonAurora('AmazonAurora', 'Amazon Aurora', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Database/AmazonAurora')
 
 ' renders the element
-AmazonAurora('AmazonAurora', 'Amazon Aurora', 'an optional tech label')
+AmazonAurora('AmazonAurora', 'Amazon Aurora', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

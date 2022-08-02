@@ -2,17 +2,14 @@
 
 sprite $AmazonEventBridgeSchemaXs [10x10/16z] Oy04J62I6yhY1cCcY10NK0mYnCd63HLZXwZZ0d5Gz3910Gi
 
-sprite $AmazonEventBridgeSchemaSm [12x12/16z] JSc54S0m3C10XS7xxzjJEJ6--R-IdxT9GbYS0nQ4iz3PN7FgtfnNPCX4qM4-3eNAkkQ94PUZwljzSG
+sprite $AmazonEventBridgeSchemaSm [12x12/16z] JOk50S0m3CDKfl__NJKEny0_KdXY4WIMOzyU0vQtGDfztLGvxx4koutt1uT4P5ntbtWrekBpZNK
 
-sprite $AmazonEventBridgeSchemaMd [16x16/16z] ROw30G0n5CLgPVzv3xLIVZ-nGvf1fE9MDTfikbt-CHl5ha6c_1J2N9zAHR6Xs9gOxL8gupml9ZVgLPZx5_C_tFND85ZmBm
+sprite $AmazonEventBridgeSchemaMd [16x16/16z] POw30K0n30LhtVxpVYEuCdx1mf8Gbew-Di8-__CqRliD8lBNwAB-kkPhmsr7vXj7na_cQdzz7BB_RPu7hy_hHz5t
 
-sprite $AmazonEventBridgeSchemaLg [20x20/16z] {
-VO-50SGW0CI2o-q_xqknUbei7COTLMS2ueIDozKRfvqRmx9D3BSoCilX2DNY33jd5QaLzYvjEzhfl3HSb7Ov0zILsr16YRqBuBDXdmlZNPekP82jqkjxDyBE
-sHC-4k8P-mK
-}
+sprite $AmazonEventBridgeSchemaLg [20x20/16z] TS_L0SCm40JHoPfl-wytP13FvnCUlS9rmbGfi-YOIpF00U3BiZtEpuevNeZSy4e4XMtNZRV9lcsrgttLMRpZhR05j8CoMwBvtx83x1SEvxrIPggQXPhu
 
-!procedure AmazonEventBridgeSchema($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/ApplicationIntegration/AmazonEventBridgeSchema', $name, $tech)
+!procedure AmazonEventBridgeSchema($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/ApplicationIntegration/AmazonEventBridgeSchema', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonEventBridgeSchemaCard($id, $funcName="", $content="")

@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/ApplicationIntegration/AmazonEventBridgeCustomEventBus')
 
 ' renders the element
-AmazonEventBridgeCustomEventBus('AmazonEventBridgeCustomEventBus', 'Amazon Event Bridge Custom Event Bus', 'an optional tech label')
+AmazonEventBridgeCustomEventBus('AmazonEventBridgeCustomEventBus', 'Amazon Event Bridge Custom Event Bus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/ApplicationIntegration/AmazonEventBridgeCustomEventBus')
 
 ' renders the element
-AmazonEventBridgeCustomEventBus('AmazonEventBridgeCustomEventBus', 'Amazon Event Bridge Custom Event Bus', 'an optional tech label')
+AmazonEventBridgeCustomEventBus('AmazonEventBridgeCustomEventBus', 'Amazon Event Bridge Custom Event Bus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

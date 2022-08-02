@@ -2,20 +2,17 @@
 
 sprite $AmazonSimpleStorageServiceS3IntelligentTieringXs [10x10/16z] JKe50G11388v_GE_oqqnBANpv02pI2drXTu0BafLlw74MwCNSOvWawd63W
 
-sprite $AmazonSimpleStorageServiceS3IntelligentTieringSm [12x12/16z] LSh50SDG30KmVN3xlF_0PKXqbfDApRaJj8-YkoQZ4k8ZB9_O32yzCltK_AJFktXP2_4o5AvvQEqE
+sprite $AmazonSimpleStorageServiceS3IntelligentTieringSm [12x12/16z] LSUr0GH040GWpcVxB_XToV1dPROs4fINITM0bX0lOK2Xl5LBzp4RxnOsq1hYPU7affGh
 
-sprite $AmazonSimpleStorageServiceS3IntelligentTieringMd [16x16/16z] {
-PKq50a9H37hhSVyBYzZ-TSAvYWsMWZ5ryDSYmB3VbtrEzfOklBQ3C-DXKbWx5vPwLInZQ1tllCeNOCCMpFZ00_P3M0gVlUxZtOTM_XcOVl4Sf2zKM0umQNV-
-6m
-}
+sprite $AmazonSimpleStorageServiceS3IntelligentTieringMd [16x16/16z] RKs50G112BAL_GV-ZYliX1P8r07aNO7Vlk1mrMu6aKNfjS5QeNI3pSxUrPUxyQLnrPLlMkylSE68e1SCS4Vej_jmxUk_htTe5au7kGlXmfrP0caN_mu
 
 sprite $AmazonSimpleStorageServiceS3IntelligentTieringLg [20x20/16z] {
-TOm70i0m20Bh2lB_3xVQlUX8E8NfJnv8CX6s4_Au1hCEJRb6hA3NxoBsNlL8HpmIt0OIIPBmnUR6hiA5SJlZminPLfj1zvYGCXAzS9P94DmRMXSphinMbrUK
-tbbU6MJRkqYoxR3Bdcyn42wJQ90A7WcF657xilnc
+TKy55iKm22jMoFqF_8NNpCSqEZRUHY8Bg0mX0nXV0zMUEaVgpWqqLsd2tagqqE_uJVeFrkAEamSEwna7JXn_gDPcOKm0cVKFhuzowGGRE0Jpo9dteqw_vbnw
+vtBGTpGsd7AWVCKIwJ940v34hgkfqly5
 }
 
-!procedure AmazonSimpleStorageServiceS3IntelligentTiering($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AmazonSimpleStorageServiceS3IntelligentTiering', $name, $tech)
+!procedure AmazonSimpleStorageServiceS3IntelligentTiering($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AmazonSimpleStorageServiceS3IntelligentTiering', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonSimpleStorageServiceS3IntelligentTieringCard($id, $funcName="", $content="")

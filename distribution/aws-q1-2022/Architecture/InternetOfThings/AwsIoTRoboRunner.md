@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/InternetOfThings/AwsIoTRoboRunner')
 
 ' renders the element
-AwsIoTRoboRunner('AwsIoTRoboRunner', 'Aws Io T Robo Runner', 'an optional tech label')
+AwsIoTRoboRunner('AwsIoTRoboRunner', 'Aws Io T Robo Runner', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/InternetOfThings/AwsIoTRoboRunner')
 
 ' renders the element
-AwsIoTRoboRunner('AwsIoTRoboRunner', 'Aws Io T Robo Runner', 'an optional tech label')
+AwsIoTRoboRunner('AwsIoTRoboRunner', 'Aws Io T Robo Runner', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

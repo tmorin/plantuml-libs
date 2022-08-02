@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Storage/AmazonElasticFileSystemStandard')
 
 ' renders the element
-AmazonElasticFileSystemStandard('AmazonElasticFileSystemStandard', 'Amazon Elastic File System Standard', 'an optional tech label')
+AmazonElasticFileSystemStandard('AmazonElasticFileSystemStandard', 'Amazon Elastic File System Standard', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Storage/AmazonElasticFileSystemStandard')
 
 ' renders the element
-AmazonElasticFileSystemStandard('AmazonElasticFileSystemStandard', 'Amazon Elastic File System Standard', 'an optional tech label')
+AmazonElasticFileSystemStandard('AmazonElasticFileSystemStandard', 'Amazon Elastic File System Standard', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

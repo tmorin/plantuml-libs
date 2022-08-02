@@ -8,8 +8,8 @@ sprite $RegionMd [16x16/16z] uoG6SA1osPZGv9bP8G2k04ooSABmEJXG-Pm8KnWWW0aX3m5ayjb
 
 sprite $RegionLg [20x20/16z] uwGKi3DX4MF0ef2H5GOGOZ2zp1mOOcpid1XYp42CePSHIOm11f0SXM3ILGpaJp8
 
-!procedure Region($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/GroupIcons/Region', $name, $tech)
+!procedure Region($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/GroupIcons/Region', $name, $tech, $desc)
 !endprocedure
 
 !procedure RegionCard($id, $funcName="", $content="")

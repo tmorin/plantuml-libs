@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/InternetOfThings/AwsIoTButton')
 
 ' renders the element
-AwsIoTButton('AwsIoTButton', 'Aws Io T Button', 'an optional tech label')
+AwsIoTButton('AwsIoTButton', 'Aws Io T Button', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/InternetOfThings/AwsIoTButton')
 
 ' renders the element
-AwsIoTButton('AwsIoTButton', 'Aws Io T Button', 'an optional tech label')
+AwsIoTButton('AwsIoTButton', 'Aws Io T Button', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

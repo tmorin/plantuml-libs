@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Database/AmazonMemoryDbForRedis')
 
 ' renders the element
-AmazonMemoryDbForRedis('AmazonMemoryDbForRedis', 'Amazon Memory Db For Redis', 'an optional tech label')
+AmazonMemoryDbForRedis('AmazonMemoryDbForRedis', 'Amazon Memory Db For Redis', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Database/AmazonMemoryDbForRedis')
 
 ' renders the element
-AmazonMemoryDbForRedis('AmazonMemoryDbForRedis', 'Amazon Memory Db For Redis', 'an optional tech label')
+AmazonMemoryDbForRedis('AmazonMemoryDbForRedis', 'Amazon Memory Db For Redis', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

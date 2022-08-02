@@ -2,17 +2,17 @@
 
 sprite $AwsIoTPolicyXs [10x10/16z] VS6n0G0G00In0_Zz1mP09U5A7N-MomD2Nic3G5OXCXXU5G
 
-sprite $AwsIoTPolicySm [12x12/16z] JSp70S0m3090m4tilt3YxbDzWPU6-PF4nfplBztVqK_qJRjlGEmRi2qPhEt_XTQCKhiULZ15AGsl3m
+sprite $AwsIoTPolicySm [12x12/16z] TOY30G1H34FVHv7z1puRRSpVbMlk_NjN0cGkMRFk04aLKNg0AX72MgtLQmDZlMmjkDu8
 
-sprite $AwsIoTPolicyMd [16x16/16z] XOk50G0n20CJYku_yBlhLOdWZuePNUQasFZwEgFqD5Fyx4CkUPi-bHLJtch90RMymu_L0CeukunfqSmCf4QRslHXT9IRZz26b1ChOzqLE-96tEW1
+sprite $AwsIoTPolicyMd [16x16/16z] XSs50KGn309GI2LX_uMFdFkd-geuYlAIUNM1gyTrj-QhkLyDlfs_J5NADfUkvxns7JsZmaEqT_HfpgfALAHfOviRYXNEvhf-SereJZp2lV2P4m
 
 sprite $AwsIoTPolicyLg [20x20/16z] {
-ZOo50O0m40Fxdko_CEvwKFj8-ulLWgupoWAsMKE_1lOpeO-tBr_Fcq_FVSACOEnzyvw-wuD4p1B7r70lLwBSlP_vv2NwQsGn-dVETL1XHAGrP4RszFUrRuDo
-6RM-f01jl-a
+ZOo50KHH2CDmslq7FltkUOf5dk8zObEEqm-B78Ixd33E-vxxREjJbZbzsJVS5GiVr6mS75lOOKH7w2UC8O_FDwjfdxW67Jv1PfOApDA-b6UEdWdgBYKVIGFo
+d3S
 }
 
-!procedure AwsIoTPolicy($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTPolicy', $name, $tech)
+!procedure AwsIoTPolicy($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTPolicy', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTPolicyCard($id, $funcName="", $content="")

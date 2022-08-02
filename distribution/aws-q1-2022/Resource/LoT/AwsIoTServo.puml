@@ -2,14 +2,14 @@
 
 sprite $AwsIoTServoXs [10x10/16z] Oy06c860XPcPdHN2vUHaO8BBCO7vZ40MgXW31uJ52GC8um
 
-sprite $AwsIoTServoSm [12x12/16z] TSQr0G0X402muDp-0xzBHQfO6J_9AQIOp_EOpWywpXUffkTEp_COwNsdl__nsm4
+sprite $AwsIoTServoSm [12x12/16z] TSQr0G0X402muB3_mEzINQg8Z9_aj5ZpUHxJ-KR5-K99pvsUfp6-T_hpm0u
 
-sprite $AwsIoTServoMd [16x16/16z] bOi54iHG24E3a_iVUAN6TAJolXB1MrWhN4wZTrqXBJDBimNhFFndfmAScGXG_9Zn-qRCB1MAwKjQKcTk1OJ772SCDtm1
+sprite $AwsIoTServoMd [16x16/16z] bSX50eGm40NHYlU__u5dWFW6gUXhlgPIqtKCeoR0cCPaTJAhZW8qBH9oOPW8CKvJ4hNgx8Fyj3b0msahyD0V
 
-sprite $AwsIoTServoLg [20x20/16z] fSZ50KKX30NH0MAt_uA_omjR1itXf6Lx0wrFzlgbt17V530ovil--EHkCym_rlkO8i7KxNMDl9hbn3AR_VjRAMNT9B2oPWLFl5Xfppde3W
+sprite $AwsIoTServoLg [20x20/16z] fSZ50O1034JHsVZqNp1kWID_DGz_6fy0wf5jlwGBY3F6ScN8QWzSkHl2z6DBfp4IK7RRhf5FirnFDciTLanQDoviPSqAMF5XnNS3Fve1
 
-!procedure AwsIoTServo($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTServo', $name, $tech)
+!procedure AwsIoTServo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTServo', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTServoCard($id, $funcName="", $content="")

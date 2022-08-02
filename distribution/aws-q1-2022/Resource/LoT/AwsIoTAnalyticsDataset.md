@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/LoT/AwsIoTAnalyticsDataset')
 
 ' renders the element
-AwsIoTAnalyticsDataset('AwsIoTAnalyticsDataset', 'Aws Io T Analytics Dataset', 'an optional tech label')
+AwsIoTAnalyticsDataset('AwsIoTAnalyticsDataset', 'Aws Io T Analytics Dataset', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/LoT/AwsIoTAnalyticsDataset')
 
 ' renders the element
-AwsIoTAnalyticsDataset('AwsIoTAnalyticsDataset', 'Aws Io T Analytics Dataset', 'an optional tech label')
+AwsIoTAnalyticsDataset('AwsIoTAnalyticsDataset', 'Aws Io T Analytics Dataset', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

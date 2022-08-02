@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/SecurityIdentityCompliance/AwsAuditManager')
 
 ' renders the element
-AwsAuditManager('AwsAuditManager', 'Aws Audit Manager', 'an optional tech label')
+AwsAuditManager('AwsAuditManager', 'Aws Audit Manager', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/SecurityIdentityCompliance/AwsAuditManager')
 
 ' renders the element
-AwsAuditManager('AwsAuditManager', 'Aws Audit Manager', 'an optional tech label')
+AwsAuditManager('AwsAuditManager', 'Aws Audit Manager', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

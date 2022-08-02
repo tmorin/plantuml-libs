@@ -11,8 +11,8 @@ RSs50GGX40F0jIHy_mt_BUSIV31rU0PBz4JkfYz3rAah1KIx6wCxSroig4RwQSVlo6eRacp_F5dPjk3-
 G6QmCgbjHf8S3fCqhjZ7ffsuPtpWxmF_
 }
 
-!procedure AmazonElasticTranscoder($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/MediaServices/AmazonElasticTranscoder', $name, $tech)
+!procedure AmazonElasticTranscoder($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/MediaServices/AmazonElasticTranscoder', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonElasticTranscoderCard($id, $funcName="", $content="")

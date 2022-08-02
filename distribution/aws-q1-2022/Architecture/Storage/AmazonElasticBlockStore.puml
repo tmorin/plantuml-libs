@@ -11,8 +11,8 @@ RSs74O0m34FHz4Xc_tsHp-Wgd_v8eOAxbSXgj3aRvhJUESjkWmsdVOP1pnzR5cIssvYZdLeW2dl-trsY
 dW1cg9gzGQQr4yRTqeHa626I2HspCgln1G
 }
 
-!procedure AmazonElasticBlockStore($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Storage/AmazonElasticBlockStore', $name, $tech)
+!procedure AmazonElasticBlockStore($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Storage/AmazonElasticBlockStore', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonElasticBlockStoreCard($id, $funcName="", $content="")

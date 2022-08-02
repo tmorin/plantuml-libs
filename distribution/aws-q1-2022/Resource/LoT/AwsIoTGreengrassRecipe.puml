@@ -2,14 +2,14 @@
 
 sprite $AwsIoTGreengrassRecipeXs [10x10/16z] Oq02d43CXCw2avpC39oSB9m8CGXcP6I0Yw6p6460am4
 
-sprite $AwsIoTGreengrassRecipeSm [12x12/16z] ZOo30S10301Zx3zmxRuk9hmWN4ZPyzK5ofMxEstv3czvG4Gi-MZVrpV_VkmGp
+sprite $AwsIoTGreengrassRecipeSm [12x12/16z] Oq05Z430oOJWSp0WEEpix30ciW8E3Wu6uiNPSHW3160D
 
-sprite $AwsIoTGreengrassRecipeMd [16x16/16z] ZOg50K0X44B10lSV-7UdpxWZSATuf7hLcdxJPmtggBEaikfJKo31WLTzxHV1ThdchpeFLIatzaDT2K0F
+sprite $AwsIoTGreengrassRecipeMd [16x16/16z] ZKg50G0X4C82t7_WxqulAToB7gjwvPgkuGk7Zhn8uivNjDuGmifl_erJiCtcV24abSPyh6j5e0S
 
-sprite $AwsIoTGreengrassRecipeLg [20x20/16z] dSo50O1020NGJyF-2zlTFhsYS25gH4kiq3EkanWL7MBpTRv8j6gEBUvZqbwhfVZUomPOYzTrrFuj_9aNGBJaUoyjffZuGjft0m
+sprite $AwsIoTGreengrassRecipeLg [20x20/16z] dSo50O0m34JHNqrk_uLnTnxKObmmZLYCznXr4aCdCRIB1MjfZYtkOqcWLkPxBx7zMvjOQFyMF-P50skbxxrXCSL2N0IW0G
 
-!procedure AwsIoTGreengrassRecipe($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTGreengrassRecipe', $name, $tech)
+!procedure AwsIoTGreengrassRecipe($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTGreengrassRecipe', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTGreengrassRecipeCard($id, $funcName="", $content="")

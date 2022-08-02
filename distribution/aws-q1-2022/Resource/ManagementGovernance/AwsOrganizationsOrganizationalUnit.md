@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/ManagementGovernance/AwsOrganizationsOrganizationalUnit')
 
 ' renders the element
-AwsOrganizationsOrganizationalUnit('AwsOrganizationsOrganizationalUnit', 'Aws Organizations Organizational Unit', 'an optional tech label')
+AwsOrganizationsOrganizationalUnit('AwsOrganizationsOrganizationalUnit', 'Aws Organizations Organizational Unit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/ManagementGovernance/AwsOrganizationsOrganizationalUnit')
 
 ' renders the element
-AwsOrganizationsOrganizationalUnit('AwsOrganizationsOrganizationalUnit', 'Aws Organizations Organizational Unit', 'an optional tech label')
+AwsOrganizationsOrganizationalUnit('AwsOrganizationsOrganizationalUnit', 'Aws Organizations Organizational Unit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

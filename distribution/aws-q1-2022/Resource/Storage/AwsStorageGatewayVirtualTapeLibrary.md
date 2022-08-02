@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Storage/AwsStorageGatewayVirtualTapeLibrary')
 
 ' renders the element
-AwsStorageGatewayVirtualTapeLibrary('AwsStorageGatewayVirtualTapeLibrary', 'Aws Storage Gateway Virtual Tape Library', 'an optional tech label')
+AwsStorageGatewayVirtualTapeLibrary('AwsStorageGatewayVirtualTapeLibrary', 'Aws Storage Gateway Virtual Tape Library', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Storage/AwsStorageGatewayVirtualTapeLibrary')
 
 ' renders the element
-AwsStorageGatewayVirtualTapeLibrary('AwsStorageGatewayVirtualTapeLibrary', 'Aws Storage Gateway Virtual Tape Library', 'an optional tech label')
+AwsStorageGatewayVirtualTapeLibrary('AwsStorageGatewayVirtualTapeLibrary', 'Aws Storage Gateway Virtual Tape Library', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

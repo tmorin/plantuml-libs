@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Analytics/AwsLakeFormation')
 
 ' renders the element
-AwsLakeFormation('AwsLakeFormation', 'Aws Lake Formation', 'an optional tech label')
+AwsLakeFormation('AwsLakeFormation', 'Aws Lake Formation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Analytics/AwsLakeFormation')
 
 ' renders the element
-AwsLakeFormation('AwsLakeFormation', 'Aws Lake Formation', 'an optional tech label')
+AwsLakeFormation('AwsLakeFormation', 'Aws Lake Formation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

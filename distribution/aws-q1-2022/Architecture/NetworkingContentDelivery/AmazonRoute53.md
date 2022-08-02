@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/NetworkingContentDelivery/AmazonRoute53')
 
 ' renders the element
-AmazonRoute53('AmazonRoute53', 'Amazon Route53', 'an optional tech label')
+AmazonRoute53('AmazonRoute53', 'Amazon Route53', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/NetworkingContentDelivery/AmazonRoute53')
 
 ' renders the element
-AmazonRoute53('AmazonRoute53', 'Amazon Route53', 'an optional tech label')
+AmazonRoute53('AmazonRoute53', 'Amazon Route53', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -11,8 +11,8 @@ RSYt0SD034MnO_gFtdzXYuMoK8AXKsruflRZusufTkKMzoihIU4wJm5eINRUWY0hLIcffv9XcBJc9ZML
 iIayWVqwF3DCZDvnwe_iZ_nzv1y
 }
 
-!procedure AmazonLightsail($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Compute/AmazonLightsail', $name, $tech)
+!procedure AmazonLightsail($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Compute/AmazonLightsail', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonLightsailCard($id, $funcName="", $content="")

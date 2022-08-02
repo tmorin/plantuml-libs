@@ -8,8 +8,8 @@ sprite $AwsStepFunctionMd [16x16/16z] ZOx50S0m201R7FRVDww_N0INUCHkym-vR48_SW7WAw
 
 sprite $AwsStepFunctionLg [20x20/16z] hSr50W8120NGaPRx7rZAP6Ez7Vdz7mXjzTXnzG3bkQ41DDnRTXw7ZnE4hk3Men0zAFtLbEiJJdw2-OIGEeOWzDBna4lZeJUP2nhkdk-UYN_g0W
 
-!procedure AwsStepFunction($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/GroupIcons/AwsStepFunction', $name, $tech)
+!procedure AwsStepFunction($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/GroupIcons/AwsStepFunction', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsStepFunctionCard($id, $funcName="", $content="")

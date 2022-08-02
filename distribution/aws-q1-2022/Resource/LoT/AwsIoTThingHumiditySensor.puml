@@ -2,20 +2,17 @@
 
 sprite $AwsIoTThingHumiditySensorXs [10x10/16z] JSo50GGn40B0YOV-2tuzMnV0q-PEuhB6W6Z3aaBQf_jkMeGuf_M_wUrh-w7t1W
 
-sprite $AwsIoTThingHumiditySensorSm [12x12/16z] LSr70GHH3CKm_VeI_e2tdaO6O4_Jx9gWyhTPWK4juf8MPePFHwQEla6t2bleCiDngKam4UnATLV6u_i6
+sprite $AwsIoTThingHumiditySensorSm [12x12/16z] LKs50GD13E8Ks7_Xahx75V2L1bX7AHuoCoNEMVR4Jd1orIMhiWdlPDXGyiGwi5AlgdNUjpDFKRRuvVq1
 
-sprite $AwsIoTThingHumiditySensorMd [16x16/16z] {
-RS-x5KGn2CHGCNWzq7_3U_pBdh8RYe-KfaD-7AFKcTPc_F9LG0wnc-0KpyxSTecUK3IsGL8MeyCOw1PM6y1TH0f6KCiHQDdGonAsGB-iPK-G0CGog_AhFd-U
-9y0V
-}
+sprite $AwsIoTThingHumiditySensorMd [16x16/16z] RS-t0G9130J0sGD-fVuR9hhivRtn0b4hlVx9MEVwtrmOv0HuQ482-ZcAJkp3M6sHP7msLUn6pnQwWt0OzCulYoRQa5y6xOEuec1wOLx_kVu3Vm
 
 sprite $AwsIoTThingHumiditySensorLg [20x20/16z] {
-TP17bWL12CD4WGjy_mDF-3bqIpi_hSmPIz7uudFRCU_Rcl73viB0aonWvMEhW5G6ak72iY5RISH0DJ1KaGheDbW11fFJ1GohI-gzPv45s0OrqmcGjYuTuC00
-pmuC-kf0drrFpsT7B1uTTEMJIIwKMbE-cEV_GIHYNmJu1G
+TT2tjG1H2CJGosDPeF-2l_TcbEae6lyjIjiNFjrjlhkOsGyQ63wNWOWFTmMPGTK2OfVi2WnNO-Gb4ztBLh2id7xh-bJsVS-H1xjBjUc4t3qOM1Ool7KizKTN
+FxkUdfyTuQEZh_pS113PEMVZcVZ_FuHmNe17
 }
 
-!procedure AwsIoTThingHumiditySensor($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTThingHumiditySensor', $name, $tech)
+!procedure AwsIoTThingHumiditySensor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTThingHumiditySensor', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTThingHumiditySensorCard($id, $funcName="", $content="")

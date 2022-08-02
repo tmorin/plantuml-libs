@@ -2,17 +2,17 @@
 
 sprite $TapeStorageXs [10x10/16z] XS450S0m000Wvjw_xWFSm8-pAVCG5qI7TGHRSfOjiia5pQCB
 
-sprite $TapeStorageSm [12x12/16z] ZSP70SCm400mUQ_ZJxTDWi1woPq2CkfKcZDCbgQJYf2_QTiHbT22nPcnzuwrtFW3
+sprite $TapeStorageSm [12x12/16z] ZSIt0S0m3CJ0Kmxa_lEwSwr_0DvM_jQj3h5ibcwWIjMa65V8Jkh98NRUU_CSB_i
 
-sprite $TapeStorageMd [16x16/16z] hS49GGGm302mxD_QubykZmOkyG43Q1syCtQWvep9QObG7fVIgalTJPwozfQDho2LYnA2FiX5ZFuMlU3cctyYjd_x0G
+sprite $TapeStorageMd [16x16/16z] hSMt0G9130NHTxTU4lsNYmc9uPiPVyZrvREk6QXsHMDTYL0Ecw98jvKSvPfJNZo2L3PA2Av6Tg8vWwjWvxa_YUX-pWi
 
 sprite $TapeStorageLg [20x20/16z] {
-lSG5WGH030ImB5FhN-wZXyk0Jsd5lrhzYpmHCFAUN93ZKBAO-s9jLlNW2AqYUQntnWgB36iCmPj9bgN4fKsRFN1TTJHkLR8zH7FgGuk_cssylFVcwNq_eE_X
-tre-v1i
+lOw50KD134BXNCZ-wvRKHlYdBmwUMlp3ZnHRIkXnTioaw3jVeArZcCktu6PeGs3vHEsOTvSgk2g4sWjazt0iQ9zSNGjSlhBaUBFJu1lCVY9sIQ3UJs6vSSw9
+JQxq8qNq3s1EFBHU
 }
 
-!procedure TapeStorage($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/GeneralIcons/TapeStorage', $name, $tech)
+!procedure TapeStorage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/GeneralIcons/TapeStorage', $name, $tech, $desc)
 !endprocedure
 
 !procedure TapeStorageCard($id, $funcName="", $content="")

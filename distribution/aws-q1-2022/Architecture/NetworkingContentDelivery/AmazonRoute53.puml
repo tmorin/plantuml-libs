@@ -14,8 +14,8 @@ RSs5WO1034JHU6P2__rUiFEFFrPuXSzwM_Yf_zdYN71U0I0ld1DLigIiDVt4MHGKkWEDpBoj8s6IT765
 Q2V321mpCJaRpoonTamZ0XUMNRiTYre3SKgGYiiMuPQilQ_UjhYfvWo_RF7fjd_m-0S_
 }
 
-!procedure AmazonRoute53($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/NetworkingContentDelivery/AmazonRoute53', $name, $tech)
+!procedure AmazonRoute53($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/NetworkingContentDelivery/AmazonRoute53', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonRoute53Card($id, $funcName="", $content="")

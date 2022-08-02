@@ -14,8 +14,8 @@ RSa50W0X2011R1R__z-3wrfxP4-FnXZyeFsW_Q1jg3ahbmNM1grmCzCAZarkrWAW8wSXHgcGfSbXARYe
 YQyn82pG4mI3qmAbc7UPuz5kNvm_E7zm0G
 }
 
-!procedure AmazonConnect($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/BusinessApplications/AmazonConnect', $name, $tech)
+!procedure AmazonConnect($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/BusinessApplications/AmazonConnect', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonConnectCard($id, $funcName="", $content="")

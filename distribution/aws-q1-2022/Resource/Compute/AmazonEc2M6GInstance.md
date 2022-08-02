@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Compute/AmazonEc2M6GInstance')
 
 ' renders the element
-AmazonEc2M6GInstance('AmazonEc2M6gInstance', 'Amazon Ec2 M6g Instance', 'an optional tech label')
+AmazonEc2M6GInstance('AmazonEc2M6gInstance', 'Amazon Ec2 M6g Instance', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Compute/AmazonEc2M6GInstance')
 
 ' renders the element
-AmazonEc2M6GInstance('AmazonEc2M6gInstance', 'Amazon Ec2 M6g Instance', 'an optional tech label')
+AmazonEc2M6GInstance('AmazonEc2M6gInstance', 'Amazon Ec2 M6g Instance', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,20 +2,17 @@
 
 sprite $AmazonSimpleStorageServiceS3StandardIaXs [10x10/16z] PKY50G112E8iPF-1l_kLnkEqIX7envGIjtGGsEeGYT-vFrl9hDIS0G
 
-sprite $AmazonSimpleStorageServiceS3StandardIaSm [12x12/16z] LSp50GH020Imh0_z5tok-U3uix9wdpaeBvkgrMap8Lx2y5ei6b0jtSTihoNKPdz_oazkLr9HhW
+sprite $AmazonSimpleStorageServiceS3StandardIaSm [12x12/16z] LSY50GGW34FHZoVx3to2y-hbKPH3I6g0zm_i110b45rV-jUz5WT5jXnWdQvGwVhKsdkpP66-
 
-sprite $AmazonSimpleStorageServiceS3StandardIaMd [16x16/16z] {
-PKs50S002BA5_n-Uwx8Jv2_Qn0XBjuvsBfmJyBnCaIYawzGUA9yyjSU8JxRfOtlDDTOQUWq6dEK9M5Ii1BpXINqHnlgGZpvNihlVQlDtBumrhezeNGlr0ifK
-r6G1
-}
+sprite $AmazonSimpleStorageServiceS3StandardIaMd [16x16/16z] PS7HGKD1202m0Bmxs7zX_L5jc_3fxdpR0sm0v6Bmww7FL43qd094To0W8GeA3kHSN1Z0sPZ50eZTOFpgYyUlBfGtuTKMKEO6g3Dp4kaB
 
 sprite $AmazonSimpleStorageServiceS3StandardIaLg [20x20/16z] {
-TKv70e0m339BuFyFTjiwkT0cOGn_o08b8kESIEqv2YivxIe9hZhUVRJT4HMsIR887GihIX9o-VAONJ5UPZguBhD8bIsqpU2dp2G3iHrqCojHfqD7daaT45RY
-THQAUy7-uyTiZCkeLFjGAZUFXGSAPw_8glIZomm
+TKy50iGm3AebmFyVFAdtXAqM0y8_H0CbeiGHaVAukb1hUBRmEnPKOqIEOowXcgXtFK1vdcon0xx5r4_ROh7eVUQg2t7ga2BuAXoahLFKcB1G1jC2chl3I5O-
+1QuNVyJy9BOMb2p5b9ypK9XoOqgnrZ_R3G
 }
 
-!procedure AmazonSimpleStorageServiceS3StandardIa($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AmazonSimpleStorageServiceS3StandardIa', $name, $tech)
+!procedure AmazonSimpleStorageServiceS3StandardIa($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AmazonSimpleStorageServiceS3StandardIa', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonSimpleStorageServiceS3StandardIaCard($id, $funcName="", $content="")

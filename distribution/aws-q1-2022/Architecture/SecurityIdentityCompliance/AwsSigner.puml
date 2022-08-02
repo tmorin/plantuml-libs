@@ -14,8 +14,8 @@ RSi94iGW24HH82WqkVzznxPmzf_zLHfTdY82Vx3-O6sStXYyrS8G3J6YPbi9LllFwrWeaChxo6CZHXWW
 RwAbBHS19bOtqJp3IXM6RKHc4GLfQpIRDd0i9nD1LHtRhmJMrlEEzWSV
 }
 
-!procedure AwsSigner($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/SecurityIdentityCompliance/AwsSigner', $name, $tech)
+!procedure AwsSigner($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/SecurityIdentityCompliance/AwsSigner', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsSignerCard($id, $funcName="", $content="")

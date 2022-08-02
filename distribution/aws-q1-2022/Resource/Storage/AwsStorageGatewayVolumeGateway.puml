@@ -2,14 +2,14 @@
 
 sprite $AwsStorageGatewayVolumeGatewayXs [10x10/16z] Oq02d62Cu6AmE9bOE24CJbOsA8k5anERSXOeance0m
 
-sprite $AwsStorageGatewayVolumeGatewaySm [12x12/16z] TSQ50S0m30F1nFpx3rncC4ZNRjEnxlJ5yflhRCxfEwl1dTfSG6nkq_Y7oQXStQb2sWW
+sprite $AwsStorageGatewayVolumeGatewaySm [12x12/16z] XSQ50G0n24DHf2ty_GS-TqMI9-V1rPcfS_qvR6XcGwtauWJQOXd67aoqZDb29YOz
 
-sprite $AwsStorageGatewayVolumeGatewayMd [16x16/16z] XKo30G0n46lEsN_WjrbUs1wMiug95SNApd-kjlp1Ui38OfLks2S9jk9YU92-OgO0lcCPp4jinUqBCsHehmqNH1MXmuZ9AP4JwW4
+sprite $AwsStorageGatewayVolumeGatewayMd [16x16/16z] ZOg50GD1409l7VelE7btErsOQHSh2B2MbEDl7Fy5r4ksRIuGq2N7K8hF6Sn8CkRCwjnOSvVwzJdJf2knPCY0hSrBix9FVm
 
-sprite $AwsStorageGatewayVolumeGatewayLg [20x20/16z] dSy30aGn30JGE3FtF_0QtwhxoiXQyWBHEH1ZVNhyh7yZvNTK_oENpIF3HaQcMO3nD_ZW-CT8TcQHGqEOkraEJG8aItfedtJ5-at1lo4A93enZiF_SSWqtZi
+sprite $AwsStorageGatewayVolumeGatewayLg [20x20/16z] hS-50SGW50DGyZNPV-3Johas5U3XurbG5Diln5HJoSLwxTQOKXiOOBWsASs2YjLe5zCdazIP9LqQOO1PNje8IghHbpRb5-ipXLQZ5IMsyVeUFjtZ8ZZaLDa3
 
-!procedure AwsStorageGatewayVolumeGateway($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AwsStorageGatewayVolumeGateway', $name, $tech)
+!procedure AwsStorageGatewayVolumeGateway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AwsStorageGatewayVolumeGateway', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsStorageGatewayVolumeGatewayCard($id, $funcName="", $content="")

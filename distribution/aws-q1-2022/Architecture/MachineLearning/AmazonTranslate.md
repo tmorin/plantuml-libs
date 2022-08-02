@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/MachineLearning/AmazonTranslate')
 
 ' renders the element
-AmazonTranslate('AmazonTranslate', 'Amazon Translate', 'an optional tech label')
+AmazonTranslate('AmazonTranslate', 'Amazon Translate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/MachineLearning/AmazonTranslate')
 
 ' renders the element
-AmazonTranslate('AmazonTranslate', 'Amazon Translate', 'an optional tech label')
+AmazonTranslate('AmazonTranslate', 'Amazon Translate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

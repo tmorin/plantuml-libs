@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/GeneralIcons/Disk')
 
 ' renders the element
-Disk('Disk', 'Disk', 'an optional tech label')
+Disk('Disk', 'Disk', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/GeneralIcons/Disk')
 
 ' renders the element
-Disk('Disk', 'Disk', 'an optional tech label')
+Disk('Disk', 'Disk', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

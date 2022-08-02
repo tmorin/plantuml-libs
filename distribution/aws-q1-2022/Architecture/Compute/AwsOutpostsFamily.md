@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Compute/AwsOutpostsFamily')
 
 ' renders the element
-AwsOutpostsFamily('AwsOutpostsFamily', 'Aws Outposts Family', 'an optional tech label')
+AwsOutpostsFamily('AwsOutpostsFamily', 'Aws Outposts Family', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Compute/AwsOutpostsFamily')
 
 ' renders the element
-AwsOutpostsFamily('AwsOutpostsFamily', 'Aws Outposts Family', 'an optional tech label')
+AwsOutpostsFamily('AwsOutpostsFamily', 'Aws Outposts Family', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

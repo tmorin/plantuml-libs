@@ -11,8 +11,8 @@ RSy54iH024JHODtS_yGBesk_A7l96F-blhELq5dX5g5jdxeD8L27efi6jyV5QexTFVKOhAQ3nZPvQApA
 xpwVooe8DQZijX494jTMhAwjZkblBm
 }
 
-!procedure Compute($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Category/Compute', $name, $tech)
+!procedure Compute($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Category/Compute', $name, $tech, $desc)
 !endprocedure
 
 !procedure ComputeCard($id, $funcName="", $content="")

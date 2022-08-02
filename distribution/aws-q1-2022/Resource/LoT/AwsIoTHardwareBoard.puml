@@ -2,17 +2,17 @@
 
 sprite $AwsIoTHardwareBoardXs [10x10/16z] LSY50G0W30F1uFp-0-DwzUeJ36jB2dEnkzCQ2lt6zJOs1HgnQJoZ9cn_L
 
-sprite $AwsIoTHardwareBoardSm [12x12/16z] NSh50G113CD0BKRfl-5Zd4_0vYzgSXfYPJKV592TbEYbOJZN7Pf0vheddUPQJuhhVlP_TFREAPsi5W
+sprite $AwsIoTHardwareBoardSm [12x12/16z] NOf50G01409PX_w5ptK-AFwCwx9Eq7RpWBKWTWYRW8F5N3sEGLgzrXZixjMiyVh_83lY2c9ZPG4
 
-sprite $AwsIoTHardwareBoardMd [16x16/16z] RSc53KDH3CLG1tMp_y9LFzDvQ8LFCPfhPa-8K_ttgcyI0SrEYA5Y3SM_NLGJCoB_3M80PlxTQxNz2Ld-snL_OgfpSYU-k1ToJl8mSL7x-0S
+sprite $AwsIoTHardwareBoardMd [16x16/16z] RSU53GC134Mn5zJF_WjNFIOBpISV3IUB7XUdW6BbDuQ0PYV4KBv6yR-BAc96vFyW1c3c_rxN_0dX_vlyJqnrJkx45_D2nac42KubXxyV
 
 sprite $AwsIoTHardwareBoardLg [20x20/16z] {
-VSt5WGG130F1Dblv1tomZ5DFWyI1NBNnP0f3pgFgYMLuCc1rltZb2C2J6o-45rwSHSHfLZBM0JagdMQOO0VJzBBd6OWG099ECmsdGJvq3ATPwU9XHjpltXG7
-1DayMLjr38zSwIDUP3aNlm
+VSt5WKGn50CmXUF-2ruOng_RGplGTwPdQoXIF1fpjMrviZ1Sr3S4QkU-90orEIkbd7eZx8gGaVEUi1TPSzkNdcW1oNalIw0yP2o2aOjpxstlJNKWzEd9jZFB
+ygYarnMUbUhg5m
 }
 
-!procedure AwsIoTHardwareBoard($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTHardwareBoard', $name, $tech)
+!procedure AwsIoTHardwareBoard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTHardwareBoard', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTHardwareBoardCard($id, $funcName="", $content="")

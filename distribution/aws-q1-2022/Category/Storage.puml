@@ -11,8 +11,8 @@ RSx50G0X30LHF7pelz_DhDlSU5ZihrpFobQqAg_l6INiWLWJ1G9lPduoHV1c8VQu8JPMguMJdJ3GvDqC
 wNzehxi9cwFRaLQpwRY7RFP4B7rR
 }
 
-!procedure Storage($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Category/Storage', $name, $tech)
+!procedure Storage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Category/Storage', $name, $tech, $desc)
 !endprocedure
 
 !procedure StorageCard($id, $funcName="", $content="")

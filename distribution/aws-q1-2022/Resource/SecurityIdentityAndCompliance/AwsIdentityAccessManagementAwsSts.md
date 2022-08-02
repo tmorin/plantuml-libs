@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessManagementAwsSts')
 
 ' renders the element
-AwsIdentityAccessManagementAwsSts('AwsIdentityAccessManagementAwsSts', 'Aws Identity Access Management Aws Sts', 'an optional tech label')
+AwsIdentityAccessManagementAwsSts('AwsIdentityAccessManagementAwsSts', 'Aws Identity Access Management Aws Sts', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessManagementAwsSts')
 
 ' renders the element
-AwsIdentityAccessManagementAwsSts('AwsIdentityAccessManagementAwsSts', 'Aws Identity Access Management Aws Sts', 'an optional tech label')
+AwsIdentityAccessManagementAwsSts('AwsIdentityAccessManagementAwsSts', 'Aws Identity Access Management Aws Sts', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

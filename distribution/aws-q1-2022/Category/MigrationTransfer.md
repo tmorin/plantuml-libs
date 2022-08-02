@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Category/MigrationTransfer')
 
 ' renders the element
-MigrationTransfer('MigrationTransfer', 'Migration Transfer', 'an optional tech label')
+MigrationTransfer('MigrationTransfer', 'Migration Transfer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Category/MigrationTransfer')
 
 ' renders the element
-MigrationTransfer('MigrationTransfer', 'Migration Transfer', 'an optional tech label')
+MigrationTransfer('MigrationTransfer', 'Migration Transfer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

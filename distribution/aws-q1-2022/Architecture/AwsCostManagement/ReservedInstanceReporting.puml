@@ -14,8 +14,8 @@ PSv70aCX24LHfJ_-_lSRYItb3ey5C8gTpygk_bbrRAeSF2RD9ovZ9uwmBcg5MUPj_cdjVJCB2HqZOxF2
 QJAW0N9ClGZe7C0oRtDFddi-Jra6YPCCmAXiHgYcRKN-MNLjwSKN
 }
 
-!procedure ReservedInstanceReporting($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/AwsCostManagement/ReservedInstanceReporting', $name, $tech)
+!procedure ReservedInstanceReporting($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/AwsCostManagement/ReservedInstanceReporting', $name, $tech, $desc)
 !endprocedure
 
 !procedure ReservedInstanceReportingCard($id, $funcName="", $content="")

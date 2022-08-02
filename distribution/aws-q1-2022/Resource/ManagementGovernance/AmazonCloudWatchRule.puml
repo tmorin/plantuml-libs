@@ -2,17 +2,17 @@
 
 sprite $AmazonCloudWatchRuleXs [10x10/16z] Oq06NDnW0EDoCu48PX1W1RBOK6JPkC2o72302MGneSXoip0Xp0C
 
-sprite $AmazonCloudWatchRuleSm [12x12/16z] LSp30G1144JHFsZd7--QxrhWQ_IkyqJdv9gO6Rkq92BoGWCz5OsJjgC_sY5_dusBF9_DoEEwJYi
+sprite $AmazonCloudWatchRuleSm [12x12/16z] PSp50S0m30D09MPb_tdBt7iPXITfpNM7XbqwuI9OCOYguc6zyTsuxXs4cHqjVvaR8sBfLm5kXsCt0m
 
-sprite $AmazonCloudWatchRuleMd [16x16/16z] JSk93GGX34FHS8FTVx_hZEHLtfmVI9WHm2eDFUiQierKyPpZezb3MC_tth7-wdoCGEc-SvSol9txSc7tEmyQlhONjIz3DUTSjnaYkUG7
+sprite $AmazonCloudWatchRuleMd [16x16/16z] NSq50e0W04DHEhRxtzT9mpUV4kQD0E9XwFAnbNA4l28bUk_dqDzUiSpQU8imy_9EEknIbAZi-61ag89PQUF16PfdrPmkD98sZSLQBQbBVle
 
 sprite $AmazonCloudWatchRuleLg [20x20/16z] {
-VT1L0e0W301GciNzx-lALjudhDCNOj7lRnmVf-5lXvfJURuHsziKvnjLULEPwwbB70aOen-ArnkhlgcLPzynoFg2gF7MfMVqzO-0CH-LY-proh8lv6TVfcPz
-h_UhDVg-x_TX0m
+VP254G1120FF1Vhlz_FdliCOdeWJnC3EEIw5ZagvZaAiEUAKqw3dI2Bt8r5eMFGH26gWt7Mlky9iTvsZb0j0bfnrwRy42es8FW_eS5SzxuRjBbF-PVHFgt9t
+z-_01m
 }
 
-!procedure AmazonCloudWatchRule($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/ManagementGovernance/AmazonCloudWatchRule', $name, $tech)
+!procedure AmazonCloudWatchRule($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/ManagementGovernance/AmazonCloudWatchRule', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonCloudWatchRuleCard($id, $funcName="", $content="")

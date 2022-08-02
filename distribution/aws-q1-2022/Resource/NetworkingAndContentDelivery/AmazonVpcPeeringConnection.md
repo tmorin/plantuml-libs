@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/NetworkingAndContentDelivery/AmazonVpcPeeringConnection')
 
 ' renders the element
-AmazonVpcPeeringConnection('AmazonVpcPeeringConnection', 'Amazon Vpc Peering Connection', 'an optional tech label')
+AmazonVpcPeeringConnection('AmazonVpcPeeringConnection', 'Amazon Vpc Peering Connection', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/NetworkingAndContentDelivery/AmazonVpcPeeringConnection')
 
 ' renders the element
-AmazonVpcPeeringConnection('AmazonVpcPeeringConnection', 'Amazon Vpc Peering Connection', 'an optional tech label')
+AmazonVpcPeeringConnection('AmazonVpcPeeringConnection', 'Amazon Vpc Peering Connection', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

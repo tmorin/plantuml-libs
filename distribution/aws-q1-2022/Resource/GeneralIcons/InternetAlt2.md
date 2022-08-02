@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/GeneralIcons/InternetAlt2')
 
 ' renders the element
-InternetAlt2('InternetAlt2', 'Internet Alt2', 'an optional tech label')
+InternetAlt2('InternetAlt2', 'Internet Alt2', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/GeneralIcons/InternetAlt2')
 
 ' renders the element
-InternetAlt2('InternetAlt2', 'Internet Alt2', 'an optional tech label')
+InternetAlt2('InternetAlt2', 'Internet Alt2', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

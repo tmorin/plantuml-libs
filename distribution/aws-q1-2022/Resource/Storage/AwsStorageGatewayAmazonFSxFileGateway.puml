@@ -2,17 +2,14 @@
 
 sprite $AwsStorageGatewayAmazonFSxFileGatewayXs [10x10/16z] Oq00JY1cPcCW2Z0oCB0pCJ2mC30oWjX05fXW0hDWW9KH282o
 
-sprite $AwsStorageGatewayAmazonFSxFileGatewaySm [12x12/16z] VSR70S0m2C10qM7_WTFRAxA1uvkCYxMUvaZ__IRFIgIWAio4mmWM6mvl1JokmtsqUGK
+sprite $AwsStorageGatewayAmazonFSxFileGatewaySm [12x12/16z] XSY53G113CH0xr6I_Wj-PhHeP4v5Ll8qKKpftzVHa85PJXAZfry6J1wgiDac-zJW7W
 
-sprite $AwsStorageGatewayAmazonFSxFileGatewayMd [16x16/16z] fOf50e1G24JV3nYu_u7jrfta5AygoeZqdMPVVu_rRm_qarEll21eD0ALaiMjEbtCVFL1D-wgMvwj3BXoVVFSou0H
+sprite $AwsStorageGatewayAmazonFSxFileGatewayMd [16x16/16z] fOfL0i0m34999S3z3pptxMzj37XuFrfoxifbtLNhre7zr8YhZZclqnSOOMIFH25clSEywIJAocDxVUghvhVs_cP-1
 
-sprite $AwsStorageGatewayAmazonFSxFileGatewayLg [20x20/16z] {
-hSwt0ODG4C1GNVwt_y3E9aE5obU9uyHhz4XdhWUVh7CYfZJtnjqMMyjq3rsP21WKAZHU4IF4Z5BKaxSv82A09C5aV8mCwSa-kQCW7zlSRAokB6JgQu7ad04y
-0G
-}
+sprite $AwsStorageGatewayAmazonFSxFileGatewayLg [20x20/16z] hSYt0OGm44N1zrVIcluBFdzuY9XmED4ZArqmgUIZbK_5HBu_xhwnFJEriJc1830e56EaqKG8p3_N0I50pc0wFeSFQhgFtZ5O7mps5rStDFaS1cOJ0Jm1
 
-!procedure AwsStorageGatewayAmazonFSxFileGateway($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AwsStorageGatewayAmazonFSxFileGateway', $name, $tech)
+!procedure AwsStorageGatewayAmazonFSxFileGateway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AwsStorageGatewayAmazonFSxFileGateway', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsStorageGatewayAmazonFSxFileGatewayCard($id, $funcName="", $content="")

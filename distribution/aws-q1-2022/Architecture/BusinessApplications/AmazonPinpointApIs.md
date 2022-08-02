@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/BusinessApplications/AmazonPinpointApIs')
 
 ' renders the element
-AmazonPinpointApIs('AmazonPinpointApIs', 'Amazon Pinpoint Ap Is', 'an optional tech label')
+AmazonPinpointApIs('AmazonPinpointApIs', 'Amazon Pinpoint Ap Is', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/BusinessApplications/AmazonPinpointApIs')
 
 ' renders the element
-AmazonPinpointApIs('AmazonPinpointApIs', 'Amazon Pinpoint Ap Is', 'an optional tech label')
+AmazonPinpointApIs('AmazonPinpointApIs', 'Amazon Pinpoint Ap Is', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

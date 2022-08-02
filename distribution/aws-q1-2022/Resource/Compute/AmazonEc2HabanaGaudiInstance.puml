@@ -2,17 +2,17 @@
 
 sprite $AmazonEc2HabanaGaudiInstanceXs [10x10/16z] Oq0576n876PK5WSBCpE8nG4Lus1WOs1bO6LYP6P3LiSC1gn8vW4
 
-sprite $AmazonEc2HabanaGaudiInstanceSm [12x12/16z] LOs54G012CE25VPV-5rpFQtnHyuu0XXTWCJ921SuG3ie8hEo1FDa1XTM6NvcY0YC_mxqzA7y_Qu
+sprite $AmazonEc2HabanaGaudiInstanceSm [12x12/16z] LSs53GH030F1ENBIVyFFkBBGv9yCJQ3pWWJGCSA06cIilSy-eJ-P9fozfaACCV2_GtKzjFz-hm
 
-sprite $AmazonEc2HabanaGaudiInstanceMd [16x16/16z] RK-55GDH3A8HoFuJbtTkN-C0FXOXZ2zND-Gzoxku5VkINIhEHhebBhwl594as57Kae_iZgvgUvYvrCyi_Hq_86FlXqixiq6zvx_nnNtDXvx5ftqk_Xy
+sprite $AmazonEc2HabanaGaudiInstanceMd [16x16/16z] RK-50G1123B1_HV-Zkko0Lai2AMEYyVdu_DsNTzr1a3z6t6sDFxPJ5KFYBiwUENLCoqjylIgclgggp-laBtz4f7fcW8EyvVunBjghGU2myVbxm
 
 sprite $AmazonEc2HabanaGaudiInstanceLg [20x20/16z] {
-bP250GGm308lXSZ-2x-xVxrHW7UZI1Wgg0-sxDdDyw63hRaPCb0rTxOklupB729XdMoLEiJrO2aaB9zwH1vCQra7synzZvayzbWw6cwnPE7qSXonH3J8LieA
-vFYBXsv6-XJUBdlSTlkJfaQGE3Y4RG4
+bL250GCm20kU_ozUVMujxe1tBn406qD-i4Mn_Kras0etpxejatUsIdaP5y5605csZ1bNX8kr3xVJ8zmCfitK243Uzo1rngbDm-qiaV1mTRcPnTmjpAtPzByz
+xER5d4-a94KfPKtwT5Df7zh92Bi
 }
 
-!procedure AmazonEc2HabanaGaudiInstance($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Compute/AmazonEc2HabanaGaudiInstance', $name, $tech)
+!procedure AmazonEc2HabanaGaudiInstance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Compute/AmazonEc2HabanaGaudiInstance', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonEc2HabanaGaudiInstanceCard($id, $funcName="", $content="")

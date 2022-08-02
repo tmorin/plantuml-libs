@@ -2,14 +2,14 @@
 
 sprite $AwsWafRuleXs [10x10/16z] Oy04J52QXOq9BeR9uc329yi9P3520JC
 
-sprite $AwsWafRuleSm [12x12/16z] JSg54S0m5CDGXMd_USlLvHryiDcb-9i4NY6xXyfaQDa1Esk-k_-SVlvJnpqd9bFh1
+sprite $AwsWafRuleSm [12x12/16z] Oq06p8mmmCN021T4i5aOk1WuuO0ReOO1heQR2yH6Y6Cpav43eOQ52SZcWWDk
 
-sprite $AwsWafRuleMd [16x16/16z] NSp90G0X349Ht3Nqt-zmXFctfqdmZ-KHPNyDxhbsM9JPFVs7yzw1kwg5qI3pUV6ltFUEy7azh6H6zG4
+sprite $AwsWafRuleMd [16x16/16z] VOor0G0W30HntNzVlYD-LVAM9FTGRZhCfN-fZVruyTzC2VfWil_WrFcxAT7UMeNzSnThZt4U
 
-sprite $AwsWafRuleLg [20x20/16z] ZOs53G0n24MfeVlFUnehalH5uHjaM031mD73Z_rlJiRW8yoo_qyzHxlgVyZQWs_EUfSz1xl667vYqOVm-vfZ861Wt
+sprite $AwsWafRuleLg [20x20/16z] ZO-53G1H24Enx_lFUnh34buKRGiHnq5mx1AvthGzaTdTtf3ezkzjIqbtsrwVczoUSAuxBGNT4sHRn-zr-FVGmAz52zm
 
-!procedure AwsWafRule($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/SecurityIdentityAndCompliance/AwsWafRule', $name, $tech)
+!procedure AwsWafRule($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/SecurityIdentityAndCompliance/AwsWafRule', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsWafRuleCard($id, $funcName="", $content="")

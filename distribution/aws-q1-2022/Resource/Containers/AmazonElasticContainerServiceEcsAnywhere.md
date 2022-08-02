@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Containers/AmazonElasticContainerServiceEcsAnywhere')
 
 ' renders the element
-AmazonElasticContainerServiceEcsAnywhere('AmazonElasticContainerServiceEcsAnywhere', 'Amazon Elastic Container Service Ecs Anywhere', 'an optional tech label')
+AmazonElasticContainerServiceEcsAnywhere('AmazonElasticContainerServiceEcsAnywhere', 'Amazon Elastic Container Service Ecs Anywhere', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Containers/AmazonElasticContainerServiceEcsAnywhere')
 
 ' renders the element
-AmazonElasticContainerServiceEcsAnywhere('AmazonElasticContainerServiceEcsAnywhere', 'Amazon Elastic Container Service Ecs Anywhere', 'an optional tech label')
+AmazonElasticContainerServiceEcsAnywhere('AmazonElasticContainerServiceEcsAnywhere', 'Amazon Elastic Container Service Ecs Anywhere', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

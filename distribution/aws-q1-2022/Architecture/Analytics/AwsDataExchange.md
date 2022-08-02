@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Analytics/AwsDataExchange')
 
 ' renders the element
-AwsDataExchange('AwsDataExchange', 'Aws Data Exchange', 'an optional tech label')
+AwsDataExchange('AwsDataExchange', 'Aws Data Exchange', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Analytics/AwsDataExchange')
 
 ' renders the element
-AwsDataExchange('AwsDataExchange', 'Aws Data Exchange', 'an optional tech label')
+AwsDataExchange('AwsDataExchange', 'Aws Data Exchange', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

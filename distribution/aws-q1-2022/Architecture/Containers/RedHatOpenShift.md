@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Containers/RedHatOpenShift')
 
 ' renders the element
-RedHatOpenShift('RedHatOpenShift', 'Red Hat Open Shift', 'an optional tech label')
+RedHatOpenShift('RedHatOpenShift', 'Red Hat Open Shift', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Containers/RedHatOpenShift')
 
 ' renders the element
-RedHatOpenShift('RedHatOpenShift', 'Red Hat Open Shift', 'an optional tech label')
+RedHatOpenShift('RedHatOpenShift', 'Red Hat Open Shift', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

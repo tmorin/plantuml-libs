@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Storage/AwsStorageGatewayTapeGateway')
 
 ' renders the element
-AwsStorageGatewayTapeGateway('AwsStorageGatewayTapeGateway', 'Aws Storage Gateway Tape Gateway', 'an optional tech label')
+AwsStorageGatewayTapeGateway('AwsStorageGatewayTapeGateway', 'Aws Storage Gateway Tape Gateway', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/Storage/AwsStorageGatewayTapeGateway')
 
 ' renders the element
-AwsStorageGatewayTapeGateway('AwsStorageGatewayTapeGateway', 'Aws Storage Gateway Tape Gateway', 'an optional tech label')
+AwsStorageGatewayTapeGateway('AwsStorageGatewayTapeGateway', 'Aws Storage Gateway Tape Gateway', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

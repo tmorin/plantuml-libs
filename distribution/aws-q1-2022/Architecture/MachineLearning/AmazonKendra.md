@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/MachineLearning/AmazonKendra')
 
 ' renders the element
-AmazonKendra('AmazonKendra', 'Amazon Kendra', 'an optional tech label')
+AmazonKendra('AmazonKendra', 'Amazon Kendra', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/MachineLearning/AmazonKendra')
 
 ' renders the element
-AmazonKendra('AmazonKendra', 'Amazon Kendra', 'an optional tech label')
+AmazonKendra('AmazonKendra', 'Amazon Kendra', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

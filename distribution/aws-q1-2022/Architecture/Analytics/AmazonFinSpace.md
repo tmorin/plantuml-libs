@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Analytics/AmazonFinSpace')
 
 ' renders the element
-AmazonFinSpace('AmazonFinSpace', 'Amazon Fin Space', 'an optional tech label')
+AmazonFinSpace('AmazonFinSpace', 'Amazon Fin Space', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Architecture/Analytics/AmazonFinSpace')
 
 ' renders the element
-AmazonFinSpace('AmazonFinSpace', 'Amazon Fin Space', 'an optional tech label')
+AmazonFinSpace('AmazonFinSpace', 'Amazon Fin Space', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

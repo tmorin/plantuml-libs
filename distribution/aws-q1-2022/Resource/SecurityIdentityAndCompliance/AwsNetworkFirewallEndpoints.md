@@ -36,7 +36,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/SecurityIdentityAndCompliance/AwsNetworkFirewallEndpoints')
 
 ' renders the element
-AwsNetworkFirewallEndpoints('AwsNetworkFirewallEndpoints', 'Aws Network Firewall Endpoints', 'an optional tech label')
+AwsNetworkFirewallEndpoints('AwsNetworkFirewallEndpoints', 'Aws Network Firewall Endpoints', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q1-2022/bootstrap')
 include('aws-q1-2022/Resource/SecurityIdentityAndCompliance/AwsNetworkFirewallEndpoints')
 
 ' renders the element
-AwsNetworkFirewallEndpoints('AwsNetworkFirewallEndpoints', 'Aws Network Firewall Endpoints', 'an optional tech label')
+AwsNetworkFirewallEndpoints('AwsNetworkFirewallEndpoints', 'Aws Network Firewall Endpoints', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
