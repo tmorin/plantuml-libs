@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/LoT/AwsIoTSiteWiseAssetModel')
 
 ' renders the element
-AwsIoTSiteWiseAssetModel('AwsIoTSiteWiseAssetModel', 'Aws Io T Site Wise Asset Model', 'an optional tech label')
+AwsIoTSiteWiseAssetModel('AwsIoTSiteWiseAssetModel', 'Aws Io T Site Wise Asset Model', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/LoT/AwsIoTSiteWiseAssetModel')
 
 ' renders the element
-AwsIoTSiteWiseAssetModel('AwsIoTSiteWiseAssetModel', 'Aws Io T Site Wise Asset Model', 'an optional tech label')
+AwsIoTSiteWiseAssetModel('AwsIoTSiteWiseAssetModel', 'Aws Io T Site Wise Asset Model', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

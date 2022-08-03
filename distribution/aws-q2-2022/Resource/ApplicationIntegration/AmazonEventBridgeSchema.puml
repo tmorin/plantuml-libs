@@ -8,8 +8,8 @@ sprite $AmazonEventBridgeSchemaMd [16x16/16z] POw30K0n30LhtVxpVYEuCdx1mf8Gbew-Di
 
 sprite $AmazonEventBridgeSchemaLg [20x20/16z] TS_L0SCm40JHoPfl-wytP13FvnCUlS9rmbGfi-YOIpF00U3BiZtEpuevNeZSy4e4XMtNZRV9lcsrgttLMRpZhR05j8CoMwBvtx83x1SEvxrIPggQXPhu
 
-!procedure AmazonEventBridgeSchema($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ApplicationIntegration/AmazonEventBridgeSchema', $name, $tech)
+!procedure AmazonEventBridgeSchema($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ApplicationIntegration/AmazonEventBridgeSchema', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonEventBridgeSchemaCard($id, $funcName="", $content="")

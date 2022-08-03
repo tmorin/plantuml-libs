@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Database/AmazonAuroraOracleInstanceAlternate')
 
 ' renders the element
-AmazonAuroraOracleInstanceAlternate('AmazonAuroraOracleInstanceAlternate', 'Amazon Aurora Oracle Instance Alternate', 'an optional tech label')
+AmazonAuroraOracleInstanceAlternate('AmazonAuroraOracleInstanceAlternate', 'Amazon Aurora Oracle Instance Alternate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Database/AmazonAuroraOracleInstanceAlternate')
 
 ' renders the element
-AmazonAuroraOracleInstanceAlternate('AmazonAuroraOracleInstanceAlternate', 'Amazon Aurora Oracle Instance Alternate', 'an optional tech label')
+AmazonAuroraOracleInstanceAlternate('AmazonAuroraOracleInstanceAlternate', 'Amazon Aurora Oracle Instance Alternate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

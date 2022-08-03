@@ -11,8 +11,8 @@ dT054aGX30FG49pc_kVThBlzDuDhYrT2KdEXpWW1Qi1auAYycPjJRSwWEmUBe2KNy0pGzZTUdYr65vGp
 bxBepa5_cPST
 }
 
-!procedure AmazonDynamoDbGlobalSecondaryIndex($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Database/AmazonDynamoDbGlobalSecondaryIndex', $name, $tech)
+!procedure AmazonDynamoDbGlobalSecondaryIndex($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Database/AmazonDynamoDbGlobalSecondaryIndex', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonDynamoDbGlobalSecondaryIndexCard($id, $funcName="", $content="")

@@ -11,8 +11,8 @@ TSZ5eG0m20MmGBtiF-ztbroU-CU6k10JEBsQKQt2gWgOaxdofGKNKRuhyW9pvyTd1-pXWWCM53FW-lZw
 YviNJX-7bXPq81iAbRvQ2sur0BC6eEsNkci5FlJQvPS4y0W
 }
 
-!procedure AmazonRoute53Resolver($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonRoute53Resolver', $name, $tech)
+!procedure AmazonRoute53Resolver($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonRoute53Resolver', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonRoute53ResolverCard($id, $funcName="", $content="")

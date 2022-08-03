@@ -11,8 +11,8 @@ RSZ50O00302n-fNz1yOTyWoBkkICFI_7yRqrB-nIrPvdbbI5ndL2Yff8fHydQ0AKHUHy3PNEfhHakSPH
 dLHna0AswpABS7LMVU3IdrplayDFJW
 }
 
-!procedure NiceEnginFrame($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Compute/NiceEnginFrame', $name, $tech)
+!procedure NiceEnginFrame($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Compute/NiceEnginFrame', $name, $tech, $desc)
 !endprocedure
 
 !procedure NiceEnginFrameCard($id, $funcName="", $content="")

@@ -11,8 +11,8 @@ ZS-50S0W4CNG08V-_VUjkxvwQi2T9gsM9bRxbjAvUGcddbzR7-xU9LnRlZIdzlTxSRszjXfmFMHQcYha
 4Ik_eWC
 }
 
-!procedure AwsTrustedAdvisorChecklistFaultTolerant($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ManagementGovernance/AwsTrustedAdvisorChecklistFaultTolerant', $name, $tech)
+!procedure AwsTrustedAdvisorChecklistFaultTolerant($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ManagementGovernance/AwsTrustedAdvisorChecklistFaultTolerant', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsTrustedAdvisorChecklistFaultTolerantCard($id, $funcName="", $content="")

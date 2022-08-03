@@ -11,8 +11,8 @@ bSt50GH124JHtuPL_lckkyuxuR3HZ5ZSTDMAtbhpgJet4lGS-HelqLp6sR9sxW8wn6RGxUxF0MSMOGW1
 BLW33gJ6KnIWVoAog3GBzNsqmGu
 }
 
-!procedure AmazonMqBroker($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ApplicationIntegration/AmazonMqBroker', $name, $tech)
+!procedure AmazonMqBroker($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ApplicationIntegration/AmazonMqBroker', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonMqBrokerCard($id, $funcName="", $content="")

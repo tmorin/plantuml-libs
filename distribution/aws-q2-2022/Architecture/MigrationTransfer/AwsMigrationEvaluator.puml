@@ -14,8 +14,8 @@ RSZ70S9030H0PUtY_llbq97jUGwUUgi7yfoyIBuptlc-53npZbc0Tg9ySgvQBA4ICdUR50gGNRblqgG1
 g_4mXOA0Nf3FkHIT3jrt7Elc4rn-ZiBFVNPxtqyUupVl
 }
 
-!procedure AwsMigrationEvaluator($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/MigrationTransfer/AwsMigrationEvaluator', $name, $tech)
+!procedure AwsMigrationEvaluator($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/MigrationTransfer/AwsMigrationEvaluator', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsMigrationEvaluatorCard($id, $funcName="", $content="")

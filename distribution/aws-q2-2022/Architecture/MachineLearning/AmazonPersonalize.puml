@@ -14,8 +14,8 @@ RSXR5aCX20D0GGY9T__xxH7xRkTpoACERD9lwa_gaVNCrqqyKuq-lUXnyjGWSuAmlhNFbPF4A6JVJYZe
 6dlxVC6BC2Bxsf0g9JYtw-gSKeIdzBncb1xtN1sF-yohVUOD
 }
 
-!procedure AmazonPersonalize($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/MachineLearning/AmazonPersonalize', $name, $tech)
+!procedure AmazonPersonalize($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/MachineLearning/AmazonPersonalize', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonPersonalizeCard($id, $funcName="", $content="")

@@ -11,8 +11,8 @@ bP055WKm2CDIzg6z_uc_ksUUDmFUCJI4WVdWsjcLSoVsc1lMtitapddqSb_t_RxfmpuQeWMzEUoxEfEz
 EHM2sdU7RLi
 }
 
-!procedure AmazonEc2HmiInstance($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Compute/AmazonEc2HmiInstance', $name, $tech)
+!procedure AmazonEc2HmiInstance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Compute/AmazonEc2HmiInstance', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonEc2HmiInstanceCard($id, $funcName="", $content="")

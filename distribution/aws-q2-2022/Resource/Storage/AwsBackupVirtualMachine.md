@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Storage/AwsBackupVirtualMachine')
 
 ' renders the element
-AwsBackupVirtualMachine('AwsBackupVirtualMachine', 'Aws Backup Virtual Machine', 'an optional tech label')
+AwsBackupVirtualMachine('AwsBackupVirtualMachine', 'Aws Backup Virtual Machine', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Storage/AwsBackupVirtualMachine')
 
 ' renders the element
-AwsBackupVirtualMachine('AwsBackupVirtualMachine', 'Aws Backup Virtual Machine', 'an optional tech label')
+AwsBackupVirtualMachine('AwsBackupVirtualMachine', 'Aws Backup Virtual Machine', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

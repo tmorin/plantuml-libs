@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/VrAr/AmazonSumerian')
 
 ' renders the element
-AmazonSumerian('AmazonSumerian', 'Amazon Sumerian', 'an optional tech label')
+AmazonSumerian('AmazonSumerian', 'Amazon Sumerian', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/VrAr/AmazonSumerian')
 
 ' renders the element
-AmazonSumerian('AmazonSumerian', 'Amazon Sumerian', 'an optional tech label')
+AmazonSumerian('AmazonSumerian', 'Amazon Sumerian', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

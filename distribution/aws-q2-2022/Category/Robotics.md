@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Category/Robotics')
 
 ' renders the element
-Robotics('Robotics', 'Robotics', 'an optional tech label')
+Robotics('Robotics', 'Robotics', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Category/Robotics')
 
 ' renders the element
-Robotics('Robotics', 'Robotics', 'an optional tech label')
+Robotics('Robotics', 'Robotics', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

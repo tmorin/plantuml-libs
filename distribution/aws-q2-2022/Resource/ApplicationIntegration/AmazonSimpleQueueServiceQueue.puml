@@ -8,8 +8,8 @@ sprite $AmazonSimpleQueueServiceQueueMd [16x16/16z] fOp50O100CE2Gxl_lBWxN7vLGd6r
 
 sprite $AmazonSimpleQueueServiceQueueLg [20x20/16z] lOsr0S1030Fl6RJ_l666Ad3kBE8FL8vOH8_nfEvwxFAB26r-PVChqqzb_jcg-HSq_SJooqjsyNcM7_v-Ty0H2Ckl7h6yJ0i
 
-!procedure AmazonSimpleQueueServiceQueue($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ApplicationIntegration/AmazonSimpleQueueServiceQueue', $name, $tech)
+!procedure AmazonSimpleQueueServiceQueue($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ApplicationIntegration/AmazonSimpleQueueServiceQueue', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonSimpleQueueServiceQueueCard($id, $funcName="", $content="")

@@ -14,8 +14,8 @@ RK-55GDH20jyWP3zz-svlU8k-0yjIwhqEsBgHqfnnkfEwpBojFeTSoepighpRhXWV6BUka11q_sgaun9
 cmM8vpXY1kXRRqe2bhwny9JktZcHXaIBrn_NRt5zv7UwIuoW57Y1sTFx0G
 }
 
-!procedure AwsLakeFormationDataLake($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Analytics/AwsLakeFormationDataLake', $name, $tech)
+!procedure AwsLakeFormationDataLake($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Analytics/AwsLakeFormationDataLake', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsLakeFormationDataLakeCard($id, $funcName="", $content="")

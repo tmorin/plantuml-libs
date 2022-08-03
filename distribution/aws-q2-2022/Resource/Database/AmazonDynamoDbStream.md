@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Database/AmazonDynamoDbStream')
 
 ' renders the element
-AmazonDynamoDbStream('AmazonDynamoDbStream', 'Amazon Dynamo Db Stream', 'an optional tech label')
+AmazonDynamoDbStream('AmazonDynamoDbStream', 'Amazon Dynamo Db Stream', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Database/AmazonDynamoDbStream')
 
 ' renders the element
-AmazonDynamoDbStream('AmazonDynamoDbStream', 'Amazon Dynamo Db Stream', 'an optional tech label')
+AmazonDynamoDbStream('AmazonDynamoDbStream', 'Amazon Dynamo Db Stream', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

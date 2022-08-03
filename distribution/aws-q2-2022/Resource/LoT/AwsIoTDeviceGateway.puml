@@ -11,8 +11,8 @@ bO-50G0X3CGEAyt-0x-xV_1WhNuGN3FCYjKvynw8AdB0n71AMi_Pi4Pxfr0cvxM7tcbsHZyUNJQpWrDK
 EdH32m
 }
 
-!procedure AwsIoTDeviceGateway($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTDeviceGateway', $name, $tech)
+!procedure AwsIoTDeviceGateway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTDeviceGateway', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTDeviceGatewayCard($id, $funcName="", $content="")

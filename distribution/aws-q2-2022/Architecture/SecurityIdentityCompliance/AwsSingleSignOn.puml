@@ -11,8 +11,8 @@ RSq75i0W20DGmGeatl--TRxElFqPmKhik3j-a3_8XHuNSg29btHPHp_Gec6NKUT3SRds12jfR0uQFpKP
 TBJKWTrL1NdPHjArRKwxi3NeiWifARPTkFvziFxW2G
 }
 
-!procedure AwsSingleSignOn($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/SecurityIdentityCompliance/AwsSingleSignOn', $name, $tech)
+!procedure AwsSingleSignOn($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/SecurityIdentityCompliance/AwsSingleSignOn', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsSingleSignOnCard($id, $funcName="", $content="")

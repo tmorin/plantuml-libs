@@ -8,8 +8,8 @@ sprite $AwsIoTGreengrassStreamManagerMd [16x16/16z] dSd50GC148LGelpfl-1urlqTWKCy
 
 sprite $AwsIoTGreengrassStreamManagerLg [20x20/16z] hOq50iH03089MUF_3xwhkxUp6WDyG2abhtA0q9DoHUXoiHIRzBdNEVD9pYe07_icwJboKg14g0Egyt0p0Z2oVhgSn557EMVX6f8C7RcbyLZrULhbQhVh_04
 
-!procedure AwsIoTGreengrassStreamManager($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTGreengrassStreamManager', $name, $tech)
+!procedure AwsIoTGreengrassStreamManager($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTGreengrassStreamManager', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTGreengrassStreamManagerCard($id, $funcName="", $content="")

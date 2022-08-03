@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/FrontEndWebMobile/AwsAmplifyAwsAmplifyStudio')
 
 ' renders the element
-AwsAmplifyAwsAmplifyStudio('AwsAmplifyAwsAmplifyStudio', 'Aws Amplify Aws Amplify Studio', 'an optional tech label')
+AwsAmplifyAwsAmplifyStudio('AwsAmplifyAwsAmplifyStudio', 'Aws Amplify Aws Amplify Studio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/FrontEndWebMobile/AwsAmplifyAwsAmplifyStudio')
 
 ' renders the element
-AwsAmplifyAwsAmplifyStudio('AwsAmplifyAwsAmplifyStudio', 'Aws Amplify Aws Amplify Studio', 'an optional tech label')
+AwsAmplifyAwsAmplifyStudio('AwsAmplifyAwsAmplifyStudio', 'Aws Amplify Aws Amplify Studio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

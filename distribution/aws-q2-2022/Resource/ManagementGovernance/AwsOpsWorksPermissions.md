@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/ManagementGovernance/AwsOpsWorksPermissions')
 
 ' renders the element
-AwsOpsWorksPermissions('AwsOpsWorksPermissions', 'Aws Ops Works Permissions', 'an optional tech label')
+AwsOpsWorksPermissions('AwsOpsWorksPermissions', 'Aws Ops Works Permissions', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/ManagementGovernance/AwsOpsWorksPermissions')
 
 ' renders the element
-AwsOpsWorksPermissions('AwsOpsWorksPermissions', 'Aws Ops Works Permissions', 'an optional tech label')
+AwsOpsWorksPermissions('AwsOpsWorksPermissions', 'Aws Ops Works Permissions', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

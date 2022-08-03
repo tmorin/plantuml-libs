@@ -11,8 +11,8 @@ RSZ50SC034KnVzDpzn-u78wE0g0tzSOvUpdkZgvOTpaBvU7Q0zIPsxa0P9tjonbDINIMFZdV2oi4blsz
 3HDM0du_Fmd2WwzPc3cSRc2xQpvkyWK
 }
 
-!procedure AwsThinkBoxDeadline($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Compute/AwsThinkBoxDeadline', $name, $tech)
+!procedure AwsThinkBoxDeadline($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Compute/AwsThinkBoxDeadline', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsThinkBoxDeadlineCard($id, $funcName="", $content="")

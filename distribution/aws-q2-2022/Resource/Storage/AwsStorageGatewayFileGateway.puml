@@ -8,8 +8,8 @@ sprite $AwsStorageGatewayFileGatewayMd [16x16/16z] Oy02E3WvE3ZPu3mM2CtA0UN393Yfn
 
 sprite $AwsStorageGatewayFileGatewayLg [20x20/16z] lOl55K11308tWLZ_1NztkIud7ioqlo2oqlMoU65zAlOfpbzgtovAxmqavswNhKGqTOtiswchlpVfiEcyoLmkaJO2
 
-!procedure AwsStorageGatewayFileGateway($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Storage/AwsStorageGatewayFileGateway', $name, $tech)
+!procedure AwsStorageGatewayFileGateway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Storage/AwsStorageGatewayFileGateway', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsStorageGatewayFileGatewayCard($id, $funcName="", $content="")

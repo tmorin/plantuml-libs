@@ -11,8 +11,8 @@ fP250GCm20I1wEVstxVKtIyksDi_CEVSZZDkrEqz5yJ-twtjRfmPNDxLxUHbcR75jWGoASwsLMaqebFd
 ulOTzJRdC_t1NG3hHeCFsG
 }
 
-!procedure AwsRoboMakerSimulation($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Robotics/AwsRoboMakerSimulation', $name, $tech)
+!procedure AwsRoboMakerSimulation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Robotics/AwsRoboMakerSimulation', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsRoboMakerSimulationCard($id, $funcName="", $content="")

@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Database/AmazonAuroraMariaDbInstanceAlternate')
 
 ' renders the element
-AmazonAuroraMariaDbInstanceAlternate('AmazonAuroraMariaDbInstanceAlternate', 'Amazon Aurora Maria Db Instance Alternate', 'an optional tech label')
+AmazonAuroraMariaDbInstanceAlternate('AmazonAuroraMariaDbInstanceAlternate', 'Amazon Aurora Maria Db Instance Alternate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Database/AmazonAuroraMariaDbInstanceAlternate')
 
 ' renders the element
-AmazonAuroraMariaDbInstanceAlternate('AmazonAuroraMariaDbInstanceAlternate', 'Amazon Aurora Maria Db Instance Alternate', 'an optional tech label')
+AmazonAuroraMariaDbInstanceAlternate('AmazonAuroraMariaDbInstanceAlternate', 'Amazon Aurora Maria Db Instance Alternate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Storage/AwsBackupDatabase')
 
 ' renders the element
-AwsBackupDatabase('AwsBackupDatabase', 'Aws Backup Database', 'an optional tech label')
+AwsBackupDatabase('AwsBackupDatabase', 'Aws Backup Database', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Storage/AwsBackupDatabase')
 
 ' renders the element
-AwsBackupDatabase('AwsBackupDatabase', 'Aws Backup Database', 'an optional tech label')
+AwsBackupDatabase('AwsBackupDatabase', 'Aws Backup Database', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

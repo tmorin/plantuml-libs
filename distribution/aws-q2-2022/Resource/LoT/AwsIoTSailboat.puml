@@ -11,8 +11,8 @@ TStLOGHG20J00PxHVy7ndDzy8hjUsgUUHZJt3Zj4S5MzcwZJqrK0ijEpQzl2FWDEN6RNpxwRiOCQzpED
 Ov5fxceNqTc8v2gIJm
 }
 
-!procedure AwsIoTSailboat($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTSailboat', $name, $tech)
+!procedure AwsIoTSailboat($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTSailboat', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTSailboatCard($id, $funcName="", $content="")

@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/InternetOfThings/FreeRtos')
 
 ' renders the element
-FreeRtos('FreeRtos', 'Free Rtos', 'an optional tech label')
+FreeRtos('FreeRtos', 'Free Rtos', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/InternetOfThings/FreeRtos')
 
 ' renders the element
-FreeRtos('FreeRtos', 'Free Rtos', 'an optional tech label')
+FreeRtos('FreeRtos', 'Free Rtos', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

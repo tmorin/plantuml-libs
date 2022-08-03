@@ -8,8 +8,8 @@ sprite $AwsIoTAnalyticsNotebookMd [16x16/16z] TOq50a0X349juVu7_c77zimLc1jYm3_Eiu
 
 sprite $AwsIoTAnalyticsNotebookLg [20x20/16z] bO_50GHH34BXn_ilU6NSvPtY0Hp3MY5TJJ3JPvPfiEXHy6nEtMLRWoZWrMDzZMBSxNQNMm_d7zjQL0KcvhbE7_lQrLpFwxbUtyof3r2vGFjBRGNm1G
 
-!procedure AwsIoTAnalyticsNotebook($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTAnalyticsNotebook', $name, $tech)
+!procedure AwsIoTAnalyticsNotebook($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTAnalyticsNotebook', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTAnalyticsNotebookCard($id, $funcName="", $content="")

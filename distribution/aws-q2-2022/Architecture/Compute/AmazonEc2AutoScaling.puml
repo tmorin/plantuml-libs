@@ -11,8 +11,8 @@ RSY54G9G30JHw5tels785oJ3ZkvZXq_vYXDnZTCcWZUJd9OmdqOQfaK2UQmEIPV76fMH90NXsyf59D2M
 EQtuOnCVV_09
 }
 
-!procedure AmazonEc2AutoScaling($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Compute/AmazonEc2AutoScaling', $name, $tech)
+!procedure AmazonEc2AutoScaling($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Compute/AmazonEc2AutoScaling', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonEc2AutoScalingCard($id, $funcName="", $content="")

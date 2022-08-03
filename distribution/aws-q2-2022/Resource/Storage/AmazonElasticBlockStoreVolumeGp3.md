@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Storage/AmazonElasticBlockStoreVolumeGp3')
 
 ' renders the element
-AmazonElasticBlockStoreVolumeGp3('AmazonElasticBlockStoreVolumeGp3', 'Amazon Elastic Block Store Volume Gp3', 'an optional tech label')
+AmazonElasticBlockStoreVolumeGp3('AmazonElasticBlockStoreVolumeGp3', 'Amazon Elastic Block Store Volume Gp3', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Storage/AmazonElasticBlockStoreVolumeGp3')
 
 ' renders the element
-AmazonElasticBlockStoreVolumeGp3('AmazonElasticBlockStoreVolumeGp3', 'Amazon Elastic Block Store Volume Gp3', 'an optional tech label')
+AmazonElasticBlockStoreVolumeGp3('AmazonElasticBlockStoreVolumeGp3', 'Amazon Elastic Block Store Volume Gp3', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/AppIntegration/AwsAppSync')
 
 ' renders the element
-AwsAppSync('AwsAppSync', 'Aws App Sync', 'an optional tech label')
+AwsAppSync('AwsAppSync', 'Aws App Sync', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/AppIntegration/AwsAppSync')
 
 ' renders the element
-AwsAppSync('AwsAppSync', 'Aws App Sync', 'an optional tech label')
+AwsAppSync('AwsAppSync', 'Aws App Sync', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

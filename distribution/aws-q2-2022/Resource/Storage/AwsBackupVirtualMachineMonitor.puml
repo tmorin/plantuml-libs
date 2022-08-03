@@ -11,8 +11,8 @@ VS-5OG0n243H5mNs7xXsLlzH7Fn3lU4RGMyq1wsovwBbh1YdYiKk9ZMWWDsMHondZN6h92jX1GaqDHrK
 s_ki_tEERAscAAEwSf1f17tAz8beRJLyfh_Xv1K
 }
 
-!procedure AwsBackupVirtualMachineMonitor($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Storage/AwsBackupVirtualMachineMonitor', $name, $tech)
+!procedure AwsBackupVirtualMachineMonitor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Storage/AwsBackupVirtualMachineMonitor', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsBackupVirtualMachineMonitorCard($id, $funcName="", $content="")

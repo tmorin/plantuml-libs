@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/Compute/AmazonEc2ImageBuilder')
 
 ' renders the element
-AmazonEc2ImageBuilder('AmazonEc2ImageBuilder', 'Amazon Ec2 Image Builder', 'an optional tech label')
+AmazonEc2ImageBuilder('AmazonEc2ImageBuilder', 'Amazon Ec2 Image Builder', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/Compute/AmazonEc2ImageBuilder')
 
 ' renders the element
-AmazonEc2ImageBuilder('AmazonEc2ImageBuilder', 'Amazon Ec2 Image Builder', 'an optional tech label')
+AmazonEc2ImageBuilder('AmazonEc2ImageBuilder', 'Amazon Ec2 Image Builder', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

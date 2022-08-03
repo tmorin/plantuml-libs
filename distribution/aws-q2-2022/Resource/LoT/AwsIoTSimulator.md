@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/LoT/AwsIoTSimulator')
 
 ' renders the element
-AwsIoTSimulator('AwsIoTSimulator', 'Aws Io T Simulator', 'an optional tech label')
+AwsIoTSimulator('AwsIoTSimulator', 'Aws Io T Simulator', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/LoT/AwsIoTSimulator')
 
 ' renders the element
-AwsIoTSimulator('AwsIoTSimulator', 'Aws Io T Simulator', 'an optional tech label')
+AwsIoTSimulator('AwsIoTSimulator', 'Aws Io T Simulator', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/ManagementGovernance/AmazonCloudWatchSynthetics')
 
 ' renders the element
-AmazonCloudWatchSynthetics('AmazonCloudWatchSynthetics', 'Amazon Cloud Watch Synthetics', 'an optional tech label')
+AmazonCloudWatchSynthetics('AmazonCloudWatchSynthetics', 'Amazon Cloud Watch Synthetics', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/ManagementGovernance/AmazonCloudWatchSynthetics')
 
 ' renders the element
-AmazonCloudWatchSynthetics('AmazonCloudWatchSynthetics', 'Amazon Cloud Watch Synthetics', 'an optional tech label')
+AmazonCloudWatchSynthetics('AmazonCloudWatchSynthetics', 'Amazon Cloud Watch Synthetics', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -11,8 +11,8 @@ TSZNeG0X202me7UAiF-yh_UIp_ZNVRfoOlAcXnrMwm0axC1QW6jvCzARy2QQ0lV4W4Q20pNfWN51xuqQ
 FGk8of5pLAzcb3TNxaa7xi5NDN-Vawlz5C4Z
 }
 
-!procedure AwsSystemsManagerOpsCenter($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ManagementGovernance/AwsSystemsManagerOpsCenter', $name, $tech)
+!procedure AwsSystemsManagerOpsCenter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ManagementGovernance/AwsSystemsManagerOpsCenter', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsSystemsManagerOpsCenterCard($id, $funcName="", $content="")

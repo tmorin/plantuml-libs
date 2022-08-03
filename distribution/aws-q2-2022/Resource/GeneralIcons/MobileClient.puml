@@ -8,8 +8,8 @@ sprite $MobileClientMd [16x16/16z] Oy06UBX1W0V6vMJWPk7XPc1aXF6v8G3EXr2CWuRF3N4_c
 
 sprite $MobileClientLg [20x20/16z] tSY53G0n3C10bodPVzndXWLwiiZyghAAvye69GIGyvKvQo6Py-dkyjYa3j-kNPxPvFF5x5VAoMvOZ
 
-!procedure MobileClient($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GeneralIcons/MobileClient', $name, $tech)
+!procedure MobileClient($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GeneralIcons/MobileClient', $name, $tech, $desc)
 !endprocedure
 
 !procedure MobileClientCard($id, $funcName="", $content="")

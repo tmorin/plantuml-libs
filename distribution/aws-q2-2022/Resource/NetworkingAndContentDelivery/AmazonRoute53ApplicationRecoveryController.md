@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonRoute53ApplicationRecoveryController')
 
 ' renders the element
-AmazonRoute53ApplicationRecoveryController('AmazonRoute53ApplicationRecoveryController', 'Amazon Route53 Application Recovery Controller', 'an optional tech label')
+AmazonRoute53ApplicationRecoveryController('AmazonRoute53ApplicationRecoveryController', 'Amazon Route53 Application Recovery Controller', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonRoute53ApplicationRecoveryController')
 
 ' renders the element
-AmazonRoute53ApplicationRecoveryController('AmazonRoute53ApplicationRecoveryController', 'Amazon Route53 Application Recovery Controller', 'an optional tech label')
+AmazonRoute53ApplicationRecoveryController('AmazonRoute53ApplicationRecoveryController', 'Amazon Route53 Application Recovery Controller', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

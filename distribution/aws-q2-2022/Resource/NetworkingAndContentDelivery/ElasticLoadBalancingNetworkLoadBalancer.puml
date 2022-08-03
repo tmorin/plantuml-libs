@@ -11,8 +11,8 @@ TSv5WWGX3030WaQJ_xztZLwVgLiydhjMPCp2bvuDxEGMZTlkG1J-r7i3AZ53G3fcMaBPN0sK62bYaIpv
 PTU0f6oWPPvzYNJa-MyqsDmYbW0j-PAE5iKnmfUTwweji_cfr5hTNW4
 }
 
-!procedure ElasticLoadBalancingNetworkLoadBalancer($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/ElasticLoadBalancingNetworkLoadBalancer', $name, $tech)
+!procedure ElasticLoadBalancingNetworkLoadBalancer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/ElasticLoadBalancingNetworkLoadBalancer', $name, $tech, $desc)
 !endprocedure
 
 !procedure ElasticLoadBalancingNetworkLoadBalancerCard($id, $funcName="", $content="")

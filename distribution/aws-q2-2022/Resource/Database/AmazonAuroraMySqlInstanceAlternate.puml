@@ -8,8 +8,8 @@ sprite $AmazonAuroraMySqlInstanceAlternateMd [16x16/16z] lSS50S0m3031BuVysnspW7q
 
 sprite $AmazonAuroraMySqlInstanceAlternateLg [20x20/16z] pSt50GCm34FHRpaSxRzkcTi1-eu6YP_6zgiLfr7oph3va3hFZA4klEdtsMYUixL8FMUrkveijJvdWIWXD95kivFyx3ZxszdYGnFXVDFCYTx14G
 
-!procedure AmazonAuroraMySqlInstanceAlternate($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Database/AmazonAuroraMySqlInstanceAlternate', $name, $tech)
+!procedure AmazonAuroraMySqlInstanceAlternate($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Database/AmazonAuroraMySqlInstanceAlternate', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonAuroraMySqlInstanceAlternateCard($id, $funcName="", $content="")

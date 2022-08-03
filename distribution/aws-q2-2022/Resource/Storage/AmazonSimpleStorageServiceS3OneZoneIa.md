@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Storage/AmazonSimpleStorageServiceS3OneZoneIa')
 
 ' renders the element
-AmazonSimpleStorageServiceS3OneZoneIa('AmazonSimpleStorageServiceS3OneZoneIa', 'Amazon Simple Storage Service S3 One Zone Ia', 'an optional tech label')
+AmazonSimpleStorageServiceS3OneZoneIa('AmazonSimpleStorageServiceS3OneZoneIa', 'Amazon Simple Storage Service S3 One Zone Ia', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Storage/AmazonSimpleStorageServiceS3OneZoneIa')
 
 ' renders the element
-AmazonSimpleStorageServiceS3OneZoneIa('AmazonSimpleStorageServiceS3OneZoneIa', 'Amazon Simple Storage Service S3 One Zone Ia', 'an optional tech label')
+AmazonSimpleStorageServiceS3OneZoneIa('AmazonSimpleStorageServiceS3OneZoneIa', 'Amazon Simple Storage Service S3 One Zone Ia', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -11,8 +11,8 @@ VSt5WKGn50CmXUF-2ruOng_RGplGTwPdQoXIF1fpjMrviZ1Sr3S4QkU-90orEIkbd7eZx8gGaVEUi1TP
 ygYarnMUbUhg5m
 }
 
-!procedure AwsIoTHardwareBoard($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTHardwareBoard', $name, $tech)
+!procedure AwsIoTHardwareBoard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTHardwareBoard', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTHardwareBoardCard($id, $funcName="", $content="")

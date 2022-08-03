@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/NetworkingAndContentDelivery/AwsTransitGatewayAttachment')
 
 ' renders the element
-AwsTransitGatewayAttachment('AwsTransitGatewayAttachment', 'Aws Transit Gateway Attachment', 'an optional tech label')
+AwsTransitGatewayAttachment('AwsTransitGatewayAttachment', 'Aws Transit Gateway Attachment', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/NetworkingAndContentDelivery/AwsTransitGatewayAttachment')
 
 ' renders the element
-AwsTransitGatewayAttachment('AwsTransitGatewayAttachment', 'Aws Transit Gateway Attachment', 'an optional tech label')
+AwsTransitGatewayAttachment('AwsTransitGatewayAttachment', 'Aws Transit Gateway Attachment', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

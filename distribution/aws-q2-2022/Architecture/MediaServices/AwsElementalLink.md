@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/MediaServices/AwsElementalLink')
 
 ' renders the element
-AwsElementalLink('AwsElementalLink', 'Aws Elemental Link', 'an optional tech label')
+AwsElementalLink('AwsElementalLink', 'Aws Elemental Link', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/MediaServices/AwsElementalLink')
 
 ' renders the element
-AwsElementalLink('AwsElementalLink', 'Aws Elemental Link', 'an optional tech label')
+AwsElementalLink('AwsElementalLink', 'Aws Elemental Link', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

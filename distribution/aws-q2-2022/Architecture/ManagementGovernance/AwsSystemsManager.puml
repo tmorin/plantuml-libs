@@ -14,8 +14,8 @@ RS_N0GGX24LHbVYO_ljTq67p_VEOiVFEAln1_6ARChymDaq3bZH6eHeo4ZeOXGkLcu-sqDaNyRhDvHOY
 sdN5ZWWmmAUZBT57niYkx5ZzdSdQTcmoKRIj5QUs3csjZGy
 }
 
-!procedure AwsSystemsManager($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/ManagementGovernance/AwsSystemsManager', $name, $tech)
+!procedure AwsSystemsManager($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/ManagementGovernance/AwsSystemsManager', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsSystemsManagerCard($id, $funcName="", $content="")

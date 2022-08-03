@@ -8,8 +8,8 @@ sprite $AwsIoTReportedStateMd [16x16/16z] bSY55KCn34DHdPYa_HTkFpEzu3KEYKlw4-i2n3
 
 sprite $AwsIoTReportedStateLg [20x20/16z] hSo55SC0201HNFPVk3JkVl4V7h2PH4xpF-bY9W6YVSD_y8_fptzoLUrU1_jl-CRIpDmMLazwR8X_mwcHHfdcr33-bkw7-rojOllNc6BzPPocpJJDggaV
 
-!procedure AwsIoTReportedState($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTReportedState', $name, $tech)
+!procedure AwsIoTReportedState($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTReportedState', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTReportedStateCard($id, $funcName="", $content="")

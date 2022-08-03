@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/MediaServices/AwsElementalDelta')
 
 ' renders the element
-AwsElementalDelta('AwsElementalDelta', 'Aws Elemental Delta', 'an optional tech label')
+AwsElementalDelta('AwsElementalDelta', 'Aws Elemental Delta', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/MediaServices/AwsElementalDelta')
 
 ' renders the element
-AwsElementalDelta('AwsElementalDelta', 'Aws Elemental Delta', 'an optional tech label')
+AwsElementalDelta('AwsElementalDelta', 'Aws Elemental Delta', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

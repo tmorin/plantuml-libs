@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/Analytics/AmazonManagedStreamingForApacheKafka')
 
 ' renders the element
-AmazonManagedStreamingForApacheKafka('AmazonManagedStreamingForApacheKafka', 'Amazon Managed Streaming For Apache Kafka', 'an optional tech label')
+AmazonManagedStreamingForApacheKafka('AmazonManagedStreamingForApacheKafka', 'Amazon Managed Streaming For Apache Kafka', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/Analytics/AmazonManagedStreamingForApacheKafka')
 
 ' renders the element
-AmazonManagedStreamingForApacheKafka('AmazonManagedStreamingForApacheKafka', 'Amazon Managed Streaming For Apache Kafka', 'an optional tech label')
+AmazonManagedStreamingForApacheKafka('AmazonManagedStreamingForApacheKafka', 'Amazon Managed Streaming For Apache Kafka', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

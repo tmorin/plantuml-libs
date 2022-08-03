@@ -11,8 +11,8 @@ TP254GGn3CGKNz3RVxy_H_kiW1m6_hFDL8u2fgaUNd9NLeUhNLrUul5M8TWvdBjrbJXT5cprZDM6noVz
 0A_rsRlBpjtdmkbU0HQl93jL6A-e_eMUcBLVjKgLLqf4SF4
 }
 
-!procedure AmazonVpcNetworkAccessControlList($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonVpcNetworkAccessControlList', $name, $tech)
+!procedure AmazonVpcNetworkAccessControlList($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonVpcNetworkAccessControlList', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonVpcNetworkAccessControlListCard($id, $funcName="", $content="")

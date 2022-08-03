@@ -14,8 +14,8 @@ PSv70WCX34DHKzp4tF-yST2G-dTwAm78KzpX5sc_I4CuoxU9nSx4ZZNeI3QTPgLfALMcPCG29b0BkIkE
 giOnuXpJP_UcD28WK6-W7JHq7r5uVM1ECm7o-i8AmFM9hEmV7m
 }
 
-!procedure AwsRePost($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/CustomerEnablement/AwsRePost', $name, $tech)
+!procedure AwsRePost($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/CustomerEnablement/AwsRePost', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsRePostCard($id, $funcName="", $content="")

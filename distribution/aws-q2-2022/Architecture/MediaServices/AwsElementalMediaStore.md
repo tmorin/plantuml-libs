@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/MediaServices/AwsElementalMediaStore')
 
 ' renders the element
-AwsElementalMediaStore('AwsElementalMediaStore', 'Aws Elemental Media Store', 'an optional tech label')
+AwsElementalMediaStore('AwsElementalMediaStore', 'Aws Elemental Media Store', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/MediaServices/AwsElementalMediaStore')
 
 ' renders the element
-AwsElementalMediaStore('AwsElementalMediaStore', 'Aws Elemental Media Store', 'an optional tech label')
+AwsElementalMediaStore('AwsElementalMediaStore', 'Aws Elemental Media Store', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

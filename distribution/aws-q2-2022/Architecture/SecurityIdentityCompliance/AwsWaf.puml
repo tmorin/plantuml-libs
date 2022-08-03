@@ -14,8 +14,8 @@ RSu73WGW20H0LDhY__zx6EJwnhIHXXllc1d-OFp127WPFp4I2J0QHCDTon8d3EUnhh9RIG8WwPePN2Tn
 m4Y6xyGHANhw8SZiWv9lw5J5B4iqZhwpBMcUDJfVTQVT9t5NxiP0jPSLTif-y04
 }
 
-!procedure AwsWaf($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/SecurityIdentityCompliance/AwsWaf', $name, $tech)
+!procedure AwsWaf($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/SecurityIdentityCompliance/AwsWaf', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsWafCard($id, $funcName="", $content="")

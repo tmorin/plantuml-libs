@@ -11,8 +11,8 @@ RSs50SH02011x5Y-_u9Zv9sDJquuotVhYCOlfPkiyOu16P1EJEJRqi1IdrO0ndajSMqxKO6805rjXO1Z
 h8DtDM0DM0C-1jm1
 }
 
-!procedure AwsServerlessApplicationRepository($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Compute/AwsServerlessApplicationRepository', $name, $tech)
+!procedure AwsServerlessApplicationRepository($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Compute/AwsServerlessApplicationRepository', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsServerlessApplicationRepositoryCard($id, $funcName="", $content="")

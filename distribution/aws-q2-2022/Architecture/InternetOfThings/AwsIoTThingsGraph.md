@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/InternetOfThings/AwsIoTThingsGraph')
 
 ' renders the element
-AwsIoTThingsGraph('AwsIoTThingsGraph', 'Aws Io T Things Graph', 'an optional tech label')
+AwsIoTThingsGraph('AwsIoTThingsGraph', 'Aws Io T Things Graph', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/InternetOfThings/AwsIoTThingsGraph')
 
 ' renders the element
-AwsIoTThingsGraph('AwsIoTThingsGraph', 'Aws Io T Things Graph', 'an optional tech label')
+AwsIoTThingsGraph('AwsIoTThingsGraph', 'Aws Io T Things Graph', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

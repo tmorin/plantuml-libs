@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/MigrationTransfer/AwsMainframeModernization')
 
 ' renders the element
-AwsMainframeModernization('AwsMainframeModernization', 'Aws Mainframe Modernization', 'an optional tech label')
+AwsMainframeModernization('AwsMainframeModernization', 'Aws Mainframe Modernization', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/MigrationTransfer/AwsMainframeModernization')
 
 ' renders the element
-AwsMainframeModernization('AwsMainframeModernization', 'Aws Mainframe Modernization', 'an optional tech label')
+AwsMainframeModernization('AwsMainframeModernization', 'Aws Mainframe Modernization', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/MachineLearning/AmazonPolly')
 
 ' renders the element
-AmazonPolly('AmazonPolly', 'Amazon Polly', 'an optional tech label')
+AmazonPolly('AmazonPolly', 'Amazon Polly', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/MachineLearning/AmazonPolly')
 
 ' renders the element
-AmazonPolly('AmazonPolly', 'Amazon Polly', 'an optional tech label')
+AmazonPolly('AmazonPolly', 'Amazon Polly', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

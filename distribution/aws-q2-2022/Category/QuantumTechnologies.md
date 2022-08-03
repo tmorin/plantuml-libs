@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Category/QuantumTechnologies')
 
 ' renders the element
-QuantumTechnologies('QuantumTechnologies', 'Quantum Technologies', 'an optional tech label')
+QuantumTechnologies('QuantumTechnologies', 'Quantum Technologies', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Category/QuantumTechnologies')
 
 ' renders the element
-QuantumTechnologies('QuantumTechnologies', 'Quantum Technologies', 'an optional tech label')
+QuantumTechnologies('QuantumTechnologies', 'Quantum Technologies', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -11,8 +11,8 @@ bP25OGGm30DFHks_SBdFUE6OpJs61ZCm3_vwlTx_JG0i9wI06NFwjwC_lOPY_lMw3Kpqi41E_-lDrj-V
 z-h84re0IAjHM9jQFUgf40G20Nm2
 }
 
-!procedure AmazonEc2M1MacInstance($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Compute/AmazonEc2M1MacInstance', $name, $tech)
+!procedure AmazonEc2M1MacInstance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Compute/AmazonEc2M1MacInstance', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonEc2M1MacInstanceCard($id, $funcName="", $content="")

@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Storage/AmazonSimpleStorageServiceS3StorageLens')
 
 ' renders the element
-AmazonSimpleStorageServiceS3StorageLens('AmazonSimpleStorageServiceS3StorageLens', 'Amazon Simple Storage Service S3 Storage Lens', 'an optional tech label')
+AmazonSimpleStorageServiceS3StorageLens('AmazonSimpleStorageServiceS3StorageLens', 'Amazon Simple Storage Service S3 Storage Lens', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Storage/AmazonSimpleStorageServiceS3StorageLens')
 
 ' renders the element
-AmazonSimpleStorageServiceS3StorageLens('AmazonSimpleStorageServiceS3StorageLens', 'Amazon Simple Storage Service S3 Storage Lens', 'an optional tech label')
+AmazonSimpleStorageServiceS3StorageLens('AmazonSimpleStorageServiceS3StorageLens', 'Amazon Simple Storage Service S3 Storage Lens', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

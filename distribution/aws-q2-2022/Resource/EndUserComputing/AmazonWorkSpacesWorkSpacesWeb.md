@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/EndUserComputing/AmazonWorkSpacesWorkSpacesWeb')
 
 ' renders the element
-AmazonWorkSpacesWorkSpacesWeb('AmazonWorkSpacesWorkSpacesWeb', 'Amazon Work Spaces Work Spaces Web', 'an optional tech label')
+AmazonWorkSpacesWorkSpacesWeb('AmazonWorkSpacesWorkSpacesWeb', 'Amazon Work Spaces Work Spaces Web', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/EndUserComputing/AmazonWorkSpacesWorkSpacesWeb')
 
 ' renders the element
-AmazonWorkSpacesWorkSpacesWeb('AmazonWorkSpacesWorkSpacesWeb', 'Amazon Work Spaces Work Spaces Web', 'an optional tech label')
+AmazonWorkSpacesWorkSpacesWeb('AmazonWorkSpacesWorkSpacesWeb', 'Amazon Work Spaces Work Spaces Web', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

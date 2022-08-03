@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/DeveloperTools/AwsXRay')
 
 ' renders the element
-AwsXRay('AwsXRay', 'Aws X Ray', 'an optional tech label')
+AwsXRay('AwsXRay', 'Aws X Ray', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/DeveloperTools/AwsXRay')
 
 ' renders the element
-AwsXRay('AwsXRay', 'Aws X Ray', 'an optional tech label')
+AwsXRay('AwsXRay', 'Aws X Ray', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

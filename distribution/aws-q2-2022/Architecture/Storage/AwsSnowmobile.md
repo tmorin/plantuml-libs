@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/Storage/AwsSnowmobile')
 
 ' renders the element
-AwsSnowmobile('AwsSnowmobile', 'Aws Snowmobile', 'an optional tech label')
+AwsSnowmobile('AwsSnowmobile', 'Aws Snowmobile', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/Storage/AwsSnowmobile')
 
 ' renders the element
-AwsSnowmobile('AwsSnowmobile', 'Aws Snowmobile', 'an optional tech label')
+AwsSnowmobile('AwsSnowmobile', 'Aws Snowmobile', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

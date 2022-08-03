@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/NetworkingContentDelivery/AmazonVirtualPrivateCloud')
 
 ' renders the element
-AmazonVirtualPrivateCloud('AmazonVirtualPrivateCloud', 'Amazon Virtual Private Cloud', 'an optional tech label')
+AmazonVirtualPrivateCloud('AmazonVirtualPrivateCloud', 'Amazon Virtual Private Cloud', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/NetworkingContentDelivery/AmazonVirtualPrivateCloud')
 
 ' renders the element
-AmazonVirtualPrivateCloud('AmazonVirtualPrivateCloud', 'Amazon Virtual Private Cloud', 'an optional tech label')
+AmazonVirtualPrivateCloud('AmazonVirtualPrivateCloud', 'Amazon Virtual Private Cloud', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

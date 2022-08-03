@@ -8,8 +8,8 @@ sprite $VrArMd [16x16/16z] NSk54G0n24JHU5Yk_tuFYV_HjmFzhJIfpa9lqCZgVNeEZqdCeEAPE
 
 sprite $VrArLg [20x20/16z] RSk53GKW34NH2lRA_lD-mUtY9o6-8ZwZoFYNMl5NjudJ9XQp0ukTMCmanb3olflAYBejtyEqWPjPaDiK-ZSKomRz1GlbGB5iBTIAJPmsSTgAqoOMeol-0W
 
-!procedure VrAr($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Category/VrAr', $name, $tech)
+!procedure VrAr($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Category/VrAr', $name, $tech, $desc)
 !endprocedure
 
 !procedure VrArCard($id, $funcName="", $content="")

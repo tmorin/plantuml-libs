@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/ApplicationIntegration/AmazonEventBridgeSaasPartnerEvent')
 
 ' renders the element
-AmazonEventBridgeSaasPartnerEvent('AmazonEventBridgeSaasPartnerEvent', 'Amazon Event Bridge Saas Partner Event', 'an optional tech label')
+AmazonEventBridgeSaasPartnerEvent('AmazonEventBridgeSaasPartnerEvent', 'Amazon Event Bridge Saas Partner Event', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/ApplicationIntegration/AmazonEventBridgeSaasPartnerEvent')
 
 ' renders the element
-AmazonEventBridgeSaasPartnerEvent('AmazonEventBridgeSaasPartnerEvent', 'Amazon Event Bridge Saas Partner Event', 'an optional tech label')
+AmazonEventBridgeSaasPartnerEvent('AmazonEventBridgeSaasPartnerEvent', 'Amazon Event Bridge Saas Partner Event', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

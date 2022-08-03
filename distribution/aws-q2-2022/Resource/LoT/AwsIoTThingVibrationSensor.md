@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/LoT/AwsIoTThingVibrationSensor')
 
 ' renders the element
-AwsIoTThingVibrationSensor('AwsIoTThingVibrationSensor', 'Aws Io T Thing Vibration Sensor', 'an optional tech label')
+AwsIoTThingVibrationSensor('AwsIoTThingVibrationSensor', 'Aws Io T Thing Vibration Sensor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/LoT/AwsIoTThingVibrationSensor')
 
 ' renders the element
-AwsIoTThingVibrationSensor('AwsIoTThingVibrationSensor', 'Aws Io T Thing Vibration Sensor', 'an optional tech label')
+AwsIoTThingVibrationSensor('AwsIoTThingVibrationSensor', 'Aws Io T Thing Vibration Sensor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -11,8 +11,8 @@ RSg74SD030F13m2ExhzW1uwpTDAd7V8edtoFVypBE3NfetHpa_5hFPwf_R55vsIz30swPFHaGJHPdUFr
 nWZ3oqhC2UBHnrRoDAegjfUdv6s9jk9LxZti4wyk9tW3
 }
 
-!procedure AwsOutpostsFamily($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Compute/AwsOutpostsFamily', $name, $tech)
+!procedure AwsOutpostsFamily($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Compute/AwsOutpostsFamily', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsOutpostsFamilyCard($id, $funcName="", $content="")

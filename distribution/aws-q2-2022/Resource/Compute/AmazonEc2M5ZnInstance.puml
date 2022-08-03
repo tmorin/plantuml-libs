@@ -11,8 +11,8 @@ bP250GCm20Jl2V3ilt3TlHSF3kze2eQ6_l1N7e_FczXZRbW2kkVkpwsNUbNtUbslzS2OHYYKh01cXd8W
 G220BG
 }
 
-!procedure AmazonEc2M5ZnInstance($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Compute/AmazonEc2M5ZnInstance', $name, $tech)
+!procedure AmazonEc2M5ZnInstance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Compute/AmazonEc2M5ZnInstance', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonEc2M5ZnInstanceCard($id, $funcName="", $content="")

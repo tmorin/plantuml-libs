@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/ManagementGovernance/AwsTrustedAdvisorChecklistFaultTolerant')
 
 ' renders the element
-AwsTrustedAdvisorChecklistFaultTolerant('AwsTrustedAdvisorChecklistFaultTolerant', 'Aws Trusted Advisor Checklist Fault Tolerant', 'an optional tech label')
+AwsTrustedAdvisorChecklistFaultTolerant('AwsTrustedAdvisorChecklistFaultTolerant', 'Aws Trusted Advisor Checklist Fault Tolerant', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/ManagementGovernance/AwsTrustedAdvisorChecklistFaultTolerant')
 
 ' renders the element
-AwsTrustedAdvisorChecklistFaultTolerant('AwsTrustedAdvisorChecklistFaultTolerant', 'Aws Trusted Advisor Checklist Fault Tolerant', 'an optional tech label')
+AwsTrustedAdvisorChecklistFaultTolerant('AwsTrustedAdvisorChecklistFaultTolerant', 'Aws Trusted Advisor Checklist Fault Tolerant', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

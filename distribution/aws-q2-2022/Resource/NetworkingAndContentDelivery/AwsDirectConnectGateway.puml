@@ -11,8 +11,8 @@ VO-50O1030Chhyt-y-849_1sTVcJXTuH6Y8kfCP4HQEG9DZioTkapGf67CArvDblHJbEhBG5zLFi2XLt
 xIe0yf3oDW8
 }
 
-!procedure AwsDirectConnectGateway($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AwsDirectConnectGateway', $name, $tech)
+!procedure AwsDirectConnectGateway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AwsDirectConnectGateway', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsDirectConnectGatewayCard($id, $funcName="", $content="")

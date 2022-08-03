@@ -11,8 +11,8 @@ TSh5WSGm00GmcJtz5tom38dUSghlhE9DAlRqOXVGkgVDHR8s5xLwQDL5YgTqI5alQjiiPOoEmfXzs4GP
 JjYOQmfIUYzaT2A2I1X9I298VHVK3yKl
 }
 
-!procedure AwsIoTShadow($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTShadow', $name, $tech)
+!procedure AwsIoTShadow($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTShadow', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTShadowCard($id, $funcName="", $content="")

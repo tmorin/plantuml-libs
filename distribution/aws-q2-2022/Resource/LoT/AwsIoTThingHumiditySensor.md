@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/LoT/AwsIoTThingHumiditySensor')
 
 ' renders the element
-AwsIoTThingHumiditySensor('AwsIoTThingHumiditySensor', 'Aws Io T Thing Humidity Sensor', 'an optional tech label')
+AwsIoTThingHumiditySensor('AwsIoTThingHumiditySensor', 'Aws Io T Thing Humidity Sensor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/LoT/AwsIoTThingHumiditySensor')
 
 ' renders the element
-AwsIoTThingHumiditySensor('AwsIoTThingHumiditySensor', 'Aws Io T Thing Humidity Sensor', 'an optional tech label')
+AwsIoTThingHumiditySensor('AwsIoTThingHumiditySensor', 'Aws Io T Thing Humidity Sensor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

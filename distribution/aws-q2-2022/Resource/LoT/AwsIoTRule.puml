@@ -8,8 +8,8 @@ sprite $AwsIoTRuleMd [16x16/16z] dSv50i1024FHZF9p_mFNlLrr17WheezZB0dgvj3i9cy6Iyb
 
 sprite $AwsIoTRuleLg [20x20/16z] lSZL0SDG34DHcQtz1swOaz-UXxxuqYGcrO9D8J3Yj3Sj-MWHIS182iwg4W_4ZUO45quTZ-2aOjnfKTX92-20yDGYEUgiKtCi_jp0KW3Mn9bwsDGd0m
 
-!procedure AwsIoTRule($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTRule', $name, $tech)
+!procedure AwsIoTRule($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTRule', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTRuleCard($id, $funcName="", $content="")

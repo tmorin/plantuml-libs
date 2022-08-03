@@ -11,8 +11,8 @@ TKu50WGX2AJZ_ny-3BYU3QTKu3_G8btVhBGTv8iRJTIcTPCiKmuNkaSwTZwBI9t1k8M3HpXWeTGvqSgj
 5l02Zl8DHt-TsWXEfoyp6Rw0mnu
 }
 
-!procedure AmazonSimpleStorageServiceGeneralAccessPoints($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Storage/AmazonSimpleStorageServiceGeneralAccessPoints', $name, $tech)
+!procedure AmazonSimpleStorageServiceGeneralAccessPoints($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Storage/AmazonSimpleStorageServiceGeneralAccessPoints', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonSimpleStorageServiceGeneralAccessPointsCard($id, $funcName="", $content="")

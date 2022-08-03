@@ -14,8 +14,8 @@ RS_50O0m343HMfJzzoM6yu-l6lghzNUDkbXSaLTsujswDHDFGzlPH-9fhNDVYMOQ1c0xmzZD4SMwco4k
 bODQPf9MIPHswfzfMVlKTm
 }
 
-!procedure Storage($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Category/Storage', $name, $tech)
+!procedure Storage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Category/Storage', $name, $tech, $desc)
 !endprocedure
 
 !procedure StorageCard($id, $funcName="", $content="")

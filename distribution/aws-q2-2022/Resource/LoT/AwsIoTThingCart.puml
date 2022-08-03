@@ -14,8 +14,8 @@ TP070a8X240V9kl-5owm-lkvPSCJ4vbaZp-AwF4lV4SC2cUF0QgE2tz2PUdbKK-a_kABjCrKXs0HErjH
 NcyOyFS7SQctTC8yB7lOS_z0QeuUnHi
 }
 
-!procedure AwsIoTThingCart($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTThingCart', $name, $tech)
+!procedure AwsIoTThingCart($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTThingCart', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTThingCartCard($id, $funcName="", $content="")

@@ -11,8 +11,8 @@ VS-54GGX40NHneRv-GTyijXwbr4Fvwti9wYIa3J13K4qI2cRRMQWicK27nP6EzkrCvCh7qtpETF4LihB
 Nzx-vc5Nh9k5k0_u0W
 }
 
-!procedure AwsBackupComplianceReporting($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Storage/AwsBackupComplianceReporting', $name, $tech)
+!procedure AwsBackupComplianceReporting($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Storage/AwsBackupComplianceReporting', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsBackupComplianceReportingCard($id, $funcName="", $content="")

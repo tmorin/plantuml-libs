@@ -14,8 +14,8 @@ TP1N0WCW2CK23dptlt0BT8-ep7p9FoQsK9q7wsjstd2IuCQZSw-PxJD8MWm81RWqsZCBmcXSLSyLIC26
 FMWF3gzi4eyJrwiw-___WUNrEia5
 }
 
-!procedure AwsIoTThingBank($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTThingBank', $name, $tech)
+!procedure AwsIoTThingBank($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTThingBank', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTThingBankCard($id, $funcName="", $content="")

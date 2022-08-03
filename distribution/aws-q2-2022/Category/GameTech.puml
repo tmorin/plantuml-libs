@@ -11,8 +11,8 @@ XSY50S0m24JHu1pTVz-wsu_ougb6rreGfd8f8ZRRSRSTHwkwu6pH24F3ira6GExgaRmQ5Lac1DfyCqGf
 09YibZ2qsgv_jkkhjLlK0m
 }
 
-!procedure GameTech($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Category/GameTech', $name, $tech)
+!procedure GameTech($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Category/GameTech', $name, $tech, $desc)
 !endprocedure
 
 !procedure GameTechCard($id, $funcName="", $content="")

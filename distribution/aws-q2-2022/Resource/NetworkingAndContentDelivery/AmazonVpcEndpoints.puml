@@ -14,8 +14,8 @@ TSk5eS0W30N02wKjvEq_xtUNGsF-TwnEt-NJbGbsUDCJwlDB5pex4ocufkfLXhCNWN0PoPLRgCKnkJJK
 rN1N46eZu-NMUClhkf9Ok0SqUc1TRsFCuBclg7XLAQ_kZJShUnvNCdnLOvGtZm
 }
 
-!procedure AmazonVpcEndpoints($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonVpcEndpoints', $name, $tech)
+!procedure AmazonVpcEndpoints($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonVpcEndpoints', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonVpcEndpointsCard($id, $funcName="", $content="")

@@ -8,8 +8,8 @@ sprite $AwsIdentityAccessManagementPermissionsMd [16x16/16z] VOj50e1000An5Vx_NdM
 
 sprite $AwsIdentityAccessManagementPermissionsLg [20x20/16z] ZSr50a0X40BGmLRkVzxVQRDy4qWzaP-aqu9y0lLQA2sup922AMxXQl-gHcJ_80dv7edo5dCTLe3Sl6Un1_h2ADwDEwBwn9w6h-sq0W
 
-!procedure AwsIdentityAccessManagementPermissions($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessManagementPermissions', $name, $tech)
+!procedure AwsIdentityAccessManagementPermissions($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessManagementPermissions', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIdentityAccessManagementPermissionsCard($id, $funcName="", $content="")

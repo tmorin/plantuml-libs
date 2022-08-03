@@ -11,8 +11,8 @@ lOw50KD134BXNCZ-wvRKHlYdBmwUMlp3ZnHRIkXnTioaw3jVeArZcCktu6PeGs3vHEsOTvSgk2g4sWja
 JQxq8qNq3s1EFBHU
 }
 
-!procedure TapeStorage($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GeneralIcons/TapeStorage', $name, $tech)
+!procedure TapeStorage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GeneralIcons/TapeStorage', $name, $tech, $desc)
 !endprocedure
 
 !procedure TapeStorageCard($id, $funcName="", $content="")

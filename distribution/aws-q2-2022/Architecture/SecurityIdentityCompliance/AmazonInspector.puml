@@ -14,8 +14,8 @@ RSZ70GD120GmCWpRVxtsvQodiAbTPk8Z-oFx8tjDcbolOPvcQNgv20vuIFXvv1MK7ixO3yujHG0Pi5sb
 OyxYh4eMXAutPvTATWcIvrjpLGnRxv9DlDqriTuhnqV-0G
 }
 
-!procedure AmazonInspector($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/SecurityIdentityCompliance/AmazonInspector', $name, $tech)
+!procedure AmazonInspector($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/SecurityIdentityCompliance/AmazonInspector', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonInspectorCard($id, $funcName="", $content="")

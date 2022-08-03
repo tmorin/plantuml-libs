@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/MachineLearning/AwsDeepComposer')
 
 ' renders the element
-AwsDeepComposer('AwsDeepComposer', 'Aws Deep Composer', 'an optional tech label')
+AwsDeepComposer('AwsDeepComposer', 'Aws Deep Composer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/MachineLearning/AwsDeepComposer')
 
 ' renders the element
-AwsDeepComposer('AwsDeepComposer', 'Aws Deep Composer', 'an optional tech label')
+AwsDeepComposer('AwsDeepComposer', 'Aws Deep Composer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

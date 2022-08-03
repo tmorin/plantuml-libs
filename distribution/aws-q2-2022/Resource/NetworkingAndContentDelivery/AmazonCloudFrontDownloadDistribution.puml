@@ -11,8 +11,8 @@ TO-50GCn200BCMJ_UIjexQE7m-rw3HAL0s-QfTD-rbB9BEGLAh1Ft-mhl20yoju_yBDY9MiR5STFOF6s
 CnfFZJbAgfKy1OAsj9ML1axLppa14PCV
 }
 
-!procedure AmazonCloudFrontDownloadDistribution($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonCloudFrontDownloadDistribution', $name, $tech)
+!procedure AmazonCloudFrontDownloadDistribution($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonCloudFrontDownloadDistribution', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonCloudFrontDownloadDistributionCard($id, $funcName="", $content="")

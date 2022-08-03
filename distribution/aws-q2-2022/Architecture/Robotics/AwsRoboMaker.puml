@@ -14,8 +14,8 @@ RSu54WCW34HHYEzo__kM8bFzumz9SAfRPk8FyW-IHrpZ8ZUweAgzhCm0iv1w6IS1NG9u6Ni390t0ozIY
 KXNLC1jZM1Com4f0fRPruMvQrElUGRLje_SukG3RIBmwjlrqx1iV
 }
 
-!procedure AwsRoboMaker($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Robotics/AwsRoboMaker', $name, $tech)
+!procedure AwsRoboMaker($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Robotics/AwsRoboMaker', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsRoboMakerCard($id, $funcName="", $content="")

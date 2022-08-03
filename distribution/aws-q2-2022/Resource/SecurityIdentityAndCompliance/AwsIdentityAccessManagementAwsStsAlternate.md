@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessManagementAwsStsAlternate')
 
 ' renders the element
-AwsIdentityAccessManagementAwsStsAlternate('AwsIdentityAccessManagementAwsStsAlternate', 'Aws Identity Access Management Aws Sts Alternate', 'an optional tech label')
+AwsIdentityAccessManagementAwsStsAlternate('AwsIdentityAccessManagementAwsStsAlternate', 'Aws Identity Access Management Aws Sts Alternate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessManagementAwsStsAlternate')
 
 ' renders the element
-AwsIdentityAccessManagementAwsStsAlternate('AwsIdentityAccessManagementAwsStsAlternate', 'Aws Identity Access Management Aws Sts Alternate', 'an optional tech label')
+AwsIdentityAccessManagementAwsStsAlternate('AwsIdentityAccessManagementAwsStsAlternate', 'Aws Identity Access Management Aws Sts Alternate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

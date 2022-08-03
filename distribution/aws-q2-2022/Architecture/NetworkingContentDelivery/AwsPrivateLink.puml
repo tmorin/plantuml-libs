@@ -11,8 +11,8 @@ RSg55S0m30FH60AIzz-tJfckcF-4jN7MC-2bVvP8V9VaTqb-bzomc9I7SIWomTqCirvSBnEcc5cJVbYX
 8f5QZXoR1O-m5JyOFnW_63-u
 }
 
-!procedure AwsPrivateLink($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/NetworkingContentDelivery/AwsPrivateLink', $name, $tech)
+!procedure AwsPrivateLink($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/NetworkingContentDelivery/AwsPrivateLink', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsPrivateLinkCard($id, $funcName="", $content="")

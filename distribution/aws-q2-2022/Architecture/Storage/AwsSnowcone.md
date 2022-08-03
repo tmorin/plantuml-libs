@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/Storage/AwsSnowcone')
 
 ' renders the element
-AwsSnowcone('AwsSnowcone', 'Aws Snowcone', 'an optional tech label')
+AwsSnowcone('AwsSnowcone', 'Aws Snowcone', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/Storage/AwsSnowcone')
 
 ' renders the element
-AwsSnowcone('AwsSnowcone', 'Aws Snowcone', 'an optional tech label')
+AwsSnowcone('AwsSnowcone', 'Aws Snowcone', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

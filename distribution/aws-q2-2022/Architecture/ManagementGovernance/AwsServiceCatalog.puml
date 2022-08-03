@@ -14,8 +14,8 @@ PSo50KGn20FG09M4xZ_l5tf-eVeggl2PUKVwH_tXstHjdfXR6lgy-iOin9G6EQmmBmGauYeIsCR1BjWm
 UCV0HBGcaMlLHThKS38aRKie5HAXEskLzkPfrlMsEzuZzRQjklglLTvM-iOJ
 }
 
-!procedure AwsServiceCatalog($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/ManagementGovernance/AwsServiceCatalog', $name, $tech)
+!procedure AwsServiceCatalog($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/ManagementGovernance/AwsServiceCatalog', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsServiceCatalogCard($id, $funcName="", $content="")

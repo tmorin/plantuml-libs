@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Category/NetworkingContentDelivery')
 
 ' renders the element
-NetworkingContentDelivery('NetworkingContentDelivery', 'Networking Content Delivery', 'an optional tech label')
+NetworkingContentDelivery('NetworkingContentDelivery', 'Networking Content Delivery', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Category/NetworkingContentDelivery')
 
 ' renders the element
-NetworkingContentDelivery('NetworkingContentDelivery', 'Networking Content Delivery', 'an optional tech label')
+NetworkingContentDelivery('NetworkingContentDelivery', 'Networking Content Delivery', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

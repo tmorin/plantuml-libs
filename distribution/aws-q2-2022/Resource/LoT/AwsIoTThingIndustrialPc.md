@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/LoT/AwsIoTThingIndustrialPc')
 
 ' renders the element
-AwsIoTThingIndustrialPc('AwsIoTThingIndustrialPc', 'Aws Io T Thing Industrial Pc', 'an optional tech label')
+AwsIoTThingIndustrialPc('AwsIoTThingIndustrialPc', 'Aws Io T Thing Industrial Pc', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/LoT/AwsIoTThingIndustrialPc')
 
 ' renders the element
-AwsIoTThingIndustrialPc('AwsIoTThingIndustrialPc', 'Aws Io T Thing Industrial Pc', 'an optional tech label')
+AwsIoTThingIndustrialPc('AwsIoTThingIndustrialPc', 'Aws Io T Thing Industrial Pc', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

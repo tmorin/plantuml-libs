@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/BusinessApplications/AmazonConnect')
 
 ' renders the element
-AmazonConnect('AmazonConnect', 'Amazon Connect', 'an optional tech label')
+AmazonConnect('AmazonConnect', 'Amazon Connect', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/BusinessApplications/AmazonConnect')
 
 ' renders the element
-AmazonConnect('AmazonConnect', 'Amazon Connect', 'an optional tech label')
+AmazonConnect('AmazonConnect', 'Amazon Connect', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Robotics/AwsRoboMakerSimulation')
 
 ' renders the element
-AwsRoboMakerSimulation('AwsRoboMakerSimulation', 'Aws Robo Maker Simulation', 'an optional tech label')
+AwsRoboMakerSimulation('AwsRoboMakerSimulation', 'Aws Robo Maker Simulation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Robotics/AwsRoboMakerSimulation')
 
 ' renders the element
-AwsRoboMakerSimulation('AwsRoboMakerSimulation', 'Aws Robo Maker Simulation', 'an optional tech label')
+AwsRoboMakerSimulation('AwsRoboMakerSimulation', 'Aws Robo Maker Simulation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

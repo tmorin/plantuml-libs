@@ -14,8 +14,8 @@ TSi5WiGW30302PHj8V3_vvwkow0ndzMUCuzmSreDZCLPDix6-Pl5pMnmQkubB12vZlE7sk3er1cmw13T
 8Oa1COywEbZd0m6SDXZk9MZJsTrKot0UJ9pbEcffkJRtejJYx1i
 }
 
-!procedure Disk($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GeneralIcons/Disk', $name, $tech)
+!procedure Disk($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GeneralIcons/Disk', $name, $tech, $desc)
 !endprocedure
 
 !procedure DiskCard($id, $funcName="", $content="")

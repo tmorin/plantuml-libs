@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/SecurityIdentityCompliance/AwsCertificateManager')
 
 ' renders the element
-AwsCertificateManager('AwsCertificateManager', 'Aws Certificate Manager', 'an optional tech label')
+AwsCertificateManager('AwsCertificateManager', 'Aws Certificate Manager', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/SecurityIdentityCompliance/AwsCertificateManager')
 
 ' renders the element
-AwsCertificateManager('AwsCertificateManager', 'Aws Certificate Manager', 'an optional tech label')
+AwsCertificateManager('AwsCertificateManager', 'Aws Certificate Manager', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -14,8 +14,8 @@ RSY50GGn20LHud_O_lkzo78-KHuxHMF57-GNmtgjB_HDgKDkWRwm3uOehHpqXHdLUOOip7kQN06LSfig
 BUoO4uLPzXTUisaK3moZcizUjlJkdpbXeO4F
 }
 
-!procedure AwsFaultInjectionSimulator($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/ManagementGovernance/AwsFaultInjectionSimulator', $name, $tech)
+!procedure AwsFaultInjectionSimulator($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/ManagementGovernance/AwsFaultInjectionSimulator', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsFaultInjectionSimulatorCard($id, $funcName="", $content="")

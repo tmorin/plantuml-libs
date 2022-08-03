@@ -11,8 +11,8 @@ TSjBGWCn30KmsScq4x_xtvSDVwZsyjgw9_CiNwviSEB3R1_c0gPzoOPh-suWVgZ3sWgbYaAuoUKHMMsA
 87vuR3Y-6t3bruGzzH673oVtwfritrLt0xm1
 }
 
-!procedure AwsIdentityAccessManagementMfaToken($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessManagementMfaToken', $name, $tech)
+!procedure AwsIdentityAccessManagementMfaToken($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessManagementMfaToken', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIdentityAccessManagementMfaTokenCard($id, $funcName="", $content="")

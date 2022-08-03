@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Storage/AmazonSimpleStorageServiceS3GlacierFlexibleRetrieval')
 
 ' renders the element
-AmazonSimpleStorageServiceS3GlacierFlexibleRetrieval('AmazonSimpleStorageServiceS3GlacierFlexibleRetrieval', 'Amazon Simple Storage Service S3 Glacier Flexible Retrieval', 'an optional tech label')
+AmazonSimpleStorageServiceS3GlacierFlexibleRetrieval('AmazonSimpleStorageServiceS3GlacierFlexibleRetrieval', 'Amazon Simple Storage Service S3 Glacier Flexible Retrieval', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Storage/AmazonSimpleStorageServiceS3GlacierFlexibleRetrieval')
 
 ' renders the element
-AmazonSimpleStorageServiceS3GlacierFlexibleRetrieval('AmazonSimpleStorageServiceS3GlacierFlexibleRetrieval', 'Amazon Simple Storage Service S3 Glacier Flexible Retrieval', 'an optional tech label')
+AmazonSimpleStorageServiceS3GlacierFlexibleRetrieval('AmazonSimpleStorageServiceS3GlacierFlexibleRetrieval', 'Amazon Simple Storage Service S3 Glacier Flexible Retrieval', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

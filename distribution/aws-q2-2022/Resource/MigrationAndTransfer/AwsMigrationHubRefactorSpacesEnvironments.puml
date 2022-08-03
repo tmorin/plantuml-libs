@@ -8,8 +8,8 @@ sprite $AwsMigrationHubRefactorSpacesEnvironmentsMd [16x16/16z] NSk53K0n549H-D8d
 
 sprite $AwsMigrationHubRefactorSpacesEnvironmentsLg [20x20/16z] RSg54G112C30m3dzz_jk1x_ZcV1dcASOZkojZLFvjCx9jngRbU6RK7ByMkVqVW9saQljZ4C-MzdjJThJJePO7g5HrJUizFYHNSk7-csY9_QcJb8qO0K
 
-!procedure AwsMigrationHubRefactorSpacesEnvironments($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/MigrationAndTransfer/AwsMigrationHubRefactorSpacesEnvironments', $name, $tech)
+!procedure AwsMigrationHubRefactorSpacesEnvironments($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/MigrationAndTransfer/AwsMigrationHubRefactorSpacesEnvironments', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsMigrationHubRefactorSpacesEnvironmentsCard($id, $funcName="", $content="")

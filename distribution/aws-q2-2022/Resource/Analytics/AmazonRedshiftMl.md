@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Analytics/AmazonRedshiftMl')
 
 ' renders the element
-AmazonRedshiftMl('AmazonRedshiftMl', 'Amazon Redshift Ml', 'an optional tech label')
+AmazonRedshiftMl('AmazonRedshiftMl', 'Amazon Redshift Ml', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Analytics/AmazonRedshiftMl')
 
 ' renders the element
-AmazonRedshiftMl('AmazonRedshiftMl', 'Amazon Redshift Ml', 'an optional tech label')
+AmazonRedshiftMl('AmazonRedshiftMl', 'Amazon Redshift Ml', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

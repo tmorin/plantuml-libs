@@ -11,8 +11,8 @@ ZSg53G0n34DH1yhD_kCUC_OB_MIy9dKk7ImGnZZ7ZSfg73QCco76Yr7EkUwcPlDAbz_5rAPYqoySJMy_
 cA900SHZtc59162P6cSF
 }
 
-!procedure Documents($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GeneralIcons/Documents', $name, $tech)
+!procedure Documents($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GeneralIcons/Documents', $name, $tech, $desc)
 !endprocedure
 
 !procedure DocumentsCard($id, $funcName="", $content="")

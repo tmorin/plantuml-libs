@@ -11,8 +11,8 @@ fSu50WCn24JHpspOCFU_S4lTzSKL-CjQrmPCRbJWc9ACjh9d4jqWtG2EUsVdFNi6RWKIfQ1dHPkKOEJU
 LyBTvPM5Zsq
 }
 
-!procedure AwsSnowballSnowballImportExport($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Storage/AwsSnowballSnowballImportExport', $name, $tech)
+!procedure AwsSnowballSnowballImportExport($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Storage/AwsSnowballSnowballImportExport', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsSnowballSnowballImportExportCard($id, $funcName="", $content="")

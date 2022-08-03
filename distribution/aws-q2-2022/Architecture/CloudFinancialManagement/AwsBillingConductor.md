@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/CloudFinancialManagement/AwsBillingConductor')
 
 ' renders the element
-AwsBillingConductor('AwsBillingConductor', 'Aws Billing Conductor', 'an optional tech label')
+AwsBillingConductor('AwsBillingConductor', 'Aws Billing Conductor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/CloudFinancialManagement/AwsBillingConductor')
 
 ' renders the element
-AwsBillingConductor('AwsBillingConductor', 'Aws Billing Conductor', 'an optional tech label')
+AwsBillingConductor('AwsBillingConductor', 'Aws Billing Conductor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

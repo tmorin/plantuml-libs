@@ -11,8 +11,8 @@ TSq54aCn24NH6nTW_zljPqYzFN5v0tzaqO5RkWXDe2bWCPoUQMIWrEUTGEGxRfR8f0r8Ec5L0sWc5b5a
 Uic42R0JRpHHD-_iidXL120BBmm-BsjzVGih7o-LKxd3tG
 }
 
-!procedure Users($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GeneralIcons/Users', $name, $tech)
+!procedure Users($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GeneralIcons/Users', $name, $tech, $desc)
 !endprocedure
 
 !procedure UsersCard($id, $funcName="", $content="")

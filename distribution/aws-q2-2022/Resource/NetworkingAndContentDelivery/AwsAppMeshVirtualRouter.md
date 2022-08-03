@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/NetworkingAndContentDelivery/AwsAppMeshVirtualRouter')
 
 ' renders the element
-AwsAppMeshVirtualRouter('AwsAppMeshVirtualRouter', 'Aws App Mesh Virtual Router', 'an optional tech label')
+AwsAppMeshVirtualRouter('AwsAppMeshVirtualRouter', 'Aws App Mesh Virtual Router', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/NetworkingAndContentDelivery/AwsAppMeshVirtualRouter')
 
 ' renders the element
-AwsAppMeshVirtualRouter('AwsAppMeshVirtualRouter', 'Aws App Mesh Virtual Router', 'an optional tech label')
+AwsAppMeshVirtualRouter('AwsAppMeshVirtualRouter', 'Aws App Mesh Virtual Router', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

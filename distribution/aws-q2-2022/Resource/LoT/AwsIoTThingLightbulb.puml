@@ -14,8 +14,8 @@ TP050i0W24KVJ8dx7tZ1kjv2_TByqP16rdFGaNxNmY-4bkPSiSMlb-RXsSghosQNfRVDJiH11zXkNA0j
 3pl9pAUTXELX1y71eQc5ULZMO__p0rbUhMTX0W
 }
 
-!procedure AwsIoTThingLightbulb($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTThingLightbulb', $name, $tech)
+!procedure AwsIoTThingLightbulb($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTThingLightbulb', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTThingLightbulbCard($id, $funcName="", $content="")

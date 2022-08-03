@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/AppIntegration/AwsExpressWorkflows')
 
 ' renders the element
-AwsExpressWorkflows('AwsExpressWorkflows', 'Aws Express Workflows', 'an optional tech label')
+AwsExpressWorkflows('AwsExpressWorkflows', 'Aws Express Workflows', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/AppIntegration/AwsExpressWorkflows')
 
 ' renders the element
-AwsExpressWorkflows('AwsExpressWorkflows', 'Aws Express Workflows', 'an optional tech label')
+AwsExpressWorkflows('AwsExpressWorkflows', 'Aws Express Workflows', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

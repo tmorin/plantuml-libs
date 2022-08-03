@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/GroupIcons/SpotFleet')
 
 ' renders the element
-SpotFleet('SpotFleet', 'Spot Fleet', 'an optional tech label')
+SpotFleet('SpotFleet', 'Spot Fleet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/GroupIcons/SpotFleet')
 
 ' renders the element
-SpotFleet('SpotFleet', 'Spot Fleet', 'an optional tech label')
+SpotFleet('SpotFleet', 'Spot Fleet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

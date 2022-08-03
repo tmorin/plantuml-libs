@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/ManagementGovernance/AwsServiceCatalog')
 
 ' renders the element
-AwsServiceCatalog('AwsServiceCatalog', 'Aws Service Catalog', 'an optional tech label')
+AwsServiceCatalog('AwsServiceCatalog', 'Aws Service Catalog', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/ManagementGovernance/AwsServiceCatalog')
 
 ' renders the element
-AwsServiceCatalog('AwsServiceCatalog', 'Aws Service Catalog', 'an optional tech label')
+AwsServiceCatalog('AwsServiceCatalog', 'Aws Service Catalog', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

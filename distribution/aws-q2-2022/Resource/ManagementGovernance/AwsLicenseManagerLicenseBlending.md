@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/ManagementGovernance/AwsLicenseManagerLicenseBlending')
 
 ' renders the element
-AwsLicenseManagerLicenseBlending('AwsLicenseManagerLicenseBlending', 'Aws License Manager License Blending', 'an optional tech label')
+AwsLicenseManagerLicenseBlending('AwsLicenseManagerLicenseBlending', 'Aws License Manager License Blending', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/ManagementGovernance/AwsLicenseManagerLicenseBlending')
 
 ' renders the element
-AwsLicenseManagerLicenseBlending('AwsLicenseManagerLicenseBlending', 'Aws License Manager License Blending', 'an optional tech label')
+AwsLicenseManagerLicenseBlending('AwsLicenseManagerLicenseBlending', 'Aws License Manager License Blending', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

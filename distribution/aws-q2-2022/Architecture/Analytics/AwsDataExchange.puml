@@ -11,8 +11,8 @@ RS-50O0m3031Mdp_VOdWyFXXhMHyHfx8IrzseChtITNJLeT2LIMi_8bEQTxjxNuO0W2Zo21UXyMJCOB6
 xt6CaMgENJqU5QTP9ugvd8EtI8yE-wBzeFtW1W
 }
 
-!procedure AwsDataExchange($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Analytics/AwsDataExchange', $name, $tech)
+!procedure AwsDataExchange($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Analytics/AwsDataExchange', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsDataExchangeCard($id, $funcName="", $content="")

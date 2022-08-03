@@ -11,8 +11,8 @@ RSk70SGm24DHIIuOc_tNlKllF_r1y5aRSQrpeeHx0Gn0n5QUBqrMvHlH0AJP7D8W8sUP5ovcgEZmgA1r
 N9J5tP1gWJx-hNSRCML2V-ubWP6sLCEjnJBH7a0Im1y
 }
 
-!procedure AmazonAuroraOracleInstance($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Database/AmazonAuroraOracleInstance', $name, $tech)
+!procedure AmazonAuroraOracleInstance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Database/AmazonAuroraOracleInstance', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonAuroraOracleInstanceCard($id, $funcName="", $content="")

@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/Database/AmazonDynamoDb')
 
 ' renders the element
-AmazonDynamoDb('AmazonDynamoDb', 'Amazon Dynamo Db', 'an optional tech label')
+AmazonDynamoDb('AmazonDynamoDb', 'Amazon Dynamo Db', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/Database/AmazonDynamoDb')
 
 ' renders the element
-AmazonDynamoDb('AmazonDynamoDb', 'Amazon Dynamo Db', 'an optional tech label')
+AmazonDynamoDb('AmazonDynamoDb', 'Amazon Dynamo Db', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

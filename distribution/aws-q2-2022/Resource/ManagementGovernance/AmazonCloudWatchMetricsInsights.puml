@@ -14,8 +14,8 @@ TOg7bGCm2CNa3lpzvxs2kPf4hkY9LpJpnMN4pdSvJ948rNkSSKiB0vTsi-P8qa8t-fpZ40011ifDB01R
 QlFNHRaeNdMm9Eq_Rlv3q7gobaPF6fVUvzRFNEvtymu
 }
 
-!procedure AmazonCloudWatchMetricsInsights($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ManagementGovernance/AmazonCloudWatchMetricsInsights', $name, $tech)
+!procedure AmazonCloudWatchMetricsInsights($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ManagementGovernance/AmazonCloudWatchMetricsInsights', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonCloudWatchMetricsInsightsCard($id, $funcName="", $content="")

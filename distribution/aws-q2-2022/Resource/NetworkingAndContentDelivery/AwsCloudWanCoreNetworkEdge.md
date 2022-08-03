@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/NetworkingAndContentDelivery/AwsCloudWanCoreNetworkEdge')
 
 ' renders the element
-AwsCloudWanCoreNetworkEdge('AwsCloudWanCoreNetworkEdge', 'Aws Cloud Wan Core Network Edge', 'an optional tech label')
+AwsCloudWanCoreNetworkEdge('AwsCloudWanCoreNetworkEdge', 'Aws Cloud Wan Core Network Edge', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/NetworkingAndContentDelivery/AwsCloudWanCoreNetworkEdge')
 
 ' renders the element
-AwsCloudWanCoreNetworkEdge('AwsCloudWanCoreNetworkEdge', 'Aws Cloud Wan Core Network Edge', 'an optional tech label')
+AwsCloudWanCoreNetworkEdge('AwsCloudWanCoreNetworkEdge', 'Aws Cloud Wan Core Network Edge', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

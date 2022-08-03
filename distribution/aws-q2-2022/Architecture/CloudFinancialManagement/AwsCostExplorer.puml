@@ -14,8 +14,8 @@ RSY70GGX24HHLC8Crt-_XvlJD_9OOI_MoAj-6Kwxw6weMm0jwhWQfubPOKvShOd8S20o3xC635HPQ3RD
 mhAmGLxDlMkNQR_VPadlGxMGPGLRHb-jT8jRLylJDZtn3m
 }
 
-!procedure AwsCostExplorer($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/CloudFinancialManagement/AwsCostExplorer', $name, $tech)
+!procedure AwsCostExplorer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/CloudFinancialManagement/AwsCostExplorer', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsCostExplorerCard($id, $funcName="", $content="")

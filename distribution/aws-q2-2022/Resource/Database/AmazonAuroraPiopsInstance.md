@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Database/AmazonAuroraPiopsInstance')
 
 ' renders the element
-AmazonAuroraPiopsInstance('AmazonAuroraPiopsInstance', 'Amazon Aurora Piops Instance', 'an optional tech label')
+AmazonAuroraPiopsInstance('AmazonAuroraPiopsInstance', 'Amazon Aurora Piops Instance', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Database/AmazonAuroraPiopsInstance')
 
 ' renders the element
-AmazonAuroraPiopsInstance('AmazonAuroraPiopsInstance', 'Amazon Aurora Piops Instance', 'an optional tech label')
+AmazonAuroraPiopsInstance('AmazonAuroraPiopsInstance', 'Amazon Aurora Piops Instance', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

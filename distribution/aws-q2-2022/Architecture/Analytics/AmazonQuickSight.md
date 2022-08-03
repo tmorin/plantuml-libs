@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/Analytics/AmazonQuickSight')
 
 ' renders the element
-AmazonQuickSight('AmazonQuickSight', 'Amazon Quick Sight', 'an optional tech label')
+AmazonQuickSight('AmazonQuickSight', 'Amazon Quick Sight', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/Analytics/AmazonQuickSight')
 
 ' renders the element
-AmazonQuickSight('AmazonQuickSight', 'Amazon Quick Sight', 'an optional tech label')
+AmazonQuickSight('AmazonQuickSight', 'Amazon Quick Sight', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

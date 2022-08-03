@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/QuantumTechnologies/AmazonBraketSimulator3')
 
 ' renders the element
-AmazonBraketSimulator3('AmazonBraketSimulator3', 'Amazon Braket Simulator3', 'an optional tech label')
+AmazonBraketSimulator3('AmazonBraketSimulator3', 'Amazon Braket Simulator3', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/QuantumTechnologies/AmazonBraketSimulator3')
 
 ' renders the element
-AmazonBraketSimulator3('AmazonBraketSimulator3', 'Amazon Braket Simulator3', 'an optional tech label')
+AmazonBraketSimulator3('AmazonBraketSimulator3', 'Amazon Braket Simulator3', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -11,8 +11,8 @@ RSpL0SDG3CLGcV9yzr-u3QC-Zu7FidLjp5JS4pIFqX1phd_9N6pMjNw-M1lwv-YmI1fW2iPkGZ3Nz6cz
 fgab1QVDHHfiDdWq39HnRJI0-JM37m
 }
 
-!procedure AwsIoTAlexaSkill($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTAlexaSkill', $name, $tech)
+!procedure AwsIoTAlexaSkill($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTAlexaSkill', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTAlexaSkillCard($id, $funcName="", $content="")

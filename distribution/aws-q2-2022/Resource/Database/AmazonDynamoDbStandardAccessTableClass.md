@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Database/AmazonDynamoDbStandardAccessTableClass')
 
 ' renders the element
-AmazonDynamoDbStandardAccessTableClass('AmazonDynamoDbStandardAccessTableClass', 'Amazon Dynamo Db Standard Access Table Class', 'an optional tech label')
+AmazonDynamoDbStandardAccessTableClass('AmazonDynamoDbStandardAccessTableClass', 'Amazon Dynamo Db Standard Access Table Class', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Database/AmazonDynamoDbStandardAccessTableClass')
 
 ' renders the element
-AmazonDynamoDbStandardAccessTableClass('AmazonDynamoDbStandardAccessTableClass', 'Amazon Dynamo Db Standard Access Table Class', 'an optional tech label')
+AmazonDynamoDbStandardAccessTableClass('AmazonDynamoDbStandardAccessTableClass', 'Amazon Dynamo Db Standard Access Table Class', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

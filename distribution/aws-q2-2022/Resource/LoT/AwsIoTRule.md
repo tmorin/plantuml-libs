@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/LoT/AwsIoTRule')
 
 ' renders the element
-AwsIoTRule('AwsIoTRule', 'Aws Io T Rule', 'an optional tech label')
+AwsIoTRule('AwsIoTRule', 'Aws Io T Rule', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/LoT/AwsIoTRule')
 
 ' renders the element
-AwsIoTRule('AwsIoTRule', 'Aws Io T Rule', 'an optional tech label')
+AwsIoTRule('AwsIoTRule', 'Aws Io T Rule', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

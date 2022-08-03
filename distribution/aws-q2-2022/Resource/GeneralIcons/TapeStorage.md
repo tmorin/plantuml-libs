@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/GeneralIcons/TapeStorage')
 
 ' renders the element
-TapeStorage('TapeStorage', 'Tape Storage', 'an optional tech label')
+TapeStorage('TapeStorage', 'Tape Storage', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/GeneralIcons/TapeStorage')
 
 ' renders the element
-TapeStorage('TapeStorage', 'Tape Storage', 'an optional tech label')
+TapeStorage('TapeStorage', 'Tape Storage', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

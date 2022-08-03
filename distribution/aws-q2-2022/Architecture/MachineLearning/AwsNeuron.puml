@@ -14,8 +14,8 @@ PS_50G0n24HH83R3zbzlVFqVNnJioYgFo3-IV-I99Pnu6ZH0qaPEZ0OaP5qwg0W1BQcx3FDkIZAPA3fE
 SqQHB89fc4QtN6Wv8vxcmNpD8sNOSGnaI9qiaQVDn09vsgdSdVRIQQUUs
 }
 
-!procedure AwsNeuron($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/MachineLearning/AwsNeuron', $name, $tech)
+!procedure AwsNeuron($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/MachineLearning/AwsNeuron', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsNeuronCard($id, $funcName="", $content="")

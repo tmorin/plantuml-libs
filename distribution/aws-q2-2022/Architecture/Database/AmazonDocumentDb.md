@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/Database/AmazonDocumentDb')
 
 ' renders the element
-AmazonDocumentDb('AmazonDocumentDb', 'Amazon Document Db', 'an optional tech label')
+AmazonDocumentDb('AmazonDocumentDb', 'Amazon Document Db', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/Database/AmazonDocumentDb')
 
 ' renders the element
-AmazonDocumentDb('AmazonDocumentDb', 'Amazon Document Db', 'an optional tech label')
+AmazonDocumentDb('AmazonDocumentDb', 'Amazon Document Db', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

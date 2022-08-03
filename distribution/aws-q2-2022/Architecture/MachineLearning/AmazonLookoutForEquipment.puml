@@ -14,8 +14,8 @@ PSZNOKD120J08--U-k_Ny73MV0u-rSf1lYVVSgzgoiqtvwoyIr1rDkTK074FZSqv1WC6G2BdxbpI4NrM
 QAG2E0V0SxWiKgpXwqHId4FdNg_hZEEfVoyVCUIvJYuCic_o4rVV-9iV
 }
 
-!procedure AmazonLookoutForEquipment($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/MachineLearning/AmazonLookoutForEquipment', $name, $tech)
+!procedure AmazonLookoutForEquipment($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/MachineLearning/AmazonLookoutForEquipment', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonLookoutForEquipmentCard($id, $funcName="", $content="")

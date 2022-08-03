@@ -11,8 +11,8 @@ VP250GGX30Hnf_zoSOYyx2aJZ_WZbqkK55KzNYbYLBQBju2Kl-x0_FC75kvFHh7kC_R-su2ON8LTOWqE
 8ZENg9caw
 }
 
-!procedure User($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GeneralIcons/User', $name, $tech)
+!procedure User($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GeneralIcons/User', $name, $tech, $desc)
 !endprocedure
 
 !procedure UserCard($id, $funcName="", $content="")

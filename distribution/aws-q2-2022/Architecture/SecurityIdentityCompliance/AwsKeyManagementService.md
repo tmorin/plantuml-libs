@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/SecurityIdentityCompliance/AwsKeyManagementService')
 
 ' renders the element
-AwsKeyManagementService('AwsKeyManagementService', 'Aws Key Management Service', 'an optional tech label')
+AwsKeyManagementService('AwsKeyManagementService', 'Aws Key Management Service', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/SecurityIdentityCompliance/AwsKeyManagementService')
 
 ' renders the element
-AwsKeyManagementService('AwsKeyManagementService', 'Aws Key Management Service', 'an optional tech label')
+AwsKeyManagementService('AwsKeyManagementService', 'Aws Key Management Service', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,8 +8,8 @@ sprite $AmazonBraketChandelierMd [16x16/16z] POk50G0X3CJoKjb_OTm9sXDkb0T3qzDcUN3
 
 sprite $AmazonBraketChandelierLg [20x20/16z] dSx50O1034JH7rlIVyEuExnZTBYG880WI2orIfGabbhuN0k5qLnR2n4A3eiS6NUMUxzgZk0OBCf8sN2KlSJPAnm3coaxuf9lQgWAemO
 
-!procedure AmazonBraketChandelier($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/QuantumTechnologies/AmazonBraketChandelier', $name, $tech)
+!procedure AmazonBraketChandelier($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/QuantumTechnologies/AmazonBraketChandelier', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonBraketChandelierCard($id, $funcName="", $content="")

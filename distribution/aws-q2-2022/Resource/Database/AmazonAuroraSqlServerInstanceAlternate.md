@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Database/AmazonAuroraSqlServerInstanceAlternate')
 
 ' renders the element
-AmazonAuroraSqlServerInstanceAlternate('AmazonAuroraSqlServerInstanceAlternate', 'Amazon Aurora Sql Server Instance Alternate', 'an optional tech label')
+AmazonAuroraSqlServerInstanceAlternate('AmazonAuroraSqlServerInstanceAlternate', 'Amazon Aurora Sql Server Instance Alternate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Database/AmazonAuroraSqlServerInstanceAlternate')
 
 ' renders the element
-AmazonAuroraSqlServerInstanceAlternate('AmazonAuroraSqlServerInstanceAlternate', 'Amazon Aurora Sql Server Instance Alternate', 'an optional tech label')
+AmazonAuroraSqlServerInstanceAlternate('AmazonAuroraSqlServerInstanceAlternate', 'Amazon Aurora Sql Server Instance Alternate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

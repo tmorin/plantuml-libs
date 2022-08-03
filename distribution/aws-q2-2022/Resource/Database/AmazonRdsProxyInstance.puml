@@ -11,8 +11,8 @@ ZSs50OKm54FHfFPq_tM_2muNFrImcSOivuEmA9wds325-AYzjmQMfxMXe41C0l6sMNN3SCbAMyvLBMHB
 CFYjfVGH-V9F1C3dxGu
 }
 
-!procedure AmazonRdsProxyInstance($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Database/AmazonRdsProxyInstance', $name, $tech)
+!procedure AmazonRdsProxyInstance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Database/AmazonRdsProxyInstance', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonRdsProxyInstanceCard($id, $funcName="", $content="")

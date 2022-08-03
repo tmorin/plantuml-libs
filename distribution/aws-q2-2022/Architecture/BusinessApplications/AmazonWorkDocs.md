@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/BusinessApplications/AmazonWorkDocs')
 
 ' renders the element
-AmazonWorkDocs('AmazonWorkDocs', 'Amazon Work Docs', 'an optional tech label')
+AmazonWorkDocs('AmazonWorkDocs', 'Amazon Work Docs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/BusinessApplications/AmazonWorkDocs')
 
 ' renders the element
-AmazonWorkDocs('AmazonWorkDocs', 'Amazon Work Docs', 'an optional tech label')
+AmazonWorkDocs('AmazonWorkDocs', 'Amazon Work Docs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

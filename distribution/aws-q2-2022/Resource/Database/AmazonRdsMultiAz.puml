@@ -11,8 +11,8 @@ fOzL0e0m34D9nrRB_Q-BE_mntwkc-pSWHN0ZFRsWAEk5vNRpoaXhcboOaO753y3gbvYvt6APhJedbas0
 9AFD31RfyjrpO1KTtLt8D3RqUum
 }
 
-!procedure AmazonRdsMultiAz($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Database/AmazonRdsMultiAz', $name, $tech)
+!procedure AmazonRdsMultiAz($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Database/AmazonRdsMultiAz', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonRdsMultiAzCard($id, $funcName="", $content="")

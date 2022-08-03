@@ -11,8 +11,8 @@ VSs54SHG24NH2piJvFLVxrfSJ_IZF4avHmFYgBqv4ISkEqHCCOGuDtenwZgGdqVxRQmpOvmQ_HfZbl2V
 w0C
 }
 
-!procedure AwsWafBot($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/SecurityIdentityAndCompliance/AwsWafBot', $name, $tech)
+!procedure AwsWafBot($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/SecurityIdentityAndCompliance/AwsWafBot', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsWafBotCard($id, $funcName="", $content="")

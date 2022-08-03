@@ -11,8 +11,8 @@ jKr50WCW34kBb_3_xmxhxBpXHF6VaOf-8QsffF61zhGlVc3t9XdlCxXf0dPUicHSzW9e3miQynXzWIQh
 6SYMvi6Aduy7
 }
 
-!procedure Internet($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GeneralIcons/Internet', $name, $tech)
+!procedure Internet($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GeneralIcons/Internet', $name, $tech, $desc)
 !endprocedure
 
 !procedure InternetCard($id, $funcName="", $content="")

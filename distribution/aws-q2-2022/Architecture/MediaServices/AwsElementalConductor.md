@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/MediaServices/AwsElementalConductor')
 
 ' renders the element
-AwsElementalConductor('AwsElementalConductor', 'Aws Elemental Conductor', 'an optional tech label')
+AwsElementalConductor('AwsElementalConductor', 'Aws Elemental Conductor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/MediaServices/AwsElementalConductor')
 
 ' renders the element
-AwsElementalConductor('AwsElementalConductor', 'Aws Elemental Conductor', 'an optional tech label')
+AwsElementalConductor('AwsElementalConductor', 'Aws Elemental Conductor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

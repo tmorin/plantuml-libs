@@ -11,8 +11,8 @@ RSw74O0W44HHCkSU_TVhac66Rtug0E2RoGWFn0CRILuD4oUpd4stSFuU3yDXIeinvfX2oyadgeZ0_jBn
 DiQqm67w3IEMPcb48vQ6Qyce5U8Ce_B07m
 }
 
-!procedure AwsCodePipeline($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/DeveloperTools/AwsCodePipeline', $name, $tech)
+!procedure AwsCodePipeline($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/DeveloperTools/AwsCodePipeline', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsCodePipelineCard($id, $funcName="", $content="")

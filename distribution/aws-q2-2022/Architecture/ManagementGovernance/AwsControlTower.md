@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/ManagementGovernance/AwsControlTower')
 
 ' renders the element
-AwsControlTower('AwsControlTower', 'Aws Control Tower', 'an optional tech label')
+AwsControlTower('AwsControlTower', 'Aws Control Tower', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/ManagementGovernance/AwsControlTower')
 
 ' renders the element
-AwsControlTower('AwsControlTower', 'Aws Control Tower', 'an optional tech label')
+AwsControlTower('AwsControlTower', 'Aws Control Tower', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

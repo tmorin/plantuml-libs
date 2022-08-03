@@ -8,8 +8,8 @@ sprite $AwsIoTHttp2ProtocolMd [16x16/16z] lSd50OG034JH7q_wBtW5Xm9ufn6UTFeqCBStwL
 
 sprite $AwsIoTHttp2ProtocolLg [20x20/16z] rOk50O0m40EJ--h-0-CE2t3LZ-YJqcyqJnAwqvTz1_wdsOlMRx1evQDRibMc5IKKkzQgyhGgqmrgQsxHB9QSEohU03kGXBYX4G
 
-!procedure AwsIoTHttp2Protocol($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTHttp2Protocol', $name, $tech)
+!procedure AwsIoTHttp2Protocol($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTHttp2Protocol', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTHttp2ProtocolCard($id, $funcName="", $content="")

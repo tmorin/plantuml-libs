@@ -11,8 +11,8 @@ lOlN5GCW30FbhlqdZd1w-Su1BlS4VkFDSInMtQs-fKQ5Z5DDAIGBwIOj9WojnbFifkG8t9-8sj2hyzx1
 jE4DRls_Cpov
 }
 
-!procedure AwsElasticBeanstalkDeployment($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Compute/AwsElasticBeanstalkDeployment', $name, $tech)
+!procedure AwsElasticBeanstalkDeployment($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Compute/AwsElasticBeanstalkDeployment', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsElasticBeanstalkDeploymentCard($id, $funcName="", $content="")

@@ -11,8 +11,8 @@ RSp7OGDH24LHClFu_VTh0yhINHu2fkjUTlY1-CQrr2qNgorspMWtgyOY4fV9OZK6Q19UQmpOv4-hsAV0
 AaonXlDVfSWLAYBqj8v1DJ8sklsokjlNvXy
 }
 
-!procedure AwsLicenseManager($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/ManagementGovernance/AwsLicenseManager', $name, $tech)
+!procedure AwsLicenseManager($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/ManagementGovernance/AwsLicenseManager', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsLicenseManagerCard($id, $funcName="", $content="")

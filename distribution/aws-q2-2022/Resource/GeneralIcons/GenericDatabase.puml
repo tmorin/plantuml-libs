@@ -8,8 +8,8 @@ sprite $GenericDatabaseMd [16x16/16z] nKwr0G0X34IZj_-wE5JVVznpuOCo01yITuhZGy9oVk
 
 sprite $GenericDatabaseLg [20x20/16z] tKl50SGm34jYjkNznptcQnUeFkAnY-K987szaW8_b7JSXVDuG_K-Qtb7Zs6D5K1b0R76C_l0mJBATpAn7WfTninM_VMPQwtvq6S
 
-!procedure GenericDatabase($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GeneralIcons/GenericDatabase', $name, $tech)
+!procedure GenericDatabase($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GeneralIcons/GenericDatabase', $name, $tech, $desc)
 !endprocedure
 
 !procedure GenericDatabaseCard($id, $funcName="", $content="")

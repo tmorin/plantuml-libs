@@ -11,8 +11,8 @@ VP254G0X30Hpb-3zr_kks8unIrnwvF9ok-rnytNUruvR3lPCVkBGonLjNR3QeUH9lV2jvux73NUNL82h
 5IMiSWXiudYY7ySRMG4
 }
 
-!procedure AwsTrustedAdvisorChecklistPerformance($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ManagementGovernance/AwsTrustedAdvisorChecklistPerformance', $name, $tech)
+!procedure AwsTrustedAdvisorChecklistPerformance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ManagementGovernance/AwsTrustedAdvisorChecklistPerformance', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsTrustedAdvisorChecklistPerformanceCard($id, $funcName="", $content="")

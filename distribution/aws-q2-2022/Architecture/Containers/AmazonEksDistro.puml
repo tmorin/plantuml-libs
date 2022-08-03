@@ -11,8 +11,8 @@ RSe5RaG130DH1oUz_uKRVIpi2FrasFgjDYvykurFHbG-Uf6yIh_C0wzkzyTAW2fsAIyBI8UsXUCvXpcE
 d3Q8JKYP3OVjrTUgoKnWhcHHYbvwRTWQBdlrwki3VWC
 }
 
-!procedure AmazonEksDistro($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Containers/AmazonEksDistro', $name, $tech)
+!procedure AmazonEksDistro($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Containers/AmazonEksDistro', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonEksDistroCard($id, $funcName="", $content="")

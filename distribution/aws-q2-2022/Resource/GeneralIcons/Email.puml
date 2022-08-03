@@ -8,8 +8,8 @@ sprite $EmailMd [16x16/16z] bSUr0G0n40InCTEw_tAVCJnbmihzmAoVIepKk0anSEFfSH10QDml
 
 sprite $EmailLg [20x20/16z] hSYr0SLG54EnynYklV-udp5rL8gpzN6Ka4lwDLGGvaUFV3zKU5k3vx47JwwyZx40aXBVIpPKY-_L3HgBxC_51EW0Ii-BnjTkztFYrrHXnr7cP5S
 
-!procedure Email($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GeneralIcons/Email', $name, $tech)
+!procedure Email($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GeneralIcons/Email', $name, $tech, $desc)
 !endprocedure
 
 !procedure EmailCard($id, $funcName="", $content="")

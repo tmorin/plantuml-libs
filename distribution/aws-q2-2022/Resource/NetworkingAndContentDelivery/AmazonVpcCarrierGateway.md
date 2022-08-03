@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonVpcCarrierGateway')
 
 ' renders the element
-AmazonVpcCarrierGateway('AmazonVpcCarrierGateway', 'Amazon Vpc Carrier Gateway', 'an optional tech label')
+AmazonVpcCarrierGateway('AmazonVpcCarrierGateway', 'Amazon Vpc Carrier Gateway', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonVpcCarrierGateway')
 
 ' renders the element
-AmazonVpcCarrierGateway('AmazonVpcCarrierGateway', 'Amazon Vpc Carrier Gateway', 'an optional tech label')
+AmazonVpcCarrierGateway('AmazonVpcCarrierGateway', 'Amazon Vpc Carrier Gateway', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

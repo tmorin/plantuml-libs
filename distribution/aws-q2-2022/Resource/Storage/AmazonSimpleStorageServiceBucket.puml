@@ -11,8 +11,8 @@ TKv50e0029FU_lzW6rjEm7Bu6ua2YGhf3scz1clbu2x1-pTm_Q5CsXV57PXtpbC-dzX_rydBZzoZBpzp
 7NprBi9Ln9AqgqPr_kx71
 }
 
-!procedure AmazonSimpleStorageServiceBucket($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Storage/AmazonSimpleStorageServiceBucket', $name, $tech)
+!procedure AmazonSimpleStorageServiceBucket($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Storage/AmazonSimpleStorageServiceBucket', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonSimpleStorageServiceBucketCard($id, $funcName="", $content="")

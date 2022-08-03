@@ -8,8 +8,8 @@ sprite $AmazonAuroraSqlServerInstanceAlternateMd [16x16/16z] pSSt0S0m44MnTytjcp_
 
 sprite $AmazonAuroraSqlServerInstanceAlternateLg [20x20/16z] tSY50G8n4031kVp7qt-xk4C5JFJMJsskLoDectUBAGJ2pPRCOWMQMPlSnxavFPB8fHerrqiZUt5h_g0D7qeIQtjJ5gHt704
 
-!procedure AmazonAuroraSqlServerInstanceAlternate($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Database/AmazonAuroraSqlServerInstanceAlternate', $name, $tech)
+!procedure AmazonAuroraSqlServerInstanceAlternate($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Database/AmazonAuroraSqlServerInstanceAlternate', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonAuroraSqlServerInstanceAlternateCard($id, $funcName="", $content="")

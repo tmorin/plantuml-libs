@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/ManagementGovernance/AwsResilienceHub')
 
 ' renders the element
-AwsResilienceHub('AwsResilienceHub', 'Aws Resilience Hub', 'an optional tech label')
+AwsResilienceHub('AwsResilienceHub', 'Aws Resilience Hub', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/ManagementGovernance/AwsResilienceHub')
 
 ' renders the element
-AwsResilienceHub('AwsResilienceHub', 'Aws Resilience Hub', 'an optional tech label')
+AwsResilienceHub('AwsResilienceHub', 'Aws Resilience Hub', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonRoute53ResolverDnsFirewall')
 
 ' renders the element
-AmazonRoute53ResolverDnsFirewall('AmazonRoute53ResolverDnsFirewall', 'Amazon Route53 Resolver Dns Firewall', 'an optional tech label')
+AmazonRoute53ResolverDnsFirewall('AmazonRoute53ResolverDnsFirewall', 'Amazon Route53 Resolver Dns Firewall', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonRoute53ResolverDnsFirewall')
 
 ' renders the element
-AmazonRoute53ResolverDnsFirewall('AmazonRoute53ResolverDnsFirewall', 'Amazon Route53 Resolver Dns Firewall', 'an optional tech label')
+AmazonRoute53ResolverDnsFirewall('AmazonRoute53ResolverDnsFirewall', 'Amazon Route53 Resolver Dns Firewall', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -11,8 +11,8 @@ VSl5OG0m30F02qVx3rnq6UvZbF-ivFec7DzadmpceDmqZAodHcsK4IM1DJAuFbkiRGxiywHsTXFMaqdj
 BTq117bosKkvevgpK4Rkw3FnLUkjkaS
 }
 
-!procedure AwsBackupRecoveryTimeObjective($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Storage/AwsBackupRecoveryTimeObjective', $name, $tech)
+!procedure AwsBackupRecoveryTimeObjective($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Storage/AwsBackupRecoveryTimeObjective', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsBackupRecoveryTimeObjectiveCard($id, $funcName="", $content="")

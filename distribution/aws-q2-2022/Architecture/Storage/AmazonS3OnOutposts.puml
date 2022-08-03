@@ -14,8 +14,8 @@ NSs50OH034JH-6L2__tUuFBnnmfOd_tsm6xzseqh-5hSI7EmhdFaRQ2TE42WCfDsuWojMTqxpKp0HAI2
 0j1cjzd0bEZqNfR9gkWPG003eytyuCKan7VR55UtxTt6tlW7
 }
 
-!procedure AmazonS3OnOutposts($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Storage/AmazonS3OnOutposts', $name, $tech)
+!procedure AmazonS3OnOutposts($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Storage/AmazonS3OnOutposts', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonS3OnOutpostsCard($id, $funcName="", $content="")

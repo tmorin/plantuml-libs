@@ -11,8 +11,8 @@ TSy5WaCX34NHcn3qxN-_yx6njWTtmcUf3Org_CWAfYwk4LmzdocZ7NSz1yYMR31uQ9QgoGsiGuezFxdj
 DP_st2sspBaIF3geBUF6GOWVjn_3sCg0gwib3oduRJxCyGK
 }
 
-!procedure AmazonVpcFlowLogs($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonVpcFlowLogs', $name, $tech)
+!procedure AmazonVpcFlowLogs($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonVpcFlowLogs', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonVpcFlowLogsCard($id, $funcName="", $content="")

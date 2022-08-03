@@ -11,8 +11,8 @@ hOrNWWOX28EZmYX2xd_TTNfvsRzzLbg27s0-CEmqigIAGIbh9bbOTq_Btysi0O6LYQpBH_F8XGTog1Pn
 5pzpkRa0whMSELXJSfe2bnmqUgVWpDqe6TaV65xb3m
 }
 
-!procedure Camera($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GeneralIcons/Camera', $name, $tech)
+!procedure Camera($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GeneralIcons/Camera', $name, $tech, $desc)
 !endprocedure
 
 !procedure CameraCard($id, $funcName="", $content="")

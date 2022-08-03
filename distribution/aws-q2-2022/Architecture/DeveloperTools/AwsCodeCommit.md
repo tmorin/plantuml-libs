@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/DeveloperTools/AwsCodeCommit')
 
 ' renders the element
-AwsCodeCommit('AwsCodeCommit', 'Aws Code Commit', 'an optional tech label')
+AwsCodeCommit('AwsCodeCommit', 'Aws Code Commit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/DeveloperTools/AwsCodeCommit')
 
 ' renders the element
-AwsCodeCommit('AwsCodeCommit', 'Aws Code Commit', 'an optional tech label')
+AwsCodeCommit('AwsCodeCommit', 'Aws Code Commit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

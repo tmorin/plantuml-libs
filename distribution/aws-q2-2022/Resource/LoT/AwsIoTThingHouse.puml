@@ -14,8 +14,8 @@ TP054i0m40BXOiV_FzmXTTiwipI2FofOeNaSDB3TinmNCc06hdJtsfeDhKOsxfuAikuUwIpfJtyF0jLT
 sSqBaa8l5mzX_B1d4YTx5ZtxoAvvzB_zC_GPyp0B
 }
 
-!procedure AwsIoTThingHouse($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTThingHouse', $name, $tech)
+!procedure AwsIoTThingHouse($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTThingHouse', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTThingHouseCard($id, $funcName="", $content="")

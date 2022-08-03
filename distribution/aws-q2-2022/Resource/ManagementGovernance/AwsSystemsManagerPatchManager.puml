@@ -11,8 +11,8 @@ VSk5SGKm30JHDLF__IOotUStg1qTFrNUZ5mPFFF4CXnND_OR_VbeXjLUvseXXX3sulxf7MjAcbUecVvS
 KdWMgFeHfJy
 }
 
-!procedure AwsSystemsManagerPatchManager($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ManagementGovernance/AwsSystemsManagerPatchManager', $name, $tech)
+!procedure AwsSystemsManagerPatchManager($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ManagementGovernance/AwsSystemsManagerPatchManager', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsSystemsManagerPatchManagerCard($id, $funcName="", $content="")

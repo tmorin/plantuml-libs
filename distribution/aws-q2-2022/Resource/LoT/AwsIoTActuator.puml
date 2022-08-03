@@ -11,8 +11,8 @@ TSs50IKW30MmuBpz1pxXkmMNjdugAxjvqJV6zco3DaPtCueZ-d0LRbAkQuELVfO9ipgBN5V4aRf1QLZ5
 dTq7EUsieIKXkTxLLq5zK_m5
 }
 
-!procedure AwsIoTActuator($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTActuator', $name, $tech)
+!procedure AwsIoTActuator($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTActuator', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTActuatorCard($id, $funcName="", $content="")

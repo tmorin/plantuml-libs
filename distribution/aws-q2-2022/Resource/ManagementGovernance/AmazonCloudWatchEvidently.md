@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/ManagementGovernance/AmazonCloudWatchEvidently')
 
 ' renders the element
-AmazonCloudWatchEvidently('AmazonCloudWatchEvidently', 'Amazon Cloud Watch Evidently', 'an optional tech label')
+AmazonCloudWatchEvidently('AmazonCloudWatchEvidently', 'Amazon Cloud Watch Evidently', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/ManagementGovernance/AmazonCloudWatchEvidently')
 
 ' renders the element
-AmazonCloudWatchEvidently('AmazonCloudWatchEvidently', 'Amazon Cloud Watch Evidently', 'an optional tech label')
+AmazonCloudWatchEvidently('AmazonCloudWatchEvidently', 'Amazon Cloud Watch Evidently', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

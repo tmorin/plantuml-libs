@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/GeneralIcons/SslPadlock')
 
 ' renders the element
-SslPadlock('SslPadlock', 'Ssl Padlock', 'an optional tech label')
+SslPadlock('SslPadlock', 'Ssl Padlock', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/GeneralIcons/SslPadlock')
 
 ' renders the element
-SslPadlock('SslPadlock', 'Ssl Padlock', 'an optional tech label')
+SslPadlock('SslPadlock', 'Ssl Padlock', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

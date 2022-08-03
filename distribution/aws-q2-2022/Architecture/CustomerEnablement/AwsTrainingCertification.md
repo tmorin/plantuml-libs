@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/CustomerEnablement/AwsTrainingCertification')
 
 ' renders the element
-AwsTrainingCertification('AwsTrainingCertification', 'Aws Training Certification', 'an optional tech label')
+AwsTrainingCertification('AwsTrainingCertification', 'Aws Training Certification', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/CustomerEnablement/AwsTrainingCertification')
 
 ' renders the element
-AwsTrainingCertification('AwsTrainingCertification', 'Aws Training Certification', 'an optional tech label')
+AwsTrainingCertification('AwsTrainingCertification', 'Aws Training Certification', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

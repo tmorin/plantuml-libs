@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/BusinessApplications/AmazonSimpleEmailServiceEmail')
 
 ' renders the element
-AmazonSimpleEmailServiceEmail('AmazonSimpleEmailServiceEmail', 'Amazon Simple Email Service Email', 'an optional tech label')
+AmazonSimpleEmailServiceEmail('AmazonSimpleEmailServiceEmail', 'Amazon Simple Email Service Email', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/BusinessApplications/AmazonSimpleEmailServiceEmail')
 
 ' renders the element
-AmazonSimpleEmailServiceEmail('AmazonSimpleEmailServiceEmail', 'Amazon Simple Email Service Email', 'an optional tech label')
+AmazonSimpleEmailServiceEmail('AmazonSimpleEmailServiceEmail', 'Amazon Simple Email Service Email', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/AppIntegration/AmazonApiGateway')
 
 ' renders the element
-AmazonApiGateway('AmazonApiGateway', 'Amazon Api Gateway', 'an optional tech label')
+AmazonApiGateway('AmazonApiGateway', 'Amazon Api Gateway', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/AppIntegration/AmazonApiGateway')
 
 ' renders the element
-AmazonApiGateway('AmazonApiGateway', 'Amazon Api Gateway', 'an optional tech label')
+AmazonApiGateway('AmazonApiGateway', 'Amazon Api Gateway', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

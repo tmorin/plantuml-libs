@@ -11,8 +11,8 @@ RSZ7OGGm40CnRkB8_JTiwNB24nn-cetFzFtuTNXgxdkhKhjLRvVHheYt6ooxdqVkG-pBSmiGrwDjdTkP
 T8YJjylIgFCSjrlbKhhWM7TImDjjy7xl-VSZ_m4
 }
 
-!procedure AwsFargate($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Containers/AwsFargate', $name, $tech)
+!procedure AwsFargate($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Containers/AwsFargate', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsFargateCard($id, $funcName="", $content="")

@@ -11,8 +11,8 @@ dSu50e0W00F0qR3z_xrsjqof8_4KHtia9HJj9EU-DeoBH2q7o0sjKS2QoBuksXuUv7epYMOIes070w0o
 M68O82HYbo39u1Yxz5e
 }
 
-!procedure AwsOpsWorksResources($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ManagementGovernance/AwsOpsWorksResources', $name, $tech)
+!procedure AwsOpsWorksResources($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ManagementGovernance/AwsOpsWorksResources', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsOpsWorksResourcesCard($id, $funcName="", $content="")

@@ -8,8 +8,8 @@ sprite $AwsStorageGatewayVolumeGatewayMd [16x16/16z] ZOg50GD1409l7VelE7btErsOQHS
 
 sprite $AwsStorageGatewayVolumeGatewayLg [20x20/16z] hS-50SGW50DGyZNPV-3Johas5U3XurbG5Diln5HJoSLwxTQOKXiOOBWsASs2YjLe5zCdazIP9LqQOO1PNje8IghHbpRb5-ipXLQZ5IMsyVeUFjtZ8ZZaLDa3
 
-!procedure AwsStorageGatewayVolumeGateway($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Storage/AwsStorageGatewayVolumeGateway', $name, $tech)
+!procedure AwsStorageGatewayVolumeGateway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Storage/AwsStorageGatewayVolumeGateway', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsStorageGatewayVolumeGatewayCard($id, $funcName="", $content="")

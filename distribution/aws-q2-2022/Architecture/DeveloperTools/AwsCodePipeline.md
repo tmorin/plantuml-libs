@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/DeveloperTools/AwsCodePipeline')
 
 ' renders the element
-AwsCodePipeline('AwsCodePipeline', 'Aws Code Pipeline', 'an optional tech label')
+AwsCodePipeline('AwsCodePipeline', 'Aws Code Pipeline', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/DeveloperTools/AwsCodePipeline')
 
 ' renders the element
-AwsCodePipeline('AwsCodePipeline', 'Aws Code Pipeline', 'an optional tech label')
+AwsCodePipeline('AwsCodePipeline', 'Aws Code Pipeline', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

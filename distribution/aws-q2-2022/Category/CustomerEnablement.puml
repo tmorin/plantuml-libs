@@ -11,8 +11,8 @@ RSW10e0G44HH03Ew_tKh0FZ0FdzBo3tX9ObQA6KRkflUZ45PQ5EqcdH8IJjCfwD-3mgevaW3M02wM8p9
 vvNJO2hP4qiPYgcduD1ipsxYI7u
 }
 
-!procedure CustomerEnablement($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Category/CustomerEnablement', $name, $tech)
+!procedure CustomerEnablement($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Category/CustomerEnablement', $name, $tech, $desc)
 !endprocedure
 
 !procedure CustomerEnablementCard($id, $funcName="", $content="")

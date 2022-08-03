@@ -11,8 +11,8 @@ TP254S0m3CGKXjz_tvvT9XKIC_1FwbEp1KwACiOGRCnyN4VPL1PojnVxdqpxYHjXGChS4NGh5t7yrWEJ
 _cgs_tZFGTOzqid75khaOAYdcALy7zrwtLW
 }
 
-!procedure AwsTransitGatewayAttachment($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AwsTransitGatewayAttachment', $name, $tech)
+!procedure AwsTransitGatewayAttachment($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AwsTransitGatewayAttachment', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsTransitGatewayAttachmentCard($id, $funcName="", $content="")

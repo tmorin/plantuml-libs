@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Database/AmazonAuroraPostgreSqlInstance')
 
 ' renders the element
-AmazonAuroraPostgreSqlInstance('AmazonAuroraPostgreSqlInstance', 'Amazon Aurora Postgre Sql Instance', 'an optional tech label')
+AmazonAuroraPostgreSqlInstance('AmazonAuroraPostgreSqlInstance', 'Amazon Aurora Postgre Sql Instance', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Database/AmazonAuroraPostgreSqlInstance')
 
 ' renders the element
-AmazonAuroraPostgreSqlInstance('AmazonAuroraPostgreSqlInstance', 'Amazon Aurora Postgre Sql Instance', 'an optional tech label')
+AmazonAuroraPostgreSqlInstance('AmazonAuroraPostgreSqlInstance', 'Amazon Aurora Postgre Sql Instance', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

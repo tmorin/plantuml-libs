@@ -11,8 +11,8 @@ PS-t0GCn3CLGVYR8-oziNQ0ZojU1etvNEtwnn_YnmUY9oIn-J85QyRPsX9btL8sLbK1qk1ss3jjAMjSX
 GARWifLBxhBARc3RfRGnzsjo1OnDyBP_VFmZJm
 }
 
-!procedure AwsThinkBoxFrost($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Compute/AwsThinkBoxFrost', $name, $tech)
+!procedure AwsThinkBoxFrost($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Compute/AwsThinkBoxFrost', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsThinkBoxFrostCard($id, $funcName="", $content="")

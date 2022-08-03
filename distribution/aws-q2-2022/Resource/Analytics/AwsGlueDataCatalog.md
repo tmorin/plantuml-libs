@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Analytics/AwsGlueDataCatalog')
 
 ' renders the element
-AwsGlueDataCatalog('AwsGlueDataCatalog', 'Aws Glue Data Catalog', 'an optional tech label')
+AwsGlueDataCatalog('AwsGlueDataCatalog', 'Aws Glue Data Catalog', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Analytics/AwsGlueDataCatalog')
 
 ' renders the element
-AwsGlueDataCatalog('AwsGlueDataCatalog', 'Aws Glue Data Catalog', 'an optional tech label')
+AwsGlueDataCatalog('AwsGlueDataCatalog', 'Aws Glue Data Catalog', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

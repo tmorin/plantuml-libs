@@ -11,8 +11,8 @@ TP050aGX24GPU-v_uPNQty-MHhveWYwqyQS__jQ5OdzJadprhZl7XcRL4PB5pKezO0eshGBsj_UsRMTt
 jUJC2F6QUzB6-EpV1ZgB3UK7
 }
 
-!procedure AwsIoTThingUtility($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTThingUtility', $name, $tech)
+!procedure AwsIoTThingUtility($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTThingUtility', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTThingUtilityCard($id, $funcName="", $content="")

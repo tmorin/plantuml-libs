@@ -14,8 +14,8 @@ TSzLeWKW24NH3IQS-O_t1TuEs_L1y6qqKSFMLRgcW0a-b4Sw2DA43om21B0W4DO0TtIBQU2nUjayGIgc
 RddtrJAZbSMMWY4RkiSpgaqDxWO2DU43Q0ux3G7ElmrDW6iZuA71TVZJ_Gi
 }
 
-!procedure AppMeshVirtualGateway($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AppMeshVirtualGateway', $name, $tech)
+!procedure AppMeshVirtualGateway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AppMeshVirtualGateway', $name, $tech, $desc)
 !endprocedure
 
 !procedure AppMeshVirtualGatewayCard($id, $funcName="", $content="")

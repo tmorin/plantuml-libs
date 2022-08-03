@@ -8,8 +8,8 @@ sprite $QuestionMd [16x16/16z] RKo50SGm2Bm8nFSVzx_U8b5EuQqmvvZrXVdunYlN40PI42525
 
 sprite $QuestionLg [20x20/16z] ZOpL0KKX5CE2mv7zntskL-bVBUmh3ZLjVv4_RF2VAFJRxZxx2ODN81aZi92Juphhorsh-7BLaFIN325OMh9Krtnd9ZDnfjJYcXT6NKHXWAnsSRM3ykLT0G
 
-!procedure Question($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GeneralIcons/Question', $name, $tech)
+!procedure Question($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GeneralIcons/Question', $name, $tech, $desc)
 !endprocedure
 
 !procedure QuestionCard($id, $funcName="", $content="")

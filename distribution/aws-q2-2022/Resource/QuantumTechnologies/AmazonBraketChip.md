@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/QuantumTechnologies/AmazonBraketChip')
 
 ' renders the element
-AmazonBraketChip('AmazonBraketChip', 'Amazon Braket Chip', 'an optional tech label')
+AmazonBraketChip('AmazonBraketChip', 'Amazon Braket Chip', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/QuantumTechnologies/AmazonBraketChip')
 
 ' renders the element
-AmazonBraketChip('AmazonBraketChip', 'Amazon Braket Chip', 'an optional tech label')
+AmazonBraketChip('AmazonBraketChip', 'Amazon Braket Chip', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

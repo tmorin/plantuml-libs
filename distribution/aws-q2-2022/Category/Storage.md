@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Category/Storage')
 
 ' renders the element
-Storage('Storage', 'Storage', 'an optional tech label')
+Storage('Storage', 'Storage', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Category/Storage')
 
 ' renders the element
-Storage('Storage', 'Storage', 'an optional tech label')
+Storage('Storage', 'Storage', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

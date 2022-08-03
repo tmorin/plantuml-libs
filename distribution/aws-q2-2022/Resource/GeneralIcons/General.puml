@@ -11,8 +11,8 @@ ZS_50GCn34HHixEQKVhlDc1QXdzyHfcZhDjcZ2THavefDkDiCyvMC8Mfu6pYVs21sH2a7CyHmmI1VtGU
 HBCfCql5tXrRnJhgREPHNm
 }
 
-!procedure General($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GeneralIcons/General', $name, $tech)
+!procedure General($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GeneralIcons/General', $name, $tech, $desc)
 !endprocedure
 
 !procedure GeneralCard($id, $funcName="", $content="")

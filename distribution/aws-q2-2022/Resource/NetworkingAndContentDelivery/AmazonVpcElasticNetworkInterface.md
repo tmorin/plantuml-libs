@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonVpcElasticNetworkInterface')
 
 ' renders the element
-AmazonVpcElasticNetworkInterface('AmazonVpcElasticNetworkInterface', 'Amazon Vpc Elastic Network Interface', 'an optional tech label')
+AmazonVpcElasticNetworkInterface('AmazonVpcElasticNetworkInterface', 'Amazon Vpc Elastic Network Interface', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonVpcElasticNetworkInterface')
 
 ' renders the element
-AmazonVpcElasticNetworkInterface('AmazonVpcElasticNetworkInterface', 'Amazon Vpc Elastic Network Interface', 'an optional tech label')
+AmazonVpcElasticNetworkInterface('AmazonVpcElasticNetworkInterface', 'Amazon Vpc Elastic Network Interface', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

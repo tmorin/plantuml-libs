@@ -11,8 +11,8 @@ XSp50KKn24HHuima_RVx1PxhNHwaNINXcBH0OaeziuFUswonn1VJM4eg6XLOBDjcbkZMEob-N_0pkA6w
 lutk6RZ5CUEiPkDeSYfy0G
 }
 
-!procedure Satellite($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Category/Satellite', $name, $tech)
+!procedure Satellite($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Category/Satellite', $name, $tech, $desc)
 !endprocedure
 
 !procedure SatelliteCard($id, $funcName="", $content="")

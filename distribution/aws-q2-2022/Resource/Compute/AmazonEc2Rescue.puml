@@ -11,8 +11,8 @@ RSu74WGX44BHhxq2zx_mv5nB9Nocvcz-pZDQQV1Em7kJdRrLOsyzA-_rC0-1SDtcncQadTO7FL82EKph
 LSxvk8mMWoGUnd7kiAFL66DlQf3gpsX_x1sO0G
 }
 
-!procedure AmazonEc2Rescue($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Compute/AmazonEc2Rescue', $name, $tech)
+!procedure AmazonEc2Rescue($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Compute/AmazonEc2Rescue', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonEc2RescueCard($id, $funcName="", $content="")

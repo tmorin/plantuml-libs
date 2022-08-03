@@ -11,8 +11,8 @@ hT054WCX50FGBx19xdzWlDwEDbbzimBOhtWrc5OVTXbVpKdTYssqfwJFftoO049WMawiLSCkBn9AiKJr
 v2FSPfv8XdpMVw_VnD5OdUa
 }
 
-!procedure AwsIoTThingPlc($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTThingPlc', $name, $tech)
+!procedure AwsIoTThingPlc($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTThingPlc', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTThingPlcCard($id, $funcName="", $content="")

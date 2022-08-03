@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/SecurityIdentityCompliance/AwsSingleSignOn')
 
 ' renders the element
-AwsSingleSignOn('AwsSingleSignOn', 'Aws Single Sign On', 'an optional tech label')
+AwsSingleSignOn('AwsSingleSignOn', 'Aws Single Sign On', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/SecurityIdentityCompliance/AwsSingleSignOn')
 
 ' renders the element
-AwsSingleSignOn('AwsSingleSignOn', 'Aws Single Sign On', 'an optional tech label')
+AwsSingleSignOn('AwsSingleSignOn', 'Aws Single Sign On', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

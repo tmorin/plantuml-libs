@@ -8,8 +8,8 @@ sprite $ServerContentsMd [16x16/16z] uoG6i4C0dCy69faGV2OWO672BSy81Cnuv1c0W0bTddm
 
 sprite $ServerContentsLg [20x20/16z] uwGOC39103EI61E2HeYnWfK1nGYeus070Mpg28knC800DdLq5sE50dQIGXC
 
-!procedure ServerContents($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GroupIcons/ServerContents', $name, $tech)
+!procedure ServerContents($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GroupIcons/ServerContents', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServerContentsCard($id, $funcName="", $content="")

@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Category/CloudFinancialManagement')
 
 ' renders the element
-CloudFinancialManagement('CloudFinancialManagement', 'Cloud Financial Management', 'an optional tech label')
+CloudFinancialManagement('CloudFinancialManagement', 'Cloud Financial Management', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Category/CloudFinancialManagement')
 
 ' renders the element
-CloudFinancialManagement('CloudFinancialManagement', 'Cloud Financial Management', 'an optional tech label')
+CloudFinancialManagement('CloudFinancialManagement', 'Cloud Financial Management', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -11,8 +11,8 @@ TOu55e0m34DJc-N-z-LDS0Xi-_NYNrOQMnQS2lfuAmzNwvvCwTvOBkcfcJpY2CSGLyR1voiLC3zynri6
 lVTBOxUHAAlRwXyzGnjvxU1D06KlR3XKMKoTT5mbghhp1W
 }
 
-!procedure AmazonVpcRouter($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonVpcRouter', $name, $tech)
+!procedure AmazonVpcRouter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonVpcRouter', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonVpcRouterCard($id, $funcName="", $content="")

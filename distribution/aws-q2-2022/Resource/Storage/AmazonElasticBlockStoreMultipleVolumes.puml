@@ -8,8 +8,8 @@ sprite $AmazonElasticBlockStoreMultipleVolumesMd [16x16/16z] fSUt0ODG04F19_se_GT
 
 sprite $AmazonElasticBlockStoreMultipleVolumesLg [20x20/16z] jSZ90S9030J1rcY5Tl8FcFlc0zYkPx5CpGiUr5pCcis55HSzQ4b0ZhmRTeo6tjqvgz8MpPqXogwFW-qlukqYImfQTuxC00Wzy9i3
 
-!procedure AmazonElasticBlockStoreMultipleVolumes($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Storage/AmazonElasticBlockStoreMultipleVolumes', $name, $tech)
+!procedure AmazonElasticBlockStoreMultipleVolumes($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Storage/AmazonElasticBlockStoreMultipleVolumes', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonElasticBlockStoreMultipleVolumesCard($id, $funcName="", $content="")

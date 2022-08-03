@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/LoT/AwsIoTSailboat')
 
 ' renders the element
-AwsIoTSailboat('AwsIoTSailboat', 'Aws Io T Sailboat', 'an optional tech label')
+AwsIoTSailboat('AwsIoTSailboat', 'Aws Io T Sailboat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/LoT/AwsIoTSailboat')
 
 ' renders the element
-AwsIoTSailboat('AwsIoTSailboat', 'Aws Io T Sailboat', 'an optional tech label')
+AwsIoTSailboat('AwsIoTSailboat', 'Aws Io T Sailboat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

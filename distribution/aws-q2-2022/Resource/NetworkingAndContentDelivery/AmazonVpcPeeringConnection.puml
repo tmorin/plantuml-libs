@@ -14,8 +14,8 @@ TSw5aGH024JH3-FT-UTxHwtRAnb1-QrjMIju6EwKOxXI1xQpViVrAm0DwnvdT2Y-PbplptzneFNhdIl3
 oletAOOuN8WBV-utEq0b4ZYVqeU1bFsKJLT06fZYxdYtx7RdMMGcLty
 }
 
-!procedure AmazonVpcPeeringConnection($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonVpcPeeringConnection', $name, $tech)
+!procedure AmazonVpcPeeringConnection($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonVpcPeeringConnection', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonVpcPeeringConnectionCard($id, $funcName="", $content="")

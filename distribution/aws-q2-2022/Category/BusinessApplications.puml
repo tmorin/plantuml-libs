@@ -11,8 +11,8 @@ RSY54G0n2011c0ZMVx-V8Ezteqj_0Ru3Geau8zhsmcsQrWgt1Gwaksq4583BDavgCe4UrcIPj9jrJXit
 5vPTk0q-uG4
 }
 
-!procedure BusinessApplications($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Category/BusinessApplications', $name, $tech)
+!procedure BusinessApplications($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Category/BusinessApplications', $name, $tech, $desc)
 !endprocedure
 
 !procedure BusinessApplicationsCard($id, $funcName="", $content="")

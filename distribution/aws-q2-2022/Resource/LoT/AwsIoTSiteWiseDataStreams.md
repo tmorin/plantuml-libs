@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/LoT/AwsIoTSiteWiseDataStreams')
 
 ' renders the element
-AwsIoTSiteWiseDataStreams('AwsIoTSiteWiseDataStreams', 'Aws Io T Site Wise Data Streams', 'an optional tech label')
+AwsIoTSiteWiseDataStreams('AwsIoTSiteWiseDataStreams', 'Aws Io T Site Wise Data Streams', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/LoT/AwsIoTSiteWiseDataStreams')
 
 ' renders the element
-AwsIoTSiteWiseDataStreams('AwsIoTSiteWiseDataStreams', 'Aws Io T Site Wise Data Streams', 'an optional tech label')
+AwsIoTSiteWiseDataStreams('AwsIoTSiteWiseDataStreams', 'Aws Io T Site Wise Data Streams', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

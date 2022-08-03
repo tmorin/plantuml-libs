@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/DeveloperTools/AwsCloudShell')
 
 ' renders the element
-AwsCloudShell('AwsCloudShell', 'Aws Cloud Shell', 'an optional tech label')
+AwsCloudShell('AwsCloudShell', 'Aws Cloud Shell', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/DeveloperTools/AwsCloudShell')
 
 ' renders the element
-AwsCloudShell('AwsCloudShell', 'Aws Cloud Shell', 'an optional tech label')
+AwsCloudShell('AwsCloudShell', 'Aws Cloud Shell', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

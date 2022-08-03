@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/SecurityIdentityCompliance/AwsFirewallManager')
 
 ' renders the element
-AwsFirewallManager('AwsFirewallManager', 'Aws Firewall Manager', 'an optional tech label')
+AwsFirewallManager('AwsFirewallManager', 'Aws Firewall Manager', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/SecurityIdentityCompliance/AwsFirewallManager')
 
 ' renders the element
-AwsFirewallManager('AwsFirewallManager', 'Aws Firewall Manager', 'an optional tech label')
+AwsFirewallManager('AwsFirewallManager', 'Aws Firewall Manager', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

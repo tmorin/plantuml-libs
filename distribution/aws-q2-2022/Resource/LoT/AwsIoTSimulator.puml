@@ -11,8 +11,8 @@ TOy55aGn20D3A7R_2--3hdsRQkPLyOnNhgEH0g1rS3iH-Asb8giXu-DSa0X0Y1GCQK1gz3h0ivLgUx58
 N4JouBoqgaxEEvzSB-NHfNkP7rsGNATr70J32m
 }
 
-!procedure AwsIoTSimulator($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTSimulator', $name, $tech)
+!procedure AwsIoTSimulator($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTSimulator', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTSimulatorCard($id, $funcName="", $content="")

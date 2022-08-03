@@ -8,8 +8,8 @@ sprite $AmazonAuroraPiopsInstanceMd [16x16/16z] nST50S10402nELxoRxVC1ffV-Ch-4E0y
 
 sprite $AmazonAuroraPiopsInstanceLg [20x20/16z] tSY50G8m3031hyIp_xgummHSDSzFNlqgnoajtZKK7zRyhvQ9QQweKVFHDjPqo4eUZNEh0FpKafDntlFyJFJqzdgZpSby1qS
 
-!procedure AmazonAuroraPiopsInstance($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Database/AmazonAuroraPiopsInstance', $name, $tech)
+!procedure AmazonAuroraPiopsInstance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Database/AmazonAuroraPiopsInstance', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonAuroraPiopsInstanceCard($id, $funcName="", $content="")

@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/Containers/AmazonEksCloud')
 
 ' renders the element
-AmazonEksCloud('AmazonEksCloud', 'Amazon Eks Cloud', 'an optional tech label')
+AmazonEksCloud('AmazonEksCloud', 'Amazon Eks Cloud', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/Containers/AmazonEksCloud')
 
 ' renders the element
-AmazonEksCloud('AmazonEksCloud', 'Amazon Eks Cloud', 'an optional tech label')
+AmazonEksCloud('AmazonEksCloud', 'Amazon Eks Cloud', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

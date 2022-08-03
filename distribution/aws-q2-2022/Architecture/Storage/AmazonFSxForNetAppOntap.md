@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/Storage/AmazonFSxForNetAppOntap')
 
 ' renders the element
-AmazonFSxForNetAppOntap('AmazonFSxForNetAppOntap', 'Amazon F Sx For Net App Ontap', 'an optional tech label')
+AmazonFSxForNetAppOntap('AmazonFSxForNetAppOntap', 'Amazon F Sx For Net App Ontap', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/Storage/AmazonFSxForNetAppOntap')
 
 ' renders the element
-AmazonFSxForNetAppOntap('AmazonFSxForNetAppOntap', 'Amazon F Sx For Net App Ontap', 'an optional tech label')
+AmazonFSxForNetAppOntap('AmazonFSxForNetAppOntap', 'Amazon F Sx For Net App Ontap', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

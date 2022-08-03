@@ -11,8 +11,8 @@ VP054iGm30CbExRr_nVVXERAMnOqW3SI0GZPtzwrA9LgtuXEuO1tBLC0D_1AZXmh9fgv_iB0HF2CcJjg
 xAuV2A935fCcbhFujQS40Ukt4Vi1
 }
 
-!procedure AmazonEc2AwsInferentia($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Compute/AmazonEc2AwsInferentia', $name, $tech)
+!procedure AmazonEc2AwsInferentia($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Compute/AmazonEc2AwsInferentia', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonEc2AwsInferentiaCard($id, $funcName="", $content="")

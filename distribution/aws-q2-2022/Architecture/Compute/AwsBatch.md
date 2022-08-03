@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/Compute/AwsBatch')
 
 ' renders the element
-AwsBatch('AwsBatch', 'Aws Batch', 'an optional tech label')
+AwsBatch('AwsBatch', 'Aws Batch', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/Compute/AwsBatch')
 
 ' renders the element
-AwsBatch('AwsBatch', 'Aws Batch', 'an optional tech label')
+AwsBatch('AwsBatch', 'Aws Batch', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

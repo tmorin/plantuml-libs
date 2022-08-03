@@ -11,8 +11,8 @@ bS_LWKKX34NH3GJBwR_UcMVNVNt6mwwgXGxGMN207bfhG82W8HP5UyNTyMfJh8SGt595334909U660id
 w0Kq_8lAKCUmDuKK9WuGuXBy0m
 }
 
-!procedure AwsCloudFormationChangeSet($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ManagementGovernance/AwsCloudFormationChangeSet', $name, $tech)
+!procedure AwsCloudFormationChangeSet($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ManagementGovernance/AwsCloudFormationChangeSet', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsCloudFormationChangeSetCard($id, $funcName="", $content="")

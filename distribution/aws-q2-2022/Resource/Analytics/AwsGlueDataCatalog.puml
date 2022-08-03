@@ -11,8 +11,8 @@ XS-53GGX54NHXtpllzyTHvEz-8c2RH68FZiDC7Hzfb_DvAjPIhaIrPHICqIOg8LZCDN3eZSY737rTXxd
 C_8GVW
 }
 
-!procedure AwsGlueDataCatalog($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Analytics/AwsGlueDataCatalog', $name, $tech)
+!procedure AwsGlueDataCatalog($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Analytics/AwsGlueDataCatalog', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsGlueDataCatalogCard($id, $funcName="", $content="")

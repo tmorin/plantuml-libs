@@ -11,8 +11,8 @@ RSpL0SDG3CLGcV9yzr-u3QC-Zu7FidLjp5JS4pIFqX1phd_9N6pMjNw-M1lwv-YmI1fW2iPkGZ3Nz6cz
 fgab1QVDHHfiDdWq39HnRJI0-JM37m
 }
 
-!procedure AwsIoTAlexaEnabledDevice($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTAlexaEnabledDevice', $name, $tech)
+!procedure AwsIoTAlexaEnabledDevice($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTAlexaEnabledDevice', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTAlexaEnabledDeviceCard($id, $funcName="", $content="")

@@ -14,8 +14,8 @@ PSk7aKKn24DH6qpy_VUxOl7BT_8PAP0VMLTswTVGPJVTPeClyxOLasV4OEOXXLdey22C9XimWTA6FzC0
 ultLoFwYmyXpvSr-Fto9PkQWQde4B8Pa5JiOTFSrTDbd-GS
 }
 
-!procedure AwsCostAndUsageReport($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/CloudFinancialManagement/AwsCostAndUsageReport', $name, $tech)
+!procedure AwsCostAndUsageReport($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/CloudFinancialManagement/AwsCostAndUsageReport', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsCostAndUsageReportCard($id, $funcName="", $content="")

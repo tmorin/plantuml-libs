@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/Compute/AwsParallelCluster')
 
 ' renders the element
-AwsParallelCluster('AwsParallelCluster', 'Aws Parallel Cluster', 'an optional tech label')
+AwsParallelCluster('AwsParallelCluster', 'Aws Parallel Cluster', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/Compute/AwsParallelCluster')
 
 ' renders the element
-AwsParallelCluster('AwsParallelCluster', 'Aws Parallel Cluster', 'an optional tech label')
+AwsParallelCluster('AwsParallelCluster', 'Aws Parallel Cluster', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

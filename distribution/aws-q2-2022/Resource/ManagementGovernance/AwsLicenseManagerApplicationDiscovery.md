@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/ManagementGovernance/AwsLicenseManagerApplicationDiscovery')
 
 ' renders the element
-AwsLicenseManagerApplicationDiscovery('AwsLicenseManagerApplicationDiscovery', 'Aws License Manager Application Discovery', 'an optional tech label')
+AwsLicenseManagerApplicationDiscovery('AwsLicenseManagerApplicationDiscovery', 'Aws License Manager Application Discovery', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/ManagementGovernance/AwsLicenseManagerApplicationDiscovery')
 
 ' renders the element
-AwsLicenseManagerApplicationDiscovery('AwsLicenseManagerApplicationDiscovery', 'Aws License Manager Application Discovery', 'an optional tech label')
+AwsLicenseManagerApplicationDiscovery('AwsLicenseManagerApplicationDiscovery', 'Aws License Manager Application Discovery', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

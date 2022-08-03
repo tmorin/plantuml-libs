@@ -14,8 +14,8 @@ TS_5OUWm40N0qTh2rt-z7nrEvY9SucVvetXp4wguFCwUfsCckpzNpPlJuTwWDI1Weh97ydhbK1lQ4Gj9
 iIRt3G8ZINkTuzfu4z2F0FVhJeyLAdSFRr8rBX_L7nw_0G
 }
 
-!procedure AwsSystemsManagerAutomation($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ManagementGovernance/AwsSystemsManagerAutomation', $name, $tech)
+!procedure AwsSystemsManagerAutomation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ManagementGovernance/AwsSystemsManagerAutomation', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsSystemsManagerAutomationCard($id, $funcName="", $content="")

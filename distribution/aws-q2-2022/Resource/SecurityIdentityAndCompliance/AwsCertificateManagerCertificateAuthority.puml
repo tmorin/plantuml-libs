@@ -8,8 +8,8 @@ sprite $AwsCertificateManagerCertificateAuthorityMd [16x16/16z] XSUr0S1000En2ppP
 
 sprite $AwsCertificateManagerCertificateAuthorityLg [20x20/16z] ZSg53GGm08LGwlBtd_TSwyHVu3HrMKIJiuVVnvAand80glatm5D_pLfm1VqQALJHMCL1z7-6Ib3cdlsOkTUORXnRStATPTIQ0VZOJmceiWow0W
 
-!procedure AwsCertificateManagerCertificateAuthority($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/SecurityIdentityAndCompliance/AwsCertificateManagerCertificateAuthority', $name, $tech)
+!procedure AwsCertificateManagerCertificateAuthority($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/SecurityIdentityAndCompliance/AwsCertificateManagerCertificateAuthority', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsCertificateManagerCertificateAuthorityCard($id, $funcName="", $content="")

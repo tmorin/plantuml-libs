@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/Database/AmazonKeyspaces')
 
 ' renders the element
-AmazonKeyspaces('AmazonKeyspaces', 'Amazon Keyspaces', 'an optional tech label')
+AmazonKeyspaces('AmazonKeyspaces', 'Amazon Keyspaces', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/Database/AmazonKeyspaces')
 
 ' renders the element
-AmazonKeyspaces('AmazonKeyspaces', 'Amazon Keyspaces', 'an optional tech label')
+AmazonKeyspaces('AmazonKeyspaces', 'Amazon Keyspaces', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

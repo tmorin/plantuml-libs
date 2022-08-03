@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/ManagementGovernance/AmazonCloudWatchEventEventBased')
 
 ' renders the element
-AmazonCloudWatchEventEventBased('AmazonCloudWatchEventEventBased', 'Amazon Cloud Watch Event Event Based', 'an optional tech label')
+AmazonCloudWatchEventEventBased('AmazonCloudWatchEventEventBased', 'Amazon Cloud Watch Event Event Based', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/ManagementGovernance/AmazonCloudWatchEventEventBased')
 
 ' renders the element
-AmazonCloudWatchEventEventBased('AmazonCloudWatchEventEventBased', 'Amazon Cloud Watch Event Event Based', 'an optional tech label')
+AmazonCloudWatchEventEventBased('AmazonCloudWatchEventEventBased', 'Amazon Cloud Watch Event Event Based', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

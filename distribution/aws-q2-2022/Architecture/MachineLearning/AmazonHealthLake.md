@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/MachineLearning/AmazonHealthLake')
 
 ' renders the element
-AmazonHealthLake('AmazonHealthLake', 'Amazon Health Lake', 'an optional tech label')
+AmazonHealthLake('AmazonHealthLake', 'Amazon Health Lake', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/MachineLearning/AmazonHealthLake')
 
 ' renders the element
-AmazonHealthLake('AmazonHealthLake', 'Amazon Health Lake', 'an optional tech label')
+AmazonHealthLake('AmazonHealthLake', 'Amazon Health Lake', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/GameTech/AwsGameKit')
 
 ' renders the element
-AwsGameKit('AwsGameKit', 'Aws Game Kit', 'an optional tech label')
+AwsGameKit('AwsGameKit', 'Aws Game Kit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/GameTech/AwsGameKit')
 
 ' renders the element
-AwsGameKit('AwsGameKit', 'Aws Game Kit', 'an optional tech label')
+AwsGameKit('AwsGameKit', 'Aws Game Kit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

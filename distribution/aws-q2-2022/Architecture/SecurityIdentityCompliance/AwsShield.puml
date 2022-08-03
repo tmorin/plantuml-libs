@@ -11,8 +11,8 @@ RSZ50S0m30D0Kq3o_lEMkRdduT1FhJKCaeCaZub-uPuIS7qScnLKRoXQhrD0bfSEkOy66E2ly-q2WiVn
 mMZGyx87M-tDg_Rhac9XGXBt9K_tlJC7EGC
 }
 
-!procedure AwsShield($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/SecurityIdentityCompliance/AwsShield', $name, $tech)
+!procedure AwsShield($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/SecurityIdentityCompliance/AwsShield', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsShieldCard($id, $funcName="", $content="")

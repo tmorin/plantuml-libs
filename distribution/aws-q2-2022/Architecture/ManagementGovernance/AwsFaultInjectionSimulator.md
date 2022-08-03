@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/ManagementGovernance/AwsFaultInjectionSimulator')
 
 ' renders the element
-AwsFaultInjectionSimulator('AwsFaultInjectionSimulator', 'Aws Fault Injection Simulator', 'an optional tech label')
+AwsFaultInjectionSimulator('AwsFaultInjectionSimulator', 'Aws Fault Injection Simulator', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/ManagementGovernance/AwsFaultInjectionSimulator')
 
 ' renders the element
-AwsFaultInjectionSimulator('AwsFaultInjectionSimulator', 'Aws Fault Injection Simulator', 'an optional tech label')
+AwsFaultInjectionSimulator('AwsFaultInjectionSimulator', 'Aws Fault Injection Simulator', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

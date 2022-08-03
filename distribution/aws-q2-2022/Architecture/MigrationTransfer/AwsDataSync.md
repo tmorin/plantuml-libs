@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/MigrationTransfer/AwsDataSync')
 
 ' renders the element
-AwsDataSync('AwsDataSync', 'Aws Data Sync', 'an optional tech label')
+AwsDataSync('AwsDataSync', 'Aws Data Sync', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/MigrationTransfer/AwsDataSync')
 
 ' renders the element
-AwsDataSync('AwsDataSync', 'Aws Data Sync', 'an optional tech label')
+AwsDataSync('AwsDataSync', 'Aws Data Sync', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

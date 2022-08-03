@@ -14,8 +14,8 @@ TOy50eDG34DJewEv_tad_J9_I0I-uJz-5YlbfJdehKKiofzMfk85TfdM_bZbVY6JQ3G16xzHBVLzgWg0
 vOnaknuh9rwOwQYNYjD4oNJvCgPuCGtIy8gewl8t
 }
 
-!procedure AwsNetworkFirewallEndpoints($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/SecurityIdentityAndCompliance/AwsNetworkFirewallEndpoints', $name, $tech)
+!procedure AwsNetworkFirewallEndpoints($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/SecurityIdentityAndCompliance/AwsNetworkFirewallEndpoints', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsNetworkFirewallEndpointsCard($id, $funcName="", $content="")

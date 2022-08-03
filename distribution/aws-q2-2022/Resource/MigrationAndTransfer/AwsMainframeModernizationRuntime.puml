@@ -8,8 +8,8 @@ sprite $AwsMainframeModernizationRuntimeMd [16x16/16z] fSp50S0W343HZyl-0nUN7Cl3Y
 
 sprite $AwsMainframeModernizationRuntimeLg [20x20/16z] lOgr0S0W00GFvzb_NoIkPNBDA_zWqi30fEUfJ58iM4tqOAPkLMCx53TalFSEEyaxqpfzpQdp6ft2L6H9YIWcKcP7aOvVffWx1ZSayWKD
 
-!procedure AwsMainframeModernizationRuntime($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/MigrationAndTransfer/AwsMainframeModernizationRuntime', $name, $tech)
+!procedure AwsMainframeModernizationRuntime($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/MigrationAndTransfer/AwsMainframeModernizationRuntime', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsMainframeModernizationRuntimeCard($id, $funcName="", $content="")

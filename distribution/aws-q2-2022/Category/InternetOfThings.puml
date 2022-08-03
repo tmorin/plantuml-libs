@@ -14,8 +14,8 @@ RSX90WCX20H05fLkv___ZPZ1h7Mi-4VqcuHomIrItdVM4Lqhpus0trddIdI9pBoP1Lftj9rvasZv1EHS
 obZdWqlUTMMYgVAfRdk_izzNcIS_z04
 }
 
-!procedure InternetOfThings($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Category/InternetOfThings', $name, $tech)
+!procedure InternetOfThings($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Category/InternetOfThings', $name, $tech, $desc)
 !endprocedure
 
 !procedure InternetOfThingsCard($id, $funcName="", $content="")

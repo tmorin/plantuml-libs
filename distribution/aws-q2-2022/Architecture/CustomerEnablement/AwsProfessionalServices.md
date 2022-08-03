@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/CustomerEnablement/AwsProfessionalServices')
 
 ' renders the element
-AwsProfessionalServices('AwsProfessionalServices', 'Aws Professional Services', 'an optional tech label')
+AwsProfessionalServices('AwsProfessionalServices', 'Aws Professional Services', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/CustomerEnablement/AwsProfessionalServices')
 
 ' renders the element
-AwsProfessionalServices('AwsProfessionalServices', 'Aws Professional Services', 'an optional tech label')
+AwsProfessionalServices('AwsProfessionalServices', 'Aws Professional Services', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,8 +8,8 @@ sprite $AwsIoTAnalyticsDataStoreMd [16x16/16z] TKw50GGX36kHoFu3lvxZK8l4RDcINRUix
 
 sprite $AwsIoTAnalyticsDataStoreLg [20x20/16z] bKpL0G9H3Bjwil_0E7t5kNp5ju_G18cquT3k9EuULrpjnLgqPq16913vPZl-KjAVlSRQGg_4mFREWYJitNPw5DQJrypNd_06s_ydtKEpOfcA9RaDYAZAlNu4
 
-!procedure AwsIoTAnalyticsDataStore($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTAnalyticsDataStore', $name, $tech)
+!procedure AwsIoTAnalyticsDataStore($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTAnalyticsDataStore', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTAnalyticsDataStoreCard($id, $funcName="", $content="")

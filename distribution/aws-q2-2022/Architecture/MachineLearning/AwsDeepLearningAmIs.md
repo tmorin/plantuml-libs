@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/MachineLearning/AwsDeepLearningAmIs')
 
 ' renders the element
-AwsDeepLearningAmIs('AwsDeepLearningAmIs', 'Aws Deep Learning Am Is', 'an optional tech label')
+AwsDeepLearningAmIs('AwsDeepLearningAmIs', 'Aws Deep Learning Am Is', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/MachineLearning/AwsDeepLearningAmIs')
 
 ' renders the element
-AwsDeepLearningAmIs('AwsDeepLearningAmIs', 'Aws Deep Learning Am Is', 'an optional tech label')
+AwsDeepLearningAmIs('AwsDeepLearningAmIs', 'Aws Deep Learning Am Is', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

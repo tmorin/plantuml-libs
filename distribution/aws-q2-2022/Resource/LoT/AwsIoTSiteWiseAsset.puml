@@ -11,8 +11,8 @@ TSw5ZG1G20MmyfMt_y3dBWqntFzk-sdMIF_ArQZUFtCf8_DxRjx3xlesQmJTtfpEnDq8K24mmogeNgp0
 6Qvr0iQDEcgujhszUiljylQssz7TC_rcS6T0wjKSr1XWlFC8
 }
 
-!procedure AwsIoTSiteWiseAsset($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTSiteWiseAsset', $name, $tech)
+!procedure AwsIoTSiteWiseAsset($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTSiteWiseAsset', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTSiteWiseAssetCard($id, $funcName="", $content="")

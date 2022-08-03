@@ -14,8 +14,8 @@ PSfR4WGX24DHG8N4tlz-1rhcVIjVfu8kJbwH_qZ-8_-mRPXCO3QMkG8sNNsftvWsJ0MvR5ZPJgDH4AXS
 sm2V0UoJESlXWfTjQ9dK5zVLIBCvo9ST3F9fB-MfxHlJ_fyF
 }
 
-!procedure AmazonWorkSpaces($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/EndUserComputing/AmazonWorkSpaces', $name, $tech)
+!procedure AmazonWorkSpaces($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/EndUserComputing/AmazonWorkSpaces', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonWorkSpacesCard($id, $funcName="", $content="")

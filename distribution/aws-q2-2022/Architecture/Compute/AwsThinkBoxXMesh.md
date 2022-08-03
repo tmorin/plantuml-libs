@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/Compute/AwsThinkBoxXMesh')
 
 ' renders the element
-AwsThinkBoxXMesh('AwsThinkBoxXMesh', 'Aws Think Box X Mesh', 'an optional tech label')
+AwsThinkBoxXMesh('AwsThinkBoxXMesh', 'Aws Think Box X Mesh', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/Compute/AwsThinkBoxXMesh')
 
 ' renders the element
-AwsThinkBoxXMesh('AwsThinkBoxXMesh', 'Aws Think Box X Mesh', 'an optional tech label')
+AwsThinkBoxXMesh('AwsThinkBoxXMesh', 'Aws Think Box X Mesh', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

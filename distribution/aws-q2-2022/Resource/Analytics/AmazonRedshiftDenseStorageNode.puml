@@ -11,8 +11,8 @@ VSpNWKD134BHAruGC_HVxwvpji-d1F3JJCABWEh3BNgvsRE6kLidIufE8ixs2OmLWqJcMOfAvlb6YLfG
 pI2n-oWsC2_35oa8M5flDqQFc2Nt4n3G4k3bPbvkKjVBJGUS_0C
 }
 
-!procedure AmazonRedshiftDenseStorageNode($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Analytics/AmazonRedshiftDenseStorageNode', $name, $tech)
+!procedure AmazonRedshiftDenseStorageNode($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Analytics/AmazonRedshiftDenseStorageNode', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonRedshiftDenseStorageNodeCard($id, $funcName="", $content="")

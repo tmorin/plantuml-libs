@@ -11,8 +11,8 @@ PSY75KGX24HHO8Hn-szuyNoppyXbArQUySOOnii68aOSYUCsZO2VPYQP7mPcNZwhco6wVIXKC-YmXW92
 uc1l6FMr6i7RCev-B_8F
 }
 
-!procedure Bottlerocket($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Compute/Bottlerocket', $name, $tech)
+!procedure Bottlerocket($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Compute/Bottlerocket', $name, $tech, $desc)
 !endprocedure
 
 !procedure BottlerocketCard($id, $funcName="", $content="")

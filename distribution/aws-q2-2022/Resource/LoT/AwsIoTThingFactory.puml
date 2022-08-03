@@ -14,8 +14,8 @@ TP070eD020JXgFl_3mT8OdVi0wnwz8OIAs6s3IEsiyiua6jSq17lEGjAeGReAUFfCm5A8tzzpENgAXdZ
 DQm5uqCVCPLZFkHbmra4-I_tmCyjJuzqpEOlwpTmxsksvWC
 }
 
-!procedure AwsIoTThingFactory($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTThingFactory', $name, $tech)
+!procedure AwsIoTThingFactory($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTThingFactory', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTThingFactoryCard($id, $funcName="", $content="")

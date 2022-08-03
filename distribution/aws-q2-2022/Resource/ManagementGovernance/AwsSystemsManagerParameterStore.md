@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/ManagementGovernance/AwsSystemsManagerParameterStore')
 
 ' renders the element
-AwsSystemsManagerParameterStore('AwsSystemsManagerParameterStore', 'Aws Systems Manager Parameter Store', 'an optional tech label')
+AwsSystemsManagerParameterStore('AwsSystemsManagerParameterStore', 'Aws Systems Manager Parameter Store', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/ManagementGovernance/AwsSystemsManagerParameterStore')
 
 ' renders the element
-AwsSystemsManagerParameterStore('AwsSystemsManagerParameterStore', 'Aws Systems Manager Parameter Store', 'an optional tech label')
+AwsSystemsManagerParameterStore('AwsSystemsManagerParameterStore', 'Aws Systems Manager Parameter Store', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

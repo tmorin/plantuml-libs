@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/Analytics/AmazonKinesisDataAnalytics')
 
 ' renders the element
-AmazonKinesisDataAnalytics('AmazonKinesisDataAnalytics', 'Amazon Kinesis Data Analytics', 'an optional tech label')
+AmazonKinesisDataAnalytics('AmazonKinesisDataAnalytics', 'Amazon Kinesis Data Analytics', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/Analytics/AmazonKinesisDataAnalytics')
 
 ' renders the element
-AmazonKinesisDataAnalytics('AmazonKinesisDataAnalytics', 'Amazon Kinesis Data Analytics', 'an optional tech label')
+AmazonKinesisDataAnalytics('AmazonKinesisDataAnalytics', 'Amazon Kinesis Data Analytics', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

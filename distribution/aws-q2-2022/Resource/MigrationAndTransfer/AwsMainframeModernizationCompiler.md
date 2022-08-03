@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/MigrationAndTransfer/AwsMainframeModernizationCompiler')
 
 ' renders the element
-AwsMainframeModernizationCompiler('AwsMainframeModernizationCompiler', 'Aws Mainframe Modernization Compiler', 'an optional tech label')
+AwsMainframeModernizationCompiler('AwsMainframeModernizationCompiler', 'Aws Mainframe Modernization Compiler', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/MigrationAndTransfer/AwsMainframeModernizationCompiler')
 
 ' renders the element
-AwsMainframeModernizationCompiler('AwsMainframeModernizationCompiler', 'Aws Mainframe Modernization Compiler', 'an optional tech label')
+AwsMainframeModernizationCompiler('AwsMainframeModernizationCompiler', 'Aws Mainframe Modernization Compiler', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/LoT/AwsIoTHttpProtocol')
 
 ' renders the element
-AwsIoTHttpProtocol('AwsIoTHttpProtocol', 'Aws Io T Http Protocol', 'an optional tech label')
+AwsIoTHttpProtocol('AwsIoTHttpProtocol', 'Aws Io T Http Protocol', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/LoT/AwsIoTHttpProtocol')
 
 ' renders the element
-AwsIoTHttpProtocol('AwsIoTHttpProtocol', 'Aws Io T Http Protocol', 'an optional tech label')
+AwsIoTHttpProtocol('AwsIoTHttpProtocol', 'Aws Io T Http Protocol', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -11,8 +11,8 @@ PSe55i0W30JHsQ39_UzRLvWM-ozCJVMPmc8alzQdk7VvdW5MMi5h0JC0pndGPd0R4lLZ9OxmpMf4sgrn
 jO2wxr5UAnrFk_N3rDoWNdEGAo0p90J7Ph02
 }
 
-!procedure AwsTransferFamilyAwsSftp($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/MigrationAndTransfer/AwsTransferFamilyAwsSftp', $name, $tech)
+!procedure AwsTransferFamilyAwsSftp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/MigrationAndTransfer/AwsTransferFamilyAwsSftp', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsTransferFamilyAwsSftpCard($id, $funcName="", $content="")

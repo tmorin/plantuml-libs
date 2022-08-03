@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/DeveloperTools/AwsCodeBuild')
 
 ' renders the element
-AwsCodeBuild('AwsCodeBuild', 'Aws Code Build', 'an optional tech label')
+AwsCodeBuild('AwsCodeBuild', 'Aws Code Build', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/DeveloperTools/AwsCodeBuild')
 
 ' renders the element
-AwsCodeBuild('AwsCodeBuild', 'Aws Code Build', 'an optional tech label')
+AwsCodeBuild('AwsCodeBuild', 'Aws Code Build', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

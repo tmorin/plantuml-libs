@@ -14,8 +14,8 @@ TP074iGm3091Rl3_3z-vf2UhJ6CMnJQ-o626n-mKi5mpjHCAT1hErDuhrqo5hnuvij0VTuD0dbsZurEN
 -yxitecAZbwogAfDrMFgz_i1x5-CwVm
 }
 
-!procedure AwsIoTThingCar($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTThingCar', $name, $tech)
+!procedure AwsIoTThingCar($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTThingCar', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTThingCarCard($id, $funcName="", $content="")

@@ -11,8 +11,8 @@ bP250GCm20Jl8V3ilt3TlHSF3kze2eQ6_l1N7e_FczXZRaW1tNFtvzPBlQfxlQwZtceSLxtZNsb5n6gH
 VUgf40G20Mm1
 }
 
-!procedure AmazonEc2MacInstance($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Compute/AmazonEc2MacInstance', $name, $tech)
+!procedure AmazonEc2MacInstance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Compute/AmazonEc2MacInstance', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonEc2MacInstanceCard($id, $funcName="", $content="")

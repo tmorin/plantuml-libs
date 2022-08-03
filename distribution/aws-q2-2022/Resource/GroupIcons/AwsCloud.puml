@@ -8,8 +8,8 @@ sprite $AwsCloudMd [16x16/16z] hOor0GHG24FHBu7iF-wvbYUlWXZ_JeL1ADGTSH5GQIpgYZw_2
 
 sprite $AwsCloudLg [20x20/16z] nSor0GHH24NHEynNuFLVxhfBjd8I7FrF1Iyf97EOfsuoQvGvEddgT41qLJ8vTL4YLXcIecZF5aF3j3O1hZUARlJJmrgk-xEqKsQmrbuN63TdivLIUkWhjW
 
-!procedure AwsCloud($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GroupIcons/AwsCloud', $name, $tech)
+!procedure AwsCloud($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GroupIcons/AwsCloud', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsCloudCard($id, $funcName="", $content="")

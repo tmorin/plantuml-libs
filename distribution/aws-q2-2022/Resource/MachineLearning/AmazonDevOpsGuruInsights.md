@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/MachineLearning/AmazonDevOpsGuruInsights')
 
 ' renders the element
-AmazonDevOpsGuruInsights('AmazonDevOpsGuruInsights', 'Amazon Dev Ops Guru Insights', 'an optional tech label')
+AmazonDevOpsGuruInsights('AmazonDevOpsGuruInsights', 'Amazon Dev Ops Guru Insights', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/MachineLearning/AmazonDevOpsGuruInsights')
 
 ' renders the element
-AmazonDevOpsGuruInsights('AmazonDevOpsGuruInsights', 'Amazon Dev Ops Guru Insights', 'an optional tech label')
+AmazonDevOpsGuruInsights('AmazonDevOpsGuruInsights', 'Amazon Dev Ops Guru Insights', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

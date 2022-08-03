@@ -8,8 +8,8 @@ sprite $AwsIdentityAccessManagementRoleMd [16x16/16z] hS470S8040ImTFVl_EjbIe34No
 
 sprite $AwsIdentityAccessManagementRoleLg [20x20/16z] lOs70GCX30Fb1bZQVzvqVoP83jmR_iWIconySNd4gu8XfEs-k84hAKxxbMHZ43BVZc78UZUQ7iBtNMbhjimnbax1UBhzgFTkkXkieFBaT9OU6E3k-2rt
 
-!procedure AwsIdentityAccessManagementRole($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessManagementRole', $name, $tech)
+!procedure AwsIdentityAccessManagementRole($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessManagementRole', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIdentityAccessManagementRoleCard($id, $funcName="", $content="")

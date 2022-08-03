@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/ManagementGovernance/AwsConfig')
 
 ' renders the element
-AwsConfig('AwsConfig', 'Aws Config', 'an optional tech label')
+AwsConfig('AwsConfig', 'Aws Config', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/ManagementGovernance/AwsConfig')
 
 ' renders the element
-AwsConfig('AwsConfig', 'Aws Config', 'an optional tech label')
+AwsConfig('AwsConfig', 'Aws Config', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

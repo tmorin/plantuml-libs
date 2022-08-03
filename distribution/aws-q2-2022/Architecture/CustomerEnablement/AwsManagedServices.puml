@@ -14,8 +14,8 @@ RSZ7OSLG30CmTObytd_UkELt744I_-R67yaVoV-SllF_Q5hjCi3ZHW7iuGNydnAXNWKRxBb8pb0RQ6y0
 6ed_Kz8a8yJaSUCaXaYhkcydJLAwKfwtKDcfK2EmhNyanueajcVot_OZjn_v1m
 }
 
-!procedure AwsManagedServices($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/CustomerEnablement/AwsManagedServices', $name, $tech)
+!procedure AwsManagedServices($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/CustomerEnablement/AwsManagedServices', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsManagedServicesCard($id, $funcName="", $content="")

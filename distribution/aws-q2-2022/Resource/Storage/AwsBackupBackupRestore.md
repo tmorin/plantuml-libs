@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Storage/AwsBackupBackupRestore')
 
 ' renders the element
-AwsBackupBackupRestore('AwsBackupBackupRestore', 'Aws Backup Backup Restore', 'an optional tech label')
+AwsBackupBackupRestore('AwsBackupBackupRestore', 'Aws Backup Backup Restore', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Storage/AwsBackupBackupRestore')
 
 ' renders the element
-AwsBackupBackupRestore('AwsBackupBackupRestore', 'Aws Backup Backup Restore', 'an optional tech label')
+AwsBackupBackupRestore('AwsBackupBackupRestore', 'Aws Backup Backup Restore', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

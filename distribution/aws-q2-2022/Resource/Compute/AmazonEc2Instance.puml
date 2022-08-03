@@ -8,8 +8,8 @@ sprite $AmazonEc2InstanceMd [16x16/16z] bK-50S0m39e2_pyyhRit3Yo5XOMBdWlZq_ZytNsr
 
 sprite $AmazonEc2InstanceLg [20x20/16z] dL250GCn2Bp3zr-uVNTFS0USlO03XMYbSvjdDNyax6o9nTFM5b4hMmOFuzpNSU67SJkRDAHgdLibdsUHTtleuZax5vaCIZ6raQvkokP3MjA5_G4
 
-!procedure AmazonEc2Instance($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Compute/AmazonEc2Instance', $name, $tech)
+!procedure AmazonEc2Instance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Compute/AmazonEc2Instance', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonEc2InstanceCard($id, $funcName="", $content="")

@@ -11,8 +11,8 @@ RSw50SGm3C30S0pxxrkhJ7hi1UTVARzBCol97hEm9vu6nge6OeQKtiOOfTL03ApxyX6VrLejM_Cobg_T
 nHG3kJ_rtS0z9UoDs1Enz2al
 }
 
-!procedure ManagementGovernance($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Category/ManagementGovernance', $name, $tech)
+!procedure ManagementGovernance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Category/ManagementGovernance', $name, $tech, $desc)
 !endprocedure
 
 !procedure ManagementGovernanceCard($id, $funcName="", $content="")

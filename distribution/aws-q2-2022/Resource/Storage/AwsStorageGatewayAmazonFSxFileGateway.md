@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Storage/AwsStorageGatewayAmazonFSxFileGateway')
 
 ' renders the element
-AwsStorageGatewayAmazonFSxFileGateway('AwsStorageGatewayAmazonFSxFileGateway', 'Aws Storage Gateway Amazon F Sx File Gateway', 'an optional tech label')
+AwsStorageGatewayAmazonFSxFileGateway('AwsStorageGatewayAmazonFSxFileGateway', 'Aws Storage Gateway Amazon F Sx File Gateway', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Storage/AwsStorageGatewayAmazonFSxFileGateway')
 
 ' renders the element
-AwsStorageGatewayAmazonFSxFileGateway('AwsStorageGatewayAmazonFSxFileGateway', 'Aws Storage Gateway Amazon F Sx File Gateway', 'an optional tech label')
+AwsStorageGatewayAmazonFSxFileGateway('AwsStorageGatewayAmazonFSxFileGateway', 'Aws Storage Gateway Amazon F Sx File Gateway', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/SecurityIdentityCompliance/AwsDirectoryService')
 
 ' renders the element
-AwsDirectoryService('AwsDirectoryService', 'Aws Directory Service', 'an optional tech label')
+AwsDirectoryService('AwsDirectoryService', 'Aws Directory Service', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/SecurityIdentityCompliance/AwsDirectoryService')
 
 ' renders the element
-AwsDirectoryService('AwsDirectoryService', 'Aws Directory Service', 'an optional tech label')
+AwsDirectoryService('AwsDirectoryService', 'Aws Directory Service', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

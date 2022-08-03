@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/GeneralIcons/Email')
 
 ' renders the element
-Email('Email', 'Email', 'an optional tech label')
+Email('Email', 'Email', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/GeneralIcons/Email')
 
 ' renders the element
-Email('Email', 'Email', 'an optional tech label')
+Email('Email', 'Email', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

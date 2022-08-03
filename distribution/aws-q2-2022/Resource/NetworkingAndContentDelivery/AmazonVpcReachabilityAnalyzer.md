@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonVpcReachabilityAnalyzer')
 
 ' renders the element
-AmazonVpcReachabilityAnalyzer('AmazonVpcReachabilityAnalyzer', 'Amazon Vpc Reachability Analyzer', 'an optional tech label')
+AmazonVpcReachabilityAnalyzer('AmazonVpcReachabilityAnalyzer', 'Amazon Vpc Reachability Analyzer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonVpcReachabilityAnalyzer')
 
 ' renders the element
-AmazonVpcReachabilityAnalyzer('AmazonVpcReachabilityAnalyzer', 'Amazon Vpc Reachability Analyzer', 'an optional tech label')
+AmazonVpcReachabilityAnalyzer('AmazonVpcReachabilityAnalyzer', 'Amazon Vpc Reachability Analyzer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/NetworkingContentDelivery/AwsCloudWan')
 
 ' renders the element
-AwsCloudWan('AwsCloudWan', 'Aws Cloud Wan', 'an optional tech label')
+AwsCloudWan('AwsCloudWan', 'Aws Cloud Wan', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/NetworkingContentDelivery/AwsCloudWan')
 
 ' renders the element
-AwsCloudWan('AwsCloudWan', 'Aws Cloud Wan', 'an optional tech label')
+AwsCloudWan('AwsCloudWan', 'Aws Cloud Wan', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

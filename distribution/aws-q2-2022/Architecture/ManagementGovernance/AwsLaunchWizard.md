@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/ManagementGovernance/AwsLaunchWizard')
 
 ' renders the element
-AwsLaunchWizard('AwsLaunchWizard', 'Aws Launch Wizard', 'an optional tech label')
+AwsLaunchWizard('AwsLaunchWizard', 'Aws Launch Wizard', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/ManagementGovernance/AwsLaunchWizard')
 
 ' renders the element
-AwsLaunchWizard('AwsLaunchWizard', 'Aws Launch Wizard', 'an optional tech label')
+AwsLaunchWizard('AwsLaunchWizard', 'Aws Launch Wizard', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/ManagementGovernance/AwsSystemsManagerOpsCenter')
 
 ' renders the element
-AwsSystemsManagerOpsCenter('AwsSystemsManagerOpsCenter', 'Aws Systems Manager Ops Center', 'an optional tech label')
+AwsSystemsManagerOpsCenter('AwsSystemsManagerOpsCenter', 'Aws Systems Manager Ops Center', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/ManagementGovernance/AwsSystemsManagerOpsCenter')
 
 ' renders the element
-AwsSystemsManagerOpsCenter('AwsSystemsManagerOpsCenter', 'Aws Systems Manager Ops Center', 'an optional tech label')
+AwsSystemsManagerOpsCenter('AwsSystemsManagerOpsCenter', 'Aws Systems Manager Ops Center', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

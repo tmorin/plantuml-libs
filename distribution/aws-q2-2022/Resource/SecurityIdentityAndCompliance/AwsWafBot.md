@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/SecurityIdentityAndCompliance/AwsWafBot')
 
 ' renders the element
-AwsWafBot('AwsWafBot', 'Aws Waf Bot', 'an optional tech label')
+AwsWafBot('AwsWafBot', 'Aws Waf Bot', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/SecurityIdentityAndCompliance/AwsWafBot')
 
 ' renders the element
-AwsWafBot('AwsWafBot', 'Aws Waf Bot', 'an optional tech label')
+AwsWafBot('AwsWafBot', 'Aws Waf Bot', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

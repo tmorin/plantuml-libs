@@ -8,8 +8,8 @@ sprite $AmazonSimpleNotificationServiceTopicMd [16x16/16z] XKk30G0n44kj_UTzepWpW
 
 sprite $AmazonSimpleNotificationServiceTopicLg [20x20/16z] ZSs50GGn2031nQBzr_jwxXCNWATotH8w6wRxEpsvyusaY6v18tSwfT27dIBixMiS_plE9u8kf-y_THmp_BzpHTaxhk6PJ0Hvs2aFlG4
 
-!procedure AmazonSimpleNotificationServiceTopic($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ApplicationIntegration/AmazonSimpleNotificationServiceTopic', $name, $tech)
+!procedure AmazonSimpleNotificationServiceTopic($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ApplicationIntegration/AmazonSimpleNotificationServiceTopic', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonSimpleNotificationServiceTopicCard($id, $funcName="", $content="")

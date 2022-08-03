@@ -14,8 +14,8 @@ VOu55iCm3CKKRFF__U-xnSzZK34oyeDZlwhOd0Jkdaqgr_VoY0HLABMGxxD3FScQnFc0roAOxJ6Y5cNQ
 PG2j4aubDmYNExfiTU-Z7elRgf4xzdjOaHjh6fAwLg7xABmW3_vm0G
 }
 
-!procedure AmazonRoute53ResolverDnsFirewall($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonRoute53ResolverDnsFirewall', $name, $tech)
+!procedure AmazonRoute53ResolverDnsFirewall($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonRoute53ResolverDnsFirewall', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonRoute53ResolverDnsFirewallCard($id, $funcName="", $content="")

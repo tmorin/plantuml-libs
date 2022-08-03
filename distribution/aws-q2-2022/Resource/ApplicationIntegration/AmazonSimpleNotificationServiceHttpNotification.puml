@@ -11,8 +11,8 @@ RSw5iGGW3431JN3elzxlUiTYRpA6gt7cqwXm_7Umv1zC7FLNJyuwARI8AAkGgSBx3B6IJ0Ua8aH5IMCz
 kFvbY9JlbP-LN_NlyWe
 }
 
-!procedure AmazonSimpleNotificationServiceHttpNotification($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ApplicationIntegration/AmazonSimpleNotificationServiceHttpNotification', $name, $tech)
+!procedure AmazonSimpleNotificationServiceHttpNotification($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ApplicationIntegration/AmazonSimpleNotificationServiceHttpNotification', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonSimpleNotificationServiceHttpNotificationCard($id, $funcName="", $content="")

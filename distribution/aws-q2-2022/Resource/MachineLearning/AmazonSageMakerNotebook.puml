@@ -8,8 +8,8 @@ sprite $AmazonSageMakerNotebookMd [16x16/16z] ROs50G0X481ivVRVzyCkJFH2dGWT-JsDBx
 
 sprite $AmazonSageMakerNotebookLg [20x20/16z] bO-54KGn24HtCzZGVxydtpNoeZZW6UO9cNI2dLco28FwZ81lVkAkLnr40CyPdNKKvTLF_x4iCznhN7MH6PVO-RQ8uAoh-SsC-brdUvy3r790vapb1F45
 
-!procedure AmazonSageMakerNotebook($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/MachineLearning/AmazonSageMakerNotebook', $name, $tech)
+!procedure AmazonSageMakerNotebook($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/MachineLearning/AmazonSageMakerNotebook', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonSageMakerNotebookCard($id, $funcName="", $content="")

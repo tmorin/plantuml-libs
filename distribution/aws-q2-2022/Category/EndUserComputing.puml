@@ -14,8 +14,8 @@ TSy55e0W54HHzDUCxd-zzB5zzhKWlahBinGBHkC9hrKZ7pZCZ_Safd4zdfI8QGAaTBm-hQcecvaSbWZ0
 dsjHAkfXDPBE0BJRla_LDjc7zJ3jhZ-MNYq5
 }
 
-!procedure EndUserComputing($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Category/EndUserComputing', $name, $tech)
+!procedure EndUserComputing($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Category/EndUserComputing', $name, $tech, $desc)
 !endprocedure
 
 !procedure EndUserComputingCard($id, $funcName="", $content="")

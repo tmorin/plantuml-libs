@@ -11,8 +11,8 @@ TSrL0WGW203HmG8Mxt_TxRBcn_QnA_gxz9qGdxEK80BIkAUIBlDUAyN7lG9D8QMjOP_ITpAwjR8ORJOI
 MRi1
 }
 
-!procedure AmazonDynamoDbItems($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Database/AmazonDynamoDbItems', $name, $tech)
+!procedure AmazonDynamoDbItems($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Database/AmazonDynamoDbItems', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonDynamoDbItemsCard($id, $funcName="", $content="")

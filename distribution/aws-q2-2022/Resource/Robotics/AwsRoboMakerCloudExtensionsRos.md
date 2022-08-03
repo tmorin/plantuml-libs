@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Robotics/AwsRoboMakerCloudExtensionsRos')
 
 ' renders the element
-AwsRoboMakerCloudExtensionsRos('AwsRoboMakerCloudExtensionsRos', 'Aws Robo Maker Cloud Extensions Ros', 'an optional tech label')
+AwsRoboMakerCloudExtensionsRos('AwsRoboMakerCloudExtensionsRos', 'Aws Robo Maker Cloud Extensions Ros', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Robotics/AwsRoboMakerCloudExtensionsRos')
 
 ' renders the element
-AwsRoboMakerCloudExtensionsRos('AwsRoboMakerCloudExtensionsRos', 'Aws Robo Maker Cloud Extensions Ros', 'an optional tech label')
+AwsRoboMakerCloudExtensionsRos('AwsRoboMakerCloudExtensionsRos', 'Aws Robo Maker Cloud Extensions Ros', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

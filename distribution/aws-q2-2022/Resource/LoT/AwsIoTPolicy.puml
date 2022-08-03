@@ -11,8 +11,8 @@ ZOo50KHH2CDmslq7FltkUOf5dk8zObEEqm-B78Ixd33E-vxxREjJbZbzsJVS5GiVr6mS75lOOKH7w2UC
 d3S
 }
 
-!procedure AwsIoTPolicy($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTPolicy', $name, $tech)
+!procedure AwsIoTPolicy($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTPolicy', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTPolicyCard($id, $funcName="", $content="")

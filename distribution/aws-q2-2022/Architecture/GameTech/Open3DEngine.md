@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/GameTech/Open3DEngine')
 
 ' renders the element
-Open3DEngine('Open3DEngine', 'Open3 D Engine', 'an optional tech label')
+Open3DEngine('Open3DEngine', 'Open3 D Engine', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/GameTech/Open3DEngine')
 
 ' renders the element
-Open3DEngine('Open3DEngine', 'Open3 D Engine', 'an optional tech label')
+Open3DEngine('Open3DEngine', 'Open3 D Engine', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

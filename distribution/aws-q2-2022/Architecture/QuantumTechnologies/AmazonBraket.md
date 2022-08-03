@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/QuantumTechnologies/AmazonBraket')
 
 ' renders the element
-AmazonBraket('AmazonBraket', 'Amazon Braket', 'an optional tech label')
+AmazonBraket('AmazonBraket', 'Amazon Braket', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/QuantumTechnologies/AmazonBraket')
 
 ' renders the element
-AmazonBraket('AmazonBraket', 'Amazon Braket', 'an optional tech label')
+AmazonBraket('AmazonBraket', 'Amazon Braket', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

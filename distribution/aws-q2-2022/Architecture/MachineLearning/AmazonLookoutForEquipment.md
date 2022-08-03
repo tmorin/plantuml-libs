@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/MachineLearning/AmazonLookoutForEquipment')
 
 ' renders the element
-AmazonLookoutForEquipment('AmazonLookoutForEquipment', 'Amazon Lookout For Equipment', 'an optional tech label')
+AmazonLookoutForEquipment('AmazonLookoutForEquipment', 'Amazon Lookout For Equipment', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/MachineLearning/AmazonLookoutForEquipment')
 
 ' renders the element
-AmazonLookoutForEquipment('AmazonLookoutForEquipment', 'Amazon Lookout For Equipment', 'an optional tech label')
+AmazonLookoutForEquipment('AmazonLookoutForEquipment', 'Amazon Lookout For Equipment', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

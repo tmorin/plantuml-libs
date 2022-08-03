@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Category/EndUserComputing')
 
 ' renders the element
-EndUserComputing('EndUserComputing', 'End User Computing', 'an optional tech label')
+EndUserComputing('EndUserComputing', 'End User Computing', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Category/EndUserComputing')
 
 ' renders the element
-EndUserComputing('EndUserComputing', 'End User Computing', 'an optional tech label')
+EndUserComputing('EndUserComputing', 'End User Computing', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

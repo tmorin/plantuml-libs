@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/CloudFinancialManagement/SavingsPlans')
 
 ' renders the element
-SavingsPlans('SavingsPlans', 'Savings Plans', 'an optional tech label')
+SavingsPlans('SavingsPlans', 'Savings Plans', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/CloudFinancialManagement/SavingsPlans')
 
 ' renders the element
-SavingsPlans('SavingsPlans', 'Savings Plans', 'an optional tech label')
+SavingsPlans('SavingsPlans', 'Savings Plans', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

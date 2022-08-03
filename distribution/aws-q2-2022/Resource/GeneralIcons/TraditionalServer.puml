@@ -8,8 +8,8 @@ sprite $TraditionalServerMd [16x16/16z] Oy02UBWXW1tAvs9Y1G46DXWVGY7up1mWWCJd107S
 
 sprite $TraditionalServerLg [20x20/16z] Oy05UE206Ix61MUn8SIWAZc0OlZLSO01AueO4nWmeeWnWm4J5hriA6AC483Dti4gnWW5J0Wn9cOO07C1
 
-!procedure TraditionalServer($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GeneralIcons/TraditionalServer', $name, $tech)
+!procedure TraditionalServer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GeneralIcons/TraditionalServer', $name, $tech, $desc)
 !endprocedure
 
 !procedure TraditionalServerCard($id, $funcName="", $content="")

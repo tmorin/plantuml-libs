@@ -11,8 +11,8 @@ PSZ7OKKn200myy28x3zmVkyw2lJBFlET_JYVzvkDN5UnwktGcT6HwtKoYUxTwt5g8wAwut932bhOUR-H
 pQmKQdNYSQD3NOkPsNbLYVizyBhV_FjD9m
 }
 
-!procedure AmazonEc2ImageBuilder($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Compute/AmazonEc2ImageBuilder', $name, $tech)
+!procedure AmazonEc2ImageBuilder($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Compute/AmazonEc2ImageBuilder', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonEc2ImageBuilderCard($id, $funcName="", $content="")

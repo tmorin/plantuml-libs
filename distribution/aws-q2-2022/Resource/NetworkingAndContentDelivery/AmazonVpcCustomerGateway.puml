@@ -11,8 +11,8 @@ TSt5eSGm34NHOqkJn5B_zNuSXhjyw3DnLDS-t3XrCbZDcKgi3gpJMHhex1hElbC23HIq1sqi8l7a7VHD
 1KCFKE3KYEhcrieQH6ChLrOVCRCxtJFcdCvy0m
 }
 
-!procedure AmazonVpcCustomerGateway($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonVpcCustomerGateway', $name, $tech)
+!procedure AmazonVpcCustomerGateway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonVpcCustomerGateway', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonVpcCustomerGatewayCard($id, $funcName="", $content="")

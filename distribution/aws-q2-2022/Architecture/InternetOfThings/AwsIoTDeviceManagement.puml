@@ -14,8 +14,8 @@ PSY50GGn24HHB87X-k_tPjr-b0TMHxa5tFLhxB1DCtQypBnqRBXRMEN8f2xOb1J0HhbNIXARgEHPKK7m
 mvoNeSFDt0BfsAp3kh4a0xJVRrKVH0-iqRR473ZiKFJNs6MxNlW7
 }
 
-!procedure AwsIoTDeviceManagement($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/InternetOfThings/AwsIoTDeviceManagement', $name, $tech)
+!procedure AwsIoTDeviceManagement($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/InternetOfThings/AwsIoTDeviceManagement', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTDeviceManagementCard($id, $funcName="", $content="")

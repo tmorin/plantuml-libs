@@ -8,8 +8,8 @@ sprite $AmazonEc2ElasticIpAddressMd [16x16/16z] Ow0-O6D3vZ6oCZ2mCaBOx43CmG0be3Gx
 
 sprite $AmazonEc2ElasticIpAddressLg [20x20/16z] pKo50S0m2CFX_uUtkZtGuf84BXhXUL53Zd6rNB3K690yUPcGXr1q1COq1AsYEEIb2Q2FKyLOXC8BzWC
 
-!procedure AmazonEc2ElasticIpAddress($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Compute/AmazonEc2ElasticIpAddress', $name, $tech)
+!procedure AmazonEc2ElasticIpAddress($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Compute/AmazonEc2ElasticIpAddress', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonEc2ElasticIpAddressCard($id, $funcName="", $content="")

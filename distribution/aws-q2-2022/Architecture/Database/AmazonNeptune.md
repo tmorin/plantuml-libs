@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/Database/AmazonNeptune')
 
 ' renders the element
-AmazonNeptune('AmazonNeptune', 'Amazon Neptune', 'an optional tech label')
+AmazonNeptune('AmazonNeptune', 'Amazon Neptune', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/Database/AmazonNeptune')
 
 ' renders the element
-AmazonNeptune('AmazonNeptune', 'Amazon Neptune', 'an optional tech label')
+AmazonNeptune('AmazonNeptune', 'Amazon Neptune', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

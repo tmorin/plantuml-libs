@@ -11,8 +11,8 @@ RSy50iCm30D0DUHQ-lzx1nexKp7d8Fw5gcdGgzXUtuznShE0TbE_lPN3jjnoSJJGbj3BA7QRZgSrVURp
 O6iCHQgLivLrdTJuM2iP3MqBhW
 }
 
-!procedure AwsAppMeshVirtualNode($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AwsAppMeshVirtualNode', $name, $tech)
+!procedure AwsAppMeshVirtualNode($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AwsAppMeshVirtualNode', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsAppMeshVirtualNodeCard($id, $funcName="", $content="")

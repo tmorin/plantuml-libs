@@ -11,8 +11,8 @@ XL050W0n249NAlz_xtNdUYQ0h-4XLnEdzMy3AVCrkgG2szMcSA7mOBFHfWbDLbjadLpqDKvvR0aKQs7O
 EeSpWopXZNRNvIfWQyLn7QBRimS
 }
 
-!procedure AwsAppMeshMesh($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AwsAppMeshMesh', $name, $tech)
+!procedure AwsAppMeshMesh($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AwsAppMeshMesh', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsAppMeshMeshCard($id, $funcName="", $content="")

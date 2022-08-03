@@ -11,8 +11,8 @@ RSrL0WGW24LHczh_VeTuJj_Feu0WlX6H_47zWvf8_8xgI9rs0y9uYZSAOKkvDra2XD4PPNADJzpffsLb
 T3PlMk8MsDrwrM1st3A7QzPW2ilq1lj1-uCF
 }
 
-!procedure AwsKeyManagementService($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/SecurityIdentityCompliance/AwsKeyManagementService', $name, $tech)
+!procedure AwsKeyManagementService($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/SecurityIdentityCompliance/AwsKeyManagementService', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsKeyManagementServiceCard($id, $funcName="", $content="")

@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/MediaServices/AwsElementalAppliancesSoftware')
 
 ' renders the element
-AwsElementalAppliancesSoftware('AwsElementalAppliancesSoftware', 'Aws Elemental Appliances Software', 'an optional tech label')
+AwsElementalAppliancesSoftware('AwsElementalAppliancesSoftware', 'Aws Elemental Appliances Software', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/MediaServices/AwsElementalAppliancesSoftware')
 
 ' renders the element
-AwsElementalAppliancesSoftware('AwsElementalAppliancesSoftware', 'Aws Elemental Appliances Software', 'an optional tech label')
+AwsElementalAppliancesSoftware('AwsElementalAppliancesSoftware', 'Aws Elemental Appliances Software', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

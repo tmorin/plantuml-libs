@@ -14,8 +14,8 @@ TP055WHH2CFw1ThU_yBxOTqodXV6y8_0s70jRoxUdVY2PZlYbQovkBg863tL1oBCkG7Vkp6uT9XpXcJm
 EEoLRnqWAl7ijfzqz_rjXNwucKegtKl--t_5g7NsKbm
 }
 
-!procedure AwsIoTThingCamera($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTThingCamera', $name, $tech)
+!procedure AwsIoTThingCamera($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTThingCamera', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTThingCameraCard($id, $funcName="", $content="")

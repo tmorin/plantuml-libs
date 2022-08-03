@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/LoT/AwsIoTGreengrassRecipe')
 
 ' renders the element
-AwsIoTGreengrassRecipe('AwsIoTGreengrassRecipe', 'Aws Io T Greengrass Recipe', 'an optional tech label')
+AwsIoTGreengrassRecipe('AwsIoTGreengrassRecipe', 'Aws Io T Greengrass Recipe', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/LoT/AwsIoTGreengrassRecipe')
 
 ' renders the element
-AwsIoTGreengrassRecipe('AwsIoTGreengrassRecipe', 'Aws Io T Greengrass Recipe', 'an optional tech label')
+AwsIoTGreengrassRecipe('AwsIoTGreengrassRecipe', 'Aws Io T Greengrass Recipe', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

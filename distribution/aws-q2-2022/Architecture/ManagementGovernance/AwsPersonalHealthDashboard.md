@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/ManagementGovernance/AwsPersonalHealthDashboard')
 
 ' renders the element
-AwsPersonalHealthDashboard('AwsPersonalHealthDashboard', 'Aws Personal Health Dashboard', 'an optional tech label')
+AwsPersonalHealthDashboard('AwsPersonalHealthDashboard', 'Aws Personal Health Dashboard', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/ManagementGovernance/AwsPersonalHealthDashboard')
 
 ' renders the element
-AwsPersonalHealthDashboard('AwsPersonalHealthDashboard', 'Aws Personal Health Dashboard', 'an optional tech label')
+AwsPersonalHealthDashboard('AwsPersonalHealthDashboard', 'Aws Personal Health Dashboard', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

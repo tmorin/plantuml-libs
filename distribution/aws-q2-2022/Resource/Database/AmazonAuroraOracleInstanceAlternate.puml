@@ -8,8 +8,8 @@ sprite $AmazonAuroraOracleInstanceAlternateMd [16x16/16z] nSU50S0m30F13oUMzr-tp0
 
 sprite $AmazonAuroraOracleInstanceAlternateLg [20x20/16z] rSZ50G9G342nL_bIsNzTt641SWm_pUfN2Sp5kuO25MuSSAMO6hUI1TZv0jKIQNDTCUHoYqaIFP6LmkNOaybURDcwR_Vc7oxXtHPejrUx0FIDm14
 
-!procedure AmazonAuroraOracleInstanceAlternate($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Database/AmazonAuroraOracleInstanceAlternate', $name, $tech)
+!procedure AmazonAuroraOracleInstanceAlternate($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Database/AmazonAuroraOracleInstanceAlternate', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonAuroraOracleInstanceAlternateCard($id, $funcName="", $content="")

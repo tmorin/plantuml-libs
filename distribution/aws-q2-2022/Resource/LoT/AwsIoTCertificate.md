@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/LoT/AwsIoTCertificate')
 
 ' renders the element
-AwsIoTCertificate('AwsIoTCertificate', 'Aws Io T Certificate', 'an optional tech label')
+AwsIoTCertificate('AwsIoTCertificate', 'Aws Io T Certificate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/LoT/AwsIoTCertificate')
 
 ' renders the element
-AwsIoTCertificate('AwsIoTCertificate', 'Aws Io T Certificate', 'an optional tech label')
+AwsIoTCertificate('AwsIoTCertificate', 'Aws Io T Certificate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

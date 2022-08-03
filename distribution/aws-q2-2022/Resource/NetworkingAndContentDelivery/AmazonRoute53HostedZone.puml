@@ -11,8 +11,8 @@ ZS-50G0X20LGHAN-_lDUTzhwJEWbrQajOyCBAMneWJ8uC54sOWyT8A9IrT50fsJZTZjRzg69T39ChPni
 Z8OwG7WznLa1eu_K0m
 }
 
-!procedure AmazonRoute53HostedZone($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonRoute53HostedZone', $name, $tech)
+!procedure AmazonRoute53HostedZone($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonRoute53HostedZone', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonRoute53HostedZoneCard($id, $funcName="", $content="")

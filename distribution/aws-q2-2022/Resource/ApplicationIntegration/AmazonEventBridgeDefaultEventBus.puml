@@ -8,8 +8,8 @@ sprite $AmazonEventBridgeDefaultEventBusMd [16x16/16z] dSlL0O0W543HIzV-yreqFog7V
 
 sprite $AmazonEventBridgeDefaultEventBusLg [20x20/16z] jOx50S0m30CL1ky_Rr7XN-62Pk4t10FMqbVzpRO13Qsl9uBaiz3bWwioNKulRAG3j6YGUF_oggE-AQNwrn4c9LORlyZcDENGK8tg2nM7b-m
 
-!procedure AmazonEventBridgeDefaultEventBus($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ApplicationIntegration/AmazonEventBridgeDefaultEventBus', $name, $tech)
+!procedure AmazonEventBridgeDefaultEventBus($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ApplicationIntegration/AmazonEventBridgeDefaultEventBus', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonEventBridgeDefaultEventBusCard($id, $funcName="", $content="")

@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/LoT/AwsIoTDeviceDefenderIoTDeviceJobs')
 
 ' renders the element
-AwsIoTDeviceDefenderIoTDeviceJobs('AwsIoTDeviceDefenderIoTDeviceJobs', 'Aws Io T Device Defender Io T Device Jobs', 'an optional tech label')
+AwsIoTDeviceDefenderIoTDeviceJobs('AwsIoTDeviceDefenderIoTDeviceJobs', 'Aws Io T Device Defender Io T Device Jobs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/LoT/AwsIoTDeviceDefenderIoTDeviceJobs')
 
 ' renders the element
-AwsIoTDeviceDefenderIoTDeviceJobs('AwsIoTDeviceDefenderIoTDeviceJobs', 'Aws Io T Device Defender Io T Device Jobs', 'an optional tech label')
+AwsIoTDeviceDefenderIoTDeviceJobs('AwsIoTDeviceDefenderIoTDeviceJobs', 'Aws Io T Device Defender Io T Device Jobs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

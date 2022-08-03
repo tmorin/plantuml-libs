@@ -11,8 +11,8 @@ XSw53GHH30FHSV93_HTypB0x8kk9pE_cBGCWUKbFCppDtYqMWx-RzxSXceutkxLZLTKGdVEmS52IGDzj
 CyckPkS0T1j7
 }
 
-!procedure AwsStorageGatewayVirtualTapeLibrary($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Storage/AwsStorageGatewayVirtualTapeLibrary', $name, $tech)
+!procedure AwsStorageGatewayVirtualTapeLibrary($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Storage/AwsStorageGatewayVirtualTapeLibrary', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsStorageGatewayVirtualTapeLibraryCard($id, $funcName="", $content="")

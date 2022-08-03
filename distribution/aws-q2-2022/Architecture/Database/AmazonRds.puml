@@ -14,8 +14,8 @@ RSn1WWKn14NH2E2f_Q-t_PACgk_m082ynGd_83xucejSK-OnMS158n_3lcYYipU5j_dxiqQsUZXxMsCr
 iRBSC77CkxRHBIgKm34jpyBRWez9QDN1RMrF6raTjFw8V1g1EjXB09x66wQsB_u1
 }
 
-!procedure AmazonRds($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Database/AmazonRds', $name, $tech)
+!procedure AmazonRds($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Database/AmazonRds', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonRdsCard($id, $funcName="", $content="")

@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/MachineLearning/AmazonTranscribe')
 
 ' renders the element
-AmazonTranscribe('AmazonTranscribe', 'Amazon Transcribe', 'an optional tech label')
+AmazonTranscribe('AmazonTranscribe', 'Amazon Transcribe', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/MachineLearning/AmazonTranscribe')
 
 ' renders the element
-AmazonTranscribe('AmazonTranscribe', 'Amazon Transcribe', 'an optional tech label')
+AmazonTranscribe('AmazonTranscribe', 'Amazon Transcribe', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

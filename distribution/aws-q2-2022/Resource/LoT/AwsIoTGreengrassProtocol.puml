@@ -11,8 +11,8 @@ XOy74iCW40D5rUd_7yxDZKnwiZQmY8vVh6XuGEe0GLkX_C3eje8bifcuCl1XVsToVoTYblgJ1k65rhza
 RLlHTssrRG_qOpS
 }
 
-!procedure AwsIoTGreengrassProtocol($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTGreengrassProtocol', $name, $tech)
+!procedure AwsIoTGreengrassProtocol($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTGreengrassProtocol', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTGreengrassProtocolCard($id, $funcName="", $content="")

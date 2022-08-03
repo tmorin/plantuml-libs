@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/LoT/AwsIoTThingFreeRtosDevice')
 
 ' renders the element
-AwsIoTThingFreeRtosDevice('AwsIoTThingFreeRtosDevice', 'Aws Io T Thing Free Rtos Device', 'an optional tech label')
+AwsIoTThingFreeRtosDevice('AwsIoTThingFreeRtosDevice', 'Aws Io T Thing Free Rtos Device', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/LoT/AwsIoTThingFreeRtosDevice')
 
 ' renders the element
-AwsIoTThingFreeRtosDevice('AwsIoTThingFreeRtosDevice', 'Aws Io T Thing Free Rtos Device', 'an optional tech label')
+AwsIoTThingFreeRtosDevice('AwsIoTThingFreeRtosDevice', 'Aws Io T Thing Free Rtos Device', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

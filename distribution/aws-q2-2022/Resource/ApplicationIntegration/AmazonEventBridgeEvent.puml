@@ -11,8 +11,8 @@ VSo5OSGm3030CuFsdxVSnoHdji2Lxjr2kCaJGUxSZ0eQL7-IFpdohNcABvlfHzw33Jjvq1hO7eGVlPYp
 SZF-LdLJOBdm2G
 }
 
-!procedure AmazonEventBridgeEvent($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ApplicationIntegration/AmazonEventBridgeEvent', $name, $tech)
+!procedure AmazonEventBridgeEvent($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ApplicationIntegration/AmazonEventBridgeEvent', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonEventBridgeEventCard($id, $funcName="", $content="")

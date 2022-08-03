@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/ApplicationIntegration/AmazonMqBroker')
 
 ' renders the element
-AmazonMqBroker('AmazonMqBroker', 'Amazon Mq Broker', 'an optional tech label')
+AmazonMqBroker('AmazonMqBroker', 'Amazon Mq Broker', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/ApplicationIntegration/AmazonMqBroker')
 
 ' renders the element
-AmazonMqBroker('AmazonMqBroker', 'Amazon Mq Broker', 'an optional tech label')
+AmazonMqBroker('AmazonMqBroker', 'Amazon Mq Broker', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

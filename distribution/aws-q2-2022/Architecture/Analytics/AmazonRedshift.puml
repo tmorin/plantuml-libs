@@ -11,8 +11,8 @@ PSi93WH1249HQzE2llzzXpYcrv_z1P3jir30Ix-MoA8rnro5J3JFPH-95CAZ_bOcz6KpjdThfz41HEpO
 wX3A1YWyJHZ137QQqFhoQGsd2HMeJakioZxu0m
 }
 
-!procedure AmazonRedshift($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Analytics/AmazonRedshift', $name, $tech)
+!procedure AmazonRedshift($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Analytics/AmazonRedshift', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonRedshiftCard($id, $funcName="", $content="")

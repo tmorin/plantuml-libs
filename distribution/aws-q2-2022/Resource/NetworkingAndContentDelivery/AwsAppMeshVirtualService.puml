@@ -11,8 +11,8 @@ ZS-50GCX50FGe5-o_xmLlDwS00_7kyILRPp4mw3UGlTjgsh_MIPVJ64l1WeGdSC2RQodIKEpzcicr3gQ
 vjOENaLCIKPg8NO241nQ3phl-pvN
 }
 
-!procedure AwsAppMeshVirtualService($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AwsAppMeshVirtualService', $name, $tech)
+!procedure AwsAppMeshVirtualService($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AwsAppMeshVirtualService', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsAppMeshVirtualServiceCard($id, $funcName="", $content="")

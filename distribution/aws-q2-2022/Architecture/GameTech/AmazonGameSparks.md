@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/GameTech/AmazonGameSparks')
 
 ' renders the element
-AmazonGameSparks('AmazonGameSparks', 'Amazon Game Sparks', 'an optional tech label')
+AmazonGameSparks('AmazonGameSparks', 'Amazon Game Sparks', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/GameTech/AmazonGameSparks')
 
 ' renders the element
-AmazonGameSparks('AmazonGameSparks', 'Amazon Game Sparks', 'an optional tech label')
+AmazonGameSparks('AmazonGameSparks', 'Amazon Game Sparks', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

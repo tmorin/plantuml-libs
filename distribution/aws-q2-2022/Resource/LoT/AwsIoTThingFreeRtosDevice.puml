@@ -14,8 +14,8 @@ TP05aWH13CFaP7fY___11pc6jHjLAWgFeiEGxHUxyKycEvyTDcPJ0BG0QHckMTQ2SmAG8G5wZW3lhY13
 kmTU5lZqe78o1huyY78LFpo6aNZtOAx-YiL6FUsANgl7ymE4g2t0Cm
 }
 
-!procedure AwsIoTThingFreeRtosDevice($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTThingFreeRtosDevice', $name, $tech)
+!procedure AwsIoTThingFreeRtosDevice($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTThingFreeRtosDevice', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTThingFreeRtosDeviceCard($id, $funcName="", $content="")

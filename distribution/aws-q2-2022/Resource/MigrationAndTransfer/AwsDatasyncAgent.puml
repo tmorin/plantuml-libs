@@ -11,8 +11,8 @@ bSw50GCm30F1byBQVzyoSo-CDY_rbLjBq0lt0ei7Dk61lk-r-BotThJs0xDTxeMpqOzxTSP7j7cyDmOw
 xmYs
 }
 
-!procedure AwsDatasyncAgent($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/MigrationAndTransfer/AwsDatasyncAgent', $name, $tech)
+!procedure AwsDatasyncAgent($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/MigrationAndTransfer/AwsDatasyncAgent', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsDatasyncAgentCard($id, $funcName="", $content="")

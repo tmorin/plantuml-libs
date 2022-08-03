@@ -8,8 +8,8 @@ sprite $OfficeBuildingMd [16x16/16z] dOp50KDH3CFq69Bzrsq_C_jc4eTI4T65hn5MFYszjPs
 
 sprite $OfficeBuildingLg [20x20/16z] rKxL0GCn28tXiF-uxRdBzyK3pzBzGEz7tjMaFrevr2pXQwqK7MfG5aLYnD49TQbLvwIvOdPQQy79kbg9jRRcki9zXfjb7Vt_3m
 
-!procedure OfficeBuilding($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GeneralIcons/OfficeBuilding', $name, $tech)
+!procedure OfficeBuilding($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GeneralIcons/OfficeBuilding', $name, $tech, $desc)
 !endprocedure
 
 !procedure OfficeBuildingCard($id, $funcName="", $content="")

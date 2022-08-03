@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/NetworkingAndContentDelivery/AwsDirectConnectGateway')
 
 ' renders the element
-AwsDirectConnectGateway('AwsDirectConnectGateway', 'Aws Direct Connect Gateway', 'an optional tech label')
+AwsDirectConnectGateway('AwsDirectConnectGateway', 'Aws Direct Connect Gateway', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/NetworkingAndContentDelivery/AwsDirectConnectGateway')
 
 ' renders the element
-AwsDirectConnectGateway('AwsDirectConnectGateway', 'Aws Direct Connect Gateway', 'an optional tech label')
+AwsDirectConnectGateway('AwsDirectConnectGateway', 'Aws Direct Connect Gateway', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

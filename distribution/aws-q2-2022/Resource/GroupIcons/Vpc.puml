@@ -8,8 +8,8 @@ sprite $VpcMd [16x16/16z] hOt50S0W302B9xV_lhXyQmTnum_KU-KWSSZ2DXMDPHB1Na2QmzKpjc
 
 sprite $VpcLg [20x20/16z] lSo50GCX343HGs9__tqhE0Eq3oV2_sYLuFO4LELKsYvnvbQQH6Oo1N8EMaLJ7SWfvvORkpArdDsx_Qdcuw_TuwETGZiUyqaJGspym1i
 
-!procedure Vpc($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GroupIcons/Vpc', $name, $tech)
+!procedure Vpc($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GroupIcons/Vpc', $name, $tech, $desc)
 !endprocedure
 
 !procedure VpcCard($id, $funcName="", $content="")

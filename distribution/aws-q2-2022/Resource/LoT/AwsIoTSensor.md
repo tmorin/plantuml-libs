@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/LoT/AwsIoTSensor')
 
 ' renders the element
-AwsIoTSensor('AwsIoTSensor', 'Aws Io T Sensor', 'an optional tech label')
+AwsIoTSensor('AwsIoTSensor', 'Aws Io T Sensor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/LoT/AwsIoTSensor')
 
 ' renders the element
-AwsIoTSensor('AwsIoTSensor', 'Aws Io T Sensor', 'an optional tech label')
+AwsIoTSensor('AwsIoTSensor', 'Aws Io T Sensor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

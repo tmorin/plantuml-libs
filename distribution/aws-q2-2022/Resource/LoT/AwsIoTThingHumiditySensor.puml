@@ -11,8 +11,8 @@ TT2tjG1H2CJGosDPeF-2l_TcbEae6lyjIjiNFjrjlhkOsGyQ63wNWOWFTmMPGTK2OfVi2WnNO-Gb4ztB
 FxkUdfyTuQEZh_pS113PEMVZcVZ_FuHmNe17
 }
 
-!procedure AwsIoTThingHumiditySensor($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTThingHumiditySensor', $name, $tech)
+!procedure AwsIoTThingHumiditySensor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTThingHumiditySensor', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTThingHumiditySensorCard($id, $funcName="", $content="")

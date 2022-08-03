@@ -8,8 +8,8 @@ sprite $AwsWafRuleMd [16x16/16z] VOor0G0W30HntNzVlYD-LVAM9FTGRZhCfN-fZVruyTzC2Vf
 
 sprite $AwsWafRuleLg [20x20/16z] ZO-53G1H24Enx_lFUnh34buKRGiHnq5mx1AvthGzaTdTtf3ezkzjIqbtsrwVczoUSAuxBGNT4sHRn-zr-FVGmAz52zm
 
-!procedure AwsWafRule($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/SecurityIdentityAndCompliance/AwsWafRule', $name, $tech)
+!procedure AwsWafRule($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/SecurityIdentityAndCompliance/AwsWafRule', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsWafRuleCard($id, $funcName="", $content="")

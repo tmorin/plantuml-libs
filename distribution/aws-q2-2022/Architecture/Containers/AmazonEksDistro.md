@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/Containers/AmazonEksDistro')
 
 ' renders the element
-AmazonEksDistro('AmazonEksDistro', 'Amazon Eks Distro', 'an optional tech label')
+AmazonEksDistro('AmazonEksDistro', 'Amazon Eks Distro', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/Containers/AmazonEksDistro')
 
 ' renders the element
-AmazonEksDistro('AmazonEksDistro', 'Amazon Eks Distro', 'an optional tech label')
+AmazonEksDistro('AmazonEksDistro', 'Amazon Eks Distro', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

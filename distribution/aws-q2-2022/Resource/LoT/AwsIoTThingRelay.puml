@@ -11,8 +11,8 @@ TP050iH030AJDSB_FtnmLeVgPAhnb9o1uBiRMr57bbNy5nzMiKjFModsdGunmpaPlayJMsAODai0VUg0
 H4NFlnSmIyJciUpvJJVFwkVzDYyFtwPWz2tr7MT7hyPqy_d_6QhjNUS5
 }
 
-!procedure AwsIoTThingRelay($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTThingRelay', $name, $tech)
+!procedure AwsIoTThingRelay($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTThingRelay', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTThingRelayCard($id, $funcName="", $content="")

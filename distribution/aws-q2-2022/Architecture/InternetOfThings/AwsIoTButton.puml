@@ -11,8 +11,8 @@ PSq70i0W20F0kAFz_tyB0frndsjA61aMjLl_vkXsQnW0imwKiCV98YVNppYMugYHeRu4y_rx3Yic4ms4
 OiVXvbYagTLQ3LdAK9Cet2VT8hVzJfu
 }
 
-!procedure AwsIoTButton($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/InternetOfThings/AwsIoTButton', $name, $tech)
+!procedure AwsIoTButton($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/InternetOfThings/AwsIoTButton', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTButtonCard($id, $funcName="", $content="")

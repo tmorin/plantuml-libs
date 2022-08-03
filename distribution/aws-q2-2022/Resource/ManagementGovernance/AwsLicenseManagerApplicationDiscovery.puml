@@ -11,8 +11,8 @@ ROu53aDH3CFyS5rp__CEy_JHeigbS4V9e4OgwkQU5F5bYiNiD9Sg63Nz291L9Rpxe7T-1EZ3LyOQJ539
 5bqV1lBwXaLUvVtag1VPnOKARm
 }
 
-!procedure AwsLicenseManagerApplicationDiscovery($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ManagementGovernance/AwsLicenseManagerApplicationDiscovery', $name, $tech)
+!procedure AwsLicenseManagerApplicationDiscovery($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ManagementGovernance/AwsLicenseManagerApplicationDiscovery', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsLicenseManagerApplicationDiscoveryCard($id, $funcName="", $content="")

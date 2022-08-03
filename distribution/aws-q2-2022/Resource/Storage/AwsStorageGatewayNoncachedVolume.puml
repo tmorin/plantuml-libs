@@ -8,8 +8,8 @@ sprite $AwsStorageGatewayNoncachedVolumeMd [16x16/16z] Oy00x1nmm0dc8wJOXWgVWusDZ
 
 sprite $AwsStorageGatewayNoncachedVolumeLg [20x20/16z] Oy0EE5404rYC3La18xBOg1W7E9pGn40C935sHaP6Y1WJ8oCJH8m91C1cGHa
 
-!procedure AwsStorageGatewayNoncachedVolume($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Storage/AwsStorageGatewayNoncachedVolume', $name, $tech)
+!procedure AwsStorageGatewayNoncachedVolume($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Storage/AwsStorageGatewayNoncachedVolume', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsStorageGatewayNoncachedVolumeCard($id, $funcName="", $content="")

@@ -11,8 +11,8 @@ TOs50GCW40CJNhF_m3MaVlZnWlymMnLlIeKRbEFGn2HZAn6RsjS6REp_UGHSC87WSGLbOlIDedEbbcgd
 j09l3YIG7mxuTbtvuIHWwDtnPSSL
 }
 
-!procedure AwsIoTCertificate($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTCertificate', $name, $tech)
+!procedure AwsIoTCertificate($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTCertificate', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTCertificateCard($id, $funcName="", $content="")

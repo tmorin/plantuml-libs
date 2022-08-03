@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/MediaServices/AwsElementalServer')
 
 ' renders the element
-AwsElementalServer('AwsElementalServer', 'Aws Elemental Server', 'an optional tech label')
+AwsElementalServer('AwsElementalServer', 'Aws Elemental Server', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/MediaServices/AwsElementalServer')
 
 ' renders the element
-AwsElementalServer('AwsElementalServer', 'Aws Elemental Server', 'an optional tech label')
+AwsElementalServer('AwsElementalServer', 'Aws Elemental Server', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

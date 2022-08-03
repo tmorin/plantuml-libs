@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/GeneralIcons/Documents')
 
 ' renders the element
-Documents('Documents', 'Documents', 'an optional tech label')
+Documents('Documents', 'Documents', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/GeneralIcons/Documents')
 
 ' renders the element
-Documents('Documents', 'Documents', 'an optional tech label')
+Documents('Documents', 'Documents', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

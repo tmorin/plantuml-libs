@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/MachineLearning/AwsDeepRacer')
 
 ' renders the element
-AwsDeepRacer('AwsDeepRacer', 'Aws Deep Racer', 'an optional tech label')
+AwsDeepRacer('AwsDeepRacer', 'Aws Deep Racer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/MachineLearning/AwsDeepRacer')
 
 ' renders the element
-AwsDeepRacer('AwsDeepRacer', 'Aws Deep Racer', 'an optional tech label')
+AwsDeepRacer('AwsDeepRacer', 'Aws Deep Racer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

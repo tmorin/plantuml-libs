@@ -8,8 +8,8 @@ sprite $AwsCloud9Cloud9Md [16x16/16z] dOY54O103C3ohllForMmSyXBc_27DDfJLu1MBXtwrz
 
 sprite $AwsCloud9Cloud9Lg [20x20/16z] jKx50GCn35F8lF-wfV2_PsOBZv14HBbBdW2mdgNehl4k9Pqz9HzXphyf_SMjZ_Lh1R-Pu6yfvir-hWQWuu2nzKWJvjNTpHZTafhqY3BoQASJBPiSf8Q_qni
 
-!procedure AwsCloud9Cloud9($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/DeveloperTools/AwsCloud9Cloud9', $name, $tech)
+!procedure AwsCloud9Cloud9($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/DeveloperTools/AwsCloud9Cloud9', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsCloud9Cloud9Card($id, $funcName="", $content="")

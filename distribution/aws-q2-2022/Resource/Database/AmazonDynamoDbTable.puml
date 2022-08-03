@@ -8,8 +8,8 @@ sprite $AmazonDynamoDbTableMd [16x16/16z] XSi53i1G20FGKduoVk7-vrsCkRnu1LULoTm82Q
 
 sprite $AmazonDynamoDbTableLg [20x20/16z] fT150W9134JHuWSBgVkVbrwD-xnTIrHBoZOUGfOIgnShTvc5Sm3HY279TsfK6LVFA1h5a6JuONhlmpKM-_isV8SUn_D598xUQt4lVm
 
-!procedure AmazonDynamoDbTable($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Database/AmazonDynamoDbTable', $name, $tech)
+!procedure AmazonDynamoDbTable($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Database/AmazonDynamoDbTable', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonDynamoDbTableCard($id, $funcName="", $content="")

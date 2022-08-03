@@ -14,8 +14,8 @@ VP150WGn40BfkF7_xouxxdLee78Bll3TheeLlPzCQH0sqcOYxTBq6jhKyYYeKws6vlxlrjWIlCqE73eX
 -1OQQjpTe2SWsVpY0dAlX6JNBH0ovlBKF3m3PdhVVsV3UjAj3ISYCt4ZRkq7
 }
 
-!procedure Toolkit($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GeneralIcons/Toolkit', $name, $tech)
+!procedure Toolkit($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GeneralIcons/Toolkit', $name, $tech, $desc)
 !endprocedure
 
 !procedure ToolkitCard($id, $funcName="", $content="")

@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/GroupIcons/VpcSubnetPrivate')
 
 ' renders the element
-VpcSubnetPrivate('VpcSubnetPrivate', 'Vpc Subnet Private', 'an optional tech label')
+VpcSubnetPrivate('VpcSubnetPrivate', 'Vpc Subnet Private', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/GroupIcons/VpcSubnetPrivate')
 
 ' renders the element
-VpcSubnetPrivate('VpcSubnetPrivate', 'Vpc Subnet Private', 'an optional tech label')
+VpcSubnetPrivate('VpcSubnetPrivate', 'Vpc Subnet Private', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -14,8 +14,8 @@ TT05WWGX34JH5xeXrFqFlBxZymkNc7USQigFBioditt70HhKSDdDsLWvnio1FGjDQfKwrw9HrHPgOPSk
 aPh4vPsrcIfStb6TdGaDjWkNiwDtVxNygD_NZwAC7y4d
 }
 
-!procedure AwsIoTThingThermostat($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTThingThermostat', $name, $tech)
+!procedure AwsIoTThingThermostat($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTThingThermostat', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTThingThermostatCard($id, $funcName="", $content="")

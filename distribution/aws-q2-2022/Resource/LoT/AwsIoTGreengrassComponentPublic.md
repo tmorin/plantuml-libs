@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/LoT/AwsIoTGreengrassComponentPublic')
 
 ' renders the element
-AwsIoTGreengrassComponentPublic('AwsIoTGreengrassComponentPublic', 'Aws Io T Greengrass Component Public', 'an optional tech label')
+AwsIoTGreengrassComponentPublic('AwsIoTGreengrassComponentPublic', 'Aws Io T Greengrass Component Public', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/LoT/AwsIoTGreengrassComponentPublic')
 
 ' renders the element
-AwsIoTGreengrassComponentPublic('AwsIoTGreengrassComponentPublic', 'Aws Io T Greengrass Component Public', 'an optional tech label')
+AwsIoTGreengrassComponentPublic('AwsIoTGreengrassComponentPublic', 'Aws Io T Greengrass Component Public', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

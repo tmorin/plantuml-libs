@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/LoT/AwsIoTGreengrassProtocol')
 
 ' renders the element
-AwsIoTGreengrassProtocol('AwsIoTGreengrassProtocol', 'Aws Io T Greengrass Protocol', 'an optional tech label')
+AwsIoTGreengrassProtocol('AwsIoTGreengrassProtocol', 'Aws Io T Greengrass Protocol', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/LoT/AwsIoTGreengrassProtocol')
 
 ' renders the element
-AwsIoTGreengrassProtocol('AwsIoTGreengrassProtocol', 'Aws Io T Greengrass Protocol', 'an optional tech label')
+AwsIoTGreengrassProtocol('AwsIoTGreengrassProtocol', 'Aws Io T Greengrass Protocol', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

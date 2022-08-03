@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Analytics/AmazonCloudSearchSearchDocuments')
 
 ' renders the element
-AmazonCloudSearchSearchDocuments('AmazonCloudSearchSearchDocuments', 'Amazon Cloud Search Search Documents', 'an optional tech label')
+AmazonCloudSearchSearchDocuments('AmazonCloudSearchSearchDocuments', 'Amazon Cloud Search Search Documents', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Analytics/AmazonCloudSearchSearchDocuments')
 
 ' renders the element
-AmazonCloudSearchSearchDocuments('AmazonCloudSearchSearchDocuments', 'Amazon Cloud Search Search Documents', 'an optional tech label')
+AmazonCloudSearchSearchDocuments('AmazonCloudSearchSearchDocuments', 'Amazon Cloud Search Search Documents', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

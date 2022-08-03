@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Analytics/AmazonRedshiftDenseStorageNode')
 
 ' renders the element
-AmazonRedshiftDenseStorageNode('AmazonRedshiftDenseStorageNode', 'Amazon Redshift Dense Storage Node', 'an optional tech label')
+AmazonRedshiftDenseStorageNode('AmazonRedshiftDenseStorageNode', 'Amazon Redshift Dense Storage Node', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Analytics/AmazonRedshiftDenseStorageNode')
 
 ' renders the element
-AmazonRedshiftDenseStorageNode('AmazonRedshiftDenseStorageNode', 'Amazon Redshift Dense Storage Node', 'an optional tech label')
+AmazonRedshiftDenseStorageNode('AmazonRedshiftDenseStorageNode', 'Amazon Redshift Dense Storage Node', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

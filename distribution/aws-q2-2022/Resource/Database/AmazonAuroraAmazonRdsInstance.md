@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Database/AmazonAuroraAmazonRdsInstance')
 
 ' renders the element
-AmazonAuroraAmazonRdsInstance('AmazonAuroraAmazonRdsInstance', 'Amazon Aurora Amazon Rds Instance', 'an optional tech label')
+AmazonAuroraAmazonRdsInstance('AmazonAuroraAmazonRdsInstance', 'Amazon Aurora Amazon Rds Instance', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Database/AmazonAuroraAmazonRdsInstance')
 
 ' renders the element
-AmazonAuroraAmazonRdsInstance('AmazonAuroraAmazonRdsInstance', 'Amazon Aurora Amazon Rds Instance', 'an optional tech label')
+AmazonAuroraAmazonRdsInstance('AmazonAuroraAmazonRdsInstance', 'Amazon Aurora Amazon Rds Instance', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

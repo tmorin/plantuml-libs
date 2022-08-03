@@ -11,8 +11,8 @@ RSu53WGn34DHEodd_lVTCcZdYwmtqE8xjHbEQ_FWML7d4Bl2J4yoIHIxSXbxhvLGizUIgAAQ1u_DEz6I
 hArPg8RSxSJiMez1HlW1
 }
 
-!procedure AwsSystemsManagerParameterStore($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ManagementGovernance/AwsSystemsManagerParameterStore', $name, $tech)
+!procedure AwsSystemsManagerParameterStore($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ManagementGovernance/AwsSystemsManagerParameterStore', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsSystemsManagerParameterStoreCard($id, $funcName="", $content="")

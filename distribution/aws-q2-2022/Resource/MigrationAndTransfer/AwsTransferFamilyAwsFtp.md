@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/MigrationAndTransfer/AwsTransferFamilyAwsFtp')
 
 ' renders the element
-AwsTransferFamilyAwsFtp('AwsTransferFamilyAwsFtp', 'Aws Transfer Family Aws Ftp', 'an optional tech label')
+AwsTransferFamilyAwsFtp('AwsTransferFamilyAwsFtp', 'Aws Transfer Family Aws Ftp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/MigrationAndTransfer/AwsTransferFamilyAwsFtp')
 
 ' renders the element
-AwsTransferFamilyAwsFtp('AwsTransferFamilyAwsFtp', 'Aws Transfer Family Aws Ftp', 'an optional tech label')
+AwsTransferFamilyAwsFtp('AwsTransferFamilyAwsFtp', 'Aws Transfer Family Aws Ftp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

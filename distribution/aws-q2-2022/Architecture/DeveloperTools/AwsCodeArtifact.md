@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/DeveloperTools/AwsCodeArtifact')
 
 ' renders the element
-AwsCodeArtifact('AwsCodeArtifact', 'Aws Code Artifact', 'an optional tech label')
+AwsCodeArtifact('AwsCodeArtifact', 'Aws Code Artifact', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/DeveloperTools/AwsCodeArtifact')
 
 ' renders the element
-AwsCodeArtifact('AwsCodeArtifact', 'Aws Code Artifact', 'an optional tech label')
+AwsCodeArtifact('AwsCodeArtifact', 'Aws Code Artifact', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/LoT/AwsIoTLoRaWanProtocol')
 
 ' renders the element
-AwsIoTLoRaWanProtocol('AwsIoTLoRaWanProtocol', 'Aws Io T Lo Ra Wan Protocol', 'an optional tech label')
+AwsIoTLoRaWanProtocol('AwsIoTLoRaWanProtocol', 'Aws Io T Lo Ra Wan Protocol', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/LoT/AwsIoTLoRaWanProtocol')
 
 ' renders the element
-AwsIoTLoRaWanProtocol('AwsIoTLoRaWanProtocol', 'Aws Io T Lo Ra Wan Protocol', 'an optional tech label')
+AwsIoTLoRaWanProtocol('AwsIoTLoRaWanProtocol', 'Aws Io T Lo Ra Wan Protocol', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

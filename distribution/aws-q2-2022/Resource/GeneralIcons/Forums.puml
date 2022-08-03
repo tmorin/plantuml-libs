@@ -8,8 +8,8 @@ sprite $ForumsMd [16x16/16z] NSlL0SLG34Enyw3eUFznov1S_OkMbHbnY4DdGbdGYazcD5tO6KS
 
 sprite $ForumsLg [20x20/16z] RS-53G0n30D0bp7xZ_kCba_OXg7qoI8cBl62ylxv2mg6iGnb6jlxjTjLjF-nWboP1nm3Pc1lFsyN59Kd--N2lDXFtY7l5LO
 
-!procedure Forums($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GeneralIcons/Forums', $name, $tech)
+!procedure Forums($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GeneralIcons/Forums', $name, $tech, $desc)
 !endprocedure
 
 !procedure ForumsCard($id, $funcName="", $content="")

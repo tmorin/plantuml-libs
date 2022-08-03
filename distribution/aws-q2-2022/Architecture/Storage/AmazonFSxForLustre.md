@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/Storage/AmazonFSxForLustre')
 
 ' renders the element
-AmazonFSxForLustre('AmazonFSxForLustre', 'Amazon F Sx For Lustre', 'an optional tech label')
+AmazonFSxForLustre('AmazonFSxForLustre', 'Amazon F Sx For Lustre', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/Storage/AmazonFSxForLustre')
 
 ' renders the element
-AmazonFSxForLustre('AmazonFSxForLustre', 'Amazon F Sx For Lustre', 'an optional tech label')
+AmazonFSxForLustre('AmazonFSxForLustre', 'Amazon F Sx For Lustre', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

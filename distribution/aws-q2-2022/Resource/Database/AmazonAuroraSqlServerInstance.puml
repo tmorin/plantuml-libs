@@ -11,8 +11,8 @@ RT35eG0n203HmQBqt-wNTPlZWvM4pzhCQqEW6VSI9e80ifihiv02D6Pj4cty6tquYdgfZ1frCGWkBVRe
 UhVbrgeoddkcIFgMHOxQSvderdAB0lm2
 }
 
-!procedure AmazonAuroraSqlServerInstance($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Database/AmazonAuroraSqlServerInstance', $name, $tech)
+!procedure AmazonAuroraSqlServerInstance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Database/AmazonAuroraSqlServerInstance', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonAuroraSqlServerInstanceCard($id, $funcName="", $content="")

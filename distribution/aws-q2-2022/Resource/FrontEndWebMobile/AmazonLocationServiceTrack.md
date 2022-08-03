@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/FrontEndWebMobile/AmazonLocationServiceTrack')
 
 ' renders the element
-AmazonLocationServiceTrack('AmazonLocationServiceTrack', 'Amazon Location Service Track', 'an optional tech label')
+AmazonLocationServiceTrack('AmazonLocationServiceTrack', 'Amazon Location Service Track', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/FrontEndWebMobile/AmazonLocationServiceTrack')
 
 ' renders the element
-AmazonLocationServiceTrack('AmazonLocationServiceTrack', 'Amazon Location Service Track', 'an optional tech label')
+AmazonLocationServiceTrack('AmazonLocationServiceTrack', 'Amazon Location Service Track', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

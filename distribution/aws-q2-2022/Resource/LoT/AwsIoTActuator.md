@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/LoT/AwsIoTActuator')
 
 ' renders the element
-AwsIoTActuator('AwsIoTActuator', 'Aws Io T Actuator', 'an optional tech label')
+AwsIoTActuator('AwsIoTActuator', 'Aws Io T Actuator', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/LoT/AwsIoTActuator')
 
 ' renders the element
-AwsIoTActuator('AwsIoTActuator', 'Aws Io T Actuator', 'an optional tech label')
+AwsIoTActuator('AwsIoTActuator', 'Aws Io T Actuator', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

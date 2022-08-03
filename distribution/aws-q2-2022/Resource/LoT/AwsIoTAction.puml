@@ -11,8 +11,8 @@ TKw50GGn22FGDh3_m2_KNt8UFVaFfOTN74mDooTZKMvVhuxtRP213APKsdIcCZe72OhOB6lvaXxA1CVu
 lDl7T0AE6UHM6JGj4IeNe9YlJm
 }
 
-!procedure AwsIoTAction($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTAction', $name, $tech)
+!procedure AwsIoTAction($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTAction', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTActionCard($id, $funcName="", $content="")

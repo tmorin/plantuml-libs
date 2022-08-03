@@ -11,8 +11,8 @@ TSh7WI0m20F0mHYZ_Xk-kE6ryo58VdRUPgTyksdm0c1xtdi3sy2M860Ft2OmO27OX0Mrd0Orpe3mm5J8
 47tL8enxOF-2sLqBEhu5q5k0km1ivbGd1z_g3u3V
 }
 
-!procedure AwsLambdaLambdaFunction($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Compute/AwsLambdaLambdaFunction', $name, $tech)
+!procedure AwsLambdaLambdaFunction($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Compute/AwsLambdaLambdaFunction', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsLambdaLambdaFunctionCard($id, $funcName="", $content="")

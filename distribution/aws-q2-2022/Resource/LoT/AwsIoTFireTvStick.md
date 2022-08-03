@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/LoT/AwsIoTFireTvStick')
 
 ' renders the element
-AwsIoTFireTvStick('AwsIoTFireTvStick', 'Aws Io T Fire Tv Stick', 'an optional tech label')
+AwsIoTFireTvStick('AwsIoTFireTvStick', 'Aws Io T Fire Tv Stick', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/LoT/AwsIoTFireTvStick')
 
 ' renders the element
-AwsIoTFireTvStick('AwsIoTFireTvStick', 'Aws Io T Fire Tv Stick', 'an optional tech label')
+AwsIoTFireTvStick('AwsIoTFireTvStick', 'Aws Io T Fire Tv Stick', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

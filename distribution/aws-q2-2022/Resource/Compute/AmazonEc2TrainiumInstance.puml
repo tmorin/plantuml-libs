@@ -11,8 +11,8 @@ bL250GCn2EJm_ISkKlTFS0Vwz9oCA8iLVBPPPFqBmTZYleoqpJqVRE5u6sVs6EVsFgviqE4O6nV9p4g0
 cqpO2G
 }
 
-!procedure AmazonEc2TrainiumInstance($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Compute/AmazonEc2TrainiumInstance', $name, $tech)
+!procedure AmazonEc2TrainiumInstance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Compute/AmazonEc2TrainiumInstance', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonEc2TrainiumInstanceCard($id, $funcName="", $content="")

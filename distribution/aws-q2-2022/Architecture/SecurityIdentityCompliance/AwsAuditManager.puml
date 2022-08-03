@@ -14,8 +14,8 @@ RSu75e0m20JHTDZb_lSLUTWT-rUJ8DCZ4S4FyWT9h9uTI780qImlwuePc4OK9q_aCa9YZhjrJyeg8ZYC
 Lcl1y9FwaMPa9zb0h9csZeQwX1c9Z3mi_2ZiYni
 }
 
-!procedure AwsAuditManager($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/SecurityIdentityCompliance/AwsAuditManager', $name, $tech)
+!procedure AwsAuditManager($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/SecurityIdentityCompliance/AwsAuditManager', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsAuditManagerCard($id, $funcName="", $content="")

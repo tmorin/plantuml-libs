@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Compute/AmazonEc2AwsInferentia')
 
 ' renders the element
-AmazonEc2AwsInferentia('AmazonEc2AwsInferentia', 'Amazon Ec2 Aws Inferentia', 'an optional tech label')
+AmazonEc2AwsInferentia('AmazonEc2AwsInferentia', 'Amazon Ec2 Aws Inferentia', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Compute/AmazonEc2AwsInferentia')
 
 ' renders the element
-AmazonEc2AwsInferentia('AmazonEc2AwsInferentia', 'Amazon Ec2 Aws Inferentia', 'an optional tech label')
+AmazonEc2AwsInferentia('AmazonEc2AwsInferentia', 'Amazon Ec2 Aws Inferentia', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

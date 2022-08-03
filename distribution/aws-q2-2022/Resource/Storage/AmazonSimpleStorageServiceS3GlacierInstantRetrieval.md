@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Storage/AmazonSimpleStorageServiceS3GlacierInstantRetrieval')
 
 ' renders the element
-AmazonSimpleStorageServiceS3GlacierInstantRetrieval('AmazonSimpleStorageServiceS3GlacierInstantRetrieval', 'Amazon Simple Storage Service S3 Glacier Instant Retrieval', 'an optional tech label')
+AmazonSimpleStorageServiceS3GlacierInstantRetrieval('AmazonSimpleStorageServiceS3GlacierInstantRetrieval', 'Amazon Simple Storage Service S3 Glacier Instant Retrieval', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Storage/AmazonSimpleStorageServiceS3GlacierInstantRetrieval')
 
 ' renders the element
-AmazonSimpleStorageServiceS3GlacierInstantRetrieval('AmazonSimpleStorageServiceS3GlacierInstantRetrieval', 'Amazon Simple Storage Service S3 Glacier Instant Retrieval', 'an optional tech label')
+AmazonSimpleStorageServiceS3GlacierInstantRetrieval('AmazonSimpleStorageServiceS3GlacierInstantRetrieval', 'Amazon Simple Storage Service S3 Glacier Instant Retrieval', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

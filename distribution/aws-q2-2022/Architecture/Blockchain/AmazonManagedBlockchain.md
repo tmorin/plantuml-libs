@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/Blockchain/AmazonManagedBlockchain')
 
 ' renders the element
-AmazonManagedBlockchain('AmazonManagedBlockchain', 'Amazon Managed Blockchain', 'an optional tech label')
+AmazonManagedBlockchain('AmazonManagedBlockchain', 'Amazon Managed Blockchain', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/Blockchain/AmazonManagedBlockchain')
 
 ' renders the element
-AmazonManagedBlockchain('AmazonManagedBlockchain', 'Amazon Managed Blockchain', 'an optional tech label')
+AmazonManagedBlockchain('AmazonManagedBlockchain', 'Amazon Managed Blockchain', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Storage/AwsBackupRecoveryPointObjective')
 
 ' renders the element
-AwsBackupRecoveryPointObjective('AwsBackupRecoveryPointObjective', 'Aws Backup Recovery Point Objective', 'an optional tech label')
+AwsBackupRecoveryPointObjective('AwsBackupRecoveryPointObjective', 'Aws Backup Recovery Point Objective', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Storage/AwsBackupRecoveryPointObjective')
 
 ' renders the element
-AwsBackupRecoveryPointObjective('AwsBackupRecoveryPointObjective', 'Aws Backup Recovery Point Objective', 'an optional tech label')
+AwsBackupRecoveryPointObjective('AwsBackupRecoveryPointObjective', 'Aws Backup Recovery Point Objective', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

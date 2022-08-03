@@ -11,8 +11,8 @@ RStN0KGX20NHuPgL_jlTVJdFvm65p-hmQzqc2jnp63BsX22AqLABgTNSieM4sMBaL5FBSJ8Pcesbc5Wo
 l2rt6purMN_k1M4UjqBoNfel4sqPO0Ry0G
 }
 
-!procedure AmazonAuroraPostgreSqlInstance($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Database/AmazonAuroraPostgreSqlInstance', $name, $tech)
+!procedure AmazonAuroraPostgreSqlInstance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Database/AmazonAuroraPostgreSqlInstance', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonAuroraPostgreSqlInstanceCard($id, $funcName="", $content="")

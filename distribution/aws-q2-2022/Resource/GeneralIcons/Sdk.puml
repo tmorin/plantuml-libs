@@ -11,8 +11,8 @@ XP056WKW28F1LjZzZsl0wvmnlz-Pz4jHmoj2ew5FfFVJizGRgRXjW6ZEcis3pylfXuxT9nJmTjLu6BCM
 dUtCCJJp6gqNFWR_dKGkaGlJJZVjbspMX9wK0OJtZxwD5W
 }
 
-!procedure Sdk($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GeneralIcons/Sdk', $name, $tech)
+!procedure Sdk($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GeneralIcons/Sdk', $name, $tech, $desc)
 !endprocedure
 
 !procedure SdkCard($id, $funcName="", $content="")

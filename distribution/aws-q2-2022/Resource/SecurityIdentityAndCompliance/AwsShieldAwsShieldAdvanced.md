@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/SecurityIdentityAndCompliance/AwsShieldAwsShieldAdvanced')
 
 ' renders the element
-AwsShieldAwsShieldAdvanced('AwsShieldAwsShieldAdvanced', 'Aws Shield Aws Shield Advanced', 'an optional tech label')
+AwsShieldAwsShieldAdvanced('AwsShieldAwsShieldAdvanced', 'Aws Shield Aws Shield Advanced', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/SecurityIdentityAndCompliance/AwsShieldAwsShieldAdvanced')
 
 ' renders the element
-AwsShieldAwsShieldAdvanced('AwsShieldAwsShieldAdvanced', 'Aws Shield Aws Shield Advanced', 'an optional tech label')
+AwsShieldAwsShieldAdvanced('AwsShieldAwsShieldAdvanced', 'Aws Shield Aws Shield Advanced', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

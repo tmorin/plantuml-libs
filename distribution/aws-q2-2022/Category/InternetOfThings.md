@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Category/InternetOfThings')
 
 ' renders the element
-InternetOfThings('InternetOfThings', 'Internet Of Things', 'an optional tech label')
+InternetOfThings('InternetOfThings', 'Internet Of Things', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Category/InternetOfThings')
 
 ' renders the element
-InternetOfThings('InternetOfThings', 'Internet Of Things', 'an optional tech label')
+InternetOfThings('InternetOfThings', 'Internet Of Things', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

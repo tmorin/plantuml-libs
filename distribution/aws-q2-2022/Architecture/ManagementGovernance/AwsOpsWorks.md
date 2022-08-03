@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/ManagementGovernance/AwsOpsWorks')
 
 ' renders the element
-AwsOpsWorks('AwsOpsWorks', 'Aws Ops Works', 'an optional tech label')
+AwsOpsWorks('AwsOpsWorks', 'Aws Ops Works', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/ManagementGovernance/AwsOpsWorks')
 
 ' renders the element
-AwsOpsWorks('AwsOpsWorks', 'Aws Ops Works', 'an optional tech label')
+AwsOpsWorks('AwsOpsWorks', 'Aws Ops Works', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

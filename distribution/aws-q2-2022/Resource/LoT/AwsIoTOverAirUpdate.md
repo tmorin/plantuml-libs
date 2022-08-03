@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/LoT/AwsIoTOverAirUpdate')
 
 ' renders the element
-AwsIoTOverAirUpdate('AwsIoTOverAirUpdate', 'Aws Io T Over Air Update', 'an optional tech label')
+AwsIoTOverAirUpdate('AwsIoTOverAirUpdate', 'Aws Io T Over Air Update', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/LoT/AwsIoTOverAirUpdate')
 
 ' renders the element
-AwsIoTOverAirUpdate('AwsIoTOverAirUpdate', 'Aws Io T Over Air Update', 'an optional tech label')
+AwsIoTOverAirUpdate('AwsIoTOverAirUpdate', 'Aws Io T Over Air Update', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

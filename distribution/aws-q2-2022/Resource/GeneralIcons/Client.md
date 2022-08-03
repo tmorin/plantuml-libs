@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/GeneralIcons/Client')
 
 ' renders the element
-Client('Client', 'Client', 'an optional tech label')
+Client('Client', 'Client', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/GeneralIcons/Client')
 
 ' renders the element
-Client('Client', 'Client', 'an optional tech label')
+Client('Client', 'Client', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

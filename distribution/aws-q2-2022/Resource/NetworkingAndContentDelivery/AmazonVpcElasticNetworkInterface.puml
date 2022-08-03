@@ -14,8 +14,8 @@ TS-5bGKW34JHDq6JwR_VFUntkxWJVckxN4iy37UED3VLkSbndHAyhO_Eim8mOHwKq3g4N5V6i3bpnJu6
 F7Cj8qevX_3rVqBIgM1sWFoCWsuURlrUklPcSPVUBRhTUQQ8uEeF
 }
 
-!procedure AmazonVpcElasticNetworkInterface($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonVpcElasticNetworkInterface', $name, $tech)
+!procedure AmazonVpcElasticNetworkInterface($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonVpcElasticNetworkInterface', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonVpcElasticNetworkInterfaceCard($id, $funcName="", $content="")

@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Compute/AmazonEc2HabanaGaudiInstance')
 
 ' renders the element
-AmazonEc2HabanaGaudiInstance('AmazonEc2HabanaGaudiInstance', 'Amazon Ec2 Habana Gaudi Instance', 'an optional tech label')
+AmazonEc2HabanaGaudiInstance('AmazonEc2HabanaGaudiInstance', 'Amazon Ec2 Habana Gaudi Instance', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Compute/AmazonEc2HabanaGaudiInstance')
 
 ' renders the element
-AmazonEc2HabanaGaudiInstance('AmazonEc2HabanaGaudiInstance', 'Amazon Ec2 Habana Gaudi Instance', 'an optional tech label')
+AmazonEc2HabanaGaudiInstance('AmazonEc2HabanaGaudiInstance', 'Amazon Ec2 Habana Gaudi Instance', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

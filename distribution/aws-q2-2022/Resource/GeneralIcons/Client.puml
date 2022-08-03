@@ -8,8 +8,8 @@ sprite $ClientMd [16x16/16z] jSkr5G0n40FHCNF_vHw3ddF_Q45YDfeAj2vCENP-RiLUViVUKHc
 
 sprite $ClientLg [20x20/16z] nSwr5K0n243H5_Vzn_sk7FhS3WTDx4A3ZlinmT9Tj5_Zo5c-9kRq_mW_Rikb8NJ02WQQ5OgXyngRyyOhRzAMgqCoA5O
 
-!procedure Client($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GeneralIcons/Client', $name, $tech)
+!procedure Client($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GeneralIcons/Client', $name, $tech, $desc)
 !endprocedure
 
 !procedure ClientCard($id, $funcName="", $content="")

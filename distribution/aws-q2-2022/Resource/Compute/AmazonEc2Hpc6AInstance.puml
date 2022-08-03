@@ -11,8 +11,8 @@ bP250GGn20HdyVuRVdSvIN07_hqYOIYe1LlsdFwT283cvRc0gdcpTUbdNEPxNENlE6Xm1AJ03PWPgaKw
 AWI6G017
 }
 
-!procedure AmazonEc2Hpc6AInstance($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Compute/AmazonEc2Hpc6AInstance', $name, $tech)
+!procedure AmazonEc2Hpc6AInstance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Compute/AmazonEc2Hpc6AInstance', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonEc2Hpc6AInstanceCard($id, $funcName="", $content="")

@@ -8,8 +8,8 @@ sprite $AwsElasticBeanstalkApplicationMd [16x16/16z] hKl50G0n2CDX_uLFw_9hAX233Ip
 
 sprite $AwsElasticBeanstalkApplicationLg [20x20/16z] lO_50S0m24Lns7_XkDIFZUUX7pu7gaVuaMX8EIqEoBcUT6I1_OBDI0U2dSyd0jrinjjE9yFha8vnLF636mulFZ0j3cWN3MNKd4U6zVoVNL46
 
-!procedure AwsElasticBeanstalkApplication($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Compute/AwsElasticBeanstalkApplication', $name, $tech)
+!procedure AwsElasticBeanstalkApplication($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Compute/AwsElasticBeanstalkApplication', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsElasticBeanstalkApplicationCard($id, $funcName="", $content="")

@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Storage/AmazonSimpleStorageServiceBucket')
 
 ' renders the element
-AmazonSimpleStorageServiceBucket('AmazonSimpleStorageServiceBucket', 'Amazon Simple Storage Service Bucket', 'an optional tech label')
+AmazonSimpleStorageServiceBucket('AmazonSimpleStorageServiceBucket', 'Amazon Simple Storage Service Bucket', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Storage/AmazonSimpleStorageServiceBucket')
 
 ' renders the element
-AmazonSimpleStorageServiceBucket('AmazonSimpleStorageServiceBucket', 'Amazon Simple Storage Service Bucket', 'an optional tech label')
+AmazonSimpleStorageServiceBucket('AmazonSimpleStorageServiceBucket', 'Amazon Simple Storage Service Bucket', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -14,8 +14,8 @@ RSpLOGKm34DHcQHq_uNhqEFxUGoQyLbr-aHUqozJXKSTFOIS6tYnSebPP6HUCn6fGZcYjWLREwQRanoI
 AoR2coAcBXkUbDAYUOxQPkdINfoDKm1mwTZjmBGV-FS3_m4
 }
 
-!procedure RedHatOpenShift($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Containers/RedHatOpenShift', $name, $tech)
+!procedure RedHatOpenShift($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Containers/RedHatOpenShift', $name, $tech, $desc)
 !endprocedure
 
 !procedure RedHatOpenShiftCard($id, $funcName="", $content="")

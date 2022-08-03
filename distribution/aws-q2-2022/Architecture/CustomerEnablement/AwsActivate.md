@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/CustomerEnablement/AwsActivate')
 
 ' renders the element
-AwsActivate('AwsActivate', 'Aws Activate', 'an optional tech label')
+AwsActivate('AwsActivate', 'Aws Activate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/CustomerEnablement/AwsActivate')
 
 ' renders the element
-AwsActivate('AwsActivate', 'Aws Activate', 'an optional tech label')
+AwsActivate('AwsActivate', 'Aws Activate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

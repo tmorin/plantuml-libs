@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/MachineLearning/TorchServe')
 
 ' renders the element
-TorchServe('TorchServe', 'Torch Serve', 'an optional tech label')
+TorchServe('TorchServe', 'Torch Serve', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/MachineLearning/TorchServe')
 
 ' renders the element
-TorchServe('TorchServe', 'Torch Serve', 'an optional tech label')
+TorchServe('TorchServe', 'Torch Serve', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

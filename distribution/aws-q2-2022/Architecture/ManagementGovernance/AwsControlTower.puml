@@ -11,8 +11,8 @@ RSY7aKGn2C1G746u_thtHxYmrcZIuyuYlMA3R90DUfea-WzgeByepDd20fkeXjqeO0LcIqDfrakrCTC4
 QxtAuClStDD2htRcOQ691m
 }
 
-!procedure AwsControlTower($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/ManagementGovernance/AwsControlTower', $name, $tech)
+!procedure AwsControlTower($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/ManagementGovernance/AwsControlTower', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsControlTowerCard($id, $funcName="", $content="")

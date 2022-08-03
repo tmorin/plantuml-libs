@@ -14,8 +14,8 @@ NSe73aHH249HVKN1sVz-n-ZlDwITm0ndtf5F_TgDVE72RIPMfi1fqs3KCiyYoOpREB3JjiCZKRXN6gKD
 8VF1rBOOEL6nEWE_NngKgQJLdMKHKvOESHvsQ31QRck-hVN6Fm
 }
 
-!procedure AwsApplicationCostProfiler($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/CloudFinancialManagement/AwsApplicationCostProfiler', $name, $tech)
+!procedure AwsApplicationCostProfiler($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/CloudFinancialManagement/AwsApplicationCostProfiler', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsApplicationCostProfilerCard($id, $funcName="", $content="")

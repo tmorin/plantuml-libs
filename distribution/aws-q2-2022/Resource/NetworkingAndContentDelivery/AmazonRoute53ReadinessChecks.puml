@@ -11,8 +11,8 @@ TSg5ZKGn44J1Cljxye_tQ8wMIjHwQYziA0VA1AuUpOWMnOeeC2TprQzLE2ZXLb3FOxFBJRh0yciMnssR
 HBr9Qy69XZHZI6r_pHshu5UF7HvKf7S
 }
 
-!procedure AmazonRoute53ReadinessChecks($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonRoute53ReadinessChecks', $name, $tech)
+!procedure AmazonRoute53ReadinessChecks($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonRoute53ReadinessChecks', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonRoute53ReadinessChecksCard($id, $funcName="", $content="")

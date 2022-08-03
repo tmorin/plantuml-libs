@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/LoT/AwsIoTAnalyticsDataStore')
 
 ' renders the element
-AwsIoTAnalyticsDataStore('AwsIoTAnalyticsDataStore', 'Aws Io T Analytics Data Store', 'an optional tech label')
+AwsIoTAnalyticsDataStore('AwsIoTAnalyticsDataStore', 'Aws Io T Analytics Data Store', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/LoT/AwsIoTAnalyticsDataStore')
 
 ' renders the element
-AwsIoTAnalyticsDataStore('AwsIoTAnalyticsDataStore', 'Aws Io T Analytics Data Store', 'an optional tech label')
+AwsIoTAnalyticsDataStore('AwsIoTAnalyticsDataStore', 'Aws Io T Analytics Data Store', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

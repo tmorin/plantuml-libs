@@ -11,8 +11,8 @@ ROs50O1030FJl9Pc_tbn_yDZO4WFFPbiaHBU20WSsF7CN3MPpFfIQQYdLbqzB4ZUMe7CKxDmU3wqXMHO
 kksjXHOMRVhc4c7A1wbeQgxDuO41iFKs0m
 }
 
-!procedure AmazonAuroraMySqlInstance($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Database/AmazonAuroraMySqlInstance', $name, $tech)
+!procedure AmazonAuroraMySqlInstance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Database/AmazonAuroraMySqlInstance', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonAuroraMySqlInstanceCard($id, $funcName="", $content="")

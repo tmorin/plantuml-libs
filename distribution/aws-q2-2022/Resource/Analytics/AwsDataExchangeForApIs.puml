@@ -8,8 +8,8 @@ sprite $AwsDataExchangeForApIsMd [16x16/16z] VOl50S0m54BXrvlzvusxlHEAWR-rwgju0Rx
 
 sprite $AwsDataExchangeForApIsLg [20x20/16z] XSt50GGX44JHZqlb7-_gEFOkq4wNCMrADBBo7O0iFI7lE1pVQDQv69jSp6sVQ7D6RGxC-cxQ5CF1xC3IyW9olLFRcICzRm
 
-!procedure AwsDataExchangeForApIs($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Analytics/AwsDataExchangeForApIs', $name, $tech)
+!procedure AwsDataExchangeForApIs($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Analytics/AwsDataExchangeForApIs', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsDataExchangeForApIsCard($id, $funcName="", $content="")

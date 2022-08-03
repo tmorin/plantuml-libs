@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/ManagementGovernance/AmazonManagedServiceForPrometheus')
 
 ' renders the element
-AmazonManagedServiceForPrometheus('AmazonManagedServiceForPrometheus', 'Amazon Managed Service For Prometheus', 'an optional tech label')
+AmazonManagedServiceForPrometheus('AmazonManagedServiceForPrometheus', 'Amazon Managed Service For Prometheus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/ManagementGovernance/AmazonManagedServiceForPrometheus')
 
 ' renders the element
-AmazonManagedServiceForPrometheus('AmazonManagedServiceForPrometheus', 'Amazon Managed Service For Prometheus', 'an optional tech label')
+AmazonManagedServiceForPrometheus('AmazonManagedServiceForPrometheus', 'Amazon Managed Service For Prometheus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

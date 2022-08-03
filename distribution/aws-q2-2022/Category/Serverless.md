@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Category/Serverless')
 
 ' renders the element
-Serverless('Serverless', 'Serverless', 'an optional tech label')
+Serverless('Serverless', 'Serverless', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Category/Serverless')
 
 ' renders the element
-Serverless('Serverless', 'Serverless', 'an optional tech label')
+Serverless('Serverless', 'Serverless', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

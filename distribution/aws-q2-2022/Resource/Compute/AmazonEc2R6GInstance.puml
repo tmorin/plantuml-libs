@@ -11,8 +11,8 @@ bP25eKKn24DFw2LX_uM_F7TfSGUUFTCm6Fp2rfbCZaG0X8kt1DXpPOlrCAvxG83sDlS-hjZ8EMvlaqdN
 55arobBqwgP2K0W4y0i
 }
 
-!procedure AmazonEc2R6GInstance($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Compute/AmazonEc2R6GInstance', $name, $tech)
+!procedure AmazonEc2R6GInstance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Compute/AmazonEc2R6GInstance', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonEc2R6GInstanceCard($id, $funcName="", $content="")

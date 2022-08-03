@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/NetworkingAndContentDelivery/AwsCloudWanVirtualPoP')
 
 ' renders the element
-AwsCloudWanVirtualPoP('AwsCloudWanVirtualPoP', 'Aws Cloud Wan Virtual Po P', 'an optional tech label')
+AwsCloudWanVirtualPoP('AwsCloudWanVirtualPoP', 'Aws Cloud Wan Virtual Po P', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/NetworkingAndContentDelivery/AwsCloudWanVirtualPoP')
 
 ' renders the element
-AwsCloudWanVirtualPoP('AwsCloudWanVirtualPoP', 'Aws Cloud Wan Virtual Po P', 'an optional tech label')
+AwsCloudWanVirtualPoP('AwsCloudWanVirtualPoP', 'Aws Cloud Wan Virtual Po P', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

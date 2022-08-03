@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/BusinessApplications/AmazonChimeSdk')
 
 ' renders the element
-AmazonChimeSdk('AmazonChimeSdk', 'Amazon Chime Sdk', 'an optional tech label')
+AmazonChimeSdk('AmazonChimeSdk', 'Amazon Chime Sdk', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/BusinessApplications/AmazonChimeSdk')
 
 ' renders the element
-AmazonChimeSdk('AmazonChimeSdk', 'Amazon Chime Sdk', 'an optional tech label')
+AmazonChimeSdk('AmazonChimeSdk', 'Amazon Chime Sdk', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

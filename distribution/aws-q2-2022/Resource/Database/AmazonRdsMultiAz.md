@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Database/AmazonRdsMultiAz')
 
 ' renders the element
-AmazonRdsMultiAz('AmazonRdsMultiAz', 'Amazon Rds Multi Az', 'an optional tech label')
+AmazonRdsMultiAz('AmazonRdsMultiAz', 'Amazon Rds Multi Az', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Database/AmazonRdsMultiAz')
 
 ' renders the element
-AmazonRdsMultiAz('AmazonRdsMultiAz', 'Amazon Rds Multi Az', 'an optional tech label')
+AmazonRdsMultiAz('AmazonRdsMultiAz', 'Amazon Rds Multi Az', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

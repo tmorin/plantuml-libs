@@ -11,8 +11,8 @@ bSZLOGL12030OS_MwB_SvBdztU0ueQr-HSPI_TYBbZu5ZHm-vDJ9VV_ynQoat3v-rY3bo8yVeic-UOW9
 MgM6R1VNrXUi6UKW5WnlUuXUQvrE-0S
 }
 
-!procedure Firewall($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GeneralIcons/Firewall', $name, $tech)
+!procedure Firewall($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GeneralIcons/Firewall', $name, $tech, $desc)
 !endprocedure
 
 !procedure FirewallCard($id, $funcName="", $content="")

@@ -8,8 +8,8 @@ sprite $AwsIoTGreengrassConnectorMd [16x16/16z] jOW70GCn3CIKUFCdN6SnwCjJnnUCyTOY
 
 sprite $AwsIoTGreengrassConnectorLg [20x20/16z] pOs50S0W40E39_iFZCjlq1wy6tv642d0aInOE7OrSd7P0OSIoyo5C089hs_4lkjY-vB3HAyl29jCSjsD-906
 
-!procedure AwsIoTGreengrassConnector($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTGreengrassConnector', $name, $tech)
+!procedure AwsIoTGreengrassConnector($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTGreengrassConnector', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTGreengrassConnectorCard($id, $funcName="", $content="")

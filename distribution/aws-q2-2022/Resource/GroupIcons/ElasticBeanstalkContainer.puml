@@ -8,8 +8,8 @@ sprite $ElasticBeanstalkContainerMd [16x16/16z] hS750KCn502WdpnZ_uNhSgw0R_HQwQqQ
 
 sprite $ElasticBeanstalkContainerLg [20x20/16z] hSYt0GC130Cn9Ogt_yBEsUsZ10Um-R6X3hv808bvgzix9dXoWzO3MhZP1COCeE2cm3NTN5dF2oGg5XYksgH7Y88nDvcKbzpU42_gWkB7LlqV_vP3d04
 
-!procedure ElasticBeanstalkContainer($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GroupIcons/ElasticBeanstalkContainer', $name, $tech)
+!procedure ElasticBeanstalkContainer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GroupIcons/ElasticBeanstalkContainer', $name, $tech, $desc)
 !endprocedure
 
 !procedure ElasticBeanstalkContainerCard($id, $funcName="", $content="")

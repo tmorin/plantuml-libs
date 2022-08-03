@@ -14,8 +14,8 @@ TL030i0m44jvoF_VEnJpCZOgy8-aJfU04uMvVOq7vVdujJAeKF3GImPv8VSNjrkCf3Sk693onjN3qJnw
 x3rlawh563jNMyZsbhZXQ3XEvKWsP9y7Lnq7Z9fYPWyS2AslOmK
 }
 
-!procedure AmazonVpcNatGateway($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonVpcNatGateway', $name, $tech)
+!procedure AmazonVpcNatGateway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonVpcNatGateway', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonVpcNatGatewayCard($id, $funcName="", $content="")

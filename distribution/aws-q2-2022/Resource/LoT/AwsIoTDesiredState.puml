@@ -14,8 +14,8 @@ RP254SGm30J5q7_3xzE7amjuPysYpnYrL5E7usS9vUzXl3N8a3BrNwMxztqSOuM_4m4SRg92TNKOnYFk
 feZPWmkkCvVB2cMghtqzLXG__oCAg2JCilt4UkwrEu9RuWS
 }
 
-!procedure AwsIoTDesiredState($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTDesiredState', $name, $tech)
+!procedure AwsIoTDesiredState($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTDesiredState', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTDesiredStateCard($id, $funcName="", $content="")

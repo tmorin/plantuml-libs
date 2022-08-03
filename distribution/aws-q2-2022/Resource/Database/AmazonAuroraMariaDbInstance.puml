@@ -11,8 +11,8 @@ RP050aGX24HnA8FxN_TtoUxOZx6WlweZlkfbGvmyGJJeLTchO6D3JQ5Sb9e3VZ3lXXR4uetPJmQos5dt
 sNVqFhCZQnlhsSUW4dA9DRgtE2AujMUmRDqA
 }
 
-!procedure AmazonAuroraMariaDbInstance($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Database/AmazonAuroraMariaDbInstance', $name, $tech)
+!procedure AmazonAuroraMariaDbInstance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Database/AmazonAuroraMariaDbInstance', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonAuroraMariaDbInstanceCard($id, $funcName="", $content="")

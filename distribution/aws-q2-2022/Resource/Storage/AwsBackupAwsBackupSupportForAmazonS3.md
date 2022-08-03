@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Storage/AwsBackupAwsBackupSupportForAmazonS3')
 
 ' renders the element
-AwsBackupAwsBackupSupportForAmazonS3('AwsBackupAwsBackupSupportForAmazonS3', 'Aws Backup Aws Backup Support For Amazon S3', 'an optional tech label')
+AwsBackupAwsBackupSupportForAmazonS3('AwsBackupAwsBackupSupportForAmazonS3', 'Aws Backup Aws Backup Support For Amazon S3', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Storage/AwsBackupAwsBackupSupportForAmazonS3')
 
 ' renders the element
-AwsBackupAwsBackupSupportForAmazonS3('AwsBackupAwsBackupSupportForAmazonS3', 'Aws Backup Aws Backup Support For Amazon S3', 'an optional tech label')
+AwsBackupAwsBackupSupportForAmazonS3('AwsBackupAwsBackupSupportForAmazonS3', 'Aws Backup Aws Backup Support For Amazon S3', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/EndUserComputing/AmazonWorkLink')
 
 ' renders the element
-AmazonWorkLink('AmazonWorkLink', 'Amazon Work Link', 'an optional tech label')
+AmazonWorkLink('AmazonWorkLink', 'Amazon Work Link', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/EndUserComputing/AmazonWorkLink')
 
 ' renders the element
-AmazonWorkLink('AmazonWorkLink', 'Amazon Work Link', 'an optional tech label')
+AmazonWorkLink('AmazonWorkLink', 'Amazon Work Link', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

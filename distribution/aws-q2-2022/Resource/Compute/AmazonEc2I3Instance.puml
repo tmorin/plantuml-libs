@@ -11,8 +11,8 @@ bL250KHH20AJ_HU-lj_9Irl17We92FN-xUkorUh_nO-kCO6_TLMQwRguwPSvzwiS_0Hfy1jqy8_EteBq
 3Fmrz0G
 }
 
-!procedure AmazonEc2I3Instance($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Compute/AmazonEc2I3Instance', $name, $tech)
+!procedure AmazonEc2I3Instance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Compute/AmazonEc2I3Instance', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonEc2I3InstanceCard($id, $funcName="", $content="")

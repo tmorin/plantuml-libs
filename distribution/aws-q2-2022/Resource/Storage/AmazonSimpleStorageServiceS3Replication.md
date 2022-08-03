@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Storage/AmazonSimpleStorageServiceS3Replication')
 
 ' renders the element
-AmazonSimpleStorageServiceS3Replication('AmazonSimpleStorageServiceS3Replication', 'Amazon Simple Storage Service S3 Replication', 'an optional tech label')
+AmazonSimpleStorageServiceS3Replication('AmazonSimpleStorageServiceS3Replication', 'Amazon Simple Storage Service S3 Replication', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Storage/AmazonSimpleStorageServiceS3Replication')
 
 ' renders the element
-AmazonSimpleStorageServiceS3Replication('AmazonSimpleStorageServiceS3Replication', 'Amazon Simple Storage Service S3 Replication', 'an optional tech label')
+AmazonSimpleStorageServiceS3Replication('AmazonSimpleStorageServiceS3Replication', 'Amazon Simple Storage Service S3 Replication', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

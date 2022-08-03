@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Storage/AmazonElasticFileSystemOneZoneInfrequentAccess')
 
 ' renders the element
-AmazonElasticFileSystemOneZoneInfrequentAccess('AmazonElasticFileSystemOneZoneInfrequentAccess', 'Amazon Elastic File System One Zone Infrequent Access', 'an optional tech label')
+AmazonElasticFileSystemOneZoneInfrequentAccess('AmazonElasticFileSystemOneZoneInfrequentAccess', 'Amazon Elastic File System One Zone Infrequent Access', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Storage/AmazonElasticFileSystemOneZoneInfrequentAccess')
 
 ' renders the element
-AmazonElasticFileSystemOneZoneInfrequentAccess('AmazonElasticFileSystemOneZoneInfrequentAccess', 'Amazon Elastic File System One Zone Infrequent Access', 'an optional tech label')
+AmazonElasticFileSystemOneZoneInfrequentAccess('AmazonElasticFileSystemOneZoneInfrequentAccess', 'Amazon Elastic File System One Zone Infrequent Access', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

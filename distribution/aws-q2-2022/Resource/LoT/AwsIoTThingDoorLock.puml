@@ -14,8 +14,8 @@ TP070i0W20C11Sd_Frn3zqhtzTAgyXSNxG9kD-PtbkEIj69Z7b60py6UJsPD6B3bkdfD1GZ9pLCjDXMt
 Z-zPLmQRjxxrOEnW5XaZ0xN5t_enojrgOnO
 }
 
-!procedure AwsIoTThingDoorLock($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTThingDoorLock', $name, $tech)
+!procedure AwsIoTThingDoorLock($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTThingDoorLock', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTThingDoorLockCard($id, $funcName="", $content="")

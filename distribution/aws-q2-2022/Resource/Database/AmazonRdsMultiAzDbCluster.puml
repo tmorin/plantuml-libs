@@ -14,8 +14,8 @@ XP1L0i0W34Dfi4hkVrva_hLCUVMcFub5UFqoNw-E3ujGjPYiSGcBwNe1oGzNNHys4KmGlX2sew9hnMJI
 C9UpRgVHZPnCcfdkkdBEzjITBmkI3Qb4Ww3pFTiCAUtS3nc-Hp_rzNj4hqKfwIjWaW4
 }
 
-!procedure AmazonRdsMultiAzDbCluster($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Database/AmazonRdsMultiAzDbCluster', $name, $tech)
+!procedure AmazonRdsMultiAzDbCluster($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Database/AmazonRdsMultiAzDbCluster', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonRdsMultiAzDbClusterCard($id, $funcName="", $content="")

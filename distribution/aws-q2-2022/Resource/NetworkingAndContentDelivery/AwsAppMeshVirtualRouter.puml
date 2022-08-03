@@ -11,8 +11,8 @@ TO-3WKHH40JhST3vntleCxO-nk8nAriTWo-EjcNfqzKR6DVUy-uQ_bEVSOx_wAHbsy1OgXa5QuC2-qQa
 P3cAchAFvRdlyqehz2Bkvle4ttGBlT_efiAjxlUhTWymj_cab6jkQVETCUVadMS
 }
 
-!procedure AwsAppMeshVirtualRouter($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AwsAppMeshVirtualRouter', $name, $tech)
+!procedure AwsAppMeshVirtualRouter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AwsAppMeshVirtualRouter', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsAppMeshVirtualRouterCard($id, $funcName="", $content="")

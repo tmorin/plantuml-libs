@@ -11,8 +11,8 @@ RS-5aS0m30NHDOX-__qUX6c7D2ynyLNfMKSyQhjb_MStAsWG3yiSBnlJNrRnjiPjRRFjbjxcPfPDg2lQ
 w6vKJlM7qHeSrX-DJd_5Bm
 }
 
-!procedure AwsMigrationHubRefactorSpacesApplications($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/MigrationAndTransfer/AwsMigrationHubRefactorSpacesApplications', $name, $tech)
+!procedure AwsMigrationHubRefactorSpacesApplications($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/MigrationAndTransfer/AwsMigrationHubRefactorSpacesApplications', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsMigrationHubRefactorSpacesApplicationsCard($id, $funcName="", $content="")

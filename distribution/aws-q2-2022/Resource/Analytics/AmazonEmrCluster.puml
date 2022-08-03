@@ -11,8 +11,8 @@ VP050WCX30GtM3Ri___RSgcU3JvuSCkKj7S2YfqubPqZfmMH680sKMLmIGLDYYbD0D50e1J8pQnhMo_D
 ptlJHTQkpK6BhZoQjVQ2D-4XeggLNGogZd4XTguKjvqhJx3n
 }
 
-!procedure AmazonEmrCluster($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Analytics/AmazonEmrCluster', $name, $tech)
+!procedure AmazonEmrCluster($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Analytics/AmazonEmrCluster', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonEmrClusterCard($id, $funcName="", $content="")

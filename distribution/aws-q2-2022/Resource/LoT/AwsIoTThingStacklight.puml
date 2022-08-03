@@ -11,8 +11,8 @@ TP275SD02CNq3v-1_HTEWFGYTptXnZ-qSRANfpk9TwU8V2nE4_34L9NQfNkeNCcz4nQrqm7cMyoiyZoz
 -IxFhgYIzmxwyDRv5KrN-65FOXmojrYfMlJt_xL4h5wA2m
 }
 
-!procedure AwsIoTThingStacklight($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTThingStacklight', $name, $tech)
+!procedure AwsIoTThingStacklight($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTThingStacklight', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTThingStacklightCard($id, $funcName="", $content="")

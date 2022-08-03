@@ -8,8 +8,8 @@ sprite $AwsIoTEchoMd [16x16/16z] fK-30G0n36mRtUq_yDj6RAGZo0J0FFaQhRGfxKI0FXQyrfH
 
 sprite $AwsIoTEchoLg [20x20/16z] jL350S0m22n-j__0TPTVa-0EtVUp0b5sDb5rzl0m2LKchfJ3bi7fUPvjg_2N3KXLJU1i6t4QvpnB9G4mwwLUq_bM0N8wAU7guEMeoyph6m
 
-!procedure AwsIoTEcho($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTEcho', $name, $tech)
+!procedure AwsIoTEcho($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTEcho', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTEchoCard($id, $funcName="", $content="")

@@ -11,8 +11,8 @@ bP25WGKW3CKIEDgt_yBttJquzVAAOa4eg3T_gzFfqoOxcYkcG5Lk_hfyghVMhLwjWvu9B247FMZKuNHK
 lkkf20D1W0q
 }
 
-!procedure AmazonEc2P4DInstance($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Compute/AmazonEc2P4DInstance', $name, $tech)
+!procedure AmazonEc2P4DInstance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Compute/AmazonEc2P4DInstance', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonEc2P4DInstanceCard($id, $funcName="", $content="")

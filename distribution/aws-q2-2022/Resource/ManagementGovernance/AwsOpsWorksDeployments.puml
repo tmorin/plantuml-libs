@@ -8,8 +8,8 @@ sprite $AwsOpsWorksDeploymentsMd [16x16/16z] Oy01kAdBP-PcGkPoCJ6mS29nKRL0bJAInsT
 
 sprite $AwsOpsWorksDeploymentsLg [20x20/16z] Oy0Bk0UD63Ct4pSZgX0dEv3WOCUYZnb9FnCBJ3cjnBY1OY2R6Rb1OjnGGHOMC8kPanF4W0h2tOV5qn3V0G
 
-!procedure AwsOpsWorksDeployments($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ManagementGovernance/AwsOpsWorksDeployments', $name, $tech)
+!procedure AwsOpsWorksDeployments($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ManagementGovernance/AwsOpsWorksDeployments', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsOpsWorksDeploymentsCard($id, $funcName="", $content="")

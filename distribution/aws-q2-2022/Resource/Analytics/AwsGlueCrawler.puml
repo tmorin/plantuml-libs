@@ -11,8 +11,8 @@ RSi50e0W44JHpv0ozp-ltVh8BVvqlmdJUP2mkXwoSEefrPfEPPzDUixosoVLh5cAYadvCUjACpfo4Q2a
 R7FJmJ1mrx9nQbo2iu7blgk3UkObA01C
 }
 
-!procedure AwsGlueCrawler($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Analytics/AwsGlueCrawler', $name, $tech)
+!procedure AwsGlueCrawler($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Analytics/AwsGlueCrawler', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsGlueCrawlerCard($id, $funcName="", $content="")

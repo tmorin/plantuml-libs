@@ -11,8 +11,8 @@ RP074eH040A1ZVp_mNSwMsFk2aYx6LzCssUZRI5DKdU79TjagCxTeOHR_oOe98F67LgjtMKR4UQfNFAZ
 C1AZpiWwLgNWscyJBC4cSK9PqCR5xUqF
 }
 
-!procedure AwsBackupVirtualMachine($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Storage/AwsBackupVirtualMachine', $name, $tech)
+!procedure AwsBackupVirtualMachine($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Storage/AwsBackupVirtualMachine', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsBackupVirtualMachineCard($id, $funcName="", $content="")

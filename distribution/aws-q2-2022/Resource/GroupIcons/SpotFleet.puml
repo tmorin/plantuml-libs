@@ -11,8 +11,8 @@ hSh7GI1H30KmZ__uMVqtl84C9vBEyXlIwutYwlJKo7ZIko0vdcqXCvbuSgr-oCUiHusxgXmk3n8KSQYd
 Oj-yOQ-gkdqqlkel
 }
 
-!procedure SpotFleet($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GroupIcons/SpotFleet', $name, $tech)
+!procedure SpotFleet($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GroupIcons/SpotFleet', $name, $tech, $desc)
 !endprocedure
 
 !procedure SpotFleetCard($id, $funcName="", $content="")

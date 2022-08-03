@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/GeneralIcons/Camera')
 
 ' renders the element
-Camera('Camera', 'Camera', 'an optional tech label')
+Camera('Camera', 'Camera', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/GeneralIcons/Camera')
 
 ' renders the element
-Camera('Camera', 'Camera', 'an optional tech label')
+Camera('Camera', 'Camera', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

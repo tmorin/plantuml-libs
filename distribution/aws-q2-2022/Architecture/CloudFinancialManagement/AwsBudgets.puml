@@ -14,8 +14,8 @@ PSp70GCn24HH9T0Cst-_1aNR-u-FG0-xFWkx-hR0QxtE9auJZDpmPUIqG3lMStCBD9ickObCWmL2LGZY
 CPlvLKZOyyG_y-R3H38iwKn4sZ2FEtZBR1S-RUd53m
 }
 
-!procedure AwsBudgets($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/CloudFinancialManagement/AwsBudgets', $name, $tech)
+!procedure AwsBudgets($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/CloudFinancialManagement/AwsBudgets', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsBudgetsCard($id, $funcName="", $content="")

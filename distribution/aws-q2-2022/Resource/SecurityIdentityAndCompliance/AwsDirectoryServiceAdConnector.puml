@@ -11,8 +11,8 @@ bSl5OGH030GmBOFxhpUSOzJ7EDupmvLL1kU2xLoPf7trnavEzEBRldgZLGVpq8mrCz-MNoCmzabI7Rxb
 9aT4Szid
 }
 
-!procedure AwsDirectoryServiceAdConnector($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/SecurityIdentityAndCompliance/AwsDirectoryServiceAdConnector', $name, $tech)
+!procedure AwsDirectoryServiceAdConnector($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/SecurityIdentityAndCompliance/AwsDirectoryServiceAdConnector', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsDirectoryServiceAdConnectorCard($id, $funcName="", $content="")

@@ -11,8 +11,8 @@ RSm7biGW30HH4A9BU_yBh_LmJov7Fe5Ep_OL69sDByi8AM8f8rhR9YbIKw5ycYAsLhnQ-imTDevjQQeh
 AnZSXgqGDexbtNXQSP9i3lVt0_y1
 }
 
-!procedure AwsNitroEnclaves($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Compute/AwsNitroEnclaves', $name, $tech)
+!procedure AwsNitroEnclaves($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Compute/AwsNitroEnclaves', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsNitroEnclavesCard($id, $funcName="", $content="")

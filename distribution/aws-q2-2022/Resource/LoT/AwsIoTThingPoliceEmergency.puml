@@ -14,8 +14,8 @@ TP050aGX24H7cljVU7VyNS-M1byOXgFdsF77NrqGaCJA_dA__fMFLLAWBrjVOoIGNgaLEG0kywJEP3GE
 VUWHFMfR0-m4Y6JbV_OSyTK_CZXb3l83
 }
 
-!procedure AwsIoTThingPoliceEmergency($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTThingPoliceEmergency', $name, $tech)
+!procedure AwsIoTThingPoliceEmergency($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTThingPoliceEmergency', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTThingPoliceEmergencyCard($id, $funcName="", $content="")

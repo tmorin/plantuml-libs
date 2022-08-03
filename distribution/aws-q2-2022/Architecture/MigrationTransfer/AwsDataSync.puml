@@ -11,8 +11,8 @@ PSm50iGW34HHYAUz_trtIiWQlyf3OkULFMMUc2V2JcnZyZVcIYH2k76HSo2HMNObujflFig0Fc0hcik0
 biMywhm-zBwVXHwuF55R1MX3ZTMsFmGTAry
 }
 
-!procedure AwsDataSync($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/MigrationTransfer/AwsDataSync', $name, $tech)
+!procedure AwsDataSync($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/MigrationTransfer/AwsDataSync', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsDataSyncCard($id, $funcName="", $content="")

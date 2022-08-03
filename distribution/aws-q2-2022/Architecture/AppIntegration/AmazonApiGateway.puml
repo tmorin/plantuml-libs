@@ -14,8 +14,8 @@ RSe75iGW201HPIKwUF_xBf1U9h7z1zdOwn4Vo1jtqqHTqLAg4FWhFT2CNZjkn5mJHpDhGFLtLtNkXma3
 oo-DtSGNhCQS4z4qSv16sZGhrQ8IafQQmTjIqx8h_W4
 }
 
-!procedure AmazonApiGateway($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/AppIntegration/AmazonApiGateway', $name, $tech)
+!procedure AmazonApiGateway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/AppIntegration/AmazonApiGateway', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonApiGatewayCard($id, $funcName="", $content="")

@@ -8,8 +8,8 @@ sprite $AwsIoTMqttProtocolMd [16x16/16z] lOl50S103CDqbDZx3rpc0QgNaI_LkZ7urGPwUVt
 
 sprite $AwsIoTMqttProtocolLg [20x20/16z] rO-50O0m30J_lfhz1yOT5k2gyKIVrBZHaQfr9vPzn_wV3XIleRthFc9hLeUCIHTTILQHXAs--oMHDnrXeC9-9oz93JxH2
 
-!procedure AwsIoTMqttProtocol($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTMqttProtocol', $name, $tech)
+!procedure AwsIoTMqttProtocol($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTMqttProtocol', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTMqttProtocolCard($id, $funcName="", $content="")

@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/Compute/AmazonEc2')
 
 ' renders the element
-AmazonEc2('AmazonEc2', 'Amazon Ec2', 'an optional tech label')
+AmazonEc2('AmazonEc2', 'Amazon Ec2', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/Compute/AmazonEc2')
 
 ' renders the element
-AmazonEc2('AmazonEc2', 'Amazon Ec2', 'an optional tech label')
+AmazonEc2('AmazonEc2', 'Amazon Ec2', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

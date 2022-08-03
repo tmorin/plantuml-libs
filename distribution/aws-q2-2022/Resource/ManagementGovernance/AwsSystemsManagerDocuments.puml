@@ -8,8 +8,8 @@ sprite $AwsSystemsManagerDocumentsMd [16x16/16z] TSe54e1G00BHjHNkVrvRV-_a6w1eqrL
 
 sprite $AwsSystemsManagerDocumentsLg [20x20/16z] XSk53G0n34DHbo7xptjGvdvHzEHW7SKwC-0Yr1dnK6SUdaAYit1P9sP3m6BMMbZ6IGmxeRMctaAjKGotdGdrna8u_DhPvbs8L6ynptFLU0ru0G
 
-!procedure AwsSystemsManagerDocuments($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ManagementGovernance/AwsSystemsManagerDocuments', $name, $tech)
+!procedure AwsSystemsManagerDocuments($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ManagementGovernance/AwsSystemsManagerDocuments', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsSystemsManagerDocumentsCard($id, $funcName="", $content="")

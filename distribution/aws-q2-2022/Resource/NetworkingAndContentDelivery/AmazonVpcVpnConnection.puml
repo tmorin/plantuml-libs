@@ -11,8 +11,8 @@ ZSx50SH034FHRmXer7-zounvHwFu8UGrU38By7DH79a7bxKv2AxTcPD8r01-KK09WgiMHtKxditWBDET
 Bny4i0S
 }
 
-!procedure AmazonVpcVpnConnection($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonVpcVpnConnection', $name, $tech)
+!procedure AmazonVpcVpnConnection($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonVpcVpnConnection', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonVpcVpnConnectionCard($id, $funcName="", $content="")

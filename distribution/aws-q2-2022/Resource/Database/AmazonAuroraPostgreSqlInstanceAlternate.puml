@@ -8,8 +8,8 @@ sprite $AmazonAuroraPostgreSqlInstanceAlternateMd [16x16/16z] lST50S0m542nrtug-R
 
 sprite $AmazonAuroraPostgreSqlInstanceAlternateLg [20x20/16z] rSY50OKm303HYzVsN_Ux0WlmgZaErLo_Xa0v_nPCDboPKO1pbpXgznOj_7PwfWlvRBUtXrHvT0RztdWINduQ9sg3ZH9akVsgnOt-4RW2
 
-!procedure AmazonAuroraPostgreSqlInstanceAlternate($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Database/AmazonAuroraPostgreSqlInstanceAlternate', $name, $tech)
+!procedure AmazonAuroraPostgreSqlInstanceAlternate($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Database/AmazonAuroraPostgreSqlInstanceAlternate', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonAuroraPostgreSqlInstanceAlternateCard($id, $funcName="", $content="")

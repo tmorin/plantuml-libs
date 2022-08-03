@@ -8,8 +8,8 @@ sprite $AmazonLocationServiceRoutesMd [16x16/16z] NOq50iGW30G7X-J_xxshjvk1k14nIn
 
 sprite $AmazonLocationServiceRoutesLg [20x20/16z] ZS-r0GGX443HZuptt-ybP-ky3COvqzFPIoHxs0X-NA9zeb-33-64Sg9OLLNi5QEpaoTvnayr0yRlY-QWZSR-597Ynzbg9nibSx0JCpZeZPqN
 
-!procedure AmazonLocationServiceRoutes($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/FrontEndWebMobile/AmazonLocationServiceRoutes', $name, $tech)
+!procedure AmazonLocationServiceRoutes($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/FrontEndWebMobile/AmazonLocationServiceRoutes', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonLocationServiceRoutesCard($id, $funcName="", $content="")

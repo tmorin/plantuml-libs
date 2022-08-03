@@ -11,8 +11,8 @@ TK-54S0W47kN_GT6wuNWiJjW2_GCVbEIRTDuSVF5gd9HYlDC47lP3lgKd-tkVJTwTOzq7gL73AMxyU1y
 1mVTJYDq-zxe77s0K04
 }
 
-!procedure AwsIoTSensor($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTSensor', $name, $tech)
+!procedure AwsIoTSensor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTSensor', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTSensorCard($id, $funcName="", $content="")

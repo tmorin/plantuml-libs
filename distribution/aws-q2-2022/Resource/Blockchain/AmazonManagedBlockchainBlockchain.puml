@@ -8,8 +8,8 @@ sprite $AmazonManagedBlockchainBlockchainMd [16x16/16z] jSRH5KCX3CDG0Kdi_IUkOOO-
 
 sprite $AmazonManagedBlockchainBlockchainLg [20x20/16z] pOk50S10309v8R3_n6raYB-uW9VO_3bWCXdEWvbP9yjQC7bf8wvb-gfs2tbcAOJ8tVRlWXoAAzTVmSgxyi93V
 
-!procedure AmazonManagedBlockchainBlockchain($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Blockchain/AmazonManagedBlockchainBlockchain', $name, $tech)
+!procedure AmazonManagedBlockchainBlockchain($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Blockchain/AmazonManagedBlockchainBlockchain', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonManagedBlockchainBlockchainCard($id, $funcName="", $content="")

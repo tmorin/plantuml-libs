@@ -11,8 +11,8 @@ TSm50aCn28FXFwn0S_y3JvXRdlP3-9ze9kL-c5tpcUUU3Q3CgeXtgwnUkf4qVqQFMMTk8b3J0b8h2w8Z
 2LrYLeyfPNQtQV3Drct1g-szkU4eraSCYizm0W
 }
 
-!procedure AmazonElasticFileSystemOneZone($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Storage/AmazonElasticFileSystemOneZone', $name, $tech)
+!procedure AmazonElasticFileSystemOneZone($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Storage/AmazonElasticFileSystemOneZone', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonElasticFileSystemOneZoneCard($id, $funcName="", $content="")

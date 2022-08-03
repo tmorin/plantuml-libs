@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/GroupIcons/CorporateDataCenter')
 
 ' renders the element
-CorporateDataCenter('CorporateDataCenter', 'Corporate Data Center', 'an optional tech label')
+CorporateDataCenter('CorporateDataCenter', 'Corporate Data Center', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/GroupIcons/CorporateDataCenter')
 
 ' renders the element
-CorporateDataCenter('CorporateDataCenter', 'Corporate Data Center', 'an optional tech label')
+CorporateDataCenter('CorporateDataCenter', 'Corporate Data Center', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

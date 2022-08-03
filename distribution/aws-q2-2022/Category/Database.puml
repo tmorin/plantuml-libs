@@ -11,8 +11,8 @@ RSq74i0W24HHhB3e_SyRPjCJ__IdWAwIz4qqkUF8zcYtlgtbLFHbjVDN0MuJiAPFqn9LDG2NxNVij372
 MY-L3s4pZCveUH8VIfjVarzf0m
 }
 
-!procedure Database($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Category/Database', $name, $tech)
+!procedure Database($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Category/Database', $name, $tech, $desc)
 !endprocedure
 
 !procedure DatabaseCard($id, $funcName="", $content="")

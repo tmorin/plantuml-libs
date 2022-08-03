@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/SecurityIdentityCompliance/AmazonGuardDuty')
 
 ' renders the element
-AmazonGuardDuty('AmazonGuardDuty', 'Amazon Guard Duty', 'an optional tech label')
+AmazonGuardDuty('AmazonGuardDuty', 'Amazon Guard Duty', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/SecurityIdentityCompliance/AmazonGuardDuty')
 
 ' renders the element
-AmazonGuardDuty('AmazonGuardDuty', 'Amazon Guard Duty', 'an optional tech label')
+AmazonGuardDuty('AmazonGuardDuty', 'Amazon Guard Duty', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Category/VrAr')
 
 ' renders the element
-VrAr('VrAr', 'Vr Ar', 'an optional tech label')
+VrAr('VrAr', 'Vr Ar', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Category/VrAr')
 
 ' renders the element
-VrAr('VrAr', 'Vr Ar', 'an optional tech label')
+VrAr('VrAr', 'Vr Ar', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

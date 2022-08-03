@@ -11,8 +11,8 @@ VSg5bSKm30NHaMN1wx_WtS_XtCGqHzn93VO2iMDj-nR2npQsyrJ1ss0AcE7WOW0rAw33p6g0l8rcEiY0
 bfOnbjk8fNNmf1GVOQYVYbhcP3oLYWl_
 }
 
-!procedure AwsBackupDatabase($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Storage/AwsBackupDatabase', $name, $tech)
+!procedure AwsBackupDatabase($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Storage/AwsBackupDatabase', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsBackupDatabaseCard($id, $funcName="", $content="")

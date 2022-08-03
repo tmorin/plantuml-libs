@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/NetworkingAndContentDelivery/AwsCloudWanSegmentNetwork')
 
 ' renders the element
-AwsCloudWanSegmentNetwork('AwsCloudWanSegmentNetwork', 'Aws Cloud Wan Segment Network', 'an optional tech label')
+AwsCloudWanSegmentNetwork('AwsCloudWanSegmentNetwork', 'Aws Cloud Wan Segment Network', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/NetworkingAndContentDelivery/AwsCloudWanSegmentNetwork')
 
 ' renders the element
-AwsCloudWanSegmentNetwork('AwsCloudWanSegmentNetwork', 'Aws Cloud Wan Segment Network', 'an optional tech label')
+AwsCloudWanSegmentNetwork('AwsCloudWanSegmentNetwork', 'Aws Cloud Wan Segment Network', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -11,8 +11,8 @@ VP254G1120FF1Vhlz_FdliCOdeWJnC3EEIw5ZagvZaAiEUAKqw3dI2Bt8r5eMFGH26gWt7Mlky9iTvsZ
 z-_01m
 }
 
-!procedure AmazonCloudWatchRule($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ManagementGovernance/AmazonCloudWatchRule', $name, $tech)
+!procedure AmazonCloudWatchRule($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ManagementGovernance/AmazonCloudWatchRule', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonCloudWatchRuleCard($id, $funcName="", $content="")

@@ -11,8 +11,8 @@ VSo5bG0n20JGWOq3_PUx6Z-91_uR_3-oIiafnQaaeTwJUajIK6XL1i-95eMG5P4cHMhFs_ESnUMv77V5
 0cWEh4rLIMRIr92OLPLDpRAgLUwb9snwNm
 }
 
-!procedure SamlToken($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GeneralIcons/SamlToken', $name, $tech)
+!procedure SamlToken($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GeneralIcons/SamlToken', $name, $tech, $desc)
 !endprocedure
 
 !procedure SamlTokenCard($id, $funcName="", $content="")

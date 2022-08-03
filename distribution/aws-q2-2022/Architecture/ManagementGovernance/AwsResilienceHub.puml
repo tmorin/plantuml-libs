@@ -14,8 +14,8 @@ RSw54S1020H0Nf3Z--yt0yIJ6ryK6JkY4VmWVX0_w2MDQ9pedWH0-u4UE15X8YaBxCTAEequXHNMj4mG
 sI4iWM7Pcx-F_6gjKdGu9e_JCj9dG5ffvS_yi4_d1W
 }
 
-!procedure AwsResilienceHub($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/ManagementGovernance/AwsResilienceHub', $name, $tech)
+!procedure AwsResilienceHub($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/ManagementGovernance/AwsResilienceHub', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsResilienceHubCard($id, $funcName="", $content="")

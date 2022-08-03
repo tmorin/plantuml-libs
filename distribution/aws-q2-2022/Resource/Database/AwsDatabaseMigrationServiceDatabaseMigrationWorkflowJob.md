@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Database/AwsDatabaseMigrationServiceDatabaseMigrationWorkflowJob')
 
 ' renders the element
-AwsDatabaseMigrationServiceDatabaseMigrationWorkflowJob('AwsDatabaseMigrationServiceDatabaseMigrationWorkflowJob', 'Aws Database Migration Service Database Migration Workflow Job', 'an optional tech label')
+AwsDatabaseMigrationServiceDatabaseMigrationWorkflowJob('AwsDatabaseMigrationServiceDatabaseMigrationWorkflowJob', 'Aws Database Migration Service Database Migration Workflow Job', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Database/AwsDatabaseMigrationServiceDatabaseMigrationWorkflowJob')
 
 ' renders the element
-AwsDatabaseMigrationServiceDatabaseMigrationWorkflowJob('AwsDatabaseMigrationServiceDatabaseMigrationWorkflowJob', 'Aws Database Migration Service Database Migration Workflow Job', 'an optional tech label')
+AwsDatabaseMigrationServiceDatabaseMigrationWorkflowJob('AwsDatabaseMigrationServiceDatabaseMigrationWorkflowJob', 'Aws Database Migration Service Database Migration Workflow Job', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

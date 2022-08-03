@@ -8,8 +8,8 @@ sprite $AwsCloudMapServiceMd [16x16/16z] fOxL0S0m24IFEB3_l8thRryKFxp8ODdzqMqxQl2
 
 sprite $AwsCloudMapServiceLg [20x20/16z] lP3L0S0m20M1AhpzvstSyzsB7t7Q8PNcK1GwHwz5ODPSxUeFJdo-YwlO9UZSWTSOHDfSgfK9pIcdY4fmGDesSaDIZFdKza-8iUS1DLWeqhkpV2GkoLpOVhS3
 
-!procedure AwsCloudMapService($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AwsCloudMapService', $name, $tech)
+!procedure AwsCloudMapService($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AwsCloudMapService', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsCloudMapServiceCard($id, $funcName="", $content="")

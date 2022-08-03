@@ -8,8 +8,8 @@ sprite $AmazonElastiCacheCacheNodeMd [16x16/16z] lST50S104C3072_vjrjc0Sqh0z_27u7
 
 sprite $AmazonElastiCacheCacheNodeLg [20x20/16z] rSY50G8m3031hyIp_xgumm9yDSVFjFgrE9FnNaET7M7gG5H0nzdEdsbCp06PDxFyC68X8q-NnjrU-riBFie1hV9Q9i2Ohmqu0W
 
-!procedure AmazonElastiCacheCacheNode($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Database/AmazonElastiCacheCacheNode', $name, $tech)
+!procedure AmazonElastiCacheCacheNode($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Database/AmazonElastiCacheCacheNode', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonElastiCacheCacheNodeCard($id, $funcName="", $content="")

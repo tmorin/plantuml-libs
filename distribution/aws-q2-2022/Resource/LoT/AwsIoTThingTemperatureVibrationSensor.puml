@@ -14,8 +14,8 @@ TP07ZW0n2CGyi0Jc_ny-aUlDwPRLmd-eQ7p7fplCTwSPVupcCYmgbXGW3MheFKMkh3B3ey1KaLq2XaCh
 TIGEF_Mr0yPHXizkZtBsZqxkFRTR-ibFHboKdHFM3lt_VoiHSSVo0W
 }
 
-!procedure AwsIoTThingTemperatureVibrationSensor($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTThingTemperatureVibrationSensor', $name, $tech)
+!procedure AwsIoTThingTemperatureVibrationSensor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTThingTemperatureVibrationSensor', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTThingTemperatureVibrationSensorCard($id, $funcName="", $content="")

@@ -11,8 +11,8 @@ TS_LWOH040N0ee6nbt-yvxU-zJNIwhssofex5pDRbJXpUKtnyqRlG72avEUnmInoWDcO4EBFE0bjSnpy
 08GQs0VdAhQ-4FpjVPIuFD4cLKB5HT9AHWPS5BK1FW4
 }
 
-!procedure AwsCloudWanSegmentNetwork($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AwsCloudWanSegmentNetwork', $name, $tech)
+!procedure AwsCloudWanSegmentNetwork($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AwsCloudWanSegmentNetwork', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsCloudWanSegmentNetworkCard($id, $funcName="", $content="")

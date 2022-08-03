@@ -11,8 +11,8 @@ RSt50KGX34LHF3BzzpkFoFUxum09VLNgiqALFR8MWedSyRHPksCOj85RO1WHZAfhMFEPys9TtAXrDzK6
 B96qty-mBnZqQWgus4E_hRogVm
 }
 
-!procedure MigrationTransfer($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Category/MigrationTransfer', $name, $tech)
+!procedure MigrationTransfer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Category/MigrationTransfer', $name, $tech, $desc)
 !endprocedure
 
 !procedure MigrationTransferCard($id, $funcName="", $content="")

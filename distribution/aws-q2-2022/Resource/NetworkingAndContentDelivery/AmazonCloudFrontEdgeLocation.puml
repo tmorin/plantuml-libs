@@ -8,8 +8,8 @@ sprite $AmazonCloudFrontEdgeLocationMd [16x16/16z] Oq07t5p8W9E12qMMI3uZ223uO3ON4
 
 sprite $AmazonCloudFrontEdgeLocationLg [20x20/16z] jO_50K0n24DJ1xB_lDzTJxmg3dY2DoA82ybBHnjf9vrDzuzEI5lxJvFE91py2kKXDg-wDf6zPaiNIaIyWHu
 
-!procedure AmazonCloudFrontEdgeLocation($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonCloudFrontEdgeLocation', $name, $tech)
+!procedure AmazonCloudFrontEdgeLocation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonCloudFrontEdgeLocation', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonCloudFrontEdgeLocationCard($id, $funcName="", $content="")

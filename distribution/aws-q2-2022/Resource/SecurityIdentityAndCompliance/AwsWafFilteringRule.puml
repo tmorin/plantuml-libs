@@ -14,8 +14,8 @@ TS-5eOKm343H6wEH_UTzXdqzE6sC_rdsz19kCSvR3QTsJXt7Kxdj4U68hgpAt1JwiuBE6Po359X3nyfy
 4LBE42a-5dtNcU__Dh-gKRa_zvMOp_ePkVCMTbjpgKbJdt6-4bNby0G
 }
 
-!procedure AwsWafFilteringRule($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/SecurityIdentityAndCompliance/AwsWafFilteringRule', $name, $tech)
+!procedure AwsWafFilteringRule($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/SecurityIdentityAndCompliance/AwsWafFilteringRule', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsWafFilteringRuleCard($id, $funcName="", $content="")

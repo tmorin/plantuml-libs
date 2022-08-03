@@ -8,8 +8,8 @@ sprite $AmazonDynamoDbStreamMd [16x16/16z] XSf70e0m24JHdvu0zp-lixFhImM6Apyn_YpfE
 
 sprite $AmazonDynamoDbStreamLg [20x20/16z] fOhL0KGX30GZEDj_lRVXw-pvn0Va7nFVc3oXTMBHd5VLS9FLayNDnHkWdmunVXthmrd-TOtTogS3UvFVV_XqENeFLskTgLU2hh9UDLYTUncG2zWFTFwDl
 
-!procedure AmazonDynamoDbStream($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Database/AmazonDynamoDbStream', $name, $tech)
+!procedure AmazonDynamoDbStream($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Database/AmazonDynamoDbStream', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonDynamoDbStreamCard($id, $funcName="", $content="")

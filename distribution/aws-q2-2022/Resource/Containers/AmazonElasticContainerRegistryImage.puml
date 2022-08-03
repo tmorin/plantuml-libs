@@ -8,8 +8,8 @@ sprite $AmazonElasticContainerRegistryImageMd [16x16/16z] ZOw50GCn58M8i__2xRaRqU
 
 sprite $AmazonElasticContainerRegistryImageLg [20x20/16z] bS_50S1030D1cTL_ms7cx7CEZQkAnmJ48T6_9cTZycXg7HyC0KcWTkRiIRbQ35u2S3PQzgJeuc2zUWwx1koDw38gfgWOQDXvditoOClEWq5NaqEg7Hz32m
 
-!procedure AmazonElasticContainerRegistryImage($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Containers/AmazonElasticContainerRegistryImage', $name, $tech)
+!procedure AmazonElasticContainerRegistryImage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Containers/AmazonElasticContainerRegistryImage', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonElasticContainerRegistryImageCard($id, $funcName="", $content="")

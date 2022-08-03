@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/NetworkingContentDelivery/AwsAppMesh')
 
 ' renders the element
-AwsAppMesh('AwsAppMesh', 'Aws App Mesh', 'an optional tech label')
+AwsAppMesh('AwsAppMesh', 'Aws App Mesh', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/NetworkingContentDelivery/AwsAppMesh')
 
 ' renders the element
-AwsAppMesh('AwsAppMesh', 'Aws App Mesh', 'an optional tech label')
+AwsAppMesh('AwsAppMesh', 'Aws App Mesh', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

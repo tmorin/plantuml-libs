@@ -11,8 +11,8 @@ TSg53G904031S_l--uKZRzZ69-k_0lmC7FDLpFgQTkFvY2UsLJt9B9CcBgDUnOvLAcT7br7ELBPfrKG-
 MejTg-NOxDYjVms-mWS
 }
 
-!procedure NetworkingContentDelivery($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Category/NetworkingContentDelivery', $name, $tech)
+!procedure NetworkingContentDelivery($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Category/NetworkingContentDelivery', $name, $tech, $desc)
 !endprocedure
 
 !procedure NetworkingContentDeliveryCard($id, $funcName="", $content="")

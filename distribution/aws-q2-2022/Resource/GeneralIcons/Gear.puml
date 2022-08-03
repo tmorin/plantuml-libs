@@ -11,8 +11,8 @@ VOy74iGm20CNI2Nm_-zUCDURKgnPZoZyKPnQdu51CZwveTZSlTYSFbsHqAwE65QtryAKjWMGo9skMVBY
 YuDcZYfJsTLsxykdOjfjEhz_sMCvoBwDvHPYIP7ooHuywSIQl4hDxEOl
 }
 
-!procedure Gear($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GeneralIcons/Gear', $name, $tech)
+!procedure Gear($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GeneralIcons/Gear', $name, $tech, $desc)
 !endprocedure
 
 !procedure GearCard($id, $funcName="", $content="")

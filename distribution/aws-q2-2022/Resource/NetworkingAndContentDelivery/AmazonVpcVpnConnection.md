@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonVpcVpnConnection')
 
 ' renders the element
-AmazonVpcVpnConnection('AmazonVpcVpnConnection', 'Amazon Vpc Vpn Connection', 'an optional tech label')
+AmazonVpcVpnConnection('AmazonVpcVpnConnection', 'Amazon Vpc Vpn Connection', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonVpcVpnConnection')
 
 ' renders the element
-AmazonVpcVpnConnection('AmazonVpcVpnConnection', 'Amazon Vpc Vpn Connection', 'an optional tech label')
+AmazonVpcVpnConnection('AmazonVpcVpnConnection', 'Amazon Vpc Vpn Connection', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

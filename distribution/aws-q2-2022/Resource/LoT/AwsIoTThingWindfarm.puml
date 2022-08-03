@@ -11,8 +11,8 @@ VP055i0m24D99f3x7tYIrxc4IViV7b_g0qF8ziFg8fhbxZ-s6xap3ciKBtxQRi36E9fXgJaqblAl1jYx
 BYkhKhRysodMXxPLCm
 }
 
-!procedure AwsIoTThingWindfarm($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTThingWindfarm', $name, $tech)
+!procedure AwsIoTThingWindfarm($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTThingWindfarm', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTThingWindfarmCard($id, $funcName="", $content="")

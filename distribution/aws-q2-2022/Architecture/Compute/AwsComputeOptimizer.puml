@@ -14,8 +14,8 @@ RSs7OS0W3011zLVsNpWYDf3sxcSAgxhbnC6hFFrd6VEnzI6pKeyVfkLVDz4yPgICJNeDnjPSMzOGMgAW
 ifLXpnvcy9etOnu30e-5XQFAP0Nzf3xYKtAiQKvzklZn3tu2
 }
 
-!procedure AwsComputeOptimizer($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Compute/AwsComputeOptimizer', $name, $tech)
+!procedure AwsComputeOptimizer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Compute/AwsComputeOptimizer', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsComputeOptimizerCard($id, $funcName="", $content="")

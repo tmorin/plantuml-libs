@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/DeveloperTools/AwsCloudControlApi')
 
 ' renders the element
-AwsCloudControlApi('AwsCloudControlApi', 'Aws Cloud Control Api', 'an optional tech label')
+AwsCloudControlApi('AwsCloudControlApi', 'Aws Cloud Control Api', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/DeveloperTools/AwsCloudControlApi')
 
 ' renders the element
-AwsCloudControlApi('AwsCloudControlApi', 'Aws Cloud Control Api', 'an optional tech label')
+AwsCloudControlApi('AwsCloudControlApi', 'Aws Cloud Control Api', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

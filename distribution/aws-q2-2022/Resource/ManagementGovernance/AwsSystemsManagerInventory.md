@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/ManagementGovernance/AwsSystemsManagerInventory')
 
 ' renders the element
-AwsSystemsManagerInventory('AwsSystemsManagerInventory', 'Aws Systems Manager Inventory', 'an optional tech label')
+AwsSystemsManagerInventory('AwsSystemsManagerInventory', 'Aws Systems Manager Inventory', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/ManagementGovernance/AwsSystemsManagerInventory')
 
 ' renders the element
-AwsSystemsManagerInventory('AwsSystemsManagerInventory', 'Aws Systems Manager Inventory', 'an optional tech label')
+AwsSystemsManagerInventory('AwsSystemsManagerInventory', 'Aws Systems Manager Inventory', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

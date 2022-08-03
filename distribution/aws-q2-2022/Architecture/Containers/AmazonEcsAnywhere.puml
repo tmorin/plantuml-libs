@@ -11,8 +11,8 @@ PSZ90KH1209Hf1Lwyazu_FjMTNjUqbLrVgCEyyTMJ8r3TneH8kfcXJ8rD7WQqXOGab27sQI2R63RN4q9
 RpP9Dzi5TvjDCrkYlDQmAT1osAc-x8k_B_eF
 }
 
-!procedure AmazonEcsAnywhere($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Containers/AmazonEcsAnywhere', $name, $tech)
+!procedure AmazonEcsAnywhere($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Containers/AmazonEcsAnywhere', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonEcsAnywhereCard($id, $funcName="", $content="")

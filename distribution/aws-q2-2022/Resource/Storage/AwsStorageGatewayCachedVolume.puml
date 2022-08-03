@@ -8,8 +8,8 @@ sprite $AwsStorageGatewayCachedVolumeMd [16x16/16z] nSY50G0n20J1mw7_WjybKa0sEc0g
 
 sprite $AwsStorageGatewayCachedVolumeLg [20x20/16z] rSZ50SH04C0mZvVxB_WWJ0r4J_5idCHqbGDThYZcJ1ItWvmA9KLXEydzTuJxxTv-VVnTZf_3DNLCf-Rv_0b-mX_W2m
 
-!procedure AwsStorageGatewayCachedVolume($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Storage/AwsStorageGatewayCachedVolume', $name, $tech)
+!procedure AwsStorageGatewayCachedVolume($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Storage/AwsStorageGatewayCachedVolume', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsStorageGatewayCachedVolumeCard($id, $funcName="", $content="")

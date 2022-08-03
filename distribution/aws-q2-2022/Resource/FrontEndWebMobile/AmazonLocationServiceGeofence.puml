@@ -11,8 +11,8 @@ VL050iGm22kf8Fd_U-UZEqqjnQ7yXmYWve5R0D96ausrbDLaAZVhAOiCfWrg1-DsHBb3KPWoOcU-dI4f
 IwPJDEumdg8OoN3b8ae2Hj8QFsUCnsS5
 }
 
-!procedure AmazonLocationServiceGeofence($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/FrontEndWebMobile/AmazonLocationServiceGeofence', $name, $tech)
+!procedure AmazonLocationServiceGeofence($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/FrontEndWebMobile/AmazonLocationServiceGeofence', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonLocationServiceGeofenceCard($id, $funcName="", $content="")

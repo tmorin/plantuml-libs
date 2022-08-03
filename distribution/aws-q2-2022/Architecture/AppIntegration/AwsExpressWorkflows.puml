@@ -11,8 +11,8 @@ RSy50iCW44HHP6t8_U_ROTEb-k8_1aXHVCEVY3yHnUJ4LKtYn5LnYCRJogWqkFbfuUBtrQWcHWsRLUkJ
 IzPHBiecItvQ5rklLfL-6rNxUV81
 }
 
-!procedure AwsExpressWorkflows($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/AppIntegration/AwsExpressWorkflows', $name, $tech)
+!procedure AwsExpressWorkflows($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/AppIntegration/AwsExpressWorkflows', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsExpressWorkflowsCard($id, $funcName="", $content="")

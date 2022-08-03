@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/InternetOfThings/AwsIoTFleetWise')
 
 ' renders the element
-AwsIoTFleetWise('AwsIoTFleetWise', 'Aws Io T Fleet Wise', 'an optional tech label')
+AwsIoTFleetWise('AwsIoTFleetWise', 'Aws Io T Fleet Wise', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/InternetOfThings/AwsIoTFleetWise')
 
 ' renders the element
-AwsIoTFleetWise('AwsIoTFleetWise', 'Aws Io T Fleet Wise', 'an optional tech label')
+AwsIoTFleetWise('AwsIoTFleetWise', 'Aws Io T Fleet Wise', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

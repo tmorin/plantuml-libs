@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Analytics/AwsDataExchangeForApIs')
 
 ' renders the element
-AwsDataExchangeForApIs('AwsDataExchangeForApIs', 'Aws Data Exchange For Ap Is', 'an optional tech label')
+AwsDataExchangeForApIs('AwsDataExchangeForApIs', 'Aws Data Exchange For Ap Is', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Analytics/AwsDataExchangeForApIs')
 
 ' renders the element
-AwsDataExchangeForApIs('AwsDataExchangeForApIs', 'Aws Data Exchange For Ap Is', 'an optional tech label')
+AwsDataExchangeForApIs('AwsDataExchangeForApIs', 'Aws Data Exchange For Ap Is', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

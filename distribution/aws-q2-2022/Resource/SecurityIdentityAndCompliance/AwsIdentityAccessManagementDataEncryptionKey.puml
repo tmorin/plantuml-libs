@@ -11,8 +11,8 @@ RSZ7OGGn34MnHohpzr_lJawoSGJ_6tg9upgqmidyE8jID9rCiZeTqMdVQmN2laThKPZEUYzGvPyBw9dn
 EfmN_bAFi_TjjG
 }
 
-!procedure AwsIdentityAccessManagementDataEncryptionKey($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessManagementDataEncryptionKey', $name, $tech)
+!procedure AwsIdentityAccessManagementDataEncryptionKey($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessManagementDataEncryptionKey', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIdentityAccessManagementDataEncryptionKeyCard($id, $funcName="", $content="")

@@ -11,8 +11,8 @@ XSZ50S1030EmWoQEtVtdBJFgAJn9-IeXSn8B0EDTSxyzXvCkkPsbXECDMuDqEnyugeVpGlTWD6KxGaeD
 Ull-tRwlbsvo3m
 }
 
-!procedure Serverless($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Category/Serverless', $name, $tech)
+!procedure Serverless($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Category/Serverless', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServerlessCard($id, $funcName="", $content="")

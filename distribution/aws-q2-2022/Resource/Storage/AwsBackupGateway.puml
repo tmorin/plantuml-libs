@@ -11,8 +11,8 @@ VSc5WGGX04MnuFp-2pvPrmd-S6IcUZN4YxBBQnlHwdFS3QpXhEhXh4N5wkVVCHgaxMBhZRMfQKIhIZOs
 d8qY-z-oN2K5h2nV_08
 }
 
-!procedure AwsBackupGateway($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Storage/AwsBackupGateway', $name, $tech)
+!procedure AwsBackupGateway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Storage/AwsBackupGateway', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsBackupGatewayCard($id, $funcName="", $content="")

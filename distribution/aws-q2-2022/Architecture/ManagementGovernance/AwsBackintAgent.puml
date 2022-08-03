@@ -14,8 +14,8 @@ RSn50WD124HHQAoAkVzv8wJZyvSFuOHdTOydo1FaCvHRFB2VPWwK3FR6o3bNtEgD0junnWOZLgefKB6j
 2Hd0SUmzhmm85tYtBX5fhGfeWkHnQsurikwtJvjaYV1fJmNxrwQdJPzu1G
 }
 
-!procedure AwsBackintAgent($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/ManagementGovernance/AwsBackintAgent', $name, $tech)
+!procedure AwsBackintAgent($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/ManagementGovernance/AwsBackintAgent', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsBackintAgentCard($id, $funcName="", $content="")

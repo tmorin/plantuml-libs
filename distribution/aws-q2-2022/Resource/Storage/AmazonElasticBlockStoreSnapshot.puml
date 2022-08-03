@@ -11,8 +11,8 @@ TKq55WGX5F8ttF_0s-PpcPHiVr7ym1Ogu_k5JWu3ItHWoJOrjrSRjucCUBrZrad_4_GVZhaOOLeH09ao
 mTzgXuWCuWa
 }
 
-!procedure AmazonElasticBlockStoreSnapshot($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Storage/AmazonElasticBlockStoreSnapshot', $name, $tech)
+!procedure AmazonElasticBlockStoreSnapshot($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Storage/AmazonElasticBlockStoreSnapshot', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonElasticBlockStoreSnapshotCard($id, $funcName="", $content="")

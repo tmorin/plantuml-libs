@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Category/Satellite')
 
 ' renders the element
-Satellite('Satellite', 'Satellite', 'an optional tech label')
+Satellite('Satellite', 'Satellite', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Category/Satellite')
 
 ' renders the element
-Satellite('Satellite', 'Satellite', 'an optional tech label')
+Satellite('Satellite', 'Satellite', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

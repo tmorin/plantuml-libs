@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Category/FrontEndWebMobile')
 
 ' renders the element
-FrontEndWebMobile('FrontEndWebMobile', 'Front End Web Mobile', 'an optional tech label')
+FrontEndWebMobile('FrontEndWebMobile', 'Front End Web Mobile', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Category/FrontEndWebMobile')
 
 ' renders the element
-FrontEndWebMobile('FrontEndWebMobile', 'Front End Web Mobile', 'an optional tech label')
+FrontEndWebMobile('FrontEndWebMobile', 'Front End Web Mobile', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

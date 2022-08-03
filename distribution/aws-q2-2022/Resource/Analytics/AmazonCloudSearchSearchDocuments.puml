@@ -8,8 +8,8 @@ sprite $AmazonCloudSearchSearchDocumentsMd [16x16/16z] ZSt50GCn34JHRxOr_TURB3Eza
 
 sprite $AmazonCloudSearchSearchDocumentsLg [20x20/16z] jSx50GH124JHNumt-SUxZgmTvntHuZTvzwgjbAnf3_oV6nDOW4s07piA-660cojDOtxK1je2k7tz6F7NFFpESjQSjb0r5BAsgRngM0TS0G
 
-!procedure AmazonCloudSearchSearchDocuments($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Analytics/AmazonCloudSearchSearchDocuments', $name, $tech)
+!procedure AmazonCloudSearchSearchDocuments($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Analytics/AmazonCloudSearchSearchDocuments', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonCloudSearchSearchDocumentsCard($id, $funcName="", $content="")

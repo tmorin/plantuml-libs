@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/ManagementGovernance/AmazonCloudWatchRum')
 
 ' renders the element
-AmazonCloudWatchRum('AmazonCloudWatchRum', 'Amazon Cloud Watch Rum', 'an optional tech label')
+AmazonCloudWatchRum('AmazonCloudWatchRum', 'Amazon Cloud Watch Rum', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/ManagementGovernance/AmazonCloudWatchRum')
 
 ' renders the element
-AmazonCloudWatchRum('AmazonCloudWatchRum', 'Amazon Cloud Watch Rum', 'an optional tech label')
+AmazonCloudWatchRum('AmazonCloudWatchRum', 'Amazon Cloud Watch Rum', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

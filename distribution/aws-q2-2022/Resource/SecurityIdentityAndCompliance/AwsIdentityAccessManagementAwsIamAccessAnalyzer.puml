@@ -8,8 +8,8 @@ sprite $AwsIdentityAccessManagementAwsIamAccessAnalyzerMd [16x16/16z] VSl50KKn44
 
 sprite $AwsIdentityAccessManagementAwsIamAccessAnalyzerLg [20x20/16z] XT2r0KG13CDGnKU9lV-ynqp_bIh5CjaVBH00zuElhNbekzyR1VUsABQ7kxM004yjkRLrs8O9ZGOYQRWgIobAKd6Z8u0jdtgfzUxUFhuycMjxvitseo710G
 
-!procedure AwsIdentityAccessManagementAwsIamAccessAnalyzer($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessManagementAwsIamAccessAnalyzer', $name, $tech)
+!procedure AwsIdentityAccessManagementAwsIamAccessAnalyzer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessManagementAwsIamAccessAnalyzer', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIdentityAccessManagementAwsIamAccessAnalyzerCard($id, $funcName="", $content="")

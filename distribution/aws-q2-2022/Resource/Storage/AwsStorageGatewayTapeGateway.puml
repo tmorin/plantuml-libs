@@ -11,8 +11,8 @@ hT350GGX50DG-9x-2yPbzJOE3mkaFrUsG5X-4OMCFyCtaRpqtqPtoAEsibnZA1derK97sVaQMUCU6TTM
 CXiHuVMmQLwjM04
 }
 
-!procedure AwsStorageGatewayTapeGateway($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Storage/AwsStorageGatewayTapeGateway', $name, $tech)
+!procedure AwsStorageGatewayTapeGateway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Storage/AwsStorageGatewayTapeGateway', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsStorageGatewayTapeGatewayCard($id, $funcName="", $content="")

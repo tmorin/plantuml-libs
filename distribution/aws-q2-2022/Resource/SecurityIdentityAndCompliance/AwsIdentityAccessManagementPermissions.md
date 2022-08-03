@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessManagementPermissions')
 
 ' renders the element
-AwsIdentityAccessManagementPermissions('AwsIdentityAccessManagementPermissions', 'Aws Identity Access Management Permissions', 'an optional tech label')
+AwsIdentityAccessManagementPermissions('AwsIdentityAccessManagementPermissions', 'Aws Identity Access Management Permissions', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessManagementPermissions')
 
 ' renders the element
-AwsIdentityAccessManagementPermissions('AwsIdentityAccessManagementPermissions', 'Aws Identity Access Management Permissions', 'an optional tech label')
+AwsIdentityAccessManagementPermissions('AwsIdentityAccessManagementPermissions', 'Aws Identity Access Management Permissions', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/GroupIcons/Ec2InstanceContainer')
 
 ' renders the element
-Ec2InstanceContainer('Ec2InstanceContainer', 'Ec2 Instance Container', 'an optional tech label')
+Ec2InstanceContainer('Ec2InstanceContainer', 'Ec2 Instance Container', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/GroupIcons/Ec2InstanceContainer')
 
 ' renders the element
-Ec2InstanceContainer('Ec2InstanceContainer', 'Ec2 Instance Container', 'an optional tech label')
+Ec2InstanceContainer('Ec2InstanceContainer', 'Ec2 Instance Container', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

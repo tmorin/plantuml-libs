@@ -11,8 +11,8 @@ XSg54G0n30F1iu9E__q-Cohe7V6VUgUcTYLVph6rtkPZ12YLYETaI00U8s230OjXHZvORbFmmOP_6Aqm
 3GgPVB8oMWgBMN6jFIJ5mJ09WM6J2Ne
 }
 
-!procedure AwsTransferFamilyAwsFtp($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/MigrationAndTransfer/AwsTransferFamilyAwsFtp', $name, $tech)
+!procedure AwsTransferFamilyAwsFtp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/MigrationAndTransfer/AwsTransferFamilyAwsFtp', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsTransferFamilyAwsFtpCard($id, $funcName="", $content="")

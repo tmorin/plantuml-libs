@@ -11,8 +11,8 @@ VP1L0iKW30Ht8vIz_u6V9FseClW4nuB8cw8KTsauaUMOUGYeQvBxUXD4_G4OMyKdAABnGB0MRXhx3XAy
 YewkoCDQFp7-ZXVwX-PP-j_Hpk0B
 }
 
-!procedure AmazonElasticFileSystemStandard($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Storage/AmazonElasticFileSystemStandard', $name, $tech)
+!procedure AmazonElasticFileSystemStandard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Storage/AmazonElasticFileSystemStandard', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonElasticFileSystemStandardCard($id, $funcName="", $content="")

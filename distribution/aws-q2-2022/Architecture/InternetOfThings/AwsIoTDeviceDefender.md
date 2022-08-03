@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/InternetOfThings/AwsIoTDeviceDefender')
 
 ' renders the element
-AwsIoTDeviceDefender('AwsIoTDeviceDefender', 'Aws Io T Device Defender', 'an optional tech label')
+AwsIoTDeviceDefender('AwsIoTDeviceDefender', 'Aws Io T Device Defender', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/InternetOfThings/AwsIoTDeviceDefender')
 
 ' renders the element
-AwsIoTDeviceDefender('AwsIoTDeviceDefender', 'Aws Io T Device Defender', 'an optional tech label')
+AwsIoTDeviceDefender('AwsIoTDeviceDefender', 'Aws Io T Device Defender', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

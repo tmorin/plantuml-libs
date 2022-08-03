@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Compute/AmazonEc2M5Instance')
 
 ' renders the element
-AmazonEc2M5Instance('AmazonEc2M5Instance', 'Amazon Ec2 M5 Instance', 'an optional tech label')
+AmazonEc2M5Instance('AmazonEc2M5Instance', 'Amazon Ec2 M5 Instance', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Compute/AmazonEc2M5Instance')
 
 ' renders the element
-AmazonEc2M5Instance('AmazonEc2M5Instance', 'Amazon Ec2 M5 Instance', 'an optional tech label')
+AmazonEc2M5Instance('AmazonEc2M5Instance', 'Amazon Ec2 M5 Instance', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

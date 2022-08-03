@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/LoT/AwsIoTAnalyticsNotebook')
 
 ' renders the element
-AwsIoTAnalyticsNotebook('AwsIoTAnalyticsNotebook', 'Aws Io T Analytics Notebook', 'an optional tech label')
+AwsIoTAnalyticsNotebook('AwsIoTAnalyticsNotebook', 'Aws Io T Analytics Notebook', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/LoT/AwsIoTAnalyticsNotebook')
 
 ' renders the element
-AwsIoTAnalyticsNotebook('AwsIoTAnalyticsNotebook', 'Aws Io T Analytics Notebook', 'an optional tech label')
+AwsIoTAnalyticsNotebook('AwsIoTAnalyticsNotebook', 'Aws Io T Analytics Notebook', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

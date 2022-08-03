@@ -8,8 +8,8 @@ sprite $AwsIoTSiteWiseDataStreamsMd [16x16/16z] VSU50S0m449Hg07x3rptDlcHkuTAilCm
 
 sprite $AwsIoTSiteWiseDataStreamsLg [20x20/16z] ZSm53a0n28FXbWJf_G_yt7L_RFa6uB-GP3YN03TZJUbayolTuseSmdELljwwDzbfrsUJkPrCIe46kISN2moimG1dPYmsDXjO9niYiDYf5yFPsdT968Yf7W
 
-!procedure AwsIoTSiteWiseDataStreams($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTSiteWiseDataStreams', $name, $tech)
+!procedure AwsIoTSiteWiseDataStreams($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTSiteWiseDataStreams', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTSiteWiseDataStreamsCard($id, $funcName="", $content="")

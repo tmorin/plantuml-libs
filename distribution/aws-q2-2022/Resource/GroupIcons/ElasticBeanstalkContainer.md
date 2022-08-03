@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/GroupIcons/ElasticBeanstalkContainer')
 
 ' renders the element
-ElasticBeanstalkContainer('ElasticBeanstalkContainer', 'Elastic Beanstalk Container', 'an optional tech label')
+ElasticBeanstalkContainer('ElasticBeanstalkContainer', 'Elastic Beanstalk Container', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/GroupIcons/ElasticBeanstalkContainer')
 
 ' renders the element
-ElasticBeanstalkContainer('ElasticBeanstalkContainer', 'Elastic Beanstalk Container', 'an optional tech label')
+ElasticBeanstalkContainer('ElasticBeanstalkContainer', 'Elastic Beanstalk Container', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

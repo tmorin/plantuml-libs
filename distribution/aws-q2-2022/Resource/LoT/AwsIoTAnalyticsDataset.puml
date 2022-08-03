@@ -8,8 +8,8 @@ sprite $AwsIoTAnalyticsDatasetMd [16x16/16z] XSc53S100810wcN_WUlwIfGSKTDyvVKtpAt
 
 sprite $AwsIoTAnalyticsDatasetLg [20x20/16z] dSs54S1G309GI1lRV-2wU_yx3t31jToORxQ98Pnk783ThTRnHXrGknlql9rl5JCYEvUzvnjLePst7-AJWXzY0zfpBpU6sybyKwxccsmGQ04
 
-!procedure AwsIoTAnalyticsDataset($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTAnalyticsDataset', $name, $tech)
+!procedure AwsIoTAnalyticsDataset($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTAnalyticsDataset', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsIoTAnalyticsDatasetCard($id, $funcName="", $content="")

@@ -8,8 +8,8 @@ sprite $AmazonCloudWatchAlarmMd [16x16/16z] dOq50W0X20HjOFV_xxtkFaVfSlSaCctZClmL
 
 sprite $AmazonCloudWatchAlarmLg [20x20/16z] jSZ50SKm30JHKTYx_TVx6OsdFAE6eKdQiXI2DV7dCPe_ghHbWobh7BR8J11aR6i2T7Ey6qpJyyNLvfijRn0djfIanxqzxecghH1N
 
-!procedure AmazonCloudWatchAlarm($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ManagementGovernance/AmazonCloudWatchAlarm', $name, $tech)
+!procedure AmazonCloudWatchAlarm($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ManagementGovernance/AmazonCloudWatchAlarm', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonCloudWatchAlarmCard($id, $funcName="", $content="")

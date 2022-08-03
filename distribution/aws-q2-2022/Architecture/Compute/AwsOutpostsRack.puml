@@ -11,8 +11,8 @@ RSx70GGn24DH6oo9xR_WdQZ9__WSG4iymvoUI9iUPWITBHBjOKoHhTyiY35tDKBBdO7LQZL04G7ijc4k
 wxgO1zdU-Fl02G
 }
 
-!procedure AwsOutpostsRack($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Compute/AwsOutpostsRack', $name, $tech)
+!procedure AwsOutpostsRack($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Compute/AwsOutpostsRack', $name, $tech, $desc)
 !endprocedure
 
 !procedure AwsOutpostsRackCard($id, $funcName="", $content="")

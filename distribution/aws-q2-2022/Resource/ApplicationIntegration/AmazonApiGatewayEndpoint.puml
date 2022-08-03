@@ -11,8 +11,8 @@ ZSg53KDH049HdWlxprk1wdTYvEHYTvDU-Q7uFcL5G1UQ-3mSAasHJPQdondmk5K6K8tFsm8HbuPJg-HE
 hq6x0m
 }
 
-!procedure AmazonApiGatewayEndpoint($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ApplicationIntegration/AmazonApiGatewayEndpoint', $name, $tech)
+!procedure AmazonApiGatewayEndpoint($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ApplicationIntegration/AmazonApiGatewayEndpoint', $name, $tech, $desc)
 !endprocedure
 
 !procedure AmazonApiGatewayEndpointCard($id, $funcName="", $content="")

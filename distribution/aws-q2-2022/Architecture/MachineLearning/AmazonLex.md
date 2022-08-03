@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/MachineLearning/AmazonLex')
 
 ' renders the element
-AmazonLex('AmazonLex', 'Amazon Lex', 'an optional tech label')
+AmazonLex('AmazonLex', 'Amazon Lex', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Architecture/MachineLearning/AmazonLex')
 
 ' renders the element
-AmazonLex('AmazonLex', 'Amazon Lex', 'an optional tech label')
+AmazonLex('AmazonLex', 'Amazon Lex', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

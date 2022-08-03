@@ -36,7 +36,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Compute/AmazonEc2T4GInstance')
 
 ' renders the element
-AmazonEc2T4GInstance('AmazonEc2T4gInstance', 'Amazon Ec2 T4g Instance', 'an optional tech label')
+AmazonEc2T4GInstance('AmazonEc2T4gInstance', 'Amazon Ec2 T4g Instance', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('aws-q2-2022/bootstrap')
 include('aws-q2-2022/Resource/Compute/AmazonEc2T4GInstance')
 
 ' renders the element
-AmazonEc2T4GInstance('AmazonEc2T4gInstance', 'Amazon Ec2 T4g Instance', 'an optional tech label')
+AmazonEc2T4GInstance('AmazonEc2T4gInstance', 'Amazon Ec2 T4g Instance', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
