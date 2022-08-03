@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/AzureStack/ServiceMultiTenancy')
 
 ' renders the element
-ServiceMultiTenancy('ServiceMultiTenancy', 'Service Multi Tenancy', 'an optional tech label')
+ServiceMultiTenancy('ServiceMultiTenancy', 'Service Multi Tenancy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/AzureStack/ServiceMultiTenancy')
 
 ' renders the element
-ServiceMultiTenancy('ServiceMultiTenancy', 'Service Multi Tenancy', 'an optional tech label')
+ServiceMultiTenancy('ServiceMultiTenancy', 'Service Multi Tenancy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

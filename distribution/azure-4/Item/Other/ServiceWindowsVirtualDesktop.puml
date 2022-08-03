@@ -2,20 +2,20 @@
 
 sprite $ServiceWindowsVirtualDesktopXs [10x10/16z] JOY74G0X3CFyJHJll-_RLn4aqKadR2ygqoMAmqLq-x9eJ56UfrOj82BbKxIW09EK7m
 
-sprite $ServiceWindowsVirtualDesktopSm [12x12/16z] LSQ73KGn2C1Gfr7a_VSzeQzsBm7ClnrP6MlojICtx2-t2U6OyqXTSjIWPicRaohjcWwb78-LjYE0dLyknek81_m
+sprite $ServiceWindowsVirtualDesktopSm [12x12/16z] LSQ94KCX30FH_O1bcEs_tqpkvFcG-3VIkyDT7Uzwm7ZMOKEykqVHUibKmxu_gNkqol6wzoZRkuBsU1TWzBlULP82RW
 
 sprite $ServiceWindowsVirtualDesktopMd [16x16/16z] {
-ROy53i0m30DT2ld__vqiZRShNbB47yj4twrRKhZjofqo-Q6nc0jOkQiItjJJTzK23UXie338YSQEcnSMUzjTslT31xgJ61AbTN_HT_K91VBGjN_75GcRs6dw
-u83O
+RO-54O0m54DJ_PBzz-LoEFIXaHfMZ2dgeUeC2fk7v45EwLFwO0nWn24Ls1xR8LNG1vK551FIH675GoS6QpcqP3qcRQX6ed5dQlsa7T8wPCGfnt4Sa-EplmxO
+83O
 }
 
 sprite $ServiceWindowsVirtualDesktopLg [20x20/16z] {
-TO_7WGH120E54prD_l6EWVEtMy_22cynvqqOlWdchgg3_BJ2h0ysOnnNVKFlmVmITjnI0UEN4l1P2lXNcpwg6xcVZgZ2gAA1qn8Lq7RfxKOIKZUhtUpFM-hq
-nT75xbaVDuoZzbSKGH_khY43y_JwwEgN7-AMtqhHE8ynErirGZ9Nae4VgBcx2feB
+TP175aGX20GnqAZS_xx3fmshgPMl9Cj_EW9jyb3OSlS975jWlbbGEWn_e6UYNT5co1eELvNlFH4TRrZbTpYiBqBTJmQQW27gAZMTzNIKaEB1ICVw5h8oJcT-
+PamEYYeDLEkk8coSKSHK90F7ZkB8WOPygfxZJPfbLBmMOCF0IrrQx_t4_
 }
 
-!procedure ServiceWindowsVirtualDesktop($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Other/ServiceWindowsVirtualDesktop', $name, $tech)
+!procedure ServiceWindowsVirtualDesktop($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Other/ServiceWindowsVirtualDesktop', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceWindowsVirtualDesktopCard($id, $funcName="", $content="")

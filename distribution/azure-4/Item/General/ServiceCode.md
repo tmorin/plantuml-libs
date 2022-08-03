@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceCode')
 
 ' renders the element
-ServiceCode('ServiceCode', 'Service Code', 'an optional tech label')
+ServiceCode('ServiceCode', 'Service Code', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceCode')
 
 ' renders the element
-ServiceCode('ServiceCode', 'Service Code', 'an optional tech label')
+ServiceCode('ServiceCode', 'Service Code', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

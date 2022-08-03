@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Databases/ServiceVirtualClusters')
 
 ' renders the element
-ServiceVirtualClusters('ServiceVirtualClusters', 'Service Virtual Clusters', 'an optional tech label')
+ServiceVirtualClusters('ServiceVirtualClusters', 'Service Virtual Clusters', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Databases/ServiceVirtualClusters')
 
 ' renders the element
-ServiceVirtualClusters('ServiceVirtualClusters', 'Service Virtual Clusters', 'an optional tech label')
+ServiceVirtualClusters('ServiceVirtualClusters', 'Service Virtual Clusters', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Identity/ServiceEnterpriseApplications')
 
 ' renders the element
-ServiceEnterpriseApplications('ServiceEnterpriseApplications', 'Service Enterprise Applications', 'an optional tech label')
+ServiceEnterpriseApplications('ServiceEnterpriseApplications', 'Service Enterprise Applications', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Identity/ServiceEnterpriseApplications')
 
 ' renders the element
-ServiceEnterpriseApplications('ServiceEnterpriseApplications', 'Service Enterprise Applications', 'an optional tech label')
+ServiceEnterpriseApplications('ServiceEnterpriseApplications', 'Service Enterprise Applications', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

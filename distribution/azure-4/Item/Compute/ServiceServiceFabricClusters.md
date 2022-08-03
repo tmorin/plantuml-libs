@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Compute/ServiceServiceFabricClusters')
 
 ' renders the element
-ServiceServiceFabricClusters('ServiceServiceFabricClusters', 'Service Service Fabric Clusters', 'an optional tech label')
+ServiceServiceFabricClusters('ServiceServiceFabricClusters', 'Service Service Fabric Clusters', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Compute/ServiceServiceFabricClusters')
 
 ' renders the element
-ServiceServiceFabricClusters('ServiceServiceFabricClusters', 'Service Service Fabric Clusters', 'an optional tech label')
+ServiceServiceFabricClusters('ServiceServiceFabricClusters', 'Service Service Fabric Clusters', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

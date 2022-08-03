@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/ManagementGovernance/ServiceActivityLog')
 
 ' renders the element
-ServiceActivityLog('ServiceActivityLog', 'Service Activity Log', 'an optional tech label')
+ServiceActivityLog('ServiceActivityLog', 'Service Activity Log', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/ManagementGovernance/ServiceActivityLog')
 
 ' renders the element
-ServiceActivityLog('ServiceActivityLog', 'Service Activity Log', 'an optional tech label')
+ServiceActivityLog('ServiceActivityLog', 'Service Activity Log', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

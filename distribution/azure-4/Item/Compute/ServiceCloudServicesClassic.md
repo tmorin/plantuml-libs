@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Compute/ServiceCloudServicesClassic')
 
 ' renders the element
-ServiceCloudServicesClassic('ServiceCloudServicesClassic', 'Service Cloud Services Classic', 'an optional tech label')
+ServiceCloudServicesClassic('ServiceCloudServicesClassic', 'Service Cloud Services Classic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Compute/ServiceCloudServicesClassic')
 
 ' renders the element
-ServiceCloudServicesClassic('ServiceCloudServicesClassic', 'Service Cloud Services Classic', 'an optional tech label')
+ServiceCloudServicesClassic('ServiceCloudServicesClassic', 'Service Cloud Services Classic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

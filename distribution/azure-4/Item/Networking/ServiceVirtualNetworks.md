@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Networking/ServiceVirtualNetworks')
 
 ' renders the element
-ServiceVirtualNetworks('ServiceVirtualNetworks', 'Service Virtual Networks', 'an optional tech label')
+ServiceVirtualNetworks('ServiceVirtualNetworks', 'Service Virtual Networks', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Networking/ServiceVirtualNetworks')
 
 ' renders the element
-ServiceVirtualNetworks('ServiceVirtualNetworks', 'Service Virtual Networks', 'an optional tech label')
+ServiceVirtualNetworks('ServiceVirtualNetworks', 'Service Virtual Networks', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

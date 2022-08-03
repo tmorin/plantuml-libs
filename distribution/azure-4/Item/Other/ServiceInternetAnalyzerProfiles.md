@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Other/ServiceInternetAnalyzerProfiles')
 
 ' renders the element
-ServiceInternetAnalyzerProfiles('ServiceInternetAnalyzerProfiles', 'Service Internet Analyzer Profiles', 'an optional tech label')
+ServiceInternetAnalyzerProfiles('ServiceInternetAnalyzerProfiles', 'Service Internet Analyzer Profiles', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Other/ServiceInternetAnalyzerProfiles')
 
 ' renders the element
-ServiceInternetAnalyzerProfiles('ServiceInternetAnalyzerProfiles', 'Service Internet Analyzer Profiles', 'an optional tech label')
+ServiceInternetAnalyzerProfiles('ServiceInternetAnalyzerProfiles', 'Service Internet Analyzer Profiles', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

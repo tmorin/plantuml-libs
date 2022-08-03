@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceHelpAndSupport')
 
 ' renders the element
-ServiceHelpAndSupport('ServiceHelpAndSupport', 'Service Help And Support', 'an optional tech label')
+ServiceHelpAndSupport('ServiceHelpAndSupport', 'Service Help And Support', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceHelpAndSupport')
 
 ' renders the element
-ServiceHelpAndSupport('ServiceHelpAndSupport', 'Service Help And Support', 'an optional tech label')
+ServiceHelpAndSupport('ServiceHelpAndSupport', 'Service Help And Support', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

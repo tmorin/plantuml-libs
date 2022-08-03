@@ -2,20 +2,20 @@
 
 sprite $ServiceKeyVaultsXs [10x10/16z] JSYt0SC030Cmg0pK_mSdzcOiBBxIMu7fCKBCos5szptnNaRHWyZRYYDwM-2oEVu
 
-sprite $ServiceKeyVaultsSm [12x12/16z] LOst0S0m3CCGg_z_i0ktQ2415_4Vx_3gxzLUop32mMzzGq9ZvkuNvg6yBA1AFOygJQilzIzkTqFI4tT7os0w-ja3
+sprite $ServiceKeyVaultsSm [12x12/16z] LSYv4S103CD0pEdlls5BpCne2Vxp3gyM-pt32D-wl96RCNFtFNDNNHKGgUk8srj-Ch5s4_74tPVQTFJn0m
 
 sprite $ServiceKeyVaultsMd [16x16/16z] {
-RSZN0SCm30FHOx54xBzmrD9zNtZWhbBBKXvbXOSbJJOPdK4YCKtNu2fn3JfZpYBeXdZPiQAOnym1qG4Efujpi2rckHsDR1ykG3QT2LmDCFdnLQpKBTEY6YSh
-bROU
+RSZ9WKKX2031KdWA-GSyy_UzRzL-LRsoEc_AYXaZhGQndIZIQAWJBwNPr1IHvo9isiFJA8MuDD4sN7bnkGrNDyYhOydbwK8FP2QE1JrlFigbtYDpH2rkLLTV
+zGy
 }
 
 sprite $ServiceKeyVaultsLg [20x20/16z] {
-TSx75SGW40JHWd4z-IUymZpfj8N_9_YRLLUgWwzMJ7SVKbwP7KmRcFFeiRQ73EQ3g3R5ejD20nFO5zPGiSrNov3Hm7mDK20sdW2yZbsy_wUvU8bCD8xvDHI4
-NXl7nbby5WsaZhalcuj02sUuJvWoTYLZk3j4Nm9hAJobld0qgZ87kny
+TSY5SGLG24N1Wpqk_JUSCDzjnvUVhAUFfdWObMUcIOSBcyB3YEH_BpVnNm4U2MgsQkjYCy04yK0CTB6NQmyP0_Zz01M2pGk0RCGZMT4CzuHr3hBBvVMGKxgV
+NGwGlLmDS7Ivp3tV0crwPJgu0bOhiCo4ccj1Z5Hvf847g-xZNFm1
 }
 
-!procedure ServiceKeyVaults($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Security/ServiceKeyVaults', $name, $tech)
+!procedure ServiceKeyVaults($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Security/ServiceKeyVaults', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceKeyVaultsCard($id, $funcName="", $content="")

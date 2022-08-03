@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Databases/ServiceAzureSqlVm')
 
 ' renders the element
-ServiceAzureSqlVm('ServiceAzureSqlVm', 'Service Azure Sql Vm', 'an optional tech label')
+ServiceAzureSqlVm('ServiceAzureSqlVm', 'Service Azure Sql Vm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Databases/ServiceAzureSqlVm')
 
 ' renders the element
-ServiceAzureSqlVm('ServiceAzureSqlVm', 'Service Azure Sql Vm', 'an optional tech label')
+ServiceAzureSqlVm('ServiceAzureSqlVm', 'Service Azure Sql Vm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

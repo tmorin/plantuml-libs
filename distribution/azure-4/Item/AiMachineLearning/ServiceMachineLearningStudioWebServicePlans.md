@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/AiMachineLearning/ServiceMachineLearningStudioWebServicePlans')
 
 ' renders the element
-ServiceMachineLearningStudioWebServicePlans('ServiceMachineLearningStudioWebServicePlans', 'Service Machine Learning Studio Web Service Plans', 'an optional tech label')
+ServiceMachineLearningStudioWebServicePlans('ServiceMachineLearningStudioWebServicePlans', 'Service Machine Learning Studio Web Service Plans', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/AiMachineLearning/ServiceMachineLearningStudioWebServicePlans')
 
 ' renders the element
-ServiceMachineLearningStudioWebServicePlans('ServiceMachineLearningStudioWebServicePlans', 'Service Machine Learning Studio Web Service Plans', 'an optional tech label')
+ServiceMachineLearningStudioWebServicePlans('ServiceMachineLearningStudioWebServicePlans', 'Service Machine Learning Studio Web Service Plans', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

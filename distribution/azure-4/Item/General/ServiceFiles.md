@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceFiles')
 
 ' renders the element
-ServiceFiles('ServiceFiles', 'Service Files', 'an optional tech label')
+ServiceFiles('ServiceFiles', 'Service Files', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceFiles')
 
 ' renders the element
-ServiceFiles('ServiceFiles', 'Service Files', 'an optional tech label')
+ServiceFiles('ServiceFiles', 'Service Files', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

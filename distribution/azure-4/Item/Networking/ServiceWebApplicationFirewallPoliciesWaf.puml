@@ -2,20 +2,20 @@
 
 sprite $ServiceWebApplicationFirewallPoliciesWafXs [10x10/16z] 9Og53G1H349xIGN8tt_Ugxm8QiDd2y6cJH3kNcqTqQRxkMHwEcDTzTtItj4_wLL9NOj9AVlMNQRq0m
 
-sprite $ServiceWebApplicationFirewallPoliciesWafSm [12x12/16z] DOhN0G0X349H0p5b_tMlt_kXuc7W8nWNJupOBZCkm2vht3i2y37er1Mqxfz4Ga4yNWC8n9XrqLa5UMIsL9bObtNvdG5ctv_k0c3_vmG
+sprite $ServiceWebApplicationFirewallPoliciesWafSm [12x12/16z] DOh70S0W30CLm7BTVzvGxwEApOUBYq-ETLEE8NCRqmunMuj-dwXm1lOvWHG1NR0zP-Nmh-Ma8XDKZoWo8z2dLUhAW4IjJrK2QE_p0m
 
 sprite $ServiceWebApplicationFirewallPoliciesWafMd [16x16/16z] {
-LSpN0GGW20DGb1fr_talU3rVF9eyCuPyuuvEl0Xa09Nkbrrxcfb7FfUht3oh03RG4mkBsw3xUqQOjwVT9nuHFcGWF5w-poe6s9x9bCxfnd-9jTQfghtMbZAI
-vWMzU8kd3fKbCjkyRnSjus-ViRtt0R2P1m
+LOm70aCX24FHaX3qt_-yZTrzpiUA9sF45w0FV6btiLi5FFJyKPa9rhDOGg8a5xhwP9B9Hy1-fXUPE3uJOK0I8qOJV7lv5KSxFCleDYVIywhNMfUalTOEfTLE
+qhxSsq-xRAM8STpznwKmV_Lcxhslxjxc3W
 }
 
 sprite $ServiceWebApplicationFirewallPoliciesWafLg [20x20/16z] {
-LOq74iGW30C5aHlm__UUTJsR09eT5mWn1svSLa_YvwjIKXXUfB9dkf5yIPLayYdYLNanMpcfKhMqAtQsLlHuIJa0mo9Sykb6GLpUq7omQZ8WXWkri6W9CQM2
-IiLPGyv5kEfyelo2dHjGUwtcUBCxR92Uw-cYaJl0kwoBdk_s1Q2Kw-wGQpUdcgC0mVkEbplYMImU
+NOy94iCm20CX5J8a_lzxY-ZTpM7DZct0NXnkFtZKi3wgAYL5F5KgCvC1u26r9HCZrcFdWMn5G5jrf5sXSxG2rqFAJU6rA3dEoyID3OAETdZqv1pP2UMHumwf
+1QNoVkKuZjf7j-BDOlzWXSWwcytcwd2PWtcEMutSDdjk8pdhnLEJADUlipolPbUp5KpWhuOujfZDuWu
 }
 
-!procedure ServiceWebApplicationFirewallPoliciesWaf($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Networking/ServiceWebApplicationFirewallPoliciesWaf', $name, $tech)
+!procedure ServiceWebApplicationFirewallPoliciesWaf($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Networking/ServiceWebApplicationFirewallPoliciesWaf', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceWebApplicationFirewallPoliciesWafCard($id, $funcName="", $content="")

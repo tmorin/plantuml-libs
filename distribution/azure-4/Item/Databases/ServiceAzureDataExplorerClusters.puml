@@ -2,17 +2,17 @@
 
 sprite $ServiceAzureDataExplorerClustersXs [10x10/16z] HSY55S1020KmUih-4pTKqRmVV_MrzXogMC_WY0C9WUR5aOM5cH6C15C-4WRW2G
 
-sprite $ServiceAzureDataExplorerClustersSm [12x12/16z] JSe10iCG04FH3ydS_yHBjgtjR_60Pylsoxl1jaDMpGwZMHFEdDQP_szaWdIGMAACMMOI7dgAGV4KGwI-XpAjDm
+sprite $ServiceAzureDataExplorerClustersSm [12x12/16z] JSk73GD024DHYxx_nFbEl_f0HlyhPcQdl5u5VzeAYC9ML0PTp8rFfaU0TUfMSY1MZcSEkol7S42E2xtfs0C
 
-sprite $ServiceAzureDataExplorerClustersMd [16x16/16z] NSe75aGX349HDCtzhtXUp7H-aUj1_zb9giedak5BZUMOPkDxGTbyQwokweMDwNTXtbufDGKB1-xkyC3WauPdc4jguZLq3iYUnPAbKQwz6Ll4yOSaCCU6ppm
+sprite $ServiceAzureDataExplorerClustersMd [16x16/16z] NSg70O0m30D1ftl_YVcdWwYdAFufawor-f68gcKSjf3jy5xmKtdAuQZyXekcZy95EyvdH8E-5XoOVxCI3XuBcV9OL8ZBmSuYDNGzwr5m8WVSYpVvmNogFB81
 
 sprite $ServiceAzureDataExplorerClustersLg [20x20/16z] {
-RSq74W8n40D1EQpD_r-CH-Z8gWHzurhzMrjidzNCf64BnJGnY216kHqqfNDP2F_xYFc9r0v9CNwaQ-bIKitN3J-vxcweLahljg5gQYvDnmv9MZmV43Qf2f8W
-Z5KTSdbPCzMQV8qzg4gC6wbcKR7YXYcLowNkYoFWtG4
+RSq7ZWGX44DH0vNkV-B5bdUo5VlfDuMVAwxlCZpWo4msR1g9WOrbArXmfp8f_Dx7fb-0YnkGgGntovrBLl6yiLNwRfEoN6hJf0IMIj4r4QfS3Yr8oHTPZepB
+l4G-DbDMW2WpPO8BcIYI5NTuG-HAPM7fuZ5eVm
 }
 
-!procedure ServiceAzureDataExplorerClusters($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Databases/ServiceAzureDataExplorerClusters', $name, $tech)
+!procedure ServiceAzureDataExplorerClusters($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Databases/ServiceAzureDataExplorerClusters', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceAzureDataExplorerClustersCard($id, $funcName="", $content="")

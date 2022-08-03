@@ -2,17 +2,17 @@
 
 sprite $ServiceUserSubscriptionsXs [10x10/16z] JOg70GC1209HuPBz5_xUpYxeIv8vbaxWs0QkJR-DOt6gCh8CPMP6mEorkKwsxNzYhG
 
-sprite $ServiceUserSubscriptionsSm [12x12/16z] NOk50S0m3CCCWVt_y9XQXS6Oo4n_RURTru7VlllUgxiBqlbFCcNnb5BfY3YLFCGMUiT76EYR_GNBJGaR
+sprite $ServiceUserSubscriptionsSm [12x12/16z] NOo30G0m30JZx_uBrxwOzE7kkjB6pAF1EmTcdm543NsVcLrKk9-ok9fPl-HgMj-YejLMtgWhb2OXL
 
-sprite $ServiceUserSubscriptionsMd [16x16/16z] RSm10a0m34FHjadg_ZUM3O0FlBB5NvHK3pgSdkm-Y1vTpfTZcIaU0ty6fqhCJ0a8cf2q6_IWNNbFMOGvodP07Pjpt82qh_Ws_JzuPQu
+sprite $ServiceUserSubscriptionsMd [16x16/16z] TKm50W0X3782k_-_-Cekp55X1qgoOHo8VtIli_yupzSFXO5uPV2VecXc4X0-0fBo33ArHNFNEn6vtBuBYAMStmMaxWBEyr_FXZV-
 
 sprite $ServiceUserSubscriptionsLg [20x20/16z] {
-TT070eCm34FHs9BStl_4nK5byzYVdV4gAJ5FAJJXs6Hnk5Ejgh0tbcblAEFOVGo7HhTnL5sg7vFmPL8i9003T5BEHYm8VmaZbYrM8sgAtWej_X-CN3U0Nzaq
-rq3wUtTyQkpsFV78ugJJ3m
+TSu55eGm34NHfbzczhzXQ7E2myClblOT9SP5GXdEfkf4FS4s3gCh7GPNR4U_Aax6idREKpm_qx4F72C9G0EBrDE84L6JC68SaGrp5Z7dAwg1qVCmAN-PAVT0
+htcF-6QSzh-aj1QN9gq
 }
 
-!procedure ServiceUserSubscriptions($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/AzureStack/ServiceUserSubscriptions', $name, $tech)
+!procedure ServiceUserSubscriptions($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/AzureStack/ServiceUserSubscriptions', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceUserSubscriptionsCard($id, $funcName="", $content="")

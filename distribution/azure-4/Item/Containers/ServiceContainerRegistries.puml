@@ -2,17 +2,17 @@
 
 sprite $ServiceContainerRegistriesXs [10x10/16z] LOc55O0m34JHo6F_VJb1sjycELac8dUB9BXh2IWTM8dpE4-4tOrxLb55L5q80TjNHSKD
 
-sprite $ServiceContainerRegistriesSm [12x12/16z] NSf50aG1209G6-F-vvtvNM-b07s9yNbYzJXXonMvMulj470cRoTR0Y5IY_qEskxfgGmY1xOSIPjZi_7CDFu3
+sprite $ServiceContainerRegistriesSm [12x12/16z] NOh50S0m30CLiWpxpnigzrw2mvzKxyZ5ApBF97gmZXqoa-eHKPMKd6roPC7EuM4gG27tJiNcS8xSLBLY
 
-sprite $ServiceContainerRegistriesMd [16x16/16z] ZOkr0S1G44BvPt3PVz-uTdaLYZyOL-fhLoxFapYSBlR7fGSb3jXXKLAi-gv3bHGoFvv4xrIrjFg4xzvRFKtT190ajtrH4WwkVtxyqoCasW0M
+sprite $ServiceContainerRegistriesMd [16x16/16z] ZOv50WDH24Fv0eIv_u6BLdPzApG9_SDIHtvRPtfjTdKOycFgfO1_x6f9WElrhE-5i8AOVthtiEIA0TupxUoNmPx7B3AmMyUzA00gvfz_-jax5yYyBm
 
 sprite $ServiceContainerRegistriesLg [20x20/16z] {
-bOv50iCm40DDMZdD__zRcU7KJj2pwFx36ybugCJ6fIxfEKdTv0rhTUkSHKsSofaFzJlJB83C23hFD20H6LHnjDkPvZmDGEVYaEdOdJtl-tdKMAudcZUgXG9b
-idgIRFtagRp1c85VdDNjtIIIIDw9Bm
+bSq5ciCW04JXWMKac_lVjqZT-wByy05-JBR_RgHvTKiFw7DrGSbLcbHpIkarzCu4bJg_Q5cfqWvh7v-NaSqCdOQYUrE4RKNI6SOONaPj-_w_9Ug6POASf4ya
+08fih_swEyQfqndynfH45UUApOBH0G
 }
 
-!procedure ServiceContainerRegistries($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Containers/ServiceContainerRegistries', $name, $tech)
+!procedure ServiceContainerRegistries($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Containers/ServiceContainerRegistries', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceContainerRegistriesCard($id, $funcName="", $content="")

@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/AppServices/ServiceAppServicePlans')
 
 ' renders the element
-ServiceAppServicePlans('ServiceAppServicePlans', 'Service App Service Plans', 'an optional tech label')
+ServiceAppServicePlans('ServiceAppServicePlans', 'Service App Service Plans', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/AppServices/ServiceAppServicePlans')
 
 ' renders the element
-ServiceAppServicePlans('ServiceAppServicePlans', 'Service App Service Plans', 'an optional tech label')
+ServiceAppServicePlans('ServiceAppServicePlans', 'Service App Service Plans', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Compute/ServiceDiskEncryptionSets')
 
 ' renders the element
-ServiceDiskEncryptionSets('ServiceDiskEncryptionSets', 'Service Disk Encryption Sets', 'an optional tech label')
+ServiceDiskEncryptionSets('ServiceDiskEncryptionSets', 'Service Disk Encryption Sets', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Compute/ServiceDiskEncryptionSets')
 
 ' renders the element
-ServiceDiskEncryptionSets('ServiceDiskEncryptionSets', 'Service Disk Encryption Sets', 'an optional tech label')
+ServiceDiskEncryptionSets('ServiceDiskEncryptionSets', 'Service Disk Encryption Sets', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,17 +2,17 @@
 
 sprite $ServiceLogAnalyticsWorkspacesXs [10x10/16z] LSQ50G0W24HHcjj_OJk_0e_-l3KGemOviapADX5NZXuz0GeisLG5
 
-sprite $ServiceLogAnalyticsWorkspacesSm [12x12/16z] POg50S0W30JZoVuBuywrm1jyQ06xj0OkMUwcSMj7X_9viJ9qhJGwKFCgNEhOrSkq4M6rVtK6
+sprite $ServiceLogAnalyticsWorkspacesSm [12x12/16z] POh50S103CES2oZxBrpcwcMGVkI2xR4sxgYzbDqPGmYM6aTUh-mThViQ6AjC0jhehlN_vXa
 
-sprite $ServiceLogAnalyticsWorkspacesMd [16x16/16z] VSs50O0m30J0UDX_OcAuVFMgy1xK31xiqDYsD6LW9cKr75iVTt2LwDo1cIajMCupSXZIwil48C_irlnBX4Kp7EfzouScUSkY-xCVNW4
+sprite $ServiceLogAnalyticsWorkspacesMd [16x16/16z] VSu74e0m24HHO63N-vzODdMQVkkp9B6FIXrvpM8PkybO07B-35_6_9p6oZwH5fsSFWqWhqqkFYkOlZakBQMBaRVcUsYWbVv2d_xCwnS
 
 sprite $ServiceLogAnalyticsWorkspacesLg [20x20/16z] {
-XSW5aWH024FH887U-rzuKnJZzbhv-2eeyP2u_5gCLuR5ki6g1Pt0yAgyjiJ8RhJCpRj6S5eY9QOLQbgW91yQfZ7FZM_ZBIM05l9ljUE35aPBNDkHYYDFBN-t
-4aQ9O_q3
+XSs50SH024HHRE2k_uO3n7L__6M5FbDaUY8ioPKgtiZtLjk-yre6YhjjPhDP14LLTnmCX3OZoxJDoTkaLxUJKHlijoUBOQVQDJBWlnJqLe_JklDcjOPhtIzc
+O_CCMlUD9W
 }
 
-!procedure ServiceLogAnalyticsWorkspaces($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/ManagementGovernance/ServiceLogAnalyticsWorkspaces', $name, $tech)
+!procedure ServiceLogAnalyticsWorkspaces($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/ManagementGovernance/ServiceLogAnalyticsWorkspaces', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceLogAnalyticsWorkspacesCard($id, $funcName="", $content="")

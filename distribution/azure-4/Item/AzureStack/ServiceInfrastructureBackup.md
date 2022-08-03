@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/AzureStack/ServiceInfrastructureBackup')
 
 ' renders the element
-ServiceInfrastructureBackup('ServiceInfrastructureBackup', 'Service Infrastructure Backup', 'an optional tech label')
+ServiceInfrastructureBackup('ServiceInfrastructureBackup', 'Service Infrastructure Backup', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/AzureStack/ServiceInfrastructureBackup')
 
 ' renders the element
-ServiceInfrastructureBackup('ServiceInfrastructureBackup', 'Service Infrastructure Backup', 'an optional tech label')
+ServiceInfrastructureBackup('ServiceInfrastructureBackup', 'Service Infrastructure Backup', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

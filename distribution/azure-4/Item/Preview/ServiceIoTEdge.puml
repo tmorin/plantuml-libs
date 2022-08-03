@@ -4,12 +4,12 @@ sprite $ServiceIoTEdgeXs [10x10/16z] LSQ50S1024FHZxF_mlMUF2JXvhpYDihTCbFkHrGLp_V
 
 sprite $ServiceIoTEdgeSm [12x12/16z] VSV70G0W20F0qDb_ORloywZ1H4euRAft1t5tux76x-lGsEen46GUZTh8ITS6tezDyTC1
 
-sprite $ServiceIoTEdgeMd [16x16/16z] ZSp50O0m30NG7sV_XUkM6mzfevXO6HTR9piKc_Y6Ku_8Es5h_nwFKDV5mBEy2nuJWUT58v_u9bqdECLZqUqdR8fCy4y5
+sprite $ServiceIoTEdgeMd [16x16/16z] dSh50SCm343HB-x-2pTWlkOPX3JgogBnC3g9HbVPyCY7QTp_BBqdWRRn66GrWhR4wupy6kyHEMe5SkqpETzS
 
-sprite $ServiceIoTEdgeLg [20x20/16z] hSYt4O004CH0lJtwRnZlITb88mwUmLFMohZKWLFK8TbOtR2gNeLdp-xBWAt0-YY8BRsqORPtj_OmGhlKjnXsok70cLT0lbwnyEfPzYAvIxw2Fqm
+sprite $ServiceIoTEdgeLg [20x20/16z] hScr0S0W54NH2z-o_y9Hd3QdUaALLPYflHXOHIDMAPza0rxcBydgjt5Am9TAAB-Ks-B3hMJtA24XKMZiYQC8FIfQx05qsOn7Dh-fFvIHiXF-S04
 
-!procedure ServiceIoTEdge($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Preview/ServiceIoTEdge', $name, $tech)
+!procedure ServiceIoTEdge($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Preview/ServiceIoTEdge', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceIoTEdgeCard($id, $funcName="", $content="")

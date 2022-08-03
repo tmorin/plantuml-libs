@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Identity/ServiceIdentityGovernance')
 
 ' renders the element
-ServiceIdentityGovernance('ServiceIdentityGovernance', 'Service Identity Governance', 'an optional tech label')
+ServiceIdentityGovernance('ServiceIdentityGovernance', 'Service Identity Governance', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Identity/ServiceIdentityGovernance')
 
 ' renders the element
-ServiceIdentityGovernance('ServiceIdentityGovernance', 'Service Identity Governance', 'an optional tech label')
+ServiceIdentityGovernance('ServiceIdentityGovernance', 'Service Identity Governance', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

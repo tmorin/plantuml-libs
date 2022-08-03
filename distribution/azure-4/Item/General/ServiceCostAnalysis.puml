@@ -2,17 +2,17 @@
 
 sprite $ServiceCostAnalysisXs [10x10/16z] FKe50G0m2Dlzz0-CEym076JDa_1O5KBKlRTp1aD_Ky_G_ru63Iv4zjiX2
 
-sprite $ServiceCostAnalysisSm [12x12/16z] FKk34G0m38on_yAzndu002fSeEAU-cDFKfhRZEpKPiQV6EOJFCoVyhr2VhUxVw8SA85ccbXFb2tn0G
+sprite $ServiceCostAnalysisSm [12x12/16z] HOs50G0W20IVXlq7jkEKBWmC3pAwhaskItQxtDbnyH6H_c1eES5Kis9AyVo8y7UG4-vMMEJIXGu
 
-sprite $ServiceCostAnalysisMd [16x16/16z] JOk50G0X30EJwhF_me_JGnj1XqvKw597dzInpdGNfzrP8XYbp-YK6HOThs9q-gFwAlFrDO6vPkKOCstFXZLtvEN5CyDTBHenuITT9gnXOUTj-04
+sprite $ServiceCostAnalysisMd [16x16/16z] NOu50WGn20DX8U7k_m-k-rGdLQb0Rd1RO-lj2YX4bt-aK0vOEDrPG6dwx33RmVsDw6vTmeVxyCAtzoiY29ZpBuFVU7a6BYl8
 
 sprite $ServiceCostAnalysisLg [20x20/16z] {
-RSr70W0X24FHK9AH-nzuUjU_V0fWovZuD3Od-LEUTTIPCv7yBkjkI4hr9X7VUAWovS_AbOvfnessshdeiUcQIiFM59lPOU67xV4muh7penCV382gvqOJBCX0
-AtlPMTq_tN3L2Wi
+PSr50i0W34JHYKnQxd_W2Yv_1Gy9SdGSdQRyMfMrWmuJEdIpOqP4U1psHQonQBY7TjIFoclQyhukXbtjbKlPwszIpBHOZiM8OVMY4WiQm4ZetG4OQRZJOgKq
+SFJTV04
 }
 
-!procedure ServiceCostAnalysis($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceCostAnalysis', $name, $tech)
+!procedure ServiceCostAnalysis($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceCostAnalysis', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceCostAnalysisCard($id, $funcName="", $content="")

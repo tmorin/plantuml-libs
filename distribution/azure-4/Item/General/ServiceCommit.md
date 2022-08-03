@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceCommit')
 
 ' renders the element
-ServiceCommit('ServiceCommit', 'Service Commit', 'an optional tech label')
+ServiceCommit('ServiceCommit', 'Service Commit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceCommit')
 
 ' renders the element
-ServiceCommit('ServiceCommit', 'Service Commit', 'an optional tech label')
+ServiceCommit('ServiceCommit', 'Service Commit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

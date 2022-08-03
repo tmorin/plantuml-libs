@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Networking/ServiceFrontDoors')
 
 ' renders the element
-ServiceFrontDoors('ServiceFrontDoors', 'Service Front Doors', 'an optional tech label')
+ServiceFrontDoors('ServiceFrontDoors', 'Service Front Doors', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Networking/ServiceFrontDoors')
 
 ' renders the element
-ServiceFrontDoors('ServiceFrontDoors', 'Service Front Doors', 'an optional tech label')
+ServiceFrontDoors('ServiceFrontDoors', 'Service Front Doors', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

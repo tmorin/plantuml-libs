@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Databases/ServiceElasticJobAgents')
 
 ' renders the element
-ServiceElasticJobAgents('ServiceElasticJobAgents', 'Service Elastic Job Agents', 'an optional tech label')
+ServiceElasticJobAgents('ServiceElasticJobAgents', 'Service Elastic Job Agents', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Databases/ServiceElasticJobAgents')
 
 ' renders the element
-ServiceElasticJobAgents('ServiceElasticJobAgents', 'Service Elastic Job Agents', 'an optional tech label')
+ServiceElasticJobAgents('ServiceElasticJobAgents', 'Service Elastic Job Agents', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

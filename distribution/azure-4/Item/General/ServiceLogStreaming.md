@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceLogStreaming')
 
 ' renders the element
-ServiceLogStreaming('ServiceLogStreaming', 'Service Log Streaming', 'an optional tech label')
+ServiceLogStreaming('ServiceLogStreaming', 'Service Log Streaming', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceLogStreaming')
 
 ' renders the element
-ServiceLogStreaming('ServiceLogStreaming', 'Service Log Streaming', 'an optional tech label')
+ServiceLogStreaming('ServiceLogStreaming', 'Service Log Streaming', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

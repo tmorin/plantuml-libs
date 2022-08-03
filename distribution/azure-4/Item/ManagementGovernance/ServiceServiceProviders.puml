@@ -2,17 +2,17 @@
 
 sprite $ServiceServiceProvidersXs [10x10/16z] DSh50G1G20BGdyZ-2zk-Ym7BtTK0x5mav8RS4icfxO-kRVakjfErov2_16S
 
-sprite $ServiceServiceProvidersSm [12x12/16z] JOg50G0m2CDm-l_3So4JgD14wE8HeMSVQ-PU9IUqgJi3U7Lc3psDu71ryRadvzzpxuA5oJYq2Hsd0m
+sprite $ServiceServiceProvidersSm [12x12/16z] ROpL0S1G30AZmFuBrxtlxYUAhOITD82pMqhogBamgbtITUxUoEC2ZiwEtgwTTysz3crKB9u1kJW3
 
-sprite $ServiceServiceProvidersMd [16x16/16z] NSl50G0n24JH02Fqt_2wvjyUCeuonwVILZqC7Js6ZpZvESZJyJp8xjPu8hgBpxc424edu_WDLqLbrV1UfibaaQVbl_su-cetzltZy_vEIa5Q0G
+sprite $ServiceServiceProvidersMd [16x16/16z] NOi54iH0409t19Z_V_YIhDTrATAjuzukWYz-CZixfZhnbtDb6zcEBrMnRP1LWPMSJ3Dm7RfhYh3mY1xbBi0HmCZygkRc_kREsgCcNyxlVtBt5wGpoGS
 
 sprite $ServiceServiceProvidersLg [20x20/16z] {
-XP054iGW40IPbO7_l_WEPyhIyTMkb0aSHJ5sN6ASlAN9nHEhcuyO9QQ59Ywj8ovEYmoZgns0RYJ21X1ci4xnsWbuZUnuvXO1R-nul7Pri-h-Ts-74yEDsKP-
-MLSCKcASiHy
+XP053aKn3CDMIFhkV-AlyIBw5djGgsrYOKqnTbmS9-zLSF6uslnn5ASNTV3NYTS4FP7Eq3epwqKIx6OqTvlAgfCMbUW4i4ECZziTRrrjrhq4uZiSrwxpZQoi
+9oOfZjFz
 }
 
-!procedure ServiceServiceProviders($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/ManagementGovernance/ServiceServiceProviders', $name, $tech)
+!procedure ServiceServiceProviders($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/ManagementGovernance/ServiceServiceProviders', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceServiceProvidersCard($id, $funcName="", $content="")

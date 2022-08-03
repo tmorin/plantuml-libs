@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceFolderWebsite')
 
 ' renders the element
-ServiceFolderWebsite('ServiceFolderWebsite', 'Service Folder Website', 'an optional tech label')
+ServiceFolderWebsite('ServiceFolderWebsite', 'Service Folder Website', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceFolderWebsite')
 
 ' renders the element
-ServiceFolderWebsite('ServiceFolderWebsite', 'Service Folder Website', 'an optional tech label')
+ServiceFolderWebsite('ServiceFolderWebsite', 'Service Folder Website', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

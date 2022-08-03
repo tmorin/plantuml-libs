@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceGear')
 
 ' renders the element
-ServiceGear('ServiceGear', 'Service Gear', 'an optional tech label')
+ServiceGear('ServiceGear', 'Service Gear', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceGear')
 
 ' renders the element
-ServiceGear('ServiceGear', 'Service Gear', 'an optional tech label')
+ServiceGear('ServiceGear', 'Service Gear', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

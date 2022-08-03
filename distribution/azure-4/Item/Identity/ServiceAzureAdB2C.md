@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Identity/ServiceAzureAdB2C')
 
 ' renders the element
-ServiceAzureAdB2C('ServiceAzureAdB2c', 'Service Azure Ad B2c', 'an optional tech label')
+ServiceAzureAdB2C('ServiceAzureAdB2c', 'Service Azure Ad B2c', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Identity/ServiceAzureAdB2C')
 
 ' renders the element
-ServiceAzureAdB2C('ServiceAzureAdB2c', 'Service Azure Ad B2c', 'an optional tech label')
+ServiceAzureAdB2C('ServiceAzureAdB2c', 'Service Azure Ad B2c', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

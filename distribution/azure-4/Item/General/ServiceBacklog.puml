@@ -2,14 +2,14 @@
 
 sprite $ServiceBacklogXs [10x10/16z] Oq06R52QXPs1cHK463YmoB9pm6HPiCXoS30mGcJX
 
-sprite $ServiceBacklogSm [12x12/16z] NSm54G11302nBTU_uMVeN0I4XV5GIYmkT0lg5n06JnwLHTpmPl9nujy9OXU67G
+sprite $ServiceBacklogSm [12x12/16z] RSor0S1030J15Ql_Xitid_I03-DIQ6pe1lKDRvvNEulOOVqkSH0Alpz7PW
 
-sprite $ServiceBacklogMd [16x16/16z] ZSx50GC124JHZqF_1SSzQ-y-mW6Ul1LUGZpHtGBcTmOZ_0g-PA9sfxHqyT7dqtmnVcdovbZPvvzgV_SvZBFX3
+sprite $ServiceBacklogMd [16x16/16z] VSx50GG120J1nY7_WCzblVuZxEnvybTuGNpHtO3vcy6m4wnaeXz2Iw_wR9eLPKkIFqTAbd-gzT_dCCg5Em
 
-sprite $ServiceBacklogLg [20x20/16z] bSsr0SC034JHVsBjlt2gCDcl4nwdbFD8e2eHDw93tU1vHysCWBXncEKZ-z2gu562kfx_JTkyvkRk0FYD89QFNE-jyjVSw4Hv4ypa92ZliDtYJN701G
+sprite $ServiceBacklogLg [20x20/16z] bSsr0GC134FHRvRtNpXDcEzrHd58nskhmQvWaXc8kg4b0UILWPP_UIVt36mQyYhGk9vpOrS0s0MGorl1Y-ZWNa5EONMLIAK2gnjijtdH_E44
 
-!procedure ServiceBacklog($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceBacklog', $name, $tech)
+!procedure ServiceBacklog($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceBacklog', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceBacklogCard($id, $funcName="", $content="")

@@ -2,20 +2,20 @@
 
 sprite $ServiceSqlServerXs [10x10/16z] LSd50S1G20DGNFUVjzulxm99O4AvyFjbEkRrTTrw-xoWulq8hMAkPlP_O11_Tm8
 
-sprite $ServiceSqlServerSm [12x12/16z] JOkr0SH040ENGUw_tWSVJYIa6nRx8VngowgmLp_EF_nvDLw6zYv7lXgEGEdSk1QM1XWeDrdVLDUboro8-fMgmby
+sprite $ServiceSqlServerSm [12x12/16z] JOkr0SH040ENGUw_tWSVJYIa6nRx8VngowgmLp_EF_nvDLw6zYv7lXgEGEdSk1QM1XWej_rDKLswr8IeXrIXBm
 
 sprite $ServiceSqlServerMd [16x16/16z] {
-TSo50GD124HHXiNflz_atF_fMwD708yn65WfQmEBOP6PeU3P7O8fpLxSjVPXWHjGs4pr_zVOtMn_vsuWbBY0OjxFm_-nVxFNRC36uJJGtx5wNV-FFUT9OY7w
-0G
+TOo50KD12CLUE8Vzzss_Uqw3wG5OIibWrRoIMDErZp5wmMQFdfae8nOFN_dmJAlWR2x__qjdhxVwzx4xz29pSDa-Z_-fVyxpgwbo-FWdQr9VVQt_OstyaqXa
+wGS
 }
 
 sprite $ServiceSqlServerLg [20x20/16z] {
-bSq7WWGX24HHG2YblFzz5tPodlcTNnlaQIfgdUg5r4yDlR888CBzD3GALrPpgER1zaPzT8wzJyPpFrkgJ-WmsiMcaPAqTMKRieGSrpPfq06faNco393GII3e
-4BliQtKbkejLPKC0kx4UutNZbH7H9B8kD044f5FlTzT-ZRhz0G
+bT05WWCX44JHre8kxd_VRJRkoHz_uyYBr7Qg5z0uvNfbcK1cnEdIR9pL3LUjWws5FjW5rZePp_rifJ6WRhIB3IEbQFFA5cGAwTSsQ527z9LriagGq44WQRX-
+h_LIs5siQpEvjtqSlUAL4Rb9P5ve04YS1jhDL7RPony
 }
 
-!procedure ServiceSqlServer($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Databases/ServiceSqlServer', $name, $tech)
+!procedure ServiceSqlServer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Databases/ServiceSqlServer', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceSqlServerCard($id, $funcName="", $content="")

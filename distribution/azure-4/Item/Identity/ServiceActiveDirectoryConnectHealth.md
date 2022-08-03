@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Identity/ServiceActiveDirectoryConnectHealth')
 
 ' renders the element
-ServiceActiveDirectoryConnectHealth('ServiceActiveDirectoryConnectHealth', 'Service Active Directory Connect Health', 'an optional tech label')
+ServiceActiveDirectoryConnectHealth('ServiceActiveDirectoryConnectHealth', 'Service Active Directory Connect Health', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Identity/ServiceActiveDirectoryConnectHealth')
 
 ' renders the element
-ServiceActiveDirectoryConnectHealth('ServiceActiveDirectoryConnectHealth', 'Service Active Directory Connect Health', 'an optional tech label')
+ServiceActiveDirectoryConnectHealth('ServiceActiveDirectoryConnectHealth', 'Service Active Directory Connect Health', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

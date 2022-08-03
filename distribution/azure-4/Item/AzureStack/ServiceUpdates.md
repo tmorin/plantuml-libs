@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/AzureStack/ServiceUpdates')
 
 ' renders the element
-ServiceUpdates('ServiceUpdates', 'Service Updates', 'an optional tech label')
+ServiceUpdates('ServiceUpdates', 'Service Updates', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/AzureStack/ServiceUpdates')
 
 ' renders the element
-ServiceUpdates('ServiceUpdates', 'Service Updates', 'an optional tech label')
+ServiceUpdates('ServiceUpdates', 'Service Updates', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

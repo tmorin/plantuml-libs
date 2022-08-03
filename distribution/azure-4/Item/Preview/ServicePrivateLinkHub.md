@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Preview/ServicePrivateLinkHub')
 
 ' renders the element
-ServicePrivateLinkHub('ServicePrivateLinkHub', 'Service Private Link Hub', 'an optional tech label')
+ServicePrivateLinkHub('ServicePrivateLinkHub', 'Service Private Link Hub', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Preview/ServicePrivateLinkHub')
 
 ' renders the element
-ServicePrivateLinkHub('ServicePrivateLinkHub', 'Service Private Link Hub', 'an optional tech label')
+ServicePrivateLinkHub('ServicePrivateLinkHub', 'Service Private Link Hub', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

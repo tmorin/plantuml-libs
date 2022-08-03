@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceControls')
 
 ' renders the element
-ServiceControls('ServiceControls', 'Service Controls', 'an optional tech label')
+ServiceControls('ServiceControls', 'Service Controls', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceControls')
 
 ' renders the element
-ServiceControls('ServiceControls', 'Service Controls', 'an optional tech label')
+ServiceControls('ServiceControls', 'Service Controls', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,17 +2,17 @@
 
 sprite $ServiceAzureMapsAccountsXs [10x10/16z] JSQ70G0W20F1KEF-2zlRAV3unR1ZMA4sCZDTnnwZgqZLJ9BW0PG5tOu6
 
-sprite $ServiceAzureMapsAccountsSm [12x12/16z] LSY75GCn20JHPIL2_nMRPFlkAp0Fl56BLEhYRgL-m0ebF-qcUzHtINQxEtbCSsOVSwysI3IF071Z24hlStu
+sprite $ServiceAzureMapsAccountsSm [12x12/16z] LOc50G0W20HVUl-5xU8K-426T32bRcYdXMPZ0ofzwTH4yumbH3IrknEnQRzTixaFRK1CF0A0n0AJcVVR
 
-sprite $ServiceAzureMapsAccountsMd [16x16/16z] RSY50GCm24HHNFPVk5oa_gCF-fSvaYFnsplv3WxtU-b2Pnmh6UFrRPCfq3R8spdfq3GHxAAH4Q2HZXC57YAgMrJvcBTGqkeowCJLtKxe0G
+sprite $ServiceAzureMapsAccountsMd [16x16/16z] RSZ50S0m241HWhF_maLl_T47_CLIuGhbEbRl1ijvZu9dxJ1ThumPCwt6nJUsZ99CLfK5IKsro41fgxGU0F1BtGLwS1bqHuNB8qAW-W
 
 sprite $ServiceAzureMapsAccountsLg [20x20/16z] {
-TOhN5GGX3CJ6UVjlU067owUFUR80Vn6rWxoa36-L-jQSzryb-fgeZG6PngE0Ui4CQaCdPQPscSQRTfstR9fkY8FnGIKFhRQ3kFiqFIksrzso4H1FF1U0NG_2
-z-0Grok2nDzI8u-45yGyN0d90W
+TOg50GGW30DJP_-5SNqvB3s2_wWrv38sEPRchFrwMoFehMWclXn3PX_g0sRGIC1Koampot9ScLdNNtVQio4QnWsLFkXmLKXhJwVj5gktktK780w-dALDUBtG
+Y7GZwFYZ9h8LBiWyNETG
 }
 
-!procedure ServiceAzureMapsAccounts($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/IoT/ServiceAzureMapsAccounts', $name, $tech)
+!procedure ServiceAzureMapsAccounts($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/IoT/ServiceAzureMapsAccounts', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceAzureMapsAccountsCard($id, $funcName="", $content="")

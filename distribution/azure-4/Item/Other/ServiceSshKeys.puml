@@ -2,17 +2,17 @@
 
 sprite $ServiceSshKeysXs [10x10/16z] LSP50G1140EmBap1l-1Zp2lu8NddR9UcIjksR2XrcsJPHXBERB1tNyUkS2CsAm
 
-sprite $ServiceSshKeysSm [12x12/16z] NOo55O0m34JJlZFsNvZWykDQVoZLYJR6bWrPiBKrlQLTe2e9DXBFBPV4ZhKq0BTGQYUalVUN9BUdE-2icoDT0G
+sprite $ServiceSshKeysSm [12x12/16z] NSU55S10309GoYE4xZzmNUz7mQXiNBoxthQwVNpxkmK2IRHBcljlkxQBUIFLVk1jMTbs0o1L8d5YJNWGknK
 
-sprite $ServiceSshKeysMd [16x16/16z] ROw50SCm40CDWdJ_XVlwb9ipdepZchdNXos5_LhKoJeLifbEhNRK2TwAgdAIem3JeJglE249pdHKIu1e_DQKzdZK1Ha9jZz_H_BzmuB4-6HhZalk
+sprite $ServiceSshKeysMd [16x16/16z] ROq50WCW30EH2Fl_XvTsBeTUYep_pBtUJSL-kcxCHzKcCgdLBdK5BqMwNCa9O4t8v5LEI89FIBq3HDilJRJNamTg9TZU_w-rI6QUum69ySxI-CyL
 
 sprite $ServiceSshKeysLg [20x20/16z] {
-VSg75KCX34DH0v9CzbyukAINzoltoFurvdYJgMWz4rJnRVMwfDmTu7chHnuTIKnQHM69F5RKoNEw8o0E0kF0cIReHEpCTcEqsovLOF-wpVuZs7_Jh9SAAugM
-8ZBUiAUSiFVqnORiNrS
+bSe53WC124HH77h_2nUhwxxOv6VW6BB2zqbiwDFhyOdcxYBgxhOdBrawtgTg7JNRf6NUroWYdamqab8t4qigqI0sbjXs6XLtEk0k5Ts50FiqsKPGa9AfKaAu
+uohmpAezC_Zc3
 }
 
-!procedure ServiceSshKeys($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Other/ServiceSshKeys', $name, $tech)
+!procedure ServiceSshKeys($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Other/ServiceSshKeys', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceSshKeysCard($id, $funcName="", $content="")

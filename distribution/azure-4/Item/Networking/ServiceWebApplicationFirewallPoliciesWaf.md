@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Networking/ServiceWebApplicationFirewallPoliciesWaf')
 
 ' renders the element
-ServiceWebApplicationFirewallPoliciesWaf('ServiceWebApplicationFirewallPoliciesWaf', 'Service Web Application Firewall Policies Waf', 'an optional tech label')
+ServiceWebApplicationFirewallPoliciesWaf('ServiceWebApplicationFirewallPoliciesWaf', 'Service Web Application Firewall Policies Waf', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Networking/ServiceWebApplicationFirewallPoliciesWaf')
 
 ' renders the element
-ServiceWebApplicationFirewallPoliciesWaf('ServiceWebApplicationFirewallPoliciesWaf', 'Service Web Application Firewall Policies Waf', 'an optional tech label')
+ServiceWebApplicationFirewallPoliciesWaf('ServiceWebApplicationFirewallPoliciesWaf', 'Service Web Application Firewall Policies Waf', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

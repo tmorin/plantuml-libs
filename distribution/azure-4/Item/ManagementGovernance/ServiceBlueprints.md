@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/ManagementGovernance/ServiceBlueprints')
 
 ' renders the element
-ServiceBlueprints('ServiceBlueprints', 'Service Blueprints', 'an optional tech label')
+ServiceBlueprints('ServiceBlueprints', 'Service Blueprints', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/ManagementGovernance/ServiceBlueprints')
 
 ' renders the element
-ServiceBlueprints('ServiceBlueprints', 'Service Blueprints', 'an optional tech label')
+ServiceBlueprints('ServiceBlueprints', 'Service Blueprints', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

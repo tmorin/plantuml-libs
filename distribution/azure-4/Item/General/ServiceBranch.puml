@@ -2,17 +2,17 @@
 
 sprite $ServiceBranchXs [10x10/16z] DSR10G0G54EnN_1g_u41SafiDPxMsezk0S4gPtdzJCe4jcMS8bQKTtRBpcdVcG
 
-sprite $ServiceBranchSm [12x12/16z] FSVR5O0m3CFG64wiTF-1eMzzNSKiusQlMNGUMbu3M41EWfB4Ndub25SLgjuJVLBgyqQiMUpHMkjSrU8F
+sprite $ServiceBranchSm [12x12/16z] JSV50G0n3CH01xno-Y_u8ApNo7fkEyaloXULD0PG0hmJakD8moKbC4K4ARwoVUCffSu-dJrQQnz7CVW2
 
-sprite $ServiceBranchMd [16x16/16z] LOk74S0m20E1cBR_mf4vfVXTNu0GbuC8FtM2JozZmAhfrv70D86FVfu1fQkx8OZ7NLKXahKnhOh0AnBGcSTx2TZnRgOo62M92Ig3xeP-rACt
+sprite $ServiceBranchMd [16x16/16z] LSk95G9120DGGCx-6pRuWhhPysT0c917CkD95iUNiU2fwM-Y4DD2WZnNWhH668eyXwe2KhqnxSx4LoJ1ptulaQrtc6Hnt1GsI1Op0_xInpS
 
 sprite $ServiceBranchLg [20x20/16z] {
-POe72WGn4CFYJBt_V_Wy0RDDD26q16AzGMPy4_acdLS2ufnNKWkb6jYAf9BQ45TYsrKsngJ6w1kqpAi5YCse2D3CQRPMzO6jUtmlGcypmEpOEj0An7Jf1Fow
-XYQkIzHlyD6BPj9rdTVr1m
+PSk73GC124FHevFz5uwvObA-6deo1ulZhym_pEcVk2I9nDSoQLpM12kKfBMA9PXMsLoa4g2hp7kkXI2ROT9mcUDIFFSPh7jkFL3YCCERvKq8LmaoqhqKyQLx
+sJTjzPfkud9fgwKt
 }
 
-!procedure ServiceBranch($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceBranch', $name, $tech)
+!procedure ServiceBranch($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceBranch', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceBranchCard($id, $funcName="", $content="")

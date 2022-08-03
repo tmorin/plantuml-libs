@@ -2,14 +2,14 @@
 
 sprite $ServiceEducationXs [10x10/16z] RSR50S0m34Mn5xJzzz-tp8rEOimN2UYsAwclQkiTR3_B99VAFkrZ6myp
 
-sprite $ServiceEducationSm [12x12/16z] VSR70SCm30ImazZ9_UTDtBkD5_21t7tTn81cWoWRGIV2eWB0TCGTWqotpEJfitOuHdrSD9py0G
+sprite $ServiceEducationSm [12x12/16z] VSd50G0n20H020xzrtlkadcjG4TpzpMXBsoADeco6UX2M5JcHsVSO9Bfbfcyv1LUCinmJW5t8m
 
-sprite $ServiceEducationMd [16x16/16z] ZSk50GCn20107CB--rO2rEKlYi4n6lWKNL574itv6lbLBDzOwrqfLG2qfY8cUzwjYC2ECyFCCrEmuoRy7DEkyps6pJiq6CJ219-S0G
+sprite $ServiceEducationMd [16x16/16z] ZSU54SGm30J0q_Y4_VSRqpDc1nVdQ3nlmWNZmcNEfqXVH7t98dq2x4998mPnsqYiLuMPLnNbyWksvmkUZyqlDTmqDdpK0G
 
-sprite $ServiceEducationLg [20x20/16z] fSf50eH044FHDEN5_SyBj8txlELFyB-YxivNoOTo-eYV6ADIkqOW6zOrvbhqH9X5Au3aiYgZCJjLvcMq3A_18fDfjaDuLiIdTaBBWuRxnXZo97325ZKOunix
+sprite $ServiceEducationLg [20x20/16z] hScr0GH14CJ07eRDFzvdngCo9Mp0CvEUIbxSg-LDdAl7Cu74nHXrlUGtfcf-190zLbUSHDogNXAYAuyXgblbsWug-qZqskw4FpIyDyN5FHLkAEeOWZ377W
 
-!procedure ServiceEducation($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/ManagementGovernance/ServiceEducation', $name, $tech)
+!procedure ServiceEducation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/ManagementGovernance/ServiceEducation', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceEducationCard($id, $funcName="", $content="")

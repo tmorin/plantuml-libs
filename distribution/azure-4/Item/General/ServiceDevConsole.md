@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceDevConsole')
 
 ' renders the element
-ServiceDevConsole('ServiceDevConsole', 'Service Dev Console', 'an optional tech label')
+ServiceDevConsole('ServiceDevConsole', 'Service Dev Console', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceDevConsole')
 
 ' renders the element
-ServiceDevConsole('ServiceDevConsole', 'Service Dev Console', 'an optional tech label')
+ServiceDevConsole('ServiceDevConsole', 'Service Dev Console', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

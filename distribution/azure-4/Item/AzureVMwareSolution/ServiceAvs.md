@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/AzureVMwareSolution/ServiceAvs')
 
 ' renders the element
-ServiceAvs('ServiceAvs', 'Service Avs', 'an optional tech label')
+ServiceAvs('ServiceAvs', 'Service Avs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/AzureVMwareSolution/ServiceAvs')
 
 ' renders the element
-ServiceAvs('ServiceAvs', 'Service Avs', 'an optional tech label')
+ServiceAvs('ServiceAvs', 'Service Avs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

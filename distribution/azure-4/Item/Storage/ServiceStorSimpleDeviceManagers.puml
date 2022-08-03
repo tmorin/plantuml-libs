@@ -2,14 +2,14 @@
 
 sprite $ServiceStorSimpleDeviceManagersXs [10x10/16z] LSQ50S0020F1ns7_WUjwIC9FPYgxskrvChHlrJVcnbxRVOITH71nXnK
 
-sprite $ServiceStorSimpleDeviceManagersSm [12x12/16z] NSl50KC1309Guh3_mErtUwS8u2EwE_SnPnNhsBDRnhaWINOFLyCRT4DBcREEQziZ8ZDmi2exPoST-0C
+sprite $ServiceStorSimpleDeviceManagersSm [12x12/16z] NSk30G0n50FGLC7-0v_PLtvXqaZsyrkrQ_kNEcrVFT1ja_9EVY4lCEbT-tUVBYTSoXYuLNkxLm
 
-sprite $ServiceStorSimpleDeviceManagersMd [16x16/16z] TSg50G1H209G4t7_WQyxtayL-HG0yYonsiki5TPi7TRXAQUQDuxfAbLDheftsjsSvkYLp9UxrruBrqzLpUNCV18Hhd9G02R_bEGS7m4
+sprite $ServiceStorSimpleDeviceManagersMd [16x16/16z] VSw55S0m20HG_8xz5-whUtvSGJv5LUMvhDM-JApM3SLXFzpDN_36YYHKDRa2xxIxgQhLAvaxTyU-5guJ0FDofZivwPplW9ASnma
 
-sprite $ServiceStorSimpleDeviceManagersLg [20x20/16z] VSk50S0m20J0ns7_XKlgVb4CFyJSbN3c2yQEOyFOUEomi3Z1G74XQ76du7pGo1Pecfl89yu1pNA3UWBtbTIiLW9W_QQsh29WO1cq2UECh16kfE566_2SnJ01
+sprite $ServiceStorSimpleDeviceManagersLg [20x20/16z] VSk50S0m20J0ns7_XHkfsqKn_11pLrpun3Z4Xewks66oY7ikBkIPQXIS3nhP11hDJUJJd4LZkK4zWTgLrDYMOc3hJ6soYZ3G0HTa3MuUROqskE46tG8
 
-!procedure ServiceStorSimpleDeviceManagers($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Storage/ServiceStorSimpleDeviceManagers', $name, $tech)
+!procedure ServiceStorSimpleDeviceManagers($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Storage/ServiceStorSimpleDeviceManagers', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceStorSimpleDeviceManagersCard($id, $funcName="", $content="")

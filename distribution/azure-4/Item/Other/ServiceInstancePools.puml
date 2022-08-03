@@ -2,17 +2,17 @@
 
 sprite $ServiceInstancePoolsXs [10x10/16z] JOl50G0W30Fn-lxZrbuSKaaoVh2evXNLdQ8x8hFNtRqNakgWU2y3cE6p4BDRQumrimCYWhm1
 
-sprite $ServiceInstancePoolsSm [12x12/16z] LOtL0OH044FNixc3_jjb57bV8v7oPMt3HWCwjwduFFMVypXFYaXd4oWsmwcQY8K-CVVKTFrioP2PWwjoW5B5e5m
+sprite $ServiceInstancePoolsSm [12x12/16z] LOh50OD000HFLnBelrrEaNcjJFW23KOSiETKEpFN_kzSpjC0UXv2P-IHHeO8viggshBweogrx6945pe0NeGB
 
-sprite $ServiceInstancePoolsMd [16x16/16z] RSa55WCn24LHFasGaVrljn2jp8lU0pqaDkhavS5HDxzgQxhEfbtlQC-FwxuloRepxGth3E4a43i7XKZ4bAsgaLIpaZP56RQm6-20I3mUDi-KFK9Or6TCRm
+sprite $ServiceInstancePoolsMd [16x16/16z] RSc75KGX24HHS1LcVkY_N3ERd_4Uv4-6tLydsosdHvc5InIctxtN_BZk-xBHyiXNsrlRdQfzZq4MCOCd58TO0V8mNFCskWbLgfhrXsFEaIVsjDkSaKW3
 
 sprite $ServiceInstancePoolsLg [20x20/16z] {
-TSg54GCm30H1iVI1_jkDENpc7TE_l4x7uilCOtVio34HtnspqzFSSUjT_SLWkBSgulNVfPKnMZQAN1sBFF6oTbqhCZf6H2QvEJk5TE-MLMGbLQRYrOvcrLAH
-BBLXCKqQ4LC9yxG0gW2OjhDTj5jYbZLs8krPx5o87W
+TT250SCm3011CHJsNxScgVpX2nl-fT6rsPU9MjNMqaQaLPjqJrFDs-ogBvQIzr6OlLvt6RcjocRcfpRp3e-DtREO6-ul7dUeA2eOJP_c4I114S8qHmE7nOY9
+F5YMsJOQ10X1YDiiCo8pXJFc3axpt7ciDG3Fn2eTt_8
 }
 
-!procedure ServiceInstancePools($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Other/ServiceInstancePools', $name, $tech)
+!procedure ServiceInstancePools($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Other/ServiceInstancePools', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceInstancePoolsCard($id, $funcName="", $content="")

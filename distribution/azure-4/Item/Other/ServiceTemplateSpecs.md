@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Other/ServiceTemplateSpecs')
 
 ' renders the element
-ServiceTemplateSpecs('ServiceTemplateSpecs', 'Service Template Specs', 'an optional tech label')
+ServiceTemplateSpecs('ServiceTemplateSpecs', 'Service Template Specs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Other/ServiceTemplateSpecs')
 
 ' renders the element
-ServiceTemplateSpecs('ServiceTemplateSpecs', 'Service Template Specs', 'an optional tech label')
+ServiceTemplateSpecs('ServiceTemplateSpecs', 'Service Template Specs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

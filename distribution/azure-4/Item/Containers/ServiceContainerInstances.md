@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Containers/ServiceContainerInstances')
 
 ' renders the element
-ServiceContainerInstances('ServiceContainerInstances', 'Service Container Instances', 'an optional tech label')
+ServiceContainerInstances('ServiceContainerInstances', 'Service Container Instances', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Containers/ServiceContainerInstances')
 
 ' renders the element
-ServiceContainerInstances('ServiceContainerInstances', 'Service Container Instances', 'an optional tech label')
+ServiceContainerInstances('ServiceContainerInstances', 'Service Container Instances', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

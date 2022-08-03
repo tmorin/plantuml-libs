@@ -2,17 +2,17 @@
 
 sprite $ServiceSoftwareAsAServiceXs [10x10/16z] LSU50S1020J1nQ7_XkFoWnuhvP87TdMw7bKztkwEY7qpC-w-R_O5UqvskTVV1W
 
-sprite $ServiceSoftwareAsAServiceSm [12x12/16z] PSp50S0m34DHXGJx3rpc_e3VoVXLBWsIOsVJMb-fevtS1s1ROmmlRGQmMSdgRAFPx4pshPqWFiq
+sprite $ServiceSoftwareAsAServiceSm [12x12/16z] VOp50S1020I9iD9_mUUVwE0QFoI0dEdEpjvJBcQA6I8aCJFLw7aVZvnsppt2Bk64dVCf0d6Z0W
 
-sprite $ServiceSoftwareAsAServiceMd [16x16/16z] ZSc55KGn24JH2Kx_3U-GTVyt-WuuH292x-cnuKAJo31MtjpIo3E3NKCKiA9B-wXndr-xoKTJ0KrYm6wGLqTOH7VW8cBsdP7YanC
+sprite $ServiceSoftwareAsAServiceMd [16x16/16z] ZSk50KCn20JGI_3z5ov7tV-BOZXakVk-X-O35plEDaRSp2W_sYo24qbR0ENd4XibtUlNk9eHFmdmsGfCZ6PPxkfUvRXmvxxJ9lZa1
 
 sprite $ServiceSoftwareAsAServiceLg [20x20/16z] {
-bSlP4O0W30JG1P8Dzj-mEMVyzIcG4t-jlT2QC0W-E81nRCpaiWyaYP0QFDXTShh5F_QatQ0u_Z5ZuARUpLYc1i61TMnFeAX_7MFNkyI_gcr0uktT2jtYVKWA
-wJKx64e5_RIkyKJjbnS
+bSjH3i0W20FGeb3S_IyyqPBiTszJ6m3yPSCWuYoE3pQWZMn35SiF75wHKLJJL0pV7pMPgmJc_dWoi0xjdknTWsCYbVCfzDYVCko-vlkxDGEyNktUMBWUaaxk
+MWwqO80qY6gSLVlb1G
 }
 
-!procedure ServiceSoftwareAsAService($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Integration/ServiceSoftwareAsAService', $name, $tech)
+!procedure ServiceSoftwareAsAService($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Integration/ServiceSoftwareAsAService', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceSoftwareAsAServiceCard($id, $funcName="", $content="")

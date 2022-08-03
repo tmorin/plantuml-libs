@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceControlsHorizontal')
 
 ' renders the element
-ServiceControlsHorizontal('ServiceControlsHorizontal', 'Service Controls Horizontal', 'an optional tech label')
+ServiceControlsHorizontal('ServiceControlsHorizontal', 'Service Controls Horizontal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceControlsHorizontal')
 
 ' renders the element
-ServiceControlsHorizontal('ServiceControlsHorizontal', 'Service Controls Horizontal', 'an optional tech label')
+ServiceControlsHorizontal('ServiceControlsHorizontal', 'Service Controls Horizontal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

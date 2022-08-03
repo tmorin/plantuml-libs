@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Security/ServiceAzureSentinel')
 
 ' renders the element
-ServiceAzureSentinel('ServiceAzureSentinel', 'Service Azure Sentinel', 'an optional tech label')
+ServiceAzureSentinel('ServiceAzureSentinel', 'Service Azure Sentinel', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Security/ServiceAzureSentinel')
 
 ' renders the element
-ServiceAzureSentinel('ServiceAzureSentinel', 'Service Azure Sentinel', 'an optional tech label')
+ServiceAzureSentinel('ServiceAzureSentinel', 'Service Azure Sentinel', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

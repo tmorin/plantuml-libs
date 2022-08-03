@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Identity/ServiceAzureAdIdentityProtection')
 
 ' renders the element
-ServiceAzureAdIdentityProtection('ServiceAzureAdIdentityProtection', 'Service Azure Ad Identity Protection', 'an optional tech label')
+ServiceAzureAdIdentityProtection('ServiceAzureAdIdentityProtection', 'Service Azure Ad Identity Protection', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Identity/ServiceAzureAdIdentityProtection')
 
 ' renders the element
-ServiceAzureAdIdentityProtection('ServiceAzureAdIdentityProtection', 'Service Azure Ad Identity Protection', 'an optional tech label')
+ServiceAzureAdIdentityProtection('ServiceAzureAdIdentityProtection', 'Service Azure Ad Identity Protection', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

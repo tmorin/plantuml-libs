@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/AppServices/ServiceAppServiceEnvironments')
 
 ' renders the element
-ServiceAppServiceEnvironments('ServiceAppServiceEnvironments', 'Service App Service Environments', 'an optional tech label')
+ServiceAppServiceEnvironments('ServiceAppServiceEnvironments', 'Service App Service Environments', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/AppServices/ServiceAppServiceEnvironments')
 
 ' renders the element
-ServiceAppServiceEnvironments('ServiceAppServiceEnvironments', 'Service App Service Environments', 'an optional tech label')
+ServiceAppServiceEnvironments('ServiceAppServiceEnvironments', 'Service App Service Environments', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

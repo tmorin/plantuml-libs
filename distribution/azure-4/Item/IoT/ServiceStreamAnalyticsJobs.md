@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/IoT/ServiceStreamAnalyticsJobs')
 
 ' renders the element
-ServiceStreamAnalyticsJobs('ServiceStreamAnalyticsJobs', 'Service Stream Analytics Jobs', 'an optional tech label')
+ServiceStreamAnalyticsJobs('ServiceStreamAnalyticsJobs', 'Service Stream Analytics Jobs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/IoT/ServiceStreamAnalyticsJobs')
 
 ' renders the element
-ServiceStreamAnalyticsJobs('ServiceStreamAnalyticsJobs', 'Service Stream Analytics Jobs', 'an optional tech label')
+ServiceStreamAnalyticsJobs('ServiceStreamAnalyticsJobs', 'Service Stream Analytics Jobs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

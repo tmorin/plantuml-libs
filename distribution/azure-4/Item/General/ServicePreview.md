@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServicePreview')
 
 ' renders the element
-ServicePreview('ServicePreview', 'Service Preview', 'an optional tech label')
+ServicePreview('ServicePreview', 'Service Preview', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServicePreview')
 
 ' renders the element
-ServicePreview('ServicePreview', 'Service Preview', 'an optional tech label')
+ServicePreview('ServicePreview', 'Service Preview', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

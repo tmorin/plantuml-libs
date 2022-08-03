@@ -2,20 +2,20 @@
 
 sprite $ServiceGlobeXs [10x10/16z] JKo50S0m3AA2vF-3vzAu05YiJKhWCSMMD065zZm6k99xGdsZZcbU3E8jwEIdwBFk
 
-sprite $ServiceGlobeSm [12x12/16z] LKs34G103Akn_y1lvb14y4F4p43xwYw-ZmXtD-MsKuOqgW40CoFwtZKvZw6dleiGjRrzH1579hQLbNSR6coeslXN
+sprite $ServiceGlobeSm [12x12/16z] LOc70S1020BjPV-5WwRphm97Vvb51FdOJCixL6Lck8plCY1eV8F0-leDD9x7cmd3em5d9mYMrOLknUFSmnNt
 
 sprite $ServiceGlobeMd [16x16/16z] {
-PO_50GGm3CC2Tfhkl_2vSAoVL8pPFm5MbHcFai1GyDmXkbdBo-XoTlSO2ao4V7QZv022onMq0yAtdr108kMuWJ26dGqAP_kcPs4qpdC6cZDfGPq-GPgalmU8
-h6iN7vy6YlFO0m
+ROo70SGm30A933BPV-57tnifzfqA_gIexWPqGudS8-ecRFLmtnfaU-y8LLNujDbXaj1mH3huv9jeSXqhpBlGhJmD8rA-Ctmsjn_87BKAK0q6f6oIy4gjncVs
+Er2J0ya5
 }
 
 sprite $ServiceGlobeLg [20x20/16z] {
-TSq75iGW30DH0P9jxd_XzL9U-gJ_KF1LeSoC1MW7SQ1LI9DgM9eFB9eZFS8p-mTop4mRw2Or29abIPunczPxX2b7wZ1F_ETsMEqR3qC_aE0qBkJOjc5aq-mO
-XeOM8ka7GIgFDr1guoHmL9LLt2kE9xbkmXb6Fm
+TSe7ZWKW489XL9ZH-rzuiUthVnhv0dv6HGGzsfL26bs5TAY7BJSUozxJnGmaNB4PNKZd62Pf6jssCNeF-Qc7fN6MyR0wBfhgDemd1BUrWvGQLB2ARV6ueQ9s
+aSnoo4duMA3KIcaIyLILg_WeFwHawasum-eF
 }
 
-!procedure ServiceGlobe($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceGlobe', $name, $tech)
+!procedure ServiceGlobe($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceGlobe', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceGlobeCard($id, $funcName="", $content="")

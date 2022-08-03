@@ -2,17 +2,14 @@
 
 sprite $ServiceEventHubClustersXs [10x10/16z] LSk30G0m30313_VVkEQL4PSq7Cha7PqfE919-cvEjBqpUsVuL
 
-sprite $ServiceEventHubClustersSm [12x12/16z] TSp50G1120F01E-_uNDTcGyEPkI0K-0L7hkxRtTxpusRisEWyiXyVsDIE951N4mtXeyL
+sprite $ServiceEventHubClustersSm [12x12/16z] TSo35G0m30JGu8hz5wwD_n27VZYJLbYQBDkizz7REGSdkLFwsZw9vD8JNT-W2MWH0G
 
-sprite $ServiceEventHubClustersMd [16x16/16z] XSm54a9130FGf3RS_yHCK_WkRtqhU5F3bhTsqriyiECUEI1aEjgyYzRRN_VlTr02GXXqjTx2igyiGb8rmGh37_41qNEi_OQRE0w-
+sprite $ServiceEventHubClustersMd [16x16/16z] XSm53i0W50FGzbjs_mjF2ac9xk5ymPzP0bjhfzwI2V6RlK18dfNrFGSRl_xVkoZbGEbOMm9m5LLJc2BimgbyI8Oan1u
 
-sprite $ServiceEventHubClustersLg [20x20/16z] {
-ZSi54WDH28FX7rwWU_yBrvZKPRyn966lCEvQenAi6VBDrpSYPJ0MLHfzxwuLEHLV0aYnqkWpKAECCU79HSwM33MGYi9g0b5HUV2jkmMG6q-2jH4yaNU1ISPE
-9m
-}
+sprite $ServiceEventHubClustersLg [20x20/16z] ZSW7RWGm20310MEI_tyupIBjwgYjrhDYO7GTEndjg7bpBnGrvYsnu-XvBPO4DGUKbKD_85fb7CKH5W5oLYChjX45OejycTVT1VdgdtLnwYAe6fxq3W
 
-!procedure ServiceEventHubClusters($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Analytics/ServiceEventHubClusters', $name, $tech)
+!procedure ServiceEventHubClusters($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Analytics/ServiceEventHubClusters', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceEventHubClustersCard($id, $funcName="", $content="")

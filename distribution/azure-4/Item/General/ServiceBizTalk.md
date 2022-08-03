@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceBizTalk')
 
 ' renders the element
-ServiceBizTalk('ServiceBizTalk', 'Service Biz Talk', 'an optional tech label')
+ServiceBizTalk('ServiceBizTalk', 'Service Biz Talk', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceBizTalk')
 
 ' renders the element
-ServiceBizTalk('ServiceBizTalk', 'Service Biz Talk', 'an optional tech label')
+ServiceBizTalk('ServiceBizTalk', 'Service Biz Talk', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

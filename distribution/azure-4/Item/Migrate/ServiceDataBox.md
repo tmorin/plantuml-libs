@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Migrate/ServiceDataBox')
 
 ' renders the element
-ServiceDataBox('ServiceDataBox', 'Service Data Box', 'an optional tech label')
+ServiceDataBox('ServiceDataBox', 'Service Data Box', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Migrate/ServiceDataBox')
 
 ' renders the element
-ServiceDataBox('ServiceDataBox', 'Service Data Box', 'an optional tech label')
+ServiceDataBox('ServiceDataBox', 'Service Data Box', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

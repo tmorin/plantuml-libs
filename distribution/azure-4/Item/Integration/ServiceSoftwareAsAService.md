@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Integration/ServiceSoftwareAsAService')
 
 ' renders the element
-ServiceSoftwareAsAService('ServiceSoftwareAsAService', 'Service Software As A Service', 'an optional tech label')
+ServiceSoftwareAsAService('ServiceSoftwareAsAService', 'Service Software As A Service', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Integration/ServiceSoftwareAsAService')
 
 ' renders the element
-ServiceSoftwareAsAService('ServiceSoftwareAsAService', 'Service Software As A Service', 'an optional tech label')
+ServiceSoftwareAsAService('ServiceSoftwareAsAService', 'Service Software As A Service', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

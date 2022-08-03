@@ -2,20 +2,20 @@
 
 sprite $ServiceAutomationAccountsXs [10x10/16z] BSY50S0m2031ns7_WTlOuR0vJvYPW6IcMIPGvUvLO2NkwvJOh_VimBsRjNL4xqrdOXQMa3D-
 
-sprite $ServiceAutomationAccountsSm [12x12/16z] FOm50WGW20G5LcVz_uEjYw6pFTJ-36N6ImvLDSR90LL1ltqa1UHDAPq8emEwdDZ2Zf2QkRzjwNPERhlxSl9fUJgiTadcYni
+sprite $ServiceAutomationAccountsSm [12x12/16z] FOe70aCn24BfbmYv_uMBThmCPM0X_ZIVvxE4gkhEBebLqXbV9EFigcBQ4izKXaoyR824fqIxiXh1zl6G_Pg-Xecbxuut
 
 sprite $ServiceAutomationAccountsMd [16x16/16z] {
-LOl50KCn5CCUm_uBrqvANnTB0Rb4o8EgLFsuYPQJE4aIXJ6qDmZtn0XXHdXWcDhjQ7paVV2rCSMeUNvVg7WrTTDcckzcKXm_a486accOOZebvy2ktSxP7OYU
-1nA6X34v9hjn_GK
+LOjN0aGX4CBGgTx_mWlEjfSV4Wi6Tpp8z9y3AqtuJH4ipcQl8cuM70YbkpddtOiDfEwjo6OIQHJnGOgepidTNGQWEw0VJ8YcH6nEAaqIVL7dEHLzJbCW30uc
+_c3xo0i
 }
 
 sprite $ServiceAutomationAccountsLg [20x20/16z] {
-NSi5bW9140JHBDsU-rzuemtxIEK43rsPeL_TfH_LCRdTnuhaW-nEmNhP2Phw3wlD5QlbR8arj0JBARxMArc2pMnJSNOxlsEtlDPJz1YZyneeIRsEKqG9JR7M
-JCtIQIXmRblp58RW3xh6imrD-PHM2d5rbHjDdymb_g_Z7m
+NSjB5eH024FHK0LftF-6Ey3nUoV4f-BaRlWY0n_1NM3dOvWpAZcv8COsIL3uaswr3CMgUQc1jhMMoiAgTYPpqTQa8NIcpViopK_p1JEJVae90EopLA1YAAQr
+K8bQQ3ibHETiFLL6GDOXZ3n6Ok969uCkJW5JmvV-F-SV
 }
 
-!procedure ServiceAutomationAccounts($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/ManagementGovernance/ServiceAutomationAccounts', $name, $tech)
+!procedure ServiceAutomationAccounts($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/ManagementGovernance/ServiceAutomationAccounts', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceAutomationAccountsCard($id, $funcName="", $content="")

@@ -2,14 +2,14 @@
 
 sprite $ServiceErrorXs [10x10/16z] JSR50G11202nmQ7_WizbymghF9sHEW7rmFkLtvXBpC2zu1RVF9CT
 
-sprite $ServiceErrorSm [12x12/16z] NSsv0G1H209H_Au2_HUyz_sYoGO_lJcokAcrWgUrUSlMuztmGMqZZgxom26g4gUfgbxlWGK
+sprite $ServiceErrorSm [12x12/16z] NSst0O0030D16R32_WEJyrNVFNwuERArwIrrsl9MzEFToC5CK4Ttft3g7g-Skllr7h
 
-sprite $ServiceErrorMd [16x16/16z] TSc50S0W34JHYrww_y1r1rwBV8AktCXLmeDUKvwUUffl3gcFP7tbhp7To7L3tXsnlW5-PaKmy8WL7hArZEVGJ0KM
+sprite $ServiceErrorMd [16x16/16z] bSc50S0W4C3086_x3rntxw41BccFXOsMNviijMdRgYJVKVCzFJInCEisT6cHxWtob2vYXPLq-D5PDKCB
 
-sprite $ServiceErrorLg [20x20/16z] XSo50SCm30J0jxZx3no6LobdjW2_MQmK94wKbIV3OUGD6qt6TQqwFmoh3v7rAUhJUB78TKVod_ko9L2Kvhwyi11ASpSqvWj5uojx_hDO23hTsyq
+sprite $ServiceErrorLg [20x20/16z] XSg50S0m24JHtmOukl_0TRUy2CgtDYQ5azYSjhGnLeqEp8hEc9Yk3D03bW-XV8fyeZiBJJywzzp7Jv2dDVUnOjGUQoFZmdp4bK-ithCOSLFS6s
 
-!procedure ServiceError($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceError', $name, $tech)
+!procedure ServiceError($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceError', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceErrorCard($id, $funcName="", $content="")

@@ -2,14 +2,14 @@
 
 sprite $ServiceOperationLogClassicXs [10x10/16z] Oq005aOm0BBO8038OaUms1b090Y30HgB0mo0B0vq5Yi3
 
-sprite $ServiceOperationLogClassicSm [12x12/16z] Oq01x52QaO61YGqACDYip400ORCpWtMnWzbWWCdcW09Ys9mC
+sprite $ServiceOperationLogClassicSm [12x12/16z] Oq01x52Q4OZPe023pSeC110sEpDO5pkO3GQOR0ue88RDoG
 
-sprite $ServiceOperationLogClassicMd [16x16/16z] Oy00pEm8DWSGio40cNnci5aiK3uxEmkOpyhE3k73095y3WGWbS_4Zie7IWC
+sprite $ServiceOperationLogClassicMd [16x16/16z] Oy04x0Wc1n2p8G2PV6QmMInGFZix2vZFoiuEuSC0aNmE122LpyIEoWTA0m
 
 sprite $ServiceOperationLogClassicLg [20x20/16z] hT2r0G0n3C30n6pll-ypCqJbbKh7YVAYQ8aqBqhIcgnwPtfibFfcKyN1L7KosjjK6RDblTatqxqDJrUcZTG
 
-!procedure ServiceOperationLogClassic($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/ManagementGovernance/ServiceOperationLogClassic', $name, $tech)
+!procedure ServiceOperationLogClassic($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/ManagementGovernance/ServiceOperationLogClassic', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceOperationLogClassicCard($id, $funcName="", $content="")

@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Networking/ServiceNetworkInterfaces')
 
 ' renders the element
-ServiceNetworkInterfaces('ServiceNetworkInterfaces', 'Service Network Interfaces', 'an optional tech label')
+ServiceNetworkInterfaces('ServiceNetworkInterfaces', 'Service Network Interfaces', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Networking/ServiceNetworkInterfaces')
 
 ' renders the element
-ServiceNetworkInterfaces('ServiceNetworkInterfaces', 'Service Network Interfaces', 'an optional tech label')
+ServiceNetworkInterfaces('ServiceNetworkInterfaces', 'Service Network Interfaces', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

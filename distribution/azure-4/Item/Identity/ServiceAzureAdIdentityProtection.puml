@@ -2,17 +2,14 @@
 
 sprite $ServiceAzureAdIdentityProtectionXs [10x10/16z] LOm50G0m40AP7FqRp_LT0Ft66U0Ci0RRKSeCSvlI_A8MuB208hzw5G
 
-sprite $ServiceAzureAdIdentityProtectionSm [12x12/16z] PKn50G1039f1_yZdEbwu9E2YY4EtY4f9QzGx9RLoJB3QDgb6RVT16Ef2uOxQN4VT7D1X5W
+sprite $ServiceAzureAdIdentityProtectionSm [12x12/16z] POt50G0W30DhOV-HSQZSgnAX0jm8U-D0zcXZR8tdA7CSRCLcBCftjA5U1kLbXuvyu0O9EFLs
 
-sprite $ServiceAzureAdIdentityProtectionMd [16x16/16z] TOu50iH030A9JFx_urFgBQi3Az63-eXGHuJSiB2nnnbZ_EaZeza6cmOfzuOoQHcc4gGc4w3L_wAILb45iHHFERGIXvlZzGq
+sprite $ServiceAzureAdIdentityProtectionMd [16x16/16z] TOw55GDH3CCKSFOVkSyz9dqCcm-Q2r9UJIdOAPdT39aPLcJBxAPjWys34GGw85DDhT482Lg9pQPL04v9uU2A0puNHLn85du
 
-sprite $ServiceAzureAdIdentityProtectionLg [20x20/16z] {
-VO-50O0m40DV4lRV6AXx0xLxbvlKLaPYHY2f8p863KZ96Lf6JmSp-UKJYh9QSeGLLSEFL4VeeaA8TswYP01koCJYCqzgsQbE7Ms8YzwF9cBLgRg2L1cLmqOr
-fmy
-}
+sprite $ServiceAzureAdIdentityProtectionLg [20x20/16z] VO-50G0W3CDcvV-FSRVYOKfVoOc00naEAC0E6JXWHGuxSb5we2WPAGVa6RKFEg560YETp2900jnCdUHdJcianOZJFQcQvhKMdNksWRAf9UjLgOgF0W
 
-!procedure ServiceAzureAdIdentityProtection($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Identity/ServiceAzureAdIdentityProtection', $name, $tech)
+!procedure ServiceAzureAdIdentityProtection($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Identity/ServiceAzureAdIdentityProtection', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceAzureAdIdentityProtectionCard($id, $funcName="", $content="")

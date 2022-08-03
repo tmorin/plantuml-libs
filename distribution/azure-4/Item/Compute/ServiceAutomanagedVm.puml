@@ -2,17 +2,17 @@
 
 sprite $ServiceAutomanagedVmXs [10x10/16z] JSo50G0W20J0fs7_XUquMmAN_sWTqI6udzcXZucH9fdLAOq3p3s9kzM9C8cgCj
 
-sprite $ServiceAutomanagedVmSm [12x12/16z] LSa10W0G20F0O3R_Vp0075JD7kc7s1vQGnAXvno21os2b1HaxIGDhNEzpOsYmgZviewaRG1MvsFNcWe
+sprite $ServiceAutomanagedVmSm [12x12/16z] LSc50O1030F0GXiIzX_uNU-b4ZjyDqHvA0r9UCtP-0jQW9Jaid8-DQLxQliN2dch_sOL2Pk0sJzHbIO3
 
-sprite $ServiceAutomanagedVmMd [16x16/16z] TSw50G0X30F0K4lOV-1tbyErnKFziNFgRUeoSvvpafu06DmuhMZ1dEQQU80Yb5g5Y8H8RQeWo3JfCuMwh5-8ssGB8ccTO3NFBkPaSH6pyzHNRPgF
+sprite $ServiceAutomanagedVmMd [16x16/16z] TSvLWWKW34FHK4lO_uO7dUS7wVqitjGlzaXluylCsHpI4m23XzEA5ipH6Zn04Kfj8I8XKaSL19c6FYdKPVs9U2AuIDg1RTQJkI2UnE2up3SCVm
 
 sprite $ServiceAutomanagedVmLg [20x20/16z] {
-bSU50SC04090NY7xBzourUyLl53zj_BgWzkKigDdd5GMHadZpaaqmzdDJH0WfrKSQH9AI8rMQvCIu6Yb3YwCNGfDXXbptZ5Sf9bhU0--Q9A-meeZtFJ8S64r
-Ifn5BXmxEs3q
+bSU5WSK0309GOf3kFt3TJ_-BWcyKFrPUlBWjAHbSQL5PcALC9vT0XOlK8GH8oohDUX6Tw2ROx4Ds0mukpyaRSrT7BuQLSjqnFAIPz_0p-8QIV8UTPdZXpF1K
+iyHTvCPniXCM4m
 }
 
-!procedure ServiceAutomanagedVm($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Compute/ServiceAutomanagedVm', $name, $tech)
+!procedure ServiceAutomanagedVm($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Compute/ServiceAutomanagedVm', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceAutomanagedVmCard($id, $funcName="", $content="")

@@ -2,14 +2,14 @@
 
 sprite $ServiceAbsMemberXs [10x10/16z] LKY50S0m24jnil_ldLiXZkdS_VBp58WhcI3YoEIPelaaSddIkM6S2US5RTSD
 
-sprite $ServiceAbsMemberSm [12x12/16z] NSsr0S103C10SsZ_VVDiK7MTeAOgIwmzQYBTDTlYsstMzBpBrlHjDxfRpR1zGuk6STzUWjOF
+sprite $ServiceAbsMemberSm [12x12/16z] NSQ34G0m002nhxN_lBLp2ZzZz9moZMmr2qWx6zkjhGjntjQbzThp1bZtLAAVIKL1LG
 
-sprite $ServiceAbsMemberMd [16x16/16z] RSk53S1034FHev2x_xwLYqTVb6SfQPz8xLI5bLwiPLAw-AG_7RG-YmAtxoNGMQcZCpaRet6x_ewQc3nk1CkqfQwCV1yd
+sprite $ServiceAbsMemberMd [16x16/16z] RSi53W0X34JH5gtS_xwRsU3mOxo6eNSvnqKn8sxYt4hjwmoZCYa6btOfPit_HMrnWNmnUDfsjtsSLYQKcnFru4fBREtn0G
 
-sprite $ServiceAbsMemberLg [20x20/16z] VSo52KGn44NHSJOl_VUxn0t-nSy8VQMkbuYN-9QIJVKjhQARZ0TnY46AnQO_31iQmB212RkLgkJJAkLyMw77WCSmZFsme1elIpJJPabfhvZHbGID_W
+sprite $ServiceAbsMemberLg [20x20/16z] VT253S0W04HHN8xzvyNTVgnvnSalBkacJAPceR8cEiafNXTQIwOM4M39rAG6rRege5f7YzbIMTngcPnRhD9Xm65eHkHYgZx1C3izNZ6xFc4oiKZM_XK
 
-!procedure ServiceAbsMember($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Blockchain/ServiceAbsMember', $name, $tech)
+!procedure ServiceAbsMember($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Blockchain/ServiceAbsMember', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceAbsMemberCard($id, $funcName="", $content="")

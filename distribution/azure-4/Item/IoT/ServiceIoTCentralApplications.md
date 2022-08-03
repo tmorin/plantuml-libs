@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/IoT/ServiceIoTCentralApplications')
 
 ' renders the element
-ServiceIoTCentralApplications('ServiceIoTCentralApplications', 'Service Io T Central Applications', 'an optional tech label')
+ServiceIoTCentralApplications('ServiceIoTCentralApplications', 'Service Io T Central Applications', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/IoT/ServiceIoTCentralApplications')
 
 ' renders the element
-ServiceIoTCentralApplications('ServiceIoTCentralApplications', 'Service Io T Central Applications', 'an optional tech label')
+ServiceIoTCentralApplications('ServiceIoTCentralApplications', 'Service Io T Central Applications', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

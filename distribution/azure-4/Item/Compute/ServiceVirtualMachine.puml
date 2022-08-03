@@ -2,14 +2,14 @@
 
 sprite $ServiceVirtualMachineXs [10x10/16z] LSQ30G1030F06liF_EOL2T9cXpU48qQJzgD1ulQpe_n04m6BAix27K05
 
-sprite $ServiceVirtualMachineSm [12x12/16z] PSc50S0W40D08jZ-2pTrEtW7R-q7RTL30DOwGfJNkYB8jSvLv_ogFN9PbLLhBYVxxBb9im
+sprite $ServiceVirtualMachineSm [12x12/16z] PSdL0S0m40BG8B7z5ovrUpzt07XhFsYh7WAmtX6YlDuLGQvthZhd5nrPrbDMhQcSZYwuoRC
 
-sprite $ServiceVirtualMachineMd [16x16/16z] ZSwr0G0X50DGag3x3unhTVSg-0w-_8VGUS26mw7IzITfHq5i747Pk0M0L6pI8AP_JCVQQIxjxFilvzpvGSF-JwOg
+sprite $ServiceVirtualMachineMd [16x16/16z] ZSx50KCn30FGIERz1su_CxrBm0Zk-OiOEA2nCdHayoQfOqBsZA1eBW8WPRZMI5ZVj06wohQ1RhFjMyni-nomNVW3
 
-sprite $ServiceVirtualMachineLg [20x20/16z] bSlL0S1030BGWulkFt3TlUyl0S0p-ql5PZuXWEdOla3T_xfdbQaO8v9Ln6ABGFVT_sJuJQkSaPu_HPwLINJAWNMEF-rWzq6L7ZSlrbcvqm8
+sprite $ServiceVirtualMachineLg [20x20/16z] bSl50K0X30DGAjZ-0t_1NTwjJGBOKxSagqW7203XA5-0ilvzJ-9GD1uY4hCo9GJullMFtI-iR8IexILZUo8m7z5Gd_OdFr2_Y7_b1oaICoy
 
-!procedure ServiceVirtualMachine($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Compute/ServiceVirtualMachine', $name, $tech)
+!procedure ServiceVirtualMachine($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Compute/ServiceVirtualMachine', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceVirtualMachineCard($id, $funcName="", $content="")

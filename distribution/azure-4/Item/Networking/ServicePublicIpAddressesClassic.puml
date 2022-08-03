@@ -2,14 +2,14 @@
 
 sprite $ServicePublicIpAddressesClassicXs [10x10/16z] Oq005XXWu88806bs661WXG46809151P2bWq640O3
 
-sprite $ServicePublicIpAddressesClassicSm [12x12/16z] PSg50S0W3031Julllo_k719b9mj1gyO5WkbohfShvyy_Nyj5vLoUdPMRXKq2
+sprite $ServicePublicIpAddressesClassicSm [12x12/16z] Oy05k5XP8823Yu6B3Gg0R5O4G6CpC0D91YO8cv650KXWg46msH00sLe
 
-sprite $ServicePublicIpAddressesClassicMd [16x16/16z] XSk30G0n343HNsF_VS-eyye8IQwHKrKyjlyTiQ_XQgCOdEPuz1yhb84djjOvS-pnV0rVGrSKZHq
+sprite $ServicePublicIpAddressesClassicMd [16x16/16z] XSk30G0n343HNqNxxtisNndn9yu8FnM7BRiXbZFQsLCCBJCyUOyJgS0IrzfQ6VRp_1boneyU
 
 sprite $ServicePublicIpAddressesClassicLg [20x20/16z] bSg53GD14C107opstsyuppXYorpLLogPuLEP_cgTAVyqrwbuDLjHPANVQj2bqAHI_wr15IW2J3vPV4lNcwu8ijAuw0a
 
-!procedure ServicePublicIpAddressesClassic($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Networking/ServicePublicIpAddressesClassic', $name, $tech)
+!procedure ServicePublicIpAddressesClassic($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Networking/ServicePublicIpAddressesClassic', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServicePublicIpAddressesClassicCard($id, $funcName="", $content="")

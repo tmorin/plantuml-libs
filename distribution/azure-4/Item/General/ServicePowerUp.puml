@@ -2,17 +2,17 @@
 
 sprite $ServicePowerUpXs [10x10/16z] LOc74G1120BNXFPVyS_dkpK2R2JYx7Cvd9mgSLAeX9sQxZvpEJDsvkTyc7CYN2Ja0G
 
-sprite $ServicePowerUpSm [12x12/16z] JSh50SGm30J04SRzDtpWLuHBtjLKcc90Lg2v9vFHBe-mDxpx-uBs_2eD6-cSeuMIuL4qHDrVRYsKwTaGNHLV
+sprite $ServicePowerUpSm [12x12/16z] JSgt0SHG20Km0U-7_HU-uCggvIrCMyq2FT0G56C4bFtalRU2E3zbiN7l5QKLnn2e4ZImOQoUJQMdlW
 
-sprite $ServicePowerUpMd [16x16/16z] NSX18W0m402nT3jT_lzXS9HZ_7UQ6hoj9T0Bh86p9x32X635N10oJbxUI8TM-uiMx-hZ5nrEyVaZT-Bn5y_978l8USY5k442zmt8GdiQ67QtWrEDRm
+sprite $ServicePowerUpMd [16x16/16z] NSX18W0m402nR3jT_lzXS9HZ_3VDwU3jlKkW5rW3Lc0TJ0XMp0KXXxoy8nUjzXSjtkZZ5msApn-P4u-_U6HOnE4X1sA2N73V0LcuEu73xWPJ7Ty
 
 sprite $ServicePowerUpLg [20x20/16z] {
-RSZ7eLi130CmIEAZlV_2wJqVH_ZGvPA3IPzqEJ1PBUWA8Cy2ue2kBF08w60FHA301Xitb6F7BaLqj7tQSxF5vNXzyv07XD-tWMxe-wintM5hZ--bXE2Mr_le
-SAEG1GNh0NjC5vm7c6m1fy0-MM3E5jioEKomUH9Wzcxv3
+ROz1OWHG14EHI7l_4_TBCrtL0XwW_XKGPDkbbfg773Md9BjFC-NS-NYfAqqnS5Fdja7g66J8KrtTHe7p6_2qf9Mwq6OWghuiU-ipyuzbPEcClaySzMdVSAZp
+X3inhzkeNv0xyeAifxRoWgjE45RDSPNPnzlqtsDEZtIbS8CNB3l5WplX1m
 }
 
-!procedure ServicePowerUp($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/General/ServicePowerUp', $name, $tech)
+!procedure ServicePowerUp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServicePowerUp', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServicePowerUpCard($id, $funcName="", $content="")

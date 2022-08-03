@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Storage/ServiceStorageSyncServices')
 
 ' renders the element
-ServiceStorageSyncServices('ServiceStorageSyncServices', 'Service Storage Sync Services', 'an optional tech label')
+ServiceStorageSyncServices('ServiceStorageSyncServices', 'Service Storage Sync Services', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Storage/ServiceStorageSyncServices')
 
 ' renders the element
-ServiceStorageSyncServices('ServiceStorageSyncServices', 'Service Storage Sync Services', 'an optional tech label')
+ServiceStorageSyncServices('ServiceStorageSyncServices', 'Service Storage Sync Services', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

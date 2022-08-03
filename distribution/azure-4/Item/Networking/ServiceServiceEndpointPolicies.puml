@@ -2,17 +2,17 @@
 
 sprite $ServiceServiceEndpointPoliciesXs [10x10/16z] Oq02R630nGLZSR0pCB030IEG1h5OWH34uk1Wu-3WG6E10SmGJava5W
 
-sprite $ServiceServiceEndpointPoliciesSm [12x12/16z] XKs35K0n38or_xwVvLDZti4czejNZJh_MXur_cw4aCJbhLqT7__gYC37J_KZAOCgj_efRm
+sprite $ServiceServiceEndpointPoliciesSm [12x12/16z] VKs30S1036oC_VUjzOnvjnIYbrZcMyTLywuAvmqZ8DjPcnWSVjJk3eVFwqC2NgeewhtS
 
-sprite $ServiceServiceEndpointPoliciesMd [16x16/16z] PSW50S0m3031CFaNlFBeYnVuPwSg1933g8gNCmb0pT1CsfYXrOpgVU2ohEBSjEskOsr7QrpJ5YtxM3-MZrkPmxRAlwaRbpsrym8
+sprite $ServiceServiceEndpointPoliciesMd [16x16/16z] PSc50G0W2011CAZzzxNRDq_XZrPc210MnKmkgvR_I8H48H0LG3L6hWyy7GFxmClCiOrfARMjcwH4Z-FZyBYasamZ_Gqr76QDbHa
 
 sprite $ServiceServiceEndpointPoliciesLg [20x20/16z] {
-dSo75GCX30HH7InQGVy5-v6HipqN-GHvNj0ZArRDKodumcX6wLOVr7EZz4XX3HU9QQ8N198YjX5aKchYjegTbbbDQRM_BAgtrRAm8EVSBUgCoz8oMmPdLVnc
-xN83
+dSi53W0X44FH8jCEtF_0ctKtFluIS5tW9g_Usvvg3HzCxi9e_SgHPC2O1FNb82q6XemCItarPSaecbRhSQJ5l8_olYPBFDZIsKefeoNEQJ5Rp1VBEmEEdpbA
+1m
 }
 
-!procedure ServiceServiceEndpointPolicies($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Networking/ServiceServiceEndpointPolicies', $name, $tech)
+!procedure ServiceServiceEndpointPolicies($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Networking/ServiceServiceEndpointPolicies', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceServiceEndpointPoliciesCard($id, $funcName="", $content="")

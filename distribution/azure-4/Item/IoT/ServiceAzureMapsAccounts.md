@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/IoT/ServiceAzureMapsAccounts')
 
 ' renders the element
-ServiceAzureMapsAccounts('ServiceAzureMapsAccounts', 'Service Azure Maps Accounts', 'an optional tech label')
+ServiceAzureMapsAccounts('ServiceAzureMapsAccounts', 'Service Azure Maps Accounts', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/IoT/ServiceAzureMapsAccounts')
 
 ' renders the element
-ServiceAzureMapsAccounts('ServiceAzureMapsAccounts', 'Service Azure Maps Accounts', 'an optional tech label')
+ServiceAzureMapsAccounts('ServiceAzureMapsAccounts', 'Service Azure Maps Accounts', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

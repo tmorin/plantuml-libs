@@ -2,17 +2,17 @@
 
 sprite $ServiceRtosXs [10x10/16z] JSZ15GGn005G2SZst_0-j_aNmCSXUJ3at3NB4eLB1o45gK6hjRm-wUpJJslGh8rju0y
 
-sprite $ServiceRtosSm [12x12/16z] FSU10G0G20NHdmxQVs001xqqI_evO7PuIi-SRJglt96vbw9Ibg5MKwqLcwOrMWNPzcnwBmGiYvTEv3p_0G
+sprite $ServiceRtosSm [12x12/16z] FSY10G0H30J1unVIVyD_0Gj6vAfU7t2vgzVidzqo3zAzg_SqZ54qng3OpCaSe9BER0aNi7tJZjPy_m
 
-sprite $ServiceRtosMd [16x16/16z] LOu70e0m2CI0Xk7_Fwo8CzeHhaiQbHy6w6lhPdozwEjChwVxq8Nn28rW78W8EngmP45cYdJF6KyXitFHzggegkJE3zqonuN6D-3suNOnipNlCNbGy1vt
+sprite $ServiceRtosMd [16x16/16z] LOu15iGG30KZne_U_yAxUO1fONw09SKU7BYYkhXqS3cZ7zu66GoNYiHmG99B0gfLY0Ypx27B8uWGO2MzT_NUWrN_wnSnt4ZQ1nmV33Tth-CzRWTeEVm
 
 sprite $ServiceRtosLg [20x20/16z] {
-TSY95SCm20JH5Oo0zDzmuEMExT79roFJVmRu-g7bZzQ7_Ripis-35w-7xSsUCmulU_Go6ui8zV4Ebu0XC_hUWCc1p0p9iWCakjssrHA0FOoe8gklRicOUepg
-aZ4nPL2t97cOd0VVDhnClBesVV8zcNvpS4rt
+TT050iCW40NH1MObzxzmFr9l9_xYsAxRPmqO7pHshJrem-4lK_tLuCx7tF6vJ8TZkuVrQH5XMeP2DmEJUaTh1snPPePkIBKCvJ8tIG1z6r55bbQgML-cmoYL
+osnP1dKboJRfvilXmzH_isV3Ppz6UwoT6m
 }
 
-!procedure ServiceRtos($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Preview/ServiceRtos', $name, $tech)
+!procedure ServiceRtos($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Preview/ServiceRtos', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceRtosCard($id, $funcName="", $content="")

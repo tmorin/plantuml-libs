@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Compute/ServiceAzureSpringCloud')
 
 ' renders the element
-ServiceAzureSpringCloud('ServiceAzureSpringCloud', 'Service Azure Spring Cloud', 'an optional tech label')
+ServiceAzureSpringCloud('ServiceAzureSpringCloud', 'Service Azure Spring Cloud', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Compute/ServiceAzureSpringCloud')
 
 ' renders the element
-ServiceAzureSpringCloud('ServiceAzureSpringCloud', 'Service Azure Spring Cloud', 'an optional tech label')
+ServiceAzureSpringCloud('ServiceAzureSpringCloud', 'Service Azure Spring Cloud', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

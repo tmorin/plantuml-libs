@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Storage/ServiceDataShares')
 
 ' renders the element
-ServiceDataShares('ServiceDataShares', 'Service Data Shares', 'an optional tech label')
+ServiceDataShares('ServiceDataShares', 'Service Data Shares', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Storage/ServiceDataShares')
 
 ' renders the element
-ServiceDataShares('ServiceDataShares', 'Service Data Shares', 'an optional tech label')
+ServiceDataShares('ServiceDataShares', 'Service Data Shares', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

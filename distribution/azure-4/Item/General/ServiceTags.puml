@@ -2,17 +2,14 @@
 
 sprite $ServiceTagsXs [10x10/16z] LSg50S0W30J0Ru7e_lFYUaWKBpFvPw8a8-6K47f2H4vjXpf0k4FDEZGpQLJRNm
 
-sprite $ServiceTagsSm [12x12/16z] NSU50GCn30J1iyNGVxl9Cur1AtoDpAuhSmIVAQ9ofP3Gbhemcx0bTnEmWm9GtonvBeQTHHXExjlu0m
+sprite $ServiceTagsSm [12x12/16z] PSY50G0X30J12nRjlrtaNHORWbzcuHUDb4xMskeKRQovvctQPim9lBW5W8-McsnDdX_67gjkt1BPdW4
 
-sprite $ServiceTagsMd [16x16/16z] TSW93e0m449HMjDPhFS_hqD2tFtPUE2djR93hRHXsi5gzXaNsXZcLrRD3x8SDEccW2RAFFoeexA32vY58faTL2uUUQQeecli
+sprite $ServiceTagsMd [16x16/16z] TSe72W0X34JHAAIjU__hMeFTH_tCmCENqP8_19hNu8FCPqJYMiuIqN7FGf7jp6JQt9FgdpiF6Qq992PdHJqDMtQiMhFhQm8
 
-sprite $ServiceTagsLg [20x20/16z] {
-VSt50GCn34JHCOdYz5zkiZpB__XiINWhnLWvs2XVw_dyIs1n_1NU9UpuIrjhOklmHiqmdyaagOZ6Np8L7vLrbma3GAB1mrHPmjYLKAy464jO4n8ZWQcxByG6
-Mua9wGy
-}
+sprite $ServiceTagsLg [20x20/16z] VSe53e0m58FXpfunxdzS7ARXZpLVYj_ip0-qIlRzYo3MaMOoQObJIYI-foImS8ehH16MoekkR65wIQXqMA5YK1EkmjM4N4zdKi8N5IeDTCQgAkWw34DKvWu
 
-!procedure ServiceTags($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceTags', $name, $tech)
+!procedure ServiceTags($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceTags', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceTagsCard($id, $funcName="", $content="")

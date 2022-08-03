@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Identity/ServiceUsers')
 
 ' renders the element
-ServiceUsers('ServiceUsers', 'Service Users', 'an optional tech label')
+ServiceUsers('ServiceUsers', 'Service Users', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Identity/ServiceUsers')
 
 ' renders the element
-ServiceUsers('ServiceUsers', 'Service Users', 'an optional tech label')
+ServiceUsers('ServiceUsers', 'Service Users', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

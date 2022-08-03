@@ -4,12 +4,12 @@ sprite $ServiceCounterXs [10x10/16z] ROl50S1G24E3o_xxrht_NI264Nq20fZLRFaQt6hOFEN
 
 sprite $ServiceCounterSm [12x12/16z] TOo30G0124Lpl_RVzsoyJFgZJwXKozqpeWb4495md_8gU4YmJNacQkhRd2EXjURN_GOchOc-_Rym0W
 
-sprite $ServiceCounterMd [16x16/16z] XOm50WCm308xYF__mQDptrMJ0EiVyqI_rBE6fAUxJqIaQdaG0CR5hWq8XcgpNSCQCOnnSDT4gaPfVgeFgNa7h_LhtcjTLTswfeNgPnQVMIyS0G
+sprite $ServiceCounterMd [16x16/16z] XOvL0e0m34D7lRd_WSdsXVEczOm_SA8lDWPKrTFT4H59cpKI8W8dqpQHqA1jDcsnbe06N7JQAabRYl5bRybuXoxxrkzkLrKtBpJ1JTyFEm
 
 sprite $ServiceCounterLg [20x20/16z] fO-50GCn3CJCjF_0lPIPNc65RDh2F53FdIiO1za1bcC28y3AmKjdqt0z3iTqS4tejQJWzEY6aiPI6ivEvtX_r_BAKGgSbop7_aiiNM1MrzFWHRxzu8A-P0S
 
-!procedure ServiceCounter($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceCounter', $name, $tech)
+!procedure ServiceCounter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceCounter', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceCounterCard($id, $funcName="", $content="")

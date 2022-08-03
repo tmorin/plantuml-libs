@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Networking/ServiceNetworkWatcher')
 
 ' renders the element
-ServiceNetworkWatcher('ServiceNetworkWatcher', 'Service Network Watcher', 'an optional tech label')
+ServiceNetworkWatcher('ServiceNetworkWatcher', 'Service Network Watcher', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Networking/ServiceNetworkWatcher')
 
 ' renders the element
-ServiceNetworkWatcher('ServiceNetworkWatcher', 'Service Network Watcher', 'an optional tech label')
+ServiceNetworkWatcher('ServiceNetworkWatcher', 'Service Network Watcher', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

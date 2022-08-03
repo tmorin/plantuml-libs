@@ -2,17 +2,17 @@
 
 sprite $ServiceAdvisorXs [10x10/16z] LSW53G014CJ0FIR_Uf-neKdnoymU75Gxkiw8RlOj4N4_D5AR416g7ZXITZh5S605
 
-sprite $ServiceAdvisorSm [12x12/16z] POW70W111CGumfR_l_TwtsWnyaC1FNtLyvauk49wnq_lPWqaDimi8mxVyjKbLwWrKmxSjtHqKTQr
+sprite $ServiceAdvisorSm [12x12/16z] POa50W0W20EjCUF__xNx55Ye5m277CQWKsGNAS4DdQoDfP6AjPOYNTUyQCK2GY1LnxcI_hg0CXa
 
-sprite $ServiceAdvisorMd [16x16/16z] RO-50S0W3C1O5Vd_tk5EqA2jUKFCtpJa37K5hc0_sodQvbQKQMeGiYwVa89JH7Ggr5mmeMdixfFxxD0ysE14Kb2W6MAMrC-02TFXHGdAwRbWXBOCJGat0W
+sprite $ServiceAdvisorMd [16x16/16z] RSh50O1G30FGbBR9b_tdnHtUBO9_aNbBdeiuekN6Zky1YzmKAksAdL7gyk2gojsh67kcpqJoo6tERScsvrvw9GqmBIAJqe13X9CuUGJk6KiEt0GIima
 
 sprite $ServiceAdvisorLg [20x20/16z] {
-VSz70WGX24HHjEZ2SF_xZWaczry-8t9J0d9-9xrMhxJW7NCONDGbDhu8Zy6XjDggBOrDNG6jwpXFZHZLGcfOmSpuQdLXisbmx0RKHXBZ4TlHQhVHjSRVfgga
-6UGPbb5U6vI79NdV9-hxl3mijWLAslG
+VSu5aWGm24HHe3i6zx_lndVybr4lAhyos8impHvfmZFQDMnH7haR7oHlqmFLcxSozMuA0cppUDvvHg_LdErQnQZqYTVQH2_3S30AqBmFsXyfgrnQbDxyZYuZ
+cNCfa8UcPNaXwwQFfgJmPPyOHIzTFCCV
 }
 
-!procedure ServiceAdvisor($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/ManagementGovernance/ServiceAdvisor', $name, $tech)
+!procedure ServiceAdvisor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/ManagementGovernance/ServiceAdvisor', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceAdvisorCard($id, $funcName="", $content="")

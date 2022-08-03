@@ -2,17 +2,17 @@
 
 sprite $ServicePrivateLinkXs [10x10/16z] PKe50G0m36BSw9_uxbCCLqaB_iWAOXUe9gjerWGF9OzKVfbKiWMWfGl8
 
-sprite $ServicePrivateLinkSm [12x12/16z] RSY50GGX30NHmKd_3T_Ska7a_V1ySvuUf-7JmgehKzQZoENICFIiExqRA8RQAEG2ELCYYijNy4b-
+sprite $ServicePrivateLinkSm [12x12/16z] NSR50OLG302mj7sw_y3V1SWfhjRwV_xF-Vyiwjt8nQnNKSmQeGnzC5M8baeK6NBlZ8G2oHq
 
-sprite $ServicePrivateLinkMd [16x16/16z] VSZ50SC03C10cRt_mcsO4_rEFDSj5zV9sPpxifrjFJjgeZRezAfdQe3aD4RYu5an3NEmSD4YGHfrGTC26d5b6dHL-SHn028i107c1Ny
+sprite $ServicePrivateLinkMd [16x16/16z] VKw54G0n2CF9_WjNtwK6nEwWxmFm0-SD1nw15UOx5apiUK3HpYKsQ4GSazYWHVeWk6ikJ4dTiPbDPPzdWMhAX1kxzSTQL04
 
 sprite $ServicePrivateLinkLg [20x20/16z] {
-dSe7TWKW44BHXpBA_ZUSOipl7UlS0u-Iz6jABcqaaslaAlxGecrD1mhRPdGajGf7JD1mbMlZ8Yn0nSQ4PRrwCRGG6vGsvQ09ECWTQ741WMx1QZ8NwMzWDpr6
-TRhPSMD_p5Mqxcy
+dS-54GDH20JGnRV_YZFmutQkRr3yEqZv9FBTaYnyuWV1JnhbQleWuch59n8DuefNIXNnM7WbxxMahR5fpC82UKNtQLpIJUhQp0sjhlq4h6DMPCM4muUkaPeP
+Cb5NrDk7u-EGULu
 }
 
-!procedure ServicePrivateLink($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Networking/ServicePrivateLink', $name, $tech)
+!procedure ServicePrivateLink($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Networking/ServicePrivateLink', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServicePrivateLinkCard($id, $funcName="", $content="")

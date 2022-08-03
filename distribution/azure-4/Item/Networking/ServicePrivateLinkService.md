@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Networking/ServicePrivateLinkService')
 
 ' renders the element
-ServicePrivateLinkService('ServicePrivateLinkService', 'Service Private Link Service', 'an optional tech label')
+ServicePrivateLinkService('ServicePrivateLinkService', 'Service Private Link Service', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Networking/ServicePrivateLinkService')
 
 ' renders the element
-ServicePrivateLinkService('ServicePrivateLinkService', 'Service Private Link Service', 'an optional tech label')
+ServicePrivateLinkService('ServicePrivateLinkService', 'Service Private Link Service', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

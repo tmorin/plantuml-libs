@@ -4,12 +4,12 @@ sprite $ServiceStorageAccountsXs [10x10/16z] Oy06s600YSK4aGBIJ330m0oLP6PWveG0PWO
 
 sprite $ServiceStorageAccountsSm [12x12/16z] TS770O0m40IniNsn_uB9i2ya_eGGmX0chyaKLhmMonvhOVqoJ41s
 
-sprite $ServiceStorageAccountsMd [16x16/16z] XSU52S0m5431znMw_y8D5fT3ZvSSnFHSRYD4Q4gqloewmYmRi_K-tkDhtF4HDb0cFm
+sprite $ServiceStorageAccountsMd [16x16/16z] XSS53e0m54J1zsKtuVuNXXZUTgB3YX-4dpwl9oAu7CdxCyadgdof-hwVRssNRlg9XHq
 
 sprite $ServiceStorageAccountsLg [20x20/16z] fSY52S1G30N094-W-mzSG-hw3xzeuGCrNHv5LMnaNTpHUDxWUC3kC1suXlcw3GD1xexJKMkSxW3nqW
 
-!procedure ServiceStorageAccounts($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Storage/ServiceStorageAccounts', $name, $tech)
+!procedure ServiceStorageAccounts($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Storage/ServiceStorageAccounts', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceStorageAccountsCard($id, $funcName="", $content="")

@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Networking/ServiceConnections')
 
 ' renders the element
-ServiceConnections('ServiceConnections', 'Service Connections', 'an optional tech label')
+ServiceConnections('ServiceConnections', 'Service Connections', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Networking/ServiceConnections')
 
 ' renders the element
-ServiceConnections('ServiceConnections', 'Service Connections', 'an optional tech label')
+ServiceConnections('ServiceConnections', 'Service Connections', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

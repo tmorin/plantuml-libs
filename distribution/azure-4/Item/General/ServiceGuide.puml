@@ -2,17 +2,17 @@
 
 sprite $ServiceGuideXs [10x10/16z] Oq06R200Pd2201k4mGvYWbaCC1OB4pkCnG8J0oi5Qu4m4EO1
 
-sprite $ServiceGuideSm [12x12/16z] LSt70G0X24JHKNB_3U_0vczw9yI_xTrgcXTB5q38oO5Xt-5ZXV2-lDThhTD9PzEmdCyCHGyDyleCpepl0G
+sprite $ServiceGuideSm [12x12/16z] LOo50S10309vYUs_S0drUua2_anlb9eNIL_0OYeSKDf_kFADnV_AvtZpNMUUpBDJazXbYZODfkuGJepn
 
-sprite $ServiceGuideMd [16x16/16z] RSrN0iGW24LHZ731_MzuGXc_ygp7AbynCdlq014EhE6f1AI7-hPSiEQMEh5csoLzC25o8cFQhi-rvqLLQyzzrLDMsNMXwVp_ZsIWhnV4x9fKcAXCbbtz
+sprite $ServiceGuideMd [16x16/16z] RSq55i0W30FGFAY4-rzur7YsJE2t2FwY5jcjTUUaczdmP5Y5fjml2bhSo1NJTeIFAOmnGTlABklPOwE8bdk_o4aBTcuekitz3D84MM1t5Hdh22Rwz04
 
 sprite $ServiceGuideLg [20x20/16z] {
-TSvRbaCX24JHKg3Wpd_0tObIvdq-zr80FxFWFNiYdhnbagphNfAXLtcfnaEnSG96RahqIy1xLa4seMTeIvfio8ekSv_8RN7iLdsyypppR9yN7hfwe1_IDoK9
-m1TMNxa8Y8LwDI5aLbNo432f94lDmsrWzGy
+TSu74WGX24JH7YNqtF_06y0UD_xAhnJ0tmwFPnExk38zYWYUppB2zIfFrRZ96qVzR4gibu2jMSGsFSEoZ2axP0oJcGracsypuzSxoslUxFFSN5T3YyEQiimA
+kQui0hnGhmQ4aIGpYheH2gzDSvlexW
 }
 
-!procedure ServiceGuide($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceGuide', $name, $tech)
+!procedure ServiceGuide($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceGuide', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceGuideCard($id, $funcName="", $content="")

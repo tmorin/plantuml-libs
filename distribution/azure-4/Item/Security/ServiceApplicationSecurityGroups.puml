@@ -2,17 +2,17 @@
 
 sprite $ServiceApplicationSecurityGroupsXs [10x10/16z] JSY50S0m2031Z-3xprkN70uh4v493BsT6wTpCrJ0e1lSYPcLsRLvLNe3y8DoqUkp0m
 
-sprite $ServiceApplicationSecurityGroupsSm [12x12/16z] NOh50O100CDwRlllIuf3NfNeHokbPeTGJvfpFw9pgmeOLwuzxbbaDHsvm-X0piH538BMJN4yIjP9EeGD
+sprite $ServiceApplicationSecurityGroupsSm [12x12/16z] NSY10G0G3C2m0k3_Vms0WXXVmJblQVbPQ8w3pS6ZB2pxgBS9Snwbr2wn5fR6LeWjm_vOPYOgf0e
 
-sprite $ServiceApplicationSecurityGroupsMd [16x16/16z] RSi76iCW34DXioGbtF--5MLq_fdF_eY_110nvKfY84gQkwC-Uq-u6kEKdzLqrqetJ-EwFZeOknk5IShk9BkxXXYQVtg_DTT6JMtc7jGuu2pn9YlDdmS
+sprite $ServiceApplicationSecurityGroupsMd [16x16/16z] ROw50S0m3CCoSkZ_VrTc5UKY7H60KURtoum8uobhZJTvJRWuugdGYdFmz-NWt1oganDJzO_hVIBvCm7pq1N_miJTYWPOCWzDmKiD1BrfuAvdVm
 
 sprite $ServiceApplicationSecurityGroupsLg [20x20/16z] {
-TSzN0eGW303Hq39Hxd_VDMp4FdyykdnN3D0BGVEinZW3kWVcLlGIONP867eSFetDSgt53GvJRUimEwpfiXoMXqb23XE371M3OOnwDxmIV_LwNyoJVpXjhMQM
-vC2eoSmYtU5OMUII7cSTPPtq0m
+TSzN0iCW38DXiomHxd_VnjIDklAzyRFjNY40_qZ02EmvhW3y1M2qvX-GZIhPu3hyQZXRxRr50zJSnx4RrORFgLPtim9JCm8rDG8MiAr5X9P_3MjD1dj2fDD1
+ifXYQdPXSZE1LedhB2dQzm
 }
 
-!procedure ServiceApplicationSecurityGroups($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Security/ServiceApplicationSecurityGroups', $name, $tech)
+!procedure ServiceApplicationSecurityGroups($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Security/ServiceApplicationSecurityGroups', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceApplicationSecurityGroupsCard($id, $funcName="", $content="")

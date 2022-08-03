@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Networking/ServiceRouteTables')
 
 ' renders the element
-ServiceRouteTables('ServiceRouteTables', 'Service Route Tables', 'an optional tech label')
+ServiceRouteTables('ServiceRouteTables', 'Service Route Tables', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Networking/ServiceRouteTables')
 
 ' renders the element
-ServiceRouteTables('ServiceRouteTables', 'Service Route Tables', 'an optional tech label')
+ServiceRouteTables('ServiceRouteTables', 'Service Route Tables', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

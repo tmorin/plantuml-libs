@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Storage/ServiceImportExportJobs')
 
 ' renders the element
-ServiceImportExportJobs('ServiceImportExportJobs', 'Service Import Export Jobs', 'an optional tech label')
+ServiceImportExportJobs('ServiceImportExportJobs', 'Service Import Export Jobs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Storage/ServiceImportExportJobs')
 
 ' renders the element
-ServiceImportExportJobs('ServiceImportExportJobs', 'Service Import Export Jobs', 'an optional tech label')
+ServiceImportExportJobs('ServiceImportExportJobs', 'Service Import Export Jobs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

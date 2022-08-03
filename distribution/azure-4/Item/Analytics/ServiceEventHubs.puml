@@ -2,14 +2,14 @@
 
 sprite $ServiceEventHubsXs [10x10/16z] Oq00DXXWO8E9034hiWeaceq9MOm5HYFK8Cm3
 
-sprite $ServiceEventHubsSm [12x12/16z] Oq06RAmmm8RAHgW0OXPML4qmBYiRXC0KH-XcP8Ans120WOK91fW1
+sprite $ServiceEventHubsSm [12x12/16z] Oq06RAmmm8RAHgW0OXPML4qmBYiRbC0KXm0KSzWGW8652GQO0G
 
-sprite $ServiceEventHubsMd [16x16/16z] NSor0G1130F1DQd_ZX-F9pAAa-tG3gLDNyzK0iXALf51rUpDlq-pyVKjfJRmS9E8eFNfIAs9TjykKM8-ar0j9BJ3sDm
+sprite $ServiceEventHubsMd [16x16/16z] XOw30G0n34MJVEo_yTbeNn4ZUlXE6BTWkE94dd-ASGL4IAUTELVEOg_IrcoBLyv6rMONQmkU-GVF-MQTsA_z7um
 
-sprite $ServiceEventHubsLg [20x20/16z] ZP250S0m20I1b_qthhlcsXWEqOhllCZY1An7sGYbetYJ9N2Jun84v2Gh85UP5XlQjTb9wyglU1fZ7UeXPzbAigO-ikgljyPPAHxe0G
+sprite $ServiceEventHubsLg [20x20/16z] ZP250S0m20In-_qthhlcsXWErehklCZiX8j7sKZ1IRx9t6_obCxlgbcMkHcpsBWKcnrCoy6_uY6TybOjiaqGhRqrpWfxe0S
 
-!procedure ServiceEventHubs($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Analytics/ServiceEventHubs', $name, $tech)
+!procedure ServiceEventHubs($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Analytics/ServiceEventHubs', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceEventHubsCard($id, $funcName="", $content="")

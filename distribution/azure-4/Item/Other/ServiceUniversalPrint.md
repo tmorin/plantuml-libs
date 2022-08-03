@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Other/ServiceUniversalPrint')
 
 ' renders the element
-ServiceUniversalPrint('ServiceUniversalPrint', 'Service Universal Print', 'an optional tech label')
+ServiceUniversalPrint('ServiceUniversalPrint', 'Service Universal Print', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Other/ServiceUniversalPrint')
 
 ' renders the element
-ServiceUniversalPrint('ServiceUniversalPrint', 'Service Universal Print', 'an optional tech label')
+ServiceUniversalPrint('ServiceUniversalPrint', 'Service Universal Print', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

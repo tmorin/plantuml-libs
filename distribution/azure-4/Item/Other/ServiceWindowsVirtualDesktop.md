@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Other/ServiceWindowsVirtualDesktop')
 
 ' renders the element
-ServiceWindowsVirtualDesktop('ServiceWindowsVirtualDesktop', 'Service Windows Virtual Desktop', 'an optional tech label')
+ServiceWindowsVirtualDesktop('ServiceWindowsVirtualDesktop', 'Service Windows Virtual Desktop', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Other/ServiceWindowsVirtualDesktop')
 
 ' renders the element
-ServiceWindowsVirtualDesktop('ServiceWindowsVirtualDesktop', 'Service Windows Virtual Desktop', 'an optional tech label')
+ServiceWindowsVirtualDesktop('ServiceWindowsVirtualDesktop', 'Service Windows Virtual Desktop', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

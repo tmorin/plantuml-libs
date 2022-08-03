@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Blockchain/ServiceOutboundConnection')
 
 ' renders the element
-ServiceOutboundConnection('ServiceOutboundConnection', 'Service Outbound Connection', 'an optional tech label')
+ServiceOutboundConnection('ServiceOutboundConnection', 'Service Outbound Connection', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Blockchain/ServiceOutboundConnection')
 
 ' renders the element
-ServiceOutboundConnection('ServiceOutboundConnection', 'Service Outbound Connection', 'an optional tech label')
+ServiceOutboundConnection('ServiceOutboundConnection', 'Service Outbound Connection', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

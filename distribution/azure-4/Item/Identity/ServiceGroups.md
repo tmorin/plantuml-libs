@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Identity/ServiceGroups')
 
 ' renders the element
-ServiceGroups('ServiceGroups', 'Service Groups', 'an optional tech label')
+ServiceGroups('ServiceGroups', 'Service Groups', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Identity/ServiceGroups')
 
 ' renders the element
-ServiceGroups('ServiceGroups', 'Service Groups', 'an optional tech label')
+ServiceGroups('ServiceGroups', 'Service Groups', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

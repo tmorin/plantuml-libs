@@ -2,17 +2,17 @@
 
 sprite $ServiceCostManagementXs [10x10/16z] JSY15G0G203H0zX_uIgWW_wBMFSErbjAIslbCSP89FjTRVqKqmB-7p4zK
 
-sprite $ServiceCostManagementSm [12x12/16z] LSc74O1044BHVmct_ue5iszc8_pr5KIJD5sOhBiMP9mXo70Pcy4vNFTWfD7UTBa4zAfA4QjYm0u
+sprite $ServiceCostManagementSm [12x12/16z] LSc50S0W3031nzb_udvIFuZpLqSWpJcxaQsguQLOxZo58POWY-afj4YKzpgCYVRUrI2C7GeS
 
-sprite $ServiceCostManagementMd [16x16/16z] RSkt5KCn3CLGA6l_YUq77dN_5ipaIojGzeEMPSBms5KtUXsjEPXWRcFtUgkrJ-B4ofzLUZMgdyPrUgifTKzFti0uiOp4kNya3ABTXzActFu
+sprite $ServiceCostManagementMd [16x16/16z] ZSkr0S1030J1VN7_3HlEb7e2iVYX7aYgFCFwrgRujcjf4A2yl4nlzvfLD_gKGAcYRmibGZ7RbWgux-tC1QpMH95Jpu4pE38FRY7QxW
 
 sprite $ServiceCostManagementLg [20x20/16z] {
-bSst0SKm20JG8xF_mZ-OGwhzAZ9u8t8PoFF244x4BJ8EdK757sEnkprJK1Fi6sEG1r0FXtZMnWm4W316hH3u171MgXAsAtDZ_iuOOCL8UUrlx-tNFsESCpQg
-_wB_1DH7ub2QgIy
+bOs50SH0409PJ_yDly6zMoPoiWZsKBq8YEmR45H8VUyifz1kidQBcvigUDWAGMXpNpCN4fOzQw-D0J3jCOio93TQfsOQGPa2axsKGSC2N6bdLXuNnncJkoaZ
+ivsfozyWjYkD3nm1
 }
 
-!procedure ServiceCostManagement($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceCostManagement', $name, $tech)
+!procedure ServiceCostManagement($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceCostManagement', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceCostManagementCard($id, $funcName="", $content="")

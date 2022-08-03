@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Preview/ServiceAzureCloudShell')
 
 ' renders the element
-ServiceAzureCloudShell('ServiceAzureCloudShell', 'Service Azure Cloud Shell', 'an optional tech label')
+ServiceAzureCloudShell('ServiceAzureCloudShell', 'Service Azure Cloud Shell', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Preview/ServiceAzureCloudShell')
 
 ' renders the element
-ServiceAzureCloudShell('ServiceAzureCloudShell', 'Service Azure Cloud Shell', 'an optional tech label')
+ServiceAzureCloudShell('ServiceAzureCloudShell', 'Service Azure Cloud Shell', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

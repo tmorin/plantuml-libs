@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Compute/ServiceOsImagesClassic')
 
 ' renders the element
-ServiceOsImagesClassic('ServiceOsImagesClassic', 'Service Os Images Classic', 'an optional tech label')
+ServiceOsImagesClassic('ServiceOsImagesClassic', 'Service Os Images Classic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Compute/ServiceOsImagesClassic')
 
 ' renders the element
-ServiceOsImagesClassic('ServiceOsImagesClassic', 'Service Os Images Classic', 'an optional tech label')
+ServiceOsImagesClassic('ServiceOsImagesClassic', 'Service Os Images Classic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

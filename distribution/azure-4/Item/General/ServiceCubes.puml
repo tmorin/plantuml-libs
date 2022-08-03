@@ -2,17 +2,17 @@
 
 sprite $ServiceCubesXs [10x10/16z] NOc74G0m20ADVxB_nkdT2hmz1GmHW8OAwLEGL4yJuErqvkrSoaBMJm4
 
-sprite $ServiceCubesSm [12x12/16z] NKs50G0X2DIh_JSsFstWgXohahnAhdNL5fExTkwwNlL5ptXnAR7bG-XWoptPcCzLtt9wvYWe7G
+sprite $ServiceCubesSm [12x12/16z] NOp70S0m30A9Jh3_nkdDvaNN3E1c2mTkxYPvkFDmVHmWWheeTStTE7NDRMVdpiEVAuoaJca3
 
-sprite $ServiceCubesMd [16x16/16z] TKs50S0m22kI_F_nLdSl40ltPQPpbvVsrdFFtWDkuDp7xjsBvLwakmVGDFwvowjd8l_K_3i302DZ3tSozyXz_ivUSY7f9v7ZKOADyVy1
+sprite $ServiceCubesMd [16x16/16z] VS-55S0W40FGisJ_aSkbRhH0tiUnxoypRkhFTth9F0nKWbSFJPoodxiRcD7PqhTb69GCPT4093cCAbA6h7YxEpgy0peUwybwm08
 
 sprite $ServiceCubesLg [20x20/16z] {
-dSu75eGm40BGQN3_8w-yXErzRBol9iIRgUvyfBPQF1ThB26l3OU2zoRvmx9o89kigoQL8C8TtIpJBIjc9vOJ0b0UibO2PS0XCWsv3JRmfRbln_XbX38H6bdl
-qbFXfFi9
+dSx75GH1309H2Hho3tcddTQxuLJlduXF8_D1GF91kNUbr1JxrdIe_6XTpXYo3KFYvXjILkoFoRbCrCUsojYba7et6xFaRj8XtVhiPIhpM-DAHbkM4RsjwEl6
+7brZ3QCk
 }
 
-!procedure ServiceCubes($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceCubes', $name, $tech)
+!procedure ServiceCubes($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceCubes', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceCubesCard($id, $funcName="", $content="")

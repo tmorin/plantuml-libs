@@ -2,14 +2,14 @@
 
 sprite $ServiceAzureCloudShellXs [10x10/16z] RSd50G0W243HRzV-yzfmuYcD8UMFc3x2UFBkE3MVRf3Abk-r7Y5kxK0j
 
-sprite $ServiceAzureCloudShellSm [12x12/16z] TSg35G0130FGcllFUpR-Gv703xN3RMSv0FTktcjUVEcqfhVFSEbKBDP-Bd11EY6u604
+sprite $ServiceAzureCloudShellSm [12x12/16z] TSg35G0130FGcllFUpR-Gv703xN3RMSv0FTktcjUVEcqfhVFrax5Oktd0XUa4xWQ0G
 
-sprite $ServiceAzureCloudShellMd [16x16/16z] XSs35G1130JGZTL_lMVpFuRJ_i1HQw97SAk9ZuOwQpVLibRkytnkv7A_r6uZ7EgiZ72RwVBFLqiTgpNVbhBzw04
+sprite $ServiceAzureCloudShellMd [16x16/16z] bSsr0S0m30H0MmpxpnjcpdN2Bp-nR9rhfAskZbmDDS-LsJWV6p7TJxLf3xewCjnDHpBzizbK-spErwaiBre
 
-sprite $ServiceAzureCloudShellLg [20x20/16z] fT3L0SCW403GSsp_UTi4Y_lxX7FuW6M50DHMPFzDT8M7UkeMb8OtbnQil55_yCxLjmGjPiJvpMj-YTvb-KtJE5DmbKqzVEUcjqb_2vFf1jCJO4SPmcr_
+sprite $ServiceAzureCloudShellLg [20x20/16z] fT2r0G0W30J0noNxpuixT5m9SNmGyi01fG_o_IRLGG12cOtYwStGHjStFXwiCUsDq6CoKTwiAY_UcgAyASepETFesSCEPhvDuyrDymRp2HyY
 
-!procedure ServiceAzureCloudShell($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Preview/ServiceAzureCloudShell', $name, $tech)
+!procedure ServiceAzureCloudShell($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Preview/ServiceAzureCloudShell', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceAzureCloudShellCard($id, $funcName="", $content="")

@@ -2,20 +2,20 @@
 
 sprite $ServiceAzureSphereXs [10x10/16z] JSQ70K0X20FHiv1a_uL_Bvu2ZxFENKsgBbJDOoxKlQHvDAH5zgdZCEV1Ss0aFU4iPx03
 
-sprite $ServiceAzureSphereSm [12x12/16z] LOY50G0128Gmp_qN_axCWmFdmYh9EbrLMbNPRczWtvw7eJjofxj_lvG7ab3BjzUt2qY-lKMGCJCz8ylDRs73O0K
+sprite $ServiceAzureSphereSm [12x12/16z] LOY70GH1208nOlyLl-7JpQuwW4Nn8HmUrqMuH6o83wVgiY7JVCZCXvE-a0IJsgfz0P3Q6Z2uLLLMKRpx3atB2m
 
 sprite $ServiceAzureSphereMd [16x16/16z] {
-PSh70KH1209G1d5q-szu-Jcz4mhO4RYC34W3kym4bAczDFcqhRq8Y3MGt0Tppc182ZfglRMAQP-xghJVPIYBzQQJzyewwim1OLGfH9_m9R2wYzqzWG3ek2En
-gjyYO7y
+POv90W902CDgAHJ__s4Pt3MdP5RmWFWa0zAxCW5bwfcZayCZ7-o9M27vE51LmP0K7DMsbgZXhsthqHvE-tw0OtDUwUVspeMBhJYxMmBTRNPt0G5mz069nTT3
+7Bq1
 }
 
 sprite $ServiceAzureSphereLg [20x20/16z] {
-RSg54GH1449Hke6H_1C-wdpbhV9hyDKu8Ldgma_R0ihsDybf1JeQJtwIx6-aZvBABuN-HeunpAQaRZghC89wutFTDDqqtxOP_hJd4ZoZzCJdQ2W-aJaa0GBw
-TP991a2aSQwrkaVUQIabUls8nDCl2LySEpxb0G
+ROe75iGW50Bn0yQz_uMNz3efohp1GU49sNIpPGjejWybnpNGOMkz8Dc7fE-ScHlgaEozcqL9LNGMq0ErmMLzE7quVxefU7VB4Zo5jcNB0EQvIoPAZBorbemo
+KisEqnYZgkU_EeWU9wcnS54uQFqNTlC7
 }
 
-!procedure ServiceAzureSphere($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Preview/ServiceAzureSphere', $name, $tech)
+!procedure ServiceAzureSphere($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Preview/ServiceAzureSphere', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceAzureSphereCard($id, $funcName="", $content="")

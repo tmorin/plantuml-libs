@@ -2,20 +2,17 @@
 
 sprite $ServiceManagedApplicationsCenterXs [10x10/16z] RSQt5S90500m_V0kxJymLmAsAdcNrM4Vz6t3Y6nxJoB6ZJ1656ifOiJOI3NIZmy
 
-sprite $ServiceManagedApplicationsCenterSm [12x12/16z] VSUr0G012C30uB3_mA_LQweBVxaxRgT4TUF08JKq8DB5HSOQ93CPgOAC96dAm2npSuxWm7R5Ncuft5i1
+sprite $ServiceManagedApplicationsCenterSm [12x12/16z] VOi54W9030Ettlx_msHW5DkJIXB-aPbul3fpp-3Keiu2DLIxYhOBrjxgPg2hQUtKujghxsSIh5jRqSBvu04
 
-sprite $ServiceManagedApplicationsCenterMd [16x16/16z] {
-ZOa7WWCm2CDiOWpv_uUFwzwjCeNm6rJSM2n9YzxDGvCEeuMr3raHyvyRFUh4H95THpUJatANXS6qiJjB1H1EUBpOe_08jH3j6ey4apRRzkGfW-qo3bZAT98u
-iHJ4M_u
-}
+sprite $ServiceManagedApplicationsCenterMd [16x16/16z] ZSa5aWL02CJG04qpS_y3htxtbBuAdnMwOae2x_MdNoHI4Vl_9aKfWWMuAKa_c7-R9bcznm8mDdlrQ21m_tbOSvmgSda6ik7tnx8DA05iZ_dB5TNku5WfUTut
 
 sprite $ServiceManagedApplicationsCenterLg [20x20/16z] {
-hSf9bWGm209G4KDYt__0ZJLkQsAZ_4Vy85b5-k8fmQe28hl_BW9t8i4veRwWpSivT1lZGe7ZG1dEc8H8coVTiNKpUPbdsRXX0soIHwjtN4WKxmRjCfLDIDg2
-Pvzmt6rInchfZ77D5h9lgJEcskR8EICJpKDBhhWdvImYtiy_
+hSe7KaKn34DHoKM9sV-2aUam5VZtrPmH7b1KvGz1LXM9c7d2njhH-curs6mMVzQmnlOhruamt3N91vidCpXwCnbuQOjZMZJB8yx1eSMGU3FgXAbiOgGDlEV2
+oVToe4UwQzcxfUn7ce0hcokvIpYdsBKb6kzHhXD_w1a
 }
 
-!procedure ServiceManagedApplicationsCenter($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/ManagementGovernance/ServiceManagedApplicationsCenter', $name, $tech)
+!procedure ServiceManagedApplicationsCenter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/ManagementGovernance/ServiceManagedApplicationsCenter', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceManagedApplicationsCenterCard($id, $funcName="", $content="")

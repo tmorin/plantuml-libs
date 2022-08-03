@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Databases/ServiceSqlDatabase')
 
 ' renders the element
-ServiceSqlDatabase('ServiceSqlDatabase', 'Service Sql Database', 'an optional tech label')
+ServiceSqlDatabase('ServiceSqlDatabase', 'Service Sql Database', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Databases/ServiceSqlDatabase')
 
 ' renders the element
-ServiceSqlDatabase('ServiceSqlDatabase', 'Service Sql Database', 'an optional tech label')
+ServiceSqlDatabase('ServiceSqlDatabase', 'Service Sql Database', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

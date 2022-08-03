@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceRecent')
 
 ' renders the element
-ServiceRecent('ServiceRecent', 'Service Recent', 'an optional tech label')
+ServiceRecent('ServiceRecent', 'Service Recent', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceRecent')
 
 ' renders the element
-ServiceRecent('ServiceRecent', 'Service Recent', 'an optional tech label')
+ServiceRecent('ServiceRecent', 'Service Recent', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

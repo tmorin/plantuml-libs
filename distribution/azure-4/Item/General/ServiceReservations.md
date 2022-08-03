@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceReservations')
 
 ' renders the element
-ServiceReservations('ServiceReservations', 'Service Reservations', 'an optional tech label')
+ServiceReservations('ServiceReservations', 'Service Reservations', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceReservations')
 
 ' renders the element
-ServiceReservations('ServiceReservations', 'Service Reservations', 'an optional tech label')
+ServiceReservations('ServiceReservations', 'Service Reservations', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

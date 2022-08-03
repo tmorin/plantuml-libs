@@ -2,14 +2,14 @@
 
 sprite $ServiceSqlDataWarehousesXs [10x10/16z] RKY30S1038ov_xor-yaPdYSYk-jwQ-QjyqO1sTAwewZWjdHLDQmtIh6c6G
 
-sprite $ServiceSqlDataWarehousesSm [12x12/16z] TOg50O0W00Jjt7zVFwJX5FYQAhPj3Keib7i0UdOF2Ot1X6-MrhNlSChV1xo59aEzKDyV
+sprite $ServiceSqlDataWarehousesSm [12x12/16z] TOY50S0W30IZBRB_lhZ3nIuF6oBSBO59jP4UX8H2TX58rN8KLS6IUnVnYoUUJibj
 
-sprite $ServiceSqlDataWarehousesMd [16x16/16z] bStL0KH124DH4ZBUVx-xpztktna1EuiI5a5z4psCiUUahk5W7cAZ9RgqCq42dQSb8KZex0wswawlpInsxzLQ_TTPHeABXxxQOiTaFm
+sprite $ServiceSqlDataWarehousesMd [16x16/16z] bSg53S1G549Hdl1r_tdhxhtHGy1bxdlrpJ9EwK1k6WTCEIQxGrsF5bLP_-9EkajlCqWjPcgb0c7urrgwUdTGoEgnlqRe6T42
 
-sprite $ServiceSqlDataWarehousesLg [20x20/16z] hSYr0O1G30N0v0cw_xoum--uyg8CmcDIitpD37l99wtbkpMfs8bndCIW-77wE80aC9yKYuHaIudbI0RxYfYeggVprFFrtQ8ltExlQ_PpdE2wgMjdZ
+sprite $ServiceSqlDataWarehousesLg [20x20/16z] hSxL0O0m34NHv0cw_xousnSNFq3RU0_2HL9ZUIIjxUAzHNrkHXv-ONoQnE6Y1mD80gEjIqX8jfJOhIs88HNbO9x_RTjcgdsnjR-jMisnbowhicH43m
 
-!procedure ServiceSqlDataWarehouses($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Integration/ServiceSqlDataWarehouses', $name, $tech)
+!procedure ServiceSqlDataWarehouses($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Integration/ServiceSqlDataWarehouses', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceSqlDataWarehousesCard($id, $funcName="", $content="")

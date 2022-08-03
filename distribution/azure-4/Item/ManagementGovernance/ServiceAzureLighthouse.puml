@@ -2,17 +2,17 @@
 
 sprite $ServiceAzureLighthouseXs [10x10/16z] FSQ70S0W2031HEdx3opz5RWlEh7Ycbb9OhLenIrc10XSlo2Xk5v88vTc0F
 
-sprite $ServiceAzureLighthouseSm [12x12/16z] HOnL0W0m249N0lF-zrt7-r8gB5AuP7UFvnJ9UdHB2Bgt_HiWS6JIIh5royeujMR61MdTwnfWtAWBbP7UfvKIEm
+sprite $ServiceAzureLighthouseSm [12x12/16z] HOk34G0m40JVwh_V63iwmeBWmbLr98M8v36A1d4rVstcOYTsLn5SEeOINICSoYAMNcfWGrikGiPwo_dk
 
-sprite $ServiceAzureLighthouseMd [16x16/16z] NSy54e0m34JHnkN-1sOsUF_e2zJM5QzlsjtqY7lAPr0prO_TQRFy7HzJ8BFR1gdgFO30E2a-oamQsmWPoD0LR9PrvNZLep2S83VdZ7K
+sprite $ServiceAzureLighthouseMd [16x16/16z] NSt50G0W241HK4hstzVkVti6m2p07Rdx4NhFO9NMbssHt-6rtjOMyo8t4H5E3n7hO9GkCnlcAJFkNfeFc2tD1Aktb8a1ucBV0GK
 
 sprite $ServiceAzureLighthouseLg [20x20/16z] {
-XSv50aCn24LHcY0Fzh_V6bBllyCJ0PeMlISHUDKLz_1477ul_0dh6UZLLFcBoOUP7TkoUy9CavGmorWBYpPjfB02RLftSAqUypr3DYQ6RfUPJ_duMLnpnISn
-laLqUdh6QHS
+ZSw50OCm443HoFd--rREweMFFo39wDPu3yraliWoJvu8J3tJ9vIdovCHhI-67yPymjX3W0TXoAtPLW98HLj2W4JAAB-HMnWqdLYYi1kWYpVJMBlu-LcKOebF
+md3lsGGXx0e
 }
 
-!procedure ServiceAzureLighthouse($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/ManagementGovernance/ServiceAzureLighthouse', $name, $tech)
+!procedure ServiceAzureLighthouse($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/ManagementGovernance/ServiceAzureLighthouse', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceAzureLighthouseCard($id, $funcName="", $content="")

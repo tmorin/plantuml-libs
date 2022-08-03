@@ -2,14 +2,14 @@
 
 sprite $ServiceDiagnosticsSettingsXs [10x10/16z] NSQ70G0m1011dVqNJgy-mS6DSDJ4ElfbBR6ciMp8dTrzg9KL8u8A
 
-sprite $ServiceDiagnosticsSettingsSm [12x12/16z] NOk30G1024LpxR_mcRsC3n-wAZRNHUvjCNibQsNsJRZspcRU6FqYzx5uUuSA
+sprite $ServiceDiagnosticsSettingsSm [12x12/16z] NSQ70G0m1011dVqNJgy-mS6NhelTgsnRJIiPuF9OmyvctXfUPSVgjKC5
 
-sprite $ServiceDiagnosticsSettingsMd [16x16/16z] dSa54e0m44FHf9Bb_YUchcFmgdyM5nSnM3fn-jNAgAmt1O5nD6B4c9jFZu8bjHEcCplvqCz4xPt6Bm
+sprite $ServiceDiagnosticsSettingsMd [16x16/16z] dSgr0O1040NHETkX_uPn9-9UzeMlniabNhfoB58izZmdWjJEp7mzTmiIrTcMPqaVsHzvkAHuPc42
 
 sprite $ServiceDiagnosticsSettingsLg [20x20/16z] hSk52G113031UD9_nV_dYj_Y0mltL6NA4v7Y56Worha7PZcnt69WAZ8RvcbOce30oj0i0HZPPFudxAN9Kgyivcv6denzpdxv
 
-!procedure ServiceDiagnosticsSettings($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/ManagementGovernance/ServiceDiagnosticsSettings', $name, $tech)
+!procedure ServiceDiagnosticsSettings($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/ManagementGovernance/ServiceDiagnosticsSettings', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceDiagnosticsSettingsCard($id, $funcName="", $content="")

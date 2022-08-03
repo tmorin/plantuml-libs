@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceBlobBlock')
 
 ' renders the element
-ServiceBlobBlock('ServiceBlobBlock', 'Service Blob Block', 'an optional tech label')
+ServiceBlobBlock('ServiceBlobBlock', 'Service Blob Block', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceBlobBlock')
 
 ' renders the element
-ServiceBlobBlock('ServiceBlobBlock', 'Service Blob Block', 'an optional tech label')
+ServiceBlobBlock('ServiceBlobBlock', 'Service Blob Block', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

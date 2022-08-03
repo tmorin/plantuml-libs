@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceSearch')
 
 ' renders the element
-ServiceSearch('ServiceSearch', 'Service Search', 'an optional tech label')
+ServiceSearch('ServiceSearch', 'Service Search', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceSearch')
 
 ' renders the element
-ServiceSearch('ServiceSearch', 'Service Search', 'an optional tech label')
+ServiceSearch('ServiceSearch', 'Service Search', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

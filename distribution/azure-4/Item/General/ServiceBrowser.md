@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceBrowser')
 
 ' renders the element
-ServiceBrowser('ServiceBrowser', 'Service Browser', 'an optional tech label')
+ServiceBrowser('ServiceBrowser', 'Service Browser', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceBrowser')
 
 ' renders the element
-ServiceBrowser('ServiceBrowser', 'Service Browser', 'an optional tech label')
+ServiceBrowser('ServiceBrowser', 'Service Browser', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

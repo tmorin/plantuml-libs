@@ -2,14 +2,14 @@
 
 sprite $ServiceFolderBlankXs [10x10/16z] Ou03LX10i9Z90onmm0ZcCm41
 
-sprite $ServiceFolderBlankSm [12x12/16z] Oq02Z4n0m0XXip8pChAoChE002i8C5CEM7001aO4
+sprite $ServiceFolderBlankSm [12x12/16z] Oq02Z4n006MpCZCoih8oGzWWm4mvOC41aDq
 
 sprite $ServiceFolderBlankMd [16x16/16z] Oo00M5cPcPbPMLdWV2XWXW8OTw002ua0tNy
 
-sprite $ServiceFolderBlankLg [20x20/16z] Oo0IiC80YXXCYXbJ7Gip7224XZPWeG0m8fd310NOmXa
+sprite $ServiceFolderBlankLg [20x20/16z] Oo0IiC80YXXCYX5J7Gip7224XZPWeG0m8fd310NOmXa
 
-!procedure ServiceFolderBlank($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceFolderBlank', $name, $tech)
+!procedure ServiceFolderBlank($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceFolderBlank', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceFolderBlankCard($id, $funcName="", $content="")

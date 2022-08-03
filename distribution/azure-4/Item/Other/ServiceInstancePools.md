@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Other/ServiceInstancePools')
 
 ' renders the element
-ServiceInstancePools('ServiceInstancePools', 'Service Instance Pools', 'an optional tech label')
+ServiceInstancePools('ServiceInstancePools', 'Service Instance Pools', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Other/ServiceInstancePools')
 
 ' renders the element
-ServiceInstancePools('ServiceInstancePools', 'Service Instance Pools', 'an optional tech label')
+ServiceInstancePools('ServiceInstancePools', 'Service Instance Pools', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

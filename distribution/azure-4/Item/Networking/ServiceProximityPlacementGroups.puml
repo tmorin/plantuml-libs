@@ -2,14 +2,14 @@
 
 sprite $ServiceProximityPlacementGroupsXs [10x10/16z] Oq00LbOenGOJOMC38Z0cceNGYp0F
 
-sprite $ServiceProximityPlacementGroupsSm [12x12/16z] VKtL0SDG4E84-dJ_SHkNhvmhu2taaOCKxwb4pqoiRckTcXLjpjZgMeLVhNij2Qj_rMzCEyiaukRr1G
+sprite $ServiceProximityPlacementGroupsSm [12x12/16z] TKm50e0m4EASuEh-_roxTTS1u6xarZjIFAzIW9cjES-zF26xhtDAmf3ITfUmPNE-D2zz8mBFSG8
 
-sprite $ServiceProximityPlacementGroupsMd [16x16/16z] dSV50G0X34JH83Dhq7-vk1_t8ycJCmtqrG12m4ZF0gIiCTdcoc-A-Rnl_T7yVUb_lw-PtbEks_lk_l_pMh9UQAW0TEcoMqWFIY8
+sprite $ServiceProximityPlacementGroupsMd [16x16/16z] dSV50O1030NH19Y_td-vk7DZLf9dd-3O74pWTjI3PFSqsvVMVxDIpjlFxbBcFvUoMwt9GcpjyF7_ywstEpbmSjs7czqc
 
-sprite $ServiceProximityPlacementGroupsLg [20x20/16z] fT053aG120FH8jDLxd_STPVOVr4cZQ6V4lGGa1B0sm1iIgyQs_hWI-kpL5zSM_aC-UBMLimCCliPBzajR_cZlVlNeD_V0ggt_zslVXrIqX4
+sprite $ServiceProximityPlacementGroupsLg [20x20/16z] hP1L0e1020L1Tvx9_OzhTtpfR2-DFPB1uJKzuF874bSpINP1qv-FB8SlVnfXFhJy5KG49je8VTNx_-_2on-auuy3bX_xjxtIKH4twm4
 
-!procedure ServiceProximityPlacementGroups($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Networking/ServiceProximityPlacementGroups', $name, $tech)
+!procedure ServiceProximityPlacementGroups($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Networking/ServiceProximityPlacementGroups', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceProximityPlacementGroupsCard($id, $funcName="", $content="")

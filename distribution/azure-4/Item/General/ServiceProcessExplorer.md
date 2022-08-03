@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceProcessExplorer')
 
 ' renders the element
-ServiceProcessExplorer('ServiceProcessExplorer', 'Service Process Explorer', 'an optional tech label')
+ServiceProcessExplorer('ServiceProcessExplorer', 'Service Process Explorer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceProcessExplorer')
 
 ' renders the element
-ServiceProcessExplorer('ServiceProcessExplorer', 'Service Process Explorer', 'an optional tech label')
+ServiceProcessExplorer('ServiceProcessExplorer', 'Service Process Explorer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

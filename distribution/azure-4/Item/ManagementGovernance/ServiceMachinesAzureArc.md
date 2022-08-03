@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/ManagementGovernance/ServiceMachinesAzureArc')
 
 ' renders the element
-ServiceMachinesAzureArc('ServiceMachinesAzureArc', 'Service Machines Azure Arc', 'an optional tech label')
+ServiceMachinesAzureArc('ServiceMachinesAzureArc', 'Service Machines Azure Arc', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/ManagementGovernance/ServiceMachinesAzureArc')
 
 ' renders the element
-ServiceMachinesAzureArc('ServiceMachinesAzureArc', 'Service Machines Azure Arc', 'an optional tech label')
+ServiceMachinesAzureArc('ServiceMachinesAzureArc', 'Service Machines Azure Arc', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Compute/ServiceMeshApplications')
 
 ' renders the element
-ServiceMeshApplications('ServiceMeshApplications', 'Service Mesh Applications', 'an optional tech label')
+ServiceMeshApplications('ServiceMeshApplications', 'Service Mesh Applications', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Compute/ServiceMeshApplications')
 
 ' renders the element
-ServiceMeshApplications('ServiceMeshApplications', 'Service Mesh Applications', 'an optional tech label')
+ServiceMeshApplications('ServiceMeshApplications', 'Service Mesh Applications', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

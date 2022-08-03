@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceMediaFile')
 
 ' renders the element
-ServiceMediaFile('ServiceMediaFile', 'Service Media File', 'an optional tech label')
+ServiceMediaFile('ServiceMediaFile', 'Service Media File', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceMediaFile')
 
 ' renders the element
-ServiceMediaFile('ServiceMediaFile', 'Service Media File', 'an optional tech label')
+ServiceMediaFile('ServiceMediaFile', 'Service Media File', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

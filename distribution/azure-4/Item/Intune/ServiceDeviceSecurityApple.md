@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Intune/ServiceDeviceSecurityApple')
 
 ' renders the element
-ServiceDeviceSecurityApple('ServiceDeviceSecurityApple', 'Service Device Security Apple', 'an optional tech label')
+ServiceDeviceSecurityApple('ServiceDeviceSecurityApple', 'Service Device Security Apple', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Intune/ServiceDeviceSecurityApple')
 
 ' renders the element
-ServiceDeviceSecurityApple('ServiceDeviceSecurityApple', 'Service Device Security Apple', 'an optional tech label')
+ServiceDeviceSecurityApple('ServiceDeviceSecurityApple', 'Service Device Security Apple', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

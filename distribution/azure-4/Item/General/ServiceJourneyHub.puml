@@ -2,14 +2,14 @@
 
 sprite $ServiceJourneyHubXs [10x10/16z] NOk30G1024LpxR_mcRsC3nSTcDdJCNChRUYTkxSXTGCGaTj5HE-QAWOL
 
-sprite $ServiceJourneyHubSm [12x12/16z] TSY55G0n20FG5eZil_2v2_fVshK0p1jat9oPZMG7Jk-vf5zBqQhgwTXjE-p9mEoq-mW
+sprite $ServiceJourneyHubSm [12x12/16z] TSY54S0030B0AB3_mdMNw1zshUwUDu2uEJCDW7UVtdEIloR3gkhfs2qffh7gdZsjZm
 
-sprite $ServiceJourneyHubMd [16x16/16z] XOg50G0X30FhoVuBlxl08Mr4dcXcQaoVrCIghQNTNN9USwAbhtq05wqj7H6hniIghNgQv4jp_YP3LTJCrcy4
+sprite $ServiceJourneyHubMd [16x16/16z] XOg50G0X30EJ-luBlxl08Mq4J-ZkjEb3JAnQMbfLuVFg4orzxMVcHREbpMpLER5gYPwkgfUk-GD80Y82pjy8
 
-sprite $ServiceJourneyHubLg [20x20/16z] hSk54S0W44JHZzD_nM5dH-B-q3DsfI6IX3ma24NmNUL1BeaZLwvpgzacl-Ty4x9yodNPpVac55dc2CFodW
+sprite $ServiceJourneyHubLg [20x20/16z] hSk54S0W44JHZzD_nM5dH-B-q3DsfI6IX3mae0Y-gpp89S5HaUlSQhR9xpdVaELJhijkpZSKMUJsJ
 
-!procedure ServiceJourneyHub($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceJourneyHub', $name, $tech)
+!procedure ServiceJourneyHub($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceJourneyHub', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceJourneyHubCard($id, $funcName="", $content="")

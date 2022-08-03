@@ -2,20 +2,20 @@
 
 sprite $ServiceAvailabilitySetsXs [10x10/16z] Oy0Ak400oc9aXx7OW80Lp69dPcHd0ujoi3Dpi8DPpCn0KGOe4yKq
 
-sprite $ServiceAvailabilitySetsSm [12x12/16z] ZSQt0S0m30CmHbty_z_qvisOW2bA5XdtK-9x78uBCtN9n2bBfEfwzG6Fm4j4CDe
+sprite $ServiceAvailabilitySetsSm [12x12/16z] ZSQr0S0W4030Tzj_ttYWGguws5CLLVpToVhjzjqPtU7XGHJnFl86FuE94m
 
 sprite $ServiceAvailabilitySetsMd [16x16/16z] {
-VOw50GGn20HnsFHVy4VVxoQABzqJNpRwKLiSErjhw8SstHQEQUyuF28pGiYcNH5X_IZLYcSgMwRr_85LYVJBQ640l9yJbyoiVeJgfPJ7hSSK4Txptn7AAghm
-VXMNuW4
+VOs50GDH34A9o_u3bxhV-ne37ECVSV6ONxd7jRl3WnkCLV8It-eJcLLcW5tYpapd0U9QPr6ywj9Fj5lLkmLNT6Q2HsvrgQhc0H8tRZ-vXwfwy_yWkz7flBXj
+JW
 }
 
 sprite $ServiceAvailabilitySetsLg [20x20/16z] {
-RSi9ZeKm38DX9oPscFiVU5wWrLBniVQNZ2-6D7SfgGe9HkAK44uzxM_hrV2s-rvjw6aLuTtszkAbSwkjrdOrrjkyccr6oDPi0wExCwbk0OdQpSbv0u8mxisp
-lJ3uOvCCe93O93m8hH8a4wDHE1bV33-tJDenV_y
+TP07WWCX30DT5ilS_nzy8eZq37tejc_08fHzDx1FWkcTNkxlq7AstPnoHEk6EuvhkIklUjzRXw6zSZcsWno0T2-Wj9TqTqHMDvrR78V8LPkLt3pGDLSkaW2i
+E1pse6gtEeyu5yNZ7s_WHvnnomLFzVu1
 }
 
-!procedure ServiceAvailabilitySets($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Compute/ServiceAvailabilitySets', $name, $tech)
+!procedure ServiceAvailabilitySets($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Compute/ServiceAvailabilitySets', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceAvailabilitySetsCard($id, $funcName="", $content="")

@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceSearchGrid')
 
 ' renders the element
-ServiceSearchGrid('ServiceSearchGrid', 'Service Search Grid', 'an optional tech label')
+ServiceSearchGrid('ServiceSearchGrid', 'Service Search Grid', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceSearchGrid')
 
 ' renders the element
-ServiceSearchGrid('ServiceSearchGrid', 'Service Search Grid', 'an optional tech label')
+ServiceSearchGrid('ServiceSearchGrid', 'Service Search Grid', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

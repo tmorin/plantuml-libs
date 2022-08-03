@@ -2,14 +2,14 @@
 
 sprite $ServiceEventGridTopicsXs [10x10/16z] Oq00DXXWO8K8W6bs86100ymGPKY01QgE1Q4NOHu
 
-sprite $ServiceEventGridTopicsSm [12x12/16z] LOo30G0n300ltd_YHzsBoKbkhZnG0GFYi_hXnCzpsVsUxlrOtRZ-o-O5
+sprite $ServiceEventGridTopicsSm [12x12/16z] NSkr0G114810rlkl-FLyOc2L4sbT4hmC2A1Uh6pTESq-w8ASaEa6
 
-sprite $ServiceEventGridTopicsMd [16x16/16z] NSp50S1030F1DSZfl-BmuRoCOcShQeMIGNfw3w3-7ZXUIMF-xniJp2FL9rYq14ztF_Y4JVaHAATZYLBDg1MR2m
+sprite $ServiceEventGridTopicsMd [16x16/16z] NSd50GGW44FHZoJqN_4AFhnJX5UAS8GoXzHx0ZmxqBfAO3WK9tae1Alc2ZIsrirNcQxs8bppOUE8nnS
 
-sprite $ServiceEventGridTopicsLg [20x20/16z] ZT230G0n30NGw2VxJtn6tRxQe5LUQ_O1b57WwfEhtx--KpmeWJ00eLGvk-HliXjEwd-d-eS-aAUadEUjE5V5rscMtuzD_xVzxsYzT_6lZ1fs
+sprite $ServiceEventGridTopicsLg [20x20/16z] ZP350G1120Dn-g_uTDtdXvF0ATOppAasWq_Yo-6t9ULUF52rEo6YCtIqAHDyOIjQB96J63UtytNazk0fATBy9vorPHqZlOTU2Gou0G
 
-!procedure ServiceEventGridTopics($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Integration/ServiceEventGridTopics', $name, $tech)
+!procedure ServiceEventGridTopics($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Integration/ServiceEventGridTopics', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceEventGridTopicsCard($id, $funcName="", $content="")

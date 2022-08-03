@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Intune/ServiceIntuneForEducation')
 
 ' renders the element
-ServiceIntuneForEducation('ServiceIntuneForEducation', 'Service Intune For Education', 'an optional tech label')
+ServiceIntuneForEducation('ServiceIntuneForEducation', 'Service Intune For Education', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Intune/ServiceIntuneForEducation')
 
 ' renders the element
-ServiceIntuneForEducation('ServiceIntuneForEducation', 'Service Intune For Education', 'an optional tech label')
+ServiceIntuneForEducation('ServiceIntuneForEducation', 'Service Intune For Education', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

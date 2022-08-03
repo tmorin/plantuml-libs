@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/ManagementGovernance/ServiceMyCustomers')
 
 ' renders the element
-ServiceMyCustomers('ServiceMyCustomers', 'Service My Customers', 'an optional tech label')
+ServiceMyCustomers('ServiceMyCustomers', 'Service My Customers', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/ManagementGovernance/ServiceMyCustomers')
 
 ' renders the element
-ServiceMyCustomers('ServiceMyCustomers', 'Service My Customers', 'an optional tech label')
+ServiceMyCustomers('ServiceMyCustomers', 'Service My Customers', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

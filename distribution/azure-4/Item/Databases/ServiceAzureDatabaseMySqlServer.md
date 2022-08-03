@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Databases/ServiceAzureDatabaseMySqlServer')
 
 ' renders the element
-ServiceAzureDatabaseMySqlServer('ServiceAzureDatabaseMySqlServer', 'Service Azure Database My Sql Server', 'an optional tech label')
+ServiceAzureDatabaseMySqlServer('ServiceAzureDatabaseMySqlServer', 'Service Azure Database My Sql Server', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Databases/ServiceAzureDatabaseMySqlServer')
 
 ' renders the element
-ServiceAzureDatabaseMySqlServer('ServiceAzureDatabaseMySqlServer', 'Service Azure Database My Sql Server', 'an optional tech label')
+ServiceAzureDatabaseMySqlServer('ServiceAzureDatabaseMySqlServer', 'Service Azure Database My Sql Server', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/AppServices/ServiceCdnProfiles')
 
 ' renders the element
-ServiceCdnProfiles('ServiceCdnProfiles', 'Service Cdn Profiles', 'an optional tech label')
+ServiceCdnProfiles('ServiceCdnProfiles', 'Service Cdn Profiles', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/AppServices/ServiceCdnProfiles')
 
 ' renders the element
-ServiceCdnProfiles('ServiceCdnProfiles', 'Service Cdn Profiles', 'an optional tech label')
+ServiceCdnProfiles('ServiceCdnProfiles', 'Service Cdn Profiles', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

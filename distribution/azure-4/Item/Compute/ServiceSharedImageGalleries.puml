@@ -2,14 +2,14 @@
 
 sprite $ServiceSharedImageGalleriesXs [10x10/16z] JSQ34G11402mDVklztdAA72AUlGJUutH726koPWWVRC9OeASRW
 
-sprite $ServiceSharedImageGalleriesSm [12x12/16z] LSQ50S0W34JHi_h-yzQn1qa-HZm-TsPxxK_Fdx_Db8xerahfcTBNSuFbPlivM1jipGK
+sprite $ServiceSharedImageGalleriesSm [12x12/16z] NSQ50O0m34JHCtp_UN6el3R9HsTxNBdSrgl7nzjclexeqihN8wMdnmBJoVPrC1TOYWC
 
-sprite $ServiceSharedImageGalleriesMd [16x16/16z] TSo50G0n20F0951b_tdVNUwbHV6bnePBs7TBhBof_x7f6YTE_8nTejzYwXQJqXxBvdq-_Kfj9kGxb9bDSfcXtg7TFUCH
+sprite $ServiceSharedImageGalleriesMd [16x16/16z] TSo50G0n20D0I59b_tdVNUwbHUrBZSqQzjqQvqtzZubhd7oYCnRWkiMEM-mEx34uxzFqAxKHbk-ip3Z9PMRrpjhTCnu1
 
-sprite $ServiceSharedImageGalleriesLg [20x20/16z] XSYr0GGn40ImXJ7tN-_3WHaKYfQGClUKzV6LBqy-MvnFJ7_Ap6AQW_0FkXDH3CV3CRE8DlTF4PlF3Z0zTx7wvow6_61sbiB0adKzV04
+sprite $ServiceSharedImageGalleriesLg [20x20/16z] XSYr0GGn40ImXJ7tN-_3WHaKYfQGClUKzV6LBqy-MvnFJ7_Ap6AQW_0FkXDH3CV3CRE8DlTF4PlF3Z0zTx7wvow6_61sbiB0adKz-G8
 
-!procedure ServiceSharedImageGalleries($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Compute/ServiceSharedImageGalleries', $name, $tech)
+!procedure ServiceSharedImageGalleries($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Compute/ServiceSharedImageGalleries', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceSharedImageGalleriesCard($id, $funcName="", $content="")

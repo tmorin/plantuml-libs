@@ -2,17 +2,17 @@
 
 sprite $ServiceQuickstartCenterXs [10x10/16z] PSQr0G0W402nGrxttnVlI1K-cHozQzmW7Qf8NokmqzONwVuYAyAY8iYTmia4
 
-sprite $ServiceQuickstartCenterSm [12x12/16z] ROot0SGW40I1c-5VwhzVF9asMf--mFiUbl7zRneIJYAG4Z4jXL8Oxg81vu7_fJge-L3HPLSbNLv7l6a7
+sprite $ServiceQuickstartCenterSm [12x12/16z] ROi54i0W4CIGXCh_7rpqnehk9dFfR_6-4NtlbQfKHoW5kgWzgT1xfpDMs6FS9sgFdYYkt9HqSklFYXy
 
-sprite $ServiceQuickstartCenterMd [16x16/16z] VSc53G0n4CJ0pSLxWVxxVIRHMpYo_cfpVbJ7dEqLCEQ7fj9lGgY2jegteAWG6-CW61_xOeMDHmMolvHzq3VT3buEkzluTgRj29lRwP3kNJ8tIHUr0W
+sprite $ServiceQuickstartCenterMd [16x16/16z] VSlL0S0m24LHv3uY--zRjwz6EOZzhJRdHpdcR2-1CTyY8kblCROKU-ZQ5hWvyHAXetmnWMlMeVfBamxgOJjuEQGkeTjLai8bRjTUkSjU5Vj_qLO
 
 sprite $ServiceQuickstartCenterLg [20x20/16z] {
-PSx50KH120DG966a_u9tZFsMuqFb6tq3IcylQhrtFiGHm-wpYf5uZ3e8EEBM1b1awfvn4YCcOi1gCyvCd7ql0dacaUGOUVnGwgOCa-mYSbFuZUeY4hbj6WcE
-P1-2CxETkIzYegu_vR9OUoxIoCqkcHy
+RSk75S0W30DH0P8f-myScjClbVziV0iVoAs-gBRMz914w_POOyyUguaY--IDI053zuJ4NWGYEIMgDt7CXK7X94fxaqvfZdhivV8Ww8UaHPPkL2P9l9j4zNoE
+fX7cQsTcw_Gq8teN1LF4BC4x
 }
 
-!procedure ServiceQuickstartCenter($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceQuickstartCenter', $name, $tech)
+!procedure ServiceQuickstartCenter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceQuickstartCenter', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceQuickstartCenterCard($id, $funcName="", $content="")

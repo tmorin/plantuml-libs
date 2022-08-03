@@ -2,17 +2,17 @@
 
 sprite $ServiceRouteTablesXs [10x10/16z] JOg50G1H24AnO_zzBtyzMy190pmsDRFlq_xmRfaU4VY9a6-g2Nr6F2xwd1m_WERF3G
 
-sprite $ServiceRouteTablesSm [12x12/16z] LOk50GDH34BZjl_09Jr_No80VMabuhiNT-TjfTL1e9qU3R1zgL22xHT6VxRkmkQwxTePR_i0SgRp0drT_
+sprite $ServiceRouteTablesSm [12x12/16z] LSO70W8n20NHdqAz_u4TTUjBWD5RlNgOcOHHCZZPrNBGoYa5Q80MO3R7jYKiTn-Cu9WEEavqdZu
 
-sprite $ServiceRouteTablesMd [16x16/16z] ROs50SCm30GjXlq7hg2SdF7Ue7D3-DLP1BzScWsudCTrD2LSj1dFOjtiJD2JDVmfWQNoDX01W4_5Ubn1pHlCRp3pk3OqCvI2VL5EVtxamta
+sprite $ServiceRouteTablesMd [16x16/16z] RSu70eGW34HHqWFtF_0citRzrcS1naSptrOpkjWwXhWii3TryKpp3bvLIYi2twy-HQSmugATD2CYJ83StOZgp2169vnXxmHdh34kVTdEnWy
 
 sprite $ServiceRouteTablesLg [20x20/16z] {
-TSk75O0W34NHj1_A_WCB97PzIhiSwAzItzRwd4MUfXZPpGou8gOXyg3kmzYpV3Uxc_LMQoKl4QrqtN6GqZLzaG8y0kGW0w3CEfSayHaprXBcA-5OhmPSJCej
-JCE7MRrbD5ExfBG1
+TSk54S0W44JHipsa_uAJZGjy_CqWiqhzM-lSpRxcM8kN1V14qB2NE_MavT7nZxqjUgkrIfOzsV8KjfFACoVvIm1T0-oY0E2gpkCWJQOA7eVbbkb-FWruc9LN
+IiFRG8lwAeJfAra
 }
 
-!procedure ServiceRouteTables($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Networking/ServiceRouteTables', $name, $tech)
+!procedure ServiceRouteTables($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Networking/ServiceRouteTables', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceRouteTablesCard($id, $funcName="", $content="")

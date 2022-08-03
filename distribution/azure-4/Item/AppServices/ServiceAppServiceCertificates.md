@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/AppServices/ServiceAppServiceCertificates')
 
 ' renders the element
-ServiceAppServiceCertificates('ServiceAppServiceCertificates', 'Service App Service Certificates', 'an optional tech label')
+ServiceAppServiceCertificates('ServiceAppServiceCertificates', 'Service App Service Certificates', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/AppServices/ServiceAppServiceCertificates')
 
 ' renders the element
-ServiceAppServiceCertificates('ServiceAppServiceCertificates', 'Service App Service Certificates', 'an optional tech label')
+ServiceAppServiceCertificates('ServiceAppServiceCertificates', 'Service App Service Certificates', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

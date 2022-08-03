@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceTable')
 
 ' renders the element
-ServiceTable('ServiceTable', 'Service Table', 'an optional tech label')
+ServiceTable('ServiceTable', 'Service Table', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceTable')
 
 ' renders the element
-ServiceTable('ServiceTable', 'Service Table', 'an optional tech label')
+ServiceTable('ServiceTable', 'Service Table', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

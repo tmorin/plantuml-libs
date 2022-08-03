@@ -2,14 +2,14 @@
 
 sprite $ServicePowerXs [10x10/16z] Om01LbPM5WOO2y9WOO6AC38pCq00WW44S0uc0wWJ2g0C
 
-sprite $ServicePowerSm [12x12/16z] JOkr0G1020CXil_8xy9LqLXu49iSCe-Mn2FvPP1Lvk3gmVs2n5_bauf7aRwY0m
+sprite $ServicePowerSm [12x12/16z] LOir0G1030FRW7_9ptXJC0PkH1oTIqh2af0O2_AJHm_sDx_cIiNXaTwY0W
 
-sprite $ServicePowerMd [16x16/16z] PSV50S0m302nC-q_Shc9GJ_nYPlnqrhSFNpNhgVIQfTKhSL-ybHh7rhBB8cwaxLQBRad
+sprite $ServicePowerMd [16x16/16z] VSYr0G114810rlel-VNSo0PIyKP9NrgrkuTNskE63BGdElVCoKVjMHvDP-9-elQavGq
 
-sprite $ServicePowerLg [20x20/16z] XSu53W1124DHQClzZxnkIB8__aR0dk98zWcThck9T9G81o4PT_94pYrOQY3iPltQ5JhvPxS3nlV-I-WFJHf8bJne_LeZBxTM
+sprite $ServicePowerLg [20x20/16z] ZSg53G1H381GQlkFVAvVI_m5dkB8-QGrNTkF_8Y_rMGxoO_4jhJOQjBTgBShhKdgbtyvqffmRv1J5aQzLIJ5jG8
 
-!procedure ServicePower($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/General/ServicePower', $name, $tech)
+!procedure ServicePower($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServicePower', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServicePowerCard($id, $funcName="", $content="")

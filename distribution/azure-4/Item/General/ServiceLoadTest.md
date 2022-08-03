@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceLoadTest')
 
 ' renders the element
-ServiceLoadTest('ServiceLoadTest', 'Service Load Test', 'an optional tech label')
+ServiceLoadTest('ServiceLoadTest', 'Service Load Test', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceLoadTest')
 
 ' renders the element
-ServiceLoadTest('ServiceLoadTest', 'Service Load Test', 'an optional tech label')
+ServiceLoadTest('ServiceLoadTest', 'Service Load Test', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

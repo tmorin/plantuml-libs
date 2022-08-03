@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/AiMachineLearning/ServiceMachineLearningStudioClassicWebServices')
 
 ' renders the element
-ServiceMachineLearningStudioClassicWebServices('ServiceMachineLearningStudioClassicWebServices', 'Service Machine Learning Studio Classic Web Services', 'an optional tech label')
+ServiceMachineLearningStudioClassicWebServices('ServiceMachineLearningStudioClassicWebServices', 'Service Machine Learning Studio Classic Web Services', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/AiMachineLearning/ServiceMachineLearningStudioClassicWebServices')
 
 ' renders the element
-ServiceMachineLearningStudioClassicWebServices('ServiceMachineLearningStudioClassicWebServices', 'Service Machine Learning Studio Classic Web Services', 'an optional tech label')
+ServiceMachineLearningStudioClassicWebServices('ServiceMachineLearningStudioClassicWebServices', 'Service Machine Learning Studio Classic Web Services', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

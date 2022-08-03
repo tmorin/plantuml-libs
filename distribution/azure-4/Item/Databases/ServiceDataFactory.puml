@@ -4,12 +4,12 @@ sprite $ServiceDataFactoryXs [10x10/16z] Oq005Y20iBY003kBcu4DmkBcPkC6ixY109N5mCx
 
 sprite $ServiceDataFactorySm [12x12/16z] TKe30G0139pPF-_R64zmBHOHth0IecouQwf_F4rlk2UmuLxgYTUmBLZAj3LlcH4
 
-sprite $ServiceDataFactoryMd [16x16/16z] ZSs50G0X20LGbURll-zrf_rKe9nR9MQckfazN3R3-tV3vXpQ7si_OxEW9rOBq7DrJ_HSFROdzrNwNFrsS3-_upi
+sprite $ServiceDataFactoryMd [16x16/16z] ZSs50G0X20NG2_hll-zrslrKOFYtSIQYUNnCviQFOKIaU1nRwp6jqnypLk8s0ojlhyJAstihUQsovbgtZzVPZby
 
-sprite $ServiceDataFactoryLg [20x20/16z] fSm50WGX30F02fRc_-yzltNVu0DKbg9gxcwgGqlV3AsevvnTyy0Ot_2ksNloaTbxAXYQaI_YmDx45mtjJNpHqBuvRoAL8aA8n9Qr5Wo01DRgjNU02FoJdm
+sprite $ServiceDataFactoryLg [20x20/16z] fSu50i0W0090Mu7_ltVT7MpMcUOmrddldLrHwBF4P7sCqTkuCB6F_ffjAxSosrO9IxDIGrfQGsfeQIsfeQNrUM_6vFOPpT3moagX24Z0sNcb3K1YJAm1
 
-!procedure ServiceDataFactory($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Databases/ServiceDataFactory', $name, $tech)
+!procedure ServiceDataFactory($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Databases/ServiceDataFactory', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceDataFactoryCard($id, $funcName="", $content="")

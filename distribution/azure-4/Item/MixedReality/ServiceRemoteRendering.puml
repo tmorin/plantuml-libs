@@ -2,17 +2,17 @@
 
 sprite $ServiceRemoteRenderingXs [10x10/16z] TSR70S0m3090TS7-2oUkFvyAo4DLhTBTsYlzdxy1xfO1_6lXLO2GV-DF_ZgfN1y
 
-sprite $ServiceRemoteRenderingSm [12x12/16z] VSZP0SC0209GAXLm_u7RtCbNdhTuqseSjFfWvKNPwzCcHRg0X6GrdNHIHKfAC5FrfJ8pM9ev6u3U4Kz_
+sprite $ServiceRemoteRenderingSm [12x12/16z] VSZ70GHH209Glgo0_HUyQU9fdbayQJLs-i6Vlyh-FMrIf1UGaAocaqwgI4a9PgfUL6O6tsRE7x2yMRZx
 
-sprite $ServiceRemoteRenderingMd [16x16/16z] dOdL0SD03CNCiF_2zRi6_a8wb4oVy1Zuq01dy1nKCWwBSSs41cQgOZP1YAfAuUAQLMRZ8YWHZXbyXQL5tMtmw0KPRlN-OqIAzzGRVW
+sprite $ServiceRemoteRenderingMd [16x16/16z] dScr0G8144JHTUc_OLQ0oyv-zcRWLMhLGTl-hrTCRdzPcTsRrXypYTH00171RLBs294o4LTcsj-Osis0p9IsvGII5Mjk0e1P7Rpe0m
 
 sprite $ServiceRemoteRenderingLg [20x20/16z] {
-hSe54WGn449HsfFxNtZ3zBhRA-KN-0DnDyM5R3U910TUb58LQ1QrCRMgJaLXKMQ7nbFQekPkl0DZCL8DzrfBZKrrYvaPQvLtK--Md7BM8ceGvb9R6xCDwAJm
-d0SAO5uIaFY9udqx
+hSXL0a9H24LH-l3cFs49snzhtMJJFuZfKudrc5wYeGK3JeiTGqM1JMYk3jLByogXHTIi8fWeYquJDqDDf5b49aQ4rmJR9hOjil1TSqSsEWgcvR6IU5wtE2wO
+YFPtbmRVq0TE
 }
 
-!procedure ServiceRemoteRendering($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/MixedReality/ServiceRemoteRendering', $name, $tech)
+!procedure ServiceRemoteRendering($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/MixedReality/ServiceRemoteRendering', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceRemoteRenderingCard($id, $funcName="", $content="")

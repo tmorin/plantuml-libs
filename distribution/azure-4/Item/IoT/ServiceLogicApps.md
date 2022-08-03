@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/IoT/ServiceLogicApps')
 
 ' renders the element
-ServiceLogicApps('ServiceLogicApps', 'Service Logic Apps', 'an optional tech label')
+ServiceLogicApps('ServiceLogicApps', 'Service Logic Apps', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/IoT/ServiceLogicApps')
 
 ' renders the element
-ServiceLogicApps('ServiceLogicApps', 'Service Logic Apps', 'an optional tech label')
+ServiceLogicApps('ServiceLogicApps', 'Service Logic Apps', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

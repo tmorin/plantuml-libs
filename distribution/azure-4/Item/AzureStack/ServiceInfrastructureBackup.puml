@@ -2,17 +2,17 @@
 
 sprite $ServiceInfrastructureBackupXs [10x10/16z] ROg35S1G5CMAP-m_Resl75ra-W4aGfYFX9AP26UACwrdCdT3W2DTd1wTm3ppdTnic7O
 
-sprite $ServiceInfrastructureBackupSm [12x12/16z] ZSgr0G1140B0DU2r_tBVvSARP0MiLOLJNFkeTLsHSUwuMFt_g3Z_FC3hxxYVEq-H6MwuzdcQffxTTW
+sprite $ServiceInfrastructureBackupSm [12x12/16z] ZOkr0S0m30HjCUu_RfZANFKulX3n3XpQjRiPOTTyCEZDJysoSUk3ENSjEu3xcG-T4V5Bhm
 
-sprite $ServiceInfrastructureBackupMd [16x16/16z] fScr5G0X403H5Hos_t8Fr_Gc-s_W3TM8XtL8Kj9A3JlVh1LtpqXr-z0_3uTkLaerpx1ocn6RJOzK2RTZqCh5qwKVjjKACW
+sprite $ServiceInfrastructureBackupMd [16x16/16z] fSc53S0m4C30Xp3iFsx3BAw59yEJw76tT27cf13TnbQJuEOUaMYshdteTiqiXAXkhTzZn6hL8f73PU-aC7vtxeTriO04
 
 sprite $ServiceInfrastructureBackupLg [20x20/16z] {
-lSor0O1044JHbPdpwxzSt27cXsz5FiFPnHZcEA5kneZKvn9zHpBLnG85s6tlQgqlJUQxHSJ5CWrmMuobpfNb5gz_ul8orTN27XnJhbTBq2cBLykrpFrbE69C
-AK9a1
+lSor0O1044JHbPdpwxzSt27cXsz5FiFPnHZcEA5kneZKvn8Lkp7LnG85s6tlQgqlJUQxHSJ5CWrmMuobpfNb5gz_ul8orTN27XnJhbTBq2cBLykrpFrbE69C
+ARh82
 }
 
-!procedure ServiceInfrastructureBackup($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/AzureStack/ServiceInfrastructureBackup', $name, $tech)
+!procedure ServiceInfrastructureBackup($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/AzureStack/ServiceInfrastructureBackup', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceInfrastructureBackupCard($id, $funcName="", $content="")

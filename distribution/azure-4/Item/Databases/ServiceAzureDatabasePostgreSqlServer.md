@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Databases/ServiceAzureDatabasePostgreSqlServer')
 
 ' renders the element
-ServiceAzureDatabasePostgreSqlServer('ServiceAzureDatabasePostgreSqlServer', 'Service Azure Database Postgre Sql Server', 'an optional tech label')
+ServiceAzureDatabasePostgreSqlServer('ServiceAzureDatabasePostgreSqlServer', 'Service Azure Database Postgre Sql Server', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Databases/ServiceAzureDatabasePostgreSqlServer')
 
 ' renders the element
-ServiceAzureDatabasePostgreSqlServer('ServiceAzureDatabasePostgreSqlServer', 'Service Azure Database Postgre Sql Server', 'an optional tech label')
+ServiceAzureDatabasePostgreSqlServer('ServiceAzureDatabasePostgreSqlServer', 'Service Azure Database Postgre Sql Server', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,20 +2,20 @@
 
 sprite $ServiceAppServicesXs [10x10/16z] JSod0SG05CDG_MxlF_2Le3ma9DxyzuJgHp1IvSacuJPlJ4JiReHnvksfchOQP8EjpExNxmi
 
-sprite $ServiceAppServicesSm [12x12/16z] LOr10aHX188bZxh_XQT_ETyAgkgVeGCgsEAHx2fAwbxPEJSuCtgB8jlzY75z03OBu6YQjtSHbgaX4RqAPrrafrTb-sFsUZYywmy
+sprite $ServiceAppServicesSm [12x12/16z] LOr10aHX18AHdxh_XIUpUzyAgk9BGoOEYLW05G6ILSFxg1BTpLjesSn3jk9bvdZ9b3M5dLqBGs03QRtLAwvbowkIzC2DFp9t_G4
 
 sprite $ServiceAppServicesMd [16x16/16z] {
-ROw54GGn30Dbbljl-EMR3Fy6DmhX7y4L-IoN8MKN3jUyiY8YwyLiyvmx132d59vhmQ0AvBJ7-M0XhBl30QvouV9niv2xwFDoJs8pAsF4dKzK32S3yFFl_Uy3
-PZrikQsWpkeW3jl7u66KDOuV
+ROwvWSG020F5Z_fl-CJQpcuYXX__4KkHhoKtfDlrKrTSMH6HzPQtpNDk2DYSKl5ypsdNC-rnFY24TNUucgcwSFcuMSXTz7cvvuAPbJ7YvXCLivC1-Fdl_ky1
+ivvj28hLh0RnWo-3ZvKrZZy
 }
 
 sprite $ServiceAppServicesLg [20x20/16z] {
-TT05aa0n20DG2ZGazx_m_h1kRuofOF6lQjcDJrB9Fa_JSP5pwn5h9B9UWV1HGoJhP8EKbC_HRHzLPW_tC69udBC7xuSPoh01a3MuhgrOi3hk0g6pOED84xff
-UpIlaMT8r_JHi8jz0rF3smNKdUtbnEaIYIuNshEtdP3i9trXo31e3vtrKR4e8qQIZrRfNNpXcjCdrWi
+TSv7Wi0m349HR6G4zx_mM9dUtehyDED_bN7mAM76PrspQVVXzTewiVbArgHIVDlQ9Jl91jQfIToxsay4sWl03NgF2zaOBMcpTURVmKE3wxuH8UkXqRFIoDdZ
+IVswaF2Ewadjecj1pVOfIZpzTXOKOwjufzuRApUwxkUfjZ6K9yvNB-BX3AkJ46-OT_XYdNRNsyKB
 }
 
-!procedure ServiceAppServices($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Compute/ServiceAppServices', $name, $tech)
+!procedure ServiceAppServices($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Compute/ServiceAppServices', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceAppServicesCard($id, $funcName="", $content="")

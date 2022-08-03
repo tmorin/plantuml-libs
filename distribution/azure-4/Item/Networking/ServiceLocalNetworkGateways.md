@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Networking/ServiceLocalNetworkGateways')
 
 ' renders the element
-ServiceLocalNetworkGateways('ServiceLocalNetworkGateways', 'Service Local Network Gateways', 'an optional tech label')
+ServiceLocalNetworkGateways('ServiceLocalNetworkGateways', 'Service Local Network Gateways', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Networking/ServiceLocalNetworkGateways')
 
 ' renders the element
-ServiceLocalNetworkGateways('ServiceLocalNetworkGateways', 'Service Local Network Gateways', 'an optional tech label')
+ServiceLocalNetworkGateways('ServiceLocalNetworkGateways', 'Service Local Network Gateways', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

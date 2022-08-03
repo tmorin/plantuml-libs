@@ -2,17 +2,17 @@
 
 sprite $ServiceAzureArcXs [10x10/16z] RKZ50S0m23pSzf-tthm2vzYTkr_ApEtUW2XBztHAXkgTxcsbTokmc2hk1BWArfq
 
-sprite $ServiceAzureArcSm [12x12/16z] TOpL0S1024Dp3c7_VHlkf_vmnHzbTYIrOasXB24NgRoFraa6tMoDllFTl-HZPkvIhQXlz8Zyh3xW4ybik78
+sprite $ServiceAzureArcSm [12x12/16z] TOg50KGn24Ef8Ud--rwux_Og495Fj4jIgvYIN0bW0FS-MWSm4Uus-hAdVzg7vXwyhD1tn9pqbRv8g2JQvCmF
 
-sprite $ServiceAzureArcMd [16x16/16z] XOx50K8n40NNBVttInI7FwStoHfSGoVWI6ncl9K8tIRZWmPLRb4nN9XOgjEcgvl8zim85ps-wZ_ygLv5tTV_8CswZFyO_yt7V1iEbDNMnMp2B_S3mWSt
+sprite $ServiceAzureArcMd [16x16/16z] XOo50GCn3CGIC-o_R_zSPWLbMl-XPpMplS0cekKs7Ce4gjoY0YvCB7NGu-ecSl7C21Uz-TI_-KEzYhfFVaX33YUGRyTyWw-LrNi1Dc6yiA-S
 
 sprite $ServiceAzureArcLg [20x20/16z] {
-fSm54WGX34HHY2VS_xuxdNMtNzRraF5VOdJQax39q57GTEiSH8UgG5KmPjc4fQeory74Z4LWjJOBOGrtbKlB25EvjCD_3ytkpFpACYF2LS-MDIODPZLOjAt3
-MsiR1ClH4OonjAW52MD_s0u
+fS-50SCW54LHlWlxxziywcutVc8m_akTnZ5YxDdHKT08NyMwVQWRr0qJqKr4kxjg7apTHHNMSxDKiOmmlRJATDDBEtpleVcTULnPLMQ6NRnRZLc9cCDosJoy
+wyi6mshiWycwtJIECUJJTW
 }
 
-!procedure ServiceAzureArc($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/ManagementGovernance/ServiceAzureArc', $name, $tech)
+!procedure ServiceAzureArc($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/ManagementGovernance/ServiceAzureArc', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceAzureArcCard($id, $funcName="", $content="")

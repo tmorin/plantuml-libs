@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Blockchain/ServiceAzureBlockchainService')
 
 ' renders the element
-ServiceAzureBlockchainService('ServiceAzureBlockchainService', 'Service Azure Blockchain Service', 'an optional tech label')
+ServiceAzureBlockchainService('ServiceAzureBlockchainService', 'Service Azure Blockchain Service', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Blockchain/ServiceAzureBlockchainService')
 
 ' renders the element
-ServiceAzureBlockchainService('ServiceAzureBlockchainService', 'Service Azure Blockchain Service', 'an optional tech label')
+ServiceAzureBlockchainService('ServiceAzureBlockchainService', 'Service Azure Blockchain Service', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

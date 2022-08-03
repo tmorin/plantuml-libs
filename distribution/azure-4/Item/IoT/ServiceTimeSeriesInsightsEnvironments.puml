@@ -2,17 +2,17 @@
 
 sprite $ServiceTimeSeriesInsightsEnvironmentsXs [10x10/16z] DKe50G002BB_JxR0f6HANQuYL6nsmF6ySS2H6OjTXFxLx7-h1tSgQq03
 
-sprite $ServiceTimeSeriesInsightsEnvironmentsSm [12x12/16z] 9Ok54G0m2CI2xZzoZoOdyCQH5KZBlLCwunjV57E7upxAtoMT_toyB43upI0Ri0fFxn7m
+sprite $ServiceTimeSeriesInsightsEnvironmentsSm [12x12/16z] 9SQ14S1020B1qy3tNt9aM5KWzXjAqjvnF8GCNaeVJX3cVA9qq2OWcZpEjDdKcpiJ3RqO-04
 
-sprite $ServiceTimeSeriesInsightsEnvironmentsMd [16x16/16z] FSo50S0m2031H_VVk89T9K5fPienRxG8gzFx36Te65XmBAOijgD8ZJf5AaBTXU4_DSSBuwwwSGLA1gKMf2Efh4Z0qovKAf5UqNPAbjhu0W
+sprite $ServiceTimeSeriesInsightsEnvironmentsMd [16x16/16z] JSp50GH024FH3mdqt_7A-BlWC4d98KzCLNFcqYZD4l-6YYCAvhBsAOFDA-rWyL_AU60vQRuV8kdYQXCTRDM0EvzoD4P7tUTi61-_
 
 sprite $ServiceTimeSeriesInsightsEnvironmentsLg [20x20/16z] {
-JSs50SH024JH3pFGVySd2v4NNPGLKlAMNeBbdzXKRAZCaaklqAe2SaDFS1EWOAW2QJQB9J5ayyZ3Sa8EF3Zts5mWovgoXsrMDqCJoZPkCwQfEgVmeIuWtq7j
-mTtYoEeEHlzKdJUtE87shFa2
+JSe10a0m34FHtoNj_MyC11vi-ojHqkAl78BmeO2LzU0sKUxwfUW6AkaVkpc9K1SI9uj80DbyriNo8ll2Dyut8Cgo8E8tC9EDd60ynLzF1Z-Q1jO_AeSZAgc_
+-pbqNtzUrNCobnq
 }
 
-!procedure ServiceTimeSeriesInsightsEnvironments($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/IoT/ServiceTimeSeriesInsightsEnvironments', $name, $tech)
+!procedure ServiceTimeSeriesInsightsEnvironments($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/IoT/ServiceTimeSeriesInsightsEnvironments', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceTimeSeriesInsightsEnvironmentsCard($id, $funcName="", $content="")

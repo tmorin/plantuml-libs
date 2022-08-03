@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceMobileEngagement')
 
 ' renders the element
-ServiceMobileEngagement('ServiceMobileEngagement', 'Service Mobile Engagement', 'an optional tech label')
+ServiceMobileEngagement('ServiceMobileEngagement', 'Service Mobile Engagement', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceMobileEngagement')
 
 ' renders the element
-ServiceMobileEngagement('ServiceMobileEngagement', 'Service Mobile Engagement', 'an optional tech label')
+ServiceMobileEngagement('ServiceMobileEngagement', 'Service Mobile Engagement', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,17 +2,17 @@
 
 sprite $ServiceFrontDoorsXs [10x10/16z] LSQ50G0W2011ElPVs0vUWOEIcLrCchkBU5S7YAXxzBgixymSwjkkUbq4Anch0G
 
-sprite $ServiceFrontDoorsSm [12x12/16z] NSO90i0m14JHmTZkV-7gtkOb-5X8HCYTEzsJcRdFPEv8JuVK0CdQlIqzzjxFjs6HEft4YLJS3BiD
+sprite $ServiceFrontDoorsSm [12x12/16z] NSQ90O0m24FHG2FH_HUsz_LQuECM4IipA-MIc2Ud2l9HWhqPI9QxDRwiT3v7mqAUMuw6D0m9nGy
 
-sprite $ServiceFrontDoorsMd [16x16/16z] RSo50SD034DHcTtz5wuLfXzyH_XCF4DEUhAuald6cZpdHIarzgYISJ5JdxZ2cmdePgU3V_OmVcmr_o0tAu38qlNymD5GJz62Qxl-
+sprite $ServiceFrontDoorsMd [16x16/16z] ROw10G0H0083iF_2Nm_0WGw0Dpw6pSYSiR7Yg_f4V6GdCpAw3zL_SzOJ1lWi3AWrJWzAxd0KKLq9sDpytqcstXymeDffSZpv
 
 sprite $ServiceFrontDoorsLg [20x20/16z] {
-VSm70iCm24DHXIBXtl_2BP2zVgQV1zvo-dGKgjgJbhQbhYMYCu_CbUycHUVkYp4sowLvP0E1j5fW79NQbFynhZPuO_XMYzK0l1Y1-iREy6-YWcPf37smAyts
-q3RXR8QNVW
+VSe54iGm34DH1MHdxt_X7Ibb-cteZV5LAUKY37SamndxPjmeLG_jKtIrzRuQSpUD1e0916GU08UBQQ5xZhiDFXX-RZK_m9iHy9a7Ws8aQvKne-2Gh1vX6gvf
+wBq_
 }
 
-!procedure ServiceFrontDoors($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Networking/ServiceFrontDoors', $name, $tech)
+!procedure ServiceFrontDoors($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Networking/ServiceFrontDoors', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceFrontDoorsCard($id, $funcName="", $content="")

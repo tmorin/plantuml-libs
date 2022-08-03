@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Other/ServiceDetonation')
 
 ' renders the element
-ServiceDetonation('ServiceDetonation', 'Service Detonation', 'an optional tech label')
+ServiceDetonation('ServiceDetonation', 'Service Detonation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Other/ServiceDetonation')
 
 ' renders the element
-ServiceDetonation('ServiceDetonation', 'Service Detonation', 'an optional tech label')
+ServiceDetonation('ServiceDetonation', 'Service Detonation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

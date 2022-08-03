@@ -2,17 +2,17 @@
 
 sprite $ServiceCostManagementAndBillingXs [10x10/16z] JOkt0GD13CDuojf_OGkk7XMZljYuEwAx_K2KbEucnEf2r4j2L5z6s_p-vuP1QGwJVW
 
-sprite $ServiceCostManagementAndBillingSm [12x12/16z] NOkr0GCn5CK-m_uBHsUxYgg7yeUMkryrtVvCGro38Z2qearcZv4kkXGvkj63FfkIUy1Zt2hTIAfX9kNK0uRu0G
+sprite $ServiceCostManagementAndBillingSm [12x12/16z] NOs54KCn3CNCiF_2bIyz-WhfXInVojsVJRV_GqEyW0dWYglCYjr15sV9mNdZSyxA0TYv4rGgtQvGmqoYC62iFm
 
-sprite $ServiceCostManagementAndBillingMd [16x16/16z] ROw55SGm3CLY2ko_yEbz7xSgoZ6DUpmYx2MnzmpmrWNoSAayKPKuLeEl8cEqWgKIo4MAp4veF-J4bnjkhthUoUFoISBFYWlIlLPo3B6QlTCwSSlsbdO4NByF
+sprite $ServiceCostManagementAndBillingMd [16x16/16z] ROvP5i0W20C5udR_2pS4db-ThXCL6FzOH3o9SrOGBzr47YwLGu7n96qoTYLZI4K6Hb_ydrOUxJVtF2VoFi-zxdpagpTesRe_U62ZHhPTdCDKmKaZASBJJByV
 
 sprite $ServiceCostManagementAndBillingLg [20x20/16z] {
-VT055WCX30JGkDp_mkqiX7fdbV_GqB-8giWBL9aYHpIhSfdA408xo7d51s60m9_vT3GG4-7stJ5shswY6Ork8ATx0YHZVA6_ceVH6irZsRr9hZLM3zg6pzxU
-qEmPNKKiynouSb8rbU4wL4QJg1qPGSmZR2fw0m
+VSw73SCm40D0Ij_tNpYWJQSdH9CEt_0lsso_GhSRSvTLtKLxe1KZCrKTYMSa95yU96xQ99m95QQgPe0bKza42_Dibgq3uyMmSW5uwQqPqJvtEEiWurldCIyt
+5uTvbGZekj9zc53KZYlPoiPJTcJwqkS6
 }
 
-!procedure ServiceCostManagementAndBilling($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Migrate/ServiceCostManagementAndBilling', $name, $tech)
+!procedure ServiceCostManagementAndBilling($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Migrate/ServiceCostManagementAndBilling', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceCostManagementAndBillingCard($id, $funcName="", $content="")

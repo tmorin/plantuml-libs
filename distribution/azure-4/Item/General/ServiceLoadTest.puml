@@ -2,17 +2,17 @@
 
 sprite $ServiceLoadTestXs [10x10/16z] JOk50S0W40FVa_qNRd6uTucyH6RwR5id4vFTgTHiMd5VNGPwWoxmrZ8dfTpy
 
-sprite $ServiceLoadTestSm [12x12/16z] LSk30G0m30J0ZxF_mZMlZF1Zwp3f_Vx_rlVy1OklqmIX3IWQSL4Q6I1jolRr9OBogW
+sprite $ServiceLoadTestSm [12x12/16z] POo30G10201pxR_mst-PyA2LaSj8lno0ZfndRiCAZlMJr9ID1Kkdvg6TAAaDt34s6G
 
-sprite $ServiceLoadTestMd [16x16/16z] XSU50S0W3031XsZt7xZknYF9yPBO4bjbuL7Jm8-hIyKFkqoVRJGVdn6oK6Bw38t5eLC5mcU6RQM0f1ybvCcHINTj
+sprite $ServiceLoadTestMd [16x16/16z] bSZ50GD13CLG3TZ-wR_WB3FhziHPDhGRV31mu-Gbuukz06uJpS6CI0DJ0CMeCJXgLuBmdc5JIb3aImAj71A_RGq
 
 sprite $ServiceLoadTestLg [20x20/16z] {
-bSg55GGm20JH2R0B_JTyxduJ_o-yAtNk1al7afjkw7yBuD7MitblVZGbrXrvl-VjntH0AUnriJOW5UqBDIiM0Tbr97LfNq6wOqynrhNflStejZ5uV5TFh7cE
-VifR
+dSg53SK030FH2pdPV-7FZ6sVo3gPh-gAkxoauC4zRMWEl3PxRpeslROAL4z90F5u33bakNHlBQ0gJ-EI6dF38JevgSuwIWWr9wEwcrESgKSZqEX9Zzcyezze
+3m
 }
 
-!procedure ServiceLoadTest($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceLoadTest', $name, $tech)
+!procedure ServiceLoadTest($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceLoadTest', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceLoadTestCard($id, $funcName="", $content="")

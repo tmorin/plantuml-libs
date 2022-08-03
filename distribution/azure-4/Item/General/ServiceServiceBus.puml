@@ -2,17 +2,17 @@
 
 sprite $ServiceServiceBusXs [10x10/16z] LOo30G10200pzb_uZIuJ2cQs4dTpxv6yXvdvyH4X0j83P4edCtjcdPwD9sCqYTLe
 
-sprite $ServiceServiceBusSm [12x12/16z] NSQ74G0n20F1SnJqt_2BCPD-7KxydNjejmniIA8UNFMU417Y9Mnlzd5dPcuxBdxNvCBfVIbfujastGy
+sprite $ServiceServiceBusSm [12x12/16z] NSPH5W0n14FHj4NO_uOd3bzpMppyUJXMj4cIFQhWzW4oavYJOWPptLjL9guBJGYxuTk1La8Cawlx0G
 
-sprite $ServiceServiceBusMd [16x16/16z] ROe95iCW44AP5NF_2rUSxkrFLFu3_CVStYnQn4ETx2OP3rNaHgRmxdnpDdo9Kg70evcEp6cEYrdYsYoAIo3trIAb2HZ7Q-ySXoNQ5CSrBPK_t
+sprite $ServiceServiceBusMd [16x16/16z] TOm50W8n30JZc_x_mtGR76wg4vCBJDz4Y_XJWIe0Zn80pWiFUtUyEKgiIJB13vf4c4HCvZYPIbcR1bb4Obz5WXeSD9wxJkNGfEH9ipGd-SKD
 
 sprite $ServiceServiceBusLg [20x20/16z] {
-VSW70WGX24FHg97W_I-ymavlpyh7fr8keLfeEEYsmAP9ca4IZqa5NHDIbQwDEZNh09GQWYc0_bSZULeUaWMDF4PECpLF686BaQ2ujSWa81vRPCD4FpJlM9Z_
-uS17khQ4Lpy
+bSq54WGX34JHXWGwtF_26wjQjpV-1y5_vWw26sktQnAI7lokQ8DkOD4XJVAsTRfjkKyLGTWCK2ipagL-gEg0gDv6TPwa6axGTX8OTxPC1EAnMpOuiPjc2srR
+mGqxwQa5l7K1
 }
 
-!procedure ServiceServiceBus($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceServiceBus', $name, $tech)
+!procedure ServiceServiceBus($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceServiceBus', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceServiceBusCard($id, $funcName="", $content="")

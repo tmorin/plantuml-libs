@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/AppServices/ServiceAppServiceDomains')
 
 ' renders the element
-ServiceAppServiceDomains('ServiceAppServiceDomains', 'Service App Service Domains', 'an optional tech label')
+ServiceAppServiceDomains('ServiceAppServiceDomains', 'Service App Service Domains', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/AppServices/ServiceAppServiceDomains')
 
 ' renders the element
-ServiceAppServiceDomains('ServiceAppServiceDomains', 'Service App Service Domains', 'an optional tech label')
+ServiceAppServiceDomains('ServiceAppServiceDomains', 'Service App Service Domains', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

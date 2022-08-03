@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Preview/ServiceRtos')
 
 ' renders the element
-ServiceRtos('ServiceRtos', 'Service Rtos', 'an optional tech label')
+ServiceRtos('ServiceRtos', 'Service Rtos', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Preview/ServiceRtos')
 
 ' renders the element
-ServiceRtos('ServiceRtos', 'Service Rtos', 'an optional tech label')
+ServiceRtos('ServiceRtos', 'Service Rtos', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Compute/ServiceAutomanagedVm')
 
 ' renders the element
-ServiceAutomanagedVm('ServiceAutomanagedVm', 'Service Automanaged Vm', 'an optional tech label')
+ServiceAutomanagedVm('ServiceAutomanagedVm', 'Service Automanaged Vm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Compute/ServiceAutomanagedVm')
 
 ' renders the element
-ServiceAutomanagedVm('ServiceAutomanagedVm', 'Service Automanaged Vm', 'an optional tech label')
+ServiceAutomanagedVm('ServiceAutomanagedVm', 'Service Automanaged Vm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

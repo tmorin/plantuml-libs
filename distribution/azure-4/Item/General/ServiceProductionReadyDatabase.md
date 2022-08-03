@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceProductionReadyDatabase')
 
 ' renders the element
-ServiceProductionReadyDatabase('ServiceProductionReadyDatabase', 'Service Production Ready Database', 'an optional tech label')
+ServiceProductionReadyDatabase('ServiceProductionReadyDatabase', 'Service Production Ready Database', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceProductionReadyDatabase')
 
 ' renders the element
-ServiceProductionReadyDatabase('ServiceProductionReadyDatabase', 'Service Production Ready Database', 'an optional tech label')
+ServiceProductionReadyDatabase('ServiceProductionReadyDatabase', 'Service Production Ready Database', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

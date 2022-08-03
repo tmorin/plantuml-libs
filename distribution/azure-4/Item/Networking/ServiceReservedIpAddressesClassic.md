@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Networking/ServiceReservedIpAddressesClassic')
 
 ' renders the element
-ServiceReservedIpAddressesClassic('ServiceReservedIpAddressesClassic', 'Service Reserved Ip Addresses Classic', 'an optional tech label')
+ServiceReservedIpAddressesClassic('ServiceReservedIpAddressesClassic', 'Service Reserved Ip Addresses Classic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Networking/ServiceReservedIpAddressesClassic')
 
 ' renders the element
-ServiceReservedIpAddressesClassic('ServiceReservedIpAddressesClassic', 'Service Reserved Ip Addresses Classic', 'an optional tech label')
+ServiceReservedIpAddressesClassic('ServiceReservedIpAddressesClassic', 'Service Reserved Ip Addresses Classic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

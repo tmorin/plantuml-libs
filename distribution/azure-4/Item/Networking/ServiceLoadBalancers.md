@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Networking/ServiceLoadBalancers')
 
 ' renders the element
-ServiceLoadBalancers('ServiceLoadBalancers', 'Service Load Balancers', 'an optional tech label')
+ServiceLoadBalancers('ServiceLoadBalancers', 'Service Load Balancers', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Networking/ServiceLoadBalancers')
 
 ' renders the element
-ServiceLoadBalancers('ServiceLoadBalancers', 'Service Load Balancers', 'an optional tech label')
+ServiceLoadBalancers('ServiceLoadBalancers', 'Service Load Balancers', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

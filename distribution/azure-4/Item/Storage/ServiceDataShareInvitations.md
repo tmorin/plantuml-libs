@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Storage/ServiceDataShareInvitations')
 
 ' renders the element
-ServiceDataShareInvitations('ServiceDataShareInvitations', 'Service Data Share Invitations', 'an optional tech label')
+ServiceDataShareInvitations('ServiceDataShareInvitations', 'Service Data Share Invitations', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Storage/ServiceDataShareInvitations')
 
 ' renders the element
-ServiceDataShareInvitations('ServiceDataShareInvitations', 'Service Data Share Invitations', 'an optional tech label')
+ServiceDataShareInvitations('ServiceDataShareInvitations', 'Service Data Share Invitations', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

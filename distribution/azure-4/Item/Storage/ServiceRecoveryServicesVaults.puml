@@ -2,17 +2,17 @@
 
 sprite $ServiceRecoveryServicesVaultsXs [10x10/16z] LOo30G0m30I_ZVSVkER5n8-gpYIR9Uk9sNOYuesHY4K4P07HoLWTz1S-rr41
 
-sprite $ServiceRecoveryServicesVaultsSm [12x12/16z] PSRN0S0W203Hayx-2yVwbQV0yJCYnat9Z6JBJ1lYJ565gCuzszrhWU5BJynx6urBmUC1yb8cYsNC-W
+sprite $ServiceRecoveryServicesVaultsSm [12x12/16z] PSR50S1030CmX-nq_u7BV7e90oFlIjHHIMbUMzaDZ-ZUNbMzsbwRQRNjF8Ad08eN03e5LicDhLi
 
-sprite $ServiceRecoveryServicesVaultsMd [16x16/16z] TSgr0GDH30DGcPtz5uu-L_Sw0RwOAnx9uUKYhS0IJ6dGMj4Pzyj1NHdeHXCeXc9OsMBwJT3OUaH1NW6AV6Bb1rHFWBGlBBAiy0S
+sprite $ServiceRecoveryServicesVaultsMd [16x16/16z] TSh50GCn44FHRnX8_mr7zZAzcu0lhLSu-C0kf8QjoPIyKOEfAQwlZcIuaKaAOaDahhdPz9kejieH2xupnFnWQzuXSJ2aveuNVm
 
 sprite $ServiceRecoveryServicesVaultsLg [20x20/16z] {
-VSi52aDH44FHZ4_tl-7-vr8vMBWG_4SYk7YXPufgZro2KyGiMeiAE6HFgDR8J2vt-BDQJ2joA8cisPjryMe0jQabXctSp0GWFp0UTZPRRK4HXzOiTuoAjuIV
-tW
+XSk53S0m34JHCxlx3nmgymj_AVX1T2tUwJd5S8pSWrC4LZgA2ZW8C-e9mtx9JExVuUqsnxGkLwFPxDXi4TCCKDlCYM07tfO0v2U4nixDvdQ6BaxcPdb46FYG
+yAe2
 }
 
-!procedure ServiceRecoveryServicesVaults($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Storage/ServiceRecoveryServicesVaults', $name, $tech)
+!procedure ServiceRecoveryServicesVaults($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Storage/ServiceRecoveryServicesVaults', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceRecoveryServicesVaultsCard($id, $funcName="", $content="")

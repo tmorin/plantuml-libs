@@ -11,8 +11,8 @@ ZSq54WGX34JHXiW8kVzv5xUrUMMfZmGF1Tl4PdToQfJ7hos4CeV8-ZthboY6Uk-Cx186HtxwZqGeOvaQ
 1G
 }
 
-!procedure ServiceAzureFirewallManager($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Networking/ServiceAzureFirewallManager', $name, $tech)
+!procedure ServiceAzureFirewallManager($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Networking/ServiceAzureFirewallManager', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceAzureFirewallManagerCard($id, $funcName="", $content="")

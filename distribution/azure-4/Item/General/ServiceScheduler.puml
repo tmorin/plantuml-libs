@@ -2,20 +2,20 @@
 
 sprite $ServiceSchedulerXs [10x10/16z] FKk50G0W2BEe_nzsf07BXNECbnzId-RWhXFG3KVt6cRupn47pDh3zUgK2m1U8QmF
 
-sprite $ServiceSchedulerSm [12x12/16z] 7Sl50GGm30Cm5KBx3tpGnFPFu4m3eh7Uv6MZYB9jZX6m8SvJat0ByacnG5EY7GXjH_4CRaIizGGhpbhm1G
+sprite $ServiceSchedulerSm [12x12/16z] 7Sl70GKW30KWD7cM_GV-HUw0kWUGWt5WDHERRDEaN849gGDtGUztNfS13bkEWZXcDk-Waupn1YC5V04
 
 sprite $ServiceSchedulerMd [16x16/16z] {
-HSd50GGn34FHRr1YzL_mmk0x2JY4x8PBUmfgvlec80h20SW0AG23Tb5dBtgXuVrnQlDNPz-jbGNOGCM_yxVSnvyQJjF080Ud18mq98TY0AtDPJSGMgi0Qfg_
-b9R75fUMaiiN
+BSV9WG0X202mgA3GVy5xwEGNryZku1DTYrNboXgCnUZRXfdGv5dM-n9R5jxHCmzOxoTopuLkhF5_i3lWp2nF1Khsy4oqp39TIo7tyJc1aNilM3LTcRkhEtr6
+vl3v1G
 }
 
 sprite $ServiceSchedulerLg [20x20/16z] {
-LOy5WWKn24E3X8Rx7tY53byosaSmFFBgBWFm1X8pgUOYIkjGpyUe6lEvyNcN4CiCR20cOWyBG05MOJJi7n-muvkXWstRSdidXHndom5O_hFrLUln-TRxfxTY
-txuB4q0Ua0sO3Tlvd2MCjYm0KhUExxu3ZnpVGnh9KZ5BJQoIZ3ndmR8qOFKB
+LOy7iWKW20DN8HZkV-1VTPYtqoafN7Prrm9cO2jJRd6H_IxSRrG0-m3802eJRxPGGyZ0khC0RrG5ymjnKCVdZ0xr-hJ4APC1qDx0IfplZchVk_tqW3e0zFW2
+bK0Uf8RrkWLuiLM6eHgGV03OqnVfU3CXxr3bKfOd0ob5dYCOjfGCtm
 }
 
-!procedure ServiceScheduler($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceScheduler', $name, $tech)
+!procedure ServiceScheduler($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceScheduler', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceSchedulerCard($id, $funcName="", $content="")

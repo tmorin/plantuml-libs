@@ -2,14 +2,14 @@
 
 sprite $ServiceLearnXs [10x10/16z] TSP10W0G20311S3_tulgMdCQI4Tie9jW0wZ3bfDjAc-8rX4F
 
-sprite $ServiceLearnSm [12x12/16z] TSR50K0n20Mmr-Am_xpVNN8AW5grgRhgV9wUDnDHjVqDvz5ilQ_uvzen4M7CrikQ4G
+sprite $ServiceLearnSm [12x12/16z] TSQ35G11442nlnprN-_Po5E0M07qLQxdo_CYhVKk-nFdIR9UL_NddLbhbTdwjcO4
 
-sprite $ServiceLearnMd [16x16/16z] ZSU54S0020Imn-6w_xnrzvm6lMRX62JDKEDz8VyUY-MC40ZM1ymH-mVHzboShn_t6A_kRZh0nCm8EyQ-lWC
+sprite $ServiceLearnMd [16x16/16z] ZSU53S0m402n2pof-yzRPhRGz9g5Cl0q8yRheloxBPPdh51ORuXY-rjAstrnVlsuslYagcd4H4JO4vH51m
 
-sprite $ServiceLearnLg [20x20/16z] fOk30K0n34Il2lUVzzl6AtD0G_0PGqTKp73_99f9z5_BHneND3jHp3nh16uMvRBG6DtQQZ64ZJOnQJAJBxHoev5DtHcCb0PCJ1hjj1YMMWq
+sprite $ServiceLearnLg [20x20/16z] fT2r0G1130D17Hdxh_UP6LQE9ZIQWiyPke9YZj6LQ2xHVyj7nWND9OgPPoDmCyfbOOnkMuiXR6niDfdB5rPkZCPVoIACbIQCpKOxGrXQ3G
 
-!procedure ServiceLearn($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceLearn', $name, $tech)
+!procedure ServiceLearn($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceLearn', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceLearnCard($id, $funcName="", $content="")

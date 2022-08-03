@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceInformation')
 
 ' renders the element
-ServiceInformation('ServiceInformation', 'Service Information', 'an optional tech label')
+ServiceInformation('ServiceInformation', 'Service Information', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceInformation')
 
 ' renders the element
-ServiceInformation('ServiceInformation', 'Service Information', 'an optional tech label')
+ServiceInformation('ServiceInformation', 'Service Information', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

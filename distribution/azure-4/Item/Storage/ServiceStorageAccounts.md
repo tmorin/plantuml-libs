@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Storage/ServiceStorageAccounts')
 
 ' renders the element
-ServiceStorageAccounts('ServiceStorageAccounts', 'Service Storage Accounts', 'an optional tech label')
+ServiceStorageAccounts('ServiceStorageAccounts', 'Service Storage Accounts', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Storage/ServiceStorageAccounts')
 
 ' renders the element
-ServiceStorageAccounts('ServiceStorageAccounts', 'Service Storage Accounts', 'an optional tech label')
+ServiceStorageAccounts('ServiceStorageAccounts', 'Service Storage Accounts', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

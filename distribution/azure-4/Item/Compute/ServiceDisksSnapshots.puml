@@ -2,20 +2,17 @@
 
 sprite $ServiceDisksSnapshotsXs [10x10/16z] JSY54S0m3C10XMd_VQjoFc2ToHav0fkcUiTQgpLhzjD4PSoHKAskQhNyrGcGt87rEW
 
-sprite $ServiceDisksSnapshotsSm [12x12/16z] LOs55G0n24En1w7x3tmfvx-24ucGmI9K7iOt3wCDUdKYf00qdzFtxQ2N3DMhSxp8P7UcqQSPdBu2p0FqP0Is-UaU
+sprite $ServiceDisksSnapshotsSm [12x12/16z] JOs50G0G44K_hlVVLzVZka241L72fKo_K1uQIBf0HytCkyo6uPW79khXCZqIwTqYCoiB3CnwVin-j_BlDm
 
-sprite $ServiceDisksSnapshotsMd [16x16/16z] {
-ROx50KCX3429I_VVjn2v_OV4vJ3p6V3gW6iL-cK3gvafF_i-iQLpdvQ_VABiy2NAfem8ZyY4xNhrzDr3TEb-Jxl5JvJjEan_ShVBJRdzQbzaLM7ut9y0pWAW
-Vm
-}
+sprite $ServiceDisksSnapshotsMd [16x16/16z] ROw50G8m30IhCVRVbpXwrVYFSyuez3_dU0V-sWSG4PRPUYuMaMi_UOWzRZCLxFOMPYPcaUwgVw6JreLYHLGX8dlS9aYo_o92HLFK2Bq7uEx_-jURPqvu0W
 
 sprite $ServiceDisksSnapshotsLg [20x20/16z] {
-VP05WeH030J78_V__rwCRLOBwnJZRHdjmR1gzFtakbMdNmB0zT4lrzmDAauwWsvKj-Nvp_6GRlETT5DXL5koH5L5_CqXgdjecZ07ZEhgcHqFS0KSmn0tB90S
--uuu7BUJWuDp0J_SVZlxymy
+TP074eGm30FJhVZ-_z-pY8REqkGbFRKW7KHLSiyvdrnK8wlHYLUNw8g9iLnW9zGjC_y8mt85PzJE3-EU9AUxpyatZkaxDctrCEEWg2ip2CFXnE5m6CC-0s14
+orjdKB4nFixbo_N7sOy_
 }
 
-!procedure ServiceDisksSnapshots($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Compute/ServiceDisksSnapshots', $name, $tech)
+!procedure ServiceDisksSnapshots($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Compute/ServiceDisksSnapshots', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceDisksSnapshotsCard($id, $funcName="", $content="")

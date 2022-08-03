@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Compute/ServiceBatchAccounts')
 
 ' renders the element
-ServiceBatchAccounts('ServiceBatchAccounts', 'Service Batch Accounts', 'an optional tech label')
+ServiceBatchAccounts('ServiceBatchAccounts', 'Service Batch Accounts', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Compute/ServiceBatchAccounts')
 
 ' renders the element
-ServiceBatchAccounts('ServiceBatchAccounts', 'Service Batch Accounts', 'an optional tech label')
+ServiceBatchAccounts('ServiceBatchAccounts', 'Service Batch Accounts', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

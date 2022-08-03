@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceLocation')
 
 ' renders the element
-ServiceLocation('ServiceLocation', 'Service Location', 'an optional tech label')
+ServiceLocation('ServiceLocation', 'Service Location', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceLocation')
 
 ' renders the element
-ServiceLocation('ServiceLocation', 'Service Location', 'an optional tech label')
+ServiceLocation('ServiceLocation', 'Service Location', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

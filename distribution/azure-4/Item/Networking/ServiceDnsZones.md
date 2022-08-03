@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Networking/ServiceDnsZones')
 
 ' renders the element
-ServiceDnsZones('ServiceDnsZones', 'Service Dns Zones', 'an optional tech label')
+ServiceDnsZones('ServiceDnsZones', 'Service Dns Zones', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Networking/ServiceDnsZones')
 
 ' renders the element
-ServiceDnsZones('ServiceDnsZones', 'Service Dns Zones', 'an optional tech label')
+ServiceDnsZones('ServiceDnsZones', 'Service Dns Zones', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

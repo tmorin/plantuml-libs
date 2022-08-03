@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceTags')
 
 ' renders the element
-ServiceTags('ServiceTags', 'Service Tags', 'an optional tech label')
+ServiceTags('ServiceTags', 'Service Tags', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceTags')
 
 ' renders the element
-ServiceTags('ServiceTags', 'Service Tags', 'an optional tech label')
+ServiceTags('ServiceTags', 'Service Tags', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

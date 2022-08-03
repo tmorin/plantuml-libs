@@ -2,17 +2,17 @@
 
 sprite $ServiceProductionReadyDatabaseXs [10x10/16z] Oq02Z2mWm0XYCNDoSZA2MDnS8C2DmMA0i1Y03AWO0uOwJZ2BYG4
 
-sprite $ServiceProductionReadyDatabaseSm [12x12/16z] LOf50G0m3CG6vVhNEyQy3X8-OeH6ZYDdP65CgMNd56FCeZsx3Mx6cs5b4mFOJcnnvoOtPFax1nsHGgW
+sprite $ServiceProductionReadyDatabaseSm [12x12/16z] LOf50G0m3CG6vVhNEyQy3X9-8ZHo734Z2sDABJkd66CMxTbjS3FU32kR6C1sOeixDxaXozyvw8WKGWK
 
-sprite $ServiceProductionReadyDatabaseMd [16x16/16z] VSz50a0X40BG2GoS-v_tTuUiVDZo4LLpTzDTsE9BOwgPKohK5qTndOCQgwDjwPfwC-MSvyB3JIg5fwTYuMdo_puvNRSVbKL9f_48
+sprite $ServiceProductionReadyDatabaseMd [16x16/16z] VStL0K0X34FHIf3G_UTzxiBzuc2LZrJDtKrtOijrjMPELQWlZk8wXnghesrrJRsPSfvpvUucbSBJqyR2qsH_tbQLjR8epSiH
 
 sprite $ServiceProductionReadyDatabaseLg [20x20/16z] {
-ZSr50a0X201H1cplVzxVdSxEfuAyfQ1Ze8k0kJLORJZu4Bntph394bZCOm7ma-KQ7LFgKrsjbgrcSnTJRYRStYdbO5dI_EhupajIhZkyK8vM1Yk-t6njjNGo
-awbyC9Kryp6c6FmiFG
+dSe5ai9G54JHvvRzhtS6adp3uPRsgOQd8T8rn24ihQQ8bw5cgY9yMY2ovpL3HDejDnVS8usjsLQzdutmpW3dNtjDbX37Q_ufnFwQhNH_3QkBbTQTjPh5OWXx
+EHb12zKzt1Zs_W4
 }
 
-!procedure ServiceProductionReadyDatabase($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceProductionReadyDatabase', $name, $tech)
+!procedure ServiceProductionReadyDatabase($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceProductionReadyDatabase', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceProductionReadyDatabaseCard($id, $funcName="", $content="")

@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Networking/ServiceVirtualNetworksClassic')
 
 ' renders the element
-ServiceVirtualNetworksClassic('ServiceVirtualNetworksClassic', 'Service Virtual Networks Classic', 'an optional tech label')
+ServiceVirtualNetworksClassic('ServiceVirtualNetworksClassic', 'Service Virtual Networks Classic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Networking/ServiceVirtualNetworksClassic')
 
 ' renders the element
-ServiceVirtualNetworksClassic('ServiceVirtualNetworksClassic', 'Service Virtual Networks Classic', 'an optional tech label')
+ServiceVirtualNetworksClassic('ServiceVirtualNetworksClassic', 'Service Virtual Networks Classic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

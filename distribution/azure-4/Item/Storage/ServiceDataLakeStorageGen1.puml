@@ -8,8 +8,8 @@ sprite $ServiceDataLakeStorageGen1Md [16x16/16z] XSV50G114091riR8Fzvpr_f0umyZWYn
 
 sprite $ServiceDataLakeStorageGen1Lg [20x20/16z] ZSY54O104C30UxV-wyLpEFoEPIAzt4gEMWdU-zRoyI4eNjrN5Ehu8eAZU8zb7vvCoEEY4yHf4O4wF9kKv4tCq7Vq-3gD
 
-!procedure ServiceDataLakeStorageGen1($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Storage/ServiceDataLakeStorageGen1', $name, $tech)
+!procedure ServiceDataLakeStorageGen1($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Storage/ServiceDataLakeStorageGen1', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceDataLakeStorageGen1Card($id, $funcName="", $content="")

@@ -2,20 +2,17 @@
 
 sprite $ServiceTrafficManagerProfilesXs [10x10/16z] JOQ70O104CAmmks_i56_XQgLwmlSFnpB7rAYq3S1sbBL5rFV6usXad0U
 
-sprite $ServiceTrafficManagerProfilesSm [12x12/16z] LOTH0a0X2CAeKk7-5txGtrkf6_xKDNMUdWw9FgW9ZfwBDGyqkP1FnfcikAHR4agW7SjhESTtRr4Bk7nXDIKJ_G
+sprite $ServiceTrafficManagerProfilesSm [12x12/16z] LOTH0aGX28IeKlN-5zwPzkjHAl0bheZpzAHnv27AAB8kgnvazyA_szxEiC_CZHbYQ3bBQobBT-_f0Mx_0nCZh3y
 
-sprite $ServiceTrafficManagerProfilesMd [16x16/16z] {
-ROX10WGX3C8GLzl-_yCBgfucfoJuW6FpajDmDcUNRBf7ZmR6nXvhy0vaP3OWCoHCfA0wmDSBOBZBAAic1cjt1ykZgN_kjlw8qjA8eaOgiKTfX7CF2gHpZmt4
-7m
-}
+sprite $ServiceTrafficManagerProfilesMd [16x16/16z] RSX14WGX349Hn56I-rzu4bBbgl-A1pxYcHvvErvprvZsRMg1chO0-U0xGX4BY50D1g9YMU2p0quxksBcnM6EDvXzhFAllVmV9NmeMKSqVLI4J1-i4AOFP_u1
 
 sprite $ServiceTrafficManagerProfilesLg [20x20/16z] {
-TSa7TW0n20DHGGp2zxzmz71BdLst3_xBOZUUHTpP5iynSkMvCTCQ5gR46GPBxfn2PX0m-iK0GIOKTvaeb9BrngfZlkr3TxRjP0WPCJ5FMIPy1g1q22cpRQDF
-Gr5JRtD4Oyo1ZJKRg-dWR6pwWKqRQzMqusxH9m
+TSi75WCn20DHS0o2-ryuCcwfi_thhVnBRTMlcPrjYNhlFck-q5qN3NIAmbJKiMeWmWrZQGTD8E34i7ANa62qkY5YMrlsu3lATXoC1ad9dOSIhusV-I0EqsKz
+6J70jPKriKBBBWiZ2wDeOnOkUiEYXJ4hMc4rwGa
 }
 
-!procedure ServiceTrafficManagerProfiles($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Networking/ServiceTrafficManagerProfiles', $name, $tech)
+!procedure ServiceTrafficManagerProfiles($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Networking/ServiceTrafficManagerProfiles', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceTrafficManagerProfilesCard($id, $funcName="", $content="")

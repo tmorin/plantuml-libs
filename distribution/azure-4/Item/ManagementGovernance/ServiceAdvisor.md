@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/ManagementGovernance/ServiceAdvisor')
 
 ' renders the element
-ServiceAdvisor('ServiceAdvisor', 'Service Advisor', 'an optional tech label')
+ServiceAdvisor('ServiceAdvisor', 'Service Advisor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/ManagementGovernance/ServiceAdvisor')
 
 ' renders the element
-ServiceAdvisor('ServiceAdvisor', 'Service Advisor', 'an optional tech label')
+ServiceAdvisor('ServiceAdvisor', 'Service Advisor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

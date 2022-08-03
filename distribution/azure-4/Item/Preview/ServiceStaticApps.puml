@@ -2,7 +2,7 @@
 
 sprite $ServiceStaticAppsXs [10x10/16z] Ou03DcuuOE1cPm0pEE202vN5p0nZCN0mmMHPWHYX1M4o
 
-sprite $ServiceStaticAppsSm [12x12/16z] JSY50G0W200mbOR_xxLhDEcJuGbt2er3mjVYFtt6dXM4rvv6Cgq_zYgzGjSnX3_fqm
+sprite $ServiceStaticAppsSm [12x12/16z] JSY50G0W200mE_-_LsaOJOggk-VqkwwQz_1oekLmpwlEmNl279t_3Qf0tSK7kiUbu0C
 
 sprite $ServiceStaticAppsMd [16x16/16z] XOw50G0n30AfGfFzvtrtlMeS_E0tu33ORdDOsgnsmPgEs6PdZSpnd9M4BJwOemKkTgIKXbqNMubvl3JOFjeYXgF9DXrnNjLVw04
 
@@ -11,8 +11,8 @@ ZOu50W0X20JN9FR_xxtkTEnH0JHI-OGxZRIJGo2auEJCA7JXZZxWRbS6fIkoFzlEiPuTL5D9SN4-p1Ko
 y0aqqWC
 }
 
-!procedure ServiceStaticApps($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Preview/ServiceStaticApps', $name, $tech)
+!procedure ServiceStaticApps($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Preview/ServiceStaticApps', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceStaticAppsCard($id, $funcName="", $content="")

@@ -2,17 +2,17 @@
 
 sprite $ServiceAzureDatabaseMigrationServicesXs [10x10/16z] ROQr0G0m408Xplu3lxOv5CaXUfCyz-v8dPW8yO8kYMilIe3sMki8GJrydmC
 
-sprite $ServiceAzureDatabaseMigrationServicesSm [12x12/16z] XST15aGn14JH1rJR_uRx937_5oWERsVrmLLgf09S4Y05_8wxy-wYps4cCoj3Cp2gayuBSN_d-pVu0m
+sprite $ServiceAzureDatabaseMigrationServicesSm [12x12/16z] ZSc15GGn14NHbmH_zT_m7YXWRWAWtBYiA3HN87dT9G7IWL_fR9sTw4sccRazPKBAQweMNlVmgVy3
 
-sprite $ServiceAzureDatabaseMigrationServicesMd [16x16/16z] dOf50aGn24E3b_jVUDACxV-hG0HliXD_eidViPa9Fd_BuchmcPOSILmZhpoNWiP0KrgaPhl1NKsStOoiolJPRM1tAiqyYn78K9CgjaLyjEEPzey6UG4
+sprite $ServiceAzureDatabaseMigrationServicesMd [16x16/16z] dOhL0S0m24GFB_iF7BVllWYSOAAkk8XthXCHqXvXO6Fb25_XIBh1NNuTmnY1COSUw9ZE1ERHn9UfecQg79aEP8Of4Qkr28rekc7MsWDP6lYdyUWA
 
 sprite $ServiceAzureDatabaseMigrationServicesLg [20x20/16z] {
-jSX90WGX24FH08de_I_SMDZpkhuZ3yyqPEXUSlL9BL_8p2H6tV6IIlMfPpIDflEbrUlPETYVmfnTsVa1yy_KHW-3k-iQmBKMZPH4Mku9g3iPlWlDcb3DbH9t
-6asLwMLodE9bZhlCU2omUm
+jOjP5WGn209H8SlzBpocTVRlhcnGB-A9XgpZornygZ9VqkUSnCWxsd0cof1FVnobEhBc2WSh631NaQuJiFwSbwE7mTrr5N3lJICbaJQp6P3tPFWXjB8XMNjA
+F6YqIlHoOMZYvO2x7DWkS7W
 }
 
-!procedure ServiceAzureDatabaseMigrationServices($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Databases/ServiceAzureDatabaseMigrationServices', $name, $tech)
+!procedure ServiceAzureDatabaseMigrationServices($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Databases/ServiceAzureDatabaseMigrationServices', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceAzureDatabaseMigrationServicesCard($id, $funcName="", $content="")

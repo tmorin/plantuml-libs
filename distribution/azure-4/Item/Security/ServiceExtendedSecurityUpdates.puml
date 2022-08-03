@@ -2,17 +2,17 @@
 
 sprite $ServiceExtendedSecurityUpdatesXs [10x10/16z] JSR50S1G242nLyFs7xZV8QVGcD2z8IBg3-ZaTJQjIGFUGaklhxNAiqP8mmy
 
-sprite $ServiceExtendedSecurityUpdatesSm [12x12/16z] TSV10S0G0C30WC3--xO5pzuhuHEwB25sjPK0r2lzTrkgxROJz9d5Z0bwxn8r2ccsXY1pbAI1QVZ9l
+sprite $ServiceExtendedSecurityUpdatesSm [12x12/16z] TSQt0O0m0CH0ESb-zj-NJCbL1r0YhwXhN9kVzlzrcwxlNY1NXnqR996gLIZNjHI16gLfuRAfTWu
 
-sprite $ServiceExtendedSecurityUpdatesMd [16x16/16z] ZSgr0SGm40NH4Osqst-_1-RGB_l0PeRSN6hqFMIikLiHGCpRgxnkpwpwo6ugU4NGup0xJJiM614nfUZ03imjgmKQU-6WQvMDEHrbQ6TNSgWs-08
+sprite $ServiceExtendedSecurityUpdatesMd [16x16/16z] ZSgr0SGm40NH4Osqst-_1-RGB_l0PeRSN6hqFMIikLiHGCpRgxnkpwpwo6u0hmXw76QdQSS28oAc51tOWRbbjK1ZBnnqhR8nfwCCxUnA3jK6Nm
 
 sprite $ServiceExtendedSecurityUpdatesLg [20x20/16z] {
-jSvH0aCH30NHyH8tOlyBBcXR2-Zv74ZOlAMuM4Oeid8KZzwqHCzg32qk-PTskrjeQWnn9Qa2Vfg6Xo8Pa2TXeu84U0vDW0Rgk0shdNkEopXnD1-jKEh3r6Sp
-DE1YARdZgiOH_NU_mwlhtE85
+jT270OGW44JH0JRIVy7745GAk6z-Ph2IICDLJNVpLEoAU0-RUKzjjF2h_8lTtUR6WkOVOlpmjet75SMCNvsRq8O2N20v2kuPKRa7shbE85OE3fDX1MMFJgUr
+TQyOLhcGoitA--VxJaMBdQj-
 }
 
-!procedure ServiceExtendedSecurityUpdates($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Security/ServiceExtendedSecurityUpdates', $name, $tech)
+!procedure ServiceExtendedSecurityUpdates($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Security/ServiceExtendedSecurityUpdates', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceExtendedSecurityUpdatesCard($id, $funcName="", $content="")

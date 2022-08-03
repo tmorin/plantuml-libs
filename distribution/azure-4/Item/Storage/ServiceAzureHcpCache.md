@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Storage/ServiceAzureHcpCache')
 
 ' renders the element
-ServiceAzureHcpCache('ServiceAzureHcpCache', 'Service Azure Hcp Cache', 'an optional tech label')
+ServiceAzureHcpCache('ServiceAzureHcpCache', 'Service Azure Hcp Cache', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Storage/ServiceAzureHcpCache')
 
 ' renders the element
-ServiceAzureHcpCache('ServiceAzureHcpCache', 'Service Azure Hcp Cache', 'an optional tech label')
+ServiceAzureHcpCache('ServiceAzureHcpCache', 'Service Azure Hcp Cache', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Compute/ServiceVmImagesClassic')
 
 ' renders the element
-ServiceVmImagesClassic('ServiceVmImagesClassic', 'Service Vm Images Classic', 'an optional tech label')
+ServiceVmImagesClassic('ServiceVmImagesClassic', 'Service Vm Images Classic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Compute/ServiceVmImagesClassic')
 
 ' renders the element
-ServiceVmImagesClassic('ServiceVmImagesClassic', 'Service Vm Images Classic', 'an optional tech label')
+ServiceVmImagesClassic('ServiceVmImagesClassic', 'Service Vm Images Classic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

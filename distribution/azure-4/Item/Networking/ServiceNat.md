@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Networking/ServiceNat')
 
 ' renders the element
-ServiceNat('ServiceNat', 'Service Nat', 'an optional tech label')
+ServiceNat('ServiceNat', 'Service Nat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Networking/ServiceNat')
 
 ' renders the element
-ServiceNat('ServiceNat', 'Service Nat', 'an optional tech label')
+ServiceNat('ServiceNat', 'Service Nat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Analytics/ServiceHdInsightClusters')
 
 ' renders the element
-ServiceHdInsightClusters('ServiceHdInsightClusters', 'Service Hd Insight Clusters', 'an optional tech label')
+ServiceHdInsightClusters('ServiceHdInsightClusters', 'Service Hd Insight Clusters', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Analytics/ServiceHdInsightClusters')
 
 ' renders the element
-ServiceHdInsightClusters('ServiceHdInsightClusters', 'Service Hd Insight Clusters', 'an optional tech label')
+ServiceHdInsightClusters('ServiceHdInsightClusters', 'Service Hd Insight Clusters', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

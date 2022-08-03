@@ -2,14 +2,14 @@
 
 sprite $ServiceInformationXs [10x10/16z] HSY50G0W30F1HvFz9wRurGjVwXDGvrohf3ORMI7DrkzFsNR7WRl1V4w4EJiC
 
-sprite $ServiceInformationSm [12x12/16z] LSR50G0W34FHuEo_C5BlFoGFkJvVWpWbeUvwpV6tD5gitmnk-rNmTu4ikym07V7NliR31G
+sprite $ServiceInformationSm [12x12/16z] LSQ10G0G20311zX_Oe6getgYsaLZwy_BluVeRM_AtecnTTTbYiJU0siOhfaFMzdLW0K
 
-sprite $ServiceInformationMd [16x16/16z] PSc50G0X4CJ0uDT_mo-Bmw01kBcKFudcBmazkmW4tK27XoAuThRkIFkxotlxQ08cZhtlqw_jW6n3v1TxUfeqFry
+sprite $ServiceInformationMd [16x16/16z] RSd10G0G3CNG0Bh_mW20T_cY_3YVkQCACtAmWAalgACWLAY-lGVS-Q_ysTfA1MqLPx-hzoRpCbaAErBJkNLC
 
-sprite $ServiceInformationLg [20x20/16z] TSe72iL030FHiLd9U_yB_nA7z3oQ6CIh8TiQoIQysKu-Y7lgP_OSq4E0Qo6e1jGDMQk8hQcQO6k-jz1iXhaYxmrkhS3N1iIb6I3d2OjnIMqhXasgVa6qBm
+sprite $ServiceInformationLg [20x20/16z] TSm54e1040F1GJRB_p-C4-1aob9zGhSX9CNy5JdkPdqoLNZD-Ha1ACy2yWglJupF6WPRfD_QrB1OhWJB7MF3g2n1fG7OFBX_T50XJnRnANA7aQiD
 
-!procedure ServiceInformation($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceInformation', $name, $tech)
+!procedure ServiceInformation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceInformation', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceInformationCard($id, $funcName="", $content="")

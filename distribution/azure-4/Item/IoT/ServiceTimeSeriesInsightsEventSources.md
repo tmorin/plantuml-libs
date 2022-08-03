@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/IoT/ServiceTimeSeriesInsightsEventSources')
 
 ' renders the element
-ServiceTimeSeriesInsightsEventSources('ServiceTimeSeriesInsightsEventSources', 'Service Time Series Insights Event Sources', 'an optional tech label')
+ServiceTimeSeriesInsightsEventSources('ServiceTimeSeriesInsightsEventSources', 'Service Time Series Insights Event Sources', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/IoT/ServiceTimeSeriesInsightsEventSources')
 
 ' renders the element
-ServiceTimeSeriesInsightsEventSources('ServiceTimeSeriesInsightsEventSources', 'Service Time Series Insights Event Sources', 'an optional tech label')
+ServiceTimeSeriesInsightsEventSources('ServiceTimeSeriesInsightsEventSources', 'Service Time Series Insights Event Sources', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

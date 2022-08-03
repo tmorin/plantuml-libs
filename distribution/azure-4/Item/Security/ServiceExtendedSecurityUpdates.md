@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Security/ServiceExtendedSecurityUpdates')
 
 ' renders the element
-ServiceExtendedSecurityUpdates('ServiceExtendedSecurityUpdates', 'Service Extended Security Updates', 'an optional tech label')
+ServiceExtendedSecurityUpdates('ServiceExtendedSecurityUpdates', 'Service Extended Security Updates', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Security/ServiceExtendedSecurityUpdates')
 
 ' renders the element
-ServiceExtendedSecurityUpdates('ServiceExtendedSecurityUpdates', 'Service Extended Security Updates', 'an optional tech label')
+ServiceExtendedSecurityUpdates('ServiceExtendedSecurityUpdates', 'Service Extended Security Updates', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

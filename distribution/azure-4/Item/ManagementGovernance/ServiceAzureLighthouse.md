@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/ManagementGovernance/ServiceAzureLighthouse')
 
 ' renders the element
-ServiceAzureLighthouse('ServiceAzureLighthouse', 'Service Azure Lighthouse', 'an optional tech label')
+ServiceAzureLighthouse('ServiceAzureLighthouse', 'Service Azure Lighthouse', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/ManagementGovernance/ServiceAzureLighthouse')
 
 ' renders the element
-ServiceAzureLighthouse('ServiceAzureLighthouse', 'Service Azure Lighthouse', 'an optional tech label')
+ServiceAzureLighthouse('ServiceAzureLighthouse', 'Service Azure Lighthouse', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/ManagementGovernance/ServiceUserPrivacy')
 
 ' renders the element
-ServiceUserPrivacy('ServiceUserPrivacy', 'Service User Privacy', 'an optional tech label')
+ServiceUserPrivacy('ServiceUserPrivacy', 'Service User Privacy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/ManagementGovernance/ServiceUserPrivacy')
 
 ' renders the element
-ServiceUserPrivacy('ServiceUserPrivacy', 'Service User Privacy', 'an optional tech label')
+ServiceUserPrivacy('ServiceUserPrivacy', 'Service User Privacy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,17 +2,17 @@
 
 sprite $ServiceDataSharesXs [10x10/16z] JSZ50O0m44JHluhrNoyGpxkCi1EXCWzt8PN7HU-7T9xxzpTwIqR3PilSFX2g3m
 
-sprite $ServiceDataSharesSm [12x12/16z] LSQ54S0m302nDnVsdxVS-A8ZCLFac_XD81snh537KVRjjaFs3Vvdz77wMDymjaU19RGJ
+sprite $ServiceDataSharesSm [12x12/16z] TSQ50S0m2031nolxprjt-GGu_XAV4qX7B2jqkYXzDzT3dZROdN4QlnWxBHWJfWeikJG2
 
-sprite $ServiceDataSharesMd [16x16/16z] XSVN0SD024J1nnxiOQd_UfrpqlmDMoAaCHJtvqK8Iab6Uhga9i6iIzkUozfGgUFFpazuVl7ydL_V-EtIwx7Z-IFmuq8w7itZUd0Kujq1
+sprite $ServiceDataSharesMd [16x16/16z] XSV7OSKm44F11t0NbAN-w_NFESrj-4ds6DQrTIAWNPGgCsqtWh2jIvAvRWrTtl_ay8BxD_V_o-ERF1q_FNcuH6uNc83cVii0a7cs0m
 
 sprite $ServiceDataSharesLg [20x20/16z] {
-bSc50SGW40NHMViaeVz-Ry_T1d_mJzPnarlaeJXmfCE1gdhpHXCUo3mrXfe4sLxCkQLPVsnp0YA3jcCdQtgm43nQyMZIiu5UMCIpeLScsOE5GpvQq6RZR8Ck
-IyOXCxwq0m
+bSY50KD120JH0PQzB_tN6tVFdFBufzXr3wL3TMJbYRftL-xHPE58UGplo101pRekYeZKigw0KUtjsCaoUB0mF5hpQFQpWLzOrRFXLsO_MYJeqMflZBCD0BKv
+5i6NjW
 }
 
-!procedure ServiceDataShares($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Storage/ServiceDataShares', $name, $tech)
+!procedure ServiceDataShares($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Storage/ServiceDataShares', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceDataSharesCard($id, $funcName="", $content="")

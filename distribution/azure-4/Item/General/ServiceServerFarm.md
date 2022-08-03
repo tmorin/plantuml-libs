@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceServerFarm')
 
 ' renders the element
-ServiceServerFarm('ServiceServerFarm', 'Service Server Farm', 'an optional tech label')
+ServiceServerFarm('ServiceServerFarm', 'Service Server Farm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceServerFarm')
 
 ' renders the element
-ServiceServerFarm('ServiceServerFarm', 'Service Server Farm', 'an optional tech label')
+ServiceServerFarm('ServiceServerFarm', 'Service Server Farm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

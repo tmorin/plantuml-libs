@@ -2,14 +2,14 @@
 
 sprite $ServiceVersionsXs [10x10/16z] Oq00BWZWG6QniOC16oC3EoSKC72mGW439vp5W8t51WK
 
-sprite $ServiceVersionsSm [12x12/16z] TSR50G0X40ImEO6L_ll5NV8AHbejjrKyIGNYVYPJGRYVg1_VvVYArmC
+sprite $ServiceVersionsSm [12x12/16z] TSR50G0X40ImEO6L_ll5NV8AHbejjrKyIGNYVYPJGRYVg1-u_IjU3m
 
-sprite $ServiceVersionsMd [16x16/16z] XSU35S10502mRtJ_VMkVyXZuOtbidrwaSdlX_N5pGt3F5oeUeIzOFDC-1zBlONXx4Fmi
+sprite $ServiceVersionsMd [16x16/16z] XSV50G1120ImMHpwx_VSDR_WYcKtlWxQm-q0qsFZ1hZd0TqUeGVjzamx7KtFn-zjHxZe0G
 
-sprite $ServiceVersionsLg [20x20/16z] fSZL0O1G2010a6R_VUrkVVTvSAhQw4jpmxySwuQCPokAs5zi8R3PuxaZYBjiNLp4gskLd6wT7Pnf
+sprite $ServiceVersionsLg [20x20/16z] fSs35K1H30FGLsF_VRzjtECYAKzfhlYR6UkA33DRK81k5clDpEnsvasBkClQoIpYqQpnPwPh9xEz6W
 
-!procedure ServiceVersions($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceVersions', $name, $tech)
+!procedure ServiceVersions($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceVersions', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceVersionsCard($id, $funcName="", $content="")

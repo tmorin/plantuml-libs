@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceCache')
 
 ' renders the element
-ServiceCache('ServiceCache', 'Service Cache', 'an optional tech label')
+ServiceCache('ServiceCache', 'Service Cache', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceCache')
 
 ' renders the element
-ServiceCache('ServiceCache', 'Service Cache', 'an optional tech label')
+ServiceCache('ServiceCache', 'Service Cache', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

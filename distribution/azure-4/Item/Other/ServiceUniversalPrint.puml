@@ -2,17 +2,17 @@
 
 sprite $ServiceUniversalPrintXs [10x10/16z] LSj50G0m30F034l-zOxnFiNWatC-pMWz4Ra6eCOtHioS1uZ8q_LhGgEzKtGZMm4
 
-sprite $ServiceUniversalPrintSm [12x12/16z] NSR10G0G302n0s3_WHL0ymgQZvubTgifcQvFs0wogECbzSV95R7EUwBSTf7EZtiU3G
+sprite $ServiceUniversalPrintSm [12x12/16z] NSR10G0G302n0s3_WHL0ymgQZvubTgifcQvFs0wogECbzSV95R7EUwBSTf7EZ1iU3G
 
-sprite $ServiceUniversalPrintMd [16x16/16z] RSa53iGm50FH3ub3zx_lojvo-uIZiMyUrmfGNb9opzQQ2xF9qKrMIFFer6PAYwR6eTwwm0RXO4LTKmhCelE7i6dC44pRkDZB3m
+sprite $ServiceUniversalPrintMd [16x16/16z] TSv50W0X241HmDRxttSafz_kcy0FkWPMXj5LeMTh3GNNZkZ8HQ81TTPc4esQT0tbrhd2O3L0bYv9x7s0pliakDcOsdM2YNaU3W
 
 sprite $ServiceUniversalPrintLg [20x20/16z] {
-VSe54a9140FHh2Npb_kV5nd1uPLtDVvg7u4t7KycmtgapZ8UIH9RyYBttAQ2zRG0fLtjX6bEifLiAXkVVRH57CvRWRpPIqEssTCYW6N-LICHk8zgUmEb9U1_
-UxW
+bSzL0WCn28JXYJ4ilVzvAyJh-pt-KN1Ea8UufYnLcIbAbz09IGcDRw9RMqlKs05ihASBiZfIIwEPhSdgfHN1uRPze3VT6bhBiIdtXgI-hpUHFh4TlPbXM6Rx
+qbOt
 }
 
-!procedure ServiceUniversalPrint($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Other/ServiceUniversalPrint', $name, $tech)
+!procedure ServiceUniversalPrint($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Other/ServiceUniversalPrint', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceUniversalPrintCard($id, $funcName="", $content="")

@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Storage/ServiceAzureNetAppFiles')
 
 ' renders the element
-ServiceAzureNetAppFiles('ServiceAzureNetAppFiles', 'Service Azure Net App Files', 'an optional tech label')
+ServiceAzureNetAppFiles('ServiceAzureNetAppFiles', 'Service Azure Net App Files', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Storage/ServiceAzureNetAppFiles')
 
 ' renders the element
-ServiceAzureNetAppFiles('ServiceAzureNetAppFiles', 'Service Azure Net App Files', 'an optional tech label')
+ServiceAzureNetAppFiles('ServiceAzureNetAppFiles', 'Service Azure Net App Files', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

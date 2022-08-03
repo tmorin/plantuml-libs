@@ -2,17 +2,17 @@
 
 sprite $ServiceDetonationXs [10x10/16z] LSOr0G0m40ImAppwzrl6JC67chn35FguepO15D97resfk_T4JKGpM4ug
 
-sprite $ServiceDetonationSm [12x12/16z] NSY50S0W3031kEs_RnL_x0YSwLld-B3zyJjsTN-ElWxa88pV-VOPjDu-MgY5ANuKO6Pex0KFtW
+sprite $ServiceDetonationSm [12x12/16z] NSY50S0W3031kEs_RnL_x0YSwTja-x3zyJjsTN-ElWxa88pV-VOPjDu-MgY5DH80ms1huGq
 
-sprite $ServiceDetonationMd [16x16/16z] RSa53W9H00FHVgaizxylqk3mefF1VxoPk1kyUxkrcukwu-YMND9gUs3P4nBRoNP2HRkjuwuRayUfH9IO9aSp4GltDB1cvpthRyAVUG4
+sprite $ServiceDetonationMd [16x16/16z] RSV50KCn50Em5p2a--zRSEcJRgfhUEd_VXoAcGxm0pb81JbojHfIBnAvFMM3viovFb21TGj-JdXRcuXlLLMzrRznQcZV1m
 
 sprite $ServiceDetonationLg [20x20/16z] {
-VO-50GCn30D3ilNTV-06vIzUM36cVrHqMab1mQRTfGyHD_A9PG8uPXPiG_HBymvAzHqHxdqdQqekpKXZn_j4tV4kOJXvNPeA1FYONC3fbGPZLrmb5v8L2rcH
-_RUsqaE5LGh2wXMNLL3iM8ad
+VOy50WCn20HZxExr_mzkb5AxYKyCqXtLEYsQOfiMrPUqG3vlmJ4xn_3YE5Xkx5Yft9UDxBrKKw8xI527lVfxbtFUoqPt7g2P7fFBxAGX6DGDWvAgJQAQOyaf
+AkUVIlnMAUDBFG4
 }
 
-!procedure ServiceDetonation($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Other/ServiceDetonation', $name, $tech)
+!procedure ServiceDetonation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Other/ServiceDetonation', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceDetonationCard($id, $funcName="", $content="")

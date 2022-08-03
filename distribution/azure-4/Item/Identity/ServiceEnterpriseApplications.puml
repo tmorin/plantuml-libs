@@ -2,17 +2,17 @@
 
 sprite $ServiceEnterpriseApplicationsXs [10x10/16z] HSp50S0m34DHcQNz1out-G6_ax7hzhwxPP_SpU-06PyxW7IImrjntOY459g-U2cbI_ql3Pm
 
-sprite $ServiceEnterpriseApplicationsSm [12x12/16z] LSQ50GC13090-bYo_y1r-mWS_YTnakD-PzjwsBwxTLksJ-Tb0ZEPcPSbIZ8fOBUx4rDykNUJ80-I2MMyvf8ODm
+sprite $ServiceEnterpriseApplicationsSm [12x12/16z] NSst0SC03CH0sf_8_GTsK9PGNOUwPilsstvOuj_IpucI85dimztkxjKaI0fWrKncsWAnEZy3nn7KvfUj-W8
 
 sprite $ServiceEnterpriseApplicationsMd [16x16/16z] TOs50KD124El3Nbm-ozSFdKBhbcV0Ensa_ofuwMs7KSzoRrkTwyp4xURv5RpKbSLj5irzGDdISJCatPOZTFQUsUsGKYEzrf-_9yQhJiCues0Ote1
 
 sprite $ServiceEnterpriseApplicationsLg [20x20/16z] {
-ZT3L0SGW54HHO0JIVyFx9kkU-u6SUDgdN6baXDDFw_zD5S-c51kfduSKcvL6HinqDH-mLNban2fQCLRe6GS1MjVpS1xtUBPvDaT5jgsQo13REnk_s7OniztJ
--Plz-dk5Ppg_Qqqd
+ZT3L0OH0303HU9R-6xuCvyvyh3mS-LHDQOnQzDFql-KKPql2Z9JXlCHwIcFKfglL0LjJ6QEkeOKfoJw4UrHUp_Fpk1TdwxCLcg6oJUqCPvlE5bzikrYft4im
+irv_R_hGKnh1XIS
 }
 
-!procedure ServiceEnterpriseApplications($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Identity/ServiceEnterpriseApplications', $name, $tech)
+!procedure ServiceEnterpriseApplications($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Identity/ServiceEnterpriseApplications', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceEnterpriseApplicationsCard($id, $funcName="", $content="")

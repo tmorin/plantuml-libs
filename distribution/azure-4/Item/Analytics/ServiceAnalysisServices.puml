@@ -2,17 +2,17 @@
 
 sprite $ServiceAnalysisServicesXs [10x10/16z] RSb50S1000EmZWh-1O_f8D-WX-I4av0Pumws5veZht1cOo6PSodeZXrA6m
 
-sprite $ServiceAnalysisServicesSm [12x12/16z] TSRN0SDG24MnymfSoFxxnhtR-X9VV5JMgnPj3ocTRYEa42M52GZ0VYs2Qc6MfX7LYuj5LTzVSiJ3
+sprite $ServiceAnalysisServicesSm [12x12/16z] TSO50e1G309GVZ2Ozp-mtVeMW3ynsRjgqTujPKVd1985fC0fuEauD4z9aqbDW2WXRDJFdXEyZ
 
-sprite $ServiceAnalysisServicesMd [16x16/16z] ZOtL0S0m448Xokq_SDp-sXSz0tpX1pTEWnld3BRpnju480mWoQGajmP99X9mPgEv8JGeyqdgSsfpD0sweL8slWRZt3ZuDzO0Fwa
+sprite $ServiceAnalysisServicesMd [16x16/16z] bOq54W0X3CIAf_z_CAwZTy5fCoj_YPtpJabCNVVRAVNYEm8eHCmHXwtQcolqD-eYD8_g6QNJ0eb9dm1v0xsxtzFxI04
 
 sprite $ServiceAnalysisServicesLg [20x20/16z] {
-fSsrOKDH50DGFH9a_tq_OnVRfxie_6Bi6XwuU_MaWIBrTw-ZPElLNO5jsGahk1jhpx47-6UorBMt8ZPE06clVFLQjmdKrj8MOBmHC4YJTEvSh4dL4HweTLcl
-dgHUzUxvW8VEpS37PW
+fSr5WaH1309GIW9axd_WwP9lkvQtZ01-4Kl33PV7J0eKgJzd7INdh2u5jcLd4k0IO-Qq0_mpMUgO3SJaJ40Y1f-prkqnAoNB2vYU10Hfaiwh5wEfEeKRQXph
+CPFKgvupRxWfTS77_W4
 }
 
-!procedure ServiceAnalysisServices($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Analytics/ServiceAnalysisServices', $name, $tech)
+!procedure ServiceAnalysisServices($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Analytics/ServiceAnalysisServices', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceAnalysisServicesCard($id, $funcName="", $content="")

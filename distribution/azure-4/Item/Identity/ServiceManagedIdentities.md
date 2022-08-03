@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Identity/ServiceManagedIdentities')
 
 ' renders the element
-ServiceManagedIdentities('ServiceManagedIdentities', 'Service Managed Identities', 'an optional tech label')
+ServiceManagedIdentities('ServiceManagedIdentities', 'Service Managed Identities', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Identity/ServiceManagedIdentities')
 
 ' renders the element
-ServiceManagedIdentities('ServiceManagedIdentities', 'Service Managed Identities', 'an optional tech label')
+ServiceManagedIdentities('ServiceManagedIdentities', 'Service Managed Identities', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

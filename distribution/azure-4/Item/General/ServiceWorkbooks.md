@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceWorkbooks')
 
 ' renders the element
-ServiceWorkbooks('ServiceWorkbooks', 'Service Workbooks', 'an optional tech label')
+ServiceWorkbooks('ServiceWorkbooks', 'Service Workbooks', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceWorkbooks')
 
 ' renders the element
-ServiceWorkbooks('ServiceWorkbooks', 'Service Workbooks', 'an optional tech label')
+ServiceWorkbooks('ServiceWorkbooks', 'Service Workbooks', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

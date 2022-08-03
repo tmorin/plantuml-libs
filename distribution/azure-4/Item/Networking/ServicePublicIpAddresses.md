@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Networking/ServicePublicIpAddresses')
 
 ' renders the element
-ServicePublicIpAddresses('ServicePublicIpAddresses', 'Service Public Ip Addresses', 'an optional tech label')
+ServicePublicIpAddresses('ServicePublicIpAddresses', 'Service Public Ip Addresses', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Networking/ServicePublicIpAddresses')
 
 ' renders the element
-ServicePublicIpAddresses('ServicePublicIpAddresses', 'Service Public Ip Addresses', 'an optional tech label')
+ServicePublicIpAddresses('ServicePublicIpAddresses', 'Service Public Ip Addresses', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

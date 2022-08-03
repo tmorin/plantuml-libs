@@ -4,12 +4,12 @@ sprite $ServiceCodeXs [10x10/16z] Oy06k600YSK60mpix0n0o0IYW8052DaPE4202OWPE640OH
 
 sprite $ServiceCodeSm [12x12/16z] TOQ50S0m40A9Fh3_m7Ll3iK8Npn-lrX-Etv4Ru5PiQH4v8WqVv9vJfa3pUGvCz05Ram
 
-sprite $ServiceCodeMd [16x16/16z] XSe50W0X24HHCCQlzx_lTkSpWR4_xQHUwdQhovbf4UPdgdDIpZxNGqO-vAPxVEUFBwy1MKWG2p3M93au8wiJhukvtbayiuiU
+sprite $ServiceCodeMd [16x16/16z] XSg50GGn24HHY4m-rt-_j-xsei3Obzz1BFNYKhSZqonDprZNebfzglkClC-Dz_1E7vzV0wgG83TWg2boS0OM8uzPNn_OXmu
 
 sprite $ServiceCodeLg [20x20/16z] fOa50iDG24Dnqjt_m2ETk_Hz8Nd85dOFO9Eh1_BAwQtBwH7cHzT3INNFCsDRNIaZapahKmUtmP2hmz3MC02UR7H4e805ICjoe6CXXEx8MrVo9Ni
 
-!procedure ServiceCode($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceCode', $name, $tech)
+!procedure ServiceCode($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceCode', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceCodeCard($id, $funcName="", $content="")

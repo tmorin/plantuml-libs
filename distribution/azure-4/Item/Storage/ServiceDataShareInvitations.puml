@@ -4,12 +4,12 @@ sprite $ServiceDataShareInvitationsXs [10x10/16z] Oy06M620WGr2it8oi86Pd9mW5f3D2M
 
 sprite $ServiceDataShareInvitationsSm [12x12/16z] ZSUr0S0m4C10F-F-wuRJ1QpgD6PIlekXrqZiFiRYj0f7NBQgkfozjzlwBiPBAm
 
-sprite $ServiceDataShareInvitationsMd [16x16/16z] bSgr0OH040NGkGF6-sztNHFaPL_Wg_yEy5oW0E8r8alEs2yY9RVYafcnV6ScCrkoMjOpUsCbcqygyDl1WmW
+sprite $ServiceDataShareInvitationsMd [16x16/16z] bSgr0G1140B0VLi1-c_ttIwyoH3hDRRCvnylSr_Uc7LaVovLPxwBfRxiv_VBGVANmSEJKpUUcVgWhDC6
 
-sprite $ServiceDataShareInvitationsLg [20x20/16z] hSi53e1034JH8Ysr-ryNMPSu--ClCx2wSmu81n448ce59LYBbmHhKQGQOVeLIrEImTX4kJSBSMFiAIlcJHnCl8yHZdDiWnyz
+sprite $ServiceDataShareInvitationsLg [20x20/16z] hS_50S0m241HAb1i_tKhSJas__YYmEhEEI0SH128g1MKO2rU4gn5aMg4wLonj9LaC3PHxir2t1Xxoefv4mSJxsE4OnxtJmy
 
-!procedure ServiceDataShareInvitations($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Storage/ServiceDataShareInvitations', $name, $tech)
+!procedure ServiceDataShareInvitations($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Storage/ServiceDataShareInvitations', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceDataShareInvitationsCard($id, $funcName="", $content="")

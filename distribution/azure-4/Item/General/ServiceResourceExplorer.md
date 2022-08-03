@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceResourceExplorer')
 
 ' renders the element
-ServiceResourceExplorer('ServiceResourceExplorer', 'Service Resource Explorer', 'an optional tech label')
+ServiceResourceExplorer('ServiceResourceExplorer', 'Service Resource Explorer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceResourceExplorer')
 
 ' renders the element
-ServiceResourceExplorer('ServiceResourceExplorer', 'Service Resource Explorer', 'an optional tech label')
+ServiceResourceExplorer('ServiceResourceExplorer', 'Service Resource Explorer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

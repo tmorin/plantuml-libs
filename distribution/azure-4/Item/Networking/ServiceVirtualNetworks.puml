@@ -2,14 +2,14 @@
 
 sprite $ServiceVirtualNetworksXs [10x10/16z] ROQr0G0m20GJVF-5yPBNUxSWgmLM8xPGg9XiJzE8hqJPn89J0G
 
-sprite $ServiceVirtualNetworksSm [12x12/16z] ZSUr0S1030F0U_R-2uVSXiJo3z6m5aGdJyw2M6kA4EOKMfVeXJnwXLOp7h43
+sprite $ServiceVirtualNetworksSm [12x12/16z] ZSZ50SH030F0MLR_3Hyclv0jzknIi1QaivKjahMcHCmfshvtzjABRocRdDqR
 
-sprite $ServiceVirtualNetworksMd [16x16/16z] dOtL0S0m24Gl-FuBLx3_DiB33p_EAT24uSd6SF8Hm2OoP0EUf_G47fcoE6G63h2SrQ37dyI4cUYGac1EPFZrt
+sprite $ServiceVirtualNetworksMd [16x16/16z] hOgr0S103CJqQEs_S9ZAaF687yeut_OlG2_1XPO67QQhuI9r4xrJf5IEoXEUX9CcDk52ePJbJVHvZG
 
-sprite $ServiceVirtualNetworksLg [20x20/16z] jOhL3KKn3CKSQix-2p-8TF6_BiOoEt27eIybCOJwhM19Xt8EIlsiZdAgafFj-8f_sGgGabPHlQ15PE3974iZCnXvaGaSyb3E9Q_gaCVhRE0B
+sprite $ServiceVirtualNetworksLg [20x20/16z] jOhL3G1158JOfzD_m-V-VxD2Gk2NsS6-bRJJrLy59PrgS2xLtDLTxbKAeWTMjfOjNttGIh8BMdWu8u3ZHGmsUIzYmosFwfPtTSYT8mO_R0O
 
-!procedure ServiceVirtualNetworks($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Networking/ServiceVirtualNetworks', $name, $tech)
+!procedure ServiceVirtualNetworks($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Networking/ServiceVirtualNetworks', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceVirtualNetworksCard($id, $funcName="", $content="")

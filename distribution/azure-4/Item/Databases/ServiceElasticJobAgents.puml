@@ -2,20 +2,20 @@
 
 sprite $ServiceElasticJobAgentsXs [10x10/16z] HOc50KGn2CLIj_ttlN3VqW9Fu2DLQJrKMGjeSFRUUYvbvrV90Mg8DHMg-9LQo3MZ2Yho0m
 
-sprite $ServiceElasticJobAgentsSm [12x12/16z] LSQ70GGW20J11S_SVxz_-daL6FwAa6jDnwNsqH0DTik8O53jlTOgG7kv9ugNtSJkbx9JpV1NmPzKWaJU8yAuYTC3
+sprite $ServiceElasticJobAgentsSm [12x12/16z] LSO90iGW20J1HiVx___TOQyahK3nBEHwLxAsCJkYm-ab8fWq--ozAz2_7WN5rsvXZpTbXxhXhue_8K2Yb3mY4fd8NW
 
 sprite $ServiceElasticJobAgentsMd [16x16/16z] {
-RSY50KGn309G23HVkl--Hy-DIdZ1dv0bgMJUv6iQg3mKsSTnf1fqF5ia1x03lJpF94tyT3RrzDcZXl5oCh7yv7wpdJhot21ix-UvPNSEot41rFeXBpj5Lg5M
-lyKMFlBW1G
+ROa50WGW3CEwjGpx_t-ld5kmXE4F4KaogRYbhXIGTHlNdDCgZzox614D642TtilO61zjc8_sHyiclDfi79uvRYrPcuyAuT9Ogylp9ieT07Y_Jyj2CH77RqZ4
+1u-y
 }
 
 sprite $ServiceElasticJobAgentsLg [20x20/16z] {
-TSq50aCn28DXKb9gzx_l27Fxf_cUsRyQq380n5sSrw8peWp8sRESRgrm03xNMXeqwvw_-uGZaqrvsTbADl1ksjPqxTFgXkPXJnDsHhStK-Tk-zl8konEcHlB
-EcS-ElzVXUjkEtALMTQSX7xBz6L8Qosj9hBhVyfgtHDzzQGB
+TT250OKm34NHU6t_VNafRlSBvE3GRyo261sYjXPk4TjE61rXL9A9XLbhQoq78tB5iezGHcarVTheMLhXk-LCGYuNcoSa3TfiGxTmkbasPBF-DhDTcjKq9Plc
+Ld5fCrd5scuzC4tRteCGaiqK9B34EMuPWjrx4pff0G
 }
 
-!procedure ServiceElasticJobAgents($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Databases/ServiceElasticJobAgents', $name, $tech)
+!procedure ServiceElasticJobAgents($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Databases/ServiceElasticJobAgents', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceElasticJobAgentsCard($id, $funcName="", $content="")

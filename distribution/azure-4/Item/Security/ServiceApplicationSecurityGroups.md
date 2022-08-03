@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Security/ServiceApplicationSecurityGroups')
 
 ' renders the element
-ServiceApplicationSecurityGroups('ServiceApplicationSecurityGroups', 'Service Application Security Groups', 'an optional tech label')
+ServiceApplicationSecurityGroups('ServiceApplicationSecurityGroups', 'Service Application Security Groups', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Security/ServiceApplicationSecurityGroups')
 
 ' renders the element
-ServiceApplicationSecurityGroups('ServiceApplicationSecurityGroups', 'Service Application Security Groups', 'an optional tech label')
+ServiceApplicationSecurityGroups('ServiceApplicationSecurityGroups', 'Service Application Security Groups', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

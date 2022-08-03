@@ -2,14 +2,14 @@
 
 sprite $ServiceInputOutputXs [10x10/16z] JOk50G0W3CE2m_y7uvFCfHXLeCg6mEFKzbRq3Mq33Dx153K_d7O1
 
-sprite $ServiceInputOutputSm [12x12/16z] LSm50G0140IXsVF-XT-L0F1bkfYel5HHNAA0v238h8Q8A34xUWVa0AX112VzddhniG8
+sprite $ServiceInputOutputSm [12x12/16z] JSo15G0G24NH1txsdzW1rGMe8glbgGMDHqAUi6-5RH-j3TjxKs5ksBOJ9vkzn2VtKI1P
 
-sprite $ServiceInputOutputMd [16x16/16z] XSsr0KG12C3GuB3_mEVwzNMfmfdyusJurwFvIaF0UH7XBegd5AYRBiW7eH-SUaXkV9mxUUPd8VSqvSjO_JFZAvtyeonS0G
+sprite $ServiceInputOutputMd [16x16/16z] XSsr0KCn0CN0Cpqx-mySPlhNgP8jUT5bb8TpUqY3ugeuAvEp5ERHckICTTRDiq3VTMVdf5vJq8g7vkEVZ8TqUL6zEG
 
-sprite $ServiceInputOutputLg [20x20/16z] ZT350G0n20J0nQ7_WizTCyy4Hok_eOSt6TvmOiwFRqI0OaU4YGLMnbZVriUvLCvYduhNjsHup1Gsy2e6r0RZqyI6fncjJ_3rQHwhUGztFPbkS2FpVhTzRte
+sprite $ServiceInputOutputLg [20x20/16z] ZP250S0W30JpEFilt6ZT3Zyyz9TsuSw1s1-eZMuTm6Nd06_xjWmKpgKVDGoMsxt3OTUDGebfSyfDJ1Ab95OEAtVROrJz_KThvO36u89_zlBV2mi
 
-!procedure ServiceInputOutput($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceInputOutput', $name, $tech)
+!procedure ServiceInputOutput($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceInputOutput', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceInputOutputCard($id, $funcName="", $content="")

@@ -2,14 +2,14 @@
 
 sprite $ServiceProcessExplorerXs [10x10/16z] DOa50W0W20Fj_FzxoUqKM9HAJY6X5bGprNitDKsYzUkAp4FS_UzzgczR0G
 
-sprite $ServiceProcessExplorerSm [12x12/16z] ROk30S1034LZxZzlxTwByG5l0cx-lG4lnDu9xtjTpAuV6sXlzdLthUNJOtLtBiqC
+sprite $ServiceProcessExplorerSm [12x12/16z] Os1400u61C1aip4m0m47XCN2315d1K8sk1esB7eH02BCpSq5ej3OZ5pStDmW1G
 
-sprite $ServiceProcessExplorerMd [16x16/16z] TOo35G1144EpoB3_Ui_6VmnHxbY_OOORkklwq0AqYLLpqknrkbjq8JaPQv-aGEJ-L_Zy_zDgTrQxPIOkyA5Zqd8epuKWW14
+sprite $ServiceProcessExplorerMd [16x16/16z] PSp50S0m30D01GoDzz-tORoNKN0dZGTL76Jq_keP25dhAVSKVOwhlICYCBNxN3EOppn7Pp-ylUW9bJSpRCBLfzmJXi-g57Fz0m
 
 sprite $ServiceProcessExplorerLg [20x20/16z] XSxL0S0m20JGmowqsN_Ukklxmu7SPU5Lfk7g9yUdd41ijEJKeIHup948YV33h8Kh8SIIAnmCSG1wkK6z_o9_FnU_oiWxBEeWi3Za-91hSTBKwt1RLmM37W
 
-!procedure ServiceProcessExplorer($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceProcessExplorer', $name, $tech)
+!procedure ServiceProcessExplorer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceProcessExplorer', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceProcessExplorerCard($id, $funcName="", $content="")

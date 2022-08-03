@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Networking/ServiceServiceEndpointPolicies')
 
 ' renders the element
-ServiceServiceEndpointPolicies('ServiceServiceEndpointPolicies', 'Service Service Endpoint Policies', 'an optional tech label')
+ServiceServiceEndpointPolicies('ServiceServiceEndpointPolicies', 'Service Service Endpoint Policies', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Networking/ServiceServiceEndpointPolicies')
 
 ' renders the element
-ServiceServiceEndpointPolicies('ServiceServiceEndpointPolicies', 'Service Service Endpoint Policies', 'an optional tech label')
+ServiceServiceEndpointPolicies('ServiceServiceEndpointPolicies', 'Service Service Endpoint Policies', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

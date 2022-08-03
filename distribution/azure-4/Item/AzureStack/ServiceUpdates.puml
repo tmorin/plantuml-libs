@@ -2,17 +2,17 @@
 
 sprite $ServiceUpdatesXs [10x10/16z] NSYt4S0m3C10ICpSVs0hLKRr1rPpnKuYgguWyw_kdZ30tKM4ZR6mgQfhJbPcnj9hwGC
 
-sprite $ServiceUpdatesSm [12x12/16z] NSY55G91303H-4h_1HC5xcOb_mKyYg2wvzmZRO03uoYDV6PF3b-pJ_HhPkovsKnT7X2pY9dBSsXvUli3
+sprite $ServiceUpdatesSm [12x12/16z] NOa54W0n20Dps4pk__-j-xP010MfeFEJFx-X0MBgIjVAaTTXYLMQH4HeeMYDS6r0LCrgWK8HFlJWrHa
 
-sprite $ServiceUpdatesMd [16x16/16z] TOe50e103CEshkZ_7qnm3vfhOYQr43lTkE33qw6eb__qUTkbRAgLfSLBzFr0pK0xzosu84CKioBRGTfbhIfcVl6bm82wuV7gK0Qj-yctJm
+sprite $ServiceUpdatesMd [16x16/16z] ZStL0GGn409G1bZjlzzDmhdV-ni5mS35iaTTwp88lTH_xLTXqaoJgSK-NxTzTmBJcpkh0mXeb8eqR9aA4YX9HZOGVNlAWzHN-gjk
 
 sprite $ServiceUpdatesLg [20x20/16z] {
-bOvL0iD020Lnajx_m8NNjP_QH7TGUY43skXZO8Uxyywir-c2alYYwxFR_JxbYOeDbyjLdgCone9g_Sgye20Phm3Q20ghier1GJ9f2M6e8UifpCJTIuoMLgXr
-DfA0ebji1ymRe-qsVxed
+bSe54eH034JHU63kV-1DcY0bQn-TLqr7Cj6TheaVjkUUMQ-d1INnHjitMzEd7QlOM9ucjVFLXGX4yShSGC1Z74YxmdRr5WC1cRH063J8AfMPk3i0MQN6jRwD
+exAu3PbtHhVT_Mal
 }
 
-!procedure ServiceUpdates($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/AzureStack/ServiceUpdates', $name, $tech)
+!procedure ServiceUpdates($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/AzureStack/ServiceUpdates', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceUpdatesCard($id, $funcName="", $content="")

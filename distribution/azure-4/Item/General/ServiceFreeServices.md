@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceFreeServices')
 
 ' renders the element
-ServiceFreeServices('ServiceFreeServices', 'Service Free Services', 'an optional tech label')
+ServiceFreeServices('ServiceFreeServices', 'Service Free Services', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceFreeServices')
 
 ' renders the element
-ServiceFreeServices('ServiceFreeServices', 'Service Free Services', 'an optional tech label')
+ServiceFreeServices('ServiceFreeServices', 'Service Free Services', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

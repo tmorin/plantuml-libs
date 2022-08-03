@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/ManagementGovernance/ServicePolicy')
 
 ' renders the element
-ServicePolicy('ServicePolicy', 'Service Policy', 'an optional tech label')
+ServicePolicy('ServicePolicy', 'Service Policy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/ManagementGovernance/ServicePolicy')
 
 ' renders the element
-ServicePolicy('ServicePolicy', 'Service Policy', 'an optional tech label')
+ServicePolicy('ServicePolicy', 'Service Policy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

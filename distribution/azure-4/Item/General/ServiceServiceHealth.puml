@@ -2,17 +2,17 @@
 
 sprite $ServiceServiceHealthXs [10x10/16z] HOS50W0W4C9cWV__i1sxOF0fKa0Iw98y2FCDmqHIOfPCjaQjr06COCh4KmvBEW
 
-sprite $ServiceServiceHealthSm [12x12/16z] LOU50GG13C9IW-w_yFkVf4BWXYHeAJygZLu4EYc_GQwgi3iDtH9-YJfV6IJJx7eDQ9Tz0PzoAFIf4FE99m
+sprite $ServiceServiceHealthSm [12x12/16z] LSR70K0n24Enbm0s-q_yUubEOY49KfhitPLs-pzXxv0ZOjWv3PaItgESs8D19Trk0-gcTx1JFztbrrt1RWC
 
-sprite $ServiceServiceHealthMd [16x16/16z] PSV70G913CLGEV_-AmRla7adYJzMdG3HPO3tCdevz9VVjvY3d9NN-_sP18nTfY7fcUkn90VRnC9YG4AI0-uIQ3LhfAxTuUYTzqBjDcyX1L-CumO
+sprite $ServiceServiceHealthMd [16x16/16z] ROU70K912CL2P_-9XVjspPMyy4kahonZfRd0aQxV-Mwnki2F_BHEKmu8crI2arMd4SVdtucOsAXxRYkWEfjUagLcn6PnaHklXDXCNcYtyPSR
 
 sprite $ServiceServiceHealthLg [20x20/16z] {
-VSi5GWKn34NHs_Z-Lmnvy5tEJDiexvtqGFmIPAq3hi1H97O93jIBjpNlYtC9FNhj3Tq9u6eMjQarnt-XDRoDm9H1xUqqqH1QmggmmPb9PgO137gSCoF6AdLZ
-944sPgIugFcNYFH8S2zVIck6Rtu
+VSi5OWKn24NHIx2t_nMtq7wNCvC4vGDpUmgoXe5lu6oqx1f0lNXRyxwmIqZqc1kwax7DeYOzZRaxx1hUX-1i1ZMtqqH3x19KSOGZ9P8Qu43BCMaTHcqtj1BM
+n6WL5wL_oKrh1VTSlumd4j_y
 }
 
-!procedure ServiceServiceHealth($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceServiceHealth', $name, $tech)
+!procedure ServiceServiceHealth($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceServiceHealth', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceServiceHealthCard($id, $funcName="", $content="")

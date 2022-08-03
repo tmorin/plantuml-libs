@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Networking/ServiceIpGroups')
 
 ' renders the element
-ServiceIpGroups('ServiceIpGroups', 'Service Ip Groups', 'an optional tech label')
+ServiceIpGroups('ServiceIpGroups', 'Service Ip Groups', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Networking/ServiceIpGroups')
 
 ' renders the element
-ServiceIpGroups('ServiceIpGroups', 'Service Ip Groups', 'an optional tech label')
+ServiceIpGroups('ServiceIpGroups', 'Service Ip Groups', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,14 +2,14 @@
 
 sprite $ServiceCommitXs [10x10/16z] Oq01B6mm1ZixEqmGpc3WWBCuKVMnmG586pipEpCpEoSS
 
-sprite $ServiceCommitSm [12x12/16z] PSQ50S0m4090OiZ-0zUzzmBuwdnKiXozKQtXGEF2_FhJu4qg6BrnMTa5Iz6opiCC
+sprite $ServiceCommitSm [12x12/16z] NKh50G0W2AHZ_uNbez9m1Rl46hH7K1tn6T7o-R4-_2NxvOwWmbRZ4GW5l2QorG4
 
-sprite $ServiceCommitMd [16x16/16z] VOo50G1H249jSF-5hplUJnMGTw9kPPLUoal37IXtEG2l0RpLtVYj3_HAtG0mQk3kuucnskfOQf8Ynl4_dXohlZ8
+sprite $ServiceCommitMd [16x16/16z] XSY50G0n24FHq1OIzX_utFLN7tYknOKHPvu6PgIROOzgE2RvoPal_YikaGICjTRXD79pcoq9A1h-m_51UQu7
 
-sprite $ServiceCommitLg [20x20/16z] ZOz50aGX34FHDDp_mZFvR71uQBrr9oByg4e05YhqdiagNR8OpV2_NOUyHiWtNIdSwzw9QGOBp2ofOsYKhEiZIsSIKNKafQDqb8vaMP0vymC
+sprite $ServiceCommitLg [20x20/16z] ZOw50G0X549DmFqNlWxRP_x6ZF2eN050xIgTWHT_dxMMn7wRZ2EhH5hpfQI-RnqVQj20P3WKmtlFU5mdyV3nC77v91q-7JuTljsH6aJLR
 
-!procedure ServiceCommit($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceCommit', $name, $tech)
+!procedure ServiceCommit($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceCommit', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceCommitCard($id, $funcName="", $content="")

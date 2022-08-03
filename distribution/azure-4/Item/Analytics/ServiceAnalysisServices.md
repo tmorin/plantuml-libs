@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Analytics/ServiceAnalysisServices')
 
 ' renders the element
-ServiceAnalysisServices('ServiceAnalysisServices', 'Service Analysis Services', 'an optional tech label')
+ServiceAnalysisServices('ServiceAnalysisServices', 'Service Analysis Services', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Analytics/ServiceAnalysisServices')
 
 ' renders the element
-ServiceAnalysisServices('ServiceAnalysisServices', 'Service Analysis Services', 'an optional tech label')
+ServiceAnalysisServices('ServiceAnalysisServices', 'Service Analysis Services', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

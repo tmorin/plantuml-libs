@@ -5,17 +5,17 @@ sprite $ServicePeeringServiceXs [10x10/16z] 9OQ70S0W3CDKm4an_z_Bz1IW_d7bemkjFIns
 sprite $ServicePeeringServiceSm [12x12/16z] FSQ95GGX20JHddrSNUQVxyxfLw1q6XzwS7ipajFkpaefW7RPBkNPbNK9hLLK6CpPxN7akQJL3D4OIJ_o3B1Emzc5RcMN3_q1
 
 sprite $ServicePeeringServiceMd [16x16/16z] {
-FS-70SGm20D0Vm8IalVVzo7jtBjP0whV-iYNTyQcFCvdbH6-FCirOoAHFJpTAgKYr1Dm0oZJCAvraK62xLnxRzWAqwQvl3SjEqB6lD7hR15WalFYx3VJfhNQ
-OLSFfiurKAYQwWdhLuOfwLYFL4BerJy
+FSq7WaGn209Gzu-2aFlVTpLJNdfHOq7z5p_ozRsnAQ_dyyfCNv_dtZDHg3c-FBga9ZGNy00eqp3kkyWamV6ASmvifUdf39z3oywKiJNcdICJB78hxd-pR5en
+7hjjxbonqEY-KxorOKfwugDK46Rp3m
 }
 
 sprite $ServicePeeringServiceLg [20x20/16z] {
-JP67WSGW30Jn8Mtw_ljzeulZo8Bo6jhcjNwubC7rrV81xrE9gfpXTP99LI4PFfQeOamqq4TwZ7TNEmtPH-mCtKOGwSH1HaftWhdxPIkfAKYYjDVV3HAwZ2Hr
-3khMUAnTDSRXkiuvikwxYcmIQ-qvLvDwmaIdkkEl4xVdY_LAN4wGUVOQ6lZUtnRA4pDwVFhAm4Y_f1URQB3E1Fu1
+JOw70GCn20Dn0X9Izj_NBUs--gXnA8aZ_caVb3_bB_YfpfGFxqpQcGbVlfN8f4KKK5izl92ov49BMvOFLOBXRYC2LorfuzprhktkOcDzs3tYjO1DfNPDxiHU
+ZhjQcRUOiHD1vhepoI8HCKvUdjLjsXsBtQzibSuNyLwyPSFdUSQXWDyTbz4x4JRTZ_X86e9hgnzFei2CnGG
 }
 
-!procedure ServicePeeringService($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Other/ServicePeeringService', $name, $tech)
+!procedure ServicePeeringService($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Other/ServicePeeringService', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServicePeeringServiceCard($id, $funcName="", $content="")

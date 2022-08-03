@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Other/ServiceAzureBackupCenter')
 
 ' renders the element
-ServiceAzureBackupCenter('ServiceAzureBackupCenter', 'Service Azure Backup Center', 'an optional tech label')
+ServiceAzureBackupCenter('ServiceAzureBackupCenter', 'Service Azure Backup Center', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Other/ServiceAzureBackupCenter')
 
 ' renders the element
-ServiceAzureBackupCenter('ServiceAzureBackupCenter', 'Service Azure Backup Center', 'an optional tech label')
+ServiceAzureBackupCenter('ServiceAzureBackupCenter', 'Service Azure Backup Center', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

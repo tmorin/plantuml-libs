@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceBacklog')
 
 ' renders the element
-ServiceBacklog('ServiceBacklog', 'Service Backlog', 'an optional tech label')
+ServiceBacklog('ServiceBacklog', 'Service Backlog', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceBacklog')
 
 ' renders the element
-ServiceBacklog('ServiceBacklog', 'Service Backlog', 'an optional tech label')
+ServiceBacklog('ServiceBacklog', 'Service Backlog', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

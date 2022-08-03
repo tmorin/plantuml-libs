@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Databases/ServiceManagedDatabase')
 
 ' renders the element
-ServiceManagedDatabase('ServiceManagedDatabase', 'Service Managed Database', 'an optional tech label')
+ServiceManagedDatabase('ServiceManagedDatabase', 'Service Managed Database', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Databases/ServiceManagedDatabase')
 
 ' renders the element
-ServiceManagedDatabase('ServiceManagedDatabase', 'Service Managed Database', 'an optional tech label')
+ServiceManagedDatabase('ServiceManagedDatabase', 'Service Managed Database', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

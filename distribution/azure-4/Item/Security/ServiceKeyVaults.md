@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Security/ServiceKeyVaults')
 
 ' renders the element
-ServiceKeyVaults('ServiceKeyVaults', 'Service Key Vaults', 'an optional tech label')
+ServiceKeyVaults('ServiceKeyVaults', 'Service Key Vaults', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Security/ServiceKeyVaults')
 
 ' renders the element
-ServiceKeyVaults('ServiceKeyVaults', 'Service Key Vaults', 'an optional tech label')
+ServiceKeyVaults('ServiceKeyVaults', 'Service Key Vaults', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,17 +2,17 @@
 
 sprite $ServiceAzureSentinelXs [10x10/16z] JOY54S103CCKTFTVkFoWW7LcHrMLGFJ7OsvchydKPG9lWzUGz1xeU320HvgNVfiB
 
-sprite $ServiceAzureSentinelSm [12x12/16z] NOp50G0W30FhOV-5eVRYa6f27t0FguHZmUJ2CZcS2tIUCOzaJk38Zd3b1n02S3AtCt3RT-gPRM6qw2my
+sprite $ServiceAzureSentinelSm [12x12/16z] NSS50aHH249HmC3zRtZcTzqN7l79LPsR-iYxHUrsSSsRbxaSxMw0ukgn1TkpMBE7DMyCN4lYA8Rh-0C
 
-sprite $ServiceAzureSentinelMd [16x16/16z] RSc5WGGW34JHJ6pel-8ZSkiF_I0_dKoc37Ko2zCmVm--RG3ysMYwJGKo0mXE0nJH0FvRyvxS3bxLvD5xufGuHKfTXqhZPbGy7rmUygR92psOony
+sprite $ServiceAzureSentinelMd [16x16/16z] ROs50GCm3CF2plyF5psUYd8XyfUkGd5l0TG6vJnx4dHNrNYv7emEKwrArSHrLOZO2a2tNGlqn68xqBBfJPxv-DbI3w0wdK78arfgyeOrDnC
 
 sprite $ServiceAzureSentinelLg [20x20/16z] {
-TSo73GH124DHJ3BzLtpoRKvVQVG6iEzYIFQ5o5AJjkIQs2975ds9kvK3YCFOBL67CJKKBkHc0CXc0S5Ph84gCwC3YxcCUbLjPaEIq1oLANB1f0fJCUTiYNC4
-Us3PtaQzmJ4PTgcFMqVUE_q
+TS-73KGX30HHBs0F_LTyslivFIKqvFYc2TGbGTeSiMXUiO7frkk2lMMJr8z6bOiTZU55lJcoDKbGfDIPwrufqozgqjAQ6nvbRYqcWBmE2uCb3golVpsB1VEW
+UCGUkorLd72iEjHnra77lXy
 }
 
-!procedure ServiceAzureSentinel($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Security/ServiceAzureSentinel', $name, $tech)
+!procedure ServiceAzureSentinel($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Security/ServiceAzureSentinel', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceAzureSentinelCard($id, $funcName="", $content="")

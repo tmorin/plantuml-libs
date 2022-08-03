@@ -2,17 +2,17 @@
 
 sprite $ServiceResourceLinkedXs [10x10/16z] DSQ50G0W449HBBxxBsnUmjETeHZR2Ns2Mi4Ng7Um0Lu8EhL3qIDKwVBXSLvi
 
-sprite $ServiceResourceLinkedSm [12x12/16z] JOm70W1110Ej5lz_yI7N1acsoXBoaXc_-2mIBTW5e6QjlK0ZQvaOgB9ceogzSFLPyvzGPUn5LNKaA1sx
+sprite $ServiceResourceLinkedSm [12x12/16z] FOS14W0n1CG0w_ylFknSqoAH8-LHnQ3-KPY52y3SPqzWa3jLMBZbZkyscGWBwaQQKIUwUvI0-W4
 
-sprite $ServiceResourceLinkedMd [16x16/16z] NOs5eGKW3CIg5_PV-0ljqw0vfBQqVI3fIzKVwc-1Y3jl07Yd1_GgMMq2D4g4-Tr836AurmhbQ9W9X7i4a5EkgqIktXiUaQCRxEL5vvpHXHEp-GK
+sprite $ServiceResourceLinkedMd [16x16/16z] NOq50iCm30EDKlx_uO5XQwlWNS0oIRa5m0EHDzIB0Atc4IGrNOtCGNgaW2GQQIPQ6u2TNUjQ4DveyXMWgbbX5ue0VR1kg9aNhfZBAyuvXHiklW4
 
 sprite $ServiceResourceLinkedLg [20x20/16z] {
-PSg74OH030H1kTLy_X7_8GhVs9jQExZipRlrJSih3RsIxB7qfkSBEXAifipzvqZuQcK2T2GmBoisVIGYhOgXvj0SJ2mbgOwKPjEW8lRgjZGaKgAQrG2w12I4
-ZLdY4JQh0-DO7SlV9ks1bS9U-bhz0G
+PSu7ZiKW301HLsRlV-4KUsE-nAWbJu0jKyhHMddIqqbpSYZBVuZwKPYJy5YwFyOQGXyBIVvFKec61FH9EdE9DdBnjR_g3I8puoCJAOCmQzNU3YVJgQEszui4
+VAXEecOoj7TicjRVMzF4GNLow0O
 }
 
-!procedure ServiceResourceLinked($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceResourceLinked', $name, $tech)
+!procedure ServiceResourceLinked($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceResourceLinked', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceResourceLinkedCard($id, $funcName="", $content="")

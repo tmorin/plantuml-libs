@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceWebTest')
 
 ' renders the element
-ServiceWebTest('ServiceWebTest', 'Service Web Test', 'an optional tech label')
+ServiceWebTest('ServiceWebTest', 'Service Web Test', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceWebTest')
 
 ' renders the element
-ServiceWebTest('ServiceWebTest', 'Service Web Test', 'an optional tech label')
+ServiceWebTest('ServiceWebTest', 'Service Web Test', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

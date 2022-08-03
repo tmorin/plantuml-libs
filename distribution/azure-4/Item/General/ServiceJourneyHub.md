@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceJourneyHub')
 
 ' renders the element
-ServiceJourneyHub('ServiceJourneyHub', 'Service Journey Hub', 'an optional tech label')
+ServiceJourneyHub('ServiceJourneyHub', 'Service Journey Hub', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceJourneyHub')
 
 ' renders the element
-ServiceJourneyHub('ServiceJourneyHub', 'Service Journey Hub', 'an optional tech label')
+ServiceJourneyHub('ServiceJourneyHub', 'Service Journey Hub', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

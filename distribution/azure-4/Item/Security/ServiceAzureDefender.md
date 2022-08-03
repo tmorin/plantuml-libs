@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Security/ServiceAzureDefender')
 
 ' renders the element
-ServiceAzureDefender('ServiceAzureDefender', 'Service Azure Defender', 'an optional tech label')
+ServiceAzureDefender('ServiceAzureDefender', 'Service Azure Defender', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Security/ServiceAzureDefender')
 
 ' renders the element
-ServiceAzureDefender('ServiceAzureDefender', 'Service Azure Defender', 'an optional tech label')
+ServiceAzureDefender('ServiceAzureDefender', 'Service Azure Defender', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

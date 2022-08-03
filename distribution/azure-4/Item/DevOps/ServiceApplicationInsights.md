@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/DevOps/ServiceApplicationInsights')
 
 ' renders the element
-ServiceApplicationInsights('ServiceApplicationInsights', 'Service Application Insights', 'an optional tech label')
+ServiceApplicationInsights('ServiceApplicationInsights', 'Service Application Insights', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/DevOps/ServiceApplicationInsights')
 
 ' renders the element
-ServiceApplicationInsights('ServiceApplicationInsights', 'Service Application Insights', 'an optional tech label')
+ServiceApplicationInsights('ServiceApplicationInsights', 'Service Application Insights', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

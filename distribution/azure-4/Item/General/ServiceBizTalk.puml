@@ -2,20 +2,17 @@
 
 sprite $ServiceBizTalkXs [10x10/16z] JSQ74O1G3CDG_Hhbs7zVy5LUYitVggf3L6L1jxWlImajbKj-Ts_yFgbF2b5vCJh_1G
 
-sprite $ServiceBizTalkSm [12x12/16z] NSQ50GCn5CDG1UMq--zRF7mVR6w6EldgYWxUr4PJ8A66K596Kg7nxZ7lAvEyiTxW5_tpdvyt-7gmcqusVLNUNW
+sprite $ServiceBizTalkSm [12x12/16z] NSQ50G1130B1FINIVx_lEX7WPqYQxBg4D80rr6WIO4OrZ68CimgDjPjilJAn5Rw28zhsStk3NN2R6dTlNbWj
 
-sprite $ServiceBizTalkMd [16x16/16z] {
-RSu75iCm20JH0PLT9_U_RuJyqltLAt1f5dZIAPwdqgYzIUbQabmzY-m86VT89TW6KItiBjipoG6psPOBOuvmuIX9O-mPtaFFkKV3ERdlNZpT-F9Cxiasd_gH
-R0y
-}
+sprite $ServiceBizTalkMd [16x16/16z] RSg50G8n44JHdwpC7FJVBvoYBxBANxtYejqrbGf9pIhrD9d7WkmnP9nZQe1j4EiRTifsJsP1XsrvHNKDhrXMaw2s36yXPs_Hi2VtxHUd6n-avfrjtiKosJm
 
 sprite $ServiceBizTalkLg [20x20/16z] {
-TOy70i8m30Fb95RLyF__WWSRhitGPUC_vYHzlgfv5FvK8tBwzN2Hh2Rt9EO4gqvj9Mcj9KUqpd2w4Qi7bYPC8cOvGn9EVYWu0FS54pCfcI09Lh0p8SOod0Mw
-NG1KNS5QxhsxP_6ASfTomXDknoVrhYVzHBoJH-6JnOdc2W
+VOy70iCW30Fb9Hpw__yMu-wHInWwDau8al5cR3GlLYflhxXJINeo6bRV1SgxaynqzmnK6ooN2w1syhIQGLWx0HwhOcGnW0XVXZlbna0Ix237Xb0N7CszTG3P
+tSHTpZdlqnQZtQLTuebEnIVrhW_gxlX0QlDFb8_zhW
 }
 
-!procedure ServiceBizTalk($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceBizTalk', $name, $tech)
+!procedure ServiceBizTalk($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceBizTalk', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceBizTalkCard($id, $funcName="", $content="")

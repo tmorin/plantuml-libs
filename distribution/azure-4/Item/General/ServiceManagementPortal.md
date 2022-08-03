@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceManagementPortal')
 
 ' renders the element
-ServiceManagementPortal('ServiceManagementPortal', 'Service Management Portal', 'an optional tech label')
+ServiceManagementPortal('ServiceManagementPortal', 'Service Management Portal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceManagementPortal')
 
 ' renders the element
-ServiceManagementPortal('ServiceManagementPortal', 'Service Management Portal', 'an optional tech label')
+ServiceManagementPortal('ServiceManagementPortal', 'Service Management Portal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

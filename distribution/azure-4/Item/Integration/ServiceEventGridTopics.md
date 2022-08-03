@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Integration/ServiceEventGridTopics')
 
 ' renders the element
-ServiceEventGridTopics('ServiceEventGridTopics', 'Service Event Grid Topics', 'an optional tech label')
+ServiceEventGridTopics('ServiceEventGridTopics', 'Service Event Grid Topics', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Integration/ServiceEventGridTopics')
 
 ' renders the element
-ServiceEventGridTopics('ServiceEventGridTopics', 'Service Event Grid Topics', 'an optional tech label')
+ServiceEventGridTopics('ServiceEventGridTopics', 'Service Event Grid Topics', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

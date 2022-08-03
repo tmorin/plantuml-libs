@@ -2,14 +2,14 @@
 
 sprite $ServiceDataBoxXs [10x10/16z] JSR50G0X0C2mdYBx3qnnyWgdxnUwlo3pglLjebgu76r9C4QJqLu1
 
-sprite $ServiceDataBoxSm [12x12/16z] NSY55S1020JHFPV-2mu3yN_2FFJJ4LczcrMfjRPXs6B0jYWJaHAj2YqetrtajcvZJzrsuZy
+sprite $ServiceDataBoxSm [12x12/16z] NSRN0O0m2431XwO0-m-iwUM-Zaigg49z12I44FCF24Kk95Il5grGJYYm0fb_g9mfU61o0VW
 
-sprite $ServiceDataBoxMd [16x16/16z] TSZ50S1030D17HhwxpTW26TUMk7Jt9MiCbsD79FCjEmxCf7dqL6Z1vlP0yYFJCI1FBgOHnCGFVOSI1hpfqMrtey2im8
+sprite $ServiceDataBoxMd [16x16/16z] RSZ50G0m2CNGNvVzzwqhaDiBn7oFy0xdmsWEsvjZymmBlUpYoDiLmXoRM0Dxs3GY3e2UTfqEkspnHPnoLlzOh
 
-sprite $ServiceDataBoxLg [20x20/16z] TSl5WKC124NHYy-d_tud1l6SvHD-ixmmdaGEM9xB6UgHDRWolzfie-VG0L-rn1_-HleoT4DVW4osPrKawhZ25thS5FAH0UXB5ZpfuiDdbaTtwtlOpOTKnWa
+sprite $ServiceDataBoxLg [20x20/16z] TSg5aSL03C1GhV7M_VTxdnnEth16F9FuK7Oysk5gjYRpoCQNsjVQrhH50snh3TlyjLYB8ajS6p2wZKuY3C_vnJRA_4cuD00vD6UdaejhYrbLunohk8ZrUW4
 
-!procedure ServiceDataBox($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Migrate/ServiceDataBox', $name, $tech)
+!procedure ServiceDataBox($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Migrate/ServiceDataBox', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceDataBoxCard($id, $funcName="", $content="")

@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Analytics/ServiceAzureDatabricks')
 
 ' renders the element
-ServiceAzureDatabricks('ServiceAzureDatabricks', 'Service Azure Databricks', 'an optional tech label')
+ServiceAzureDatabricks('ServiceAzureDatabricks', 'Service Azure Databricks', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Analytics/ServiceAzureDatabricks')
 
 ' renders the element
-ServiceAzureDatabricks('ServiceAzureDatabricks', 'Service Azure Databricks', 'an optional tech label')
+ServiceAzureDatabricks('ServiceAzureDatabricks', 'Service Azure Databricks', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

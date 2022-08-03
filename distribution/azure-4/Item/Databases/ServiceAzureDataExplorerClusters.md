@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Databases/ServiceAzureDataExplorerClusters')
 
 ' renders the element
-ServiceAzureDataExplorerClusters('ServiceAzureDataExplorerClusters', 'Service Azure Data Explorer Clusters', 'an optional tech label')
+ServiceAzureDataExplorerClusters('ServiceAzureDataExplorerClusters', 'Service Azure Data Explorer Clusters', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Databases/ServiceAzureDataExplorerClusters')
 
 ' renders the element
-ServiceAzureDataExplorerClusters('ServiceAzureDataExplorerClusters', 'Service Azure Data Explorer Clusters', 'an optional tech label')
+ServiceAzureDataExplorerClusters('ServiceAzureDataExplorerClusters', 'Service Azure Data Explorer Clusters', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

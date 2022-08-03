@@ -4,12 +4,12 @@ sprite $ServiceIpGroupsXs [10x10/16z] Oy06M8606ynYOU460H0B0g0iTY3D2MQpWW2GnSpCoi
 
 sprite $ServiceIpGroupsSm [12x12/16z] Oy05E9c1W1l2PWK329k51Ip8n0PYGm4pZCqEakA2y22Qe6mk3ZOkLap3sC00sLe
 
-sprite $ServiceIpGroupsMd [16x16/16z] XSg54O1G30FGVhVzzuLmDVprh4deJs74LZoijpxdl4g6NlcVSy3a7zfW_8z642PFYd1_tS_-MN7ueJ3zAoCM65ri
+sprite $ServiceIpGroupsMd [16x16/16z] XSe73i0m20F096pu_tyhLztpqC9s-oEBzQyngxUUcKiON9S_Co2N7op0p9O_h47FPIAhmw-YXpyLXnzO5kklY_PZ0W
 
-sprite $ServiceIpGroupsLg [20x20/16z] fSxL0G8n303GayRQ_VUb6i7XNlxYsnM5feAMWydbG2NDfQeej1ocGNFU6N8YF6Io76s3y0PLgf0Qh43dGIMN8mO1ffaxAm3EM8FTxw3UvqxtzvTk
+sprite $ServiceIpGroupsLg [20x20/16z] fSvL0eCX201WYzBxttUsiDx-ZpVQNL5eAk7aO58vsFpEfQfiU7AOXftJeic9y93fvCWDmivNgK9gi88z3rjIEM8GO9gvM05mnXfSSmjixtDH_Vsb6m
 
-!procedure ServiceIpGroups($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Networking/ServiceIpGroups', $name, $tech)
+!procedure ServiceIpGroups($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Networking/ServiceIpGroups', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceIpGroupsCard($id, $funcName="", $content="")

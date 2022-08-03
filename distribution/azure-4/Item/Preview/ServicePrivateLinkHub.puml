@@ -2,20 +2,20 @@
 
 sprite $ServicePrivateLinkHubXs [10x10/16z] 9SR70SKW00KWxFhSVzvV4aw00zYH0hVXN6BCYGZAUjUwNlrdqjwfZP0W1_y7Nm
 
-sprite $ServicePrivateLinkHubSm [12x12/16z] DOv70iGm2CJaokpm__Tk4XVPW2uK5ZykijoNzHJWB939egOmlRVMeNm-eKLZkMW4RJaqO1pladXzdD6ngWpTaqMnrn4F
+sprite $ServicePrivateLinkHubSm [12x12/16z] DSQ70SGm200nnPN0_lD-IJaRaAlJMsHakzGga8KgLqU5r4VldIEaHT_zTkYsVfcE-JeY_3opWNtTI5ekTvadV04
 
 sprite $ServicePrivateLinkHubMd [16x16/16z] {
-LOu50i0m20E3hJJy_xzZlbuL3suc_aoIyLf1AhAlq_AgSIKL1SXwIxLAa0dT6aF3qzxGn6ARY_fZfnYGKBjjZF0yIsuR5YBYzjgmSuAqRQJZOl2KufnogJPS
-95Cc0ozj9Kvs
+LOy54W0X30CJdF3__ruEcy6xzMAlFjzBalAbB74-apZ6ClKXlstSK5lC3IXUyTTeSfb97ew98HrkZFwjt8oIKviXcy4_EeNBe2jmnbCAMAjgjfBM5q_3Zb53
+Ltu6R4lu
 }
 
 sprite $ServicePrivateLinkHubLg [20x20/16z] {
-NP275OH020N92FJVxt4FnJ367JP-kA203tXafhvKcu2skCQoalkhLK6ZgefXYBPJD5WegzebziiQEYSQfuo8fFHq1WsYFrqtI0YT1DST30BW0iJhq4az5Bgr
-hfdzi3mTkwgQu-dEBHFplnevYGXSU4uNsa0aSrFKJ4VWoE1tWCsOXOxSU7u
+PP3L0G0n24Dfi6lOVzvpR_xoSEHMbxycaludNKYscu2rEw-w6bILNZqFYggGMurLM-5M5Qkmq-31VAzrlDbUt5g-sMfWQ0bxsAIokZI1tamIdjstdWyxMuhQ
+cscwU-JLxrmPgjk1dSVza4l98mKa3sBa_KKbjnKxEtul9NLuzFsU1G
 }
 
-!procedure ServicePrivateLinkHub($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Preview/ServicePrivateLinkHub', $name, $tech)
+!procedure ServicePrivateLinkHub($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Preview/ServicePrivateLinkHub', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServicePrivateLinkHubCard($id, $funcName="", $content="")

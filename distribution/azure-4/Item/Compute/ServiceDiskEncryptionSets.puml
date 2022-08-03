@@ -2,20 +2,20 @@
 
 sprite $ServiceDiskEncryptionSetsXs [10x10/16z] RSd70G0H00NHZPZflr-PatVwuJhwY97OagI4BIL1MWgLEjFlkAjmBIrj1G
 
-sprite $ServiceDiskEncryptionSetsSm [12x12/16z] TOf50W0n30AhIU3_3zxITPiJCkcVweCoOo38W2c3Y01TMONiKCmswAIApMocNCFL56MrbfloHbM-i
+sprite $ServiceDiskEncryptionSetsSm [12x12/16z] VSUt0S0W5CHGClzk_u6Dd2jKFQLDStKf57PeO5aHyiICtGNpM7MR6TJ6m2Kc1oddrF1TnRyE
 
 sprite $ServiceDiskEncryptionSetsMd [16x16/16z] {
-VSU50GH030B1FGNIVy7lBXE5_pQl0ZJ5ahEkkP9K7MTpbegFKe80YMCdlS7agAUEsbuD0skVK4S4E0RPFL8wHzfdgseHODYMh1ZCsPYpuy3WmGNXeJNeoCPx
-6Rjvv
+VSo50KCn409Gei3jFt2f-t_ndE3O_7ZpibcaF6xlibtPQkF2POMBrxWjv-b-xzTTqVO2Ch7s6Iek-NbGwYRT4TmNgsfUubqIALh0naLh3P1pmPCA83vj2Tep
+M-Rm2G
 }
 
 sprite $ServiceDiskEncryptionSetsLg [20x20/16z] {
-ROk74GGm2CES00Qo_y1llZUbeZlX7mboTd0ROv4o6r_8yFg4kuVTN8tpxafcTUVDIHsvFhhx40DlRf3BU-ijRYvvRr57uTJMSMy1osfXXT2OutZ3pX1g5uoY
-gloatiP6m7aZueWDQbdbJNgCKklGVSTuD8NgORlxnc83CBKlRguGUAEfA_6FH5utqonppUy2
+ROq7RWH12C0yXVh_1mT4aglUdMR9WcyOU__-QmxZarrViVQzzwnntkv6kAbvX8s3a-KYQu_Kt_gsQyhPRtkZ66Vws-9POTSdvBU5Onx5SOw2jTFXP2CpjuMx
+txGwWzKpT139Og7bjjl8AwrmQiD_EPg0yCigGAElrJuOvwyk532-OLZ_gAtpU_i1
 }
 
-!procedure ServiceDiskEncryptionSets($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Compute/ServiceDiskEncryptionSets', $name, $tech)
+!procedure ServiceDiskEncryptionSets($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Compute/ServiceDiskEncryptionSets', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceDiskEncryptionSetsCard($id, $funcName="", $content="")

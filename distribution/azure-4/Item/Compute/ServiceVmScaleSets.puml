@@ -2,17 +2,17 @@
 
 sprite $ServiceVmScaleSetsXs [10x10/16z] HSQ53G0W402nmst_VGcyDLR2UOeiLTl-PAcymTxz-HizZS4pUvwJPps83XS
 
-sprite $ServiceVmScaleSetsSm [12x12/16z] JOh50GGn4CCyJFtNUx2GH2-3S38N_MIbdSMxs-pAVKE0_6VHAmFMwHTtZY2EmFLai6RUkSgpwihi7fT_Omfy0G
+sprite $ServiceVmScaleSetsSm [12x12/16z] JOg35GH04CN6xB_UmpfF7u6N7jJAWZUpLHNHo3NvPVxFB2C3K8KDPdP7SXyFXvD4Z2oP5faZevaFVw82y0K
 
-sprite $ServiceVmScaleSetsMd [16x16/16z] NSa55W0X201HfM7lVz-rQyp_I6_VxB3SneotHIA2cQ4xPhpiaAsxn14AnATbDkUg0bBkQZ0hFm0SBfbPSRcdtPtgDUoZubbMIcT8rJy
+sprite $ServiceVmScaleSetsMd [16x16/16z] NSg55S0W301HY2VTVz_YTkX_aDw-sM6vZHblYqG400p7Z9STidMN84A1-BJCvhkgW9IzVM0kDm0SBfbPSTcdtPtgDkopj5DAPq3LFm
 
 sprite $ServiceVmScaleSetsLg [20x20/16z] {
-RSY53O0030NH_dhB_lFY3XUvvD5VaMSuh8SpkLj0-cq2qO-PUtUxcUbXrLU7zP9h7LQx6I27BTbYebfp04xpgwV9qoB20SGS7MMcCslCVnYOysurbvhBBZkx
-ZESiR1dTKrTw1H71_0a
+RSY50GCX341HujBzz-qPpaVpoYdp5bJBNuj6Cw1SZO1uCr7DJ4L4g1RPgvPtob4jFXC0gdQ7jn5pN8sclTbeDZDJ0B2hKdDtHMIxtia0qKUBAsU_dswjRd0b
+9d1LnbYvB04HmVN-0G
 }
 
-!procedure ServiceVmScaleSets($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Compute/ServiceVmScaleSets', $name, $tech)
+!procedure ServiceVmScaleSets($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Compute/ServiceVmScaleSets', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceVmScaleSetsCard($id, $funcName="", $content="")

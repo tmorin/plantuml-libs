@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServicePower')
 
 ' renders the element
-ServicePower('ServicePower', 'Service Power', 'an optional tech label')
+ServicePower('ServicePower', 'Service Power', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServicePower')
 
 ' renders the element
-ServicePower('ServicePower', 'Service Power', 'an optional tech label')
+ServicePower('ServicePower', 'Service Power', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

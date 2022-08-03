@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/ManagementGovernance/ServiceAutomationAccounts')
 
 ' renders the element
-ServiceAutomationAccounts('ServiceAutomationAccounts', 'Service Automation Accounts', 'an optional tech label')
+ServiceAutomationAccounts('ServiceAutomationAccounts', 'Service Automation Accounts', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/ManagementGovernance/ServiceAutomationAccounts')
 
 ' renders the element
-ServiceAutomationAccounts('ServiceAutomationAccounts', 'Service Automation Accounts', 'an optional tech label')
+ServiceAutomationAccounts('ServiceAutomationAccounts', 'Service Automation Accounts', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

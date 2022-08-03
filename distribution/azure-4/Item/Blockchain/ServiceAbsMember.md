@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Blockchain/ServiceAbsMember')
 
 ' renders the element
-ServiceAbsMember('ServiceAbsMember', 'Service Abs Member', 'an optional tech label')
+ServiceAbsMember('ServiceAbsMember', 'Service Abs Member', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Blockchain/ServiceAbsMember')
 
 ' renders the element
-ServiceAbsMember('ServiceAbsMember', 'Service Abs Member', 'an optional tech label')
+ServiceAbsMember('ServiceAbsMember', 'Service Abs Member', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceResourceLinked')
 
 ' renders the element
-ServiceResourceLinked('ServiceResourceLinked', 'Service Resource Linked', 'an optional tech label')
+ServiceResourceLinked('ServiceResourceLinked', 'Service Resource Linked', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceResourceLinked')
 
 ' renders the element
-ServiceResourceLinked('ServiceResourceLinked', 'Service Resource Linked', 'an optional tech label')
+ServiceResourceLinked('ServiceResourceLinked', 'Service Resource Linked', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

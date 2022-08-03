@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Integration/ServiceApiManagementServices')
 
 ' renders the element
-ServiceApiManagementServices('ServiceApiManagementServices', 'Service Api Management Services', 'an optional tech label')
+ServiceApiManagementServices('ServiceApiManagementServices', 'Service Api Management Services', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Integration/ServiceApiManagementServices')
 
 ' renders the element
-ServiceApiManagementServices('ServiceApiManagementServices', 'Service Api Management Services', 'an optional tech label')
+ServiceApiManagementServices('ServiceApiManagementServices', 'Service Api Management Services', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,20 +2,20 @@
 
 sprite $ServiceAzureMediaServiceXs [10x10/16z] 7SQ92G0n00B1pMSEiVzwJp9y0tLuRie3jgIl1UcCCM8ZZzhsiUVSU_jYhzLTTMaaWPEyq1Ry
 
-sprite $ServiceAzureMediaServiceSm [12x12/16z] BSst0S0m30D1vW1v_tbDXQyE5MZ7Jgzljsep8de6S1Z2ERQnyQu1YPPD2y0B8c8s3W9KTJktb-qYWWhhgwrW8k1SfT7awvk4w0S
+sprite $ServiceAzureMediaServiceSm [12x12/16z] BSst0S0m30D1vW1v_tbDXQyE5MZ7Jgzljsep8de6S1Z2ERQnyQu1YPPD2y0B8c8s3W9KTJktb-qYWWhhgz6G23XNQJJvsiTCz0C
 
 sprite $ServiceAzureMediaServiceMd [16x16/16z] {
-9Sv90iGW24HHPjgAzpzlK_XNlCH9Nfxs1XPtWpqUVEiFHTO6Ba2AE9MgJkFzDcKvxd4FcHK0huQP3IF6dGNQ8jPbNEF-VAg4djQJ7E3x1SjXY8xlhH7Z-u0x
-7L9bIYxOI7PMnV4F
+BSx70GCX34HHPPc1_kkrmluJZqoRkkoWipU1bmTtV17DcD0Ru7MovSpQnYuBTrxESYvP0e16GaIAPkNqG5lCnY6zHtLz8cYjuueES7_MUT68okz5gUl_0Qyw
+oyfhmqPVPpIhVm
 }
 
 sprite $ServiceAzureMediaServiceLg [20x20/16z] {
-NSg95GGX20HHL6mKpJ_URM3lcl7w3tcbSyXtVT_iu4rsNxcteWbWUGswQv2YMZNef5uoMkjKJqoPBUjf8wstLqOpcldBkeAs53mw2z4qJ7WPfSmmrfyjG9oD
-gCn0spJJfmqmbKaxTseq4JMHj7keo5GayKPM9f7IgkDx4xB4RCaxNJc69j43
+NT054i0m24JHw49exdzUhFwhUSCOvMhCNZwj7HsuXVQLI4sQ05XoKAGx3MISW-AMqcjj72OdpHgri1hMwXMPaHd9PMt0Z0ViqooN4OO9INC98tJ-6GD5hEwb
+4SoM6OtJEgnHfjcnv_2ca-yXR1-cY4P9t1wb5Q-5vLhMAcUE6PUxnkyrAm
 }
 
-!procedure ServiceAzureMediaService($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Web/ServiceAzureMediaService', $name, $tech)
+!procedure ServiceAzureMediaService($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Web/ServiceAzureMediaService', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceAzureMediaServiceCard($id, $funcName="", $content="")

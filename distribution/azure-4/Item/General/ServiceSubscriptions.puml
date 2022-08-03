@@ -2,14 +2,14 @@
 
 sprite $ServiceSubscriptionsXs [10x10/16z] Om019WOeO052C61cPc9cWJ1OM5YPmOgOGO01neJg038mM2m85jWC
 
-sprite $ServiceSubscriptionsSm [12x12/16z] JSY53S0m40D0K_SVkPJ4-XCOyA5mo78haJNePTrEuk3J-xDg1ofZNBD7xGa-3m
+sprite $ServiceSubscriptionsSm [12x12/16z] HSZ50S0W50FGMFSVkGRalqi47mg7BBS2MODUrkqa3ZwzFwjse6ArN_Rqp9_Wym
 
-sprite $ServiceSubscriptionsMd [16x16/16z] bSgx2GG1009HqRd-Ixxz2gOxsHFrP6lZR9X8P1Wdf7mZDRypmcFNLeUhayrbA_Um3byDsYWF
+sprite $ServiceSubscriptionsMd [16x16/16z] VSg72S1G009HqSl-8wSBgV-eJzIHhMkiNPX8vC988UKPgPdM28TTMnssLZQNhRmUhWxnmnaRT8ro0G
 
-sprite $ServiceSubscriptionsLg [20x20/16z] ZOy54e103CJQPk__JyPPN89UfXehL9n8IPoSD3w7ACRCOoG3MR2Bn3XIW0PQWpMm5YS1OMbotzVAbDLPMjbvuQyu_iH9rpWDdE9oT74Dz7yF
+sprite $ServiceSubscriptionsLg [20x20/16z] ZOk55GGW3CNQvhF_oEU7M_2yO7y8wv74e3whXlVFjkI51rGb6L4vlKW9r3a9SXTaBEEZogNP8Aq3Y8d39-wcayPEBtpYhATIJm
 
-!procedure ServiceSubscriptions($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceSubscriptions', $name, $tech)
+!procedure ServiceSubscriptions($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceSubscriptions', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceSubscriptionsCard($id, $funcName="", $content="")

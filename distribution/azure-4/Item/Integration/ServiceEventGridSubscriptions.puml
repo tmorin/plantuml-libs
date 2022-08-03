@@ -2,14 +2,14 @@
 
 sprite $ServiceEventGridSubscriptionsXs [10x10/16z] Oq00DXXWO8E9G4WMX1fE2CNCo01bG6bM68tGYp0F
 
-sprite $ServiceEventGridSubscriptionsSm [12x12/16z] LSor0G012C30uB3_mEzwLQhmbQz_itEuAjIv19apLuee5qMLMqISVsx_lxvM
+sprite $ServiceEventGridSubscriptionsSm [12x12/16z] JSl50G1124FHFmxz5xoAlHEIKEt47kwPCJOj9k3ZLBMHrZ6zpAorictJJXGt
 
-sprite $ServiceEventGridSubscriptionsMd [16x16/16z] PSw53S0m30H0uqlPV-1oOpf1m4WTLuIAO1GytYBl--Lk9U_k2uqdp6ojU197kfghbdAHUvENtHSMaJTrxbFCTtC2
+sprite $ServiceEventGridSubscriptionsMd [16x16/16z] XSu73i0W30D0rt8YyVy7TxTiSbgGZOZNu4Hc_VzX9Y4pdCJyTKafvI-sN4uQAQ50pFJtY9bxTt_Z
 
-sprite $ServiceEventGridSubscriptionsLg [20x20/16z] ZSy54iDG24NHYxpVwVuNN6y2yJEEmrLZRIT64qCbPlcBbRcPHcK2ZnuJRt6_rIfNH6I92O_VYX-NXgHCfme7d2u_-95eNBdtspgsnZgKiFO4
+sprite $ServiceEventGridSubscriptionsLg [20x20/16z] ZT254KCn30DGoTJh_WD_fd3UOS28ML5gt271yEyTxxjRX1cHS82QN-tu_tslH4ZgVlTUAMX9e8Uxcmc-T3yAKcAxDn0fj_PiwTtahWmLAm
 
-!procedure ServiceEventGridSubscriptions($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Integration/ServiceEventGridSubscriptions', $name, $tech)
+!procedure ServiceEventGridSubscriptions($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Integration/ServiceEventGridSubscriptions', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceEventGridSubscriptionsCard($id, $funcName="", $content="")

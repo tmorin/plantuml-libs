@@ -4,12 +4,12 @@ sprite $ServiceMobileEngagementXs [10x10/16z] Os1WOGC11Y1WOmG120ieXCPY1qd2M5pSK1
 
 sprite $ServiceMobileEngagementSm [12x12/16z] XSQ70G0W20F197RttrSf0_0A782PmUloqcrQB4mltSdRxqfFrPQNtdlB1lW
 
-sprite $ServiceMobileEngagementMd [16x16/16z] bOe50aH1248LcBx_UJT-Txm99SoCSSGwjDNqdabt3MwqphK30RxGVof7hR_o5jAe5R7JUA512CAeO-Z9Wyu_hFlClW
+sprite $ServiceMobileEngagementMd [16x16/16z] bSS50eH034FHIf9TuFxdnTtv8-spDarPd--TFZGRQikTSMsFOFZANMLEHYUl-9iCnS7nmP61zamMX_wZ_stMliuD
 
 sprite $ServiceMobileEngagementLg [20x20/16z] dSr15W0G201HKFLq__C205PcvwDKok5CjSe103QpkhSQb7R3qf_bhTiyUkmbLy7BOUYTYAR5mDw6y6sccLaDh2DBF8sTwV6msMweXqK
 
-!procedure ServiceMobileEngagement($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceMobileEngagement', $name, $tech)
+!procedure ServiceMobileEngagement($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceMobileEngagement', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceMobileEngagementCard($id, $funcName="", $content="")

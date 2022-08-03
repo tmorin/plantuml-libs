@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Analytics/ServiceLogAnalyticsWorkspaces')
 
 ' renders the element
-ServiceLogAnalyticsWorkspaces('ServiceLogAnalyticsWorkspaces', 'Service Log Analytics Workspaces', 'an optional tech label')
+ServiceLogAnalyticsWorkspaces('ServiceLogAnalyticsWorkspaces', 'Service Log Analytics Workspaces', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Analytics/ServiceLogAnalyticsWorkspaces')
 
 ' renders the element
-ServiceLogAnalyticsWorkspaces('ServiceLogAnalyticsWorkspaces', 'Service Log Analytics Workspaces', 'an optional tech label')
+ServiceLogAnalyticsWorkspaces('ServiceLogAnalyticsWorkspaces', 'Service Log Analytics Workspaces', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

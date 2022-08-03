@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/ManagementGovernance/ServiceAlerts')
 
 ' renders the element
-ServiceAlerts('ServiceAlerts', 'Service Alerts', 'an optional tech label')
+ServiceAlerts('ServiceAlerts', 'Service Alerts', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/ManagementGovernance/ServiceAlerts')
 
 ' renders the element
-ServiceAlerts('ServiceAlerts', 'Service Alerts', 'an optional tech label')
+ServiceAlerts('ServiceAlerts', 'Service Alerts', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

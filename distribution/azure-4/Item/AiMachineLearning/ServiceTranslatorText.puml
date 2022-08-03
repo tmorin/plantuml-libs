@@ -11,8 +11,8 @@ ZOr50WGW30DJeId___1YNRUvPA1cyH-SWCyqXwcGf-EWRAlcpg81i2bXzUac5g6hQkTF2DITLSbCIuoG
 tm2AEEvjXOm0pn-zCSVREyVV8IEc2rn6_ii5
 }
 
-!procedure ServiceTranslatorText($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/AiMachineLearning/ServiceTranslatorText', $name, $tech)
+!procedure ServiceTranslatorText($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/AiMachineLearning/ServiceTranslatorText', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceTranslatorTextCard($id, $funcName="", $content="")

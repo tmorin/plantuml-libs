@@ -2,17 +2,17 @@
 
 sprite $ServiceNatXs [10x10/16z] DSQ70G0W20F1jmJtdrYbGtBuJ6gatI0fbrEXpsKQnaBsR_xuZnE7S-kGatW
 
-sprite $ServiceNatSm [12x12/16z] HSQ70S0W24JHgxZ_nkdnA_1m9_ortaJz4wnldk4SdxHki_7O6bJ58DNfaOT0ne9wyYmBxHBk4YxYhGyF
+sprite $ServiceNatSm [12x12/16z] HSQr0G113C0m1vpRV-9dK2KkoKVhBzPNmhghg0LMNW-xfYe7KuOsZq_M03sLf1C0lT1r5RhZBNXt1m
 
-sprite $ServiceNatMd [16x16/16z] LOi50WD02CE2jBV_VtZQsIa9XQpcRqdpZn7VRaGmxoUytn658oG8WtOycfx5ZKPc3Uqxgod3NRZxpZrs4L44d-AS4kSq4C7s5q779-68I_06
+sprite $ServiceNatMd [16x16/16z] LSW50WCn50BH-GBf_IzSfSPAyeQi-Piq__mB3oI4-OVI8YKeJf0W1kruD3sB6utC6jftgod3FRZxxXwxI2Z2PpYdnFq79B3zPARZCDCbl04
 
 sprite $ServiceNatLg [20x20/16z] {
-POi7TiL02CI0APlxdpWFbqdvihVfYGfJ7qZuL18_5596LI5br2KHjVGUANKnpucekAkK6qrwocHFqu3TGiywR3jsqTCrMYTsxzmEcpENcx5T2oyvfO7jMNML
-cgfK5pm7K9rpfe8EBrSNAT5EbJBL3_fAzGq
+PSi74W8n34DHDydS_yJ4Xb4eWcrlVamB-nkG_mJK7wLAaLcg52scQEQlHrq2ulrCaMnBqDEh6COg3ozcaexq6CjfWxHJk0N6KEvpRWwp8jREurIpMWn3v24V
+sX9XTgijkpDXtUsceMljofRfLANoLXSVgfu
 }
 
-!procedure ServiceNat($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Networking/ServiceNat', $name, $tech)
+!procedure ServiceNat($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Networking/ServiceNat', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceNatCard($id, $funcName="", $content="")

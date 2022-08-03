@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/AiMachineLearning/ServiceCognitiveServices')
 
 ' renders the element
-ServiceCognitiveServices('ServiceCognitiveServices', 'Service Cognitive Services', 'an optional tech label')
+ServiceCognitiveServices('ServiceCognitiveServices', 'Service Cognitive Services', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/AiMachineLearning/ServiceCognitiveServices')
 
 ' renders the element
-ServiceCognitiveServices('ServiceCognitiveServices', 'Service Cognitive Services', 'an optional tech label')
+ServiceCognitiveServices('ServiceCognitiveServices', 'Service Cognitive Services', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

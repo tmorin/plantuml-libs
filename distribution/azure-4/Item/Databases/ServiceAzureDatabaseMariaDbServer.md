@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Databases/ServiceAzureDatabaseMariaDbServer')
 
 ' renders the element
-ServiceAzureDatabaseMariaDbServer('ServiceAzureDatabaseMariaDbServer', 'Service Azure Database Maria Db Server', 'an optional tech label')
+ServiceAzureDatabaseMariaDbServer('ServiceAzureDatabaseMariaDbServer', 'Service Azure Database Maria Db Server', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Databases/ServiceAzureDatabaseMariaDbServer')
 
 ' renders the element
-ServiceAzureDatabaseMariaDbServer('ServiceAzureDatabaseMariaDbServer', 'Service Azure Database Maria Db Server', 'an optional tech label')
+ServiceAzureDatabaseMariaDbServer('ServiceAzureDatabaseMariaDbServer', 'Service Azure Database Maria Db Server', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Databases/ServiceSsisLiftAndShiftIr')
 
 ' renders the element
-ServiceSsisLiftAndShiftIr('ServiceSsisLiftAndShiftIr', 'Service Ssis Lift And Shift Ir', 'an optional tech label')
+ServiceSsisLiftAndShiftIr('ServiceSsisLiftAndShiftIr', 'Service Ssis Lift And Shift Ir', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Databases/ServiceSsisLiftAndShiftIr')
 
 ' renders the element
-ServiceSsisLiftAndShiftIr('ServiceSsisLiftAndShiftIr', 'Service Ssis Lift And Shift Ir', 'an optional tech label')
+ServiceSsisLiftAndShiftIr('ServiceSsisLiftAndShiftIr', 'Service Ssis Lift And Shift Ir', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,17 +2,17 @@
 
 sprite $ServiceAzureDatabaseMariaDbServerXs [10x10/16z] JKg30S1038ov_xpbApp1KIXluOSo4r_KzLPF91C1_kWvdvkqSnFbXnXk
 
-sprite $ServiceAzureDatabaseMariaDbServerSm [12x12/16z] NSY54K0X0CFGfZZiF-zt9MVlebycRWLs4rAf9TcRHpOGQjiz-j5hfSVM_P5ykX1DkF_HRBM3HLe1
+sprite $ServiceAzureDatabaseMariaDbServerSm [12x12/16z] NSY54K0X0CFGfZZiF-zt9MVled_4hS31a4ejoTuyie5Gs-xHZruhFRRkZ-JJXMZ2_OzcgnqiqWe
 
-sprite $ServiceAzureDatabaseMariaDbServerMd [16x16/16z] TO_50K0n24En6jr_tYzrVIUS10uW4ZCJramAd2g4PCE75wG_vsWPVyJ7d4Sjp3dZb0jCVGyuvF85fkKXoT2IAvAgG_Lw-JVdqFDG7FcKsT_E2m
+sprite $ServiceAzureDatabaseMariaDbServerMd [16x16/16z] TOu50a0n249LMB7xd_TtnrlQs0Vk0I1yDxa1N-t8RQBIOx5xXi-mzjNkshZRy9jDkyMh-SNczAR3ReieRROyfEAg-fdtQpTRgOkLRM84
 
 sprite $ServiceAzureDatabaseMariaDbServerLg [20x20/16z] {
-XSu53aHH24FH5da2-z_lV1Zt6sjEhFYMa5AHSXErQoGwqioyCbDgspnmxMgGzBR8OUp4LrujuzQxhVbcRdorNVl9YlXiiuwjHvke67UB1G9Akzk6n14-_VjZ
-wyaKtNwmfavzpZM72weJ
+XSwr0G11449HM1lhlzvprv_n8l0QcSR8NN9PMvKSHXqh9Iyc0wgDDP9fCezME9MgnchXMtTJkLajl9e1ljjAF9ja07eqmHXzDrSGo2ox6P8FuUdVZ-d9Y2ax
+MCOQguXAoyHO3m
 }
 
-!procedure ServiceAzureDatabaseMariaDbServer($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Databases/ServiceAzureDatabaseMariaDbServer', $name, $tech)
+!procedure ServiceAzureDatabaseMariaDbServer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Databases/ServiceAzureDatabaseMariaDbServer', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceAzureDatabaseMariaDbServerCard($id, $funcName="", $content="")

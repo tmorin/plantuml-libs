@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceModule')
 
 ' renders the element
-ServiceModule('ServiceModule', 'Service Module', 'an optional tech label')
+ServiceModule('ServiceModule', 'Service Module', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceModule')
 
 ' renders the element
-ServiceModule('ServiceModule', 'Service Module', 'an optional tech label')
+ServiceModule('ServiceModule', 'Service Module', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

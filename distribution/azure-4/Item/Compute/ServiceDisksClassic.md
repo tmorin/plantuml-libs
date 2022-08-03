@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Compute/ServiceDisksClassic')
 
 ' renders the element
-ServiceDisksClassic('ServiceDisksClassic', 'Service Disks Classic', 'an optional tech label')
+ServiceDisksClassic('ServiceDisksClassic', 'Service Disks Classic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Compute/ServiceDisksClassic')
 
 ' renders the element
-ServiceDisksClassic('ServiceDisksClassic', 'Service Disks Classic', 'an optional tech label')
+ServiceDisksClassic('ServiceDisksClassic', 'Service Disks Classic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

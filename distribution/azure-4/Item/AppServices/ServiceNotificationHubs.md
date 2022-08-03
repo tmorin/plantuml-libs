@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/AppServices/ServiceNotificationHubs')
 
 ' renders the element
-ServiceNotificationHubs('ServiceNotificationHubs', 'Service Notification Hubs', 'an optional tech label')
+ServiceNotificationHubs('ServiceNotificationHubs', 'Service Notification Hubs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/AppServices/ServiceNotificationHubs')
 
 ' renders the element
-ServiceNotificationHubs('ServiceNotificationHubs', 'Service Notification Hubs', 'an optional tech label')
+ServiceNotificationHubs('ServiceNotificationHubs', 'Service Notification Hubs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

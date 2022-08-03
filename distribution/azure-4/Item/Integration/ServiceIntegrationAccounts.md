@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Integration/ServiceIntegrationAccounts')
 
 ' renders the element
-ServiceIntegrationAccounts('ServiceIntegrationAccounts', 'Service Integration Accounts', 'an optional tech label')
+ServiceIntegrationAccounts('ServiceIntegrationAccounts', 'Service Integration Accounts', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Integration/ServiceIntegrationAccounts')
 
 ' renders the element
-ServiceIntegrationAccounts('ServiceIntegrationAccounts', 'Service Integration Accounts', 'an optional tech label')
+ServiceIntegrationAccounts('ServiceIntegrationAccounts', 'Service Integration Accounts', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

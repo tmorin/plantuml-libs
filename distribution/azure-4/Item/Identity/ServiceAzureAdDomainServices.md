@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Identity/ServiceAzureAdDomainServices')
 
 ' renders the element
-ServiceAzureAdDomainServices('ServiceAzureAdDomainServices', 'Service Azure Ad Domain Services', 'an optional tech label')
+ServiceAzureAdDomainServices('ServiceAzureAdDomainServices', 'Service Azure Ad Domain Services', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Identity/ServiceAzureAdDomainServices')
 
 ' renders the element
-ServiceAzureAdDomainServices('ServiceAzureAdDomainServices', 'Service Azure Ad Domain Services', 'an optional tech label')
+ServiceAzureAdDomainServices('ServiceAzureAdDomainServices', 'Service Azure Ad Domain Services', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

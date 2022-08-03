@@ -2,17 +2,17 @@
 
 sprite $ServiceAzureDatabaseMySqlServerXs [10x10/16z] LOg35G0m4CLIQ_zvQrqUFlbGTg2cIocfuKeU5EdGe5O7S5QGlpITeG4
 
-sprite $ServiceAzureDatabaseMySqlServerSm [12x12/16z] POl50S1040A1ivN-wurxveNYXLWN2bVDqeQD9YqwkqWMyrLdR6owHunJO_q5Tmq1ZTTUqk_xqF1D3c06
+sprite $ServiceAzureDatabaseMySqlServerSm [12x12/16z] POl50S1040A1ivN-wurxveNY3Uj2uIPB6pQQjEZi8bdCLvsniUaUCKwDzHVSDGGqNdj9l-z3mpSvW1a
 
-sprite $ServiceAzureDatabaseMySqlServerMd [16x16/16z] ZOtL0KCn30DrSZZxprlcFhe_MwG5m15XdbTw4BUFSUaNMiBNEsO9hgGsx_SS3rPkwZ0VjpGabShpDkNpfZF8DfzzIENGdjvtrmtQxIf8EWC
+sprite $ServiceAzureDatabaseMySqlServerMd [16x16/16z] TOs50G0X30DxASx-yxwx75fBx0EGkuiz31lE6YlLYHBG4lVap8JIrxYtZP-OtCGbDclJap9xBD8rfjA84bSzpDAVtrzSRQKiKRA94G
 
 sprite $ServiceAzureDatabaseMySqlServerLg [20x20/16z] {
-bSv70eH020J0xY7Z__-xQzQvMJSoECq6ELRak3AY9n8RyX_OIbKeMCK_cRLoaePLBwxS3Clbp2rz-Pm3ku4fXnY0eiaxDmYPSmqurkZEHMTbf1avtLsZ-lXV
-ldA2JJroWfDOH8RRmEe7
+bSx50GDG20FG18U__xnrzxuZ6hn5oXvvhQYTdQkacVcUcPvgILhrNf0KxCqAuu5uhNDjpSNVDN06UAWX1J0CUQq9eO-r0G8Eu5hBgQuiT_BXhmFeF_FLNOqu
+w9kQueoUMHbAx6q1
 }
 
-!procedure ServiceAzureDatabaseMySqlServer($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Databases/ServiceAzureDatabaseMySqlServer', $name, $tech)
+!procedure ServiceAzureDatabaseMySqlServer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Databases/ServiceAzureDatabaseMySqlServer', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceAzureDatabaseMySqlServerCard($id, $funcName="", $content="")

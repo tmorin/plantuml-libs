@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Intune/ServiceDeviceSecurityGoogle')
 
 ' renders the element
-ServiceDeviceSecurityGoogle('ServiceDeviceSecurityGoogle', 'Service Device Security Google', 'an optional tech label')
+ServiceDeviceSecurityGoogle('ServiceDeviceSecurityGoogle', 'Service Device Security Google', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Intune/ServiceDeviceSecurityGoogle')
 
 ' renders the element
-ServiceDeviceSecurityGoogle('ServiceDeviceSecurityGoogle', 'Service Device Security Google', 'an optional tech label')
+ServiceDeviceSecurityGoogle('ServiceDeviceSecurityGoogle', 'Service Device Security Google', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

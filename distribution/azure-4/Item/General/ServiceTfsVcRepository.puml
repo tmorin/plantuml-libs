@@ -2,17 +2,17 @@
 
 sprite $ServiceTfsVcRepositoryXs [10x10/16z] HOg30G0m30IlnlxxbZ5UU9MIYg0GmeVfe7ejwf76d0THwq1gdXPqKnVy1EY53G
 
-sprite $ServiceTfsVcRepositorySm [12x12/16z] JOs55S0m24HZwFu35t_z4PnRVpOOvRjzj_njL07TntEUTU8pbmn4QqQKrPYdUtnxSC8dsrWQDmnc5s8rVm
+sprite $ServiceTfsVcRepositorySm [12x12/16z] LOq50e0W3021zVx_OC_MWtMD7mQtYwXS_eIhu1DGYqvNt01tcjrhtE3rwoEs3Z_cSUJm3-FZm2yxDW
 
-sprite $ServiceTfsVcRepositoryMd [16x16/16z] POw50S0W40C3_0NPVz-wzoeGGVGZiP0kcSbIS6boMe1BfvLyQU_Q-qvPZbMxZZ4ge6HoyTPQ1YJPIwe7FTJ6Moz6pa-j2d7eodPFs6M1icrxvDZeYQsB6G
+sprite $ServiceTfsVcRepositoryMd [16x16/16z] PSxL0KH124FH80cxzD_lSv_xTqR1a77ffjE1v6MwBP6NRSqlQxUsFJgKgrNTNTl3eeUsRPCMGrfsyUYVg7uRltuRHURX8W2_fWuojcUFVKh4CmbNCm
 
 sprite $ServiceTfsVcRepositoryLg [20x20/16z] {
-RSo50O0m3031EBB_m7nmUxHNaVyyoHu4E1mtYlHjiTwNwLhcpNopk5aTLiVfM6sMjOQvMCL6qqm35Y8iYE2HJbbgV8qlg-GPeFEiRsjyM-COeGy3aquRXfwt
-knt_LVKoSfEZ8daNON9h0G
+RSo50O0m44FHqCkbil_01DUFzbNmNqbN7cI8oEHZLS15JlTbqrhcpM8ptao7wJZTfirIQxP04JVgmrKRWPH8FrYJzm5UwVh0imN6-9hnOyP6lWtfS5JhtHx_
+aZw6A3YImpiIzsO
 }
 
-!procedure ServiceTfsVcRepository($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceTfsVcRepository', $name, $tech)
+!procedure ServiceTfsVcRepository($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceTfsVcRepository', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceTfsVcRepositoryCard($id, $funcName="", $content="")

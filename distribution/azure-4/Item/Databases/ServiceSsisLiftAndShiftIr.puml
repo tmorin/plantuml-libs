@@ -4,15 +4,15 @@ sprite $ServiceSsisLiftAndShiftIrXs [10x10/16z] VSQr0G0n40Cm-p6u_xZ7TLG9XWXyt6Mx
 
 sprite $ServiceSsisLiftAndShiftIrSm [12x12/16z] XOgr0G11408NE9V-o_tp-2T2nYQ07I2t45PcoZadSkPQF45VwigrRFvpRxM_BC3IoLqElfzSJMR5TFmKkmq
 
-sprite $ServiceSsisLiftAndShiftIrMd [16x16/16z] fOnL0W1124AndV3-nzsk_tsJAe038ZmGwu7GMvezZIIso4mNihqU8uo9MBsFi-ut_-ggwf-w1F1wwXaAqyvtNN2GMpnpSuSrGR_z07Y_zCwVSojN
+sprite $ServiceSsisLiftAndShiftIrMd [16x16/16z] fOpL0G0n34AXqTh-uvxR_xrg4W0791vOz43ubcPF8raiCjE5jjUzXnMogBT-rktcNptdR9zw2k3pgKSeJ1llUi91jtZcvWwhWdRx0PJzqZj_ZArS0G
 
 sprite $ServiceSsisLiftAndShiftIrLg [20x20/16z] {
-jSxNOKKn20DG19WIpFxZljlR0D7daLpe201wHS0YeYh2Tm7HEtmWWzNS8zo6diDW09kQ0CZ3gcm80wmZgoxxk_F_LhFRlrOTnDqVQzusELysaupCgF5Ocnh1
-fELbiQtktOcqnPe8jytjaJYQ4VTdkclr1G
+jOw70OCm30JLK8ci_TTD0DS1Sk1sUXTuGKJOGM9c4MQQ1MIPq2i9ITJCtVII7dH2nDig_oRnkaozxgD8hiWSxZFvlyjMPQVBSg2gmnNTcMYRQm4Agb2RAnK5
+L2xSdD-fcUiIRlGUfclt9VvMsETZgX81lW
 }
 
-!procedure ServiceSsisLiftAndShiftIr($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Databases/ServiceSsisLiftAndShiftIr', $name, $tech)
+!procedure ServiceSsisLiftAndShiftIr($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Databases/ServiceSsisLiftAndShiftIr', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceSsisLiftAndShiftIrCard($id, $funcName="", $content="")

@@ -2,17 +2,17 @@
 
 sprite $ServiceStorSimpleDataManagersXs [10x10/16z] NOk34G0m0CHIQ_zvQ-Vqv4Otkb8X14GLAJRIK2m532KaVDbv-AuK1G
 
-sprite $ServiceStorSimpleDataManagersSm [12x12/16z] NSn50GH1302m39D_lOVB-PJh9eJyaVoaqdehCMBLWDZ7Dr_pPy-TUM3F3T7Ubzttdt-CNrfv0m
+sprite $ServiceStorSimpleDataManagersSm [12x12/16z] NSn50GH1302m39D_lOVB-PJhBkIFv2ULrbk94Qi6n3wmrlpPSsSUs7D3jFTbz_td7-ENLju
 
-sprite $ServiceStorSimpleDataManagersMd [16x16/16z] RSt50GGn3C106SBzrtkm6D9l0ZQxHCrCv09-POSLYULNTlHmYyU5U6wdMxtgd0ThedXd0dGMX49yNCWIj7yFIETI6VTr-tcTEP9qA0hm1G
+sprite $ServiceStorSimpleDataManagersMd [16x16/16z] RSt50S0W44JH6MIr_thZ7lw9Xor6iTHQoPFjg1wc-98rb8qfsm6RvUwCeuVjvQBmzZ0wy311EEIomzZBy_uI7_R0UzxMpuOztIJhSWO
 
 sprite $ServiceStorSimpleDataManagersLg [20x20/16z] {
-XSx50SGm30NH-PBP_VUx6-PaRducyPGXcPb0grXO4al_HHmAmJ66CdYfGmaK6QezkO01Ib-ijxLFAvpDNRZAmH8HE9nBCYFZUnCc4fpl9gCTJ0pbWzMMQFLz
-vd8mPyRDd2MFEPUSeZ7q0m
+XP250KGX3CNoMlJOVzxxxXOyU7b6CZEnmyB2flj170Z1PvF1Inr886EWjkHYGB6qnRNVogShd9sxS9M3IqJWi2x9Z8pldJ2HuBmt6SSxn40-kDglxAlNDvU3
+4xFSdBEWc7F9ItWw
 }
 
-!procedure ServiceStorSimpleDataManagers($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Storage/ServiceStorSimpleDataManagers', $name, $tech)
+!procedure ServiceStorSimpleDataManagers($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Storage/ServiceStorSimpleDataManagers', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceStorSimpleDataManagersCard($id, $funcName="", $content="")

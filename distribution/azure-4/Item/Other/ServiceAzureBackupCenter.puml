@@ -2,17 +2,17 @@
 
 sprite $ServiceAzureBackupCenterXs [10x10/16z] LSQ54G0n30CmvQwO_GT-XYfWMxNMxj9tTdlSjIXZHmPbpYds8efTTKi5nSy6
 
-sprite $ServiceAzureBackupCenterSm [12x12/16z] POp50S0m30CLCkq_S8slNi0euSScsfqkSYhbv4LwcQgA73WI0APHgmD5t7F30Y8dRSF4oyclAPsJEr6X-G
+sprite $ServiceAzureBackupCenterSm [12x12/16z] POnL0W0W24DdA_U_BysNpo0tVFIz6vAjH7QSPMaxEohD9p2k0T2p-Ybui3kcBUFUuRPcecNbazuUmtV29n
 
-sprite $ServiceAzureBackupCenterMd [16x16/16z] TSg5WOGm503H-PxGVy57xDOVn8TVF9q7oO73iePJH6t6eFKlPkstjeopp-cSy-epweDn5NG1zOWHTj9a5Gf8asWeWp7VHPXataQF2hcfxsih7sVZcpy
+sprite $ServiceAzureBackupCenterMd [16x16/16z] TSg50GCm20J0no7x3znu_QB0unzrVIrzU2bZE0cBZJ35PQCKxN8PjSxhrDvgXceGj02A05PJ0L1mePKO5oLPWd4R1I9CDBjM5aOTAnO97JL-UW
 
 sprite $ServiceAzureBackupCenterLg [20x20/16z] {
-XSn70aGn209GD93Y_UyxHJEz_BTK0Fzve-DLlnAUgIVYplhOxYUEkuPYuvbLh4kwtthU6XtEFhUirWRtQG1OiNB2kPA1eSOG0EEOCzV2O43K1f4Mf85Paytt
-ZUgugLSOQDYySWg2t2UYQ4K4KpFS2OVE
+XSz7eiDG24FH2uXNsFz-4tVxrvmvIEA3SBvfg-GfsqPShFK39_LBSEXFRBnbPZyrLY77rSO1m8ALngu3iwO1kEO6eZ9K2PZw6DktCWng_o4saypEYEVYYR9n
+2bPbo3YuiyeI4XiNEvjLfKrmIpvw0m
 }
 
-!procedure ServiceAzureBackupCenter($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Other/ServiceAzureBackupCenter', $name, $tech)
+!procedure ServiceAzureBackupCenter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Other/ServiceAzureBackupCenter', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceAzureBackupCenterCard($id, $funcName="", $content="")

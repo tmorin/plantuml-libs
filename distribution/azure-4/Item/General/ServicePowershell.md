@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServicePowershell')
 
 ' renders the element
-ServicePowershell('ServicePowershell', 'Service Powershell', 'an optional tech label')
+ServicePowershell('ServicePowershell', 'Service Powershell', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServicePowershell')
 
 ' renders the element
-ServicePowershell('ServicePowershell', 'Service Powershell', 'an optional tech label')
+ServicePowershell('ServicePowershell', 'Service Powershell', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

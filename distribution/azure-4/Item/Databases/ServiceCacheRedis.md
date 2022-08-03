@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Databases/ServiceCacheRedis')
 
 ' renders the element
-ServiceCacheRedis('ServiceCacheRedis', 'Service Cache Redis', 'an optional tech label')
+ServiceCacheRedis('ServiceCacheRedis', 'Service Cache Redis', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Databases/ServiceCacheRedis')
 
 ' renders the element
-ServiceCacheRedis('ServiceCacheRedis', 'Service Cache Redis', 'an optional tech label')
+ServiceCacheRedis('ServiceCacheRedis', 'Service Cache Redis', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

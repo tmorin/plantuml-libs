@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Other/ServiceResourceMover')
 
 ' renders the element
-ServiceResourceMover('ServiceResourceMover', 'Service Resource Mover', 'an optional tech label')
+ServiceResourceMover('ServiceResourceMover', 'Service Resource Mover', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Other/ServiceResourceMover')
 
 ' renders the element
-ServiceResourceMover('ServiceResourceMover', 'Service Resource Mover', 'an optional tech label')
+ServiceResourceMover('ServiceResourceMover', 'Service Resource Mover', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

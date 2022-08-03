@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/IoT/ServiceDeviceProvisioningServices')
 
 ' renders the element
-ServiceDeviceProvisioningServices('ServiceDeviceProvisioningServices', 'Service Device Provisioning Services', 'an optional tech label')
+ServiceDeviceProvisioningServices('ServiceDeviceProvisioningServices', 'Service Device Provisioning Services', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/IoT/ServiceDeviceProvisioningServices')
 
 ' renders the element
-ServiceDeviceProvisioningServices('ServiceDeviceProvisioningServices', 'Service Device Provisioning Services', 'an optional tech label')
+ServiceDeviceProvisioningServices('ServiceDeviceProvisioningServices', 'Service Device Provisioning Services', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

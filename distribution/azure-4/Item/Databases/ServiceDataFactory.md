@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Databases/ServiceDataFactory')
 
 ' renders the element
-ServiceDataFactory('ServiceDataFactory', 'Service Data Factory', 'an optional tech label')
+ServiceDataFactory('ServiceDataFactory', 'Service Data Factory', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Databases/ServiceDataFactory')
 
 ' renders the element
-ServiceDataFactory('ServiceDataFactory', 'Service Data Factory', 'an optional tech label')
+ServiceDataFactory('ServiceDataFactory', 'Service Data Factory', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

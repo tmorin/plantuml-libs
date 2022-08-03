@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceCostAlerts')
 
 ' renders the element
-ServiceCostAlerts('ServiceCostAlerts', 'Service Cost Alerts', 'an optional tech label')
+ServiceCostAlerts('ServiceCostAlerts', 'Service Cost Alerts', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceCostAlerts')
 
 ' renders the element
-ServiceCostAlerts('ServiceCostAlerts', 'Service Cost Alerts', 'an optional tech label')
+ServiceCostAlerts('ServiceCostAlerts', 'Service Cost Alerts', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,20 +2,20 @@
 
 sprite $ServiceDnsZonesXs [10x10/16z] JSP10e0W0091AWNs_mzMlJMdqHyct9YsH08dAQZlYB_HY3SUdy_wdduw0pikIA6zEKXoiW4
 
-sprite $ServiceDnsZonesSm [12x12/16z] LOt70SDG34A5ot-m_y8HjrYzmdpb2H2rZ5tZtgd1Dh3Zj00dGxZEaMXjypv2zixVdS-bvE_U8rm1bwgZDKqbSJhz0G
+sprite $ServiceDnsZonesSm [12x12/16z] LOg50SHG34B9jmVx3tnIRnJJkqQ0R33sV-W_rM0R-CdP04v4Q6jLySSsSnHb__JvqzKgUUGjuN_13shyfR-wLRB3Bm
 
 sprite $ServiceDnsZonesMd [16x16/16z] {
-ROv10eGW4CC6XKdx_mylLVMqkILLeFuXM_PyR1eIyArPD-mKj-5oI4ZdGh96vdDnqinJOdkBiyxjabsAZveD8vwzkxhWl5tYHcBLmfzRkH-XaBnz-B7dmGbj
-WwY7NEIky0C
+ROzLWWKm38HI2pFtl_3MzZb_a6hyGhRiVgqRLi17rtI2jOCDss65rTb8rXwtGIFfJM9wYXPjkcI7bfVe2MNvccT61hJZ4WU94GF_-pu_ZD06Y1Mk6SV6IXl4
+wmUTiVW3
 }
 
 sprite $ServiceDnsZonesLg [20x20/16z] {
-TSz7TeL044DHTK1FOl_xTU3tCIFVOUNIlnPtVrnwjNOR-8lEcwO_Q18zRhVaqO9-bC0d1ZHJsctZy4XA9MWIEB6qKtSwlJUorxLtogMsCopFuRMlfFZ4jkU-
-5Xu9dDZqz5YmKrjDfoOiUsrzvfac7FdHeT4qji7skKyEEGXFI0hlltJhaP0sTUZIiLgCQQNNki1xwF4D
+TS-5SS1044DH7UbBxh_WE9umlE7brRy6Lsz7drgx3Nn4nqNJ6qsYn-MMF5fu6WdmX81ctfrju_18IYLeyXRYQH-wqkczaRtEtYb7RMTOdiDhdwJuBROzzrbu
+9F0McvuU2tPgg-dKXEMxLtUCATE4DxbLKjFO1jjlzyaXRmXKhyBdltJhaP0sTUZIczLYJAilnW6_jUa5
 }
 
-!procedure ServiceDnsZones($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Networking/ServiceDnsZones', $name, $tech)
+!procedure ServiceDnsZones($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Networking/ServiceDnsZones', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceDnsZonesCard($id, $funcName="", $content="")

@@ -2,20 +2,20 @@
 
 sprite $ServiceMonitorXs [10x10/16z] 5SR90O0m40GWSi_QVxzgU040GW_CiMqXmvrYJcGVy61elOC8e0W8L6QA3m
 
-sprite $ServiceMonitorSm [12x12/16z] LSQ5OGKm24NH0n58zz-tt-tfzQlPUzG9w8njMPEPzhw7Zec8xLXp4hgo3UGVb9tfeTO-7EkDpFt00AUh2nS
+sprite $ServiceMonitorSm [12x12/16z] LSQ5OGCm40J14Jme_VSRCnskN-tELGVq72d4Pa-Pzz1ZOunqnDuCNRCjp3yeEIUWjG-B3zhvHfokBbm
 
 sprite $ServiceMonitorMd [16x16/16z] {
-RSl9bSH020JHW49KvlZlRslZwJHn-opyrxOarsXfSTUEbsGttH6-BUZ7HVhYogAJh6XsOAhcNnL2buFOfTsDBz_vBm4UPmOaOryUm6hgu2C271-F1aB9K7Er
-4oWrKspR1tSd
+RSz9TW0X20JGBz88kVzzC_fw5NP0ZVwRCzqzURVT6zJSLLIfMckWgTyznT0xKeN8LGuZy_8xLskPophPfyfeC1y1ltl48jnzHDo5NVBnhXgptlKfw73N1le4
+iektuCm3lW
 }
 
 sprite $ServiceMonitorLg [20x20/16z] {
-TSY7OIKm20JH4OXb-VttUsVZd9uYmv-oPpmkFem547wlCGMHvE7OhBcaL4W2zwQ2Ucq1JaYJIUdv1287khWtMKSgd0pdtijAMtHX8lE0B9UgpcqCw_5eLZR3
-YOZziahuiEsTBzNVszdpETK0Cf_4JjYVKxBwxKEz_uYnwyeUFebIgmxhFm
+TSZNOLq13CDGg5Dl_tqJ-pRtyqM2FzdiQbNmM3M0wwcs1Hw4OHA7JQAxw6xG7AcWhkQW01CHL0VLJXCBKsG61-ikP2oMcHn2QgOG7c7GQbLNMGxYz7eDXnWM
+S_TZdggHSRI7afhl3P3nETK2BJxnyqcVKt2OUr3FmbUgR6dvnAgddTD_
 }
 
-!procedure ServiceMonitor($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/ManagementGovernance/ServiceMonitor', $name, $tech)
+!procedure ServiceMonitor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/ManagementGovernance/ServiceMonitor', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceMonitorCard($id, $funcName="", $content="")

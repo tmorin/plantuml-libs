@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Compute/ServiceContainerServicesDeprecated')
 
 ' renders the element
-ServiceContainerServicesDeprecated('ServiceContainerServicesDeprecated', 'Service Container Services Deprecated', 'an optional tech label')
+ServiceContainerServicesDeprecated('ServiceContainerServicesDeprecated', 'Service Container Services Deprecated', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Compute/ServiceContainerServicesDeprecated')
 
 ' renders the element
-ServiceContainerServicesDeprecated('ServiceContainerServicesDeprecated', 'Service Container Services Deprecated', 'an optional tech label')
+ServiceContainerServicesDeprecated('ServiceContainerServicesDeprecated', 'Service Container Services Deprecated', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

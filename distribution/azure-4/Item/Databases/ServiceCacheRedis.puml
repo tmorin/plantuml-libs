@@ -4,12 +4,12 @@ sprite $ServiceCacheRedisXs [10x10/16z] Oy06cDZO62445nSNDunWOc5XOGUpk3bPkBY1B4uW
 
 sprite $ServiceCacheRedisSm [12x12/16z] TOg30G0130DhxZ_lsxYw2Vp18e9RRrFhlLVLfSy6slPEoNd0BAwLCB6QLwvxrMguCW8
 
-sprite $ServiceCacheRedisMd [16x16/16z] XO-30K11243pXVtd_JRVCHVyGKX4kByegigulUMgbhM_EN9-dPbOTdcA5ThaIXVFEiYvtbF1HLQ6YIqtVCfv68A549xe0G
+sprite $ServiceCacheRedisMd [16x16/16z] XOk50GH130A9y4Bwh_VSTLOY05unTxUrMf8CMshzo8zghUeur5-4Hwxpa4rVvj8lVwhDhFa7u3dDuHYPPk1n5bOY7PUq
 
-sprite $ServiceCacheRedisLg [20x20/16z] fS-34KGn543HP_PVxvhVEACxSU0CPBbXmjyYkn6Kd-eoLVFEltgOgdIA_p5YkKF_6MCILHMqdx6-xPMexh-nX-TO0EPWpE3fCmOFfyVO7tynsEKA
+sprite $ServiceCacheRedisLg [20x20/16z] fSw33KG154JHP_PVxvhVED7aHWDd8CiDqzyYkn6KdzLbgkQTV-jXQgL3_3TYkKF_QKoYgeBsqxhI9QhxhpqyMm3ae1ayVHeyd6wFivK6krm1
 
-!procedure ServiceCacheRedis($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Databases/ServiceCacheRedis', $name, $tech)
+!procedure ServiceCacheRedis($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Databases/ServiceCacheRedis', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceCacheRedisCard($id, $funcName="", $content="")

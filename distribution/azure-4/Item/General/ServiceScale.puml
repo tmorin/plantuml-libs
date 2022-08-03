@@ -2,17 +2,17 @@
 
 sprite $ServiceScaleXs [10x10/16z] HSp50G0m2C30uFjlN2-fS2_eFDCXC_6PR9d310LJLSocT4AsEBzUEMuxoRjlZW4
 
-sprite $ServiceScaleSm [12x12/16z] JOs50G1H2485ZFqtFhn-Fso9FwrGXrztyCdP1oN1RauqiTbnw-MFtSL-3uDso_uw-VJ4vPDv4V1vmAFRxZa
+sprite $ServiceScaleSm [12x12/16z] ROs55S10349_0e_RV-EwDwx0NI8Kw2JNRAbRKf5ua6QPZgBnKe-vNAIFAMW91QRt-wKMj3U1FzuOJG
 
-sprite $ServiceScaleMd [16x16/16z] NSc54KCn30JH5TdzTnnHwEyDlJcUsGvE9Z-MTg0LO6t1BPDYNE7WGhyt48MntMIsV_AmbPigdvyaRW4ofYqGltPG_9CfEFO9I-zCJ2MjEq4oNW
+sprite $ServiceScaleMd [16x16/16z] NSa95eCW50F0OR__ZVkRhfeeC2_k6LBiIlCfugK_WnOpHwKfhjDiawndqH6tKqJsS9F4OV_jTeO5yVUn_ZrpVHFnow1_g-a_jtBr0G
 
 sprite $ServiceScaleLg [20x20/16z] {
-RP055e0W40L_2VU_iPJjqFEeNVn1Gb0V0Ba3E2eeYj4e7TnPad2O0PTg3bJSQTEjcQqIjiBh8D2STBXIQoKcozN6Civmrwvhd-OkyRulOrUYSkvR9CFuwTYi
-z7MaSWS27FW6LV3BbRysd7y1mSUm0m
+XP050i0m20DJai7_VxmQSxdwrS4VnWP0mMiIKV46BWn7GProMYSsgbkgMG8WeTF6wipIUKGW6IvsHK7xgjCw6yhASPtrLH8yroKQyxmuLMTtLz6HUGSF53YU
+sECt6hsiMm4
 }
 
-!procedure ServiceScale($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceScale', $name, $tech)
+!procedure ServiceScale($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceScale', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceScaleCard($id, $funcName="", $content="")

@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/IoT/ServiceIoTHub')
 
 ' renders the element
-ServiceIoTHub('ServiceIoTHub', 'Service Io T Hub', 'an optional tech label')
+ServiceIoTHub('ServiceIoTHub', 'Service Io T Hub', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/IoT/ServiceIoTHub')
 
 ' renders the element
-ServiceIoTHub('ServiceIoTHub', 'Service Io T Hub', 'an optional tech label')
+ServiceIoTHub('ServiceIoTHub', 'Service Io T Hub', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

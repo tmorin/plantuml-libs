@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Storage/ServiceDataBoxEdge')
 
 ' renders the element
-ServiceDataBoxEdge('ServiceDataBoxEdge', 'Service Data Box Edge', 'an optional tech label')
+ServiceDataBoxEdge('ServiceDataBoxEdge', 'Service Data Box Edge', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Storage/ServiceDataBoxEdge')
 
 ' renders the element
-ServiceDataBoxEdge('ServiceDataBoxEdge', 'Service Data Box Edge', 'an optional tech label')
+ServiceDataBoxEdge('ServiceDataBoxEdge', 'Service Data Box Edge', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

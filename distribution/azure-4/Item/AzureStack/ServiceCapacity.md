@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/AzureStack/ServiceCapacity')
 
 ' renders the element
-ServiceCapacity('ServiceCapacity', 'Service Capacity', 'an optional tech label')
+ServiceCapacity('ServiceCapacity', 'Service Capacity', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/AzureStack/ServiceCapacity')
 
 ' renders the element
-ServiceCapacity('ServiceCapacity', 'Service Capacity', 'an optional tech label')
+ServiceCapacity('ServiceCapacity', 'Service Capacity', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

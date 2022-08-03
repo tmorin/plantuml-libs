@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceFolderBlank')
 
 ' renders the element
-ServiceFolderBlank('ServiceFolderBlank', 'Service Folder Blank', 'an optional tech label')
+ServiceFolderBlank('ServiceFolderBlank', 'Service Folder Blank', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceFolderBlank')
 
 ' renders the element
-ServiceFolderBlank('ServiceFolderBlank', 'Service Folder Blank', 'an optional tech label')
+ServiceFolderBlank('ServiceFolderBlank', 'Service Folder Blank', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

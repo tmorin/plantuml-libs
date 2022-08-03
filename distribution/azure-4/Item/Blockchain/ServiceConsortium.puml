@@ -2,20 +2,20 @@
 
 sprite $ServiceConsortiumXs [10x10/16z] JSYr0S0m40J1VOR--pKeqYG7t2GYE2nz-MdEbXZgxWnczZz0HKjEucGq2EQEy8l_kDeB
 
-sprite $ServiceConsortiumSm [12x12/16z] NKk50GLH2E8KCFRVztVU2oLnEY7fZIqrNxXwvu4Ffhohp2D85W8tpB1cxXrtXpq5mjKDcFTStfBtGsNVq0lhWt73ztK5
+sprite $ServiceConsortiumSm [12x12/16z] NKk50GGn38e3tN_Vr_DAWjhZH7VlUBeP6mQN_hYoPwtEjAWgMDW7LqnBtywGCIDOsO3yAFdDPUBVxkGN_N4Vs3xukzu
 
 sprite $ServiceConsortiumMd [16x16/16z] {
-RSzL0iGm24LH7CB-5poFZDNkLq_Zz9Yu-u7cAFxsSEy-kA9xVI0c4N2wAcFjnD76Eec39PYd0TRCNRsTaJNEbKACyOJ9uPX5ZgzPo8uZ9YNxNrUpz7JzEfYt
--VIYfDqB
+RSr70WGW24DHK1AG-nzumlJsLpoh_Mq1U6D0yMKGw7vpiVlSuM6adF0jncJiy3qjY6LgKwn5ylJLoQnndjGhsa_P87CkGLFv_7P_r2ti7h1lUq-ZVcnl1V8s
+N
 }
 
 sprite $ServiceConsortiumLg [20x20/16z] {
-ZSo74GGW24HH47P1-o_uZ9VJd-Gy0VcI0QuFefZPmnG7HJuQwQqzMbHsYjkn8kImeAfDyHwCtQ0sqk8hiIhYqxmGxgZh4kdccOLahMrR47aikkcm6AR36Ydc
-9kIm_k-igRugG9YCL0GsAEVx1C2OtNRRa7-OJ2loc0Eokm
+ZT250GGX34JHw2JGVy4NxDp--bk7lgJkzYZiCtsu2eCY7msmtXyj6ehYzZ0XO5Y0QJtIAcUKEUk8n5QahKvFCu7NPMqz2J2rJ07GMjyMy3mMns8O3-i0gIa1
+m-gyeIMTDxa7qwZMheDoxf_6023tlztCym-ZQKAFYJljBW
 }
 
-!procedure ServiceConsortium($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Blockchain/ServiceConsortium', $name, $tech)
+!procedure ServiceConsortium($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Blockchain/ServiceConsortium', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceConsortiumCard($id, $funcName="", $content="")

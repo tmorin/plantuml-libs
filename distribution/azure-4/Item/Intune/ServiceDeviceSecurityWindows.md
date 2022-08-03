@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Intune/ServiceDeviceSecurityWindows')
 
 ' renders the element
-ServiceDeviceSecurityWindows('ServiceDeviceSecurityWindows', 'Service Device Security Windows', 'an optional tech label')
+ServiceDeviceSecurityWindows('ServiceDeviceSecurityWindows', 'Service Device Security Windows', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Intune/ServiceDeviceSecurityWindows')
 
 ' renders the element
-ServiceDeviceSecurityWindows('ServiceDeviceSecurityWindows', 'Service Device Security Windows', 'an optional tech label')
+ServiceDeviceSecurityWindows('ServiceDeviceSecurityWindows', 'Service Device Security Windows', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

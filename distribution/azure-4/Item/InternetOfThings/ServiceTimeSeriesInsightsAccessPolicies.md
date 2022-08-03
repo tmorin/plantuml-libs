@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/InternetOfThings/ServiceTimeSeriesInsightsAccessPolicies')
 
 ' renders the element
-ServiceTimeSeriesInsightsAccessPolicies('ServiceTimeSeriesInsightsAccessPolicies', 'Service Time Series Insights Access Policies', 'an optional tech label')
+ServiceTimeSeriesInsightsAccessPolicies('ServiceTimeSeriesInsightsAccessPolicies', 'Service Time Series Insights Access Policies', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/InternetOfThings/ServiceTimeSeriesInsightsAccessPolicies')
 
 ' renders the element
-ServiceTimeSeriesInsightsAccessPolicies('ServiceTimeSeriesInsightsAccessPolicies', 'Service Time Series Insights Access Policies', 'an optional tech label')
+ServiceTimeSeriesInsightsAccessPolicies('ServiceTimeSeriesInsightsAccessPolicies', 'Service Time Series Insights Access Policies', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

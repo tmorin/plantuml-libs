@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Preview/ServiceIoTEdge')
 
 ' renders the element
-ServiceIoTEdge('ServiceIoTEdge', 'Service Io T Edge', 'an optional tech label')
+ServiceIoTEdge('ServiceIoTEdge', 'Service Io T Edge', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Preview/ServiceIoTEdge')
 
 ' renders the element
-ServiceIoTEdge('ServiceIoTEdge', 'Service Io T Edge', 'an optional tech label')
+ServiceIoTEdge('ServiceIoTEdge', 'Service Io T Edge', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

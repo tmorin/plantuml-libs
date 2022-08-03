@@ -2,14 +2,14 @@
 
 sprite $ServiceExtensionsXs [10x10/16z] LSP50G0n40ImEIpu5znbo2lehatm4X0QYEqZTV2zl9_ecCpW
 
-sprite $ServiceExtensionsSm [12x12/16z] PSR50S0m302nSnlUV-0uJ7g9XwG2Kr3eASQjKz9VVETPD_TD8UrT-KG6
+sprite $ServiceExtensionsSm [12x12/16z] PSR50G0X00InFK7xBnW6bxoYonEX7qA-0FwYtM0xnl_nf_w7wXi-A04
 
-sprite $ServiceExtensionsMd [16x16/16z] XSU34G0m00Imhx7_lhMPOt11R0QQGKVXF4DYmWco-qNsVp2Ti-DbriwpzYf_i9t20m
+sprite $ServiceExtensionsMd [16x16/16z] XSU34G0m00Imhx7_lhMPOt11R0QQGKVXF4DYmf4zBhB_W-cS7I-pTfxLD_c3xHGU
 
-sprite $ServiceExtensionsLg [20x20/16z] fSY54SCm00ImD_kw_xvDOcRKiJ14Vevgd0RtG0oPdSND8J4-uR2hCyfZh3xEY-F9IISzxj1uKJZE4lvIvcW9U
+sprite $ServiceExtensionsLg [20x20/16z] fSZ50G11202nMGVwx_VSNV8CbvmDoi49SKGl7fphZeNhIuFmwphR2s5_CMukBYuFbXS7VhxPrMq1VWjg
 
-!procedure ServiceExtensions($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceExtensions', $name, $tech)
+!procedure ServiceExtensions($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceExtensions', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceExtensionsCard($id, $funcName="", $content="")

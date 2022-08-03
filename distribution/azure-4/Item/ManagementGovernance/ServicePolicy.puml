@@ -2,20 +2,17 @@
 
 sprite $ServicePolicyXs [10x10/16z] JKg50G0m26A5_l-miJOf_5N8FW5h7lJegK-CCIQF5GbhQgfRczKPcqa-3ZW
 
-sprite $ServicePolicySm [12x12/16z] NOe74eLG308tF8BU_yA_C4vpqmEyc4Gysy9cW8JY10CIHmFkovQwvxe2Z-U-yN-QScQ5VBflzZyCNOhJyGK
+sprite $ServicePolicySm [12x12/16z] NOg50GCn30FF82NxBzm-ar74fyAE0reWRyYNIU-m4bPSTdV6XZs6uSZCIJUS-GWbsR5Z2wY63MpLtjuV
 
-sprite $ServicePolicyMd [16x16/16z] {
-RSl70GLH24BHgoBp-c_uXydfx1JWLTbnN6bdsop25a1RKL1k5gbse6ALaSrogxjIWkLE_v1HNcvDFy2-7sDCA0cMcnR7VXN8GMZzeFxVK5A0x61LAZlX8B7u
-0W
-}
+sprite $ServicePolicyMd [16x16/16z] RSpN0KH124BHYo8p_JUyEUyxVmRWK2TyI3J9Uog0YMZe30-Q21SF9GrOW6U43VTPkQ2eFEPryQYqWBttmeMuptJnp3Sl3c3hCSa1a0qeuQdTYVXWStS6
 
 sprite $ServicePolicyLg [20x20/16z] {
-VO-7WGCm20FFIEYz_yAVIdfohdJW1ufVD2id_AZfT44dDQhxFsbYgCSOsmdKKnPuq9Mra0MCpdtaHPSJGgnxxDy90txHiLIuHiVUkv3Dv1lAXNLwnJ3va4VB
-wgva9fh1zP37GZFuWpRX5OdX
+VOy70iCW30CbMr7v_uiRDfsNoO4N_f3Mcw4hB_RorTwEPTQ_JLW0pnXIDX0wymA72oMGzONfTDsyELUgu8vzLEgVtXoGX68wb582ASryYr0WHXEJcQy6S8t9
+k5r5qXoSc51Av1fyPQ-9tiaTzWG
 }
 
-!procedure ServicePolicy($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/ManagementGovernance/ServicePolicy', $name, $tech)
+!procedure ServicePolicy($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/ManagementGovernance/ServicePolicy', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServicePolicyCard($id, $funcName="", $content="")

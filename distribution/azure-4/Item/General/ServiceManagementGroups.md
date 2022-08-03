@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceManagementGroups')
 
 ' renders the element
-ServiceManagementGroups('ServiceManagementGroups', 'Service Management Groups', 'an optional tech label')
+ServiceManagementGroups('ServiceManagementGroups', 'Service Management Groups', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceManagementGroups')
 
 ' renders the element
-ServiceManagementGroups('ServiceManagementGroups', 'Service Management Groups', 'an optional tech label')
+ServiceManagementGroups('ServiceManagementGroups', 'Service Management Groups', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

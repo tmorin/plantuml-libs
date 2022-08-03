@@ -2,17 +2,17 @@
 
 sprite $ServiceServerFarmXs [10x10/16z] RSY35S0m50NGu1lxZrkxkGSFvGQhjZQ2pDmQhaOVmDw05riZTcOeH2IhxLCrrp83
 
-sprite $ServiceServerFarmSm [12x12/16z] JSm53W0W20LGfZJp_iUrwwt83pzSParKkbrxHCYfEzerVZSJOjurIeUhPj4GIS3Cg5CUDQjwc0Aapgpd6ZG
+sprite $ServiceServerFarmSm [12x12/16z] JSo53S1020LGqiD9zn_tN7Wnz4E6owo9_cxN7X5owevsZUbcGYoxHkbmrImQ8XymC-fKW3jL3rEOp7gkGGC
 
-sprite $ServiceServerFarmMd [16x16/16z] NSm74aCX20PXC_bnASdzZ_jwTQT-2hGndPssMBFBF_tNJXjPIzZfizF7_ELaPTddy95CtziIq7MvGpZei80AM8xq9JFVGulNt3DpUMY78oehmjjHH5PbH9i1
+sprite $ServiceServerFarmMd [16x16/16z] NSe53W8130NH4jhzKhZ_STTzeY-PU9T7XqjBTVgN_wN31VSSwl3HuVq_RIpiqtjP-RsS2M38qmCW0hax0RI0-iGmLyKjvEmbqZR9s2srMsBiIUws51C
 
 sprite $ServiceServerFarmLg [20x20/16z] {
-RSq50iCW341H99xr_jSTJYQ__egaVy4j_x5opUNfMJ1YQDAwXcZcFSPhjs1kJq-34QtrFiUzUe9b8vu046gq9jIQkWbv1i7QftkxOTq6j8qX9ng1d59PHi7I
-DbKrSskFkqVxy8RJLYpI1jgO-mO
+RSq5aiKm283X2ixc_jTTel1c-jU_Hgwl8Bi_x4bpQJqhHWnjb8PevZt6jAoOM-jfCQArtk-ulvxWin5F00XljH2A4EuqG9v1iVXqZnk-su26hO4q0ZbTpp8g
+TcrJLJEtUEGUyU61mtOi4WDjpFq7
 }
 
-!procedure ServiceServerFarm($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceServerFarm', $name, $tech)
+!procedure ServiceServerFarm($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceServerFarm', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceServerFarmCard($id, $funcName="", $content="")

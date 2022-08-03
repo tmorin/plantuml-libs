@@ -2,20 +2,20 @@
 
 sprite $ServiceAzureCosmosDbXs [10x10/16z] RKl50K1H2EALmlu36wUVjWJ-OqgQs7sGh0M8RiNikfTP7uqUzorqSBEFiTkBUoG
 
-sprite $ServiceAzureCosmosDbSm [12x12/16z] LSp90S803CH0-S3hxRzWRaYYrxp4fJgnAzRJtG5rizTA2iAx4j0Whnge940pRz85abe12Uoq3VIhVHC2ylqk_YKF
+sprite $ServiceAzureCosmosDbSm [12x12/16z] LKi50WH12D8vJkJ_7zxfi2NiYTzrmYqLGDrM_bAAtWNA9Ek66PN4zZ6YdgKozIU9flBQ6P2wem1PpnNUl6vNV
 
 sprite $ServiceAzureCosmosDbMd [16x16/16z] {
-PKy70iH015mCm_y_V5nwelUoFY1FLm7T4_etp9PMGy8KClNUJbP5fp4TxJLCyT_lB4dvjuvq9kCOzIy9HeoB4Vel2TB1Vte2914rblt74iZAlwa6XsUDA_y1
-efR_QyIUdodqzTpw0G
+XOm90aGX24BxHABtl_24i--lLGN6NyZdUiw1sYGdUBYpTf5LiGjhZqe3ZrplgIGhCNqlfGANg9Q48bpI5reIqg9wx8OaHhN75qLcPNyniBYoN3Ou1hBY9hu3
+ZbTE
 }
 
 sprite $ServiceAzureCosmosDbLg [20x20/16z] {
-RP250O1G24IbOV-5XRFZJDwdbt_n3zElbwgsfvWPouXtFouecTf7aC_6pgnqRhCPl18QOsU38iB6a4LbTslaHqsyMR8H0ycE-Y_SVKC4tsO4QAPQEDbYB5gD
-wkXuM8QfLz4rBMV7PPNlXKIqWMK1mP5c2L8ZGjDlaQZIXtxza6y5
+RO_50KGX30NZqd_3-x0r_fp84ALdvC7PdMLco6Ht9LPmygGd9OoSrSz7NDKLZ52dX9dWVTnGcUaZq3MIuQ1YPfr-eWKbK-bMU6L4V1JDxQPqD-lvisey0LIV
+ZOUhT0kexO0KwgexzY3S0-4mK0isCz4Up1owK3E-9TqWwmK
 }
 
-!procedure ServiceAzureCosmosDb($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Databases/ServiceAzureCosmosDb', $name, $tech)
+!procedure ServiceAzureCosmosDb($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Databases/ServiceAzureCosmosDb', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceAzureCosmosDbCard($id, $funcName="", $content="")

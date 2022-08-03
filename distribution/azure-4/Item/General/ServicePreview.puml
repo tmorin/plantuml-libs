@@ -2,14 +2,14 @@
 
 sprite $ServicePreviewXs [10x10/16z] Oq02h11098iDncA3iTZ0B90IA0jiAXi3
 
-sprite $ServicePreviewSm [12x12/16z] Oq01pAmGm4WTDXkSpSO6PpF2sIn04ifc0biFr0i
+sprite $ServicePreviewSm [12x12/16z] Oq01pAmGG2Ks6vpDnWPdCy3PB40IoePO3zGB
 
-sprite $ServicePreviewMd [16x16/16z] Oy04h730FB1yDbG-6vGFuo7pMHXH-4n02edF2AQPONoOHvc0V
+sprite $ServicePreviewMd [16x16/16z] Oy04h730FB1yDbG-6vGFuo7pMHXG-4n02eaFyHSpZ0_tAP0F
 
-sprite $ServicePreviewLg [20x20/16z] rOo53G0n54Bvkl_6ftMwG5-CODWZCNAWb-mbUybUafUvUYxalMBn12_UF0r7fVKKdVVa1W
+sprite $ServicePreviewLg [20x20/16z] Oy01M97141HZmnHZmnHZmnHZGuZ1HT35c1Wmn40qcXY4mOGanW8FNhWO4tAO0p4
 
-!procedure ServicePreview($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/General/ServicePreview', $name, $tech)
+!procedure ServicePreview($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServicePreview', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServicePreviewCard($id, $funcName="", $content="")

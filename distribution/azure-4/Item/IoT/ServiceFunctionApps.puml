@@ -2,17 +2,17 @@
 
 sprite $ServiceFunctionAppsXs [10x10/16z] LOY70S10209FWUJtNpYzAft_INhIOGER7dl0GCzJu-sAe0RtiQkY8y1jJrW1
 
-sprite $ServiceFunctionAppsSm [12x12/16z] POh50S1G58Duckw_SDq_fmWCHCGh-n4c8eFUOrWcT6-HBOBKXUN6xWQmnJJm8Ek8u1ImHqX65W
+sprite $ServiceFunctionAppsSm [12x12/16z] POh50S1G58Duckw_SDq_fmWCHCGhsn4c8eFUev49tMlqFOBK1Rcnkm7xau07MKS4fxX9HXO
 
-sprite $ServiceFunctionAppsMd [16x16/16z] TOa55WL1281GsRZ_XNVgTp0XFFb33Tuxt_EvFGcLt6-vKnf3PXw4ratdSr4zzXFYbf0d9GELvMNCl1canFPCI1JWbf3oXlob0G
+sprite $ServiceFunctionAppsMd [16x16/16z] TSa54i0m449H4eZS_yJDIhtzOxm1Ft7rSFsx9o09fISxA1KRpc4tSoR5bQ5FcAtbCa712jgcd79QLK2pAKGL4cwz-Di6
 
 sprite $ServiceFunctionAppsLg [20x20/16z] {
-XOi54i0m3828LFx_uKfkhcmrZl2916Tb4qxeNJ6LiY4LpDqLpvkgo506EgwBaiW0lEQbWaNDiaGrrOBECbS5yGK1KiNS41qCPO2vBbkCQnnCr0qa51RZooKb
-Mwe5nK8XmavoheXnm_cZ0m
+XSlL0KCn34DH6Ulz5mwfz5X_ERd6xMHkPpQt9JqIzbI3t5tX-QLXWqQcLHzY1apC3s4HyVKZRfLP-cS280hcmYCIt-OAfhnWCN-4P2Jc4VQjM486xHT-83bM
+S3oj0m
 }
 
-!procedure ServiceFunctionApps($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/IoT/ServiceFunctionApps', $name, $tech)
+!procedure ServiceFunctionApps($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/IoT/ServiceFunctionApps', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceFunctionAppsCard($id, $funcName="", $content="")

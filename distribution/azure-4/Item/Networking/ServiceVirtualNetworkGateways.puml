@@ -2,17 +2,17 @@
 
 sprite $ServiceVirtualNetworkGatewaysXs [10x10/16z] NOZ50G0m2CI2tluJr_WrM3WENWnrY36mbyRTlmttpI0ohtb5nhDiycKj8IKR
 
-sprite $ServiceVirtualNetworkGatewaysSm [12x12/16z] RSc53S1G549HdW3xJrptVc8d5wmhuXpNdLoVt5rRs9r3rx5UIrTXuMRsxGJLYBtBS6zTzc8lrmm
+sprite $ServiceVirtualNetworkGatewaysSm [12x12/16z] RSc53S1G549HdW3xJrptVc8d5wmhuXpNdLoVs5rRs9r3rx5UIrTXuMRsxGJLYBtBS6zTzc8lrmm
 
-sprite $ServiceVirtualNetworkGatewaysMd [16x16/16z] ZSW54W0n24DH987xttZJgOxlhpvi1eRTmD5Xai0p8FFSAiZxg9mV_sdaqp0r2HE0QJ9Jnh4JaOXfCZGhXFcqghO6C5tL3QkkxLRHIlu
+sprite $ServiceVirtualNetworkGatewaysMd [16x16/16z] ZSZ70GD020D10HBqtx49ZZ_lnG4NvUZUcjuCYVmQIBPtl3stIJ_6dsPyMgidZXPvbYBQVDj43_fPSb19XvsxB1J9SsOLaPKlL-TpjHy
 
 sprite $ServiceVirtualNetworkGatewaysLg [20x20/16z] {
-bSxL0SCm40FG0ntiFt4LDdnLYUaPvOuXNAPOd1bLJvcH8wWu6nqCzt8VJhDd_MF-TF6_OJVu65nseegTXFV57CafW-4q30Rp04M7lQOMaHog3diZKmhCPrb5
-gtmjinYJOFqQ-zqTVIHfFm
+bSvL0iGW40FGaMJW_YVUR1NvQbhieNObmBGvF98R7JWIj5tDQ335XuLnpmyBy-xYks4tv1YSTg1R78JdnHhP8OFXC0o6I4BYmzxm84j3zs4lgwnXtCjgJTRg
+iQgcX57rO-httjd_ATaF
 }
 
-!procedure ServiceVirtualNetworkGateways($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Networking/ServiceVirtualNetworkGateways', $name, $tech)
+!procedure ServiceVirtualNetworkGateways($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Networking/ServiceVirtualNetworkGateways', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceVirtualNetworkGatewaysCard($id, $funcName="", $content="")

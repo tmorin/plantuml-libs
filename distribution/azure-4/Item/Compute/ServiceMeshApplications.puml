@@ -2,17 +2,17 @@
 
 sprite $ServiceMeshApplicationsXs [10x10/16z] LKk50G0m2CBa_ulNQKlWYmXP5vCBsasC36IY7Nt9mgxkzuBZg
 
-sprite $ServiceMeshApplicationsSm [12x12/16z] POp50S103CDq9Ey_SPcRJynyRun-OVLIWT4VM40X28uD4oYA0Gar_PM7BgNQVlkGBSiC
+sprite $ServiceMeshApplicationsSm [12x12/16z] PSp50S1G20FGLmlxJrptpuMu_qtJUECajuhDkN6GK48c6rPi84KKDNpoZ46wPf_QiYm
 
-sprite $ServiceMeshApplicationsMd [16x16/16z] ROw50G0n309f6uxzDtxtZtlGFzc-fmsuvp75RRXcosoFlA-MRJUZHnhqeabWIHdC5j1sUUJuaZ2dA98IpzQOxQTlzsyG2zI4XmuoCExuazpIu_9C4m
+sprite $ServiceMeshApplicationsMd [16x16/16z] ROw55G0X34EBz6V_YKznbpnYTXxkFc5WX78o0pcy5CyD_oU5d4ncaVX9uFrL_DyKvoWhME8bcrwMNgxZ_9cf-iUfOkOp-reK1X2dmfBDk8Xl
 
 sprite $ServiceMeshApplicationsLg [20x20/16z] {
-VP250KGn34A90FjFVF9T--eI0mE292xmH-2CVlJbobJvU4bgMiK-EZki4nAL02ZEFeCoa4xGG5W49150Ul8v7_LZykK44DDHDYTVELtQRY3A1Iu-suM9qkmh
-HDKWFpIL2BHOs2bBSjnrIPpn3rpHhjGN
+VP054iHG24EXaEJ-DrwQzShFo1jSOg44SFHXb0SVHtrm2IprNo5Ded-R_T6zGBk6JanG0utB93pG1NAkJI_XGdrs2afmhx1JsZVAKWPUFLiLLhtcvZ0N-qM3
+smx-lQ54KXT_sGu-ZU8eVZ_r
 }
 
-!procedure ServiceMeshApplications($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Compute/ServiceMeshApplications', $name, $tech)
+!procedure ServiceMeshApplications($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Compute/ServiceMeshApplications', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceMeshApplicationsCard($id, $funcName="", $content="")

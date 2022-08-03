@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceCostAnalysis')
 
 ' renders the element
-ServiceCostAnalysis('ServiceCostAnalysis', 'Service Cost Analysis', 'an optional tech label')
+ServiceCostAnalysis('ServiceCostAnalysis', 'Service Cost Analysis', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceCostAnalysis')
 
 ' renders the element
-ServiceCostAnalysis('ServiceCostAnalysis', 'Service Cost Analysis', 'an optional tech label')
+ServiceCostAnalysis('ServiceCostAnalysis', 'Service Cost Analysis', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

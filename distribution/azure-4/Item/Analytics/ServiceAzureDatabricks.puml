@@ -2,20 +2,17 @@
 
 sprite $ServiceAzureDatabricksXs [10x10/16z] LKa30G1039pHF_2Rmn6-oRQJ-_WMdN7eR2lPkRTA8_24Q0jeFHVk4Om9b8OL
 
-sprite $ServiceAzureDatabricksSm [12x12/16z] NKt50S102ClXxBzmiLU3Q_17K5pcN4wbdU90jR0PkrVwkYghd1sSLRovT889QeUwOs23rtPfkQNWQipwGEkYy04
+sprite $ServiceAzureDatabricksSm [12x12/16z] NOc50S1030BlOwJx3rptYmByQMiEP436jfA7CnxIzlRXY7RXqs78AQCSwOWBBxI_VInW7E59QW0i
 
-sprite $ServiceAzureDatabricksMd [16x16/16z] {
-RSg50SDG24NHYpwo_y8jgSlvWlBVJF7I0fkuLp76ol6p2XvitrlTOn_xbePcizqpV418e2DW4b0-4e4CVFpwKb1AO-yO-pjbq0tLDh5RB1Na6UvssEAD7yRf
-0W
-}
+sprite $ServiceAzureDatabricksMd [16x16/16z] ROw50O1024MFnlqNzjdvwMRyepjkKHQgTO-iDwijQ3do1svnhftISinHAdAE2A98ZIhqP4mwNUM7ayWsZZXk54s-Fx3c7PlqHOwsytG5RPi1-uzPumQTTcS6
 
 sprite $ServiceAzureDatabricksLg [20x20/16z] {
-VL050i9G2FqqtF_2KhQkD-BLkJeqvACYWLc5bmhF39ZXLY3qqNNRvkiA7ihQ1xR7eF6JtJ1h2CdQZFlEcdYHQOAIvppNGnZ26aSVlABLJ1uO2M1h8NdMXmql
-g1TYD1eDnyAieTAITD8FC8M3jZuvAAk3zX9LugosLviEIV9nq3Em6m
+VP050i0m20D3DVp_mslAt3BjuU1FpVEDL4-36WwbrQVt7NdRVzblHicW15vn5lt85ceTOgQgMtM3cB677Od3lx0CLk2YzBRNjIQFUhJGrn5GvXmYz2X66wzf
+OeuQHnfN7eTWZOnz4BscYfhEaGsxAass-Jv4cXVSPCV25W
 }
 
-!procedure ServiceAzureDatabricks($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Analytics/ServiceAzureDatabricks', $name, $tech)
+!procedure ServiceAzureDatabricks($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Analytics/ServiceAzureDatabricks', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceAzureDatabricksCard($id, $funcName="", $content="")

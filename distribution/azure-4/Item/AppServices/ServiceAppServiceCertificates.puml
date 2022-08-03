@@ -2,14 +2,14 @@
 
 sprite $ServiceAppServiceCertificatesXs [10x10/16z] Ou03LaOOO8MBeR7OWO21bOM52yvYWSfoiR6pWW43DpTC2pSZb04
 
-sprite $ServiceAppServiceCertificatesSm [12x12/16z] LSor0G1130F1FJ3tN-ypJcQG-93v4bu2SeB_tWVe1iIs4BOvUuAJn9JHJaZLkA1Lt9paiW8
+sprite $ServiceAppServiceCertificatesSm [12x12/16z] LSp50O103031HUBzrujpCfzu6CZU2Ps0l63k-mPw0R7h2BkyVuANn2xRyaAg-EcGEydd1
 
-sprite $ServiceAppServiceCertificatesMd [16x16/16z] RSc53GD14CNGlyFGVxt9CLluP3pIP_Sj7oRTe_T_EoklJX4fcC_9P9iSbn-JysfJDzbJS7Vp6J0PbqRRpHZGY_u
+sprite $ServiceAppServiceCertificatesMd [16x16/16z] RSc53G1H2C1GlYFxptikMACl1TVmsTqJr_5Muuyc9ctglJFCTTOFpyEeFXucxJdMx6y3YeY0BdXQ5nXAEm
 
-sprite $ServiceAppServiceCertificatesLg [20x20/16z] TSk53G0n34DH1yhxptjOXgU8lXniYAwCqCmOnkpOr3HwtfsRozucmRaWuoxe8uux_pQZA4fxhB-1XcQZUyxq8EaXFGRUXi6X6LgQ0MGiDm
+sprite $ServiceAppServiceCertificatesLg [20x20/16z] bSi53iGm34HHO_3-vzqjj-7aoQAlCLImb9GnfqgGQpRHbxHtxMOlUsDlhUTqvsKJqftRcqgoszgk_FMOD1FiTle543UGM6YAHIC0JCiV
 
-!procedure ServiceAppServiceCertificates($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/AppServices/ServiceAppServiceCertificates', $name, $tech)
+!procedure ServiceAppServiceCertificates($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/AppServices/ServiceAppServiceCertificates', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceAppServiceCertificatesCard($id, $funcName="", $content="")

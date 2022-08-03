@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceImage')
 
 ' renders the element
-ServiceImage('ServiceImage', 'Service Image', 'an optional tech label')
+ServiceImage('ServiceImage', 'Service Image', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceImage')
 
 ' renders the element
-ServiceImage('ServiceImage', 'Service Image', 'an optional tech label')
+ServiceImage('ServiceImage', 'Service Image', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

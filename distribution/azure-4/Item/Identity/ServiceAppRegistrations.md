@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Identity/ServiceAppRegistrations')
 
 ' renders the element
-ServiceAppRegistrations('ServiceAppRegistrations', 'Service App Registrations', 'an optional tech label')
+ServiceAppRegistrations('ServiceAppRegistrations', 'Service App Registrations', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Identity/ServiceAppRegistrations')
 
 ' renders the element
-ServiceAppRegistrations('ServiceAppRegistrations', 'Service App Registrations', 'an optional tech label')
+ServiceAppRegistrations('ServiceAppRegistrations', 'Service App Registrations', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

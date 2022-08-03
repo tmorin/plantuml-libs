@@ -2,17 +2,17 @@
 
 sprite $ServiceAvsXs [10x10/16z] LSO10W0H2031lKFL_nyC04ErF9Aa4ThCe9UPYL2NLRIou9MqXQV1OHP70G
 
-sprite $ServiceAvsSm [12x12/16z] NSY50G0n20J1mw7_Wb_Z4zk04odrZDUV7lsZxwFqTJxSxRtpnVwFwk7VNLWRzaFYQV-8OdK3
+sprite $ServiceAvsSm [12x12/16z] NSY50G0n20J1mw7_Wb_Z4zk04odrZDUV7lsZxwFqTJxSxRtpnVwFwk7VNLWRzaFYQVy8DZS
 
-sprite $ServiceAvsMd [16x16/16z] TSY50K0X549HBC3z1_wTnZ7lmqJu1NVXIPtk0NLvAo1UBMy2oMmh8tY7hQCtnOT89XzK3o2lJzkgbXH9IQu2oWFRtl0MYLryeRC2
+sprite $ServiceAvsMd [16x16/16z] ZSV50KDH509HdW6t_uAJxsvdDODFs5jN8qoeoNe9UNgvaqXMMnd9FNIV-sWUPB9ue1Y0dEBu2alAf2I7WBRe4XtECj7BAvpy0G
 
 sprite $ServiceAvsLg [20x20/16z] {
-bSd70SH024DHaMJSVy6U78wxxoG--5EG3Dpi6UmadUcEV3OCun3uRfhD0zBRT06GdRCQcx3HuhIqd436R8TGSh9t4kgQM4DtI-YRSQjVG1W78WLLN3JGEOyW
-VbS
+bSe53WH1449HIg1hxd_WqRRuxekH7_0dIY9sqJw1fGs6GMtgPJnoDgj7WvH-ZyIjNgdRjuNu6bUhg0uIUrjCDcOSdSd7n1W-My6Eukw-tSG5B3oCYnDVqqBX
+TnS
 }
 
-!procedure ServiceAvs($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/AzureVMwareSolution/ServiceAvs', $name, $tech)
+!procedure ServiceAvs($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/AzureVMwareSolution/ServiceAvs', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceAvsCard($id, $funcName="", $content="")

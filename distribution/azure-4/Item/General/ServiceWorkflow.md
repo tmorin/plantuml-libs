@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceWorkflow')
 
 ' renders the element
-ServiceWorkflow('ServiceWorkflow', 'Service Workflow', 'an optional tech label')
+ServiceWorkflow('ServiceWorkflow', 'Service Workflow', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceWorkflow')
 
 ' renders the element
-ServiceWorkflow('ServiceWorkflow', 'Service Workflow', 'an optional tech label')
+ServiceWorkflow('ServiceWorkflow', 'Service Workflow', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

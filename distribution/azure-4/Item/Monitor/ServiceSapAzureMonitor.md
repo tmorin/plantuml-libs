@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Monitor/ServiceSapAzureMonitor')
 
 ' renders the element
-ServiceSapAzureMonitor('ServiceSapAzureMonitor', 'Service Sap Azure Monitor', 'an optional tech label')
+ServiceSapAzureMonitor('ServiceSapAzureMonitor', 'Service Sap Azure Monitor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Monitor/ServiceSapAzureMonitor')
 
 ' renders the element
-ServiceSapAzureMonitor('ServiceSapAzureMonitor', 'Service Sap Azure Monitor', 'an optional tech label')
+ServiceSapAzureMonitor('ServiceSapAzureMonitor', 'Service Sap Azure Monitor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

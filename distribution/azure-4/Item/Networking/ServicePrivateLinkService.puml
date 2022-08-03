@@ -2,17 +2,14 @@
 
 sprite $ServicePrivateLinkServiceXs [10x10/16z] Oo00E4048nk8mGfX0jbix0mCB0oC34nWUNOW3K8C418J
 
-sprite $ServicePrivateLinkServiceSm [12x12/16z] ZOV55O0034D_lVjF37bSiNZuXrLONJFp75Le0ZhTGJ7qGECEQIGUwDYCQu8hB7Z40G
+sprite $ServicePrivateLinkServiceSm [12x12/16z] ZSZ73S1024JHJwR_YgtHNfqU6VvPfCuQwL25rlEjxi0OSg1nXrHgKSsO6u0ZngCB
 
-sprite $ServicePrivateLinkServiceMd [16x16/16z] dSd90O0W34JH8Nl_3GCPS_AcxF-17sEziXumdvJvACBD434ZCEzpHH8YxkKYWa8qG1hIgzym1G4fei4SC1CcOIxcnt4
+sprite $ServicePrivateLinkServiceMd [16x16/16z] hKp55S1G32BysFuBLtZflHON03zOG-Ongrttc3L9TnsqEc1UwpnadWkDQAIaw81xj6ITq045h81BMGVIjEempV3STW
 
-sprite $ServicePrivateLinkServiceLg [20x20/16z] {
-jOjN0i9G3CES7Uv_OPomwVTJjohZ179Lree77M_bxq7dMrcIYNLBfVATvAiSXTb6kjYZpDnlbA3XlYNKXRFekb4qk_cXlEQBUF5Ia2srIV7TG5ubULKhvQKC
-1xW3
-}
+sprite $ServicePrivateLinkServiceLg [20x20/16z] jSjN4iD020DGqSdzBvmLZ5E_BNlR6u4x8lzahTXqlCXV0vqliZmHuZJraCn8NaqIE1lfOjlCv9aeeE4-2EMPslLGCk2AmNr1Qkc59oG1NiXShS4N2Mx84m
 
-!procedure ServicePrivateLinkService($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Networking/ServicePrivateLinkService', $name, $tech)
+!procedure ServicePrivateLinkService($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Networking/ServicePrivateLinkService', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServicePrivateLinkServiceCard($id, $funcName="", $content="")

@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/ManagementGovernance/ServiceOperationLogClassic')
 
 ' renders the element
-ServiceOperationLogClassic('ServiceOperationLogClassic', 'Service Operation Log Classic', 'an optional tech label')
+ServiceOperationLogClassic('ServiceOperationLogClassic', 'Service Operation Log Classic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/ManagementGovernance/ServiceOperationLogClassic')
 
 ' renders the element
-ServiceOperationLogClassic('ServiceOperationLogClassic', 'Service Operation Log Classic', 'an optional tech label')
+ServiceOperationLogClassic('ServiceOperationLogClassic', 'Service Operation Log Classic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,17 +2,14 @@
 
 sprite $ServiceUsersXs [10x10/16z] HOk14G0m10C1zj-uIExw04IMdBWw6BeQhglVTJV_T8m2dS2NtcCFkUcwum4
 
-sprite $ServiceUsersSm [12x12/16z] HSo30G0m3031Z_UVkCRL3PWqk69YiNbDbiZ9c3opgjXgUFaonkqYucC3oM5jaE-kr4Tz7G
+sprite $ServiceUsersSm [12x12/16z] JOo50G0m2CDm_lzuWcQ2jl0WXK8VaV9BBTlsmDWsStS8_DBxU4-v84eOVU7xNZgv3pi_
 
-sprite $ServiceUsersMd [16x16/16z] LOs54S0m30CDeVqdxWbA7z0P5Q9dnKjDy8GvHPYUSu5oZ0Yqu-4umsooteMC7T2yPZxxOPMP-14sLoK5yG8Z9H5bBmcyo98auvSHvqTV
+sprite $ServiceUsersMd [16x16/16z] LSq50i0m20D080tT_pyyIpEvQT4GiE9LlBndYeyW--8pMp9ah7FOlFdiG1XOnIJVRSnCByGzEk69VHcfJqIjtLuvfVNnsKPiFpW
 
-sprite $ServiceUsersLg [20x20/16z] {
-POw55KCn30FDxVuB5_oihy25BoG1aIu0viTkSp0gJq0NMGCFPW7dkRhFsGi8AIgIhKosBEffchabrXyz8jr8fjPgLBt7baYhC-bZmpD1YX_FX8werEL2udsY
-Nm
-}
+sprite $ServiceUsersLg [20x20/16z] LSy73iH0349H61lltl_2wGZDI_zg1DOgcCjbh_gi9ChIMlD9qnXXFORu6MAIGazQY99OMfIsnRme0rjVp6f-orZFyudpAdfYsZ2xwRdARhz6VY68_flX1
 
-!procedure ServiceUsers($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Identity/ServiceUsers', $name, $tech)
+!procedure ServiceUsers($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Identity/ServiceUsers', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceUsersCard($id, $funcName="", $content="")

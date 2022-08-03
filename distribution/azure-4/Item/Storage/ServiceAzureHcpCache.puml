@@ -2,14 +2,14 @@
 
 sprite $ServiceAzureHcpCacheXs [10x10/16z] JSQ50S0m4090uid-2nUftGlWhwsrXjiIvew1ojzjgO4wpZdT03PGNg4qkm
 
-sprite $ServiceAzureHcpCacheSm [12x12/16z] NSW53e1034JHWLJW_XTcHsAybVuKFxsxuwobPkvZ9ns4ubyogmOrtgEaCUpiWOeRL1Uvi_y
+sprite $ServiceAzureHcpCacheSm [12x12/16z] NSXB5e0W34FHq5zq_nkMjXbv5NWd-4cIjHbisSbdtTneYBvZ5AVH4k-rUwAwjGFdx6veSTgszWy
 
-sprite $ServiceAzureHcpCacheMd [16x16/16z] RSh50S0m509GliJs7xX2gFVT4FogRNF5DbshC6K_SUoNQa1_o3g7bDwKGT5jx6ewPOUoqPRHcVKtRF9YeDG_pXoKod312W
+sprite $ServiceAzureHcpCacheMd [16x16/16z] RSe70eH020F0i3Nt_mUV6c9tjWB1fp5NPpdJEJLLZGSDUHfhpPioSj2CqpMaCdwRqOeqmdN8MeEgdTSTKPiXXVFrgAiqM34i
 
-sprite $ServiceAzureHcpCacheLg [20x20/16z] TSq5aWCW343HA7B_0--sZLVU6FE117uZtNilxectqVPg1ycsYmLSfx5_PtXDxC5gFfEYEnixETa83ChXQuJHa5o8LYvml8k_hzDi97urGAWTlP7fBLL32WZ_
+sprite $ServiceAzureHcpCacheLg [20x20/16z] VSrL0aGX241HG2Nsl-0fyasTpwi0_754X76M9UvqGabKJLeKri6JNfoHPYLrknsfjiBMQWGEjovpUw6ZRP2j6L2qLRC40DT6EzuGTuFKDsOZDrk3rku
 
-!procedure ServiceAzureHcpCache($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/Storage/ServiceAzureHcpCache', $name, $tech)
+!procedure ServiceAzureHcpCache($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Storage/ServiceAzureHcpCache', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceAzureHcpCacheCard($id, $funcName="", $content="")

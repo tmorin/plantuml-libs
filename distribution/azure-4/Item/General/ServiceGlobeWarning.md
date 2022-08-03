@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceGlobeWarning')
 
 ' renders the element
-ServiceGlobeWarning('ServiceGlobeWarning', 'Service Globe Warning', 'an optional tech label')
+ServiceGlobeWarning('ServiceGlobeWarning', 'Service Globe Warning', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceGlobeWarning')
 
 ' renders the element
-ServiceGlobeWarning('ServiceGlobeWarning', 'Service Globe Warning', 'an optional tech label')
+ServiceGlobeWarning('ServiceGlobeWarning', 'Service Globe Warning', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

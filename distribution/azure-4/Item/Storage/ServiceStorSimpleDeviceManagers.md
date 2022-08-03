@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Storage/ServiceStorSimpleDeviceManagers')
 
 ' renders the element
-ServiceStorSimpleDeviceManagers('ServiceStorSimpleDeviceManagers', 'Service Stor Simple Device Managers', 'an optional tech label')
+ServiceStorSimpleDeviceManagers('ServiceStorSimpleDeviceManagers', 'Service Stor Simple Device Managers', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Storage/ServiceStorSimpleDeviceManagers')
 
 ' renders the element
-ServiceStorSimpleDeviceManagers('ServiceStorSimpleDeviceManagers', 'Service Stor Simple Device Managers', 'an optional tech label')
+ServiceStorSimpleDeviceManagers('ServiceStorSimpleDeviceManagers', 'Service Stor Simple Device Managers', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

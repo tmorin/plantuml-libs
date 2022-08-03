@@ -2,20 +2,20 @@
 
 sprite $ServiceDigitalTwinsXs [10x10/16z] 9SQ73S0m40En-wxz9qu44uq0mrCBwznTvEqovsxVMsTtUEtrG6N13BcQmKF_34Xt-G
 
-sprite $ServiceDigitalTwinsSm [12x12/16z] DSQ70G0X24FH22dil_1L_Geyl1ad6ULFbGIm3QoylTlGvoQPtsAHxC_yJ1LY4e3Kt-hFc9b811zZpUZBUEg9x8KR
+sprite $ServiceDigitalTwinsSm [12x12/16z] DOa15WGX24AP0kZ-9rxLjxzK03J67nbdtKbIZSjzQNeR6dr9PhLuofpH74qTn2G0wSwwe_7UYqImDCffC8fRZVtX1m
 
 sprite $ServiceDigitalTwinsMd [16x16/16z] {
-HSc73S0m3CH0gdl_YVD2shaIWkNDJrLq6pVhsMbtiN8ai9dkGE_jVg7UpimU_peznPxkJ8-Kk3l5SzLOdhC9b0IOR99LDfZcLTnpwaY9aTlOt7r3_9ofrSKj
-nggx3Iu
+JSk50S0m24JHJx3iFt6F-ejYC5RnLqdL5tNDNSc85iUwgmozb-k5VEA8g5ySA-I9As9vY5zno8gHRR7tX42AWyc4HAOrfdecLvtSacB4nD0JFn0DT8vABjwM
+LGKS
 }
 
 sprite $ServiceDigitalTwinsLg [20x20/16z] {
-NT275SCm30DH5e3K_XE7KDn_gk_PQdOWxGE5BFgZP9NkqlTLkXjg0oRipItcU-eaxmEzMg3RJfu5pAtFHiVWin4U4ByQW9mcoVEk4OcDgt0sBGCShMLdHgG9
-HOkCpKJtsGghjOfadFSPbgWfOZUpdjPyi16j6m_NCSRSIgbAkm0MKs3Z1m
+NSm70WGX24FH00bu_nClijF_L9y5Hn8-CHdvqiWPvwsMLSLjdG-f9eFtktMlgYFr-XrdsP55ahtqQJ9sUffepfrTHZASKnmcTXwSj9A74O1HNG682FV0Jhi4
+uDCOcx0SkLPA6bG7NzssGOu1rLOwEcmqTPIoiJdWBncuCeEr4DqF
 }
 
-!procedure ServiceDigitalTwins($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'azure-4/Item/InternetOfThings/ServiceDigitalTwins', $name, $tech)
+!procedure ServiceDigitalTwins($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/InternetOfThings/ServiceDigitalTwins', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceDigitalTwinsCard($id, $funcName="", $content="")

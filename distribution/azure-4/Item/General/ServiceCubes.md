@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceCubes')
 
 ' renders the element
-ServiceCubes('ServiceCubes', 'Service Cubes', 'an optional tech label')
+ServiceCubes('ServiceCubes', 'Service Cubes', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceCubes')
 
 ' renders the element
-ServiceCubes('ServiceCubes', 'Service Cubes', 'an optional tech label')
+ServiceCubes('ServiceCubes', 'Service Cubes', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

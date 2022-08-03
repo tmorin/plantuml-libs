@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/ManagementGovernance/ServiceAzureArc')
 
 ' renders the element
-ServiceAzureArc('ServiceAzureArc', 'Service Azure Arc', 'an optional tech label')
+ServiceAzureArc('ServiceAzureArc', 'Service Azure Arc', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/ManagementGovernance/ServiceAzureArc')
 
 ' renders the element
-ServiceAzureArc('ServiceAzureArc', 'Service Azure Arc', 'an optional tech label')
+ServiceAzureArc('ServiceAzureArc', 'Service Azure Arc', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

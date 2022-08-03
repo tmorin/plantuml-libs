@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Web/ServiceAzureMediaService')
 
 ' renders the element
-ServiceAzureMediaService('ServiceAzureMediaService', 'Service Azure Media Service', 'an optional tech label')
+ServiceAzureMediaService('ServiceAzureMediaService', 'Service Azure Media Service', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Web/ServiceAzureMediaService')
 
 ' renders the element
-ServiceAzureMediaService('ServiceAzureMediaService', 'Service Azure Media Service', 'an optional tech label')
+ServiceAzureMediaService('ServiceAzureMediaService', 'Service Azure Media Service', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

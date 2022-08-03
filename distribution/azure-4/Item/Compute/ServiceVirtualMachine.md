@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Compute/ServiceVirtualMachine')
 
 ' renders the element
-ServiceVirtualMachine('ServiceVirtualMachine', 'Service Virtual Machine', 'an optional tech label')
+ServiceVirtualMachine('ServiceVirtualMachine', 'Service Virtual Machine', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Compute/ServiceVirtualMachine')
 
 ' renders the element
-ServiceVirtualMachine('ServiceVirtualMachine', 'Service Virtual Machine', 'an optional tech label')
+ServiceVirtualMachine('ServiceVirtualMachine', 'Service Virtual Machine', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

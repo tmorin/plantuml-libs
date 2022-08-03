@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceCostManagement')
 
 ' renders the element
-ServiceCostManagement('ServiceCostManagement', 'Service Cost Management', 'an optional tech label')
+ServiceCostManagement('ServiceCostManagement', 'Service Cost Management', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceCostManagement')
 
 ' renders the element
-ServiceCostManagement('ServiceCostManagement', 'Service Cost Management', 'an optional tech label')
+ServiceCostManagement('ServiceCostManagement', 'Service Cost Management', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

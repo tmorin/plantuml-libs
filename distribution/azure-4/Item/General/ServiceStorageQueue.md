@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceStorageQueue')
 
 ' renders the element
-ServiceStorageQueue('ServiceStorageQueue', 'Service Storage Queue', 'an optional tech label')
+ServiceStorageQueue('ServiceStorageQueue', 'Service Storage Queue', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/General/ServiceStorageQueue')
 
 ' renders the element
-ServiceStorageQueue('ServiceStorageQueue', 'Service Storage Queue', 'an optional tech label')
+ServiceStorageQueue('ServiceStorageQueue', 'Service Storage Queue', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

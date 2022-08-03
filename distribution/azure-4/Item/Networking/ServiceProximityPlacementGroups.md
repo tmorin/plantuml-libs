@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Networking/ServiceProximityPlacementGroups')
 
 ' renders the element
-ServiceProximityPlacementGroups('ServiceProximityPlacementGroups', 'Service Proximity Placement Groups', 'an optional tech label')
+ServiceProximityPlacementGroups('ServiceProximityPlacementGroups', 'Service Proximity Placement Groups', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Networking/ServiceProximityPlacementGroups')
 
 ' renders the element
-ServiceProximityPlacementGroups('ServiceProximityPlacementGroups', 'Service Proximity Placement Groups', 'an optional tech label')
+ServiceProximityPlacementGroups('ServiceProximityPlacementGroups', 'Service Proximity Placement Groups', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

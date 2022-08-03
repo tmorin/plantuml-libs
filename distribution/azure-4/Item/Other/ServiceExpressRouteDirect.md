@@ -36,7 +36,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Other/ServiceExpressRouteDirect')
 
 ' renders the element
-ServiceExpressRouteDirect('ServiceExpressRouteDirect', 'Service Express Route Direct', 'an optional tech label')
+ServiceExpressRouteDirect('ServiceExpressRouteDirect', 'Service Express Route Direct', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('azure-4/bootstrap')
 include('azure-4/Item/Other/ServiceExpressRouteDirect')
 
 ' renders the element
-ServiceExpressRouteDirect('ServiceExpressRouteDirect', 'Service Express Route Direct', 'an optional tech label')
+ServiceExpressRouteDirect('ServiceExpressRouteDirect', 'Service Express Route Direct', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
