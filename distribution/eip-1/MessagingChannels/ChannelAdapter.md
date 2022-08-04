@@ -36,7 +36,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessagingChannels/ChannelAdapter')
 
 ' renders the element
-ChannelAdapter('ChannelAdapter', 'Channel Adapter', 'an optional tech label')
+ChannelAdapter('ChannelAdapter', 'Channel Adapter', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessagingChannels/ChannelAdapter')
 
 ' renders the element
-ChannelAdapter('ChannelAdapter', 'Channel Adapter', 'an optional tech label')
+ChannelAdapter('ChannelAdapter', 'Channel Adapter', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

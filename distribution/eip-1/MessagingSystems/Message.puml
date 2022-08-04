@@ -1,15 +1,15 @@
 ' definition of the Item eip-1/MessagingSystems/Message
 
-sprite $MessageXs [15x10/16z] Oy0As3XHkAn0BXx0pigAmcTXHEOnSQ7ASh4m40G
+sprite $MessageXs [15x10/16z] Oy06sDdHkNW14nEAQcPc55bEJdnwMLYmMGK
 
-sprite $MessageSm [18x12/16z] Oy0DED45E9WPqONOC7InSd6megdXPaKJOMLcOKJNnSg2PX0NEoi3-G
+sprite $MessageSm [18x12/16z] Oy05MDdHHTZP6T54s81g20D6JYuqWpYOMT3L464K8pi7gW0pAmihkY8Eg1e
 
-sprite $MessageMd [25x16/16z] lOsr0S1024NFyFttpG1ebTV1jpLXx_WFzyR2lI-hMYb450lo8140O-6zPD-I11WcLQQoVkG3
+sprite $MessageMd [25x16/16z] Oo0C69bnYBEpisELOC4bmG0KfoBWO65Xn6e91pCp8rOTS0dA0HSxEpQZc9aHhYBiN4m
 
-sprite $MessageLg [31x20/16z] rOx50S0W54E17q7stxSJrFrTe-b275oI5U45kGRI4f4MAMioGC_BRZ2NqY8Mv0mioMXzORkGxWlVqUG5EVhewGzC
+sprite $MessageLg [31x20/16z] jP350S0W40JH34l_1OS63cU-9olk6e2tfm7uxB7lZrq6roEvmt5eTCObncoEGMtSlUwF9JqBLg5qnagfq_jeN45kcXy
 
-!procedure Message($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'eip-1/MessagingSystems/Message', $name, $tech)
+!procedure Message($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingSystems/Message', $name, $tech, $desc)
 !endprocedure
 
 !procedure MessageGroup($id, $name='Message', $tech='')

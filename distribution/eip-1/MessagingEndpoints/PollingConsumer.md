@@ -36,7 +36,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessagingEndpoints/PollingConsumer')
 
 ' renders the element
-PollingConsumer('PollingConsumer', 'Polling Consumer', 'an optional tech label')
+PollingConsumer('PollingConsumer', 'Polling Consumer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessagingEndpoints/PollingConsumer')
 
 ' renders the element
-PollingConsumer('PollingConsumer', 'Polling Consumer', 'an optional tech label')
+PollingConsumer('PollingConsumer', 'Polling Consumer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

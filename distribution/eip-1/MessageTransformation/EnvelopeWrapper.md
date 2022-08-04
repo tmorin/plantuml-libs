@@ -36,7 +36,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessageTransformation/EnvelopeWrapper')
 
 ' renders the element
-EnvelopeWrapper('EnvelopeWrapper', 'Envelope Wrapper', 'an optional tech label')
+EnvelopeWrapper('EnvelopeWrapper', 'Envelope Wrapper', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessageTransformation/EnvelopeWrapper')
 
 ' renders the element
-EnvelopeWrapper('EnvelopeWrapper', 'Envelope Wrapper', 'an optional tech label')
+EnvelopeWrapper('EnvelopeWrapper', 'Envelope Wrapper', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

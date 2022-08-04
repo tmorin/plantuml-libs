@@ -36,7 +36,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessagingChannels/DeadLetterChannel')
 
 ' renders the element
-DeadLetterChannel('DeadLetterChannel', 'Dead Letter Channel', 'an optional tech label')
+DeadLetterChannel('DeadLetterChannel', 'Dead Letter Channel', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessagingChannels/DeadLetterChannel')
 
 ' renders the element
-DeadLetterChannel('DeadLetterChannel', 'Dead Letter Channel', 'an optional tech label')
+DeadLetterChannel('DeadLetterChannel', 'Dead Letter Channel', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

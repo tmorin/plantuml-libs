@@ -8,8 +8,8 @@ sprite $MessageEndpointMd [25x16/16z] uyC9c740-akmC041YWGR6mjOWW48O19iC80k0GPW3P
 
 sprite $MessageEndpointLg [31x20/16z] uoC0cF41bY4bpSu61EpeqYmm1Yi34B2XIxEniMALPaC05ZowMR4R3WS4fQ5YG30Kmfm57s03
 
-!procedure MessageEndpoint($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'eip-1/MessagingSystems/MessageEndpoint', $name, $tech)
+!procedure MessageEndpoint($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingSystems/MessageEndpoint', $name, $tech, $desc)
 !endprocedure
 
 !procedure MessageEndpointGroup($id, $name='Message Endpoint', $tech='')

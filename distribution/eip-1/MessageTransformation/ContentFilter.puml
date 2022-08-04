@@ -8,8 +8,8 @@ sprite $ContentFilterMd [25x16/16z] nOyr0i0W34KZE2JtlstbB_MrF8Y-AVw9Vl2JI2AItaGa
 
 sprite $ContentFilterLg [31x20/16z] uoC0cF41ba4kpGO2h3Yb6K20ZJXfDbuEi0HG14sQbGi8UFZukB5AGm0h1yHO5XPEuknc0O6X5-Oi-00R
 
-!procedure ContentFilter($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'eip-1/MessageTransformation/ContentFilter', $name, $tech)
+!procedure ContentFilter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageTransformation/ContentFilter', $name, $tech, $desc)
 !endprocedure
 
 !procedure ContentFilterGroup($id, $name='Content Filter', $tech='')

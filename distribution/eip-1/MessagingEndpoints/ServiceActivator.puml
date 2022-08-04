@@ -8,8 +8,8 @@ sprite $ServiceActivatorMd [25x16/16z] pS-b0GGn4010CM7glzldlrFn6RcyQyl62OcK0cqXK
 
 sprite $ServiceActivatorLg [31x20/16z] tP130W0n34K7LVJlVzknkS-h6mS_j5y41-8m7t4JqKcSqYW1qdZFerwUn6ad401cLWWFifFrv9Pi3LJYAFRRrF15wW4
 
-!procedure ServiceActivator($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'eip-1/MessagingEndpoints/ServiceActivator', $name, $tech)
+!procedure ServiceActivator($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingEndpoints/ServiceActivator', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceActivatorGroup($id, $name='Service Activator', $tech='')

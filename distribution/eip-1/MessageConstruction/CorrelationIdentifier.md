@@ -36,7 +36,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessageConstruction/CorrelationIdentifier')
 
 ' renders the element
-CorrelationIdentifier('CorrelationIdentifier', 'Correlation Identifier', 'an optional tech label')
+CorrelationIdentifier('CorrelationIdentifier', 'Correlation Identifier', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessageConstruction/CorrelationIdentifier')
 
 ' renders the element
-CorrelationIdentifier('CorrelationIdentifier', 'Correlation Identifier', 'an optional tech label')
+CorrelationIdentifier('CorrelationIdentifier', 'Correlation Identifier', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

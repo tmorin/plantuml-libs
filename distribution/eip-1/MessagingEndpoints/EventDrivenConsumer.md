@@ -36,7 +36,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessagingEndpoints/EventDrivenConsumer')
 
 ' renders the element
-EventDrivenConsumer('EventDrivenConsumer', 'Event Driven Consumer', 'an optional tech label')
+EventDrivenConsumer('EventDrivenConsumer', 'Event Driven Consumer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessagingEndpoints/EventDrivenConsumer')
 
 ' renders the element
-EventDrivenConsumer('EventDrivenConsumer', 'Event Driven Consumer', 'an optional tech label')
+EventDrivenConsumer('EventDrivenConsumer', 'Event Driven Consumer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

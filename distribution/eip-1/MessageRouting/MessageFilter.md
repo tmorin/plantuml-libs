@@ -36,7 +36,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessageRouting/MessageFilter')
 
 ' renders the element
-MessageFilter('MessageFilter', 'Message Filter', 'an optional tech label')
+MessageFilter('MessageFilter', 'Message Filter', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessageRouting/MessageFilter')
 
 ' renders the element
-MessageFilter('MessageFilter', 'Message Filter', 'an optional tech label')
+MessageFilter('MessageFilter', 'Message Filter', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

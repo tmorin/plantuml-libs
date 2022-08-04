@@ -36,7 +36,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessageRouting/ComposedMessageProcessor')
 
 ' renders the element
-ComposedMessageProcessor('ComposedMessageProcessor', 'Composed Message Processor', 'an optional tech label')
+ComposedMessageProcessor('ComposedMessageProcessor', 'Composed Message Processor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessageRouting/ComposedMessageProcessor')
 
 ' renders the element
-ComposedMessageProcessor('ComposedMessageProcessor', 'Composed Message Processor', 'an optional tech label')
+ComposedMessageProcessor('ComposedMessageProcessor', 'Composed Message Processor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,14 +2,14 @@
 
 sprite $MessageExpirationXs [15x10/16z] Oo02y38my21u7222cu4C03M65S5dPsPZnAOE
 
-sprite $MessageExpirationSm [18x12/16z] Oo01S75nel1PG0GJXZ9cTYGs0oi322409nOzc4Q0IMvq8GuqLMou3G8
+sprite $MessageExpirationSm [18x12/16z] Oo01S75nel2PGGGZXZ96LcGbJ0mChCYo743CXDSQk09kT24ED8lOS9i
 
-sprite $MessageExpirationMd [25x16/16z] jSn50W0X243HRmlS_xpJ7Pk9Pqlm1ydEI-QaZeToO4mEDOvHeB1Jm0UyuqZMidqmSSSpiLElaVSSABsOEF6gMdcX1G
+sprite $MessageExpirationMd [25x16/16z] jSu52W11243HFptg_S-xtK5iF92m-OD4N1SdbO5oO4mobyAnKC07F2S2u3XBt777BsOoDpWEb9uFd3XLhRpG0W
 
-sprite $MessageExpirationLg [31x20/16z] lSu34aHH34JH6tnZ_xiTCzMlD3ZbiFaRwySnQLa3OEvHRE7A9uI5XmugTsu2iRvnPG6kRqUG3Z1GNG_UzaPzl9rjbjsdNeq-3IL6DUQjwqYs3nxpJ9lnJKS
+sprite $MessageExpirationLg [31x20/16z] lS_50SKm30DGsIhJ_jj-R5YzvXL31lJ3PN4yEOYFROAqtrzRzMeqek666o6Edo4q0TEnIV2tr5Ht1xpRMbJmP12d4qSYkjdGccMWPF5xrI3PDJkt3Rsy0G
 
-!procedure MessageExpiration($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'eip-1/MessageConstruction/MessageExpiration', $name, $tech)
+!procedure MessageExpiration($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageConstruction/MessageExpiration', $name, $tech, $desc)
 !endprocedure
 
 !procedure MessageExpirationGroup($id, $name='Message Expiration', $tech='')

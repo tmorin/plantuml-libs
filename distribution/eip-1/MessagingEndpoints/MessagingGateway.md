@@ -36,7 +36,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessagingEndpoints/MessagingGateway')
 
 ' renders the element
-MessagingGateway('MessagingGateway', 'Messaging Gateway', 'an optional tech label')
+MessagingGateway('MessagingGateway', 'Messaging Gateway', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessagingEndpoints/MessagingGateway')
 
 ' renders the element
-MessagingGateway('MessagingGateway', 'Messaging Gateway', 'an optional tech label')
+MessagingGateway('MessagingGateway', 'Messaging Gateway', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

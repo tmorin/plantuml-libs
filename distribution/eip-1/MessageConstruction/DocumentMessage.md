@@ -36,7 +36,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessageConstruction/DocumentMessage')
 
 ' renders the element
-DocumentMessage('DocumentMessage', 'Document Message', 'an optional tech label')
+DocumentMessage('DocumentMessage', 'Document Message', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessageConstruction/DocumentMessage')
 
 ' renders the element
-DocumentMessage('DocumentMessage', 'Document Message', 'an optional tech label')
+DocumentMessage('DocumentMessage', 'Document Message', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

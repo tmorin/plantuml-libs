@@ -14,8 +14,8 @@ XSy73WCn24JHc86nK-z_t0I40axzsv3UDj_-X5zfunE79yVrphHH2MtdnEhKs33UOd5fQo9vZPPvY2dP
 6xEpU34W6Vovxdg-4g8OItOD3CwcFGqaEcSydOwFNU4bwwzu1m
 }
 
-!procedure TransactionalClient($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'eip-1/MessagingEndpoints/TransactionalClient', $name, $tech)
+!procedure TransactionalClient($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingEndpoints/TransactionalClient', $name, $tech, $desc)
 !endprocedure
 
 !procedure TransactionalClientGroup($id, $name='Transactional Client', $tech='')

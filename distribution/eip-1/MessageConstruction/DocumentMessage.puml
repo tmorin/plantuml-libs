@@ -2,14 +2,14 @@
 
 sprite $DocumentMessageXs [15x10/16z] Oy06M55uxEpiw5mKFffUT2u71mSobvsL1KKtBuAB
 
-sprite $DocumentMessageSm [18x12/16z] Oy056D45sDdPCKMO2QbXO6CWIeIHaH5DX8UN1Lc4XPMLbuKLmmKiE9mF
+sprite $DocumentMessageSm [18x12/16z] Oo0QiBEpOuem4bB3mCP0fWWFBmko20ihAoyBAuOBM72u5W
 
-sprite $DocumentMessageMd [25x16/16z] hScr0S0m4CNGRxOFzzysRPXLwk5zhTM3lv0bj4SG5tzHmP-WOmpT1MVX3THIrBCpTbAtlWl4p8AB9W
+sprite $DocumentMessageMd [25x16/16z] hScr0S104CJ0DSDH_zKQqcTIg45xnx57VaIElmpuWd0RHe9SroL1C6BoODysiTK8WSJq3C9DH8nCBm
 
-sprite $DocumentMessageLg [31x20/16z] jSl55OHG50JH_lAiPu3yeyMskDrjdS9hfEn56srdc-XMpJQxUKEddB2fcc6FuECiFjdCbF0QszaYslLSHUHlKRl05bhJnLuU4UyO
+sprite $DocumentMessageLg [31x20/16z] jSrL0i0m309GsiQOtl-qiz-vlTy4m6Uq71rzid_scUrTioyUfc77sv3fUaJnyrbYjdiEPGZtpqvsssTHrSOfFR4dlErvT9vK-CO8
 
-!procedure DocumentMessage($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'eip-1/MessageConstruction/DocumentMessage', $name, $tech)
+!procedure DocumentMessage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageConstruction/DocumentMessage', $name, $tech, $desc)
 !endprocedure
 
 !procedure DocumentMessageGroup($id, $name='Document Message', $tech='')

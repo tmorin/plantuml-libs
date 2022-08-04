@@ -11,8 +11,8 @@ bT550eGm44JHHRKYTV_RZW-DGzxsnyCBE2CDMI7TInpaWOgttdOpcVYmsCbHgvfKtjEliono0hR8PegY
 0UI0PIxYRYt_BMVi2G
 }
 
-!procedure PollingConsumer($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'eip-1/MessagingEndpoints/PollingConsumer', $name, $tech)
+!procedure PollingConsumer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingEndpoints/PollingConsumer', $name, $tech, $desc)
 !endprocedure
 
 !procedure PollingConsumerGroup($id, $name='Polling Consumer', $tech='')

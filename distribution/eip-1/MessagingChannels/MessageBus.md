@@ -36,7 +36,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessagingChannels/MessageBus')
 
 ' renders the element
-MessageBus('MessageBus', 'Message Bus', 'an optional tech label')
+MessageBus('MessageBus', 'Message Bus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessagingChannels/MessageBus')
 
 ' renders the element
-MessageBus('MessageBus', 'Message Bus', 'an optional tech label')
+MessageBus('MessageBus', 'Message Bus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessageTransformation/Normalizer')
 
 ' renders the element
-Normalizer('Normalizer', 'Normalizer', 'an optional tech label')
+Normalizer('Normalizer', 'Normalizer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessageTransformation/Normalizer')
 
 ' renders the element
-Normalizer('Normalizer', 'Normalizer', 'an optional tech label')
+Normalizer('Normalizer', 'Normalizer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessagingSystems/MessageSingleGreen')
 
 ' renders the element
-MessageSingleGreen('MessageSingleGreen', 'Message Single Green', 'an optional tech label')
+MessageSingleGreen('MessageSingleGreen', 'Message Single Green', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessagingSystems/MessageSingleGreen')
 
 ' renders the element
-MessageSingleGreen('MessageSingleGreen', 'Message Single Green', 'an optional tech label')
+MessageSingleGreen('MessageSingleGreen', 'Message Single Green', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

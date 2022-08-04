@@ -8,8 +8,8 @@ sprite $MessageFilterMd [25x16/16z] hSct5S1G24Mn0_VpeFB-spfqpbcjkaCSk8gcIKoMGKa0
 
 sprite $MessageFilterLg [31x20/16z] jT555i0W34NH4tuQgUr_kNLtuKqlJdaHpkAVkCZgqZglamt3H0HrHAJOieoSxExjBGS2xtBjDRHBxpAhr6muO8WW0F4OvynsmYO__zWvyrbI0G
 
-!procedure MessageFilter($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'eip-1/MessageRouting/MessageFilter', $name, $tech)
+!procedure MessageFilter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageRouting/MessageFilter', $name, $tech, $desc)
 !endprocedure
 
 !procedure MessageFilterGroup($id, $name='Message Filter', $tech='')

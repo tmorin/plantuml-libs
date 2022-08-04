@@ -36,7 +36,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessagingEndpoints/SelectiveConsumer')
 
 ' renders the element
-SelectiveConsumer('SelectiveConsumer', 'Selective Consumer', 'an optional tech label')
+SelectiveConsumer('SelectiveConsumer', 'Selective Consumer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessagingEndpoints/SelectiveConsumer')
 
 ' renders the element
-SelectiveConsumer('SelectiveConsumer', 'Selective Consumer', 'an optional tech label')
+SelectiveConsumer('SelectiveConsumer', 'Selective Consumer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

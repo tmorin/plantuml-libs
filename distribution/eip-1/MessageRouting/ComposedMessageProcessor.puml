@@ -8,8 +8,8 @@ sprite $ComposedMessageProcessorMd [25x16/16z] bOwr0S1000BXbTVzjuqsSRaMxRVO6pu9t
 
 sprite $ComposedMessageProcessorLg [31x20/16z] hL454i0m34fla7h-_zkvdSp7IIKAs0MQC-3Fi0-19s68-FTX9VNfQYB3bM5jdZZST0iZfMnb3AUKpBWB0xhC1ePg37-8PxF_vqtdJiA_6uepQ0S
 
-!procedure ComposedMessageProcessor($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'eip-1/MessageRouting/ComposedMessageProcessor', $name, $tech)
+!procedure ComposedMessageProcessor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageRouting/ComposedMessageProcessor', $name, $tech, $desc)
 !endprocedure
 
 !procedure ComposedMessageProcessorGroup($id, $name='Composed Message Processor', $tech='')

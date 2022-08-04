@@ -36,7 +36,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessageConstruction/ResultMessage')
 
 ' renders the element
-ResultMessage('ResultMessage', 'Result Message', 'an optional tech label')
+ResultMessage('ResultMessage', 'Result Message', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessageConstruction/ResultMessage')
 
 ' renders the element
-ResultMessage('ResultMessage', 'Result Message', 'an optional tech label')
+ResultMessage('ResultMessage', 'Result Message', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessageTransformation/ContentEnricher')
 
 ' renders the element
-ContentEnricher('ContentEnricher', 'Content Enricher', 'an optional tech label')
+ContentEnricher('ContentEnricher', 'Content Enricher', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessageTransformation/ContentEnricher')
 
 ' renders the element
-ContentEnricher('ContentEnricher', 'Content Enricher', 'an optional tech label')
+ContentEnricher('ContentEnricher', 'Content Enricher', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

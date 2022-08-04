@@ -36,7 +36,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessageConstruction/QueryMessage')
 
 ' renders the element
-QueryMessage('QueryMessage', 'Query Message', 'an optional tech label')
+QueryMessage('QueryMessage', 'Query Message', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessageConstruction/QueryMessage')
 
 ' renders the element
-QueryMessage('QueryMessage', 'Query Message', 'an optional tech label')
+QueryMessage('QueryMessage', 'Query Message', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessageRouting/Resequencer')
 
 ' renders the element
-Resequencer('Resequencer', 'Resequencer', 'an optional tech label')
+Resequencer('Resequencer', 'Resequencer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessageRouting/Resequencer')
 
 ' renders the element
-Resequencer('Resequencer', 'Resequencer', 'an optional tech label')
+Resequencer('Resequencer', 'Resequencer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

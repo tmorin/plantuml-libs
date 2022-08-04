@@ -8,8 +8,8 @@ sprite $NormalizerMd [25x16/16z] jSy53e0020LG68rn_zlQkl8lzOqbFKC2V9jmYlU4KO9H9dB
 
 sprite $NormalizerLg [31x20/16z] pP6r0S0W54GFT_RVDkvobCbhuBlL1egXlpO716O6QBI3LohIsWPs-RdYHWDWTtC0n235WLnhkfgL4sRvMJUbrJgiPjzepJ7pKF2N9z4CsmC
 
-!procedure Normalizer($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'eip-1/MessageTransformation/Normalizer', $name, $tech)
+!procedure Normalizer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageTransformation/Normalizer', $name, $tech, $desc)
 !endprocedure
 
 !procedure NormalizerGroup($id, $name='Normalizer', $tech='')

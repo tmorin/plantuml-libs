@@ -36,7 +36,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessageConstruction/ReturnAddress')
 
 ' renders the element
-ReturnAddress('ReturnAddress', 'Return Address', 'an optional tech label')
+ReturnAddress('ReturnAddress', 'Return Address', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessageConstruction/ReturnAddress')
 
 ' renders the element
-ReturnAddress('ReturnAddress', 'Return Address', 'an optional tech label')
+ReturnAddress('ReturnAddress', 'Return Address', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

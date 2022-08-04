@@ -11,8 +11,8 @@ hOt50S0m30ETcihxRrjc2D_7AAbtW3Oew2mijZC1gEMiK5Yp5LFEDQCrs_3NcPjweZ40idJTuxoLNLn_
 0G
 }
 
-!procedure ProcessManager($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'eip-1/MessageRouting/ProcessManager', $name, $tech)
+!procedure ProcessManager($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageRouting/ProcessManager', $name, $tech, $desc)
 !endprocedure
 
 !procedure ProcessManagerGroup($id, $name='Process Manager', $tech='')

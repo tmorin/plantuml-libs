@@ -2,14 +2,14 @@
 
 sprite $ChannelAdapterXs [15x10/16z] Oy0667bGkOpCg5n69gfnUL1CXZ4
 
-sprite $ChannelAdapterSm [18x12/16z] Ou00HWPqmCA38SB8oeGkmiZ8Wo72HYiH9XOq4Ivq5pB3cG
+sprite $ChannelAdapterSm [18x12/16z] Oy05M7WmH1XP6T5561bvC4JOQ2N2n8GcmeNkGeG2
 
-sprite $ChannelAdapterMd [25x16/16z] rSct0S0W00D1lNFQVrutPD00N7kA5Xdhlfk03nDibmbuNIpC5EkfORne5DkkaVLJvGS
+sprite $ChannelAdapterMd [25x16/16z] Ou01HWOSW96L5OS48oCFBWb65Wvi4c30ZKk2QKX9CBDXb-367YGis4CHFGW1
 
-sprite $ChannelAdapterLg [31x20/16z] xTAt0S0m30D1AZFjFwzBvvz0tru9oAKYc1doA5cHot3aKg8Xbnx8PNtGPcl0tM6Iwh3e62hGnnaE
+sprite $ChannelAdapterLg [31x20/16z] vT8d5e1G30LHVadF_jUBfyp14vahvntVBnnPHW_a8OayHYtaiGjv6F1_EGRmJaWoSq0nmJtq_NK2
 
-!procedure ChannelAdapter($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'eip-1/MessagingChannels/ChannelAdapter', $name, $tech)
+!procedure ChannelAdapter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingChannels/ChannelAdapter', $name, $tech, $desc)
 !endprocedure
 
 !procedure ChannelAdapterGroup($id, $name='Channel Adapter', $tech='')

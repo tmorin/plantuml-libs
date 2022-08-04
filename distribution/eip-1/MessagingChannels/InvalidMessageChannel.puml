@@ -1,15 +1,15 @@
 ' definition of the Item eip-1/MessagingChannels/InvalidMessageChannel
 
-sprite $InvalidMessageChannelXs [15x10/16z] Ow08i3B20HkGomm2B9n0Wf4LoELWWm56PjBC1G
+sprite $InvalidMessageChannelXs [15x10/16z] Ow08i3B20HkGomm2B9n0Wf4LoELWWm56HjBC1G
 
-sprite $InvalidMessageChannelSm [18x12/16z] hSW50S102010tFe7tjuBS3ZGH_J1yJ2QSZIPd-11va0SBxIXAl_kuz7a0m
+sprite $InvalidMessageChannelSm [18x12/16z] Ow0UO69604QG00iJ672221Qm20TOaWLCCO956DX0W8kB4qYoCrBFCG
 
-sprite $InvalidMessageChannelMd [25x16/16z] pOa50G0X303drh_lkm05uEOxM1Lcwc6zXVD3tICHRsEl8BazebqYx2P5hZKG6MupK0wJsG4
+sprite $InvalidMessageChannelMd [25x16/16z] pOa50G0X303drh_lkm05uEOxM1Qc7bQuS7weUoGYNS9UGN9xHBj4s4sAN6iW8jnce0mcimC
 
-sprite $InvalidMessageChannelLg [31x20/16z] tSt50S0m20LG7Fx-0zUzMI1v9nmQMiPFLfpTuekU0PRuQEkjuWY4kNxjiZDQ3kJljPjWZ-pUplWhLgQ3Q0FrRGO
+sprite $InvalidMessageChannelLg [31x20/16z] tSs35G0n303G6FiFV4QrGFkVui3It3eU-dO3F_m6USHFctzXJq28qRL3tWWHlNkjGdb7yc-xzU9u_S8HcDiE
 
-!procedure InvalidMessageChannel($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'eip-1/MessagingChannels/InvalidMessageChannel', $name, $tech)
+!procedure InvalidMessageChannel($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingChannels/InvalidMessageChannel', $name, $tech, $desc)
 !endprocedure
 
 !procedure InvalidMessageChannelGroup($id, $name='Invalid Message Channel', $tech='')

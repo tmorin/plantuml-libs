@@ -36,7 +36,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessagingSystems/PipesAndFilters')
 
 ' renders the element
-PipesAndFilters('PipesAndFilters', 'Pipes And Filters', 'an optional tech label')
+PipesAndFilters('PipesAndFilters', 'Pipes And Filters', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessagingSystems/PipesAndFilters')
 
 ' renders the element
-PipesAndFilters('PipesAndFilters', 'Pipes And Filters', 'an optional tech label')
+PipesAndFilters('PipesAndFilters', 'Pipes And Filters', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

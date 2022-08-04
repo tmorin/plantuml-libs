@@ -8,8 +8,8 @@ sprite $MessagingGatewayMd [25x16/16z] dSt55G1130BGHmHkst-tw-up_ve0pIC_Yrwwdm_Xw
 
 sprite $MessagingGatewayLg [31x20/16z] dSm52iK038DXIfCycTp_jdEN3FRZ_MZgXzA5A_udem-Nh32C3CFACDpV3UEEuLdY9MiDvfjcVEezJ-uvvJb_dbEUa_d_zlKCbre
 
-!procedure MessagingGateway($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'eip-1/MessagingEndpoints/MessagingGateway', $name, $tech)
+!procedure MessagingGateway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingEndpoints/MessagingGateway', $name, $tech, $desc)
 !endprocedure
 
 !procedure MessagingGatewayGroup($id, $name='Messaging Gateway', $tech='')

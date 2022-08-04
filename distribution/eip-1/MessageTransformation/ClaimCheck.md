@@ -36,7 +36,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessageTransformation/ClaimCheck')
 
 ' renders the element
-ClaimCheck('ClaimCheck', 'Claim Check', 'an optional tech label')
+ClaimCheck('ClaimCheck', 'Claim Check', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessageTransformation/ClaimCheck')
 
 ' renders the element
-ClaimCheck('ClaimCheck', 'Claim Check', 'an optional tech label')
+ClaimCheck('ClaimCheck', 'Claim Check', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

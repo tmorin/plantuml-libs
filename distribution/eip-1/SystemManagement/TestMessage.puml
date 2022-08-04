@@ -8,8 +8,8 @@ sprite $TestMessageMd [25x16/16z] pSyd0e104CNG-MHxcVlVbcvNG-nJyMKi-XgI1s00LLkKaD
 
 sprite $TestMessageLg [31x20/16z] tP0t3a0n24EHGfVY-n_tfss_xJmwtemVsXTSMkx8kID6So8n8kLHHmQGWp7uIVOkRH0yTsOpvZ4uIhl6N-W5
 
-!procedure TestMessage($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'eip-1/SystemManagement/TestMessage', $name, $tech)
+!procedure TestMessage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/SystemManagement/TestMessage', $name, $tech, $desc)
 !endprocedure
 
 !procedure TestMessageGroup($id, $name='Test Message', $tech='')

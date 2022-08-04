@@ -11,8 +11,8 @@ fT454iGW38NXil5auFwtNNsiU__HzAi1uqFqBbxDR4XFrm9ZWXS4rijuuP0BLtlWPLFWZBkdKSL1-vEN
 nQwH83wnpDOVABzBTm
 }
 
-!procedure MessageTranslator($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'eip-1/MessagingSystems/MessageTranslator', $name, $tech)
+!procedure MessageTranslator($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingSystems/MessageTranslator', $name, $tech, $desc)
 !endprocedure
 
 !procedure MessageTranslatorGroup($id, $name='Message Translator', $tech='')

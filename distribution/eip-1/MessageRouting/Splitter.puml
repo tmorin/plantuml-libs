@@ -8,8 +8,8 @@ sprite $SplitterMd [25x16/16z] bKw30S1037n_lF-sjTtOERkbU4E_6ZcdwuPpvMSZfV5KzZ1LD
 
 sprite $SplitterLg [31x20/16z] jP634K0n343JgwFzj_ss-GvjB3t17k5-CgUK3imE8BmmUv-kjGOmAeZ3CdbdJbWXgcbXTYxOdjnzdNFvfFP_SniJE_D_1tL7X18
 
-!procedure Splitter($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'eip-1/MessageRouting/Splitter', $name, $tech)
+!procedure Splitter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageRouting/Splitter', $name, $tech, $desc)
 !endprocedure
 
 !procedure SplitterGroup($id, $name='Splitter', $tech='')

@@ -8,8 +8,8 @@ sprite $ApplicationMd [25x16/16z] u-R41PXm05fAZ4e
 
 sprite $ApplicationLg [31x20/16z] u-R41xWucV01zb5f930gpSsE3t02
 
-!procedure Application($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'eip-1/MessagingEndpoints/Application', $name, $tech)
+!procedure Application($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingEndpoints/Application', $name, $tech, $desc)
 !endprocedure
 
 !procedure ApplicationGroup($id, $name='Application', $tech='')

@@ -8,8 +8,8 @@ sprite $ContentBasedRouterMd [25x16/16z] hP3L0OGm343le77PVrlSvQkyUkF9LzeNwWLYpm8
 
 sprite $ContentBasedRouterLg [31x20/16z] lP750GCX44MJ5M3izz_jkhk_2umRTeYtI3utgswP2N0LwTpi9Amd9rsjhLvy_MCQchb28AqIu9fXTDgdJExCxVsc6GssR7RkeuibMxWS
 
-!procedure ContentBasedRouter($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'eip-1/MessageRouting/ContentBasedRouter', $name, $tech)
+!procedure ContentBasedRouter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageRouting/ContentBasedRouter', $name, $tech, $desc)
 !endprocedure
 
 !procedure ContentBasedRouterGroup($id, $name='Content Based Router', $tech='')

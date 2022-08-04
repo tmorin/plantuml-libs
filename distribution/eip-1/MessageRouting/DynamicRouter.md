@@ -36,7 +36,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessageRouting/DynamicRouter')
 
 ' renders the element
-DynamicRouter('DynamicRouter', 'Dynamic Router', 'an optional tech label')
+DynamicRouter('DynamicRouter', 'Dynamic Router', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessageRouting/DynamicRouter')
 
 ' renders the element
-DynamicRouter('DynamicRouter', 'Dynamic Router', 'an optional tech label')
+DynamicRouter('DynamicRouter', 'Dynamic Router', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

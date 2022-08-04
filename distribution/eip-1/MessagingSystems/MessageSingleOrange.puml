@@ -2,14 +2,14 @@
 
 sprite $MessageSingleOrangeXs [15x10/16z] Oy06M55uxEpiw5mKFffUT2u71mSobvs51KaQpCK4
 
-sprite $MessageSingleOrangeSm [18x12/16z] Oy056D45sDdPCKMO2QbXO6CWIeIHaH5DX8M51Lc4XPKLJOG1eGOJ
+sprite $MessageSingleOrangeSm [18x12/16z] Oo0QiBEpOuem4bB3mCP0fWWB2mko20ihAve80q8D9W
 
-sprite $MessageSingleOrangeMd [25x16/16z] hScr0S0m4C10mpFilsxAC5kbhdoFcKx-IjR0hw2j_Yei8o5LDGy106m7XBY0TQTWxXxbfWa
+sprite $MessageSingleOrangeMd [25x16/16z] hScr0S104CJ0VJxilrnpP2Q56holjNhm3wID7SE1OB-2Fy6PsNSXvomRgAKiiEqGH5KD5_K
 
-sprite $MessageSingleOrangeLg [31x20/16z] jSk52S1040NHVx9A-c_t38txmna6dw5q5ANPpzBnNeqoFBp1FGVioY8uGlWvatQxsNDZJt8ceccH5_maS-FuHWK
+sprite $MessageSingleOrangeLg [31x20/16z] jSkr5G113CJGMIRttwufFeQVwWcVAUaeDhMVcwbxDJRty4OzcbNMUgJWvvoxsSqzg_4avr8AxMVJJt9L4zyG
 
-!procedure MessageSingleOrange($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'eip-1/MessagingSystems/MessageSingleOrange', $name, $tech)
+!procedure MessageSingleOrange($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingSystems/MessageSingleOrange', $name, $tech, $desc)
 !endprocedure
 
 !procedure MessageSingleOrangeGroup($id, $name='Message Single Orange', $tech='')

@@ -36,7 +36,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessagingSystems/MessageChannel')
 
 ' renders the element
-MessageChannel('MessageChannel', 'Message Channel', 'an optional tech label')
+MessageChannel('MessageChannel', 'Message Channel', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessagingSystems/MessageChannel')
 
 ' renders the element
-MessageChannel('MessageChannel', 'Message Channel', 'an optional tech label')
+MessageChannel('MessageChannel', 'Message Channel', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

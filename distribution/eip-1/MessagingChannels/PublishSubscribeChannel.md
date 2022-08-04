@@ -36,7 +36,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessagingChannels/PublishSubscribeChannel')
 
 ' renders the element
-PublishSubscribeChannel('PublishSubscribeChannel', 'Publish Subscribe Channel', 'an optional tech label')
+PublishSubscribeChannel('PublishSubscribeChannel', 'Publish Subscribe Channel', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessagingChannels/PublishSubscribeChannel')
 
 ' renders the element
-PublishSubscribeChannel('PublishSubscribeChannel', 'Publish Subscribe Channel', 'an optional tech label')
+PublishSubscribeChannel('PublishSubscribeChannel', 'Publish Subscribe Channel', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

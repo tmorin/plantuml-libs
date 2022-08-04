@@ -36,7 +36,7 @@ include('eip-1/bootstrap')
 include('eip-1/SystemManagement/ChannelPurger')
 
 ' renders the element
-ChannelPurger('ChannelPurger', 'Channel Purger', 'an optional tech label')
+ChannelPurger('ChannelPurger', 'Channel Purger', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('eip-1/bootstrap')
 include('eip-1/SystemManagement/ChannelPurger')
 
 ' renders the element
-ChannelPurger('ChannelPurger', 'Channel Purger', 'an optional tech label')
+ChannelPurger('ChannelPurger', 'Channel Purger', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

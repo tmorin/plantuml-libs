@@ -8,8 +8,8 @@ sprite $SelectiveConsumerMd [25x16/16z] nS_54SKm40FGMKbcwB_R3s6y9czyydA_nHjF1xoP
 
 sprite $SelectiveConsumerLg [31x20/16z] rP3L5KGn24JF84FMwB_RVUxsdHiFJZwWTrWzOj9vAZPj2V23KSwDcFJsYRS7bA7wI_PYBfW1F-3ppKzaviRQkmq8I1-ev5dc0CfDOQJNqdExWmq
 
-!procedure SelectiveConsumer($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'eip-1/MessagingEndpoints/SelectiveConsumer', $name, $tech)
+!procedure SelectiveConsumer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingEndpoints/SelectiveConsumer', $name, $tech, $desc)
 !endprocedure
 
 !procedure SelectiveConsumerGroup($id, $name='Selective Consumer', $tech='')

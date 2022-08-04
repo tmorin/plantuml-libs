@@ -36,7 +36,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessageTransformation/ContentFilter')
 
 ' renders the element
-ContentFilter('ContentFilter', 'Content Filter', 'an optional tech label')
+ContentFilter('ContentFilter', 'Content Filter', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessageTransformation/ContentFilter')
 
 ' renders the element
-ContentFilter('ContentFilter', 'Content Filter', 'an optional tech label')
+ContentFilter('ContentFilter', 'Content Filter', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

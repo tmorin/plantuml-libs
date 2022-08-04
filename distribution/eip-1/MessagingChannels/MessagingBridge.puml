@@ -8,8 +8,8 @@ sprite $MessagingBridgeMd [25x16/16z] jP330K0n340FGH7il-stpLStZky2E_mYo84fyLgG6H
 
 sprite $MessagingBridgeLg [31x20/16z] pT6r0S0m0CJ0Gc-6_RSDCvTHUsRNbtXAl-6SWg_kXbs1pfGlEIWEZCiNx0mpaqwioChK8wSTHx_do1FB7vYyiAitBRCzfzAwUEASMzboaVto9NhAjW
 
-!procedure MessagingBridge($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'eip-1/MessagingChannels/MessagingBridge', $name, $tech)
+!procedure MessagingBridge($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingChannels/MessagingBridge', $name, $tech, $desc)
 !endprocedure
 
 !procedure MessagingBridgeGroup($id, $name='Messaging Bridge', $tech='')

@@ -36,7 +36,7 @@ include('eip-1/bootstrap')
 include('eip-1/SystemManagement/Detour')
 
 ' renders the element
-Detour('Detour', 'Detour', 'an optional tech label')
+Detour('Detour', 'Detour', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('eip-1/bootstrap')
 include('eip-1/SystemManagement/Detour')
 
 ' renders the element
-Detour('Detour', 'Detour', 'an optional tech label')
+Detour('Detour', 'Detour', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessageRouting/RoutingSlip')
 
 ' renders the element
-RoutingSlip('RoutingSlip', 'Routing Slip', 'an optional tech label')
+RoutingSlip('RoutingSlip', 'Routing Slip', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessageRouting/RoutingSlip')
 
 ' renders the element
-RoutingSlip('RoutingSlip', 'Routing Slip', 'an optional tech label')
+RoutingSlip('RoutingSlip', 'Routing Slip', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -11,8 +11,8 @@ jP750G0X30GV4GwR_hizT_knEF4i_4F-e6t4-LTSILzYJGZm9GwO678LwxoR2CjD_29s7qLEZTCzJD5z
 jqN3JzqJ8ZQBsnAgV_01
 }
 
-!procedure MessageDispatcher($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'eip-1/MessagingEndpoints/MessageDispatcher', $name, $tech)
+!procedure MessageDispatcher($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingEndpoints/MessageDispatcher', $name, $tech, $desc)
 !endprocedure
 
 !procedure MessageDispatcherGroup($id, $name='Message Dispatcher', $tech='')

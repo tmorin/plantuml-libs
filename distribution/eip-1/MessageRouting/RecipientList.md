@@ -36,7 +36,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessageRouting/RecipientList')
 
 ' renders the element
-RecipientList('RecipientList', 'Recipient List', 'an optional tech label')
+RecipientList('RecipientList', 'Recipient List', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessageRouting/RecipientList')
 
 ' renders the element
-RecipientList('RecipientList', 'Recipient List', 'an optional tech label')
+RecipientList('RecipientList', 'Recipient List', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

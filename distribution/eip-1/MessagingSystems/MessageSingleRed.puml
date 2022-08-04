@@ -1,15 +1,15 @@
 ' definition of the Item eip-1/MessagingSystems/MessageSingleRed
 
-sprite $MessageSingleRedXs [15x10/16z] Oy0As3XHkAn0BXx0piMAmcTXPA0G
+sprite $MessageSingleRedXs [15x10/16z] Oy06M55uxEpiw5mKFffUT2u71mSobvkB2qaQpCK4
 
-sprite $MessageSingleRedSm [18x12/16z] Oy0DED45E9WPqONOC7InSd6peeemSNEXYJ0mip0oq1O
+sprite $MessageSingleRedSm [18x12/16z] Oo0QiBEpOuem4bB3mCP0fWWN5nUo20ihAve80q8D9W
 
-sprite $MessageSingleRedMd [25x16/16z] rSat0G0m30CmEply2HT0vrkzmWiIIwww3bN36h6LcUlewar4hSFCyAS1
+sprite $MessageSingleRedMd [25x16/16z] hScr0O1G5CNGYyEp_RT5ExvBoXpKjsrhu0TaUmf3GE1lGK_GE_C24Qa3wxBO1suQ0f8x9Be
 
-sprite $MessageSingleRedLg [31x20/16z] xSat0S0m30J0Lo_y0GU1qkpHjnus2h6xTf6uwHJ57S4jVchDyhcZf1epJS-R9bN5lUC2
+sprite $MessageSingleRedLg [31x20/16z] jSkr5S1G3CNG5_Xixp-kgGx3RNM4pwJbA1QpdulBUtKkuU6DV3IRrUgHX9_pMjrkhjtGaxocb6W_ktgIXs5yGm4
 
-!procedure MessageSingleRed($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'eip-1/MessagingSystems/MessageSingleRed', $name, $tech)
+!procedure MessageSingleRed($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingSystems/MessageSingleRed', $name, $tech, $desc)
 !endprocedure
 
 !procedure MessageSingleRedGroup($id, $name='Message Single Red', $tech='')

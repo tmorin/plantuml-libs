@@ -1,21 +1,21 @@
 ' definition of the Item eip-1/MessageConstruction/CorrelationIdentifier
 
-sprite $CorrelationIdentifierXs [15x10/16z] RKk30G1H20tVQVzjpxxS0xo2S3zu6LWhGPwFNEj2Bkz2bFM5adTnPVYDrlWubfcrh1-6BolEDrw-2G
+sprite $CorrelationIdentifierXs [15x10/16z] RSU50S0W34JHZplPVzgwbnSzFhHYPzQbGW07kFL1hzi0VejunouOXc9KvxDkLpKRwTk-el0s0m
 
-sprite $CorrelationIdentifierSm [18x12/16z] ROk50GCm20GXHQlxRzku7ouF5t3lL3Nc48DL7wKeC1CHQAJ-L86eKXR7pqh0Mc4dRX3BjNO1dErJD_AHcFZr-vKDixmD8cxIVvpXu0y
+sprite $CorrelationIdentifierSm [18x12/16z] ZSg50KCX40FG8BdWx3zjtVlj8QSuGXBkABbx4CWO8tJnlMEInrN0ayETnyj69pDrt5atm5Zdl7T8QmaNETbh9nD_pW
 
 sprite $CorrelationIdentifierMd [25x16/16z] {
-fSt5WSKm40DG6MI5qt-tQvxBVdu1mn0-5oGFGycXKkPod2YYif5HIaZ639e1rojSi3nKIOemif5rDGduAR1bQGPSERO0TTC2ZkVDicJtbdeWaedNHLGyTLXp
-nti4zemMA4SyyWS
+fOy53iKW04EnqYdS_xOVwtVVcpQL1FCxddHN4kJu8_ilcWeiA54h04B1a3Ai_hnosefaC1TQ_m4rZnXBmSdeKiVAk3AmPzHF8Izn60w8I0bTOUTM384iOoqC
+GzAyuWG
 }
 
 sprite $CorrelationIdentifierLg [31x20/16z] {
-hT05ZWGn44FHaCDm_zjkB9My0-AU9mZynhY7FCBdLagQvdBPXHQvOtDV2Do5tLF8xa2Xx0A0H56PWcL-m-VTfBc0Eq4htaiI-MMYAj3i9xbKUisXakM5KZ5V
-Cz0QYl8vd_cKpOnhvpEpSWBGSEPafjLxtyo2cuzokTRNsJNto1y
+hSm54iGm34DH1nILVV_RRbHkCznz0u4_jdqK4EqbPpiKLeyORp-14ZM2O2RarK4f5W5a2OySAKbxcccvtsyBu_KgzfJ8O2VL9yK_PdPop_7uKPx13jCz9_Gz
+U6RtTtOkogYMubEvCe0UFatACW_3i2YVKir-PbRp8xFgxPCV
 }
 
-!procedure CorrelationIdentifier($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'eip-1/MessageConstruction/CorrelationIdentifier', $name, $tech)
+!procedure CorrelationIdentifier($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageConstruction/CorrelationIdentifier', $name, $tech, $desc)
 !endprocedure
 
 !procedure CorrelationIdentifierGroup($id, $name='Correlation Identifier', $tech='')

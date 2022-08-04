@@ -8,8 +8,8 @@ sprite $MessageRouterMd [25x16/16z] hP3L0OGm343le77PVrlSvQkyUkF9LzeNwWLYpm8pBoDd
 
 sprite $MessageRouterLg [31x20/16z] lP750GCX44MJ5M3izz_jkhk_2umRTeYtI3utgswP2N0LwTpi9Amd9rsjhLvy_MCQchb28AqIu9fXTDgdJExCxVsc6GssR7RkeuibMxWS
 
-!procedure MessageRouter($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'eip-1/MessagingSystems/MessageRouter', $name, $tech)
+!procedure MessageRouter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingSystems/MessageRouter', $name, $tech, $desc)
 !endprocedure
 
 !procedure MessageRouterGroup($id, $name='Message Router', $tech='')

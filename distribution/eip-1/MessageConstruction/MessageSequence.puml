@@ -1,18 +1,18 @@
 ' definition of the Item eip-1/MessageConstruction/MessageSequence
 
-sprite $MessageSequenceXs [15x10/16z] bST50S10402nESRrBxVCtFp2Jo5WKPOmrGCgW0Dmpk2D0T5grxAlKZnh0G
+sprite $MessageSequenceXs [15x10/16z] bST50S10402nESRrBxVCtFp2Jo5WKPOmrGCgW0Dmpc2C0T5grxAlKZnh0G
 
-sprite $MessageSequenceSm [18x12/16z] dKlL0O102Brks7zSoM_rQ5w4-qXLLeqEz10oJUhaI6Iq9oOuQcLFplIL61iZ84WN10L1GO2HVXWffVYCFB_40m
+sprite $MessageSequenceSm [18x12/16z] fSY35S1G30NGXrhxRrlpg1znBZAYVEOUDQ1rhir7rgvvILcMwxGD56IroRXBlSkqoxJBk4azR2BfCqDY0G
 
-sprite $MessageSequenceMd [25x16/16z] lSfL0W8n30JGUF3xtxRkly3EIYTvXUl2nhM8qh9s8K3B9Vs85t01GCc5ak00ApNTr3hMhURaaPdpoKZ85HuTFWtU1xXKm06F2lTxXHiNG4bPJgZd3nC1
+sprite $MessageSequenceMd [25x16/16z] lSo53OH0443HyJkq_t8PmOaZ7rPVil1TQ5GRKjZr4vyiDZuHxo15OeCk6rYz0g2x8w1wlh8NAo4X5xGBZ3CC9_X90QxG5ZHDmPyJWBpB-cGJ
 
 sprite $MessageSequenceLg [31x20/16z] {
-rSrL5eGm341HuWcs_-LEKnl_7Gds3XVQvG-6b4UoqBqfMBbRfkK3z9vDb_xIB5T1kMU3T4gs9Hs7YOWBrGgHm5gPL7cLCckMKvd8KY20QAox3lQZC_8nMDR9
-F1ZsVV8UWq_lJ9P_lzyRe3Fdq2oygo_E1G
+rSu55eD040DGabb7xd_SpYokpziIB8-_rhmW4cIkpilU0gA-zT6NVH3s75tz64Vg6txF4VPJZEiYv6maaqTjcNhNPXMLYzSKQqaqUJoC067aq8MPKpynNJ-p
+BmkxcT5r2tTvvY5DB55dF-mDJ4mBBbhpstm
 }
 
-!procedure MessageSequence($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'eip-1/MessageConstruction/MessageSequence', $name, $tech)
+!procedure MessageSequence($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageConstruction/MessageSequence', $name, $tech, $desc)
 !endprocedure
 
 !procedure MessageSequenceGroup($id, $name='Message Sequence', $tech='')

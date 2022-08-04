@@ -8,8 +8,8 @@ sprite $WireTapMd [25x16/16z] uyC9c760GIF1XYh1oGK3V7nm9WkA3XPSHl7nuPBWm6KvZJm8
 
 sprite $WireTapLg [31x20/16z] uoC0cF41bf4YpSsE8Ss51FZua7aOkZdm6ix2mOfFcfMF3w_J-3ZmIdFGDTHOy04s
 
-!procedure WireTap($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'eip-1/SystemManagement/WireTap', $name, $tech)
+!procedure WireTap($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/SystemManagement/WireTap', $name, $tech, $desc)
 !endprocedure
 
 !procedure WireTapGroup($id, $name='Wire Tap', $tech='')

@@ -36,7 +36,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessageRouting/ContentBasedRouter')
 
 ' renders the element
-ContentBasedRouter('ContentBasedRouter', 'Content Based Router', 'an optional tech label')
+ContentBasedRouter('ContentBasedRouter', 'Content Based Router', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessageRouting/ContentBasedRouter')
 
 ' renders the element
-ContentBasedRouter('ContentBasedRouter', 'Content Based Router', 'an optional tech label')
+ContentBasedRouter('ContentBasedRouter', 'Content Based Router', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

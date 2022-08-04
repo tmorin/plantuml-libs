@@ -1,15 +1,15 @@
 ' definition of the Item eip-1/MessagingChannels/MessageBus
 
-sprite $MessageBusXs [15x10/16z] Oy04RAXS5Z39nCI01R0omW585pCSCB82kHniCC38p40I
+sprite $MessageBusXs [15x10/16z] Oy04RAXS5WZ5n805i3B20KWNCnmmiWAv76mmmCZ8G18
 
-sprite $MessageBusSm [18x12/16z] TSr50G0W3030EVGlZBlS1-RmPb09TFBjuTwXeXsM1fgaP3nFY3c5DZc4YRxt9e6Jzay4
+sprite $MessageBusSm [18x12/16z] XSg35G1140JHsd7-2P_D_zZWMJ1JLlhx4JLTDGOcEvkQqbsR6cANZLtZAhWohfn53m
 
-sprite $MessageBusMd [25x16/16z] dS-35S0m403GKxZ_lZLY_OVY31twUqEA0WhVDr5HGBu0SQKLInGWA62c63zZ3CSSuXtH7FE8zqYhOnQHuOual84OGeLcYAnNnEVl
+sprite $MessageBusMd [25x16/16z] bSrL0iGW40FG16VkVz_TUel3-nn9CE3mKCd24XTZauKPHp6zKQZHAgMl6gzJaJm3d4u9ULO6bmeaSMuouf0Y6fp28gTHA3l-
 
-sprite $MessageBusLg [31x20/16z] ZSq53aGn20HGfaNlV-3rhvsGVJ4S-PFHP3ES9nkboMOQICBlpVNuN9DD-29olv1O5J2tKyG0ica32F9weq0sxSI4_8n9234X7P_I6TBIsH-7TExT9m
+sprite $MessageBusLg [31x20/16z] ZSs54GDH24NHT-5h_mN7imwpPmn7DzKW-R8M93ybIBwy1ibFquhpSGyJzNRIn_9WS3R1zUKN34RI1dhykXKOINlW-cDXB7J1bMfvtvGgdXz7cMFt2G
 
-!procedure MessageBus($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'eip-1/MessagingChannels/MessageBus', $name, $tech)
+!procedure MessageBus($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingChannels/MessageBus', $name, $tech, $desc)
 !endprocedure
 
 !procedure MessageBusGroup($id, $name='Message Bus', $tech='')

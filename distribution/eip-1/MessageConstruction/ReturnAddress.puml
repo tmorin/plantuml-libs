@@ -8,8 +8,8 @@ sprite $ReturnAddressMd [25x16/16z] OnW4W1Md11CR6uXcmf1WP641qOnCs8nY105i4cmWW4s2
 
 sprite $ReturnAddressLg [31x20/16z] rScr0S1030D0sv82-mySPaxtV-rP_cGRF7T8RZt4PPDJsrLxnDZkLprLvxuvkEl9_wwtOEbh0G
 
-!procedure ReturnAddress($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'eip-1/MessageConstruction/ReturnAddress', $name, $tech)
+!procedure ReturnAddress($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageConstruction/ReturnAddress', $name, $tech, $desc)
 !endprocedure
 
 !procedure ReturnAddressGroup($id, $name='Return Address', $tech='')

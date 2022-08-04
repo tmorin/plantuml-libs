@@ -36,7 +36,7 @@ include('eip-1/bootstrap')
 include('eip-1/SystemManagement/TestMessage')
 
 ' renders the element
-TestMessage('TestMessage', 'Test Message', 'an optional tech label')
+TestMessage('TestMessage', 'Test Message', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('eip-1/bootstrap')
 include('eip-1/SystemManagement/TestMessage')
 
 ' renders the element
-TestMessage('TestMessage', 'Test Message', 'an optional tech label')
+TestMessage('TestMessage', 'Test Message', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

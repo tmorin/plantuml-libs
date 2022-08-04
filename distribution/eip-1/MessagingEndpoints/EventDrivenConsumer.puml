@@ -8,8 +8,8 @@ sprite $EventDrivenConsumerMd [25x16/16z] uyC9c760mI31niO25M1bPcRd0qkmmG0p5mZmyh
 
 sprite $EventDrivenConsumerLg [31x20/16z] uoC0cF41bc4WpO8knOOYpSR6Yf1XPsRcvMC3IxCX00iB5nZmy76pWqCCeHkY6M4H1o-8CNm3bGKVO0C
 
-!procedure EventDrivenConsumer($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'eip-1/MessagingEndpoints/EventDrivenConsumer', $name, $tech)
+!procedure EventDrivenConsumer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingEndpoints/EventDrivenConsumer', $name, $tech, $desc)
 !endprocedure
 
 !procedure EventDrivenConsumerGroup($id, $name='Event Driven Consumer', $tech='')

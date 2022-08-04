@@ -8,8 +8,8 @@ sprite $SmartProxyMd [8x16/16z] u-M20cO8mA3PsDXuW1Z4Xs5MD7Kio7mMLdQOE3iBI3yxaCy3
 
 sprite $SmartProxyLg [10x20/16z] u-M20sOO8C1Y0m8U86O5Yx71PJdmwcN1OnuNEv8i5qIC6qXnihEXgEF1xIe
 
-!procedure SmartProxy($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'eip-1/SystemManagement/SmartProxy', $name, $tech)
+!procedure SmartProxy($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/SystemManagement/SmartProxy', $name, $tech, $desc)
 !endprocedure
 
 !procedure SmartProxyGroup($id, $name='Smart Proxy', $tech='')

@@ -36,7 +36,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessageConstruction/EventMessage')
 
 ' renders the element
-EventMessage('EventMessage', 'Event Message', 'an optional tech label')
+EventMessage('EventMessage', 'Event Message', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessageConstruction/EventMessage')
 
 ' renders the element
-EventMessage('EventMessage', 'Event Message', 'an optional tech label')
+EventMessage('EventMessage', 'Event Message', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

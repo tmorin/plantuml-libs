@@ -36,7 +36,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessagingChannels/PointToPointChannel')
 
 ' renders the element
-PointToPointChannel('PointToPointChannel', 'Point To Point Channel', 'an optional tech label')
+PointToPointChannel('PointToPointChannel', 'Point To Point Channel', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessagingChannels/PointToPointChannel')
 
 ' renders the element
-PointToPointChannel('PointToPointChannel', 'Point To Point Channel', 'an optional tech label')
+PointToPointChannel('PointToPointChannel', 'Point To Point Channel', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

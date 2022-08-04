@@ -1,15 +1,15 @@
 ' definition of the Item eip-1/MessageConstruction/MessageReturnAddress
 
-sprite $MessageReturnAddressXs [15x10/16z] Oy06MDZnSHaOqRZCJ4p8N2O45rCn6oip0s4
+sprite $MessageReturnAddressXs [15x10/16z] Oy06cDXHk2n0BZx0pCI4eXl1nGHihCmCX04
 
-sprite $MessageReturnAddressSm [18x12/16z] ZSWt0G0W402n--xVCIiTCeQZ4aPQoSIP6PaPmvYgrZ2iCpCicKJnhG4
+sprite $MessageReturnAddressSm [18x12/16z] Oy09sD456DdPq8LOC7GnCp030Oe84n2mewh14C5c3ePjh70zX04
 
-sprite $MessageReturnAddressMd [25x16/16z] jSkr0S1030D0cUtz5qxguEEL0ZHWmYEBw2oWU27lHIIpnhtGubCyFTwA5mAlUYoavEMLPjZW
+sprite $MessageReturnAddressMd [25x16/16z] jSv50e102010Elx_ORsBspit6XX0Ftbrdom0mm_yBtWGoNSXITBBgucVmlyDowmAnCa_BuSgNF
 
-sprite $MessageReturnAddressLg [31x20/16z] pOx50O004CDw6jX_OHR0FT-gZc2hAh2YEc2dqr9fbToIcwvg5kKCTuy5EV2eobXCkw-ahpwFO57k7jTagQi6_OC9
+sprite $MessageReturnAddressLg [31x20/16z] pOx50O0054Bv0UZ-2xk0tUzAuZvihwYnBcD31h5ARybjaVAYt9MPjI27iiYknNJcIlhgyoelojAu9WDD3lW74m
 
-!procedure MessageReturnAddress($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'eip-1/MessageConstruction/MessageReturnAddress', $name, $tech)
+!procedure MessageReturnAddress($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageConstruction/MessageReturnAddress', $name, $tech, $desc)
 !endprocedure
 
 !procedure MessageReturnAddressGroup($id, $name='Message Return Address', $tech='')

@@ -36,7 +36,7 @@ include('eip-1/bootstrap')
 include('eip-1/SystemManagement/ControlBus')
 
 ' renders the element
-ControlBus('ControlBus', 'Control Bus', 'an optional tech label')
+ControlBus('ControlBus', 'Control Bus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('eip-1/bootstrap')
 include('eip-1/SystemManagement/ControlBus')
 
 ' renders the element
-ControlBus('ControlBus', 'Control Bus', 'an optional tech label')
+ControlBus('ControlBus', 'Control Bus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

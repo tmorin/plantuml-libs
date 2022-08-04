@@ -1,15 +1,15 @@
 ' definition of the Item eip-1/MessagingSystems/MessageChannel
 
-sprite $MessageChannelXs [15x10/16z] Ow08i3B20HkGomm7ZAn0BWSR330oasOk
+sprite $MessageChannelXs [15x10/16z] Ow08i3B20HkGomm7ZAn0BWSR330oacOk
 
-sprite $MessageChannelSm [18x12/16z] Ow0UO65504QG01iJ0h20HJYO4O2H4IJ4o8O0x8pKSmm
+sprite $MessageChannelSm [18x12/16z] Ow0UO69604QG00iJ0h20HJYGbO156DWGW9sHUeu1
 
-sprite $MessageChannelMd [25x16/16z] pSat0S0m00CmZsp-V3ilbq2ZLzYLhUJwHdUQv3lDQP4Djz7I88rtFbR7pqu
+sprite $MessageChannelMd [25x16/16z] pSat0S0m00CmZsp-V3ilbq2ZLzYMbLpnw4wJr1FDQP7jYT7I88btFbR3pqu
 
-sprite $MessageChannelLg [31x20/16z] tSsr0S0m44FH-vPn_u63ga9z_Ce3AQRMwathDQnpDq1Uwq62_h46sbErPUWVwuu8IteG_xO2
+sprite $MessageChannelLg [31x20/16z] tSsr0G1H20FGuB3_mETk_VrN8WcQ5duJQLWatHMHO2OFc2W_raGKM_MT4kN7EacmeYVujnu
 
-!procedure MessageChannel($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'eip-1/MessagingSystems/MessageChannel', $name, $tech)
+!procedure MessageChannel($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingSystems/MessageChannel', $name, $tech, $desc)
 !endprocedure
 
 !procedure MessageChannelGroup($id, $name='Message Channel', $tech='')

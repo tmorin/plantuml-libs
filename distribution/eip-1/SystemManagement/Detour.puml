@@ -8,8 +8,8 @@ sprite $DetourMd [25x16/16z] uyC9c740oYKukN58yFAmW02611jsezXnsC6Bmt9ExAvYmN0k1oS
 
 sprite $DetourLg [31x20/16z] lP750G1120DFrw7_RizTvibyqIIgJ4jqvkLIiApg5lhFSg3bVK-t8xuc-7aYOLq0tV5uoljhMV-GkVoMwvnHOXtXHW
 
-!procedure Detour($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'eip-1/SystemManagement/Detour', $name, $tech)
+!procedure Detour($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/SystemManagement/Detour', $name, $tech, $desc)
 !endprocedure
 
 !procedure DetourGroup($id, $name='Detour', $tech='')

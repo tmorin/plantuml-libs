@@ -36,7 +36,7 @@ include('eip-1/bootstrap')
 include('eip-1/SystemManagement/MessageStore')
 
 ' renders the element
-MessageStore('MessageStore', 'Message Store', 'an optional tech label')
+MessageStore('MessageStore', 'Message Store', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('eip-1/bootstrap')
 include('eip-1/SystemManagement/MessageStore')
 
 ' renders the element
-MessageStore('MessageStore', 'Message Store', 'an optional tech label')
+MessageStore('MessageStore', 'Message Store', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

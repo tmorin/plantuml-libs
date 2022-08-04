@@ -36,7 +36,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessageRouting/MessageBroker')
 
 ' renders the element
-MessageBroker('MessageBroker', 'Message Broker', 'an optional tech label')
+MessageBroker('MessageBroker', 'Message Broker', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessageRouting/MessageBroker')
 
 ' renders the element
-MessageBroker('MessageBroker', 'Message Broker', 'an optional tech label')
+MessageBroker('MessageBroker', 'Message Broker', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

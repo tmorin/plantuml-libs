@@ -11,8 +11,8 @@ jT654GCn40F0aG-3_NSRvXm4_ZMiDNlRXAhmH2pwa82lxG0uMDnLJpK0ZLakB05VzmJYazkLFUJLYKSm
 xW4
 }
 
-!procedure ChannelPurger($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'eip-1/SystemManagement/ChannelPurger', $name, $tech)
+!procedure ChannelPurger($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/SystemManagement/ChannelPurger', $name, $tech, $desc)
 !endprocedure
 
 !procedure ChannelPurgerGroup($id, $name='Channel Purger', $tech='')

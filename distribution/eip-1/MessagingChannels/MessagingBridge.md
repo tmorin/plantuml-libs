@@ -36,7 +36,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessagingChannels/MessagingBridge')
 
 ' renders the element
-MessagingBridge('MessagingBridge', 'Messaging Bridge', 'an optional tech label')
+MessagingBridge('MessagingBridge', 'Messaging Bridge', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessagingChannels/MessagingBridge')
 
 ' renders the element
-MessagingBridge('MessagingBridge', 'Messaging Bridge', 'an optional tech label')
+MessagingBridge('MessagingBridge', 'Messaging Bridge', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

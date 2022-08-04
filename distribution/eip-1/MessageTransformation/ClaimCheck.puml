@@ -8,8 +8,8 @@ sprite $ClaimCheckMd [25x16/16z] lKy36e1G3FwtUbEu_sspyIdCHdqBsGtyb11cbgj40f16hnm
 
 sprite $ClaimCheckLg [31x20/16z] pT035W0X403GnIZU_xRfQMtqi-5tz5kWyc7AS7MuoUZOC3af0wLdD8mwiTwRvU42fHG0e8wT3TcudpicejLt6scxj6vjc87X_J-7BHG1
 
-!procedure ClaimCheck($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'eip-1/MessageTransformation/ClaimCheck', $name, $tech)
+!procedure ClaimCheck($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageTransformation/ClaimCheck', $name, $tech, $desc)
 !endprocedure
 
 !procedure ClaimCheckGroup($id, $name='Claim Check', $tech='')

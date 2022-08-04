@@ -8,8 +8,8 @@ sprite $MessageStoreMd [25x16/16z] pOa52W1H20NH5qZj_M-xJMm7zSTskajmmGj1ZN0lo5Yfd
 
 sprite $MessageStoreLg [31x20/16z] vP434i10303dubJ__srjSzGz13jCiWDm3tfFixgxAQtf64EFBdKaOcfkoX32gfOgXf8_QR5cd80aCkXF5qfxI04
 
-!procedure MessageStore($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'eip-1/SystemManagement/MessageStore', $name, $tech)
+!procedure MessageStore($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/SystemManagement/MessageStore', $name, $tech, $desc)
 !endprocedure
 
 !procedure MessageStoreGroup($id, $name='Message Store', $tech='')

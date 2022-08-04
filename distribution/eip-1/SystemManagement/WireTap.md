@@ -36,7 +36,7 @@ include('eip-1/bootstrap')
 include('eip-1/SystemManagement/WireTap')
 
 ' renders the element
-WireTap('WireTap', 'Wire Tap', 'an optional tech label')
+WireTap('WireTap', 'Wire Tap', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('eip-1/bootstrap')
 include('eip-1/SystemManagement/WireTap')
 
 ' renders the element
-WireTap('WireTap', 'Wire Tap', 'an optional tech label')
+WireTap('WireTap', 'Wire Tap', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

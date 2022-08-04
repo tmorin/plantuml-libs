@@ -36,7 +36,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessagingEndpoints/Endpoint')
 
 ' renders the element
-Endpoint('Endpoint', 'Endpoint', 'an optional tech label')
+Endpoint('Endpoint', 'Endpoint', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessagingEndpoints/Endpoint')
 
 ' renders the element
-Endpoint('Endpoint', 'Endpoint', 'an optional tech label')
+Endpoint('Endpoint', 'Endpoint', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

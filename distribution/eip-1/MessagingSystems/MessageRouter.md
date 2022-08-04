@@ -36,7 +36,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessagingSystems/MessageRouter')
 
 ' renders the element
-MessageRouter('MessageRouter', 'Message Router', 'an optional tech label')
+MessageRouter('MessageRouter', 'Message Router', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('eip-1/bootstrap')
 include('eip-1/MessagingSystems/MessageRouter')
 
 ' renders the element
-MessageRouter('MessageRouter', 'Message Router', 'an optional tech label')
+MessageRouter('MessageRouter', 'Message Router', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
