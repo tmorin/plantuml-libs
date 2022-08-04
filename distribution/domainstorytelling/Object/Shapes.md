@@ -36,7 +36,7 @@ include('domainstorytelling/bootstrap')
 include('domainstorytelling/Object/Shapes')
 
 ' renders the element
-Shapes('Shapes', 'Shapes', 'an optional tech label')
+Shapes('Shapes', 'Shapes', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('domainstorytelling/bootstrap')
 include('domainstorytelling/Object/Shapes')
 
 ' renders the element
-Shapes('Shapes', 'Shapes', 'an optional tech label')
+Shapes('Shapes', 'Shapes', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

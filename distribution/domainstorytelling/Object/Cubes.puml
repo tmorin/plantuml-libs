@@ -2,20 +2,17 @@
 
 sprite $CubesXs [10x10/16z] Oq01_Fpy40ONY0CJue6pG6BC_10c2v1WPmQnUFc10AgP5QG8eX8e3jB5pW
 
-sprite $CubesSm [12x12/16z] NKo54KCn5EB7dVstBU5orkS2uDyMsvlE0hvJF9DTd_5c4l3yUQu7YA9bFxPgGb3zq7Xjc1BJhQPFP1noCQfOTKCMDFq
+sprite $CubesSm [12x12/16z] NOU30G0n00ElThF_jc_6uO-kVAxPmKpF1gdGLSyjmMl72KwPi1t6cXwxRR8sLBQqRakstV1CgSjiKO41O2ei
 
-sprite $CubesMd [16x16/16z] {
-RSo50SKW54FH5FUx_xHVweOVu4NlpVNfmDJf4T9cyhoDl1c2CfJ3qAPmiRJQZiK5-azWbXzLIZ1JqrZ20W058a2dpyPBiwKrQqyOq-n6-pim90T4IMtDbYPf
-txy
-}
+sprite $CubesMd [16x16/16z] ROo53GDH5CDyZEzx_sshbCd28FyPwbsLDUdwa6w4jZsq3cowFtGucJyq3zqtGmO5W_QWUi2gaVc-dSs6NIVLiZGCO7HwWUT3m-ZJCtgomQWkG9oERou
 
 sprite $CubesLg [20x20/16z] {
-VSY5SKKn3031CposSlrtcz5dtk7bbphpOZ5LxdPT2_tGnfKxfE9-FnsTHPyl3TuEVjuSdhLTzMWq3M0tTUYcHYhX2carBJHD0U5DzDcp1S-0yntm-QRBwUKs
-fUpgC1gB-gSBARIGvfpF_W4
+VSu52WH15CJGZ5l_pVrlkpJZ-h0YMF6bgBZep4fse_PGJbfipV4wG4qbZPwRkNDhyDcgS5QCgbD1fJ6_KMkerUrIsC-ZD-keD0i8Dr7EMHkS0NERWBqrUvid
+g7CRTBwHZ896_Mb75WfPEvSdVm
 }
 
-!procedure Cubes($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'domainstorytelling/Object/Cubes', $name, $tech)
+!procedure Cubes($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'domainstorytelling/Object/Cubes', $name, $tech, $desc)
 !endprocedure
 
 !procedure CubesCard($id, $funcName="", $content="")

@@ -36,7 +36,7 @@ include('domainstorytelling/bootstrap')
 include('domainstorytelling/Object/Cube')
 
 ' renders the element
-Cube('Cube', 'Cube', 'an optional tech label')
+Cube('Cube', 'Cube', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('domainstorytelling/bootstrap')
 include('domainstorytelling/Object/Cube')
 
 ' renders the element
-Cube('Cube', 'Cube', 'an optional tech label')
+Cube('Cube', 'Cube', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -1,15 +1,15 @@
 ' definition of the Item domainstorytelling/Actor/User
 
-sprite $UserXs [8x10/16z] Os1WOEHd004sVdumWny4a6W648K0N61n9g0e6F3nem8
+sprite $UserXs [8x10/16z] Om02VWOGOEFdvmVpG029PW1H2C055cS4Ye817pyg
 
-sprite $UserSm [10x12/16z] PSR50O1000InnPtflreurxmYOs6GWt6bOREcAUy69bNWsU0rYNPwJzeF
+sprite $UserSm [10x12/16z] PSR50O1000InnPtflreurxmYOq4UnfM6pPAcl1kOL85dWzScsEazQJy
 
-sprite $UserMd [14x16/16z] ZSp50S0m509Gg7ltdxOIz-JTlW24_PwWpVTF3HI37bSrKOMaNaoJzmav77364odpEH7SZx-blorLeIrtgzcRNW
+sprite $UserMd [14x16/16z] ZOt50K0X34FpNO7zfyNTtwsDGVEn4uwBATob3tS-oVNPQz7NRgyazoCw2MfSH4r__mPWOm6T2TnibYkv1
 
-sprite $UserLg [17x20/16z] bSs30S0m50JGYvtRVzhQxYlpYP6hHMAbsIkOIKxcG9u3QWfm5ew1U0ouAU3dWC2-n6EHsB6uPQpQVE2u8UOLcmZtYkT1vM_gEA85
+sprite $UserLg [17x20/16z] bOq30WKn34Hhjxd_QJzMmVgLqOoQYQCRXJZuqp412slSreGM3P1beiX4N19fJKYNXBxr7tjrYh6QF2e20MFC0ASd40nuZPKINm
 
-!procedure User($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'domainstorytelling/Actor/User', $name, $tech)
+!procedure User($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'domainstorytelling/Actor/User', $name, $tech, $desc)
 !endprocedure
 
 !procedure UserCard($id, $funcName="", $content="")

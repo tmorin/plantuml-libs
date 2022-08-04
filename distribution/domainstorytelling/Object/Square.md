@@ -36,7 +36,7 @@ include('domainstorytelling/bootstrap')
 include('domainstorytelling/Object/Square')
 
 ' renders the element
-Square('Square', 'Square', 'an optional tech label')
+Square('Square', 'Square', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('domainstorytelling/bootstrap')
 include('domainstorytelling/Object/Square')
 
 ' renders the element
-Square('Square', 'Square', 'an optional tech label')
+Square('Square', 'Square', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

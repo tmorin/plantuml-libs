@@ -36,7 +36,7 @@ include('domainstorytelling/bootstrap')
 include('domainstorytelling/Actor/User')
 
 ' renders the element
-User('User', 'User', 'an optional tech label')
+User('User', 'User', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('domainstorytelling/bootstrap')
 include('domainstorytelling/Actor/User')
 
 ' renders the element
-User('User', 'User', 'an optional tech label')
+User('User', 'User', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

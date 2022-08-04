@@ -1,21 +1,21 @@
 ' definition of the Item domainstorytelling/Actor/Users
 
-sprite $UsersXs [12x10/16z] NSg30SG050FG7Ek-_QUj_HdbMLZ-Ntea4jxmRqbbotY5rvPjUruWD08e9G4aLpm2
+sprite $UsersXs [12x10/16z] NSg50S8040J1nPtflrgSsEjPoyBdxtL7AOBzbKvgel-orpih41S1ZYf0JV4J
 
-sprite $UsersSm [15x12/16z] RSh50KCn3C1GVGvh_sbBzh4lOEIVIpV23eTgf2ggtiIJfRfjsc36Yd0t64hIUsZRjJJ57qmevz5D-ta2mtJmCzVF0Du
+sprite $UsersSm [15x12/16z] ROp50S0m30El7DR-quRzwmMC4dyyagK7N9BL8z7WPJrHHddqD40-O2s_lKgcOYptoX-I2sOnWoMSHxJoE4yWMNaooMMIW0O
 
 sprite $UsersMd [20x16/16z] {
-VSnL0iGW34NHXzNRk__T3i7oDwS2KVrplaN61OocxOuIpJMY0imS8tg1k78F41JmlgHeKHNiHtNEQ6lTaqNjX-9p18NtKiGtJxa07rm99_jo3ZSkffnKFJXB
-c0EdAImoFm
+VOo50S1030AfUzb_sdUtUoK9OCJrRMM9cg3sPt8btavjfa-BKn_JsciJajg2AKtLfGkEtNKIfIzYVay0tus9QR9BN4d-v3qp0cERyIIrQPedADwaDiEofTuE
+4W
 }
 
 sprite $UsersLg [25x20/16z] {
-ZSu5aWGn243H7s-5-zzs2yAEssiDLl23t1klg1ayETLrBggViWP0L8X8Pj6GPYzq-smC3Q0cEWefuW8o4rQx0eUw0dZyQhDuvI9BrDrLxB5c8tTFzWQxHKJc
-0BrQEJIS4G_3DxI-rFMEBqofbLtlv5nhmXnwfn2UEY2ak_Z9Hty
+ZSy54iGm28NX7rAtT__Rxi2mRlqgyG2SOCtvH67apQxKSzD90xWASEW0B4REf59deKKpCQf0DHPDYoOTS4GBiNS6DYKdZ_1WgNcAnydskcF5A_igE_vhnif8
+XkvcDfKDFHfp6EUiwKacZBcpwed5NDhqn2bl9xZHevsVBW
 }
 
-!procedure Users($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'domainstorytelling/Actor/Users', $name, $tech)
+!procedure Users($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'domainstorytelling/Actor/Users', $name, $tech, $desc)
 !endprocedure
 
 !procedure UsersCard($id, $funcName="", $content="")
