@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Treyarch')
 
 ' renders the element
-Treyarch('Treyarch', 'Treyarch', 'an optional tech label')
+Treyarch('Treyarch', 'Treyarch', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Treyarch')
 
 ' renders the element
-Treyarch('Treyarch', 'Treyarch', 'an optional tech label')
+Treyarch('Treyarch', 'Treyarch', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

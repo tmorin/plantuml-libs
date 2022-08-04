@@ -8,6 +8,6 @@ sprite $XilinxMd [16x16/16z] VOs30G0m40DhO_zjQ-FALm8YFk5y9eNbNKAOFlanASGWuKdl7j0
 
 sprite $XilinxLg [20x20/16z] RO-54O1030HnX-k_Mkm_dXtBnBVvmC-AmYMfjjbA8AdfZGvANMMGbdHKmzuKCEXbcb4M2tEMB2-SDddA6I5EnzFY8OY7e3toPKFqw03jKLFOd0Sze3nGw1y
 
-!procedure Xilinx($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/X/Xilinx', $name, $tech)
+!procedure Xilinx($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/X/Xilinx', $name, $tech, $desc)
 !endprocedure

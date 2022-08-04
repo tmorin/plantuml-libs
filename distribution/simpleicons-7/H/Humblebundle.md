@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Humblebundle')
 
 ' renders the element
-Humblebundle('Humblebundle', 'Humblebundle', 'an optional tech label')
+Humblebundle('Humblebundle', 'Humblebundle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Humblebundle')
 
 ' renders the element
-Humblebundle('Humblebundle', 'Humblebundle', 'an optional tech label')
+Humblebundle('Humblebundle', 'Humblebundle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

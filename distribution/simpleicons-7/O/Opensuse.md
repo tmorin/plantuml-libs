@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Opensuse')
 
 ' renders the element
-Opensuse('Opensuse', 'Opensuse', 'an optional tech label')
+Opensuse('Opensuse', 'Opensuse', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Opensuse')
 
 ' renders the element
-Opensuse('Opensuse', 'Opensuse', 'an optional tech label')
+Opensuse('Opensuse', 'Opensuse', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

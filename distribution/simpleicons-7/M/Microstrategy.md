@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Microstrategy')
 
 ' renders the element
-Microstrategy('Microstrategy', 'Microstrategy', 'an optional tech label')
+Microstrategy('Microstrategy', 'Microstrategy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Microstrategy')
 
 ' renders the element
-Microstrategy('Microstrategy', 'Microstrategy', 'an optional tech label')
+Microstrategy('Microstrategy', 'Microstrategy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

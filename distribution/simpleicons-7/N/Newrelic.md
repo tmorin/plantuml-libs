@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Newrelic')
 
 ' renders the element
-Newrelic('Newrelic', 'Newrelic', 'an optional tech label')
+Newrelic('Newrelic', 'Newrelic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Newrelic')
 
 ' renders the element
-Newrelic('Newrelic', 'Newrelic', 'an optional tech label')
+Newrelic('Newrelic', 'Newrelic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Railway')
 
 ' renders the element
-Railway('Railway', 'Railway', 'an optional tech label')
+Railway('Railway', 'Railway', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Railway')
 
 ' renders the element
-Railway('Railway', 'Railway', 'an optional tech label')
+Railway('Railway', 'Railway', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

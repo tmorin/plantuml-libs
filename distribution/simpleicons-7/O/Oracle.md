@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Oracle')
 
 ' renders the element
-Oracle('Oracle', 'Oracle', 'an optional tech label')
+Oracle('Oracle', 'Oracle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Oracle')
 
 ' renders the element
-Oracle('Oracle', 'Oracle', 'an optional tech label')
+Oracle('Oracle', 'Oracle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

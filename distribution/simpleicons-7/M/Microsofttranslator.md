@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Microsofttranslator')
 
 ' renders the element
-Microsofttranslator('Microsofttranslator', 'Microsofttranslator', 'an optional tech label')
+Microsofttranslator('Microsofttranslator', 'Microsofttranslator', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Microsofttranslator')
 
 ' renders the element
-Microsofttranslator('Microsofttranslator', 'Microsofttranslator', 'an optional tech label')
+Microsofttranslator('Microsofttranslator', 'Microsofttranslator', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

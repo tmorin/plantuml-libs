@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Liquibase')
 
 ' renders the element
-Liquibase('Liquibase', 'Liquibase', 'an optional tech label')
+Liquibase('Liquibase', 'Liquibase', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Liquibase')
 
 ' renders the element
-Liquibase('Liquibase', 'Liquibase', 'an optional tech label')
+Liquibase('Liquibase', 'Liquibase', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

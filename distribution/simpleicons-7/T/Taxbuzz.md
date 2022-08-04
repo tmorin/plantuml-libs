@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Taxbuzz')
 
 ' renders the element
-Taxbuzz('Taxbuzz', 'Taxbuzz', 'an optional tech label')
+Taxbuzz('Taxbuzz', 'Taxbuzz', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Taxbuzz')
 
 ' renders the element
-Taxbuzz('Taxbuzz', 'Taxbuzz', 'an optional tech label')
+Taxbuzz('Taxbuzz', 'Taxbuzz', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

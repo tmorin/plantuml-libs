@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Soundcharts')
 
 ' renders the element
-Soundcharts('Soundcharts', 'Soundcharts', 'an optional tech label')
+Soundcharts('Soundcharts', 'Soundcharts', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Soundcharts')
 
 ' renders the element
-Soundcharts('Soundcharts', 'Soundcharts', 'an optional tech label')
+Soundcharts('Soundcharts', 'Soundcharts', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

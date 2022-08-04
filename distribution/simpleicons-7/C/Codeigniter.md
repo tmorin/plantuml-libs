@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Codeigniter')
 
 ' renders the element
-Codeigniter('Codeigniter', 'Codeigniter', 'an optional tech label')
+Codeigniter('Codeigniter', 'Codeigniter', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Codeigniter')
 
 ' renders the element
-Codeigniter('Codeigniter', 'Codeigniter', 'an optional tech label')
+Codeigniter('Codeigniter', 'Codeigniter', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

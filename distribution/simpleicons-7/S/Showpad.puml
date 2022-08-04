@@ -8,6 +8,6 @@ sprite $ShowpadMd [16x16/16z] hOl50GGn3CIqZ8dwhpRSm84-zX1_81uqfY6r6fSQcsJsu7Lglm
 
 sprite $ShowpadLg [20x20/16z] lOk74GGX4CDyEOBwx_R7tg64Fv5bew_exxXDamgWP0EOqs8v8-6QbyuYuSsIge3Y8-SehPnqcJGBjDUTTSW7AKrOTTByrP6RLavfWCnf5JeSAZQh__43
 
-!procedure Showpad($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/S/Showpad', $name, $tech)
+!procedure Showpad($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/S/Showpad', $name, $tech, $desc)
 !endprocedure

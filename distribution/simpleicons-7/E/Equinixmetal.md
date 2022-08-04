@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Equinixmetal')
 
 ' renders the element
-Equinixmetal('Equinixmetal', 'Equinixmetal', 'an optional tech label')
+Equinixmetal('Equinixmetal', 'Equinixmetal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Equinixmetal')
 
 ' renders the element
-Equinixmetal('Equinixmetal', 'Equinixmetal', 'an optional tech label')
+Equinixmetal('Equinixmetal', 'Equinixmetal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

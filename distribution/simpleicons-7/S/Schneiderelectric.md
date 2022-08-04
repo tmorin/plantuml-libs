@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Schneiderelectric')
 
 ' renders the element
-Schneiderelectric('Schneiderelectric', 'Schneiderelectric', 'an optional tech label')
+Schneiderelectric('Schneiderelectric', 'Schneiderelectric', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Schneiderelectric')
 
 ' renders the element
-Schneiderelectric('Schneiderelectric', 'Schneiderelectric', 'an optional tech label')
+Schneiderelectric('Schneiderelectric', 'Schneiderelectric', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

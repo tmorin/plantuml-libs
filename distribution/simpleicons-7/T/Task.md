@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Task')
 
 ' renders the element
-Task('Task', 'Task', 'an optional tech label')
+Task('Task', 'Task', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Task')
 
 ' renders the element
-Task('Task', 'Task', 'an optional tech label')
+Task('Task', 'Task', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

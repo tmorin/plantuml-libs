@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Anchor')
 
 ' renders the element
-Anchor('Anchor', 'Anchor', 'an optional tech label')
+Anchor('Anchor', 'Anchor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Anchor')
 
 ' renders the element
-Anchor('Anchor', 'Anchor', 'an optional tech label')
+Anchor('Anchor', 'Anchor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

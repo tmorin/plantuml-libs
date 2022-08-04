@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Suse')
 
 ' renders the element
-Suse('Suse', 'Suse', 'an optional tech label')
+Suse('Suse', 'Suse', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Suse')
 
 ' renders the element
-Suse('Suse', 'Suse', 'an optional tech label')
+Suse('Suse', 'Suse', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

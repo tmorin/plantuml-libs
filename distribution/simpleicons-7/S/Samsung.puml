@@ -8,6 +8,6 @@ sprite $SamsungMd [16x16/16z] lS470SD0302n--rj_coBef7uc1Sv8j3nj2v67nd-iF4idJFUPi
 
 sprite $SamsungLg [20x20/16z] rSd70S102CH0Bf5X-w_MeGjRpn7zi18gZDoOmbYZfuAfN-C0kJvMhJ09qfZRSiIMV0O_yl5k
 
-!procedure Samsung($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/S/Samsung', $name, $tech)
+!procedure Samsung($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/S/Samsung', $name, $tech, $desc)
 !endprocedure

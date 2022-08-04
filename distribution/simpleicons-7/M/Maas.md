@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Maas')
 
 ' renders the element
-Maas('Maas', 'Maas', 'an optional tech label')
+Maas('Maas', 'Maas', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Maas')
 
 ' renders the element
-Maas('Maas', 'Maas', 'an optional tech label')
+Maas('Maas', 'Maas', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Jsfiddle')
 
 ' renders the element
-Jsfiddle('Jsfiddle', 'Jsfiddle', 'an optional tech label')
+Jsfiddle('Jsfiddle', 'Jsfiddle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Jsfiddle')
 
 ' renders the element
-Jsfiddle('Jsfiddle', 'Jsfiddle', 'an optional tech label')
+Jsfiddle('Jsfiddle', 'Jsfiddle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fraunhofergesellschaft')
 
 ' renders the element
-Fraunhofergesellschaft('Fraunhofergesellschaft', 'Fraunhofergesellschaft', 'an optional tech label')
+Fraunhofergesellschaft('Fraunhofergesellschaft', 'Fraunhofergesellschaft', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fraunhofergesellschaft')
 
 ' renders the element
-Fraunhofergesellschaft('Fraunhofergesellschaft', 'Fraunhofergesellschaft', 'an optional tech label')
+Fraunhofergesellschaft('Fraunhofergesellschaft', 'Fraunhofergesellschaft', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

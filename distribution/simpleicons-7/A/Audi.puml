@@ -8,6 +8,6 @@ sprite $AudiMd [16x16/16z] hOK50G0n3CGonbxzgtsqi8E4uua9KlW5E5WdFL8ZhmuiCSeZW-f04
 
 sprite $AudiLg [20x20/16z] pSa5OSG030NGLuQGVxUhYrtWer-QRI8ZC_hkz_jFKkZc6io9YWLFq-lXrdW7jgzfZzVWFdVaaFTgFnDbLYev1tEG5tV6iaOUtdeS6Ql_cZy
 
-!procedure Audi($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/A/Audi', $name, $tech)
+!procedure Audi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/A/Audi', $name, $tech, $desc)
 !endprocedure

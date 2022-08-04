@@ -8,6 +8,6 @@ sprite $CommitlintMd [16x16/16z] Oo0BC36Y2V31MImy7CXy5ZPKUNuqzTpe-ldPU45yBWO6NX3
 
 sprite $CommitlintLg [20x20/16z] jS-r0S0W443HZpliFstaAgHDNWVd_ADtmo4kVpuSVyFekltbSDOEVVuLWmXBFwsIRACL604f8xo1ADZum66S1tN5u6it
 
-!procedure Commitlint($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/C/Commitlint', $name, $tech)
+!procedure Commitlint($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/C/Commitlint', $name, $tech, $desc)
 !endprocedure

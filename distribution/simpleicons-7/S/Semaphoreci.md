@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Semaphoreci')
 
 ' renders the element
-Semaphoreci('Semaphoreci', 'Semaphoreci', 'an optional tech label')
+Semaphoreci('Semaphoreci', 'Semaphoreci', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Semaphoreci')
 
 ' renders the element
-Semaphoreci('Semaphoreci', 'Semaphoreci', 'an optional tech label')
+Semaphoreci('Semaphoreci', 'Semaphoreci', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

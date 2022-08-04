@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Z/Zenn')
 
 ' renders the element
-Zenn('Zenn', 'Zenn', 'an optional tech label')
+Zenn('Zenn', 'Zenn', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Z/Zenn')
 
 ' renders the element
-Zenn('Zenn', 'Zenn', 'an optional tech label')
+Zenn('Zenn', 'Zenn', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

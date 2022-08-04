@@ -8,6 +8,6 @@ sprite $AppleMd [16x16/16z] XOk35G1144EpzgJ_Qi_cVmgneHsE2CtH6X97ABjshIheohnKEwCj
 
 sprite $AppleLg [20x20/16z] XP253KGn3CL-cVlsd_OOGb8jTZWNfLsI02W7RAawu5GQpqfhDNUvldV_feAINsep5zyhK8gHPdJR9yThEtF3Ikp4yUfod68StCc7CKBxZhq3
 
-!procedure Apple($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/A/Apple', $name, $tech)
+!procedure Apple($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/A/Apple', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Powers')
 
 ' renders the element
-Powers('Powers', 'Powers', 'an optional tech label')
+Powers('Powers', 'Powers', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Powers')
 
 ' renders the element
-Powers('Powers', 'Powers', 'an optional tech label')
+Powers('Powers', 'Powers', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

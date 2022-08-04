@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sonarlint')
 
 ' renders the element
-Sonarlint('Sonarlint', 'Sonarlint', 'an optional tech label')
+Sonarlint('Sonarlint', 'Sonarlint', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sonarlint')
 
 ' renders the element
-Sonarlint('Sonarlint', 'Sonarlint', 'an optional tech label')
+Sonarlint('Sonarlint', 'Sonarlint', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

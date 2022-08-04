@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Postcss')
 
 ' renders the element
-Postcss('Postcss', 'Postcss', 'an optional tech label')
+Postcss('Postcss', 'Postcss', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Postcss')
 
 ' renders the element
-Postcss('Postcss', 'Postcss', 'an optional tech label')
+Postcss('Postcss', 'Postcss', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

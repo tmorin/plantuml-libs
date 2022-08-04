@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Scrutinizerci')
 
 ' renders the element
-Scrutinizerci('Scrutinizerci', 'Scrutinizerci', 'an optional tech label')
+Scrutinizerci('Scrutinizerci', 'Scrutinizerci', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Scrutinizerci')
 
 ' renders the element
-Scrutinizerci('Scrutinizerci', 'Scrutinizerci', 'an optional tech label')
+Scrutinizerci('Scrutinizerci', 'Scrutinizerci', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

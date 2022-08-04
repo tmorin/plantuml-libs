@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Whitesource')
 
 ' renders the element
-Whitesource('Whitesource', 'Whitesource', 'an optional tech label')
+Whitesource('Whitesource', 'Whitesource', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Whitesource')
 
 ' renders the element
-Whitesource('Whitesource', 'Whitesource', 'an optional tech label')
+Whitesource('Whitesource', 'Whitesource', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

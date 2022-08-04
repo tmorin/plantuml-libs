@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Brave')
 
 ' renders the element
-Brave('Brave', 'Brave', 'an optional tech label')
+Brave('Brave', 'Brave', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Brave')
 
 ' renders the element
-Brave('Brave', 'Brave', 'an optional tech label')
+Brave('Brave', 'Brave', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

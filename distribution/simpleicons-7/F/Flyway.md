@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Flyway')
 
 ' renders the element
-Flyway('Flyway', 'Flyway', 'an optional tech label')
+Flyway('Flyway', 'Flyway', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Flyway')
 
 ' renders the element
-Flyway('Flyway', 'Flyway', 'an optional tech label')
+Flyway('Flyway', 'Flyway', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

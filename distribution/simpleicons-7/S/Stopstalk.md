@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Stopstalk')
 
 ' renders the element
-Stopstalk('Stopstalk', 'Stopstalk', 'an optional tech label')
+Stopstalk('Stopstalk', 'Stopstalk', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Stopstalk')
 
 ' renders the element
-Stopstalk('Stopstalk', 'Stopstalk', 'an optional tech label')
+Stopstalk('Stopstalk', 'Stopstalk', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

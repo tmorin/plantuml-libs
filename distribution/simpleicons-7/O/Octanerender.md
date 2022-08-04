@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Octanerender')
 
 ' renders the element
-Octanerender('Octanerender', 'Octanerender', 'an optional tech label')
+Octanerender('Octanerender', 'Octanerender', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Octanerender')
 
 ' renders the element
-Octanerender('Octanerender', 'Octanerender', 'an optional tech label')
+Octanerender('Octanerender', 'Octanerender', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Trino')
 
 ' renders the element
-Trino('Trino', 'Trino', 'an optional tech label')
+Trino('Trino', 'Trino', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Trino')
 
 ' renders the element
-Trino('Trino', 'Trino', 'an optional tech label')
+Trino('Trino', 'Trino', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

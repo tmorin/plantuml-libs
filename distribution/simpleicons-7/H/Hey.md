@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hey')
 
 ' renders the element
-Hey('Hey', 'Hey', 'an optional tech label')
+Hey('Hey', 'Hey', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hey')
 
 ' renders the element
-Hey('Hey', 'Hey', 'an optional tech label')
+Hey('Hey', 'Hey', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

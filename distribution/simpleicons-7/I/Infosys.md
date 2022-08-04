@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Infosys')
 
 ' renders the element
-Infosys('Infosys', 'Infosys', 'an optional tech label')
+Infosys('Infosys', 'Infosys', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Infosys')
 
 ' renders the element
-Infosys('Infosys', 'Infosys', 'an optional tech label')
+Infosys('Infosys', 'Infosys', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Q/Quantcast')
 
 ' renders the element
-Quantcast('Quantcast', 'Quantcast', 'an optional tech label')
+Quantcast('Quantcast', 'Quantcast', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Q/Quantcast')
 
 ' renders the element
-Quantcast('Quantcast', 'Quantcast', 'an optional tech label')
+Quantcast('Quantcast', 'Quantcast', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

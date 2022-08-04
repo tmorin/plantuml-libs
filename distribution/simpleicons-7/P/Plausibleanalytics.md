@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Plausibleanalytics')
 
 ' renders the element
-Plausibleanalytics('Plausibleanalytics', 'Plausibleanalytics', 'an optional tech label')
+Plausibleanalytics('Plausibleanalytics', 'Plausibleanalytics', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Plausibleanalytics')
 
 ' renders the element
-Plausibleanalytics('Plausibleanalytics', 'Plausibleanalytics', 'an optional tech label')
+Plausibleanalytics('Plausibleanalytics', 'Plausibleanalytics', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

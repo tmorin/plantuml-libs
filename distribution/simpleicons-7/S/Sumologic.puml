@@ -8,6 +8,6 @@ sprite $SumologicMd [16x16/16z] lS570O1G342nzsTt_SlbYW58-Dcu-zo34clTlPIEMED0X6iS
 
 sprite $SumologicLg [20x20/16z] rOQ70OCm4CJaRd_TVze4c0AkYk-eF3jXd4uxHvPGEKrqzOCDUdF9GXtezkDGgTUKUwzkl-db-WC
 
-!procedure Sumologic($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/S/Sumologic', $name, $tech)
+!procedure Sumologic($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/S/Sumologic', $name, $tech, $desc)
 !endprocedure

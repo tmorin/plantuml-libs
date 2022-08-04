@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Z/Zcash')
 
 ' renders the element
-Zcash('Zcash', 'Zcash', 'an optional tech label')
+Zcash('Zcash', 'Zcash', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Z/Zcash')
 
 ' renders the element
-Zcash('Zcash', 'Zcash', 'an optional tech label')
+Zcash('Zcash', 'Zcash', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Vfairs')
 
 ' renders the element
-Vfairs('Vfairs', 'Vfairs', 'an optional tech label')
+Vfairs('Vfairs', 'Vfairs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Vfairs')
 
 ' renders the element
-Vfairs('Vfairs', 'Vfairs', 'an optional tech label')
+Vfairs('Vfairs', 'Vfairs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

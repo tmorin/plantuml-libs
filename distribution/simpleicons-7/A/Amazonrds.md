@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Amazonrds')
 
 ' renders the element
-Amazonrds('Amazonrds', 'Amazonrds', 'an optional tech label')
+Amazonrds('Amazonrds', 'Amazonrds', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Amazonrds')
 
 ' renders the element
-Amazonrds('Amazonrds', 'Amazonrds', 'an optional tech label')
+Amazonrds('Amazonrds', 'Amazonrds', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

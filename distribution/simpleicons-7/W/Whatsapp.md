@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Whatsapp')
 
 ' renders the element
-Whatsapp('Whatsapp', 'Whatsapp', 'an optional tech label')
+Whatsapp('Whatsapp', 'Whatsapp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Whatsapp')
 
 ' renders the element
-Whatsapp('Whatsapp', 'Whatsapp', 'an optional tech label')
+Whatsapp('Whatsapp', 'Whatsapp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

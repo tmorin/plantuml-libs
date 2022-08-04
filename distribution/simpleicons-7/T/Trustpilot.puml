@@ -8,6 +8,6 @@ sprite $TrustpilotMd [16x16/16z] TOs50S0W4CIkxit-qrPn2HfuKOKzSM9T4uSrSHFG3IyRC7o
 
 sprite $TrustpilotLg [20x20/16z] VP230S0m44Nhnd__QMFRxtp7Tj0HdPYeJHX09aprY04OrO0_VuR1dLKxBgVvD2ZPoqogOaIbr0OIny2-uwyKNqlKsnghO6VPdLbwi-BoooPtVf6wjNOR
 
-!procedure Trustpilot($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/T/Trustpilot', $name, $tech)
+!procedure Trustpilot($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/T/Trustpilot', $name, $tech, $desc)
 !endprocedure

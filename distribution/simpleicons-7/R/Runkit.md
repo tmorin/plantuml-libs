@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Runkit')
 
 ' renders the element
-Runkit('Runkit', 'Runkit', 'an optional tech label')
+Runkit('Runkit', 'Runkit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Runkit')
 
 ' renders the element
-Runkit('Runkit', 'Runkit', 'an optional tech label')
+Runkit('Runkit', 'Runkit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

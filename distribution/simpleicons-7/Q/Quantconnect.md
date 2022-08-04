@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Q/Quantconnect')
 
 ' renders the element
-Quantconnect('Quantconnect', 'Quantconnect', 'an optional tech label')
+Quantconnect('Quantconnect', 'Quantconnect', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Q/Quantconnect')
 
 ' renders the element
-Quantconnect('Quantconnect', 'Quantconnect', 'an optional tech label')
+Quantconnect('Quantconnect', 'Quantconnect', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

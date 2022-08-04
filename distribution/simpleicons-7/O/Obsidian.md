@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Obsidian')
 
 ' renders the element
-Obsidian('Obsidian', 'Obsidian', 'an optional tech label')
+Obsidian('Obsidian', 'Obsidian', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Obsidian')
 
 ' renders the element
-Obsidian('Obsidian', 'Obsidian', 'an optional tech label')
+Obsidian('Obsidian', 'Obsidian', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,6 +8,6 @@ sprite $FlickrMd [16x16/16z] hOl50S0W5CLIzsR_QUi5xf3lyYXDfUvtqwWR-C3VpF-yczBoDTr
 
 sprite $FlickrLg [20x20/16z] nOw50S0W4CHIzzx-qrPm6022l0lDMFLXrTcfX-GqDglsdHmGr3Fw5fM4KccDlZ6eJXuGrS6s1J_ajYlSVTnrf0el
 
-!procedure Flickr($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/F/Flickr', $name, $tech)
+!procedure Flickr($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/F/Flickr', $name, $tech, $desc)
 !endprocedure

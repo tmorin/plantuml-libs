@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Less')
 
 ' renders the element
-Less('Less', 'Less', 'an optional tech label')
+Less('Less', 'Less', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Less')
 
 ' renders the element
-Less('Less', 'Less', 'an optional tech label')
+Less('Less', 'Less', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

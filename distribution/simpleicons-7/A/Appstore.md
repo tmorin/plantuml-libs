@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Appstore')
 
 ' renders the element
-Appstore('Appstore', 'Appstore', 'an optional tech label')
+Appstore('Appstore', 'Appstore', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Appstore')
 
 ' renders the element
-Appstore('Appstore', 'Appstore', 'an optional tech label')
+Appstore('Appstore', 'Appstore', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

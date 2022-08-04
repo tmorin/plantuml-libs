@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bigbluebutton')
 
 ' renders the element
-Bigbluebutton('Bigbluebutton', 'Bigbluebutton', 'an optional tech label')
+Bigbluebutton('Bigbluebutton', 'Bigbluebutton', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bigbluebutton')
 
 ' renders the element
-Bigbluebutton('Bigbluebutton', 'Bigbluebutton', 'an optional tech label')
+Bigbluebutton('Bigbluebutton', 'Bigbluebutton', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

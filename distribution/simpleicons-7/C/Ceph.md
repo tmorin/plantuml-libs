@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Ceph')
 
 ' renders the element
-Ceph('Ceph', 'Ceph', 'an optional tech label')
+Ceph('Ceph', 'Ceph', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Ceph')
 
 ' renders the element
-Ceph('Ceph', 'Ceph', 'an optional tech label')
+Ceph('Ceph', 'Ceph', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

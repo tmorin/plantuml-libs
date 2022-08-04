@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/S7Airlines')
 
 ' renders the element
-S7Airlines('S7Airlines', 'S7 Airlines', 'an optional tech label')
+S7Airlines('S7Airlines', 'S7 Airlines', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/S7Airlines')
 
 ' renders the element
-S7Airlines('S7Airlines', 'S7 Airlines', 'an optional tech label')
+S7Airlines('S7Airlines', 'S7 Airlines', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

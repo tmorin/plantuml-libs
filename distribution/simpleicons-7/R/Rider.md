@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Rider')
 
 ' renders the element
-Rider('Rider', 'Rider', 'an optional tech label')
+Rider('Rider', 'Rider', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Rider')
 
 ' renders the element
-Rider('Rider', 'Rider', 'an optional tech label')
+Rider('Rider', 'Rider', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

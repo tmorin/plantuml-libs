@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Egnyte')
 
 ' renders the element
-Egnyte('Egnyte', 'Egnyte', 'an optional tech label')
+Egnyte('Egnyte', 'Egnyte', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Egnyte')
 
 ' renders the element
-Egnyte('Egnyte', 'Egnyte', 'an optional tech label')
+Egnyte('Egnyte', 'Egnyte', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

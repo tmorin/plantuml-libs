@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Swift')
 
 ' renders the element
-Swift('Swift', 'Swift', 'an optional tech label')
+Swift('Swift', 'Swift', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Swift')
 
 ' renders the element
-Swift('Swift', 'Swift', 'an optional tech label')
+Swift('Swift', 'Swift', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

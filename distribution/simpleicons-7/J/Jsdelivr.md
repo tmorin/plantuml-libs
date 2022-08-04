@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Jsdelivr')
 
 ' renders the element
-Jsdelivr('Jsdelivr', 'Jsdelivr', 'an optional tech label')
+Jsdelivr('Jsdelivr', 'Jsdelivr', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Jsdelivr')
 
 ' renders the element
-Jsdelivr('Jsdelivr', 'Jsdelivr', 'an optional tech label')
+Jsdelivr('Jsdelivr', 'Jsdelivr', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

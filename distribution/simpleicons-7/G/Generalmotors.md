@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Generalmotors')
 
 ' renders the element
-Generalmotors('Generalmotors', 'Generalmotors', 'an optional tech label')
+Generalmotors('Generalmotors', 'Generalmotors', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Generalmotors')
 
 ' renders the element
-Generalmotors('Generalmotors', 'Generalmotors', 'an optional tech label')
+Generalmotors('Generalmotors', 'Generalmotors', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

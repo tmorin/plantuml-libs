@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Webrtc')
 
 ' renders the element
-Webrtc('Webrtc', 'Webrtc', 'an optional tech label')
+Webrtc('Webrtc', 'Webrtc', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Webrtc')
 
 ' renders the element
-Webrtc('Webrtc', 'Webrtc', 'an optional tech label')
+Webrtc('Webrtc', 'Webrtc', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/U/Umbraco')
 
 ' renders the element
-Umbraco('Umbraco', 'Umbraco', 'an optional tech label')
+Umbraco('Umbraco', 'Umbraco', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/U/Umbraco')
 
 ' renders the element
-Umbraco('Umbraco', 'Umbraco', 'an optional tech label')
+Umbraco('Umbraco', 'Umbraco', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

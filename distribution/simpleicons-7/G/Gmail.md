@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gmail')
 
 ' renders the element
-Gmail('Gmail', 'Gmail', 'an optional tech label')
+Gmail('Gmail', 'Gmail', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gmail')
 
 ' renders the element
-Gmail('Gmail', 'Gmail', 'an optional tech label')
+Gmail('Gmail', 'Gmail', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Redbubble')
 
 ' renders the element
-Redbubble('Redbubble', 'Redbubble', 'an optional tech label')
+Redbubble('Redbubble', 'Redbubble', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Redbubble')
 
 ' renders the element
-Redbubble('Redbubble', 'Redbubble', 'an optional tech label')
+Redbubble('Redbubble', 'Redbubble', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

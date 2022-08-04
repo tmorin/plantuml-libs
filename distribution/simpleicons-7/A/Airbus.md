@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Airbus')
 
 ' renders the element
-Airbus('Airbus', 'Airbus', 'an optional tech label')
+Airbus('Airbus', 'Airbus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Airbus')
 
 ' renders the element
-Airbus('Airbus', 'Airbus', 'an optional tech label')
+Airbus('Airbus', 'Airbus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

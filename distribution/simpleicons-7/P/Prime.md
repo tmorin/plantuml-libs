@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Prime')
 
 ' renders the element
-Prime('Prime', 'Prime', 'an optional tech label')
+Prime('Prime', 'Prime', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Prime')
 
 ' renders the element
-Prime('Prime', 'Prime', 'an optional tech label')
+Prime('Prime', 'Prime', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Octave')
 
 ' renders the element
-Octave('Octave', 'Octave', 'an optional tech label')
+Octave('Octave', 'Octave', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Octave')
 
 ' renders the element
-Octave('Octave', 'Octave', 'an optional tech label')
+Octave('Octave', 'Octave', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

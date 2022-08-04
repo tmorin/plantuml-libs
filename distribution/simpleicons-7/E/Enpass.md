@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Enpass')
 
 ' renders the element
-Enpass('Enpass', 'Enpass', 'an optional tech label')
+Enpass('Enpass', 'Enpass', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Enpass')
 
 ' renders the element
-Enpass('Enpass', 'Enpass', 'an optional tech label')
+Enpass('Enpass', 'Enpass', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

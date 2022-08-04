@@ -8,6 +8,6 @@ sprite $GiphyMd [16x16/16z] jSYr0S0m00D1XJdQVzg0cLtvktk0eek4IFg4OxDhvcPz_YtMei3t
 
 sprite $GiphyLg [20x20/16z] pSYr0S0m30J0hsonzfysp5pcoWDgZfnJC9bEi3_ge3klTJaCE3iVh_DwaukByqMUBtzuUzVN0W
 
-!procedure Giphy($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/G/Giphy', $name, $tech)
+!procedure Giphy($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/G/Giphy', $name, $tech, $desc)
 !endprocedure

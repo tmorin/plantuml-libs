@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Redmine')
 
 ' renders the element
-Redmine('Redmine', 'Redmine', 'an optional tech label')
+Redmine('Redmine', 'Redmine', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Redmine')
 
 ' renders the element
-Redmine('Redmine', 'Redmine', 'an optional tech label')
+Redmine('Redmine', 'Redmine', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

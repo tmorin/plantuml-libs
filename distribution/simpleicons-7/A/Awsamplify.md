@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Awsamplify')
 
 ' renders the element
-Awsamplify('Awsamplify', 'Awsamplify', 'an optional tech label')
+Awsamplify('Awsamplify', 'Awsamplify', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Awsamplify')
 
 ' renders the element
-Awsamplify('Awsamplify', 'Awsamplify', 'an optional tech label')
+Awsamplify('Awsamplify', 'Awsamplify', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

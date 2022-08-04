@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/X/Xamarin')
 
 ' renders the element
-Xamarin('Xamarin', 'Xamarin', 'an optional tech label')
+Xamarin('Xamarin', 'Xamarin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/X/Xamarin')
 
 ' renders the element
-Xamarin('Xamarin', 'Xamarin', 'an optional tech label')
+Xamarin('Xamarin', 'Xamarin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

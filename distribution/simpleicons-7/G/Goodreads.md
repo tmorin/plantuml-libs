@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Goodreads')
 
 ' renders the element
-Goodreads('Goodreads', 'Goodreads', 'an optional tech label')
+Goodreads('Goodreads', 'Goodreads', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Goodreads')
 
 ' renders the element
-Goodreads('Goodreads', 'Goodreads', 'an optional tech label')
+Goodreads('Goodreads', 'Goodreads', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

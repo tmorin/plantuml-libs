@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Square')
 
 ' renders the element
-Square('Square', 'Square', 'an optional tech label')
+Square('Square', 'Square', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Square')
 
 ' renders the element
-Square('Square', 'Square', 'an optional tech label')
+Square('Square', 'Square', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

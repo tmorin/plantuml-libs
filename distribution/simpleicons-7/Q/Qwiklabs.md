@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Q/Qwiklabs')
 
 ' renders the element
-Qwiklabs('Qwiklabs', 'Qwiklabs', 'an optional tech label')
+Qwiklabs('Qwiklabs', 'Qwiklabs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Q/Qwiklabs')
 
 ' renders the element
-Qwiklabs('Qwiklabs', 'Qwiklabs', 'an optional tech label')
+Qwiklabs('Qwiklabs', 'Qwiklabs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

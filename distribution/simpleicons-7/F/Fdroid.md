@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fdroid')
 
 ' renders the element
-Fdroid('Fdroid', 'Fdroid', 'an optional tech label')
+Fdroid('Fdroid', 'Fdroid', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fdroid')
 
 ' renders the element
-Fdroid('Fdroid', 'Fdroid', 'an optional tech label')
+Fdroid('Fdroid', 'Fdroid', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Opsgenie')
 
 ' renders the element
-Opsgenie('Opsgenie', 'Opsgenie', 'an optional tech label')
+Opsgenie('Opsgenie', 'Opsgenie', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Opsgenie')
 
 ' renders the element
-Opsgenie('Opsgenie', 'Opsgenie', 'an optional tech label')
+Opsgenie('Opsgenie', 'Opsgenie', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

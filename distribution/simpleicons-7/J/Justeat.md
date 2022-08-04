@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Justeat')
 
 ' renders the element
-Justeat('Justeat', 'Justeat', 'an optional tech label')
+Justeat('Justeat', 'Justeat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Justeat')
 
 ' renders the element
-Justeat('Justeat', 'Justeat', 'an optional tech label')
+Justeat('Justeat', 'Justeat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

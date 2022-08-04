@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Roblox')
 
 ' renders the element
-Roblox('Roblox', 'Roblox', 'an optional tech label')
+Roblox('Roblox', 'Roblox', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Roblox')
 
 ' renders the element
-Roblox('Roblox', 'Roblox', 'an optional tech label')
+Roblox('Roblox', 'Roblox', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

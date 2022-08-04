@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Framework7')
 
 ' renders the element
-Framework7('Framework7', 'Framework7', 'an optional tech label')
+Framework7('Framework7', 'Framework7', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Framework7')
 
 ' renders the element
-Framework7('Framework7', 'Framework7', 'an optional tech label')
+Framework7('Framework7', 'Framework7', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

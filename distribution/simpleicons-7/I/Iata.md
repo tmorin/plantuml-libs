@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Iata')
 
 ' renders the element
-Iata('Iata', 'Iata', 'an optional tech label')
+Iata('Iata', 'Iata', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Iata')
 
 ' renders the element
-Iata('Iata', 'Iata', 'an optional tech label')
+Iata('Iata', 'Iata', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

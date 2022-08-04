@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Opencv')
 
 ' renders the element
-Opencv('Opencv', 'Opencv', 'an optional tech label')
+Opencv('Opencv', 'Opencv', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Opencv')
 
 ' renders the element
-Opencv('Opencv', 'Opencv', 'an optional tech label')
+Opencv('Opencv', 'Opencv', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

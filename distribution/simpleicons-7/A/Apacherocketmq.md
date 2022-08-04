@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Apacherocketmq')
 
 ' renders the element
-Apacherocketmq('Apacherocketmq', 'Apacherocketmq', 'an optional tech label')
+Apacherocketmq('Apacherocketmq', 'Apacherocketmq', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Apacherocketmq')
 
 ' renders the element
-Apacherocketmq('Apacherocketmq', 'Apacherocketmq', 'an optional tech label')
+Apacherocketmq('Apacherocketmq', 'Apacherocketmq', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

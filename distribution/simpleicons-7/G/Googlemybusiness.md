@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Googlemybusiness')
 
 ' renders the element
-Googlemybusiness('Googlemybusiness', 'Googlemybusiness', 'an optional tech label')
+Googlemybusiness('Googlemybusiness', 'Googlemybusiness', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Googlemybusiness')
 
 ' renders the element
-Googlemybusiness('Googlemybusiness', 'Googlemybusiness', 'an optional tech label')
+Googlemybusiness('Googlemybusiness', 'Googlemybusiness', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Archlinux')
 
 ' renders the element
-Archlinux('Archlinux', 'Archlinux', 'an optional tech label')
+Archlinux('Archlinux', 'Archlinux', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Archlinux')
 
 ' renders the element
-Archlinux('Archlinux', 'Archlinux', 'an optional tech label')
+Archlinux('Archlinux', 'Archlinux', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

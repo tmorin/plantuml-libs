@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Kaspersky')
 
 ' renders the element
-Kaspersky('Kaspersky', 'Kaspersky', 'an optional tech label')
+Kaspersky('Kaspersky', 'Kaspersky', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Kaspersky')
 
 ' renders the element
-Kaspersky('Kaspersky', 'Kaspersky', 'an optional tech label')
+Kaspersky('Kaspersky', 'Kaspersky', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

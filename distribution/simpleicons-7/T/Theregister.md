@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Theregister')
 
 ' renders the element
-Theregister('Theregister', 'Theregister', 'an optional tech label')
+Theregister('Theregister', 'Theregister', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Theregister')
 
 ' renders the element
-Theregister('Theregister', 'Theregister', 'an optional tech label')
+Theregister('Theregister', 'Theregister', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

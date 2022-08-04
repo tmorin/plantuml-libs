@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Adobeaftereffects')
 
 ' renders the element
-Adobeaftereffects('Adobeaftereffects', 'Adobeaftereffects', 'an optional tech label')
+Adobeaftereffects('Adobeaftereffects', 'Adobeaftereffects', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Adobeaftereffects')
 
 ' renders the element
-Adobeaftereffects('Adobeaftereffects', 'Adobeaftereffects', 'an optional tech label')
+Adobeaftereffects('Adobeaftereffects', 'Adobeaftereffects', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

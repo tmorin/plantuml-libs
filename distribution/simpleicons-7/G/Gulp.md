@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gulp')
 
 ' renders the element
-Gulp('Gulp', 'Gulp', 'an optional tech label')
+Gulp('Gulp', 'Gulp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gulp')
 
 ' renders the element
-Gulp('Gulp', 'Gulp', 'an optional tech label')
+Gulp('Gulp', 'Gulp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

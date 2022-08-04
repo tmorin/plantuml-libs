@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Generalelectric')
 
 ' renders the element
-Generalelectric('Generalelectric', 'Generalelectric', 'an optional tech label')
+Generalelectric('Generalelectric', 'Generalelectric', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Generalelectric')
 
 ' renders the element
-Generalelectric('Generalelectric', 'Generalelectric', 'an optional tech label')
+Generalelectric('Generalelectric', 'Generalelectric', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Oxygen')
 
 ' renders the element
-Oxygen('Oxygen', 'Oxygen', 'an optional tech label')
+Oxygen('Oxygen', 'Oxygen', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Oxygen')
 
 ' renders the element
-Oxygen('Oxygen', 'Oxygen', 'an optional tech label')
+Oxygen('Oxygen', 'Oxygen', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

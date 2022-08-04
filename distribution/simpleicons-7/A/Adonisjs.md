@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Adonisjs')
 
 ' renders the element
-Adonisjs('Adonisjs', 'Adonisjs', 'an optional tech label')
+Adonisjs('Adonisjs', 'Adonisjs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Adonisjs')
 
 ' renders the element
-Adonisjs('Adonisjs', 'Adonisjs', 'an optional tech label')
+Adonisjs('Adonisjs', 'Adonisjs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

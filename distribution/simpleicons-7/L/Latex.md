@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Latex')
 
 ' renders the element
-Latex('Latex', 'Latex', 'an optional tech label')
+Latex('Latex', 'Latex', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Latex')
 
 ' renders the element
-Latex('Latex', 'Latex', 'an optional tech label')
+Latex('Latex', 'Latex', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

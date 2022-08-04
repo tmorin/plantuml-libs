@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Marketo')
 
 ' renders the element
-Marketo('Marketo', 'Marketo', 'an optional tech label')
+Marketo('Marketo', 'Marketo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Marketo')
 
 ' renders the element
-Marketo('Marketo', 'Marketo', 'an optional tech label')
+Marketo('Marketo', 'Marketo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

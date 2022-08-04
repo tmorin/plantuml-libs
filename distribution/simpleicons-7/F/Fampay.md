@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fampay')
 
 ' renders the element
-Fampay('Fampay', 'Fampay', 'an optional tech label')
+Fampay('Fampay', 'Fampay', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fampay')
 
 ' renders the element
-Fampay('Fampay', 'Fampay', 'an optional tech label')
+Fampay('Fampay', 'Fampay', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

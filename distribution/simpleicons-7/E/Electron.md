@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Electron')
 
 ' renders the element
-Electron('Electron', 'Electron', 'an optional tech label')
+Electron('Electron', 'Electron', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Electron')
 
 ' renders the element
-Electron('Electron', 'Electron', 'an optional tech label')
+Electron('Electron', 'Electron', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

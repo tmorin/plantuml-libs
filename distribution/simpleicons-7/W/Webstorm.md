@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Webstorm')
 
 ' renders the element
-Webstorm('Webstorm', 'Webstorm', 'an optional tech label')
+Webstorm('Webstorm', 'Webstorm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Webstorm')
 
 ' renders the element
-Webstorm('Webstorm', 'Webstorm', 'an optional tech label')
+Webstorm('Webstorm', 'Webstorm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

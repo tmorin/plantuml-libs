@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Openbadges')
 
 ' renders the element
-Openbadges('Openbadges', 'Openbadges', 'an optional tech label')
+Openbadges('Openbadges', 'Openbadges', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Openbadges')
 
 ' renders the element
-Openbadges('Openbadges', 'Openbadges', 'an optional tech label')
+Openbadges('Openbadges', 'Openbadges', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

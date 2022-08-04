@@ -8,6 +8,6 @@ sprite $GuildedMd [16x16/16z] RSm30W0X40NGlyYw_scpworgY8sn6xTIMqpYzqyGOynoJ6oJOW
 
 sprite $GuildedLg [20x20/16z] VOw55SKW0CHI5sp_QR_UAqxmO4U3fK5eu1hkRhZjswqvV1q5SdDa-ha9GkJY-lNSqKrCkYmH5nPcy-6N1CcTB_SJGhjIIumJB1eWogXowOWetagE2pS3tW
 
-!procedure Guilded($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/G/Guilded', $name, $tech)
+!procedure Guilded($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/G/Guilded', $name, $tech, $desc)
 !endprocedure

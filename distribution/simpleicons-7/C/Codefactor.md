@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Codefactor')
 
 ' renders the element
-Codefactor('Codefactor', 'Codefactor', 'an optional tech label')
+Codefactor('Codefactor', 'Codefactor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Codefactor')
 
 ' renders the element
-Codefactor('Codefactor', 'Codefactor', 'an optional tech label')
+Codefactor('Codefactor', 'Codefactor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

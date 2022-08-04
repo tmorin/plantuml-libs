@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Aurelia')
 
 ' renders the element
-Aurelia('Aurelia', 'Aurelia', 'an optional tech label')
+Aurelia('Aurelia', 'Aurelia', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Aurelia')
 
 ' renders the element
-Aurelia('Aurelia', 'Aurelia', 'an optional tech label')
+Aurelia('Aurelia', 'Aurelia', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

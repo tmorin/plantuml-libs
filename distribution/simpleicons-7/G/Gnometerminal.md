@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gnometerminal')
 
 ' renders the element
-Gnometerminal('Gnometerminal', 'Gnometerminal', 'an optional tech label')
+Gnometerminal('Gnometerminal', 'Gnometerminal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gnometerminal')
 
 ' renders the element
-Gnometerminal('Gnometerminal', 'Gnometerminal', 'an optional tech label')
+Gnometerminal('Gnometerminal', 'Gnometerminal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

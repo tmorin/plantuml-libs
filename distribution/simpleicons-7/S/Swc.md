@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Swc')
 
 ' renders the element
-Swc('Swc', 'Swc', 'an optional tech label')
+Swc('Swc', 'Swc', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Swc')
 
 ' renders the element
-Swc('Swc', 'Swc', 'an optional tech label')
+Swc('Swc', 'Swc', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

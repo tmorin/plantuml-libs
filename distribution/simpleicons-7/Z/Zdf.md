@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Z/Zdf')
 
 ' renders the element
-Zdf('Zdf', 'Zdf', 'an optional tech label')
+Zdf('Zdf', 'Zdf', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Z/Zdf')
 
 ' renders the element
-Zdf('Zdf', 'Zdf', 'an optional tech label')
+Zdf('Zdf', 'Zdf', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

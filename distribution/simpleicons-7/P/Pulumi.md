@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pulumi')
 
 ' renders the element
-Pulumi('Pulumi', 'Pulumi', 'an optional tech label')
+Pulumi('Pulumi', 'Pulumi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pulumi')
 
 ' renders the element
-Pulumi('Pulumi', 'Pulumi', 'an optional tech label')
+Pulumi('Pulumi', 'Pulumi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

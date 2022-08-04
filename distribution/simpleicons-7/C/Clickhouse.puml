@@ -8,6 +8,6 @@ sprite $ClickhouseMd [16x16/16z] Oq03_Fn0pCF02QBuQSvdvSVFP-6Zjlsih43CpC0CebY0V
 
 sprite $ClickhouseLg [20x20/16z] Oy02E3bPGGG30mSd8mCZa044_FmS88A1WO-VcO49o1WmCIOcT34GXqInWVS73W
 
-!procedure Clickhouse($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/C/Clickhouse', $name, $tech)
+!procedure Clickhouse($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/C/Clickhouse', $name, $tech, $desc)
 !endprocedure

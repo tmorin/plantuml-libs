@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Speedtest')
 
 ' renders the element
-Speedtest('Speedtest', 'Speedtest', 'an optional tech label')
+Speedtest('Speedtest', 'Speedtest', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Speedtest')
 
 ' renders the element
-Speedtest('Speedtest', 'Speedtest', 'an optional tech label')
+Speedtest('Speedtest', 'Speedtest', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

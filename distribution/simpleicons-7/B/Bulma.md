@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bulma')
 
 ' renders the element
-Bulma('Bulma', 'Bulma', 'an optional tech label')
+Bulma('Bulma', 'Bulma', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bulma')
 
 ' renders the element
-Bulma('Bulma', 'Bulma', 'an optional tech label')
+Bulma('Bulma', 'Bulma', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

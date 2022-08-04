@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Photocrowd')
 
 ' renders the element
-Photocrowd('Photocrowd', 'Photocrowd', 'an optional tech label')
+Photocrowd('Photocrowd', 'Photocrowd', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Photocrowd')
 
 ' renders the element
-Photocrowd('Photocrowd', 'Photocrowd', 'an optional tech label')
+Photocrowd('Photocrowd', 'Photocrowd', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

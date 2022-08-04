@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cypress')
 
 ' renders the element
-Cypress('Cypress', 'Cypress', 'an optional tech label')
+Cypress('Cypress', 'Cypress', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cypress')
 
 ' renders the element
-Cypress('Cypress', 'Cypress', 'an optional tech label')
+Cypress('Cypress', 'Cypress', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

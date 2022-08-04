@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fonoma')
 
 ' renders the element
-Fonoma('Fonoma', 'Fonoma', 'an optional tech label')
+Fonoma('Fonoma', 'Fonoma', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fonoma')
 
 ' renders the element
-Fonoma('Fonoma', 'Fonoma', 'an optional tech label')
+Fonoma('Fonoma', 'Fonoma', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

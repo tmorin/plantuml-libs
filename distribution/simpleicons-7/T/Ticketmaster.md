@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Ticketmaster')
 
 ' renders the element
-Ticketmaster('Ticketmaster', 'Ticketmaster', 'an optional tech label')
+Ticketmaster('Ticketmaster', 'Ticketmaster', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Ticketmaster')
 
 ' renders the element
-Ticketmaster('Ticketmaster', 'Ticketmaster', 'an optional tech label')
+Ticketmaster('Ticketmaster', 'Ticketmaster', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

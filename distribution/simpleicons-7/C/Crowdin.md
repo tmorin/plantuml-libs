@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Crowdin')
 
 ' renders the element
-Crowdin('Crowdin', 'Crowdin', 'an optional tech label')
+Crowdin('Crowdin', 'Crowdin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Crowdin')
 
 ' renders the element
-Crowdin('Crowdin', 'Crowdin', 'an optional tech label')
+Crowdin('Crowdin', 'Crowdin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Npm')
 
 ' renders the element
-Npm('Npm', 'Npm', 'an optional tech label')
+Npm('Npm', 'Npm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Npm')
 
 ' renders the element
-Npm('Npm', 'Npm', 'an optional tech label')
+Npm('Npm', 'Npm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

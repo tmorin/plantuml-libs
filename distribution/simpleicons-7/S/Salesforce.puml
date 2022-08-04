@@ -8,6 +8,6 @@ sprite $SalesforceMd [16x16/16z] bS630SG00C30F6fa_sbhktUy5gbne04zHscHVo5nAIPq1TS
 
 sprite $SalesforceLg [20x20/16z] fSw50SCm0CH0cTc__xHbvYQtWCHAkHN062wCzgnsF2UwaSV8WD4Zi7eqG4-OUfBqaz7qv34nPtbyRfnv7HXdk2hQuP4n_6yB
 
-!procedure Salesforce($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/S/Salesforce', $name, $tech)
+!procedure Salesforce($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/S/Salesforce', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Librarything')
 
 ' renders the element
-Librarything('Librarything', 'Librarything', 'an optional tech label')
+Librarything('Librarything', 'Librarything', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Librarything')
 
 ' renders the element
-Librarything('Librarything', 'Librarything', 'an optional tech label')
+Librarything('Librarything', 'Librarything', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

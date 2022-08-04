@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Spinnaker')
 
 ' renders the element
-Spinnaker('Spinnaker', 'Spinnaker', 'an optional tech label')
+Spinnaker('Spinnaker', 'Spinnaker', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Spinnaker')
 
 ' renders the element
-Spinnaker('Spinnaker', 'Spinnaker', 'an optional tech label')
+Spinnaker('Spinnaker', 'Spinnaker', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

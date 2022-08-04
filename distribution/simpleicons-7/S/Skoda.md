@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Skoda')
 
 ' renders the element
-Skoda('Skoda', 'Skoda', 'an optional tech label')
+Skoda('Skoda', 'Skoda', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Skoda')
 
 ' renders the element
-Skoda('Skoda', 'Skoda', 'an optional tech label')
+Skoda('Skoda', 'Skoda', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

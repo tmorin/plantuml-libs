@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Conventionalcommits')
 
 ' renders the element
-Conventionalcommits('Conventionalcommits', 'Conventionalcommits', 'an optional tech label')
+Conventionalcommits('Conventionalcommits', 'Conventionalcommits', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Conventionalcommits')
 
 ' renders the element
-Conventionalcommits('Conventionalcommits', 'Conventionalcommits', 'an optional tech label')
+Conventionalcommits('Conventionalcommits', 'Conventionalcommits', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

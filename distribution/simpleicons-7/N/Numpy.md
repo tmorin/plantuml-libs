@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Numpy')
 
 ' renders the element
-Numpy('Numpy', 'Numpy', 'an optional tech label')
+Numpy('Numpy', 'Numpy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Numpy')
 
 ' renders the element
-Numpy('Numpy', 'Numpy', 'an optional tech label')
+Numpy('Numpy', 'Numpy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

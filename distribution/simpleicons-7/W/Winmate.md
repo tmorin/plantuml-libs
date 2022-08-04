@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Winmate')
 
 ' renders the element
-Winmate('Winmate', 'Winmate', 'an optional tech label')
+Winmate('Winmate', 'Winmate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Winmate')
 
 ' renders the element
-Winmate('Winmate', 'Winmate', 'an optional tech label')
+Winmate('Winmate', 'Winmate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

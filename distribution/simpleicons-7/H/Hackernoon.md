@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hackernoon')
 
 ' renders the element
-Hackernoon('Hackernoon', 'Hackernoon', 'an optional tech label')
+Hackernoon('Hackernoon', 'Hackernoon', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hackernoon')
 
 ' renders the element
-Hackernoon('Hackernoon', 'Hackernoon', 'an optional tech label')
+Hackernoon('Hackernoon', 'Hackernoon', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

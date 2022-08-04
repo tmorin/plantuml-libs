@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Laravelhorizon')
 
 ' renders the element
-Laravelhorizon('Laravelhorizon', 'Laravelhorizon', 'an optional tech label')
+Laravelhorizon('Laravelhorizon', 'Laravelhorizon', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Laravelhorizon')
 
 ' renders the element
-Laravelhorizon('Laravelhorizon', 'Laravelhorizon', 'an optional tech label')
+Laravelhorizon('Laravelhorizon', 'Laravelhorizon', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Foursquare')
 
 ' renders the element
-Foursquare('Foursquare', 'Foursquare', 'an optional tech label')
+Foursquare('Foursquare', 'Foursquare', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Foursquare')
 
 ' renders the element
-Foursquare('Foursquare', 'Foursquare', 'an optional tech label')
+Foursquare('Foursquare', 'Foursquare', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

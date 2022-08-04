@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cytoscapedotjs')
 
 ' renders the element
-Cytoscapedotjs('Cytoscapedotjs', 'Cytoscapedotjs', 'an optional tech label')
+Cytoscapedotjs('Cytoscapedotjs', 'Cytoscapedotjs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cytoscapedotjs')
 
 ' renders the element
-Cytoscapedotjs('Cytoscapedotjs', 'Cytoscapedotjs', 'an optional tech label')
+Cytoscapedotjs('Cytoscapedotjs', 'Cytoscapedotjs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

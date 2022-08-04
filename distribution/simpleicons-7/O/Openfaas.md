@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Openfaas')
 
 ' renders the element
-Openfaas('Openfaas', 'Openfaas', 'an optional tech label')
+Openfaas('Openfaas', 'Openfaas', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Openfaas')
 
 ' renders the element
-Openfaas('Openfaas', 'Openfaas', 'an optional tech label')
+Openfaas('Openfaas', 'Openfaas', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

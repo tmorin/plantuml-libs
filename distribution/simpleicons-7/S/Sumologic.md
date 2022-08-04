@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sumologic')
 
 ' renders the element
-Sumologic('Sumologic', 'Sumologic', 'an optional tech label')
+Sumologic('Sumologic', 'Sumologic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sumologic')
 
 ' renders the element
-Sumologic('Sumologic', 'Sumologic', 'an optional tech label')
+Sumologic('Sumologic', 'Sumologic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

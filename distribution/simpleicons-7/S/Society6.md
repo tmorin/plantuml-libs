@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Society6')
 
 ' renders the element
-Society6('Society6', 'Society6', 'an optional tech label')
+Society6('Society6', 'Society6', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Society6')
 
 ' renders the element
-Society6('Society6', 'Society6', 'an optional tech label')
+Society6('Society6', 'Society6', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

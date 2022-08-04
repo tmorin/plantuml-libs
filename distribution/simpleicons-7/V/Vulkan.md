@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Vulkan')
 
 ' renders the element
-Vulkan('Vulkan', 'Vulkan', 'an optional tech label')
+Vulkan('Vulkan', 'Vulkan', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Vulkan')
 
 ' renders the element
-Vulkan('Vulkan', 'Vulkan', 'an optional tech label')
+Vulkan('Vulkan', 'Vulkan', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

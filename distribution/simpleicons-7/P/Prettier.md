@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Prettier')
 
 ' renders the element
-Prettier('Prettier', 'Prettier', 'an optional tech label')
+Prettier('Prettier', 'Prettier', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Prettier')
 
 ' renders the element
-Prettier('Prettier', 'Prettier', 'an optional tech label')
+Prettier('Prettier', 'Prettier', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

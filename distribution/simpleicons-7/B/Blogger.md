@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Blogger')
 
 ' renders the element
-Blogger('Blogger', 'Blogger', 'an optional tech label')
+Blogger('Blogger', 'Blogger', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Blogger')
 
 ' renders the element
-Blogger('Blogger', 'Blogger', 'an optional tech label')
+Blogger('Blogger', 'Blogger', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

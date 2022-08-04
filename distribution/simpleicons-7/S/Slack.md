@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Slack')
 
 ' renders the element
-Slack('Slack', 'Slack', 'an optional tech label')
+Slack('Slack', 'Slack', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Slack')
 
 ' renders the element
-Slack('Slack', 'Slack', 'an optional tech label')
+Slack('Slack', 'Slack', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

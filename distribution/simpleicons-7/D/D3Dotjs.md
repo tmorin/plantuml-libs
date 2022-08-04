@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/D3Dotjs')
 
 ' renders the element
-D3Dotjs('D3Dotjs', 'D3 Dotjs', 'an optional tech label')
+D3Dotjs('D3Dotjs', 'D3 Dotjs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/D3Dotjs')
 
 ' renders the element
-D3Dotjs('D3Dotjs', 'D3 Dotjs', 'an optional tech label')
+D3Dotjs('D3Dotjs', 'D3 Dotjs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

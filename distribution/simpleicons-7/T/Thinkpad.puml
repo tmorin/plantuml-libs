@@ -8,6 +8,6 @@ sprite $ThinkpadMd [16x16/16z] hSU50SCm44FHRsPh_sdRS3A0tw5Op5eBHrl3JYRYGAXXja_aK
 
 sprite $ThinkpadLg [20x20/16z] pSY50G9030J1HJz-_NUBQmCGp_17qUe4mQL75tAQdANi9T-aZjggBuRhqkTBjNKvBnCAz6r9yMdri8kmwj9huxYjJduK9m
 
-!procedure Thinkpad($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/T/Thinkpad', $name, $tech)
+!procedure Thinkpad($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/T/Thinkpad', $name, $tech, $desc)
 !endprocedure

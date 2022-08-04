@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tietoevry')
 
 ' renders the element
-Tietoevry('Tietoevry', 'Tietoevry', 'an optional tech label')
+Tietoevry('Tietoevry', 'Tietoevry', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tietoevry')
 
 ' renders the element
-Tietoevry('Tietoevry', 'Tietoevry', 'an optional tech label')
+Tietoevry('Tietoevry', 'Tietoevry', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

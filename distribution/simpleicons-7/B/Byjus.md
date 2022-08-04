@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Byjus')
 
 ' renders the element
-Byjus('Byjus', 'Byjus', 'an optional tech label')
+Byjus('Byjus', 'Byjus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Byjus')
 
 ' renders the element
-Byjus('Byjus', 'Byjus', 'an optional tech label')
+Byjus('Byjus', 'Byjus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

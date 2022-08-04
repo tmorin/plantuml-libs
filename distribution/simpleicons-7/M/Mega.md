@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mega')
 
 ' renders the element
-Mega('Mega', 'Mega', 'an optional tech label')
+Mega('Mega', 'Mega', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mega')
 
 ' renders the element
-Mega('Mega', 'Mega', 'an optional tech label')
+Mega('Mega', 'Mega', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

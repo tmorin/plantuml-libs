@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Appveyor')
 
 ' renders the element
-Appveyor('Appveyor', 'Appveyor', 'an optional tech label')
+Appveyor('Appveyor', 'Appveyor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Appveyor')
 
 ' renders the element
-Appveyor('Appveyor', 'Appveyor', 'an optional tech label')
+Appveyor('Appveyor', 'Appveyor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

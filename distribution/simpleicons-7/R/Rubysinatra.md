@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Rubysinatra')
 
 ' renders the element
-Rubysinatra('Rubysinatra', 'Rubysinatra', 'an optional tech label')
+Rubysinatra('Rubysinatra', 'Rubysinatra', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Rubysinatra')
 
 ' renders the element
-Rubysinatra('Rubysinatra', 'Rubysinatra', 'an optional tech label')
+Rubysinatra('Rubysinatra', 'Rubysinatra', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

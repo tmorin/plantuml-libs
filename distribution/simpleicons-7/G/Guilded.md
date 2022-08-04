@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Guilded')
 
 ' renders the element
-Guilded('Guilded', 'Guilded', 'an optional tech label')
+Guilded('Guilded', 'Guilded', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Guilded')
 
 ' renders the element
-Guilded('Guilded', 'Guilded', 'an optional tech label')
+Guilded('Guilded', 'Guilded', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Turborepo')
 
 ' renders the element
-Turborepo('Turborepo', 'Turborepo', 'an optional tech label')
+Turborepo('Turborepo', 'Turborepo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Turborepo')
 
 ' renders the element
-Turborepo('Turborepo', 'Turborepo', 'an optional tech label')
+Turborepo('Turborepo', 'Turborepo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

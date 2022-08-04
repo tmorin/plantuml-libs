@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Nuget')
 
 ' renders the element
-Nuget('Nuget', 'Nuget', 'an optional tech label')
+Nuget('Nuget', 'Nuget', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Nuget')
 
 ' renders the element
-Nuget('Nuget', 'Nuget', 'an optional tech label')
+Nuget('Nuget', 'Nuget', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

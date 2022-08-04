@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Dask')
 
 ' renders the element
-Dask('Dask', 'Dask', 'an optional tech label')
+Dask('Dask', 'Dask', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Dask')
 
 ' renders the element
-Dask('Dask', 'Dask', 'an optional tech label')
+Dask('Dask', 'Dask', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

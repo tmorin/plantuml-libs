@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Notepadplusplus')
 
 ' renders the element
-Notepadplusplus('Notepadplusplus', 'Notepadplusplus', 'an optional tech label')
+Notepadplusplus('Notepadplusplus', 'Notepadplusplus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Notepadplusplus')
 
 ' renders the element
-Notepadplusplus('Notepadplusplus', 'Notepadplusplus', 'an optional tech label')
+Notepadplusplus('Notepadplusplus', 'Notepadplusplus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Rollsroyce')
 
 ' renders the element
-Rollsroyce('Rollsroyce', 'Rollsroyce', 'an optional tech label')
+Rollsroyce('Rollsroyce', 'Rollsroyce', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Rollsroyce')
 
 ' renders the element
-Rollsroyce('Rollsroyce', 'Rollsroyce', 'an optional tech label')
+Rollsroyce('Rollsroyce', 'Rollsroyce', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

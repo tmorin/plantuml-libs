@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Ghost')
 
 ' renders the element
-Ghost('Ghost', 'Ghost', 'an optional tech label')
+Ghost('Ghost', 'Ghost', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Ghost')
 
 ' renders the element
-Ghost('Ghost', 'Ghost', 'an optional tech label')
+Ghost('Ghost', 'Ghost', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

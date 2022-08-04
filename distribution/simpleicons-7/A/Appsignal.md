@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Appsignal')
 
 ' renders the element
-Appsignal('Appsignal', 'Appsignal', 'an optional tech label')
+Appsignal('Appsignal', 'Appsignal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Appsignal')
 
 ' renders the element
-Appsignal('Appsignal', 'Appsignal', 'an optional tech label')
+Appsignal('Appsignal', 'Appsignal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

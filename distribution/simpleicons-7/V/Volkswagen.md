@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Volkswagen')
 
 ' renders the element
-Volkswagen('Volkswagen', 'Volkswagen', 'an optional tech label')
+Volkswagen('Volkswagen', 'Volkswagen', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Volkswagen')
 
 ' renders the element
-Volkswagen('Volkswagen', 'Volkswagen', 'an optional tech label')
+Volkswagen('Volkswagen', 'Volkswagen', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

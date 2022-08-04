@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Delphi')
 
 ' renders the element
-Delphi('Delphi', 'Delphi', 'an optional tech label')
+Delphi('Delphi', 'Delphi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Delphi')
 
 ' renders the element
-Delphi('Delphi', 'Delphi', 'an optional tech label')
+Delphi('Delphi', 'Delphi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

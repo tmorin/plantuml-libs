@@ -8,6 +8,6 @@ sprite $SiemensMd [16x16/16z] lST70O0m542nrzs__Ri54v1R-9djrdmNXVQQQrFlXwgXxJeb0I
 
 sprite $SiemensLg [20x20/16z] pS610OCm24N1bm2j2l3ttzO1N21td6xnCO5ubWajBOHfCvUeo-xAfOkhpVLaY2aZSwdOOzaSxWK
 
-!procedure Siemens($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/S/Siemens', $name, $tech)
+!procedure Siemens($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/S/Siemens', $name, $tech, $desc)
 !endprocedure

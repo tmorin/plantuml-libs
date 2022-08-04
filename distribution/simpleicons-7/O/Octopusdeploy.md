@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Octopusdeploy')
 
 ' renders the element
-Octopusdeploy('Octopusdeploy', 'Octopusdeploy', 'an optional tech label')
+Octopusdeploy('Octopusdeploy', 'Octopusdeploy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Octopusdeploy')
 
 ' renders the element
-Octopusdeploy('Octopusdeploy', 'Octopusdeploy', 'an optional tech label')
+Octopusdeploy('Octopusdeploy', 'Octopusdeploy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

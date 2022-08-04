@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bluetooth')
 
 ' renders the element
-Bluetooth('Bluetooth', 'Bluetooth', 'an optional tech label')
+Bluetooth('Bluetooth', 'Bluetooth', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bluetooth')
 
 ' renders the element
-Bluetooth('Bluetooth', 'Bluetooth', 'an optional tech label')
+Bluetooth('Bluetooth', 'Bluetooth', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

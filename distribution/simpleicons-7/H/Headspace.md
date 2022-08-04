@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Headspace')
 
 ' renders the element
-Headspace('Headspace', 'Headspace', 'an optional tech label')
+Headspace('Headspace', 'Headspace', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Headspace')
 
 ' renders the element
-Headspace('Headspace', 'Headspace', 'an optional tech label')
+Headspace('Headspace', 'Headspace', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

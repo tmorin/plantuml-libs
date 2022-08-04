@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Q/Quora')
 
 ' renders the element
-Quora('Quora', 'Quora', 'an optional tech label')
+Quora('Quora', 'Quora', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Q/Quora')
 
 ' renders the element
-Quora('Quora', 'Quora', 'an optional tech label')
+Quora('Quora', 'Quora', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

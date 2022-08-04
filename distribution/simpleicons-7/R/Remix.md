@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Remix')
 
 ' renders the element
-Remix('Remix', 'Remix', 'an optional tech label')
+Remix('Remix', 'Remix', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Remix')
 
 ' renders the element
-Remix('Remix', 'Remix', 'an optional tech label')
+Remix('Remix', 'Remix', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

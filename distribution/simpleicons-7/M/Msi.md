@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Msi')
 
 ' renders the element
-Msi('Msi', 'Msi', 'an optional tech label')
+Msi('Msi', 'Msi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Msi')
 
 ' renders the element
-Msi('Msi', 'Msi', 'an optional tech label')
+Msi('Msi', 'Msi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

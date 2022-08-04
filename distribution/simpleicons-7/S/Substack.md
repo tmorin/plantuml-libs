@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Substack')
 
 ' renders the element
-Substack('Substack', 'Substack', 'an optional tech label')
+Substack('Substack', 'Substack', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Substack')
 
 ' renders the element
-Substack('Substack', 'Substack', 'an optional tech label')
+Substack('Substack', 'Substack', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

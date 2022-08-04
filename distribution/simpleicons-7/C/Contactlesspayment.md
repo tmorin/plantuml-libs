@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Contactlesspayment')
 
 ' renders the element
-Contactlesspayment('Contactlesspayment', 'Contactlesspayment', 'an optional tech label')
+Contactlesspayment('Contactlesspayment', 'Contactlesspayment', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Contactlesspayment')
 
 ' renders the element
-Contactlesspayment('Contactlesspayment', 'Contactlesspayment', 'an optional tech label')
+Contactlesspayment('Contactlesspayment', 'Contactlesspayment', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

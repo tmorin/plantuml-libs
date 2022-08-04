@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Algolia')
 
 ' renders the element
-Algolia('Algolia', 'Algolia', 'an optional tech label')
+Algolia('Algolia', 'Algolia', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Algolia')
 
 ' renders the element
-Algolia('Algolia', 'Algolia', 'an optional tech label')
+Algolia('Algolia', 'Algolia', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

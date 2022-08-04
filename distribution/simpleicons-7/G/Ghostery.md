@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Ghostery')
 
 ' renders the element
-Ghostery('Ghostery', 'Ghostery', 'an optional tech label')
+Ghostery('Ghostery', 'Ghostery', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Ghostery')
 
 ' renders the element
-Ghostery('Ghostery', 'Ghostery', 'an optional tech label')
+Ghostery('Ghostery', 'Ghostery', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

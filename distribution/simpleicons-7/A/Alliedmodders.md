@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Alliedmodders')
 
 ' renders the element
-Alliedmodders('Alliedmodders', 'Alliedmodders', 'an optional tech label')
+Alliedmodders('Alliedmodders', 'Alliedmodders', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Alliedmodders')
 
 ' renders the element
-Alliedmodders('Alliedmodders', 'Alliedmodders', 'an optional tech label')
+Alliedmodders('Alliedmodders', 'Alliedmodders', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

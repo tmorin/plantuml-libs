@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Q/Quickbooks')
 
 ' renders the element
-Quickbooks('Quickbooks', 'Quickbooks', 'an optional tech label')
+Quickbooks('Quickbooks', 'Quickbooks', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Q/Quickbooks')
 
 ' renders the element
-Quickbooks('Quickbooks', 'Quickbooks', 'an optional tech label')
+Quickbooks('Quickbooks', 'Quickbooks', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

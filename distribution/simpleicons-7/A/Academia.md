@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Academia')
 
 ' renders the element
-Academia('Academia', 'Academia', 'an optional tech label')
+Academia('Academia', 'Academia', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Academia')
 
 ' renders the element
-Academia('Academia', 'Academia', 'an optional tech label')
+Academia('Academia', 'Academia', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

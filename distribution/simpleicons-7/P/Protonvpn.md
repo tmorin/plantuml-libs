@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Protonvpn')
 
 ' renders the element
-Protonvpn('Protonvpn', 'Protonvpn', 'an optional tech label')
+Protonvpn('Protonvpn', 'Protonvpn', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Protonvpn')
 
 ' renders the element
-Protonvpn('Protonvpn', 'Protonvpn', 'an optional tech label')
+Protonvpn('Protonvpn', 'Protonvpn', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

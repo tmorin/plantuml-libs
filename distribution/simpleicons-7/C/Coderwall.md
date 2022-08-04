@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Coderwall')
 
 ' renders the element
-Coderwall('Coderwall', 'Coderwall', 'an optional tech label')
+Coderwall('Coderwall', 'Coderwall', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Coderwall')
 
 ' renders the element
-Coderwall('Coderwall', 'Coderwall', 'an optional tech label')
+Coderwall('Coderwall', 'Coderwall', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

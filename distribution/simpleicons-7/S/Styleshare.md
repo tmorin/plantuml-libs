@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Styleshare')
 
 ' renders the element
-Styleshare('Styleshare', 'Styleshare', 'an optional tech label')
+Styleshare('Styleshare', 'Styleshare', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Styleshare')
 
 ' renders the element
-Styleshare('Styleshare', 'Styleshare', 'an optional tech label')
+Styleshare('Styleshare', 'Styleshare', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

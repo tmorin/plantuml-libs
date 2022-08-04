@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Googleoptimize')
 
 ' renders the element
-Googleoptimize('Googleoptimize', 'Googleoptimize', 'an optional tech label')
+Googleoptimize('Googleoptimize', 'Googleoptimize', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Googleoptimize')
 
 ' renders the element
-Googleoptimize('Googleoptimize', 'Googleoptimize', 'an optional tech label')
+Googleoptimize('Googleoptimize', 'Googleoptimize', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Arkecosystem')
 
 ' renders the element
-Arkecosystem('Arkecosystem', 'Arkecosystem', 'an optional tech label')
+Arkecosystem('Arkecosystem', 'Arkecosystem', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Arkecosystem')
 
 ' renders the element
-Arkecosystem('Arkecosystem', 'Arkecosystem', 'an optional tech label')
+Arkecosystem('Arkecosystem', 'Arkecosystem', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

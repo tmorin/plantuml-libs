@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Swagger')
 
 ' renders the element
-Swagger('Swagger', 'Swagger', 'an optional tech label')
+Swagger('Swagger', 'Swagger', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Swagger')
 
 ' renders the element
-Swagger('Swagger', 'Swagger', 'an optional tech label')
+Swagger('Swagger', 'Swagger', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

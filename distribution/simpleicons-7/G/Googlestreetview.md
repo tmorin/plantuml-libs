@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Googlestreetview')
 
 ' renders the element
-Googlestreetview('Googlestreetview', 'Googlestreetview', 'an optional tech label')
+Googlestreetview('Googlestreetview', 'Googlestreetview', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Googlestreetview')
 
 ' renders the element
-Googlestreetview('Googlestreetview', 'Googlestreetview', 'an optional tech label')
+Googlestreetview('Googlestreetview', 'Googlestreetview', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

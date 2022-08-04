@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Dtube')
 
 ' renders the element
-Dtube('Dtube', 'Dtube', 'an optional tech label')
+Dtube('Dtube', 'Dtube', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Dtube')
 
 ' renders the element
-Dtube('Dtube', 'Dtube', 'an optional tech label')
+Dtube('Dtube', 'Dtube', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

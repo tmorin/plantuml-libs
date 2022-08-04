@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Z/Zazzle')
 
 ' renders the element
-Zazzle('Zazzle', 'Zazzle', 'an optional tech label')
+Zazzle('Zazzle', 'Zazzle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Z/Zazzle')
 
 ' renders the element
-Zazzle('Zazzle', 'Zazzle', 'an optional tech label')
+Zazzle('Zazzle', 'Zazzle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

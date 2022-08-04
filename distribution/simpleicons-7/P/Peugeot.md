@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Peugeot')
 
 ' renders the element
-Peugeot('Peugeot', 'Peugeot', 'an optional tech label')
+Peugeot('Peugeot', 'Peugeot', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Peugeot')
 
 ' renders the element
-Peugeot('Peugeot', 'Peugeot', 'an optional tech label')
+Peugeot('Peugeot', 'Peugeot', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

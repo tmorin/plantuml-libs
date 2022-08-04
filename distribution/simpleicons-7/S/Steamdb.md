@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Steamdb')
 
 ' renders the element
-Steamdb('Steamdb', 'Steamdb', 'an optional tech label')
+Steamdb('Steamdb', 'Steamdb', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Steamdb')
 
 ' renders the element
-Steamdb('Steamdb', 'Steamdb', 'an optional tech label')
+Steamdb('Steamdb', 'Steamdb', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

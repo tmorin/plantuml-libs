@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Owasp')
 
 ' renders the element
-Owasp('Owasp', 'Owasp', 'an optional tech label')
+Owasp('Owasp', 'Owasp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Owasp')
 
 ' renders the element
-Owasp('Owasp', 'Owasp', 'an optional tech label')
+Owasp('Owasp', 'Owasp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

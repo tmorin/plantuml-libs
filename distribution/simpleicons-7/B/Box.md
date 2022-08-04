@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Box')
 
 ' renders the element
-Box('Box', 'Box', 'an optional tech label')
+Box('Box', 'Box', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Box')
 
 ' renders the element
-Box('Box', 'Box', 'an optional tech label')
+Box('Box', 'Box', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

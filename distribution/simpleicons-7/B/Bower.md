@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bower')
 
 ' renders the element
-Bower('Bower', 'Bower', 'an optional tech label')
+Bower('Bower', 'Bower', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bower')
 
 ' renders the element
-Bower('Bower', 'Bower', 'an optional tech label')
+Bower('Bower', 'Bower', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

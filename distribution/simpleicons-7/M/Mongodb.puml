@@ -8,6 +8,6 @@ sprite $MongodbMd [16x16/16z] RS-50S0W3031kfVVVrhS2Nvu9ZaTDDo0sfQSXQSpxJ9idV_Qxa
 
 sprite $MongodbLg [20x20/16z] VSx50GKW3C3Guaxsd_QxOZa-f9LJ3XdpK0TI0F7VElV-ZKVbbnemNkIL7Qm0VJ0FC9XTc5wO6hQEW8nBFwtzcNsOahyA7Yj3yK53oCck
 
-!procedure Mongodb($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/M/Mongodb', $name, $tech)
+!procedure Mongodb($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/M/Mongodb', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lunacy')
 
 ' renders the element
-Lunacy('Lunacy', 'Lunacy', 'an optional tech label')
+Lunacy('Lunacy', 'Lunacy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lunacy')
 
 ' renders the element
-Lunacy('Lunacy', 'Lunacy', 'an optional tech label')
+Lunacy('Lunacy', 'Lunacy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Castorama')
 
 ' renders the element
-Castorama('Castorama', 'Castorama', 'an optional tech label')
+Castorama('Castorama', 'Castorama', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Castorama')
 
 ' renders the element
-Castorama('Castorama', 'Castorama', 'an optional tech label')
+Castorama('Castorama', 'Castorama', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

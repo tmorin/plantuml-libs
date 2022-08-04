@@ -8,6 +8,6 @@ sprite $NaverMd [16x16/16z] NSUn0K1000J10m2s_seXuNyd6rvzNlpyKsVGyV4NdU8JjQdHi-dn
 
 sprite $NaverLg [20x20/16z] RSi53e00583GRxVS_xHs2-ktmLONUpnBnJ3hnKZ5CCEi4CECjxMiDI_JAymQiJ0BiqeiHh4mozcQ0G
 
-!procedure Naver($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/N/Naver', $name, $tech)
+!procedure Naver($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/N/Naver', $name, $tech, $desc)
 !endprocedure

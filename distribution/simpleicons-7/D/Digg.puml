@@ -8,6 +8,6 @@ sprite $DiggMd [16x16/16z] Oo0TC34mCI7p-Ldu-L7vo1mW0Chp02asVZ1WWF0PG7m6Wdnq_KWci
 
 sprite $DiggLg [20x20/16z] Ow0-OE5duUSdJWnLW1y8mEg058p4BWOr3uw85oFM3bHtGKaeG557PG
 
-!procedure Digg($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/D/Digg', $name, $tech)
+!procedure Digg($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/D/Digg', $name, $tech, $desc)
 !endprocedure

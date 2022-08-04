@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Itunes')
 
 ' renders the element
-Itunes('Itunes', 'Itunes', 'an optional tech label')
+Itunes('Itunes', 'Itunes', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Itunes')
 
 ' renders the element
-Itunes('Itunes', 'Itunes', 'an optional tech label')
+Itunes('Itunes', 'Itunes', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

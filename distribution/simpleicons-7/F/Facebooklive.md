@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Facebooklive')
 
 ' renders the element
-Facebooklive('Facebooklive', 'Facebooklive', 'an optional tech label')
+Facebooklive('Facebooklive', 'Facebooklive', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Facebooklive')
 
 ' renders the element
-Facebooklive('Facebooklive', 'Facebooklive', 'an optional tech label')
+Facebooklive('Facebooklive', 'Facebooklive', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

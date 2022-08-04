@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Googlemarketingplatform')
 
 ' renders the element
-Googlemarketingplatform('Googlemarketingplatform', 'Googlemarketingplatform', 'an optional tech label')
+Googlemarketingplatform('Googlemarketingplatform', 'Googlemarketingplatform', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Googlemarketingplatform')
 
 ' renders the element
-Googlemarketingplatform('Googlemarketingplatform', 'Googlemarketingplatform', 'an optional tech label')
+Googlemarketingplatform('Googlemarketingplatform', 'Googlemarketingplatform', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

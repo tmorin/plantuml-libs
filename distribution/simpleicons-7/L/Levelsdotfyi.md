@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Levelsdotfyi')
 
 ' renders the element
-Levelsdotfyi('Levelsdotfyi', 'Levelsdotfyi', 'an optional tech label')
+Levelsdotfyi('Levelsdotfyi', 'Levelsdotfyi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Levelsdotfyi')
 
 ' renders the element
-Levelsdotfyi('Levelsdotfyi', 'Levelsdotfyi', 'an optional tech label')
+Levelsdotfyi('Levelsdotfyi', 'Levelsdotfyi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

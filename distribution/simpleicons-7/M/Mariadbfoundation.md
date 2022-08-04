@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mariadbfoundation')
 
 ' renders the element
-Mariadbfoundation('Mariadbfoundation', 'Mariadbfoundation', 'an optional tech label')
+Mariadbfoundation('Mariadbfoundation', 'Mariadbfoundation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mariadbfoundation')
 
 ' renders the element
-Mariadbfoundation('Mariadbfoundation', 'Mariadbfoundation', 'an optional tech label')
+Mariadbfoundation('Mariadbfoundation', 'Mariadbfoundation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

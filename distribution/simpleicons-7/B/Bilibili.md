@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bilibili')
 
 ' renders the element
-Bilibili('Bilibili', 'Bilibili', 'an optional tech label')
+Bilibili('Bilibili', 'Bilibili', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bilibili')
 
 ' renders the element
-Bilibili('Bilibili', 'Bilibili', 'an optional tech label')
+Bilibili('Bilibili', 'Bilibili', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

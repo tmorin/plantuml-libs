@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Affinityphoto')
 
 ' renders the element
-Affinityphoto('Affinityphoto', 'Affinityphoto', 'an optional tech label')
+Affinityphoto('Affinityphoto', 'Affinityphoto', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Affinityphoto')
 
 ' renders the element
-Affinityphoto('Affinityphoto', 'Affinityphoto', 'an optional tech label')
+Affinityphoto('Affinityphoto', 'Affinityphoto', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

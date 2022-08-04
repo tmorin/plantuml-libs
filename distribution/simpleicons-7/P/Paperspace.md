@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Paperspace')
 
 ' renders the element
-Paperspace('Paperspace', 'Paperspace', 'an optional tech label')
+Paperspace('Paperspace', 'Paperspace', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Paperspace')
 
 ' renders the element
-Paperspace('Paperspace', 'Paperspace', 'an optional tech label')
+Paperspace('Paperspace', 'Paperspace', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

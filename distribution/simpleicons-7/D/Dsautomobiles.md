@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Dsautomobiles')
 
 ' renders the element
-Dsautomobiles('Dsautomobiles', 'Dsautomobiles', 'an optional tech label')
+Dsautomobiles('Dsautomobiles', 'Dsautomobiles', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Dsautomobiles')
 
 ' renders the element
-Dsautomobiles('Dsautomobiles', 'Dsautomobiles', 'an optional tech label')
+Dsautomobiles('Dsautomobiles', 'Dsautomobiles', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

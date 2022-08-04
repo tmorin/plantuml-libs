@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Nba')
 
 ' renders the element
-Nba('Nba', 'Nba', 'an optional tech label')
+Nba('Nba', 'Nba', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Nba')
 
 ' renders the element
-Nba('Nba', 'Nba', 'an optional tech label')
+Nba('Nba', 'Nba', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Vuedotjs')
 
 ' renders the element
-Vuedotjs('Vuedotjs', 'Vuedotjs', 'an optional tech label')
+Vuedotjs('Vuedotjs', 'Vuedotjs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Vuedotjs')
 
 ' renders the element
-Vuedotjs('Vuedotjs', 'Vuedotjs', 'an optional tech label')
+Vuedotjs('Vuedotjs', 'Vuedotjs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

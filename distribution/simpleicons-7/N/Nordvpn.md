@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Nordvpn')
 
 ' renders the element
-Nordvpn('Nordvpn', 'Nordvpn', 'an optional tech label')
+Nordvpn('Nordvpn', 'Nordvpn', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Nordvpn')
 
 ' renders the element
-Nordvpn('Nordvpn', 'Nordvpn', 'an optional tech label')
+Nordvpn('Nordvpn', 'Nordvpn', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

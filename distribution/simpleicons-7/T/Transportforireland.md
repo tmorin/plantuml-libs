@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Transportforireland')
 
 ' renders the element
-Transportforireland('Transportforireland', 'Transportforireland', 'an optional tech label')
+Transportforireland('Transportforireland', 'Transportforireland', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Transportforireland')
 
 ' renders the element
-Transportforireland('Transportforireland', 'Transportforireland', 'an optional tech label')
+Transportforireland('Transportforireland', 'Transportforireland', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

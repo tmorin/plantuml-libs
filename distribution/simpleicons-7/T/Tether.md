@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tether')
 
 ' renders the element
-Tether('Tether', 'Tether', 'an optional tech label')
+Tether('Tether', 'Tether', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tether')
 
 ' renders the element
-Tether('Tether', 'Tether', 'an optional tech label')
+Tether('Tether', 'Tether', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

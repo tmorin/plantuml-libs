@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Kuaishou')
 
 ' renders the element
-Kuaishou('Kuaishou', 'Kuaishou', 'an optional tech label')
+Kuaishou('Kuaishou', 'Kuaishou', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Kuaishou')
 
 ' renders the element
-Kuaishou('Kuaishou', 'Kuaishou', 'an optional tech label')
+Kuaishou('Kuaishou', 'Kuaishou', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

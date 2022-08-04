@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pleroma')
 
 ' renders the element
-Pleroma('Pleroma', 'Pleroma', 'an optional tech label')
+Pleroma('Pleroma', 'Pleroma', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pleroma')
 
 ' renders the element
-Pleroma('Pleroma', 'Pleroma', 'an optional tech label')
+Pleroma('Pleroma', 'Pleroma', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

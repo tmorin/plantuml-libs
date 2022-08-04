@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Teradata')
 
 ' renders the element
-Teradata('Teradata', 'Teradata', 'an optional tech label')
+Teradata('Teradata', 'Teradata', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Teradata')
 
 ' renders the element
-Teradata('Teradata', 'Teradata', 'an optional tech label')
+Teradata('Teradata', 'Teradata', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

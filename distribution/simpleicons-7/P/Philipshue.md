@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Philipshue')
 
 ' renders the element
-Philipshue('Philipshue', 'Philipshue', 'an optional tech label')
+Philipshue('Philipshue', 'Philipshue', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Philipshue')
 
 ' renders the element
-Philipshue('Philipshue', 'Philipshue', 'an optional tech label')
+Philipshue('Philipshue', 'Philipshue', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

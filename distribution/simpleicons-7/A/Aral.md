@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Aral')
 
 ' renders the element
-Aral('Aral', 'Aral', 'an optional tech label')
+Aral('Aral', 'Aral', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Aral')
 
 ' renders the element
-Aral('Aral', 'Aral', 'an optional tech label')
+Aral('Aral', 'Aral', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bit')
 
 ' renders the element
-Bit('Bit', 'Bit', 'an optional tech label')
+Bit('Bit', 'Bit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bit')
 
 ' renders the element
-Bit('Bit', 'Bit', 'an optional tech label')
+Bit('Bit', 'Bit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

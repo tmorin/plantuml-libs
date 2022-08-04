@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/U/Unicode')
 
 ' renders the element
-Unicode('Unicode', 'Unicode', 'an optional tech label')
+Unicode('Unicode', 'Unicode', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/U/Unicode')
 
 ' renders the element
-Unicode('Unicode', 'Unicode', 'an optional tech label')
+Unicode('Unicode', 'Unicode', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

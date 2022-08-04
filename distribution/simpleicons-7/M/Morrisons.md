@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Morrisons')
 
 ' renders the element
-Morrisons('Morrisons', 'Morrisons', 'an optional tech label')
+Morrisons('Morrisons', 'Morrisons', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Morrisons')
 
 ' renders the element
-Morrisons('Morrisons', 'Morrisons', 'an optional tech label')
+Morrisons('Morrisons', 'Morrisons', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

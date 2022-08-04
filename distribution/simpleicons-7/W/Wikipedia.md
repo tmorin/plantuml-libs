@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Wikipedia')
 
 ' renders the element
-Wikipedia('Wikipedia', 'Wikipedia', 'an optional tech label')
+Wikipedia('Wikipedia', 'Wikipedia', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Wikipedia')
 
 ' renders the element
-Wikipedia('Wikipedia', 'Wikipedia', 'an optional tech label')
+Wikipedia('Wikipedia', 'Wikipedia', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

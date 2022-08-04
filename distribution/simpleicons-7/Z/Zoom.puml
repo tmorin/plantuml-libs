@@ -8,6 +8,6 @@ sprite $ZoomMd [16x16/16z] jOK50S0m4CHIxhD_jvk97YGypjgxiu39cCmETejiJaMBgUZby1iBD
 
 sprite $ZoomLg [20x20/16z] pOY50GCn3CGK9ZVQVzhI56yVy_0BTKo5wqKz7gWt1SarQ4jg4DIl3p2043Qxs7AohAYtlEf_MwplCIgadMXGUTHz
 
-!procedure Zoom($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/Z/Zoom', $name, $tech)
+!procedure Zoom($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/Z/Zoom', $name, $tech, $desc)
 !endprocedure

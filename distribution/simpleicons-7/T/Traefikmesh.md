@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Traefikmesh')
 
 ' renders the element
-Traefikmesh('Traefikmesh', 'Traefikmesh', 'an optional tech label')
+Traefikmesh('Traefikmesh', 'Traefikmesh', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Traefikmesh')
 
 ' renders the element
-Traefikmesh('Traefikmesh', 'Traefikmesh', 'an optional tech label')
+Traefikmesh('Traefikmesh', 'Traefikmesh', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

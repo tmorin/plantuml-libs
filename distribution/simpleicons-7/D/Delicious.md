@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Delicious')
 
 ' renders the element
-Delicious('Delicious', 'Delicious', 'an optional tech label')
+Delicious('Delicious', 'Delicious', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Delicious')
 
 ' renders the element
-Delicious('Delicious', 'Delicious', 'an optional tech label')
+Delicious('Delicious', 'Delicious', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

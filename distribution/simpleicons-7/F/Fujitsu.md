@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fujitsu')
 
 ' renders the element
-Fujitsu('Fujitsu', 'Fujitsu', 'an optional tech label')
+Fujitsu('Fujitsu', 'Fujitsu', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fujitsu')
 
 ' renders the element
-Fujitsu('Fujitsu', 'Fujitsu', 'an optional tech label')
+Fujitsu('Fujitsu', 'Fujitsu', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

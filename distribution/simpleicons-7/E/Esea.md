@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Esea')
 
 ' renders the element
-Esea('Esea', 'Esea', 'an optional tech label')
+Esea('Esea', 'Esea', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Esea')
 
 ' renders the element
-Esea('Esea', 'Esea', 'an optional tech label')
+Esea('Esea', 'Esea', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

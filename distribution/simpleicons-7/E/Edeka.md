@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Edeka')
 
 ' renders the element
-Edeka('Edeka', 'Edeka', 'an optional tech label')
+Edeka('Edeka', 'Edeka', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Edeka')
 
 ' renders the element
-Edeka('Edeka', 'Edeka', 'an optional tech label')
+Edeka('Edeka', 'Edeka', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

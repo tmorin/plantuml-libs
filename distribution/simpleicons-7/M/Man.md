@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Man')
 
 ' renders the element
-Man('Man', 'Man', 'an optional tech label')
+Man('Man', 'Man', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Man')
 
 ' renders the element
-Man('Man', 'Man', 'an optional tech label')
+Man('Man', 'Man', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

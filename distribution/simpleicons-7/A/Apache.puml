@@ -8,6 +8,6 @@ sprite $ApacheMd [16x16/16z] VSt50S1024HHDcx3xx_Rd29hl1EElPPaVpEUvN1bgVZF7uwojZF
 
 sprite $ApacheLg [20x20/16z] ZOz50aCX30Ln3tF_svPbIIf_bf4dxXrn1XXwj8KHxb43rCWZe3ytn7kK4EF0Gi_YcMsj1dJzMasGCp51c6OKcRFOzg97gJJl7X2TvS7Z2m
 
-!procedure Apache($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/A/Apache', $name, $tech)
+!procedure Apache($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/A/Apache', $name, $tech, $desc)
 !endprocedure

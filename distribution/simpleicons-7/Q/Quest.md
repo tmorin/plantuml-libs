@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Q/Quest')
 
 ' renders the element
-Quest('Quest', 'Quest', 'an optional tech label')
+Quest('Quest', 'Quest', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Q/Quest')
 
 ' renders the element
-Quest('Quest', 'Quest', 'an optional tech label')
+Quest('Quest', 'Quest', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

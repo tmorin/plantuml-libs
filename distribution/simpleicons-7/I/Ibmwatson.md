@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Ibmwatson')
 
 ' renders the element
-Ibmwatson('Ibmwatson', 'Ibmwatson', 'an optional tech label')
+Ibmwatson('Ibmwatson', 'Ibmwatson', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Ibmwatson')
 
 ' renders the element
-Ibmwatson('Ibmwatson', 'Ibmwatson', 'an optional tech label')
+Ibmwatson('Ibmwatson', 'Ibmwatson', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

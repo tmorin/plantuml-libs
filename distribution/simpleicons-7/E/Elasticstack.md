@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Elasticstack')
 
 ' renders the element
-Elasticstack('Elasticstack', 'Elasticstack', 'an optional tech label')
+Elasticstack('Elasticstack', 'Elasticstack', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Elasticstack')
 
 ' renders the element
-Elasticstack('Elasticstack', 'Elasticstack', 'an optional tech label')
+Elasticstack('Elasticstack', 'Elasticstack', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/U/Upstash')
 
 ' renders the element
-Upstash('Upstash', 'Upstash', 'an optional tech label')
+Upstash('Upstash', 'Upstash', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/U/Upstash')
 
 ' renders the element
-Upstash('Upstash', 'Upstash', 'an optional tech label')
+Upstash('Upstash', 'Upstash', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

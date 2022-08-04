@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Citrix')
 
 ' renders the element
-Citrix('Citrix', 'Citrix', 'an optional tech label')
+Citrix('Citrix', 'Citrix', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Citrix')
 
 ' renders the element
-Citrix('Citrix', 'Citrix', 'an optional tech label')
+Citrix('Citrix', 'Citrix', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Googlecloud')
 
 ' renders the element
-Googlecloud('Googlecloud', 'Googlecloud', 'an optional tech label')
+Googlecloud('Googlecloud', 'Googlecloud', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Googlecloud')
 
 ' renders the element
-Googlecloud('Googlecloud', 'Googlecloud', 'an optional tech label')
+Googlecloud('Googlecloud', 'Googlecloud', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

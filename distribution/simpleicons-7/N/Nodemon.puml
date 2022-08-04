@@ -8,6 +8,6 @@ sprite $NodemonMd [16x16/16z] hSVL0O0m5CNGu4xsdnPt-jdpz9Bnb21FBVOijDjEXvhthgfw6I
 
 sprite $NodemonLg [20x20/16z] lSdL0KCX5C3GF3VWxhzjSV_kmGCh8qNdNj4Ih_5Sn3K5x68fdsnxf6BSvZvwG9yEqD9R9srBpImSNRjmJDCMd4-SzNzDuQrL8xjYswazilu
 
-!procedure Nodemon($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/N/Nodemon', $name, $tech)
+!procedure Nodemon($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/N/Nodemon', $name, $tech, $desc)
 !endprocedure

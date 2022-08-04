@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hurriyetemlak')
 
 ' renders the element
-Hurriyetemlak('Hurriyetemlak', 'Hurriyetemlak', 'an optional tech label')
+Hurriyetemlak('Hurriyetemlak', 'Hurriyetemlak', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hurriyetemlak')
 
 ' renders the element
-Hurriyetemlak('Hurriyetemlak', 'Hurriyetemlak', 'an optional tech label')
+Hurriyetemlak('Hurriyetemlak', 'Hurriyetemlak', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

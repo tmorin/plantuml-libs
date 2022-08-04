@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Steamworks')
 
 ' renders the element
-Steamworks('Steamworks', 'Steamworks', 'an optional tech label')
+Steamworks('Steamworks', 'Steamworks', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Steamworks')
 
 ' renders the element
-Steamworks('Steamworks', 'Steamworks', 'an optional tech label')
+Steamworks('Steamworks', 'Steamworks', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

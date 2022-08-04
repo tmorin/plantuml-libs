@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Issuu')
 
 ' renders the element
-Issuu('Issuu', 'Issuu', 'an optional tech label')
+Issuu('Issuu', 'Issuu', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Issuu')
 
 ' renders the element
-Issuu('Issuu', 'Issuu', 'an optional tech label')
+Issuu('Issuu', 'Issuu', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

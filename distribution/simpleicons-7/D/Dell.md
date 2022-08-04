@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Dell')
 
 ' renders the element
-Dell('Dell', 'Dell', 'an optional tech label')
+Dell('Dell', 'Dell', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Dell')
 
 ' renders the element
-Dell('Dell', 'Dell', 'an optional tech label')
+Dell('Dell', 'Dell', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

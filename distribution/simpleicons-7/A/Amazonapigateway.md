@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Amazonapigateway')
 
 ' renders the element
-Amazonapigateway('Amazonapigateway', 'Amazonapigateway', 'an optional tech label')
+Amazonapigateway('Amazonapigateway', 'Amazonapigateway', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Amazonapigateway')
 
 ' renders the element
-Amazonapigateway('Amazonapigateway', 'Amazonapigateway', 'an optional tech label')
+Amazonapigateway('Amazonapigateway', 'Amazonapigateway', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

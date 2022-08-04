@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Checkio')
 
 ' renders the element
-Checkio('Checkio', 'Checkio', 'an optional tech label')
+Checkio('Checkio', 'Checkio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Checkio')
 
 ' renders the element
-Checkio('Checkio', 'Checkio', 'an optional tech label')
+Checkio('Checkio', 'Checkio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

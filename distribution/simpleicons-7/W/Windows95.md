@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Windows95')
 
 ' renders the element
-Windows95('Windows95', 'Windows95', 'an optional tech label')
+Windows95('Windows95', 'Windows95', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Windows95')
 
 ' renders the element
-Windows95('Windows95', 'Windows95', 'an optional tech label')
+Windows95('Windows95', 'Windows95', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

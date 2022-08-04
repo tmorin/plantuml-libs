@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Kinopoisk')
 
 ' renders the element
-Kinopoisk('Kinopoisk', 'Kinopoisk', 'an optional tech label')
+Kinopoisk('Kinopoisk', 'Kinopoisk', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Kinopoisk')
 
 ' renders the element
-Kinopoisk('Kinopoisk', 'Kinopoisk', 'an optional tech label')
+Kinopoisk('Kinopoisk', 'Kinopoisk', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

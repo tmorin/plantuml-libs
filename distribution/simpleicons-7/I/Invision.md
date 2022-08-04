@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Invision')
 
 ' renders the element
-Invision('Invision', 'Invision', 'an optional tech label')
+Invision('Invision', 'Invision', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Invision')
 
 ' renders the element
-Invision('Invision', 'Invision', 'an optional tech label')
+Invision('Invision', 'Invision', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

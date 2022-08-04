@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/HiveBlockchain')
 
 ' renders the element
-HiveBlockchain('HiveBlockchain', 'Hive Blockchain', 'an optional tech label')
+HiveBlockchain('HiveBlockchain', 'Hive Blockchain', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/HiveBlockchain')
 
 ' renders the element
-HiveBlockchain('HiveBlockchain', 'Hive Blockchain', 'an optional tech label')
+HiveBlockchain('HiveBlockchain', 'Hive Blockchain', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

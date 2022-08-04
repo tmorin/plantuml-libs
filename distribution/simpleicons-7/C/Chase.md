@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Chase')
 
 ' renders the element
-Chase('Chase', 'Chase', 'an optional tech label')
+Chase('Chase', 'Chase', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Chase')
 
 ' renders the element
-Chase('Chase', 'Chase', 'an optional tech label')
+Chase('Chase', 'Chase', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

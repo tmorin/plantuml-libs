@@ -8,6 +8,6 @@ sprite $SteamworksMd [16x16/16z] Ow0lO4HYym8nFn8Vp6LcO63cucHWPc5WOcQYWuC
 
 sprite $SteamworksLg [20x20/16z] OnXIW168MVbHXLWXOkY0cuk1dP63dO6BWvk5XOMHaP692Qg12OWH1Wuo
 
-!procedure Steamworks($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/S/Steamworks', $name, $tech)
+!procedure Steamworks($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/S/Steamworks', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Instagram')
 
 ' renders the element
-Instagram('Instagram', 'Instagram', 'an optional tech label')
+Instagram('Instagram', 'Instagram', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Instagram')
 
 ' renders the element
-Instagram('Instagram', 'Instagram', 'an optional tech label')
+Instagram('Instagram', 'Instagram', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

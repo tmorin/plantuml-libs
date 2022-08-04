@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Producthunt')
 
 ' renders the element
-Producthunt('Producthunt', 'Producthunt', 'an optional tech label')
+Producthunt('Producthunt', 'Producthunt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Producthunt')
 
 ' renders the element
-Producthunt('Producthunt', 'Producthunt', 'an optional tech label')
+Producthunt('Producthunt', 'Producthunt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

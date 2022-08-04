@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Iveco')
 
 ' renders the element
-Iveco('Iveco', 'Iveco', 'an optional tech label')
+Iveco('Iveco', 'Iveco', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Iveco')
 
 ' renders the element
-Iveco('Iveco', 'Iveco', 'an optional tech label')
+Iveco('Iveco', 'Iveco', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

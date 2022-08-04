@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Starbucks')
 
 ' renders the element
-Starbucks('Starbucks', 'Starbucks', 'an optional tech label')
+Starbucks('Starbucks', 'Starbucks', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Starbucks')
 
 ' renders the element
-Starbucks('Starbucks', 'Starbucks', 'an optional tech label')
+Starbucks('Starbucks', 'Starbucks', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

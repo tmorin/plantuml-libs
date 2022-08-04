@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Snowpack')
 
 ' renders the element
-Snowpack('Snowpack', 'Snowpack', 'an optional tech label')
+Snowpack('Snowpack', 'Snowpack', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Snowpack')
 
 ' renders the element
-Snowpack('Snowpack', 'Snowpack', 'an optional tech label')
+Snowpack('Snowpack', 'Snowpack', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

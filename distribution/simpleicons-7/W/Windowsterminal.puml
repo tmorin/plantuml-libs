@@ -8,6 +8,6 @@ sprite $WindowsterminalMd [16x16/16z] XSY50O1030F0u4xsdnRUNQvUTCotCDmEfP7EBasgRx
 
 sprite $WindowsterminalLg [20x20/16z] fSs50O0m30J0nvtVVrgitk2zkYH1WfcUWih9NNjer5AgXUV6dW8WBzkpo-xiiW8OwO7-FBHNPhyk51Kng2LJHfvg9WalhG
 
-!procedure Windowsterminal($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/W/Windowsterminal', $name, $tech)
+!procedure Windowsterminal($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/W/Windowsterminal', $name, $tech, $desc)
 !endprocedure

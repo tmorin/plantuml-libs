@@ -8,6 +8,6 @@ sprite $TroveMd [16x16/16z] jSUd0S0m44MnvzxlxpzjAWkEnSHcKsEiXQbNLvmCCRhvW5ZYlIi8
 
 sprite $TroveLg [20x20/16z] pOY70G8n4CFaX7A5nFjFIsS6NbSj3aHKKNM5Iuj4CPwYmLZTcCrYNdcxlJ7adElfxBUJoHi63sQ82yIp488JAA9_3EhtwWVe1t_Y0G
 
-!procedure Trove($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/T/Trove', $name, $tech)
+!procedure Trove($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/T/Trove', $name, $tech, $desc)
 !endprocedure

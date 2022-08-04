@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Stackbit')
 
 ' renders the element
-Stackbit('Stackbit', 'Stackbit', 'an optional tech label')
+Stackbit('Stackbit', 'Stackbit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Stackbit')
 
 ' renders the element
-Stackbit('Stackbit', 'Stackbit', 'an optional tech label')
+Stackbit('Stackbit', 'Stackbit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

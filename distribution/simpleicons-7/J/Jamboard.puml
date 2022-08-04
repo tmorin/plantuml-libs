@@ -8,6 +8,6 @@ sprite $JamboardMd [16x16/16z] Ou02RduWu8RnAEUpSm416vJ339H2akVWH-4pygFoUT7u_EXyE
 
 sprite $JamboardLg [20x20/16z] Ou03Rdum0B86M8oHcmzTZ0_8GHFZvSSGO-V75ECdJemHmk7W1WCKCNuqlGZ02tCTYZ8CXI3Zq4t4301M20S
 
-!procedure Jamboard($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/J/Jamboard', $name, $tech)
+!procedure Jamboard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/J/Jamboard', $name, $tech, $desc)
 !endprocedure

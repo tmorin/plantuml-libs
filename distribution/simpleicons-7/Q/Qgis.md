@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Q/Qgis')
 
 ' renders the element
-Qgis('Qgis', 'Qgis', 'an optional tech label')
+Qgis('Qgis', 'Qgis', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Q/Qgis')
 
 ' renders the element
-Qgis('Qgis', 'Qgis', 'an optional tech label')
+Qgis('Qgis', 'Qgis', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

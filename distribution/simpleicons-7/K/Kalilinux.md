@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Kalilinux')
 
 ' renders the element
-Kalilinux('Kalilinux', 'Kalilinux', 'an optional tech label')
+Kalilinux('Kalilinux', 'Kalilinux', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Kalilinux')
 
 ' renders the element
-Kalilinux('Kalilinux', 'Kalilinux', 'an optional tech label')
+Kalilinux('Kalilinux', 'Kalilinux', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

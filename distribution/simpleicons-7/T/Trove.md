@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Trove')
 
 ' renders the element
-Trove('Trove', 'Trove', 'an optional tech label')
+Trove('Trove', 'Trove', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Trove')
 
 ' renders the element
-Trove('Trove', 'Trove', 'an optional tech label')
+Trove('Trove', 'Trove', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

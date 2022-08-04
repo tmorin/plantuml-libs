@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Teratail')
 
 ' renders the element
-Teratail('Teratail', 'Teratail', 'an optional tech label')
+Teratail('Teratail', 'Teratail', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Teratail')
 
 ' renders the element
-Teratail('Teratail', 'Teratail', 'an optional tech label')
+Teratail('Teratail', 'Teratail', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

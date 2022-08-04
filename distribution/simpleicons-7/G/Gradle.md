@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gradle')
 
 ' renders the element
-Gradle('Gradle', 'Gradle', 'an optional tech label')
+Gradle('Gradle', 'Gradle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gradle')
 
 ' renders the element
-Gradle('Gradle', 'Gradle', 'an optional tech label')
+Gradle('Gradle', 'Gradle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Woocommerce')
 
 ' renders the element
-Woocommerce('Woocommerce', 'Woocommerce', 'an optional tech label')
+Woocommerce('Woocommerce', 'Woocommerce', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Woocommerce')
 
 ' renders the element
-Woocommerce('Woocommerce', 'Woocommerce', 'an optional tech label')
+Woocommerce('Woocommerce', 'Woocommerce', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

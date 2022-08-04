@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Metrodeparis')
 
 ' renders the element
-Metrodeparis('Metrodeparis', 'Metrodeparis', 'an optional tech label')
+Metrodeparis('Metrodeparis', 'Metrodeparis', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Metrodeparis')
 
 ' renders the element
-Metrodeparis('Metrodeparis', 'Metrodeparis', 'an optional tech label')
+Metrodeparis('Metrodeparis', 'Metrodeparis', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

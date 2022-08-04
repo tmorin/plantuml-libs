@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Playwright')
 
 ' renders the element
-Playwright('Playwright', 'Playwright', 'an optional tech label')
+Playwright('Playwright', 'Playwright', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Playwright')
 
 ' renders the element
-Playwright('Playwright', 'Playwright', 'an optional tech label')
+Playwright('Playwright', 'Playwright', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

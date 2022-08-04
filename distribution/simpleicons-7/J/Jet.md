@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Jet')
 
 ' renders the element
-Jet('Jet', 'Jet', 'an optional tech label')
+Jet('Jet', 'Jet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Jet')
 
 ' renders the element
-Jet('Jet', 'Jet', 'an optional tech label')
+Jet('Jet', 'Jet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Messenger')
 
 ' renders the element
-Messenger('Messenger', 'Messenger', 'an optional tech label')
+Messenger('Messenger', 'Messenger', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Messenger')
 
 ' renders the element
-Messenger('Messenger', 'Messenger', 'an optional tech label')
+Messenger('Messenger', 'Messenger', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

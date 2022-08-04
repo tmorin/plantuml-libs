@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Betfair')
 
 ' renders the element
-Betfair('Betfair', 'Betfair', 'an optional tech label')
+Betfair('Betfair', 'Betfair', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Betfair')
 
 ' renders the element
-Betfair('Betfair', 'Betfair', 'an optional tech label')
+Betfair('Betfair', 'Betfair', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

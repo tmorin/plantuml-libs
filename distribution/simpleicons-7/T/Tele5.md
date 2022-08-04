@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tele5')
 
 ' renders the element
-Tele5('Tele5', 'Tele5', 'an optional tech label')
+Tele5('Tele5', 'Tele5', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tele5')
 
 ' renders the element
-Tele5('Tele5', 'Tele5', 'an optional tech label')
+Tele5('Tele5', 'Tele5', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

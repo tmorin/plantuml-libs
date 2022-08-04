@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Consul')
 
 ' renders the element
-Consul('Consul', 'Consul', 'an optional tech label')
+Consul('Consul', 'Consul', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Consul')
 
 ' renders the element
-Consul('Consul', 'Consul', 'an optional tech label')
+Consul('Consul', 'Consul', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

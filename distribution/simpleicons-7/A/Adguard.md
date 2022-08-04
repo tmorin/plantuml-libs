@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Adguard')
 
 ' renders the element
-Adguard('Adguard', 'Adguard', 'an optional tech label')
+Adguard('Adguard', 'Adguard', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Adguard')
 
 ' renders the element
-Adguard('Adguard', 'Adguard', 'an optional tech label')
+Adguard('Adguard', 'Adguard', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

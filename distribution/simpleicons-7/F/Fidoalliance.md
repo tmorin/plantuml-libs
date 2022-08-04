@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fidoalliance')
 
 ' renders the element
-Fidoalliance('Fidoalliance', 'Fidoalliance', 'an optional tech label')
+Fidoalliance('Fidoalliance', 'Fidoalliance', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fidoalliance')
 
 ' renders the element
-Fidoalliance('Fidoalliance', 'Fidoalliance', 'an optional tech label')
+Fidoalliance('Fidoalliance', 'Fidoalliance', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/U/Unity')
 
 ' renders the element
-Unity('Unity', 'Unity', 'an optional tech label')
+Unity('Unity', 'Unity', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/U/Unity')
 
 ' renders the element
-Unity('Unity', 'Unity', 'an optional tech label')
+Unity('Unity', 'Unity', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Jitsi')
 
 ' renders the element
-Jitsi('Jitsi', 'Jitsi', 'an optional tech label')
+Jitsi('Jitsi', 'Jitsi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Jitsi')
 
 ' renders the element
-Jitsi('Jitsi', 'Jitsi', 'an optional tech label')
+Jitsi('Jitsi', 'Jitsi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

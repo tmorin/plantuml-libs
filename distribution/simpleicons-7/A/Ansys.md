@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Ansys')
 
 ' renders the element
-Ansys('Ansys', 'Ansys', 'an optional tech label')
+Ansys('Ansys', 'Ansys', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Ansys')
 
 ' renders the element
-Ansys('Ansys', 'Ansys', 'an optional tech label')
+Ansys('Ansys', 'Ansys', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

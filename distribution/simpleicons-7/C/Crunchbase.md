@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Crunchbase')
 
 ' renders the element
-Crunchbase('Crunchbase', 'Crunchbase', 'an optional tech label')
+Crunchbase('Crunchbase', 'Crunchbase', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Crunchbase')
 
 ' renders the element
-Crunchbase('Crunchbase', 'Crunchbase', 'an optional tech label')
+Crunchbase('Crunchbase', 'Crunchbase', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

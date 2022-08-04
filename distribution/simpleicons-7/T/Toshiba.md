@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Toshiba')
 
 ' renders the element
-Toshiba('Toshiba', 'Toshiba', 'an optional tech label')
+Toshiba('Toshiba', 'Toshiba', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Toshiba')
 
 ' renders the element
-Toshiba('Toshiba', 'Toshiba', 'an optional tech label')
+Toshiba('Toshiba', 'Toshiba', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

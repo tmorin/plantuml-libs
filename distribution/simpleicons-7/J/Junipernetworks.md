@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Junipernetworks')
 
 ' renders the element
-Junipernetworks('Junipernetworks', 'Junipernetworks', 'an optional tech label')
+Junipernetworks('Junipernetworks', 'Junipernetworks', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Junipernetworks')
 
 ' renders the element
-Junipernetworks('Junipernetworks', 'Junipernetworks', 'an optional tech label')
+Junipernetworks('Junipernetworks', 'Junipernetworks', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Adobeacrobatreader')
 
 ' renders the element
-Adobeacrobatreader('Adobeacrobatreader', 'Adobeacrobatreader', 'an optional tech label')
+Adobeacrobatreader('Adobeacrobatreader', 'Adobeacrobatreader', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Adobeacrobatreader')
 
 ' renders the element
-Adobeacrobatreader('Adobeacrobatreader', 'Adobeacrobatreader', 'an optional tech label')
+Adobeacrobatreader('Adobeacrobatreader', 'Adobeacrobatreader', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

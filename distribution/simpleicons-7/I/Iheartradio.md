@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Iheartradio')
 
 ' renders the element
-Iheartradio('Iheartradio', 'Iheartradio', 'an optional tech label')
+Iheartradio('Iheartradio', 'Iheartradio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Iheartradio')
 
 ' renders the element
-Iheartradio('Iheartradio', 'Iheartradio', 'an optional tech label')
+Iheartradio('Iheartradio', 'Iheartradio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

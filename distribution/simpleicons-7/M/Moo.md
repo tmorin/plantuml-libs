@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Moo')
 
 ' renders the element
-Moo('Moo', 'Moo', 'an optional tech label')
+Moo('Moo', 'Moo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Moo')
 
 ' renders the element
-Moo('Moo', 'Moo', 'an optional tech label')
+Moo('Moo', 'Moo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cycling74')
 
 ' renders the element
-Cycling74('Cycling74', 'Cycling74', 'an optional tech label')
+Cycling74('Cycling74', 'Cycling74', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cycling74')
 
 ' renders the element
-Cycling74('Cycling74', 'Cycling74', 'an optional tech label')
+Cycling74('Cycling74', 'Cycling74', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

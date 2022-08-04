@@ -8,6 +8,6 @@ sprite $CartoMd [16x16/16z] jS6d0SCm000m9V6U_tzRQ5JI8VcV-5p5aQ5QL7bQIsuiKbSsZxrn
 
 sprite $CartoLg [20x20/16z] pSwr0GCn400mFPdjst_RbA4we0daB-npLCyAN9jt-HeNWvXIP3qs5g8JYo2Ye6woKqeKZiBcqGRASoMn5Qystt43
 
-!procedure Carto($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/C/Carto', $name, $tech)
+!procedure Carto($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/C/Carto', $name, $tech, $desc)
 !endprocedure

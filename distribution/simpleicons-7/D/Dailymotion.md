@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Dailymotion')
 
 ' renders the element
-Dailymotion('Dailymotion', 'Dailymotion', 'an optional tech label')
+Dailymotion('Dailymotion', 'Dailymotion', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Dailymotion')
 
 ' renders the element
-Dailymotion('Dailymotion', 'Dailymotion', 'an optional tech label')
+Dailymotion('Dailymotion', 'Dailymotion', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

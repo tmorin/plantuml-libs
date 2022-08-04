@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Imgur')
 
 ' renders the element
-Imgur('Imgur', 'Imgur', 'an optional tech label')
+Imgur('Imgur', 'Imgur', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Imgur')
 
 ' renders the element
-Imgur('Imgur', 'Imgur', 'an optional tech label')
+Imgur('Imgur', 'Imgur', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

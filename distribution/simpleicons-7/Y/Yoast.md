@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Y/Yoast')
 
 ' renders the element
-Yoast('Yoast', 'Yoast', 'an optional tech label')
+Yoast('Yoast', 'Yoast', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Y/Yoast')
 
 ' renders the element
-Yoast('Yoast', 'Yoast', 'an optional tech label')
+Yoast('Yoast', 'Yoast', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

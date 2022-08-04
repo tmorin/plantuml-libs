@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Applepodcasts')
 
 ' renders the element
-Applepodcasts('Applepodcasts', 'Applepodcasts', 'an optional tech label')
+Applepodcasts('Applepodcasts', 'Applepodcasts', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Applepodcasts')
 
 ' renders the element
-Applepodcasts('Applepodcasts', 'Applepodcasts', 'an optional tech label')
+Applepodcasts('Applepodcasts', 'Applepodcasts', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

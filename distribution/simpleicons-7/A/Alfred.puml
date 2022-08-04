@@ -8,6 +8,6 @@ sprite $AlfredMd [16x16/16z] dSwr0O0m441HtE7lFornQsAlEx-XnuEossZ4-aoCzwfm8mZ38Nx
 
 sprite $AlfredLg [20x20/16z] fSx50GGn30D0XJdglzg3PSRvcOttX4yfAaonaz6p7DH-ZbDe54vf_74cRUJA8jTV4OLp0O9hbMkIQr3arZE98ukH-CCzNm
 
-!procedure Alfred($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/A/Alfred', $name, $tech)
+!procedure Alfred($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/A/Alfred', $name, $tech, $desc)
 !endprocedure

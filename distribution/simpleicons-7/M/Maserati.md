@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Maserati')
 
 ' renders the element
-Maserati('Maserati', 'Maserati', 'an optional tech label')
+Maserati('Maserati', 'Maserati', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Maserati')
 
 ' renders the element
-Maserati('Maserati', 'Maserati', 'an optional tech label')
+Maserati('Maserati', 'Maserati', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

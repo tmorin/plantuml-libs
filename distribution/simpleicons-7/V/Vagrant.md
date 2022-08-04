@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Vagrant')
 
 ' renders the element
-Vagrant('Vagrant', 'Vagrant', 'an optional tech label')
+Vagrant('Vagrant', 'Vagrant', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Vagrant')
 
 ' renders the element
-Vagrant('Vagrant', 'Vagrant', 'an optional tech label')
+Vagrant('Vagrant', 'Vagrant', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Z/Zotero')
 
 ' renders the element
-Zotero('Zotero', 'Zotero', 'an optional tech label')
+Zotero('Zotero', 'Zotero', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Z/Zotero')
 
 ' renders the element
-Zotero('Zotero', 'Zotero', 'an optional tech label')
+Zotero('Zotero', 'Zotero', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bandsintown')
 
 ' renders the element
-Bandsintown('Bandsintown', 'Bandsintown', 'an optional tech label')
+Bandsintown('Bandsintown', 'Bandsintown', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bandsintown')
 
 ' renders the element
-Bandsintown('Bandsintown', 'Bandsintown', 'an optional tech label')
+Bandsintown('Bandsintown', 'Bandsintown', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

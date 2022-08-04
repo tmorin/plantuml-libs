@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Scrumalliance')
 
 ' renders the element
-Scrumalliance('Scrumalliance', 'Scrumalliance', 'an optional tech label')
+Scrumalliance('Scrumalliance', 'Scrumalliance', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Scrumalliance')
 
 ' renders the element
-Scrumalliance('Scrumalliance', 'Scrumalliance', 'an optional tech label')
+Scrumalliance('Scrumalliance', 'Scrumalliance', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

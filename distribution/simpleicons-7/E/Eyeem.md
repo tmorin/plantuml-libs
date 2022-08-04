@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Eyeem')
 
 ' renders the element
-Eyeem('Eyeem', 'Eyeem', 'an optional tech label')
+Eyeem('Eyeem', 'Eyeem', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Eyeem')
 
 ' renders the element
-Eyeem('Eyeem', 'Eyeem', 'an optional tech label')
+Eyeem('Eyeem', 'Eyeem', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

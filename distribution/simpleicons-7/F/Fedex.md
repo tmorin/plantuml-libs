@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fedex')
 
 ' renders the element
-Fedex('Fedex', 'Fedex', 'an optional tech label')
+Fedex('Fedex', 'Fedex', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fedex')
 
 ' renders the element
-Fedex('Fedex', 'Fedex', 'an optional tech label')
+Fedex('Fedex', 'Fedex', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

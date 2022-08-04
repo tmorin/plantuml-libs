@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Musescore')
 
 ' renders the element
-Musescore('Musescore', 'Musescore', 'an optional tech label')
+Musescore('Musescore', 'Musescore', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Musescore')
 
 ' renders the element
-Musescore('Musescore', 'Musescore', 'an optional tech label')
+Musescore('Musescore', 'Musescore', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

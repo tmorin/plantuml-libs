@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Aib')
 
 ' renders the element
-Aib('Aib', 'Aib', 'an optional tech label')
+Aib('Aib', 'Aib', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Aib')
 
 ' renders the element
-Aib('Aib', 'Aib', 'an optional tech label')
+Aib('Aib', 'Aib', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

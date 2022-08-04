@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Audi')
 
 ' renders the element
-Audi('Audi', 'Audi', 'an optional tech label')
+Audi('Audi', 'Audi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Audi')
 
 ' renders the element
-Audi('Audi', 'Audi', 'an optional tech label')
+Audi('Audi', 'Audi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

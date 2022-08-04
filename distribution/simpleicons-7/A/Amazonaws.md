@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Amazonaws')
 
 ' renders the element
-Amazonaws('Amazonaws', 'Amazonaws', 'an optional tech label')
+Amazonaws('Amazonaws', 'Amazonaws', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Amazonaws')
 
 ' renders the element
-Amazonaws('Amazonaws', 'Amazonaws', 'an optional tech label')
+Amazonaws('Amazonaws', 'Amazonaws', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

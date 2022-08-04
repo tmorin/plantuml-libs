@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tokyometro')
 
 ' renders the element
-Tokyometro('Tokyometro', 'Tokyometro', 'an optional tech label')
+Tokyometro('Tokyometro', 'Tokyometro', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tokyometro')
 
 ' renders the element
-Tokyometro('Tokyometro', 'Tokyometro', 'an optional tech label')
+Tokyometro('Tokyometro', 'Tokyometro', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

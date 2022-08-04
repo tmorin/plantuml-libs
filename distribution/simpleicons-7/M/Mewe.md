@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mewe')
 
 ' renders the element
-Mewe('Mewe', 'Mewe', 'an optional tech label')
+Mewe('Mewe', 'Mewe', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mewe')
 
 ' renders the element
-Mewe('Mewe', 'Mewe', 'an optional tech label')
+Mewe('Mewe', 'Mewe', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

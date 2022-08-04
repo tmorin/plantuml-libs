@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Ifixit')
 
 ' renders the element
-Ifixit('Ifixit', 'Ifixit', 'an optional tech label')
+Ifixit('Ifixit', 'Ifixit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Ifixit')
 
 ' renders the element
-Ifixit('Ifixit', 'Ifixit', 'an optional tech label')
+Ifixit('Ifixit', 'Ifixit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

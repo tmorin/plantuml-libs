@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Laravel')
 
 ' renders the element
-Laravel('Laravel', 'Laravel', 'an optional tech label')
+Laravel('Laravel', 'Laravel', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Laravel')
 
 ' renders the element
-Laravel('Laravel', 'Laravel', 'an optional tech label')
+Laravel('Laravel', 'Laravel', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hetzner')
 
 ' renders the element
-Hetzner('Hetzner', 'Hetzner', 'an optional tech label')
+Hetzner('Hetzner', 'Hetzner', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hetzner')
 
 ' renders the element
-Hetzner('Hetzner', 'Hetzner', 'an optional tech label')
+Hetzner('Hetzner', 'Hetzner', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

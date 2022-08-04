@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Vaadin')
 
 ' renders the element
-Vaadin('Vaadin', 'Vaadin', 'an optional tech label')
+Vaadin('Vaadin', 'Vaadin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Vaadin')
 
 ' renders the element
-Vaadin('Vaadin', 'Vaadin', 'an optional tech label')
+Vaadin('Vaadin', 'Vaadin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

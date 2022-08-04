@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Steelseries')
 
 ' renders the element
-Steelseries('Steelseries', 'Steelseries', 'an optional tech label')
+Steelseries('Steelseries', 'Steelseries', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Steelseries')
 
 ' renders the element
-Steelseries('Steelseries', 'Steelseries', 'an optional tech label')
+Steelseries('Steelseries', 'Steelseries', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

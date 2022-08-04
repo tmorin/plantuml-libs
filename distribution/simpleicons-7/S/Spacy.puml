@@ -8,6 +8,6 @@ sprite $SpacyMd [16x16/16z] lS570S1030InkTxiDN-sUGL1YiHll0ius9x1F3WmA-QRdJGGEKbL
 
 sprite $SpacyLg [20x20/16z] pSU50GD024FH3vnRzf-sBYEq3mt_Qfp1NKsqABTRcEss2xQYekXvCbm6R1PT9cpCMUCuNhsiqRTfoawRZTi3Scx4spS5V8NnArS
 
-!procedure Spacy($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/S/Spacy', $name, $tech)
+!procedure Spacy($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/S/Spacy', $name, $tech, $desc)
 !endprocedure

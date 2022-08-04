@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Disroot')
 
 ' renders the element
-Disroot('Disroot', 'Disroot', 'an optional tech label')
+Disroot('Disroot', 'Disroot', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Disroot')
 
 ' renders the element
-Disroot('Disroot', 'Disroot', 'an optional tech label')
+Disroot('Disroot', 'Disroot', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

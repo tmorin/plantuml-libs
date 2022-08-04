@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Scpfoundation')
 
 ' renders the element
-Scpfoundation('Scpfoundation', 'Scpfoundation', 'an optional tech label')
+Scpfoundation('Scpfoundation', 'Scpfoundation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Scpfoundation')
 
 ' renders the element
-Scpfoundation('Scpfoundation', 'Scpfoundation', 'an optional tech label')
+Scpfoundation('Scpfoundation', 'Scpfoundation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

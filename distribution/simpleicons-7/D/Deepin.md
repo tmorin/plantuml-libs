@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Deepin')
 
 ' renders the element
-Deepin('Deepin', 'Deepin', 'an optional tech label')
+Deepin('Deepin', 'Deepin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Deepin')
 
 ' renders the element
-Deepin('Deepin', 'Deepin', 'an optional tech label')
+Deepin('Deepin', 'Deepin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

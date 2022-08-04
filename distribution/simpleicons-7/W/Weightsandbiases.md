@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Weightsandbiases')
 
 ' renders the element
-Weightsandbiases('Weightsandbiases', 'Weightsandbiases', 'an optional tech label')
+Weightsandbiases('Weightsandbiases', 'Weightsandbiases', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Weightsandbiases')
 
 ' renders the element
-Weightsandbiases('Weightsandbiases', 'Weightsandbiases', 'an optional tech label')
+Weightsandbiases('Weightsandbiases', 'Weightsandbiases', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

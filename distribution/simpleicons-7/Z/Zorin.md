@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Z/Zorin')
 
 ' renders the element
-Zorin('Zorin', 'Zorin', 'an optional tech label')
+Zorin('Zorin', 'Zorin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Z/Zorin')
 
 ' renders the element
-Zorin('Zorin', 'Zorin', 'an optional tech label')
+Zorin('Zorin', 'Zorin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Primevideo')
 
 ' renders the element
-Primevideo('Primevideo', 'Primevideo', 'an optional tech label')
+Primevideo('Primevideo', 'Primevideo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Primevideo')
 
 ' renders the element
-Primevideo('Primevideo', 'Primevideo', 'an optional tech label')
+Primevideo('Primevideo', 'Primevideo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

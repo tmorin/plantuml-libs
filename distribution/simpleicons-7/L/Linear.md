@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Linear')
 
 ' renders the element
-Linear('Linear', 'Linear', 'an optional tech label')
+Linear('Linear', 'Linear', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Linear')
 
 ' renders the element
-Linear('Linear', 'Linear', 'an optional tech label')
+Linear('Linear', 'Linear', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

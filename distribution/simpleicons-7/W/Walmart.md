@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Walmart')
 
 ' renders the element
-Walmart('Walmart', 'Walmart', 'an optional tech label')
+Walmart('Walmart', 'Walmart', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Walmart')
 
 ' renders the element
-Walmart('Walmart', 'Walmart', 'an optional tech label')
+Walmart('Walmart', 'Walmart', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Polymerproject')
 
 ' renders the element
-Polymerproject('Polymerproject', 'Polymerproject', 'an optional tech label')
+Polymerproject('Polymerproject', 'Polymerproject', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Polymerproject')
 
 ' renders the element
-Polymerproject('Polymerproject', 'Polymerproject', 'an optional tech label')
+Polymerproject('Polymerproject', 'Polymerproject', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

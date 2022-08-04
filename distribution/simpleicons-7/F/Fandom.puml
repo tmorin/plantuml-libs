@@ -8,6 +8,6 @@ sprite $FandomMd [16x16/16z] NSor0S0m50DHkGlV_jE6FrxtPD3JhDf2DzrqOnZxPymSdp5xtVm
 
 sprite $FandomLg [20x20/16z] RSo54GD134DH7VEw_sgNdH_IaEOPr3Bh9wCjVmp4G0p4IcR0fcwsO3Pt0qitHumi61bUDkcqKLTfRe-aeLOig0RZ2xU7uyLKeVP6OnLVUCmlsMIBJROI
 
-!procedure Fandom($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/F/Fandom', $name, $tech)
+!procedure Fandom($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/F/Fandom', $name, $tech, $desc)
 !endprocedure

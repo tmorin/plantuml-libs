@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cnn')
 
 ' renders the element
-Cnn('Cnn', 'Cnn', 'an optional tech label')
+Cnn('Cnn', 'Cnn', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cnn')
 
 ' renders the element
-Cnn('Cnn', 'Cnn', 'an optional tech label')
+Cnn('Cnn', 'Cnn', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

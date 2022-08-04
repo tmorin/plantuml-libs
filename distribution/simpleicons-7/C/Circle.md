@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Circle')
 
 ' renders the element
-Circle('Circle', 'Circle', 'an optional tech label')
+Circle('Circle', 'Circle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Circle')
 
 ' renders the element
-Circle('Circle', 'Circle', 'an optional tech label')
+Circle('Circle', 'Circle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

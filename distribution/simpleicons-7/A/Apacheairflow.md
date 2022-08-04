@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Apacheairflow')
 
 ' renders the element
-Apacheairflow('Apacheairflow', 'Apacheairflow', 'an optional tech label')
+Apacheairflow('Apacheairflow', 'Apacheairflow', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Apacheairflow')
 
 ' renders the element
-Apacheairflow('Apacheairflow', 'Apacheairflow', 'an optional tech label')
+Apacheairflow('Apacheairflow', 'Apacheairflow', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pyg')
 
 ' renders the element
-Pyg('Pyg', 'Pyg', 'an optional tech label')
+Pyg('Pyg', 'Pyg', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pyg')
 
 ' renders the element
-Pyg('Pyg', 'Pyg', 'an optional tech label')
+Pyg('Pyg', 'Pyg', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

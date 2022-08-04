@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Microsoftexchange')
 
 ' renders the element
-Microsoftexchange('Microsoftexchange', 'Microsoftexchange', 'an optional tech label')
+Microsoftexchange('Microsoftexchange', 'Microsoftexchange', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Microsoftexchange')
 
 ' renders the element
-Microsoftexchange('Microsoftexchange', 'Microsoftexchange', 'an optional tech label')
+Microsoftexchange('Microsoftexchange', 'Microsoftexchange', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

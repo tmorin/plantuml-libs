@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Spacex')
 
 ' renders the element
-Spacex('Spacex', 'Spacex', 'an optional tech label')
+Spacex('Spacex', 'Spacex', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Spacex')
 
 ' renders the element
-Spacex('Spacex', 'Spacex', 'an optional tech label')
+Spacex('Spacex', 'Spacex', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

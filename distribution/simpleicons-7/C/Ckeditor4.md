@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Ckeditor4')
 
 ' renders the element
-Ckeditor4('Ckeditor4', 'Ckeditor4', 'an optional tech label')
+Ckeditor4('Ckeditor4', 'Ckeditor4', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Ckeditor4')
 
 ' renders the element
-Ckeditor4('Ckeditor4', 'Ckeditor4', 'an optional tech label')
+Ckeditor4('Ckeditor4', 'Ckeditor4', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

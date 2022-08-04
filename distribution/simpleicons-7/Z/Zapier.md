@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Z/Zapier')
 
 ' renders the element
-Zapier('Zapier', 'Zapier', 'an optional tech label')
+Zapier('Zapier', 'Zapier', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Z/Zapier')
 
 ' renders the element
-Zapier('Zapier', 'Zapier', 'an optional tech label')
+Zapier('Zapier', 'Zapier', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

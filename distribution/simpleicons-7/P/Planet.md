@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Planet')
 
 ' renders the element
-Planet('Planet', 'Planet', 'an optional tech label')
+Planet('Planet', 'Planet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Planet')
 
 ' renders the element
-Planet('Planet', 'Planet', 'an optional tech label')
+Planet('Planet', 'Planet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

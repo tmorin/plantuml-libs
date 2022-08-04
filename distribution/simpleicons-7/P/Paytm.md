@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Paytm')
 
 ' renders the element
-Paytm('Paytm', 'Paytm', 'an optional tech label')
+Paytm('Paytm', 'Paytm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Paytm')
 
 ' renders the element
-Paytm('Paytm', 'Paytm', 'an optional tech label')
+Paytm('Paytm', 'Paytm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

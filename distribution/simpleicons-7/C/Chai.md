@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Chai')
 
 ' renders the element
-Chai('Chai', 'Chai', 'an optional tech label')
+Chai('Chai', 'Chai', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Chai')
 
 ' renders the element
-Chai('Chai', 'Chai', 'an optional tech label')
+Chai('Chai', 'Chai', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

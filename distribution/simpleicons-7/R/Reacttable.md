@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Reacttable')
 
 ' renders the element
-Reacttable('Reacttable', 'Reacttable', 'an optional tech label')
+Reacttable('Reacttable', 'Reacttable', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Reacttable')
 
 ' renders the element
-Reacttable('Reacttable', 'Reacttable', 'an optional tech label')
+Reacttable('Reacttable', 'Reacttable', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Apacheecharts')
 
 ' renders the element
-Apacheecharts('Apacheecharts', 'Apacheecharts', 'an optional tech label')
+Apacheecharts('Apacheecharts', 'Apacheecharts', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Apacheecharts')
 
 ' renders the element
-Apacheecharts('Apacheecharts', 'Apacheecharts', 'an optional tech label')
+Apacheecharts('Apacheecharts', 'Apacheecharts', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

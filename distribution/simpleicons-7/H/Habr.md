@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Habr')
 
 ' renders the element
-Habr('Habr', 'Habr', 'an optional tech label')
+Habr('Habr', 'Habr', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Habr')
 
 ' renders the element
-Habr('Habr', 'Habr', 'an optional tech label')
+Habr('Habr', 'Habr', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

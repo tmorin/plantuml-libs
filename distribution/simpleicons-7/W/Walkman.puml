@@ -8,6 +8,6 @@ sprite $WalkmanMd [16x16/16z] hOh50S0W5CLIzsR_QUi2P_ZwZ7nLHgnG7zWvm7hpLhYGDzS6TL
 
 sprite $WalkmanLg [20x20/16z] lKs50GGX30lkiF-sd_RF1o1r3NR3M7on25pebSvApsX9cphFvrwHm3m1Ws4SFs1aeOiPXDdWfdufukDrJ-SkJjtGaRbwzOZg-3FZlnYm0Jy
 
-!procedure Walkman($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/W/Walkman', $name, $tech)
+!procedure Walkman($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/W/Walkman', $name, $tech, $desc)
 !endprocedure

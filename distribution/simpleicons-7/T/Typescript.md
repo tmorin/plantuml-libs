@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Typescript')
 
 ' renders the element
-Typescript('Typescript', 'Typescript', 'an optional tech label')
+Typescript('Typescript', 'Typescript', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Typescript')
 
 ' renders the element
-Typescript('Typescript', 'Typescript', 'an optional tech label')
+Typescript('Typescript', 'Typescript', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

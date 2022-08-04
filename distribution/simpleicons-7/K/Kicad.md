@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Kicad')
 
 ' renders the element
-Kicad('Kicad', 'Kicad', 'an optional tech label')
+Kicad('Kicad', 'Kicad', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Kicad')
 
 ' renders the element
-Kicad('Kicad', 'Kicad', 'an optional tech label')
+Kicad('Kicad', 'Kicad', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Joplin')
 
 ' renders the element
-Joplin('Joplin', 'Joplin', 'an optional tech label')
+Joplin('Joplin', 'Joplin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Joplin')
 
 ' renders the element
-Joplin('Joplin', 'Joplin', 'an optional tech label')
+Joplin('Joplin', 'Joplin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

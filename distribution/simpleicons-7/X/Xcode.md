@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/X/Xcode')
 
 ' renders the element
-Xcode('Xcode', 'Xcode', 'an optional tech label')
+Xcode('Xcode', 'Xcode', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/X/Xcode')
 
 ' renders the element
-Xcode('Xcode', 'Xcode', 'an optional tech label')
+Xcode('Xcode', 'Xcode', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,6 +8,6 @@ sprite $DeezerMd [16x16/16z] Ow04yFFpO_8n0JDC74Z3-0JLGp6OpyV7nm35J430W8I1IlYGrND
 
 sprite $DeezerLg [20x20/16z] hOl50S1G24DJkA7xJrjtj_UL27wag5bhMND3co0pq-vhDMZWgJ7-E2Ayqw86HtJTwJhIG3NJrUZMv6BADVZKFTJmWGe
 
-!procedure Deezer($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/D/Deezer', $name, $tech)
+!procedure Deezer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/D/Deezer', $name, $tech, $desc)
 !endprocedure

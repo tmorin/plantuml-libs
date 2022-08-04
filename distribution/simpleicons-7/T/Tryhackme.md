@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tryhackme')
 
 ' renders the element
-Tryhackme('Tryhackme', 'Tryhackme', 'an optional tech label')
+Tryhackme('Tryhackme', 'Tryhackme', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tryhackme')
 
 ' renders the element
-Tryhackme('Tryhackme', 'Tryhackme', 'an optional tech label')
+Tryhackme('Tryhackme', 'Tryhackme', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Ibm')
 
 ' renders the element
-Ibm('Ibm', 'Ibm', 'an optional tech label')
+Ibm('Ibm', 'Ibm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Ibm')
 
 ' renders the element
-Ibm('Ibm', 'Ibm', 'an optional tech label')
+Ibm('Ibm', 'Ibm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

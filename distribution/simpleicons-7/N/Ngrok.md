@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Ngrok')
 
 ' renders the element
-Ngrok('Ngrok', 'Ngrok', 'an optional tech label')
+Ngrok('Ngrok', 'Ngrok', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Ngrok')
 
 ' renders the element
-Ngrok('Ngrok', 'Ngrok', 'an optional tech label')
+Ngrok('Ngrok', 'Ngrok', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

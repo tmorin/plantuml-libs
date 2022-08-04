@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Elasticsearch')
 
 ' renders the element
-Elasticsearch('Elasticsearch', 'Elasticsearch', 'an optional tech label')
+Elasticsearch('Elasticsearch', 'Elasticsearch', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Elasticsearch')
 
 ' renders the element
-Elasticsearch('Elasticsearch', 'Elasticsearch', 'an optional tech label')
+Elasticsearch('Elasticsearch', 'Elasticsearch', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

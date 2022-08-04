@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Furaffinity')
 
 ' renders the element
-Furaffinity('Furaffinity', 'Furaffinity', 'an optional tech label')
+Furaffinity('Furaffinity', 'Furaffinity', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Furaffinity')
 
 ' renders the element
-Furaffinity('Furaffinity', 'Furaffinity', 'an optional tech label')
+Furaffinity('Furaffinity', 'Furaffinity', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Exercism')
 
 ' renders the element
-Exercism('Exercism', 'Exercism', 'an optional tech label')
+Exercism('Exercism', 'Exercism', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Exercism')
 
 ' renders the element
-Exercism('Exercism', 'Exercism', 'an optional tech label')
+Exercism('Exercism', 'Exercism', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

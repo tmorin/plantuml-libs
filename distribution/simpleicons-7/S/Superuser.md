@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Superuser')
 
 ' renders the element
-Superuser('Superuser', 'Superuser', 'an optional tech label')
+Superuser('Superuser', 'Superuser', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Superuser')
 
 ' renders the element
-Superuser('Superuser', 'Superuser', 'an optional tech label')
+Superuser('Superuser', 'Superuser', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

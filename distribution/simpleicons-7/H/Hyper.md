@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hyper')
 
 ' renders the element
-Hyper('Hyper', 'Hyper', 'an optional tech label')
+Hyper('Hyper', 'Hyper', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hyper')
 
 ' renders the element
-Hyper('Hyper', 'Hyper', 'an optional tech label')
+Hyper('Hyper', 'Hyper', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

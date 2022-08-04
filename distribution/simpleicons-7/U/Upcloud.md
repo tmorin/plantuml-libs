@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/U/Upcloud')
 
 ' renders the element
-Upcloud('Upcloud', 'Upcloud', 'an optional tech label')
+Upcloud('Upcloud', 'Upcloud', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/U/Upcloud')
 
 ' renders the element
-Upcloud('Upcloud', 'Upcloud', 'an optional tech label')
+Upcloud('Upcloud', 'Upcloud', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

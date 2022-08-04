@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pypi')
 
 ' renders the element
-Pypi('Pypi', 'Pypi', 'an optional tech label')
+Pypi('Pypi', 'Pypi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pypi')
 
 ' renders the element
-Pypi('Pypi', 'Pypi', 'an optional tech label')
+Pypi('Pypi', 'Pypi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

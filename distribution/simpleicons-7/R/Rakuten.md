@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Rakuten')
 
 ' renders the element
-Rakuten('Rakuten', 'Rakuten', 'an optional tech label')
+Rakuten('Rakuten', 'Rakuten', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Rakuten')
 
 ' renders the element
-Rakuten('Rakuten', 'Rakuten', 'an optional tech label')
+Rakuten('Rakuten', 'Rakuten', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

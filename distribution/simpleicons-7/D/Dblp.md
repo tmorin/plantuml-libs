@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Dblp')
 
 ' renders the element
-Dblp('Dblp', 'Dblp', 'an optional tech label')
+Dblp('Dblp', 'Dblp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Dblp')
 
 ' renders the element
-Dblp('Dblp', 'Dblp', 'an optional tech label')
+Dblp('Dblp', 'Dblp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

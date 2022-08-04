@@ -8,6 +8,6 @@ sprite $FlatMd [16x16/16z] TSx50K0X30FGV5V8_jFYBkzMBuo3cGbFrh5iugk9SOZeHsy9yrU86
 
 sprite $FlatLg [20x20/16z] ZSw35K0n30NGsjX_sc_KoJqE7pd9N3bBBlUrZAo5kfJk7o7-B9bX_F6NgkDL2QpvAiGZr2LOTIxM9PNxMZw5kcRFcYMrs8VO0G
 
-!procedure Flat($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/F/Flat', $name, $tech)
+!procedure Flat($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/F/Flat', $name, $tech, $desc)
 !endprocedure

@@ -8,6 +8,6 @@ sprite $RossmannMd [16x16/16z] lS470G0W3C2myc7NlrjSBA5Ol7FQEd3XCCXs5Mizrj7-fW8T6
 
 sprite $RossmannLg [20x20/16z] rS470S0m40EnixFdysTR6et4WwAcEYrB50OJRwBFE-cCSXiZE-pLJIlAoePC5n9_zm4
 
-!procedure Rossmann($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/R/Rossmann', $name, $tech)
+!procedure Rossmann($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/R/Rossmann', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Aldinord')
 
 ' renders the element
-Aldinord('Aldinord', 'Aldinord', 'an optional tech label')
+Aldinord('Aldinord', 'Aldinord', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Aldinord')
 
 ' renders the element
-Aldinord('Aldinord', 'Aldinord', 'an optional tech label')
+Aldinord('Aldinord', 'Aldinord', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

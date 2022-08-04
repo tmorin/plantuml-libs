@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Powerbi')
 
 ' renders the element
-Powerbi('Powerbi', 'Powerbi', 'an optional tech label')
+Powerbi('Powerbi', 'Powerbi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Powerbi')
 
 ' renders the element
-Powerbi('Powerbi', 'Powerbi', 'an optional tech label')
+Powerbi('Powerbi', 'Powerbi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

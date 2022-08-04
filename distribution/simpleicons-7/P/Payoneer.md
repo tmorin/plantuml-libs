@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Payoneer')
 
 ' renders the element
-Payoneer('Payoneer', 'Payoneer', 'an optional tech label')
+Payoneer('Payoneer', 'Payoneer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Payoneer')
 
 ' renders the element
-Payoneer('Payoneer', 'Payoneer', 'an optional tech label')
+Payoneer('Payoneer', 'Payoneer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Delta')
 
 ' renders the element
-Delta('Delta', 'Delta', 'an optional tech label')
+Delta('Delta', 'Delta', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Delta')
 
 ' renders the element
-Delta('Delta', 'Delta', 'an optional tech label')
+Delta('Delta', 'Delta', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bytedance')
 
 ' renders the element
-Bytedance('Bytedance', 'Bytedance', 'an optional tech label')
+Bytedance('Bytedance', 'Bytedance', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bytedance')
 
 ' renders the element
-Bytedance('Bytedance', 'Bytedance', 'an optional tech label')
+Bytedance('Bytedance', 'Bytedance', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

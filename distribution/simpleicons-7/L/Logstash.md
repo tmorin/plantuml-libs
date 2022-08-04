@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Logstash')
 
 ' renders the element
-Logstash('Logstash', 'Logstash', 'an optional tech label')
+Logstash('Logstash', 'Logstash', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Logstash')
 
 ' renders the element
-Logstash('Logstash', 'Logstash', 'an optional tech label')
+Logstash('Logstash', 'Logstash', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

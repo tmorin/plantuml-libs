@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Readthedocs')
 
 ' renders the element
-Readthedocs('Readthedocs', 'Readthedocs', 'an optional tech label')
+Readthedocs('Readthedocs', 'Readthedocs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Readthedocs')
 
 ' renders the element
-Readthedocs('Readthedocs', 'Readthedocs', 'an optional tech label')
+Readthedocs('Readthedocs', 'Readthedocs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

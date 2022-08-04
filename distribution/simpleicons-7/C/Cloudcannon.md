@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cloudcannon')
 
 ' renders the element
-Cloudcannon('Cloudcannon', 'Cloudcannon', 'an optional tech label')
+Cloudcannon('Cloudcannon', 'Cloudcannon', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cloudcannon')
 
 ' renders the element
-Cloudcannon('Cloudcannon', 'Cloudcannon', 'an optional tech label')
+Cloudcannon('Cloudcannon', 'Cloudcannon', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Phpstorm')
 
 ' renders the element
-Phpstorm('Phpstorm', 'Phpstorm', 'an optional tech label')
+Phpstorm('Phpstorm', 'Phpstorm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Phpstorm')
 
 ' renders the element
-Phpstorm('Phpstorm', 'Phpstorm', 'an optional tech label')
+Phpstorm('Phpstorm', 'Phpstorm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sonarcloud')
 
 ' renders the element
-Sonarcloud('Sonarcloud', 'Sonarcloud', 'an optional tech label')
+Sonarcloud('Sonarcloud', 'Sonarcloud', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sonarcloud')
 
 ' renders the element
-Sonarcloud('Sonarcloud', 'Sonarcloud', 'an optional tech label')
+Sonarcloud('Sonarcloud', 'Sonarcloud', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

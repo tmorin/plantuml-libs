@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Googlehangouts')
 
 ' renders the element
-Googlehangouts('Googlehangouts', 'Googlehangouts', 'an optional tech label')
+Googlehangouts('Googlehangouts', 'Googlehangouts', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Googlehangouts')
 
 ' renders the element
-Googlehangouts('Googlehangouts', 'Googlehangouts', 'an optional tech label')
+Googlehangouts('Googlehangouts', 'Googlehangouts', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

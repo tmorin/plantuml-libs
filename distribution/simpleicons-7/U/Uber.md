@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/U/Uber')
 
 ' renders the element
-Uber('Uber', 'Uber', 'an optional tech label')
+Uber('Uber', 'Uber', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/U/Uber')
 
 ' renders the element
-Uber('Uber', 'Uber', 'an optional tech label')
+Uber('Uber', 'Uber', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

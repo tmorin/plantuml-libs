@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Semanticrelease')
 
 ' renders the element
-Semanticrelease('Semanticrelease', 'Semanticrelease', 'an optional tech label')
+Semanticrelease('Semanticrelease', 'Semanticrelease', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Semanticrelease')
 
 ' renders the element
-Semanticrelease('Semanticrelease', 'Semanticrelease', 'an optional tech label')
+Semanticrelease('Semanticrelease', 'Semanticrelease', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

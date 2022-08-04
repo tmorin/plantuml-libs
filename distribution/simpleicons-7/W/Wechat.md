@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Wechat')
 
 ' renders the element
-Wechat('Wechat', 'Wechat', 'an optional tech label')
+Wechat('Wechat', 'Wechat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Wechat')
 
 ' renders the element
-Wechat('Wechat', 'Wechat', 'an optional tech label')
+Wechat('Wechat', 'Wechat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

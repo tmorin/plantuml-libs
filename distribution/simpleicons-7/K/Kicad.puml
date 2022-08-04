@@ -8,6 +8,6 @@ sprite $KicadMd [16x16/16z] hOg30G0n54DVxMR_QSzOe9yHYyjOQytuUGyAOq1t5vqT7zKHZW1U
 
 sprite $KicadLg [20x20/16z] nSZ7OGD13CLGJ4uaV__LsifI1_jk09Sw_3A_YyrNDZIG3f9uad6xoliui4vchTjZIomjRbfCSNk3npimTEJd_fJIxN5lCtLjsRGpproaaYafatFc8ly
 
-!procedure Kicad($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/K/Kicad', $name, $tech)
+!procedure Kicad($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/K/Kicad', $name, $tech, $desc)
 !endprocedure

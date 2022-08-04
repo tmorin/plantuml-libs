@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Anaconda')
 
 ' renders the element
-Anaconda('Anaconda', 'Anaconda', 'an optional tech label')
+Anaconda('Anaconda', 'Anaconda', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Anaconda')
 
 ' renders the element
-Anaconda('Anaconda', 'Anaconda', 'an optional tech label')
+Anaconda('Anaconda', 'Anaconda', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

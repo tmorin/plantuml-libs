@@ -8,6 +8,6 @@ sprite $ZelleMd [16x16/16z] RO_50K0X5CE-Av3zfyKTSdlQTWaen583gXJNVGFtVSMQnBGkpRKj
 
 sprite $ZelleLg [20x20/16z] bP250S0W30Jh2lp-s-BkrsBnPB40iDSf6JnJiZZ25Ok84Fsnw1OY5elMIh0r5b4XEfFuUR33Yw9Wv5TOqGTFIxP-0l4M-pipKmu
 
-!procedure Zelle($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/Z/Zelle', $name, $tech)
+!procedure Zelle($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/Z/Zelle', $name, $tech, $desc)
 !endprocedure

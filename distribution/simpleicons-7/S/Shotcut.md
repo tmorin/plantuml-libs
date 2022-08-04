@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Shotcut')
 
 ' renders the element
-Shotcut('Shotcut', 'Shotcut', 'an optional tech label')
+Shotcut('Shotcut', 'Shotcut', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Shotcut')
 
 ' renders the element
-Shotcut('Shotcut', 'Shotcut', 'an optional tech label')
+Shotcut('Shotcut', 'Shotcut', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

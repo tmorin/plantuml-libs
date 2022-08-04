@@ -8,6 +8,6 @@ sprite $FilesMd [16x16/16z] dSor0S0m34JHKvZ__jE6oMuChnAU8XLSr1yCuwUXCgTbqDVMxEIq
 
 sprite $FilesLg [20x20/16z] jSg35GKm04FHrExRVzflc_SmqDlis4dQQvOziL78XdDbaCn51NHTlYZeyeL15o_wHEUlfWawLZsdnffZpnYxmzzahkb5Im
 
-!procedure Files($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/F/Files', $name, $tech)
+!procedure Files($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/F/Files', $name, $tech, $desc)
 !endprocedure

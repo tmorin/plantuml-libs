@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Plesk')
 
 ' renders the element
-Plesk('Plesk', 'Plesk', 'an optional tech label')
+Plesk('Plesk', 'Plesk', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Plesk')
 
 ' renders the element
-Plesk('Plesk', 'Plesk', 'an optional tech label')
+Plesk('Plesk', 'Plesk', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

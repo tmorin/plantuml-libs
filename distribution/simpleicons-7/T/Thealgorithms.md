@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Thealgorithms')
 
 ' renders the element
-Thealgorithms('Thealgorithms', 'Thealgorithms', 'an optional tech label')
+Thealgorithms('Thealgorithms', 'Thealgorithms', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Thealgorithms')
 
 ' renders the element
-Thealgorithms('Thealgorithms', 'Thealgorithms', 'an optional tech label')
+Thealgorithms('Thealgorithms', 'Thealgorithms', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

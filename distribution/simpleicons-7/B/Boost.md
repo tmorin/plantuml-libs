@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Boost')
 
 ' renders the element
-Boost('Boost', 'Boost', 'an optional tech label')
+Boost('Boost', 'Boost', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Boost')
 
 ' renders the element
-Boost('Boost', 'Boost', 'an optional tech label')
+Boost('Boost', 'Boost', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

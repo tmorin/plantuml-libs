@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cinema4D')
 
 ' renders the element
-Cinema4D('Cinema4D', 'Cinema4 D', 'an optional tech label')
+Cinema4D('Cinema4D', 'Cinema4 D', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cinema4D')
 
 ' renders the element
-Cinema4D('Cinema4D', 'Cinema4 D', 'an optional tech label')
+Cinema4D('Cinema4D', 'Cinema4 D', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

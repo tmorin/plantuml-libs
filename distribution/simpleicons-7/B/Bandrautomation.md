@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bandrautomation')
 
 ' renders the element
-Bandrautomation('Bandrautomation', 'Bandrautomation', 'an optional tech label')
+Bandrautomation('Bandrautomation', 'Bandrautomation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bandrautomation')
 
 ' renders the element
-Bandrautomation('Bandrautomation', 'Bandrautomation', 'an optional tech label')
+Bandrautomation('Bandrautomation', 'Bandrautomation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

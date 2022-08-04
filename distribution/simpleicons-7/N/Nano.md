@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Nano')
 
 ' renders the element
-Nano('Nano', 'Nano', 'an optional tech label')
+Nano('Nano', 'Nano', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Nano')
 
 ' renders the element
-Nano('Nano', 'Nano', 'an optional tech label')
+Nano('Nano', 'Nano', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

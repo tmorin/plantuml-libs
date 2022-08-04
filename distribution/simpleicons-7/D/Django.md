@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Django')
 
 ' renders the element
-Django('Django', 'Django', 'an optional tech label')
+Django('Django', 'Django', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Django')
 
 ' renders the element
-Django('Django', 'Django', 'an optional tech label')
+Django('Django', 'Django', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

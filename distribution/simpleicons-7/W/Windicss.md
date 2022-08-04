@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Windicss')
 
 ' renders the element
-Windicss('Windicss', 'Windicss', 'an optional tech label')
+Windicss('Windicss', 'Windicss', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Windicss')
 
 ' renders the element
-Windicss('Windicss', 'Windicss', 'an optional tech label')
+Windicss('Windicss', 'Windicss', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

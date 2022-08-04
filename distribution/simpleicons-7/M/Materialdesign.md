@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Materialdesign')
 
 ' renders the element
-Materialdesign('Materialdesign', 'Materialdesign', 'an optional tech label')
+Materialdesign('Materialdesign', 'Materialdesign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Materialdesign')
 
 ' renders the element
-Materialdesign('Materialdesign', 'Materialdesign', 'an optional tech label')
+Materialdesign('Materialdesign', 'Materialdesign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

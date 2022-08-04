@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mocha')
 
 ' renders the element
-Mocha('Mocha', 'Mocha', 'an optional tech label')
+Mocha('Mocha', 'Mocha', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mocha')
 
 ' renders the element
-Mocha('Mocha', 'Mocha', 'an optional tech label')
+Mocha('Mocha', 'Mocha', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Musicbrainz')
 
 ' renders the element
-Musicbrainz('Musicbrainz', 'Musicbrainz', 'an optional tech label')
+Musicbrainz('Musicbrainz', 'Musicbrainz', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Musicbrainz')
 
 ' renders the element
-Musicbrainz('Musicbrainz', 'Musicbrainz', 'an optional tech label')
+Musicbrainz('Musicbrainz', 'Musicbrainz', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

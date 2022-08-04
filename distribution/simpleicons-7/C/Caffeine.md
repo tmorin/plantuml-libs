@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Caffeine')
 
 ' renders the element
-Caffeine('Caffeine', 'Caffeine', 'an optional tech label')
+Caffeine('Caffeine', 'Caffeine', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Caffeine')
 
 ' renders the element
-Caffeine('Caffeine', 'Caffeine', 'an optional tech label')
+Caffeine('Caffeine', 'Caffeine', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

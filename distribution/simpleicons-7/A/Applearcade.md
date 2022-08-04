@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Applearcade')
 
 ' renders the element
-Applearcade('Applearcade', 'Applearcade', 'an optional tech label')
+Applearcade('Applearcade', 'Applearcade', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Applearcade')
 
 ' renders the element
-Applearcade('Applearcade', 'Applearcade', 'an optional tech label')
+Applearcade('Applearcade', 'Applearcade', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

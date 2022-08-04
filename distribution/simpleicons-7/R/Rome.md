@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Rome')
 
 ' renders the element
-Rome('Rome', 'Rome', 'an optional tech label')
+Rome('Rome', 'Rome', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Rome')
 
 ' renders the element
-Rome('Rome', 'Rome', 'an optional tech label')
+Rome('Rome', 'Rome', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

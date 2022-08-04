@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pcgamingwiki')
 
 ' renders the element
-Pcgamingwiki('Pcgamingwiki', 'Pcgamingwiki', 'an optional tech label')
+Pcgamingwiki('Pcgamingwiki', 'Pcgamingwiki', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pcgamingwiki')
 
 ' renders the element
-Pcgamingwiki('Pcgamingwiki', 'Pcgamingwiki', 'an optional tech label')
+Pcgamingwiki('Pcgamingwiki', 'Pcgamingwiki', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,6 +8,6 @@ sprite $TestcafeMd [16x16/16z] fSc55S0m203H1AZBxJzjtLqk-X_kJxOXR2WBwimoNT51eg1k2
 
 sprite $TestcafeLg [20x20/16z] jOu53WKn24InrDkv_sc_hXDTUN4OeuVHuKu678yAmAcs9_Mg0ND60BAUrkFX58ByJY7eaXQO2I1cxcdosJQa_GPasJ861NZe0cy
 
-!procedure Testcafe($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/T/Testcafe', $name, $tech)
+!procedure Testcafe($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/T/Testcafe', $name, $tech, $desc)
 !endprocedure

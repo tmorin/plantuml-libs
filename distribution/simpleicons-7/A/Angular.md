@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Angular')
 
 ' renders the element
-Angular('Angular', 'Angular', 'an optional tech label')
+Angular('Angular', 'Angular', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Angular')
 
 ' renders the element
-Angular('Angular', 'Angular', 'an optional tech label')
+Angular('Angular', 'Angular', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

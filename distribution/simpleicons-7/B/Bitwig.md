@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bitwig')
 
 ' renders the element
-Bitwig('Bitwig', 'Bitwig', 'an optional tech label')
+Bitwig('Bitwig', 'Bitwig', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bitwig')
 
 ' renders the element
-Bitwig('Bitwig', 'Bitwig', 'an optional tech label')
+Bitwig('Bitwig', 'Bitwig', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

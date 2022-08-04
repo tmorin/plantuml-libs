@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Floatplane')
 
 ' renders the element
-Floatplane('Floatplane', 'Floatplane', 'an optional tech label')
+Floatplane('Floatplane', 'Floatplane', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Floatplane')
 
 ' renders the element
-Floatplane('Floatplane', 'Floatplane', 'an optional tech label')
+Floatplane('Floatplane', 'Floatplane', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

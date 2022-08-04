@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Wordpress')
 
 ' renders the element
-Wordpress('Wordpress', 'Wordpress', 'an optional tech label')
+Wordpress('Wordpress', 'Wordpress', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Wordpress')
 
 ' renders the element
-Wordpress('Wordpress', 'Wordpress', 'an optional tech label')
+Wordpress('Wordpress', 'Wordpress', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

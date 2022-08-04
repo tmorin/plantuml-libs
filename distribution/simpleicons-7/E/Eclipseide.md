@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Eclipseide')
 
 ' renders the element
-Eclipseide('Eclipseide', 'Eclipseide', 'an optional tech label')
+Eclipseide('Eclipseide', 'Eclipseide', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Eclipseide')
 
 ' renders the element
-Eclipseide('Eclipseide', 'Eclipseide', 'an optional tech label')
+Eclipseide('Eclipseide', 'Eclipseide', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

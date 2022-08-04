@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cockroachlabs')
 
 ' renders the element
-Cockroachlabs('Cockroachlabs', 'Cockroachlabs', 'an optional tech label')
+Cockroachlabs('Cockroachlabs', 'Cockroachlabs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cockroachlabs')
 
 ' renders the element
-Cockroachlabs('Cockroachlabs', 'Cockroachlabs', 'an optional tech label')
+Cockroachlabs('Cockroachlabs', 'Cockroachlabs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

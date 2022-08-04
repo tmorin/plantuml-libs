@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Datagrip')
 
 ' renders the element
-Datagrip('Datagrip', 'Datagrip', 'an optional tech label')
+Datagrip('Datagrip', 'Datagrip', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Datagrip')
 
 ' renders the element
-Datagrip('Datagrip', 'Datagrip', 'an optional tech label')
+Datagrip('Datagrip', 'Datagrip', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

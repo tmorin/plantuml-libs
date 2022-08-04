@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/U/Ublockorigin')
 
 ' renders the element
-Ublockorigin('Ublockorigin', 'Ublockorigin', 'an optional tech label')
+Ublockorigin('Ublockorigin', 'Ublockorigin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/U/Ublockorigin')
 
 ' renders the element
-Ublockorigin('Ublockorigin', 'Ublockorigin', 'an optional tech label')
+Ublockorigin('Ublockorigin', 'Ublockorigin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

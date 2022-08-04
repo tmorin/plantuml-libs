@@ -8,6 +8,6 @@ sprite $NintendoMd [16x16/16z] NSV50K8130MmXplPVrhaUvjRqe1h_dOM_VgFvM_AmwlyGNbGl
 
 sprite $NintendoLg [20x20/16z] RS-54O0m04FHu4xstvR38VU3j7rrGNnalbgJFod0LZ3tO2QRq_RjwxHX_uNj0yUqSl-7QTwBi7rsbzRPJjCAboZ0D8E9h3nRon5TELiR
 
-!procedure Nintendo($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/N/Nintendo', $name, $tech)
+!procedure Nintendo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/N/Nintendo', $name, $tech, $desc)
 !endprocedure

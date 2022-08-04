@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Spdx')
 
 ' renders the element
-Spdx('Spdx', 'Spdx', 'an optional tech label')
+Spdx('Spdx', 'Spdx', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Spdx')
 
 ' renders the element
-Spdx('Spdx', 'Spdx', 'an optional tech label')
+Spdx('Spdx', 'Spdx', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

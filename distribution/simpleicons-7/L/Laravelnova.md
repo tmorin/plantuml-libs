@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Laravelnova')
 
 ' renders the element
-Laravelnova('Laravelnova', 'Laravelnova', 'an optional tech label')
+Laravelnova('Laravelnova', 'Laravelnova', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Laravelnova')
 
 ' renders the element
-Laravelnova('Laravelnova', 'Laravelnova', 'an optional tech label')
+Laravelnova('Laravelnova', 'Laravelnova', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

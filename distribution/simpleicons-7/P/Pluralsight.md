@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pluralsight')
 
 ' renders the element
-Pluralsight('Pluralsight', 'Pluralsight', 'an optional tech label')
+Pluralsight('Pluralsight', 'Pluralsight', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pluralsight')
 
 ' renders the element
-Pluralsight('Pluralsight', 'Pluralsight', 'an optional tech label')
+Pluralsight('Pluralsight', 'Pluralsight', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

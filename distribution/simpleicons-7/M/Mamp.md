@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mamp')
 
 ' renders the element
-Mamp('Mamp', 'Mamp', 'an optional tech label')
+Mamp('Mamp', 'Mamp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mamp')
 
 ' renders the element
-Mamp('Mamp', 'Mamp', 'an optional tech label')
+Mamp('Mamp', 'Mamp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

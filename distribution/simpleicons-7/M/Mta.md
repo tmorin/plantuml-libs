@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mta')
 
 ' renders the element
-Mta('Mta', 'Mta', 'an optional tech label')
+Mta('Mta', 'Mta', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mta')
 
 ' renders the element
-Mta('Mta', 'Mta', 'an optional tech label')
+Mta('Mta', 'Mta', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

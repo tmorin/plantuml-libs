@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Z/Zerodha')
 
 ' renders the element
-Zerodha('Zerodha', 'Zerodha', 'an optional tech label')
+Zerodha('Zerodha', 'Zerodha', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Z/Zerodha')
 
 ' renders the element
-Zerodha('Zerodha', 'Zerodha', 'an optional tech label')
+Zerodha('Zerodha', 'Zerodha', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

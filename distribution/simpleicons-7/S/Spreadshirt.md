@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Spreadshirt')
 
 ' renders the element
-Spreadshirt('Spreadshirt', 'Spreadshirt', 'an optional tech label')
+Spreadshirt('Spreadshirt', 'Spreadshirt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Spreadshirt')
 
 ' renders the element
-Spreadshirt('Spreadshirt', 'Spreadshirt', 'an optional tech label')
+Spreadshirt('Spreadshirt', 'Spreadshirt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

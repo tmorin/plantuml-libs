@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Adobe')
 
 ' renders the element
-Adobe('Adobe', 'Adobe', 'an optional tech label')
+Adobe('Adobe', 'Adobe', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Adobe')
 
 ' renders the element
-Adobe('Adobe', 'Adobe', 'an optional tech label')
+Adobe('Adobe', 'Adobe', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

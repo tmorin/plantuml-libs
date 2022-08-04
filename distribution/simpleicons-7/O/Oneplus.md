@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Oneplus')
 
 ' renders the element
-Oneplus('Oneplus', 'Oneplus', 'an optional tech label')
+Oneplus('Oneplus', 'Oneplus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Oneplus')
 
 ' renders the element
-Oneplus('Oneplus', 'Oneplus', 'an optional tech label')
+Oneplus('Oneplus', 'Oneplus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

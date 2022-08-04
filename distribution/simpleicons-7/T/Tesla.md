@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tesla')
 
 ' renders the element
-Tesla('Tesla', 'Tesla', 'an optional tech label')
+Tesla('Tesla', 'Tesla', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tesla')
 
 ' renders the element
-Tesla('Tesla', 'Tesla', 'an optional tech label')
+Tesla('Tesla', 'Tesla', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

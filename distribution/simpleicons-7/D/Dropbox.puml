@@ -8,6 +8,6 @@ sprite $DropboxMd [16x16/16z] PSkr0S0m00D1XMFK_jEQsTzSzS3UCNcGPb0nzZQPKasyWGFDq0
 
 sprite $DropboxLg [20x20/16z] bS_50OGm04JHWRXE_zMknRF-Jm_Y-ADCjKdpLbgKMRAJOfMU1C5R6PW516hiEX9s1P9gaMHfac8j3m7jKhghh4w79bCHIhA-mTtKacnXTBRTbtnvwDgHyQah
 
-!procedure Dropbox($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/D/Dropbox', $name, $tech)
+!procedure Dropbox($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/D/Dropbox', $name, $tech, $desc)
 !endprocedure

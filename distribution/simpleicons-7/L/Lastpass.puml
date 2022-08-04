@@ -8,6 +8,6 @@ sprite $LastpassMd [16x16/16z] Ow0kO4JZSs7m-JY151yNbE3Yv-TdOE064Y0cI9wV1sWAFnzGd
 
 sprite $LastpassLg [20x20/16z] OnWOm895Z8zOCKP-VcOGpSy99Bdv-S1iVduUeB502iY3a7oi_FmiO1uFH0K1EmYBqG4
 
-!procedure Lastpass($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/L/Lastpass', $name, $tech)
+!procedure Lastpass($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/L/Lastpass', $name, $tech, $desc)
 !endprocedure

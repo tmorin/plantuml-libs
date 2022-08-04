@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Googlechat')
 
 ' renders the element
-Googlechat('Googlechat', 'Googlechat', 'an optional tech label')
+Googlechat('Googlechat', 'Googlechat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Googlechat')
 
 ' renders the element
-Googlechat('Googlechat', 'Googlechat', 'an optional tech label')
+Googlechat('Googlechat', 'Googlechat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

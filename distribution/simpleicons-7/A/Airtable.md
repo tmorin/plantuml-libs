@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Airtable')
 
 ' renders the element
-Airtable('Airtable', 'Airtable', 'an optional tech label')
+Airtable('Airtable', 'Airtable', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Airtable')
 
 ' renders the element
-Airtable('Airtable', 'Airtable', 'an optional tech label')
+Airtable('Airtable', 'Airtable', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

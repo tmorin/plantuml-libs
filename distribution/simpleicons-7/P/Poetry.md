@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Poetry')
 
 ' renders the element
-Poetry('Poetry', 'Poetry', 'an optional tech label')
+Poetry('Poetry', 'Poetry', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Poetry')
 
 ' renders the element
-Poetry('Poetry', 'Poetry', 'an optional tech label')
+Poetry('Poetry', 'Poetry', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

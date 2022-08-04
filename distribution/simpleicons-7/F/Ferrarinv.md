@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Ferrarinv')
 
 ' renders the element
-Ferrarinv('Ferrarinv', 'Ferrarinv', 'an optional tech label')
+Ferrarinv('Ferrarinv', 'Ferrarinv', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Ferrarinv')
 
 ' renders the element
-Ferrarinv('Ferrarinv', 'Ferrarinv', 'an optional tech label')
+Ferrarinv('Ferrarinv', 'Ferrarinv', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

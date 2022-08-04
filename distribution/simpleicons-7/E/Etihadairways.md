@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Etihadairways')
 
 ' renders the element
-Etihadairways('Etihadairways', 'Etihadairways', 'an optional tech label')
+Etihadairways('Etihadairways', 'Etihadairways', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Etihadairways')
 
 ' renders the element
-Etihadairways('Etihadairways', 'Etihadairways', 'an optional tech label')
+Etihadairways('Etihadairways', 'Etihadairways', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

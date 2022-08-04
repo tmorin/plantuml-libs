@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Y/Yale')
 
 ' renders the element
-Yale('Yale', 'Yale', 'an optional tech label')
+Yale('Yale', 'Yale', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Y/Yale')
 
 ' renders the element
-Yale('Yale', 'Yale', 'an optional tech label')
+Yale('Yale', 'Yale', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Strapi')
 
 ' renders the element
-Strapi('Strapi', 'Strapi', 'an optional tech label')
+Strapi('Strapi', 'Strapi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Strapi')
 
 ' renders the element
-Strapi('Strapi', 'Strapi', 'an optional tech label')
+Strapi('Strapi', 'Strapi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

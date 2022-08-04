@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Awslambda')
 
 ' renders the element
-Awslambda('Awslambda', 'Awslambda', 'an optional tech label')
+Awslambda('Awslambda', 'Awslambda', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Awslambda')
 
 ' renders the element
-Awslambda('Awslambda', 'Awslambda', 'an optional tech label')
+Awslambda('Awslambda', 'Awslambda', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

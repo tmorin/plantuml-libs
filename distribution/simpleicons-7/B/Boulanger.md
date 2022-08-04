@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Boulanger')
 
 ' renders the element
-Boulanger('Boulanger', 'Boulanger', 'an optional tech label')
+Boulanger('Boulanger', 'Boulanger', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Boulanger')
 
 ' renders the element
-Boulanger('Boulanger', 'Boulanger', 'an optional tech label')
+Boulanger('Boulanger', 'Boulanger', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

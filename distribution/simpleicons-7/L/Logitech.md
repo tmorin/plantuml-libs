@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Logitech')
 
 ' renders the element
-Logitech('Logitech', 'Logitech', 'an optional tech label')
+Logitech('Logitech', 'Logitech', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Logitech')
 
 ' renders the element
-Logitech('Logitech', 'Logitech', 'an optional tech label')
+Logitech('Logitech', 'Logitech', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

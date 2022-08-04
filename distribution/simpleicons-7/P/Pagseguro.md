@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pagseguro')
 
 ' renders the element
-Pagseguro('Pagseguro', 'Pagseguro', 'an optional tech label')
+Pagseguro('Pagseguro', 'Pagseguro', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pagseguro')
 
 ' renders the element
-Pagseguro('Pagseguro', 'Pagseguro', 'an optional tech label')
+Pagseguro('Pagseguro', 'Pagseguro', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

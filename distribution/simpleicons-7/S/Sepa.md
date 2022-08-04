@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sepa')
 
 ' renders the element
-Sepa('Sepa', 'Sepa', 'an optional tech label')
+Sepa('Sepa', 'Sepa', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sepa')
 
 ' renders the element
-Sepa('Sepa', 'Sepa', 'an optional tech label')
+Sepa('Sepa', 'Sepa', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

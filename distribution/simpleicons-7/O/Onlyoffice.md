@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Onlyoffice')
 
 ' renders the element
-Onlyoffice('Onlyoffice', 'Onlyoffice', 'an optional tech label')
+Onlyoffice('Onlyoffice', 'Onlyoffice', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Onlyoffice')
 
 ' renders the element
-Onlyoffice('Onlyoffice', 'Onlyoffice', 'an optional tech label')
+Onlyoffice('Onlyoffice', 'Onlyoffice', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

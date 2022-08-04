@@ -8,6 +8,6 @@ sprite $BorgbackupMd [16x16/16z] jSUt0G900810FkTd_sbDbGFeKS6VUOV4cCaX4tBoBX7J9_H
 
 sprite $BorgbackupLg [20x20/16z] pSWr0eD000311Svj___QU1FfmvJ3YQZMpvCYLISw9JM7BiMAXsuUjbsbkByEU9vEXckXG3V8f_t7bNBm9rS
 
-!procedure Borgbackup($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/B/Borgbackup', $name, $tech)
+!procedure Borgbackup($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/B/Borgbackup', $name, $tech, $desc)
 !endprocedure

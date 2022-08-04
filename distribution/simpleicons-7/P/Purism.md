@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Purism')
 
 ' renders the element
-Purism('Purism', 'Purism', 'an optional tech label')
+Purism('Purism', 'Purism', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Purism')
 
 ' renders the element
-Purism('Purism', 'Purism', 'an optional tech label')
+Purism('Purism', 'Purism', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

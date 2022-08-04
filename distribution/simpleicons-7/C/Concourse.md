@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Concourse')
 
 ' renders the element
-Concourse('Concourse', 'Concourse', 'an optional tech label')
+Concourse('Concourse', 'Concourse', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Concourse')
 
 ' renders the element
-Concourse('Concourse', 'Concourse', 'an optional tech label')
+Concourse('Concourse', 'Concourse', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

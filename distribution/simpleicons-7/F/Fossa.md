@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fossa')
 
 ' renders the element
-Fossa('Fossa', 'Fossa', 'an optional tech label')
+Fossa('Fossa', 'Fossa', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fossa')
 
 ' renders the element
-Fossa('Fossa', 'Fossa', 'an optional tech label')
+Fossa('Fossa', 'Fossa', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

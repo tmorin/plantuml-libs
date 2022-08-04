@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Simplenote')
 
 ' renders the element
-Simplenote('Simplenote', 'Simplenote', 'an optional tech label')
+Simplenote('Simplenote', 'Simplenote', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Simplenote')
 
 ' renders the element
-Simplenote('Simplenote', 'Simplenote', 'an optional tech label')
+Simplenote('Simplenote', 'Simplenote', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

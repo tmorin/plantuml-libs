@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Processwire')
 
 ' renders the element
-Processwire('Processwire', 'Processwire', 'an optional tech label')
+Processwire('Processwire', 'Processwire', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Processwire')
 
 ' renders the element
-Processwire('Processwire', 'Processwire', 'an optional tech label')
+Processwire('Processwire', 'Processwire', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

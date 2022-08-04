@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Q/Qt')
 
 ' renders the element
-Qt('Qt', 'Qt', 'an optional tech label')
+Qt('Qt', 'Qt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Q/Qt')
 
 ' renders the element
-Qt('Qt', 'Qt', 'an optional tech label')
+Qt('Qt', 'Qt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

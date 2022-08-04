@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Twitch')
 
 ' renders the element
-Twitch('Twitch', 'Twitch', 'an optional tech label')
+Twitch('Twitch', 'Twitch', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Twitch')
 
 ' renders the element
-Twitch('Twitch', 'Twitch', 'an optional tech label')
+Twitch('Twitch', 'Twitch', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

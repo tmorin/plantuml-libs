@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Q/Quarkus')
 
 ' renders the element
-Quarkus('Quarkus', 'Quarkus', 'an optional tech label')
+Quarkus('Quarkus', 'Quarkus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Q/Quarkus')
 
 ' renders the element
-Quarkus('Quarkus', 'Quarkus', 'an optional tech label')
+Quarkus('Quarkus', 'Quarkus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

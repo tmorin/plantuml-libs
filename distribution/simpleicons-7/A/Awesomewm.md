@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Awesomewm')
 
 ' renders the element
-Awesomewm('Awesomewm', 'Awesomewm', 'an optional tech label')
+Awesomewm('Awesomewm', 'Awesomewm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Awesomewm')
 
 ' renders the element
-Awesomewm('Awesomewm', 'Awesomewm', 'an optional tech label')
+Awesomewm('Awesomewm', 'Awesomewm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

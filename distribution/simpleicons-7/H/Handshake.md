@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Handshake')
 
 ' renders the element
-Handshake('Handshake', 'Handshake', 'an optional tech label')
+Handshake('Handshake', 'Handshake', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Handshake')
 
 ' renders the element
-Handshake('Handshake', 'Handshake', 'an optional tech label')
+Handshake('Handshake', 'Handshake', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

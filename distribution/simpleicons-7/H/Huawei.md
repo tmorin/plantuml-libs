@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Huawei')
 
 ' renders the element
-Huawei('Huawei', 'Huawei', 'an optional tech label')
+Huawei('Huawei', 'Huawei', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Huawei')
 
 ' renders the element
-Huawei('Huawei', 'Huawei', 'an optional tech label')
+Huawei('Huawei', 'Huawei', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

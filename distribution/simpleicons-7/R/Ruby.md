@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Ruby')
 
 ' renders the element
-Ruby('Ruby', 'Ruby', 'an optional tech label')
+Ruby('Ruby', 'Ruby', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Ruby')
 
 ' renders the element
-Ruby('Ruby', 'Ruby', 'an optional tech label')
+Ruby('Ruby', 'Ruby', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

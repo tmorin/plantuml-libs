@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Datacamp')
 
 ' renders the element
-Datacamp('Datacamp', 'Datacamp', 'an optional tech label')
+Datacamp('Datacamp', 'Datacamp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Datacamp')
 
 ' renders the element
-Datacamp('Datacamp', 'Datacamp', 'an optional tech label')
+Datacamp('Datacamp', 'Datacamp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Redwoodjs')
 
 ' renders the element
-Redwoodjs('Redwoodjs', 'Redwoodjs', 'an optional tech label')
+Redwoodjs('Redwoodjs', 'Redwoodjs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Redwoodjs')
 
 ' renders the element
-Redwoodjs('Redwoodjs', 'Redwoodjs', 'an optional tech label')
+Redwoodjs('Redwoodjs', 'Redwoodjs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lemmy')
 
 ' renders the element
-Lemmy('Lemmy', 'Lemmy', 'an optional tech label')
+Lemmy('Lemmy', 'Lemmy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lemmy')
 
 ' renders the element
-Lemmy('Lemmy', 'Lemmy', 'an optional tech label')
+Lemmy('Lemmy', 'Lemmy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,6 +8,6 @@ sprite $BitbucketMd [16x16/16z] ZSgr0O1G54FHYplPVrk-owiuNGJZKUymUJ2PNnaSEKVDivoH
 
 sprite $BitbucketLg [20x20/16z] ZOs54KGX50Fp5OV-gpt17NPaCq_HWOWMQLhUJWrxDTcfCIZh-_pZ7bxWrYV-kFw1nvhQch40fxNCQbderuXD8jRK3vSUzomIDperh6kgK-Em73a0lW
 
-!procedure Bitbucket($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/B/Bitbucket', $name, $tech)
+!procedure Bitbucket($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/B/Bitbucket', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Enterprisedb')
 
 ' renders the element
-Enterprisedb('Enterprisedb', 'Enterprisedb', 'an optional tech label')
+Enterprisedb('Enterprisedb', 'Enterprisedb', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Enterprisedb')
 
 ' renders the element
-Enterprisedb('Enterprisedb', 'Enterprisedb', 'an optional tech label')
+Enterprisedb('Enterprisedb', 'Enterprisedb', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

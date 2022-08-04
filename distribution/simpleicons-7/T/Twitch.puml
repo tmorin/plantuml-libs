@@ -8,6 +8,6 @@ sprite $TwitchMd [16x16/16z] ZSZ50KCX50NH6yDX-gysXhFwWvwdRuLHfUtn9-eXEVvsttrRZCJ
 
 sprite $TwitchLg [20x20/16z] hShN3O0m54DHXvxg_RU51vRIVhdK71bMOPierGgrGitpez4SPLpi-SykzpxLQc6sWtcqdH6o40AmXX2VbSnocxrjLUsqLqPdMescbI8BnYhLUhe1
 
-!procedure Twitch($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/T/Twitch', $name, $tech)
+!procedure Twitch($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/T/Twitch', $name, $tech, $desc)
 !endprocedure

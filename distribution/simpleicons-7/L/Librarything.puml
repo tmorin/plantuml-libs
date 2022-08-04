@@ -8,6 +8,6 @@ sprite $LibrarythingMd [16x16/16z] XOw50SD024KVqiQv_QUDk-BE1waZJHG5qAGzcOoDgEkvK
 
 sprite $LibrarythingLg [20x20/16z] bO-50SGm200lxh3_jEzQxqLn0E8GVI7IB61rmW2TKQFUYDOQ-7e-7wZwGTwwebEWpdMqcSuiwif9tRn6NAZ1dou_LEPl3eQ8VsPjJwyt3z7g7CPC5Q3EL5S
 
-!procedure Librarything($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/L/Librarything', $name, $tech)
+!procedure Librarything($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/L/Librarything', $name, $tech, $desc)
 !endprocedure

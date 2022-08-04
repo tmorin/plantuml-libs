@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Codeforces')
 
 ' renders the element
-Codeforces('Codeforces', 'Codeforces', 'an optional tech label')
+Codeforces('Codeforces', 'Codeforces', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Codeforces')
 
 ' renders the element
-Codeforces('Codeforces', 'Codeforces', 'an optional tech label')
+Codeforces('Codeforces', 'Codeforces', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

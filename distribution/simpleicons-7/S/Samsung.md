@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Samsung')
 
 ' renders the element
-Samsung('Samsung', 'Samsung', 'an optional tech label')
+Samsung('Samsung', 'Samsung', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Samsung')
 
 ' renders the element
-Samsung('Samsung', 'Samsung', 'an optional tech label')
+Samsung('Samsung', 'Samsung', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

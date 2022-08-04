@@ -8,6 +8,6 @@ sprite $VirustotalMd [16x16/16z] LSY54S0m0CD0bRdUVzjSEDRX2xn5NXnVJp3hfILy21_HSNn
 
 sprite $VirustotalLg [20x20/16z] RSY53O0000F1uixllot16yh5JqhLc3GGj6TPcFtKWmp8qc_FE7KGjsUSMeZJokpdjP-NtrwJFiTJpy4eFoixO7GWKl5Z0m
 
-!procedure Virustotal($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/V/Virustotal', $name, $tech)
+!procedure Virustotal($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/V/Virustotal', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Ludwig')
 
 ' renders the element
-Ludwig('Ludwig', 'Ludwig', 'an optional tech label')
+Ludwig('Ludwig', 'Ludwig', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Ludwig')
 
 ' renders the element
-Ludwig('Ludwig', 'Ludwig', 'an optional tech label')
+Ludwig('Ludwig', 'Ludwig', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

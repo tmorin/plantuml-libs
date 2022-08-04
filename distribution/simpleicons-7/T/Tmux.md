@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tmux')
 
 ' renders the element
-Tmux('Tmux', 'Tmux', 'an optional tech label')
+Tmux('Tmux', 'Tmux', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tmux')
 
 ' renders the element
-Tmux('Tmux', 'Tmux', 'an optional tech label')
+Tmux('Tmux', 'Tmux', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Addthis')
 
 ' renders the element
-Addthis('Addthis', 'Addthis', 'an optional tech label')
+Addthis('Addthis', 'Addthis', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Addthis')
 
 ' renders the element
-Addthis('Addthis', 'Addthis', 'an optional tech label')
+Addthis('Addthis', 'Addthis', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

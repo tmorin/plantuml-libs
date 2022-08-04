@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Playstation4')
 
 ' renders the element
-Playstation4('Playstation4', 'Playstation4', 'an optional tech label')
+Playstation4('Playstation4', 'Playstation4', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Playstation4')
 
 ' renders the element
-Playstation4('Playstation4', 'Playstation4', 'an optional tech label')
+Playstation4('Playstation4', 'Playstation4', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

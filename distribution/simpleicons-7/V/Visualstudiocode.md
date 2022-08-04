@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Visualstudiocode')
 
 ' renders the element
-Visualstudiocode('Visualstudiocode', 'Visualstudiocode', 'an optional tech label')
+Visualstudiocode('Visualstudiocode', 'Visualstudiocode', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Visualstudiocode')
 
 ' renders the element
-Visualstudiocode('Visualstudiocode', 'Visualstudiocode', 'an optional tech label')
+Visualstudiocode('Visualstudiocode', 'Visualstudiocode', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

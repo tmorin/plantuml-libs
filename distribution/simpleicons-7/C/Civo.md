@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Civo')
 
 ' renders the element
-Civo('Civo', 'Civo', 'an optional tech label')
+Civo('Civo', 'Civo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Civo')
 
 ' renders the element
-Civo('Civo', 'Civo', 'an optional tech label')
+Civo('Civo', 'Civo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

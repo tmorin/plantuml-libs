@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Shopware')
 
 ' renders the element
-Shopware('Shopware', 'Shopware', 'an optional tech label')
+Shopware('Shopware', 'Shopware', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Shopware')
 
 ' renders the element
-Shopware('Shopware', 'Shopware', 'an optional tech label')
+Shopware('Shopware', 'Shopware', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

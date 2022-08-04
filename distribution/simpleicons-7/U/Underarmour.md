@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/U/Underarmour')
 
 ' renders the element
-Underarmour('Underarmour', 'Underarmour', 'an optional tech label')
+Underarmour('Underarmour', 'Underarmour', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/U/Underarmour')
 
 ' renders the element
-Underarmour('Underarmour', 'Underarmour', 'an optional tech label')
+Underarmour('Underarmour', 'Underarmour', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

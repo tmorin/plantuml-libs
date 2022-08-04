@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Apachemaven')
 
 ' renders the element
-Apachemaven('Apachemaven', 'Apachemaven', 'an optional tech label')
+Apachemaven('Apachemaven', 'Apachemaven', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Apachemaven')
 
 ' renders the element
-Apachemaven('Apachemaven', 'Apachemaven', 'an optional tech label')
+Apachemaven('Apachemaven', 'Apachemaven', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

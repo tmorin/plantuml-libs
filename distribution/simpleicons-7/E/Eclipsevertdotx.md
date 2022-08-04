@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Eclipsevertdotx')
 
 ' renders the element
-Eclipsevertdotx('Eclipsevertdotx', 'Eclipsevertdotx', 'an optional tech label')
+Eclipsevertdotx('Eclipsevertdotx', 'Eclipsevertdotx', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Eclipsevertdotx')
 
 ' renders the element
-Eclipsevertdotx('Eclipsevertdotx', 'Eclipsevertdotx', 'an optional tech label')
+Eclipsevertdotx('Eclipsevertdotx', 'Eclipsevertdotx', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

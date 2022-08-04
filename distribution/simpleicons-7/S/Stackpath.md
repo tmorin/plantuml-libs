@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Stackpath')
 
 ' renders the element
-Stackpath('Stackpath', 'Stackpath', 'an optional tech label')
+Stackpath('Stackpath', 'Stackpath', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Stackpath')
 
 ' renders the element
-Stackpath('Stackpath', 'Stackpath', 'an optional tech label')
+Stackpath('Stackpath', 'Stackpath', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

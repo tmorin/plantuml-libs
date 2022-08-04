@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bigcartel')
 
 ' renders the element
-Bigcartel('Bigcartel', 'Bigcartel', 'an optional tech label')
+Bigcartel('Bigcartel', 'Bigcartel', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bigcartel')
 
 ' renders the element
-Bigcartel('Bigcartel', 'Bigcartel', 'an optional tech label')
+Bigcartel('Bigcartel', 'Bigcartel', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

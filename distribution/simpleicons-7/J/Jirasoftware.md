@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Jirasoftware')
 
 ' renders the element
-Jirasoftware('Jirasoftware', 'Jirasoftware', 'an optional tech label')
+Jirasoftware('Jirasoftware', 'Jirasoftware', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Jirasoftware')
 
 ' renders the element
-Jirasoftware('Jirasoftware', 'Jirasoftware', 'an optional tech label')
+Jirasoftware('Jirasoftware', 'Jirasoftware', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

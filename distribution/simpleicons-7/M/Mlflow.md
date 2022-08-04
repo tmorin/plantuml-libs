@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mlflow')
 
 ' renders the element
-Mlflow('Mlflow', 'Mlflow', 'an optional tech label')
+Mlflow('Mlflow', 'Mlflow', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mlflow')
 
 ' renders the element
-Mlflow('Mlflow', 'Mlflow', 'an optional tech label')
+Mlflow('Mlflow', 'Mlflow', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

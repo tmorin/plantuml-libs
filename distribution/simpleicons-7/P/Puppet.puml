@@ -8,6 +8,6 @@ sprite $PuppetMd [16x16/16z] Os1Wu0S11ZZ0vFCoyABm-TZuCDIpCQ00Fh00kY8EL072V6GkBoy
 
 sprite $PuppetLg [20x20/16z] fT035W0n40FGPEtS_xHhg_hFxHW0DMcn-tnhGTFRRprbk4i-7kl9_N62Yu0tFTyQYHCikj4jWY-5g8vno5tERmC
 
-!procedure Puppet($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/P/Puppet', $name, $tech)
+!procedure Puppet($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/P/Puppet', $name, $tech, $desc)
 !endprocedure

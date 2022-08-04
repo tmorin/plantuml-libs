@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mini')
 
 ' renders the element
-Mini('Mini', 'Mini', 'an optional tech label')
+Mini('Mini', 'Mini', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mini')
 
 ' renders the element
-Mini('Mini', 'Mini', 'an optional tech label')
+Mini('Mini', 'Mini', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

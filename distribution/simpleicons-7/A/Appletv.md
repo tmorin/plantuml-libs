@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Appletv')
 
 ' renders the element
-Appletv('Appletv', 'Appletv', 'an optional tech label')
+Appletv('Appletv', 'Appletv', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Appletv')
 
 ' renders the element
-Appletv('Appletv', 'Appletv', 'an optional tech label')
+Appletv('Appletv', 'Appletv', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

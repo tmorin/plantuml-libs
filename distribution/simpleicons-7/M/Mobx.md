@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mobx')
 
 ' renders the element
-Mobx('Mobx', 'Mobx', 'an optional tech label')
+Mobx('Mobx', 'Mobx', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mobx')
 
 ' renders the element
-Mobx('Mobx', 'Mobx', 'an optional tech label')
+Mobx('Mobx', 'Mobx', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gitea')
 
 ' renders the element
-Gitea('Gitea', 'Gitea', 'an optional tech label')
+Gitea('Gitea', 'Gitea', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gitea')
 
 ' renders the element
-Gitea('Gitea', 'Gitea', 'an optional tech label')
+Gitea('Gitea', 'Gitea', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Crehana')
 
 ' renders the element
-Crehana('Crehana', 'Crehana', 'an optional tech label')
+Crehana('Crehana', 'Crehana', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Crehana')
 
 ' renders the element
-Crehana('Crehana', 'Crehana', 'an optional tech label')
+Crehana('Crehana', 'Crehana', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

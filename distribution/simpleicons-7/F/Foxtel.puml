@@ -8,6 +8,6 @@ sprite $FoxtelMd [16x16/16z] lST70SGm0C0mP--OFzeR85hznCjCEFQvb1Pwl2WPeyGK31T1got
 
 sprite $FoxtelLg [20x20/16z] pOf50K1H3CFwc1V_QZ-QM4w5o3c03l64qO45SOcarIC1az1gyTrORmkCRsE_Mr1XK_RlhH5jo3at
 
-!procedure Foxtel($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/F/Foxtel', $name, $tech)
+!procedure Foxtel($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/F/Foxtel', $name, $tech, $desc)
 !endprocedure

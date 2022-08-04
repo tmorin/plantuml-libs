@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Vowpalwabbit')
 
 ' renders the element
-Vowpalwabbit('Vowpalwabbit', 'Vowpalwabbit', 'an optional tech label')
+Vowpalwabbit('Vowpalwabbit', 'Vowpalwabbit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Vowpalwabbit')
 
 ' renders the element
-Vowpalwabbit('Vowpalwabbit', 'Vowpalwabbit', 'an optional tech label')
+Vowpalwabbit('Vowpalwabbit', 'Vowpalwabbit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

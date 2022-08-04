@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Britishairways')
 
 ' renders the element
-Britishairways('Britishairways', 'Britishairways', 'an optional tech label')
+Britishairways('Britishairways', 'Britishairways', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Britishairways')
 
 ' renders the element
-Britishairways('Britishairways', 'Britishairways', 'an optional tech label')
+Britishairways('Britishairways', 'Britishairways', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

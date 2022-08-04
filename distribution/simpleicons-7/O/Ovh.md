@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Ovh')
 
 ' renders the element
-Ovh('Ovh', 'Ovh', 'an optional tech label')
+Ovh('Ovh', 'Ovh', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Ovh')
 
 ' renders the element
-Ovh('Ovh', 'Ovh', 'an optional tech label')
+Ovh('Ovh', 'Ovh', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

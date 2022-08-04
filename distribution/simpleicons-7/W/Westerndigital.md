@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Westerndigital')
 
 ' renders the element
-Westerndigital('Westerndigital', 'Westerndigital', 'an optional tech label')
+Westerndigital('Westerndigital', 'Westerndigital', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Westerndigital')
 
 ' renders the element
-Westerndigital('Westerndigital', 'Westerndigital', 'an optional tech label')
+Westerndigital('Westerndigital', 'Westerndigital', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

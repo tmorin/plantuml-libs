@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Paddypower')
 
 ' renders the element
-Paddypower('Paddypower', 'Paddypower', 'an optional tech label')
+Paddypower('Paddypower', 'Paddypower', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Paddypower')
 
 ' renders the element
-Paddypower('Paddypower', 'Paddypower', 'an optional tech label')
+Paddypower('Paddypower', 'Paddypower', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

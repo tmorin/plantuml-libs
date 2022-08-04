@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hugo')
 
 ' renders the element
-Hugo('Hugo', 'Hugo', 'an optional tech label')
+Hugo('Hugo', 'Hugo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hugo')
 
 ' renders the element
-Hugo('Hugo', 'Hugo', 'an optional tech label')
+Hugo('Hugo', 'Hugo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

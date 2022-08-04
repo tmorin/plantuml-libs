@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Matomo')
 
 ' renders the element
-Matomo('Matomo', 'Matomo', 'an optional tech label')
+Matomo('Matomo', 'Matomo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Matomo')
 
 ' renders the element
-Matomo('Matomo', 'Matomo', 'an optional tech label')
+Matomo('Matomo', 'Matomo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

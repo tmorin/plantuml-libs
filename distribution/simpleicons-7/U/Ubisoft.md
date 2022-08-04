@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/U/Ubisoft')
 
 ' renders the element
-Ubisoft('Ubisoft', 'Ubisoft', 'an optional tech label')
+Ubisoft('Ubisoft', 'Ubisoft', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/U/Ubisoft')
 
 ' renders the element
-Ubisoft('Ubisoft', 'Ubisoft', 'an optional tech label')
+Ubisoft('Ubisoft', 'Ubisoft', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

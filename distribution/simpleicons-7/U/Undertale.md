@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/U/Undertale')
 
 ' renders the element
-Undertale('Undertale', 'Undertale', 'an optional tech label')
+Undertale('Undertale', 'Undertale', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/U/Undertale')
 
 ' renders the element
-Undertale('Undertale', 'Undertale', 'an optional tech label')
+Undertale('Undertale', 'Undertale', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

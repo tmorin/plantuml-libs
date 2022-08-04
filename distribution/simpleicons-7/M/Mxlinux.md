@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mxlinux')
 
 ' renders the element
-Mxlinux('Mxlinux', 'Mxlinux', 'an optional tech label')
+Mxlinux('Mxlinux', 'Mxlinux', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mxlinux')
 
 ' renders the element
-Mxlinux('Mxlinux', 'Mxlinux', 'an optional tech label')
+Mxlinux('Mxlinux', 'Mxlinux', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

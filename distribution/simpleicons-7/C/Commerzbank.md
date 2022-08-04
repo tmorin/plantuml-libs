@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Commerzbank')
 
 ' renders the element
-Commerzbank('Commerzbank', 'Commerzbank', 'an optional tech label')
+Commerzbank('Commerzbank', 'Commerzbank', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Commerzbank')
 
 ' renders the element
-Commerzbank('Commerzbank', 'Commerzbank', 'an optional tech label')
+Commerzbank('Commerzbank', 'Commerzbank', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

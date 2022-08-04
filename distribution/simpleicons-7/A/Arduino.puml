@@ -8,6 +8,6 @@ sprite $ArduinoMd [16x16/16z] fON50SKm08Men8Nzf_qklUS9i9xzk7fNdN1yR05qDmFEAW1QeR
 
 sprite $ArduinoLg [20x20/16z] lSY5aOHG0C3G0Dyj_LTxjsu5aB4tuQJsO_lHLFL31yE-RraFbkEc3JlNT9dkcbtkQOFGOAcWNhcnQwTPv5RH1Ni1HUzh7NTL2q57Lo7UjG1KCzVMNMVq3m
 
-!procedure Arduino($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/A/Arduino', $name, $tech)
+!procedure Arduino($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/A/Arduino', $name, $tech, $desc)
 !endprocedure

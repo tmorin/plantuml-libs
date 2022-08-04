@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Esphome')
 
 ' renders the element
-Esphome('Esphome', 'Esphome', 'an optional tech label')
+Esphome('Esphome', 'Esphome', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Esphome')
 
 ' renders the element
-Esphome('Esphome', 'Esphome', 'an optional tech label')
+Esphome('Esphome', 'Esphome', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

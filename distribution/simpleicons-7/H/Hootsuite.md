@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hootsuite')
 
 ' renders the element
-Hootsuite('Hootsuite', 'Hootsuite', 'an optional tech label')
+Hootsuite('Hootsuite', 'Hootsuite', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hootsuite')
 
 ' renders the element
-Hootsuite('Hootsuite', 'Hootsuite', 'an optional tech label')
+Hootsuite('Hootsuite', 'Hootsuite', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

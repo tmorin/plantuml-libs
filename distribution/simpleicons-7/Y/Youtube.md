@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Y/Youtube')
 
 ' renders the element
-Youtube('Youtube', 'Youtube', 'an optional tech label')
+Youtube('Youtube', 'Youtube', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Y/Youtube')
 
 ' renders the element
-Youtube('Youtube', 'Youtube', 'an optional tech label')
+Youtube('Youtube', 'Youtube', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

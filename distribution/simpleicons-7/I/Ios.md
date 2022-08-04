@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Ios')
 
 ' renders the element
-Ios('Ios', 'Ios', 'an optional tech label')
+Ios('Ios', 'Ios', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Ios')
 
 ' renders the element
-Ios('Ios', 'Ios', 'an optional tech label')
+Ios('Ios', 'Ios', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

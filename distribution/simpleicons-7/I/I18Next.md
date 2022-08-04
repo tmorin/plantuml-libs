@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/I18Next')
 
 ' renders the element
-I18Next('I18Next', 'I18 Next', 'an optional tech label')
+I18Next('I18Next', 'I18 Next', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/I18Next')
 
 ' renders the element
-I18Next('I18Next', 'I18 Next', 'an optional tech label')
+I18Next('I18Next', 'I18 Next', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

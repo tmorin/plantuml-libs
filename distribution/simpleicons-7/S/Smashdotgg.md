@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Smashdotgg')
 
 ' renders the element
-Smashdotgg('Smashdotgg', 'Smashdotgg', 'an optional tech label')
+Smashdotgg('Smashdotgg', 'Smashdotgg', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Smashdotgg')
 
 ' renders the element
-Smashdotgg('Smashdotgg', 'Smashdotgg', 'an optional tech label')
+Smashdotgg('Smashdotgg', 'Smashdotgg', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

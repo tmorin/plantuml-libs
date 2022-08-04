@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Androidstudio')
 
 ' renders the element
-Androidstudio('Androidstudio', 'Androidstudio', 'an optional tech label')
+Androidstudio('Androidstudio', 'Androidstudio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Androidstudio')
 
 ' renders the element
-Androidstudio('Androidstudio', 'Androidstudio', 'an optional tech label')
+Androidstudio('Androidstudio', 'Androidstudio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

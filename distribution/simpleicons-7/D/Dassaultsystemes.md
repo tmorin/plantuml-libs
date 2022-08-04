@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Dassaultsystemes')
 
 ' renders the element
-Dassaultsystemes('Dassaultsystemes', 'Dassaultsystemes', 'an optional tech label')
+Dassaultsystemes('Dassaultsystemes', 'Dassaultsystemes', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Dassaultsystemes')
 
 ' renders the element
-Dassaultsystemes('Dassaultsystemes', 'Dassaultsystemes', 'an optional tech label')
+Dassaultsystemes('Dassaultsystemes', 'Dassaultsystemes', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

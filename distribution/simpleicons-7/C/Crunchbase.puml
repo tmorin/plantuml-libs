@@ -8,6 +8,6 @@ sprite $CrunchbaseMd [16x16/16z] fOxL0O1G30CFztJ_QN5tUFTNYL3QcgWTVo6kvvIWdK736A4
 
 sprite $CrunchbaseLg [20x20/16z] lKtL0OKm44lgUjr_sYUuymM1siKGsXRyZHw2u7vMQZVBCe_mms_s0wUH_Yz1Q1Lv398fJu-XVpAwRaOpp3ISHXGWSEvsPFfHZahQI-1-95y
 
-!procedure Crunchbase($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/C/Crunchbase', $name, $tech)
+!procedure Crunchbase($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/C/Crunchbase', $name, $tech, $desc)
 !endprocedure

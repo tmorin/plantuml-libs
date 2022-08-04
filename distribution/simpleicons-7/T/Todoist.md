@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Todoist')
 
 ' renders the element
-Todoist('Todoist', 'Todoist', 'an optional tech label')
+Todoist('Todoist', 'Todoist', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Todoist')
 
 ' renders the element
-Todoist('Todoist', 'Todoist', 'an optional tech label')
+Todoist('Todoist', 'Todoist', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

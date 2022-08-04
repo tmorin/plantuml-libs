@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Azuredataexplorer')
 
 ' renders the element
-Azuredataexplorer('Azuredataexplorer', 'Azuredataexplorer', 'an optional tech label')
+Azuredataexplorer('Azuredataexplorer', 'Azuredataexplorer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Azuredataexplorer')
 
 ' renders the element
-Azuredataexplorer('Azuredataexplorer', 'Azuredataexplorer', 'an optional tech label')
+Azuredataexplorer('Azuredataexplorer', 'Azuredataexplorer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Oshkosh')
 
 ' renders the element
-Oshkosh('Oshkosh', 'Oshkosh', 'an optional tech label')
+Oshkosh('Oshkosh', 'Oshkosh', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Oshkosh')
 
 ' renders the element
-Oshkosh('Oshkosh', 'Oshkosh', 'an optional tech label')
+Oshkosh('Oshkosh', 'Oshkosh', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

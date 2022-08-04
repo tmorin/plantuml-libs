@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Airchina')
 
 ' renders the element
-Airchina('Airchina', 'Airchina', 'an optional tech label')
+Airchina('Airchina', 'Airchina', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Airchina')
 
 ' renders the element
-Airchina('Airchina', 'Airchina', 'an optional tech label')
+Airchina('Airchina', 'Airchina', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

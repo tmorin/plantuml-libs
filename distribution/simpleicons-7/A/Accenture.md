@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Accenture')
 
 ' renders the element
-Accenture('Accenture', 'Accenture', 'an optional tech label')
+Accenture('Accenture', 'Accenture', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Accenture')
 
 ' renders the element
-Accenture('Accenture', 'Accenture', 'an optional tech label')
+Accenture('Accenture', 'Accenture', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Intellijidea')
 
 ' renders the element
-Intellijidea('Intellijidea', 'Intellijidea', 'an optional tech label')
+Intellijidea('Intellijidea', 'Intellijidea', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Intellijidea')
 
 ' renders the element
-Intellijidea('Intellijidea', 'Intellijidea', 'an optional tech label')
+Intellijidea('Intellijidea', 'Intellijidea', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

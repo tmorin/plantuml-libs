@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Writedotas')
 
 ' renders the element
-Writedotas('Writedotas', 'Writedotas', 'an optional tech label')
+Writedotas('Writedotas', 'Writedotas', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Writedotas')
 
 ' renders the element
-Writedotas('Writedotas', 'Writedotas', 'an optional tech label')
+Writedotas('Writedotas', 'Writedotas', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

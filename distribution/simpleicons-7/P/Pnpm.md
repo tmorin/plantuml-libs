@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pnpm')
 
 ' renders the element
-Pnpm('Pnpm', 'Pnpm', 'an optional tech label')
+Pnpm('Pnpm', 'Pnpm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pnpm')
 
 ' renders the element
-Pnpm('Pnpm', 'Pnpm', 'an optional tech label')
+Pnpm('Pnpm', 'Pnpm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

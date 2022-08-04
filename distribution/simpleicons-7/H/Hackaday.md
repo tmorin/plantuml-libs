@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hackaday')
 
 ' renders the element
-Hackaday('Hackaday', 'Hackaday', 'an optional tech label')
+Hackaday('Hackaday', 'Hackaday', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hackaday')
 
 ' renders the element
-Hackaday('Hackaday', 'Hackaday', 'an optional tech label')
+Hackaday('Hackaday', 'Hackaday', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

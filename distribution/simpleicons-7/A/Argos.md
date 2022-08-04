@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Argos')
 
 ' renders the element
-Argos('Argos', 'Argos', 'an optional tech label')
+Argos('Argos', 'Argos', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Argos')
 
 ' renders the element
-Argos('Argos', 'Argos', 'an optional tech label')
+Argos('Argos', 'Argos', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

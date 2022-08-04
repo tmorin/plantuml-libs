@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lastpass')
 
 ' renders the element
-Lastpass('Lastpass', 'Lastpass', 'an optional tech label')
+Lastpass('Lastpass', 'Lastpass', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lastpass')
 
 ' renders the element
-Lastpass('Lastpass', 'Lastpass', 'an optional tech label')
+Lastpass('Lastpass', 'Lastpass', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

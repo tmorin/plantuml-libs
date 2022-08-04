@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Synology')
 
 ' renders the element
-Synology('Synology', 'Synology', 'an optional tech label')
+Synology('Synology', 'Synology', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Synology')
 
 ' renders the element
-Synology('Synology', 'Synology', 'an optional tech label')
+Synology('Synology', 'Synology', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

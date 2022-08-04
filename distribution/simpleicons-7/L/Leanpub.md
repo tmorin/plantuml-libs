@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Leanpub')
 
 ' renders the element
-Leanpub('Leanpub', 'Leanpub', 'an optional tech label')
+Leanpub('Leanpub', 'Leanpub', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Leanpub')
 
 ' renders the element
-Leanpub('Leanpub', 'Leanpub', 'an optional tech label')
+Leanpub('Leanpub', 'Leanpub', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

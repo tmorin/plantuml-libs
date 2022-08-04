@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Celery')
 
 ' renders the element
-Celery('Celery', 'Celery', 'an optional tech label')
+Celery('Celery', 'Celery', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Celery')
 
 ' renders the element
-Celery('Celery', 'Celery', 'an optional tech label')
+Celery('Celery', 'Celery', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

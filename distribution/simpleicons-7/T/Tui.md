@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tui')
 
 ' renders the element
-Tui('Tui', 'Tui', 'an optional tech label')
+Tui('Tui', 'Tui', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tui')
 
 ' renders the element
-Tui('Tui', 'Tui', 'an optional tech label')
+Tui('Tui', 'Tui', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

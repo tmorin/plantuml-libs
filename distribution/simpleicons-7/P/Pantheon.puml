@@ -8,6 +8,6 @@ sprite $PantheonMd [16x16/16z] PSjL0e1G449HR7rrzxzQkz3pDmDeKydy7rckniu4rcY7OQZhv
 
 sprite $PantheonLg [20x20/16z] TO-54GGm20JZdcp_rRuR3B_Zo8dxJpDc9Hf3l9x4UD2p2cmzR3VKDy22A6OrKLAITul9bfBGwnYZobaxm98pLbOUSywovWnPz0LmYWaqFJowsnsSGJLcdsfN
 
-!procedure Pantheon($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/P/Pantheon', $name, $tech)
+!procedure Pantheon($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/P/Pantheon', $name, $tech, $desc)
 !endprocedure

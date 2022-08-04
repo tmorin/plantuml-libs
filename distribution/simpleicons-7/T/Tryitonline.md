@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tryitonline')
 
 ' renders the element
-Tryitonline('Tryitonline', 'Tryitonline', 'an optional tech label')
+Tryitonline('Tryitonline', 'Tryitonline', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tryitonline')
 
 ' renders the element
-Tryitonline('Tryitonline', 'Tryitonline', 'an optional tech label')
+Tryitonline('Tryitonline', 'Tryitonline', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

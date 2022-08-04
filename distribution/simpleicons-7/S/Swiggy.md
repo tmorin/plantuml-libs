@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Swiggy')
 
 ' renders the element
-Swiggy('Swiggy', 'Swiggy', 'an optional tech label')
+Swiggy('Swiggy', 'Swiggy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Swiggy')
 
 ' renders the element
-Swiggy('Swiggy', 'Swiggy', 'an optional tech label')
+Swiggy('Swiggy', 'Swiggy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

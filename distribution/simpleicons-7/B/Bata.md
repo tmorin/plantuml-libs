@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bata')
 
 ' renders the element
-Bata('Bata', 'Bata', 'an optional tech label')
+Bata('Bata', 'Bata', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bata')
 
 ' renders the element
-Bata('Bata', 'Bata', 'an optional tech label')
+Bata('Bata', 'Bata', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

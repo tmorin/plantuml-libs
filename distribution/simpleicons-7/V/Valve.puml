@@ -8,6 +8,6 @@ sprite $ValveMd [16x16/16z] jS6t0O0040IWD-TZ_stjlrQed-bYLMoM9rkmoddRPBOT6EqMLKQu
 
 sprite $ValveLg [20x20/16z] pSUr0SCm50L0WvXk_sb3TTphFhvZ8_KF5gRVNPO1P-68PExqErp1YlSlX8C8CwahSDvQyUJOo1i
 
-!procedure Valve($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/V/Valve', $name, $tech)
+!procedure Valve($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/V/Valve', $name, $tech, $desc)
 !endprocedure

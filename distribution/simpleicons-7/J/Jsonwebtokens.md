@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Jsonwebtokens')
 
 ' renders the element
-Jsonwebtokens('Jsonwebtokens', 'Jsonwebtokens', 'an optional tech label')
+Jsonwebtokens('Jsonwebtokens', 'Jsonwebtokens', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Jsonwebtokens')
 
 ' renders the element
-Jsonwebtokens('Jsonwebtokens', 'Jsonwebtokens', 'an optional tech label')
+Jsonwebtokens('Jsonwebtokens', 'Jsonwebtokens', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

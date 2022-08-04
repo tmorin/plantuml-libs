@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Wetransfer')
 
 ' renders the element
-Wetransfer('Wetransfer', 'Wetransfer', 'an optional tech label')
+Wetransfer('Wetransfer', 'Wetransfer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Wetransfer')
 
 ' renders the element
-Wetransfer('Wetransfer', 'Wetransfer', 'an optional tech label')
+Wetransfer('Wetransfer', 'Wetransfer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

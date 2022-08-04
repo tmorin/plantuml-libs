@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Telegram')
 
 ' renders the element
-Telegram('Telegram', 'Telegram', 'an optional tech label')
+Telegram('Telegram', 'Telegram', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Telegram')
 
 ' renders the element
-Telegram('Telegram', 'Telegram', 'an optional tech label')
+Telegram('Telegram', 'Telegram', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

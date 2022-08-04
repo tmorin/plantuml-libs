@@ -8,6 +8,6 @@ sprite $TplinkMd [16x16/16z] bKs30S1044jgT_zfoxV_p0HIrdE5blCNfvM3uottByZr_AHD7BJ
 
 sprite $TplinkLg [20x20/16z] fSe54iGW04FHr72v_sbnigxz5J9l09Y9GUEw9SHMM4XxPBHurGrfquzkd8uNLovmRMNOBmphkYvj73IcAbaNHm5puj74ens0lZM7sbAopMup9qpTMWO
 
-!procedure Tplink($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/T/Tplink', $name, $tech)
+!procedure Tplink($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/T/Tplink', $name, $tech, $desc)
 !endprocedure

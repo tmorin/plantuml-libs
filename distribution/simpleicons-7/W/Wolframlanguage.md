@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Wolframlanguage')
 
 ' renders the element
-Wolframlanguage('Wolframlanguage', 'Wolframlanguage', 'an optional tech label')
+Wolframlanguage('Wolframlanguage', 'Wolframlanguage', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Wolframlanguage')
 
 ' renders the element
-Wolframlanguage('Wolframlanguage', 'Wolframlanguage', 'an optional tech label')
+Wolframlanguage('Wolframlanguage', 'Wolframlanguage', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

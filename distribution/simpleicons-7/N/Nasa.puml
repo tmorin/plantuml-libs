@@ -8,6 +8,6 @@ sprite $NasaMd [16x16/16z] jS470SD04C0m_zvd_cnBef7uM3UpSH4H7977cTLL07SMEHAeUQ7ST
 
 sprite $NasaLg [20x20/16z] pSY70SCm20311xch_FxR1cSA7ns-f0MHHAD69jIobAEZTrhuLpEFdYkyHWGO5Ur-Zhukn9AoBXkUtQ1VWDLplJ-7a9PtGJxa1m
 
-!procedure Nasa($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/N/Nasa', $name, $tech)
+!procedure Nasa($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/N/Nasa', $name, $tech, $desc)
 !endprocedure

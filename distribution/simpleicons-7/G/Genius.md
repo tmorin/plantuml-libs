@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Genius')
 
 ' renders the element
-Genius('Genius', 'Genius', 'an optional tech label')
+Genius('Genius', 'Genius', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Genius')
 
 ' renders the element
-Genius('Genius', 'Genius', 'an optional tech label')
+Genius('Genius', 'Genius', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

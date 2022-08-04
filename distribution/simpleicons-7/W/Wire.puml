@@ -8,6 +8,6 @@ sprite $WireMd [16x16/16z] jKV50G0X0C9ksN_QwywNDFW1bohpI7CvZVENhNuHOrcz_2hJtClds
 
 sprite $WireLg [20x20/16z] nKx50GH136BSX_whFSloEVzjt0F-9A-0x2en7ANkTb9NDQ2kDxLzTgsyuklz21n6KviMhAue44k3KwiHu7Y4azbAsxBL5vVRd9EiC8ebFdof7X_e2W
 
-!procedure Wire($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/W/Wire', $name, $tech)
+!procedure Wire($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/W/Wire', $name, $tech, $desc)
 !endprocedure

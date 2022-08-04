@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Blazemeter')
 
 ' renders the element
-Blazemeter('Blazemeter', 'Blazemeter', 'an optional tech label')
+Blazemeter('Blazemeter', 'Blazemeter', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Blazemeter')
 
 ' renders the element
-Blazemeter('Blazemeter', 'Blazemeter', 'an optional tech label')
+Blazemeter('Blazemeter', 'Blazemeter', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

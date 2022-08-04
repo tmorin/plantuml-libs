@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Amazonlumberyard')
 
 ' renders the element
-Amazonlumberyard('Amazonlumberyard', 'Amazonlumberyard', 'an optional tech label')
+Amazonlumberyard('Amazonlumberyard', 'Amazonlumberyard', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Amazonlumberyard')
 
 ' renders the element
-Amazonlumberyard('Amazonlumberyard', 'Amazonlumberyard', 'an optional tech label')
+Amazonlumberyard('Amazonlumberyard', 'Amazonlumberyard', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

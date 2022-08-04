@@ -8,6 +8,6 @@ sprite $ServerlessMd [16x16/16z] ZSw53S0m0CH0bxc__xHb39yWR8K87Pw9pFMmww0QJYcz4Lf
 
 sprite $ServerlessLg [20x20/16z] Oo0Iy481aCa1O_D301TGZ1yDC26BSKC0K8YL6mQ8jPS9380CHYOuWDlAXzDM100ASI9pAG0Whn1lAmUg094
 
-!procedure Serverless($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/S/Serverless', $name, $tech)
+!procedure Serverless($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/S/Serverless', $name, $tech, $desc)
 !endprocedure

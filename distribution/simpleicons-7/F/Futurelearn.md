@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Futurelearn')
 
 ' renders the element
-Futurelearn('Futurelearn', 'Futurelearn', 'an optional tech label')
+Futurelearn('Futurelearn', 'Futurelearn', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Futurelearn')
 
 ' renders the element
-Futurelearn('Futurelearn', 'Futurelearn', 'an optional tech label')
+Futurelearn('Futurelearn', 'Futurelearn', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,6 +8,6 @@ sprite $DolbyMd [16x16/16z] bSU50SCm30NHtuRCj_-qOUQSGNhw68UadwEha6nlgHYd6QV0R6pH
 
 sprite $DolbyLg [20x20/16z] fOm54i1030AfdoNy_xLrz_PsR2S1484_WQSea9XHKm3ZxSAArh2xjUeEDs5wk8MJcx8usGlxcxIMR6-Md8wz6UCu8jOOdfASW9Sq
 
-!procedure Dolby($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/D/Dolby', $name, $tech)
+!procedure Dolby($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/D/Dolby', $name, $tech, $desc)
 !endprocedure

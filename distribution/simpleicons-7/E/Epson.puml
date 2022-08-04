@@ -8,6 +8,6 @@ sprite $EpsonMd [16x16/16z] jS610S0G40J1XRyFSFrtcohCy9YaheQI-j4fXaLaA_tWwUQzrpRf
 
 sprite $EpsonLg [20x20/16z] pOK70S102CJkzmBYtssHqHk9VXx0ykFb6zoABbL22heAwHhhuhOmZYu7wTN3fPL2aV8UNTHJkFVkguoxz49bQkj7-G
 
-!procedure Epson($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/E/Epson', $name, $tech)
+!procedure Epson($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/E/Epson', $name, $tech, $desc)
 !endprocedure

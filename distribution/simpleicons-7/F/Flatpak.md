@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Flatpak')
 
 ' renders the element
-Flatpak('Flatpak', 'Flatpak', 'an optional tech label')
+Flatpak('Flatpak', 'Flatpak', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Flatpak')
 
 ' renders the element
-Flatpak('Flatpak', 'Flatpak', 'an optional tech label')
+Flatpak('Flatpak', 'Flatpak', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

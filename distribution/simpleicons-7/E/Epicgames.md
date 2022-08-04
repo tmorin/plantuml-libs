@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Epicgames')
 
 ' renders the element
-Epicgames('Epicgames', 'Epicgames', 'an optional tech label')
+Epicgames('Epicgames', 'Epicgames', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Epicgames')
 
 ' renders the element
-Epicgames('Epicgames', 'Epicgames', 'an optional tech label')
+Epicgames('Epicgames', 'Epicgames', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

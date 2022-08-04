@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hellofresh')
 
 ' renders the element
-Hellofresh('Hellofresh', 'Hellofresh', 'an optional tech label')
+Hellofresh('Hellofresh', 'Hellofresh', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hellofresh')
 
 ' renders the element
-Hellofresh('Hellofresh', 'Hellofresh', 'an optional tech label')
+Hellofresh('Hellofresh', 'Hellofresh', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

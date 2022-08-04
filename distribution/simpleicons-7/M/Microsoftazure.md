@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Microsoftazure')
 
 ' renders the element
-Microsoftazure('Microsoftazure', 'Microsoftazure', 'an optional tech label')
+Microsoftazure('Microsoftazure', 'Microsoftazure', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Microsoftazure')
 
 ' renders the element
-Microsoftazure('Microsoftazure', 'Microsoftazure', 'an optional tech label')
+Microsoftazure('Microsoftazure', 'Microsoftazure', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

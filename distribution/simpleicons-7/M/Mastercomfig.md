@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mastercomfig')
 
 ' renders the element
-Mastercomfig('Mastercomfig', 'Mastercomfig', 'an optional tech label')
+Mastercomfig('Mastercomfig', 'Mastercomfig', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mastercomfig')
 
 ' renders the element
-Mastercomfig('Mastercomfig', 'Mastercomfig', 'an optional tech label')
+Mastercomfig('Mastercomfig', 'Mastercomfig', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

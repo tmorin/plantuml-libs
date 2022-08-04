@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Prdotco')
 
 ' renders the element
-Prdotco('Prdotco', 'Prdotco', 'an optional tech label')
+Prdotco('Prdotco', 'Prdotco', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Prdotco')
 
 ' renders the element
-Prdotco('Prdotco', 'Prdotco', 'an optional tech label')
+Prdotco('Prdotco', 'Prdotco', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/U/Ups')
 
 ' renders the element
-Ups('Ups', 'Ups', 'an optional tech label')
+Ups('Ups', 'Ups', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/U/Ups')
 
 ' renders the element
-Ups('Ups', 'Ups', 'an optional tech label')
+Ups('Ups', 'Ups', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Discogs')
 
 ' renders the element
-Discogs('Discogs', 'Discogs', 'an optional tech label')
+Discogs('Discogs', 'Discogs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Discogs')
 
 ' renders the element
-Discogs('Discogs', 'Discogs', 'an optional tech label')
+Discogs('Discogs', 'Discogs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,6 +8,6 @@ sprite $MicrobitMd [16x16/16z] fSgr0SGm04MnRsQ__QSz39K1rT9ZcPsLEhJwDy0Aj37GC8fEN
 
 sprite $MicrobitLg [20x20/16z] jS7LOSDG0C10sNvCsd_QDapVoHs_i8SxRgQlAh3v2NHjF6KjX_Acw7117rmSwm3L0Sf5iu4sXNtdwe1DqSIhvQ9hsxUxeExWXmWGfazzu-l-0G
 
-!procedure Microbit($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/M/Microbit', $name, $tech)
+!procedure Microbit($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/M/Microbit', $name, $tech, $desc)
 !endprocedure

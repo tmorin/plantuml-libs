@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Ibmcloud')
 
 ' renders the element
-Ibmcloud('Ibmcloud', 'Ibmcloud', 'an optional tech label')
+Ibmcloud('Ibmcloud', 'Ibmcloud', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Ibmcloud')
 
 ' renders the element
-Ibmcloud('Ibmcloud', 'Ibmcloud', 'an optional tech label')
+Ibmcloud('Ibmcloud', 'Ibmcloud', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

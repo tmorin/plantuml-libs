@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Platformdotsh')
 
 ' renders the element
-Platformdotsh('Platformdotsh', 'Platformdotsh', 'an optional tech label')
+Platformdotsh('Platformdotsh', 'Platformdotsh', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Platformdotsh')
 
 ' renders the element
-Platformdotsh('Platformdotsh', 'Platformdotsh', 'an optional tech label')
+Platformdotsh('Platformdotsh', 'Platformdotsh', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

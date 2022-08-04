@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Duckdb')
 
 ' renders the element
-Duckdb('Duckdb', 'Duckdb', 'an optional tech label')
+Duckdb('Duckdb', 'Duckdb', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Duckdb')
 
 ' renders the element
-Duckdb('Duckdb', 'Duckdb', 'an optional tech label')
+Duckdb('Duckdb', 'Duckdb', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

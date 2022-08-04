@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Rollupdotjs')
 
 ' renders the element
-Rollupdotjs('Rollupdotjs', 'Rollupdotjs', 'an optional tech label')
+Rollupdotjs('Rollupdotjs', 'Rollupdotjs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Rollupdotjs')
 
 ' renders the element
-Rollupdotjs('Rollupdotjs', 'Rollupdotjs', 'an optional tech label')
+Rollupdotjs('Rollupdotjs', 'Rollupdotjs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

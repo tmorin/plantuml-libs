@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fujifilm')
 
 ' renders the element
-Fujifilm('Fujifilm', 'Fujifilm', 'an optional tech label')
+Fujifilm('Fujifilm', 'Fujifilm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fujifilm')
 
 ' renders the element
-Fujifilm('Fujifilm', 'Fujifilm', 'an optional tech label')
+Fujifilm('Fujifilm', 'Fujifilm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

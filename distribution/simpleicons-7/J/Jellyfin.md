@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Jellyfin')
 
 ' renders the element
-Jellyfin('Jellyfin', 'Jellyfin', 'an optional tech label')
+Jellyfin('Jellyfin', 'Jellyfin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Jellyfin')
 
 ' renders the element
-Jellyfin('Jellyfin', 'Jellyfin', 'an optional tech label')
+Jellyfin('Jellyfin', 'Jellyfin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

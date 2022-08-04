@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/X/Xampp')
 
 ' renders the element
-Xampp('Xampp', 'Xampp', 'an optional tech label')
+Xampp('Xampp', 'Xampp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/X/Xampp')
 
 ' renders the element
-Xampp('Xampp', 'Xampp', 'an optional tech label')
+Xampp('Xampp', 'Xampp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

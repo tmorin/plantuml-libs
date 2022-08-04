@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Microsoftonedrive')
 
 ' renders the element
-Microsoftonedrive('Microsoftonedrive', 'Microsoftonedrive', 'an optional tech label')
+Microsoftonedrive('Microsoftonedrive', 'Microsoftonedrive', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Microsoftonedrive')
 
 ' renders the element
-Microsoftonedrive('Microsoftonedrive', 'Microsoftonedrive', 'an optional tech label')
+Microsoftonedrive('Microsoftonedrive', 'Microsoftonedrive', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

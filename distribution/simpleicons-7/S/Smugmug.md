@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Smugmug')
 
 ' renders the element
-Smugmug('Smugmug', 'Smugmug', 'an optional tech label')
+Smugmug('Smugmug', 'Smugmug', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Smugmug')
 
 ' renders the element
-Smugmug('Smugmug', 'Smugmug', 'an optional tech label')
+Smugmug('Smugmug', 'Smugmug', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

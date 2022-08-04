@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fiverr')
 
 ' renders the element
-Fiverr('Fiverr', 'Fiverr', 'an optional tech label')
+Fiverr('Fiverr', 'Fiverr', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fiverr')
 
 ' renders the element
-Fiverr('Fiverr', 'Fiverr', 'an optional tech label')
+Fiverr('Fiverr', 'Fiverr', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

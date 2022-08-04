@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Overleaf')
 
 ' renders the element
-Overleaf('Overleaf', 'Overleaf', 'an optional tech label')
+Overleaf('Overleaf', 'Overleaf', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Overleaf')
 
 ' renders the element
-Overleaf('Overleaf', 'Overleaf', 'an optional tech label')
+Overleaf('Overleaf', 'Overleaf', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

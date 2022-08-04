@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cloud66')
 
 ' renders the element
-Cloud66('Cloud66', 'Cloud66', 'an optional tech label')
+Cloud66('Cloud66', 'Cloud66', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cloud66')
 
 ' renders the element
-Cloud66('Cloud66', 'Cloud66', 'an optional tech label')
+Cloud66('Cloud66', 'Cloud66', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

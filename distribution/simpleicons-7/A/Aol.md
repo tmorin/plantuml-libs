@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Aol')
 
 ' renders the element
-Aol('Aol', 'Aol', 'an optional tech label')
+Aol('Aol', 'Aol', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Aol')
 
 ' renders the element
-Aol('Aol', 'Aol', 'an optional tech label')
+Aol('Aol', 'Aol', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

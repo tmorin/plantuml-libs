@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Skillshare')
 
 ' renders the element
-Skillshare('Skillshare', 'Skillshare', 'an optional tech label')
+Skillshare('Skillshare', 'Skillshare', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Skillshare')
 
 ' renders the element
-Skillshare('Skillshare', 'Skillshare', 'an optional tech label')
+Skillshare('Skillshare', 'Skillshare', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

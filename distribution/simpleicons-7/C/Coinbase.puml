@@ -8,6 +8,6 @@ sprite $CoinbaseMd [16x16/16z] nS450S0m402nAxTF_jqEBGmI_f1XSdCQgnDIaivcFJcHEcw-R
 
 sprite $CoinbaseLg [20x20/16z] rKV70O102CjnZSx-syhF5JGz-0LsUxvtOam8jISczIKAi47ACHLd5j-XSjZihZAikEFcdTi57yS3
 
-!procedure Coinbase($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/C/Coinbase', $name, $tech)
+!procedure Coinbase($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/C/Coinbase', $name, $tech, $desc)
 !endprocedure

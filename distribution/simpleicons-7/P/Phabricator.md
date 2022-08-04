@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Phabricator')
 
 ' renders the element
-Phabricator('Phabricator', 'Phabricator', 'an optional tech label')
+Phabricator('Phabricator', 'Phabricator', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Phabricator')
 
 ' renders the element
-Phabricator('Phabricator', 'Phabricator', 'an optional tech label')
+Phabricator('Phabricator', 'Phabricator', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

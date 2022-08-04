@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Americanexpress')
 
 ' renders the element
-Americanexpress('Americanexpress', 'Americanexpress', 'an optional tech label')
+Americanexpress('Americanexpress', 'Americanexpress', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Americanexpress')
 
 ' renders the element
-Americanexpress('Americanexpress', 'Americanexpress', 'an optional tech label')
+Americanexpress('Americanexpress', 'Americanexpress', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

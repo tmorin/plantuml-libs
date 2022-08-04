@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pusher')
 
 ' renders the element
-Pusher('Pusher', 'Pusher', 'an optional tech label')
+Pusher('Pusher', 'Pusher', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pusher')
 
 ' renders the element
-Pusher('Pusher', 'Pusher', 'an optional tech label')
+Pusher('Pusher', 'Pusher', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

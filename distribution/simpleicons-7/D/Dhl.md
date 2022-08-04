@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Dhl')
 
 ' renders the element
-Dhl('Dhl', 'Dhl', 'an optional tech label')
+Dhl('Dhl', 'Dhl', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Dhl')
 
 ' renders the element
-Dhl('Dhl', 'Dhl', 'an optional tech label')
+Dhl('Dhl', 'Dhl', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

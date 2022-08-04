@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Elasticcloud')
 
 ' renders the element
-Elasticcloud('Elasticcloud', 'Elasticcloud', 'an optional tech label')
+Elasticcloud('Elasticcloud', 'Elasticcloud', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Elasticcloud')
 
 ' renders the element
-Elasticcloud('Elasticcloud', 'Elasticcloud', 'an optional tech label')
+Elasticcloud('Elasticcloud', 'Elasticcloud', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

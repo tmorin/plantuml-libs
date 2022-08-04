@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Passport')
 
 ' renders the element
-Passport('Passport', 'Passport', 'an optional tech label')
+Passport('Passport', 'Passport', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Passport')
 
 ' renders the element
-Passport('Passport', 'Passport', 'an optional tech label')
+Passport('Passport', 'Passport', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

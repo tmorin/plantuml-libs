@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Slides')
 
 ' renders the element
-Slides('Slides', 'Slides', 'an optional tech label')
+Slides('Slides', 'Slides', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Slides')
 
 ' renders the element
-Slides('Slides', 'Slides', 'an optional tech label')
+Slides('Slides', 'Slides', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

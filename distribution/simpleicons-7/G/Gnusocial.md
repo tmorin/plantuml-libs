@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gnusocial')
 
 ' renders the element
-Gnusocial('Gnusocial', 'Gnusocial', 'an optional tech label')
+Gnusocial('Gnusocial', 'Gnusocial', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gnusocial')
 
 ' renders the element
-Gnusocial('Gnusocial', 'Gnusocial', 'an optional tech label')
+Gnusocial('Gnusocial', 'Gnusocial', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

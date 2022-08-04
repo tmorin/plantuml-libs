@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Aboutdotme')
 
 ' renders the element
-Aboutdotme('Aboutdotme', 'Aboutdotme', 'an optional tech label')
+Aboutdotme('Aboutdotme', 'Aboutdotme', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Aboutdotme')
 
 ' renders the element
-Aboutdotme('Aboutdotme', 'Aboutdotme', 'an optional tech label')
+Aboutdotme('Aboutdotme', 'Aboutdotme', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

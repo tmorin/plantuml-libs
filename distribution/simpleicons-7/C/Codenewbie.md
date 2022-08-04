@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Codenewbie')
 
 ' renders the element
-Codenewbie('Codenewbie', 'Codenewbie', 'an optional tech label')
+Codenewbie('Codenewbie', 'Codenewbie', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Codenewbie')
 
 ' renders the element
-Codenewbie('Codenewbie', 'Codenewbie', 'an optional tech label')
+Codenewbie('Codenewbie', 'Codenewbie', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mediatek')
 
 ' renders the element
-Mediatek('Mediatek', 'Mediatek', 'an optional tech label')
+Mediatek('Mediatek', 'Mediatek', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mediatek')
 
 ' renders the element
-Mediatek('Mediatek', 'Mediatek', 'an optional tech label')
+Mediatek('Mediatek', 'Mediatek', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

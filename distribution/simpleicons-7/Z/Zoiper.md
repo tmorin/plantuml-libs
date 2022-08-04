@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Z/Zoiper')
 
 ' renders the element
-Zoiper('Zoiper', 'Zoiper', 'an optional tech label')
+Zoiper('Zoiper', 'Zoiper', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Z/Zoiper')
 
 ' renders the element
-Zoiper('Zoiper', 'Zoiper', 'an optional tech label')
+Zoiper('Zoiper', 'Zoiper', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Topcoder')
 
 ' renders the element
-Topcoder('Topcoder', 'Topcoder', 'an optional tech label')
+Topcoder('Topcoder', 'Topcoder', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Topcoder')
 
 ' renders the element
-Topcoder('Topcoder', 'Topcoder', 'an optional tech label')
+Topcoder('Topcoder', 'Topcoder', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

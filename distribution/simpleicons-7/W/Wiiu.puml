@@ -8,6 +8,6 @@ sprite $WiiuMd [16x16/16z] jOW50G1120Jdt93-QLyp0Ei4twuOIGodYov_ckTLAvNnTPz5lfNXy
 
 sprite $WiiuLg [20x20/16z] pOY50SD030FlcQtzfst3AoG2m_4XURTrJoSMIik3dXTL81QveDd4xZLJC0QvRQoUJ6wkXcWB2RBeVIAvanLjChm2IvpibdkMurtz0G
 
-!procedure Wiiu($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/W/Wiiu', $name, $tech)
+!procedure Wiiu($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/W/Wiiu', $name, $tech, $desc)
 !endprocedure

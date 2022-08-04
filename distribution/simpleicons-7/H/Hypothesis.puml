@@ -8,6 +8,6 @@ sprite $HypothesisMd [16x16/16z] XOor0S1030Cl_Apzfms3NUKw8JHzH5XaWI2LvdHZ-jDvSRe
 
 sprite $HypothesisLg [20x20/16z] hP2r0G0X5CM2E-m_xRbBHwhlyi2t6nKGxSblB47lc0IUiHdrYEMc4QzvuJTMtZ6mxnXoYsMjfuIUIghxrO2lc50pi-CNYvDvrHFL3dC4
 
-!procedure Hypothesis($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/H/Hypothesis', $name, $tech)
+!procedure Hypothesis($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/H/Hypothesis', $name, $tech, $desc)
 !endprocedure

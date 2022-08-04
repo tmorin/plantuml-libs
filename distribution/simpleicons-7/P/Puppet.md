@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Puppet')
 
 ' renders the element
-Puppet('Puppet', 'Puppet', 'an optional tech label')
+Puppet('Puppet', 'Puppet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Puppet')
 
 ' renders the element
-Puppet('Puppet', 'Puppet', 'an optional tech label')
+Puppet('Puppet', 'Puppet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

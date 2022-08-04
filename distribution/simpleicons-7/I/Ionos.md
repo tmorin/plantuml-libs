@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Ionos')
 
 ' renders the element
-Ionos('Ionos', 'Ionos', 'an optional tech label')
+Ionos('Ionos', 'Ionos', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Ionos')
 
 ' renders the element
-Ionos('Ionos', 'Ionos', 'an optional tech label')
+Ionos('Ionos', 'Ionos', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

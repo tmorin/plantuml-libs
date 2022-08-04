@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Reason')
 
 ' renders the element
-Reason('Reason', 'Reason', 'an optional tech label')
+Reason('Reason', 'Reason', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Reason')
 
 ' renders the element
-Reason('Reason', 'Reason', 'an optional tech label')
+Reason('Reason', 'Reason', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

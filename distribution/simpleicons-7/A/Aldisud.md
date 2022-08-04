@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Aldisud')
 
 ' renders the element
-Aldisud('Aldisud', 'Aldisud', 'an optional tech label')
+Aldisud('Aldisud', 'Aldisud', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Aldisud')
 
 ' renders the element
-Aldisud('Aldisud', 'Aldisud', 'an optional tech label')
+Aldisud('Aldisud', 'Aldisud', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

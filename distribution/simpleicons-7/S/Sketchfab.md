@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sketchfab')
 
 ' renders the element
-Sketchfab('Sketchfab', 'Sketchfab', 'an optional tech label')
+Sketchfab('Sketchfab', 'Sketchfab', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sketchfab')
 
 ' renders the element
-Sketchfab('Sketchfab', 'Sketchfab', 'an optional tech label')
+Sketchfab('Sketchfab', 'Sketchfab', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

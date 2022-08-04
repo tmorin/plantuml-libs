@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Php')
 
 ' renders the element
-Php('Php', 'Php', 'an optional tech label')
+Php('Php', 'Php', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Php')
 
 ' renders the element
-Php('Php', 'Php', 'an optional tech label')
+Php('Php', 'Php', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

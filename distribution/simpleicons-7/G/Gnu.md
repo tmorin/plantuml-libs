@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gnu')
 
 ' renders the element
-Gnu('Gnu', 'Gnu', 'an optional tech label')
+Gnu('Gnu', 'Gnu', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gnu')
 
 ' renders the element
-Gnu('Gnu', 'Gnu', 'an optional tech label')
+Gnu('Gnu', 'Gnu', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

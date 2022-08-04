@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Emberdotjs')
 
 ' renders the element
-Emberdotjs('Emberdotjs', 'Emberdotjs', 'an optional tech label')
+Emberdotjs('Emberdotjs', 'Emberdotjs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Emberdotjs')
 
 ' renders the element
-Emberdotjs('Emberdotjs', 'Emberdotjs', 'an optional tech label')
+Emberdotjs('Emberdotjs', 'Emberdotjs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

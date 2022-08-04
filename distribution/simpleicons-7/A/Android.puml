@@ -8,6 +8,6 @@ sprite $AndroidMd [16x16/16z] fScr0O1G54FHuCxTVrha--kGKqNqtwQebTD9JLFdOyNPEpaaiw
 
 sprite $AndroidLg [20x20/16z] lSn50eG0581G9iqlzp-jtIwDjmSUKh481kcBIS4aFc6dUAUCtiwcJURQkx-v1RpKdwEqL27KEU_NRpo8lqVX4HTh
 
-!procedure Android($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/A/Android', $name, $tech)
+!procedure Android($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/A/Android', $name, $tech, $desc)
 !endprocedure

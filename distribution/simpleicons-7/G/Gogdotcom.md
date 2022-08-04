@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gogdotcom')
 
 ' renders the element
-Gogdotcom('Gogdotcom', 'Gogdotcom', 'an optional tech label')
+Gogdotcom('Gogdotcom', 'Gogdotcom', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gogdotcom')
 
 ' renders the element
-Gogdotcom('Gogdotcom', 'Gogdotcom', 'an optional tech label')
+Gogdotcom('Gogdotcom', 'Gogdotcom', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

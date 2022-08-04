@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Stimulus')
 
 ' renders the element
-Stimulus('Stimulus', 'Stimulus', 'an optional tech label')
+Stimulus('Stimulus', 'Stimulus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Stimulus')
 
 ' renders the element
-Stimulus('Stimulus', 'Stimulus', 'an optional tech label')
+Stimulus('Stimulus', 'Stimulus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

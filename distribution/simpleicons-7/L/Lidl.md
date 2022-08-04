@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lidl')
 
 ' renders the element
-Lidl('Lidl', 'Lidl', 'an optional tech label')
+Lidl('Lidl', 'Lidl', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lidl')
 
 ' renders the element
-Lidl('Lidl', 'Lidl', 'an optional tech label')
+Lidl('Lidl', 'Lidl', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

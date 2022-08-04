@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Clickhouse')
 
 ' renders the element
-Clickhouse('Clickhouse', 'Clickhouse', 'an optional tech label')
+Clickhouse('Clickhouse', 'Clickhouse', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Clickhouse')
 
 ' renders the element
-Clickhouse('Clickhouse', 'Clickhouse', 'an optional tech label')
+Clickhouse('Clickhouse', 'Clickhouse', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Safari')
 
 ' renders the element
-Safari('Safari', 'Safari', 'an optional tech label')
+Safari('Safari', 'Safari', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Safari')
 
 ' renders the element
-Safari('Safari', 'Safari', 'an optional tech label')
+Safari('Safari', 'Safari', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

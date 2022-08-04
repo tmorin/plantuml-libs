@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Antena3')
 
 ' renders the element
-Antena3('Antena3', 'Antena3', 'an optional tech label')
+Antena3('Antena3', 'Antena3', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Antena3')
 
 ' renders the element
-Antena3('Antena3', 'Antena3', 'an optional tech label')
+Antena3('Antena3', 'Antena3', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

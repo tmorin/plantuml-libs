@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Openwrt')
 
 ' renders the element
-Openwrt('Openwrt', 'Openwrt', 'an optional tech label')
+Openwrt('Openwrt', 'Openwrt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Openwrt')
 
 ' renders the element
-Openwrt('Openwrt', 'Openwrt', 'an optional tech label')
+Openwrt('Openwrt', 'Openwrt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

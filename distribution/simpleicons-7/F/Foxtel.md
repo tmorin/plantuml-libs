@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Foxtel')
 
 ' renders the element
-Foxtel('Foxtel', 'Foxtel', 'an optional tech label')
+Foxtel('Foxtel', 'Foxtel', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Foxtel')
 
 ' renders the element
-Foxtel('Foxtel', 'Foxtel', 'an optional tech label')
+Foxtel('Foxtel', 'Foxtel', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

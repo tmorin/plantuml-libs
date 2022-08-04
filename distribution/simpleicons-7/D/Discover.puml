@@ -8,6 +8,6 @@ sprite $DiscoverMd [16x16/16z] lS470S0m40Enovv-ysTR58t4OpwqqNknJkfTOIOIieVAq3YJS
 
 sprite $DiscoverLg [20x20/16z] rS570S0m30D0UNLvY3_Rli8XkSCn10krYsgXIOQCYteHBFG7aFHyxVOHfcSLgfoD5_PTcjZS3m
 
-!procedure Discover($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/D/Discover', $name, $tech)
+!procedure Discover($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/D/Discover', $name, $tech, $desc)
 !endprocedure

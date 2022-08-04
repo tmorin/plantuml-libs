@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lazarus')
 
 ' renders the element
-Lazarus('Lazarus', 'Lazarus', 'an optional tech label')
+Lazarus('Lazarus', 'Lazarus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lazarus')
 
 ' renders the element
-Lazarus('Lazarus', 'Lazarus', 'an optional tech label')
+Lazarus('Lazarus', 'Lazarus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

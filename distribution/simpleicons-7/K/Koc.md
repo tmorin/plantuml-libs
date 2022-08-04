@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Koc')
 
 ' renders the element
-Koc('Koc', 'Koc', 'an optional tech label')
+Koc('Koc', 'Koc', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Koc')
 
 ' renders the element
-Koc('Koc', 'Koc', 'an optional tech label')
+Koc('Koc', 'Koc', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

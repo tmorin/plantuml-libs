@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Audiomack')
 
 ' renders the element
-Audiomack('Audiomack', 'Audiomack', 'an optional tech label')
+Audiomack('Audiomack', 'Audiomack', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Audiomack')
 
 ' renders the element
-Audiomack('Audiomack', 'Audiomack', 'an optional tech label')
+Audiomack('Audiomack', 'Audiomack', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

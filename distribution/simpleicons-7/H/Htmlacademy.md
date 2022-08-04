@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Htmlacademy')
 
 ' renders the element
-Htmlacademy('Htmlacademy', 'Htmlacademy', 'an optional tech label')
+Htmlacademy('Htmlacademy', 'Htmlacademy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Htmlacademy')
 
 ' renders the element
-Htmlacademy('Htmlacademy', 'Htmlacademy', 'an optional tech label')
+Htmlacademy('Htmlacademy', 'Htmlacademy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

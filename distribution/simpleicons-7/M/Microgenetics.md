@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Microgenetics')
 
 ' renders the element
-Microgenetics('Microgenetics', 'Microgenetics', 'an optional tech label')
+Microgenetics('Microgenetics', 'Microgenetics', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Microgenetics')
 
 ' renders the element
-Microgenetics('Microgenetics', 'Microgenetics', 'an optional tech label')
+Microgenetics('Microgenetics', 'Microgenetics', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

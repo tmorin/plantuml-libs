@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Ring')
 
 ' renders the element
-Ring('Ring', 'Ring', 'an optional tech label')
+Ring('Ring', 'Ring', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Ring')
 
 ' renders the element
-Ring('Ring', 'Ring', 'an optional tech label')
+Ring('Ring', 'Ring', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

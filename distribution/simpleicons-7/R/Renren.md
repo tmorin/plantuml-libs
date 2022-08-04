@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Renren')
 
 ' renders the element
-Renren('Renren', 'Renren', 'an optional tech label')
+Renren('Renren', 'Renren', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Renren')
 
 ' renders the element
-Renren('Renren', 'Renren', 'an optional tech label')
+Renren('Renren', 'Renren', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

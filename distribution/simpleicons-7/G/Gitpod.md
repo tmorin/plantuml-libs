@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gitpod')
 
 ' renders the element
-Gitpod('Gitpod', 'Gitpod', 'an optional tech label')
+Gitpod('Gitpod', 'Gitpod', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gitpod')
 
 ' renders the element
-Gitpod('Gitpod', 'Gitpod', 'an optional tech label')
+Gitpod('Gitpod', 'Gitpod', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

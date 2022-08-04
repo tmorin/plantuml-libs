@@ -8,6 +8,6 @@ sprite $VenmoMd [16x16/16z] lST70S1030InlTvi3t-qAI0I_QIVdKQrYE2Le3mveZeo-WcXHcKr
 
 sprite $VenmoLg [20x20/16z] pKS50GD04EBzdFvfv-lmEBWSS_K3sH1PxHWCiAqXKS9EfrRcQnwEUl-cj0ofzJfuiK0oDFV_1ox74m
 
-!procedure Venmo($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/V/Venmo', $name, $tech)
+!procedure Venmo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/V/Venmo', $name, $tech, $desc)
 !endprocedure

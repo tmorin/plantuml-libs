@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Altiumdesigner')
 
 ' renders the element
-Altiumdesigner('Altiumdesigner', 'Altiumdesigner', 'an optional tech label')
+Altiumdesigner('Altiumdesigner', 'Altiumdesigner', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Altiumdesigner')
 
 ' renders the element
-Altiumdesigner('Altiumdesigner', 'Altiumdesigner', 'an optional tech label')
+Altiumdesigner('Altiumdesigner', 'Altiumdesigner', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

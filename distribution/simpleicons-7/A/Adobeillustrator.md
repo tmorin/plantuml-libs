@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Adobeillustrator')
 
 ' renders the element
-Adobeillustrator('Adobeillustrator', 'Adobeillustrator', 'an optional tech label')
+Adobeillustrator('Adobeillustrator', 'Adobeillustrator', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Adobeillustrator')
 
 ' renders the element
-Adobeillustrator('Adobeillustrator', 'Adobeillustrator', 'an optional tech label')
+Adobeillustrator('Adobeillustrator', 'Adobeillustrator', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

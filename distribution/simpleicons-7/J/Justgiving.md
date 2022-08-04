@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Justgiving')
 
 ' renders the element
-Justgiving('Justgiving', 'Justgiving', 'an optional tech label')
+Justgiving('Justgiving', 'Justgiving', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Justgiving')
 
 ' renders the element
-Justgiving('Justgiving', 'Justgiving', 'an optional tech label')
+Justgiving('Justgiving', 'Justgiving', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

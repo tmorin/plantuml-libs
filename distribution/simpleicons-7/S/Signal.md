@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Signal')
 
 ' renders the element
-Signal('Signal', 'Signal', 'an optional tech label')
+Signal('Signal', 'Signal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Signal')
 
 ' renders the element
-Signal('Signal', 'Signal', 'an optional tech label')
+Signal('Signal', 'Signal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

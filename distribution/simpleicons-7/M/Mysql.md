@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mysql')
 
 ' renders the element
-Mysql('Mysql', 'Mysql', 'an optional tech label')
+Mysql('Mysql', 'Mysql', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mysql')
 
 ' renders the element
-Mysql('Mysql', 'Mysql', 'an optional tech label')
+Mysql('Mysql', 'Mysql', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

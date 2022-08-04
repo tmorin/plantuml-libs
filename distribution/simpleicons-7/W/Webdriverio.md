@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Webdriverio')
 
 ' renders the element
-Webdriverio('Webdriverio', 'Webdriverio', 'an optional tech label')
+Webdriverio('Webdriverio', 'Webdriverio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Webdriverio')
 
 ' renders the element
-Webdriverio('Webdriverio', 'Webdriverio', 'an optional tech label')
+Webdriverio('Webdriverio', 'Webdriverio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

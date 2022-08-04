@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gitee')
 
 ' renders the element
-Gitee('Gitee', 'Gitee', 'an optional tech label')
+Gitee('Gitee', 'Gitee', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gitee')
 
 ' renders the element
-Gitee('Gitee', 'Gitee', 'an optional tech label')
+Gitee('Gitee', 'Gitee', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

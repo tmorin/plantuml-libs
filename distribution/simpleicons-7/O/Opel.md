@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Opel')
 
 ' renders the element
-Opel('Opel', 'Opel', 'an optional tech label')
+Opel('Opel', 'Opel', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Opel')
 
 ' renders the element
-Opel('Opel', 'Opel', 'an optional tech label')
+Opel('Opel', 'Opel', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

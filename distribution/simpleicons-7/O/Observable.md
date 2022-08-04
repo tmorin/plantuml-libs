@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Observable')
 
 ' renders the element
-Observable('Observable', 'Observable', 'an optional tech label')
+Observable('Observable', 'Observable', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Observable')
 
 ' renders the element
-Observable('Observable', 'Observable', 'an optional tech label')
+Observable('Observable', 'Observable', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

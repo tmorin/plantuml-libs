@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Playstationvita')
 
 ' renders the element
-Playstationvita('Playstationvita', 'Playstationvita', 'an optional tech label')
+Playstationvita('Playstationvita', 'Playstationvita', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Playstationvita')
 
 ' renders the element
-Playstationvita('Playstationvita', 'Playstationvita', 'an optional tech label')
+Playstationvita('Playstationvita', 'Playstationvita', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

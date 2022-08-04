@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Haskell')
 
 ' renders the element
-Haskell('Haskell', 'Haskell', 'an optional tech label')
+Haskell('Haskell', 'Haskell', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Haskell')
 
 ' renders the element
-Haskell('Haskell', 'Haskell', 'an optional tech label')
+Haskell('Haskell', 'Haskell', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

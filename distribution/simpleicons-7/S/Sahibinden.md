@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sahibinden')
 
 ' renders the element
-Sahibinden('Sahibinden', 'Sahibinden', 'an optional tech label')
+Sahibinden('Sahibinden', 'Sahibinden', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sahibinden')
 
 ' renders the element
-Sahibinden('Sahibinden', 'Sahibinden', 'an optional tech label')
+Sahibinden('Sahibinden', 'Sahibinden', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

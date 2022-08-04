@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Q/Quasar')
 
 ' renders the element
-Quasar('Quasar', 'Quasar', 'an optional tech label')
+Quasar('Quasar', 'Quasar', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Q/Quasar')
 
 ' renders the element
-Quasar('Quasar', 'Quasar', 'an optional tech label')
+Quasar('Quasar', 'Quasar', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

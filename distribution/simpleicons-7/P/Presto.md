@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Presto')
 
 ' renders the element
-Presto('Presto', 'Presto', 'an optional tech label')
+Presto('Presto', 'Presto', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Presto')
 
 ' renders the element
-Presto('Presto', 'Presto', 'an optional tech label')
+Presto('Presto', 'Presto', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

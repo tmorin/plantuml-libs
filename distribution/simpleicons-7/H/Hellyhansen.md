@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hellyhansen')
 
 ' renders the element
-Hellyhansen('Hellyhansen', 'Hellyhansen', 'an optional tech label')
+Hellyhansen('Hellyhansen', 'Hellyhansen', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hellyhansen')
 
 ' renders the element
-Hellyhansen('Hellyhansen', 'Hellyhansen', 'an optional tech label')
+Hellyhansen('Hellyhansen', 'Hellyhansen', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

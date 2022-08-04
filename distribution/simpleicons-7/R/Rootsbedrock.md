@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Rootsbedrock')
 
 ' renders the element
-Rootsbedrock('Rootsbedrock', 'Rootsbedrock', 'an optional tech label')
+Rootsbedrock('Rootsbedrock', 'Rootsbedrock', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Rootsbedrock')
 
 ' renders the element
-Rootsbedrock('Rootsbedrock', 'Rootsbedrock', 'an optional tech label')
+Rootsbedrock('Rootsbedrock', 'Rootsbedrock', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

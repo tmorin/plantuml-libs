@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Scopus')
 
 ' renders the element
-Scopus('Scopus', 'Scopus', 'an optional tech label')
+Scopus('Scopus', 'Scopus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Scopus')
 
 ' renders the element
-Scopus('Scopus', 'Scopus', 'an optional tech label')
+Scopus('Scopus', 'Scopus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

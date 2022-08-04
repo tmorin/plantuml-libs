@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Editorconfig')
 
 ' renders the element
-Editorconfig('Editorconfig', 'Editorconfig', 'an optional tech label')
+Editorconfig('Editorconfig', 'Editorconfig', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Editorconfig')
 
 ' renders the element
-Editorconfig('Editorconfig', 'Editorconfig', 'an optional tech label')
+Editorconfig('Editorconfig', 'Editorconfig', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

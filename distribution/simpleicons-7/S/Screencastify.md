@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Screencastify')
 
 ' renders the element
-Screencastify('Screencastify', 'Screencastify', 'an optional tech label')
+Screencastify('Screencastify', 'Screencastify', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Screencastify')
 
 ' renders the element
-Screencastify('Screencastify', 'Screencastify', 'an optional tech label')
+Screencastify('Screencastify', 'Screencastify', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

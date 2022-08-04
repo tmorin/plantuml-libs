@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Convertio')
 
 ' renders the element
-Convertio('Convertio', 'Convertio', 'an optional tech label')
+Convertio('Convertio', 'Convertio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Convertio')
 
 ' renders the element
-Convertio('Convertio', 'Convertio', 'an optional tech label')
+Convertio('Convertio', 'Convertio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

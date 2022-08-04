@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Coinbase')
 
 ' renders the element
-Coinbase('Coinbase', 'Coinbase', 'an optional tech label')
+Coinbase('Coinbase', 'Coinbase', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Coinbase')
 
 ' renders the element
-Coinbase('Coinbase', 'Coinbase', 'an optional tech label')
+Coinbase('Coinbase', 'Coinbase', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

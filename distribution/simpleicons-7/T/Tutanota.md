@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tutanota')
 
 ' renders the element
-Tutanota('Tutanota', 'Tutanota', 'an optional tech label')
+Tutanota('Tutanota', 'Tutanota', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tutanota')
 
 ' renders the element
-Tutanota('Tutanota', 'Tutanota', 'an optional tech label')
+Tutanota('Tutanota', 'Tutanota', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

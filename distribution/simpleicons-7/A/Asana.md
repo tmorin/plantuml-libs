@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Asana')
 
 ' renders the element
-Asana('Asana', 'Asana', 'an optional tech label')
+Asana('Asana', 'Asana', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Asana')
 
 ' renders the element
-Asana('Asana', 'Asana', 'an optional tech label')
+Asana('Asana', 'Asana', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

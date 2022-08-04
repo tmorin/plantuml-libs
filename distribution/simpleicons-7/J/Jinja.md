@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Jinja')
 
 ' renders the element
-Jinja('Jinja', 'Jinja', 'an optional tech label')
+Jinja('Jinja', 'Jinja', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Jinja')
 
 ' renders the element
-Jinja('Jinja', 'Jinja', 'an optional tech label')
+Jinja('Jinja', 'Jinja', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

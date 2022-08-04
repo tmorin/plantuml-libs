@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sfml')
 
 ' renders the element
-Sfml('Sfml', 'Sfml', 'an optional tech label')
+Sfml('Sfml', 'Sfml', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sfml')
 
 ' renders the element
-Sfml('Sfml', 'Sfml', 'an optional tech label')
+Sfml('Sfml', 'Sfml', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

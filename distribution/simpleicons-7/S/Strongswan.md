@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Strongswan')
 
 ' renders the element
-Strongswan('Strongswan', 'Strongswan', 'an optional tech label')
+Strongswan('Strongswan', 'Strongswan', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Strongswan')
 
 ' renders the element
-Strongswan('Strongswan', 'Strongswan', 'an optional tech label')
+Strongswan('Strongswan', 'Strongswan', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

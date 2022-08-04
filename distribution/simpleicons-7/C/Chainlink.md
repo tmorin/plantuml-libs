@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Chainlink')
 
 ' renders the element
-Chainlink('Chainlink', 'Chainlink', 'an optional tech label')
+Chainlink('Chainlink', 'Chainlink', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Chainlink')
 
 ' renders the element
-Chainlink('Chainlink', 'Chainlink', 'an optional tech label')
+Chainlink('Chainlink', 'Chainlink', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

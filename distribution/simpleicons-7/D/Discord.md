@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Discord')
 
 ' renders the element
-Discord('Discord', 'Discord', 'an optional tech label')
+Discord('Discord', 'Discord', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Discord')
 
 ' renders the element
-Discord('Discord', 'Discord', 'an optional tech label')
+Discord('Discord', 'Discord', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

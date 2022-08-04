@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Trakt')
 
 ' renders the element
-Trakt('Trakt', 'Trakt', 'an optional tech label')
+Trakt('Trakt', 'Trakt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Trakt')
 
 ' renders the element
-Trakt('Trakt', 'Trakt', 'an optional tech label')
+Trakt('Trakt', 'Trakt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

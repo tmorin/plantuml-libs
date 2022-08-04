@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Speakerdeck')
 
 ' renders the element
-Speakerdeck('Speakerdeck', 'Speakerdeck', 'an optional tech label')
+Speakerdeck('Speakerdeck', 'Speakerdeck', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Speakerdeck')
 
 ' renders the element
-Speakerdeck('Speakerdeck', 'Speakerdeck', 'an optional tech label')
+Speakerdeck('Speakerdeck', 'Speakerdeck', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

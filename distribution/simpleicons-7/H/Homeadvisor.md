@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Homeadvisor')
 
 ' renders the element
-Homeadvisor('Homeadvisor', 'Homeadvisor', 'an optional tech label')
+Homeadvisor('Homeadvisor', 'Homeadvisor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Homeadvisor')
 
 ' renders the element
-Homeadvisor('Homeadvisor', 'Homeadvisor', 'an optional tech label')
+Homeadvisor('Homeadvisor', 'Homeadvisor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

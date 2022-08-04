@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Reebok')
 
 ' renders the element
-Reebok('Reebok', 'Reebok', 'an optional tech label')
+Reebok('Reebok', 'Reebok', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Reebok')
 
 ' renders the element
-Reebok('Reebok', 'Reebok', 'an optional tech label')
+Reebok('Reebok', 'Reebok', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

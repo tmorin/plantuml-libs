@@ -8,6 +8,6 @@ sprite $SitepointMd [16x16/16z] PSg55O0m40HHt67whnQBd6tqxxicfMzCHj1SW5wu0frm0rhX
 
 sprite $SitepointLg [20x20/16z] ZP254S0W40J92CvV_zrcS7TT5dkMas1JCg0HMM243W1wH4y82MbqY3poNSDie_lq-R5Exq5hkXrK8xJDOlg87vh-eRH-kzr-PmpD64AQB2-MH_m
 
-!procedure Sitepoint($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/S/Sitepoint', $name, $tech)
+!procedure Sitepoint($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/S/Sitepoint', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sublimetext')
 
 ' renders the element
-Sublimetext('Sublimetext', 'Sublimetext', 'an optional tech label')
+Sublimetext('Sublimetext', 'Sublimetext', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sublimetext')
 
 ' renders the element
-Sublimetext('Sublimetext', 'Sublimetext', 'an optional tech label')
+Sublimetext('Sublimetext', 'Sublimetext', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

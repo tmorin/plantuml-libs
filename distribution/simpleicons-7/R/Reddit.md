@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Reddit')
 
 ' renders the element
-Reddit('Reddit', 'Reddit', 'an optional tech label')
+Reddit('Reddit', 'Reddit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Reddit')
 
 ' renders the element
-Reddit('Reddit', 'Reddit', 'an optional tech label')
+Reddit('Reddit', 'Reddit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

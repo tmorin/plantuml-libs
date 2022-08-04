@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fastapi')
 
 ' renders the element
-Fastapi('Fastapi', 'Fastapi', 'an optional tech label')
+Fastapi('Fastapi', 'Fastapi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fastapi')
 
 ' renders the element
-Fastapi('Fastapi', 'Fastapi', 'an optional tech label')
+Fastapi('Fastapi', 'Fastapi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

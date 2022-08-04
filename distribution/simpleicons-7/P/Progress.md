@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Progress')
 
 ' renders the element
-Progress('Progress', 'Progress', 'an optional tech label')
+Progress('Progress', 'Progress', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Progress')
 
 ' renders the element
-Progress('Progress', 'Progress', 'an optional tech label')
+Progress('Progress', 'Progress', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

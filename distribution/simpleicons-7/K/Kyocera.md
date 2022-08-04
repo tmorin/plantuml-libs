@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Kyocera')
 
 ' renders the element
-Kyocera('Kyocera', 'Kyocera', 'an optional tech label')
+Kyocera('Kyocera', 'Kyocera', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Kyocera')
 
 ' renders the element
-Kyocera('Kyocera', 'Kyocera', 'an optional tech label')
+Kyocera('Kyocera', 'Kyocera', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

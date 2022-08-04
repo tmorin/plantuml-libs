@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Devrant')
 
 ' renders the element
-Devrant('Devrant', 'Devrant', 'an optional tech label')
+Devrant('Devrant', 'Devrant', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Devrant')
 
 ' renders the element
-Devrant('Devrant', 'Devrant', 'an optional tech label')
+Devrant('Devrant', 'Devrant', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

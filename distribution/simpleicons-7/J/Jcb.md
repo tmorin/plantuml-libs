@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Jcb')
 
 ' renders the element
-Jcb('Jcb', 'Jcb', 'an optional tech label')
+Jcb('Jcb', 'Jcb', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Jcb')
 
 ' renders the element
-Jcb('Jcb', 'Jcb', 'an optional tech label')
+Jcb('Jcb', 'Jcb', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

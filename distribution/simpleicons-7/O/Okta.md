@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Okta')
 
 ' renders the element
-Okta('Okta', 'Okta', 'an optional tech label')
+Okta('Okta', 'Okta', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Okta')
 
 ' renders the element
-Okta('Okta', 'Okta', 'an optional tech label')
+Okta('Okta', 'Okta', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

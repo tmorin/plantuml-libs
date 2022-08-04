@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Salesforce')
 
 ' renders the element
-Salesforce('Salesforce', 'Salesforce', 'an optional tech label')
+Salesforce('Salesforce', 'Salesforce', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Salesforce')
 
 ' renders the element
-Salesforce('Salesforce', 'Salesforce', 'an optional tech label')
+Salesforce('Salesforce', 'Salesforce', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

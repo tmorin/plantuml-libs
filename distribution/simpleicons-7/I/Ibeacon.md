@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Ibeacon')
 
 ' renders the element
-Ibeacon('Ibeacon', 'Ibeacon', 'an optional tech label')
+Ibeacon('Ibeacon', 'Ibeacon', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Ibeacon')
 
 ' renders the element
-Ibeacon('Ibeacon', 'Ibeacon', 'an optional tech label')
+Ibeacon('Ibeacon', 'Ibeacon', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Awsfargate')
 
 ' renders the element
-Awsfargate('Awsfargate', 'Awsfargate', 'an optional tech label')
+Awsfargate('Awsfargate', 'Awsfargate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Awsfargate')
 
 ' renders the element
-Awsfargate('Awsfargate', 'Awsfargate', 'an optional tech label')
+Awsfargate('Awsfargate', 'Awsfargate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

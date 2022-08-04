@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lifx')
 
 ' renders the element
-Lifx('Lifx', 'Lifx', 'an optional tech label')
+Lifx('Lifx', 'Lifx', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lifx')
 
 ' renders the element
-Lifx('Lifx', 'Lifx', 'an optional tech label')
+Lifx('Lifx', 'Lifx', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

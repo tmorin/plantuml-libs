@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Giphy')
 
 ' renders the element
-Giphy('Giphy', 'Giphy', 'an optional tech label')
+Giphy('Giphy', 'Giphy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Giphy')
 
 ' renders the element
-Giphy('Giphy', 'Giphy', 'an optional tech label')
+Giphy('Giphy', 'Giphy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

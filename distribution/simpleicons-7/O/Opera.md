@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Opera')
 
 ' renders the element
-Opera('Opera', 'Opera', 'an optional tech label')
+Opera('Opera', 'Opera', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Opera')
 
 ' renders the element
-Opera('Opera', 'Opera', 'an optional tech label')
+Opera('Opera', 'Opera', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

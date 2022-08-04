@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Surveymonkey')
 
 ' renders the element
-Surveymonkey('Surveymonkey', 'Surveymonkey', 'an optional tech label')
+Surveymonkey('Surveymonkey', 'Surveymonkey', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Surveymonkey')
 
 ' renders the element
-Surveymonkey('Surveymonkey', 'Surveymonkey', 'an optional tech label')
+Surveymonkey('Surveymonkey', 'Surveymonkey', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

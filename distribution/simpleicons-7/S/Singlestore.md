@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Singlestore')
 
 ' renders the element
-Singlestore('Singlestore', 'Singlestore', 'an optional tech label')
+Singlestore('Singlestore', 'Singlestore', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Singlestore')
 
 ' renders the element
-Singlestore('Singlestore', 'Singlestore', 'an optional tech label')
+Singlestore('Singlestore', 'Singlestore', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

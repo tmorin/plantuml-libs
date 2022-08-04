@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Buefy')
 
 ' renders the element
-Buefy('Buefy', 'Buefy', 'an optional tech label')
+Buefy('Buefy', 'Buefy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Buefy')
 
 ' renders the element
-Buefy('Buefy', 'Buefy', 'an optional tech label')
+Buefy('Buefy', 'Buefy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

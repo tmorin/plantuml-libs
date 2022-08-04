@@ -8,6 +8,6 @@ sprite $FordMd [16x16/16z] jKt50GD02ECCX-m_RLqMQ27w2ltXnXPXaVLicgtAqO4oeP50SWXkv
 
 sprite $FordLg [20x20/16z] nSV50OHG40FGi8pcI_gl5Zbj2RpHu6EdkVt-qPBat7jDikC0a2R9fNo27ei8ljTegLT8ggr7osQC4svy4qeg7WkzCmSepG9cQElfAQsXcOxNBxBvwh03txa1
 
-!procedure Ford($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/F/Ford', $name, $tech)
+!procedure Ford($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/F/Ford', $name, $tech, $desc)
 !endprocedure

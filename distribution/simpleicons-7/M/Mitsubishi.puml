@@ -8,6 +8,6 @@ sprite $MitsubishiMd [16x16/16z] VOs30S1054DJks__QMiSlvqe8wNV5lWz36xR0FuQ5gDlyUy
 
 sprite $MitsubishiLg [20x20/16z] bO_50O0m54Dng6R_QUkU4mzgtxFz1cmok5RJ0L0W0c8sVOXm6F1DjZF7SU3DJIpDfx1ln1JssSIRZtcEVEeiD57dYMLt9CwSaBqM4JDKkU-Q494raF4
 
-!procedure Mitsubishi($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/M/Mitsubishi', $name, $tech)
+!procedure Mitsubishi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/M/Mitsubishi', $name, $tech, $desc)
 !endprocedure

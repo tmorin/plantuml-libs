@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Adobelightroomclassic')
 
 ' renders the element
-Adobelightroomclassic('Adobelightroomclassic', 'Adobelightroomclassic', 'an optional tech label')
+Adobelightroomclassic('Adobelightroomclassic', 'Adobelightroomclassic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Adobelightroomclassic')
 
 ' renders the element
-Adobelightroomclassic('Adobelightroomclassic', 'Adobelightroomclassic', 'an optional tech label')
+Adobelightroomclassic('Adobelightroomclassic', 'Adobelightroomclassic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

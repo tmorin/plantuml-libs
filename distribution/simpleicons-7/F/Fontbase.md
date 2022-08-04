@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fontbase')
 
 ' renders the element
-Fontbase('Fontbase', 'Fontbase', 'an optional tech label')
+Fontbase('Fontbase', 'Fontbase', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fontbase')
 
 ' renders the element
-Fontbase('Fontbase', 'Fontbase', 'an optional tech label')
+Fontbase('Fontbase', 'Fontbase', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

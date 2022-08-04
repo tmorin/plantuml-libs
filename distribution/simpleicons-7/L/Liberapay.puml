@@ -8,6 +8,6 @@ sprite $LiberapayMd [16x16/16z] XSp50O004CJ0u4xwhnPtdTVfqdYKZks_W7DFSEahwtAFAX0W
 
 sprite $LiberapayLg [20x20/16z] bS-r0GGX50N0MNVelzgJv6HVXCEWtrRlQNXHKof7qA4F6wrXN6dg0DU_CU9Bi_NDbRzjkpwijzT3zsixv_ggN-lquFYFZGp47aPjJaDIUG8
 
-!procedure Liberapay($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/L/Liberapay', $name, $tech)
+!procedure Liberapay($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/L/Liberapay', $name, $tech, $desc)
 !endprocedure

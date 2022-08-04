@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hoppscotch')
 
 ' renders the element
-Hoppscotch('Hoppscotch', 'Hoppscotch', 'an optional tech label')
+Hoppscotch('Hoppscotch', 'Hoppscotch', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hoppscotch')
 
 ' renders the element
-Hoppscotch('Hoppscotch', 'Hoppscotch', 'an optional tech label')
+Hoppscotch('Hoppscotch', 'Hoppscotch', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

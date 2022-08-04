@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Steam')
 
 ' renders the element
-Steam('Steam', 'Steam', 'an optional tech label')
+Steam('Steam', 'Steam', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Steam')
 
 ' renders the element
-Steam('Steam', 'Steam', 'an optional tech label')
+Steam('Steam', 'Steam', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

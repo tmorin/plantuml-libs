@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Weasyl')
 
 ' renders the element
-Weasyl('Weasyl', 'Weasyl', 'an optional tech label')
+Weasyl('Weasyl', 'Weasyl', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Weasyl')
 
 ' renders the element
-Weasyl('Weasyl', 'Weasyl', 'an optional tech label')
+Weasyl('Weasyl', 'Weasyl', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

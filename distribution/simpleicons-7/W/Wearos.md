@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Wearos')
 
 ' renders the element
-Wearos('Wearos', 'Wearos', 'an optional tech label')
+Wearos('Wearos', 'Wearos', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Wearos')
 
 ' renders the element
-Wearos('Wearos', 'Wearos', 'an optional tech label')
+Wearos('Wearos', 'Wearos', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

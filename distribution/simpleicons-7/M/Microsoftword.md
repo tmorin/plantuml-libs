@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Microsoftword')
 
 ' renders the element
-Microsoftword('Microsoftword', 'Microsoftword', 'an optional tech label')
+Microsoftword('Microsoftword', 'Microsoftword', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Microsoftword')
 
 ' renders the element
-Microsoftword('Microsoftword', 'Microsoftword', 'an optional tech label')
+Microsoftword('Microsoftword', 'Microsoftword', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Deutschebank')
 
 ' renders the element
-Deutschebank('Deutschebank', 'Deutschebank', 'an optional tech label')
+Deutschebank('Deutschebank', 'Deutschebank', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Deutschebank')
 
 ' renders the element
-Deutschebank('Deutschebank', 'Deutschebank', 'an optional tech label')
+Deutschebank('Deutschebank', 'Deutschebank', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

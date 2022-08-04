@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fitbit')
 
 ' renders the element
-Fitbit('Fitbit', 'Fitbit', 'an optional tech label')
+Fitbit('Fitbit', 'Fitbit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fitbit')
 
 ' renders the element
-Fitbit('Fitbit', 'Fitbit', 'an optional tech label')
+Fitbit('Fitbit', 'Fitbit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

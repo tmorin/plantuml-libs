@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Appannie')
 
 ' renders the element
-Appannie('Appannie', 'Appannie', 'an optional tech label')
+Appannie('Appannie', 'Appannie', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Appannie')
 
 ' renders the element
-Appannie('Appannie', 'Appannie', 'an optional tech label')
+Appannie('Appannie', 'Appannie', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

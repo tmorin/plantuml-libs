@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tata')
 
 ' renders the element
-Tata('Tata', 'Tata', 'an optional tech label')
+Tata('Tata', 'Tata', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tata')
 
 ' renders the element
-Tata('Tata', 'Tata', 'an optional tech label')
+Tata('Tata', 'Tata', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

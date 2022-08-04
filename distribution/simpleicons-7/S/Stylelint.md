@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Stylelint')
 
 ' renders the element
-Stylelint('Stylelint', 'Stylelint', 'an optional tech label')
+Stylelint('Stylelint', 'Stylelint', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Stylelint')
 
 ' renders the element
-Stylelint('Stylelint', 'Stylelint', 'an optional tech label')
+Stylelint('Stylelint', 'Stylelint', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Carto')
 
 ' renders the element
-Carto('Carto', 'Carto', 'an optional tech label')
+Carto('Carto', 'Carto', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Carto')
 
 ' renders the element
-Carto('Carto', 'Carto', 'an optional tech label')
+Carto('Carto', 'Carto', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

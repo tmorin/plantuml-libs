@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Piwigo')
 
 ' renders the element
-Piwigo('Piwigo', 'Piwigo', 'an optional tech label')
+Piwigo('Piwigo', 'Piwigo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Piwigo')
 
 ' renders the element
-Piwigo('Piwigo', 'Piwigo', 'an optional tech label')
+Piwigo('Piwigo', 'Piwigo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

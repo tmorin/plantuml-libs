@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Playstation5')
 
 ' renders the element
-Playstation5('Playstation5', 'Playstation5', 'an optional tech label')
+Playstation5('Playstation5', 'Playstation5', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Playstation5')
 
 ' renders the element
-Playstation5('Playstation5', 'Playstation5', 'an optional tech label')
+Playstation5('Playstation5', 'Playstation5', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

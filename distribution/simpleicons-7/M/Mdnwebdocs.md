@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mdnwebdocs')
 
 ' renders the element
-Mdnwebdocs('Mdnwebdocs', 'Mdnwebdocs', 'an optional tech label')
+Mdnwebdocs('Mdnwebdocs', 'Mdnwebdocs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mdnwebdocs')
 
 ' renders the element
-Mdnwebdocs('Mdnwebdocs', 'Mdnwebdocs', 'an optional tech label')
+Mdnwebdocs('Mdnwebdocs', 'Mdnwebdocs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

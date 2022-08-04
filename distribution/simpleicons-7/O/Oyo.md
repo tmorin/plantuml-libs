@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Oyo')
 
 ' renders the element
-Oyo('Oyo', 'Oyo', 'an optional tech label')
+Oyo('Oyo', 'Oyo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Oyo')
 
 ' renders the element
-Oyo('Oyo', 'Oyo', 'an optional tech label')
+Oyo('Oyo', 'Oyo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

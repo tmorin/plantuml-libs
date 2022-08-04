@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Circleci')
 
 ' renders the element
-Circleci('Circleci', 'Circleci', 'an optional tech label')
+Circleci('Circleci', 'Circleci', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Circleci')
 
 ' renders the element
-Circleci('Circleci', 'Circleci', 'an optional tech label')
+Circleci('Circleci', 'Circleci', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

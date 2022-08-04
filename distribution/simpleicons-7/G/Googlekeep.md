@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Googlekeep')
 
 ' renders the element
-Googlekeep('Googlekeep', 'Googlekeep', 'an optional tech label')
+Googlekeep('Googlekeep', 'Googlekeep', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Googlekeep')
 
 ' renders the element
-Googlekeep('Googlekeep', 'Googlekeep', 'an optional tech label')
+Googlekeep('Googlekeep', 'Googlekeep', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

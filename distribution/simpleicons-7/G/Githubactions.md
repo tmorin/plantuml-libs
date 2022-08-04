@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Githubactions')
 
 ' renders the element
-Githubactions('Githubactions', 'Githubactions', 'an optional tech label')
+Githubactions('Githubactions', 'Githubactions', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Githubactions')
 
 ' renders the element
-Githubactions('Githubactions', 'Githubactions', 'an optional tech label')
+Githubactions('Githubactions', 'Githubactions', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

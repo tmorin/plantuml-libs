@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tasmota')
 
 ' renders the element
-Tasmota('Tasmota', 'Tasmota', 'an optional tech label')
+Tasmota('Tasmota', 'Tasmota', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tasmota')
 
 ' renders the element
-Tasmota('Tasmota', 'Tasmota', 'an optional tech label')
+Tasmota('Tasmota', 'Tasmota', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bosch')
 
 ' renders the element
-Bosch('Bosch', 'Bosch', 'an optional tech label')
+Bosch('Bosch', 'Bosch', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bosch')
 
 ' renders the element
-Bosch('Bosch', 'Bosch', 'an optional tech label')
+Bosch('Bosch', 'Bosch', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

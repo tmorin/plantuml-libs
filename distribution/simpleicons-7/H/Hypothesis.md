@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hypothesis')
 
 ' renders the element
-Hypothesis('Hypothesis', 'Hypothesis', 'an optional tech label')
+Hypothesis('Hypothesis', 'Hypothesis', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hypothesis')
 
 ' renders the element
-Hypothesis('Hypothesis', 'Hypothesis', 'an optional tech label')
+Hypothesis('Hypothesis', 'Hypothesis', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Vectorworks')
 
 ' renders the element
-Vectorworks('Vectorworks', 'Vectorworks', 'an optional tech label')
+Vectorworks('Vectorworks', 'Vectorworks', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Vectorworks')
 
 ' renders the element
-Vectorworks('Vectorworks', 'Vectorworks', 'an optional tech label')
+Vectorworks('Vectorworks', 'Vectorworks', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

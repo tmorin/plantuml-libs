@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Commitlint')
 
 ' renders the element
-Commitlint('Commitlint', 'Commitlint', 'an optional tech label')
+Commitlint('Commitlint', 'Commitlint', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Commitlint')
 
 ' renders the element
-Commitlint('Commitlint', 'Commitlint', 'an optional tech label')
+Commitlint('Commitlint', 'Commitlint', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

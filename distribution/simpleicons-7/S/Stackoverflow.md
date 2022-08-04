@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Stackoverflow')
 
 ' renders the element
-Stackoverflow('Stackoverflow', 'Stackoverflow', 'an optional tech label')
+Stackoverflow('Stackoverflow', 'Stackoverflow', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Stackoverflow')
 
 ' renders the element
-Stackoverflow('Stackoverflow', 'Stackoverflow', 'an optional tech label')
+Stackoverflow('Stackoverflow', 'Stackoverflow', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

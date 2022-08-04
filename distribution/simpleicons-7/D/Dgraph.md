@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Dgraph')
 
 ' renders the element
-Dgraph('Dgraph', 'Dgraph', 'an optional tech label')
+Dgraph('Dgraph', 'Dgraph', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Dgraph')
 
 ' renders the element
-Dgraph('Dgraph', 'Dgraph', 'an optional tech label')
+Dgraph('Dgraph', 'Dgraph', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

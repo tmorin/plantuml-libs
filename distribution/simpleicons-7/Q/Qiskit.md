@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Q/Qiskit')
 
 ' renders the element
-Qiskit('Qiskit', 'Qiskit', 'an optional tech label')
+Qiskit('Qiskit', 'Qiskit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Q/Qiskit')
 
 ' renders the element
-Qiskit('Qiskit', 'Qiskit', 'an optional tech label')
+Qiskit('Qiskit', 'Qiskit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

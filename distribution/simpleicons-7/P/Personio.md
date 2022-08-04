@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Personio')
 
 ' renders the element
-Personio('Personio', 'Personio', 'an optional tech label')
+Personio('Personio', 'Personio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Personio')
 
 ' renders the element
-Personio('Personio', 'Personio', 'an optional tech label')
+Personio('Personio', 'Personio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

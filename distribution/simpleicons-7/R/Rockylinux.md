@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Rockylinux')
 
 ' renders the element
-Rockylinux('Rockylinux', 'Rockylinux', 'an optional tech label')
+Rockylinux('Rockylinux', 'Rockylinux', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Rockylinux')
 
 ' renders the element
-Rockylinux('Rockylinux', 'Rockylinux', 'an optional tech label')
+Rockylinux('Rockylinux', 'Rockylinux', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

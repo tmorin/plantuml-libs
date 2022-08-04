@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Reduxsaga')
 
 ' renders the element
-Reduxsaga('Reduxsaga', 'Reduxsaga', 'an optional tech label')
+Reduxsaga('Reduxsaga', 'Reduxsaga', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Reduxsaga')
 
 ' renders the element
-Reduxsaga('Reduxsaga', 'Reduxsaga', 'an optional tech label')
+Reduxsaga('Reduxsaga', 'Reduxsaga', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Openstack')
 
 ' renders the element
-Openstack('Openstack', 'Openstack', 'an optional tech label')
+Openstack('Openstack', 'Openstack', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Openstack')
 
 ' renders the element
-Openstack('Openstack', 'Openstack', 'an optional tech label')
+Openstack('Openstack', 'Openstack', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

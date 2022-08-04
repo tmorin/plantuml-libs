@@ -8,6 +8,6 @@ sprite $RenderMd [16x16/16z] VO_50K0n2CLUxLGW-s_xtILL73HYZ1I10es7imnO6qbgJRMDiiu
 
 sprite $RenderLg [20x20/16z] dL3L0KD130B-Jjb_slQvEwVn13HGTek8P4FD0QgzqT7UwHglX3MqKwbDltFo4nt8lGxmrtoCyL4-flIq1WuW2UWFmVxZdZ9YmT-HxWy
 
-!procedure Render($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/R/Render', $name, $tech)
+!procedure Render($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/R/Render', $name, $tech, $desc)
 !endprocedure

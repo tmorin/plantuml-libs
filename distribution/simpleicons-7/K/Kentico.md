@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Kentico')
 
 ' renders the element
-Kentico('Kentico', 'Kentico', 'an optional tech label')
+Kentico('Kentico', 'Kentico', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Kentico')
 
 ' renders the element
-Kentico('Kentico', 'Kentico', 'an optional tech label')
+Kentico('Kentico', 'Kentico', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

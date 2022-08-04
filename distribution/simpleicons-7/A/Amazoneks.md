@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Amazoneks')
 
 ' renders the element
-Amazoneks('Amazoneks', 'Amazoneks', 'an optional tech label')
+Amazoneks('Amazoneks', 'Amazoneks', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Amazoneks')
 
 ' renders the element
-Amazoneks('Amazoneks', 'Amazoneks', 'an optional tech label')
+Amazoneks('Amazoneks', 'Amazoneks', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

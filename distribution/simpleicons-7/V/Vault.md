@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Vault')
 
 ' renders the element
-Vault('Vault', 'Vault', 'an optional tech label')
+Vault('Vault', 'Vault', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Vault')
 
 ' renders the element
-Vault('Vault', 'Vault', 'an optional tech label')
+Vault('Vault', 'Vault', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

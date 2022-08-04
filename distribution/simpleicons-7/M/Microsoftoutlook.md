@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Microsoftoutlook')
 
 ' renders the element
-Microsoftoutlook('Microsoftoutlook', 'Microsoftoutlook', 'an optional tech label')
+Microsoftoutlook('Microsoftoutlook', 'Microsoftoutlook', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Microsoftoutlook')
 
 ' renders the element
-Microsoftoutlook('Microsoftoutlook', 'Microsoftoutlook', 'an optional tech label')
+Microsoftoutlook('Microsoftoutlook', 'Microsoftoutlook', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Stubhub')
 
 ' renders the element
-Stubhub('Stubhub', 'Stubhub', 'an optional tech label')
+Stubhub('Stubhub', 'Stubhub', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Stubhub')
 
 ' renders the element
-Stubhub('Stubhub', 'Stubhub', 'an optional tech label')
+Stubhub('Stubhub', 'Stubhub', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

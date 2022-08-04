@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Alitalia')
 
 ' renders the element
-Alitalia('Alitalia', 'Alitalia', 'an optional tech label')
+Alitalia('Alitalia', 'Alitalia', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Alitalia')
 
 ' renders the element
-Alitalia('Alitalia', 'Alitalia', 'an optional tech label')
+Alitalia('Alitalia', 'Alitalia', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

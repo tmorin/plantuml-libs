@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pycharm')
 
 ' renders the element
-Pycharm('Pycharm', 'Pycharm', 'an optional tech label')
+Pycharm('Pycharm', 'Pycharm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pycharm')
 
 ' renders the element
-Pycharm('Pycharm', 'Pycharm', 'an optional tech label')
+Pycharm('Pycharm', 'Pycharm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

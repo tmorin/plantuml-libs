@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Z/Zabka')
 
 ' renders the element
-Zabka('Zabka', 'Zabka', 'an optional tech label')
+Zabka('Zabka', 'Zabka', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Z/Zabka')
 
 ' renders the element
-Zabka('Zabka', 'Zabka', 'an optional tech label')
+Zabka('Zabka', 'Zabka', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

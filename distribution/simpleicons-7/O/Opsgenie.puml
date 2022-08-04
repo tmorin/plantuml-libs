@@ -8,6 +8,6 @@ sprite $OpsgenieMd [16x16/16z] TSvL0e0m30FGkQ-z_sdHq7mHcBovUpEqEYRg7LhVVAomXpiSk
 
 sprite $OpsgenieLg [20x20/16z] RO-53S10203VNVQVjewbN8mSRZxisDL8vhuHTdzaKdO3v2ewgpY7BYkzHdDHKTtVPhe1EnBEdb1ANUM91hwrSIWhN64_DFwPN9sv0kfVaRI6aR2AOTVk49y
 
-!procedure Opsgenie($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/O/Opsgenie', $name, $tech)
+!procedure Opsgenie($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/O/Opsgenie', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gnubash')
 
 ' renders the element
-Gnubash('Gnubash', 'Gnubash', 'an optional tech label')
+Gnubash('Gnubash', 'Gnubash', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gnubash')
 
 ' renders the element
-Gnubash('Gnubash', 'Gnubash', 'an optional tech label')
+Gnubash('Gnubash', 'Gnubash', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

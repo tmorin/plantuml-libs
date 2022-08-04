@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Webpack')
 
 ' renders the element
-Webpack('Webpack', 'Webpack', 'an optional tech label')
+Webpack('Webpack', 'Webpack', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Webpack')
 
 ' renders the element
-Webpack('Webpack', 'Webpack', 'an optional tech label')
+Webpack('Webpack', 'Webpack', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

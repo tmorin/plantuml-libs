@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Nx')
 
 ' renders the element
-Nx('Nx', 'Nx', 'an optional tech label')
+Nx('Nx', 'Nx', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Nx')
 
 ' renders the element
-Nx('Nx', 'Nx', 'an optional tech label')
+Nx('Nx', 'Nx', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,6 +8,6 @@ sprite $SplunkMd [16x16/16z] lST50S0m542nLsu_-bSx4B7b5lwGl4e1PhSX6QomqkOff9FlfJI
 
 sprite $SplunkLg [20x20/16z] pOo50S0W3C22K_J_Q-U-1qXT6OvyHA-uw4UKhHSybTgDrQ6hBY4YbgA4llKQNRA64Z95RAMABzIeAdfxmX_58Cm
 
-!procedure Splunk($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/S/Splunk', $name, $tech)
+!procedure Splunk($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/S/Splunk', $name, $tech, $desc)
 !endprocedure

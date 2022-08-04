@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Icinga')
 
 ' renders the element
-Icinga('Icinga', 'Icinga', 'an optional tech label')
+Icinga('Icinga', 'Icinga', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Icinga')
 
 ' renders the element
-Icinga('Icinga', 'Icinga', 'an optional tech label')
+Icinga('Icinga', 'Icinga', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

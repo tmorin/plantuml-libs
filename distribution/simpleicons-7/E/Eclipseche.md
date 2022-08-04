@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Eclipseche')
 
 ' renders the element
-Eclipseche('Eclipseche', 'Eclipseche', 'an optional tech label')
+Eclipseche('Eclipseche', 'Eclipseche', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Eclipseche')
 
 ' renders the element
-Eclipseche('Eclipseche', 'Eclipseche', 'an optional tech label')
+Eclipseche('Eclipseche', 'Eclipseche', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

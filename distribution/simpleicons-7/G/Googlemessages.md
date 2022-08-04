@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Googlemessages')
 
 ' renders the element
-Googlemessages('Googlemessages', 'Googlemessages', 'an optional tech label')
+Googlemessages('Googlemessages', 'Googlemessages', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Googlemessages')
 
 ' renders the element
-Googlemessages('Googlemessages', 'Googlemessages', 'an optional tech label')
+Googlemessages('Googlemessages', 'Googlemessages', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

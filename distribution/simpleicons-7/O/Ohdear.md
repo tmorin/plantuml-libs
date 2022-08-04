@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Ohdear')
 
 ' renders the element
-Ohdear('Ohdear', 'Ohdear', 'an optional tech label')
+Ohdear('Ohdear', 'Ohdear', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Ohdear')
 
 ' renders the element
-Ohdear('Ohdear', 'Ohdear', 'an optional tech label')
+Ohdear('Ohdear', 'Ohdear', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Platzi')
 
 ' renders the element
-Platzi('Platzi', 'Platzi', 'an optional tech label')
+Platzi('Platzi', 'Platzi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Platzi')
 
 ' renders the element
-Platzi('Platzi', 'Platzi', 'an optional tech label')
+Platzi('Platzi', 'Platzi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

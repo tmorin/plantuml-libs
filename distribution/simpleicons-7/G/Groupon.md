@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Groupon')
 
 ' renders the element
-Groupon('Groupon', 'Groupon', 'an optional tech label')
+Groupon('Groupon', 'Groupon', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Groupon')
 
 ' renders the element
-Groupon('Groupon', 'Groupon', 'an optional tech label')
+Groupon('Groupon', 'Groupon', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

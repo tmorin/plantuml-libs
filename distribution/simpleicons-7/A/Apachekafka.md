@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Apachekafka')
 
 ' renders the element
-Apachekafka('Apachekafka', 'Apachekafka', 'an optional tech label')
+Apachekafka('Apachekafka', 'Apachekafka', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Apachekafka')
 
 ' renders the element
-Apachekafka('Apachekafka', 'Apachekafka', 'an optional tech label')
+Apachekafka('Apachekafka', 'Apachekafka', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

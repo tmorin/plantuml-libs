@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Itchdotio')
 
 ' renders the element
-Itchdotio('Itchdotio', 'Itchdotio', 'an optional tech label')
+Itchdotio('Itchdotio', 'Itchdotio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Itchdotio')
 
 ' renders the element
-Itchdotio('Itchdotio', 'Itchdotio', 'an optional tech label')
+Itchdotio('Itchdotio', 'Itchdotio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

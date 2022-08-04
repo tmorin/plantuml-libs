@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fedora')
 
 ' renders the element
-Fedora('Fedora', 'Fedora', 'an optional tech label')
+Fedora('Fedora', 'Fedora', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fedora')
 
 ' renders the element
-Fedora('Fedora', 'Fedora', 'an optional tech label')
+Fedora('Fedora', 'Fedora', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Discover')
 
 ' renders the element
-Discover('Discover', 'Discover', 'an optional tech label')
+Discover('Discover', 'Discover', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Discover')
 
 ' renders the element
-Discover('Discover', 'Discover', 'an optional tech label')
+Discover('Discover', 'Discover', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

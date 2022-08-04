@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Storybook')
 
 ' renders the element
-Storybook('Storybook', 'Storybook', 'an optional tech label')
+Storybook('Storybook', 'Storybook', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Storybook')
 
 ' renders the element
-Storybook('Storybook', 'Storybook', 'an optional tech label')
+Storybook('Storybook', 'Storybook', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

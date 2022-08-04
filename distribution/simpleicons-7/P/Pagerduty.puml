@@ -8,6 +8,6 @@ sprite $PagerdutyMd [16x16/16z] fOsr0S0m4CJEOTR-quQDJS1wL7MIE5X6MR0OwtLLLIDWtTuX
 
 sprite $PagerdutyLg [20x20/16z] jSwr0O100C30u0xxJuk_Dwyfhmem7M_xsl7rccnnx4bPnLDzssmPrOssaM23O_LoK-F-pJXMyzTqJsr3UEgbb5q
 
-!procedure Pagerduty($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/P/Pagerduty', $name, $tech)
+!procedure Pagerduty($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/P/Pagerduty', $name, $tech, $desc)
 !endprocedure

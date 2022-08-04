@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Z/Zingat')
 
 ' renders the element
-Zingat('Zingat', 'Zingat', 'an optional tech label')
+Zingat('Zingat', 'Zingat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Z/Zingat')
 
 ' renders the element
-Zingat('Zingat', 'Zingat', 'an optional tech label')
+Zingat('Zingat', 'Zingat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

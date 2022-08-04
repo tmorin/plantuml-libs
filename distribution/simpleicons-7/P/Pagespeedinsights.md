@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pagespeedinsights')
 
 ' renders the element
-Pagespeedinsights('Pagespeedinsights', 'Pagespeedinsights', 'an optional tech label')
+Pagespeedinsights('Pagespeedinsights', 'Pagespeedinsights', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pagespeedinsights')
 
 ' renders the element
-Pagespeedinsights('Pagespeedinsights', 'Pagespeedinsights', 'an optional tech label')
+Pagespeedinsights('Pagespeedinsights', 'Pagespeedinsights', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

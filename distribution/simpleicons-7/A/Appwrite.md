@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Appwrite')
 
 ' renders the element
-Appwrite('Appwrite', 'Appwrite', 'an optional tech label')
+Appwrite('Appwrite', 'Appwrite', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Appwrite')
 
 ' renders the element
-Appwrite('Appwrite', 'Appwrite', 'an optional tech label')
+Appwrite('Appwrite', 'Appwrite', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Suzuki')
 
 ' renders the element
-Suzuki('Suzuki', 'Suzuki', 'an optional tech label')
+Suzuki('Suzuki', 'Suzuki', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Suzuki')
 
 ' renders the element
-Suzuki('Suzuki', 'Suzuki', 'an optional tech label')
+Suzuki('Suzuki', 'Suzuki', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

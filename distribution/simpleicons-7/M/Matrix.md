@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Matrix')
 
 ' renders the element
-Matrix('Matrix', 'Matrix', 'an optional tech label')
+Matrix('Matrix', 'Matrix', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Matrix')
 
 ' renders the element
-Matrix('Matrix', 'Matrix', 'an optional tech label')
+Matrix('Matrix', 'Matrix', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

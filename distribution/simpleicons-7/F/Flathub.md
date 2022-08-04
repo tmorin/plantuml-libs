@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Flathub')
 
 ' renders the element
-Flathub('Flathub', 'Flathub', 'an optional tech label')
+Flathub('Flathub', 'Flathub', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Flathub')
 
 ' renders the element
-Flathub('Flathub', 'Flathub', 'an optional tech label')
+Flathub('Flathub', 'Flathub', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

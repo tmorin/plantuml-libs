@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fortran')
 
 ' renders the element
-Fortran('Fortran', 'Fortran', 'an optional tech label')
+Fortran('Fortran', 'Fortran', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fortran')
 
 ' renders the element
-Fortran('Fortran', 'Fortran', 'an optional tech label')
+Fortran('Fortran', 'Fortran', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

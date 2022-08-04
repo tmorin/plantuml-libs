@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sourceforge')
 
 ' renders the element
-Sourceforge('Sourceforge', 'Sourceforge', 'an optional tech label')
+Sourceforge('Sourceforge', 'Sourceforge', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sourceforge')
 
 ' renders the element
-Sourceforge('Sourceforge', 'Sourceforge', 'an optional tech label')
+Sourceforge('Sourceforge', 'Sourceforge', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

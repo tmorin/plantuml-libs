@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Webauthn')
 
 ' renders the element
-Webauthn('Webauthn', 'Webauthn', 'an optional tech label')
+Webauthn('Webauthn', 'Webauthn', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Webauthn')
 
 ' renders the element
-Webauthn('Webauthn', 'Webauthn', 'an optional tech label')
+Webauthn('Webauthn', 'Webauthn', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

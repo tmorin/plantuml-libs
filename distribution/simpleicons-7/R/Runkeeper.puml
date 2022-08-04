@@ -8,6 +8,6 @@ sprite $RunkeeperMd [16x16/16z] Ow0tO6P4uR9oC71pC76my_7nS79mSF8Wop7ImJa
 
 sprite $RunkeeperLg [20x20/16z] OnYAW8cNaH5DY9MPcPERWu6BWPEFWukJXuEDYvUBdHaX3rJFCXIy1W
 
-!procedure Runkeeper($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/R/Runkeeper', $name, $tech)
+!procedure Runkeeper($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/R/Runkeeper', $name, $tech, $desc)
 !endprocedure

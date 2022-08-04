@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sonarqube')
 
 ' renders the element
-Sonarqube('Sonarqube', 'Sonarqube', 'an optional tech label')
+Sonarqube('Sonarqube', 'Sonarqube', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sonarqube')
 
 ' renders the element
-Sonarqube('Sonarqube', 'Sonarqube', 'an optional tech label')
+Sonarqube('Sonarqube', 'Sonarqube', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

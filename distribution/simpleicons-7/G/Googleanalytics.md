@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Googleanalytics')
 
 ' renders the element
-Googleanalytics('Googleanalytics', 'Googleanalytics', 'an optional tech label')
+Googleanalytics('Googleanalytics', 'Googleanalytics', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Googleanalytics')
 
 ' renders the element
-Googleanalytics('Googleanalytics', 'Googleanalytics', 'an optional tech label')
+Googleanalytics('Googleanalytics', 'Googleanalytics', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

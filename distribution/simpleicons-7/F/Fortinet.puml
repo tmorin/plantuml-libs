@@ -8,6 +8,6 @@ sprite $FortinetMd [16x16/16z] Oo0Ly0C1cE00aJnig7n-RX1Wu082LZ29JJi_4fiG7qC_cdrCQ
 
 sprite $FortinetLg [20x20/16z] fOu30e10400dk_x_sgopvh06AMJJFCyK-xUBVFzwM0ueVgAl5T-EneU6xkGTU5gBa7tL-lhGa9tSyXQJPhzSusDIV3aKE-T_YmnVDW
 
-!procedure Fortinet($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/F/Fortinet', $name, $tech)
+!procedure Fortinet($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/F/Fortinet', $name, $tech, $desc)
 !endprocedure

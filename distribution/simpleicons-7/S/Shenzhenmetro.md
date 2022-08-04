@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Shenzhenmetro')
 
 ' renders the element
-Shenzhenmetro('Shenzhenmetro', 'Shenzhenmetro', 'an optional tech label')
+Shenzhenmetro('Shenzhenmetro', 'Shenzhenmetro', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Shenzhenmetro')
 
 ' renders the element
-Shenzhenmetro('Shenzhenmetro', 'Shenzhenmetro', 'an optional tech label')
+Shenzhenmetro('Shenzhenmetro', 'Shenzhenmetro', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

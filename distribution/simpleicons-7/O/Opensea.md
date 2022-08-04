@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Opensea')
 
 ' renders the element
-Opensea('Opensea', 'Opensea', 'an optional tech label')
+Opensea('Opensea', 'Opensea', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Opensea')
 
 ' renders the element
-Opensea('Opensea', 'Opensea', 'an optional tech label')
+Opensea('Opensea', 'Opensea', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

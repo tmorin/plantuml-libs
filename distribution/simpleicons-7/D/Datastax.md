@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Datastax')
 
 ' renders the element
-Datastax('Datastax', 'Datastax', 'an optional tech label')
+Datastax('Datastax', 'Datastax', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Datastax')
 
 ' renders the element
-Datastax('Datastax', 'Datastax', 'an optional tech label')
+Datastax('Datastax', 'Datastax', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

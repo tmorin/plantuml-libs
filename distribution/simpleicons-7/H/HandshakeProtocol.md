@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/HandshakeProtocol')
 
 ' renders the element
-HandshakeProtocol('HandshakeProtocol', 'Handshake Protocol', 'an optional tech label')
+HandshakeProtocol('HandshakeProtocol', 'Handshake Protocol', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/HandshakeProtocol')
 
 ' renders the element
-HandshakeProtocol('HandshakeProtocol', 'Handshake Protocol', 'an optional tech label')
+HandshakeProtocol('HandshakeProtocol', 'Handshake Protocol', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

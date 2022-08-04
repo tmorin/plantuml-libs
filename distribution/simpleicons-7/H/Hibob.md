@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hibob')
 
 ' renders the element
-Hibob('Hibob', 'Hibob', 'an optional tech label')
+Hibob('Hibob', 'Hibob', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hibob')
 
 ' renders the element
-Hibob('Hibob', 'Hibob', 'an optional tech label')
+Hibob('Hibob', 'Hibob', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

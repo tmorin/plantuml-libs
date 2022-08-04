@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Seat')
 
 ' renders the element
-Seat('Seat', 'Seat', 'an optional tech label')
+Seat('Seat', 'Seat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Seat')
 
 ' renders the element
-Seat('Seat', 'Seat', 'an optional tech label')
+Seat('Seat', 'Seat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Dataiku')
 
 ' renders the element
-Dataiku('Dataiku', 'Dataiku', 'an optional tech label')
+Dataiku('Dataiku', 'Dataiku', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Dataiku')
 
 ' renders the element
-Dataiku('Dataiku', 'Dataiku', 'an optional tech label')
+Dataiku('Dataiku', 'Dataiku', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

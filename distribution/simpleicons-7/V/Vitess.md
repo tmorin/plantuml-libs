@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Vitess')
 
 ' renders the element
-Vitess('Vitess', 'Vitess', 'an optional tech label')
+Vitess('Vitess', 'Vitess', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Vitess')
 
 ' renders the element
-Vitess('Vitess', 'Vitess', 'an optional tech label')
+Vitess('Vitess', 'Vitess', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

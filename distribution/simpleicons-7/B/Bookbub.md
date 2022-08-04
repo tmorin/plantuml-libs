@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bookbub')
 
 ' renders the element
-Bookbub('Bookbub', 'Bookbub', 'an optional tech label')
+Bookbub('Bookbub', 'Bookbub', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bookbub')
 
 ' renders the element
-Bookbub('Bookbub', 'Bookbub', 'an optional tech label')
+Bookbub('Bookbub', 'Bookbub', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

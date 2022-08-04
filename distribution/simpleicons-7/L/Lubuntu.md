@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lubuntu')
 
 ' renders the element
-Lubuntu('Lubuntu', 'Lubuntu', 'an optional tech label')
+Lubuntu('Lubuntu', 'Lubuntu', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lubuntu')
 
 ' renders the element
-Lubuntu('Lubuntu', 'Lubuntu', 'an optional tech label')
+Lubuntu('Lubuntu', 'Lubuntu', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

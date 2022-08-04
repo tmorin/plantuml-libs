@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Inkscape')
 
 ' renders the element
-Inkscape('Inkscape', 'Inkscape', 'an optional tech label')
+Inkscape('Inkscape', 'Inkscape', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Inkscape')
 
 ' renders the element
-Inkscape('Inkscape', 'Inkscape', 'an optional tech label')
+Inkscape('Inkscape', 'Inkscape', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

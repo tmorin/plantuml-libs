@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lada')
 
 ' renders the element
-Lada('Lada', 'Lada', 'an optional tech label')
+Lada('Lada', 'Lada', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lada')
 
 ' renders the element
-Lada('Lada', 'Lada', 'an optional tech label')
+Lada('Lada', 'Lada', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

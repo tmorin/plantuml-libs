@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cloudflare')
 
 ' renders the element
-Cloudflare('Cloudflare', 'Cloudflare', 'an optional tech label')
+Cloudflare('Cloudflare', 'Cloudflare', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cloudflare')
 
 ' renders the element
-Cloudflare('Cloudflare', 'Cloudflare', 'an optional tech label')
+Cloudflare('Cloudflare', 'Cloudflare', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

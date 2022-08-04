@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Amazonsqs')
 
 ' renders the element
-Amazonsqs('Amazonsqs', 'Amazonsqs', 'an optional tech label')
+Amazonsqs('Amazonsqs', 'Amazonsqs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Amazonsqs')
 
 ' renders the element
-Amazonsqs('Amazonsqs', 'Amazonsqs', 'an optional tech label')
+Amazonsqs('Amazonsqs', 'Amazonsqs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

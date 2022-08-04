@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Rubocop')
 
 ' renders the element
-Rubocop('Rubocop', 'Rubocop', 'an optional tech label')
+Rubocop('Rubocop', 'Rubocop', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Rubocop')
 
 ' renders the element
-Rubocop('Rubocop', 'Rubocop', 'an optional tech label')
+Rubocop('Rubocop', 'Rubocop', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

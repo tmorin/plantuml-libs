@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/U/Unilever')
 
 ' renders the element
-Unilever('Unilever', 'Unilever', 'an optional tech label')
+Unilever('Unilever', 'Unilever', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/U/Unilever')
 
 ' renders the element
-Unilever('Unilever', 'Unilever', 'an optional tech label')
+Unilever('Unilever', 'Unilever', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

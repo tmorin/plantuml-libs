@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Stitcher')
 
 ' renders the element
-Stitcher('Stitcher', 'Stitcher', 'an optional tech label')
+Stitcher('Stitcher', 'Stitcher', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Stitcher')
 
 ' renders the element
-Stitcher('Stitcher', 'Stitcher', 'an optional tech label')
+Stitcher('Stitcher', 'Stitcher', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

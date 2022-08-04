@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Peakdesign')
 
 ' renders the element
-Peakdesign('Peakdesign', 'Peakdesign', 'an optional tech label')
+Peakdesign('Peakdesign', 'Peakdesign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Peakdesign')
 
 ' renders the element
-Peakdesign('Peakdesign', 'Peakdesign', 'an optional tech label')
+Peakdesign('Peakdesign', 'Peakdesign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

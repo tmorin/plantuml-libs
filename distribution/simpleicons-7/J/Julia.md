@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Julia')
 
 ' renders the element
-Julia('Julia', 'Julia', 'an optional tech label')
+Julia('Julia', 'Julia', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Julia')
 
 ' renders the element
-Julia('Julia', 'Julia', 'an optional tech label')
+Julia('Julia', 'Julia', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

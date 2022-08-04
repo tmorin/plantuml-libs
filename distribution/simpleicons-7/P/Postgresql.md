@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Postgresql')
 
 ' renders the element
-Postgresql('Postgresql', 'Postgresql', 'an optional tech label')
+Postgresql('Postgresql', 'Postgresql', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Postgresql')
 
 ' renders the element
-Postgresql('Postgresql', 'Postgresql', 'an optional tech label')
+Postgresql('Postgresql', 'Postgresql', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

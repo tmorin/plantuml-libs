@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Codereview')
 
 ' renders the element
-Codereview('Codereview', 'Codereview', 'an optional tech label')
+Codereview('Codereview', 'Codereview', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Codereview')
 
 ' renders the element
-Codereview('Codereview', 'Codereview', 'an optional tech label')
+Codereview('Codereview', 'Codereview', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

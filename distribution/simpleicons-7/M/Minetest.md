@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Minetest')
 
 ' renders the element
-Minetest('Minetest', 'Minetest', 'an optional tech label')
+Minetest('Minetest', 'Minetest', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Minetest')
 
 ' renders the element
-Minetest('Minetest', 'Minetest', 'an optional tech label')
+Minetest('Minetest', 'Minetest', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

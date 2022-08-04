@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cocos')
 
 ' renders the element
-Cocos('Cocos', 'Cocos', 'an optional tech label')
+Cocos('Cocos', 'Cocos', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cocos')
 
 ' renders the element
-Cocos('Cocos', 'Cocos', 'an optional tech label')
+Cocos('Cocos', 'Cocos', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

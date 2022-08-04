@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Andela')
 
 ' renders the element
-Andela('Andela', 'Andela', 'an optional tech label')
+Andela('Andela', 'Andela', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Andela')
 
 ' renders the element
-Andela('Andela', 'Andela', 'an optional tech label')
+Andela('Andela', 'Andela', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

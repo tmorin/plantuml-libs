@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Ferrari')
 
 ' renders the element
-Ferrari('Ferrari', 'Ferrari', 'an optional tech label')
+Ferrari('Ferrari', 'Ferrari', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Ferrari')
 
 ' renders the element
-Ferrari('Ferrari', 'Ferrari', 'an optional tech label')
+Ferrari('Ferrari', 'Ferrari', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

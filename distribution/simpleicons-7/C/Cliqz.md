@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cliqz')
 
 ' renders the element
-Cliqz('Cliqz', 'Cliqz', 'an optional tech label')
+Cliqz('Cliqz', 'Cliqz', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cliqz')
 
 ' renders the element
-Cliqz('Cliqz', 'Cliqz', 'an optional tech label')
+Cliqz('Cliqz', 'Cliqz', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

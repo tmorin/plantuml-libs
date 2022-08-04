@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mailchimp')
 
 ' renders the element
-Mailchimp('Mailchimp', 'Mailchimp', 'an optional tech label')
+Mailchimp('Mailchimp', 'Mailchimp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mailchimp')
 
 ' renders the element
-Mailchimp('Mailchimp', 'Mailchimp', 'an optional tech label')
+Mailchimp('Mailchimp', 'Mailchimp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

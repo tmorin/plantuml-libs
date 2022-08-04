@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pm2')
 
 ' renders the element
-Pm2('Pm2', 'Pm2', 'an optional tech label')
+Pm2('Pm2', 'Pm2', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pm2')
 
 ' renders the element
-Pm2('Pm2', 'Pm2', 'an optional tech label')
+Pm2('Pm2', 'Pm2', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Breaker')
 
 ' renders the element
-Breaker('Breaker', 'Breaker', 'an optional tech label')
+Breaker('Breaker', 'Breaker', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Breaker')
 
 ' renders the element
-Breaker('Breaker', 'Breaker', 'an optional tech label')
+Breaker('Breaker', 'Breaker', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Nativescript')
 
 ' renders the element
-Nativescript('Nativescript', 'Nativescript', 'an optional tech label')
+Nativescript('Nativescript', 'Nativescript', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Nativescript')
 
 ' renders the element
-Nativescript('Nativescript', 'Nativescript', 'an optional tech label')
+Nativescript('Nativescript', 'Nativescript', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

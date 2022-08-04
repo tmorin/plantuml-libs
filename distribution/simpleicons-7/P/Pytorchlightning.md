@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pytorchlightning')
 
 ' renders the element
-Pytorchlightning('Pytorchlightning', 'Pytorchlightning', 'an optional tech label')
+Pytorchlightning('Pytorchlightning', 'Pytorchlightning', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pytorchlightning')
 
 ' renders the element
-Pytorchlightning('Pytorchlightning', 'Pytorchlightning', 'an optional tech label')
+Pytorchlightning('Pytorchlightning', 'Pytorchlightning', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

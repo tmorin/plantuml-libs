@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Linux')
 
 ' renders the element
-Linux('Linux', 'Linux', 'an optional tech label')
+Linux('Linux', 'Linux', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Linux')
 
 ' renders the element
-Linux('Linux', 'Linux', 'an optional tech label')
+Linux('Linux', 'Linux', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

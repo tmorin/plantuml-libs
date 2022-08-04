@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Loopback')
 
 ' renders the element
-Loopback('Loopback', 'Loopback', 'an optional tech label')
+Loopback('Loopback', 'Loopback', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Loopback')
 
 ' renders the element
-Loopback('Loopback', 'Loopback', 'an optional tech label')
+Loopback('Loopback', 'Loopback', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

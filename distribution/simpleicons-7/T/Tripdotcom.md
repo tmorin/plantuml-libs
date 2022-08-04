@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tripdotcom')
 
 ' renders the element
-Tripdotcom('Tripdotcom', 'Tripdotcom', 'an optional tech label')
+Tripdotcom('Tripdotcom', 'Tripdotcom', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tripdotcom')
 
 ' renders the element
-Tripdotcom('Tripdotcom', 'Tripdotcom', 'an optional tech label')
+Tripdotcom('Tripdotcom', 'Tripdotcom', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

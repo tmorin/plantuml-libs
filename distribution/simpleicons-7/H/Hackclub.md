@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hackclub')
 
 ' renders the element
-Hackclub('Hackclub', 'Hackclub', 'an optional tech label')
+Hackclub('Hackclub', 'Hackclub', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hackclub')
 
 ' renders the element
-Hackclub('Hackclub', 'Hackclub', 'an optional tech label')
+Hackclub('Hackclub', 'Hackclub', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Riseup')
 
 ' renders the element
-Riseup('Riseup', 'Riseup', 'an optional tech label')
+Riseup('Riseup', 'Riseup', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Riseup')
 
 ' renders the element
-Riseup('Riseup', 'Riseup', 'an optional tech label')
+Riseup('Riseup', 'Riseup', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

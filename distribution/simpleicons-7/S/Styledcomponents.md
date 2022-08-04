@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Styledcomponents')
 
 ' renders the element
-Styledcomponents('Styledcomponents', 'Styledcomponents', 'an optional tech label')
+Styledcomponents('Styledcomponents', 'Styledcomponents', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Styledcomponents')
 
 ' renders the element
-Styledcomponents('Styledcomponents', 'Styledcomponents', 'an optional tech label')
+Styledcomponents('Styledcomponents', 'Styledcomponents', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

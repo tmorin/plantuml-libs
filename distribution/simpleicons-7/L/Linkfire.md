@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Linkfire')
 
 ' renders the element
-Linkfire('Linkfire', 'Linkfire', 'an optional tech label')
+Linkfire('Linkfire', 'Linkfire', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Linkfire')
 
 ' renders the element
-Linkfire('Linkfire', 'Linkfire', 'an optional tech label')
+Linkfire('Linkfire', 'Linkfire', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

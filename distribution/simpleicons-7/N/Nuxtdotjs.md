@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Nuxtdotjs')
 
 ' renders the element
-Nuxtdotjs('Nuxtdotjs', 'Nuxtdotjs', 'an optional tech label')
+Nuxtdotjs('Nuxtdotjs', 'Nuxtdotjs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Nuxtdotjs')
 
 ' renders the element
-Nuxtdotjs('Nuxtdotjs', 'Nuxtdotjs', 'an optional tech label')
+Nuxtdotjs('Nuxtdotjs', 'Nuxtdotjs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

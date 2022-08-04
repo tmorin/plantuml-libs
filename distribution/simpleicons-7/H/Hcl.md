@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hcl')
 
 ' renders the element
-Hcl('Hcl', 'Hcl', 'an optional tech label')
+Hcl('Hcl', 'Hcl', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hcl')
 
 ' renders the element
-Hcl('Hcl', 'Hcl', 'an optional tech label')
+Hcl('Hcl', 'Hcl', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tripadvisor')
 
 ' renders the element
-Tripadvisor('Tripadvisor', 'Tripadvisor', 'an optional tech label')
+Tripadvisor('Tripadvisor', 'Tripadvisor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tripadvisor')
 
 ' renders the element
-Tripadvisor('Tripadvisor', 'Tripadvisor', 'an optional tech label')
+Tripadvisor('Tripadvisor', 'Tripadvisor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

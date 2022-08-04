@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Rescuetime')
 
 ' renders the element
-Rescuetime('Rescuetime', 'Rescuetime', 'an optional tech label')
+Rescuetime('Rescuetime', 'Rescuetime', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Rescuetime')
 
 ' renders the element
-Rescuetime('Rescuetime', 'Rescuetime', 'an optional tech label')
+Rescuetime('Rescuetime', 'Rescuetime', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

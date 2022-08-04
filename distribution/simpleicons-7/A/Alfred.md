@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Alfred')
 
 ' renders the element
-Alfred('Alfred', 'Alfred', 'an optional tech label')
+Alfred('Alfred', 'Alfred', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Alfred')
 
 ' renders the element
-Alfred('Alfred', 'Alfred', 'an optional tech label')
+Alfred('Alfred', 'Alfred', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

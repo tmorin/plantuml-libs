@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Affinitypublisher')
 
 ' renders the element
-Affinitypublisher('Affinitypublisher', 'Affinitypublisher', 'an optional tech label')
+Affinitypublisher('Affinitypublisher', 'Affinitypublisher', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Affinitypublisher')
 
 ' renders the element
-Affinitypublisher('Affinitypublisher', 'Affinitypublisher', 'an optional tech label')
+Affinitypublisher('Affinitypublisher', 'Affinitypublisher', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Saltproject')
 
 ' renders the element
-Saltproject('Saltproject', 'Saltproject', 'an optional tech label')
+Saltproject('Saltproject', 'Saltproject', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Saltproject')
 
 ' renders the element
-Saltproject('Saltproject', 'Saltproject', 'an optional tech label')
+Saltproject('Saltproject', 'Saltproject', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

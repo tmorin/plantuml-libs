@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mastercard')
 
 ' renders the element
-Mastercard('Mastercard', 'Mastercard', 'an optional tech label')
+Mastercard('Mastercard', 'Mastercard', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mastercard')
 
 ' renders the element
-Mastercard('Mastercard', 'Mastercard', 'an optional tech label')
+Mastercard('Mastercard', 'Mastercard', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

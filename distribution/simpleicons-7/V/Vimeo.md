@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Vimeo')
 
 ' renders the element
-Vimeo('Vimeo', 'Vimeo', 'an optional tech label')
+Vimeo('Vimeo', 'Vimeo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Vimeo')
 
 ' renders the element
-Vimeo('Vimeo', 'Vimeo', 'an optional tech label')
+Vimeo('Vimeo', 'Vimeo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

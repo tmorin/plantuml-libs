@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tails')
 
 ' renders the element
-Tails('Tails', 'Tails', 'an optional tech label')
+Tails('Tails', 'Tails', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tails')
 
 ' renders the element
-Tails('Tails', 'Tails', 'an optional tech label')
+Tails('Tails', 'Tails', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

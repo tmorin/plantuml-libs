@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pagerduty')
 
 ' renders the element
-Pagerduty('Pagerduty', 'Pagerduty', 'an optional tech label')
+Pagerduty('Pagerduty', 'Pagerduty', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pagerduty')
 
 ' renders the element
-Pagerduty('Pagerduty', 'Pagerduty', 'an optional tech label')
+Pagerduty('Pagerduty', 'Pagerduty', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

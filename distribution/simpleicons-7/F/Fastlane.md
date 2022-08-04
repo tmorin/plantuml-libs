@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fastlane')
 
 ' renders the element
-Fastlane('Fastlane', 'Fastlane', 'an optional tech label')
+Fastlane('Fastlane', 'Fastlane', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fastlane')
 
 ' renders the element
-Fastlane('Fastlane', 'Fastlane', 'an optional tech label')
+Fastlane('Fastlane', 'Fastlane', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

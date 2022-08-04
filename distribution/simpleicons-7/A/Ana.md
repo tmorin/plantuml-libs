@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Ana')
 
 ' renders the element
-Ana('Ana', 'Ana', 'an optional tech label')
+Ana('Ana', 'Ana', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Ana')
 
 ' renders the element
-Ana('Ana', 'Ana', 'an optional tech label')
+Ana('Ana', 'Ana', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

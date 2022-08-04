@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Line')
 
 ' renders the element
-Line('Line', 'Line', 'an optional tech label')
+Line('Line', 'Line', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Line')
 
 ' renders the element
-Line('Line', 'Line', 'an optional tech label')
+Line('Line', 'Line', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

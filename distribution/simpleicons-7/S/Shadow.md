@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Shadow')
 
 ' renders the element
-Shadow('Shadow', 'Shadow', 'an optional tech label')
+Shadow('Shadow', 'Shadow', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Shadow')
 
 ' renders the element
-Shadow('Shadow', 'Shadow', 'an optional tech label')
+Shadow('Shadow', 'Shadow', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

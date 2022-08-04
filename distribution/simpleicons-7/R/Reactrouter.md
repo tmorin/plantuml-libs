@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Reactrouter')
 
 ' renders the element
-Reactrouter('Reactrouter', 'Reactrouter', 'an optional tech label')
+Reactrouter('Reactrouter', 'Reactrouter', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Reactrouter')
 
 ' renders the element
-Reactrouter('Reactrouter', 'Reactrouter', 'an optional tech label')
+Reactrouter('Reactrouter', 'Reactrouter', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

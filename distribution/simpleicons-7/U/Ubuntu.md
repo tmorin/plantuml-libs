@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/U/Ubuntu')
 
 ' renders the element
-Ubuntu('Ubuntu', 'Ubuntu', 'an optional tech label')
+Ubuntu('Ubuntu', 'Ubuntu', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/U/Ubuntu')
 
 ' renders the element
-Ubuntu('Ubuntu', 'Ubuntu', 'an optional tech label')
+Ubuntu('Ubuntu', 'Ubuntu', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

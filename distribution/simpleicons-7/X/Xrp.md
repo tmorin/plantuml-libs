@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/X/Xrp')
 
 ' renders the element
-Xrp('Xrp', 'Xrp', 'an optional tech label')
+Xrp('Xrp', 'Xrp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/X/Xrp')
 
 ' renders the element
-Xrp('Xrp', 'Xrp', 'an optional tech label')
+Xrp('Xrp', 'Xrp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

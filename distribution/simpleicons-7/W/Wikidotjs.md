@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Wikidotjs')
 
 ' renders the element
-Wikidotjs('Wikidotjs', 'Wikidotjs', 'an optional tech label')
+Wikidotjs('Wikidotjs', 'Wikidotjs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Wikidotjs')
 
 ' renders the element
-Wikidotjs('Wikidotjs', 'Wikidotjs', 'an optional tech label')
+Wikidotjs('Wikidotjs', 'Wikidotjs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

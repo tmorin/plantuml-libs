@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Buymeacoffee')
 
 ' renders the element
-Buymeacoffee('Buymeacoffee', 'Buymeacoffee', 'an optional tech label')
+Buymeacoffee('Buymeacoffee', 'Buymeacoffee', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Buymeacoffee')
 
 ' renders the element
-Buymeacoffee('Buymeacoffee', 'Buymeacoffee', 'an optional tech label')
+Buymeacoffee('Buymeacoffee', 'Buymeacoffee', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

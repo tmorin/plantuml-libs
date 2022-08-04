@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Subaru')
 
 ' renders the element
-Subaru('Subaru', 'Subaru', 'an optional tech label')
+Subaru('Subaru', 'Subaru', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Subaru')
 
 ' renders the element
-Subaru('Subaru', 'Subaru', 'an optional tech label')
+Subaru('Subaru', 'Subaru', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Z/Zendesk')
 
 ' renders the element
-Zendesk('Zendesk', 'Zendesk', 'an optional tech label')
+Zendesk('Zendesk', 'Zendesk', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Z/Zendesk')
 
 ' renders the element
-Zendesk('Zendesk', 'Zendesk', 'an optional tech label')
+Zendesk('Zendesk', 'Zendesk', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

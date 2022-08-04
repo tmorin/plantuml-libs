@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Blueprint')
 
 ' renders the element
-Blueprint('Blueprint', 'Blueprint', 'an optional tech label')
+Blueprint('Blueprint', 'Blueprint', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Blueprint')
 
 ' renders the element
-Blueprint('Blueprint', 'Blueprint', 'an optional tech label')
+Blueprint('Blueprint', 'Blueprint', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

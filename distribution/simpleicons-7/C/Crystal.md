@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Crystal')
 
 ' renders the element
-Crystal('Crystal', 'Crystal', 'an optional tech label')
+Crystal('Crystal', 'Crystal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Crystal')
 
 ' renders the element
-Crystal('Crystal', 'Crystal', 'an optional tech label')
+Crystal('Crystal', 'Crystal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Leetcode')
 
 ' renders the element
-Leetcode('Leetcode', 'Leetcode', 'an optional tech label')
+Leetcode('Leetcode', 'Leetcode', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Leetcode')
 
 ' renders the element
-Leetcode('Leetcode', 'Leetcode', 'an optional tech label')
+Leetcode('Leetcode', 'Leetcode', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

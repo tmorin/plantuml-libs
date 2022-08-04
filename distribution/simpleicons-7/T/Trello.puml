@@ -8,6 +8,6 @@ sprite $TrelloMd [16x16/16z] fOU50S104CAWxkm_RTtjBISGv3h3N4Poab8p_cvs0kYKZhyEy7B
 
 sprite $TrelloLg [20x20/16z] Os3cHmCyG27A00C8yFFpWYWsL35k4CLCCp64lUmeOZ10kHWd2miB5nbXmeCjd325k04
 
-!procedure Trello($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/T/Trello', $name, $tech)
+!procedure Trello($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/T/Trello', $name, $tech, $desc)
 !endprocedure

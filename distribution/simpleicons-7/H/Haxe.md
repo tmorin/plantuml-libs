@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Haxe')
 
 ' renders the element
-Haxe('Haxe', 'Haxe', 'an optional tech label')
+Haxe('Haxe', 'Haxe', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Haxe')
 
 ' renders the element
-Haxe('Haxe', 'Haxe', 'an optional tech label')
+Haxe('Haxe', 'Haxe', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Marko')
 
 ' renders the element
-Marko('Marko', 'Marko', 'an optional tech label')
+Marko('Marko', 'Marko', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Marko')
 
 ' renders the element
-Marko('Marko', 'Marko', 'an optional tech label')
+Marko('Marko', 'Marko', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

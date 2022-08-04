@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Digitalocean')
 
 ' renders the element
-Digitalocean('Digitalocean', 'Digitalocean', 'an optional tech label')
+Digitalocean('Digitalocean', 'Digitalocean', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Digitalocean')
 
 ' renders the element
-Digitalocean('Digitalocean', 'Digitalocean', 'an optional tech label')
+Digitalocean('Digitalocean', 'Digitalocean', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

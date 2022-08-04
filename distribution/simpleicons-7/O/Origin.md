@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Origin')
 
 ' renders the element
-Origin('Origin', 'Origin', 'an optional tech label')
+Origin('Origin', 'Origin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Origin')
 
 ' renders the element
-Origin('Origin', 'Origin', 'an optional tech label')
+Origin('Origin', 'Origin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

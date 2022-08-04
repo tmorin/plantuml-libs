@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Rottentomatoes')
 
 ' renders the element
-Rottentomatoes('Rottentomatoes', 'Rottentomatoes', 'an optional tech label')
+Rottentomatoes('Rottentomatoes', 'Rottentomatoes', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Rottentomatoes')
 
 ' renders the element
-Rottentomatoes('Rottentomatoes', 'Rottentomatoes', 'an optional tech label')
+Rottentomatoes('Rottentomatoes', 'Rottentomatoes', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

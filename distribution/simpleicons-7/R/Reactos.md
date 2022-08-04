@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Reactos')
 
 ' renders the element
-Reactos('Reactos', 'Reactos', 'an optional tech label')
+Reactos('Reactos', 'Reactos', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Reactos')
 
 ' renders the element
-Reactos('Reactos', 'Reactos', 'an optional tech label')
+Reactos('Reactos', 'Reactos', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Vercel')
 
 ' renders the element
-Vercel('Vercel', 'Vercel', 'an optional tech label')
+Vercel('Vercel', 'Vercel', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Vercel')
 
 ' renders the element
-Vercel('Vercel', 'Vercel', 'an optional tech label')
+Vercel('Vercel', 'Vercel', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

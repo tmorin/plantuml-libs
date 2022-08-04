@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sony')
 
 ' renders the element
-Sony('Sony', 'Sony', 'an optional tech label')
+Sony('Sony', 'Sony', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sony')
 
 ' renders the element
-Sony('Sony', 'Sony', 'an optional tech label')
+Sony('Sony', 'Sony', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

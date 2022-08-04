@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Paloaltosoftware')
 
 ' renders the element
-Paloaltosoftware('Paloaltosoftware', 'Paloaltosoftware', 'an optional tech label')
+Paloaltosoftware('Paloaltosoftware', 'Paloaltosoftware', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Paloaltosoftware')
 
 ' renders the element
-Paloaltosoftware('Paloaltosoftware', 'Paloaltosoftware', 'an optional tech label')
+Paloaltosoftware('Paloaltosoftware', 'Paloaltosoftware', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

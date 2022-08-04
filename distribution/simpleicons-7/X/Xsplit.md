@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/X/Xsplit')
 
 ' renders the element
-Xsplit('Xsplit', 'Xsplit', 'an optional tech label')
+Xsplit('Xsplit', 'Xsplit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/X/Xsplit')
 
 ' renders the element
-Xsplit('Xsplit', 'Xsplit', 'an optional tech label')
+Xsplit('Xsplit', 'Xsplit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

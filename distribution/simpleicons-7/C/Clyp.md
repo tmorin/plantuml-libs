@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Clyp')
 
 ' renders the element
-Clyp('Clyp', 'Clyp', 'an optional tech label')
+Clyp('Clyp', 'Clyp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Clyp')
 
 ' renders the element
-Clyp('Clyp', 'Clyp', 'an optional tech label')
+Clyp('Clyp', 'Clyp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Autohotkey')
 
 ' renders the element
-Autohotkey('Autohotkey', 'Autohotkey', 'an optional tech label')
+Autohotkey('Autohotkey', 'Autohotkey', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Autohotkey')
 
 ' renders the element
-Autohotkey('Autohotkey', 'Autohotkey', 'an optional tech label')
+Autohotkey('Autohotkey', 'Autohotkey', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

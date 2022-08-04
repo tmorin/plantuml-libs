@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Elementary')
 
 ' renders the element
-Elementary('Elementary', 'Elementary', 'an optional tech label')
+Elementary('Elementary', 'Elementary', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Elementary')
 
 ' renders the element
-Elementary('Elementary', 'Elementary', 'an optional tech label')
+Elementary('Elementary', 'Elementary', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

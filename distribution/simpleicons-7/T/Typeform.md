@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Typeform')
 
 ' renders the element
-Typeform('Typeform', 'Typeform', 'an optional tech label')
+Typeform('Typeform', 'Typeform', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Typeform')
 
 ' renders the element
-Typeform('Typeform', 'Typeform', 'an optional tech label')
+Typeform('Typeform', 'Typeform', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

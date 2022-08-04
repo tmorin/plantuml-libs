@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Apachedruid')
 
 ' renders the element
-Apachedruid('Apachedruid', 'Apachedruid', 'an optional tech label')
+Apachedruid('Apachedruid', 'Apachedruid', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Apachedruid')
 
 ' renders the element
-Apachedruid('Apachedruid', 'Apachedruid', 'an optional tech label')
+Apachedruid('Apachedruid', 'Apachedruid', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

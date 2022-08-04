@@ -8,6 +8,6 @@ sprite $PinboardMd [16x16/16z] NSk54S104090ykxqtstcNNRq3a3ruPBlEz7V9ndt6Lbb3598L
 
 sprite $PinboardLg [20x20/16z] RS_50GGn30H1cTcJVxI7Iu9-bb7qgv2gJKrGbW4aJWNVwfCI_hKdhGCNFJlm-v0_pU7AgplPyyUTV9nzlyBUcOZICYKuRldt0MRbk9UCO66tS5eOtW
 
-!procedure Pinboard($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/P/Pinboard', $name, $tech)
+!procedure Pinboard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/P/Pinboard', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sabanci')
 
 ' renders the element
-Sabanci('Sabanci', 'Sabanci', 'an optional tech label')
+Sabanci('Sabanci', 'Sabanci', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sabanci')
 
 ' renders the element
-Sabanci('Sabanci', 'Sabanci', 'an optional tech label')
+Sabanci('Sabanci', 'Sabanci', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

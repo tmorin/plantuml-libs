@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Kickstarter')
 
 ' renders the element
-Kickstarter('Kickstarter', 'Kickstarter', 'an optional tech label')
+Kickstarter('Kickstarter', 'Kickstarter', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Kickstarter')
 
 ' renders the element
-Kickstarter('Kickstarter', 'Kickstarter', 'an optional tech label')
+Kickstarter('Kickstarter', 'Kickstarter', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

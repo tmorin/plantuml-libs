@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gumroad')
 
 ' renders the element
-Gumroad('Gumroad', 'Gumroad', 'an optional tech label')
+Gumroad('Gumroad', 'Gumroad', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gumroad')
 
 ' renders the element
-Gumroad('Gumroad', 'Gumroad', 'an optional tech label')
+Gumroad('Gumroad', 'Gumroad', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

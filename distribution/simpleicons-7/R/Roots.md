@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Roots')
 
 ' renders the element
-Roots('Roots', 'Roots', 'an optional tech label')
+Roots('Roots', 'Roots', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Roots')
 
 ' renders the element
-Roots('Roots', 'Roots', 'an optional tech label')
+Roots('Roots', 'Roots', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

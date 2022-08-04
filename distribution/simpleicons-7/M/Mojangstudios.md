@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mojangstudios')
 
 ' renders the element
-Mojangstudios('Mojangstudios', 'Mojangstudios', 'an optional tech label')
+Mojangstudios('Mojangstudios', 'Mojangstudios', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mojangstudios')
 
 ' renders the element
-Mojangstudios('Mojangstudios', 'Mojangstudios', 'an optional tech label')
+Mojangstudios('Mojangstudios', 'Mojangstudios', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

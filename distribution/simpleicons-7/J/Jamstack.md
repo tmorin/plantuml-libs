@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Jamstack')
 
 ' renders the element
-Jamstack('Jamstack', 'Jamstack', 'an optional tech label')
+Jamstack('Jamstack', 'Jamstack', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Jamstack')
 
 ' renders the element
-Jamstack('Jamstack', 'Jamstack', 'an optional tech label')
+Jamstack('Jamstack', 'Jamstack', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

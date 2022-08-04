@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Asciinema')
 
 ' renders the element
-Asciinema('Asciinema', 'Asciinema', 'an optional tech label')
+Asciinema('Asciinema', 'Asciinema', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Asciinema')
 
 ' renders the element
-Asciinema('Asciinema', 'Asciinema', 'an optional tech label')
+Asciinema('Asciinema', 'Asciinema', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

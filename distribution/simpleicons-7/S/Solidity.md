@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Solidity')
 
 ' renders the element
-Solidity('Solidity', 'Solidity', 'an optional tech label')
+Solidity('Solidity', 'Solidity', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Solidity')
 
 ' renders the element
-Solidity('Solidity', 'Solidity', 'an optional tech label')
+Solidity('Solidity', 'Solidity', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

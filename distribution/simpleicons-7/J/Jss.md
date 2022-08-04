@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Jss')
 
 ' renders the element
-Jss('Jss', 'Jss', 'an optional tech label')
+Jss('Jss', 'Jss', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Jss')
 
 ' renders the element
-Jss('Jss', 'Jss', 'an optional tech label')
+Jss('Jss', 'Jss', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

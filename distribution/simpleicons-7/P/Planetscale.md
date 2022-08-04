@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Planetscale')
 
 ' renders the element
-Planetscale('Planetscale', 'Planetscale', 'an optional tech label')
+Planetscale('Planetscale', 'Planetscale', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Planetscale')
 
 ' renders the element
-Planetscale('Planetscale', 'Planetscale', 'an optional tech label')
+Planetscale('Planetscale', 'Planetscale', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

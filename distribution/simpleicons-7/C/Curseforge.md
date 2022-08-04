@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Curseforge')
 
 ' renders the element
-Curseforge('Curseforge', 'Curseforge', 'an optional tech label')
+Curseforge('Curseforge', 'Curseforge', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Curseforge')
 
 ' renders the element
-Curseforge('Curseforge', 'Curseforge', 'an optional tech label')
+Curseforge('Curseforge', 'Curseforge', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,6 +8,6 @@ sprite $ChaseMd [16x16/16z] fSb54W0X34JH7lVf-zyMefKz7tqLI1Eb6HutQfln3_CGVapp51Rp
 
 sprite $ChaseLg [20x20/16z] lS-54S0m3CNGN-Pg_srxuTW3LCSlQAL8gNKNOoZq4CpiFEcCCL4mWplEc5VtNWXZ8w4_x7X3rZIQ0bsQw0hsI1giFVwnaNfrPtvgta6X3m
 
-!procedure Chase($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/C/Chase', $name, $tech)
+!procedure Chase($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/C/Chase', $name, $tech, $desc)
 !endprocedure

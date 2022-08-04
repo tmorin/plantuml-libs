@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Askfm')
 
 ' renders the element
-Askfm('Askfm', 'Askfm', 'an optional tech label')
+Askfm('Askfm', 'Askfm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Askfm')
 
 ' renders the element
-Askfm('Askfm', 'Askfm', 'an optional tech label')
+Askfm('Askfm', 'Askfm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

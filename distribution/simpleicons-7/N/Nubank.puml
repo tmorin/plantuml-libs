@@ -8,6 +8,6 @@ sprite $NubankMd [16x16/16z] fSUr0GD10C0mXu-z_xPf0i-eJfntrm8se4bfeEdxkq-uwlVD1_2
 
 sprite $NubankLg [20x20/16z] lSY30SHG44NHbs_V_gjTsynuZcQA0dW9Z2G3ceWIC9qOI6iiHojx6qTZQntUC7l3yWrRdnb_OkixgaiffRN5zPfgI_f3B04
 
-!procedure Nubank($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/N/Nubank', $name, $tech)
+!procedure Nubank($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/N/Nubank', $name, $tech, $desc)
 !endprocedure

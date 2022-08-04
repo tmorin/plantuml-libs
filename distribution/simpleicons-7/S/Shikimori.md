@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Shikimori')
 
 ' renders the element
-Shikimori('Shikimori', 'Shikimori', 'an optional tech label')
+Shikimori('Shikimori', 'Shikimori', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Shikimori')
 
 ' renders the element
-Shikimori('Shikimori', 'Shikimori', 'an optional tech label')
+Shikimori('Shikimori', 'Shikimori', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

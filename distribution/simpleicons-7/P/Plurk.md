@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Plurk')
 
 ' renders the element
-Plurk('Plurk', 'Plurk', 'an optional tech label')
+Plurk('Plurk', 'Plurk', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Plurk')
 
 ' renders the element
-Plurk('Plurk', 'Plurk', 'an optional tech label')
+Plurk('Plurk', 'Plurk', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

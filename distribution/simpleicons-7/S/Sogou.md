@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sogou')
 
 ' renders the element
-Sogou('Sogou', 'Sogou', 'an optional tech label')
+Sogou('Sogou', 'Sogou', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sogou')
 
 ' renders the element
-Sogou('Sogou', 'Sogou', 'an optional tech label')
+Sogou('Sogou', 'Sogou', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

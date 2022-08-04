@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Intermarche')
 
 ' renders the element
-Intermarche('Intermarche', 'Intermarche', 'an optional tech label')
+Intermarche('Intermarche', 'Intermarche', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Intermarche')
 
 ' renders the element
-Intermarche('Intermarche', 'Intermarche', 'an optional tech label')
+Intermarche('Intermarche', 'Intermarche', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

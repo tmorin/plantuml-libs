@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Webhint')
 
 ' renders the element
-Webhint('Webhint', 'Webhint', 'an optional tech label')
+Webhint('Webhint', 'Webhint', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Webhint')
 
 ' renders the element
-Webhint('Webhint', 'Webhint', 'an optional tech label')
+Webhint('Webhint', 'Webhint', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

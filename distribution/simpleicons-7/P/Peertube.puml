@@ -8,6 +8,6 @@ sprite $PeertubeMd [16x16/16z] NSt50SLG20NH-HANwR_QkF1WTx0BVyggpRPATapMPEo2Qr2_b
 
 sprite $PeertubeLg [20x20/16z] RT030aGX00JGoMxkVzh5HtQz702DFJ0UZ3mPrS6O3iPoCD0lPgzA35RVeTnC3bl8smoQjLknY6Qndn4Ucywj4gHRxvUvtzbWi_qFCZQpAw6A1Ru
 
-!procedure Peertube($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/P/Peertube', $name, $tech)
+!procedure Peertube($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/P/Peertube', $name, $tech, $desc)
 !endprocedure

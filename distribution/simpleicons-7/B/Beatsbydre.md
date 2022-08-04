@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Beatsbydre')
 
 ' renders the element
-Beatsbydre('Beatsbydre', 'Beatsbydre', 'an optional tech label')
+Beatsbydre('Beatsbydre', 'Beatsbydre', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Beatsbydre')
 
 ' renders the element
-Beatsbydre('Beatsbydre', 'Beatsbydre', 'an optional tech label')
+Beatsbydre('Beatsbydre', 'Beatsbydre', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

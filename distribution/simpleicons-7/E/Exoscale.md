@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Exoscale')
 
 ' renders the element
-Exoscale('Exoscale', 'Exoscale', 'an optional tech label')
+Exoscale('Exoscale', 'Exoscale', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Exoscale')
 
 ' renders the element
-Exoscale('Exoscale', 'Exoscale', 'an optional tech label')
+Exoscale('Exoscale', 'Exoscale', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

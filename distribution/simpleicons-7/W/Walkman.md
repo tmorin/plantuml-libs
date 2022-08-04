@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Walkman')
 
 ' renders the element
-Walkman('Walkman', 'Walkman', 'an optional tech label')
+Walkman('Walkman', 'Walkman', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Walkman')
 
 ' renders the element
-Walkman('Walkman', 'Walkman', 'an optional tech label')
+Walkman('Walkman', 'Walkman', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

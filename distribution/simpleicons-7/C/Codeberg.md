@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Codeberg')
 
 ' renders the element
-Codeberg('Codeberg', 'Codeberg', 'an optional tech label')
+Codeberg('Codeberg', 'Codeberg', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Codeberg')
 
 ' renders the element
-Codeberg('Codeberg', 'Codeberg', 'an optional tech label')
+Codeberg('Codeberg', 'Codeberg', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

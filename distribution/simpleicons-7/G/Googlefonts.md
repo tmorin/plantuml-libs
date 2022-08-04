@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Googlefonts')
 
 ' renders the element
-Googlefonts('Googlefonts', 'Googlefonts', 'an optional tech label')
+Googlefonts('Googlefonts', 'Googlefonts', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Googlefonts')
 
 ' renders the element
-Googlefonts('Googlefonts', 'Googlefonts', 'an optional tech label')
+Googlefonts('Googlefonts', 'Googlefonts', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

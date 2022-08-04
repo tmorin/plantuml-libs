@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Newyorktimes')
 
 ' renders the element
-Newyorktimes('Newyorktimes', 'Newyorktimes', 'an optional tech label')
+Newyorktimes('Newyorktimes', 'Newyorktimes', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Newyorktimes')
 
 ' renders the element
-Newyorktimes('Newyorktimes', 'Newyorktimes', 'an optional tech label')
+Newyorktimes('Newyorktimes', 'Newyorktimes', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

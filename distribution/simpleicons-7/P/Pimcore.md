@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pimcore')
 
 ' renders the element
-Pimcore('Pimcore', 'Pimcore', 'an optional tech label')
+Pimcore('Pimcore', 'Pimcore', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pimcore')
 
 ' renders the element
-Pimcore('Pimcore', 'Pimcore', 'an optional tech label')
+Pimcore('Pimcore', 'Pimcore', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

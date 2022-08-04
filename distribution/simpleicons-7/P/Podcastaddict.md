@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Podcastaddict')
 
 ' renders the element
-Podcastaddict('Podcastaddict', 'Podcastaddict', 'an optional tech label')
+Podcastaddict('Podcastaddict', 'Podcastaddict', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Podcastaddict')
 
 ' renders the element
-Podcastaddict('Podcastaddict', 'Podcastaddict', 'an optional tech label')
+Podcastaddict('Podcastaddict', 'Podcastaddict', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Astonmartin')
 
 ' renders the element
-Astonmartin('Astonmartin', 'Astonmartin', 'an optional tech label')
+Astonmartin('Astonmartin', 'Astonmartin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Astonmartin')
 
 ' renders the element
-Astonmartin('Astonmartin', 'Astonmartin', 'an optional tech label')
+Astonmartin('Astonmartin', 'Astonmartin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

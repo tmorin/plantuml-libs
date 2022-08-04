@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Knative')
 
 ' renders the element
-Knative('Knative', 'Knative', 'an optional tech label')
+Knative('Knative', 'Knative', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Knative')
 
 ' renders the element
-Knative('Knative', 'Knative', 'an optional tech label')
+Knative('Knative', 'Knative', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

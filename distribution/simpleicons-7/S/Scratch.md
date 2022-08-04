@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Scratch')
 
 ' renders the element
-Scratch('Scratch', 'Scratch', 'an optional tech label')
+Scratch('Scratch', 'Scratch', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Scratch')
 
 ' renders the element
-Scratch('Scratch', 'Scratch', 'an optional tech label')
+Scratch('Scratch', 'Scratch', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

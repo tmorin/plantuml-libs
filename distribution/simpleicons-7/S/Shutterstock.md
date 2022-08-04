@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Shutterstock')
 
 ' renders the element
-Shutterstock('Shutterstock', 'Shutterstock', 'an optional tech label')
+Shutterstock('Shutterstock', 'Shutterstock', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Shutterstock')
 
 ' renders the element
-Shutterstock('Shutterstock', 'Shutterstock', 'an optional tech label')
+Shutterstock('Shutterstock', 'Shutterstock', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

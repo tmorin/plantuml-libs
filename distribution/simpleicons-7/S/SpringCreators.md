@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/SpringCreators')
 
 ' renders the element
-SpringCreators('SpringCreators', 'Spring Creators', 'an optional tech label')
+SpringCreators('SpringCreators', 'Spring Creators', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/SpringCreators')
 
 ' renders the element
-SpringCreators('SpringCreators', 'Spring Creators', 'an optional tech label')
+SpringCreators('SpringCreators', 'Spring Creators', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

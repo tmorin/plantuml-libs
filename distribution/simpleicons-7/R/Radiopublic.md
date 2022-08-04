@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Radiopublic')
 
 ' renders the element
-Radiopublic('Radiopublic', 'Radiopublic', 'an optional tech label')
+Radiopublic('Radiopublic', 'Radiopublic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Radiopublic')
 
 ' renders the element
-Radiopublic('Radiopublic', 'Radiopublic', 'an optional tech label')
+Radiopublic('Radiopublic', 'Radiopublic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

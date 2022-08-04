@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Designernews')
 
 ' renders the element
-Designernews('Designernews', 'Designernews', 'an optional tech label')
+Designernews('Designernews', 'Designernews', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Designernews')
 
 ' renders the element
-Designernews('Designernews', 'Designernews', 'an optional tech label')
+Designernews('Designernews', 'Designernews', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

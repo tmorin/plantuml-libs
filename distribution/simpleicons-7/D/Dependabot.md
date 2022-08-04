@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Dependabot')
 
 ' renders the element
-Dependabot('Dependabot', 'Dependabot', 'an optional tech label')
+Dependabot('Dependabot', 'Dependabot', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Dependabot')
 
 ' renders the element
-Dependabot('Dependabot', 'Dependabot', 'an optional tech label')
+Dependabot('Dependabot', 'Dependabot', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

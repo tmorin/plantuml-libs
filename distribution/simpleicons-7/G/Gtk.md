@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gtk')
 
 ' renders the element
-Gtk('Gtk', 'Gtk', 'an optional tech label')
+Gtk('Gtk', 'Gtk', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gtk')
 
 ' renders the element
-Gtk('Gtk', 'Gtk', 'an optional tech label')
+Gtk('Gtk', 'Gtk', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

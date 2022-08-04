@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Ebay')
 
 ' renders the element
-Ebay('Ebay', 'Ebay', 'an optional tech label')
+Ebay('Ebay', 'Ebay', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Ebay')
 
 ' renders the element
-Ebay('Ebay', 'Ebay', 'an optional tech label')
+Ebay('Ebay', 'Ebay', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Paypal')
 
 ' renders the element
-Paypal('Paypal', 'Paypal', 'an optional tech label')
+Paypal('Paypal', 'Paypal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Paypal')
 
 ' renders the element
-Paypal('Paypal', 'Paypal', 'an optional tech label')
+Paypal('Paypal', 'Paypal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

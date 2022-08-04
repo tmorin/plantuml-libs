@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Linuxfoundation')
 
 ' renders the element
-Linuxfoundation('Linuxfoundation', 'Linuxfoundation', 'an optional tech label')
+Linuxfoundation('Linuxfoundation', 'Linuxfoundation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Linuxfoundation')
 
 ' renders the element
-Linuxfoundation('Linuxfoundation', 'Linuxfoundation', 'an optional tech label')
+Linuxfoundation('Linuxfoundation', 'Linuxfoundation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

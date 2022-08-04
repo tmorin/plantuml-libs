@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Nestjs')
 
 ' renders the element
-Nestjs('Nestjs', 'Nestjs', 'an optional tech label')
+Nestjs('Nestjs', 'Nestjs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Nestjs')
 
 ' renders the element
-Nestjs('Nestjs', 'Nestjs', 'an optional tech label')
+Nestjs('Nestjs', 'Nestjs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

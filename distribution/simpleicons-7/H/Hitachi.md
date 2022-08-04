@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hitachi')
 
 ' renders the element
-Hitachi('Hitachi', 'Hitachi', 'an optional tech label')
+Hitachi('Hitachi', 'Hitachi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hitachi')
 
 ' renders the element
-Hitachi('Hitachi', 'Hitachi', 'an optional tech label')
+Hitachi('Hitachi', 'Hitachi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

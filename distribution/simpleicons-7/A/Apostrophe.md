@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Apostrophe')
 
 ' renders the element
-Apostrophe('Apostrophe', 'Apostrophe', 'an optional tech label')
+Apostrophe('Apostrophe', 'Apostrophe', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Apostrophe')
 
 ' renders the element
-Apostrophe('Apostrophe', 'Apostrophe', 'an optional tech label')
+Apostrophe('Apostrophe', 'Apostrophe', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

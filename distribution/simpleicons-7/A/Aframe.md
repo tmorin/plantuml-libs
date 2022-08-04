@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Aframe')
 
 ' renders the element
-Aframe('Aframe', 'Aframe', 'an optional tech label')
+Aframe('Aframe', 'Aframe', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Aframe')
 
 ' renders the element
-Aframe('Aframe', 'Aframe', 'an optional tech label')
+Aframe('Aframe', 'Aframe', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

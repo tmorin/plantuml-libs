@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fnac')
 
 ' renders the element
-Fnac('Fnac', 'Fnac', 'an optional tech label')
+Fnac('Fnac', 'Fnac', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fnac')
 
 ' renders the element
-Fnac('Fnac', 'Fnac', 'an optional tech label')
+Fnac('Fnac', 'Fnac', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

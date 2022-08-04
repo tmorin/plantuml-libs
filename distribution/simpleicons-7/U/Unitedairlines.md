@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/U/Unitedairlines')
 
 ' renders the element
-Unitedairlines('Unitedairlines', 'Unitedairlines', 'an optional tech label')
+Unitedairlines('Unitedairlines', 'Unitedairlines', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/U/Unitedairlines')
 
 ' renders the element
-Unitedairlines('Unitedairlines', 'Unitedairlines', 'an optional tech label')
+Unitedairlines('Unitedairlines', 'Unitedairlines', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

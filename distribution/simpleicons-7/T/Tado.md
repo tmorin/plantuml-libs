@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tado')
 
 ' renders the element
-Tado('Tado', 'Tado', 'an optional tech label')
+Tado('Tado', 'Tado', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tado')
 
 ' renders the element
-Tado('Tado', 'Tado', 'an optional tech label')
+Tado('Tado', 'Tado', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

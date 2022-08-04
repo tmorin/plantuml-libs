@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Webmoney')
 
 ' renders the element
-Webmoney('Webmoney', 'Webmoney', 'an optional tech label')
+Webmoney('Webmoney', 'Webmoney', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Webmoney')
 
 ' renders the element
-Webmoney('Webmoney', 'Webmoney', 'an optional tech label')
+Webmoney('Webmoney', 'Webmoney', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Riotgames')
 
 ' renders the element
-Riotgames('Riotgames', 'Riotgames', 'an optional tech label')
+Riotgames('Riotgames', 'Riotgames', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Riotgames')
 
 ' renders the element
-Riotgames('Riotgames', 'Riotgames', 'an optional tech label')
+Riotgames('Riotgames', 'Riotgames', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

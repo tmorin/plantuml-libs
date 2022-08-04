@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Dolby')
 
 ' renders the element
-Dolby('Dolby', 'Dolby', 'an optional tech label')
+Dolby('Dolby', 'Dolby', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Dolby')
 
 ' renders the element
-Dolby('Dolby', 'Dolby', 'an optional tech label')
+Dolby('Dolby', 'Dolby', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Photobucket')
 
 ' renders the element
-Photobucket('Photobucket', 'Photobucket', 'an optional tech label')
+Photobucket('Photobucket', 'Photobucket', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Photobucket')
 
 ' renders the element
-Photobucket('Photobucket', 'Photobucket', 'an optional tech label')
+Photobucket('Photobucket', 'Photobucket', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

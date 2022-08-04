@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Airplayaudio')
 
 ' renders the element
-Airplayaudio('Airplayaudio', 'Airplayaudio', 'an optional tech label')
+Airplayaudio('Airplayaudio', 'Airplayaudio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Airplayaudio')
 
 ' renders the element
-Airplayaudio('Airplayaudio', 'Airplayaudio', 'an optional tech label')
+Airplayaudio('Airplayaudio', 'Airplayaudio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

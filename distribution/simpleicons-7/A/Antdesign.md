@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Antdesign')
 
 ' renders the element
-Antdesign('Antdesign', 'Antdesign', 'an optional tech label')
+Antdesign('Antdesign', 'Antdesign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Antdesign')
 
 ' renders the element
-Antdesign('Antdesign', 'Antdesign', 'an optional tech label')
+Antdesign('Antdesign', 'Antdesign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

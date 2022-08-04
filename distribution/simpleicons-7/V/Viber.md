@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Viber')
 
 ' renders the element
-Viber('Viber', 'Viber', 'an optional tech label')
+Viber('Viber', 'Viber', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Viber')
 
 ' renders the element
-Viber('Viber', 'Viber', 'an optional tech label')
+Viber('Viber', 'Viber', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

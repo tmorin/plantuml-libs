@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Azurefunctions')
 
 ' renders the element
-Azurefunctions('Azurefunctions', 'Azurefunctions', 'an optional tech label')
+Azurefunctions('Azurefunctions', 'Azurefunctions', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Azurefunctions')
 
 ' renders the element
-Azurefunctions('Azurefunctions', 'Azurefunctions', 'an optional tech label')
+Azurefunctions('Azurefunctions', 'Azurefunctions', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

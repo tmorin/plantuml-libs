@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Audible')
 
 ' renders the element
-Audible('Audible', 'Audible', 'an optional tech label')
+Audible('Audible', 'Audible', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Audible')
 
 ' renders the element
-Audible('Audible', 'Audible', 'an optional tech label')
+Audible('Audible', 'Audible', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

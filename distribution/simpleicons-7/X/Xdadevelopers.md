@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/X/Xdadevelopers')
 
 ' renders the element
-Xdadevelopers('Xdadevelopers', 'Xdadevelopers', 'an optional tech label')
+Xdadevelopers('Xdadevelopers', 'Xdadevelopers', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/X/Xdadevelopers')
 
 ' renders the element
-Xdadevelopers('Xdadevelopers', 'Xdadevelopers', 'an optional tech label')
+Xdadevelopers('Xdadevelopers', 'Xdadevelopers', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Emirates')
 
 ' renders the element
-Emirates('Emirates', 'Emirates', 'an optional tech label')
+Emirates('Emirates', 'Emirates', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Emirates')
 
 ' renders the element
-Emirates('Emirates', 'Emirates', 'an optional tech label')
+Emirates('Emirates', 'Emirates', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

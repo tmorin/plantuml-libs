@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Firebase')
 
 ' renders the element
-Firebase('Firebase', 'Firebase', 'an optional tech label')
+Firebase('Firebase', 'Firebase', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Firebase')
 
 ' renders the element
-Firebase('Firebase', 'Firebase', 'an optional tech label')
+Firebase('Firebase', 'Firebase', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

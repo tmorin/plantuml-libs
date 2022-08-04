@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Codesandbox')
 
 ' renders the element
-Codesandbox('Codesandbox', 'Codesandbox', 'an optional tech label')
+Codesandbox('Codesandbox', 'Codesandbox', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Codesandbox')
 
 ' renders the element
-Codesandbox('Codesandbox', 'Codesandbox', 'an optional tech label')
+Codesandbox('Codesandbox', 'Codesandbox', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

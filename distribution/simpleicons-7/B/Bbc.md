@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bbc')
 
 ' renders the element
-Bbc('Bbc', 'Bbc', 'an optional tech label')
+Bbc('Bbc', 'Bbc', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bbc')
 
 ' renders the element
-Bbc('Bbc', 'Bbc', 'an optional tech label')
+Bbc('Bbc', 'Bbc', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

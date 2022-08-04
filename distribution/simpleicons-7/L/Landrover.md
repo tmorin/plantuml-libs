@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Landrover')
 
 ' renders the element
-Landrover('Landrover', 'Landrover', 'an optional tech label')
+Landrover('Landrover', 'Landrover', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Landrover')
 
 ' renders the element
-Landrover('Landrover', 'Landrover', 'an optional tech label')
+Landrover('Landrover', 'Landrover', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

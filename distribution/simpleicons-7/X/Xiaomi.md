@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/X/Xiaomi')
 
 ' renders the element
-Xiaomi('Xiaomi', 'Xiaomi', 'an optional tech label')
+Xiaomi('Xiaomi', 'Xiaomi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/X/Xiaomi')
 
 ' renders the element
-Xiaomi('Xiaomi', 'Xiaomi', 'an optional tech label')
+Xiaomi('Xiaomi', 'Xiaomi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

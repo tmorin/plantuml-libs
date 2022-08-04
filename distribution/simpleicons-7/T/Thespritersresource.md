@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Thespritersresource')
 
 ' renders the element
-Thespritersresource('Thespritersresource', 'Thespritersresource', 'an optional tech label')
+Thespritersresource('Thespritersresource', 'Thespritersresource', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Thespritersresource')
 
 ' renders the element
-Thespritersresource('Thespritersresource', 'Thespritersresource', 'an optional tech label')
+Thespritersresource('Thespritersresource', 'Thespritersresource', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Kofi')
 
 ' renders the element
-Kofi('Kofi', 'Kofi', 'an optional tech label')
+Kofi('Kofi', 'Kofi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Kofi')
 
 ' renders the element
-Kofi('Kofi', 'Kofi', 'an optional tech label')
+Kofi('Kofi', 'Kofi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

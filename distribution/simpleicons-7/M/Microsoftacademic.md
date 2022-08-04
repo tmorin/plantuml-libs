@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Microsoftacademic')
 
 ' renders the element
-Microsoftacademic('Microsoftacademic', 'Microsoftacademic', 'an optional tech label')
+Microsoftacademic('Microsoftacademic', 'Microsoftacademic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Microsoftacademic')
 
 ' renders the element
-Microsoftacademic('Microsoftacademic', 'Microsoftacademic', 'an optional tech label')
+Microsoftacademic('Microsoftacademic', 'Microsoftacademic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

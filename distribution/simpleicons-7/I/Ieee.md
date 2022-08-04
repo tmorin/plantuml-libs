@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Ieee')
 
 ' renders the element
-Ieee('Ieee', 'Ieee', 'an optional tech label')
+Ieee('Ieee', 'Ieee', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Ieee')
 
 ' renders the element
-Ieee('Ieee', 'Ieee', 'an optional tech label')
+Ieee('Ieee', 'Ieee', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

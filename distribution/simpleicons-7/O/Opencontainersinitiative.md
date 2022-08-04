@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Opencontainersinitiative')
 
 ' renders the element
-Opencontainersinitiative('Opencontainersinitiative', 'Opencontainersinitiative', 'an optional tech label')
+Opencontainersinitiative('Opencontainersinitiative', 'Opencontainersinitiative', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Opencontainersinitiative')
 
 ' renders the element
-Opencontainersinitiative('Opencontainersinitiative', 'Opencontainersinitiative', 'an optional tech label')
+Opencontainersinitiative('Opencontainersinitiative', 'Opencontainersinitiative', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

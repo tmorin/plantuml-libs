@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Leaderprice')
 
 ' renders the element
-Leaderprice('Leaderprice', 'Leaderprice', 'an optional tech label')
+Leaderprice('Leaderprice', 'Leaderprice', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Leaderprice')
 
 ' renders the element
-Leaderprice('Leaderprice', 'Leaderprice', 'an optional tech label')
+Leaderprice('Leaderprice', 'Leaderprice', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

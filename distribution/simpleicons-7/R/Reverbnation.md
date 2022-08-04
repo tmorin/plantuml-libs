@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Reverbnation')
 
 ' renders the element
-Reverbnation('Reverbnation', 'Reverbnation', 'an optional tech label')
+Reverbnation('Reverbnation', 'Reverbnation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Reverbnation')
 
 ' renders the element
-Reverbnation('Reverbnation', 'Reverbnation', 'an optional tech label')
+Reverbnation('Reverbnation', 'Reverbnation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

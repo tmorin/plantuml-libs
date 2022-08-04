@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gentoo')
 
 ' renders the element
-Gentoo('Gentoo', 'Gentoo', 'an optional tech label')
+Gentoo('Gentoo', 'Gentoo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gentoo')
 
 ' renders the element
-Gentoo('Gentoo', 'Gentoo', 'an optional tech label')
+Gentoo('Gentoo', 'Gentoo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

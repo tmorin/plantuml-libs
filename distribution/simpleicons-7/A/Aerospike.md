@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Aerospike')
 
 ' renders the element
-Aerospike('Aerospike', 'Aerospike', 'an optional tech label')
+Aerospike('Aerospike', 'Aerospike', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Aerospike')
 
 ' renders the element
-Aerospike('Aerospike', 'Aerospike', 'an optional tech label')
+Aerospike('Aerospike', 'Aerospike', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

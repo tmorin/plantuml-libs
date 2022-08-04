@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Wwise')
 
 ' renders the element
-Wwise('Wwise', 'Wwise', 'an optional tech label')
+Wwise('Wwise', 'Wwise', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Wwise')
 
 ' renders the element
-Wwise('Wwise', 'Wwise', 'an optional tech label')
+Wwise('Wwise', 'Wwise', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hp')
 
 ' renders the element
-Hp('Hp', 'Hp', 'an optional tech label')
+Hp('Hp', 'Hp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hp')
 
 ' renders the element
-Hp('Hp', 'Hp', 'an optional tech label')
+Hp('Hp', 'Hp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

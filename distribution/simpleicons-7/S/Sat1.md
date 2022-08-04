@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sat1')
 
 ' renders the element
-Sat1('Sat1', 'Sat1', 'an optional tech label')
+Sat1('Sat1', 'Sat1', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sat1')
 
 ' renders the element
-Sat1('Sat1', 'Sat1', 'an optional tech label')
+Sat1('Sat1', 'Sat1', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

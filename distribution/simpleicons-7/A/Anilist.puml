@@ -8,6 +8,6 @@ sprite $AnilistMd [16x16/16z] ZOg50S0m20JvkXxxJrjtpKNWnGB8WH8sxJDwqSMcjvYp9ZteoZ
 
 sprite $AnilistLg [20x20/16z] fSpL0KC13090wfxRVzgwsxFxJ80CjS4EyW1URsEVD-rk4ypURZlaxORAykKsnoHvkRdvVrlw49YCZjvkRnlhgbhbP5OtQUa
 
-!procedure Anilist($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/A/Anilist', $name, $tech)
+!procedure Anilist($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/A/Anilist', $name, $tech, $desc)
 !endprocedure

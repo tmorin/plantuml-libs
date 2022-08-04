@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Klook')
 
 ' renders the element
-Klook('Klook', 'Klook', 'an optional tech label')
+Klook('Klook', 'Klook', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Klook')
 
 ' renders the element
-Klook('Klook', 'Klook', 'an optional tech label')
+Klook('Klook', 'Klook', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Honda')
 
 ' renders the element
-Honda('Honda', 'Honda', 'an optional tech label')
+Honda('Honda', 'Honda', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Honda')
 
 ' renders the element
-Honda('Honda', 'Honda', 'an optional tech label')
+Honda('Honda', 'Honda', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

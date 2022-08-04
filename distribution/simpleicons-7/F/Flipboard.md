@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Flipboard')
 
 ' renders the element
-Flipboard('Flipboard', 'Flipboard', 'an optional tech label')
+Flipboard('Flipboard', 'Flipboard', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Flipboard')
 
 ' renders the element
-Flipboard('Flipboard', 'Flipboard', 'an optional tech label')
+Flipboard('Flipboard', 'Flipboard', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

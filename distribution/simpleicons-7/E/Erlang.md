@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Erlang')
 
 ' renders the element
-Erlang('Erlang', 'Erlang', 'an optional tech label')
+Erlang('Erlang', 'Erlang', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Erlang')
 
 ' renders the element
-Erlang('Erlang', 'Erlang', 'an optional tech label')
+Erlang('Erlang', 'Erlang', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

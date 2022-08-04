@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Z/Zelle')
 
 ' renders the element
-Zelle('Zelle', 'Zelle', 'an optional tech label')
+Zelle('Zelle', 'Zelle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Z/Zelle')
 
 ' renders the element
-Zelle('Zelle', 'Zelle', 'an optional tech label')
+Zelle('Zelle', 'Zelle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

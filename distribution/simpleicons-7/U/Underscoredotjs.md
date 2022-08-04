@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/U/Underscoredotjs')
 
 ' renders the element
-Underscoredotjs('Underscoredotjs', 'Underscoredotjs', 'an optional tech label')
+Underscoredotjs('Underscoredotjs', 'Underscoredotjs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/U/Underscoredotjs')
 
 ' renders the element
-Underscoredotjs('Underscoredotjs', 'Underscoredotjs', 'an optional tech label')
+Underscoredotjs('Underscoredotjs', 'Underscoredotjs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

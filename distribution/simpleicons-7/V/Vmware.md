@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Vmware')
 
 ' renders the element
-Vmware('Vmware', 'Vmware', 'an optional tech label')
+Vmware('Vmware', 'Vmware', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Vmware')
 
 ' renders the element
-Vmware('Vmware', 'Vmware', 'an optional tech label')
+Vmware('Vmware', 'Vmware', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

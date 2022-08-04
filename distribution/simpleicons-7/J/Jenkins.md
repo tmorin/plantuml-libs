@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Jenkins')
 
 ' renders the element
-Jenkins('Jenkins', 'Jenkins', 'an optional tech label')
+Jenkins('Jenkins', 'Jenkins', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Jenkins')
 
 ' renders the element
-Jenkins('Jenkins', 'Jenkins', 'an optional tech label')
+Jenkins('Jenkins', 'Jenkins', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

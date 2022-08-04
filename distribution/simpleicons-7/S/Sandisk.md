@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sandisk')
 
 ' renders the element
-Sandisk('Sandisk', 'Sandisk', 'an optional tech label')
+Sandisk('Sandisk', 'Sandisk', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sandisk')
 
 ' renders the element
-Sandisk('Sandisk', 'Sandisk', 'an optional tech label')
+Sandisk('Sandisk', 'Sandisk', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

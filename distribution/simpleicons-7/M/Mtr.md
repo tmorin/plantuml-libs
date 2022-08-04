@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mtr')
 
 ' renders the element
-Mtr('Mtr', 'Mtr', 'an optional tech label')
+Mtr('Mtr', 'Mtr', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mtr')
 
 ' renders the element
-Mtr('Mtr', 'Mtr', 'an optional tech label')
+Mtr('Mtr', 'Mtr', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

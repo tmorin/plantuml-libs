@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Netflix')
 
 ' renders the element
-Netflix('Netflix', 'Netflix', 'an optional tech label')
+Netflix('Netflix', 'Netflix', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Netflix')
 
 ' renders the element
-Netflix('Netflix', 'Netflix', 'an optional tech label')
+Netflix('Netflix', 'Netflix', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

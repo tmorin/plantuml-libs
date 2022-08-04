@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Soundcloud')
 
 ' renders the element
-Soundcloud('Soundcloud', 'Soundcloud', 'an optional tech label')
+Soundcloud('Soundcloud', 'Soundcloud', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Soundcloud')
 
 ' renders the element
-Soundcloud('Soundcloud', 'Soundcloud', 'an optional tech label')
+Soundcloud('Soundcloud', 'Soundcloud', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

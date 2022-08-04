@@ -8,6 +8,6 @@ sprite $MidiMd [16x16/16z] Ow0ou041RWOU5YZD3mOC_AnyG02aWMmmP6LZPM14vlFpuET3pM5YO
 
 sprite $MidiLg [20x20/16z] nSYr0KGX54JHmPtflreqs_sMST1tSOZP88nG-wSCjwHe4gSGIPgvysWO1EDigCHg8V-tnAzjk6m-4eTq
 
-!procedure Midi($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/M/Midi', $name, $tech)
+!procedure Midi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/M/Midi', $name, $tech, $desc)
 !endprocedure

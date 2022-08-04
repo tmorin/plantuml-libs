@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Dragonframe')
 
 ' renders the element
-Dragonframe('Dragonframe', 'Dragonframe', 'an optional tech label')
+Dragonframe('Dragonframe', 'Dragonframe', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Dragonframe')
 
 ' renders the element
-Dragonframe('Dragonframe', 'Dragonframe', 'an optional tech label')
+Dragonframe('Dragonframe', 'Dragonframe', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

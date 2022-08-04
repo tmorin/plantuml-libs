@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bitbucket')
 
 ' renders the element
-Bitbucket('Bitbucket', 'Bitbucket', 'an optional tech label')
+Bitbucket('Bitbucket', 'Bitbucket', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bitbucket')
 
 ' renders the element
-Bitbucket('Bitbucket', 'Bitbucket', 'an optional tech label')
+Bitbucket('Bitbucket', 'Bitbucket', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

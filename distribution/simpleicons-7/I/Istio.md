@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Istio')
 
 ' renders the element
-Istio('Istio', 'Istio', 'an optional tech label')
+Istio('Istio', 'Istio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Istio')
 
 ' renders the element
-Istio('Istio', 'Istio', 'an optional tech label')
+Istio('Istio', 'Istio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

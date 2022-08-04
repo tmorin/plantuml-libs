@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cdprojekt')
 
 ' renders the element
-Cdprojekt('Cdprojekt', 'Cdprojekt', 'an optional tech label')
+Cdprojekt('Cdprojekt', 'Cdprojekt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cdprojekt')
 
 ' renders the element
-Cdprojekt('Cdprojekt', 'Cdprojekt', 'an optional tech label')
+Cdprojekt('Cdprojekt', 'Cdprojekt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Googlepodcasts')
 
 ' renders the element
-Googlepodcasts('Googlepodcasts', 'Googlepodcasts', 'an optional tech label')
+Googlepodcasts('Googlepodcasts', 'Googlepodcasts', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Googlepodcasts')
 
 ' renders the element
-Googlepodcasts('Googlepodcasts', 'Googlepodcasts', 'an optional tech label')
+Googlepodcasts('Googlepodcasts', 'Googlepodcasts', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

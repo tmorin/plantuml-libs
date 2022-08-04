@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pixabay')
 
 ' renders the element
-Pixabay('Pixabay', 'Pixabay', 'an optional tech label')
+Pixabay('Pixabay', 'Pixabay', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pixabay')
 
 ' renders the element
-Pixabay('Pixabay', 'Pixabay', 'an optional tech label')
+Pixabay('Pixabay', 'Pixabay', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

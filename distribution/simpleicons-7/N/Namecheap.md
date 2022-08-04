@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Namecheap')
 
 ' renders the element
-Namecheap('Namecheap', 'Namecheap', 'an optional tech label')
+Namecheap('Namecheap', 'Namecheap', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Namecheap')
 
 ' renders the element
-Namecheap('Namecheap', 'Namecheap', 'an optional tech label')
+Namecheap('Namecheap', 'Namecheap', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

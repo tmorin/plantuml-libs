@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Openapiinitiative')
 
 ' renders the element
-Openapiinitiative('Openapiinitiative', 'Openapiinitiative', 'an optional tech label')
+Openapiinitiative('Openapiinitiative', 'Openapiinitiative', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Openapiinitiative')
 
 ' renders the element
-Openapiinitiative('Openapiinitiative', 'Openapiinitiative', 'an optional tech label')
+Openapiinitiative('Openapiinitiative', 'Openapiinitiative', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

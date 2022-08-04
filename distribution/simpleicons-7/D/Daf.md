@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Daf')
 
 ' renders the element
-Daf('Daf', 'Daf', 'an optional tech label')
+Daf('Daf', 'Daf', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Daf')
 
 ' renders the element
-Daf('Daf', 'Daf', 'an optional tech label')
+Daf('Daf', 'Daf', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

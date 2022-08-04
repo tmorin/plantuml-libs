@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Aeromexico')
 
 ' renders the element
-Aeromexico('Aeromexico', 'Aeromexico', 'an optional tech label')
+Aeromexico('Aeromexico', 'Aeromexico', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Aeromexico')
 
 ' renders the element
-Aeromexico('Aeromexico', 'Aeromexico', 'an optional tech label')
+Aeromexico('Aeromexico', 'Aeromexico', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

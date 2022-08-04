@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Processingfoundation')
 
 ' renders the element
-Processingfoundation('Processingfoundation', 'Processingfoundation', 'an optional tech label')
+Processingfoundation('Processingfoundation', 'Processingfoundation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Processingfoundation')
 
 ' renders the element
-Processingfoundation('Processingfoundation', 'Processingfoundation', 'an optional tech label')
+Processingfoundation('Processingfoundation', 'Processingfoundation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

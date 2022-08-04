@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Svgo')
 
 ' renders the element
-Svgo('Svgo', 'Svgo', 'an optional tech label')
+Svgo('Svgo', 'Svgo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Svgo')
 
 ' renders the element
-Svgo('Svgo', 'Svgo', 'an optional tech label')
+Svgo('Svgo', 'Svgo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

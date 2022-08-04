@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Newjapanprowrestling')
 
 ' renders the element
-Newjapanprowrestling('Newjapanprowrestling', 'Newjapanprowrestling', 'an optional tech label')
+Newjapanprowrestling('Newjapanprowrestling', 'Newjapanprowrestling', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Newjapanprowrestling')
 
 ' renders the element
-Newjapanprowrestling('Newjapanprowrestling', 'Newjapanprowrestling', 'an optional tech label')
+Newjapanprowrestling('Newjapanprowrestling', 'Newjapanprowrestling', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

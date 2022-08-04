@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Aiohttp')
 
 ' renders the element
-Aiohttp('Aiohttp', 'Aiohttp', 'an optional tech label')
+Aiohttp('Aiohttp', 'Aiohttp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Aiohttp')
 
 ' renders the element
-Aiohttp('Aiohttp', 'Aiohttp', 'an optional tech label')
+Aiohttp('Aiohttp', 'Aiohttp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

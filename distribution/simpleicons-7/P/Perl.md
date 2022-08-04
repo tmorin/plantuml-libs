@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Perl')
 
 ' renders the element
-Perl('Perl', 'Perl', 'an optional tech label')
+Perl('Perl', 'Perl', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Perl')
 
 ' renders the element
-Perl('Perl', 'Perl', 'an optional tech label')
+Perl('Perl', 'Perl', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Codersrank')
 
 ' renders the element
-Codersrank('Codersrank', 'Codersrank', 'an optional tech label')
+Codersrank('Codersrank', 'Codersrank', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Codersrank')
 
 ' renders the element
-Codersrank('Codersrank', 'Codersrank', 'an optional tech label')
+Codersrank('Codersrank', 'Codersrank', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

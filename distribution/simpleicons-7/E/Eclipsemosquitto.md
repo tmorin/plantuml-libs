@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Eclipsemosquitto')
 
 ' renders the element
-Eclipsemosquitto('Eclipsemosquitto', 'Eclipsemosquitto', 'an optional tech label')
+Eclipsemosquitto('Eclipsemosquitto', 'Eclipsemosquitto', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Eclipsemosquitto')
 
 ' renders the element
-Eclipsemosquitto('Eclipsemosquitto', 'Eclipsemosquitto', 'an optional tech label')
+Eclipsemosquitto('Eclipsemosquitto', 'Eclipsemosquitto', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

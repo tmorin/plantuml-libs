@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Iota')
 
 ' renders the element
-Iota('Iota', 'Iota', 'an optional tech label')
+Iota('Iota', 'Iota', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Iota')
 
 ' renders the element
-Iota('Iota', 'Iota', 'an optional tech label')
+Iota('Iota', 'Iota', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

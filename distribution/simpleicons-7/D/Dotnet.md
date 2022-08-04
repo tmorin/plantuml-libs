@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Dotnet')
 
 ' renders the element
-Dotnet('Dotnet', 'Dotnet', 'an optional tech label')
+Dotnet('Dotnet', 'Dotnet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Dotnet')
 
 ' renders the element
-Dotnet('Dotnet', 'Dotnet', 'an optional tech label')
+Dotnet('Dotnet', 'Dotnet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

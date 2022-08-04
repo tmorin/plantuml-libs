@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Namebase')
 
 ' renders the element
-Namebase('Namebase', 'Namebase', 'an optional tech label')
+Namebase('Namebase', 'Namebase', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Namebase')
 
 ' renders the element
-Namebase('Namebase', 'Namebase', 'an optional tech label')
+Namebase('Namebase', 'Namebase', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

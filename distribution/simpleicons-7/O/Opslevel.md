@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Opslevel')
 
 ' renders the element
-Opslevel('Opslevel', 'Opslevel', 'an optional tech label')
+Opslevel('Opslevel', 'Opslevel', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Opslevel')
 
 ' renders the element
-Opslevel('Opslevel', 'Opslevel', 'an optional tech label')
+Opslevel('Opslevel', 'Opslevel', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

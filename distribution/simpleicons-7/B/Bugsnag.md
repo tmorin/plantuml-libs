@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bugsnag')
 
 ' renders the element
-Bugsnag('Bugsnag', 'Bugsnag', 'an optional tech label')
+Bugsnag('Bugsnag', 'Bugsnag', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bugsnag')
 
 ' renders the element
-Bugsnag('Bugsnag', 'Bugsnag', 'an optional tech label')
+Bugsnag('Bugsnag', 'Bugsnag', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

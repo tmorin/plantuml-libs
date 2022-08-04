@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Favro')
 
 ' renders the element
-Favro('Favro', 'Favro', 'an optional tech label')
+Favro('Favro', 'Favro', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Favro')
 
 ' renders the element
-Favro('Favro', 'Favro', 'an optional tech label')
+Favro('Favro', 'Favro', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

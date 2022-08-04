@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Oreilly')
 
 ' renders the element
-Oreilly('Oreilly', 'Oreilly', 'an optional tech label')
+Oreilly('Oreilly', 'Oreilly', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Oreilly')
 
 ' renders the element
-Oreilly('Oreilly', 'Oreilly', 'an optional tech label')
+Oreilly('Oreilly', 'Oreilly', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Docusign')
 
 ' renders the element
-Docusign('Docusign', 'Docusign', 'an optional tech label')
+Docusign('Docusign', 'Docusign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Docusign')
 
 ' renders the element
-Docusign('Docusign', 'Docusign', 'an optional tech label')
+Docusign('Docusign', 'Docusign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

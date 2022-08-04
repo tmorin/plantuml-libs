@@ -8,6 +8,6 @@ sprite $IndeedMd [16x16/16z] jSf50K0X00FGuSxwf_sA1k3T9cXKgHOOYGvGLRGOdlIIRTM02FC
 
 sprite $IndeedLg [20x20/16z] pO_50S0W301nXzj_shhRkuV64x6X2rMB8vxYbCt8NLNR-jbLLbo9UjJJZheqd0pKNJNP6JdKd5AUT6f-uD285HyeTTK0lzQrRTmU
 
-!procedure Indeed($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/I/Indeed', $name, $tech)
+!procedure Indeed($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/I/Indeed', $name, $tech, $desc)
 !endprocedure

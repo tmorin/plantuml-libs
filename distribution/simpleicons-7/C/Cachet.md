@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cachet')
 
 ' renders the element
-Cachet('Cachet', 'Cachet', 'an optional tech label')
+Cachet('Cachet', 'Cachet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cachet')
 
 ' renders the element
-Cachet('Cachet', 'Cachet', 'an optional tech label')
+Cachet('Cachet', 'Cachet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

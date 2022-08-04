@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Ram')
 
 ' renders the element
-Ram('Ram', 'Ram', 'an optional tech label')
+Ram('Ram', 'Ram', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Ram')
 
 ' renders the element
-Ram('Ram', 'Ram', 'an optional tech label')
+Ram('Ram', 'Ram', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

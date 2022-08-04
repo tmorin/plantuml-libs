@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sparkpost')
 
 ' renders the element
-Sparkpost('Sparkpost', 'Sparkpost', 'an optional tech label')
+Sparkpost('Sparkpost', 'Sparkpost', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sparkpost')
 
 ' renders the element
-Sparkpost('Sparkpost', 'Sparkpost', 'an optional tech label')
+Sparkpost('Sparkpost', 'Sparkpost', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

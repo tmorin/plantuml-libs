@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Acer')
 
 ' renders the element
-Acer('Acer', 'Acer', 'an optional tech label')
+Acer('Acer', 'Acer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Acer')
 
 ' renders the element
-Acer('Acer', 'Acer', 'an optional tech label')
+Acer('Acer', 'Acer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

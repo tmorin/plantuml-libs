@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Playerdotme')
 
 ' renders the element
-Playerdotme('Playerdotme', 'Playerdotme', 'an optional tech label')
+Playerdotme('Playerdotme', 'Playerdotme', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Playerdotme')
 
 ' renders the element
-Playerdotme('Playerdotme', 'Playerdotme', 'an optional tech label')
+Playerdotme('Playerdotme', 'Playerdotme', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

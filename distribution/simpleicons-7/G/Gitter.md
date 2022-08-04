@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gitter')
 
 ' renders the element
-Gitter('Gitter', 'Gitter', 'an optional tech label')
+Gitter('Gitter', 'Gitter', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gitter')
 
 ' renders the element
-Gitter('Gitter', 'Gitter', 'an optional tech label')
+Gitter('Gitter', 'Gitter', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

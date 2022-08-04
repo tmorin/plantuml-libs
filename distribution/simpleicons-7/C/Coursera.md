@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Coursera')
 
 ' renders the element
-Coursera('Coursera', 'Coursera', 'an optional tech label')
+Coursera('Coursera', 'Coursera', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Coursera')
 
 ' renders the element
-Coursera('Coursera', 'Coursera', 'an optional tech label')
+Coursera('Coursera', 'Coursera', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

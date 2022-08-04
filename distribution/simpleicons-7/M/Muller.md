@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Muller')
 
 ' renders the element
-Muller('Muller', 'Muller', 'an optional tech label')
+Muller('Muller', 'Muller', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Muller')
 
 ' renders the element
-Muller('Muller', 'Muller', 'an optional tech label')
+Muller('Muller', 'Muller', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

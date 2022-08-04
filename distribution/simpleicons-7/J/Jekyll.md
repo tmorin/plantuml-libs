@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Jekyll')
 
 ' renders the element
-Jekyll('Jekyll', 'Jekyll', 'an optional tech label')
+Jekyll('Jekyll', 'Jekyll', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Jekyll')
 
 ' renders the element
-Jekyll('Jekyll', 'Jekyll', 'an optional tech label')
+Jekyll('Jekyll', 'Jekyll', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

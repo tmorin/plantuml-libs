@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Premierleague')
 
 ' renders the element
-Premierleague('Premierleague', 'Premierleague', 'an optional tech label')
+Premierleague('Premierleague', 'Premierleague', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Premierleague')
 
 ' renders the element
-Premierleague('Premierleague', 'Premierleague', 'an optional tech label')
+Premierleague('Premierleague', 'Premierleague', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

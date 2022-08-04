@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mediatemple')
 
 ' renders the element
-Mediatemple('Mediatemple', 'Mediatemple', 'an optional tech label')
+Mediatemple('Mediatemple', 'Mediatemple', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mediatemple')
 
 ' renders the element
-Mediatemple('Mediatemple', 'Mediatemple', 'an optional tech label')
+Mediatemple('Mediatemple', 'Mediatemple', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

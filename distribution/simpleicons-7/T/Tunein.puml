@@ -8,6 +8,6 @@ sprite $TuneinMd [16x16/16z] dSUr0SG00CGmFqF0-qyRkYeCwiH56jD__w6-Rgg4wcFvRs_38QS
 
 sprite $TuneinLg [20x20/16z] Ow0AO8O3X1W_760LOu82PX2FYmiioCa10PmW3WSJM8mHMIylCqoCaP4HGuo3dnqg1YHXUdaHzf8e1WK8vsCJuqFn9kK
 
-!procedure Tunein($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/T/Tunein', $name, $tech)
+!procedure Tunein($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/T/Tunein', $name, $tech, $desc)
 !endprocedure

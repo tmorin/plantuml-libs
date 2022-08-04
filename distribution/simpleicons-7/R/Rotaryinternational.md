@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Rotaryinternational')
 
 ' renders the element
-Rotaryinternational('Rotaryinternational', 'Rotaryinternational', 'an optional tech label')
+Rotaryinternational('Rotaryinternational', 'Rotaryinternational', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Rotaryinternational')
 
 ' renders the element
-Rotaryinternational('Rotaryinternational', 'Rotaryinternational', 'an optional tech label')
+Rotaryinternational('Rotaryinternational', 'Rotaryinternational', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

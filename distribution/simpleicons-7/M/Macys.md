@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Macys')
 
 ' renders the element
-Macys('Macys', 'Macys', 'an optional tech label')
+Macys('Macys', 'Macys', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Macys')
 
 ' renders the element
-Macys('Macys', 'Macys', 'an optional tech label')
+Macys('Macys', 'Macys', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lufthansa')
 
 ' renders the element
-Lufthansa('Lufthansa', 'Lufthansa', 'an optional tech label')
+Lufthansa('Lufthansa', 'Lufthansa', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lufthansa')
 
 ' renders the element
-Lufthansa('Lufthansa', 'Lufthansa', 'an optional tech label')
+Lufthansa('Lufthansa', 'Lufthansa', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

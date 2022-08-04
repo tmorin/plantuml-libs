@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Grunt')
 
 ' renders the element
-Grunt('Grunt', 'Grunt', 'an optional tech label')
+Grunt('Grunt', 'Grunt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Grunt')
 
 ' renders the element
-Grunt('Grunt', 'Grunt', 'an optional tech label')
+Grunt('Grunt', 'Grunt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

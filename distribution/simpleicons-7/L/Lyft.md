@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lyft')
 
 ' renders the element
-Lyft('Lyft', 'Lyft', 'an optional tech label')
+Lyft('Lyft', 'Lyft', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lyft')
 
 ' renders the element
-Lyft('Lyft', 'Lyft', 'an optional tech label')
+Lyft('Lyft', 'Lyft', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

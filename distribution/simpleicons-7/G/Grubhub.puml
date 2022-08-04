@@ -8,6 +8,6 @@ sprite $GrubhubMd [16x16/16z] jSUr0G0n4C0mFqF0-qyRA3F0gHFHjhNrutn_wyz-vveVHSR5UP
 
 sprite $GrubhubLg [20x20/16z] pOi50G0n30FJn_7vLpiMiIj3T3WNAeZxfWYd52yYjolc-wu4m_VTJSBd_OV1t95zAFuY6LtbD2vPbmRMRJ3RasW
 
-!procedure Grubhub($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/G/Grubhub', $name, $tech)
+!procedure Grubhub($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/G/Grubhub', $name, $tech, $desc)
 !endprocedure

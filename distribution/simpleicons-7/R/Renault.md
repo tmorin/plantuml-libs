@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Renault')
 
 ' renders the element
-Renault('Renault', 'Renault', 'an optional tech label')
+Renault('Renault', 'Renault', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Renault')
 
 ' renders the element
-Renault('Renault', 'Renault', 'an optional tech label')
+Renault('Renault', 'Renault', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

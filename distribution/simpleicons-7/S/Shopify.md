@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Shopify')
 
 ' renders the element
-Shopify('Shopify', 'Shopify', 'an optional tech label')
+Shopify('Shopify', 'Shopify', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Shopify')
 
 ' renders the element
-Shopify('Shopify', 'Shopify', 'an optional tech label')
+Shopify('Shopify', 'Shopify', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

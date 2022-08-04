@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Klarna')
 
 ' renders the element
-Klarna('Klarna', 'Klarna', 'an optional tech label')
+Klarna('Klarna', 'Klarna', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Klarna')
 
 ' renders the element
-Klarna('Klarna', 'Klarna', 'an optional tech label')
+Klarna('Klarna', 'Klarna', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

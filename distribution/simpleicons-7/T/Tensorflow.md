@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tensorflow')
 
 ' renders the element
-Tensorflow('Tensorflow', 'Tensorflow', 'an optional tech label')
+Tensorflow('Tensorflow', 'Tensorflow', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tensorflow')
 
 ' renders the element
-Tensorflow('Tensorflow', 'Tensorflow', 'an optional tech label')
+Tensorflow('Tensorflow', 'Tensorflow', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

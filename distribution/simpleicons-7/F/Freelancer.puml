@@ -8,6 +8,6 @@ sprite $FreelancerMd [16x16/16z] ZSl50GCX443HluxJVxMudfA7Zl7RGtRfH7t0gHLu_zgRn1V
 
 sprite $FreelancerLg [20x20/16z] fSlLOOL0503HMNauJF_LuivVSbQlyKyMons6qbaRIH52AYgYzdt1gdTLwT1VawjwkJWDQhdckHnjaHkJ2nvwlxdu6GMp1fuqHpwZlDL6tWQ-0dyo0G
 
-!procedure Freelancer($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/F/Freelancer', $name, $tech)
+!procedure Freelancer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/F/Freelancer', $name, $tech, $desc)
 !endprocedure

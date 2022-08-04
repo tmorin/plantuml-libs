@@ -8,6 +8,6 @@ sprite $RancherMd [16x16/16z] Ow0wO8K0BY1cOc1Yu4S1h5oSo5oWSYOOcm_1vmC24C49uKFCvU
 
 sprite $RancherLg [20x20/16z] nSYr0O100C30u4xsdnPtgFahZ_1Y5cLAwgvo5WaUugfHiv8czuwPf_hZoiknqYxcTNvTn4z6
 
-!procedure Rancher($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/R/Rancher', $name, $tech)
+!procedure Rancher($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/R/Rancher', $name, $tech, $desc)
 !endprocedure

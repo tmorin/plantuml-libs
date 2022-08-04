@@ -8,6 +8,6 @@ sprite $LitMd [16x16/16z] RSW70e0W509GsZlkVzk2flhrhmVYnvGxCwQctFI9MoPk-NYL9zh4sH
 
 sprite $LitLg [20x20/16z] VSw72S0m44FHIm_Dsd_QT0MPQpJnC1zRTSqJu5zv0r9htW1dqjm_qoRMnxeciDybRTvxXJQv_wOpysRUP6_wB-v5ZNCJCzx2yT89
 
-!procedure Lit($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/L/Lit', $name, $tech)
+!procedure Lit($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/L/Lit', $name, $tech, $desc)
 !endprocedure

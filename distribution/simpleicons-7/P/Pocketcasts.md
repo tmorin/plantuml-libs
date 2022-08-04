@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pocketcasts')
 
 ' renders the element
-Pocketcasts('Pocketcasts', 'Pocketcasts', 'an optional tech label')
+Pocketcasts('Pocketcasts', 'Pocketcasts', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pocketcasts')
 
 ' renders the element
-Pocketcasts('Pocketcasts', 'Pocketcasts', 'an optional tech label')
+Pocketcasts('Pocketcasts', 'Pocketcasts', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

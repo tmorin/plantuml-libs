@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Vodafone')
 
 ' renders the element
-Vodafone('Vodafone', 'Vodafone', 'an optional tech label')
+Vodafone('Vodafone', 'Vodafone', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Vodafone')
 
 ' renders the element
-Vodafone('Vodafone', 'Vodafone', 'an optional tech label')
+Vodafone('Vodafone', 'Vodafone', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Starship')
 
 ' renders the element
-Starship('Starship', 'Starship', 'an optional tech label')
+Starship('Starship', 'Starship', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Starship')
 
 ' renders the element
-Starship('Starship', 'Starship', 'an optional tech label')
+Starship('Starship', 'Starship', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

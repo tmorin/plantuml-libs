@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Heroku')
 
 ' renders the element
-Heroku('Heroku', 'Heroku', 'an optional tech label')
+Heroku('Heroku', 'Heroku', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Heroku')
 
 ' renders the element
-Heroku('Heroku', 'Heroku', 'an optional tech label')
+Heroku('Heroku', 'Heroku', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

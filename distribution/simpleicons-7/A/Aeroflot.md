@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Aeroflot')
 
 ' renders the element
-Aeroflot('Aeroflot', 'Aeroflot', 'an optional tech label')
+Aeroflot('Aeroflot', 'Aeroflot', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Aeroflot')
 
 ' renders the element
-Aeroflot('Aeroflot', 'Aeroflot', 'an optional tech label')
+Aeroflot('Aeroflot', 'Aeroflot', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

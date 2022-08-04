@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tesco')
 
 ' renders the element
-Tesco('Tesco', 'Tesco', 'an optional tech label')
+Tesco('Tesco', 'Tesco', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tesco')
 
 ' renders the element
-Tesco('Tesco', 'Tesco', 'an optional tech label')
+Tesco('Tesco', 'Tesco', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

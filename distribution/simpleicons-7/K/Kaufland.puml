@@ -8,6 +8,6 @@ sprite $KauflandMd [16x16/16z] uqS73AW02n-i34oYyT7aqTIZwYTeFZkwVMpezhEXkuSDXGyH8
 
 sprite $KauflandLg [20x20/16z] TSx50S0m34DHbSFQVzeoo_d75x1f1SbLRF1R3dxlCC-j0cv13MfGWneUSsKhLVRJjwDXT8PnD8pEC8w6qTLtKNDIMW
 
-!procedure Kaufland($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/K/Kaufland', $name, $tech)
+!procedure Kaufland($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/K/Kaufland', $name, $tech, $desc)
 !endprocedure

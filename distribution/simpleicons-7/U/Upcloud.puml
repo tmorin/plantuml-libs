@@ -8,6 +8,6 @@ sprite $UpcloudMd [16x16/16z] Ow09uEVZuqFcim8n1vZ5o0y5K7b-C8cac9k7XuUDZuiR0Y0I27
 
 sprite $UpcloudLg [20x20/16z] OnXOmCm71EXY888VJH1PZ9MB1GQOqUIOKJJmWG4pa8O1RWPCTUmmCIJ0Dr010W
 
-!procedure Upcloud($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/U/Upcloud', $name, $tech)
+!procedure Upcloud($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/U/Upcloud', $name, $tech, $desc)
 !endprocedure

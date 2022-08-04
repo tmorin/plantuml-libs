@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Vim')
 
 ' renders the element
-Vim('Vim', 'Vim', 'an optional tech label')
+Vim('Vim', 'Vim', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Vim')
 
 ' renders the element
-Vim('Vim', 'Vim', 'an optional tech label')
+Vim('Vim', 'Vim', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

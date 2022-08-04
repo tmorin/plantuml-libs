@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Kotlin')
 
 ' renders the element
-Kotlin('Kotlin', 'Kotlin', 'an optional tech label')
+Kotlin('Kotlin', 'Kotlin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Kotlin')
 
 ' renders the element
-Kotlin('Kotlin', 'Kotlin', 'an optional tech label')
+Kotlin('Kotlin', 'Kotlin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

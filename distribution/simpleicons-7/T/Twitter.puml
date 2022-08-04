@@ -8,6 +8,6 @@ sprite $TwitterMd [16x16/16z] XSV50KKX0C2mFiEX-q_xtJMtyC_AML9dEcuSRHwD2Mq0dcqCjI
 
 sprite $TwitterLg [20x20/16z] dSx50KCn30DGXJdQVzhsC_ExcOqF71a120ICAbkH0gH09x6dSrljMpaIYDt08hUgppdMVIxi-lQpSVN4U7NVY4xSfm0rf-IOcszRjAIoTJSenhD5OqaQXHj_
 
-!procedure Twitter($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/T/Twitter', $name, $tech)
+!procedure Twitter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/T/Twitter', $name, $tech, $desc)
 !endprocedure

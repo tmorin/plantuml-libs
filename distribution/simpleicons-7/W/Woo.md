@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Woo')
 
 ' renders the element
-Woo('Woo', 'Woo', 'an optional tech label')
+Woo('Woo', 'Woo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Woo')
 
 ' renders the element
-Woo('Woo', 'Woo', 'an optional tech label')
+Woo('Woo', 'Woo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

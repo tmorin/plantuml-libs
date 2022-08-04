@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Z/Zomato')
 
 ' renders the element
-Zomato('Zomato', 'Zomato', 'an optional tech label')
+Zomato('Zomato', 'Zomato', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Z/Zomato')
 
 ' renders the element
-Zomato('Zomato', 'Zomato', 'an optional tech label')
+Zomato('Zomato', 'Zomato', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

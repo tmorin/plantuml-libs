@@ -8,6 +8,6 @@ sprite $ServerfaultMd [16x16/16z] Oo0Hy4C10mmZ0qP6HXHvFZu-7YXW06AG63CKC00n8VEmoR
 
 sprite $ServerfaultLg [20x20/16z] fSt50S0W30NGdrxgxVxRukxm8Bd4iE2n8DFD_HPSYX0NzprSnwnqMP3fu7ApP46cZOlxNcxsxidrtaKd1W
 
-!procedure Serverfault($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/S/Serverfault', $name, $tech)
+!procedure Serverfault($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/S/Serverfault', $name, $tech, $desc)
 !endprocedure

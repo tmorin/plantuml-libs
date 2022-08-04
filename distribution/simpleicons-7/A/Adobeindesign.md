@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Adobeindesign')
 
 ' renders the element
-Adobeindesign('Adobeindesign', 'Adobeindesign', 'an optional tech label')
+Adobeindesign('Adobeindesign', 'Adobeindesign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Adobeindesign')
 
 ' renders the element
-Adobeindesign('Adobeindesign', 'Adobeindesign', 'an optional tech label')
+Adobeindesign('Adobeindesign', 'Adobeindesign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

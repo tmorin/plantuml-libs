@@ -8,6 +8,6 @@ sprite $StravaMd [16x16/16z] LO-30KGn341Jks__QG-ViIadUB60TJT1kmwmQOWs3IRj8Qbq5bL
 
 sprite $StravaLg [20x20/16z] VO-r0GD14CJqpAl-gpL5FbGyI8Vhf439EVKkPONmKhrAcUPfFlfaid5CXRS6g5Sg0_w5HqG0F17Pnl26BIsV53IzhMOo65GFyaGbOonbe9Ji_7W3
 
-!procedure Strava($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/S/Strava', $name, $tech)
+!procedure Strava($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/S/Strava', $name, $tech, $desc)
 !endprocedure

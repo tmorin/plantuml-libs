@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lionair')
 
 ' renders the element
-Lionair('Lionair', 'Lionair', 'an optional tech label')
+Lionair('Lionair', 'Lionair', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lionair')
 
 ' renders the element
-Lionair('Lionair', 'Lionair', 'an optional tech label')
+Lionair('Lionair', 'Lionair', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

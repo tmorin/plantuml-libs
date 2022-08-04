@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Redhatopenshift')
 
 ' renders the element
-Redhatopenshift('Redhatopenshift', 'Redhatopenshift', 'an optional tech label')
+Redhatopenshift('Redhatopenshift', 'Redhatopenshift', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Redhatopenshift')
 
 ' renders the element
-Redhatopenshift('Redhatopenshift', 'Redhatopenshift', 'an optional tech label')
+Redhatopenshift('Redhatopenshift', 'Redhatopenshift', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Adidas')
 
 ' renders the element
-Adidas('Adidas', 'Adidas', 'an optional tech label')
+Adidas('Adidas', 'Adidas', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Adidas')
 
 ' renders the element
-Adidas('Adidas', 'Adidas', 'an optional tech label')
+Adidas('Adidas', 'Adidas', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

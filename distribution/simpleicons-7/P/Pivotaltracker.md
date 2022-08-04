@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pivotaltracker')
 
 ' renders the element
-Pivotaltracker('Pivotaltracker', 'Pivotaltracker', 'an optional tech label')
+Pivotaltracker('Pivotaltracker', 'Pivotaltracker', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pivotaltracker')
 
 ' renders the element
-Pivotaltracker('Pivotaltracker', 'Pivotaltracker', 'an optional tech label')
+Pivotaltracker('Pivotaltracker', 'Pivotaltracker', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

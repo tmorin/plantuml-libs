@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Torbrowser')
 
 ' renders the element
-Torbrowser('Torbrowser', 'Torbrowser', 'an optional tech label')
+Torbrowser('Torbrowser', 'Torbrowser', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Torbrowser')
 
 ' renders the element
-Torbrowser('Torbrowser', 'Torbrowser', 'an optional tech label')
+Torbrowser('Torbrowser', 'Torbrowser', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

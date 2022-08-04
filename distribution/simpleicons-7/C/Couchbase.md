@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Couchbase')
 
 ' renders the element
-Couchbase('Couchbase', 'Couchbase', 'an optional tech label')
+Couchbase('Couchbase', 'Couchbase', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Couchbase')
 
 ' renders the element
-Couchbase('Couchbase', 'Couchbase', 'an optional tech label')
+Couchbase('Couchbase', 'Couchbase', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

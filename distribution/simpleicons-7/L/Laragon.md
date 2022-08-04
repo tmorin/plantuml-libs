@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Laragon')
 
 ' renders the element
-Laragon('Laragon', 'Laragon', 'an optional tech label')
+Laragon('Laragon', 'Laragon', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Laragon')
 
 ' renders the element
-Laragon('Laragon', 'Laragon', 'an optional tech label')
+Laragon('Laragon', 'Laragon', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

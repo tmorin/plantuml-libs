@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bunq')
 
 ' renders the element
-Bunq('Bunq', 'Bunq', 'an optional tech label')
+Bunq('Bunq', 'Bunq', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bunq')
 
 ' renders the element
-Bunq('Bunq', 'Bunq', 'an optional tech label')
+Bunq('Bunq', 'Bunq', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

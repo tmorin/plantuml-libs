@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Purgecss')
 
 ' renders the element
-Purgecss('Purgecss', 'Purgecss', 'an optional tech label')
+Purgecss('Purgecss', 'Purgecss', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Purgecss')
 
 ' renders the element
-Purgecss('Purgecss', 'Purgecss', 'an optional tech label')
+Purgecss('Purgecss', 'Purgecss', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

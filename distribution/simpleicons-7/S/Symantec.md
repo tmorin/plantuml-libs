@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Symantec')
 
 ' renders the element
-Symantec('Symantec', 'Symantec', 'an optional tech label')
+Symantec('Symantec', 'Symantec', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Symantec')
 
 ' renders the element
-Symantec('Symantec', 'Symantec', 'an optional tech label')
+Symantec('Symantec', 'Symantec', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

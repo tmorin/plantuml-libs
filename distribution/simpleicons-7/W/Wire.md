@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Wire')
 
 ' renders the element
-Wire('Wire', 'Wire', 'an optional tech label')
+Wire('Wire', 'Wire', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Wire')
 
 ' renders the element
-Wire('Wire', 'Wire', 'an optional tech label')
+Wire('Wire', 'Wire', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

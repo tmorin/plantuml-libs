@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Songkick')
 
 ' renders the element
-Songkick('Songkick', 'Songkick', 'an optional tech label')
+Songkick('Songkick', 'Songkick', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Songkick')
 
 ' renders the element
-Songkick('Songkick', 'Songkick', 'an optional tech label')
+Songkick('Songkick', 'Songkick', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

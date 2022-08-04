@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Coda')
 
 ' renders the element
-Coda('Coda', 'Coda', 'an optional tech label')
+Coda('Coda', 'Coda', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Coda')
 
 ' renders the element
-Coda('Coda', 'Coda', 'an optional tech label')
+Coda('Coda', 'Coda', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

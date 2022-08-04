@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Kahoot')
 
 ' renders the element
-Kahoot('Kahoot', 'Kahoot', 'an optional tech label')
+Kahoot('Kahoot', 'Kahoot', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Kahoot')
 
 ' renders the element
-Kahoot('Kahoot', 'Kahoot', 'an optional tech label')
+Kahoot('Kahoot', 'Kahoot', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

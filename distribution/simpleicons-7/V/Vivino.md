@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Vivino')
 
 ' renders the element
-Vivino('Vivino', 'Vivino', 'an optional tech label')
+Vivino('Vivino', 'Vivino', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Vivino')
 
 ' renders the element
-Vivino('Vivino', 'Vivino', 'an optional tech label')
+Vivino('Vivino', 'Vivino', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

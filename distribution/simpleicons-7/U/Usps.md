@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/U/Usps')
 
 ' renders the element
-Usps('Usps', 'Usps', 'an optional tech label')
+Usps('Usps', 'Usps', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/U/Usps')
 
 ' renders the element
-Usps('Usps', 'Usps', 'an optional tech label')
+Usps('Usps', 'Usps', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

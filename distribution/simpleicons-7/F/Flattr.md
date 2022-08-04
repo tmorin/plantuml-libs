@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Flattr')
 
 ' renders the element
-Flattr('Flattr', 'Flattr', 'an optional tech label')
+Flattr('Flattr', 'Flattr', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Flattr')
 
 ' renders the element
-Flattr('Flattr', 'Flattr', 'an optional tech label')
+Flattr('Flattr', 'Flattr', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

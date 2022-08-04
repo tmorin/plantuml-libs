@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Dwm')
 
 ' renders the element
-Dwm('Dwm', 'Dwm', 'an optional tech label')
+Dwm('Dwm', 'Dwm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Dwm')
 
 ' renders the element
-Dwm('Dwm', 'Dwm', 'an optional tech label')
+Dwm('Dwm', 'Dwm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Figma')
 
 ' renders the element
-Figma('Figma', 'Figma', 'an optional tech label')
+Figma('Figma', 'Figma', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Figma')
 
 ' renders the element
-Figma('Figma', 'Figma', 'an optional tech label')
+Figma('Figma', 'Figma', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

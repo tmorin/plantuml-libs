@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Steamdeck')
 
 ' renders the element
-Steamdeck('Steamdeck', 'Steamdeck', 'an optional tech label')
+Steamdeck('Steamdeck', 'Steamdeck', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Steamdeck')
 
 ' renders the element
-Steamdeck('Steamdeck', 'Steamdeck', 'an optional tech label')
+Steamdeck('Steamdeck', 'Steamdeck', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

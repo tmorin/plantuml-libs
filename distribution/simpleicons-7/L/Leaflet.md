@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Leaflet')
 
 ' renders the element
-Leaflet('Leaflet', 'Leaflet', 'an optional tech label')
+Leaflet('Leaflet', 'Leaflet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Leaflet')
 
 ' renders the element
-Leaflet('Leaflet', 'Leaflet', 'an optional tech label')
+Leaflet('Leaflet', 'Leaflet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Jordan')
 
 ' renders the element
-Jordan('Jordan', 'Jordan', 'an optional tech label')
+Jordan('Jordan', 'Jordan', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Jordan')
 
 ' renders the element
-Jordan('Jordan', 'Jordan', 'an optional tech label')
+Jordan('Jordan', 'Jordan', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tableau')
 
 ' renders the element
-Tableau('Tableau', 'Tableau', 'an optional tech label')
+Tableau('Tableau', 'Tableau', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tableau')
 
 ' renders the element
-Tableau('Tableau', 'Tableau', 'an optional tech label')
+Tableau('Tableau', 'Tableau', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

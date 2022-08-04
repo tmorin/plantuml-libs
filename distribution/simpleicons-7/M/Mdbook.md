@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mdbook')
 
 ' renders the element
-Mdbook('Mdbook', 'Mdbook', 'an optional tech label')
+Mdbook('Mdbook', 'Mdbook', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mdbook')
 
 ' renders the element
-Mdbook('Mdbook', 'Mdbook', 'an optional tech label')
+Mdbook('Mdbook', 'Mdbook', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

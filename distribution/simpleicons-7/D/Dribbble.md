@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Dribbble')
 
 ' renders the element
-Dribbble('Dribbble', 'Dribbble', 'an optional tech label')
+Dribbble('Dribbble', 'Dribbble', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Dribbble')
 
 ' renders the element
-Dribbble('Dribbble', 'Dribbble', 'an optional tech label')
+Dribbble('Dribbble', 'Dribbble', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Q/Qiwi')
 
 ' renders the element
-Qiwi('Qiwi', 'Qiwi', 'an optional tech label')
+Qiwi('Qiwi', 'Qiwi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Q/Qiwi')
 
 ' renders the element
-Qiwi('Qiwi', 'Qiwi', 'an optional tech label')
+Qiwi('Qiwi', 'Qiwi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

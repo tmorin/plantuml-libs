@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Y/Yamahamotorcorporation')
 
 ' renders the element
-Yamahamotorcorporation('Yamahamotorcorporation', 'Yamahamotorcorporation', 'an optional tech label')
+Yamahamotorcorporation('Yamahamotorcorporation', 'Yamahamotorcorporation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Y/Yamahamotorcorporation')
 
 ' renders the element
-Yamahamotorcorporation('Yamahamotorcorporation', 'Yamahamotorcorporation', 'an optional tech label')
+Yamahamotorcorporation('Yamahamotorcorporation', 'Yamahamotorcorporation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

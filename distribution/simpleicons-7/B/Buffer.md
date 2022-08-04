@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Buffer')
 
 ' renders the element
-Buffer('Buffer', 'Buffer', 'an optional tech label')
+Buffer('Buffer', 'Buffer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Buffer')
 
 ' renders the element
-Buffer('Buffer', 'Buffer', 'an optional tech label')
+Buffer('Buffer', 'Buffer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

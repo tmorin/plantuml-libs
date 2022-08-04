@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Geant')
 
 ' renders the element
-Geant('Geant', 'Geant', 'an optional tech label')
+Geant('Geant', 'Geant', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Geant')
 
 ' renders the element
-Geant('Geant', 'Geant', 'an optional tech label')
+Geant('Geant', 'Geant', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

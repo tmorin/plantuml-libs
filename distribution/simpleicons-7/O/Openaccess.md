@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Openaccess')
 
 ' renders the element
-Openaccess('Openaccess', 'Openaccess', 'an optional tech label')
+Openaccess('Openaccess', 'Openaccess', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Openaccess')
 
 ' renders the element
-Openaccess('Openaccess', 'Openaccess', 'an optional tech label')
+Openaccess('Openaccess', 'Openaccess', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

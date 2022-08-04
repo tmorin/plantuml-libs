@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Anilist')
 
 ' renders the element
-Anilist('Anilist', 'Anilist', 'an optional tech label')
+Anilist('Anilist', 'Anilist', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Anilist')
 
 ' renders the element
-Anilist('Anilist', 'Anilist', 'an optional tech label')
+Anilist('Anilist', 'Anilist', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/X/Xdotorg')
 
 ' renders the element
-Xdotorg('Xdotorg', 'Xdotorg', 'an optional tech label')
+Xdotorg('Xdotorg', 'Xdotorg', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/X/Xdotorg')
 
 ' renders the element
-Xdotorg('Xdotorg', 'Xdotorg', 'an optional tech label')
+Xdotorg('Xdotorg', 'Xdotorg', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

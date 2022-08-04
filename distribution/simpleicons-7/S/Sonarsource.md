@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sonarsource')
 
 ' renders the element
-Sonarsource('Sonarsource', 'Sonarsource', 'an optional tech label')
+Sonarsource('Sonarsource', 'Sonarsource', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sonarsource')
 
 ' renders the element
-Sonarsource('Sonarsource', 'Sonarsource', 'an optional tech label')
+Sonarsource('Sonarsource', 'Sonarsource', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

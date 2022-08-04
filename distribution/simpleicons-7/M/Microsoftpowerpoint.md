@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Microsoftpowerpoint')
 
 ' renders the element
-Microsoftpowerpoint('Microsoftpowerpoint', 'Microsoftpowerpoint', 'an optional tech label')
+Microsoftpowerpoint('Microsoftpowerpoint', 'Microsoftpowerpoint', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Microsoftpowerpoint')
 
 ' renders the element
-Microsoftpowerpoint('Microsoftpowerpoint', 'Microsoftpowerpoint', 'an optional tech label')
+Microsoftpowerpoint('Microsoftpowerpoint', 'Microsoftpowerpoint', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

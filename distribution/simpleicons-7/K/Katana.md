@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Katana')
 
 ' renders the element
-Katana('Katana', 'Katana', 'an optional tech label')
+Katana('Katana', 'Katana', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Katana')
 
 ' renders the element
-Katana('Katana', 'Katana', 'an optional tech label')
+Katana('Katana', 'Katana', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

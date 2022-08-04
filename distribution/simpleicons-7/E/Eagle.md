@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Eagle')
 
 ' renders the element
-Eagle('Eagle', 'Eagle', 'an optional tech label')
+Eagle('Eagle', 'Eagle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Eagle')
 
 ' renders the element
-Eagle('Eagle', 'Eagle', 'an optional tech label')
+Eagle('Eagle', 'Eagle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

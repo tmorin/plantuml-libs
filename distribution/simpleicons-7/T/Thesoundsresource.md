@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Thesoundsresource')
 
 ' renders the element
-Thesoundsresource('Thesoundsresource', 'Thesoundsresource', 'an optional tech label')
+Thesoundsresource('Thesoundsresource', 'Thesoundsresource', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Thesoundsresource')
 
 ' renders the element
-Thesoundsresource('Thesoundsresource', 'Thesoundsresource', 'an optional tech label')
+Thesoundsresource('Thesoundsresource', 'Thesoundsresource', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

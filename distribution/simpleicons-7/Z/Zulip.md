@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Z/Zulip')
 
 ' renders the element
-Zulip('Zulip', 'Zulip', 'an optional tech label')
+Zulip('Zulip', 'Zulip', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Z/Zulip')
 
 ' renders the element
-Zulip('Zulip', 'Zulip', 'an optional tech label')
+Zulip('Zulip', 'Zulip', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

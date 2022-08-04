@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Leroymerlin')
 
 ' renders the element
-Leroymerlin('Leroymerlin', 'Leroymerlin', 'an optional tech label')
+Leroymerlin('Leroymerlin', 'Leroymerlin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Leroymerlin')
 
 ' renders the element
-Leroymerlin('Leroymerlin', 'Leroymerlin', 'an optional tech label')
+Leroymerlin('Leroymerlin', 'Leroymerlin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

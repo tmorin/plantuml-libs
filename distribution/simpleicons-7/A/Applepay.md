@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Applepay')
 
 ' renders the element
-Applepay('Applepay', 'Applepay', 'an optional tech label')
+Applepay('Applepay', 'Applepay', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Applepay')
 
 ' renders the element
-Applepay('Applepay', 'Applepay', 'an optional tech label')
+Applepay('Applepay', 'Applepay', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

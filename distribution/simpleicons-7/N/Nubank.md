@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Nubank')
 
 ' renders the element
-Nubank('Nubank', 'Nubank', 'an optional tech label')
+Nubank('Nubank', 'Nubank', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Nubank')
 
 ' renders the element
-Nubank('Nubank', 'Nubank', 'an optional tech label')
+Nubank('Nubank', 'Nubank', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

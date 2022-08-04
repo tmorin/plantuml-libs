@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Draugiemdotlv')
 
 ' renders the element
-Draugiemdotlv('Draugiemdotlv', 'Draugiemdotlv', 'an optional tech label')
+Draugiemdotlv('Draugiemdotlv', 'Draugiemdotlv', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Draugiemdotlv')
 
 ' renders the element
-Draugiemdotlv('Draugiemdotlv', 'Draugiemdotlv', 'an optional tech label')
+Draugiemdotlv('Draugiemdotlv', 'Draugiemdotlv', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

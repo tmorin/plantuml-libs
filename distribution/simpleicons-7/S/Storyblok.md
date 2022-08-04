@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Storyblok')
 
 ' renders the element
-Storyblok('Storyblok', 'Storyblok', 'an optional tech label')
+Storyblok('Storyblok', 'Storyblok', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Storyblok')
 
 ' renders the element
-Storyblok('Storyblok', 'Storyblok', 'an optional tech label')
+Storyblok('Storyblok', 'Storyblok', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

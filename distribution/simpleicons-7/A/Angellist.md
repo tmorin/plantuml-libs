@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Angellist')
 
 ' renders the element
-Angellist('Angellist', 'Angellist', 'an optional tech label')
+Angellist('Angellist', 'Angellist', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Angellist')
 
 ' renders the element
-Angellist('Angellist', 'Angellist', 'an optional tech label')
+Angellist('Angellist', 'Angellist', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

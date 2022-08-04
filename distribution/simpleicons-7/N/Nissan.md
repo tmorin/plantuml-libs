@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Nissan')
 
 ' renders the element
-Nissan('Nissan', 'Nissan', 'an optional tech label')
+Nissan('Nissan', 'Nissan', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Nissan')
 
 ' renders the element
-Nissan('Nissan', 'Nissan', 'an optional tech label')
+Nissan('Nissan', 'Nissan', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

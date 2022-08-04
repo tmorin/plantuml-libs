@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Runkeeper')
 
 ' renders the element
-Runkeeper('Runkeeper', 'Runkeeper', 'an optional tech label')
+Runkeeper('Runkeeper', 'Runkeeper', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Runkeeper')
 
 ' renders the element
-Runkeeper('Runkeeper', 'Runkeeper', 'an optional tech label')
+Runkeeper('Runkeeper', 'Runkeeper', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

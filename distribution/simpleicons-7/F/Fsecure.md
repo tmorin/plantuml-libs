@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fsecure')
 
 ' renders the element
-Fsecure('Fsecure', 'Fsecure', 'an optional tech label')
+Fsecure('Fsecure', 'Fsecure', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fsecure')
 
 ' renders the element
-Fsecure('Fsecure', 'Fsecure', 'an optional tech label')
+Fsecure('Fsecure', 'Fsecure', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

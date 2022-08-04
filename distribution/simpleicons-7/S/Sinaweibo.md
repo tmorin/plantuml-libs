@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sinaweibo')
 
 ' renders the element
-Sinaweibo('Sinaweibo', 'Sinaweibo', 'an optional tech label')
+Sinaweibo('Sinaweibo', 'Sinaweibo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sinaweibo')
 
 ' renders the element
-Sinaweibo('Sinaweibo', 'Sinaweibo', 'an optional tech label')
+Sinaweibo('Sinaweibo', 'Sinaweibo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

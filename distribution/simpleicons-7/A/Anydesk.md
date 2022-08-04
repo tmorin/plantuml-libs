@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Anydesk')
 
 ' renders the element
-Anydesk('Anydesk', 'Anydesk', 'an optional tech label')
+Anydesk('Anydesk', 'Anydesk', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Anydesk')
 
 ' renders the element
-Anydesk('Anydesk', 'Anydesk', 'an optional tech label')
+Anydesk('Anydesk', 'Anydesk', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

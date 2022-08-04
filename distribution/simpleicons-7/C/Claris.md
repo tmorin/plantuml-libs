@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Claris')
 
 ' renders the element
-Claris('Claris', 'Claris', 'an optional tech label')
+Claris('Claris', 'Claris', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Claris')
 
 ' renders the element
-Claris('Claris', 'Claris', 'an optional tech label')
+Claris('Claris', 'Claris', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

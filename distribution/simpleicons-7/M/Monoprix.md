@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Monoprix')
 
 ' renders the element
-Monoprix('Monoprix', 'Monoprix', 'an optional tech label')
+Monoprix('Monoprix', 'Monoprix', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Monoprix')
 
 ' renders the element
-Monoprix('Monoprix', 'Monoprix', 'an optional tech label')
+Monoprix('Monoprix', 'Monoprix', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

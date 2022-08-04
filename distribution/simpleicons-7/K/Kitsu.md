@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Kitsu')
 
 ' renders the element
-Kitsu('Kitsu', 'Kitsu', 'an optional tech label')
+Kitsu('Kitsu', 'Kitsu', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Kitsu')
 
 ' renders the element
-Kitsu('Kitsu', 'Kitsu', 'an optional tech label')
+Kitsu('Kitsu', 'Kitsu', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

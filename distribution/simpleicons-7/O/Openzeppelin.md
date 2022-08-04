@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Openzeppelin')
 
 ' renders the element
-Openzeppelin('Openzeppelin', 'Openzeppelin', 'an optional tech label')
+Openzeppelin('Openzeppelin', 'Openzeppelin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Openzeppelin')
 
 ' renders the element
-Openzeppelin('Openzeppelin', 'Openzeppelin', 'an optional tech label')
+Openzeppelin('Openzeppelin', 'Openzeppelin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

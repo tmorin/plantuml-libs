@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Racket')
 
 ' renders the element
-Racket('Racket', 'Racket', 'an optional tech label')
+Racket('Racket', 'Racket', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Racket')
 
 ' renders the element
-Racket('Racket', 'Racket', 'an optional tech label')
+Racket('Racket', 'Racket', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

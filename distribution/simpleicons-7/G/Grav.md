@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Grav')
 
 ' renders the element
-Grav('Grav', 'Grav', 'an optional tech label')
+Grav('Grav', 'Grav', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Grav')
 
 ' renders the element
-Grav('Grav', 'Grav', 'an optional tech label')
+Grav('Grav', 'Grav', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

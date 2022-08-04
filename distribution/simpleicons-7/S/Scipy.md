@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Scipy')
 
 ' renders the element
-Scipy('Scipy', 'Scipy', 'an optional tech label')
+Scipy('Scipy', 'Scipy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Scipy')
 
 ' renders the element
-Scipy('Scipy', 'Scipy', 'an optional tech label')
+Scipy('Scipy', 'Scipy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

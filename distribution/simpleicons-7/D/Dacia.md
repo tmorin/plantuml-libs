@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Dacia')
 
 ' renders the element
-Dacia('Dacia', 'Dacia', 'an optional tech label')
+Dacia('Dacia', 'Dacia', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Dacia')
 
 ' renders the element
-Dacia('Dacia', 'Dacia', 'an optional tech label')
+Dacia('Dacia', 'Dacia', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Plotly')
 
 ' renders the element
-Plotly('Plotly', 'Plotly', 'an optional tech label')
+Plotly('Plotly', 'Plotly', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Plotly')
 
 ' renders the element
-Plotly('Plotly', 'Plotly', 'an optional tech label')
+Plotly('Plotly', 'Plotly', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

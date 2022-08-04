@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/React')
 
 ' renders the element
-React('React', 'React', 'an optional tech label')
+React('React', 'React', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/React')
 
 ' renders the element
-React('React', 'React', 'an optional tech label')
+React('React', 'React', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

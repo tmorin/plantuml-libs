@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Monzo')
 
 ' renders the element
-Monzo('Monzo', 'Monzo', 'an optional tech label')
+Monzo('Monzo', 'Monzo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Monzo')
 
 ' renders the element
-Monzo('Monzo', 'Monzo', 'an optional tech label')
+Monzo('Monzo', 'Monzo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,6 +8,6 @@ sprite $TeamcityMd [16x16/16z] hSV50O0m04MnZpjl_sbnTzhc5bvvFOYaafxlo_EHqa2CL840r
 
 sprite $TeamcityLg [20x20/16z] lSY53SD044N1R_kONl_LXcbrWl28XtSCBf9Ew3fOk586f45QpILL3iojOhgWDXqIbCLUqy4ArcZyKpepjvpniZq
 
-!procedure Teamcity($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/T/Teamcity', $name, $tech)
+!procedure Teamcity($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/T/Teamcity', $name, $tech, $desc)
 !endprocedure

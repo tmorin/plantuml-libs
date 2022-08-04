@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mongodb')
 
 ' renders the element
-Mongodb('Mongodb', 'Mongodb', 'an optional tech label')
+Mongodb('Mongodb', 'Mongodb', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mongodb')
 
 ' renders the element
-Mongodb('Mongodb', 'Mongodb', 'an optional tech label')
+Mongodb('Mongodb', 'Mongodb', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,6 +8,6 @@ sprite $PicpayMd [16x16/16z] XSV50O000810x9RzfxKxUN6yLrH31pT0ThBDQ8VgoMsrMWT7KLH
 
 sprite $PicpayLg [20x20/16z] dSg54KCn0CDGXpdUVzhsCxEEtmctoQwriJPnOn02UMjaPu5jiRTQ1-lhh2c748nIAlOdnnIQH3VsZOQ7viYwi9fpPPETRInXPn9BK-ZxQFVz0G
 
-!procedure Picpay($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/P/Picpay', $name, $tech)
+!procedure Picpay($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/P/Picpay', $name, $tech, $desc)
 !endprocedure

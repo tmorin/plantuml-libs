@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fiat')
 
 ' renders the element
-Fiat('Fiat', 'Fiat', 'an optional tech label')
+Fiat('Fiat', 'Fiat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fiat')
 
 ' renders the element
-Fiat('Fiat', 'Fiat', 'an optional tech label')
+Fiat('Fiat', 'Fiat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Expressvpn')
 
 ' renders the element
-Expressvpn('Expressvpn', 'Expressvpn', 'an optional tech label')
+Expressvpn('Expressvpn', 'Expressvpn', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Expressvpn')
 
 ' renders the element
-Expressvpn('Expressvpn', 'Expressvpn', 'an optional tech label')
+Expressvpn('Expressvpn', 'Expressvpn', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

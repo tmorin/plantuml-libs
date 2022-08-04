@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Nintendo')
 
 ' renders the element
-Nintendo('Nintendo', 'Nintendo', 'an optional tech label')
+Nintendo('Nintendo', 'Nintendo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Nintendo')
 
 ' renders the element
-Nintendo('Nintendo', 'Nintendo', 'an optional tech label')
+Nintendo('Nintendo', 'Nintendo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Kuma')
 
 ' renders the element
-Kuma('Kuma', 'Kuma', 'an optional tech label')
+Kuma('Kuma', 'Kuma', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Kuma')
 
 ' renders the element
-Kuma('Kuma', 'Kuma', 'an optional tech label')
+Kuma('Kuma', 'Kuma', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

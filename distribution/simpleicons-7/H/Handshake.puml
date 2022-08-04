@@ -8,6 +8,6 @@ sprite $HandshakeMd [16x16/16z] jOt50O1G34DJtDb_M-hj0hnBx0k0xIKqNcPKHvbVrfqbykLw
 
 sprite $HandshakeLg [20x20/16z] hOu34aKn34NpQcV_gwqz-Bn5piIGPP739SoofojWKKKz0AUFJpAJLXHy1dRv06WpP7Lntf7cP8XkpGZNUasM4AfzJyHBDFicsTj79YtVywOF_kOpqoSw9G
 
-!procedure Handshake($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/H/Handshake', $name, $tech)
+!procedure Handshake($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/H/Handshake', $name, $tech, $desc)
 !endprocedure

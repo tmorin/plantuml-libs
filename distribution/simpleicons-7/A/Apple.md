@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Apple')
 
 ' renders the element
-Apple('Apple', 'Apple', 'an optional tech label')
+Apple('Apple', 'Apple', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Apple')
 
 ' renders the element
-Apple('Apple', 'Apple', 'an optional tech label')
+Apple('Apple', 'Apple', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

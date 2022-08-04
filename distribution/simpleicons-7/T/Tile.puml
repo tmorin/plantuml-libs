@@ -8,6 +8,6 @@ sprite $TileMd [16x16/16z] fSUr0SGm04MnPsR__QSz39K1TU8XTM1ch-CD-p-OwVicTTJX_obZf
 
 sprite $TileLg [20x20/16z] lOt50G9140JhV7UiyuyMzozmzMnb1oG05wOFROntpSpOxAeDhO-WC_UkwypRtYg3HV6gIVs4zAvTiLSjkQ9wsMimzOtrvJTq7sjE2pO7ncupF-S8
 
-!procedure Tile($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/T/Tile', $name, $tech)
+!procedure Tile($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/T/Tile', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Protocolsdotio')
 
 ' renders the element
-Protocolsdotio('Protocolsdotio', 'Protocolsdotio', 'an optional tech label')
+Protocolsdotio('Protocolsdotio', 'Protocolsdotio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Protocolsdotio')
 
 ' renders the element
-Protocolsdotio('Protocolsdotio', 'Protocolsdotio', 'an optional tech label')
+Protocolsdotio('Protocolsdotio', 'Protocolsdotio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

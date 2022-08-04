@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Peertube')
 
 ' renders the element
-Peertube('Peertube', 'Peertube', 'an optional tech label')
+Peertube('Peertube', 'Peertube', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Peertube')
 
 ' renders the element
-Peertube('Peertube', 'Peertube', 'an optional tech label')
+Peertube('Peertube', 'Peertube', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Codio')
 
 ' renders the element
-Codio('Codio', 'Codio', 'an optional tech label')
+Codio('Codio', 'Codio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Codio')
 
 ' renders the element
-Codio('Codio', 'Codio', 'an optional tech label')
+Codio('Codio', 'Codio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

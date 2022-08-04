@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Z/Zigbee')
 
 ' renders the element
-Zigbee('Zigbee', 'Zigbee', 'an optional tech label')
+Zigbee('Zigbee', 'Zigbee', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Z/Zigbee')
 
 ' renders the element
-Zigbee('Zigbee', 'Zigbee', 'an optional tech label')
+Zigbee('Zigbee', 'Zigbee', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

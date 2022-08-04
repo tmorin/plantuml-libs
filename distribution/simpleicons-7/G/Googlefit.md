@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Googlefit')
 
 ' renders the element
-Googlefit('Googlefit', 'Googlefit', 'an optional tech label')
+Googlefit('Googlefit', 'Googlefit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Googlefit')
 
 ' renders the element
-Googlefit('Googlefit', 'Googlefit', 'an optional tech label')
+Googlefit('Googlefit', 'Googlefit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

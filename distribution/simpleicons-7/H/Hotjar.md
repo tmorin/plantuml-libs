@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hotjar')
 
 ' renders the element
-Hotjar('Hotjar', 'Hotjar', 'an optional tech label')
+Hotjar('Hotjar', 'Hotjar', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hotjar')
 
 ' renders the element
-Hotjar('Hotjar', 'Hotjar', 'an optional tech label')
+Hotjar('Hotjar', 'Hotjar', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

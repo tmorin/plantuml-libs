@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Grab')
 
 ' renders the element
-Grab('Grab', 'Grab', 'an optional tech label')
+Grab('Grab', 'Grab', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Grab')
 
 ' renders the element
-Grab('Grab', 'Grab', 'an optional tech label')
+Grab('Grab', 'Grab', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Prezi')
 
 ' renders the element
-Prezi('Prezi', 'Prezi', 'an optional tech label')
+Prezi('Prezi', 'Prezi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Prezi')
 
 ' renders the element
-Prezi('Prezi', 'Prezi', 'an optional tech label')
+Prezi('Prezi', 'Prezi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

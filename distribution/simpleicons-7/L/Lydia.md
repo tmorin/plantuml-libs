@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lydia')
 
 ' renders the element
-Lydia('Lydia', 'Lydia', 'an optional tech label')
+Lydia('Lydia', 'Lydia', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lydia')
 
 ' renders the element
-Lydia('Lydia', 'Lydia', 'an optional tech label')
+Lydia('Lydia', 'Lydia', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

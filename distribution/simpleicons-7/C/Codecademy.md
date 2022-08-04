@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Codecademy')
 
 ' renders the element
-Codecademy('Codecademy', 'Codecademy', 'an optional tech label')
+Codecademy('Codecademy', 'Codecademy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Codecademy')
 
 ' renders the element
-Codecademy('Codecademy', 'Codecademy', 'an optional tech label')
+Codecademy('Codecademy', 'Codecademy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

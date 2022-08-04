@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/W3C')
 
 ' renders the element
-W3C('W3c', 'W3c', 'an optional tech label')
+W3C('W3c', 'W3c', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/W3C')
 
 ' renders the element
-W3C('W3c', 'W3c', 'an optional tech label')
+W3C('W3c', 'W3c', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

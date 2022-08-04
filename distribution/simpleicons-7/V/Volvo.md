@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Volvo')
 
 ' renders the element
-Volvo('Volvo', 'Volvo', 'an optional tech label')
+Volvo('Volvo', 'Volvo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Volvo')
 
 ' renders the element
-Volvo('Volvo', 'Volvo', 'an optional tech label')
+Volvo('Volvo', 'Volvo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

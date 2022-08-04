@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Ikea')
 
 ' renders the element
-Ikea('Ikea', 'Ikea', 'an optional tech label')
+Ikea('Ikea', 'Ikea', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Ikea')
 
 ' renders the element
-Ikea('Ikea', 'Ikea', 'an optional tech label')
+Ikea('Ikea', 'Ikea', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

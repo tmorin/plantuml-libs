@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Ardour')
 
 ' renders the element
-Ardour('Ardour', 'Ardour', 'an optional tech label')
+Ardour('Ardour', 'Ardour', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Ardour')
 
 ' renders the element
-Ardour('Ardour', 'Ardour', 'an optional tech label')
+Ardour('Ardour', 'Ardour', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

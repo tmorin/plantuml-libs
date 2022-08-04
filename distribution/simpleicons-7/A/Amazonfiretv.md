@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Amazonfiretv')
 
 ' renders the element
-Amazonfiretv('Amazonfiretv', 'Amazonfiretv', 'an optional tech label')
+Amazonfiretv('Amazonfiretv', 'Amazonfiretv', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Amazonfiretv')
 
 ' renders the element
-Amazonfiretv('Amazonfiretv', 'Amazonfiretv', 'an optional tech label')
+Amazonfiretv('Amazonfiretv', 'Amazonfiretv', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

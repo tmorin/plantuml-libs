@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cora')
 
 ' renders the element
-Cora('Cora', 'Cora', 'an optional tech label')
+Cora('Cora', 'Cora', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cora')
 
 ' renders the element
-Cora('Cora', 'Cora', 'an optional tech label')
+Cora('Cora', 'Cora', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/X/Xilinx')
 
 ' renders the element
-Xilinx('Xilinx', 'Xilinx', 'an optional tech label')
+Xilinx('Xilinx', 'Xilinx', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/X/Xilinx')
 
 ' renders the element
-Xilinx('Xilinx', 'Xilinx', 'an optional tech label')
+Xilinx('Xilinx', 'Xilinx', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

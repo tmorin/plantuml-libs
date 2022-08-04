@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Elsevier')
 
 ' renders the element
-Elsevier('Elsevier', 'Elsevier', 'an optional tech label')
+Elsevier('Elsevier', 'Elsevier', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Elsevier')
 
 ' renders the element
-Elsevier('Elsevier', 'Elsevier', 'an optional tech label')
+Elsevier('Elsevier', 'Elsevier', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

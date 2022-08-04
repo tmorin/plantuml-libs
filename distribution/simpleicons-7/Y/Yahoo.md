@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Y/Yahoo')
 
 ' renders the element
-Yahoo('Yahoo', 'Yahoo', 'an optional tech label')
+Yahoo('Yahoo', 'Yahoo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Y/Yahoo')
 
 ' renders the element
-Yahoo('Yahoo', 'Yahoo', 'an optional tech label')
+Yahoo('Yahoo', 'Yahoo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mattermost')
 
 ' renders the element
-Mattermost('Mattermost', 'Mattermost', 'an optional tech label')
+Mattermost('Mattermost', 'Mattermost', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mattermost')
 
 ' renders the element
-Mattermost('Mattermost', 'Mattermost', 'an optional tech label')
+Mattermost('Mattermost', 'Mattermost', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

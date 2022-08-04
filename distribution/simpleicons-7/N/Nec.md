@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Nec')
 
 ' renders the element
-Nec('Nec', 'Nec', 'an optional tech label')
+Nec('Nec', 'Nec', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Nec')
 
 ' renders the element
-Nec('Nec', 'Nec', 'an optional tech label')
+Nec('Nec', 'Nec', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

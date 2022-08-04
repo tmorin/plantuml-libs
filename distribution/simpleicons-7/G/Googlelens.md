@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Googlelens')
 
 ' renders the element
-Googlelens('Googlelens', 'Googlelens', 'an optional tech label')
+Googlelens('Googlelens', 'Googlelens', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Googlelens')
 
 ' renders the element
-Googlelens('Googlelens', 'Googlelens', 'an optional tech label')
+Googlelens('Googlelens', 'Googlelens', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

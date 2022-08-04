@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pelican')
 
 ' renders the element
-Pelican('Pelican', 'Pelican', 'an optional tech label')
+Pelican('Pelican', 'Pelican', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pelican')
 
 ' renders the element
-Pelican('Pelican', 'Pelican', 'an optional tech label')
+Pelican('Pelican', 'Pelican', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

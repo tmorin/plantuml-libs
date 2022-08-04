@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Dm')
 
 ' renders the element
-Dm('Dm', 'Dm', 'an optional tech label')
+Dm('Dm', 'Dm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Dm')
 
 ' renders the element
-Dm('Dm', 'Dm', 'an optional tech label')
+Dm('Dm', 'Dm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

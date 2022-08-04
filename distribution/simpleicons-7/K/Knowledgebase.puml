@@ -8,6 +8,6 @@ sprite $KnowledgebaseMd [16x16/16z] POl50O100CEAEzb_MZZN_2fHppt9izwo08kjuOsPM-0o
 
 sprite $KnowledgebaseLg [20x20/16z] TSg54O0m00J1Z-9S_zNY6ZaaFpjH9VjEuyxJ0UUAm6jqae6_COdRsAy4hcQx0xkfjCxPwc-2GQavbDfPtUQ2ZT2drc-ScWDQQysPTJCWibfPaYPj3J_oAhO2
 
-!procedure Knowledgebase($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/K/Knowledgebase', $name, $tech)
+!procedure Knowledgebase($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/K/Knowledgebase', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Etcd')
 
 ' renders the element
-Etcd('Etcd', 'Etcd', 'an optional tech label')
+Etcd('Etcd', 'Etcd', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Etcd')
 
 ' renders the element
-Etcd('Etcd', 'Etcd', 'an optional tech label')
+Etcd('Etcd', 'Etcd', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

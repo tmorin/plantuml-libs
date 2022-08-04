@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Instatus')
 
 ' renders the element
-Instatus('Instatus', 'Instatus', 'an optional tech label')
+Instatus('Instatus', 'Instatus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Instatus')
 
 ' renders the element
-Instatus('Instatus', 'Instatus', 'an optional tech label')
+Instatus('Instatus', 'Instatus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

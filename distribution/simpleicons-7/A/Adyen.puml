@@ -8,6 +8,6 @@ sprite $AdyenMd [16x16/16z] lSV10K0008NG3m1g_sa1RC0xLVwmD6zEYuLBOutOgFtxbGsE46YG
 
 sprite $AdyenLg [20x20/16z] pSZL0SD04CJGEPhRqAh_QiDaDs0__Kcx4-ZFiAiSL1VB7h9TP-Q9m7GAHZIuNFwUdbqW0-ud4PdF-rRd0QtKYA6DtG
 
-!procedure Adyen($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/A/Adyen', $name, $tech)
+!procedure Adyen($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/A/Adyen', $name, $tech, $desc)
 !endprocedure

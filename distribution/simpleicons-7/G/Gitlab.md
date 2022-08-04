@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gitlab')
 
 ' renders the element
-Gitlab('Gitlab', 'Gitlab', 'an optional tech label')
+Gitlab('Gitlab', 'Gitlab', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gitlab')
 
 ' renders the element
-Gitlab('Gitlab', 'Gitlab', 'an optional tech label')
+Gitlab('Gitlab', 'Gitlab', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

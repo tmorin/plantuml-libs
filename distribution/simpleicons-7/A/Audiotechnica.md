@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Audiotechnica')
 
 ' renders the element
-Audiotechnica('Audiotechnica', 'Audiotechnica', 'an optional tech label')
+Audiotechnica('Audiotechnica', 'Audiotechnica', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Audiotechnica')
 
 ' renders the element
-Audiotechnica('Audiotechnica', 'Audiotechnica', 'an optional tech label')
+Audiotechnica('Audiotechnica', 'Audiotechnica', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Wistia')
 
 ' renders the element
-Wistia('Wistia', 'Wistia', 'an optional tech label')
+Wistia('Wistia', 'Wistia', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Wistia')
 
 ' renders the element
-Wistia('Wistia', 'Wistia', 'an optional tech label')
+Wistia('Wistia', 'Wistia', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

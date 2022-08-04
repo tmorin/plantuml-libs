@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Squareenix')
 
 ' renders the element
-Squareenix('Squareenix', 'Squareenix', 'an optional tech label')
+Squareenix('Squareenix', 'Squareenix', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Squareenix')
 
 ' renders the element
-Squareenix('Squareenix', 'Squareenix', 'an optional tech label')
+Squareenix('Squareenix', 'Squareenix', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

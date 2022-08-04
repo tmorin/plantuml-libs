@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mix')
 
 ' renders the element
-Mix('Mix', 'Mix', 'an optional tech label')
+Mix('Mix', 'Mix', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mix')
 
 ' renders the element
-Mix('Mix', 'Mix', 'an optional tech label')
+Mix('Mix', 'Mix', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

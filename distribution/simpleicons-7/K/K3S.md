@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/K3S')
 
 ' renders the element
-K3S('K3s', 'K3s', 'an optional tech label')
+K3S('K3s', 'K3s', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/K3S')
 
 ' renders the element
-K3S('K3s', 'K3s', 'an optional tech label')
+K3S('K3s', 'K3s', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

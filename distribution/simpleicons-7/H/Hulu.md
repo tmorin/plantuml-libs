@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hulu')
 
 ' renders the element
-Hulu('Hulu', 'Hulu', 'an optional tech label')
+Hulu('Hulu', 'Hulu', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hulu')
 
 ' renders the element
-Hulu('Hulu', 'Hulu', 'an optional tech label')
+Hulu('Hulu', 'Hulu', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Flipkart')
 
 ' renders the element
-Flipkart('Flipkart', 'Flipkart', 'an optional tech label')
+Flipkart('Flipkart', 'Flipkart', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Flipkart')
 
 ' renders the element
-Flipkart('Flipkart', 'Flipkart', 'an optional tech label')
+Flipkart('Flipkart', 'Flipkart', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

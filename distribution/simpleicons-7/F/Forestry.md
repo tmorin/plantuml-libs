@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Forestry')
 
 ' renders the element
-Forestry('Forestry', 'Forestry', 'an optional tech label')
+Forestry('Forestry', 'Forestry', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Forestry')
 
 ' renders the element
-Forestry('Forestry', 'Forestry', 'an optional tech label')
+Forestry('Forestry', 'Forestry', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

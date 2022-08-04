@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sencha')
 
 ' renders the element
-Sencha('Sencha', 'Sencha', 'an optional tech label')
+Sencha('Sencha', 'Sencha', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sencha')
 
 ' renders the element
-Sencha('Sencha', 'Sencha', 'an optional tech label')
+Sencha('Sencha', 'Sencha', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Instapaper')
 
 ' renders the element
-Instapaper('Instapaper', 'Instapaper', 'an optional tech label')
+Instapaper('Instapaper', 'Instapaper', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Instapaper')
 
 ' renders the element
-Instapaper('Instapaper', 'Instapaper', 'an optional tech label')
+Instapaper('Instapaper', 'Instapaper', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

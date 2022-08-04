@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Roundcube')
 
 ' renders the element
-Roundcube('Roundcube', 'Roundcube', 'an optional tech label')
+Roundcube('Roundcube', 'Roundcube', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Roundcube')
 
 ' renders the element
-Roundcube('Roundcube', 'Roundcube', 'an optional tech label')
+Roundcube('Roundcube', 'Roundcube', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

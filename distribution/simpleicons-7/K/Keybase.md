@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Keybase')
 
 ' renders the element
-Keybase('Keybase', 'Keybase', 'an optional tech label')
+Keybase('Keybase', 'Keybase', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Keybase')
 
 ' renders the element
-Keybase('Keybase', 'Keybase', 'an optional tech label')
+Keybase('Keybase', 'Keybase', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

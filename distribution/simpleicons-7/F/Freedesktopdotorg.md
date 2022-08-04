@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Freedesktopdotorg')
 
 ' renders the element
-Freedesktopdotorg('Freedesktopdotorg', 'Freedesktopdotorg', 'an optional tech label')
+Freedesktopdotorg('Freedesktopdotorg', 'Freedesktopdotorg', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Freedesktopdotorg')
 
 ' renders the element
-Freedesktopdotorg('Freedesktopdotorg', 'Freedesktopdotorg', 'an optional tech label')
+Freedesktopdotorg('Freedesktopdotorg', 'Freedesktopdotorg', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

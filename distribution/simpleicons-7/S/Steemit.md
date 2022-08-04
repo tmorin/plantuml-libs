@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Steemit')
 
 ' renders the element
-Steemit('Steemit', 'Steemit', 'an optional tech label')
+Steemit('Steemit', 'Steemit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Steemit')
 
 ' renders the element
-Steemit('Steemit', 'Steemit', 'an optional tech label')
+Steemit('Steemit', 'Steemit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

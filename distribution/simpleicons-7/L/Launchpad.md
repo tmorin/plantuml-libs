@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Launchpad')
 
 ' renders the element
-Launchpad('Launchpad', 'Launchpad', 'an optional tech label')
+Launchpad('Launchpad', 'Launchpad', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Launchpad')
 
 ' renders the element
-Launchpad('Launchpad', 'Launchpad', 'an optional tech label')
+Launchpad('Launchpad', 'Launchpad', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

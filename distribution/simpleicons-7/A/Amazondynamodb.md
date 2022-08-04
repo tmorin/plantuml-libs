@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Amazondynamodb')
 
 ' renders the element
-Amazondynamodb('Amazondynamodb', 'Amazondynamodb', 'an optional tech label')
+Amazondynamodb('Amazondynamodb', 'Amazondynamodb', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Amazondynamodb')
 
 ' renders the element
-Amazondynamodb('Amazondynamodb', 'Amazondynamodb', 'an optional tech label')
+Amazondynamodb('Amazondynamodb', 'Amazondynamodb', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

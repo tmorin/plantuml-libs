@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Datadotai')
 
 ' renders the element
-Datadotai('Datadotai', 'Datadotai', 'an optional tech label')
+Datadotai('Datadotai', 'Datadotai', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Datadotai')
 
 ' renders the element
-Datadotai('Datadotai', 'Datadotai', 'an optional tech label')
+Datadotai('Datadotai', 'Datadotai', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

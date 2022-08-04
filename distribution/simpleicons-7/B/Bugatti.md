@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bugatti')
 
 ' renders the element
-Bugatti('Bugatti', 'Bugatti', 'an optional tech label')
+Bugatti('Bugatti', 'Bugatti', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bugatti')
 
 ' renders the element
-Bugatti('Bugatti', 'Bugatti', 'an optional tech label')
+Bugatti('Bugatti', 'Bugatti', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

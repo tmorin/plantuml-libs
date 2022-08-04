@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Starlingbank')
 
 ' renders the element
-Starlingbank('Starlingbank', 'Starlingbank', 'an optional tech label')
+Starlingbank('Starlingbank', 'Starlingbank', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Starlingbank')
 
 ' renders the element
-Starlingbank('Starlingbank', 'Starlingbank', 'an optional tech label')
+Starlingbank('Starlingbank', 'Starlingbank', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

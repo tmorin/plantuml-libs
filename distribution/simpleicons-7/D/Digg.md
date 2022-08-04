@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Digg')
 
 ' renders the element
-Digg('Digg', 'Digg', 'an optional tech label')
+Digg('Digg', 'Digg', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Digg')
 
 ' renders the element
-Digg('Digg', 'Digg', 'an optional tech label')
+Digg('Digg', 'Digg', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

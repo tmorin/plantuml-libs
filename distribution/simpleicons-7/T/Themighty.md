@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Themighty')
 
 ' renders the element
-Themighty('Themighty', 'Themighty', 'an optional tech label')
+Themighty('Themighty', 'Themighty', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Themighty')
 
 ' renders the element
-Themighty('Themighty', 'Themighty', 'an optional tech label')
+Themighty('Themighty', 'Themighty', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

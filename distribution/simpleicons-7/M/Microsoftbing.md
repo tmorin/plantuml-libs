@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Microsoftbing')
 
 ' renders the element
-Microsoftbing('Microsoftbing', 'Microsoftbing', 'an optional tech label')
+Microsoftbing('Microsoftbing', 'Microsoftbing', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Microsoftbing')
 
 ' renders the element
-Microsoftbing('Microsoftbing', 'Microsoftbing', 'an optional tech label')
+Microsoftbing('Microsoftbing', 'Microsoftbing', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

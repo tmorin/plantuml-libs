@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fluentbit')
 
 ' renders the element
-Fluentbit('Fluentbit', 'Fluentbit', 'an optional tech label')
+Fluentbit('Fluentbit', 'Fluentbit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fluentbit')
 
 ' renders the element
-Fluentbit('Fluentbit', 'Fluentbit', 'an optional tech label')
+Fluentbit('Fluentbit', 'Fluentbit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

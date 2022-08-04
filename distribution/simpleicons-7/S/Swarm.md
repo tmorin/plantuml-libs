@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Swarm')
 
 ' renders the element
-Swarm('Swarm', 'Swarm', 'an optional tech label')
+Swarm('Swarm', 'Swarm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Swarm')
 
 ' renders the element
-Swarm('Swarm', 'Swarm', 'an optional tech label')
+Swarm('Swarm', 'Swarm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

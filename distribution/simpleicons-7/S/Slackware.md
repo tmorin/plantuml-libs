@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Slackware')
 
 ' renders the element
-Slackware('Slackware', 'Slackware', 'an optional tech label')
+Slackware('Slackware', 'Slackware', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Slackware')
 
 ' renders the element
-Slackware('Slackware', 'Slackware', 'an optional tech label')
+Slackware('Slackware', 'Slackware', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

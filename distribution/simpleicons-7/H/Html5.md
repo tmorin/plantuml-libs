@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Html5')
 
 ' renders the element
-Html5('Html5', 'Html5', 'an optional tech label')
+Html5('Html5', 'Html5', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Html5')
 
 ' renders the element
-Html5('Html5', 'Html5', 'an optional tech label')
+Html5('Html5', 'Html5', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

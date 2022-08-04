@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Eightsleep')
 
 ' renders the element
-Eightsleep('Eightsleep', 'Eightsleep', 'an optional tech label')
+Eightsleep('Eightsleep', 'Eightsleep', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Eightsleep')
 
 ' renders the element
-Eightsleep('Eightsleep', 'Eightsleep', 'an optional tech label')
+Eightsleep('Eightsleep', 'Eightsleep', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

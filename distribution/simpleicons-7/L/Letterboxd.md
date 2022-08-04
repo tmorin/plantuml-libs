@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Letterboxd')
 
 ' renders the element
-Letterboxd('Letterboxd', 'Letterboxd', 'an optional tech label')
+Letterboxd('Letterboxd', 'Letterboxd', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Letterboxd')
 
 ' renders the element
-Letterboxd('Letterboxd', 'Letterboxd', 'an optional tech label')
+Letterboxd('Letterboxd', 'Letterboxd', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

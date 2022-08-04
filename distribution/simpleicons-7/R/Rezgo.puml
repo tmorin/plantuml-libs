@@ -8,6 +8,6 @@ sprite $RezgoMd [16x16/16z] fO_L0GKX3C1oXaFsd_QvozS5hRSycBiAKIk05wxlGnIgTYYwtUCM
 
 sprite $RezgoLg [20x20/16z] pP250SGW34LVtM7_RIyVXmdkjLWyeUNq0h1zGzm-acv4tIZRxFWM0PFTdsZsKbXceeoMFvNDsYwrCQXMszSY-igil8kIG_U599Gy7ZiaOM4XCR_9z43y
 
-!procedure Rezgo($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/R/Rezgo', $name, $tech)
+!procedure Rezgo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/R/Rezgo', $name, $tech, $desc)
 !endprocedure

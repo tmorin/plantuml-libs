@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cmake')
 
 ' renders the element
-Cmake('Cmake', 'Cmake', 'an optional tech label')
+Cmake('Cmake', 'Cmake', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cmake')
 
 ' renders the element
-Cmake('Cmake', 'Cmake', 'an optional tech label')
+Cmake('Cmake', 'Cmake', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

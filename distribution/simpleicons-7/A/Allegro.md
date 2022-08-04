@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Allegro')
 
 ' renders the element
-Allegro('Allegro', 'Allegro', 'an optional tech label')
+Allegro('Allegro', 'Allegro', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Allegro')
 
 ' renders the element
-Allegro('Allegro', 'Allegro', 'an optional tech label')
+Allegro('Allegro', 'Allegro', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

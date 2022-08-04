@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Jira')
 
 ' renders the element
-Jira('Jira', 'Jira', 'an optional tech label')
+Jira('Jira', 'Jira', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Jira')
 
 ' renders the element
-Jira('Jira', 'Jira', 'an optional tech label')
+Jira('Jira', 'Jira', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Z/Zalando')
 
 ' renders the element
-Zalando('Zalando', 'Zalando', 'an optional tech label')
+Zalando('Zalando', 'Zalando', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Z/Zalando')
 
 ' renders the element
-Zalando('Zalando', 'Zalando', 'an optional tech label')
+Zalando('Zalando', 'Zalando', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

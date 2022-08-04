@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Phpmyadmin')
 
 ' renders the element
-Phpmyadmin('Phpmyadmin', 'Phpmyadmin', 'an optional tech label')
+Phpmyadmin('Phpmyadmin', 'Phpmyadmin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Phpmyadmin')
 
 ' renders the element
-Phpmyadmin('Phpmyadmin', 'Phpmyadmin', 'an optional tech label')
+Phpmyadmin('Phpmyadmin', 'Phpmyadmin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

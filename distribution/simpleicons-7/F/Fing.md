@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fing')
 
 ' renders the element
-Fing('Fing', 'Fing', 'an optional tech label')
+Fing('Fing', 'Fing', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fing')
 
 ' renders the element
-Fing('Fing', 'Fing', 'an optional tech label')
+Fing('Fing', 'Fing', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

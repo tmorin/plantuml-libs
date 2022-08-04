@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Rxdb')
 
 ' renders the element
-Rxdb('Rxdb', 'Rxdb', 'an optional tech label')
+Rxdb('Rxdb', 'Rxdb', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Rxdb')
 
 ' renders the element
-Rxdb('Rxdb', 'Rxdb', 'an optional tech label')
+Rxdb('Rxdb', 'Rxdb', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

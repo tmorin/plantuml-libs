@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/_/_4Chan')
 
 ' renders the element
-_4Chan('4chan', '4chan', 'an optional tech label')
+_4Chan('4chan', '4chan', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/_/_4Chan')
 
 ' renders the element
-_4Chan('4chan', '4chan', 'an optional tech label')
+_4Chan('4chan', '4chan', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

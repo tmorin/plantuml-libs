@@ -8,6 +8,6 @@ sprite $CampaignmonitorMd [16x16/16z] bSV10K0m00J10m2s_se1k0z9vZTA1Bu2e7ewS9ZEPJ
 
 sprite $CampaignmonitorLg [20x20/16z] fSgr0SGm00D0cTdQVzh7e5BwwiC2Ow4SEN37hsbmojmKx2OtH_My2KSwLHYAY4fX31KIHSEWA9ugD2h39onu0m
 
-!procedure Campaignmonitor($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/C/Campaignmonitor', $name, $tech)
+!procedure Campaignmonitor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/C/Campaignmonitor', $name, $tech, $desc)
 !endprocedure

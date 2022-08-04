@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Konami')
 
 ' renders the element
-Konami('Konami', 'Konami', 'an optional tech label')
+Konami('Konami', 'Konami', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Konami')
 
 ' renders the element
-Konami('Konami', 'Konami', 'an optional tech label')
+Konami('Konami', 'Konami', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

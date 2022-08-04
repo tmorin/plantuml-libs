@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gocd')
 
 ' renders the element
-Gocd('Gocd', 'Gocd', 'an optional tech label')
+Gocd('Gocd', 'Gocd', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gocd')
 
 ' renders the element
-Gocd('Gocd', 'Gocd', 'an optional tech label')
+Gocd('Gocd', 'Gocd', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

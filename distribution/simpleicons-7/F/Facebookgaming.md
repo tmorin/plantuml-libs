@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Facebookgaming')
 
 ' renders the element
-Facebookgaming('Facebookgaming', 'Facebookgaming', 'an optional tech label')
+Facebookgaming('Facebookgaming', 'Facebookgaming', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Facebookgaming')
 
 ' renders the element
-Facebookgaming('Facebookgaming', 'Facebookgaming', 'an optional tech label')
+Facebookgaming('Facebookgaming', 'Facebookgaming', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

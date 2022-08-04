@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Feedly')
 
 ' renders the element
-Feedly('Feedly', 'Feedly', 'an optional tech label')
+Feedly('Feedly', 'Feedly', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Feedly')
 
 ' renders the element
-Feedly('Feedly', 'Feedly', 'an optional tech label')
+Feedly('Feedly', 'Feedly', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

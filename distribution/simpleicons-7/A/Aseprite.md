@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Aseprite')
 
 ' renders the element
-Aseprite('Aseprite', 'Aseprite', 'an optional tech label')
+Aseprite('Aseprite', 'Aseprite', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Aseprite')
 
 ' renders the element
-Aseprite('Aseprite', 'Aseprite', 'an optional tech label')
+Aseprite('Aseprite', 'Aseprite', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

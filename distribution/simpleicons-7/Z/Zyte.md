@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Z/Zyte')
 
 ' renders the element
-Zyte('Zyte', 'Zyte', 'an optional tech label')
+Zyte('Zyte', 'Zyte', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Z/Zyte')
 
 ' renders the element
-Zyte('Zyte', 'Zyte', 'an optional tech label')
+Zyte('Zyte', 'Zyte', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

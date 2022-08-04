@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Playerfm')
 
 ' renders the element
-Playerfm('Playerfm', 'Playerfm', 'an optional tech label')
+Playerfm('Playerfm', 'Playerfm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Playerfm')
 
 ' renders the element
-Playerfm('Playerfm', 'Playerfm', 'an optional tech label')
+Playerfm('Playerfm', 'Playerfm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

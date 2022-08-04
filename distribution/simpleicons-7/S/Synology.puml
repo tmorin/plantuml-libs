@@ -8,6 +8,6 @@ sprite $SynologyMd [16x16/16z] jOU55O1034F_lJR1OVzfSHi0uk5lwEmugewaxs8iKHKhwtfzO
 
 sprite $SynologyLg [20x20/16z] pS470SD0302n--rPyqVR7GwHkBdnAFwKdpPZ1U6fTbHdQ-9CmVTQIujIPuz60rUgZTszoPbD10FmmKNFJcxb1G
 
-!procedure Synology($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/S/Synology', $name, $tech)
+!procedure Synology($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/S/Synology', $name, $tech, $desc)
 !endprocedure

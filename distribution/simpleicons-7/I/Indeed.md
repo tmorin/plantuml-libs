@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Indeed')
 
 ' renders the element
-Indeed('Indeed', 'Indeed', 'an optional tech label')
+Indeed('Indeed', 'Indeed', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Indeed')
 
 ' renders the element
-Indeed('Indeed', 'Indeed', 'an optional tech label')
+Indeed('Indeed', 'Indeed', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

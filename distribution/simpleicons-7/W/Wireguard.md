@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Wireguard')
 
 ' renders the element
-Wireguard('Wireguard', 'Wireguard', 'an optional tech label')
+Wireguard('Wireguard', 'Wireguard', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Wireguard')
 
 ' renders the element
-Wireguard('Wireguard', 'Wireguard', 'an optional tech label')
+Wireguard('Wireguard', 'Wireguard', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

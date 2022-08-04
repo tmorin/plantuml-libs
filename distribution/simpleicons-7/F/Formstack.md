@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Formstack')
 
 ' renders the element
-Formstack('Formstack', 'Formstack', 'an optional tech label')
+Formstack('Formstack', 'Formstack', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Formstack')
 
 ' renders the element
-Formstack('Formstack', 'Formstack', 'an optional tech label')
+Formstack('Formstack', 'Formstack', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Houdini')
 
 ' renders the element
-Houdini('Houdini', 'Houdini', 'an optional tech label')
+Houdini('Houdini', 'Houdini', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Houdini')
 
 ' renders the element
-Houdini('Houdini', 'Houdini', 'an optional tech label')
+Houdini('Houdini', 'Houdini', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

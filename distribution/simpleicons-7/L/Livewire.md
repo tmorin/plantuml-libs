@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Livewire')
 
 ' renders the element
-Livewire('Livewire', 'Livewire', 'an optional tech label')
+Livewire('Livewire', 'Livewire', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Livewire')
 
 ' renders the element
-Livewire('Livewire', 'Livewire', 'an optional tech label')
+Livewire('Livewire', 'Livewire', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Eclipsejetty')
 
 ' renders the element
-Eclipsejetty('Eclipsejetty', 'Eclipsejetty', 'an optional tech label')
+Eclipsejetty('Eclipsejetty', 'Eclipsejetty', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Eclipsejetty')
 
 ' renders the element
-Eclipsejetty('Eclipsejetty', 'Eclipsejetty', 'an optional tech label')
+Eclipsejetty('Eclipsejetty', 'Eclipsejetty', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

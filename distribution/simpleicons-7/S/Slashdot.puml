@@ -8,6 +8,6 @@ sprite $SlashdotMd [16x16/16z] VK_50S0m4ABkPVzfusvyaEGC0IGtH9pA0zdpdDXt_FoHV_4yZ
 
 sprite $SlashdotLg [20x20/16z] XP253SGm4C3QC7l_QP-XOOjErl5n8GFbg05eL0B2Feq-xHoa5S3MIawwwLgfoRgYLdRIxQoL0_8hyB9DupyfVa9UcEfutdpJuj_bwaVvbrRUQTyATHnt
 
-!procedure Slashdot($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/S/Slashdot', $name, $tech)
+!procedure Slashdot($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/S/Slashdot', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bookstack')
 
 ' renders the element
-Bookstack('Bookstack', 'Bookstack', 'an optional tech label')
+Bookstack('Bookstack', 'Bookstack', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bookstack')
 
 ' renders the element
-Bookstack('Bookstack', 'Bookstack', 'an optional tech label')
+Bookstack('Bookstack', 'Bookstack', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

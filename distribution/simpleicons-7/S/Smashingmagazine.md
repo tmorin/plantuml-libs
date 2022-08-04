@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Smashingmagazine')
 
 ' renders the element
-Smashingmagazine('Smashingmagazine', 'Smashingmagazine', 'an optional tech label')
+Smashingmagazine('Smashingmagazine', 'Smashingmagazine', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Smashingmagazine')
 
 ' renders the element
-Smashingmagazine('Smashingmagazine', 'Smashingmagazine', 'an optional tech label')
+Smashingmagazine('Smashingmagazine', 'Smashingmagazine', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

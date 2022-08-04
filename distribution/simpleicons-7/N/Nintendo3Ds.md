@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Nintendo3Ds')
 
 ' renders the element
-Nintendo3Ds('Nintendo3Ds', 'Nintendo3 Ds', 'an optional tech label')
+Nintendo3Ds('Nintendo3Ds', 'Nintendo3 Ds', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Nintendo3Ds')
 
 ' renders the element
-Nintendo3Ds('Nintendo3Ds', 'Nintendo3 Ds', 'an optional tech label')
+Nintendo3Ds('Nintendo3Ds', 'Nintendo3 Ds', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

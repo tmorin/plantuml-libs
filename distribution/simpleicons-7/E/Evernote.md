@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Evernote')
 
 ' renders the element
-Evernote('Evernote', 'Evernote', 'an optional tech label')
+Evernote('Evernote', 'Evernote', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Evernote')
 
 ' renders the element
-Evernote('Evernote', 'Evernote', 'an optional tech label')
+Evernote('Evernote', 'Evernote', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

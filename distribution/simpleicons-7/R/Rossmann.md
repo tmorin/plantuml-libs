@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Rossmann')
 
 ' renders the element
-Rossmann('Rossmann', 'Rossmann', 'an optional tech label')
+Rossmann('Rossmann', 'Rossmann', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Rossmann')
 
 ' renders the element
-Rossmann('Rossmann', 'Rossmann', 'an optional tech label')
+Rossmann('Rossmann', 'Rossmann', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,6 +8,6 @@ sprite $SnowpackMd [16x16/16z] ZOhL0S0W34IBExV_jBX_zI79oVSFWLi3yPG12c9B3lq1Pxj-O
 
 sprite $SnowpackLg [20x20/16z] bSx5OSKm403HCVDE_zKcdytqJj8oToN1YhOi32fpcLRBe9Q43HEjGgACFhzc6WnBwBfE2pvghGbVnivHZAUDIXvAvtXm8Q1tAKjT6rpZedy
 
-!procedure Snowpack($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/S/Snowpack', $name, $tech)
+!procedure Snowpack($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/S/Snowpack', $name, $tech, $desc)
 !endprocedure

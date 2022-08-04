@@ -8,6 +8,6 @@ sprite $StackpathMd [16x16/16z] hSV70SCm3C10g91kOh3_jAaZnFSxxXQreAfsE2zgoY4cxjZ3
 
 sprite $StackpathLg [20x20/16z] nOk5OKGn3CKKvcZ_QTkZ7RxP3tWisYnGn-YHzoODz7YONjsWQ1EwJ659CE50Ap25BKUA0TJ1LBsuk18Z79dM58X6x4pZ5mDOqdtldnV0ZPV7uXy
 
-!procedure Stackpath($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/S/Stackpath', $name, $tech)
+!procedure Stackpath($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/S/Stackpath', $name, $tech, $desc)
 !endprocedure

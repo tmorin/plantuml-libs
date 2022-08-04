@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Labview')
 
 ' renders the element
-Labview('Labview', 'Labview', 'an optional tech label')
+Labview('Labview', 'Labview', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Labview')
 
 ' renders the element
-Labview('Labview', 'Labview', 'an optional tech label')
+Labview('Labview', 'Labview', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

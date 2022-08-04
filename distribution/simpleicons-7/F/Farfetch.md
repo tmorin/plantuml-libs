@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Farfetch')
 
 ' renders the element
-Farfetch('Farfetch', 'Farfetch', 'an optional tech label')
+Farfetch('Farfetch', 'Farfetch', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Farfetch')
 
 ' renders the element
-Farfetch('Farfetch', 'Farfetch', 'an optional tech label')
+Farfetch('Farfetch', 'Farfetch', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

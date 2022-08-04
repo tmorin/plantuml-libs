@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cucumber')
 
 ' renders the element
-Cucumber('Cucumber', 'Cucumber', 'an optional tech label')
+Cucumber('Cucumber', 'Cucumber', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cucumber')
 
 ' renders the element
-Cucumber('Cucumber', 'Cucumber', 'an optional tech label')
+Cucumber('Cucumber', 'Cucumber', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Snapcraft')
 
 ' renders the element
-Snapcraft('Snapcraft', 'Snapcraft', 'an optional tech label')
+Snapcraft('Snapcraft', 'Snapcraft', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Snapcraft')
 
 ' renders the element
-Snapcraft('Snapcraft', 'Snapcraft', 'an optional tech label')
+Snapcraft('Snapcraft', 'Snapcraft', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

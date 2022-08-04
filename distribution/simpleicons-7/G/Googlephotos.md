@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Googlephotos')
 
 ' renders the element
-Googlephotos('Googlephotos', 'Googlephotos', 'an optional tech label')
+Googlephotos('Googlephotos', 'Googlephotos', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Googlephotos')
 
 ' renders the element
-Googlephotos('Googlephotos', 'Googlephotos', 'an optional tech label')
+Googlephotos('Googlephotos', 'Googlephotos', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

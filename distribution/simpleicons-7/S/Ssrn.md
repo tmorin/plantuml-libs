@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Ssrn')
 
 ' renders the element
-Ssrn('Ssrn', 'Ssrn', 'an optional tech label')
+Ssrn('Ssrn', 'Ssrn', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Ssrn')
 
 ' renders the element
-Ssrn('Ssrn', 'Ssrn', 'an optional tech label')
+Ssrn('Ssrn', 'Ssrn', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

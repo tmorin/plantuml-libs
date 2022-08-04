@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Abbrobotstudio')
 
 ' renders the element
-Abbrobotstudio('Abbrobotstudio', 'Abbrobotstudio', 'an optional tech label')
+Abbrobotstudio('Abbrobotstudio', 'Abbrobotstudio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Abbrobotstudio')
 
 ' renders the element
-Abbrobotstudio('Abbrobotstudio', 'Abbrobotstudio', 'an optional tech label')
+Abbrobotstudio('Abbrobotstudio', 'Abbrobotstudio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

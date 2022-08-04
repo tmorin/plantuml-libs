@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Opensourceinitiative')
 
 ' renders the element
-Opensourceinitiative('Opensourceinitiative', 'Opensourceinitiative', 'an optional tech label')
+Opensourceinitiative('Opensourceinitiative', 'Opensourceinitiative', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Opensourceinitiative')
 
 ' renders the element
-Opensourceinitiative('Opensourceinitiative', 'Opensourceinitiative', 'an optional tech label')
+Opensourceinitiative('Opensourceinitiative', 'Opensourceinitiative', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

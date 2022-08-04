@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Conekta')
 
 ' renders the element
-Conekta('Conekta', 'Conekta', 'an optional tech label')
+Conekta('Conekta', 'Conekta', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Conekta')
 
 ' renders the element
-Conekta('Conekta', 'Conekta', 'an optional tech label')
+Conekta('Conekta', 'Conekta', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Flutter')
 
 ' renders the element
-Flutter('Flutter', 'Flutter', 'an optional tech label')
+Flutter('Flutter', 'Flutter', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Flutter')
 
 ' renders the element
-Flutter('Flutter', 'Flutter', 'an optional tech label')
+Flutter('Flutter', 'Flutter', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

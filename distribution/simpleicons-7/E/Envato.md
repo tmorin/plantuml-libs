@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Envato')
 
 ' renders the element
-Envato('Envato', 'Envato', 'an optional tech label')
+Envato('Envato', 'Envato', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Envato')
 
 ' renders the element
-Envato('Envato', 'Envato', 'an optional tech label')
+Envato('Envato', 'Envato', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

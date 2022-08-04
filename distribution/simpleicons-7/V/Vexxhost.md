@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Vexxhost')
 
 ' renders the element
-Vexxhost('Vexxhost', 'Vexxhost', 'an optional tech label')
+Vexxhost('Vexxhost', 'Vexxhost', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Vexxhost')
 
 ' renders the element
-Vexxhost('Vexxhost', 'Vexxhost', 'an optional tech label')
+Vexxhost('Vexxhost', 'Vexxhost', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cssmodules')
 
 ' renders the element
-Cssmodules('Cssmodules', 'Cssmodules', 'an optional tech label')
+Cssmodules('Cssmodules', 'Cssmodules', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cssmodules')
 
 ' renders the element
-Cssmodules('Cssmodules', 'Cssmodules', 'an optional tech label')
+Cssmodules('Cssmodules', 'Cssmodules', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

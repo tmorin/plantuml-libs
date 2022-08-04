@@ -8,6 +8,6 @@ sprite $ReverbnationMd [16x16/16z] TSs30S0m04JHgzs__xHbZ0jVg4gsnCHS4yEQs1peXZVRu
 
 sprite $ReverbnationLg [20x20/16z] VP034aHH3C0-dfNxdtQjOZRZrDt-KgpQiQvX7TXYM5frmARz56Fezu6IuvuPX7hNpu-fsuSXakIW89n9JC3AqYsOp-ppuzwD6kEjygVanFlm_Oeh
 
-!procedure Reverbnation($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/R/Reverbnation', $name, $tech)
+!procedure Reverbnation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/R/Reverbnation', $name, $tech, $desc)
 !endprocedure

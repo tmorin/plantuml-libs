@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Ansible')
 
 ' renders the element
-Ansible('Ansible', 'Ansible', 'an optional tech label')
+Ansible('Ansible', 'Ansible', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Ansible')
 
 ' renders the element
-Ansible('Ansible', 'Ansible', 'an optional tech label')
+Ansible('Ansible', 'Ansible', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

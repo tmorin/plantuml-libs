@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Metrodelaciudaddemexico')
 
 ' renders the element
-Metrodelaciudaddemexico('Metrodelaciudaddemexico', 'Metrodelaciudaddemexico', 'an optional tech label')
+Metrodelaciudaddemexico('Metrodelaciudaddemexico', 'Metrodelaciudaddemexico', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Metrodelaciudaddemexico')
 
 ' renders the element
-Metrodelaciudaddemexico('Metrodelaciudaddemexico', 'Metrodelaciudaddemexico', 'an optional tech label')
+Metrodelaciudaddemexico('Metrodelaciudaddemexico', 'Metrodelaciudaddemexico', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

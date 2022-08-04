@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sitepoint')
 
 ' renders the element
-Sitepoint('Sitepoint', 'Sitepoint', 'an optional tech label')
+Sitepoint('Sitepoint', 'Sitepoint', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sitepoint')
 
 ' renders the element
-Sitepoint('Sitepoint', 'Sitepoint', 'an optional tech label')
+Sitepoint('Sitepoint', 'Sitepoint', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

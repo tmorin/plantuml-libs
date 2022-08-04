@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Minecraft')
 
 ' renders the element
-Minecraft('Minecraft', 'Minecraft', 'an optional tech label')
+Minecraft('Minecraft', 'Minecraft', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Minecraft')
 
 ' renders the element
-Minecraft('Minecraft', 'Minecraft', 'an optional tech label')
+Minecraft('Minecraft', 'Minecraft', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

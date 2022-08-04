@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Q/Qiita')
 
 ' renders the element
-Qiita('Qiita', 'Qiita', 'an optional tech label')
+Qiita('Qiita', 'Qiita', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Q/Qiita')
 
 ' renders the element
-Qiita('Qiita', 'Qiita', 'an optional tech label')
+Qiita('Qiita', 'Qiita', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

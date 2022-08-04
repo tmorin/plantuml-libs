@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mercedes')
 
 ' renders the element
-Mercedes('Mercedes', 'Mercedes', 'an optional tech label')
+Mercedes('Mercedes', 'Mercedes', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mercedes')
 
 ' renders the element
-Mercedes('Mercedes', 'Mercedes', 'an optional tech label')
+Mercedes('Mercedes', 'Mercedes', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,6 +8,6 @@ sprite $ManMd [16x16/16z] hSZL0SDG34DH9Oz9T_zfo_HPEcRh7peOaguI-sLMjlDeKtVdnsuzSS
 
 sprite $ManLg [20x20/16z] lSor0OL044NHj-vx-w_skm0fSfBnqMKoCA5RVNbu9m7qLlYFyplFQC4XoR1zBVMiDQpGHkYXQukU8KwCeAenX0S7W9b4J0FmSpX6z2Hg6LJKy5C7kmC
 
-!procedure Man($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/M/Man', $name, $tech)
+!procedure Man($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/M/Man', $name, $tech, $desc)
 !endprocedure

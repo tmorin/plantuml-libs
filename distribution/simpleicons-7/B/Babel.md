@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Babel')
 
 ' renders the element
-Babel('Babel', 'Babel', 'an optional tech label')
+Babel('Babel', 'Babel', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Babel')
 
 ' renders the element
-Babel('Babel', 'Babel', 'an optional tech label')
+Babel('Babel', 'Babel', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Photopea')
 
 ' renders the element
-Photopea('Photopea', 'Photopea', 'an optional tech label')
+Photopea('Photopea', 'Photopea', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Photopea')
 
 ' renders the element
-Photopea('Photopea', 'Photopea', 'an optional tech label')
+Photopea('Photopea', 'Photopea', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

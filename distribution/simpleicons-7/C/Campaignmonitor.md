@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Campaignmonitor')
 
 ' renders the element
-Campaignmonitor('Campaignmonitor', 'Campaignmonitor', 'an optional tech label')
+Campaignmonitor('Campaignmonitor', 'Campaignmonitor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Campaignmonitor')
 
 ' renders the element
-Campaignmonitor('Campaignmonitor', 'Campaignmonitor', 'an optional tech label')
+Campaignmonitor('Campaignmonitor', 'Campaignmonitor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

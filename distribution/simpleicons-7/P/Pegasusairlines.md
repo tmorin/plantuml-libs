@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pegasusairlines')
 
 ' renders the element
-Pegasusairlines('Pegasusairlines', 'Pegasusairlines', 'an optional tech label')
+Pegasusairlines('Pegasusairlines', 'Pegasusairlines', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pegasusairlines')
 
 ' renders the element
-Pegasusairlines('Pegasusairlines', 'Pegasusairlines', 'an optional tech label')
+Pegasusairlines('Pegasusairlines', 'Pegasusairlines', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

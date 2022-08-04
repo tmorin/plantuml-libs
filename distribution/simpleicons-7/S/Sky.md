@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sky')
 
 ' renders the element
-Sky('Sky', 'Sky', 'an optional tech label')
+Sky('Sky', 'Sky', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sky')
 
 ' renders the element
-Sky('Sky', 'Sky', 'an optional tech label')
+Sky('Sky', 'Sky', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

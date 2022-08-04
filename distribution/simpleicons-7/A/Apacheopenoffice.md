@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Apacheopenoffice')
 
 ' renders the element
-Apacheopenoffice('Apacheopenoffice', 'Apacheopenoffice', 'an optional tech label')
+Apacheopenoffice('Apacheopenoffice', 'Apacheopenoffice', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Apacheopenoffice')
 
 ' renders the element
-Apacheopenoffice('Apacheopenoffice', 'Apacheopenoffice', 'an optional tech label')
+Apacheopenoffice('Apacheopenoffice', 'Apacheopenoffice', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sega')
 
 ' renders the element
-Sega('Sega', 'Sega', 'an optional tech label')
+Sega('Sega', 'Sega', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sega')
 
 ' renders the element
-Sega('Sega', 'Sega', 'an optional tech label')
+Sega('Sega', 'Sega', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

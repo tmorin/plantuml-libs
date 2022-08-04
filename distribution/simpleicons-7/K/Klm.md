@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Klm')
 
 ' renders the element
-Klm('Klm', 'Klm', 'an optional tech label')
+Klm('Klm', 'Klm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Klm')
 
 ' renders the element
-Klm('Klm', 'Klm', 'an optional tech label')
+Klm('Klm', 'Klm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

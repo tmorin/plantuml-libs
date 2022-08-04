@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lgtm')
 
 ' renders the element
-Lgtm('Lgtm', 'Lgtm', 'an optional tech label')
+Lgtm('Lgtm', 'Lgtm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lgtm')
 
 ' renders the element
-Lgtm('Lgtm', 'Lgtm', 'an optional tech label')
+Lgtm('Lgtm', 'Lgtm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

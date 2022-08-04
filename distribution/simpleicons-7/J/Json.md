@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Json')
 
 ' renders the element
-Json('Json', 'Json', 'an optional tech label')
+Json('Json', 'Json', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Json')
 
 ' renders the element
-Json('Json', 'Json', 'an optional tech label')
+Json('Json', 'Json', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

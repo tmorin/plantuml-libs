@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Empirekred')
 
 ' renders the element
-Empirekred('Empirekred', 'Empirekred', 'an optional tech label')
+Empirekred('Empirekred', 'Empirekred', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Empirekred')
 
 ' renders the element
-Empirekred('Empirekred', 'Empirekred', 'an optional tech label')
+Empirekred('Empirekred', 'Empirekred', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

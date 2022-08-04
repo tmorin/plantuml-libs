@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Wagtail')
 
 ' renders the element
-Wagtail('Wagtail', 'Wagtail', 'an optional tech label')
+Wagtail('Wagtail', 'Wagtail', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Wagtail')
 
 ' renders the element
-Wagtail('Wagtail', 'Wagtail', 'an optional tech label')
+Wagtail('Wagtail', 'Wagtail', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

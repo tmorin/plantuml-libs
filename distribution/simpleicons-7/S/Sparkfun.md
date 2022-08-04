@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sparkfun')
 
 ' renders the element
-Sparkfun('Sparkfun', 'Sparkfun', 'an optional tech label')
+Sparkfun('Sparkfun', 'Sparkfun', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sparkfun')
 
 ' renders the element
-Sparkfun('Sparkfun', 'Sparkfun', 'an optional tech label')
+Sparkfun('Sparkfun', 'Sparkfun', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

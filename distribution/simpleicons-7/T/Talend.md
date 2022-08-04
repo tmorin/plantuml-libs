@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Talend')
 
 ' renders the element
-Talend('Talend', 'Talend', 'an optional tech label')
+Talend('Talend', 'Talend', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Talend')
 
 ' renders the element
-Talend('Talend', 'Talend', 'an optional tech label')
+Talend('Talend', 'Talend', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

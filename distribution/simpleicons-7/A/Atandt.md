@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Atandt')
 
 ' renders the element
-Atandt('Atandt', 'Atandt', 'an optional tech label')
+Atandt('Atandt', 'Atandt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Atandt')
 
 ' renders the element
-Atandt('Atandt', 'Atandt', 'an optional tech label')
+Atandt('Atandt', 'Atandt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

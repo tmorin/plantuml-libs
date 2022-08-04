@@ -8,6 +8,6 @@ sprite $SaltprojectMd [16x16/16z] Oy01-A40ocL2u_EZyjdG-FoeV6uqFZzsW2R50-RZrCe9uU
 
 sprite $SaltprojectLg [20x20/16z] VSm53i002C10c7l__zl5fare_90ew-vkIkvkEsmTDcmJDco7BQdo8rOROUjjXAsrxM5BsnvL9m
 
-!procedure Saltproject($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/S/Saltproject', $name, $tech)
+!procedure Saltproject($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/S/Saltproject', $name, $tech, $desc)
 !endprocedure

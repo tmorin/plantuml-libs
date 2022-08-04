@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Eljueves')
 
 ' renders the element
-Eljueves('Eljueves', 'Eljueves', 'an optional tech label')
+Eljueves('Eljueves', 'Eljueves', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Eljueves')
 
 ' renders the element
-Eljueves('Eljueves', 'Eljueves', 'an optional tech label')
+Eljueves('Eljueves', 'Eljueves', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

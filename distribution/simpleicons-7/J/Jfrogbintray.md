@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Jfrogbintray')
 
 ' renders the element
-Jfrogbintray('Jfrogbintray', 'Jfrogbintray', 'an optional tech label')
+Jfrogbintray('Jfrogbintray', 'Jfrogbintray', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Jfrogbintray')
 
 ' renders the element
-Jfrogbintray('Jfrogbintray', 'Jfrogbintray', 'an optional tech label')
+Jfrogbintray('Jfrogbintray', 'Jfrogbintray', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

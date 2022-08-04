@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tmobile')
 
 ' renders the element
-Tmobile('Tmobile', 'Tmobile', 'an optional tech label')
+Tmobile('Tmobile', 'Tmobile', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tmobile')
 
 ' renders the element
-Tmobile('Tmobile', 'Tmobile', 'an optional tech label')
+Tmobile('Tmobile', 'Tmobile', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

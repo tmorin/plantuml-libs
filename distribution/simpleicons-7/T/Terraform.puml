@@ -8,6 +8,6 @@ sprite $TerraformMd [16x16/16z] ZSwr0GD140D07VEf_shjPr3qcyqoAjv1MZ6fxlM0EKocbOD0
 
 sprite $TerraformLg [20x20/16z] dSYr0SGm4031DREt_sgV3P8k-Wc7cbBh59nsmRa7PxETuNawV6PHQ8xJYb4LO3lEskEeWuCXEDZF6uzgvdh_t0pdwTXQ2ycvrv2V_dSimK5qjCSz0G
 
-!procedure Terraform($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/T/Terraform', $name, $tech)
+!procedure Terraform($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/T/Terraform', $name, $tech, $desc)
 !endprocedure

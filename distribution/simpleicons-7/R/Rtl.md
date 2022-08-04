@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Rtl')
 
 ' renders the element
-Rtl('Rtl', 'Rtl', 'an optional tech label')
+Rtl('Rtl', 'Rtl', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Rtl')
 
 ' renders the element
-Rtl('Rtl', 'Rtl', 'an optional tech label')
+Rtl('Rtl', 'Rtl', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

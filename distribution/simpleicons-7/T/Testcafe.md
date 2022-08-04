@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Testcafe')
 
 ' renders the element
-Testcafe('Testcafe', 'Testcafe', 'an optional tech label')
+Testcafe('Testcafe', 'Testcafe', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Testcafe')
 
 ' renders the element
-Testcafe('Testcafe', 'Testcafe', 'an optional tech label')
+Testcafe('Testcafe', 'Testcafe', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

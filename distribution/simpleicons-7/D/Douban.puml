@@ -8,6 +8,6 @@ sprite $DoubanMd [16x16/16z] ZSo50S0W40F0rBtPVzeAxd0uBmZHXzM7oEtOWWQxU4DhVFlrox8
 
 sprite $DoubanLg [20x20/16z] bSg50O0W04JHizlRVrgJRfvI7n12pn5inQRJXiTCcsXGca13RRE4sw-7i3GGz2KvwlY_N4X8azYJBHxTXvoUUIV5oJS7t
 
-!procedure Douban($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/D/Douban', $name, $tech)
+!procedure Douban($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/D/Douban', $name, $tech, $desc)
 !endprocedure

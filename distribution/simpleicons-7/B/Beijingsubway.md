@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Beijingsubway')
 
 ' renders the element
-Beijingsubway('Beijingsubway', 'Beijingsubway', 'an optional tech label')
+Beijingsubway('Beijingsubway', 'Beijingsubway', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Beijingsubway')
 
 ' renders the element
-Beijingsubway('Beijingsubway', 'Beijingsubway', 'an optional tech label')
+Beijingsubway('Beijingsubway', 'Beijingsubway', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

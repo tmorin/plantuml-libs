@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Linkedin')
 
 ' renders the element
-Linkedin('Linkedin', 'Linkedin', 'an optional tech label')
+Linkedin('Linkedin', 'Linkedin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Linkedin')
 
 ' renders the element
-Linkedin('Linkedin', 'Linkedin', 'an optional tech label')
+Linkedin('Linkedin', 'Linkedin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

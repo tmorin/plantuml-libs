@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Wprocket')
 
 ' renders the element
-Wprocket('Wprocket', 'Wprocket', 'an optional tech label')
+Wprocket('Wprocket', 'Wprocket', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Wprocket')
 
 ' renders the element
-Wprocket('Wprocket', 'Wprocket', 'an optional tech label')
+Wprocket('Wprocket', 'Wprocket', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

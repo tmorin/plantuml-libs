@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Grandfrais')
 
 ' renders the element
-Grandfrais('Grandfrais', 'Grandfrais', 'an optional tech label')
+Grandfrais('Grandfrais', 'Grandfrais', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Grandfrais')
 
 ' renders the element
-Grandfrais('Grandfrais', 'Grandfrais', 'an optional tech label')
+Grandfrais('Grandfrais', 'Grandfrais', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

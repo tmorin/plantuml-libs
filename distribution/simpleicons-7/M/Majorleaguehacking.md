@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Majorleaguehacking')
 
 ' renders the element
-Majorleaguehacking('Majorleaguehacking', 'Majorleaguehacking', 'an optional tech label')
+Majorleaguehacking('Majorleaguehacking', 'Majorleaguehacking', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Majorleaguehacking')
 
 ' renders the element
-Majorleaguehacking('Majorleaguehacking', 'Majorleaguehacking', 'an optional tech label')
+Majorleaguehacking('Majorleaguehacking', 'Majorleaguehacking', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

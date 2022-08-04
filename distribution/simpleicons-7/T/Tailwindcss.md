@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tailwindcss')
 
 ' renders the element
-Tailwindcss('Tailwindcss', 'Tailwindcss', 'an optional tech label')
+Tailwindcss('Tailwindcss', 'Tailwindcss', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tailwindcss')
 
 ' renders the element
-Tailwindcss('Tailwindcss', 'Tailwindcss', 'an optional tech label')
+Tailwindcss('Tailwindcss', 'Tailwindcss', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Wakatime')
 
 ' renders the element
-Wakatime('Wakatime', 'Wakatime', 'an optional tech label')
+Wakatime('Wakatime', 'Wakatime', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Wakatime')
 
 ' renders the element
-Wakatime('Wakatime', 'Wakatime', 'an optional tech label')
+Wakatime('Wakatime', 'Wakatime', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

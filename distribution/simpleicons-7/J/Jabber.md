@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Jabber')
 
 ' renders the element
-Jabber('Jabber', 'Jabber', 'an optional tech label')
+Jabber('Jabber', 'Jabber', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Jabber')
 
 ' renders the element
-Jabber('Jabber', 'Jabber', 'an optional tech label')
+Jabber('Jabber', 'Jabber', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Verdaccio')
 
 ' renders the element
-Verdaccio('Verdaccio', 'Verdaccio', 'an optional tech label')
+Verdaccio('Verdaccio', 'Verdaccio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Verdaccio')
 
 ' renders the element
-Verdaccio('Verdaccio', 'Verdaccio', 'an optional tech label')
+Verdaccio('Verdaccio', 'Verdaccio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

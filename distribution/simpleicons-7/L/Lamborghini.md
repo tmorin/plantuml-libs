@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lamborghini')
 
 ' renders the element
-Lamborghini('Lamborghini', 'Lamborghini', 'an optional tech label')
+Lamborghini('Lamborghini', 'Lamborghini', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lamborghini')
 
 ' renders the element
-Lamborghini('Lamborghini', 'Lamborghini', 'an optional tech label')
+Lamborghini('Lamborghini', 'Lamborghini', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

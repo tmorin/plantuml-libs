@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Kaniko')
 
 ' renders the element
-Kaniko('Kaniko', 'Kaniko', 'an optional tech label')
+Kaniko('Kaniko', 'Kaniko', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Kaniko')
 
 ' renders the element
-Kaniko('Kaniko', 'Kaniko', 'an optional tech label')
+Kaniko('Kaniko', 'Kaniko', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

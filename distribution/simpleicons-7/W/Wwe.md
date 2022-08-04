@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Wwe')
 
 ' renders the element
-Wwe('Wwe', 'Wwe', 'an optional tech label')
+Wwe('Wwe', 'Wwe', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Wwe')
 
 ' renders the element
-Wwe('Wwe', 'Wwe', 'an optional tech label')
+Wwe('Wwe', 'Wwe', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

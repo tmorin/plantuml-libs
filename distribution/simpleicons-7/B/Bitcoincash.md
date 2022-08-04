@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bitcoincash')
 
 ' renders the element
-Bitcoincash('Bitcoincash', 'Bitcoincash', 'an optional tech label')
+Bitcoincash('Bitcoincash', 'Bitcoincash', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bitcoincash')
 
 ' renders the element
-Bitcoincash('Bitcoincash', 'Bitcoincash', 'an optional tech label')
+Bitcoincash('Bitcoincash', 'Bitcoincash', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

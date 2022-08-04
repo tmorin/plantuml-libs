@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Reactivex')
 
 ' renders the element
-Reactivex('Reactivex', 'Reactivex', 'an optional tech label')
+Reactivex('Reactivex', 'Reactivex', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Reactivex')
 
 ' renders the element
-Reactivex('Reactivex', 'Reactivex', 'an optional tech label')
+Reactivex('Reactivex', 'Reactivex', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

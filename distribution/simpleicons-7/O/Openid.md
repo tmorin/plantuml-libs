@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Openid')
 
 ' renders the element
-Openid('Openid', 'Openid', 'an optional tech label')
+Openid('Openid', 'Openid', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Openid')
 
 ' renders the element
-Openid('Openid', 'Openid', 'an optional tech label')
+Openid('Openid', 'Openid', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

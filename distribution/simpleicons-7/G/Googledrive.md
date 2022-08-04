@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Googledrive')
 
 ' renders the element
-Googledrive('Googledrive', 'Googledrive', 'an optional tech label')
+Googledrive('Googledrive', 'Googledrive', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Googledrive')
 
 ' renders the element
-Googledrive('Googledrive', 'Googledrive', 'an optional tech label')
+Googledrive('Googledrive', 'Googledrive', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

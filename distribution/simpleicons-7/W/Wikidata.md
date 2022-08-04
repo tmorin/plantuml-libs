@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Wikidata')
 
 ' renders the element
-Wikidata('Wikidata', 'Wikidata', 'an optional tech label')
+Wikidata('Wikidata', 'Wikidata', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Wikidata')
 
 ' renders the element
-Wikidata('Wikidata', 'Wikidata', 'an optional tech label')
+Wikidata('Wikidata', 'Wikidata', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

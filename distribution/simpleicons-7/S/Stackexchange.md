@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Stackexchange')
 
 ' renders the element
-Stackexchange('Stackexchange', 'Stackexchange', 'an optional tech label')
+Stackexchange('Stackexchange', 'Stackexchange', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Stackexchange')
 
 ' renders the element
-Stackexchange('Stackexchange', 'Stackexchange', 'an optional tech label')
+Stackexchange('Stackexchange', 'Stackexchange', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

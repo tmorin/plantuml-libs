@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/U/Untappd')
 
 ' renders the element
-Untappd('Untappd', 'Untappd', 'an optional tech label')
+Untappd('Untappd', 'Untappd', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/U/Untappd')
 
 ' renders the element
-Untappd('Untappd', 'Untappd', 'an optional tech label')
+Untappd('Untappd', 'Untappd', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

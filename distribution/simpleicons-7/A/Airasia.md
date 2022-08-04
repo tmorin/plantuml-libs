@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Airasia')
 
 ' renders the element
-Airasia('Airasia', 'Airasia', 'an optional tech label')
+Airasia('Airasia', 'Airasia', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Airasia')
 
 ' renders the element
-Airasia('Airasia', 'Airasia', 'an optional tech label')
+Airasia('Airasia', 'Airasia', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

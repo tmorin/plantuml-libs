@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Windowsxp')
 
 ' renders the element
-Windowsxp('Windowsxp', 'Windowsxp', 'an optional tech label')
+Windowsxp('Windowsxp', 'Windowsxp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Windowsxp')
 
 ' renders the element
-Windowsxp('Windowsxp', 'Windowsxp', 'an optional tech label')
+Windowsxp('Windowsxp', 'Windowsxp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Puma')
 
 ' renders the element
-Puma('Puma', 'Puma', 'an optional tech label')
+Puma('Puma', 'Puma', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Puma')
 
 ' renders the element
-Puma('Puma', 'Puma', 'an optional tech label')
+Puma('Puma', 'Puma', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

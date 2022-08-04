@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fifa')
 
 ' renders the element
-Fifa('Fifa', 'Fifa', 'an optional tech label')
+Fifa('Fifa', 'Fifa', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fifa')
 
 ' renders the element
-Fifa('Fifa', 'Fifa', 'an optional tech label')
+Fifa('Fifa', 'Fifa', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Icon')
 
 ' renders the element
-Icon('Icon', 'Icon', 'an optional tech label')
+Icon('Icon', 'Icon', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Icon')
 
 ' renders the element
-Icon('Icon', 'Icon', 'an optional tech label')
+Icon('Icon', 'Icon', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

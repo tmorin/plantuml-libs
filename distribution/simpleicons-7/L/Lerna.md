@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lerna')
 
 ' renders the element
-Lerna('Lerna', 'Lerna', 'an optional tech label')
+Lerna('Lerna', 'Lerna', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lerna')
 
 ' renders the element
-Lerna('Lerna', 'Lerna', 'an optional tech label')
+Lerna('Lerna', 'Lerna', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

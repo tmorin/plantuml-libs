@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Rasa')
 
 ' renders the element
-Rasa('Rasa', 'Rasa', 'an optional tech label')
+Rasa('Rasa', 'Rasa', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Rasa')
 
 ' renders the element
-Rasa('Rasa', 'Rasa', 'an optional tech label')
+Rasa('Rasa', 'Rasa', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

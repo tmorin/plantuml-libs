@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Stmicroelectronics')
 
 ' renders the element
-Stmicroelectronics('Stmicroelectronics', 'Stmicroelectronics', 'an optional tech label')
+Stmicroelectronics('Stmicroelectronics', 'Stmicroelectronics', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Stmicroelectronics')
 
 ' renders the element
-Stmicroelectronics('Stmicroelectronics', 'Stmicroelectronics', 'an optional tech label')
+Stmicroelectronics('Stmicroelectronics', 'Stmicroelectronics', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cilium')
 
 ' renders the element
-Cilium('Cilium', 'Cilium', 'an optional tech label')
+Cilium('Cilium', 'Cilium', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cilium')
 
 ' renders the element
-Cilium('Cilium', 'Cilium', 'an optional tech label')
+Cilium('Cilium', 'Cilium', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cratedb')
 
 ' renders the element
-Cratedb('Cratedb', 'Cratedb', 'an optional tech label')
+Cratedb('Cratedb', 'Cratedb', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cratedb')
 
 ' renders the element
-Cratedb('Cratedb', 'Cratedb', 'an optional tech label')
+Cratedb('Cratedb', 'Cratedb', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

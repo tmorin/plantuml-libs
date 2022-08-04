@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mailgun')
 
 ' renders the element
-Mailgun('Mailgun', 'Mailgun', 'an optional tech label')
+Mailgun('Mailgun', 'Mailgun', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mailgun')
 
 ' renders the element
-Mailgun('Mailgun', 'Mailgun', 'an optional tech label')
+Mailgun('Mailgun', 'Mailgun', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

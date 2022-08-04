@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Ingress')
 
 ' renders the element
-Ingress('Ingress', 'Ingress', 'an optional tech label')
+Ingress('Ingress', 'Ingress', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Ingress')
 
 ' renders the element
-Ingress('Ingress', 'Ingress', 'an optional tech label')
+Ingress('Ingress', 'Ingress', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Dynamics365')
 
 ' renders the element
-Dynamics365('Dynamics365', 'Dynamics365', 'an optional tech label')
+Dynamics365('Dynamics365', 'Dynamics365', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Dynamics365')
 
 ' renders the element
-Dynamics365('Dynamics365', 'Dynamics365', 'an optional tech label')
+Dynamics365('Dynamics365', 'Dynamics365', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Vlcmediaplayer')
 
 ' renders the element
-Vlcmediaplayer('Vlcmediaplayer', 'Vlcmediaplayer', 'an optional tech label')
+Vlcmediaplayer('Vlcmediaplayer', 'Vlcmediaplayer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Vlcmediaplayer')
 
 ' renders the element
-Vlcmediaplayer('Vlcmediaplayer', 'Vlcmediaplayer', 'an optional tech label')
+Vlcmediaplayer('Vlcmediaplayer', 'Vlcmediaplayer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

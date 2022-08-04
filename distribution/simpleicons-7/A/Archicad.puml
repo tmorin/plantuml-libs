@@ -8,6 +8,6 @@ sprite $ArchicadMd [16x16/16z] ZOi50e1020Jjrld_Qwy0k-QIZUml2u5rge1fMOK6clGiwggXx
 
 sprite $ArchicadLg [20x20/16z] dSk50SCm4C10XStQVzeoStF69rOeQkHMz8YhfgOftoRFOvtErwwHWtHkB9vJzAVSeWjdUdeo3pcL1r4xhheUqCGDXVOmcIkz3ZneLXwCsZstDPui_6GB
 
-!procedure Archicad($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/A/Archicad', $name, $tech)
+!procedure Archicad($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/A/Archicad', $name, $tech, $desc)
 !endprocedure

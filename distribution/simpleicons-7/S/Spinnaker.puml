@@ -8,6 +8,6 @@ sprite $SpinnakerMd [16x16/16z] LSx50K0X30DGt27xJ_i5Js-lBYWqKu2fm6vaAG5zkJOWNWu0
 
 sprite $SpinnakerLg [20x20/16z] ZSx50K0X30DGt27xJ_jTyHvVBMIc12ij-TA0aWepj3I4pUZ_fzm8_6Tn9vWlANkOBSVWFkGliyNczmU_2P_DWdXCfyHtA5n3yY4gonIkaFrXilI55G
 
-!procedure Spinnaker($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/S/Spinnaker', $name, $tech)
+!procedure Spinnaker($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/S/Spinnaker', $name, $tech, $desc)
 !endprocedure

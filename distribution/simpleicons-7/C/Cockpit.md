@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cockpit')
 
 ' renders the element
-Cockpit('Cockpit', 'Cockpit', 'an optional tech label')
+Cockpit('Cockpit', 'Cockpit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cockpit')
 
 ' renders the element
-Cockpit('Cockpit', 'Cockpit', 'an optional tech label')
+Cockpit('Cockpit', 'Cockpit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

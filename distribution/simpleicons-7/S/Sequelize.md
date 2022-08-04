@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sequelize')
 
 ' renders the element
-Sequelize('Sequelize', 'Sequelize', 'an optional tech label')
+Sequelize('Sequelize', 'Sequelize', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sequelize')
 
 ' renders the element
-Sequelize('Sequelize', 'Sequelize', 'an optional tech label')
+Sequelize('Sequelize', 'Sequelize', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Y/Youtubegaming')
 
 ' renders the element
-Youtubegaming('Youtubegaming', 'Youtubegaming', 'an optional tech label')
+Youtubegaming('Youtubegaming', 'Youtubegaming', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Y/Youtubegaming')
 
 ' renders the element
-Youtubegaming('Youtubegaming', 'Youtubegaming', 'an optional tech label')
+Youtubegaming('Youtubegaming', 'Youtubegaming', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

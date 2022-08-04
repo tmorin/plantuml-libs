@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Openaigym')
 
 ' renders the element
-Openaigym('Openaigym', 'Openaigym', 'an optional tech label')
+Openaigym('Openaigym', 'Openaigym', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Openaigym')
 
 ' renders the element
-Openaigym('Openaigym', 'Openaigym', 'an optional tech label')
+Openaigym('Openaigym', 'Openaigym', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

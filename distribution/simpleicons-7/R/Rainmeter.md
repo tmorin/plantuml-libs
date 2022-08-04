@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Rainmeter')
 
 ' renders the element
-Rainmeter('Rainmeter', 'Rainmeter', 'an optional tech label')
+Rainmeter('Rainmeter', 'Rainmeter', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Rainmeter')
 
 ' renders the element
-Rainmeter('Rainmeter', 'Rainmeter', 'an optional tech label')
+Rainmeter('Rainmeter', 'Rainmeter', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

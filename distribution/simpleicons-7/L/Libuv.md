@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Libuv')
 
 ' renders the element
-Libuv('Libuv', 'Libuv', 'an optional tech label')
+Libuv('Libuv', 'Libuv', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Libuv')
 
 ' renders the element
-Libuv('Libuv', 'Libuv', 'an optional tech label')
+Libuv('Libuv', 'Libuv', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

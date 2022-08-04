@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Veeam')
 
 ' renders the element
-Veeam('Veeam', 'Veeam', 'an optional tech label')
+Veeam('Veeam', 'Veeam', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Veeam')
 
 ' renders the element
-Veeam('Veeam', 'Veeam', 'an optional tech label')
+Veeam('Veeam', 'Veeam', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

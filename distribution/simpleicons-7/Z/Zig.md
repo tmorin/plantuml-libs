@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Z/Zig')
 
 ' renders the element
-Zig('Zig', 'Zig', 'an optional tech label')
+Zig('Zig', 'Zig', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Z/Zig')
 
 ' renders the element
-Zig('Zig', 'Zig', 'an optional tech label')
+Zig('Zig', 'Zig', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

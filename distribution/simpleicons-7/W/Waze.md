@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Waze')
 
 ' renders the element
-Waze('Waze', 'Waze', 'an optional tech label')
+Waze('Waze', 'Waze', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Waze')
 
 ' renders the element
-Waze('Waze', 'Waze', 'an optional tech label')
+Waze('Waze', 'Waze', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

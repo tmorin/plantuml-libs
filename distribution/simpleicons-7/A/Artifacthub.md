@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Artifacthub')
 
 ' renders the element
-Artifacthub('Artifacthub', 'Artifacthub', 'an optional tech label')
+Artifacthub('Artifacthub', 'Artifacthub', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Artifacthub')
 
 ' renders the element
-Artifacthub('Artifacthub', 'Artifacthub', 'an optional tech label')
+Artifacthub('Artifacthub', 'Artifacthub', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

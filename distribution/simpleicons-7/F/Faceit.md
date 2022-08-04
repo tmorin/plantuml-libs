@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Faceit')
 
 ' renders the element
-Faceit('Faceit', 'Faceit', 'an optional tech label')
+Faceit('Faceit', 'Faceit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Faceit')
 
 ' renders the element
-Faceit('Faceit', 'Faceit', 'an optional tech label')
+Faceit('Faceit', 'Faceit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

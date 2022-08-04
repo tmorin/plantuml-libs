@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Garmin')
 
 ' renders the element
-Garmin('Garmin', 'Garmin', 'an optional tech label')
+Garmin('Garmin', 'Garmin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Garmin')
 
 ' renders the element
-Garmin('Garmin', 'Garmin', 'an optional tech label')
+Garmin('Garmin', 'Garmin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

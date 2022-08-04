@@ -8,6 +8,6 @@ sprite $EmbyMd [16x16/16z] NOw50O0m4CGETxB_jDWBqAicLLawUHpXYmD0WUogShF71OnV0VHgJ
 
 sprite $EmbyLg [20x20/16z] PSk53GGn5CHGBsFo-w_sS2q5B7wQmJQwxhXw2h4WiQGVJaj99X8rIapYB0MmFJX2Q736Bw8mqcytQdWUODI6a4JkWc2E8X1lAMC3bxEoovM9OA8htW
 
-!procedure Emby($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/E/Emby', $name, $tech)
+!procedure Emby($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/E/Emby', $name, $tech, $desc)
 !endprocedure

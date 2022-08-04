@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Scrimba')
 
 ' renders the element
-Scrimba('Scrimba', 'Scrimba', 'an optional tech label')
+Scrimba('Scrimba', 'Scrimba', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Scrimba')
 
 ' renders the element
-Scrimba('Scrimba', 'Scrimba', 'an optional tech label')
+Scrimba('Scrimba', 'Scrimba', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

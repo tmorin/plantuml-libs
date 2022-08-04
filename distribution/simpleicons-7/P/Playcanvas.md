@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Playcanvas')
 
 ' renders the element
-Playcanvas('Playcanvas', 'Playcanvas', 'an optional tech label')
+Playcanvas('Playcanvas', 'Playcanvas', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Playcanvas')
 
 ' renders the element
-Playcanvas('Playcanvas', 'Playcanvas', 'an optional tech label')
+Playcanvas('Playcanvas', 'Playcanvas', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

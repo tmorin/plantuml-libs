@@ -8,6 +8,6 @@ sprite $StatuspageMd [16x16/16z] ZScr0GGn00F1DRFLVxMFnv4d4h0cvSZEQJCDO7GnYBf3Npt
 
 sprite $StatuspageLg [20x20/16z] fS-35KGn50JGYPtflzh5jtcFWaUyvWl_aa97S2BZBt7E0bp9aMie_9CYCy3nppJ90gcxMJBWfunz14H2XpqCnCKtRBs5eST4wjUQ4Y5PtFG5
 
-!procedure Statuspage($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/S/Statuspage', $name, $tech)
+!procedure Statuspage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/S/Statuspage', $name, $tech, $desc)
 !endprocedure

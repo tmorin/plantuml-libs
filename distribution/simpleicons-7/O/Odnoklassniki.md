@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Odnoklassniki')
 
 ' renders the element
-Odnoklassniki('Odnoklassniki', 'Odnoklassniki', 'an optional tech label')
+Odnoklassniki('Odnoklassniki', 'Odnoklassniki', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Odnoklassniki')
 
 ' renders the element
-Odnoklassniki('Odnoklassniki', 'Odnoklassniki', 'an optional tech label')
+Odnoklassniki('Odnoklassniki', 'Odnoklassniki', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

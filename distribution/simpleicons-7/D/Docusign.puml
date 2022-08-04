@@ -8,6 +8,6 @@ sprite $DocusignMd [16x16/16z] Oo0EiBAo8dCP-VdvAU3pWm4lcW0U_Goi42vXm8yA26e3
 
 sprite $DocusignLg [20x20/16z] Ow02u0S29bgACR6oWiJOMLcH17c08XWg-S12x9ZcSM8wcXl38qnyPFWT4t1Y0SIQ1m
 
-!procedure Docusign($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/D/Docusign', $name, $tech)
+!procedure Docusign($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/D/Docusign', $name, $tech, $desc)
 !endprocedure

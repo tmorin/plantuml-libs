@@ -8,6 +8,6 @@ sprite $SpeakerdeckMd [16x16/16z] bSq53eH040NHlujhtV-qQ2L4aHUPQSzdzJ1kVXatNOByL8
 
 sprite $SpeakerdeckLg [20x20/16z] hSX55W9H30NHQlUk_QyM2ydvSxYJ9_pTQbY9lE4qiKTUlUd6hqDdMl5jj2xjJ6Tz7AQxFkOhp_hIhdD-wnRKdiXJ2ttaOUc9d5YsCC8dLtxo1
 
-!procedure Speakerdeck($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/S/Speakerdeck', $name, $tech)
+!procedure Speakerdeck($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/S/Speakerdeck', $name, $tech, $desc)
 !endprocedure

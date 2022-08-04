@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cloudways')
 
 ' renders the element
-Cloudways('Cloudways', 'Cloudways', 'an optional tech label')
+Cloudways('Cloudways', 'Cloudways', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cloudways')
 
 ' renders the element
-Cloudways('Cloudways', 'Cloudways', 'an optional tech label')
+Cloudways('Cloudways', 'Cloudways', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

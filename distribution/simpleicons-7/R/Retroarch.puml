@@ -8,6 +8,6 @@ sprite $RetroarchMd [16x16/16z] hSVL0SDG34DHXGoFxlxJbl6la6EKzZ1I4gupMsI1MyTCDebf
 
 sprite $RetroarchLg [20x20/16z] lSg53KCn0CHGXvDFtd_QCbTSUAAJTVpD8WVLm8DDYBRxfNj7DEA64ivXFeQ1-jWEjkgxbFFo56hEmFhK8cV5XIFbAbvtkSUSkKWvyNrx
 
-!procedure Retroarch($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/R/Retroarch', $name, $tech)
+!procedure Retroarch($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/R/Retroarch', $name, $tech, $desc)
 !endprocedure

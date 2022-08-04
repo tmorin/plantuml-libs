@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Saucelabs')
 
 ' renders the element
-Saucelabs('Saucelabs', 'Saucelabs', 'an optional tech label')
+Saucelabs('Saucelabs', 'Saucelabs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Saucelabs')
 
 ' renders the element
-Saucelabs('Saucelabs', 'Saucelabs', 'an optional tech label')
+Saucelabs('Saucelabs', 'Saucelabs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

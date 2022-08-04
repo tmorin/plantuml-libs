@@ -8,6 +8,6 @@ sprite $StoryblokMd [16x16/16z] ROw54O0m40GNT-Y_MY2UtFoElfp0Kt73-DIOCu5UPkuyd_vq
 
 sprite $StoryblokLg [20x20/16z] ZT230K0X00JGo-xsd_RRx6K3g3op07ZrtgSMuT27pLDVFVPnBignB-USdjUoQRy2g6DV6LX0Fgnrzpx9hQ_E_lxWtYU488FOOCQCcuIJ7W
 
-!procedure Storyblok($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/S/Storyblok', $name, $tech)
+!procedure Storyblok($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/S/Storyblok', $name, $tech, $desc)
 !endprocedure

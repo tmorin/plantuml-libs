@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Chupachups')
 
 ' renders the element
-Chupachups('Chupachups', 'Chupachups', 'an optional tech label')
+Chupachups('Chupachups', 'Chupachups', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Chupachups')
 
 ' renders the element
-Chupachups('Chupachups', 'Chupachups', 'an optional tech label')
+Chupachups('Chupachups', 'Chupachups', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

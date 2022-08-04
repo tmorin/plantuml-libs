@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Vivaldi')
 
 ' renders the element
-Vivaldi('Vivaldi', 'Vivaldi', 'an optional tech label')
+Vivaldi('Vivaldi', 'Vivaldi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Vivaldi')
 
 ' renders the element
-Vivaldi('Vivaldi', 'Vivaldi', 'an optional tech label')
+Vivaldi('Vivaldi', 'Vivaldi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

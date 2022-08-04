@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Embarcadero')
 
 ' renders the element
-Embarcadero('Embarcadero', 'Embarcadero', 'an optional tech label')
+Embarcadero('Embarcadero', 'Embarcadero', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Embarcadero')
 
 ' renders the element
-Embarcadero('Embarcadero', 'Embarcadero', 'an optional tech label')
+Embarcadero('Embarcadero', 'Embarcadero', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

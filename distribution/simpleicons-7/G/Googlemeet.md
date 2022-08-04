@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Googlemeet')
 
 ' renders the element
-Googlemeet('Googlemeet', 'Googlemeet', 'an optional tech label')
+Googlemeet('Googlemeet', 'Googlemeet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Googlemeet')
 
 ' renders the element
-Googlemeet('Googlemeet', 'Googlemeet', 'an optional tech label')
+Googlemeet('Googlemeet', 'Googlemeet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

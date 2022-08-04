@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Libreoffice')
 
 ' renders the element
-Libreoffice('Libreoffice', 'Libreoffice', 'an optional tech label')
+Libreoffice('Libreoffice', 'Libreoffice', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Libreoffice')
 
 ' renders the element
-Libreoffice('Libreoffice', 'Libreoffice', 'an optional tech label')
+Libreoffice('Libreoffice', 'Libreoffice', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

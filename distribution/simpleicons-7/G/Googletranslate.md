@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Googletranslate')
 
 ' renders the element
-Googletranslate('Googletranslate', 'Googletranslate', 'an optional tech label')
+Googletranslate('Googletranslate', 'Googletranslate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Googletranslate')
 
 ' renders the element
-Googletranslate('Googletranslate', 'Googletranslate', 'an optional tech label')
+Googletranslate('Googletranslate', 'Googletranslate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

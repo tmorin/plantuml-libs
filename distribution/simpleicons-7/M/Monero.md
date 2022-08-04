@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Monero')
 
 ' renders the element
-Monero('Monero', 'Monero', 'an optional tech label')
+Monero('Monero', 'Monero', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Monero')
 
 ' renders the element
-Monero('Monero', 'Monero', 'an optional tech label')
+Monero('Monero', 'Monero', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

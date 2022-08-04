@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/X/Xbox')
 
 ' renders the element
-Xbox('Xbox', 'Xbox', 'an optional tech label')
+Xbox('Xbox', 'Xbox', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/X/Xbox')
 
 ' renders the element
-Xbox('Xbox', 'Xbox', 'an optional tech label')
+Xbox('Xbox', 'Xbox', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

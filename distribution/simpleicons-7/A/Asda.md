@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Asda')
 
 ' renders the element
-Asda('Asda', 'Asda', 'an optional tech label')
+Asda('Asda', 'Asda', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Asda')
 
 ' renders the element
-Asda('Asda', 'Asda', 'an optional tech label')
+Asda('Asda', 'Asda', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Magento')
 
 ' renders the element
-Magento('Magento', 'Magento', 'an optional tech label')
+Magento('Magento', 'Magento', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Magento')
 
 ' renders the element
-Magento('Magento', 'Magento', 'an optional tech label')
+Magento('Magento', 'Magento', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,6 +8,6 @@ sprite $StackeditMd [16x16/16z] dSf50WHH20FHQZVuTV_JZhjFlnKa0MRFUg3NPJuA1KUkYhEm
 
 sprite $StackeditLg [20x20/16z] fSl50GH13CH0BPF7oZ_QOsQePmDGXsSJMwdcaJfkeubBsjS6MzL5609BZnob2akMnUMOBIhercLs_BxVXIMCzrygg6woe_-pT3AvfkZ4XIejZDu2UgyKM0C
 
-!procedure Stackedit($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/S/Stackedit', $name, $tech)
+!procedure Stackedit($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/S/Stackedit', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Nike')
 
 ' renders the element
-Nike('Nike', 'Nike', 'an optional tech label')
+Nike('Nike', 'Nike', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Nike')
 
 ' renders the element
-Nike('Nike', 'Nike', 'an optional tech label')
+Nike('Nike', 'Nike', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

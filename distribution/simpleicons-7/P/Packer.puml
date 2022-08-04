@@ -8,6 +8,6 @@ sprite $PackerMd [16x16/16z] hOf50e1008ImM_x_MbitpdAR0KugKce70YsL6fh1daKDMyj2BS9
 
 sprite $PackerLg [20x20/16z] lSv50e0W54NHQxVkVxVI_QSyfGw9pKYTxnbg-xuhXvL5eMgoHHEtripKUSEZcY4rTTxugUJsYZRtDrh6NBsFB5F3O6qOdD5-
 
-!procedure Packer($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/P/Packer', $name, $tech)
+!procedure Packer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/P/Packer', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Homeassistant')
 
 ' renders the element
-Homeassistant('Homeassistant', 'Homeassistant', 'an optional tech label')
+Homeassistant('Homeassistant', 'Homeassistant', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Homeassistant')
 
 ' renders the element
-Homeassistant('Homeassistant', 'Homeassistant', 'an optional tech label')
+Homeassistant('Homeassistant', 'Homeassistant', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

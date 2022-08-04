@@ -8,6 +8,6 @@ sprite $RockylinuxMd [16x16/16z] LO-53G0X0CJktV_sdnQd2OtHuYfidvz9dS-LewhXRmflMmo
 
 sprite $RockylinuxLg [20x20/16z] PSq52WH134JH6jVktF-qQwai7-RZZuZSqUDUXPPmRIWAT1IniuWjTOlL6DjfCViFI9hYMoT9dYJbv4tov4ewSrAWY4Gra543gV0e8fhS-2JzsnDQ3hq1
 
-!procedure Rockylinux($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/R/Rockylinux', $name, $tech)
+!procedure Rockylinux($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/R/Rockylinux', $name, $tech, $desc)
 !endprocedure

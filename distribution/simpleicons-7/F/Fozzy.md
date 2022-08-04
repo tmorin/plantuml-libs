@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fozzy')
 
 ' renders the element
-Fozzy('Fozzy', 'Fozzy', 'an optional tech label')
+Fozzy('Fozzy', 'Fozzy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fozzy')
 
 ' renders the element
-Fozzy('Fozzy', 'Fozzy', 'an optional tech label')
+Fozzy('Fozzy', 'Fozzy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

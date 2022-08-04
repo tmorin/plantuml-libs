@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Turbosquid')
 
 ' renders the element
-Turbosquid('Turbosquid', 'Turbosquid', 'an optional tech label')
+Turbosquid('Turbosquid', 'Turbosquid', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Turbosquid')
 
 ' renders the element
-Turbosquid('Turbosquid', 'Turbosquid', 'an optional tech label')
+Turbosquid('Turbosquid', 'Turbosquid', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

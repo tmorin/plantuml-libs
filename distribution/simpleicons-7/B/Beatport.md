@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Beatport')
 
 ' renders the element
-Beatport('Beatport', 'Beatport', 'an optional tech label')
+Beatport('Beatport', 'Beatport', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Beatport')
 
 ' renders the element
-Beatport('Beatport', 'Beatport', 'an optional tech label')
+Beatport('Beatport', 'Beatport', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

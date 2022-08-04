@@ -8,6 +8,6 @@ sprite $WinampMd [16x16/16z] VSx50O0030D0tE7sdnPtow-D1YjeWnDQglEDyvdJ_T3HT4THjDq
 
 sprite $WinampLg [20x20/16z] ZP030e10402hi___sywsPxrF6gynvdtQeIVCsD4XPT5tLiCMuRCQi4XvdxsQEvjyzSFiYJBZzWSUCvf2UyWc4TwfKI64zwcwTCHTSTGYTbRxB18TatMNVm
 
-!procedure Winamp($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/W/Winamp', $name, $tech)
+!procedure Winamp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/W/Winamp', $name, $tech, $desc)
 !endprocedure

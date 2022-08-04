@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Transportforlondon')
 
 ' renders the element
-Transportforlondon('Transportforlondon', 'Transportforlondon', 'an optional tech label')
+Transportforlondon('Transportforlondon', 'Transportforlondon', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Transportforlondon')
 
 ' renders the element
-Transportforlondon('Transportforlondon', 'Transportforlondon', 'an optional tech label')
+Transportforlondon('Transportforlondon', 'Transportforlondon', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

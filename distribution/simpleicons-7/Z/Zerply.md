@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Z/Zerply')
 
 ' renders the element
-Zerply('Zerply', 'Zerply', 'an optional tech label')
+Zerply('Zerply', 'Zerply', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Z/Zerply')
 
 ' renders the element
-Zerply('Zerply', 'Zerply', 'an optional tech label')
+Zerply('Zerply', 'Zerply', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

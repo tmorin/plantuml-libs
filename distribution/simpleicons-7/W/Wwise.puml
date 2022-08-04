@@ -8,6 +8,6 @@ sprite $WwiseMd [16x16/16z] dOp50KKn381uMW_xJ_jThoMkJ5BuGtyRlIJf9oyMXKq_fr6BcCaG
 
 sprite $WwiseLg [20x20/16z] jSr50WD12031PjO5-l-_JIwhvwJ61U1VLeCtBHxQZ2xCN4AJG7tS5Pnt4Ip9ABg4TDM-8z5WGujYSq4W6ccijjMHxfPFVDP0nq7AbGTDtdI7ju5V-
 
-!procedure Wwise($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/W/Wwise', $name, $tech)
+!procedure Wwise($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/W/Wwise', $name, $tech, $desc)
 !endprocedure

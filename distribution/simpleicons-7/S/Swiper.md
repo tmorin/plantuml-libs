@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Swiper')
 
 ' renders the element
-Swiper('Swiper', 'Swiper', 'an optional tech label')
+Swiper('Swiper', 'Swiper', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Swiper')
 
 ' renders the element
-Swiper('Swiper', 'Swiper', 'an optional tech label')
+Swiper('Swiper', 'Swiper', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

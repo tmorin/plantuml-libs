@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Autoprefixer')
 
 ' renders the element
-Autoprefixer('Autoprefixer', 'Autoprefixer', 'an optional tech label')
+Autoprefixer('Autoprefixer', 'Autoprefixer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Autoprefixer')
 
 ' renders the element
-Autoprefixer('Autoprefixer', 'Autoprefixer', 'an optional tech label')
+Autoprefixer('Autoprefixer', 'Autoprefixer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

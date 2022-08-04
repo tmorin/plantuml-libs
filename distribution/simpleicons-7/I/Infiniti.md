@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Infiniti')
 
 ' renders the element
-Infiniti('Infiniti', 'Infiniti', 'an optional tech label')
+Infiniti('Infiniti', 'Infiniti', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Infiniti')
 
 ' renders the element
-Infiniti('Infiniti', 'Infiniti', 'an optional tech label')
+Infiniti('Infiniti', 'Infiniti', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

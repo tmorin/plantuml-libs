@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Countingworkspro')
 
 ' renders the element
-Countingworkspro('Countingworkspro', 'Countingworkspro', 'an optional tech label')
+Countingworkspro('Countingworkspro', 'Countingworkspro', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Countingworkspro')
 
 ' renders the element
-Countingworkspro('Countingworkspro', 'Countingworkspro', 'an optional tech label')
+Countingworkspro('Countingworkspro', 'Countingworkspro', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Kong')
 
 ' renders the element
-Kong('Kong', 'Kong', 'an optional tech label')
+Kong('Kong', 'Kong', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Kong')
 
 ' renders the element
-Kong('Kong', 'Kong', 'an optional tech label')
+Kong('Kong', 'Kong', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

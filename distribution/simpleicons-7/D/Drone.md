@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Drone')
 
 ' renders the element
-Drone('Drone', 'Drone', 'an optional tech label')
+Drone('Drone', 'Drone', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Drone')
 
 ' renders the element
-Drone('Drone', 'Drone', 'an optional tech label')
+Drone('Drone', 'Drone', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

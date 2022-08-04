@@ -8,6 +8,6 @@ sprite $TalenthouseMd [16x16/16z] lOg50O0m30GFX-h-snB35k0goGkflu5Z7H0ImePe1Xqvdk
 
 sprite $TalenthouseLg [20x20/16z] rSY50OCm5431mo7Ix3zj1PS9-gB_rEKUTTsR2-PYeAOSLYMBII64LCBljbWpmHGobDccnkyMp3Wbgk5N913clxa5QCpzZxsU5dLtonwMcwggqc8-
 
-!procedure Talenthouse($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/T/Talenthouse', $name, $tech)
+!procedure Talenthouse($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/T/Talenthouse', $name, $tech, $desc)
 !endprocedure

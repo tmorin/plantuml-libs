@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Microsoftvisio')
 
 ' renders the element
-Microsoftvisio('Microsoftvisio', 'Microsoftvisio', 'an optional tech label')
+Microsoftvisio('Microsoftvisio', 'Microsoftvisio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Microsoftvisio')
 
 ' renders the element
-Microsoftvisio('Microsoftvisio', 'Microsoftvisio', 'an optional tech label')
+Microsoftvisio('Microsoftvisio', 'Microsoftvisio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

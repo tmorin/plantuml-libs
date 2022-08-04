@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Osmc')
 
 ' renders the element
-Osmc('Osmc', 'Osmc', 'an optional tech label')
+Osmc('Osmc', 'Osmc', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Osmc')
 
 ' renders the element
-Osmc('Osmc', 'Osmc', 'an optional tech label')
+Osmc('Osmc', 'Osmc', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

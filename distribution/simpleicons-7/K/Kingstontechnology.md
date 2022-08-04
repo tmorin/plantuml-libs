@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Kingstontechnology')
 
 ' renders the element
-Kingstontechnology('Kingstontechnology', 'Kingstontechnology', 'an optional tech label')
+Kingstontechnology('Kingstontechnology', 'Kingstontechnology', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Kingstontechnology')
 
 ' renders the element
-Kingstontechnology('Kingstontechnology', 'Kingstontechnology', 'an optional tech label')
+Kingstontechnology('Kingstontechnology', 'Kingstontechnology', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

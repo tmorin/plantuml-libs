@@ -8,6 +8,6 @@ sprite $TideMd [16x16/16z] hSV70GCn3C0mNd6NnVsdJHqXmG_ysmav0E9xuJm0_5RdxgYIcWYxP
 
 sprite $TideLg [20x20/16z] nOo50GCn30CLvcZ_RMl83Fqp8xvaNmkjlfe43ZtTtffa3wq3QIRjzLr08ShUqMH3JBpVHXQzNL8alfuasgE1Qxt0Xi0zTHJG_T_qVrVyWX74albOy1T-
 
-!procedure Tide($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/T/Tide', $name, $tech)
+!procedure Tide($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/T/Tide', $name, $tech, $desc)
 !endprocedure

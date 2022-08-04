@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Coronarenderer')
 
 ' renders the element
-Coronarenderer('Coronarenderer', 'Coronarenderer', 'an optional tech label')
+Coronarenderer('Coronarenderer', 'Coronarenderer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Coronarenderer')
 
 ' renders the element
-Coronarenderer('Coronarenderer', 'Coronarenderer', 'an optional tech label')
+Coronarenderer('Coronarenderer', 'Coronarenderer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

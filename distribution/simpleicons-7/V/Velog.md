@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Velog')
 
 ' renders the element
-Velog('Velog', 'Velog', 'an optional tech label')
+Velog('Velog', 'Velog', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Velog')
 
 ' renders the element
-Velog('Velog', 'Velog', 'an optional tech label')
+Velog('Velog', 'Velog', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

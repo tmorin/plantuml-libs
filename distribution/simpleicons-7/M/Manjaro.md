@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Manjaro')
 
 ' renders the element
-Manjaro('Manjaro', 'Manjaro', 'an optional tech label')
+Manjaro('Manjaro', 'Manjaro', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Manjaro')
 
 ' renders the element
-Manjaro('Manjaro', 'Manjaro', 'an optional tech label')
+Manjaro('Manjaro', 'Manjaro', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

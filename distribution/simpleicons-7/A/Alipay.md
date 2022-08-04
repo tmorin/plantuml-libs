@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Alipay')
 
 ' renders the element
-Alipay('Alipay', 'Alipay', 'an optional tech label')
+Alipay('Alipay', 'Alipay', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Alipay')
 
 ' renders the element
-Alipay('Alipay', 'Alipay', 'an optional tech label')
+Alipay('Alipay', 'Alipay', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

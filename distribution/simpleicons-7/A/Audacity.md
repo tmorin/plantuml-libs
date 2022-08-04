@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Audacity')
 
 ' renders the element
-Audacity('Audacity', 'Audacity', 'an optional tech label')
+Audacity('Audacity', 'Audacity', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Audacity')
 
 ' renders the element
-Audacity('Audacity', 'Audacity', 'an optional tech label')
+Audacity('Audacity', 'Audacity', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

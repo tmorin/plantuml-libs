@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Googledomains')
 
 ' renders the element
-Googledomains('Googledomains', 'Googledomains', 'an optional tech label')
+Googledomains('Googledomains', 'Googledomains', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Googledomains')
 
 ' renders the element
-Googledomains('Googledomains', 'Googledomains', 'an optional tech label')
+Googledomains('Googledomains', 'Googledomains', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

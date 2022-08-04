@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Loop')
 
 ' renders the element
-Loop('Loop', 'Loop', 'an optional tech label')
+Loop('Loop', 'Loop', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Loop')
 
 ' renders the element
-Loop('Loop', 'Loop', 'an optional tech label')
+Loop('Loop', 'Loop', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

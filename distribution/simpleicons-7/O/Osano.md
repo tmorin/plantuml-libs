@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Osano')
 
 ' renders the element
-Osano('Osano', 'Osano', 'an optional tech label')
+Osano('Osano', 'Osano', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Osano')
 
 ' renders the element
-Osano('Osano', 'Osano', 'an optional tech label')
+Osano('Osano', 'Osano', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

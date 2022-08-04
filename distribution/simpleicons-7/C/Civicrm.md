@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Civicrm')
 
 ' renders the element
-Civicrm('Civicrm', 'Civicrm', 'an optional tech label')
+Civicrm('Civicrm', 'Civicrm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Civicrm')
 
 ' renders the element
-Civicrm('Civicrm', 'Civicrm', 'an optional tech label')
+Civicrm('Civicrm', 'Civicrm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,6 +8,6 @@ sprite $BoxMd [16x16/16z] fOo5ZSH04C2SP9dSVxUl4V-93ZoC_CXk_CF1QvqYFZTN18DrXQyI4T
 
 sprite $BoxLg [20x20/16z] lSX50eDG303HmU5BvlwdhNTJLruyhA1MhXYl_cOD86d11AYMfAtchCa1rGOuZng6ZG6G522BJbG1YgVHQA5rWjQmPx_hOazo3_UgWaARSWzqERNC7P3viIq
 
-!procedure Box($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/B/Box', $name, $tech)
+!procedure Box($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/B/Box', $name, $tech, $desc)
 !endprocedure

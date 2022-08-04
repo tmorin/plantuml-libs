@@ -8,6 +8,6 @@ sprite $VbulletinMd [16x16/16z] PSk50O0W04HHfVlsdvPklW6F-D3pNmvkccUIpL_ENaRsNmlJ
 
 sprite $VbulletinLg [20x20/16z] bSx50O0m30NGKlViFstTSFZ75qKEHb2E0RoOBGOxanU6CyczjRPSssfsrkAAuPsfSbRl3BCsscwqoivC9puDPjiqV66-tLaDsZ-hjM6_CujpO6Sj_om2
 
-!procedure Vbulletin($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/V/Vbulletin', $name, $tech)
+!procedure Vbulletin($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/V/Vbulletin', $name, $tech, $desc)
 !endprocedure

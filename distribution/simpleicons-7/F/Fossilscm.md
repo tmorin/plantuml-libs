@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fossilscm')
 
 ' renders the element
-Fossilscm('Fossilscm', 'Fossilscm', 'an optional tech label')
+Fossilscm('Fossilscm', 'Fossilscm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fossilscm')
 
 ' renders the element
-Fossilscm('Fossilscm', 'Fossilscm', 'an optional tech label')
+Fossilscm('Fossilscm', 'Fossilscm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

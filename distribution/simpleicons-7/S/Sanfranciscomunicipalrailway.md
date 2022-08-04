@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sanfranciscomunicipalrailway')
 
 ' renders the element
-Sanfranciscomunicipalrailway('Sanfranciscomunicipalrailway', 'Sanfranciscomunicipalrailway', 'an optional tech label')
+Sanfranciscomunicipalrailway('Sanfranciscomunicipalrailway', 'Sanfranciscomunicipalrailway', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sanfranciscomunicipalrailway')
 
 ' renders the element
-Sanfranciscomunicipalrailway('Sanfranciscomunicipalrailway', 'Sanfranciscomunicipalrailway', 'an optional tech label')
+Sanfranciscomunicipalrailway('Sanfranciscomunicipalrailway', 'Sanfranciscomunicipalrailway', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

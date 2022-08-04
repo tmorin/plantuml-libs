@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Truenas')
 
 ' renders the element
-Truenas('Truenas', 'Truenas', 'an optional tech label')
+Truenas('Truenas', 'Truenas', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Truenas')
 
 ' renders the element
-Truenas('Truenas', 'Truenas', 'an optional tech label')
+Truenas('Truenas', 'Truenas', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

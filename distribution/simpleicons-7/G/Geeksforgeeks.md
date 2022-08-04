@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Geeksforgeeks')
 
 ' renders the element
-Geeksforgeeks('Geeksforgeeks', 'Geeksforgeeks', 'an optional tech label')
+Geeksforgeeks('Geeksforgeeks', 'Geeksforgeeks', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Geeksforgeeks')
 
 ' renders the element
-Geeksforgeeks('Geeksforgeeks', 'Geeksforgeeks', 'an optional tech label')
+Geeksforgeeks('Geeksforgeeks', 'Geeksforgeeks', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

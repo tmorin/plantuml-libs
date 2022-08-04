@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Patreon')
 
 ' renders the element
-Patreon('Patreon', 'Patreon', 'an optional tech label')
+Patreon('Patreon', 'Patreon', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Patreon')
 
 ' renders the element
-Patreon('Patreon', 'Patreon', 'an optional tech label')
+Patreon('Patreon', 'Patreon', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

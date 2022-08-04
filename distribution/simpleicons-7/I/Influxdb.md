@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Influxdb')
 
 ' renders the element
-Influxdb('Influxdb', 'Influxdb', 'an optional tech label')
+Influxdb('Influxdb', 'Influxdb', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Influxdb')
 
 ' renders the element
-Influxdb('Influxdb', 'Influxdb', 'an optional tech label')
+Influxdb('Influxdb', 'Influxdb', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

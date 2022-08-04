@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Emlakjet')
 
 ' renders the element
-Emlakjet('Emlakjet', 'Emlakjet', 'an optional tech label')
+Emlakjet('Emlakjet', 'Emlakjet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Emlakjet')
 
 ' renders the element
-Emlakjet('Emlakjet', 'Emlakjet', 'an optional tech label')
+Emlakjet('Emlakjet', 'Emlakjet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,6 +8,6 @@ sprite $ChevroletMd [16x16/16z] Ow07O6G24dmGDWS_1mS7YC4EfBdv6VXPa1JoStBmWm28pGTY
 
 sprite $ChevroletLg [20x20/16z] pSRL0OKm04MnymIftlstXNex0UGhl8yoGsKIaGIJyTVskP6aV1MGM1pwReek8KcHg4HYc9biur4N
 
-!procedure Chevrolet($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/C/Chevrolet', $name, $tech)
+!procedure Chevrolet($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/C/Chevrolet', $name, $tech, $desc)
 !endprocedure

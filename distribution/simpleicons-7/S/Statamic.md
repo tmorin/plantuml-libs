@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Statamic')
 
 ' renders the element
-Statamic('Statamic', 'Statamic', 'an optional tech label')
+Statamic('Statamic', 'Statamic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Statamic')
 
 ' renders the element
-Statamic('Statamic', 'Statamic', 'an optional tech label')
+Statamic('Statamic', 'Statamic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

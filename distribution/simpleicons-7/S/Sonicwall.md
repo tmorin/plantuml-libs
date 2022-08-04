@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sonicwall')
 
 ' renders the element
-Sonicwall('Sonicwall', 'Sonicwall', 'an optional tech label')
+Sonicwall('Sonicwall', 'Sonicwall', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sonicwall')
 
 ' renders the element
-Sonicwall('Sonicwall', 'Sonicwall', 'an optional tech label')
+Sonicwall('Sonicwall', 'Sonicwall', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

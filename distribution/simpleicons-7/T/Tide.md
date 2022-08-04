@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tide')
 
 ' renders the element
-Tide('Tide', 'Tide', 'an optional tech label')
+Tide('Tide', 'Tide', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tide')
 
 ' renders the element
-Tide('Tide', 'Tide', 'an optional tech label')
+Tide('Tide', 'Tide', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

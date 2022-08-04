@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Onstar')
 
 ' renders the element
-Onstar('Onstar', 'Onstar', 'an optional tech label')
+Onstar('Onstar', 'Onstar', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Onstar')
 
 ' renders the element
-Onstar('Onstar', 'Onstar', 'an optional tech label')
+Onstar('Onstar', 'Onstar', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

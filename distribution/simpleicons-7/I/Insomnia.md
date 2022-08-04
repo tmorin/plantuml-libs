@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Insomnia')
 
 ' renders the element
-Insomnia('Insomnia', 'Insomnia', 'an optional tech label')
+Insomnia('Insomnia', 'Insomnia', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Insomnia')
 
 ' renders the element
-Insomnia('Insomnia', 'Insomnia', 'an optional tech label')
+Insomnia('Insomnia', 'Insomnia', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

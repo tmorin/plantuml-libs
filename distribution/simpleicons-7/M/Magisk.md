@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Magisk')
 
 ' renders the element
-Magisk('Magisk', 'Magisk', 'an optional tech label')
+Magisk('Magisk', 'Magisk', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Magisk')
 
 ' renders the element
-Magisk('Magisk', 'Magisk', 'an optional tech label')
+Magisk('Magisk', 'Magisk', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

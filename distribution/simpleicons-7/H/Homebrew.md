@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Homebrew')
 
 ' renders the element
-Homebrew('Homebrew', 'Homebrew', 'an optional tech label')
+Homebrew('Homebrew', 'Homebrew', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Homebrew')
 
 ' renders the element
-Homebrew('Homebrew', 'Homebrew', 'an optional tech label')
+Homebrew('Homebrew', 'Homebrew', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Microsoftedge')
 
 ' renders the element
-Microsoftedge('Microsoftedge', 'Microsoftedge', 'an optional tech label')
+Microsoftedge('Microsoftedge', 'Microsoftedge', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Microsoftedge')
 
 ' renders the element
-Microsoftedge('Microsoftedge', 'Microsoftedge', 'an optional tech label')
+Microsoftedge('Microsoftedge', 'Microsoftedge', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

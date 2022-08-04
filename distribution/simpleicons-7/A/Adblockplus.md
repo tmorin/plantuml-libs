@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Adblockplus')
 
 ' renders the element
-Adblockplus('Adblockplus', 'Adblockplus', 'an optional tech label')
+Adblockplus('Adblockplus', 'Adblockplus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Adblockplus')
 
 ' renders the element
-Adblockplus('Adblockplus', 'Adblockplus', 'an optional tech label')
+Adblockplus('Adblockplus', 'Adblockplus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

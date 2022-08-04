@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Scaleway')
 
 ' renders the element
-Scaleway('Scaleway', 'Scaleway', 'an optional tech label')
+Scaleway('Scaleway', 'Scaleway', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Scaleway')
 
 ' renders the element
-Scaleway('Scaleway', 'Scaleway', 'an optional tech label')
+Scaleway('Scaleway', 'Scaleway', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

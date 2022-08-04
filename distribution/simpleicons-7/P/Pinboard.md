@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pinboard')
 
 ' renders the element
-Pinboard('Pinboard', 'Pinboard', 'an optional tech label')
+Pinboard('Pinboard', 'Pinboard', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pinboard')
 
 ' renders the element
-Pinboard('Pinboard', 'Pinboard', 'an optional tech label')
+Pinboard('Pinboard', 'Pinboard', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Penny')
 
 ' renders the element
-Penny('Penny', 'Penny', 'an optional tech label')
+Penny('Penny', 'Penny', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Penny')
 
 ' renders the element
-Penny('Penny', 'Penny', 'an optional tech label')
+Penny('Penny', 'Penny', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

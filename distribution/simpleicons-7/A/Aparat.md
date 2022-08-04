@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Aparat')
 
 ' renders the element
-Aparat('Aparat', 'Aparat', 'an optional tech label')
+Aparat('Aparat', 'Aparat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Aparat')
 
 ' renders the element
-Aparat('Aparat', 'Aparat', 'an optional tech label')
+Aparat('Aparat', 'Aparat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

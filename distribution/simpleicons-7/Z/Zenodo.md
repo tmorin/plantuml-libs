@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Z/Zenodo')
 
 ' renders the element
-Zenodo('Zenodo', 'Zenodo', 'an optional tech label')
+Zenodo('Zenodo', 'Zenodo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Z/Zenodo')
 
 ' renders the element
-Zenodo('Zenodo', 'Zenodo', 'an optional tech label')
+Zenodo('Zenodo', 'Zenodo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

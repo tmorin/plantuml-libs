@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tauri')
 
 ' renders the element
-Tauri('Tauri', 'Tauri', 'an optional tech label')
+Tauri('Tauri', 'Tauri', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Tauri')
 
 ' renders the element
-Tauri('Tauri', 'Tauri', 'an optional tech label')
+Tauri('Tauri', 'Tauri', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

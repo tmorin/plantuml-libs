@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Adobefonts')
 
 ' renders the element
-Adobefonts('Adobefonts', 'Adobefonts', 'an optional tech label')
+Adobefonts('Adobefonts', 'Adobefonts', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Adobefonts')
 
 ' renders the element
-Adobefonts('Adobefonts', 'Adobefonts', 'an optional tech label')
+Adobefonts('Adobefonts', 'Adobefonts', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,6 +8,6 @@ sprite $ConanMd [16x16/16z] dSYr0GDH081GJhuB-qyRztJtEk1koNnOlKXm5tMiBEr-aWhD0TE4
 
 sprite $ConanLg [20x20/16z] jSZL0KCn34DHXJdQVzlQZ-ct9-YBNSXu21G95uLYNcib6Q0icI461T3sHofLGA0ggDmLMAh9Ym1OD_bGodBppVobkOy6b4Vh1kBMf2pyqJnEZIhZnWnMR7u
 
-!procedure Conan($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/C/Conan', $name, $tech)
+!procedure Conan($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/C/Conan', $name, $tech, $desc)
 !endprocedure

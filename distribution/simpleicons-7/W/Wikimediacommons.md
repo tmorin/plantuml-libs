@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Wikimediacommons')
 
 ' renders the element
-Wikimediacommons('Wikimediacommons', 'Wikimediacommons', 'an optional tech label')
+Wikimediacommons('Wikimediacommons', 'Wikimediacommons', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Wikimediacommons')
 
 ' renders the element
-Wikimediacommons('Wikimediacommons', 'Wikimediacommons', 'an optional tech label')
+Wikimediacommons('Wikimediacommons', 'Wikimediacommons', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Kasasmart')
 
 ' renders the element
-Kasasmart('Kasasmart', 'Kasasmart', 'an optional tech label')
+Kasasmart('Kasasmart', 'Kasasmart', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Kasasmart')
 
 ' renders the element
-Kasasmart('Kasasmart', 'Kasasmart', 'an optional tech label')
+Kasasmart('Kasasmart', 'Kasasmart', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

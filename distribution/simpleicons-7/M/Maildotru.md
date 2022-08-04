@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Maildotru')
 
 ' renders the element
-Maildotru('Maildotru', 'Maildotru', 'an optional tech label')
+Maildotru('Maildotru', 'Maildotru', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Maildotru')
 
 ' renders the element
-Maildotru('Maildotru', 'Maildotru', 'an optional tech label')
+Maildotru('Maildotru', 'Maildotru', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lenovo')
 
 ' renders the element
-Lenovo('Lenovo', 'Lenovo', 'an optional tech label')
+Lenovo('Lenovo', 'Lenovo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lenovo')
 
 ' renders the element
-Lenovo('Lenovo', 'Lenovo', 'an optional tech label')
+Lenovo('Lenovo', 'Lenovo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

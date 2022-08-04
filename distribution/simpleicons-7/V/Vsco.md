@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Vsco')
 
 ' renders the element
-Vsco('Vsco', 'Vsco', 'an optional tech label')
+Vsco('Vsco', 'Vsco', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Vsco')
 
 ' renders the element
-Vsco('Vsco', 'Vsco', 'an optional tech label')
+Vsco('Vsco', 'Vsco', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

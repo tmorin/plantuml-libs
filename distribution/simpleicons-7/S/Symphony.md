@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Symphony')
 
 ' renders the element
-Symphony('Symphony', 'Symphony', 'an optional tech label')
+Symphony('Symphony', 'Symphony', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Symphony')
 
 ' renders the element
-Symphony('Symphony', 'Symphony', 'an optional tech label')
+Symphony('Symphony', 'Symphony', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

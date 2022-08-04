@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Jasmine')
 
 ' renders the element
-Jasmine('Jasmine', 'Jasmine', 'an optional tech label')
+Jasmine('Jasmine', 'Jasmine', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Jasmine')
 
 ' renders the element
-Jasmine('Jasmine', 'Jasmine', 'an optional tech label')
+Jasmine('Jasmine', 'Jasmine', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

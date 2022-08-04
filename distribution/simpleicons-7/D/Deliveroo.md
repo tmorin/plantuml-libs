@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Deliveroo')
 
 ' renders the element
-Deliveroo('Deliveroo', 'Deliveroo', 'an optional tech label')
+Deliveroo('Deliveroo', 'Deliveroo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Deliveroo')
 
 ' renders the element
-Deliveroo('Deliveroo', 'Deliveroo', 'an optional tech label')
+Deliveroo('Deliveroo', 'Deliveroo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Borgbackup')
 
 ' renders the element
-Borgbackup('Borgbackup', 'Borgbackup', 'an optional tech label')
+Borgbackup('Borgbackup', 'Borgbackup', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Borgbackup')
 
 ' renders the element
-Borgbackup('Borgbackup', 'Borgbackup', 'an optional tech label')
+Borgbackup('Borgbackup', 'Borgbackup', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

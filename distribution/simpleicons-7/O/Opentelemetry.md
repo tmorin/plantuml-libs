@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Opentelemetry')
 
 ' renders the element
-Opentelemetry('Opentelemetry', 'Opentelemetry', 'an optional tech label')
+Opentelemetry('Opentelemetry', 'Opentelemetry', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Opentelemetry')
 
 ' renders the element
-Opentelemetry('Opentelemetry', 'Opentelemetry', 'an optional tech label')
+Opentelemetry('Opentelemetry', 'Opentelemetry', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

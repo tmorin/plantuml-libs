@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lighthouse')
 
 ' renders the element
-Lighthouse('Lighthouse', 'Lighthouse', 'an optional tech label')
+Lighthouse('Lighthouse', 'Lighthouse', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lighthouse')
 
 ' renders the element
-Lighthouse('Lighthouse', 'Lighthouse', 'an optional tech label')
+Lighthouse('Lighthouse', 'Lighthouse', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

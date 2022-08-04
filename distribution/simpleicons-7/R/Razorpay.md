@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Razorpay')
 
 ' renders the element
-Razorpay('Razorpay', 'Razorpay', 'an optional tech label')
+Razorpay('Razorpay', 'Razorpay', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Razorpay')
 
 ' renders the element
-Razorpay('Razorpay', 'Razorpay', 'an optional tech label')
+Razorpay('Razorpay', 'Razorpay', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

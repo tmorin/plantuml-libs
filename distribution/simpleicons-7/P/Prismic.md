@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Prismic')
 
 ' renders the element
-Prismic('Prismic', 'Prismic', 'an optional tech label')
+Prismic('Prismic', 'Prismic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Prismic')
 
 ' renders the element
-Prismic('Prismic', 'Prismic', 'an optional tech label')
+Prismic('Prismic', 'Prismic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

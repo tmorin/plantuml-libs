@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Devdotto')
 
 ' renders the element
-Devdotto('Devdotto', 'Devdotto', 'an optional tech label')
+Devdotto('Devdotto', 'Devdotto', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Devdotto')
 
 ' renders the element
-Devdotto('Devdotto', 'Devdotto', 'an optional tech label')
+Devdotto('Devdotto', 'Devdotto', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

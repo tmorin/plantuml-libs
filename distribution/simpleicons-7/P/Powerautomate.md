@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Powerautomate')
 
 ' renders the element
-Powerautomate('Powerautomate', 'Powerautomate', 'an optional tech label')
+Powerautomate('Powerautomate', 'Powerautomate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Powerautomate')
 
 ' renders the element
-Powerautomate('Powerautomate', 'Powerautomate', 'an optional tech label')
+Powerautomate('Powerautomate', 'Powerautomate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

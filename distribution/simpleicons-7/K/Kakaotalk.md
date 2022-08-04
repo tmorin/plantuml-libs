@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Kakaotalk')
 
 ' renders the element
-Kakaotalk('Kakaotalk', 'Kakaotalk', 'an optional tech label')
+Kakaotalk('Kakaotalk', 'Kakaotalk', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Kakaotalk')
 
 ' renders the element
-Kakaotalk('Kakaotalk', 'Kakaotalk', 'an optional tech label')
+Kakaotalk('Kakaotalk', 'Kakaotalk', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

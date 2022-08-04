@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Alltrails')
 
 ' renders the element
-Alltrails('Alltrails', 'Alltrails', 'an optional tech label')
+Alltrails('Alltrails', 'Alltrails', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Alltrails')
 
 ' renders the element
-Alltrails('Alltrails', 'Alltrails', 'an optional tech label')
+Alltrails('Alltrails', 'Alltrails', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

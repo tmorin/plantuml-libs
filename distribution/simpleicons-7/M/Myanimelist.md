@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Myanimelist')
 
 ' renders the element
-Myanimelist('Myanimelist', 'Myanimelist', 'an optional tech label')
+Myanimelist('Myanimelist', 'Myanimelist', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Myanimelist')
 
 ' renders the element
-Myanimelist('Myanimelist', 'Myanimelist', 'an optional tech label')
+Myanimelist('Myanimelist', 'Myanimelist', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

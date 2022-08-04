@@ -8,6 +8,6 @@ sprite $BuddyMd [16x16/16z] JOw50S0W40DJ5oJxJrlXzIeGGI3CH8OVnLMXi0-rCvY0vaACCLnG
 
 sprite $BuddyLg [20x20/16z] PSk53SH05CHGXxCu_LTx39c_Jsp9VEqYMFHGBEaZyPNqD_EqoG6hejyuJMCxcQnP_3IBrWh4biQtW69ZaZS7auB6Gx6qyjRqbVYPlvivf3xnTWS
 
-!procedure Buddy($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/B/Buddy', $name, $tech)
+!procedure Buddy($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/B/Buddy', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Snyk')
 
 ' renders the element
-Snyk('Snyk', 'Snyk', 'an optional tech label')
+Snyk('Snyk', 'Snyk', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Snyk')
 
 ' renders the element
-Snyk('Snyk', 'Snyk', 'an optional tech label')
+Snyk('Snyk', 'Snyk', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

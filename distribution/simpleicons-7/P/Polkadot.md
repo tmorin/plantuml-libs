@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Polkadot')
 
 ' renders the element
-Polkadot('Polkadot', 'Polkadot', 'an optional tech label')
+Polkadot('Polkadot', 'Polkadot', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Polkadot')
 
 ' renders the element
-Polkadot('Polkadot', 'Polkadot', 'an optional tech label')
+Polkadot('Polkadot', 'Polkadot', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

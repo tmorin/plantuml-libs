@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Stripe')
 
 ' renders the element
-Stripe('Stripe', 'Stripe', 'an optional tech label')
+Stripe('Stripe', 'Stripe', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Stripe')
 
 ' renders the element
-Stripe('Stripe', 'Stripe', 'an optional tech label')
+Stripe('Stripe', 'Stripe', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Statuspal')
 
 ' renders the element
-Statuspal('Statuspal', 'Statuspal', 'an optional tech label')
+Statuspal('Statuspal', 'Statuspal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Statuspal')
 
 ' renders the element
-Statuspal('Statuspal', 'Statuspal', 'an optional tech label')
+Statuspal('Statuspal', 'Statuspal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

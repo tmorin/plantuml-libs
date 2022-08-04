@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pantheon')
 
 ' renders the element
-Pantheon('Pantheon', 'Pantheon', 'an optional tech label')
+Pantheon('Pantheon', 'Pantheon', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pantheon')
 
 ' renders the element
-Pantheon('Pantheon', 'Pantheon', 'an optional tech label')
+Pantheon('Pantheon', 'Pantheon', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

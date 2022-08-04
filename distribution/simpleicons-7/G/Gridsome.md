@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gridsome')
 
 ' renders the element
-Gridsome('Gridsome', 'Gridsome', 'an optional tech label')
+Gridsome('Gridsome', 'Gridsome', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gridsome')
 
 ' renders the element
-Gridsome('Gridsome', 'Gridsome', 'an optional tech label')
+Gridsome('Gridsome', 'Gridsome', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

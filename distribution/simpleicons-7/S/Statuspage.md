@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Statuspage')
 
 ' renders the element
-Statuspage('Statuspage', 'Statuspage', 'an optional tech label')
+Statuspage('Statuspage', 'Statuspage', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Statuspage')
 
 ' renders the element
-Statuspage('Statuspage', 'Statuspage', 'an optional tech label')
+Statuspage('Statuspage', 'Statuspage', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

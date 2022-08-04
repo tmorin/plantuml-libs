@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Badgr')
 
 ' renders the element
-Badgr('Badgr', 'Badgr', 'an optional tech label')
+Badgr('Badgr', 'Badgr', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Badgr')
 
 ' renders the element
-Badgr('Badgr', 'Badgr', 'an optional tech label')
+Badgr('Badgr', 'Badgr', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

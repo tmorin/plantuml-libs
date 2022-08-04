@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Precommit')
 
 ' renders the element
-Precommit('Precommit', 'Precommit', 'an optional tech label')
+Precommit('Precommit', 'Precommit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Precommit')
 
 ' renders the element
-Precommit('Precommit', 'Precommit', 'an optional tech label')
+Precommit('Precommit', 'Precommit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

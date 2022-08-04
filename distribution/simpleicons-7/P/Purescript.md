@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Purescript')
 
 ' renders the element
-Purescript('Purescript', 'Purescript', 'an optional tech label')
+Purescript('Purescript', 'Purescript', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Purescript')
 
 ' renders the element
-Purescript('Purescript', 'Purescript', 'an optional tech label')
+Purescript('Purescript', 'Purescript', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

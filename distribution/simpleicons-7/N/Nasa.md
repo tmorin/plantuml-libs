@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Nasa')
 
 ' renders the element
-Nasa('Nasa', 'Nasa', 'an optional tech label')
+Nasa('Nasa', 'Nasa', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Nasa')
 
 ' renders the element
-Nasa('Nasa', 'Nasa', 'an optional tech label')
+Nasa('Nasa', 'Nasa', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

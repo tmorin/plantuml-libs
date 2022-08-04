@@ -8,6 +8,6 @@ sprite $OpenstackMd [16x16/16z] Os1bHmOCNFoa0mOeO0MomOR0093D1WHmFf2Dh9uHo2R4Pq03
 
 sprite $OpenstackLg [20x20/16z] Os1YHmSCRFmq00nmm8f5Z172nGJOr54YnWK2IEQ3k2JPoyOC0poaU9yFMv1W2l4
 
-!procedure Openstack($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/O/Openstack', $name, $tech)
+!procedure Openstack($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/O/Openstack', $name, $tech, $desc)
 !endprocedure

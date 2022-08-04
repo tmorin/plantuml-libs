@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Nzxt')
 
 ' renders the element
-Nzxt('Nzxt', 'Nzxt', 'an optional tech label')
+Nzxt('Nzxt', 'Nzxt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Nzxt')
 
 ' renders the element
-Nzxt('Nzxt', 'Nzxt', 'an optional tech label')
+Nzxt('Nzxt', 'Nzxt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Apacheant')
 
 ' renders the element
-Apacheant('Apacheant', 'Apacheant', 'an optional tech label')
+Apacheant('Apacheant', 'Apacheant', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Apacheant')
 
 ' renders the element
-Apacheant('Apacheant', 'Apacheant', 'an optional tech label')
+Apacheant('Apacheant', 'Apacheant', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

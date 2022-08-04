@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Q/Quicklook')
 
 ' renders the element
-Quicklook('Quicklook', 'Quicklook', 'an optional tech label')
+Quicklook('Quicklook', 'Quicklook', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Q/Quicklook')
 
 ' renders the element
-Quicklook('Quicklook', 'Quicklook', 'an optional tech label')
+Quicklook('Quicklook', 'Quicklook', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

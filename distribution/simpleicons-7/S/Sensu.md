@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sensu')
 
 ' renders the element
-Sensu('Sensu', 'Sensu', 'an optional tech label')
+Sensu('Sensu', 'Sensu', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sensu')
 
 ' renders the element
-Sensu('Sensu', 'Sensu', 'an optional tech label')
+Sensu('Sensu', 'Sensu', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

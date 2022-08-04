@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Blender')
 
 ' renders the element
-Blender('Blender', 'Blender', 'an optional tech label')
+Blender('Blender', 'Blender', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Blender')
 
 ' renders the element
-Blender('Blender', 'Blender', 'an optional tech label')
+Blender('Blender', 'Blender', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

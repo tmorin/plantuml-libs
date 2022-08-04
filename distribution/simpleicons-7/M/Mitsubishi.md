@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mitsubishi')
 
 ' renders the element
-Mitsubishi('Mitsubishi', 'Mitsubishi', 'an optional tech label')
+Mitsubishi('Mitsubishi', 'Mitsubishi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mitsubishi')
 
 ' renders the element
-Mitsubishi('Mitsubishi', 'Mitsubishi', 'an optional tech label')
+Mitsubishi('Mitsubishi', 'Mitsubishi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mclaren')
 
 ' renders the element
-Mclaren('Mclaren', 'Mclaren', 'an optional tech label')
+Mclaren('Mclaren', 'Mclaren', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mclaren')
 
 ' renders the element
-Mclaren('Mclaren', 'Mclaren', 'an optional tech label')
+Mclaren('Mclaren', 'Mclaren', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

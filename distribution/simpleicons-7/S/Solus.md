@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Solus')
 
 ' renders the element
-Solus('Solus', 'Solus', 'an optional tech label')
+Solus('Solus', 'Solus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Solus')
 
 ' renders the element
-Solus('Solus', 'Solus', 'an optional tech label')
+Solus('Solus', 'Solus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

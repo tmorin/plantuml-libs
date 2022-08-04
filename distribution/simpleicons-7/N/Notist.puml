@@ -8,6 +8,6 @@ sprite $NotistMd [16x16/16z] bOk53O0040EBEzr_Mrx3nv2BLV6RW-I2Xa8ZriHyK3aXkBAOObD
 
 sprite $NotistLg [20x20/16z] fOy53i0W34N_7E_zJpjfg8J5UVWhLaooXRZp6ECAXXYWy5Yyeuuu9lrS0-Be06HrAy-Y10_0dx2ZLQRZTS7V6-M4kB1MEim9LrLtTXNGBCaWuHaU
 
-!procedure Notist($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/N/Notist', $name, $tech)
+!procedure Notist($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/N/Notist', $name, $tech, $desc)
 !endprocedure

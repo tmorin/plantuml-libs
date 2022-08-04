@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Y/Yammer')
 
 ' renders the element
-Yammer('Yammer', 'Yammer', 'an optional tech label')
+Yammer('Yammer', 'Yammer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Y/Yammer')
 
 ' renders the element
-Yammer('Yammer', 'Yammer', 'an optional tech label')
+Yammer('Yammer', 'Yammer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

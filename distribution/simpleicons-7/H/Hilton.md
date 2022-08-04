@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hilton')
 
 ' renders the element
-Hilton('Hilton', 'Hilton', 'an optional tech label')
+Hilton('Hilton', 'Hilton', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hilton')
 
 ' renders the element
-Hilton('Hilton', 'Hilton', 'an optional tech label')
+Hilton('Hilton', 'Hilton', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

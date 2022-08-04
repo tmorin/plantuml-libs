@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Talenthouse')
 
 ' renders the element
-Talenthouse('Talenthouse', 'Talenthouse', 'an optional tech label')
+Talenthouse('Talenthouse', 'Talenthouse', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Talenthouse')
 
 ' renders the element
-Talenthouse('Talenthouse', 'Talenthouse', 'an optional tech label')
+Talenthouse('Talenthouse', 'Talenthouse', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

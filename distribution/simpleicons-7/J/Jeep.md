@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Jeep')
 
 ' renders the element
-Jeep('Jeep', 'Jeep', 'an optional tech label')
+Jeep('Jeep', 'Jeep', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Jeep')
 
 ' renders the element
-Jeep('Jeep', 'Jeep', 'an optional tech label')
+Jeep('Jeep', 'Jeep', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

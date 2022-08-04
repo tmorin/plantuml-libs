@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Apachehadoop')
 
 ' renders the element
-Apachehadoop('Apachehadoop', 'Apachehadoop', 'an optional tech label')
+Apachehadoop('Apachehadoop', 'Apachehadoop', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Apachehadoop')
 
 ' renders the element
-Apachehadoop('Apachehadoop', 'Apachehadoop', 'an optional tech label')
+Apachehadoop('Apachehadoop', 'Apachehadoop', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

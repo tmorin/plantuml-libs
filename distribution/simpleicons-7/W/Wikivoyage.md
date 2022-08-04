@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Wikivoyage')
 
 ' renders the element
-Wikivoyage('Wikivoyage', 'Wikivoyage', 'an optional tech label')
+Wikivoyage('Wikivoyage', 'Wikivoyage', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Wikivoyage')
 
 ' renders the element
-Wikivoyage('Wikivoyage', 'Wikivoyage', 'an optional tech label')
+Wikivoyage('Wikivoyage', 'Wikivoyage', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

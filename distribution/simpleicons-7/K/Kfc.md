@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Kfc')
 
 ' renders the element
-Kfc('Kfc', 'Kfc', 'an optional tech label')
+Kfc('Kfc', 'Kfc', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Kfc')
 
 ' renders the element
-Kfc('Kfc', 'Kfc', 'an optional tech label')
+Kfc('Kfc', 'Kfc', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

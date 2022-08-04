@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Y/Youtubestudio')
 
 ' renders the element
-Youtubestudio('Youtubestudio', 'Youtubestudio', 'an optional tech label')
+Youtubestudio('Youtubestudio', 'Youtubestudio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Y/Youtubestudio')
 
 ' renders the element
-Youtubestudio('Youtubestudio', 'Youtubestudio', 'an optional tech label')
+Youtubestudio('Youtubestudio', 'Youtubestudio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

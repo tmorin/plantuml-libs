@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Triller')
 
 ' renders the element
-Triller('Triller', 'Triller', 'an optional tech label')
+Triller('Triller', 'Triller', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Triller')
 
 ' renders the element
-Triller('Triller', 'Triller', 'an optional tech label')
+Triller('Triller', 'Triller', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

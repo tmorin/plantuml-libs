@@ -8,6 +8,6 @@ sprite $TicketmasterMd [16x16/16z] lSV10K1G30N1VTa0wBzSACAVsp3U3Ct7BvlNVCxYqQuxQ
 
 sprite $TicketmasterLg [20x20/16z] rOO50S0m40C3PNZ_RaSgrk3XG55YFFinsDuhseXIcn9Ixt3l0wda_8oBv5fPcl5xtG
 
-!procedure Ticketmaster($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/T/Ticketmaster', $name, $tech)
+!procedure Ticketmaster($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/T/Ticketmaster', $name, $tech, $desc)
 !endprocedure

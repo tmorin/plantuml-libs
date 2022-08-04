@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pingdom')
 
 ' renders the element
-Pingdom('Pingdom', 'Pingdom', 'an optional tech label')
+Pingdom('Pingdom', 'Pingdom', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pingdom')
 
 ' renders the element
-Pingdom('Pingdom', 'Pingdom', 'an optional tech label')
+Pingdom('Pingdom', 'Pingdom', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

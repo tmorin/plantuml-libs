@@ -8,6 +8,6 @@ sprite $NextcloudMd [16x16/16z] hSUr0GGn44DHcLc__seFeytz1gLBmYCP6F_tm6UaJArG6icW
 
 sprite $NextcloudLg [20x20/16z] lSwrbGGn40N0FonuKkKVxJ7k-bDUS-TMorC2PhxLjhwdMXb6KjgMGEMZweJU747BEvoPI1hbEvTS3gDWv9rf5jAn3E_3f6BvUco0y_-R9pCtUWK
 
-!procedure Nextcloud($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/N/Nextcloud', $name, $tech)
+!procedure Nextcloud($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/N/Nextcloud', $name, $tech, $desc)
 !endprocedure

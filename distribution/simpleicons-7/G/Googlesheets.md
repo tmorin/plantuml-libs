@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Googlesheets')
 
 ' renders the element
-Googlesheets('Googlesheets', 'Googlesheets', 'an optional tech label')
+Googlesheets('Googlesheets', 'Googlesheets', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Googlesheets')
 
 ' renders the element
-Googlesheets('Googlesheets', 'Googlesheets', 'an optional tech label')
+Googlesheets('Googlesheets', 'Googlesheets', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

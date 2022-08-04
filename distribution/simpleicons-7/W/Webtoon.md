@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Webtoon')
 
 ' renders the element
-Webtoon('Webtoon', 'Webtoon', 'an optional tech label')
+Webtoon('Webtoon', 'Webtoon', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Webtoon')
 
 ' renders the element
-Webtoon('Webtoon', 'Webtoon', 'an optional tech label')
+Webtoon('Webtoon', 'Webtoon', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Netto')
 
 ' renders the element
-Netto('Netto', 'Netto', 'an optional tech label')
+Netto('Netto', 'Netto', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Netto')
 
 ' renders the element
-Netto('Netto', 'Netto', 'an optional tech label')
+Netto('Netto', 'Netto', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

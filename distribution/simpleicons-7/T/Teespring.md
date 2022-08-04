@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Teespring')
 
 ' renders the element
-Teespring('Teespring', 'Teespring', 'an optional tech label')
+Teespring('Teespring', 'Teespring', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Teespring')
 
 ' renders the element
-Teespring('Teespring', 'Teespring', 'an optional tech label')
+Teespring('Teespring', 'Teespring', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

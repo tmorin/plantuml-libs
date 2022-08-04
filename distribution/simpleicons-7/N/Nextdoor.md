@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Nextdoor')
 
 ' renders the element
-Nextdoor('Nextdoor', 'Nextdoor', 'an optional tech label')
+Nextdoor('Nextdoor', 'Nextdoor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Nextdoor')
 
 ' renders the element
-Nextdoor('Nextdoor', 'Nextdoor', 'an optional tech label')
+Nextdoor('Nextdoor', 'Nextdoor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

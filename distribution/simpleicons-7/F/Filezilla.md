@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Filezilla')
 
 ' renders the element
-Filezilla('Filezilla', 'Filezilla', 'an optional tech label')
+Filezilla('Filezilla', 'Filezilla', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Filezilla')
 
 ' renders the element
-Filezilla('Filezilla', 'Filezilla', 'an optional tech label')
+Filezilla('Filezilla', 'Filezilla', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

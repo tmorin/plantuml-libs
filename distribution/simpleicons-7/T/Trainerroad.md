@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Trainerroad')
 
 ' renders the element
-Trainerroad('Trainerroad', 'Trainerroad', 'an optional tech label')
+Trainerroad('Trainerroad', 'Trainerroad', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Trainerroad')
 
 ' renders the element
-Trainerroad('Trainerroad', 'Trainerroad', 'an optional tech label')
+Trainerroad('Trainerroad', 'Trainerroad', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gunicorn')
 
 ' renders the element
-Gunicorn('Gunicorn', 'Gunicorn', 'an optional tech label')
+Gunicorn('Gunicorn', 'Gunicorn', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gunicorn')
 
 ' renders the element
-Gunicorn('Gunicorn', 'Gunicorn', 'an optional tech label')
+Gunicorn('Gunicorn', 'Gunicorn', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

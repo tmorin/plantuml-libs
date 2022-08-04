@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Amazonpay')
 
 ' renders the element
-Amazonpay('Amazonpay', 'Amazonpay', 'an optional tech label')
+Amazonpay('Amazonpay', 'Amazonpay', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Amazonpay')
 
 ' renders the element
-Amazonpay('Amazonpay', 'Amazonpay', 'an optional tech label')
+Amazonpay('Amazonpay', 'Amazonpay', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

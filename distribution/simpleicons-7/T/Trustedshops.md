@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Trustedshops')
 
 ' renders the element
-Trustedshops('Trustedshops', 'Trustedshops', 'an optional tech label')
+Trustedshops('Trustedshops', 'Trustedshops', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Trustedshops')
 
 ' renders the element
-Trustedshops('Trustedshops', 'Trustedshops', 'an optional tech label')
+Trustedshops('Trustedshops', 'Trustedshops', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

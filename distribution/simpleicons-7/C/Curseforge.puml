@@ -8,6 +8,6 @@ sprite $CurseforgeMd [16x16/16z] hSVL5S0W44JHmPtflziS_3TsaTs77qWUWPCQYJnRjW-D3AM
 
 sprite $CurseforgeLg [20x20/16z] lSc50SCm30313tD-_sbB9YtGd2tcARr6v_MLMZEi9hykWCCCKaxwuVAqxrIQthw7nPF0-tUPYFI-FObcVuXCEe8ZcVc3Dm
 
-!procedure Curseforge($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/C/Curseforge', $name, $tech)
+!procedure Curseforge($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/C/Curseforge', $name, $tech, $desc)
 !endprocedure

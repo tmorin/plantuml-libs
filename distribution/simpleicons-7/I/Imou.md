@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Imou')
 
 ' renders the element
-Imou('Imou', 'Imou', 'an optional tech label')
+Imou('Imou', 'Imou', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Imou')
 
 ' renders the element
-Imou('Imou', 'Imou', 'an optional tech label')
+Imou('Imou', 'Imou', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,6 +8,6 @@ sprite $CiscoMd [16x16/16z] hSV50GD140Cm7VEw_sh3UOL17lG7SJQ0KOpeZIgJd39RZLgvvlnN
 
 sprite $CiscoLg [20x20/16z] lSq53W8n54NHCreBlFsl5YSACUIstys_2C1KNkGge8aw8owv4CzSdhbMMUGYckgIQrQmUJ9vovA8n9Je2GIHRk1etv2o26rfVPRvCC5MhEf6kHwUVPqp
 
-!procedure Cisco($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/C/Cisco', $name, $tech)
+!procedure Cisco($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/C/Cisco', $name, $tech, $desc)
 !endprocedure

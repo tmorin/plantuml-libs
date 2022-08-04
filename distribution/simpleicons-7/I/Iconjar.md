@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Iconjar')
 
 ' renders the element
-Iconjar('Iconjar', 'Iconjar', 'an optional tech label')
+Iconjar('Iconjar', 'Iconjar', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Iconjar')
 
 ' renders the element
-Iconjar('Iconjar', 'Iconjar', 'an optional tech label')
+Iconjar('Iconjar', 'Iconjar', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

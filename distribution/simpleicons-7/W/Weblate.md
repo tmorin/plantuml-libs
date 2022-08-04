@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Weblate')
 
 ' renders the element
-Weblate('Weblate', 'Weblate', 'an optional tech label')
+Weblate('Weblate', 'Weblate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Weblate')
 
 ' renders the element
-Weblate('Weblate', 'Weblate', 'an optional tech label')
+Weblate('Weblate', 'Weblate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

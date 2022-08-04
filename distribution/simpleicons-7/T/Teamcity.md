@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Teamcity')
 
 ' renders the element
-Teamcity('Teamcity', 'Teamcity', 'an optional tech label')
+Teamcity('Teamcity', 'Teamcity', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Teamcity')
 
 ' renders the element
-Teamcity('Teamcity', 'Teamcity', 'an optional tech label')
+Teamcity('Teamcity', 'Teamcity', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

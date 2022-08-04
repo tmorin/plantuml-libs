@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Shelly')
 
 ' renders the element
-Shelly('Shelly', 'Shelly', 'an optional tech label')
+Shelly('Shelly', 'Shelly', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Shelly')
 
 ' renders the element
-Shelly('Shelly', 'Shelly', 'an optional tech label')
+Shelly('Shelly', 'Shelly', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

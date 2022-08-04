@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Dedge')
 
 ' renders the element
-Dedge('Dedge', 'Dedge', 'an optional tech label')
+Dedge('Dedge', 'Dedge', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Dedge')
 
 ' renders the element
-Dedge('Dedge', 'Dedge', 'an optional tech label')
+Dedge('Dedge', 'Dedge', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

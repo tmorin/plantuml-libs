@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mlb')
 
 ' renders the element
-Mlb('Mlb', 'Mlb', 'an optional tech label')
+Mlb('Mlb', 'Mlb', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mlb')
 
 ' renders the element
-Mlb('Mlb', 'Mlb', 'an optional tech label')
+Mlb('Mlb', 'Mlb', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

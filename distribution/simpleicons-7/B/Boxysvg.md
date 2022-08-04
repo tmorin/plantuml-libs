@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Boxysvg')
 
 ' renders the element
-Boxysvg('Boxysvg', 'Boxysvg', 'an optional tech label')
+Boxysvg('Boxysvg', 'Boxysvg', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Boxysvg')
 
 ' renders the element
-Boxysvg('Boxysvg', 'Boxysvg', 'an optional tech label')
+Boxysvg('Boxysvg', 'Boxysvg', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

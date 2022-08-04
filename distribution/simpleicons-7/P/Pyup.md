@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pyup')
 
 ' renders the element
-Pyup('Pyup', 'Pyup', 'an optional tech label')
+Pyup('Pyup', 'Pyup', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pyup')
 
 ' renders the element
-Pyup('Pyup', 'Pyup', 'an optional tech label')
+Pyup('Pyup', 'Pyup', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

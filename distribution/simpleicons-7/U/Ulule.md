@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/U/Ulule')
 
 ' renders the element
-Ulule('Ulule', 'Ulule', 'an optional tech label')
+Ulule('Ulule', 'Ulule', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/U/Ulule')
 
 ' renders the element
-Ulule('Ulule', 'Ulule', 'an optional tech label')
+Ulule('Ulule', 'Ulule', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

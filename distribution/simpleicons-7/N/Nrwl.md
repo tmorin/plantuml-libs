@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Nrwl')
 
 ' renders the element
-Nrwl('Nrwl', 'Nrwl', 'an optional tech label')
+Nrwl('Nrwl', 'Nrwl', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Nrwl')
 
 ' renders the element
-Nrwl('Nrwl', 'Nrwl', 'an optional tech label')
+Nrwl('Nrwl', 'Nrwl', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

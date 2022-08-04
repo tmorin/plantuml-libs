@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Timescale')
 
 ' renders the element
-Timescale('Timescale', 'Timescale', 'an optional tech label')
+Timescale('Timescale', 'Timescale', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Timescale')
 
 ' renders the element
-Timescale('Timescale', 'Timescale', 'an optional tech label')
+Timescale('Timescale', 'Timescale', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

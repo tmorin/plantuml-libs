@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cirrusci')
 
 ' renders the element
-Cirrusci('Cirrusci', 'Cirrusci', 'an optional tech label')
+Cirrusci('Cirrusci', 'Cirrusci', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cirrusci')
 
 ' renders the element
-Cirrusci('Cirrusci', 'Cirrusci', 'an optional tech label')
+Cirrusci('Cirrusci', 'Cirrusci', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

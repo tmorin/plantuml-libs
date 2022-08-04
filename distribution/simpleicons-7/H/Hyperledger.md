@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hyperledger')
 
 ' renders the element
-Hyperledger('Hyperledger', 'Hyperledger', 'an optional tech label')
+Hyperledger('Hyperledger', 'Hyperledger', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hyperledger')
 
 ' renders the element
-Hyperledger('Hyperledger', 'Hyperledger', 'an optional tech label')
+Hyperledger('Hyperledger', 'Hyperledger', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

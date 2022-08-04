@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Godotengine')
 
 ' renders the element
-Godotengine('Godotengine', 'Godotengine', 'an optional tech label')
+Godotengine('Godotengine', 'Godotengine', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Godotengine')
 
 ' renders the element
-Godotengine('Godotengine', 'Godotengine', 'an optional tech label')
+Godotengine('Godotengine', 'Godotengine', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

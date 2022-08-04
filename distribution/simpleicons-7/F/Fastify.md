@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fastify')
 
 ' renders the element
-Fastify('Fastify', 'Fastify', 'an optional tech label')
+Fastify('Fastify', 'Fastify', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Fastify')
 
 ' renders the element
-Fastify('Fastify', 'Fastify', 'an optional tech label')
+Fastify('Fastify', 'Fastify', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

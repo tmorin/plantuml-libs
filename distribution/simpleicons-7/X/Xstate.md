@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/X/Xstate')
 
 ' renders the element
-Xstate('Xstate', 'Xstate', 'an optional tech label')
+Xstate('Xstate', 'Xstate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/X/Xstate')
 
 ' renders the element
-Xstate('Xstate', 'Xstate', 'an optional tech label')
+Xstate('Xstate', 'Xstate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

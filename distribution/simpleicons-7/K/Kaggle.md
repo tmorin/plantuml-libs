@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Kaggle')
 
 ' renders the element
-Kaggle('Kaggle', 'Kaggle', 'an optional tech label')
+Kaggle('Kaggle', 'Kaggle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Kaggle')
 
 ' renders the element
-Kaggle('Kaggle', 'Kaggle', 'an optional tech label')
+Kaggle('Kaggle', 'Kaggle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

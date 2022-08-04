@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Jetpackcompose')
 
 ' renders the element
-Jetpackcompose('Jetpackcompose', 'Jetpackcompose', 'an optional tech label')
+Jetpackcompose('Jetpackcompose', 'Jetpackcompose', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Jetpackcompose')
 
 ' renders the element
-Jetpackcompose('Jetpackcompose', 'Jetpackcompose', 'an optional tech label')
+Jetpackcompose('Jetpackcompose', 'Jetpackcompose', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

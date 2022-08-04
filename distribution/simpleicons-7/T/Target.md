@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Target')
 
 ' renders the element
-Target('Target', 'Target', 'an optional tech label')
+Target('Target', 'Target', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Target')
 
 ' renders the element
-Target('Target', 'Target', 'an optional tech label')
+Target('Target', 'Target', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

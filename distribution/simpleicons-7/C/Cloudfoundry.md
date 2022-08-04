@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cloudfoundry')
 
 ' renders the element
-Cloudfoundry('Cloudfoundry', 'Cloudfoundry', 'an optional tech label')
+Cloudfoundry('Cloudfoundry', 'Cloudfoundry', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cloudfoundry')
 
 ' renders the element
-Cloudfoundry('Cloudfoundry', 'Cloudfoundry', 'an optional tech label')
+Cloudfoundry('Cloudfoundry', 'Cloudfoundry', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

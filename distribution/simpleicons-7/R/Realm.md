@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Realm')
 
 ' renders the element
-Realm('Realm', 'Realm', 'an optional tech label')
+Realm('Realm', 'Realm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Realm')
 
 ' renders the element
-Realm('Realm', 'Realm', 'an optional tech label')
+Realm('Realm', 'Realm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

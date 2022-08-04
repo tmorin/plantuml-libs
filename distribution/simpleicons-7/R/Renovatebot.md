@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Renovatebot')
 
 ' renders the element
-Renovatebot('Renovatebot', 'Renovatebot', 'an optional tech label')
+Renovatebot('Renovatebot', 'Renovatebot', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Renovatebot')
 
 ' renders the element
-Renovatebot('Renovatebot', 'Renovatebot', 'an optional tech label')
+Renovatebot('Renovatebot', 'Renovatebot', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

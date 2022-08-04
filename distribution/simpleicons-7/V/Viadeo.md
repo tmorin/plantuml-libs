@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Viadeo')
 
 ' renders the element
-Viadeo('Viadeo', 'Viadeo', 'an optional tech label')
+Viadeo('Viadeo', 'Viadeo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Viadeo')
 
 ' renders the element
-Viadeo('Viadeo', 'Viadeo', 'an optional tech label')
+Viadeo('Viadeo', 'Viadeo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

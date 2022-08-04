@@ -8,6 +8,6 @@ sprite $PayoneerMd [16x16/16z] VOhL0SKm08IenHFsd_QvI-_l0FvlKZlUh-fen75vgxfSAu2es
 
 sprite $PayoneerLg [20x20/16z] XSg30SH0503HYRES_gizCtoBJqureLfQPhwA3xJoqgdceO76rsPI8q_ANTOCVprruAFu-2e_1a7bJo5QMEYK9MMfsB0mEB9aPccK5GUMkifARLbfMRi2
 
-!procedure Payoneer($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/P/Payoneer', $name, $tech)
+!procedure Payoneer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/P/Payoneer', $name, $tech, $desc)
 !endprocedure

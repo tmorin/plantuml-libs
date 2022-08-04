@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mendeley')
 
 ' renders the element
-Mendeley('Mendeley', 'Mendeley', 'an optional tech label')
+Mendeley('Mendeley', 'Mendeley', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Mendeley')
 
 ' renders the element
-Mendeley('Mendeley', 'Mendeley', 'an optional tech label')
+Mendeley('Mendeley', 'Mendeley', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

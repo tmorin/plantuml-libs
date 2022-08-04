@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Chinasouthernairlines')
 
 ' renders the element
-Chinasouthernairlines('Chinasouthernairlines', 'Chinasouthernairlines', 'an optional tech label')
+Chinasouthernairlines('Chinasouthernairlines', 'Chinasouthernairlines', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Chinasouthernairlines')
 
 ' renders the element
-Chinasouthernairlines('Chinasouthernairlines', 'Chinasouthernairlines', 'an optional tech label')
+Chinasouthernairlines('Chinasouthernairlines', 'Chinasouthernairlines', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

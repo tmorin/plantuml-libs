@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Q/Qualtrics')
 
 ' renders the element
-Qualtrics('Qualtrics', 'Qualtrics', 'an optional tech label')
+Qualtrics('Qualtrics', 'Qualtrics', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Q/Qualtrics')
 
 ' renders the element
-Qualtrics('Qualtrics', 'Qualtrics', 'an optional tech label')
+Qualtrics('Qualtrics', 'Qualtrics', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

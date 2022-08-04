@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gitbook')
 
 ' renders the element
-Gitbook('Gitbook', 'Gitbook', 'an optional tech label')
+Gitbook('Gitbook', 'Gitbook', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gitbook')
 
 ' renders the element
-Gitbook('Gitbook', 'Gitbook', 'an optional tech label')
+Gitbook('Gitbook', 'Gitbook', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

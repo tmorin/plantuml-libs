@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Clickup')
 
 ' renders the element
-Clickup('Clickup', 'Clickup', 'an optional tech label')
+Clickup('Clickup', 'Clickup', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Clickup')
 
 ' renders the element
-Clickup('Clickup', 'Clickup', 'an optional tech label')
+Clickup('Clickup', 'Clickup', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

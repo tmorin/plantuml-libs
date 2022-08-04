@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Invoiceninja')
 
 ' renders the element
-Invoiceninja('Invoiceninja', 'Invoiceninja', 'an optional tech label')
+Invoiceninja('Invoiceninja', 'Invoiceninja', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Invoiceninja')
 
 ' renders the element
-Invoiceninja('Invoiceninja', 'Invoiceninja', 'an optional tech label')
+Invoiceninja('Invoiceninja', 'Invoiceninja', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

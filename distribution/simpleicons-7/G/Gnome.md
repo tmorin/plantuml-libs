@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gnome')
 
 ' renders the element
-Gnome('Gnome', 'Gnome', 'an optional tech label')
+Gnome('Gnome', 'Gnome', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gnome')
 
 ' renders the element
-Gnome('Gnome', 'Gnome', 'an optional tech label')
+Gnome('Gnome', 'Gnome', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

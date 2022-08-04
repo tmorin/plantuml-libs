@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Archicad')
 
 ' renders the element
-Archicad('Archicad', 'Archicad', 'an optional tech label')
+Archicad('Archicad', 'Archicad', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Archicad')
 
 ' renders the element
-Archicad('Archicad', 'Archicad', 'an optional tech label')
+Archicad('Archicad', 'Archicad', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

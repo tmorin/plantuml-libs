@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Jetbrains')
 
 ' renders the element
-Jetbrains('Jetbrains', 'Jetbrains', 'an optional tech label')
+Jetbrains('Jetbrains', 'Jetbrains', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Jetbrains')
 
 ' renders the element
-Jetbrains('Jetbrains', 'Jetbrains', 'an optional tech label')
+Jetbrains('Jetbrains', 'Jetbrains', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

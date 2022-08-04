@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Redhat')
 
 ' renders the element
-Redhat('Redhat', 'Redhat', 'an optional tech label')
+Redhat('Redhat', 'Redhat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Redhat')
 
 ' renders the element
-Redhat('Redhat', 'Redhat', 'an optional tech label')
+Redhat('Redhat', 'Redhat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

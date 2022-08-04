@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Ocaml')
 
 ' renders the element
-Ocaml('Ocaml', 'Ocaml', 'an optional tech label')
+Ocaml('Ocaml', 'Ocaml', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Ocaml')
 
 ' renders the element
-Ocaml('Ocaml', 'Ocaml', 'an optional tech label')
+Ocaml('Ocaml', 'Ocaml', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

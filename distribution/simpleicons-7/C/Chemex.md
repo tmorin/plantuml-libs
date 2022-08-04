@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Chemex')
 
 ' renders the element
-Chemex('Chemex', 'Chemex', 'an optional tech label')
+Chemex('Chemex', 'Chemex', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Chemex')
 
 ' renders the element
-Chemex('Chemex', 'Chemex', 'an optional tech label')
+Chemex('Chemex', 'Chemex', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

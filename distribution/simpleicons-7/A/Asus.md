@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Asus')
 
 ' renders the element
-Asus('Asus', 'Asus', 'an optional tech label')
+Asus('Asus', 'Asus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Asus')
 
 ' renders the element
-Asus('Asus', 'Asus', 'an optional tech label')
+Asus('Asus', 'Asus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

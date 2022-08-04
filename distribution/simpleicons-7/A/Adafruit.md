@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Adafruit')
 
 ' renders the element
-Adafruit('Adafruit', 'Adafruit', 'an optional tech label')
+Adafruit('Adafruit', 'Adafruit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Adafruit')
 
 ' renders the element
-Adafruit('Adafruit', 'Adafruit', 'an optional tech label')
+Adafruit('Adafruit', 'Adafruit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

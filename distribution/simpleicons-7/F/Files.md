@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Files')
 
 ' renders the element
-Files('Files', 'Files', 'an optional tech label')
+Files('Files', 'Files', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Files')
 
 ' renders the element
-Files('Files', 'Files', 'an optional tech label')
+Files('Files', 'Files', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

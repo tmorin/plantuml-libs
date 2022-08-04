@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Moscowmetro')
 
 ' renders the element
-Moscowmetro('Moscowmetro', 'Moscowmetro', 'an optional tech label')
+Moscowmetro('Moscowmetro', 'Moscowmetro', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Moscowmetro')
 
 ' renders the element
-Moscowmetro('Moscowmetro', 'Moscowmetro', 'an optional tech label')
+Moscowmetro('Moscowmetro', 'Moscowmetro', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

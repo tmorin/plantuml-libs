@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Appian')
 
 ' renders the element
-Appian('Appian', 'Appian', 'an optional tech label')
+Appian('Appian', 'Appian', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Appian')
 
 ' renders the element
-Appian('Appian', 'Appian', 'an optional tech label')
+Appian('Appian', 'Appian', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

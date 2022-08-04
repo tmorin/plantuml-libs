@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Rewe')
 
 ' renders the element
-Rewe('Rewe', 'Rewe', 'an optional tech label')
+Rewe('Rewe', 'Rewe', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Rewe')
 
 ' renders the element
-Rewe('Rewe', 'Rewe', 'an optional tech label')
+Rewe('Rewe', 'Rewe', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

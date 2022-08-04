@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Creativecommons')
 
 ' renders the element
-Creativecommons('Creativecommons', 'Creativecommons', 'an optional tech label')
+Creativecommons('Creativecommons', 'Creativecommons', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Creativecommons')
 
 ' renders the element
-Creativecommons('Creativecommons', 'Creativecommons', 'an optional tech label')
+Creativecommons('Creativecommons', 'Creativecommons', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

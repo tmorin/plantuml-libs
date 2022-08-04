@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Samsungpay')
 
 ' renders the element
-Samsungpay('Samsungpay', 'Samsungpay', 'an optional tech label')
+Samsungpay('Samsungpay', 'Samsungpay', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Samsungpay')
 
 ' renders the element
-Samsungpay('Samsungpay', 'Samsungpay', 'an optional tech label')
+Samsungpay('Samsungpay', 'Samsungpay', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

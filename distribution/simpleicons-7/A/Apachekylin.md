@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Apachekylin')
 
 ' renders the element
-Apachekylin('Apachekylin', 'Apachekylin', 'an optional tech label')
+Apachekylin('Apachekylin', 'Apachekylin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Apachekylin')
 
 ' renders the element
-Apachekylin('Apachekylin', 'Apachekylin', 'an optional tech label')
+Apachekylin('Apachekylin', 'Apachekylin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

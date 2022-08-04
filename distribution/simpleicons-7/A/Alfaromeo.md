@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Alfaromeo')
 
 ' renders the element
-Alfaromeo('Alfaromeo', 'Alfaromeo', 'an optional tech label')
+Alfaromeo('Alfaromeo', 'Alfaromeo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Alfaromeo')
 
 ' renders the element
-Alfaromeo('Alfaromeo', 'Alfaromeo', 'an optional tech label')
+Alfaromeo('Alfaromeo', 'Alfaromeo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

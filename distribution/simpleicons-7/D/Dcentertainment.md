@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Dcentertainment')
 
 ' renders the element
-Dcentertainment('Dcentertainment', 'Dcentertainment', 'an optional tech label')
+Dcentertainment('Dcentertainment', 'Dcentertainment', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Dcentertainment')
 
 ' renders the element
-Dcentertainment('Dcentertainment', 'Dcentertainment', 'an optional tech label')
+Dcentertainment('Dcentertainment', 'Dcentertainment', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

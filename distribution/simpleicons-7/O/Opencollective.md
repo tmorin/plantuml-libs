@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Opencollective')
 
 ' renders the element
-Opencollective('Opencollective', 'Opencollective', 'an optional tech label')
+Opencollective('Opencollective', 'Opencollective', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Opencollective')
 
 ' renders the element
-Opencollective('Opencollective', 'Opencollective', 'an optional tech label')
+Opencollective('Opencollective', 'Opencollective', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

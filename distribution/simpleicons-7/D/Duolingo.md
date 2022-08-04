@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Duolingo')
 
 ' renders the element
-Duolingo('Duolingo', 'Duolingo', 'an optional tech label')
+Duolingo('Duolingo', 'Duolingo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Duolingo')
 
 ' renders the element
-Duolingo('Duolingo', 'Duolingo', 'an optional tech label')
+Duolingo('Duolingo', 'Duolingo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

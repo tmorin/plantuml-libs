@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Rabbitmq')
 
 ' renders the element
-Rabbitmq('Rabbitmq', 'Rabbitmq', 'an optional tech label')
+Rabbitmq('Rabbitmq', 'Rabbitmq', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Rabbitmq')
 
 ' renders the element
-Rabbitmq('Rabbitmq', 'Rabbitmq', 'an optional tech label')
+Rabbitmq('Rabbitmq', 'Rabbitmq', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

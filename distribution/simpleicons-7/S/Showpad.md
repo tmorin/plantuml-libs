@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Showpad')
 
 ' renders the element
-Showpad('Showpad', 'Showpad', 'an optional tech label')
+Showpad('Showpad', 'Showpad', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Showpad')
 
 ' renders the element
-Showpad('Showpad', 'Showpad', 'an optional tech label')
+Showpad('Showpad', 'Showpad', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

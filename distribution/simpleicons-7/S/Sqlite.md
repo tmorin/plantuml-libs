@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sqlite')
 
 ' renders the element
-Sqlite('Sqlite', 'Sqlite', 'an optional tech label')
+Sqlite('Sqlite', 'Sqlite', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sqlite')
 
 ' renders the element
-Sqlite('Sqlite', 'Sqlite', 'an optional tech label')
+Sqlite('Sqlite', 'Sqlite', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Apachecloudstack')
 
 ' renders the element
-Apachecloudstack('Apachecloudstack', 'Apachecloudstack', 'an optional tech label')
+Apachecloudstack('Apachecloudstack', 'Apachecloudstack', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Apachecloudstack')
 
 ' renders the element
-Apachecloudstack('Apachecloudstack', 'Apachecloudstack', 'an optional tech label')
+Apachecloudstack('Apachecloudstack', 'Apachecloudstack', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Boeing')
 
 ' renders the element
-Boeing('Boeing', 'Boeing', 'an optional tech label')
+Boeing('Boeing', 'Boeing', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Boeing')
 
 ' renders the element
-Boeing('Boeing', 'Boeing', 'an optional tech label')
+Boeing('Boeing', 'Boeing', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

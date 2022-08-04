@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Microbit')
 
 ' renders the element
-Microbit('Microbit', 'Microbit', 'an optional tech label')
+Microbit('Microbit', 'Microbit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Microbit')
 
 ' renders the element
-Microbit('Microbit', 'Microbit', 'an optional tech label')
+Microbit('Microbit', 'Microbit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,6 +8,6 @@ sprite $UberMd [16x16/16z] hOh50S0m549VtM7_QUkMdBzZ15UvRr5-tFlsIyvbKTlCUlog56XcX
 
 sprite $UberLg [20x20/16z] pOXL5a8124GluJk0CVjVhTtwhp3D7vqCbghukXc0FM-Q5gWsZJRNhI5wvo34oRjg1OoMY42O25K9PBx3jmXyAZAZny2ceFdL7G
 
-!procedure Uber($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/U/Uber', $name, $tech)
+!procedure Uber($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/U/Uber', $name, $tech, $desc)
 !endprocedure

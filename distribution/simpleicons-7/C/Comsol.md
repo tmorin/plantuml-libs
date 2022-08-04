@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Comsol')
 
 ' renders the element
-Comsol('Comsol', 'Comsol', 'an optional tech label')
+Comsol('Comsol', 'Comsol', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Comsol')
 
 ' renders the element
-Comsol('Comsol', 'Comsol', 'an optional tech label')
+Comsol('Comsol', 'Comsol', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

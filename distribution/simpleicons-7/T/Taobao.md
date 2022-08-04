@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Taobao')
 
 ' renders the element
-Taobao('Taobao', 'Taobao', 'an optional tech label')
+Taobao('Taobao', 'Taobao', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Taobao')
 
 ' renders the element
-Taobao('Taobao', 'Taobao', 'an optional tech label')
+Taobao('Taobao', 'Taobao', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

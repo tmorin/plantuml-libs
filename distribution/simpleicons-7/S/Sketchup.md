@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sketchup')
 
 ' renders the element
-Sketchup('Sketchup', 'Sketchup', 'an optional tech label')
+Sketchup('Sketchup', 'Sketchup', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sketchup')
 
 ' renders the element
-Sketchup('Sketchup', 'Sketchup', 'an optional tech label')
+Sketchup('Sketchup', 'Sketchup', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

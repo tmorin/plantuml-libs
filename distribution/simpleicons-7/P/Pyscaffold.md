@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pyscaffold')
 
 ' renders the element
-Pyscaffold('Pyscaffold', 'Pyscaffold', 'an optional tech label')
+Pyscaffold('Pyscaffold', 'Pyscaffold', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pyscaffold')
 
 ' renders the element
-Pyscaffold('Pyscaffold', 'Pyscaffold', 'an optional tech label')
+Pyscaffold('Pyscaffold', 'Pyscaffold', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

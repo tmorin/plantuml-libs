@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Codingame')
 
 ' renders the element
-Codingame('Codingame', 'Codingame', 'an optional tech label')
+Codingame('Codingame', 'Codingame', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Codingame')
 
 ' renders the element
-Codingame('Codingame', 'Codingame', 'an optional tech label')
+Codingame('Codingame', 'Codingame', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

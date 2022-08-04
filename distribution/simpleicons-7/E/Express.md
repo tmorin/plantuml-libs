@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Express')
 
 ' renders the element
-Express('Express', 'Express', 'an optional tech label')
+Express('Express', 'Express', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Express')
 
 ' renders the element
-Express('Express', 'Express', 'an optional tech label')
+Express('Express', 'Express', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

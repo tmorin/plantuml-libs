@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Postmates')
 
 ' renders the element
-Postmates('Postmates', 'Postmates', 'an optional tech label')
+Postmates('Postmates', 'Postmates', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Postmates')
 
 ' renders the element
-Postmates('Postmates', 'Postmates', 'an optional tech label')
+Postmates('Postmates', 'Postmates', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

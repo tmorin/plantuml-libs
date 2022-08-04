@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Openzfs')
 
 ' renders the element
-Openzfs('Openzfs', 'Openzfs', 'an optional tech label')
+Openzfs('Openzfs', 'Openzfs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Openzfs')
 
 ' renders the element
-Openzfs('Openzfs', 'Openzfs', 'an optional tech label')
+Openzfs('Openzfs', 'Openzfs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

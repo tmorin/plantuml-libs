@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pinterest')
 
 ' renders the element
-Pinterest('Pinterest', 'Pinterest', 'an optional tech label')
+Pinterest('Pinterest', 'Pinterest', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pinterest')
 
 ' renders the element
-Pinterest('Pinterest', 'Pinterest', 'an optional tech label')
+Pinterest('Pinterest', 'Pinterest', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

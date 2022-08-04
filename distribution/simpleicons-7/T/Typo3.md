@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Typo3')
 
 ' renders the element
-Typo3('Typo3', 'Typo3', 'an optional tech label')
+Typo3('Typo3', 'Typo3', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Typo3')
 
 ' renders the element
-Typo3('Typo3', 'Typo3', 'an optional tech label')
+Typo3('Typo3', 'Typo3', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

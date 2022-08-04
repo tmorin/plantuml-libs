@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Grafana')
 
 ' renders the element
-Grafana('Grafana', 'Grafana', 'an optional tech label')
+Grafana('Grafana', 'Grafana', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Grafana')
 
 ' renders the element
-Grafana('Grafana', 'Grafana', 'an optional tech label')
+Grafana('Grafana', 'Grafana', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

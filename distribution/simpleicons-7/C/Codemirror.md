@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Codemirror')
 
 ' renders the element
-Codemirror('Codemirror', 'Codemirror', 'an optional tech label')
+Codemirror('Codemirror', 'Codemirror', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Codemirror')
 
 ' renders the element
-Codemirror('Codemirror', 'Codemirror', 'an optional tech label')
+Codemirror('Codemirror', 'Codemirror', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

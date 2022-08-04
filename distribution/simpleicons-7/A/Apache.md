@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Apache')
 
 ' renders the element
-Apache('Apache', 'Apache', 'an optional tech label')
+Apache('Apache', 'Apache', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Apache')
 
 ' renders the element
-Apache('Apache', 'Apache', 'an optional tech label')
+Apache('Apache', 'Apache', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

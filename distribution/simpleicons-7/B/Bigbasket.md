@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bigbasket')
 
 ' renders the element
-Bigbasket('Bigbasket', 'Bigbasket', 'an optional tech label')
+Bigbasket('Bigbasket', 'Bigbasket', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bigbasket')
 
 ' renders the element
-Bigbasket('Bigbasket', 'Bigbasket', 'an optional tech label')
+Bigbasket('Bigbasket', 'Bigbasket', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

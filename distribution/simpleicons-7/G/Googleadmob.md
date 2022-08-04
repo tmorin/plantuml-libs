@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Googleadmob')
 
 ' renders the element
-Googleadmob('Googleadmob', 'Googleadmob', 'an optional tech label')
+Googleadmob('Googleadmob', 'Googleadmob', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Googleadmob')
 
 ' renders the element
-Googleadmob('Googleadmob', 'Googleadmob', 'an optional tech label')
+Googleadmob('Googleadmob', 'Googleadmob', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Thumbtack')
 
 ' renders the element
-Thumbtack('Thumbtack', 'Thumbtack', 'an optional tech label')
+Thumbtack('Thumbtack', 'Thumbtack', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Thumbtack')
 
 ' renders the element
-Thumbtack('Thumbtack', 'Thumbtack', 'an optional tech label')
+Thumbtack('Thumbtack', 'Thumbtack', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

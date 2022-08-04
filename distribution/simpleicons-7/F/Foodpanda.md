@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Foodpanda')
 
 ' renders the element
-Foodpanda('Foodpanda', 'Foodpanda', 'an optional tech label')
+Foodpanda('Foodpanda', 'Foodpanda', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Foodpanda')
 
 ' renders the element
-Foodpanda('Foodpanda', 'Foodpanda', 'an optional tech label')
+Foodpanda('Foodpanda', 'Foodpanda', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

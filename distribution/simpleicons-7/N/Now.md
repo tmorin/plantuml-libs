@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Now')
 
 ' renders the element
-Now('Now', 'Now', 'an optional tech label')
+Now('Now', 'Now', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Now')
 
 ' renders the element
-Now('Now', 'Now', 'an optional tech label')
+Now('Now', 'Now', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

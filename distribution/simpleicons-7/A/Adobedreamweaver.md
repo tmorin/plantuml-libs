@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Adobedreamweaver')
 
 ' renders the element
-Adobedreamweaver('Adobedreamweaver', 'Adobedreamweaver', 'an optional tech label')
+Adobedreamweaver('Adobedreamweaver', 'Adobedreamweaver', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Adobedreamweaver')
 
 ' renders the element
-Adobedreamweaver('Adobedreamweaver', 'Adobedreamweaver', 'an optional tech label')
+Adobedreamweaver('Adobedreamweaver', 'Adobedreamweaver', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

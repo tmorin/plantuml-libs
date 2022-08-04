@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Auth0')
 
 ' renders the element
-Auth0('Auth0', 'Auth0', 'an optional tech label')
+Auth0('Auth0', 'Auth0', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Auth0')
 
 ' renders the element
-Auth0('Auth0', 'Auth0', 'an optional tech label')
+Auth0('Auth0', 'Auth0', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cognizant')
 
 ' renders the element
-Cognizant('Cognizant', 'Cognizant', 'an optional tech label')
+Cognizant('Cognizant', 'Cognizant', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Cognizant')
 
 ' renders the element
-Cognizant('Cognizant', 'Cognizant', 'an optional tech label')
+Cognizant('Cognizant', 'Cognizant', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

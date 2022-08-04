@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Veritas')
 
 ' renders the element
-Veritas('Veritas', 'Veritas', 'an optional tech label')
+Veritas('Veritas', 'Veritas', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Veritas')
 
 ' renders the element
-Veritas('Veritas', 'Veritas', 'an optional tech label')
+Veritas('Veritas', 'Veritas', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Motorola')
 
 ' renders the element
-Motorola('Motorola', 'Motorola', 'an optional tech label')
+Motorola('Motorola', 'Motorola', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Motorola')
 
 ' renders the element
-Motorola('Motorola', 'Motorola', 'an optional tech label')
+Motorola('Motorola', 'Motorola', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

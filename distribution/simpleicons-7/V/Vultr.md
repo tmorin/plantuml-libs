@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Vultr')
 
 ' renders the element
-Vultr('Vultr', 'Vultr', 'an optional tech label')
+Vultr('Vultr', 'Vultr', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Vultr')
 
 ' renders the element
-Vultr('Vultr', 'Vultr', 'an optional tech label')
+Vultr('Vultr', 'Vultr', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

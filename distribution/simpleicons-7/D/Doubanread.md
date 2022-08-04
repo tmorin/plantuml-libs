@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Doubanread')
 
 ' renders the element
-Doubanread('Doubanread', 'Doubanread', 'an optional tech label')
+Doubanread('Doubanread', 'Doubanread', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Doubanread')
 
 ' renders the element
-Doubanread('Doubanread', 'Doubanread', 'an optional tech label')
+Doubanread('Doubanread', 'Doubanread', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

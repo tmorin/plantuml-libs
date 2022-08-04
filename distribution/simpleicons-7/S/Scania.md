@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Scania')
 
 ' renders the element
-Scania('Scania', 'Scania', 'an optional tech label')
+Scania('Scania', 'Scania', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Scania')
 
 ' renders the element
-Scania('Scania', 'Scania', 'an optional tech label')
+Scania('Scania', 'Scania', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

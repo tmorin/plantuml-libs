@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Datocms')
 
 ' renders the element
-Datocms('Datocms', 'Datocms', 'an optional tech label')
+Datocms('Datocms', 'Datocms', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Datocms')
 
 ' renders the element
-Datocms('Datocms', 'Datocms', 'an optional tech label')
+Datocms('Datocms', 'Datocms', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

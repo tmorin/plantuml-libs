@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bootstrap')
 
 ' renders the element
-Bootstrap('Bootstrap', 'Bootstrap', 'an optional tech label')
+Bootstrap('Bootstrap', 'Bootstrap', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bootstrap')
 
 ' renders the element
-Bootstrap('Bootstrap', 'Bootstrap', 'an optional tech label')
+Bootstrap('Bootstrap', 'Bootstrap', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

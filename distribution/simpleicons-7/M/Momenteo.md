@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Momenteo')
 
 ' renders the element
-Momenteo('Momenteo', 'Momenteo', 'an optional tech label')
+Momenteo('Momenteo', 'Momenteo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Momenteo')
 
 ' renders the element
-Momenteo('Momenteo', 'Momenteo', 'an optional tech label')
+Momenteo('Momenteo', 'Momenteo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

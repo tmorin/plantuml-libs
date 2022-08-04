@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Nodered')
 
 ' renders the element
-Nodered('Nodered', 'Nodered', 'an optional tech label')
+Nodered('Nodered', 'Nodered', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Nodered')
 
 ' renders the element
-Nodered('Nodered', 'Nodered', 'an optional tech label')
+Nodered('Nodered', 'Nodered', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

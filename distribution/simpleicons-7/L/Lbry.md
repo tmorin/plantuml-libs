@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lbry')
 
 ' renders the element
-Lbry('Lbry', 'Lbry', 'an optional tech label')
+Lbry('Lbry', 'Lbry', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lbry')
 
 ' renders the element
-Lbry('Lbry', 'Lbry', 'an optional tech label')
+Lbry('Lbry', 'Lbry', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

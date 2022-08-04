@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Wegame')
 
 ' renders the element
-Wegame('Wegame', 'Wegame', 'an optional tech label')
+Wegame('Wegame', 'Wegame', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Wegame')
 
 ' renders the element
-Wegame('Wegame', 'Wegame', 'an optional tech label')
+Wegame('Wegame', 'Wegame', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

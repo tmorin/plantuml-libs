@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Microsoftonenote')
 
 ' renders the element
-Microsoftonenote('Microsoftonenote', 'Microsoftonenote', 'an optional tech label')
+Microsoftonenote('Microsoftonenote', 'Microsoftonenote', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Microsoftonenote')
 
 ' renders the element
-Microsoftonenote('Microsoftonenote', 'Microsoftonenote', 'an optional tech label')
+Microsoftonenote('Microsoftonenote', 'Microsoftonenote', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

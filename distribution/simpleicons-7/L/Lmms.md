@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lmms')
 
 ' renders the element
-Lmms('Lmms', 'Lmms', 'an optional tech label')
+Lmms('Lmms', 'Lmms', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lmms')
 
 ' renders the element
-Lmms('Lmms', 'Lmms', 'an optional tech label')
+Lmms('Lmms', 'Lmms', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Steinberg')
 
 ' renders the element
-Steinberg('Steinberg', 'Steinberg', 'an optional tech label')
+Steinberg('Steinberg', 'Steinberg', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Steinberg')
 
 ' renders the element
-Steinberg('Steinberg', 'Steinberg', 'an optional tech label')
+Steinberg('Steinberg', 'Steinberg', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

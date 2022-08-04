@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Junit5')
 
 ' renders the element
-Junit5('Junit5', 'Junit5', 'an optional tech label')
+Junit5('Junit5', 'Junit5', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/J/Junit5')
 
 ' renders the element
-Junit5('Junit5', 'Junit5', 'an optional tech label')
+Junit5('Junit5', 'Junit5', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

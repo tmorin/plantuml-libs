@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Socialblade')
 
 ' renders the element
-Socialblade('Socialblade', 'Socialblade', 'an optional tech label')
+Socialblade('Socialblade', 'Socialblade', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Socialblade')
 
 ' renders the element
-Socialblade('Socialblade', 'Socialblade', 'an optional tech label')
+Socialblade('Socialblade', 'Socialblade', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

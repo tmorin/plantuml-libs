@@ -8,6 +8,6 @@ sprite $SnapcraftMd [16x16/16z] NOx50KL120DPzvt-g_tw3EQ49X4BtGmsP3jWkyTW0QGwWViY
 
 sprite $SnapcraftLg [20x20/16z] ROw54OLG40Fl2_1y-wyMrmiPtudPcsem5T2f4yXVTG95dH3oq03kpW3yWE_D6RQ2r6wT0Phl37wcH4AJF_7dK0PCR4MGkZxgieQWdxeCHLyF9W
 
-!procedure Snapcraft($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/S/Snapcraft', $name, $tech)
+!procedure Snapcraft($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/S/Snapcraft', $name, $tech, $desc)
 !endprocedure

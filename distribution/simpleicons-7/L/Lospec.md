@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lospec')
 
 ' renders the element
-Lospec('Lospec', 'Lospec', 'an optional tech label')
+Lospec('Lospec', 'Lospec', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lospec')
 
 ' renders the element
-Lospec('Lospec', 'Lospec', 'an optional tech label')
+Lospec('Lospec', 'Lospec', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

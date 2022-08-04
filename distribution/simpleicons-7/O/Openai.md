@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Openai')
 
 ' renders the element
-Openai('Openai', 'Openai', 'an optional tech label')
+Openai('Openai', 'Openai', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Openai')
 
 ' renders the element
-Openai('Openai', 'Openai', 'an optional tech label')
+Openai('Openai', 'Openai', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

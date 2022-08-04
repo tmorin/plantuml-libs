@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Testinglibrary')
 
 ' renders the element
-Testinglibrary('Testinglibrary', 'Testinglibrary', 'an optional tech label')
+Testinglibrary('Testinglibrary', 'Testinglibrary', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Testinglibrary')
 
 ' renders the element
-Testinglibrary('Testinglibrary', 'Testinglibrary', 'an optional tech label')
+Testinglibrary('Testinglibrary', 'Testinglibrary', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

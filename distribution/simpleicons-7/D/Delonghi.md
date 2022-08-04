@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Delonghi')
 
 ' renders the element
-Delonghi('Delonghi', 'Delonghi', 'an optional tech label')
+Delonghi('Delonghi', 'Delonghi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Delonghi')
 
 ' renders the element
-Delonghi('Delonghi', 'Delonghi', 'an optional tech label')
+Delonghi('Delonghi', 'Delonghi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

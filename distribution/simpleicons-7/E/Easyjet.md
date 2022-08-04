@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Easyjet')
 
 ' renders the element
-Easyjet('Easyjet', 'Easyjet', 'an optional tech label')
+Easyjet('Easyjet', 'Easyjet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Easyjet')
 
 ' renders the element
-Easyjet('Easyjet', 'Easyjet', 'an optional tech label')
+Easyjet('Easyjet', 'Easyjet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

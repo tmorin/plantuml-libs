@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Stellar')
 
 ' renders the element
-Stellar('Stellar', 'Stellar', 'an optional tech label')
+Stellar('Stellar', 'Stellar', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Stellar')
 
 ' renders the element
-Stellar('Stellar', 'Stellar', 'an optional tech label')
+Stellar('Stellar', 'Stellar', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

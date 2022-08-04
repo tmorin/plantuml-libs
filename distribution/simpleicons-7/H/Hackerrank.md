@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hackerrank')
 
 ' renders the element
-Hackerrank('Hackerrank', 'Hackerrank', 'an optional tech label')
+Hackerrank('Hackerrank', 'Hackerrank', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hackerrank')
 
 ' renders the element
-Hackerrank('Hackerrank', 'Hackerrank', 'an optional tech label')
+Hackerrank('Hackerrank', 'Hackerrank', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

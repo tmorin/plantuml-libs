@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Automattic')
 
 ' renders the element
-Automattic('Automattic', 'Automattic', 'an optional tech label')
+Automattic('Automattic', 'Automattic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Automattic')
 
 ' renders the element
-Automattic('Automattic', 'Automattic', 'an optional tech label')
+Automattic('Automattic', 'Automattic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

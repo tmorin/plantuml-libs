@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Dialogflow')
 
 ' renders the element
-Dialogflow('Dialogflow', 'Dialogflow', 'an optional tech label')
+Dialogflow('Dialogflow', 'Dialogflow', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Dialogflow')
 
 ' renders the element
-Dialogflow('Dialogflow', 'Dialogflow', 'an optional tech label')
+Dialogflow('Dialogflow', 'Dialogflow', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

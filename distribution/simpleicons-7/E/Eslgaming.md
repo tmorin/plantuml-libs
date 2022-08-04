@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Eslgaming')
 
 ' renders the element
-Eslgaming('Eslgaming', 'Eslgaming', 'an optional tech label')
+Eslgaming('Eslgaming', 'Eslgaming', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Eslgaming')
 
 ' renders the element
-Eslgaming('Eslgaming', 'Eslgaming', 'an optional tech label')
+Eslgaming('Eslgaming', 'Eslgaming', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

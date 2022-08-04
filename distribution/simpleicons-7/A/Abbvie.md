@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Abbvie')
 
 ' renders the element
-Abbvie('Abbvie', 'Abbvie', 'an optional tech label')
+Abbvie('Abbvie', 'Abbvie', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Abbvie')
 
 ' renders the element
-Abbvie('Abbvie', 'Abbvie', 'an optional tech label')
+Abbvie('Abbvie', 'Abbvie', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

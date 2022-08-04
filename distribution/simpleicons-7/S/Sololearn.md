@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sololearn')
 
 ' renders the element
-Sololearn('Sololearn', 'Sololearn', 'an optional tech label')
+Sololearn('Sololearn', 'Sololearn', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sololearn')
 
 ' renders the element
-Sololearn('Sololearn', 'Sololearn', 'an optional tech label')
+Sololearn('Sololearn', 'Sololearn', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

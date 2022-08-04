@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Moneygram')
 
 ' renders the element
-Moneygram('Moneygram', 'Moneygram', 'an optional tech label')
+Moneygram('Moneygram', 'Moneygram', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Moneygram')
 
 ' renders the element
-Moneygram('Moneygram', 'Moneygram', 'an optional tech label')
+Moneygram('Moneygram', 'Moneygram', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

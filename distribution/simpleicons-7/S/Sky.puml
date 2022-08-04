@@ -8,6 +8,6 @@ sprite $SkyMd [16x16/16z] dSkdGG01002nVEz_-s-Beac8Zt_P_9OlutakmZbXsQfNLDozBKZfrg
 
 sprite $SkyLg [20x20/16z] jSYrOSG0002nUpHR-qyRHfS1bUf_ZEh8uKuVT-uLYBgnLkocw_qStU3KsRJOfqjneOkzJMqGiwbsexsgrOseK2SGdQcxhGRijsmr6vfTEgAZsQsZqxbVUWG
 
-!procedure Sky($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/S/Sky', $name, $tech)
+!procedure Sky($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/S/Sky', $name, $tech, $desc)
 !endprocedure

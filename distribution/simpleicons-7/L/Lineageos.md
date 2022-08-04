@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lineageos')
 
 ' renders the element
-Lineageos('Lineageos', 'Lineageos', 'an optional tech label')
+Lineageos('Lineageos', 'Lineageos', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lineageos')
 
 ' renders the element
-Lineageos('Lineageos', 'Lineageos', 'an optional tech label')
+Lineageos('Lineageos', 'Lineageos', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

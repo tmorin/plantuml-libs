@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Streamlit')
 
 ' renders the element
-Streamlit('Streamlit', 'Streamlit', 'an optional tech label')
+Streamlit('Streamlit', 'Streamlit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Streamlit')
 
 ' renders the element
-Streamlit('Streamlit', 'Streamlit', 'an optional tech label')
+Streamlit('Streamlit', 'Streamlit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Renpy')
 
 ' renders the element
-Renpy('Renpy', 'Renpy', 'an optional tech label')
+Renpy('Renpy', 'Renpy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Renpy')
 
 ' renders the element
-Renpy('Renpy', 'Renpy', 'an optional tech label')
+Renpy('Renpy', 'Renpy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hubspot')
 
 ' renders the element
-Hubspot('Hubspot', 'Hubspot', 'an optional tech label')
+Hubspot('Hubspot', 'Hubspot', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hubspot')
 
 ' renders the element
-Hubspot('Hubspot', 'Hubspot', 'an optional tech label')
+Hubspot('Hubspot', 'Hubspot', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

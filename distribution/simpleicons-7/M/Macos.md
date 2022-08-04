@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Macos')
 
 ' renders the element
-Macos('Macos', 'Macos', 'an optional tech label')
+Macos('Macos', 'Macos', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Macos')
 
 ' renders the element
-Macos('Macos', 'Macos', 'an optional tech label')
+Macos('Macos', 'Macos', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

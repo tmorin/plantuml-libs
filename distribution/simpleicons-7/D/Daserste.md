@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Daserste')
 
 ' renders the element
-Daserste('Daserste', 'Daserste', 'an optional tech label')
+Daserste('Daserste', 'Daserste', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Daserste')
 
 ' renders the element
-Daserste('Daserste', 'Daserste', 'an optional tech label')
+Daserste('Daserste', 'Daserste', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

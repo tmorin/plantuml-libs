@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Openssl')
 
 ' renders the element
-Openssl('Openssl', 'Openssl', 'an optional tech label')
+Openssl('Openssl', 'Openssl', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Openssl')
 
 ' renders the element
-Openssl('Openssl', 'Openssl', 'an optional tech label')
+Openssl('Openssl', 'Openssl', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

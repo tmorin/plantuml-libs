@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Suckless')
 
 ' renders the element
-Suckless('Suckless', 'Suckless', 'an optional tech label')
+Suckless('Suckless', 'Suckless', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Suckless')
 
 ' renders the element
-Suckless('Suckless', 'Suckless', 'an optional tech label')
+Suckless('Suckless', 'Suckless', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

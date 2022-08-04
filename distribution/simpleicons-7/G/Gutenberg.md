@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gutenberg')
 
 ' renders the element
-Gutenberg('Gutenberg', 'Gutenberg', 'an optional tech label')
+Gutenberg('Gutenberg', 'Gutenberg', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gutenberg')
 
 ' renders the element
-Gutenberg('Gutenberg', 'Gutenberg', 'an optional tech label')
+Gutenberg('Gutenberg', 'Gutenberg', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

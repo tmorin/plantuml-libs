@@ -8,6 +8,6 @@ sprite $GoMd [16x16/16z] jSI50S900CNGjEUQ_QV59m3wld2DFe3G8o_51tmwOahOWIv4OSnJjhe
 
 sprite $GoLg [20x20/16z] nOs50O0m40DJnGBPVrigZoxGQzyDemdXdzbKSDruO5cMj4kv28if4dC14fptlXYWAT9hWogqNC5LctLK4om7DSpuv-vM32KwZE84
 
-!procedure Go($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/G/Go', $name, $tech)
+!procedure Go($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/G/Go', $name, $tech, $desc)
 !endprocedure

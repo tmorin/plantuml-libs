@@ -8,6 +8,6 @@ sprite $IntelMd [16x16/16z] hKS50S104E9T3_gddKk03GS_OwQZulc878uXN6LPLHCIgB9zPeMj
 
 sprite $IntelLg [20x20/16z] nSg53G0n049Hpklil-tLTO3-67a1ctgV2Ju5cZILowO9tsBEVFGTYdwJfXX0vN_XogUPyM3fqvq9GlfnepEGuMYzFTZK3m
 
-!procedure Intel($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/I/Intel', $name, $tech)
+!procedure Intel($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/I/Intel', $name, $tech, $desc)
 !endprocedure

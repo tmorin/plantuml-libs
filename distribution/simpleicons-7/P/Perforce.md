@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Perforce')
 
 ' renders the element
-Perforce('Perforce', 'Perforce', 'an optional tech label')
+Perforce('Perforce', 'Perforce', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Perforce')
 
 ' renders the element
-Perforce('Perforce', 'Perforce', 'an optional tech label')
+Perforce('Perforce', 'Perforce', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

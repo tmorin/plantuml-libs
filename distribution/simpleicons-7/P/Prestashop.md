@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Prestashop')
 
 ' renders the element
-Prestashop('Prestashop', 'Prestashop', 'an optional tech label')
+Prestashop('Prestashop', 'Prestashop', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Prestashop')
 
 ' renders the element
-Prestashop('Prestashop', 'Prestashop', 'an optional tech label')
+Prestashop('Prestashop', 'Prestashop', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

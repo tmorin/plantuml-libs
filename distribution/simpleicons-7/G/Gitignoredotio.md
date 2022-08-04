@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gitignoredotio')
 
 ' renders the element
-Gitignoredotio('Gitignoredotio', 'Gitignoredotio', 'an optional tech label')
+Gitignoredotio('Gitignoredotio', 'Gitignoredotio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gitignoredotio')
 
 ' renders the element
-Gitignoredotio('Gitignoredotio', 'Gitignoredotio', 'an optional tech label')
+Gitignoredotio('Gitignoredotio', 'Gitignoredotio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

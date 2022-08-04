@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Alpinelinux')
 
 ' renders the element
-Alpinelinux('Alpinelinux', 'Alpinelinux', 'an optional tech label')
+Alpinelinux('Alpinelinux', 'Alpinelinux', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Alpinelinux')
 
 ' renders the element
-Alpinelinux('Alpinelinux', 'Alpinelinux', 'an optional tech label')
+Alpinelinux('Alpinelinux', 'Alpinelinux', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

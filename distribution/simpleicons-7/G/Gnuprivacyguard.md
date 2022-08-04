@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gnuprivacyguard')
 
 ' renders the element
-Gnuprivacyguard('Gnuprivacyguard', 'Gnuprivacyguard', 'an optional tech label')
+Gnuprivacyguard('Gnuprivacyguard', 'Gnuprivacyguard', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gnuprivacyguard')
 
 ' renders the element
-Gnuprivacyguard('Gnuprivacyguard', 'Gnuprivacyguard', 'an optional tech label')
+Gnuprivacyguard('Gnuprivacyguard', 'Gnuprivacyguard', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

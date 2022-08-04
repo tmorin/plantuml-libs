@@ -8,6 +8,6 @@ sprite $VisaMd [16x16/16z] jS470S0W0C2myZ_rxtOcHi9hGH1HQMOmpPCC0fu3Ungs74Sm2acvD
 
 sprite $VisaLg [20x20/16z] pSP70GCn0C0mP--OFzek4Zszn8F4TIVSLI_vUk1SG8b6nPqNHGDKsUB60pWjWC6EZQu4WmlmIZG0pkLHOBaOeegh3O6G82PYJR-I-9Ct
 
-!procedure Visa($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/V/Visa', $name, $tech)
+!procedure Visa($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/V/Visa', $name, $tech, $desc)
 !endprocedure

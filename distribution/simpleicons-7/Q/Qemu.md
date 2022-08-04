@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Q/Qemu')
 
 ' renders the element
-Qemu('Qemu', 'Qemu', 'an optional tech label')
+Qemu('Qemu', 'Qemu', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Q/Qemu')
 
 ' renders the element
-Qemu('Qemu', 'Qemu', 'an optional tech label')
+Qemu('Qemu', 'Qemu', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

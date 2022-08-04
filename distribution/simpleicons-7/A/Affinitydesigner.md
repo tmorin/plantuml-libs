@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Affinitydesigner')
 
 ' renders the element
-Affinitydesigner('Affinitydesigner', 'Affinitydesigner', 'an optional tech label')
+Affinitydesigner('Affinitydesigner', 'Affinitydesigner', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Affinitydesigner')
 
 ' renders the element
-Affinitydesigner('Affinitydesigner', 'Affinitydesigner', 'an optional tech label')
+Affinitydesigner('Affinitydesigner', 'Affinitydesigner', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

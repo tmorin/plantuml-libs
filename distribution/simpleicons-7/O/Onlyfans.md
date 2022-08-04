@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Onlyfans')
 
 ' renders the element
-Onlyfans('Onlyfans', 'Onlyfans', 'an optional tech label')
+Onlyfans('Onlyfans', 'Onlyfans', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Onlyfans')
 
 ' renders the element
-Onlyfans('Onlyfans', 'Onlyfans', 'an optional tech label')
+Onlyfans('Onlyfans', 'Onlyfans', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

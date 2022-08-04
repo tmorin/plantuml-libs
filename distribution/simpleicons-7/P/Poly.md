@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Poly')
 
 ' renders the element
-Poly('Poly', 'Poly', 'an optional tech label')
+Poly('Poly', 'Poly', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Poly')
 
 ' renders the element
-Poly('Poly', 'Poly', 'an optional tech label')
+Poly('Poly', 'Poly', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

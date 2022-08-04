@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Git')
 
 ' renders the element
-Git('Git', 'Git', 'an optional tech label')
+Git('Git', 'Git', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Git')
 
 ' renders the element
-Git('Git', 'Git', 'an optional tech label')
+Git('Git', 'Git', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

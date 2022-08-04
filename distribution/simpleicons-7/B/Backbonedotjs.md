@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Backbonedotjs')
 
 ' renders the element
-Backbonedotjs('Backbonedotjs', 'Backbonedotjs', 'an optional tech label')
+Backbonedotjs('Backbonedotjs', 'Backbonedotjs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Backbonedotjs')
 
 ' renders the element
-Backbonedotjs('Backbonedotjs', 'Backbonedotjs', 'an optional tech label')
+Backbonedotjs('Backbonedotjs', 'Backbonedotjs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Keycdn')
 
 ' renders the element
-Keycdn('Keycdn', 'Keycdn', 'an optional tech label')
+Keycdn('Keycdn', 'Keycdn', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Keycdn')
 
 ' renders the element
-Keycdn('Keycdn', 'Keycdn', 'an optional tech label')
+Keycdn('Keycdn', 'Keycdn', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

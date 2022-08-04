@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/U/Ubiquiti')
 
 ' renders the element
-Ubiquiti('Ubiquiti', 'Ubiquiti', 'an optional tech label')
+Ubiquiti('Ubiquiti', 'Ubiquiti', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/U/Ubiquiti')
 
 ' renders the element
-Ubiquiti('Ubiquiti', 'Ubiquiti', 'an optional tech label')
+Ubiquiti('Ubiquiti', 'Ubiquiti', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

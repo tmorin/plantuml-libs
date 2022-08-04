@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Thunderbird')
 
 ' renders the element
-Thunderbird('Thunderbird', 'Thunderbird', 'an optional tech label')
+Thunderbird('Thunderbird', 'Thunderbird', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Thunderbird')
 
 ' renders the element
-Thunderbird('Thunderbird', 'Thunderbird', 'an optional tech label')
+Thunderbird('Thunderbird', 'Thunderbird', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

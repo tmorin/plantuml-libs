@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Duckduckgo')
 
 ' renders the element
-Duckduckgo('Duckduckgo', 'Duckduckgo', 'an optional tech label')
+Duckduckgo('Duckduckgo', 'Duckduckgo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Duckduckgo')
 
 ' renders the element
-Duckduckgo('Duckduckgo', 'Duckduckgo', 'an optional tech label')
+Duckduckgo('Duckduckgo', 'Duckduckgo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Atom')
 
 ' renders the element
-Atom('Atom', 'Atom', 'an optional tech label')
+Atom('Atom', 'Atom', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Atom')
 
 ' renders the element
-Atom('Atom', 'Atom', 'an optional tech label')
+Atom('Atom', 'Atom', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Immer')
 
 ' renders the element
-Immer('Immer', 'Immer', 'an optional tech label')
+Immer('Immer', 'Immer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Immer')
 
 ' renders the element
-Immer('Immer', 'Immer', 'an optional tech label')
+Immer('Immer', 'Immer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

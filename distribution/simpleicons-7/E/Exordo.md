@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Exordo')
 
 ' renders the element
-Exordo('Exordo', 'Exordo', 'an optional tech label')
+Exordo('Exordo', 'Exordo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Exordo')
 
 ' renders the element
-Exordo('Exordo', 'Exordo', 'an optional tech label')
+Exordo('Exordo', 'Exordo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Angularjs')
 
 ' renders the element
-Angularjs('Angularjs', 'Angularjs', 'an optional tech label')
+Angularjs('Angularjs', 'Angularjs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Angularjs')
 
 ' renders the element
-Angularjs('Angularjs', 'Angularjs', 'an optional tech label')
+Angularjs('Angularjs', 'Angularjs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

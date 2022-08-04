@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Flask')
 
 ' renders the element
-Flask('Flask', 'Flask', 'an optional tech label')
+Flask('Flask', 'Flask', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/F/Flask')
 
 ' renders the element
-Flask('Flask', 'Flask', 'an optional tech label')
+Flask('Flask', 'Flask', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Chrysler')
 
 ' renders the element
-Chrysler('Chrysler', 'Chrysler', 'an optional tech label')
+Chrysler('Chrysler', 'Chrysler', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Chrysler')
 
 ' renders the element
-Chrysler('Chrysler', 'Chrysler', 'an optional tech label')
+Chrysler('Chrysler', 'Chrysler', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

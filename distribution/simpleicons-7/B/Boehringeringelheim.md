@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Boehringeringelheim')
 
 ' renders the element
-Boehringeringelheim('Boehringeringelheim', 'Boehringeringelheim', 'an optional tech label')
+Boehringeringelheim('Boehringeringelheim', 'Boehringeringelheim', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Boehringeringelheim')
 
 ' renders the element
-Boehringeringelheim('Boehringeringelheim', 'Boehringeringelheim', 'an optional tech label')
+Boehringeringelheim('Boehringeringelheim', 'Boehringeringelheim', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

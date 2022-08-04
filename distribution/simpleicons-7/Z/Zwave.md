@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Z/Zwave')
 
 ' renders the element
-Zwave('Zwave', 'Zwave', 'an optional tech label')
+Zwave('Zwave', 'Zwave', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Z/Zwave')
 
 ' renders the element
-Zwave('Zwave', 'Zwave', 'an optional tech label')
+Zwave('Zwave', 'Zwave', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

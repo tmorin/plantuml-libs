@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Privateinternetaccess')
 
 ' renders the element
-Privateinternetaccess('Privateinternetaccess', 'Privateinternetaccess', 'an optional tech label')
+Privateinternetaccess('Privateinternetaccess', 'Privateinternetaccess', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Privateinternetaccess')
 
 ' renders the element
-Privateinternetaccess('Privateinternetaccess', 'Privateinternetaccess', 'an optional tech label')
+Privateinternetaccess('Privateinternetaccess', 'Privateinternetaccess', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

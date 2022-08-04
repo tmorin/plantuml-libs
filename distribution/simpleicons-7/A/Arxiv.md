@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Arxiv')
 
 ' renders the element
-Arxiv('Arxiv', 'Arxiv', 'an optional tech label')
+Arxiv('Arxiv', 'Arxiv', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Arxiv')
 
 ' renders the element
-Arxiv('Arxiv', 'Arxiv', 'an optional tech label')
+Arxiv('Arxiv', 'Arxiv', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lapce')
 
 ' renders the element
-Lapce('Lapce', 'Lapce', 'an optional tech label')
+Lapce('Lapce', 'Lapce', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lapce')
 
 ' renders the element
-Lapce('Lapce', 'Lapce', 'an optional tech label')
+Lapce('Lapce', 'Lapce', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Canva')
 
 ' renders the element
-Canva('Canva', 'Canva', 'an optional tech label')
+Canva('Canva', 'Canva', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Canva')
 
 ' renders the element
-Canva('Canva', 'Canva', 'an optional tech label')
+Canva('Canva', 'Canva', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

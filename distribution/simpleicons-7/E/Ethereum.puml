@@ -8,6 +8,6 @@ sprite $EthereumMd [16x16/16z] RO_50G0n20I1Svt-gpsD9_F2sHN7A1bAdiEHfXEWMHk8wV7bu
 
 sprite $EthereumLg [20x20/16z] PS_L0ODG50JHmPtflzfuME2TtwlBeQVGIa4NRcQruietBZRVEeX6YqP_DWwJVpdZOS-1QFYfTh_oTZNH-GPRRjWmsp5BgD1h0v5rqVj66PWx7RbhqlO4
 
-!procedure Ethereum($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/E/Ethereum', $name, $tech)
+!procedure Ethereum($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/E/Ethereum', $name, $tech, $desc)
 !endprocedure

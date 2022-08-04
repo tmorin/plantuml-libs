@@ -8,6 +8,6 @@ sprite $JitsiMd [16x16/16z] PO-54GD020JtSMBzTnitvdS4b-F7Of8CberGaD4iDU9WNVAld1Wu
 
 sprite $JitsiLg [20x20/16z] XSYt0G8m30J0axCD-yzB9p9Syy5VtPju_rfftbnvDcCOdctcgkyVMuf5cuIKlNcoTYUGMaGHGvCwNDZv5SuAI6jD6wY0K0tGGduEM5BeQaGBKXJlfcSt
 
-!procedure Jitsi($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/J/Jitsi', $name, $tech)
+!procedure Jitsi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/J/Jitsi', $name, $tech, $desc)
 !endprocedure

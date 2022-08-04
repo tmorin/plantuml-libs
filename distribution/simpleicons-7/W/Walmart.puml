@@ -8,6 +8,6 @@ sprite $WalmartMd [16x16/16z] lKc50S0m24iLX_-ldVsm8b4SdGsZXzfd5C8J8QpKqSljQzfQOp
 
 sprite $WalmartLg [20x20/16z] rSot0O103CNGVz7PtdzQKiq0yDGBlxEWmsn0UnjNFM0D1YjsLIxgjM5uyEf2lBqJJpWKOxxzlkG4
 
-!procedure Walmart($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/W/Walmart', $name, $tech)
+!procedure Walmart($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/W/Walmart', $name, $tech, $desc)
 !endprocedure

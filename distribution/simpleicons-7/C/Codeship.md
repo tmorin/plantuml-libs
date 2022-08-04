@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Codeship')
 
 ' renders the element
-Codeship('Codeship', 'Codeship', 'an optional tech label')
+Codeship('Codeship', 'Codeship', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Codeship')
 
 ' renders the element
-Codeship('Codeship', 'Codeship', 'an optional tech label')
+Codeship('Codeship', 'Codeship', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

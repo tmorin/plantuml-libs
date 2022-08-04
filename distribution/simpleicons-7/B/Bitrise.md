@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bitrise')
 
 ' renders the element
-Bitrise('Bitrise', 'Bitrise', 'an optional tech label')
+Bitrise('Bitrise', 'Bitrise', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bitrise')
 
 ' renders the element
-Bitrise('Bitrise', 'Bitrise', 'an optional tech label')
+Bitrise('Bitrise', 'Bitrise', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

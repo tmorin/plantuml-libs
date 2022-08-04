@@ -8,6 +8,6 @@ sprite $VoxMd [16x16/16z] jSY50OG030J1VLUO_gj5Mu3alBEFBYxLnOTd3FGtX6_5dljHhVRgCb
 
 sprite $VoxLg [20x20/16z] pSc50GCn3C106SgW_QTzXX7QIypyaPi-G1C8ZQy-KQV35QPJEeFMZu9R-Z9nTkxUJ6BTFNsjzoUJjoQiNQWt9bKmoyfvA7va1
 
-!procedure Vox($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/V/Vox', $name, $tech)
+!procedure Vox($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/V/Vox', $name, $tech, $desc)
 !endprocedure

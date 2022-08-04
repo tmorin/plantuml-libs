@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Googlechrome')
 
 ' renders the element
-Googlechrome('Googlechrome', 'Googlechrome', 'an optional tech label')
+Googlechrome('Googlechrome', 'Googlechrome', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Googlechrome')
 
 ' renders the element
-Googlechrome('Googlechrome', 'Googlechrome', 'an optional tech label')
+Googlechrome('Googlechrome', 'Googlechrome', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

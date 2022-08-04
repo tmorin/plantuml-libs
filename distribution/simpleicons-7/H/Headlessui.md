@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Headlessui')
 
 ' renders the element
-Headlessui('Headlessui', 'Headlessui', 'an optional tech label')
+Headlessui('Headlessui', 'Headlessui', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Headlessui')
 
 ' renders the element
-Headlessui('Headlessui', 'Headlessui', 'an optional tech label')
+Headlessui('Headlessui', 'Headlessui', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

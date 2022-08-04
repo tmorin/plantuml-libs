@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Citroen')
 
 ' renders the element
-Citroen('Citroen', 'Citroen', 'an optional tech label')
+Citroen('Citroen', 'Citroen', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Citroen')
 
 ' renders the element
-Citroen('Citroen', 'Citroen', 'an optional tech label')
+Citroen('Citroen', 'Citroen', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

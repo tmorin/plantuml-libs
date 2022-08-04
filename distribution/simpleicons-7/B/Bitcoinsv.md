@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bitcoinsv')
 
 ' renders the element
-Bitcoinsv('Bitcoinsv', 'Bitcoinsv', 'an optional tech label')
+Bitcoinsv('Bitcoinsv', 'Bitcoinsv', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Bitcoinsv')
 
 ' renders the element
-Bitcoinsv('Bitcoinsv', 'Bitcoinsv', 'an optional tech label')
+Bitcoinsv('Bitcoinsv', 'Bitcoinsv', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

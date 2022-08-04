@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Winamp')
 
 ' renders the element
-Winamp('Winamp', 'Winamp', 'an optional tech label')
+Winamp('Winamp', 'Winamp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Winamp')
 
 ' renders the element
-Winamp('Winamp', 'Winamp', 'an optional tech label')
+Winamp('Winamp', 'Winamp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

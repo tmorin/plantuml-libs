@@ -8,6 +8,6 @@ sprite $WindowsMd [16x16/16z] Oq01Z9mm5XiFFnWmi8CPJFm8G5K-0ng02ZF2v77m6GZn4UQpSF
 
 sprite $WindowsLg [20x20/16z] Oy00B5m8DYCJ1pSVFmY0UCoS_FoiG8mA1b2CWnSE6B00qiqZKemDYnWpWit9Woa63LjE5ZGnH4WpS_42nG
 
-!procedure Windows($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/W/Windows', $name, $tech)
+!procedure Windows($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/W/Windows', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Apollographql')
 
 ' renders the element
-Apollographql('Apollographql', 'Apollographql', 'an optional tech label')
+Apollographql('Apollographql', 'Apollographql', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Apollographql')
 
 ' renders the element
-Apollographql('Apollographql', 'Apollographql', 'an optional tech label')
+Apollographql('Apollographql', 'Apollographql', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lens')
 
 ' renders the element
-Lens('Lens', 'Lens', 'an optional tech label')
+Lens('Lens', 'Lens', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Lens')
 
 ' renders the element
-Lens('Lens', 'Lens', 'an optional tech label')
+Lens('Lens', 'Lens', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,6 +8,6 @@ sprite $SamsungpayMd [16x16/16z] hOkr0S103CJqJ8RzjqqPQgtga62qSv8U9cFh98cCdbQdbBt
 
 sprite $SamsungpayLg [20x20/16z] nSgr0GD140D07I-h_seDcIdsJoR0HUeWsNAmJ-L0TQ7qV7RR2LkFBbEeIbYE5MmyGfJ9e_bXzk-EVRWTs5l7Zj7qxUs02GhV7Fzs1m
 
-!procedure Samsungpay($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/S/Samsungpay', $name, $tech)
+!procedure Samsungpay($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/S/Samsungpay', $name, $tech, $desc)
 !endprocedure

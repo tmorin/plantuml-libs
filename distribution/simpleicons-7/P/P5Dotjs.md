@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/P5Dotjs')
 
 ' renders the element
-P5Dotjs('P5Dotjs', 'P5 Dotjs', 'an optional tech label')
+P5Dotjs('P5Dotjs', 'P5 Dotjs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/P5Dotjs')
 
 ' renders the element
-P5Dotjs('P5Dotjs', 'P5 Dotjs', 'an optional tech label')
+P5Dotjs('P5Dotjs', 'P5 Dotjs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Redis')
 
 ' renders the element
-Redis('Redis', 'Redis', 'an optional tech label')
+Redis('Redis', 'Redis', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Redis')
 
 ' renders the element
-Redis('Redis', 'Redis', 'an optional tech label')
+Redis('Redis', 'Redis', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

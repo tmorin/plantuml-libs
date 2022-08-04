@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Createreactapp')
 
 ' renders the element
-Createreactapp('Createreactapp', 'Createreactapp', 'an optional tech label')
+Createreactapp('Createreactapp', 'Createreactapp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Createreactapp')
 
 ' renders the element
-Createreactapp('Createreactapp', 'Createreactapp', 'an optional tech label')
+Createreactapp('Createreactapp', 'Createreactapp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

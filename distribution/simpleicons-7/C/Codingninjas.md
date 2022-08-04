@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Codingninjas')
 
 ' renders the element
-Codingninjas('Codingninjas', 'Codingninjas', 'an optional tech label')
+Codingninjas('Codingninjas', 'Codingninjas', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Codingninjas')
 
 ' renders the element
-Codingninjas('Codingninjas', 'Codingninjas', 'an optional tech label')
+Codingninjas('Codingninjas', 'Codingninjas', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

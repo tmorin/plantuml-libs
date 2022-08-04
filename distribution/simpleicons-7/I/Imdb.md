@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Imdb')
 
 ' renders the element
-Imdb('Imdb', 'Imdb', 'an optional tech label')
+Imdb('Imdb', 'Imdb', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Imdb')
 
 ' renders the element
-Imdb('Imdb', 'Imdb', 'an optional tech label')
+Imdb('Imdb', 'Imdb', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

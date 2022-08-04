@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Resurrectionremixos')
 
 ' renders the element
-Resurrectionremixos('Resurrectionremixos', 'Resurrectionremixos', 'an optional tech label')
+Resurrectionremixos('Resurrectionremixos', 'Resurrectionremixos', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/R/Resurrectionremixos')
 
 ' renders the element
-Resurrectionremixos('Resurrectionremixos', 'Resurrectionremixos', 'an optional tech label')
+Resurrectionremixos('Resurrectionremixos', 'Resurrectionremixos', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

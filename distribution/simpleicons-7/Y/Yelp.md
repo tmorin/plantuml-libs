@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Y/Yelp')
 
 ' renders the element
-Yelp('Yelp', 'Yelp', 'an optional tech label')
+Yelp('Yelp', 'Yelp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Y/Yelp')
 
 ' renders the element
-Yelp('Yelp', 'Yelp', 'an optional tech label')
+Yelp('Yelp', 'Yelp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

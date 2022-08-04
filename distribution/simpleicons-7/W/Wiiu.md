@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Wiiu')
 
 ' renders the element
-Wiiu('Wiiu', 'Wiiu', 'an optional tech label')
+Wiiu('Wiiu', 'Wiiu', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/W/Wiiu')
 
 ' renders the element
-Wiiu('Wiiu', 'Wiiu', 'an optional tech label')
+Wiiu('Wiiu', 'Wiiu', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

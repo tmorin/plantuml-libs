@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Binance')
 
 ' renders the element
-Binance('Binance', 'Binance', 'an optional tech label')
+Binance('Binance', 'Binance', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/B/Binance')
 
 ' renders the element
-Binance('Binance', 'Binance', 'an optional tech label')
+Binance('Binance', 'Binance', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Openmined')
 
 ' renders the element
-Openmined('Openmined', 'Openmined', 'an optional tech label')
+Openmined('Openmined', 'Openmined', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/O/Openmined')
 
 ' renders the element
-Openmined('Openmined', 'Openmined', 'an optional tech label')
+Openmined('Openmined', 'Openmined', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

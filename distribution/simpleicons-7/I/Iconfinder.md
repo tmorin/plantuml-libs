@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Iconfinder')
 
 ' renders the element
-Iconfinder('Iconfinder', 'Iconfinder', 'an optional tech label')
+Iconfinder('Iconfinder', 'Iconfinder', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Iconfinder')
 
 ' renders the element
-Iconfinder('Iconfinder', 'Iconfinder', 'an optional tech label')
+Iconfinder('Iconfinder', 'Iconfinder', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

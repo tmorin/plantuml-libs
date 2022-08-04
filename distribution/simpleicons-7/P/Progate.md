@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Progate')
 
 ' renders the element
-Progate('Progate', 'Progate', 'an optional tech label')
+Progate('Progate', 'Progate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Progate')
 
 ' renders the element
-Progate('Progate', 'Progate', 'an optional tech label')
+Progate('Progate', 'Progate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

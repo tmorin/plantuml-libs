@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pix')
 
 ' renders the element
-Pix('Pix', 'Pix', 'an optional tech label')
+Pix('Pix', 'Pix', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pix')
 
 ' renders the element
-Pix('Pix', 'Pix', 'an optional tech label')
+Pix('Pix', 'Pix', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

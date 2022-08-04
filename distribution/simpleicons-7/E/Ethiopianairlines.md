@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Ethiopianairlines')
 
 ' renders the element
-Ethiopianairlines('Ethiopianairlines', 'Ethiopianairlines', 'an optional tech label')
+Ethiopianairlines('Ethiopianairlines', 'Ethiopianairlines', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/E/Ethiopianairlines')
 
 ' renders the element
-Ethiopianairlines('Ethiopianairlines', 'Ethiopianairlines', 'an optional tech label')
+Ethiopianairlines('Ethiopianairlines', 'Ethiopianairlines', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Informatica')
 
 ' renders the element
-Informatica('Informatica', 'Informatica', 'an optional tech label')
+Informatica('Informatica', 'Informatica', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Informatica')
 
 ' renders the element
-Informatica('Informatica', 'Informatica', 'an optional tech label')
+Informatica('Informatica', 'Informatica', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,6 +8,6 @@ sprite $PixivMd [16x16/16z] LOc50GGW4CE2Ezr_slT7WjobXQ3507IHLtinWdDjMITAIlmIP_d5
 
 sprite $PixivLg [20x20/16z] PT350GKX40JHMXTW9lzelqilNSU70vIKOWMMx8EqGXPQCy0XK1cUyzlmFs-2rcq_3kLbYckwfTX0cFayDwMd3KUBjaE8jJB1yXInbE9rw-kFhUdXT40OtG4
 
-!procedure Pixiv($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/P/Pixiv', $name, $tech)
+!procedure Pixiv($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/P/Pixiv', $name, $tech, $desc)
 !endprocedure

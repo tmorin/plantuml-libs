@@ -8,6 +8,6 @@ sprite $NetflixMd [16x16/16z] NSU53OG050MmZplTVzfpUQ7HrWEgMivwsnZp2_AktrZpC_BGvJ
 
 sprite $NetflixLg [20x20/16z] RSs50OGm50FGkil-szvFUrWWQ5vD8LEoFqCTwH-MfIMoWaOs4JOljP0DJEIrLReborXCrYRWQNinMNZFswbaIPvCXbTZMul98auYM-zErkKToHnEH_q1
 
-!procedure Netflix($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/N/Netflix', $name, $tech)
+!procedure Netflix($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/N/Netflix', $name, $tech, $desc)
 !endprocedure

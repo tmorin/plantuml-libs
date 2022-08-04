@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Android')
 
 ' renders the element
-Android('Android', 'Android', 'an optional tech label')
+Android('Android', 'Android', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Android')
 
 ' renders the element
-Android('Android', 'Android', 'an optional tech label')
+Android('Android', 'Android', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

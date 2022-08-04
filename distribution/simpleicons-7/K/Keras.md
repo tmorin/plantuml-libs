@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Keras')
 
 ' renders the element
-Keras('Keras', 'Keras', 'an optional tech label')
+Keras('Keras', 'Keras', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/K/Keras')
 
 ' renders the element
-Keras('Keras', 'Keras', 'an optional tech label')
+Keras('Keras', 'Keras', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

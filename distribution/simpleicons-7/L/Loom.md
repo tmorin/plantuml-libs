@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Loom')
 
 ' renders the element
-Loom('Loom', 'Loom', 'an optional tech label')
+Loom('Loom', 'Loom', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/L/Loom')
 
 ' renders the element
-Loom('Loom', 'Loom', 'an optional tech label')
+Loom('Loom', 'Loom', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

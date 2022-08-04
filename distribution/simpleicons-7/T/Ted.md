@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Ted')
 
 ' renders the element
-Ted('Ted', 'Ted', 'an optional tech label')
+Ted('Ted', 'Ted', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Ted')
 
 ' renders the element
-Ted('Ted', 'Ted', 'an optional tech label')
+Ted('Ted', 'Ted', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

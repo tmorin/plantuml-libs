@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gotomeeting')
 
 ' renders the element
-Gotomeeting('Gotomeeting', 'Gotomeeting', 'an optional tech label')
+Gotomeeting('Gotomeeting', 'Gotomeeting', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/G/Gotomeeting')
 
 ' renders the element
-Gotomeeting('Gotomeeting', 'Gotomeeting', 'an optional tech label')
+Gotomeeting('Gotomeeting', 'Gotomeeting', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Socketdotio')
 
 ' renders the element
-Socketdotio('Socketdotio', 'Socketdotio', 'an optional tech label')
+Socketdotio('Socketdotio', 'Socketdotio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Socketdotio')
 
 ' renders the element
-Socketdotio('Socketdotio', 'Socketdotio', 'an optional tech label')
+Socketdotio('Socketdotio', 'Socketdotio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

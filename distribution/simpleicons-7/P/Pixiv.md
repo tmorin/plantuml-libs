@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pixiv')
 
 ' renders the element
-Pixiv('Pixiv', 'Pixiv', 'an optional tech label')
+Pixiv('Pixiv', 'Pixiv', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Pixiv')
 
 ' renders the element
-Pixiv('Pixiv', 'Pixiv', 'an optional tech label')
+Pixiv('Pixiv', 'Pixiv', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

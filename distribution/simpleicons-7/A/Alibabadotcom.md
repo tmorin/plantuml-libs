@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Alibabadotcom')
 
 ' renders the element
-Alibabadotcom('Alibabadotcom', 'Alibabadotcom', 'an optional tech label')
+Alibabadotcom('Alibabadotcom', 'Alibabadotcom', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Alibabadotcom')
 
 ' renders the element
-Alibabadotcom('Alibabadotcom', 'Alibabadotcom', 'an optional tech label')
+Alibabadotcom('Alibabadotcom', 'Alibabadotcom', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

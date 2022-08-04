@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sennheiser')
 
 ' renders the element
-Sennheiser('Sennheiser', 'Sennheiser', 'an optional tech label')
+Sennheiser('Sennheiser', 'Sennheiser', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Sennheiser')
 
 ' renders the element
-Sennheiser('Sennheiser', 'Sennheiser', 'an optional tech label')
+Sennheiser('Sennheiser', 'Sennheiser', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

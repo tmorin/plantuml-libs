@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Iceland')
 
 ' renders the element
-Iceland('Iceland', 'Iceland', 'an optional tech label')
+Iceland('Iceland', 'Iceland', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Iceland')
 
 ' renders the element
-Iceland('Iceland', 'Iceland', 'an optional tech label')
+Iceland('Iceland', 'Iceland', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

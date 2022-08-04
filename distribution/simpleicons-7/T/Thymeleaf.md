@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Thymeleaf')
 
 ' renders the element
-Thymeleaf('Thymeleaf', 'Thymeleaf', 'an optional tech label')
+Thymeleaf('Thymeleaf', 'Thymeleaf', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Thymeleaf')
 
 ' renders the element
-Thymeleaf('Thymeleaf', 'Thymeleaf', 'an optional tech label')
+Thymeleaf('Thymeleaf', 'Thymeleaf', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

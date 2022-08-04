@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Apachecassandra')
 
 ' renders the element
-Apachecassandra('Apachecassandra', 'Apachecassandra', 'an optional tech label')
+Apachecassandra('Apachecassandra', 'Apachecassandra', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Apachecassandra')
 
 ' renders the element
-Apachecassandra('Apachecassandra', 'Apachecassandra', 'an optional tech label')
+Apachecassandra('Apachecassandra', 'Apachecassandra', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

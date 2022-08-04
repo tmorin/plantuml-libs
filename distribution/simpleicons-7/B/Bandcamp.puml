@@ -8,6 +8,6 @@ sprite $BandcampMd [16x16/16z] Ow06u4S049SBmMN18isBu3AYIsDocH5S7YpIR0Wk5pbE1m
 
 sprite $BandcampLg [20x20/16z] Ow0DO4G6425-PC075k904MF4fOm7HGoBQLp4AUE4264gOqOHOiMbZ0r5Y8ac0GS
 
-!procedure Bandcamp($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/B/Bandcamp', $name, $tech)
+!procedure Bandcamp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/B/Bandcamp', $name, $tech, $desc)
 !endprocedure

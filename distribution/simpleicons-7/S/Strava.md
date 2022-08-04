@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Strava')
 
 ' renders the element
-Strava('Strava', 'Strava', 'an optional tech label')
+Strava('Strava', 'Strava', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Strava')
 
 ' renders the element
-Strava('Strava', 'Strava', 'an optional tech label')
+Strava('Strava', 'Strava', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Chartdotjs')
 
 ' renders the element
-Chartdotjs('Chartdotjs', 'Chartdotjs', 'an optional tech label')
+Chartdotjs('Chartdotjs', 'Chartdotjs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Chartdotjs')
 
 ' renders the element
-Chartdotjs('Chartdotjs', 'Chartdotjs', 'an optional tech label')
+Chartdotjs('Chartdotjs', 'Chartdotjs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Azuredevops')
 
 ' renders the element
-Azuredevops('Azuredevops', 'Azuredevops', 'an optional tech label')
+Azuredevops('Azuredevops', 'Azuredevops', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/A/Azuredevops')
 
 ' renders the element
-Azuredevops('Azuredevops', 'Azuredevops', 'an optional tech label')
+Azuredevops('Azuredevops', 'Azuredevops', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

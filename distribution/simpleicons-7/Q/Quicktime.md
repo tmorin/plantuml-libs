@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Q/Quicktime')
 
 ' renders the element
-Quicktime('Quicktime', 'Quicktime', 'an optional tech label')
+Quicktime('Quicktime', 'Quicktime', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Q/Quicktime')
 
 ' renders the element
-Quicktime('Quicktime', 'Quicktime', 'an optional tech label')
+Quicktime('Quicktime', 'Quicktime', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

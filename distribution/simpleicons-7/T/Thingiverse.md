@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Thingiverse')
 
 ' renders the element
-Thingiverse('Thingiverse', 'Thingiverse', 'an optional tech label')
+Thingiverse('Thingiverse', 'Thingiverse', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/T/Thingiverse')
 
 ' renders the element
-Thingiverse('Thingiverse', 'Thingiverse', 'an optional tech label')
+Thingiverse('Thingiverse', 'Thingiverse', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

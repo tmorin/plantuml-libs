@@ -8,6 +8,6 @@ sprite $BitwardenMd [16x16/16z] hSkr0S0m44DHXJb__sdDsFirXv9-gbkYzyEcxCLJSTVPDuFc
 
 sprite $BitwardenLg [20x20/16z] nSZL5O0m44JHmI4s_NVBYTl-vqRt0HyxxW0uKOeojBgsUqEZjwnjKpkWKjEvANydksyXQNRHNugD1vvZu59q6ouc1sTG7Eq_
 
-!procedure Bitwarden($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/B/Bitwarden', $name, $tech)
+!procedure Bitwarden($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/B/Bitwarden', $name, $tech, $desc)
 !endprocedure

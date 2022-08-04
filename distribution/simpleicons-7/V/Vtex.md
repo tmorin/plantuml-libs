@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Vtex')
 
 ' renders the element
-Vtex('Vtex', 'Vtex', 'an optional tech label')
+Vtex('Vtex', 'Vtex', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/V/Vtex')
 
 ' renders the element
-Vtex('Vtex', 'Vtex', 'an optional tech label')
+Vtex('Vtex', 'Vtex', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

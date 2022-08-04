@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Probot')
 
 ' renders the element
-Probot('Probot', 'Probot', 'an optional tech label')
+Probot('Probot', 'Probot', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Probot')
 
 ' renders the element
-Probot('Probot', 'Probot', 'an optional tech label')
+Probot('Probot', 'Probot', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

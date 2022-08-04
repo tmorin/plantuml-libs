@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Nokia')
 
 ' renders the element
-Nokia('Nokia', 'Nokia', 'an optional tech label')
+Nokia('Nokia', 'Nokia', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/N/Nokia')
 
 ' renders the element
-Nokia('Nokia', 'Nokia', 'an optional tech label')
+Nokia('Nokia', 'Nokia', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

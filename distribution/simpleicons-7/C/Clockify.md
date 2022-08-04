@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Clockify')
 
 ' renders the element
-Clockify('Clockify', 'Clockify', 'an optional tech label')
+Clockify('Clockify', 'Clockify', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Clockify')
 
 ' renders the element
-Clockify('Clockify', 'Clockify', 'an optional tech label')
+Clockify('Clockify', 'Clockify', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

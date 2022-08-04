@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Myspace')
 
 ' renders the element
-Myspace('Myspace', 'Myspace', 'an optional tech label')
+Myspace('Myspace', 'Myspace', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Myspace')
 
 ' renders the element
-Myspace('Myspace', 'Myspace', 'an optional tech label')
+Myspace('Myspace', 'Myspace', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

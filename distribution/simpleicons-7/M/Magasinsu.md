@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Magasinsu')
 
 ' renders the element
-Magasinsu('Magasinsu', 'Magasinsu', 'an optional tech label')
+Magasinsu('Magasinsu', 'Magasinsu', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/M/Magasinsu')
 
 ' renders the element
-Magasinsu('Magasinsu', 'Magasinsu', 'an optional tech label')
+Magasinsu('Magasinsu', 'Magasinsu', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

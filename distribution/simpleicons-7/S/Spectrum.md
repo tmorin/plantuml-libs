@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Spectrum')
 
 ' renders the element
-Spectrum('Spectrum', 'Spectrum', 'an optional tech label')
+Spectrum('Spectrum', 'Spectrum', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/S/Spectrum')
 
 ' renders the element
-Spectrum('Spectrum', 'Spectrum', 'an optional tech label')
+Spectrum('Spectrum', 'Spectrum', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

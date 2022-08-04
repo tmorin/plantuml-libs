@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Docsdotrs')
 
 ' renders the element
-Docsdotrs('Docsdotrs', 'Docsdotrs', 'an optional tech label')
+Docsdotrs('Docsdotrs', 'Docsdotrs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/D/Docsdotrs')
 
 ' renders the element
-Docsdotrs('Docsdotrs', 'Docsdotrs', 'an optional tech label')
+Docsdotrs('Docsdotrs', 'Docsdotrs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

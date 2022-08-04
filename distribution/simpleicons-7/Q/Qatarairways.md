@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Q/Qatarairways')
 
 ' renders the element
-Qatarairways('Qatarairways', 'Qatarairways', 'an optional tech label')
+Qatarairways('Qatarairways', 'Qatarairways', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/Q/Qatarairways')
 
 ' renders the element
-Qatarairways('Qatarairways', 'Qatarairways', 'an optional tech label')
+Qatarairways('Qatarairways', 'Qatarairways', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

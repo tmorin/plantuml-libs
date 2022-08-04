@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/U/Uptobox')
 
 ' renders the element
-Uptobox('Uptobox', 'Uptobox', 'an optional tech label')
+Uptobox('Uptobox', 'Uptobox', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/U/Uptobox')
 
 ' renders the element
-Uptobox('Uptobox', 'Uptobox', 'an optional tech label')
+Uptobox('Uptobox', 'Uptobox', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/U/Unocss')
 
 ' renders the element
-Unocss('Unocss', 'Unocss', 'an optional tech label')
+Unocss('Unocss', 'Unocss', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/U/Unocss')
 
 ' renders the element
-Unocss('Unocss', 'Unocss', 'an optional tech label')
+Unocss('Unocss', 'Unocss', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

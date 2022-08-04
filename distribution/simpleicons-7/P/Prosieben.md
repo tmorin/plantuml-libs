@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Prosieben')
 
 ' renders the element
-Prosieben('Prosieben', 'Prosieben', 'an optional tech label')
+Prosieben('Prosieben', 'Prosieben', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Prosieben')
 
 ' renders the element
-Prosieben('Prosieben', 'Prosieben', 'an optional tech label')
+Prosieben('Prosieben', 'Prosieben', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

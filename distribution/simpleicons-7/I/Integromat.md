@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Integromat')
 
 ' renders the element
-Integromat('Integromat', 'Integromat', 'an optional tech label')
+Integromat('Integromat', 'Integromat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/I/Integromat')
 
 ' renders the element
-Integromat('Integromat', 'Integromat', 'an optional tech label')
+Integromat('Integromat', 'Integromat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

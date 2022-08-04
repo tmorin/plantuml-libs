@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Csharp')
 
 ' renders the element
-Csharp('Csharp', 'Csharp', 'an optional tech label')
+Csharp('Csharp', 'Csharp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/C/Csharp')
 
 ' renders the element
-Csharp('Csharp', 'Csharp', 'an optional tech label')
+Csharp('Csharp', 'Csharp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

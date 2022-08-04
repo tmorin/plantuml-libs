@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Haveibeenpwned')
 
 ' renders the element
-Haveibeenpwned('Haveibeenpwned', 'Haveibeenpwned', 'an optional tech label')
+Haveibeenpwned('Haveibeenpwned', 'Haveibeenpwned', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Haveibeenpwned')
 
 ' renders the element
-Haveibeenpwned('Haveibeenpwned', 'Haveibeenpwned', 'an optional tech label')
+Haveibeenpwned('Haveibeenpwned', 'Haveibeenpwned', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

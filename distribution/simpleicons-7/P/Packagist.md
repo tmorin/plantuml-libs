@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Packagist')
 
 ' renders the element
-Packagist('Packagist', 'Packagist', 'an optional tech label')
+Packagist('Packagist', 'Packagist', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/P/Packagist')
 
 ' renders the element
-Packagist('Packagist', 'Packagist', 'an optional tech label')
+Packagist('Packagist', 'Packagist', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

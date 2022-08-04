@@ -36,7 +36,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hibernate')
 
 ' renders the element
-Hibernate('Hibernate', 'Hibernate', 'an optional tech label')
+Hibernate('Hibernate', 'Hibernate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('simpleicons-7/bootstrap')
 include('simpleicons-7/H/Hibernate')
 
 ' renders the element
-Hibernate('Hibernate', 'Hibernate', 'an optional tech label')
+Hibernate('Hibernate', 'Hibernate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

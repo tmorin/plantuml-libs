@@ -8,6 +8,6 @@ sprite $ZoteroMd [16x16/16z] VOl50O0m0CIkk6V_QN6eDx-JI2kMJd6kFm0vJ50xiOB9dM5pOo2
 
 sprite $ZoteroLg [20x20/16z] ZSo35G11303Hiz5_jsk6y_o3OHZ-DYjwAvsG9ajpPvQkZZvuUKDQBKtmsGdfLJo3D5hQm3EmzaBQBOtmsJMM_BEk1JK3
 
-!procedure Zotero($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/Z/Zotero', $name, $tech)
+!procedure Zotero($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/Z/Zotero', $name, $tech, $desc)
 !endprocedure

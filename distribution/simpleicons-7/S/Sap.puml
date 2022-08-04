@@ -8,6 +8,6 @@ sprite $SapMd [16x16/16z] fScr0OG000Iml0jo-q-BUmbfuwBY87k2t0JtX4ATyFEevlFpCKiTWq
 
 sprite $SapLg [20x20/16z] lSR70S903031bSxPCjj_jUJC6yzhsC7wQ_4NpX7DGqvcPkyPIFOO83HGO2DM9Iam4C0UcDb8WEH2xO00Q0jSo4MB_dbmdMPBhIhkVE4XdlYR4m
 
-!procedure Sap($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'simpleicons-7/S/Sap', $name, $tech)
+!procedure Sap($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/S/Sap', $name, $tech, $desc)
 !endprocedure
