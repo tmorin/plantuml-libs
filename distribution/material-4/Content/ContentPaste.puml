@@ -4,10 +4,10 @@ sprite $ContentPasteXs [10x10/16z] Om01FWOmuEVd1s4WYuqV2DZ0BB0CUImUCE1Y
 
 sprite $ContentPasteSm [12x12/16z] fSQ70G0X24FHNAyn-qzB7S6dm4TQ1jfDwX2vHMkJgDZPK49tc-w_PIzh0nm
 
-sprite $ContentPasteMd [16x16/16z] nSV50S0m34DHMMNK_jEM6xxd1UoFrx0RVaQEsaNooL6N7RhPrTiAFQx9Sl-gzBerlwTRUSYS
+sprite $ContentPasteMd [16x16/16z] nSV50S0m34DHMMNK_jEM6xxd1UoFrx0RVaQEsaNooL6N7RhPrTiAFQx9Sl_gzDRydcxb8NC2
 
 sprite $ContentPasteLg [20x20/16z] tSY54O0m0CNGu4xstvR3lGFqdNnXruuv3wDQSEYTrUWiPsRVgaEfSnkOMU9gRcFeEqJttNJCilwYvTi4
 
-!procedure ContentPaste($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Content/ContentPaste', $name, $tech)
+!procedure ContentPaste($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/ContentPaste', $name, $tech, $desc)
 !endprocedure

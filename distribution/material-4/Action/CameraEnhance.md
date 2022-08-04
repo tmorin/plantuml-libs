@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/CameraEnhance')
 
 ' renders the element
-CameraEnhance('CameraEnhance', 'Camera Enhance', 'an optional tech label')
+CameraEnhance('CameraEnhance', 'Camera Enhance', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/CameraEnhance')
 
 ' renders the element
-CameraEnhance('CameraEnhance', 'Camera Enhance', 'an optional tech label')
+CameraEnhance('CameraEnhance', 'Camera Enhance', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

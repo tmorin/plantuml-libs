@@ -8,6 +8,6 @@ sprite $SettingsCellMd [16x16/16z] Om01FduGu6I00cv-2626ydcWV1OOdmTCqP-FxXuSxcNa0
 
 sprite $SettingsCellLg [20x20/16z] rSYr0S0W0031nntsdpRkrkVAOvBRf5esiQtaTdaxVRWuoQTZOdvrPX9EjzelRQUsasiLlYc9KA04krRnJT0ienu
 
-!procedure SettingsCell($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/SettingsCell', $name, $tech)
+!procedure SettingsCell($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/SettingsCell', $name, $tech, $desc)
 !endprocedure

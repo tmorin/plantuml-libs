@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/Sanitizer')
 
 ' renders the element
-Sanitizer('Sanitizer', 'Sanitizer', 'an optional tech label')
+Sanitizer('Sanitizer', 'Sanitizer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/Sanitizer')
 
 ' renders the element
-Sanitizer('Sanitizer', 'Sanitizer', 'an optional tech label')
+Sanitizer('Sanitizer', 'Sanitizer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

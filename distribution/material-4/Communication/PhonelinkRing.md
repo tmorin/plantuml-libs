@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/PhonelinkRing')
 
 ' renders the element
-PhonelinkRing('PhonelinkRing', 'Phonelink Ring', 'an optional tech label')
+PhonelinkRing('PhonelinkRing', 'Phonelink Ring', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/PhonelinkRing')
 
 ' renders the element
-PhonelinkRing('PhonelinkRing', 'Phonelink Ring', 'an optional tech label')
+PhonelinkRing('PhonelinkRing', 'Phonelink Ring', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,6 +8,6 @@ sprite $FactCheckMd [16x16/16z] XSx50G0X3031nHtwh_RSTNxnyCkNJLOWsX78Mvo1OznAALCG
 
 sprite $FactCheckLg [20x20/16z] fOy30a0n28PRC__xd_RPnZVcebyahE56XmtfL6UQMsvqbfdrQQmNeovOQprWuKciyZKt4ysnfG7G9FRvr4qloNiVxkVO41gTpcL9fCVK
 
-!procedure FactCheck($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/FactCheck', $name, $tech)
+!procedure FactCheck($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/FactCheck', $name, $tech, $desc)
 !endprocedure

@@ -4,13 +4,13 @@ sprite $FamilyRestroomXs [10x10/16z] JSQ54S104CD0XSaPzLzj6Fx0NehnYk6C-emLEWNIWee
 
 sprite $FamilyRestroomSm [12x12/16z] LOo30KLH34EBpwUp_xJNh954DlDVQMSkK4OijrB4K_w0j1xvVkSPXRlDAYyeCoa5jEYK-MDbTZw2DtsipcOfIqG
 
-sprite $FamilyRestroomMd [16x16/16z] ROk50S1020E1rEtsdxRkBrZCCiy_s-4ueFdXTjyHfrydpRGV0yMc0eJHEF36rGUxsm3rXRSk3aC9bG7I7T291xjmoMHl78nPdBm5
+sprite $FamilyRestroomMd [16x16/16z] TOk50O0m30IJF6wt_xIuGzlOctsV-t5i4xO3gXUkrnsn-xNJ3ElHaIqgG1YL0tTSFB2xTL0U68XiC-HG622T0UsuimFd37R7GP_2ppS1
 
 sprite $FamilyRestroomLg [20x20/16z] {
 ZSy54eH044FHuEF__hVTwiMTOAdNsEXxMfWh36F9uCRMCOyTr6Eh86jCOpHYipx0f8bM5Yn9yerwOBKY1_OrsetLnPaHDwQg6ljg5P0KxNEBDNQMjycqZg35
 GZYRj9W2j4Tpe6SBAJcfJqaQx7IP7m
 }
 
-!procedure FamilyRestroom($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Places/FamilyRestroom', $name, $tech)
+!procedure FamilyRestroom($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/FamilyRestroom', $name, $tech, $desc)
 !endprocedure

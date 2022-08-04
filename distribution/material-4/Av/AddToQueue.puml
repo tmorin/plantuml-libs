@@ -8,6 +8,6 @@ sprite $AddToQueueMd [16x16/16z] XSor0G1H309GOiqtzf_stFLr4S0VAtMN0TQoOm4DkxhEog_
 
 sprite $AddToQueueLg [20x20/16z] fSwr0S1030D0GvYq_xHXafl0NscKfAWGgGmeI8bYhWcnMws2lgYvDyZSg8PLGpMp6cxwwqVCLvDchfM8L6QKvJAiQlba0W
 
-!procedure AddToQueue($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Av/AddToQueue', $name, $tech)
+!procedure AddToQueue($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/AddToQueue', $name, $tech, $desc)
 !endprocedure

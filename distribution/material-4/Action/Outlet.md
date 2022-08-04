@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Outlet')
 
 ' renders the element
-Outlet('Outlet', 'Outlet', 'an optional tech label')
+Outlet('Outlet', 'Outlet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Outlet')
 
 ' renders the element
-Outlet('Outlet', 'Outlet', 'an optional tech label')
+Outlet('Outlet', 'Outlet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

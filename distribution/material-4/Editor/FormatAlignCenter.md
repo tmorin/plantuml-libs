@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/FormatAlignCenter')
 
 ' renders the element
-FormatAlignCenter('FormatAlignCenter', 'Format Align Center', 'an optional tech label')
+FormatAlignCenter('FormatAlignCenter', 'Format Align Center', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/FormatAlignCenter')
 
 ' renders the element
-FormatAlignCenter('FormatAlignCenter', 'Format Align Center', 'an optional tech label')
+FormatAlignCenter('FormatAlignCenter', 'Format Align Center', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

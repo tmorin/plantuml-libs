@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/PanoramaVertical')
 
 ' renders the element
-PanoramaVertical('PanoramaVertical', 'Panorama Vertical', 'an optional tech label')
+PanoramaVertical('PanoramaVertical', 'Panorama Vertical', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/PanoramaVertical')
 
 ' renders the element
-PanoramaVertical('PanoramaVertical', 'Panorama Vertical', 'an optional tech label')
+PanoramaVertical('PanoramaVertical', 'Panorama Vertical', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

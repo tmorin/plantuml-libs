@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Brush')
 
 ' renders the element
-Brush('Brush', 'Brush', 'an optional tech label')
+Brush('Brush', 'Brush', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Brush')
 
 ' renders the element
-Brush('Brush', 'Brush', 'an optional tech label')
+Brush('Brush', 'Brush', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

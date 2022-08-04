@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Places/SmokeFree')
 
 ' renders the element
-SmokeFree('SmokeFree', 'Smoke Free', 'an optional tech label')
+SmokeFree('SmokeFree', 'Smoke Free', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Places/SmokeFree')
 
 ' renders the element
-SmokeFree('SmokeFree', 'Smoke Free', 'an optional tech label')
+SmokeFree('SmokeFree', 'Smoke Free', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

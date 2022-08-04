@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/Person')
 
 ' renders the element
-Person('Person', 'Person', 'an optional tech label')
+Person('Person', 'Person', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/Person')
 
 ' renders the element
-Person('Person', 'Person', 'an optional tech label')
+Person('Person', 'Person', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/TvOff')
 
 ' renders the element
-TvOff('TvOff', 'Tv Off', 'an optional tech label')
+TvOff('TvOff', 'Tv Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/TvOff')
 
 ' renders the element
-TvOff('TvOff', 'Tv Off', 'an optional tech label')
+TvOff('TvOff', 'Tv Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

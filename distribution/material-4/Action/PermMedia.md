@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/PermMedia')
 
 ' renders the element
-PermMedia('PermMedia', 'Perm Media', 'an optional tech label')
+PermMedia('PermMedia', 'Perm Media', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/PermMedia')
 
 ' renders the element
-PermMedia('PermMedia', 'Perm Media', 'an optional tech label')
+PermMedia('PermMedia', 'Perm Media', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

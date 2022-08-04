@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/PhoneLocked')
 
 ' renders the element
-PhoneLocked('PhoneLocked', 'Phone Locked', 'an optional tech label')
+PhoneLocked('PhoneLocked', 'Phone Locked', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/PhoneLocked')
 
 ' renders the element
-PhoneLocked('PhoneLocked', 'Phone Locked', 'an optional tech label')
+PhoneLocked('PhoneLocked', 'Phone Locked', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

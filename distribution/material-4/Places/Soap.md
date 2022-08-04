@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Places/Soap')
 
 ' renders the element
-Soap('Soap', 'Soap', 'an optional tech label')
+Soap('Soap', 'Soap', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Places/Soap')
 
 ' renders the element
-Soap('Soap', 'Soap', 'an optional tech label')
+Soap('Soap', 'Soap', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

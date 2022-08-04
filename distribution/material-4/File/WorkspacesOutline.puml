@@ -8,6 +8,6 @@ sprite $WorkspacesOutlineMd [16x16/16z] ZOgr0S0m40DbPj_-swOBqwD8_oerjwUJGTweHOeS
 
 sprite $WorkspacesOutlineLg [20x20/16z] hOor0SD040JtcN_whzOG6iIQw6v9Dz00hmyAFOFvq9YI9NzgGpAK3wqJRViQD01DNuHajOxlevhFo_Fcys9AWVXvLKcqpsiQHSB7vG2cFYwvFee-hfqy0G
 
-!procedure WorkspacesOutline($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/File/WorkspacesOutline', $name, $tech)
+!procedure WorkspacesOutline($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/File/WorkspacesOutline', $name, $tech, $desc)
 !endprocedure

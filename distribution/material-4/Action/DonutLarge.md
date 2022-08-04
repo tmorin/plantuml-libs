@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/DonutLarge')
 
 ' renders the element
-DonutLarge('DonutLarge', 'Donut Large', 'an optional tech label')
+DonutLarge('DonutLarge', 'Donut Large', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/DonutLarge')
 
 ' renders the element
-DonutLarge('DonutLarge', 'Donut Large', 'an optional tech label')
+DonutLarge('DonutLarge', 'Donut Large', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

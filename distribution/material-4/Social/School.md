@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/School')
 
 ' renders the element
-School('School', 'School', 'an optional tech label')
+School('School', 'School', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/School')
 
 ' renders the element
-School('School', 'School', 'an optional tech label')
+School('School', 'School', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

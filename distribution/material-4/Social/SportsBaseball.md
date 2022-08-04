@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/SportsBaseball')
 
 ' renders the element
-SportsBaseball('SportsBaseball', 'Sports Baseball', 'an optional tech label')
+SportsBaseball('SportsBaseball', 'Sports Baseball', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/SportsBaseball')
 
 ' renders the element
-SportsBaseball('SportsBaseball', 'Sports Baseball', 'an optional tech label')
+SportsBaseball('SportsBaseball', 'Sports Baseball', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

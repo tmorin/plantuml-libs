@@ -8,6 +8,6 @@ sprite $SwapHorizMd [16x16/16z] Ow0UO6P7OWC16pz2W1y2657KypD167nGFepBpmG4SANi4Asy
 
 sprite $SwapHorizLg [20x20/16z] Ow0fOC8YnicEHOmVMP2P7mAG1PbuG82FdvyHGoz2Y0yknWGNuiUmZ0zgEh8C1py_5nYWcep5-Hoq3J4
 
-!procedure SwapHoriz($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/SwapHoriz', $name, $tech)
+!procedure SwapHoriz($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/SwapHoriz', $name, $tech, $desc)
 !endprocedure

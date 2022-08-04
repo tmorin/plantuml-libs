@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/MotionPhotosOn')
 
 ' renders the element
-MotionPhotosOn('MotionPhotosOn', 'Motion Photos On', 'an optional tech label')
+MotionPhotosOn('MotionPhotosOn', 'Motion Photos On', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/MotionPhotosOn')
 
 ' renders the element
-MotionPhotosOn('MotionPhotosOn', 'Motion Photos On', 'an optional tech label')
+MotionPhotosOn('MotionPhotosOn', 'Motion Photos On', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

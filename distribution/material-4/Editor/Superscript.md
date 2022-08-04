@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/Superscript')
 
 ' renders the element
-Superscript('Superscript', 'Superscript', 'an optional tech label')
+Superscript('Superscript', 'Superscript', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/Superscript')
 
 ' renders the element
-Superscript('Superscript', 'Superscript', 'an optional tech label')
+Superscript('Superscript', 'Superscript', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/PeopleOutline')
 
 ' renders the element
-PeopleOutline('PeopleOutline', 'People Outline', 'an optional tech label')
+PeopleOutline('PeopleOutline', 'People Outline', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/PeopleOutline')
 
 ' renders the element
-PeopleOutline('PeopleOutline', 'People Outline', 'an optional tech label')
+PeopleOutline('PeopleOutline', 'People Outline', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

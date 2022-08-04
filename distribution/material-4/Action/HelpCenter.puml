@@ -8,6 +8,6 @@ sprite $HelpCenterMd [16x16/16z] XOl50G0n40B9nfN-gprtdHUAVt9T2QCjt971rr44auvUL40
 
 sprite $HelpCenterLg [20x20/16z] fSY53G113CJ0FUQa_sgVcS4YQ_2lmijiPxogp4PM-tuwcqwkBGbY3rfPcmTlBS9jhS3mrW9eQsqxYufsff5tnfatDfSxSuNcYiJZQW
 
-!procedure HelpCenter($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/HelpCenter', $name, $tech)
+!procedure HelpCenter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/HelpCenter', $name, $tech, $desc)
 !endprocedure

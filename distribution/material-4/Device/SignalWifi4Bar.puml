@@ -4,10 +4,10 @@ sprite $SignalWifi4BarXs [10x10/16z] Oy0A-260WH58G9aSK0PSbWEk4Au7hXtLD
 
 sprite $SignalWifi4BarSm [12x12/16z] Oy0967duGO0BoEG3CQ0yVZZWPK1mW8gOOKmGu0GpcO0ig7PscB5WVN0EXgq
 
-sprite $SignalWifi4BarMd [16x16/16z] ZSor0G0X4031nHtwh_OTotuYv6xvGxgOWn4yH6gT1zvRPsYRZDpkWDckMq7ngD_LyUcjxcbM9jjRNUgjpjBjJW
+sprite $SignalWifi4BarMd [16x16/16z] ZSp50KCX403HmHtwhpRvxlPEoExmXNGn1oCOYDnc7aXjoz1sCd9t1ypkkYie1dMwEYPpQpOqAoixjsPfRiqir_u
 
 sprite $SignalWifi4BarLg [20x20/16z] fStJ0KKn00FGr6xsd_RXsZpV0TwocOqQ55g9KmQ0vq9LWYi9XWjrexpneT7WX4TBJFTxUZBMclm8j2O_2ZELfCF2k3_I5NTz0G
 
-!procedure SignalWifi4Bar($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Device/SignalWifi4Bar', $name, $tech)
+!procedure SignalWifi4Bar($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Device/SignalWifi4Bar', $name, $tech, $desc)
 !endprocedure

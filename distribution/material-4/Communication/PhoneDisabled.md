@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/PhoneDisabled')
 
 ' renders the element
-PhoneDisabled('PhoneDisabled', 'Phone Disabled', 'an optional tech label')
+PhoneDisabled('PhoneDisabled', 'Phone Disabled', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/PhoneDisabled')
 
 ' renders the element
-PhoneDisabled('PhoneDisabled', 'Phone Disabled', 'an optional tech label')
+PhoneDisabled('PhoneDisabled', 'Phone Disabled', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

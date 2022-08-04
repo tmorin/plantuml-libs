@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/Cast')
 
 ' renders the element
-Cast('Cast', 'Cast', 'an optional tech label')
+Cast('Cast', 'Cast', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/Cast')
 
 ' renders the element
-Cast('Cast', 'Cast', 'an optional tech label')
+Cast('Cast', 'Cast', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/AddShoppingCart')
 
 ' renders the element
-AddShoppingCart('AddShoppingCart', 'Add Shopping Cart', 'an optional tech label')
+AddShoppingCart('AddShoppingCart', 'Add Shopping Cart', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/AddShoppingCart')
 
 ' renders the element
-AddShoppingCart('AddShoppingCart', 'Add Shopping Cart', 'an optional tech label')
+AddShoppingCart('AddShoppingCart', 'Add Shopping Cart', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

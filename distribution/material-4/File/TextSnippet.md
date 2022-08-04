@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/File/TextSnippet')
 
 ' renders the element
-TextSnippet('TextSnippet', 'Text Snippet', 'an optional tech label')
+TextSnippet('TextSnippet', 'Text Snippet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/File/TextSnippet')
 
 ' renders the element
-TextSnippet('TextSnippet', 'Text Snippet', 'an optional tech label')
+TextSnippet('TextSnippet', 'Text Snippet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

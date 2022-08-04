@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/SkipNext')
 
 ' renders the element
-SkipNext('SkipNext', 'Skip Next', 'an optional tech label')
+SkipNext('SkipNext', 'Skip Next', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/SkipNext')
 
 ' renders the element
-SkipNext('SkipNext', 'Skip Next', 'an optional tech label')
+SkipNext('SkipNext', 'Skip Next', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

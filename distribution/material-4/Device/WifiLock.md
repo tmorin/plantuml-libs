@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Device/WifiLock')
 
 ' renders the element
-WifiLock('WifiLock', 'Wifi Lock', 'an optional tech label')
+WifiLock('WifiLock', 'Wifi Lock', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Device/WifiLock')
 
 ' renders the element
-WifiLock('WifiLock', 'Wifi Lock', 'an optional tech label')
+WifiLock('WifiLock', 'Wifi Lock', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

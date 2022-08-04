@@ -8,6 +8,6 @@ sprite $EqualizerMd [16x16/16z] Oo0FyFFpaipdvUL2vWCn3vZDnyUDp0VH5F5vUBY0c1jC4mG
 
 sprite $EqualizerLg [20x20/16z] Ow02O6HbPKKNO-RdvwTCZ8c92LsC5KZW5cFXu-D34mEpw2n66G
 
-!procedure Equalizer($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Av/Equalizer', $name, $tech)
+!procedure Equalizer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/Equalizer', $name, $tech, $desc)
 !endprocedure

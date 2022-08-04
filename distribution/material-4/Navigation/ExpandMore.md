@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/ExpandMore')
 
 ' renders the element
-ExpandMore('ExpandMore', 'Expand More', 'an optional tech label')
+ExpandMore('ExpandMore', 'Expand More', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/ExpandMore')
 
 ' renders the element
-ExpandMore('ExpandMore', 'Expand More', 'an optional tech label')
+ExpandMore('ExpandMore', 'Expand More', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

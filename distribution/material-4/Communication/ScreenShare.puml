@@ -6,8 +6,8 @@ sprite $ScreenShareSm [12x12/16z] Oy09UA20cu61bny6cA1iDZYRXO611Sm6CLaPOE9yCFKy2B
 
 sprite $ScreenShareMd [16x16/16z] bSc55O0m4C3Gu0xxJulNFTN_Zk8EhGNgGqzvC3tIQHwv6wGtgawVj_Vf3s4zg4olwwvnTIBH1G
 
-sprite $ScreenShareLg [20x20/16z] fOx50K0X34E3E-m_xNV1UkAXzM0DgMh4wIeTSk8BjSzDV4p_lh-DQdmH5xds0Lm1gSwpzhXuRle5GaljovrF8CROkdBbgC02Em
+sprite $ScreenShareLg [20x20/16z] fSxL0O0W50NGftJlFotTyCTLwf3m5apce4Hk2xwOcarSxAEhbMF8OXfox6m0Fqaq6UUn-XCDKxUtR6OtGw2rNiaMs0CF2G
 
-!procedure ScreenShare($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Communication/ScreenShare', $name, $tech)
+!procedure ScreenShare($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/ScreenShare', $name, $tech, $desc)
 !endprocedure

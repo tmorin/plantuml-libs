@@ -8,6 +8,6 @@ sprite $NotificationsPausedMd [16x16/16z] ZOk50S0m20GZr26t_xHrzuloulvHSXXzejoD1G
 
 sprite $NotificationsPausedLg [20x20/16z] bSq30aKX04JHoUxkVxNVniFaaxGthdmRv4zgG7mJooNzrQxqTZt0UUZmj0gbE0smRnyq9S0zh0Do0FxL9E_7bvs6TxidtAdmZBcIvpLQZe7vXQ4PBUG8
 
-!procedure NotificationsPaused($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Social/NotificationsPaused', $name, $tech)
+!procedure NotificationsPaused($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/NotificationsPaused', $name, $tech, $desc)
 !endprocedure

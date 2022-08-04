@@ -8,6 +8,6 @@ sprite $WbShadeMd [16x16/16z] dSYr0S1G30DHsM7mr_xJXabDwBft-5EOaZJbTIHI1ucW0sgxs2
 
 sprite $WbShadeLg [20x20/16z] jSe53eHG5CNGBpFuVTt_Qd672DRuITqdcGuasAF17WLxB0MLGCKA_-0217Tc_iG8QuFUy0Tp8XviFXV3p-TYjfntQm
 
-!procedure WbShade($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/WbShade', $name, $tech)
+!procedure WbShade($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/WbShade', $name, $tech, $desc)
 !endprocedure

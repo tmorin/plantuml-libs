@@ -1,19 +1,19 @@
 ' definition of the Item material-4/Image/MotionPhotosPause
 
-sprite $MotionPhotosPauseXs [10x10/16z] LON50S1G58EeUzb_sahUwKU09dgLWvv84QpsOnavkEDxxa7qHc2mPv9aEdlW1G
+sprite $MotionPhotosPauseXs [10x10/16z] LOMr0S1G58JuriJOVzh8lIedm2zwbeDEf0XM-omZErTyhGwY5mB3pf9a7Hru
 
-sprite $MotionPhotosPauseSm [12x12/16z] NOp50S0W5CM2Es__QOlTck_AdzmY5vl8lYhTvYGsZm87RJg2af8uCWtTjPkxRedLYoSWXgHazFuOXv41Y9fTCZoCvR
+sprite $MotionPhotosPauseSm [12x12/16z] NOp50S0W5CM2Es__QOlTck_AdzmY5vj8lYhTvYGsZm87RJg2af8uCWtTjPkxRedLYoSWXgHazFuOXv41Y9fTCZoCvR
 
 sprite $MotionPhotosPauseMd [16x16/16z] {
-ROq55WGX34CJEZwqkVzj5rt_QEG1_aD-o51Xdy9HqqC-T83dlO7JmAuAAIl2oxakIXx8fK3XL4g2Yvk0Shk7jaKjtuSk5m3Q8NUvCk9gZuEIYbp5_Z-H34KU
-Q9JgQdjC2LX8kea_F
+RSXLeiKm58LGTb9lJvZ_Q9_BDVuMl2wvur1TVr44sAmV3xAV2_aThAecTg0IvybMWwiWijkQb5c49kUF-oH4rX-p2hXYbUN5E81LedvmDW1ZXDRpmGq0oclk
+w_WbzA6UuKNl
 }
 
 sprite $MotionPhotosPauseLg [20x20/16z] {
-bSY7OU0m3C10Y7ANJUo_xTEVtfDJ9VYRsN9rdlMWvHYNPZmbvS6cZp5Cc8wnDK8RJzBRIdTGvdQdYfdEd59CvZgR3IMS00V7SmlS0G_6S-iu04-svrPd1LBY
-gIMB0Kok5HvKbbiQB9PixAxSkjaXUgFI1O_HCu3PvmHj-63bjVauj-1h_m
+bSZ7OU0m30319QXC2Tj_joUSSxRdEVpDxEtgFEj1op4kpNWgvS6cZnacJCVO6g6D9sbPwGw0kLMbPZfpMcSocsmsb72g6npF5xZN7OpdwpZgJhRdQxW2AV5q
+oMm0a-iTbcefQR3KP6DtfNIpG_J6NHUbqZE0sUU2Ddomyjfyd5lmjNy
 }
 
-!procedure MotionPhotosPause($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/MotionPhotosPause', $name, $tech)
+!procedure MotionPhotosPause($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/MotionPhotosPause', $name, $tech, $desc)
 !endprocedure

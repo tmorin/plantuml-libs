@@ -8,6 +8,6 @@ sprite $ArrowDownwardMd [16x16/16z] dSYr0G0W4CLG72h-_jDY9oMMxiNyvV1lAmxa2d94bZ4T
 
 sprite $ArrowDownwardLg [20x20/16z] jT2r0G0X50DGt27xJtkAqqBAXtmXEyBaQWRqf5bUpRBS1K2pEKHIaNzc4Nx9DnzpI1aoUhXygqFaMmE6TGUHxCWD
 
-!procedure ArrowDownward($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Navigation/ArrowDownward', $name, $tech)
+!procedure ArrowDownward($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Navigation/ArrowDownward', $name, $tech, $desc)
 !endprocedure

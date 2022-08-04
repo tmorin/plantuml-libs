@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/LegendToggle')
 
 ' renders the element
-LegendToggle('LegendToggle', 'Legend Toggle', 'an optional tech label')
+LegendToggle('LegendToggle', 'Legend Toggle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/LegendToggle')
 
 ' renders the element
-LegendToggle('LegendToggle', 'Legend Toggle', 'an optional tech label')
+LegendToggle('LegendToggle', 'Legend Toggle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

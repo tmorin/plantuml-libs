@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/AddTask')
 
 ' renders the element
-AddTask('AddTask', 'Add Task', 'an optional tech label')
+AddTask('AddTask', 'Add Task', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/AddTask')
 
 ' renders the element
-AddTask('AddTask', 'Add Task', 'an optional tech label')
+AddTask('AddTask', 'Add Task', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

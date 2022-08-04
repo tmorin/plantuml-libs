@@ -2,12 +2,12 @@
 
 sprite $ContactMailXs [10x10/16z] Oy02-941a0iKOkRdvuIp-Fc020Zu-PaO6FZ0gk3w-10QuG
 
-sprite $ContactMailSm [12x12/16z] TSO50e0m3C30u4x-_rhSsMvh6o9QNuPSoppFnwK1qvvkE9k4jHsNlrYpJ6jtDQkz-usht1iFCm
+sprite $ContactMailSm [12x12/16z] TSO50e0m3C30u4x-_rhSsMvh6o9QNuPSoppBngK1qvvkE9k4jHsNlrYhJ6jtDQkz-usht1iFCm
 
-sprite $ContactMailMd [16x16/16z] XSVL0SDG30D0XVF8sd_RcifqVuT_sdXq2j-DjP2o6gi0A1nrmZxRktxXm3vcqEY7tj09bPXe5zwTC3EJ82nCFSKQds5-Ck751G
+sprite $ContactMailMd [16x16/16z] XSU50KKn24FH8AyEsN_Qxwwd0XV_p7ZKak_2EvdkvdRC1D0PGr3qsElGna091OyE7OS-uacUlgDphk1Tmv5UCt5cl5WNvvfy1dqYUB47
 
-sprite $ContactMailLg [20x20/16z] fOy30W0X00Gtk_x_sd0svzWYu0SYxOZfZ214Ctc7x3LKgWW1mB1EKaqpLLDE1DfhfcckYqkWrnBh_z0nQ2d6xjrpkXFQLPQ-n82UDKpCcf-uEZ3nSOl6Gme
+sprite $ContactMailLg [20x20/16z] fSzL0W8X003HeHlkVrifk_NjKiCN_C6qExKzKumPbrfhfPLTZQv7313KJ8ukzEQIANArG9Tw0mkhDRLsJAejjSvvQKyKIQTgExDi_jmuERTyykh18jTRdWyT
 
-!procedure ContactMail($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Communication/ContactMail', $name, $tech)
+!procedure ContactMail($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/ContactMail', $name, $tech, $desc)
 !endprocedure

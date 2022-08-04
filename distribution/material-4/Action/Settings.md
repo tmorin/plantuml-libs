@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Settings')
 
 ' renders the element
-Settings('Settings', 'Settings', 'an optional tech label')
+Settings('Settings', 'Settings', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Settings')
 
 ' renders the element
-Settings('Settings', 'Settings', 'an optional tech label')
+Settings('Settings', 'Settings', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

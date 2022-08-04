@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/EditLocation')
 
 ' renders the element
-EditLocation('EditLocation', 'Edit Location', 'an optional tech label')
+EditLocation('EditLocation', 'Edit Location', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/EditLocation')
 
 ' renders the element
-EditLocation('EditLocation', 'Edit Location', 'an optional tech label')
+EditLocation('EditLocation', 'Edit Location', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

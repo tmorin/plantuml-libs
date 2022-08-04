@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/Mouse')
 
 ' renders the element
-Mouse('Mouse', 'Mouse', 'an optional tech label')
+Mouse('Mouse', 'Mouse', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/Mouse')
 
 ' renders the element
-Mouse('Mouse', 'Mouse', 'an optional tech label')
+Mouse('Mouse', 'Mouse', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

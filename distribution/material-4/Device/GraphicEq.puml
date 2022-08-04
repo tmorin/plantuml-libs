@@ -2,12 +2,12 @@
 
 sprite $GraphicEqXs [10x10/16z] Oq05_1WiVY1a0p4OmInc88iDpE97oC9P6ARmW0W
 
-sprite $GraphicEqSm [12x12/16z] Oy00l4XiVZYB1yZcWOc284GjbCqB4ONBC45PJ4Zg8O05o6B1OZu3L2q
+sprite $GraphicEqSm [12x12/16z] Oy00l4XiVZYB1yZcWOc284GjbCqB4ONBC45PJ4Zg8O0Po6B1OZu3L2q
 
 sprite $GraphicEqMd [16x16/16z] Oy01cD2u_FZuF4n0FYSddCyFulFoOEVpyC3v_21RUD7ut5nmFYyJVlDWW0Na7cPcmkx51
 
 sprite $GraphicEqLg [20x20/16z] Oo0LSF0paYV6mmKMus554kFd0ulni-4JOsP44cDcWYXYWuf1M4IAyHAsbx0O2pDOZ8MHl71Xus745xm
 
-!procedure GraphicEq($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Device/GraphicEq', $name, $tech)
+!procedure GraphicEq($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Device/GraphicEq', $name, $tech, $desc)
 !endprocedure

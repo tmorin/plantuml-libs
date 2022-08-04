@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/SettingsBackupRestore')
 
 ' renders the element
-SettingsBackupRestore('SettingsBackupRestore', 'Settings Backup Restore', 'an optional tech label')
+SettingsBackupRestore('SettingsBackupRestore', 'Settings Backup Restore', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/SettingsBackupRestore')
 
 ' renders the element
-SettingsBackupRestore('SettingsBackupRestore', 'Settings Backup Restore', 'an optional tech label')
+SettingsBackupRestore('SettingsBackupRestore', 'Settings Backup Restore', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

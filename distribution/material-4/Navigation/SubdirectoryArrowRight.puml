@@ -8,6 +8,6 @@ sprite $SubdirectoryArrowRightMd [16x16/16z] Oo0TyBEGmMTaHENpyZCYyL44-5cPG80F9i0
 
 sprite $SubdirectoryArrowRightLg [20x20/16z] jOo33K1H00EVcQRxJ_jjy-BYn3kabQlCqloHHQopGAooEbpx8Z5c8tseKqSclLX0kcM4IokXlBX92G
 
-!procedure SubdirectoryArrowRight($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Navigation/SubdirectoryArrowRight', $name, $tech)
+!procedure SubdirectoryArrowRight($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Navigation/SubdirectoryArrowRight', $name, $tech, $desc)
 !endprocedure

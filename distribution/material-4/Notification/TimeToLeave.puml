@@ -2,12 +2,12 @@
 
 sprite $TimeToLeaveXs [10x10/16z] Oy0AsFb10CG24mnyGCp9308WFZytK98LpE80iXZ1B0Y0w02J2
 
-sprite $TimeToLeaveSm [12x12/16z] TSg30S1030NGVrQm_xPDxNS8yQ_JhCofhvZ9_14MATgdlD8vZsgaBZd4ykAMV3Vd9SwM_O25yxYQ
+sprite $TimeToLeaveSm [12x12/16z] TSg30G0n3030w8tkFsrjN172slqwXqlf1ETttnkcczXFVO5okIZhFtqElyqFz7dYyeF5yliC7XBK3
 
 sprite $TimeToLeaveMd [16x16/16z] bSl50G0X30J0nPtqNoqklvD1O_YFqP9dx2ocpD0HmsHTltc-W_tsT740YMGUWRKpZf0Z1cPCYOPCAxvcREIKHgmYmwGYNbK
 
-sprite $TimeToLeaveLg [20x20/16z] fOy50W9130Dpjwxv_skn4joPrNgBV_51h58bdf6E6M86UrUk46NQcma8nyNyYpl3PEck64UTRpH2vZHTacy3f2CoZIL8TybBNV9YI7Sv1nl-OWi
+sprite $TimeToLeaveLg [20x20/16z] fO-50GCn24M9U_x-qzPeh7hoeZZGMRHfoAPo63GTF3MguLT2Tbse_7fGHq6mVr03E4wtK9uwdS0OZyewrtmJKTE1F1XXccxcfyvfTLjtIjFDSo3HAQu
 
-!procedure TimeToLeave($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Notification/TimeToLeave', $name, $tech)
+!procedure TimeToLeave($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Notification/TimeToLeave', $name, $tech, $desc)
 !endprocedure

@@ -2,12 +2,12 @@
 
 sprite $ForumXs [10x10/16z] Oq00VZ1WXhFO42n-7WmMAuW5rSW3Lya3Cum3pc9W1G
 
-sprite $ForumSm [12x12/16z] TSQr0G0X00ImUyLX_sbnbrH1xrKH3rSc6Iwxc_jyZIXSG9h87xZUWCPdD3rp
+sprite $ForumSm [12x12/16z] TSQr0G0X00ImUyLX_sbnbrH1xrKH3rSc6Iwxc_jyZSHVG9h87xYUrwFn6VLl7
 
 sprite $ForumMd [16x16/16z] bSV50S0W00ImgtlPVrhSdVo2n6pe4kDj_ht34pBoH_-7flxZ-ZJn2NY81M5QbLFVElMj4p46
 
-sprite $ForumLg [20x20/16z] hSZ50G0X40ImmPtjlzfpTo7Fu35Q40Ud7ryCOdT4iU2fwJ9d0uoNCHclgKWB4PrmS4oEx7XBzk1W3muAHse
+sprite $ForumLg [20x20/16z] hSZ50G0X4CNGZplJVxNhxa9oUtWSBH87fXzR369dHB6WgSaoPqCOBMDgj8OYBOhe2WV6f6XkivCjiWS6Us1GEAe6
 
-!procedure Forum($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Communication/Forum', $name, $tech)
+!procedure Forum($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/Forum', $name, $tech, $desc)
 !endprocedure

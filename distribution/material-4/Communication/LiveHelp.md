@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/LiveHelp')
 
 ' renders the element
-LiveHelp('LiveHelp', 'Live Help', 'an optional tech label')
+LiveHelp('LiveHelp', 'Live Help', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/LiveHelp')
 
 ' renders the element
-LiveHelp('LiveHelp', 'Live Help', 'an optional tech label')
+LiveHelp('LiveHelp', 'Live Help', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,6 +8,6 @@ sprite $MinimizeMd [16x16/16z] OnY6W8SV0bYWV2OemAOM
 
 sprite $MinimizeLg [20x20/16z] Ow0SZ08UVXXWWOjnyS40Cob60G
 
-!procedure Minimize($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/Minimize', $name, $tech)
+!procedure Minimize($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Minimize', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Device/BrightnessMedium')
 
 ' renders the element
-BrightnessMedium('BrightnessMedium', 'Brightness Medium', 'an optional tech label')
+BrightnessMedium('BrightnessMedium', 'Brightness Medium', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Device/BrightnessMedium')
 
 ' renders the element
-BrightnessMedium('BrightnessMedium', 'Brightness Medium', 'an optional tech label')
+BrightnessMedium('BrightnessMedium', 'Brightness Medium', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

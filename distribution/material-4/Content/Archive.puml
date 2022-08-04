@@ -8,6 +8,6 @@ sprite $ArchiveMd [16x16/16z] ZOw30G0n34LhXFjFUpRxolYRVnpn34ocLR-GQBH9TznWSuizTD
 
 sprite $ArchiveLg [20x20/16z] fO-34G1H30M_dPV-gptRsD5E7F4Jv3G2ruSouaHYtSLuHJc8uIPMIjd6oYXZ34h9HfIoKsmKOUQwqTHeynYpsmjzVz_-Dq-O8IKUKmC
 
-!procedure Archive($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Content/Archive', $name, $tech)
+!procedure Archive($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/Archive', $name, $tech, $desc)
 !endprocedure

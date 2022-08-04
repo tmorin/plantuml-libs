@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/Construction')
 
 ' renders the element
-Construction('Construction', 'Construction', 'an optional tech label')
+Construction('Construction', 'Construction', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/Construction')
 
 ' renders the element
-Construction('Construction', 'Construction', 'an optional tech label')
+Construction('Construction', 'Construction', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

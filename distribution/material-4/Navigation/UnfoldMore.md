@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/UnfoldMore')
 
 ' renders the element
-UnfoldMore('UnfoldMore', 'Unfold More', 'an optional tech label')
+UnfoldMore('UnfoldMore', 'Unfold More', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/UnfoldMore')
 
 ' renders the element
-UnfoldMore('UnfoldMore', 'Unfold More', 'an optional tech label')
+UnfoldMore('UnfoldMore', 'Unfold More', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

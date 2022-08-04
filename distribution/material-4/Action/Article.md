@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Article')
 
 ' renders the element
-Article('Article', 'Article', 'an optional tech label')
+Article('Article', 'Article', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Article')
 
 ' renders the element
-Article('Article', 'Article', 'an optional tech label')
+Article('Article', 'Article', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

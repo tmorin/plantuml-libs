@@ -8,6 +8,6 @@ sprite $PresentToAllMd [16x16/16z] XSst0O100810p5dstzPE_NmT5RGCv_KvmElyUEB0vxeAl
 
 sprite $PresentToAllLg [20x20/16z] fSY35K1H30Mm--ns_sc_RUGu-CFpbW2nNN7iciEAl3bLTYUPo-OKDyhwX6bEYjL1DGVSdumnhcvmSriMgj1Qn5Cr
 
-!procedure PresentToAll($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Communication/PresentToAll', $name, $tech)
+!procedure PresentToAll($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/PresentToAll', $name, $tech, $desc)
 !endprocedure

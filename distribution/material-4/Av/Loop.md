@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/Loop')
 
 ' renders the element
-Loop('Loop', 'Loop', 'an optional tech label')
+Loop('Loop', 'Loop', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/Loop')
 
 ' renders the element
-Loop('Loop', 'Loop', 'an optional tech label')
+Loop('Loop', 'Loop', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

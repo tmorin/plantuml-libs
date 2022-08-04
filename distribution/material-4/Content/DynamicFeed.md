@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Content/DynamicFeed')
 
 ' renders the element
-DynamicFeed('DynamicFeed', 'Dynamic Feed', 'an optional tech label')
+DynamicFeed('DynamicFeed', 'Dynamic Feed', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Content/DynamicFeed')
 
 ' renders the element
-DynamicFeed('DynamicFeed', 'Dynamic Feed', 'an optional tech label')
+DynamicFeed('DynamicFeed', 'Dynamic Feed', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

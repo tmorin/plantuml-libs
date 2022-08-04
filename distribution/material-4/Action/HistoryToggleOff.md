@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/HistoryToggleOff')
 
 ' renders the element
-HistoryToggleOff('HistoryToggleOff', 'History Toggle Off', 'an optional tech label')
+HistoryToggleOff('HistoryToggleOff', 'History Toggle Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/HistoryToggleOff')
 
 ' renders the element
-HistoryToggleOff('HistoryToggleOff', 'History Toggle Off', 'an optional tech label')
+HistoryToggleOff('HistoryToggleOff', 'History Toggle Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

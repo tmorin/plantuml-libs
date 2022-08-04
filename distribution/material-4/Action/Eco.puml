@@ -6,8 +6,8 @@ sprite $EcoSm [12x12/16z] VOo30S1034MZ6d__RPlw_69I6xPHhaHsE7ocAowkhiVzoHUWFyipdp
 
 sprite $EcoMd [16x16/16z] dShL0KD124JHUUjE_zL6Ri9tvAm2epzTUHoRNdL34xAzPSfWxgBUH9-NmEHv7S5BgyAsLAZr4hOeknpr4j3MYFhA7G
 
-sprite $EcoLg [20x20/16z] hSp50K0n309Gwbxsd_PBVO2-OmBW6Y4rJZhoTnmAXrNXaZ5my-DKkCcpMS8vfzl9y5V7pRHfDc7Sv5_9UwuXfM1JCAa4pmQdof_1AP6CkE05
+sprite $EcoLg [20x20/16z] hSx50G0X40F0u0xzLtk2fW3ckHfS8wG6qx7zg53Qj5VQbZ6rmyzIePhapHBudEubqqkLQddU3BCc_vNCv_fRETCKB2h1jmwizf81Irybue8N
 
-!procedure Eco($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/Eco', $name, $tech)
+!procedure Eco($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Eco', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Explore')
 
 ' renders the element
-Explore('Explore', 'Explore', 'an optional tech label')
+Explore('Explore', 'Explore', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Explore')
 
 ' renders the element
-Explore('Explore', 'Explore', 'an optional tech label')
+Explore('Explore', 'Explore', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

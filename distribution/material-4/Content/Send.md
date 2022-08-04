@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Content/Send')
 
 ' renders the element
-Send('Send', 'Send', 'an optional tech label')
+Send('Send', 'Send', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Content/Send')
 
 ' renders the element
-Send('Send', 'Send', 'an optional tech label')
+Send('Send', 'Send', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

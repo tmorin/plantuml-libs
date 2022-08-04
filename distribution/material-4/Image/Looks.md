@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Looks')
 
 ' renders the element
-Looks('Looks', 'Looks', 'an optional tech label')
+Looks('Looks', 'Looks', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Looks')
 
 ' renders the element
-Looks('Looks', 'Looks', 'an optional tech label')
+Looks('Looks', 'Looks', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

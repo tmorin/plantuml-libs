@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalShipping')
 
 ' renders the element
-LocalShipping('LocalShipping', 'Local Shipping', 'an optional tech label')
+LocalShipping('LocalShipping', 'Local Shipping', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalShipping')
 
 ' renders the element
-LocalShipping('LocalShipping', 'Local Shipping', 'an optional tech label')
+LocalShipping('LocalShipping', 'Local Shipping', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

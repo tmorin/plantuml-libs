@@ -8,6 +8,6 @@ sprite $NoteMd [16x16/16z] Oo0PyCC0EvZB1EEoWWKGV6Oci0223sIo8_5Pc9XO-C5y1223puZ6P
 
 sprite $NoteLg [20x20/16z] Ow0CiB3200jCY1y9i6EASG85qSKOk822w68CG9KOOY2Lg68SGC370nT307g8SG75ED34A0jG
 
-!procedure Note($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Av/Note', $name, $tech)
+!procedure Note($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/Note', $name, $tech, $desc)
 !endprocedure

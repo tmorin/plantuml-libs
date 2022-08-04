@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/CompassCalibration')
 
 ' renders the element
-CompassCalibration('CompassCalibration', 'Compass Calibration', 'an optional tech label')
+CompassCalibration('CompassCalibration', 'Compass Calibration', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/CompassCalibration')
 
 ' renders the element
-CompassCalibration('CompassCalibration', 'Compass Calibration', 'an optional tech label')
+CompassCalibration('CompassCalibration', 'Compass Calibration', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

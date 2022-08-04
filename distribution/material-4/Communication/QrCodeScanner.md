@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/QrCodeScanner')
 
 ' renders the element
-QrCodeScanner('QrCodeScanner', 'Qr Code Scanner', 'an optional tech label')
+QrCodeScanner('QrCodeScanner', 'Qr Code Scanner', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/QrCodeScanner')
 
 ' renders the element
-QrCodeScanner('QrCodeScanner', 'Qr Code Scanner', 'an optional tech label')
+QrCodeScanner('QrCodeScanner', 'Qr Code Scanner', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

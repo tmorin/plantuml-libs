@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/LabelOff')
 
 ' renders the element
-LabelOff('LabelOff', 'Label Off', 'an optional tech label')
+LabelOff('LabelOff', 'Label Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/LabelOff')
 
 ' renders the element
-LabelOff('LabelOff', 'Label Off', 'an optional tech label')
+LabelOff('LabelOff', 'Label Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

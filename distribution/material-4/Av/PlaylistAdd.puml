@@ -8,6 +8,6 @@ sprite $PlaylistAddMd [16x16/16z] fSg30G0n30NGNplPVzgpZLU4-4laNjpK2SSazmfOzOsU0E
 
 sprite $PlaylistAddLg [20x20/16z] lSl50G0X40F0u0xzLtlkhindDSZ2znm6QO13R032rbcHE1gqHyRTQDobXaTCVGVOXeQnrYTNTLlPQxkNIW
 
-!procedure PlaylistAdd($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Av/PlaylistAdd', $name, $tech)
+!procedure PlaylistAdd($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/PlaylistAdd', $name, $tech, $desc)
 !endprocedure

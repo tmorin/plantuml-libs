@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/HorizontalRule')
 
 ' renders the element
-HorizontalRule('HorizontalRule', 'Horizontal Rule', 'an optional tech label')
+HorizontalRule('HorizontalRule', 'Horizontal Rule', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/HorizontalRule')
 
 ' renders the element
-HorizontalRule('HorizontalRule', 'Horizontal Rule', 'an optional tech label')
+HorizontalRule('HorizontalRule', 'Horizontal Rule', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

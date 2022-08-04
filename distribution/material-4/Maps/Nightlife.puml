@@ -6,8 +6,8 @@ sprite $NightlifeSm [12x12/16z] ZSQr0OG0002nl0jo-szBXNMaYYlcgZxgJjoZ1vuL0dFlxU8s
 
 sprite $NightlifeMd [16x16/16z] bSVL0SCm4C1G9J6Jzf-sZ7-j37UFVpkUmUrBtbiSAh0w4EJYCO3DEQVfQcubTV4sI_aq9c0BR-_GzCk-l0z7ktezFIwcDNxe3
 
-sprite $NightlifeLg [20x20/16z] hOlL0GCX50Jd56Vxh_RSWCzaqBV2lp7kmJ9jju5U3-0aHS2gPsEIUJMo-WqbTesTfyrNmsfZBZMobAcqNgBMKBxYjURLQlchcIZ5wSXbBfms32IfuqTM
+sprite $NightlifeLg [20x20/16z] hOj50eD05CLIXT7S_xIuismp-f_mRvgmqV8PxWQURa1GCz3wPE1ZisjKdmCMHesHhSrHetNWUzQeMjcqhSrLmxh4hrhohjMZrcJD7w9QMGWED53qmO_q
 
-!procedure Nightlife($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/Nightlife', $name, $tech)
+!procedure Nightlife($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/Nightlife', $name, $tech, $desc)
 !endprocedure

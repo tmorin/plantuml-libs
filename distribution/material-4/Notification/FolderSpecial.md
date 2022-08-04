@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/FolderSpecial')
 
 ' renders the element
-FolderSpecial('FolderSpecial', 'Folder Special', 'an optional tech label')
+FolderSpecial('FolderSpecial', 'Folder Special', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/FolderSpecial')
 
 ' renders the element
-FolderSpecial('FolderSpecial', 'Folder Special', 'an optional tech label')
+FolderSpecial('FolderSpecial', 'Folder Special', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Expand')
 
 ' renders the element
-Expand('Expand', 'Expand', 'an optional tech label')
+Expand('Expand', 'Expand', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Expand')
 
 ' renders the element
-Expand('Expand', 'Expand', 'an optional tech label')
+Expand('Expand', 'Expand', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

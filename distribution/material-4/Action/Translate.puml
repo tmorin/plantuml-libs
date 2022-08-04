@@ -2,15 +2,15 @@
 
 sprite $TranslateXs [10x10/16z] Oq01F12A7mpO6A0yACt7oCN036PnyWD5MS5oFDmiZFmGHSpyd72bCACuGOO2
 
-sprite $TranslateSm [12x12/16z] NSb50W0X243HRoTo_zkEmMgUqlnqRysSKsKdjdX8YdO1nKYII1nSkdQyqrWQq1w1AJjQvXo4JJVCWjou79l_
+sprite $TranslateSm [12x12/16z] NSd50KCX44NH6znV_zq6cTK_CCv7SpnZ3CsTs4BmFimOx0B2p3W3eNDfxNYdlkHH2y2OEsf2m6JJXbcGAjUFpVq1
 
-sprite $TranslateMd [16x16/16z] RSm50eKW403HiVcnpFrFQxS-cWrUbLnKidFtPr8l8kgAHJ5TF5eKu_qdXsGjO6OLDb1emQnMuHlnNP-9BDQrZ1eJq5LMumHIOf8T1JiBADoVdOnikHa
+sprite $TranslateMd [16x16/16z] RSo5OGKW34NHc-Bwzj-suRiTd0W__V4cY0SzJ8uGey-uLWnSsRdesSByFiHJLJnFRMwM4fXarsUK17sjVdjMjb2CmYL_GWaAFe7gJxVb5WyoC3sUHJXbFlm3
 
 sprite $TranslateLg [20x20/16z] {
-bT054iCm34JHbIith7__stRaS3BK5uv1eFymwy9hOgcfg0aklce-lbbmDzqnw6B0jji58MFCZOfsbO78Nt1TJSwOe6fJe4LWYj06V6QIOpsspt9f34M6wlTP
-oW36CcIi5Awcfp5THBmwL6ZpHtGQPgKok_Js0m
+bT053WGX38NXLwRiUF_xttPJ2CcwVBYB_iEX6ruJPqr5JN3ZecPozod3YRlf7gjkh5ZFRX4ojjoeQAYiH7R1xMfonWvrT1Le9x17Z3xmWrsEBTYOvT8MYZng
+6RFQvOrppRDIk9g5ndGZukc7IjzYu_Q5VK8vN2zS0G
 }
 
-!procedure Translate($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/Translate', $name, $tech)
+!procedure Translate($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Translate', $name, $tech, $desc)
 !endprocedure

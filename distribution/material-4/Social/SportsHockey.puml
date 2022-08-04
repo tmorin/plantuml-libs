@@ -6,11 +6,8 @@ sprite $SportsHockeySm [12x12/16z] TKU50OHG5EB5XSgN_QUrEsZmZg3Xn-MeXSgoVqfXXRJlH
 
 sprite $SportsHockeyMd [16x16/16z] dSpL0GCW34NHXrl8tN_QkdtL3av4VmWW9LntcofEwov103qvJjTJ1lGAbburJ2_girqW0Ni09AH80bptTx1ePa7Dx7JJ9qS
 
-sprite $SportsHockeyLg [20x20/16z] {
-fSi54eGm04FHL8B3l_zjT_2suyiRZ-YhO0T9jlM2JOemwJL2r0GgxHEOLPfWsBUbo4wr3KXIEzpKMbdRQ3O4tL9ATiT-jYtl6TC8C7NinFncewviUREWuSt-
-zmC
-}
+sprite $SportsHockeyLg [20x20/16z] fSZ7bKCX54J1vd7wUxZvHpiZZrbAjIpzAjb9acqrKAM0GyqEeGFKWqDm3dV21Z5SSATH1R960LMpGj7aD2IzvPpjXO1gMxuVnmvmBDo9izskrrtjahPst_i7
 
-!procedure SportsHockey($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Social/SportsHockey', $name, $tech)
+!procedure SportsHockey($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/SportsHockey', $name, $tech, $desc)
 !endprocedure

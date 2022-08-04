@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/PersonalVideo')
 
 ' renders the element
-PersonalVideo('PersonalVideo', 'Personal Video', 'an optional tech label')
+PersonalVideo('PersonalVideo', 'Personal Video', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/PersonalVideo')
 
 ' renders the element
-PersonalVideo('PersonalVideo', 'Personal Video', 'an optional tech label')
+PersonalVideo('PersonalVideo', 'Personal Video', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

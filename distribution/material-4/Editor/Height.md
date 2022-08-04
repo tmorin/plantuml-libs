@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/Height')
 
 ' renders the element
-Height('Height', 'Height', 'an optional tech label')
+Height('Height', 'Height', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/Height')
 
 ' renders the element
-Height('Height', 'Height', 'an optional tech label')
+Height('Height', 'Height', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

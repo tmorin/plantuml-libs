@@ -4,13 +4,13 @@ sprite $ContentCutXs [10x10/16z] JOl50S0m00AXtXZxJnitNjXXapGCZXVubHt_gveSRt4SpCD
 
 sprite $ContentCutSm [12x12/16z] LOo50G0X24KLiEFll-sThNG-zGWdlKi8MYxGAeigrCe_Q6IuNZOX3-_sJxL-SGe2tEAGygrPdDOqJkVxJgA5-
 
-sprite $ContentCutMd [16x16/16z] ROtL0K0X3CJkkTBRVrhS8Ny9jCM4fR67v1gwKW2uuwFJbRnj9B0xNvnQ-6t2ebXf4KZGW51m0GMUKcHPmaYvRsU5obcv7qAv3-L2kAzGmihGBUkA7WC
+sprite $ContentCutMd [16x16/16z] ROt50G0X0CDwBaZtdnPto2z1YWKRMZwIU-nA0U09GQyx-Rf8uFI-UNLG79fLiTEXeQD6j0jFkyXRDxR59tNVlTLKtkf-37KVoeUuhr33pjWT-uuH2m
 
 sprite $ContentCutLg [20x20/16z] {
 ZOy53iGm30It75Bc_wyzi2m53hSDcKV_wmAMsLGp-2D0aaILLYupHIZFasoRHRb9i2YojwY7LanhYx8gvG2MrKnD6x2j6fKuvo63r-mve2oEqpYArpIJSmH9
 BR9njCZ6qI9NQ01RhLd6aNVzqXq
 }
 
-!procedure ContentCut($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Content/ContentCut', $name, $tech)
+!procedure ContentCut($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/ContentCut', $name, $tech, $desc)
 !endprocedure

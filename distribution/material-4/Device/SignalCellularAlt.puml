@@ -8,6 +8,6 @@ sprite $SignalCellularAltMd [16x16/16z] Oo0VCFFp4CrdvEL6uJFny-BcCp4Yyq4qINmc7Yu6
 
 sprite $SignalCellularAltLg [20x20/16z] Ow0QO6PbnH3ZvESdHuoHYH53Z0F8fOeOc4L3CSe
 
-!procedure SignalCellularAlt($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Device/SignalCellularAlt', $name, $tech)
+!procedure SignalCellularAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Device/SignalCellularAlt', $name, $tech, $desc)
 !endprocedure

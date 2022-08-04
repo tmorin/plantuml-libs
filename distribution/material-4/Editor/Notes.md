@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/Notes')
 
 ' renders the element
-Notes('Notes', 'Notes', 'an optional tech label')
+Notes('Notes', 'Notes', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/Notes')
 
 ' renders the element
-Notes('Notes', 'Notes', 'an optional tech label')
+Notes('Notes', 'Notes', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

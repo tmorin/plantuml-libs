@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/VerticalSplit')
 
 ' renders the element
-VerticalSplit('VerticalSplit', 'Vertical Split', 'an optional tech label')
+VerticalSplit('VerticalSplit', 'Vertical Split', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/VerticalSplit')
 
 ' renders the element
-VerticalSplit('VerticalSplit', 'Vertical Split', 'an optional tech label')
+VerticalSplit('VerticalSplit', 'Vertical Split', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

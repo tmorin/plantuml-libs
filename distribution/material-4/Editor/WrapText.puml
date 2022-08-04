@@ -8,6 +8,6 @@ sprite $WrapTextMd [16x16/16z] bSsr0S0m30313tEy_xHchkIhn6BSaiquAdkHc1FezYyQavhg3
 
 sprite $WrapTextLg [20x20/16z] hS_50SGm40J15hCs_sWFpVwOAe01dcVI4ZzEbhXDnvc5VKVdJysy17PQOwK3KkOV0RgarCNE7HKlNvwLAEn5pda3
 
-!procedure WrapText($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Editor/WrapText', $name, $tech)
+!procedure WrapText($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/WrapText', $name, $tech, $desc)
 !endprocedure

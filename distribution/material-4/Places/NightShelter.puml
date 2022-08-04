@@ -8,6 +8,6 @@ sprite $NightShelterMd [16x16/16z] ZSU50G0n20J1k0BNVxNlhja8Z6eidcG1FZ1XpAvapAMPs
 
 sprite $NightShelterLg [20x20/16z] hSk35KKn00FGr6xsd_RpsRh70PuGg34c-14mPFYJHx-MQd-5FTyUXxhCBMHWhL9AFyeS0ZxoC4ie-0Z3x7ESPVo9moppfzP1De0VNOTmt1i
 
-!procedure NightShelter($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Places/NightShelter', $name, $tech)
+!procedure NightShelter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/NightShelter', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/Subtitles')
 
 ' renders the element
-Subtitles('Subtitles', 'Subtitles', 'an optional tech label')
+Subtitles('Subtitles', 'Subtitles', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/Subtitles')
 
 ' renders the element
-Subtitles('Subtitles', 'Subtitles', 'an optional tech label')
+Subtitles('Subtitles', 'Subtitles', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

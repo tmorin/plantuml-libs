@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalPlay')
 
 ' renders the element
-LocalPlay('LocalPlay', 'Local Play', 'an optional tech label')
+LocalPlay('LocalPlay', 'Local Play', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalPlay')
 
 ' renders the element
-LocalPlay('LocalPlay', 'Local Play', 'an optional tech label')
+LocalPlay('LocalPlay', 'Local Play', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

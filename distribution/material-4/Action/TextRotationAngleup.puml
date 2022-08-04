@@ -8,6 +8,6 @@ sprite $TextRotationAngleupMd [16x16/16z] bKt50S1020ldIlQVjgwVoYaGm__LtRrdOvOhxg
 
 sprite $TextRotationAngleupLg [20x20/16z] hSh50SH034DHsGuE_VwhNMQ6l9j0oqiaqus9GXrqnGWhaA_EBKiZK7KMQ21h31KOZiTArfQVk_bSbMFdJ8Sgv3fex2lJMVI7rvNpw-p1oy1rQmXzRGq
 
-!procedure TextRotationAngleup($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/TextRotationAngleup', $name, $tech)
+!procedure TextRotationAngleup($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/TextRotationAngleup', $name, $tech, $desc)
 !endprocedure

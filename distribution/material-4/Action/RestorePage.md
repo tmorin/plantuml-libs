@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/RestorePage')
 
 ' renders the element
-RestorePage('RestorePage', 'Restore Page', 'an optional tech label')
+RestorePage('RestorePage', 'Restore Page', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/RestorePage')
 
 ' renders the element
-RestorePage('RestorePage', 'Restore Page', 'an optional tech label')
+RestorePage('RestorePage', 'Restore Page', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

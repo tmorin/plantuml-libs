@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/PinDrop')
 
 ' renders the element
-PinDrop('PinDrop', 'Pin Drop', 'an optional tech label')
+PinDrop('PinDrop', 'Pin Drop', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/PinDrop')
 
 ' renders the element
-PinDrop('PinDrop', 'Pin Drop', 'an optional tech label')
+PinDrop('PinDrop', 'Pin Drop', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,6 +8,6 @@ sprite $SignalCellularOffMd [16x16/16z] VSj50i0W44DHOEf8xd_QIfgwpEvzYFix7wu4tOe1
 
 sprite $SignalCellularOffLg [20x20/16z] ZSo53S1G30FH_39d_sbBlZ9Q_7Io_LbsfRAxKE6ogDagnpAlrseoiA72AAasitGiWnzCPNmoQoWnxbLYaAkKGPHO9L7P7YgLuK2Ku_BkiB6yBFNiYh7P
 
-!procedure SignalCellularOff($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Device/SignalCellularOff', $name, $tech)
+!procedure SignalCellularOff($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Device/SignalCellularOff', $name, $tech, $desc)
 !endprocedure

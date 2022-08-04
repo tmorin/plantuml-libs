@@ -6,8 +6,8 @@ sprite $SnippetFolderSm [12x12/16z] Oy09U7XusA5CNduWu042RX0R1fYWR0O6FZYRYPy1XOrG
 
 sprite $SnippetFolderMd [16x16/16z] bSt50S0W44JHYNlelrhSdO--qs8u8ZeiPo9xHS-gx7AUvpCmFfo1nQxv-m8lFE4fceVhTQrenG
 
-sprite $SnippetFolderLg [20x20/16z] fSYr0G0X50MmXpliF-svO1K_PK0ZrGcrSZEJA_7ctglP-dBEvH3hOm0VBcJ8_c8fM3t6UN_U7QghU02sEv3i
+sprite $SnippetFolderLg [20x20/16z] fSYr0G0X50MmXpliF-svO1K_PK0ZrK6YLcvcSYNUt7irMr_EkHnYVGpWmuK4sLyi1Ql7EE_FdQgh-EDiTo3P0G
 
-!procedure SnippetFolder($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/File/SnippetFolder', $name, $tech)
+!procedure SnippetFolder($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/File/SnippetFolder', $name, $tech, $desc)
 !endprocedure

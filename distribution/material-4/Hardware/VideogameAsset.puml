@@ -2,12 +2,12 @@
 
 sprite $VideogameAssetXs [10x10/16z] Oy0F-6600OZ0D122n3dv-Q1Yh21HX3ei
 
-sprite $VideogameAssetSm [12x12/16z] Oo06SF3000i3FpyRBpy40DaiF206K1G8WO2VZmCXpiu8OKEKWzXCB320qoe
+sprite $VideogameAssetSm [12x12/16z] Oo06SF3000i3FpyRBpy40DaiF206K1G8WO2VZmCXpiu8OKEKWzXCBCpCB430p8pJAW
 
-sprite $VideogameAssetMd [16x16/16z] fSgr0O0044FHu9hx-q-BQuUyBgA_ygu_TH9Wi-ldd6ThS8v5E4lNHovFETCadL8G-FY7ShXap9fl6Yc_oFJM2
+sprite $VideogameAssetMd [16x16/16z] fSe53WKX40FGXi6Xq_kVzkjQVEL5AtWgZhaRW2HIg_dDqVw1KOIS5lwF27wouIDyail5xU-8qY6BMl9H0sAq-6VHSDKR
 
-sprite $VideogameAssetLg [20x20/16z] lSp50GH0349Hndr-_zMkQwuhxvW0-WVNvvjHfOMLj84exZOKSyjAbrifJgNCsorURhgeqEAZktVGte3KmUmbn_DM4o-AEfQNGdpdz6r7
+sprite $VideogameAssetLg [20x20/16z] lOn50WKn34AfUxd_QSUdjltogaa0_0CHyqJoGE6AGJrkZTOuIhVqBCpLSqx0kVpqzDN3XIU3RjvQ5UeP0KHooJE2lUSD1nmYLoIWj5RNEZXVWM-p0m
 
-!procedure VideogameAsset($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Hardware/VideogameAsset', $name, $tech)
+!procedure VideogameAsset($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Hardware/VideogameAsset', $name, $tech, $desc)
 !endprocedure

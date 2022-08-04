@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Edit')
 
 ' renders the element
-Edit('Edit', 'Edit', 'an optional tech label')
+Edit('Edit', 'Edit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Edit')
 
 ' renders the element
-Edit('Edit', 'Edit', 'an optional tech label')
+Edit('Edit', 'Edit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

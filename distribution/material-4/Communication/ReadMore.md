@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/ReadMore')
 
 ' renders the element
-ReadMore('ReadMore', 'Read More', 'an optional tech label')
+ReadMore('ReadMore', 'Read More', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/ReadMore')
 
 ' renders the element
-ReadMore('ReadMore', 'Read More', 'an optional tech label')
+ReadMore('ReadMore', 'Read More', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

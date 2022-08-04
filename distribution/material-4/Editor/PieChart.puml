@@ -2,7 +2,7 @@
 
 sprite $PieChartXs [10x10/16z] LOh50G0X40Fd13v8-gyMrzKOLudOlfUGFa0DgO66J4Ujuj2-8yVN4AqiFv01
 
-sprite $PieChartSm [12x12/16z] NOh50K0X04BvQSl-qzhzk50uKVYRSoH8sMpsp1ER9o27ls2Bh_pB1wkNpT_v9RBFjd0b9I8
+sprite $PieChartSm [12x12/16z] NOe50e0W54Ddjxl_RUbVJu4L8XVshZuIvDbbqImLksRUYfxmLjtOpGPMdrtFo1nPTvcPyfT9
 
 sprite $PieChartMd [16x16/16z] RSV50GGX04MnDwxm-wzs1RVSmjZ4LCJ889sXY-GkYwDu6O0tNokWuXQcSEF071vDuNA0yYzm5fy0RFg5OyD3ORM_lpC3Nm
 
@@ -11,6 +11,6 @@ bSu53iKm38DXZzc-_saVHBCqNlkBlqA2l0Pr8EkDzDBV95QcMJPfnLuRKnccdStn_TxaQrjhjjPsKRqr
 KEE-Bm
 }
 
-!procedure PieChart($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Editor/PieChart', $name, $tech)
+!procedure PieChart($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/PieChart', $name, $tech, $desc)
 !endprocedure

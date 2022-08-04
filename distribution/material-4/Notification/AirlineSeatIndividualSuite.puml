@@ -6,8 +6,8 @@ sprite $AirlineSeatIndividualSuiteSm [12x12/16z] Oo0Ly3FnypFmWm0J0pyFa0GnGK8CG0B
 
 sprite $AirlineSeatIndividualSuiteMd [16x16/16z] hSgr0G0X00J1TmMs_sfnJs6oasKszXts3Uzn6IjczYuBcu_oHouSctMKNFWi6jyoo
 
-sprite $AirlineSeatIndividualSuiteLg [20x20/16z] nOor4S1040FrJ0VzLsjcIEsDD2ByXIYiQ43McJnvPfHszPH7BuogRPwwmREZYBkN1c-y8bmy68EBT-75YpSSFg07
+sprite $AirlineSeatIndividualSuiteLg [20x20/16z] nOor4S1040FrJ0VzLsjcIEsDD2ByXIYiQ43McJnvPfHkzPH7BuogRPwwmREZYBkN1c-y8bmy68EBT-75YpSSFg07
 
-!procedure AirlineSeatIndividualSuite($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Notification/AirlineSeatIndividualSuite', $name, $tech)
+!procedure AirlineSeatIndividualSuite($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Notification/AirlineSeatIndividualSuite', $name, $tech, $desc)
 !endprocedure

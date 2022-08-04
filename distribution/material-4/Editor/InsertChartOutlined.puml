@@ -8,6 +8,6 @@ sprite $InsertChartOutlinedMd [16x16/16z] ZSU54S0m0090wWR7_jFMtP8_VGHbrAQRRd7ZRd
 
 sprite $InsertChartOutlinedLg [20x20/16z] fSYr0GGn00CmXpdUVzg7OqQLmYkIC-L_cNOYiZrCcEbvYlDJSdsijwxQzV7ih86oW9NZJRGNMIT8_ANf5OVBlW
 
-!procedure InsertChartOutlined($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Editor/InsertChartOutlined', $name, $tech)
+!procedure InsertChartOutlined($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/InsertChartOutlined', $name, $tech, $desc)
 !endprocedure

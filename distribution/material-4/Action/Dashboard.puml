@@ -8,6 +8,6 @@ sprite $DashboardMd [16x16/16z] Oo08k7Y1W9k15mIOW7nUVY3WPU070HBuJ230WCx7K0y3K3xS
 
 sprite $DashboardLg [20x20/16z] Ow0Cy8C1EmCVcEQZcXWF7mZm88jXjPUT0mJOSPh720OCS344W8lHn1zyOC06zmVH
 
-!procedure Dashboard($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/Dashboard', $name, $tech)
+!procedure Dashboard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Dashboard', $name, $tech, $desc)
 !endprocedure

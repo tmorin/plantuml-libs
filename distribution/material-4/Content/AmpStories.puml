@@ -8,6 +8,6 @@ sprite $AmpStoriesMd [16x16/16z] Oo07y8C13uJ3oGddyp01-RmyS3u_BVXSoFQXkeSC
 
 sprite $AmpStoriesLg [20x20/16z] Ow0Oi4814v8OFnImmGHuM974UBWWYjYGnFZv1fqO6nEI61ihfjze0G
 
-!procedure AmpStories($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Content/AmpStories', $name, $tech)
+!procedure AmpStories($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/AmpStories', $name, $tech, $desc)
 !endprocedure

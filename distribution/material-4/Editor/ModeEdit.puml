@@ -8,6 +8,6 @@ sprite $ModeEditMd [16x16/16z] ZOl50O100CE2Ezb_MrxuMNzj4yhJ3E-guxEoQNtLrfLjULHTU
 
 sprite $ModeEditLg [20x20/16z] hOmd4i10009Xa5Vu_s-3FIOcPHqLVq5ljkTmcgJYpMg1jeulUrEghu1gXPkM_csr9xJN5lPUmXik
 
-!procedure ModeEdit($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Editor/ModeEdit', $name, $tech)
+!procedure ModeEdit($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/ModeEdit', $name, $tech, $desc)
 !endprocedure

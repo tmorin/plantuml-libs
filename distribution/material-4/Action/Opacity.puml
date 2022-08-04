@@ -1,13 +1,13 @@
 ' definition of the Item material-4/Action/Opacity
 
-sprite $OpacityXs [10x10/16z] Oq05x306Fpy7X06a8KmkBX0FB0IH064m0B7um0nc1gWW7zGOi
+sprite $OpacityXs [10x10/16z] Oq05x306Fpy7X06a8KnEBX0FB0IH064m0B7um0nc1gWW7zGOi
 
 sprite $OpacitySm [12x12/16z] Oy00Z0Wc9pyJWid0pmnZ0XM1P40KWkHa1yloWIHuUC40h8E57mB0iX0c3mD4AP39ZMOx
 
 sprite $OpacityMd [16x16/16z] ZOxL0K0X00AnM_QVzdMdzmUSWJOaJr6HzHGpM4yHOY_6E1PbZedhdNAU7MPgcBEHCpdFUMFUmvObJaBUFhl76LkO5Pxe0G
 
-sprite $OpacityLg [20x20/16z] bP253KCn34JzENpxJrkkiVX4aO-aqDySyJIG_0aNKdHrUxnxj9CT0pnKKEwF2U1aVxwMfxf8WiR3k67bMtlSLcYuMUXS8YmKZ8sRkN6GC3Vm9-ZpCj47pW
+sprite $OpacityLg [20x20/16z] bP253KCn34JzENpxJrkkiVX4aO-aqDySyJIG_0aNKdHrUxnxj9CT0poKKUwF2U1aVxwMfxf8WiR3k67bMtlSLcYuMUXS8YmKZ8sRkN6GC3Vm9-ZpCj47pW
 
-!procedure Opacity($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/Opacity', $name, $tech)
+!procedure Opacity($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Opacity', $name, $tech, $desc)
 !endprocedure

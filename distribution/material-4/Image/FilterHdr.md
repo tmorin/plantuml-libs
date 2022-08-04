@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/FilterHdr')
 
 ' renders the element
-FilterHdr('FilterHdr', 'Filter Hdr', 'an optional tech label')
+FilterHdr('FilterHdr', 'Filter Hdr', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/FilterHdr')
 
 ' renders the element
-FilterHdr('FilterHdr', 'Filter Hdr', 'an optional tech label')
+FilterHdr('FilterHdr', 'Filter Hdr', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

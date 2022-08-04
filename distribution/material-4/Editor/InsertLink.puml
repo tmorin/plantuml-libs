@@ -8,6 +8,6 @@ sprite $InsertLinkMd [16x16/16z] hSY50SCm34JHRsRV_jisCKpGFB7uNfKqUDeCF8QSjGPhRTJ
 
 sprite $InsertLinkLg [20x20/16z] nSx50GCm30D0XJdQVzjQBctGtYDemX_rIx91wubmXtVlNR1irPzPJFWwrCgbT5TqxLg65ZVV8Jos16U7I0KNRdma4jB9pooy4K-brffGVVsH1m
 
-!procedure InsertLink($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Editor/InsertLink', $name, $tech)
+!procedure InsertLink($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/InsertLink', $name, $tech, $desc)
 !endprocedure

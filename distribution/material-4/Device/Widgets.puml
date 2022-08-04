@@ -8,6 +8,6 @@ sprite $WidgetsMd [16x16/16z] hOpL0G0n348vzsF_QUikVttL903wBFQvFyK3N3nC_L7ngP8yOd
 
 sprite $WidgetsLg [20x20/16z] jOt50KH124DP7OV-grr1nYxVtmLD0di8P1qnxhyYd7Q1wx2BKh7R5LAm-tDIy-3dcXGSym1mzjNZq3fatb2uZdx85I_PMMwstBLy0G
 
-!procedure Widgets($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Device/Widgets', $name, $tech)
+!procedure Widgets($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Device/Widgets', $name, $tech, $desc)
 !endprocedure

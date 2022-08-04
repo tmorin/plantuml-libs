@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/ImageAspectRatio')
 
 ' renders the element
-ImageAspectRatio('ImageAspectRatio', 'Image Aspect Ratio', 'an optional tech label')
+ImageAspectRatio('ImageAspectRatio', 'Image Aspect Ratio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/ImageAspectRatio')
 
 ' renders the element
-ImageAspectRatio('ImageAspectRatio', 'Image Aspect Ratio', 'an optional tech label')
+ImageAspectRatio('ImageAspectRatio', 'Image Aspect Ratio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

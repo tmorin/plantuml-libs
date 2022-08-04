@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Grade')
 
 ' renders the element
-Grade('Grade', 'Grade', 'an optional tech label')
+Grade('Grade', 'Grade', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Grade')
 
 ' renders the element
-Grade('Grade', 'Grade', 'an optional tech label')
+Grade('Grade', 'Grade', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

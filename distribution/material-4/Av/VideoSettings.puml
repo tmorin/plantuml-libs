@@ -2,15 +2,15 @@
 
 sprite $VideoSettingsXs [10x10/16z] Oy06-660WHyg0cRnCy9P_EnWKJ1YvcU1gEC0oe7rCl7p0zbmhG
 
-sprite $VideoSettingsSm [12x12/16z] TSR50O0m0C30u4xsdnPtsdiTCNL_oZ0_YPpssppkm69_0dO9iYeT5Vj5WkIIPWio5vnic04
+sprite $VideoSettingsSm [12x12/16z] TSQr0SG04C0m7po3zvys35LKYIlFxwwmgtfI9R9Rx-ky_fYi3_0JoEpkN_4x2QGbQq8vOUUB4G
 
-sprite $VideoSettingsMd [16x16/16z] bSor0KCn40JH-OowwRzQioZqomvs-TTbQy9rhbB2YIhFwQ2VTVYKNMMMZpoVWERv7Y128sg_xhlY_J6m2-xCUTO8fJWMNNOQzmrF
+sprite $VideoSettingsMd [16x16/16z] bSor0SD050JHaNHCqt-rPixyiW-x_AlxwS0KZd1tX3dnuEqvp_epwtOhwwzPRfvp0_GvZmtMqhNU_LgAuhZPA8A5y9oltyfBZHeB7yQ0Cm
 
 sprite $VideoSettingsLg [20x20/16z] {
-fOz50WGn2C2OkkV_lrt6zRQffmRo5yxVCIA59qO6xeOdgfCRvd1JUZi3quSZhpBQYzC3AwSRHiUk_UdISWsIs-zEHhlAmhZ6by0AD7LjPH81FQpUdsa2DS4j
-iS12aJlWv4c8slq
+fO_L0O0m50DJV-ZjFotkyCUXZLJqYvZkUAdcYLTFZ66vPa9Cb4dJ3NzepjwQ1_UXKQrY2HUDefLJw_pqxNf_qMofWSMzwsQxOQ6_xiyW2Df9QrUS15DuqjDv
+JA0nG1So2xNkGDIJFEzx1
 }
 
-!procedure VideoSettings($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Av/VideoSettings', $name, $tech)
+!procedure VideoSettings($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/VideoSettings', $name, $tech, $desc)
 !endprocedure

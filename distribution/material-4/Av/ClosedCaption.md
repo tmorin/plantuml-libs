@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/ClosedCaption')
 
 ' renders the element
-ClosedCaption('ClosedCaption', 'Closed Caption', 'an optional tech label')
+ClosedCaption('ClosedCaption', 'Closed Caption', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/ClosedCaption')
 
 ' renders the element
-ClosedCaption('ClosedCaption', 'Closed Caption', 'an optional tech label')
+ClosedCaption('ClosedCaption', 'Closed Caption', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

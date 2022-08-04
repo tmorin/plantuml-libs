@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/PanoramaHorizontalSelect')
 
 ' renders the element
-PanoramaHorizontalSelect('PanoramaHorizontalSelect', 'Panorama Horizontal Select', 'an optional tech label')
+PanoramaHorizontalSelect('PanoramaHorizontalSelect', 'Panorama Horizontal Select', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/PanoramaHorizontalSelect')
 
 ' renders the element
-PanoramaHorizontalSelect('PanoramaHorizontalSelect', 'Panorama Horizontal Select', 'an optional tech label')
+PanoramaHorizontalSelect('PanoramaHorizontalSelect', 'Panorama Horizontal Select', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

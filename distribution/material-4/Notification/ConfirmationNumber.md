@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/ConfirmationNumber')
 
 ' renders the element
-ConfirmationNumber('ConfirmationNumber', 'Confirmation Number', 'an optional tech label')
+ConfirmationNumber('ConfirmationNumber', 'Confirmation Number', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/ConfirmationNumber')
 
 ' renders the element
-ConfirmationNumber('ConfirmationNumber', 'Confirmation Number', 'an optional tech label')
+ConfirmationNumber('ConfirmationNumber', 'Confirmation Number', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

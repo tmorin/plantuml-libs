@@ -8,6 +8,6 @@ sprite $ForwardMd [16x16/16z] Oo0JyA3n-NZXJ6OGuEE72_130I-CZoR03mVig7mEL7aE5FiWN0
 
 sprite $ForwardLg [20x20/16z] hSur0e00581GxDRxdzPkri_u9WWfmGsfRPnIR2yifhjKTkDjDye6Muziv2nhzrRg_JSYwr4T4Iq
 
-!procedure Forward($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Content/Forward', $name, $tech)
+!procedure Forward($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/Forward', $name, $tech, $desc)
 !endprocedure

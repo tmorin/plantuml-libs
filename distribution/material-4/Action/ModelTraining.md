@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/ModelTraining')
 
 ' renders the element
-ModelTraining('ModelTraining', 'Model Training', 'an optional tech label')
+ModelTraining('ModelTraining', 'Model Training', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/ModelTraining')
 
 ' renders the element
-ModelTraining('ModelTraining', 'Model Training', 'an optional tech label')
+ModelTraining('ModelTraining', 'Model Training', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

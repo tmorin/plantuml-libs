@@ -4,10 +4,10 @@ sprite $AirlineSeatReclineNormalXs [10x10/16z] Oq06hFmm5ZUCnS_81sC10Pp5oCy6OI7K0
 
 sprite $AirlineSeatReclineNormalSm [12x12/16z] ROh50S0W5CM-rINxJrjN8ASdaOJMtmnljYUD0T-ClbcXx50VsH6Fk4hDXg3oPGK
 
-sprite $AirlineSeatReclineNormalMd [16x16/16z] ROg55G0X3CLmvsN_QSy52z9-4KjaBo7qcYWwT9UQIEeq47eDLNPQGcdrCMMhQtLVtoPENYCZbJ76VqRbHF-6L0T2tB9d1m
+sprite $AirlineSeatReclineNormalMd [16x16/16z] ROg55G0X3CLmvsN_QSy52z9-4KjaBo7qcYWwT9UQIEeq47eDLNLQGcdrCMMhQtLVtoPENYCZbJ76VqRbHF-6L0T2tB9d1m
 
-sprite $AirlineSeatReclineNormalLg [20x20/16z] bS_L0SKm34DHkOow-q_x68l9-JHRMMhG4j0iOoCKMYfZEQmAEvOn0x68mJkuY37MyHzp69f5J2gQSXLRx_txfQGDdcgzGQcokl6tik15FvNHpxwJt2dT5G
+sprite $AirlineSeatReclineNormalLg [20x20/16z] bO_50GCm30EjS0gw_QSjC_UU1a7yHOMd6T0UPqj8yKZMerYHhSUP0JtCu3gycx6ikfzPXlOmYqWjFysUVU-wPBeuKc_QPkLSIl7rCd4YRYurrzuJuH6_imK
 
-!procedure AirlineSeatReclineNormal($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Notification/AirlineSeatReclineNormal', $name, $tech)
+!procedure AirlineSeatReclineNormal($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Notification/AirlineSeatReclineNormal', $name, $tech, $desc)
 !endprocedure

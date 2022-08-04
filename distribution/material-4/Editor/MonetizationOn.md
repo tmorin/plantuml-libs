@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/MonetizationOn')
 
 ' renders the element
-MonetizationOn('MonetizationOn', 'Monetization On', 'an optional tech label')
+MonetizationOn('MonetizationOn', 'Monetization On', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/MonetizationOn')
 
 ' renders the element
-MonetizationOn('MonetizationOn', 'Monetization On', 'an optional tech label')
+MonetizationOn('MonetizationOn', 'Monetization On', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

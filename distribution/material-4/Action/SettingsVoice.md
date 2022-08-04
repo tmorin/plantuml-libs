@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/SettingsVoice')
 
 ' renders the element
-SettingsVoice('SettingsVoice', 'Settings Voice', 'an optional tech label')
+SettingsVoice('SettingsVoice', 'Settings Voice', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/SettingsVoice')
 
 ' renders the element
-SettingsVoice('SettingsVoice', 'Settings Voice', 'an optional tech label')
+SettingsVoice('SettingsVoice', 'Settings Voice', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

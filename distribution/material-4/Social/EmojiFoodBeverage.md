@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/EmojiFoodBeverage')
 
 ' renders the element
-EmojiFoodBeverage('EmojiFoodBeverage', 'Emoji Food Beverage', 'an optional tech label')
+EmojiFoodBeverage('EmojiFoodBeverage', 'Emoji Food Beverage', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/EmojiFoodBeverage')
 
 ' renders the element
-EmojiFoodBeverage('EmojiFoodBeverage', 'Emoji Food Beverage', 'an optional tech label')
+EmojiFoodBeverage('EmojiFoodBeverage', 'Emoji Food Beverage', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

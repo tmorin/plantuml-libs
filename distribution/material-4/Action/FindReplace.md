@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/FindReplace')
 
 ' renders the element
-FindReplace('FindReplace', 'Find Replace', 'an optional tech label')
+FindReplace('FindReplace', 'Find Replace', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/FindReplace')
 
 ' renders the element
-FindReplace('FindReplace', 'Find Replace', 'an optional tech label')
+FindReplace('FindReplace', 'Find Replace', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

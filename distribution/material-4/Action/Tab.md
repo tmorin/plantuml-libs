@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Tab')
 
 ' renders the element
-Tab('Tab', 'Tab', 'an optional tech label')
+Tab('Tab', 'Tab', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Tab')
 
 ' renders the element
-Tab('Tab', 'Tab', 'an optional tech label')
+Tab('Tab', 'Tab', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

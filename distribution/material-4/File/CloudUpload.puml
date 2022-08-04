@@ -8,6 +8,6 @@ sprite $CloudUploadMd [16x16/16z] dOp50GGn30CTvgZ_QWz2opWlMqIl203q-3WAgRqC3L_USb
 
 sprite $CloudUploadLg [20x20/16z] hSs53KCn30JG-npqxRzjPIeBsoT8pFY3PTlNjzIWEl6mClH7JfXAREfKmvkXTfeP6mxDqOp7segINKz9eHBHYnAtX8zXXkjBBZzIQyqlDhxR0NG-cmj-SGC
 
-!procedure CloudUpload($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/File/CloudUpload', $name, $tech)
+!procedure CloudUpload($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/File/CloudUpload', $name, $tech, $desc)
 !endprocedure

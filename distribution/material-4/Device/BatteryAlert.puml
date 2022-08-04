@@ -8,6 +8,6 @@ sprite $BatteryAlertMd [16x16/16z] Oy0Ec9WOKVZy_Bn8F3v-4E10o8813nu-7nE4Zp2D09y9t
 
 sprite $BatteryAlertLg [20x20/16z] Oo0HCFFpywEACBAo0yLOMP35-A605OiO6s4nFZvCCNO6FWh52DlBoqMSlRmy87La-8sP1mouSOSl
 
-!procedure BatteryAlert($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Device/BatteryAlert', $name, $tech)
+!procedure BatteryAlert($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Device/BatteryAlert', $name, $tech, $desc)
 !endprocedure

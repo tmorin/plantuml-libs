@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/MarkEmailUnread')
 
 ' renders the element
-MarkEmailUnread('MarkEmailUnread', 'Mark Email Unread', 'an optional tech label')
+MarkEmailUnread('MarkEmailUnread', 'Mark Email Unread', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/MarkEmailUnread')
 
 ' renders the element
-MarkEmailUnread('MarkEmailUnread', 'Mark Email Unread', 'an optional tech label')
+MarkEmailUnread('MarkEmailUnread', 'Mark Email Unread', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

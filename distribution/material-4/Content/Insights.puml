@@ -2,15 +2,15 @@
 
 sprite $InsightsXs [10x10/16z] Oy09-35O_20C8ZZv-HYOG0mkFY0RBCmB8XZ1YZ
 
-sprite $InsightsSm [12x12/16z] Oy0Fc96O_FmWYfCRH3826SnWBbYG7qho0Gbs80j4yl61cHnWaXz96HC3dCG4
+sprite $InsightsSm [12x12/16z] VKg30S0m0ClivVzhQxkDCJvB8abDvwDn0YxJNTH8Xx-20p3u_qQU1fdCPWIiZmG
 
-sprite $InsightsMd [16x16/16z] bOx50SCm34LDvKfl_sdDU4kCeW_cyl9dQdK4hGl_blzi-oLVr_FFfvQKTvrtK8OijBg0bbHjJwr5769QMeT16pqrDGCBlyDV-9ixAm4
+sprite $InsightsMd [16x16/16z] bKxL0KCX4Cip7BB_jBZ-jUT-mS_qdEaLHj2wf6kvHIEVzIvv7j2wbW9LdR_9gsoIhUx9KD9mzVG2_KsFcG9aQEVRBiOkQGzyhyC_b
 
 sprite $InsightsLg [20x20/16z] {
 hOx50GGX34N7SLx_rQB9wXMFVTaMBRl_bNRyEvxVcNWNZGRS4fmX6na-sxt9lVgq6yWo2otNSD1Um35B3iRW0UUcfRXROflIeSsJPHRnTRMf4MHuT8YaaOvb
 tbQb92QNhGe
 }
 
-!procedure Insights($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Content/Insights', $name, $tech)
+!procedure Insights($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/Insights', $name, $tech, $desc)
 !endprocedure

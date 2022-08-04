@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Places/Tty')
 
 ' renders the element
-Tty('Tty', 'Tty', 'an optional tech label')
+Tty('Tty', 'Tty', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Places/Tty')
 
 ' renders the element
-Tty('Tty', 'Tty', 'an optional tech label')
+Tty('Tty', 'Tty', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/PermPhoneMsg')
 
 ' renders the element
-PermPhoneMsg('PermPhoneMsg', 'Perm Phone Msg', 'an optional tech label')
+PermPhoneMsg('PermPhoneMsg', 'Perm Phone Msg', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/PermPhoneMsg')
 
 ' renders the element
-PermPhoneMsg('PermPhoneMsg', 'Perm Phone Msg', 'an optional tech label')
+PermPhoneMsg('PermPhoneMsg', 'Perm Phone Msg', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

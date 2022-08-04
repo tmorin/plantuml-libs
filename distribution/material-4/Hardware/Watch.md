@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/Watch')
 
 ' renders the element
-Watch('Watch', 'Watch', 'an optional tech label')
+Watch('Watch', 'Watch', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/Watch')
 
 ' renders the element
-Watch('Watch', 'Watch', 'an optional tech label')
+Watch('Watch', 'Watch', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

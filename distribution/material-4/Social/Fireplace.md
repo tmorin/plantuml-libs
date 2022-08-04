@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/Fireplace')
 
 ' renders the element
-Fireplace('Fireplace', 'Fireplace', 'an optional tech label')
+Fireplace('Fireplace', 'Fireplace', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/Fireplace')
 
 ' renders the element
-Fireplace('Fireplace', 'Fireplace', 'an optional tech label')
+Fireplace('Fireplace', 'Fireplace', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

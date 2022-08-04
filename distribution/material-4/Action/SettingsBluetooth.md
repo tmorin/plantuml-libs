@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/SettingsBluetooth')
 
 ' renders the element
-SettingsBluetooth('SettingsBluetooth', 'Settings Bluetooth', 'an optional tech label')
+SettingsBluetooth('SettingsBluetooth', 'Settings Bluetooth', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/SettingsBluetooth')
 
 ' renders the element
-SettingsBluetooth('SettingsBluetooth', 'Settings Bluetooth', 'an optional tech label')
+SettingsBluetooth('SettingsBluetooth', 'Settings Bluetooth', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

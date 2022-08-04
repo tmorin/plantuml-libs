@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/Icecream')
 
 ' renders the element
-Icecream('Icecream', 'Icecream', 'an optional tech label')
+Icecream('Icecream', 'Icecream', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/Icecream')
 
 ' renders the element
-Icecream('Icecream', 'Icecream', 'an optional tech label')
+Icecream('Icecream', 'Icecream', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

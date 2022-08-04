@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Content/Forward')
 
 ' renders the element
-Forward('Forward', 'Forward', 'an optional tech label')
+Forward('Forward', 'Forward', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Content/Forward')
 
 ' renders the element
-Forward('Forward', 'Forward', 'an optional tech label')
+Forward('Forward', 'Forward', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

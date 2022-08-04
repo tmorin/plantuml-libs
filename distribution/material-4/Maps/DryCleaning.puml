@@ -6,8 +6,8 @@ sprite $DryCleaningSm [12x12/16z] POk30G0n5CNEgBB_jBMRRxnjvf2jvwRrOcjGl-57nnPsdw
 
 sprite $DryCleaningMd [16x16/16z] bOr50e1G20Nvs8hC_KzhTpixU2KtXDsbmFOs5ziwCahPaNCuyNYvAiY2GJPSCOnICMvOhGoOejFsXCl8f4_NxtjB2m
 
-sprite $DryCleaningLg [20x20/16z] hSt50GGn40D1cTcTVxJ7pB3r6vI-PA7h1dIghXYIOjGrgBfbmEY6xMHTSHEuEeyJYfKVq9ns1gJ3qmxxS9hcGRICVUzAsKVMoa6lIKSSH6cHNZy8UcOD
+sprite $DryCleaningLg [20x20/16z] hSt50GGn40D1cTcTVxJ7pB3r6vI-PA7h1dIghXYIOjGrgBfbmEY6xMHTSHEuEeyJYfKVq9ns9gJ3qmxxS9hcGRICVUzAsKVMoa6lIKSSH6cHNZy8UcOD
 
-!procedure DryCleaning($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/DryCleaning', $name, $tech)
+!procedure DryCleaning($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/DryCleaning', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/ChromeReaderMode')
 
 ' renders the element
-ChromeReaderMode('ChromeReaderMode', 'Chrome Reader Mode', 'an optional tech label')
+ChromeReaderMode('ChromeReaderMode', 'Chrome Reader Mode', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/ChromeReaderMode')
 
 ' renders the element
-ChromeReaderMode('ChromeReaderMode', 'Chrome Reader Mode', 'an optional tech label')
+ChromeReaderMode('ChromeReaderMode', 'Chrome Reader Mode', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/FlashOff')
 
 ' renders the element
-FlashOff('FlashOff', 'Flash Off', 'an optional tech label')
+FlashOff('FlashOff', 'Flash Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/FlashOff')
 
 ' renders the element
-FlashOff('FlashOff', 'Flash Off', 'an optional tech label')
+FlashOff('FlashOff', 'Flash Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

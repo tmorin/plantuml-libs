@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/BikeScooter')
 
 ' renders the element
-BikeScooter('BikeScooter', 'Bike Scooter', 'an optional tech label')
+BikeScooter('BikeScooter', 'Bike Scooter', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/BikeScooter')
 
 ' renders the element
-BikeScooter('BikeScooter', 'Bike Scooter', 'an optional tech label')
+BikeScooter('BikeScooter', 'Bike Scooter', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

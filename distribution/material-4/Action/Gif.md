@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Gif')
 
 ' renders the element
-Gif('Gif', 'Gif', 'an optional tech label')
+Gif('Gif', 'Gif', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Gif')
 
 ' renders the element
-Gif('Gif', 'Gif', 'an optional tech label')
+Gif('Gif', 'Gif', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

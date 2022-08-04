@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/FormatIndentDecrease')
 
 ' renders the element
-FormatIndentDecrease('FormatIndentDecrease', 'Format Indent Decrease', 'an optional tech label')
+FormatIndentDecrease('FormatIndentDecrease', 'Format Indent Decrease', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/FormatIndentDecrease')
 
 ' renders the element
-FormatIndentDecrease('FormatIndentDecrease', 'Format Indent Decrease', 'an optional tech label')
+FormatIndentDecrease('FormatIndentDecrease', 'Format Indent Decrease', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

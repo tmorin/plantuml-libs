@@ -8,6 +8,6 @@ sprite $BrokenImageMd [16x16/16z] ZSs50GCn30J1YvdTVxVPC3oE6IJfMEqlIMZpmt3k1-V6cZ
 
 sprite $BrokenImageLg [20x20/16z] fOw50K0X20MVtR3_jB-xu-nJ0VoZy1BRELvH3XnTkzYRl701fbqaKkz4gz1A3S2ZnpTUmqWOGa_pI53to3AJw1n7mIrQNzJtsUNEkK8pHU8nDG
 
-!procedure BrokenImage($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/BrokenImage', $name, $tech)
+!procedure BrokenImage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/BrokenImage', $name, $tech, $desc)
 !endprocedure

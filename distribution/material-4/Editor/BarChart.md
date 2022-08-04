@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/BarChart')
 
 ' renders the element
-BarChart('BarChart', 'Bar Chart', 'an optional tech label')
+BarChart('BarChart', 'Bar Chart', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/BarChart')
 
 ' renders the element
-BarChart('BarChart', 'Bar Chart', 'an optional tech label')
+BarChart('BarChart', 'Bar Chart', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

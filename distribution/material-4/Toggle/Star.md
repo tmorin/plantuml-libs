@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Toggle/Star')
 
 ' renders the element
-Star('Star', 'Star', 'an optional tech label')
+Star('Star', 'Star', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Toggle/Star')
 
 ' renders the element
-Star('Star', 'Star', 'an optional tech label')
+Star('Star', 'Star', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

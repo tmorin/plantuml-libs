@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/FormatAlignJustify')
 
 ' renders the element
-FormatAlignJustify('FormatAlignJustify', 'Format Align Justify', 'an optional tech label')
+FormatAlignJustify('FormatAlignJustify', 'Format Align Justify', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/FormatAlignJustify')
 
 ' renders the element
-FormatAlignJustify('FormatAlignJustify', 'Format Align Justify', 'an optional tech label')
+FormatAlignJustify('FormatAlignJustify', 'Format Align Justify', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

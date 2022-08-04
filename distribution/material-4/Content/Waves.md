@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Content/Waves')
 
 ' renders the element
-Waves('Waves', 'Waves', 'an optional tech label')
+Waves('Waves', 'Waves', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Content/Waves')
 
 ' renders the element
-Waves('Waves', 'Waves', 'an optional tech label')
+Waves('Waves', 'Waves', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

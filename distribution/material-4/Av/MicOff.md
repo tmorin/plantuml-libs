@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/MicOff')
 
 ' renders the element
-MicOff('MicOff', 'Mic Off', 'an optional tech label')
+MicOff('MicOff', 'Mic Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/MicOff')
 
 ' renders the element
-MicOff('MicOff', 'Mic Off', 'an optional tech label')
+MicOff('MicOff', 'Mic Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

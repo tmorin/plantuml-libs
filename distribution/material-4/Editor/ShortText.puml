@@ -8,6 +8,6 @@ sprite $ShortTextMd [16x16/16z] Ow0zu8K3BWm-Di0F1hnmFZCOCD76SG
 
 sprite $ShortTextLg [20x20/16z] OnXaW0aPG8HO-P41L1axCi1j70iV581vQEOn348
 
-!procedure ShortText($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Editor/ShortText', $name, $tech)
+!procedure ShortText($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/ShortText', $name, $tech, $desc)
 !endprocedure

@@ -8,6 +8,6 @@ sprite $NavigationMd [16x16/16z] ZOor0S0m0CFAtEZ_QyFaBTgCqo2_oXtLSFLo1Ybym29rw1v
 
 sprite $NavigationLg [20x20/16z] bSxL0KKX3C1Gt27xJ_lakai-3zAAr_azMVPMC3k3igK4xAz1t4vWTx5sPfSawQfBo_J9pOH_QIR7s6njCZUI0iYkBgUKOLrLvobvVf6qUDuN
 
-!procedure Navigation($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/Navigation', $name, $tech)
+!procedure Navigation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/Navigation', $name, $tech, $desc)
 !endprocedure

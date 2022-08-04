@@ -7,10 +7,10 @@ sprite $AlbumSm [12x12/16z] NOl50G0W54AnM_QVrkBcCtu0-CajGWnUabeHJd-AHJm_a6yBLDAW
 sprite $AlbumMd [16x16/16z] ROu53a0n24FXp_t-j_qb9OljHR2sGTweif9vZ2BaEyxYpC4NBYwnMmb-5X0eK9IC8hBHCIrWIoFlxUPw2QWDjQEM0pPVGWfpIEL3wuvECCbGUV03
 
 sprite $AlbumLg [20x20/16z] {
-bOw5RGGm40JD3FrNQrn3yZo2MusEo6-Ot8ZyCZg3n0Zm-S1Eru4EDtFmQLI_ruUUn92xxTeYMa0RrSWMrVKUP8-QMcq7MS-zVvpZvr6shwdMvN4EZGSz7BzL
-x0RoA43z6RoGBXX6NbC1
+bOw5RGGm40JD3FrNQrn3yZo2MusEo6-Ot8ZyCZg3n9Ro-S1Eru4EDtFmQLI_ruUUn92xxTeYMa0RrSWMrVKUP8-QMcq7MS-zVvpZvr6shwdMw74EZGSz7BzL
+76hBMs7J7jn85mmZhwa
 }
 
-!procedure Album($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Av/Album', $name, $tech)
+!procedure Album($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/Album', $name, $tech, $desc)
 !endprocedure

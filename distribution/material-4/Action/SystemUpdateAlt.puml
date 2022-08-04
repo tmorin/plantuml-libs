@@ -8,6 +8,6 @@ sprite $SystemUpdateAltMd [16x16/16z] dSUr0S0m00CmXpd-_zioSxK9ZsGBa90TW1qfYSAM1n
 
 sprite $SystemUpdateAltLg [20x20/16z] jSYr0GCn00D0cTdQVrfJ5SxZbOSpP2v3XYi2PGf0uLJXAS35e1BJkadItNH214hnV9f3VJx8LSy7NV1yoxypJ-muprSI6tK
 
-!procedure SystemUpdateAlt($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/SystemUpdateAlt', $name, $tech)
+!procedure SystemUpdateAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/SystemUpdateAlt', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/VideogameAsset')
 
 ' renders the element
-VideogameAsset('VideogameAsset', 'Videogame Asset', 'an optional tech label')
+VideogameAsset('VideogameAsset', 'Videogame Asset', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/VideogameAsset')
 
 ' renders the element
-VideogameAsset('VideogameAsset', 'Videogame Asset', 'an optional tech label')
+VideogameAsset('VideogameAsset', 'Videogame Asset', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

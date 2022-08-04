@@ -4,13 +4,10 @@ sprite $AllInclusiveXs [10x10/16z] Oy0FEFZvWIG_FoCpDv330EI01PX012kGoyOF9428Zmqem
 
 sprite $AllInclusiveSm [12x12/16z] ZSQt0OH00CJ0UOj7_NSB4V6jbJ6zdZshcwfrElZwXlfW3evFR5c_PAa3rSU0BW
 
-sprite $AllInclusiveMd [16x16/16z] fOo54S0W4C1ID_ZilsqFcu2yA_CioqYAMzKesQLcy6L9mkl9OdospUnM4WqAuKB1on8i1y0cUfv6-Hl7xGkVnLE-niaiFm
+sprite $AllInclusiveMd [16x16/16z] fOo54S0W4C1ID_ZilsqFcu2yA_CioqYAMzKesQLcy6L9mkl5OdospUnM4WqAuKB1on8i1y0cUfv6-Hl7xGkVnLE-niaiFm
 
-sprite $AllInclusiveLg [20x20/16z] {
-lOw30S10303pTcx_QMiFq7l4a9ymvgjc0Bkf1T35MncvGbXSVLUTeya2MKGfQpKwa1qBwMfmkSAk1IfcLt3YDrz7M9rn_VrMasXhXi8uaZdKgXgFZQkE8Bym
-0m
-}
+sprite $AllInclusiveLg [20x20/16z] lOo50O0m40C3TRtzfyLz0AxockWdXk6RHXP6hIIWBzrCYncSfBgdnb2qG9GwQLNJ6zeP8Lm6LyljcICpx0b6LYiLiJRz-jjD4oXoh3H9ppJtxhKnvDwSVc46
 
-!procedure AllInclusive($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Places/AllInclusive', $name, $tech)
+!procedure AllInclusive($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/AllInclusive', $name, $tech, $desc)
 !endprocedure

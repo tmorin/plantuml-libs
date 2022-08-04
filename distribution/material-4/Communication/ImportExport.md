@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/ImportExport')
 
 ' renders the element
-ImportExport('ImportExport', 'Import Export', 'an optional tech label')
+ImportExport('ImportExport', 'Import Export', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/ImportExport')
 
 ' renders the element
-ImportExport('ImportExport', 'Import Export', 'an optional tech label')
+ImportExport('ImportExport', 'Import Export', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

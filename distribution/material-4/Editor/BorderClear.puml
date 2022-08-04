@@ -8,6 +8,6 @@ sprite $BorderClearMd [16x16/16z] XKs54S0m40BEujb_suQh-xi2VYKbLB7EsNr44SkSSPTQHb
 
 sprite $BorderClearLg [20x20/16z] fL350S0W33pSOVzfyVpgFIIk-8UYKJ9iOPiRq1nQGMZYBc8xHYn0iNcwcyoc4746As0Df2Nkh1VMxtZ4lUXbTDyXz1BKgnraDReVSopkCHe
 
-!procedure BorderClear($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Editor/BorderClear', $name, $tech)
+!procedure BorderClear($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/BorderClear', $name, $tech, $desc)
 !endprocedure

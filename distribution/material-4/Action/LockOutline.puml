@@ -8,6 +8,6 @@ sprite $LockOutlineMd [16x16/16z] VOk50GCn4CF2w5RxJrjuPWNFO2w9yBRhcCXEh3FfVzLrTh
 
 sprite $LockOutlineLg [20x20/16z] ZSw50SKW30HGd2yXj_-qTS7XMkoXeXD7_5Cf4VQOP1My498H6_DUI-Z8G6VZOlld5l36dsGHw0vmMVG66jelcDmKWDmaGBa9vURkI4qZpZLfwSbVDB82
 
-!procedure LockOutline($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/LockOutline', $name, $tech)
+!procedure LockOutline($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/LockOutline', $name, $tech, $desc)
 !endprocedure

@@ -8,6 +8,6 @@ sprite $MovieCreationMd [16x16/16z] jOU50O104CE2Ezr_MjnT_dFIXjT888So9PJ0bGBI4aSm
 
 sprite $MovieCreationLg [20x20/16z] pOgr0G9100Jdt6_xhnRt47YPP9NVy0w21n_0XRD34bH1bCL9_Te5Z0gSuxnt4zhbQB3txfNTTnN87nq_SGG
 
-!procedure MovieCreation($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/MovieCreation', $name, $tech)
+!procedure MovieCreation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/MovieCreation', $name, $tech, $desc)
 !endprocedure

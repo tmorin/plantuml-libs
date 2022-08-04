@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/WrongLocation')
 
 ' renders the element
-WrongLocation('WrongLocation', 'Wrong Location', 'an optional tech label')
+WrongLocation('WrongLocation', 'Wrong Location', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/WrongLocation')
 
 ' renders the element
-WrongLocation('WrongLocation', 'Wrong Location', 'an optional tech label')
+WrongLocation('WrongLocation', 'Wrong Location', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

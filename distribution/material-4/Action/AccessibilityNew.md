@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/AccessibilityNew')
 
 ' renders the element
-AccessibilityNew('AccessibilityNew', 'Accessibility New', 'an optional tech label')
+AccessibilityNew('AccessibilityNew', 'Accessibility New', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/AccessibilityNew')
 
 ' renders the element
-AccessibilityNew('AccessibilityNew', 'Accessibility New', 'an optional tech label')
+AccessibilityNew('AccessibilityNew', 'Accessibility New', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

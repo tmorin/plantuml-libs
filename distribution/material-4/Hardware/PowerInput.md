@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/PowerInput')
 
 ' renders the element
-PowerInput('PowerInput', 'Power Input', 'an optional tech label')
+PowerInput('PowerInput', 'Power Input', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/PowerInput')
 
 ' renders the element
-PowerInput('PowerInput', 'Power Input', 'an optional tech label')
+PowerInput('PowerInput', 'Power Input', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -7,10 +7,10 @@ sprite $LocalPharmacySm [12x12/16z] Oy026FaHR1vU4CaF0qXia0GtI0Y8cS2wM9aOc7Z0Ufdu
 sprite $LocalPharmacyMd [16x16/16z] TSw55O0m40JHZU6m_NVB6rn_NE_qhun1LvE5c5RPGs8z-XGbrJxnGM0oHKDWCeg-5XgFCIX6hgC-rw_xnt_9MA-VllA95tgP0G
 
 sprite $LocalPharmacyLg [20x20/16z] {
-ZS_50O0m343Hkil-qoADuF9FuGMh-2m4UR7UrPbqRpX5hlOQ0pwmhzrO7bPXty3CC3TcBm35IEwjWAqNIYqxjJoXqGezONkNQFjd4v2v-KOUSubzf6x-EJwU
+ZS_50O0m343Hkil-qoADuF9FuGMh-2m4UR7UrPbqRpX5hlOQ0pwmhzrO7bPXty3iC3TcBm35IEwjWAqNIYqxjJoXqGezONkNQFjd4v2v-KOUSubzf6x-EJwU
 hHqgudSp
 }
 
-!procedure LocalPharmacy($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/LocalPharmacy', $name, $tech)
+!procedure LocalPharmacy($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/LocalPharmacy', $name, $tech, $desc)
 !endprocedure

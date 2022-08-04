@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/VoiceOverOff')
 
 ' renders the element
-VoiceOverOff('VoiceOverOff', 'Voice Over Off', 'an optional tech label')
+VoiceOverOff('VoiceOverOff', 'Voice Over Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/VoiceOverOff')
 
 ' renders the element
-VoiceOverOff('VoiceOverOff', 'Voice Over Off', 'an optional tech label')
+VoiceOverOff('VoiceOverOff', 'Voice Over Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

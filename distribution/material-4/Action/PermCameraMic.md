@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/PermCameraMic')
 
 ' renders the element
-PermCameraMic('PermCameraMic', 'Perm Camera Mic', 'an optional tech label')
+PermCameraMic('PermCameraMic', 'Perm Camera Mic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/PermCameraMic')
 
 ' renders the element
-PermCameraMic('PermCameraMic', 'Perm Camera Mic', 'an optional tech label')
+PermCameraMic('PermCameraMic', 'Perm Camera Mic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

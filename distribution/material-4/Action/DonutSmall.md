@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/DonutSmall')
 
 ' renders the element
-DonutSmall('DonutSmall', 'Donut Small', 'an optional tech label')
+DonutSmall('DonutSmall', 'Donut Small', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/DonutSmall')
 
 ' renders the element
-DonutSmall('DonutSmall', 'Donut Small', 'an optional tech label')
+DonutSmall('DonutSmall', 'Donut Small', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/AppBlocking')
 
 ' renders the element
-AppBlocking('AppBlocking', 'App Blocking', 'an optional tech label')
+AppBlocking('AppBlocking', 'App Blocking', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/AppBlocking')
 
 ' renders the element
-AppBlocking('AppBlocking', 'App Blocking', 'an optional tech label')
+AppBlocking('AppBlocking', 'App Blocking', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

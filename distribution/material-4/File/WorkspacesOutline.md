@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/File/WorkspacesOutline')
 
 ' renders the element
-WorkspacesOutline('WorkspacesOutline', 'Workspaces Outline', 'an optional tech label')
+WorkspacesOutline('WorkspacesOutline', 'Workspaces Outline', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/File/WorkspacesOutline')
 
 ' renders the element
-WorkspacesOutline('WorkspacesOutline', 'Workspaces Outline', 'an optional tech label')
+WorkspacesOutline('WorkspacesOutline', 'Workspaces Outline', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

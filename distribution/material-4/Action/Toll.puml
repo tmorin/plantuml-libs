@@ -7,10 +7,10 @@ sprite $TollSm [12x12/16z] TOQ55G1H3CBuhYtxJtlkaeS4_xWfjPXPgLD2P0DwcJD11sBE3B_TA
 sprite $TollMd [16x16/16z] bOnL3aD130FdyM9y_zjs7VMxC58uDl-pTOUa1tCg7FTP5PvLsLGm4J1Mz1M9TdI3hlSS3Hra97DWgPsDXoAe8ZcqWI8ZnvOcSimH7itXQADiVES5
 
 sprite $TollLg [20x20/16z] {
-hOzL6W9020Pdk_dlVri_R7tLsQI1_n1p2Zoe0fgSSzTk6NxrNAPKRge1qoyWI06Ybdytt9K6qmrBF1YA705kl9DKi2zTL6KBtF2WADELe2boP-jU22ayt2QG
-fKZn2-Ztp5N2bRRtQpW6Vacop8zS
+hO_74GCm20HNEUlwxzQ3XfU_zYgIWVyGSmhWL05Dnd7jrdrNpsLAXQSQCEq2WXGWQTbtWoilJ3CiWJCKEGBCw6GLxfSkgh85p-0KPReID4MSBI-4572t2MGf
+Kkm2kcUk4gQyU_jmndYNf9lvaGy
 }
 
-!procedure Toll($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/Toll', $name, $tech)
+!procedure Toll($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Toll', $name, $tech, $desc)
 !endprocedure

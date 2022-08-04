@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/CenterFocusWeak')
 
 ' renders the element
-CenterFocusWeak('CenterFocusWeak', 'Center Focus Weak', 'an optional tech label')
+CenterFocusWeak('CenterFocusWeak', 'Center Focus Weak', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/CenterFocusWeak')
 
 ' renders the element
-CenterFocusWeak('CenterFocusWeak', 'Center Focus Weak', 'an optional tech label')
+CenterFocusWeak('CenterFocusWeak', 'Center Focus Weak', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -7,10 +7,10 @@ sprite $ContactSupportSm [12x12/16z] NOg50G0n2CIWxjb_sdTjAd0Y4vgBkTP6yd2i2UkICFO
 sprite $ContactSupportMd [16x16/16z] ROw53GH100AvMzVflziFxpPHB47_EOvtjG3MCuCY5RXtOAXM3RPCW9pW212iEnWrQDRp9ZCmhAjb5DppWoT1Zy5fbzUTQJDQcBITThsntwKtGN-v
 
 sprite $ContactSupportLg [20x20/16z] {
-bS-50SCm4CNG7pDh_stRApCe_4As_gi1v5l9G1-0lr3PYnrlq0DIAuRhPCCUMv1jbux6gMIsxgme0jnQKUBHDd5Z0sijh7QqW1KYrdOxCMq0G-Sgvvmk-G5M
-r5qtaxYnvVLOqgTs
+bSy50i8m44JHYVlE_MzBjef3N_tN4bnJEQNxaaYsJj8TAS-YnxleI08rQvIjTNrCoAIxk3PkeZPvQ1b13_Sj8_Av6V2kTIeHgdgCPVA1ojnF34Rt7Rl2dSN1
+DL85F3ecST_4uLd4DpS
 }
 
-!procedure ContactSupport($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/ContactSupport', $name, $tech)
+!procedure ContactSupport($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/ContactSupport', $name, $tech, $desc)
 !endprocedure

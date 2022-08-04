@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Content/Bolt')
 
 ' renders the element
-Bolt('Bolt', 'Bolt', 'an optional tech label')
+Bolt('Bolt', 'Bolt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Content/Bolt')
 
 ' renders the element
-Bolt('Bolt', 'Bolt', 'an optional tech label')
+Bolt('Bolt', 'Bolt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

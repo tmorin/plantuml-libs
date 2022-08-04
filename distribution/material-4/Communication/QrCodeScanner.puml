@@ -4,13 +4,13 @@ sprite $QrCodeScannerXs [10x10/16z] LSA72SC05CL09QxFVD3-qxhNutWegrZO9QmBWZHiegm_
 
 sprite $QrCodeScannerSm [12x12/16z] NSm73W9134FHBuTEBD__jc0rs7tJ9uL_BvkoXMz3JU-J3T-r0fPWGYMXwomE-nRL_FTh04zpDUrZBxKHaYY93m
 
-sprite $QrCodeScannerMd [16x16/16z] POu53aD14489P6CTmlrls_NAVwlZu079xn-JB5Fpnq2TUMdQIjb8LRhTKO7TnjZBPkiskMtQVi4TFDbpZEpoq-ywDErbQirFLdphqIbiUUZ_vmq
+sprite $QrCodeScannerMd [16x16/16z] POu53i0m30CjMnCjaV__sc6vLmmR6oJ77st_fhuV3Kc4NZvRZamumgyDAC37nhj_cyTZayLcPfx81opqEGb_vRrVS-YpVrF_VFkF5psgXOSt_Iit
 
 sprite $QrCodeScannerLg [20x20/16z] {
 ZT054aCn24NHDnE52FlVRU_KlJrVuu3-5j2PyJz5ttRNMNK_zNanP7M3pdqMSqRJNdoEVJ0-GL_Y8tpi2z0Nq5bkIAeD-g9lLAsKjovifHHDoItDftEpzUBd
 ddgDfOHaxPm7-9skkEIcU_IzhzM4pXh_fdSE
 }
 
-!procedure QrCodeScanner($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Communication/QrCodeScanner', $name, $tech)
+!procedure QrCodeScanner($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/QrCodeScanner', $name, $tech, $desc)
 !endprocedure

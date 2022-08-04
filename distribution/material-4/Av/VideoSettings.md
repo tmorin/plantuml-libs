@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/VideoSettings')
 
 ' renders the element
-VideoSettings('VideoSettings', 'Video Settings', 'an optional tech label')
+VideoSettings('VideoSettings', 'Video Settings', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/VideoSettings')
 
 ' renders the element
-VideoSettings('VideoSettings', 'Video Settings', 'an optional tech label')
+VideoSettings('VideoSettings', 'Video Settings', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

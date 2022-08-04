@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/SpeakerGroup')
 
 ' renders the element
-SpeakerGroup('SpeakerGroup', 'Speaker Group', 'an optional tech label')
+SpeakerGroup('SpeakerGroup', 'Speaker Group', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/SpeakerGroup')
 
 ' renders the element
-SpeakerGroup('SpeakerGroup', 'Speaker Group', 'an optional tech label')
+SpeakerGroup('SpeakerGroup', 'Speaker Group', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

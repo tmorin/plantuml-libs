@@ -2,15 +2,15 @@
 
 sprite $DirectionsOffXs [10x10/16z] Oq05_12I7SY0CxaXJ7v-DaOU49CVo6HdP6BYPW3psA3I34n0jH0zJFmm9Wz80W
 
-sprite $DirectionsOffSm [12x12/16z] PKk30S1044lTP_QVzcsS8cnFvSKlzCy63Wo01V1Cu0j0_s005lOiuG_65ByDtSAc0slGm1dwXGS
+sprite $DirectionsOffSm [12x12/16z] PKk30S1044lTP_QVzcsS8cnFvSKlzCy63Wo01V1iGFzW01RsBE4FnXI_3Tt2fWDhqC0P-eK7
 
-sprite $DirectionsOffMd [16x16/16z] TS_L0S0m40BGkxYp_xQbxdo55vUVw36AmW1jgnu43Br1vWRK3G91XfWT048Xh5im95r0eTkAHETyXsvdH7XX6i4jArXtI9x0711n0-uDD-1U3_Fwv0G
+sprite $DirectionsOffMd [16x16/16z] TOy50W0X20J1xlt_Rm-yBjiXbtu67w-e1z2shuS03Bw1B06e6mZgCSZi011G5CmG34eNmE3D8maNUmTlEIAy1ZG1Rdh8TmTfza4dYBY111yke6ig3_CIkG
 
 sprite $DirectionsOffLg [20x20/16z] {
-bSw50KCn20HG8Awt_xRDrVsxFLIE7XFf_ktuJHh8TmHn8ifuokItYzUFbqnjBpY9XahCDuf054M_8zkNfqpFReCTYGeJGrkM5whgfRy3bCM5cQBiAHUwPae5
-CutqGBliAI_ey846s2iMWEt72uQkV27Ar-C4
+bSm73WCn30D1IhxU-F_VnflUapEQCA1NUz_c_deNRcZpS4M3cpkjTqlkqfsEnsNC3xY1wGayDMdPdSBB5ScFTyk6saeH3AVIjQkXOaIS-iKEFeyi5JHr8fRW
+P9O9tJ15Kth0uXTCEnznjCcl3zWkvELERzy1
 }
 
-!procedure DirectionsOff($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Notification/DirectionsOff', $name, $tech)
+!procedure DirectionsOff($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Notification/DirectionsOff', $name, $tech, $desc)
 !endprocedure

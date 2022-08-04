@@ -6,8 +6,8 @@ sprite $VolumeDownSm [12x12/16z] Oy0F615CNYO4av-93SBY1m8c7bOaDZSI6wQ3Wvy9OH074pu
 
 sprite $VolumeDownMd [16x16/16z] dSYr0S0m0CJ03yUy_xHcRWpgJjYDjHIYfIe-XP3AMaLVokRyTsQTNyHn4MUEqc_Tz7V6WwaC
 
-sprite $VolumeDownLg [20x20/16z] jSZ50S0W00F0rBtPVzegJfvmpqCzXoXcTJAwfctRfuXXTBVmzHuxSQkuJTma3g7vlQv1ciZCX4WKS0C
+sprite $VolumeDownLg [20x20/16z] jSZ50S0W00F0rBtPVzegJfvmpqCzXoXcTJAwfctRfuXXTBVmzHuxSOkuJTma3g7vlQv1ciZCX4WKS0C
 
-!procedure VolumeDown($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Av/VolumeDown', $name, $tech)
+!procedure VolumeDown($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/VolumeDown', $name, $tech, $desc)
 !endprocedure

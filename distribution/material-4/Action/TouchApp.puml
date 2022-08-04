@@ -6,8 +6,8 @@ sprite $TouchAppSm [12x12/16z] VOkr0G0X00DVSRZzfyMj8bNiheD-SCFpIARt-ATxvzVdyboRv
 
 sprite $TouchAppMd [16x16/16z] ZOwr0KH124HPrlNrN-svGFOdWr6v11qZc3En3-b_qsiTc5j1pRsVzxPv4CG2nD-iu6yuwc_8dx0px2sB3rJyup_eTzy1
 
-sprite $TouchAppLg [20x20/16z] fSu53WGm2011gFl-_xNdHeZVHZirvFyIiDMGGXzWRAEzPiglSI8euzVEq-glnQU9ATyjYkrkugq6Rx2y0LEzSUHPWJK0SvrlxMtXQpypVan5tCdxuWe
+sprite $TouchAppLg [20x20/16z] fSwr0S0m4C10CmMq_xHXSnbrVqRnFmDiiYC9CK5d6p9wYskDNOCajRQ_vblJhuakUviMVRU9sRoQ3TRPRfMpiN-pWpNTq1wd5hAfQiqVYyb2TUSzd
 
-!procedure TouchApp($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/TouchApp', $name, $tech)
+!procedure TouchApp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/TouchApp', $name, $tech, $desc)
 !endprocedure

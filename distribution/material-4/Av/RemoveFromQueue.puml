@@ -8,6 +8,6 @@ sprite $RemoveFromQueueMd [16x16/16z] ZSor0S0030F13pN6_QSDCrzb55ygyur2kctIo8gD_-
 
 sprite $RemoveFromQueueLg [20x20/16z] fSur0i1G20DGf6wv_sc_C3LCbJUYaJyMP2eN9Z9ZQZKXzhhcmQY6i57DWbBjwz-LRAqs8-kVAClD5LPvfG8
 
-!procedure RemoveFromQueue($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Av/RemoveFromQueue', $name, $tech)
+!procedure RemoveFromQueue($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/RemoveFromQueue', $name, $tech, $desc)
 !endprocedure

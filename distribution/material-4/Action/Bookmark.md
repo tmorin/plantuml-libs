@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Bookmark')
 
 ' renders the element
-Bookmark('Bookmark', 'Bookmark', 'an optional tech label')
+Bookmark('Bookmark', 'Bookmark', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Bookmark')
 
 ' renders the element
-Bookmark('Bookmark', 'Bookmark', 'an optional tech label')
+Bookmark('Bookmark', 'Bookmark', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

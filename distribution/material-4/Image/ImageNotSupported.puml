@@ -8,6 +8,6 @@ sprite $ImageNotSupportedMd [16x16/16z] XOx50K0X3CMAE-m_BVhwvKHk2TBIZUR85U2dcnbY
 
 sprite $ImageNotSupportedLg [20x20/16z] ZSy54eH034JHNbyaa_kV5itmSUZoLr7TpUUtDVEVNaw-FNg73yoKaSeKHYL69KObHYL6vTmiLsAreX8pINLybEqXJH_57wcE33WQwN78pn89NCJzlSM_r08
 
-!procedure ImageNotSupported($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/ImageNotSupported', $name, $tech)
+!procedure ImageNotSupported($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/ImageNotSupported', $name, $tech, $desc)
 !endprocedure

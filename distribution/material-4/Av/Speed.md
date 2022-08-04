@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/Speed')
 
 ' renders the element
-Speed('Speed', 'Speed', 'an optional tech label')
+Speed('Speed', 'Speed', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/Speed')
 
 ' renders the element
-Speed('Speed', 'Speed', 'an optional tech label')
+Speed('Speed', 'Speed', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

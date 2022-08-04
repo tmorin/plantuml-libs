@@ -2,12 +2,12 @@
 
 sprite $VoiceChatXs [10x10/16z] Oq00Jdu8O63WXm8U1Y0Fo6M0i400LGmA42nc1dv61dG
 
-sprite $VoiceChatSm [12x12/16z] Oq01FBmGmCt0mCiF0qn0DZiB2milFo-OpG9IoC03PpCWiNaP8MoG8M2zQEQmG00pK2KJ0pO
+sprite $VoiceChatSm [12x12/16z] RSo54S0m34FHNqQTzv-s64xUaL5aJlqEa7dzKo_3EChqrIDmSeQQf5RtrtfylqNEE8oFOG3rjDm
 
-sprite $VoiceChatMd [16x16/16z] VSp50O1044FHZplqNothBkysab0Ona2DNmp6SjvcQVc-nyupqlXoXrdfpl7_CafJw0lgy-oXvf7OED0Z
+sprite $VoiceChatMd [16x16/16z] XSs35S0034NH5zNOVzhQl8VXvqPqDvRj4UYzJdqGRLiljJFGXcglHv_rSJzqOFk_ltnVc37Mof4ANte
 
-sprite $VoiceChatLg [20x20/16z] dSZ50O1000InnPtflrhSvIpFo5d5tNmyD1_NhbUa2-Yxur8jQDK-hzBxz779nv5_7FL-3wwNh9TUn5ekqXEn0eq
+sprite $VoiceChatLg [20x20/16z] dS_L0KCX04FHu4xsdxPzxdxnymSU5xYkDMvA1vPxSrerGvErJARHnOoyjO2zuS3KWT4U6EDecvwQwatt_z3jAT6Pm3PAVEmF
 
-!procedure VoiceChat($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Notification/VoiceChat', $name, $tech)
+!procedure VoiceChat($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Notification/VoiceChat', $name, $tech, $desc)
 !endprocedure

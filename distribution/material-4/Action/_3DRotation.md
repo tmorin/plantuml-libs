@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/_3DRotation')
 
 ' renders the element
-_3DRotation('3dRotation', '3d Rotation', 'an optional tech label')
+_3DRotation('3dRotation', '3d Rotation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/_3DRotation')
 
 ' renders the element
-_3DRotation('3dRotation', '3d Rotation', 'an optional tech label')
+_3DRotation('3dRotation', '3d Rotation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

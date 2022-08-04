@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Content/AmpStories')
 
 ' renders the element
-AmpStories('AmpStories', 'Amp Stories', 'an optional tech label')
+AmpStories('AmpStories', 'Amp Stories', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Content/AmpStories')
 
 ' renders the element
-AmpStories('AmpStories', 'Amp Stories', 'an optional tech label')
+AmpStories('AmpStories', 'Amp Stories', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/ViewCarousel')
 
 ' renders the element
-ViewCarousel('ViewCarousel', 'View Carousel', 'an optional tech label')
+ViewCarousel('ViewCarousel', 'View Carousel', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/ViewCarousel')
 
 ' renders the element
-ViewCarousel('ViewCarousel', 'View Carousel', 'an optional tech label')
+ViewCarousel('ViewCarousel', 'View Carousel', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

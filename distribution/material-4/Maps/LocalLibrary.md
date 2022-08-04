@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalLibrary')
 
 ' renders the element
-LocalLibrary('LocalLibrary', 'Local Library', 'an optional tech label')
+LocalLibrary('LocalLibrary', 'Local Library', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalLibrary')
 
 ' renders the element
-LocalLibrary('LocalLibrary', 'Local Library', 'an optional tech label')
+LocalLibrary('LocalLibrary', 'Local Library', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

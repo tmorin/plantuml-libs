@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Device/NetworkWifi')
 
 ' renders the element
-NetworkWifi('NetworkWifi', 'Network Wifi', 'an optional tech label')
+NetworkWifi('NetworkWifi', 'Network Wifi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Device/NetworkWifi')
 
 ' renders the element
-NetworkWifi('NetworkWifi', 'Network Wifi', 'an optional tech label')
+NetworkWifi('NetworkWifi', 'Network Wifi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

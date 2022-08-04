@@ -8,6 +8,6 @@ sprite $KeyboardArrowLeftMd [16x16/16z] Ow0MO4FbilEp87Cv-5bHP56vZFoyG195W8UW01kQ
 
 sprite $KeyboardArrowLeftLg [20x20/16z] Ow0lO6R246BYvyTGnS_FYAcA4LCLXccy_1n04aEG7OyWOUryT0mW
 
-!procedure KeyboardArrowLeft($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Hardware/KeyboardArrowLeft', $name, $tech)
+!procedure KeyboardArrowLeft($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Hardware/KeyboardArrowLeft', $name, $tech, $desc)
 !endprocedure

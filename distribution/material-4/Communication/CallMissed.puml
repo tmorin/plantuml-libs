@@ -8,6 +8,6 @@ sprite $CallMissedMd [16x16/16z] hOpN5G1120Bl-3Nrt-tAcnQSZIhmdLEpb7z_KRSabqDTl9H
 
 sprite $CallMissedLg [20x20/16z] nOg53G0n08JktO_zftstTe2M624e7vnqEfdVPhizVQ9_MgsBXV7-EjFSrw2xjGLKp_Kq5STvNqzJ0MPIIE7pYkAeb6m
 
-!procedure CallMissed($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Communication/CallMissed', $name, $tech)
+!procedure CallMissed($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/CallMissed', $name, $tech, $desc)
 !endprocedure

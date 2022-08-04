@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/Unsubscribe')
 
 ' renders the element
-Unsubscribe('Unsubscribe', 'Unsubscribe', 'an optional tech label')
+Unsubscribe('Unsubscribe', 'Unsubscribe', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/Unsubscribe')
 
 ' renders the element
-Unsubscribe('Unsubscribe', 'Unsubscribe', 'an optional tech label')
+Unsubscribe('Unsubscribe', 'Unsubscribe', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

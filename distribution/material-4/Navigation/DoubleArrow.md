@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/DoubleArrow')
 
 ' renders the element
-DoubleArrow('DoubleArrow', 'Double Arrow', 'an optional tech label')
+DoubleArrow('DoubleArrow', 'Double Arrow', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/DoubleArrow')
 
 ' renders the element
-DoubleArrow('DoubleArrow', 'Double Arrow', 'an optional tech label')
+DoubleArrow('DoubleArrow', 'Double Arrow', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

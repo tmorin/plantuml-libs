@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Today')
 
 ' renders the element
-Today('Today', 'Today', 'an optional tech label')
+Today('Today', 'Today', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Today')
 
 ' renders the element
-Today('Today', 'Today', 'an optional tech label')
+Today('Today', 'Today', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

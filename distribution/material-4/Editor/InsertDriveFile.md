@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/InsertDriveFile')
 
 ' renders the element
-InsertDriveFile('InsertDriveFile', 'Insert Drive File', 'an optional tech label')
+InsertDriveFile('InsertDriveFile', 'Insert Drive File', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/InsertDriveFile')
 
 ' renders the element
-InsertDriveFile('InsertDriveFile', 'Insert Drive File', 'an optional tech label')
+InsertDriveFile('InsertDriveFile', 'Insert Drive File', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,6 +8,6 @@ sprite $ResetTvMd [16x16/16z] XSa53W9000F1vjpx_z_2QOaoqStY7zkwL82z2Hje8RtVJfXAEP
 
 sprite $ResetTvLg [20x20/16z] fSn50iHG309Gahfo_zEsttKpyfO9W7-iR0bkpfM5YxcXekLDfRkD50JnfkGuEFd6J8lSeDR0EUqDOK-B6wI-9UcsLNPpMzWIU7Hsb6vdmrTU
 
-!procedure ResetTv($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Device/ResetTv', $name, $tech)
+!procedure ResetTv($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Device/ResetTv', $name, $tech, $desc)
 !endprocedure

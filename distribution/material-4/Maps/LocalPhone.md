@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalPhone')
 
 ' renders the element
-LocalPhone('LocalPhone', 'Local Phone', 'an optional tech label')
+LocalPhone('LocalPhone', 'Local Phone', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalPhone')
 
 ' renders the element
-LocalPhone('LocalPhone', 'Local Phone', 'an optional tech label')
+LocalPhone('LocalPhone', 'Local Phone', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

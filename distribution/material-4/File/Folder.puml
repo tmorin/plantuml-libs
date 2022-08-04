@@ -6,8 +6,8 @@ sprite $FolderSm [12x12/16z] Oy09U7XusA5CNduWu042RX0R1fX8PlCWiHcOOG35LW
 
 sprite $FolderMd [16x16/16z] Oo0Py8C0EvpBn0y6F230pGBX8m3j-OneV0PE7WHW8UWR
 
-sprite $FolderLg [20x20/16z] Ow0CiB2208eGFmImOn7Zvu40JeGO0d1W4UCPv69SG34ED37A0XG
+sprite $FolderLg [20x20/16z] Ow0CiB020GkA43y4i6CHu-U104w4609mO17Z6UHYN40n3ZGnoW8K
 
-!procedure Folder($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/File/Folder', $name, $tech)
+!procedure Folder($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/File/Folder', $name, $tech, $desc)
 !endprocedure

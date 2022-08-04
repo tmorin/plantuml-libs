@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/PedalBike')
 
 ' renders the element
-PedalBike('PedalBike', 'Pedal Bike', 'an optional tech label')
+PedalBike('PedalBike', 'Pedal Bike', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/PedalBike')
 
 ' renders the element
-PedalBike('PedalBike', 'Pedal Bike', 'an optional tech label')
+PedalBike('PedalBike', 'Pedal Bike', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

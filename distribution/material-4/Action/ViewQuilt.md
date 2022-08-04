@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/ViewQuilt')
 
 ' renders the element
-ViewQuilt('ViewQuilt', 'View Quilt', 'an optional tech label')
+ViewQuilt('ViewQuilt', 'View Quilt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/ViewQuilt')
 
 ' renders the element
-ViewQuilt('ViewQuilt', 'View Quilt', 'an optional tech label')
+ViewQuilt('ViewQuilt', 'View Quilt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/SetMeal')
 
 ' renders the element
-SetMeal('SetMeal', 'Set Meal', 'an optional tech label')
+SetMeal('SetMeal', 'Set Meal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/SetMeal')
 
 ' renders the element
-SetMeal('SetMeal', 'Set Meal', 'an optional tech label')
+SetMeal('SetMeal', 'Set Meal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

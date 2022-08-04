@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalSee')
 
 ' renders the element
-LocalSee('LocalSee', 'Local See', 'an optional tech label')
+LocalSee('LocalSee', 'Local See', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalSee')
 
 ' renders the element
-LocalSee('LocalSee', 'Local See', 'an optional tech label')
+LocalSee('LocalSee', 'Local See', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/QuestionAnswer')
 
 ' renders the element
-QuestionAnswer('QuestionAnswer', 'Question Answer', 'an optional tech label')
+QuestionAnswer('QuestionAnswer', 'Question Answer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/QuestionAnswer')
 
 ' renders the element
-QuestionAnswer('QuestionAnswer', 'Question Answer', 'an optional tech label')
+QuestionAnswer('QuestionAnswer', 'Question Answer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

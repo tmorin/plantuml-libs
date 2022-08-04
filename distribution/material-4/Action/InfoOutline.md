@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/InfoOutline')
 
 ' renders the element
-InfoOutline('InfoOutline', 'Info Outline', 'an optional tech label')
+InfoOutline('InfoOutline', 'Info Outline', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/InfoOutline')
 
 ' renders the element
-InfoOutline('InfoOutline', 'Info Outline', 'an optional tech label')
+InfoOutline('InfoOutline', 'Info Outline', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

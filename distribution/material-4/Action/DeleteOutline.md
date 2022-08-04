@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/DeleteOutline')
 
 ' renders the element
-DeleteOutline('DeleteOutline', 'Delete Outline', 'an optional tech label')
+DeleteOutline('DeleteOutline', 'Delete Outline', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/DeleteOutline')
 
 ' renders the element
-DeleteOutline('DeleteOutline', 'Delete Outline', 'an optional tech label')
+DeleteOutline('DeleteOutline', 'Delete Outline', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

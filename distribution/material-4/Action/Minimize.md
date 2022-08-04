@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Minimize')
 
 ' renders the element
-Minimize('Minimize', 'Minimize', 'an optional tech label')
+Minimize('Minimize', 'Minimize', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Minimize')
 
 ' renders the element
-Minimize('Minimize', 'Minimize', 'an optional tech label')
+Minimize('Minimize', 'Minimize', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

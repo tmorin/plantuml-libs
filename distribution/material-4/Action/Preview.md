@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Preview')
 
 ' renders the element
-Preview('Preview', 'Preview', 'an optional tech label')
+Preview('Preview', 'Preview', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Preview')
 
 ' renders the element
-Preview('Preview', 'Preview', 'an optional tech label')
+Preview('Preview', 'Preview', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

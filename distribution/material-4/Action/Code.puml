@@ -8,6 +8,6 @@ sprite $CodeMd [16x16/16z] Ow06O0CHZ4mmBZi_2v3auMU2SLc194Y04S552F3pmCtXvmEPmy-Du
 
 sprite $CodeLg [20x20/16z] lOo54O1040DnX-s_MXoIA-3_N7PIPBEwlbll9xXQm-QdwXu6ba2znorGJcwuDBHNMtNKB1AwxxlGE_MIjt8fIbOMIUm
 
-!procedure Code($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/Code', $name, $tech)
+!procedure Code($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Code', $name, $tech, $desc)
 !endprocedure

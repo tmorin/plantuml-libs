@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/SlowMotionVideo')
 
 ' renders the element
-SlowMotionVideo('SlowMotionVideo', 'Slow Motion Video', 'an optional tech label')
+SlowMotionVideo('SlowMotionVideo', 'Slow Motion Video', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/SlowMotionVideo')
 
 ' renders the element
-SlowMotionVideo('SlowMotionVideo', 'Slow Motion Video', 'an optional tech label')
+SlowMotionVideo('SlowMotionVideo', 'Slow Motion Video', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

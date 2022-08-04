@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/DirtyLens')
 
 ' renders the element
-DirtyLens('DirtyLens', 'Dirty Lens', 'an optional tech label')
+DirtyLens('DirtyLens', 'Dirty Lens', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/DirtyLens')
 
 ' renders the element
-DirtyLens('DirtyLens', 'Dirty Lens', 'an optional tech label')
+DirtyLens('DirtyLens', 'Dirty Lens', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

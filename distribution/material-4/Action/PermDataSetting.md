@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/PermDataSetting')
 
 ' renders the element
-PermDataSetting('PermDataSetting', 'Perm Data Setting', 'an optional tech label')
+PermDataSetting('PermDataSetting', 'Perm Data Setting', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/PermDataSetting')
 
 ' renders the element
-PermDataSetting('PermDataSetting', 'Perm Data Setting', 'an optional tech label')
+PermDataSetting('PermDataSetting', 'Perm Data Setting', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

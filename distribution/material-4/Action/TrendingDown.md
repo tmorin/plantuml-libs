@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/TrendingDown')
 
 ' renders the element
-TrendingDown('TrendingDown', 'Trending Down', 'an optional tech label')
+TrendingDown('TrendingDown', 'Trending Down', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/TrendingDown')
 
 ' renders the element
-TrendingDown('TrendingDown', 'Trending Down', 'an optional tech label')
+TrendingDown('TrendingDown', 'Trending Down', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

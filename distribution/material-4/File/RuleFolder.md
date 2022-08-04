@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/File/RuleFolder')
 
 ' renders the element
-RuleFolder('RuleFolder', 'Rule Folder', 'an optional tech label')
+RuleFolder('RuleFolder', 'Rule Folder', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/File/RuleFolder')
 
 ' renders the element
-RuleFolder('RuleFolder', 'Rule Folder', 'an optional tech label')
+RuleFolder('RuleFolder', 'Rule Folder', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

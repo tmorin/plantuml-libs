@@ -4,10 +4,10 @@ sprite $RuleFolderXs [10x10/16z] Oy06-840oe823ZYB1yHY04g3MK04PY5aEQ0i9EC
 
 sprite $RuleFolderSm [12x12/16z] TSj50e1G409Gx1hW_gUrM_zRJG2I8gBPHteMis6TT_awArfpdKl16Tfrhc0ZAzPveJKVjowA0-uc
 
-sprite $RuleFolderMd [16x16/16z] bSt50S0m509GuXxsdxRktdVx2dvZps4cESYzfETwTbSBRKDmKwqfm03ugHv28X2cceAazTvU_HE76Y6lDDwq
+sprite $RuleFolderMd [16x16/16z] bSt50S0m509GuXxsdxRktdVx2dvZposbv23tafxgnLqjj0l1JRMc00FWfte8YK2OQWgIrdjxzKySQeIyqdZJ0W
 
-sprite $RuleFolderLg [20x20/16z] fSrL0eKW54NHAzrd_gDz8Hr_R7j9q5r2_fi8ENqmX9pjrZC72ztSRfQufl3mPk97p_jXikNxau3V8xHnxZSAuAI8ci6dTqs4sArtDfUtcgAhlW
+sprite $RuleFolderLg [20x20/16z] fOrL0i0W34E3Ezp_jFFXVtqRrZO9Q4Xr8OTIUJ6RMealhjKQTbEBhURNceCmY4pKchnAx7dOltRlB9V2W5ZdFDYr2sYW-ONyU9QOMgsnh_atQW0aJW
 
-!procedure RuleFolder($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/File/RuleFolder', $name, $tech)
+!procedure RuleFolder($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/File/RuleFolder', $name, $tech, $desc)
 !endprocedure

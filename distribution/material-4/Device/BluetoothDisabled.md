@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Device/BluetoothDisabled')
 
 ' renders the element
-BluetoothDisabled('BluetoothDisabled', 'Bluetooth Disabled', 'an optional tech label')
+BluetoothDisabled('BluetoothDisabled', 'Bluetooth Disabled', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Device/BluetoothDisabled')
 
 ' renders the element
-BluetoothDisabled('BluetoothDisabled', 'Bluetooth Disabled', 'an optional tech label')
+BluetoothDisabled('BluetoothDisabled', 'Bluetooth Disabled', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

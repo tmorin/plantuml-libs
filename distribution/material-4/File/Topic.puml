@@ -6,8 +6,8 @@ sprite $TopicSm [12x12/16z] Oy09U7XusA5CNduWu042RX0R1fY0R5Oc4E01i_d002BE1XJbXQhX
 
 sprite $TopicMd [16x16/16z] Oo0Py8C0EvpBn0y6F230pGBX8m1MFWjKAm-KpmS5_30-Bn3meQbdmc4U8ngVWPC70LW8-WO
 
-sprite $TopicLg [20x20/16z] fSo34G11343HCvRzLxjMCCmVls2JTTqvGBxsCkPDxQy6-nWprQpfJRl6SpFCZSOU3Du2--uIC11dAjc7R1CL0G
+sprite $TopicLg [20x20/16z] fSr50W0X243HwHwz_sbj9NVyvLDWihNjgOsGhvsA-QzsWq6NOb-r_-k1mT5lc1l1FnAT9NRj9M8apPva5xF9L0G
 
-!procedure Topic($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/File/Topic', $name, $tech)
+!procedure Topic($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/File/Topic', $name, $tech, $desc)
 !endprocedure

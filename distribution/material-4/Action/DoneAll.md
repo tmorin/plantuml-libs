@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/DoneAll')
 
 ' renders the element
-DoneAll('DoneAll', 'Done All', 'an optional tech label')
+DoneAll('DoneAll', 'Done All', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/DoneAll')
 
 ' renders the element
-DoneAll('DoneAll', 'Done All', 'an optional tech label')
+DoneAll('DoneAll', 'Done All', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

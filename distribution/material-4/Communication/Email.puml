@@ -8,6 +8,6 @@ sprite $EmailMd [16x16/16z] bSV50OG00C2mdk3I_QV5tSallEP21b-pgOdj-VNB-TlUW5ZzaThV
 
 sprite $EmailLg [20x20/16z] jSq54WCX44JHtbtS-lwtJN0fZ_mowW4p-2uXrvvCF1BPGbh4CMHpq8DkLAF65JBKGpMc2myPaJzKorb0u8cSLjSvSjhi7-RUPWx3Lxq
 
-!procedure Email($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Communication/Email', $name, $tech)
+!procedure Email($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/Email', $name, $tech, $desc)
 !endprocedure

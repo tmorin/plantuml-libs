@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalBar')
 
 ' renders the element
-LocalBar('LocalBar', 'Local Bar', 'an optional tech label')
+LocalBar('LocalBar', 'Local Bar', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalBar')
 
 ' renders the element
-LocalBar('LocalBar', 'Local Bar', 'an optional tech label')
+LocalBar('LocalBar', 'Local Bar', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

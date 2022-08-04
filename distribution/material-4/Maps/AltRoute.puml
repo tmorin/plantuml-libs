@@ -6,11 +6,8 @@ sprite $AltRouteSm [12x12/16z] XOh50S0m30ElpDN-quRnbJDRecSgZKbA3TPtNrW_ru3G54qeL
 
 sprite $AltRouteMd [16x16/16z] bOhL0S0m24Inkjp-qzRYV3Kl0YVqW-DyVyOK9N2y4i4GsmyJKiDeeJ278fWYu_iPA87r_RQibOq0AZ22p2n1PjHfwTIP6m
 
-sprite $AltRouteLg [20x20/16z] {
-hSt50OGm50JGYNkc_sfNWEXfXOVcAxvX4Ww2Q2mPpn3h297f2BtWe7IcrW9IUrejSOh4mL5YbuXEd3jmh6WAnV5UMZtKAnImYCmjD90HkqY9dQUuDMRp4jiz
-0G
-}
+sprite $AltRouteLg [20x20/16z] hSk30GGn54NH5pkt_shNDkQ4N_f6QDenw2X2tQKcyvo29XcsjEDyntiZwpFHMscdeft4BdEbeHD3tRrCdGtCxhuQpN8Q55sfz5tg2bJTgbZTofX5Sx4RlR06
 
-!procedure AltRoute($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/AltRoute', $name, $tech)
+!procedure AltRoute($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/AltRoute', $name, $tech, $desc)
 !endprocedure

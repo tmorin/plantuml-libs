@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/LocationCity')
 
 ' renders the element
-LocationCity('LocationCity', 'Location City', 'an optional tech label')
+LocationCity('LocationCity', 'Location City', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/LocationCity')
 
 ' renders the element
-LocationCity('LocationCity', 'Location City', 'an optional tech label')
+LocationCity('LocationCity', 'Location City', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

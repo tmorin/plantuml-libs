@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/Handyman')
 
 ' renders the element
-Handyman('Handyman', 'Handyman', 'an optional tech label')
+Handyman('Handyman', 'Handyman', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/Handyman')
 
 ' renders the element
-Handyman('Handyman', 'Handyman', 'an optional tech label')
+Handyman('Handyman', 'Handyman', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

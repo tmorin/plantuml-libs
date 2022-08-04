@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Wysiwyg')
 
 ' renders the element
-Wysiwyg('Wysiwyg', 'Wysiwyg', 'an optional tech label')
+Wysiwyg('Wysiwyg', 'Wysiwyg', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Wysiwyg')
 
 ' renders the element
-Wysiwyg('Wysiwyg', 'Wysiwyg', 'an optional tech label')
+Wysiwyg('Wysiwyg', 'Wysiwyg', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

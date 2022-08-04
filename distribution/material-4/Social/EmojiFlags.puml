@@ -8,6 +8,6 @@ sprite $EmojiFlagsMd [16x16/16z] VSgr0G0W30H0tE7tdnRfiEIw5_4XpmW4Dck8AozooqgfZ5f
 
 sprite $EmojiFlagsLg [20x20/16z] dSir0i0m30D0Xpdw_siBtkHEwOq2EG0K6oK0DdF04gj1lXbKv6m_iFoBlX6ACYcFnPcQvvagdEN7GcjjyzT1KSRgbbzk
 
-!procedure EmojiFlags($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Social/EmojiFlags', $name, $tech)
+!procedure EmojiFlags($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/EmojiFlags', $name, $tech, $desc)
 !endprocedure

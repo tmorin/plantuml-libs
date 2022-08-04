@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Places/Kitchen')
 
 ' renders the element
-Kitchen('Kitchen', 'Kitchen', 'an optional tech label')
+Kitchen('Kitchen', 'Kitchen', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Places/Kitchen')
 
 ' renders the element
-Kitchen('Kitchen', 'Kitchen', 'an optional tech label')
+Kitchen('Kitchen', 'Kitchen', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

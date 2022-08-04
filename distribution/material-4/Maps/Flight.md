@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/Flight')
 
 ' renders the element
-Flight('Flight', 'Flight', 'an optional tech label')
+Flight('Flight', 'Flight', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/Flight')
 
 ' renders the element
-Flight('Flight', 'Flight', 'an optional tech label')
+Flight('Flight', 'Flight', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,12 +2,12 @@
 
 sprite $FilterXs [10x10/16z] Oq027FmGmC392H7WP-37mMBauOEmGEgPG2m80BBWni5COm
 
-sprite $FilterSm [12x12/16z] Oq05_300OiF4W10lcn76PcHaveUo8IPXgeS27Y0Rgwq
+sprite $FilterSm [12x12/16z] Oq05_300OiF4W10lcn76PcHaveUo8IPXgeS2RY0Rgwq
 
-sprite $FilterMd [16x16/16z] dSUr0S0m44MnWzy4t_xJXZckh4vMm2sN9daQ1ilbTbfELZxyyTODxWj6wAz7RixdQRjnq_eNXjjwlJy3
+sprite $FilterMd [16x16/16z] dSUr0S0m44MnWzy4t_xJXZckh4vMm2sN9daQ1ilbTbfELZxyyTODxYUCq5-Ft9pFqtRZflKl3BVrUdy6
 
 sprite $FilterLg [20x20/16z] jSsr0SGm44JH5RD-_zKUc3dp2nTcv4xf6sKOHNRyVvQGbIP8JETPvxrPEyoQaahVpJ8486vcZeb-x4YhFCuKE-e_E-dehM5MsP613rl_oHS
 
-!procedure Filter($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/Filter', $name, $tech)
+!procedure Filter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/Filter', $name, $tech, $desc)
 !endprocedure

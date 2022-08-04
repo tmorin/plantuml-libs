@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Face')
 
 ' renders the element
-Face('Face', 'Face', 'an optional tech label')
+Face('Face', 'Face', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Face')
 
 ' renders the element
-Face('Face', 'Face', 'an optional tech label')
+Face('Face', 'Face', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

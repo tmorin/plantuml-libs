@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/FormatClear')
 
 ' renders the element
-FormatClear('FormatClear', 'Format Clear', 'an optional tech label')
+FormatClear('FormatClear', 'Format Clear', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/FormatClear')
 
 ' renders the element
-FormatClear('FormatClear', 'Format Clear', 'an optional tech label')
+FormatClear('FormatClear', 'Format Clear', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

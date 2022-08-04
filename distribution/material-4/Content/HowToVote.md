@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Content/HowToVote')
 
 ' renders the element
-HowToVote('HowToVote', 'How To Vote', 'an optional tech label')
+HowToVote('HowToVote', 'How To Vote', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Content/HowToVote')
 
 ' renders the element
-HowToVote('HowToVote', 'How To Vote', 'an optional tech label')
+HowToVote('HowToVote', 'How To Vote', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

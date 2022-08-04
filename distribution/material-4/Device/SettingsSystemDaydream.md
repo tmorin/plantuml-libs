@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Device/SettingsSystemDaydream')
 
 ' renders the element
-SettingsSystemDaydream('SettingsSystemDaydream', 'Settings System Daydream', 'an optional tech label')
+SettingsSystemDaydream('SettingsSystemDaydream', 'Settings System Daydream', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Device/SettingsSystemDaydream')
 
 ' renders the element
-SettingsSystemDaydream('SettingsSystemDaydream', 'Settings System Daydream', 'an optional tech label')
+SettingsSystemDaydream('SettingsSystemDaydream', 'Settings System Daydream', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

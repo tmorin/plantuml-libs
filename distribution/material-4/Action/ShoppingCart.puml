@@ -8,6 +8,6 @@ sprite $ShoppingCartMd [16x16/16z] PSl50KH120FGZFka_shNWFtsBcXmvnmko8QBnCFlbmTy5
 
 sprite $ShoppingCartLg [20x20/16z] ZS-54GCm30D0XJdUVzf2w5Jk7vkDVtMHbrZAaYrH8zg4jH6pmXm68HsJevYctKl1vgbiYpiKSKXN4wZCWBmSYCtu0rlCSv8hbawf-o6A5OfD8MCmLOEmAm
 
-!procedure ShoppingCart($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/ShoppingCart', $name, $tech)
+!procedure ShoppingCart($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/ShoppingCart', $name, $tech, $desc)
 !endprocedure

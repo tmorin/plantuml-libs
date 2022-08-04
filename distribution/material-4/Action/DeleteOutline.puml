@@ -2,12 +2,12 @@
 
 sprite $DeleteOutlineXs [10x10/16z] Oy0AEFb10Cn4i40aGHP21m8
 
-sprite $DeleteOutlineSm [12x12/16z] Oy0DU7Zu-VbvUC1i5WY0YFE309JD32B8OxE0pK6p5
+sprite $DeleteOutlineSm [12x12/16z] Oy0DU7Zu-VbvUC1iPcOM8626YFE300k4pGmYo6EpWCr1inG
 
-sprite $DeleteOutlineMd [16x16/16z] Oo0AiFFoyZ32ECpyC00LO841A9y7AWtdypA108BF0wPenkU4sWztCHCO0BcO
+sprite $DeleteOutlineMd [16x16/16z] Oo0AiFFoyZ32ECpyC00JO840PYYV1ohD0kFpCe40Wiy3fcZ6vuJQ3tSn4nW0kPW
 
-sprite $DeleteOutlineLg [20x20/16z] pSZ50O0m40J0HUBMVxLuahiV3lCSNDG9eTDC297Ff2fVsrV8VChenHKxBCHFpwMiGzRuk0WQHum
+sprite $DeleteOutlineLg [20x20/16z] pSZ50O0m343HA2xxJuktJMuul6e-NCIgHJzJrT3AFWcDMEOrOmYQFX3JkfLhwwi_RNKVC0JOT8ksW2D6
 
-!procedure DeleteOutline($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/DeleteOutline', $name, $tech)
+!procedure DeleteOutline($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/DeleteOutline', $name, $tech, $desc)
 !endprocedure

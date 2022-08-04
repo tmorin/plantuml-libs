@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/MenuBook')
 
 ' renders the element
-MenuBook('MenuBook', 'Menu Book', 'an optional tech label')
+MenuBook('MenuBook', 'Menu Book', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/MenuBook')
 
 ' renders the element
-MenuBook('MenuBook', 'Menu Book', 'an optional tech label')
+MenuBook('MenuBook', 'Menu Book', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

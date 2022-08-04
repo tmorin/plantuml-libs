@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/FormatStrikethrough')
 
 ' renders the element
-FormatStrikethrough('FormatStrikethrough', 'Format Strikethrough', 'an optional tech label')
+FormatStrikethrough('FormatStrikethrough', 'Format Strikethrough', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/FormatStrikethrough')
 
 ' renders the element
-FormatStrikethrough('FormatStrikethrough', 'Format Strikethrough', 'an optional tech label')
+FormatStrikethrough('FormatStrikethrough', 'Format Strikethrough', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

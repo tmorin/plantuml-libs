@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalPharmacy')
 
 ' renders the element
-LocalPharmacy('LocalPharmacy', 'Local Pharmacy', 'an optional tech label')
+LocalPharmacy('LocalPharmacy', 'Local Pharmacy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalPharmacy')
 
 ' renders the element
-LocalPharmacy('LocalPharmacy', 'Local Pharmacy', 'an optional tech label')
+LocalPharmacy('LocalPharmacy', 'Local Pharmacy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

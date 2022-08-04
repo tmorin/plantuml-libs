@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/Snooze')
 
 ' renders the element
-Snooze('Snooze', 'Snooze', 'an optional tech label')
+Snooze('Snooze', 'Snooze', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/Snooze')
 
 ' renders the element
-Snooze('Snooze', 'Snooze', 'an optional tech label')
+Snooze('Snooze', 'Snooze', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,6 +8,6 @@ sprite $SaveMd [16x16/16z] XSg50S1020F0KFViFstjtUyL2DhsKzbLUV3uaUTVdmVKgnf-pUv_p
 
 sprite $SaveLg [20x20/16z] fSs34G1H30JG_NRIVxLd6s-q4-AVmZCrr3ZQGLCKGyrYC4-kQzGd9mUBsknRZRHqsreR_5nRfUsSsjGY84__vgxc2isAn6Cr
 
-!procedure Save($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Content/Save', $name, $tech)
+!procedure Save($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/Save', $name, $tech, $desc)
 !endprocedure

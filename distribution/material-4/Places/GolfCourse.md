@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Places/GolfCourse')
 
 ' renders the element
-GolfCourse('GolfCourse', 'Golf Course', 'an optional tech label')
+GolfCourse('GolfCourse', 'Golf Course', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Places/GolfCourse')
 
 ' renders the element
-GolfCourse('GolfCourse', 'Golf Course', 'an optional tech label')
+GolfCourse('GolfCourse', 'Golf Course', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

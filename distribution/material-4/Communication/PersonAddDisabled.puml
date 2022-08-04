@@ -4,13 +4,13 @@ sprite $PersonAddDisabledXs [10x10/16z] HSor0O0m50L0l05o-qyRbwzNlMtMjIZlGoT59rs7
 
 sprite $PersonAddDisabledSm [12x12/16z] TOs50S0W30HnXzj_swRkSVrNVuAUOub70xIvRj80IDaPQ219RPetABcRfRdvnvgj0tJ4pJMipLpRMUJiIZe1
 
-sprite $PersonAddDisabledMd [16x16/16z] XOu54iHG24E1rUgx_ssR-LANZ4BK7j3Yfu-0tXAQz83vWHu1GBa7FUQR1CN0AmK5dsX5pJsypVIO8Ta7y60ecWxI8qNCcRWpfBjF6FHevvHvwUPX4m
+sprite $PersonAddDisabledMd [16x16/16z] XOw54S1G24E1khxzjsskxZ-d4BK4MlpwQ9WV0Vtv0Vi3FGA0zHxqs6zcA1UoEIWeeiLixo4tqsE7P0NWmR1gEfWVSyIUYJl3VFSp1ZtQn_JhmoO
 
 sprite $PersonAddDisabledLg [20x20/16z] {
 ZT3L0KCX44JHmPwpj_zgOnFtymdh-bCDlSYGPAaMMGAT373zJqHo0h396Y5fvEJw1kdXhPIH2Hvo0qiDwCajya3B1QJa5zUhrpaVtZI355lHrUAQseWgsp0f
 8FiDS-JuyER8yUsL7YNGYyIeFG
 }
 
-!procedure PersonAddDisabled($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Communication/PersonAddDisabled', $name, $tech)
+!procedure PersonAddDisabled($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/PersonAddDisabled', $name, $tech, $desc)
 !endprocedure

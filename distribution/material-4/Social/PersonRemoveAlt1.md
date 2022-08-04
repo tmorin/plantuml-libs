@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/PersonRemoveAlt1')
 
 ' renders the element
-PersonRemoveAlt1('PersonRemoveAlt1', 'Person Remove Alt1', 'an optional tech label')
+PersonRemoveAlt1('PersonRemoveAlt1', 'Person Remove Alt1', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/PersonRemoveAlt1')
 
 ' renders the element
-PersonRemoveAlt1('PersonRemoveAlt1', 'Person Remove Alt1', 'an optional tech label')
+PersonRemoveAlt1('PersonRemoveAlt1', 'Person Remove Alt1', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

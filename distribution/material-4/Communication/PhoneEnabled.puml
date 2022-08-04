@@ -4,10 +4,10 @@ sprite $PhoneEnabledXs [10x10/16z] Oy0D-FdniU0CJXum5mY030WBpI
 
 sprite $PhoneEnabledSm [12x12/16z] Oo00-FdvSR2vuMn6VaOucvaVIIzC5oCpFnE43G884nWnxGC
 
-sprite $PhoneEnabledMd [16x16/16z] ZOs35S1040KNiQR_QcFhRfuM7n9FqpRdrG4xxHcWfxq5v8H29sUKzBBNNDOKNmRBMftMV5aR0AqfJZqmYOz_TqusbMy6
+sprite $PhoneEnabledMd [16x16/16z] ZOx50K0X5CDmX-o_xNVNd9ws5VyfjUnR3QXTx_fUxlhQz_jx2KqS1_RGPmwjHK-5SbKERPXZq2Dptsu-FVtnjczxPIN5Cnq
 
 sprite $PhoneEnabledLg [20x20/16z] hOx50O1030I3M-wc_sfn3VaW-roNlw206Yuw743dS9MJpGoN069HKDyunzPIMgevpcc0EBlqyWfoK34Sb68uSoA4hixa1GO
 
-!procedure PhoneEnabled($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Communication/PhoneEnabled', $name, $tech)
+!procedure PhoneEnabled($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/PhoneEnabled', $name, $tech, $desc)
 !endprocedure

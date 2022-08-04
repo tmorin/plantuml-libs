@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/PivotTableChart')
 
 ' renders the element
-PivotTableChart('PivotTableChart', 'Pivot Table Chart', 'an optional tech label')
+PivotTableChart('PivotTableChart', 'Pivot Table Chart', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/PivotTableChart')
 
 ' renders the element
-PivotTableChart('PivotTableChart', 'Pivot Table Chart', 'an optional tech label')
+PivotTableChart('PivotTableChart', 'Pivot Table Chart', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Device/Dvr')
 
 ' renders the element
-Dvr('Dvr', 'Dvr', 'an optional tech label')
+Dvr('Dvr', 'Dvr', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Device/Dvr')
 
 ' renders the element
-Dvr('Dvr', 'Dvr', 'an optional tech label')
+Dvr('Dvr', 'Dvr', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

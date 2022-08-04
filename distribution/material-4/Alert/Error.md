@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Alert/Error')
 
 ' renders the element
-Error('Error', 'Error', 'an optional tech label')
+Error('Error', 'Error', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Alert/Error')
 
 ' renders the element
-Error('Error', 'Error', 'an optional tech label')
+Error('Error', 'Error', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

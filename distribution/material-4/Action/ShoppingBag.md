@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/ShoppingBag')
 
 ' renders the element
-ShoppingBag('ShoppingBag', 'Shopping Bag', 'an optional tech label')
+ShoppingBag('ShoppingBag', 'Shopping Bag', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/ShoppingBag')
 
 ' renders the element
-ShoppingBag('ShoppingBag', 'Shopping Bag', 'an optional tech label')
+ShoppingBag('ShoppingBag', 'Shopping Bag', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/ThumbDownOffAlt')
 
 ' renders the element
-ThumbDownOffAlt('ThumbDownOffAlt', 'Thumb Down Off Alt', 'an optional tech label')
+ThumbDownOffAlt('ThumbDownOffAlt', 'Thumb Down Off Alt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/ThumbDownOffAlt')
 
 ' renders the element
-ThumbDownOffAlt('ThumbDownOffAlt', 'Thumb Down Off Alt', 'an optional tech label')
+ThumbDownOffAlt('ThumbDownOffAlt', 'Thumb Down Off Alt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

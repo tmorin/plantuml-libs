@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalCafe')
 
 ' renders the element
-LocalCafe('LocalCafe', 'Local Cafe', 'an optional tech label')
+LocalCafe('LocalCafe', 'Local Cafe', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalCafe')
 
 ' renders the element
-LocalCafe('LocalCafe', 'Local Cafe', 'an optional tech label')
+LocalCafe('LocalCafe', 'Local Cafe', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

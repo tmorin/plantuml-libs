@@ -8,6 +8,6 @@ sprite $EmojiPeopleMd [16x16/16z] fOh50K0X34EJVbVsdnPtZZoaZM14tCUYrMwVkhA-VwVlgl
 
 sprite $EmojiPeopleLg [20x20/16z] hOo35KH10CIozax_rPvj_3mFmkTuUM0gNMH65Poao-6K0QbnDLJ0EAvmsj6lqxGBnrLcjUS-Ynft6K6wouZbFhlsZNgV9UQ2cUc1rddE6W
 
-!procedure EmojiPeople($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Social/EmojiPeople', $name, $tech)
+!procedure EmojiPeople($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/EmojiPeople', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/CancelScheduleSend')
 
 ' renders the element
-CancelScheduleSend('CancelScheduleSend', 'Cancel Schedule Send', 'an optional tech label')
+CancelScheduleSend('CancelScheduleSend', 'Cancel Schedule Send', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/CancelScheduleSend')
 
 ' renders the element
-CancelScheduleSend('CancelScheduleSend', 'Cancel Schedule Send', 'an optional tech label')
+CancelScheduleSend('CancelScheduleSend', 'Cancel Schedule Send', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

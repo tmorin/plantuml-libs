@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/PublicOff')
 
 ' renders the element
-PublicOff('PublicOff', 'Public Off', 'an optional tech label')
+PublicOff('PublicOff', 'Public Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/PublicOff')
 
 ' renders the element
-PublicOff('PublicOff', 'Public Off', 'an optional tech label')
+PublicOff('PublicOff', 'Public Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

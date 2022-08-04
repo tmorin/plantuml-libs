@@ -5,8 +5,8 @@ sprite $NoFlashXs [10x10/16z] HSR50O0m0C30u4xsdnRglTVHRIJEc2l4vfsw3JutQ2fnnAODxc
 sprite $NoFlashSm [12x12/16z] JSV50GGn08NGFt6d_sfZgvnu-k_HgzmV4L_Va2vU_q8xa29imBFPeHsu-pMoOUyxw1ltkwdYeWCDNZ2lDBG
 
 sprite $NoFlashMd [16x16/16z] {
-VOp50GD14CEypEl-kyquJ7VwIGCumNaFrFBqoG4abfSxtCFT5uoi461eZf26XL5JmD1JYe9EUXXUMhN1UFUDjXKUdZgfW3VlXUNX2xrZKq5k8KRJU-2Jp8mF
-4d01
+VOe50WGX58KOk__zRxk-xSO4vG-7Sr3otOTrY9OVVl08ygaZANWsUiV7laClqTE1mqIccJasJbhqmyBL5tKf-Al7PgO03szPuUAJrbYc8DyXXAtNO7UI9Lw8
+S08
 }
 
 sprite $NoFlashLg [20x20/16z] {
@@ -14,6 +14,6 @@ ZOw54SGm40ELcF7wx_P78TFJ1hrp8FoDGqSMqK0KDpf-XB8v3r8eMvt2N2a5U2hLMN2-en27JKGAybbz
 12Rx8vHhE-e6f6lcvHhrb2et74ImiW4l
 }
 
-!procedure NoFlash($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Places/NoFlash', $name, $tech)
+!procedure NoFlash($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/NoFlash', $name, $tech, $desc)
 !endprocedure

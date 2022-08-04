@@ -7,10 +7,10 @@ sprite $GroupWorkSm [12x12/16z] NOc50KGX34E3Ezb_smlSzmTj8_YIMppKu28TCcEIGLePuFRE
 sprite $GroupWorkMd [16x16/16z] ROo55GCn34F_COJstxPFXhA25l4Vq_G-rI4SCSqZq7pMT-PCekeJz1BlW2aIKsJzyRRkG_fcXGhScj55KzKwRk0OXq9Tv0JmIfyQnUSOM6Gf4t_m
 
 sprite $GroupWorkLg [20x20/16z] {
-bOtL0KCn3CJkXJdxJrk8obnzdMNIVwHve5jTYNF2C1BKUGN9LD_abjoMkyH-39NpvvsnaXWZEeB3tP7ltLgkkC3pJMfpHYxh04kERmx7Kg3Gc4tRM2Sigpg6
-ArrWxnLi5SFY1LzQCdhF7W
+bOtL0SDG3CGkUSpxJnjIcQkliqpwZpWscj6LC4xqMO8ohY2PQfFi8IVjN6BRG-7yUQSVIOmHBS7YxaZtxbWkECVpIQfZ12vhWoNBDujZoLEeZwffF-LbMDKU
+hZI1kLSm5GoB5rokSTPxLW
 }
 
-!procedure GroupWork($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/GroupWork', $name, $tech)
+!procedure GroupWork($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/GroupWork', $name, $tech, $desc)
 !endprocedure

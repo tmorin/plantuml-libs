@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Announcement')
 
 ' renders the element
-Announcement('Announcement', 'Announcement', 'an optional tech label')
+Announcement('Announcement', 'Announcement', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Announcement')
 
 ' renders the element
-Announcement('Announcement', 'Announcement', 'an optional tech label')
+Announcement('Announcement', 'Announcement', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

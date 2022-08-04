@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Print')
 
 ' renders the element
-Print('Print', 'Print', 'an optional tech label')
+Print('Print', 'Print', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Print')
 
 ' renders the element
-Print('Print', 'Print', 'an optional tech label')
+Print('Print', 'Print', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

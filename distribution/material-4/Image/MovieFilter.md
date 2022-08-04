@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/MovieFilter')
 
 ' renders the element
-MovieFilter('MovieFilter', 'Movie Filter', 'an optional tech label')
+MovieFilter('MovieFilter', 'Movie Filter', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/MovieFilter')
 
 ' renders the element
-MovieFilter('MovieFilter', 'Movie Filter', 'an optional tech label')
+MovieFilter('MovieFilter', 'Movie Filter', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

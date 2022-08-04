@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Circle')
 
 ' renders the element
-Circle('Circle', 'Circle', 'an optional tech label')
+Circle('Circle', 'Circle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Circle')
 
 ' renders the element
-Circle('Circle', 'Circle', 'an optional tech label')
+Circle('Circle', 'Circle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

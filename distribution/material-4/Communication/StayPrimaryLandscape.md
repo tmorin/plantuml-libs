@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/StayPrimaryLandscape')
 
 ' renders the element
-StayPrimaryLandscape('StayPrimaryLandscape', 'Stay Primary Landscape', 'an optional tech label')
+StayPrimaryLandscape('StayPrimaryLandscape', 'Stay Primary Landscape', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/StayPrimaryLandscape')
 
 ' renders the element
-StayPrimaryLandscape('StayPrimaryLandscape', 'Stay Primary Landscape', 'an optional tech label')
+StayPrimaryLandscape('StayPrimaryLandscape', 'Stay Primary Landscape', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

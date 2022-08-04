@@ -2,12 +2,12 @@
 
 sprite $SpeakerNotesXs [10x10/16z] Oq00Jdu8O63WXm8U1Y2F1oY5ncBYPM82oq81WiNCmC_8W0u
 
-sprite $SpeakerNotesSm [12x12/16z] ROk55O0m44DJxqaU-q-BE_np2HuuDmpWS13dlh7adBdsixdxjiyU5zdQ5yynxl-paNk_iVLv8m6C-6C2
+sprite $SpeakerNotesSm [12x12/16z] RSm54e0m40F0z0HDXl-_5dVOZBHdUA0sFQ3XOFExLaQ4rlSSabizQ02ulfDXji_FaTRtyqvupDm16VvC
 
-sprite $SpeakerNotesMd [16x16/16z] VSc53G0n4CJ03TD1_zK-CyJ2aV7AsBEPUWsmRwUeVeutnw1kZYwsKxj3K7kpdysgbt_nqP_z4MPRNBC6lKO
+sprite $SpeakerNotesMd [16x16/16z] VSc54S0m5CDG9v_Atd_QCfCEtmcFKZwQo7D0VZgSEjMkTgDCDIVdiSrcp1Vhv9Oy_jb77zOr4KpEE9SJ_Xe
 
-sprite $SpeakerNotesLg [20x20/16z] dSk50SGm30D0XJdQVzh_ClEr8Tl2Ou5hROqRwQ2M-vhJBBfJfff6UslbgLPhkrgyd8kUrNVgL3EIHJR8VNQkpLxLL5_J2n9TJM2B4X_z0G
+sprite $SpeakerNotesLg [20x20/16z] dSo50SGW30LG80aEV_zjZwkxlHQBgSS2rlunRAI3MEvZZb68_yeKO_M__UKfLkj__U6oBdfKtwbJJ0oAQO1zxnoRlOfH7sEczlqHctwmLbimwgCV
 
-!procedure SpeakerNotes($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/SpeakerNotes', $name, $tech)
+!procedure SpeakerNotes($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/SpeakerNotes', $name, $tech, $desc)
 !endprocedure

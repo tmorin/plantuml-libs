@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/MicExternalOff')
 
 ' renders the element
-MicExternalOff('MicExternalOff', 'Mic External Off', 'an optional tech label')
+MicExternalOff('MicExternalOff', 'Mic External Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/MicExternalOff')
 
 ' renders the element
-MicExternalOff('MicExternalOff', 'Mic External Off', 'an optional tech label')
+MicExternalOff('MicExternalOff', 'Mic External Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

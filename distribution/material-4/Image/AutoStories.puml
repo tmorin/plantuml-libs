@@ -8,6 +8,6 @@ sprite $AutoStoriesMd [16x16/16z] fSU50G0n20J1YplqN-sxksm41XUv3RaREgHeEp84m7r2SE
 
 sprite $AutoStoriesLg [20x20/16z] jSg53G0n40D1XpdNVxNFpBWYQsIS9zR4QVsYpbIYAiVgLstLgAM9WMhZf95xuxsPdqskZM5b32i3rYPT24vFpVV383d10AOY1LaF6HKkLW8
 
-!procedure AutoStories($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/AutoStories', $name, $tech)
+!procedure AutoStories($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/AutoStories', $name, $tech, $desc)
 !endprocedure

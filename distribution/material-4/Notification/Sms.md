@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/Sms')
 
 ' renders the element
-Sms('Sms', 'Sms', 'an optional tech label')
+Sms('Sms', 'Sms', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/Sms')
 
 ' renders the element
-Sms('Sms', 'Sms', 'an optional tech label')
+Sms('Sms', 'Sms', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

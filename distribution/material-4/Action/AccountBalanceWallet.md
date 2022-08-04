@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/AccountBalanceWallet')
 
 ' renders the element
-AccountBalanceWallet('AccountBalanceWallet', 'Account Balance Wallet', 'an optional tech label')
+AccountBalanceWallet('AccountBalanceWallet', 'Account Balance Wallet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/AccountBalanceWallet')
 
 ' renders the element
-AccountBalanceWallet('AccountBalanceWallet', 'Account Balance Wallet', 'an optional tech label')
+AccountBalanceWallet('AccountBalanceWallet', 'Account Balance Wallet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

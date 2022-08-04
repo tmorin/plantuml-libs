@@ -8,6 +8,6 @@ sprite $PersonOutlineMd [16x16/16z] dSc54SKW54JHnPtjlzelGSTY1xtpy8eayzuCgkPztCuW
 
 sprite $PersonOutlineLg [20x20/16z] hOxL0S0W30LnXzj_shhcjpqq_jGVMAUbQm3fxQf4Mx4l7tMzyjlNTf-eDHsZNdGWAe7MqX5h7oqxKSZWKQuXxTrTe-m-_z1QENqbd_JBzqHzOmO
 
-!procedure PersonOutline($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Social/PersonOutline', $name, $tech)
+!procedure PersonOutline($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/PersonOutline', $name, $tech, $desc)
 !endprocedure

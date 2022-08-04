@@ -8,6 +8,6 @@ sprite $ArrowUpwardMd [16x16/16z] dSYr0G0X0C30lFkp_xIuLaYw2sDDVqaXleA_7P7lBD0Z4k
 
 sprite $ArrowUpwardLg [20x20/16z] hSYr0O004C30u4xsdnPtsh_o297ygp7zbz-izPkrGsFnoiPXwIHvP6FFUcHNfcjjH-h0aPn7nka-GY_03
 
-!procedure ArrowUpward($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Navigation/ArrowUpward', $name, $tech)
+!procedure ArrowUpward($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Navigation/ArrowUpward', $name, $tech, $desc)
 !endprocedure

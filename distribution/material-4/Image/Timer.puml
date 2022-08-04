@@ -10,10 +10,10 @@ ROu30iGm54GdTjxzJrjtsV1heCSr0FUHM-U-qWuK6NkcXH5z1iQHPhpaf8evSg9asLdddiOzjAz7RRn2
 }
 
 sprite $TimerLg [20x20/16z] {
-TOi75WCX50AnTxd_RVE-f2SxzX5mZTl6f_CqleCXXg_OfZ4G-aCrigTOfddtK4kNGFh7RGAebl3SSfFkEEqHXffoZaskFfm21ikxct83BzXXBBvKPeAHMF5W
-4sAnwEAMOlfT_XJL48s77V5ExBCwN7C3
+TOi75WCX50AnTxd_RVE-f2SxzX5mZTl6f_CqleCXXg_OfZ4G-aCrigTOfddtK4kNGFh7RGAebl3SSfFkEEqHXffoZaskFfm21ikxct83uksn-5AP2KPYnODD
+YCMYYrkAwNVvKrH3D1vsn3knp-fmpGq
 }
 
-!procedure Timer($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/Timer', $name, $tech)
+!procedure Timer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/Timer', $name, $tech, $desc)
 !endprocedure

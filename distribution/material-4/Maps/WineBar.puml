@@ -8,6 +8,6 @@ sprite $WineBarMd [16x16/16z] ZSc53G0X0CNGVwx0_jFYxY_Q51CUOcosV_OhR7VzGmbDDiNtnu
 
 sprite $WineBarLg [20x20/16z] fSY35K1H30Mm--ns_sc_RUGu-2lpI2_ETiBgq36tDrBJfUdaT7OwpCPoYnFKLS2A8yu26vwdUddSYQkZJi0hDG
 
-!procedure WineBar($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/WineBar', $name, $tech)
+!procedure WineBar($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/WineBar', $name, $tech, $desc)
 !endprocedure

@@ -2,12 +2,12 @@
 
 sprite $TabletXs [10x10/16z] Oy06-660WPyDB4022w4N3W
 
-sprite $TabletSm [12x12/16z] Oy05E7XWW9c1dvy50lZvWMoe0hBOK2E1R2Pc642n5W
+sprite $TabletSm [12x12/16z] Oy05E7XWW9c1dv-PcGK8cFdvWMoe0hBOK2E1R2Pc642n5W
 
-sprite $TabletMd [16x16/16z] Oo0LSFCZ0sO6VdvU5XZWv-TX064Oe0iVIC00Fpyt0miFCY3e7G
+sprite $TabletMd [16x16/16z] Oo0LSFCZ0sO6VdvUPXO8OERdvs40OHYW2nz8m00_FpS32myo8EWT
 
-sprite $TabletLg [20x20/16z] Ow08iB2Y0YO61Yv-TC34mCVFpy62040nDg0Oa420eIB6ouC0O35M3FzI5A8
+sprite $TabletLg [20x20/16z] Ow08iB2Y0YO61Yv-TC34mCVFpy7C0e8Wm0mKOmEA0Ga462fYl3m801PZnV0lHI4A
 
-!procedure Tablet($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Hardware/Tablet', $name, $tech)
+!procedure Tablet($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Hardware/Tablet', $name, $tech, $desc)
 !endprocedure

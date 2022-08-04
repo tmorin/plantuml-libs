@@ -8,6 +8,6 @@ sprite $AspectRatioMd [16x16/16z] XSt50S003090cdmgKFQVjkvwloZuazIk0IpkJ3YnauOwRP
 
 sprite $AspectRatioLg [20x20/16z] fS_50O1050FHxCSjwRzQt1rsZkysy2dLFWSgtfGeQGsRRB1CKdamiZZO1FVcR8AKaorbUcDgsrlSDjdXezA-6475RJdUrW
 
-!procedure AspectRatio($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/AspectRatio', $name, $tech)
+!procedure AspectRatio($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/AspectRatio', $name, $tech, $desc)
 !endprocedure

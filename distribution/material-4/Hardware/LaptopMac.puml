@@ -8,6 +8,6 @@ sprite $LaptopMacMd [16x16/16z] lSUr0S0024N15pVWxpzjN2kwN7UaUhzP1ONive9ItAeVNcZd
 
 sprite $LaptopMacLg [20x20/16z] pSY53OHG04J1Tu9l_lPVBUv4yOaFXyXBNy2Avrm0pfbxtocQQo-u5J9tVXIIMobk1Udh3N501G
 
-!procedure LaptopMac($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Hardware/LaptopMac', $name, $tech)
+!procedure LaptopMac($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Hardware/LaptopMac', $name, $tech, $desc)
 !endprocedure

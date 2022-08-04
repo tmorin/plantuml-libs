@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Places/RiceBowl')
 
 ' renders the element
-RiceBowl('RiceBowl', 'Rice Bowl', 'an optional tech label')
+RiceBowl('RiceBowl', 'Rice Bowl', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Places/RiceBowl')
 
 ' renders the element
-RiceBowl('RiceBowl', 'Rice Bowl', 'an optional tech label')
+RiceBowl('RiceBowl', 'Rice Bowl', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

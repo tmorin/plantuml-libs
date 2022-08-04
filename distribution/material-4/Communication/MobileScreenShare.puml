@@ -8,6 +8,6 @@ sprite $MobileScreenShareMd [16x16/16z] Oy02-A606y9bveS169y737XXV79eDdvaFXFGS3ua
 
 sprite $MobileScreenShareLg [20x20/16z] fSg35G0n403HMAl-gptRcFY_gBE0ny98IUP6ouSMXd2s_pVOcGV1ZQ4q-PK5Ybxy-bzi3gjc-tcRkpAtiX7Zc5PDDG
 
-!procedure MobileScreenShare($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Communication/MobileScreenShare', $name, $tech)
+!procedure MobileScreenShare($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/MobileScreenShare', $name, $tech, $desc)
 !endprocedure

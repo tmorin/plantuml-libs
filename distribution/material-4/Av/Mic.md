@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/Mic')
 
 ' renders the element
-Mic('Mic', 'Mic', 'an optional tech label')
+Mic('Mic', 'Mic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/Mic')
 
 ' renders the element
-Mic('Mic', 'Mic', 'an optional tech label')
+Mic('Mic', 'Mic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

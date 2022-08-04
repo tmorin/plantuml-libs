@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/ElectricalServices')
 
 ' renders the element
-ElectricalServices('ElectricalServices', 'Electrical Services', 'an optional tech label')
+ElectricalServices('ElectricalServices', 'Electrical Services', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/ElectricalServices')
 
 ' renders the element
-ElectricalServices('ElectricalServices', 'Electrical Services', 'an optional tech label')
+ElectricalServices('ElectricalServices', 'Electrical Services', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

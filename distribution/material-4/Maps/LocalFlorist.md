@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalFlorist')
 
 ' renders the element
-LocalFlorist('LocalFlorist', 'Local Florist', 'an optional tech label')
+LocalFlorist('LocalFlorist', 'Local Florist', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalFlorist')
 
 ' renders the element
-LocalFlorist('LocalFlorist', 'Local Florist', 'an optional tech label')
+LocalFlorist('LocalFlorist', 'Local Florist', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

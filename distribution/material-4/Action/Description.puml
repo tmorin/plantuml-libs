@@ -8,6 +8,6 @@ sprite $DescriptionMd [16x16/16z] Oy02c4204SxbXm1sL3uZM031Ps022o3uO044dvUNbuy7me
 
 sprite $DescriptionLg [20x20/16z] bSm54WGX34JHnXtkVzhTqHwtNqOzak13RSejP2QAnCN4WeiX41T3d92cf9IfqPOUJ0xPnPRNusuSoe-xUQZStbCd1fDPmaL_
 
-!procedure Description($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/Description', $name, $tech)
+!procedure Description($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Description', $name, $tech, $desc)
 !endprocedure

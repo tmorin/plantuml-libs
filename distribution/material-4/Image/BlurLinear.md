@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/BlurLinear')
 
 ' renders the element
-BlurLinear('BlurLinear', 'Blur Linear', 'an optional tech label')
+BlurLinear('BlurLinear', 'Blur Linear', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/BlurLinear')
 
 ' renders the element
-BlurLinear('BlurLinear', 'Blur Linear', 'an optional tech label')
+BlurLinear('BlurLinear', 'Blur Linear', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

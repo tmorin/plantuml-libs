@@ -4,13 +4,13 @@ sprite $FindReplaceXs [10x10/16z] RKU50O104CBwk6B_QUrM6loZahakeymPN9O1oUQOV_HpB8
 
 sprite $FindReplaceSm [12x12/16z] VKn50W0W3B9R-VzhRRURwm34nrIAi-onm7eqiw-OfMBFKivK1v9QMmzvuFCcSQW1jG7hlamheTv2Scm3
 
-sprite $FindReplaceMd [16x16/16z] dSd50S0W04FHrF7iFotkntxq0VxqabGuhqf3UNyax_Px0ZYwAJExzvnpDfz7CUdI8OZk8r5MsyCnflYXTLmd8Ef3J_35KkSe
+sprite $FindReplaceMd [16x16/16z] dSd50S0W04FHrF7iFotkntxq0VxqabGuhqf3UNyax_Px0ZYwAJExzvnp9fz7CUdI8OZk8r5MsyCnflYXTLmd8Ef3J_35KkSe
 
 sprite $FindReplaceLg [20x20/16z] {
 hOu50aGX20MnstV_qtxRxTwnHmNe3mWfhen3mv2JMqKaBKr2mdOMhgyP9uSqhqwEHzKM7Ik27YDpfNyocKsdMXap2PrSd2Nfaql8HjaCXEqq6JHqRF845xpE
 9tdYWVJqDWK
 }
 
-!procedure FindReplace($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/FindReplace', $name, $tech)
+!procedure FindReplace($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/FindReplace', $name, $tech, $desc)
 !endprocedure

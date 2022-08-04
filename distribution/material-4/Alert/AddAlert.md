@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Alert/AddAlert')
 
 ' renders the element
-AddAlert('AddAlert', 'Add Alert', 'an optional tech label')
+AddAlert('AddAlert', 'Add Alert', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Alert/AddAlert')
 
 ' renders the element
-AddAlert('AddAlert', 'Add Alert', 'an optional tech label')
+AddAlert('AddAlert', 'Add Alert', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

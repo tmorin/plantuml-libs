@@ -2,12 +2,12 @@
 
 sprite $TransformXs [10x10/16z] Oq02JFnm9Z-CvkTd1cAu60OBeGCCU13w4Im
 
-sprite $TransformSm [12x12/16z] RSS55e1030FHLF3axVrFYplybKxnfEPCOtrann8zEIpjmV081HPS1lE_7Qj1NArhPAQQn2wBS6eSc
+sprite $TransformSm [12x12/16z] RSS55e1030FHLF3axVrFYplybKxnfEPCOtrann8zEIpjmV081HPS1lE_7Qj1NArhPAQQm2wBS6eSc
 
-sprite $TransformMd [16x16/16z] bS-50O0m30J0rEtXzvyMT-VgtiY54FP3SZy1R0OA8AG0Y9inEZJx_RJ_njNc_4xYGWR6zXYibPMXr_imQjdnVTK2
+sprite $TransformMd [16x16/16z] bS-50O0m30J0rEtXzvyMT-VgtiY54FP3SZy1o4e1X1G0SJD6XsQ_d_RVk3BhU2Tn8GDZUmpMoChGwtqOjUpulce1
 
-sprite $TransformLg [20x20/16z] hSs53SH034HHB_F-_giz35iHveaDCtB79JMoS1sQEgbMBZhNGUyWjd-qkCpu4iUFLRy1__3C7MTA8-oMzyH1bp_hVpB9-prIzIuoaFGmYl9_VGC
+sprite $TransformLg [20x20/16z] hSq53WHH309GVdsK-vzstPkDpejN0Fzejf6GlyCnxvm5FrR-3jQLXAmNIpncl8BoHjglqmwUwUUiMUXlZ_VaXnLtegPcLanJnKFlVIYIsOU1nd1r1W
 
-!procedure Transform($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/Transform', $name, $tech)
+!procedure Transform($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/Transform', $name, $tech, $desc)
 !endprocedure

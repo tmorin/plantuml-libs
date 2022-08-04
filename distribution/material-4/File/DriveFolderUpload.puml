@@ -6,8 +6,8 @@ sprite $DriveFolderUploadSm [12x12/16z] TSQ54O1054F1Xrl-fFzgSOVRiIL9KhCtFDDic5yN
 
 sprite $DriveFolderUploadMd [16x16/16z] bOm54i1020FhtkR_l-tWZ9tiAP1aw0R4xkK4vY7kXUh7UK4rozWmU_tXoFL7aRcUi9vHsntr-5WzuWbeTgPw6Mhy
 
-sprite $DriveFolderUploadLg [20x20/16z] fOs30K1134FFRhF_jDysth5An3-CRLcbqECFSYWzSSxDX3QNrb9bpZdiSWxWJSwYPPtB7E5XDde1idrkSzejVRaiwLe2reXVr
+sprite $DriveFolderUploadLg [20x20/16z] fOs30K1134FFRhF_jDysth5An3-CRJ2h57hyGGwb9tQv3Q7DfRLKcNCEkvm3U9EpQ5ddCaTuc8rUWEpUkvnsIrykIxgMW3NY5pK
 
-!procedure DriveFolderUpload($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/File/DriveFolderUpload', $name, $tech)
+!procedure DriveFolderUpload($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/File/DriveFolderUpload', $name, $tech, $desc)
 !endprocedure

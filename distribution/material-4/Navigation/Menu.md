@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/Menu')
 
 ' renders the element
-Menu('Menu', 'Menu', 'an optional tech label')
+Menu('Menu', 'Menu', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/Menu')
 
 ' renders the element
-Menu('Menu', 'Menu', 'an optional tech label')
+Menu('Menu', 'Menu', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

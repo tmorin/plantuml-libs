@@ -8,6 +8,6 @@ sprite $SettingsBrightnessMd [16x16/16z] XSh50G0n4090uhgX_shFNUU7u8-fiYi0fUvOGOE
 
 sprite $SettingsBrightnessLg [20x20/16z] fSwr0GH1509GE1iV-g_sV8raxOLVmHbHZkXwB0G5TE67-BhCQa6qcgGkPQzTkAo5JmtNpgb6VMjGdMhWjnOh_5wq7pbBDGVBnsgPlwPQatlWslfInbOl
 
-!procedure SettingsBrightness($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/SettingsBrightness', $name, $tech)
+!procedure SettingsBrightness($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/SettingsBrightness', $name, $tech, $desc)
 !endprocedure

@@ -8,6 +8,6 @@ sprite $LensMd [16x16/16z] RSx50S0W343HI5ttdxOAHF_jeO4yHAtjV1kBw2pjly_MNWwtk6oh0
 
 sprite $LensLg [20x20/16z] bSrL0W0X24LHkuNzhtRwJPVtyoWWsWeyLFLEF2-H0cNUKlYrJqx6XpBMxyEtVUR6uetb6_E3qSdKOEPoz_BHJwRtL4S1Wf3CXq5aKmbAFDS3
 
-!procedure Lens($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/Lens', $name, $tech)
+!procedure Lens($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/Lens', $name, $tech, $desc)
 !endprocedure

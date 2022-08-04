@@ -8,6 +8,6 @@ sprite $HighlightMd [16x16/16z] XOg30G0n34KFDVUVjZPVaNmy6xv1whfZzrxXlrZIVlSoBUzV
 
 sprite $HighlightLg [20x20/16z] fSg35G0n44NH7tkc_shNDcxyJl2MPt7J1BMxiksk4pgECmQAnz_UOLGm4dA4IUQHVjqIZnH6Sao4qHGpbXIti29_D95RE5S3
 
-!procedure Highlight($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Editor/Highlight', $name, $tech)
+!procedure Highlight($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/Highlight', $name, $tech, $desc)
 !endprocedure

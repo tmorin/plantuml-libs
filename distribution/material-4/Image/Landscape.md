@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Landscape')
 
 ' renders the element
-Landscape('Landscape', 'Landscape', 'an optional tech label')
+Landscape('Landscape', 'Landscape', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Landscape')
 
 ' renders the element
-Landscape('Landscape', 'Landscape', 'an optional tech label')
+Landscape('Landscape', 'Landscape', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Translate')
 
 ' renders the element
-Translate('Translate', 'Translate', 'an optional tech label')
+Translate('Translate', 'Translate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Translate')
 
 ' renders the element
-Translate('Translate', 'Translate', 'an optional tech label')
+Translate('Translate', 'Translate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

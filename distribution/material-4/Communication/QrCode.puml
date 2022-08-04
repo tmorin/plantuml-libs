@@ -8,6 +8,6 @@ sprite $QrCodeMd [16x16/16z] XOq53WGn54B94AkySF_RRcNTvbM_WKwf39gO72CclGU5yQouZpD
 
 sprite $QrCodeLg [20x20/16z] fOu54WD120Ixre08z__NHYRkShsA3_EOX95w4_aMOvXyOuoJRq2H3tZdirAgVAKK-PxFC54PUWUlI35O9vuFcea9hhNeTw_FO-nsl_ZkQyLjROe1P2TNVCqM
 
-!procedure QrCode($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Communication/QrCode', $name, $tech)
+!procedure QrCode($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/QrCode', $name, $tech, $desc)
 !endprocedure

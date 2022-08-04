@@ -8,6 +8,6 @@ sprite $UndoMd [16x16/16z] hOk50G0X30DVSRZzfqKpGWzjvBBcllVzt9eVxYkog9eNxlqhV9hTQ
 
 sprite $UndoLg [20x20/16z] nOt50G0X40DnX-c_slFyxi-WQudPXl_94Quh3c0MgnpU8wfom4hEsD1XAiSmBmwwSaGPWbSEkMUuxlPYbRHc5oS
 
-!procedure Undo($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Content/Undo', $name, $tech)
+!procedure Undo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/Undo', $name, $tech, $desc)
 !endprocedure

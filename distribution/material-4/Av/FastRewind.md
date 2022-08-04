@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/FastRewind')
 
 ' renders the element
-FastRewind('FastRewind', 'Fast Rewind', 'an optional tech label')
+FastRewind('FastRewind', 'Fast Rewind', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/FastRewind')
 
 ' renders the element
-FastRewind('FastRewind', 'Fast Rewind', 'an optional tech label')
+FastRewind('FastRewind', 'Fast Rewind', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/MarkAsUnread')
 
 ' renders the element
-MarkAsUnread('MarkAsUnread', 'Mark As Unread', 'an optional tech label')
+MarkAsUnread('MarkAsUnread', 'Mark As Unread', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/MarkAsUnread')
 
 ' renders the element
-MarkAsUnread('MarkAsUnread', 'Mark As Unread', 'an optional tech label')
+MarkAsUnread('MarkAsUnread', 'Mark As Unread', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

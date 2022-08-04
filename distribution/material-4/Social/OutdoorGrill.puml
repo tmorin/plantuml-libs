@@ -2,7 +2,7 @@
 
 sprite $OutdoorGrillXs [10x10/16z] Oy01-FZvqKIO-K40p4Im6E0CJbO6Ldvcc2m3I9GHnEDXO
 
-sprite $OutdoorGrillSm [12x12/16z] NOk50G0X30ChkEu_xGjE3waa0O57eDbhr1acgV3iEgslZTpjhOSExHQo0-FDMAUKGwMMPMPRkWldzm8
+sprite $OutdoorGrillSm [12x12/16z] NOk50G0X30ChkEu_xGjE3waa0O57eDbhr0KcgV3iEgslZTpjhOSExHQo0-FDMAUKGwMMPMPRkWldzm8
 
 sprite $OutdoorGrillMd [16x16/16z] ROl50S1G24FptIZiFsqLwY-d6Fvngovy931mmOvAn4Nm3BgSeMynj3VRrIUhZRWvneKCB_MoNG3NpeMNYOWaIzCrq-OZTwtrnFYo
 
@@ -11,6 +11,6 @@ bSq50eKW54JHUNJF_bTh0h_3Qny9NAjkHtkn8bazccgAGZn6D2c2hmNU6gPlTDkxJGlJxClK6zO9joNn
 oNYnnU13Am
 }
 
-!procedure OutdoorGrill($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Social/OutdoorGrill', $name, $tech)
+!procedure OutdoorGrill($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/OutdoorGrill', $name, $tech, $desc)
 !endprocedure

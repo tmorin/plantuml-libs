@@ -8,6 +8,6 @@ sprite $TimelineMd [16x16/16z] hOx50S1020JF7QR_QkFwJd1dpPyKsX6eRWxwvZtOnINmQsfHM
 
 sprite $TimelineLg [20x20/16z] nKsr5SL004hEdVsdFVVw2nKFVVw0rwX1ENGZ0U1T0_0Emff40AWMSw99390-Ys-0V6QAb8Z7b5YHsbJ_v7FU0tIUzzNNTFAO4hj1Y_HL9
 
-!procedure Timeline($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/Timeline', $name, $tech)
+!procedure Timeline($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Timeline', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Places/FoodBank')
 
 ' renders the element
-FoodBank('FoodBank', 'Food Bank', 'an optional tech label')
+FoodBank('FoodBank', 'Food Bank', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Places/FoodBank')
 
 ' renders the element
-FoodBank('FoodBank', 'Food Bank', 'an optional tech label')
+FoodBank('FoodBank', 'Food Bank', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

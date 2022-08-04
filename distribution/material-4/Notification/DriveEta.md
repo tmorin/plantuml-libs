@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/DriveEta')
 
 ' renders the element
-DriveEta('DriveEta', 'Drive Eta', 'an optional tech label')
+DriveEta('DriveEta', 'Drive Eta', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/DriveEta')
 
 ' renders the element
-DriveEta('DriveEta', 'Drive Eta', 'an optional tech label')
+DriveEta('DriveEta', 'Drive Eta', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

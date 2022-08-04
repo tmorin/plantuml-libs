@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/ImagesearchRoller')
 
 ' renders the element
-ImagesearchRoller('ImagesearchRoller', 'Imagesearch Roller', 'an optional tech label')
+ImagesearchRoller('ImagesearchRoller', 'Imagesearch Roller', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/ImagesearchRoller')
 
 ' renders the element
-ImagesearchRoller('ImagesearchRoller', 'Imagesearch Roller', 'an optional tech label')
+ImagesearchRoller('ImagesearchRoller', 'Imagesearch Roller', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

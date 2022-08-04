@@ -2,15 +2,15 @@
 
 sprite $PhotoCameraFrontXs [10x10/16z] Oy06-240n8Bm6NX0B7v6e0oOnSW0PO5KyVFnmDLnCN20jV8Y6mS
 
-sprite $PhotoCameraFrontSm [12x12/16z] TSQ53S0m30313nRioFjF6nGKJtJyqab6Iuv32UC113JkVbpCeMBpE52RJsQ6vdaVGa2Zz-XYWIuit3K
+sprite $PhotoCameraFrontSm [12x12/16z] TSQ53GCn40J0zL5ehUk_MgCWJoCQFEBocwsXQcPLvnNu0RItp3CB-Cjr582vxfa9nhgeAcWYu9QAGJSSTG
 
-sprite $PhotoCameraFrontMd [16x16/16z] bSgr0SD00CLGsJucxJzj6BlaTH_ucozSxOO7Zti6jWqmCEzvqrkUVcMzvuTtdZh1ySXTTM8et_z0WStnuC5LVURA3yu
+sprite $PhotoCameraFrontMd [16x16/16z] bSgr0GCn04DH7RF__jEQiKjU9z3Vg6ASMPSrOabPqZI5uwelvGbY_XWof9or_C4dyURyG2XOp_6_wfGcten5mLNofHyu
 
 sprite $PhotoCameraFrontLg [20x20/16z] {
-fSu53aGX38JXUOQMplrlky4X6-UFVqYBizvlT3NYMaF6j-Vu09aPqFluufPkZh7QpM7vgso6quIAR5oi_BoR4HMNJOS5vZJFq6usbB91v7y_b3LKUeaFIewp
-XDD-
+fSu53WGX44JH6i6RhllVTeEJdJYVwCCQPxrcTdNYNaUczwdhVJqVe30ZHeOlRXdccPhTd5QUAcQvJAWencNbvN-pekABwRJ8afO_T9YBjM8G-Sw7M4nbbFcW
+vhdAEEq7
 }
 
-!procedure PhotoCameraFront($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/PhotoCameraFront', $name, $tech)
+!procedure PhotoCameraFront($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/PhotoCameraFront', $name, $tech, $desc)
 !endprocedure

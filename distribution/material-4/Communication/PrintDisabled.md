@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/PrintDisabled')
 
 ' renders the element
-PrintDisabled('PrintDisabled', 'Print Disabled', 'an optional tech label')
+PrintDisabled('PrintDisabled', 'Print Disabled', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/PrintDisabled')
 
 ' renders the element
-PrintDisabled('PrintDisabled', 'Print Disabled', 'an optional tech label')
+PrintDisabled('PrintDisabled', 'Print Disabled', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

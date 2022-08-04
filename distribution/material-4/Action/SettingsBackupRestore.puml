@@ -4,13 +4,13 @@ sprite $SettingsBackupRestoreXs [10x10/16z] RKg50O104C9ks7zQzJilAVHBt2G3x9cU_n0O
 
 sprite $SettingsBackupRestoreSm [12x12/16z] VOjL0i0W34C3Stttl-q8_PdN6z5FRC0K9tqPo-vpxuFi39TUfOI6dJrjv8gDtYuRaceO2dLc3gW7evSu
 
-sprite $SettingsBackupRestoreMd [16x16/16z] ZSo50GCX44JHZplJVxLnpzd3MU4GLreoF5bfzgd-UhRxCRcvFM-NSgiL3-5sgmFeSe0CQKepebitMSXIXZ008mFap4CHdvm2TytVefNdMrU1DsiDYyu
+sprite $SettingsBackupRestoreMd [16x16/16z] ZSU50GCn40F1DRFLVxLXpjCSYaDSQSdmPANPf_ehjlkPtDmZe0BWn4CGG1r0bmTaI5EQ4Qa3if2b3640HWR8cOSYFZa5xfe7YYhFhAl0cxM6HMS
 
 sprite $SettingsBackupRestoreLg [20x20/16z] {
 fSu54aCn24NHzpNEtVzkEuJwMEN45VItfGBOgOSJhAG6B8yjs-GIfh3SPzeOCQciSizpJ6wT7Lak1cXpw58omwnf0tnlVfZ1pzIPsSNjZEbkZnD57mPwrqdt
 UIwBFnnKtHaXwybMncXfqLSk
 }
 
-!procedure SettingsBackupRestore($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/SettingsBackupRestore', $name, $tech)
+!procedure SettingsBackupRestore($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/SettingsBackupRestore', $name, $tech, $desc)
 !endprocedure

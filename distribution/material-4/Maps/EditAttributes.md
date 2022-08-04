@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/EditAttributes')
 
 ' renders the element
-EditAttributes('EditAttributes', 'Edit Attributes', 'an optional tech label')
+EditAttributes('EditAttributes', 'Edit Attributes', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/EditAttributes')
 
 ' renders the element
-EditAttributes('EditAttributes', 'Edit Attributes', 'an optional tech label')
+EditAttributes('EditAttributes', 'Edit Attributes', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

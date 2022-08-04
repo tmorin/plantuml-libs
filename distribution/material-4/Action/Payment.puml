@@ -2,12 +2,12 @@
 
 sprite $PaymentXs [10x10/16z] Oy06-A60XO4VAi835mEoc2201owBpEA0gaCo3W
 
-sprite $PaymentSm [12x12/16z] TSP50S0m002n6_FgNssP8Qymz7eFVFlgV3FVzpf2NmJws-oy-WjEzJSGCom1EGK
+sprite $PaymentSm [12x12/16z] TSP50G0n402nANFNlzfZXhp2hxefqBmnTcAQfhMwakcoc-xqgauth1wlEz5WTboD
 
-sprite $PaymentMd [16x16/16z] bSc53S0m0CJ0BtEp_xHXvfpGCeOHpmFCPBLs8dgnDjcURC_MAXlMqj4JUHtnBgzNj3
+sprite $PaymentMd [16x16/16z] bSc53S0m0CJ0BtEp_xHXvfpGCeOHpmFCP5rMPTc9wCNQP7koFLkhR5XBHq_aTSIxl5xHmW
 
-sprite $PaymentLg [20x20/16z] Ow0CiB0Y0sQG43yQO069SRCW0tuUa1WNYaaGCLH0cXWt4pB0PWVbOdmyo82V6oZ6WUOMoW8K
+sprite $PaymentLg [20x20/16z] Ow0CiB0Y0sQG43yQO069SRCmWo4G04b-7f0O5uf9435KG9eODnCom6O7vM9yFCY0dniene7c5ie25
 
-!procedure Payment($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/Payment', $name, $tech)
+!procedure Payment($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Payment', $name, $tech, $desc)
 !endprocedure

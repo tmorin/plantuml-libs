@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/FavoriteBorder')
 
 ' renders the element
-FavoriteBorder('FavoriteBorder', 'Favorite Border', 'an optional tech label')
+FavoriteBorder('FavoriteBorder', 'Favorite Border', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/FavoriteBorder')
 
 ' renders the element
-FavoriteBorder('FavoriteBorder', 'Favorite Border', 'an optional tech label')
+FavoriteBorder('FavoriteBorder', 'Favorite Border', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

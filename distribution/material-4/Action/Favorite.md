@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Favorite')
 
 ' renders the element
-Favorite('Favorite', 'Favorite', 'an optional tech label')
+Favorite('Favorite', 'Favorite', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Favorite')
 
 ' renders the element
-Favorite('Favorite', 'Favorite', 'an optional tech label')
+Favorite('Favorite', 'Favorite', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

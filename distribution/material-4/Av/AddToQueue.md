@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/AddToQueue')
 
 ' renders the element
-AddToQueue('AddToQueue', 'Add To Queue', 'an optional tech label')
+AddToQueue('AddToQueue', 'Add To Queue', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/AddToQueue')
 
 ' renders the element
-AddToQueue('AddToQueue', 'Add To Queue', 'an optional tech label')
+AddToQueue('AddToQueue', 'Add To Queue', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

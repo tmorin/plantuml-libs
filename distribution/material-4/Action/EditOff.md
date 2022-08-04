@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/EditOff')
 
 ' renders the element
-EditOff('EditOff', 'Edit Off', 'an optional tech label')
+EditOff('EditOff', 'Edit Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/EditOff')
 
 ' renders the element
-EditOff('EditOff', 'Edit Off', 'an optional tech label')
+EditOff('EditOff', 'Edit Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

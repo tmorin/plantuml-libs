@@ -8,6 +8,6 @@ sprite $RestorePageMd [16x16/16z] RSZ50GCn0CJ0FJHR_LSRZbc_aHRjxxP2lfdYOL16TKvraD
 
 sprite $RestorePageLg [20x20/16z] bSW54W9H30JHMVaUClS_BGuJdEsoheSDyLeH9JxXpOGoeKmeIy3SJtCpwnFC2seqJ3ncY0Rq4qv3HdS_MvVT0eCvCcdJ6esxqooCTb9pHhibMzuOajqR-D01
 
-!procedure RestorePage($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/RestorePage', $name, $tech)
+!procedure RestorePage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/RestorePage', $name, $tech, $desc)
 !endprocedure

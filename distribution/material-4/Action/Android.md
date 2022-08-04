@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Android')
 
 ' renders the element
-Android('Android', 'Android', 'an optional tech label')
+Android('Android', 'Android', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Android')
 
 ' renders the element
-Android('Android', 'Android', 'an optional tech label')
+Android('Android', 'Android', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

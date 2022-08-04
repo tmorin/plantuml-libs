@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/DirectionsSubway')
 
 ' renders the element
-DirectionsSubway('DirectionsSubway', 'Directions Subway', 'an optional tech label')
+DirectionsSubway('DirectionsSubway', 'Directions Subway', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/DirectionsSubway')
 
 ' renders the element
-DirectionsSubway('DirectionsSubway', 'Directions Subway', 'an optional tech label')
+DirectionsSubway('DirectionsSubway', 'Directions Subway', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

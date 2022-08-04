@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/InsertComment')
 
 ' renders the element
-InsertComment('InsertComment', 'Insert Comment', 'an optional tech label')
+InsertComment('InsertComment', 'Insert Comment', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/InsertComment')
 
 ' renders the element
-InsertComment('InsertComment', 'Insert Comment', 'an optional tech label')
+InsertComment('InsertComment', 'Insert Comment', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

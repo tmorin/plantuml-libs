@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/RemoveShoppingCart')
 
 ' renders the element
-RemoveShoppingCart('RemoveShoppingCart', 'Remove Shopping Cart', 'an optional tech label')
+RemoveShoppingCart('RemoveShoppingCart', 'Remove Shopping Cart', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/RemoveShoppingCart')
 
 ' renders the element
-RemoveShoppingCart('RemoveShoppingCart', 'Remove Shopping Cart', 'an optional tech label')
+RemoveShoppingCart('RemoveShoppingCart', 'Remove Shopping Cart', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

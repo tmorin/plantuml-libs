@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Toggle/ToggleOff')
 
 ' renders the element
-ToggleOff('ToggleOff', 'Toggle Off', 'an optional tech label')
+ToggleOff('ToggleOff', 'Toggle Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Toggle/ToggleOff')
 
 ' renders the element
-ToggleOff('ToggleOff', 'Toggle Off', 'an optional tech label')
+ToggleOff('ToggleOff', 'Toggle Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

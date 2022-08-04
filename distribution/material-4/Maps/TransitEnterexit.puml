@@ -2,12 +2,12 @@
 
 sprite $TransitEnterexitXs [10x10/16z] Oo02SF62ANu67du628iNo82mW0mO2yh61
 
-sprite $TransitEnterexitSm [12x12/16z] Oo01i44eJXu61Zv-HZ2RXv-1dv-90Se6CQ5iC1CXpiyCOJEp004-Em
+sprite $TransitEnterexitSm [12x12/16z] Oo01i44eJXu61Zv-HZ2RXv-1dv-90Se6CQ5iC1CXpiyCOJCpix2muBC3
 
 sprite $TransitEnterexitMd [16x16/16z] hSZ50G0X44FHh2ka_sfnFI8VVODfhKlwRVOYu-3dQdaZs_11zac-A4n-g2s4g6nAtdONUj8
 
-sprite $TransitEnterexitLg [20x20/16z] lSYr0S0W00J0ZtlOVrhSjO8h3wCTQTtaW_MINrPohwpW7bd1VRA2utw49oivwMxSiYepkc
+sprite $TransitEnterexitLg [20x20/16z] lSYr0G0X0CNGVwx0_jlYRXKatSFihfnUHk3w6LMKsIyfjazIR4HIR2AAn2Jb9dixjktoVLyn90u
 
-!procedure TransitEnterexit($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/TransitEnterexit', $name, $tech)
+!procedure TransitEnterexit($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/TransitEnterexit', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/CallMade')
 
 ' renders the element
-CallMade('CallMade', 'Call Made', 'an optional tech label')
+CallMade('CallMade', 'Call Made', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/CallMade')
 
 ' renders the element
-CallMade('CallMade', 'Call Made', 'an optional tech label')
+CallMade('CallMade', 'Call Made', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

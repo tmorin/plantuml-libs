@@ -8,6 +8,6 @@ sprite $MpMd [16x16/16z] ZSt50G0n24JHYIlGVxNhhldHTmB_5LgB8wliwS7qQwUr4TOwBqRMcab
 
 sprite $MpLg [20x20/16z] fSw35G0n403HMAl-gptRcFW_HVsBP5deJ5RHWV65SLjtpDOTt1vkjcQqHi7kJAkbXSv2m8L9PtJqbv-6dKNYEJBgSJK
 
-!procedure Mp($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/Mp', $name, $tech)
+!procedure Mp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/Mp', $name, $tech, $desc)
 !endprocedure

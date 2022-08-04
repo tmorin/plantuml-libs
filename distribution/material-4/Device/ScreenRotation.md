@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Device/ScreenRotation')
 
 ' renders the element
-ScreenRotation('ScreenRotation', 'Screen Rotation', 'an optional tech label')
+ScreenRotation('ScreenRotation', 'Screen Rotation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Device/ScreenRotation')
 
 ' renders the element
-ScreenRotation('ScreenRotation', 'Screen Rotation', 'an optional tech label')
+ScreenRotation('ScreenRotation', 'Screen Rotation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

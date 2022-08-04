@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Places/Stairs')
 
 ' renders the element
-Stairs('Stairs', 'Stairs', 'an optional tech label')
+Stairs('Stairs', 'Stairs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Places/Stairs')
 
 ' renders the element
-Stairs('Stairs', 'Stairs', 'an optional tech label')
+Stairs('Stairs', 'Stairs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

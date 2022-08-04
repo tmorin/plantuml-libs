@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/ViewColumn')
 
 ' renders the element
-ViewColumn('ViewColumn', 'View Column', 'an optional tech label')
+ViewColumn('ViewColumn', 'View Column', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/ViewColumn')
 
 ' renders the element
-ViewColumn('ViewColumn', 'View Column', 'an optional tech label')
+ViewColumn('ViewColumn', 'View Column', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

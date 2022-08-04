@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalHotel')
 
 ' renders the element
-LocalHotel('LocalHotel', 'Local Hotel', 'an optional tech label')
+LocalHotel('LocalHotel', 'Local Hotel', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalHotel')
 
 ' renders the element
-LocalHotel('LocalHotel', 'Local Hotel', 'an optional tech label')
+LocalHotel('LocalHotel', 'Local Hotel', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

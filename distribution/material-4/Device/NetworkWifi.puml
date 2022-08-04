@@ -8,6 +8,6 @@ sprite $NetworkWifiMd [16x16/16z] dOXL0aGn2CI6PtNc_hVTklnkAf3W3sxFZ5gfzf39li-NOy
 
 sprite $NetworkWifiLg [20x20/16z] hSe54aCX30RX17iA__rlswrBHceVleFzGIeb-sEOTT7pfQpIM5ijTTwvLKhcJ7RL-7lSYbbPXtZDRhOIfPfrizkknLpFI0W97XD2WiU4aE0n8IGuwKC7
 
-!procedure NetworkWifi($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Device/NetworkWifi', $name, $tech)
+!procedure NetworkWifi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Device/NetworkWifi', $name, $tech, $desc)
 !endprocedure

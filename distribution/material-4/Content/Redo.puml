@@ -8,6 +8,6 @@ sprite $RedoMd [16x16/16z] jSU53O1G54Mn-ztVsNzRWYy0ZLR_y5wxebqq08igx1tGG-XWxEzC7
 
 sprite $RedoLg [20x20/16z] pSg54GGX04FHu4xwh_OaanvsF_u6lARXCwzBtXa1h2q9b-xWK9P9zXX2cdAP3XLi-ksMBP9mXpQaQgfJTJpL5m
 
-!procedure Redo($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Content/Redo', $name, $tech)
+!procedure Redo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/Redo', $name, $tech, $desc)
 !endprocedure

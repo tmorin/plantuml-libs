@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/File/Folder')
 
 ' renders the element
-Folder('Folder', 'Folder', 'an optional tech label')
+Folder('Folder', 'Folder', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/File/Folder')
 
 ' renders the element
-Folder('Folder', 'Folder', 'an optional tech label')
+Folder('Folder', 'Folder', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

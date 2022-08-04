@@ -8,6 +8,6 @@ sprite $HdrOnMd [16x16/16z] jKU70O0m34BYLiB_trf-i6mm7JTvKpeWFVdQjfTDmtoPt_rI6DzU
 
 sprite $HdrOnLg [20x20/16z] pOk50SCm30JVpBxzfst3oGWMwq5hXTtBMBkVrfmOSWZ01A2UMAw8fEa29eqJc_F1e7oyBR9X5lV1O2YWrhHK_04
 
-!procedure HdrOn($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/HdrOn', $name, $tech)
+!procedure HdrOn($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/HdrOn', $name, $tech, $desc)
 !endprocedure

@@ -2,12 +2,12 @@
 
 sprite $PermMediaXs [10x10/16z] Oq02_FpyV50M3A2ok60ie0e6C8i5h1n57HpmG043
 
-sprite $PermMediaSm [12x12/16z] NShL0K0n24FHMtVOVzhdslC5IVZhOwJxr4tVj6wt-pRVmxytzC1vSuZRtJvxd3yv7VrYmTvW1G
+sprite $PermMediaSm [12x12/16z] NShL0K0n24FHMtVOVzhdslC5IVZhOwJxr4tVj6wt-pRVmxytzC1vSuZRtJvxdFCRvvoEVh5WRx02
 
-sprite $PermMediaMd [16x16/16z] ZSor0K1120FG8Cq9iF-qtrtlTKY21pp0BYPqcHSrd-UmfdbiSTzc1MJQpNF1J9VPLezz4DrmkEnugjXLtFG
+sprite $PermMediaMd [16x16/16z] ZSor0K1120FG8Cq9iF-qtrtlTKY21pp0BYPqcHSrd-UmfdbiSTzc1MJQpNF1J9VPLezz49s92eVBZgUANSLD3m
 
-sprite $PermMediaLg [20x20/16z] bOw30G0n54DJkzb_shDzh_mEVi21kdKPZcGp8XRVXfpEFlAdpyIJBmA5z7dnZU844x3nINIexiZ5fx7WRkUA2n-4qbj4vpkHpsL0o7jmJGi
+sprite $PermMediaLg [20x20/16z] bSY50GGX4C30u0xzL_joxZBeXXTQfx9WMY-RdfZQGax_jlMocRXh4KfhFYzQ1KHBi6WIG05oQfg96ziMOjz0AFrVV_zN_DjMRXi08Qznx0i
 
-!procedure PermMedia($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/PermMedia', $name, $tech)
+!procedure PermMedia($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/PermMedia', $name, $tech, $desc)
 !endprocedure

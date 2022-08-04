@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/MarkEmailRead')
 
 ' renders the element
-MarkEmailRead('MarkEmailRead', 'Mark Email Read', 'an optional tech label')
+MarkEmailRead('MarkEmailRead', 'Mark Email Read', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/MarkEmailRead')
 
 ' renders the element
-MarkEmailRead('MarkEmailRead', 'Mark Email Read', 'an optional tech label')
+MarkEmailRead('MarkEmailRead', 'Mark Email Read', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

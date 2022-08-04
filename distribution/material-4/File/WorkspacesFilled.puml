@@ -8,6 +8,6 @@ sprite $WorkspacesFilledMd [16x16/16z] Oo0Ei7Cp8tFv-FdvEH1S9duGGETZgaS03buM33iGc
 
 sprite $WorkspacesFilledLg [20x20/16z] hSY53G0n3CNGfCn__sbBmcDy8ilqWmX0BPV7m8k7oUqyltW9Wrey7YlIYhQ2pgcK0ozBOLWM9hDJSQVqekI8GeiYcRAdHTtK
 
-!procedure WorkspacesFilled($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/File/WorkspacesFilled', $name, $tech)
+!procedure WorkspacesFilled($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/File/WorkspacesFilled', $name, $tech, $desc)
 !endprocedure

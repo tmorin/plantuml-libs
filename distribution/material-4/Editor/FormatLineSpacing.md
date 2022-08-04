@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/FormatLineSpacing')
 
 ' renders the element
-FormatLineSpacing('FormatLineSpacing', 'Format Line Spacing', 'an optional tech label')
+FormatLineSpacing('FormatLineSpacing', 'Format Line Spacing', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/FormatLineSpacing')
 
 ' renders the element
-FormatLineSpacing('FormatLineSpacing', 'Format Line Spacing', 'an optional tech label')
+FormatLineSpacing('FormatLineSpacing', 'Format Line Spacing', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

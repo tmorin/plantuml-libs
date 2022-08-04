@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/RemoveModerator')
 
 ' renders the element
-RemoveModerator('RemoveModerator', 'Remove Moderator', 'an optional tech label')
+RemoveModerator('RemoveModerator', 'Remove Moderator', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/RemoveModerator')
 
 ' renders the element
-RemoveModerator('RemoveModerator', 'Remove Moderator', 'an optional tech label')
+RemoveModerator('RemoveModerator', 'Remove Moderator', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

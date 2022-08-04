@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Label')
 
 ' renders the element
-Label('Label', 'Label', 'an optional tech label')
+Label('Label', 'Label', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Label')
 
 ' renders the element
-Label('Label', 'Label', 'an optional tech label')
+Label('Label', 'Label', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

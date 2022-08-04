@@ -8,6 +8,6 @@ sprite $CheckMd [16x16/16z] Ow0YOEH5vVFp4SLbH-KoydEZAcRYvu5m4G9eHZ7naUrc
 
 sprite $CheckLg [20x20/16z] Ow0_OEHZnX3ZusSdIeWDtIna8NPCLLpyx11Lx2Z6S60QpyFFWT28K8aGGgXaes7W
 
-!procedure Check($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Navigation/Check', $name, $tech)
+!procedure Check($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Navigation/Check', $name, $tech, $desc)
 !endprocedure

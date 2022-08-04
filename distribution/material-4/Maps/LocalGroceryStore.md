@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalGroceryStore')
 
 ' renders the element
-LocalGroceryStore('LocalGroceryStore', 'Local Grocery Store', 'an optional tech label')
+LocalGroceryStore('LocalGroceryStore', 'Local Grocery Store', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalGroceryStore')
 
 ' renders the element
-LocalGroceryStore('LocalGroceryStore', 'Local Grocery Store', 'an optional tech label')
+LocalGroceryStore('LocalGroceryStore', 'Local Grocery Store', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

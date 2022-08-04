@@ -8,6 +8,6 @@ sprite $NoSimMd [16x16/16z] ZSYn0G0H50JH1JyvRF_L0e3e9dk3NoaVGl06jM2Xs6jsj3WDQMFR
 
 sprite $NoSimLg [20x20/16z] fOm52iL04CNMlbJd_hVjOmG9JjEkXJ3j7LEhMt0sPpT9Ax8xRRKDhjqgTpX5NiBPq4xd9PtFXFCIpcVkT5x2-KmwBvE_2PR7dLoNb-3-GoGF
 
-!procedure NoSim($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Communication/NoSim', $name, $tech)
+!procedure NoSim($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/NoSim', $name, $tech, $desc)
 !endprocedure

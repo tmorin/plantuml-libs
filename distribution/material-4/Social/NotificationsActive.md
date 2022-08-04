@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/NotificationsActive')
 
 ' renders the element
-NotificationsActive('NotificationsActive', 'Notifications Active', 'an optional tech label')
+NotificationsActive('NotificationsActive', 'Notifications Active', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/NotificationsActive')
 
 ' renders the element
-NotificationsActive('NotificationsActive', 'Notifications Active', 'an optional tech label')
+NotificationsActive('NotificationsActive', 'Notifications Active', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

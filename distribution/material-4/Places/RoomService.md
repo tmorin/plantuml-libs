@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Places/RoomService')
 
 ' renders the element
-RoomService('RoomService', 'Room Service', 'an optional tech label')
+RoomService('RoomService', 'Room Service', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Places/RoomService')
 
 ' renders the element
-RoomService('RoomService', 'Room Service', 'an optional tech label')
+RoomService('RoomService', 'Room Service', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

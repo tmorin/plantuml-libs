@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/IosShare')
 
 ' renders the element
-IosShare('IosShare', 'Ios Share', 'an optional tech label')
+IosShare('IosShare', 'Ios Share', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/IosShare')
 
 ' renders the element
-IosShare('IosShare', 'Ios Share', 'an optional tech label')
+IosShare('IosShare', 'Ios Share', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

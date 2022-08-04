@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Gradient')
 
 ' renders the element
-Gradient('Gradient', 'Gradient', 'an optional tech label')
+Gradient('Gradient', 'Gradient', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Gradient')
 
 ' renders the element
-Gradient('Gradient', 'Gradient', 'an optional tech label')
+Gradient('Gradient', 'Gradient', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

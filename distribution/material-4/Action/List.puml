@@ -8,6 +8,6 @@ sprite $ListMd [16x16/16z] hSgf0O0m00Imz1G_-s-BEbL9esEv-_9Ma4Z165Bpdns7ku9ZTrNyz
 
 sprite $ListLg [20x20/16z] OnWumC_6m8y0V60nFbO6FWJWmQcNWvc10m7OSPh724H8W2Iti34ni240Atq21G
 
-!procedure List($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/List', $name, $tech)
+!procedure List($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/List', $name, $tech, $desc)
 !endprocedure

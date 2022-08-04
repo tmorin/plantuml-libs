@@ -8,6 +8,6 @@ sprite $AddBoxMd [16x16/16z] ZSt50O1G30FGu9go_xJuTtstQb2sKPbnsm-ZlMl6QY9Nanj8qJL
 
 sprite $AddBoxLg [20x20/16z] fOs35G1144DpN4wc_shFDlvpY7-8BYaxJLV8WSQ5Pi1lcZ4cGsbCN6WOS0kDP0aXF_v6fqjjmR4MEyq8PoJ5Ose
 
-!procedure AddBox($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Content/AddBox', $name, $tech)
+!procedure AddBox($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/AddBox', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/DirectionsBoat')
 
 ' renders the element
-DirectionsBoat('DirectionsBoat', 'Directions Boat', 'an optional tech label')
+DirectionsBoat('DirectionsBoat', 'Directions Boat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/DirectionsBoat')
 
 ' renders the element
-DirectionsBoat('DirectionsBoat', 'Directions Boat', 'an optional tech label')
+DirectionsBoat('DirectionsBoat', 'Directions Boat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

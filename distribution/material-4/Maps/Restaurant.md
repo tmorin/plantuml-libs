@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/Restaurant')
 
 ' renders the element
-Restaurant('Restaurant', 'Restaurant', 'an optional tech label')
+Restaurant('Restaurant', 'Restaurant', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/Restaurant')
 
 ' renders the element
-Restaurant('Restaurant', 'Restaurant', 'an optional tech label')
+Restaurant('Restaurant', 'Restaurant', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

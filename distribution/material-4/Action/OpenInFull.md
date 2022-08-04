@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/OpenInFull')
 
 ' renders the element
-OpenInFull('OpenInFull', 'Open In Full', 'an optional tech label')
+OpenInFull('OpenInFull', 'Open In Full', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/OpenInFull')
 
 ' renders the element
-OpenInFull('OpenInFull', 'Open In Full', 'an optional tech label')
+OpenInFull('OpenInFull', 'Open In Full', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,6 +8,6 @@ sprite $ApprovalMd [16x16/16z] TOs50G0X548lRMN_QUsEP_w2wy0zH1e0RQ70VVruQepFNqRKM
 
 sprite $ApprovalLg [20x20/16z] bSo53KCn54FH-p4SxpzjEPBBxH4-iFbJaRI0Qsf52fYe3P0mwW2pLcyJGD24wGqM1ToiT2imGKqygjfuD1MSJE1YKyb3rzYjrZfshGxIs9aFkxKwZ3a2
 
-!procedure Approval($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/File/Approval', $name, $tech)
+!procedure Approval($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/File/Approval', $name, $tech, $desc)
 !endprocedure

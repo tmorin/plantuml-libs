@@ -8,6 +8,6 @@ sprite $AssistantMd [16x16/16z] POu30W0X50MdDSBzJvlTnE_7YjWAqNnCGm2gixTgRwDzCzWA
 
 sprite $AssistantLg [20x20/16z] ZP055iGm24IdZVlzJxjE7hBssnWE-9--E1vtbc1msNmTJ3PEAmiOHWPu9KjKmPOrl73SBkF6CKoyy4TUMn_1PRRV9cGEcqPZuZGISHo8Am
 
-!procedure Assistant($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/Assistant', $name, $tech)
+!procedure Assistant($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/Assistant', $name, $tech, $desc)
 !endprocedure

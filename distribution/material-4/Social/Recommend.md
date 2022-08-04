@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/Recommend')
 
 ' renders the element
-Recommend('Recommend', 'Recommend', 'an optional tech label')
+Recommend('Recommend', 'Recommend', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/Recommend')
 
 ' renders the element
-Recommend('Recommend', 'Recommend', 'an optional tech label')
+Recommend('Recommend', 'Recommend', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

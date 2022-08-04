@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/MedicalServices')
 
 ' renders the element
-MedicalServices('MedicalServices', 'Medical Services', 'an optional tech label')
+MedicalServices('MedicalServices', 'Medical Services', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/MedicalServices')
 
 ' renders the element
-MedicalServices('MedicalServices', 'Medical Services', 'an optional tech label')
+MedicalServices('MedicalServices', 'Medical Services', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

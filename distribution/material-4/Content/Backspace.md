@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Content/Backspace')
 
 ' renders the element
-Backspace('Backspace', 'Backspace', 'an optional tech label')
+Backspace('Backspace', 'Backspace', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Content/Backspace')
 
 ' renders the element
-Backspace('Backspace', 'Backspace', 'an optional tech label')
+Backspace('Backspace', 'Backspace', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

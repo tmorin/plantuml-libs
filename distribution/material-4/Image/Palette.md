@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Palette')
 
 ' renders the element
-Palette('Palette', 'Palette', 'an optional tech label')
+Palette('Palette', 'Palette', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Palette')
 
 ' renders the element
-Palette('Palette', 'Palette', 'an optional tech label')
+Palette('Palette', 'Palette', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

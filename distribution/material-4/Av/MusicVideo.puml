@@ -8,6 +8,6 @@ sprite $MusicVideoMd [16x16/16z] XSUt0OGm54J19ocvW_ri_zNYlPri-58KcneSsbYuCAYaFqG
 
 sprite $MusicVideoLg [20x20/16z] fSYr0GGn00CmXpdUVzg7OqQLmXkUImALTiRH_Gwjc7CsW9nU9MbN1-3HkSpbHN9rtBcwE4DIBmv22GnNk6IXIfsBkEeB
 
-!procedure MusicVideo($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Av/MusicVideo', $name, $tech)
+!procedure MusicVideo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/MusicVideo', $name, $tech, $desc)
 !endprocedure

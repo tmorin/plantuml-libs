@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/BorderStyle')
 
 ' renders the element
-BorderStyle('BorderStyle', 'Border Style', 'an optional tech label')
+BorderStyle('BorderStyle', 'Border Style', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/BorderStyle')
 
 ' renders the element
-BorderStyle('BorderStyle', 'Border Style', 'an optional tech label')
+BorderStyle('BorderStyle', 'Border Style', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Tour')
 
 ' renders the element
-Tour('Tour', 'Tour', 'an optional tech label')
+Tour('Tour', 'Tour', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Tour')
 
 ' renders the element
-Tour('Tour', 'Tour', 'an optional tech label')
+Tour('Tour', 'Tour', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

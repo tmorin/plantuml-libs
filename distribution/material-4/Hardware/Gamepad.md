@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/Gamepad')
 
 ' renders the element
-Gamepad('Gamepad', 'Gamepad', 'an optional tech label')
+Gamepad('Gamepad', 'Gamepad', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/Gamepad')
 
 ' renders the element
-Gamepad('Gamepad', 'Gamepad', 'an optional tech label')
+Gamepad('Gamepad', 'Gamepad', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

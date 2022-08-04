@@ -8,6 +8,6 @@ sprite $CloseFullscreenMd [16x16/16z] bOt50S1G348Zrm3xJrjtx_iQ0_i3k7ohF_8b9dQXKU
 
 sprite $CloseFullscreenLg [20x20/16z] dSw54S0W50FGdwJ7AMJ_RUlkfCKU6hKfiGdwYhOsbjbLThFRPBAdlRcdawKuctco5P5B7x4FOWnziOqVpKu76rwllOsl5tRlwkaGnOUq
 
-!procedure CloseFullscreen($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/CloseFullscreen', $name, $tech)
+!procedure CloseFullscreen($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/CloseFullscreen', $name, $tech, $desc)
 !endprocedure

@@ -8,6 +8,6 @@ sprite $ShieldMd [16x16/16z] dSsr0S0W40NGZpliFsqCboglEZ-SkIHxGaDwcPpnc2h_vY5rz4T
 
 sprite $ShieldLg [20x20/16z] hS-r0S0m3011CyF-quRCf2fVdb48IZasYOrll05riQHmeZXaDnP-Dhynjp7zcHiiJSW7GwcUP9btV3Kbgs4qOqYKm-aRKuIZqWq
 
-!procedure Shield($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Content/Shield', $name, $tech)
+!procedure Shield($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/Shield', $name, $tech, $desc)
 !endprocedure

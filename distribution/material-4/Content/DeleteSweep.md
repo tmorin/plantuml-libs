@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Content/DeleteSweep')
 
 ' renders the element
-DeleteSweep('DeleteSweep', 'Delete Sweep', 'an optional tech label')
+DeleteSweep('DeleteSweep', 'Delete Sweep', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Content/DeleteSweep')
 
 ' renders the element
-DeleteSweep('DeleteSweep', 'Delete Sweep', 'an optional tech label')
+DeleteSweep('DeleteSweep', 'Delete Sweep', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

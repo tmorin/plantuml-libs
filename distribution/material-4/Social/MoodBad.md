@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/MoodBad')
 
 ' renders the element
-MoodBad('MoodBad', 'Mood Bad', 'an optional tech label')
+MoodBad('MoodBad', 'Mood Bad', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/MoodBad')
 
 ' renders the element
-MoodBad('MoodBad', 'Mood Bad', 'an optional tech label')
+MoodBad('MoodBad', 'Mood Bad', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

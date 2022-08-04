@@ -8,6 +8,6 @@ sprite $CompressMd [16x16/16z] Oy0EcFZnyldu-VavK0KuK3KWSNdXW0ihdmyEkD7akH66iA4Qp
 
 sprite $CompressLg [20x20/16z] VP234K1134JFHl_LVYEOonl6sLKISMYMIvFcdAypU8DoPXuCa7YIJL5Cno7aJla9UTeYvFbZG1Qp8W5hUnOCrdMY1L-aN6WWnza1
 
-!procedure Compress($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/Compress', $name, $tech)
+!procedure Compress($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Compress', $name, $tech, $desc)
 !endprocedure

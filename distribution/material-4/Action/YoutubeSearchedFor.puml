@@ -2,15 +2,12 @@
 
 sprite $YoutubeSearchedForXs [10x10/16z] RSR10K0000IW083RVriV0BtoBzCSCACOiIGLWRLah85aYKD_Q-cq0G
 
-sprite $YoutubeSearchedForSm [12x12/16z] VOk30S105CLIkzb_sjguVECHGEtsDeMwNTgeNnPBg-uziLjQIBfJJ1nJoi5zABWo0W
+sprite $YoutubeSearchedForSm [12x12/16z] VOk30S105CLIkzb_sjguVECHGEtsDeMwNTgeNnPBg-uziLjQIBfJJ1nHoi5zABWo0W
 
 sprite $YoutubeSearchedForMd [16x16/16z] ZOp50O0m34MfUz_-q-89nrBDr-tNYgsO3pdeawAOUZwU86Rkhyu7sZwilLCFpe0Hsst4Q8jKs01MeGUQ9GcMeYLnuiKw
 
-sprite $YoutubeSearchedForLg [20x20/16z] {
-fOw55SCW04HnXx__jFN6FOUVFSHjw0fKFQGSP5_0zfIaoSz1pnN-Mkeuwk_I_iRA6th0VQ9W-y0_eZvdmWo-z-eNAlrilHMeZI6dOmfA19gO8S2CMtEgETbJ
-ktW2
-}
+sprite $YoutubeSearchedForLg [20x20/16z] fOk50SCm30HbPj_-qvPLfYHdr8DinWrWk7ifGaiTmaqoJ7DyuAPrrAkYCEJCrE3WY5DDg-2re4oi7Ab7It4YHcn5One5nkHUSwLcAvafBsHuqJubxQjevM_s
 
-!procedure YoutubeSearchedFor($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/YoutubeSearchedFor', $name, $tech)
+!procedure YoutubeSearchedFor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/YoutubeSearchedFor', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Accessible')
 
 ' renders the element
-Accessible('Accessible', 'Accessible', 'an optional tech label')
+Accessible('Accessible', 'Accessible', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Accessible')
 
 ' renders the element
-Accessible('Accessible', 'Accessible', 'an optional tech label')
+Accessible('Accessible', 'Accessible', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

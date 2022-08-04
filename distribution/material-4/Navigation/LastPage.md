@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/LastPage')
 
 ' renders the element
-LastPage('LastPage', 'Last Page', 'an optional tech label')
+LastPage('LastPage', 'Last Page', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/LastPage')
 
 ' renders the element
-LastPage('LastPage', 'Last Page', 'an optional tech label')
+LastPage('LastPage', 'Last Page', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

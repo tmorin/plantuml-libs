@@ -8,6 +8,6 @@ sprite $TrendingFlatMd [16x16/16z] Ow0Zu6O4aOnCCC333nBWvKS0FXJrFAXS1YuQk0a
 
 sprite $TrendingFlatLg [20x20/16z] OnYyW0EB60yVL0u9yF7pWCNuKG4hI8mH2V3misEQnuPf1_D0UXe
 
-!procedure TrendingFlat($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/TrendingFlat', $name, $tech)
+!procedure TrendingFlat($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/TrendingFlat', $name, $tech, $desc)
 !endprocedure

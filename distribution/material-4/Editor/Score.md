@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/Score')
 
 ' renders the element
-Score('Score', 'Score', 'an optional tech label')
+Score('Score', 'Score', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/Score')
 
 ' renders the element
-Score('Score', 'Score', 'an optional tech label')
+Score('Score', 'Score', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

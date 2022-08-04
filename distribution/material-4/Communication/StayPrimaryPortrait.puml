@@ -8,6 +8,6 @@ sprite $StayPrimaryPortraitMd [16x16/16z] Oy02-A606y9bveS169y737XX_457Gm4EFWCdBm
 
 sprite $StayPrimaryPortraitLg [20x20/16z] Oy05kFbWW0qcnC6F030nJgnYR530Wn0RpYmYmuK5MGmko0u3Z20k
 
-!procedure StayPrimaryPortrait($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Communication/StayPrimaryPortrait', $name, $tech)
+!procedure StayPrimaryPortrait($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/StayPrimaryPortrait', $name, $tech, $desc)
 !endprocedure

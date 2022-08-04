@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/FullscreenExit')
 
 ' renders the element
-FullscreenExit('FullscreenExit', 'Fullscreen Exit', 'an optional tech label')
+FullscreenExit('FullscreenExit', 'Fullscreen Exit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/FullscreenExit')
 
 ' renders the element
-FullscreenExit('FullscreenExit', 'Fullscreen Exit', 'an optional tech label')
+FullscreenExit('FullscreenExit', 'Fullscreen Exit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,6 +8,6 @@ sprite $FlightMd [16x16/16z] fKs30G1133kxpVxJlctKJCGp0Nxr1j2BbW20nivX4DUrRHKwwq0
 
 sprite $FlightLg [20x20/16z] hO-30G0n303hFdFxR_ksSMMSgASW6vK5_QVERNMH6hi855foFQfoHaAdyTH8hI-eAOsg0LBTrJMrMbHDrFDUJ7pUiq2wKj7MNCrH7vsgOoe
 
-!procedure Flight($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/Flight', $name, $tech)
+!procedure Flight($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/Flight', $name, $tech, $desc)
 !endprocedure

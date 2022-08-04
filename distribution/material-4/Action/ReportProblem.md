@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/ReportProblem')
 
 ' renders the element
-ReportProblem('ReportProblem', 'Report Problem', 'an optional tech label')
+ReportProblem('ReportProblem', 'Report Problem', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/ReportProblem')
 
 ' renders the element
-ReportProblem('ReportProblem', 'Report Problem', 'an optional tech label')
+ReportProblem('ReportProblem', 'Report Problem', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

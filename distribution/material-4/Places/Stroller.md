@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Places/Stroller')
 
 ' renders the element
-Stroller('Stroller', 'Stroller', 'an optional tech label')
+Stroller('Stroller', 'Stroller', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Places/Stroller')
 
 ' renders the element
-Stroller('Stroller', 'Stroller', 'an optional tech label')
+Stroller('Stroller', 'Stroller', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

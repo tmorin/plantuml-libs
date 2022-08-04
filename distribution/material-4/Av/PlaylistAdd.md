@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/PlaylistAdd')
 
 ' renders the element
-PlaylistAdd('PlaylistAdd', 'Playlist Add', 'an optional tech label')
+PlaylistAdd('PlaylistAdd', 'Playlist Add', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/PlaylistAdd')
 
 ' renders the element
-PlaylistAdd('PlaylistAdd', 'Playlist Add', 'an optional tech label')
+PlaylistAdd('PlaylistAdd', 'Playlist Add', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

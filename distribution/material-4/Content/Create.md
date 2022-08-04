@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Content/Create')
 
 ' renders the element
-Create('Create', 'Create', 'an optional tech label')
+Create('Create', 'Create', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Content/Create')
 
 ' renders the element
-Create('Create', 'Create', 'an optional tech label')
+Create('Create', 'Create', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

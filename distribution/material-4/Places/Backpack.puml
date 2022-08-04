@@ -8,6 +8,6 @@ sprite $BackpackMd [16x16/16z] XSw35G0n44NHDQBVVxMn-S9xE5klup3N7WreWWKokDwIm6MD6
 
 sprite $BackpackLg [20x20/16z] hOw30G0n54Dpg97zfptRw2k_WrUGlhlboXU44AIQF3admfmrOtjNoIMzJ_poYNp4JxuI8xDln1xul0W9j1G7FWW_uN123G
 
-!procedure Backpack($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Places/Backpack', $name, $tech)
+!procedure Backpack($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/Backpack', $name, $tech, $desc)
 !endprocedure

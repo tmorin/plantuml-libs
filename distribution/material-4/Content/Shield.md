@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Content/Shield')
 
 ' renders the element
-Shield('Shield', 'Shield', 'an optional tech label')
+Shield('Shield', 'Shield', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Content/Shield')
 
 ' renders the element
-Shield('Shield', 'Shield', 'an optional tech label')
+Shield('Shield', 'Shield', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

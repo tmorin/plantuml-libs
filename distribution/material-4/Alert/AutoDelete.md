@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Alert/AutoDelete')
 
 ' renders the element
-AutoDelete('AutoDelete', 'Auto Delete', 'an optional tech label')
+AutoDelete('AutoDelete', 'Auto Delete', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Alert/AutoDelete')
 
 ' renders the element
-AutoDelete('AutoDelete', 'Auto Delete', 'an optional tech label')
+AutoDelete('AutoDelete', 'Auto Delete', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

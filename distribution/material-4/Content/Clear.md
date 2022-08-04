@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Content/Clear')
 
 ' renders the element
-Clear('Clear', 'Clear', 'an optional tech label')
+Clear('Clear', 'Clear', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Content/Clear')
 
 ' renders the element
-Clear('Clear', 'Clear', 'an optional tech label')
+Clear('Clear', 'Clear', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

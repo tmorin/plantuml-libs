@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/TaxiAlert')
 
 ' renders the element
-TaxiAlert('TaxiAlert', 'Taxi Alert', 'an optional tech label')
+TaxiAlert('TaxiAlert', 'Taxi Alert', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/TaxiAlert')
 
 ' renders the element
-TaxiAlert('TaxiAlert', 'Taxi Alert', 'an optional tech label')
+TaxiAlert('TaxiAlert', 'Taxi Alert', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

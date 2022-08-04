@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/PestControl')
 
 ' renders the element
-PestControl('PestControl', 'Pest Control', 'an optional tech label')
+PestControl('PestControl', 'Pest Control', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/PestControl')
 
 ' renders the element
-PestControl('PestControl', 'Pest Control', 'an optional tech label')
+PestControl('PestControl', 'Pest Control', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

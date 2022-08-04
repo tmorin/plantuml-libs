@@ -11,6 +11,6 @@ ZS-55S1020FGr1NOVzeAfAwftdydWBzfx6gP2L1P924cDitKFN9cGbHYRVFCadC3vpy1QBBQjgVkBFRS
 ztv9SeSfC08
 }
 
-!procedure ReportOff($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Content/ReportOff', $name, $tech)
+!procedure ReportOff($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/ReportOff', $name, $tech, $desc)
 !endprocedure

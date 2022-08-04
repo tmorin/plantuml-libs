@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Device/GpsNotFixed')
 
 ' renders the element
-GpsNotFixed('GpsNotFixed', 'Gps Not Fixed', 'an optional tech label')
+GpsNotFixed('GpsNotFixed', 'Gps Not Fixed', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Device/GpsNotFixed')
 
 ' renders the element
-GpsNotFixed('GpsNotFixed', 'Gps Not Fixed', 'an optional tech label')
+GpsNotFixed('GpsNotFixed', 'Gps Not Fixed', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

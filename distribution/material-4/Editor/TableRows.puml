@@ -8,6 +8,6 @@ sprite $TableRowsMd [16x16/16z] Oy00JCW0oEL71WJvj3UF6HbGR1u
 
 sprite $TableRowsLg [20x20/16z] Oo0QyAC17eh41ivUPZJ0XCDUJZJ0Jg6zF6Y04wkj
 
-!procedure TableRows($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Editor/TableRows', $name, $tech)
+!procedure TableRows($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/TableRows', $name, $tech, $desc)
 !endprocedure

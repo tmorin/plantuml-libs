@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Content/AddBox')
 
 ' renders the element
-AddBox('AddBox', 'Add Box', 'an optional tech label')
+AddBox('AddBox', 'Add Box', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Content/AddBox')
 
 ' renders the element
-AddBox('AddBox', 'Add Box', 'an optional tech label')
+AddBox('AddBox', 'Add Box', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,12 +2,12 @@
 
 sprite $MarkChatReadXs [10x10/16z] Oq00Jdu8O63WXm8UJ1Olb0NM0P5XOEG7ivXukK5w6K4ol0n8
 
-sprite $MarkChatReadSm [12x12/16z] XSR50O0m002nmntsdnQeUvjN29oNSi3r67thzpYPz_pKxp_Bepxisz__upZ2y_2_9-S3
+sprite $MarkChatReadSm [12x12/16z] XSR50O0m002nmntsdnQeUvjN29oNSi3r67thzpYPz_pKxp_Bepxisz__up32y_2_9-S3
 
-sprite $MarkChatReadMd [16x16/16z] hSj50e1034FHNy7j_hUbkBEQjskJy21wcCxX33JLtGl8SJTCZfj9hzjTaaDtx5M7kXk4wVO0DiGvtSh2fnCL_em
+sprite $MarkChatReadMd [16x16/16z] hSj50e1034FHNy7j_hUbkBEQjskJy21wcCxX33JLtGl8SJTCZfj9hzjTaaDtx5M7gXk4wVO0DiGvtSh2fnCL_em
 
-sprite $MarkChatReadLg [20x20/16z] hSYr0GGn00CmXpdUVzk7OqQLmcc1Kx_ZJ5gv_EQLChkgyIN6Lz4PJk97nj5b_0XI3gUH0jIlXfCeJAH2S_e7G5k_4-YKN_rEugOF
+sprite $MarkChatReadLg [20x20/16z] hSY53S103CNG7oWtb_stBJE3HTR3xJ9VrfYlAdQi_DFCLXOKTJItWA7964sSpwn44xdpP8eYWpGq6SEyS1TqfYhQV4-D4OQieSOOBwi
 
-!procedure MarkChatRead($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Communication/MarkChatRead', $name, $tech)
+!procedure MarkChatRead($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/MarkChatRead', $name, $tech, $desc)
 !endprocedure

@@ -8,6 +8,6 @@ sprite $TabMd [16x16/16z] Oo04c7bu4O2RWO6VbmSC-C60Xu6V6Q8EmkV5oMS20Lum7m5emKS1d6
 
 sprite $TabLg [20x20/16z] Ow04SF2Z0qO6FdusA829iGF5O3huY1JZuGC3k1W2C0qoCLwCC61ZOERbGmLSH0Sf
 
-!procedure Tab($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/Tab', $name, $tech)
+!procedure Tab($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Tab', $name, $tech, $desc)
 !endprocedure

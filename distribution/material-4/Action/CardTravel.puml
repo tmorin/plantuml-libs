@@ -8,6 +8,6 @@ sprite $CardTravelMd [16x16/16z] RSk55SKm20LGu6jRE6__QUEUt2X6Hn9m3v5SFPPmcURWhme
 
 sprite $CardTravelLg [20x20/16z] bSp50O0034DHNDF-_QV5tNctIXByaZBmxGwg7kbcDtsGJNDSIw0U9fLZRg_eTzKkYwQTwc6dTDsj_kxsxdVAjZxtzI-f-LOTVDO2
 
-!procedure CardTravel($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/CardTravel', $name, $tech)
+!procedure CardTravel($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/CardTravel', $name, $tech, $desc)
 !endprocedure

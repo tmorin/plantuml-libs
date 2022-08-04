@@ -4,13 +4,13 @@ sprite $PrintDisabledXs [10x10/16z] Ou03LWIJdu4V121CA03n-VZv-LY1B32JZmSi1cBoCB2n
 
 sprite $PrintDisabledSm [12x12/16z] JOb50e003CCwtFF_tz8DpQKI_OZ_82QIxZUgBqI_cJ4hn0Y-j6FaGPEzRyfKRoKFTsbpzr2oKOG-Y1C
 
-sprite $PrintDisabledMd [16x16/16z] XOu53WD130Fdc7pr_rzRSY9Ls5aCcpyS7ZZkC07i7YQ7kJF6NvlB0zEN0S1lXY4P9-JtVPR5KBNnjtq_uYXRSAO73995718Vf5OQvD2EiKX6AEcy
+sprite $PrintDisabledMd [16x16/16z] XSq53iGm34JHNuR0tF-sQsKSQOLznHZvy6ZXQROHRYsRR9yLw_-PeeLjM0WAowBX1V-Dpt48ijVnUMxTWJnNU3q3bbfLlJP-8SJ70QpAPc1DhaXkuGS
 
 sprite $PrintDisabledLg [20x20/16z] {
 ZSy53WDH409GrXtkVzlc6rDlYR-CuizCVBMEwd2ePIme0O-Ma1qkc_5bOgg9oWreim0gXPgQfSeppzFPp9KCYygmUYSV3LsjJ3RFyoL_DCyJSivajH9evjXs
 jjHAnpDVSS4D
 }
 
-!procedure PrintDisabled($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Communication/PrintDisabled', $name, $tech)
+!procedure PrintDisabled($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/PrintDisabled', $name, $tech, $desc)
 !endprocedure

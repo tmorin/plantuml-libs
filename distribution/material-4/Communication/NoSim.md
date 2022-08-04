@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/NoSim')
 
 ' renders the element
-NoSim('NoSim', 'No Sim', 'an optional tech label')
+NoSim('NoSim', 'No Sim', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/NoSim')
 
 ' renders the element
-NoSim('NoSim', 'No Sim', 'an optional tech label')
+NoSim('NoSim', 'No Sim', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

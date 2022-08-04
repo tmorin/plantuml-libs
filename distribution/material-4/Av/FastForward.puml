@@ -8,6 +8,6 @@ sprite $FastForwardMd [16x16/16z] fKa50G0n47h_EVtJJc45pj33FZTHWq2KHpc9zC1FbCStyP
 
 sprite $FastForwardLg [20x20/16z] lSo50S0W34JHkZT__sahTvLCWCCxI5McjRNtFbbFfptsR2mow991BMF9nYGZccGCWT26y_1pc-l8z5CMxRs7aiSsxquAjHC
 
-!procedure FastForward($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Av/FastForward', $name, $tech)
+!procedure FastForward($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/FastForward', $name, $tech, $desc)
 !endprocedure

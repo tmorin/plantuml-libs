@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/BorderHorizontal')
 
 ' renders the element
-BorderHorizontal('BorderHorizontal', 'Border Horizontal', 'an optional tech label')
+BorderHorizontal('BorderHorizontal', 'Border Horizontal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/BorderHorizontal')
 
 ' renders the element
-BorderHorizontal('BorderHorizontal', 'Border Horizontal', 'an optional tech label')
+BorderHorizontal('BorderHorizontal', 'Border Horizontal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

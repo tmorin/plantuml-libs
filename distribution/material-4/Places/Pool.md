@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Places/Pool')
 
 ' renders the element
-Pool('Pool', 'Pool', 'an optional tech label')
+Pool('Pool', 'Pool', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Places/Pool')
 
 ' renders the element
-Pool('Pool', 'Pool', 'an optional tech label')
+Pool('Pool', 'Pool', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

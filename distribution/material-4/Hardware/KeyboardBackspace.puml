@@ -8,6 +8,6 @@ sprite $KeyboardBackspaceMd [16x16/16z] Ow0AO4FbylBZvp8pGG68oywF06013duMX68S0cZs
 
 sprite $KeyboardBackspaceLg [20x20/16z] lSg35S1G04FHrExRVzhQvh-7WSpnDYhGWaz-wKKK3WBLcCbLiy2tHcg1goLhgnInLYpzg0G
 
-!procedure KeyboardBackspace($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Hardware/KeyboardBackspace', $name, $tech)
+!procedure KeyboardBackspace($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Hardware/KeyboardBackspace', $name, $tech, $desc)
 !endprocedure

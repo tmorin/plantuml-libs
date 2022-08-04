@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/SyncAlt')
 
 ' renders the element
-SyncAlt('SyncAlt', 'Sync Alt', 'an optional tech label')
+SyncAlt('SyncAlt', 'Sync Alt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/SyncAlt')
 
 ' renders the element
-SyncAlt('SyncAlt', 'Sync Alt', 'an optional tech label')
+SyncAlt('SyncAlt', 'Sync Alt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

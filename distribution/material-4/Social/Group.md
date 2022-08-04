@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/Group')
 
 ' renders the element
-Group('Group', 'Group', 'an optional tech label')
+Group('Group', 'Group', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/Group')
 
 ' renders the element
-Group('Group', 'Group', 'an optional tech label')
+Group('Group', 'Group', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

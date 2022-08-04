@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/List')
 
 ' renders the element
-List('List', 'List', 'an optional tech label')
+List('List', 'List', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/List')
 
 ' renders the element
-List('List', 'List', 'an optional tech label')
+List('List', 'List', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

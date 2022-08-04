@@ -1,16 +1,16 @@
 ' definition of the Item material-4/Av/PauseCircleOutline
 
-sprite $PauseCircleOutlineXs [10x10/16z] LSR50O0m04FHXplPVrgaFJNwDKekS0Jf4H0rqOygSRWhpJq1mP3U560wUxm
+sprite $PauseCircleOutlineXs [10x10/16z] LSQr0S1040F1URZ4fFwhDKOMhf-I7Qn1EWBYI_Jf8rR7HzK924Qw2b1RnmK
 
 sprite $PauseCircleOutlineSm [12x12/16z] NSO54W1H209G_DtU_xOhZbDhmCD_ncwXgwCixSuDZbO6S6pPeriHJt1o-2Iq5LRuPrkXnxCm2glfEqhwIFBw
 
 sprite $PauseCircleOutlineMd [16x16/16z] ROk50S0m20GXhlp-snRgTfNaZVvXlgi18-_AGO8U1NFJwFjcCuPenP4tmwk6bkSakuzf9fqwwTtTTC0pptP7FhKqsioD22P5X7TPDdzYH9z5vOuN09tfXmK
 
 sprite $PauseCircleOutlineLg [20x20/16z] {
-bOu50i0W00AnM_x_sxdkkgK71lxXsIXgOnnPSohjBMULI3ctvTnASof9WHuI2shCFMLVSAXzbjaxLcoSfEvTsZemzA-uTwb_vRrpxLMvTNOueUuJ4JL2N0zM
-MpGJwAPpLhMeiXoUkQyQDZKZ4aSSjfYOlSGz7G
+bOw50S0W40E3Ezb_sr9tknQxF89_U3QAsXX7rfnAw-Mi4YddQZbNfJcLf40FYGKrvfwoBt2eVPRPErPidAJkNTewCFHTtBlKTtdlNEigjyuCBzHz8g96YEl3
+Qejc0jtqpgeMLPR7CylXhAPcHEA8mnOJivUufmC
 }
 
-!procedure PauseCircleOutline($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Av/PauseCircleOutline', $name, $tech)
+!procedure PauseCircleOutline($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/PauseCircleOutline', $name, $tech, $desc)
 !endprocedure

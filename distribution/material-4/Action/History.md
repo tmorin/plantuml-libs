@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/History')
 
 ' renders the element
-History('History', 'History', 'an optional tech label')
+History('History', 'History', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/History')
 
 ' renders the element
-History('History', 'History', 'an optional tech label')
+History('History', 'History', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

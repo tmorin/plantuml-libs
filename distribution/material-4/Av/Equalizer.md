@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/Equalizer')
 
 ' renders the element
-Equalizer('Equalizer', 'Equalizer', 'an optional tech label')
+Equalizer('Equalizer', 'Equalizer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/Equalizer')
 
 ' renders the element
-Equalizer('Equalizer', 'Equalizer', 'an optional tech label')
+Equalizer('Equalizer', 'Equalizer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

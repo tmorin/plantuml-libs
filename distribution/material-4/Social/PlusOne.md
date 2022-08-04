@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/PlusOne')
 
 ' renders the element
-PlusOne('PlusOne', 'Plus One', 'an optional tech label')
+PlusOne('PlusOne', 'Plus One', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/PlusOne')
 
 ' renders the element
-PlusOne('PlusOne', 'Plus One', 'an optional tech label')
+PlusOne('PlusOne', 'Plus One', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

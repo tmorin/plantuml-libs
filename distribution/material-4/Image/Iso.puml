@@ -8,6 +8,6 @@ sprite $IsoMd [16x16/16z] XSo50SCm34HHXSst_xGcGRdvmMUY-sBMt632exKx0rjcYJVQZa4Ivo
 
 sprite $IsoLg [20x20/16z] fSp50GGn40D1cL5s_j4UB3FsimRmBjPfjh4wYxr5sOcifRDeHMm-20mc1MJuRw6pyHQO6hkjgRM_LYQnCc1ctLOcQKPhVXbhhHnDec-qQRannp96YSjz0G
 
-!procedure Iso($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/Iso', $name, $tech)
+!procedure Iso($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/Iso', $name, $tech, $desc)
 !endprocedure

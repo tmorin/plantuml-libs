@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Search')
 
 ' renders the element
-Search('Search', 'Search', 'an optional tech label')
+Search('Search', 'Search', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Search')
 
 ' renders the element
-Search('Search', 'Search', 'an optional tech label')
+Search('Search', 'Search', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

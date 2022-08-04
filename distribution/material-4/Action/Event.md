@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Event')
 
 ' renders the element
-Event('Event', 'Event', 'an optional tech label')
+Event('Event', 'Event', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Event')
 
 ' renders the element
-Event('Event', 'Event', 'an optional tech label')
+Event('Event', 'Event', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

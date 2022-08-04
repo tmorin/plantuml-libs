@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/AirlineSeatFlatAngled')
 
 ' renders the element
-AirlineSeatFlatAngled('AirlineSeatFlatAngled', 'Airline Seat Flat Angled', 'an optional tech label')
+AirlineSeatFlatAngled('AirlineSeatFlatAngled', 'Airline Seat Flat Angled', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/AirlineSeatFlatAngled')
 
 ' renders the element
-AirlineSeatFlatAngled('AirlineSeatFlatAngled', 'Airline Seat Flat Angled', 'an optional tech label')
+AirlineSeatFlatAngled('AirlineSeatFlatAngled', 'Airline Seat Flat Angled', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

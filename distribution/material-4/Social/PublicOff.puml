@@ -2,15 +2,18 @@
 
 sprite $PublicOffXs [10x10/16z] LSgr0SG00CF0UuQ0zfysMCMDIIwg2VhSgkvdH5Hlt9zI7mnczlLr9tMoZsvx1A_n8Ii
 
-sprite $PublicOffSm [12x12/16z] NOY50GCn4CCKvdZ_QTjdqg7CbzmYAqfe9LtIKG2E244PXqn3TtcNRec5NSGsMaL05dQJbQYfIp1sZVW3
+sprite $PublicOffSm [12x12/16z] NOY50GCn4CCKvdZ_QTjdqg7CbzmYAqfe9LtIKG2E244PXqn3TtcNRec5NSGsMaL0djXDLgAcBi7ODU8F
 
-sprite $PublicOffMd [16x16/16z] ROq54W8n5CNoTwVKc_kV5dV8-5F-4y633CCB6O1afgas9m27kq3SXA6P0X3kmAlAc12MjotOv2diGiXJo09cc3TXzRlOl0ej09P1UdjXshFlmhxK7icD3m9E
-
-sprite $PublicOffLg [20x20/16z] {
-bOu54WGn20I9U-R_lxs5cdFlrJGg_r41O0MU0eeuaEt5m5KMW78VCgZAuW77HCqix3Jqqs2IJ31Dw-WyehfHRpFHzDNbLbf3JBcLgBQAg6JFP1j6_NTW9i2T
-7QVVxeaWqYaFAAUhk9TkW6QP9AdF5dILB2yv0G
+sprite $PublicOffMd [16x16/16z] {
+RSs54S9G54JHyv89yR_zLuixtF5L_wdoO6JBXH4C6Ir9icG7XxkWRiAMZ2Qez7XLRJkLwMsBBfv27ogUmXXaPBy9RRsBIwx2Kj1Q6TvUx5d7l0jzIxBMa8vt
+YXC
 }
 
-!procedure PublicOff($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Social/PublicOff', $name, $tech)
+sprite $PublicOffLg [20x20/16z] {
+bOu54WH12CHO7y__Vti5rUUUrGbg_v40-gBJmc4JOimMS9K7I0uEMrpjDiEaHCyyrAdw9nDID9G6x78pgxkQRZF9_YfsAwCXpMubALOnb-gvnOQh_qye4xJp
+fEctUux5h4YA1TgKk9TJHQQ755jfUV5LTdl92G
+}
+
+!procedure PublicOff($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/PublicOff', $name, $tech, $desc)
 !endprocedure

@@ -8,6 +8,6 @@ sprite $PersonSearchMd [16x16/16z] dSwr0SH04CLGcM7Wzz_jdTcxeL-cJ7mnIHEFGN_zqxQrF
 
 sprite $PersonSearchLg [20x20/16z] fSs35KHH5CNGV3-d_sh7DlRYvU5_tTXp8wgLAvDRaKlPhVQsDtf_Ir0pjpfWAP4RLRKxdJORYpETxIArK0MAR3MtAiaEb2ttwBHekUm5-gRLn9tin9s9XzO
 
-!procedure PersonSearch($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Communication/PersonSearch', $name, $tech)
+!procedure PersonSearch($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/PersonSearch', $name, $tech, $desc)
 !endprocedure

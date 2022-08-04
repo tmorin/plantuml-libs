@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/File/DriveFileMoveOutline')
 
 ' renders the element
-DriveFileMoveOutline('DriveFileMoveOutline', 'Drive File Move Outline', 'an optional tech label')
+DriveFileMoveOutline('DriveFileMoveOutline', 'Drive File Move Outline', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/File/DriveFileMoveOutline')
 
 ' renders the element
-DriveFileMoveOutline('DriveFileMoveOutline', 'Drive File Move Outline', 'an optional tech label')
+DriveFileMoveOutline('DriveFileMoveOutline', 'Drive File Move Outline', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

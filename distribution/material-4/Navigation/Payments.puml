@@ -8,6 +8,6 @@ sprite $PaymentsMd [16x16/16z] bSgr0S0m40D0rO_xJnkE6QyJO1Txm7Vsn9y5a2Uh8lI3pEa_U
 
 sprite $PaymentsLg [20x20/16z] fSx50KKX34JHmPtflzelJnEstEL14cpbW-YaIjayR58bBC9TPfamJmACCF52cVqRjT40VJLEyhL1rM6cojnXQwVvhZgM3THXfoy
 
-!procedure Payments($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Navigation/Payments', $name, $tech)
+!procedure Payments($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Navigation/Payments', $name, $tech, $desc)
 !endprocedure

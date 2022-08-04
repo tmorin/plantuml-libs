@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/LibraryAddCheck')
 
 ' renders the element
-LibraryAddCheck('LibraryAddCheck', 'Library Add Check', 'an optional tech label')
+LibraryAddCheck('LibraryAddCheck', 'Library Add Check', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/LibraryAddCheck')
 
 ' renders the element
-LibraryAddCheck('LibraryAddCheck', 'Library Add Check', 'an optional tech label')
+LibraryAddCheck('LibraryAddCheck', 'Library Add Check', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

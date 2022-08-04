@@ -1,16 +1,16 @@
 ' definition of the Item material-4/Image/Adjust
 
-sprite $AdjustXs [10x10/16z] LKg30G0W4Bpisd_QhFS9f4f9yuSo21zdwNDqNoudAVq4P2oTVJc8mg4MXOgytmO
+sprite $AdjustXs [10x10/16z] LKg30G0W4Bpisd_QhFS9f4f9yuSo21zdwNDqNoudAVq4v6KfzkKW2eTQ52hoVXi
 
 sprite $AdjustSm [12x12/16z] NKg50S0W32iRRld_MjohCNfBEp5GWEOMga7N55GB5VMlYmbOeiZ8_nKNqNyaY-J0Yx3ph7uTEsJrIKIF3glujPS1
 
 sprite $AdjustMd [16x16/16z] RKq50WGX45gxX___ziIPwyKabEiUpdso2I8Ryv2uZugb7CFUg315AOL0c-4oFQr5aHJWaS7Vh6078imFwXTkAAUKctGL3GdkgEACLjKNPWf5I1L100oc_l
 
 sprite $AdjustLg [20x20/16z] {
-bOu5QW0m34LJzxxxttQa8GoPFY0kN_v71pX9FcbmzpfmevSMH9-EFhMy6o680cgDPFsEpTl0HYrNRSLy96ljJGFi5mmrKnTHn4VOFjSqUFPYnwrKdvZy4WUR
-k4Hn1ZQGkCbBR34IR1qjSCG92yCMdJ9tZ_8z7m
+bOv55aGX30HnXxx_ROUa_xZN8bhaOVuZOpFz_MIDFdTqvr47M1SjQFNprW5M2q0YyToNmwSmeDgIcC3i47QaZStGeafeyX22EIiOPozBeN61npcA-fcWpHdG
+MFePKW_1O_dpI8zpYE7q5gOvOpi87vw9RHHntt42
 }
 
-!procedure Adjust($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/Adjust', $name, $tech)
+!procedure Adjust($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/Adjust', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/FiberManualRecord')
 
 ' renders the element
-FiberManualRecord('FiberManualRecord', 'Fiber Manual Record', 'an optional tech label')
+FiberManualRecord('FiberManualRecord', 'Fiber Manual Record', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/FiberManualRecord')
 
 ' renders the element
-FiberManualRecord('FiberManualRecord', 'Fiber Manual Record', 'an optional tech label')
+FiberManualRecord('FiberManualRecord', 'Fiber Manual Record', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

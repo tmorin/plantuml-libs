@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Device/BatteryFull')
 
 ' renders the element
-BatteryFull('BatteryFull', 'Battery Full', 'an optional tech label')
+BatteryFull('BatteryFull', 'Battery Full', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Device/BatteryFull')
 
 ' renders the element
-BatteryFull('BatteryFull', 'Battery Full', 'an optional tech label')
+BatteryFull('BatteryFull', 'Battery Full', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

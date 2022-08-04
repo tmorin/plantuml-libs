@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/NotificationsPaused')
 
 ' renders the element
-NotificationsPaused('NotificationsPaused', 'Notifications Paused', 'an optional tech label')
+NotificationsPaused('NotificationsPaused', 'Notifications Paused', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/NotificationsPaused')
 
 ' renders the element
-NotificationsPaused('NotificationsPaused', 'Notifications Paused', 'an optional tech label')
+NotificationsPaused('NotificationsPaused', 'Notifications Paused', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

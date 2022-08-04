@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Assessment')
 
 ' renders the element
-Assessment('Assessment', 'Assessment', 'an optional tech label')
+Assessment('Assessment', 'Assessment', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Assessment')
 
 ' renders the element
-Assessment('Assessment', 'Assessment', 'an optional tech label')
+Assessment('Assessment', 'Assessment', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

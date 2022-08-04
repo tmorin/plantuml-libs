@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/OutgoingMail')
 
 ' renders the element
-OutgoingMail('OutgoingMail', 'Outgoing Mail', 'an optional tech label')
+OutgoingMail('OutgoingMail', 'Outgoing Mail', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/OutgoingMail')
 
 ' renders the element
-OutgoingMail('OutgoingMail', 'Outgoing Mail', 'an optional tech label')
+OutgoingMail('OutgoingMail', 'Outgoing Mail', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

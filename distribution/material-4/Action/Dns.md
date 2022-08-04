@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Dns')
 
 ' renders the element
-Dns('Dns', 'Dns', 'an optional tech label')
+Dns('Dns', 'Dns', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Dns')
 
 ' renders the element
-Dns('Dns', 'Dns', 'an optional tech label')
+Dns('Dns', 'Dns', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

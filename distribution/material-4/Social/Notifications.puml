@@ -8,6 +8,6 @@ sprite $NotificationsMd [16x16/16z] ZSj50a0X40BGtwbo_zFQtMyt0onp7YJdol14vmrbzIaq
 
 sprite $NotificationsLg [20x20/16z] fSk53G113CJ0Oqws_sgVcS7YaIpUfkFUWB2b3C2jHA6hBAsdrMunDbkQJ4sM9zEJbSdC3xCZHSp9dWoMYUiam3kqMLuzDG
 
-!procedure Notifications($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Social/Notifications', $name, $tech)
+!procedure Notifications($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/Notifications', $name, $tech, $desc)
 !endprocedure

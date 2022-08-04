@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Delete')
 
 ' renders the element
-Delete('Delete', 'Delete', 'an optional tech label')
+Delete('Delete', 'Delete', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Delete')
 
 ' renders the element
-Delete('Delete', 'Delete', 'an optional tech label')
+Delete('Delete', 'Delete', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

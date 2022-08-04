@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/File/WorkspacesFilled')
 
 ' renders the element
-WorkspacesFilled('WorkspacesFilled', 'Workspaces Filled', 'an optional tech label')
+WorkspacesFilled('WorkspacesFilled', 'Workspaces Filled', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/File/WorkspacesFilled')
 
 ' renders the element
-WorkspacesFilled('WorkspacesFilled', 'Workspaces Filled', 'an optional tech label')
+WorkspacesFilled('WorkspacesFilled', 'Workspaces Filled', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

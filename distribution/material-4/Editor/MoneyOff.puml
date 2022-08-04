@@ -8,6 +8,6 @@ sprite $MoneyOffMd [16x16/16z] ZKt50G0n3ABkPVzfprtBAmH36sI9snqqe5WsRgX1ifuU0DFsI
 
 sprite $MoneyOffLg [20x20/16z] fSg53GCn44JHDVDE_zrc5C4nV_EJvMD6M07cXCozBamAqOFb5JA5dM7zez4oCmlYkhQ7NdTGoWrCY5i4MYp00aqZQ5pzp03tukQMTCZ3VW
 
-!procedure MoneyOff($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Editor/MoneyOff', $name, $tech)
+!procedure MoneyOff($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/MoneyOff', $name, $tech, $desc)
 !endprocedure

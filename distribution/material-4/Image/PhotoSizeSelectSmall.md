@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/PhotoSizeSelectSmall')
 
 ' renders the element
-PhotoSizeSelectSmall('PhotoSizeSelectSmall', 'Photo Size Select Small', 'an optional tech label')
+PhotoSizeSelectSmall('PhotoSizeSelectSmall', 'Photo Size Select Small', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/PhotoSizeSelectSmall')
 
 ' renders the element
-PhotoSizeSelectSmall('PhotoSizeSelectSmall', 'Photo Size Select Small', 'an optional tech label')
+PhotoSizeSelectSmall('PhotoSizeSelectSmall', 'Photo Size Select Small', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

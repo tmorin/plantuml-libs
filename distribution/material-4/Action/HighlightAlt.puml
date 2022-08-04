@@ -8,6 +8,6 @@ sprite $HighlightAltMd [16x16/16z] XOq54aD124D3gZ1akFzfs-ykRnSttFE5Q494upMu8sc9Q
 
 sprite $HighlightAltLg [20x20/16z] fT230GD150JGMNj-_zN6EVlUsi0zpKE8A0hYt_7DQtW7u_-rDUA73UADm-ciM1FDi15MzrCOKEh0NUI5ltVqVPozGoZvLnlyGVbr1lU-VQ1wloZZk2S
 
-!procedure HighlightAlt($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/HighlightAlt', $name, $tech)
+!procedure HighlightAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/HighlightAlt', $name, $tech, $desc)
 !endprocedure

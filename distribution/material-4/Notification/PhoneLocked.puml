@@ -4,13 +4,13 @@ sprite $PhoneLockedXs [10x10/16z] Oy00_23C3y9eB2u61YuU7Y2BZGD9COB90r871emW5W8
 
 sprite $PhoneLockedSm [12x12/16z] NSV50O1G081Gx9RzfxNzzKx0fJItN7I5TbsNfuLDBNgKIrtNN2JgqXcbLtaq6lgwJKcT
 
-sprite $PhoneLockedMd [16x16/16z] TOg50G0X30FpRfJil-tZpY5j15CMaSNENUIryxFNe4ZQc8OLmEFr6lLESYiqI2dx48sArTPBNg96Sm6ERr-Z8JnF6f9nauMsFBMsh2iwVW
+sprite $PhoneLockedMd [16x16/16z] TSm50eKW40JG8N-kS__RAjtFW4qSAH4LJYlo3USll8y_oL3cGmFuf5YNs98qNGnI-dx8XO4ExRqlCRge0FUp6fdG-xelU9CjRXcDdjPOt
 
 sprite $PhoneLockedLg [20x20/16z] {
 ZSw53K0X34NH5lUt_xJVNO0RQmvAhLIA_BH8X7N2b9e76RGkV9ZP1-J3_67biFomEEzxd5L0eBcGflJ-CBqoS6_Ca2_ZhzC2qFCTADbUCTdzVqSHU1bnVjci
 sgVigBiH
 }
 
-!procedure PhoneLocked($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Notification/PhoneLocked', $name, $tech)
+!procedure PhoneLocked($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Notification/PhoneLocked', $name, $tech, $desc)
 !endprocedure

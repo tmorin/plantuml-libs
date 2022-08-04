@@ -2,12 +2,12 @@
 
 sprite $GradeXs [10x10/16z] Oq05770MFup10s6nyuC1YCC4OO00Dup101BYWR0W604
 
-sprite $GradeSm [12x12/16z] Oy00p4XiVWIJ4udDpyy7PK017uB3Wv3XPK2meRfP-3aPUA5iBX31n8ngEm
+sprite $GradeSm [12x12/16z] Oy00p4XiVWIJ4udDpyy7PK017uB3Wv3XPK2meRfP-3aPUA5iRX31n8ngEm
 
 sprite $GradeMd [16x16/16z] ZSsr0S0030D1XLc__xHXvglCra_DCKqvvb3iqn3GhAmRCt1J5NDlvdbvLcjcO7-HszoQnH2hs7qS9mE7-jO1
 
 sprite $GradeLg [20x20/16z] bSsr0KGX00FGuF2Hx3_jAKx5goEuvd4mn27JO2F8Z4qYYK58PHm_ajLAuCjnLHydMU17iajePE5Vm13dhOgLGIVEEMWoIzYb76efKg1ng9J2XJS
 
-!procedure Grade($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/Grade', $name, $tech)
+!procedure Grade($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Grade', $name, $tech, $desc)
 !endprocedure

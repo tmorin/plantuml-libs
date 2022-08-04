@@ -2,15 +2,15 @@
 
 sprite $PestControlXs [10x10/16z] Oy0E6Fdv-Q5C68kV5yXYvuS80H5K3YhFmy_FoS_F2cGnWKI0908
 
-sprite $PestControlSm [12x12/16z] VSU53SLG3C30V2Z3xJzj8Ng2eaNdU4arT7DnXIYD-AOcicgVbk2papJx3Eb_Se1v_aN66ATM
+sprite $PestControlSm [12x12/16z] VSU53SLG3C30V2Z3xJzj8Ng2eaNdU4arT7DnXIYD-AOcicgVZk2papJx3Eb_Se1v_aN66ATM
 
-sprite $PestControlMd [16x16/16z] ZOs50KGX3CLmX-w_xP6U-m-QXzGS8RezrRit4PdYxu4GtDKBN6twfkvAL1_8P4f6AJpUQjKumO6wplUBHt_xVJ6DI_6-1EhgA12qgu1rvZCd
+sprite $PestControlMd [16x16/16z] ZOs50KGX3CLmX-w_xP6U-m-QXzGS8RezrRit4PdYxu4GtDKBN6twfkvAL1_8P4f6gJpUQjKumO6wplUBHt_xVJ6DI_6-1EhgA12qgu1rvZCd
 
 sprite $PestControlLg [20x20/16z] {
-fSsr0GKX40JGELnt-g_s30s_l0JMyRT8fSqHUM0v-2hOPJuqTdn5J6Ra4j1RBMjbuybvzPOzRsBHXQS5Gl908yAP4obua2j7obguPfl2Mubyz1k6kR1nGZGA
-g2tr_1TNQbBupWK
+fSw34KLH34NHywwPtN-rtpRMA1FhRnNdmr9PTBQmCtIfi-LrYPsgat3CDUdG6fcJlGodgnizis5H5yaiWzCpPfnoPaDRSCfjiqzdDTWObQt3ZK0Vx2L3UqwQ
+-zGsFajZDgVlh04
 }
 
-!procedure PestControl($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/PestControl', $name, $tech)
+!procedure PestControl($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/PestControl', $name, $tech, $desc)
 !endprocedure

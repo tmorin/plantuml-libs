@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/Facebook')
 
 ' renders the element
-Facebook('Facebook', 'Facebook', 'an optional tech label')
+Facebook('Facebook', 'Facebook', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/Facebook')
 
 ' renders the element
-Facebook('Facebook', 'Facebook', 'an optional tech label')
+Facebook('Facebook', 'Facebook', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

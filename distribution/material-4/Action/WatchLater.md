@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/WatchLater')
 
 ' renders the element
-WatchLater('WatchLater', 'Watch Later', 'an optional tech label')
+WatchLater('WatchLater', 'Watch Later', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/WatchLater')
 
 ' renders the element
-WatchLater('WatchLater', 'Watch Later', 'an optional tech label')
+WatchLater('WatchLater', 'Watch Later', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

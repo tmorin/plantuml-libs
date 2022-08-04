@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/SystemUpdateAlt')
 
 ' renders the element
-SystemUpdateAlt('SystemUpdateAlt', 'System Update Alt', 'an optional tech label')
+SystemUpdateAlt('SystemUpdateAlt', 'System Update Alt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/SystemUpdateAlt')
 
 ' renders the element
-SystemUpdateAlt('SystemUpdateAlt', 'System Update Alt', 'an optional tech label')
+SystemUpdateAlt('SystemUpdateAlt', 'System Update Alt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

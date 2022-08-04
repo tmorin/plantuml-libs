@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalHospital')
 
 ' renders the element
-LocalHospital('LocalHospital', 'Local Hospital', 'an optional tech label')
+LocalHospital('LocalHospital', 'Local Hospital', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalHospital')
 
 ' renders the element
-LocalHospital('LocalHospital', 'Local Hospital', 'an optional tech label')
+LocalHospital('LocalHospital', 'Local Hospital', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

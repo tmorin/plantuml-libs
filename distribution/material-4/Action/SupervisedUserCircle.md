@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/SupervisedUserCircle')
 
 ' renders the element
-SupervisedUserCircle('SupervisedUserCircle', 'Supervised User Circle', 'an optional tech label')
+SupervisedUserCircle('SupervisedUserCircle', 'Supervised User Circle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/SupervisedUserCircle')
 
 ' renders the element
-SupervisedUserCircle('SupervisedUserCircle', 'Supervised User Circle', 'an optional tech label')
+SupervisedUserCircle('SupervisedUserCircle', 'Supervised User Circle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

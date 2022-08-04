@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/AssignmentInd')
 
 ' renders the element
-AssignmentInd('AssignmentInd', 'Assignment Ind', 'an optional tech label')
+AssignmentInd('AssignmentInd', 'Assignment Ind', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/AssignmentInd')
 
 ' renders the element
-AssignmentInd('AssignmentInd', 'Assignment Ind', 'an optional tech label')
+AssignmentInd('AssignmentInd', 'Assignment Ind', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

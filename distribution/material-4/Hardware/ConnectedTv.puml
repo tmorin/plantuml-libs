@@ -8,6 +8,6 @@ sprite $ConnectedTvMd [16x16/16z] XSV50OHG50F0VD-5FD9_jRZht0PV0crJ0p9kH2XWOyFzwI
 
 sprite $ConnectedTvLg [20x20/16z] fS_50GGn30D0XJdglzg3PSPvceqtF9S4AksCe_t5C2DtOuPPBsCGWMKHarOWbtbCanfqYns6KjVvZeeSmLbCHQayefZ6mapynTp6loqs8gPg8-2MBm
 
-!procedure ConnectedTv($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Hardware/ConnectedTv', $name, $tech)
+!procedure ConnectedTv($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Hardware/ConnectedTv', $name, $tech, $desc)
 !endprocedure

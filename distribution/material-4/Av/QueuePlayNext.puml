@@ -8,6 +8,6 @@ sprite $QueuePlayNextMd [16x16/16z] XSo50GGX40J1nft9FzftFIsS5SwuFhuQQFGlTUJu6kFr
 
 sprite $QueuePlayNextLg [20x20/16z] fOw30GH030I3ixR_Qjz8tfXZlFGF1RSmBIH7Hjxvo276Ly0V-5GRWehpuK1pFf4A5NxSJsdtU5z4feFFmDWvTxvg4DexConXRzCEgoK2VFAj0_NiyXYNOmi
 
-!procedure QueuePlayNext($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Av/QueuePlayNext', $name, $tech)
+!procedure QueuePlayNext($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/QueuePlayNext', $name, $tech, $desc)
 !endprocedure

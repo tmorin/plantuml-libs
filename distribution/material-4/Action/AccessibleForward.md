@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/AccessibleForward')
 
 ' renders the element
-AccessibleForward('AccessibleForward', 'Accessible Forward', 'an optional tech label')
+AccessibleForward('AccessibleForward', 'Accessible Forward', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/AccessibleForward')
 
 ' renders the element
-AccessibleForward('AccessibleForward', 'Accessible Forward', 'an optional tech label')
+AccessibleForward('AccessibleForward', 'Accessible Forward', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

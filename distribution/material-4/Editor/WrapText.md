@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/WrapText')
 
 ' renders the element
-WrapText('WrapText', 'Wrap Text', 'an optional tech label')
+WrapText('WrapText', 'Wrap Text', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/WrapText')
 
 ' renders the element
-WrapText('WrapText', 'Wrap Text', 'an optional tech label')
+WrapText('WrapText', 'Wrap Text', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

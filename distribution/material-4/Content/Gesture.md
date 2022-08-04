@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Content/Gesture')
 
 ' renders the element
-Gesture('Gesture', 'Gesture', 'an optional tech label')
+Gesture('Gesture', 'Gesture', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Content/Gesture')
 
 ' renders the element
-Gesture('Gesture', 'Gesture', 'an optional tech label')
+Gesture('Gesture', 'Gesture', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

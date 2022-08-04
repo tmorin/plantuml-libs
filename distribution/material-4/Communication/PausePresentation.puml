@@ -8,6 +8,6 @@ sprite $PausePresentationMd [16x16/16z] hSU53G0n30J1bIq8f_zgdvaXOppkQ8Wp3pc6MGva
 
 sprite $PausePresentationLg [20x20/16z] Ow04SF2Z0qO6Fdus5C3EpmuKGzN7X5Di85cCN2mCd5nWCHBSpClFXmhusHYOUT74k8WEKW
 
-!procedure PausePresentation($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Communication/PausePresentation', $name, $tech)
+!procedure PausePresentation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/PausePresentation', $name, $tech, $desc)
 !endprocedure

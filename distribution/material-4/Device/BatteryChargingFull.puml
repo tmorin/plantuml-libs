@@ -8,6 +8,6 @@ sprite $BatteryChargingFullMd [16x16/16z] RSav5e0W40JHbeITllzfLQ9PA_kla5VAOqnkfS
 
 sprite $BatteryChargingFullLg [20x20/16z] bSp50GGn30J1CRELVxI7o-P-bW2B2IAw2rFcOqfUZROKIjDFowMfqZ9AawLb8EM7SG3XOL615VyCGccCIakb1IgDdYRYhu1cRm
 
-!procedure BatteryChargingFull($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Device/BatteryChargingFull', $name, $tech)
+!procedure BatteryChargingFull($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Device/BatteryChargingFull', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/Poll')
 
 ' renders the element
-Poll('Poll', 'Poll', 'an optional tech label')
+Poll('Poll', 'Poll', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/Poll')
 
 ' renders the element
-Poll('Poll', 'Poll', 'an optional tech label')
+Poll('Poll', 'Poll', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

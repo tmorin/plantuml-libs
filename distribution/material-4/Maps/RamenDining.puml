@@ -8,6 +8,6 @@ sprite $RamenDiningMd [16x16/16z] XSk30K0n30JGgttPVzflyvKHFgdbqIuriYOtHgQmAUnC4w
 
 sprite $RamenDiningLg [20x20/16z] fSf50aKn34BH--gIblslzhkxd8m2y0CNgad6bi_LvXoj9BzmK9ESSQqEcUoexhDmjVipcrExEsg0RcHWwDe2BBeos6gwvDZfEWiS91tCXJFjT2xPJk6fDG
 
-!procedure RamenDining($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/RamenDining', $name, $tech)
+!procedure RamenDining($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/RamenDining', $name, $tech, $desc)
 !endprocedure

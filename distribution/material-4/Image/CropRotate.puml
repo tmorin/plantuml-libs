@@ -4,13 +4,13 @@ sprite $CropRotateXs [10x10/16z] FOk50O003CEAE_d_MvXcBfNnhYguTo-MXlLlc02RExhRepD
 
 sprite $CropRotateSm [12x12/16z] HOo50O1024K_OHFxJwjUFpfHYGkBpAZnubQMDEKsUq06i0cBkA1icHIdsB5ot3slzpSUjmBNLwAgVhI_L7SgbedA1m
 
-sprite $CropRotateMd [16x16/16z] NSk55S0m30FHUsMGhVsdBMD-qCGbfueVsnrVGGG7YTEa8xIO9GsGzHLhuvhAdtutKCPp4QFsYQC66Xtnop3w8g0NrCtEVNsCZPnKNs-EoLTjcyiA
+sprite $CropRotateMd [16x16/16z] NSk55S0m30FHUsMGhVsdBMD-qCGbfueVsnrVGGG7YTEa8xIO9GsGzHLhuvhAdtutKCPp4QFsYQC6cZZYbs7qHK0lg9kT-_eO6pcfljuSaw_QDfSL
 
 sprite $CropRotateLg [20x20/16z] {
-RSq50e0W44JHePkv_srTi9LdVmbSUl7uKfsivXkbCU9WtHuLBDFHAX-3vwgsaj1LZ5qybJH7QOQJ1XXVSnsjtFg_WOiM5WqrlPg1YErg5pK-2zq5ecKWy0PX
-nXhQJf71OiY4kFSzeaF6XwVuHfKwky9f0m
+RSs50O0m34JHgtjl_sr9S7lufuBJR15lPfBTlQCqPknysAA1PzbRvstmkghl96mNkakaaHOepN5b0UR7t40lj_bju4zBFmszF9g3oEDi9wEVZU44CQgioWk4
+qpMiyyvxdvayL2NKkUyU0ofU8iKxcZ8v3GuB
 }
 
-!procedure CropRotate($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/CropRotate', $name, $tech)
+!procedure CropRotate($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/CropRotate', $name, $tech, $desc)
 !endprocedure

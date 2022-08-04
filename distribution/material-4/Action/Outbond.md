@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Outbond')
 
 ' renders the element
-Outbond('Outbond', 'Outbond', 'an optional tech label')
+Outbond('Outbond', 'Outbond', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Outbond')
 
 ' renders the element
-Outbond('Outbond', 'Outbond', 'an optional tech label')
+Outbond('Outbond', 'Outbond', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

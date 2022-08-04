@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/ExitToApp')
 
 ' renders the element
-ExitToApp('ExitToApp', 'Exit To App', 'an optional tech label')
+ExitToApp('ExitToApp', 'Exit To App', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/ExitToApp')
 
 ' renders the element
-ExitToApp('ExitToApp', 'Exit To App', 'an optional tech label')
+ExitToApp('ExitToApp', 'Exit To App', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

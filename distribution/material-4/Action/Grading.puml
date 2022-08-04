@@ -8,6 +8,6 @@ sprite $GradingMd [16x16/16z] XOt50O0m4C22E-m_BL3tDf_p2sqkooxhqxAHux6SikuTKTrbzl
 
 sprite $GradingLg [20x20/16z] fS-35S1044NH5pk__sfZSt6F5aFy93fY4gP7ThbnUyIhC3zwhqTmz3TBngZ9Zdj4H07IPG-fLNR93UUemnx3DSomqWC
 
-!procedure Grading($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/Grading', $name, $tech)
+!procedure Grading($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Grading', $name, $tech, $desc)
 !endprocedure

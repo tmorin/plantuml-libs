@@ -2,7 +2,7 @@
 
 sprite $PetsXs [10x10/16z] ROZ50S103CESCcl_QI_qhOAM_W63kFOTAFuqwG-ka09Y1mHdFX_9dAf9US-sF983
 
-sprite $PetsSm [12x12/16z] VOf50i0m4099wZh__ss9tphh2_e1KcPYtnUUw3jVPsg-84XE8Cq4vbLVuKdhGI5vDiQkc7fm-m
+sprite $PetsSm [12x12/16z] VOf50i0W30GtgUly_xSjpeb1aXKDW70ZNlU5ntyTrGbX5PXaOH9c0E1LNU49wq4YTBPkbrl-FW
 
 sprite $PetsMd [16x16/16z] ZSc50SGW5C3GL76o_xJdhdtmdIsMCfpYObHHFy_DiDQ1jOxL0CFjC9qxRP3g1Dev6A2fowaxIHwDN0JFBkV5AqwyIIzpvcXMU-igx_O
 
@@ -11,6 +11,6 @@ fOz50iCm3C3iXb7_V-sWv8vEKrWXM_wcWvS6tfG3XWAOMu0kmDo5phbaK7bsXVfqroi1Y6ykmtgmh8EV
 mR1VQejETV6v1_d17G
 }
 
-!procedure Pets($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/Pets', $name, $tech)
+!procedure Pets($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Pets', $name, $tech, $desc)
 !endprocedure

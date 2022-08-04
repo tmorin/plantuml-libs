@@ -4,13 +4,13 @@ sprite $HowToVoteXs [10x10/16z] LSQ50G0X3CNGVwwG_QV5DT3sQMxVAs0la5YZo9EuP80GNv1v
 
 sprite $HowToVoteSm [12x12/16z] POct0S0m08DGUYR-lpQzsamIKDCzAze_4wuJ0ut7RZtJTUuPkrRcunbsHlTzKUuq9x02
 
-sprite $HowToVoteMd [16x16/16z] TSY50O0m4CNGuCxVVrgqBgc-erOJyzGGyj1a1eRm3mmRO7xlj-NxjDemIT0Oca6Z7LEZ7ZrS3iEzWmKwdQyFTQP1xMVVwprn7vYi6m
+sprite $HowToVoteMd [16x16/16z] TSZL0KKX0CFGN3UW-q_x59TyzPHHKqcdBQVLuGzF-1s14t1gujVr6xCUV19CdlwOP08chUZ3otgQ1IvOvBwsMdoRvfzZNQ-PQNe3
 
 sprite $HowToVoteLg [20x20/16z] {
-bOw54O0m4C1mX-m_BLxtG2ttLXNJqTcg1texYXepikUuzuFUY7fFQ8oecqPp4ziVrghS-P7DftHP6whU-ri-Qbc40hfRtWhMp-dphtoHxBFYdmg3F2UQj9l6
-Klcv
+bOw54O0m4C2gE6J_QN6l1sgvDr6CmVoL1Um_2iatqZAj-uJzH8aDK9-e5VLo3SCPfiLDkqbrgBUK7oL7kyfDTTsb0BFALK6_YjzKFKSaO_l0TBWFkUveeeSN
+dV2p
 }
 
-!procedure HowToVote($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Content/HowToVote', $name, $tech)
+!procedure HowToVote($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/HowToVote', $name, $tech, $desc)
 !endprocedure

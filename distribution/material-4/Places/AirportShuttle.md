@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Places/AirportShuttle')
 
 ' renders the element
-AirportShuttle('AirportShuttle', 'Airport Shuttle', 'an optional tech label')
+AirportShuttle('AirportShuttle', 'Airport Shuttle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Places/AirportShuttle')
 
 ' renders the element
-AirportShuttle('AirportShuttle', 'Airport Shuttle', 'an optional tech label')
+AirportShuttle('AirportShuttle', 'Airport Shuttle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,6 +8,6 @@ sprite $BorderOuterMd [16x16/16z] XOnL0W1124AHlqtkVzhDwNoJAe0fwn7XKn_QFVhg7PvOKt
 
 sprite $BorderOuterLg [20x20/16z] fOw30K0n34IlThB_jDysNXaV_i4hgFT5EpFwB6PMFizYvtEqy-rhlOFsW5SB7rFRh_-DFY60Vd_IeYpkjApeVRGYup4r
 
-!procedure BorderOuter($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Editor/BorderOuter', $name, $tech)
+!procedure BorderOuter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/BorderOuter', $name, $tech, $desc)
 !endprocedure

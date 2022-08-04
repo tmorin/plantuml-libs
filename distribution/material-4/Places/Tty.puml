@@ -1,16 +1,16 @@
 ' definition of the Item material-4/Places/Tty
 
-sprite $TtyXs [10x10/16z] ROgr0O1G34JVlpGu-szBj2Dwnb-zx-kxSt4uIkfNc0av0ccnI7ZT3d3uLCxB2arz
+sprite $TtyXs [10x10/16z] ROl50G1120E7v7D-_LUxpczn8kpY___M9mzNkyRRfh65sWLI48ppUMEQlgbhuNbbL
 
-sprite $TtySm [12x12/16z] TORL0K9130GdWkTk--yMyiFprU5A9JsejzVBkKkJZ0uqeqe1ZUFjlq08t3f03R1x8r0oIG6jknQ6d7BM-W8
+sprite $TtySm [12x12/16z] TORL0KCn30FFK7QY_QSD_9IVy3XIIHVgxdLppb8dWmXWCweKiB7TVGL2uBO3L0CxRmHA9YbWwwmNGtOvxve
 
-sprite $TtyMd [16x16/16z] XOs50GGn40A9U-Y_s-Vz_8R8-kAMFaPQk8O2bfPEKk3bmx_ryOq-Hqyhlv9PdttfDQ1WsO_6L_fN08vNtMAb0f5a-WMOAJg-DAvzcFhpVrZiUG
+sprite $TtyMd [16x16/16z] XSk50G9134JHsIJdylllbi4TtcfCVwtRDkYkOGg2z9A4IUMLNewj-KcAS3p3w2TEongJxlEsS2rxoTXaJLSD9tfWk2KOiLLN2y-nsdoDxqBl3W
 
 sprite $TtyLg [20x20/16z] {
-fOs5OGH130F7S7nhzTzjyimyYoQ9dz06y8ukul_AGouPPPedeVMG6_0aVNC5C6zo2r3gb2e0syt2MbbHwy74mO9mtrm0WqOuUHmQ0NFSjXSRNCKDWnh0gjOR
-1qQLisW3HtgfT9N3csvo47MR0-ldTU5z_W
+fOs50SH03CCKABVn_jC-CuCEGpP_eItW3Kt4vifZBkbb6WUX-PZhy2JTWmXWtEOceDGeLG2sduMvigBceqc01U6-lG0wzN3j0H9WZjlkOekhkAFJ0Z1hQOqZ
+lSgPj8KJhLIwoU6Bxd8GTPy3QyTvudFM
 }
 
-!procedure Tty($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Places/Tty', $name, $tech)
+!procedure Tty($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/Tty', $name, $tech, $desc)
 !endprocedure

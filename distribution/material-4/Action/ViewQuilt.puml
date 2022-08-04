@@ -2,12 +2,12 @@
 
 sprite $ViewQuiltXs [10x10/16z] Oy0AE3cPE840oEBdP-O70ZGM4nyGu9351
 
-sprite $ViewQuiltSm [12x12/16z] Oo0AyF3py_A307usDnyV5nyVN1n8eh6PMLWW2ATD
+sprite $ViewQuiltSm [12x12/16z] Oo0AyF3py_A307usDnyV5nyVN1n8eh6PWO251KZWj0a
 
-sprite $ViewQuiltMd [16x16/16z] Oo0TC3Cp0p4OWFdy_FnC_130H2oV5m8GV3u-9ZuWHbBF3CH4yLbOM1YOWHX4amm
+sprite $ViewQuiltMd [16x16/16z] bOg53G1H24C9RHpPVzhJRt5uEAtq0I3u-UxCrFpHwkq_-uxGY3ZzUAfq4nIGtsnp0m
 
-sprite $ViewQuiltLg [20x20/16z] hSl50S0W30107EBxJrltRtDeBFZB030I7CQMgsQcsGxgaulzqEvSqaLP3dzcjz_lN2obv50M-y_T3
+sprite $ViewQuiltLg [20x20/16z] hOl50S0m24MHU0BiFstTh-NXyi4VhhKMgWTbsqKpKxO3zTbXFaZtZdGXB34-sgtxlSF0WO5327ldpWm
 
-!procedure ViewQuilt($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/ViewQuilt', $name, $tech)
+!procedure ViewQuilt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/ViewQuilt', $name, $tech, $desc)
 !endprocedure

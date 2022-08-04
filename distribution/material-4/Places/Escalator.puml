@@ -8,6 +8,6 @@ sprite $EscalatorMd [16x16/16z] PSu35W0X543HbrtxN-qOuHw4JnQBL5uU8BUV1CfzjLgN_Wte
 
 sprite $EscalatorLg [20x20/16z] fSZ50GGX40NHmXtoZtRajFEvh1NQZ_yQwrdaRab3h7hlnvfY05ujWR5TR8AxtwS5MBj1sitUhrg7ecO0izJkksqsU-zBJUhSfJ5V3Sl7dG
 
-!procedure Escalator($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Places/Escalator', $name, $tech)
+!procedure Escalator($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/Escalator', $name, $tech, $desc)
 !endprocedure

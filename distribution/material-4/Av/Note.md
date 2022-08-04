@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/Note')
 
 ' renders the element
-Note('Note', 'Note', 'an optional tech label')
+Note('Note', 'Note', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/Note')
 
 ' renders the element
-Note('Note', 'Note', 'an optional tech label')
+Note('Note', 'Note', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,18 +2,18 @@
 
 sprite $GpsFixedXs [10x10/16z] Oq05_32QZvsV7ox0p0ia-1ZuWK90FZyxX0LaWaYWE4WT4v3WOMS0AGJASY2R1m
 
-sprite $GpsFixedSm [12x12/16z] NSr5OS00002nbBddt-q-unW8_-NBKnr0AwuNtjLy3Pu5MIf3bBiQ5HagOpXF9XgXcx4JMAlnt_i1
+sprite $GpsFixedSm [12x12/16z] NSr5OS00002nbBddt-q-unW8_-NBKnr0AwuNtjLy3Pu5MIf3bBiQ5HagOpXF9XhXlHaxWRKQ_xqV
 
 sprite $GpsFixedMd [16x16/16z] {
-ROu55iCW04E3jVY__sstlBdy2aGG_IVnAJjdUAe8UsxcKuxRi6yQo-X9UspLWQY2Wx4am6rI44mbZErhLXtWQS1d-fzmqf1P-t77Sfj0bjD-axVZSFea4_HE
-MBfn0G
+ROs55SCm44DbIcBy-s_RgWoHIVHyEaVYMpRsy58HrbYCb-ptPzqrbj6aFRzgG5J1GPyIu3Of28OIXkrhTZZ0DE2PlXDEAZBcOqwYtCaYoscxo_iudBwG2Vf4
+c0zo0G
 }
 
 sprite $GpsFixedLg [20x20/16z] {
-VSX50i9040NHwWna9AJh_gV5tTxc2_-q3DvrtxuOgZdpC6lskgZnkB9mKaqkujuehfmD9wZfRhhq4nEg9p3PWDfiu5a5inNoKi_wkLGY7B1wiWMN04XXKatO
-M3cfpX1jR85LBdJYOcVb8hG7i5aTtAKN3HvAJvSQl6e6xqhbvW
+VSW76eGW30NX2QWK9U_-jrs1xUsdPBxmJtRZNT7RpgfEll6mILxIBiaUAuzqISvazoAgCLG5IAuZpExaaDH1K0PIxaD30dcE-CoXZ4YOgK9Jju9s0t11qCbX
+KQ9Bsi1oNO4c9Yam7KfCvYe6B4sLEzUKUHABQq_6gopZNKpSN
 }
 
-!procedure GpsFixed($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Device/GpsFixed', $name, $tech)
+!procedure GpsFixed($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Device/GpsFixed', $name, $tech, $desc)
 !endprocedure

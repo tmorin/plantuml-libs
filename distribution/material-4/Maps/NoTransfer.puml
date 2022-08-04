@@ -7,10 +7,10 @@ sprite $NoTransferSm [12x12/16z] NOk10G0G20G10FQVLWNWmPsAVR4n1KrGBQizKnGcI-I4Gaz
 sprite $NoTransferMd [16x16/16z] ROy54e0m40DJzzx_VyiSf7YWibl7Ruo6_OGgHvfYa4ka9PpNZ0uDFT39XM9no2gi9NEh9h9uKf0znYugkNik2T04ONYiazSzB9iezlLCO0C
 
 sprite $NoTransferLg [20x20/16z] {
-bSq56eL024LXT3hP_sej-2wluzY_4_HFVhBK5Zfpd8uB-GlvmCMGhiQ1gvU6Mk03jGupDFD0irekp3bFs15sXoawDYkKTAHP88UHOYjpOQn9KXCGr0fMCVIZ
-wIfZ0idYI2_R0G
+bOw50OH030J3kM__rU9itcNGcwZyWniug9DiMCJr8MwNMEMaKdRwAespRgEVpcEL9urEfJf7gQxaNQQK1jqAfz-vOq-wBF7CLEV5ClDm1iXWJpce85m-iujA
+s-lPfG_DL13a9Gi
 }
 
-!procedure NoTransfer($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/NoTransfer', $name, $tech)
+!procedure NoTransfer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/NoTransfer', $name, $tech, $desc)
 !endprocedure

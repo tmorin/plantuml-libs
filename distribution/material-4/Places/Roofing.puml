@@ -8,6 +8,6 @@ sprite $RoofingMd [16x16/16z] ZOnL0e0X38AnM-v_sZ_DDpzp6u13t5wIyJcz4goAUTIIvRrwhP
 
 sprite $RoofingLg [20x20/16z] hOs30KL130IJd3dzL_jjuyqnsfKbI9Xe29Uf2cY0grHtK2vpWovY01Ufidrqdd8AwV2TrDrhS7Phj5tELCwOoIkCBRUvKUzpIUPzNuU7Ul-p1W
 
-!procedure Roofing($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Places/Roofing', $name, $tech)
+!procedure Roofing($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/Roofing', $name, $tech, $desc)
 !endprocedure

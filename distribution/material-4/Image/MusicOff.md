@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/MusicOff')
 
 ' renders the element
-MusicOff('MusicOff', 'Music Off', 'an optional tech label')
+MusicOff('MusicOff', 'Music Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/MusicOff')
 
 ' renders the element
-MusicOff('MusicOff', 'Music Off', 'an optional tech label')
+MusicOff('MusicOff', 'Music Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

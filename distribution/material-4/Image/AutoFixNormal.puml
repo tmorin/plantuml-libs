@@ -8,6 +8,6 @@ sprite $AutoFixNormalMd [16x16/16z] bOh50G0n48I8UxR_RkzpxfdV00oiXtZuKTJX9vLPPaIp
 
 sprite $AutoFixNormalLg [20x20/16z] fT053WGX50FGuaxlVzgL6DBeJECly0sFOYAylR6noyFA9dyBijbXUdd2o70PVwzeprSJiDCShtwnTCUhVmw2q8jNGmbH2GXAq2j-0G
 
-!procedure AutoFixNormal($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/AutoFixNormal', $name, $tech)
+!procedure AutoFixNormal($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/AutoFixNormal', $name, $tech, $desc)
 !endprocedure

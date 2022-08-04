@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/RoundedCorner')
 
 ' renders the element
-RoundedCorner('RoundedCorner', 'Rounded Corner', 'an optional tech label')
+RoundedCorner('RoundedCorner', 'Rounded Corner', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/RoundedCorner')
 
 ' renders the element
-RoundedCorner('RoundedCorner', 'Rounded Corner', 'an optional tech label')
+RoundedCorner('RoundedCorner', 'Rounded Corner', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

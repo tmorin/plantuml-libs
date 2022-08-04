@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Device/AccessTime')
 
 ' renders the element
-AccessTime('AccessTime', 'Access Time', 'an optional tech label')
+AccessTime('AccessTime', 'Access Time', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Device/AccessTime')
 
 ' renders the element
-AccessTime('AccessTime', 'Access Time', 'an optional tech label')
+AccessTime('AccessTime', 'Access Time', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

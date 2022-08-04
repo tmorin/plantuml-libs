@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/MovieCreation')
 
 ' renders the element
-MovieCreation('MovieCreation', 'Movie Creation', 'an optional tech label')
+MovieCreation('MovieCreation', 'Movie Creation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/MovieCreation')
 
 ' renders the element
-MovieCreation('MovieCreation', 'Movie Creation', 'an optional tech label')
+MovieCreation('MovieCreation', 'Movie Creation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

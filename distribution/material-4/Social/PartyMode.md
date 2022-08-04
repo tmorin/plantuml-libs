@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/PartyMode')
 
 ' renders the element
-PartyMode('PartyMode', 'Party Mode', 'an optional tech label')
+PartyMode('PartyMode', 'Party Mode', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/PartyMode')
 
 ' renders the element
-PartyMode('PartyMode', 'Party Mode', 'an optional tech label')
+PartyMode('PartyMode', 'Party Mode', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

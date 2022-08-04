@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Places/Roofing')
 
 ' renders the element
-Roofing('Roofing', 'Roofing', 'an optional tech label')
+Roofing('Roofing', 'Roofing', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Places/Roofing')
 
 ' renders the element
-Roofing('Roofing', 'Roofing', 'an optional tech label')
+Roofing('Roofing', 'Roofing', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

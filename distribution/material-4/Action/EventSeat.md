@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/EventSeat')
 
 ' renders the element
-EventSeat('EventSeat', 'Event Seat', 'an optional tech label')
+EventSeat('EventSeat', 'Event Seat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/EventSeat')
 
 ' renders the element
-EventSeat('EventSeat', 'Event Seat', 'an optional tech label')
+EventSeat('EventSeat', 'Event Seat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

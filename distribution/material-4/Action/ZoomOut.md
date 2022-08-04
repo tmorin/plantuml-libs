@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/ZoomOut')
 
 ' renders the element
-ZoomOut('ZoomOut', 'Zoom Out', 'an optional tech label')
+ZoomOut('ZoomOut', 'Zoom Out', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/ZoomOut')
 
 ' renders the element
-ZoomOut('ZoomOut', 'Zoom Out', 'an optional tech label')
+ZoomOut('ZoomOut', 'Zoom Out', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

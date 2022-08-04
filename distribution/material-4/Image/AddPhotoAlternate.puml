@@ -8,6 +8,6 @@ sprite $AddPhotoAlternateMd [16x16/16z] VSk54GGn30J1APbnyu_s6OxRAEA2iUB4YxadN9Hp
 
 sprite $AddPhotoAlternateLg [20x20/16z] dOs50SGm30CLZdd_QPyPsrxG964J53zoYSw0o89e77Dn8PqVVSezpCOD_fGR-fQpEQ-vH_xdR3pdEeK3yfWJ80e0VyW1I3XUFps6-HNhMC4U
 
-!procedure AddPhotoAlternate($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/AddPhotoAlternate', $name, $tech)
+!procedure AddPhotoAlternate($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/AddPhotoAlternate', $name, $tech, $desc)
 !endprocedure

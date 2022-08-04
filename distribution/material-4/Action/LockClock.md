@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/LockClock')
 
 ' renders the element
-LockClock('LockClock', 'Lock Clock', 'an optional tech label')
+LockClock('LockClock', 'Lock Clock', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/LockClock')
 
 ' renders the element
-LockClock('LockClock', 'Lock Clock', 'an optional tech label')
+LockClock('LockClock', 'Lock Clock', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

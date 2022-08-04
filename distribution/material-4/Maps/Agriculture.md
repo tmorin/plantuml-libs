@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/Agriculture')
 
 ' renders the element
-Agriculture('Agriculture', 'Agriculture', 'an optional tech label')
+Agriculture('Agriculture', 'Agriculture', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/Agriculture')
 
 ' renders the element
-Agriculture('Agriculture', 'Agriculture', 'an optional tech label')
+Agriculture('Agriculture', 'Agriculture', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

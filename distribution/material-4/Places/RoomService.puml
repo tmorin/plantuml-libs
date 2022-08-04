@@ -8,6 +8,6 @@ sprite $RoomServiceMd [16x16/16z] Oo0JCA5o-VavKMJv-NaHF4O-VX3WWKj20H-43-D2pM3cHm
 
 sprite $RoomServiceLg [20x20/16z] jSsr0G0X44JHSpz-_zNYJWelN9cPHbdFPZJ3tvm1vMJxCUufUGZMCBf9vXILkDbNp3Oxe_2uXi9b6ofdymhVr9i2
 
-!procedure RoomService($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Places/RoomService', $name, $tech)
+!procedure RoomService($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/RoomService', $name, $tech, $desc)
 !endprocedure

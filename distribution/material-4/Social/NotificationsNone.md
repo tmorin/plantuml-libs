@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/NotificationsNone')
 
 ' renders the element
-NotificationsNone('NotificationsNone', 'Notifications None', 'an optional tech label')
+NotificationsNone('NotificationsNone', 'Notifications None', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/NotificationsNone')
 
 ' renders the element
-NotificationsNone('NotificationsNone', 'Notifications None', 'an optional tech label')
+NotificationsNone('NotificationsNone', 'Notifications None', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

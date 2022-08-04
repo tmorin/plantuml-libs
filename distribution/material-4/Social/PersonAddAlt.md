@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/PersonAddAlt')
 
 ' renders the element
-PersonAddAlt('PersonAddAlt', 'Person Add Alt', 'an optional tech label')
+PersonAddAlt('PersonAddAlt', 'Person Add Alt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/PersonAddAlt')
 
 ' renders the element
-PersonAddAlt('PersonAddAlt', 'Person Add Alt', 'an optional tech label')
+PersonAddAlt('PersonAddAlt', 'Person Add Alt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

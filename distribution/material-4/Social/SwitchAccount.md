@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/SwitchAccount')
 
 ' renders the element
-SwitchAccount('SwitchAccount', 'Switch Account', 'an optional tech label')
+SwitchAccount('SwitchAccount', 'Switch Account', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/SwitchAccount')
 
 ' renders the element
-SwitchAccount('SwitchAccount', 'Switch Account', 'an optional tech label')
+SwitchAccount('SwitchAccount', 'Switch Account', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

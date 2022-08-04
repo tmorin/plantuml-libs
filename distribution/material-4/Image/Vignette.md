@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Vignette')
 
 ' renders the element
-Vignette('Vignette', 'Vignette', 'an optional tech label')
+Vignette('Vignette', 'Vignette', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Vignette')
 
 ' renders the element
-Vignette('Vignette', 'Vignette', 'an optional tech label')
+Vignette('Vignette', 'Vignette', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalLaundryService')
 
 ' renders the element
-LocalLaundryService('LocalLaundryService', 'Local Laundry Service', 'an optional tech label')
+LocalLaundryService('LocalLaundryService', 'Local Laundry Service', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalLaundryService')
 
 ' renders the element
-LocalLaundryService('LocalLaundryService', 'Local Laundry Service', 'an optional tech label')
+LocalLaundryService('LocalLaundryService', 'Local Laundry Service', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

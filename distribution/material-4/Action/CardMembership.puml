@@ -8,6 +8,6 @@ sprite $CardMembershipMd [16x16/16z] dSor0S0m30J0DpGMxZzjc3c-IlWu2N7Ljxu5HCSYrVJ
 
 sprite $CardMembershipLg [20x20/16z] fSs33K1H30NGPrNxJ_jjuqHDTTLZMTRQdd1P4cXxHIq9_ks1NUfx6wSzq4ld6HkXdOJ6yAgft7pHch-SzzZhlEdrNxmwLGC
 
-!procedure CardMembership($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/CardMembership', $name, $tech)
+!procedure CardMembership($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/CardMembership', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/RecentActors')
 
 ' renders the element
-RecentActors('RecentActors', 'Recent Actors', 'an optional tech label')
+RecentActors('RecentActors', 'Recent Actors', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/RecentActors')
 
 ' renders the element
-RecentActors('RecentActors', 'Recent Actors', 'an optional tech label')
+RecentActors('RecentActors', 'Recent Actors', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

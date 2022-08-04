@@ -8,6 +8,6 @@ sprite $MovieFilterMd [16x16/16z] bOkr0SGm00FFpDR-qpw6gi1LGXuZWHozuIMmqbVzix_VEV
 
 sprite $MovieFilterLg [20x20/16z] fSw53KGX50NHmPtRVxNh-pNEn5uEobhUGV3W0xZmdf04IHQlW97wrnhC0Usz-BLB5qkw6_raHYf0EDWWIs9eina1F_Jsl-bjRhwdqzbo_ulHtUPc5SWwnr9F
 
-!procedure MovieFilter($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/MovieFilter', $name, $tech)
+!procedure MovieFilter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/MovieFilter', $name, $tech, $desc)
 !endprocedure

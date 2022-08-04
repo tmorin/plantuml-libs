@@ -8,6 +8,6 @@ sprite $CallSplitMd [16x16/16z] fOZ50S0m3CJEPTR-qvOfhv2CEiK3TFjPOBfzlE_j4yr-PfRB
 
 sprite $CallSplitLg [20x20/16z] lSc53S100CD0bxdPVzeoC_w98eTtBAzY0rwDXYSfRKvLkhQpOceQMqfIHrjodQxPq4OvOD7fur8gYwNGT7kk1
 
-!procedure CallSplit($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Communication/CallSplit', $name, $tech)
+!procedure CallSplit($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/CallSplit', $name, $tech, $desc)
 !endprocedure

@@ -8,6 +8,6 @@ sprite $SaveAltMd [16x16/16z] fSUr0S0m40D0cVcr_xPXR0A-xl2EQjThzZpOyLKjAHcHdfKAei
 
 sprite $SaveAltLg [20x20/16z] lSZ50GD140CmB_Eu_sh3d6FIKzX2f3h-0jNbehnQ73IPcTW0gRYY1oml103bTT3N-ZdOXf-x6hql5LUXoLlJcEmC
 
-!procedure SaveAlt($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Content/SaveAlt', $name, $tech)
+!procedure SaveAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/SaveAlt', $name, $tech, $desc)
 !endprocedure

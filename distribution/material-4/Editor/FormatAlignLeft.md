@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/FormatAlignLeft')
 
 ' renders the element
-FormatAlignLeft('FormatAlignLeft', 'Format Align Left', 'an optional tech label')
+FormatAlignLeft('FormatAlignLeft', 'Format Align Left', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/FormatAlignLeft')
 
 ' renders the element
-FormatAlignLeft('FormatAlignLeft', 'Format Align Left', 'an optional tech label')
+FormatAlignLeft('FormatAlignLeft', 'Format Align Left', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

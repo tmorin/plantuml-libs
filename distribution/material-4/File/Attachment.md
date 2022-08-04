@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/File/Attachment')
 
 ' renders the element
-Attachment('Attachment', 'Attachment', 'an optional tech label')
+Attachment('Attachment', 'Attachment', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/File/Attachment')
 
 ' renders the element
-Attachment('Attachment', 'Attachment', 'an optional tech label')
+Attachment('Attachment', 'Attachment', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

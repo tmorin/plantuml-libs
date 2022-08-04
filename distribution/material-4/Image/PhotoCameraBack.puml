@@ -8,6 +8,6 @@ sprite $PhotoCameraBackMd [16x16/16z] bSx50S0m30D0XJdQVzeoS-zdDZx9fHIBaL0gisULwa
 
 sprite $PhotoCameraBackLg [20x20/16z] hSt50O1G30FGulnQzjyMTvTth2JqdQ6Hqw0CeHarGWXPCy9AtioOvg1_pUBLh2bpNymYE3aWyna0GwsSPca-EEjTQKuoypcXsoe
 
-!procedure PhotoCameraBack($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/PhotoCameraBack', $name, $tech)
+!procedure PhotoCameraBack($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/PhotoCameraBack', $name, $tech, $desc)
 !endprocedure

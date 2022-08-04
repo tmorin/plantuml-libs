@@ -4,10 +4,10 @@ sprite $LabelImportantOutlineXs [10x10/16z] Oy0AE440pEA7432IamF4uc97bk5Z1350ElYm
 
 sprite $LabelImportantOutlineSm [12x12/16z] Oo0AyF630OG3fdWvm6msFh088mESOWDBSt73LJA2INuMC0a6t7Xi0W
 
-sprite $LabelImportantOutlineMd [16x16/16z] dSp50SKm30DGXJdQVzeFXW7QTp4RZyMa8bIWcL2D4X8JrDqI9lq3YqGUNw24oY2nQ0pi46owPUkRwMyG8j4KlF05
+sprite $LabelImportantOutlineMd [16x16/16z] dSL70S0m40CmP--OFzeENmYq-WYV-M0yZEFHOGfLO83PKtN2U2RD1REfCfrEjcE5iAYz8PFXrGW9F19-k04
 
 sprite $LabelImportantOutlineLg [20x20/16z] jStL0K9144FHF5cNz5yjDYGLmFbQdOlVQtP16Yr1kBNWWQ-BGui9wVhKM24amg8xdIKMcTq3LomEVy1MpmjK9QeJ9za2DzoIVU0VdW
 
-!procedure LabelImportantOutline($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/LabelImportantOutline', $name, $tech)
+!procedure LabelImportantOutline($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/LabelImportantOutline', $name, $tech, $desc)
 !endprocedure

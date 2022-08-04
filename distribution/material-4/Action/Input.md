@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Input')
 
 ' renders the element
-Input('Input', 'Input', 'an optional tech label')
+Input('Input', 'Input', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Input')
 
 ' renders the element
-Input('Input', 'Input', 'an optional tech label')
+Input('Input', 'Input', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

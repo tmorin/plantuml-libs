@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/TheaterComedy')
 
 ' renders the element
-TheaterComedy('TheaterComedy', 'Theater Comedy', 'an optional tech label')
+TheaterComedy('TheaterComedy', 'Theater Comedy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/TheaterComedy')
 
 ' renders the element
-TheaterComedy('TheaterComedy', 'Theater Comedy', 'an optional tech label')
+TheaterComedy('TheaterComedy', 'Theater Comedy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

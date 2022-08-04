@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/LaptopChromebook')
 
 ' renders the element
-LaptopChromebook('LaptopChromebook', 'Laptop Chromebook', 'an optional tech label')
+LaptopChromebook('LaptopChromebook', 'Laptop Chromebook', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/LaptopChromebook')
 
 ' renders the element
-LaptopChromebook('LaptopChromebook', 'Laptop Chromebook', 'an optional tech label')
+LaptopChromebook('LaptopChromebook', 'Laptop Chromebook', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,6 +8,6 @@ sprite $CloudMd [16x16/16z] dSV50O1000InnPtflrhSvIo_A4W3vCTY5jtMY4szbDEZqAZafkUX
 
 sprite $CloudLg [20x20/16z] hS750S0m40CmXpdUVzeotxEHC80oLkEjSkLnqpmKN3fF4HjL-82LvOl3Wby9aKBgb3gbG0aKEWo_B832fwRmnmm
 
-!procedure Cloud($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/File/Cloud', $name, $tech)
+!procedure Cloud($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/File/Cloud', $name, $tech, $desc)
 !endprocedure

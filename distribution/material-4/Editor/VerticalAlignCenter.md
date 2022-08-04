@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/VerticalAlignCenter')
 
 ' renders the element
-VerticalAlignCenter('VerticalAlignCenter', 'Vertical Align Center', 'an optional tech label')
+VerticalAlignCenter('VerticalAlignCenter', 'Vertical Align Center', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/VerticalAlignCenter')
 
 ' renders the element
-VerticalAlignCenter('VerticalAlignCenter', 'Vertical Align Center', 'an optional tech label')
+VerticalAlignCenter('VerticalAlignCenter', 'Vertical Align Center', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

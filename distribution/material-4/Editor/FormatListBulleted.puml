@@ -8,6 +8,6 @@ sprite $FormatListBulletedMd [16x16/16z] Oo0PiBCpCCC0YC_F3qHGm0JaCpBYry_1pi040nZ
 
 sprite $FormatListBulletedLg [20x20/16z] Ow0wOEBdPE1400wG61S_FmC_0l215N8macq7Cny70mS2i8F4kB7QmSJ0Y0H8ymS7pVs12G
 
-!procedure FormatListBulleted($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Editor/FormatListBulleted', $name, $tech)
+!procedure FormatListBulleted($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/FormatListBulleted', $name, $tech, $desc)
 !endprocedure

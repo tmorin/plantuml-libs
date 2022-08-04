@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/ZoomIn')
 
 ' renders the element
-ZoomIn('ZoomIn', 'Zoom In', 'an optional tech label')
+ZoomIn('ZoomIn', 'Zoom In', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/ZoomIn')
 
 ' renders the element
-ZoomIn('ZoomIn', 'Zoom In', 'an optional tech label')
+ZoomIn('ZoomIn', 'Zoom In', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

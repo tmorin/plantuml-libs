@@ -8,6 +8,6 @@ sprite $SensorDoorMd [16x16/16z] Oy02cA204SBbXmCED3uF9NmMNXG-7mCBgZmlfdxA-HW
 
 sprite $SensorDoorLg [20x20/16z] Oo01y2C1TeWGApyo600n5aO-D34Gbmj3Z9i3I0oicrbua06EC0O
 
-!procedure SensorDoor($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Home/SensorDoor', $name, $tech)
+!procedure SensorDoor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Home/SensorDoor', $name, $tech, $desc)
 !endprocedure

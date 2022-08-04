@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Iso')
 
 ' renders the element
-Iso('Iso', 'Iso', 'an optional tech label')
+Iso('Iso', 'Iso', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Iso')
 
 ' renders the element
-Iso('Iso', 'Iso', 'an optional tech label')
+Iso('Iso', 'Iso', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

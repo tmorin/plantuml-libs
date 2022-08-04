@@ -8,6 +8,6 @@ sprite $PersonRemoveMd [16x16/16z] dSnL0e0m30FGjBZc_hTbdZ_i8LiLVqpa11aOz8gt6E-Av
 
 sprite $PersonRemoveLg [20x20/16z] fSq30W1120NG6llV_xHh6s-CYlvZ9MZ30yYqej7oj1JHAhTtQemLii7zfGCGXrgmDE1-5WqwvT2AlAmwocDSmS9mXoLvSAVefne
 
-!procedure PersonRemove($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Social/PersonRemove', $name, $tech)
+!procedure PersonRemove($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/PersonRemove', $name, $tech, $desc)
 !endprocedure

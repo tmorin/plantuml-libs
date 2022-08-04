@@ -8,6 +8,6 @@ sprite $BurstModeMd [16x16/16z] Oo0LC4CG101P_CpC_0my_5302-7pKixdu-TXGU9pC_0nC70Y
 
 sprite $BurstModeLg [20x20/16z] lOZ50O0m5CLIztR_QN6_0itN5xx61qoOpm7KHcY8Tk8s9_kvx1vEj0hbvYH8e5vS2IlfSAAT63vc1
 
-!procedure BurstMode($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/BurstMode', $name, $tech)
+!procedure BurstMode($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/BurstMode', $name, $tech, $desc)
 !endprocedure

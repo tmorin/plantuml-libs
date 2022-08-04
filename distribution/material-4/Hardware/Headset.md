@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/Headset')
 
 ' renders the element
-Headset('Headset', 'Headset', 'an optional tech label')
+Headset('Headset', 'Headset', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/Headset')
 
 ' renders the element
-Headset('Headset', 'Headset', 'an optional tech label')
+Headset('Headset', 'Headset', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,6 +8,6 @@ sprite $InboxMd [16x16/16z] jSur0i102011GdCA-__NnbshpEbsoBTYYpWcTO7sRKKM_pHcEeqn
 
 sprite $InboxLg [20x20/16z] pSy53i1044BHgIl3_KzRT_VkYv4VHUu1X_ogCVPxHDqywL7DQuLgsTsIxX8dZKWvQwsqQW6q1riEom4
 
-!procedure Inbox($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Content/Inbox', $name, $tech)
+!procedure Inbox($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/Inbox', $name, $tech, $desc)
 !endprocedure

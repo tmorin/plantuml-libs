@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Content/FontDownload')
 
 ' renders the element
-FontDownload('FontDownload', 'Font Download', 'an optional tech label')
+FontDownload('FontDownload', 'Font Download', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Content/FontDownload')
 
 ' renders the element
-FontDownload('FontDownload', 'Font Download', 'an optional tech label')
+FontDownload('FontDownload', 'Font Download', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

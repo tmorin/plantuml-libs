@@ -8,6 +8,6 @@ sprite $FiberManualRecordMd [16x16/16z] dOsr0O1G30LnXzj_Mlp76kIwv5dsXtm4MZahJfQa
 
 sprite $FiberManualRecordLg [20x20/16z] hSwr0O1044JHmPtflreSFfRTlMnz5K6IvQcU1gyg8VTXOCwNda5aLni6ja6RuYUN_UHaezMkDlHzfkJfdXJoWLr1PW
 
-!procedure FiberManualRecord($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Av/FiberManualRecord', $name, $tech)
+!procedure FiberManualRecord($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/FiberManualRecord', $name, $tech, $desc)
 !endprocedure

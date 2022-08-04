@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/FollowTheSigns')
 
 ' renders the element
-FollowTheSigns('FollowTheSigns', 'Follow The Signs', 'an optional tech label')
+FollowTheSigns('FollowTheSigns', 'Follow The Signs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/FollowTheSigns')
 
 ' renders the element
-FollowTheSigns('FollowTheSigns', 'Follow The Signs', 'an optional tech label')
+FollowTheSigns('FollowTheSigns', 'Follow The Signs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

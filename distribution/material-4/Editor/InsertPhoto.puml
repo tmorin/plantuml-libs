@@ -8,6 +8,6 @@ sprite $InsertPhotoMd [16x16/16z] jSUr0SCm00315xEq_xI9cQ7oTSUxL6OU8BUL1Ce7hwqXrW
 
 sprite $InsertPhotoLg [20x20/16z] jSv50e0W503HiLllVrgxbOPHwgq-RdN3lNoruL7tOtrOAv-sp5ZGtgrbMN3PEkT2n9T571M7zUtLxopjQaNNNtKnsaq
 
-!procedure InsertPhoto($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Editor/InsertPhoto', $name, $tech)
+!procedure InsertPhoto($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/InsertPhoto', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/MergeType')
 
 ' renders the element
-MergeType('MergeType', 'Merge Type', 'an optional tech label')
+MergeType('MergeType', 'Merge Type', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/MergeType')
 
 ' renders the element
-MergeType('MergeType', 'Merge Type', 'an optional tech label')
+MergeType('MergeType', 'Merge Type', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

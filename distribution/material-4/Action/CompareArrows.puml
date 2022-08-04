@@ -8,6 +8,6 @@ sprite $CompareArrowsMd [16x16/16z] hSgr0S100090Y3lxJnjxBr-kGz3At2LnqTY_V9RXCnN_
 
 sprite $CompareArrowsLg [20x20/16z] jSwr0S1034DHXJb__sd3UAhzEhCLA9SfyIuiLt0PzPfXt7Nwc4YMpNjdacFK1vTlLxyReBRdFAMiLfmL
 
-!procedure CompareArrows($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/CompareArrows', $name, $tech)
+!procedure CompareArrows($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/CompareArrows', $name, $tech, $desc)
 !endprocedure

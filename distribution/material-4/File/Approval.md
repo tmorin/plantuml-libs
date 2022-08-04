@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/File/Approval')
 
 ' renders the element
-Approval('Approval', 'Approval', 'an optional tech label')
+Approval('Approval', 'Approval', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/File/Approval')
 
 ' renders the element
-Approval('Approval', 'Approval', 'an optional tech label')
+Approval('Approval', 'Approval', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,6 +8,6 @@ sprite $WorkOffMd [16x16/16z] ROo50S0W3C3GARJ_Vpiiyw2fcL-iSuwlXd8g8n1BG4iSNxK4zf
 
 sprite $WorkOffLg [20x20/16z] ZS-50GCX00F0Tomb-szRFDIR5-3mvUzOct_CsRev9cJqtjClCvv85OPEEvWn08m0V3QI6I-sPEGJObYU_cn2cQRBX3AXJ2WJoeI7J5ZkUvkJyJcEnoiUonq
 
-!procedure WorkOff($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/WorkOff', $name, $tech)
+!procedure WorkOff($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/WorkOff', $name, $tech, $desc)
 !endprocedure

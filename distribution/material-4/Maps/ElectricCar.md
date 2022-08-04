@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/ElectricCar')
 
 ' renders the element
-ElectricCar('ElectricCar', 'Electric Car', 'an optional tech label')
+ElectricCar('ElectricCar', 'Electric Car', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/ElectricCar')
 
 ' renders the element
-ElectricCar('ElectricCar', 'Electric Car', 'an optional tech label')
+ElectricCar('ElectricCar', 'Electric Car', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

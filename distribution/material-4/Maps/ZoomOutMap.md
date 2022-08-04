@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/ZoomOutMap')
 
 ' renders the element
-ZoomOutMap('ZoomOutMap', 'Zoom Out Map', 'an optional tech label')
+ZoomOutMap('ZoomOutMap', 'Zoom Out Map', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/ZoomOutMap')
 
 ' renders the element
-ZoomOutMap('ZoomOutMap', 'Zoom Out Map', 'an optional tech label')
+ZoomOutMap('ZoomOutMap', 'Zoom Out Map', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

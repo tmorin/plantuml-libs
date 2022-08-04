@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/Liquor')
 
 ' renders the element
-Liquor('Liquor', 'Liquor', 'an optional tech label')
+Liquor('Liquor', 'Liquor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/Liquor')
 
 ' renders the element
-Liquor('Liquor', 'Liquor', 'an optional tech label')
+Liquor('Liquor', 'Liquor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,6 +8,6 @@ sprite $PanToolMd [16x16/16z] ZSYt0SHG3CDG_bnHs7_Q2yxgZEv1HyLA1JNYH6453KutlBaman
 
 sprite $PanToolLg [20x20/16z] hSi53e1050FHVjpd_gV5MOypyPTMBjigfQrWonH0FMg35WA3xZLhlFMlGLkm_XTRW1c6m7oN3MrcCr0bPW1pRFuNMbKmMMxfifMofTwgpL6Z0m
 
-!procedure PanTool($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/PanTool', $name, $tech)
+!procedure PanTool($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/PanTool', $name, $tech, $desc)
 !endprocedure

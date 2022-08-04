@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/DirectionsRun')
 
 ' renders the element
-DirectionsRun('DirectionsRun', 'Directions Run', 'an optional tech label')
+DirectionsRun('DirectionsRun', 'Directions Run', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/DirectionsRun')
 
 ' renders the element
-DirectionsRun('DirectionsRun', 'Directions Run', 'an optional tech label')
+DirectionsRun('DirectionsRun', 'Directions Run', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -1,16 +1,16 @@
 ' definition of the Item material-4/Av/Speed
 
-sprite $SpeedXs [10x10/16z] Oy0EMFZv-S4CVWwO43SGitEo0eL0ma223SHY1F6uW99Wm0cIWW0amm
+sprite $SpeedXs [10x10/16z] Oy0EMFZv-S4CVWwO43SGit6o0eL0ma223SHY1F6uW99Wm0cIWW0amm
 
 sprite $SpeedSm [12x12/16z] VOk30K0n34IlLh3_jDz6Nun3ZrJZrf4cN-lQjgKi5vrJqRccDCzJ8mRa5iMKB681uBPVfPMvDsu5DqO
 
 sprite $SpeedMd [16x16/16z] dKjL0iKW32jkXTp_j3XylhSjI1kZBr0C88X36MorBsRJZEtu-Jli4iWC0swND9Kq-3B1Aoec1p3KnNUQo61OYWuuZw_mmRBIvPx-eW4
 
 sprite $SpeedLg [20x20/16z] {
-hOr50iGm30CRvip_NriCddUd3TcMTFm1ePJSAxhoa9TIfWQZNIvp57o_cdOcR3SjwlX6IQta28UftrWRojplW7Z6IXi2zJpja4eWlavnr0IFijMwraRvzMpF
-60I-JicJfegigECdBW
+hOt55S0W44GNTwR_RfF5EISV7tdG3mYbvAte2YRJ9gC6esqkEmfu6fXn9bZgYAAeHv66P178r1uReOpt7I0uLeXn01G_xQfA094lY4iJu6RNLjT6sJqx_jW4
+TAVapMX5d2Zwn0C
 }
 
-!procedure Speed($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Av/Speed', $name, $tech)
+!procedure Speed($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/Speed', $name, $tech, $desc)
 !endprocedure

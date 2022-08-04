@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/Map')
 
 ' renders the element
-Map('Map', 'Map', 'an optional tech label')
+Map('Map', 'Map', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/Map')
 
 ' renders the element
-Map('Map', 'Map', 'an optional tech label')
+Map('Map', 'Map', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

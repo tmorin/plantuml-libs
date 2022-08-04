@@ -8,6 +8,6 @@ sprite $LooksOneMd [16x16/16z] Oo0Ck7bXW0F4vU5702OWdnSRdu612ONFouZ41xCevBEouhAV4
 
 sprite $LooksOneLg [20x20/16z] Ow0CyF8Z0pQm63yAuCKYneSGum4oqCLucL35881fWCIuE975O02d60zOZ9sN3m60_Y4Q
 
-!procedure LooksOne($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/LooksOne', $name, $tech)
+!procedure LooksOne($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/LooksOne', $name, $tech, $desc)
 !endprocedure

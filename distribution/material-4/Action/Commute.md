@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Commute')
 
 ' renders the element
-Commute('Commute', 'Commute', 'an optional tech label')
+Commute('Commute', 'Commute', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Commute')
 
 ' renders the element
-Commute('Commute', 'Commute', 'an optional tech label')
+Commute('Commute', 'Commute', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

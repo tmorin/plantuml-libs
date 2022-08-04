@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/SwitchRight')
 
 ' renders the element
-SwitchRight('SwitchRight', 'Switch Right', 'an optional tech label')
+SwitchRight('SwitchRight', 'Switch Right', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/SwitchRight')
 
 ' renders the element
-SwitchRight('SwitchRight', 'Switch Right', 'an optional tech label')
+SwitchRight('SwitchRight', 'Switch Right', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

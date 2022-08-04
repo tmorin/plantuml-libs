@@ -4,10 +4,10 @@ sprite $TramXs [10x10/16z] Oq06_4301c6oyRE2QHP-402nEB4H25aW1KHGKw0i7WW6
 
 sprite $TramSm [12x12/16z] Oq03l200v_7369py8C024OG0C1id2JQ77wOUYE5i5dv-FgZfhCmSK1iO6O444n03
 
-sprite $TramMd [16x16/16z] VOw50S0m3CEAOqV_NpjcKZ5izqQOyRij2LFZTdpa5AvPI6ir6uizvixapVvvt_C10ISxEjjj1oW1jiatkaveKrYIvdkppmm
+sprite $TramMd [16x16/16z] VOw50S0m3CEAOqV_NpjcKZ5izqQOyRij2LFZTdpa5AvPI6ir6uizvixapVvvt_C10ISxEjjj1oW1jiatkgv3cyAIDD-RVMO
 
 sprite $TramLg [20x20/16z] hS-54OGm50JGZUja-w_s3dU7DmRvZblOiHX9AHMZb0BJHviOpFGfiAVx9ytHc5OwaxVFlqQpjw3AwWrmqpVPvEawhw1drhT1j3-U0OEGsxZB2Zl-
 
-!procedure Tram($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/Tram', $name, $tech)
+!procedure Tram($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/Tram', $name, $tech, $desc)
 !endprocedure

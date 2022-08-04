@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/FormatColorReset')
 
 ' renders the element
-FormatColorReset('FormatColorReset', 'Format Color Reset', 'an optional tech label')
+FormatColorReset('FormatColorReset', 'Format Color Reset', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/FormatColorReset')
 
 ' renders the element
-FormatColorReset('FormatColorReset', 'Format Color Reset', 'an optional tech label')
+FormatColorReset('FormatColorReset', 'Format Color Reset', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

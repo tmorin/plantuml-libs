@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Mediation')
 
 ' renders the element
-Mediation('Mediation', 'Mediation', 'an optional tech label')
+Mediation('Mediation', 'Mediation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Mediation')
 
 ' renders the element
-Mediation('Mediation', 'Mediation', 'an optional tech label')
+Mediation('Mediation', 'Mediation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

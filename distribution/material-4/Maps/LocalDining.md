@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalDining')
 
 ' renders the element
-LocalDining('LocalDining', 'Local Dining', 'an optional tech label')
+LocalDining('LocalDining', 'Local Dining', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalDining')
 
 ' renders the element
-LocalDining('LocalDining', 'Local Dining', 'an optional tech label')
+LocalDining('LocalDining', 'Local Dining', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

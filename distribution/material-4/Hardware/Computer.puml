@@ -2,12 +2,12 @@
 
 sprite $ComputerXs [10x10/16z] Oy06-A60XO4VAi9DWCK7rS7C3mS8um
 
-sprite $ComputerSm [12x12/16z] Oy09UA20cu61buq50dYP67YPOVB4iNbueURmCm4n3F0m8m5aMm4
+sprite $ComputerSm [12x12/16z] Oy09UA20cu61busPcGK8c7cP67YPOVB4iNbueURmCm4n3F0m8m5aMm4
 
-sprite $ComputerMd [16x16/16z] Oo0Py2C1RWO69duME63Z1_4HIfbfm6VaHmOCF3nyI5mU3438Dm
+sprite $ComputerMd [16x16/16z] Oo0Py2C1RWO69duMPXO8O6RZ1_4HIfbfm6VaHmOCF3nyI5mU3438Dm
 
-sprite $ComputerLg [20x20/16z] nSYr0K0X50F0V1Ti_scnAeyIlVBGvhpOaSeLpdJgP4wb-y7MdhvOFkka0rfhMPQ2e44
+sprite $ComputerLg [20x20/16z] Ow0CiB0Y0sQG43yQO069SRCmWo4G04b-Rf0O5uf90ol6W-8Fi1WVcZ-O6NXuU525-402c82I00K
 
-!procedure Computer($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Hardware/Computer', $name, $tech)
+!procedure Computer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Hardware/Computer', $name, $tech, $desc)
 !endprocedure

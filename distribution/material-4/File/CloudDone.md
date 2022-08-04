@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/File/CloudDone')
 
 ' renders the element
-CloudDone('CloudDone', 'Cloud Done', 'an optional tech label')
+CloudDone('CloudDone', 'Cloud Done', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/File/CloudDone')
 
 ' renders the element
-CloudDone('CloudDone', 'Cloud Done', 'an optional tech label')
+CloudDone('CloudDone', 'Cloud Done', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

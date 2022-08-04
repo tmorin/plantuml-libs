@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/EmojiPeople')
 
 ' renders the element
-EmojiPeople('EmojiPeople', 'Emoji People', 'an optional tech label')
+EmojiPeople('EmojiPeople', 'Emoji People', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/EmojiPeople')
 
 ' renders the element
-EmojiPeople('EmojiPeople', 'Emoji People', 'an optional tech label')
+EmojiPeople('EmojiPeople', 'Emoji People', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

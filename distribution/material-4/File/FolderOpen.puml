@@ -6,8 +6,8 @@ sprite $FolderOpenSm [12x12/16z] Oy09U7XusA5CNduWu042RY2RZHa2U9aOU9bXQebZyy00FnC
 
 sprite $FolderOpenMd [16x16/16z] Oo0Py8C0EvpBn0y6F230pGBYyy01Bp-8Zz3AJ0C-8v9zF20vJYG-2q7V
 
-sprite $FolderOpenLg [20x20/16z] Ow0CiB2208eGFmImOn7Zvu40JeGO0d20nBXGZU8PR69yFCW0h8G3pH-K1IW
+sprite $FolderOpenLg [20x20/16z] Ow0CiB020GkA43y4i6CHu-U104w4609mWCIuK8tY6MnYV3p80Ao40yqVb0Ke
 
-!procedure FolderOpen($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/File/FolderOpen', $name, $tech)
+!procedure FolderOpen($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/File/FolderOpen', $name, $tech, $desc)
 !endprocedure

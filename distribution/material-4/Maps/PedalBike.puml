@@ -2,15 +2,15 @@
 
 sprite $PedalBikeXs [10x10/16z] TS750K9H0C2m_kVU_QV5uKR2FqTUDB1u21YZ0GoMd8rAzu6TqcHTx8XK2x2y-Ba3
 
-sprite $PedalBikeSm [12x12/16z] VOR50OH00CG2wvh-gpsN7wFXKdqUFmxH3-d9cqV3jTmDJCsLJdqUo-LEiaSZ64El8AwzuNFd0Npkhpi
+sprite $PedalBikeSm [12x12/16z] VOR50SDG5CFycP_sdxODvnQZzAa-tSCXSX5udJoQM0jh4gbXoKDZ9IqMbf2Dfa0ClKg8PIPTvvsawrxz0G
 
-sprite $PedalBikeMd [16x16/16z] dSkr0GDH5C0m7tv-td_QC5KXzU9FeRnQLWjtwaoMkpa6u7oV--vL0sCfRcwpkXbLcAiHYvChEbYy8e59e0VW1fk4FPo1uXWcs7kPE5jQM_Za2
+sprite $PedalBikeMd [16x16/16z] dSkr0GDH5C0m7tv-td_QC5KXzU9FeRnQLWjtwaoMkpa6u7oV--vL0sCfRcwpkXbLcAiHYvChEbYy8e59e0VW1fk4FPo1uXWcs7kPE5jQc_da2
 
 sprite $PedalBikeLg [20x20/16z] {
 hSkrOKKn40315J_GtVPVhPbJ_yc7X-XZy5TgyaVhXvLlgXNSVCiq2spvK2eKxzRQuQe09TGeVhb0ZtgQqr67si9psO5fDz3c8bKulvj1DuHvtSPrNMw0PVS6
 jWK86nIJszpf1O36rWPBdRpR6eN_U0O
 }
 
-!procedure PedalBike($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/PedalBike', $name, $tech)
+!procedure PedalBike($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/PedalBike', $name, $tech, $desc)
 !endprocedure

@@ -2,7 +2,7 @@
 
 sprite $ApiXs [10x10/16z] Oq05_706FpzSY1ig0YOW64PnmoH0GlmOUY52
 
-sprite $ApiSm [12x12/16z] NSgr0SG040F1UKQV-g_Mp9i8dRbaPxE6NzwvJ-tNnLLDXukNLqBozWurXIk-ARXx-lW0bSfaaPILW0u
+sprite $ApiSm [12x12/16z] NSh50SGm00F12PDjzL_jCMO_GcUw_DY49qVMZCzsr-crvw6pM1AIrHhQC_JOqs2qs6n0IylJ8i_3au0h
 
 sprite $ApiMd [16x16/16z] ROs54KGX50FpNM7xh_RaCRX3P1QDn-Hh2RwMuB9UuOIKhbfd7T8Lowiz7doGpCO_30gSaWy7Hpn_qbdoD-8l9Wrro2sQexp0GvB6YELeL58w5CON
 
@@ -11,6 +11,6 @@ VOu54e1G20N1JlR-j_KnZXrh_YNj3n-U3kxI4UCz2swP7j11VwjrwrHRRcTY2pLREMBzgu1nc-Xc7MM-
 HkM1dIc1WBZ8aKI5Tobrbr9tIjjO
 }
 
-!procedure Api($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/Api', $name, $tech)
+!procedure Api($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Api', $name, $tech, $desc)
 !endprocedure

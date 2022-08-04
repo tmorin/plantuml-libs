@@ -2,12 +2,12 @@
 
 sprite $MenuOpenXs [10x10/16z] Oo00-460WGV6vUM2YZ7pmvMmyiFLCMCr0m
 
-sprite $MenuOpenSm [12x12/16z] Oo0Ay8014vZD30OCR7nmMJP-4CaF0WpyZ0XTZ40EN2yZ9v3D0WRuR08
+sprite $MenuOpenSm [12x12/16z] Oo0Ay8014vZD30OCR7nmMJP-4CaF0WpyZ0XTZ40EN2yZ9v3DmipCmiA2poO
 
-sprite $MenuOpenMd [16x16/16z] fSZ50S0W5C3GrBtiFotktE2X-GoxNi_t7Nlwo4t2zZHR8Vc4nIyc2byxSBS71zgoUlHG
+sprite $MenuOpenMd [16x16/16z] fSZ50S0W5C3GrBtiFotktE2X-GoxNi_t7Nlwo4t2zZHR8Vc4nIyc2byxSBS71zgoBgj53mK
 
-sprite $MenuOpenLg [20x20/16z] lSx50O0m343HN_Tc_sbnvmolhWd_g8V8JWuPAYz58WzjlZgBc_bMUlodpDHOgGruwRmuaMroC3Y9x_mC2tlGV684
+sprite $MenuOpenLg [20x20/16z] lSx50O0m343HN_Tc_sbnvmolhWd_g8V8JWuPAYz58WzjlZgBc_bMUlodpDHOgGruwRmuaMroC3Y9x_mC2slDKgpLV684
 
-!procedure MenuOpen($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Navigation/MenuOpen', $name, $tech)
+!procedure MenuOpen($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Navigation/MenuOpen', $name, $tech, $desc)
 !endprocedure

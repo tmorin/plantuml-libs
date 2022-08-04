@@ -8,6 +8,6 @@ sprite $FormatListNumberedMd [16x16/16z] bSsr0O0m54NHcz0aN_VVbWPtJls4lqh2C0Dmo5a
 
 sprite $FormatListNumberedLg [20x20/16z] hS_50G0X30J0nPtqN-svkp0_YECN9R2ZFU1c5gtcZsPv_7j228OjamNipA2Xx7u6PGMsW1DASMnff_Tt9BsVGHhbr
 
-!procedure FormatListNumbered($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Editor/FormatListNumbered', $name, $tech)
+!procedure FormatListNumbered($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/FormatListNumbered', $name, $tech, $desc)
 !endprocedure

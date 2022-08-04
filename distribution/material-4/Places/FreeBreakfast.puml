@@ -8,6 +8,6 @@ sprite $FreeBreakfastMd [16x16/16z] XSs35K0n50FGVAFQVzhQl8UFmHgBw65g4J0cYleyolg-
 
 sprite $FreeBreakfastLg [20x20/16z] Ow0CiFAZ02PqCGusVXvqCHO6Gc88xUXYl3n08Goz33Z5M934cA5YZ4XYM3p2ZEmzDX1W9IKCeFRo8GCI0XG
 
-!procedure FreeBreakfast($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Places/FreeBreakfast', $name, $tech)
+!procedure FreeBreakfast($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/FreeBreakfast', $name, $tech, $desc)
 !endprocedure

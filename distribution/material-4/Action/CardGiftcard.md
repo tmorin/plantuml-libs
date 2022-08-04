@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/CardGiftcard')
 
 ' renders the element
-CardGiftcard('CardGiftcard', 'Card Giftcard', 'an optional tech label')
+CardGiftcard('CardGiftcard', 'Card Giftcard', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/CardGiftcard')
 
 ' renders the element
-CardGiftcard('CardGiftcard', 'Card Giftcard', 'an optional tech label')
+CardGiftcard('CardGiftcard', 'Card Giftcard', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/ViewAgenda')
 
 ' renders the element
-ViewAgenda('ViewAgenda', 'View Agenda', 'an optional tech label')
+ViewAgenda('ViewAgenda', 'View Agenda', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/ViewAgenda')
 
 ' renders the element
-ViewAgenda('ViewAgenda', 'View Agenda', 'an optional tech label')
+ViewAgenda('ViewAgenda', 'View Agenda', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

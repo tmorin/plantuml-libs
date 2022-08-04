@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Device/ResetTv')
 
 ' renders the element
-ResetTv('ResetTv', 'Reset Tv', 'an optional tech label')
+ResetTv('ResetTv', 'Reset Tv', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Device/ResetTv')
 
 ' renders the element
-ResetTv('ResetTv', 'Reset Tv', 'an optional tech label')
+ResetTv('ResetTv', 'Reset Tv', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

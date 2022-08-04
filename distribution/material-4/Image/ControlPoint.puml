@@ -1,6 +1,6 @@
 ' definition of the Item material-4/Image/ControlPoint
 
-sprite $ControlPointXs [10x10/16z] LKY30G0n4CkZHlQVjkPTZEl8qDonbhVAHkFx5sKv2OVOD_bqQugFBmJHJlYtQ0O
+sprite $ControlPointXs [10x10/16z] LKY30G0n4CkZHlQVjkPTZEl8qDonbhVAHkFx5sKv2OVOD_4qaqtnyOKWsWd_5iq
 
 sprite $ControlPointSm [12x12/16z] NKY54S0m4A9nP_zjUt7vn_6UYtgaJAS2ROknBTHLDfqTkNn84go79612tMz-rLq1Qlog6PR45jieclq
 
@@ -10,10 +10,10 @@ t
 }
 
 sprite $ControlPointLg [20x20/16z] {
-bSm5aa0n2C3GGBzLS__Jhhll6siX0_zpgSx2grFNw5DNygHhFjVvN7MUf0RtzB49eDWVF_awOmZWuiqitG0xNDSrhDTLm0hOm2V7Ou838gAQ4O0di7nxxp20
-pVFDJBctJA0S0FKneBWAZwg3HqL70hjEdaNtqSbRUnjNyhrR
+bSn5WiKW403H0duIlEv_sZ4OzxTfR_xdKXtfVMVsDdH6jgOhpnhPMuqjQW10rqu0acqLyRL75y39crxq1jWWvzmjEIUm05PmEzSATWWX56C8W1SmVVllC00t
+hpSzryOq0ka4A6k1v4minSwIj4VWq05RQ2uNRnsrvyZtxW4
 }
 
-!procedure ControlPoint($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/ControlPoint', $name, $tech)
+!procedure ControlPoint($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/ControlPoint', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/Apps')
 
 ' renders the element
-Apps('Apps', 'Apps', 'an optional tech label')
+Apps('Apps', 'Apps', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/Apps')
 
 ' renders the element
-Apps('Apps', 'Apps', 'an optional tech label')
+Apps('Apps', 'Apps', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Places/CorporateFare')
 
 ' renders the element
-CorporateFare('CorporateFare', 'Corporate Fare', 'an optional tech label')
+CorporateFare('CorporateFare', 'Corporate Fare', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Places/CorporateFare')
 
 ' renders the element
-CorporateFare('CorporateFare', 'Corporate Fare', 'an optional tech label')
+CorporateFare('CorporateFare', 'Corporate Fare', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

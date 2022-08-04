@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/Stop')
 
 ' renders the element
-Stop('Stop', 'Stop', 'an optional tech label')
+Stop('Stop', 'Stop', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/Stop')
 
 ' renders the element
-Stop('Stop', 'Stop', 'an optional tech label')
+Stop('Stop', 'Stop', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,6 +8,6 @@ sprite $LocationPinMd [16x16/16z] ROp50O0m0CJgEDb_MgHk-PsAELBMoW3SbGmaJMGFKW6X5B
 
 sprite $LocationPinLg [20x20/16z] bSy50a8X44NH-plXxN-rzeIjXsw6_xHLqagswAh3pJ8DHYQEzphn9ewsG7sOQu2YcEiabUPojdvwWqMcnTdKJ6XqiPEDEkDUYMX3d0oxUXurAvyS0G
 
-!procedure LocationPin($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/LocationPin', $name, $tech)
+!procedure LocationPin($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/LocationPin', $name, $tech, $desc)
 !endprocedure

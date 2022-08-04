@@ -8,6 +8,6 @@ sprite $ImportContactsMd [16x16/16z] jSVL0SCm40DGcL6-_QTjm_GLV8V2PJQLx04TIuaQa16
 
 sprite $ImportContactsLg [20x20/16z] pSZ50OH000F0hFkc_shlSFZXCfy8BcSA6q50vROa0HGEcb9phgH5vSYW9UdcJ-Bhdmuf1RlyubWSIb0242OpwRReRB3H7m
 
-!procedure ImportContacts($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Communication/ImportContacts', $name, $tech)
+!procedure ImportContacts($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/ImportContacts', $name, $tech, $desc)
 !endprocedure

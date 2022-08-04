@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/WbShade')
 
 ' renders the element
-WbShade('WbShade', 'Wb Shade', 'an optional tech label')
+WbShade('WbShade', 'Wb Shade', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/WbShade')
 
 ' renders the element
-WbShade('WbShade', 'Wb Shade', 'an optional tech label')
+WbShade('WbShade', 'Wb Shade', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

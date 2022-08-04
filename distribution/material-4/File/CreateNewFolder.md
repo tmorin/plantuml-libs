@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/File/CreateNewFolder')
 
 ' renders the element
-CreateNewFolder('CreateNewFolder', 'Create New Folder', 'an optional tech label')
+CreateNewFolder('CreateNewFolder', 'Create New Folder', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/File/CreateNewFolder')
 
 ' renders the element
-CreateNewFolder('CreateNewFolder', 'Create New Folder', 'an optional tech label')
+CreateNewFolder('CreateNewFolder', 'Create New Folder', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

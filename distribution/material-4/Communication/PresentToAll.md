@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/PresentToAll')
 
 ' renders the element
-PresentToAll('PresentToAll', 'Present To All', 'an optional tech label')
+PresentToAll('PresentToAll', 'Present To All', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/PresentToAll')
 
 ' renders the element
-PresentToAll('PresentToAll', 'Present To All', 'an optional tech label')
+PresentToAll('PresentToAll', 'Present To All', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

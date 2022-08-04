@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/DesktopWindows')
 
 ' renders the element
-DesktopWindows('DesktopWindows', 'Desktop Windows', 'an optional tech label')
+DesktopWindows('DesktopWindows', 'Desktop Windows', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/DesktopWindows')
 
 ' renders the element
-DesktopWindows('DesktopWindows', 'Desktop Windows', 'an optional tech label')
+DesktopWindows('DesktopWindows', 'Desktop Windows', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

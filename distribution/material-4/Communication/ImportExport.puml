@@ -8,6 +8,6 @@ sprite $ImportExportMd [16x16/16z] ZSYt0O100810p5dstzRMpqztqDKQyd4BQJWceUNHiiSdD
 
 sprite $ImportExportLg [20x20/16z] fSYr0S1034Mn7pwm_VRVDcqOLKh_-RGhO9iE-nGcFRwktH_byUqykYubFALr9e1MksoqbLgzCWC
 
-!procedure ImportExport($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Communication/ImportExport', $name, $tech)
+!procedure ImportExport($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/ImportExport', $name, $tech, $desc)
 !endprocedure

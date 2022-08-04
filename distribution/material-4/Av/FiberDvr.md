@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/FiberDvr')
 
 ' renders the element
-FiberDvr('FiberDvr', 'Fiber Dvr', 'an optional tech label')
+FiberDvr('FiberDvr', 'Fiber Dvr', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/FiberDvr')
 
 ' renders the element
-FiberDvr('FiberDvr', 'Fiber Dvr', 'an optional tech label')
+FiberDvr('FiberDvr', 'Fiber Dvr', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

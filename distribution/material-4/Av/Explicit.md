@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/Explicit')
 
 ' renders the element
-Explicit('Explicit', 'Explicit', 'an optional tech label')
+Explicit('Explicit', 'Explicit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/Explicit')
 
 ' renders the element
-Explicit('Explicit', 'Explicit', 'an optional tech label')
+Explicit('Explicit', 'Explicit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

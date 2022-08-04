@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/PanoramaPhotosphere')
 
 ' renders the element
-PanoramaPhotosphere('PanoramaPhotosphere', 'Panorama Photosphere', 'an optional tech label')
+PanoramaPhotosphere('PanoramaPhotosphere', 'Panorama Photosphere', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/PanoramaPhotosphere')
 
 ' renders the element
-PanoramaPhotosphere('PanoramaPhotosphere', 'Panorama Photosphere', 'an optional tech label')
+PanoramaPhotosphere('PanoramaPhotosphere', 'Panorama Photosphere', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

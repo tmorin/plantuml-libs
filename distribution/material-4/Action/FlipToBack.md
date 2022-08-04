@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/FlipToBack')
 
 ' renders the element
-FlipToBack('FlipToBack', 'Flip To Back', 'an optional tech label')
+FlipToBack('FlipToBack', 'Flip To Back', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/FlipToBack')
 
 ' renders the element
-FlipToBack('FlipToBack', 'Flip To Back', 'an optional tech label')
+FlipToBack('FlipToBack', 'Flip To Back', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

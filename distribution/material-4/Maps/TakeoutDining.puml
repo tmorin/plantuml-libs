@@ -8,6 +8,6 @@ sprite $TakeoutDiningMd [16x16/16z] dSV50O0m00ImmntsdvQwU_CBUamVzSgSM3zX66VwptA2
 
 sprite $TakeoutDiningLg [20x20/16z] fSwr0G0X30NGVtvezfyMT-XuNJpOTpmUMYS54idruQL47-1mD4bgXGsAMXy2sNZpqRygZr2Xa54X5pcnoF55xaUcX-_whnziiW
 
-!procedure TakeoutDining($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/TakeoutDining', $name, $tech)
+!procedure TakeoutDining($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/TakeoutDining', $name, $tech, $desc)
 !endprocedure

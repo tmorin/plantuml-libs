@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/ControlCamera')
 
 ' renders the element
-ControlCamera('ControlCamera', 'Control Camera', 'an optional tech label')
+ControlCamera('ControlCamera', 'Control Camera', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/ControlCamera')
 
 ' renders the element
-ControlCamera('ControlCamera', 'Control Camera', 'an optional tech label')
+ControlCamera('ControlCamera', 'Control Camera', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

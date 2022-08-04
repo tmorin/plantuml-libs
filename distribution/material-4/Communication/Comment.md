@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/Comment')
 
 ' renders the element
-Comment('Comment', 'Comment', 'an optional tech label')
+Comment('Comment', 'Comment', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/Comment')
 
 ' renders the element
-Comment('Comment', 'Comment', 'an optional tech label')
+Comment('Comment', 'Comment', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

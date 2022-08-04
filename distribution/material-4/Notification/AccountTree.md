@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/AccountTree')
 
 ' renders the element
-AccountTree('AccountTree', 'Account Tree', 'an optional tech label')
+AccountTree('AccountTree', 'Account Tree', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/AccountTree')
 
 ' renders the element
-AccountTree('AccountTree', 'Account Tree', 'an optional tech label')
+AccountTree('AccountTree', 'Account Tree', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

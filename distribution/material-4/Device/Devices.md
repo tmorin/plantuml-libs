@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Device/Devices')
 
 ' renders the element
-Devices('Devices', 'Devices', 'an optional tech label')
+Devices('Devices', 'Devices', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Device/Devices')
 
 ' renders the element
-Devices('Devices', 'Devices', 'an optional tech label')
+Devices('Devices', 'Devices', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

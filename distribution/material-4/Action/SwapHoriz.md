@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/SwapHoriz')
 
 ' renders the element
-SwapHoriz('SwapHoriz', 'Swap Horiz', 'an optional tech label')
+SwapHoriz('SwapHoriz', 'Swap Horiz', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/SwapHoriz')
 
 ' renders the element
-SwapHoriz('SwapHoriz', 'Swap Horiz', 'an optional tech label')
+SwapHoriz('SwapHoriz', 'Swap Horiz', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

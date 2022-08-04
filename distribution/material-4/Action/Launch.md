@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Launch')
 
 ' renders the element
-Launch('Launch', 'Launch', 'an optional tech label')
+Launch('Launch', 'Launch', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Launch')
 
 ' renders the element
-Launch('Launch', 'Launch', 'an optional tech label')
+Launch('Launch', 'Launch', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

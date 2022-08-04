@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/Forum')
 
 ' renders the element
-Forum('Forum', 'Forum', 'an optional tech label')
+Forum('Forum', 'Forum', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/Forum')
 
 ' renders the element
-Forum('Forum', 'Forum', 'an optional tech label')
+Forum('Forum', 'Forum', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

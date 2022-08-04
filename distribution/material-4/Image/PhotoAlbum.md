@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/PhotoAlbum')
 
 ' renders the element
-PhotoAlbum('PhotoAlbum', 'Photo Album', 'an optional tech label')
+PhotoAlbum('PhotoAlbum', 'Photo Album', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/PhotoAlbum')
 
 ' renders the element
-PhotoAlbum('PhotoAlbum', 'Photo Album', 'an optional tech label')
+PhotoAlbum('PhotoAlbum', 'Photo Album', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

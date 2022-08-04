@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Code')
 
 ' renders the element
-Code('Code', 'Code', 'an optional tech label')
+Code('Code', 'Code', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Code')
 
 ' renders the element
-Code('Code', 'Code', 'an optional tech label')
+Code('Code', 'Code', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

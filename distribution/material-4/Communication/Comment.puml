@@ -2,12 +2,12 @@
 
 sprite $CommentXs [10x10/16z] Oq00Jdu8O63WXm9k80iiXSPY0W4W2w6E3yw20WuuYu45
 
-sprite $CommentSm [12x12/16z] LSo53G0n30D0FwFL_QSjXquKD8AVmmSmYRNMrzwmr_oRCT_7Mw-FjHarktRpknpimzrgSVTQ5
+sprite $CommentSm [12x12/16z] LSp50S0m30D0bRdPVzg0sVSo2idxiGVuYffxVInhzr7zlGFFLtwZUfi7hZyoRjwGWsMXd7FKwgHQDG
 
-sprite $CommentMd [16x16/16z] bSwr0G0X0CNGVuBR_jFYJiNhqWM7vnrIkXdmdit-mjIcNw5RlqLhSjUpymVlt_3KCxurE7O1
+sprite $CommentMd [16x16/16z] bSwr0G0X0CNGVuBR_jFYJiNhqWM7vnrIkXdmdit-mjIcNw5RlqLhSjUpymVl__q5JptZMuDZ5m
 
-sprite $CommentLg [20x20/16z] ZSk54S0W44JHmntwhpOUtFxucrtOJeMosqALxfXvJT0_5ut2dutcOs6wq_BFHsFupyw-UMFp7GD2K_ArCXajnuu1XLud
+sprite $CommentLg [20x20/16z] ZSj50a11209GfbEz_sb_Tyvp9u1cISx6drpaXr-PVy6QuKQq_InMTVlnHZvxEQvu-pczgX_Ra_SVF_nWx7oZEFwkuiCFyU47YoSz
 
-!procedure Comment($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Communication/Comment', $name, $tech)
+!procedure Comment($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/Comment', $name, $tech, $desc)
 !endprocedure

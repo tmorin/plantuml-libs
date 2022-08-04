@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Device/AddToHomeScreen')
 
 ' renders the element
-AddToHomeScreen('AddToHomeScreen', 'Add To Home Screen', 'an optional tech label')
+AddToHomeScreen('AddToHomeScreen', 'Add To Home Screen', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Device/AddToHomeScreen')
 
 ' renders the element
-AddToHomeScreen('AddToHomeScreen', 'Add To Home Screen', 'an optional tech label')
+AddToHomeScreen('AddToHomeScreen', 'Add To Home Screen', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

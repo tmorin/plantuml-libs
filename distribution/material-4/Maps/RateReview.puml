@@ -2,12 +2,12 @@
 
 sprite $RateReviewXs [10x10/16z] Oq00Jdu8O600aJmWp00c6444X05XCJ1oC361M520O34py3Coe0C
 
-sprite $RateReviewSm [12x12/16z] ROo30K0X503lczN-qsRNFPE6NmG-42gnXXno3bVAuKuxE_Uzhh_FXLEHR_EVFR21M9bX
+sprite $RateReviewSm [12x12/16z] ROo50S0W3C22E_t_shcFr9KNjUqKQ7AYznok7CAPGpntB35gNRUyhTgks-kFDNR166YQ4JC
 
-sprite $RateReviewMd [16x16/16z] VSg53G0X04FHuWxxJtj-EFnONr8C4LgwcUe0-eve6aV05Dz4ABuPo_zbCR-eAQN-iw3HqkBImZo7snHrb63N2G
+sprite $RateReviewMd [16x16/16z] VSg53S0m44DHvw0C-qzRRZZtHNwIKUGeT7EF0-WTsvXu0yRWcrY3RsxX_p9OBWv4j7nMsYOA3ZKiNyouJOWZ1wiJ
 
-sprite $RateReviewLg [20x20/16z] dOo54S1020IHk5t_tUPT68diAyiDz9eLFTx1i3VkuFGwLzlSE_-ppW-HsgsfplcKedU3JotYE1gdMCXJNSTRfsbUWr1mJ1O8_UG6
+sprite $RateReviewLg [20x20/16z] dOo54S1020InkD1_jUy-4jbNbXlWDPlsUAS3H-DEJAzpjOs3Ew5tQGZLRarLbrAilHEVMibnDevr1Kzr7MyTftd2RdbO28936562drW
 
-!procedure RateReview($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/RateReview', $name, $tech)
+!procedure RateReview($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/RateReview', $name, $tech, $desc)
 !endprocedure

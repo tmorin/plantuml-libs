@@ -8,6 +8,6 @@ sprite $PlayDisabledMd [16x16/16z] bKt50S1024FgsFxJrjqlBuX2CbXEH0ZKkFkn9wGwEIHs5
 
 sprite $PlayDisabledLg [20x20/16z] fSw53GDH30FGt6Vs_jEMAL2s-2bW-Y-ROHZQ4phved3GjfmnYSOn7YU1m12dIOoDsNboC3jDHk9s7kAs2hgmGXJvv7JNdYe9mq1FdsSF
 
-!procedure PlayDisabled($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Av/PlayDisabled', $name, $tech)
+!procedure PlayDisabled($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/PlayDisabled', $name, $tech, $desc)
 !endprocedure

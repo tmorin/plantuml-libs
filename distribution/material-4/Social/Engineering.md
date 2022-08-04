@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/Engineering')
 
 ' renders the element
-Engineering('Engineering', 'Engineering', 'an optional tech label')
+Engineering('Engineering', 'Engineering', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/Engineering')
 
 ' renders the element
-Engineering('Engineering', 'Engineering', 'an optional tech label')
+Engineering('Engineering', 'Engineering', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

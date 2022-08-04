@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/DynamicForm')
 
 ' renders the element
-DynamicForm('DynamicForm', 'Dynamic Form', 'an optional tech label')
+DynamicForm('DynamicForm', 'Dynamic Form', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/DynamicForm')
 
 ' renders the element
-DynamicForm('DynamicForm', 'Dynamic Form', 'an optional tech label')
+DynamicForm('DynamicForm', 'Dynamic Form', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

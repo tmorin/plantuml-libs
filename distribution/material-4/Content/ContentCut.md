@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Content/ContentCut')
 
 ' renders the element
-ContentCut('ContentCut', 'Content Cut', 'an optional tech label')
+ContentCut('ContentCut', 'Content Cut', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Content/ContentCut')
 
 ' renders the element
-ContentCut('ContentCut', 'Content Cut', 'an optional tech label')
+ContentCut('ContentCut', 'Content Cut', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

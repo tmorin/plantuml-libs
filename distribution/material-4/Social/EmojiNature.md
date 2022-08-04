@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/EmojiNature')
 
 ' renders the element
-EmojiNature('EmojiNature', 'Emoji Nature', 'an optional tech label')
+EmojiNature('EmojiNature', 'Emoji Nature', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/EmojiNature')
 
 ' renders the element
-EmojiNature('EmojiNature', 'Emoji Nature', 'an optional tech label')
+EmojiNature('EmojiNature', 'Emoji Nature', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

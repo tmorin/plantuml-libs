@@ -8,6 +8,6 @@ sprite $DirectionsMd [16x16/16z] TSZ50SKm40FHzSVGMlrt6qiXuzpcsQ1GhkDNBdBO046-yGO
 
 sprite $DirectionsLg [20x20/16z] bSm53aKX30NHUQx0_bVxvQOnd8cHGrj6ky8CCGLXHCA8X149OveCZVpx2qER0hN-fu4WcxrtpF_d3SoonUw55n3Ab0T3PLCnEeZnXHWznFX2Z3UrlW
 
-!procedure Directions($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/Directions', $name, $tech)
+!procedure Directions($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/Directions', $name, $tech, $desc)
 !endprocedure

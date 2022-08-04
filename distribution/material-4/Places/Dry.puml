@@ -7,10 +7,10 @@ sprite $DrySm [12x12/16z] PSe30W0m2030sVZ_RsTKDqH6vNwEsi-KBTDPvvbMVWQrrZpCj2lTp0
 sprite $DryMd [16x16/16z] VSs55GGX40FGu4xwx_PUXdFxgupY5w_x2LtW_U20FS64eoZ3b0XJgPynG9lGoAg17dRil6igezaIDEPOfkhyx7vEGV2Mzt_p6pBMZTPV
 
 sprite $DryLg [20x20/16z] {
-bS-53KH124NH-zrv_NUxZ2KZiJrn7FvdnYbQdpZgs0JiEf1HpFg0LsmUJnP9E6te9LezjE1ivNi8DW_PaX7jQgIgpA8pNPMTUmAOEayLU-vagcBt5KsClMyT
-kvCP-9fvHtciHZGVbHNt0m
+bSy72iGm34JHYNlLtF-sAsGJHAZxwDzL-9y86Zzj4zMt1q1X1ULDWHl08hBs8vA4OWOtJD8KeIHXJqjPayGBff3UsNM9QL2RLok7Dk77T6sEut5jTAF9chTy
+6qUmT_rzzHtCWGdLIL0_
 }
 
-!procedure Dry($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Places/Dry', $name, $tech)
+!procedure Dry($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/Dry', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Audiotrack')
 
 ' renders the element
-Audiotrack('Audiotrack', 'Audiotrack', 'an optional tech label')
+Audiotrack('Audiotrack', 'Audiotrack', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Audiotrack')
 
 ' renders the element
-Audiotrack('Audiotrack', 'Audiotrack', 'an optional tech label')
+Audiotrack('Audiotrack', 'Audiotrack', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

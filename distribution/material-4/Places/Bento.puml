@@ -8,6 +8,6 @@ sprite $BentoMd [16x16/16z] bOor0G0W3C22JEZ_r-8sqjGLCSfCQDRBF8bq3_gZjgdNiJ7gWErr
 
 sprite $BentoLg [20x20/16z] Ow0-uE240WPc8C4A4kA70mPM4Cc6HOo7H34cPh0O4piGW2o1I875e032u-G4Yx7m0G4tXVPoeuanKJtm
 
-!procedure Bento($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Places/Bento', $name, $tech)
+!procedure Bento($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/Bento', $name, $tech, $desc)
 !endprocedure

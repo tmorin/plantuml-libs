@@ -8,6 +8,6 @@ sprite $StorageMd [16x16/16z] Oo0LCF7py2C0YC_0Wyndv446sFJpujVFYmmejfyG
 
 sprite $StorageLg [20x20/16z] Ow08iA815g0OFmyRBpyIu069SJ7mO8YX0HuSTZ2Z0IQGNbvs8ktWGxM3BlwW1
 
-!procedure Storage($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Device/Storage', $name, $tech)
+!procedure Storage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Device/Storage', $name, $tech, $desc)
 !endprocedure

@@ -7,10 +7,10 @@ sprite $SportsKabaddiSm [12x12/16z] FOQ50SD008HupolxJrjlJk6dnAte_54837vIXcOWpDo2
 sprite $SportsKabaddiMd [16x16/16z] NSc53GH10810LlviXVwx_PmBqGdS9Lxf_F5qeymGyyMie9QmCM9dLhihcq9HPNLNfQHHWplHJj8SO2KCFQiBKDO7D4CJY0RZwigqsiRfwCRBc6BdwOLFVm
 
 sprite $SportsKabaddiLg [20x20/16z] {
-RSu7SaKX34DHqI7c-Uv_jnb3UhwcMOUgdybPVzDW_3K3-sl9FVyv9wdQJmIwAk3ZopPaSNEWuoef7ChW4f0M630gduINslI0XPMGMi6N9hYIP45IDhn_lb20
-HoUmDkbEXbrRQlIO7eGVYywMPBpzCYxzj8r6q4-R5BKeQnvRyQTLz2Bl
+RSu7SaKX34DHqI7c-Uv_jnb3UhwcMOUgdybPVzDW_3K3-sl9FVyv9wdQJmIwAk3ZopPaSNEWuwcaS2Y3Iq1QOC2eV19UQjC35bP2QWLVck1AaWL9sV3--K81
+7ft0sgGx6NPjgT5ZUX1-B3fRal7soxZqqpOQGJzjKjIYh7binPzMqOky0m
 }
 
-!procedure SportsKabaddi($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Social/SportsKabaddi', $name, $tech)
+!procedure SportsKabaddi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/SportsKabaddi', $name, $tech, $desc)
 !endprocedure

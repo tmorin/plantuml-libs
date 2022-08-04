@@ -6,8 +6,8 @@ sprite $PrintSm [12x12/16z] Oy0DUFX1W0MTpSK30Mn09Zy4SF4pCl3omm0JYCtAnCJ42sKpGmnW
 
 sprite $PrintMd [16x16/16z] ZSx50G0n24JHYIlGVxNhhddHVmCD4itCqbLczhcrMQanvI03QY_d1D1oi3QDzguOpQrgNPlg_5cUjtcW5tZG0m
 
-sprite $PrintLg [20x20/16z] fS-34G113030iwB-gttRs74SzHVAoBsDxMcIfTp6P8N5RM9DGE2W3dSncMEguwzY8GIQOYa4F_unngv_ApooweKQ
+sprite $PrintLg [20x20/16z] fSz50e1020LGd4x-_KzhT-ky9GsLIfYehx6ZAcFDTp5iCDG-fWZfM7SImnAZdhwB6MFo77F6wEcFANR_M-29f0yQ
 
-!procedure Print($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/Print', $name, $tech)
+!procedure Print($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Print', $name, $tech, $desc)
 !endprocedure

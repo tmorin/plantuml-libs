@@ -8,6 +8,6 @@ sprite $DoubleArrowMd [16x16/16z] bSp50OH044JHmfsNVxIhs7L-kwQSfcd-xg1doawTWvKwo0
 
 sprite $DoubleArrowLg [20x20/16z] jKr50e0m3ClSr___bg0TTyYX6i7tiAKK3yzgzTX419WY4pVkbP-cDySr8x06FIQk5fqLYdvR3hsTkiogsLmwB6jUW-LuZ5U4GsKrzybmAV2iVZKRnwFY5sm
 
-!procedure DoubleArrow($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Navigation/DoubleArrow', $name, $tech)
+!procedure DoubleArrow($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Navigation/DoubleArrow', $name, $tech, $desc)
 !endprocedure

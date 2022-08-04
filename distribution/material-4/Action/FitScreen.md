@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/FitScreen')
 
 ' renders the element
-FitScreen('FitScreen', 'Fit Screen', 'an optional tech label')
+FitScreen('FitScreen', 'Fit Screen', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/FitScreen')
 
 ' renders the element
-FitScreen('FitScreen', 'Fit Screen', 'an optional tech label')
+FitScreen('FitScreen', 'Fit Screen', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

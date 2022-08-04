@@ -8,6 +8,6 @@ sprite $LocationCityMd [16x16/16z] ZOo50S1030AfAxtzfwsxtsiIGF_828vbpRwsHQG9Cx7M3
 
 sprite $LocationCityLg [20x20/16z] bOo50S1020EXhhdzfwsxzrw19FQNKESML8UMKoHetmj8JTW22xQ014YxNc9mz9OPK7LNrf6ElHqQUwa3cOl-fqDU_zEzjqXWkVvvjQEopxG
 
-!procedure LocationCity($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Social/LocationCity', $name, $tech)
+!procedure LocationCity($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/LocationCity', $name, $tech, $desc)
 !endprocedure

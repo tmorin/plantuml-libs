@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/DepartureBoard')
 
 ' renders the element
-DepartureBoard('DepartureBoard', 'Departure Board', 'an optional tech label')
+DepartureBoard('DepartureBoard', 'Departure Board', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/DepartureBoard')
 
 ' renders the element
-DepartureBoard('DepartureBoard', 'Departure Board', 'an optional tech label')
+DepartureBoard('DepartureBoard', 'Departure Board', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

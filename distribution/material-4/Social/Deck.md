@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/Deck')
 
 ' renders the element
-Deck('Deck', 'Deck', 'an optional tech label')
+Deck('Deck', 'Deck', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/Deck')
 
 ' renders the element
-Deck('Deck', 'Deck', 'an optional tech label')
+Deck('Deck', 'Deck', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

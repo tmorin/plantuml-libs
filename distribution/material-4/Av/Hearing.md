@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/Hearing')
 
 ' renders the element
-Hearing('Hearing', 'Hearing', 'an optional tech label')
+Hearing('Hearing', 'Hearing', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/Hearing')
 
 ' renders the element
-Hearing('Hearing', 'Hearing', 'an optional tech label')
+Hearing('Hearing', 'Hearing', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

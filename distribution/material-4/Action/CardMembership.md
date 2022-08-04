@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/CardMembership')
 
 ' renders the element
-CardMembership('CardMembership', 'Card Membership', 'an optional tech label')
+CardMembership('CardMembership', 'Card Membership', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/CardMembership')
 
 ' renders the element
-CardMembership('CardMembership', 'Card Membership', 'an optional tech label')
+CardMembership('CardMembership', 'Card Membership', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

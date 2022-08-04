@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Content/AddCircleOutline')
 
 ' renders the element
-AddCircleOutline('AddCircleOutline', 'Add Circle Outline', 'an optional tech label')
+AddCircleOutline('AddCircleOutline', 'Add Circle Outline', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Content/AddCircleOutline')
 
 ' renders the element
-AddCircleOutline('AddCircleOutline', 'Add Circle Outline', 'an optional tech label')
+AddCircleOutline('AddCircleOutline', 'Add Circle Outline', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

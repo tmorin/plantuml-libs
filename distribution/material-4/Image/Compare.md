@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Compare')
 
 ' renders the element
-Compare('Compare', 'Compare', 'an optional tech label')
+Compare('Compare', 'Compare', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Compare')
 
 ' renders the element
-Compare('Compare', 'Compare', 'an optional tech label')
+Compare('Compare', 'Compare', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

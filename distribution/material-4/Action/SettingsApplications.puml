@@ -1,16 +1,16 @@
 ' definition of the Item material-4/Action/SettingsApplications
 
-sprite $SettingsApplicationsXs [10x10/16z] ROg30S1054DVxMR_QOkpFYEQ9Md-zaTZpzR_w88UnB-36RXj-j_xG9T1jeZr0W
+sprite $SettingsApplicationsXs [10x10/16z] Oy0A-FdvsO0On69XOk1a1h5u6HYOW7m640OAWCNuW1WgniVDmCyBPa40aca
 
 sprite $SettingsApplicationsSm [12x12/16z] TOo30S0m402lThF_jB5nRp9415o-yljym_3PNDiBgzlHlHaH-ZDCDhzMdStXpqRwQNd9KG
 
-sprite $SettingsApplicationsMd [16x16/16z] XOs50G0X4CE2E-m_xRjhqBEMVr9PyG2v3UHSnqS2PVo0tkEeDE346hEWbzYC8WhoEW-38iT-KmxzWXc_n2Kc4DMT_Etg7zgE090RWXiz
+sprite $SettingsApplicationsMd [16x16/16z] XOs50G0X4CE2E-m_xRjhqBEMVr9PyGpaDf1p7Hy9bF43Ue-Zqe0JQyo2Nc8pYcZ8wpmCYXpxJJdq2sRy4fUOG5HtyhUhVsWxWW6v8RZH0m
 
 sprite $SettingsApplicationsLg [20x20/16z] {
-fOm53WGn30EzN4ho_zSUk90A3tPArZGoxY4sSzArV4Q-uaw1fGSwsNLzXPXNToiwiRbMmOzbp4NU-QLqE0EsVdUtlUvYvzod66nZxiJId7YVMcOGSyUuChXp
+fOm53WGn30EzN4ho_zSUk90A3tPArZGoxY4sSzArV4Q-uaw1fGSwsNLzXPWtToiwiRbMmOzbp4NU-QLqE0EsVdUtlUvYvzod66nZxiJId7YVMcOGSyUuChXp
 2jqbwiYAhta2
 }
 
-!procedure SettingsApplications($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/SettingsApplications', $name, $tech)
+!procedure SettingsApplications($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/SettingsApplications', $name, $tech, $desc)
 !endprocedure

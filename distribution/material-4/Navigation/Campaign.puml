@@ -4,10 +4,10 @@ sprite $CampaignXs [10x10/16z] Oy03-64KBv3avGS2FZ0V31ZuUHXOG0mEi29Ee3WGmW4FaZa
 
 sprite $CampaignSm [12x12/16z] XOp50G0X4CJcN27zLulpGxAkch7KPDT9AI37XuX9kIdvpwezvRyowAN-IOShktfu
 
-sprite $CampaignMd [16x16/16z] fScr0GGn00F1DRFLVxNFc1nE9E24dFZmC1Hu6m9lk2jZ34c69wCdMp3MWdttJfT-_iYJ2N9JuiC9ag34RxzBwlonbbLN
+sprite $CampaignMd [16x16/16z] fScr0GGn00F1DRFLVxNFc1nE9E24dFZmC1Hv6m9lk2jZ34c69wCdMp3MWdttJfT-_iYJ2N9JuiC9ag34RxzBwlonbbLN
 
 sprite $CampaignLg [20x20/16z] hSp70G9H201HmAouqt-t_XoFxXmVGKvCT_eYOzUm1A-H70rhr_h2p9w0ZYzAUZIZMTYyFv_trHnyjl0x5EpQx2cz5w8EOS46I-l1yCbIRmwLjPlBV_q
 
-!procedure Campaign($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Navigation/Campaign', $name, $tech)
+!procedure Campaign($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Navigation/Campaign', $name, $tech, $desc)
 !endprocedure

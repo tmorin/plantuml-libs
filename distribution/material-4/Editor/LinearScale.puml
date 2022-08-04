@@ -8,6 +8,6 @@ sprite $LinearScaleMd [16x16/16z] Ow0zO48b-FbvcPZu-Vb012zGZ1yP0ENv-3b012U4HMi
 
 sprite $LinearScaleLg [20x20/16z] pOgt0S102CG-Ps3_RIrQJu0Ak9JY8vgvHnjtsafWPhhMuwsrkTsp7vViyd8Uh7CkP3b1ANvpJGut51y
 
-!procedure LinearScale($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Editor/LinearScale', $name, $tech)
+!procedure LinearScale($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/LinearScale', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalPrintshop')
 
 ' renders the element
-LocalPrintshop('LocalPrintshop', 'Local Printshop', 'an optional tech label')
+LocalPrintshop('LocalPrintshop', 'Local Printshop', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalPrintshop')
 
 ' renders the element
-LocalPrintshop('LocalPrintshop', 'Local Printshop', 'an optional tech label')
+LocalPrintshop('LocalPrintshop', 'Local Printshop', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

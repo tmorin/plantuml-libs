@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/KeyboardArrowRight')
 
 ' renders the element
-KeyboardArrowRight('KeyboardArrowRight', 'Keyboard Arrow Right', 'an optional tech label')
+KeyboardArrowRight('KeyboardArrowRight', 'Keyboard Arrow Right', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/KeyboardArrowRight')
 
 ' renders the element
-KeyboardArrowRight('KeyboardArrowRight', 'Keyboard Arrow Right', 'an optional tech label')
+KeyboardArrowRight('KeyboardArrowRight', 'Keyboard Arrow Right', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

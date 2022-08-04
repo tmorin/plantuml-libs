@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/FilterAlt')
 
 ' renders the element
-FilterAlt('FilterAlt', 'Filter Alt', 'an optional tech label')
+FilterAlt('FilterAlt', 'Filter Alt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/FilterAlt')
 
 ' renders the element
-FilterAlt('FilterAlt', 'Filter Alt', 'an optional tech label')
+FilterAlt('FilterAlt', 'Filter Alt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

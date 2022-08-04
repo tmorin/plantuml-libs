@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Places/DoNotTouch')
 
 ' renders the element
-DoNotTouch('DoNotTouch', 'Do Not Touch', 'an optional tech label')
+DoNotTouch('DoNotTouch', 'Do Not Touch', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Places/DoNotTouch')
 
 ' renders the element
-DoNotTouch('DoNotTouch', 'Do Not Touch', 'an optional tech label')
+DoNotTouch('DoNotTouch', 'Do Not Touch', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

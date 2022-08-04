@@ -2,12 +2,12 @@
 
 sprite $NotesXs [10x10/16z] Oo00-260E34SPW
 
-sprite $NotesSm [12x12/16z] Oo0AyC00aCqC0sXg-640gru8cmKCyDa4
+sprite $NotesSm [12x12/16z] Oo0AyC00aCqC0sXg-640gru8cuMPcOM51PzD
 
-sprite $NotesMd [16x16/16z] Ow0OSF8W01EGpuN2nmICJ0W0ulFo8m0JGTiGwfcXV6OM223FzG
+sprite $NotesMd [16x16/16z] Ow0OSF8W01EGpuN2nmICJ0W0ulFo8m0JGTiGwfcXV6OMPXOG8C_r
 
-sprite $NotesLg [20x20/16z] Ow0Fu441N60nVXJ0Hv9v72Y07QTvZAW0ftciS03cefc746E10ne55
+sprite $NotesLg [20x20/16z] Ow0Fu441N60nVXJ0Hv9v72Y07QTvZAW0ftciS03cefc746DXOGP35XOQ1HG
 
-!procedure Notes($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Editor/Notes', $name, $tech)
+!procedure Notes($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/Notes', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/Festival')
 
 ' renders the element
-Festival('Festival', 'Festival', 'an optional tech label')
+Festival('Festival', 'Festival', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/Festival')
 
 ' renders the element
-Festival('Festival', 'Festival', 'an optional tech label')
+Festival('Festival', 'Festival', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

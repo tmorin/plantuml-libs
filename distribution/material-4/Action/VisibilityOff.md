@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/VisibilityOff')
 
 ' renders the element
-VisibilityOff('VisibilityOff', 'Visibility Off', 'an optional tech label')
+VisibilityOff('VisibilityOff', 'Visibility Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/VisibilityOff')
 
 ' renders the element
-VisibilityOff('VisibilityOff', 'Visibility Off', 'an optional tech label')
+VisibilityOff('VisibilityOff', 'Visibility Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

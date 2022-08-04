@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Device/Storage')
 
 ' renders the element
-Storage('Storage', 'Storage', 'an optional tech label')
+Storage('Storage', 'Storage', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Device/Storage')
 
 ' renders the element
-Storage('Storage', 'Storage', 'an optional tech label')
+Storage('Storage', 'Storage', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

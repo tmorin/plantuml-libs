@@ -8,6 +8,6 @@ sprite $WysiwygMd [16x16/16z] XOor0G0W30H96XpsdnPtlUwL_96wmg9KjeD1wrMhjhpfN5PDOm
 
 sprite $WysiwygLg [20x20/16z] fSx50O1040F0u0xzLmkSkyzpDMXpFRePn6EuFBMRrMOeyTh0TLfDFLMrdalTUuZEhEq4YD9yXXF4SjtArIFR1m
 
-!procedure Wysiwyg($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/Wysiwyg', $name, $tech)
+!procedure Wysiwyg($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Wysiwyg', $name, $tech, $desc)
 !endprocedure

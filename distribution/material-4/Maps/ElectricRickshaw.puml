@@ -2,7 +2,7 @@
 
 sprite $ElectricRickshawXs [10x10/16z] RSJ50S0W0CNGrBtPVrgS6-yB8-xkkm8YUBoWEglGJtpDLc4Xso2JJe08
 
-sprite $ElectricRickshawSm [12x12/16z] TOhL0G0X3CLoxlVsdnQd_I9G3oFKA7tvt_Tvl_nNS-QlMDND_Os42bczjK8hcPdE_KeJdPzC1
+sprite $ElectricRickshawSm [12x12/16z] TOl50S0m30DLRdZ_QGF6LyuCmeucK4zUIl7-ga5-pa9V_BlwE7kHhzVORc2L2yG99URM3figvG4
 
 sprite $ElectricRickshawMd [16x16/16z] XOv70iGm20C5thuey__NfjTJngQCJkYELbxuBuwhfYfOl8sLKeAl7lmcjprM9Ewcd8bkSbXycSb4ZEwn5kIItfWsWtbf3Afjfxsr4gaJsPuuTF24pD0vMUS
 
@@ -11,6 +11,6 @@ fSn70eGm34DHfGT8_Ez_sw7NvRobBKd_g73nsyt8EMDv1hZz9WdJ3AD_RcEXRJVlFUQznEGdodAxzbdq
 poXadLBK9NbzL9eUt0IO3NfgE7rSUpy
 }
 
-!procedure ElectricRickshaw($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/ElectricRickshaw', $name, $tech)
+!procedure ElectricRickshaw($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/ElectricRickshaw', $name, $tech, $desc)
 !endprocedure

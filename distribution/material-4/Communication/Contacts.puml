@@ -8,6 +8,6 @@ sprite $ContactsMd [16x16/16z] VS-r0KGX0C3GVC5j_sdF3uVNfGoGCWz0o1mJgUBWJBL_7yYcW
 
 sprite $ContactsLg [20x20/16z] TT2r0GGn0CH07PcX_sgVOKqA9nHmLGqORTbvQGT0xJePBVqDJ6y6wCqpMdLd4jFKajctmpLcUAV69o_cFsKnBG2kCrPjXxRuV0S
 
-!procedure Contacts($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Communication/Contacts', $name, $tech)
+!procedure Contacts($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/Contacts', $name, $tech, $desc)
 !endprocedure

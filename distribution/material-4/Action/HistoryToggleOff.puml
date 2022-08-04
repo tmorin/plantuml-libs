@@ -7,10 +7,10 @@ sprite $HistoryToggleOffSm [12x12/16z] 1S670S0W00CWkjoQ_xyj001e2g1UpL2XJP0B5uAFN
 sprite $HistoryToggleOffMd [16x16/16z] ROo53GGn30GddCXot7-rJ_jyDmB30kSa4XzoE17loob0PkjsGyG4I4hmsgEyRtD8_j6R0-ZkYAJak3z6097Hex2C3mK9xFtgc5ecLXcJ2I9j9umphW
 
 sprite $HistoryToggleOffLg [20x20/16z] {
-bKu50iGm24ljwkJ_hxsvUxOQ4C4t17g8c5L58uj3eO6UIfdJpN4i6kQPmB9LLCiZfdNDIBTJrZLDs-xURRZUhlNIyf0y9XgAuhkDM8fZGclcx1t33tUx9FlD
-uMKgUTRnPWfqDsgXAXO8VRysS1R1u1eD
+bKu50WGX41hhRFZ_Qs-xcrrr4f1l2FG2c5L5IuQJGjD68pAdo74i6kPvWMNBg9OafdNDeBk9TKtJjhTtcrrlrtnfIP0dHtq0trsSRQR9eJMpzsxG3x5TdFrc
+yvXAddMCJ17TZLfHLHQ0lZyRE2l1o3KQ
 }
 
-!procedure HistoryToggleOff($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/HistoryToggleOff', $name, $tech)
+!procedure HistoryToggleOff($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/HistoryToggleOff', $name, $tech, $desc)
 !endprocedure

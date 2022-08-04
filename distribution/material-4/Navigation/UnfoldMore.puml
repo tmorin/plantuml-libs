@@ -8,6 +8,6 @@ sprite $UnfoldMoreMd [16x16/16z] dOsr0G0n30Fl6GBQVzkqSXMuoY1Wa3kkHKzSRpzyWaiRWOr
 
 sprite $UnfoldMoreLg [20x20/16z] lOkr0S0m0CCSvlZ_QqjJO2bhCmXlOAiOAqFMySLgsJyLkLs7PpXyXPyHLGF8eIj9Wyo-4sHcn03d2YBWAYi
 
-!procedure UnfoldMore($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Navigation/UnfoldMore', $name, $tech)
+!procedure UnfoldMore($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Navigation/UnfoldMore', $name, $tech, $desc)
 !endprocedure

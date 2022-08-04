@@ -2,15 +2,15 @@
 
 sprite $PointOfSaleXs [10x10/16z] Oq06_200Od322OGOWWMa-FZusS4ig20lbCK84-BdOM3aWG06
 
-sprite $PointOfSaleSm [12x12/16z] LSY53S104CJ03NFSVxNFT2EoBElyeYKrIqJkDyezfw-4v4sRd_-7j4D_eS_K7szef7cjf9TgbkPA7W
+sprite $PointOfSaleSm [12x12/16z] LSl50G0W30D0t27xJujRxrL96ENo8ESCEM3DQLYpa0ERCALvHa4fm3ptEVVPpJaZzHazegHKtMWd7A8_3jO
 
-sprite $PointOfSaleMd [16x16/16z] RSo50S0W34HHI5ANstzQtE5N7wOMQOfb8XVDq_UD9QihMPBtz_EzkfptXUkFVe0_NA1WH_ANM-PvEBE_06XdDDtEqgOKeMrO_wen2m
+sprite $PointOfSaleMd [16x16/16z] RSo50SCW54NHR_KcR_zfSOSRFHWTOibLefQjs_UVAwPFiHK__rVip-syArrtzW-uqmL93fHuXMMHhs2D5m0Enj0ts4mjfwP4Wh5b_P_MF
 
 sprite $PointOfSaleLg [20x20/16z] {
-bSg55O0m303H1AtV_jFYxdoetOlymSBDoU0caRdPYviXJ18oIyoiB3GRgLpCcJdLO7oegJtC3KYGI40zfXB8Z5NKC0z6jahfw71plkms8CvZMzgruY3h6WVX
-efckQTWnSga5
+bOw5OGGW5CLmX-o_ROkUMz3lJ_m2XxHTWRIeR5zyyWkKHKDi6fie3b9Df7YI5xRBGyZ5upDSoMjzztG_NHPG8KfaO2TMhh7T9Uc_bEt_1TJ7DEXwZ35wB3D_
+ga-zeppnTTcotD1TJ_W3
 }
 
-!procedure PointOfSale($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Hardware/PointOfSale', $name, $tech)
+!procedure PointOfSale($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Hardware/PointOfSale', $name, $tech, $desc)
 !endprocedure

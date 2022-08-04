@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Device/ScreenLockLandscape')
 
 ' renders the element
-ScreenLockLandscape('ScreenLockLandscape', 'Screen Lock Landscape', 'an optional tech label')
+ScreenLockLandscape('ScreenLockLandscape', 'Screen Lock Landscape', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Device/ScreenLockLandscape')
 
 ' renders the element
-ScreenLockLandscape('ScreenLockLandscape', 'Screen Lock Landscape', 'an optional tech label')
+ScreenLockLandscape('ScreenLockLandscape', 'Screen Lock Landscape', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

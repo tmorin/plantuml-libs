@@ -8,6 +8,6 @@ sprite $BoltMd [16x16/16z] ZOor0O100CJUSCd-q-AMZdIduI-zvTXAHhBqZ6J1cftkaItmRKpJ3
 
 sprite $BoltLg [20x20/16z] hS-r0SGm44HHWMsnVl_L7YM2IOvUkBpcBrpN65L25qdBkFPG0h-5B73uDLfuiLiPaCsaITbBXc0s3VsZSqgCPWHMGYwPZzq1
 
-!procedure Bolt($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Content/Bolt', $name, $tech)
+!procedure Bolt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/Bolt', $name, $tech, $desc)
 !endprocedure

@@ -2,15 +2,15 @@
 
 sprite $BackupTableXs [10x10/16z] Oq00JduGu0Eo-C5yVYGM3mC_681PO65K5XzS5WPuG1WC6
 
-sprite $BackupTableSm [12x12/16z] NSY53S104CJ03TEUhlzk4_-7BHfPdnoqmHWxYWvt8lTByzYj8ckOd_oV7NRQsHrMN-g4jRYKk6bhsW4
+sprite $BackupTableSm [12x12/16z] NOc50G0W20JVRjr_Mxiu1Jxm4LCdT9cqw2JHjPYjTEpgo97AfEkUbvuJ7LECfNtHD8GGKag1hk7Ye7JD-0GL
 
-sprite $BackupTableMd [16x16/16z] XSwr0S0m3011KIh3xpzjcCdVdOpoI6rD5x8t3mnP8-wsVBKpkQoT3AlN_QMi-zi-_sUoMAoPJ9ucljOjph2MvTu
+sprite $BackupTableMd [16x16/16z] ZSwr0K0n549HdbKHzf_sksjkTwZ0BT4bcScjQL1YYNwrvhEDeylImUJ104e1qERZdz5GDvzIZ1uNMuhPcMiPrte
 
 sprite $BackupTableLg [20x20/16z] {
-bSo50SGW44JHnMsFwR_Q67wU7-KXz7S1ermDEROOgbgabe5-QnnU3NnQaYtRRQxPmpddaOvtB5RFat3jl5l6nXYBUBm3LB6CAIf6IhSKDLjhnfZonGAF3dhN
-3W
+bSo50SCW54NHZpjl_sbhUECtoa7eTWwZN0tPjo94DKyj1RbhqMqDyMk1jtItkMR966CHFczVh9x7OTfvZomgfJJyv-qWYcLCKJ4IibnI2cgsrYnYoXPpSLHe
+qni
 }
 
-!procedure BackupTable($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/BackupTable', $name, $tech)
+!procedure BackupTable($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/BackupTable', $name, $tech, $desc)
 !endprocedure

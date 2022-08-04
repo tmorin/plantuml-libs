@@ -8,6 +8,6 @@ sprite $RouterMd [16x16/16z] ZSU50S0m30D1XL7r_jEMcIzWF_wofLXi92WL6cmgMR6ZXhkNCmv
 
 sprite $RouterLg [20x20/16z] hSo30KKn50FGr4xsd_RRV3frBx09DqGoua6GWu4P5O-AEZkU-SjwPl5ESUvVvfN4SUwf9_torwfgE-u7lFnv24O6Zt-Zgn_duzzxlpHuDomcsmC
 
-!procedure Router($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Hardware/Router', $name, $tech)
+!procedure Router($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Hardware/Router', $name, $tech, $desc)
 !endprocedure

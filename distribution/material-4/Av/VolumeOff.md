@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/VolumeOff')
 
 ' renders the element
-VolumeOff('VolumeOff', 'Volume Off', 'an optional tech label')
+VolumeOff('VolumeOff', 'Volume Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/VolumeOff')
 
 ' renders the element
-VolumeOff('VolumeOff', 'Volume Off', 'an optional tech label')
+VolumeOff('VolumeOff', 'Volume Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

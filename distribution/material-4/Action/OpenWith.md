@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/OpenWith')
 
 ' renders the element
-OpenWith('OpenWith', 'Open With', 'an optional tech label')
+OpenWith('OpenWith', 'Open With', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/OpenWith')
 
 ' renders the element
-OpenWith('OpenWith', 'Open With', 'an optional tech label')
+OpenWith('OpenWith', 'Open With', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

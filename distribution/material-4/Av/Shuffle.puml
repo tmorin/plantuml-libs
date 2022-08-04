@@ -8,6 +8,6 @@ sprite $ShuffleMd [16x16/16z] bSs35G0n40JGsJCM_LSRw-aG_udmlnnRdimuBNRBWHQNGEoCpW
 
 sprite $ShuffleLg [20x20/16z] fStL0SKW04FHFAdBtN_QQj1VWXzCZVbu_7PNJCp65V1qmVYrvGWx9kCN_bgLS9BWfpm-LSLKdwhm8URorE_z_KVzrWAs3oRzecar2Lj3JW
 
-!procedure Shuffle($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Av/Shuffle', $name, $tech)
+!procedure Shuffle($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/Shuffle', $name, $tech, $desc)
 !endprocedure

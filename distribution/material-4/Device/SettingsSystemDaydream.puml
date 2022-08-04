@@ -8,6 +8,6 @@ sprite $SettingsSystemDaydreamMd [16x16/16z] XSh50O1000F1u1gs_sfnjvjVH259wqCZuVP
 
 sprite $SettingsSystemDaydreamLg [20x20/16z] fSg53G113CJ0v9Yt_sgVcM74bkaFXosc0hDYOPj6A-AwwOAqQGgjPMFq7CyjO3ItE3KvDNNmaGmTB-OsEsyPMuPaBck1dge1
 
-!procedure SettingsSystemDaydream($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Device/SettingsSystemDaydream', $name, $tech)
+!procedure SettingsSystemDaydream($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Device/SettingsSystemDaydream', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/GTranslate')
 
 ' renders the element
-GTranslate('GTranslate', 'G Translate', 'an optional tech label')
+GTranslate('GTranslate', 'G Translate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/GTranslate')
 
 ' renders the element
-GTranslate('GTranslate', 'G Translate', 'an optional tech label')
+GTranslate('GTranslate', 'G Translate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

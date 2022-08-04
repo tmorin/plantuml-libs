@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Device/BatteryUnknown')
 
 ' renders the element
-BatteryUnknown('BatteryUnknown', 'Battery Unknown', 'an optional tech label')
+BatteryUnknown('BatteryUnknown', 'Battery Unknown', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Device/BatteryUnknown')
 
 ' renders the element
-BatteryUnknown('BatteryUnknown', 'Battery Unknown', 'an optional tech label')
+BatteryUnknown('BatteryUnknown', 'Battery Unknown', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

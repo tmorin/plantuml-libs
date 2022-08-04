@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/AppSettingsAlt')
 
 ' renders the element
-AppSettingsAlt('AppSettingsAlt', 'App Settings Alt', 'an optional tech label')
+AppSettingsAlt('AppSettingsAlt', 'App Settings Alt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/AppSettingsAlt')
 
 ' renders the element
-AppSettingsAlt('AppSettingsAlt', 'App Settings Alt', 'an optional tech label')
+AppSettingsAlt('AppSettingsAlt', 'App Settings Alt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

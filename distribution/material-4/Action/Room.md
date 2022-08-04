@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Room')
 
 ' renders the element
-Room('Room', 'Room', 'an optional tech label')
+Room('Room', 'Room', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Room')
 
 ' renders the element
-Room('Room', 'Room', 'an optional tech label')
+Room('Room', 'Room', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

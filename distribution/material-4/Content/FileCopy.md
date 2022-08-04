@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Content/FileCopy')
 
 ' renders the element
-FileCopy('FileCopy', 'File Copy', 'an optional tech label')
+FileCopy('FileCopy', 'File Copy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Content/FileCopy')
 
 ' renders the element
-FileCopy('FileCopy', 'File Copy', 'an optional tech label')
+FileCopy('FileCopy', 'File Copy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

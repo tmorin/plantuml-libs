@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/BorderAll')
 
 ' renders the element
-BorderAll('BorderAll', 'Border All', 'an optional tech label')
+BorderAll('BorderAll', 'Border All', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/BorderAll')
 
 ' renders the element
-BorderAll('BorderAll', 'Border All', 'an optional tech label')
+BorderAll('BorderAll', 'Border All', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

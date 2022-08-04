@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/MarkChatUnread')
 
 ' renders the element
-MarkChatUnread('MarkChatUnread', 'Mark Chat Unread', 'an optional tech label')
+MarkChatUnread('MarkChatUnread', 'Mark Chat Unread', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/MarkChatUnread')
 
 ' renders the element
-MarkChatUnread('MarkChatUnread', 'Mark Chat Unread', 'an optional tech label')
+MarkChatUnread('MarkChatUnread', 'Mark Chat Unread', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

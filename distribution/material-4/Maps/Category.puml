@@ -2,12 +2,12 @@
 
 sprite $CategoryXs [10x10/16z] Oq05N3068p-CnSyFPV82MKmG9f8S22DON70M8rG9DoC3
 
-sprite $CategorySm [12x12/16z] RSZ50S0m40D1NPYt_sh3Piz7e48NQaFeiBiw0-RkXt80wc1r7S0gVGFaM2DT
+sprite $CategorySm [12x12/16z] RSR50OC0402mktgnx3yjxf1NukArDMsdNlf7pWTn1l6YN0vvymgno4T41m
 
 sprite $CategoryMd [16x16/16z] ZOp50O1G5CEAmvUN_QV5tNEhwYSSfL7kPG7iDK3Of6CWNMGIHu9kSKFcfGQQGKU0E4XeDit8itPBV_bpu7IX0m
 
 sprite $CategoryLg [20x20/16z] bOu54W0X24NjLkv_sksmuqqnm0-qZAciWEOh3E3p7Ho8T2NX97yxIM8yt91O-Y1wPSN5sKvxBsD_-GmksUbxeF4kF8NYtLD8npjr3pZUtOygQqMjmOt2Em
 
-!procedure Category($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/Category', $name, $tech)
+!procedure Category($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/Category', $name, $tech, $desc)
 !endprocedure

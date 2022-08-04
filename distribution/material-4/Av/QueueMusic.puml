@@ -6,8 +6,8 @@ sprite $QueueMusicSm [12x12/16z] ZSgr0S0m34JHhwWBtVxJch7pCmWvyXOf67Y17FWAH78LDIz
 
 sprite $QueueMusicMd [16x16/16z] fSU50S0m24JHYplilstTlNaH-AWMya3AzcixJgsuxHN5w6GUoB65763TefrwwCAjWjZ-ME5Z4zPYn0iD
 
-sprite $QueueMusicLg [20x20/16z] lSl50O0m44JHmPtVVxKuqHkI5rrJ6gEXPhiwRJ3K0QDy7JeLXirXs5nkxBb8CDj8Czov_b2gn-ICESuTVRC24sHwQGK
+sprite $QueueMusicLg [20x20/16z] lSk54OH044JHFi7bvnyjJa-nvTXR7TCxMbCnNPKcc2gWrL65LZ-B71QvhqKkfBE5r0DQrOk_6fopthbG0xqI7NnqqGW
 
-!procedure QueueMusic($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Av/QueueMusic', $name, $tech)
+!procedure QueueMusic($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/QueueMusic', $name, $tech, $desc)
 !endprocedure

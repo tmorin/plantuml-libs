@@ -8,6 +8,6 @@ sprite $SettingsOverscanMd [16x16/16z] XOy30W1124N_ME7-frsRRvWBVpZYdGOequuIr664v
 
 sprite $SettingsOverscanLg [20x20/16z] fOw30K0n34Hh9xV_jDysNXcV-4F05YaOReM7RtnzlgR-LGiV47U-dajVqPCdszuNO2PVWUxpx9mNRsTOQtQ-3BtNukTQmXOdDF6Q99vI0m
 
-!procedure SettingsOverscan($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/SettingsOverscan', $name, $tech)
+!procedure SettingsOverscan($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/SettingsOverscan', $name, $tech, $desc)
 !endprocedure

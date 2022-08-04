@@ -4,13 +4,13 @@ sprite $PhoneBluetoothSpeakerXs [10x10/16z] Oq03R9nCG9AV7qGmmrWyt20M5v3W1AlXW2i7
 
 sprite $PhoneBluetoothSpeakerSm [12x12/16z] RKg30G1H2FtEjV-sPrzyIdzboudG-JBK5STycwG3rpRwZ766orjlfAlwdSof4R4hTKO7dfdD-5uJ
 
-sprite $PhoneBluetoothSpeakerMd [16x16/16z] TSt50G0X4C30nPtqN-svIpw38_-Pi61RonCgcx8iL61RjxDfcqif2nOmapd4l2n0cp46lSnRboMjDp5oAxDmrb4YhbWjMmtlcJeM8fppfVIORny-6m4
+sprite $PhoneBluetoothSpeakerMd [16x16/16z] TOt50G0n2C2eUxF_jESk-GH7_Z5XaMqjJrBPbALGWQrkPwSjbr8MMS1CpY7cfG1jbZ7e9MzT5hJUZ94R6RdJKIAkM2qR3U-PE0eHploidFdsyCK8
 
 sprite $PhoneBluetoothSpeakerLg [20x20/16z] {
 ZSw54O0m40311-9s_LUBkz_OpqRbCzUSnOYddaO0DUuAth2PcOv2ivcVnoYRvN4gASqObtr5ULycKn1aocUP0vbJsxzmSYdJNApQJc_Le8SxADdkCLc6Ycn5
 k9XKcSqsrJvb9x_h
 }
 
-!procedure PhoneBluetoothSpeaker($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Notification/PhoneBluetoothSpeaker', $name, $tech)
+!procedure PhoneBluetoothSpeaker($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Notification/PhoneBluetoothSpeaker', $name, $tech, $desc)
 !endprocedure

@@ -8,6 +8,6 @@ sprite $ZoomOutMapMd [16x16/16z] dOw53GHH20M_-mlzTtl8kQrCP8BZDXd04cS0WGqY5jE8hd7
 
 sprite $ZoomOutMapLg [20x20/16z] jSyr5WH130FH6kRH_M-xLbEw_2E_YcI-ez1ZQrntRHtKsDeErgkrxYXH6jRSUZWkmgWHPlvbm1QgnRlmuKa7fbKQiTXvjpy6p56jBMHtRNUOi2EkavSz
 
-!procedure ZoomOutMap($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/ZoomOutMap', $name, $tech)
+!procedure ZoomOutMap($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/ZoomOutMap', $name, $tech, $desc)
 !endprocedure

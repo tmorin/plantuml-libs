@@ -6,8 +6,8 @@ sprite $PivotTableChartSm [12x12/16z] TOg53O100CIAnoxTVrhSuHivfOWsSU7bcuQwMPXzKW
 
 sprite $PivotTableChartMd [16x16/16z] XSi30aGn34NH-siaVVjVxTWyPSH_qmVcH-qOccJeB03-4W-pWPq57XLkyqUkUdxEyP9K7sAYu1Olo0-nAsQDMrnrS0xfaj74JGW1Af_j0G
 
-sprite $PivotTableChartLg [20x20/16z] fOs50GCX4C1USSZ-snQ7kWKF9yj_U63PgOZik7B-WGiFtJFsIBsUvAFcPWI4zTgT9AxTkchMgxWpllHrFK5qNBaJZ0x8sP68wYgNc3kGFeJOzCfzn0K
+sprite $PivotTableChartLg [20x20/16z] fOs50GCX4C1USSZ-snQ7kWKF9yj_U63PgOZik7B-WGiFtJFsIBsUvAFcPWI4zTgT9AxTkchMgxWpllHrFK5qNBaJj0x8sP68wYgNc3kGFeJOzCfzn0K
 
-!procedure PivotTableChart($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Navigation/PivotTableChart', $name, $tech)
+!procedure PivotTableChart($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Navigation/PivotTableChart', $name, $tech, $desc)
 !endprocedure

@@ -2,18 +2,18 @@
 
 sprite $LocationDisabledXs [10x10/16z] Oq05_32AZvqVp0QJpBn0WWyioGz4x10AYC4Y4989hfkFdv-VWn_9F
 
-sprite $LocationDisabledSm [12x12/16z] POs30G0n54FFgDx-qzRkDvDj4Mh-WJ_MUnnA4w9vOgFlT4jUG_ub3tquGXOYDNjCQlFJJF40voO7NWS
+sprite $LocationDisabledSm [12x12/16z] POs30G0n54FFgDx-qzRkDvDj4Mh-WJ_MUnnA4w9vOgFlT4jUG_ub3tquGXOYDNjyLfkVPee7E3Svy3e
 
 sprite $LocationDisabledMd [16x16/16z] {
-ROq53WGn30EzPPx___OKHQtefXYozP-07acAW_hTa2JsEYmvbUGZnsEs9qJtVYMY_JBMDhTkWlW9bcu2jjIERWBp_FYkhHjiVp993jYlyH83esIVz6dxlb3V
-blC3
+ROs54GGn30CtTEoe_sgVDCxGRz0ayPyg5XtQfRrag8xYcNemkxf7fcE54-XoFrqDO0YeTv09jOBqa0afu9XaGWKeAcbhW_0pr35J7JYq4fU-R4C5JBSKIGdC
+6m
 }
 
 sprite $LocationDisabledLg [20x20/16z] {
-VT250GGX3031u9xjlzhNSyCP77aAISt9CbiRMQG2Q5oia2LeIGtMkOCyxObEP616n_Wt6hRCMB6_6XMPqVxgb3_LYcXsef1aHRvTOwYo8lrt7KKMjAJfLd55
-FzqQx8hhfSjts0zM5EKVSc55LvIUZ4Wnr_-tpanBymq
+VT25eGCX54JHmVtT_glziXRFh79mz2t5t8jLxcrLgGDOlgnHbQoL0RUsYtgCYHtauCJ0qfQ1RoTs_FR5f1FzzYsLgXjYDSYWw8P0aNDqtP2vBSVGXPvoh2hV
+C1wh1d_38yveJb9St536djguOMZ6B4vgxkFv7IsBplm2
 }
 
-!procedure LocationDisabled($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Device/LocationDisabled', $name, $tech)
+!procedure LocationDisabled($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Device/LocationDisabled', $name, $tech, $desc)
 !endprocedure

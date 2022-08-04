@@ -8,6 +8,6 @@ sprite $PlayArrowMd [16x16/16z] Ow06OEPbHENpytEWye604OtFput6v-T1vJEZo7EXcCV7Y68-
 
 sprite $PlayArrowLg [20x20/16z] jKwr0S1044hUdVsdVQcXFKhyiy4lE1J10KvmQCGz1C5X_CnX4BSYPJjjB4-xV7gwpmu7
 
-!procedure PlayArrow($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Av/PlayArrow', $name, $tech)
+!procedure PlayArrow($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/PlayArrow', $name, $tech, $desc)
 !endprocedure

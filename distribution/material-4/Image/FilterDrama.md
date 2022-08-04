@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/FilterDrama')
 
 ' renders the element
-FilterDrama('FilterDrama', 'Filter Drama', 'an optional tech label')
+FilterDrama('FilterDrama', 'Filter Drama', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/FilterDrama')
 
 ' renders the element
-FilterDrama('FilterDrama', 'Filter Drama', 'an optional tech label')
+FilterDrama('FilterDrama', 'Filter Drama', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,6 +8,6 @@ sprite $SdCardMd [16x16/16z] nSUr0G0X00ImUyLX_sbnXvvqmTuTNBNQH3HN6MWeI5bQdsiU_QW
 
 sprite $SdCardLg [20x20/16z] rSYr0O1000F0u9xiFotky5R-bOT0sbKu3MpLjMofiwWUJD2YFs_GvwZF5Rg9-BAVGz6VEXXC
 
-!procedure SdCard($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Notification/SdCard', $name, $tech)
+!procedure SdCard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Notification/SdCard', $name, $tech, $desc)
 !endprocedure

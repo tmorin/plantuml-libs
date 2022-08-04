@@ -8,6 +8,6 @@ sprite $ArtTrackMd [16x16/16z] hSh50G0X40F0v1Id_sfn-yCWgpZEPmvNYMZH4rSswckjRQhd_
 
 sprite $ArtTrackLg [20x20/16z] nSx55S0W44NH5_Ua_sg3EskugtzWZ6wMJpl0X1kTj85NkwAtaI2yxThgtcxr5iyRdmdrDXZgRKKQglFYMrYrmOM55WG
 
-!procedure ArtTrack($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Av/ArtTrack', $name, $tech)
+!procedure ArtTrack($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/ArtTrack', $name, $tech, $desc)
 !endprocedure

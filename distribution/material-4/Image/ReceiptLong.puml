@@ -8,6 +8,6 @@ sprite $ReceiptLongMd [16x16/16z] ZSc54GGn3C10Xpdglzh7OzwWnl90YKG2drl_kbB_6BhAtz
 
 sprite $ReceiptLongLg [20x20/16z] bSl50SH030D06SDn_zM6bevXdWByOy0aic9HNZ0WcQDPQ-R5JORY9kCuMUXDHkj9LxdzoedasnTy0kCsApvaPajOKh_H-8_PW9XnMkAMuTBFrSHuRGS
 
-!procedure ReceiptLong($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/ReceiptLong', $name, $tech)
+!procedure ReceiptLong($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/ReceiptLong', $name, $tech, $desc)
 !endprocedure

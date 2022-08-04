@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/WaterfallChart')
 
 ' renders the element
-WaterfallChart('WaterfallChart', 'Waterfall Chart', 'an optional tech label')
+WaterfallChart('WaterfallChart', 'Waterfall Chart', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/WaterfallChart')
 
 ' renders the element
-WaterfallChart('WaterfallChart', 'Waterfall Chart', 'an optional tech label')
+WaterfallChart('WaterfallChart', 'Waterfall Chart', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

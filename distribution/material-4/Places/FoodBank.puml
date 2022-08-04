@@ -8,6 +8,6 @@ sprite $FoodBankMd [16x16/16z] ZSU54O0m44N1v0w7Fw__Qd7t7TtmKtwOWtOj6FXICIcc0f80w
 
 sprite $FoodBankLg [20x20/16z] hSk53SD040NHtMF-_LURc9dj4Jzfw8iyr48OLNv66arfzlN9_iiOS-Eea-NCDSvDqCAYOLvO90fBGt986uOhXbBvtFfwKsKQNUyF
 
-!procedure FoodBank($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Places/FoodBank', $name, $tech)
+!procedure FoodBank($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/FoodBank', $name, $tech, $desc)
 !endprocedure

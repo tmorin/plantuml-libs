@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Places/Grass')
 
 ' renders the element
-Grass('Grass', 'Grass', 'an optional tech label')
+Grass('Grass', 'Grass', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Places/Grass')
 
 ' renders the element
-Grass('Grass', 'Grass', 'an optional tech label')
+Grass('Grass', 'Grass', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

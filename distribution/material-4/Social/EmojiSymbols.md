@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/EmojiSymbols')
 
 ' renders the element
-EmojiSymbols('EmojiSymbols', 'Emoji Symbols', 'an optional tech label')
+EmojiSymbols('EmojiSymbols', 'Emoji Symbols', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/EmojiSymbols')
 
 ' renders the element
-EmojiSymbols('EmojiSymbols', 'Emoji Symbols', 'an optional tech label')
+EmojiSymbols('EmojiSymbols', 'Emoji Symbols', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

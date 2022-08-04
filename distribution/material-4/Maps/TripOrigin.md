@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/TripOrigin')
 
 ' renders the element
-TripOrigin('TripOrigin', 'Trip Origin', 'an optional tech label')
+TripOrigin('TripOrigin', 'Trip Origin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/TripOrigin')
 
 ' renders the element
-TripOrigin('TripOrigin', 'Trip Origin', 'an optional tech label')
+TripOrigin('TripOrigin', 'Trip Origin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

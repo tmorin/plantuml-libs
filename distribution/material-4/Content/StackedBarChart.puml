@@ -8,6 +8,6 @@ sprite $StackedBarChartMd [16x16/16z] dOh50G0n3CCIvtCGs7_QOyQs_baI5Gno_Xhu_02njV
 
 sprite $StackedBarChartLg [20x20/16z] jOl50O1G5CEUuhJxRyiLzzzZaqY9rMsp-GRYrjTX43LTVEOc3RbfzpurtNmr805isYGtdsRkURU_Zvi
 
-!procedure StackedBarChart($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Content/StackedBarChart', $name, $tech)
+!procedure StackedBarChart($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/StackedBarChart', $name, $tech, $desc)
 !endprocedure

@@ -8,6 +8,6 @@ sprite $InventoryMd [16x16/16z] Oy04J0W0v37o8mEWB3z29JC67rCz0oyIbncDpmJbim3juiN9
 
 sprite $InventoryLg [20x20/16z] lSY53S0m0CH0bxc__xG1GPaX9xBCPQNc_5DVJwdnhsPAxTvRg81KCptUdTV7tk8jQnJeDNXnEr6ppG8
 
-!procedure Inventory($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Content/Inventory', $name, $tech)
+!procedure Inventory($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/Inventory', $name, $tech, $desc)
 !endprocedure

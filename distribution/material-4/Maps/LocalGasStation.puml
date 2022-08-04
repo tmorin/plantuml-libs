@@ -8,6 +8,6 @@ sprite $LocalGasStationMd [16x16/16z] bSV50SK0508mljRWiV-qTVVc5bpxK58ntI9f9Xh-1H
 
 sprite $LocalGasStationLg [20x20/16z] hSZ50GH130Cm3sFY_hizncNGKpZ6yA4WuoKmnoibX9_pkBeUH0RdIVwV54F_lEYkhjSqCZpl2QRh_sa2_g_G3GuIpxtAJ0jSUNqGe4h4UXS
 
-!procedure LocalGasStation($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/LocalGasStation', $name, $tech)
+!procedure LocalGasStation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/LocalGasStation', $name, $tech, $desc)
 !endprocedure

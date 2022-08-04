@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/SupportAgent')
 
 ' renders the element
-SupportAgent('SupportAgent', 'Support Agent', 'an optional tech label')
+SupportAgent('SupportAgent', 'Support Agent', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/SupportAgent')
 
 ' renders the element
-SupportAgent('SupportAgent', 'Support Agent', 'an optional tech label')
+SupportAgent('SupportAgent', 'Support Agent', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/KeyboardBackspace')
 
 ' renders the element
-KeyboardBackspace('KeyboardBackspace', 'Keyboard Backspace', 'an optional tech label')
+KeyboardBackspace('KeyboardBackspace', 'Keyboard Backspace', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/KeyboardBackspace')
 
 ' renders the element
-KeyboardBackspace('KeyboardBackspace', 'Keyboard Backspace', 'an optional tech label')
+KeyboardBackspace('KeyboardBackspace', 'Keyboard Backspace', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

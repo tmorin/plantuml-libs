@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/NavigateBefore')
 
 ' renders the element
-NavigateBefore('NavigateBefore', 'Navigate Before', 'an optional tech label')
+NavigateBefore('NavigateBefore', 'Navigate Before', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/NavigateBefore')
 
 ' renders the element
-NavigateBefore('NavigateBefore', 'Navigate Before', 'an optional tech label')
+NavigateBefore('NavigateBefore', 'Navigate Before', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

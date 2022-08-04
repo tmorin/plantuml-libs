@@ -4,10 +4,10 @@ sprite $SearchXs [10x10/16z] Oy0AUFWv-24i40LXiiDP2356VY10QCFEP
 
 sprite $SearchSm [12x12/16z] TKXL0e1G38BfZydzJskypet6_2v9CUx06eepCUVRV5xyu8ikYQ7GG5_yMLLGtGi
 
-sprite $SearchMd [16x16/16z] ZOs54G0X3C1mlsR_QT_rh0JgPcP8lTetyZ24-iIqJGNYtSnXcbpn68TnN76Lj-qi-DtGpKMZkWZlnIZGBTdyA7gY69KL
+sprite $SearchMd [16x16/16z] ZOs54G0X3C1mlsR_QT_rh0JgPcP8lTetyZ24-iIqJGNYtSnXcbpn6DVK5LTvstOSVZTqSz6eBi9xCGfqIpO_YfueHcK5
 
 sprite $SearchLg [20x20/16z] fSZ5WGGW40NHZpkLVxIxuyrnvA5T-bNUm70wJ6XrWKoXNvzunkU_4Asr--kerihpqwsj-nieUXe4NIsSdXmKfx1eqXcl6aE7s7fncXRD9r6_-GS
 
-!procedure Search($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/Search', $name, $tech)
+!procedure Search($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Search', $name, $tech, $desc)
 !endprocedure

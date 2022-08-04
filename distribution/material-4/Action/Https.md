@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Https')
 
 ' renders the element
-Https('Https', 'Https', 'an optional tech label')
+Https('Https', 'Https', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Https')
 
 ' renders the element
-Https('Https', 'Https', 'an optional tech label')
+Https('Https', 'Https', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

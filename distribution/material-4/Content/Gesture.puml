@@ -7,10 +7,10 @@ sprite $GestureSm [12x12/16z] TSsr0GD100D17VDj_zMQ_VmJhIBfrg0jtIDQaAHizLPG0Zu3vp
 sprite $GestureMd [16x16/16z] XS650GGX0C2mdk7G_QTzTqtuRwah3wBAWwa7PnufZv8R36sSEK1BS-DeSq4di2q0MRehGtK65ZMXnJPn57eWk4r6Rehha0TguD7CHti
 
 sprite $GestureLg [20x20/16z] {
-fOvL0aGX201vOQDp_zikkitNnhoK6kG_ZW6xYs4q5qijekBfP1zAOE-WesttqBOKokGUA-WAfQEJxbuEYsDzvZgEMymEdFQQZ5jC8KfZXVIkfKY0aAXtoPwN
-DqadkBrJ0hyuK_HEx7h8Lrm
+fO_50GGn20296zdflzhLKrud4yL1_YCiu8qEO1XT6HaLowHQLONzJheC9pVSMK8va1iDFLKbJCfD1s7NuqGo6i9D9ndYSG7BJQUGPN2gL0uAq2H1AdIvuUjP
+jyWacRvB0JCX78NUoLE3VCK6
 }
 
-!procedure Gesture($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Content/Gesture', $name, $tech)
+!procedure Gesture($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/Gesture', $name, $tech, $desc)
 !endprocedure

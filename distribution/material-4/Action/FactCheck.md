@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/FactCheck')
 
 ' renders the element
-FactCheck('FactCheck', 'Fact Check', 'an optional tech label')
+FactCheck('FactCheck', 'Fact Check', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/FactCheck')
 
 ' renders the element
-FactCheck('FactCheck', 'Fact Check', 'an optional tech label')
+FactCheck('FactCheck', 'Fact Check', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalOffer')
 
 ' renders the element
-LocalOffer('LocalOffer', 'Local Offer', 'an optional tech label')
+LocalOffer('LocalOffer', 'Local Offer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalOffer')
 
 ' renders the element
-LocalOffer('LocalOffer', 'Local Offer', 'an optional tech label')
+LocalOffer('LocalOffer', 'Local Offer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

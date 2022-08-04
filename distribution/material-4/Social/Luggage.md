@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/Luggage')
 
 ' renders the element
-Luggage('Luggage', 'Luggage', 'an optional tech label')
+Luggage('Luggage', 'Luggage', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/Luggage')
 
 ' renders the element
-Luggage('Luggage', 'Luggage', 'an optional tech label')
+Luggage('Luggage', 'Luggage', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

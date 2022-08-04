@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/BorderVertical')
 
 ' renders the element
-BorderVertical('BorderVertical', 'Border Vertical', 'an optional tech label')
+BorderVertical('BorderVertical', 'Border Vertical', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/BorderVertical')
 
 ' renders the element
-BorderVertical('BorderVertical', 'Border Vertical', 'an optional tech label')
+BorderVertical('BorderVertical', 'Border Vertical', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

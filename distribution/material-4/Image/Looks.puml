@@ -4,13 +4,13 @@ sprite $LooksXs [10x10/16z] NS770G0X40GWBaUT_hlLzuAgolH1MAqXqhRS-or-H9mRx4we1W
 
 sprite $LooksSm [12x12/16z] ZST50KKn0C2mlZ7NlzgF1fPRkFIqMVaxbjIT01RQIgmDVU28HtmG0p0-H-HBvC8R
 
-sprite $LooksMd [16x16/16z] hKo50G0X4C9ksNzQMnVulmu0lvW9oSkt1R8MadglXMRrI3TRfa0YQM6e0469iQZ8F13ZNL7gn8c1c3yt45ksedfaAJEMgK48-6WT
+sprite $LooksMd [16x16/16z] hShL0SKm3CLGXSdntN_Q1uK9slChyOeoLe_SXkHRKkQmLVYRQW0cM98gHGc28b9DKyOKcBCT_g7oR-r__0t7EnQZSKZ673pq1G
 
 sprite $LooksLg [20x20/16z] {
 lSY50KCX34NHYpjl_sqRg6tmJpmynzS-MdBy1NqClffKFRWqfS3LDR6FVV6InyJpwZ8xsNDZf5ChXIfLefMrpB0wbW9RqAqqkPmjLPubiXpNEQ8IEHCo7p7Z
 ikS1Bm
 }
 
-!procedure Looks($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/Looks', $name, $tech)
+!procedure Looks($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/Looks', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Device/BatteryAlert')
 
 ' renders the element
-BatteryAlert('BatteryAlert', 'Battery Alert', 'an optional tech label')
+BatteryAlert('BatteryAlert', 'Battery Alert', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Device/BatteryAlert')
 
 ' renders the element
-BatteryAlert('BatteryAlert', 'Battery Alert', 'an optional tech label')
+BatteryAlert('BatteryAlert', 'Battery Alert', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,6 +8,6 @@ sprite $FiberNewMd [16x16/16z] bOo30GH154CpPYRzLtlcUjytSHhzq02hNnPgHZbQIoUvHurcU
 
 sprite $FiberNewLg [20x20/16z] fSo50G0X30F0uDxkF-sxkmG_eFWNRPPHBV4c-i3ocH4tdTeqGhr9oJ82i2eKah4t-CPS8HLK62sXU-UMHXRzEoED68tHrMidbCusUMgfCRyn_4eD
 
-!procedure FiberNew($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Av/FiberNew', $name, $tech)
+!procedure FiberNew($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/FiberNew', $name, $tech, $desc)
 !endprocedure

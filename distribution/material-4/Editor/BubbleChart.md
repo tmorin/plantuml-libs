@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/BubbleChart')
 
 ' renders the element
-BubbleChart('BubbleChart', 'Bubble Chart', 'an optional tech label')
+BubbleChart('BubbleChart', 'Bubble Chart', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/BubbleChart')
 
 ' renders the element
-BubbleChart('BubbleChart', 'Bubble Chart', 'an optional tech label')
+BubbleChart('BubbleChart', 'Bubble Chart', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

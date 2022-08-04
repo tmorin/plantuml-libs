@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/PauseCircleOutline')
 
 ' renders the element
-PauseCircleOutline('PauseCircleOutline', 'Pause Circle Outline', 'an optional tech label')
+PauseCircleOutline('PauseCircleOutline', 'Pause Circle Outline', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/PauseCircleOutline')
 
 ' renders the element
-PauseCircleOutline('PauseCircleOutline', 'Pause Circle Outline', 'an optional tech label')
+PauseCircleOutline('PauseCircleOutline', 'Pause Circle Outline', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

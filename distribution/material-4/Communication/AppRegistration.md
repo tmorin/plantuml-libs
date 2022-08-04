@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/AppRegistration')
 
 ' renders the element
-AppRegistration('AppRegistration', 'App Registration', 'an optional tech label')
+AppRegistration('AppRegistration', 'App Registration', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/AppRegistration')
 
 ' renders the element
-AppRegistration('AppRegistration', 'App Registration', 'an optional tech label')
+AppRegistration('AppRegistration', 'App Registration', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

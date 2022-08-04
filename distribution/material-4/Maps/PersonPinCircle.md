@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/PersonPinCircle')
 
 ' renders the element
-PersonPinCircle('PersonPinCircle', 'Person Pin Circle', 'an optional tech label')
+PersonPinCircle('PersonPinCircle', 'Person Pin Circle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/PersonPinCircle')
 
 ' renders the element
-PersonPinCircle('PersonPinCircle', 'Person Pin Circle', 'an optional tech label')
+PersonPinCircle('PersonPinCircle', 'Person Pin Circle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

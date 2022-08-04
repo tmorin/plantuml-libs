@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/SentimentVerySatisfied')
 
 ' renders the element
-SentimentVerySatisfied('SentimentVerySatisfied', 'Sentiment Very Satisfied', 'an optional tech label')
+SentimentVerySatisfied('SentimentVerySatisfied', 'Sentiment Very Satisfied', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/SentimentVerySatisfied')
 
 ' renders the element
-SentimentVerySatisfied('SentimentVerySatisfied', 'Sentiment Very Satisfied', 'an optional tech label')
+SentimentVerySatisfied('SentimentVerySatisfied', 'Sentiment Very Satisfied', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

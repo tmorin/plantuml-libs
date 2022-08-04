@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/TextRotationAngleup')
 
 ' renders the element
-TextRotationAngleup('TextRotationAngleup', 'Text Rotation Angleup', 'an optional tech label')
+TextRotationAngleup('TextRotationAngleup', 'Text Rotation Angleup', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/TextRotationAngleup')
 
 ' renders the element
-TextRotationAngleup('TextRotationAngleup', 'Text Rotation Angleup', 'an optional tech label')
+TextRotationAngleup('TextRotationAngleup', 'Text Rotation Angleup', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

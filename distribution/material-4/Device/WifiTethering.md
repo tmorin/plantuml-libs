@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Device/WifiTethering')
 
 ' renders the element
-WifiTethering('WifiTethering', 'Wifi Tethering', 'an optional tech label')
+WifiTethering('WifiTethering', 'Wifi Tethering', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Device/WifiTethering')
 
 ' renders the element
-WifiTethering('WifiTethering', 'Wifi Tethering', 'an optional tech label')
+WifiTethering('WifiTethering', 'Wifi Tethering', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

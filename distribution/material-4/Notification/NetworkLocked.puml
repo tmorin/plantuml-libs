@@ -8,6 +8,6 @@ sprite $NetworkLockedMd [16x16/16z] VSk50G0X30F0l6kQ_QTz5ppeGOjIPfzSVMhrwPdoR3hj
 
 sprite $NetworkLockedLg [20x20/16z] ZSp50GD134DHBG-h_sh3O0hyupFWZxQ0w6WdFJdRA4mG3JdRxzGTBVvmnTPt-skfSraL4Nd5tEHx0ZLjUvV4n_x-E9Hsl4cOA3IqQnE2pW
 
-!procedure NetworkLocked($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Notification/NetworkLocked', $name, $tech)
+!procedure NetworkLocked($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Notification/NetworkLocked', $name, $tech, $desc)
 !endprocedure

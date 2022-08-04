@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/SwapVert')
 
 ' renders the element
-SwapVert('SwapVert', 'Swap Vert', 'an optional tech label')
+SwapVert('SwapVert', 'Swap Vert', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/SwapVert')
 
 ' renders the element
-SwapVert('SwapVert', 'Swap Vert', 'an optional tech label')
+SwapVert('SwapVert', 'Swap Vert', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

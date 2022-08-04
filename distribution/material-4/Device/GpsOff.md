@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Device/GpsOff')
 
 ' renders the element
-GpsOff('GpsOff', 'Gps Off', 'an optional tech label')
+GpsOff('GpsOff', 'Gps Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Device/GpsOff')
 
 ' renders the element
-GpsOff('GpsOff', 'Gps Off', 'an optional tech label')
+GpsOff('GpsOff', 'Gps Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/EditRoad')
 
 ' renders the element
-EditRoad('EditRoad', 'Edit Road', 'an optional tech label')
+EditRoad('EditRoad', 'Edit Road', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/EditRoad')
 
 ' renders the element
-EditRoad('EditRoad', 'Edit Road', 'an optional tech label')
+EditRoad('EditRoad', 'Edit Road', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

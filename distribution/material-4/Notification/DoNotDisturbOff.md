@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/DoNotDisturbOff')
 
 ' renders the element
-DoNotDisturbOff('DoNotDisturbOff', 'Do Not Disturb Off', 'an optional tech label')
+DoNotDisturbOff('DoNotDisturbOff', 'Do Not Disturb Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/DoNotDisturbOff')
 
 ' renders the element
-DoNotDisturbOff('DoNotDisturbOff', 'Do Not Disturb Off', 'an optional tech label')
+DoNotDisturbOff('DoNotDisturbOff', 'Do Not Disturb Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

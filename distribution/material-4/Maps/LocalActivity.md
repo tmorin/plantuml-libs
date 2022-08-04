@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalActivity')
 
 ' renders the element
-LocalActivity('LocalActivity', 'Local Activity', 'an optional tech label')
+LocalActivity('LocalActivity', 'Local Activity', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalActivity')
 
 ' renders the element
-LocalActivity('LocalActivity', 'Local Activity', 'an optional tech label')
+LocalActivity('LocalActivity', 'Local Activity', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

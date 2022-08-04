@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Device/Wallpaper')
 
 ' renders the element
-Wallpaper('Wallpaper', 'Wallpaper', 'an optional tech label')
+Wallpaper('Wallpaper', 'Wallpaper', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Device/Wallpaper')
 
 ' renders the element
-Wallpaper('Wallpaper', 'Wallpaper', 'an optional tech label')
+Wallpaper('Wallpaper', 'Wallpaper', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

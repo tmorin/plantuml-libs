@@ -6,8 +6,8 @@ sprite $CloseSm [12x12/16z] Oo0Ey3C22JPUC9kH7yW4OYW7o8G1TWGJACeFPuAKCOBPV60zdBWj
 
 sprite $CloseMd [16x16/16z] Oo03CA9n-Td0D0ylL80TBC3BpyY0481m4G9y_2Ycy05Lm01OBpjS06eKaW0FM2z2W8yHOYWd6Nu1
 
-sprite $CloseLg [20x20/16z] jSp55G0X301HR5sc_sfNSBio9zudYHYHxX2xUoYkY0SEmOWIbQC2mTtDq4qLmL69WfEzD33YA52vymMwymNA-oE7cnZG2m
+sprite $CloseLg [20x20/16z] jSt55S1024NHk2Ul_sfZumDR_efpiSOYlK9ihkWu8-uuXA4fiNDK85HtTwefTsklf8EZHXZSepJbpXVepXVONYyvN1k3F
 
-!procedure Close($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Navigation/Close', $name, $tech)
+!procedure Close($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Navigation/Close', $name, $tech, $desc)
 !endprocedure

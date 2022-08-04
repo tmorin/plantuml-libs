@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/GroupWork')
 
 ' renders the element
-GroupWork('GroupWork', 'Group Work', 'an optional tech label')
+GroupWork('GroupWork', 'Group Work', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/GroupWork')
 
 ' renders the element
-GroupWork('GroupWork', 'Group Work', 'an optional tech label')
+GroupWork('GroupWork', 'Group Work', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

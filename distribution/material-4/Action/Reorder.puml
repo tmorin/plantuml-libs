@@ -8,6 +8,6 @@ sprite $ReorderMd [16x16/16z] Oo0PC34Z08ZFouy0J5ZKS_4Y04YU6uMF2Z3CGxEFiFsa0W
 
 sprite $ReorderLg [20x20/16z] Ow0-u4G1760nVXJ0XrCl4mfWnAcN7GMmuJIF3mNmO3EF8dzG7G
 
-!procedure Reorder($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/Reorder', $name, $tech)
+!procedure Reorder($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Reorder', $name, $tech, $desc)
 !endprocedure

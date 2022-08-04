@@ -2,12 +2,12 @@
 
 sprite $CameraRearXs [10x10/16z] Os1Wu0S11Y3W159OMFp4i9WWB31WPe00TXvUDXuU1WO
 
-sprite $CameraRearSm [12x12/16z] dOZ50G0n20Gdha3_rPxBFx0ET3ilSjuP3Zuv85-sQN-srUnZYp5otPnM-fptxiLvxs47
+sprite $CameraRearSm [12x12/16z] dOZ50G0n20Gdha3_rPxBFx0ET3ilSjuP3Zuv85-sQN-srUn3Yp5otPnM-fptxiLvxs47
 
 sprite $CameraRearMd [16x16/16z] jOzL0e1024HdATkv_sdjhZ_V9WqOA3bZc50EjEEroq1yognvblcVB1SPOkPcfbXGLQRnFiuZk_z0YuKU
 
-sprite $CameraRearLg [20x20/16z] pT230S0m40NGN-km_xIniq1VRC1xDTkHd5hbliSt5jnZ7m6OvW7xr2SqxUVzjM-jNOBIkU_dxcreRHpBVZ_k_kKY8jOJv7HhBnGM
+sprite $CameraRearLg [20x20/16z] pT350S0W4031ZHlIVxMuqq3cXPxXlJhRIKvTaJn-it2FPmAOti4-dIannVF-UhRM8qKvtBTpzpPQcwIeyMGtbqi88VM9SA3QBWeB
 
-!procedure CameraRear($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/CameraRear', $name, $tech)
+!procedure CameraRear($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/CameraRear', $name, $tech, $desc)
 !endprocedure

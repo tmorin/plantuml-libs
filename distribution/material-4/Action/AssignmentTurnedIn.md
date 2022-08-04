@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/AssignmentTurnedIn')
 
 ' renders the element
-AssignmentTurnedIn('AssignmentTurnedIn', 'Assignment Turned In', 'an optional tech label')
+AssignmentTurnedIn('AssignmentTurnedIn', 'Assignment Turned In', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/AssignmentTurnedIn')
 
 ' renders the element
-AssignmentTurnedIn('AssignmentTurnedIn', 'Assignment Turned In', 'an optional tech label')
+AssignmentTurnedIn('AssignmentTurnedIn', 'Assignment Turned In', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

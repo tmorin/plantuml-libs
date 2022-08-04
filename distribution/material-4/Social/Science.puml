@@ -8,6 +8,6 @@ sprite $ScienceMd [16x16/16z] Oo0By0C19nAVaP-V3qq1Bru-cde-e7bi22u7FmWmmhZC_100rm
 
 sprite $ScienceLg [20x20/16z] fSwr0O1044JHmPtVVxMuJOBTozPNuU9i9fCnawk0I2u1z3DN0z7ZtGXcjIxOPFxSAjOcvT3xibLpl6QDGKO
 
-!procedure Science($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Social/Science', $name, $tech)
+!procedure Science($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/Science', $name, $tech, $desc)
 !endprocedure

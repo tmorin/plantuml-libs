@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Update')
 
 ' renders the element
-Update('Update', 'Update', 'an optional tech label')
+Update('Update', 'Update', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Update')
 
 ' renders the element
-Update('Update', 'Update', 'an optional tech label')
+Update('Update', 'Update', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

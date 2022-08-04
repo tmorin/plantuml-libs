@@ -8,6 +8,6 @@ sprite $AddLinkMd [16x16/16z] hSWv5W9H2031_k0kJD__jZuoJTmhBFxleZRgjWTeCs8H4GVti0
 
 sprite $AddLinkLg [20x20/16z] nSkt5GCn30DGN58MiV-sFk2vK-Vu2sRYZqgGp52SEsmonXWN-XsrktKUC9jKPDUxNMgBGbMmLWBRfdO2s0oLi8i3JvvPeMI0Dc1NIka0KXfCwO8jlyliBGy
 
-!procedure AddLink($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Content/AddLink', $name, $tech)
+!procedure AddLink($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/AddLink', $name, $tech, $desc)
 !endprocedure

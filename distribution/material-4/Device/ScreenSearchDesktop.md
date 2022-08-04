@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Device/ScreenSearchDesktop')
 
 ' renders the element
-ScreenSearchDesktop('ScreenSearchDesktop', 'Screen Search Desktop', 'an optional tech label')
+ScreenSearchDesktop('ScreenSearchDesktop', 'Screen Search Desktop', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Device/ScreenSearchDesktop')
 
 ' renders the element
-ScreenSearchDesktop('ScreenSearchDesktop', 'Screen Search Desktop', 'an optional tech label')
+ScreenSearchDesktop('ScreenSearchDesktop', 'Screen Search Desktop', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

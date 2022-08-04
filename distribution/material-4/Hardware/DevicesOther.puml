@@ -2,12 +2,15 @@
 
 sprite $DevicesOtherXs [10x10/16z] Oy06-A40o4A8WKa-7duGYu-FWGr8yuEKmbYSt10M104n7
 
-sprite $DevicesOtherSm [12x12/16z] TSO55e0m30JHmMrVzlwdnHqwRP9FgbP7uF88p9ga_h3ptAiZbhCwjq-B8jyiuVMOl2XOVv5pQm8
+sprite $DevicesOtherSm [12x12/16z] TSY53G0n34DHosNq_jCUC_n2deA_Ojq3P8snKyPCnjAqpxj5Qd7lyrXCwN25uUfQeMK8D0RBDSIb4G
 
-sprite $DevicesOtherMd [16x16/16z] bOhL0S1024DJDo3xRzjp-Qcy4uZWBnSRHe3hN87J4nAJez52XrQjubxIbrcdbMprGEnNeqTYArf4OjzjLCnUd-ujubZmmWq
+sprite $DevicesOtherMd [16x16/16z] bOhL0SCm44ELn4pQVzkQuQTjdk5EWBTuRjm0bNX4un78-a7doMmwC1ENZY6_hdrAXuxahY_2-4tVX9uwXD3wUME4ADhb9qD6uWSV
 
-sprite $DevicesOtherLg [20x20/16z] fOxL0KKn2CMuTINxR_jSuBUfuaUEIDcGxgw1HUy-9HdYqoSMv-D9iZvTQrEjhuY4h-zIrSlv0k1zYynqlliLSJxjClUVRwqb2GZ2ll_llioTruolvWDk
+sprite $DevicesOtherLg [20x20/16z] {
+fOr50aKX30E3VocT-z_skMuPj9PeY5mUv3druudFEIVdjAwPvLrpUlBAiPAVEJVhj6UkIl7C1NSFhrm4tZcZy7_ba1Ald7_rxxUScIa3KVJvF-SACuV7IjO0
+4m
+}
 
-!procedure DevicesOther($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Hardware/DevicesOther', $name, $tech)
+!procedure DevicesOther($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Hardware/DevicesOther', $name, $tech, $desc)
 !endprocedure

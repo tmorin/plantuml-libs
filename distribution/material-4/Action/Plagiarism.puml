@@ -6,8 +6,8 @@ sprite $PlagiarismSm [12x12/16z] LOl50G112CIoha3_rPvhNgFycI9IBcaRMbwDbbUZuTORbuP
 
 sprite $PlagiarismMd [16x16/16z] RSe54i103090wXho_zVMc9vpkXdGIF-c2tHboTrf48nUWs0DWisCPp3vti7zsuusqC7Cb6CVMs8tMn6iXFxfVqPKkG4
 
-sprite $PlagiarismLg [20x20/16z] bSZL0G8n44315_Ua_sfnTd7kvdFOOTqahN2hAgbdDFKeadhKMyevQsrRUWgzaSlhDO2NC_IAUpxS-P_FaYFX-IPdu-dMwgFZdkziBZctX1oXYyONHm
+sprite $PlagiarismLg [20x20/16z] bSY54GCn50DHcTdklzfmlevXXtOURZH-1PBxKHQaAI8DIP26_4CnexKkWyP0Qp4jhRndOGermyuDvkrpquWURcuTxzh4tjLMOURshWynCoGnk2eLxFG4
 
-!procedure Plagiarism($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/Plagiarism', $name, $tech)
+!procedure Plagiarism($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Plagiarism', $name, $tech, $desc)
 !endprocedure

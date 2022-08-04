@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/ExposurePlus2')
 
 ' renders the element
-ExposurePlus2('ExposurePlus2', 'Exposure Plus2', 'an optional tech label')
+ExposurePlus2('ExposurePlus2', 'Exposure Plus2', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/ExposurePlus2')
 
 ' renders the element
-ExposurePlus2('ExposurePlus2', 'Exposure Plus2', 'an optional tech label')
+ExposurePlus2('ExposurePlus2', 'Exposure Plus2', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

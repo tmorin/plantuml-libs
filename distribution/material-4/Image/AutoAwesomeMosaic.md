@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/AutoAwesomeMosaic')
 
 ' renders the element
-AutoAwesomeMosaic('AutoAwesomeMosaic', 'Auto Awesome Mosaic', 'an optional tech label')
+AutoAwesomeMosaic('AutoAwesomeMosaic', 'Auto Awesome Mosaic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/AutoAwesomeMosaic')
 
 ' renders the element
-AutoAwesomeMosaic('AutoAwesomeMosaic', 'Auto Awesome Mosaic', 'an optional tech label')
+AutoAwesomeMosaic('AutoAwesomeMosaic', 'Auto Awesome Mosaic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -4,13 +4,13 @@ sprite $SurroundSoundXs [10x10/16z] RSR50O0m0C30u4xsdnRNjlSwKhoKEBTgveX8Zla-2v5z
 
 sprite $SurroundSoundSm [12x12/16z] TSg50OGm44JH7_TC_zsUul0YgppgVms6XdxiEqVDpy4dJwdI4VETk-w6x3kyyn8c5l7VLrSpxxphxvtZ5koz
 
-sprite $SurroundSoundMd [16x16/16z] bOZL0SKm4CDK9b-y_xJbDlbwe4EPlt710hKTEJWyiPnPKvr-t1w8X4vdCZhIghjSmXPkcii7qyNvd3vW7LUaqqtuOEXig5m2JCgqV6C3
+sprite $SurroundSoundMd [16x16/16z] bSZ50SKm3C1GbSc9zf-sJASF2ZxpTxwQeDJatURCjC-gOlVsja3An6u62Ul2eZaSWGPMrU5EcdHyDdSOsnlatPBSwXg5mdV044yrtre
 
 sprite $SurroundSoundLg [20x20/16z] {
 fSYr0OH004N1j-xx-w_s18UK2OTtVBXo07hmwuthzUKcMIlZzhDCPOCR2lJr9a4PB4ZOzHfL83MoBEjLkd2IY7BRTOeiNP4givsm6W16ax1Tf6YcK2M3jfET
 MgMytKC5ykDuvGi
 }
 
-!procedure SurroundSound($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Av/SurroundSound', $name, $tech)
+!procedure SurroundSound($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/SurroundSound', $name, $tech, $desc)
 !endprocedure

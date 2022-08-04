@@ -6,8 +6,8 @@ sprite $LightbulbSm [12x12/16z] Oq07R3pCK1OZFmX0sFnWm8N4viTWyu6PR0WDF523U81ikA4i
 
 sprite $LightbulbMd [16x16/16z] TSp70G0X24HHO6Ppwh_QpMRzjwU0r5EDnUDkJtddVFpD7-sd6q1cTNGNzzzzUd3zvIv8qmAIY6n0J5dkSPLQ5m
 
-sprite $LightbulbLg [20x20/16z] bSxL0S0W34LHt27xJrllIrtkvq4IyI_LY2ZjAD6SPWgq9c4WVcw8mzEFffWQPZIOW-cLYk3aYR1XUZLbniHpMF60kPHY7nxr
+sprite $LightbulbLg [20x20/16z] bSxL0S0W34LHt27xJrllIrtkvq4IyI_LY2ZjAD6SPWgq9c4WVcw8mzEFffWQPZIOW-cLYk3aYR1XUZLbj356F8SL3vXBAVRXKGy
 
-!procedure Lightbulb($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/Lightbulb', $name, $tech)
+!procedure Lightbulb($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Lightbulb', $name, $tech, $desc)
 !endprocedure

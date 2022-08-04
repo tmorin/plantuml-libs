@@ -8,6 +8,6 @@ sprite $CalendarViewDayMd [16x16/16z] Ow0OSF8W01EGpuN2nmGy_0W0akSbm6TYHW06T3w6Ub
 
 sprite $CalendarViewDayLg [20x20/16z] Ow0Fu441N60nVXJ0XrClCmfWmgQN8Z5SW1C5S63LItK
 
-!procedure CalendarViewDay($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/CalendarViewDay', $name, $tech)
+!procedure CalendarViewDay($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/CalendarViewDay', $name, $tech, $desc)
 !endprocedure

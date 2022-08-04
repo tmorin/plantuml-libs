@@ -2,12 +2,12 @@
 
 sprite $AppSettingsAltXs [10x10/16z] Oq027FmW069n8bXmMKw82YYBXO4TocBYvuAfOqNLom9b0G
 
-sprite $AppSettingsAltSm [12x12/16z] Oq05_120oMO10GWRGlB0sIpyVFmmDYCl0uBDny-FKCyCKSy30lmuxE9cO
+sprite $AppSettingsAltSm [12x12/16z] Oq05_120oMPc0G886qBomDai_7pyC3OZBmE2pSVFZr3F357F0mByEEpYPc
 
 sprite $AppSettingsAltMd [16x16/16z] ZOu30W0X54Gdkxd_QTTcBtm33t0XpQRYofkj9-ncprAeanqIdTnjmQB9tKRLoFPWauNrO0jFSUgFhN-UOTk-26L60-W1
 
-sprite $AppSettingsAltLg [20x20/16z] bT150e0W54NHJpTl_wkr2LllyD3GNI6NT26BLZ7tsUHMw8nsxIr3xAoSlpT0iGIrCmaYau_peWNqpdW0V3oUQpsZeob7rU9M_lq7ScS5JMavTWG
+sprite $AppSettingsAltLg [20x20/16z] bP050e0W40JfXlt_QstWR1rww6Dtn58nLJbqglEVdP9JceZ4iHrxLo1thjw_Tu3c6NhdrDJQSboN761sJWGWfEEzBd1sTDgpvj96-Hq3jNDLsifoxGW
 
-!procedure AppSettingsAlt($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Navigation/AppSettingsAlt', $name, $tech)
+!procedure AppSettingsAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Navigation/AppSettingsAlt', $name, $tech, $desc)
 !endprocedure

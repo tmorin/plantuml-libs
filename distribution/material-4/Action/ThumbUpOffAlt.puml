@@ -8,6 +8,6 @@ sprite $ThumbUpOffAltMd [16x16/16z] ZSUt0OH000D1dVUd_glznuCYs6W77pFqIbPXfnE2vu-0
 
 sprite $ThumbUpOffAltLg [20x20/16z] fSY53GCn0CNGVypn_jksOH8KBBAUlczVEpgW9-ZeDetjtE9MR1miFHhOndUomIAC7PzLMBsDcuqhMupUTiREx3MsidRse6Y6sySHRD90oEZFNW
 
-!procedure ThumbUpOffAlt($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/ThumbUpOffAlt', $name, $tech)
+!procedure ThumbUpOffAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/ThumbUpOffAlt', $name, $tech, $desc)
 !endprocedure

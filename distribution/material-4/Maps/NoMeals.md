@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/NoMeals')
 
 ' renders the element
-NoMeals('NoMeals', 'No Meals', 'an optional tech label')
+NoMeals('NoMeals', 'No Meals', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/NoMeals')
 
 ' renders the element
-NoMeals('NoMeals', 'No Meals', 'an optional tech label')
+NoMeals('NoMeals', 'No Meals', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

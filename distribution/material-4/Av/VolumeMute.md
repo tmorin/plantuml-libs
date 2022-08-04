@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/VolumeMute')
 
 ' renders the element
-VolumeMute('VolumeMute', 'Volume Mute', 'an optional tech label')
+VolumeMute('VolumeMute', 'Volume Mute', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/VolumeMute')
 
 ' renders the element
-VolumeMute('VolumeMute', 'Volume Mute', 'an optional tech label')
+VolumeMute('VolumeMute', 'Volume Mute', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

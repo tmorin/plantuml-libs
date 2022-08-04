@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/SingleBed')
 
 ' renders the element
-SingleBed('SingleBed', 'Single Bed', 'an optional tech label')
+SingleBed('SingleBed', 'Single Bed', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/SingleBed')
 
 ' renders the element
-SingleBed('SingleBed', 'Single Bed', 'an optional tech label')
+SingleBed('SingleBed', 'Single Bed', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

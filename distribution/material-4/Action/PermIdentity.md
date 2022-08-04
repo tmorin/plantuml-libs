@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/PermIdentity')
 
 ' renders the element
-PermIdentity('PermIdentity', 'Perm Identity', 'an optional tech label')
+PermIdentity('PermIdentity', 'Perm Identity', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/PermIdentity')
 
 ' renders the element
-PermIdentity('PermIdentity', 'Perm Identity', 'an optional tech label')
+PermIdentity('PermIdentity', 'Perm Identity', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

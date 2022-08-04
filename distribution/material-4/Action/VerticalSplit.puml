@@ -4,10 +4,10 @@ sprite $VerticalSplitXs [10x10/16z] Oy0AE3avmHW2-Fdv8IG8OnE3w82oC04
 
 sprite $VerticalSplitSm [12x12/16z] Oo0Ay0C1c40He5mS4m
 
-sprite $VerticalSplitMd [16x16/16z] Oo0PC36300E4109UVY3WPU070IQuAWIVYnS8k15yRWGVKpswUJ3xcD3upBZKame
+sprite $VerticalSplitMd [16x16/16z] Oo0PC3430HC3CmY0-BpyGC3Bm0y2J71L23uNBn1m8_ZS23wcUdJpuFQXyt6f9nK
 
 sprite $VerticalSplitLg [20x20/16z] Ow0-u0G35WOECCq15kC70tO6FZ3DXwmSHOm93E1YEFMoWm4pGVFum80D9aQyMn3-mAkNwW
 
-!procedure VerticalSplit($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/VerticalSplit', $name, $tech)
+!procedure VerticalSplit($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/VerticalSplit', $name, $tech, $desc)
 !endprocedure

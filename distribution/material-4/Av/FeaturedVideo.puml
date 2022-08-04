@@ -8,6 +8,6 @@ sprite $FeaturedVideoMd [16x16/16z] hSU53S0m3031LoC8sTv_sZ8pdV2uuh9C4fZaXdKovcXe
 
 sprite $FeaturedVideoLg [20x20/16z] jSYr0S100090uWxxJnltvltAGuXMVnce-a2T6b0u93qUzBvJmflqLwEO-DN3rW8
 
-!procedure FeaturedVideo($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Av/FeaturedVideo', $name, $tech)
+!procedure FeaturedVideo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/FeaturedVideo', $name, $tech, $desc)
 !endprocedure

@@ -1,13 +1,13 @@
 ' definition of the Item material-4/Action/Dns
 
-sprite $DnsXs [10x10/16z] Oy0A-3dvGG38OcU0iVWX0A48HOmDZpe
+sprite $DnsXs [10x10/16z] Oy0A-3dvGG38uc20iVWX0A48HOmDZpe
 
-sprite $DnsSm [12x12/16z] Oy09-640n0OY19iPmOO1gka5
+sprite $DnsSm [12x12/16z] Oy09-640n0OY19iPmOO1elMo4D0B
 
 sprite $DnsMd [16x16/16z] XOl50S100C9ILxZzfwsxveNoIwgDTlGATbY8Hs_mqUlYB_jCEppGBDlzNnGdtu9EFHpxzl8dtk563m
 
-sprite $DnsLg [20x20/16z] fSs35K1H30FGFBlTVzfl6_UuIF0Fh-HXbi8yetwM0BETEK1jPwnbsSvM2bhMBIcSARJavxnj1m5XExE0V7AtGeUzZzK
+sprite $DnsLg [20x20/16z] fSs35K1H30FGFBlTVzfl6_UuIF0Fh-HXbi8yetwM0BETUK1jPwnbsSvM2bhMBIcSARJavxnj1m5XExE0V7AtGeUzZzK
 
-!procedure Dns($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/Dns', $name, $tech)
+!procedure Dns($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Dns', $name, $tech, $desc)
 !endprocedure

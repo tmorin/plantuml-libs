@@ -5,8 +5,8 @@ sprite $SentimentDissatisfiedXs [10x10/16z] LKo54G0W4C9ksNzRpzRl0F0PMT0jio-obtdl
 sprite $SentimentDissatisfiedSm [12x12/16z] NSd50S0m30J1DREk_sf3-cLiCNzz5TnHprFjQnSllISn8JG4lQ50Coom4sv7wiJ9G_iG17G320e0LRQbW0kHrmq
 
 sprite $SentimentDissatisfiedMd [16x16/16z] {
-RKl50GD034hEdVstBTID3sx_uVxk5eHoTm4daHhspMFUFxTWdVkCGIGZ6S2MixN5l5RjWXLm1diYQVVcgpGuzhuovHdtq5kYp71JUaIoxNRRM3dMGtj7EW2c
-snzS
+RKk50S0m3Afxm__VZioDIL3p3sllQa2HTkKWWQTWRXfztsp6aBr6m_CY680fQsFgvJHhpva4rlWT2DgxwQmSBDio8gcqpQGEf17M429wL9PjDZ6YpqAv8mY0
+RiqF5W
 }
 
 sprite $SentimentDissatisfiedLg [20x20/16z] {
@@ -14,6 +14,6 @@ bOu54aCn448Rzt3_svPbwbw-XdtBSFXF5TGADqu1zXoBRt-s9k3Fj3zJupprWDCFS4q9qBoIxmZAS7o4
 fmbGhyMsZTZ5W6Q0UcuwKiCwbmU6LnQji_o0fCMhKf-Lx5iT0G
 }
 
-!procedure SentimentDissatisfied($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Social/SentimentDissatisfied', $name, $tech)
+!procedure SentimentDissatisfied($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/SentimentDissatisfied', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/StickyNote2')
 
 ' renders the element
-StickyNote2('StickyNote2', 'Sticky Note2', 'an optional tech label')
+StickyNote2('StickyNote2', 'Sticky Note2', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/StickyNote2')
 
 ' renders the element
-StickyNote2('StickyNote2', 'Sticky Note2', 'an optional tech label')
+StickyNote2('StickyNote2', 'Sticky Note2', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

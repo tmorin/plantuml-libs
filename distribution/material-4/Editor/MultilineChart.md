@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/MultilineChart')
 
 ' renders the element
-MultilineChart('MultilineChart', 'Multiline Chart', 'an optional tech label')
+MultilineChart('MultilineChart', 'Multiline Chart', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/MultilineChart')
 
 ' renders the element
-MultilineChart('MultilineChart', 'Multiline Chart', 'an optional tech label')
+MultilineChart('MultilineChart', 'Multiline Chart', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

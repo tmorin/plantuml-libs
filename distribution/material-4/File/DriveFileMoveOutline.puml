@@ -6,8 +6,8 @@ sprite $DriveFileMoveOutlineSm [12x12/16z] TSRL0O1G34MnWrlRk_-qkCFBLqWoiuQDQsQpO
 
 sprite $DriveFileMoveOutlineMd [16x16/16z] bOor0GGW00DnX-m_BQxDotLHyZTew2qPEg7XHTDX4z5qh_K1trf0Nvgbr2-tZX6mRz_i_lj74GujivSMv1i5
 
-sprite $DriveFileMoveOutlineLg [20x20/16z] fSk53G11449HpdtelzfrdLnqV_m5CDQw-JfYxD3cUsDNjThfxKORtsex_qoKYGZ9tXXQrNSYPoYx_KePPZGcRrkOdEp3K1O
+sprite $DriveFileMoveOutlineLg [20x20/16z] fSk53G0X50FGuaxtd_PSVuZouXNCiMvZVn5FGMQxUafdzXVtBEEBzSqyHraNMU-Tv3_ZmOgl8ZL4bcaXCsXyibw_Zada7wQi
 
-!procedure DriveFileMoveOutline($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/File/DriveFileMoveOutline', $name, $tech)
+!procedure DriveFileMoveOutline($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/File/DriveFileMoveOutline', $name, $tech, $desc)
 !endprocedure

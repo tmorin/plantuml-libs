@@ -4,13 +4,13 @@ sprite $ScheduleSendXs [10x10/16z] ROh50O0m5CM2Ezb_MgYV-lKPlTAX8TqJUasr9BAzSEt9J
 
 sprite $ScheduleSendSm [12x12/16z] TOc30GH15CMo62FzLtisFXxvDwE_Q7LxqPekUhkOPrad2ouqLUWiCgvQkEWY4FR9s65tEJtNMNN24G
 
-sprite $ScheduleSendMd [16x16/16z] NSjLWWLH20FHwgjjKFjVxSnpEt-GX5-_bl9z5nq_jsu_jqPvtmz7uwQVNcKg3pMI1L9WfYf41UjZd_SxZlSzRC_xd09BnqPnMy0027bOD48NUEhdsO1_
+sprite $ScheduleSendMd [16x16/16z] XOp50SKm3CLKI5AojV-qdnbrUyW_klvPzrfVjCulMgD_rkewdW_BTfAPoeKXaWvIeAKgn00EbtsUTQntNHslUckUZd6aT-x000Yvq6c4TjmespO2Um
 
 sprite $ScheduleSendLg [20x20/16z] {
-fSn50aD1309GnZtS_xObTLdsVPq8-0jx-AsHE_pKv9JVclJVcgpqo32-UsJ4kemosp0kF8H6qnjOrznGng5uj9xZBuhCUwqmFslDQqdXhC_QKAthdLbK4wiq
-I2nO35wp25G5kiojzr1T5a-9QT7mPj0TV0YbbG2v
+fSrL0eGm30JGfEvp_zlk58T-xaCRbRyWwHe3cYunwdwDKLfZLEqvO-3fd6527Q0Iyq2HaqOClaNgDbTzxY3-pgVZtb6Ec8UxOd76B8SZNB7CMEBRmJD68t05
+6SybEcF3Y0GEd1mQtvbngkZUs8eX3nbJbnVrqQlG3m
 }
 
-!procedure ScheduleSend($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/ScheduleSend', $name, $tech)
+!procedure ScheduleSend($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/ScheduleSend', $name, $tech, $desc)
 !endprocedure

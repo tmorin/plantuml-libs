@@ -8,6 +8,6 @@ sprite $LaptopChromebookMd [16x16/16z] Oo0467cH0GC34pyF7F3oW_W8jSmquIDP3-Q30D1oC
 
 sprite $LaptopChromebookLg [20x20/16z] Ow08yAC17f0O3nioW8XneMWRV69e02761_G2J8o71oQDOF5Z0PI4A
 
-!procedure LaptopChromebook($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Hardware/LaptopChromebook', $name, $tech)
+!procedure LaptopChromebook($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Hardware/LaptopChromebook', $name, $tech, $desc)
 !endprocedure

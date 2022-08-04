@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Device/AccessAlarms')
 
 ' renders the element
-AccessAlarms('AccessAlarms', 'Access Alarms', 'an optional tech label')
+AccessAlarms('AccessAlarms', 'Access Alarms', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Device/AccessAlarms')
 
 ' renders the element
-AccessAlarms('AccessAlarms', 'Access Alarms', 'an optional tech label')
+AccessAlarms('AccessAlarms', 'Access Alarms', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

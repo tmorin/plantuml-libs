@@ -8,6 +8,6 @@ sprite $WifiMd [16x16/16z] dSh50SGm00InCREt_sgF6PFeBRQmgVOI3MTH5yC2J6a4QroML65g6
 
 sprite $WifiLg [20x20/16z] jSf75a8X40NH8iCFlFtlLfisEzKxh5FyHJfaUk1kwE7C_iYCclk-Aj0i15mw9GMY9eltiiO8v4F6_eIpuWguA9qbXDIbWqVik9CthMS-wEhuQF4hMJpvXGi
 
-!procedure Wifi($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Notification/Wifi', $name, $tech)
+!procedure Wifi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Notification/Wifi', $name, $tech, $desc)
 !endprocedure

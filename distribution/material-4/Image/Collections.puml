@@ -2,12 +2,12 @@
 
 sprite $CollectionsXs [10x10/16z] Oq06_620OF4myEDYyN62MH3525bc80i667d0W841
 
-sprite $CollectionsSm [12x12/16z] VSQr0O00000WxDR_hxMxc71JDvDgRhS85U7n9lgzxGAY-LLJJ-QBuab4tTIp2C851W
+sprite $CollectionsSm [12x12/16z] VSQr0G0X002nmntsd_RTXLJX8PTPMjfMaY3F5zKz-n6WbgUIPyjHUg8Kv98NYebS0IC
 
-sprite $CollectionsMd [16x16/16z] dSj50e1034FHF-xJ-vyMTrZnTcqIlYYzMSyaX-MkrrlL-wtbpvr5Z3tlJaYGZfjLM-_qs6FiXlasEnPoiBoD
+sprite $CollectionsMd [16x16/16z] dSj50e1034FHF-xJ-vyMTrZnTcqIlYYzMSyaX-MkrrlL-wtbpvr5Z3tlJaYGZfjLM-_qs6FimXZcs-nOoC7oDW8
 
-sprite $CollectionsLg [20x20/16z] hSZ50GCn00InEJPl_zM6J67MKtnYqXaoVtu-NpY_S0npUt9_kN1rJafOdP_59o2SNGH6W7PUwr9izJQTcV8npir8lXiwD-SRmfc91_O
+sprite $CollectionsLg [20x20/16z] hSZ50GGX002nmHtwh_PSrZtFi8Tg7RobxgNtvUxbP_ZnjNZ9vS75rYgXTu5KWTov0aY0twLcpOVxdciTwdr8fPL-KbhokQ7MfTydSeTYnXq
 
-!procedure Collections($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/Collections', $name, $tech)
+!procedure Collections($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/Collections', $name, $tech, $desc)
 !endprocedure

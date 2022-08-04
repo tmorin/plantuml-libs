@@ -8,6 +8,6 @@ sprite $ArrowForwardIosMd [16x16/16z] Oo02CFApe_1P-8aGuC0lm8mkmCFFpuZ4vURdPqBcuf
 
 sprite $ArrowForwardIosLg [20x20/16z] Oo09SB9Z277mysC8Cl9Z4-IZaqfse4f6L24sAWin4LJ5m0mImd0l8w4G1W
 
-!procedure ArrowForwardIos($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Navigation/ArrowForwardIos', $name, $tech)
+!procedure ArrowForwardIos($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Navigation/ArrowForwardIos', $name, $tech, $desc)
 !endprocedure

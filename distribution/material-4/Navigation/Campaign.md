@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/Campaign')
 
 ' renders the element
-Campaign('Campaign', 'Campaign', 'an optional tech label')
+Campaign('Campaign', 'Campaign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/Campaign')
 
 ' renders the element
-Campaign('Campaign', 'Campaign', 'an optional tech label')
+Campaign('Campaign', 'Campaign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

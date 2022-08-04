@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/FormatTextdirectionRToL')
 
 ' renders the element
-FormatTextdirectionRToL('FormatTextdirectionRToL', 'Format Textdirection R To L', 'an optional tech label')
+FormatTextdirectionRToL('FormatTextdirectionRToL', 'Format Textdirection R To L', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/FormatTextdirectionRToL')
 
 ' renders the element
-FormatTextdirectionRToL('FormatTextdirectionRToL', 'Format Textdirection R To L', 'an optional tech label')
+FormatTextdirectionRToL('FormatTextdirectionRToL', 'Format Textdirection R To L', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

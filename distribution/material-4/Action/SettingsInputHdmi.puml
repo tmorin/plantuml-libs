@@ -8,6 +8,6 @@ sprite $SettingsInputHdmiMd [16x16/16z] dOor0O0m50KFTzX_MZpofSfrJ_6eweSgoEdu2CQw
 
 sprite $SettingsInputHdmiLg [20x20/16z] jSw35G0n40JGYPtjlzgppV-y7DmXg9F7MY3VY2I6MYHm2Gj5SbeJ1dbQSpJwgoR7qXWw3pKprDHGmwWlQOpaS6qrw4zhiM6ngmG
 
-!procedure SettingsInputHdmi($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/SettingsInputHdmi', $name, $tech)
+!procedure SettingsInputHdmi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/SettingsInputHdmi', $name, $tech, $desc)
 !endprocedure

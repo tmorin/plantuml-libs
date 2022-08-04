@@ -8,6 +8,6 @@ sprite $StairsMd [16x16/16z] XST50G1140EmBlFKlzfZnlo2VwMj8WQLEpsySHAiRSTRc7fuqfh
 
 sprite $StairsLg [20x20/16z] fSW50W9024HHjeku_sdj6h7zcppwBx7Rwi4C4h2LSnPJiBdxipCs0skxdxUOn9cQWUNTwwrM0ripxcwqJEHCcFdE83vO4xqcaJvk2m
 
-!procedure Stairs($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Places/Stairs', $name, $tech)
+!procedure Stairs($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/Stairs', $name, $tech, $desc)
 !endprocedure

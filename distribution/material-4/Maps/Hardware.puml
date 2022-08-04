@@ -8,6 +8,6 @@ sprite $HardwareMd [16x16/16z] fOp50S1G24C_K2-G_QUjkykxHSCJCZKp3cNHAKA76BJJtcl7e
 
 sprite $HardwareLg [20x20/16z] jSs50O0W443HRxVkFwtTIiCpkSHLCMp8vsTJ3RivjCUYuNB4qazi4m-BvYT6UuzHB20la8hw1PThNj0OtRosmim4
 
-!procedure Hardware($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/Hardware', $name, $tech)
+!procedure Hardware($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/Hardware', $name, $tech, $desc)
 !endprocedure

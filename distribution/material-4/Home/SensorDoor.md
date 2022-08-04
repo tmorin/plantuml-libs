@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Home/SensorDoor')
 
 ' renders the element
-SensorDoor('SensorDoor', 'Sensor Door', 'an optional tech label')
+SensorDoor('SensorDoor', 'Sensor Door', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Home/SensorDoor')
 
 ' renders the element
-SensorDoor('SensorDoor', 'Sensor Door', 'an optional tech label')
+SensorDoor('SensorDoor', 'Sensor Door', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

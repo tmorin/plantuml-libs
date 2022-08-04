@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/OndemandVideo')
 
 ' renders the element
-OndemandVideo('OndemandVideo', 'Ondemand Video', 'an optional tech label')
+OndemandVideo('OndemandVideo', 'Ondemand Video', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/OndemandVideo')
 
 ' renders the element
-OndemandVideo('OndemandVideo', 'Ondemand Video', 'an optional tech label')
+OndemandVideo('OndemandVideo', 'Ondemand Video', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

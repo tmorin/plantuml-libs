@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/SdCard')
 
 ' renders the element
-SdCard('SdCard', 'Sd Card', 'an optional tech label')
+SdCard('SdCard', 'Sd Card', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/SdCard')
 
 ' renders the element
-SdCard('SdCard', 'Sd Card', 'an optional tech label')
+SdCard('SdCard', 'Sd Card', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

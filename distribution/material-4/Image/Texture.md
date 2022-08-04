@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Texture')
 
 ' renders the element
-Texture('Texture', 'Texture', 'an optional tech label')
+Texture('Texture', 'Texture', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Texture')
 
 ' renders the element
-Texture('Texture', 'Texture', 'an optional tech label')
+Texture('Texture', 'Texture', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

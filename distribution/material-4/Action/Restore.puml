@@ -2,15 +2,15 @@
 
 sprite $RestoreXs [10x10/16z] Oy0EEFavUVX132PU4CaFmNmC3CpC37pyV20M0pT4d8s9dH6c3Qo5aHy8a0q3
 
-sprite $RestoreSm [12x12/16z] VS750OG040ImdE2mqt-tyCGJBvfiFc08llb2617q7ONwgDIiC7z9OLm4W5z0_Wm1BCdeQ0K
+sprite $RestoreSm [12x12/16z] TS710KC050Mmj03uR_zjEG89txeSVc0A_lb3c16C8uNwgTIgiFv9OTu4W2OWBLC0MpAxsW4
 
 sprite $RestoreMd [16x16/16z] ZSr5WWGX50N1A05QYl_kVzfnruvThj9jskNIl1d9dCa0dDEXvmpMxApOiy8nKIlc0UcltSEiL54DUr39WbcBKs2kODky32olNq2EbVN83bWh3shrRbtzw1u
 
 sprite $RestoreLg [20x20/16z] {
-fOi73iGW4CIMtdV-_zkZW_ebSG9ObeQ-8nCgnLmf02Nu3EGhPJ6bhE4syl136FqEnqaWdgQWsgDXJYFK9p23sTKMHqlrIW12Mp7hrXors5B3GfA3e8QZZG0V
-ds-1NWbmhHg6loOJGnSwbf9QUS0F
+fOi73iGW4CIMtdV-_zkZW_ebSG9ObeQ-8nCgnLmf01ny1lALifXIrd0RUVWXZ7w7uoGGJrDGxT4mfn7g4vZ1x6gBewLw9G2XhPXrQuvQRAbX8Sb1KCFHHe2F
+pxT0hmIuLWt3NvE9eGiTIqcjFE07
 }
 
-!procedure Restore($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/Restore', $name, $tech)
+!procedure Restore($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Restore', $name, $tech, $desc)
 !endprocedure

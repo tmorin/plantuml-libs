@@ -8,6 +8,6 @@ sprite $NoDrinksMd [16x16/16z] XSkr0GCn04FHdsEojV-qPgpoIW5_dPocMc3NoVqbLWivI1OzH
 
 sprite $NoDrinksLg [20x20/16z] fOm53W0X4CIMSv__lnPdqEWLRnha3pDskpAVax1IRP4RZpXUAoEBprWY88cNVqvqB1KDooMBL7Py0taWo-nocPtAPNRo8ii7XFBwI9OPR3B4
 
-!procedure NoDrinks($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Places/NoDrinks', $name, $tech)
+!procedure NoDrinks($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/NoDrinks', $name, $tech, $desc)
 !endprocedure

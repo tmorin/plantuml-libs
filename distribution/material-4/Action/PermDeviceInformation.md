@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/PermDeviceInformation')
 
 ' renders the element
-PermDeviceInformation('PermDeviceInformation', 'Perm Device Information', 'an optional tech label')
+PermDeviceInformation('PermDeviceInformation', 'Perm Device Information', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/PermDeviceInformation')
 
 ' renders the element
-PermDeviceInformation('PermDeviceInformation', 'Perm Device Information', 'an optional tech label')
+PermDeviceInformation('PermDeviceInformation', 'Perm Device Information', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/CompareArrows')
 
 ' renders the element
-CompareArrows('CompareArrows', 'Compare Arrows', 'an optional tech label')
+CompareArrows('CompareArrows', 'Compare Arrows', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/CompareArrows')
 
 ' renders the element
-CompareArrows('CompareArrows', 'Compare Arrows', 'an optional tech label')
+CompareArrows('CompareArrows', 'Compare Arrows', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

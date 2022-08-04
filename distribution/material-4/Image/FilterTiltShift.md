@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/FilterTiltShift')
 
 ' renders the element
-FilterTiltShift('FilterTiltShift', 'Filter Tilt Shift', 'an optional tech label')
+FilterTiltShift('FilterTiltShift', 'Filter Tilt Shift', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/FilterTiltShift')
 
 ' renders the element
-FilterTiltShift('FilterTiltShift', 'Filter Tilt Shift', 'an optional tech label')
+FilterTiltShift('FilterTiltShift', 'Filter Tilt Shift', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

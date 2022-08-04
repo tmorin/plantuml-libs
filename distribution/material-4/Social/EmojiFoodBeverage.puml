@@ -8,6 +8,6 @@ sprite $EmojiFoodBeverageMd [16x16/16z] XSS50e1024JHiOku_srr4-ot0H__cDUL8-f2gn9f
 
 sprite $EmojiFoodBeverageLg [20x20/16z] fP250S0m20I9Ex__j7LtkJQ60_t3092Oa5kPjyYzZ6MpTMWQPRhP_QcimMzb9RUYhIyDCcx0IgOnemQPm0oDc8tP8BKjvdu6suYQbz1pQW
 
-!procedure EmojiFoodBeverage($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Social/EmojiFoodBeverage', $name, $tech)
+!procedure EmojiFoodBeverage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/EmojiFoodBeverage', $name, $tech, $desc)
 !endprocedure

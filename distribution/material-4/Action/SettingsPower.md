@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/SettingsPower')
 
 ' renders the element
-SettingsPower('SettingsPower', 'Settings Power', 'an optional tech label')
+SettingsPower('SettingsPower', 'Settings Power', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/SettingsPower')
 
 ' renders the element
-SettingsPower('SettingsPower', 'Settings Power', 'an optional tech label')
+SettingsPower('SettingsPower', 'Settings Power', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

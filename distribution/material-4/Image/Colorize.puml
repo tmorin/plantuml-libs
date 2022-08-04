@@ -8,6 +8,6 @@ sprite $ColorizeMd [16x16/16z] ZSY50G0X40F1u4xwh_RTbKNdq9vo1rXeqk-avv3S1XnB1zOpn
 
 sprite $ColorizeLg [20x20/16z] hSp50GLH349HnZst_sh7dw--d6K2w5ygh5AaMII0-3YpS5aLuT4esCeJ37MH6gGUvd2owzJ2IXjIutsgvK_sdlAjEnKmvoa9-YmbSL7ApBPQNpW
 
-!procedure Colorize($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/Colorize', $name, $tech)
+!procedure Colorize($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/Colorize', $name, $tech, $desc)
 !endprocedure

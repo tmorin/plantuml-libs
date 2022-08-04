@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Places/Apartment')
 
 ' renders the element
-Apartment('Apartment', 'Apartment', 'an optional tech label')
+Apartment('Apartment', 'Apartment', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Places/Apartment')
 
 ' renders the element
-Apartment('Apartment', 'Apartment', 'an optional tech label')
+Apartment('Apartment', 'Apartment', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

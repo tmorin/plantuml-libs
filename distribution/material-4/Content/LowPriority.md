@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Content/LowPriority')
 
 ' renders the element
-LowPriority('LowPriority', 'Low Priority', 'an optional tech label')
+LowPriority('LowPriority', 'Low Priority', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Content/LowPriority')
 
 ' renders the element
-LowPriority('LowPriority', 'Low Priority', 'an optional tech label')
+LowPriority('LowPriority', 'Low Priority', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/File/FileDownload')
 
 ' renders the element
-FileDownload('FileDownload', 'File Download', 'an optional tech label')
+FileDownload('FileDownload', 'File Download', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/File/FileDownload')
 
 ' renders the element
-FileDownload('FileDownload', 'File Download', 'an optional tech label')
+FileDownload('FileDownload', 'File Download', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

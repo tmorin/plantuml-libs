@@ -4,13 +4,13 @@ sprite $AgricultureXs [10x10/16z] TOR50O0m0CI2Ezb_MgZ_UXfwifoWxZ2GwCRrUjGn4FYg8k
 
 sprite $AgricultureSm [12x12/16z] VOQ54SDG5CFqgUXxsd_QCkGeHh6h_F4oarm1zJLsw87nvghXKe-p8s3PT15eDKOcSghOO5e11W2jizKT
 
-sprite $AgricultureMd [16x16/16z] ZOh50G9030Jtt3FzTqjmUC6S92lwb_Oj-PQMjxEof0dcWnjoOeoVkWvg2Ekf2oCPmcbfIJOaKLq6S4roVRRHEPcgUboJRv_x2jZ6v6pshJnsqes-itvn0G
+sprite $AgricultureMd [16x16/16z] ZOhL0G9034DpRcsp_xO4Xozu9sq4_pA-9RzbL1EdQjraQF06HCxvK_V5df8zTUCgGL2CSe1Owh1B9bAQHTejEEcL7TsbMU-V6nB36116kvMN5ToOLl6B2m
 
 sprite $AgricultureLg [20x20/16z] {
-hOxL0G8m30LJzzp-sz8KXq-uQlp9NyZZsyMNAuoeqsXYiF7xLGxLV4jL-zCtnN3-F3nzOSBeKlJfSv33O4MCulFsbTE_DmSirtKuwomRJrPm62Bh-2AfzHuf
-aacIADkdHrKadoFAcaeM0oOu4mCvoi4fwkGNBW
+hOxL0G8m30Nhtjp-sv86Xq-uQlovlr3cjuilLvn9rg6RYHBq5OnsV5j4njEttC47UtZwue8vN9MdpqE9avtCKKDHNxN-etjW-o7JdyvE2HI1uqVjRRv4xcCa
+gijaFLLzOgeInOuJzXBz7621FsAW96TuGTJr0nS
 }
 
-!procedure Agriculture($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/Agriculture', $name, $tech)
+!procedure Agriculture($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/Agriculture', $name, $tech, $desc)
 !endprocedure

@@ -2,15 +2,15 @@
 
 sprite $GroupsXs [10x10/16z] XS6n0G0H4031_KS4st-tBWSpF6aXTD6EFqtum0-JOGmL3KKs9W
 
-sprite $GroupsSm [12x12/16z] ZSL50eHG40FH-ZQ3r_rFYyCAUzr9-2gsd5GMjG4Traq20Ohmxt11bxLhNIJDEQMy23bpOm8
+sprite $GroupsSm [12x12/16z] ZSZL0S0m20JG8wxS_jFMvQUIXuDHfjuxoMrcohBhDktw4i0lCpPmXUR8LhVTBkcijMuXrk753
 
-sprite $GroupsMd [16x16/16z] hSV50SC0581GljI5_RUjDpd6tWdOnlwIZ1nK-3YTuAecN0f2YrJXee021B3p-ghWw4kzidN_sfUu-r9N_KTtK_qHps2c1m
+sprite $GroupsMd [16x16/16z] hSUr0GC1581GliI5_QUDovLdhmBMiJqb0piLtWu7EAi9fuBG8bKuAQ000MmyFolO-rJFRDs-L-FgKvtr5rLDzLiyPw8x
 
 sprite $GroupsLg [20x20/16z] {
-lOpL5KCn34FbnvHe_sqhduP_2zUC-2V7lMA0eccQ6qLC1H38r0l0IaxlgrdljAQTcxpLUyZomlSi5NP6lztIHDlpp4I4PeikwVt4jAV4NoQMrPt0l6JClFuo
-Bm
+lOn95W8X44EB6NeWzx-joJChjsf_PYg_uadcsU8347sQf0Mo_OYu0V_T4Gt8Rwkm7MFCdC39lqivMyebFzBQShihJ9S2iuErIXFwDtduefQcDiYhDKhL42dn
+5Z_c1G
 }
 
-!procedure Groups($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Social/Groups', $name, $tech)
+!procedure Groups($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/Groups', $name, $tech, $desc)
 !endprocedure

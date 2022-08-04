@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/PlayArrow')
 
 ' renders the element
-PlayArrow('PlayArrow', 'Play Arrow', 'an optional tech label')
+PlayArrow('PlayArrow', 'Play Arrow', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/PlayArrow')
 
 ' renders the element
-PlayArrow('PlayArrow', 'Play Arrow', 'an optional tech label')
+PlayArrow('PlayArrow', 'Play Arrow', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

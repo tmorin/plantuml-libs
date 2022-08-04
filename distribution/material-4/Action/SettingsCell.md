@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/SettingsCell')
 
 ' renders the element
-SettingsCell('SettingsCell', 'Settings Cell', 'an optional tech label')
+SettingsCell('SettingsCell', 'Settings Cell', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/SettingsCell')
 
 ' renders the element
-SettingsCell('SettingsCell', 'Settings Cell', 'an optional tech label')
+SettingsCell('SettingsCell', 'Settings Cell', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

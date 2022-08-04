@@ -8,6 +8,6 @@ sprite $ConfirmationNumberMd [16x16/16z] bOo30O1G500lk_QVDd_xdaanXyO2zPUjNn3rXgf
 
 sprite $ConfirmationNumberLg [20x20/16z] fOw30K0n34IlThB_jDysNXaV_g7D4jMwU8EUVPI7Jvvz3hJpvRZ8eqs_Y8O-8RdU9T5YL_tG8iemk7_yHjzshfTqhs-hnMzy-4KD
 
-!procedure ConfirmationNumber($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Notification/ConfirmationNumber', $name, $tech)
+!procedure ConfirmationNumber($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Notification/ConfirmationNumber', $name, $tech, $desc)
 !endprocedure

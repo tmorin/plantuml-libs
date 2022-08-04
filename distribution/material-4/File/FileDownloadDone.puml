@@ -8,6 +8,6 @@ sprite $FileDownloadDoneMd [16x16/16z] dSUr0G0X40J01IuxsVwhVNT_9XlKyxml_QPIW5YRo
 
 sprite $FileDownloadDoneLg [20x20/16z] hSpL0O0m54FHYplPVrhSdRRdxqc2CpudiK8E8gawh_JyLGhY_PSlrV6nArIdXkEouYWGPf9onIJJ2aij
 
-!procedure FileDownloadDone($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/File/FileDownloadDone', $name, $tech)
+!procedure FileDownloadDone($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/File/FileDownloadDone', $name, $tech, $desc)
 !endprocedure

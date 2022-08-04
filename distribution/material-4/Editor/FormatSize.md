@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/FormatSize')
 
 ' renders the element
-FormatSize('FormatSize', 'Format Size', 'an optional tech label')
+FormatSize('FormatSize', 'Format Size', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/FormatSize')
 
 ' renders the element
-FormatSize('FormatSize', 'Format Size', 'an optional tech label')
+FormatSize('FormatSize', 'Format Size', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

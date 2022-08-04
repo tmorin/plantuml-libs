@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/Vibration')
 
 ' renders the element
-Vibration('Vibration', 'Vibration', 'an optional tech label')
+Vibration('Vibration', 'Vibration', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/Vibration')
 
 ' renders the element
-Vibration('Vibration', 'Vibration', 'an optional tech label')
+Vibration('Vibration', 'Vibration', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

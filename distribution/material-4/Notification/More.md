@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/More')
 
 ' renders the element
-More('More', 'More', 'an optional tech label')
+More('More', 'More', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/More')
 
 ' renders the element
-More('More', 'More', 'an optional tech label')
+More('More', 'More', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalFireDepartment')
 
 ' renders the element
-LocalFireDepartment('LocalFireDepartment', 'Local Fire Department', 'an optional tech label')
+LocalFireDepartment('LocalFireDepartment', 'Local Fire Department', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalFireDepartment')
 
 ' renders the element
-LocalFireDepartment('LocalFireDepartment', 'Local Fire Department', 'an optional tech label')
+LocalFireDepartment('LocalFireDepartment', 'Local Fire Department', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

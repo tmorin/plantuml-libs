@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/PointOfSale')
 
 ' renders the element
-PointOfSale('PointOfSale', 'Point Of Sale', 'an optional tech label')
+PointOfSale('PointOfSale', 'Point Of Sale', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/PointOfSale')
 
 ' renders the element
-PointOfSale('PointOfSale', 'Point Of Sale', 'an optional tech label')
+PointOfSale('PointOfSale', 'Point Of Sale', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

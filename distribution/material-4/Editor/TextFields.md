@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/TextFields')
 
 ' renders the element
-TextFields('TextFields', 'Text Fields', 'an optional tech label')
+TextFields('TextFields', 'Text Fields', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/TextFields')
 
 ' renders the element
-TextFields('TextFields', 'Text Fields', 'an optional tech label')
+TextFields('TextFields', 'Text Fields', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

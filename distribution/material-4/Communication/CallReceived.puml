@@ -8,6 +8,6 @@ sprite $CallReceivedMd [16x16/16z] fSUr0S0m30H0OINQVzfm3Aqj_8EDSffPE39-Kam4hklan
 
 sprite $CallReceivedLg [20x20/16z] jSor0O0034JH62wt_xIuNbhuvOl8TwdaqB4O46mFKijR3OujbxTjMsGRlMpR8cDQR7lFrZThBpkIVve1
 
-!procedure CallReceived($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Communication/CallReceived', $name, $tech)
+!procedure CallReceived($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/CallReceived', $name, $tech, $desc)
 !endprocedure

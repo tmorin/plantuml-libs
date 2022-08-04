@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/HeadsetOff')
 
 ' renders the element
-HeadsetOff('HeadsetOff', 'Headset Off', 'an optional tech label')
+HeadsetOff('HeadsetOff', 'Headset Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/HeadsetOff')
 
 ' renders the element
-HeadsetOff('HeadsetOff', 'Headset Off', 'an optional tech label')
+HeadsetOff('HeadsetOff', 'Headset Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

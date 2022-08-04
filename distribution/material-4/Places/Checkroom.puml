@@ -8,6 +8,6 @@ sprite $CheckroomMd [16x16/16z] dOl50S0m30F376l_QSkWJ_625gXVQ47bMRf7ejbEKbDCX-NH
 
 sprite $CheckroomLg [20x20/16z] hOz50iGm2029U-R_hrtV2Zcs4yL1xi1werK3y6TLf8Q9qbMHn19j1rgL8QuwfrK6gkYwTEQfHWSZwTYXdTJjtUB2Fiqdli7iV-1J7aMIApm1
 
-!procedure Checkroom($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Places/Checkroom', $name, $tech)
+!procedure Checkroom($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/Checkroom', $name, $tech, $desc)
 !endprocedure

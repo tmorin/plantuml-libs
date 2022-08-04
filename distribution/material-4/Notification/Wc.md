@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/Wc')
 
 ' renders the element
-Wc('Wc', 'Wc', 'an optional tech label')
+Wc('Wc', 'Wc', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/Wc')
 
 ' renders the element
-Wc('Wc', 'Wc', 'an optional tech label')
+Wc('Wc', 'Wc', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

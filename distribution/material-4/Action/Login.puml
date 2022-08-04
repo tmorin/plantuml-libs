@@ -8,6 +8,6 @@ sprite $LoginMd [16x16/16z] ZSUr0S0W4030u0xxJulpqkMw-tvAPSeA7lDKsiSeU17ykObtkTKc
 
 sprite $LoginLg [20x20/16z] hOs35S1044GtU-RqNsriwpyFwHSoEdYcATs2I1lcMjXg1ccRiwtOQxO7ZTXhcD23LdHmXbdlDTBcLsz_cJPQmrRBwF0pBUQMGBUf
 
-!procedure Login($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/Login', $name, $tech)
+!procedure Login($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Login', $name, $tech, $desc)
 !endprocedure

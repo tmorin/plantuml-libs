@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Content/Calculate')
 
 ' renders the element
-Calculate('Calculate', 'Calculate', 'an optional tech label')
+Calculate('Calculate', 'Calculate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Content/Calculate')
 
 ' renders the element
-Calculate('Calculate', 'Calculate', 'an optional tech label')
+Calculate('Calculate', 'Calculate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

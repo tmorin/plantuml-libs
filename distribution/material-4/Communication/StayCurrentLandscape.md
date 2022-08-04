@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/StayCurrentLandscape')
 
 ' renders the element
-StayCurrentLandscape('StayCurrentLandscape', 'Stay Current Landscape', 'an optional tech label')
+StayCurrentLandscape('StayCurrentLandscape', 'Stay Current Landscape', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/StayCurrentLandscape')
 
 ' renders the element
-StayCurrentLandscape('StayCurrentLandscape', 'Stay Current Landscape', 'an optional tech label')
+StayCurrentLandscape('StayCurrentLandscape', 'Stay Current Landscape', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

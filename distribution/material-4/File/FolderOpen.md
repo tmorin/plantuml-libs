@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/File/FolderOpen')
 
 ' renders the element
-FolderOpen('FolderOpen', 'Folder Open', 'an optional tech label')
+FolderOpen('FolderOpen', 'Folder Open', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/File/FolderOpen')
 
 ' renders the element
-FolderOpen('FolderOpen', 'Folder Open', 'an optional tech label')
+FolderOpen('FolderOpen', 'Folder Open', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

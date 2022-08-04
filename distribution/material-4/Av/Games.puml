@@ -8,6 +8,6 @@ sprite $GamesMd [16x16/16z] dOx50S102C02r8tzjwsxNrx1uH9HrMrSkxlzYBCkbb6bhkkKh0kh
 
 sprite $GamesLg [20x20/16z] jOy53WH1409hXjZT2l__xRgxLQpJ1d2Dw8htUc7QYoK1sLbNWok4SlXNPLhrscRLclPoaAUzwXUQzgf3eRPNqVxIntdJ2hOf
 
-!procedure Games($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Av/Games', $name, $tech)
+!procedure Games($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/Games', $name, $tech, $desc)
 !endprocedure

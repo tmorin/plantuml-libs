@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/ScreenShare')
 
 ' renders the element
-ScreenShare('ScreenShare', 'Screen Share', 'an optional tech label')
+ScreenShare('ScreenShare', 'Screen Share', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/ScreenShare')
 
 ' renders the element
-ScreenShare('ScreenShare', 'Screen Share', 'an optional tech label')
+ScreenShare('ScreenShare', 'Screen Share', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Rotate90DegreesCcw')
 
 ' renders the element
-Rotate90DegreesCcw('Rotate90DegreesCcw', 'Rotate90 Degrees Ccw', 'an optional tech label')
+Rotate90DegreesCcw('Rotate90DegreesCcw', 'Rotate90 Degrees Ccw', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Rotate90DegreesCcw')
 
 ' renders the element
-Rotate90DegreesCcw('Rotate90DegreesCcw', 'Rotate90 Degrees Ccw', 'an optional tech label')
+Rotate90DegreesCcw('Rotate90DegreesCcw', 'Rotate90 Degrees Ccw', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -4,10 +4,10 @@ sprite $FolderSharedXs [10x10/16z] Oy06-840oe823WWBIF8WiI0oZ50M9oSdaCK1rO5a7
 
 sprite $FolderSharedSm [12x12/16z] Oy09U7XusA5CNduWu042RX0R1fYWR0O693OpdCt7mWvdWmm1idcGz38mmm2AhG
 
-sprite $FolderSharedMd [16x16/16z] bSt50S0W50FGrBtiFotkphjz3OOHuR3bJAHNU5PLEwv-bh06rg2UyGJr_mVxu1PN_uiWwYdAm_KwAreO
+sprite $FolderSharedMd [16x16/16z] bSt50S0W50FGrBtiFotkphjz3OOHuR3bJAHNU5PLEwv-rh06rg2UyGJr_mVxu1PN_uiWwYdAm_KwAreO
 
-sprite $FolderSharedLg [20x20/16z] fOsr0O1G34GFTzX_MknBjCihJn6Z7pw4T2KcgINsn98qoIoqC-MJLXUDrW2hrcQPy_VINtC8RSQFqFRbfsYI5S2iD8Hu
+sprite $FolderSharedLg [20x20/16z] fSr50i0m24JHITrx_zDMejYEltm905_3-3KmkbCpjzIHMfFn5cPN-f-iRbGMW4tQml_P-zAzS39R46DshB5YlEspHHXSlG
 
-!procedure FolderShared($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/File/FolderShared', $name, $tech)
+!procedure FolderShared($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/File/FolderShared', $name, $tech, $desc)
 !endprocedure

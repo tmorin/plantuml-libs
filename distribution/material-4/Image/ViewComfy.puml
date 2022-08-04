@@ -8,6 +8,6 @@ sprite $ViewComfyMd [16x16/16z] bOq33WLX48C7mQyllVzf7rR1UipMNajascJnhyoGKWff3EcW
 
 sprite $ViewComfyLg [20x20/16z] hKm35aD14EkicTp_jdtjjxaOH9_tJupnzoN4g7sC_eUH_7q5qXMoR640VbyAO1EGVvZMklkYj5PNybfCVbZ-OMldUjw0lNs-
 
-!procedure ViewComfy($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/ViewComfy', $name, $tech)
+!procedure ViewComfy($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/ViewComfy', $name, $tech, $desc)
 !endprocedure

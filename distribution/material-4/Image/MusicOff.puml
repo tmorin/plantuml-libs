@@ -8,6 +8,6 @@ sprite $MusicOffMd [16x16/16z] XKw54OG03Ci_BY7xRyjLSAjxWsygpGmaYqXbXKaoRrHPiCkzG
 
 sprite $MusicOffLg [20x20/16z] fSi54iGW44JHnXtkVzhTPBeiRZ_1NW6-rQ8iVKnPi3JYseXh8_OX-mKwsXBjaeYuH9Lx7IiSqW8ZQV6yq22ukDUmG3639QPMD3SAj_i3
 
-!procedure MusicOff($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/MusicOff', $name, $tech)
+!procedure MusicOff($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/MusicOff', $name, $tech, $desc)
 !endprocedure

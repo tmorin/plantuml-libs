@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Places/RvHookup')
 
 ' renders the element
-RvHookup('RvHookup', 'Rv Hookup', 'an optional tech label')
+RvHookup('RvHookup', 'Rv Hookup', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Places/RvHookup')
 
 ' renders the element
-RvHookup('RvHookup', 'Rv Hookup', 'an optional tech label')
+RvHookup('RvHookup', 'Rv Hookup', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/ListAlt')
 
 ' renders the element
-ListAlt('ListAlt', 'List Alt', 'an optional tech label')
+ListAlt('ListAlt', 'List Alt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/ListAlt')
 
 ' renders the element
-ListAlt('ListAlt', 'List Alt', 'an optional tech label')
+ListAlt('ListAlt', 'List Alt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

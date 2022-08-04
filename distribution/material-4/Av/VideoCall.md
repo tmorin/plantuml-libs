@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/VideoCall')
 
 ' renders the element
-VideoCall('VideoCall', 'Video Call', 'an optional tech label')
+VideoCall('VideoCall', 'Video Call', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/VideoCall')
 
 ' renders the element
-VideoCall('VideoCall', 'Video Call', 'an optional tech label')
+VideoCall('VideoCall', 'Video Call', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

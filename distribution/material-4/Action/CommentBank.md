@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/CommentBank')
 
 ' renders the element
-CommentBank('CommentBank', 'Comment Bank', 'an optional tech label')
+CommentBank('CommentBank', 'Comment Bank', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/CommentBank')
 
 ' renders the element
-CommentBank('CommentBank', 'Comment Bank', 'an optional tech label')
+CommentBank('CommentBank', 'Comment Bank', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

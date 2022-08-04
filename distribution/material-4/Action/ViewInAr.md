@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/ViewInAr')
 
 ' renders the element
-ViewInAr('ViewInAr', 'View In Ar', 'an optional tech label')
+ViewInAr('ViewInAr', 'View In Ar', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/ViewInAr')
 
 ' renders the element
-ViewInAr('ViewInAr', 'View In Ar', 'an optional tech label')
+ViewInAr('ViewInAr', 'View In Ar', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

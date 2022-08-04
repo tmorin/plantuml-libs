@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/NavigateNext')
 
 ' renders the element
-NavigateNext('NavigateNext', 'Navigate Next', 'an optional tech label')
+NavigateNext('NavigateNext', 'Navigate Next', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/NavigateNext')
 
 ' renders the element
-NavigateNext('NavigateNext', 'Navigate Next', 'an optional tech label')
+NavigateNext('NavigateNext', 'Navigate Next', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

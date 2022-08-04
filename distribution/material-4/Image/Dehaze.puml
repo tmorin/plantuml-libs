@@ -8,6 +8,6 @@ sprite $DehazeMd [16x16/16z] Ow0KCF4Z0w00CpB0LC_8Ymo0V3vaWCq2P81X7wK
 
 sprite $DehazeLg [20x20/16z] Ow0Bu4S3F40nBZJ0GQ5vV6Y0cmJpUD405rOxw04
 
-!procedure Dehaze($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/Dehaze', $name, $tech)
+!procedure Dehaze($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/Dehaze', $name, $tech, $desc)
 !endprocedure

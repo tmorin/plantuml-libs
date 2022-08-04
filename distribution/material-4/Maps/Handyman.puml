@@ -7,10 +7,10 @@ sprite $HandymanSm [12x12/16z] LOs54S0m30FBtFp-syPy5pDAqo2BXjVY0bBoFDg0p4wmPfN50
 sprite $HandymanMd [16x16/16z] TOw50GGn3CDoNDR-qvRy32ugR7zLJ5hPnmEh68OX0Oeu8VHdUHYEoA4uabAkRiXaLx2xeR2Csezcs5CBT2G_1e1YG7uWpihT8BI7GIX37Ez06GP-g04
 
 sprite $HandymanLg [20x20/16z] {
-XSq53WGX40NHnfsw_sqtdMRTAlRpPW3vKugtwVSXserW6j5MCWFGFzjQG33KUHlS_hIREfgSfg87DeGxTe7GdCF97I7gy7BlqBs5KY8zKvC4v3kX1eOtmaan
-lD5s8ehdTJGbGtjdsry7YwsXPEKidxi
+XSu55iCm30HHEMJstF-sxLOkquJqViZsftsxZSkOHBuHD2Totzq0z6Jk7LWTDTu6xayMNGlAPesi3yE0zOx5OCqX4EoEi5sMOVSctUk8TlPdocU2uqx8mF56
+18kEDnfQWT1_XH8v-d-6FpKn-bH5td7Ovqu
 }
 
-!procedure Handyman($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/Handyman', $name, $tech)
+!procedure Handyman($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/Handyman', $name, $tech, $desc)
 !endprocedure

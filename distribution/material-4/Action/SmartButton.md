@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/SmartButton')
 
 ' renders the element
-SmartButton('SmartButton', 'Smart Button', 'an optional tech label')
+SmartButton('SmartButton', 'Smart Button', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/SmartButton')
 
 ' renders the element
-SmartButton('SmartButton', 'Smart Button', 'an optional tech label')
+SmartButton('SmartButton', 'Smart Button', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

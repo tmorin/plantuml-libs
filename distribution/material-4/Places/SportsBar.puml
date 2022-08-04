@@ -4,10 +4,10 @@ sprite $SportsBarXs [10x10/16z] LOZ50G0n08DohYtxJrlNV09etCQTuKBFIoGZMH8X8E4ASEOu
 
 sprite $SportsBarSm [12x12/16z] VOc30O1G54Mpw-m_RT_6m-MGpNAFJjxl0f-MtwTnKiWmNC2ezNQZHzT6QVrqDNUKfoC
 
-sprite $SportsBarMd [16x16/16z] ZOg54G1120F3kq7wh_RqtVS4DXFS8d8m1gPsLLD0bJOhJV8iaWynxqZEFch86D5-xXkpvuRCEY4xfd-kvUOpEFPdYXdSu04
+sprite $SportsBarMd [16x16/16z] ZOg54G1120F3kq7wh_RqtVS4DXFS8d8m1iPsLLD0bJOhJV8iaWynxqZEFch86D5-xXkpvuRCEY4xfd-kvUOpEFPdYXdSu04
 
 sprite $SportsBarLg [20x20/16z] hOt50SKW5C1mX-m_RTsvV6dmy4HyXGR2NNd83QWtDUqn9jXLfEdzfZQtfjWv6RqxFss91IKtnwns_E8S1ydllLNRdHCqiLBUS2LI3tVY-jo3r3Qi-8OH
 
-!procedure SportsBar($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Places/SportsBar', $name, $tech)
+!procedure SportsBar($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/SportsBar', $name, $tech, $desc)
 !endprocedure

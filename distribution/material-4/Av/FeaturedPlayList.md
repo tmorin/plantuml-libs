@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/FeaturedPlayList')
 
 ' renders the element
-FeaturedPlayList('FeaturedPlayList', 'Featured Play List', 'an optional tech label')
+FeaturedPlayList('FeaturedPlayList', 'Featured Play List', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/FeaturedPlayList')
 
 ' renders the element
-FeaturedPlayList('FeaturedPlayList', 'Featured Play List', 'an optional tech label')
+FeaturedPlayList('FeaturedPlayList', 'Featured Play List', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

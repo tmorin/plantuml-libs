@@ -6,8 +6,8 @@ sprite $LabelOffSm [12x12/16z] Oy05s7cHEFoy3Fn0m0ncGpaGDZyVc02nGG14CeBO41bEg3X83
 
 sprite $LabelOffMd [16x16/16z] XOk53G0n3CIkJ87zftrcTD6MWb_euiA06p6pP-NXZBZ9MRUmkWhIwBJw6lpa4_F8xZ86i_WI0WP85nWJNYzXWmc_z
 
-sprite $LabelOffLg [20x20/16z] fS-54O1034JHFTpJVxKu7_STVnFLhrJbtfoPbAHzt8HcfPmDyR6kSh0AMrHcsA8om1QLsA8omgWig9ihXL7fOOlA8UN2pdxVne_rF0q
+sprite $LabelOffLg [20x20/16z] fS-54O1034JHFTpJVxKu7_STVnFLhrJbtfoPbAHzt8HcfPmDyR6kSh0AMrHcsA8on1QLsA8omgWig9ihXL7fOOlA8UN2pdxVne_rF0q
 
-!procedure LabelOff($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/LabelOff', $name, $tech)
+!procedure LabelOff($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/LabelOff', $name, $tech, $desc)
 !endprocedure

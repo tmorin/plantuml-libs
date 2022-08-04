@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/TableChart')
 
 ' renders the element
-TableChart('TableChart', 'Table Chart', 'an optional tech label')
+TableChart('TableChart', 'Table Chart', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/TableChart')
 
 ' renders the element
-TableChart('TableChart', 'Table Chart', 'an optional tech label')
+TableChart('TableChart', 'Table Chart', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

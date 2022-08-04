@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/KeyboardReturn')
 
 ' renders the element
-KeyboardReturn('KeyboardReturn', 'Keyboard Return', 'an optional tech label')
+KeyboardReturn('KeyboardReturn', 'Keyboard Return', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/KeyboardReturn')
 
 ' renders the element
-KeyboardReturn('KeyboardReturn', 'Keyboard Return', 'an optional tech label')
+KeyboardReturn('KeyboardReturn', 'Keyboard Return', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

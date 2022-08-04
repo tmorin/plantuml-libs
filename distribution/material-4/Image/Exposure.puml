@@ -8,6 +8,6 @@ sprite $ExposureMd [16x16/16z] XSa54i0W34JHaBhV_xObdeon5NZpORphiUt4-ujXznDIpm38i
 
 sprite $ExposureLg [20x20/16z] fSk54GCm40F1UpbeF_HVRPWPRdX7uh-YBfljhAwAErFbmIR0Oal6oKRlFROhpdO8xaptPfZTcC3xjO5vfRSB4rZFx3gR0JTViQlfR5VvpkQHvq9yt1e
 
-!procedure Exposure($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/Exposure', $name, $tech)
+!procedure Exposure($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/Exposure', $name, $tech, $desc)
 !endprocedure

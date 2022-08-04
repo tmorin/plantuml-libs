@@ -8,6 +8,6 @@ sprite $UnfoldLessMd [16x16/16z] Oo07C7C32Ju4ducVcu4Vn4S8WBa8m0ZaKWBO-HbHkRmW0GI
 
 sprite $UnfoldLessLg [20x20/16z] hOe54W0X3CJst2__VoqoYdIq16gPbP_9K1ofyrRoJV9BLV43kshwL6RJK9Q_L_3swg9EpZ3hR99VRjSkDn4
 
-!procedure UnfoldLess($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Navigation/UnfoldLess', $name, $tech)
+!procedure UnfoldLess($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Navigation/UnfoldLess', $name, $tech, $desc)
 !endprocedure

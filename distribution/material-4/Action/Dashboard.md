@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Dashboard')
 
 ' renders the element
-Dashboard('Dashboard', 'Dashboard', 'an optional tech label')
+Dashboard('Dashboard', 'Dashboard', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Dashboard')
 
 ' renders the element
-Dashboard('Dashboard', 'Dashboard', 'an optional tech label')
+Dashboard('Dashboard', 'Dashboard', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

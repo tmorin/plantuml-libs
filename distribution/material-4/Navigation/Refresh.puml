@@ -7,10 +7,10 @@ sprite $RefreshSm [12x12/16z] VKk54S1027jtoFxRzbBt5uYQlvDxDCOI1TJG8PuO70hYKcOuun
 sprite $RefreshMd [16x16/16z] dKvL0a9126HDUkv_MclxItrqCtI4YW5W8gtf1NcxC3AyTi4V3zJSykEovxYzhKU4rln26u5RSAgEKVqPfGraJRN3IOHdJTkeEXVwXPu
 
 sprite $RefreshLg [20x20/16z] {
-hSw53SD044JHEURx_LSRDelZ9rejwmR6UNjA3TwoD9UCXnPycep1aeFlN0RMGRC4IyvGb_OrvmXw2-djcmjudJcIBXZhvnHzvRLneiNubiqaQc4wZ3uvBlO3
-QFhV4m
+hSor0SD044JHEURx_LTh5eVMIvPNDp3EsrDhy9QbkNGyjEZJP0oM7dplCh0UcYLPUeQwhAyzHz1RI6_wvdYTEP8k64jcAFhAw-94Y_4TcqdKmdGOVN9yx0VG
+zByd
 }
 
-!procedure Refresh($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Navigation/Refresh', $name, $tech)
+!procedure Refresh($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Navigation/Refresh', $name, $tech, $desc)
 !endprocedure

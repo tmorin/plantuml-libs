@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/ChatBubbleOutline')
 
 ' renders the element
-ChatBubbleOutline('ChatBubbleOutline', 'Chat Bubble Outline', 'an optional tech label')
+ChatBubbleOutline('ChatBubbleOutline', 'Chat Bubble Outline', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/ChatBubbleOutline')
 
 ' renders the element
-ChatBubbleOutline('ChatBubbleOutline', 'Chat Bubble Outline', 'an optional tech label')
+ChatBubbleOutline('ChatBubbleOutline', 'Chat Bubble Outline', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

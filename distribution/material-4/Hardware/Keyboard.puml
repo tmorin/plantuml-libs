@@ -8,6 +8,6 @@ sprite $KeyboardMd [16x16/16z] bOt50O103C02_AhxJukxN_AfbsAgPcD8Sm_KcROwveRXlSRSz
 
 sprite $KeyboardLg [20x20/16z] hOl50G0X40E3E-c_sdCNNWow4VJ7XojcblZ0VcXvqIm8vL1Xfj-cUKLbWwhAJRzDYuukfEcAqw_HPMMjypNzDktEgM71tBIma7OjyOv4RqO
 
-!procedure Keyboard($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Hardware/Keyboard', $name, $tech)
+!procedure Keyboard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Hardware/Keyboard', $name, $tech, $desc)
 !endprocedure

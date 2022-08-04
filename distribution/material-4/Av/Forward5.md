@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/Forward5')
 
 ' renders the element
-Forward5('Forward5', 'Forward5', 'an optional tech label')
+Forward5('Forward5', 'Forward5', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/Forward5')
 
 ' renders the element
-Forward5('Forward5', 'Forward5', 'an optional tech label')
+Forward5('Forward5', 'Forward5', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

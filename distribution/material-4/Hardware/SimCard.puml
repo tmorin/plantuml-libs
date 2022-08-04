@@ -8,6 +8,6 @@ sprite $SimCardMd [16x16/16z] RSl50OK030JHVC7PRF_LuWmwjnU9zxvp7vXUgZVAQpqqXXXYsN
 
 sprite $SimCardLg [20x20/16z] bSxL0S0m201Hgd5k_sdhxhtF5m7v6LDcfSJSGih94YTJJbRnsOmb631nOv9ZH16tDvIpSJ3et-vdr6Qm-cN6UR_YPFt5k1JafXO
 
-!procedure SimCard($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Hardware/SimCard', $name, $tech)
+!procedure SimCard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Hardware/SimCard', $name, $tech, $desc)
 !endprocedure

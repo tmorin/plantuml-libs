@@ -2,12 +2,12 @@
 
 sprite $VideoLibraryXs [10x10/16z] Oq06_620OF4my0DPJ9nm5b02ocA2Ye41WiKCPC408myOC3
 
-sprite $VideoLibrarySm [12x12/16z] NOs50S0W30I_xcN_QT7uGTmGUB_6qzqqc77DrL-6_orlCx_nONpjERZ_gPPzB6jZQOVUpeBAFAXU0G
+sprite $VideoLibrarySm [12x12/16z] NOs50S0W30I_xcN_QT7uGTmGUB_6qzqqc77DrL-6_orlCx_nONpjERZ_gPPzB6jbMTgXjxEWCW-gLm
 
-sprite $VideoLibraryMd [16x16/16z] VOo35S0m04IlRhp_jB7r7u-OSPoH88dAUCrhVN2lhwHFvVK9rcaydRwt_UvFLPfq6jSTWTDN0fvIlZ5Y
+sprite $VideoLibraryMd [16x16/16z] VSp50K0X30FGuWxxJ_i5ztUh9B23S9P65Qeustv6Diwap3Z46OEPPc3JJA__Kr_ePZNDG6X42FmpAI0A5ONL2m
 
-sprite $VideoLibraryLg [20x20/16z] bSo53G0X44JHnHtwh_OCc-JynzyA_KaKY6e1BLIBQ747Mqt4QSLNu-GkZEJPjlB9M3pjyVC_Mqws1nOkpA29QiJbY5ErKmMJrLY4HBLpAm
+sprite $VideoLibraryLg [20x20/16z] bSp50GCW343HM1tPVzeQxl2FBm8diSq2roktbpELc_h1tHchPFRfZE3HCP3Mlfd6KDdQgFrtjxMvahqwTikDdG6niFnY8N3MPFF46QeiXa4V
 
-!procedure VideoLibrary($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Av/VideoLibrary', $name, $tech)
+!procedure VideoLibrary($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/VideoLibrary', $name, $tech, $desc)
 !endprocedure

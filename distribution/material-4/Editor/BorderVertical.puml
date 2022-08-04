@@ -8,6 +8,6 @@ sprite $BorderVerticalMd [16x16/16z] XOs54S0m3CHi7PL__sbBVsK8AaeCKHnD4ptPculNqO7
 
 sprite $BorderVerticalLg [20x20/16z] fO-53S0m30J_mvpzjwtAp2SwcOr_L8DQu2e7Qp42HhUnmMRQsAftZWszHIzY9PtsEWbdszXWPxSG8DlOO6zkCMAEdVnnkhVezdfREDXZ6W
 
-!procedure BorderVertical($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Editor/BorderVertical', $name, $tech)
+!procedure BorderVertical($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/BorderVertical', $name, $tech, $desc)
 !endprocedure

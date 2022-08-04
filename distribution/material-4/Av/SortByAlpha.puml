@@ -7,10 +7,10 @@ sprite $SortByAlphaSm [12x12/16z] PSR50GCn00InCREt_swJOz9BV9XRPsKJWFJ7dpfOQmMu9F
 sprite $SortByAlphaMd [16x16/16z] ZSY50GCn30J1DREl_sh3dASHYuFa-1HJuYNus-SYSYK1zKAT2pzakKhYQlfy-nkv-m1neSfLcQKeG1OtAgLKOMIvSk92w8OLQGo-59QT0G
 
 sprite $SortByAlphaLg [20x20/16z] {
-bSw50GGX30J0uCxst-tdMDvzJj28_2qPUPGnkVb1IA9yMlPju9WKB9RNW2naqFQrcgVG04SB9piYmNElGCy7JwiGclS5Xf7aiAGZm0hDBgfFFMnEQO11O1Ec
-dWC-AgK4US0-_d82
+bOu55iGm24JZ2ipzJnjTr_PNC_90dIRgDob1zB-QZ_FjukAI1kPFniBi690k3OrwYPKa5usnlmPMNHeHRciPm-VjbaiUrRcyfWWkaiKYpeAvQ4BpJJBCQWTw
+JlTx2LskXP_adFsJSDdZ91q
 }
 
-!procedure SortByAlpha($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Av/SortByAlpha', $name, $tech)
+!procedure SortByAlpha($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/SortByAlpha', $name, $tech, $desc)
 !endprocedure

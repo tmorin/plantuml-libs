@@ -8,6 +8,6 @@ sprite $CheckBoxMd [16x16/16z] XSr50i0W34JHgUiazxzjKyVvAnuMrDluDf_SzQyrC-Uk_NqIV
 
 sprite $CheckBoxLg [20x20/16z] fSw35K1H30FGFBlTVzfl6pc-9Vwby3AsCrwb71XjJPgTATYjIPXvrdIaOUTz6HYxvhu8CNJDnWc0sVuIkwxDV_davrFBdRb2Suh4uzG
 
-!procedure CheckBox($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Toggle/CheckBox', $name, $tech)
+!procedure CheckBox($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Toggle/CheckBox', $name, $tech, $desc)
 !endprocedure

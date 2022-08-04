@@ -4,10 +4,10 @@ sprite $ZoomOutXs [10x10/16z] Oy0AUFWv-24i40LXilFmCFAZYJ7o0m526tOc0m
 
 sprite $ZoomOutSm [12x12/16z] TKdL0O1050BqnsJ_QMslxmM9_cosVpa3usSUCZyjOTUhXx-ysPlDpr3WRVvHPf3D2G
 
-sprite $ZoomOutMd [16x16/16z] ZOtL0SKW5CKExcJ_QPzMlsZWkka9iHLpHWxwf1mnLP8dxCtyJ9rRtBl66CQonMLUsoIBqmUQDYh51ZWlXWdDa7GZhnDPIzu
+sprite $ZoomOutMd [16x16/16z] ZOtL0SKW5CKExcJ_QPzMlsZWkka9iHLpHWxwf1mnLP8dxCtyJ9rRtBl66CQnnMLUsoIBqmUQDYh51ZWlXWdDa7GZhnDPIzu
 
 sprite $ZoomOutLg [20x20/16z] fScrWGGm4CNGRsQh_shlbiVXmWib_IflO3WT9hIwGARGTH7F2CyNhJNv2pcgjQ9vuKItjdGJA7eQ15qjd9uS5AUmQ3AEcyRG8RPUdAP5yqdKR_u1
 
-!procedure ZoomOut($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/ZoomOut', $name, $tech)
+!procedure ZoomOut($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/ZoomOut', $name, $tech, $desc)
 !endprocedure

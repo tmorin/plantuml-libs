@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/TextRotateVertical')
 
 ' renders the element
-TextRotateVertical('TextRotateVertical', 'Text Rotate Vertical', 'an optional tech label')
+TextRotateVertical('TextRotateVertical', 'Text Rotate Vertical', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/TextRotateVertical')
 
 ' renders the element
-TextRotateVertical('TextRotateVertical', 'Text Rotate Vertical', 'an optional tech label')
+TextRotateVertical('TextRotateVertical', 'Text Rotate Vertical', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

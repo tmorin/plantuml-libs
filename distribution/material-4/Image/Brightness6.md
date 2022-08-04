@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Brightness6')
 
 ' renders the element
-Brightness6('Brightness6', 'Brightness6', 'an optional tech label')
+Brightness6('Brightness6', 'Brightness6', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Brightness6')
 
 ' renders the element
-Brightness6('Brightness6', 'Brightness6', 'an optional tech label')
+Brightness6('Brightness6', 'Brightness6', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

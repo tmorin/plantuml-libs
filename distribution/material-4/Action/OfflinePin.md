@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/OfflinePin')
 
 ' renders the element
-OfflinePin('OfflinePin', 'Offline Pin', 'an optional tech label')
+OfflinePin('OfflinePin', 'Offline Pin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/OfflinePin')
 
 ' renders the element
-OfflinePin('OfflinePin', 'Offline Pin', 'an optional tech label')
+OfflinePin('OfflinePin', 'Offline Pin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,6 +8,6 @@ sprite $BusinessCenterMd [16x16/16z] ZSV50KCX042nXpliFstxtIsty8d89M_RSivblMeWsvI
 
 sprite $BusinessCenterLg [20x20/16z] fOk30G0n34LhHVjFUxRnodoe_nXfA6jDE8GWQQrXSyr1BokeYsme1nfUQcICaGvejBHsMQiJ-gxtliyDsi0h3Jij4i-GKO-f0G
 
-!procedure BusinessCenter($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Places/BusinessCenter', $name, $tech)
+!procedure BusinessCenter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/BusinessCenter', $name, $tech, $desc)
 !endprocedure

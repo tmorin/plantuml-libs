@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/TransferWithinAStation')
 
 ' renders the element
-TransferWithinAStation('TransferWithinAStation', 'Transfer Within A Station', 'an optional tech label')
+TransferWithinAStation('TransferWithinAStation', 'Transfer Within A Station', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/TransferWithinAStation')
 
 ' renders the element
-TransferWithinAStation('TransferWithinAStation', 'Transfer Within A Station', 'an optional tech label')
+TransferWithinAStation('TransferWithinAStation', 'Transfer Within A Station', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

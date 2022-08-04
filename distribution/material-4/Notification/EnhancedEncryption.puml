@@ -8,6 +8,6 @@ sprite $EnhancedEncryptionMd [16x16/16z] VOg50G0X54BjLlQVzlhi-WKyCdqIIBH81Sq2YeQ
 
 sprite $EnhancedEncryptionLg [20x20/16z] dOu30WGn54DJkxd_QNV7zYk_Wmjihb6kNPajUfL51uZAfQ_MzXPK2nzp_zYbBsrzXJEkTnakMVgIs_iSwgtl-6UCX3RXKx-jFdNWWyaJ2IVy0G
 
-!procedure EnhancedEncryption($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Notification/EnhancedEncryption', $name, $tech)
+!procedure EnhancedEncryption($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Notification/EnhancedEncryption', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/_9Mp')
 
 ' renders the element
-_9Mp('9mp', '9mp', 'an optional tech label')
+_9Mp('9mp', '9mp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/_9Mp')
 
 ' renders the element
-_9Mp('9mp', '9mp', 'an optional tech label')
+_9Mp('9mp', '9mp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

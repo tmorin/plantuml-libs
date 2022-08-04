@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/OfflineShare')
 
 ' renders the element
-OfflineShare('OfflineShare', 'Offline Share', 'an optional tech label')
+OfflineShare('OfflineShare', 'Offline Share', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/OfflineShare')
 
 ' renders the element
-OfflineShare('OfflineShare', 'Offline Share', 'an optional tech label')
+OfflineShare('OfflineShare', 'Offline Share', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

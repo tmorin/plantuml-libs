@@ -6,8 +6,8 @@ sprite $SouthSm [12x12/16z] Oy00l4XiVdBPl60sEvZDmSy0X4mCK0u_Y0dZC27qCe99
 
 sprite $SouthMd [16x16/16z] Oy01cD2u_7JaiqBvZ10k8pyFcC_F1rVC3UJpyoBfvkK7oI8445oe6H0k9W
 
-sprite $SouthLg [20x20/16z] rSg53O100C10tA7xJul3kyM_yKkBr0RAhAmqhM9uZVN7XU6sbLwS6_rfq0cwpetjkyJvNw9LNAAsy7K
+sprite $SouthLg [20x20/16z] rSg53O1004DHtA7xJykvU_mQxSiVMdTWxCh6q2OSql1gV2Wo-x1hOuSQi1bYvGTTcL9NPg-fpDOXDm8
 
-!procedure South($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Navigation/South', $name, $tech)
+!procedure South($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Navigation/South', $name, $tech, $desc)
 !endprocedure

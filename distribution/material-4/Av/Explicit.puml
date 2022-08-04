@@ -8,6 +8,6 @@ sprite $ExplicitMd [16x16/16z] Oo0Ck7bXW0F4vU5702OWdnUJZqapyW8fd7nCcWdTF6PcP7bMP
 
 sprite $ExplicitLg [20x20/16z] fOo33K1H54EVTRN_jDysJjHKwXyaIqBdoGewy7ZoZfKsncozTB2rCSOdVv6P7_mTACajIs_csCFEYyGpPDHZQW
 
-!procedure Explicit($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Av/Explicit', $name, $tech)
+!procedure Explicit($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/Explicit', $name, $tech, $desc)
 !endprocedure

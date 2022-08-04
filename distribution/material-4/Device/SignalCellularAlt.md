@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Device/SignalCellularAlt')
 
 ' renders the element
-SignalCellularAlt('SignalCellularAlt', 'Signal Cellular Alt', 'an optional tech label')
+SignalCellularAlt('SignalCellularAlt', 'Signal Cellular Alt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Device/SignalCellularAlt')
 
 ' renders the element
-SignalCellularAlt('SignalCellularAlt', 'Signal Cellular Alt', 'an optional tech label')
+SignalCellularAlt('SignalCellularAlt', 'Signal Cellular Alt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

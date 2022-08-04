@@ -2,12 +2,12 @@
 
 sprite $LibraryAddCheckXs [10x10/16z] Oq06_620OF4my8DP310MCn13nHZu4BB8B6OW2mOOUS20WG4
 
-sprite $LibraryAddCheckSm [12x12/16z] NSt50S0m20NGN_Tc_scZ-3lX87Y_vkbX6cPSyuY_6dzBZt5IZ8GhKVpNAiSLnO-9iQpDqXwztO9g7cfK
+sprite $LibraryAddCheckSm [12x12/16z] NSt50S0W30NGZplilsqXKdkdUF3Jnz4eNCoYM8x7ZeUZ65bYB9GbyTnLZJU9sok6yvjpvr4d3fjbExe
 
-sprite $LibraryAddCheckMd [16x16/16z] RSV50G0X00EmdWlI_QV57V8BLhOzYVrOXClscypNodzdkiPUBqdV_0S26-jvnvRpONys_uRZE1Fu7na25YTc5W
+sprite $LibraryAddCheckMd [16x16/16z] RSU50G0X34FHd0kI_QV57JxIFgpQzbJanrAmRBt9RAsyToPhxDNkUcO_4DXOpJkmcWzxi_4t6CSPEWvu7pc4M3enPm4
 
-sprite $LibraryAddCheckLg [20x20/16z] bSZ50KCn50CmVuQ0zv-s579UMKVX7nD5FgVdqdazVu-zdG_fUDRpWBq01BrflHVP7LOWT7TFH9hZ56WkaNClRjERqc6Sgn7vBAevtU35X3Uk
+sprite $LibraryAddCheckLg [20x20/16z] bSg54SDG40DHnVfcNzH_jI6JVE4TVhFu9yfQR7GRPvlSfZjqkqqncuRPvYLR0E76vaxImT00SR0xugnaOYZPdDdumbetpeQAXUKUIuN5SlBARAV98jvq1G
 
-!procedure LibraryAddCheck($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Av/LibraryAddCheck', $name, $tech)
+!procedure LibraryAddCheck($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/LibraryAddCheck', $name, $tech, $desc)
 !endprocedure

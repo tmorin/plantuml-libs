@@ -7,10 +7,10 @@ sprite $AccountCircleSm [12x12/16z] NOp70G0W30AnTzr_MWl9otka0lZ9BUeqrYFf28IrmftN
 sprite $AccountCircleMd [16x16/16z] ROs55GH124F7NVhlziWBj_v7S6A-iPQMZ0soHWu1KfCnFHfjzcAdMdGNM3RO3OgR6t3R2Ui3wfwnmJHPkycVzs0edPRf2HkFHgv6gFWbKRVcWny
 
 sprite $AccountCircleLg [20x20/16z] {
-bOw54SD040FjPrR_tIQdiSAunj_3xJyApan_Op8EbfFgTknvsSVTP5dPi9-TZaNsipDVxUKCfa6r2qQW8xrCa2ftGvThOTzSOcPc5quWWHlo6pSnEPU9KibA
+bOw54SD040FjPrR_tIQdiSAunj_3xJyApan_Op8EbfFgTknvsSVTP5dPi9-TZaNsipDVxUKCfa6r2qQW8xrEa2ftGvThOTzSOcPc5quWWHlo6pSnEPU9KibA
 3OyZSs_0t0WbrWIacD1Xg534DehRtdC2
 }
 
-!procedure AccountCircle($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/AccountCircle', $name, $tech)
+!procedure AccountCircle($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/AccountCircle', $name, $tech, $desc)
 !endprocedure

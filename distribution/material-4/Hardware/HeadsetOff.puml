@@ -10,10 +10,10 @@ Wny
 }
 
 sprite $HeadsetOffLg [20x20/16z] {
-ZSw55G9140JHFjVfoZzQR0M7ivN_ndJqMRYk4y3UPki8oR1j0Ll61gJ-Tjo8Z7qzQIgH2r1mfxdjkAkH7LEoHKsDpCcCKeqagjL8d3RiFKM6gu5pv8lT8Xi_
-MuhSdqtKEVrWaApPmYd3ZblaozDymbOw0m
+ZSw55GCn30HH7QDs-gysj7QO3Wp_YUBVP-6yJW1xMwmZ8mJRbh0LR22Ylnmtic3laqkijI9Kt6akE-gkaHsJRN5DNpPlOyGrahpQDH9vGzeTcReQg4G-ccis
+UZH7xeyMNEVKdO6jsLBEaDAHZq_p3jk88m
 }
 
-!procedure HeadsetOff($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Hardware/HeadsetOff', $name, $tech)
+!procedure HeadsetOff($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Hardware/HeadsetOff', $name, $tech, $desc)
 !endprocedure

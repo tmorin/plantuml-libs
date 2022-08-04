@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/EvStation')
 
 ' renders the element
-EvStation('EvStation', 'Ev Station', 'an optional tech label')
+EvStation('EvStation', 'Ev Station', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/EvStation')
 
 ' renders the element
-EvStation('EvStation', 'Ev Station', 'an optional tech label')
+EvStation('EvStation', 'Ev Station', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

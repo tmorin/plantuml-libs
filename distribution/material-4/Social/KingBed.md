@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/KingBed')
 
 ' renders the element
-KingBed('KingBed', 'King Bed', 'an optional tech label')
+KingBed('KingBed', 'King Bed', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/KingBed')
 
 ' renders the element
-KingBed('KingBed', 'King Bed', 'an optional tech label')
+KingBed('KingBed', 'King Bed', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

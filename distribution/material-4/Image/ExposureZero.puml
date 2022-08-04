@@ -4,10 +4,10 @@ sprite $ExposureZeroXs [10x10/16z] Oy05E60CVY2406uiB3uuYv-V4uTH
 
 sprite $ExposureZeroSm [12x12/16z] Oo0MyFFpmvZSR0pyJ50sBnC33niMDWyp0nypbCt8pyQFC8WPhpK
 
-sprite $ExposureZeroMd [16x16/16z] dOsr0O105CM2Ezb_MpeSJb9zUK8UHNLP9xK-VIqPrsDlXD9ZRuNYiN_hiM1OBtthkG_AYZms
+sprite $ExposureZeroMd [16x16/16z] dKsr0S104EBYplxRvgftfyCn1fazUfDSB1KAhi_obS14opTgfi1jtkwTd_VtkN-QdZ667m
 
 sprite $ExposureZeroLg [20x20/16z] jOt50K0X34DRtBF_jCWnnoyyj9R8BKAombW0w9phK4dmb3izYiAvUgxsBdT2LCwDuv4fL-6rmWe1uBGnngfSOW4
 
-!procedure ExposureZero($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/ExposureZero', $name, $tech)
+!procedure ExposureZero($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/ExposureZero', $name, $tech, $desc)
 !endprocedure

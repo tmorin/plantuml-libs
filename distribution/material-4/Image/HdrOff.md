@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/HdrOff')
 
 ' renders the element
-HdrOff('HdrOff', 'Hdr Off', 'an optional tech label')
+HdrOff('HdrOff', 'Hdr Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/HdrOff')
 
 ' renders the element
-HdrOff('HdrOff', 'Hdr Off', 'an optional tech label')
+HdrOff('HdrOff', 'Hdr Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

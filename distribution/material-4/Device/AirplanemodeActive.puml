@@ -8,6 +8,6 @@ sprite $AirplanemodeActiveMd [16x16/16z] bOs35KGn50LZ9zD_jOjlOuuUBiG9ShqMreUAUhL
 
 sprite $AirplanemodeActiveLg [20x20/16z] jOw30K0n34HhDxV_jDysNnaVkqk4NFa0_xDFe29EFJoYnGmkXm4IZKSHAXAGcq_abQz-HJT3L-vK-QoOpLNsjkPwjfYx2AYscwVL2gHbkvG
 
-!procedure AirplanemodeActive($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Device/AirplanemodeActive', $name, $tech)
+!procedure AirplanemodeActive($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Device/AirplanemodeActive', $name, $tech, $desc)
 !endprocedure

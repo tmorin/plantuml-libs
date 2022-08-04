@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/Publish')
 
 ' renders the element
-Publish('Publish', 'Publish', 'an optional tech label')
+Publish('Publish', 'Publish', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/Publish')
 
 ' renders the element
-Publish('Publish', 'Publish', 'an optional tech label')
+Publish('Publish', 'Publish', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

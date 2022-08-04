@@ -8,6 +8,6 @@ sprite $AddRoadMd [16x16/16z] bSs54O0034FHuFQvx3yjxiuxgrV_EPP2IuBRF62V3-3xVht_Do
 
 sprite $AddRoadLg [20x20/16z] fOs30G1140DNRwJ_Qj_cOOwhXEBWX8TRal5loPnBOCETOwpK2CYDt7AiSoxSWtdFdLbpahXxr3LGryafXucCpiop_xba7Em1
 
-!procedure AddRoad($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/AddRoad', $name, $tech)
+!procedure AddRoad($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/AddRoad', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/MoreHoriz')
 
 ' renders the element
-MoreHoriz('MoreHoriz', 'More Horiz', 'an optional tech label')
+MoreHoriz('MoreHoriz', 'More Horiz', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/MoreHoriz')
 
 ' renders the element
-MoreHoriz('MoreHoriz', 'More Horiz', 'an optional tech label')
+MoreHoriz('MoreHoriz', 'More Horiz', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

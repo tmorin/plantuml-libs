@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/MoneyOff')
 
 ' renders the element
-MoneyOff('MoneyOff', 'Money Off', 'an optional tech label')
+MoneyOff('MoneyOff', 'Money Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/MoneyOff')
 
 ' renders the element
-MoneyOff('MoneyOff', 'Money Off', 'an optional tech label')
+MoneyOff('MoneyOff', 'Money Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

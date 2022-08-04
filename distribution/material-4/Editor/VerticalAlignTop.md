@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/VerticalAlignTop')
 
 ' renders the element
-VerticalAlignTop('VerticalAlignTop', 'Vertical Align Top', 'an optional tech label')
+VerticalAlignTop('VerticalAlignTop', 'Vertical Align Top', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/VerticalAlignTop')
 
 ' renders the element
-VerticalAlignTop('VerticalAlignTop', 'Vertical Align Top', 'an optional tech label')
+VerticalAlignTop('VerticalAlignTop', 'Vertical Align Top', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

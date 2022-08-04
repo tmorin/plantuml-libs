@@ -8,6 +8,6 @@ sprite $InsertChartMd [16x16/16z] ZSsr0O1040NH5Hm-st-rk9vFzgAXV2FkkfsJlSbcX0nAcL
 
 sprite $InsertChartLg [20x20/16z] fSZ50S0m40Cmbz7d_QSjCpVHK_13RQN3QOSNPvlBOEzNytm8VrrGd0zlLvIg2wdWvZQkhXukewqOuhCM
 
-!procedure InsertChart($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Editor/InsertChart', $name, $tech)
+!procedure InsertChart($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/InsertChart', $name, $tech, $desc)
 !endprocedure

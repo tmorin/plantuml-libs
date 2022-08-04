@@ -7,10 +7,10 @@ sprite $MuseumSm [12x12/16z] NSpL0O0m4C3Gu4xsdnQdbigzhuEo8QXMFyxUTJVzsc3phuRL1f_
 sprite $MuseumMd [16x16/16z] ZSwr0SD040NHRujn-g_sc2FDuSjMtthO6isutiAJs1BqftGx_cXpVe1ov89R6_7DrjfxrzEPepLtED4JfMVgnd5fp08
 
 sprite $MuseumLg [20x20/16z] {
-bSw50O0W503HZzst_xHsqN3sKm79hKKPecQWrQZYRFxHm5DzIyclwQGUhQNSZIFZotO0sWwMw-uSiWP4HihxxZCrY6dbVhLi42nZCMsQZjFyjw_3t6kUZ7fn
+bSw50O0W503HZzst_xHsqN3sKm79hKKPecQWrQZYRFxHm5DzIy6lwQGUhQNSZIFZotO0sWwMw-uSiWP4HihxxZCrY6dbVhLi42nZCMsQZjFyjw_3t6kUZ7fn
 jG4
 }
 
-!procedure Museum($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/Museum', $name, $tech)
+!procedure Museum($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/Museum', $name, $tech, $desc)
 !endprocedure

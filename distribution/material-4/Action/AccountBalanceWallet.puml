@@ -2,12 +2,12 @@
 
 sprite $AccountBalanceWalletXs [10x10/16z] Oy0A-240pEA5Y_7myGC928kL0S92YF6ZwKK
 
-sprite $AccountBalanceWalletSm [12x12/16z] Oy09-640ocO10GYRYOi721WXR3v-FY09PVCo8DX00ifc1WEeEJmWW6G-3ugj
+sprite $AccountBalanceWalletSm [12x12/16z] Oy09-640ocPXOM5cXh2Pk7Y0W172vkFd0v9GDXy3WWqae6ncC82QmmC2IERpeDWA
 
-sprite $AccountBalanceWalletMd [16x16/16z] XSVL0S0W30N0XpliFoqaTU_z7VwbilBSt7QINXf9UeBra6golRR9uTwV3vm_UVrkUiiJIGzj9q3aXder
+sprite $AccountBalanceWalletMd [16x16/16z] XSV50S0W00Img-Filsrnb_o2FIuZ0aFex3INsk2tSTs8ntavwKexo2UaFb3VcJvpry8vpQdE3XXdubhx0G
 
-sprite $AccountBalanceWalletLg [20x20/16z] fS_L0OG030FGtE7G9ljFYxlB-wmNtxZcuZQc1P_5qh0JJ377GXipK1sxZDalsSGYODkR-8rvMTv9fvjtxXEja-_yQsqiSKxyZzig
+sprite $AccountBalanceWalletLg [20x20/16z] fS_50G0n20H0uhgX_shFtMMUEFGFUCbsCLx18kPrIsarnq0hNInJuLw-ZMNXTZ53jEzrU30ln9wVRpwuZqlknOD_SnTpA3D8Ugm6
 
-!procedure AccountBalanceWallet($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/AccountBalanceWallet', $name, $tech)
+!procedure AccountBalanceWallet($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/AccountBalanceWallet', $name, $tech, $desc)
 !endprocedure

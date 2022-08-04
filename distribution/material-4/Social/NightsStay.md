@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/NightsStay')
 
 ' renders the element
-NightsStay('NightsStay', 'Nights Stay', 'an optional tech label')
+NightsStay('NightsStay', 'Nights Stay', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/NightsStay')
 
 ' renders the element
-NightsStay('NightsStay', 'Nights Stay', 'an optional tech label')
+NightsStay('NightsStay', 'Nights Stay', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Content/Redo')
 
 ' renders the element
-Redo('Redo', 'Redo', 'an optional tech label')
+Redo('Redo', 'Redo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Content/Redo')
 
 ' renders the element
-Redo('Redo', 'Redo', 'an optional tech label')
+Redo('Redo', 'Redo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

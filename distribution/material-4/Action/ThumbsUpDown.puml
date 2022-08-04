@@ -8,6 +8,6 @@ sprite $ThumbsUpDownMd [16x16/16z] XSc54O1G0CFGuaxtdnQ-k-JqNG2CY1fvnUGQayiqJTOq3
 
 sprite $ThumbsUpDownLg [20x20/16z] ZSp50GCn34HHcTdJVxN9CXd_yGbeILEHXl-I0bon1SXY2_3EENCRhjYSPIfj_IUss6KBPRmBH1n7-lxchvCxb6OgbYiMFtRb0VYFvPAeGfHN-WC
 
-!procedure ThumbsUpDown($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/ThumbsUpDown', $name, $tech)
+!procedure ThumbsUpDown($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/ThumbsUpDown', $name, $tech, $desc)
 !endprocedure

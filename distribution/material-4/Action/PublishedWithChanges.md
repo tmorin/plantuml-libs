@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/PublishedWithChanges')
 
 ' renders the element
-PublishedWithChanges('PublishedWithChanges', 'Published With Changes', 'an optional tech label')
+PublishedWithChanges('PublishedWithChanges', 'Published With Changes', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/PublishedWithChanges')
 
 ' renders the element
-PublishedWithChanges('PublishedWithChanges', 'Published With Changes', 'an optional tech label')
+PublishedWithChanges('PublishedWithChanges', 'Published With Changes', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

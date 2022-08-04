@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/LightbulbOutline')
 
 ' renders the element
-LightbulbOutline('LightbulbOutline', 'Lightbulb Outline', 'an optional tech label')
+LightbulbOutline('LightbulbOutline', 'Lightbulb Outline', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/LightbulbOutline')
 
 ' renders the element
-LightbulbOutline('LightbulbOutline', 'Lightbulb Outline', 'an optional tech label')
+LightbulbOutline('LightbulbOutline', 'Lightbulb Outline', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

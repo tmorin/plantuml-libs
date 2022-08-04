@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/PanTool')
 
 ' renders the element
-PanTool('PanTool', 'Pan Tool', 'an optional tech label')
+PanTool('PanTool', 'Pan Tool', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/PanTool')
 
 ' renders the element
-PanTool('PanTool', 'Pan Tool', 'an optional tech label')
+PanTool('PanTool', 'Pan Tool', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Places/ChildFriendly')
 
 ' renders the element
-ChildFriendly('ChildFriendly', 'Child Friendly', 'an optional tech label')
+ChildFriendly('ChildFriendly', 'Child Friendly', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Places/ChildFriendly')
 
 ' renders the element
-ChildFriendly('ChildFriendly', 'Child Friendly', 'an optional tech label')
+ChildFriendly('ChildFriendly', 'Child Friendly', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

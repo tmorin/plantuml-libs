@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/AirlineSeatLegroomReduced')
 
 ' renders the element
-AirlineSeatLegroomReduced('AirlineSeatLegroomReduced', 'Airline Seat Legroom Reduced', 'an optional tech label')
+AirlineSeatLegroomReduced('AirlineSeatLegroomReduced', 'Airline Seat Legroom Reduced', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/AirlineSeatLegroomReduced')
 
 ' renders the element
-AirlineSeatLegroomReduced('AirlineSeatLegroomReduced', 'Airline Seat Legroom Reduced', 'an optional tech label')
+AirlineSeatLegroomReduced('AirlineSeatLegroomReduced', 'Airline Seat Legroom Reduced', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

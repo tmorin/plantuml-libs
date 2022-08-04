@@ -8,6 +8,6 @@ sprite $LunchDiningMd [16x16/16z] dSt50GGn30H1cTcTVxJ7i4pr4uvSe3D03qfU6bz97e1XGp
 
 sprite $LunchDiningLg [20x20/16z] hSu53aD120HGMFUv_ssxKo_PQF-B4Lmku4Fm-ft8U9hkcOduCfGfZn-BEHXfvuPHXLGixclQ00I6dHr07NoZWiM1pZvEUsN4KFXYDCBXbt78jPqh9YT_kG4
 
-!procedure LunchDining($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/LunchDining', $name, $tech)
+!procedure LunchDining($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/LunchDining', $name, $tech, $desc)
 !endprocedure

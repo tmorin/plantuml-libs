@@ -4,10 +4,10 @@ sprite $UsbXs [10x10/16z] Oq05_3066pyhc6Ra1ug1HJdXB0O4Yu-VdvyJKo-gUG
 
 sprite $UsbSm [12x12/16z] Oy00_4XCVcua3a8Ko0OIO3OVWit336Jpi83PhFmWWCrC9YGs7pyRWWDX0W
 
-sprite $UsbMd [16x16/16z] TOs35G0n40LZPwV_Qi_6F2q-r0_zlWhXklf6k_qDvwn1JtjdkmNmnpuZCkihiksjpRl2RNjcHH_frc6j_kcRIPZR3lBOi_fa1
+sprite $UsbMd [16x16/16z] TOs35G0n40LZPwV_Qi_6F2q-r0_zlWhXklfEk_qDvwn1JtjdkmNmnpuZCkihiksjpRl2RNjcHH_frc6j_kcRIPZR3lBOi_fa1
 
 sprite $UsbLg [20x20/16z] VSxL0SCm301HgJ7JxJzjcMBcztMo7M6aWkd90xsvZBSz1lJ_gs2V1doiGEijGkrDAlgqHFnhawVPlyP4QpptvMlQu3dYfczZ1TkJ0tRsrsDaCsu
 
-!procedure Usb($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Device/Usb', $name, $tech)
+!procedure Usb($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Device/Usb', $name, $tech, $desc)
 !endprocedure

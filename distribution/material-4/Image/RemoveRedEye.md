@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/RemoveRedEye')
 
 ' renders the element
-RemoveRedEye('RemoveRedEye', 'Remove Red Eye', 'an optional tech label')
+RemoveRedEye('RemoveRedEye', 'Remove Red Eye', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/RemoveRedEye')
 
 ' renders the element
-RemoveRedEye('RemoveRedEye', 'Remove Red Eye', 'an optional tech label')
+RemoveRedEye('RemoveRedEye', 'Remove Red Eye', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

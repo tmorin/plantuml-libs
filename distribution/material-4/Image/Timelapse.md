@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Timelapse')
 
 ' renders the element
-Timelapse('Timelapse', 'Timelapse', 'an optional tech label')
+Timelapse('Timelapse', 'Timelapse', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Timelapse')
 
 ' renders the element
-Timelapse('Timelapse', 'Timelapse', 'an optional tech label')
+Timelapse('Timelapse', 'Timelapse', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

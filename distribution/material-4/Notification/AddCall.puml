@@ -4,13 +4,13 @@ sprite $AddCallXs [10x10/16z] Oy0A-Fb118p53-5omSJOE10AaVJmWDI10IE8XG
 
 sprite $AddCallSm [12x12/16z] TKg30K0X5Fp8klstpQx7qtCjm8HhICO84DPK_5ls1om2h9adu5Pq9275WABy0LKSc0ruB0y
 
-sprite $AddCallMd [16x16/16z] XOx50GKX30NVkX6c_sg_eE6qWyH5hwncTr9iII80IM5DuYBP8M1X_kS3YxC5vlDbKRwVvd-wvqOZaKdQddLMmTXtWEOumTjfhMHxvcIEV04
+sprite $AddCallMd [16x16/16z] XOpN0SKW30ELdW3czf_s5JfVEQfjINfbDtFfOrjw0f0-xEbvI7K8M5Z_Uc0RQe6DUbdKcAULJHCEpKGMwV3xge9ndW2jSSDOfqwgHzPKpdm1
 
 sprite $AddCallLg [20x20/16z] {
 fSl50GGn40D1hPd6dN-qnynGJu7-0n2q5GaNMRhFg9BwC6oqKsQI9bjJMnseDzy0JJUPG7ikBpf85Dqnl6uje3iEefHWMhuCHsPhwgp3NQR5xh9j6kkmee-j
 0G
 }
 
-!procedure AddCall($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Notification/AddCall', $name, $tech)
+!procedure AddCall($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Notification/AddCall', $name, $tech, $desc)
 !endprocedure

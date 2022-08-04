@@ -8,6 +8,6 @@ sprite $DraftsMd [16x16/16z] XOor0GGn0CCSvcZ_QP_nK9rHsoIilZXcOhoL6KH9ZVoGXQe7Tk0
 
 sprite $DraftsLg [20x20/16z] jSo53KKn34FHChTt_sa_usEqo3gE8gPYY-g818X_acXQ1B0Vyk0UfT3ae-X6Ug-wFljpUySHxeR_aYpaXtqlFRmDuklRhu4H2Je6d6FfPg5ZObUk
 
-!procedure Drafts($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Content/Drafts', $name, $tech)
+!procedure Drafts($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/Drafts', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/_6FtApart')
 
 ' renders the element
-_6FtApart('6ftApart', '6ft Apart', 'an optional tech label')
+_6FtApart('6ftApart', '6ft Apart', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/_6FtApart')
 
 ' renders the element
-_6FtApart('6ftApart', '6ft Apart', 'an optional tech label')
+_6FtApart('6ftApart', '6ft Apart', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

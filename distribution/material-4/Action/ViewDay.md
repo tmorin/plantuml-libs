@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/ViewDay')
 
 ' renders the element
-ViewDay('ViewDay', 'View Day', 'an optional tech label')
+ViewDay('ViewDay', 'View Day', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/ViewDay')
 
 ' renders the element
-ViewDay('ViewDay', 'View Day', 'an optional tech label')
+ViewDay('ViewDay', 'View Day', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

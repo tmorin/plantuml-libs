@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Device/ScreenLockPortrait')
 
 ' renders the element
-ScreenLockPortrait('ScreenLockPortrait', 'Screen Lock Portrait', 'an optional tech label')
+ScreenLockPortrait('ScreenLockPortrait', 'Screen Lock Portrait', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Device/ScreenLockPortrait')
 
 ' renders the element
-ScreenLockPortrait('ScreenLockPortrait', 'Screen Lock Portrait', 'an optional tech label')
+ScreenLockPortrait('ScreenLockPortrait', 'Screen Lock Portrait', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

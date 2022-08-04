@@ -8,6 +8,6 @@ sprite $LocalTaxiMd [16x16/16z] ZSVL0SDG34Mnymn5EtV_QSkCqP-OPTFTnfLvIqeVv_fKPpg_
 
 sprite $LocalTaxiLg [20x20/16z] fSq50a9120HGjfkv_saj7BjzFvUK_tdiNKPAwzXhBJ3KT18OGnRIOjy09rJ1rijTbiUiPwWMkx8ifhxOMKE2MgomjeimXZnWScFiqijO59h7s5fEg6YLZsq1
 
-!procedure LocalTaxi($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/LocalTaxi', $name, $tech)
+!procedure LocalTaxi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/LocalTaxi', $name, $tech, $desc)
 !endprocedure

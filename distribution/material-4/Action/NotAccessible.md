@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/NotAccessible')
 
 ' renders the element
-NotAccessible('NotAccessible', 'Not Accessible', 'an optional tech label')
+NotAccessible('NotAccessible', 'Not Accessible', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/NotAccessible')
 
 ' renders the element
-NotAccessible('NotAccessible', 'Not Accessible', 'an optional tech label')
+NotAccessible('NotAccessible', 'Not Accessible', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

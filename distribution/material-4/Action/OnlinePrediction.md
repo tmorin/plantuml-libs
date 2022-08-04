@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/OnlinePrediction')
 
 ' renders the element
-OnlinePrediction('OnlinePrediction', 'Online Prediction', 'an optional tech label')
+OnlinePrediction('OnlinePrediction', 'Online Prediction', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/OnlinePrediction')
 
 ' renders the element
-OnlinePrediction('OnlinePrediction', 'Online Prediction', 'an optional tech label')
+OnlinePrediction('OnlinePrediction', 'Online Prediction', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

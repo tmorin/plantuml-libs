@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/Replay')
 
 ' renders the element
-Replay('Replay', 'Replay', 'an optional tech label')
+Replay('Replay', 'Replay', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/Replay')
 
 ' renders the element
-Replay('Replay', 'Replay', 'an optional tech label')
+Replay('Replay', 'Replay', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

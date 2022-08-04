@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Places/NightShelter')
 
 ' renders the element
-NightShelter('NightShelter', 'Night Shelter', 'an optional tech label')
+NightShelter('NightShelter', 'Night Shelter', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Places/NightShelter')
 
 ' renders the element
-NightShelter('NightShelter', 'Night Shelter', 'an optional tech label')
+NightShelter('NightShelter', 'Night Shelter', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Places/ChildCare')
 
 ' renders the element
-ChildCare('ChildCare', 'Child Care', 'an optional tech label')
+ChildCare('ChildCare', 'Child Care', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Places/ChildCare')
 
 ' renders the element
-ChildCare('ChildCare', 'Child Care', 'an optional tech label')
+ChildCare('ChildCare', 'Child Care', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

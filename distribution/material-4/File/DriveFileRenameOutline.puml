@@ -8,6 +8,6 @@ sprite $DriveFileRenameOutlineMd [16x16/16z] dSsr0S0m34HH-JhZtt_QC7CiVfMiDaJPqW5
 
 sprite $DriveFileRenameOutlineLg [20x20/16z] hSg53S103C30V9aIxpzjcPaiFbd-AjY80xO4kYLOKMYGBSaJ9LzI8FdsAcvTkhXal5nO5tGMTvUZoJfJRI-R6zFLsASg
 
-!procedure DriveFileRenameOutline($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/File/DriveFileRenameOutline', $name, $tech)
+!procedure DriveFileRenameOutline($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/File/DriveFileRenameOutline', $name, $tech, $desc)
 !endprocedure

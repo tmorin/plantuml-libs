@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Device/LocationSearching')
 
 ' renders the element
-LocationSearching('LocationSearching', 'Location Searching', 'an optional tech label')
+LocationSearching('LocationSearching', 'Location Searching', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Device/LocationSearching')
 
 ' renders the element
-LocationSearching('LocationSearching', 'Location Searching', 'an optional tech label')
+LocationSearching('LocationSearching', 'Location Searching', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

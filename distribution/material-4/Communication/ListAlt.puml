@@ -8,6 +8,6 @@ sprite $ListAltMd [16x16/16z] XOe55eHG30EtYyFavVwdnLtdInlvVP9fXK7BBFW_QDRgelt_ss
 
 sprite $ListAltLg [20x20/16z] fSw50S0m20J0ZplilstTlRcu0khmHXxsebqm3NiMYsMldNbksTKUPJXg6To_zGxQjzJ3VqAWRLt_FHThe6nBthxT6FOAhNcyrW
 
-!procedure ListAlt($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Communication/ListAlt', $name, $tech)
+!procedure ListAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/ListAlt', $name, $tech, $desc)
 !endprocedure

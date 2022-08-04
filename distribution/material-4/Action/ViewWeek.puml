@@ -8,6 +8,6 @@ sprite $ViewWeekMd [16x16/16z] Oo0PC3CpWGW61YOW0IJv-VaPUFZvUHc032OedvT-V4OGdvkVd
 
 sprite $ViewWeekLg [20x20/16z] Ow0wOEFaP6DWuE3aP0MJp20nVY1WO0IJh4225ox611VZ6p9YZ60U2v3aeNxe0G
 
-!procedure ViewWeek($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/ViewWeek', $name, $tech)
+!procedure ViewWeek($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/ViewWeek', $name, $tech, $desc)
 !endprocedure

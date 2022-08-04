@@ -8,9 +8,9 @@ sprite $FilterVintageMd [16x16/16z] ROq50a0H6CPU9tR_q-fcSf_ubpaNZQxG15_bFxmIE0Gy
 
 sprite $FilterVintageLg [20x20/16z] {
 VSw5KGL034NHh7jk_zqo3_WkPsGbQjzK3_OaWTiJW6eF0jmdDeULaNfWgwtpI7y5wS7IGKnSNzT1pIGS1QM3WXBy_wyoJ7I3Q3Al-m2Swv9Bju5uAnFaCXRd
-Icr2coD79DGvYbq1R7jqKDKJcFOijElr1m
+Icr2coD59DGvYbq1R7jqKDKJcFOijElr1m
 }
 
-!procedure FilterVintage($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/FilterVintage', $name, $tech)
+!procedure FilterVintage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/FilterVintage', $name, $tech, $desc)
 !endprocedure

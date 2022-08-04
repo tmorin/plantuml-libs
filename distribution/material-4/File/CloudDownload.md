@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/File/CloudDownload')
 
 ' renders the element
-CloudDownload('CloudDownload', 'Cloud Download', 'an optional tech label')
+CloudDownload('CloudDownload', 'Cloud Download', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/File/CloudDownload')
 
 ' renders the element
-CloudDownload('CloudDownload', 'Cloud Download', 'an optional tech label')
+CloudDownload('CloudDownload', 'Cloud Download', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

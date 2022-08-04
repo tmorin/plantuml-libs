@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/PhoneMissed')
 
 ' renders the element
-PhoneMissed('PhoneMissed', 'Phone Missed', 'an optional tech label')
+PhoneMissed('PhoneMissed', 'Phone Missed', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/PhoneMissed')
 
 ' renders the element
-PhoneMissed('PhoneMissed', 'Phone Missed', 'an optional tech label')
+PhoneMissed('PhoneMissed', 'Phone Missed', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,6 +8,6 @@ sprite $NorthMd [16x16/16z] Oo0EiFCpedBvGG88BZi_3pyJWilAnCy05s3aPsK0yXbu-E0QG7m4
 
 sprite $NorthLg [20x20/16z] rSg53O100C30uaxtdnPtOX__nYybj6pya_P_ql5BdQtzcwXDciUPQheQpUCSO3EQahl382eh-uVzcm4
 
-!procedure North($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Navigation/North', $name, $tech)
+!procedure North($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Navigation/North', $name, $tech, $desc)
 !endprocedure

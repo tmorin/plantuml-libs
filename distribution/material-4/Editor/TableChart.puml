@@ -8,6 +8,6 @@ sprite $TableChartMd [16x16/16z] Oo0Ck7bXW8SPoENXHm90FYyQdui72Q2R1T7Fmm1KoiGCrG_
 
 sprite $TableChartLg [20x20/16z] pSZ50S0m30D0XJdPVzlgMMOwit5DQGCIr8Roxjy2HO0aIAuIr0Yg4G9R_j4lWbof5R8IVAq9ktK
 
-!procedure TableChart($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Editor/TableChart', $name, $tech)
+!procedure TableChart($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/TableChart', $name, $tech, $desc)
 !endprocedure

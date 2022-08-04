@@ -8,6 +8,6 @@ sprite $PortraitMd [16x16/16z] XSt50O1G30FGf3XKzfyMT_llLWtIEjlKKwcXcv2nDiNcg5bTw
 
 sprite $PortraitLg [20x20/16z] fStL0SCm54DHCzjt_sdB3NFEvmD9t5CPSfyPoVMetvaJFThsJ4AUpX8mdHbeippjZtJenhUadsa-sd2ctDTstaZvp7njlQh4OKy
 
-!procedure Portrait($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/Portrait', $name, $tech)
+!procedure Portrait($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/Portrait', $name, $tech, $desc)
 !endprocedure

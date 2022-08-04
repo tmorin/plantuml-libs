@@ -8,6 +8,6 @@ sprite $LocalPlayMd [16x16/16z] bOt50GGW40E3E_HVBQwVaq7N4lnDkd007JyxdXtZZSMEmL8Y
 
 sprite $LocalPlayLg [20x20/16z] fOx50S0W5CM2E-o_RTtBYQ3V7sDeSqSnqrxeco_kRxvycQ_FK2vVRQr6Rq6wa9OUpCoDF2jYZaiMx5w0Q3DRi1nVrsRygQ-0XUTSxsQ_l7mNNLy4_Cl741C
 
-!procedure LocalPlay($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/LocalPlay', $name, $tech)
+!procedure LocalPlay($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/LocalPlay', $name, $tech, $desc)
 !endprocedure

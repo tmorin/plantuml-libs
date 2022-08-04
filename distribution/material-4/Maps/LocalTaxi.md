@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalTaxi')
 
 ' renders the element
-LocalTaxi('LocalTaxi', 'Local Taxi', 'an optional tech label')
+LocalTaxi('LocalTaxi', 'Local Taxi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalTaxi')
 
 ' renders the element
-LocalTaxi('LocalTaxi', 'Local Taxi', 'an optional tech label')
+LocalTaxi('LocalTaxi', 'Local Taxi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

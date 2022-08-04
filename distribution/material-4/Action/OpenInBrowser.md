@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/OpenInBrowser')
 
 ' renders the element
-OpenInBrowser('OpenInBrowser', 'Open In Browser', 'an optional tech label')
+OpenInBrowser('OpenInBrowser', 'Open In Browser', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/OpenInBrowser')
 
 ' renders the element
-OpenInBrowser('OpenInBrowser', 'Open In Browser', 'an optional tech label')
+OpenInBrowser('OpenInBrowser', 'Open In Browser', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

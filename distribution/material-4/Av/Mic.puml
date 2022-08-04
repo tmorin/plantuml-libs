@@ -8,6 +8,6 @@ sprite $MicMd [16x16/16z] bSUr0GD100InzJ5F_zMQ-LcPjE3qCmDylm7cw_tGpVFcMPG06VI0K-
 
 sprite $MicLg [20x20/16z] jSg30GGm44JH7plJVxLdcozOyYOhTIvefLwkhVsnvpD6QvZCJXHefQopFGNSK8NPs2kohDLrt6kgmQSfpucWbM4uLsIub6_qqZIyQGa
 
-!procedure Mic($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Av/Mic', $name, $tech)
+!procedure Mic($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/Mic', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Places/HotTub')
 
 ' renders the element
-HotTub('HotTub', 'Hot Tub', 'an optional tech label')
+HotTub('HotTub', 'Hot Tub', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Places/HotTub')
 
 ' renders the element
-HotTub('HotTub', 'Hot Tub', 'an optional tech label')
+HotTub('HotTub', 'Hot Tub', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

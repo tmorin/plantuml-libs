@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/Airplay')
 
 ' renders the element
-Airplay('Airplay', 'Airplay', 'an optional tech label')
+Airplay('Airplay', 'Airplay', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/Airplay')
 
 ' renders the element
-Airplay('Airplay', 'Airplay', 'an optional tech label')
+Airplay('Airplay', 'Airplay', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/DiscFull')
 
 ' renders the element
-DiscFull('DiscFull', 'Disc Full', 'an optional tech label')
+DiscFull('DiscFull', 'Disc Full', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/DiscFull')
 
 ' renders the element
-DiscFull('DiscFull', 'Disc Full', 'an optional tech label')
+DiscFull('DiscFull', 'Disc Full', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

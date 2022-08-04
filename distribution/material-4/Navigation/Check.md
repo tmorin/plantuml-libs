@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/Check')
 
 ' renders the element
-Check('Check', 'Check', 'an optional tech label')
+Check('Check', 'Check', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/Check')
 
 ' renders the element
-Check('Check', 'Check', 'an optional tech label')
+Check('Check', 'Check', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

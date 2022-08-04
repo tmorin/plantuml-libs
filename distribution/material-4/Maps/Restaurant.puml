@@ -8,6 +8,6 @@ sprite $RestaurantMd [16x16/16z] hSUr0O0054F1Xsj-zfyMToYvxdX94b98Zwl7QMeWd5ult-_
 
 sprite $RestaurantLg [20x20/16z] lSY53S0m00D1XpdUVzeoiwWlUXs-HmjMU0e0clLeWIUJF9jvDYTPPTZR53QMHqfRGvbeQn0aS31C1gX_BUTfP4wuh0K
 
-!procedure Restaurant($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/Restaurant', $name, $tech)
+!procedure Restaurant($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/Restaurant', $name, $tech, $desc)
 !endprocedure

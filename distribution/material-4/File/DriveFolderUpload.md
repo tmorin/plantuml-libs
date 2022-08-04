@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/File/DriveFolderUpload')
 
 ' renders the element
-DriveFolderUpload('DriveFolderUpload', 'Drive Folder Upload', 'an optional tech label')
+DriveFolderUpload('DriveFolderUpload', 'Drive Folder Upload', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/File/DriveFolderUpload')
 
 ' renders the element
-DriveFolderUpload('DriveFolderUpload', 'Drive Folder Upload', 'an optional tech label')
+DriveFolderUpload('DriveFolderUpload', 'Drive Folder Upload', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

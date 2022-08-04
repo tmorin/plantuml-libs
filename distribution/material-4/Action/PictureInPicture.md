@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/PictureInPicture')
 
 ' renders the element
-PictureInPicture('PictureInPicture', 'Picture In Picture', 'an optional tech label')
+PictureInPicture('PictureInPicture', 'Picture In Picture', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/PictureInPicture')
 
 ' renders the element
-PictureInPicture('PictureInPicture', 'Picture In Picture', 'an optional tech label')
+PictureInPicture('PictureInPicture', 'Picture In Picture', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

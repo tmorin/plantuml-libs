@@ -6,8 +6,8 @@ sprite $FilterListSm [12x12/16z] Oo0AyC00aCqC0nYA-4601OjsBXucE9kP1QzD
 
 sprite $FilterListMd [16x16/16z] Ow0OSF8W01EGpuN6nmICJ100u_FmGm0ByPRoy_EYy9bPcCbpFG
 
-sprite $FilterListLg [20x20/16z] Ow0Fu441N60nVXJ0HwA9R1mmm8Im1MuQ2roC4Gu86id8oigABiOCD0n38GiBCwq22W
+sprite $FilterListLg [20x20/16z] Ow0Fu441N60nVXJ0HwA9R1mmm8Im1MuQ2roC4Gu86id8oigABiOCD8m1Gv25cLO11G
 
-!procedure FilterList($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Content/FilterList', $name, $tech)
+!procedure FilterList($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/FilterList', $name, $tech, $desc)
 !endprocedure

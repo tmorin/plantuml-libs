@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Backup')
 
 ' renders the element
-Backup('Backup', 'Backup', 'an optional tech label')
+Backup('Backup', 'Backup', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Backup')
 
 ' renders the element
-Backup('Backup', 'Backup', 'an optional tech label')
+Backup('Backup', 'Backup', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

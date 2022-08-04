@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Places/FireExtinguisher')
 
 ' renders the element
-FireExtinguisher('FireExtinguisher', 'Fire Extinguisher', 'an optional tech label')
+FireExtinguisher('FireExtinguisher', 'Fire Extinguisher', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Places/FireExtinguisher')
 
 ' renders the element
-FireExtinguisher('FireExtinguisher', 'Fire Extinguisher', 'an optional tech label')
+FireExtinguisher('FireExtinguisher', 'Fire Extinguisher', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

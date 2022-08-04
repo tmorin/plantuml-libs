@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/FormatColorText')
 
 ' renders the element
-FormatColorText('FormatColorText', 'Format Color Text', 'an optional tech label')
+FormatColorText('FormatColorText', 'Format Color Text', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/FormatColorText')
 
 ' renders the element
-FormatColorText('FormatColorText', 'Format Color Text', 'an optional tech label')
+FormatColorText('FormatColorText', 'Format Color Text', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

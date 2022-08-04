@@ -8,6 +8,6 @@ sprite $CropDinMd [16x16/16z] Oo0Ck7bXW0F4vU7dWG5-9Y2VbmUkSb3mEVaHW14aoWG7Z9YU0m
 
 sprite $CropDinLg [20x20/16z] Ow0CyF8Z0pQm63yN6mBmyqB4s90qyVCDBp4Km0CMO-VbGm1U9k835
 
-!procedure CropDin($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/CropDin', $name, $tech)
+!procedure CropDin($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/CropDin', $name, $tech, $desc)
 !endprocedure

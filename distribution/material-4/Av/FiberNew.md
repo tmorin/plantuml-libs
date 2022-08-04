@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/FiberNew')
 
 ' renders the element
-FiberNew('FiberNew', 'Fiber New', 'an optional tech label')
+FiberNew('FiberNew', 'Fiber New', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/FiberNew')
 
 ' renders the element
-FiberNew('FiberNew', 'Fiber New', 'an optional tech label')
+FiberNew('FiberNew', 'Fiber New', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/DragHandle')
 
 ' renders the element
-DragHandle('DragHandle', 'Drag Handle', 'an optional tech label')
+DragHandle('DragHandle', 'Drag Handle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/DragHandle')
 
 ' renders the element
-DragHandle('DragHandle', 'Drag Handle', 'an optional tech label')
+DragHandle('DragHandle', 'Drag Handle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

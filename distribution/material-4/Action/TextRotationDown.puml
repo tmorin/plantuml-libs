@@ -8,6 +8,6 @@ sprite $TextRotationDownMd [16x16/16z] bOl50S0m00A9UzX_shfxxuNYFufd7yNULnQrsmUIT
 
 sprite $TextRotationDownLg [20x20/16z] hOyt5eGm30KbvpptF-qkT7uo7Kofy8EyHSzHvNdcYXup3qFjhvimez6htEDYPY9Qc6Rc9wHzre0HTZq5kisoicnCMCMsNLGvAF8PVm
 
-!procedure TextRotationDown($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/TextRotationDown', $name, $tech)
+!procedure TextRotationDown($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/TextRotationDown', $name, $tech, $desc)
 !endprocedure

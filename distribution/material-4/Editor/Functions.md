@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/Functions')
 
 ' renders the element
-Functions('Functions', 'Functions', 'an optional tech label')
+Functions('Functions', 'Functions', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/Functions')
 
 ' renders the element
-Functions('Functions', 'Functions', 'an optional tech label')
+Functions('Functions', 'Functions', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

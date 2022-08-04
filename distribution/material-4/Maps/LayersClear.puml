@@ -1,16 +1,16 @@
 ' definition of the Item material-4/Maps/LayersClear
 
-sprite $LayersClearXs [10x10/16z] HSor0G1148NGl-v3_zMU2z6BqD-A4WzJvMOb7dI7W5Wm7Ss3_WJEisAvE8GbdHMksTSE
+sprite $LayersClearXs [10x10/16z] HSor0G1148NGl-v3_zMU2z6BqD-A4WzJvMOb7dI7W5Wm7Ss3_WJEisAzE8GbdHMksTSE
 
 sprite $LayersClearSm [12x12/16z] JOl50GGn08HOruJ-gps9ynk1aVC1ZXAU1uqbX7-Gr6iAAx2eBqeYXOGtqPyJaolJv4FYS7T-IfW4YbBu0W
 
 sprite $LayersClearMd [16x16/16z] ROw30S1040GtTgR_QeEtvhbdLL3e4tDDmN2W0TY3uK8ZS3kvWOrW-EK4mQ2VtXikEMvZwAmOwNKOGu_hjsZYdyCnSqeT14CFl-qW6MdvC-zWwDNc1G
 
 sprite $LayersClearLg [20x20/16z] {
-ZP053WGn4CDcovp___OQvPYzMCjImTuIuwkR2Fn4tCkENJO0uRxSic1JtibnLHm6IHnI0uIblffnmp83M2RSkfRLhWoeTDSfzcmPAXsyaSRP732ueqodIP8T
-sKopYWFendH9YewPMFMRr2HtfoH2rxVQtvm
+ZP054iGm4CFSXj7__-rbwsDMMTLC06y9uTKD-kCNxsNZAYj9VrykcRd8xsI_AllqajoaEWqhzTI81nw9v8JOvxKikDAfShyEqO54bJiTZ6gZxMGVDhev3HAn
+9K2ZYerii7HAYiOHhMetgK7kTadufcV1tvm
 }
 
-!procedure LayersClear($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/LayersClear', $name, $tech)
+!procedure LayersClear($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/LayersClear', $name, $tech, $desc)
 !endprocedure

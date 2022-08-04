@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/PanoramaFishEye')
 
 ' renders the element
-PanoramaFishEye('PanoramaFishEye', 'Panorama Fish Eye', 'an optional tech label')
+PanoramaFishEye('PanoramaFishEye', 'Panorama Fish Eye', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/PanoramaFishEye')
 
 ' renders the element
-PanoramaFishEye('PanoramaFishEye', 'Panorama Fish Eye', 'an optional tech label')
+PanoramaFishEye('PanoramaFishEye', 'Panorama Fish Eye', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

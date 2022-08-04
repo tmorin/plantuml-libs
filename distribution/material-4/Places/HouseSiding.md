@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Places/HouseSiding')
 
 ' renders the element
-HouseSiding('HouseSiding', 'House Siding', 'an optional tech label')
+HouseSiding('HouseSiding', 'House Siding', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Places/HouseSiding')
 
 ' renders the element
-HouseSiding('HouseSiding', 'House Siding', 'an optional tech label')
+HouseSiding('HouseSiding', 'House Siding', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

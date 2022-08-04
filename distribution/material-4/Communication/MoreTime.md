@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/MoreTime')
 
 ' renders the element
-MoreTime('MoreTime', 'More Time', 'an optional tech label')
+MoreTime('MoreTime', 'More Time', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/MoreTime')
 
 ' renders the element
-MoreTime('MoreTime', 'More Time', 'an optional tech label')
+MoreTime('MoreTime', 'More Time', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

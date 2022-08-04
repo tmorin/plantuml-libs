@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Places/Microwave')
 
 ' renders the element
-Microwave('Microwave', 'Microwave', 'an optional tech label')
+Microwave('Microwave', 'Microwave', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Places/Microwave')
 
 ' renders the element
-Microwave('Microwave', 'Microwave', 'an optional tech label')
+Microwave('Microwave', 'Microwave', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

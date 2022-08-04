@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/WbTwighlight')
 
 ' renders the element
-WbTwighlight('WbTwighlight', 'Wb Twighlight', 'an optional tech label')
+WbTwighlight('WbTwighlight', 'Wb Twighlight', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/WbTwighlight')
 
 ' renders the element
-WbTwighlight('WbTwighlight', 'Wb Twighlight', 'an optional tech label')
+WbTwighlight('WbTwighlight', 'Wb Twighlight', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

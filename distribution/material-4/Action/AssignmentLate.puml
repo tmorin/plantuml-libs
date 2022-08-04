@@ -8,6 +8,6 @@ sprite $AssignmentLateMd [16x16/16z] bSt50S1G20FGbBg4x3zjtVs_4mxkkQerhabNAfB5a3O
 
 sprite $AssignmentLateLg [20x20/16z] jS-r0S00449Huign_xHnTttbhm07dCnYBAWIOK3LOgWHegPMgWQ7DhAJ5i5-RerLOtfj2_Fz7pbg4Mr45vUL
 
-!procedure AssignmentLate($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/AssignmentLate', $name, $tech)
+!procedure AssignmentLate($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/AssignmentLate', $name, $tech, $desc)
 !endprocedure

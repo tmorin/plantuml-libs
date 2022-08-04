@@ -8,6 +8,6 @@ sprite $UpgradeMd [16x16/16z] Oo0FCFAXS9du-NcH-Joy_3nSg0g011NvQB8y88319mO
 
 sprite $UpgradeLg [20x20/16z] Ow0AOC8KukHdmXJYXmiYX3056JZu6O4a_SLOkOZnB0yOSA28yOC15-KX2G
 
-!procedure Upgrade($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/Upgrade', $name, $tech)
+!procedure Upgrade($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Upgrade', $name, $tech, $desc)
 !endprocedure

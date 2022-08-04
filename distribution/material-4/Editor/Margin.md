@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/Margin')
 
 ' renders the element
-Margin('Margin', 'Margin', 'an optional tech label')
+Margin('Margin', 'Margin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/Margin')
 
 ' renders the element
-Margin('Margin', 'Margin', 'an optional tech label')
+Margin('Margin', 'Margin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,6 +8,6 @@ sprite $DuoMd [16x16/16z] RSi54iHG20HHO7qZS__JVkruken7rTXz7YqqI5GL8Yp2mycIelJKhz
 
 sprite $DuoLg [20x20/16z] bS_L0GCX54JHMS5b-gysWaDqx-T17wwbs7eLqYMo7FDFadmrlbYwBAQwzRSepOjjU3KaSvEfP0f0RCPeIUu01EVm-Z-Px7YPuj7vGezsprIK69FMgGsVkmC
 
-!procedure Duo($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Communication/Duo', $name, $tech)
+!procedure Duo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/Duo', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Toll')
 
 ' renders the element
-Toll('Toll', 'Toll', 'an optional tech label')
+Toll('Toll', 'Toll', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Toll')
 
 ' renders the element
-Toll('Toll', 'Toll', 'an optional tech label')
+Toll('Toll', 'Toll', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

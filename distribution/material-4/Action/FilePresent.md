@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/FilePresent')
 
 ' renders the element
-FilePresent('FilePresent', 'File Present', 'an optional tech label')
+FilePresent('FilePresent', 'File Present', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/FilePresent')
 
 ' renders the element
-FilePresent('FilePresent', 'File Present', 'an optional tech label')
+FilePresent('FilePresent', 'File Present', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

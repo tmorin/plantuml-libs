@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/FilterNone')
 
 ' renders the element
-FilterNone('FilterNone', 'Filter None', 'an optional tech label')
+FilterNone('FilterNone', 'Filter None', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/FilterNone')
 
 ' renders the element
-FilterNone('FilterNone', 'Filter None', 'an optional tech label')
+FilterNone('FilterNone', 'Filter None', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

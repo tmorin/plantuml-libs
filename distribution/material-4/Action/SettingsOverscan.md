@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/SettingsOverscan')
 
 ' renders the element
-SettingsOverscan('SettingsOverscan', 'Settings Overscan', 'an optional tech label')
+SettingsOverscan('SettingsOverscan', 'Settings Overscan', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/SettingsOverscan')
 
 ' renders the element
-SettingsOverscan('SettingsOverscan', 'Settings Overscan', 'an optional tech label')
+SettingsOverscan('SettingsOverscan', 'Settings Overscan', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

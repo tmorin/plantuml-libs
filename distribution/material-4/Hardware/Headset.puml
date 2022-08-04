@@ -6,8 +6,8 @@ sprite $HeadsetSm [12x12/16z] VKo30G1H53hxQlzflwrdL5DX87dRaOSgB_Jugr6tNP_jTsQSJI
 
 sprite $HeadsetMd [16x16/16z] XOg50G0n20Chr87iF-sxwrKEYNd22e2ojGKIgG1-RZDeSeMTZBZaHCO_mYougMfYLk3655zwg8vkgakFJ_EbZuVUZ2JciQ_CtlpI0m
 
-sprite $HeadsetLg [20x20/16z] hO_L0KCn24NXQGpk_jDMu_BLdYWEj6Ptek7cMgNuOhE60SDlPu5FEc2BFm_p_TouA27Wc8moHxJ3KI5cn5NhPABJ-AY6RsRLf0F-z9DH5uVRQbsWttW2
+sprite $HeadsetLg [20x20/16z] hK_L0GCX53l5IVQVjeRRLm_dIMHRZzDuEBbNaHqCGvSGgVPliQTDCVA8BqiL7f8YjtW6JB0WNp5FKz55H8ewvYSnn0jm0Hb8CVAXbv_4WhcZZhdjl_46
 
-!procedure Headset($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Hardware/Headset', $name, $tech)
+!procedure Headset($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Hardware/Headset', $name, $tech, $desc)
 !endprocedure

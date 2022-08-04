@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Stars')
 
 ' renders the element
-Stars('Stars', 'Stars', 'an optional tech label')
+Stars('Stars', 'Stars', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Stars')
 
 ' renders the element
-Stars('Stars', 'Stars', 'an optional tech label')
+Stars('Stars', 'Stars', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

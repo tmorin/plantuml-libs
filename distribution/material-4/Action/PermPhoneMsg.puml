@@ -4,10 +4,10 @@ sprite $PermPhoneMsgXs [10x10/16z] Oy0A-FaP-FY110gB2yZYuG6os3WOU64AaVJmWDI10IE8X
 
 sprite $PermPhoneMsgSm [12x12/16z] TSR50O0m0C30u4xsdnPtsdiTKTepkjXkyBKmZccQiX063eNSQYbLDfah3jcWFCq
 
-sprite $PermPhoneMsgMd [16x16/16z] XSm54W9034FHlwvjxdzR1dTuevM4lxBPX6L74TYIm7LqdCVBd2MbXnd9U9pD0NUkeX8OTrCySmKeAqSkJBNU-ewwz30VZUVvA4RU7
+sprite $PermPhoneMsgMd [16x16/16z] XSX50iKm481GwcsI6Uv_sk-kRmVyDKOKg77K0qs5zEZOsqkFwl3GQF3OaK0cLxq317T5dgKTJ7NikGZdsOFRMFNUzzFpgEzvimS
 
 sprite $PermPhoneMsgLg [20x20/16z] fSu35aHH30FGFBFD_bSxvZVkSHcSmniFA1_qKuiJjJ9Haq6jJSnvik9HwpVj_HZtck97P0OW-2Dq638aHYmPxZUeadwBFVramJlbg0OZezgz6agNZCsk
 
-!procedure PermPhoneMsg($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/PermPhoneMsg', $name, $tech)
+!procedure PermPhoneMsg($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/PermPhoneMsg', $name, $tech, $desc)
 !endprocedure

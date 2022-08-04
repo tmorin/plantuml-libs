@@ -8,6 +8,6 @@ sprite $GamepadMd [16x16/16z] dOx50S102C02r8tzjwsxNrx1uH9HrMrSkxlzYBCkbb6bhkkKh0
 
 sprite $GamepadLg [20x20/16z] jOy53WH1409hXjZT2l__xRgxLQpJ1d2Dw8htUc7QYoK1sLbNWok4SlXNPLhrscRLclPoaAUzwXUQzgf3eRPNqVxIntdJ2hOf
 
-!procedure Gamepad($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Hardware/Gamepad', $name, $tech)
+!procedure Gamepad($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Hardware/Gamepad', $name, $tech, $desc)
 !endprocedure

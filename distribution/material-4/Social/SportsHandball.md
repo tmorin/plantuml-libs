@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/SportsHandball')
 
 ' renders the element
-SportsHandball('SportsHandball', 'Sports Handball', 'an optional tech label')
+SportsHandball('SportsHandball', 'Sports Handball', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/SportsHandball')
 
 ' renders the element
-SportsHandball('SportsHandball', 'Sports Handball', 'an optional tech label')
+SportsHandball('SportsHandball', 'Sports Handball', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

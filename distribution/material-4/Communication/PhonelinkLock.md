@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/PhonelinkLock')
 
 ' renders the element
-PhonelinkLock('PhonelinkLock', 'Phonelink Lock', 'an optional tech label')
+PhonelinkLock('PhonelinkLock', 'Phonelink Lock', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/PhonelinkLock')
 
 ' renders the element
-PhonelinkLock('PhonelinkLock', 'Phonelink Lock', 'an optional tech label')
+PhonelinkLock('PhonelinkLock', 'Phonelink Lock', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/OutdoorGrill')
 
 ' renders the element
-OutdoorGrill('OutdoorGrill', 'Outdoor Grill', 'an optional tech label')
+OutdoorGrill('OutdoorGrill', 'Outdoor Grill', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/OutdoorGrill')
 
 ' renders the element
-OutdoorGrill('OutdoorGrill', 'Outdoor Grill', 'an optional tech label')
+OutdoorGrill('OutdoorGrill', 'Outdoor Grill', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

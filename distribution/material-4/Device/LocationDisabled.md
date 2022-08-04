@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Device/LocationDisabled')
 
 ' renders the element
-LocationDisabled('LocationDisabled', 'Location Disabled', 'an optional tech label')
+LocationDisabled('LocationDisabled', 'Location Disabled', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Device/LocationDisabled')
 
 ' renders the element
-LocationDisabled('LocationDisabled', 'Location Disabled', 'an optional tech label')
+LocationDisabled('LocationDisabled', 'Location Disabled', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

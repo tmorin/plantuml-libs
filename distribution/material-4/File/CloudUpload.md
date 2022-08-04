@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/File/CloudUpload')
 
 ' renders the element
-CloudUpload('CloudUpload', 'Cloud Upload', 'an optional tech label')
+CloudUpload('CloudUpload', 'Cloud Upload', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/File/CloudUpload')
 
 ' renders the element
-CloudUpload('CloudUpload', 'Cloud Upload', 'an optional tech label')
+CloudUpload('CloudUpload', 'Cloud Upload', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

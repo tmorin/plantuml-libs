@@ -4,10 +4,10 @@ sprite $FoundationXs [10x10/16z] TSYr0S1040CmXJdUVzf0TTMhCMZOqm7NcKoGHTmx_KviFJP
 
 sprite $FoundationSm [12x12/16z] Oy07cFdXJ5P-Vdv629E3du6VaPy9nEG1AW0X5WO6HYO86o81POEPC80cpi0CHIW
 
-sprite $FoundationMd [16x16/16z] ZOu55eL030E_uAJa_hUbXkkiJjvAFo-fjqfsA_jImQm_oeywfVxPQwI71jUIj2EMqq-Ni_z-VdvsFzy9HNBymW7eqFLmtlX1AuAlpum
+sprite $FoundationMd [16x16/16z] ZSw54S0W00H1WllrNstS7TyVJFmixaY8EpNq9Q-K54a_p5IaFketrP46XYr3phZRh9PotBzwt1yBfSnTJivvxdVxXSpzZ_8uVvSE
 
 sprite $FoundationLg [20x20/16z] hOo34KL100Dpzct_rNxRU3lAH5g2XBsrAc3kBV2Nrg1d78HBgoXZp2GT70D9Mq-Qr9rb0Hsy0ctdsNhXMQiTvSAJddfmoTnviHDZRAIuLU73lpzP0m
 
-!procedure Foundation($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Places/Foundation', $name, $tech)
+!procedure Foundation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/Foundation', $name, $tech, $desc)
 !endprocedure

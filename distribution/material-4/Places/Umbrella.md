@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Places/Umbrella')
 
 ' renders the element
-Umbrella('Umbrella', 'Umbrella', 'an optional tech label')
+Umbrella('Umbrella', 'Umbrella', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Places/Umbrella')
 
 ' renders the element
-Umbrella('Umbrella', 'Umbrella', 'an optional tech label')
+Umbrella('Umbrella', 'Umbrella', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

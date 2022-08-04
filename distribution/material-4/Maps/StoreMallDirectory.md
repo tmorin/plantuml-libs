@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/StoreMallDirectory')
 
 ' renders the element
-StoreMallDirectory('StoreMallDirectory', 'Store Mall Directory', 'an optional tech label')
+StoreMallDirectory('StoreMallDirectory', 'Store Mall Directory', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/StoreMallDirectory')
 
 ' renders the element
-StoreMallDirectory('StoreMallDirectory', 'Store Mall Directory', 'an optional tech label')
+StoreMallDirectory('StoreMallDirectory', 'Store Mall Directory', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

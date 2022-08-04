@@ -8,6 +8,6 @@ sprite $OpenInNewMd [16x16/16z] XST10a002031wWHL__-j1G3CRUHV7r0D6FLogBfNZGyNuF8e
 
 sprite $OpenInNewLg [20x20/16z] fSp50GGn40D1cTdAFzg3PSP-rW3ULTWamN-rCKRx3x3M3MRH9RasKWysR6aiZ5H0JfqDMqsZTLJpOCFMvD-VbcOLLZPqPBDoOwxKiI9nkIy
 
-!procedure OpenInNew($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/OpenInNew', $name, $tech)
+!procedure OpenInNew($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/OpenInNew', $name, $tech, $desc)
 !endprocedure

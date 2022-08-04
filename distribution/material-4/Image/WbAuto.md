@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/WbAuto')
 
 ' renders the element
-WbAuto('WbAuto', 'Wb Auto', 'an optional tech label')
+WbAuto('WbAuto', 'Wb Auto', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/WbAuto')
 
 ' renders the element
-WbAuto('WbAuto', 'Wb Auto', 'an optional tech label')
+WbAuto('WbAuto', 'Wb Auto', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

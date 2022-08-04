@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Places/WheelchairPickup')
 
 ' renders the element
-WheelchairPickup('WheelchairPickup', 'Wheelchair Pickup', 'an optional tech label')
+WheelchairPickup('WheelchairPickup', 'Wheelchair Pickup', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Places/WheelchairPickup')
 
 ' renders the element
-WheelchairPickup('WheelchairPickup', 'Wheelchair Pickup', 'an optional tech label')
+WheelchairPickup('WheelchairPickup', 'Wheelchair Pickup', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

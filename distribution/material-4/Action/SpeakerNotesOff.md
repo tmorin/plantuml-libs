@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/SpeakerNotesOff')
 
 ' renders the element
-SpeakerNotesOff('SpeakerNotesOff', 'Speaker Notes Off', 'an optional tech label')
+SpeakerNotesOff('SpeakerNotesOff', 'Speaker Notes Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/SpeakerNotesOff')
 
 ' renders the element
-SpeakerNotesOff('SpeakerNotesOff', 'Speaker Notes Off', 'an optional tech label')
+SpeakerNotesOff('SpeakerNotesOff', 'Speaker Notes Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

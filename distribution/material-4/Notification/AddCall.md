@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/AddCall')
 
 ' renders the element
-AddCall('AddCall', 'Add Call', 'an optional tech label')
+AddCall('AddCall', 'Add Call', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/AddCall')
 
 ' renders the element
-AddCall('AddCall', 'Add Call', 'an optional tech label')
+AddCall('AddCall', 'Add Call', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

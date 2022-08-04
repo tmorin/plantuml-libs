@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/CropDin')
 
 ' renders the element
-CropDin('CropDin', 'Crop Din', 'an optional tech label')
+CropDin('CropDin', 'Crop Din', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/CropDin')
 
 ' renders the element
-CropDin('CropDin', 'Crop Din', 'an optional tech label')
+CropDin('CropDin', 'Crop Din', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/TableRows')
 
 ' renders the element
-TableRows('TableRows', 'Table Rows', 'an optional tech label')
+TableRows('TableRows', 'Table Rows', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/TableRows')
 
 ' renders the element
-TableRows('TableRows', 'Table Rows', 'an optional tech label')
+TableRows('TableRows', 'Table Rows', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

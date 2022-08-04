@@ -14,6 +14,6 @@ bOy73aGX20MnT-V-jzqG_lO-AIgCBo3_KG5sa2i5zXmBbaYqqW1lFP5EDcjSVhJZ3fTIPntn_j4Izgrb
 l0pZSsPdNIHSbxzE5c2gclor9cwWsFjAwhC5USy9
 }
 
-!procedure AddTask($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/AddTask', $name, $tech)
+!procedure AddTask($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/AddTask', $name, $tech, $desc)
 !endprocedure

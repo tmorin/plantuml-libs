@@ -8,6 +8,6 @@ sprite $CloudDownloadMd [16x16/16z] dOl50SGW00IH93ZJVxKdE9-Jp6jLt280rt2AGcfMql35
 
 sprite $CloudDownloadLg [20x20/16z] fSZ74O1G00BHDMVelri7i-V_BWmBvQgchVbR7JslsfS5Rl9jXAWMXwGCqTgn0jakpTyM4-EtNL7dL1LGrNB8Ze6uZwzza_4TkPDeVBcJMs3nrrPHOWS
 
-!procedure CloudDownload($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/File/CloudDownload', $name, $tech)
+!procedure CloudDownload($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/File/CloudDownload', $name, $tech, $desc)
 !endprocedure

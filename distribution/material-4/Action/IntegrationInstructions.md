@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/IntegrationInstructions')
 
 ' renders the element
-IntegrationInstructions('IntegrationInstructions', 'Integration Instructions', 'an optional tech label')
+IntegrationInstructions('IntegrationInstructions', 'Integration Instructions', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/IntegrationInstructions')
 
 ' renders the element
-IntegrationInstructions('IntegrationInstructions', 'Integration Instructions', 'an optional tech label')
+IntegrationInstructions('IntegrationInstructions', 'Integration Instructions', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

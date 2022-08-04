@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/HomeWork')
 
 ' renders the element
-HomeWork('HomeWork', 'Home Work', 'an optional tech label')
+HomeWork('HomeWork', 'Home Work', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/HomeWork')
 
 ' renders the element
-HomeWork('HomeWork', 'Home Work', 'an optional tech label')
+HomeWork('HomeWork', 'Home Work', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

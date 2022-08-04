@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/HeadsetMic')
 
 ' renders the element
-HeadsetMic('HeadsetMic', 'Headset Mic', 'an optional tech label')
+HeadsetMic('HeadsetMic', 'Headset Mic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/HeadsetMic')
 
 ' renders the element
-HeadsetMic('HeadsetMic', 'Headset Mic', 'an optional tech label')
+HeadsetMic('HeadsetMic', 'Headset Mic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

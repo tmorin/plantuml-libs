@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/AutoAwesomeMotion')
 
 ' renders the element
-AutoAwesomeMotion('AutoAwesomeMotion', 'Auto Awesome Motion', 'an optional tech label')
+AutoAwesomeMotion('AutoAwesomeMotion', 'Auto Awesome Motion', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/AutoAwesomeMotion')
 
 ' renders the element
-AutoAwesomeMotion('AutoAwesomeMotion', 'Auto Awesome Motion', 'an optional tech label')
+AutoAwesomeMotion('AutoAwesomeMotion', 'Auto Awesome Motion', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

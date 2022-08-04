@@ -2,7 +2,7 @@
 
 sprite $StarHalfXs [10x10/16z] Oq05770MFup1mmocsFdv-Pc06CW4KanGUMuW2mA0KXoy41O48m
 
-sprite $StarHalfSm [12x12/16z] PKc30G0n4Clxo-m_RUqUGcnp3PfT2jirps8OvdmbRJ4dXAxD2OEgUJ3BcmAcQ1dXl32D1m
+sprite $StarHalfSm [12x12/16z] PKc30G0n4Clxo-m_RUqUGcnp3PfT2jirps8OvdmbRJ4dXAxD2OEgUJ3BcmAcQ1NXl32D1m
 
 sprite $StarHalfMd [16x16/16z] ZOsr0S1G44Bvxh3_j76jajVTOVZ9U9zHxriipzFANeRQ1xNSucXbqrOiO4Xi7BSw3hZUZqP93lbrgpkUfvSyYkx5pMbeySqC
 
@@ -11,6 +11,6 @@ bSx50SGm34JHCIzO-VrNkw1mSl8x2aV37lTIuLupohKKcEnQwoIq2p6L1j5wpIbugO6B1UV5ijGaHIp8
 xKbPpWQjcXOfQS0N
 }
 
-!procedure StarHalf($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Toggle/StarHalf', $name, $tech)
+!procedure StarHalf($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Toggle/StarHalf', $name, $tech, $desc)
 !endprocedure

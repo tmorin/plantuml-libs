@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/AddToPhotos')
 
 ' renders the element
-AddToPhotos('AddToPhotos', 'Add To Photos', 'an optional tech label')
+AddToPhotos('AddToPhotos', 'Add To Photos', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/AddToPhotos')
 
 ' renders the element
-AddToPhotos('AddToPhotos', 'Add To Photos', 'an optional tech label')
+AddToPhotos('AddToPhotos', 'Add To Photos', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

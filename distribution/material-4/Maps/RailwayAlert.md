@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/RailwayAlert')
 
 ' renders the element
-RailwayAlert('RailwayAlert', 'Railway Alert', 'an optional tech label')
+RailwayAlert('RailwayAlert', 'Railway Alert', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/RailwayAlert')
 
 ' renders the element
-RailwayAlert('RailwayAlert', 'Railway Alert', 'an optional tech label')
+RailwayAlert('RailwayAlert', 'Railway Alert', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

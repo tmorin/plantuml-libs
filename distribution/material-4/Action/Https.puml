@@ -8,6 +8,6 @@ sprite $HttpsMd [16x16/16z] VKo30K0X4Crrtd_QRoFVe_jSsKpz2OlLm7PYA_C39mxJWxp3Q2d6
 
 sprite $HttpsLg [20x20/16z] dOu30WGn54DJkxd_QNV7zYk_Wmjihb6kNPajUfL51uZAfQ_MzXPK2nzp_zYbBsrzXJEkTnak-U8pCcrzfPMtyLL0RNqiuSjSTU23oHC99_m1
 
-!procedure Https($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/Https', $name, $tech)
+!procedure Https($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Https', $name, $tech, $desc)
 !endprocedure

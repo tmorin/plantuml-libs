@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/AssistantDirection')
 
 ' renders the element
-AssistantDirection('AssistantDirection', 'Assistant Direction', 'an optional tech label')
+AssistantDirection('AssistantDirection', 'Assistant Direction', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/AssistantDirection')
 
 ' renders the element
-AssistantDirection('AssistantDirection', 'Assistant Direction', 'an optional tech label')
+AssistantDirection('AssistantDirection', 'Assistant Direction', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

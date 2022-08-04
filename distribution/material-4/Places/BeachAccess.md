@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Places/BeachAccess')
 
 ' renders the element
-BeachAccess('BeachAccess', 'Beach Access', 'an optional tech label')
+BeachAccess('BeachAccess', 'Beach Access', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Places/BeachAccess')
 
 ' renders the element
-BeachAccess('BeachAccess', 'Beach Access', 'an optional tech label')
+BeachAccess('BeachAccess', 'Beach Access', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/FlipCameraAndroid')
 
 ' renders the element
-FlipCameraAndroid('FlipCameraAndroid', 'Flip Camera Android', 'an optional tech label')
+FlipCameraAndroid('FlipCameraAndroid', 'Flip Camera Android', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/FlipCameraAndroid')
 
 ' renders the element
-FlipCameraAndroid('FlipCameraAndroid', 'Flip Camera Android', 'an optional tech label')
+FlipCameraAndroid('FlipCameraAndroid', 'Flip Camera Android', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/SendAndArchive')
 
 ' renders the element
-SendAndArchive('SendAndArchive', 'Send And Archive', 'an optional tech label')
+SendAndArchive('SendAndArchive', 'Send And Archive', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/SendAndArchive')
 
 ' renders the element
-SendAndArchive('SendAndArchive', 'Send And Archive', 'an optional tech label')
+SendAndArchive('SendAndArchive', 'Send And Archive', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

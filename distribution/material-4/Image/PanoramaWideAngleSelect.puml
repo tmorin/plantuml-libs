@@ -8,6 +8,6 @@ sprite $PanoramaWideAngleSelectMd [16x16/16z] bSc53S103CNGVun9zf-sp5mBdupVsKmoLc
 
 sprite $PanoramaWideAngleSelectLg [20x20/16z] fSw33K1H5C3GPrtjF-stZSOdglgTjgx96Zq2oxBIafTrhU61oIPtOEd0uA6L0ulJyfnjh1pycJMnQhC99u2WrQzg
 
-!procedure PanoramaWideAngleSelect($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/PanoramaWideAngleSelect', $name, $tech)
+!procedure PanoramaWideAngleSelect($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/PanoramaWideAngleSelect', $name, $tech, $desc)
 !endprocedure

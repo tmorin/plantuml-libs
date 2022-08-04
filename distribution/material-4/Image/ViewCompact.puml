@@ -8,6 +8,6 @@ sprite $ViewCompactMd [16x16/16z] Oo0PC34Z0I2Vbny94C7dvaK283uV7nyJBny4GDKpmTIJp2
 
 sprite $ViewCompactLg [20x20/16z] Ow0-u4G5x20nVbJ0GwaOEofW1Odn0G4F4nyCSCFqyZ4Zz59TZDe
 
-!procedure ViewCompact($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/ViewCompact', $name, $tech)
+!procedure ViewCompact($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/ViewCompact', $name, $tech, $desc)
 !endprocedure

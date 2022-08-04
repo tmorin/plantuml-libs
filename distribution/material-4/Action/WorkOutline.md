@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/WorkOutline')
 
 ' renders the element
-WorkOutline('WorkOutline', 'Work Outline', 'an optional tech label')
+WorkOutline('WorkOutline', 'Work Outline', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/WorkOutline')
 
 ' renders the element
-WorkOutline('WorkOutline', 'Work Outline', 'an optional tech label')
+WorkOutline('WorkOutline', 'Work Outline', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

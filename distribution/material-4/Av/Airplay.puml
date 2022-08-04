@@ -2,12 +2,12 @@
 
 sprite $AirplayXs [10x10/16z] Oy06-DaWW9-17of2aCK98bav-S5SVgW43mWmC
 
-sprite $AirplaySm [12x12/16z] Oy05-160WHykIYQR7S86cSNBpmwaUK02l40-EqGT8nC801a
+sprite $AirplaySm [12x12/16z] Oy05-160WHykIYQR7S86cSNBpmwakK42l40-EqGT8nC801a
 
 sprite $AirplayMd [16x16/16z] jSYf5SH00CDGp_CkcKlzTnipmw1y9kcDzwabSNQnXLNdVDz_MnetPQSte0571dwAP1n5ioFg0G
 
 sprite $AirplayLg [20x20/16z] pT2r0SKm00DHcTdQVzgFOMZ2hxpoi8Vdb42b7N5qduOH-TGcXYs4021G0YQ4-6cE7z_4Jmpy4ACJSZPd76rk2Qnu0m
 
-!procedure Airplay($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Av/Airplay', $name, $tech)
+!procedure Airplay($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/Airplay', $name, $tech, $desc)
 !endprocedure

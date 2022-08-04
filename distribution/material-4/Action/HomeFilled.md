@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/HomeFilled')
 
 ' renders the element
-HomeFilled('HomeFilled', 'Home Filled', 'an optional tech label')
+HomeFilled('HomeFilled', 'Home Filled', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/HomeFilled')
 
 ' renders the element
-HomeFilled('HomeFilled', 'Home Filled', 'an optional tech label')
+HomeFilled('HomeFilled', 'Home Filled', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

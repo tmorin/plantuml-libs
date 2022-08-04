@@ -1,13 +1,13 @@
 ' definition of the Item material-4/Maps/MultipleStop
 
-sprite $MultipleStopXs [10x10/16z] Oy0DE4442mC_0py_FroC2KK9FuB5niR0XCCW
+sprite $MultipleStopXs [10x10/16z] Oy0DE4442mC_0py_FroC6KK9FuB5niR0XCCW
 
 sprite $MultipleStopSm [12x12/16z] Oo05y4D84EJdvqE8GvYC2056VYHDGC303zTB
 
 sprite $MultipleStopMd [16x16/16z] dOp50SCm303FpDR-qxPX-WHEZ7p7w4ijSqCB9ICZQcvCJZk9v_srL9nGSYcbjKA6lBoNMZC5bLaQdD4yvmy
 
-sprite $MultipleStopLg [20x20/16z] hOsr0SKm50ClR7pQVzhF64FbAuKCOwB4hnLDRt4rq8BfnbjS4-I5P7RNokxS-vWecAoKf48ptJd8nl5sDsdVzuLbXfMFICd6CAu
+sprite $MultipleStopLg [20x20/16z] hOsr0SKm50ClR7pQVzhF64FbAuKCOwB4hnLDRt4rq8BfnbjS4kI5P7RNokxI-vWecAoKf48ptJd8nl5sDsdVzuLbXfMFICd6CAu
 
-!procedure MultipleStop($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/MultipleStop', $name, $tech)
+!procedure MultipleStop($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/MultipleStop', $name, $tech, $desc)
 !endprocedure

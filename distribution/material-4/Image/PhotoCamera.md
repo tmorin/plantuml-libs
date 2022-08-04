@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/PhotoCamera')
 
 ' renders the element
-PhotoCamera('PhotoCamera', 'Photo Camera', 'an optional tech label')
+PhotoCamera('PhotoCamera', 'Photo Camera', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/PhotoCamera')
 
 ' renders the element
-PhotoCamera('PhotoCamera', 'Photo Camera', 'an optional tech label')
+PhotoCamera('PhotoCamera', 'Photo Camera', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Alert/NotificationImportant')
 
 ' renders the element
-NotificationImportant('NotificationImportant', 'Notification Important', 'an optional tech label')
+NotificationImportant('NotificationImportant', 'Notification Important', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Alert/NotificationImportant')
 
 ' renders the element
-NotificationImportant('NotificationImportant', 'Notification Important', 'an optional tech label')
+NotificationImportant('NotificationImportant', 'Notification Important', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,6 +8,6 @@ sprite $ViewListMd [16x16/16z] Oo0TC3CpCJ5309ZFpy_3omy1JDZuJ0W0Ky-3JpqlBpStBmH0-
 
 sprite $ViewListLg [20x20/16z] hSkr0O1050FGS_so_xHuEXnU6J7_yxLMMw4iMLHLfo27MH0HAq1BPhttneCx-1vdLe7DWOFlTVQx4G
 
-!procedure ViewList($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/ViewList', $name, $tech)
+!procedure ViewList($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/ViewList', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Device/SignalCellularConnectedNoInternet4Bar')
 
 ' renders the element
-SignalCellularConnectedNoInternet4Bar('SignalCellularConnectedNoInternet4Bar', 'Signal Cellular Connected No Internet4 Bar', 'an optional tech label')
+SignalCellularConnectedNoInternet4Bar('SignalCellularConnectedNoInternet4Bar', 'Signal Cellular Connected No Internet4 Bar', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Device/SignalCellularConnectedNoInternet4Bar')
 
 ' renders the element
-SignalCellularConnectedNoInternet4Bar('SignalCellularConnectedNoInternet4Bar', 'Signal Cellular Connected No Internet4 Bar', 'an optional tech label')
+SignalCellularConnectedNoInternet4Bar('SignalCellularConnectedNoInternet4Bar', 'Signal Cellular Connected No Internet4 Bar', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Opacity')
 
 ' renders the element
-Opacity('Opacity', 'Opacity', 'an optional tech label')
+Opacity('Opacity', 'Opacity', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Opacity')
 
 ' renders the element
-Opacity('Opacity', 'Opacity', 'an optional tech label')
+Opacity('Opacity', 'Opacity', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

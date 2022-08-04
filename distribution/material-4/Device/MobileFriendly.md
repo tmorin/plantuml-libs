@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Device/MobileFriendly')
 
 ' renders the element
-MobileFriendly('MobileFriendly', 'Mobile Friendly', 'an optional tech label')
+MobileFriendly('MobileFriendly', 'Mobile Friendly', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Device/MobileFriendly')
 
 ' renders the element
-MobileFriendly('MobileFriendly', 'Mobile Friendly', 'an optional tech label')
+MobileFriendly('MobileFriendly', 'Mobile Friendly', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

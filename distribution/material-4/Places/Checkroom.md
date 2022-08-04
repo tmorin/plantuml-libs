@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Places/Checkroom')
 
 ' renders the element
-Checkroom('Checkroom', 'Checkroom', 'an optional tech label')
+Checkroom('Checkroom', 'Checkroom', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Places/Checkroom')
 
 ' renders the element
-Checkroom('Checkroom', 'Checkroom', 'an optional tech label')
+Checkroom('Checkroom', 'Checkroom', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

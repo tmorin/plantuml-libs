@@ -8,6 +8,6 @@ sprite $CropFreeMd [16x16/16z] dKq54e1045gPi63u_sljRcyx8Twbbj2bIYhwbYQ7ddIVnUNoi
 
 sprite $CropFreeLg [20x20/16z] lOwr0SKm50FVXvWjxJzjc9cl4LGdruWaKJRcgAevfPAoAQKOgqz91x7u8Ubz2F8AKvTZ7zbhbREEGDK0nA_i9WC
 
-!procedure CropFree($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/CropFree', $name, $tech)
+!procedure CropFree($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/CropFree', $name, $tech, $desc)
 !endprocedure

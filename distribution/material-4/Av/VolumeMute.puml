@@ -8,6 +8,6 @@ sprite $VolumeMuteMd [16x16/16z] Oo0RiADn-T6uI7nUNbv-P3wGGnAVcPaPmaS0HXWV8O3cFYQ
 
 sprite $VolumeMuteLg [20x20/16z] jSYr0O1G50F0PxXa_scH1WlLbojFIb4k6waST8RtcLdWSpZKkzjo7YUVB3ydlMJR0G
 
-!procedure VolumeMute($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Av/VolumeMute', $name, $tech)
+!procedure VolumeMute($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/VolumeMute', $name, $tech, $desc)
 !endprocedure

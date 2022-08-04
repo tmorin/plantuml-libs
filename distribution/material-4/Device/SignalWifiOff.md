@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Device/SignalWifiOff')
 
 ' renders the element
-SignalWifiOff('SignalWifiOff', 'Signal Wifi Off', 'an optional tech label')
+SignalWifiOff('SignalWifiOff', 'Signal Wifi Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Device/SignalWifiOff')
 
 ' renders the element
-SignalWifiOff('SignalWifiOff', 'Signal Wifi Off', 'an optional tech label')
+SignalWifiOff('SignalWifiOff', 'Signal Wifi Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

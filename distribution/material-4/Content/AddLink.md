@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Content/AddLink')
 
 ' renders the element
-AddLink('AddLink', 'Add Link', 'an optional tech label')
+AddLink('AddLink', 'Add Link', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Content/AddLink')
 
 ' renders the element
-AddLink('AddLink', 'Add Link', 'an optional tech label')
+AddLink('AddLink', 'Add Link', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

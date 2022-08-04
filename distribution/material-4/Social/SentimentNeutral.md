@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/SentimentNeutral')
 
 ' renders the element
-SentimentNeutral('SentimentNeutral', 'Sentiment Neutral', 'an optional tech label')
+SentimentNeutral('SentimentNeutral', 'Sentiment Neutral', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/SentimentNeutral')
 
 ' renders the element
-SentimentNeutral('SentimentNeutral', 'Sentiment Neutral', 'an optional tech label')
+SentimentNeutral('SentimentNeutral', 'Sentiment Neutral', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

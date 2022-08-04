@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/File/RequestQuote')
 
 ' renders the element
-RequestQuote('RequestQuote', 'Request Quote', 'an optional tech label')
+RequestQuote('RequestQuote', 'Request Quote', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/File/RequestQuote')
 
 ' renders the element
-RequestQuote('RequestQuote', 'Request Quote', 'an optional tech label')
+RequestQuote('RequestQuote', 'Request Quote', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

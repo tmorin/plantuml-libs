@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Content/Inbox')
 
 ' renders the element
-Inbox('Inbox', 'Inbox', 'an optional tech label')
+Inbox('Inbox', 'Inbox', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Content/Inbox')
 
 ' renders the element
-Inbox('Inbox', 'Inbox', 'an optional tech label')
+Inbox('Inbox', 'Inbox', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

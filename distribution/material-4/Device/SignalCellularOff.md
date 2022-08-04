@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Device/SignalCellularOff')
 
 ' renders the element
-SignalCellularOff('SignalCellularOff', 'Signal Cellular Off', 'an optional tech label')
+SignalCellularOff('SignalCellularOff', 'Signal Cellular Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Device/SignalCellularOff')
 
 ' renders the element
-SignalCellularOff('SignalCellularOff', 'Signal Cellular Off', 'an optional tech label')
+SignalCellularOff('SignalCellularOff', 'Signal Cellular Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,6 +8,6 @@ sprite $LogoutMd [16x16/16z] XSY54S0m3C10Gvcy_xQzCCSwV87QyPem4EKnHPD0gl1BfH_1OBA
 
 sprite $LogoutLg [20x20/16z] fT235K0n30NGrCxRVzfl6_Um2EcNZ9wa6RBjq08YBUplolxE8U__1V1yvmUCFDrXPiOxCM2uRJx0xkkwVLrrDGVsEp25EuBUgW4
 
-!procedure Logout($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/Logout', $name, $tech)
+!procedure Logout($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Logout', $name, $tech, $desc)
 !endprocedure

@@ -2,12 +2,12 @@
 
 sprite $DiscFullXs [10x10/16z] Oy0E-FdvOGmmauU1Zv-V5yJa0Sln0J4Z0m-G2HQ3gGC3RdvULCC
 
-sprite $DiscFullSm [12x12/16z] VOhL0O0m30KFTzX_Mw8_qFOgoHCQBCSKs_WelZyEPyyYSv3NoNxAoYrV1vDubppsFlitijBv6dG3Fru
+sprite $DiscFullSm [12x12/16z] VOhL0O0m30KFTzX_Mw8_qFOgoHCQBCSKs_WelZyEPyygSv3NoNxAoYrV1vDubppsFlitijBv6dG3Fru
 
 sprite $DiscFullMd [16x16/16z] dSor0SD044JHaOxnzr-juIWrl6Xnz0VRe9dJ5eQosi0IP7Zr7AE_HZMczxk_WIfrmEXUzyxnSfr-w3FFi1XDbi7gyALuVUS9
 
-sprite $DiscFullLg [20x20/16z] hOzL0e0m28R_TO_xdzO4cS_wBMd0TwntU5Fef4CnanZr7VG0u7Btf3JMtP7ip3ewiV8kEl5ti4PqcTCQN7GID9yX9G8ruo2BPfqagqenxUpGuGTs
+sprite $DiscFullLg [20x20/16z] hO_50KCn3CNqcVFsdpQCvrP1iytlpEl2oAN0IsCooZJVJnKWkczgF5cN8hDprYambxVJ5V-5UIgwapM-4v5NXPPlKcE7-mGuLUWcEPkgCJsXmuK_u
 
-!procedure DiscFull($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Notification/DiscFull', $name, $tech)
+!procedure DiscFull($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Notification/DiscFull', $name, $tech, $desc)
 !endprocedure

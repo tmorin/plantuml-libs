@@ -2,7 +2,7 @@
 
 sprite $ControlCameraXs [10x10/16z] LS750S1040GWuh-T_gkDsu5MkIMb5NCiHKKIcGXX1ej7PNQRO0C
 
-sprite $ControlCameraSm [12x12/16z] PSh50O100C2muaxtdnQNaxn3fkMpsl6oNCcieYDdwonGwIsWNvciiIHLsCkh3qF1QGS
+sprite $ControlCameraSm [12x12/16z] PSh50O100C2muaxtdnQNaxn3fkMpsl6oNCcieYDsq5cWqbj0lp9POqd6Nbvz60fEEm
 
 sprite $ControlCameraMd [16x16/16z] ZOo30KDH303lsSd-szRzniNa7adDijH5euXLom4vG-eMn7nkXTSzzlFZvVkpjcGLUBLVfeHN-MfOu6MPFmRF3D6iYJ-lUs6E4VPv
 
@@ -11,6 +11,6 @@ bOu50W8n30JthDxE_tyB2UxSLEEhlIpZrGNjrGLFcJFrk7-rd-psQxlraeAtYtQvone1DCtdwGCcJHXI
 JTyu
 }
 
-!procedure ControlCamera($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Av/ControlCamera', $name, $tech)
+!procedure ControlCamera($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/ControlCamera', $name, $tech, $desc)
 !endprocedure

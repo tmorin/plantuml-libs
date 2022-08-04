@@ -2,7 +2,7 @@
 
 sprite $SubtitlesOffXs [10x10/16z] HSl50G0W509Gx9RzfxNZNNw2pxwEJd3Iu6dpw6Z5xgIaWvHhjxQZEx4CpyNX8Ze
 
-sprite $SubtitlesOffSm [12x12/16z] TOc53G0n08Jk_UlxRrlgiHA3e1tfawyuAH2fSkB4SgBxSthYF3qUwk7ZxmK4xYk9EAMhGIoYCW
+sprite $SubtitlesOffSm [12x12/16z] JSc53S0m0CH0bxdPVzjOuHEzzOmckd3m9WzyHaXcjz5tYhIt-JNc-NL_wV5txuiCzvi4OuP5ChgV2
 
 sprite $SubtitlesOffMd [16x16/16z] XOw50KCX50E3E-m_RUL9vMlGEnHtoUcVmqgeIz80ktu5yKkqFrQXB4U4hVLlOL-ZSA0Ti47twn5YK289mApEeHq02X6PtTVZHW1F
 
@@ -11,6 +11,6 @@ ZSz50eGm40NHZpjz_zCIJuqFjNpHrkt6TrfjaWRg0fh7ngWF5h33zcJinDY9-SQu4wixiQrjsuXgVSdM
 hv4S
 }
 
-!procedure SubtitlesOff($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/SubtitlesOff', $name, $tech)
+!procedure SubtitlesOff($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/SubtitlesOff', $name, $tech, $desc)
 !endprocedure

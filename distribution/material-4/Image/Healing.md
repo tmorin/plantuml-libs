@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Healing')
 
 ' renders the element
-Healing('Healing', 'Healing', 'an optional tech label')
+Healing('Healing', 'Healing', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Healing')
 
 ' renders the element
-Healing('Healing', 'Healing', 'an optional tech label')
+Healing('Healing', 'Healing', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/Subscript')
 
 ' renders the element
-Subscript('Subscript', 'Subscript', 'an optional tech label')
+Subscript('Subscript', 'Subscript', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/Subscript')
 
 ' renders the element
-Subscript('Subscript', 'Subscript', 'an optional tech label')
+Subscript('Subscript', 'Subscript', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

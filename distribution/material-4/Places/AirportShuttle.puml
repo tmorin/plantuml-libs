@@ -6,8 +6,8 @@ sprite $AirportShuttleSm [12x12/16z] Oo06y4C1EuWDHK0Ed0tYy2C0aCq7PpFpCl0pCxEoCF0
 
 sprite $AirportShuttleMd [16x16/16z] bOY50S1020Fphi3-qzRTU-W5lp4BWyfA6Dnqe_iRXs1r385OhUV9NI0xwC8ZUFYLwXsvSmMWT_ImvFvO4OlVj
 
-sprite $AirportShuttleLg [20x20/16z] hSZ50GGm3CH0XTdRVxN73BzCq6Axqfuo5qEl2cScG7RvkNFyQ3XJ-MoWSpJLMlMucfGmVIh_sigFiLzQwuAgVc83D7i4bB3EIHPHdhCaBSVPa2hx7G4
+sprite $AirportShuttleLg [20x20/16z] hSp50GGX44JHZpkLVxJhEdBZuRImN2fVaOUkNucxAK3pSJFtpyqVPYfj_q1AzrlEMP-jIE7sjvNE_aRyFElZhrH1LhsP3TIh1-vDApTHU5dkWZGCTqtAh7S5
 
-!procedure AirportShuttle($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Places/AirportShuttle', $name, $tech)
+!procedure AirportShuttle($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/AirportShuttle', $name, $tech, $desc)
 !endprocedure

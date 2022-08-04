@@ -6,8 +6,8 @@ sprite $Looks4Sm [12x12/16z] Oy09-640ayq0XEXiL184qDaupEH1iHK
 
 sprite $Looks4Md [16x16/16z] Oo0Ck7bXW0F4vU5702OWdnSBduc97qZZuJFomlcOD1WGuZFpuh2V4udF278m4nmmOdeE
 
-sprite $Looks4Lg [20x20/16z] fSk54S1G309GwWxxJrjt-_RESW4GfjDPFlzqqRtykF-8KX5yVqc1n-zvYUHjExFzrTNZDtl_jVElw7ZeObWR
+sprite $Looks4Lg [20x20/16z] fSk54S1G309GwWxxJrjt-_RESW4GfjDPFlzqqRtykF-8KX5yVqc1n-zvYUHjExFzLTNZDtl_jVElw7ZeObWR
 
-!procedure Looks4($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/Looks4', $name, $tech)
+!procedure Looks4($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/Looks4', $name, $tech, $desc)
 !endprocedure

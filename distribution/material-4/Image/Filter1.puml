@@ -2,12 +2,12 @@
 
 sprite $Filter1Xs [10x10/16z] Oq027FmGmC392UG0CJy3Fv04KaIm8038WXi7Cuq1
 
-sprite $Filter1Sm [12x12/16z] Oq05_300OiF4m921ZvyPpcRW9OsDC0SAU81ihBO2
+sprite $Filter1Sm [12x12/16z] Oq05_300OiF4m921ZvyPpcRW9OsDC0SAk85ihBO2
 
 sprite $Filter1Md [16x16/16z] hSct5S10409HdcRJ5VrNAs_EXJVP1mto7mSnRvdYy3boNeVDvTMkh6MonM_UBij_SRhA-NSwQky
 
 sprite $Filter1Lg [20x20/16z] pSYr0KKX50Mm2r_Hi_-qk4l_KePkb1seL7zCll44gEFuqL-K-mlnBMTHpW9okkGnL_GJdSp7C67nDXPyb4vZGidtDuhZ0G
 
-!procedure Filter1($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/Filter1', $name, $tech)
+!procedure Filter1($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/Filter1', $name, $tech, $desc)
 !endprocedure

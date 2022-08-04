@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Assistant')
 
 ' renders the element
-Assistant('Assistant', 'Assistant', 'an optional tech label')
+Assistant('Assistant', 'Assistant', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Assistant')
 
 ' renders the element
-Assistant('Assistant', 'Assistant', 'an optional tech label')
+Assistant('Assistant', 'Assistant', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

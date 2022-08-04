@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Toggle/RadioButtonChecked')
 
 ' renders the element
-RadioButtonChecked('RadioButtonChecked', 'Radio Button Checked', 'an optional tech label')
+RadioButtonChecked('RadioButtonChecked', 'Radio Button Checked', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Toggle/RadioButtonChecked')
 
 ' renders the element
-RadioButtonChecked('RadioButtonChecked', 'Radio Button Checked', 'an optional tech label')
+RadioButtonChecked('RadioButtonChecked', 'Radio Button Checked', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

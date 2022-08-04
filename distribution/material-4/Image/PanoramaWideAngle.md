@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/PanoramaWideAngle')
 
 ' renders the element
-PanoramaWideAngle('PanoramaWideAngle', 'Panorama Wide Angle', 'an optional tech label')
+PanoramaWideAngle('PanoramaWideAngle', 'Panorama Wide Angle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/PanoramaWideAngle')
 
 ' renders the element
-PanoramaWideAngle('PanoramaWideAngle', 'Panorama Wide Angle', 'an optional tech label')
+PanoramaWideAngle('PanoramaWideAngle', 'Panorama Wide Angle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,6 +8,6 @@ sprite $PeopleMd [16x16/16z] dOk30KGn40KtTgR_Qi_ureJx85VGhqj_nmvQCgJtQ80g0EzP0Vu
 
 sprite $PeopleLg [20x20/16z] jSl50SGm40J15hCc_soFqV2oIxZ4ALAytIOxtgOq8KWgxovT1SRjsSln2FptBCHmkstoxB2fpz6IWJfgu6RegS7j2T3qrXw1O-g3ShlJQkvW5m
 
-!procedure People($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Social/People', $name, $tech)
+!procedure People($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/People', $name, $tech, $desc)
 !endprocedure

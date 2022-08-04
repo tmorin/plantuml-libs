@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/PlayForWork')
 
 ' renders the element
-PlayForWork('PlayForWork', 'Play For Work', 'an optional tech label')
+PlayForWork('PlayForWork', 'Play For Work', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/PlayForWork')
 
 ' renders the element
-PlayForWork('PlayForWork', 'Play For Work', 'an optional tech label')
+PlayForWork('PlayForWork', 'Play For Work', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

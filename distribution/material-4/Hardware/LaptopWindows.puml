@@ -8,6 +8,6 @@ sprite $LaptopWindowsMd [16x16/16z] jSUt5O0m44J1ZtTxR_llbWYFf4YJ3KLpdDH1Ovt2q9fJ
 
 sprite $LaptopWindowsLg [20x20/16z] Ow08yF2Z0YQW63yF6pBWvmQ9SQ5e6tnYQ80L9CE98iGCz2qF3o-A65207mkW94G1
 
-!procedure LaptopWindows($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Hardware/LaptopWindows', $name, $tech)
+!procedure LaptopWindows($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Hardware/LaptopWindows', $name, $tech, $desc)
 !endprocedure

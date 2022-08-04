@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/ArrowCircleUp')
 
 ' renders the element
-ArrowCircleUp('ArrowCircleUp', 'Arrow Circle Up', 'an optional tech label')
+ArrowCircleUp('ArrowCircleUp', 'Arrow Circle Up', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/ArrowCircleUp')
 
 ' renders the element
-ArrowCircleUp('ArrowCircleUp', 'Arrow Circle Up', 'an optional tech label')
+ArrowCircleUp('ArrowCircleUp', 'Arrow Circle Up', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

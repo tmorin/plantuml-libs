@@ -8,6 +8,6 @@ sprite $DvrMd [16x16/16z] XSg53S0m00D1AzyAGjv_sZBZ2GtwGowx9BdadRECTcNAYDcSCPwD-V
 
 sprite $DvrLg [20x20/16z] fSx50O1034JHZtkc_sfnTzXtYmSNgVOyJF56eXWJ6_vrBXEQJBcaf9pSpQQ6JMxslVqbsyWLasZFOw1UpfhrCZvf
 
-!procedure Dvr($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Device/Dvr', $name, $tech)
+!procedure Dvr($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Device/Dvr', $name, $tech, $desc)
 !endprocedure

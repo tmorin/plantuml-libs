@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/AddBusiness')
 
 ' renders the element
-AddBusiness('AddBusiness', 'Add Business', 'an optional tech label')
+AddBusiness('AddBusiness', 'Add Business', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/AddBusiness')
 
 ' renders the element
-AddBusiness('AddBusiness', 'Add Business', 'an optional tech label')
+AddBusiness('AddBusiness', 'Add Business', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

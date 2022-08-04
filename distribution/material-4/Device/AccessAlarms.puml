@@ -5,15 +5,15 @@ sprite $AccessAlarmsXs [10x10/16z] JKi50i102BfqFVx_MeNbsH9fZCe-sHq5G0BFzU10rX2dc
 sprite $AccessAlarmsSm [12x12/16z] LKo50S0W30lkvFzl1xGpf1B3_wHJtIvZ8hS8BiZNmkmhtLnu8D20LQNC1VLtFltyeDsiucEfgrcU-5LFcvs47cDFkm
 
 sprite $AccessAlarmsMd [16x16/16z] {
-RSg53GD034FHVypn_jjMATCJ6lWZy26hu4m-qDNZbZGuIe3oqAcvIsckso53X7dxemBHW6CUgxZdAC_hSCyeFhFYFVlVsRx_KS5Ljk6w4cxutKtjafefSnUF
-fCa_5m
+ROg54GD020JttRd-kyqGjts14_uG-22hu9WyeAl7BMbmb03beLDpbzBSjqA62FFMHmMY0SS_ghZhADVhSDSeFhNYNNlViNtleu9JsORJbN26rvsfNL8pPUx4
+8sdoZmi
 }
 
 sprite $AccessAlarmsLg [20x20/16z] {
-bOu53WCm30DTvlh_lvsI5GJ34xdN4FvXkXtA2evCCCvReBEh2gIpaq93uHJNfYba3JvrqaLQ29NZJ34hwP0iJPOJIgVP3fbEdNOkPrYUBb-7TGoJEfhR13O8
-ZVa-1jV-EH0OD4SfK0mcLnoComq6B2Q7rGRjM1GgSrKjVEtPu3qF
+bOu5RW0W54EBExt_RHSw939ziVBuXlymtGbb1qSc6ESjqDcb0kdivAAYS2xNfYba3JvrqaLQB2h7dM9sqf2ycYmdHASv3fbEJftR6PPFbv_3FeP9ZkOrWGsB
+nlmUWn1k3WG6vRWAXC7aZeDnkw4oCJci6jInAHHpLsryxTdWUpu
 }
 
-!procedure AccessAlarms($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Device/AccessAlarms', $name, $tech)
+!procedure AccessAlarms($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Device/AccessAlarms', $name, $tech, $desc)
 !endprocedure

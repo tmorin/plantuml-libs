@@ -8,6 +8,6 @@ sprite $FormatClearMd [16x16/16z] bSY53KCn54Mn4omzvUu_RJypMsmUS_ZGyzGKAUeOjQI8cM
 
 sprite $FormatClearLg [20x20/16z] hOw54O0m00E3Ex__jBWxRVyy5vDxFCNPYdhgsbF5mkY3MLmrdywfZ5epgpDPXTbPTUQJyqZKEm-Kd9qG7vqvd3hfZ_YhysNTJ_M75W
 
-!procedure FormatClear($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Editor/FormatClear', $name, $tech)
+!procedure FormatClear($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/FormatClear', $name, $tech, $desc)
 !endprocedure

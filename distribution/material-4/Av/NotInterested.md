@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/NotInterested')
 
 ' renders the element
-NotInterested('NotInterested', 'Not Interested', 'an optional tech label')
+NotInterested('NotInterested', 'Not Interested', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/NotInterested')
 
 ' renders the element
-NotInterested('NotInterested', 'Not Interested', 'an optional tech label')
+NotInterested('NotInterested', 'Not Interested', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

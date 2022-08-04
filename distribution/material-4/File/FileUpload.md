@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/File/FileUpload')
 
 ' renders the element
-FileUpload('FileUpload', 'File Upload', 'an optional tech label')
+FileUpload('FileUpload', 'File Upload', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/File/FileUpload')
 
 ' renders the element
-FileUpload('FileUpload', 'File Upload', 'an optional tech label')
+FileUpload('FileUpload', 'File Upload', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

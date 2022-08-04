@@ -2,7 +2,7 @@
 
 sprite $RoomPreferencesXs [10x10/16z] Oy0AEFb10CPYu8Ips24i7bwu60D89OG5f5WOW7oe60HmC3
 
-sprite $RoomPreferencesSm [12x12/16z] TSY53G1H3CFGVCOs-qzxp63Ha_4VfwJtmz7piCNLThCLGFSF9NlON1FKxh-1PI6HCht5tgGH
+sprite $RoomPreferencesSm [12x12/16z] TSY53G0n581Gwjw__xJdBiHUu3-PQhKUzbOEQwxMctM3ld-wI7MRSw3h_HSaBHH25AlOqp02
 
 sprite $RoomPreferencesMd [16x16/16z] XSZ50GH13CH0xJ3PdN-qnupwbVXVi6EJQr7N7ksfFDc8Fsm7mzqO9BzRRC5KyzskbQHyiO4WYOkThiHK0DCnoZfj2AU08jxR0m
 
@@ -11,6 +11,6 @@ fOu30aL1548Rk_Q_sc_ZyGolmqwAheGJJz-JJv_txSjt-YtqfVxgOo8_jNGCS_hnhPOEraWHzkaR2Bho
 aZl-S0G
 }
 
-!procedure RoomPreferences($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Places/RoomPreferences', $name, $tech)
+!procedure RoomPreferences($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/RoomPreferences', $name, $tech, $desc)
 !endprocedure

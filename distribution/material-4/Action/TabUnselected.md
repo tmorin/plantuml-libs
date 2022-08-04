@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/TabUnselected')
 
 ' renders the element
-TabUnselected('TabUnselected', 'Tab Unselected', 'an optional tech label')
+TabUnselected('TabUnselected', 'Tab Unselected', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/TabUnselected')
 
 ' renders the element
-TabUnselected('TabUnselected', 'Tab Unselected', 'an optional tech label')
+TabUnselected('TabUnselected', 'Tab Unselected', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/FlightLand')
 
 ' renders the element
-FlightLand('FlightLand', 'Flight Land', 'an optional tech label')
+FlightLand('FlightLand', 'Flight Land', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/FlightLand')
 
 ' renders the element
-FlightLand('FlightLand', 'Flight Land', 'an optional tech label')
+FlightLand('FlightLand', 'Flight Land', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

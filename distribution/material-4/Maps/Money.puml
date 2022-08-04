@@ -2,12 +2,12 @@
 
 sprite $MoneyXs [10x10/16z] Oy06-A60Xu4VAW9aSOA4-I0i7duW0HFZPq1MXz0B1m
 
-sprite $MoneySm [12x12/16z] TSO55aGn24DHwfQSx7-r8z_rjS2rjphMl377EVuSa30IEluMefYqs8jXDKNE3XRyx_-D9NdpOSsEVG4
+sprite $MoneySm [12x12/16z] TSO54iH024HH2jjDqbtS_xHnbpy3FFcgnPOAqyp7ZACDWIxGOdB1Yr6hjMYRMUHY4zFnJyPQgQXjoRa1
 
-sprite $MoneyMd [16x16/16z] bOj50i1020E1fBtK_l_QTU5IcrKYyXUxF7dcO2spG03B1sL6MjULUtEsjF0mCytBc7DNHry6TTudQTRT8sz4
+sprite $MoneyMd [16x16/16z] bOkr0S0m30JVeYQq_xHcK1Cwenxm5xeyPHQM1bkTmM2cShZEV75EbjwQAIz-c2NFEkVI3REFIPltHPx3xi4R2G
 
-sprite $MoneyLg [20x20/16z] fSxL0O0m5CNGX_lD_jFYxj3KprVDgMXNs1gxoiwASDrWkQqRBSC46A2LWV2GM5kPudMtFmQjmMnnRccUPvPrs_N_LAuRR5Th3ZK
+sprite $MoneyLg [20x20/16z] fSxL0O0m5CNGX_lD_jFYxj3KprVDgMXNs1gxoiwACEX7MxiFbjkwqJ9CW05Q6GWFYRMLQMlTxOT1Qp1Rd5kQvvbbtNRzFvNh1jlLcaCD
 
-!procedure Money($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/Money', $name, $tech)
+!procedure Money($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/Money', $name, $tech, $desc)
 !endprocedure

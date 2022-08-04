@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/ScatterPlot')
 
 ' renders the element
-ScatterPlot('ScatterPlot', 'Scatter Plot', 'an optional tech label')
+ScatterPlot('ScatterPlot', 'Scatter Plot', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/ScatterPlot')
 
 ' renders the element
-ScatterPlot('ScatterPlot', 'Scatter Plot', 'an optional tech label')
+ScatterPlot('ScatterPlot', 'Scatter Plot', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

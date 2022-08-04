@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/_5KPlus')
 
 ' renders the element
-_5KPlus('5kPlus', '5k Plus', 'an optional tech label')
+_5KPlus('5kPlus', '5k Plus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/_5KPlus')
 
 ' renders the element
-_5KPlus('5kPlus', '5k Plus', 'an optional tech label')
+_5KPlus('5kPlus', '5k Plus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

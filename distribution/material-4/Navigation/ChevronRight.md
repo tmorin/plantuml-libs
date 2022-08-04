@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/ChevronRight')
 
 ' renders the element
-ChevronRight('ChevronRight', 'Chevron Right', 'an optional tech label')
+ChevronRight('ChevronRight', 'Chevron Right', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/ChevronRight')
 
 ' renders the element
-ChevronRight('ChevronRight', 'Chevron Right', 'an optional tech label')
+ChevronRight('ChevronRight', 'Chevron Right', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

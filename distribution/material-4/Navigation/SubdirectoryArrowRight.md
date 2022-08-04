@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/SubdirectoryArrowRight')
 
 ' renders the element
-SubdirectoryArrowRight('SubdirectoryArrowRight', 'Subdirectory Arrow Right', 'an optional tech label')
+SubdirectoryArrowRight('SubdirectoryArrowRight', 'Subdirectory Arrow Right', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/SubdirectoryArrowRight')
 
 ' renders the element
-SubdirectoryArrowRight('SubdirectoryArrowRight', 'Subdirectory Arrow Right', 'an optional tech label')
+SubdirectoryArrowRight('SubdirectoryArrowRight', 'Subdirectory Arrow Right', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

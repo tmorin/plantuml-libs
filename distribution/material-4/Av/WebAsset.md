@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/WebAsset')
 
 ' renders the element
-WebAsset('WebAsset', 'Web Asset', 'an optional tech label')
+WebAsset('WebAsset', 'Web Asset', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/WebAsset')
 
 ' renders the element
-WebAsset('WebAsset', 'Web Asset', 'an optional tech label')
+WebAsset('WebAsset', 'Web Asset', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

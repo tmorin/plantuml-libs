@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/SyncProblem')
 
 ' renders the element
-SyncProblem('SyncProblem', 'Sync Problem', 'an optional tech label')
+SyncProblem('SyncProblem', 'Sync Problem', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/SyncProblem')
 
 ' renders the element
-SyncProblem('SyncProblem', 'Sync Problem', 'an optional tech label')
+SyncProblem('SyncProblem', 'Sync Problem', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

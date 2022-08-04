@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/AlarmAdd')
 
 ' renders the element
-AlarmAdd('AlarmAdd', 'Alarm Add', 'an optional tech label')
+AlarmAdd('AlarmAdd', 'Alarm Add', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/AlarmAdd')
 
 ' renders the element
-AlarmAdd('AlarmAdd', 'Alarm Add', 'an optional tech label')
+AlarmAdd('AlarmAdd', 'Alarm Add', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

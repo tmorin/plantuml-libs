@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/DirectionsCar')
 
 ' renders the element
-DirectionsCar('DirectionsCar', 'Directions Car', 'an optional tech label')
+DirectionsCar('DirectionsCar', 'Directions Car', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/DirectionsCar')
 
 ' renders the element
-DirectionsCar('DirectionsCar', 'Directions Car', 'an optional tech label')
+DirectionsCar('DirectionsCar', 'Directions Car', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

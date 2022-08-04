@@ -6,8 +6,8 @@ sprite $ReadMoreSm [12x12/16z] Oo03y30my0C14vZD3nNavGS181ygpeTGpmLNJnW
 
 sprite $ReadMoreMd [16x16/16z] jSeb0i1050FHMLA5tF-qXL6h2yzyIFX3An2Xba8LtCj82dXJ4y7Stvcr7JQX2gpYhHC
 
-sprite $ReadMoreLg [20x20/16z] nSwr0O0m443HZpkt_xHnJm-lYPpohnbunRdZdvZF-tMkz6S_izqIzpdQwsfJ8bXYly4IUOZtt8_EM-sIhTx25pG
+sprite $ReadMoreLg [20x20/16z] nSwr0O0m443HZpkt_xHnJm-lYPpohnbunRdZdvZF-tMkz6S_izqIzpdQwsfJ8bXYly4IUOdtt8_EM-sIhTx25pG
 
-!procedure ReadMore($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Communication/ReadMore', $name, $tech)
+!procedure ReadMore($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/ReadMore', $name, $tech, $desc)
 !endprocedure

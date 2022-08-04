@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Places/EscalatorWarning')
 
 ' renders the element
-EscalatorWarning('EscalatorWarning', 'Escalator Warning', 'an optional tech label')
+EscalatorWarning('EscalatorWarning', 'Escalator Warning', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Places/EscalatorWarning')
 
 ' renders the element
-EscalatorWarning('EscalatorWarning', 'Escalator Warning', 'an optional tech label')
+EscalatorWarning('EscalatorWarning', 'Escalator Warning', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

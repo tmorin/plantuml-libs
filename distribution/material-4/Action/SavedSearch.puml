@@ -4,10 +4,10 @@ sprite $SavedSearchXs [10x10/16z] Oy0AUFWv-24iVWOk1WYJdOaVok9dPO2o6Fc10A4DEvC1
 
 sprite $SavedSearchSm [12x12/16z] TSZ50S004091kBXk_zN6NUQ3w5y7xBMMqctWA0AlNItgO-s9vsC57LWhXxoELTo6RaO
 
-sprite $SavedSearchMd [16x16/16z] ZSsr0SKm34NHPsRV_QVz6AoSKucb9s8hvimSz4dHZYedJzY7aOPKvvRtRYOuovQNgJ27ufvRd9SLJPjAiG7EZs52CoJTv7KXQ-aD
+sprite $SavedSearchMd [16x16/16z] ZSsr0SKm34NHPsRV_QVz6AoSKucb9s8hvimSz4dHZYedJzY7aOPKvvRtRYOunvQNgJ27ufvRd9SLJPjAiG7EZs52CoJTv7KXQ-aD
 
 sprite $SavedSearchLg [20x20/16z] fSYrOGGm44N19sRz_gkrZrVXmOJ3h_AMD1o7ARMw94nH1qSyKmBVeIZQjT2cMdQgTWKlLL2tMxWzAa65fw6G8BBaU79ISOIb1cTUDGqEiVNYc9Rca-Gt_m
 
-!procedure SavedSearch($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/SavedSearch', $name, $tech)
+!procedure SavedSearch($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/SavedSearch', $name, $tech, $desc)
 !endprocedure

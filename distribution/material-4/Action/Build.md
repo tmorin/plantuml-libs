@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Build')
 
 ' renders the element
-Build('Build', 'Build', 'an optional tech label')
+Build('Build', 'Build', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Build')
 
 ' renders the element
-Build('Build', 'Build', 'an optional tech label')
+Build('Build', 'Build', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

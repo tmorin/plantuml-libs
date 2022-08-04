@@ -5,7 +5,7 @@ sprite $DirectionsBikeXs [10x10/16z] NS770KCX00KWVhFhst_Rt0F-P07Qle4am8uh5zUMwLc
 sprite $DirectionsBikeSm [12x12/16z] POk50O1030E3ExV_jF3kqaRLdukC8QjRXd3aG2XSXxZS4kQP-vfblfQ1oouxze73Bh7inhCBQHmCTEi7
 
 sprite $DirectionsBikeMd [16x16/16z] {
-TSZL0SCm5CLG9MRK_jEMVihsetFv-qPuuzHNXkXueIxU-1PiZSTBCbr0cl1OZUc0Oum3NA5vDAccPCaBYFiK0JG0U7eiW3KgSDoz0SG0EmExGTiSwfqmTF3v
+TSZL0SCm5CLG9MRK_jEMVihsetFv-qPuuzHNXkXueIxU-1PiZSTBCbr0cl1OZUc0Oum3NA5vD2ccPCaBYFiK0JG0U7eiW3KgSDoz0SG0EmExGTiSwfqmTF3v
 hW
 }
 
@@ -14,6 +14,6 @@ XO-50S0m20GXRl3xJrjt_JPsEFt8-Zi2sfK501Uln09pTReGyi0LEW0oy6Ht9WCYOW1yzAlZQSByvYoP
 yxn0divIHsPcjlXf65cOsHmGfqnfpjSeG8eicIfgWV9eRf4McL8TFQe7
 }
 
-!procedure DirectionsBike($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/DirectionsBike', $name, $tech)
+!procedure DirectionsBike($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/DirectionsBike', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/ChangeHistory')
 
 ' renders the element
-ChangeHistory('ChangeHistory', 'Change History', 'an optional tech label')
+ChangeHistory('ChangeHistory', 'Change History', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/ChangeHistory')
 
 ' renders the element
-ChangeHistory('ChangeHistory', 'Change History', 'an optional tech label')
+ChangeHistory('ChangeHistory', 'Change History', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

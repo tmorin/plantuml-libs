@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/NewReleases')
 
 ' renders the element
-NewReleases('NewReleases', 'New Releases', 'an optional tech label')
+NewReleases('NewReleases', 'New Releases', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/NewReleases')
 
 ' renders the element
-NewReleases('NewReleases', 'New Releases', 'an optional tech label')
+NewReleases('NewReleases', 'New Releases', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

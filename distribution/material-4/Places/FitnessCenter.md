@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Places/FitnessCenter')
 
 ' renders the element
-FitnessCenter('FitnessCenter', 'Fitness Center', 'an optional tech label')
+FitnessCenter('FitnessCenter', 'Fitness Center', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Places/FitnessCenter')
 
 ' renders the element
-FitnessCenter('FitnessCenter', 'Fitness Center', 'an optional tech label')
+FitnessCenter('FitnessCenter', 'Fitness Center', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

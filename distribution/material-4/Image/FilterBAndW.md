@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/FilterBAndW')
 
 ' renders the element
-FilterBAndW('FilterBAndW', 'Filter B And W', 'an optional tech label')
+FilterBAndW('FilterBAndW', 'Filter B And W', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/FilterBAndW')
 
 ' renders the element
-FilterBAndW('FilterBAndW', 'Filter B And W', 'an optional tech label')
+FilterBAndW('FilterBAndW', 'Filter B And W', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

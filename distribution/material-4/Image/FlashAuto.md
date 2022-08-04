@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/FlashAuto')
 
 ' renders the element
-FlashAuto('FlashAuto', 'Flash Auto', 'an optional tech label')
+FlashAuto('FlashAuto', 'Flash Auto', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/FlashAuto')
 
 ' renders the element
-FlashAuto('FlashAuto', 'Flash Auto', 'an optional tech label')
+FlashAuto('FlashAuto', 'Flash Auto', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

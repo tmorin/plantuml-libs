@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/PregnantWoman')
 
 ' renders the element
-PregnantWoman('PregnantWoman', 'Pregnant Woman', 'an optional tech label')
+PregnantWoman('PregnantWoman', 'Pregnant Woman', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/PregnantWoman')
 
 ' renders the element
-PregnantWoman('PregnantWoman', 'Pregnant Woman', 'an optional tech label')
+PregnantWoman('PregnantWoman', 'Pregnant Woman', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

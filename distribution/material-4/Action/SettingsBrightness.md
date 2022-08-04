@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/SettingsBrightness')
 
 ' renders the element
-SettingsBrightness('SettingsBrightness', 'Settings Brightness', 'an optional tech label')
+SettingsBrightness('SettingsBrightness', 'Settings Brightness', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/SettingsBrightness')
 
 ' renders the element
-SettingsBrightness('SettingsBrightness', 'Settings Brightness', 'an optional tech label')
+SettingsBrightness('SettingsBrightness', 'Settings Brightness', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

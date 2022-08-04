@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/BrokenImage')
 
 ' renders the element
-BrokenImage('BrokenImage', 'Broken Image', 'an optional tech label')
+BrokenImage('BrokenImage', 'Broken Image', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/BrokenImage')
 
 ' renders the element
-BrokenImage('BrokenImage', 'Broken Image', 'an optional tech label')
+BrokenImage('BrokenImage', 'Broken Image', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

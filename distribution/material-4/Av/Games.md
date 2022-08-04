@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/Games')
 
 ' renders the element
-Games('Games', 'Games', 'an optional tech label')
+Games('Games', 'Games', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/Games')
 
 ' renders the element
-Games('Games', 'Games', 'an optional tech label')
+Games('Games', 'Games', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

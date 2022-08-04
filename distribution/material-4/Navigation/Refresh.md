@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/Refresh')
 
 ' renders the element
-Refresh('Refresh', 'Refresh', 'an optional tech label')
+Refresh('Refresh', 'Refresh', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/Refresh')
 
 ' renders the element
-Refresh('Refresh', 'Refresh', 'an optional tech label')
+Refresh('Refresh', 'Refresh', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

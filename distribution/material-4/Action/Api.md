@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Api')
 
 ' renders the element
-Api('Api', 'Api', 'an optional tech label')
+Api('Api', 'Api', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Api')
 
 ' renders the element
-Api('Api', 'Api', 'an optional tech label')
+Api('Api', 'Api', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

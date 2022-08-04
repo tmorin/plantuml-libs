@@ -4,13 +4,13 @@ sprite $SyncDisabledXs [10x10/16z] RSY53S0m4C10bo6q_xRDewWMdSnl5vKnbgboCSLib1De8
 
 sprite $SyncDisabledSm [12x12/16z] TOp50S0m3CGKvdZ_RTlx5ML6VaboVKw5NPnZMK1OWHLDQQsxgEE06T5aQYbtd1KCOTlh0MAPFwqeTI4eR6uS
 
-sprite $SyncDisabledMd [16x16/16z] bOm53aDH3CEIpmzp_zjkXR5e5jMHLVpDTe8DM2GjvejETFSrWlK-cCyPtgSD2vc1ZiKBZ1g-WJxq7dx5KpkCIvXU3282AOfaX3-6skqHkMZ71yGlDm
+sprite $SyncDisabledMd [16x16/16z] bOm53aDH3CEIpmzp_zjkXR5e5jMHLVpDTe8DM2GjvejETFSrW_jWFcTudpOiP0Ow5YymQlW6-j1x-1LFxJ0kONenY0YaA98H_XXgjqVaeXqV4B_S
 
 sprite $SyncDisabledLg [20x20/16z] {
 hOv50WGX30I3E_t_ruvrM3cjrYWLbJyHJlYB93Bw-NDWwEeXOw5pehGpawulDq09MrUYGMs8sdlmwn6kdYoX2_2tdbsTkmgPEUdOfCdL4rLTGHfTzvJ5u6AT
 FPySS9S0NLlJdwbEtcS7
 }
 
-!procedure SyncDisabled($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Notification/SyncDisabled', $name, $tech)
+!procedure SyncDisabled($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Notification/SyncDisabled', $name, $tech, $desc)
 !endprocedure

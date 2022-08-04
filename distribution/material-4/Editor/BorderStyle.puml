@@ -8,6 +8,6 @@ sprite $BorderStyleMd [16x16/16z] Oo08k7WHW0d8v-NdWGCmdmT9CIgV7qqUoCNBvoTW7Y-QF2
 
 sprite $BorderStyleLg [20x20/16z] Ow0CyAC0FeWO5niIO8M8iM7HouRCuSCKu-CXJYy7Et7cCJAIxnQy_W3fuE1dXB0WJcS5kPwTZn7A8Xe
 
-!procedure BorderStyle($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Editor/BorderStyle', $name, $tech)
+!procedure BorderStyle($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/BorderStyle', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Content/Add')
 
 ' renders the element
-Add('Add', 'Add', 'an optional tech label')
+Add('Add', 'Add', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Content/Add')
 
 ' renders the element
-Add('Add', 'Add', 'an optional tech label')
+Add('Add', 'Add', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

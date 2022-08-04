@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/Chat')
 
 ' renders the element
-Chat('Chat', 'Chat', 'an optional tech label')
+Chat('Chat', 'Chat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/Chat')
 
 ' renders the element
-Chat('Chat', 'Chat', 'an optional tech label')
+Chat('Chat', 'Chat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

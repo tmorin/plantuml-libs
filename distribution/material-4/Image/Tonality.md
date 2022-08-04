@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Tonality')
 
 ' renders the element
-Tonality('Tonality', 'Tonality', 'an optional tech label')
+Tonality('Tonality', 'Tonality', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Tonality')
 
 ' renders the element
-Tonality('Tonality', 'Tonality', 'an optional tech label')
+Tonality('Tonality', 'Tonality', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

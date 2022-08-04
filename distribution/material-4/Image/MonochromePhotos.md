@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/MonochromePhotos')
 
 ' renders the element
-MonochromePhotos('MonochromePhotos', 'Monochrome Photos', 'an optional tech label')
+MonochromePhotos('MonochromePhotos', 'Monochrome Photos', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/MonochromePhotos')
 
 ' renders the element
-MonochromePhotos('MonochromePhotos', 'Monochrome Photos', 'an optional tech label')
+MonochromePhotos('MonochromePhotos', 'Monochrome Photos', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Places/NoFlash')
 
 ' renders the element
-NoFlash('NoFlash', 'No Flash', 'an optional tech label')
+NoFlash('NoFlash', 'No Flash', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Places/NoFlash')
 
 ' renders the element
-NoFlash('NoFlash', 'No Flash', 'an optional tech label')
+NoFlash('NoFlash', 'No Flash', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

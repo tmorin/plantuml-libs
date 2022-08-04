@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/GroupAdd')
 
 ' renders the element
-GroupAdd('GroupAdd', 'Group Add', 'an optional tech label')
+GroupAdd('GroupAdd', 'Group Add', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/GroupAdd')
 
 ' renders the element
-GroupAdd('GroupAdd', 'Group Add', 'an optional tech label')
+GroupAdd('GroupAdd', 'Group Add', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

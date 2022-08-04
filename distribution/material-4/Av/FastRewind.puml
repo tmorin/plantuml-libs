@@ -8,6 +8,6 @@ sprite $FastRewindMd [16x16/16z] hSb53i1034FHJ9cStF-sRN1Tyk99NwP_DfKsnaNZ8quHcDu
 
 sprite $FastRewindLg [20x20/16z] lSZ50SGm00CmXpdUVze31pPezHJUv241bsF2N-EjGfqZpnbILtWlKMS6xtbIzwzpi4E7T4wo3j0TTkfGT4VJmUaEWyTy0G
 
-!procedure FastRewind($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Av/FastRewind', $name, $tech)
+!procedure FastRewind($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/FastRewind', $name, $tech, $desc)
 !endprocedure

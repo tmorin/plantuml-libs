@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Eject')
 
 ' renders the element
-Eject('Eject', 'Eject', 'an optional tech label')
+Eject('Eject', 'Eject', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Eject')
 
 ' renders the element
-Eject('Eject', 'Eject', 'an optional tech label')
+Eject('Eject', 'Eject', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

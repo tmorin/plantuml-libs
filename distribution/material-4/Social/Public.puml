@@ -2,18 +2,18 @@
 
 sprite $PublicXs [10x10/16z] LKg35G0n53kZolxRDdZgPxGj1NJ_2jLX1Re6ZUYuI336mz0sujyCWYZP4ti0wsu7xmG
 
-sprite $PublicSm [12x12/16z] NOg50GCn30ClpD7-qxRFT05Rm9VSuh4DhQHhxIWi-xgoJiX3mQxxD7INvvmDkYKMyjOIsrlsPjOz2wi5mqBKFDS5Ordv0m
+sprite $PublicSm [12x12/16z] NOg50G0n2CHITzX_sdTjAd32J6xnseRkf6VjQ03sbNr27XhilekXkomY3Reb5lBHKewtxStiUnQiRXWseigzRXZBpWe
 
 sprite $PublicMd [16x16/16z] {
-RSo54SD034JHDH___hjDTipm1iJIjwxJHS4MhNgmH5rhLkhSM9VNh6FOntdzKzqC5Aqc_4s1rfel1ZoN0k3R1TylKbthbhGs4pRHwQ_HQSA2P9Myi9QheG6v
-quSV
+RSm53iGm34JHAONZV__RxbgZ2ll2CUZRSVYqHQgo4z9W-utfOB_9lXrSRtYwpyxFnf8zP3Sr8Y8hBZ8kDI1hArbVfUrt3Fbpa1uE_KKSUaXDIfjPyTEk0EQX
+3py
 }
 
 sprite $PublicLg [20x20/16z] {
-bS_5WGCW54NHYpkl_sgZmBZaxE0xhycw6GwEf6LQbgObIVPJLiHAXhkLmvrJs-tF7rqdhNV3WvK7rBB4eGAeaZLlHkIH0gYVdW2FnbFiJo380buHZEw2ORMU
-Cg2dSlQKWwg70Vkpcxo-DjFquPWbr9ujFxi2
+bS-5SGKn34NHksP-_LSRy6WTXd-6nU8nHI-cXoFBB8VfCbbodweIJhfuPJMyykht-1DZw9IDSR4v1K2zI1ogW1f5wyLCEzO1ZJCJO0zUuWu2SLyObE3QiNXX
+evSkaBPwxbmUchO95jIuYeLkLzU7PqniepX-zWm
 }
 
-!procedure Public($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Social/Public', $name, $tech)
+!procedure Public($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/Public', $name, $tech, $desc)
 !endprocedure

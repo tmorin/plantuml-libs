@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/File/Cloud')
 
 ' renders the element
-Cloud('Cloud', 'Cloud', 'an optional tech label')
+Cloud('Cloud', 'Cloud', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/File/Cloud')
 
 ' renders the element
-Cloud('Cloud', 'Cloud', 'an optional tech label')
+Cloud('Cloud', 'Cloud', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

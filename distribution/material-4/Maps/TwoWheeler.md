@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/TwoWheeler')
 
 ' renders the element
-TwoWheeler('TwoWheeler', 'Two Wheeler', 'an optional tech label')
+TwoWheeler('TwoWheeler', 'Two Wheeler', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/TwoWheeler')
 
 ' renders the element
-TwoWheeler('TwoWheeler', 'Two Wheeler', 'an optional tech label')
+TwoWheeler('TwoWheeler', 'Two Wheeler', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

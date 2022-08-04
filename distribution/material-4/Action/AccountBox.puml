@@ -2,12 +2,12 @@
 
 sprite $AccountBoxXs [10x10/16z] Oy0A-240o08Ht70M4vJ5puUGPOIm8FgGz28
 
-sprite $AccountBoxSm [12x12/16z] Oy09-640mkPXWR8nI4OucvyFeOQLYGFAvW0RnmTcy_A004GS2dXGR0K
+sprite $AccountBoxSm [12x12/16z] Oy09-640mkPbWR8nI4OucvyFheQFbOa3okO06yS7PlFoW01470fuK6m5
 
 sprite $AccountBoxMd [16x16/16z] XSg55S0W301Ht6N_RLlSuIhmNmBUQLiIWSQtq6yRBfBOtc6nDmvdPplCGyuFTiPrnY0aYYb8sMnhKcakVGk6DLGBdFe
 
 sprite $AccountBoxLg [20x20/16z] fSs30SKm543HLpVUVzgFsBprQG1hCU5tInD1pBFdnFB9dVrVY3FxjcLiZ-O-01ltJIObCX7RBVSWdb7GxSvEC55hZ9hoUr1f3-CkjaDtNm
 
-!procedure AccountBox($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/AccountBox', $name, $tech)
+!procedure AccountBox($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/AccountBox', $name, $tech, $desc)
 !endprocedure

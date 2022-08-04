@@ -8,6 +8,6 @@ sprite $TextFormatMd [16x16/16z] dOor0S0m40EVmg3zfqtCKDhN2MaEGw_VUsibWxh2lHEqqL3
 
 sprite $TextFormatLg [20x20/16z] jOxL0O0m30LJzzx-q-BEBrmr_kGBj7lxAkRbezQdAtV5Aor8ptUNHqby97PYpFYR41RwrTUORuS-NOeaCxV4DowTxBx4YVp02
 
-!procedure TextFormat($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Content/TextFormat', $name, $tech)
+!procedure TextFormat($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/TextFormat', $name, $tech, $desc)
 !endprocedure

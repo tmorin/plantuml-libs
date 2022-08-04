@@ -8,6 +8,6 @@ sprite $OfflineShareMd [16x16/16z] XSk35G0n403HGyp-gutDUVoBPvcE_Ob_ieXoVdmYMeEbI
 
 sprite $OfflineShareLg [20x20/16z] ZStL0S0W34LHtCdRVzegLk_zF924FQTfBwjkQ0r6OOkAIIyO4jjAnJJKivch6Kfd8m0daufP_dNZlsMzbKThTGkLVBUXObhiyMO2jS1QqfRAZXa
 
-!procedure OfflineShare($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Navigation/OfflineShare', $name, $tech)
+!procedure OfflineShare($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Navigation/OfflineShare', $name, $tech, $desc)
 !endprocedure

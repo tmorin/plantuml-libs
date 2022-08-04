@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/CalendarViewDay')
 
 ' renders the element
-CalendarViewDay('CalendarViewDay', 'Calendar View Day', 'an optional tech label')
+CalendarViewDay('CalendarViewDay', 'Calendar View Day', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/CalendarViewDay')
 
 ' renders the element
-CalendarViewDay('CalendarViewDay', 'Calendar View Day', 'an optional tech label')
+CalendarViewDay('CalendarViewDay', 'Calendar View Day', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

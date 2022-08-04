@@ -4,13 +4,13 @@ sprite $_6FtApartXs [10x10/16z] JOg30G0n40Jd4Ql_QcCTLroLr3vXdpYFzzwCWnnfq6aKyC2w
 
 sprite $_6FtApartSm [12x12/16z] LOY55G0X3CM2E-m_xIcQzdtZ92rDJKv5CLItreRAXw5KVjppRI30zrr-caLMkIz5DaQMty4D
 
-sprite $_6FtApartMd [16x16/16z] PSU53GGn0CH0XpdRVxKFnp02o_1cxfNoe-LM7DTMQVgpHdzdNqndDm5qCO4yt4u68B2pMrkdrzxPgI5ZtVbYyl-tBm
+sprite $_6FtApartMd [16x16/16z] PSU53GGn0CH0XpdRVxKFnp02o_1cxfNoe-LM7DTMQVgpHdzdNqndDm5qCO4yt4u68B2pMrkdrzxPgIDZtVbYyl-tBm
 
 sprite $_6FtApartLg [20x20/16z] {
 bSlL0GGX54FHZA4Fqd-rA_d1Lky81yCVaNxMHNBMHfP1ue5PaQpNA2eto5GS1EnGlQFhrgZ5mDf5BGQEGGUdkshJVtQo2ClHhBznxLizKD35OCjQDeSC9Bpj
 3W
 }
 
-!procedure _6FtApart($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Social/_6FtApart', $name, $tech)
+!procedure _6FtApart($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/_6FtApart', $name, $tech, $desc)
 !endprocedure

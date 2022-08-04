@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalPolice')
 
 ' renders the element
-LocalPolice('LocalPolice', 'Local Police', 'an optional tech label')
+LocalPolice('LocalPolice', 'Local Police', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalPolice')
 
 ' renders the element
-LocalPolice('LocalPolice', 'Local Police', 'an optional tech label')
+LocalPolice('LocalPolice', 'Local Police', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

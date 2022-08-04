@@ -8,6 +8,6 @@ sprite $ShowChartMd [16x16/16z] Ow0cOEL0uJBpe_0P-RdWB7OWoSy3v_831VZvO5mWYmCe1EVo
 
 sprite $ShowChartLg [20x20/16z] nOx50O0m5CLmX-m_BL2tQoNLxwzhG7_tYG-6s7Kpkv9LkrRdUgHni3iNy3itBZzh-S_fks1HkQ5BSFkAvYvXwGhp0G
 
-!procedure ShowChart($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Editor/ShowChart', $name, $tech)
+!procedure ShowChart($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/ShowChart', $name, $tech, $desc)
 !endprocedure

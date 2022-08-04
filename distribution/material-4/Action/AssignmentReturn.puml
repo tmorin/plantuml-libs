@@ -8,6 +8,6 @@ sprite $AssignmentReturnMd [16x16/16z] TSt50S1G20FGkeVilstvxk-4C_K9dnY_W70dWCka7
 
 sprite $AssignmentReturnLg [20x20/16z] ZSr50aKX241HVfhW_dVxxAuxywW0crwAU6_6nieHZOjRTltJ4vSqFinMeeDf6WnXC0tmPqpMXk3xrSO6SpYOms67my5SQzFU6589tt3T0m
 
-!procedure AssignmentReturn($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/AssignmentReturn', $name, $tech)
+!procedure AssignmentReturn($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/AssignmentReturn', $name, $tech, $desc)
 !endprocedure

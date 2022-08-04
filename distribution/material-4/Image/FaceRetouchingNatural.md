@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/FaceRetouchingNatural')
 
 ' renders the element
-FaceRetouchingNatural('FaceRetouchingNatural', 'Face Retouching Natural', 'an optional tech label')
+FaceRetouchingNatural('FaceRetouchingNatural', 'Face Retouching Natural', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/FaceRetouchingNatural')
 
 ' renders the element
-FaceRetouchingNatural('FaceRetouchingNatural', 'Face Retouching Natural', 'an optional tech label')
+FaceRetouchingNatural('FaceRetouchingNatural', 'Face Retouching Natural', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

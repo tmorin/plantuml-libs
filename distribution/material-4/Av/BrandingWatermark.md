@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/BrandingWatermark')
 
 ' renders the element
-BrandingWatermark('BrandingWatermark', 'Branding Watermark', 'an optional tech label')
+BrandingWatermark('BrandingWatermark', 'Branding Watermark', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/BrandingWatermark')
 
 ' renders the element
-BrandingWatermark('BrandingWatermark', 'Branding Watermark', 'an optional tech label')
+BrandingWatermark('BrandingWatermark', 'Branding Watermark', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

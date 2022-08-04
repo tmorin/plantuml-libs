@@ -8,6 +8,6 @@ sprite $VibrationMd [16x16/16z] ZSu54W0X049HjWk6-vzskqk_-QOK4QNKLBkvCwUShIRdm_by
 
 sprite $VibrationLg [20x20/16z] hS-r0SDG54FH_p0nQlzfpSnqorD9uMr_zD5WARmfWauiDDbWy8aX3u5fPGmiJV2rRMofSvwOszwFnlfaCCtojZJSgGG
 
-!procedure Vibration($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Notification/Vibration', $name, $tech)
+!procedure Vibration($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Notification/Vibration', $name, $tech, $desc)
 !endprocedure

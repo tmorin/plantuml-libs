@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/Adb')
 
 ' renders the element
-Adb('Adb', 'Adb', 'an optional tech label')
+Adb('Adb', 'Adb', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/Adb')
 
 ' renders the element
-Adb('Adb', 'Adb', 'an optional tech label')
+Adb('Adb', 'Adb', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

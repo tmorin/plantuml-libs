@@ -2,15 +2,15 @@
 
 sprite $DialerSipXs [10x10/16z] Oy0A-FaP-3ZPEA4iVZQm61TCbeq3eP0HmUJX1oe60qOG2m4
 
-sprite $DialerSipSm [12x12/16z] TSQr0G1130Cm7sFY_QTzPb0b_28xrFKkomadlVlzpbfCCd6wFX2dJ4IIM3Xo_yJ9yjC8
+sprite $DialerSipSm [12x12/16z] TSU53GH108NGdt6d_sfFrlN5GA-WQTZM-jJ8zjRisjOO_IIqExO_Ja81qCJ2sZ-s__he2m
 
-sprite $DialerSipMd [16x16/16z] XSf50WGX34JHZtO32NN_quvRLlDs9VnLtISiptDu1amIx89Pl-VnoAKLi_hutt9XMHw31ydvvPiWgn1C4MqbQAjcNbozw-PJd5B8C49-o8yONG4
+sprite $DialerSipMd [16x16/16z] XSt50KGn24NH6-DB8A__QiUDrPmL3d_rY1DcrFE82hWaM0rtgy3noDjexlqnBwanlHu73rBmAnP9LICvHRPKOCnUUGcPwUPJsALl_gtK_EYHPbS
 
 sprite $DialerSipLg [20x20/16z] {
-fSg54SCm0CNGRsPh_sdBp4rq_4vQ5xkyD5iDiTTviRYpMdPMhbOavzcPTnSRqcHlEjOEttqUgXu3FHN9ppXmJsR0FA6584MO8zrYJ-oRkjRWoMJ6i-qqb3wo
-VcuB
+fSZ50SCm04MnRsQ__QSjCpVHKLg77I_DLaFiTLukxgwKtPNh5SbvTkVTvOOqsP-E6b1qpqFL8z2JI7xEWNiw0-OfBGGfmXpfDdjYR-ggmTF9ZEVRRIXzPFri
+2m
 }
 
-!procedure DialerSip($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Communication/DialerSip', $name, $tech)
+!procedure DialerSip($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/DialerSip', $name, $tech, $desc)
 !endprocedure

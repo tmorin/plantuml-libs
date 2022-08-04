@@ -7,10 +7,10 @@ sprite $PersonPinSm [12x12/16z] NSRL0S0W54FHuaxsdvQdNqLExlS_RHMlWPE195a0bX5b0h2j
 sprite $PersonPinMd [16x16/16z] RSZ50SD00CJ0zJ6h_suJCyvFqhTfkbPcvlOSCCb3MRE3Mw-VS-9evau0aWEO_jqucNyNe7iJztOCBGneHj2g5yqiNhCwjBAC50jT1mV3w68Q-lO3
 
 sprite $PersonPinLg [20x20/16z] {
-bOy50iCW40GNT-x_lor-zJQJOCDYk8QbHfPWL1CbjIezADFQFhEKQFsAXkHas4vGGmn7kvkeuTYHLtcqwJYci0jQsX7CssbCujulaC6ch7EnykE6yVGg1eOA
-FwvIzYxK_OgTQ2I1HyewyG63Rzm
+bO-5bSGm5CI-cJtzTtkckMLII4z93F8R7eEghuePeHK0vIQvyPnlJbB3-nGz9E-Ms1G6QZLGovHmQOYcObBOhcYNbgpsTKfbixB972_12MbGMr2PD38DVOj3
+4s8wQWofSx_yOb2KtD8Gv04dx_W3
 }
 
-!procedure PersonPin($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/PersonPin', $name, $tech)
+!procedure PersonPin($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/PersonPin', $name, $tech, $desc)
 !endprocedure

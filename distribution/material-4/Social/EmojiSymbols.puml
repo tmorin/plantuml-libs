@@ -2,18 +2,18 @@
 
 sprite $EmojiSymbolsXs [10x10/16z] LSk35SG000FGVwYH_QUjcOUO6qbeWgPfQ418tghutmyYo2vH9oBe03C
 
-sprite $EmojiSymbolsSm [12x12/16z] LSg50SD0509GSkxilssXddVo5JTR7Fn5KIZ-ACWzmLPq8txpGpnDVB4TVQ5uKfWYd0excngXEkVaHMXJBhmz
+sprite $EmojiSymbolsSm [12x12/16z] LOo50S0W30I3Ex__jetKkBZImM8ug0iCXomE3AKMTMa6QOGtto1bM72oNpSxdsMI4GDPIcYetF15Vmuu46_QaN41
 
 sprite $EmojiSymbolsMd [16x16/16z] {
-POq70iCW30EDiiEu__-sLdUROnu271UAakATvBcJzDnC89zEnZx7LrxgRZUjvGJykvv-dYxJbwUgblW6y3oYSDffzZ4AFKpbgFdrInSEa5MdlOqAQsHQaGk1
-rWXdYWit
+POm74iCW40Flv6xWzF_VHafFlDHbPuWB2P4X0E-3OkWoaV3h962Vuwjds-scTsqa_nrFFqzjEPQdecLyGz9xHVAyUxTN9KUOngFfwvSkF4XOSTfxDN8DrKR8
+KtMDS4DSk04
 }
 
 sprite $EmojiSymbolsLg [20x20/16z] {
-ZOq5eeGm4CMcxitzJxl0uxjke9OnUnv4iPC6MwwBA3TwaslYTl5hRUr3JapiP01VtGR25rS1UoCL7J5_K6-jtzLBxxp3sMRBTG9LCzhPkSj587YpqDsbX0Eg
-gb-LQc1BDJ-27BK0TzPWoG6x46oVXN6bkz-ezYy7
+ZOq5aaGX4CKQTtB_qwuyLiVp1KXL1tiTHB4F6covBgBSw4skYUFYvMpjGqvCx8C1NBeDX0jN0ViX5Iqn_r7VwJ-AqyuxV6IsN2TGTKUpIJyP87YpqDstCWTK
+JK-QZ6PW7-L7aACMmDGQhEDW5uBj_j5UwVH6jQUy0m
 }
 
-!procedure EmojiSymbols($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Social/EmojiSymbols', $name, $tech)
+!procedure EmojiSymbols($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/EmojiSymbols', $name, $tech, $desc)
 !endprocedure

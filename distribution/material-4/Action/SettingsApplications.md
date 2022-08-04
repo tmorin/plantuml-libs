@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/SettingsApplications')
 
 ' renders the element
-SettingsApplications('SettingsApplications', 'Settings Applications', 'an optional tech label')
+SettingsApplications('SettingsApplications', 'Settings Applications', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/SettingsApplications')
 
 ' renders the element
-SettingsApplications('SettingsApplications', 'Settings Applications', 'an optional tech label')
+SettingsApplications('SettingsApplications', 'Settings Applications', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

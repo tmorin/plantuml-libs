@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/PhoneForwarded')
 
 ' renders the element
-PhoneForwarded('PhoneForwarded', 'Phone Forwarded', 'an optional tech label')
+PhoneForwarded('PhoneForwarded', 'Phone Forwarded', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/PhoneForwarded')
 
 ' renders the element
-PhoneForwarded('PhoneForwarded', 'Phone Forwarded', 'an optional tech label')
+PhoneForwarded('PhoneForwarded', 'Phone Forwarded', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

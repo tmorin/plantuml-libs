@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/QueuePlayNext')
 
 ' renders the element
-QueuePlayNext('QueuePlayNext', 'Queue Play Next', 'an optional tech label')
+QueuePlayNext('QueuePlayNext', 'Queue Play Next', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/QueuePlayNext')
 
 ' renders the element
-QueuePlayNext('QueuePlayNext', 'Queue Play Next', 'an optional tech label')
+QueuePlayNext('QueuePlayNext', 'Queue Play Next', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

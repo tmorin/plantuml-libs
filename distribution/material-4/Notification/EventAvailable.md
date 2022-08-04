@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/EventAvailable')
 
 ' renders the element
-EventAvailable('EventAvailable', 'Event Available', 'an optional tech label')
+EventAvailable('EventAvailable', 'Event Available', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/EventAvailable')
 
 ' renders the element
-EventAvailable('EventAvailable', 'Event Available', 'an optional tech label')
+EventAvailable('EventAvailable', 'Event Available', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

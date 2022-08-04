@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Verified')
 
 ' renders the element
-Verified('Verified', 'Verified', 'an optional tech label')
+Verified('Verified', 'Verified', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Verified')
 
 ' renders the element
-Verified('Verified', 'Verified', 'an optional tech label')
+Verified('Verified', 'Verified', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

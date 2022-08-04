@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/PieChartOutlined')
 
 ' renders the element
-PieChartOutlined('PieChartOutlined', 'Pie Chart Outlined', 'an optional tech label')
+PieChartOutlined('PieChartOutlined', 'Pie Chart Outlined', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/PieChartOutlined')
 
 ' renders the element
-PieChartOutlined('PieChartOutlined', 'Pie Chart Outlined', 'an optional tech label')
+PieChartOutlined('PieChartOutlined', 'Pie Chart Outlined', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

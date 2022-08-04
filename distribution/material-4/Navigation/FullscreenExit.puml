@@ -8,6 +8,6 @@ sprite $FullscreenExitMd [16x16/16z] Oo0BC8CnWilFmC34Z-2oWldCp31PVX0VH187c9YOe2I
 
 sprite $FullscreenExitLg [20x20/16z] Ow0Du6G74MmeOlmy888BlnWdFpz430XWOkmyF3oSG9e72CXt4duxsBYu869yN5n4kfac
 
-!procedure FullscreenExit($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Navigation/FullscreenExit', $name, $tech)
+!procedure FullscreenExit($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Navigation/FullscreenExit', $name, $tech, $desc)
 !endprocedure

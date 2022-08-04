@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/BugReport')
 
 ' renders the element
-BugReport('BugReport', 'Bug Report', 'an optional tech label')
+BugReport('BugReport', 'Bug Report', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/BugReport')
 
 ' renders the element
-BugReport('BugReport', 'Bug Report', 'an optional tech label')
+BugReport('BugReport', 'Bug Report', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

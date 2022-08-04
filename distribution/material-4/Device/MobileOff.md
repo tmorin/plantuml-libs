@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Device/MobileOff')
 
 ' renders the element
-MobileOff('MobileOff', 'Mobile Off', 'an optional tech label')
+MobileOff('MobileOff', 'Mobile Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Device/MobileOff')
 
 ' renders the element
-MobileOff('MobileOff', 'Mobile Off', 'an optional tech label')
+MobileOff('MobileOff', 'Mobile Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

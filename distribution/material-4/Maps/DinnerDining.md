@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/DinnerDining')
 
 ' renders the element
-DinnerDining('DinnerDining', 'Dinner Dining', 'an optional tech label')
+DinnerDining('DinnerDining', 'Dinner Dining', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/DinnerDining')
 
 ' renders the element
-DinnerDining('DinnerDining', 'Dinner Dining', 'an optional tech label')
+DinnerDining('DinnerDining', 'Dinner Dining', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

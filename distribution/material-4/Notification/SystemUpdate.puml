@@ -8,6 +8,6 @@ sprite $SystemUpdateMd [16x16/16z] Oy02-A606y9bveS169y737XXV6mqCogVYPyaFX_GCauaF
 
 sprite $SystemUpdateLg [20x20/16z] hP235G0n44HZPwV_Qiysyf_M67P6f14pXXncnfW_Z9c1DCVUM0wyOCmJG2JNTGc0sFO6gFrLulxcXxgeWnXJTeItRWq
 
-!procedure SystemUpdate($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Notification/SystemUpdate', $name, $tech)
+!procedure SystemUpdate($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Notification/SystemUpdate', $name, $tech, $desc)
 !endprocedure

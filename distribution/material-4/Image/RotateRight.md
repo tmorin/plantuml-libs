@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/RotateRight')
 
 ' renders the element
-RotateRight('RotateRight', 'Rotate Right', 'an optional tech label')
+RotateRight('RotateRight', 'Rotate Right', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/RotateRight')
 
 ' renders the element
-RotateRight('RotateRight', 'Rotate Right', 'an optional tech label')
+RotateRight('RotateRight', 'Rotate Right', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

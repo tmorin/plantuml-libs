@@ -2,12 +2,12 @@
 
 sprite $FileDownloadXs [10x10/16z] Oy01-Fdv4ImO0va9LuYkanEg3W4
 
-sprite $FileDownloadSm [12x12/16z] Oy07-Fdv2R3P-K602SBX038POMeuW4muW3Dv803CPeO0L2i1
+sprite $FileDownloadSm [12x12/16z] Oy07-Fdv2R0v-4602S5XP83BC28CWZDv803CPeO0L2i1
 
 sprite $FileDownloadMd [16x16/16z] ZSYr0S0m50FH3rL0qVxJXidiwzv9LoC0-naalTlpGGBJRUFP8a_wy1iFd_4noUQdnEqs
 
 sprite $FileDownloadLg [20x20/16z] hSYr0O1000ImmntsdnPxTqqPb6klJwrhs-w_jct071SpGajMB5dfEK5pY196X4oxm6wv11Hw
 
-!procedure FileDownload($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/File/FileDownload', $name, $tech)
+!procedure FileDownload($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/File/FileDownload', $name, $tech, $desc)
 !endprocedure

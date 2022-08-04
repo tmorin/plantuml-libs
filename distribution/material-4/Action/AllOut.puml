@@ -4,13 +4,13 @@ sprite $AllOutXs [10x10/16z] PSUr0GD1000Wtivb_sdZ7ZhWtppiuiGnTaUFi2F01bQF9qWjIhL
 
 sprite $AllOutSm [12x12/16z] XSm53eG040F0TRb3_lzRIWo7bKbZfSUnOYYbiCBdUROCPFO_79GXpVIfw017OLYbw95UUpGOSWZjPm4
 
-sprite $AllOutMd [16x16/16z] bOe53a9150C7NT_U_xQaUH7W-qIgN4TwmmsIPkJtRKZgfCZlcmyaOG56QEe4-jMR2BQq9qnf4HFAZiA2KvFKA1CpPyBaEJda0m
+sprite $AllOutMd [16x16/16z] bOe53a9150C7NT_U_xQaUH7W-qIgN4TwmmsIPkJtRKZgfCYlcmyaOG56QEe4-jMR2BQq9qnf4HFAZiA2KvFKA1CpPyBaEJda0m
 
 sprite $AllOutLg [20x20/16z] {
 fOu54WGX4CI2izh_V-tfmBbkobAZpKQyz_VcfGG-EYYIirgcwaYbj5fYLGII5ehZJEqRXOQYIHQ6wqQtS5NpR-PGDgbhhnLR2RtfAxCAK3KnjbILh0DhPb2h
 gG8E66Krd3FfzXrx
 }
 
-!procedure AllOut($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/AllOut', $name, $tech)
+!procedure AllOut($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/AllOut', $name, $tech, $desc)
 !endprocedure

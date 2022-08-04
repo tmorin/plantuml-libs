@@ -8,6 +8,6 @@ sprite $BarChartMd [16x16/16z] Oo0FC36Zyhdv6N7ocJZPKVZC_3n4yVdvIUQJ3W
 
 sprite $BarChartLg [20x20/16z] Ow0LuE1amH3ZusSZHuoJdvzoCIO-Famn88CICHe
 
-!procedure BarChart($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Editor/BarChart', $name, $tech)
+!procedure BarChart($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/BarChart', $name, $tech, $desc)
 !endprocedure

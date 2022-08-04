@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/ThumbDownAlt')
 
 ' renders the element
-ThumbDownAlt('ThumbDownAlt', 'Thumb Down Alt', 'an optional tech label')
+ThumbDownAlt('ThumbDownAlt', 'Thumb Down Alt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/ThumbDownAlt')
 
 ' renders the element
-ThumbDownAlt('ThumbDownAlt', 'Thumb Down Alt', 'an optional tech label')
+ThumbDownAlt('ThumbDownAlt', 'Thumb Down Alt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Content/Block')
 
 ' renders the element
-Block('Block', 'Block', 'an optional tech label')
+Block('Block', 'Block', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Content/Block')
 
 ' renders the element
-Block('Block', 'Block', 'an optional tech label')
+Block('Block', 'Block', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

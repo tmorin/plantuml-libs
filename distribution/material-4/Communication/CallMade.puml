@@ -8,6 +8,6 @@ sprite $CallMadeMd [16x16/16z] dSUr0S0m34N1RwfiIVjF6uRN1Qux_PBBvhh5HcJRqSPxf1AiX
 
 sprite $CallMadeLg [20x20/16z] jSg53S0m4CNGVsNk_jEMqH46B7woqcJjbTwo-KgCThp3x5nvE_Cg1DjfDromdIvxhrneko2s4nj08Qq
 
-!procedure CallMade($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Communication/CallMade', $name, $tech)
+!procedure CallMade($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/CallMade', $name, $tech, $desc)
 !endprocedure

@@ -2,12 +2,12 @@
 
 sprite $FormatItalicXs [10x10/16z] Oy01cFdv-Q5CNXY30SvWHGWnGXbmzPW
 
-sprite $FormatItalicSm [12x12/16z] Oy07k7XuU9YXR5v-VduMc0G_7q8HFuB9YyH6AEO1wcI2ifbPM5ZmMWa
+sprite $FormatItalicSm [12x12/16z] Oy07k7XuU9YXR5v-VduMc0G_7q8HFuB9YyH6AEO1wcI2ifcPMLZmMWa
 
 sprite $FormatItalicMd [16x16/16z] Oo0Fy8C02su-0ny_8ve652utFoi-QJP-BYGU9oy_FoytWiy3iemNmMTc0G9cyZm2
 
-sprite $FormatItalicLg [20x20/16z] jSg35S1000JHYPtjlzhOnjr_N6204tGSc7dg-7ST518Rpku4oVw65BCHICx-bhFXxMwvEhUTvxSyBAa1
+sprite $FormatItalicLg [20x20/16z] jSh50S0m34FHN-Pg_saBlfGnoVF9al0Woap4IYAJFcNGIUn4Xn5KnnbIoKucHSTPoqvocBKoZrcIsX782
 
-!procedure FormatItalic($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Editor/FormatItalic', $name, $tech)
+!procedure FormatItalic($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/FormatItalic', $name, $tech, $desc)
 !endprocedure

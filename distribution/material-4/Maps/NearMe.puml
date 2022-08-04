@@ -8,6 +8,6 @@ sprite $NearMeMd [16x16/16z] bSsr0S0m34JHKvZ__jE6ZPNzEk6fHcDnDK0eR0K6LtK7Zx-Q-In
 
 sprite $NearMeLg [20x20/16z] hOu53WD124LttEVT_xJr4aAiiYyEtuxp2AEOImASFhW6CDN5Bm0jAvidwssQ2FbrGo7XNKvDZtZPpLWpH5AZkJMngj5G3el85AaTNt85
 
-!procedure NearMe($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/NearMe', $name, $tech)
+!procedure NearMe($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/NearMe', $name, $tech, $desc)
 !endprocedure

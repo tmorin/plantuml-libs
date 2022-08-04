@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/InsertChartOutlined')
 
 ' renders the element
-InsertChartOutlined('InsertChartOutlined', 'Insert Chart Outlined', 'an optional tech label')
+InsertChartOutlined('InsertChartOutlined', 'Insert Chart Outlined', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/InsertChartOutlined')
 
 ' renders the element
-InsertChartOutlined('InsertChartOutlined', 'Insert Chart Outlined', 'an optional tech label')
+InsertChartOutlined('InsertChartOutlined', 'Insert Chart Outlined', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

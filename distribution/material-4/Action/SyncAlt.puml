@@ -8,6 +8,6 @@ sprite $SyncAltMd [16x16/16z] Ow00SABnUNX192y_0e04cE20Xvy9HJqtb8igoi3BWiBbu-U50o
 
 sprite $SyncAltLg [20x20/16z] hSsr0K0X30JGmntsd_QxObLU5ptGOMW5XaOi0hloTspcZwFNtB991aSZoxPLPDlwoTYmKgn-AUn4aMWm0J8h
 
-!procedure SyncAlt($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/SyncAlt', $name, $tech)
+!procedure SyncAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/SyncAlt', $name, $tech, $desc)
 !endprocedure

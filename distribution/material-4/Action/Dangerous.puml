@@ -8,6 +8,6 @@ sprite $DangerousMd [16x16/16z] ZSk53S0m40J1DmbCst-toIdCMT6FvRC_XJPMLqQcJgHFdo4L
 
 sprite $DangerousLg [20x20/16z] fSn50i8030NHZsiozpyjCZXiQ3lB5ydajc2pRn9_YHQbtYZBvoQmpiQTXdgOE4i1hO4OwTr8rhoRl_pvPluINxPC-RDWhys1vbh1KH8V7OHtTEk9rTVs6TGP
 
-!procedure Dangerous($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/Dangerous', $name, $tech)
+!procedure Dangerous($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Dangerous', $name, $tech, $desc)
 !endprocedure

@@ -4,13 +4,13 @@ sprite $StreamXs [10x10/16z] Oq05_12A6ynYWedm8nGm0daGBZytH8GL8WvL1zB5X50FLWC
 
 sprite $StreamSm [12x12/16z] PSQt0SH030F18VbM3lrtg-WYmQw7Te1of0rKolW4L2myM7zam9wcVL0Qla4A9kmgW2CDG8CR
 
-sprite $StreamMd [16x16/16z] TOx50GGX5CKoZh_-gyNNTt8YmJutB9ygMHwiLtC7VlYf6ZO8MXxX1E93QsYN7oezygu0YxHDznBWt7E2k8zbJ82k8O-NpqVmLNVVmlQyAGMe-Y1evoy5
+sprite $StreamMd [16x16/16z] TOw50GCX0CJoZj_-q-Br_g49oasMJvGiZwnNOmT-yAagDWXQ7k84uWEhQ8SVA3tqhW2Bj4ts4k0SZyHzZWdGDU1ny_aGlkBkczXu_5qAKF6He9s_AG
 
 sprite $StreamLg [20x20/16z] {
 bOy55aCX40E3yuha_hSjOUlU-Sh06lvbiZogG18tjBPUv7vx60SjNG0y6N0ZnOsIpFTAAJB4KivP4tGuKyYeYDiipSfNzfisvxm4JRrImnLF-fkMX3jdl95R
 bUObwpdKnb9EgTjukNjIS_Z04G
 }
 
-!procedure Stream($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Content/Stream', $name, $tech)
+!procedure Stream($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/Stream', $name, $tech, $desc)
 !endprocedure

@@ -2,7 +2,7 @@
 
 sprite $Filter5Xs [10x10/16z] LSZ50O1G3C3Gu73A_jFotLwzJ5uBlezO1sBSXBRPDhXPVuL8Om41
 
-sprite $Filter5Sm [12x12/16z] Oq05_300OiF4G10iXM2ZYFF1sI06Gfm7paQO0mKyG3PMMm4
+sprite $Filter5Sm [12x12/16z] Oq05_300OiF4G10iXM2ZYFF1sI06Gfm7paQO0mNSG3PMMm4
 
 sprite $Filter5Md [16x16/16z] RSw53G0n40D1FwFb_hiDSrOumSCabJRBJLkAn6ODm685hBKvhvB-nh3Lvbzx8VLLjh6zBpsLuRvBhkUnXagxSvDOSjvR6m
 
@@ -11,6 +11,6 @@ TSp50G0X34HHI72R_gjT5_GVNqIiYgKgNkJGP4xp47y4Avo_JViZlgtWDdUVTIR5MMjCenrrnjRQzjzT
 sG4
 }
 
-!procedure Filter5($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/Filter5', $name, $tech)
+!procedure Filter5($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/Filter5', $name, $tech, $desc)
 !endprocedure

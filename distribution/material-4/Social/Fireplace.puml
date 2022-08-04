@@ -8,6 +8,6 @@ sprite $FireplaceMd [16x16/16z] TSg54S0W5C1Gf6xPVzlYJj1tzqMNAZEap5gazDnFONjH6NWB
 
 sprite $FireplaceLg [20x20/16z] ZSp50KCn3C1G-pD6-qzR25D1nsUGlwFgUfivyfmTalVJriRqHYjJOAlC0Co5hTZMtApCeBKjmfoPVJSAKsQJNJl9_kqNhckCPiasUQjwsrMrIwyd
 
-!procedure Fireplace($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Social/Fireplace', $name, $tech)
+!procedure Fireplace($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/Fireplace', $name, $tech, $desc)
 !endprocedure

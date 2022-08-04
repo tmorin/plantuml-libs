@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Animation')
 
 ' renders the element
-Animation('Animation', 'Animation', 'an optional tech label')
+Animation('Animation', 'Animation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Animation')
 
 ' renders the element
-Animation('Animation', 'Animation', 'an optional tech label')
+Animation('Animation', 'Animation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

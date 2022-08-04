@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Maximize')
 
 ' renders the element
-Maximize('Maximize', 'Maximize', 'an optional tech label')
+Maximize('Maximize', 'Maximize', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Maximize')
 
 ' renders the element
-Maximize('Maximize', 'Maximize', 'an optional tech label')
+Maximize('Maximize', 'Maximize', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

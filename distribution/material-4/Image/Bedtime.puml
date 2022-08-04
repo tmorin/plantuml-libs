@@ -8,6 +8,6 @@ sprite $BedtimeMd [16x16/16z] RSl50G0X4C30SmNIVxMuGtwpiinR6_rGQOF6Zh9GT8RcVksy1S
 
 sprite $BedtimeLg [20x20/16z] bS_50GCX54NHSS5k_zN6W-jR7lWsZUM2DPGJC259097yWZCmKhk-TgVVq1bZpfZE68SpOt6tjbb3BS57oz-pLmjsaiLm-2mXS_GkrBrCvJm1
 
-!procedure Bedtime($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/Bedtime', $name, $tech)
+!procedure Bedtime($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/Bedtime', $name, $tech, $desc)
 !endprocedure

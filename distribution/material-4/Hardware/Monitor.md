@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/Monitor')
 
 ' renders the element
-Monitor('Monitor', 'Monitor', 'an optional tech label')
+Monitor('Monitor', 'Monitor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/Monitor')
 
 ' renders the element
-Monitor('Monitor', 'Monitor', 'an optional tech label')
+Monitor('Monitor', 'Monitor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

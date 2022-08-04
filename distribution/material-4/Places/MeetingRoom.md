@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Places/MeetingRoom')
 
 ' renders the element
-MeetingRoom('MeetingRoom', 'Meeting Room', 'an optional tech label')
+MeetingRoom('MeetingRoom', 'Meeting Room', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Places/MeetingRoom')
 
 ' renders the element
-MeetingRoom('MeetingRoom', 'Meeting Room', 'an optional tech label')
+MeetingRoom('MeetingRoom', 'Meeting Room', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -11,6 +11,6 @@ ZSs50SGW44JHmPtflzfu5ixlnNyGV13wncFe7719UO140K7nTrDAsimzjH9JPvbR1pfG6AS6OByQHyjN
 v7tyaBYvHWdbWbFOh
 }
 
-!procedure AutoDelete($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Alert/AutoDelete', $name, $tech)
+!procedure AutoDelete($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Alert/AutoDelete', $name, $tech, $desc)
 !endprocedure

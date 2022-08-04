@@ -8,6 +8,6 @@ sprite $LiveTvMd [16x16/16z] ZSjL0W0X409GjWla_gVThl7BPqwXn33ibwgGUC9suSv9t2s0nOy
 
 sprite $LiveTvLg [20x20/16z] bOw50GCn30CL9iVQVzfod_62Pk4MANqUdJdRswaUCoIXE_mmLJvGzVEs37Gk2L1YXcKwyDbNnTf7jMiVsSpQ9wiyMTUwKorhdt291vhCYTZY2G
 
-!procedure LiveTv($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Notification/LiveTv', $name, $tech)
+!procedure LiveTv($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Notification/LiveTv', $name, $tech, $desc)
 !endprocedure

@@ -8,6 +8,6 @@ sprite $ErrorMd [16x16/16z] ROu50aGX24GLTd_ZtF-qTkipwL5xjEwj3u4pMuIC91iLgScIl5p2
 
 sprite $ErrorLg [20x20/16z] bSs50OKm30JGgtkp_xHVWSFbeOtYcIWVpO223Bh6e0XfLf7wnUGdeF--PHhFcB2CCRiJIpknmfZqAOaXJHg0tTax_DV4Li38J0COPEXF5Uu4kLoZnh4t
 
-!procedure Error($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Alert/Error', $name, $tech)
+!procedure Error($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Alert/Error', $name, $tech, $desc)
 !endprocedure

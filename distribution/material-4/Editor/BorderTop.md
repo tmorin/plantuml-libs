@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/BorderTop')
 
 ' renders the element
-BorderTop('BorderTop', 'Border Top', 'an optional tech label')
+BorderTop('BorderTop', 'Border Top', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/BorderTop')
 
 ' renders the element
-BorderTop('BorderTop', 'Border Top', 'an optional tech label')
+BorderTop('BorderTop', 'Border Top', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

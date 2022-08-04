@@ -8,6 +8,6 @@ sprite $ViewAgendaMd [16x16/16z] Oo08U7ZXW0V8PU970aoaynbuaG0MwnXHrLDk7nCImBGE
 
 sprite $ViewAgendaLg [20x20/16z] Ow08yAC27YnYV5GMumM9iRAZ06PSxkFbGm4Sj7KVGem7tLwY0G
 
-!procedure ViewAgenda($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/ViewAgenda', $name, $tech)
+!procedure ViewAgenda($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/ViewAgenda', $name, $tech, $desc)
 !endprocedure

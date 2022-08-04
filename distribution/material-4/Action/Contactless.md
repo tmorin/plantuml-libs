@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Contactless')
 
 ' renders the element
-Contactless('Contactless', 'Contactless', 'an optional tech label')
+Contactless('Contactless', 'Contactless', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Contactless')
 
 ' renders the element
-Contactless('Contactless', 'Contactless', 'an optional tech label')
+Contactless('Contactless', 'Contactless', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

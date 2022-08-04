@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Store')
 
 ' renders the element
-Store('Store', 'Store', 'an optional tech label')
+Store('Store', 'Store', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Store')
 
 ' renders the element
-Store('Store', 'Store', 'an optional tech label')
+Store('Store', 'Store', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

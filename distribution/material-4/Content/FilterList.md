@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Content/FilterList')
 
 ' renders the element
-FilterList('FilterList', 'Filter List', 'an optional tech label')
+FilterList('FilterList', 'Filter List', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Content/FilterList')
 
 ' renders the element
-FilterList('FilterList', 'Filter List', 'an optional tech label')
+FilterList('FilterList', 'Filter List', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

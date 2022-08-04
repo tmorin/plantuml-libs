@@ -7,10 +7,10 @@ sprite $SettingsInputComponentSm [12x12/16z] Oq01_DWn3pyF7FFpysF5J4nCSCpBoml3A6g
 sprite $SettingsInputComponentMd [16x16/16z] XS-50G8m40F0LB2txByjAUvKhYwFj-Gc6WNOHOReNyT11Wx1w5qOg8GKOuZyE-vAQ0k8zZR-UDv5wy8moGcKUZ3Ml__UuiirpeuZ
 
 sprite $SettingsInputComponentLg [20x20/16z] {
-fT150a8n30JGgLlQkVzjwI0R7FvRr2K9dfjURPoGKI7CQYiTD5a_h0tZD3XRD4CnqX8MDtWAcjfoQCtv3V1oc-3Hr-yPDO5QGrGNu1OPWKHE09riH-eY9QWD
-vJB9m0a
+fT1LWaKX30FGu5R8_dSxD_FSxNpWqXRtJQysJiYe46QrbKuTrmThtJWDpXRDK8oqXCKDF0LDRVbfpVaDu6K_kUV9U-vYpTG1QWrHNO1RP0GIEPKLsNwfYvIW
+DXH8oS0V
 }
 
-!procedure SettingsInputComponent($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/SettingsInputComponent', $name, $tech)
+!procedure SettingsInputComponent($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/SettingsInputComponent', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/PlayCircleOutline')
 
 ' renders the element
-PlayCircleOutline('PlayCircleOutline', 'Play Circle Outline', 'an optional tech label')
+PlayCircleOutline('PlayCircleOutline', 'Play Circle Outline', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/PlayCircleOutline')
 
 ' renders the element
-PlayCircleOutline('PlayCircleOutline', 'Play Circle Outline', 'an optional tech label')
+PlayCircleOutline('PlayCircleOutline', 'Play Circle Outline', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

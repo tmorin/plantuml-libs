@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/CleanHands')
 
 ' renders the element
-CleanHands('CleanHands', 'Clean Hands', 'an optional tech label')
+CleanHands('CleanHands', 'Clean Hands', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/CleanHands')
 
 ' renders the element
-CleanHands('CleanHands', 'Clean Hands', 'an optional tech label')
+CleanHands('CleanHands', 'Clean Hands', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/RepeatOne')
 
 ' renders the element
-RepeatOne('RepeatOne', 'Repeat One', 'an optional tech label')
+RepeatOne('RepeatOne', 'Repeat One', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/RepeatOne')
 
 ' renders the element
-RepeatOne('RepeatOne', 'Repeat One', 'an optional tech label')
+RepeatOne('RepeatOne', 'Repeat One', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -11,6 +11,6 @@ bSu54a8n48FXlBhd_gV58IpEDzRvQul_k4MocLHvvfJoyL0wnWrNFCWmruCQhwrSbr4jaTvly3whETrT
 x04
 }
 
-!procedure AddLocation($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/AddLocation', $name, $tech)
+!procedure AddLocation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/AddLocation', $name, $tech, $desc)
 !endprocedure

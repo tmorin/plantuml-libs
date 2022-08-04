@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Crop169')
 
 ' renders the element
-Crop169('Crop169', 'Crop169', 'an optional tech label')
+Crop169('Crop169', 'Crop169', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Crop169')
 
 ' renders the element
-Crop169('Crop169', 'Crop169', 'an optional tech label')
+Crop169('Crop169', 'Crop169', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,12 +2,12 @@
 
 sprite $ViewDayXs [10x10/16z] Oy06-A40knWcYu1U
 
-sprite $ViewDaySm [12x12/16z] Oy05UFbXW861cGK661XOUQ202raDJZPGCnGmCJ1myi00cXe4
+sprite $ViewDaySm [12x12/16z] Oy05UFbXW861cOMPcGK8c9aP65Xve80BMGrEDb0p530nC73om02Q6WG
 
-sprite $ViewDayMd [16x16/16z] bSwr0G0W3031ZtJO_jlIud8LnBcHr53Gqb306m3MOAp__ylm7qbihExJ1fCA
+sprite $ViewDayMd [16x16/16z] Oo0467cH01C30nC_4W3o6LXOc5b004I3D30Z0GPqzQJp6L7vcExZGGBOtCU405Yq0m
 
-sprite $ViewDayLg [20x20/16z] Ow08yAC2FbnYBAY0cKZpkB6PHminJYuKm8hBVJoeW0kNUNoeW8Vu40K
+sprite $ViewDayLg [20x20/16z] Ow08yAC2FbnYB2mip6380c4HQHutDlDe8SR9XG9OSRcF1nLmuJAF3nNm41-Y
 
-!procedure ViewDay($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/ViewDay', $name, $tech)
+!procedure ViewDay($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/ViewDay', $name, $tech, $desc)
 !endprocedure

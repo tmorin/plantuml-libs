@@ -8,6 +8,6 @@ sprite $PushPinMd [16x16/16z] Oy06c200nkNYXm2u03EO2-CHvhEWyNd0V5QuQYZWW_9vUNdv-7
 
 sprite $PushPinLg [20x20/16z] lSX50e0m40F0u4x-_rgSi1UyxHm7RzJSnRfqoxw6iLuDjzVQQhbADIMbtw_Y0LR521BmaE7A2
 
-!procedure PushPin($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Content/PushPin', $name, $tech)
+!procedure PushPin($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/PushPin', $name, $tech, $desc)
 !endprocedure

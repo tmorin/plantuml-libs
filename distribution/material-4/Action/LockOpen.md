@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/LockOpen')
 
 ' renders the element
-LockOpen('LockOpen', 'Lock Open', 'an optional tech label')
+LockOpen('LockOpen', 'Lock Open', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/LockOpen')
 
 ' renders the element
-LockOpen('LockOpen', 'Lock Open', 'an optional tech label')
+LockOpen('LockOpen', 'Lock Open', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

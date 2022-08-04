@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/Satellite')
 
 ' renders the element
-Satellite('Satellite', 'Satellite', 'an optional tech label')
+Satellite('Satellite', 'Satellite', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/Satellite')
 
 ' renders the element
-Satellite('Satellite', 'Satellite', 'an optional tech label')
+Satellite('Satellite', 'Satellite', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

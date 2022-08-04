@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/BlurCircular')
 
 ' renders the element
-BlurCircular('BlurCircular', 'Blur Circular', 'an optional tech label')
+BlurCircular('BlurCircular', 'Blur Circular', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/BlurCircular')
 
 ' renders the element
-BlurCircular('BlurCircular', 'Blur Circular', 'an optional tech label')
+BlurCircular('BlurCircular', 'Blur Circular', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

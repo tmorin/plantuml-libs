@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Payment')
 
 ' renders the element
-Payment('Payment', 'Payment', 'an optional tech label')
+Payment('Payment', 'Payment', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Payment')
 
 ' renders the element
-Payment('Payment', 'Payment', 'an optional tech label')
+Payment('Payment', 'Payment', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

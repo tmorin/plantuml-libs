@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/FilterCenterFocus')
 
 ' renders the element
-FilterCenterFocus('FilterCenterFocus', 'Filter Center Focus', 'an optional tech label')
+FilterCenterFocus('FilterCenterFocus', 'Filter Center Focus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/FilterCenterFocus')
 
 ' renders the element
-FilterCenterFocus('FilterCenterFocus', 'Filter Center Focus', 'an optional tech label')
+FilterCenterFocus('FilterCenterFocus', 'Filter Center Focus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

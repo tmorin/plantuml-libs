@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/CameraFront')
 
 ' renders the element
-CameraFront('CameraFront', 'Camera Front', 'an optional tech label')
+CameraFront('CameraFront', 'Camera Front', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/CameraFront')
 
 ' renders the element
-CameraFront('CameraFront', 'Camera Front', 'an optional tech label')
+CameraFront('CameraFront', 'Camera Front', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

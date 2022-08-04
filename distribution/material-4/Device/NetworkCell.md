@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Device/NetworkCell')
 
 ' renders the element
-NetworkCell('NetworkCell', 'Network Cell', 'an optional tech label')
+NetworkCell('NetworkCell', 'Network Cell', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Device/NetworkCell')
 
 ' renders the element
-NetworkCell('NetworkCell', 'Network Cell', 'an optional tech label')
+NetworkCell('NetworkCell', 'Network Cell', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

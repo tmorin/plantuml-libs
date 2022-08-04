@@ -8,6 +8,6 @@ sprite $PregnantWomanMd [16x16/16z] Oy0E656vNFpyUFaCpEZg-L1Cu-VdvqPMpGy4h6XyVkBv
 
 sprite $PregnantWomanLg [20x20/16z] dO-r0G0X34LFSNZxRqkBMyfylpRFOylN3Tpb4wZ5R_rosFe5fhQ3re-xyLEDdpdw2GLIVCMCB7NlzpYN_SgB
 
-!procedure PregnantWoman($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/PregnantWoman', $name, $tech)
+!procedure PregnantWoman($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/PregnantWoman', $name, $tech, $desc)
 !endprocedure

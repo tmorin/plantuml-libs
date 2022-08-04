@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Places/FreeBreakfast')
 
 ' renders the element
-FreeBreakfast('FreeBreakfast', 'Free Breakfast', 'an optional tech label')
+FreeBreakfast('FreeBreakfast', 'Free Breakfast', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Places/FreeBreakfast')
 
 ' renders the element
-FreeBreakfast('FreeBreakfast', 'Free Breakfast', 'an optional tech label')
+FreeBreakfast('FreeBreakfast', 'Free Breakfast', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

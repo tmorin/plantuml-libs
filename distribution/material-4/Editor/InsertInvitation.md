@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/InsertInvitation')
 
 ' renders the element
-InsertInvitation('InsertInvitation', 'Insert Invitation', 'an optional tech label')
+InsertInvitation('InsertInvitation', 'Insert Invitation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/InsertInvitation')
 
 ' renders the element
-InsertInvitation('InsertInvitation', 'Insert Invitation', 'an optional tech label')
+InsertInvitation('InsertInvitation', 'Insert Invitation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

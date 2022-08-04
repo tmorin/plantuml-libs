@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/Plumbing')
 
 ' renders the element
-Plumbing('Plumbing', 'Plumbing', 'an optional tech label')
+Plumbing('Plumbing', 'Plumbing', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/Plumbing')
 
 ' renders the element
-Plumbing('Plumbing', 'Plumbing', 'an optional tech label')
+Plumbing('Plumbing', 'Plumbing', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

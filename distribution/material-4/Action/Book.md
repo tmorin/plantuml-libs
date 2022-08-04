@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Book')
 
 ' renders the element
-Book('Book', 'Book', 'an optional tech label')
+Book('Book', 'Book', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Book')
 
 ' renders the element
-Book('Book', 'Book', 'an optional tech label')
+Book('Book', 'Book', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/Scanner')
 
 ' renders the element
-Scanner('Scanner', 'Scanner', 'an optional tech label')
+Scanner('Scanner', 'Scanner', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/Scanner')
 
 ' renders the element
-Scanner('Scanner', 'Scanner', 'an optional tech label')
+Scanner('Scanner', 'Scanner', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

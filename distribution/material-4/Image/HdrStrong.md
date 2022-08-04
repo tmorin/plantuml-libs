@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/HdrStrong')
 
 ' renders the element
-HdrStrong('HdrStrong', 'Hdr Strong', 'an optional tech label')
+HdrStrong('HdrStrong', 'Hdr Strong', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/HdrStrong')
 
 ' renders the element
-HdrStrong('HdrStrong', 'Hdr Strong', 'an optional tech label')
+HdrStrong('HdrStrong', 'Hdr Strong', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

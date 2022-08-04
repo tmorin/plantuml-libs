@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/FirstPage')
 
 ' renders the element
-FirstPage('FirstPage', 'First Page', 'an optional tech label')
+FirstPage('FirstPage', 'First Page', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/FirstPage')
 
 ' renders the element
-FirstPage('FirstPage', 'First Page', 'an optional tech label')
+FirstPage('FirstPage', 'First Page', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

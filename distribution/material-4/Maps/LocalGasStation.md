@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalGasStation')
 
 ' renders the element
-LocalGasStation('LocalGasStation', 'Local Gas Station', 'an optional tech label')
+LocalGasStation('LocalGasStation', 'Local Gas Station', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalGasStation')
 
 ' renders the element
-LocalGasStation('LocalGasStation', 'Local Gas Station', 'an optional tech label')
+LocalGasStation('LocalGasStation', 'Local Gas Station', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

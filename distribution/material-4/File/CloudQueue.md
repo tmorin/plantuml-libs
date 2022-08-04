@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/File/CloudQueue')
 
 ' renders the element
-CloudQueue('CloudQueue', 'Cloud Queue', 'an optional tech label')
+CloudQueue('CloudQueue', 'Cloud Queue', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/File/CloudQueue')
 
 ' renders the element
-CloudQueue('CloudQueue', 'Cloud Queue', 'an optional tech label')
+CloudQueue('CloudQueue', 'Cloud Queue', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

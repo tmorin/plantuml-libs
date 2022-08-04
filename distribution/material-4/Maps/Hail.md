@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/Hail')
 
 ' renders the element
-Hail('Hail', 'Hail', 'an optional tech label')
+Hail('Hail', 'Hail', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/Hail')
 
 ' renders the element
-Hail('Hail', 'Hail', 'an optional tech label')
+Hail('Hail', 'Hail', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

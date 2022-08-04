@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/ShowChart')
 
 ' renders the element
-ShowChart('ShowChart', 'Show Chart', 'an optional tech label')
+ShowChart('ShowChart', 'Show Chart', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/ShowChart')
 
 ' renders the element
-ShowChart('ShowChart', 'Show Chart', 'an optional tech label')
+ShowChart('ShowChart', 'Show Chart', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

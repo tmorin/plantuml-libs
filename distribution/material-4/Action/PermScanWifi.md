@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/PermScanWifi')
 
 ' renders the element
-PermScanWifi('PermScanWifi', 'Perm Scan Wifi', 'an optional tech label')
+PermScanWifi('PermScanWifi', 'Perm Scan Wifi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/PermScanWifi')
 
 ' renders the element
-PermScanWifi('PermScanWifi', 'Perm Scan Wifi', 'an optional tech label')
+PermScanWifi('PermScanWifi', 'Perm Scan Wifi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

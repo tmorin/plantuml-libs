@@ -8,6 +8,6 @@ sprite $LocalShippingMd [16x16/16z] bOe50W1120AvBeN_l_QwUsT32OJIQC56hKVjINpGSiMd
 
 sprite $LocalShippingLg [20x20/16z] fSg53KKn049Hwbxsd_RBSzSJ8pVW5Mr6iasH4xPjzNPhcVLFSjtWwgBL7xgsJUqthzXgbuEr15orV-rI01WqFJ1RaimOrpjV
 
-!procedure LocalShipping($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/LocalShipping', $name, $tech)
+!procedure LocalShipping($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/LocalShipping', $name, $tech, $desc)
 !endprocedure

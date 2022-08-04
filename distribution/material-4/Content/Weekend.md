@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Content/Weekend')
 
 ' renders the element
-Weekend('Weekend', 'Weekend', 'an optional tech label')
+Weekend('Weekend', 'Weekend', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Content/Weekend')
 
 ' renders the element
-Weekend('Weekend', 'Weekend', 'an optional tech label')
+Weekend('Weekend', 'Weekend', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

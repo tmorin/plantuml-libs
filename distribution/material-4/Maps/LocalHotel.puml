@@ -8,6 +8,6 @@ sprite $LocalHotelMd [16x16/16z] bSh50S0m0090uXxsdxRktliX-4iTCjKnAr993doVsPaorI7
 
 sprite $LocalHotelLg [20x20/16z] hSm53i1024JHWNM3-v-sxX9hVspoLl1tCTrDzD5Or27gN9oCncbMqpQQ6rVPJCrWF0w_MnXi_AhYOY32nIwzcZyL9iCfVh4FzG
 
-!procedure LocalHotel($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/LocalHotel', $name, $tech)
+!procedure LocalHotel($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/LocalHotel', $name, $tech, $desc)
 !endprocedure

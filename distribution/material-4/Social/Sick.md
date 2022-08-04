@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/Sick')
 
 ' renders the element
-Sick('Sick', 'Sick', 'an optional tech label')
+Sick('Sick', 'Sick', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/Sick')
 
 ' renders the element
-Sick('Sick', 'Sick', 'an optional tech label')
+Sick('Sick', 'Sick', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/DragIndicator')
 
 ' renders the element
-DragIndicator('DragIndicator', 'Drag Indicator', 'an optional tech label')
+DragIndicator('DragIndicator', 'Drag Indicator', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/DragIndicator')
 
 ' renders the element
-DragIndicator('DragIndicator', 'Drag Indicator', 'an optional tech label')
+DragIndicator('DragIndicator', 'Drag Indicator', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Device/SendToMobile')
 
 ' renders the element
-SendToMobile('SendToMobile', 'Send To Mobile', 'an optional tech label')
+SendToMobile('SendToMobile', 'Send To Mobile', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Device/SendToMobile')
 
 ' renders the element
-SendToMobile('SendToMobile', 'Send To Mobile', 'an optional tech label')
+SendToMobile('SendToMobile', 'Send To Mobile', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

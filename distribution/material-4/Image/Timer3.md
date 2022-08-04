@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Timer3')
 
 ' renders the element
-Timer3('Timer3', 'Timer3', 'an optional tech label')
+Timer3('Timer3', 'Timer3', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Timer3')
 
 ' renders the element
-Timer3('Timer3', 'Timer3', 'an optional tech label')
+Timer3('Timer3', 'Timer3', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

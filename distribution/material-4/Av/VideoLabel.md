@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/VideoLabel')
 
 ' renders the element
-VideoLabel('VideoLabel', 'Video Label', 'an optional tech label')
+VideoLabel('VideoLabel', 'Video Label', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/VideoLabel')
 
 ' renders the element
-VideoLabel('VideoLabel', 'Video Label', 'an optional tech label')
+VideoLabel('VideoLabel', 'Video Label', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

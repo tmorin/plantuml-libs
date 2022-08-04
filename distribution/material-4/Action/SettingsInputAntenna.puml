@@ -7,10 +7,10 @@ sprite $SettingsInputAntennaSm [12x12/16z] LOm70i1010IHNkV_lysIFdkdOtySiLKu4B8zd
 sprite $SettingsInputAntennaMd [16x16/16z] VOY50KGn38MeVctOVzjp5w8ylb53tTBLakwzpk5srN5S9L4S73dkgXvFSeRgiHV88Ls8dRE2ArPiMT11brZ973kh76zAN0WNdidoruVzLQVde9deyeq3
 
 sprite $SettingsInputAntennaLg [20x20/16z] {
-dSg5TSGm403H4TaMxVJVRLwOwRvWaU-rkMFrpAlJ9v5uiem6aBeUpwqEwRWg4Dx_d7RIyjv5KW3ZFXk94Ywo0vgDRUNUz3w_ZoGxZAZWvhJSzqyJKuKbnKRA
-znVLmdsMUTOq-EWotTfBuVZOqkta7QtC3vip0wlmhJi
+dOw5OGGm30CLvjp-sxOkFFC5pT9zqbXxDgyZXJ-s-tTDThBNDSZ_hYQvNAEaZTqgDBc9KUN0V6pxTQUmcV9qAP6qY386zhTNZYRr_UrdgH3CNt0QW3HH8Cbv
+sm88ijzHU8AjIohkKv_9ldOjXiw0g76HEKpL3BhB5m
 }
 
-!procedure SettingsInputAntenna($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/SettingsInputAntenna', $name, $tech)
+!procedure SettingsInputAntenna($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/SettingsInputAntenna', $name, $tech, $desc)
 !endprocedure

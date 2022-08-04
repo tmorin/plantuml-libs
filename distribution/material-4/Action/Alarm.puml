@@ -10,10 +10,10 @@ RSg5SKKn30NHZUcXlFrtcz5dEeCN-E6FDzrE2dDWTIsdkX4MmBuPewrQZ_DwQ51Wl_vnG9b0HCOXjrpC
 }
 
 sprite $AlarmLg [20x20/16z] {
-bOy50eKm34Cpz-N-fyNQxqgmy5R56KsdPcGrZemmpjkDiHqeaCvExgged3jhqnIo1fywwHAbJk6uLhdMwm3odcGvXNMQ2qFMLCaKPbY4vHi3ktoIPDbx9dCs
-rlsdoa8wW1q3aK4NoRVDgMOmYJ63uNOwzWQHcg7R7PeUz_ArPuFFMW4
+bOy55W8m34Cpz-N-j-MLuCwVrblymmuGgq84CiE5w8750IEHmMyQ7PtRT6ExHlOKooH3eOVHk2vP808dW6f1dbkwIIUTtLGBYfJEiKbNhpfmwYcAyhSwzJdO
+hy8YZlYra9aq2EjrSa8i5dtSOhfQbmUGgGZHI6D7t1Bxh0xlEG
 }
 
-!procedure Alarm($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/Alarm', $name, $tech)
+!procedure Alarm($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Alarm', $name, $tech, $desc)
 !endprocedure

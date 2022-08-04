@@ -8,6 +8,6 @@ sprite $HorizontalSplitMd [16x16/16z] Oo0PC34Z08ZFouy0J5ZKS_4Y04YU6uMF2Z3C8vbFAW
 
 sprite $HorizontalSplitLg [20x20/16z] Ow0-u4G1760nVXJ0XrCl4mfWnAcN7GMmuJIF3mNmO3EF8Z6g0m
 
-!procedure HorizontalSplit($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/HorizontalSplit', $name, $tech)
+!procedure HorizontalSplit($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/HorizontalSplit', $name, $tech, $desc)
 !endprocedure

@@ -8,6 +8,6 @@ sprite $PanoramaVerticalSelectMd [16x16/16z] Oy04Z700uVF30GUOpmddGnGmm_aCg1fuqVZ
 
 sprite $PanoramaVerticalSelectLg [20x20/16z] ZS_L0S0W34NHL-g-_xJL20xtyw11VVrfHsZJIdPOPiWcoq0PfGESsXQn9M9JfSsv-ngrdQsB_7cDs6dLswDH1zbcjIBU3G
 
-!procedure PanoramaVerticalSelect($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/PanoramaVerticalSelect', $name, $tech)
+!procedure PanoramaVerticalSelect($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/PanoramaVerticalSelect', $name, $tech, $desc)
 !endprocedure

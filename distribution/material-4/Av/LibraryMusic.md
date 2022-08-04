@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/LibraryMusic')
 
 ' renders the element
-LibraryMusic('LibraryMusic', 'Library Music', 'an optional tech label')
+LibraryMusic('LibraryMusic', 'Library Music', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/LibraryMusic')
 
 ' renders the element
-LibraryMusic('LibraryMusic', 'Library Music', 'an optional tech label')
+LibraryMusic('LibraryMusic', 'Library Music', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/NorthWest')
 
 ' renders the element
-NorthWest('NorthWest', 'North West', 'an optional tech label')
+NorthWest('NorthWest', 'North West', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/NorthWest')
 
 ' renders the element
-NorthWest('NorthWest', 'North West', 'an optional tech label')
+NorthWest('NorthWest', 'North West', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

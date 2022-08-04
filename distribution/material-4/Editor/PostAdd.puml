@@ -8,6 +8,6 @@ sprite $PostAddMd [16x16/16z] VOw50S0W30IBE-o_ROCxXyR_Uu1dauJY9W2OFCJdao62SNh0Td
 
 sprite $PostAddLg [20x20/16z] dSq50eGW50JGeHlkVzeDnsvz9Z_nIcWdCH4w0Y6K5eB3JoC9VdCNiwjUnYGjOetWyXHp16Ai4dpTz7BUPkzvdQMBtbe6TOYvKWV5ue4l
 
-!procedure PostAdd($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Editor/PostAdd', $name, $tech)
+!procedure PostAdd($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/PostAdd', $name, $tech, $desc)
 !endprocedure

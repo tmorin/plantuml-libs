@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/MobileScreenShare')
 
 ' renders the element
-MobileScreenShare('MobileScreenShare', 'Mobile Screen Share', 'an optional tech label')
+MobileScreenShare('MobileScreenShare', 'Mobile Screen Share', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/MobileScreenShare')
 
 ' renders the element
-MobileScreenShare('MobileScreenShare', 'Mobile Screen Share', 'an optional tech label')
+MobileScreenShare('MobileScreenShare', 'Mobile Screen Share', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

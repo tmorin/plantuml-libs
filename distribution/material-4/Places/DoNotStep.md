@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Places/DoNotStep')
 
 ' renders the element
-DoNotStep('DoNotStep', 'Do Not Step', 'an optional tech label')
+DoNotStep('DoNotStep', 'Do Not Step', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Places/DoNotStep')
 
 ' renders the element
-DoNotStep('DoNotStep', 'Do Not Step', 'an optional tech label')
+DoNotStep('DoNotStep', 'Do Not Step', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

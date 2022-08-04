@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Content/Tag')
 
 ' renders the element
-Tag('Tag', 'Tag', 'an optional tech label')
+Tag('Tag', 'Tag', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Content/Tag')
 
 ' renders the element
-Tag('Tag', 'Tag', 'an optional tech label')
+Tag('Tag', 'Tag', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

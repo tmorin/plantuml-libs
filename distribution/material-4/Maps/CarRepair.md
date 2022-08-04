@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/CarRepair')
 
 ' renders the element
-CarRepair('CarRepair', 'Car Repair', 'an optional tech label')
+CarRepair('CarRepair', 'Car Repair', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/CarRepair')
 
 ' renders the element
-CarRepair('CarRepair', 'Car Repair', 'an optional tech label')
+CarRepair('CarRepair', 'Car Repair', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

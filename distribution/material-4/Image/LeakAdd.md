@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/LeakAdd')
 
 ' renders the element
-LeakAdd('LeakAdd', 'Leak Add', 'an optional tech label')
+LeakAdd('LeakAdd', 'Leak Add', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/LeakAdd')
 
 ' renders the element
-LeakAdd('LeakAdd', 'Leak Add', 'an optional tech label')
+LeakAdd('LeakAdd', 'Leak Add', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

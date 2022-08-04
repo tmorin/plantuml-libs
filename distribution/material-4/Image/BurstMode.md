@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/BurstMode')
 
 ' renders the element
-BurstMode('BurstMode', 'Burst Mode', 'an optional tech label')
+BurstMode('BurstMode', 'Burst Mode', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/BurstMode')
 
 ' renders the element
-BurstMode('BurstMode', 'Burst Mode', 'an optional tech label')
+BurstMode('BurstMode', 'Burst Mode', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

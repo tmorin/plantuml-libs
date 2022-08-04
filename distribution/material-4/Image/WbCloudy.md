@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/WbCloudy')
 
 ' renders the element
-WbCloudy('WbCloudy', 'Wb Cloudy', 'an optional tech label')
+WbCloudy('WbCloudy', 'Wb Cloudy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/WbCloudy')
 
 ' renders the element
-WbCloudy('WbCloudy', 'Wb Cloudy', 'an optional tech label')
+WbCloudy('WbCloudy', 'Wb Cloudy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

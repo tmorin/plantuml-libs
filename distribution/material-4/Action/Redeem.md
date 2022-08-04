@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Redeem')
 
 ' renders the element
-Redeem('Redeem', 'Redeem', 'an optional tech label')
+Redeem('Redeem', 'Redeem', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Redeem')
 
 ' renders the element
-Redeem('Redeem', 'Redeem', 'an optional tech label')
+Redeem('Redeem', 'Redeem', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

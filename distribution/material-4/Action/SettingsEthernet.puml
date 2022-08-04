@@ -8,6 +8,6 @@ sprite $SettingsEthernetMd [16x16/16z] hSMrOGCm04N19sRz_QTDR45lkkRuWMbMiR0CxRqYG
 
 sprite $SettingsEthernetLg [20x20/16z] lSo50GCW34JHZpkt_xJLm0RjmudmBplOfJUCTFwMCXz31Uvd1AWQN4u2aYRKGgnG0rxRihMfSYZ3LCP93kVWEwkwjRYI5W1P4-DllAdRJUAec13vWIS
 
-!procedure SettingsEthernet($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/SettingsEthernet', $name, $tech)
+!procedure SettingsEthernet($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/SettingsEthernet', $name, $tech, $desc)
 !endprocedure

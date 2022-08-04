@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/Category')
 
 ' renders the element
-Category('Category', 'Category', 'an optional tech label')
+Category('Category', 'Category', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/Category')
 
 ' renders the element
-Category('Category', 'Category', 'an optional tech label')
+Category('Category', 'Category', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

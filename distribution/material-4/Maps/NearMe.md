@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/NearMe')
 
 ' renders the element
-NearMe('NearMe', 'Near Me', 'an optional tech label')
+NearMe('NearMe', 'Near Me', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/NearMe')
 
 ' renders the element
-NearMe('NearMe', 'Near Me', 'an optional tech label')
+NearMe('NearMe', 'Near Me', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

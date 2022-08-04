@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Toc')
 
 ' renders the element
-Toc('Toc', 'Toc', 'an optional tech label')
+Toc('Toc', 'Toc', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Toc')
 
 ' renders the element
-Toc('Toc', 'Toc', 'an optional tech label')
+Toc('Toc', 'Toc', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

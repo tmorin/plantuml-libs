@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/ArrowLeft')
 
 ' renders the element
-ArrowLeft('ArrowLeft', 'Arrow Left', 'an optional tech label')
+ArrowLeft('ArrowLeft', 'Arrow Left', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/ArrowLeft')
 
 ' renders the element
-ArrowLeft('ArrowLeft', 'Arrow Left', 'an optional tech label')
+ArrowLeft('ArrowLeft', 'Arrow Left', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

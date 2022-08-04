@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalParking')
 
 ' renders the element
-LocalParking('LocalParking', 'Local Parking', 'an optional tech label')
+LocalParking('LocalParking', 'Local Parking', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalParking')
 
 ' renders the element
-LocalParking('LocalParking', 'Local Parking', 'an optional tech label')
+LocalParking('LocalParking', 'Local Parking', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

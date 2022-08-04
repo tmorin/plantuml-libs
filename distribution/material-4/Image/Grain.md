@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Grain')
 
 ' renders the element
-Grain('Grain', 'Grain', 'an optional tech label')
+Grain('Grain', 'Grain', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Grain')
 
 ' renders the element
-Grain('Grain', 'Grain', 'an optional tech label')
+Grain('Grain', 'Grain', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

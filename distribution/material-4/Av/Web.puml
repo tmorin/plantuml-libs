@@ -8,6 +8,6 @@ sprite $WebMd [16x16/16z] bSc55S0W40JHZNlelrhSdO_EEmmZdWUOYI_Ni_BDyoORoWSisVuK4i
 
 sprite $WebLg [20x20/16z] Ow0CiB0Y0sQG43yQOC4YneDJZ0y6G2o861VSDX2BD364UI0noitZuu4140kiX0FD7vG5A
 
-!procedure Web($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Av/Web', $name, $tech)
+!procedure Web($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/Web', $name, $tech, $desc)
 !endprocedure

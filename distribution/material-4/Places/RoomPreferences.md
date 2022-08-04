@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Places/RoomPreferences')
 
 ' renders the element
-RoomPreferences('RoomPreferences', 'Room Preferences', 'an optional tech label')
+RoomPreferences('RoomPreferences', 'Room Preferences', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Places/RoomPreferences')
 
 ' renders the element
-RoomPreferences('RoomPreferences', 'Room Preferences', 'an optional tech label')
+RoomPreferences('RoomPreferences', 'Room Preferences', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

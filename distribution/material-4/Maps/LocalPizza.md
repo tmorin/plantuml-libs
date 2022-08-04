@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalPizza')
 
 ' renders the element
-LocalPizza('LocalPizza', 'Local Pizza', 'an optional tech label')
+LocalPizza('LocalPizza', 'Local Pizza', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/LocalPizza')
 
 ' renders the element
-LocalPizza('LocalPizza', 'Local Pizza', 'an optional tech label')
+LocalPizza('LocalPizza', 'Local Pizza', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

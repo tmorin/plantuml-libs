@@ -8,6 +8,6 @@ sprite $ReplyAllMd [16x16/16z] hSY53O1044HHt67wh_PaFOwzvEHFyuEJZYVeg0jTIQnTJ3AKN
 
 sprite $ReplyAllLg [20x20/16z] lSe52WGn50FGZDNRtF-qAtL1LoR0bqTmLtmSMq-1SVJcgT_4lH5f8Z4UVIj7lqcHW6HBml0UDRuqUzHzSmEsoxztn3ZYZOCgRXL7CcmUQpPyaIS
 
-!procedure ReplyAll($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Content/ReplyAll', $name, $tech)
+!procedure ReplyAll($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/ReplyAll', $name, $tech, $desc)
 !endprocedure

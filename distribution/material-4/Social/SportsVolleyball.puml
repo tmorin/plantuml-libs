@@ -2,7 +2,7 @@
 
 sprite $SportsVolleyballXs [10x10/16z] LSEr0OG00C30UnSa-q-BLaHSo0m6gJiIdIUUojDGp9Efj-wyoYruF5J0QxnZ1G
 
-sprite $SportsVolleyballSm [12x12/16z] NOdL0S0m50A9Usx_RHlxwbFWzA-iy9Jj2DAMmozTOIEsDff8vMZ6iXfB6qKeKiAfh5rmbOSkRxRCJ0aunYuELhVC5Hy
+sprite $SportsVolleyballSm [12x12/16z] NOdL0S0m50A9Usx_RHlxwbFWzA-iy9Jj2DAMmozTOIEsDff8vMZ6iXfB6qKeKi8fhrrmbOSkRxRCJ0aunYuELhVC5Hy
 
 sprite $SportsVolleyballMd [16x16/16z] {
 RKw54GCn35Femz7-s_OCvVUXnRY_yFKbRf3LlvZivxQVMVxo19RzG2UJqFQp8kmDXESlR0IY_4jn7cbMLpv14pKUqRF7XDnKRpe-wEYqnTV2hjraqyybd04t
@@ -14,6 +14,6 @@ bS_L0GGW009Gx9RzjptxklYIP-E_U3hKgkwCtSWgDoIzZLpeE4sLZcBkMmOOagbJs9RLADsuhJ83oFfg
 Mk_BrhCO0T6tp4YIMGAHv4551LXksj6LyyZRc9I3nFjS
 }
 
-!procedure SportsVolleyball($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Social/SportsVolleyball', $name, $tech)
+!procedure SportsVolleyball($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/SportsVolleyball', $name, $tech, $desc)
 !endprocedure

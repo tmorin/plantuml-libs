@@ -5,15 +5,15 @@ sprite $MoodXs [10x10/16z] LOo53S1030EjPxxzjwqSOI-C-W5Nvk0YsSbWPOgIYejWw-a2gIQF1
 sprite $MoodSm [12x12/16z] NSd50G0W30F0u4xsdnPhNnpKySijQ3UOVMLwRSF5UoBEODAfo2-dYMdG7KItY1NZwFTwmfE4kNsUE0pDBP6pyxQFiQzi
 
 sprite $MoodMd [16x16/16z] {
-RSg5OKGn3C1GXVF9sd_QzfXVmCXlAV5YzwnpbOqAJ0yktBX8ryOUfCiQoG9OKKXkxCSvmfp0dkb25kwgrtc-I0m11wjdcLZXqfmQXMO2YBW4cfEBmxsL4VSI
+RSg5OKGn3C1GXVF9sd_QzfXVmCXlAV5YzwnpbOqAJ0yktBX8ryOUfCiQoG9OKKXkxCSvmfZ0dkb25kwgrtc-I0m11wjdcLZXqfmQXMO2YBW4cfEBmxsL4VSI
 QgXRueT_
 }
 
 sprite $MoodLg [20x20/16z] {
-bO-50GCn30FzOTR-syPGvjv3G3BHVnGmqzEL3ApH9__T-Me0xknsPrS_gmuuT0FG1MzwONz3uDraqu3QbbYhx5XngehxI9fD_gOskaKJOjpVPVujI7R3KTGE
-WoWBGhaqjaGgmEIb8f_wNEVXA-QbUNJ94i5NPro7aUcMs4Pnz9uD
+bSw5OOH0503HOGLRcVwhZQ7nkuVpbUVCgYrocRJNqhG7TbN3aHsEhC8kwC0xvHIt-6nWDG7LWIg07NG1D14-eXOOHe3mVj-YAtSMmCgT4z25vYQG3K1wZtJV
+pUTYtG2pjW2BqxvdZsmMsxcy9G1P6uTGt4pSvRNEWT-z0W
 }
 
-!procedure Mood($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Social/Mood', $name, $tech)
+!procedure Mood($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/Mood', $name, $tech, $desc)
 !endprocedure

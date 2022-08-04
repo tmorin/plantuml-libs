@@ -8,6 +8,6 @@ sprite $ExpandMoreMd [16x16/16z] Ow03OEG1KxnmFZz8W9-F0Ka0maK8GBW80JuQkGq
 
 sprite $ExpandMoreLg [20x20/16z] pSX50K0X042nzrs1_cbnBm0xZkaS16kfMzquKYqbXRfWaUg4DhjoAMtJPQdYP3G3
 
-!procedure ExpandMore($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Navigation/ExpandMore', $name, $tech)
+!procedure ExpandMore($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Navigation/ExpandMore', $name, $tech, $desc)
 !endprocedure

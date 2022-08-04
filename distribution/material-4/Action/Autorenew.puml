@@ -7,10 +7,10 @@ sprite $AutorenewSm [12x12/16z] PKs50S0m2AlZyF-rSn-kIVg9toL475KBydEnp7JPhINYFibB
 sprite $AutorenewMd [16x16/16z] TSw53S0m34JHCCUt_xIbiAL-aLyR4ZyLPg8DCWEeamRa26fG8Zph7yhcJABDq9_XHAkcPjDTSdDe74C8RR-65AEg7gP553Is22N8nVQSe_7t1W
 
 sprite $AutorenewLg [20x20/16z] {
-VOq55WCX4CLmXzp_j7MqxUBa_Sc8on5-i9PE8dKZxwZo77uX1h9jhCKIrEchoDwtw1wR2MgtsQNaVLlCOEN3D6wmnY8vrU7PrgabrgLAo8PRa8FIs938G7Sj
+VOq55WCX4CLmXzp_j7MqxUBa_Sc8on5-i9PE8dKZxwZo77uX1h9hhCKIrEchoDwtw1wR2MgtsQNaVLlCOEN3D6wmnY8vrU7PrgabrgLAo8PRa8FIs938G7Sj
 yEaxuS6ESGS
 }
 
-!procedure Autorenew($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/Autorenew', $name, $tech)
+!procedure Autorenew($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Autorenew', $name, $tech, $desc)
 !endprocedure

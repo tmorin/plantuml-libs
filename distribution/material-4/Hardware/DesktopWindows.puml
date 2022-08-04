@@ -2,12 +2,12 @@
 
 sprite $DesktopWindowsXs [10x10/16z] Oq00VXXWu8UAaC220H2N6IREmCF30oG1
 
-sprite $DesktopWindowsSm [12x12/16z] dSR50G0n4090Jk92_zN6xPrP0Pnqc3xmcmXYkkX-8jx__oDb-QWC6Lvqp_kscW4
+sprite $DesktopWindowsSm [12x12/16z] dSR50G0n4090Jk92_zN6xPrP0Pnqc3xmcmXYkkX-8jx_-o9b-QWC6Lvqp_kscW4
 
-sprite $DesktopWindowsMd [16x16/16z] Oy00J4Y0aO617mLmCF0p8wdbvQK_7mLmCZ2mW00_Fn-8Wgbb1l91R3WN11Ym0G
+sprite $DesktopWindowsMd [16x16/16z] lSV50S0W44JH7_VGVxMumvctEZJcp0IYS28MakyRdmiNhEkohaByvYuuYyxcJr6ZHm4
 
-sprite $DesktopWindowsLg [20x20/16z] rSYr0OG00C30lE2I_QV5tLkkF9uAt8BIT2KpR8wLhz4BBbW9cqlT-iBltmhLV-V3wAUoPYTbAU_4dAe1
+sprite $DesktopWindowsLg [20x20/16z] rSYr0S100090tltPVzguUvjh47nbU0HKnfr4sttOaNG_-CoExRx88maehPLMbgGUci1CaSGU1n5RUU1ngmK
 
-!procedure DesktopWindows($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Hardware/DesktopWindows', $name, $tech)
+!procedure DesktopWindows($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Hardware/DesktopWindows', $name, $tech, $desc)
 !endprocedure

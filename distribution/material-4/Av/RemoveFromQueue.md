@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/RemoveFromQueue')
 
 ' renders the element
-RemoveFromQueue('RemoveFromQueue', 'Remove From Queue', 'an optional tech label')
+RemoveFromQueue('RemoveFromQueue', 'Remove From Queue', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/RemoveFromQueue')
 
 ' renders the element
-RemoveFromQueue('RemoveFromQueue', 'Remove From Queue', 'an optional tech label')
+RemoveFromQueue('RemoveFromQueue', 'Remove From Queue', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

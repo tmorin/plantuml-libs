@@ -6,8 +6,8 @@ sprite $LineStyleSm [12x12/16z] Oy09U600oEQ70I2R6GQ0R5uW01D0DXCGW0cmE1ClBpSNK1oa
 
 sprite $LineStyleMd [16x16/16z] bOq35W1134FJF2sA-vzsRGp-i4fGZSK9F-9EJuWtEZSQZdxXX80pcECjci_cfvnwiVK_QLieHTTtzj_YRelJZ
 
-sprite $LineStyleLg [20x20/16z] fSk30G0n30NGNplPVzgpZLT6-CUiQBHuXHxdpgYE65wvc7MWnQpi0A9x1Kvqizsbp3GR6zqbLNC5dCa6ES9cCVnQRC44psBu_L83
+sprite $LineStyleLg [20x20/16z] fSk30G0n30NGNplPVzgpZLT6-CUiQBHuXHxdpgYE65wvc7MWnQpi0A9x1Kvqizsbp3GR6zqbLNC5dCa6ESBcyTTY2oPu5iFlbne
 
-!procedure LineStyle($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/LineStyle', $name, $tech)
+!procedure LineStyle($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/LineStyle', $name, $tech, $desc)
 !endprocedure

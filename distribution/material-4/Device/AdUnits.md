@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Device/AdUnits')
 
 ' renders the element
-AdUnits('AdUnits', 'Ad Units', 'an optional tech label')
+AdUnits('AdUnits', 'Ad Units', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Device/AdUnits')
 
 ' renders the element
-AdUnits('AdUnits', 'Ad Units', 'an optional tech label')
+AdUnits('AdUnits', 'Ad Units', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

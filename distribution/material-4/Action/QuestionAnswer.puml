@@ -2,12 +2,12 @@
 
 sprite $QuestionAnswerXs [10x10/16z] Oq00VZ1WXhFO42n-7WmMAuW5rSW3Lya3Cum3pc9W1G
 
-sprite $QuestionAnswerSm [12x12/16z] TSQr0G0X00ImUyLX_sbnbrH1xrKH3rSc6Iwxc_jyZIXSG9h87xZUWCPdD3rp
+sprite $QuestionAnswerSm [12x12/16z] TSQr0G0X00ImUyLX_sbnbrH1xrKH3rSc6Iwxc_jyZSHVG9h87xYUrwFn6VLl7
 
 sprite $QuestionAnswerMd [16x16/16z] bSV50S0W00ImgtlPVrhSdVo2n6pe4kDj_ht34pBoH_-7flxZ-ZJn2NY81M5QbLFVElMj4p46
 
-sprite $QuestionAnswerLg [20x20/16z] hSZ50G0X40ImmPtjlzfpTo7Fu35Q40Ud7ryCOdT4iU2fwJ9d0uoNCHclgKWB4PrmS4oEx7XBzk1W3muAHse
+sprite $QuestionAnswerLg [20x20/16z] hSZ50G0X4CNGZplJVxNhxa9oUtWSBH87fXzR369dHB6WgSaoPqCOBMDgj8OYBOhe2WV6f6XkivCjiWS6Us1GEAe6
 
-!procedure QuestionAnswer($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/QuestionAnswer', $name, $tech)
+!procedure QuestionAnswer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/QuestionAnswer', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Loyalty')
 
 ' renders the element
-Loyalty('Loyalty', 'Loyalty', 'an optional tech label')
+Loyalty('Loyalty', 'Loyalty', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Loyalty')
 
 ' renders the element
-Loyalty('Loyalty', 'Loyalty', 'an optional tech label')
+Loyalty('Loyalty', 'Loyalty', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

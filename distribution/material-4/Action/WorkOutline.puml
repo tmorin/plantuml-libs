@@ -8,6 +8,6 @@ sprite $WorkOutlineMd [16x16/16z] Oy0A69cOc92v_220u3C3sKmmFWSF3my_17EpWDJom04lH1
 
 sprite $WorkOutlineLg [20x20/16z] rOor0G0X40HVSTZ-gyKzWf0vrsiFZi0zz6244E1ZJmKdIlbAfHGGdF4kxcA2jOlsvOJUH5ZvjUcHrp8E
 
-!procedure WorkOutline($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/WorkOutline', $name, $tech)
+!procedure WorkOutline($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/WorkOutline', $name, $tech, $desc)
 !endprocedure

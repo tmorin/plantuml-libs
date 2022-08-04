@@ -8,6 +8,6 @@ sprite $AccessibilityNewMd [16x16/16z] Oy01656v_FoSkFZCR4mW4gY5cGF4v-H70AWfJBn0D
 
 sprite $AccessibilityNewLg [20x20/16z] jSY30K0n34NHLxlPVzflcwVCnLsP31O44M69A63a50V0H7CPsJIQ2KrZoeRKpD4RWG5l6Xh_jUJNpI1_s5XK217xIW
 
-!procedure AccessibilityNew($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/AccessibilityNew', $name, $tech)
+!procedure AccessibilityNew($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/AccessibilityNew', $name, $tech, $desc)
 !endprocedure

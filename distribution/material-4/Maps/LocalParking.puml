@@ -8,6 +8,6 @@ sprite $LocalParkingMd [16x16/16z] ZSV50O1000InmPtjlrfSp_CB2RffqnVFHnr6ushV0v9-x
 
 sprite $LocalParkingLg [20x20/16z] hKu35e1G05jstV-qwTlSyunIx1V1Ok6kqy9TiypjLD8vH73dF2ylTLWsUfERZ2zR0nWRgCIjvxaX7Gy
 
-!procedure LocalParking($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/LocalParking', $name, $tech)
+!procedure LocalParking($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/LocalParking', $name, $tech, $desc)
 !endprocedure

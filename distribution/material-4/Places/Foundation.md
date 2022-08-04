@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Places/Foundation')
 
 ' renders the element
-Foundation('Foundation', 'Foundation', 'an optional tech label')
+Foundation('Foundation', 'Foundation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Places/Foundation')
 
 ' renders the element
-Foundation('Foundation', 'Foundation', 'an optional tech label')
+Foundation('Foundation', 'Foundation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

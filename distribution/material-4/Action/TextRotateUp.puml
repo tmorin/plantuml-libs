@@ -1,13 +1,13 @@
 ' definition of the Item material-4/Action/TextRotateUp
 
-sprite $TextRotateUpXs [10x10/16z] Oy0DME0iBYOGoSJFoy09Ol0pC3C0MM0XRWWBB0ndWSKG
+sprite $TextRotateUpXs [10x10/16z] Oy0DME0iBYOGoSJFoy09Ol0pC3C0MM0XRWWB8im9ry61R1
 
 sprite $TextRotateUpSm [12x12/16z] XSZ50G0X44FHpAmBfFzgSJtnJo_1AkrykHTz2YQ8ZLyo7nWKx_oBOs8eqQNYjgOy
 
 sprite $TextRotateUpMd [16x16/16z] fSUr0GGn00CmXpdUVzg7OqPrmWjnNZADKGcQefyZ4nIx9P90_ym0J6v8EpqW2wd6_qMMsG6pE20Spdq1
 
-sprite $TextRotateUpLg [20x20/16z] jOsr0G9100Jt_NpwhnQ7qmIRS5L_PKsTj46QAcNNx9ZdB4mM94jMvWXnBhKz4GrIeO6LbbfB-ANLD2VmMIjUq_xGCZjqchGED6NjSyu
+sprite $TextRotateUpLg [20x20/16z] jOsr0GCm40DbPj_-quRnoy2LGlsLk6L9iDsRakKxtZy5rq1gF1M_OFbNBMzMHNhHe4dXNTkCO3Nv3SDerzUTdzhz2AxQ6_6gMIhwaYC
 
-!procedure TextRotateUp($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/TextRotateUp', $name, $tech)
+!procedure TextRotateUp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/TextRotateUp', $name, $tech, $desc)
 !endprocedure

@@ -1,13 +1,13 @@
 ' definition of the Item material-4/Communication/LiveHelp
 
-sprite $LiveHelpXs [10x10/16z] Oq02_100PZ4oi4DPJFn00YABO84mJ0SECJ00Km
+sprite $LiveHelpXs [10x10/16z] Oq02_100PZ4oS41PJFn00YABO84mJ0SECJ00Km
 
 sprite $LiveHelpSm [12x12/16z] LSQ55G11309Hthfc-g_sN2FmzPiop_6RWHuCEDpLTNk2cvTXYiVYzVpOVpmkE-_1lDSr7Ba2
 
 sprite $LiveHelpMd [16x16/16z] PSY50S0m24JHgnjm-s_RkFxe0tFBcWkyMLkSrRqARDvhClRF3OhL_GN5eNtfV82TOPrrPMTNPqMnX9yKGqJC_LNaGSvue-jAxmy
 
-sprite $LiveHelpLg [20x20/16z] ZP050aKH50NFIyt-L_j3DwD7N-mZJSvjdUjBeMshaZi0a7z7HtU3Y1EoS3Z_epSvIzyTqBKxeKpbE9Yf7O6kdALnYfkjlKhwrZfXSYv4X0jJYKWgaJPz0G
+sprite $LiveHelpLg [20x20/16z] ZP050aKH50NFIyt-L_j3DwD7N-mZJSvjdUjBeMshaZi0q7z7HtU3Y1EoS3Z_epSvIzyTqBKxeKpbE9Yf7O6kdALnYfkjlKhwrZfXSYv4X0jJYKWgaJPz0G
 
-!procedure LiveHelp($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Communication/LiveHelp', $name, $tech)
+!procedure LiveHelp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/LiveHelp', $name, $tech, $desc)
 !endprocedure

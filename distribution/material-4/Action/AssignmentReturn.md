@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/AssignmentReturn')
 
 ' renders the element
-AssignmentReturn('AssignmentReturn', 'Assignment Return', 'an optional tech label')
+AssignmentReturn('AssignmentReturn', 'Assignment Return', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/AssignmentReturn')
 
 ' renders the element
-AssignmentReturn('AssignmentReturn', 'Assignment Return', 'an optional tech label')
+AssignmentReturn('AssignmentReturn', 'Assignment Return', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

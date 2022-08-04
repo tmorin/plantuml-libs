@@ -6,8 +6,8 @@ sprite $LastPageSm [12x12/16z] Oo0EC848JcOmcuqVIF2mG2HO-H5i1bv-E9k73oxEpGTH3mVCZ
 
 sprite $LastPageMd [16x16/16z] Ow02O682KppCK3uFFoE8ucTXG0YWy1buGG88Ff3DZyBdvuEfHt0HV5uW5yv701P6CjmE
 
-sprite $LastPageLg [20x20/16z] lSZ50OL040FGhFkc_sg_uEGEu_FmLbY_Rj_TOPCh1lh33EdLW3-gcJ-A8P9gaGDYWOHOv8HQ8mxJCDxWWVW2
+sprite $LastPageLg [20x20/16z] lSf55e1030FG5FVS_xGujJsJqVuNb4hLF6-pr6eR7spPg0dPg6aULDDcDdIacjA6P2q9DMjbcmcr76a4F-G
 
-!procedure LastPage($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Navigation/LastPage', $name, $tech)
+!procedure LastPage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Navigation/LastPage', $name, $tech, $desc)
 !endprocedure

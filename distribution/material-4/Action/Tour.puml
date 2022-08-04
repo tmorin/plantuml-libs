@@ -8,6 +8,6 @@ sprite $TourMd [16x16/16z] Oy02c52vpFpeV3X0u_D2-10P8C4CuKDaU86227asDX21mpnU6614j
 
 sprite $TourLg [20x20/16z] lS_50O0m00J1mntwhnQ7kCl6vnSuD6moQqZrPrITn41RMQpdFjFM0yLv5BIDG7qUDMtRT1_hRrIbn0RPF_9PDyFO0G
 
-!procedure Tour($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/Tour', $name, $tech)
+!procedure Tour($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Tour', $name, $tech, $desc)
 !endprocedure

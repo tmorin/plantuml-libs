@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/InsertPhoto')
 
 ' renders the element
-InsertPhoto('InsertPhoto', 'Insert Photo', 'an optional tech label')
+InsertPhoto('InsertPhoto', 'Insert Photo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/InsertPhoto')
 
 ' renders the element
-InsertPhoto('InsertPhoto', 'Insert Photo', 'an optional tech label')
+InsertPhoto('InsertPhoto', 'Insert Photo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/HourglassEmpty')
 
 ' renders the element
-HourglassEmpty('HourglassEmpty', 'Hourglass Empty', 'an optional tech label')
+HourglassEmpty('HourglassEmpty', 'Hourglass Empty', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/HourglassEmpty')
 
 ' renders the element
-HourglassEmpty('HourglassEmpty', 'Hourglass Empty', 'an optional tech label')
+HourglassEmpty('HourglassEmpty', 'Hourglass Empty', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

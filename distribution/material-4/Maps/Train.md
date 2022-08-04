@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/Train')
 
 ' renders the element
-Train('Train', 'Train', 'an optional tech label')
+Train('Train', 'Train', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/Train')
 
 ' renders the element
-Train('Train', 'Train', 'an optional tech label')
+Train('Train', 'Train', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

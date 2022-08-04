@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Places/Dry')
 
 ' renders the element
-Dry('Dry', 'Dry', 'an optional tech label')
+Dry('Dry', 'Dry', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Places/Dry')
 
 ' renders the element
-Dry('Dry', 'Dry', 'an optional tech label')
+Dry('Dry', 'Dry', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

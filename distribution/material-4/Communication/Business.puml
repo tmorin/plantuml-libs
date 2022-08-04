@@ -8,6 +8,6 @@ sprite $BusinessMd [16x16/16z] XOs55S10348vIJKyzf-sxlfFOu0_0YV26aUvXXtt6EuunaV6E
 
 sprite $BusinessLg [20x20/16z] fO-53KKn54AfUzb_sY_FNK-8NGMyWXroMiksqFfvBI8JQbvRa9jQ_Qd-rC2ytcrhnLVwoE0XlUng0p3KNIs9JA6f1F3JxhtrxfZ3MKWhhkoEEUg2XAjy0G
 
-!procedure Business($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Communication/Business', $name, $tech)
+!procedure Business($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/Business', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Bedtime')
 
 ' renders the element
-Bedtime('Bedtime', 'Bedtime', 'an optional tech label')
+Bedtime('Bedtime', 'Bedtime', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Bedtime')
 
 ' renders the element
-Bedtime('Bedtime', 'Bedtime', 'an optional tech label')
+Bedtime('Bedtime', 'Bedtime', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

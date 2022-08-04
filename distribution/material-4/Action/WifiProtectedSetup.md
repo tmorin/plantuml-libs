@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/WifiProtectedSetup')
 
 ' renders the element
-WifiProtectedSetup('WifiProtectedSetup', 'Wifi Protected Setup', 'an optional tech label')
+WifiProtectedSetup('WifiProtectedSetup', 'Wifi Protected Setup', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/WifiProtectedSetup')
 
 ' renders the element
-WifiProtectedSetup('WifiProtectedSetup', 'Wifi Protected Setup', 'an optional tech label')
+WifiProtectedSetup('WifiProtectedSetup', 'Wifi Protected Setup', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

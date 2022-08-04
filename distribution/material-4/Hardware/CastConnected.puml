@@ -7,10 +7,10 @@ sprite $CastConnectedSm [12x12/16z] TOor0O004CI2Ezb_MXok8itB2NyOC5ygyXrBkdTlbEhP
 sprite $CastConnectedMd [16x16/16z] NSt50S0m3CLG1Kjs_lxJbla5TJ9_VydyCO7S7ZAKUBXZCUcozQgyM-h1diwZL9Zk3j2hShSqK1N2rHHDUCDMMmz4nQHxlXfjG4Hj1cBSDyGDVmi
 
 sprite $CastConnectedLg [20x20/16z] {
-fS-r0KCn54DHcLdQVzjyfYPqosDy-AUiPmPKl9MK9iCjkrhHsM9JWG-pYzwDKhCml9gBGwe0x_VPhWPpEpjvLK4yhL8qwBAudeqYh2fyd5gik0aZfDiSTeOy
-cTOYEZFQWAS1boe-xGK
+fS-r0KCn54DHcLdQVzjyfYPqosDy-AUiPmPKl9MK9iCjkrhHsM9JWG-pYzwDKhCml9gBb2h0-tssgy7SpavULH1FgnGDkYokPwC8gmeVfnOhRi88wJQ7dI5F
+fhM8pemsu6d0fOfFUm4
 }
 
-!procedure CastConnected($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Hardware/CastConnected', $name, $tech)
+!procedure CastConnected($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Hardware/CastConnected', $name, $tech, $desc)
 !endprocedure

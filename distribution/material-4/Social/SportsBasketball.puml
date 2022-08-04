@@ -2,18 +2,15 @@
 
 sprite $SportsBasketballXs [10x10/16z] LSk30SK030JGzr7Zzf-sPfo3LyG8gaG2_oAY9x7btntZWNqnhFk7t-MbyCCC
 
-sprite $SportsBasketballSm [12x12/16z] NSQr0GDH5C0m7tm6xpzju3K1LU9V9KDOYjRu7O_A4AyiD3SYUl2jE0yH1MIBvH2WAve0oF4Jma5u0W
+sprite $SportsBasketballSm [12x12/16z] NSQr0GDH5C0m7tm6xpzju3K1LU9V9KDOYfRu7O_A4AyiD3SYUl2jE0yH1MIBvH2WAve0oF4Jma5u0W
 
-sprite $SportsBasketballMd [16x16/16z] {
-ROu73iDG24CVsSa7VF_RLg3kzcanRVCV--XSWRJVEvEwLqApt7iQTuxkpJG3qa7rJjQ7HGG-YAMh7wnqCz1kBOcqz7_Y6i2ntVEik55Sghu6D77l3-uifJSC
-Vha1
-}
+sprite $SportsBasketballMd [16x16/16z] RSwr0GHH3CHGUHdih_whFUPRHVEouRZuKbhe_53epHRtXeVlocIvES8Uq0KBasQ3g2fofuRR-YkqqGhdK04TiB2Hxi0oFVwCP02mURCZz-hXXKT3Azo3Wyu
 
 sprite $SportsBasketballLg [20x20/16z] {
 bSZLOKKX5031HQ_1sVwhZH3tlFaSRhEx4L5ui-dZQUItUZdbHNsvoJChxVbWN0275c9TvrG0TRAj0xK2smFILkWRUTksolSYObAZCuCI4HiGUd2u4IRK35G3
 N7VI580BfklCb0sMq-UpyQpeoqrUvF5y6--robxusJq
 }
 
-!procedure SportsBasketball($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Social/SportsBasketball', $name, $tech)
+!procedure SportsBasketball($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/SportsBasketball', $name, $tech, $desc)
 !endprocedure

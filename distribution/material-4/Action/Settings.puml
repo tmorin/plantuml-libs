@@ -7,10 +7,10 @@ sprite $SettingsSm [12x12/16z] NOg50O0m40DnXzj_MqYeN-K_qhMCOvzsUFvbVMvWHn70gU_RR
 sprite $SettingsMd [16x16/16z] ZOw50KGn2CKeTIFxRtkkNrF5dvn2WMyxVzjcbHkLV3CZ7sxsxPsF5gIReyCpBygDzB3rsT81UdqhZ5SzKUkhNl_wIozgGDFkvKdyq-lCJ5Qv
 
 sprite $SettingsLg [20x20/16z] {
-bP150WCn24K9SUN-fwqa0UgTUQkF2voazDvVVNJ3WMAshwWBQIIQj4gxGID66k2K8xYynCmRhEpTbu2TWOK7yJdkZ01Sadd9AguLRpg39drwE37H8sRFIAPC
-sxkQNduGF_p5llWC8i8FhW
+bP3L0GCm24G9SRtzfwtGGDtUr-52VzBcd8y-d0Wtjjk-HWPZ5GYZOpSOKAm1Yrmfr8kGlANAdts5r9bKH39VqCvCf2LLb-pc0jWM42U4AHvDBBZ5xHd5DR5Z
+wENX1_d5N_o3pp4pVU08
 }
 
-!procedure Settings($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/Settings', $name, $tech)
+!procedure Settings($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Settings', $name, $tech, $desc)
 !endprocedure

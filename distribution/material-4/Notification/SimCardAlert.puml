@@ -8,6 +8,6 @@ sprite $SimCardAlertMd [16x16/16z] bSV50S0W0C30Ud7sdnPt9w_SqUxIdO6Ccu0ZvJOIw1n9e
 
 sprite $SimCardAlertLg [20x20/16z] Oo0Hy4C1EqA8bny6u49y_720K8K0S5KOOgnGm_ceAiRFXse7AVRoS1BMYod6Z2e6LSW31zoumXS
 
-!procedure SimCardAlert($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Notification/SimCardAlert', $name, $tech)
+!procedure SimCardAlert($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Notification/SimCardAlert', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/CellWifi')
 
 ' renders the element
-CellWifi('CellWifi', 'Cell Wifi', 'an optional tech label')
+CellWifi('CellWifi', 'Cell Wifi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/CellWifi')
 
 ' renders the element
-CellWifi('CellWifi', 'Cell Wifi', 'an optional tech label')
+CellWifi('CellWifi', 'Cell Wifi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,12 +2,15 @@
 
 sprite $BlurOnXs [10x10/16z] Oq0170oCK1Ox0nEg52S70pyZFmU4mmYbc1du6VYP4Jgm0m
 
-sprite $BlurOnSm [12x12/16z] Oq07Z4282VWX4Aw62KhpC_4p0iKPuNhHn0cPWw4
+sprite $BlurOnSm [12x12/16z] Oq07Z4282VYX40AOW12Ybf-9dn4epWZNYoQEmnpSTW4
 
 sprite $BlurOnMd [16x16/16z] dOw30GGn54GdTgR_Qk_MzWk-WKS80JzRSlZaO18fWgAHHmX4r0fwnC5Eg6piHefbse2J12cO6cc7UTuZIyXFyuVz7Gxv0m
 
-sprite $BlurOnLg [20x20/16z] fT033WH050JHwh7__M-xMTilgdGmu4i5l6usSID1Xk2sTP0DMMJERRqYL3qvRMkdgXZLbiosLTXHnA_C6DjwUXTF66GRc6tB0mY_ABjjM-B4WVJtEsx_wZiR
+sprite $BlurOnLg [20x20/16z] {
+fP235KHH30NdCSdNxR_QjOqvYCcNE9J4DOaREXZKlDKEc4XgpFDMUqKYHS7wgMqa5w4bILlDsTCeYp5DM-tfBeKwOPgGjbhPPvG5t_lASbcG8QM_xxZzrNUi
+0G
+}
 
-!procedure BlurOn($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/BlurOn', $name, $tech)
+!procedure BlurOn($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/BlurOn', $name, $tech, $desc)
 !endprocedure

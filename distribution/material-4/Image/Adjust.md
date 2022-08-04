@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Adjust')
 
 ' renders the element
-Adjust('Adjust', 'Adjust', 'an optional tech label')
+Adjust('Adjust', 'Adjust', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Adjust')
 
 ' renders the element
-Adjust('Adjust', 'Adjust', 'an optional tech label')
+Adjust('Adjust', 'Adjust', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

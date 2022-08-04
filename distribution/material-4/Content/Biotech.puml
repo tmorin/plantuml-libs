@@ -8,6 +8,6 @@ sprite $BiotechMd [16x16/16z] TOx50GGX5CLmX_HVxUeObjkN9sA3xCT0wMQWcrN0FBuBadgD5P
 
 sprite $BiotechLg [20x20/16z] bSr50WGX44FH1Dhjt_-quzFOYhShZNfjH5LyWMh0h9B30cN780XA9hwzLSddQYO_dZv7FXXJRqKVLXAPrBYOLVF5ZvM41UPfid8HoiR9JmgRhjkf3ay
 
-!procedure Biotech($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Content/Biotech', $name, $tech)
+!procedure Biotech($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/Biotech', $name, $tech, $desc)
 !endprocedure

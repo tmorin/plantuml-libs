@@ -8,6 +8,6 @@ sprite $FileCopyMd [16x16/16z] XST50G1140EmBlFKlzfZnlo26wxcQfh5Ua2FLLWVET7hwxWMg
 
 sprite $FileCopyLg [20x20/16z] dT053W0X34HHt6dlVzhrMVSVWvU9LPncQIx2U2d1y48m5uVM5dYihAoCf9WE9WoMAnDOhWtBnQYBQJ7qpPmvMDSlgvE5iniwZrptQm4
 
-!procedure FileCopy($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Content/FileCopy', $name, $tech)
+!procedure FileCopy($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/FileCopy', $name, $tech, $desc)
 !endprocedure

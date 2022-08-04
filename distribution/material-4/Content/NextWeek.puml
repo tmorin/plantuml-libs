@@ -8,6 +8,6 @@ sprite $NextWeekMd [16x16/16z] Oo0ASF3myZ0Zk4pyF3my_0W-Cv3D1EFp8m5ka3WoWF4vqFZiZ
 
 sprite $NextWeekLg [20x20/16z] fSY30K0n34NHsidRVzfl6xVC4V_BQDCh0pldaDPMscioYrNK6ZQb0okpcGFJSc_GQcyGUcii3ROcDNRciJTSMMXCbbKj7LG3
 
-!procedure NextWeek($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Content/NextWeek', $name, $tech)
+!procedure NextWeek($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/NextWeek', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/GridOn')
 
 ' renders the element
-GridOn('GridOn', 'Grid On', 'an optional tech label')
+GridOn('GridOn', 'Grid On', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/GridOn')
 
 ' renders the element
-GridOn('GridOn', 'Grid On', 'an optional tech label')
+GridOn('GridOn', 'Grid On', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

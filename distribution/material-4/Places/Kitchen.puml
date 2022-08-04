@@ -8,6 +8,6 @@ sprite $KitchenMd [16x16/16z] XSo35K1H30FGFAlOVzflynuM2HwOrJpg9i-pXyE8Q9cTdcTBfv
 
 sprite $KitchenLg [20x20/16z] dSx50S0m30D0XTdUVzeoStDFe_03RxYnP3Z56V5SqmXJFszgdB_KZ9ojjQsv5joiREvHklfHNxFcN9izrTH5PfYyIBZH0W
 
-!procedure Kitchen($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Places/Kitchen', $name, $tech)
+!procedure Kitchen($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/Kitchen', $name, $tech, $desc)
 !endprocedure

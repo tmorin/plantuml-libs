@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/File/Topic')
 
 ' renders the element
-Topic('Topic', 'Topic', 'an optional tech label')
+Topic('Topic', 'Topic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/File/Topic')
 
 ' renders the element
-Topic('Topic', 'Topic', 'an optional tech label')
+Topic('Topic', 'Topic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

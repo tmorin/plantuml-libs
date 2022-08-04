@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/VerticalAlignBottom')
 
 ' renders the element
-VerticalAlignBottom('VerticalAlignBottom', 'Vertical Align Bottom', 'an optional tech label')
+VerticalAlignBottom('VerticalAlignBottom', 'Vertical Align Bottom', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/VerticalAlignBottom')
 
 ' renders the element
-VerticalAlignBottom('VerticalAlignBottom', 'Vertical Align Bottom', 'an optional tech label')
+VerticalAlignBottom('VerticalAlignBottom', 'Vertical Align Bottom', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

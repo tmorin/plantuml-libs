@@ -8,6 +8,6 @@ sprite $FormatIndentIncreaseMd [16x16/16z] XSt50K0n20DGablH_QVzxlhg0iWlZHt7i-yeB
 
 sprite $FormatIndentIncreaseLg [20x20/16z] fT235S1040JGYJtRVxTvSSxwPmDbH44SUaK7lr5Ps-8myBBY88tjt6FVThmCTn-D_OJLKLGt71XvbqkZl2Fs3wXO4Mq7
 
-!procedure FormatIndentIncrease($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Editor/FormatIndentIncrease', $name, $tech)
+!procedure FormatIndentIncrease($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/FormatIndentIncrease', $name, $tech, $desc)
 !endprocedure

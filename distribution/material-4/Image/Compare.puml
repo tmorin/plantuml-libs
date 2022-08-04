@@ -8,6 +8,6 @@ sprite $CompareMd [16x16/16z] hSS74e0m24HHYbsOlVzj1Unbkgj9_gFlGSwUtHt2SGz9GoniPf
 
 sprite $CompareLg [20x20/16z] jT053i0W44HHt67kVzjkfgxHVlp5KH_PeUy6StnsCADu11fM2nBwsVWO_rcvMx5YEDbGj7OmEMaekvdL45SRJPeDgx7L6Yts8OaDgPlN_sCwxlS9
 
-!procedure Compare($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/Compare', $name, $tech)
+!procedure Compare($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/Compare', $name, $tech, $desc)
 !endprocedure

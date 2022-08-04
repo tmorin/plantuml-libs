@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Flip')
 
 ' renders the element
-Flip('Flip', 'Flip', 'an optional tech label')
+Flip('Flip', 'Flip', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Flip')
 
 ' renders the element
-Flip('Flip', 'Flip', 'an optional tech label')
+Flip('Flip', 'Flip', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Crop54')
 
 ' renders the element
-Crop54('Crop54', 'Crop54', 'an optional tech label')
+Crop54('Crop54', 'Crop54', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Crop54')
 
 ' renders the element
-Crop54('Crop54', 'Crop54', 'an optional tech label')
+Crop54('Crop54', 'Crop54', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

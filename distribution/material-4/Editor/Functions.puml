@@ -8,6 +8,6 @@ sprite $FunctionsMd [16x16/16z] Oo03yF1300kKpux6Ps3ZvsT4qS62Bi24Bi31puVCvKJbSaEv
 
 sprite $FunctionsLg [20x20/16z] fO-r0S0m40FDR6l_QSCSTN_bWq19SVv4NxE64tVD8fcf07JrnREXOKFBXWa8dr46ucTKwUZxE82ULypZwiJHla9c
 
-!procedure Functions($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Editor/Functions', $name, $tech)
+!procedure Functions($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/Functions', $name, $tech, $desc)
 !endprocedure

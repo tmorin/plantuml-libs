@@ -7,10 +7,10 @@ sprite $BlurOffSm [12x12/16z] NOsr0G1H2CKUqcV_QK-_GTBWg6EF7waDAJv78X-p48OOAuHctI
 sprite $BlurOffMd [16x16/16z] ZOw30G0n0CHIztdxR_isKpF7BumXCrDw1knG1u8yLOcC5Sl6uItjiA5CEQyhBpUiAmpB4yT2iaAIen_ZhChPoy--sPlabwL6Vzoqvnn3_WIUAnq
 
 sprite $BlurOffLg [20x20/16z] {
-bP054WCX40GR9wc5-VzhpvMof75P6_waGd1Sk6kwI0f0WUWXisEAE2LQeuY3hW0ZJH4e-NBxSLLT7YSjE-eHE6q-pTRT0xry1g9H94NMNTYp3PqgMtokEyU5
-t_EyoNiTJvz5Hnsldw-AHgtio-_C
+bP054WCX40GR9wc5-VzhpvMof75P6_waGd1Sk6kwI0f0WUWXisEAE2LQeuY3lluSQOghURxSVbnLbyT9ouvwXjbycgsx1thv34IZI8gikx1d6pfLjlXSTuuB
+l-Tva_SwdZwBZZhUFvyLZLhPbz-P0G
 }
 
-!procedure BlurOff($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/BlurOff', $name, $tech)
+!procedure BlurOff($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/BlurOff', $name, $tech, $desc)
 !endprocedure

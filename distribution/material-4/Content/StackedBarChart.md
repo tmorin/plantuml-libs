@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Content/StackedBarChart')
 
 ' renders the element
-StackedBarChart('StackedBarChart', 'Stacked Bar Chart', 'an optional tech label')
+StackedBarChart('StackedBarChart', 'Stacked Bar Chart', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Content/StackedBarChart')
 
 ' renders the element
-StackedBarChart('StackedBarChart', 'Stacked Bar Chart', 'an optional tech label')
+StackedBarChart('StackedBarChart', 'Stacked Bar Chart', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

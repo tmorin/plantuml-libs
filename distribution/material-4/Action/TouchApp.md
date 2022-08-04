@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/TouchApp')
 
 ' renders the element
-TouchApp('TouchApp', 'Touch App', 'an optional tech label')
+TouchApp('TouchApp', 'Touch App', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/TouchApp')
 
 ' renders the element
-TouchApp('TouchApp', 'Touch App', 'an optional tech label')
+TouchApp('TouchApp', 'Touch App', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/AllInbox')
 
 ' renders the element
-AllInbox('AllInbox', 'All Inbox', 'an optional tech label')
+AllInbox('AllInbox', 'All Inbox', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/AllInbox')
 
 ' renders the element
-AllInbox('AllInbox', 'All Inbox', 'an optional tech label')
+AllInbox('AllInbox', 'All Inbox', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

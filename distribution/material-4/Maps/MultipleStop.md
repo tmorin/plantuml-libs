@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/MultipleStop')
 
 ' renders the element
-MultipleStop('MultipleStop', 'Multiple Stop', 'an optional tech label')
+MultipleStop('MultipleStop', 'Multiple Stop', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/MultipleStop')
 
 ' renders the element
-MultipleStop('MultipleStop', 'Multiple Stop', 'an optional tech label')
+MultipleStop('MultipleStop', 'Multiple Stop', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

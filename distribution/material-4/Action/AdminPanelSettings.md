@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/AdminPanelSettings')
 
 ' renders the element
-AdminPanelSettings('AdminPanelSettings', 'Admin Panel Settings', 'an optional tech label')
+AdminPanelSettings('AdminPanelSettings', 'Admin Panel Settings', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/AdminPanelSettings')
 
 ' renders the element
-AdminPanelSettings('AdminPanelSettings', 'Admin Panel Settings', 'an optional tech label')
+AdminPanelSettings('AdminPanelSettings', 'Admin Panel Settings', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Places/Elevator')
 
 ' renders the element
-Elevator('Elevator', 'Elevator', 'an optional tech label')
+Elevator('Elevator', 'Elevator', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Places/Elevator')
 
 ' renders the element
-Elevator('Elevator', 'Elevator', 'an optional tech label')
+Elevator('Elevator', 'Elevator', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

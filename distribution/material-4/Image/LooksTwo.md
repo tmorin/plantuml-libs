@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/LooksTwo')
 
 ' renders the element
-LooksTwo('LooksTwo', 'Looks Two', 'an optional tech label')
+LooksTwo('LooksTwo', 'Looks Two', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/LooksTwo')
 
 ' renders the element
-LooksTwo('LooksTwo', 'Looks Two', 'an optional tech label')
+LooksTwo('LooksTwo', 'Looks Two', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

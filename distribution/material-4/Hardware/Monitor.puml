@@ -2,12 +2,12 @@
 
 sprite $MonitorXs [10x10/16z] Oy06-DaWW8U17of2YCN73m7CG1wOWMmS
 
-sprite $MonitorSm [12x12/16z] Oy05EFXXW961bnagoCD4Cfk7bmS2-9aO65ZOm2QoC8Cb8MnKQm4
+sprite $MonitorSm [12x12/16z] Oy05EFXXW961bnagoCD4Cfk7bmS2-9aO69ZPm2QoC8Cb8MnKQm4
 
-sprite $MonitorMd [16x16/16z] lSUr0O0m0031nntsdnQBUvVhZgBvqFOEcclNZWlQ2wshyEQo0Mq_olGzlrqTePM8U
+sprite $MonitorMd [16x16/16z] lSUr0O0m0031nntsdnQBUvVhZgBvqFOEcclNZWlQ2wshyEQo0Mq_olGTlrqTePM8U
 
 sprite $MonitorLg [20x20/16z] pT0r0e0m40NH7_Vi_K-BEmrENZdbu9P8Qnm0HRr4iMqUI-Mrg9QwbcbDe26afa6IakysI8ny7WcSK0C
 
-!procedure Monitor($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Hardware/Monitor', $name, $tech)
+!procedure Monitor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Hardware/Monitor', $name, $tech, $desc)
 !endprocedure

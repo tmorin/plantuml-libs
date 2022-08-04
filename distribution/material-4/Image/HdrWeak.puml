@@ -6,8 +6,8 @@ sprite $HdrWeakSm [12x12/16z] ZSQr0O100C30u4xsdnQdUxlgA5VD4y0yGcSt2Eg6GErzd_DyV3
 
 sprite $HdrWeakMd [16x16/16z] hSh55GCn303HaPPn-kysRyc-Xhv1oD_qonGSaeDksaEg4xWTAmOU8kImJtZ8bCEsiXyr64Tj3visnv-mIh6gUr15atpk1G
 
-sprite $HdrWeakLg [20x20/16z] lSg50G8n44JH7xkBJ__Tmk0K02-oof-bDbhYov1rfsLhPTpgWJZK8CiIKGER2jTdWrC9oofisQ8gO547NTOeAfZtaU48ht3sqw58jJGfyI798jzYYlp01G
+sprite $HdrWeakLg [20x20/16z] lSg50G8n44JH7xkBJ__Tmk0K02-oof-bDbhYov1rfsLhPTpgWJZK8CiIKGER2jTdWrC9oofisQ8gO547NLOfAfZtaU48ht3sqw58jJHvxIt98jzYYlp01G
 
-!procedure HdrWeak($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/HdrWeak', $name, $tech)
+!procedure HdrWeak($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/HdrWeak', $name, $tech, $desc)
 !endprocedure

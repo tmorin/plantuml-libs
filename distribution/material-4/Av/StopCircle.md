@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/StopCircle')
 
 ' renders the element
-StopCircle('StopCircle', 'Stop Circle', 'an optional tech label')
+StopCircle('StopCircle', 'Stop Circle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/StopCircle')
 
 ' renders the element
-StopCircle('StopCircle', 'Stop Circle', 'an optional tech label')
+StopCircle('StopCircle', 'Stop Circle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

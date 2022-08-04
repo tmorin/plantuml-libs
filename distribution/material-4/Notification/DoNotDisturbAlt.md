@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/DoNotDisturbAlt')
 
 ' renders the element
-DoNotDisturbAlt('DoNotDisturbAlt', 'Do Not Disturb Alt', 'an optional tech label')
+DoNotDisturbAlt('DoNotDisturbAlt', 'Do Not Disturb Alt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/DoNotDisturbAlt')
 
 ' renders the element
-DoNotDisturbAlt('DoNotDisturbAlt', 'Do Not Disturb Alt', 'an optional tech label')
+DoNotDisturbAlt('DoNotDisturbAlt', 'Do Not Disturb Alt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

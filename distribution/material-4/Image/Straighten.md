@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Straighten')
 
 ' renders the element
-Straighten('Straighten', 'Straighten', 'an optional tech label')
+Straighten('Straighten', 'Straighten', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Straighten')
 
 ' renders the element
-Straighten('Straighten', 'Straighten', 'an optional tech label')
+Straighten('Straighten', 'Straighten', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

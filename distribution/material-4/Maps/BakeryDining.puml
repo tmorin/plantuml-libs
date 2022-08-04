@@ -6,8 +6,8 @@ sprite $BakeryDiningSm [12x12/16z] dSQr0G0X002nLnnk_sbnQYHLhXFWxp7G-7f3uECfvSTou
 
 sprite $BakeryDiningMd [16x16/16z] jOor0S103CJiPzR-quQX3wWxb5ymmAqIgtR371eKIFH35moCXZcs1WzjzCogAz6eiMgbxmszZgsyPWO
 
-sprite $BakeryDiningLg [20x20/16z] nOt50G0n3CFAt6Z_QOznWlXfab7M0EpFAHR0fV1QK2PWeN-yrW3pzHepdPwxd8n3FE0OwG91xVlNZE-ZZ9SMA4PDAm
+sprite $BakeryDiningLg [20x20/16z] nOt50G0n3CFAt6Z_QOznWlXfab7M0EpFAHR0fV1QK2PWeN-yrW3pzHepdPwxd8n3FE3so5xBsh4mu_ieuwK5Yb7J2W
 
-!procedure BakeryDining($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/BakeryDining', $name, $tech)
+!procedure BakeryDining($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/BakeryDining', $name, $tech, $desc)
 !endprocedure

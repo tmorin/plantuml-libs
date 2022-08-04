@@ -7,10 +7,10 @@ sprite $AddShoppingCartSm [12x12/16z] JSh50G0X4CNGuCxllzfruOsSmcfaG71oedHrYmTQTb
 sprite $AddShoppingCartMd [16x16/16z] PSg50O0m0CJ0G5r__sbnvw0UliPncyL1IgypJXYje0zR4R5ErfBsAEZevTZ8mmYbiqiQ5qQ6NTIcmjK_6RK3krGFx69abIr7hn4e4hjzOrNucm4
 
 sprite $AddShoppingCartLg [20x20/16z] {
-VSxLeKCX44NHZJkd_sgZ5tYQzJS-V9AcOPaIJradLweAXD0KWmFBon3efO86JruPxwk2jnG5NgIzJvEte7ZTxRBdDYzMZIMgvgSXov9roMoQveqjo_6Jry7Y
+VSxLeKCX44NHZJkd_sgZ5tYQzJS-V9AcOPaIJradLweAXD0KWmFBon3efO86JruPvwk2jnG5NgIzJvEte7ZTxRBdDYzMZIMgvgSXov9roMoQveqjo_6Jry7Y
 uiQIg-4fD7zUKUT94YVNTcv9bHVNBV-u0m
 }
 
-!procedure AddShoppingCart($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/AddShoppingCart', $name, $tech)
+!procedure AddShoppingCart($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/AddShoppingCart', $name, $tech, $desc)
 !endprocedure

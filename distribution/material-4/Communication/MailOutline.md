@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/MailOutline')
 
 ' renders the element
-MailOutline('MailOutline', 'Mail Outline', 'an optional tech label')
+MailOutline('MailOutline', 'Mail Outline', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/MailOutline')
 
 ' renders the element
-MailOutline('MailOutline', 'Mail Outline', 'an optional tech label')
+MailOutline('MailOutline', 'Mail Outline', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

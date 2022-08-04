@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/ViewWeek')
 
 ' renders the element
-ViewWeek('ViewWeek', 'View Week', 'an optional tech label')
+ViewWeek('ViewWeek', 'View Week', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/ViewWeek')
 
 ' renders the element
-ViewWeek('ViewWeek', 'View Week', 'an optional tech label')
+ViewWeek('ViewWeek', 'View Week', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

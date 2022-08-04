@@ -6,8 +6,8 @@ sprite $NightsStaySm [12x12/16z] NOor0S0m40CVmdJxJnioMvLOUioPdPo5uea35kaAh94lVa7
 
 sprite $NightsStayMd [16x16/16z] ROp50GGn3CJiCAl_QezX0_eDoXcTLADTb0NqeW6cygoPjRwq_MldnbnGIH2-ia0MWJ3T9HZkhuq58Bq6hMMf7_aX05Nbm1q
 
-sprite $NightsStayLg [20x20/16z] bSwr0GD140F0VJwU_hjrP6Q5ulWFX_h4CDzJ3Uwf1FsUWuUwxDa7UE8UTuzv6oZnvU1WZXdJXIeOQmJs6njoL3YcYuyMsStF3alqv-ixEEAEgoqlyHud
+sprite $NightsStayLg [20x20/16z] bSx50SC00090ufxRVzgwUtdY-G-TwOcXlATckATwMEuvS5ytUFOvuXLNtXqfcnLZlXnSALEYk50JrZf1UxN1SD1qH-y8vWnSVovGPNc-te8kTzmq3rNUOmi
 
-!procedure NightsStay($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Social/NightsStay', $name, $tech)
+!procedure NightsStay($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/NightsStay', $name, $tech, $desc)
 !endprocedure

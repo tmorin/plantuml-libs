@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/LiveTv')
 
 ' renders the element
-LiveTv('LiveTv', 'Live Tv', 'an optional tech label')
+LiveTv('LiveTv', 'Live Tv', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/LiveTv')
 
 ' renders the element
-LiveTv('LiveTv', 'Live Tv', 'an optional tech label')
+LiveTv('LiveTv', 'Live Tv', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

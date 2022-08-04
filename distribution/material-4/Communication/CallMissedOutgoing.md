@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/CallMissedOutgoing')
 
 ' renders the element
-CallMissedOutgoing('CallMissedOutgoing', 'Call Missed Outgoing', 'an optional tech label')
+CallMissedOutgoing('CallMissedOutgoing', 'Call Missed Outgoing', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/CallMissedOutgoing')
 
 ' renders the element
-CallMissedOutgoing('CallMissedOutgoing', 'Call Missed Outgoing', 'an optional tech label')
+CallMissedOutgoing('CallMissedOutgoing', 'Call Missed Outgoing', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

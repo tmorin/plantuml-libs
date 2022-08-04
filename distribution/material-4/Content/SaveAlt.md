@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Content/SaveAlt')
 
 ' renders the element
-SaveAlt('SaveAlt', 'Save Alt', 'an optional tech label')
+SaveAlt('SaveAlt', 'Save Alt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Content/SaveAlt')
 
 ' renders the element
-SaveAlt('SaveAlt', 'Save Alt', 'an optional tech label')
+SaveAlt('SaveAlt', 'Save Alt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

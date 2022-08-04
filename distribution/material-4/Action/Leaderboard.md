@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Leaderboard')
 
 ' renders the element
-Leaderboard('Leaderboard', 'Leaderboard', 'an optional tech label')
+Leaderboard('Leaderboard', 'Leaderboard', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Leaderboard')
 
 ' renders the element
-Leaderboard('Leaderboard', 'Leaderboard', 'an optional tech label')
+Leaderboard('Leaderboard', 'Leaderboard', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

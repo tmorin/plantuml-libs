@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/CropLandscape')
 
 ' renders the element
-CropLandscape('CropLandscape', 'Crop Landscape', 'an optional tech label')
+CropLandscape('CropLandscape', 'Crop Landscape', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/CropLandscape')
 
 ' renders the element
-CropLandscape('CropLandscape', 'Crop Landscape', 'an optional tech label')
+CropLandscape('CropLandscape', 'Crop Landscape', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

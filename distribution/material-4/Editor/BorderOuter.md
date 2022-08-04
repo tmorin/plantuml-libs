@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/BorderOuter')
 
 ' renders the element
-BorderOuter('BorderOuter', 'Border Outer', 'an optional tech label')
+BorderOuter('BorderOuter', 'Border Outer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/BorderOuter')
 
 ' renders the element
-BorderOuter('BorderOuter', 'Border Outer', 'an optional tech label')
+BorderOuter('BorderOuter', 'Border Outer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/SearchOff')
 
 ' renders the element
-SearchOff('SearchOff', 'Search Off', 'an optional tech label')
+SearchOff('SearchOff', 'Search Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/SearchOff')
 
 ' renders the element
-SearchOff('SearchOff', 'Search Off', 'an optional tech label')
+SearchOff('SearchOff', 'Search Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

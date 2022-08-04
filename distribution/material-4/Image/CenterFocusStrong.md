@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/CenterFocusStrong')
 
 ' renders the element
-CenterFocusStrong('CenterFocusStrong', 'Center Focus Strong', 'an optional tech label')
+CenterFocusStrong('CenterFocusStrong', 'Center Focus Strong', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/CenterFocusStrong')
 
 ' renders the element
-CenterFocusStrong('CenterFocusStrong', 'Center Focus Strong', 'an optional tech label')
+CenterFocusStrong('CenterFocusStrong', 'Center Focus Strong', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

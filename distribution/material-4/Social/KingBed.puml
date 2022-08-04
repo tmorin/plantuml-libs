@@ -8,6 +8,6 @@ sprite $KingBedMd [16x16/16z] dSV50O100CJ0uCxsNotkSZQlX0399cQXGxb-2h60jlrwNJGGwy
 
 sprite $KingBedLg [20x20/16z] jSk35G0n40JGYPtflzgpyN3uuGe_a67XvXGtAWQ6khizHNTdtkSShL8gKdTtfa2dScSOua5-cREaNGH6WqxCM0XAVAu5
 
-!procedure KingBed($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Social/KingBed', $name, $tech)
+!procedure KingBed($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/KingBed', $name, $tech, $desc)
 !endprocedure

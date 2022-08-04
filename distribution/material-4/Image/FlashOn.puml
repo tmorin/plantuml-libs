@@ -8,6 +8,6 @@ sprite $FlashOnMd [16x16/16z] TSgr0S0m40J15IQc_girqzDa1tZoARrvEMMP9sJECi_8d4G-L9
 
 sprite $FlashOnLg [20x20/16z] bSt50S1020NHJzpJVxLn7s9pVBk0VjKk6Qrq_WMqMZJHIiVYC7JkDgB5HpEBbc_7mi6CLeWcMa9hH8jefkTw
 
-!procedure FlashOn($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/FlashOn', $name, $tech)
+!procedure FlashOn($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/FlashOn', $name, $tech, $desc)
 !endprocedure

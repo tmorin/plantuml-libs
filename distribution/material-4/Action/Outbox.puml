@@ -8,6 +8,6 @@ sprite $OutboxMd [16x16/16z] XSa53i0W40NHfP7gP-v_MbnZ7VHbxRzNlQkGhyUHhDTwqyvlTk1
 
 sprite $OutboxLg [20x20/16z] fSy33aL104FHZZtT_se_diqRDISitbKupJR6QCTOMZCOOvsOI2iJbN5XWh_ot6pucPCpW_ePS6Pze_rgbXmMXajS64lcmiPoOwxKiI9nkIy
 
-!procedure Outbox($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/Outbox', $name, $tech)
+!procedure Outbox($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Outbox', $name, $tech, $desc)
 !endprocedure

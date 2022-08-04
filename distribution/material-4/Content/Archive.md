@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Content/Archive')
 
 ' renders the element
-Archive('Archive', 'Archive', 'an optional tech label')
+Archive('Archive', 'Archive', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Content/Archive')
 
 ' renders the element
-Archive('Archive', 'Archive', 'an optional tech label')
+Archive('Archive', 'Archive', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

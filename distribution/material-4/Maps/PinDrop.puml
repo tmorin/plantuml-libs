@@ -4,10 +4,10 @@ sprite $PinDropXs [10x10/16z] Oq01lFpi40O_4711MBn03bIC1ShY0SeomXN2D4CP2C3E0m8C3
 
 sprite $PinDropSm [12x12/16z] NSh50S1030D1XJdRVxM1Oti-1adUT0nv1RZYki08SJyOT374DbpGz6z5Cw3iPbLnvUMCzEiZwGK
 
-sprite $PinDropMd [16x16/16z] RSp50S0m34DHbRb__scBuVYTZ9AjQR8EO8izP8C9jXxm_GPI1vr-2tJQm6Us_EITl6PvdLzx6oxDWrMPGr7d-JHFjHi
+sprite $PinDropMd [16x16/16z] RKu35W1H25mRzp_jPwvv2gCXnZYgxI-uUI-RFEnbNie1zxkEy__Fi9zbh4VqdFuEyllQUj0-uviTqOqQNBhlAvOP8TpOKIC3
 
-sprite $PinDropLg [20x20/16z] bSxL0G8n44NHjnhFxRzQ76BOdh_nqK49CAejt2HLUF0bPG2x9g3amcri0XOzUSZttDpC-ZKtinCFKKNaRXgV2QhPqbPaO5C7l7fhqY-EGWyc5lhW3
+sprite $PinDropLg [20x20/16z] bSxL0G8n44NHjnhFxRzQ76BOdh_nqK49CAejt2HLUF0bPG2x9g3amcri0XOzUSZttDpC-ZKtinCFKKNaRXgV2QhPqbPaO5EdJ1PhqY-EGWyc5lhW3
 
-!procedure PinDrop($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/PinDrop', $name, $tech)
+!procedure PinDrop($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/PinDrop', $name, $tech, $desc)
 !endprocedure

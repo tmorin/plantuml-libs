@@ -8,6 +8,6 @@ sprite $FormatUnderlinedMd [16x16/16z] fOa30W0n30IZC_R_hpsRnRJ1PCc1eXcxDBfuZSbXa
 
 sprite $FormatUnderlinedLg [20x20/16z] lOw30K0X54Mpw-u_xRVDJdW6UKk0R6I4oEhpWuyFFWlRI80DFeucmI7DbaOAwDE6wXf1vWXL9nrYCTBxJ1eXDoW1
 
-!procedure FormatUnderlined($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Editor/FormatUnderlined', $name, $tech)
+!procedure FormatUnderlined($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/FormatUnderlined', $name, $tech, $desc)
 !endprocedure

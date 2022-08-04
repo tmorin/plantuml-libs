@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/AutoStories')
 
 ' renders the element
-AutoStories('AutoStories', 'Auto Stories', 'an optional tech label')
+AutoStories('AutoStories', 'Auto Stories', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/AutoStories')
 
 ' renders the element
-AutoStories('AutoStories', 'Auto Stories', 'an optional tech label')
+AutoStories('AutoStories', 'Auto Stories', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Transform')
 
 ' renders the element
-Transform('Transform', 'Transform', 'an optional tech label')
+Transform('Transform', 'Transform', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/Transform')
 
 ' renders the element
-Transform('Transform', 'Transform', 'an optional tech label')
+Transform('Transform', 'Transform', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

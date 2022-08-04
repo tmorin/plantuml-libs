@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/ArrowUpward')
 
 ' renders the element
-ArrowUpward('ArrowUpward', 'Arrow Upward', 'an optional tech label')
+ArrowUpward('ArrowUpward', 'Arrow Upward', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/ArrowUpward')
 
 ' renders the element
-ArrowUpward('ArrowUpward', 'Arrow Upward', 'an optional tech label')
+ArrowUpward('ArrowUpward', 'Arrow Upward', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

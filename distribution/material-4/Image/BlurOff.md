@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/BlurOff')
 
 ' renders the element
-BlurOff('BlurOff', 'Blur Off', 'an optional tech label')
+BlurOff('BlurOff', 'Blur Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/BlurOff')
 
 ' renders the element
-BlurOff('BlurOff', 'Blur Off', 'an optional tech label')
+BlurOff('BlurOff', 'Blur Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -8,6 +8,6 @@ sprite $RemoveCircleMd [16x16/16z] RSo50S0W30J0V5tv_QV57Qu2KPa3wkYZSyPeOVI7cDaVc
 
 sprite $RemoveCircleLg [20x20/16z] bSpL0GD154BHkpe-z5zjbBZk-Ni2R1Drq2PkWgoFMD7D-F1b0qTwK5p_m6yFPk-2LKd9EoovK0VTJXcWwz48p7e4Zu-EmgGx3RoyNzbG7eBOaciS-MmF
 
-!procedure RemoveCircle($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Content/RemoveCircle', $name, $tech)
+!procedure RemoveCircle($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/RemoveCircle', $name, $tech, $desc)
 !endprocedure

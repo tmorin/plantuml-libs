@@ -2,15 +2,15 @@
 
 sprite $OfflineBoltXs [10x10/16z] LOg50O1030D3SRtzf-NTgZ4D1M_yDpnWKI5kE7SuIpZHkFHcT-foCa8frdgRlmu
 
-sprite $OfflineBoltSm [12x12/16z] NOo50O1030E3E-o_BRq6_QkhIeQbaraF6Ewq2cD4qquZROqBdXLFQ_Kvxd2_VGtyoAE0BL9JrO8J
+sprite $OfflineBoltSm [12x12/16z] NKg50S0024BN_V-tKs5fKlZNi7H2wv4r9Dm2M6nQAV9WJ1dZaZVJT1rzsLsUJnv3l9GjSAOAiiphdG
 
 sprite $OfflineBoltMd [16x16/16z] ROk50S1020DVwfRzjosGr7kl1oJza_FTPZYThBXiTbOwdEpNuheWMd3gsVOd4jUWV-JPjBrywphbZZpOdinxEevSslmNxJu5AnnNKLVFvlJ33W
 
 sprite $OfflineBoltLg [20x20/16z] {
-bSu50WKX20HGxDRxdtO3cDyvcpu3wB-aTMIuHs6reCRZFi-t85QPAHyseKPYzQIiozJMxJAOlnYV4i-_3Aji4x-omLgYmB_fiB4uKsQb6GUBDoTFCVr6DYic
-ftKcnQc4cBOaYMuJIakMtcS7
+bSw50SKW30JGu0xxJrl99T_rMkoXz5_IEZBSex1QfSRZFiyQgAlCHCC6QWIh9sMO5LktozJynVYKUFQoMcMRsiK6Qua2TzDXOt4cPl4OfnPlJfumQIERXU6q
+pYGuXJIcBIJHRK9foTBxx
 }
 
-!procedure OfflineBolt($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/OfflineBolt', $name, $tech)
+!procedure OfflineBolt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/OfflineBolt', $name, $tech, $desc)
 !endprocedure

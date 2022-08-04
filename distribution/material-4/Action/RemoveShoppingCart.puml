@@ -4,13 +4,13 @@ sprite $RemoveShoppingCartXs [10x10/16z] Ou03RdOa9Yi_202P_60c7mECoG1c0PaS80O7Crm
 
 sprite $RemoveShoppingCartSm [12x12/16z] JOe55e1044AnM-v_Mn_Wnj-O8T2nRfruDrpcj1WeBYMCWBWjTeYT4Z1K3O7Y5_iC9_7zMGpvtkq3
 
-sprite $RemoveShoppingCartMd [16x16/16z] RO-50G0X24Njrh__j1TsFPC6igDNaU6YYAZGJL4oV8gKHLL2K1M956nLy2eRP4KW5QYbB4UCCKqA6tw6mfZYLXKSOD_ZqHIbBu5mpi9V
+sprite $RemoveShoppingCartMd [16x16/16z] RO-50G0X24Mj2_FlFwtT-amQo0RzLfdXeh2eq4sHFRweS5byIGPLuKX1LWMlye-iCAI2TodBOQrraqAQn53yVt6h2Wwm-6WqHUbBm9opy
 
 sprite $RemoveShoppingCartLg [20x20/16z] {
 RP254KKX30HnUCRrN-tN67BZEnjrk-GLNQWhFBymQJoR6P97p2AC-iEOdKT3pS1pkfWNewz3fcYk0N-pEGcwzz_ftXajBXSbK2oCvPV1REU_qwsm03ST9B3m
 hhPdFQdl7VR_xEuD
 }
 
-!procedure RemoveShoppingCart($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/RemoveShoppingCart', $name, $tech)
+!procedure RemoveShoppingCart($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/RemoveShoppingCart', $name, $tech, $desc)
 !endprocedure

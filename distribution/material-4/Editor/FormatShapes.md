@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/FormatShapes')
 
 ' renders the element
-FormatShapes('FormatShapes', 'Format Shapes', 'an optional tech label')
+FormatShapes('FormatShapes', 'Format Shapes', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/FormatShapes')
 
 ' renders the element
-FormatShapes('FormatShapes', 'Format Shapes', 'an optional tech label')
+FormatShapes('FormatShapes', 'Format Shapes', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

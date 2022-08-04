@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/PermContactCalendar')
 
 ' renders the element
-PermContactCalendar('PermContactCalendar', 'Perm Contact Calendar', 'an optional tech label')
+PermContactCalendar('PermContactCalendar', 'Perm Contact Calendar', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/PermContactCalendar')
 
 ' renders the element
-PermContactCalendar('PermContactCalendar', 'Perm Contact Calendar', 'an optional tech label')
+PermContactCalendar('PermContactCalendar', 'Perm Contact Calendar', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/Beenhere')
 
 ' renders the element
-Beenhere('Beenhere', 'Beenhere', 'an optional tech label')
+Beenhere('Beenhere', 'Beenhere', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/Beenhere')
 
 ' renders the element
-Beenhere('Beenhere', 'Beenhere', 'an optional tech label')
+Beenhere('Beenhere', 'Beenhere', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/Shuffle')
 
 ' renders the element
-Shuffle('Shuffle', 'Shuffle', 'an optional tech label')
+Shuffle('Shuffle', 'Shuffle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/Shuffle')
 
 ' renders the element
-Shuffle('Shuffle', 'Shuffle', 'an optional tech label')
+Shuffle('Shuffle', 'Shuffle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

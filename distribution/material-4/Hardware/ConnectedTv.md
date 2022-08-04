@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/ConnectedTv')
 
 ' renders the element
-ConnectedTv('ConnectedTv', 'Connected Tv', 'an optional tech label')
+ConnectedTv('ConnectedTv', 'Connected Tv', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/ConnectedTv')
 
 ' renders the element
-ConnectedTv('ConnectedTv', 'Connected Tv', 'an optional tech label')
+ConnectedTv('ConnectedTv', 'Connected Tv', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

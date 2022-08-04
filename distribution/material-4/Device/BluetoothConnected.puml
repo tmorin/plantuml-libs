@@ -7,10 +7,10 @@ sprite $BluetoothConnectedSm [12x12/16z] POp50S10382e_yB-qzRFYIi31mLJuOIfcCJTBxq
 sprite $BluetoothConnectedMd [16x16/16z] ZOn50eKm30MJV9TqxdzQgDiAgEN9oBNFq35eceUWFEFynvhmuca8o13UEAtW6WM8vwkOGIH4XbPcL1qIj16T6n7QS7yqyRtDGSL8bF5P6zlSnlqx0G
 
 sprite $BluetoothConnectedLg [20x20/16z] {
-bSt50KGn24NHy3L---zseepRst4mysziVc74ktfjHhubV3L_DnaAMiIHxz6omgOY5MjMfOEzOfiAMPhrXn3gDrmpIM8Me7xVlT509743TMgrIBZ5UhuO74gI
-oqTBvZJtiJfrQpgbEGxpAHS
+bSt50KGn24NHy3L---zseepRst4mysziVc74ktfjHhubV3L_DnaAMiIHxz6omgOY5MjMfOEzOfiAMPhrXn3gDrmpIM8MQBXxeu58uWRgr6gHS8lrV34ub2IN
+ZvRCQUvZTUhMT4fp7EPJBW
 }
 
-!procedure BluetoothConnected($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Device/BluetoothConnected', $name, $tech)
+!procedure BluetoothConnected($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Device/BluetoothConnected', $name, $tech, $desc)
 !endprocedure

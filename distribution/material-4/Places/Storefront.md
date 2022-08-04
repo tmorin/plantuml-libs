@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Places/Storefront')
 
 ' renders the element
-Storefront('Storefront', 'Storefront', 'an optional tech label')
+Storefront('Storefront', 'Storefront', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Places/Storefront')
 
 ' renders the element
-Storefront('Storefront', 'Storefront', 'an optional tech label')
+Storefront('Storefront', 'Storefront', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

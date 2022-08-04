@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Pageview')
 
 ' renders the element
-Pageview('Pageview', 'Pageview', 'an optional tech label')
+Pageview('Pageview', 'Pageview', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Pageview')
 
 ' renders the element
-Pageview('Pageview', 'Pageview', 'an optional tech label')
+Pageview('Pageview', 'Pageview', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,12 +2,12 @@
 
 sprite $TrendingDownXs [10x10/16z] Oy0F-9aHJ1O6Vdueav-PXP-13SG4ohFoyq2LS89Oc
 
-sprite $TrendingDownSm [12x12/16z] Oo0AC28n-T4u_Fnm3ZypI80Hp6412V0omPNoyiFPJ2miE6q2
+sprite $TrendingDownSm [12x12/16z] Oo0AC28n-T4u_Fnm3ZypI80Hp6412V0nmPNoyiFPJCpCE6q2
 
-sprite $TrendingDownMd [16x16/16z] fOZ50O0m34LZkBpzjwMdsWbeybs6R-awPzkLA-b6CspSzG0kDre6JtfXI7qNJJVQxX4XN-y1
+sprite $TrendingDownMd [16x16/16z] fOZ50S0020E1rEtsdxRkhmh4xVVbjqvpxKuxQibbAEdE0yWwt7mRD6fBOEThkVJWsgL4zlO6
 
-sprite $TrendingDownLg [20x20/16z] lOhL0SKW4C0ETxB_j4_gyba9d4TUGLav0URiTTnGstO9TiWSp5ya-ju48nQKY5zD-ol-PyQwc6Oe3gXoe9ntYVFE_Z1oDry
+sprite $TrendingDownLg [20x20/16z] lOh50O1G34FphJXl_sbnvuXKO_gbNBnh4EwvbZJzvYX2d2wNvB05xJa9GH6SP7io3i-6P5vloJ2z1DIwL7NN2kvQ3344lLqz
 
-!procedure TrendingDown($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/TrendingDown', $name, $tech)
+!procedure TrendingDown($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/TrendingDown', $name, $tech, $desc)
 !endprocedure

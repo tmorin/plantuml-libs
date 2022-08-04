@@ -2,12 +2,12 @@
 
 sprite $AddToPhotosXs [10x10/16z] Oq06_600PR7ny_Cmy8DO310MM08XXiu20sOW2mOOUS20WG4
 
-sprite $AddToPhotosSm [12x12/16z] PSt50S0W30NGt-A-_xIuyqxnu69TOMeOcX_gBp5gxCWPezZhJsn2LMCGMf3oo5O4sT_aA04
+sprite $AddToPhotosSm [12x12/16z] PSt50S0W30NGt-A-_xIuyqxnu69TOMeOcX_gBp5gxCWPezZhJsn2LMCGcX5I7jcA8FkR72K
 
-sprite $AddToPhotosMd [16x16/16z] RSx50G0n2011x5pelzkuix-90bP8kSHBQz6l-jviV9FXIoOrlFcd_7FLuetUvddRdjbvdcPWoK4mbzBqMXDOSm
+sprite $AddToPhotosMd [16x16/16z] RSx50OL034NH5_iAfFzgaN6xkpCQh29EHNwz5BpvtPPCMpJsQFQ5ZHdCNAotgNWultPWS9wd6A8X4JoM749UKinT
 
-sprite $AddToPhotosLg [20x20/16z] bSo30GGn54NHDx5__zN6MECESmBy4wURflbRyyC2jRIYLcXWfbtOHkwTfPGkrDUD9SnkZ8mnG7szEUy_ypIxCNrhV1YOs35CUunk4yEkS1F7cme
+sprite $AddToPhotosLg [20x20/16z] bSo30GGn54NHzp4E-gysnXftc1FWdyJVrEowjQkQAODjBH-JOMz66ERFT-QS8wJNZJcqRipl-mwarvlp_hFBjsvikpMf1XOLpOaocZtcRzDgP6uIl2a2
 
-!procedure AddToPhotos($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/AddToPhotos', $name, $tech)
+!procedure AddToPhotos($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/AddToPhotos', $name, $tech, $desc)
 !endprocedure

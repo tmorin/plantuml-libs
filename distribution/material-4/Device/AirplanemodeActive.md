@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Device/AirplanemodeActive')
 
 ' renders the element
-AirplanemodeActive('AirplanemodeActive', 'Airplanemode Active', 'an optional tech label')
+AirplanemodeActive('AirplanemodeActive', 'Airplanemode Active', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Device/AirplanemodeActive')
 
 ' renders the element
-AirplanemodeActive('AirplanemodeActive', 'Airplanemode Active', 'an optional tech label')
+AirplanemodeActive('AirplanemodeActive', 'Airplanemode Active', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

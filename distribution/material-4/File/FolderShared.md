@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/File/FolderShared')
 
 ' renders the element
-FolderShared('FolderShared', 'Folder Shared', 'an optional tech label')
+FolderShared('FolderShared', 'Folder Shared', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/File/FolderShared')
 
 ' renders the element
-FolderShared('FolderShared', 'Folder Shared', 'an optional tech label')
+FolderShared('FolderShared', 'Folder Shared', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

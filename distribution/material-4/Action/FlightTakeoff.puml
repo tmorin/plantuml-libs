@@ -8,6 +8,6 @@ sprite $FlightTakeoffMd [16x16/16z] bSgr0SD00C10XP-r_xGnOsLVVLpnuE3jZuDgF7xDx6Kj
 
 sprite $FlightTakeoffLg [20x20/16z] fSwr0GGX54NHYpkl_shNTPAn4y5tpdB5iMGbnrAL0akI8Wj9KW9Co8OttTIgcm5uoqtKcmUcV1Yl_tnrclU_-Bz3r1r_J3GSrFMFcph_iTaL
 
-!procedure FlightTakeoff($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/FlightTakeoff', $name, $tech)
+!procedure FlightTakeoff($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/FlightTakeoff', $name, $tech, $desc)
 !endprocedure

@@ -8,6 +8,6 @@ sprite $AdUnitsMd [16x16/16z] Oy02-A606y9bveS169y737ZXV2Omdna7d_uq5E3WCt3oGW0Ba0
 
 sprite $AdUnitsLg [20x20/16z] Oy05kFbWW0qcnC6F030nJgnYR530WoJ6m0C679p8OX2DN0Yn8SaYCbnOaCNWWkmmm0ZY0W
 
-!procedure AdUnits($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Device/AdUnits', $name, $tech)
+!procedure AdUnits($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Device/AdUnits', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/BorderColor')
 
 ' renders the element
-BorderColor('BorderColor', 'Border Color', 'an optional tech label')
+BorderColor('BorderColor', 'Border Color', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/BorderColor')
 
 ' renders the element
-BorderColor('BorderColor', 'Border Color', 'an optional tech label')
+BorderColor('BorderColor', 'Border Color', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

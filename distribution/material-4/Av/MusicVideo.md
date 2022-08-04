@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/MusicVideo')
 
 ' renders the element
-MusicVideo('MusicVideo', 'Music Video', 'an optional tech label')
+MusicVideo('MusicVideo', 'Music Video', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/MusicVideo')
 
 ' renders the element
-MusicVideo('MusicVideo', 'Music Video', 'an optional tech label')
+MusicVideo('MusicVideo', 'Music Video', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

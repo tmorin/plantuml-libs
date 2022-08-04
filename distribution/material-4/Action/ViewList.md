@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/ViewList')
 
 ' renders the element
-ViewList('ViewList', 'View List', 'an optional tech label')
+ViewList('ViewList', 'View List', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/ViewList')
 
 ' renders the element
-ViewList('ViewList', 'View List', 'an optional tech label')
+ViewList('ViewList', 'View List', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

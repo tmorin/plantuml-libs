@@ -8,6 +8,6 @@ sprite $UploadFileMd [16x16/16z] RSq53e103011UeQp_tyjJYLXezEJTZ-bAr7orAlBC-sZTQ2
 
 sprite $UploadFileLg [20x20/16z] bS-50GCX00D0t27xRzlYLiqBS3Zv8sZHaoIyoyauJPGoJLniuhIEqq9AJzwj-6xYDW-nMoP0x9OfushI6V1qhcT0oI-MCurZJRzm6F7aJHu
 
-!procedure UploadFile($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/File/UploadFile', $name, $tech)
+!procedure UploadFile($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/File/UploadFile', $name, $tech, $desc)
 !endprocedure

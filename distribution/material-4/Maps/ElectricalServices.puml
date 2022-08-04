@@ -2,15 +2,15 @@
 
 sprite $ElectricalServicesXs [10x10/16z] Oy0A-FdvuMnMHWZD1nVZ0l5OmUeOcFdvsS3YR20M9qG18pyRica
 
-sprite $ElectricalServicesSm [12x12/16z] TOs30G1H34FFJFlsd_RCZvf9aPLMgk-wR1e-Ao-lOWJTG_PWVjSpe7rMWy7pNXlexUg0TGK
+sprite $ElectricalServicesSm [12x12/16z] TOg35K0n5CLgzsN_QR-D75ogNtnhTlVQEjI9wCraQ7kv7BhilW9jxYnqOB_P3krCLjqP0G
 
-sprite $ElectricalServicesMd [16x16/16z] bOx50S0m30F3Q4lxJrlcLtC1CvXnk10VjW-Xy9jZRzrs1HycgTtST6n2q0vRbyyfAKAtvKCT5yIvevySjhztkFCFHAhvmGm
+sprite $ElectricalServicesMd [16x16/16z] bOx50S0m30F3Q4lxJrlcLtC1CvXnk10VjlUXy9jZRzrs1HycgTtST6n2q0vRbyyfAKAtvKCT5yIvevySjhztkFCFHAhvmGm
 
 sprite $ElectricalServicesLg [20x20/16z] {
-fOxL0SGW44HnX-c_shiakFmnwBvLSYaffQ0BmYirGow4I3ZaOyccZCKbBk6HcL20qvhDON3vTId9ndAQVmVoAHi0V-R9GmROXsGpyNLmeMHXslACCeyvDqo3
-vznB_G4
+fKy35W0X4Dti_lrFkyfuR6nSXo24u6GAuGCv1XdZF6BJZwcRK1gcklZDqqF8mof5npBOf6sCeiPIc_iESZ4v07llIKTwc3UItCZcmxaKEQOCwvy9gTSFXwVU
+GtW
 }
 
-!procedure ElectricalServices($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/ElectricalServices', $name, $tech)
+!procedure ElectricalServices($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/ElectricalServices', $name, $tech, $desc)
 !endprocedure

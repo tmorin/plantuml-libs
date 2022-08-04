@@ -8,6 +8,6 @@ sprite $PaddingMd [16x16/16z] Oo08k7WHW0d8v-NdWG5-C9y7hXJA1z9C_40QpcTY028c9WOqzJ
 
 sprite $PaddingLg [20x20/16z] Ow0CyAC0FeWO5ni2mCJOa3J1nK0i3dv640iXniV3mCx7oC37oe15xo0Jmna6V2Y0X_W01G
 
-!procedure Padding($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Editor/Padding', $name, $tech)
+!procedure Padding($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/Padding', $name, $tech, $desc)
 !endprocedure

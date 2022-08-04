@@ -8,6 +8,6 @@ sprite $AddchartMd [16x16/16z] VSe53WGn241HP7qXtF-qCtLlV_Kbm26AprzL_-vb2nGJaP_Zo
 
 sprite $AddchartLg [20x20/16z] dSk53SC034JH2vbX_sdBpCqNdPvbh4hxDBBtyPsrqQvf9vgjoWUZy_5GtDdfzsh3-6pI0y1nDU637JjPrrihGiMzdTO7emKJ0JJUsBMptHK7uwnhEUBdjW
 
-!procedure Addchart($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/Addchart', $name, $tech)
+!procedure Addchart($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Addchart', $name, $tech, $desc)
 !endprocedure

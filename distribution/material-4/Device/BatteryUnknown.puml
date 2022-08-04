@@ -8,6 +8,6 @@ sprite $BatteryUnknownMd [16x16/16z] VSc53K0X00FHmdSftNzQ98PpqPV3E6jDPOc5d59tSLD
 
 sprite $BatteryUnknownLg [20x20/16z] bSp50SGm34HHoSpJVxNBaCJyZqz0cqa0Ps5j7wRLqV19rmOpjSIahaQsiBwO0opL_zXLnXfNYuJASgpDKcqbLVPiRZAzYjJj3W
 
-!procedure BatteryUnknown($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Device/BatteryUnknown', $name, $tech)
+!procedure BatteryUnknown($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Device/BatteryUnknown', $name, $tech, $desc)
 !endprocedure

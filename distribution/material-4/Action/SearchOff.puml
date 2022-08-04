@@ -4,13 +4,13 @@ sprite $SearchOffXs [10x10/16z] Oy0AUFWv-24i40LbmbYyx30MEoy3Fpz2bW4xam4
 
 sprite $SearchOffSm [12x12/16z] Oy0DUFdv-M5CBWO65YY77qmm8jJnCK64kQ6I80ga6wm6ACh7mCJ0YAo12OM3QYa
 
-sprite $SearchOffMd [16x16/16z] ZOs30GGn44K7iNx_rTwjhPUCHLzmEV8QAL0QuX8ZTSh0piqOJ6fJB38QJ24HRzeeY-RU8a_zfNGT5fWkQivA5PdXnxtzxmbZOkMS2FJA7m
+sprite $SearchOffMd [16x16/16z] ZOs30GGn44K7iNx_rTwjhPUCHLzmEV8QAL0QuX8ZTSh0piqOJ6fJB39DJI4HRzeeY-PXIvxwI-awB31Tr9oLAZB3Ztk7tn6cnCHL8j0hVm
 
 sprite $SearchOffLg [20x20/16z] {
 fOw50GGW54AnM_QVzXgl-vc_mR_4IRAPIrSdInxaXIknxXz_wPnKp2_VoCVNCECELiqy7S0noJUGsh473PRpu7A31IBD0LYIXKskjj-c9eCkPm0WNNAALqxy
 nnO
 }
 
-!procedure SearchOff($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/SearchOff', $name, $tech)
+!procedure SearchOff($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/SearchOff', $name, $tech, $desc)
 !endprocedure

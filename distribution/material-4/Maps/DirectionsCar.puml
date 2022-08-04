@@ -8,6 +8,6 @@ sprite $DirectionsCarMd [16x16/16z] dSlL0O10201GmfROVrhhca_V9GK_42UOGZP9FCKoGwBy
 
 sprite $DirectionsCarLg [20x20/16z] jOi30WCm40HZ9_l_rrQ7sks4jp3_85V1YrJN420QaZPMfjV3gbOWLQCuzZ7A4HJIpfYaBPTfNZvYaPObs_O1xgOE8bNHJdce1ICCrkQqgkLLpCji0G
 
-!procedure DirectionsCar($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/DirectionsCar', $name, $tech)
+!procedure DirectionsCar($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/DirectionsCar', $name, $tech, $desc)
 !endprocedure

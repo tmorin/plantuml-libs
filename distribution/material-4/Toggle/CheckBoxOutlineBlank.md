@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Toggle/CheckBoxOutlineBlank')
 
 ' renders the element
-CheckBoxOutlineBlank('CheckBoxOutlineBlank', 'Check Box Outline Blank', 'an optional tech label')
+CheckBoxOutlineBlank('CheckBoxOutlineBlank', 'Check Box Outline Blank', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Toggle/CheckBoxOutlineBlank')
 
 ' renders the element
-CheckBoxOutlineBlank('CheckBoxOutlineBlank', 'Check Box Outline Blank', 'an optional tech label')
+CheckBoxOutlineBlank('CheckBoxOutlineBlank', 'Check Box Outline Blank', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

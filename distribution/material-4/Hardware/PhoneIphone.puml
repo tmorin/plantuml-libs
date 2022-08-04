@@ -6,8 +6,8 @@ sprite $PhoneIphoneSm [12x12/16z] Oq05_600PJC30IyBX0qYUAZ0vW42VYYRdncCGO2FdvyFR2
 
 sprite $PhoneIphoneMd [16x16/16z] pSUr0O0044MnVrOXR_zfSOS1I1Tzw5XqMuDDxDU2_ClRnNamW_qEI81hLTsYD1a1
 
-sprite $PhoneIphoneLg [20x20/16z] tT230G0X503GND_xJtis5kXbm_rfkf9yT6Kx-BqF35TiyUmx5gJ--dWbrxv9Y7D-wnFdvhxZN_pSAijiTmXrLTRc2
+sprite $PhoneIphoneLg [20x20/16z] tT230G0X503GND_xJtis5kXbm_rfkf9yT6Kx-BqF35TiyUmx5gJ--dWbrxw9ZtD-wnFdvhxZN_pSAijiTmXrLTRc2
 
-!procedure PhoneIphone($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Hardware/PhoneIphone', $name, $tech)
+!procedure PhoneIphone($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Hardware/PhoneIphone', $name, $tech, $desc)
 !endprocedure

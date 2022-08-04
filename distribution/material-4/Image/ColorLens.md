@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/ColorLens')
 
 ' renders the element
-ColorLens('ColorLens', 'Color Lens', 'an optional tech label')
+ColorLens('ColorLens', 'Color Lens', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/ColorLens')
 
 ' renders the element
-ColorLens('ColorLens', 'Color Lens', 'an optional tech label')
+ColorLens('ColorLens', 'Color Lens', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

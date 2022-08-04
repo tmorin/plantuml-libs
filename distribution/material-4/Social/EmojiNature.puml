@@ -4,13 +4,13 @@ sprite $EmojiNatureXs [10x10/16z] NKo50G0X4EBJblsdjViw09nchZQGr6EipU0pgLawuSh1aV
 
 sprite $EmojiNatureSm [12x12/16z] RSor0GDH081GJhuB-qyRzzohgE18vMaTTXvsaRi55TYMegmiaDIQN05AspKDRjGWhtu_TCZBoiqP
 
-sprite $EmojiNatureMd [16x16/16z] VOp50KKn3CDSvch_QJ_3OvqIaoumwxTWboOCM0XpYBhu4s2-uMILoQ_Vprg1-CqnW90Otrt9W-Mtoulv_Gj0H5_2oyJfImVyufSnaw5ZxW
+sprite $EmojiNatureMd [16x16/16z] VOp50KKn3CDSvch_QJ_3OvqIaoumwxTWboOCM0XpYBhu4s2-uMILoQ_Vprg0-CqnW90Otrt9W-Mtoulv_Gj0G5_2oyJfImVyufSnaw5ZxW
 
 sprite $EmojiNatureLg [20x20/16z] {
 dS_5OGKm3C3GC1cq_xJjPsOTNz3XfuHu8wc2r6i39gmhMuo0fxkD6putqjxq90raupN8xcXqRE66NLwYWEMEdUxQ7Yf0PCIJOGRWfEiVd5wyj3P95-O0CJ4l
 h0AqU3reMk903ZTDYU5L_m
 }
 
-!procedure EmojiNature($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Social/EmojiNature', $name, $tech)
+!procedure EmojiNature($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/EmojiNature', $name, $tech, $desc)
 !endprocedure

@@ -8,6 +8,6 @@ sprite $PrivacyTipMd [16x16/16z] TSt50G0X40J1mHtoZ_OKbtvHs6AVIxA1XlHcVl6OIlvrI2r
 
 sprite $PrivacyTipLg [20x20/16z] VP250G0X203XqtR_QUskiyy6JX3n38Phprl5BNI6O5IwWo-SQjmFQdBagkwqb_-nbOlpnCBHu4JduW_Vpa7p4K7JLEJM1GcPlpY4KIg41gpFQBXgG2q
 
-!procedure PrivacyTip($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/PrivacyTip', $name, $tech)
+!procedure PrivacyTip($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/PrivacyTip', $name, $tech, $desc)
 !endprocedure

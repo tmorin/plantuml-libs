@@ -2,12 +2,12 @@
 
 sprite $ViewColumnXs [10x10/16z] Oy0AE3cPE840oEBdP-O70X9Oc
 
-sprite $ViewColumnSm [12x12/16z] Oo0AyF3py_Bp0qaAsSmiB124qoO
+sprite $ViewColumnSm [12x12/16z] Oo0AyF3py_Bp0qaAsSn0mC82973Q1
 
-sprite $ViewColumnMd [16x16/16z] Oo0TC3Cpmp48yFFpCm4nCuWU23uB2mi3Cn23Q981
+sprite $ViewColumnMd [16x16/16z] Oo0TC3Cpmp48yFFpCm4nCuWU23uBCmi3CmiBc2OP
 
-sprite $ViewColumnLg [20x20/16z] Ow0-OERavEHWuWG2C0iinihFpy_7p0y4ODQG5MDaOM5XPc010WYBwW
+sprite $ViewColumnLg [20x20/16z] Ow0-OERavEHWuWG2C0iinihFpy_7p0y4ODQG5MDaOMPXPc1cOM61iAWE
 
-!procedure ViewColumn($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/ViewColumn', $name, $tech)
+!procedure ViewColumn($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/ViewColumn', $name, $tech, $desc)
 !endprocedure

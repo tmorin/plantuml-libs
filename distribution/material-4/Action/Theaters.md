@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Theaters')
 
 ' renders the element
-Theaters('Theaters', 'Theaters', 'an optional tech label')
+Theaters('Theaters', 'Theaters', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Theaters')
 
 ' renders the element
-Theaters('Theaters', 'Theaters', 'an optional tech label')
+Theaters('Theaters', 'Theaters', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

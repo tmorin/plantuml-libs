@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/HomeRepairService')
 
 ' renders the element
-HomeRepairService('HomeRepairService', 'Home Repair Service', 'an optional tech label')
+HomeRepairService('HomeRepairService', 'Home Repair Service', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/HomeRepairService')
 
 ' renders the element
-HomeRepairService('HomeRepairService', 'Home Repair Service', 'an optional tech label')
+HomeRepairService('HomeRepairService', 'Home Repair Service', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

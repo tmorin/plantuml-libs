@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/PictureAsPdf')
 
 ' renders the element
-PictureAsPdf('PictureAsPdf', 'Picture As Pdf', 'an optional tech label')
+PictureAsPdf('PictureAsPdf', 'Picture As Pdf', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/PictureAsPdf')
 
 ' renders the element
-PictureAsPdf('PictureAsPdf', 'Picture As Pdf', 'an optional tech label')
+PictureAsPdf('PictureAsPdf', 'Picture As Pdf', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

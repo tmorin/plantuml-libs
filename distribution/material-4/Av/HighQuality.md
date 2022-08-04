@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/HighQuality')
 
 ' renders the element
-HighQuality('HighQuality', 'High Quality', 'an optional tech label')
+HighQuality('HighQuality', 'High Quality', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/HighQuality')
 
 ' renders the element
-HighQuality('HighQuality', 'High Quality', 'an optional tech label')
+HighQuality('HighQuality', 'High Quality', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

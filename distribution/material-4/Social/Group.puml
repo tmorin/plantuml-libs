@@ -8,6 +8,6 @@ sprite $GroupMd [16x16/16z] dOk30KGn40KtTgR_Qi_ureJx85VGhqj_nmvQCgJtQ80g0EzP0Vuv
 
 sprite $GroupLg [20x20/16z] jSl50SGm40J15hCc_soFqV2oIxZ4ALAytIOxtgOq8KWgxovT1SRjsSln2FptBCHmkstoxB2fpz6IWJfgu6RegS7j2T3qrXw1O-g3ShlJQkvW5m
 
-!procedure Group($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Social/Group', $name, $tech)
+!procedure Group($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/Group', $name, $tech, $desc)
 !endprocedure

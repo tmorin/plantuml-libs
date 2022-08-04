@@ -8,6 +8,6 @@ sprite $LuggageMd [16x16/16z] hSq54e1G20JGbJ1XzlwdjLkdF_scm7-8o9sHIRav1Qcdsc3CDT
 
 sprite $LuggageLg [20x20/16z] pSY53GD15CJGELwO_Uw_sZ1pX6TPzFHV7K2xjvw-JpoQDDzPih4RhkEPPgwTBKFiZxWpKSKmhS9C6BUh9QxfN8NOHyowj4pQL_IsBG
 
-!procedure Luggage($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Social/Luggage', $name, $tech)
+!procedure Luggage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/Luggage', $name, $tech, $desc)
 !endprocedure

@@ -1,16 +1,16 @@
 ' definition of the Item material-4/Social/ReduceCapacity
 
-sprite $ReduceCapacityXs [10x10/16z] JOo50S1030AfswNiFstrBIw06lCYF-MTuftYdTWy-PH0mCBsGpD5_kVU-NfuqFAf05_U
+sprite $ReduceCapacityXs [10x10/16z] JOo50S1030AfswNiFstrBIw06lCYF-MTuftYdTWz-PH0mCBsGpD5_kVU-NfuqFAf05_U
 
 sprite $ReduceCapacitySm [12x12/16z] LSY50O0m34JHg-7mzz-MkhnujBfRnePziB4hSYtb8G0696kjYQMO1QeETs0ELvx8f9ROtWGyfKasAkq7
 
 sprite $ReduceCapacityMd [16x16/16z] NSx50S0m3C10XSgDzj-sZ6V-cSrFU6gZ7ThlSwFzNRjqrsRGl5OjapL3K9ERh7A9VCaZ4BGIhbD3g7JABce0-kicnlkDpQmpbAe3gqbrmataRm4
 
 sprite $ReduceCapacityLg [20x20/16z] {
-bSw50GD124JHEJUMtt-r9n3tl7K5_G46oHbo5Zf03P2pK46HOCbPgXfTkpI17LtfAl0k8q3b77exEacsauLnsBj95_Me9orwPFdz5RGg339cAOsHQXyfNBw7
-301-ZTaedKTL2vHZDJW-A10QBHmoYeLEIuoBNje
+bSrLWiCm4C1GXMFK_K_RDfvbtcVy6l4FUa3tYD-mgIng_8P96sY9NvWMNg-Gj9ArRPFsBGewTIzxlIwWFb27ytXSYHVpoIUhV5HZ_2jTQHvKCuHJ6-oWlepN
+26X_RIw41S9Kj2t0qUq7WyD2yHALEcoKyHQ-T0S
 }
 
-!procedure ReduceCapacity($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Social/ReduceCapacity', $name, $tech)
+!procedure ReduceCapacity($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/ReduceCapacity', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/ArrowDropDownCircle')
 
 ' renders the element
-ArrowDropDownCircle('ArrowDropDownCircle', 'Arrow Drop Down Circle', 'an optional tech label')
+ArrowDropDownCircle('ArrowDropDownCircle', 'Arrow Drop Down Circle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/ArrowDropDownCircle')
 
 ' renders the element
-ArrowDropDownCircle('ArrowDropDownCircle', 'Arrow Drop Down Circle', 'an optional tech label')
+ArrowDropDownCircle('ArrowDropDownCircle', 'Arrow Drop Down Circle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

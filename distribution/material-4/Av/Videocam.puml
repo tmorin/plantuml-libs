@@ -2,12 +2,12 @@
 
 sprite $VideocamXs [10x10/16z] Oo00-4603S7Y1x4W05EC5RiP
 
-sprite $VideocamSm [12x12/16z] Oo0ASFE001UOpGy13Fm8DZyEDXyIcu4No6Pc0G5cF3O1
+sprite $VideocamSm [12x12/16z] Oo0ASFE001UOpGy13Fm8DZyEDXyIcu4No6PcPcPXOM76OnC
 
-sprite $VideocamMd [16x16/16z] Ow0OiF900Ik4pyiF1JmCx4meV7P-21yEyFFvqFWyJ60-3y9y9X2VaGKA6CbnFG
+sprite $VideocamMd [16x16/16z] fSV50O0m402mKrpsdnPtwiqla4sxW-xlnqC79RrUZiTFxW-VTxIzkmwq7eLbWv1W1W
 
-sprite $VideocamLg [20x20/16z] lSYr0O1000ImmntsdnQ7TvUKGHxZ_9cAxpQY1MRXYdKLRjt84LQtIAuT98T1k0RexglgJuKa3W
+sprite $VideocamLg [20x20/16z] lSZ50G0X0CJ0nHtwh_RSNKb-WpnPt-T8RsbC0dvb9CQLnJJQs2KB6oRDXi6iJ02gCSRREMVufH8
 
-!procedure Videocam($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Av/Videocam', $name, $tech)
+!procedure Videocam($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/Videocam', $name, $tech, $desc)
 !endprocedure

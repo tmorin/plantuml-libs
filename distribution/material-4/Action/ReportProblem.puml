@@ -8,6 +8,6 @@ sprite $ReportProblemMd [16x16/16z] ZSt50OL034NHp7p1EVrNY_kAkqkUnKlSpyxtUdvmlQ4w
 
 sprite $ReportProblemLg [20x20/16z] bSzL0eKW501HktNslzeNqWtpUSZRDNU4j3C41fTFDp2wD07WsWF0QjCAp-LkxDyz3vp63cNcFmFQRlS1qIHe1k0-10e3SnOsCQZOTo4I_t2xVziUlw6hx0i
 
-!procedure ReportProblem($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/ReportProblem', $name, $tech)
+!procedure ReportProblem($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/ReportProblem', $name, $tech, $desc)
 !endprocedure

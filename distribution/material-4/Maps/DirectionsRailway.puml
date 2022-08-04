@@ -8,6 +8,6 @@ sprite $DirectionsRailwayMd [16x16/16z] ZSUr0S0m402n2zF3_jE6cMnruaNfCqsNYc_o-Qwo
 
 sprite $DirectionsRailwayLg [20x20/16z] bSdL0G9H30NHk_lSalwhnICudCyPlBFNiOXezGpHsMpNjBD3rvQuPh5OMeIOVxSSX3NdQqlxU6mBs1uR0K6R_DNuRE8g4ei99J5PQYHs_E48
 
-!procedure DirectionsRailway($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/DirectionsRailway', $name, $tech)
+!procedure DirectionsRailway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/DirectionsRailway', $name, $tech, $desc)
 !endprocedure

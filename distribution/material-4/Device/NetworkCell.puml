@@ -8,6 +8,6 @@ sprite $NetworkCellMd [16x16/16z] bSUr0S0m4C30O6NG_jE6GVxErztGfROjXD9syIlZZ9i7lQ
 
 sprite $NetworkCellLg [20x20/16z] dSWn0a1G44F1RG2IT__JGlatAbDE_NPawOmoSIBEBFt4KkrWhNQ2kPs94t4GfpmJ9-9Cd1YyTvoZhRxS
 
-!procedure NetworkCell($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Device/NetworkCell', $name, $tech)
+!procedure NetworkCell($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Device/NetworkCell', $name, $tech, $desc)
 !endprocedure

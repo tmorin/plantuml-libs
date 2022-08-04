@@ -8,6 +8,6 @@ sprite $HailMd [16x16/16z] dOf50e1008ImM_x_MxtOkSjj1dWW0T9jQaFkSVS36ncDMzyvawtEm
 
 sprite $HailLg [20x20/16z] hSYr0GGn00InDREd_sgVcU4KIj-Q9AbmMGwGnjK9cWpjweoJczZBgMovYzeFkghxOzZRYvYxA-ZkfBip8MnkrCiBiBcakT3vtcLwKEjwRWq
 
-!procedure Hail($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/Hail', $name, $tech)
+!procedure Hail($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/Hail', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/DeleteForever')
 
 ' renders the element
-DeleteForever('DeleteForever', 'Delete Forever', 'an optional tech label')
+DeleteForever('DeleteForever', 'Delete Forever', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/DeleteForever')
 
 ' renders the element
-DeleteForever('DeleteForever', 'Delete Forever', 'an optional tech label')
+DeleteForever('DeleteForever', 'Delete Forever', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

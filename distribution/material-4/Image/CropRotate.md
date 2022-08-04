@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/CropRotate')
 
 ' renders the element
-CropRotate('CropRotate', 'Crop Rotate', 'an optional tech label')
+CropRotate('CropRotate', 'Crop Rotate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/CropRotate')
 
 ' renders the element
-CropRotate('CropRotate', 'Crop Rotate', 'an optional tech label')
+CropRotate('CropRotate', 'Crop Rotate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

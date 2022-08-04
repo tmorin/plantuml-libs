@@ -8,6 +8,6 @@ sprite $RoundedCornerMd [16x16/16z] XOq55eH034FJh0B9w_rFYxl-cRhXaRA46RPB3d41CIGv
 
 sprite $RoundedCornerLg [20x20/16z] fP1L0eGm34IdDkqkaDp_jBYxl9-uuXjAg21fGzxxQC40HpBcgjX0ZNtjpDbNIvZxf5UslkIsFkNMPp33zDQ6RMr_nmJ3vGzCh_LtI8uefjTkKm4
 
-!procedure RoundedCorner($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/RoundedCorner', $name, $tech)
+!procedure RoundedCorner($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/RoundedCorner', $name, $tech, $desc)
 !endprocedure

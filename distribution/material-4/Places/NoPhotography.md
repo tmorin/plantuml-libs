@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Places/NoPhotography')
 
 ' renders the element
-NoPhotography('NoPhotography', 'No Photography', 'an optional tech label')
+NoPhotography('NoPhotography', 'No Photography', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Places/NoPhotography')
 
 ' renders the element
-NoPhotography('NoPhotography', 'No Photography', 'an optional tech label')
+NoPhotography('NoPhotography', 'No Photography', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

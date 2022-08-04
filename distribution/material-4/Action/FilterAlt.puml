@@ -8,6 +8,6 @@ sprite $FilterAltMd [16x16/16z] Oo0TyCC19vZF0USpGXJmGBcig3guu2OmWhXyI4Qo0lbeTl1I
 
 sprite $FilterAltLg [20x20/16z] jSor0O0040J1nPtjlrfSFaOcUxdZfI98sUH6x0PlEGSl3QVCmy2jT4VKkieWSb6oYvNyl4jqv0Cp
 
-!procedure FilterAlt($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/FilterAlt', $name, $tech)
+!procedure FilterAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/FilterAlt', $name, $tech, $desc)
 !endprocedure

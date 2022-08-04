@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/FormatListNumbered')
 
 ' renders the element
-FormatListNumbered('FormatListNumbered', 'Format List Numbered', 'an optional tech label')
+FormatListNumbered('FormatListNumbered', 'Format List Numbered', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/FormatListNumbered')
 
 ' renders the element
-FormatListNumbered('FormatListNumbered', 'Format List Numbered', 'an optional tech label')
+FormatListNumbered('FormatListNumbered', 'Format List Numbered', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

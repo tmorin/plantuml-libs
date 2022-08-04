@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/EmojiTransportation')
 
 ' renders the element
-EmojiTransportation('EmojiTransportation', 'Emoji Transportation', 'an optional tech label')
+EmojiTransportation('EmojiTransportation', 'Emoji Transportation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/EmojiTransportation')
 
 ' renders the element
-EmojiTransportation('EmojiTransportation', 'Emoji Transportation', 'an optional tech label')
+EmojiTransportation('EmojiTransportation', 'Emoji Transportation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

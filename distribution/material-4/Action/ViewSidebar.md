@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/ViewSidebar')
 
 ' renders the element
-ViewSidebar('ViewSidebar', 'View Sidebar', 'an optional tech label')
+ViewSidebar('ViewSidebar', 'View Sidebar', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/ViewSidebar')
 
 ' renders the element
-ViewSidebar('ViewSidebar', 'View Sidebar', 'an optional tech label')
+ViewSidebar('ViewSidebar', 'View Sidebar', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

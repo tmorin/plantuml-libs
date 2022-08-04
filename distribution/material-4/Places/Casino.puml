@@ -6,8 +6,8 @@ sprite $CasinoSm [12x12/16z] Oy09-640nERb039O8MnsHf0W7pzK3HyGGzcyO05qlImC80OlY0r
 
 sprite $CasinoMd [16x16/16z] XSo50GCX40H0t67xxpPxUVTvWLFrhVP5ah1XOnXtT0_YVuuTF_3VvXWIod-EQLZvRx5L_H2ZOukx-zZVGFANE6EZ5PaLmxCV
 
-sprite $CasinoLg [20x20/16z] fSpL0GGn24NH5pUa_shNTzpd_kK4mBrOXyMFwIZ-6Nlwl5DKbPzvs8y1r5cpzMF1ztDzOuk6PWQacT67jkybnD--T1RXVyRzBkadvkLxzB74qiSMXti2
+sprite $CasinoLg [20x20/16z] fSpL0GGn24NH5pUa_shNTzpd_kK4mBrOXyMFwIZ-6Nlwl5DKbPzvs8y1r5cpzMF1ztDzOuk6PWQacT67jkybXD--T1RXVyRzBkadvkLxzB74qiSMXti2
 
-!procedure Casino($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Places/Casino', $name, $tech)
+!procedure Casino($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/Casino', $name, $tech, $desc)
 !endprocedure

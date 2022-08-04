@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/EnhancedEncryption')
 
 ' renders the element
-EnhancedEncryption('EnhancedEncryption', 'Enhanced Encryption', 'an optional tech label')
+EnhancedEncryption('EnhancedEncryption', 'Enhanced Encryption', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/EnhancedEncryption')
 
 ' renders the element
-EnhancedEncryption('EnhancedEncryption', 'Enhanced Encryption', 'an optional tech label')
+EnhancedEncryption('EnhancedEncryption', 'Enhanced Encryption', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

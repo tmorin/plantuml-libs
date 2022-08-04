@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/SurroundSound')
 
 ' renders the element
-SurroundSound('SurroundSound', 'Surround Sound', 'an optional tech label')
+SurroundSound('SurroundSound', 'Surround Sound', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/SurroundSound')
 
 ' renders the element
-SurroundSound('SurroundSound', 'Surround Sound', 'an optional tech label')
+SurroundSound('SurroundSound', 'Surround Sound', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

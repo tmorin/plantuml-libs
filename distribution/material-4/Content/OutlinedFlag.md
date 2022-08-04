@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Content/OutlinedFlag')
 
 ' renders the element
-OutlinedFlag('OutlinedFlag', 'Outlined Flag', 'an optional tech label')
+OutlinedFlag('OutlinedFlag', 'Outlined Flag', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Content/OutlinedFlag')
 
 ' renders the element
-OutlinedFlag('OutlinedFlag', 'Outlined Flag', 'an optional tech label')
+OutlinedFlag('OutlinedFlag', 'Outlined Flag', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,12 +2,12 @@
 
 sprite $LocalAtmXs [10x10/16z] Oy06-A60XO4Vo0DX7X39pyC3PG7bC5WCR61r752zICO1
 
-sprite $LocalAtmSm [12x12/16z] TSg30G0n30NGNoFQVzgpyOeGltX3WEIu4Wy901jFtvgRzsTkTkGYPnvitU7TN8SThaO
+sprite $LocalAtmSm [12x12/16z] TSg30G0n30NGNoFQVzgpyOeGltX3WEGGuYI8XmI0ZQTlpStxCpSxSf4p3xRky6wkmmvN8m
 
-sprite $LocalAtmMd [16x16/16z] bSh50O1000F1FSL9_zNYximlmc_QAC3ABwBw313a03VdKfBRvAgozhZRJJRMxl-77LF2c8tAbO1iaprlMW
+sprite $LocalAtmMd [16x16/16z] bOl50O0m54FJVi79_jFYxhnJ5B_XXWA8LD4HSVOU7KO18BClISh6LrMCnpvkV8Xnlp_q22McVs2vqdVPnYlUQ04
 
-sprite $LocalAtmLg [20x20/16z] fSy34W1H203G-aQu_srtrlORv-0VvvTi6z8DryQgMr9gOmLQIH5QSmorjOuP5IBQnYWbTzyBY2YxUViwBAmrB6CjsqQccD2Irkw1DVYb0G
+sprite $LocalAtmLg [20x20/16z] fS_50S0W30NG1FU__xPrz_Au4QSwIg_9xWixglkBIlQl8nLIznUeuy3KMVuOdUsVG4afxV-IS-gvbfYv7FfrThKX8vhrNqUsFyjVIMk8_G5RLAK1
 
-!procedure LocalAtm($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/LocalAtm', $name, $tech)
+!procedure LocalAtm($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/LocalAtm', $name, $tech, $desc)
 !endprocedure

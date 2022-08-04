@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Places/Spa')
 
 ' renders the element
-Spa('Spa', 'Spa', 'an optional tech label')
+Spa('Spa', 'Spa', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Places/Spa')
 
 ' renders the element
-Spa('Spa', 'Spa', 'an optional tech label')
+Spa('Spa', 'Spa', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

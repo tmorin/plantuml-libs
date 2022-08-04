@@ -8,6 +8,6 @@ sprite $EventMd [16x16/16z] VOm50i0W30Fd6ld_Q-S-uD2sIR80mFQusilHvehP7UL5iTJyrJZP
 
 sprite $EventLg [20x20/16z] dOu30W0n30HhP_F_rvxjwvJnYZionjT0Bxx2uslPJ1xYBMxmyGwwyE7UvyHAdQy0i0SV1d5rFkkSKuzpTvJ1vmahfCHdMW
 
-!procedure Event($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/Event', $name, $tech)
+!procedure Event($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Event', $name, $tech, $desc)
 !endprocedure

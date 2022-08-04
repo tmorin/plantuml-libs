@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/Router')
 
 ' renders the element
-Router('Router', 'Router', 'an optional tech label')
+Router('Router', 'Router', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/Router')
 
 ' renders the element
-Router('Router', 'Router', 'an optional tech label')
+Router('Router', 'Router', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

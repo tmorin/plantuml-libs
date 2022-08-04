@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Device/DeveloperMode')
 
 ' renders the element
-DeveloperMode('DeveloperMode', 'Developer Mode', 'an optional tech label')
+DeveloperMode('DeveloperMode', 'Developer Mode', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Device/DeveloperMode')
 
 ' renders the element
-DeveloperMode('DeveloperMode', 'Developer Mode', 'an optional tech label')
+DeveloperMode('DeveloperMode', 'Developer Mode', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

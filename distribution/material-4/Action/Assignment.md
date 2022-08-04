@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Assignment')
 
 ' renders the element
-Assignment('Assignment', 'Assignment', 'an optional tech label')
+Assignment('Assignment', 'Assignment', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Assignment')
 
 ' renders the element
-Assignment('Assignment', 'Assignment', 'an optional tech label')
+Assignment('Assignment', 'Assignment', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

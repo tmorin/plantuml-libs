@@ -1,16 +1,16 @@
 ' definition of the Item material-4/Image/ImageSearch
 
-sprite $ImageSearchXs [10x10/16z] NS6n0K10002ne0Et_xJmvISctQZ4JOW8MqN0UWat1waI0R6S0oy
+sprite $ImageSearchXs [10x10/16z] NS6n0K10002nF1su_QS5vIScNQXaN8I8i5O4BATmiPCg4H3Z-F4
 
-sprite $ImageSearchSm [12x12/16z] POjL0W0X50B7Rhd_RTVwsp5U0Fn9bKtl7TMerOxeFQlfRlNh8ODuFT8Sfx_CSFiCxNYCdFIopY_ixlle1wqU-u0F
+sprite $ImageSearchSm [12x12/16z] POk53KGX50Jdu-4URF_Luj6Rs2h_vCh6p51D0bhodYNCB-q1VOYdaNfxUjFZrGL-iFGdBxslzo44jxKrEsXft0Cc
 
-sprite $ImageSearchMd [16x16/16z] TSV50KKX0C2mul24xZ_jTvVSmb_XRLbTELDjs8aM89fp9Wfiw-MS6S3-_EwkzNdAFfhr-RFcuo70WEj7H67RhiywTNiyvOlxqztb-9JvSWG
+sprite $ImageSearchMd [16x16/16z] TSV50KKX0C2mul24xZ_jTvVSmb_XRLbTELDjs8aM89fJ9Wfiw-MS6S3-_EwkzNdAFfhr-RFcuo70WEj7H67RhiywTNiyvOlxqztb-9JvSWG
 
 sprite $ImageSearchLg [20x20/16z] {
-bSv7Wi904CLGLN2s-z__j3D0aJDQlfNulLbgJfNTBjYqBLAX3f4Q0RMo9JE3KGQiAflPDoY0TcEcbhvekZP2X_pQi7xmA2mxvTgkpO6Uu6GEhG7hmibMsIIj
-rt-3glxA8gkuidDdkwdCrgiMNlGF
+bSu50eGW50RXUM4h__rFkm7RlMD_Ai3_pL9nMjaTWatR8ZLKZTG8fj9ioSXWb06hcitrCYY0ScFrj_H5qwqHglcjOVtWKR7QDTTsQmxq16TpA0LO5ywsoYPf
+lLtVe5P_Ov77BJDkxDhPT5ipMszQUDCU
 }
 
-!procedure ImageSearch($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/ImageSearch', $name, $tech)
+!procedure ImageSearch($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/ImageSearch', $name, $tech, $desc)
 !endprocedure

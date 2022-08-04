@@ -10,10 +10,10 @@ ROxL0KDH24ElA-7iFstT-_WZ7WvFGFxuKyvVhm4pn7H_9sfb0BgzW-iJooBUVbeL5Phy-ZOAaImfSVst
 }
 
 sprite $ShutterSpeedLg [20x20/16z] {
-TS-5SKHH241HUAxS_hjDcFKlPnn7xgav-H5mnyAOug7CS5FYU8KwZ9pg0j1NQ4ipOemG7g78yigL6G5xn1QAWXYqHXB7BipOjFvJ-YFM9aIHQ6QH_OZL-RZN
-8B8UiIdYfe8on6q2C0ffha8MbsaP550nv65JK_5VT7lPWx7z_W9DtZeuI_8jZTLKxlq1
+TSz5OWKW303H1DVC_M_RGgfVtex1vJsrutyB78yBOueFounZIXpVgSF8gIu0_KvRcX5ZXE0fiixAbHa1yxPG5CIWDT9jxCACJUidfNjh4w98DBF8zbQdlzSW
+ihnDkQQ2VWqs0HY5D5SXtvPf6VI-rn2tgQcSl-W-ovonp_iBDFdHkIp9NsciflBU1m
 }
 
-!procedure ShutterSpeed($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/ShutterSpeed', $name, $tech)
+!procedure ShutterSpeed($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/ShutterSpeed', $name, $tech, $desc)
 !endprocedure

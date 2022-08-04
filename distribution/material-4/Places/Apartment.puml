@@ -4,13 +4,13 @@ sprite $ApartmentXs [10x10/16z] Oy0E-DdusTZ03100izZu6VWP868G01S3iRZuWLgu-26oO8m
 
 sprite $ApartmentSm [12x12/16z] Oy03-440nWP1X2W_b8qYZf3XXq5CSI12Y4C8P
 
-sprite $ApartmentMd [16x16/16z] ZOm34aH14CMcllKgzp_jehL6XccrVv2nbQE3WwEShgCfN0JfwXW7kieV7ODvrqLzqLc-vhaZ90GAFy1FrQC6LOyxc7U6F-s5Cm
+sprite $ApartmentMd [16x16/16z] ZOm34aH14CMcllKgzp_jehL6XccrVv2nbIDnS9JJTJI5Yo1T7UD0L_cZOp3lkgWlEilNF7U4X43X1_YfUjIWwd47yyveVhzm1W
 
 sprite $ApartmentLg [20x20/16z] {
 fOo54SD030IbmFFSzbzj6CsmzfCER3Uy2BypXKeCdPabtBupldnd4WYadraOoDO4gP7JxPRYS_Q7dhFeo3C7VzpwVMWyMm9yjcyMeebEzZ7xPlKWM7kSpHPp
 1G
 }
 
-!procedure Apartment($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Places/Apartment', $name, $tech)
+!procedure Apartment($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/Apartment', $name, $tech, $desc)
 !endprocedure

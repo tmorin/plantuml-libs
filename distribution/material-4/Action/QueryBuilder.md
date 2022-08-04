@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/QueryBuilder')
 
 ' renders the element
-QueryBuilder('QueryBuilder', 'Query Builder', 'an optional tech label')
+QueryBuilder('QueryBuilder', 'Query Builder', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/QueryBuilder')
 
 ' renders the element
-QueryBuilder('QueryBuilder', 'Query Builder', 'an optional tech label')
+QueryBuilder('QueryBuilder', 'Query Builder', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

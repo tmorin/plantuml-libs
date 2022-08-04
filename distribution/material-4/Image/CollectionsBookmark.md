@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/CollectionsBookmark')
 
 ' renders the element
-CollectionsBookmark('CollectionsBookmark', 'Collections Bookmark', 'an optional tech label')
+CollectionsBookmark('CollectionsBookmark', 'Collections Bookmark', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/CollectionsBookmark')
 
 ' renders the element
-CollectionsBookmark('CollectionsBookmark', 'Collections Bookmark', 'an optional tech label')
+CollectionsBookmark('CollectionsBookmark', 'Collections Bookmark', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

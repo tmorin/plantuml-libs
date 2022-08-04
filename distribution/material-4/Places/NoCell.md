@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Places/NoCell')
 
 ' renders the element
-NoCell('NoCell', 'No Cell', 'an optional tech label')
+NoCell('NoCell', 'No Cell', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Places/NoCell')
 
 ' renders the element
-NoCell('NoCell', 'No Cell', 'an optional tech label')
+NoCell('NoCell', 'No Cell', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/ArrowRightAlt')
 
 ' renders the element
-ArrowRightAlt('ArrowRightAlt', 'Arrow Right Alt', 'an optional tech label')
+ArrowRightAlt('ArrowRightAlt', 'Arrow Right Alt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/ArrowRightAlt')
 
 ' renders the element
-ArrowRightAlt('ArrowRightAlt', 'Arrow Right Alt', 'an optional tech label')
+ArrowRightAlt('ArrowRightAlt', 'Arrow Right Alt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

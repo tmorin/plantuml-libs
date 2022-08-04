@@ -8,6 +8,6 @@ sprite $FlipMd [16x16/16z] VOm54i0m40Bl6Ad1yF_NrhsD9x0xYVy1N-z1mfpxFjebqkIQks3EM
 
 sprite $FlipLg [20x20/16z] dL250KGX5B9Rs7_Qkz_TjYy1SJKyvCuMkBHLakXiTErg1vDpjhCv9PpjRMwLkxSHUnlAizpWdzMJyZEMInuh3NhClWAbiy6AgdRwhOVsq_CF
 
-!procedure Flip($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Image/Flip', $name, $tech)
+!procedure Flip($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/Flip', $name, $tech, $desc)
 !endprocedure

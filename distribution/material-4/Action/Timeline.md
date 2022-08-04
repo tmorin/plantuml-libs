@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Timeline')
 
 ' renders the element
-Timeline('Timeline', 'Timeline', 'an optional tech label')
+Timeline('Timeline', 'Timeline', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Timeline')
 
 ' renders the element
-Timeline('Timeline', 'Timeline', 'an optional tech label')
+Timeline('Timeline', 'Timeline', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/File/GridView')
 
 ' renders the element
-GridView('GridView', 'Grid View', 'an optional tech label')
+GridView('GridView', 'Grid View', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/File/GridView')
 
 ' renders the element
-GridView('GridView', 'Grid View', 'an optional tech label')
+GridView('GridView', 'Grid View', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/AirlineSeatFlat')
 
 ' renders the element
-AirlineSeatFlat('AirlineSeatFlat', 'Airline Seat Flat', 'an optional tech label')
+AirlineSeatFlat('AirlineSeatFlat', 'Airline Seat Flat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/AirlineSeatFlat')
 
 ' renders the element
-AirlineSeatFlat('AirlineSeatFlat', 'Airline Seat Flat', 'an optional tech label')
+AirlineSeatFlat('AirlineSeatFlat', 'Airline Seat Flat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/EventNote')
 
 ' renders the element
-EventNote('EventNote', 'Event Note', 'an optional tech label')
+EventNote('EventNote', 'Event Note', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/EventNote')
 
 ' renders the element
-EventNote('EventNote', 'Event Note', 'an optional tech label')
+EventNote('EventNote', 'Event Note', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

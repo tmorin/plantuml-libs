@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/ViewCompact')
 
 ' renders the element
-ViewCompact('ViewCompact', 'View Compact', 'an optional tech label')
+ViewCompact('ViewCompact', 'View Compact', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/ViewCompact')
 
 ' renders the element
-ViewCompact('ViewCompact', 'View Compact', 'an optional tech label')
+ViewCompact('ViewCompact', 'View Compact', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -6,8 +6,8 @@ sprite $HighQualitySm [12x12/16z] Oy09E7WWW1d8veS1T3OBFmC_0oCFX0t4J3my27467eHwJW
 
 sprite $HighQualityMd [16x16/16z] bOs55S0m44Af6ppsdxRkdXyz0mIJUcE8kOlZFjObpgdKQPmiSKh5XX8kCT37dkEb7cE9vNuBFEgpF_6DFxXIuPCE
 
-sprite $HighQualityLg [20x20/16z] fS_50S0W00F0kZVPVrhSvKKgmE7JMEOzoMQDMUw6_Gs3Cu2WBX1jspbTd5NzImpQNgQc_ie-rkFEEpCgsrKTmLpUEPub2xhtU3DRfw58
+sprite $HighQualityLg [20x20/16z] fS_50S0W00F0kZVPVrhSvKKgmE7JMEOzoMQDMUw6_Gs3Cu2WBX1jspbTd5NzImpQNgQc_ie-rkEEEpCgsrKTmLpUEPub2xhtU3DRfw58
 
-!procedure HighQuality($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Av/HighQuality', $name, $tech)
+!procedure HighQuality($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/HighQuality', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/PersonPin')
 
 ' renders the element
-PersonPin('PersonPin', 'Person Pin', 'an optional tech label')
+PersonPin('PersonPin', 'Person Pin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/PersonPin')
 
 ' renders the element
-PersonPin('PersonPin', 'Person Pin', 'an optional tech label')
+PersonPin('PersonPin', 'Person Pin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

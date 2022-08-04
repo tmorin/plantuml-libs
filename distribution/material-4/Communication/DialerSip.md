@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/DialerSip')
 
 ' renders the element
-DialerSip('DialerSip', 'Dialer Sip', 'an optional tech label')
+DialerSip('DialerSip', 'Dialer Sip', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Communication/DialerSip')
 
 ' renders the element
-DialerSip('DialerSip', 'Dialer Sip', 'an optional tech label')
+DialerSip('DialerSip', 'Dialer Sip', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

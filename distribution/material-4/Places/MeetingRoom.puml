@@ -8,6 +8,6 @@ sprite $MeetingRoomMd [16x16/16z] Oo0Cc7X1W1lEP-Q70MG-7miR2fyNIEFcywBn6VZGrPFDv-
 
 sprite $MeetingRoomLg [20x20/16z] fOo54S0m54AfEt__QUiUJzuPXo6HJWwgbSTx-7jbEIZUgg8yDbIy4QedjFobUuTnUiBTuya4jEG8RnO
 
-!procedure MeetingRoom($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Places/MeetingRoom', $name, $tech)
+!procedure MeetingRoom($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/MeetingRoom', $name, $tech, $desc)
 !endprocedure

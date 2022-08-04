@@ -8,6 +8,6 @@ sprite $ArrowBackMd [16x16/16z] Oo0FCFAXSlbvIE7oCK408vZFnmy5G6LG0RXQiWKuYFG8
 
 sprite $ArrowBackLg [20x20/16z] hSYr0O1040J0tSEz_sg1Tmrlme4AjhKzqjPPrzghgwwjLy-s1gxaoI7co00fYOh9ePVifRHvGSC7
 
-!procedure ArrowBack($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Navigation/ArrowBack', $name, $tech)
+!procedure ArrowBack($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Navigation/ArrowBack', $name, $tech, $desc)
 !endprocedure

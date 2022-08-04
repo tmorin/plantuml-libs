@@ -8,6 +8,6 @@ sprite $CompassCalibrationMd [16x16/16z] ZSl50G113090rZtqt-svwtoYu0_bSqrscOnmKZ3
 
 sprite $CompassCalibrationLg [20x20/16z] fSo50OGm3030rBtPVzf_gEDsK8l1LzH4d7a9bSTEf0Z31JV78YxnHMiY8KcLCGppKcNA4fVE5RfuSHyDB0cSmK9CCRM8OM9twkJbF60k67Ze3m
 
-!procedure CompassCalibration($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/CompassCalibration', $name, $tech)
+!procedure CompassCalibration($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/CompassCalibration', $name, $tech, $desc)
 !endprocedure

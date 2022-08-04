@@ -1,6 +1,6 @@
 ' definition of the Item material-4/Action/Copyright
 
-sprite $CopyrightXs [10x10/16z] LSA53OG0002nvlsnstzQD4PJDpM3CVH0FCWrZvUOOBJGS_5v40ZF7ju1x-c13G
+sprite $CopyrightXs [10x10/16z] LS852i1040ImSBUBrER_hwrY3V6Jx60DCX06yOrHmWQhWyn33mA2cQ43z3Pm0G
 
 sprite $CopyrightSm [12x12/16z] NSY53SH044FHdopZzD_joTQ9ClXaljLN_Uj4ppEQkPn4qO4TsRytUXVkmqxi5z2jaxAL1zuouP7x1V7Hgt5tc0vVlny
 
@@ -10,10 +10,10 @@ tf4Sm0hs1nS
 }
 
 sprite $CopyrightLg [20x20/16z] {
-bOu50aCn34ARkdF_sovXxXjV2o_Y_bE5QeKRfm1xZgLlVxO6uC-qFrFZd7f0-0FOMqW4CA_6omOGzJH1RBEb78-U2MaiPIEHPgzkhydMHCx7hGrYfLVi20ug
-WOqpDunCwaO_BqRGkxEQ0TnpXxDbyqycfg49e4N90CN2grAVrTXtEW
+bOu55iCm34F3dEZ-jvsjpgyFXYf6-WRtdnf4ExfR5JXhRda7ioOGZ0v6JKi3uFa3wDkJY5VUbFS7G9BJ0h73bluw1YQaiOLDHBg-XhuMMnEnuv46gT6hUWG7
+rSZ6cHic9krWs684WpDr1RZdYMRf_AU95TXBB9EVe5XuAu_Lb7sd1m
 }
 
-!procedure Copyright($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/Copyright', $name, $tech)
+!procedure Copyright($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Copyright', $name, $tech, $desc)
 !endprocedure

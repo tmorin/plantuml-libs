@@ -8,6 +8,6 @@ sprite $ViewHeadlineMd [16x16/16z] Oo0TCCC14vZF3mSyMDNpmW4N1XyDe9k7RXz1-qa6
 
 sprite $ViewHeadlineLg [20x20/16z] Ow0-OEP41X0nLdvaW4Sp4pB0hPU97HdWDew53nbWCuyYVr0V
 
-!procedure ViewHeadline($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/ViewHeadline', $name, $tech)
+!procedure ViewHeadline($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/ViewHeadline', $name, $tech, $desc)
 !endprocedure

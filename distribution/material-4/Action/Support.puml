@@ -10,10 +10,10 @@ WpUDuRFmHnS
 }
 
 sprite $SupportLg [20x20/16z] {
-bSjLTa0n3CHG9NaCrlvtssENkRs_C-9_DjLxy6hrINIUdDfLzrNxy-kiMEZQI0hC6Wr6xldebOTES0kWheixD6rN3LWWmxG3fY2PpdU_pL1N8DnfEjYywM47
-9XUOLUy6IWeRD8tALz8mEhVQAgSClQhLcsVjj5JuQZwkhVEz1m
+bOu5aWCn30HRtYJBwl-_za3sCQQBXsguZqNrd7XZTf2DmQvDTPrrYBDxBqFJA4s1gsR0vDxdMzLJBt3QOyutLmYDemmi02PLrw6PZ8erM99zETKPI5T29nPF
+MjR3YxUwecUCOv06X6RLvz8cit6gKNM6w55TI-h4RcVcFTVjM1e_ymW
 }
 
-!procedure Support($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/Support', $name, $tech)
+!procedure Support($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Support', $name, $tech, $desc)
 !endprocedure

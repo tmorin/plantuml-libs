@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/Cancel')
 
 ' renders the element
-Cancel('Cancel', 'Cancel', 'an optional tech label')
+Cancel('Cancel', 'Cancel', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/Cancel')
 
 ' renders the element
-Cancel('Cancel', 'Cancel', 'an optional tech label')
+Cancel('Cancel', 'Cancel', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

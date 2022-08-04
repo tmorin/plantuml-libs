@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/Web')
 
 ' renders the element
-Web('Web', 'Web', 'an optional tech label')
+Web('Web', 'Web', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/Web')
 
 ' renders the element
-Web('Web', 'Web', 'an optional tech label')
+Web('Web', 'Web', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

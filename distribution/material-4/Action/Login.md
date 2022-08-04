@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Login')
 
 ' renders the element
-Login('Login', 'Login', 'an optional tech label')
+Login('Login', 'Login', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Login')
 
 ' renders the element
-Login('Login', 'Login', 'an optional tech label')
+Login('Login', 'Login', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

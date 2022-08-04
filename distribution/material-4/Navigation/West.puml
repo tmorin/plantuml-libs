@@ -8,6 +8,6 @@ sprite $WestMd [16x16/16z] Ow06OET7uxBYvR8pmG6GpuyCW7n6VcvKqvduUT04C5JmaUrq
 
 sprite $WestLg [20x20/16z] Ow0DOC8KOkRdmHJYnoB4H9GgRWuam0OKu-D70H3RUFav6P41K0YaaWFJUJneWb2Lx5XKiZ7G3W
 
-!procedure West($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Navigation/West', $name, $tech)
+!procedure West($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Navigation/West', $name, $tech, $desc)
 !endprocedure

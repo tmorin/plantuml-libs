@@ -8,6 +8,6 @@ sprite $SettingsVoiceMd [16x16/16z] dSt50SDG3C1GXJzh_sdBpCqxcSrhpSIDh7PSLRLVc_SU
 
 sprite $SettingsVoiceLg [20x20/16z] hS_50SGm50FHaNyujjL_jSlCa7USayGBckl03M_qN96tk9AMR2bEBJZe3DwOQNqU4hHsXLeucYqGz0vEx1vKhf-CtgWDS5t5hU59UoiI2WXnvifWuOwjDG
 
-!procedure SettingsVoice($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/SettingsVoice', $name, $tech)
+!procedure SettingsVoice($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/SettingsVoice', $name, $tech, $desc)
 !endprocedure

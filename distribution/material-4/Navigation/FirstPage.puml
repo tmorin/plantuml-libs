@@ -8,6 +8,6 @@ sprite $FirstPageMd [16x16/16z] Ow02uEG4KsmmFWyFY6JdPuNpeLmu7yP5yFbv6L3uZFmyo7ou
 
 sprite $FirstPageLg [20x20/16z] lSl55S1G24JH8UxJVxLnVVjyG-u1fJhjS1RDOuEFtBkczUuujn5i8rXXYwRI3jg6j7qzQ2fTt9PVPQO_pW8
 
-!procedure FirstPage($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Navigation/FirstPage', $name, $tech)
+!procedure FirstPage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Navigation/FirstPage', $name, $tech, $desc)
 !endprocedure

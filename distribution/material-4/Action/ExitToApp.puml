@@ -8,6 +8,6 @@ sprite $ExitToAppMd [16x16/16z] XSo50GCX341Ht27xRriiKl-d3rF_gnrBYmqQ1cQwDuMnOoIR
 
 sprite $ExitToAppLg [20x20/16z] fSx50SH034DH3wEj_gjT65g69F-cTn8TYt6VRuRiRu6xURe5kREWxqrS6p1trjE0lbdiPS0imugNgLw2KBDR4VBo1KmlfkZ5UZTxg3OBBBTOqz-T0G
 
-!procedure ExitToApp($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/ExitToApp', $name, $tech)
+!procedure ExitToApp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/ExitToApp', $name, $tech, $desc)
 !endprocedure

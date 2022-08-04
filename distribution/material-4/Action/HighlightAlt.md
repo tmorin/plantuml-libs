@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/HighlightAlt')
 
 ' renders the element
-HighlightAlt('HighlightAlt', 'Highlight Alt', 'an optional tech label')
+HighlightAlt('HighlightAlt', 'Highlight Alt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/HighlightAlt')
 
 ' renders the element
-HighlightAlt('HighlightAlt', 'Highlight Alt', 'an optional tech label')
+HighlightAlt('HighlightAlt', 'Highlight Alt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

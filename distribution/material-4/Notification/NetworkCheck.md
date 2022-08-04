@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/NetworkCheck')
 
 ' renders the element
-NetworkCheck('NetworkCheck', 'Network Check', 'an optional tech label')
+NetworkCheck('NetworkCheck', 'Network Check', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/NetworkCheck')
 
 ' renders the element
-NetworkCheck('NetworkCheck', 'Network Check', 'an optional tech label')
+NetworkCheck('NetworkCheck', 'Network Check', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

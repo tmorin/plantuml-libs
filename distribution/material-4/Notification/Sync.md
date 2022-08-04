@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/Sync')
 
 ' renders the element
-Sync('Sync', 'Sync', 'an optional tech label')
+Sync('Sync', 'Sync', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Notification/Sync')
 
 ' renders the element
-Sync('Sync', 'Sync', 'an optional tech label')
+Sync('Sync', 'Sync', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

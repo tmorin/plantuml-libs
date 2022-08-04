@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Addchart')
 
 ' renders the element
-Addchart('Addchart', 'Addchart', 'an optional tech label')
+Addchart('Addchart', 'Addchart', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Addchart')
 
 ' renders the element
-Addchart('Addchart', 'Addchart', 'an optional tech label')
+Addchart('Addchart', 'Addchart', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

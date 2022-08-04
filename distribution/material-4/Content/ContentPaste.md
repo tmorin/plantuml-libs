@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Content/ContentPaste')
 
 ' renders the element
-ContentPaste('ContentPaste', 'Content Paste', 'an optional tech label')
+ContentPaste('ContentPaste', 'Content Paste', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Content/ContentPaste')
 
 ' renders the element
-ContentPaste('ContentPaste', 'Content Paste', 'an optional tech label')
+ContentPaste('ContentPaste', 'Content Paste', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

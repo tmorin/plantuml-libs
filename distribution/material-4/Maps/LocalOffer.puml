@@ -8,6 +8,6 @@ sprite $LocalOfferMd [16x16/16z] POz50G0m3CHsDN3-rOxB-IN3ZWRauCg7kX3oWldVecvKfte
 
 sprite $LocalOfferLg [20x20/16z] ZSg53GD040D1X-70_NSRFTvRc16l5d_xS30KqeFDzsZMUkFL0XTIJnvCcfuKVZGzdUhPeb5yq8GqD7Bc1PFlX69rbQXBptQ9znT2_G
 
-!procedure LocalOffer($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/LocalOffer', $name, $tech)
+!procedure LocalOffer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/LocalOffer', $name, $tech, $desc)
 !endprocedure

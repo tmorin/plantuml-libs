@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/Videocam')
 
 ' renders the element
-Videocam('Videocam', 'Videocam', 'an optional tech label')
+Videocam('Videocam', 'Videocam', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/Videocam')
 
 ' renders the element
-Videocam('Videocam', 'Videocam', 'an optional tech label')
+Videocam('Videocam', 'Videocam', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

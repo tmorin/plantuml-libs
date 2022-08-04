@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/FormatQuote')
 
 ' renders the element
-FormatQuote('FormatQuote', 'Format Quote', 'an optional tech label')
+FormatQuote('FormatQuote', 'Format Quote', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/FormatQuote')
 
 ' renders the element
-FormatQuote('FormatQuote', 'Format Quote', 'an optional tech label')
+FormatQuote('FormatQuote', 'Format Quote', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

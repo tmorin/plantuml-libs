@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Social/Pages')
 
 ' renders the element
-Pages('Pages', 'Pages', 'an optional tech label')
+Pages('Pages', 'Pages', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Social/Pages')
 
 ' renders the element
-Pages('Pages', 'Pages', 'an optional tech label')
+Pages('Pages', 'Pages', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

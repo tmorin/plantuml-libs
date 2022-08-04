@@ -8,6 +8,6 @@ sprite $TextRotationNoneMd [16x16/16z] ZOu30e1044K7MV_-fysrnbkCGNNmwjeBrB6XcssE2
 
 sprite $TextRotationNoneLg [20x20/16z] hSg53GGn0CH0XpdRVxNFp70ZYyqIgYotD2itydJYXl8sBWKPYk3Ia7D1WGj6EuCBNG19vdAhRAdneS91A2Sgx1LTiDoIuOxZ2si
 
-!procedure TextRotationNone($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/TextRotationNone', $name, $tech)
+!procedure TextRotationNone($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/TextRotationNone', $name, $tech, $desc)
 !endprocedure

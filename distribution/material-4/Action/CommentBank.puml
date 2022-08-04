@@ -2,12 +2,12 @@
 
 sprite $CommentBankXs [10x10/16z] Oq00Jdu8O600Ksni_3mCK05C5YCVY0K521Op0pyZ0pe
 
-sprite $CommentBankSm [12x12/16z] Oq01FBmGmCt0mCiF0qn0DeHc8Cm6GOHU33OB1303pMTYm0O
+sprite $CommentBankSm [12x12/16z] Oq01FBmGmCt0mCiF0qn0DeHc8Cm6GOHU33OBCmiGC3C3pMTYm0O
 
-sprite $CommentBankMd [16x16/16z] fSUr0O10002nmntsdnQtTqiN55d-ERhyGRxSnd7yVmAItYpvzO_donV7S_xo39iD
+sprite $CommentBankMd [16x16/16z] fSUr0O10002nmntsdnQtTqiN55d-ERhyGRxSnd7yVmAItYpvzO_dorjHS3pdBy-msG
 
-sprite $CommentBankLg [20x20/16z] jSYr0S0W00J0ZtlOVrhS6_pAGxQBXC2Ho1FSpX7o1WTkz4t_FuUdjDsYRlNCa3SXHcPKOW
+sprite $CommentBankLg [20x20/16z] jSYr0SH030LHqPtPl_zg5oCfCR_9XawRuDM7O77lNm2hUrHy_NZR9RxgsTF-pBHKgGcrnnH1wAOC
 
-!procedure CommentBank($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/CommentBank', $name, $tech)
+!procedure CommentBank($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/CommentBank', $name, $tech, $desc)
 !endprocedure

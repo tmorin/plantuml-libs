@@ -2,12 +2,12 @@
 
 sprite $NightlightRoundXs [10x10/16z] LKg30G0n4Cizw-m_RSrZXBCyMR-m0qnmaRgXdxmmOWuhjw1qAFO34W
 
-sprite $NightlightRoundSm [12x12/16z] Oy00pDnSK1OJFpy_7vGDP792cNn0DWD2c1s9pSI0gPo16wmU8S6BpE5dXFEOGBe1
+sprite $NightlightRoundSm [12x12/16z] Oy00pDnSK1OJFpy_7vGDP792cNn0DWD2c1s9pSI0gPo16wmU8S67pE5dXFEOGBe1
 
 sprite $NightlightRoundMd [16x16/16z] TKt50O0m4CDTzjyMsfvBVl4kGzzBThq_1cJ3Mp2IMzXZmg9SwCrqA7moV13FXI-oR_Os-Lxmq88K3Y5CHUaxZmy
 
 sprite $NightlightRoundLg [20x20/16z] bSz50WCm24HHGbov_sahisBg_SiNHVvDjzto4Y1sF1dAuZ8KFNLG4PyX8WLrikfkOrEox3x2lrj27M1uSNWADUatX9kF5qCgLAXpqiZK5G
 
-!procedure NightlightRound($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/NightlightRound', $name, $tech)
+!procedure NightlightRound($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/NightlightRound', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/GridOff')
 
 ' renders the element
-GridOff('GridOff', 'Grid Off', 'an optional tech label')
+GridOff('GridOff', 'Grid Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/GridOff')
 
 ' renders the element
-GridOff('GridOff', 'Grid Off', 'an optional tech label')
+GridOff('GridOff', 'Grid Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

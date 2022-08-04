@@ -8,6 +8,6 @@ sprite $ToggleOffMd [16x16/16z] hS450S0m44MnL-P-_sg7vs1B-5-NsOdBKaeo2PmSE1dmuY83
 
 sprite $ToggleOffLg [20x20/16z] nSo55S0W40FGu4xstxOFPuBoM-mC3_dAfSWHAcJbvbeeqG2IMuknj3tic6-ns69wnrABrJ5qCG0Cgq3aXiRpKYK6OnU5dtm
 
-!procedure ToggleOff($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Toggle/ToggleOff', $name, $tech)
+!procedure ToggleOff($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Toggle/ToggleOff', $name, $tech, $desc)
 !endprocedure

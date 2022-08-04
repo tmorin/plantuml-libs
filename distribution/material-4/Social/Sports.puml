@@ -8,6 +8,6 @@ sprite $SportsMd [16x16/16z] fSUr0SD044N1VqoxVlrNQnBbqcIZnyeAgiisKk35PR-dVbp58MC
 
 sprite $SportsLg [20x20/16z] lSY50SCm4CNGRunP-qyRnW7QPppfFt8nihcsKvO4ZCgZRQqrjlvk_VZO_TDxBrg52WQ6XQ1Bsjf-eYuUN2K7iBe1NW7G8t3mUd5ihBwii_gL1G
 
-!procedure Sports($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Social/Sports', $name, $tech)
+!procedure Sports($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/Sports', $name, $tech, $desc)
 !endprocedure

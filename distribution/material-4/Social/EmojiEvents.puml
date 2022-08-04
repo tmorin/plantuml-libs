@@ -4,10 +4,10 @@ sprite $EmojiEventsXs [10x10/16z] Oy0AEFc1W8STo683iTZuWIn-E8iPp8Ie136W0CO0gqCs3G
 
 sprite $EmojiEventsSm [12x12/16z] Oy03-440peBn-A7YO3OhcCtDZL343T7B2MGo8an2DXNDV5G
 
-sprite $EmojiEventsMd [16x16/16z] ZStL0SCm34NH6qRxxJzjGL26d2-nEAAO5TTsCgLh06RTDS2-8xEZ5bXgvetrKP6fAbmr2XjXiXIJXThme1Lyp_D_QXqVd04
+sprite $EmojiEventsMd [16x16/16z] ZStL0SCm34NH6qRxxJzjGL26d2-nEAAO5TTsCgLh06RTDK3PaTbH2omryyRwgCXK5QuQXOqmMOh9Gcruq0g-v_a_jOuFpW
 
 sprite $EmojiEventsLg [20x20/16z] fSwr0GH120LGLiU7_gizmvEpVI7wuJ9afnIMKf3racp8LAgTRXSdrRAlTTwrsebqy40rSGBPhDX0xJm67YLS8LWxN_SoBfzhbjbCTi0lxW
 
-!procedure EmojiEvents($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Social/EmojiEvents', $name, $tech)
+!procedure EmojiEvents($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/EmojiEvents', $name, $tech, $desc)
 !endprocedure

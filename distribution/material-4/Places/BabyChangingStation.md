@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Places/BabyChangingStation')
 
 ' renders the element
-BabyChangingStation('BabyChangingStation', 'Baby Changing Station', 'an optional tech label')
+BabyChangingStation('BabyChangingStation', 'Baby Changing Station', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Places/BabyChangingStation')
 
 ' renders the element
-BabyChangingStation('BabyChangingStation', 'Baby Changing Station', 'an optional tech label')
+BabyChangingStation('BabyChangingStation', 'Baby Changing Station', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

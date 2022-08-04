@@ -4,10 +4,10 @@ sprite $HourglassTopXs [10x10/16z] Oq06_220ayK8Oa005pyZXC79mG1byeCm6ei711WO
 
 sprite $HourglassTopSm [12x12/16z] POo30G1H242_S-q_xTdtCjCRifMwvHehxPV3bkUqWLjwu87fm30vxAdWEZf-ha6FdwQgnyzSLfPa1W
 
-sprite $HourglassTopMd [16x16/16z] Oy0269aW0CRduOS05YBvt50-Cym0FZ2N0s437uIB040-iWE0adnyo5oG7bwuUo0iXFqyQ7nUPX30uZvC
+sprite $HourglassTopMd [16x16/16z] ZSwr0G0X44JHELUW_sfnzn_jYtPGQLbDpZypxPF-h3VOgEOD7qs9HJhX3KeJ0fGu_-OA___CP5CrzgK9
 
 sprite $HourglassTopLg [20x20/16z] jSg53G0n4CJ03NEk_sgVcN74bd57f9xyhOa-HOpOAlLdn9ol6iEC9Oj471EkIa1rpg_Ax8o4XYBveFN6vc9FO4S9
 
-!procedure HourglassTop($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Communication/HourglassTop', $name, $tech)
+!procedure HourglassTop($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/HourglassTop', $name, $tech, $desc)
 !endprocedure

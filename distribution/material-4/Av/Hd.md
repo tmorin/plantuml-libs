@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Av/Hd')
 
 ' renders the element
-Hd('Hd', 'Hd', 'an optional tech label')
+Hd('Hd', 'Hd', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Av/Hd')
 
 ' renders the element
-Hd('Hd', 'Hd', 'an optional tech label')
+Hd('Hd', 'Hd', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

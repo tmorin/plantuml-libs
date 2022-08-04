@@ -2,12 +2,12 @@
 
 sprite $OutlinedFlagXs [10x10/16z] Oy0AEFdv-Q4i88PmEC5yC8kFZm_8WeYn8MHXEj01
 
-sprite $OutlinedFlagSm [12x12/16z] Oy0DU800nkPdOU46Sfd0R21cPkPXXh110Chcu-E3ivcOk7bv-PaHwe5CA1jk9ZPB0G
+sprite $OutlinedFlagSm [12x12/16z] Oy0DU800nkPdPk46Sfd0R21cPkPXXh110Chcu-E3ivcOk7bv-PaHwe5CA1jk9ZPB0G
 
 sprite $OutlinedFlagMd [16x16/16z] bSg35S1G30NGg0xsdxQs_pryW7GS0znb4MbSLQivGw-FeRlSqwVilNqsisY8zd-CtYxlV6KWUDO1
 
-sprite $OutlinedFlagLg [20x20/16z] fSs30S0m4030ci7-qyOshinpcRIVWXTxiV3wiOFvCU1CJ7omuCK4q1z3tER7113tNgczds1ZLcViGSiG2W
+sprite $OutlinedFlagLg [20x20/16z] fSs30S0m4030ci7-qyOshinpcRIVWXTxiV3wiMC_zXy3piJ41mjUJ03zCSHjVam0SU-Lsli9DcPrnXwq3A4
 
-!procedure OutlinedFlag($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Content/OutlinedFlag', $name, $tech)
+!procedure OutlinedFlag($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/OutlinedFlag', $name, $tech, $desc)
 !endprocedure

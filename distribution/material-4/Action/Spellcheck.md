@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Spellcheck')
 
 ' renders the element
-Spellcheck('Spellcheck', 'Spellcheck', 'an optional tech label')
+Spellcheck('Spellcheck', 'Spellcheck', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Spellcheck')
 
 ' renders the element
-Spellcheck('Spellcheck', 'Spellcheck', 'an optional tech label')
+Spellcheck('Spellcheck', 'Spellcheck', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/Speaker')
 
 ' renders the element
-Speaker('Speaker', 'Speaker', 'an optional tech label')
+Speaker('Speaker', 'Speaker', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/Speaker')
 
 ' renders the element
-Speaker('Speaker', 'Speaker', 'an optional tech label')
+Speaker('Speaker', 'Speaker', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

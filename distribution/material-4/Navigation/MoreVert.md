@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/MoreVert')
 
 ' renders the element
-MoreVert('MoreVert', 'More Vert', 'an optional tech label')
+MoreVert('MoreVert', 'More Vert', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Navigation/MoreVert')
 
 ' renders the element
-MoreVert('MoreVert', 'More Vert', 'an optional tech label')
+MoreVert('MoreVert', 'More Vert', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

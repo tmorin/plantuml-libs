@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Content/RemoveCircle')
 
 ' renders the element
-RemoveCircle('RemoveCircle', 'Remove Circle', 'an optional tech label')
+RemoveCircle('RemoveCircle', 'Remove Circle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Content/RemoveCircle')
 
 ' renders the element
-RemoveCircle('RemoveCircle', 'Remove Circle', 'an optional tech label')
+RemoveCircle('RemoveCircle', 'Remove Circle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

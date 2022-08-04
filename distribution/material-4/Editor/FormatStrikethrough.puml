@@ -8,6 +8,6 @@ sprite $FormatStrikethroughMd [16x16/16z] Oo0TCFF300OV3lZvUK4K9XyJSFCX01E8pui0JA
 
 sprite $FormatStrikethroughLg [20x20/16z] Ow0GCBCY04oCany1S8WXz4FvXCIOU7Xu23Y53mL0LFEZ05xy1Z0Y_43OVJG2
 
-!procedure FormatStrikethrough($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Editor/FormatStrikethrough', $name, $tech)
+!procedure FormatStrikethrough($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/FormatStrikethrough', $name, $tech, $desc)
 !endprocedure

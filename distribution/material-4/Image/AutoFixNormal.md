@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/AutoFixNormal')
 
 ' renders the element
-AutoFixNormal('AutoFixNormal', 'Auto Fix Normal', 'an optional tech label')
+AutoFixNormal('AutoFixNormal', 'Auto Fix Normal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/AutoFixNormal')
 
 ' renders the element
-AutoFixNormal('AutoFixNormal', 'Auto Fix Normal', 'an optional tech label')
+AutoFixNormal('AutoFixNormal', 'Auto Fix Normal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

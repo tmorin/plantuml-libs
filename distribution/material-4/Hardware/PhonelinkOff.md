@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/PhonelinkOff')
 
 ' renders the element
-PhonelinkOff('PhonelinkOff', 'Phonelink Off', 'an optional tech label')
+PhonelinkOff('PhonelinkOff', 'Phonelink Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/PhonelinkOff')
 
 ' renders the element
-PhonelinkOff('PhonelinkOff', 'Phonelink Off', 'an optional tech label')
+PhonelinkOff('PhonelinkOff', 'Phonelink Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

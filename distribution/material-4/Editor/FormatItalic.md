@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/FormatItalic')
 
 ' renders the element
-FormatItalic('FormatItalic', 'Format Italic', 'an optional tech label')
+FormatItalic('FormatItalic', 'Format Italic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Editor/FormatItalic')
 
 ' renders the element
-FormatItalic('FormatItalic', 'Format Italic', 'an optional tech label')
+FormatItalic('FormatItalic', 'Format Italic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

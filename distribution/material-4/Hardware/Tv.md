@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/Tv')
 
 ' renders the element
-Tv('Tv', 'Tv', 'an optional tech label')
+Tv('Tv', 'Tv', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/Tv')
 
 ' renders the element
-Tv('Tv', 'Tv', 'an optional tech label')
+Tv('Tv', 'Tv', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

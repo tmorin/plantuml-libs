@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/TrendingFlat')
 
 ' renders the element
-TrendingFlat('TrendingFlat', 'Trending Flat', 'an optional tech label')
+TrendingFlat('TrendingFlat', 'Trending Flat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/TrendingFlat')
 
 ' renders the element
-TrendingFlat('TrendingFlat', 'Trending Flat', 'an optional tech label')
+TrendingFlat('TrendingFlat', 'Trending Flat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

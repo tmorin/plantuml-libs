@@ -2,12 +2,12 @@
 
 sprite $PhonelinkXs [10x10/16z] Oy06-A60Xu4V8GOXUNXXB0Pc18kJdnC86FWvkI0Q6K0O3W
 
-sprite $PhonelinkSm [12x12/16z] Oy09U620YO6NZGKA61XucS6oh40969k7bOaNpcPXmCdcXm0c7Y31304CZ2022G
+sprite $PhonelinkSm [12x12/16z] TScr0S0m30315pQX_QSDcIgTBQQq3ygHPluoWyFun7iO_HvwpDuf-wlH_KtM85zYUG
 
-sprite $PhonelinkMd [16x16/16z] bSV50S0m3CLGbRb__saBuLFW1MpHJ2deDIR-nkc7JzBwfJr2Sm-J1WlDmw3WGh_JEpZ-GS4B
+sprite $PhonelinkMd [16x16/16z] bSU54SD030NHdHCanjz_jMOQChm3QVbCLr3avYjpcvjDiScbDRksm-UsaArGckdGeLcxQsZcmOCH
 
-sprite $PhonelinkLg [20x20/16z] hSwr0S0m30H0CmZtdpRCAUKhXUziKdv9Iqa_QArXUebh3TpRknPrywfbPIB-rj8oFBpMkt8_B3Ni7VHfgVrScGrc
+sprite $PhonelinkLg [20x20/16z] hOw35G0W54MpiV-qsHtNZTyFl47e1aakVs2oJnDSLYA_EFiKsDbzs1Ss7_NM67lwI4h-xfFIMzb8FYsbyYl9Tp4qFn01
 
-!procedure Phonelink($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Hardware/Phonelink', $name, $tech)
+!procedure Phonelink($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Hardware/Phonelink', $name, $tech, $desc)
 !endprocedure

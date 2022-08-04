@@ -8,6 +8,6 @@ sprite $DoneMd [16x16/16z] Ow0cu47bylCHnML7vJBoSwCgPW8AWBa80JIZcFZ8TZ8
 
 sprite $DoneLg [20x20/16z] OnW0mCkC8SJ7pqwK41i-8JPC8Mv-TbIpe3nCutduEH0Q4IeHGWYLR3GC6m
 
-!procedure Done($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/Done', $name, $tech)
+!procedure Done($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Done', $name, $tech, $desc)
 !endprocedure

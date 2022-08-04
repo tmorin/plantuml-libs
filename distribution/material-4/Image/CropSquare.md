@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Image/CropSquare')
 
 ' renders the element
-CropSquare('CropSquare', 'Crop Square', 'an optional tech label')
+CropSquare('CropSquare', 'Crop Square', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Image/CropSquare')
 
 ' renders the element
-CropSquare('CropSquare', 'Crop Square', 'an optional tech label')
+CropSquare('CropSquare', 'Crop Square', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

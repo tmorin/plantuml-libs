@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Class')
 
 ' renders the element
-Class('Class', 'Class', 'an optional tech label')
+Class('Class', 'Class', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Class')
 
 ' renders the element
-Class('Class', 'Class', 'an optional tech label')
+Class('Class', 'Class', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

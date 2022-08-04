@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/LabelImportantOutline')
 
 ' renders the element
-LabelImportantOutline('LabelImportantOutline', 'Label Important Outline', 'an optional tech label')
+LabelImportantOutline('LabelImportantOutline', 'Label Important Outline', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/LabelImportantOutline')
 
 ' renders the element
-LabelImportantOutline('LabelImportantOutline', 'Label Important Outline', 'an optional tech label')
+LabelImportantOutline('LabelImportantOutline', 'Label Important Outline', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

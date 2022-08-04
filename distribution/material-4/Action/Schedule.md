@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Schedule')
 
 ' renders the element
-Schedule('Schedule', 'Schedule', 'an optional tech label')
+Schedule('Schedule', 'Schedule', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/Schedule')
 
 ' renders the element
-Schedule('Schedule', 'Schedule', 'an optional tech label')
+Schedule('Schedule', 'Schedule', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

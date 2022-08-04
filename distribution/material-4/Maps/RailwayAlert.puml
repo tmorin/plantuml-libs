@@ -1,6 +1,6 @@
 ' definition of the Item material-4/Maps/RailwayAlert
 
-sprite $RailwayAlertXs [10x10/16z] Oq05_4008PaOs1ZuWH2442n648kFZm_40xB1W0-i3uJPG2mmW1l61AG1
+sprite $RailwayAlertXs [10x10/16z] Oq05_4008PaPs1ZuWH2442n648kFZm_40xB1W0-i3uJPG2mmW1l61AG1
 
 sprite $RailwayAlertSm [12x12/16z] POg50S102CHITxB_j7N_uDoHqAa5rAh1Y3bkWEGYu9ddFb45HeIIbu8dmRwVxHZ5kTVkP6pSRXO
 
@@ -10,10 +10,10 @@ BdKSxBP-
 }
 
 sprite $RailwayAlertLg [20x20/16z] {
-VSp50OGm00NHYSi2l_zgqTXf1ysByB-u7NisgnXz1G2_wIiIh9SSHBKit8m4UwEDpueSXxxJKZElIBSC764rthtEF7jjjv_ykzT8t7QywGQBbynZi-VVqwrZ
-WcwfVIFJWBBOhhlSvlndGKlGSEjI3RtQpK8lZHfS
+VS_50SGW00NHmI72xx_QZM6ddVYB0V-BHpspMSNeAm3uGr-HOBta8Ahbu6OaE1iTV5Rag08mIisyuh0CrB0QxxlEG97jjik38aRYjlgc6onUCe_DgYHFjuu9
+kgLsZ4m3oh0sZzpk-S-2bg3XqMKpzBPkbb4QDRW
 }
 
-!procedure RailwayAlert($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Maps/RailwayAlert', $name, $tech)
+!procedure RailwayAlert($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/RailwayAlert', $name, $tech, $desc)
 !endprocedure

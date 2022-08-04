@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/CleaningServices')
 
 ' renders the element
-CleaningServices('CleaningServices', 'Cleaning Services', 'an optional tech label')
+CleaningServices('CleaningServices', 'Cleaning Services', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Maps/CleaningServices')
 
 ' renders the element
-CleaningServices('CleaningServices', 'Cleaning Services', 'an optional tech label')
+CleaningServices('CleaningServices', 'Cleaning Services', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

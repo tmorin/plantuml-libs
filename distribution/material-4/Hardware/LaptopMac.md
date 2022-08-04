@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/LaptopMac')
 
 ' renders the element
-LaptopMac('LaptopMac', 'Laptop Mac', 'an optional tech label')
+LaptopMac('LaptopMac', 'Laptop Mac', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Hardware/LaptopMac')
 
 ' renders the element
-LaptopMac('LaptopMac', 'Laptop Mac', 'an optional tech label')
+LaptopMac('LaptopMac', 'Laptop Mac', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

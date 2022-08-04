@@ -1,13 +1,13 @@
 ' definition of the Item material-4/Hardware/KeyboardVoice
 
-sprite $KeyboardVoiceXs [10x10/16z] Oy01-Fbvu2n-D1OxYCK4Pd8my3D013dvsVWPOGhXne0D0G
+sprite $KeyboardVoiceXs [10x10/16z] Oy01-Fbvu2n-D1OxYCK4Pd8my3D013dvsVaPOGhXne0D0G
 
 sprite $KeyboardVoiceSm [12x12/16z] Oy07-FcvaDZy1DWyO3OlH9I1cv-5aGVCPWOgO88fOkI1cWbLXW1CO18
 
 sprite $KeyboardVoiceMd [16x16/16z] bKx50S0m42BkOVzfw-xbTuVY6soIszEHtDwvkxU2ykUMUVANyHQ4wcxeEgiZ806QsL6BbfPniwSoAsmW2TpUMxG
 
-sprite $KeyboardVoiceLg [20x20/16z] hSt50SH04CH0cRse_ACzPWRNRx1PmAY56wgPAurRN6cNx4tvcD4M3df1TMAI8sV8Jc3aQ79aAzjm4ZICoKFhe4jQPcxCDdpI6tF32si
+sprite $KeyboardVoiceLg [20x20/16z] hSt50GGn40F1DhELVxJ7pB3r6nGBYDBWXZOwLuosk6ANxAL-pB230o_GHYA98sNeIg3AKL9agyl0KP5AQZgq3jocCJ8tiWoVz68tlB06
 
-!procedure KeyboardVoice($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Hardware/KeyboardVoice', $name, $tech)
+!procedure KeyboardVoice($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Hardware/KeyboardVoice', $name, $tech, $desc)
 !endprocedure

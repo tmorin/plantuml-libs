@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Action/SettingsInputComposite')
 
 ' renders the element
-SettingsInputComposite('SettingsInputComposite', 'Settings Input Composite', 'an optional tech label')
+SettingsInputComposite('SettingsInputComposite', 'Settings Input Composite', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Action/SettingsInputComposite')
 
 ' renders the element
-SettingsInputComposite('SettingsInputComposite', 'Settings Input Composite', 'an optional tech label')
+SettingsInputComposite('SettingsInputComposite', 'Settings Input Composite', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

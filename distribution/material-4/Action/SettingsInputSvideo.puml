@@ -5,8 +5,8 @@ sprite $SettingsInputSvideoXs [10x10/16z] JSR50O1044FHXplflrfaJXlzMkNJNM3SY4eM_I
 sprite $SettingsInputSvideoSm [12x12/16z] LSQ5ZO00002nuXQu_QTzryRglw7g1biZrWQ6g0pHm3GDd9jSCBul3TWVoRSyYqPNxfc62SCInWxS0Nkru1K
 
 sprite $SettingsInputSvideoMd [16x16/16z] {
-RSk5aK0n203HZNqbRF_TtZ1o_g8O_vcflWqeJUEOL_fIcXl6w8pwGDslscXUC0LwH027aC4N9wxcISaa7nmrLansuCcNl8WDvm6y7UmqEmhDbqSWRAq1W-K4
-I1VbyO9owzwfarBMi-zE-G
+RSk5SK0n3C1GXJu4hFstxVcW_88c_jD3NGL8HVVLdt2HYWTQgxJyGDvBBHGVw09rxmLSGco-s74KRr84CR7bM38u6s--nCC-S5_0gc2bM54eBgR0jfG2D8OT
+81oawGFfrND2EocDUTvA-W
 }
 
 sprite $SettingsInputSvideoLg [20x20/16z] {
@@ -14,6 +14,6 @@ TSm5OiGW443HZoP4vj__j1NOUlVXZF1SE--uHkRBvaCa7YwZ0QIXdUboG1rZ1yAw2WUaMJbF06FkwWPa
 bM7Yc_akxd3P0SsWh2tS0ItirjKuKG1IeNa3q3MnxChIzEebrn7UV3fTAj-LlhNCyWe
 }
 
-!procedure SettingsInputSvideo($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'material-4/Action/SettingsInputSvideo', $name, $tech)
+!procedure SettingsInputSvideo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/SettingsInputSvideo', $name, $tech, $desc)
 !endprocedure

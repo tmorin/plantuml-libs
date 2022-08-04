@@ -36,7 +36,7 @@ include('material-4/bootstrap')
 include('material-4/Alert/Warning')
 
 ' renders the element
-Warning('Warning', 'Warning', 'an optional tech label')
+Warning('Warning', 'Warning', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('material-4/bootstrap')
 include('material-4/Alert/Warning')
 
 ' renders the element
-Warning('Warning', 'Warning', 'an optional tech label')
+Warning('Warning', 'Warning', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
