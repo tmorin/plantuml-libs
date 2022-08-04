@@ -2,14 +2,14 @@
 
 sprite $InternetXs [10x10/16z] Oy01-FdveGmeXl2Pc1dO624IZFoyCCNCG1LmrVmGW6GM
 
-sprite $InternetSm [12x12/16z] VSYr0S0m00InCxD__sd3L4Mb-9EwvsHLVDUP0WW2r2qxLMA7Kv4ijsacDp7KJXBWJeQl5G
+sprite $InternetSm [12x12/16z] VS450GGn00InANFNlzfdE4wuahhdpQZOBfw20Am0TLwKYHtUYcJvccRo9ORQcmIODrRk
 
-sprite $InternetMd [16x16/16z] dSV50GCn44DHBPZXzrzjs7G9lK7fBmbmQdQmPw2sJ5eEwE7W4QiQoB9eE82g6Oar2wFXH0vIK_3I5dAJTdro1G
+sprite $InternetMd [16x16/16z] dSg35KGn54NH-n7Zz5_jE5eOxU1HVqc0KRF1iGTggqbBWBRsAAiQoB9eE82g6Ocr5gU64pb8JS5B2hb9cpwv0W
 
-sprite $InternetLg [20x20/16z] hSor0SH044DHBVF-_giznadjbmr8EaDCtcmM05bV7aQA1UPt1yzSf-h13KXw0jq5O7rBmc_k2UZAEFrocxQHiLd822I2sHM4AHGem1vVaqTmyclha2i
+sprite $InternetLg [20x20/16z] hOsr0SCm00HVpBhzfmsRo_ZAHzs1jUQa302YDWmqQmFqJODlhv9_IeEmcakFiHxXbju6K1KNQRcRb8bEJCP5SmJSIKi8JXh8mcmR7QoapfwfltW2
 
-!procedure Internet($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'homecloud-2/Network/Internet', $name, $tech)
+!procedure Internet($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Network/Internet', $name, $tech, $desc)
 !endprocedure
 
 !procedure InternetCard($id, $funcName="", $content="")

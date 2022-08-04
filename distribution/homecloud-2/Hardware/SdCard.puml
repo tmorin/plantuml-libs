@@ -2,14 +2,14 @@
 
 sprite $SdCardXs [10x10/16z] Oq01_4300MRmyWC940F10WDIM2my8C3
 
-sprite $SdCardSm [12x12/16z] dSP50e100090x0Bv_sjjjuuxfq69alXs7zoDxExAhT4ztsoQydtwKVKjETf70vm
+sprite $SdCardSm [12x12/16z] dSQr0S0m402nOFDq-qyRD9TMfMLaxcv_OsSxRNthB2pRTmN3dFV6R-PQthe1
 
-sprite $SdCardMd [16x16/16z] nSUr0G0X00F0l2ja_sbnXvxh3cEBaohftA6280J-FpOzb1itiOKpcVC_VKT70m
+sprite $SdCardMd [16x16/16z] Oo0AyF630GUKoylFmC_0oy330-F2-30kFnC_4oyJbCyF1mF3vu7pcJ1z1W
 
-sprite $SdCardLg [20x20/16z] rSYr0O1G50F0uF2VPFzfSNTAhZnyn569cJ4m10_EkKW3WG2Tpuv77YxZoeylEJcaEXDSQ
+sprite $SdCardLg [20x20/16z] rSYr0O1G50F0uF2VPFzfSNTAhZnyn569cJ4m10_EkKW3WG2Tpuv77YxcoeylEZcaEXDSQ
 
-!procedure SdCard($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'homecloud-2/Hardware/SdCard', $name, $tech)
+!procedure SdCard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Hardware/SdCard', $name, $tech, $desc)
 !endprocedure
 
 !procedure SdCardCard($id, $funcName="", $content="")

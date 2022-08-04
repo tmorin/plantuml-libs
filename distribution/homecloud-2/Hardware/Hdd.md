@@ -36,7 +36,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Hardware/Hdd')
 
 ' renders the element
-Hdd('Hdd', 'Hdd', 'an optional tech label')
+Hdd('Hdd', 'Hdd', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Hardware/Hdd')
 
 ' renders the element
-Hdd('Hdd', 'Hdd', 'an optional tech label')
+Hdd('Hdd', 'Hdd', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

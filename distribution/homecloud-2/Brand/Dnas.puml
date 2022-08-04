@@ -2,17 +2,17 @@
 
 sprite $DnasXs [10x10/16z] RSQt0O0m0C0mqpl-_rf8dw99TFY-hta49i21Sidpp6Kkx2jd68kwUjrMD3y
 
-sprite $DnasSm [12x12/16z] TSg50SCm40J14xEs_sh3CNi4ZxgHUFlcbDStQI_raokc5zuvKVIeLpvcbmR-dJCavqomtvtQKUIT_s5OQUC9
+sprite $DnasSm [12x12/16z] TSh50S0W50FG5FViFoqkfpxaAtvO3YkdxLzXxCBCOMp7aLE3IQBdkIGWKuoS6P3oqsBjX4GeZlmW-01F0m
 
-sprite $DnasMd [16x16/16z] XSk30GGn54NH6pkl_sg7QvxmYtzQtt4rTE92kZpja2unkZfY1uG0dF6KmJWNptZEEi58_eYh4iHvY988IKBJMkaoFyJ8rjP-YU-Kz0pxX5Sh
+sprite $DnasMd [16x16/16z] XSl50G0X40F0dEAa_sfnVJ7e6awCpT0vLcZ8zfX2z0gR6jy0tZTTDVRvkg-dnjvhNqftYJLVuFF5d-jlka5_WMppZd3oWhOjdYYumq44
 
 sprite $DnasLg [20x20/16z] {
-fSo50GCX4031UyUExR_Ru77VLmQHFvffpJA2c0CkhNuD-DQQhED5qfjglXksdCCcqYsM3tBipGwDobhNhStWI612236aYYbiUq9DB-UMY_CMtP3TRhRRbWoI
-mR3BF87xnEjjktpO2G
+fSo50S0W40J1nvthlzkuAx1H1g666EPs1kIX0ox_5WXpehS5Tz6fi1ZSy0BuPXaOZ8oOpQIS88_h0DM3ZJ7cs3TQwb7tcFgNzs9t7aiSf0rtYwdUWDw0sOu5
+H5oZaCv9-ba7
 }
 
-!procedure Dnas($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'homecloud-2/Brand/Dnas', $name, $tech)
+!procedure Dnas($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Brand/Dnas', $name, $tech, $desc)
 !endprocedure
 
 !procedure DnasCard($id, $funcName="", $content="")

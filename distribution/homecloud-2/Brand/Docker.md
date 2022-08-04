@@ -36,7 +36,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Brand/Docker')
 
 ' renders the element
-Docker('Docker', 'Docker', 'an optional tech label')
+Docker('Docker', 'Docker', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Brand/Docker')
 
 ' renders the element
-Docker('Docker', 'Docker', 'an optional tech label')
+Docker('Docker', 'Docker', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

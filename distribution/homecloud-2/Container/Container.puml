@@ -2,14 +2,14 @@
 
 sprite $ContainerXs [10x10/16z] Oy06-DaWW9-130W32EC
 
-sprite $ContainerSm [12x12/16z] Oy05-160WP-1XvEH1qW0MK38mmWYo6ApC3EmW0X-9FDvaAq5
+sprite $ContainerSm [12x12/16z] Oy05-160WP-1XvEH1qW0MK38mmWYo68pCJ8mWGX-9FDvaAq5
 
-sprite $ContainerMd [16x16/16z] lSUr0SCm04N19sRz_QSDDJ6xytN77TUNG6DH3UJedTgDxOKnlvUOCbRzeNkFy-3Txoi5x19RRm
+sprite $ContainerMd [16x16/16z] lSSn0a1034JHdsWWcRd_QK6rgksyxZ6pr0ZSGzqugMAle3PQpstamFNJCuc4ZFSV6nCN
 
-sprite $ContainerLg [20x20/16z] rSYr0S0m30J0DxD__sd3t8GgdrZum_DAWBGdZcxu0JdheInY3f3BZpH31HJcPdvQYw4ab5RJh_BAGkPo5l5K3m
+sprite $ContainerLg [20x20/16z] rSYr0S0m30J0DxD__sd3t8GgdrZum_CA8Es9eyBupraEPH5pW5X-f1mge30tyvDoB04nrFYhl5AGkPn5FDK3
 
-!procedure Container($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'homecloud-2/Container/Container', $name, $tech)
+!procedure Container($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Container/Container', $name, $tech, $desc)
 !endprocedure
 
 !procedure ContainerCard($id, $funcName="", $content="")

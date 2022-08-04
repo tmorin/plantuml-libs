@@ -36,7 +36,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Network/Dns')
 
 ' renders the element
-Dns('Dns', 'Dns', 'an optional tech label')
+Dns('Dns', 'Dns', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Network/Dns')
 
 ' renders the element
-Dns('Dns', 'Dns', 'an optional tech label')
+Dns('Dns', 'Dns', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

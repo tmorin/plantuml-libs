@@ -4,12 +4,12 @@ sprite $SmartphoneXs [10x10/16z] Oq02xFmW069niW413vX5EW4tXGdA0W
 
 sprite $SmartphoneSm [12x12/16z] Oq05_120mQO5YMaN3mC3
 
-sprite $SmartphoneMd [16x16/16z] Oy02-A601y9bveS169y737XX_457Gm4EFWCdXCV736G3
+sprite $SmartphoneMd [16x16/16z] Oy02-A601y9bv8S169y737XX_457Gm4EFWCdXCV716G3
 
-sprite $SmartphoneLg [20x20/16z] Oy05UFWXW8-F7IR4pey0C35Eh69iKC2341lEB2B3XGcB60CBEmmmWhW
+sprite $SmartphoneLg [20x20/16z] Oy05UFWXW8-F5IR4pey0C35Eh69iKC2341lEB2B3XGbP32x830DWBW
 
-!procedure Smartphone($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'homecloud-2/Hardware/Smartphone', $name, $tech)
+!procedure Smartphone($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Hardware/Smartphone', $name, $tech, $desc)
 !endprocedure
 
 !procedure SmartphoneCard($id, $funcName="", $content="")

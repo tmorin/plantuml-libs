@@ -36,7 +36,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Hardware/Laptop')
 
 ' renders the element
-Laptop('Laptop', 'Laptop', 'an optional tech label')
+Laptop('Laptop', 'Laptop', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Hardware/Laptop')
 
 ' renders the element
-Laptop('Laptop', 'Laptop', 'an optional tech label')
+Laptop('Laptop', 'Laptop', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

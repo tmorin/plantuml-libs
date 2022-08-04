@@ -36,7 +36,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Hardware/Usb')
 
 ' renders the element
-Usb('Usb', 'Usb', 'an optional tech label')
+Usb('Usb', 'Usb', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Hardware/Usb')
 
 ' renders the element
-Usb('Usb', 'Usb', 'an optional tech label')
+Usb('Usb', 'Usb', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

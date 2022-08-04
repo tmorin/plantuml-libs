@@ -36,7 +36,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Hardware/Board')
 
 ' renders the element
-Board('Board', 'Board', 'an optional tech label')
+Board('Board', 'Board', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Hardware/Board')
 
 ' renders the element
-Board('Board', 'Board', 'an optional tech label')
+Board('Board', 'Board', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

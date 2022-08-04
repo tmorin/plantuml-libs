@@ -1,18 +1,18 @@
 ' definition of the Item homecloud-2/Brand/Keepalived
 
-sprite $KeepalivedXs [12x10/16z] Oy09kFbvWIG_FokG0048oG8KvGJI446m0Yu61XQGB5Y43yg0ajn05PmWqnWvK4q7
+sprite $KeepalivedXs [12x10/16z] Oy09kFbvWIG_FokG0048oG8KvGJI446m0Yu61YQGB5Y43yg0ajn05PmWqnWvK4q7
 
-sprite $KeepalivedSm [15x12/16z] XOb50e0m4CI2E_F_tx82zDRcCX9QT4DcXemxGnc5rQyk3HwdvIvrCGShjeoUMKB1cN71PJ73OR5Hvm4
+sprite $KeepalivedSm [15x12/16z] XOZ70G0X08DolQhxRojsNyed0KrP-d5WqxWqZPkKMfwVVR6e6mU3LIVVHVuqHZBCANtCep4U
 
-sprite $KeepalivedMd [20x16/16z] fSwr0GGX503HMVUT_gl5oKzU1D_vpx1VnqWsdzTATfczC5ciyDWiDZFgDUtzMselFO31ZAJN9gSwaDowb_7ise8g9e_TQyAgnOqDC9kj_TA7OfX6ACQ9BqG
+sprite $KeepalivedMd [20x16/16z] fOx50GGX00EpXaFwh_OawEzavnL3S1CN_IQnXNXAHBufhuJY038R9zb3aX6kvzf6qkE58WcnlsLe4HBfT3tSkjCsirDKcUQIshRU9Kp_QKPbGnTIt_84
 
 sprite $KeepalivedLg [25x20/16z] {
-lOv54W9140HhRLp-_rgafYM2Ax1volR6JQJvuW39Rz-fvroC3GZYdNbZA-x0whQ4UZvN6TldaiwyLIgzwJx20nirlkmT1lrPFsKtBm5sFc6ZspxUSox0yt3F
-UbKlLUidHquRX3D7-Wzv0W
+lOx50KGn20LVt9F-g_q2HEuhSneS_8au7WnxUbsJwi5q05QyILv0FXpSFPZjoN8PwbXYIJWF6IsaPJ0WybR_s1iwF8IZYOGk0Ujy54STYpOs1jZvmnDV9Vpn
+ZmLZKbGGR0huCZS
 }
 
-!procedure Keepalived($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'homecloud-2/Brand/Keepalived', $name, $tech)
+!procedure Keepalived($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Brand/Keepalived', $name, $tech, $desc)
 !endprocedure
 
 !procedure KeepalivedCard($id, $funcName="", $content="")

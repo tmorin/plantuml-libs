@@ -36,7 +36,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Container/Registry')
 
 ' renders the element
-Registry('Registry', 'Registry', 'an optional tech label')
+Registry('Registry', 'Registry', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Container/Registry')
 
 ' renders the element
-Registry('Registry', 'Registry', 'an optional tech label')
+Registry('Registry', 'Registry', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

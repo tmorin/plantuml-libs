@@ -36,7 +36,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Brand/Samba')
 
 ' renders the element
-Samba('Samba', 'Samba', 'an optional tech label')
+Samba('Samba', 'Samba', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Brand/Samba')
 
 ' renders the element
-Samba('Samba', 'Samba', 'an optional tech label')
+Samba('Samba', 'Samba', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Brand/Ubuntu')
 
 ' renders the element
-Ubuntu('Ubuntu', 'Ubuntu', 'an optional tech label')
+Ubuntu('Ubuntu', 'Ubuntu', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Brand/Ubuntu')
 
 ' renders the element
-Ubuntu('Ubuntu', 'Ubuntu', 'an optional tech label')
+Ubuntu('Ubuntu', 'Ubuntu', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

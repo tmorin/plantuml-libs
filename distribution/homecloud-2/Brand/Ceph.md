@@ -36,7 +36,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Brand/Ceph')
 
 ' renders the element
-Ceph('Ceph', 'Ceph', 'an optional tech label')
+Ceph('Ceph', 'Ceph', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Brand/Ceph')
 
 ' renders the element
-Ceph('Ceph', 'Ceph', 'an optional tech label')
+Ceph('Ceph', 'Ceph', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

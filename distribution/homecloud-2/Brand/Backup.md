@@ -36,7 +36,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Brand/Backup')
 
 ' renders the element
-Backup('Backup', 'Backup', 'an optional tech label')
+Backup('Backup', 'Backup', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Brand/Backup')
 
 ' renders the element
-Backup('Backup', 'Backup', 'an optional tech label')
+Backup('Backup', 'Backup', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

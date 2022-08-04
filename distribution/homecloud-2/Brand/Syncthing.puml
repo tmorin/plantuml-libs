@@ -4,15 +4,15 @@ sprite $SyncthingXs [10x10/16z] Oq01xFpC40OR4FE3HS1SVaQW20Zm02bUi4AmC2z46OpaWuY2
 
 sprite $SyncthingSm [12x12/16z] LSkt0SGW400mEP7Xzf_s0vtL2s_7UR0zapCEU6xGCwQj1eVjAPtTSfmo4RCzJp0GO9au1iomHIzZ32zV
 
-sprite $SyncthingMd [16x16/16z] ZSZLOKKn30Km1GetTFQVjlJejpBRVxJaP1TkzdKR7swpkvbNARJ1pPKW7aukhxkaMC_x8y5XvDSvsHZK3533g2Z7xR5QmFi2aWRqV516KhZfSr_LG_7o3G
+sprite $SyncthingMd [16x16/16z] ZSo30GGn503H2GxXz5_jsTmNvuCbaav7u6AKyx6vF3DdhGGWLIwA0d8rBG_lOA3VtXi59bIFvdG05QBdVb6e4GYJyqTFShJkd6ZY9Bk1K3LmaTieaK_s
 
 sprite $SyncthingLg [20x20/16z] {
-ZSu5ZaGX44NHY_j_-z_jX0GPxpwuLl4NysssfA7cu39T9VZOb3WKzsIi7umyM-k1gIUEB1a0SLN90h5mT4KnntXo6nqUWB6-Ir861k2aslgZoQtVlJGiqzqZ
-YSKAQc6AOYbF4LWCz0xhLELcwfcQ5DbSbnufXy1RBDC7
+bSpL5GCX503HMSMP_hlDOVqt5-S9VmhDil0nLTEsxiN0m_s-j3lBbLkf6qCDFA9EuvHNrXdO4u_gBkFSxxwq2drSszKkQ1nFOD5SQdTOhkwhjfdX_IF8PHPo
+OjZbadgwxxLUbrqJb-pAK7JdjbJj6hUDF_m
 }
 
-!procedure Syncthing($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'homecloud-2/Brand/Syncthing', $name, $tech)
+!procedure Syncthing($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Brand/Syncthing', $name, $tech, $desc)
 !endprocedure
 
 !procedure SyncthingCard($id, $funcName="", $content="")

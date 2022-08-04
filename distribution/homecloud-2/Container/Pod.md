@@ -36,7 +36,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Container/Pod')
 
 ' renders the element
-Pod('Pod', 'Pod', 'an optional tech label')
+Pod('Pod', 'Pod', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Container/Pod')
 
 ' renders the element
-Pod('Pod', 'Pod', 'an optional tech label')
+Pod('Pod', 'Pod', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

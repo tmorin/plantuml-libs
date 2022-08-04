@@ -36,7 +36,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Container/VolumeDisk')
 
 ' renders the element
-VolumeDisk('VolumeDisk', 'Volume Disk', 'an optional tech label')
+VolumeDisk('VolumeDisk', 'Volume Disk', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Container/VolumeDisk')
 
 ' renders the element
-VolumeDisk('VolumeDisk', 'Volume Disk', 'an optional tech label')
+VolumeDisk('VolumeDisk', 'Volume Disk', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

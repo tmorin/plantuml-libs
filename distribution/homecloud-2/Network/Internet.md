@@ -36,7 +36,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Network/Internet')
 
 ' renders the element
-Internet('Internet', 'Internet', 'an optional tech label')
+Internet('Internet', 'Internet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Network/Internet')
 
 ' renders the element
-Internet('Internet', 'Internet', 'an optional tech label')
+Internet('Internet', 'Internet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Network/Router')
 
 ' renders the element
-Router('Router', 'Router', 'an optional tech label')
+Router('Router', 'Router', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Network/Router')
 
 ' renders the element
-Router('Router', 'Router', 'an optional tech label')
+Router('Router', 'Router', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

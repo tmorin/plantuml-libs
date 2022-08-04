@@ -2,14 +2,14 @@
 
 sprite $DnsXs [10x10/16z] Oy0A-3duGG38uc20iVWX0A48HOmTZpe
 
-sprite $DnsSm [12x12/16z] Oy09-640n0OY19iPmOO1gka5
+sprite $DnsSm [12x12/16z] Oy09-640n0OY19iHmOO1elKo4z0B
 
-sprite $DnsMd [16x16/16z] XOkr0S104CCKPj_-quRvIPMH9ENu032PP2VvvWMA-F--j1lXOJZBvzyq7p_1zEdXtO-_F_a33Wi
+sprite $DnsMd [16x16/16z] XOl50S1040A9Ezj_jR5pdnUA9kFf-Fmbf6X-Ju0L7-z7iH0P3bsw_pm5_leolmVy_ep-THu
 
-sprite $DnsLg [20x20/16z] fSw35K1H30FGFBlTVzfl6_Uu3FxXbJBKifzhrDSoOBOr3wXjZOsYRMqorwnRKZX3l1HExp43VbjpW3oO2m_ovRBayLWD
+sprite $DnsLg [20x20/16z] fSw35K1H30FGFBlTVzfl6_Uu3FxXbJBKifzhrDSoeBOr3uXjZPMWRQstggaLWJF4I-7q7ZDWjpLtb0y83_BbikJnM0q
 
-!procedure Dns($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'homecloud-2/Network/Dns', $name, $tech)
+!procedure Dns($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Network/Dns', $name, $tech, $desc)
 !endprocedure
 
 !procedure DnsCard($id, $funcName="", $content="")

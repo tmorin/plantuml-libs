@@ -2,20 +2,20 @@
 
 sprite $UbuntuXs [10x10/16z] FSY50S0W3031htj__sbnk7X8BdSoYwikvu8RolamwwNOYaVzT1y_T05-vJBP4DZC808
 
-sprite $UbuntuSm [12x12/16z] FOk50SGm58MeDyh-qvx4-2wFFycNZftLLhIr6Uv32thphrLJ6pNIqjKL-Yf5lNP5CwbUs7g5Z3vW0olGtjls2m
+sprite $UbuntuSm [12x12/16z] FSY5OGC1302nopDh_sdBZSpkssdhbr_lzOd2LSl07LFVy-7yETd3rW0UDhenleYhynb3K5UivKUUgXi_tqy
 
 sprite $UbuntuMd [16x16/16z] {
-DKw70S0W28jxm__VjW5DXragC9IZA-3XgAEP2bV9qKFz1Ddsygu0UlrP12NMbk7Dyd_E1EH7OyDM8j5cMiJFvB9K5CC3vi4EPJBDXYMI6bAnG-kTD0H6T_gt
-dNDXwmKb4Lq9-GS
+JKw50GGn3ABkoVxR_b7UE6cH22xAyHNmmN6XYRwP7J-Y8hnjXNS5qF9p2o35sZQKBC-dco6v-_7Oi9s8QWL4KqyUoyqntWORyWETSMLSns96O3j3VMyQRlnl
+UtBkXUq2wKKGCzvV
 }
 
 sprite $UbuntuLg [20x20/16z] {
-NSs55SCm40JHiPYt_sxpHA5lr2577cg1Br57Dnpwalz27I-Lhr19tQw3lxC6G7Tv_fyoN8hLWfc7j686hmdA_7nNg-t2eKXyaZQuNtpLriSgrmW3-rCNlbiI
-VXtt__sCEO0-JpOpZJNEOxGyGE4vIxCklqOm5LsfIvR5wmEkfALxfXS
+NOq55W8n34IdhcdkVrjUXBKFQsE5CmxlYWU57Gfm-C7uI2I5-P1cfwGVvRzrnAKuvDrZYBsj14JvwAe5PBCmvV5CyqRG8MveeQjqcm3YSesEnlcaW_JArMUb
+sy5c02P1kWIIhpGW79sB2Am401FmGmV_AQf1c9TOIPfAuHjST1F8GZy
 }
 
-!procedure Ubuntu($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'homecloud-2/Brand/Ubuntu', $name, $tech)
+!procedure Ubuntu($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Brand/Ubuntu', $name, $tech, $desc)
 !endprocedure
 
 !procedure UbuntuCard($id, $funcName="", $content="")

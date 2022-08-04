@@ -2,14 +2,14 @@
 
 sprite $PodXs [10x10/16z] Ou03DduuW0bnypD01BYuKSJui8ZnWCGuaSGOuCO1
 
-sprite $PodSm [12x12/16z] Oq06_4Y04ouAOlCni880YCt43r475cT5g6515cV08Su65-VbW05-1bu-6E01
+sprite $PodSm [12x12/16z] NSX50G0W00F0uGxzq-9-dmbkwQAmj1v1czP9Gchwpp7y__B_RFzUB0aXBhu
 
-sprite $PodMd [16x16/16z] PSp50G0n24JHYNkc_shN3VQT8X-WzVcL1ZLHxtS_uSBXl4-6QyeTT_XVR_tXl5FtGVM4TOTdVnTzbFqN4oKO0Ii
+sprite $PodMd [16x16/16z] NSpL0SDG34DHKnkEzfysJDBvUd1jK-FyrKnGLE_tdCtZSDvdn3Nbnzs2-zhwEfntQ5_IRqz-UFQFr2VtNsZ0JAm
 
-sprite $PodLg [20x20/16z] VSpL0SLG309GUjtPVzgdrELy9W2kk70q1Lu91vqa3khlbiS4BvDk90sbw5PfaSJeThKtw574BNlZj1SgO0GFUsIUA76vjUMMTPi25dTxW-E014yQBhm1
+sprite $PodLg [20x20/16z] VSp50SH05CDGXpdglzf5XuRUyOEKKZSXzQGqWGrGO06aQQzKcpm3AcpsRA5HQvLdgTvEfzdQixT7lNwHAbEX1vEmuPojmYRFrEYKw-ti0H2HLGbl
 
-!procedure Pod($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'homecloud-2/Container/Pod', $name, $tech)
+!procedure Pod($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Container/Pod', $name, $tech, $desc)
 !endprocedure
 
 !procedure PodCard($id, $funcName="", $content="")

@@ -2,14 +2,14 @@
 
 sprite $CalibrewebXs [10x10/16z] Oy06MFZvkHZu-VaP6FXPM5Zu6O0qyImOG1W7
 
-sprite $CalibrewebSm [12x12/16z] dOor0S0W50LnXxV_jhakJPJxhkOURt7EuQGfBIsyKG0PsCZRQ56kzKHUVEHby8NXoG4
+sprite $CalibrewebSm [12x12/16z] dOp50O0030CRt6__RSa7TwwkSOtc37eO6Eo3p13cHzvqJOwQrWqgfNufLSIA4G
 
-sprite $CalibrewebMd [16x16/16z] jSur0WGX50FGu4xkVrgysch77dphWijqID42qgNa9K3MKidnIna5MZrOOYhrtEQxswUStBXdddcJCmztdWg5IKGi4Zyw
+sprite $CalibrewebMd [16x16/16z] jOwr0GCm30Hb1i7llsrCNPXE-DtHsxZ6FOzRcEiuWAa1erN7478SPD14xUJqlrnPk8mSXy_CmFJ1zZ4AjEXqcmi
 
-sprite $CalibrewebLg [20x20/16z] pSW54i9044JHhcNT-lwtfGU74Zp9MvsFd_Cq5N0qNMcISmpgjZ1qHv3-eDF3EAPBgyH6MsczbQZcIzF7sYErMNQGqDaynBU85-q1
+sprite $CalibrewebLg [20x20/16z] pSZ50SKW54JHmPtflrfiyzqbEUYx-3hDAGAIKnwfahKKZdk6Ccu5KY-P6fCuQf7OQGiffs17ao6bO6Qxe523m20paroVfF2a3W
 
-!procedure Calibreweb($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'homecloud-2/Brand/Calibreweb', $name, $tech)
+!procedure Calibreweb($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Brand/Calibreweb', $name, $tech, $desc)
 !endprocedure
 
 !procedure CalibrewebCard($id, $funcName="", $content="")

@@ -36,7 +36,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Brand/Keepalived')
 
 ' renders the element
-Keepalived('Keepalived', 'Keepalived', 'an optional tech label')
+Keepalived('Keepalived', 'Keepalived', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Brand/Keepalived')
 
 ' renders the element
-Keepalived('Keepalived', 'Keepalived', 'an optional tech label')
+Keepalived('Keepalived', 'Keepalived', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

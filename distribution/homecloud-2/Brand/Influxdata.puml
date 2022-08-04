@@ -2,20 +2,20 @@
 
 sprite $InfluxdataXs [10x10/16z] 1S670OC0400XKkpwj_-s0Wn0wrCGbr-4GT_8a1eM4jSFAN3a62pFm5GdBm
 
-sprite $InfluxdataSm [12x12/16z] DSR50G0X00InmPtjlzeJ9A_mSPKhwJCCdoB8-2beayzq39DMtO1O-M-9W13N_rJolU4J59FmOga2f0osJvOiwUyB
+sprite $InfluxdataSm [12x12/16z] DSR50SDG00KWuldwzf-sNax0MlrTUHcWXDisGvim5yFrwJROgy-TYFYBEA_x_mMsx6ViyL63v6JfqyUTPE89
 
 sprite $InfluxdataMd [16x16/16z] {
-JSl5SG0m0C0mXpdUVzjUolgBJxVmdqy7FWKtXw5EWEG2Bh2za1qyja2LQEFPdrsg0M0I08nOW0uau6oCZVevW2ukxasV1P1nGuHqQY4D9TZub1FToWkV9jCC
-w0m0OvbugdfIk0P-95MU3m
+JSk5eOKm50Mm58VAsN_QBqz9zPg7iRhBlyDBITFiIIwFi6AWPJ3b1DcAEKesq1xZiQN0vI6Jh3WmepUPTjjZ0bka6cFs6ebpA4nzMqrdecJtC4-EBAHwk5oP
+a5m5Zfh7QqlI9-CHUfYI1Fm2
 }
 
 sprite $InfluxdataLg [20x20/16z] {
-NP253GCn4C3y7FR-srQNg2fOS8miqjZvewds6puCy_rqrVHnFP1sZXpP13gBwWP7Ls3JYuab53FemMIia99M8LIOpYgxRg4QcQ4yxbZAoe8EiFkWk39MBTQe
-nt9-dChj4NeT1-JbY_gfigKwIatL0JPXKI4he2SiReejbEpxTnVTyNbUkm6RXJVxK2rEruSZVpxw0W
+NT25OKKX5C3GFCCX-qzRuT_gmLruAUladw4wB_Ynh2bFrVBJbQ4S75MT06W2wC0r5K0VDji9M44FjlN4Aee9Okdkx78g008BuFB0rk809i3XWo8BYBNOwH8d
+mivrhp-Xhmjgz1q-kygH-cgzT1Su97Ie2kXDk6aEW6hy7G_JzVDvum8SDWZdKcr6LtZzNM9x1m
 }
 
-!procedure Influxdata($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'homecloud-2/Brand/Influxdata', $name, $tech)
+!procedure Influxdata($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Brand/Influxdata', $name, $tech, $desc)
 !endprocedure
 
 !procedure InfluxdataCard($id, $funcName="", $content="")

@@ -36,7 +36,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Brand/Traefik')
 
 ' renders the element
-Traefik('Traefik', 'Traefik', 'an optional tech label')
+Traefik('Traefik', 'Traefik', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Brand/Traefik')
 
 ' renders the element
-Traefik('Traefik', 'Traefik', 'an optional tech label')
+Traefik('Traefik', 'Traefik', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

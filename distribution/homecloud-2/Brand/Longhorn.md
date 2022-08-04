@@ -36,7 +36,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Brand/Longhorn')
 
 ' renders the element
-Longhorn('Longhorn', 'Longhorn', 'an optional tech label')
+Longhorn('Longhorn', 'Longhorn', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Brand/Longhorn')
 
 ' renders the element
-Longhorn('Longhorn', 'Longhorn', 'an optional tech label')
+Longhorn('Longhorn', 'Longhorn', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

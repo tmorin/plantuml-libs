@@ -36,7 +36,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Brand/Debian')
 
 ' renders the element
-Debian('Debian', 'Debian', 'an optional tech label')
+Debian('Debian', 'Debian', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Brand/Debian')
 
 ' renders the element
-Debian('Debian', 'Debian', 'an optional tech label')
+Debian('Debian', 'Debian', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

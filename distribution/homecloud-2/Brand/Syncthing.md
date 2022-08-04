@@ -36,7 +36,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Brand/Syncthing')
 
 ' renders the element
-Syncthing('Syncthing', 'Syncthing', 'an optional tech label')
+Syncthing('Syncthing', 'Syncthing', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Brand/Syncthing')
 
 ' renders the element
-Syncthing('Syncthing', 'Syncthing', 'an optional tech label')
+Syncthing('Syncthing', 'Syncthing', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

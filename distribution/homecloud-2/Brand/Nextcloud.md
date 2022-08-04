@@ -36,7 +36,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Brand/Nextcloud')
 
 ' renders the element
-Nextcloud('Nextcloud', 'Nextcloud', 'an optional tech label')
+Nextcloud('Nextcloud', 'Nextcloud', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Brand/Nextcloud')
 
 ' renders the element
-Nextcloud('Nextcloud', 'Nextcloud', 'an optional tech label')
+Nextcloud('Nextcloud', 'Nextcloud', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

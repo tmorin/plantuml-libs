@@ -36,7 +36,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Brand/Kubernetes')
 
 ' renders the element
-Kubernetes('Kubernetes', 'Kubernetes', 'an optional tech label')
+Kubernetes('Kubernetes', 'Kubernetes', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Brand/Kubernetes')
 
 ' renders the element
-Kubernetes('Kubernetes', 'Kubernetes', 'an optional tech label')
+Kubernetes('Kubernetes', 'Kubernetes', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

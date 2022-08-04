@@ -36,7 +36,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Brand/Dnas')
 
 ' renders the element
-Dnas('Dnas', 'Dnas', 'an optional tech label')
+Dnas('Dnas', 'Dnas', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Brand/Dnas')
 
 ' renders the element
-Dnas('Dnas', 'Dnas', 'an optional tech label')
+Dnas('Dnas', 'Dnas', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

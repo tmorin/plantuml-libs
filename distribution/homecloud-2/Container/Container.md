@@ -36,7 +36,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Container/Container')
 
 ' renders the element
-Container('Container', 'Container', 'an optional tech label')
+Container('Container', 'Container', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Container/Container')
 
 ' renders the element
-Container('Container', 'Container', 'an optional tech label')
+Container('Container', 'Container', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

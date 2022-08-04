@@ -36,7 +36,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Brand/Nfs')
 
 ' renders the element
-Nfs('Nfs', 'Nfs', 'an optional tech label')
+Nfs('Nfs', 'Nfs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Brand/Nfs')
 
 ' renders the element
-Nfs('Nfs', 'Nfs', 'an optional tech label')
+Nfs('Nfs', 'Nfs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

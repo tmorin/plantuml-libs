@@ -2,17 +2,17 @@
 
 sprite $DockerXs [10x10/16z] Oy05-24KDmS_aCK7v0DPG2O_0h1nG1bC331Xi4OWO4Gn2W
 
-sprite $DockerSm [12x12/16z] VOQ30G0n54DJ-sV_QSz6muUkk4EE8U-SWaz0dLlP2faQBnAT3mQmOvXOJWHCONLuQWG
+sprite $DockerSm [12x12/16z] VSO50W0X24JHiPkv_sctEtmAV7HnZnn3tZi5du0wJsKhf6-y49sv0x2d1o1hEinKONLu6W4
 
-sprite $DockerMd [16x16/16z] ZOkr0K0n44A9-x7_jDyrrJqg33gC-_j0FDZgDxtUCpFjVUdxKzAcA5v0UWjpj961g9nf65yR0V_rsFXOi_lqjJjUk1EWOWK
+sprite $DockerMd [16x16/16z] dSa53eL000FHMVVj_K_xNO08Ceszb6i5BL3zOtyQPIK1fGFCz5YSVY8v2wytAeYgROsnP0I_DC26f3N1pfSyXxe3
 
 sprite $DockerLg [20x20/16z] {
-hOhL0SCm4CNK6ku5R_zfmvoVGcIMnHEKdcwkyio1NCQoj3AS4xdFdRMJYJ4fICCM8ytqmvXesMXz0AIbYnBLe2P_eidS920_ysRWh6hkZebmC1K3v_B5WPWj
-1xwc1m
+hSg54SCm50JH5N_ZzTzjPAQ1q3Dgv_Y7LlxHEWLESXlRjhJkEZ5fsPMHYVV9Wbaoxps3ujIcYQqlHbKmJSBwegjfwbT3vX41qvMdkgQUPuE9qw5ZSbawJdm8
+mV6n5m
 }
 
-!procedure Docker($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'homecloud-2/Brand/Docker', $name, $tech)
+!procedure Docker($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Brand/Docker', $name, $tech, $desc)
 !endprocedure
 
 !procedure DockerCard($id, $funcName="", $content="")

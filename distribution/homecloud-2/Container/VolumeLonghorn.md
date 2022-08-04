@@ -36,7 +36,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Container/VolumeLonghorn')
 
 ' renders the element
-VolumeLonghorn('VolumeLonghorn', 'Volume Longhorn', 'an optional tech label')
+VolumeLonghorn('VolumeLonghorn', 'Volume Longhorn', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Container/VolumeLonghorn')
 
 ' renders the element
-VolumeLonghorn('VolumeLonghorn', 'Volume Longhorn', 'an optional tech label')
+VolumeLonghorn('VolumeLonghorn', 'Volume Longhorn', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

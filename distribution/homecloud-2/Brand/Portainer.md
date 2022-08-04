@@ -36,7 +36,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Brand/Portainer')
 
 ' renders the element
-Portainer('Portainer', 'Portainer', 'an optional tech label')
+Portainer('Portainer', 'Portainer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Brand/Portainer')
 
 ' renders the element
-Portainer('Portainer', 'Portainer', 'an optional tech label')
+Portainer('Portainer', 'Portainer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

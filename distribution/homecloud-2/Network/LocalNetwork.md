@@ -36,7 +36,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Network/LocalNetwork')
 
 ' renders the element
-LocalNetwork('LocalNetwork', 'Local Network', 'an optional tech label')
+LocalNetwork('LocalNetwork', 'Local Network', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Network/LocalNetwork')
 
 ' renders the element
-LocalNetwork('LocalNetwork', 'Local Network', 'an optional tech label')
+LocalNetwork('LocalNetwork', 'Local Network', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

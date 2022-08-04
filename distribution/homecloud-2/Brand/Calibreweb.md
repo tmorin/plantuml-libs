@@ -36,7 +36,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Brand/Calibreweb')
 
 ' renders the element
-Calibreweb('Calibreweb', 'Calibreweb', 'an optional tech label')
+Calibreweb('Calibreweb', 'Calibreweb', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('homecloud-2/bootstrap')
 include('homecloud-2/Brand/Calibreweb')
 
 ' renders the element
-Calibreweb('Calibreweb', 'Calibreweb', 'an optional tech label')
+Calibreweb('Calibreweb', 'Calibreweb', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
