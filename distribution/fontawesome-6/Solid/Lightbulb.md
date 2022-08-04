@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Lightbulb')
 
 ' renders the element
-Lightbulb('Lightbulb', 'Lightbulb', 'an optional tech label')
+Lightbulb('Lightbulb', 'Lightbulb', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Lightbulb')
 
 ' renders the element
-Lightbulb('Lightbulb', 'Lightbulb', 'an optional tech label')
+Lightbulb('Lightbulb', 'Lightbulb', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

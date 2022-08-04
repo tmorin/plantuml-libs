@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/GalacticSenate')
 
 ' renders the element
-GalacticSenate('GalacticSenate', 'Galactic Senate', 'an optional tech label')
+GalacticSenate('GalacticSenate', 'Galactic Senate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/GalacticSenate')
 
 ' renders the element
-GalacticSenate('GalacticSenate', 'Galactic Senate', 'an optional tech label')
+GalacticSenate('GalacticSenate', 'Galactic Senate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

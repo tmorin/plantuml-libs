@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/TencentWeibo')
 
 ' renders the element
-TencentWeibo('TencentWeibo', 'Tencent Weibo', 'an optional tech label')
+TencentWeibo('TencentWeibo', 'Tencent Weibo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/TencentWeibo')
 
 ' renders the element
-TencentWeibo('TencentWeibo', 'Tencent Weibo', 'an optional tech label')
+TencentWeibo('TencentWeibo', 'Tencent Weibo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

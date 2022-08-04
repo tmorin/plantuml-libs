@@ -2,12 +2,12 @@
 
 sprite $BriefcaseXs [10x10/16z] Os1WuEBdvsTY005-6CO76E00oiEb3iu2
 
-sprite $BriefcaseSm [12x12/16z] Om02VY3WPG03RXuE3Wv-PY2BcPc7avcPcP-DcOcNdp1WG08m0RWaq1oyUddvO807
+sprite $BriefcaseSm [12x12/16z] XSYr0S0m00D1VPYr_xHXGsLVURhvjkkrRkCu6acmpO0xjBjEcH0E01TeFuBj0W
 
-sprite $BriefcaseMd [16x16/16z] fSw54O0m44JHnPtjlrlc9_W8aXVNEs4o6gRe7UMAHWikm-4upXv1NqzEeviv8F8muyZa4edmhpI-KdQX1G
+sprite $BriefcaseMd [16x16/16z] fSw55O10201Gx2BstzP7sEtzwmHG9Ag1q8lBOeq2Id8xH6H1fNrDaWPssEXiO2Kcabne-5UQXtWZ
 
-sprite $BriefcaseLg [20x20/16z] Om03Bdu8O6A00mv-6624Y_50sPpyB3Z5-3409oy_xG435i061SWSg78-TBSYn2W7sFoBnLmUR6u6
+sprite $BriefcaseLg [20x20/16z] Om03Bdu8O6A00mv-6428yK3Pd725c6By682Jbv_sW04BO8O2P0vKEH-wMn5Yb0Di_iLYBWysDmC
 
-!procedure Briefcase($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Briefcase', $name, $tech)
+!procedure Briefcase($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Briefcase', $name, $tech, $desc)
 !endprocedure

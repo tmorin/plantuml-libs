@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/BehanceSquare')
 
 ' renders the element
-BehanceSquare('BehanceSquare', 'Behance Square', 'an optional tech label')
+BehanceSquare('BehanceSquare', 'Behance Square', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/BehanceSquare')
 
 ' renders the element
-BehanceSquare('BehanceSquare', 'Behance Square', 'an optional tech label')
+BehanceSquare('BehanceSquare', 'Behance Square', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

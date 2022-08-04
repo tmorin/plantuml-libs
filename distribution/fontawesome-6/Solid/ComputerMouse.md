@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ComputerMouse')
 
 ' renders the element
-ComputerMouse('ComputerMouse', 'Computer Mouse', 'an optional tech label')
+ComputerMouse('ComputerMouse', 'Computer Mouse', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ComputerMouse')
 
 ' renders the element
-ComputerMouse('ComputerMouse', 'Computer Mouse', 'an optional tech label')
+ComputerMouse('ComputerMouse', 'Computer Mouse', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

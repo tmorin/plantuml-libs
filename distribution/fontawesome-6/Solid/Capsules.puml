@@ -1,19 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/Capsules
 
-sprite $CapsulesXs [11x10/16z] JSR50K81042XPxViFwtncnDjODfPxZYKTpVQMzfRyFQECuPWx0N2fQ2pUnLz0G
+sprite $CapsulesXs [11x10/16z] JSR50K81042XPxViFwtncnDjODfPxZYKTpVQMTfRyFQECuPWx0N2iQ2pUnLz0G
 
-sprite $CapsulesSm [13x12/16z] LSU5ZGD1002nMJqaX-w_sZ1QwBxyCbwn4mxLhcp-5nM5uYDP0tyq6FSCEzpJ1bRuAH1K0sgPkbcFdG4
+sprite $CapsulesSm [13x12/16z] LSU50S8000F1nvtRVrgq6ayhx9cF9-5KFPM7mqr5eLYSt0DRsZ2SF64u3t27JO6W6lfswOVxkJS
 
-sprite $CapsulesMd [17x16/16z] {
-POv70iCm3CCOxyt__xQYkbkS84InZN_IRbyp1N2D6I0YcIPtLEuAX-6-rJ9DvPU7vSiVOPilvMTWzAz1Bg3r9dc6nUqodW7ynkzmrZDWFuoYmNY4ueyGb-PB
-WYUNwGq
-}
+sprite $CapsulesMd [17x16/16z] PSe52WG10CF0tBhd_xyzkYx1ob2-LNF7FHCmZ0Mfr69qBiDzOF6tlRh2J1G24nJA1JCmELwmtt-uXKANSS3aR1eEmAC32hUc0vZtPUe0TcZK6GxXqny
 
 sprite $CapsulesLg [22x20/16z] {
-TP250OH030G3vxhzT_iVmM7mIRB0qHSk-gS4ipmbGnJvebDy7sW5QeRWn4vkeuRvDu7RBM0IKT4G7XfFopVXQeCbdkpKpxCC6DFgV1zFDWCfGbWEIzWP9tlI
-PvkmqRSX_InZ6ql4x8FDMeMWTjKLh6GiCl_13m
+TSw53SDG303H2tDk_sqhVoe_aMNcdtxe-MBelfC1HjMHPDQ9JlV5P23S2XpUwZYe1Bs1JHLYwFhEHZ2zPwUsiMNljZ9sMDobhZg_P5TTHfFEbiNcUidYbyWk
+LgUXF7zReCb8Q8D7RGtr1vZLdQ9JvOy7
 }
 
-!procedure Capsules($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Capsules', $name, $tech)
+!procedure Capsules($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Capsules', $name, $tech, $desc)
 !endprocedure

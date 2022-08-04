@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ChildReaching')
 
 ' renders the element
-ChildReaching('ChildReaching', 'Child Reaching', 'an optional tech label')
+ChildReaching('ChildReaching', 'Child Reaching', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ChildReaching')
 
 ' renders the element
-ChildReaching('ChildReaching', 'Child Reaching', 'an optional tech label')
+ChildReaching('ChildReaching', 'Child Reaching', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

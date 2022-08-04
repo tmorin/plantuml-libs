@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/GolfBallTee')
 
 ' renders the element
-GolfBallTee('GolfBallTee', 'Golf Ball Tee', 'an optional tech label')
+GolfBallTee('GolfBallTee', 'Golf Ball Tee', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/GolfBallTee')
 
 ' renders the element
-GolfBallTee('GolfBallTee', 'Golf Ball Tee', 'an optional tech label')
+GolfBallTee('GolfBallTee', 'Golf Ball Tee', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

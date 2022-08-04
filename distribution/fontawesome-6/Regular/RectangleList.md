@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/RectangleList')
 
 ' renders the element
-RectangleList('RectangleList', 'Rectangle List', 'an optional tech label')
+RectangleList('RectangleList', 'Rectangle List', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/RectangleList')
 
 ' renders the element
-RectangleList('RectangleList', 'Rectangle List', 'an optional tech label')
+RectangleList('RectangleList', 'Rectangle List', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

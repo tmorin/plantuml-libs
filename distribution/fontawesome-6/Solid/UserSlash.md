@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UserSlash')
 
 ' renders the element
-UserSlash('UserSlash', 'User Slash', 'an optional tech label')
+UserSlash('UserSlash', 'User Slash', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UserSlash')
 
 ' renders the element
-UserSlash('UserSlash', 'User Slash', 'an optional tech label')
+UserSlash('UserSlash', 'User Slash', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

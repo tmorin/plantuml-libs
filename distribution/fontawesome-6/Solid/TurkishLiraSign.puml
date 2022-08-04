@@ -1,16 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/TurkishLiraSign
 
-sprite $TurkishLiraSignXs [7x10/16z] HOU50O0m0CE2E_d_MfYlNWecKytgYphKT_4gi8ONobxhum4g_
+sprite $TurkishLiraSignXs [7x10/16z] HOc30S0m54IlRlZsdpR6nr5Z3XgTG1HmL7S3Jf7QlJehiUaD68dQPW
 
-sprite $TurkishLiraSignSm [9x12/16z] HSY53G1148LGrdr-_zMU2x4N-DE7D2LmEbe1YXJy4j2k1IPLZWugdD23yY383bm1qsmus04
+sprite $TurkishLiraSignSm [9x12/16z] HSR50O0m0C30u4xsdnRglTVHsJBT2XWy0smw3e-awGElxWIX3WIMB2MZBvW0z_jUm0y
 
-sprite $TurkishLiraSignMd [12x16/16z] LKt50K1H2CBVOUm_xUkIav9m89utsmwSVxlP4hRaKCluamP9nqEuYsTZa-P1zJ2rywdTMZfRtxnjtlkyqtdcMpWlvuNV2ivQbb2E2
+sprite $TurkishLiraSignMd [12x16/16z] LOt50K0X34F3ToNxJujJUQTA19xFZ0p0_exvOo6KCRBorl4lmsKqlzTySxpGY2rpQ7McpelEPTnRvbURQyFBnWf71W
 
-sprite $TurkishLiraSignLg [15x20/16z] {
-PS_50G0X00D1t67xh_PSaBmoE6A9DWD1ZTJI5J0FdzYZo_8WwcVgcJ0dLOrWpgsuSUzvldbwkizj0E6vCYOHBEXR4gwz3yt8D1BoJmt8Yy6v0Cyd-F_GCOer
-Em
-}
+sprite $TurkishLiraSignLg [15x20/16z] PS-53G0X00D0tA7xR_jf7gUn7evu8jL1uA8KhW2ciySIfIDAQaqOKjO8ACqrxjohkAJtz5_Us4E_CYOH523t1qtAa-aaa1SLE4a6vmBGFm6cQp6ADny
 
-!procedure TurkishLiraSign($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TurkishLiraSign', $name, $tech)
+!procedure TurkishLiraSign($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TurkishLiraSign', $name, $tech, $desc)
 !endprocedure

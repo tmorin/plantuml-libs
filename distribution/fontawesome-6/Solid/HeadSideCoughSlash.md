@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HeadSideCoughSlash')
 
 ' renders the element
-HeadSideCoughSlash('HeadSideCoughSlash', 'Head Side Cough Slash', 'an optional tech label')
+HeadSideCoughSlash('HeadSideCoughSlash', 'Head Side Cough Slash', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HeadSideCoughSlash')
 
 ' renders the element
-HeadSideCoughSlash('HeadSideCoughSlash', 'Head Side Cough Slash', 'an optional tech label')
+HeadSideCoughSlash('HeadSideCoughSlash', 'Head Side Cough Slash', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

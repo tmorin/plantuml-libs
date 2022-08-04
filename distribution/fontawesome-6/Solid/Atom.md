@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Atom')
 
 ' renders the element
-Atom('Atom', 'Atom', 'an optional tech label')
+Atom('Atom', 'Atom', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Atom')
 
 ' renders the element
-Atom('Atom', 'Atom', 'an optional tech label')
+Atom('Atom', 'Atom', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

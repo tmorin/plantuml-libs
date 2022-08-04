@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/WolfPackBattalion')
 
 ' renders the element
-WolfPackBattalion('WolfPackBattalion', 'Wolf Pack Battalion', 'an optional tech label')
+WolfPackBattalion('WolfPackBattalion', 'Wolf Pack Battalion', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/WolfPackBattalion')
 
 ' renders the element
-WolfPackBattalion('WolfPackBattalion', 'Wolf Pack Battalion', 'an optional tech label')
+WolfPackBattalion('WolfPackBattalion', 'Wolf Pack Battalion', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

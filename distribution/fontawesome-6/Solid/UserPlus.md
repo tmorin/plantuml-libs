@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UserPlus')
 
 ' renders the element
-UserPlus('UserPlus', 'User Plus', 'an optional tech label')
+UserPlus('UserPlus', 'User Plus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UserPlus')
 
 ' renders the element
-UserPlus('UserPlus', 'User Plus', 'an optional tech label')
+UserPlus('UserPlus', 'User Plus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

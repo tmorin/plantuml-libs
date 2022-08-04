@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Adversal')
 
 ' renders the element
-Adversal('Adversal', 'Adversal', 'an optional tech label')
+Adversal('Adversal', 'Adversal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Adversal')
 
 ' renders the element
-Adversal('Adversal', 'Adversal', 'an optional tech label')
+Adversal('Adversal', 'Adversal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

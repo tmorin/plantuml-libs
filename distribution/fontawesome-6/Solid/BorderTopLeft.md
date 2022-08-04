@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BorderTopLeft')
 
 ' renders the element
-BorderTopLeft('BorderTopLeft', 'Border Top Left', 'an optional tech label')
+BorderTopLeft('BorderTopLeft', 'Border Top Left', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BorderTopLeft')
 
 ' renders the element
-BorderTopLeft('BorderTopLeft', 'Border Top Left', 'an optional tech label')
+BorderTopLeft('BorderTopLeft', 'Border Top Left', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

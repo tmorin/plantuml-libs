@@ -1,19 +1,19 @@
 ' definition of the Item fontawesome-6/Solid/UsersLine
 
-sprite $UsersLineXs [12x10/16z] NSZ50OG000Emdk9a_sbnpwUI6z8hmjgnzln2dt-Ipdhm3HzGhH_8m__2QGG
+sprite $UsersLineXs [12x10/16z] NSZ50OG000Emdk9a_sbnpwUI6z8hmjgnzln2dt-IRZluXe1g_K0U_XTE8m
 
-sprite $UsersLineSm [15x12/16z] PSE53G81002nmvtkFoqkBqtQ3Fzr8LXmg5O4iUXjGMydr69HM8IyB3XNhRtqTNvfRcTaSHsv0m
+sprite $UsersLineSm [15x12/16z] PSU50O104CJ0u4xwhnQNbpbTCleFB8fgeGDGFX7byR-J2aK1AgXuGMU0oWiyvWkvpWXhP0S
 
 sprite $UsersLineMd [20x16/16z] {
-TSo50S1020F0f6x0_jisrFKg_oX-Z8D-ZPNxLK9W-ZLvzJCNnnzfYkZNt7fT5DGwfRXUfJMpAIj0dTSybo6QkqyereMJ_cKJA_Jh2fA87HHipjo9vGg_EBsC
-5c_Wsmm
+TOs50GGX30Jt34_IVxMulTnWcy7mWdTvKdIrM94CA4-gH5vEvbnT4B7DjJXHMHt0qIiY2YrU9MRzj3U8cJtELeGoFzA0RPySnm4P81UTvJRE1ju9FtYIN_27
+1
 }
 
 sprite $UsersLineLg [25x20/16z] {
-dSu5aWKX34NHYqlBs_zk9vNAkF_J2iJuKMkOrFr3hmGPAFxnrHtnCWF9jqwPZAVAp2J75GUlfUH8dXVw0Bn61MOZP0ECwwoGR960YDGWNBvCCQKAMn4m_Hip
-RQHmSii0OwtbOI5NswY4Koy6BhpDu56jVocV-aRND_ZE4m
+dSu54iH020J0MVUT___s24MTUyU3uYqVz17yvQ4ev5iV-hMXz4y6gRy6XRi4YgF2ii2b5PMrCha0c1GHG4qmJXpXDVtbop9PO1PjYEV1erDbL5wjtq2QYQq1
+eBJMK7ZcelpmCFCIIBYMBm67VwNyb9zy8VC5l782
 }
 
-!procedure UsersLine($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/UsersLine', $name, $tech)
+!procedure UsersLine($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/UsersLine', $name, $tech, $desc)
 !endprocedure

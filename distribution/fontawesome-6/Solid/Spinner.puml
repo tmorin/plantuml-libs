@@ -2,12 +2,12 @@
 
 sprite $SpinnerXs [10x10/16z] Om01VWOeu8Io-5bW8d069vJcueUgOONIK1rmaf-9WPK1geWBJ04
 
-sprite $SpinnerSm [12x12/16z] RSh50O0m5C3GN739_jFYr5_bAmy9TFmJM0bvYtpwNPFTaTz0HcDGUi6Tn-wpUm8
+sprite $SpinnerSm [12x12/16z] NOk50O1058MmM_QVrlQAt_5ua80EVmCheSyfPFskoU_0JqU6ngBqWZiFky_l2G
 
-sprite $SpinnerMd [16x16/16z] VSp50SKm081GKek7_QVzxj9t1wvcUQDoPmBjtAW1PkwIyYQmOrQuMpsRkQkAdIS7tz8zs5Q0VZzkEjych1LMdG3c02hC4tVUpqS
+sprite $SpinnerMd [16x16/16z] ZSx50SCm5C1GjM7K_jE6cT_9_imea1sLcIbejK_zcQNATu7kFkewgb2iM5bpbiuDSK2dqkchyn22ObtrNuvUEKzk0G
 
-sprite $SpinnerLg [20x20/16z] ZSur0e0m4031nPtz_szfY5sLQIAd99iZmQ8I7EsV2hmUxTzCe48qqs4vQ8pdiEiRkwl6tKTjYryV-csMQXtIfA4CVTDb11OWRt5umgWl3AyJsQaI39QzFW
+sprite $SpinnerLg [20x20/16z] ZSx50S0m3C10bRdQVzeo-fKBeysjCIEeL8BkltUkPhl_NacWGbIIeEhuoNjQdVdo57FFzFzuTY9TytcjzsZs1ftlIGvKvrHsdJtavutPd4Ul4ldcjG8
 
-!procedure Spinner($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Spinner', $name, $tech)
+!procedure Spinner($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Spinner', $name, $tech, $desc)
 !endprocedure

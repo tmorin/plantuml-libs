@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TrowelBricks')
 
 ' renders the element
-TrowelBricks('TrowelBricks', 'Trowel Bricks', 'an optional tech label')
+TrowelBricks('TrowelBricks', 'Trowel Bricks', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TrowelBricks')
 
 ' renders the element
-TrowelBricks('TrowelBricks', 'Trowel Bricks', 'an optional tech label')
+TrowelBricks('TrowelBricks', 'Trowel Bricks', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

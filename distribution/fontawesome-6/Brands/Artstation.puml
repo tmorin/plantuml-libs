@@ -2,15 +2,15 @@
 
 sprite $ArtstationXs [10x10/16z] Oq05_FmGcXN8OeU8G0H193y8WraGGIZWG30XIY3oG74Gu6FW1
 
-sprite $ArtstationSm [12x12/16z] NSd50K81040XxFRjFwtjBwvOkfT1tNoi3axbewXWMtVhsg26s9tUgAE_MstwelHrTepR_GDF
+sprite $ArtstationSm [12x12/16z] NSd50O100CJ0u4xwhnRdR5uhb7Obq8tNmFGV2hwbrHsq0JGSxNW37VbjslW2nTT4Bspx0pW1
 
-sprite $ArtstationMd [16x16/16z] VSw50GCn3CLG7MEY_QSj_3A-CDfyLsjfU59KdgahLusmF5se3hbGY4vDRtjxwfeXBoRDh56770ViVsB6h7RUJBc0ta1lfV5cWvfqRm2E
+sprite $ArtstationMd [16x16/16z] TSs50GDH20MmLtUo_xIrSyjt0RAkwfMn5pA6UzAIt91MEIHeKnpmd-tQq7-iDkAYtU6KXFRYkLcpTSQ1rZb1q4eEAg7rI2fp7m
 
 sprite $ArtstationLg [20x20/16z] {
-VOu54W0n20ChvvR___OggSkEiWCaOi9cKBM4OQdS3KCkLYxkIKcOLsUvUEFbufNM06qUv8lWW2GtyBrCVU39-rnq3nTtKN9mCOTzSjX78uEBuaNYSF8Mgbgy
-89b5FYDFqUC7
+VSxL0OK03CNGuCxTVzgd-S0FNceyg3uA3l9H8atvOACniTl4Ki1WegOi9exR_XNKsyHyRPxuFuv9PThFTf_Hs7pSHxs96uTzLFx6PCD4basi_mKdYaFY69ob
+5HYuyWO
 }
 
-!procedure Artstation($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Artstation', $name, $tech)
+!procedure Artstation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Artstation', $name, $tech, $desc)
 !endprocedure

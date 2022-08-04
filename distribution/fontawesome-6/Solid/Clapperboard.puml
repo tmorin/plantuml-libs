@@ -2,12 +2,12 @@
 
 sprite $ClapperboardXs [10x10/16z] Oq00Vcu6VduGGZ0u63Wv8OYVPC00Pm4
 
-sprite $ClapperboardSm [12x12/16z] Oq06_FmCZ43Cpi-BOF8my46O760cYd8A00yIcu6R3mRO
+sprite $ClapperboardSm [12x12/16z] Oq06_FnWpCxF2w8OmKmU1Zu8amFCH55E0U11OZDmyy406m
 
-sprite $ClapperboardMd [16x16/16z] lSS50S1030J1VUR4lzeo2-W4ZwyWuiZhIkkAge6iwadhoiyOxdXz3foprtBZGtzcFXdC4pC
+sprite $ClapperboardMd [16x16/16z] lOa50S1030FlcLl_QiSiO5TCmfSWuiWYbhIkgEh9gewqVkajxpGVqe0nZpK-wC_mrHzc
 
-sprite $ClapperboardLg [20x20/16z] rOg55O0m4CLIzzx-q-8E2v3sBE_pYVTUBzqktGCYKg1D0-BILHL9YsgxCi-KMjIHEbM4a582itIL9lG7yaF2XwE-bEM34G
+sprite $ClapperboardLg [20x20/16z] rOg55O0m4CLIzzx-q-8E2v3sBE_pYJ56BLqltG0YKg1D0-BIgI9fKMrNwaoTwZCL8QIKm2oTDA4-a1yIFXprfImVZ
 
-!procedure Clapperboard($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Clapperboard', $name, $tech)
+!procedure Clapperboard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Clapperboard', $name, $tech, $desc)
 !endprocedure

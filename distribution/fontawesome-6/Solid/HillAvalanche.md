@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HillAvalanche')
 
 ' renders the element
-HillAvalanche('HillAvalanche', 'Hill Avalanche', 'an optional tech label')
+HillAvalanche('HillAvalanche', 'Hill Avalanche', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HillAvalanche')
 
 ' renders the element
-HillAvalanche('HillAvalanche', 'Hill Avalanche', 'an optional tech label')
+HillAvalanche('HillAvalanche', 'Hill Avalanche', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

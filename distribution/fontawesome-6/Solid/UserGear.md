@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UserGear')
 
 ' renders the element
-UserGear('UserGear', 'User Gear', 'an optional tech label')
+UserGear('UserGear', 'User Gear', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UserGear')
 
 ' renders the element
-UserGear('UserGear', 'User Gear', 'an optional tech label')
+UserGear('UserGear', 'User Gear', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

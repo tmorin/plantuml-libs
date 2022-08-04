@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/DAndDBeyond')
 
 ' renders the element
-DAndDBeyond('DAndDBeyond', 'D And D Beyond', 'an optional tech label')
+DAndDBeyond('DAndDBeyond', 'D And D Beyond', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/DAndDBeyond')
 
 ' renders the element
-DAndDBeyond('DAndDBeyond', 'D And D Beyond', 'an optional tech label')
+DAndDBeyond('DAndDBeyond', 'D And D Beyond', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

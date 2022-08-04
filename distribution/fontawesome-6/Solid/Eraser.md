@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Eraser')
 
 ' renders the element
-Eraser('Eraser', 'Eraser', 'an optional tech label')
+Eraser('Eraser', 'Eraser', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Eraser')
 
 ' renders the element
-Eraser('Eraser', 'Eraser', 'an optional tech label')
+Eraser('Eraser', 'Eraser', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

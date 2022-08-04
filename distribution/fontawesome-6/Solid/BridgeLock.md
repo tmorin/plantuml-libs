@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BridgeLock')
 
 ' renders the element
-BridgeLock('BridgeLock', 'Bridge Lock', 'an optional tech label')
+BridgeLock('BridgeLock', 'Bridge Lock', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BridgeLock')
 
 ' renders the element
-BridgeLock('BridgeLock', 'Bridge Lock', 'an optional tech label')
+BridgeLock('BridgeLock', 'Bridge Lock', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

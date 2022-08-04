@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/YenSign')
 
 ' renders the element
-YenSign('YenSign', 'Yen Sign', 'an optional tech label')
+YenSign('YenSign', 'Yen Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/YenSign')
 
 ' renders the element
-YenSign('YenSign', 'Yen Sign', 'an optional tech label')
+YenSign('YenSign', 'Yen Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

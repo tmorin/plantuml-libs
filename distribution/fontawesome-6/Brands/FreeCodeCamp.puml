@@ -1,19 +1,16 @@
 ' definition of the Item fontawesome-6/Brands/FreeCodeCamp
 
-sprite $FreeCodeCampXs [11x10/16z] ROU54S0W00E_Ndp_RJbSus4F1xnXN1pXXczVoaI69T8EapGLQ711Dma_7Jm
+sprite $FreeCodeCampXs [11x10/16z] RSU54S0W0C30r8lllos7Qyu-x7F06N1nX0rlNmgHGI8va4G5EXoEczHFbmS
 
-sprite $FreeCodeCampSm [13x12/16z] VKs50GGn3ABkxVxRFidRULm13pBeGOgb1imaiSFfS6cJ9RPtuwikl7PMhkhYdGKIAaE0RGet6RakZ87zdt0dBm
+sprite $FreeCodeCampSm [13x12/16z] VSUr0SC040GmcTct_xI1hu9M9nSEz102vmIx5fBA35j5kqBwMjDXZSfWPUgr6-94mqBR4O33cpi
 
-sprite $FreeCodeCampMd [17x16/16z] {
-ZOs50G8m40DJzsR_RNc2ErV9LH__q6uwO50wDKUB6QJK8Nh0XY3F6QfoamwIve_XI4BChWqxNtLf8oMRFJVETvRg9PfH6uH2qmOG9bAtj25qih9KRBcJ2uzN
-3W
-}
+sprite $FreeCodeCampMd [17x16/16z] ZOr50iCm40CLCjlw_s-xdTAnKK2ph3kgF-mA6HpyZx2nWwQejci9sMy_4hxiJK35DtywHYCHzLacYUkaOUdTCxctEyWaB8pVUfQ6ZXOU7w8o4uZMgVzw
 
 sprite $FreeCodeCampLg [22x20/16z] {
-hOzLWeD068E3Ez_zJulyWhpjjWqoiJ7z0cltbltvPt3LPaXr24ACr4vA98giGAunA6bxkmNjT5VlQUEGgo9KlTq21j4JRZVQk80jucMqscWQwCF53tCEq-97
-7YPDav7PItcvWl9aaschZil9KCBotdNNwucvqB-m0m
+hO-5WSGm3C1Kvch_QH_iF1oZ2Y63mZlO-pDB9u9w8B61JfBPXg0Ih4XKadr2akvljx9V_aB_qkQ9O5QaFjhL2KVBOfXZt1IqQCWUOwpLeUoQCWBBbh7JmX8I
+mrg28AzWD4x129qte9L2YXMHRk0_Au_n2G
 }
 
-!procedure FreeCodeCamp($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/FreeCodeCamp', $name, $tech)
+!procedure FreeCodeCamp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/FreeCodeCamp', $name, $tech, $desc)
 !endprocedure

@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Brands/Phabricator
 
-sprite $PhabricatorXs [9x10/16z] ROK50e0m08ImM_x_MZktNG2fMBKU9iiGPDQwKcaOoCGCfHM46oflLW
+sprite $PhabricatorXs [9x10/16z] ROK50e0m08ImM_x_MZktNG2fMBNkbYp3tRFMbKh3028exIwueV9c1G
 
-sprite $PhabricatorSm [11x12/16z] TOk35S0034J36ljF6pwKFyR17tG6rMaMpCIHreZq7VAXqXGBNQ9D7slk9rbA4Zr37A3Oyk660m
+sprite $PhabricatorSm [11x12/16z] TS750OK0040XVeVnzj_MgmcktAh0CmZt62AQLAdwokklb7Uz5V7uUmJTUGUCzRMn
 
-sprite $PhabricatorMd [15x16/16z] ZSo54SCm40NHDODW--ysStAOtz3XvmzpJYCNcpKb7MYIVRkm7Up2tAtH3z7jK8qBxQVuqI5RIOQEHNeZKdICMoqKfRV2NezVO72YAHB6oAQhSkWDcPk-vvqJ
+sprite $PhabricatorMd [15x16/16z] ZSo5RGH140NHMXoUoZzRwsi3y3r1S_E3TuwRYEOUGo-8uK4slheBDoNrcQh3DgcUZnxeDTqC0ueSvgNPoAukbdAweMy11KuVY2LnsG6oy34c__e3
 
 sprite $PhabricatorLg [19x20/16z] {
-fOr5TiH05CJApQpxtpQlXhnDChARz4dVaG_0l6vpeCMqeTwcI6RHtYP9uNOsMnABuODgWpJSdYMvNyUgSPGXg62iBgPhfGXukPgn8Qh1KSK31MozEjjPnUuw
-t-tSw8dDo-teiy2b5uaNqasPU_UeF_03
+fSzL0WCX54FHZ6EFk__Tjg72RoKZmC7rNxOEK3LpXxJj0TUKGoEDz99TMgTPGXADueBBWbJ6yatoUXbJeck3HGUEILJFbHr_OtO9s7H1zsyVwn9whcmphRb9
+g-ksUHFBqs9nkR_5zH7Bp5OZyg8lSWC
 }
 
-!procedure Phabricator($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Phabricator', $name, $tech)
+!procedure Phabricator($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Phabricator', $name, $tech, $desc)
 !endprocedure

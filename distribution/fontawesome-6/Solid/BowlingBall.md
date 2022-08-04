@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BowlingBall')
 
 ' renders the element
-BowlingBall('BowlingBall', 'Bowling Ball', 'an optional tech label')
+BowlingBall('BowlingBall', 'Bowling Ball', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BowlingBall')
 
 ' renders the element
-BowlingBall('BowlingBall', 'Bowling Ball', 'an optional tech label')
+BowlingBall('BowlingBall', 'Bowling Ball', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

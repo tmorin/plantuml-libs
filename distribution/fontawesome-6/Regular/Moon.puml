@@ -2,15 +2,15 @@
 
 sprite $MoonXs [10x10/16z] Oq06tFpy40O_3vJ1pSq04m9ou2n-T1OpYCaC4GGoUVdPe6oGF
 
-sprite $MoonSm [12x12/16z] NOh50GCn0CCKvdZ_QTjZqiV8XooLmshAdpOcdOV9T6TjaJazz7BwiEKD9nXdK8SgzR05jJ9KsJ1b980_
+sprite $MoonSm [12x12/16z] NOg50SCm40DbPj_-qxPXUXJfKndo0Pcu4_h86PYQbsnqoYlevSHEbs6HnadeKeKUDaABWtfOPQJr_G4
 
-sprite $MoonMd [16x16/16z] ROw54KCn5CCSvcZ_RNlzJ3fyOD0dhizoJXdW73jjNCP45EcSQOgNiqCgbxdnDppdlvN3RDFsopXcW_qBtEa_5rNUPqkNL67sgJ-1_z6TdStaJz69CLlY3m
+sprite $MoonMd [16x16/16z] RKs50S0W31lkvFzlXxktZNtFnNmqizC0C5iF5vPMWNzGiuVx66QRQxtqBjLYwRCLNNgJQuJ5ZsG3DlkOLJEHmAVN0j77bWXHtk4QaPVv7ki7
 
 sprite $MoonLg [20x20/16z] {
-VP035i1034Hh9lllVzgwQtlqqbHQFqrZ-B834600sFsd3cJ414IO6gKFjIvMAFPUGsh_Y8SE4tE2cvYkDTGRMQvL6Bot5htM8GI-DmaK-_VHuCSMvDusGEL7
-0q-T59ZUfnU20HZ20hxeKZi1
+VO-55K8n34LJzzxzfyNjyG_4NUmFk12yHWO0KWF0q13JiwKHeYsSpBfswR2xgwtkDbmt1DAXBX3iUvwdNkGao8vrot3OQrCcXdjmyza-cLVLWJMVrK2wwWNa
+PsK7s011dkPM_HFE
 }
 
-!procedure Moon($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Regular/Moon', $name, $tech)
+!procedure Moon($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/Moon', $name, $tech, $desc)
 !endprocedure

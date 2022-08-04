@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/AnchorCircleExclamation')
 
 ' renders the element
-AnchorCircleExclamation('AnchorCircleExclamation', 'Anchor Circle Exclamation', 'an optional tech label')
+AnchorCircleExclamation('AnchorCircleExclamation', 'Anchor Circle Exclamation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/AnchorCircleExclamation')
 
 ' renders the element
-AnchorCircleExclamation('AnchorCircleExclamation', 'Anchor Circle Exclamation', 'an optional tech label')
+AnchorCircleExclamation('AnchorCircleExclamation', 'Anchor Circle Exclamation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

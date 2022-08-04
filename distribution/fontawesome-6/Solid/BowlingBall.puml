@@ -2,15 +2,15 @@
 
 sprite $BowlingBallXs [10x10/16z] Om02Jdus1X3W1mDEC8CDHB022PWeX8i2sE0i1WIB4yPWO625CW
 
-sprite $BowlingBallSm [12x12/16z] RSY50G0X30F0l0kI_QV57QvUU88l8aPfVPvu-7xVlYktuzCCX6yRE7fPORq_A8U6e_BN0W
+sprite $BowlingBallSm [12x12/16z] Om01RduE1WZWXm0eavKTmW6HR6mWafS1o6VdWwZYXigY0muaDWDsDZj26n_8CbwOA
 
-sprite $BowlingBallMd [16x16/16z] RO-55S0m24I1kjx-s_QXjVme3cGC1pQcv80pcSGeJfMXnBEdCuymHFNFa46Da_exaPj6jDa-CdzaUeld9r5qdupQyFuK5NbCSm4
+sprite $BowlingBallMd [16x16/16z] RO-50SDG20MlZUlRVzeO4hslE71GJHf-19ECnaGbSuh-ZE5ChOCVPamgCwRASrFfc-4X_nuoTt6clidMVL83Z7SHVfTfLW
 
 sprite $BowlingBallLg [20x20/16z] {
-VSo50OGm50FGdDGb-qzxKWdEWzet3A4oMwmu3kM5WIjX7NA5JOH2LkL6ioei1q2xUCMUNi7G6jiKnIe7atWdyyZo23meADmpU78FG3Y6WCYr5ngp2a4ycsBm
-zmK
+VP055aGX30Fp7Ikv_sbN-xA233vuuSJASkABWuujSFX5_5Q7yKM2rAdbXywgEEa0gaMGMu9aV6rydI9NwQoPCmfRJhQWLGPht8gbtGh4LW7fTwT2AY32MzXx
+qHq
 }
 
-!procedure BowlingBall($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BowlingBall', $name, $tech)
+!procedure BowlingBall($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BowlingBall', $name, $tech, $desc)
 !endprocedure

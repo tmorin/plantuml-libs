@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Regular/CalendarCheck
 
-sprite $CalendarCheckXs [8x10/16z] NOW50S1030Dlp8j_jS_SXk419a30owtX2BTLtq3UaPhzUMz_iW
+sprite $CalendarCheckXs [8x10/16z] NOW50S1030Dlp8j_jS_SXk419a30owtX23TNtq3UaPhzUMz_iW
 
-sprite $CalendarCheckSm [10x12/16z] VSd50G0X40J1FiMP_AF5-LAm3dWWqsd6fQEVAQykZku3kT79ow-h8hERyg-j0W
+sprite $CalendarCheckSm [10x12/16z] Os1Wu09YFWOGu8TXl8250GBue2mUC8iLg8qJpEBdukU2olBp8DI1M6nmGm
 
-sprite $CalendarCheckMd [14x16/16z] ZSVL0O1030JHmPtjlrjEix_CIV98FVXd4Qcv_Clzw4xbVrpqlz4buQnfmvfqDMbdratJhYEXAJ71OYJabEq-
+sprite $CalendarCheckMd [14x16/16z] ZSt50S0m4CH0XJdRVxLXDCiuhsDhuht9jT_PSLVZf75hlwcK7cy-5Sr7XOPBQYarSgbHj-7Ipf5NPCu9wDiA
 
-sprite $CalendarCheckLg [17x20/16z] dSx50SGm44DHcTc__sgN6PEyuw1quBjEfYu6Eehuvq8w5oPFScM3yOW3FIe_2w4z5o9S2nOZUT2ruC04iBU20WVcyMW2z_p5cwyv6gC-0F6ixW4
+sprite $CalendarCheckLg [17x20/16z] dOu30W0n30IJsll_rvxjwvJnKeTAD51e8cDu9FZIKR3315IGj_GEsc8V7Jhk7HfO7FrHmszqCD3ROksXqS7RfdgCRvggUnqHEMm027j22m
 
-!procedure CalendarCheck($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Regular/CalendarCheck', $name, $tech)
+!procedure CalendarCheck($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/CalendarCheck', $name, $tech, $desc)
 !endprocedure

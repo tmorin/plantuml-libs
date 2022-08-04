@@ -2,12 +2,12 @@
 
 sprite $DeploydogXs [10x10/16z] Oy02k60CHduW0S78B7v-20P3HWZD3HLZvc2303w4UG
 
-sprite $DeploydogSm [12x12/16z] TOW54i0m382O-_Z_Q-U-bZO91n4I-nDTGm7aMRBvkePczMprV7DrMvidcChMkqU_oF261pC
+sprite $DeploydogSm [12x12/16z] Oy05-7bWW9yVn6S2OKP6C1j4y7A2sCmC80BCvWS2405c0zKmyKFKS2E9mm4JK0GEaAq5
 
-sprite $DeploydogMd [16x16/16z] XSk50G9G409GhcnX_sqLktq_h_3Fx1xbi1wq573J-Eu1pp7bUw-FSN9_Z8FxSnmoo1ot0bGgBlsfRRc-y-tvhTovaUYuy8YXtIC1-GYl3W
+sprite $DeploydogMd [16x16/16z] XOg50G1H249LhWFsd_Qwy_rGmlv8coEMCWv0SXk8M7xEcXh_Leyws0xQsIvQ8yi_w4HZFuPWpUiOyyOrwtfgLX973Jl2eNT4zaCF
 
-sprite $DeploydogLg [20x20/16z] fOw30KKn40JtNipflzfl6nEUL_ymk2NLgHiColuJ_ExrmNJqUTgXa_lErw5jV0xcFFWg6pQ-tNFmRTz8Cv3c2r-6SLkh1ddZC-1IooKuShnceZXkQAOFMGC
+sprite $DeploydogLg [20x20/16z] fSnL0eD038JXmM6doN__qzOrBxKFrcBwHr1DBLLqiEcix-_7BTRZwwJkkzWEZDL3vZNMEB4ukSPEvuWxaF8fDfVO2b5xPLYnJi6unYe6rlbLeZ4AwrC7
 
-!procedure Deploydog($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Deploydog', $name, $tech)
+!procedure Deploydog($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Deploydog', $name, $tech, $desc)
 !endprocedure

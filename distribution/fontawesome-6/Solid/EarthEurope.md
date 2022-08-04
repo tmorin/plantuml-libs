@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/EarthEurope')
 
 ' renders the element
-EarthEurope('EarthEurope', 'Earth Europe', 'an optional tech label')
+EarthEurope('EarthEurope', 'Earth Europe', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/EarthEurope')
 
 ' renders the element
-EarthEurope('EarthEurope', 'Earth Europe', 'an optional tech label')
+EarthEurope('EarthEurope', 'Earth Europe', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

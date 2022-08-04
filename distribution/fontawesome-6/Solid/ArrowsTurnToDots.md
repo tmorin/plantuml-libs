@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowsTurnToDots')
 
 ' renders the element
-ArrowsTurnToDots('ArrowsTurnToDots', 'Arrows Turn To Dots', 'an optional tech label')
+ArrowsTurnToDots('ArrowsTurnToDots', 'Arrows Turn To Dots', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowsTurnToDots')
 
 ' renders the element
-ArrowsTurnToDots('ArrowsTurnToDots', 'Arrows Turn To Dots', 'an optional tech label')
+ArrowsTurnToDots('ArrowsTurnToDots', 'Arrows Turn To Dots', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PlantWilt')
 
 ' renders the element
-PlantWilt('PlantWilt', 'Plant Wilt', 'an optional tech label')
+PlantWilt('PlantWilt', 'Plant Wilt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PlantWilt')
 
 ' renders the element
-PlantWilt('PlantWilt', 'Plant Wilt', 'an optional tech label')
+PlantWilt('PlantWilt', 'Plant Wilt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

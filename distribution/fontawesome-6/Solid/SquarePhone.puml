@@ -2,12 +2,12 @@
 
 sprite $SquarePhoneXs [8x10/16z] Ou01VdG04u9BmMYuQau6DY29AWa
 
-sprite $SquarePhoneSm [10x12/16z] Oq00Vgo0dG_Au69WX8anSC1PRFnm9WlS26J3UC089i7D1m7i
+sprite $SquarePhoneSm [10x12/16z] Oq00Vgo0ZG_Au4AeO627izZuuKnck09amtZ022R1pGS1x
 
-sprite $SquarePhoneMd [14x16/16z] VSgr0G0X00J1nHtwh_RTXSbEk3FrK8HjVTvSWePw9WVwJ0NPBk2QAjH4scDcbezPSR-Nt9x4BO4uCG8
+sprite $SquarePhoneMd [14x16/16z] VSgr0G0X00J1nHtwh_RTXSbEk3FrKB2jpyjBa53Ff46VgI3Q1LnJXHg9UypCyZ4BxlUIsnFtT3C2
 
-sprite $SquarePhoneLg [17x20/16z] ZSyr0WKX34NHExYp_zL-gPYNYbF60rZfBS9MS-mRiqGD0CC67Wayu2HGUBQ2he7oZvGuJoJ00wGJIVmLiufnzLUs0UOM4UiB
+sprite $SquarePhoneLg [17x20/16z] ZS-r0KKX343H-nI7_QVzqk1sodXeNRaJGidPiCF9imm0jWvG1yeUqIm7KmRaFo8lbo8t7C2T8Yz_8cGEm6xz9Ue0BXGUQby
 
-!procedure SquarePhone($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/SquarePhone', $name, $tech)
+!procedure SquarePhone($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/SquarePhone', $name, $tech, $desc)
 !endprocedure

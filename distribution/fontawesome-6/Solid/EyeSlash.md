@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/EyeSlash')
 
 ' renders the element
-EyeSlash('EyeSlash', 'Eye Slash', 'an optional tech label')
+EyeSlash('EyeSlash', 'Eye Slash', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/EyeSlash')
 
 ' renders the element
-EyeSlash('EyeSlash', 'Eye Slash', 'an optional tech label')
+EyeSlash('EyeSlash', 'Eye Slash', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,12 +2,12 @@
 
 sprite $VideoXs [11x10/16z] Oy0A-A40mU97iFZvS38HQddW9Z0ZcGi
 
-sprite $VideoSm [13x12/16z] Oy09sFcX0CXcuaTmUFaH720ccSE7p65WusU4ilamN
+sprite $VideoSm [13x12/16z] Oy09sFcX0CJXHt1u-H4S82QPmuVCOM21o_9Xk
 
-sprite $VideoMd [17x16/16z] jSY53S1000EnAsEK_QSjCuhUOlElQHSD4tdJ0b7ZdQ3maP1Fb3f0a5y3xCAR2Y0Xtl2i1m
+sprite $VideoMd [17x16/16z] jSY53S1000EnAsEK_QSjCuhUOlElQHSD4tdJ0ZJU2GeV2Vb4iGC4-JN0Bhmf0I9-zG
 
-sprite $VideoLg [22x20/16z] lSZ50O1000InmPtjlrhSNI_Fy9gjgR1RpNMtNayRcsbjCqLkTAFDnTvSIAHqlJWUIJPARUuh0G
+sprite $VideoLg [22x20/16z] lSZ50O1000InmPtjlrhSNI_Fy9gbgR1RpNMtNayRcsbjCqLkTAFDnTvSIAHqlJWUIJPABUuh0G
 
-!procedure Video($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Video', $name, $tech)
+!procedure Video($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Video', $name, $tech, $desc)
 !endprocedure

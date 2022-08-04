@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/Ghost
 
-sprite $GhostXs [7x10/16z] VS450S0m0C2mdZ-iVxKZ0Kk0ae3VuSGbM5smt6vXqQC3
+sprite $GhostXs [7x10/16z] Os1WuEK64XpyGC38m0y6dFny40O3FoyBFmu0Lm4a
 
-sprite $GhostSm [9x12/16z] Os1WOEJZOG01VZ20qVnyC0O_Br0KX4206OH80-mCdFnCNFnCZ
+sprite $GhostSm [9x12/16z] Os1WOEJZOG01VZ20qVnyC0O_Br0KX4202OH80-mCdFmCNFoCZ
 
-sprite $GhostMd [12x16/16z] hSQ50O0m50FHmvtRVrlgNO3t9I4ORa-2q4pUNWEmkR0xzPtJ9Gkl4u_9c-vFPxWxt25mEd8vmGS
+sprite $GhostMd [12x16/16z] hSRL0S0m30FHY_iJllsdBSC2VGQ9NUfMBfxcLtVWg-6dwapxXQTWkZ0ypVF-LFVh-nM1Qj1Ci04
 
-sprite $GhostLg [15x20/16z] pSxL0S9044NH6y_gwxzR6C4wu7oiZc6MgdcHDeMEsVK6hFe2KrzkzAFOqcrfjbWiNDA2_PYLaSlVc3xSuiigdffsMpRW0G
+sprite $GhostLg [15x20/16z] pSx50O0m50FGrBtPVri8pWPzX-etYAcS2HV3KuTuFgw_ptr-hndyALgwbgP5iK3Iadco6DUoZ0cDVIwMs3KwBHR01W
 
-!procedure Ghost($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Ghost', $name, $tech)
+!procedure Ghost($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Ghost', $name, $tech, $desc)
 !endprocedure

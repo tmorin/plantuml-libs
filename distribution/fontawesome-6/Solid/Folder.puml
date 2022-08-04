@@ -2,12 +2,12 @@
 
 sprite $FolderXs [10x10/16z] Ou03LduW0BFugG8GnW
 
-sprite $FolderSm [12x12/16z] Oq06_4300sE2ESn0mCHFOy30omS3F
+sprite $FolderSm [12x12/16z] Oq06_4300sE2EOn006JJ5Z3myi403m
 
-sprite $FolderMd [16x16/16z] Oq07F7mW0EVoyaC0ZCyF0pnWmCu_o06w0naOKG03
+sprite $FolderMd [16x16/16z] Oq07F7mW0EVoyaC0ZCyF0pnWmCu_o06w0z6z2m
 
-sprite $FolderLg [20x20/16z] Oy06MDZ0W1L9Y9KV2f04WJmCGNvCmCK_mW0V5Z4i0SE3BUW1
+sprite $FolderLg [20x20/16z] Oy06c9Z1W0b9Y9KV2bWHOa0UXY0_9k3Y7s603uiObe3XmHRq
 
-!procedure Folder($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Folder', $name, $tech)
+!procedure Folder($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Folder', $name, $tech, $desc)
 !endprocedure

@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/OilWell
 
-sprite $OilWellXs [11x10/16z] FS650OG0002X--vd_sbjXJQtMssuja5LWlI729TkHKhgUqeNVAlaztgftWuZ
+sprite $OilWellXs [11x10/16z] HOk50O103CI2Ezb_MkIjtfvGOfgeeMESaZQgo9rsAWScqWbfd5qwzIoMQzi4Tbky
 
-sprite $OilWellSm [13x12/16z] HSUr0GH10810Rjtflzft8MBujVYd_j6ry6e2AgL2zFYCDb_JhnTKY92VQ0GnW-K9ZSgp5_mX29Y0hV_k
+sprite $OilWellSm [13x12/16z] HOg50O103CI2Ezb_MtXjNjeJEZU16cBJbSnLetM3mTS4-vMNWopInmHB4Zk3-2lN97HG4bdOnP2MrEFHu0C
 
-sprite $OilWellMd [17x16/16z] NSY50OL03C3GuDPUzf_s2mxljE6cYfO7TNu77o7KYjq2zEh0-gKufIigeGvFLBgA2l8C7LGDjAu1cAmKq74DZGLbjOOmGhihk2fdgCscQPHLciNySRsZ-F85
+sprite $OilWellMd [17x16/16z] NSY50OL03C3GuDPUzf_s2mxljE4kMXxK-HtaBkvX0JfrsBuKXtG5Ghru0ZS1v1awg1fejW1Cee0EQwWiQzW8OOIsLt1LRY6hgb9MQHRpn_MEuiiN
 
 sprite $OilWellLg [22x20/16z] {
-RS_L0SCm303HCnKTt_xRLgNm-nIBdTOR1rsTs7iQAZl5CDZJi6vkX678GFe6bRjVLr12TgM3KeS_TpI0F-DU2UleL82MWTi_UaaHUURlLtcrhIiF9VIH-4Nr
-2UjV5OfVVHDz-hE9wdGFslXAcflM77JaDnwUEO--
+RSy10a0W40NHtG2mS__RwWFG0mme-sZcndvcOFdLYQp-rgGQzeKyNqxQXwhd4pSPmGPsdTvHTBZDMws3mt1-c4CC-l2hBfNcfToVLILDVimAQBJVPxgDGgVX
+TbIOZhVahiZygXE7LuLboA2-gzTGUGRXeXyNbEiA
 }
 
-!procedure OilWell($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/OilWell', $name, $tech)
+!procedure OilWell($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/OilWell', $name, $tech, $desc)
 !endprocedure

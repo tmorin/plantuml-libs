@@ -1,19 +1,19 @@
 ' definition of the Item fontawesome-6/Brands/AmazonPay
 
-sprite $AmazonPayXs [12x10/16z] Oy09-86GWPyNI8BPh1py38ni83ON7oSxI1B4XYb50epS39piK3OdAqWM33WOM95L0G
+sprite $AmazonPayXs [12x10/16z] TOk50O0m4CI2Ezb_Mjnfyov7514SSE-BMf8Ci1sRIWIsj9K7IKTJiTDiWesQWWSp
 
-sprite $AmazonPaySm [15x12/16z] XSl50GGn40F1DhELVxJ7k5Yl0OaJOPH9hKdGxgj1M3UnaTTg7HFfiJPvD2SvlBvFOi4OflbP1tWr_oXrCHx7gfl4sXK
+sprite $AmazonPaySm [15x12/16z] XSUr0GGn00InCREt_sgVyL2PE657cPII1ErU4CPChETToqHwjCcZESdkKLx4slpD0ATc0MpNlK3LJMBj2W
 
 sprite $AmazonPayMd [20x16/16z] {
-ZSk5OGCm3031DxEq_xG5GnjEpYZYSzxK1BuM0im3aYWTIsnsWAwScJzl1IN6_vmHvuNYbJDRc-r40MbCudg2qaq4DN1c3sMf74QO75UyY68qS2cYG579Rira
-KMVNF-hM7NWEOwtXXMy
+ZSkrWSDG40N0-IJMRl_L7fYTQS87hkkscRwj1WQ8oRehnbvE4WIIMaFg_IEBqiBQqkkxEOmWzaVMZfdrC94UcQTtjdWg0LHVUaGgsRv3YJLZAQ0iaQLKCFBX
+A7HN_G8
 }
 
 sprite $AmazonPayLg [25x20/16z] {
-hSs3bGLG34NHy-pS_giTVbjxAGwVfIujC9b25625_uO7PO2o_XF-oK6T46Cs-Y2lNUD_TfPb8EGE6gjwGJHOmU2VD4mujI63gCfk8oN0vu07nBx1tlurs653
-ndMXZy38d8efzWb5ZHEZvmguAVNi-UDpbpBYtzI120HWDpdN73Noicy
+hSh5WGH03CH0sSFapZ_QOsRO-afSbgPq81Ho5n3b8G2g0EqW0_4S-WRt6en5Fe_XuTtj10Zn8foE80SSYwUW5GADfG1JVmhc3bWo312Fn4lry2XuGS7dqbo9
+LNdBtUU6fi4RQzOEiAMPZ3kMffGGy92UPI3noChSPw_k_Dar
 }
 
-!procedure AmazonPay($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/AmazonPay', $name, $tech)
+!procedure AmazonPay($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/AmazonPay', $name, $tech, $desc)
 !endprocedure

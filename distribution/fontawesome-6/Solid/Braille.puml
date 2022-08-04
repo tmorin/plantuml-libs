@@ -1,19 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/Braille
 
-sprite $BrailleXs [12x10/16z] JSA5SSC0002nDxEr_xHjSXYT-kN86V5o4uEdlOvg_RPaxj4DTtACplGz-jRtffNSoJuwCcRerE4V
+sprite $BrailleXs [12x10/16z] JSA54S0W0C30r738_jCYf_rx_inOK7HeK_Ioao03uVJ3XovDjI7couASbwUSKO9YGqot4Q-pI7O1
 
-sprite $BrailleSm [15x12/16z] NOb50WCn08J8P3N6_t_RdYhBPGGUAB63WYwjAj7PRulI5JHH7dnjYQfL9DwpNw9KEon12L010k5GbeAUXuvbR59SurxI3fW5Ziwxlm
+sprite $BrailleSm [15x12/16z] POp50ODG0CK2VBViFstTczjJVb1sEoZeqarbqzchA5tXRlrjN-csgRg9RDRPYw_dTTzVsLxJfApxDWKTIso2QzGbBS7S87LewGm
 
-sprite $BrailleMd [20x16/16z] {
-RSy54aGn20FGX7utxd_RfG9hLDxKCqLMvfi3B6CugohMIdSn7klbCWHdzLGgwwPKgZuim226woK3auqboT2U0IseoccWRl8tGu1139VJYU6I_eCzGt1w1jCC
-0WCVlW
-}
+sprite $BrailleMd [20x16/16z] bSs55G8n00JHEVTi_zto1dUuo8zdULUwhJf3VvhI9Q6NsxGagLPXqIK43olHwnJaedGhKfqL_wGJsaj6JXcaHlTbzCi5EcsN-unU3If-l0hBzupNSW
 
 sprite $BrailleLg [25x20/16z] {
-TOs5OKKn3CGKXWVQVzg2o_0lQ9s1n-eLe3K0SiyVJBtXLe6gJf9wdggvg7PGbUtI-yiONqRNzDKgGLSNMRrWjXWt04WhXWTBV5VwlAEO8uf9QWasbshAUblX
-zbIcbuPATJO7ACfXlYoge9fXgoTDbUODfE2mF23OOsrDq7G0t1hCt5L9gWLEzIAOiYtDKPsWt7AOJiUFYakz2SOPPEe6K0c_yaZF
+TOy5WiGm58Men8NxdtRbhylGndXH7dET06VK7DVnuTGDMmLkjOQRK_MuL7COfLjqVmNbAyZwSwiS-Q4kg8bNLG0usWdX7gCs6B4Or3FgsbGvT7l1TYhLfS5n
+coyBAChmM5wgODHqTHAEv0OEZUiq1t2xUKpN0vB6GxQ-k_nrnWbJNTm6T8zalgoWR1aoB3zMB7KJZgaNLEq0Af7VFE8P
 }
 
-!procedure Braille($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Braille', $name, $tech)
+!procedure Braille($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Braille', $name, $tech, $desc)
 !endprocedure

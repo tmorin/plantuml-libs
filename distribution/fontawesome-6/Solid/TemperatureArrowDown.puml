@@ -2,15 +2,15 @@
 
 sprite $TemperatureArrowDownXs [10x10/16z] Os1WvMM007uW055WH2IBWnz4WRL2A2P-1ZOkC0jX7W
 
-sprite $TemperatureArrowDownSm [12x12/16z] bOs54S0030A_xcN_RGkvBD04-LE0TwDlai-zEGBXEtt_vEj22bkcrN5BnKj2Zfj1jJEnzUwmyG4
+sprite $TemperatureArrowDownSm [12x12/16z] bOg54O003CI2Ezb_Mwwo0DKtuDtecbI1JGWG-8v__yJdXGQEqKMyDR2pg5RUs85D0p9iV
 
-sprite $TemperatureArrowDownMd [16x16/16z] hOx50GD1549P7-Nrtsr2l81m-e99MZtq0mFicPRSDpWgPE-iqk089_l8RZPf_c-7xRhluxNlMBu4hzti3LQZXZ63wuB5w21OG56HkX01qwIqpALaaJLOf1i
+sprite $TemperatureArrowDownMd [16x16/16z] hSY54GD108LGpltJVxUPqzq2mkW3QBDJ5TMUi_DtsirwSlDyTX1FxmAnXUD_rdRYS7_S6pAXZsEtAf7L67U7IKyFdg4qT0gRsX0zeWCG9-3Gaqy_
 
 sprite $TemperatureArrowDownLg [20x20/16z] {
-lOs50GH120EvTK__tNx8UmCtAn3KI3uxsZy7vBn4qG-8AJ6m-4UWcar0iQM68XN_ObKgt1wRLD5ZzHi3bir6Wqzi0DwU6CnMAcEb0A34vkV5OZ5sW4vTw8ZW
-VYq-ux8BX9PVZt522oDyh7B2d8Okkq26VNa
+pSx50SDG3C1GXVF9sd_QKdY3lflP05EqWQTG3JPRqKq185k1JXSe2a0rW46toX_aYjBzlhnoMYahwfdBog83sZCkrHWc5RMXAswg4fhGWV2drvbb9YkWQeUQ
+khvuFEO4w0Q0rRJzgPgvl04
 }
 
-!procedure TemperatureArrowDown($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TemperatureArrowDown', $name, $tech)
+!procedure TemperatureArrowDown($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TemperatureArrowDown', $name, $tech, $desc)
 !endprocedure

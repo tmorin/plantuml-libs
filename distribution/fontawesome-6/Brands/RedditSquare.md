@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/RedditSquare')
 
 ' renders the element
-RedditSquare('RedditSquare', 'Reddit Square', 'an optional tech label')
+RedditSquare('RedditSquare', 'Reddit Square', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/RedditSquare')
 
 ' renders the element
-RedditSquare('RedditSquare', 'Reddit Square', 'an optional tech label')
+RedditSquare('RedditSquare', 'Reddit Square', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

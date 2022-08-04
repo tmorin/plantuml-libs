@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/PesetaSign
 
-sprite $PesetaSignXs [7x10/16z] Ou02VY1W1L8W9XC3FniR6oS_6pyOG0Gv620SC8y1ZG8
+sprite $PesetaSignXs [7x10/16z] Ou02VY1W0L8W9YC3FniR6oS_6pyOG0Gv620SC8y1ZG8
 
-sprite $PesetaSignSm [9x12/16z] LOo30K0X500_Szt-qsRUCwy91L4Jvm8X9ovNBu-aSqF8G1iP-XMwNTdofuwEHDuj9W
+sprite $PesetaSignSm [9x12/16z] LOk30S105CLIkzb_slAORpmIlenVi--d9xW3hKm6qFD1_zDgK3d_gWs2gcgcvgyt
 
-sprite $PesetaSignMd [12x16/16z] PSp50S102011YFlsNstEVJuuKjFFUdTnNeB3v_iyBnUiBb_4ca4KtiU1-wMGbrKTcDB-1Uxsim0j_pNzdyL9-qF-C4kcEJC
+sprite $PesetaSignMd [12x16/16z] RSt50S0W343Hr0tu-szRtDyf7caOIr_YQ8BRnHphkhwmkNXrxHL4G2i7FaqXsWuwaEVV4Bi7G7LVydqNvVaXLYmoyGC
 
-sprite $PesetaSignLg [15x20/16z] bSx50GGn30J1CRCx_sYF6HRg9vO-XNWMp2tYxX8c7lmrr5a4Na8vg5A1U3N1Tjx4z_0vgtFq32kuInXFyeJn_ePUmX5r2tMrFpHC_NK4
+sprite $PesetaSignLg [15x20/16z] bSx50S0m30D0XJdQVzeoS-zdDewawiafKfmTGgenHCzsyIQ492CGI3kgfCpSiVjmdKKVhM4arH2gZgzasR-1JLXC7srM_Gy5Aswr
 
-!procedure PesetaSign($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PesetaSign', $name, $tech)
+!procedure PesetaSign($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PesetaSign', $name, $tech, $desc)
 !endprocedure

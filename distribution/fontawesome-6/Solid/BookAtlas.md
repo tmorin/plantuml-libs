@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BookAtlas')
 
 ' renders the element
-BookAtlas('BookAtlas', 'Book Atlas', 'an optional tech label')
+BookAtlas('BookAtlas', 'Book Atlas', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BookAtlas')
 
 ' renders the element
-BookAtlas('BookAtlas', 'Book Atlas', 'an optional tech label')
+BookAtlas('BookAtlas', 'Book Atlas', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

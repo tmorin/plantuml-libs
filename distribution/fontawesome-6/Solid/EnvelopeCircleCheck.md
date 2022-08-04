@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/EnvelopeCircleCheck')
 
 ' renders the element
-EnvelopeCircleCheck('EnvelopeCircleCheck', 'Envelope Circle Check', 'an optional tech label')
+EnvelopeCircleCheck('EnvelopeCircleCheck', 'Envelope Circle Check', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/EnvelopeCircleCheck')
 
 ' renders the element
-EnvelopeCircleCheck('EnvelopeCircleCheck', 'Envelope Circle Check', 'an optional tech label')
+EnvelopeCircleCheck('EnvelopeCircleCheck', 'Envelope Circle Check', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

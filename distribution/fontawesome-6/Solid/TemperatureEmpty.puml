@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/TemperatureEmpty
 
-sprite $TemperatureEmptyXs [6x10/16z] LOcr0G0W40E3ExV_j5Z7IrGIvoqSeeZuCFreLJdL-RFPeWQO3G
+sprite $TemperatureEmptyXs [6x10/16z] LOQ50O1008ImM_QVrloy111eLN2CcUfjM7rOHEP6DfKR
 
-sprite $TemperatureEmptySm [7x12/16z] ROYr0S0W0C1Iz-R_Qt4sfWZmNW2gS0Z2dJ6FOSQFw6h1Of-9IWG
+sprite $TemperatureEmptySm [7x12/16z] ROYr0S0W0C1Iz-R_Qt4sfWZmNW2gS0Z2dJ6DOSQFw6h1Of-9IWG
 
-sprite $TemperatureEmptyMd [9x16/16z] ZSr50W0W20J0jTlz_sjjxfB32Qne1JiyLsoGFcyfPc13C_qZNUXzPA_PmEwMJnc1qWZCi6Jhf7nNc
+sprite $TemperatureEmptyMd [9x16/16z] ZSsr0G0n30J1CxEt_sgV8RLm54b7ZAOp0aUSW50lKQGJXhYESiESHms68MOuV9Lv8IbIPM5C-B_l
 
-sprite $TemperatureEmptyLg [12x20/16z] fOx50K8n50JtnttwxnOMlpEHvo8pQNhICC5gu8drmv7ICm3TF-L7h__frrlVqdnE6HRGBrYMWbW0RMpdQ1s6DYWqRvkzuKcXEkH6JoxTATPsa6u
+sprite $TemperatureEmptyLg [12x20/16z] hOt54GGn4CIq30Rbd-rLrpplkxA7YT2yAIx34dUrY3-Ti5P1ppzzVUGFQ7NbZT47xMNbL1acFfRu-ZAKzMRHZLNdkbmgq2m8Hxm1_
 
-!procedure TemperatureEmpty($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TemperatureEmpty', $name, $tech)
+!procedure TemperatureEmpty($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TemperatureEmpty', $name, $tech, $desc)
 !endprocedure

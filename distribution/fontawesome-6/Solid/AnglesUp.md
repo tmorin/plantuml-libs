@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/AnglesUp')
 
 ' renders the element
-AnglesUp('AnglesUp', 'Angles Up', 'an optional tech label')
+AnglesUp('AnglesUp', 'Angles Up', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/AnglesUp')
 
 ' renders the element
-AnglesUp('AnglesUp', 'Angles Up', 'an optional tech label')
+AnglesUp('AnglesUp', 'Angles Up', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

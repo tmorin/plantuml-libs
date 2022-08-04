@@ -2,18 +2,15 @@
 
 sprite $HelicopterXs [12x10/16z] Os1Wu8S21XGscCl3om0MnL322wHWKhmWnM20p6Q3QK00PBC
 
-sprite $HelicopterSm [15x12/16z] NSo50O0m34JHZpkt_xHO1EYhDm9K2WF0g4IdcfiVICjDwzBOC-q0hHurjRK2Uo9XxBaACydWclP6GNw44m
+sprite $HelicopterSm [15x12/16z] NST50S1000InBNF7lzfZpYzoo0w_aq8RipmKmUFnFbDezVkl19BO5UIYAFRDlOYKp846A22p
 
-sprite $HelicopterMd [20x16/16z] {
-LSzL0W8n34NHLyCgT_-h1QQQEP_nwCzXD7KPoykNA8LB9OK_r_kSkeBN1EGEIdxjcDMZdYs5DppkUtslq9HNJ9nDErO8ii5QIi74lFbZyt7OPPRF6bpTG4FZ
-UFu
-}
+sprite $HelicopterMd [20x16/16z] LSs50GGX34JHlou4flzgpo_oLedofcJmqPJ1R0lCRrth-pF19F5buazI-v2idHxB3e19RkQIjheN7nzHW8ZXCTDKWjtCvB6yYZ3DNnCkJ8sVxhnxA1nF
 
 sprite $HelicopterLg [25x20/16z] {
-TSu54e0W58JXfPkz_sdjU333P_ihW9FYHEDMvz1mqtEmG3ZFVzVua5o6NcwLh2Kxt1e5kIPFgVU_e8mV6p6hQoAS9U0Z0iZw1oD2PSClhu9SznWWGi70lWoM
-bCP72ud4grDQXgfs
+TSxL0KCn34DHFGxV_QSjXLmwlmP9BtnOL2K-P5KB7rRfWaqTQ0B-3agi4gGOLbKPmtOwi4gP4qKcIPj9tVCOrCcXmGm4ISDg1eciAVmRA3DbMKnHijP1Vorc
+jXWUr1MiluEaEm
 }
 
-!procedure Helicopter($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Helicopter', $name, $tech)
+!procedure Helicopter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Helicopter', $name, $tech, $desc)
 !endprocedure

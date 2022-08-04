@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BowlFood')
 
 ' renders the element
-BowlFood('BowlFood', 'Bowl Food', 'an optional tech label')
+BowlFood('BowlFood', 'Bowl Food', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BowlFood')
 
 ' renders the element
-BowlFood('BowlFood', 'Bowl Food', 'an optional tech label')
+BowlFood('BowlFood', 'Bowl Food', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

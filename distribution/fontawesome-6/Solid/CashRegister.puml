@@ -2,15 +2,15 @@
 
 sprite $CashRegisterXs [10x10/16z] HSI30S0000Empbx-ltP6YYnGvE0_fvnQGtj8lA9HQyrA8iBgDznCNZi
 
-sprite $CashRegisterSm [12x12/16z] NSQ53S0030InBmUatFxJbjaYozYODgIP1SSFslKzVN_KkRIY2cF0u7oFRwSCqG01547ofmiZZmK
+sprite $CashRegisterSm [12x12/16z] NSR50GCn00InDREd_sgJOz9BogooLjIKKcN_JXlhi7PluMJ4d6G26OvxodfcGWYemAJI-DA9oEqF
 
-sprite $CashRegisterMd [16x16/16z] XSV50GCn44DHcTc__sgpJAUyGKaSfWvSx9MrCJZj1YUZW_SUl7SwrTwX7wB4XnSeOmfAsvw2CibGzWS1ZAiX04tqlO7EFyKz9Z370yJN0W
+sprite $CashRegisterMd [16x16/16z] XSVL0SCm50D0XJct_xG5k_YLUwX4TQRorhvpYdS-g9fKRTlHjk-OTT_PgpxnfmkPIq-oECDocbdA8t2Ktc705djfxAvCpTU9y_WY_jq1
 
 sprite $CashRegisterLg [20x20/16z] {
-ZSwr0GH15CDG3_DN_zKUC-xBhCZIuihfed1tRrLdZytQIR-tn9skV8mHIen1TobdQFd2ImgyC6doAWhMwSya22Ge0f91X9cXJUZYpV80Guqimmc02c1XCIBK
-p6coMM-F5W3-IOR1EnclsXu
+ZSYr0GH140InNkQf_ADzPZoPaXPNJXU1k_jLdJsUjPD-Fy-Thfpt0OhtJdSfPsZvmajol31fyieBbX9L4o-G80b81X5cXZQXYpVB0mmriWo9emfWRZ4yvCoH
+iLblZnP7xac4mJiPhzeU
 }
 
-!procedure CashRegister($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CashRegister', $name, $tech)
+!procedure CashRegister($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CashRegister', $name, $tech, $desc)
 !endprocedure

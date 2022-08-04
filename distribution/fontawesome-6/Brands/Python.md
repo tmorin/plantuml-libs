@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Python')
 
 ' renders the element
-Python('Python', 'Python', 'an optional tech label')
+Python('Python', 'Python', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Python')
 
 ' renders the element
-Python('Python', 'Python', 'an optional tech label')
+Python('Python', 'Python', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

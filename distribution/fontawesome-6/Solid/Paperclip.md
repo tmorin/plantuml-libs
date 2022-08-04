@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Paperclip')
 
 ' renders the element
-Paperclip('Paperclip', 'Paperclip', 'an optional tech label')
+Paperclip('Paperclip', 'Paperclip', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Paperclip')
 
 ' renders the element
-Paperclip('Paperclip', 'Paperclip', 'an optional tech label')
+Paperclip('Paperclip', 'Paperclip', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

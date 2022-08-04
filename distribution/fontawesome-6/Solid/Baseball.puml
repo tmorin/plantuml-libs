@@ -2,15 +2,15 @@
 
 sprite $BaseballXs [10x10/16z] HOcr0G0W40CFXohxJul3MnIWAhD6UzeJKbhgkFg43VdogrZVNWlfT0m
 
-sprite $BaseballSm [12x12/16z] DSo55S0W303HKFVRVreaz_fn8Z4i727uwBmYhxxVSKmlQVa8hz9T3XGxbddyztqicuxgBxf-AVdR
+sprite $BaseballSm [12x12/16z] NOo30G0n302JDtlxJrlxOafWuv8463mnBQGqrNy8-XFP3F8py-fL3izoHlU2CrXw6gwDU7oYiUi
 
-sprite $BaseballMd [16x16/16z] PSc53GH1581GrlKV_NTx8rb_KG95Zrl38RGn6MkQT6Pnv667CDcmQZ7ZfrMlhkmUQBhhVj1kzp3snWEp2KSsaqam7cq6X9U1P3SXZeHMRJU3v0y
+sprite $BaseballMd [16x16/16z] RScr0SC040J15UDx--_MRxXC4ntmDUCr4ANOLhviWxPAZHlATcKTqCPBVsRrv39WoFk0yT9WiEx1OBTXwcOhrdHjGAcnq6uRbGg3EbuMxGq
 
 sprite $BaseballLg [20x20/16z] {
-VSy7YeOX30RXuRVB9tF_sowAGcZxMFFI4gwENoLeAghhn-M6nmYHq_k-A2hGF6W-uD7GftEZPGXLOHa0m-x_2kapIibUIpK88pqKjyNoINWKVZx4LZHYcnvj
-k2MEuaPLXQUhARiAsny
+VSy52WGn44JHcdWoykz_swMXWCRsZSPQP4iyGqa71F1UCi1piDCK1tyzHTQb3Y6-vcrC0RRagPSq2I1FcQJDuB-k-f1T5wEMGP9RCZN2gnViydhH1QPSYfd2
+SNlR9uFRL_KkMq0jl4NX1m
 }
 
-!procedure Baseball($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Baseball', $name, $tech)
+!procedure Baseball($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Baseball', $name, $tech, $desc)
 !endprocedure

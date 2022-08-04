@@ -1,19 +1,19 @@
 ' definition of the Item fontawesome-6/Solid/PersonFallingBurst
 
-sprite $PersonFallingBurstXs [12x10/16z] HSI50S8000InuCxjFotKcnVucbqZdBySSy-XmOD20zORw5bzJiD8W-lx65jdPTS1_04
+sprite $PersonFallingBurstXs [12x10/16z] HSQ50S8054F1mvst_xHGxtr9u6jsZN3-Simz6ZmeSsT-4pshpsauqk3wbdrdPHVm1m
 
-sprite $PersonFallingBurstSm [15x12/16z] JSk50O0m4C30u4xsdnQfN_MDtqtMsSD_GE3oO1QyTNMXPrUO_G7ntbDugWEN4SOVL-ezqfXT357-KtZHMknebTON
+sprite $PersonFallingBurstSm [15x12/16z] LSk50SGW5C3Gr9tiF-r9yOT-uoz0CZZ0_u30uyKY67HtO-1KMFm3uhsdy5P77YECFvxKUwKnXnYYe1G-j3RfAD4N
 
 sprite $PersonFallingBurstMd [20x16/16z] {
-JOu70e0W30F3nfd__zQsSPq2tGt4YJ_7z10J7AuH8hFP17BHsp3yANvL2ay3AzbYW24psJjWJCLyih_hKoP7OooM-O23GzPXfb6ZjMnFa6PrnM1MIdxPr16Y
-i_JvzP0ZSSZuezb_liOVMlLm0G
+PSe55W8n303HITSbE_U_BI_5uLUYq5ryohLQ1iKgI0rGY4USM1G6XUO31Emw0PVT0A0k08jT01NtzreLemK8dqWNkoGhD43ZU3OzNZrqZgWFhWL8WwOGobC0
+QKBmJHk_1kMF1ayt
 }
 
 sprite $PersonFallingBurstLg [25x20/16z] {
-RP05ba0X200nVfXp_zkkZzWUMnfnMezRyhFU-WB_A7wvOUip11kpvN2EhZlhoK1-Dv9XgATr19FWENzPzSqJWONdaFNwOcX2cSFK_q7GmfmxRe4PU8oyCFPu
-v8ORfufAh987z6cI11rM21A1rA8_Bf1NenThZrnDTvNlRuq9icxckCWVEbJvYplxb-9z-SluAVW
+RP050i8m34LJcLJV_K-Bf1_dmRQucIZLHD0t9l-0z2HXXtbtWo8dLP4UM_tDo148nyGYDBC0mymwY6Crgu3onMeF45qyMVX00Q2xlO4eIeTD4WWB4Znvi9Xj
+jmGx8fjxrYOPN5LJg33aU1yp9zj13Xzpzxcddwje2x_Gwp1lPzPD90jH8TilAlQNgBlyqkGGLm
 }
 
-!procedure PersonFallingBurst($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonFallingBurst', $name, $tech)
+!procedure PersonFallingBurst($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonFallingBurst', $name, $tech, $desc)
 !endprocedure

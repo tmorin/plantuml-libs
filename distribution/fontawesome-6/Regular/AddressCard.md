@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/AddressCard')
 
 ' renders the element
-AddressCard('AddressCard', 'Address Card', 'an optional tech label')
+AddressCard('AddressCard', 'Address Card', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/AddressCard')
 
 ' renders the element
-AddressCard('AddressCard', 'Address Card', 'an optional tech label')
+AddressCard('AddressCard', 'Address Card', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/AudioDescription
 
-sprite $AudioDescriptionXs [11x10/16z] Oq02_BW1BoU41YfYu6BWWpA1EbY1B0BQaIG
+sprite $AudioDescriptionXs [11x10/16z] Oq02_BW1BoU41YfYu6BWWpA1EbY0B0BQaIG
 
-sprite $AudioDescriptionSm [13x12/16z] ZSV50S0W0C30rBtPVzgw02_kbH0n6mgipo3Bmjq3ilhCgIllcRHkgzh470xJ-kbs
+sprite $AudioDescriptionSm [13x12/16z] ZSV50S0W0C30rBtPVzgw02_kbH0n6mgipo3Bmjq3ilhCgItlcRHgYyh4R81f_NGx
 
-sprite $AudioDescriptionMd [17x16/16z] dSk50SCm34JHhvhnzf-sp9myeuWNSTuRcwXrQjqVvsxZ83dsBWsGvP3evmRdE2MI3ZfxrQ72kS5wDnpWTJFLk_vZUWBsW1q
+sprite $AudioDescriptionMd [17x16/16z] dSk50O0m34JHZrlexJyjxavVDSP9whPgKlafo-u4mJeEKa1dRe2yIqZOr114Z8bCFQDJTecSgG4p2818AoSpVSCfSTG2
 
-sprite $AudioDescriptionLg [22x20/16z] hSm53e103031nPtz_sz9WyF5RoBriljfVshGlsKsatZaCWolXnErIXYz02gC7Qow6oceb2BIJdS5A-nTQTpDK1OqHhTcSiTE2BgBdmvxjpQFpXGM_ngIDW
+sprite $AudioDescriptionLg [22x20/16z] hOxL0SKW5CLIBxx_j4zm-oJezGDpZe4Tt0IZtI9y8oD4qr2m_sx-oE85_2qViCafWUFl_N_laceXU1rd6WKR7DwxvyO4ufiR75w6z-vk3S_KYvauBwPy0G
 
-!procedure AudioDescription($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/AudioDescription', $name, $tech)
+!procedure AudioDescription($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/AudioDescription', $name, $tech, $desc)
 !endprocedure

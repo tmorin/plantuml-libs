@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Regular/TrashCan
 
-sprite $TrashCanXs [8x10/16z] VON50S0W0CJIudhxJul-EKa0gR9bA8Qk6yJEiTpRWUsyKZK1
+sprite $TrashCanXs [8x10/16z] VON50S0W0CJIudhxJul-EKa0gRBrKGnTDuYTO_rl1xRpIjK4
 
-sprite $TrashCanSm [10x12/16z] bSO70G0X3CNGVvDD_Ajb8u07RQC6q82peQLX4-_mPw5VHjVTgpzxL4EhoFHK
+sprite $TrashCanSm [10x12/16z] bSQ50S0m30D1bRc__xG1mm0vWwG6aE4uxbOFafZDyWkjRIQrPdCEDTFQYvig
 
-sprite $TrashCanMd [14x16/16z] jSwr0S0m0CH0cTc__xHXMY3NgHEx8IbnaNOPTaaEQ38mzRMblobinKrch-OGtLtLVoW35iDUHORxru0UdHK
+sprite $TrashCanMd [14x16/16z] jST50OK000MmVS7bzK-BMm5sczMGf798LZMhAZzq-J3cQUdtbDyofrZN4VttMF_2y87GnA4CSkdD
 
-sprite $TrashCanLg [17x20/16z] nSY50SCm4CLGnSn__saRnWNwZ2SsJOl0HRl48QdkUG9CpbagUT7LSqv37nG5TncofELSXjX2inHBDbUGfuTr_pa4yE3OGfJZ8i4arN8OQo3eOM86
+sprite $TrashCanLg [17x20/16z] nSY50SCm4CLGnSn__saRnWNwZ2SsJOl0HRl48QdkcSMKSvPANdJrdDFG1qdEN8OcdBWDiOKsKGpPN466xkZXto601ySHB1TfksevZ2q4FS0C
 
-!procedure TrashCan($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Regular/TrashCan', $name, $tech)
+!procedure TrashCan($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/TrashCan', $name, $tech, $desc)
 !endprocedure

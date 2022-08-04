@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/CalendarWeek
 
-sprite $CalendarWeekXs [8x10/16z] TS750O1G00KWxFRjFwtjyGCh6eGkyfa--MqWcK5AJW
+sprite $CalendarWeekXs [8x10/16z] TSMv4O0040B07KtywRzQNrBt3c33Y314QgwaTf0itHyN
 
-sprite $CalendarWeekSm [10x12/16z] Os1Wu0PYFWOWOES74lmW6XCmm04MKHGMCmJmOmEyS1O
+sprite $CalendarWeekSm [10x12/16z] Os1Wu0PYFWOWOEK74a3Cpey96E00YoWAYn42-B41NZWB
 
-sprite $CalendarWeekMd [14x16/16z] bSU50O0030F1uDRo-q-BktFLI0fSovQCQDcLWPiDEtNkHJk-mq6kMGr4cjafOJD-o7Qf1G
+sprite $CalendarWeekMd [14x16/16z] bSU50S103090KXTIzf-sxluN1Jt7ja5Ds_fTKt9ot9dhcHtuWKuAB9e-HLZmaiI50kI7r04
 
-sprite $CalendarWeekLg [17x20/16z] jSg35S1000JHZPtflzhOnjr_NAWH5cgvEEg1hqP1EXL1NsJTRwtaLhBbRl64PXwDGZFdi2WtXGqUQsKD
+sprite $CalendarWeekLg [17x20/16z] jSg30S0m54NHbzft_sbhMpd1fsf1heP1FN2Qa9Ei6scxjrHmALupQzoXYKijrynkerWrR71PAYe
 
-!procedure CalendarWeek($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CalendarWeek', $name, $tech)
+!procedure CalendarWeek($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CalendarWeek', $name, $tech, $desc)
 !endprocedure

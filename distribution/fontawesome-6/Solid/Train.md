@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Train')
 
 ' renders the element
-Train('Train', 'Train', 'an optional tech label')
+Train('Train', 'Train', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Train')
 
 ' renders the element
-Train('Train', 'Train', 'an optional tech label')
+Train('Train', 'Train', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

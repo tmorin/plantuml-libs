@@ -2,12 +2,12 @@
 
 sprite $CameraRotateXs [10x10/16z] Oq06_4301AKHW0k88J9S22ae2rc0Zu4FocO34GXJ
 
-sprite $CameraRotateSm [12x12/16z] NSp50G0n2031ZJlqN-svPZuuJ7GpziIvg3ldxD09E94hBMhfx-JAHt-FFAADAy-0pE-6tFeA
+sprite $CameraRotateSm [12x12/16z] NSp50G0n2031ZJlqN-svPZuuJ7GpziGOhpjZ63e18tAbHGtzdLpvg6_F8jguyWp8_6x8hQy
 
-sprite $CameraRotateMd [16x16/16z] RSwr0GL1549HlgunZ_whNHct4t4pCFDnPiRIyipldNGAI2v-ZtxVLSKAZwdnaSntWTIZBt18LZUruPTxyQTLCIfOrCAhWGi
+sprite $CameraRotateMd [16x16/16z] RSwr0GL1549HlgunZ_whNHct4t4pCFDsPiRIyipldNIIHtBnU_H-hIfMU4oDjsI-2vJklO5Tihgf3P_SFtzQ5QFaBMgXSm4
 
-sprite $CameraRotateLg [20x20/16z] VSx50G0X40J1nXtoZ_RSXNgk3l-CdIaksaPo46rtZjp5qZfoV5OiiqG-In9ib72jgVbpFMedTwjzCHyvDSWvZgYt6h5gkDQaOHRRNR37pzhUU9So7qO
+sprite $CameraRotateLg [20x20/16z] VSw53S0m3031BrDW_sshCEU4PZEsRiP2HdjhdJDYM7cbdX1ldTanFeIELZZV5VBSOawfc4kkAjSwQFzSOJ7le8eShzefSik6KR_zdF6cqYtQb83M3m
 
-!procedure CameraRotate($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CameraRotate', $name, $tech)
+!procedure CameraRotate($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CameraRotate', $name, $tech, $desc)
 !endprocedure

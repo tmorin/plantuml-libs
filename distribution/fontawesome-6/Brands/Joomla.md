@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Joomla')
 
 ' renders the element
-Joomla('Joomla', 'Joomla', 'an optional tech label')
+Joomla('Joomla', 'Joomla', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Joomla')
 
 ' renders the element
-Joomla('Joomla', 'Joomla', 'an optional tech label')
+Joomla('Joomla', 'Joomla', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

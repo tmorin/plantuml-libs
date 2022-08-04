@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HouseFire')
 
 ' renders the element
-HouseFire('HouseFire', 'House Fire', 'an optional tech label')
+HouseFire('HouseFire', 'House Fire', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HouseFire')
 
 ' renders the element
-HouseFire('HouseFire', 'House Fire', 'an optional tech label')
+HouseFire('HouseFire', 'House Fire', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

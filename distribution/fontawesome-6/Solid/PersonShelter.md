@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PersonShelter')
 
 ' renders the element
-PersonShelter('PersonShelter', 'Person Shelter', 'an optional tech label')
+PersonShelter('PersonShelter', 'Person Shelter', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PersonShelter')
 
 ' renders the element
-PersonShelter('PersonShelter', 'Person Shelter', 'an optional tech label')
+PersonShelter('PersonShelter', 'Person Shelter', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

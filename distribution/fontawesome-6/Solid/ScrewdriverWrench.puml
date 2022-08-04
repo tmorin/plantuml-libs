@@ -2,18 +2,18 @@
 
 sprite $ScrewdriverWrenchXs [10x10/16z] 7SQ74S104C90EMUh_sv_u08iAnbXKp3H3ChAE3HwyLxkG6zz2sVrMrMur7iIoW4
 
-sprite $ScrewdriverWrenchSm [12x12/16z] BSsrOG110C0mF-D5-qyRTgNE_JT6nL87nw-zSLOjYAdKmpIy3rMJNluyiZtzah7pJnxuun4OnuV_ZVMFnVu5
+sprite $ScrewdriverWrenchSm [12x12/16z] BOd70S0m48D8Rxwm_xJkUWbWBWBG5Iwz-ZSnBgkA0iAdIvW-fKsIZXzuVFIhSUgy-gcEUw6s_7lDkeyBUXO
 
 sprite $ScrewdriverWrenchMd [16x16/16z] {
-DOs55KH130Bvxg7_RY_Bl6DrOaYNqEPFBRk2vdEvDGU9Lm9xNuDsAVp1XwNPzZMYqtGcECzd0f6YqxUchN4BLWUURrUje1tV4eW10T37PWAW9tq4Ub1G_y0d
-a40rWGJq0m
+FSq5ZW0n3CLG3sFg-vzs8L-QYlfS25naRHQ0ZgRPNAhJHnYgR6e_WdR5kp2f5-eqxRd4cM1VIhZfFxRy-HUUsXbhg5ncOEXS9eGUcmcXK0b_7pM_K8G90mqJ
+-0K
 }
 
 sprite $ScrewdriverWrenchLg [20x20/16z] {
-JOy73WCW3CIEgPRb__-sYW9HhNLOP4arwJ7OCZfqDml0GhEmB64aHIIhFVK-ihM1h_-IfZkUWrjzrAy3SscjpJPvaVClf_vaKbd4jzMrEMCNZHCtqVsC8STV
-QM2izylGXlYvFDUCizylZlJ1cJMKzEMXTbNy7AJXAduc7TWAFgP-
+JOy54iGm3CHKRjCu-__N7Xck6h8rHbWfcemlgxIxwP84i7s33g1G6MfYJPM5CapIvLLmkrCwARe7UxYOqBl9s9NWFENDGyBK_sLznpIQBRHHFsdtDneydsgg
+buW4awgoUppFSYohDE3CMzPIS2bX2LMLJLCBbPKm97CHbV06
 }
 
-!procedure ScrewdriverWrench($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ScrewdriverWrench', $name, $tech)
+!procedure ScrewdriverWrench($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ScrewdriverWrench', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/ThinkPeaks')
 
 ' renders the element
-ThinkPeaks('ThinkPeaks', 'Think Peaks', 'an optional tech label')
+ThinkPeaks('ThinkPeaks', 'Think Peaks', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/ThinkPeaks')
 
 ' renders the element
-ThinkPeaks('ThinkPeaks', 'Think Peaks', 'an optional tech label')
+ThinkPeaks('ThinkPeaks', 'Think Peaks', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

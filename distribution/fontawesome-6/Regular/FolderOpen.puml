@@ -2,12 +2,12 @@
 
 sprite $FolderOpenXs [11x10/16z] HSR50O0m0C30u4xsdnRglTT1Pr06B0OWnOKqibbXizPCDb0tymC
 
-sprite $FolderOpenSm [13x12/16z] LOg50S0m20I_xit-qqPmBW8lI9JEflirldrPbZ4FZOkAWOX9wQ8unnk5hri989GEuFc53sW
+sprite $FolderOpenSm [13x12/16z] LOg50S1020EJkdV_QT-nUu480dzXbVsetqQopbNYNqHb20f5_CRwU67hyZlWIYjmVuCNo
 
-sprite $FolderOpenMd [17x16/16z] PSg54G0n449HOkTP-k_sulf6-GCsXmHks4pU5YW8JlelS3MqeygXuRq4NHvUEX-2uqJ09TXfEWedw_zQ0w2c_I1GWp1_
+sprite $FolderOpenMd [17x16/16z] PSo54S1G309GwWxxJrl_mkMTHW31oDjGpNfjUI5-wsE_3McH7vjlaMdsHUuuM1ptefSXvDZPs8ioa1iX1_XcGNG1
 
-sprite $FolderOpenLg [22x20/16z] TSy54a0X24LHVgU-_Q_MRl1Edp609fsX0P5QMlnn-wCti7L7ANGWzLHjUQzQmoUfUYMjlsdqQQyNUFwySFPcUW3iQA2JuKRWQPBq5ASA6uwuqomB
+sprite $FolderOpenLg [22x20/16z] TO-55O1G3CHmX-m_BUvt3Vhpgab0llEJdAHlEL1leJMym-7ubfoqZtthuh4FzCwEdRDFjualqsPhb2tUn3PYSv3GNLKQQWAP4cSBEzM-eOP6B
 
-!procedure FolderOpen($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Regular/FolderOpen', $name, $tech)
+!procedure FolderOpen($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/FolderOpen', $name, $tech, $desc)
 !endprocedure

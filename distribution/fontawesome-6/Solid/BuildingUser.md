@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BuildingUser')
 
 ' renders the element
-BuildingUser('BuildingUser', 'Building User', 'an optional tech label')
+BuildingUser('BuildingUser', 'Building User', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BuildingUser')
 
 ' renders the element
-BuildingUser('BuildingUser', 'Building User', 'an optional tech label')
+BuildingUser('BuildingUser', 'Building User', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

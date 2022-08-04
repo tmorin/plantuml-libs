@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/EarthAmericas')
 
 ' renders the element
-EarthAmericas('EarthAmericas', 'Earth Americas', 'an optional tech label')
+EarthAmericas('EarthAmericas', 'Earth Americas', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/EarthAmericas')
 
 ' renders the element
-EarthAmericas('EarthAmericas', 'Earth Americas', 'an optional tech label')
+EarthAmericas('EarthAmericas', 'Earth Americas', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

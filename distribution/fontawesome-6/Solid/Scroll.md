@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Scroll')
 
 ' renders the element
-Scroll('Scroll', 'Scroll', 'an optional tech label')
+Scroll('Scroll', 'Scroll', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Scroll')
 
 ' renders the element
-Scroll('Scroll', 'Scroll', 'an optional tech label')
+Scroll('Scroll', 'Scroll', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

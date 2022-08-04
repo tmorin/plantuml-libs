@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/GooglePlus')
 
 ' renders the element
-GooglePlus('GooglePlus', 'Google Plus', 'an optional tech label')
+GooglePlus('GooglePlus', 'Google Plus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/GooglePlus')
 
 ' renders the element
-GooglePlus('GooglePlus', 'Google Plus', 'an optional tech label')
+GooglePlus('GooglePlus', 'Google Plus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

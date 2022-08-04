@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Ember')
 
 ' renders the element
-Ember('Ember', 'Ember', 'an optional tech label')
+Ember('Ember', 'Ember', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Ember')
 
 ' renders the element
-Ember('Ember', 'Ember', 'an optional tech label')
+Ember('Ember', 'Ember', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SchoolCircleCheck')
 
 ' renders the element
-SchoolCircleCheck('SchoolCircleCheck', 'School Circle Check', 'an optional tech label')
+SchoolCircleCheck('SchoolCircleCheck', 'School Circle Check', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SchoolCircleCheck')
 
 ' renders the element
-SchoolCircleCheck('SchoolCircleCheck', 'School Circle Check', 'an optional tech label')
+SchoolCircleCheck('SchoolCircleCheck', 'School Circle Check', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

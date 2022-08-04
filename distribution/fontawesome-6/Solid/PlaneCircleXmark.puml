@@ -1,19 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/PlaneCircleXmark
 
-sprite $PlaneCircleXmarkXs [12x10/16z] RSh50OG000F1d0io_LUBE-mdcfvl5jZwvvM7Ltfg47o0Gkb6DVm9IUxy_AJt46W1
+sprite $PlaneCircleXmarkXs [12x10/16z] RSh50OG000F1d0io_LUBE-mdcfvl5jZw-vM7r-1g47o0GYbKmv-GvCRFJteFWHO
 
-sprite $PlaneCircleXmarkSm [15x12/16z] Om03FWPamC_FZShb9vRBomy2710E1py4CC0818yFeWn8C8AqGun0uo8KWxWyO1OZY6G4
+sprite $PlaneCircleXmarkSm [15x12/16z] Om03FWPamC_FZShb9vRBomy2x10E1py4CC0818yFHB21zOAqGun0uo8KWxWyO1P44
 
-sprite $PlaneCircleXmarkMd [20x16/16z] {
-XS_50G8m40NHZNkc_sxXuyuSNtJjqhQtu0qxy6eR2Ez6_6y3bUrUuLAojAOxYkDQCL2sk2LITw9ci5qSud9vTsWOqVqlQK1njYxM07e0OpcuVm_jLaaseVlD
-rZdH0G
-}
+sprite $PlaneCircleXmarkMd [20x16/16z] dSwr0S0m30NH7sRT_jC6pUvovJD8SfcgeC85ACs0zf-jF0s9Z833uTYQMnfmJU9D1o5793Jr81lrSk_cRc2IspxQ91tEPkxM5iIXppRUPCGzz-UIOJe-kW
 
 sprite $PlaneCircleXmarkLg [25x20/16z] {
-hT4r0iH030J1sPDbjlh_hpKpP5VXTBAWZOTUPO3UC2g_GgUdn2Z-4YechXjd5JgpOFTJ4L0dZO934WjNmKabDiPPAk1NWo2OH6bC1DIgPSjgnpqOhRiMfo1J
-VGIOg8ParDf2ni8JJ6BxWfQLSbPQGrGcR-XaiNxP
+hT6tbSKm50DHaFpo4gR_RlSyUPlj3J49ZJQLzIe3UWDGVuNfA_XVGaSekgbOMMV9x98QGvzYD-UTHQM6aqvi2cTg8FSWCC5j8GZerIaHN8vx46NPjJg2aheZ
+G50VExssK5XKWk3j2qPMgbXf3UwIyi2axFNB_W
 }
 
-!procedure PlaneCircleXmark($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PlaneCircleXmark', $name, $tech)
+!procedure PlaneCircleXmark($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PlaneCircleXmark', $name, $tech, $desc)
 !endprocedure

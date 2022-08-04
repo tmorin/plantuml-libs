@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FileZipper')
 
 ' renders the element
-FileZipper('FileZipper', 'File Zipper', 'an optional tech label')
+FileZipper('FileZipper', 'File Zipper', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FileZipper')
 
 ' renders the element
-FileZipper('FileZipper', 'File Zipper', 'an optional tech label')
+FileZipper('FileZipper', 'File Zipper', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/TwitterSquare')
 
 ' renders the element
-TwitterSquare('TwitterSquare', 'Twitter Square', 'an optional tech label')
+TwitterSquare('TwitterSquare', 'Twitter Square', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/TwitterSquare')
 
 ' renders the element
-TwitterSquare('TwitterSquare', 'Twitter Square', 'an optional tech label')
+TwitterSquare('TwitterSquare', 'Twitter Square', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

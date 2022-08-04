@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MattressPillow')
 
 ' renders the element
-MattressPillow('MattressPillow', 'Mattress Pillow', 'an optional tech label')
+MattressPillow('MattressPillow', 'Mattress Pillow', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MattressPillow')
 
 ' renders the element
-MattressPillow('MattressPillow', 'Mattress Pillow', 'an optional tech label')
+MattressPillow('MattressPillow', 'Mattress Pillow', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

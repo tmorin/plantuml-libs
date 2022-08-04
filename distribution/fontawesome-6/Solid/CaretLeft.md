@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CaretLeft')
 
 ' renders the element
-CaretLeft('CaretLeft', 'Caret Left', 'an optional tech label')
+CaretLeft('CaretLeft', 'Caret Left', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CaretLeft')
 
 ' renders the element
-CaretLeft('CaretLeft', 'Caret Left', 'an optional tech label')
+CaretLeft('CaretLeft', 'Caret Left', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

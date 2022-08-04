@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ChartSimple')
 
 ' renders the element
-ChartSimple('ChartSimple', 'Chart Simple', 'an optional tech label')
+ChartSimple('ChartSimple', 'Chart Simple', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ChartSimple')
 
 ' renders the element
-ChartSimple('ChartSimple', 'Chart Simple', 'an optional tech label')
+ChartSimple('ChartSimple', 'Chart Simple', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

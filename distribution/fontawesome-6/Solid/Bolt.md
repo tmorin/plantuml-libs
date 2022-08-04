@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Bolt')
 
 ' renders the element
-Bolt('Bolt', 'Bolt', 'an optional tech label')
+Bolt('Bolt', 'Bolt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Bolt')
 
 ' renders the element
-Bolt('Bolt', 'Bolt', 'an optional tech label')
+Bolt('Bolt', 'Bolt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Vest')
 
 ' renders the element
-Vest('Vest', 'Vest', 'an optional tech label')
+Vest('Vest', 'Vest', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Vest')
 
 ' renders the element
-Vest('Vest', 'Vest', 'an optional tech label')
+Vest('Vest', 'Vest', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SquareRss')
 
 ' renders the element
-SquareRss('SquareRss', 'Square Rss', 'an optional tech label')
+SquareRss('SquareRss', 'Square Rss', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SquareRss')
 
 ' renders the element
-SquareRss('SquareRss', 'Square Rss', 'an optional tech label')
+SquareRss('SquareRss', 'Square Rss', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

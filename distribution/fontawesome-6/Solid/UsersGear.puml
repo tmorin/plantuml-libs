@@ -1,19 +1,19 @@
 ' definition of the Item fontawesome-6/Solid/UsersGear
 
-sprite $UsersGearXs [12x10/16z] BOQ50S0m409ftDb_sxwX1vm4rHZ08nK_CkCwGnbDdqZ9VahrLpnA8LH9Rax3JMQA1FK-zlw2hyuF
+sprite $UsersGearXs [12x10/16z] BKc50G0W3C9k-VzRNOy4TeHCxy0bHGOouPY6KXKcObGU_uMdCt8cPEAdCLGkgmWOiRJh-WWy
 
-sprite $UsersGearSm [15x12/16z] HOs50G0X30EBExV_j2zeNHCHZKnHZC3gH-5Mkmleai2CujnngpHQeETT8L4gEdwY70oY9ThyID3-PZrqmVmhrdyQy6Mq8MQiUW4
+sprite $UsersGearSm [15x12/16z] HKo50S0m329RtVZ_shfBKE0Zrf8va1lFGMzu1hB0apA7w-ER_7Z6LCAP28T4iNs9MYtOIqIc8m-memNyXiITjpCI9xGkKA41
 
 sprite $UsersGearMd [20x16/16z] {
-PS-5ZKGn303H-HoU_hizsTg8xeKv1eedFxk_r1kIwWCOIBl_Rsxb5GfLlR9_42vu3TaFVSw1wJl7d0KCcCfjQ8OZ6_6cw32nuYYy2oPi9nodjfUVjuynzgs4
-oyJfovAaYMOd0uQYYMMu0Bgc1SqJ_W
+RO-5OK0n20LVt7FxJrkX_Ff5SP3KYNAU_mMogm2AltpJyO_kIkgc6a3u-1j1geztCCqwPmkZXNrEzNIkwzcUQNUm1v7LOMFe0bMgLpfoF3lCBAUklVUJrJG1
+Gv6YYmnSDvc299_aiv3hbkkkD0dIAm
 }
 
 sprite $UsersGearLg [25x20/16z] {
-PSy54WGX44FHZuqovFwttQ8XPVjAWxG0l3gmY8qWIHrBZWnDYUtJv0_oRxyhGFUJuEWt3zpxfIA6TYLu56QyMLBE2RIyaG6AfZDf-L3moyiN7ON-Q64e7FHC
-axIpIfPNRYTKOJ5NNUCN_bLDdx2cWBR6CZmJKkBHO95yaUP5zqMJyMcfUnxBAHPuXIyC6F7y1m
+POy54WGn409xtSF_Ntj23QUzab2C0XoQ2POJHf9EmbisFUaeBij4I2CcSGDm9iH49cQ7hIhAqamhi2kXqqRHTO1a3kYiwQoN61SoYLnZdDHPfKNBs6VF9Acq
+UfIL-m5wyMQlDPi6_kdb4KIOP52Hf9QPa61NmoGknXbZKE3Ab9ad6YzmY1W1Q9xw3W
 }
 
-!procedure UsersGear($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/UsersGear', $name, $tech)
+!procedure UsersGear($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/UsersGear', $name, $tech, $desc)
 !endprocedure

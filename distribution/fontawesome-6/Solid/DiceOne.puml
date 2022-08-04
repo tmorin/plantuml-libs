@@ -4,10 +4,10 @@ sprite $DiceOneXs [8x10/16z] Ou01ViA0WGWv
 
 sprite $DiceOneSm [10x12/16z] Oq00Vh804Tfu48gv-I207G
 
-sprite $DiceOneMd [14x16/16z] Oq05h7nmmCl8naz5m8J2OQ2cqOmeF0O6HWHW
+sprite $DiceOneMd [14x16/16z] Oq05h7nmmCl0naz5m8J2OQ2cqGoeF1G
 
-sprite $DiceOneLg [17x20/16z] Oy04RCY0bO617nNmyl3J4p2me5cFuI0EcZg87SD1lAXyLem01
+sprite $DiceOneLg [17x20/16z] Oy04pCY0YO617nNmyl3J4p0mercFuI0EcZg87SD1lAXyLem01
 
-!procedure DiceOne($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/DiceOne', $name, $tech)
+!procedure DiceOne($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/DiceOne', $name, $tech, $desc)
 !endprocedure

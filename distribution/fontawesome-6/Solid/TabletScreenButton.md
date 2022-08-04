@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TabletScreenButton')
 
 ' renders the element
-TabletScreenButton('TabletScreenButton', 'Tablet Screen Button', 'an optional tech label')
+TabletScreenButton('TabletScreenButton', 'Tablet Screen Button', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TabletScreenButton')
 
 ' renders the element
-TabletScreenButton('TabletScreenButton', 'Tablet Screen Button', 'an optional tech label')
+TabletScreenButton('TabletScreenButton', 'Tablet Screen Button', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -1,16 +1,13 @@
 ' definition of the Item fontawesome-6/Regular/User
 
-sprite $UserXs [8x10/16z] Os1WOEHd004sVWOmWny5WmXk88K0hFpyO2bU2C435kJdum837W
+sprite $UserXs [8x10/16z] Om02VWOGOEE7CFXHC8ZW1b88mChF3vRYXH0yO45-FYumu04
 
-sprite $UserSm [10x12/16z] LSW50G0n30J1BNFFlzfdd700WWm7gQYTsrN40UZ_eqjo_DcKeW6Cr7kNG9PTKHYSz5e1
+sprite $UserSm [10x12/16z] NOo30S105CLUxMR_QS_ED-NOK0HEdfWbq_R5hEtf1HOD7CUUdhpl2owPvBbmFo9KB
 
-sprite $UserMd [14x16/16z] XSl50SGm34HHXSs__seNndZBCufC8hTr3tyjs4Y_kuTUxyxMXlHmwBdfjy1kZuO58Dkx279hY70Unt7b_oXOS-4tTkiI2PiehBu
+sprite $UserMd [14x16/16z] XSs53GCn40NHVsoU_hkD5WB2FEE8Lgvpw-t1A37iogp8PFMiJUOaxm2RBeOImDH_dN1RG3lsVJycqqBffFhGD1ZeYyMl5m
 
-sprite $UserLg [17x20/16z] {
-ZSZ50OHG303HmU5Bflzgrt1E--9XDKLjEVL-LNQjJX3AfjYlesEbV7KkzqTZkZy69rQp6MYqOQEMq9b3LXtvNnl-BAogXvaF3LQZPYWk7BJ7uDGOipqNOPYk
-mkJ36m
-}
+sprite $UserLg [17x20/16z] ZSY53GHH203HMNUc_shFIBv4x-6GjdX6gjclXq8t28LqE-KOIChNuD4_yEmVenjfzoh_fDwXEyMbkl2_CVmvI8_51g11MlM2suD29mmQnkvC8mpFLdYQYZS
 
-!procedure User($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Regular/User', $name, $tech)
+!procedure User($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/User', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Splotch')
 
 ' renders the element
-Splotch('Splotch', 'Splotch', 'an optional tech label')
+Splotch('Splotch', 'Splotch', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Splotch')
 
 ' renders the element
-Splotch('Splotch', 'Splotch', 'an optional tech label')
+Splotch('Splotch', 'Splotch', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

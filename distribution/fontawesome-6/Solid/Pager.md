@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Pager')
 
 ' renders the element
-Pager('Pager', 'Pager', 'an optional tech label')
+Pager('Pager', 'Pager', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Pager')
 
 ' renders the element
-Pager('Pager', 'Pager', 'an optional tech label')
+Pager('Pager', 'Pager', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

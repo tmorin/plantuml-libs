@@ -2,12 +2,12 @@
 
 sprite $BridgeXs [11x10/16z] ROQ30S1000ElThF_jCLRuH5rAGZqcUERUTRdvVglANhfXf_-vTyxuX5nv0K
 
-sprite $BridgeSm [13x12/16z] ZSUr0OG004FHTwxmzz-M2gs8nnQlDhZy-o-YLPs3PpLGTU5VK7Sy6w4SZ_46tu49
+sprite $BridgeSm [13x12/16z] ZSUr0OG044N1EVTx_NSB2Hengz_QenNVldFJqXtZLlreX6z1dN7j3sKV_C_m_Z4
 
-sprite $BridgeMd [17x16/16z] bSe54aCn20JG_HeZxFrlsoLrRzyC3fxuFUjyWALnMLp1ebXce11m1NS5OEOqOqHNHFktsHXysJXaO5Tf40h2kUgdtorcidnT90mJJZMQ0m
+sprite $BridgeMd [17x16/16z] bSY55G9140FGiExflriok7FttsZmPZqRao_WAfrRQXQrEm2Hm58pge4n5iUWzLIhzdETPhd8ampOrI4KcEkEv7mAT9I_GSAx8m
 
-sprite $BridgeLg [22x20/16z] jObL0iGW34JV6Wvp_zEkrTjyLHua6S766JohB9miWDdAS5S2EtNEIVtogiu55UTq4R4EAiyatFMZmK8IVfArvDURCX-MpwMq-G
+sprite $BridgeLg [22x20/16z] jOy34WH140JpDCR_NtjhLsYHWow46ir7yCvLOMGAhBxOVGPqQeofTVnipSQuceof3-7dDU9AmhiN1JOIqqdsagwNCbwMtuCKD
 
-!procedure Bridge($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Bridge', $name, $tech)
+!procedure Bridge($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Bridge', $name, $tech, $desc)
 !endprocedure

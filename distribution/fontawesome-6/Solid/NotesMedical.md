@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/NotesMedical')
 
 ' renders the element
-NotesMedical('NotesMedical', 'Notes Medical', 'an optional tech label')
+NotesMedical('NotesMedical', 'Notes Medical', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/NotesMedical')
 
 ' renders the element
-NotesMedical('NotesMedical', 'Notes Medical', 'an optional tech label')
+NotesMedical('NotesMedical', 'Notes Medical', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

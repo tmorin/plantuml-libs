@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BookMedical')
 
 ' renders the element
-BookMedical('BookMedical', 'Book Medical', 'an optional tech label')
+BookMedical('BookMedical', 'Book Medical', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BookMedical')
 
 ' renders the element
-BookMedical('BookMedical', 'Book Medical', 'an optional tech label')
+BookMedical('BookMedical', 'Book Medical', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

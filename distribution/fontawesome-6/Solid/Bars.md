@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Bars')
 
 ' renders the element
-Bars('Bars', 'Bars', 'an optional tech label')
+Bars('Bars', 'Bars', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Bars')
 
 ' renders the element
-Bars('Bars', 'Bars', 'an optional tech label')
+Bars('Bars', 'Bars', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

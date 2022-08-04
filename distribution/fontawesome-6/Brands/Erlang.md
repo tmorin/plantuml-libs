@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Erlang')
 
 ' renders the element
-Erlang('Erlang', 'Erlang', 'an optional tech label')
+Erlang('Erlang', 'Erlang', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Erlang')
 
 ' renders the element
-Erlang('Erlang', 'Erlang', 'an optional tech label')
+Erlang('Erlang', 'Erlang', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

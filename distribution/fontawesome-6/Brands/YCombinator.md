@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/YCombinator')
 
 ' renders the element
-YCombinator('YCombinator', 'Y Combinator', 'an optional tech label')
+YCombinator('YCombinator', 'Y Combinator', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/YCombinator')
 
 ' renders the element
-YCombinator('YCombinator', 'Y Combinator', 'an optional tech label')
+YCombinator('YCombinator', 'Y Combinator', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

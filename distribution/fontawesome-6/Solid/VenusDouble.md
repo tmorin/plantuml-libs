@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/VenusDouble')
 
 ' renders the element
-VenusDouble('VenusDouble', 'Venus Double', 'an optional tech label')
+VenusDouble('VenusDouble', 'Venus Double', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/VenusDouble')
 
 ' renders the element
-VenusDouble('VenusDouble', 'Venus Double', 'an optional tech label')
+VenusDouble('VenusDouble', 'Venus Double', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

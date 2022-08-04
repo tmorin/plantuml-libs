@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SheetPlastic')
 
 ' renders the element
-SheetPlastic('SheetPlastic', 'Sheet Plastic', 'an optional tech label')
+SheetPlastic('SheetPlastic', 'Sheet Plastic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SheetPlastic')
 
 ' renders the element
-SheetPlastic('SheetPlastic', 'Sheet Plastic', 'an optional tech label')
+SheetPlastic('SheetPlastic', 'Sheet Plastic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

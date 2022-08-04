@@ -2,18 +2,18 @@
 
 sprite $ClockRotateLeftXs [10x10/16z] RSQf0S0W002nz2_gzjyMXICgC7hHNrL31NggImYs4m5yyQwugs82
 
-sprite $ClockRotateLeftSm [12x12/16z] PSc50OC040F0gnVD_jFYpaiKLFaRwI_pC2FlPDH_AgIfvnP5ODRkcZns_NXhPWtl_7YcH9EMaSRvqGC
+sprite $ClockRotateLeftSm [12x12/16z] POn50e003CE2E_p_jsmjJYwPbcJQUgbbCwWWg49Hjh45jcNsDkf1UzVywt1nrqNDujgXNUv7YEcA5EHq1m
 
 sprite $ClockRotateLeftMd [16x16/16z] {
-DS-55O0m303Hu5Hl_srZBuV-efNeMOn3lECHMMIl6NvWFjUtORdz41qs7luDGomuyGwvSTyWfoLXonoLL_cYbxD6i_rsry2PprV6pYxLvwo79zXp1l83QssS
-qKaKpoe
+NOw55SGm3CLKIj7H_jlUitkieFbJBE4va0mBX3SDq4szvd7f6cddKmnwySex0NGmWTcq9oLvsVpRyR8dZn-RtHteyd4CuCTcWCFEYy-usRdCurR6faPqqom6
+Ywfz
 }
 
 sprite $ClockRotateLeftLg [20x20/16z] {
-PT255SGm30JHDREt_sxlwI859_p3nf5hcpD32m0AjUM5o0hUQcB_TeHKINQr2ejakYmCGxqt09rUiQObkSic2SiiyslXPeqRahyP5fTiejeTgvgXt4qkl2fa
-Ub6atffvkqhtIQuSVApwctQ3XREgmvmW_G
+RSo53GGn30NHln26wR_RaoNx-2rc0d9jCxFSAIdXrc49gdZJh67sALE1xgqg04aOE_mS4Ntl9NKEZpKjerURe13j-jEEjzROhnOMopudw3jMRn5jDonzAN1-
+fGlVcdcjyYHWNSTnLY1sthn8eO9Pfym3
 }
 
-!procedure ClockRotateLeft($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ClockRotateLeft', $name, $tech)
+!procedure ClockRotateLeft($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ClockRotateLeft', $name, $tech, $desc)
 !endprocedure

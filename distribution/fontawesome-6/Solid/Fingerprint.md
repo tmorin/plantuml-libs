@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Fingerprint')
 
 ' renders the element
-Fingerprint('Fingerprint', 'Fingerprint', 'an optional tech label')
+Fingerprint('Fingerprint', 'Fingerprint', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Fingerprint')
 
 ' renders the element
-Fingerprint('Fingerprint', 'Fingerprint', 'an optional tech label')
+Fingerprint('Fingerprint', 'Fingerprint', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

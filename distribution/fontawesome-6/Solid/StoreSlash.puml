@@ -1,19 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/StoreSlash
 
-sprite $StoreSlashXs [12x10/16z] NSV50O1G081Gx9RzfxNznUbHWsy45GEoV-v06d5Km1g4RVsCGpJw-8dHOAay0G
+sprite $StoreSlashXs [12x10/16z] NSU50O104CJ0u4xwhnRdxNIs1j_YLnb0ziyTI2EE2doxhPznY4OVFyLeiE09
 
-sprite $StoreSlashSm [15x12/16z] JSU50GGn3CH0NPYt_seVGmhOOnwQPXxGLpE-leA7TjDq_4LS1tNR7zCVm0gGm0WcgNekVaUUhDz0a_ySusiqQqIz0G
+sprite $StoreSlashSm [15x12/16z] LOw30K0n34HVxTx-qtupTiv2rqK1q9D90D8__xNDm7zI_00DEs00604wp9DIzKinAbVQTW9TwKcE-SFHILe1
 
-sprite $StoreSlashMd [20x16/16z] {
-PSZL0KCn3C10sNaSqFxJbhdtURb3ysq6DiVY9u3Yjy6LtoQkcby0W_NtTcTIFTHDJO08G5S22BXg9j0SGBVmFcRzEqBBxy7GrxLw0_lxdfAY0L1zsK4N87th
-q3q3
-}
+sprite $StoreSlashMd [20x16/16z] PSo50O0m4C30u5B9_jFYpa7jhHmWUck0tjpw153wbbdvLhAAVhk5tyJ16jHHxTM2atOyHFSz0ydY4QFHNmoq-iN8UiLYsC1mnqu5vH4CNdhG1YYy9KZE
 
 sprite $StoreSlashLg [25x20/16z] {
-ROv55iHG2C1Iz-R-jvt7iAYHBxYqEx3xO21zxUmBWiq2Wh48Z0IDTKbx3RzeWQXRgi3W2dqrVVbBjPdY6xBWOjE19xg6c4ofopD0fqSPo45bW4N7Cf1xNu5p
-IrPe7u4BuDJs6t24MUTlm0tQt3lanT_NdFu
+RSw54KGX303H_Uvi_zMUInZoHf1eVmAdbOdtNxTgZQV314-phH6UR05qpN2r1vnXomAJEupPz4q1bKNj9hKZE7IWfXl0edjuXbkdLne0DG-mwfG663K6ol6s
+0p4G04MxDk00gwvjm0Fwzzvq1k-_uXq
 }
 
-!procedure StoreSlash($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/StoreSlash', $name, $tech)
+!procedure StoreSlash($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/StoreSlash', $name, $tech, $desc)
 !endprocedure

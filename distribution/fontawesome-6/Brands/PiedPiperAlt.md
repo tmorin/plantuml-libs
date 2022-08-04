@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/PiedPiperAlt')
 
 ' renders the element
-PiedPiperAlt('PiedPiperAlt', 'Pied Piper Alt', 'an optional tech label')
+PiedPiperAlt('PiedPiperAlt', 'Pied Piper Alt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/PiedPiperAlt')
 
 ' renders the element
-PiedPiperAlt('PiedPiperAlt', 'Pied Piper Alt', 'an optional tech label')
+PiedPiperAlt('PiedPiperAlt', 'Pied Piper Alt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

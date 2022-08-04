@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HillRockslide')
 
 ' renders the element
-HillRockslide('HillRockslide', 'Hill Rockslide', 'an optional tech label')
+HillRockslide('HillRockslide', 'Hill Rockslide', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HillRockslide')
 
 ' renders the element
-HillRockslide('HillRockslide', 'Hill Rockslide', 'an optional tech label')
+HillRockslide('HillRockslide', 'Hill Rockslide', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Reacteurope')
 
 ' renders the element
-Reacteurope('Reacteurope', 'Reacteurope', 'an optional tech label')
+Reacteurope('Reacteurope', 'Reacteurope', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Reacteurope')
 
 ' renders the element
-Reacteurope('Reacteurope', 'Reacteurope', 'an optional tech label')
+Reacteurope('Reacteurope', 'Reacteurope', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

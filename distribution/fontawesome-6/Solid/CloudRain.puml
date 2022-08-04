@@ -2,15 +2,15 @@
 
 sprite $CloudRainXs [10x10/16z] Os1Wu6LdW01-C42mE84C6E23ivZXB0Os60CPyCCGK9mBHB4
 
-sprite $CloudRainSm [12x12/16z] RSY50O0m3031nvtVVrfSsruyG6xEPLHdBTXu0J8lFPXM-69ut_nCMxbLjPKjhU1MfJBReAm
+sprite $CloudRainSm [12x12/16z] NSZ50O100CJ0u4xwhnRdR3uhG6tDPrLtt-qdxNEiXSQ89TvaDa3WlkqP1OLMsUrGJW
 
-sprite $CloudRainMd [16x16/16z] VSw50GGX30J0nJLi_zq--dutk2ReTAju8-oigcaj3Pym53wPTVsfEe0V9F6UuIS8tzcHm9F6Fp8wFcTrf2NK8zEH8DcU7UUwFjU21m
+sprite $CloudRainMd [16x16/16z] VSU50GCn40F1DRFLVxLXU9v3yM1dPs7emTCBBqO_F3Nz61w6Vhe3hOoYQqvh32rvmFuOZWmUzFkwp6SrMK2QlwLNxhyyk0C
 
 sprite $CloudRainLg [20x20/16z] {
-bT254S90503HpMby---M-OCxl7CNGjhitDiC0xabE9ezYg658syDFFTDXEAjRHfWyL5EFjj_xCi-O_LHXUQTZN_qAV8auPXpVFXk0oQNurT5EQX0vCV263dt
-5Q3h1CFn5hl20G
+bT255GCX44NHXw_o--ysPvYuxyLTC75Nuz4k0o45S8kS3QqutGkyzisO-D2tM-UgPo7gLV-pB-aLsqjNXge7EqUKsV8WZF1Yb5q9cBNwLraPD8OyHwDShdqP
+QFv1VeikmGa
 }
 
-!procedure CloudRain($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CloudRain', $name, $tech)
+!procedure CloudRain($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CloudRain', $name, $tech, $desc)
 !endprocedure

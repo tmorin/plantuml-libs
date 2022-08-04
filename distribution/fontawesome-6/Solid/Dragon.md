@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Dragon')
 
 ' renders the element
-Dragon('Dragon', 'Dragon', 'an optional tech label')
+Dragon('Dragon', 'Dragon', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Dragon')
 
 ' renders the element
-Dragon('Dragon', 'Dragon', 'an optional tech label')
+Dragon('Dragon', 'Dragon', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

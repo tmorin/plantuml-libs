@@ -4,10 +4,10 @@ sprite $ChevronLeftXs [6x10/16z] Ou03VZ312oBuG0I8pySFaS9ACG
 
 sprite $ChevronLeftSm [7x12/16z] Oq009duGoSZF1wAW93-2v0EIO1u1cfi1
 
-sprite $ChevronLeftMd [9x16/16z] LOo50O0W44NjrhV_j2fmITxFBgzB_eUzOQZ_Blyg_mHz7M2Gm2DHE6nQR9hQC5I_D8YuiClqLtu
+sprite $ChevronLeftMd [9x16/16z] LKs50S0m329pv_zhPusx0geScYykhIV_l6gUDVUQGOe-NB39vjNaLTyAiVj0mFHpgJm
 
-sprite $ChevronLeftLg [12x20/16z] RSg54S0m30J1LvYl_sh3Pl_GQdIgh3VFdSDnXJLm_padTF6Oa9zTe0xedKLsDCu6TF77d9iySrO7XqAsATa5
+sprite $ChevronLeftLg [12x20/16z] RSV50G0X4CNGmPtVVxMhEEJqGeT4PqAk343eJ8LkOYuq4r4eEoa3Yce0v3Xy734EgsRhK4q0cMeSaQPk
 
-!procedure ChevronLeft($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ChevronLeft', $name, $tech)
+!procedure ChevronLeft($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ChevronLeft', $name, $tech, $desc)
 !endprocedure

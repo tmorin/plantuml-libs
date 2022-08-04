@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HouseFloodWaterCircleArrowRight')
 
 ' renders the element
-HouseFloodWaterCircleArrowRight('HouseFloodWaterCircleArrowRight', 'House Flood Water Circle Arrow Right', 'an optional tech label')
+HouseFloodWaterCircleArrowRight('HouseFloodWaterCircleArrowRight', 'House Flood Water Circle Arrow Right', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HouseFloodWaterCircleArrowRight')
 
 ' renders the element
-HouseFloodWaterCircleArrowRight('HouseFloodWaterCircleArrowRight', 'House Flood Water Circle Arrow Right', 'an optional tech label')
+HouseFloodWaterCircleArrowRight('HouseFloodWaterCircleArrowRight', 'House Flood Water Circle Arrow Right', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

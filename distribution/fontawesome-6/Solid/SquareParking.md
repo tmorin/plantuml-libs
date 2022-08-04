@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SquareParking')
 
 ' renders the element
-SquareParking('SquareParking', 'Square Parking', 'an optional tech label')
+SquareParking('SquareParking', 'Square Parking', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SquareParking')
 
 ' renders the element
-SquareParking('SquareParking', 'Square Parking', 'an optional tech label')
+SquareParking('SquareParking', 'Square Parking', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

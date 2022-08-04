@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HandsBound')
 
 ' renders the element
-HandsBound('HandsBound', 'Hands Bound', 'an optional tech label')
+HandsBound('HandsBound', 'Hands Bound', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HandsBound')
 
 ' renders the element
-HandsBound('HandsBound', 'Hands Bound', 'an optional tech label')
+HandsBound('HandsBound', 'Hands Bound', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

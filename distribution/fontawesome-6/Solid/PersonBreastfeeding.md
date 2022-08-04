@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PersonBreastfeeding')
 
 ' renders the element
-PersonBreastfeeding('PersonBreastfeeding', 'Person Breastfeeding', 'an optional tech label')
+PersonBreastfeeding('PersonBreastfeeding', 'Person Breastfeeding', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PersonBreastfeeding')
 
 ' renders the element
-PersonBreastfeeding('PersonBreastfeeding', 'Person Breastfeeding', 'an optional tech label')
+PersonBreastfeeding('PersonBreastfeeding', 'Person Breastfeeding', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

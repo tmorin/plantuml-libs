@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BanSmoking')
 
 ' renders the element
-BanSmoking('BanSmoking', 'Ban Smoking', 'an optional tech label')
+BanSmoking('BanSmoking', 'Ban Smoking', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BanSmoking')
 
 ' renders the element
-BanSmoking('BanSmoking', 'Ban Smoking', 'an optional tech label')
+BanSmoking('BanSmoking', 'Ban Smoking', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

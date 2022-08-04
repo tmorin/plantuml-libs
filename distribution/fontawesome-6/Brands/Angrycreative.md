@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Angrycreative')
 
 ' renders the element
-Angrycreative('Angrycreative', 'Angrycreative', 'an optional tech label')
+Angrycreative('Angrycreative', 'Angrycreative', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Angrycreative')
 
 ' renders the element
-Angrycreative('Angrycreative', 'Angrycreative', 'an optional tech label')
+Angrycreative('Angrycreative', 'Angrycreative', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

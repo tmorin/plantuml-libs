@@ -2,15 +2,12 @@
 
 sprite $MarkerXs [10x10/16z] Ou02JZ393mOW1Wy3bCN601D3OZ0ZH9XHfHZW34v-Vaw8sG
 
-sprite $MarkerSm [12x12/16z] JOl50O1G08MmM_QVrlZDwIMPVYPWv9UtP7tSr9mxoAxg89KgbJl8gTveRZJor8l42m
+sprite $MarkerSm [12x12/16z] JKk50G0X2BplVlUVLcamu19-vbrtqyFmRt3y_4WTlyB4raH20l_4S2jPWLDYHNXR-mnY
 
-sprite $MarkerMd [16x16/16z] NSo54S0m30J13tEk_se3F-ORN5kIYlfLCM07M28x4yoRJcGVWT7AxEIkXhfB0ge9kYDFd7gv7boWykNIVUHaIh4xVCPU
+sprite $MarkerMd [16x16/16z] NSt50S1020NH7_TC_zL6rc5kRmNKrA_A0Jl0aja5Gk1D9wgFIXJol1nrkyVoVyEEq4b8YHs44kKenobGfJjSrbu
 
-sprite $MarkerLg [20x20/16z] {
-PSw53SHG30DGb_lH-qzxs91YyGiYPYqRB8Fi2xzPX6WP3qrMB8BIrQLLhB4AwUnoEYBoZKKj4myCfkSs9EA_KscI_7Sg5Tb-GBBaYwYPa4b6fu9UAF0PvBmG
-ymO
-}
+sprite $MarkerLg [20x20/16z] RT350G0X44FHh2jC_zNY4EmV7mxQrcS3Ko8_n5T8c4gavQNdMNyasiTPN7kIfcTWDCeEDIxSC924cIJj9CvSCZsIsiSJEGllI9ZG4aLJyWaF8Nwllj1c0G
 
-!procedure Marker($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Marker', $name, $tech)
+!procedure Marker($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Marker', $name, $tech, $desc)
 !endprocedure

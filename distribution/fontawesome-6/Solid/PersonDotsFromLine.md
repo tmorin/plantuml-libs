@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PersonDotsFromLine')
 
 ' renders the element
-PersonDotsFromLine('PersonDotsFromLine', 'Person Dots From Line', 'an optional tech label')
+PersonDotsFromLine('PersonDotsFromLine', 'Person Dots From Line', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PersonDotsFromLine')
 
 ' renders the element
-PersonDotsFromLine('PersonDotsFromLine', 'Person Dots From Line', 'an optional tech label')
+PersonDotsFromLine('PersonDotsFromLine', 'Person Dots From Line', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

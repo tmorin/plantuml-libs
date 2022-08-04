@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CameraRetro')
 
 ' renders the element
-CameraRetro('CameraRetro', 'Camera Retro', 'an optional tech label')
+CameraRetro('CameraRetro', 'Camera Retro', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CameraRetro')
 
 ' renders the element
-CameraRetro('CameraRetro', 'Camera Retro', 'an optional tech label')
+CameraRetro('CameraRetro', 'Camera Retro', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

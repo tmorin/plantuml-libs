@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Image')
 
 ' renders the element
-Image('Image', 'Image', 'an optional tech label')
+Image('Image', 'Image', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Image')
 
 ' renders the element
-Image('Image', 'Image', 'an optional tech label')
+Image('Image', 'Image', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

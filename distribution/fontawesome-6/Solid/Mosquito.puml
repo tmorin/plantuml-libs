@@ -1,19 +1,19 @@
 ' definition of the Item fontawesome-6/Solid/Mosquito
 
-sprite $MosquitoXs [12x10/16z] HOQ50G0X08JuxcV_RMtbaifQLvQOzgzvV9VwPoF_59-3ty4KSz-ACMmy-C094Mi2
+sprite $MosquitoXs [12x10/16z] HOQ50G0X08JuxcV_RMtbaifQLvQOzgzvVDkVZVnJV0v-1rFCVIl6iF7W2T4HQm8
 
-sprite $MosquitoSm [15x12/16z] LSc50GCX40NHVsx0zDzjcFWzM4-tH7DaWvb8d6FO8f6w_5yR5qTUZWQgkvURYWxOq6aQe9aWnbMuo00ruZf6zhnTc1bwUW
+sprite $MosquitoSm [15x12/16z] LSw50KCX34NHzns_-s_Rud1mJVHtQ_JPHUvHXpd4DvUAztgQyDYs-195VFF99f9P-CXSxWI9eysGjtWaYCgmzi2eyJEh7m
 
 sprite $MosquitoMd [20x16/16z] {
-PS_50O1G3C3GuDgV_QV5dNUibqrY5rmo1rRAhJUdOvGd6pgIF2YrM-RMsOL5CkDXS9LVDScdL88_gNFNgk5BiHMCRYfNcOQjTUUAK3CSmyA1MgqXAm37pim0
-2WvXjdrTSIdTiqbMCm
+PSg5bKKn203HUQum_NUxXsI_tmXAatJ1YrSFyd8uSd3BEnSEKjueg-3Ao-uU3fzxN9RnkPE-omdyaOVTheOVfhPmsooMGSFTzR0GAdY4WnUhkW83rJl4w5KN
+LdewypGvKLBA7m
 }
 
 sprite $MosquitoLg [25x20/16z] {
-RT05ZWGn4CLG1pTDyVrlkyf0D0rF9VmM5MzRvcFF_D80GtFZLrM849MppOK6cZZJD8R3p4dn8Bg3Sf8qDULGphBkupeduU_mOwzyBDuT1NpMYb-RUZZrcJZC
-RZP_gmxfMmRVPT2csSudPL7D1FUcs65JZK2hC8Rw6GYjC7KRDQALazs3uVRt-QFa1iC_
+RSk73OH04CLGazde_hizhOuCJwFuFVobWKtkkT8EcjN4rQZGGw_S9HVMxVD6-pOKHsu62vqPb9jU-rafocl9xIettLBSv9bDyAqCuBTrqargfOTw93P7TpHp
+rARVIZl_9RhgQ6LB2QeZ66R52acr1zOPsZ1k0wmJX-h2qA4pDza2ZVPSMVdhJT3y
 }
 
-!procedure Mosquito($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Mosquito', $name, $tech)
+!procedure Mosquito($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Mosquito', $name, $tech, $desc)
 !endprocedure

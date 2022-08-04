@@ -2,15 +2,15 @@
 
 sprite $AlgoliaXs [8x10/16z] Ou01VWHWW90S31mWcfkNWuyRBCe1ae5Y4C6Cf0d61
 
-sprite $AlgoliaSm [10x12/16z] LOo30G0n54Dpg97zfwtvleaDBm87tleU0nxqBgZ_lYweYrMUOc-V6jhnJ46ThmWVEoO3
+sprite $AlgoliaSm [10x12/16z] LOo30S0m50LV7T_-qrRnVLCT9YA5u4AEKLBk2hFczGFpMkvb0ncCo6CTuoiKKiO-
 
-sprite $AlgoliaMd [14x16/16z] PSZ50GD14CJ0NkPH_j6QVLW_IMVLDijNxahShr7xLYbdIPcV89jBWGyJL0qPRzr11TTv6-9DWmyjO8clhZooEZyM5OqRpv7aTde2
+sprite $AlgoliaMd [14x16/16z] PSU55GGn3CHGlJ1w-g_sO1b-m1PtnGxJ5Rr55xKpbLQqyJ41NXk7ZOdJmf0A7Lkg_KkYBTLP1bqBfgI9LWtV0qqRSpZJYxiLDry
 
 sprite $AlgoliaLg [17x20/16z] {
-TO-75O0W30NlunD8RFjFQ-_AKTCJFYZUgM5uqlV3FndieJ1tloJKCtD59qCvYtnc9ivkEPu-aVc2bhWh5EOhp5kx8kWoh6JsQkciMortTHNkG8BkDbAKOc4i
-VoletsE_cG
+TO-50S0W3C22E_n_xTm7GUijVzGJ2UrDhQsF0_zIX1ZZBI4gGBtz0xXdKCMsXhUNZsQD8wCFXP3B9PSjJeLulysmlvYhhbnlUHSk80IKnqWAr62i-5NmSVHy
+cG4
 }
 
-!procedure Algolia($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Algolia', $name, $tech)
+!procedure Algolia($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Algolia', $name, $tech, $desc)
 !endprocedure

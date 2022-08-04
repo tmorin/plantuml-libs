@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Nimblr')
 
 ' renders the element
-Nimblr('Nimblr', 'Nimblr', 'an optional tech label')
+Nimblr('Nimblr', 'Nimblr', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Nimblr')
 
 ' renders the element
-Nimblr('Nimblr', 'Nimblr', 'an optional tech label')
+Nimblr('Nimblr', 'Nimblr', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

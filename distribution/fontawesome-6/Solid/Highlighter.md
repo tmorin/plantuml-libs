@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Highlighter')
 
 ' renders the element
-Highlighter('Highlighter', 'Highlighter', 'an optional tech label')
+Highlighter('Highlighter', 'Highlighter', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Highlighter')
 
 ' renders the element
-Highlighter('Highlighter', 'Highlighter', 'an optional tech label')
+Highlighter('Highlighter', 'Highlighter', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

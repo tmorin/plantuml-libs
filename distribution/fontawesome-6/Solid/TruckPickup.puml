@@ -1,19 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/TruckPickup
 
-sprite $TruckPickupXs [12x10/16z] NOR50O0m0CG27vpiForIRq_3ABKocvNH_wjQlgnY5YGCk7gXry-J__xp0W
+sprite $TruckPickupXs [12x10/16z] NSQd0SD0000niSJrzj_My8kGxAfnH-CA3HgU1Y8H-lUe9oWK7m
 
-sprite $TruckPickupSm [15x12/16z] RSUn0K1G0CN00E1zsNzQg83hZZ-gzoRt2vMvbzuUy2xFheCFLHmPJH4qu5agGO6e1LHRWAOq04Cgs04
+sprite $TruckPickupSm [15x12/16z] ROt50O1030HntJ3zTqis7tJkujRyGN8FfNkCHOzmOhHtHy_mc7dGYAbPKE0vfLeoh6rrIq3OXyvNkkXjPjyz0G
 
-sprite $TruckPickupMd [20x16/16z] {
-VOu54WKn2CKUibwQ-v_skykcGYPZQ8VMUry-4XVU6emHiBota0poisa0dR4w0zS1rQJY4_lHNF19Au1Sk98pWAAHr_qAbuhHfONvt4phLLoIGG5NwMUvRWeF
-CLsnTpa2
-}
+sprite $TruckPickupMd [20x16/16z] VOw30GL130NVwfnC_zL-d3sB67fXSFVsv694Uw342EtH5yS_NNnvhWxs1sQ13P9nvjx7XM5CImqJgHuJuq2SzhE_OkGWjJH_dzJDoXymO59yzYMOj3mgztm1
 
 sprite $TruckPickupLg [25x20/16z] {
-bP05WW8n40HxBPxK_rzx1uqxL3pZeyziOSUY1ngcFWWu4Xy5oJlpKy44F1LelPBC1hBF2dMU9IqyHOe_2mfFMJil201DsZZYMdmArbCTKDosVYbjWat2Nz0i
-w50JC4a9HW0s2sQCEpB0COrjM6IALTxn3m
+bP250SCm30HbPl_-spQ2Cbyu3mRwZWy7dfwO4CQJ0ACy2rLbzr9WvRKGRnGd04sU0nYEwpnUGXJ-5WfUuXVmciotUTD8HDUdEwy3wB9jwsup4j-Ml4uH5Z2g
+Xe_7vl90missRZ2JZ7KrTN3p9qu
 }
 
-!procedure TruckPickup($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TruckPickup', $name, $tech)
+!procedure TruckPickup($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TruckPickup', $name, $tech, $desc)
 !endprocedure

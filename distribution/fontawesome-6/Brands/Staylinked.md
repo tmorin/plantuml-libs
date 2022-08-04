@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Staylinked')
 
 ' renders the element
-Staylinked('Staylinked', 'Staylinked', 'an optional tech label')
+Staylinked('Staylinked', 'Staylinked', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Staylinked')
 
 ' renders the element
-Staylinked('Staylinked', 'Staylinked', 'an optional tech label')
+Staylinked('Staylinked', 'Staylinked', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

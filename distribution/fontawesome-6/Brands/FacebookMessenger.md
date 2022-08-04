@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/FacebookMessenger')
 
 ' renders the element
-FacebookMessenger('FacebookMessenger', 'Facebook Messenger', 'an optional tech label')
+FacebookMessenger('FacebookMessenger', 'Facebook Messenger', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/FacebookMessenger')
 
 ' renders the element
-FacebookMessenger('FacebookMessenger', 'Facebook Messenger', 'an optional tech label')
+FacebookMessenger('FacebookMessenger', 'Facebook Messenger', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

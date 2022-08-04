@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TarpDroplet')
 
 ' renders the element
-TarpDroplet('TarpDroplet', 'Tarp Droplet', 'an optional tech label')
+TarpDroplet('TarpDroplet', 'Tarp Droplet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TarpDroplet')
 
 ' renders the element
-TarpDroplet('TarpDroplet', 'Tarp Droplet', 'an optional tech label')
+TarpDroplet('TarpDroplet', 'Tarp Droplet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Subscript')
 
 ' renders the element
-Subscript('Subscript', 'Subscript', 'an optional tech label')
+Subscript('Subscript', 'Subscript', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Subscript')
 
 ' renders the element
-Subscript('Subscript', 'Subscript', 'an optional tech label')
+Subscript('Subscript', 'Subscript', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

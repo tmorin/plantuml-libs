@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/DoorOpen')
 
 ' renders the element
-DoorOpen('DoorOpen', 'Door Open', 'an optional tech label')
+DoorOpen('DoorOpen', 'Door Open', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/DoorOpen')
 
 ' renders the element
-DoorOpen('DoorOpen', 'Door Open', 'an optional tech label')
+DoorOpen('DoorOpen', 'Door Open', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

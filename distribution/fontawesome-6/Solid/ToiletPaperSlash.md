@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ToiletPaperSlash')
 
 ' renders the element
-ToiletPaperSlash('ToiletPaperSlash', 'Toilet Paper Slash', 'an optional tech label')
+ToiletPaperSlash('ToiletPaperSlash', 'Toilet Paper Slash', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ToiletPaperSlash')
 
 ' renders the element
-ToiletPaperSlash('ToiletPaperSlash', 'Toilet Paper Slash', 'an optional tech label')
+ToiletPaperSlash('ToiletPaperSlash', 'Toilet Paper Slash', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

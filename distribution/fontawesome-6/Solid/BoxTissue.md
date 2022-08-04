@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BoxTissue')
 
 ' renders the element
-BoxTissue('BoxTissue', 'Box Tissue', 'an optional tech label')
+BoxTissue('BoxTissue', 'Box Tissue', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BoxTissue')
 
 ' renders the element
-BoxTissue('BoxTissue', 'Box Tissue', 'an optional tech label')
+BoxTissue('BoxTissue', 'Box Tissue', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

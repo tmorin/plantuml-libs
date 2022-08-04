@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/RupeeSign')
 
 ' renders the element
-RupeeSign('RupeeSign', 'Rupee Sign', 'an optional tech label')
+RupeeSign('RupeeSign', 'Rupee Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/RupeeSign')
 
 ' renders the element
-RupeeSign('RupeeSign', 'Rupee Sign', 'an optional tech label')
+RupeeSign('RupeeSign', 'Rupee Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

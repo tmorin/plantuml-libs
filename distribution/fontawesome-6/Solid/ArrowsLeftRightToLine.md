@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowsLeftRightToLine')
 
 ' renders the element
-ArrowsLeftRightToLine('ArrowsLeftRightToLine', 'Arrows Left Right To Line', 'an optional tech label')
+ArrowsLeftRightToLine('ArrowsLeftRightToLine', 'Arrows Left Right To Line', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowsLeftRightToLine')
 
 ' renders the element
-ArrowsLeftRightToLine('ArrowsLeftRightToLine', 'Arrows Left Right To Line', 'an optional tech label')
+ArrowsLeftRightToLine('ArrowsLeftRightToLine', 'Arrows Left Right To Line', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

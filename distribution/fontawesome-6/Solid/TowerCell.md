@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TowerCell')
 
 ' renders the element
-TowerCell('TowerCell', 'Tower Cell', 'an optional tech label')
+TowerCell('TowerCell', 'Tower Cell', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TowerCell')
 
 ' renders the element
-TowerCell('TowerCell', 'Tower Cell', 'an optional tech label')
+TowerCell('TowerCell', 'Tower Cell', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/FileVideo
 
-sprite $FileVideoXs [7x10/16z] O-3dvsTZ0990YXzAGG0Ra04547bk1WPE1YY5AiyF
+sprite $FileVideoXs [7x10/16z] O-3dvsTZ0990YXzAGG0Ra04547bk1WOs1YY5AiyF
 
-sprite $FileVideoSm [9x12/16z] PSR50O1000InmPtjlreurxo2Z7S1kTnRZ3QVQPwbtWW-m33HP7nHyiJy
+sprite $FileVideoSm [9x12/16z] RSQr0G0X002nUrTW_sbnXrH1MV80vVDVAUeAMTPLJQmGWhNIPP6eJAGO
 
-sprite $FileVideoMd [12x16/16z] TSor0G0n581Gufw__xJdBbIlWYPpsi7CnJM0x9PmiOJDnbXhPQjEoMyTK9iDKorI3vkNxUpULVjTXuj7
+sprite $FileVideoMd [12x16/16z] TSor0G0n581Gufw__xJdBbIlWYPpoi56KJM0x9PmiOJDHccjPQjEoMyTK9irKorI3-kNpUpUQR_hSF48
 
-sprite $FileVideoLg [15x20/16z] bSUr0S0m00CmbyF-_zemReqsGR700w2FC5yiHodMKgob6BtkYDsRSDEBIFOYey4vzzgfkqhr6rd-S2rp0G
+sprite $FileVideoLg [15x20/16z] bSUr0S0m00CmbyF-_zemRgasGR700w2FC5yiHodMKYoD7ptEYDsRyASNaUn5HeDZxWdirnr7hduZomtNCXS
 
-!procedure FileVideo($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FileVideo', $name, $tech)
+!procedure FileVideo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FileVideo', $name, $tech, $desc)
 !endprocedure

@@ -1,19 +1,19 @@
 ' definition of the Item fontawesome-6/Solid/BuildingShield
 
-sprite $BuildingShieldXs [11x10/16z] HSY54G0X44FHVwv0_zqooIAhRq9n0PBBv5guWsTwdcn6lMBcN9mypYH-ynG5AC_agbS1
+sprite $BuildingShieldXs [11x10/16z] HSY54O0030J1mntwxvQvF1BTUQugGCMI0UPmF9RbBAPMUT8dMIvBiHSxAU1QVZQ-6m
 
-sprite $BuildingShieldSm [13x12/16z] RKk30G0n4CiRHVQVjdPxlW2CSS45SyH7kbGwFI1-x5p8j4zzLLbK74dZUsDzal_IRthY2jvRnKUUf8G5
+sprite $BuildingShieldSm [13x12/16z] RKk30G0n4CiRHVQVjdORd0-CkE30ZDX8HwLJ0-9tUN6cFVNLdJaSwSPxOstI_wxVrCG4EjqgDd8d9Im
 
 sprite $BuildingShieldMd [17x16/16z] {
-TO-50GGn20GtdXEO_gjzuLrkeZZ8kUCAZ2TxA7XXTyKer4hjJqKIYlrGsCv-sOOTvMY9d4WfQQmVEGm00Oux2cdmuAwGlXM5O7Jg5Wfxr3CNe4AvArRoXCck
-yL2W7WEV0G
+TOs53SHG3CLSndplF-r16Qs8yeZaGc8Yt1YdXpknFAhS8ZUljWSijpvYTFnT6AyTc6Noe-vE7Q4gQZ8bKQLsPNd0zP4vKLNcm_I8TIyIAhcvQW-zMQED8ytw
+c2P6-08
 }
 
 sprite $BuildingShieldLg [22x20/16z] {
-bStN0GCX30DGqRkr_xOXoVL--i8Fi90vf-6V5P8oADUvKq02586uKEdgVneMIk_PV6BoGhveowks24s5di1gDsqG_fAwCeHV6ygFJ5aNoTXN5whogB9GhqOT
-fTh8Wa4TC-TlIFyZgKRjbF5RBqnOAFL_ge1PQETAXZvy
+bStLOS0m5CLG1SrF-qzR39JXVXw3gDuR77kB6eVwVhyfn0P2VgC1iRxe-aRTTyTUB7leFshrNIqn2K2opnzgX2yhgElgM8gq5vgQRqUSlVv6ftfglD5bElMK
+FcSRXovMxsSKLL0yDLivekMjEg5gX-MDEj4r0Oy
 }
 
-!procedure BuildingShield($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BuildingShield', $name, $tech)
+!procedure BuildingShield($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BuildingShield', $name, $tech, $desc)
 !endprocedure

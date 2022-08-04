@@ -2,15 +2,15 @@
 
 sprite $CircleQuestionXs [10x10/16z] HKg50G0X4EAxd_sdLQ-RmgYBEwIeTGKWDq5cN6DNJk50q2xeLbhdYWImEUW
 
-sprite $CircleQuestionSm [12x12/16z] ROo30K0X54NlHzR-qsRNUIOIod4KNA6dYPBIdqHlKlw3Vq-CgbZEvrMUyzB5tRFnto9YNEq6
+sprite $CircleQuestionSm [12x12/16z] Om01RduE1WZWXm0m4mOWJ6OcPY392s8pCR0oWcXk26P6Lye1OUCZsH7cyu4iu-M7YW8
 
-sprite $CircleQuestionMd [16x16/16z] LS-55S0W40FGrF7ilsrVEFJZpg5wCkE1BjDya8D3qPYBr3Rd-xwZEYSeaAJUeof0SxMRxIBoqFfwSwJ4VZ7DmHrOtUZdNlONPFczlFQFPIZd4iqF
+sprite $CircleQuestionMd [16x16/16z] LSy54i0m20H0eAxt_zzsi9jcunuaB0ykbVOWRJa4lJMakpO_PdPvHtDPtEsznQjJVCvYPru4-FfmymLtzSL8Yb7DpzBdLjGB8NzFQ_s3mw2_Q3u
 
 sprite $CircleQuestionLg [20x20/16z] {
-LP3L0SLG24FfTS_-qpubb9ulN29AFrX571NAZWp1qHdo38OysMQrb9AQB4jkJ1FczZcNEbrZ2G1Z1sHTSk595Gkj-uH1iu1O26BZxgTbCodLfWGESLdfU29V
-1ZogOFPLHjED-UUz0G
+PO-53GH130Dzo-p-gtrSHmSZYYPM09kwE19EH6xc8SKJLUfCapeJRLPnpkL_gPWxZIbGRwwbGDqka3osMnJZkIy3Xxfo3arbeZ15s3XlJsEgYQmfDZYUkgWK
+fW0RVluodbD6sHl_eJS
 }
 
-!procedure CircleQuestion($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CircleQuestion', $name, $tech)
+!procedure CircleQuestion($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CircleQuestion', $name, $tech, $desc)
 !endprocedure

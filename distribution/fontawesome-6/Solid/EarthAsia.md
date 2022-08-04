@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/EarthAsia')
 
 ' renders the element
-EarthAsia('EarthAsia', 'Earth Asia', 'an optional tech label')
+EarthAsia('EarthAsia', 'Earth Asia', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/EarthAsia')
 
 ' renders the element
-EarthAsia('EarthAsia', 'Earth Asia', 'an optional tech label')
+EarthAsia('EarthAsia', 'Earth Asia', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

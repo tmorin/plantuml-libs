@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Teeth')
 
 ' renders the element
-Teeth('Teeth', 'Teeth', 'an optional tech label')
+Teeth('Teeth', 'Teeth', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Teeth')
 
 ' renders the element
-Teeth('Teeth', 'Teeth', 'an optional tech label')
+Teeth('Teeth', 'Teeth', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

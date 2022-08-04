@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PesoSign')
 
 ' renders the element
-PesoSign('PesoSign', 'Peso Sign', 'an optional tech label')
+PesoSign('PesoSign', 'Peso Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PesoSign')
 
 ' renders the element
-PesoSign('PesoSign', 'Peso Sign', 'an optional tech label')
+PesoSign('PesoSign', 'Peso Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

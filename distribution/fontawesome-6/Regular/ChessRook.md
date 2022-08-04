@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/ChessRook')
 
 ' renders the element
-ChessRook('ChessRook', 'Chess Rook', 'an optional tech label')
+ChessRook('ChessRook', 'Chess Rook', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/ChessRook')
 
 ' renders the element
-ChessRook('ChessRook', 'Chess Rook', 'an optional tech label')
+ChessRook('ChessRook', 'Chess Rook', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

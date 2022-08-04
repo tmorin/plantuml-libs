@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TextWidth')
 
 ' renders the element
-TextWidth('TextWidth', 'Text Width', 'an optional tech label')
+TextWidth('TextWidth', 'Text Width', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TextWidth')
 
 ' renders the element
-TextWidth('TextWidth', 'Text Width', 'an optional tech label')
+TextWidth('TextWidth', 'Text Width', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

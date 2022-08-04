@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FaceSurprise')
 
 ' renders the element
-FaceSurprise('FaceSurprise', 'Face Surprise', 'an optional tech label')
+FaceSurprise('FaceSurprise', 'Face Surprise', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FaceSurprise')
 
 ' renders the element
-FaceSurprise('FaceSurprise', 'Face Surprise', 'an optional tech label')
+FaceSurprise('FaceSurprise', 'Face Surprise', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

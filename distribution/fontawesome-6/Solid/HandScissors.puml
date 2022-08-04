@@ -2,12 +2,12 @@
 
 sprite $HandScissorsXs [10x10/16z] Oy06-FdvkHcO-Fdv61ZO-260WGC8U40i804JOu39WtMXiXWHnW4
 
-sprite $HandScissorsSm [12x12/16z] TSR50O0m0C30u4xsdnPtsdiTCMeEcGgDgv910JftZAlzlJTMtUF3uxWQzuzgnTCC
+sprite $HandScissorsSm [12x12/16z] TSR50O0m0C30u4xsdnPtsdiTCMeAcGgDgv910JftZAlzlJTMtUF3uxWQzuzgnTCC
 
-sprite $HandScissorsMd [16x16/16z] XSp50G0X3031nHtwh_RSTJxny2iR9Zfd2vGsS4jIGRHP45C74AxjcDcrjkqiNshaf5pkh__gfMOfpRcshAQ_tFK
+sprite $HandScissorsMd [16x16/16z] XSk30K0X543HcrtxJ_jjdlZ4hwpcL-TiWT86RlbK46qMvWm3rtRCx1gldrM-nCX9kSotIrmlCKjeph7bJmy
 
-sprite $HandScissorsLg [20x20/16z] fSe54i0m24HHuXxkVzj6g7lxnfO_m1yCCLlUfiB2bA6n2MNoL5SkguwUPJyyJAypw7HSDcN9N0FkHTm3wxfb8_gWsLqhyfJIrFZK-Bunc9bKH0FF3G
+sprite $HandScissorsLg [20x20/16z] fSZL0GDH44BHcUTE_zs6kAtl-O8hPoWmajwc1taEYvlAQJfeS74yihcV8XJmJUvS-sm-FRnhnR-6VvBotMTx21Cj_JKQUEhof7ZIt_P83x5JYxBT1G
 
-!procedure HandScissors($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HandScissors', $name, $tech)
+!procedure HandScissors($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HandScissors', $name, $tech, $desc)
 !endprocedure

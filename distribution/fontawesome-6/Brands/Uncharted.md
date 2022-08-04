@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Uncharted')
 
 ' renders the element
-Uncharted('Uncharted', 'Uncharted', 'an optional tech label')
+Uncharted('Uncharted', 'Uncharted', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Uncharted')
 
 ' renders the element
-Uncharted('Uncharted', 'Uncharted', 'an optional tech label')
+Uncharted('Uncharted', 'Uncharted', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

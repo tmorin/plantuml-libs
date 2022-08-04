@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Magnet')
 
 ' renders the element
-Magnet('Magnet', 'Magnet', 'an optional tech label')
+Magnet('Magnet', 'Magnet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Magnet')
 
 ' renders the element
-Magnet('Magnet', 'Magnet', 'an optional tech label')
+Magnet('Magnet', 'Magnet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

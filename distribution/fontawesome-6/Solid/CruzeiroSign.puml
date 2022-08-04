@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/CruzeiroSign
 
-sprite $CruzeiroSignXs [7x10/16z] DOM50G0X08JuJcN_QMqlW9bLNNazE4LgxYu_L7Rn15oQDdqLKCa
+sprite $CruzeiroSignXs [7x10/16z] DOM50G0X08JuJcN_QMqlW9bLNNazE4K0xYu_L7Rn18OMVHLGoG
 
-sprite $CruzeiroSignSm [9x12/16z] JSg50O0m4CNGZplPVrk2zrLEKsY0qMXOVSOgCcaCciaDVCg0oPx6VpAvboQJ5ZCkqR1DLGu
+sprite $CruzeiroSignSm [9x12/16z] JSd50O104CNGu4xwxvOSUIiZdvzHtQkLkrSTICrOoIc9zi9cpKkv1pKvFMecgTEGxJdW0m
 
-sprite $CruzeiroSignMd [12x16/16z] NOt50GCm4CCSvcZ_RTj0KQy3W_vnRHIpfyJ1IXrwz1bOLtlV0lEsqTyHWo2PqSTp1YVD4rD9Q-wPzPXhFb6GthE5ikU95006i1nciYWw6BFA7m
+sprite $CruzeiroSignMd [12x16/16z] NOk55GD150AvTP_-kyqZdipA5q3_nBdxewiykAG5AuO2U7l95EJs5MFfnIRwdzv0a0w0DCZkLyN2SV_8Gtxt5tJtEaW1O3_ItfYkRsu
 
 sprite $CruzeiroSignLg [15x20/16z] {
-RSx7WG9130LHpRItbN-qkw2FXxgzjhAVnPpZ0njlEmgFgZJjKWSi0ATvnzgsGL2GNrJVDtNsO46xddLcqFlppZdfPX5EfoaOh-oGHGKqKP_YrGNwT87QXsRV
-hjC--mS
+RO-50SKm20LVtRdzf_tIk5mK1tKPfscCWl5Yhx0GsQKDkFNZ13G0WnoFoK0PC6VINXhDYJnm_DzNNC7bluDutvpI7CIO-Sh54vPC570uqHNbPN_W5VNWiMBW
+GJLV
 }
 
-!procedure CruzeiroSign($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CruzeiroSign', $name, $tech)
+!procedure CruzeiroSign($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CruzeiroSign', $name, $tech, $desc)
 !endprocedure

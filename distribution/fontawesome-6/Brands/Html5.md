@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Html5')
 
 ' renders the element
-Html5('Html5', 'Html5', 'an optional tech label')
+Html5('Html5', 'Html5', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Html5')
 
 ' renders the element
-Html5('Html5', 'Html5', 'an optional tech label')
+Html5('Html5', 'Html5', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

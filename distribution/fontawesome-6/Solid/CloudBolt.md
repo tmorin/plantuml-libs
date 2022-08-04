@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CloudBolt')
 
 ' renders the element
-CloudBolt('CloudBolt', 'Cloud Bolt', 'an optional tech label')
+CloudBolt('CloudBolt', 'Cloud Bolt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CloudBolt')
 
 ' renders the element
-CloudBolt('CloudBolt', 'Cloud Bolt', 'an optional tech label')
+CloudBolt('CloudBolt', 'Cloud Bolt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

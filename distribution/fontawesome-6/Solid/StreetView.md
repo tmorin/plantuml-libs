@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/StreetView')
 
 ' renders the element
-StreetView('StreetView', 'Street View', 'an optional tech label')
+StreetView('StreetView', 'Street View', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/StreetView')
 
 ' renders the element
-StreetView('StreetView', 'Street View', 'an optional tech label')
+StreetView('StreetView', 'Street View', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

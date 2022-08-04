@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Css3')
 
 ' renders the element
-Css3('Css3', 'Css3', 'an optional tech label')
+Css3('Css3', 'Css3', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Css3')
 
 ' renders the element
-Css3('Css3', 'Css3', 'an optional tech label')
+Css3('Css3', 'Css3', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

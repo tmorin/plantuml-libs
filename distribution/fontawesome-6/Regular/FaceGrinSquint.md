@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/FaceGrinSquint')
 
 ' renders the element
-FaceGrinSquint('FaceGrinSquint', 'Face Grin Squint', 'an optional tech label')
+FaceGrinSquint('FaceGrinSquint', 'Face Grin Squint', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/FaceGrinSquint')
 
 ' renders the element
-FaceGrinSquint('FaceGrinSquint', 'Face Grin Squint', 'an optional tech label')
+FaceGrinSquint('FaceGrinSquint', 'Face Grin Squint', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

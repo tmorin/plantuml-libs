@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Wifi')
 
 ' renders the element
-Wifi('Wifi', 'Wifi', 'an optional tech label')
+Wifi('Wifi', 'Wifi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Wifi')
 
 ' renders the element
-Wifi('Wifi', 'Wifi', 'an optional tech label')
+Wifi('Wifi', 'Wifi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

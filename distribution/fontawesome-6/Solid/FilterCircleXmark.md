@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FilterCircleXmark')
 
 ' renders the element
-FilterCircleXmark('FilterCircleXmark', 'Filter Circle Xmark', 'an optional tech label')
+FilterCircleXmark('FilterCircleXmark', 'Filter Circle Xmark', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FilterCircleXmark')
 
 ' renders the element
-FilterCircleXmark('FilterCircleXmark', 'Filter Circle Xmark', 'an optional tech label')
+FilterCircleXmark('FilterCircleXmark', 'Filter Circle Xmark', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

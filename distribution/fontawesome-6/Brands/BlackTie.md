@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/BlackTie')
 
 ' renders the element
-BlackTie('BlackTie', 'Black Tie', 'an optional tech label')
+BlackTie('BlackTie', 'Black Tie', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/BlackTie')
 
 ' renders the element
-BlackTie('BlackTie', 'Black Tie', 'an optional tech label')
+BlackTie('BlackTie', 'Black Tie', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

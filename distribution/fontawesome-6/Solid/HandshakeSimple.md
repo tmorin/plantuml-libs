@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HandshakeSimple')
 
 ' renders the element
-HandshakeSimple('HandshakeSimple', 'Handshake Simple', 'an optional tech label')
+HandshakeSimple('HandshakeSimple', 'Handshake Simple', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HandshakeSimple')
 
 ' renders the element
-HandshakeSimple('HandshakeSimple', 'Handshake Simple', 'an optional tech label')
+HandshakeSimple('HandshakeSimple', 'Handshake Simple', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

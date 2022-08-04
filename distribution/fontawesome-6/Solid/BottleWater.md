@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BottleWater')
 
 ' renders the element
-BottleWater('BottleWater', 'Bottle Water', 'an optional tech label')
+BottleWater('BottleWater', 'Bottle Water', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BottleWater')
 
 ' renders the element
-BottleWater('BottleWater', 'Bottle Water', 'an optional tech label')
+BottleWater('BottleWater', 'Bottle Water', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

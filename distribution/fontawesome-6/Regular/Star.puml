@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Regular/Star
 
-sprite $StarXs [11x10/16z] LKg30G0n30oUrUq_RStmHAM4PW43gH_m1WcqcdVXNmbr4ySv8GCD5a1b4m
+sprite $StarXs [11x10/16z] LOc30S1G34GljT_-q_PRmL5XJ7MWA7kBN94nnt8D_W0fbummIYYIz0u
 
-sprite $StarSm [13x12/16z] JOs50GCW3C2AE_d_sWaUg9iCd3p0zVqRe68RJgZ0BuPg1PGCDB_gJmRqeVFr9OmIg-x5Q-bw1feVfSu0lUv-0G
+sprite $StarSm [13x12/16z] JKg30G0n44ljPlzf7-KvmYWBKUJ5LX8YjW5SvQ-Jh4R4sSPEtCVD5yCFQwNfu1MwdaJpgr8ceG8y2Rm
 
-sprite $StarMd [17x16/16z] LKw50G0W39hTyl-rTcAk05fmd7u0Vnm0zZUulyM1v4qedn0xItHoi04z9f7Hu4crwDSoBVjhMzWPvythvuSVAs5LJgBJMjbUkHDM0SWCuP0ZDuQ6anZ3QYGg
+sprite $StarMd [17x16/16z] NOw30KGn5C3oxMR_QOzrYcSGEUXG6gxUuTvwDfcAOpeVRz1x7G5LRs0CgYUBTpThy-ncx-xy2FBdZ8f3tYewY7Z3Fe5pNdDI0rxHyRD6rNRQyfDl
 
 sprite $StarLg [22x20/16z] {
-RP35WG0n3CGcp57_rHuiavuoMmTsweD9V4i3VALs_5CwXjx90wVsI0uD90l5hI9D5jnIi32CEj33iNIUQyPaw8A593tr8bVTBxSiSjNboCoN4_9XTL2m7xPZ
-f52DL36NpyW0D8NBEw73Y42XNL-xL6PWN6pGIcLAqYy
+RT25ZS0m0CNG7-Pu_saFocHHzHhMaPdwQEBVQ82leVqzs304JnrODTpDGeDbwR9vc2oPPSBIa3hGWxPide2L9kDnmYGz6T9nrCV8ZSinCclF7j-WeuZzq8ua
+LoLLpA4J2Q0fu0-53YC2XNBeVkCCZ4Cv7gio9UaN
 }
 
-!procedure Star($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Regular/Star', $name, $tech)
+!procedure Star($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/Star', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Kickstarter')
 
 ' renders the element
-Kickstarter('Kickstarter', 'Kickstarter', 'an optional tech label')
+Kickstarter('Kickstarter', 'Kickstarter', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Kickstarter')
 
 ' renders the element
-Kickstarter('Kickstarter', 'Kickstarter', 'an optional tech label')
+Kickstarter('Kickstarter', 'Kickstarter', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

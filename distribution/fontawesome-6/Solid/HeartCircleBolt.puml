@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/HeartCircleBolt
 
-sprite $HeartCircleBoltXs [11x10/16z] JSgr0OG0002nUtyq-szBWwLEDr--eN9eTUWBr172j_1b_gl8grHvq_6Vi04
+sprite $HeartCircleBoltXs [11x10/16z] HS650G81002XirlsdrQ_7sftvHeggxvMNO5685mB9zut5JcKAaUYaGFy0G
 
-sprite $HeartCircleBoltSm [13x12/16z] LOk50S0W30I_xcN_QP5u3iqBCgNym57AFFw3VrnBbnpySLZqG_2VdecdXGzx61_Eqd3XBznRQUPXEgavDm
+sprite $HeartCircleBoltSm [13x12/16z] LOo54K0X34Fp1RVzj-Mg1m-f9hXPQm9fhPToOjBtKil1F8lF4aPo3bfzfBSAbCWk5mLJXBG6TybYi04
 
-sprite $HeartCircleBoltMd [17x16/16z] RSg53GCW00NHmvs__xODalh3B_176G4WZyJYjU2q640V8Ec3HPyYJK_DkUpX-SRquO1vt_VoBA58cauJqBBsiZQ06noa4xW_t3EO4-Yw0QjgjIMUt7fd7W
+sprite $HeartCircleBoltMd [17x16/16z] RSY50OGm5C3Gr738_jEUuFQgFxnenmBGZ3L_sJ_2yW1UGEr5mAjCxww79e8RGZyaO7B1yjbBQjKfEG7-eJQe02uXGbu2Ip1GBm6MmE0MWcrmLhDBgWrV
 
 sprite $HeartCircleBoltLg [22x20/16z] {
-TP054e0m40DJz_R_lwKNt1RVEPc0Nvot8COxRFWXU43pfL36iPBSza8zNXWWlAGKzxVjRzkxM7-l4jHzcuTlSwm6rntoU07IqLxvc6KIjLnBAsFXq2hFMm36
-Pj7u9h5Oj5bEvAq1Vgzb62l_J8FZSEW26Swi4HjJGOe9RgYsLIu
+TO-50O0m40CFgyl-qoB1xR2Gll9BsxM8HaAOkc2WbOYxANo_2TdrHGlsxKOeRxUytL8MrzoZDD-zMy-Gvx8DrtQ6Gu0_qfC-SrW7n2ewXIObSzW49IEzaANc
+fr7GvggYNXc6FLRBjAs2LOx3ZYo_HQEnCpjDtU2EsbgO
 }
 
-!procedure HeartCircleBolt($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HeartCircleBolt', $name, $tech)
+!procedure HeartCircleBolt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HeartCircleBolt', $name, $tech, $desc)
 !endprocedure

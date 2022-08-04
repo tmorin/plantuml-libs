@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HouseMedicalCircleCheck')
 
 ' renders the element
-HouseMedicalCircleCheck('HouseMedicalCircleCheck', 'House Medical Circle Check', 'an optional tech label')
+HouseMedicalCircleCheck('HouseMedicalCircleCheck', 'House Medical Circle Check', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HouseMedicalCircleCheck')
 
 ' renders the element
-HouseMedicalCircleCheck('HouseMedicalCircleCheck', 'House Medical Circle Check', 'an optional tech label')
+HouseMedicalCircleCheck('HouseMedicalCircleCheck', 'House Medical Circle Check', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

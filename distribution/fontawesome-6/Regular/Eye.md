@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/Eye')
 
 ' renders the element
-Eye('Eye', 'Eye', 'an optional tech label')
+Eye('Eye', 'Eye', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/Eye')
 
 ' renders the element
-Eye('Eye', 'Eye', 'an optional tech label')
+Eye('Eye', 'Eye', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

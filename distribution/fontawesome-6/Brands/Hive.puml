@@ -2,18 +2,18 @@
 
 sprite $HiveXs [10x10/16z] LSp50SC040F13SSu_NVhb-aO97KpSdHgu35AGPv_4xmgSG29NBc7tWO
 
-sprite $HiveSm [12x12/16z] LOsr0SH00CEK7AFsd_OPtPdvnq9n04J9KWHGKHIQ6Z043_HZ35K3SFgh4zGZIHNGZUjr85EM06HsPMUu0W
+sprite $HiveSm [12x12/16z] LSctGGC10C30-vnV-szB1TWgTRvxb2uOisGBAgKugb7Z6FK7LrKJXZw_iR9a3_NgqGMvyWHMx-wT-04
 
 sprite $HiveMd [16x16/16z] {
-PSs52GH140NHMfUHoZ_Rsq_Zzs2q3VwTj7anvWcn2SgY4Dff3heFmAckw88261nExc_HZ9rQ2nQM-sRNPja8nSBfu76o6zKy2zKCRz-wWSKAiIgHx-c57X2o
-ARiIiIoru0S
+ROw30SL05C1IjwViF-r7hHoUmGiziGpaqZ1J2IvlHXF1J7AQizNgbA0gdONH0b7L1gsP4nTW76aqkh3CqZtUcvaiD7eTeCx3m--DytfU5fpTnHvjc95QQPGd
+Nm
 }
 
 sprite $HiveLg [20x20/16z] {
-TP155aGX40E3--J-jvsNHdQ_5cX12xxmS3a73HuN0gGDltV41azM93B1IEPCNbkGv8GxGzDHet3efCSmqP66_0MdGJT6GPPOoI3jYY44osVm4c1q4ZJihzQA
-l8vCyM9IWualjwXWzn1uWnXyjMOoGhoUN4rK1ilLyhYivtPyy0S
+TP052WKn4CMoxitzJ_kb30_T0EsuySO0qzGVWg3zQJ5vCEZAh0kTiSVSLdI5wGtr7027VmRE_tDfXLaTddgkicsiEhBhW2Pm68O-pnLRpNjguXuuZWtqP2rR
+zLIhRsQRTCimaEVFPNPTqoetIHZiJkor7XHFOazU-08
 }
 
-!procedure Hive($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Hive', $name, $tech)
+!procedure Hive($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Hive', $name, $tech, $desc)
 !endprocedure

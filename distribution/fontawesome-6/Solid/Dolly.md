@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Dolly')
 
 ' renders the element
-Dolly('Dolly', 'Dolly', 'an optional tech label')
+Dolly('Dolly', 'Dolly', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Dolly')
 
 ' renders the element
-Dolly('Dolly', 'Dolly', 'an optional tech label')
+Dolly('Dolly', 'Dolly', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TableList')
 
 ' renders the element
-TableList('TableList', 'Table List', 'an optional tech label')
+TableList('TableList', 'Table List', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TableList')
 
 ' renders the element
-TableList('TableList', 'Table List', 'an optional tech label')
+TableList('TableList', 'Table List', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Pushed')
 
 ' renders the element
-Pushed('Pushed', 'Pushed', 'an optional tech label')
+Pushed('Pushed', 'Pushed', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Pushed')
 
 ' renders the element
-Pushed('Pushed', 'Pushed', 'an optional tech label')
+Pushed('Pushed', 'Pushed', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

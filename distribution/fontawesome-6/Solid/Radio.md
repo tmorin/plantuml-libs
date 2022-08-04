@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Radio')
 
 ' renders the element
-Radio('Radio', 'Radio', 'an optional tech label')
+Radio('Radio', 'Radio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Radio')
 
 ' renders the element
-Radio('Radio', 'Radio', 'an optional tech label')
+Radio('Radio', 'Radio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

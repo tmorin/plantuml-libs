@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CircleChevronUp')
 
 ' renders the element
-CircleChevronUp('CircleChevronUp', 'Circle Chevron Up', 'an optional tech label')
+CircleChevronUp('CircleChevronUp', 'Circle Chevron Up', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CircleChevronUp')
 
 ' renders the element
-CircleChevronUp('CircleChevronUp', 'Circle Chevron Up', 'an optional tech label')
+CircleChevronUp('CircleChevronUp', 'Circle Chevron Up', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

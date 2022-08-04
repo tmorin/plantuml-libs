@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/FileLines')
 
 ' renders the element
-FileLines('FileLines', 'File Lines', 'an optional tech label')
+FileLines('FileLines', 'File Lines', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/FileLines')
 
 ' renders the element
-FileLines('FileLines', 'File Lines', 'an optional tech label')
+FileLines('FileLines', 'File Lines', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

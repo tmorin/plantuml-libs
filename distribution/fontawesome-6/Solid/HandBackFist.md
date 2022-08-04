@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HandBackFist')
 
 ' renders the element
-HandBackFist('HandBackFist', 'Hand Back Fist', 'an optional tech label')
+HandBackFist('HandBackFist', 'Hand Back Fist', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HandBackFist')
 
 ' renders the element
-HandBackFist('HandBackFist', 'Hand Back Fist', 'an optional tech label')
+HandBackFist('HandBackFist', 'Hand Back Fist', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

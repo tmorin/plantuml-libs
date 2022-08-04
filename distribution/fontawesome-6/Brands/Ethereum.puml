@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Brands/Ethereum
 
-sprite $EthereumXs [6x10/16z] BSQ30SG00CNGTqQH_QUjFuCd26hWLb7LjMf--YG7Gwm
+sprite $EthereumXs [6x10/16z] 7OV50K0X08NudSh-qnhlGW0x00P-eO66cRfnYQG1X0u
 
-sprite $EthereumSm [7x12/16z] FOk30S1054DVxMR_QK_V3CZGOKiszS8izLSzVblsVXFFjV4lO1YJ-VWtg
+sprite $EthereumSm [7x12/16z] HOk50O0m30GFTsx_QQ7UU5veuPQNUNh1e9eUVVFAxprm7HFlcCdkurtW1m
 
-sprite $EthereumMd [9x16/16z] LSs30SG050FG76gy_QUj-SqaJnchFN_P2rJ7W6D0c_pPHnmZpj48_PA_5T-oJBJhD4aD9tBxvihmIp83
+sprite $EthereumMd [9x16/16z] JOs30S0m00IlTc__QOlOoPDst5EyEuqFTKb0XFp73eD6I1Ea6Rh_w_XkPktc2Tn_55Xp3Z6cxUBgWHS
 
-sprite $EthereumLg [12x20/16z] HSw53KDH3CLGVtxi_QSjHL6FE7ZvEI6TGj8AuL4tWchdfsasDdycm3GSS9XWcHxyWswuORAhBiw7pKBrsiQA170hNqkNFlp4V2WH9sWXRJ7n1W
+sprite $EthereumLg [12x20/16z] HSl50SG048LGuXxwhtPbVkITWTBpwEIX2yIaGgXkb4LLYkK0E8mM6czmUXlm1Pinmf7Zf9jed5bisKzWKXWLW5DF7IdfOrQvwSGZnHS
 
-!procedure Ethereum($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Ethereum', $name, $tech)
+!procedure Ethereum($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Ethereum', $name, $tech, $desc)
 !endprocedure

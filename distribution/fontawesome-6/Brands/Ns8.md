@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Ns8')
 
 ' renders the element
-Ns8('Ns8', 'Ns8', 'an optional tech label')
+Ns8('Ns8', 'Ns8', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Ns8')
 
 ' renders the element
-Ns8('Ns8', 'Ns8', 'an optional tech label')
+Ns8('Ns8', 'Ns8', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

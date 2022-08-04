@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Cloudsmith')
 
 ' renders the element
-Cloudsmith('Cloudsmith', 'Cloudsmith', 'an optional tech label')
+Cloudsmith('Cloudsmith', 'Cloudsmith', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Cloudsmith')
 
 ' renders the element
-Cloudsmith('Cloudsmith', 'Cloudsmith', 'an optional tech label')
+Cloudsmith('Cloudsmith', 'Cloudsmith', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

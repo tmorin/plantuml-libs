@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BeerMugEmpty')
 
 ' renders the element
-BeerMugEmpty('BeerMugEmpty', 'Beer Mug Empty', 'an optional tech label')
+BeerMugEmpty('BeerMugEmpty', 'Beer Mug Empty', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BeerMugEmpty')
 
 ' renders the element
-BeerMugEmpty('BeerMugEmpty', 'Beer Mug Empty', 'an optional tech label')
+BeerMugEmpty('BeerMugEmpty', 'Beer Mug Empty', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

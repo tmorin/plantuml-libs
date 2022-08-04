@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/FaceDizzy')
 
 ' renders the element
-FaceDizzy('FaceDizzy', 'Face Dizzy', 'an optional tech label')
+FaceDizzy('FaceDizzy', 'Face Dizzy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/FaceDizzy')
 
 ' renders the element
-FaceDizzy('FaceDizzy', 'Face Dizzy', 'an optional tech label')
+FaceDizzy('FaceDizzy', 'Face Dizzy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

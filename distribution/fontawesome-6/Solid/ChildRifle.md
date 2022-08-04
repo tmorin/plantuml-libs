@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ChildRifle')
 
 ' renders the element
-ChildRifle('ChildRifle', 'Child Rifle', 'an optional tech label')
+ChildRifle('ChildRifle', 'Child Rifle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ChildRifle')
 
 ' renders the element
-ChildRifle('ChildRifle', 'Child Rifle', 'an optional tech label')
+ChildRifle('ChildRifle', 'Child Rifle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/SquareFontAwesome')
 
 ' renders the element
-SquareFontAwesome('SquareFontAwesome', 'Square Font Awesome', 'an optional tech label')
+SquareFontAwesome('SquareFontAwesome', 'Square Font Awesome', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/SquareFontAwesome')
 
 ' renders the element
-SquareFontAwesome('SquareFontAwesome', 'Square Font Awesome', 'an optional tech label')
+SquareFontAwesome('SquareFontAwesome', 'Square Font Awesome', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

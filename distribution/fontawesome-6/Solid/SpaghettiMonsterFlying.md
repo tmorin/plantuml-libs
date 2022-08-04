@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SpaghettiMonsterFlying')
 
 ' renders the element
-SpaghettiMonsterFlying('SpaghettiMonsterFlying', 'Spaghetti Monster Flying', 'an optional tech label')
+SpaghettiMonsterFlying('SpaghettiMonsterFlying', 'Spaghetti Monster Flying', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SpaghettiMonsterFlying')
 
 ' renders the element
-SpaghettiMonsterFlying('SpaghettiMonsterFlying', 'Spaghetti Monster Flying', 'an optional tech label')
+SpaghettiMonsterFlying('SpaghettiMonsterFlying', 'Spaghetti Monster Flying', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

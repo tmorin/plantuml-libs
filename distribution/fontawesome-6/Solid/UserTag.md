@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UserTag')
 
 ' renders the element
-UserTag('UserTag', 'User Tag', 'an optional tech label')
+UserTag('UserTag', 'User Tag', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UserTag')
 
 ' renders the element
-UserTag('UserTag', 'User Tag', 'an optional tech label')
+UserTag('UserTag', 'User Tag', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

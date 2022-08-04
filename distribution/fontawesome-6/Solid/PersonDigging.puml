@@ -1,19 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/PersonDigging
 
-sprite $PersonDiggingXs [11x10/16z] FSY50O1030F0uCxjFotEj_7SjwUSuNFBlopunn8pQCiQXXWJcocGoBIdHx_SiNNV2G
+sprite $PersonDiggingXs [11x10/16z] FSY50O1030F0uCxjFotEj_7SjwUSuNFBlopunn8pQCiQXXWJcocGoBIdHx_SiNRV2G
 
-sprite $PersonDiggingSm [13x12/16z] HSYr0GH10810RjtflzftcGnuaR_kvYt4mFfTbG_x_fVgaY_b6rMoJbv3tKo7TZ1dCnmLV3O-bVEAwSiT
+sprite $PersonDiggingSm [13x12/16z] HSZ50GGn0810rYL2_zMUHES7538z9gfbWTYlAerFcgKQfLDwNBBhGnbgulMjOpjS8QiWkABgcKi4Yoy
 
-sprite $PersonDiggingMd [17x16/16z] {
-NOo50S0W3C2AMqV-ltPkaBhAXK56WBdHtjohjY3shIqd_-NOWENNyEEAESkEbPS0EH3U6YSAw9wUZnnWf1zEpzVANYJnqAxN8EbCCZlbR9ocoe54qhDr4Zlc
-RF2m0G
-}
+sprite $PersonDiggingMd [17x16/16z] PStLeKCn44F14oPVJ__LFWndVdSbzM-bL-W5bsusOrpMhRfP-LCtx2zOkc7pyOAfXnt7dLqtDbqmgkMsKfCQbcgO7DfmGKK7gYESYgB60EqTRbz_zbD5Rhu1
 
 sprite $PersonDiggingLg [22x20/16z] {
-PT25WOH040J0nftAFzgNctCAPwrtydJEkSAG2qovM9nv1xPyEfKkRtQs1UIbOG--8dZ9cm6i6_ameU_9ctrDLivAqOplcrAFC5U82jkVB9bGapgmrB9KvyEP
-NXLXUIPaUfHcd80n3MtghwTifFxsdiRDdcIqP_Fo2m
+RT250OGm50JHnIN9d_whFLbS1dzuj1UZdW7DgmvFdOZxLP1qBS3LPyoG9lC9AyZ2TIVcIASQopnRJmr0srurpz8C0PLlFVyKU2COhUl7rW6J7_R75Wf_K8Vp
+nOLG2-6nsB_GZvki_O3h_wfLsLFQjMQlIHx3dgp4qHS
 }
 
-!procedure PersonDigging($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonDigging', $name, $tech)
+!procedure PersonDigging($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonDigging', $name, $tech, $desc)
 !endprocedure

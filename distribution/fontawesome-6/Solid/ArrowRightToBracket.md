@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowRightToBracket')
 
 ' renders the element
-ArrowRightToBracket('ArrowRightToBracket', 'Arrow Right To Bracket', 'an optional tech label')
+ArrowRightToBracket('ArrowRightToBracket', 'Arrow Right To Bracket', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowRightToBracket')
 
 ' renders the element
-ArrowRightToBracket('ArrowRightToBracket', 'Arrow Right To Bracket', 'an optional tech label')
+ArrowRightToBracket('ArrowRightToBracket', 'Arrow Right To Bracket', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

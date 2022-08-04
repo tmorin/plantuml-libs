@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Upload')
 
 ' renders the element
-Upload('Upload', 'Upload', 'an optional tech label')
+Upload('Upload', 'Upload', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Upload')
 
 ' renders the element
-Upload('Upload', 'Upload', 'an optional tech label')
+Upload('Upload', 'Upload', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

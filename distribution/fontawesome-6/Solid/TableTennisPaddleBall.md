@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TableTennisPaddleBall')
 
 ' renders the element
-TableTennisPaddleBall('TableTennisPaddleBall', 'Table Tennis Paddle Ball', 'an optional tech label')
+TableTennisPaddleBall('TableTennisPaddleBall', 'Table Tennis Paddle Ball', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TableTennisPaddleBall')
 
 ' renders the element
-TableTennisPaddleBall('TableTennisPaddleBall', 'Table Tennis Paddle Ball', 'an optional tech label')
+TableTennisPaddleBall('TableTennisPaddleBall', 'Table Tennis Paddle Ball', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

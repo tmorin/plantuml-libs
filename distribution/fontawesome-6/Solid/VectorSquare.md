@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/VectorSquare')
 
 ' renders the element
-VectorSquare('VectorSquare', 'Vector Square', 'an optional tech label')
+VectorSquare('VectorSquare', 'Vector Square', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/VectorSquare')
 
 ' renders the element
-VectorSquare('VectorSquare', 'Vector Square', 'an optional tech label')
+VectorSquare('VectorSquare', 'Vector Square', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

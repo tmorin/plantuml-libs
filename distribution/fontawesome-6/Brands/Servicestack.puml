@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Brands/Servicestack
 
-sprite $ServicestackXs [9x10/16z] Oy06-BbW37v-L1OBFoClXCKF0YmC36pyO00LOEU76m8
+sprite $ServicestackXs [9x10/16z] Oy06-BbW37v-L1OpFmClXCKF0YmC32pyO00LOEU76m8
 
-sprite $ServicestackSm [11x12/16z] TOgr0G0X0CJkNP3iFoqk5QbEeXMVdHck6J4bt2LN2VJ3MIFkWnRnHTd9FA27ZYOH
+sprite $ServicestackSm [11x12/16z] TSe33i0000J1I-tv_sjhHDteiFcZdxvCzKNZ6UepNn8PAAzexhYZvLGAq9B6Gpus
 
-sprite $ServicestackMd [15x16/16z] XOor0S0m30HbXSct_xHch7BTe_noc4aQx6G0vopvkho8575V8XzWMzVA1hnPMc1NO6sITwjp4jy7M_iDVI2hXcZ7gCgC1m
+sprite $ServicestackMd [15x16/16z] XSo35SC000JGDlRVVzhOlAVpxnFfIMkEakmerPlCmIoAlbYp7WmiHZN91iaVmIfL8TPZwffu_IN1fXZaApe
 
-sprite $ServicestackLg [19x20/16z] fSw30GHH34NHPEpJVxLh6_SpVl4N_LpT-P0thWdzjQi2Lwu2jyNLZM-QcuZ-kXPT55U-6Qg4uK83VLwaBS1OdNpfm32Yl4X2ZV7K2ImBefulQJSdFc8D
+sprite $ServicestackLg [19x20/16z] fOu50i0W203jLlx_sm7hhbjwfFX5g7hd062h2hguLWQ8NIKYrsdhl58TJbqx_0z2hLm5H773DE_0MopI6Z3Pp0u6KgPD5ac8fLpkDD4QLPgwnECZ7j41
 
-!procedure Servicestack($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Servicestack', $name, $tech)
+!procedure Servicestack($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Servicestack', $name, $tech, $desc)
 !endprocedure

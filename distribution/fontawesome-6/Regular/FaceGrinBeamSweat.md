@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/FaceGrinBeamSweat')
 
 ' renders the element
-FaceGrinBeamSweat('FaceGrinBeamSweat', 'Face Grin Beam Sweat', 'an optional tech label')
+FaceGrinBeamSweat('FaceGrinBeamSweat', 'Face Grin Beam Sweat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/FaceGrinBeamSweat')
 
 ' renders the element
-FaceGrinBeamSweat('FaceGrinBeamSweat', 'Face Grin Beam Sweat', 'an optional tech label')
+FaceGrinBeamSweat('FaceGrinBeamSweat', 'Face Grin Beam Sweat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

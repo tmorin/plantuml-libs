@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Cpanel')
 
 ' renders the element
-Cpanel('Cpanel', 'Cpanel', 'an optional tech label')
+Cpanel('Cpanel', 'Cpanel', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Cpanel')
 
 ' renders the element
-Cpanel('Cpanel', 'Cpanel', 'an optional tech label')
+Cpanel('Cpanel', 'Cpanel', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

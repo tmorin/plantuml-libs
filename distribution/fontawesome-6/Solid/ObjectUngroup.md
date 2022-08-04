@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ObjectUngroup')
 
 ' renders the element
-ObjectUngroup('ObjectUngroup', 'Object Ungroup', 'an optional tech label')
+ObjectUngroup('ObjectUngroup', 'Object Ungroup', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ObjectUngroup')
 
 ' renders the element
-ObjectUngroup('ObjectUngroup', 'Object Ungroup', 'an optional tech label')
+ObjectUngroup('ObjectUngroup', 'Object Ungroup', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

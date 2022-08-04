@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CircleNodes')
 
 ' renders the element
-CircleNodes('CircleNodes', 'Circle Nodes', 'an optional tech label')
+CircleNodes('CircleNodes', 'Circle Nodes', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CircleNodes')
 
 ' renders the element
-CircleNodes('CircleNodes', 'Circle Nodes', 'an optional tech label')
+CircleNodes('CircleNodes', 'Circle Nodes', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

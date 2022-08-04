@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/RoadCircleXmark')
 
 ' renders the element
-RoadCircleXmark('RoadCircleXmark', 'Road Circle Xmark', 'an optional tech label')
+RoadCircleXmark('RoadCircleXmark', 'Road Circle Xmark', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/RoadCircleXmark')
 
 ' renders the element
-RoadCircleXmark('RoadCircleXmark', 'Road Circle Xmark', 'an optional tech label')
+RoadCircleXmark('RoadCircleXmark', 'Road Circle Xmark', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

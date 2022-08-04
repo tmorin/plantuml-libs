@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PlusMinus')
 
 ' renders the element
-PlusMinus('PlusMinus', 'Plus Minus', 'an optional tech label')
+PlusMinus('PlusMinus', 'Plus Minus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PlusMinus')
 
 ' renders the element
-PlusMinus('PlusMinus', 'Plus Minus', 'an optional tech label')
+PlusMinus('PlusMinus', 'Plus Minus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

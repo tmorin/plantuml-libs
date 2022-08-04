@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Brands/Medapps
 
-sprite $MedappsXs [6x10/16z] BSC50S0W0031colGFot-mfRGts1Dx2ma-tpbnYlXF4z00G
+sprite $MedappsXs [6x10/16z] 7SE30S1000J1YPthlzhNWYKOBp27bObOn2omuHRi-mwe
 
-sprite $MedappsSm [7x12/16z] 9SN50OH0402m0Eis_LTxcazm9kRW91rYW_JlKTJ75cQtNPL0SF1m8I8EN1Tl
+sprite $MedappsSm [7x12/16z] BSN50SH0400W8kio_LTx6ZvW3upAFbM81Sudbt9OmcWMXK2mSG0HiU4uU0C
 
-sprite $MedappsMd [9x16/16z] DSZ5WG90402mh9t0IF_LukGPh4hGkKuNFU5w6U7xGFG4Bh-_s9GsVeEMKrtrfaqQkOY9_Ky3J5Zn0EO3YAhD7G
+sprite $MedappsMd [9x16/16z] LSYr0GCm40Gm6SBll_sd3PHHAQm-8BLscanuFKS1EHEe3E1vksBHmgs8C_LB9Z48lr83wqO01gpwygUwDny
 
 sprite $MedappsLg [12x20/16z] {
-NSo50KCX34NH-mMNj_-s9Q5-S28irr35NL8jNTsl2IE1CjiibtWwDIelsYcttrlpNByVik_dfdH4jHAPcIZ8Tzen5JX0qVkoP66c_OoCwHNGYJbisrUkQ71j
-c0l-QR6S1m
+PSo54GGX50FGu4xwx_P8PaVlhS1NFEbmmY8vn-O64DWW9A2htP68J-IP424xdkpxMkxrFL1f_HB1-gvh9Doc42qskCO1OVLVlqB8rSPJ8Njw8SI-Qwe2MqSY
+_l1Hpmy
 }
 
-!procedure Medapps($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Medapps', $name, $tech)
+!procedure Medapps($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Medapps', $name, $tech, $desc)
 !endprocedure

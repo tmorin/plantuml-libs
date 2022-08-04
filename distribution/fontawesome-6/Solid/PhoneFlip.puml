@@ -4,13 +4,13 @@ sprite $PhoneFlipXs [10x10/16z] FOg50S0W4CHIzsR_QN5uFQFMiJQ0Mi4-q3iGwq0wm_vc88Uw
 
 sprite $PhoneFlipSm [12x12/16z] Ou01NWOuuEFdvuUn-H5iTdvqSGI73qaSh1Q8UVZvUI26GLNpWYYOHWYB1we9RW8
 
-sprite $PhoneFlipMd [16x16/16z] XSu55W0X20JGWUsOn_rFknrswxS0VsceS8kTnJaER1KpCAQ3g-FniFoKuFf9kUFoEHtVBARn7Fb5iPVGZvERrXFfzVeAEm
+sprite $PhoneFlipMd [16x16/16z] XSw35G0n44NHlqRKVxMn-GvlE4WTR4UUC2LkbSN2h38-JPhvqQx_g-Z_PPulS0ZJP-xQPMOj0h57VkaP_rHo6aC1
 
 sprite $PhoneFlipLg [20x20/16z] {
-ROy53W0X30JB6Kx__ziBJcLYXDei46n-W66m4ibVm0RvG_dtAN-e_2Li5AhI_ZmGdlftqR-zZlfT85poVAUjPsf6Nrzs1ll6-Sg3soFZYPz6cu-4h6H3WrEl
-s6Bxq_G7
+RL030W0n3EiPG___sbb5vZ8P43pk10xCCCJqOm4DaxPRiQ5YizNaIRshs3uWEBDjK_Y1vBU3uEBwtPPZPdxvTdLXT_w9nlF4oSFXYgynMd0JaQqZiL5UfiZ-
+La4H
 }
 
-!procedure PhoneFlip($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PhoneFlip', $name, $tech)
+!procedure PhoneFlip($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PhoneFlip', $name, $tech, $desc)
 !endprocedure

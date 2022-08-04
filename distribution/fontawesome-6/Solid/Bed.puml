@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/Bed
 
-sprite $BedXs [12x10/16z] Oq02_Bous6py_0py4C3BZyHcGMA3LM82FauO0Af160a
+sprite $BedXs [12x10/16z] Oq02_Bous6py_0py4C3BZyHcGcA3LM82FauO0Af160a
 
-sprite $BedSm [15x12/16z] Oq05_Fm4k4pSJ0pSOC05ulA3C1mm0J4ZZ8CX2p62I81YBJilCfSF
+sprite $BedSm [15x12/16z] Oq05_Fm4k8pSZ0pSOC05ulA3C1mm8dCnP25640bGh6NdHURo0G
 
-sprite $BedMd [20x16/16z] dS-r0KCn00DHcTdQVzhaC_ChhpiSS1Kxf7hSP0g0JGFJDia6CaUbQP4DaRcW0XjODv2iszPQjv8x_CAgjSBzMoO4jiGV
+sprite $BedMd [20x16/16z] dS-r0KCn00DHcTdQVzhaC_ChhpiSS1Kxf7pSH0g0JGFLDi46CaUbQN7J6Z8SD92iszPPjP8x_CA8jSBzMoOE_04
 
-sprite $BedLg [25x20/16z] jSkr5GCn00JHFHPl_zKQn9ZPa_utM7NSvnn8_XHsfIzWrpcvUTZuIU5XrV45-bfWWNq4jphyyim0ZzWn1T_3_oN7b0UCxIlOIAnw0m
+sprite $BedLg [25x20/16z] hSkr5S100CDGESpUVzemKtLg_nDVAOxUmNPGK5L74DLxvGBoM4NgKz44dhk23z0JkgzZNl8t82d42ymz86Zbise6Nle1lXe
 
-!procedure Bed($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Bed', $name, $tech)
+!procedure Bed($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Bed', $name, $tech, $desc)
 !endprocedure

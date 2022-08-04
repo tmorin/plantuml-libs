@@ -2,15 +2,15 @@
 
 sprite $GooglePlayXs [10x10/16z] DKk53G0m26j6TDR_hyKQ9b35mXmQ1oNyGWLfGXMW46isKarC3TGkX2CG
 
-sprite $GooglePlaySm [12x12/16z] HOp50S0m30DJX_7sdxOKi5vYKus2QkLmgkDmggLDFWNNudHh2uiZ0amkjTe-VLjXRLt5hHzRy_wtcva7
+sprite $GooglePlaySm [12x12/16z] HSg72G110091zGYVj_zkdykIPa7TskEsbxaBopMUwHfCyvQS31C3tRbllrBd_5UcKfLdHNMcz0C
 
-sprite $GooglePlayMd [16x16/16z] LSy56e0m34FXu4xkVrk-XxL5jlsPgrTzRAtLrhPc4tZC9d0NVe8ZcM3J4hPcck63APxrqrfzwFLE7UjjLCDlk00CcVWPjWhlvSeN
+sprite $GooglePlayMd [16x16/16z] LSy50e0W04FHsUtkVrlzD0RmHcjM_zWwUblNsPh0Qsi23zavU1eJNDgh_SDszSCK4oPQfnybtzHrlOjgAOOxm929sN1GzTrT-GC
 
 sprite $GooglePlayLg [20x20/16z] {
-PSi55WD120JHMlVf-zyswIYmDl9VGTTpUmvDBCLEQK1JjQUqDXHpgLRCfRHcS-arsRjKidV9e2EOIqRlqGJlWM2C4vSyVFx9YJfiVvB55cY7OAQp8ve926QQ
-YMOwICyckYxJ0m
+NSq55iD030FH2NDq_zkssa9iAxZ_6Q27caC3Ix5JRzHKJIFttHLpfUvYhfJMRAxqEzYlKjbQ9PsEOAwazpUQG4uNZ77aaevGnzXcXXsckhVHJZJJ2T5C4Cqq
+aut-86KJDIy
 }
 
-!procedure GooglePlay($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/GooglePlay', $name, $tech)
+!procedure GooglePlay($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/GooglePlay', $name, $tech, $desc)
 !endprocedure

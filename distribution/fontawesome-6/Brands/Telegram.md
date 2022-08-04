@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Telegram')
 
 ' renders the element
-Telegram('Telegram', 'Telegram', 'an optional tech label')
+Telegram('Telegram', 'Telegram', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Telegram')
 
 ' renders the element
-Telegram('Telegram', 'Telegram', 'an optional tech label')
+Telegram('Telegram', 'Telegram', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

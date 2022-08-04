@@ -1,19 +1,16 @@
 ' definition of the Item fontawesome-6/Brands/Resolving
 
-sprite $ResolvingXs [9x10/16z] 9SR50SC0000XwetU_jD6UG4FeDD4jv-2GgKUd-vyz6OfyAvOQ-J9gueT
+sprite $ResolvingXs [9x10/16z] 9S650SC00C2Wp5Vb_skhKFMeazDKRh-eea8yFX2Vl6kXqnkrCdPwGkq
 
-sprite $ResolvingSm [11x12/16z] 9Sl50G0n3CH07KD0_LSRydoCoxHl19VeGdJlTch14_Yu5AZgWsuutUYBfWWpFKwm7Imlu5GgG8uS7G
+sprite $ResolvingSm [11x12/16z] 9Sl50S104CD0XJdglzeZpsVHT3E4Gxf8TpBhXpEmiodmgpiweQOzqJjXkaFJJWmdOFVz06zoL
 
-sprite $ResolvingMd [15x16/16z] {
-LOw54S0W5CM2E-o_RT5_r-0M7WUj4ChOM3RZqSvAg53NsBrIQOw6COfXq-PQBQLQClJgi7rijaM92ZMxJ5WgTxzGgAfNh7HVR49kBuWpN3fhkOFKvABzXJuh
-r5va9Xy
-}
+sprite $ResolvingMd [15x16/16z] LOw50SKW50CFTzX_sXRojOS-3mXh-DAMy8ZrOSZwqQ6VTmOe-xMirGnYR5jVSvfXpeMVIu2Y-d_CIdgtGZxe5jHOfl1rV8HOovi9u2Ia5nVjGxI3drq1RW
 
 sprite $ResolvingLg [19x20/16z] {
-LSu50iCm243Hdo3rSl_JJg3wjbfGJhtpf5kakN7Ou-BdoSC446yA7cdnXcHBoBOSgdGT6a0Vju2Xqe1UIupqFCgbobQLZVPOeDM3OtC5ii3oEGAS-NG405kk
-ZigXUHtcWMlZP3i0QnMC0ZX9ujOfSTeevxXzgfGl
+LSu56i0W243X1wwB-zzs7x7mNweK3rN-zBImyRZiDNKxQGMmtW2ZXRq94YMXAvkfHyF9V1hCllSVOeJS6auhPsu9yX_W_RXDWJFp_RlWAXv1SBg_5GUAJBcf
+04rvwOKxCc5fm4Hezg6y6oUlvfMlLN0t
 }
 
-!procedure Resolving($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Resolving', $name, $tech)
+!procedure Resolving($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Resolving', $name, $tech, $desc)
 !endprocedure

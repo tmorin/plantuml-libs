@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Regular/AddressCard
 
-sprite $AddressCardXs [11x10/16z] Oq02_0W05-Fa1ucp034tXCa94ONh038PWHHK5AIN7Sn4c81aBW
+sprite $AddressCardXs [11x10/16z] Oq02_0W05-FW1uap0J4tXCa94ONhW8ZoGqL1UjaXJ1ZWH38N
 
-sprite $AddressCardSm [13x12/16z] LOh50S0W54FHUid-q-BVtYNg3D3SkZ-TEtTHHW3oUCST0Yy3Naetj4Hq7hgbZf_XAnS3znRcR
+sprite $AddressCardSm [13x12/16z] LSp50G0X44FHh2ly_gl5zPr6emcZUvmVqlNandBa2R2Mfc-Yjh50tQmjCsxM86z-UpJeiytb0G
 
-sprite $AddressCardMd [17x16/16z] PSZ50OLG0C2mFiNf_jD-mIN7y5BdgobMdsPkriX3laLG8QdZ6b5DqFTzNWCLo3cpngggynffcgV4wX_5ltA6gpDY_ejxo8t11mWtV04
+sprite $AddressCardMd [17x16/16z] PSs50S0W40F0r8jc_sbnvwgyOlFQaS7BbSKa1ovrpW6I8HhUkWTEG4fvZHMuxxks96_Sa0ENiUOSXZwCpXvWrWF76HqrG4m8Bh3o
 
 sprite $AddressCardLg [22x20/16z] {
-TSw50S0W40F0u4xstxOks5M1DopOWGOuKJBz45j9OX2UtP3qkClTlYsuIyrk0WmFpMuOAlZhA-BEFRiFtrOm-vHo_yhTKq7mLDgwbHVLxFBccbsbBqs5GQ0Z
-Quz4uSXWQWC
+TS-30S1040J0ZPtjlzlmSPhmTK2WCrg0ZcFdPFQU967CQNRPMZlBsptTFDzDp6x0m8UONKo4z5rlKnebiupGtbKszxUv8St-7Scu9p-DcELl4hDD-n4HZ8KJ
+UMea3be3N1S
 }
 
-!procedure AddressCard($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Regular/AddressCard', $name, $tech)
+!procedure AddressCard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/AddressCard', $name, $tech, $desc)
 !endprocedure

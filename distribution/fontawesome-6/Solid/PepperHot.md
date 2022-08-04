@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PepperHot')
 
 ' renders the element
-PepperHot('PepperHot', 'Pepper Hot', 'an optional tech label')
+PepperHot('PepperHot', 'Pepper Hot', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PepperHot')
 
 ' renders the element
-PepperHot('PepperHot', 'Pepper Hot', 'an optional tech label')
+PepperHot('PepperHot', 'Pepper Hot', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

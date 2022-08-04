@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Brands/Cloudflare
 
-sprite $CloudflareXs [12x10/16z] Oy0B-FbXB2P-VYY7cnyCUC7o4C08b09IC4t809V9
+sprite $CloudflareXs [12x10/16z] Oy0B-FbXB2P-VYY7cnyCUC7o402aGKoO9cI0osG
 
-sprite $CloudflareSm [15x12/16z] ZScr0O0m54NHkEVV_QV5hG5ogYTgY7qM5d8rOLMlQ-VMvZaKgElNMoqv6nKgZKi6xCqjrASP
+sprite $CloudflareSm [15x12/16z] Oo0AC29p-8603yxZumS1RgWK3B20U4mm7WT80P3cvUBau61dOc3bvEVXXmDE86P402OWmEyQ
 
-sprite $CloudflareMd [20x16/16z] hShL5S0W343Hu4xsdnRtt_RYxm1_uDQ99s53djJ05D3EvaPokFdOQpmQgGiidgbze3Z46881uagCU0Ais8No2Zx8
+sprite $CloudflareMd [20x16/16z] hSkr0O0040F0yDLxzfyMznQkZE0FuY6lYAjNz0gBVcI-Hy5BTgnPtpAiV-VDi0w4k-ug0s8EctVOra-om0SJ
 
-sprite $CloudflareLg [25x20/16z] lSp55G0X40FGu4xwhtPTvt7ctqOIp1L8TWL9yvGXy9RmCi5aFhxbFq6qFFHJnv_kpZxT-TEKugPSxmf_PAHWqJWKhxsHO4-OO0K
+sprite $CloudflareLg [25x20/16z] lSor0S10509GY3lxJnixb_fUzmNGrYpfGad6Lkwj5G7xRfCNboVciiMWhrFY6amVBoLEyxZRTo8bBSeCE5Mrs3rpw0mqy
 
-!procedure Cloudflare($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Cloudflare', $name, $tech)
+!procedure Cloudflare($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Cloudflare', $name, $tech, $desc)
 !endprocedure

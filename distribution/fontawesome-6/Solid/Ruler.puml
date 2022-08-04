@@ -2,12 +2,12 @@
 
 sprite $RulerXs [10x10/16z] FSQ52G0m54F1G97wst_QQlY7dRuY0vmeU0mWIKJ4Jy6Hd5Td0m
 
-sprite $RulerSm [12x12/16z] DSUt0G1H3CBGdsnAxJ_jHL3rDDnQ8pN8F2ApUCrBgR6N20yTjXGk2EFn9TCJtW
+sprite $RulerSm [12x12/16z] DSUt0G1138J0am_flzgtMgBXRExIQPXb5XgZ0LvEDMihnAJ5hXOTHFbypN97l04
 
-sprite $RulerMd [16x16/16z] VSd70OL030DHxmzaFFrNImPvIRgzaMdbn-A0Ch0d2vw77ay0hEpCGUvmMvbczkO4-kiBVGeiWK3xYEjAKM6bWZW2
+sprite $RulerMd [16x16/16z] VSd50GCm5CDG5yDV-qzRXh1lJzP_xgXwWAjOQ8AreM070DxCClWxOwfOsjUsBvH3HGTKrB6bvFwiWggvcdS
 
-sprite $RulerLg [20x20/16z] POm53iLG3CFQVXpw_gSTBzBB8hOSHxEkmfR0_uaS5WwJZ1F-n80SJdXRaMZAb-17JoRElUvyOHQGPgaaAo44NpeojAqEC2lAM_j-PfrGba5PWcQj
+sprite $RulerLg [20x20/16z] PSo74O1030D1SWRrNoqPxlNsv9kr2hknAlAJD8GKeqBK5_iK5VCJ_TEQHAn1goU1r32FidcKpsDcLwE-OwkohVTwLqGK4KLqTG
 
-!procedure Ruler($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Ruler', $name, $tech)
+!procedure Ruler($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Ruler', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CodeBranch')
 
 ' renders the element
-CodeBranch('CodeBranch', 'Code Branch', 'an optional tech label')
+CodeBranch('CodeBranch', 'Code Branch', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CodeBranch')
 
 ' renders the element
-CodeBranch('CodeBranch', 'Code Branch', 'an optional tech label')
+CodeBranch('CodeBranch', 'Code Branch', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Diamond')
 
 ' renders the element
-Diamond('Diamond', 'Diamond', 'an optional tech label')
+Diamond('Diamond', 'Diamond', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Diamond')
 
 ' renders the element
-Diamond('Diamond', 'Diamond', 'an optional tech label')
+Diamond('Diamond', 'Diamond', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

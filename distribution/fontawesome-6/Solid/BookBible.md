@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BookBible')
 
 ' renders the element
-BookBible('BookBible', 'Book Bible', 'an optional tech label')
+BookBible('BookBible', 'Book Bible', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BookBible')
 
 ' renders the element
-BookBible('BookBible', 'Book Bible', 'an optional tech label')
+BookBible('BookBible', 'Book Bible', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,15 +2,15 @@
 
 sprite $RingXs [10x10/16z] Oy0A-240o603y_c07B0W7vY4ga4010Scpera6W
 
-sprite $RingSm [12x12/16z] TSk30S0m54NHMxjl_sdB62VyeghJvm2UPndwSNkUKIs_-SbocXuzHbwx8eqy9fy6Xc-q8t83
+sprite $RingSm [12x12/16z] Oy096Fd1W1V815ASJ4pCt42AZHycpm4KPU23gW6HR61X7duKm83CPaSmWO0Ph9KHrLO
 
-sprite $RingMd [16x16/16z] ZSl50S0W50FGu4xsdxQEdlhGR_X3-PIZbMyWsIK0uNwTriONaaAG6aqaAyqr7tFENW1tIwfZ_dqiNfb3xIqhS54XE2cuc1PbYO-Gilqt9m
+sprite $RingMd [16x16/16z] ZSp50OGm04JHYNj-_zMk0ybfUTSHtP9Rhr5V1WvDKW6QjzRc0HY1qw72n4iszTwYaGRG9eVAn_7SkHobnavifiHYI9BZfnlzzGG
 
 sprite $RingLg [20x20/16z] {
-fSZ5WGGm40D1cMdipZ_QWsN6-WZq9TyMMvQrnPacAVB7QeunbRw09G5PHmkiWzS_vxJH-2SLTfQNvv_nPzgmjIbiPUqPHwELKllahiGrBIvboQuloNDYQ2-r
-CQUD4lIENm
+fSt50GGn30D0XT5M_zKkmp7E9p7ZJwOeLzrZnIi5W5lgsLbhNPtxTUcAE2dPAsbmgN0696xKmd3MEP7UkYuVBYuMTfvQSIvMuLE1zw2y5I_MNXuqlD2miwM9
+z1OClZ42
 }
 
-!procedure Ring($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Ring', $name, $tech)
+!procedure Ring($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Ring', $name, $tech, $desc)
 !endprocedure

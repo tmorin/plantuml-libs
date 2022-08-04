@@ -1,19 +1,19 @@
 ' definition of the Item fontawesome-6/Brands/Empire
 
-sprite $EmpireXs [9x10/16z] 7Oo55G0n38KubmhxRzl_Gbm96qMNqrOn-93y1FxFou0EK4Xz6f0ThdhnkS5hwkSnEGi
+sprite $EmpireXs [9x10/16z] 9Oc50SCm4CHaPcl_QGl9mo50u9ajsVKmO6EzrHmcLVI0WiNu9aGeG60Oe0kqfW6-
 
-sprite $EmpireSm [11x12/16z] 3SI50G0m30B1htlOVzjo25XEc8ruRr-igy9KWvuXAlJDSpfKnX53Ll21R_Ydq9CX7fs5DVQ6KwbtGDE5qC5EkQTq-
+sprite $EmpireSm [11x12/16z] BSY70SCm30F1L-_2_ji6iNti18jysbrdRgpApwRYBS1DdfFZy2VHbcYoX1iy6-f2HuOuP1fMc1DM8k_cInkk5k3VNgd23m
 
 sprite $EmpireMd [15x16/16z] {
-FSV7GGH03CLGJOxsxxzRpC3kEqdmvCJNhcETkYhFT1b8yxoJ-DLqDnnhW1Qat0ibKS4gOPtg4tcN9nbMJ1s6GW5RKWKKW7kE9arFHYDjqC0MlcYLdWdU2EFG
-joMuawW6xAiD95DlX5tb9AardcGzvRK9Fm
+DSp50KHH24FHotE3z5_jo9UpGWENPF1QfSzTPkOoGWxIs5Sd0P1r5cmlW2PWpSYGm0tWbn0THLMO7C-k35q_6NnA2T0FSFPMfUfYgDi2LRmJar9e1X0Pe6_Q
+Sk0CQAi2wsW1vcePO1K59jKC5s-MvWBu0W
 }
 
 sprite $EmpireLg [19x20/16z] {
-JSe50kKW303HWK8QQ67kVzgLxm-9ybOBlzgCE29oVDgxQeVjZCx373ehnDAM04utF5Gz6aGzJw2uW59NmjWyE1wXd4aah4dPWsA0Omn1jm-BqzYtGF6_2Ho6
-Iu3Vrdq99Vrl1JIZfmLjQjxUf45Sa0ViW570oQmyU3r2fLFRia9P4yXvBU1iUlAmDVal-zOEIyUeFDIhQkfL5XzzZCptoby
+JSg5OKGX403HWSFvo_HVROJeGrRvaHF_vTLQRcrCVfoi5OwhLQurTILeeMK0k3nmPNqLgBbt00D8AGRCmsNdweFM8IRf3B22Sqv1ZrVGRUSHm4y3I3RZhzMv
+hMSB33_52xAj3a6BEXuVXesseISu1IRWOcKkzmsPJ2fX0c81O-q0Uj7ETNG0qEhH0g5p9gwyimxTAU37QyuwVbRU0G
 }
 
-!procedure Empire($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Empire', $name, $tech)
+!procedure Empire($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Empire', $name, $tech, $desc)
 !endprocedure

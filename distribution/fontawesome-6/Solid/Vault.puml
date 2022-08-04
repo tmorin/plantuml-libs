@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/Vault
 
-sprite $VaultXs [11x10/16z] LOR50S0W00ElXHUM_QV5DNeaJVb9Kq1OP466Yht4WxBZVa970KQlE5W
+sprite $VaultXs [11x10/16z] LOR50S0W00ElXHUM_QV5DNeaJVb9Kq1OP45GiPTuK6RSH-WeuDSh3XO
 
-sprite $VaultSm [13x12/16z] NOo55O105CEAMn_PVrhqFDzL9h6OXa5JolK2y_7b1wk41CaDBegLBvhrBSe7RbwR0XrmlW3B3G
+sprite $VaultSm [13x12/16z] HOo54S0m482eUzb_srpqULTU1qVF1pFBoCdeyfZpnnC47Mv-ZUBG75-FMiI3jx-UpUGwuD4_enu9
 
-sprite $VaultMd [17x16/16z] ZSY5aKGn081GliKJ-g_sRjtjZJ4GlJC5Vr40gXU1Wwmn70PG2s23ecvmt47ewiIiEZERmx4c3t-n74Q4eHtAQGXC09v7vy0R6mJVcNm0ayRfOEZ4Fm
+sprite $VaultMd [17x16/16z] ZSt50SG030F12NFKVxN7ZDcVBTBbYQBD5WQOxdVhn93KrUc1QKHcnYGLfxSsB4bS7pAqf-NxOpmzEjPaORmyuaAkZ-Lwtwcfymrl3yLfYDCOUm
 
 sprite $VaultLg [22x20/16z] {
-XSx5WSGm5C1GcSFglzh5eV0xsPz9YriZqGFBueM-jj6Dof_9Jvc7GIt5FmD0ZW2Q8AaQ8AiBK8qypWBq4NQ6wVLvfslspscqr-UYPxG0LICmlQFobDLMN8UJ
-Qts4F7cZUOJPZVTL2mz11Ru1
+XS-30SL054JHkuwd_sgZ-UO9Lm-aHQz6eZvO5ltGfpJgHUKqoIo33P9IzEJ0BaTs4X1q08xr1IZosivVJsjsU0_kopdfz7Msrov0lCyMe9wJJFTPOIwbPidk
+aq_w8-QaFve-OTOhLrNSdpdt1W
 }
 
-!procedure Vault($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Vault', $name, $tech)
+!procedure Vault($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Vault', $name, $tech, $desc)
 !endprocedure

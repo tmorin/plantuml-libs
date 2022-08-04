@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Pallet')
 
 ' renders the element
-Pallet('Pallet', 'Pallet', 'an optional tech label')
+Pallet('Pallet', 'Pallet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Pallet')
 
 ' renders the element
-Pallet('Pallet', 'Pallet', 'an optional tech label')
+Pallet('Pallet', 'Pallet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

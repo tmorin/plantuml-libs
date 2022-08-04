@@ -2,15 +2,15 @@
 
 sprite $HackerrankXs [10x10/16z] POY53O0040CFTxh_jkJIEFzrl9TUF61DzaObgohL4dxRqwJaDi2HP8GF
 
-sprite $HackerrankSm [12x12/16z] LOg50G0X30FplE7PVrhSUaWRGIDYma9NZfslcKeruUl-MxPUs_tUDR1trmP5Fx0DIxx0pSw5YYdRKsO6
+sprite $HackerrankSm [12x12/16z] JOe50e0m30E3E_d_Qs6htwIDG7ZXiA7gehAAEGmYxhvl1wKd-vdx3kHUExlj3sMSv0ACL20SRPlQ_04
 
-sprite $HackerrankMd [16x16/16z] JOu50i0W30Dnb___TYH3UXjGRzIF6KfW9z3RqtDJwUPbfHsnIbMu2EuUFkjk1aQuVgMLNfvMsJxWYfllclbNhqM_E_rEUJoqzY0pDwWXyQdTbELvMXy
+sprite $HackerrankMd [16x16/16z] NOs50SKm24IXZUl-qqOFlbo4XzFLqm3NwrlgTYWVBouAY3n4URia0HIlF_C6ftuw57vz_5tNPFX2wSz7Fql6aDtc40PnLnKwyd2PH6bvzj04
 
 sprite $HackerrankLg [20x20/16z] {
-PP250S0W30I_nI6o_xJLf7huuO6JPSARgXiISHFLSJEntjH3vRrRwdDfsbi6-27RqKxOgapM7vSJcm-WdulWUw-vP6x6ZZioHqJexkwzvYBwpmNKesM-xm1c
-TTeP2yA6k2GBWaN1uGbECpNZmN5bjluA
+PP053iGm30ItJ8R___PYdKdj52mjj4aGx88NkmvaGR5gW82rEAjsd3qws-GU1YwVuxMJ6XEUr0INQ_JHPh1xPhmr8pHoZOXmXrRTq7oYQHDEDPZh7y2amON5
+1c4W8L8TWja18xbScj6nN-xuymC
 }
 
-!procedure Hackerrank($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Hackerrank', $name, $tech)
+!procedure Hackerrank($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Hackerrank', $name, $tech, $desc)
 !endprocedure

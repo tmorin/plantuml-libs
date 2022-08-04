@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Code')
 
 ' renders the element
-Code('Code', 'Code', 'an optional tech label')
+Code('Code', 'Code', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Code')
 
 ' renders the element
-Code('Code', 'Code', 'an optional tech label')
+Code('Code', 'Code', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

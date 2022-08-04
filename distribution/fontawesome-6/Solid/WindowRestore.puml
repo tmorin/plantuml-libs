@@ -2,12 +2,12 @@
 
 sprite $WindowRestoreXs [10x10/16z] Om02VX1W1Z4WW046-1bX8b1H9Y0B2h2os11Y3Dnm5W
 
-sprite $WindowRestoreSm [12x12/16z] TSr50e100810x9R_lzPkT-V43HQ56nQb1w3fsKZRRIgmzv2YiZ77KxnzTCRTx-aC
+sprite $WindowRestoreSm [12x12/16z] TSQr0S0m0C0mbxd-_zf2S8ec0Km608C9i9q4iX_119uc7Ig1FMRjM_KzzJ2R02y
 
-sprite $WindowRestoreMd [16x16/16z] XSYr0G0X00J1UyFX-gyMr-WtcqKji6MgRgwABTNJ2jNtWvudf1tTnOAhOZBSjOTygb-q0j_YrRyrJpkwmy-5my3X1-SeJ
+sprite $WindowRestoreMd [16x16/16z] XOor0S1054BvSMV_QS-DAgz3aVYOkP8oTgA-kK-PBscRK7Y9_QvOr1ixKPCVwkcKz8pCbtNdNvzK_V0HRO3kLHlKYD83
 
-sprite $WindowRestoreLg [20x20/16z] bT253O0m54NHZpjl_scXxdfZv50dsG7TEoc2sobeXvUm2o_fHcv1tERBTaWRu2Ni1V38-EV4ZESkDMVDhSVcs5OaRGfjc8X28ufiai_aDH3lZP_u1m
+sprite $WindowRestoreLg [20x20/16z] bT350KCn3C1GkupM_jEsdyEaumj7rfxisNaZ_5uBFGXQx8t9deAud9tVhkTgIj1Y1dpN3D3PyBOymIasTUOQiLDgDxAcwNuYYKdUtg79agLV_0S
 
-!procedure WindowRestore($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/WindowRestore', $name, $tech)
+!procedure WindowRestore($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/WindowRestore', $name, $tech, $desc)
 !endprocedure

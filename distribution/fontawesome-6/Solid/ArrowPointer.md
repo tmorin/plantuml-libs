@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowPointer')
 
 ' renders the element
-ArrowPointer('ArrowPointer', 'Arrow Pointer', 'an optional tech label')
+ArrowPointer('ArrowPointer', 'Arrow Pointer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowPointer')
 
 ' renders the element
-ArrowPointer('ArrowPointer', 'Arrow Pointer', 'an optional tech label')
+ArrowPointer('ArrowPointer', 'Arrow Pointer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

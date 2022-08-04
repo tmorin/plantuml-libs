@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/TumblrSquare')
 
 ' renders the element
-TumblrSquare('TumblrSquare', 'Tumblr Square', 'an optional tech label')
+TumblrSquare('TumblrSquare', 'Tumblr Square', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/TumblrSquare')
 
 ' renders the element
-TumblrSquare('TumblrSquare', 'Tumblr Square', 'an optional tech label')
+TumblrSquare('TumblrSquare', 'Tumblr Square', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

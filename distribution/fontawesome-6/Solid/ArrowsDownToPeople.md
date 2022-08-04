@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowsDownToPeople')
 
 ' renders the element
-ArrowsDownToPeople('ArrowsDownToPeople', 'Arrows Down To People', 'an optional tech label')
+ArrowsDownToPeople('ArrowsDownToPeople', 'Arrows Down To People', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowsDownToPeople')
 
 ' renders the element
-ArrowsDownToPeople('ArrowsDownToPeople', 'Arrows Down To People', 'an optional tech label')
+ArrowsDownToPeople('ArrowsDownToPeople', 'Arrows Down To People', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

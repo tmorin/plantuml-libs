@@ -2,12 +2,12 @@
 
 sprite $ChessBoardXs [8x10/16z] Ou01VYZWOk07GNuUDauW10g0k71n11-XZXy4OVe1
 
-sprite $ChessBoardSm [10x12/16z] TOk55S0m44Avkl1W_sdhtkIV2xZn3LSNRSE2k-s6CDgrKHIALfahoufb-zJI9nYrqyu
+sprite $ChessBoardSm [10x12/16z] TOi30W11549hpRh_QTSSl6-45xzCkslBXWLtnmqmQc-8XTWgSvrOJco-siat67NIhW
 
-sprite $ChessBoardMd [14x16/16z] ROq55W8m34ERLy6ovFwdnHt-LhVufFLaOVp9v7AdhjREe16wMdknyy3AFNqbGqRSWi912QhmEoSLgCH1ltEJ--lM_dlF9cyMVYS2B-84
+sprite $ChessBoardMd [14x16/16z] ROs50OGm54DJFI5DzfyMTtZjTyELefs6wYibDgUesTeHDA3PseqfTCpXJyy4Q9GbIEW4K0dFEIa7QfpLSwx4FrFi-7xF9XSBdy650G
 
-sprite $ChessBoardLg [17x20/16z] nSn50e0W54NHPz5mzxzQktNEeVcXBtCtI3pbn4UM82sRKVFxKOpntYsRDPQDr2sRXzT7xQQGboqiJIqloZmCUfi
+sprite $ChessBoardLg [17x20/16z] hOw54S0W34K_xh3_jatTdNUvk66FMCA1iYR5iYErNRvLkbK7YQorSxPLHflI0uXMkTRV9Huj5OAMjie8MMsfrfHjbMy_9Lc3j8uLjZG
 
-!procedure ChessBoard($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ChessBoard', $name, $tech)
+!procedure ChessBoard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ChessBoard', $name, $tech, $desc)
 !endprocedure

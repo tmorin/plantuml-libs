@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/Industry
 
-sprite $IndustryXs [11x10/16z] Oq02_Fmi22ORCfEJ7qG34GS_FpylFuW90QGnEG
+sprite $IndustryXs [11x10/16z] Oq02_FpC22OBCfEJ7qG34GS_FpylFuW90QGnEG
 
-sprite $IndustrySm [13x12/16z] Oq01_FpyU3aSGCp42kQmyFCp0XbyG0m6VFn877woEKnySC
+sprite $IndustrySm [13x12/16z] Oq01_FpyU3aSGCp83EOmy_Cp0XbyG0m6VFn877woEOnySC
 
-sprite $IndustryMd [17x16/16z] lSZ50S0020J1WxXk_zN6tL_16Pt2wphRGGryWpZkPpw33pE5S8GA880HrlWHqZsOPDkGMW
+sprite $IndustryMd [17x16/16z] Oy04V7oSg7n-VdxY15ZPG2GNJ80HJBBpypD217ZvWO0PYC42S41F0GvK0KpF0m
 
-sprite $IndustryLg [22x20/16z] pSZ50S0m30H1CqlNVxLXvloyHesuoJfdJ-ZGPOxgUtM_DTbHuaOZmDsZ02pgW5uLOTM0iS4MNQfVtQMACmPnNGi
+sprite $IndustryLg [22x20/16z] pSZL0O0m34NHA0vl_sbnz_xrLdFe8LMLAw9Fpsg3Mh0MFac-qnne-aS0h3e-3N6DJJDCZRRgMlogjqfNpEY-3W
 
-!procedure Industry($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Industry', $name, $tech)
+!procedure Industry($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Industry', $name, $tech, $desc)
 !endprocedure

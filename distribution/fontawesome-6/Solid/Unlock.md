@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Unlock')
 
 ' renders the element
-Unlock('Unlock', 'Unlock', 'an optional tech label')
+Unlock('Unlock', 'Unlock', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Unlock')
 
 ' renders the element
-Unlock('Unlock', 'Unlock', 'an optional tech label')
+Unlock('Unlock', 'Unlock', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

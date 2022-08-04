@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/LinesLeaning')
 
 ' renders the element
-LinesLeaning('LinesLeaning', 'Lines Leaning', 'an optional tech label')
+LinesLeaning('LinesLeaning', 'Lines Leaning', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/LinesLeaning')
 
 ' renders the element
-LinesLeaning('LinesLeaning', 'Lines Leaning', 'an optional tech label')
+LinesLeaning('LinesLeaning', 'Lines Leaning', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

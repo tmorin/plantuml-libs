@@ -1,16 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/AustralSign
 
-sprite $AustralSignXs [8x10/16z] Oq02_12AavyHmkNaXz0W2Jv-202hOkHdu8RnmOhv-HYWQW4
+sprite $AustralSignXs [8x10/16z] Oq02_12A4qhpGndy80a-VWW0gsBaP-26yVaPGKhu6A1g0G
 
-sprite $AustralSignSm [10x12/16z] LSR50O100C2muaxtdnOzpIlKZDdjmrG-dNnh6ctSc-OqWaF0biE8sVvbZ_9oPURJjpS
+sprite $AustralSignSm [10x12/16z] LOo30S0040EJrBpzfwrvR-eFTpAIkyNL3EVO1ZFQCpVIj8_85c_KaesIGjS7UhKwABq2
 
-sprite $AustralSignMd [14x16/16z] ROw50GD13CFiCYJM_jEM-wo3C6W3zzI2oyn20mNi9g4ZG-MPrYyr2IJm-ZfCaHrEjddzSXNKYuQwDrDqWCE7AzbhJuQfKd4ODh9a_R6U
+sprite $AustralSignMd [14x16/16z] ROu50eHG20M1xHNUtF-qTklyeCFkgBq1duF5PYGGgmKlrietPNEg91WUKeazvYvUxWvlDyk4x2d8fewP0OyO-27lBQrJXprYtSYET
 
-sprite $AustralSignLg [17x20/16z] {
-TSw50GGX34JHmPtVVxNdmjh3DT6LOBNXG1k0ry80Q541xEP5WQeV3wQkRs3AGdWVRiq9MygbG2yFC4k9aY8OFHHuzriDjkGc-BS0qKXBYj3_N_w-jOmrPHtS
-0G
-}
+sprite $AustralSignLg [17x20/16z] TS-50SGW5C3Gr8jc_sdFfSR3dKzBtx4pA3lgU9ZORucgtMv3qCZFg4JbHolez5xSgzK3rX0qXmUj8Kp0f3m5VTTxoGEwgltRf7C7cozgtWU-AdGMVfIJEm
 
-!procedure AustralSign($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/AustralSign', $name, $tech)
+!procedure AustralSign($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/AustralSign', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Ban')
 
 ' renders the element
-Ban('Ban', 'Ban', 'an optional tech label')
+Ban('Ban', 'Ban', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Ban')
 
 ' renders the element
-Ban('Ban', 'Ban', 'an optional tech label')
+Ban('Ban', 'Ban', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

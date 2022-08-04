@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MoneyCheckDollar')
 
 ' renders the element
-MoneyCheckDollar('MoneyCheckDollar', 'Money Check Dollar', 'an optional tech label')
+MoneyCheckDollar('MoneyCheckDollar', 'Money Check Dollar', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MoneyCheckDollar')
 
 ' renders the element
-MoneyCheckDollar('MoneyCheckDollar', 'Money Check Dollar', 'an optional tech label')
+MoneyCheckDollar('MoneyCheckDollar', 'Money Check Dollar', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

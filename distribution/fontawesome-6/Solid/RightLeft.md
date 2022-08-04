@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/RightLeft')
 
 ' renders the element
-RightLeft('RightLeft', 'Right Left', 'an optional tech label')
+RightLeft('RightLeft', 'Right Left', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/RightLeft')
 
 ' renders the element
-RightLeft('RightLeft', 'Right Left', 'an optional tech label')
+RightLeft('RightLeft', 'Right Left', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -1,19 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/Code
 
-sprite $CodeXs [12x10/16z] NOo50S0m40AfUs__QUF-Be2YVQf67TSqyxky1GgfaFmKEE5-XliRGEmItw1OPmi
+sprite $CodeXs [12x10/16z] NOo50S0m40AfUs__QUF-Be2YVQf67USqyxky1GgfaFmKEE5-XliRG2mItw1OPmi
 
-sprite $CodeSm [15x12/16z] FOq72WD13CHys_ly_xTP9JaB4BYElHpaD657NYgXOkTuFru5wTtQrzH73wKM7Z8fKAAkmVPZLMHHcPt79ChkMHKxGl01
+sprite $CodeSm [15x12/16z] LOw50G0X30F3ktBxJujhtHjLiXffPqffALiqXwnjTKDKwjIVQrXC6lcYVH0fJ-RcoTDddBrYbW2GqhlzscSGDV
 
-sprite $CodeMd [20x16/16z] {
-VP230G0n34MBC_BtdxQs_UAmOX3hne-UeMUoP0BEqOF3w590kBqfjuU5FA3W3lO27eSEl2n0Yfu1oPYtipomwFqD7c9m4LoH_RuulVOJwhoIATthmdQyWvx8
-_D4
-}
+sprite $CodeMd [20x16/16z] VO_50GD130CLPa__rUR8ow2VGQGCfWO_sXtjxWJvi0kzkKkOhtX5AbXSHJb0WlU-kl6HBoqemodQuqi8wXzNSCSePTluuHvN-_8PgVQQ5ej9SlmuAs81
 
 sprite $CodeLg [25x20/16z] {
-bP052iHG34IdxddtF-rgQB-k39OHu155warbmLBC6-YBnGegof9YTD_0-7Hsvbxqq4W3SEQDdZhUoGn4kM3JKnEW_ihR4tO63EOS5j3L67PXhwzslc1zlta_
-E-ovFnVD2QlvkNVP7i2svuTFsExVprgj629_1m
+ZP055aCX40FptNVkVzeQadgBayc3lDL3wqFl6unlzGRQjs21zo_54nX1_c8ah2VGt_O1UDHrfCEK1Ek2JPNqrXrs1WBc35Pd0cGIX6ElDpexRFPlcKyfhFtL
+uR2QapzvzXjUSxZblyhEdoiRdy3mS3y3
 }
 
-!procedure Code($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Code', $name, $tech)
+!procedure Code($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Code', $name, $tech, $desc)
 !endprocedure

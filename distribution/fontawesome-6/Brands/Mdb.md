@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Mdb')
 
 ' renders the element
-Mdb('Mdb', 'Mdb', 'an optional tech label')
+Mdb('Mdb', 'Mdb', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Mdb')
 
 ' renders the element
-Mdb('Mdb', 'Mdb', 'an optional tech label')
+Mdb('Mdb', 'Mdb', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

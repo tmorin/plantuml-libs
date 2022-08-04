@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Brands/SteamSquare
 
-sprite $SteamSquareXs [8x10/16z] Ou02Lduam0EX69Xv83G36py37pyBK1a_47CnW4MPc92rC41f
+sprite $SteamSquareXs [8x10/16z] Ou02Lduam0EX69Xv83G36py37pyJK1a_47CnW4MP696rC41f
 
-sprite $SteamSquareSm [10x12/16z] Oq00Vbo0WP4BoW0291O31uJ10oAPs1Z0gdWP6DXW6ZcOq4tYWm8U
+sprite $SteamSquareSm [10x12/16z] Oq00Vbo0WO4BoW0291O31uJ10o8PsI2gU1aOc64QEPZGJUA30Xu
 
-sprite $SteamSquareMd [14x16/16z] RSd50SGm00F1DRFLVxM7uMHU0ixwtAMXHrC7EC9U1jwEmqMkIx5CWfd2I6fy9Oal3mnzPmDGZ5P0rQR77FKawGXpm1i
+sprite $SteamSquareMd [14x16/16z] RSZ50S0W5C3GuCxVVzgwbtTBUAlz5feCzMUWi7Sqj6fNQOZn33gEBgWb2gkmNi02JQwTa1EGvL9Tz38INiNB3
 
-sprite $SteamSquareLg [17x20/16z] bSY30KGn44NH6pkl_shNniSP3rzyV6E2TgXJhoBE63qD9Z5OFOG0TFJ0_J5q4M24xBq4NLBdIX8doPdBw3hXmZNGJNUSLAiN1cRHYv2ArLzJ7z2xmQSZ
+sprite $SteamSquareLg [17x20/16z] bSZ50GGn08LGufxVVxNhBYFl1l39kZS4xL2dNWKClFHW4iFBSG7eBuFx6DVsC6osLe9-wiwL901l3K3gkWrm3NJJBK0rUc5WHhq8gLZzDVM1ZnvyEW8
 
-!procedure SteamSquare($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/SteamSquare', $name, $tech)
+!procedure SteamSquare($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/SteamSquare', $name, $tech, $desc)
 !endprocedure

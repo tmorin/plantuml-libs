@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Rebel')
 
 ' renders the element
-Rebel('Rebel', 'Rebel', 'an optional tech label')
+Rebel('Rebel', 'Rebel', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Rebel')
 
 ' renders the element
-Rebel('Rebel', 'Rebel', 'an optional tech label')
+Rebel('Rebel', 'Rebel', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

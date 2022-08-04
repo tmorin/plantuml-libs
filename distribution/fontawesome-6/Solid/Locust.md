@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Locust')
 
 ' renders the element
-Locust('Locust', 'Locust', 'an optional tech label')
+Locust('Locust', 'Locust', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Locust')
 
 ' renders the element
-Locust('Locust', 'Locust', 'an optional tech label')
+Locust('Locust', 'Locust', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

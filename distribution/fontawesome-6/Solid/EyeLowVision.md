@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/EyeLowVision')
 
 ' renders the element
-EyeLowVision('EyeLowVision', 'Eye Low Vision', 'an optional tech label')
+EyeLowVision('EyeLowVision', 'Eye Low Vision', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/EyeLowVision')
 
 ' renders the element
-EyeLowVision('EyeLowVision', 'Eye Low Vision', 'an optional tech label')
+EyeLowVision('EyeLowVision', 'Eye Low Vision', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

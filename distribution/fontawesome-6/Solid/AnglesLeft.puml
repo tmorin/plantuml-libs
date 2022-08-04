@@ -2,15 +2,12 @@
 
 sprite $AnglesLeftXs [8x10/16z] Oy04_404mfmCV22AZu4NI86OG0IMOeGnsFYXwdduOPe1
 
-sprite $AnglesLeftSm [10x12/16z] Oy01-46O5qJmWp0cWv61WG_Cus20Yd7pio6Oh30c3pypp3nUJeJv
+sprite $AnglesLeftSm [10x12/16z] Oy01-46O5qJmWp1M1X-Ony405UFcPqCmMM1C7ducc7cyd0Zp0G
 
-sprite $AnglesLeftMd [14x16/16z] Oo046BaH90CJFp-4P8HGN50IJ742bO4uS0f2Cg1m-C0cy898Y1m_dCJayk7bGcYGMo1kWvAe
+sprite $AnglesLeftMd [14x16/16z] XOk53G0W3C0WYlF_jsHIOZZjDFnEh50qvwQeG54cGK94CdIt2wqtXPTqF5Cnl9u5
 
-sprite $AnglesLeftLg [17x20/16z] {
-dOu53aCn34C_bCdtl-rSELeqmQZq0hQQuzzLqJS2eBm1WpXXXG8iucP-ALU3E3UpyekuFVT-y3ni7Wk8Cap2MeaOGFVAJKnfR9oeIdlLhAVhyafrZNrfXMjg
-Y475n_K
-}
+sprite $AnglesLeftLg [17x20/16z] dOw53KD134C_7z_RVzgI8rbO2dEy_4k5zdGxAA_G7sub2Xdcmst0gbmD8az0p6_EtJ-Sxw-34quT78i8LJg2uk7X6LUgAvlEnTRgIl5Cl8p2DhQNxsNvJ7S
 
-!procedure AnglesLeft($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/AnglesLeft', $name, $tech)
+!procedure AnglesLeft($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/AnglesLeft', $name, $tech, $desc)
 !endprocedure

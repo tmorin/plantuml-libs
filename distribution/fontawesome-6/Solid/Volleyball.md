@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Volleyball')
 
 ' renders the element
-Volleyball('Volleyball', 'Volleyball', 'an optional tech label')
+Volleyball('Volleyball', 'Volleyball', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Volleyball')
 
 ' renders the element
-Volleyball('Volleyball', 'Volleyball', 'an optional tech label')
+Volleyball('Volleyball', 'Volleyball', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/PhoenixSquadron')
 
 ' renders the element
-PhoenixSquadron('PhoenixSquadron', 'Phoenix Squadron', 'an optional tech label')
+PhoenixSquadron('PhoenixSquadron', 'Phoenix Squadron', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/PhoenixSquadron')
 
 ' renders the element
-PhoenixSquadron('PhoenixSquadron', 'Phoenix Squadron', 'an optional tech label')
+PhoenixSquadron('PhoenixSquadron', 'Phoenix Squadron', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

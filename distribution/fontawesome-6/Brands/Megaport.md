@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Megaport')
 
 ' renders the element
-Megaport('Megaport', 'Megaport', 'an optional tech label')
+Megaport('Megaport', 'Megaport', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Megaport')
 
 ' renders the element
-Megaport('Megaport', 'Megaport', 'an optional tech label')
+Megaport('Megaport', 'Megaport', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

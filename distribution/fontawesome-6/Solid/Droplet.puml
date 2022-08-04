@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/Droplet
 
-sprite $DropletXs [7x10/16z] Ou03VduGoSVFpmpY0064v6S3Kc0kFn-4WaY24GzK9G
+sprite $DropletXs [7x10/16z] Ou03VduGoSVFpmJY0064v6S3Kc0kFn-4WaY24GzK9G
 
-sprite $DropletSm [9x12/16z] JOk30K0n34Jl6yNRVzfQSGvQ0_h6v7q1DA1SJpqsqKBy_TZxWJpWjS4__LwA
+sprite $DropletSm [9x12/16z] Oq06_FmmcfyRH3Fp0m540C9YXp6018J5pmLZC48PGCG7fFb0YjYX-Y5y
 
-sprite $DropletMd [12x16/16z] RSwr0SC04C10XJct_xHXj7sLceSULlN6zfqRl1lEppo1TTN2KnLFsvfxAzuM-Oec-spV4IoAuopek_JxswAw0W
+sprite $DropletMd [12x16/16z] RSp50S0m3C10bRdQVzeo9hcFsHmg7jhSQQM-RPtFT79NxcdkQS-zj91vUzjQu0ibcS_sZEvoq353bVSfX-PSO0K
 
-sprite $DropletLg [15x20/16z] JSs54S0W0C30LB63x3zjNVW5djjCRrKwQkDJLLSUYnSUtWgNucFavAi2D3y33FuQ93jWBw1XzbNGCFZAD1lLHo3gGlO6gE49CZ3wgboyPHvJB3bmsW4
+sprite $DropletLg [15x20/16z] JOv50aGX3CNADvpS_xOpHPjTgay6ZrW-i0gqOnNWNVQ2ifH17fQPEDk4gjR0je_fiuZ1DCTlyC_Mh7ecaZIQL2QtVBgHfev7VZv8VtKsbRBlJ5p8wH7b1m
 
-!procedure Droplet($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Droplet', $name, $tech)
+!procedure Droplet($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Droplet', $name, $tech, $desc)
 !endprocedure

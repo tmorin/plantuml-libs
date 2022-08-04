@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FrancSign')
 
 ' renders the element
-FrancSign('FrancSign', 'Franc Sign', 'an optional tech label')
+FrancSign('FrancSign', 'Franc Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FrancSign')
 
 ' renders the element
-FrancSign('FrancSign', 'Franc Sign', 'an optional tech label')
+FrancSign('FrancSign', 'Franc Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

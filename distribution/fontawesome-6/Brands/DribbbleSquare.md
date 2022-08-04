@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/DribbbleSquare')
 
 ' renders the element
-DribbbleSquare('DribbbleSquare', 'Dribbble Square', 'an optional tech label')
+DribbbleSquare('DribbbleSquare', 'Dribbble Square', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/DribbbleSquare')
 
 ' renders the element
-DribbbleSquare('DribbbleSquare', 'Dribbble Square', 'an optional tech label')
+DribbbleSquare('DribbbleSquare', 'Dribbble Square', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

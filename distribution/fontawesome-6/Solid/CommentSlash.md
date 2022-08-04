@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CommentSlash')
 
 ' renders the element
-CommentSlash('CommentSlash', 'Comment Slash', 'an optional tech label')
+CommentSlash('CommentSlash', 'Comment Slash', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CommentSlash')
 
 ' renders the element
-CommentSlash('CommentSlash', 'Comment Slash', 'an optional tech label')
+CommentSlash('CommentSlash', 'Comment Slash', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

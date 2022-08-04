@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Hornbill')
 
 ' renders the element
-Hornbill('Hornbill', 'Hornbill', 'an optional tech label')
+Hornbill('Hornbill', 'Hornbill', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Hornbill')
 
 ' renders the element
-Hornbill('Hornbill', 'Hornbill', 'an optional tech label')
+Hornbill('Hornbill', 'Hornbill', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

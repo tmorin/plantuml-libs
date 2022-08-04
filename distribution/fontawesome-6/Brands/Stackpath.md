@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Stackpath')
 
 ' renders the element
-Stackpath('Stackpath', 'Stackpath', 'an optional tech label')
+Stackpath('Stackpath', 'Stackpath', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Stackpath')
 
 ' renders the element
-Stackpath('Stackpath', 'Stackpath', 'an optional tech label')
+Stackpath('Stackpath', 'Stackpath', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

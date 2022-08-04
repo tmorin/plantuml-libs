@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Wodu')
 
 ' renders the element
-Wodu('Wodu', 'Wodu', 'an optional tech label')
+Wodu('Wodu', 'Wodu', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Wodu')
 
 ' renders the element
-Wodu('Wodu', 'Wodu', 'an optional tech label')
+Wodu('Wodu', 'Wodu', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

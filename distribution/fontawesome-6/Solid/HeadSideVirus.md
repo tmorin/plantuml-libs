@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HeadSideVirus')
 
 ' renders the element
-HeadSideVirus('HeadSideVirus', 'Head Side Virus', 'an optional tech label')
+HeadSideVirus('HeadSideVirus', 'Head Side Virus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HeadSideVirus')
 
 ' renders the element
-HeadSideVirus('HeadSideVirus', 'Head Side Virus', 'an optional tech label')
+HeadSideVirus('HeadSideVirus', 'Head Side Virus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

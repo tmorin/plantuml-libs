@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UserClock')
 
 ' renders the element
-UserClock('UserClock', 'User Clock', 'an optional tech label')
+UserClock('UserClock', 'User Clock', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UserClock')
 
 ' renders the element
-UserClock('UserClock', 'User Clock', 'an optional tech label')
+UserClock('UserClock', 'User Clock', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

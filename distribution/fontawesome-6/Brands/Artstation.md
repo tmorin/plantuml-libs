@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Artstation')
 
 ' renders the element
-Artstation('Artstation', 'Artstation', 'an optional tech label')
+Artstation('Artstation', 'Artstation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Artstation')
 
 ' renders the element
-Artstation('Artstation', 'Artstation', 'an optional tech label')
+Artstation('Artstation', 'Artstation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

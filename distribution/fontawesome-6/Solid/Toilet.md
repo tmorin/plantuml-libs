@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Toilet')
 
 ' renders the element
-Toilet('Toilet', 'Toilet', 'an optional tech label')
+Toilet('Toilet', 'Toilet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Toilet')
 
 ' renders the element
-Toilet('Toilet', 'Toilet', 'an optional tech label')
+Toilet('Toilet', 'Toilet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

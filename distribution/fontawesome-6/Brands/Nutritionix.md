@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Nutritionix')
 
 ' renders the element
-Nutritionix('Nutritionix', 'Nutritionix', 'an optional tech label')
+Nutritionix('Nutritionix', 'Nutritionix', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Nutritionix')
 
 ' renders the element
-Nutritionix('Nutritionix', 'Nutritionix', 'an optional tech label')
+Nutritionix('Nutritionix', 'Nutritionix', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

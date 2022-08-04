@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Microsoft')
 
 ' renders the element
-Microsoft('Microsoft', 'Microsoft', 'an optional tech label')
+Microsoft('Microsoft', 'Microsoft', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Microsoft')
 
 ' renders the element
-Microsoft('Microsoft', 'Microsoft', 'an optional tech label')
+Microsoft('Microsoft', 'Microsoft', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

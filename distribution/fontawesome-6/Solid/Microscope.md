@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Microscope')
 
 ' renders the element
-Microscope('Microscope', 'Microscope', 'an optional tech label')
+Microscope('Microscope', 'Microscope', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Microscope')
 
 ' renders the element
-Microscope('Microscope', 'Microscope', 'an optional tech label')
+Microscope('Microscope', 'Microscope', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

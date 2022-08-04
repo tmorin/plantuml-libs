@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PersonMilitaryRifle')
 
 ' renders the element
-PersonMilitaryRifle('PersonMilitaryRifle', 'Person Military Rifle', 'an optional tech label')
+PersonMilitaryRifle('PersonMilitaryRifle', 'Person Military Rifle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PersonMilitaryRifle')
 
 ' renders the element
-PersonMilitaryRifle('PersonMilitaryRifle', 'Person Military Rifle', 'an optional tech label')
+PersonMilitaryRifle('PersonMilitaryRifle', 'Person Military Rifle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PlaneCircleXmark')
 
 ' renders the element
-PlaneCircleXmark('PlaneCircleXmark', 'Plane Circle Xmark', 'an optional tech label')
+PlaneCircleXmark('PlaneCircleXmark', 'Plane Circle Xmark', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PlaneCircleXmark')
 
 ' renders the element
-PlaneCircleXmark('PlaneCircleXmark', 'Plane Circle Xmark', 'an optional tech label')
+PlaneCircleXmark('PlaneCircleXmark', 'Plane Circle Xmark', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

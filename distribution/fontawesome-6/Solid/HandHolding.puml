@@ -2,12 +2,12 @@
 
 sprite $HandHoldingXs [11x10/16z] Ow0ku0S1FY051jmS7FpyG0G530m
 
-sprite $HandHoldingSm [13x12/16z] Ow0Vu0S31WOUVdPk48k5XGaiXW1yI7ns1WO
+sprite $HandHoldingSm [13x12/16z] Ow0Vu0S31WOUVdPk48k9YH4iXW1yI7ns1WO
 
-sprite $HandHoldingMd [17x16/16z] rSf50S0m04MnD-Pz_shBAA4vXw7Cp-jDmF40bw8NFkbuFddhkZAfyJb-eSu6Qas01G
+sprite $HandHoldingMd [17x16/16z] rSe50G0X50FGdUAiVrfS8_2GhpYBiHaIOTAdMAME8uLnpExx1hXmITdYvjktY2G2
 
-sprite $HandHoldingLg [22x20/16z] xSj50O000C30uSxwjyNT2d3_uyklT5RJgvIUgnO2UrbLEKdYE8PqBAwglDVOo_4g0izQUfxa33e
+sprite $HandHoldingLg [22x20/16z] xSk30S0m54NHMxjl_sbhXWlaX5_49Bqk8vj1sXyzvYjgXk7Ab7cUGtsCw36qcqcR5jaoxEmCThPbjm8
 
-!procedure HandHolding($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HandHolding', $name, $tech)
+!procedure HandHolding($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HandHolding', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BorderAll')
 
 ' renders the element
-BorderAll('BorderAll', 'Border All', 'an optional tech label')
+BorderAll('BorderAll', 'Border All', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BorderAll')
 
 ' renders the element
-BorderAll('BorderAll', 'Border All', 'an optional tech label')
+BorderAll('BorderAll', 'Border All', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

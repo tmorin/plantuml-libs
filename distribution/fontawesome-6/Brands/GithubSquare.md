@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/GithubSquare')
 
 ' renders the element
-GithubSquare('GithubSquare', 'Github Square', 'an optional tech label')
+GithubSquare('GithubSquare', 'Github Square', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/GithubSquare')
 
 ' renders the element
-GithubSquare('GithubSquare', 'Github Square', 'an optional tech label')
+GithubSquare('GithubSquare', 'Github Square', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

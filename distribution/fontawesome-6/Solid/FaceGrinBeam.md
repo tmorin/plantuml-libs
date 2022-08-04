@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FaceGrinBeam')
 
 ' renders the element
-FaceGrinBeam('FaceGrinBeam', 'Face Grin Beam', 'an optional tech label')
+FaceGrinBeam('FaceGrinBeam', 'Face Grin Beam', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FaceGrinBeam')
 
 ' renders the element
-FaceGrinBeam('FaceGrinBeam', 'Face Grin Beam', 'an optional tech label')
+FaceGrinBeam('FaceGrinBeam', 'Face Grin Beam', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

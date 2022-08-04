@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Hubspot')
 
 ' renders the element
-Hubspot('Hubspot', 'Hubspot', 'an optional tech label')
+Hubspot('Hubspot', 'Hubspot', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Hubspot')
 
 ' renders the element
-Hubspot('Hubspot', 'Hubspot', 'an optional tech label')
+Hubspot('Hubspot', 'Hubspot', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

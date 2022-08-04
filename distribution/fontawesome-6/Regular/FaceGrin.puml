@@ -2,18 +2,15 @@
 
 sprite $FaceGrinXs [10x10/16z] BS450GGn0C2mZddrh_Rn4e1XvKiJpG5klYp8doDXneloMBLn0_aWKbIG8Ly2HPV26m
 
-sprite $FaceGrinSm [12x12/16z] FSR70S8m50KmfIUsFs__QUcWaq3F2KZggWIoWv5_gH8ERAGNOGd9vITdCM4cGbw837ekSf02kK7bvU01
+sprite $FaceGrinSm [12x12/16z] 5SU54SG03C0mFMFg_RVjHKUszUkDLVEQWXxMFpQj6R5tezyGjwYNjNgFjH8jqfzV7thHM1qmhHSd
 
-sprite $FaceGrinMd [16x16/16z] {
-LSw55GGX303HuCxqt-szX5lxgq1CJ5eC9vV5KKGvgA8cIpzmnKMc1iijuyM2Bvl4bSBM00kdtI-GDmRVjKEpO5jaHvXQLbMhcOaYUJ6yJcZJPpac-NosVZlN
-WSTi_Vy1
-}
+sprite $FaceGrinMd [16x16/16z] NSw50GCn3C10FMEi_QSjX0eNHfjiILu3JRBOoDhaDfKbrUGDIRh5WNov2HVR4mDcytMFtYdVlFxMWp2feS8ktX0jFOFLgUT_cxDVA6xNCiGCx9Ob36O1y0G
 
 sprite $FaceGrinLg [20x20/16z] {
-NSs5bS0m4CHGXT5M_zKUp0l_e1SvBDLzv67oK3eEQksEr4Bepc7GzHFAQO3f277GF2-pCrPWIUrGsXGkTldsULVo5c1S0DhiB2eVcxjyL4SdQElS0FrM04MX
-qmEq5ee335SevpP_pL8j4p3bkEHzc8x3gZFH5ks8J2jRFIOUPgCCEVq2
+PP3L0S0m20L9NGAt_xIL5pugryPmi6GDwcGFHX8lbW3HN-SCh2cYMjB1zX0bC5wn97eAstgoi1XnLrALNcbXfTSvQ8-sotLI2KKv7R0FE_Kd2oRcoocME_gm
+Uoi6BXc9xcvEfo6aIEy2EIkVsnpkrpFrd8yDbYOf3jrZfBu7mBDnuSte1
 }
 
-!procedure FaceGrin($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Regular/FaceGrin', $name, $tech)
+!procedure FaceGrin($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/FaceGrin', $name, $tech, $desc)
 !endprocedure

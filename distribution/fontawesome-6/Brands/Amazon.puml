@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Brands/Amazon
 
-sprite $AmazonXs [8x10/16z] HSM50O000CEmuCx-lnQNIUjF4fUa1T9Xp7Gv_Jbo1b9G2gYGX1q
+sprite $AmazonXs [8x10/16z] 7SM50OG008NGTsdB_jDQFm005PJ-G0FcbiUDzwWAUl4MUA7Y1
 
-sprite $AmazonSm [10x12/16z] JOl50O100CE2Ezb_MkIydpejEZKgFQASByZXdcljehg4hEv5bzYA_pM-nW7SEuRp_Ejkl_xY1G
+sprite $AmazonSm [10x12/16z] LKo30K115EhZZFQVzindLBYCv1nS7_y0pAETxzBw58WrHKMAAL9lehFUfvnCwTxBfX9gom
 
-sprite $AmazonMd [14x16/16z] PSq50e0m30F05BSs_tyjCBTCRuenSjcPeNHP0pRod7u6dQh0unKodvPrqYTW9wToacwYZV8N5_yOUIFnWlmGF4YPPWNi4Oz55tC3VSeXaR3_0G
+sprite $AmazonMd [14x16/16z] RSY55GCW40JHnPtflzh8yU8Pz9_-r7VJeyMzS12XEU2ehILDqycdpKCLww20rtp8nkj3W3TrW0r33tOvmzGZvwQqfpFuvVVzmPhwxWe
 
 sprite $AmazonLg [17x20/16z] {
-TO-50S0m2C20IRtv_zgvIweuo0zDtzjLPE6GkrK-DK0G1KnMKYchskJALQ6H1RiMyHS5q5n3392heWNMk726iDAkYhG8MWbdxyi_Je4ckRbEQOY0dbDhdXu7
-oJiN2bbrDVOmaUMJ4G
+TS_50G0X00F1u4xwh_PSaVcnE2Q4KW8lnKCxVWl907n2AkNC0gycH1x4zr1_XNVn6oJ9AxyxpXpUBHTrXiGTwhC2vbmT0IMH1LvI4FZz4Xc08vDJEXHcNCij
+Tnb3Am
 }
 
-!procedure Amazon($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Amazon', $name, $tech)
+!procedure Amazon($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Amazon', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BookSkull')
 
 ' renders the element
-BookSkull('BookSkull', 'Book Skull', 'an optional tech label')
+BookSkull('BookSkull', 'Book Skull', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BookSkull')
 
 ' renders the element
-BookSkull('BookSkull', 'Book Skull', 'an optional tech label')
+BookSkull('BookSkull', 'Book Skull', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

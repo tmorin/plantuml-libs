@@ -2,15 +2,15 @@
 
 sprite $HotTubPersonXs [10x10/16z] ROO50e0W0CHcj_l_Q-q4BiSCMzr6GGGS8Jkmh02HIUMGIN6u_j3WhHK
 
-sprite $HotTubPersonSm [12x12/16z] TSQb0SHG042n74FXxJzjGLNzg9ZVMAsOwqxwyYwK7joTUjsZLZndwOHJG_FSBJt7VtVP0G
+sprite $HotTubPersonSm [12x12/16z] TSQr0G9H042nuCxRVrhqfFgfudx4qnFtsf3E70kb3HjVxJPHJ-plqfU_XkxtDcax_h7L6m
 
-sprite $HotTubPersonMd [16x16/16z] ZSk54K91303H_UxP_hibcHl1uPt6cEs0DK3IhFNkWXDW6kezKA1JIPjRrtu3b4FwcbZESw4u4C5i2b8FNOTD1usFmbVBvHovwrE6qpxiBiVphpZqgbqVyT4D
+sprite $HotTubPersonMd [16x16/16z] ZSS50a8n3C3GVDSrzxyjA-xm9aqPfPe2p1WrvoBO0bPDpWqbupGMPqxLGDgaSO1XtmUIBH6CLi6L9yrrVnI-6ej3E4P6QdS9cvBnpnvQycQ8Zmu
 
 sprite $HotTubPersonLg [20x20/16z] {
-hSlLOS0m303HYodist_RIcNuAJsZY39FqZLXarGCX2aSrgTloD_kHlSYd8O5MBIZ1q6zI8iMT13gmfESB4fee_D4dmwcdNJSqEBScYRl-ABnogyEVu3BYUve
-6_-GAxUpw15dREhfLqm_sny
+hSg53K8134NHzzrxzz-M2au4EqczQcrJs4sQKMXnSeQqqbJhebkOrRBBRJW563pMQkke9lvXp5vdFNiSiXq75QWGOL5O3wdtE4YcErnqkkBLoWUqOuB5ent_
+i6iEh87Lev-1ZLSodYqd
 }
 
-!procedure HotTubPerson($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HotTubPerson', $name, $tech)
+!procedure HotTubPerson($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HotTubPerson', $name, $tech, $desc)
 !endprocedure

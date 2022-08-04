@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Paste')
 
 ' renders the element
-Paste('Paste', 'Paste', 'an optional tech label')
+Paste('Paste', 'Paste', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Paste')
 
 ' renders the element
-Paste('Paste', 'Paste', 'an optional tech label')
+Paste('Paste', 'Paste', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

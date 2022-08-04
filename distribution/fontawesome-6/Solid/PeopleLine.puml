@@ -1,19 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/PeopleLine
 
-sprite $PeopleLineXs [12x10/16z] NOQ30S1000ElThF_j6zV22Dg_fTNI2uRdj__6LZaMLt0Fz8yBXiV_kyDgbW
+sprite $PeopleLineXs [12x10/16z] POU50S0m40AfDyh-s-RZTYySsE3WhYP1ofs8-EXHBqRkM14D9OpS1OVexm0x0G
 
-sprite $PeopleLineSm [15x12/16z] RSU50SD04CH06Pv1_LSRvdWEbqEsxpXvgWjBgn3ZBIfwMxUuu5GJDwgxtYvuEpb7rO15omJHLM1VkTatI7vPvfSp
+sprite $PeopleLineSm [15x12/16z] RSg50SCm4C101SoW_QSjStE6HmxPlil9KmNQvTi2LuhUFguMd6hYnelzkO5Nf1Yy25YqJ11T1TQ5ctM5v1VcbpC
 
-sprite $PeopleLineMd [20x16/16z] {
-VSr50aCn203H-Mv9vlwtRQ6kRuN3FttbWswyM-nuii_GxSTw3SEaOA2FC7bWcY9CSwkzgzeyXnr0DOmgPWIT2Mst4CDkF6qH7ixarbORO1zX4M0SkHa7e2iV
-Zkedkayd
-}
+sprite $PeopleLineMd [20x16/16z] VSO50WGX3CNGZ2la_hVT-Ul-e6tufobyq8LtWpnR-wnjpXuWMWM3v8KR6aEI66ffdTNgaKGnUfLB0HfelIN6wWJKvEQ8hRgK2jWaTpcqBV78_SDM_0IVJW
 
 sprite $PeopleLineLg [25x20/16z] {
-ZS-5jSKm3C1G1SlL_jD-y7cClM6EEQ9dNbeqySggRuvidGVp1AHfMJgGemwpDfB_Tb0vwLhO39rLESk9uWbKJigcgtRLnNdNcM1Ogog6_JhlajJjF6hGF3a5
-UGAxiLJTWAIJwkp8wJZx3cHxRCEHFwbMhd8j_6lzfRpwHlSDtla5
+ZS-5eHWX403HGS-P_hlDoUQxFTnP_g8alhGfNzerywMZyy4wSrgshG7fhCEg3RmCK0bTCuUtnguGCXG3L48wTDVkQNCTkdBpjbTFCHYlysweHunia0qHP81X
+yrGzEEdiQRKJnnc3apMUchdapAiKezQ_b7U_qVq6t_a7
 }
 
-!procedure PeopleLine($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PeopleLine', $name, $tech)
+!procedure PeopleLine($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PeopleLine', $name, $tech, $desc)
 !endprocedure

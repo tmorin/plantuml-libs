@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Egg')
 
 ' renders the element
-Egg('Egg', 'Egg', 'an optional tech label')
+Egg('Egg', 'Egg', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Egg')
 
 ' renders the element
-Egg('Egg', 'Egg', 'an optional tech label')
+Egg('Egg', 'Egg', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

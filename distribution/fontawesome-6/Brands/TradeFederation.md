@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/TradeFederation')
 
 ' renders the element
-TradeFederation('TradeFederation', 'Trade Federation', 'an optional tech label')
+TradeFederation('TradeFederation', 'Trade Federation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/TradeFederation')
 
 ' renders the element
-TradeFederation('TradeFederation', 'Trade Federation', 'an optional tech label')
+TradeFederation('TradeFederation', 'Trade Federation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Indent')
 
 ' renders the element
-Indent('Indent', 'Indent', 'an optional tech label')
+Indent('Indent', 'Indent', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Indent')
 
 ' renders the element
-Indent('Indent', 'Indent', 'an optional tech label')
+Indent('Indent', 'Indent', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -1,19 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/Explosion
 
-sprite $ExplosionXs [11x10/16z] FOY55S0m58IeUzb_sdZ2b-CTcJc_j-YT_7leI6_DUi2_hv9nyRPfPduj0kKndUtT3Y8
+sprite $ExplosionXs [11x10/16z] FOo50O003CEAE_d_MvXchZ86SxUdvvy_bmfKNIpTf7SSaS70IQQ6RZpnqfxkwKwQ3m
 
-sprite $ExplosionSm [13x12/16z] LOg50S0m3CCyPkl_QmiPgv0O50pnzwTmdOodg6D0hs2xX2STPu34BYw1CEY4G5kD5pZC4TdPw45_p8SC
+sprite $ExplosionSm [13x12/16z] JSc50SGm3C10FPQj_QSjX2ynato7J7m0VoI_9wGFRcJnvv27u8vb44F9JDYUyw97UAHRfFn9UHGEBW
 
-sprite $ExplosionMd [17x16/16z] {
-NSg5SKGn303H_MYUxR_RZ9JZPn3oq7R2vCa6SBZpO0LGldHldkh-is27vIHjW8jTITqB51MIbdYwGxfr6630MJSqbLitcc4Ub-44JhK3g1VfE0XRncrzcyiV
-Vm
-}
+sprite $ExplosionMd [17x16/16z] NSk50O0m4C30u4xsdnQdTjKtFXEFbPzFff6V8u2IcUpuZLNHu0oR2u-dk55hCgcel7IuZ_BfTF462xGZ-EexXSdRMZVU6k3-pG1gnwEgqdVBhPk54m
 
 sprite $ExplosionLg [22x20/16z] {
-RSw53SGm5C1GbxdUVzh3e9ed27mawUzm6K-otPuVRVnU7cIBV0tAavuKXb_XgWEFlYgbqn4k7QivjpDZaRff1xgYRaJgWEwRMgwgirxg0VsKauEUKs7MRHWq
--9Nbl3LTbx1-YCELFg5RrpNT_k6-WTsMzkyR
+RSs55O0m4C3Gu4xstvQ7rpvIEUDJxTpQbTziTM-qSBkvy1laL2ivNGdKorrXJTPN9RHQmwPjD6UtfWvI9yzY7V7ylJolTPvKFhtQwwOkKDNS_C2gqEXKDRwk
+iZzl_BO3frcruxHzbr2Du_Zj-djJm6n9-VO
 }
 
-!procedure Explosion($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Explosion', $name, $tech)
+!procedure Explosion($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Explosion', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FileCircleExclamation')
 
 ' renders the element
-FileCircleExclamation('FileCircleExclamation', 'File Circle Exclamation', 'an optional tech label')
+FileCircleExclamation('FileCircleExclamation', 'File Circle Exclamation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FileCircleExclamation')
 
 ' renders the element
-FileCircleExclamation('FileCircleExclamation', 'File Circle Exclamation', 'an optional tech label')
+FileCircleExclamation('FileCircleExclamation', 'File Circle Exclamation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

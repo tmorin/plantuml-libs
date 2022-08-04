@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HatWizard')
 
 ' renders the element
-HatWizard('HatWizard', 'Hat Wizard', 'an optional tech label')
+HatWizard('HatWizard', 'Hat Wizard', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HatWizard')
 
 ' renders the element
-HatWizard('HatWizard', 'Hat Wizard', 'an optional tech label')
+HatWizard('HatWizard', 'Hat Wizard', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

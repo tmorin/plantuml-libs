@@ -2,15 +2,15 @@
 
 sprite $PaletteXs [10x10/16z] HSY50O0m34JHmvs__xRGnbuy-XsiQkWEMrfRX5PexQ1Cc9M1xXQDcgDjYvh5dny
 
-sprite $PaletteSm [12x12/16z] JOo50S0W30I_xhtzfyKXkRWgyt2gGgMdrGbM-BB_r9hPFtWcEYUYyRTiSzzNkKALh-SH
+sprite $PaletteSm [12x12/16z] JOo50S0W30I_xhtzfyKXkRWgyt2gGgMdrGbc-BB_r9hPFtWcEYUYyRTiTTyNkKALh-SH
 
-sprite $PaletteMd [16x16/16z] NOu55WGX34FJbV7I-zzsNWZ-aReWy_Uu3HKFiOCOrVJbxxI3V2GU9lkFeQ3C_hyQIFvpJBZUGhBHkkE7CQS7TpEkM4s7s6gRTNjK7jaVL3v3_0K
+sprite $PaletteMd [16x16/16z] NOw30G0W44MpiV-qwUSNpY036REdP14pq32xcbZ_up8pXGWzEVPOp5qEFqS3I3bY8E9z97fR7cMR4vIKqZL-x0BKQlDlJnO1DjqEUiKh
 
 sprite $PaletteLg [20x20/16z] {
-RT230SH004JHYTU__sgF4-Uj3Lbib5a72rO76GVnsDKhyPNsBZf5VgRVNcdyxOLhqY-R-N8j20Y3kroBt3KUJGDd1QJ2oGnZnr6Hs0sooaQo_jHd4MpI9e5f
-Ds4w2lwklpS
+RSh50SHG549Hujzl_zME4i_PF05PR9HP1nDMEna7yVZgbFXAXvOK-Pca2L8FKF4c0TBCbxSW87H-UOlSDHvD0sS5fCB936DtRadiEbbb8rbt-ba4cxH9fw9D
+vv-5q-iD
 }
 
-!procedure Palette($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Palette', $name, $tech)
+!procedure Palette($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Palette', $name, $tech, $desc)
 !endprocedure

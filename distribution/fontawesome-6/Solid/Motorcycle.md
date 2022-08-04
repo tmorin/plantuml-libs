@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Motorcycle')
 
 ' renders the element
-Motorcycle('Motorcycle', 'Motorcycle', 'an optional tech label')
+Motorcycle('Motorcycle', 'Motorcycle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Motorcycle')
 
 ' renders the element
-Motorcycle('Motorcycle', 'Motorcycle', 'an optional tech label')
+Motorcycle('Motorcycle', 'Motorcycle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

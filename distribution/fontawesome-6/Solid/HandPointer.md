@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HandPointer')
 
 ' renders the element
-HandPointer('HandPointer', 'Hand Pointer', 'an optional tech label')
+HandPointer('HandPointer', 'Hand Pointer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HandPointer')
 
 ' renders the element
-HandPointer('HandPointer', 'Hand Pointer', 'an optional tech label')
+HandPointer('HandPointer', 'Hand Pointer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

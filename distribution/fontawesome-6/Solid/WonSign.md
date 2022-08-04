@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/WonSign')
 
 ' renders the element
-WonSign('WonSign', 'Won Sign', 'an optional tech label')
+WonSign('WonSign', 'Won Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/WonSign')
 
 ' renders the element
-WonSign('WonSign', 'Won Sign', 'an optional tech label')
+WonSign('WonSign', 'Won Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

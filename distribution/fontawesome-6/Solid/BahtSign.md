@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BahtSign')
 
 ' renders the element
-BahtSign('BahtSign', 'Baht Sign', 'an optional tech label')
+BahtSign('BahtSign', 'Baht Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BahtSign')
 
 ' renders the element
-BahtSign('BahtSign', 'Baht Sign', 'an optional tech label')
+BahtSign('BahtSign', 'Baht Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

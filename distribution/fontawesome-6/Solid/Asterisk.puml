@@ -1,16 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/Asterisk
 
-sprite $AsteriskXs [8x10/16z] Oq02_CWqFnUGvkS7Ce008iBF1oJPmNn6e2GGCVEZwmC
+sprite $AsteriskXs [8x10/16z] Oq02_CWqFnUGvkS7Ce008iBF1oJPeNmmOkP7rmS
 
-sprite $AsteriskSm [10x12/16z] LSO50e0m3C30u4x-_rfqcgtjKMT4yslzrOte_aWFc7nhUNiGxzF-eczaKLfuz5U8WwSR
+sprite $AsteriskSm [10x12/16z] PSor0O100C30u4xsdnPUcfUhKeMQJPsvnXcz4NrWCng8L2ADRj0HEPIX-sKFmGy
 
-sprite $AsteriskMd [14x16/16z] ROw30GH14C1oM2FzL_lsNnPZS4JdW-boP8Noj9O6QhfPJGCCTLfkNc3nnk21QkDEyyuEx6gThbC57VS9cqPONzEtmys6VBBSnHa
+sprite $AsteriskMd [14x16/16z] RSwr0GD14CLG7Io3-g_MpBuNZQ8_7EcVCLsEQYklQg26MxNhmL2dHKrSUJE0LpRkcdSxiAjvkauLTDmNLesmlFQMmy-673W3
 
-sprite $AsteriskLg [17x20/16z] {
-XS_50GHH2C3G0EEM_gjTTtsdBoZVjCcJL9xKZuUSw_umJB3eUdb8jIWFXj9Or8M3sPlY95PFHcvUxgCNBKUD1vSws-LxYL9Q3u99yphOg075VTA8lylTkVB5
-7W
-}
+sprite $AsteriskLg [17x20/16z] VO-54S102C2GkcN_RNjGrxpY85-OtcIuAln7eRqTYgOJ6M1S5GPetbIX680X_7fsR4qpaZIoGz3kOikAfrW0h7ccrJn4sJXHl0FT6clprdFh-ZlS5KRvO0O
 
-!procedure Asterisk($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Asterisk', $name, $tech)
+!procedure Asterisk($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Asterisk', $name, $tech, $desc)
 !endprocedure

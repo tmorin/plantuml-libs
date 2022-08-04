@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Key')
 
 ' renders the element
-Key('Key', 'Key', 'an optional tech label')
+Key('Key', 'Key', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Key')
 
 ' renders the element
-Key('Key', 'Key', 'an optional tech label')
+Key('Key', 'Key', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,15 +2,15 @@
 
 sprite $ShuffleXs [10x10/16z] POl50G0X4CHohf3-gyL_P5s62TaKiC3pIF0P2q0ORKCSYfQQ0hYhOY0P
 
-sprite $ShuffleSm [12x12/16z] ROor0S104CFqpE_zfmrV5rK7jlXZRWZ10uIblIH5q0smHHHJ6K02MWPRZAB0U3mIKfYlnvd7k3r6Avm
+sprite $ShuffleSm [12x12/16z] RSor0S0m34JHRsRV_jE6rULLmkFFtE0SDxUqbwG0kW5RH36L0Pv9os2DoGgC9qT2SlFDmNBCdMDQuGG
 
-sprite $ShuffleMd [16x16/16z] VSr50aCX303H-MuXS__Rjb3Nju4uV-p9Yp3f8k80waSjnRC0j64O1fq9on3r0_JQ8KGDgqrRVkGgbHTjSakQLJhjxlVhVzD8pNP_0V9nVw0QhlSVeZK-z1ES
+sprite $ShuffleMd [16x16/16z] VSt5OGC130NHMQQ_clwhJSnilvDO_B0MJs91aksSHTrtrG2UqJIDziIzYOu0ZOAGSmgBdkez5wKyEMqknSaiZTx_w-b4IklqlmVg_h_Xg3d_Vn0d7ZK3_0C
 
 sprite $ShuffleLg [20x20/16z] {
-XS-54GD134DHXPT__zrcvE3n6rgqBHsxLIqqnl8CXYwOx0HXTBw7WpUbd3DqgKFDFh_B2YI99hKu2i15tbGUqkzGuVetgm_dAYJVDRsTY4acEGOf9fxau26l
-9ZbwJ3d9aMHUZlWprPP7aMF1EPu
+XO-53GGn4CJc6BFklzjNQAHdYv9bwp_pfJTkuaECq4H61IgHS31eQ3-E0vAKu3foV5NcX5tYbkuSygH1-NEngUCzeynOWyzSTT1yEqAvvCaZobfuyiZR9fuz
+KhdooMDN9Z-Zz3npluNiOUpn
 }
 
-!procedure Shuffle($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Shuffle', $name, $tech)
+!procedure Shuffle($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Shuffle', $name, $tech, $desc)
 !endprocedure

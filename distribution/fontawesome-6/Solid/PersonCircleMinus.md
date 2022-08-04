@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PersonCircleMinus')
 
 ' renders the element
-PersonCircleMinus('PersonCircleMinus', 'Person Circle Minus', 'an optional tech label')
+PersonCircleMinus('PersonCircleMinus', 'Person Circle Minus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PersonCircleMinus')
 
 ' renders the element
-PersonCircleMinus('PersonCircleMinus', 'Person Circle Minus', 'an optional tech label')
+PersonCircleMinus('PersonCircleMinus', 'Person Circle Minus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

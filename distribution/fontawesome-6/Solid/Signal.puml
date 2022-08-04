@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/Signal
 
-sprite $SignalXs [11x10/16z] Ou03JWIJ7yx0PFAomfdy750cFoQJdmyR4m
+sprite $SignalXs [11x10/16z] Ou03JWIJ7yx0PF8omPdy750cFoQJdmyR4m
 
-sprite $SignalSm [13x12/16z] Oq02lCWSVZYB4Pd3pu6Lmy-3pE65SNXva3ZyV30E8piIXvyV5mS
+sprite $SignalSm [13x12/16z] Oq02lCWSVkmSVdQi77uUP0ulZCFBWyJXvuDpM94u_FouE
 
-sprite $SignalMd [17x16/16z] XSYr0O105C1Gt27xRqjtyZLTtY3wn1-4S0kOk2Au5W4GmN88W0Z6Im2C2NmC5OvXvmS
+sprite $SignalMd [17x16/16z] XSYr4G0n4C30Pp2f_swTUWwLQJVH4FyHGfL0YQ2S0Y22wnC08HG1aC5OuTjU9W
 
-sprite $SignalLg [22x20/16z] fS-r0S0W40LGtE7lFsqyLBYSlkv8uLbVKg20T50ZIWge8QKbZP051SoGgf96s88c-16bdXKKI9lg40W9qFbYVfSJ
+sprite $SignalLg [22x20/16z] fS-r0O1050HHt67whnQBxxvk-AATfh1rBoaazAIaCCJrf2ieB2RjItgo5lHYD-dU5XIkf6uV7CpVlH_-x0S
 
-!procedure Signal($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Signal', $name, $tech)
+!procedure Signal($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Signal', $name, $tech, $desc)
 !endprocedure

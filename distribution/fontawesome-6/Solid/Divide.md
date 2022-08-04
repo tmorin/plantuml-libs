@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Divide')
 
 ' renders the element
-Divide('Divide', 'Divide', 'an optional tech label')
+Divide('Divide', 'Divide', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Divide')
 
 ' renders the element
-Divide('Divide', 'Divide', 'an optional tech label')
+Divide('Divide', 'Divide', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

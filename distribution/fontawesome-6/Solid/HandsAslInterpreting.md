@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HandsAslInterpreting')
 
 ' renders the element
-HandsAslInterpreting('HandsAslInterpreting', 'Hands Asl Interpreting', 'an optional tech label')
+HandsAslInterpreting('HandsAslInterpreting', 'Hands Asl Interpreting', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HandsAslInterpreting')
 
 ' renders the element
-HandsAslInterpreting('HandsAslInterpreting', 'Hands Asl Interpreting', 'an optional tech label')
+HandsAslInterpreting('HandsAslInterpreting', 'Hands Asl Interpreting', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

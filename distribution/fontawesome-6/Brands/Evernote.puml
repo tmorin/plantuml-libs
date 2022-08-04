@@ -2,12 +2,12 @@
 
 sprite $EvernoteXs [7x10/16z] Ou01JdvM8Cd23m901eZYuOVmK2amu0SJ48gBdm4
 
-sprite $EvernoteSm [9x12/16z] JSR50O100C2muaxtdnOvpoiq1cT-zw8wSXbYVzq6ky4f9ZKSzg3ytBkK_exXcdW1
+sprite $EvernoteSm [9x12/16z] JSR50O100C2muaxtdnOvpoiq1cT-zwWwSZdvwwxRO3SunQI6mmwKdtkNqjqIN1Cl
 
-sprite $EvernoteMd [12x16/16z] NSY55GKW34FHu4xsd_PBEUZ3BiLRorCXaCrh8GCb1yzfmdlVEMhSXGcJ2Uw6ox2IMpu0NDA0SdzBp9XE7PfjpdzXfXJm1G
+sprite $EvernoteMd [12x16/16z] NSY50G0X40F1lEAa_sfn7smvd9pk9LxI_JNvilZmfuiLlkVrh1mdqUFI1AVQflPLxl81y7nNkj_K5JLwAm_GzNc2LGG
 
-sprite $EvernoteLg [15x20/16z] RSwr0O100CNG3vnRzfyMTqZtkkWlwxeBdGTE3Io4blg5x0IiUcwiMgeS1HwL9nrdHY1kVMbPoccdJ0CwzRuzLWVTc4aA5_5I8PqaLj0PKFLk0W
+sprite $EvernoteLg [15x20/16z] RSU50O0m30NH3zJjzfyMTtYLvFId7sxHUU2i7iEYfMv9iEnwzTooQb4v11uA3uwJ4OYRRmuiSjfJVLj7PzTv60RTCfCKhiHBXNGciO9EGDNR1
 
-!procedure Evernote($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Evernote', $name, $tech)
+!procedure Evernote($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Evernote', $name, $tech, $desc)
 !endprocedure

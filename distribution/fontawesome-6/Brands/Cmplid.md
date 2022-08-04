@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Cmplid')
 
 ' renders the element
-Cmplid('Cmplid', 'Cmplid', 'an optional tech label')
+Cmplid('Cmplid', 'Cmplid', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Cmplid')
 
 ' renders the element
-Cmplid('Cmplid', 'Cmplid', 'an optional tech label')
+Cmplid('Cmplid', 'Cmplid', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

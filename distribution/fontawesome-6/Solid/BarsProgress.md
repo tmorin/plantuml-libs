@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BarsProgress')
 
 ' renders the element
-BarsProgress('BarsProgress', 'Bars Progress', 'an optional tech label')
+BarsProgress('BarsProgress', 'Bars Progress', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BarsProgress')
 
 ' renders the element
-BarsProgress('BarsProgress', 'Bars Progress', 'an optional tech label')
+BarsProgress('BarsProgress', 'Bars Progress', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

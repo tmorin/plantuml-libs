@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Regular/Clipboard
 
-sprite $ClipboardXs [7x10/16z] Os1Wu69X009s7duWany263Y1W0qe00HuAMvUBY3W1m
+sprite $ClipboardXs [7x10/16z] Os1Wu69X008s7duWany263Y1W1ae00HuAMvUBY3W1m
 
-sprite $ClipboardSm [9x12/16z] Om02NWu6CE3du-TcO63av-Vdu0S1JZ393cH0vCbaiF530G
+sprite $ClipboardSm [9x12/16z] Om02NWu6CE3du-S6KVpy7FmWm0uZsI7oP3BO-A4
 
-sprite $ClipboardMd [12x16/16z] jSQ50O0m44FHu1Ru-q-BLHVeEqdqMUaLNS3ybSd60hkV-9m4gbB3h_zxqhoBuW4
+sprite $ClipboardMd [12x16/16z] jSQ50O004CF0u5R8_jFYCW7tqdBeBRWjQdsK9Z5eGkDXze9VKfmu--FtZfyD
 
-sprite $ClipboardLg [15x20/16z] pSVL0OKm04MnM_UU_QTzWiC4v2zQ-DbrgW1M6mCcCVGt-5FWBrKULDce0R9bi_RmsZPcFO0c5-KB
+sprite $ClipboardLg [15x20/16z] pSV50O0m0CNGZplPVrgesmHzfqJE_DxAJemXBMZZSVbWQS9QJnewgz9m17wJRlVYFHFGI-7u0G
 
-!procedure Clipboard($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Regular/Clipboard', $name, $tech)
+!procedure Clipboard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/Clipboard', $name, $tech, $desc)
 !endprocedure

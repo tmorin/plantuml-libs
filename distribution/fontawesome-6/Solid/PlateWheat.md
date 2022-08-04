@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PlateWheat')
 
 ' renders the element
-PlateWheat('PlateWheat', 'Plate Wheat', 'an optional tech label')
+PlateWheat('PlateWheat', 'Plate Wheat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PlateWheat')
 
 ' renders the element
-PlateWheat('PlateWheat', 'Plate Wheat', 'an optional tech label')
+PlateWheat('PlateWheat', 'Plate Wheat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

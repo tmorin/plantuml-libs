@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Binoculars')
 
 ' renders the element
-Binoculars('Binoculars', 'Binoculars', 'an optional tech label')
+Binoculars('Binoculars', 'Binoculars', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Binoculars')
 
 ' renders the element
-Binoculars('Binoculars', 'Binoculars', 'an optional tech label')
+Binoculars('Binoculars', 'Binoculars', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

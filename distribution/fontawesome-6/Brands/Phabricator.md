@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Phabricator')
 
 ' renders the element
-Phabricator('Phabricator', 'Phabricator', 'an optional tech label')
+Phabricator('Phabricator', 'Phabricator', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Phabricator')
 
 ' renders the element
-Phabricator('Phabricator', 'Phabricator', 'an optional tech label')
+Phabricator('Phabricator', 'Phabricator', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

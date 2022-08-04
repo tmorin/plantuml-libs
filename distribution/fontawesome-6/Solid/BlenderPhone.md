@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BlenderPhone')
 
 ' renders the element
-BlenderPhone('BlenderPhone', 'Blender Phone', 'an optional tech label')
+BlenderPhone('BlenderPhone', 'Blender Phone', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BlenderPhone')
 
 ' renders the element
-BlenderPhone('BlenderPhone', 'Blender Phone', 'an optional tech label')
+BlenderPhone('BlenderPhone', 'Blender Phone', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

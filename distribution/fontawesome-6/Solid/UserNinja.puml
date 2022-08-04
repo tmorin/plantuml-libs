@@ -2,15 +2,15 @@
 
 sprite $UserNinjaXs [10x10/16z] Om029du6CE070HOGYuyVn8MBGUGvG0mqm0d4h51r80pHm0l4t40M5
 
-sprite $UserNinjaSm [12x12/16z] PS650OD00C300E-M_QUjU--uIcxSYEhaQkWOGwwwi_Vk3c3mYhkbPlvjmCvLKZXqWqqLLV0buiiy0m
+sprite $UserNinjaSm [12x12/16z] VSQt4OC000ImjybH-s_B_T6ZIgdPBoc1AtLodgVKuJgEmwytgBnkBFaoa_pe8T1MJQ7gUW
 
-sprite $UserNinjaMd [16x16/16z] ZSm53W9H40JHMfSlTV_RmgHZH7cnqIQQ9yIxSLg8tMuGNSzjsvg4shwwA-Mo6L1MIDiXCXZygxi0jnTbIVIQ231XbgVc4T2CMEY__GS
+sprite $UserNinjaMd [16x16/16z] ZSor0GH1509GTiUL_giTupow5tq5KkW1oJSyDuXXfK1MQ-_xBeIGB4lbXIsmKF2ajk9hqF2lIYoHGQsYBqMeNHMtfFaRK7xw-jrF
 
 sprite $UserNinjaLg [20x20/16z] {
-dSz55i0W40FGu4xkVzhgy6gi-hUZWT2L2HS7e74NC926ma9aNZ3qCKKgd1p9MdQT6YTEPgjJ51sNUBLTF3TDuOTapkyTXYpRtPMkoKd5tT4QU8ZerpyKZQS2
-6BxjtxvD-rO
+dT155eH0303Hmfsw_sa7IpzqDNyR3o4VxJZbmEIc8j7CK19wJoIpDcoKKAhZi9dDEEY9CEOOPaxjFUtiwSG_kenDNv7qqRrIStQJ6-3yG-EkPZxtCKmU1iXy
+WiAdpxm5
 }
 
-!procedure UserNinja($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/UserNinja', $name, $tech)
+!procedure UserNinja($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/UserNinja', $name, $tech, $desc)
 !endprocedure

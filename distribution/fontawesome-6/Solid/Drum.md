@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Drum')
 
 ' renders the element
-Drum('Drum', 'Drum', 'an optional tech label')
+Drum('Drum', 'Drum', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Drum')
 
 ' renders the element
-Drum('Drum', 'Drum', 'an optional tech label')
+Drum('Drum', 'Drum', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

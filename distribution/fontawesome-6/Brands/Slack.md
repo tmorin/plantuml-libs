@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Slack')
 
 ' renders the element
-Slack('Slack', 'Slack', 'an optional tech label')
+Slack('Slack', 'Slack', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Slack')
 
 ' renders the element
-Slack('Slack', 'Slack', 'an optional tech label')
+Slack('Slack', 'Slack', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PersonMilitaryPointing')
 
 ' renders the element
-PersonMilitaryPointing('PersonMilitaryPointing', 'Person Military Pointing', 'an optional tech label')
+PersonMilitaryPointing('PersonMilitaryPointing', 'Person Military Pointing', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PersonMilitaryPointing')
 
 ' renders the element
-PersonMilitaryPointing('PersonMilitaryPointing', 'Person Military Pointing', 'an optional tech label')
+PersonMilitaryPointing('PersonMilitaryPointing', 'Person Military Pointing', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

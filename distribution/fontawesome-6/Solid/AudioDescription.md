@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/AudioDescription')
 
 ' renders the element
-AudioDescription('AudioDescription', 'Audio Description', 'an optional tech label')
+AudioDescription('AudioDescription', 'Audio Description', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/AudioDescription')
 
 ' renders the element
-AudioDescription('AudioDescription', 'Audio Description', 'an optional tech label')
+AudioDescription('AudioDescription', 'Audio Description', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

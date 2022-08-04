@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/ClosedCaptioning')
 
 ' renders the element
-ClosedCaptioning('ClosedCaptioning', 'Closed Captioning', 'an optional tech label')
+ClosedCaptioning('ClosedCaptioning', 'Closed Captioning', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/ClosedCaptioning')
 
 ' renders the element
-ClosedCaptioning('ClosedCaptioning', 'Closed Captioning', 'an optional tech label')
+ClosedCaptioning('ClosedCaptioning', 'Closed Captioning', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

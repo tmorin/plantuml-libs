@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Microblog')
 
 ' renders the element
-Microblog('Microblog', 'Microblog', 'an optional tech label')
+Microblog('Microblog', 'Microblog', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Microblog')
 
 ' renders the element
-Microblog('Microblog', 'Microblog', 'an optional tech label')
+Microblog('Microblog', 'Microblog', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

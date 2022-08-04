@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/SquareFontAwesomeStroke')
 
 ' renders the element
-SquareFontAwesomeStroke('SquareFontAwesomeStroke', 'Square Font Awesome Stroke', 'an optional tech label')
+SquareFontAwesomeStroke('SquareFontAwesomeStroke', 'Square Font Awesome Stroke', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/SquareFontAwesomeStroke')
 
 ' renders the element
-SquareFontAwesomeStroke('SquareFontAwesomeStroke', 'Square Font Awesome Stroke', 'an optional tech label')
+SquareFontAwesomeStroke('SquareFontAwesomeStroke', 'Square Font Awesome Stroke', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

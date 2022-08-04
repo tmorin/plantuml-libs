@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/RoadBridge')
 
 ' renders the element
-RoadBridge('RoadBridge', 'Road Bridge', 'an optional tech label')
+RoadBridge('RoadBridge', 'Road Bridge', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/RoadBridge')
 
 ' renders the element
-RoadBridge('RoadBridge', 'Road Bridge', 'an optional tech label')
+RoadBridge('RoadBridge', 'Road Bridge', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

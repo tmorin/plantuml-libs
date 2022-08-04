@@ -1,20 +1,19 @@
 ' definition of the Item fontawesome-6/Brands/OptinMonster
 
-sprite $OptinMonsterXs [11x10/16z] POor0SD000FlcQNzfqqCfONTyL5vRngkGCDNZbdav4T1K3GXEO6DPkbu4T9BEAXVNV7G0xNxx2Eh_m4
+sprite $OptinMonsterXs [11x10/16z] PON50SD00CDqpFR-qxQ1PmmIdvHNqs20XZC-Pf6Ido0ecX2Sm4QpTBm82Q1mKB--ug47QlVPHrR_0m
 
-sprite $OptinMonsterSm [13x12/16z] PS77OSCm4031lOD9P6p_rLhnfnb-1OklFEMI3ut8AWbZACLBQsN--NJKUiDj5fZT3ikiLypTjuMGmjFC0mgJQE1UrkWyBPpahgq_jTlw
+sprite $OptinMonsterSm [13x12/16z] PSRN0KGX20NHCKUu_NUxB_crHu7XNs1pUCpwKbU48WBCAH4LfTPOGHU_fbMeYW7Mq82jM1FBXYc0I5nMyAjr1VIhRAk5mMMZHR3MnwLNjHy
 
 sprite $OptinMonsterMd [17x16/16z] {
-TSVLOG9G40NHsUUQwR_QEF35MRsySxUyfACx1q_T1iVuJqab5nGQr5Rq4eRUcc0GQjUarfB8TDMvVdPa81Nxf03NdnrQno57qAz2qaDf6MOi1SfWywDK3BWs
-w0rsWEvRFOn1Ix4IzMCMJzdyYNiSrDeWVW2hnXS
+TSUtOG9G5C10lP-ZjV-qpa35TSSxPybBEheZUEess3uMAf5GA91hqWk6tXmmGEsQr9eWQAfpgPA1AFP90DS2e7KS0kXN0Jtaag37KY0DDW2f871jq1fiGFUj
+7jgW1Ike7xDuokRVFGvgRJojoXS
 }
 
 sprite $OptinMonsterLg [22x20/16z] {
-XOy7hY0n24DD69Xqt_-s2vdzlLa5hBmWFVoHlZdmNOfzx3euwjh-yJSfCMxkLwmecITTGAvuGm9t5CPAOf4E3q9lxScsJYfpqm6KgvuY9EjPaCTx6ypCjSyi
-veWquvOU4wA5InMH4LZ7Z0LYrf864ADZxDxTjCwius6rlpftVrWH1VuxMGFM_xDNZ1uQEXGu9dlMcPQx31PBhbB2YSlg43ovfalgkwVINdFETJnsgt7DlE0j
-sGt_
+XSe5aWGm20NH9gxy-zzsYtMVLv80pGFBjVbDgj_chJskDpvRaW5T_fvPahGXWtIX4457KW696v-omNfQqOubPKbQARQvnY2JDE833gov5Svr1QiDO5QvBPXW
+IJSdW2sTnO4DkSwe0KcBxMkrciU9SR-qQV7ALdjfpJ8uX3hXyf9cO7MmdO0hDJ_ZNEYUjbADRiYqfsvjcrVf59CwhMb8ViyvzxeadwD3RSQ7c1DF
 }
 
-!procedure OptinMonster($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/OptinMonster', $name, $tech)
+!procedure OptinMonster($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/OptinMonster', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/WaveSquare')
 
 ' renders the element
-WaveSquare('WaveSquare', 'Wave Square', 'an optional tech label')
+WaveSquare('WaveSquare', 'Wave Square', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/WaveSquare')
 
 ' renders the element
-WaveSquare('WaveSquare', 'Wave Square', 'an optional tech label')
+WaveSquare('WaveSquare', 'Wave Square', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

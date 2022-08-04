@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Restroom')
 
 ' renders the element
-Restroom('Restroom', 'Restroom', 'an optional tech label')
+Restroom('Restroom', 'Restroom', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Restroom')
 
 ' renders the element
-Restroom('Restroom', 'Restroom', 'an optional tech label')
+Restroom('Restroom', 'Restroom', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

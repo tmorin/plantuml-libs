@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/StripeS')
 
 ' renders the element
-StripeS('StripeS', 'Stripe S', 'an optional tech label')
+StripeS('StripeS', 'Stripe S', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/StripeS')
 
 ' renders the element
-StripeS('StripeS', 'Stripe S', 'an optional tech label')
+StripeS('StripeS', 'Stripe S', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

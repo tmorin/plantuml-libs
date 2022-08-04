@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/LaptopFile')
 
 ' renders the element
-LaptopFile('LaptopFile', 'Laptop File', 'an optional tech label')
+LaptopFile('LaptopFile', 'Laptop File', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/LaptopFile')
 
 ' renders the element
-LaptopFile('LaptopFile', 'Laptop File', 'an optional tech label')
+LaptopFile('LaptopFile', 'Laptop File', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,12 +2,12 @@
 
 sprite $HireAHelperXs [10x10/16z] Os3WXm0W0m4ukDZvEJWXuY2CpkBZusF0Aei020ux
 
-sprite $HireAHelperSm [12x12/16z] PSY53S100810wbxsdxOkByGkW6_GVYwDQr2PBm-NpSswhkI_3moB0xLHb3zt
+sprite $HireAHelperSm [12x12/16z] Os3WXm461ZO4cnyLi32017d0R4umcnyBcu-F3uiu1vWDiuCNACUCQZYo6m
 
-sprite $HireAHelperMd [16x16/16z] TOy30W1124N_cjNzJpistZ0Ni4jc0I057mwfO7k8ADwE0v-vL_n1Vc3TBiXK9XULvP-PzqAEToc_IRvSlZlA3DibvKbAbgyI3u0hKGC
+sprite $HireAHelperMd [16x16/16z] TSy52W0130F1FTSc_t_jkKkW2uCNSfy3y6KTXM_JV16nTrbEDpMXtzoWgGN-TKpDBkubNJst-dM9vkxMyaD0vlVeRYn0Duu
 
-sprite $HireAHelperLg [20x20/16z] dSx50GGX0CNGuCxllzjrbv7WxmIWbog0rMiVT0hzAETQaZHpAVcE0NCw9lIx5O9EWHRCVp5JJxsQdQTUBUhK7akVVsb0FPuHl7xKFcd0EoLunma7
+sprite $HireAHelperLg [20x20/16z] dSt50SGm44FHRsQh_sgN6PEyuu04w4a5C7fs7hr0N-HSIv9cBYNVXlvSDA7VPWMh8z266VNeUMRcqVFCwMZBpBttDg1AYk3qHNiV3NWT9NWTJjW3
 
-!procedure HireAHelper($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/HireAHelper', $name, $tech)
+!procedure HireAHelper($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/HireAHelper', $name, $tech, $desc)
 !endprocedure

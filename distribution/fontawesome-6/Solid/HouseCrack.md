@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HouseCrack')
 
 ' renders the element
-HouseCrack('HouseCrack', 'House Crack', 'an optional tech label')
+HouseCrack('HouseCrack', 'House Crack', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HouseCrack')
 
 ' renders the element
-HouseCrack('HouseCrack', 'House Crack', 'an optional tech label')
+HouseCrack('HouseCrack', 'House Crack', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

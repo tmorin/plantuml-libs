@@ -4,10 +4,10 @@ sprite $FilterXs [10x10/16z] Ou03BduOO42mc64C1gWW4mEKoGVH1PB3pMBWvW8I
 
 sprite $FilterSm [12x12/16z] TSR50O10000WxDRzfxLRZnTkak5ItAu_ctEqXVt0hVAhXDxSBYfX0W
 
-sprite $FilterMd [16x16/16z] ZSwr0O10343HZpliFoqUhUvryP1jkpVlHrIbc3w6iBYmuMOh1buIhX0IY5P2iSckmhXBCTNzES4VNW
+sprite $FilterMd [16x16/16z] bSur0e0m00J1mHt-_rhSaYxRpLKdRfh_zVCI9dOTak773EQN3V1m91Wy5I6PTkO9BYDpVn6t0G
 
-sprite $FilterLg [20x20/16z] fSor0OK05CNGynM7_QV5dKT5oYiHyVkVUUVDbJB8NAFC-npL-9moa1sYjv4WebwZrChcttXV8v8nS-3z81DbgY1JDBbxEW
+sprite $FilterLg [20x20/16z] fSsr0O0040F0mntsdnPtgRZo9V4cZEw2idkgNsQUeq9u7xM8RZEJuZ8ApCwZqAhTHwdTaNy8dYEolV8G_9XvcsbUPggkz6q
 
-!procedure Filter($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Filter', $name, $tech)
+!procedure Filter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Filter', $name, $tech, $desc)
 !endprocedure

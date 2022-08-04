@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Vimeo')
 
 ' renders the element
-Vimeo('Vimeo', 'Vimeo', 'an optional tech label')
+Vimeo('Vimeo', 'Vimeo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Vimeo')
 
 ' renders the element
-Vimeo('Vimeo', 'Vimeo', 'an optional tech label')
+Vimeo('Vimeo', 'Vimeo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

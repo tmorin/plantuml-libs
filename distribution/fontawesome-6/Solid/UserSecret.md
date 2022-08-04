@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UserSecret')
 
 ' renders the element
-UserSecret('UserSecret', 'User Secret', 'an optional tech label')
+UserSecret('UserSecret', 'User Secret', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UserSecret')
 
 ' renders the element
-UserSecret('UserSecret', 'User Secret', 'an optional tech label')
+UserSecret('UserSecret', 'User Secret', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

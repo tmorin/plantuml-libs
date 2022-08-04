@@ -2,12 +2,12 @@
 
 sprite $PlusXs [8x10/16z] Oq02_FXeVWZ0fuuPY04
 
-sprite $PlusSm [10x12/16z] Oq05h3068pzE5YCZ8nC_a61Wu8S1F3fWW1_L8W
+sprite $PlusSm [10x12/16z] Oq05h70MFquM8oCZ4p-G0F9X026BduK
 
-sprite $PlusMd [14x16/16z] Oo08kFcHUNpyZAJokFc0W9-V3mHO6FYH0GC38n3myJE3AB9iG00MVcok1m
+sprite $PlusMd [14x16/16z] Oo08kFYHUNpyZAJokFY0W9-V3mIO6VYH0GC38n3myJE3AB9iG01cVcok1m
 
-sprite $PlusLg [17x20/16z] Oo0Qy7EXyfdv-MagmCEF0bWP-541DmCB9mXmyVE3QGwQEem99e0GmHbI
+sprite $PlusLg [17x20/16z] Oo0Qy7EXyfdv-MagmCEF0bWO-541DmCJ9mXmyVE3QGwQEemHNO212MT80G
 
-!procedure Plus($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Plus', $name, $tech)
+!procedure Plus($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Plus', $name, $tech, $desc)
 !endprocedure

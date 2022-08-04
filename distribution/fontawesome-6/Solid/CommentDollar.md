@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CommentDollar')
 
 ' renders the element
-CommentDollar('CommentDollar', 'Comment Dollar', 'an optional tech label')
+CommentDollar('CommentDollar', 'Comment Dollar', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CommentDollar')
 
 ' renders the element
-CommentDollar('CommentDollar', 'Comment Dollar', 'an optional tech label')
+CommentDollar('CommentDollar', 'Comment Dollar', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

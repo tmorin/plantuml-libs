@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BellConcierge')
 
 ' renders the element
-BellConcierge('BellConcierge', 'Bell Concierge', 'an optional tech label')
+BellConcierge('BellConcierge', 'Bell Concierge', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BellConcierge')
 
 ' renders the element
-BellConcierge('BellConcierge', 'Bell Concierge', 'an optional tech label')
+BellConcierge('BellConcierge', 'Bell Concierge', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

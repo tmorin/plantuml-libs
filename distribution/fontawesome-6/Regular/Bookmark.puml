@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Regular/Bookmark
 
-sprite $BookmarkXs [7x10/16z] O-2700OGO8TGR4HHNFpyJ6py_DmCG2C
+sprite $BookmarkXs [7x10/16z] O-2700OGO85Gp4HHNFpyJCpy_DmCG2C
 
-sprite $BookmarkSm [9x12/16z] O-2705v-NWumuEVdP0032XZyF606Dpy7Bpyxq70-Y0m
+sprite $BookmarkSm [9x12/16z] O-2705v-NdOmuETdPm032XZyF606Dpy7BpyRq70-Y0m
 
-sprite $BookmarkMd [12x16/16z] lSP50G0n4CNGFylO-5TR1WTDBay_hJDnfDPyVvpL5tom9aT91YwEARL1
+sprite $BookmarkMd [12x16/16z] O-3bXm5s41C16620_cmUVdOecusVduUVdmd41hB0Wdn02DN0miyF
 
-sprite $BookmarkLg [15x20/16z] rS-r0O004C30nvtRVrhSD-2wb8dMGzRwY5ltusp8hyp0k6Swq4OwqdIFvHmwYZWqp
+sprite $BookmarkLg [15x20/16z] O-3YHmBCK1u2C200rn3cSWBz1kSoWtt61-4oylBpSp4myl7pSt8XUPa5nEA6w6A0cW
 
-!procedure Bookmark($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Regular/Bookmark', $name, $tech)
+!procedure Bookmark($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/Bookmark', $name, $tech, $desc)
 !endprocedure

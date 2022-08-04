@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MountainSun')
 
 ' renders the element
-MountainSun('MountainSun', 'Mountain Sun', 'an optional tech label')
+MountainSun('MountainSun', 'Mountain Sun', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MountainSun')
 
 ' renders the element
-MountainSun('MountainSun', 'Mountain Sun', 'an optional tech label')
+MountainSun('MountainSun', 'Mountain Sun', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

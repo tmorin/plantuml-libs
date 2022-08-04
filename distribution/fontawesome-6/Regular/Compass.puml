@@ -2,18 +2,18 @@
 
 sprite $CompassXs [10x10/16z] 1S450S10000Xvhxht_O1hdPGYwEBNj0cA5qBrQwGUFP35Kaxv0g4hPvY
 
-sprite $CompassSm [12x12/16z] FSY54SH008LGJgD_wR_Qs0fZR-1kSwQcMQ8F_zpj3iua2BnLSClDQXUmu1US0tKZCkkFwfsQ4vZA0X3L-vu
+sprite $CompassSm [12x12/16z] FOh50SCm0CHKRk2i_QSDcFGvv6RpJqFpYrRxgStkj7yI11ugkANQwls11L_WFz1gHFxURVKxZVfEimKWgdTx0W
 
 sprite $CompassMd [16x16/16z] {
-DOh50GGX0CIoYfF-gpr1yXbby3JBmQOv2ICT6eUfDW1bSLkXxNXaNa_MEQhGVGGegXrUvzr-wWkeutpW78g0gdNaGpZSCOkLR7yPs7czsLI1vhlZT7NUitiu
-7NI0Bm
+FOw55GGX4CMoZgV_Qa-OnmOT_qokRjrOT8CdpFLfzZ0XE6pGbxaLBZUCv4k5uIL0LHrm6kcENKz0dSchhTNmQfls9colcSH6SPnC7DmUB9f0zthDUpwHdWmp
+-eKU-08
 }
 
 sprite $CompassLg [20x20/16z] {
-JP1NWeKm201vQdfWxd_RtGG-64sZWmJ3s5KIZK1V2G1xGpL2n9QWmCmY1yg_GnALUOI-d0tyfDC5yzJ6uNeFtbHDlJ9pLwE8UXXrSu_QMEUws4JutV0mHgLv
-9oGNkEN3zbuVL9GYysHqxli1aLyUqPcSnyaYEPxT9Oz6xaYXoo2xT2vQvF07
+NP05iaGX3C3oN4lkVzelBJl3RF3WfNCrtvs1pKvCTDIs08TwVTHBPzPxL8Lki0rglK6h5AywSNfYIt4qLG6zN5APxEbQRMskX0A4bbCuV00UN_lnxw5pRTaz
+0DLXYyAg-iwf9eDmvjQT8iUJmiI7Gu5B-L9mwqaoXSv3IEDfEcuvJQ8M_G8
 }
 
-!procedure Compass($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Regular/Compass', $name, $tech)
+!procedure Compass($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/Compass', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Shield')
 
 ' renders the element
-Shield('Shield', 'Shield', 'an optional tech label')
+Shield('Shield', 'Shield', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Shield')
 
 ' renders the element
-Shield('Shield', 'Shield', 'an optional tech label')
+Shield('Shield', 'Shield', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -1,16 +1,13 @@
 ' definition of the Item fontawesome-6/Brands/Amilia
 
-sprite $AmiliaXs [8x10/16z] Ou03BduWO6004YmW1WYmG6bc8Ct93mP0UKOm7uYWD3zC8oiG0m
+sprite $AmiliaXs [8x10/16z] Ou03BduWO6004YmW1WWmGMb68Ct93mP0UOWuWkQ7QMG5OW
 
-sprite $AmiliaSm [10x12/16z] JOh50G0W58MmFVdsdzOkz3VyP7KCU2qYJdIaKNRtrEjfx3tiZjjjJzSZbDnJYWq
+sprite $AmiliaSm [10x12/16z] LOZL0S102CLo-5VPVzgwNR3m-5Ezir_fYs0SBrSwMHvcVNFa2hVnixhi1dofVMLi
 
-sprite $AmiliaMd [14x16/16z] TSk30KKn343HMpFD_jD-FFEK4NUkIY-MFpDquO7_Aqt-Zm6LgMVgO5NVeYX3vqXqX_wrkNEE3CU8KvJ1wHz33s1-KrX7Z67n1G
+sprite $AmiliaMd [14x16/16z] TOw50O0m4CJgBljFYmM7flf-uejAjKJ9l_KEPZ7Mj-QwFgjL9HcOa4QMhQrZrNuX-aewCaaOMs4HHrthW2LulSK2c04
 
-sprite $AmiliaLg [17x20/16z] {
-XO_50S1G34A_k-m_RGNgoecyk7YHSSxgBN9zbKIo7-Gd09EiQJ0JI3rAT8B4m-0oWtm0UGRb6MYVC80Wq6qWqqIpjY0CXnayvnT4l4XG-YO2kVlriBhyu0ck
-6W4
-}
+sprite $AmiliaLg [17x20/16z] XS_50SGm00D1CqF_rHx8LXZsfKnOtAIqLb8mrnbCzKt-1nZ9ceRnWzIZG8sNiFA7l87yXt8DqYOyO42Oav37Y8gtu33m6GJn2X6_EA1qnjUkUuAeynyyOTyN
 
-!procedure Amilia($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Amilia', $name, $tech)
+!procedure Amilia($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Amilia', $name, $tech, $desc)
 !endprocedure

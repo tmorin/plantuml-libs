@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MoneyBillTransfer')
 
 ' renders the element
-MoneyBillTransfer('MoneyBillTransfer', 'Money Bill Transfer', 'an optional tech label')
+MoneyBillTransfer('MoneyBillTransfer', 'Money Bill Transfer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MoneyBillTransfer')
 
 ' renders the element
-MoneyBillTransfer('MoneyBillTransfer', 'Money Bill Transfer', 'an optional tech label')
+MoneyBillTransfer('MoneyBillTransfer', 'Money Bill Transfer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

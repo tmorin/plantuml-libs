@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Padlet')
 
 ' renders the element
-Padlet('Padlet', 'Padlet', 'an optional tech label')
+Padlet('Padlet', 'Padlet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Padlet')
 
 ' renders the element
-Padlet('Padlet', 'Padlet', 'an optional tech label')
+Padlet('Padlet', 'Padlet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

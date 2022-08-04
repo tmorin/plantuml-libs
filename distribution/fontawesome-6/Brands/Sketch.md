@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Sketch')
 
 ' renders the element
-Sketch('Sketch', 'Sketch', 'an optional tech label')
+Sketch('Sketch', 'Sketch', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Sketch')
 
 ' renders the element
-Sketch('Sketch', 'Sketch', 'an optional tech label')
+Sketch('Sketch', 'Sketch', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

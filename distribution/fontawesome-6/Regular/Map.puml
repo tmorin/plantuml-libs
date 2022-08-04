@@ -1,16 +1,13 @@
 ' definition of the Item fontawesome-6/Regular/Map
 
-sprite $MapXs [11x10/16z] bSQt0S0W0C0mfuVg_w-bRAne4gj30t0Pz8olceDmHX3sUkdqQSfC_j01
+sprite $MapXs [11x10/16z] bSQt0S0W0C0mfuVg_w-bRAne4gj30t0PbFTLyo_mWh3NIwTFKsRoXmu
 
-sprite $MapSm [13x12/16z] dOUr0GCm0CCKvkZ_QujRnvhD3v8dl3lAKQUkfRf1O5-ujkzfw_ypDBzFKpraFmWfyq6fm1C
+sprite $MapSm [13x12/16z] dSUd0GCm0C0mP-_u_sixMM75n8_auIt8KQUkvSi6WNtXMhv9w_yCZUyKNmx93rBYerJW2G
 
-sprite $MapMd [17x16/16z] lS_50G8n40NGlwx9wxzQtE7Ck4j-mZJd1isUj0MCIGPqc8kXWjgZIufpdpK9DRT03FyDhEpT9T0NLDOPcnqZ-ijN6_Oshz1Sv14
+sprite $MapMd [17x16/16z] lOv50i0W30I119Vz_s-xeNBYt47Yuexaygc3Ry98r9HI-Cg4B1WhyFEMmt12uq-dsmw2yA-Z0SDlHvYW1sY5icCycwipEhNX3bm
 
-sprite $MapLg [22x20/16z] {
-rT0t0eGW58JX8MVc_gTLCjLkxwUaltpunqfSmeoziWcO54a8pwrw8GExiGl92CifepS7e5T0ED82esBLZiHdwnX5iQkgo4QngLnNnsRqEaOHE1K396OSYVJu
-xGK
-}
+sprite $MapLg [22x20/16z] rSfL5eD05C3Gu4xslzkErjj_BepbFFxf6fwq1CrfiDG15MQhSw9PZDBUuCXejgUvYI3KOD8EKkLHKQvR9_NeIsrMWyxWj5mdWzJFEDOiPaSBcpj5V3Zpsmq
 
-!procedure Map($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Regular/Map', $name, $tech)
+!procedure Map($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/Map', $name, $tech, $desc)
 !endprocedure

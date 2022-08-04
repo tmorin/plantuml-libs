@@ -1,19 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/Tape
 
-sprite $TapeXs [11x10/16z] LSY53SG00CImUoY3zv-sZ155pYjqszIsJaEzOTJOi665_8bi6hP-kRuiozlD
+sprite $TapeXs [11x10/16z] LOg30K0X54K_SvtzfyrylBgE0cm5Ybf30rGLBufJHGrVWULGX9gjzLuJ2o6MJW8
 
-sprite $TapeSm [13x12/16z] NOl50K0n2CMeEzb_sk_QNE2PJ0J0NJydtvzn2Il-Z2fufRTZ1XmX9944BUE0QzESNgAnixTs-gMkCEl52W
+sprite $TapeSm [13x12/16z] NOo30G0n301h9xV_j6_sOfg92BWhv-IR8rTXJJX73O8oElXZS5as9aFF-Ei3qArUHUSa7x_7LLt3eXSh
 
-sprite $TapeMd [17x16/16z] {
-RSs50KCX34NHznNdxZyjNk_19Od-kbEwz18OtEESMP861mz67Kq-JperHpyhX16vIqf0FyHZnT0yfb780xi3UmEN7b-aZMPxN90odRe37dODXeVO14axxpHi
-BnK
-}
+sprite $TapeMd [17x16/16z] RSs50OD030NGu9p-_RTjlCP3BqgFpZ6EZsE3Ad6USCFE1SdQmEQwGiXvapErHjC3Wxzow59pUKU-P57bxtfpSe-fOFaL46CY0olIGkf0wAn5Lw9VBm
 
 sprite $TapeLg [22x20/16z] {
-VO-50O1024LfM_UVrW1ilQzNZuQIn8oVR0frLrPFX_W9GvYGfvkIZfcpZxE-L39OGuEVMRijeWw7Cm6flvjjroC1-JlY322J2JdjZfR5dRV-CkxImqW0UctO
-mzupts3lw8dDHIl5uShFvFIYdre
+VSw50GCn30D01Gi1xRzjA-UPxZ4a6qzy20u770esCXSUipSt70RF7GoTfbIQzwPImj-ONrCBkdPHrW0aUt_q3XQmZX7rZajOS3PRbfOZHVrXamjATq3ODbou
+4p1mgqAEqzbOnSOZYEC1Blq
 }
 
-!procedure Tape($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Tape', $name, $tech)
+!procedure Tape($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Tape', $name, $tech, $desc)
 !endprocedure

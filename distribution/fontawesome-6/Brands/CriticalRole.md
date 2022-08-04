@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/CriticalRole')
 
 ' renders the element
-CriticalRole('CriticalRole', 'Critical Role', 'an optional tech label')
+CriticalRole('CriticalRole', 'Critical Role', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/CriticalRole')
 
 ' renders the element
-CriticalRole('CriticalRole', 'Critical Role', 'an optional tech label')
+CriticalRole('CriticalRole', 'Critical Role', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

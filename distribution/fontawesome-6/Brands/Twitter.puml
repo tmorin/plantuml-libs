@@ -2,12 +2,12 @@
 
 sprite $TwitterXs [10x10/16z] NOQ50O1008ImM_QVrlRh4Whr0WAJsg8Bgh3v2Wn4fEQ3fd_XKVlU2G
 
-sprite $TwitterSm [12x12/16z] Oy02M1c111-OoGy4t40IokJdWOY0sL0XA9iRYSt01MKo0TcS42R4F0uu4oBAWcut
+sprite $TwitterSm [12x12/16z] Oy02M4447vZ93mJSG1BAvEU1Y83PK24ecnk9pS25O39mGfWGypZWJ8We2xhT
 
-sprite $TwitterMd [16x16/16z] XSY53KCn5CLGXpbt_stxLEP_X3P78XTLKlGJbSlMMK2Q65qabkoaQs-8UZ91pn8uFN7Os8_6b4TwU1wLYth9Zd5ZwI9m4QR5y7nt0W
+sprite $TwitterMd [16x16/16z] XSwr0KGn0CDGVGedsd_QOyRNoPNvP-KigJCDmtdsP48R1vxDTBKjbnwm-A21ZpQOVC3HUExudB1v4U_NZWe7K-sUBPnDJQryiGS
 
-sprite $TwitterLg [20x20/16z] dSk35KKn00FGr6xsd_RZsUWz3j30aX60G91ZLFWNAL6f-YYmfpCg6V37aUphjCXM_PpLiiy2H-VVYB-qoYJsGtJ2EkgfEJ8O-NMabAqS2VHaOgyOB4ajSUCB
+sprite $TwitterLg [20x20/16z] dSt50GCn40D0cTdglzhac7b-Yy87bem018B0eB0LAL0vD0DxEgEI0IsEXd5Qz9RpHQ-MVIzmS74RqKfS4cZjJhSVCL2SI8my1wRVKRRk3iKOMpIMf9QuyGS
 
-!procedure Twitter($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Twitter', $name, $tech)
+!procedure Twitter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Twitter', $name, $tech, $desc)
 !endprocedure

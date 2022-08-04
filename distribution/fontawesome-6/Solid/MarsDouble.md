@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MarsDouble')
 
 ' renders the element
-MarsDouble('MarsDouble', 'Mars Double', 'an optional tech label')
+MarsDouble('MarsDouble', 'Mars Double', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MarsDouble')
 
 ' renders the element
-MarsDouble('MarsDouble', 'Mars Double', 'an optional tech label')
+MarsDouble('MarsDouble', 'Mars Double', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

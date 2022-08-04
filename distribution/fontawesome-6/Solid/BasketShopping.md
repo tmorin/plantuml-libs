@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BasketShopping')
 
 ' renders the element
-BasketShopping('BasketShopping', 'Basket Shopping', 'an optional tech label')
+BasketShopping('BasketShopping', 'Basket Shopping', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BasketShopping')
 
 ' renders the element
-BasketShopping('BasketShopping', 'Basket Shopping', 'an optional tech label')
+BasketShopping('BasketShopping', 'Basket Shopping', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

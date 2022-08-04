@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Waze')
 
 ' renders the element
-Waze('Waze', 'Waze', 'an optional tech label')
+Waze('Waze', 'Waze', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Waze')
 
 ' renders the element
-Waze('Waze', 'Waze', 'an optional tech label')
+Waze('Waze', 'Waze', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

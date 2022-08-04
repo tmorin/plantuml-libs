@@ -2,15 +2,15 @@
 
 sprite $QrcodeXs [8x10/16z] NSgr0G0X0CNGd2ja_sdnYY_TO-HGKNsnrlyKw_rG9qTt3iVJ7MG
 
-sprite $QrcodeSm [10x12/16z] NSl50GC100EWr3tiFstzb3-PO9SRk6lqZcYS0nf8ssJRtjUNRFwNuLuDzvpyRa_Tl
+sprite $QrcodeSm [10x12/16z] NSkr0S0m0CH0kGddjV-qOVJrnqijZEucWvbK37Qu2weaWP9CzLMuhjvtyBuTd3TjM04
 
-sprite $QrcodeMd [14x16/16z] POu70e0W30F3tl3_tvhMhL7exe6t-fmpqZRQD9R8eArTqGr6K-rQ3bqZMaQ35oErQOc0k5j3WJhjdoU6QqxUr7KtJtJpv5atprddJXwZOjl9uSLl0m
+sprite $QrcodeMd [14x16/16z] POq56e1G2CO0k_3-jtM_hM_6Fjg-p9dPuWbtooe896XY8KgPA6nM91Cj_1J97R6Yzd11UG-vpTUztDSzzyHphw7jkHVkVjqZ6coo3ni
 
 sprite $QrcodeLg [17x20/16z] {
-TOw50O0m30GVUvpiForrRwykIGuDApMBsT4mRMBHDv_at43SlsR_c8cOkXSVwIykxY8-rHLpm2y0VSQ6iId93M0oZNfZq_RYtAKqvNoUPsvAJ9YZgRbOFqZZ
-fG
+VOu30W0n3C1ocl7_rvurPaRRK31EEmCxqm5BF1aXn3y6ths7-q90zI88SLyO8MEyK-at1_S2ovsne6swB-C-VwRxRA5hMbue4LDJCMYj_wQ2WU4rFIx6G2Hd
+0m
 }
 
-!procedure Qrcode($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Qrcode', $name, $tech)
+!procedure Qrcode($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Qrcode', $name, $tech, $desc)
 !endprocedure

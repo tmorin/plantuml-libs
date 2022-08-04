@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HandsHoldingChild')
 
 ' renders the element
-HandsHoldingChild('HandsHoldingChild', 'Hands Holding Child', 'an optional tech label')
+HandsHoldingChild('HandsHoldingChild', 'Hands Holding Child', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HandsHoldingChild')
 
 ' renders the element
-HandsHoldingChild('HandsHoldingChild', 'Hands Holding Child', 'an optional tech label')
+HandsHoldingChild('HandsHoldingChild', 'Hands Holding Child', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

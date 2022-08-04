@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SquarePen')
 
 ' renders the element
-SquarePen('SquarePen', 'Square Pen', 'an optional tech label')
+SquarePen('SquarePen', 'Square Pen', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SquarePen')
 
 ' renders the element
-SquarePen('SquarePen', 'Square Pen', 'an optional tech label')
+SquarePen('SquarePen', 'Square Pen', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

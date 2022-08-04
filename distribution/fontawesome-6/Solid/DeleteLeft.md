@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/DeleteLeft')
 
 ' renders the element
-DeleteLeft('DeleteLeft', 'Delete Left', 'an optional tech label')
+DeleteLeft('DeleteLeft', 'Delete Left', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/DeleteLeft')
 
 ' renders the element
-DeleteLeft('DeleteLeft', 'Delete Left', 'an optional tech label')
+DeleteLeft('DeleteLeft', 'Delete Left', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

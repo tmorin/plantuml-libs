@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UpDown')
 
 ' renders the element
-UpDown('UpDown', 'Up Down', 'an optional tech label')
+UpDown('UpDown', 'Up Down', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UpDown')
 
 ' renders the element
-UpDown('UpDown', 'Up Down', 'an optional tech label')
+UpDown('UpDown', 'Up Down', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

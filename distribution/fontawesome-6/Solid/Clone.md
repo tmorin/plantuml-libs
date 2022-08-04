@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Clone')
 
 ' renders the element
-Clone('Clone', 'Clone', 'an optional tech label')
+Clone('Clone', 'Clone', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Clone')
 
 ' renders the element
-Clone('Clone', 'Clone', 'an optional tech label')
+Clone('Clone', 'Clone', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

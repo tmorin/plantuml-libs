@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FileVideo')
 
 ' renders the element
-FileVideo('FileVideo', 'File Video', 'an optional tech label')
+FileVideo('FileVideo', 'File Video', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FileVideo')
 
 ' renders the element
-FileVideo('FileVideo', 'File Video', 'an optional tech label')
+FileVideo('FileVideo', 'File Video', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

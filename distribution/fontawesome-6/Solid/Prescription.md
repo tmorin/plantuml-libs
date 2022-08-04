@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Prescription')
 
 ' renders the element
-Prescription('Prescription', 'Prescription', 'an optional tech label')
+Prescription('Prescription', 'Prescription', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Prescription')
 
 ' renders the element
-Prescription('Prescription', 'Prescription', 'an optional tech label')
+Prescription('Prescription', 'Prescription', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

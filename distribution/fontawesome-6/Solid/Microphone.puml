@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/Microphone
 
-sprite $MicrophoneXs [7x10/16z] FSN50O1G00KWxFRjFwtjvmAM7fACRtjflelrBLCYvf2MDe5kMpW1
+sprite $MicrophoneXs [7x10/16z] FSN50O1G00KWxFRjFwtjvmAM7f8CRtjflelrBMCYvf2MDe5kMpW1
 
-sprite $MicrophoneSm [9x12/16z] TSn50e100810x9R_lzPkT-V42HP3myO5YomQxk4ZS95AArsB6GmEe_lI-ZgFC0C
+sprite $MicrophoneSm [9x12/16z] TSn50e100810x9R_lzPkT-V42HP3myO5YoGQxk4ZS958Ars3AGmEe_lIwZgFC0C
 
-sprite $MicrophoneMd [12x16/16z] LOk54K8n0CLInKgp_xPS3VWvUyhWOMQZsfQyErZwDNMQkasTkUfsT7vWshg9UN-7VfMfKLxEGqqcq40YsO6WlJdae7RVcKtng8U321y
+sprite $MicrophoneMd [12x16/16z] ROn50WCn3CJKGD6D_l_Q9IUtrSaUukHZOw8QURuzoVjttUMwu_QETPSNbdc7MBFxEEzVlMwKdrUX5mie58e3G4UO9_JXlp9fhkkJcx03
 
-sprite $MicrophoneLg [15x20/16z] bS-r0KCn5CNGQsPh_sdpcSh8UCgdlJYxqTq4o9SgUqP77CKlotyq4jmqr3SjxSLySh9dFKMLQDYQwZWPC6v2LG192QpMygRZfG_0lmTikZEC5sg3cYzob2Gj
+sprite $MicrophoneLg [15x20/16z] bS-r0OL00C3Gu72M_QVzWdCTwLuPriQI6iwAwdGek7RGhV79vJNrek79UEFSR2okDPqBmP5LXMGBIbCqC2WmQGimhu9HJLdjxeEHApDdJOWQvkft0hu
 
-!procedure Microphone($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Microphone', $name, $tech)
+!procedure Microphone($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Microphone', $name, $tech, $desc)
 !endprocedure

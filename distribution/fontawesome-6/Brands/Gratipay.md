@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Gratipay')
 
 ' renders the element
-Gratipay('Gratipay', 'Gratipay', 'an optional tech label')
+Gratipay('Gratipay', 'Gratipay', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Gratipay')
 
 ' renders the element
-Gratipay('Gratipay', 'Gratipay', 'an optional tech label')
+Gratipay('Gratipay', 'Gratipay', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

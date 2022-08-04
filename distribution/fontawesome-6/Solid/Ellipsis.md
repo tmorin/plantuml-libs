@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Ellipsis')
 
 ' renders the element
-Ellipsis('Ellipsis', 'Ellipsis', 'an optional tech label')
+Ellipsis('Ellipsis', 'Ellipsis', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Ellipsis')
 
 ' renders the element
-Ellipsis('Ellipsis', 'Ellipsis', 'an optional tech label')
+Ellipsis('Ellipsis', 'Ellipsis', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

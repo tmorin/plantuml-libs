@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Play')
 
 ' renders the element
-Play('Play', 'Play', 'an optional tech label')
+Play('Play', 'Play', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Play')
 
 ' renders the element
-Play('Play', 'Play', 'an optional tech label')
+Play('Play', 'Play', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BrazilianRealSign')
 
 ' renders the element
-BrazilianRealSign('BrazilianRealSign', 'Brazilian Real Sign', 'an optional tech label')
+BrazilianRealSign('BrazilianRealSign', 'Brazilian Real Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BrazilianRealSign')
 
 ' renders the element
-BrazilianRealSign('BrazilianRealSign', 'Brazilian Real Sign', 'an optional tech label')
+BrazilianRealSign('BrazilianRealSign', 'Brazilian Real Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

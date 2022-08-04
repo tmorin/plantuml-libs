@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Vine')
 
 ' renders the element
-Vine('Vine', 'Vine', 'an optional tech label')
+Vine('Vine', 'Vine', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Vine')
 
 ' renders the element
-Vine('Vine', 'Vine', 'an optional tech label')
+Vine('Vine', 'Vine', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

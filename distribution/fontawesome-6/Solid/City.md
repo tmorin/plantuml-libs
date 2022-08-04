@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/City')
 
 ' renders the element
-City('City', 'City', 'an optional tech label')
+City('City', 'City', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/City')
 
 ' renders the element
-City('City', 'City', 'an optional tech label')
+City('City', 'City', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

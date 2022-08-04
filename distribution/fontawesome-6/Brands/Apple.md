@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Apple')
 
 ' renders the element
-Apple('Apple', 'Apple', 'an optional tech label')
+Apple('Apple', 'Apple', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Apple')
 
 ' renders the element
-Apple('Apple', 'Apple', 'an optional tech label')
+Apple('Apple', 'Apple', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

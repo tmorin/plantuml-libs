@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/Eject
 
-sprite $EjectXs [8x10/16z] Oq009du8pS_F3w7037u8u8NIC3vC4nUQE
+sprite $EjectXs [8x10/16z] Oq00Hdu8pS_F3w7037u8u8NIC3vC4nUQE
 
-sprite $EjectSm [10x12/16z] LSP50G0n40ImOoYDVxN5nRooEJSeEq3581a5oHbiqwb80iHMI6e
+sprite $EjectSm [10x12/16z] LSQr0G0X542namfz-q-ByoLL7kVd3f2012IKmlNeL3eYugb7xW
 
-sprite $EjectMd [14x16/16z] VSpL0O0m54FH5FUx_xGur7k-daO9pIQh1Vwc1jjMO5l3w_xbjxeDB2kk7fTaB0McsUgBASQX0m
+sprite $EjectMd [14x16/16z] VOor0O100CHmX-m_BUykwKw72iiN2y2B2O8S8P9OlbZ06mjuNcBsHCdBm91ntO6z_n8Z
 
-sprite $EjectLg [17x20/16z] XSp50SGm44DHXMFy_LUx336_qw3KigzA08SkFC2MzJ3fu-HZ_kJnewU5loXf8Y6HSe6C9IDFOjEOSOdLaebaHCehTmS
+sprite $EjectLg [17x20/16z] XSZ50SKm3C1G5yFH_jD-XZhuRfBqRAjkm5mx0kn5m_9j2-hi_BnwvI_B0qhPX4J1Kv28SiYS2yhcAMGAWXQbT0S
 
-!procedure Eject($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Eject', $name, $tech)
+!procedure Eject($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Eject', $name, $tech, $desc)
 !endprocedure

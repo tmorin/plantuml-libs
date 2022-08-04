@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Volcano')
 
 ' renders the element
-Volcano('Volcano', 'Volcano', 'an optional tech label')
+Volcano('Volcano', 'Volcano', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Volcano')
 
 ' renders the element
-Volcano('Volcano', 'Volcano', 'an optional tech label')
+Volcano('Volcano', 'Volcano', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

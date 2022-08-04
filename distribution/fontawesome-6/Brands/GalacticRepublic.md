@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/GalacticRepublic')
 
 ' renders the element
-GalacticRepublic('GalacticRepublic', 'Galactic Republic', 'an optional tech label')
+GalacticRepublic('GalacticRepublic', 'Galactic Republic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/GalacticRepublic')
 
 ' renders the element
-GalacticRepublic('GalacticRepublic', 'Galactic Republic', 'an optional tech label')
+GalacticRepublic('GalacticRepublic', 'Galactic Republic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

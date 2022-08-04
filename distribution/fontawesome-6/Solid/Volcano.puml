@@ -2,15 +2,15 @@
 
 sprite $VolcanoXs [10x10/16z] Om01FWOmu0S39ZWB8ieBfD404roIdu4RmkHdv-VaPk07Cg20buiV1W
 
-sprite $VolcanoSm [12x12/16z] JSp50O104CNGu4xwhnPPVwVHJt2J6FtbqDGSzr_EHASKNTUrpqSiDnSrR0OGZwd4TvF6ChflgnS
+sprite $VolcanoSm [12x12/16z] JSp50O1G3C3Gu4xsdnRv_Yxr4jmaHd_QDJd7_QSZqIb5rtNjyH7JpJcVzY0UGtdFe61ntrOl
 
-sprite $VolcanoMd [16x16/16z] LSp50G0n4090pZNGVxLnsSmNGN4IWoeY-zIiI1urIoiuIPzEUq5Owmhh9tcWU-qRiAleOuV5FEfQVsqhyR_vIzcHNdRWaeL5CseM
+sprite $VolcanoMd [16x16/16z] VSo50GGn4090uWxzL_jwRXEN1N-HM6aotJND3BwAPfW_34bDVXj1F6Wa0nPrIf_OENusTedofijPebTyTFrOrE-4f2r0UzJU6m
 
 sprite $VolcanoLg [20x20/16z] {
-XSx50SHG24NH5_y6j_zgH-DwTZYQH6-qvhW34Q96hDGdkNYIqoIJ0SpfjMA0zioIdeNvaLazNvrLZ4opY4aPe9fJQjG7PMYgSUM03mPHkHLizXDK-xYI7PEC
-lJvnb3bw0m
+XSm54iG024FHr4iP-FS_xMfTtoYIQ69PQIt910nC8rRAavsTx3Hn722IMYi1Q2zYqBEUhq8h9NzQOHIQ6I7vvj5KgEtbK6YixCWkmEIrni-2KQiYnqfsGWhs
+we4Zv-WD
 }
 
-!procedure Volcano($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Volcano', $name, $tech)
+!procedure Volcano($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Volcano', $name, $tech, $desc)
 !endprocedure

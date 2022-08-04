@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Empire')
 
 ' renders the element
-Empire('Empire', 'Empire', 'an optional tech label')
+Empire('Empire', 'Empire', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Empire')
 
 ' renders the element
-Empire('Empire', 'Empire', 'an optional tech label')
+Empire('Empire', 'Empire', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

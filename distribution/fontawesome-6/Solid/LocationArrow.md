@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/LocationArrow')
 
 ' renders the element
-LocationArrow('LocationArrow', 'Location Arrow', 'an optional tech label')
+LocationArrow('LocationArrow', 'Location Arrow', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/LocationArrow')
 
 ' renders the element
-LocationArrow('LocationArrow', 'Location Arrow', 'an optional tech label')
+LocationArrow('LocationArrow', 'Location Arrow', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

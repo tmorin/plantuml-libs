@@ -2,18 +2,18 @@
 
 sprite $BattleNetXs [10x10/16z] DSUt0SD0000XRELu-s-hwkc0mz0pck1vksTpVypH6OuW3lx_JRJq0ETH30y-
 
-sprite $BattleNetSm [12x12/16z] HSQ50GGn44BH7pSI-g_s_7RV2F2skKJx4u3LC5zgCwLn5W4qaXLINi2XGxJUlM8uOnaOwfY2eIIsuzOCCEogmvztuFRfJm
+sprite $BattleNetSm [12x12/16z] NOk55GD1449PYOpIVxTvNFp-k01H-318bGc0UOC6aTldi8wZjyKSSsbetAK9zLTzjuKqTcYdDdEWE2fz04PUio44Q-340m
 
 sprite $BattleNetMd [16x16/16z] {
-NS650GH020InEJTW--_sNHCUWX-I-2X90m4aRhG5fGET6qEhv7PYGgwj-PAVHkM8csW19IIc0nWd0SEqkUabTPXzPGd03R4N4nSmAcjeiSfK01fvAbhhEN6Z
-gsHhyfHQzgCD7wbG-3EukG
+NSR50GKW04EnXrEi-s_xNNCA3uSVjlc8k660m8rbI0Met2oi6E8y7KAEQSjx9YBJt9no81oRkW4M4w0j3svg21LwLR01zi8CqTa6MaJDGdGVmEMMKag06r-n
+r7Z9x6dnA_6dSdC1
 }
 
 sprite $BattleNetLg [20x20/16z] {
-RSv5OWH1581GIbfAkVzf8p-UcRTa1P_QvB-g9luQhhK9ZR3M5je5G2Q8GXRW8kJ9sdV9zPhxFe5pxQtENe6APiAaMUxbE5gkbcZM8i2f7Sze7QAbqVrCd0qp
-80rjqVQYtcGhdQ8GiuETpLoP8neMKkzMYbj70RBhcBeoygMeRkPXubkt9GytVoNNUVB4uebAU0K
+RSx5OSL0303HMVBtulHVRK1XU3UnUDSNlsMLNwPx7q8dx7s4_Y162AAGO_f1o8jzxfnoM-TkmBNFKTUeG4KpOT5DztQsdeefSjOamAK3I-G6IBmqz29SdPYG
+ZlR8dKszIHO6II6UdPnivf5eaOkvCInaZyu497TRkZFo8QaULfKlmvvi7dvnbye_DlyeX6S
 }
 
-!procedure BattleNet($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/BattleNet', $name, $tech)
+!procedure BattleNet($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/BattleNet', $name, $tech, $desc)
 !endprocedure

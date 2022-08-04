@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/NodeJs')
 
 ' renders the element
-NodeJs('NodeJs', 'Node Js', 'an optional tech label')
+NodeJs('NodeJs', 'Node Js', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/NodeJs')
 
 ' renders the element
-NodeJs('NodeJs', 'Node Js', 'an optional tech label')
+NodeJs('NodeJs', 'Node Js', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

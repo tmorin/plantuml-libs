@@ -1,16 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/Paintbrush
 
-sprite $PaintbrushXs [11x10/16z] Ou03VWGBnkJYXp7vKLWy22QK0KICS264B3k41HS5
+sprite $PaintbrushXs [11x10/16z] Ou03VWGBnkJYXp7vKLWy22QK0K888JYJ6SA2Ym8
 
-sprite $PaintbrushSm [13x12/16z] JSl50O1000D1t67whnOxpIksJQMps9diBoL05smFL_0jvRJ27Fj-omF6EVeHbWXiLG22Vm
+sprite $PaintbrushSm [13x12/16z] JKp50G0X33lt8_jF2_Ksh_XKy2SzWU0DAOXYLhemRyM7yPlvOVxoH41atusl89mskEgWF0q
 
-sprite $PaintbrushMd [17x16/16z] NOx50O1G34DnXxV_jDZNfBV66xrzqH-etmu5vk_Vod-YWlzbi1__tR2cTveR4VmSqCT_2_tNeFxT0w_qTgTDYl-M_WS
+sprite $PaintbrushMd [17x16/16z] POx50O1G3CLmX-m_BMxfxwtFCz_O-GV-Ruw15c3u_XaBpfSo_AI_WVvvcpQJuEI0_Fw7gtyfx1zZuFAy-Np-55xCyFmR
 
-sprite $PaintbrushLg [22x20/16z] {
-RT254KGX34LHtE7rN-tkDpJ9-C7k8EWOQ8eP0460gdcmxfWUX5nDrXVZXlXcnT1nxV8T2oaYLHtjObPAdAdsENYagk_f1ZXofHIPUyYmptl1zQlrx_eqmMXQ
-y0y
-}
+sprite $PaintbrushLg [22x20/16z] XSx50SGm34HHuqBezrzjs4mwFj68iWown1ae44fLDwufJbH6rmV_iKaeHtyELOHVXqkHoEqNQY9JZgEe5dWvZwJ41hOuASLSUwJ5K3zEPJ3bZ4rKT8hm
 
-!procedure Paintbrush($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Paintbrush', $name, $tech)
+!procedure Paintbrush($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Paintbrush', $name, $tech, $desc)
 !endprocedure

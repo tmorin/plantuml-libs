@@ -2,12 +2,12 @@
 
 sprite $DiagramNextXs [10x10/16z] Oq00Vdm08GjM2oLvcQ5IG3uVFnFO33Os1WOMDZOa7G
 
-sprite $DiagramNextSm [12x12/16z] Oq06_8G13nARWOiF2FX111lK09WvOAEum2GFCoD8BITG9qYQ4Qm6OWuR0o_K71XW0m
+sprite $DiagramNextSm [12x12/16z] Oq06_8G13nARWOiF2FX111lK09WvOAEum2GF4uXYu0JfXAk1cCF2m0ir1mRO
 
-sprite $DiagramNextMd [16x16/16z] fSst5S0W54DHaR4D_Fsd9UVMjtb7bN1JOUEPfd_OjG5MQ68LEadhtuE7G3de_p1KWDTemM5p6OJmkGAP9LPIjdVEVG1SjlxT-jyX0G
+sprite $DiagramNextMd [16x16/16z] fOt15G0H5CG60D1_jml0lsuWRqu1HUMB15t-0RfdfU11bjDFu3cNAin-_wfOb-8CfarmdgevAgREIjifnXW0nChfnsaGFW
 
-sprite $DiagramNextLg [20x20/16z] hS_50O0m00F0u4xsdvQwouj3wX9KhPaPOE6--Q-D9PI7p71EZWZAFfL3_HxkwmIu70yc6e3FCTYJPkn-K7f9i-4O-d1pHkXR5KYpgcnHZdau-ZbA0W
+sprite $DiagramNextLg [20x20/16z] hS-50SKW34NH2u-lbUm_RTtT3kw4HPhmO3DnRC_ws1ppHmAjlpb6fdEIoYgnjuhPDeu4MGswE6XU4kzkiP0M7K_1zNF49lgvTub2A3kVGHpYjnV7L0u
 
-!procedure DiagramNext($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/DiagramNext', $name, $tech)
+!procedure DiagramNext($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/DiagramNext', $name, $tech, $desc)
 !endprocedure

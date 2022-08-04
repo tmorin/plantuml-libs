@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CodeCommit')
 
 ' renders the element
-CodeCommit('CodeCommit', 'Code Commit', 'an optional tech label')
+CodeCommit('CodeCommit', 'Code Commit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CodeCommit')
 
 ' renders the element
-CodeCommit('CodeCommit', 'Code Commit', 'an optional tech label')
+CodeCommit('CodeCommit', 'Code Commit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,15 +2,12 @@
 
 sprite $HandDotsXs [10x10/16z] Om01FWO8u0T318iFncBZHsN100ECXfDWIHuWPeIhOm
 
-sprite $HandDotsSm [12x12/16z] VSd50S0W5C3GrBtPVzegTkB1TpudmMGZyjc_lc-AthFQ_yxJCVLyfTV10pGSEcXKH7dvWHi
+sprite $HandDotsSm [12x12/16z] VSd50S0W5C3GrBtPVzegTkB1TpudmMGZyjc_lYrxpsh_Eq_xrFELHZiFq73e01LHNdxW1W
 
-sprite $HandDotsMd [16x16/16z] bOZ50G0X3C3QSuFiFoskpmlI9bAmqj5FB1h-miiI_6Cj_YKtRCip-uTcNtzwGo_iv2-Ow1km1nT3md1WewUmfnAGW8dxbk8h9P0YaZb8V67r
+sprite $HandDotsMd [16x16/16z] dOj55iL03CFy6Tf4zp_jC6whGTalQhWMJZctT3SEif_SUrtSalztFxde0ttnpG-mx0_WbLn6mNZYsMMreHIgWN4h8uTQW9Mjofl2AIa2
 
-sprite $HandDotsLg [20x20/16z] {
-hSg53SD00CNGdsFs_jEMmY2knK_McXiw5oH8icwdGXDaWT5QOopc7ernCmyt2_-nOx8mNGtW_W4TQ5eVoS6Q2W1QC0vWCDk21HfparQaMyWHgkOiUz9QOIv8
-qXi
-}
+sprite $HandDotsLg [20x20/16z] hSYrWSC000ImCxEr_xHFISpbgrG-wZLdLKAVejnhD8SX5FcOhUyh7yzwkuRRjVzpHwcu7LolW0Lp84XgFZA2lBDPiNhTEqTcBqK-QIaOEgQy57R9n-YbJf9l
 
-!procedure HandDots($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HandDots', $name, $tech)
+!procedure HandDots($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HandDots', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Memory')
 
 ' renders the element
-Memory('Memory', 'Memory', 'an optional tech label')
+Memory('Memory', 'Memory', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Memory')
 
 ' renders the element
-Memory('Memory', 'Memory', 'an optional tech label')
+Memory('Memory', 'Memory', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

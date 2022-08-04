@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ShareFromSquare')
 
 ' renders the element
-ShareFromSquare('ShareFromSquare', 'Share From Square', 'an optional tech label')
+ShareFromSquare('ShareFromSquare', 'Share From Square', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ShareFromSquare')
 
 ' renders the element
-ShareFromSquare('ShareFromSquare', 'Share From Square', 'an optional tech label')
+ShareFromSquare('ShareFromSquare', 'Share From Square', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

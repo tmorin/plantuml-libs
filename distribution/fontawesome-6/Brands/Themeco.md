@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Themeco')
 
 ' renders the element
-Themeco('Themeco', 'Themeco', 'an optional tech label')
+Themeco('Themeco', 'Themeco', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Themeco')
 
 ' renders the element
-Themeco('Themeco', 'Themeco', 'an optional tech label')
+Themeco('Themeco', 'Themeco', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

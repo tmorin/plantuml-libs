@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Hospital')
 
 ' renders the element
-Hospital('Hospital', 'Hospital', 'an optional tech label')
+Hospital('Hospital', 'Hospital', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Hospital')
 
 ' renders the element
-Hospital('Hospital', 'Hospital', 'an optional tech label')
+Hospital('Hospital', 'Hospital', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

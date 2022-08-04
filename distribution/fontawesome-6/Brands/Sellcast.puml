@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Brands/Sellcast
 
-sprite $SellcastXs [8x10/16z] Ou01VWZWuOS31cw881i3bCyFPV11Q0O69dv-3fXY2CKD
+sprite $SellcastXs [8x10/16z] Ou01VWZWuOS31cw883C3bCyFPV11Q0O6Hdv-3fXY2CKD
 
-sprite $SellcastSm [10x12/16z] JShL0K0n24FHMrTW_scVIyyFal0RTalHLXwubXhjgM0ydOcXzrfAcVTIXQSNdLxr5rulanq
+sprite $SellcastSm [10x12/16z] JSh50S104CD0XJdglzh0yNmMRAh3Q1fjTK1Obj5KGLBdH6w3PHdtiCpBXG5z236ZkuEJ5m
 
-sprite $SellcastMd [14x16/16z] PSV50SGm00In2Pgz_LTx6BD-OcBp8vsWJd9QH82xZ2ixIWmoKZVmAZ0ogF0SGfrKTtDUd6MORNFwEjKZTRc0hO0t
+sprite $SellcastMd [14x16/16z] PSx50GCW343HZplPVzfwqNU2E8VOVve5MRGabmfW_pzCZwCb8446Zq0UNy8xyfSnigyQFuSswD7c5TyhhAneoyUnUG8
 
-sprite $SellcastLg [17x20/16z] PStL0GCX403HENUc_shZEMJV3wmJTNCs0eiLEclfpFypvVy5K7R3ia6EPowrc01NThC1BrYRwnrc2tXY8KqU5E6iWZS0oZFC0yFfnse3QpjOsWYU
+sprite $SellcastLg [17x20/16z] RSxL0S9044NH6vULrt-rE8oGyxCooeN9ZC2c01JrQlVQxTvuyPNRuTyhxLaUMk-SCXDgiCemf0qMK2NiiwWGdh649p-6PM2eUjcLeEWa_XpykGC
 
-!procedure Sellcast($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Sellcast', $name, $tech)
+!procedure Sellcast($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Sellcast', $name, $tech, $desc)
 !endprocedure

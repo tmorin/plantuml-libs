@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HouseMedical')
 
 ' renders the element
-HouseMedical('HouseMedical', 'House Medical', 'an optional tech label')
+HouseMedical('HouseMedical', 'House Medical', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HouseMedical')
 
 ' renders the element
-HouseMedical('HouseMedical', 'House Medical', 'an optional tech label')
+HouseMedical('HouseMedical', 'House Medical', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

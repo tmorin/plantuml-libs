@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Php')
 
 ' renders the element
-Php('Php', 'Php', 'an optional tech label')
+Php('Php', 'Php', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Php')
 
 ' renders the element
-Php('Php', 'Php', 'an optional tech label')
+Php('Php', 'Php', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

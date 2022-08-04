@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Dyalog')
 
 ' renders the element
-Dyalog('Dyalog', 'Dyalog', 'an optional tech label')
+Dyalog('Dyalog', 'Dyalog', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Dyalog')
 
 ' renders the element
-Dyalog('Dyalog', 'Dyalog', 'an optional tech label')
+Dyalog('Dyalog', 'Dyalog', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

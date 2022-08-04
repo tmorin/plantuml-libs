@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PeopleRoof')
 
 ' renders the element
-PeopleRoof('PeopleRoof', 'People Roof', 'an optional tech label')
+PeopleRoof('PeopleRoof', 'People Roof', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PeopleRoof')
 
 ' renders the element
-PeopleRoof('PeopleRoof', 'People Roof', 'an optional tech label')
+PeopleRoof('PeopleRoof', 'People Roof', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

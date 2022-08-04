@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/SnapchatSquare')
 
 ' renders the element
-SnapchatSquare('SnapchatSquare', 'Snapchat Square', 'an optional tech label')
+SnapchatSquare('SnapchatSquare', 'Snapchat Square', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/SnapchatSquare')
 
 ' renders the element
-SnapchatSquare('SnapchatSquare', 'Snapchat Square', 'an optional tech label')
+SnapchatSquare('SnapchatSquare', 'Snapchat Square', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

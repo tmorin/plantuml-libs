@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Trailer')
 
 ' renders the element
-Trailer('Trailer', 'Trailer', 'an optional tech label')
+Trailer('Trailer', 'Trailer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Trailer')
 
 ' renders the element
-Trailer('Trailer', 'Trailer', 'an optional tech label')
+Trailer('Trailer', 'Trailer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

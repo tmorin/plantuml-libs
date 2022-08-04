@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CircleUser')
 
 ' renders the element
-CircleUser('CircleUser', 'Circle User', 'an optional tech label')
+CircleUser('CircleUser', 'Circle User', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CircleUser')
 
 ' renders the element
-CircleUser('CircleUser', 'Circle User', 'an optional tech label')
+CircleUser('CircleUser', 'Circle User', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

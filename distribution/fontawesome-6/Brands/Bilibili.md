@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Bilibili')
 
 ' renders the element
-Bilibili('Bilibili', 'Bilibili', 'an optional tech label')
+Bilibili('Bilibili', 'Bilibili', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Bilibili')
 
 ' renders the element
-Bilibili('Bilibili', 'Bilibili', 'an optional tech label')
+Bilibili('Bilibili', 'Bilibili', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

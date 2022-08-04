@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MicrophoneLines')
 
 ' renders the element
-MicrophoneLines('MicrophoneLines', 'Microphone Lines', 'an optional tech label')
+MicrophoneLines('MicrophoneLines', 'Microphone Lines', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MicrophoneLines')
 
 ' renders the element
-MicrophoneLines('MicrophoneLines', 'Microphone Lines', 'an optional tech label')
+MicrophoneLines('MicrophoneLines', 'Microphone Lines', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

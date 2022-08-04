@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/Tents
 
-sprite $TentsXs [12x10/16z] DOo50O1054AnsxV_j7e1lmEGRS-W4V3uG9PPP07akRK1Nz8phv86pqHEVVu1
+sprite $TentsXs [12x10/16z] DKo50S0m36AhA_zVMoSk09v5o3wIRsoa5WjgsVNEhwceQ_P7xPdaSES9
 
-sprite $TentsSm [15x12/16z] JOs50S0m40AfUzb_sjZhHTy0ped4JJ8Y3YQDFWg7rBPLunRixVbWuQ-VkECNuVms8dpHsCHGLLK8duOL
+sprite $TentsSm [15x12/16z] HOm50e103CEAE_d_Qt4kETtMDeKnaHcmui9wusLuPqrDcNV0LkJxz_7sPrcl5vPhdXo5-OEoVUK9
 
-sprite $TentsMd [20x16/16z] NOw50SKW50DnvsN_QR-qGGy_WgWTKJS9W3vLnv-q6GtIpnIXCLK53DgZCW2ZZw3mTbbkxIUE7WlLtW4RNU-kCcX_63eE_1aNRdDb16Gv6KulzmK
+sprite $TentsMd [20x16/16z] NOm54W0n30B9kOR_l_QKrBQ-PK29esKXQRKw-RAKYkAiKqB6TamCZjnkLT3Lxjdb_qNdo0oE_s31QQNR5UmUJ2wEZou2XTlauDbvE6Ht0m
 
 sprite $TentsLg [25x20/16z] {
-RT25hSH0303H2NEc_se_dAsJ0q-yQ-RcR7WpgZDFXn_SjAUfe-fDjtBDOR53QbeMYu6mw4RtBEO7-BK1TAQ1nNH6cLJBmM5nDgs1NQi30zvmt3vsGqCoOMW9
-ZOd9ZvumcU3qtq8uJEGA9s4r0Nkzwoy
+RP050iGW30GNT_B_rvvnMmcTUWTYK4o39xo89EmC-G7Db3zc2qFo5eTq46DHhiPYKKGQx1wCrPoY0JXNEcI-pXM6D3Y-gcec34MN6mCKei1GebCG2YXXA93M
+qsEHA3ZSeaV7FYSMzHJerxc-0G
 }
 
-!procedure Tents($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Tents', $name, $tech)
+!procedure Tents($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Tents', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HouseCircleXmark')
 
 ' renders the element
-HouseCircleXmark('HouseCircleXmark', 'House Circle Xmark', 'an optional tech label')
+HouseCircleXmark('HouseCircleXmark', 'House Circle Xmark', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HouseCircleXmark')
 
 ' renders the element
-HouseCircleXmark('HouseCircleXmark', 'House Circle Xmark', 'an optional tech label')
+HouseCircleXmark('HouseCircleXmark', 'House Circle Xmark', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

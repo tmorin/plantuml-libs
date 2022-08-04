@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Syringe')
 
 ' renders the element
-Syringe('Syringe', 'Syringe', 'an optional tech label')
+Syringe('Syringe', 'Syringe', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Syringe')
 
 ' renders the element
-Syringe('Syringe', 'Syringe', 'an optional tech label')
+Syringe('Syringe', 'Syringe', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Paypal')
 
 ' renders the element
-Paypal('Paypal', 'Paypal', 'an optional tech label')
+Paypal('Paypal', 'Paypal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Paypal')
 
 ' renders the element
-Paypal('Paypal', 'Paypal', 'an optional tech label')
+Paypal('Paypal', 'Paypal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

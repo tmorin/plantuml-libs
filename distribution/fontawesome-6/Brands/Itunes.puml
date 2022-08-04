@@ -1,19 +1,16 @@
 ' definition of the Item fontawesome-6/Brands/Itunes
 
-sprite $ItunesXs [8x10/16z] DS570GD1402WkUqT_sxp2iGV3gP0a2bXM-eyFazrL5K8d-D2SOP4ND1_
+sprite $ItunesXs [8x10/16z] DSU50O100090xFRsdzRyfqa5TYo2qD37PjKk-_DEhVrn9nzt1_JsMKk-Pxe1
 
-sprite $ItunesSm [10x12/16z] HS750SH000IWYQ_JVxKdhq1U1R1lPAWxd21S964wk1TE5nKseGh5aAvgbXDw5sQs0zdc-klv0W
+sprite $ItunesSm [10x12/16z] HSI50OHG0CFGul3jxJ_jkRH9yjy9c2RIN1Ci8AmaePjO1cOp6qp2zawJwd8PPgXLwCcCf8_dQku
 
-sprite $ItunesMd [14x16/16z] {
-NOs50GCW30GVTtx_RHkf7yGDVvHpdHq12Wq8I-oe8ed2nbKpEvr08OgK09YthdOXYfkzj4Mg5GB5UBGlcqS3LFSs1l4GHMndi8Ficx8n70jQyvCzr5wmnSEW
-Sar70E45y
-}
+sprite $ItunesMd [14x16/16z] NS67SKGX40MmjtZk9s3LVxMEatnIthns_rb9u4XguZwu1gmqF1SW48ma54-paXfyCB1mC5jXuc2r0vChdFIfGefWo03NqcI3uqNXo75L5dA31ldl2m
 
 sprite $ItunesLg [17x20/16z] {
-RS_LeMWX302m7iCX-q_xXEkIpthZ5qzwTqN4PHlJ5W7fIANSHyUeY6cx7biihtA2Pq2EE3WM3io87PWtFUz0cXu4UM1Y1mxonF0QE6dbDJ1E77PmtPnni7PW
-ZGZgsNacLZWBNhiM_M1h9swik1OjRk-FZVoawlM5mOSxVlWB
+ROy5bWCX50GR6-D3tV-s-vgD9pNMCfX-aCk3PCiY1Wl9xw9ox5dTnUdqrkR6GfCR--PtZQNbqScTW243eq3VLx0Dsd-xXmFW4TZ4It0Tjo2oW_zdLaYoI42U
+ONsa3jNZfyWUTXireIV-EItg-gTCk6HzErZikPoO9WKlL7tn1m
 }
 
-!procedure Itunes($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Itunes', $name, $tech)
+!procedure Itunes($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Itunes', $name, $tech, $desc)
 !endprocedure

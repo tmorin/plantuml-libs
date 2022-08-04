@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Leaf')
 
 ' renders the element
-Leaf('Leaf', 'Leaf', 'an optional tech label')
+Leaf('Leaf', 'Leaf', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Leaf')
 
 ' renders the element
-Leaf('Leaf', 'Leaf', 'an optional tech label')
+Leaf('Leaf', 'Leaf', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

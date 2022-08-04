@@ -2,18 +2,15 @@
 
 sprite $BasketballXs [10x10/16z] 1S4t0G0n002X-v8suTzje2gZAZwSaj2847r90C50Qeaesc6f6g0k
 
-sprite $BasketballSm [12x12/16z] HSj5WGG10CJ0x32NVxN7a5TZNzZw4O9_xNvzgMlbURdZwajIhH8__CWDJteQvhXVFA6VcoprWe6gRioMUWS
+sprite $BasketballSm [12x12/16z] JSg30GC144JH7pkl_sg3ytBKKAvDGB31hn4zBxppYcS3f3fBbWfS3O7UxK_nMlBpoxc2FLMzS7AkBm
 
-sprite $BasketballMd [16x16/16z] {
-FSt50GH13CH0BQEj_ACz6EfV6IbP9f-9db1KzygqsRsGy5nLZ-c5ro2er1ars1jrqPETT2yp0gicZJs3JoVf34pbCffmgepB4ELLutm68R0NYWOhmDjj8SpL
-0V05
-}
+sprite $BasketballMd [16x16/16z] DSx50GGn4CH0BMDR-KTxOD2lZ4DjcNmcHb5KTsh5RhTAuhcs_HTUGsZK2JMidRheoKhf55Yqq3aQz1caE0DJfmLEbKw5QDWxvpD4OAkKEWV0EsnbVnC3y0K
 
 sprite $BasketballLg [20x20/16z] {
-JOy73iKm34BfoEpW_hVz7rnBUPr1664adNV1GYFtmZ_Fdf9Enqap44oIyeemSah4_Kaiof9O4T96Kc4IFycVxdTLfbq6-v6PSfbMpdPxF5qBkyVDdTBcIaFz
-IheqtbsDsIjA-FFW2PV0vio2FLtikIRGizSUQy8mo3LDMJGWwQ4z1U87
+LSy5ZiGm5C1GXwPSt_-sgw2w5h_WPxPx5puLZL7r2PDKKpCzXfqgnLPeubcHUv05YXKpanIqueVSKSrmBb9YcdTESekntEh9f4-1qz7jeef70CeaFTbXK_z_
+8gW-F8katna9Y_Ov9ko339iLQTb3TH3bOwpsRa-azWS
 }
 
-!procedure Basketball($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Basketball', $name, $tech)
+!procedure Basketball($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Basketball', $name, $tech, $desc)
 !endprocedure

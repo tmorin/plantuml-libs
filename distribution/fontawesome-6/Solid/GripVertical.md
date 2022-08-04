@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/GripVertical')
 
 ' renders the element
-GripVertical('GripVertical', 'Grip Vertical', 'an optional tech label')
+GripVertical('GripVertical', 'Grip Vertical', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/GripVertical')
 
 ' renders the element
-GripVertical('GripVertical', 'Grip Vertical', 'an optional tech label')
+GripVertical('GripVertical', 'Grip Vertical', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

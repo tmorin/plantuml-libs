@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HandshakeAngle')
 
 ' renders the element
-HandshakeAngle('HandshakeAngle', 'Handshake Angle', 'an optional tech label')
+HandshakeAngle('HandshakeAngle', 'Handshake Angle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HandshakeAngle')
 
 ' renders the element
-HandshakeAngle('HandshakeAngle', 'Handshake Angle', 'an optional tech label')
+HandshakeAngle('HandshakeAngle', 'Handshake Angle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

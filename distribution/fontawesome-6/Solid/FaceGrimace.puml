@@ -2,15 +2,15 @@
 
 sprite $FaceGrimaceXs [10x10/16z] JSR50O100C2muaxtdnOvpoi0cpC_WmrC9imsvP3EngnmWg9zV_MziXa1KyeB
 
-sprite $FaceGrimaceSm [12x12/16z] JOp50G0m20FpgGFPVzgw7QuO54OikFXIyakf8u_TShSoXgI0FtDk5YtkUMAo96dcNY7mml2U6Zewij5j
+sprite $FaceGrimaceSm [12x12/16z] JOo50S0m20IfDzZlFstS3bSg27vgeB6bm9R2IlvdusnIXe1csobpzy-_FWy87ZJK_35IkXNVUkgKiPALRW8
 
-sprite $FaceGrimaceMd [16x16/16z] PS-50S0W30J0hrl2xpzjSJ_S2O93-It8bD45Rs5XuB0XWBArWhs3JZWKBz8mFbCr-zZpXt00WYsU8ldA-nfNVQJnasTQ5nBzXquuqW-1jOd60W
+sprite $FaceGrimaceMd [16x16/16z] RS-30SH050N05plJVxLdHBFs_hmqYwd8ry9BbnU-rlsG-RlvguYz1XAaW0NI8eqBaxq2gP8vHHe4upoEwwEQMDFIVDPdilzGcuTvFqoAJJHt
 
 sprite $FaceGrimaceLg [20x20/16z] {
-TSw5bKL120FGB8nR-kzsJ_Xkz-bO05VzS1KygRpQZYi-wUzJCjwd92lh7S0F3PJY4MMRqYd0ZFSVvL1wYUuoVrhyLA8IAh1qHnJqSk_kMxSIDrJUh9bjisNg
-ASCKS3-hU02Tho23pnmXl-yAZM5do3y
+TP05biGm240Xxjp_jlkGBXdxRGm7CFgXLU0Yax7n4T55Tv4pNEHaZ-MucTDKLb12uTOyPZvbHsAEQf9K5-WdYpufcYa2BFubbEH5h8YR_yXXWTE7q4BO8Qp0
+iY3fyxylX-V9qIl03Be9FbAtUcWaR3Nw0m
 }
 
-!procedure FaceGrimace($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FaceGrimace', $name, $tech)
+!procedure FaceGrimace($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FaceGrimace', $name, $tech, $desc)
 !endprocedure

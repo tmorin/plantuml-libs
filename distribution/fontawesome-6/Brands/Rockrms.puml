@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Brands/Rockrms
 
-sprite $RockrmsXs [9x10/16z] 7SA55OG0042XVsdB_jDQFBgyUl1ZAUhFq7KFa_W7TF73gusWQ8A-xngWJW
+sprite $RockrmsXs [9x10/16z] 7OQ50G0X08JuJcN_QOrh01OYFVG3XLClHYhg8tfY1E0HA8eXvGdjm1MY0m
 
-sprite $RockrmsSm [11x12/16z] DSQ54SDG5C0m9_bCtd_QqhlgI03S5q6F6eFzksP0tJX9_Zu5FM00gBReVIl6_NTpsuYlTG2MQe4t
+sprite $RockrmsSm [11x12/16z] BOi54e0m30GNT_R_huNs9fNa582HElggGS8Jh4ku3rvC1bzPRx1LsTmjg6YmWMaFxWHxto_0hRh23m
 
-sprite $RockrmsMd [15x16/16z] HOm50eH058MmTUhT_xGRRCWalq3cYJyriY99lDA_DiFozWOjEG2Ejoya5Kg5Qdy6x5RO7fXYloupOBYgkxec5jwb98BUsV--6koHFi_L4JLVDcHI2i0J
+sprite $RockrmsMd [15x16/16z] FSo50SGm4CH0XJdglzg7DKp0FgGO1xhBc0WrFvyQ3J2etd3h1h2Ql5vmNdN3x9lAMiUbN4OmSW-z4Yw9HiKOG4qO97vOUpmc-HZFC5mJm6ML24Xm0dm1
 
 sprite $RockrmsLg [19x20/16z] {
-PSw5bOLG5CNGuF8a_LSxSXPVsNWkniCuy6vknldCNLrINLvbX99s03o7FMs6DQCmSko04un9EocKl6v9EnJODCTTjRlEywgzb1Eeld1Hwpqj6WLehMNgPON1
-VutsQDFL5aOV1bYrvvyUyilm-B-7aHXzQ3mjHUt7oBzV
+PSw5OGKX403HESUd_seZy3VwJe4rmhxnqzwT2c6erzgzldSsg7Cl0wYUSJH_hpW2f_aTW4Vi9TPELLQ6PWKUdT-aEhpt_T9HQm6QttXHs_-jowK2lNTLVBbZ
+Y4wFlHsszTqCmAaZPegzAfzkVzYOTaE7S5Hrv1No3W
 }
 
-!procedure Rockrms($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Rockrms', $name, $tech)
+!procedure Rockrms($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Rockrms', $name, $tech, $desc)
 !endprocedure

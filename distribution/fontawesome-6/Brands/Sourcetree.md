@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Sourcetree')
 
 ' renders the element
-Sourcetree('Sourcetree', 'Sourcetree', 'an optional tech label')
+Sourcetree('Sourcetree', 'Sourcetree', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Sourcetree')
 
 ' renders the element
-Sourcetree('Sourcetree', 'Sourcetree', 'an optional tech label')
+Sourcetree('Sourcetree', 'Sourcetree', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

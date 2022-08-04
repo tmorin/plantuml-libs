@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/AlignRight')
 
 ' renders the element
-AlignRight('AlignRight', 'Align Right', 'an optional tech label')
+AlignRight('AlignRight', 'Align Right', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/AlignRight')
 
 ' renders the element
-AlignRight('AlignRight', 'Align Right', 'an optional tech label')
+AlignRight('AlignRight', 'Align Right', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

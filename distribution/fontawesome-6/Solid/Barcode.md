@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Barcode')
 
 ' renders the element
-Barcode('Barcode', 'Barcode', 'an optional tech label')
+Barcode('Barcode', 'Barcode', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Barcode')
 
 ' renders the element
-Barcode('Barcode', 'Barcode', 'an optional tech label')
+Barcode('Barcode', 'Barcode', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

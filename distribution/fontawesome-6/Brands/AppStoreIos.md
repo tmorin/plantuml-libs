@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/AppStoreIos')
 
 ' renders the element
-AppStoreIos('AppStoreIos', 'App Store Ios', 'an optional tech label')
+AppStoreIos('AppStoreIos', 'App Store Ios', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/AppStoreIos')
 
 ' renders the element
-AppStoreIos('AppStoreIos', 'App Store Ios', 'an optional tech label')
+AppStoreIos('AppStoreIos', 'App Store Ios', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

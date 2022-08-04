@@ -2,12 +2,12 @@
 
 sprite $ResearchgateXs [8x10/16z] Ou02Vjo03y501YoSx5WK0m
 
-sprite $ResearchgateSm [10x12/16z] Ou03Vfo01yxYvGDJZFnSJBnG5b04mcA6AM80Yk80V7
+sprite $ResearchgateSm [10x12/16z] Ou03Vfo01yxYvGDJ3FnSJ3nG5b04mc824b0nd6RnmG4
 
-sprite $ResearchgateMd [14x16/16z] bSUr0O1004KnFkVwzfyMrmxIPNZfBtnHU127Pen5hR8pu7hWMkrSJ8qyXk7IbHWh_-Xb1W
+sprite $ResearchgateMd [14x16/16z] bSUr0O1000J1Ezot_sfnNZ9-ib5co_37J4AyLgb1wyB3q6uzOSj6uAM3m9XWyuWNoYXp
 
-sprite $ResearchgateLg [17x20/16z] hSiv0iD024DHPj_vzxzjcYJ6jFRhG99urUE9ixWhofygCCVcHnYHSevv4D2DVGYML05BY0VBJsfEQ51U8zu7
+sprite $ResearchgateLg [17x20/16z] hSl50S0W343HuCxVVzgwNyj3O_9bllYZ5TvSvzBNVqgLav0KhhKxiUvUUIUUn0WlWcwln7V4MqDNdM7aQmO
 
-!procedure Researchgate($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Researchgate', $name, $tech)
+!procedure Researchgate($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Researchgate', $name, $tech, $desc)
 !endprocedure

@@ -1,16 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/HandPointUp
 
-sprite $HandPointUpXs [8x10/16z] Os1WPW03Ldvqcf-11Kg380Y0MK30mC33mC_806A3C4G8GW4
+sprite $HandPointUpXs [8x10/16z] Os1WPW039dvqcf-11Kg380Y0MK30mC33mC_806A3C4G8GW4
 
-sprite $HandPointUpSm [10x12/16z] RSW53e1050FHhlkV-vyMXnZJo4ibqnk_wf-EXK-LzVm54sTognsQqq7AXyRWQAbm5_JGj0C
+sprite $HandPointUpSm [10x12/16z] ROZL0S0W34HVlUZjFoqENoJd49cdRR8hbJzN-XN6_YcYUX1CITuNUTuYpjKvyAdVoOYH3
 
-sprite $HandPointUpMd [14x16/16z] ZOhL0SKm30ClyD2W_QSjGpvx0Li09HXmjUUgsgXS51jLB0s_LAv_kVjrLM-j962BIcsK20ghwgtXag9WafaT1OfkWEybVYpKMym
+sprite $HandPointUpMd [14x16/16z] bSgr0O0044FHZyj9zfyMzuxNHO3WmLNyIFPCBWfxfb29NobLkZv_MgqIC45gGmJ5bigon2K5c6HcsW2w0VqL1e3Y3ZC
 
-sprite $HandPointUpLg [17x20/16z] {
-dSw53SGm44JHRuQLC_rNUn2EnNdYnG5wvS59FFXt1MVXMUWIXAaWXRcGjmJEZ6BZNuYF-r9S2quRGc4j56qID6HGjLemASDQiEtP2h8aCniw2kW1QBf9svNJ
-O1KMRHhm1G
-}
+sprite $HandPointUpLg [17x20/16z] hSp50S0W00J1ZGjo_LSRmtddVZi8SEwqa_u1CxPmlZXr84qzhF4xOzYCUs6Kcg_c00fZMFXWZZ31WKm6_tuymmilvwSmwH5ZNEZgqm97tGl0NjhnRVIn3-06
 
-!procedure HandPointUp($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HandPointUp', $name, $tech)
+!procedure HandPointUp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HandPointUp', $name, $tech, $desc)
 !endprocedure

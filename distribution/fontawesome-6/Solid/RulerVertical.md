@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/RulerVertical')
 
 ' renders the element
-RulerVertical('RulerVertical', 'Ruler Vertical', 'an optional tech label')
+RulerVertical('RulerVertical', 'Ruler Vertical', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/RulerVertical')
 
 ' renders the element
-RulerVertical('RulerVertical', 'Ruler Vertical', 'an optional tech label')
+RulerVertical('RulerVertical', 'Ruler Vertical', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

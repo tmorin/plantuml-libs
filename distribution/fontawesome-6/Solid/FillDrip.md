@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FillDrip')
 
 ' renders the element
-FillDrip('FillDrip', 'Fill Drip', 'an optional tech label')
+FillDrip('FillDrip', 'Fill Drip', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FillDrip')
 
 ' renders the element
-FillDrip('FillDrip', 'Fill Drip', 'an optional tech label')
+FillDrip('FillDrip', 'Fill Drip', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

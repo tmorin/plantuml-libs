@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Stop')
 
 ' renders the element
-Stop('Stop', 'Stop', 'an optional tech label')
+Stop('Stop', 'Stop', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Stop')
 
 ' renders the element
-Stop('Stop', 'Stop', 'an optional tech label')
+Stop('Stop', 'Stop', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

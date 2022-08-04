@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ShoePrints')
 
 ' renders the element
-ShoePrints('ShoePrints', 'Shoe Prints', 'an optional tech label')
+ShoePrints('ShoePrints', 'Shoe Prints', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ShoePrints')
 
 ' renders the element
-ShoePrints('ShoePrints', 'Shoe Prints', 'an optional tech label')
+ShoePrints('ShoePrints', 'Shoe Prints', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

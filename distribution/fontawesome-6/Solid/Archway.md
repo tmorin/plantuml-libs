@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Archway')
 
 ' renders the element
-Archway('Archway', 'Archway', 'an optional tech label')
+Archway('Archway', 'Archway', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Archway')
 
 ' renders the element
-Archway('Archway', 'Archway', 'an optional tech label')
+Archway('Archway', 'Archway', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

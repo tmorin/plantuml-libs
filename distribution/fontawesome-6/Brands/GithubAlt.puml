@@ -1,16 +1,13 @@
 ' definition of the Item fontawesome-6/Brands/GithubAlt
 
-sprite $GithubAltXs [9x10/16z] Oy04_520oU3b1ojWukVXOmKo-Q4GJ73mWlKomuq1
+sprite $GithubAltXs [9x10/16z] Oy04_520oU3b1ojWvEVXOm8o-Q4GJ73mWlKomuq1
 
-sprite $GithubAltSm [11x12/16z] RSR50SGm00InDREd_seFmubUqZDeBaO7JQp6thcNGTNFjw9-8mnY_2kSqLT1IhHQEq47Rm
+sprite $GithubAltSm [11x12/16z] ROk50SGm4CCSvcZ_QH_BhOx1UWQQYT504ojZR-VUCgYhPY2A1FfPNrkh7mKfqLBfE1ru0m
 
-sprite $GithubAltMd [15x16/16z] XSc55GD1549HLiRbzTzj3d7VEyf71rhGLUfI0Nnc1HR76yUT9n8lTbuCs7LLOT853bH19bxY2XfuYED2ryIJYrKRKKhKpUtU2TV25dqw0G
+sprite $GithubAltMd [15x16/16z] XSY50GGX4C30dE6G_gjzTnqqonzruo8soEhnZAAUymRMv_J9wfEkAnT5XnKzXWLDhjUKBgPhDiPfSZOn6o1QvcCkpPdVzW
 
-sprite $GithubAltLg [18x20/16z] {
-dSw55SCm00FH2xDl_stxL6RwYPd4VoejJLfWKA7t5dGFCppCBDxgy4uPlBUfdDKQ5Mw4IxAibWG063LvMqiMadXMK8uDP9tQZScH2gA6OWEZ6qUDDaGthLii
-KyjtTW
-}
+sprite $GithubAltLg [18x20/16z] dSo50OCm503Hm-Et_xHrz_8WzesLj7KSBIeCtdWJuIcI7o8ZFcYBZwhAHNUUPMNFpAp5HdyicnLql4QMOuJZSHno7B0OBdEXsKEmSZBem5uVIztBiUStMm
 
-!procedure GithubAlt($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/GithubAlt', $name, $tech)
+!procedure GithubAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/GithubAlt', $name, $tech, $desc)
 !endprocedure

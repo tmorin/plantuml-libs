@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PhoneSlash')
 
 ' renders the element
-PhoneSlash('PhoneSlash', 'Phone Slash', 'an optional tech label')
+PhoneSlash('PhoneSlash', 'Phone Slash', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PhoneSlash')
 
 ' renders the element
-PhoneSlash('PhoneSlash', 'Phone Slash', 'an optional tech label')
+PhoneSlash('PhoneSlash', 'Phone Slash', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

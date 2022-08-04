@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/GlideG')
 
 ' renders the element
-GlideG('GlideG', 'Glide G', 'an optional tech label')
+GlideG('GlideG', 'Glide G', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/GlideG')
 
 ' renders the element
-GlideG('GlideG', 'Glide G', 'an optional tech label')
+GlideG('GlideG', 'Glide G', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

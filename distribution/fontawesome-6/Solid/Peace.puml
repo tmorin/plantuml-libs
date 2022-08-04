@@ -2,18 +2,18 @@
 
 sprite $PeaceXs [10x10/16z] HSQ50S800CJ0mvtiFotK-nfuT0Krwa4HNOJGOwEYddHDesJVH-GUBetY3m
 
-sprite $PeaceSm [12x12/16z] HSQ3WGG10CNGxDYl_shF-4nLfwrl-TOtlbwQAUgbSkVrmuTJFnp-TzCBb1oyn2skNegrE5wwFLKtMEiT
+sprite $PeaceSm [12x12/16z] HSY50S8034JHZpjl_scXtkIyyLxkpMU-ENRGcQ8nbqzgpa-lBOTTxmgKF3c8ZtXtKDoAvq4VtweFZEiV
 
 sprite $PeaceMd [16x16/16z] {
-JSo55SGm30JH2IUcwR_RUvAFrlWD8dDqwy8dtPahjQXDxw4zdCjmOTK6FPW6NL6-FlIm_OnsZpztTGCkTRfwGJDov3C7gQe5dOYBNNLmQYFCeiwQHxhe2Pzg
-ms1cDJC0NW
+JSo55OD054N1XplJVxSvdurTTDRoD5sEBfykhQKH9-lDLLIVMvUEinPVQKxeGhuUcPm_XyluvmjzaWNDXoavLSEpp1tLmHuQQgA7EpDdoWdQcUFZdJdvd7PJ
+h3ggk_vV
 }
 
 sprite $PeaceLg [20x20/16z] {
-NP054iCm30IlO8Rz_syxchc6DZ6jP9HfcvbreM3MHuOBxL0xAOODwA4Sn3L9Aiu_6gBQidDR1Udc5ZJGpMNOJ_SXiF8ntZ3X238bVI73vMv85GHr05zeqIPO
-Mev3StxIs-k4qyTxjcZiAg2W0ol3Q01-mSI93ggVEIdu0G
+NP05jeKm4CM2Kyt-L_lrdcU1McQgX3Bj9oySXh4GVA4yrDpHGb5hL05CxG57yX-De9Euj3UwlRcXHNbpcyvFjwWQfJMkwoDe1rOz5IuDS2jwDtNLadOm4jUI
+_9L5xMJV9NiMbRZR7AEgOzDMLDV7apxWmPrd_a_w1W
 }
 
-!procedure Peace($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Peace', $name, $tech)
+!procedure Peace($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Peace', $name, $tech, $desc)
 !endprocedure

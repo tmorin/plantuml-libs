@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Cheese')
 
 ' renders the element
-Cheese('Cheese', 'Cheese', 'an optional tech label')
+Cheese('Cheese', 'Cheese', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Cheese')
 
 ' renders the element
-Cheese('Cheese', 'Cheese', 'an optional tech label')
+Cheese('Cheese', 'Cheese', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Glide')
 
 ' renders the element
-Glide('Glide', 'Glide', 'an optional tech label')
+Glide('Glide', 'Glide', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Glide')
 
 ' renders the element
-Glide('Glide', 'Glide', 'an optional tech label')
+Glide('Glide', 'Glide', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

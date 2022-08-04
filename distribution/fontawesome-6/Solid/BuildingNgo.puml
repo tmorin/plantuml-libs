@@ -1,16 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/BuildingNgo
 
-sprite $BuildingNgoXs [7x10/16z] O-170GmC3Fn0nC80170fRWO6JZ07NIsS0W
+sprite $BuildingNgoXs [7x10/16z] O-170GmC3Fn0nCG0170fRWO6DZ07NIsS0W
 
-sprite $BuildingNgoSm [9x12/16z] ROor0O1054FVkV_iFoqE5V4gwCRI1-OaD5y5anZaHPkmM98TF2KcBg1_vFuCEA_ViGC
+sprite $BuildingNgoSm [9x12/16z] RSp50O0000B0irlsdzRMb_GBkR7aWtbMzFemAyiKCSmibcGzU2fcIlb7DJw3y_eTEm
 
-sprite $BuildingNgoMd [12x16/16z] VSP70eH024JH8Xc1klzjnwoh-Tt0G_5ktFWszznk2sCc5Pv8nY1D5IIuM5fHSxFQB21xVqKMjoRfKVQzsP2AsZQt-lv_M_mr81-3M-F7Fm
+sprite $BuildingNgoMd [12x16/16z] VSQ50GGX30NHmPtVVxVdjxu3IHv3lzBGgZBpTBRAPSbWErqkCf-cesgx6JBzQUCIIFFrXZJqB3CJh_sqfSDuRZsRltzRjOk1lTFA3m
 
-sprite $BuildingNgoLg [15x20/16z] {
-dOr50W9030DdNTly_xMumubPhILClP3Uecy6OWUm3KNg53P3oiKuXvp3wgbUmyO-TrJAATnPoKUChXnDtrnLLKYtSCzJc8WwqvhyT5QT-WVFxTsBzXwcNs5w
-2_q8
-}
+sprite $BuildingNgoLg [15x20/16z] dSV5OGH040InMkRf_AErZvdr4rqNmcQlDCG4reGaLSAcMV9niItR9lDvtx9fP4RIfjFBMNNEvDtIFLWT5F67phgfXrrJb8Ma4Rf-OJvU5iZNzOyQhch_
 
-!procedure BuildingNgo($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BuildingNgo', $name, $tech)
+!procedure BuildingNgo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BuildingNgo', $name, $tech, $desc)
 !endprocedure

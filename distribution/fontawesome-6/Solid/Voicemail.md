@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Voicemail')
 
 ' renders the element
-Voicemail('Voicemail', 'Voicemail', 'an optional tech label')
+Voicemail('Voicemail', 'Voicemail', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Voicemail')
 
 ' renders the element
-Voicemail('Voicemail', 'Voicemail', 'an optional tech label')
+Voicemail('Voicemail', 'Voicemail', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

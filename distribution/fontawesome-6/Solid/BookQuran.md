@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BookQuran')
 
 ' renders the element
-BookQuran('BookQuran', 'Book Quran', 'an optional tech label')
+BookQuran('BookQuran', 'Book Quran', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BookQuran')
 
 ' renders the element
-BookQuran('BookQuran', 'Book Quran', 'an optional tech label')
+BookQuran('BookQuran', 'Book Quran', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

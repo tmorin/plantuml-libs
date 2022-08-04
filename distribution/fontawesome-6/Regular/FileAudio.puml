@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Regular/FileAudio
 
-sprite $FileAudioXs [7x10/16z] 9OW70W0X2CDoqst__riP2hG9idUnWQP74RAmd14KYp_2_CvO5jmcn-hsT
+sprite $FileAudioXs [7x10/16z] 9OY50G0X30Fl5IVxRqkzaKCs5nluTIbCRhGPnclsXndVQSkCs-1OtKO7
 
-sprite $FileAudioSm [9x12/16z] LSR10K0008NG0F1f_sq1K9T7t0h4lky7nG4er1_s_WZDZaLnXygy0zpViMVhrGe
+sprite $FileAudioSm [9x12/16z] NOh50O1G08MmM_QVrlONfnUmggwmEWp3g3XmeHO1yh3It65Nl8FATWSG4xdtumG
 
-sprite $FileAudioMd [12x16/16z] TSor0S0m4C106Pk0zfysp233N_LKbrgOkGNANATUxURsOb9AgzVUJeIoEcR1rVEZIwSDwqIYyBiJpqO
+sprite $FileAudioMd [12x16/16z] TSor0S100810Nfi8-qyRTw6w2gfBBInS0sMkKwzsStin8OJLQsz7GbeTi-1g5RfmsjKWGVXzuja8
 
-sprite $FileAudioLg [15x20/16z] ZOt50SKm3CLK34VxJ_kPiRhPZnYxPoh0w9qHkWCdL46vduxFfzzEKafTvKxTTXRYSZi7PVLoPbLmVZfhV3gTRbLTejnE5gRXmswnvnjArpjf3m
+sprite $FileAudioLg [15x20/16z] ZOw50GCn30CLPcl_QTjdfWkQ1IqSgUZGNEbCeSB0Q7TdDNamUMSYfIGRiwDyCmkYMKqIZfEP9q5sPzQuZvgbLeZ0JMS7eoxc5afU827SaFu
 
-!procedure FileAudio($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Regular/FileAudio', $name, $tech)
+!procedure FileAudio($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/FileAudio', $name, $tech, $desc)
 !endprocedure

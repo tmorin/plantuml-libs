@@ -2,15 +2,15 @@
 
 sprite $TowerObservationXs [10x10/16z] FSl50G0X44FHh2ly_gj50-yo6bLH7PKRjt2U9-_SrKv86qu8TpjgtUFTov01
 
-sprite $TowerObservationSm [12x12/16z] NSg30S0m54NHLxjt_sbZd-1JmQyCvo-PzuPyTSwGBqGQSfq-n5G_cpxsaFFZF34_wZvk_ldyex8
+sprite $TowerObservationSm [12x12/16z] NSQ50S0m3CJ0BtEr_xHXLcBx5FgLm_LdXTxWPPxdCtWYfi4w_OdKpwQF9PWVrnDzu8jcr-VzKRC
 
-sprite $TowerObservationMd [16x16/16z] NSv7bWCX3411xCv1gllVTaOFhLp4puenVNAKzeKSRT7YKtb1guULSot9AAzy2qjtwtv-Ufps_vtHmbjjwuOlhkvPNz5_vyR6x1NdIBCZ4X6XzZUrzWS
+sprite $TowerObservationMd [16x16/16z] NSx50S0m3CLGb_5R-qzR32luRhQ_plyt2C2pGlguaNlTmzg_-MyxyVCDkk1GyD7OLkRd1Wk9ytCV3630bjm1Xf9tO88yxshERya1ITzzEdKt
 
 sprite $TowerObservationLg [20x20/16z] {
-ZSg54SGm00In2tFKVxNFZ95vnxbgroBFMbYgt3MkYiS_LykvyXHFRMQjJngqEK5xqZFcsgwsjoONFJceIAvcSj1GvmgA3EXonS8COwweQsIsNbD53VF0jGqm
-19TMb2NqPLckE1mPlVlKzW
+ZSx50KGX40JHHhy1bN-qwxrkTNp8Z5mTUge0zF0Wpf9njxlmW2ThCEAf16JvOZqrmogR-z-ABisWGmaar-2oUfG325g0wSuwD8-mnGoeCKm93WHj0Ti2i0Ym
+XG0mXn0644FGocllR0y
 }
 
-!procedure TowerObservation($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TowerObservation', $name, $tech)
+!procedure TowerObservation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TowerObservation', $name, $tech, $desc)
 !endprocedure

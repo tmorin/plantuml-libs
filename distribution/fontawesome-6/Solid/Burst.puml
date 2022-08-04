@@ -2,15 +2,15 @@
 
 sprite $BurstXs [10x10/16z] NScr0GH100GWNfELwR_QSoVb3Hsa4T0oUTKFie0icfuThyTsv5-Z1mYC
 
-sprite $BurstSm [12x12/16z] JOk50G0n309ftlNsdxPkLua0vXJvbN34QYZpW_ivP6cWKboP5B6VDjIkkexQBLDuQZbJl-gBXXCLIWq
+sprite $BurstSm [12x12/16z] 9Sg50G0X40F1VLUI_gl5CiZfkj29OR5WDPFiHJwPxCZM962LGoGBE1qhdIDft81NId-tYSG6
 
-sprite $BurstMd [16x16/16z] LSpL0SKm5CDGbJdQVze73P-_2_Puy0f4XmBSGgHke7Up28FATF6tQJR4AZDUWqPNR6vjmHvSLZj_Pj0tJBd-QHukdm6LISVt0T0D6CasYRu
+sprite $BurstMd [16x16/16z] LSg53SH04CLGXpdklzg3qU8JVXWFmWlXK81J4dK3FPlYHMMu-Diq8xnc44pYVzfQNtlzOUFFZ72RZNb-ciFb4nsZakbAQytJ5m
 
 sprite $BurstLg [20x20/16z] {
-PStN0OGm3C1GKU-0EDf_Mdhd9RO_LIOsLUQGj6OHDXpKsEx0eNPMhuTJE1kS5IGhLjxLUz4RTeEduQpSH05L-DPdlsW6dxgIMU4fs7LUs7cJMVNkmbd9Gcr9
-AcHDBD9_xm1bQhbenrjloMu2
+PStLeS0W50JHYHim_LSRHPwSpokxVU3J9OgW0uzeJw56RdfG3DvwHfKgUZkyTGI7-jsCkL4RiiEizOpQHA2B_hKd_wC__6th_XH7iis6J9l4QpUBthfoDXDK
+I1fuX3LlW2vCDBhnrsv7TW4
 }
 
-!procedure Burst($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Burst', $name, $tech)
+!procedure Burst($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Burst', $name, $tech, $desc)
 !endprocedure

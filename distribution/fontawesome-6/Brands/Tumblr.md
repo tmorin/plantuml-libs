@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Tumblr')
 
 ' renders the element
-Tumblr('Tumblr', 'Tumblr', 'an optional tech label')
+Tumblr('Tumblr', 'Tumblr', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Tumblr')
 
 ' renders the element
-Tumblr('Tumblr', 'Tumblr', 'an optional tech label')
+Tumblr('Tumblr', 'Tumblr', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,12 +2,12 @@
 
 sprite $DesktopXs [11x10/16z] O-372lWOe80m4pjWu0G2VduG2LJ4nStFpyN5m
 
-sprite $DesktopSm [13x12/16z] O-1703v-LC001sHnS0Ds35iO4Jfv8C9C30m
+sprite $DesktopSm [13x12/16z] O-1703v-LC001sHnS0DsJ5iGEdaWmemC3
 
-sprite $DesktopMd [17x16/16z] O-3ZHm4SlFmOW8KP2N011HWPa007hGJua04_4O0TNO212UnaFfWNO5O0fNWHTY7y3kG
+sprite $DesktopMd [17x16/16z] jSY35S1000JHZPtflzhOnjr_MAXa9IxOyTo55D1IREiebtWWOaDEfmI_Ane0XIQCOaar
 
-sprite $DesktopLg [22x20/16z] pSZ50O1G50Emul3bTVzfSNU770F5AK_n2C68y-zbE1Bn1X7dm4ygbcHIGukv47skKfe5fHHQbXqVkGm
+sprite $DesktopLg [22x20/16z] pSwr0O0034JHu13TVrhStU5rzwi3j2aFxGY5iNzNyqO2kq4qMy5FAfAFf3Qy4qAVYqXMGCIkYdMy8cG
 
-!procedure Desktop($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Desktop', $name, $tech)
+!procedure Desktop($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Desktop', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SquareH')
 
 ' renders the element
-SquareH('SquareH', 'Square H', 'an optional tech label')
+SquareH('SquareH', 'Square H', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SquareH')
 
 ' renders the element
-SquareH('SquareH', 'Square H', 'an optional tech label')
+SquareH('SquareH', 'Square H', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

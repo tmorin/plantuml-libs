@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Centercode')
 
 ' renders the element
-Centercode('Centercode', 'Centercode', 'an optional tech label')
+Centercode('Centercode', 'Centercode', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Centercode')
 
 ' renders the element
-Centercode('Centercode', 'Centercode', 'an optional tech label')
+Centercode('Centercode', 'Centercode', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

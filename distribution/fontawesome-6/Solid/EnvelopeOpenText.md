@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/EnvelopeOpenText')
 
 ' renders the element
-EnvelopeOpenText('EnvelopeOpenText', 'Envelope Open Text', 'an optional tech label')
+EnvelopeOpenText('EnvelopeOpenText', 'Envelope Open Text', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/EnvelopeOpenText')
 
 ' renders the element
-EnvelopeOpenText('EnvelopeOpenText', 'Envelope Open Text', 'an optional tech label')
+EnvelopeOpenText('EnvelopeOpenText', 'Envelope Open Text', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

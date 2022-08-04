@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TrashCanArrowUp')
 
 ' renders the element
-TrashCanArrowUp('TrashCanArrowUp', 'Trash Can Arrow Up', 'an optional tech label')
+TrashCanArrowUp('TrashCanArrowUp', 'Trash Can Arrow Up', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TrashCanArrowUp')
 
 ' renders the element
-TrashCanArrowUp('TrashCanArrowUp', 'Trash Can Arrow Up', 'an optional tech label')
+TrashCanArrowUp('TrashCanArrowUp', 'Trash Can Arrow Up', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

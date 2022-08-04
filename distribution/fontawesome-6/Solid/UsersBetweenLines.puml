@@ -2,18 +2,15 @@
 
 sprite $UsersBetweenLinesXs [12x10/16z] LS650G81002XirlsdzRyXArPAsTjb4D5s5BTX9mhZjMTuWeNz07wktprSPsz0G
 
-sprite $UsersBetweenLinesSm [15x12/16z] POm54WD12C1oli8s__zj1yOgmNNt2zeNm9ws0MaqPUcDNi1Kj5mZwujNJf-HbPa2eL7LTQfkImSj0WiYwlTbmJ_DBzu
+sprite $UsersBetweenLinesSm [15x12/16z] PSor0KCn303H-snGSljFQwe2hn5hzmlF5tubvQKtUW1LSK0Jixvup-bJ69pf41ghkavrFIYa25o8s1XE5_ubltG
 
-sprite $UsersBetweenLinesMd [20x16/16z] {
-TS-50GCX44JHGS_v_LSRsOdBmvtDV9lvfZ_MHLBVghiXjXz05t0yvtZKCRV38kwx5uMKf0uaT-NHK6Z4YbkbVOonAIA8soWTIuitbbB4dKh9ibzXfMBwQ_3j
-3
-}
+sprite $UsersBetweenLinesMd [20x16/16z] TSy30W0X50JGMRFc_gVDnilkh-pTx67YVKnrVcleMZGWJ7NQhiXpJ3Midtp2dB3Tv2HPZwJl7ZHo-qifFwnXOEhre8V7RrpN5OpCQ84t36lnC2NPqm
 
 sprite $UsersBetweenLinesLg [25x20/16z] {
-dS-35KGn54NHynddzb_j81fpBuHFivxBKI_mbrNQWIWPm4iJnQIJcQIJ7JCArAr7HNrVE9lBTbA1hH4zn54Z8iGQKFN0nBKoOw2QibIxG-r-FzkOUigzrZHg
-flhIUreq4AwB1GtxVGETuORh39_uvrpI2qS
+dS_50O0m50FGKFViFotk3k_MVXSyLn8lu1T56W29j002MQ5NiIMGsJBGom39bWDxGrmi5R9Y3tQraYKzXehKZv9O38KPQucjE8KBEMm7SlYN7R6qbClCNZL4
+fYi4PuZhON49oEC20uKDFx5u4ixvp0iD
 }
 
-!procedure UsersBetweenLines($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/UsersBetweenLines', $name, $tech)
+!procedure UsersBetweenLines($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/UsersBetweenLines', $name, $tech, $desc)
 !endprocedure

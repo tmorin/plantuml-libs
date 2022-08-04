@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Superscript')
 
 ' renders the element
-Superscript('Superscript', 'Superscript', 'an optional tech label')
+Superscript('Superscript', 'Superscript', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Superscript')
 
 ' renders the element
-Superscript('Superscript', 'Superscript', 'an optional tech label')
+Superscript('Superscript', 'Superscript', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

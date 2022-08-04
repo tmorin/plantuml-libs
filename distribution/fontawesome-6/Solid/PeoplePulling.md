@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PeoplePulling')
 
 ' renders the element
-PeoplePulling('PeoplePulling', 'People Pulling', 'an optional tech label')
+PeoplePulling('PeoplePulling', 'People Pulling', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PeoplePulling')
 
 ' renders the element
-PeoplePulling('PeoplePulling', 'People Pulling', 'an optional tech label')
+PeoplePulling('PeoplePulling', 'People Pulling', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

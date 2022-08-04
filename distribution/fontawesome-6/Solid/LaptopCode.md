@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/LaptopCode')
 
 ' renders the element
-LaptopCode('LaptopCode', 'Laptop Code', 'an optional tech label')
+LaptopCode('LaptopCode', 'Laptop Code', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/LaptopCode')
 
 ' renders the element
-LaptopCode('LaptopCode', 'Laptop Code', 'an optional tech label')
+LaptopCode('LaptopCode', 'Laptop Code', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

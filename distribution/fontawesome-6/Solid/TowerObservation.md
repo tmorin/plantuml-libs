@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TowerObservation')
 
 ' renders the element
-TowerObservation('TowerObservation', 'Tower Observation', 'an optional tech label')
+TowerObservation('TowerObservation', 'Tower Observation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TowerObservation')
 
 ' renders the element
-TowerObservation('TowerObservation', 'Tower Observation', 'an optional tech label')
+TowerObservation('TowerObservation', 'Tower Observation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MarsStrokeUp')
 
 ' renders the element
-MarsStrokeUp('MarsStrokeUp', 'Mars Stroke Up', 'an optional tech label')
+MarsStrokeUp('MarsStrokeUp', 'Mars Stroke Up', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MarsStrokeUp')
 
 ' renders the element
-MarsStrokeUp('MarsStrokeUp', 'Mars Stroke Up', 'an optional tech label')
+MarsStrokeUp('MarsStrokeUp', 'Mars Stroke Up', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

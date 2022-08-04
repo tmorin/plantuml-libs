@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ListCheck')
 
 ' renders the element
-ListCheck('ListCheck', 'List Check', 'an optional tech label')
+ListCheck('ListCheck', 'List Check', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ListCheck')
 
 ' renders the element
-ListCheck('ListCheck', 'List Check', 'an optional tech label')
+ListCheck('ListCheck', 'List Check', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

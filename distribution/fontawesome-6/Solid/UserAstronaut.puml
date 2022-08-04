@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/UserAstronaut
 
-sprite $UserAstronautXs [8x10/16z] FSV50OC0002nrBst_xGu_1AS0rK_UgENnELzN5LmxsHhV_LwlITKNZK2
+sprite $UserAstronautXs [8x10/16z] FSV50S0m0810wbxsdpQUt0k0MJAJ3xm1BqHOxl6OaUoIMFpeTTqfL2wD
 
-sprite $UserAstronautSm [10x12/16z] 7SR50S0m0CGmb-aQxpzjI2_HNMvC3ZD_4WEFd83BsClSBjqci3emQQ5RzDnk1OVXq1M80uLSsW
+sprite $UserAstronautSm [10x12/16z] DSZ50G9044Mnu3RiwxzQd5o-mAcTZzwW-ymqNB97dtP5x8DjsFJcevRlTToSY_uEjSNqPfb3FG4
 
-sprite $UserAstronautMd [14x16/16z] HOe70iGW40AnT_d_Rq_MIpBMOO4nMV6mAVw-UCctLO8OxCSu4258CxV7PuJxPfxrBnPM2ecHJN2PyTI1NYJAzxHRyj4ToHKEKQfAg431L2wR3Z3x0G
+sprite $UserAstronautMd [14x16/16z] JSg55S0W40JHYJlRVxTXyPyWmpkmLoTLa9N-bErvQfljqGteOS6aNE7fvQqLEeVWL4QsZV7ECC5zE1I5D-sExfuaVLCqEpqo7N3m-jtr4hb-
 
 sprite $UserAstronautLg [17x20/16z] {
-JOzL0a0X40BProdtFwt56lCbirWGD_yTWvULhe9oDoSxDPC_XAb3BbZDppeaTd8RelGsDNu9FqCpFUgfSI7xm3dX_2CxbjNTGz37x7B9cS_t3tOLdZlpbLMu
--oSDCbKyBq2hmrlYqvCp2G
+JSm5ZaDH34DHjnyVtltlTgAn4lK80xQiiIwf3FxLQcEvkIbIW2Nx-0S--cJNxSK5v-_YqDSloulga3lqqhDJHdeaMpcNJwoQqcOTxkBDXZ8pNqu_z1OcOJU2
+p1k2UfVuD4BBHMY4Fm
 }
 
-!procedure UserAstronaut($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/UserAstronaut', $name, $tech)
+!procedure UserAstronaut($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/UserAstronaut', $name, $tech, $desc)
 !endprocedure

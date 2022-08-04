@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Blog')
 
 ' renders the element
-Blog('Blog', 'Blog', 'an optional tech label')
+Blog('Blog', 'Blog', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Blog')
 
 ' renders the element
-Blog('Blog', 'Blog', 'an optional tech label')
+Blog('Blog', 'Blog', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

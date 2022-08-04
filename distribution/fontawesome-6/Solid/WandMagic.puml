@@ -2,12 +2,12 @@
 
 sprite $WandMagicXs [10x10/16z] Ou027XY3dvyVnc3WHsVm4sJmmFKpm1a
 
-sprite $WandMagicSm [12x12/16z] Ou03VYGcFp-SoGkKW34P-NbW2fWGJ7va9Yy19gesA41Y0W
+sprite $WandMagicSm [12x12/16z] Ou03VYGcFp-SoGkKG31vO0eO4Kn-P2Ol2Q8yS4iGJ
 
-sprite $WandMagicMd [16x16/16z] lSUt0G0X0CIm-np1-szB2Lu0TSge7YfmgoUe2xWSlNzKcDBgvd2Jssq
+sprite $WandMagicMd [16x16/16z] Oq06VAmeN7v-VWuKBYi_FmeNYD6uJ0Wk3meN20XncSdd8epYG-Koi4Au2C21oWK
 
-sprite $WandMagicLg [20x20/16z] nT2d0S103CNGRzChsd_QD7JTCC8FIKEvQAm2fYw-HkKEWt81WpB08aMU5CoAlrMUbGfVFYzJdyrdRm
+sprite $WandMagicLg [20x20/16z] nSef5i103CDG1yyaklzfkpAxl89wNzPkUGFOuibL5PWg0QPiVIjsA4Z5tshdKkUItcNbEW4
 
-!procedure WandMagic($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/WandMagic', $name, $tech)
+!procedure WandMagic($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/WandMagic', $name, $tech, $desc)
 !endprocedure

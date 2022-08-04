@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/EuroSign')
 
 ' renders the element
-EuroSign('EuroSign', 'Euro Sign', 'an optional tech label')
+EuroSign('EuroSign', 'Euro Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/EuroSign')
 
 ' renders the element
-EuroSign('EuroSign', 'Euro Sign', 'an optional tech label')
+EuroSign('EuroSign', 'Euro Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

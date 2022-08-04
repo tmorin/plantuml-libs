@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Ideal')
 
 ' renders the element
-Ideal('Ideal', 'Ideal', 'an optional tech label')
+Ideal('Ideal', 'Ideal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Ideal')
 
 ' renders the element
-Ideal('Ideal', 'Ideal', 'an optional tech label')
+Ideal('Ideal', 'Ideal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

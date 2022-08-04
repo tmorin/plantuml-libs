@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/Person
 
-sprite $PersonXs [6x10/16z] JOI50O1008ImM_QVrlY-0u2RRxEKgI7UeNRTbmESfEqB
+sprite $PersonXs [6x10/16z] JOI50O1008ImM_QVrlY-0u2RRxEKgI7UeNRTbmFifUqB
 
-sprite $PersonSm [7x12/16z] PSN70S103091dBEt_seLdoS18-cUbGV5lUPEpvC0zF8KB-VtmuwKAFW77
+sprite $PersonSm [7x12/16z] POZ50S103CDSvch_QOFF2nWawPwL0sNtKlOypQ2Lf-pb_7xOaD8KzW_c
 
-sprite $PersonMd [9x16/16z] TSR70S0W3C10fVTe_sdfF17OFbBlJcdJYgM3YThnF4k-dwaL9ajWxUpmj_2GAICVy5DolcCy6H4
+sprite $PersonMd [9x16/16z] TOpL0O1G30DnXzj_sde_kIVLP32URGXMo6IqfBAAotr7-c8ibX1qPE-4ZqXtQYaiUCkHvp-vFL4
 
-sprite $PersonLg [12x20/16z] dSwr0S0W443Hmvs__xO9MgNAg-1SXj3biC1v-_4-Eaa-X5AoEHL37C_8ejutMnUf75QWtGnu1WCAvHYaZAFsUnXlz_UjmSpt0m
+sprite $PersonLg [12x20/16z] dSw53SGm341HkzpGtt_RaqbueZvHOXPpBoaRKE_BtcNno1z7xqshmdZLGx0tQOaCoYumIGjEp0QA7XZfTbI-ZRsthsy5zVSF
 
-!procedure Person($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Person', $name, $tech)
+!procedure Person($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Person', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Lock')
 
 ' renders the element
-Lock('Lock', 'Lock', 'an optional tech label')
+Lock('Lock', 'Lock', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Lock')
 
 ' renders the element
-Lock('Lock', 'Lock', 'an optional tech label')
+Lock('Lock', 'Lock', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

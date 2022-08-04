@@ -2,15 +2,15 @@
 
 sprite $SinkXs [10x10/16z] HSQr0S0m44MnVqrYVljFQmPLqeHf1yv4E1j2cFE_P46CS-dXkFiR
 
-sprite $SinkSm [12x12/16z] JOlL0G0X04AvFfFzfxL5tnU9JhIOi22DQ-gZY4jwJcFJR7SMtVRS-Fq2JbXGE5pIo
+sprite $SinkSm [12x12/16z] JShN0S0W409G4dlVVrgxwFkw0x1aZwDqlF7jUnuVxpFDyoxPd_5y7pPU2EHHA43mHWC
 
-sprite $SinkMd [16x16/16z] LSpL0SLG3CDGbV5Q-q_x69hp5x3vsfsuK6tyR6RGZg_OSJgKcO4oVzKvQl-QDp-D3fy-O4bYuaiIhHWgzkEgetdLCPGPoiF87G
+sprite $SinkMd [16x16/16z] LOor0S000CAeE_d_shgH3TN3IACV0CidErp2fqsXcIAq2gM-IMtWqWFt8yNz9wcpZSs9RKXK9XgdFzAITLMfir1h0m
 
 sprite $SinkLg [20x20/16z] {
-ROw50G0X30FpbkBPVzftXyCFQ8i7K-xmHHlkexnsViyIEic-pczJg5m_e78FbUj22FvsmNi3k9TrkgUSJk5qXnX8cX8f9JE9AsfGL8CMK_m3iF5rR3ZybM4b
-VvG75W
+RP250S0m2C1WZlz_xLmPgQSEF8nX25zYO_eeYfsqJBTg_3hQAluvHCZkGtRCJBTZelMMTd_MwPxdOF3jzd7RjcDesyPHjIjHu8M3YaOovrlIrgPmaDKUBVie
+0bW
 }
 
-!procedure Sink($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Sink', $name, $tech)
+!procedure Sink($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Sink', $name, $tech, $desc)
 !endprocedure

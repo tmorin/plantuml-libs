@@ -2,15 +2,15 @@
 
 sprite $AccessibleIconXs [8x10/16z] FOe54S1040DJvgv_jp_769BNRGTin0QJh32ggPu1P1Z5VzMyOWC
 
-sprite $AccessibleIconSm [10x12/16z] BSR5WSG0000XufxflzhJvOMFOEfGEqjtpU4yLC3zcJuPxcUeIYlgJZ1N6h3LvGvDvqJLWcy
+sprite $AccessibleIconSm [10x12/16z] DSor0GD00810tltPVzfugAw2Nm841zeXkpKBp8xAf_sNV-mJLCKAwFO_ygUcYorWc05K2_04
 
-sprite $AccessibleIconMd [14x16/16z] JSx50O1034JH18V8xxzQV6LEyrOZDShmbK15W1S9M17a0goRFaf_Zp4-A6Sfy0VQRM2M-GZ6aJU7pFo7buL5ocrYOspYG9lSRoqS3up9-0TRKxp_szvw0G
+sprite $AccessibleIconMd [14x16/16z] JSw50G0X241HxFRlF-sbdSy2sGNzpuqNyA43PGgw0OBxZ-ft3VLYtcMYJim3Icxz5HZ3Lx8uncLly38Vq1ncYunirOg89xyewCAVc7DTwXcxVCiR
 
 sprite $AccessibleIconLg [17x20/16z] {
-LSn5OaCn303H-MoU-v-sOAjDyZPYyQvNmbqtG6rCMQsW6lLqPRtdldQAAijkXUGy-tUeSH1BdmjDrKx8Bdse6nox7djrkS1dYpVjqODit2P5DvedYwBGFLXq
-LwWcfbrFXKkPXdNbEdROpbjuTW2NZNz5jKVZ6m
+JSk5ZKKX503HGVupPFhlTeE4x46lyLyhRBa4GArChrf0zSHgVlKQyKyRdofBiC2jMZYImtNYwF2Tk3eqjjkbTNMC1qsnk2JmPWXQaqPUsvb40zN8eYWqsJGe
+51-ce55XN5FtImfe3q2wX3n-k0IEJxNjn1y
 }
 
-!procedure AccessibleIcon($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/AccessibleIcon', $name, $tech)
+!procedure AccessibleIcon($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/AccessibleIcon', $name, $tech, $desc)
 !endprocedure

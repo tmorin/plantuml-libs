@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowTurnUp')
 
 ' renders the element
-ArrowTurnUp('ArrowTurnUp', 'Arrow Turn Up', 'an optional tech label')
+ArrowTurnUp('ArrowTurnUp', 'Arrow Turn Up', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowTurnUp')
 
 ' renders the element
-ArrowTurnUp('ArrowTurnUp', 'Arrow Turn Up', 'an optional tech label')
+ArrowTurnUp('ArrowTurnUp', 'Arrow Turn Up', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

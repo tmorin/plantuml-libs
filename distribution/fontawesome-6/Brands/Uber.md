@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Uber')
 
 ' renders the element
-Uber('Uber', 'Uber', 'an optional tech label')
+Uber('Uber', 'Uber', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Uber')
 
 ' renders the element
-Uber('Uber', 'Uber', 'an optional tech label')
+Uber('Uber', 'Uber', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -1,19 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/HeartCircleCheck
 
-sprite $HeartCircleCheckXs [11x10/16z] JSgd0GDH5C0mfpqOxR_jeLz4xIx3XChItz80jOOmXLc5vANAbzVwt_
+sprite $HeartCircleCheckXs [11x10/16z] JSgd0GCn0C10VJFCxRzjaCjHgSDWXChKpzG0QWvX59vPI2vLRgxvN_07
 
-sprite $HeartCircleCheckSm [13x12/16z] LOo50G0n20E1l4kp_xHrFLnbXNGY9safJxZaa5eTSNE1bcHgdfoM2drS1p_oRYv4wo6twOjU-T82
+sprite $HeartCircleCheckSm [13x12/16z] LOe55W0X44BPJkN-j_M1_OqP0ZDa12vorIwYlbLM0t4KMrqCZKTHMujB41O9M7Y8LZCtl2S
 
-sprite $HeartCircleCheckMd [17x16/16z] {
-RS-50GCX44JHZplJVxMnZTyzt5bEj9K0wYhSHTqHTES0_O2Y7nxzoWozZH1g1BtWvWh0bi4wxvdKR7w_7hQwI02oYQZYR0ARI0xP1CwE5BqcyEfU3uKN2wzo
-1G
-}
+sprite $HeartCircleCheckMd [17x16/16z] RSY52KH140JH-h8kdN-snz1m_bQd-AEj151N8TmA77u0VO2Y3mVwT3FqDA2Uy9mvnho0BSEVPxcQ-mOKV2S9G0wN2Wuu97zmYN_MCnngXnGAJrVCbGS
 
 sprite $HeartCircleCheckLg [22x20/16z] {
-TSs55SGm30JHDREt_sxloL5q_CCJ0_vAEU88EK5bYWnuYW5HUMc9GZE_1A3mom0sl-plkhVK_9OWtFjk6NcHmqEtqsWlGBFfaoe263RKmBBhMifLiSwNN8Dm
-r7fMb5i70grYaz6J78vQDG_mLd4ZuQdmnYqT-G
+TSs5TSGm50NHCOjV_ztcV66Mndmju6VxiLFRnWlSicxOPSM9bZ-bnVfeX-TJ8vHFBPzQYkdzGbZRwsudLvQYwJFnPhw0dzEJUWSGnwjcJ2PqUPgIwvTTKMpg
+MbUqMy1mA4NQTqcnefWSqUXc95knnsnj-y0V
 }
 
-!procedure HeartCircleCheck($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HeartCircleCheck', $name, $tech)
+!procedure HeartCircleCheck($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HeartCircleCheck', $name, $tech, $desc)
 !endprocedure

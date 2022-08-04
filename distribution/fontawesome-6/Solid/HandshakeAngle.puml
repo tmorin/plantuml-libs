@@ -1,19 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/HandshakeAngle
 
-sprite $HandshakeAngleXs [12x10/16z] FSR50OC0002ngtkp_xGuv9KEdsCu0fKy9zH7mlLVv8GAmgKkDbKSxKIR4G
+sprite $HandshakeAngleXs [12x10/16z] HOl50S1G24DJzxxzf_qEv1ANut45kA0Rn5bGzKDrCFyIG_TjZwM5ECfbDnh8
 
-sprite $HandshakeAngleSm [15x12/16z] JSUr0GD10C0mX_Fe_QSz9dLYSR1ugLItrPlaWnrmY7-IPwcv9YyVy5BybW8cVpxg1LmE9ydOHlQpeTAB8G8
+sprite $HandshakeAngleSm [15x12/16z] HSl50GH14CD07Io3yezs6EhLOCDqmVHJgLwhFy22DhaYBW0V1SohwjTsyrTMG7KdVn_WSRW1j3d8DXkgMceY
 
-sprite $HandshakeAngleMd [20x16/16z] {
-NSn50e0m44FHKC7Xt_-qIBrzovaa6XnE0m-eSiTvyZlBXMhIRnAj69e06spfHhZf-kdcahIa6pzxXha3pC4znLlOpxCN7wTGZ6vgRAMZO3W5biehuUVCPr8s
-mQRE2m
-}
+sprite $HandshakeAngleMd [20x16/16z] NSe53e0008LGx9RxtzPzMz-QmSzKyzEeFEffdetvBZuuwI_MfXMxuMoQnXAiBa1tDgESYKdBoVLiX04igdLAvs7rsNe_8Fuf2XyD9wFYImS-DW
 
 sprite $HandshakeAngleLg [25x20/16z] {
-RT3L0O0m54FHuFNiFotswktv8nV7XDMOkKWU6ApyDMS65bVPFHk85DYoiZDyGGbTBWaIiAoV1IcSZC7ojruC-B0Bsx4X1IAGS1BYVCZ1ejP5TYLxeBYmKwHz
-864RTZV_5TpAxsm4P2uk_cDGuMV1I94d1Wy
+RT350OL0303HmJtJVxLVSDXzrtZ8c0PoEhKYKRfwP8QNZjFY0xiUdoPM1cg_6QwIs09Gh3W2hNkWTrMq1d--0cLJS0Gab7aFt4ygwGjSzQpYFAbsmofCiAfy
+c_Eli6HN-12SPbUn_8tS-5UGQhKbyGK
 }
 
-!procedure HandshakeAngle($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HandshakeAngle', $name, $tech)
+!procedure HandshakeAngle($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HandshakeAngle', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Disease')
 
 ' renders the element
-Disease('Disease', 'Disease', 'an optional tech label')
+Disease('Disease', 'Disease', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Disease')
 
 ' renders the element
-Disease('Disease', 'Disease', 'an optional tech label')
+Disease('Disease', 'Disease', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

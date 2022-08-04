@@ -2,15 +2,15 @@
 
 sprite $ParachuteBoxXs [10x10/16z] NSYt5G0n3CDGwc9dxB-j7r7wAoj5n00zk453gD-tjHoOROtwWEW_jmq
 
-sprite $ParachuteBoxSm [12x12/16z] TOR50OH00CG2wvh-gpsN5wC180WlfRJKk0x8ubC8xlPXgtE-E2Yf0txQCWZx19W1wOcNL0T_dXSyW3i
+sprite $ParachuteBoxSm [12x12/16z] LSg30G0n44JH7plJVxLdlc39pefJ24EI6q0KsY7GB5UkhDwFt4Y40kXw9Hvniki6KGC7RHfltd_vVsS5
 
-sprite $ParachuteBoxMd [16x16/16z] ZSZL0KGX30NH-mmDcVwxNVH_3phHadbqt5LqJQuX8MT87vVqOZUBG8AOJpl-mMiiZurPqztHZsu-YQmETHxdD-pseebdTZLjLCDgqr4PBXt6yFpTcK733m
+sprite $ParachuteBoxMd [16x16/16z] ZSUt5KCn3C10_9meOlzj_PHwNtTqZolJyg5QIAfRqkfO1NPZiKD1zsS-pKFNi5j2oK8bbGTuCvyNWETulZGkxLym-8Nn5QRFQc4Ag_NlFrPKFm
 
 sprite $ParachuteBoxLg [20x20/16z] {
-hSk5SS1044DH-PX__zqcHx4Bo1lQMKcwAa4VJrPaUapI5Z4FcpAQ4eWZFiod0-kun7oEjRXKLtaTbuc0XwxIUn_qNzOFXaJHvD4oNtf8dnzDaoNy_GRQFExy
-sj0LCEjNq2knFNe5Ddt4V_w9fMhv0G
+hSl50K8n44NHzosUkVrt2p5yoOcEQSaulOgwQBG53PvjOr14JG0nUT6IEnmxYsX9wnEBCbpR_4oR1oweIhLMezvjbs4IISsEEgpVuIL7KRFX7Zb3myKvSyMq
+EBQUI-WfCEY5-v7pVyw9Bgkx0G
 }
 
-!procedure ParachuteBox($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ParachuteBox', $name, $tech)
+!procedure ParachuteBox($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ParachuteBox', $name, $tech, $desc)
 !endprocedure

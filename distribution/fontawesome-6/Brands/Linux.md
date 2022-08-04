@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Linux')
 
 ' renders the element
-Linux('Linux', 'Linux', 'an optional tech label')
+Linux('Linux', 'Linux', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Linux')
 
 ' renders the element
-Linux('Linux', 'Linux', 'an optional tech label')
+Linux('Linux', 'Linux', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MaskFace')
 
 ' renders the element
-MaskFace('MaskFace', 'Mask Face', 'an optional tech label')
+MaskFace('MaskFace', 'Mask Face', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MaskFace')
 
 ' renders the element
-MaskFace('MaskFace', 'Mask Face', 'an optional tech label')
+MaskFace('MaskFace', 'Mask Face', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

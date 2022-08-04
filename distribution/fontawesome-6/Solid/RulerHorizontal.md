@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/RulerHorizontal')
 
 ' renders the element
-RulerHorizontal('RulerHorizontal', 'Ruler Horizontal', 'an optional tech label')
+RulerHorizontal('RulerHorizontal', 'Ruler Horizontal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/RulerHorizontal')
 
 ' renders the element
-RulerHorizontal('RulerHorizontal', 'Ruler Horizontal', 'an optional tech label')
+RulerHorizontal('RulerHorizontal', 'Ruler Horizontal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/VirusCovidSlash')
 
 ' renders the element
-VirusCovidSlash('VirusCovidSlash', 'Virus Covid Slash', 'an optional tech label')
+VirusCovidSlash('VirusCovidSlash', 'Virus Covid Slash', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/VirusCovidSlash')
 
 ' renders the element
-VirusCovidSlash('VirusCovidSlash', 'Virus Covid Slash', 'an optional tech label')
+VirusCovidSlash('VirusCovidSlash', 'Virus Covid Slash', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

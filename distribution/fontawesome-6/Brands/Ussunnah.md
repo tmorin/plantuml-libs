@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Ussunnah')
 
 ' renders the element
-Ussunnah('Ussunnah', 'Ussunnah', 'an optional tech label')
+Ussunnah('Ussunnah', 'Ussunnah', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Ussunnah')
 
 ' renders the element
-Ussunnah('Ussunnah', 'Ussunnah', 'an optional tech label')
+Ussunnah('Ussunnah', 'Ussunnah', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

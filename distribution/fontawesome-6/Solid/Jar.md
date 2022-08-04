@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Jar')
 
 ' renders the element
-Jar('Jar', 'Jar', 'an optional tech label')
+Jar('Jar', 'Jar', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Jar')
 
 ' renders the element
-Jar('Jar', 'Jar', 'an optional tech label')
+Jar('Jar', 'Jar', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

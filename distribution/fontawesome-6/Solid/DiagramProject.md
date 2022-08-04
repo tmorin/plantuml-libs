@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/DiagramProject')
 
 ' renders the element
-DiagramProject('DiagramProject', 'Diagram Project', 'an optional tech label')
+DiagramProject('DiagramProject', 'Diagram Project', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/DiagramProject')
 
 ' renders the element
-DiagramProject('DiagramProject', 'Diagram Project', 'an optional tech label')
+DiagramProject('DiagramProject', 'Diagram Project', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

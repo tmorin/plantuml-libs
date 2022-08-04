@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Airbnb')
 
 ' renders the element
-Airbnb('Airbnb', 'Airbnb', 'an optional tech label')
+Airbnb('Airbnb', 'Airbnb', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Airbnb')
 
 ' renders the element
-Airbnb('Airbnb', 'Airbnb', 'an optional tech label')
+Airbnb('Airbnb', 'Airbnb', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

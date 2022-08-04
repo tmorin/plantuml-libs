@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Fan')
 
 ' renders the element
-Fan('Fan', 'Fan', 'an optional tech label')
+Fan('Fan', 'Fan', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Fan')
 
 ' renders the element
-Fan('Fan', 'Fan', 'an optional tech label')
+Fan('Fan', 'Fan', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TruckPlane')
 
 ' renders the element
-TruckPlane('TruckPlane', 'Truck Plane', 'an optional tech label')
+TruckPlane('TruckPlane', 'Truck Plane', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TruckPlane')
 
 ' renders the element
-TruckPlane('TruckPlane', 'Truck Plane', 'an optional tech label')
+TruckPlane('TruckPlane', 'Truck Plane', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

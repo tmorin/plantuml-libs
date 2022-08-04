@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BuildingCircleCheck')
 
 ' renders the element
-BuildingCircleCheck('BuildingCircleCheck', 'Building Circle Check', 'an optional tech label')
+BuildingCircleCheck('BuildingCircleCheck', 'Building Circle Check', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BuildingCircleCheck')
 
 ' renders the element
-BuildingCircleCheck('BuildingCircleCheck', 'Building Circle Check', 'an optional tech label')
+BuildingCircleCheck('BuildingCircleCheck', 'Building Circle Check', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

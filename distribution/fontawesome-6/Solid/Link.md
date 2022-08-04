@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Link')
 
 ' renders the element
-Link('Link', 'Link', 'an optional tech label')
+Link('Link', 'Link', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Link')
 
 ' renders the element
-Link('Link', 'Link', 'an optional tech label')
+Link('Link', 'Link', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

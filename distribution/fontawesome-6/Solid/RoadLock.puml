@@ -2,18 +2,18 @@
 
 sprite $RoadLockXs [12x10/16z] LSZ75O0m40DHdKdJVxM0lJd_9yqwGM1ccp3kU-VNZSVQFSok6t3B_9G_
 
-sprite $RoadLockSm [15x12/16z] POl50KCn5CFyCHpjFst9hwoRGVgdWJPO8-A8Ky5493ZUKJj71qaLkqArnrVv7lFKWbbTJ-xa4H7iHjIyezNn2W
+sprite $RoadLockSm [15x12/16z] POgt0SH008FqqTdiF-r5EjD9a2S7v0rl9tCoru8evUUSyUySVdU6xATjVdt-RYTuttJ-brFtTkRkv3Ld1G
 
 sprite $RoadLockMd [20x16/16z] {
-TOq5aWCm30CLkYiutl-_jkI9XjeT5kedzyokM-QIIM0eW8irWAaDSAGh01_96fXxBwa1a0FeBMuVxGRKHxHJnrhRgD6a3kTNYKINWYAvD8WW94odE5Nsmjh6
-7zRc5qsja9goj2S
+TSq74aCX20RX7zEVmDx_jEcsb9tcV2heRpNJj6KU1YLGvC2n6y1E0T3e140m6wEwM1P0vfSdRV3UuMhVwMQ1z323jbVvDkTLSXQuu_FMTcnVYJ8iw3kwxN_O
+LFjp0m
 }
 
 sprite $RoadLockLg [25x20/16z] {
-XSw5eOC05CNGu4xsdxQ2tgyzE4_ve6ZRjeBNlI6LldJW6y6t_dZMqSYt2VnMChXP_1xmgpOwXPg2m-Hc1hL4NQFJiTN2wl8wUQapCA5i5qmP6761LN8dMkKE
-L8QgyW2cilajq0mPQ3qDa85QOwi8iFuHIBdZ4m
+XOu50WKX24J7rgsv_sct0_Ynp_Q1WZT226wVFIIUAmNW1WJSgESQhUW1cfJ2dP5MK1EiiDVekJFi4NwR9fMmLpLYuhXsh7Wf-dLW7q0lHS4MFL5zZRoEHmGA
+lBkZG0dID-6h4EAb1aZXRr6rmFH36Ewg5W
 }
 
-!procedure RoadLock($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/RoadLock', $name, $tech)
+!procedure RoadLock($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/RoadLock', $name, $tech, $desc)
 !endprocedure

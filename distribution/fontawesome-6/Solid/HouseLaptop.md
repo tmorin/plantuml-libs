@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HouseLaptop')
 
 ' renders the element
-HouseLaptop('HouseLaptop', 'House Laptop', 'an optional tech label')
+HouseLaptop('HouseLaptop', 'House Laptop', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HouseLaptop')
 
 ' renders the element
-HouseLaptop('HouseLaptop', 'House Laptop', 'an optional tech label')
+HouseLaptop('HouseLaptop', 'House Laptop', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/LandmarkFlag')
 
 ' renders the element
-LandmarkFlag('LandmarkFlag', 'Landmark Flag', 'an optional tech label')
+LandmarkFlag('LandmarkFlag', 'Landmark Flag', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/LandmarkFlag')
 
 ' renders the element
-LandmarkFlag('LandmarkFlag', 'Landmark Flag', 'an optional tech label')
+LandmarkFlag('LandmarkFlag', 'Landmark Flag', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

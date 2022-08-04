@@ -2,18 +2,15 @@
 
 sprite $LaravelXs [10x10/16z] DSQ50O0m00F1mvtiFotQHfy3q611epUBWwrtYcdV5UAdHPgNWeMU24WDvgnm0m
 
-sprite $LaravelSm [12x12/16z] DSg50SCW40NGXqE2x3zjlQVV2070-Wp88yQHkBMK8JcT-SFRu8-L7yv3g-k3DsedSnF7FvCd1aoIy86acZPu0W
+sprite $LaravelSm [12x12/16z] JOk50S0W30GFTzX_sWfkoIltAVtremF2AKWueG4KpKAUk19WOzbnBpbREgw0zVmu0M5bP0Oim0SK8j2FjAfsy08
 
-sprite $LaravelMd [16x16/16z] {
-HSW5GWGn4031YguaS_p_jS2jThG6Q-8jX_HvMNUkGOf1jRUzDOpArYljs6KMbl5QdbDvVTolen_tvRxnwV_tuHoGVpWS2IbIEsrlvpcS8LROe4mqvEcixHgH
-FOrjL6T_
-}
+sprite $LaravelMd [16x16/16z] HSU5GGGn50N0YMmyI__L0gVv-WODf-BYFim3Rh0dsSWZPSn8Avb89gr0cSUi9HqJETwNo7wxTEvIkgV3Xl33qq_Puij6UkxB0NQ30c4XUmUucinsQlQP0Ny
 
 sprite $LaravelLg [20x20/16z] {
-PSy7SeKm30N05HqielkVDirEOVu3jnrNk8DdzikU3uq2xGJcm7AsO6y5qxrk6PP97aNXFg1Td-PDjzQ-vzx_RPTddgwdsNYnzMcHkLdPsw-rawcsA8RjBI1g
-Csog6AzP3SiBVUwlcIlqkTssFkVkxSdt750OS-6ukaLk_2OFvReyCcLbCF81
+PSe5aWCn3031rlBQykd_hpqA9rFSDJ3msjwi-I9He9_075ZEZhqNn9YtP0bv58LnG6zBy8L2xuWnxePTddbghsRXmwPNYyp5nDxlra-YjYYkjdQWPbUB0lev
+kLesNDwxcOieN6q1wrZ0nlL1GLG0jdQrNBcNXzAQbo8htVi1
 }
 
-!procedure Laravel($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Laravel', $name, $tech)
+!procedure Laravel($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Laravel', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/BuyNLarge')
 
 ' renders the element
-BuyNLarge('BuyNLarge', 'Buy N Large', 'an optional tech label')
+BuyNLarge('BuyNLarge', 'Buy N Large', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/BuyNLarge')
 
 ' renders the element
-BuyNLarge('BuyNLarge', 'Buy N Large', 'an optional tech label')
+BuyNLarge('BuyNLarge', 'Buy N Large', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

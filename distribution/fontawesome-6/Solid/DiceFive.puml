@@ -2,12 +2,12 @@
 
 sprite $DiceFiveXs [8x10/16z] Ou01VdG05E525SNWyJ1Wo04
 
-sprite $DiceFiveSm [10x12/16z] Oq00Vgo03OXPG0m-a08CHPWYN0XrV43C0qG8nTny4C0E
+sprite $DiceFiveSm [10x12/16z] Oq00Vgo06OYPG0m-a08CHPWYN0XrV43C0qG8nTny4C0E
 
-sprite $DiceFiveMd [14x16/16z] VSpL0K0X20NGgm8_rFxJlkxms1AuupXuaUnodlVWN31ysWcs1SzzLVEY8hy5dVlPqtzwRafU0UM44G
+sprite $DiceFiveMd [14x16/16z] VOo35S1G34LVUH3jFstnxHiJDPSc1BSjaVttkljgXtp-08TXzc5k1JicF_N8Fl-KoSy0wghY1G
 
-sprite $DiceFiveLg [17x20/16z] ZOxL0KCn30ClpCd-qxQFcUx7R8apTek1jgVazeLWXf1rdHgG-Y0nKyEf8IHPsWFeW_p9a7yq1CDxYryQmxx6BI_7SFt6dHuUx1gE_04
+sprite $DiceFiveLg [17x20/16z] ZOxL0KCn30ClpCd-qxQFcUx7R8apQek4jgVazWKdXv1bdHgG-Y1GKyE88IHHsWEeW_p9a7yq1CDxZLiQmxv4Bo_7SFt6dHuUx1gE_04
 
-!procedure DiceFive($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/DiceFive', $name, $tech)
+!procedure DiceFive($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/DiceFive', $name, $tech, $desc)
 !endprocedure

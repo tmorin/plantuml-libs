@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UsersRectangle')
 
 ' renders the element
-UsersRectangle('UsersRectangle', 'Users Rectangle', 'an optional tech label')
+UsersRectangle('UsersRectangle', 'Users Rectangle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UsersRectangle')
 
 ' renders the element
-UsersRectangle('UsersRectangle', 'Users Rectangle', 'an optional tech label')
+UsersRectangle('UsersRectangle', 'Users Rectangle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Chair')
 
 ' renders the element
-Chair('Chair', 'Chair', 'an optional tech label')
+Chair('Chair', 'Chair', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Chair')
 
 ' renders the element
-Chair('Chair', 'Chair', 'an optional tech label')
+Chair('Chair', 'Chair', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

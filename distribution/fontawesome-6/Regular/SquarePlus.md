@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/SquarePlus')
 
 ' renders the element
-SquarePlus('SquarePlus', 'Square Plus', 'an optional tech label')
+SquarePlus('SquarePlus', 'Square Plus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/SquarePlus')
 
 ' renders the element
-SquarePlus('SquarePlus', 'Square Plus', 'an optional tech label')
+SquarePlus('SquarePlus', 'Square Plus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FolderPlus')
 
 ' renders the element
-FolderPlus('FolderPlus', 'Folder Plus', 'an optional tech label')
+FolderPlus('FolderPlus', 'Folder Plus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FolderPlus')
 
 ' renders the element
-FolderPlus('FolderPlus', 'Folder Plus', 'an optional tech label')
+FolderPlus('FolderPlus', 'Folder Plus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

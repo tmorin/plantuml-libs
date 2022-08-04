@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/QuoteLeft')
 
 ' renders the element
-QuoteLeft('QuoteLeft', 'Quote Left', 'an optional tech label')
+QuoteLeft('QuoteLeft', 'Quote Left', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/QuoteLeft')
 
 ' renders the element
-QuoteLeft('QuoteLeft', 'Quote Left', 'an optional tech label')
+QuoteLeft('QuoteLeft', 'Quote Left', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

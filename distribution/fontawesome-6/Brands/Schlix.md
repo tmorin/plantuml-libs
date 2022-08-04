@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Schlix')
 
 ' renders the element
-Schlix('Schlix', 'Schlix', 'an optional tech label')
+Schlix('Schlix', 'Schlix', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Schlix')
 
 ' renders the element
-Schlix('Schlix', 'Schlix', 'an optional tech label')
+Schlix('Schlix', 'Schlix', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Snowman')
 
 ' renders the element
-Snowman('Snowman', 'Snowman', 'an optional tech label')
+Snowman('Snowman', 'Snowman', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Snowman')
 
 ' renders the element
-Snowman('Snowman', 'Snowman', 'an optional tech label')
+Snowman('Snowman', 'Snowman', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

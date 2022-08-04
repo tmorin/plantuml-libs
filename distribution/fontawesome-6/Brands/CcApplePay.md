@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/CcApplePay')
 
 ' renders the element
-CcApplePay('CcApplePay', 'Cc Apple Pay', 'an optional tech label')
+CcApplePay('CcApplePay', 'Cc Apple Pay', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/CcApplePay')
 
 ' renders the element
-CcApplePay('CcApplePay', 'Cc Apple Pay', 'an optional tech label')
+CcApplePay('CcApplePay', 'Cc Apple Pay', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/OctopusDeploy')
 
 ' renders the element
-OctopusDeploy('OctopusDeploy', 'Octopus Deploy', 'an optional tech label')
+OctopusDeploy('OctopusDeploy', 'Octopus Deploy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/OctopusDeploy')
 
 ' renders the element
-OctopusDeploy('OctopusDeploy', 'Octopus Deploy', 'an optional tech label')
+OctopusDeploy('OctopusDeploy', 'Octopus Deploy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

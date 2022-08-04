@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Google')
 
 ' renders the element
-Google('Google', 'Google', 'an optional tech label')
+Google('Google', 'Google', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Google')
 
 ' renders the element
-Google('Google', 'Google', 'an optional tech label')
+Google('Google', 'Google', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

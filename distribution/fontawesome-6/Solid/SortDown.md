@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SortDown')
 
 ' renders the element
-SortDown('SortDown', 'Sort Down', 'an optional tech label')
+SortDown('SortDown', 'Sort Down', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SortDown')
 
 ' renders the element
-SortDown('SortDown', 'Sort Down', 'an optional tech label')
+SortDown('SortDown', 'Sort Down', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

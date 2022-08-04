@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MobileButton')
 
 ' renders the element
-MobileButton('MobileButton', 'Mobile Button', 'an optional tech label')
+MobileButton('MobileButton', 'Mobile Button', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MobileButton')
 
 ' renders the element
-MobileButton('MobileButton', 'Mobile Button', 'an optional tech label')
+MobileButton('MobileButton', 'Mobile Button', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

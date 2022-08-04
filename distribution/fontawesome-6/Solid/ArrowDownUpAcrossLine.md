@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowDownUpAcrossLine')
 
 ' renders the element
-ArrowDownUpAcrossLine('ArrowDownUpAcrossLine', 'Arrow Down Up Across Line', 'an optional tech label')
+ArrowDownUpAcrossLine('ArrowDownUpAcrossLine', 'Arrow Down Up Across Line', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowDownUpAcrossLine')
 
 ' renders the element
-ArrowDownUpAcrossLine('ArrowDownUpAcrossLine', 'Arrow Down Up Across Line', 'an optional tech label')
+ArrowDownUpAcrossLine('ArrowDownUpAcrossLine', 'Arrow Down Up Across Line', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,15 +2,15 @@
 
 sprite $DigitalOceanXs [10x10/16z] Om01PWOmOEK70GY3bndC17F153ylZ0K4S1OJErIMWHN8vGHhuMO06mDcWHa
 
-sprite $DigitalOceanSm [12x12/16z] FOkr0S104CCSvcZ_QPyEL1arMEJyTAukSVwHziK1cqnADmXaf4WzJQxtsH90upxa9Dscs6NQqWe
+sprite $DigitalOceanSm [12x12/16z] RSY54S0m0810wbxsdxQkIJZxWwE2gzcz3i2h-RWvq6Z5IUWLvUn4qdM67XGBz2JqfwnV0oi
 
-sprite $DigitalOceanMd [16x16/16z] XSlN4KGX34DHlqo-_NUxep7wNX6F3R5p-Q8xcICvS3wJqQUE9n_NK5I904fabZegxfp00SDsxwzxdgyCzW5STdR9NxSsqpRZF4Fc4du
+sprite $DigitalOceanMd [16x16/16z] XOjL0e0m5CEAEzp_jZmBV2xJj9kAGJ_zavIU3ooVdiVbnvIFDpcUIBQjIcvlF2mwkziwSRgc7tcExdujD-tnQ8axtr0SLT_prtW1
 
 sprite $DigitalOceanLg [20x20/16z] {
-ZOxL0SGm3CNiCcl_QGiluDpVgHWPhU2z_U0Rufgh6WcoMcdf8-iS-xbcEi1XebVJhr8gyybERwjCmFgvquAls84XL9JzxRfvdkt3qHQUzvOxWCaEZd2hIblN
-7IZjPO0zTrUtreKALmi3EB9v
+ZOy73WGn20DXUwh__ziJA9QZVhCr0rY94J_p8ogI-Hgv8POgs3dLDUxpLMTykoL7XiOa5HlS5CoW4cwOY647S4bfx6ztlEzhWMiNDwizupkwNCdHtNaFzQmJ
+jPNED3afEGuAeD-M_
 }
 
-!procedure DigitalOcean($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/DigitalOcean', $name, $tech)
+!procedure DigitalOcean($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/DigitalOcean', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Football')
 
 ' renders the element
-Football('Football', 'Football', 'an optional tech label')
+Football('Football', 'Football', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Football')
 
 ' renders the element
-Football('Football', 'Football', 'an optional tech label')
+Football('Football', 'Football', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

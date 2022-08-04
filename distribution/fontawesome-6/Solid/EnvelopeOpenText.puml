@@ -4,13 +4,13 @@ sprite $EnvelopeOpenTextXs [10x10/16z] LSZ50S1030F13UbfzLzjZcdCfZ1jDFFMLpP9o35-D
 
 sprite $EnvelopeOpenTextSm [12x12/16z] NSYr0GGn0C0mFuRZ_QSzPfLY8Qj_o6e87_XPLqAeh9mRrO9-hBmce59PYSBghHgOLLU03ytJ2
 
-sprite $EnvelopeOpenTextMd [16x16/16z] RStL0KCn34DHFGpdxhzjhJATFwDqiw9t0qYwuKrnVMuF0zUR7ZfHHfswBL5FN2-hUOvSvsck2qflzujWqKkwXJvCi7chDfxsA2jlPkE_nASB
+sprite $EnvelopeOpenTextMd [16x16/16z] RSw53S0m34JHAtF-_jjMONn2i-NDgFG1XpmAbustEVgmyQpeHO9P-slPs41LHpO-Z6NZ2nr5NO99sU6FHWOi4tzE5aat1VCmTZJn3m
 
 sprite $EnvelopeOpenTextLg [20x20/16z] {
-bSs50OCm503H7_VS_jFYLYyFFoAo2oXvf3gGvC23z9f0BKqkFEvzQqlp2pitN6PkkYtgqkWypuNv9c9OpQqhH1x7PT5WvL5YaXyI6_smnMQVtxaeSz4yYRPn
-atbDVGG
+bT250SCm4C30TvYr_xOrS-d22bk25Qazm9uEAUnrCfHjabcO--ssRR4cqvWFJ1jkwxADX-fUSpoPDkAOzeZUbDSTec2Gqevs52dxT6yYcj989ASfYiestVnf
+RDFp0W
 }
 
-!procedure EnvelopeOpenText($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/EnvelopeOpenText', $name, $tech)
+!procedure EnvelopeOpenText($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/EnvelopeOpenText', $name, $tech, $desc)
 !endprocedure

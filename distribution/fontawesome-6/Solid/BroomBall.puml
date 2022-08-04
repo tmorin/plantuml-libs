@@ -2,18 +2,18 @@
 
 sprite $BroomBallXs [12x10/16z] Oq003WIJdn-JoOzW0baSK1ee1X7b1B5vOV90m0UasC5Ca3uGmGHYya3O
 
-sprite $BroomBallSm [15x12/16z] LOt50O0m34MhEBpzfmMgaLE-EtEFGQ10DEX4h3omzJySUGFVm0eWBL1nQkZmGBK6hrHtmJxGrXwNAhhgBflx
+sprite $BroomBallSm [15x12/16z] LOt50O1G34E3Es__QP7lwQbnsTs6e06TeODgvOOb_VqwhCMu0AX027Y8QEyYbAiwOSjeZe_6WCwmoweN
 
 sprite $BroomBallMd [20x16/16z] {
-PStLWODG00NHmPzF_zNk9i7XV5_XfQiy1UMXQdZqr9vJ3vCsBWRxfEavfCFbNGigxFHhGIkiagj-R05MDbUlTHNeI-GhkW_IgGAJhe2cseEknlqEWgkEBpN1
-Fm
+PP050aGX24JXTwZl_gVTmDOnQHYPe7vINJ2gF1o32j0sZyWEGHeiw0FFc0ZMAZjm0bGDXbF0PzK31bt2cNM4f1ooPvswsrHtKkqfzUzPgMuXlLcrvd960v2d
+n2Rv0W
 }
 
 sprite $BroomBallLg [25x20/16z] {
-RT053iKW60JXhHUT-v_sAVQdVF7AR41ptcigWIPM8Elf1jmymovZgPb55aaxa2JhX0XSUk3BPEuCv5zd7JVvY_A0AHIt4jcUfrZjf8iKNiP6jPNoPZRAiFbY
-AEryXN9dXSONAytI3tLAdhzqw-yepJS
+ZT350SGm34JH2Pj__zKkAeplPX3gM0Wwb447Ag0St0-0Fqv3-p0DMGsGjT520Zhj051feIz0KRsvh_XB2i0gWncKbnqv9hMMy0aJTZCPoqnZ8PDrpqp251vj
+Puk01dkecImIDrAms-pqrrdEDm
 }
 
-!procedure BroomBall($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BroomBall', $name, $tech)
+!procedure BroomBall($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BroomBall', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Microchip')
 
 ' renders the element
-Microchip('Microchip', 'Microchip', 'an optional tech label')
+Microchip('Microchip', 'Microchip', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Microchip')
 
 ' renders the element
-Microchip('Microchip', 'Microchip', 'an optional tech label')
+Microchip('Microchip', 'Microchip', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

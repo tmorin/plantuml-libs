@@ -2,12 +2,12 @@
 
 sprite $FortAwesomeXs [10x10/16z] Om01NWOOuEU7iRWO8G90n0KaWHGOm5Yi81QGW02848m5r8p20W
 
-sprite $FortAwesomeSm [12x12/16z] RSO50i0W3C30p7tv_sld2WJQ7aSJRzebdD5Vgbjhct4wRA5pwsasrxktVORuTXYQZxFGAm
+sprite $FortAwesomeSm [12x12/16z] RSO50i0W3C30p7tv_sld2WJQ7aSJRredtNDMDvPM_NJOJEVMqspUDcpx3F7jC3GV4te5
 
-sprite $FortAwesomeMd [16x16/16z] ZKo30G0n3AmHxZ_jswnpDCjYSrx2zOHLzOIvm3hQyO7nMwoXej5XKvhnjbQSmbZtZ6Nrou3zWCgUHz1LfULVy5IpOsp6FG
+sprite $FortAwesomeMd [16x16/16z] ZSq30a0X00FGPRVxd_RRRF55B2aufvPmCicJYuad7qHf4pYKR6TlMMtL03oxhkVhO3d8SqkAN7VpCYvUlbcTcjq3
 
-sprite $FortAwesomeLg [20x20/16z] hS-50SGW00F0u4xsd_QrxfOAS3ZQY89vgjLcQlpaY4K8z16_DxQLNwX1M28IcQsLp5n_BplhCxIV6soObT-Q_LfqNxCQD9Fr63heqriqTMe6mDH-Dtx0tW
+sprite $FortAwesomeLg [20x20/16z] hSc50GGX0CJ0uCxsN-sxkrpmWLE3-wQpzjQqwHEh6ExjCbc44rLq7MrqzRcREjb55xRpm0jpPdjpMwjXQywo-xq85NJRXTKmRoq0jyQcke2j0G
 
-!procedure FortAwesome($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/FortAwesome', $name, $tech)
+!procedure FortAwesome($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/FortAwesome', $name, $tech, $desc)
 !endprocedure

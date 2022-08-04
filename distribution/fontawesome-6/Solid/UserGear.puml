@@ -1,19 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/UserGear
 
-sprite $UserGearXs [12x10/16z] NSU50O104CJ0u4xwhnRdRKwNYnMVMbs-No_b_uKERFWiNg1Hh-7fozvB-_s32R3Z1
+sprite $UserGearXs [12x10/16z] RSl50OK050EmVXSa-q-BE-JojEcuPN93CVNWeWzUYNic1IGFt0W1zKlkK_zXDMHR
 
-sprite $UserGearSm [15x12/16z] LSdN0OCm30L0qJkt_xR9-m5yjdhzTUPwNV2EyDu7SRJNiI8Mt5chboopwETb6JgkY-g8CHSAqJ4Cp8ZIgahy
+sprite $UserGearSm [15x12/16z] LKo30G0W4Cp6_jFc7XV_91PaTm9H-mAEUq9TdZ5pLS7erzGEBNX3EuJpNgsnrAtt0zFEzqxdbQftXoF3RPu
 
-sprite $UserGearMd [20x16/16z] {
-PSw54S0m3C10kypQVzg6MKUv3rbyDvkqxRWQKXZmZAQLtT7cohPojnJeSSjPQtpZTzB6xizV5HsKXnzyky8juXyc9H_gJgo5bjtv36YsSoRsKkuUyi4vJPMn
-t64-0m
-}
+sprite $UserGearMd [20x16/16z] RSZ50OLG0C2mul2i-q_x1RSSmopQSpMeoeK-SdgvgBEAGwippfmbWBewPmQeb2i7rHGuTAw0vAn58sW2DnGhI7P7rODAhLPkfjfLTiT8qGbEPnjHu0i
 
 sprite $UserGearLg [25x20/16z] {
-fSy53WKn20HGwjwv_sc_q5cFxuiIN9OmPfGd1-Nb3cJageBwiu5U9pmeoSs0cXhCSsC1W2gAPzzWdLxlpzRh7MQ0_ws9Zea1KE3ceck0HoB_4nsxgK7cA9n8
-mwxW91giL4F41H_apsTrobY9Bm
+fS_L0OGm44NHXyPp-wzsiS7vsuEJZ6apb3hghM7LwGcZXuZ9xm3pzqAFSNeehAeM5NG80F58h3SYYqZxFP55DGMRRylOsK81qrdbiDuv3RRWGCeSwlengWKG
+5qeS0XUZs9OIFJUN0GCtiQfi2nC
 }
 
-!procedure UserGear($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/UserGear', $name, $tech)
+!procedure UserGear($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/UserGear', $name, $tech, $desc)
 !endprocedure

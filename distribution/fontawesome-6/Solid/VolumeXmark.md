@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/VolumeXmark')
 
 ' renders the element
-VolumeXmark('VolumeXmark', 'Volume Xmark', 'an optional tech label')
+VolumeXmark('VolumeXmark', 'Volume Xmark', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/VolumeXmark')
 
 ' renders the element
-VolumeXmark('VolumeXmark', 'Volume Xmark', 'an optional tech label')
+VolumeXmark('VolumeXmark', 'Volume Xmark', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

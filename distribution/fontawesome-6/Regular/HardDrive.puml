@@ -2,12 +2,12 @@
 
 sprite $HardDriveXs [10x10/16z] Oq00VZY0YN1ZPV5XgEE3iFWP-97K8Sm3
 
-sprite $HardDriveSm [12x12/16z] Oq06_4Y06qcKamWs7x9c3XY0gU5WO8EhvsHWP-3duKEeOU3cWm4s
+sprite $HardDriveSm [12x12/16z] Oq06_4Y02qcKdGWs7x9cTXY0gU5WO8EhvsHWPU3duME50Nu6RZuOO0C
 
-sprite $HardDriveMd [16x16/16z] Oq07h7n8W9UHZHyTeAYcc8yA-82OIFlusHdus93ux4mWXA6U4SCqHcJ
+sprite $HardDriveMd [16x16/16z] Oq07h7n8W9U1ZHyTeAYcc8yA-82OIFlusHZus93ux42dCsAQZsu3kdS1
 
-sprite $HardDriveLg [20x20/16z] lSur5iKW503H-HANsVzkGujJvHuQdbCq9_wWgVDqJUeCI1mlnMx7aBYZs2UyPCSfQ1pxhR1CbLiMlMFAQUfFmGC
+sprite $HardDriveLg [20x20/16z] lSwr0O104031nPtjlri8aRVe9pi_WhgF5lpPT-VkpHiVMwNSQHa-pjoDNT1thfjX62A_J7g-ARjVFG4N
 
-!procedure HardDrive($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Regular/HardDrive', $name, $tech)
+!procedure HardDrive($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/HardDrive', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SchoolCircleXmark')
 
 ' renders the element
-SchoolCircleXmark('SchoolCircleXmark', 'School Circle Xmark', 'an optional tech label')
+SchoolCircleXmark('SchoolCircleXmark', 'School Circle Xmark', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SchoolCircleXmark')
 
 ' renders the element
-SchoolCircleXmark('SchoolCircleXmark', 'School Circle Xmark', 'an optional tech label')
+SchoolCircleXmark('SchoolCircleXmark', 'School Circle Xmark', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

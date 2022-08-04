@@ -1,16 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/Socks
 
-sprite $SocksXs [11x10/16z] XSR70K0X309GydjHsNzRIRcR0WyQidtaBNbH8xxai-AMR0gNP-dsCbU3qz-02G
+sprite $SocksXs [11x10/16z] XKl50G0W2CIFhRV_jj9V2ow93x0dq1Z90X-60-W_M0nk7Wni6ce9DmNapWC
 
-sprite $SocksSm [13x12/16z] VKi35W0X4Ct6_KzRZHuMrUXBdTVcdEQq1d1s7sSC0DPQOs2yb2lm0ivIVIBGS4zy0NSae13aoGdFDd_k3G
+sprite $SocksSm [13x12/16z] XKe30i002ApPz__VBiw89vAQ0B0iQScV5pcB4cQsmnVdXrH9vD4C8uPXrTYldP2HFa9KHwmMl08
 
-sprite $SocksMd [17x16/16z] fO_L0S0m20L9tT_-qqQEUZzxKHoiq2bZApUeu7U3eYxiDom5l-jFo1_5U5DiakgWGy7FMZcr-tU7BBFnI0WT2Iv5SqmQ3l-Z1fasn0G
+sprite $SocksMd [17x16/16z] fO_50S0m30FB3FjF6pYf_Em5pNQHwVP4iNB3dj5TegWolc79wFw6_56CDyMMFXMo5FYtkx3S8KinAg5fIN0fwdFICu5ha6b3Z
 
-sprite $SocksLg [22x20/16z] {
-nP250O0W00HVfNF_QUbc0C_WEHfKd4yOA9_XJSfQUtobMNNRcsq6qVl-QD_TiXmjNhzQavC6yPthPhgjOPKS-9gTqWBW9PbdI8C4EVeo59erjNpGSBM7Bjkh
-H
-}
+sprite $SocksLg [22x20/16z] nP250S0W40DJD-3tdnODFa2lGZWS98nu55u9N9GFQvAWVMSxqyrmrxw_sQMtHuWQYxHMXVHXbsgxcwcMuQdo0bRQAZN0sLIqZ9Zx7eZGAfOHxk44lhYzX0C
 
-!procedure Socks($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Socks', $name, $tech)
+!procedure Socks($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Socks', $name, $tech, $desc)
 !endprocedure

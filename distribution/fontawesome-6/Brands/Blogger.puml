@@ -2,12 +2,12 @@
 
 sprite $BloggerXs [8x10/16z] Ou01VdG04mGI41e487nE1YYV7Q4QIWC
 
-sprite $BloggerSm [10x12/16z] JSp50G0X30J0nOdtN-svC9zuy8kNnI81yqhAjvCWXFOCSS_JERgo_Z-RjLIDa7Y1_TPs
+sprite $BloggerSm [10x12/16z] Oq00VXZWvKS2G0aEC8CHf0OgnCt9m0ALXCg3fS0iDeHXx4oCJ3py_Dm8mxZu880L
 
-sprite $BloggerMd [14x16/16z] PSw54S0W0CNG_CDz_sdhtg3l37XdQskjzxxiLNOyw-ER0VJ4JKYjmYKa8EmwCeTSplcMhBNWDaNsZgUBjSQw_liBRw4xPW
+sprite $BloggerMd [14x16/16z] PSxL0S0W34NH5yC9-qzRzrxqV07UQUkzk_koD-XuvkCR0Q0JZAr3GExjrb5yYGzPAUKMYGWWcmnxnzELcPZzznUyzMe6
 
-sprite $BloggerLg [17x20/16z] ZSp50GCn44FHRsQh_sh3dALt6v3u5-873_hMcewObekW5-xygmUm5j13XYRvhyNJ-iBuYzUYGDM5UIxcRqIUXww7uhrpFWmjYVf1qnV7hpC
+sprite $BloggerLg [17x20/16z] ZSYr0GH140InccNk_ADzPZoPuftp3npeMU_QOXa7GJUSELrqm0pGHO4k-SUu-H7ku1OLcWvkiRZHcUDYwA8wP-RSr2T9B-XwudYr1m
 
-!procedure Blogger($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Blogger', $name, $tech)
+!procedure Blogger($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Blogger', $name, $tech, $desc)
 !endprocedure

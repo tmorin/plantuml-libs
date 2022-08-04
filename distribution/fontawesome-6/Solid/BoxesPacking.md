@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BoxesPacking')
 
 ' renders the element
-BoxesPacking('BoxesPacking', 'Boxes Packing', 'an optional tech label')
+BoxesPacking('BoxesPacking', 'Boxes Packing', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BoxesPacking')
 
 ' renders the element
-BoxesPacking('BoxesPacking', 'Boxes Packing', 'an optional tech label')
+BoxesPacking('BoxesPacking', 'Boxes Packing', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

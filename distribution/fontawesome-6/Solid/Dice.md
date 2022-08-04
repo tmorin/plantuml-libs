@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Dice')
 
 ' renders the element
-Dice('Dice', 'Dice', 'an optional tech label')
+Dice('Dice', 'Dice', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Dice')
 
 ' renders the element
-Dice('Dice', 'Dice', 'an optional tech label')
+Dice('Dice', 'Dice', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TemperatureFull')
 
 ' renders the element
-TemperatureFull('TemperatureFull', 'Temperature Full', 'an optional tech label')
+TemperatureFull('TemperatureFull', 'Temperature Full', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TemperatureFull')
 
 ' renders the element
-TemperatureFull('TemperatureFull', 'Temperature Full', 'an optional tech label')
+TemperatureFull('TemperatureFull', 'Temperature Full', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowRightLong')
 
 ' renders the element
-ArrowRightLong('ArrowRightLong', 'Arrow Right Long', 'an optional tech label')
+ArrowRightLong('ArrowRightLong', 'Arrow Right Long', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowRightLong')
 
 ' renders the element
-ArrowRightLong('ArrowRightLong', 'Arrow Right Long', 'an optional tech label')
+ArrowRightLong('ArrowRightLong', 'Arrow Right Long', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

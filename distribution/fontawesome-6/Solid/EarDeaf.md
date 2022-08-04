@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/EarDeaf')
 
 ' renders the element
-EarDeaf('EarDeaf', 'Ear Deaf', 'an optional tech label')
+EarDeaf('EarDeaf', 'Ear Deaf', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/EarDeaf')
 
 ' renders the element
-EarDeaf('EarDeaf', 'Ear Deaf', 'an optional tech label')
+EarDeaf('EarDeaf', 'Ear Deaf', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

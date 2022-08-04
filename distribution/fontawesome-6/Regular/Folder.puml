@@ -2,12 +2,12 @@
 
 sprite $FolderXs [10x10/16z] Oq00VY20C82OaHyCO7AyS1OFiIm6VXW
 
-sprite $FolderSm [12x12/16z] Oq06_4303MLoWGW-PY1WuES0Yq001rmrHMnUFWuOu6VWveC1LW
+sprite $FolderSm [12x12/16z] Oq06_4303MLoWWW-HY1Wu6S3Yq006rmrHMnUFbOOu6VWveC1LW
 
-sprite $FolderMd [16x16/16z] Oq07R7n0m0tdilD308mFP44e7X3WPeB9yCC1Yca3p6VaP-H71K0nPC
+sprite $FolderMd [16x16/16z] Oq07R7n0m0tdilD308mFP44e7X3WPeJ9yCC1Yca3pcVaHmNetWK
 
-sprite $FolderLg [20x20/16z] rSZ50O0m0C30u4xsdnPtka3lUOGavIRXmKF1PRGk5vLMd9HDuYKzZym7FeR0zL5Ue-ERClYL4p03
+sprite $FolderLg [20x20/16z] rSZ50O0m0C30u4xsdnPtka3lUGHb6vuy55n6wsnHQCL9sIHUalD8VU1Z25mVvJKwlYc3Npa1Cm
 
-!procedure Folder($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Regular/Folder', $name, $tech)
+!procedure Folder($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/Folder', $name, $tech, $desc)
 !endprocedure

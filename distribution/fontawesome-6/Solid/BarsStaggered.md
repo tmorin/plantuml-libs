@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BarsStaggered')
 
 ' renders the element
-BarsStaggered('BarsStaggered', 'Bars Staggered', 'an optional tech label')
+BarsStaggered('BarsStaggered', 'Bars Staggered', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BarsStaggered')
 
 ' renders the element
-BarsStaggered('BarsStaggered', 'Bars Staggered', 'an optional tech label')
+BarsStaggered('BarsStaggered', 'Bars Staggered', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

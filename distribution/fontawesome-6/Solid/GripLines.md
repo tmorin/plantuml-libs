@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/GripLines')
 
 ' renders the element
-GripLines('GripLines', 'Grip Lines', 'an optional tech label')
+GripLines('GripLines', 'Grip Lines', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/GripLines')
 
 ' renders the element
-GripLines('GripLines', 'Grip Lines', 'an optional tech label')
+GripLines('GripLines', 'Grip Lines', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

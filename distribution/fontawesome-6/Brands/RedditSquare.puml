@@ -2,12 +2,12 @@
 
 sprite $RedditSquareXs [8x10/16z] Ou02Ldvam0ebkK0K1mCFaEG2AmCo67WP-C4q2oy39rm70vG6
 
-sprite $RedditSquareSm [10x12/16z] TOk30S0m50MlThF_jB5nttWan83lvtOThZmVJEBNNLAotWWMtHqixExp1dwHmUzv5G
+sprite $RedditSquareSm [10x12/16z] TOl50G0X3C1oWjl-q-Bo8aWjvP0kX8WTsLHSQ7QisTdaizIlPeeNEKmBLEr0dFW2
 
-sprite $RedditSquareMd [14x16/16z] RSp50SGm44FHRsQh_seNmyax3OgpFdTfwCdGE3QDi7LMcjguxSXuleBvTfxLBmShGnT6Nop-luMGGeMvvW1UDqb7c0FU
+sprite $RedditSquareMd [14x16/16z] RSp50GGn40F1NaPR-KTxOAPw3OhQQxF3QCJ8bCt3ahfPiahItB02iE6EY5mEa-0Lo7N1vBgBzPXki347cDKvgexA5m
 
-sprite $RedditSquareLg [17x20/16z] ZSsr0S103C10XTdQVzemVfNh7cn1ggm_iihVsj6-zwLq05ywZSd7vCUOmTFZKXoNmICxzbFOWSBefWQ1hh-o0Ha73pL4sCBT7d9ukeamWLyJgGK
+sprite $RedditSquareLg [17x20/16z] ZSt50SKm40FH2Pez_LVxcJ7lkYk9D-FqXCNDOZLd7ymMy47IthnhFga33tjS3KogdGSUpKn6KAWUhI2GCkXBHgyllHkXUL46WD6FkY_mMUFL7W
 
-!procedure RedditSquare($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/RedditSquare', $name, $tech)
+!procedure RedditSquare($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/RedditSquare', $name, $tech, $desc)
 !endprocedure

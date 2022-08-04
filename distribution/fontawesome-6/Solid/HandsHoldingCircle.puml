@@ -1,19 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/HandsHoldingCircle
 
-sprite $HandsHoldingCircleXs [12x10/16z] FOQ50G0X08JuxcV_QMszX2BfcbG01TMZ71nbgVkuDdu5d51_VD4Qnqw3WRlnJ0G
+sprite $HandsHoldingCircleXs [12x10/16z] FOQ50G0X08JuxcV_QMszX2BfcbG01TMZ71nbgVkuDdu5d51_VD4Qnp8Ok1jFH
 
-sprite $HandsHoldingCircleSm [15x12/16z] JOh50O1G08MmM_QVrlZDwGL4hfq6LNuEKtE4ITkwnfhaKZatKkr8niKMBMzGEaLTOnnLLdyO_EdWhdK6AFM45m
+sprite $HandsHoldingCircleSm [15x12/16z] JSV50K81042XPxViFwtncnkDNlSseAg7QOvrODiJcjxQdhUMKkNLpVXtKOGhxJYYAsWFglVQSzNIPtq1
 
-sprite $HandsHoldingCircleMd [20x16/16z] {
-XOu50e0W40IFRlZ_R-N2hhLcHmhMvE7W73KmQsiQtuEI4NsQj3l1NsTEZYZ1mQc6M-E6kwlRO2MdAbWoZw1NdO_Zvf4Quf1eg48Lvyivwdv8Tt60oIUdWTAP
-2txyx0i
-}
+sprite $HandsHoldingCircleMd [20x16/16z] XOg54GGX5CMoRi3hlziRNCw2XSmdSsjZG1uITYf9jzVzafHRqRzjgItRHTii4LkRASDJQez_xpWHBYDfZhzLMh5UbPWmoGmvpgK1yz3mt5sR2BZeZtzMu0K
 
 sprite $HandsHoldingCircleLg [25x20/16z] {
-PP074iGW30ELdj3q_z_U6C5vncnwrk02vsbrnyfEewo28c5maPiz3mvWl3HkU_qe5DPSt5CWY8sYHe5NOej2wHiG13F4rjya7k0attyxtjJUtoxxNtj4zX8l
-HLx_3vwQqAiblIvDpPVnbH0748Mti8fH_164ztb70J7hlcR7X_tx0G
+RP455e0m34EBExd_RNbTAi0Md5-lf9RxwgHM1zLP0r2xVq-0g0PG_5gXwlLr-u0xmTm6cUEgm98E2IBzBN-08zev0YmY8x16EvcmAs-Z_h-AtG4J4x1Ty8wH
+4zAQ1eQmgQKRLe8Ctm8p2wa0Y-yhu7tEVo2KrprvnsN13m
 }
 
-!procedure HandsHoldingCircle($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HandsHoldingCircle', $name, $tech)
+!procedure HandsHoldingCircle($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HandsHoldingCircle', $name, $tech, $desc)
 !endprocedure

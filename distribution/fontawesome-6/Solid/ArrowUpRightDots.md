@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowUpRightDots')
 
 ' renders the element
-ArrowUpRightDots('ArrowUpRightDots', 'Arrow Up Right Dots', 'an optional tech label')
+ArrowUpRightDots('ArrowUpRightDots', 'Arrow Up Right Dots', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowUpRightDots')
 
 ' renders the element
-ArrowUpRightDots('ArrowUpRightDots', 'Arrow Up Right Dots', 'an optional tech label')
+ArrowUpRightDots('ArrowUpRightDots', 'Arrow Up Right Dots', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

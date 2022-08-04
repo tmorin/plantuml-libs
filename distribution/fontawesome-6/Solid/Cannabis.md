@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Cannabis')
 
 ' renders the element
-Cannabis('Cannabis', 'Cannabis', 'an optional tech label')
+Cannabis('Cannabis', 'Cannabis', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Cannabis')
 
 ' renders the element
-Cannabis('Cannabis', 'Cannabis', 'an optional tech label')
+Cannabis('Cannabis', 'Cannabis', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

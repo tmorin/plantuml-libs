@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Calculator')
 
 ' renders the element
-Calculator('Calculator', 'Calculator', 'an optional tech label')
+Calculator('Calculator', 'Calculator', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Calculator')
 
 ' renders the element
-Calculator('Calculator', 'Calculator', 'an optional tech label')
+Calculator('Calculator', 'Calculator', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

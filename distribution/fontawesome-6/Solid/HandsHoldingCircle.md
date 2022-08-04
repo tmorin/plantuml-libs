@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HandsHoldingCircle')
 
 ' renders the element
-HandsHoldingCircle('HandsHoldingCircle', 'Hands Holding Circle', 'an optional tech label')
+HandsHoldingCircle('HandsHoldingCircle', 'Hands Holding Circle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HandsHoldingCircle')
 
 ' renders the element
-HandsHoldingCircle('HandsHoldingCircle', 'Hands Holding Circle', 'an optional tech label')
+HandsHoldingCircle('HandsHoldingCircle', 'Hands Holding Circle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

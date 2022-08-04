@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowRightToCity')
 
 ' renders the element
-ArrowRightToCity('ArrowRightToCity', 'Arrow Right To City', 'an optional tech label')
+ArrowRightToCity('ArrowRightToCity', 'Arrow Right To City', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowRightToCity')
 
 ' renders the element
-ArrowRightToCity('ArrowRightToCity', 'Arrow Right To City', 'an optional tech label')
+ArrowRightToCity('ArrowRightToCity', 'Arrow Right To City', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

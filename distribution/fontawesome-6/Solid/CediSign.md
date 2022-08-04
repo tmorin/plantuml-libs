@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CediSign')
 
 ' renders the element
-CediSign('CediSign', 'Cedi Sign', 'an optional tech label')
+CediSign('CediSign', 'Cedi Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CediSign')
 
 ' renders the element
-CediSign('CediSign', 'Cedi Sign', 'an optional tech label')
+CediSign('CediSign', 'Cedi Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

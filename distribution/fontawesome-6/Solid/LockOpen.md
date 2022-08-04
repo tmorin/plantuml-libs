@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/LockOpen')
 
 ' renders the element
-LockOpen('LockOpen', 'Lock Open', 'an optional tech label')
+LockOpen('LockOpen', 'Lock Open', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/LockOpen')
 
 ' renders the element
-LockOpen('LockOpen', 'Lock Open', 'an optional tech label')
+LockOpen('LockOpen', 'Lock Open', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

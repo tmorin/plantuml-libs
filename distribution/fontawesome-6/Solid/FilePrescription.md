@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FilePrescription')
 
 ' renders the element
-FilePrescription('FilePrescription', 'File Prescription', 'an optional tech label')
+FilePrescription('FilePrescription', 'File Prescription', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FilePrescription')
 
 ' renders the element
-FilePrescription('FilePrescription', 'File Prescription', 'an optional tech label')
+FilePrescription('FilePrescription', 'File Prescription', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

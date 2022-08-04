@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Screenpal')
 
 ' renders the element
-Screenpal('Screenpal', 'Screenpal', 'an optional tech label')
+Screenpal('Screenpal', 'Screenpal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Screenpal')
 
 ' renders the element
-Screenpal('Screenpal', 'Screenpal', 'an optional tech label')
+Screenpal('Screenpal', 'Screenpal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

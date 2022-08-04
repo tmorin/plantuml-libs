@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FaceFlushed')
 
 ' renders the element
-FaceFlushed('FaceFlushed', 'Face Flushed', 'an optional tech label')
+FaceFlushed('FaceFlushed', 'Face Flushed', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FaceFlushed')
 
 ' renders the element
-FaceFlushed('FaceFlushed', 'Face Flushed', 'an optional tech label')
+FaceFlushed('FaceFlushed', 'Face Flushed', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

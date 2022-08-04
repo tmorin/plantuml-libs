@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HotTubPerson')
 
 ' renders the element
-HotTubPerson('HotTubPerson', 'Hot Tub Person', 'an optional tech label')
+HotTubPerson('HotTubPerson', 'Hot Tub Person', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HotTubPerson')
 
 ' renders the element
-HotTubPerson('HotTubPerson', 'Hot Tub Person', 'an optional tech label')
+HotTubPerson('HotTubPerson', 'Hot Tub Person', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FileWaveform')
 
 ' renders the element
-FileWaveform('FileWaveform', 'File Waveform', 'an optional tech label')
+FileWaveform('FileWaveform', 'File Waveform', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FileWaveform')
 
 ' renders the element
-FileWaveform('FileWaveform', 'File Waveform', 'an optional tech label')
+FileWaveform('FileWaveform', 'File Waveform', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

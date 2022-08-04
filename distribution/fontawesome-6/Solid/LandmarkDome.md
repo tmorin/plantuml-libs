@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/LandmarkDome')
 
 ' renders the element
-LandmarkDome('LandmarkDome', 'Landmark Dome', 'an optional tech label')
+LandmarkDome('LandmarkDome', 'Landmark Dome', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/LandmarkDome')
 
 ' renders the element
-LandmarkDome('LandmarkDome', 'Landmark Dome', 'an optional tech label')
+LandmarkDome('LandmarkDome', 'Landmark Dome', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

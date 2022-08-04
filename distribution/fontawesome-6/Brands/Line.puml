@@ -1,16 +1,13 @@
 ' definition of the Item fontawesome-6/Brands/Line
 
-sprite $LineXs [8x10/16z] Ou01VZZWPGPJK55ENZPMJZ3DpW2Y-U6gkK0KBrGJJ3y
+sprite $LineXs [8x10/16z] Ou01VZZWPGPJK55ENcPMJZ3DpW2Y-U6gkK0KBrGJJ3y
 
-sprite $LineSm [10x12/16z] HOo30S1034L_xTx-qyPuCT6CuBazEZhPF54Mo_xlFA7P-ICouzJ5rIuSVDhePzllp0m
+sprite $LineSm [10x12/16z] JSY35K0n04FHzuqY-qzRwnu4J6hChmN9MKgnbURT-vBRwscjU9MSmAKAbmzrNBxQ8W
 
-sprite $LineMd [14x16/16z] LSo50S0W34JH7-fw-q_Rul9m8epiVei3r7iKt5Sy8qUmAo9RmcF3W6cUUMDenKdloXMhhiaXxJoXAuM2epsY1J0rRF4urKET6wpX1m
+sprite $LineMd [14x16/16z] JSo55KCn34FHzpci_RVjaKk-uHYmPAol2igcRFGumuOL1JvEFoviFmvMX7QGrasFgdxuMPZkofUifeSTwM4yigOC9GEo5m
 
-sprite $LineLg [17x20/16z] {
-RSk3WG0n54NH6pkl_seNOvtmYpSNBmmCtSIWRydvfiCmBA9MavtLmd38om0UXkWIHd_wafYjgy7MaSCOiS-yTWWCnl1_ijQMdT6gt-B5383NbQDfCRIgsXZT
-JRnkUFa5
-}
+sprite $LineLg [17x20/16z] RSpL0SKm3CLGbSc9zf_sGPdEb_7oL5OdGFAYRNpNLVNaBh5eNMGsXJCE_V9GG4We-3FEWpo54wmNVHEfZTp3CsCvsRc8Sx_83L1xLZ0vIov6LtYLRv_oy0K
 
-!procedure Line($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Line', $name, $tech)
+!procedure Line($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Line', $name, $tech, $desc)
 !endprocedure

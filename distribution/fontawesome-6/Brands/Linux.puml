@@ -1,19 +1,16 @@
 ' definition of the Item fontawesome-6/Brands/Linux
 
-sprite $LinuxXs [8x10/16z] BKg30G0m39kD_wyjKqP1wilg-mv6n2ymGbQmL49wpz3q_s5YzhomoW
+sprite $LinuxXs [8x10/16z] BKg30G0m39kD_wyjKqP1wilg-mv6n2ymGbAmL49wpz3q_s5YzBomoW
 
-sprite $LinuxSm [10x12/16z] 1S670S0W00CWkjoQ_xyjWDo0983Rke3Bli1rl-y6GIxCXXq410jck0GK07nankq7
+sprite $LinuxSm [10x12/16z] HSU50O0m40F0mvtVVrgq4W-8Xdz4aB2dRXnfjLtxpqYsJJZIJRd35j9bKD4JMsZS
 
-sprite $LinuxMd [14x16/16z] {
-HOg50SGW40G7Jx3jlzeNT92x5GPHBuTNKZsggtST5JtcgWBXgcwDarqY941QQapNsXHhZAwfRgXO_cx83FmZ82N7g2Y3XnOP4yEV5zWEX62A1-EnoHAjiOu0
-Nm
-}
+sprite $LinuxMd [14x16/16z] HSx50GKX34NHYyzWh_zgl-34JbPXlAYNyrv9zQYhTnr5Zxag4AwwnSaiX0H8IwERrXXOJQDLCrei3GYPyVmZ80OxL9N1Gek0ltS2T-ETANR89ektM4k0Bm
 
 sprite $LinuxLg [17x20/16z] {
-JOk7WGCW30D5xsZ_RH_RdyH7FoGOuR30aVbeJcmANXHYUz7MOVLYoVBYvXYR4s671F1-1Qlss65C2yV3PE8iEtcij2UCD1Za_5PHcLKq68jJH46l44hb643z
-bWg0e1E97u4cmcAnsCtWGsJIdn9hq4f-nny
+JP055i0W34E3Exd_RJUihvdc0pKScS409STVcdGkQU28fa5gWr63jXuDfhScQT3X04xnjDXdylMLhpXxm6XtupY7UdtrbhDLZYBIRv1UDQmB1EIulOqi1V1o
+AEZk1TpZwuonxs_fZiEwjUAzsRizblq
 }
 
-!procedure Linux($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Linux', $name, $tech)
+!procedure Linux($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Linux', $name, $tech, $desc)
 !endprocedure

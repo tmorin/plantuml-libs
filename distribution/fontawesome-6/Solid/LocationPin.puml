@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/LocationPin
 
-sprite $LocationPinXs [7x10/16z] Os1WuEK64bpyGC34m0y6t12A5q8ne58CO19CSJ000OW3
+sprite $LocationPinXs [7x10/16z] Os1WuEK64bpyGC38m0y6t12A5q8ne58CO19CiJ400OW3
 
-sprite $LocationPinSm [9x12/16z] Os1WOEBZOG01VZ20qVnyZFmm5ep11MCme3Cu4DePmAgOe2P2Z6O0Im
+sprite $LocationPinSm [9x12/16z] Os1WOEJZOG01VZ20qVnyZFmm5ep11MCme3Cu4DePmAeOeIP2Z6O0Im
 
-sprite $LocationPinMd [12x16/16z] RSd50S0m0810wbxsdxQkIUu9RFBHdaFcOTwZD_0nPBv6qnfV-6BsbeCte7lpFNfskJjEhPfncQtOh
+sprite $LocationPinMd [12x16/16z] RSY54G9H0CN0nPtNVxKuztN7Ce7LDMTV-RYNV54obrMAQ-OEAQHmNt9DsPnAyiqpM9NDlYJtRE49
 
-sprite $LocationPinLg [15x20/16z] VSc53GGn0CH07tEs_sh3z3X2omJZ9REHpKhkM9kg_BfMRn_quj8_pslEhybBNPnzZj2L0NPL1BMEcDFBX2lLG6P2RLII7ffPXiW1
+sprite $LocationPinLg [15x20/16z] VSc54SDG3C1GXJzx_sdBDHIYmtVYtbHb7BnQv5bxw11DdrfyQP9GbRDwv1f9KALuJk0qW6JadYe_E8S9DGZ6NJlQJHrhbi6ZAm
 
-!procedure LocationPin($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/LocationPin', $name, $tech)
+!procedure LocationPin($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/LocationPin', $name, $tech, $desc)
 !endprocedure

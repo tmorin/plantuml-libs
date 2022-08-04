@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/LaptopFile
 
-sprite $LaptopFileXs [12x10/16z] O-3dvsU00duGcm_EHeY30Gk2ZIGEbMI5iC6YxCXi1avEPZP-DY3WvmABG04
+sprite $LaptopFileXs [12x10/16z] O-3dvsU00duGcm_EHeY30HE2ZIGEbMI5iC6YxCXi1avEPZP-DY3WvmABG04
 
-sprite $LaptopFileSm [15x12/16z] O-070WOuu0Tp-L2vFDp8N1vk52v2EvJ320PGBa8DbEG0AyNWiWDvl0WkX883D2u
+sprite $LaptopFileSm [15x12/16z] O-070WOuu0Tp-L2vFDp8N1vk52v2EvJ320PGBa8Db6G5AyNWiWDvl0WkX883D2u
 
-sprite $LaptopFileMd [20x16/16z] TSZ50SGm40ImXR1X-g_s86RIK-JmmoSLeS2ugaEyaFM9glO7Oumq5sp37KBzqUOZLmv5THmqHy7YphVsvaXKbIyBs02mzFAeXUFclW
+sprite $LaptopFileMd [20x16/16z] TSZL0SKW00F0r738_jC-AMxtUV3yWKGLYw12nNGnsplEynoFrjgZlUISJW3ZuGg9hyUgkIFg3j7cv5jNTpX-e1pf8jBX5TX2nDON
 
 sprite $LaptopFileLg [25x20/16z] {
-dSt50O1044FHiExflrhS7VxrZI2mgq1WM-08b5lW31HNG7a2nDGUIemnx6762oZf5FpL3mGknGMiu3enWr6adoBL1Z3r3opxVBK7AD_ce1rffaXlC5Hn7yOk
-mN6RRm
+dSv50eKm303HuCxS_xHVWRhEzhL9PENRANOh5z2Pm0Eq8Q3p079dmxbjs-h0ZG4uToyieHsoejeKZ0rwxGD32yiTz0R8NHrCzx4sIBzyccMOORo3PLIFh98m
+OxQy0G
 }
 
-!procedure LaptopFile($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/LaptopFile', $name, $tech)
+!procedure LaptopFile($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/LaptopFile', $name, $tech, $desc)
 !endprocedure

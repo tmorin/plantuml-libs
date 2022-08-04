@@ -2,12 +2,12 @@
 
 sprite $CommentXs [10x10/16z] Oq06_200f5du8G0e0WFSS1OldCM0OF516KmCSAtSG0m1
 
-sprite $CommentSm [12x12/16z] TSR50O0m0C30u4xsdnPtsdiTRycWDbj7TpLugV0sH4xuDVdP1dJezz7LN6O
+sprite $CommentSm [12x12/16z] TSR50O0m0C30u4xsdnPtsdiT7uFQR1lTrU2bmjiGEU7Nf6SRqA7VHrTpcG4
 
-sprite $CommentMd [16x16/16z] RSa54iGW0C30u0x_V-rTlKKokXDM2PjhLBTKkoe7GtkJuDitQ7rkS1rS1il1z4o8pi175OWlDSVEW9II8o7e-WC
+sprite $CommentMd [16x16/16z] VSV50OK0500WVjg-_QUrkxZXqh-iyy-SLqmgaCNgHHfRn5voU7ruTVZxSFiMNhjZinhvsWz4b1wq
 
-sprite $CommentLg [20x20/16z] ZT3L0SKW50FGu4xsd_Qvj4NF7t8L4zfQ8t5W-INmfdYGtb4yU_zgBjbmWgt4FOKjmnROYF3DdG0gpoIQEmr0i5r1UKtZKYav6BmaqcF37G
+sprite $CommentLg [20x20/16z] ZT150eHG081Gx9RxdtOwzTTRieI4kcdgYX-zRxpK_bYuQ_q7r1w19qFbsMAPpRFECpoPwJq2Tl_LvzO0bUS5czhHBTksJZKFYuuKk08
 
-!procedure Comment($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Comment', $name, $tech)
+!procedure Comment($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Comment', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BowlRice')
 
 ' renders the element
-BowlRice('BowlRice', 'Bowl Rice', 'an optional tech label')
+BowlRice('BowlRice', 'Bowl Rice', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BowlRice')
 
 ' renders the element
-BowlRice('BowlRice', 'Bowl Rice', 'an optional tech label')
+BowlRice('BowlRice', 'Bowl Rice', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

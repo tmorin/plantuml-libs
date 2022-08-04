@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/KipSign')
 
 ' renders the element
-KipSign('KipSign', 'Kip Sign', 'an optional tech label')
+KipSign('KipSign', 'Kip Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/KipSign')
 
 ' renders the element
-KipSign('KipSign', 'Kip Sign', 'an optional tech label')
+KipSign('KipSign', 'Kip Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Regular/ObjectGroup
 
-sprite $ObjectGroupXs [11x10/16z] JSR50O100C2muaxtdnOvpoiqBF0cy4RK1SOvTgrTDFIpbTx6EWUAvnIulW
+sprite $ObjectGroupXs [11x10/16z] JSR50O100C2muaxtdnOvpoiqBF0cy4RK1OOvTgrTDFIpbTx6EWUAvnIulW
 
-sprite $ObjectGroupSm [13x12/16z] LSUr0S0m00CmDyp-_zk6GPlmYBGJ9SWqP2OuhsAC7m1-DQpoa--xKkXwK7qyOMLR4Ygb56fu58Y0AUC7
+sprite $ObjectGroupSm [13x12/16z] LST50G0n00InBNF7lzfZp2_wQQGBHj1FWwvSR6jD6xI5pVZ5c4ycwOXsl84hNHjhhRRmcZ9Lbw4L
 
-sprite $ObjectGroupMd [17x16/16z] ZSx50GGX0CNGuCxllzjr7NruJh3K7M-bGDSFHxvkBruo617QbUSg2gv1ToV2d7z1gi-0kM9yXQkkg-yWNUL725mPVqKJTAc_FR_-pO3Xmy05
+sprite $ObjectGroupMd [17x16/16z] ZSx50SC03C10jM7K_jE6cUzdDcTbm2BBkjYT7wd-5mf8K7J-TE8nuU13eguF2Ssd1ByErIR1zCusOIyT4-Fh_mw5Gs-vc5xVugG5
 
 sprite $ObjectGroupLg [22x20/16z] {
-bT250O0W04JHenlstrRQhcy_6zn49NOnMJ2T0zIb8gMuUs0vBWhcQervaar3kr7jDJRLVvJarVcvHULKearEm-wqPz9P2vqrDcL3MMDUeZ15URbhKtau8E_6
-p8jjun_FBG
+bT3L0O0m5CNGYplPVrhSgURl7QGYIqbcc1F-IRbH1QEUxJCewRPspIXt7TYgtZhkMaSfyF_lglcbgfkbMkrRznh-kj9VnrtJKvETqxL4zQefK3vg02cptLbV
+F8DQvcO
 }
 
-!procedure ObjectGroup($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Regular/ObjectGroup', $name, $tech)
+!procedure ObjectGroup($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/ObjectGroup', $name, $tech, $desc)
 !endprocedure

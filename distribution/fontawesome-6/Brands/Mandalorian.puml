@@ -1,19 +1,16 @@
 ' definition of the Item fontawesome-6/Brands/Mandalorian
 
-sprite $MandalorianXs [8x10/16z] LS770O1040GWp5xQwRzRtmAEDa3IuAM3z3Uqj4WJsqaCMoDcjitVWGy
+sprite $MandalorianXs [8x10/16z] LS770O1040GWp5xQwRzRtmAEDa3IuAM3z3Uqj4WJJcBGY1cRlmCV
 
-sprite $MandalorianSm [10x12/16z] DSQr0GCm0C0mXpd-_zfoDOctCVZeJVaOVPDu4_ni9LqAsQ044yBCa4LO4v0RcOMyUUia_k8_6U09
+sprite $MandalorianSm [10x12/16z] DOg54S0m30FLC6l_RNkc3zW227D26Ps4qlj1req0TLkPt98NVZBuIRQA6BBjfUttOLNa0w4X8VXYAVBz
 
-sprite $MandalorianMd [14x16/16z] {
-JSU50SH030F1TNnCwh_QX_0O1O1RpOLJc5aQdBQrr0EdmNAMSL29h1cFa8BAb6a2PCcbWbG12KAVnzC4XE20DbJWM2WmCp2oWGbGZIHVMEJaDDuo3xF08vpX
-2m
-}
+sprite $MandalorianMd [14x16/16z] JSV5WSGm00GmcSBnz5_juP9-0is-RXxglION3tFch1ukiveUidNp7i1esUwKt32IbgoI7Gdzl4auWjuRKcKW6wIx5rnheGJPXwLDceVcy6drLahtrXxv1W
 
 sprite $MandalorianLg [17x20/16z] {
-NOq50iCm3CIk0NT1_V-typokmef1GPQLc-c3RGFwLoGoKBwYP-Xgtu2kj2JInz24CRuvcmKSeA3J36W5jXm_n_48q8te1ASqPqbI1wbYRjVeSXwY4RSQH-LG
-so5o24FABlrcqwzd56tuiLixzSjim_w4jLxrHnlv8fR-gMzn1m
+NOu50WCX30GNIniucF-_jZstGUEhbIJBNzE93GFgvOWa85-E6fUudtQeYbqYdXvSPDfLC-X00AquRe1768kTeGL0-cwJmAGsvIZLnPqMMxsjiXQ7i_xA-XI2
+VAoEi3eCAMu_cwHWgpQ7hE7-qPt9cpqSnMlH0s_fvUXwKWx77m
 }
 
-!procedure Mandalorian($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Mandalorian', $name, $tech)
+!procedure Mandalorian($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Mandalorian', $name, $tech, $desc)
 !endprocedure

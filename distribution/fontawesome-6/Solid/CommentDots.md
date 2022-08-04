@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CommentDots')
 
 ' renders the element
-CommentDots('CommentDots', 'Comment Dots', 'an optional tech label')
+CommentDots('CommentDots', 'Comment Dots', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CommentDots')
 
 ' renders the element
-CommentDots('CommentDots', 'Comment Dots', 'an optional tech label')
+CommentDots('CommentDots', 'Comment Dots', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/ChartBar')
 
 ' renders the element
-ChartBar('ChartBar', 'Chart Bar', 'an optional tech label')
+ChartBar('ChartBar', 'Chart Bar', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/ChartBar')
 
 ' renders the element
-ChartBar('ChartBar', 'Chart Bar', 'an optional tech label')
+ChartBar('ChartBar', 'Chart Bar', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

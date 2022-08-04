@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CandyCane')
 
 ' renders the element
-CandyCane('CandyCane', 'Candy Cane', 'an optional tech label')
+CandyCane('CandyCane', 'Candy Cane', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CandyCane')
 
 ' renders the element
-CandyCane('CandyCane', 'Candy Cane', 'an optional tech label')
+CandyCane('CandyCane', 'Candy Cane', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

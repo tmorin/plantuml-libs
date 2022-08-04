@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Seedling')
 
 ' renders the element
-Seedling('Seedling', 'Seedling', 'an optional tech label')
+Seedling('Seedling', 'Seedling', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Seedling')
 
 ' renders the element
-Seedling('Seedling', 'Seedling', 'an optional tech label')
+Seedling('Seedling', 'Seedling', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

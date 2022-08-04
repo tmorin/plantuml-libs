@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PlugCircleMinus')
 
 ' renders the element
-PlugCircleMinus('PlugCircleMinus', 'Plug Circle Minus', 'an optional tech label')
+PlugCircleMinus('PlugCircleMinus', 'Plug Circle Minus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PlugCircleMinus')
 
 ' renders the element
-PlugCircleMinus('PlugCircleMinus', 'Plug Circle Minus', 'an optional tech label')
+PlugCircleMinus('PlugCircleMinus', 'Plug Circle Minus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

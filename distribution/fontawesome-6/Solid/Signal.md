@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Signal')
 
 ' renders the element
-Signal('Signal', 'Signal', 'an optional tech label')
+Signal('Signal', 'Signal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Signal')
 
 ' renders the element
-Signal('Signal', 'Signal', 'an optional tech label')
+Signal('Signal', 'Signal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

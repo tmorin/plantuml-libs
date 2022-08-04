@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Line')
 
 ' renders the element
-Line('Line', 'Line', 'an optional tech label')
+Line('Line', 'Line', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Line')
 
 ' renders the element
-Line('Line', 'Line', 'an optional tech label')
+Line('Line', 'Line', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

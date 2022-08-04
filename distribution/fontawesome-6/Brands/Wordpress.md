@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Wordpress')
 
 ' renders the element
-Wordpress('Wordpress', 'Wordpress', 'an optional tech label')
+Wordpress('Wordpress', 'Wordpress', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Wordpress')
 
 ' renders the element
-Wordpress('Wordpress', 'Wordpress', 'an optional tech label')
+Wordpress('Wordpress', 'Wordpress', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

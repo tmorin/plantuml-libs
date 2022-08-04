@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/Award
 
-sprite $AwardXs [7x10/16z] 7Ok50G0W20GVkzr_MpbfFYH54TU3-VVTdEKM5XMzAvH9-PvOpUc1Wx87
+sprite $AwardXs [7x10/16z] 9Kg30G0m34jdx_zhQqO0Cgo-Lbpz_nfilzcpIRez8gZ_vKvgBwCs9
 
-sprite $AwardSm [9x12/16z] 7S650OG0002X-xHb_sajg1fxWA40Ioo5WUh5Y-fDA3G1xrhWyyg_QhQY0RKflqu
+sprite $AwardSm [9x12/16z] 5SY55S10381Gwbxst_OUFnw04s8EcdcewAVGDhLGjwrsQcPucWku0jo-AaUDJt1X
 
-sprite $AwardMd [12x16/16z] BOq54W0n20FtlCx_VtiPcgtWX6HX8kc87fiRx8cAopBZq8UuPATzPB7_se_jJjHaRhZj0eKcjTKVJcATSEN44wAnqeI63whQ0iWnrVW1
+sprite $AwardMd [12x16/16z] FOs54SD030JNR3zT_zr6DDa7iOvWKIZe05t93lhpKMKpmp-0pUmi7xVbN-KBRc_1cee3ZdA1bzQbrKysj3RCS4gNZCOAumhmMPi0zx4QFm
 
 sprite $AwardLg [15x20/16z] {
-JOy50WGX3CI2hZF__-tTT3LeMfIJlNEJnz2ViH4S5jES2pjPOEX32zs0REsunrJ7Tvz94Eb7apLYsRf8ci-J2spdKHvk72wF3CnoQx90RKEQMsA5U2aPA8UM
-9BFUFnaoEoWWhW9sAUSE43Sa7S0F
+LO-55GGX30K7T-Y_s-E_dEsWyGHZPhxiVIvxcBGaY00uIMyQx9yakqH5OQ9kH9H-AgSaC-UdY2udgSbecJqCIwNdYuFm5In7-zeaG4mtGKsEhlGDSDPzSqTq
+l4rY4qnv2R9A0VEcyXd0Afm5l
 }
 
-!procedure Award($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Award', $name, $tech)
+!procedure Award($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Award', $name, $tech, $desc)
 !endprocedure

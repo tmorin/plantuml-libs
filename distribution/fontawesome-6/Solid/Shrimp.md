@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Shrimp')
 
 ' renders the element
-Shrimp('Shrimp', 'Shrimp', 'an optional tech label')
+Shrimp('Shrimp', 'Shrimp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Shrimp')
 
 ' renders the element
-Shrimp('Shrimp', 'Shrimp', 'an optional tech label')
+Shrimp('Shrimp', 'Shrimp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

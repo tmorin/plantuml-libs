@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/DrumstickBite')
 
 ' renders the element
-DrumstickBite('DrumstickBite', 'Drumstick Bite', 'an optional tech label')
+DrumstickBite('DrumstickBite', 'Drumstick Bite', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/DrumstickBite')
 
 ' renders the element
-DrumstickBite('DrumstickBite', 'Drumstick Bite', 'an optional tech label')
+DrumstickBite('DrumstickBite', 'Drumstick Bite', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

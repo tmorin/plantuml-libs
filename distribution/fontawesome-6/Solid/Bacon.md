@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Bacon')
 
 ' renders the element
-Bacon('Bacon', 'Bacon', 'an optional tech label')
+Bacon('Bacon', 'Bacon', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Bacon')
 
 ' renders the element
-Bacon('Bacon', 'Bacon', 'an optional tech label')
+Bacon('Bacon', 'Bacon', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

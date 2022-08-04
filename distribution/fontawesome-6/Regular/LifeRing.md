@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/LifeRing')
 
 ' renders the element
-LifeRing('LifeRing', 'Life Ring', 'an optional tech label')
+LifeRing('LifeRing', 'Life Ring', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/LifeRing')
 
 ' renders the element
-LifeRing('LifeRing', 'Life Ring', 'an optional tech label')
+LifeRing('LifeRing', 'Life Ring', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

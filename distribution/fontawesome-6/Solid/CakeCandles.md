@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CakeCandles')
 
 ' renders the element
-CakeCandles('CakeCandles', 'Cake Candles', 'an optional tech label')
+CakeCandles('CakeCandles', 'Cake Candles', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CakeCandles')
 
 ' renders the element
-CakeCandles('CakeCandles', 'Cake Candles', 'an optional tech label')
+CakeCandles('CakeCandles', 'Cake Candles', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Couch')
 
 ' renders the element
-Couch('Couch', 'Couch', 'an optional tech label')
+Couch('Couch', 'Couch', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Couch')
 
 ' renders the element
-Couch('Couch', 'Couch', 'an optional tech label')
+Couch('Couch', 'Couch', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

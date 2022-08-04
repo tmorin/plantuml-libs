@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Fish')
 
 ' renders the element
-Fish('Fish', 'Fish', 'an optional tech label')
+Fish('Fish', 'Fish', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Fish')
 
 ' renders the element
-Fish('Fish', 'Fish', 'an optional tech label')
+Fish('Fish', 'Fish', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

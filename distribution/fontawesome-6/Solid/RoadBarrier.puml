@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/RoadBarrier
 
-sprite $RoadBarrierXs [12x10/16z] TKY30G0n4CkRRVQVjZRkOXGd_XHf3hml8pR_Yx5DkWo-kvqbAUryVcuMY3VDvvsor
+sprite $RoadBarrierXs [12x10/16z] TKY30G0n4CkRRVQVjZRkOXGd_XHf3Zml8pR_Yx5DkWo-kvqbAM7dpyq2yQRvF5EM6W
 
-sprite $RoadBarrierSm [15x12/16z] bOh50O0m54CJtD_-q-9GkVLhJ6drn0oeQ_q3q8hMDA8pWABXqXg_4N8JHLL6tSTqEG
+sprite $RoadBarrierSm [15x12/16z] Oq05xFp8F7v-VaP61ZZY1m8M1YXY1NCPu0WXoGGYCILHJ2QDoy2EpEK1
 
-sprite $RoadBarrierMd [20x16/16z] fOu52a0X44J7RkV-f_sTYwGFjXCZAWIgaaOsaQorm1vIOJPRkUDmYjt4WmTmczXBt97oLukJRUQmeksmxcepK0eVQHpyDvNhL90vA4ZK2W
+sprite $RoadBarrierMd [20x16/16z] fOw53O1G34Il5ldIstzQt27AI-gABzexG-exnTOgR96ssCOPnoa1Bi0diKtyrXQR9QyjhpQxj2b4S97EZ_z-vPBook634G
 
-sprite $RoadBarrierLg [25x20/16z] nO_50K0X34E3Ezb_sk-kHnukRHEyOl64qeN47K7oyK5o0JXDsuE17oT7wd5duLu2i0Mu9SfkKJy1_Xhr7K3841HK26RRnLU3ZHyi8nuWyKOF
+sprite $RoadBarrierLg [25x20/16z] nOy52e1050MVtSxzRoksRfCxmE-Kbqekod81LmBm9gwSBNPgjRleTj53irlXXhsYsaNpT2LkUBh23QWSXd8NrID6xuEP4osZEo4V6m
 
-!procedure RoadBarrier($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/RoadBarrier', $name, $tech)
+!procedure RoadBarrier($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/RoadBarrier', $name, $tech, $desc)
 !endprocedure

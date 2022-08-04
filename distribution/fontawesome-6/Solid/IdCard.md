@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/IdCard')
 
 ' renders the element
-IdCard('IdCard', 'Id Card', 'an optional tech label')
+IdCard('IdCard', 'Id Card', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/IdCard')
 
 ' renders the element
-IdCard('IdCard', 'Id Card', 'an optional tech label')
+IdCard('IdCard', 'Id Card', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

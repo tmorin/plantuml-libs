@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/CreativeCommonsSamplingPlus')
 
 ' renders the element
-CreativeCommonsSamplingPlus('CreativeCommonsSamplingPlus', 'Creative Commons Sampling Plus', 'an optional tech label')
+CreativeCommonsSamplingPlus('CreativeCommonsSamplingPlus', 'Creative Commons Sampling Plus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/CreativeCommonsSamplingPlus')
 
 ' renders the element
-CreativeCommonsSamplingPlus('CreativeCommonsSamplingPlus', 'Creative Commons Sampling Plus', 'an optional tech label')
+CreativeCommonsSamplingPlus('CreativeCommonsSamplingPlus', 'Creative Commons Sampling Plus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

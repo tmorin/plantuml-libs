@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Shower')
 
 ' renders the element
-Shower('Shower', 'Shower', 'an optional tech label')
+Shower('Shower', 'Shower', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Shower')
 
 ' renders the element
-Shower('Shower', 'Shower', 'an optional tech label')
+Shower('Shower', 'Shower', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CircleStop')
 
 ' renders the element
-CircleStop('CircleStop', 'Circle Stop', 'an optional tech label')
+CircleStop('CircleStop', 'Circle Stop', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CircleStop')
 
 ' renders the element
-CircleStop('CircleStop', 'Circle Stop', 'an optional tech label')
+CircleStop('CircleStop', 'Circle Stop', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

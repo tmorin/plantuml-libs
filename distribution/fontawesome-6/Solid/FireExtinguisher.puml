@@ -2,12 +2,12 @@
 
 sprite $FireExtinguisherXs [10x10/16z] Os1Wu6TZ008k48kVWny864044uXWvmPnWO0PA0bb4c9n0W6g6
 
-sprite $FireExtinguisherSm [12x12/16z] dSYr0K0X303H-wvm-q-BbdIyU835XJf-u3SkLgows-5Q_goF6hzV3NHMStit_3C
+sprite $FireExtinguisherSm [12x12/16z] dSYt0S0m24JHmvNpttzQOgbEZumIQcyLloWoE1Z2wcyNy5yly6bGzlQn_0C
 
-sprite $FireExtinguisherMd [16x16/16z] hSp50O0m40J04noIxR_QkB-Pr-bImB2K7Qdu02P14je75veqjtYVsiF6Umc_QVI238AT4f5TMr3sBRtvkHTDMl-OfFNlTEy1
+sprite $FireExtinguisherMd [16x16/16z] hSYr0SD040NH4Ujm-g_Mi6UE_P8FtDaPzYXLOJO0sSCN9hLRydFRgJh14bUHfheHfdbR33pLdzt-lAU1fzm2JyN0S0K
 
-sprite $FireExtinguisherLg [20x20/16z] pSmt3WCm34DHkdV_-zys4234QyQyJOMK2L3bqZmo2v3KviN8RA3tXPF2WPtWKGGi4cF72PfbaPGztbZogqjreGc-V71P3wx_mMwueYUwy6FVD_i1
+sprite $FireExtinguisherLg [20x20/16z] lSq53a9H34JH-V9SxlvtIrhSYN6YrP63g9Ej3fa6U3anCXt8kU6yDw0lt91LThAk-TA3uBUIrjWmYIRS9JWsLBaqBpXPN_JYYrx-Sw-S15qj9_hntwgJ0m
 
-!procedure FireExtinguisher($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FireExtinguisher', $name, $tech)
+!procedure FireExtinguisher($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FireExtinguisher', $name, $tech, $desc)
 !endprocedure

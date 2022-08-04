@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/FaceSmileBeam')
 
 ' renders the element
-FaceSmileBeam('FaceSmileBeam', 'Face Smile Beam', 'an optional tech label')
+FaceSmileBeam('FaceSmileBeam', 'Face Smile Beam', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/FaceSmileBeam')
 
 ' renders the element
-FaceSmileBeam('FaceSmileBeam', 'Face Smile Beam', 'an optional tech label')
+FaceSmileBeam('FaceSmileBeam', 'Face Smile Beam', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

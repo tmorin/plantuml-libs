@@ -1,19 +1,19 @@
 ' definition of the Item fontawesome-6/Solid/BuildingWheat
 
-sprite $BuildingWheatXs [12x10/16z] FSY50G0X30J1VSMv_gl5OU910vsc1ABrvo8cywWnCPhrdv8-MkU6c2xTEdzmUu-wr43RVs3l4ge
+sprite $BuildingWheatXs [12x10/16z] FOg50G0X483uxcV_QMr5hy426IiVIChBnFiTiudZVO-wxuuhnIGvavDZ3rVltwgJpHtelM84
 
-sprite $BuildingWheatSm [15x12/16z] JOg55S0W4CLITxB_jdquGUw-OEQ3Y9KPZFBr2-5ptbvdbHTcckpb1pGOuZShwr2Ungxp3YnTnfwH_OwIRt6F4gBq1hycNz4V
+sprite $BuildingWheatSm [15x12/16z] HSgr0OG00CNGdE7mzj_s6YJLbmJOgyf5fTZinx7hjmbjzUwkZxmMXuD3zFR8BoyF3TNxgRI1puBQtpvGo5BsksxY3m
 
 sprite $BuildingWheatMd [20x16/16z] {
-NOm5iaGX3C12-OBd_hVTwQo_eBMmVVBFdO-K1j02_CfL71JjzRIQju7XM6fbPS3AN75CzQpxllji5z-QG5dQolalUHjJ2Q--p9yKtlVTHxduZWsENxbGcdV6
-ppt7dtNkOW9e-WSGypkdXFv_vC3Cxni
+NOw30KGn5C3IOvtzf_rsYcVGtFcpSReK80RmuJE3nbUFh_aNV9ch-gB2_0i6Sr5xtQu0naU_cW6gHlgV-PUi19_z3CMkzlqoyzol6w5xXPVotOpySWRUlafZ
+Cr2b981ozUsx_4_VlaiR0G
 }
 
 sprite $BuildingWheatLg [25x20/16z] {
-VOy54iGW5CM2rflxttPRMBSCRonyO_Q9n9tP5m87AGA-4ZdGRs9UJx5NJxskO2QUOXUDBbtCO2JSHV2SNUkHmRNEVsS4o0d2koWA94zWMy7IXXyHF7WVllQo
-mIE3-v6bJgSWZV5uVCuOELXy5rbNs7qdeeQecuqz3pV1OghEzyNe9iPCezn5lXzOODHt4Mu7fXUnGzLKZbm
+TOu5WiKW5CI2jiLo_zEkVDVWF9cX-K3aHlC90680_13GJu5ZeAoYmXXW0eKbYlqSEC3u56XghLetHsr-r_ZkgYYGpWzc1pD1GS_Rc_ZGa7LJItAbR4-70d4F
+QGyVD7Q0xWi47R1y1LIYJa-icAy1kh7OkBtB-H8pS7iAnFCbQO5TNmDSj_GKM50q_gzV
 }
 
-!procedure BuildingWheat($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BuildingWheat', $name, $tech)
+!procedure BuildingWheat($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BuildingWheat', $name, $tech, $desc)
 !endprocedure

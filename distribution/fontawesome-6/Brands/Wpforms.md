@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Wpforms')
 
 ' renders the element
-Wpforms('Wpforms', 'Wpforms', 'an optional tech label')
+Wpforms('Wpforms', 'Wpforms', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Wpforms')
 
 ' renders the element
-Wpforms('Wpforms', 'Wpforms', 'an optional tech label')
+Wpforms('Wpforms', 'Wpforms', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

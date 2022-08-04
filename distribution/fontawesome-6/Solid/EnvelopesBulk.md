@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/EnvelopesBulk')
 
 ' renders the element
-EnvelopesBulk('EnvelopesBulk', 'Envelopes Bulk', 'an optional tech label')
+EnvelopesBulk('EnvelopesBulk', 'Envelopes Bulk', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/EnvelopesBulk')
 
 ' renders the element
-EnvelopesBulk('EnvelopesBulk', 'Envelopes Bulk', 'an optional tech label')
+EnvelopesBulk('EnvelopesBulk', 'Envelopes Bulk', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

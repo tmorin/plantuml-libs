@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Affiliatetheme')
 
 ' renders the element
-Affiliatetheme('Affiliatetheme', 'Affiliatetheme', 'an optional tech label')
+Affiliatetheme('Affiliatetheme', 'Affiliatetheme', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Affiliatetheme')
 
 ' renders the element
-Affiliatetheme('Affiliatetheme', 'Affiliatetheme', 'an optional tech label')
+Affiliatetheme('Affiliatetheme', 'Affiliatetheme', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

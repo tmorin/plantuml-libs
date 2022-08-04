@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PeopleCarryBox')
 
 ' renders the element
-PeopleCarryBox('PeopleCarryBox', 'People Carry Box', 'an optional tech label')
+PeopleCarryBox('PeopleCarryBox', 'People Carry Box', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PeopleCarryBox')
 
 ' renders the element
-PeopleCarryBox('PeopleCarryBox', 'People Carry Box', 'an optional tech label')
+PeopleCarryBox('PeopleCarryBox', 'People Carry Box', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

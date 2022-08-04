@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Box')
 
 ' renders the element
-Box('Box', 'Box', 'an optional tech label')
+Box('Box', 'Box', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Box')
 
 ' renders the element
-Box('Box', 'Box', 'an optional tech label')
+Box('Box', 'Box', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Magento')
 
 ' renders the element
-Magento('Magento', 'Magento', 'an optional tech label')
+Magento('Magento', 'Magento', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Magento')
 
 ' renders the element
-Magento('Magento', 'Magento', 'an optional tech label')
+Magento('Magento', 'Magento', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

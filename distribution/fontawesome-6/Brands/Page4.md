@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Page4')
 
 ' renders the element
-Page4('Page4', 'Page4', 'an optional tech label')
+Page4('Page4', 'Page4', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Page4')
 
 ' renders the element
-Page4('Page4', 'Page4', 'an optional tech label')
+Page4('Page4', 'Page4', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

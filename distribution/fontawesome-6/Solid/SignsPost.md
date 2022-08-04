@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SignsPost')
 
 ' renders the element
-SignsPost('SignsPost', 'Signs Post', 'an optional tech label')
+SignsPost('SignsPost', 'Signs Post', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SignsPost')
 
 ' renders the element
-SignsPost('SignsPost', 'Signs Post', 'an optional tech label')
+SignsPost('SignsPost', 'Signs Post', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

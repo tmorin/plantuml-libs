@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Recycle')
 
 ' renders the element
-Recycle('Recycle', 'Recycle', 'an optional tech label')
+Recycle('Recycle', 'Recycle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Recycle')
 
 ' renders the element
-Recycle('Recycle', 'Recycle', 'an optional tech label')
+Recycle('Recycle', 'Recycle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,12 +2,12 @@
 
 sprite $ToolboxXs [10x10/16z] Oq06_200OS4mLi00mIWQeHW1sE0i
 
-sprite $ToolboxSm [12x12/16z] TSc50G0X2010Mvhzf_tkEAN3NVBPsakVafSfHJPbPXUU5hzWliq102bCAJI0QIpBNdncSs6_YtOQ0G
+sprite $ToolboxSm [12x12/16z] TOk50O1030Dng-s_BO5tkxfaAfdjm_Ly8jdojQH2HCQ4nP3hktrndb1-QJzFZCk_P_lGhr0bd3Jn0W
 
-sprite $ToolboxMd [16x16/16z] XSs50S1020F0r0L8zf-sxdhl0k29SLIjnrQp53CNHihdLwDi9BSIe8vgrxyQdERrdC6dQZRCkD0WHso_HhHrlgFEa9pr
+sprite $ToolboxMd [16x16/16z] XSk50S1020F0r0L8zf-sxdgl69uOHzKQjfebcBamKZfNZRAHt7A0EgfT_sfmkjSumJYLmeOR5vegCTsk6MszxtY9ST43
 
-sprite $ToolboxLg [20x20/16z] bSk53SG034FHNuP4yVxRdjmUSvyWQ3xgnnqtaowu2asZfJekKWssg6SpH9Gop7NrIi_ezQ9qnCme0rtrj3B8lRnQhANPAamkBzcBYf9bw8XHh-3L2G
+sprite $ToolboxLg [20x20/16z] bSk5ZGD04CLGB_F-_hizpOKvUGABp4i-771HTCBPK0fcod4o1QR9W_5ZRCrXh1r8kaVKWwrVLB8CwCpZP60UygWPTomKo-DxjCUMcKE_o7e4Z_u
 
-!procedure Toolbox($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Toolbox', $name, $tech)
+!procedure Toolbox($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Toolbox', $name, $tech, $desc)
 !endprocedure

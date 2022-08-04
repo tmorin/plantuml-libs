@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/YinYang')
 
 ' renders the element
-YinYang('YinYang', 'Yin Yang', 'an optional tech label')
+YinYang('YinYang', 'Yin Yang', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/YinYang')
 
 ' renders the element
-YinYang('YinYang', 'Yin Yang', 'an optional tech label')
+YinYang('YinYang', 'Yin Yang', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

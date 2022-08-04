@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SquareCaretDown')
 
 ' renders the element
-SquareCaretDown('SquareCaretDown', 'Square Caret Down', 'an optional tech label')
+SquareCaretDown('SquareCaretDown', 'Square Caret Down', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SquareCaretDown')
 
 ' renders the element
-SquareCaretDown('SquareCaretDown', 'Square Caret Down', 'an optional tech label')
+SquareCaretDown('SquareCaretDown', 'Square Caret Down', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

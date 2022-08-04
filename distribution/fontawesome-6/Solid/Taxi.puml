@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/Taxi
 
-sprite $TaxiXs [11x10/16z] NSR50O100C2muaxtdnRdBAzmMRNbfSgjql_EN5m0kTM2_f15jUx5Nr4UUW8
+sprite $TaxiXs [11x10/16z] NSR50O100C2muaxtdnRdBAy0hDhoKltttnd01P1R9UWFMLJfn5zH7de2
 
-sprite $TaxiSm [13x12/16z] DSU53S1G58LGwbxsdxPoN_w90J_rWjBvePp6c74PFvTy3WbxmBiBRp1YmHkZQZI6J9DPof6XBDul
+sprite $TaxiSm [13x12/16z] HOc54G0n383U_Sl-qrQYL0ANQG3y8XQOVWYR1CVI-Hd-CWdCuokpGEcUd7rXhRPfp2EI4QVoIapAIMa
 
-sprite $TaxiMd [17x16/16z] TSd50GD13CNGlunZzLzjm13EEqfoAq2d9-wQ7ZRSf4GnkPrZT2072ZD715F8TO0b6AI5DvsCSoRrCCgG2ATM3nYf4U7fNr2Pxg7n32CCLm
+sprite $TaxiMd [17x16/16z] TSl50GD134DHBUFuzrzjm13EEmhaLW2zuAxfOSDDIXIJspbw1tAWC794O4eG3on1BosyaOnp8lNGoP08frOFC58ZWgT_WSfu3zfBC41t1G
 
 sprite $TaxiLg [22x20/16z] {
-dS-r0GCn40NHBpwU_girxecS-OKZN9c3jwX1u6kiiTQ-LKUDZixLlPJYrmhUAcowmQwF1AxM7Ue5ghnzEZEvlei_f0BdHhFULTfhzCfMlQvQitQhatzgSCrM
-grFp_La4Qh9HzGG
+dSv50eH044FHtugJ-vzsh9bWEzwoD6ncVMLEeXfEqhrAbisO3jR3fnIRGGeU7Gzhapy5LoV91x0WHO2gYxKrRo1BooZPyA_2v2AKhHfONSsChNhpe1h1HbSv
+QCdYfLebyGO
 }
 
-!procedure Taxi($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Taxi', $name, $tech)
+!procedure Taxi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Taxi', $name, $tech, $desc)
 !endprocedure

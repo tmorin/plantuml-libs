@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ChartGantt')
 
 ' renders the element
-ChartGantt('ChartGantt', 'Chart Gantt', 'an optional tech label')
+ChartGantt('ChartGantt', 'Chart Gantt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ChartGantt')
 
 ' renders the element
-ChartGantt('ChartGantt', 'Chart Gantt', 'an optional tech label')
+ChartGantt('ChartGantt', 'Chart Gantt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

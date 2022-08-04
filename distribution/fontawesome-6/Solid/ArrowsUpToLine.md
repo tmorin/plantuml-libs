@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowsUpToLine')
 
 ' renders the element
-ArrowsUpToLine('ArrowsUpToLine', 'Arrows Up To Line', 'an optional tech label')
+ArrowsUpToLine('ArrowsUpToLine', 'Arrows Up To Line', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowsUpToLine')
 
 ' renders the element
-ArrowsUpToLine('ArrowsUpToLine', 'Arrows Up To Line', 'an optional tech label')
+ArrowsUpToLine('ArrowsUpToLine', 'Arrows Up To Line', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

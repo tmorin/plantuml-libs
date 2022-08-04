@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Table')
 
 ' renders the element
-Table('Table', 'Table', 'an optional tech label')
+Table('Table', 'Table', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Table')
 
 ' renders the element
-Table('Table', 'Table', 'an optional tech label')
+Table('Table', 'Table', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Water')
 
 ' renders the element
-Water('Water', 'Water', 'an optional tech label')
+Water('Water', 'Water', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Water')
 
 ' renders the element
-Water('Water', 'Water', 'an optional tech label')
+Water('Water', 'Water', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

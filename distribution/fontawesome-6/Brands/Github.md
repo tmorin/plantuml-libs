@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Github')
 
 ' renders the element
-Github('Github', 'Github', 'an optional tech label')
+Github('Github', 'Github', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Github')
 
 ' renders the element
-Github('Github', 'Github', 'an optional tech label')
+Github('Github', 'Github', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BatteryThreeQuarters')
 
 ' renders the element
-BatteryThreeQuarters('BatteryThreeQuarters', 'Battery Three Quarters', 'an optional tech label')
+BatteryThreeQuarters('BatteryThreeQuarters', 'Battery Three Quarters', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BatteryThreeQuarters')
 
 ' renders the element
-BatteryThreeQuarters('BatteryThreeQuarters', 'Battery Three Quarters', 'an optional tech label')
+BatteryThreeQuarters('BatteryThreeQuarters', 'Battery Three Quarters', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

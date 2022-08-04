@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/RectangleXmark')
 
 ' renders the element
-RectangleXmark('RectangleXmark', 'Rectangle Xmark', 'an optional tech label')
+RectangleXmark('RectangleXmark', 'Rectangle Xmark', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/RectangleXmark')
 
 ' renders the element
-RectangleXmark('RectangleXmark', 'Rectangle Xmark', 'an optional tech label')
+RectangleXmark('RectangleXmark', 'Rectangle Xmark', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

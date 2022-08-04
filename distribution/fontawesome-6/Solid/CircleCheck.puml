@@ -2,15 +2,12 @@
 
 sprite $CircleCheckXs [10x10/16z] HKe30W0W45js-_zhCuuJHWLQpEAgS05f7c9OzrWe2zYd_1p21O0ve0C
 
-sprite $CircleCheckSm [12x12/16z] Om01RduE1WZWXm084yxXXmDU61j4SwFASp10cHn0p0GL1PFiC3rmm8umb0za6IzC5
+sprite $CircleCheckSm [12x12/16z] Om01RduE1WZWXm084yxXXmDU61j4SwFASp10cHn0p0WL1PFiC3rmm8umb0za6IzC5
 
-sprite $CircleCheckMd [16x16/16z] LOy50WGX201dxVR_hxrOp35fuCNMdXycjGkUFqzVD81-KARpH1rc_x_i4YMoJWkaQGayIyoI1QBO7acxdEaN3NV9t0qvW7ABe8vflW
+sprite $CircleCheckMd [16x16/16z] LO-55SKm202lSMV_QR-K5xie3hpuBlLXqaM9AifYJ77IflFaESpnV_abQcIV5iZJadW4YlofccLP7xr_LWMv68HBvcueyAFT8Zp7D5y
 
-sprite $CircleCheckLg [20x20/16z] {
-PO-54KGn24JtIros_sfFc0WPNXG7359dzL043jg30HN9giXiLQGRkGu06gBMjU6Hj6hekaXt4TLzP41RNcIL-mQKb-TISZ9_pwDgDTf1RgC3aAmAoDGy4Dpf
-DOYZeXFf2m
-}
+sprite $CircleCheckLg [20x20/16z] PP350GGn30Er68xwh_PG3tappp4Reaps6yP5CJO86aKgKAK2bte502vaTqCPnPNS_A_LfBm3XgdEBrjOzAQa5OAIcyqQVB9ZMno0iYgWnagzD6Q9h8d_f3S
 
-!procedure CircleCheck($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CircleCheck', $name, $tech)
+!procedure CircleCheck($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CircleCheck', $name, $tech, $desc)
 !endprocedure

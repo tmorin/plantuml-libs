@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/BasketShopping
 
-sprite $BasketShoppingXs [11x10/16z] LSQ50SG040AmlDI5_QUjQqu0_YuXGDsG3mY4DXUlMgHBnjIAisBv6-HW1W
+sprite $BasketShoppingXs [11x10/16z] LOc50O104CE2Ezb_MlGrfsq1UXA2VCnBUWrhDK7rzcvwEZF45_0CEHZW1W
 
-sprite $BasketShoppingSm [13x12/16z] LSY50GD03CF0AsFg_QSjFoaeW-BepoQaIOxKfOcso07gnYCJCYZtP9FJDztP3S4gZSAzoSuB
+sprite $BasketShoppingSm [13x12/16z] HSk53SC04CNGLsxG-syRKNGMVGG7Nm0HG1-EPGe2UiEnSjQWuR2NVgKU7cCm1dF1Vfkd2m
 
-sprite $BasketShoppingMd [17x16/16z] PSo50SKW303Hgsku_QVzKYyyd0Xi5f2793XogGLMtmdWmA6otlh8GTdO_wCHOOgDHgnXXkodeLLh7TL91LIqMOtMycC5uldH0wE69hV5dvVoOuOl
+sprite $BasketShoppingMd [17x16/16z] ROo30SLG5CLIyxpiF-qtgboJDml8XY8uyACIMDqlR5SggzSV-Q2Vs0CaiUI59ciymA5JqQgrZhuDKD5wDVL5OmMoRJH0hz7Yom1mmx4nmnq
 
 sprite $BasketShoppingLg [22x20/16z] {
-ROs54G0X40E3E-c_sxzxjyKtcG4xliisyO848kjJ5fOr-bI5m7QNcMKFpQkgn7kvChrYQwqZdTs8xB9BxOz_Y_WdOIYC8LlHjLjG285iUiEKBOkT7sl4Xe-5
-yhRZi7FUVgjGEfzuAEbbiJ4VCebP
+RP054i0m3CCyvkZ_lvrturmrhEAYBjhLhr02f8RvBmUcgvIYflk7noEQmc-hOtdbp93AbO7gecVrsx4IPQkc92NCjlardSzhsnOM0Gg_Hjj8zjfcqIhRxR94
+lBDT9xJofzP1cwnEuYS7cnq
 }
 
-!procedure BasketShopping($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BasketShopping', $name, $tech)
+!procedure BasketShopping($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BasketShopping', $name, $tech, $desc)
 !endprocedure

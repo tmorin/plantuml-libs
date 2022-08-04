@@ -4,10 +4,10 @@ sprite $TableCellsXs [10x10/16z] Oq00VWHWu6Tbu6S2YR3nSxBnixC1MLXayUf0o0C
 
 sprite $TableCellsSm [12x12/16z] Oq06_CY0XmU4m9WVA0L488mA-FX028ZHr10sXmT91GCN7mom0G
 
-sprite $TableCellsMd [16x16/16z] fSqt6W9024JXcMy14-ox_ssrCTlv4og2FkL-CIu-rLgmLj5h3R0aa1PdQO3fXkvXT_D3s6075_lN_ktjem5__ZVl9B_I5G
+sprite $TableCellsMd [16x16/16z] fOq34WGn50LVnUxxdtOnLd4w-PQk-76WAt356mF619en7J0II9OYTQ2t1grrnj-vO-T-HvMUvdzdDmMyl2_EwC8N
 
-sprite $TableCellsLg [20x20/16z] hP350S0m30DLCfIq_xIbPwFyVE6O3Odzc04sx3ib0CZbsqTWxFwP6PdVxcPEJKqC9yCig2ckGvM2jbap13S
+sprite $TableCellsLg [20x20/16z] hS_50O0m44JHWUXYl_zgiLli12_kMNMvoYpHs3Qw945uw_lSD9oBCOAzTOenqVVj3USSc7C1idEHlf_ZIBIqKVFgk
 
-!procedure TableCells($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TableCells', $name, $tech)
+!procedure TableCells($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TableCells', $name, $tech, $desc)
 !endprocedure

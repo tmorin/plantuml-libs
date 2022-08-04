@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Usps')
 
 ' renders the element
-Usps('Usps', 'Usps', 'an optional tech label')
+Usps('Usps', 'Usps', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Usps')
 
 ' renders the element
-Usps('Usps', 'Usps', 'an optional tech label')
+Usps('Usps', 'Usps', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

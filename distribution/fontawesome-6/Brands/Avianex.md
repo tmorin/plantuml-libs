@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Avianex')
 
 ' renders the element
-Avianex('Avianex', 'Avianex', 'an optional tech label')
+Avianex('Avianex', 'Avianex', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Avianex')
 
 ' renders the element
-Avianex('Avianex', 'Avianex', 'an optional tech label')
+Avianex('Avianex', 'Avianex', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

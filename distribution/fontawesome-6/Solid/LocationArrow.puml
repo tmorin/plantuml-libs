@@ -2,12 +2,12 @@
 
 sprite $LocationArrowXs [8x10/16z] Oq05_12I7qWpymC13uWDue80WcQ5qWmm6Wu
 
-sprite $LocationArrowSm [10x12/16z] PSR50O100C2muaxtdnQNaxn2hkPIgW2TwWIp5_31HMs-yMxzHhRB3W
+sprite $LocationArrowSm [10x12/16z] Oy04B52QdvyVHB7o0m4t0mCFFnW0nQ40hee5peBhv8Ep610iP
 
-sprite $LocationArrowMd [14x16/16z] ZSUr0SC00C0mjs7q_zU6cRM9J_wLCedjLFH-XOCV4DLEe70HWYjcTlBTsAxUBToDxN9MePor
+sprite $LocationArrowMd [14x16/16z] ZSZ50O100CJ0uCxsNoskv_DBI3D9N6fj9Ww33coAMPTZtqhGYvis_Q_urloh_5Tyg-LL2jiA
 
-sprite $LocationArrowLg [17x20/16z] bSp50S1044BH7_VGVxLncUMsxyO8PEfLXLHEaYPUjIxDdOf1ZplgCm2TWW8KBTZWhWmzs63mGU43R53x01kC9DxApnVT3W
+sprite $LocationArrowLg [17x20/16z] bSg54S0m5CDG_p9h_sdBJ4dUeNLMe0BJmMgWtcV2B5vdoMgPxChzUnmuQ-yXqO69Rg6y1xb2SW-wXUeUx1gEUJC
 
-!procedure LocationArrow($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/LocationArrow', $name, $tech)
+!procedure LocationArrow($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/LocationArrow', $name, $tech, $desc)
 !endprocedure

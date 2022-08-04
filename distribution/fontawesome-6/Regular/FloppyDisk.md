@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/FloppyDisk')
 
 ' renders the element
-FloppyDisk('FloppyDisk', 'Floppy Disk', 'an optional tech label')
+FloppyDisk('FloppyDisk', 'Floppy Disk', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/FloppyDisk')
 
 ' renders the element
-FloppyDisk('FloppyDisk', 'Floppy Disk', 'an optional tech label')
+FloppyDisk('FloppyDisk', 'Floppy Disk', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

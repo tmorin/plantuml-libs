@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/LocationPin')
 
 ' renders the element
-LocationPin('LocationPin', 'Location Pin', 'an optional tech label')
+LocationPin('LocationPin', 'Location Pin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/LocationPin')
 
 ' renders the element
-LocationPin('LocationPin', 'Location Pin', 'an optional tech label')
+LocationPin('LocationPin', 'Location Pin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

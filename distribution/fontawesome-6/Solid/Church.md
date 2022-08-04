@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Church')
 
 ' renders the element
-Church('Church', 'Church', 'an optional tech label')
+Church('Church', 'Church', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Church')
 
 ' renders the element
-Church('Church', 'Church', 'an optional tech label')
+Church('Church', 'Church', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

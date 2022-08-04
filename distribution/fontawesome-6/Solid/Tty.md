@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Tty')
 
 ' renders the element
-Tty('Tty', 'Tty', 'an optional tech label')
+Tty('Tty', 'Tty', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Tty')
 
 ' renders the element
-Tty('Tty', 'Tty', 'an optional tech label')
+Tty('Tty', 'Tty', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

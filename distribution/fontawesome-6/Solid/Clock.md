@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Clock')
 
 ' renders the element
-Clock('Clock', 'Clock', 'an optional tech label')
+Clock('Clock', 'Clock', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Clock')
 
 ' renders the element
-Clock('Clock', 'Clock', 'an optional tech label')
+Clock('Clock', 'Clock', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

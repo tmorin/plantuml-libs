@@ -2,12 +2,12 @@
 
 sprite $SuitcaseRollingXs [8x10/16z] Os1WuEVdOG01BWP-99eV0d3HKBNeujm
 
-sprite $SuitcaseRollingSm [10x12/16z] NOkr0S0m30JDR6d_QGMVAhxgCHZC703FSSQdOfYkykQpYJP6W4oH0mKUTHoexVpQXBC91G
+sprite $SuitcaseRollingSm [10x12/16z] NOkr0S0m30JD3FjFQqdN9LSzEkNUw-2skXfAWsugpBlcEPCH75N7GC5FBGCrZK_hEQiG
 
-sprite $SuitcaseRollingMd [14x16/16z] XSl50GHH309Glak4_gjTrz5tYW3kZ6J3Y_0kuaa9W6bZc-8K4QgqP-ajm1TR3q---9rj8pqzUovFwsJb5u2Wp244Om6k
+sprite $SuitcaseRollingMd [14x16/16z] VOw50O0m30H3SIAt_xIusrNZBnCErBAYJ6IhPOmNwSNgD51LJEkrQ4KaRbQpbiSpzb-N5fQwq8LdPdMn9fcJV9-43W
 
-sprite $SuitcaseRollingLg [17x20/16z] fT230S1050FGrFZ8_jFMDjxPG4VPI34nTiAfWsooYEdJZao4516bYJJRn5m1yYST6AMdItvicWmTAWC_N99kEy2bV7Xzql-RD7aD
+sprite $SuitcaseRollingLg [17x20/16z] bO_50S0m202f2tBxJrlN7xae3d9WRFJou1nKZmAsgw7FAWPLK5N3LRSqDJz4sepYITubGegJDfV2z29oEUGdZzVqjMmukjqh
 
-!procedure SuitcaseRolling($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/SuitcaseRolling', $name, $tech)
+!procedure SuitcaseRolling($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/SuitcaseRolling', $name, $tech, $desc)
 !endprocedure

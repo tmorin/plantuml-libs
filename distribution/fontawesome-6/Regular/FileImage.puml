@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Regular/FileImage
 
-sprite $FileImageXs [7x10/16z] 7OM50S0m48IeUzb_shoS06OcVk1oiQMKtnQ7M2fOkcsPEPxlpXW
+sprite $FileImageXs [7x10/16z] 7OM50S0m48IeUzb_shoS06OcVc1ticM9wssnYhJ0qctBpFfyTyO
 
-sprite $FileImageSm [9x12/16z] LOY55G0X5CDwhf3zfyKrNvfN_GH-XRpl-m7nI5g0IIAZhFI6BERdYB8HY79SWOMJWWS
+sprite $FileImageSm [9x12/16z] LSY54G0n3CJ0UuQ0-kysJ1kmnh94Ld4-p_E2U1G1QqHpR8mD9PpbJB4JfRYUIDnK0G
 
-sprite $FileImageMd [12x16/16z] JOg50O0m40E3ExV_jf2l7hIDQIMu9SkCz1_ps3HjGj-TrZHDrWNhuMdwOgZQ34r3qLnmbRsPGXEyeGk8nWS
+sprite $FileImageMd [12x16/16z] HOe54e0m40DpkE__VylaQWjjOzf87YbbGGAP5nZQ5FqqRIB2kf7w7VfcQ1DD-scQ6-wsDrDgaYzr0p7u0G
 
-sprite $FileImageLg [15x20/16z] TSk50O0W00NHRxUt_xGc7MV08zIU_ErwQl6rqacZhzVlNvwqCQbHoxASBtrxYIjjI5X2jfFKn7UPFAVcWCQouUsqv6_wkM2oXqqFDyxL1Je9Mcu
+sprite $FileImageLg [15x20/16z] TSV50SKm340n-sE3R_zfomr7DyahSl6oUv7jZQYSheFaqfHPnHWJpoPkL8kMXNzPtQUf9_wvFmcGgh2BJxdyhnguN4tsEg9DG285im4
 
-!procedure FileImage($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Regular/FileImage', $name, $tech)
+!procedure FileImage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/FileImage', $name, $tech, $desc)
 !endprocedure

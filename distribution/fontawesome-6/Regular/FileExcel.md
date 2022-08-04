@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/FileExcel')
 
 ' renders the element
-FileExcel('FileExcel', 'File Excel', 'an optional tech label')
+FileExcel('FileExcel', 'File Excel', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/FileExcel')
 
 ' renders the element
-FileExcel('FileExcel', 'File Excel', 'an optional tech label')
+FileExcel('FileExcel', 'File Excel', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

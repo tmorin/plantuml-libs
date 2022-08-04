@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/TrafficLight
 
-sprite $TrafficLightXs [6x10/16z] O-070Xu-VWZWP01Jx60I8WKc4R90n0wLOWS
+sprite $TrafficLightXs [6x10/16z] O-070Xu-VWXWOm1Jx60I8WKc4R90n0wLOWS
 
-sprite $TrafficLightSm [7x12/16z] O-3b1m8E7duOO610K8G5EI0K0rI42Km2
+sprite $TrafficLightSm [7x12/16z] O-3b1m8E7duOO610K8G5EI0K0rI44Km2
 
-sprite $TrafficLightMd [9x16/16z] TKo53G0n4EAbRljFMoF4pmr07DTUpqvpYJq37Ag6qOJveu4nTQ8ma0uo_n-GsHS
+sprite $TrafficLightMd [9x16/16z] O-3W1mCcDduamC8EeJaP620C7XY3dnUcXX6gamjD3MvpE61g663cC711pMA0i9WO
 
-sprite $TrafficLightLg [12x20/16z] XOtL0S0m50AlxcN_QUiI3pzF3wZqQARKhrMsLlxF0VYflzVIXHsWpBBJp-PoU_qiV-xAz67Lxzm1zDT33Ji
+sprite $TrafficLightLg [12x20/16z] TOt50S103CDKvdh_QSizZZu7YMmQVQpKykoAsV7Z7l2MlsiRoWbuTxJSfLDEkNSCN7plpgAVsYSF0Ez23IS
 
-!procedure TrafficLight($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TrafficLight', $name, $tech)
+!procedure TrafficLight($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TrafficLight', $name, $tech, $desc)
 !endprocedure

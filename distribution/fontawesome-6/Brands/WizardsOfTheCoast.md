@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/WizardsOfTheCoast')
 
 ' renders the element
-WizardsOfTheCoast('WizardsOfTheCoast', 'Wizards Of The Coast', 'an optional tech label')
+WizardsOfTheCoast('WizardsOfTheCoast', 'Wizards Of The Coast', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/WizardsOfTheCoast')
 
 ' renders the element
-WizardsOfTheCoast('WizardsOfTheCoast', 'Wizards Of The Coast', 'an optional tech label')
+WizardsOfTheCoast('WizardsOfTheCoast', 'Wizards Of The Coast', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

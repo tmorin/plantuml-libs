@@ -2,12 +2,12 @@
 
 sprite $HandLizardXs [10x10/16z] Oy02-FWX0CZauEJa1B8OeJ8GGIwuF3yKm6NvaHJ20G
 
-sprite $HandLizardSm [12x12/16z] Oy01-FYX0CXcXB6vuD903YECZQwA3oI4qCu30Z2Z660AOPgPmMm4
+sprite $HandLizardSm [12x12/16z] Oy01-FYX0CI1iRdWqY09641NnGTZGYHuG032XW9aDYEOZG
 
-sprite $HandLizardMd [16x16/16z] XSc54GCX00NHZplqNoqEoVaRtLby87xHlMFwwJ_zM3IiKwcY-4dDBrdlW4gc7pRo1_2d1kj-FVbJmv-Qq0ed1G
+sprite $HandLizardMd [16x16/16z] XSZ50O0m0C30u0xxJmlKlRrVGijfh0Ztuo0ypexGIOiOFSuZk1naNm3pump8TE2CcbvohPskSOE63m
 
-sprite $HandLizardLg [20x20/16z] fSxL0S0m20JGIzrl_sahnAZR-yF13pMLmUO6haZEh7CDH5LRDccmOfD7kKwdIbgvHCt-Ti-rtkvPis-l8MhNEIkdTVzsB_3G1
+sprite $HandLizardLg [20x20/16z] fSx50S0m30J12tEk_sf3jYM5QPxxMlnGqUXTwxdY8bTg5ylASJ72Yej7hOLHqCamgxc2ISUrRdtZkEqrg6RTd8pE_NQtm4CZ
 
-!procedure HandLizard($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HandLizard', $name, $tech)
+!procedure HandLizard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HandLizard', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CircleH')
 
 ' renders the element
-CircleH('CircleH', 'Circle H', 'an optional tech label')
+CircleH('CircleH', 'Circle H', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CircleH')
 
 ' renders the element
-CircleH('CircleH', 'Circle H', 'an optional tech label')
+CircleH('CircleH', 'Circle H', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

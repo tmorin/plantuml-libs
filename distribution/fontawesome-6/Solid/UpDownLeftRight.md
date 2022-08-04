@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UpDownLeftRight')
 
 ' renders the element
-UpDownLeftRight('UpDownLeftRight', 'Up Down Left Right', 'an optional tech label')
+UpDownLeftRight('UpDownLeftRight', 'Up Down Left Right', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UpDownLeftRight')
 
 ' renders the element
-UpDownLeftRight('UpDownLeftRight', 'Up Down Left Right', 'an optional tech label')
+UpDownLeftRight('UpDownLeftRight', 'Up Down Left Right', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/NetworkWired')
 
 ' renders the element
-NetworkWired('NetworkWired', 'Network Wired', 'an optional tech label')
+NetworkWired('NetworkWired', 'Network Wired', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/NetworkWired')
 
 ' renders the element
-NetworkWired('NetworkWired', 'Network Wired', 'an optional tech label')
+NetworkWired('NetworkWired', 'Network Wired', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

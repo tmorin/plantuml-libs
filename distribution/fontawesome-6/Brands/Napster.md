@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Napster')
 
 ' renders the element
-Napster('Napster', 'Napster', 'an optional tech label')
+Napster('Napster', 'Napster', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Napster')
 
 ' renders the element
-Napster('Napster', 'Napster', 'an optional tech label')
+Napster('Napster', 'Napster', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

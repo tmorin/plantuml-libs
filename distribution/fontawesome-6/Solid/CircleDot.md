@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CircleDot')
 
 ' renders the element
-CircleDot('CircleDot', 'Circle Dot', 'an optional tech label')
+CircleDot('CircleDot', 'Circle Dot', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CircleDot')
 
 ' renders the element
-CircleDot('CircleDot', 'Circle Dot', 'an optional tech label')
+CircleDot('CircleDot', 'Circle Dot', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

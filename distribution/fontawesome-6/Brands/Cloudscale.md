@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Cloudscale')
 
 ' renders the element
-Cloudscale('Cloudscale', 'Cloudscale', 'an optional tech label')
+Cloudscale('Cloudscale', 'Cloudscale', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Cloudscale')
 
 ' renders the element
-Cloudscale('Cloudscale', 'Cloudscale', 'an optional tech label')
+Cloudscale('Cloudscale', 'Cloudscale', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

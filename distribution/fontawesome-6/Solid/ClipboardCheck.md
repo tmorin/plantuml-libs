@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ClipboardCheck')
 
 ' renders the element
-ClipboardCheck('ClipboardCheck', 'Clipboard Check', 'an optional tech label')
+ClipboardCheck('ClipboardCheck', 'Clipboard Check', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ClipboardCheck')
 
 ' renders the element
-ClipboardCheck('ClipboardCheck', 'Clipboard Check', 'an optional tech label')
+ClipboardCheck('ClipboardCheck', 'Clipboard Check', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HandHoldingDroplet')
 
 ' renders the element
-HandHoldingDroplet('HandHoldingDroplet', 'Hand Holding Droplet', 'an optional tech label')
+HandHoldingDroplet('HandHoldingDroplet', 'Hand Holding Droplet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HandHoldingDroplet')
 
 ' renders the element
-HandHoldingDroplet('HandHoldingDroplet', 'Hand Holding Droplet', 'an optional tech label')
+HandHoldingDroplet('HandHoldingDroplet', 'Hand Holding Droplet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,12 +2,12 @@
 
 sprite $GulpXs [5x10/16z] Oq06F0mC_4009PXP61Xu-RcWN5OW1aap
 
-sprite $GulpSm [6x12/16z] BOY50G0n20Elhf3zftqjn7alVX9UDN196xs7LKsXtVTWxZNisnlTjE0jHsy
+sprite $GulpSm [6x12/16z] BOY50G0n20Elhf3zftqjn7allXB2gmOkQQFtiAefjFiUpBs6VNkZcnQyvUWD
 
-sprite $GulpMd [8x16/16z] FKo50SGm429-CTX_sl-saNC1i6oirjtNYb_hV3-Io04jkvsaiZhyCEiXmwSGVNGVtkHW2mRNgTc1ZvXs3rlOumy
+sprite $GulpMd [8x16/16z] FKs50G0W3CBkyV-rjguJSAIULDHEJf-shGr9aGeU-Lb4w5cWQup5U6XdhBPgtqS2yPm1HTZApAjrDs_AdGS
 
-sprite $GulpLg [10x20/16z] LOe55e0W0CLcqkp-j_NPEWL-SPDkuNY9piKORbN7_UfgjoMyA8_Qi-LGWPBtIcS6mnJdoCWGSWufh12QcXMEVTdLvCwkABNRoi9LoyvVzKSrs
+sprite $GulpLg [10x20/16z] LOg50SGW54CVxcJ_QK_R0bzZt5Lk87k1UIistAYRxvcIfaP1LxK7VRNmGuvMlvPaCKek-uo1L6igAO8Rage4LlyS6FqBQ7rgj024Mu8JpGSDU0C
 
-!procedure Gulp($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Gulp', $name, $tech)
+!procedure Gulp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Gulp', $name, $tech, $desc)
 !endprocedure

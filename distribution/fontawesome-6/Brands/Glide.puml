@@ -2,12 +2,12 @@
 
 sprite $GlideXs [8x10/16z] Ou02Ldu4OE22K428GdCmC89eRWYNdnTAiqCKGG
 
-sprite $GlideSm [10x12/16z] Oq00VXJ00sCmi4Dbs1ZueIm65dwu60TC9pS3ArIM3sOK8mCpp1IO51Jm
+sprite $GlideSm [10x12/16z] Oq00VXJ00sCmi4DbM1ZueIm6PXYBbO43ffERWGagoyS0qyh023C59WK5F
 
-sprite $GlideMd [14x16/16z] PSp50GGn30J1DhCd_sWFbg4-Od7NvoaDlJKVpyAJi7in2OAzYaoTi_2lOehR3yW0s_z_hbrbNYeRHD4kWjDfp2r9ki9Sy0K
+sprite $GlideMd [14x16/16z] POp50S1G2CNotM7_QUlUdE0PRxhSfA5_clNtOqbmFeBN-tF8uxFh5rCyDY037FlhhISLUNp6A-NwF1Yz6N8SIP_mOWO
 
-sprite $GlideLg [17x20/16z] ZSgr0G9104JHV-i-_LUBmqh4oqRWvCBcylfJ0RG8N0ch2JJMYyEgOTP3KiAlHP0XEORU4XG0BdruWA4fgeCcQ86i2I_GmW1DgvpqDNH0kyxf3W
+sprite $GlideLg [17x20/16z] ZSgrGKHH00J0kU--_LUBmvE8oLRe3MF3d7ywaCh4vfM2FDI7CLVzOCjYg8ibWstmvDl60UJ724-ADJSfk1Px2aD8vOKhjNtBhoSTQTrwxm
 
-!procedure Glide($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Glide', $name, $tech)
+!procedure Glide($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Glide', $name, $tech, $desc)
 !endprocedure

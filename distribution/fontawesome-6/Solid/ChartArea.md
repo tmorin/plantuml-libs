@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ChartArea')
 
 ' renders the element
-ChartArea('ChartArea', 'Chart Area', 'an optional tech label')
+ChartArea('ChartArea', 'Chart Area', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ChartArea')
 
 ' renders the element
-ChartArea('ChartArea', 'Chart Area', 'an optional tech label')
+ChartArea('ChartArea', 'Chart Area', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

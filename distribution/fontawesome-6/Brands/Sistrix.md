@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Sistrix')
 
 ' renders the element
-Sistrix('Sistrix', 'Sistrix', 'an optional tech label')
+Sistrix('Sistrix', 'Sistrix', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Sistrix')
 
 ' renders the element
-Sistrix('Sistrix', 'Sistrix', 'an optional tech label')
+Sistrix('Sistrix', 'Sistrix', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

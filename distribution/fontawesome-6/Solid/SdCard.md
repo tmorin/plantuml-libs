@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SdCard')
 
 ' renders the element
-SdCard('SdCard', 'Sd Card', 'an optional tech label')
+SdCard('SdCard', 'Sd Card', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SdCard')
 
 ' renders the element
-SdCard('SdCard', 'Sd Card', 'an optional tech label')
+SdCard('SdCard', 'Sd Card', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

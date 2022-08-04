@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MountainCity')
 
 ' renders the element
-MountainCity('MountainCity', 'Mountain City', 'an optional tech label')
+MountainCity('MountainCity', 'Mountain City', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MountainCity')
 
 ' renders the element
-MountainCity('MountainCity', 'Mountain City', 'an optional tech label')
+MountainCity('MountainCity', 'Mountain City', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,12 +2,12 @@
 
 sprite $TagXs [8x10/16z] Ou02LduW0DByO02YmKmedv-R2SfWu8QfW59W1iGCRY06
 
-sprite $TagSm [10x12/16z] HSP50S0m002nsyhiNsqPyWfF6MvAcaFrnh5OXa0vt7-BkoESG3o1T08VG0C
+sprite $TagSm [10x12/16z] FSQr0S1040InCREt_sgV3XG9ahgClZ6srhVlLNUZSCvPpXnt1Du8V9vG0G
 
-sprite $TagMd [14x16/16z] LSe54W0X241HOCBM-vzsG_gRRnHoStyjOgp3bQkZLH6WyJkmsESJgacdK2AKf4W4fi58m1LxOHfYBm
+sprite $TagMd [14x16/16z] LST50G0n40ImEOQIVxN5nVm2B-OkxIkfBFSSfPS6hDBkmYqBjRZkhdZSSDkORg1Ij10tnMi
 
-sprite $TagLg [17x20/16z] RSpL0SKW04FHu0xxJ_kaHTFUlnm4ZxIzqcERrYiTsYmn_AI3WRmbTd3GRKax2ZzWgIHE4bHu1X8D86pRubzSNm9TvkwbQtki4ct0P8dtlW
+sprite $TagLg [17x20/16z] RSY53KGX0C3GvkE-_xIdE3JQnz4ZVZtKLAcb2gKNEWofe7Z-uYiOH1bIbkmEnP4tKSy66Rq3Te67LJJVV7y3LTQ7i7uLpPoA3_VU
 
-!procedure Tag($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Tag', $name, $tech)
+!procedure Tag($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Tag', $name, $tech, $desc)
 !endprocedure

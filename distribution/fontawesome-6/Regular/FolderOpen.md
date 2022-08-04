@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/FolderOpen')
 
 ' renders the element
-FolderOpen('FolderOpen', 'Folder Open', 'an optional tech label')
+FolderOpen('FolderOpen', 'Folder Open', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/FolderOpen')
 
 ' renders the element
-FolderOpen('FolderOpen', 'Folder Open', 'an optional tech label')
+FolderOpen('FolderOpen', 'Folder Open', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

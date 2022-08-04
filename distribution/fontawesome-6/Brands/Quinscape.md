@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Quinscape')
 
 ' renders the element
-Quinscape('Quinscape', 'Quinscape', 'an optional tech label')
+Quinscape('Quinscape', 'Quinscape', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Quinscape')
 
 ' renders the element
-Quinscape('Quinscape', 'Quinscape', 'an optional tech label')
+Quinscape('Quinscape', 'Quinscape', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

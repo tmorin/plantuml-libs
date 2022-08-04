@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Brands/Airbnb
 
-sprite $AirbnbXs [8x10/16z] HS710K00002X083RVrjFvNSrWCK3BmRSKs9r2QyymZ2pGEpMHdl31m
+sprite $AirbnbXs [8x10/16z] 1S450S10000Xvhxht_O104yJc7tmOyAx97QFyCidM9aXJdkJCmC
 
-sprite $AirbnbSm [10x12/16z] LOk50S0m20Glhi3-qzOr0g_yph1u0XUP9xBjdp1jNqx9TD8tL9pVje52tdTYx7xVHtpQjW4t3pRghbHM
+sprite $AirbnbSm [10x12/16z] 1S470S0m00CWzb_M-7TR002-Re1DW29Wnm_L4IykYrSPdChgesvgHH6bGlbkv3O1
 
-sprite $AirbnbMd [14x16/16z] POo55GGX34G_xj1_j_Sovoj0CWhth-pm1Qko_Hku3PoFP7pBNqdYMuhTqT9BcjsTYCJjRRf5ZuOGcXepmF3gdNB1SLi3ZNGGUcbr6JVmPwpZI3PCS8xtU
+sprite $AirbnbMd [14x16/16z] POk74GGW2C1Yxxh_jdy2twFK7F1FsO4NAxCTXjl0UQcRMaAvwYMN8vINt8pEyIgtaxheKPHCKyhqCDmzjiLD-wEaWqxgwhgx0QUlS-qjtpm
 
 sprite $AirbnbLg [17x20/16z] {
-TSe7OeGW50RXJv6DqlxxdpQz9plm-hZ7hVfEIHBVoC4yl_aJyaqeq1j03TW2a1sO9r0NIIu2h6eqMvxB2Ni8RjqURuBWeR6EDy4ytWubz0j7b42AW9mfS3K1
-Ca4Tia7FMvsdcgBCvSZ96PGa9wna-SiJ
+TSw3WG0n54NH4umdUVrNkpPky0t_qQglb2JnXJJ6weDrG7oG0jS9i0J8zmJ63lH9aeC0ixaF9TszGGt1SYc1kH2i9xDJWj6ObHQk7Irg85L0zZJOJW4oGB_V
+rywh7BkUgeofPcKFMf8TPZBzvX4
 }
 
-!procedure Airbnb($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Airbnb', $name, $tech)
+!procedure Airbnb($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Airbnb', $name, $tech, $desc)
 !endprocedure

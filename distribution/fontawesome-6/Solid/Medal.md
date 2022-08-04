@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Medal')
 
 ' renders the element
-Medal('Medal', 'Medal', 'an optional tech label')
+Medal('Medal', 'Medal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Medal')
 
 ' renders the element
-Medal('Medal', 'Medal', 'an optional tech label')
+Medal('Medal', 'Medal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

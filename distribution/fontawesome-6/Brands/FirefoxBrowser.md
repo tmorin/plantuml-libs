@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/FirefoxBrowser')
 
 ' renders the element
-FirefoxBrowser('FirefoxBrowser', 'Firefox Browser', 'an optional tech label')
+FirefoxBrowser('FirefoxBrowser', 'Firefox Browser', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/FirefoxBrowser')
 
 ' renders the element
-FirefoxBrowser('FirefoxBrowser', 'Firefox Browser', 'an optional tech label')
+FirefoxBrowser('FirefoxBrowser', 'Firefox Browser', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

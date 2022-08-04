@@ -2,12 +2,12 @@
 
 sprite $FileImportXs [10x10/16z] Os1WuEBdvsS00tuGYn_1ueUo-DdOO2oO60Z3z26BeQg3
 
-sprite $FileImportSm [12x12/16z] Om02VY3WOM400MumcuSTnEQ1iFdPOMnUPXOMC1iA86nsBXWRH84uG0R4D5w4E0DS3IFOFZHpk61i
+sprite $FileImportSm [12x12/16z] HSY50K0X24NH9x-J_RULvbf78B7qhj0UytkeNpSVwMyGfJNtSQVrqO-0e7qz1wS7EAsvx_G4
 
-sprite $FileImportMd [16x16/16z] NSp50S0W04FHK5op_xGrd7zxGV2L-IKLQe7LoLQdRjh3j8kLL4ejPdfR_TKji9kemrLAKUAh3kxx6BMoty_xVtd_ht0tf-tY1m
+sprite $FileImportMd [16x16/16z] NSp50G0n44BH6TOD-gzsBPv_UqJiwz8NHWlj2ZwNu3DPIsSjbGS7K5ddM-slPBVMiZ20vEXVOLY_pK9ixr_jVrVx7zLQnKlb1m
 
-sprite $FileImportLg [20x20/16z] RSp50S0m34DHbyFQVzgoGiu_FeEyENp9Aio25Wmj58CP68msOh5blMiD-rEnKcL6sooBCWXHdgV6FfaNsIeiwBrL_NkejOb4UxBGXiRymDQ6qWK
+sprite $FileImportLg [20x20/16z] RSt50G0X34JH8Mluz5_jEiu_FaY2Dyilh4WP9lCwcIz6FR64ZL5tfkIkDUvFlpLLfaSJoFWFKByjTzeywOpVMCgF_sJS9-nCpUuQZiR6tCIMXk85
 
-!procedure FileImport($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FileImport', $name, $tech)
+!procedure FileImport($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FileImport', $name, $tech, $desc)
 !endprocedure

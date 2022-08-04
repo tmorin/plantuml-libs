@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/BookAtlas
 
-sprite $BookAtlasXs [8x10/16z] HS650O0000EWsIt_Nsi7f74fVLAMApgAe1p71DgfYrC6lp4dSTi1
+sprite $BookAtlasXs [8x10/16z] HSM50S00308mvhxyV-rSqW9fN4gVbEMAZWJbE5whdRfhPV0RSn8kEm
 
-sprite $BookAtlasSm [10x12/16z] JSor0S100810uXxsdpRoVXKLO7HZ2zXYN3B66XQMuQzk5QTGzv4FOup667b996Ol
+sprite $BookAtlasSm [10x12/16z] JSR50O100C2muaxtdnOvpojWT6CBM6CkwUE6XMK8MyKfx3x0O8nfz96NH6Bs0W
 
-sprite $BookAtlasMd [14x16/16z] RSt50SGm34JHCRD__zKkXfDt4aigR98u-dUQ3uELZAIm92uPR3DjQI5gx6R95dilf-hNDwvfYaNGHsSpUJJzQW1Uguw3iG8D3ju
+sprite $BookAtlasMd [14x16/16z] RSt50SGm34JHCRD__zKkXfDt4aigR98u-dUQyuELlXn_9XfiKrjQY1oxbconzrAgTdtZcgPO17rqDfD7qwu6uBJgE1WhqE3W3G
 
 sprite $BookAtlasLg [17x20/16z] {
-ZSJLWSKW00NHGLy4cFwhNOldQyyLI4ClcTMdw4lVFWBP2u56m0DrGLfCRZgMOfZ5pK9WgvkL9PJVucRGQvPbnLsa8uFPGu84nKk3CFotca_5feDBi2sQuodP
-y8NiqpS
+ZSl50SCm5C1G6KecxJzjAPnJdl4JfE5EfdeKFUdJ7O3aXa03N90Bqa9SnZ1dUOcJmi99fOHKk1MS3FezIQauYtHay7BB422wQH26b-MuIZOTiB4LZM5ZmnEI
+Hny
 }
 
-!procedure BookAtlas($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BookAtlas', $name, $tech)
+!procedure BookAtlas($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BookAtlas', $name, $tech, $desc)
 !endprocedure

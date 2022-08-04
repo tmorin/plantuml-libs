@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/FileShield
 
-sprite $FileShieldXs [11x10/16z] DSW74a0H40JH7sNc_hUbHsbXN-qrfF5UDBIe1ygqHI44qvN3p4WckfePe7OPLlDbFG4
+sprite $FileShieldXs [11x10/16z] DSQ50G0n4091ygvi_zN6ps1aS58R0wQRJe8Snn649tYtkZgRz7MkZLrmDxwT2L01
 
-sprite $FileShieldSm [13x12/16z] JSU50S0m30D1bRc__xJXn6oTNc1JhPSCAgXW6jZNTHt8vR4PjlAN2kMTS533wO7ox7l5kwPL1
+sprite $FileShieldSm [13x12/16z] JSU50S0m30D1bRc__xJXn6oTNc1MhPSCAgZ0iCxpF93BOpDivIyLoZlXe8RJ0-NPzuftJgi8
 
-sprite $FileShieldMd [17x16/16z] PSx50S0W50FGu4xsdxPUD2Tuy0METz1Y-K8Z_i0DE8FMMerGSyxnWvQoW82B0qYKrhqVlYq705PG3NHwe3Iek45HDP6UzCnZ5ylxVW8
+sprite $FileShieldMd [17x16/16z] PSp50S0m30D0XJdQVzfoWthPPu3Z7RHOlj28Ft03pY2b52FKd7FyeAKi0DWmW41ftti1Iyu0h20QoFH0QL1nWwHi8XpfcCSlbdT_0W
 
 sprite $FileShieldLg [22x20/16z] {
-RSxL0SKm34DHjM6ozf-s37fmFq_0XZFk6HpUPl9I2jkhd1-bwCEgmho3t_lM7lT4fRzQVzKYaDYzAikpV1P5uvvhr63tl2uwrLjDD4wtKcguDB0AevnAJg8L
-93aP2vgm0_Vwry0PdKm0LW
+RSv50e10049HT3gv_sdjmFZBjm6OphME0NSZUIY5-wt253tvfNmhCQwzjVerKUbNyrUx1GBh-D1qdO-YA5mR2ZNqSw-A3ldKBcg6KoaL76gOXP5s9I6QSOmc
+5DtRcFKrk9qA06O
 }
 
-!procedure FileShield($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FileShield', $name, $tech)
+!procedure FileShield($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FileShield', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Horse')
 
 ' renders the element
-Horse('Horse', 'Horse', 'an optional tech label')
+Horse('Horse', 'Horse', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Horse')
 
 ' renders the element
-Horse('Horse', 'Horse', 'an optional tech label')
+Horse('Horse', 'Horse', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

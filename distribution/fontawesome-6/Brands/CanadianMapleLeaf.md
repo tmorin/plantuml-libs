@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/CanadianMapleLeaf')
 
 ' renders the element
-CanadianMapleLeaf('CanadianMapleLeaf', 'Canadian Maple Leaf', 'an optional tech label')
+CanadianMapleLeaf('CanadianMapleLeaf', 'Canadian Maple Leaf', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/CanadianMapleLeaf')
 
 ' renders the element
-CanadianMapleLeaf('CanadianMapleLeaf', 'Canadian Maple Leaf', 'an optional tech label')
+CanadianMapleLeaf('CanadianMapleLeaf', 'Canadian Maple Leaf', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

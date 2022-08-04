@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/UserDoctor
 
-sprite $UserDoctorXs [8x10/16z] JSR50O1044FHuCxhlrfaJnFzIJhvjT00b0zIjB3t2Kn4rn6aDySB
+sprite $UserDoctorXs [8x10/16z] JSN50SD00CH0XMES_gir_6v1gjAT7sw3mQ4XF-PdmOSy8lJmoWa
 
-sprite $UserDoctorSm [10x12/16z] NSQ50G0n4091ufxjlzjtdHFGAc2qOzMqCh3IAjrDJ-k0qqzAIIk7W8J4K4HsaB28ilxL-jo01G
+sprite $UserDoctorSm [10x12/16z] NSQ50OG040Emlk9a_sbnpqcRoKzMq1nD9l-ZvMmjFdaeYYAJj-0dqMMALwSGKGcy-NIC
 
-sprite $UserDoctorMd [14x16/16z] XOtL0O0m5CI2Ezb_MgpwHwhFxlZO74bCliIWqIfSOjHyqHwZheoLmH3iLE71FsUtg-s-1EylQbO5dK7fcDqxnMaGHG_j6mvnHa_32Tm
+sprite $UserDoctorMd [14x16/16z] XSlL0SCm54DHXJbd_sbB8V_r6fyWFnPzBWPmJHJZf9nM1rLHe-nPKunR_hDNA-frEag_gPf9w1DIfRSsnD0AOQDEDZ66tN4EtW
 
 sprite $UserDoctorLg [17x20/16z] {
-ZOw53GGn40CTvhZ_RZzMZaK_mfqbOvDdjxW950CdbWUd6ATmX-19-Ohw5UdyUGg3zqZ6HLCTyJyUbGiRh-1RcC86mF0KyEG4vfh5CWFU66KZErZ0g5N5rrWF
-Xi6H6XS1a9x9x8atFm
+ZSt50OH050JHmc6iyezsSJtjEtxfPZUML7FhN6Kk7ZXa3zNdmEax2D_1S7Pw-BQCNA9go_zQWchLmwhIOp0P0Jm7j5gWA13CrA0Tcd32jbRKe8NKOBCEYguw
+MCUbtoy-PW
 }
 
-!procedure UserDoctor($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/UserDoctor', $name, $tech)
+!procedure UserDoctor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/UserDoctor', $name, $tech, $desc)
 !endprocedure

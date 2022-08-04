@@ -2,15 +2,15 @@
 
 sprite $PhoenixSquadronXs [10x10/16z] DSR50O0m00ImuCxjFotQvXNG0ajqu4ZGBdp9p9AOTSW7nh94AdqDIcu
 
-sprite $PhoenixSquadronSm [12x12/16z] DSY54S0m0CGmbRc__xJ5n4Sw0or0WieCq7niS4u-isR5zlwn6o1_62tL4h-xuHrdQZsL2umV6su
+sprite $PhoenixSquadronSm [12x12/16z] HSY54O000CImuCxlFoqkFSiLA04IFrD1SR70shZCc17J-TkgWToXDhoMk5qqvrZpLl9oWFOYTW
 
-sprite $PhoenixSquadronMd [16x16/16z] JO-50S0m2C1Wlbh-lxPkgU8WdKCM5roR60Wllmp8V59uosEW6L_UOSwFDkrz0I4R0q-juhizr1Yd3AI0Sxji3Rh9NtaOM39ERdPAq2RMgLu6AWq3z1aJ
+sprite $PhoenixSquadronMd [16x16/16z] JOw14G0G00BZ0D3-qmBWWHV0HkAXIFLfOR4qLzbn6DWnXAv-6lM9vpXNbUfQUbYevYjvvsLUaGGF632btsEW-DoDWOV8JeBcppZqgPWV-zD9cARGQG
 
 sprite $PhoenixSquadronLg [20x20/16z] {
-NSw5TGD1303HELwU_hlDKsmV_MMK-9bc7gQYQO69KzR6jC2bgSCDBbsrGPZDCMm6mb8z2DTMrHJZUkvDQewH8wiEI1sNpwrZ62ROB8ITx0L2m_xQcrpSNtkg
-U5g_oJQwRmkJBnrOVIBiUXbyUKgSvZpKkaFu0m
+NSZL0OKm0C30r81gzf_skNAVnrk8_6jwXB-fEWW9leQw_AkfEdY8Le3atNEwXRjlTJq0ykU2MhdRg-g2Os82YAJb7P1jt1MgNpmCdESpkPrE5JyIHDN1z2mG
+F9b0zX-SS_7Yny57g4ljcOSh
 }
 
-!procedure PhoenixSquadron($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/PhoenixSquadron', $name, $tech)
+!procedure PhoenixSquadron($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/PhoenixSquadron', $name, $tech, $desc)
 !endprocedure

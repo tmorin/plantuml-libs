@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/Couch
 
-sprite $CouchXs [12x10/16z] Oq01BFmG0683AHY76S56Y7CnyFB3E4n036CZ56C2c3tC_
+sprite $CouchXs [12x10/16z] Oq01BFmG06Bpmm0EDXS3Bp-CmmZ423Pk0BE7aHy
 
-sprite $CouchSm [15x12/16z] XSk30K0X403GNEVzf_qsNpovcsQBC4PicpI4Td0BlJj6OiJRw7Zn5iRnahYn7rMhsuZs
+sprite $CouchSm [15x12/16z] XSU50G0X241HM-dzfxtkV0PyTzDiuSTYsuGXxU2MtXrBZ7YjC7vyJl4R-r6rkere3m
 
-sprite $CouchMd [20x16/16z] bSg53GHH549HtdUd_sfNnbrEb1jm9hL1jKFnN99_4gxzMoHtnyer3S1mfVrl0LoeAA6IgYoQoVpJGriEhVGCVIihZMzOjLH8Y61Dv0i
+sprite $CouchMd [20x16/16z] bSY50S0W44FHu4xsdxRkteVUnvrO9yLWvBWrDl8KmqKht1C0D7SgWEB0ZOBi2YdofiaqFhkMnqV85SQMToh_KDZA92wq
 
-sprite $CouchLg [25x20/16z] hSt50GGn30D0XT5H_zKUmpBFpoWiC_xFuOzz5M-QGu8NuOZ34yVAt42M1-E9nqEZmoYXC0b9LFPOowVnmFZLmP3dvMIepOMxVtFi3W
+sprite $CouchLg [25x20/16z] hSs35KH150FGZ3tflzhbjtKF7uDjGlKaUXpBxJgd2duAPoI-E9VM1cLxC9zOV5Ggp18IGo69p16f-JCVsDt1bENZobHT2pTzS-uD
 
-!procedure Couch($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Couch', $name, $tech)
+!procedure Couch($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Couch', $name, $tech, $desc)
 !endprocedure

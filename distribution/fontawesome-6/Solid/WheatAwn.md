@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/WheatAwn')
 
 ' renders the element
-WheatAwn('WheatAwn', 'Wheat Awn', 'an optional tech label')
+WheatAwn('WheatAwn', 'Wheat Awn', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/WheatAwn')
 
 ' renders the element
-WheatAwn('WheatAwn', 'Wheat Awn', 'an optional tech label')
+WheatAwn('WheatAwn', 'Wheat Awn', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

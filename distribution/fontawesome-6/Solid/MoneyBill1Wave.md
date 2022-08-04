@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MoneyBill1Wave')
 
 ' renders the element
-MoneyBill1Wave('MoneyBill1Wave', 'Money Bill1 Wave', 'an optional tech label')
+MoneyBill1Wave('MoneyBill1Wave', 'Money Bill1 Wave', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MoneyBill1Wave')
 
 ' renders the element
-MoneyBill1Wave('MoneyBill1Wave', 'Money Bill1 Wave', 'an optional tech label')
+MoneyBill1Wave('MoneyBill1Wave', 'Money Bill1 Wave', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

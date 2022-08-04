@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Paw')
 
 ' renders the element
-Paw('Paw', 'Paw', 'an optional tech label')
+Paw('Paw', 'Paw', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Paw')
 
 ' renders the element
-Paw('Paw', 'Paw', 'an optional tech label')
+Paw('Paw', 'Paw', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Kaaba')
 
 ' renders the element
-Kaaba('Kaaba', 'Kaaba', 'an optional tech label')
+Kaaba('Kaaba', 'Kaaba', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Kaaba')
 
 ' renders the element
-Kaaba('Kaaba', 'Kaaba', 'an optional tech label')
+Kaaba('Kaaba', 'Kaaba', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/PenToSquare')
 
 ' renders the element
-PenToSquare('PenToSquare', 'Pen To Square', 'an optional tech label')
+PenToSquare('PenToSquare', 'Pen To Square', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/PenToSquare')
 
 ' renders the element
-PenToSquare('PenToSquare', 'Pen To Square', 'an optional tech label')
+PenToSquare('PenToSquare', 'Pen To Square', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

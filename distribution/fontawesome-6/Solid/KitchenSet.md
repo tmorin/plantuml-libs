@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/KitchenSet')
 
 ' renders the element
-KitchenSet('KitchenSet', 'Kitchen Set', 'an optional tech label')
+KitchenSet('KitchenSet', 'Kitchen Set', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/KitchenSet')
 
 ' renders the element
-KitchenSet('KitchenSet', 'Kitchen Set', 'an optional tech label')
+KitchenSet('KitchenSet', 'Kitchen Set', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

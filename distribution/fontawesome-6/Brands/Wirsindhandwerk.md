@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Wirsindhandwerk')
 
 ' renders the element
-Wirsindhandwerk('Wirsindhandwerk', 'Wirsindhandwerk', 'an optional tech label')
+Wirsindhandwerk('Wirsindhandwerk', 'Wirsindhandwerk', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Wirsindhandwerk')
 
 ' renders the element
-Wirsindhandwerk('Wirsindhandwerk', 'Wirsindhandwerk', 'an optional tech label')
+Wirsindhandwerk('Wirsindhandwerk', 'Wirsindhandwerk', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Dropbox')
 
 ' renders the element
-Dropbox('Dropbox', 'Dropbox', 'an optional tech label')
+Dropbox('Dropbox', 'Dropbox', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Dropbox')
 
 ' renders the element
-Dropbox('Dropbox', 'Dropbox', 'an optional tech label')
+Dropbox('Dropbox', 'Dropbox', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

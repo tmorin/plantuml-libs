@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Rug')
 
 ' renders the element
-Rug('Rug', 'Rug', 'an optional tech label')
+Rug('Rug', 'Rug', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Rug')
 
 ' renders the element
-Rug('Rug', 'Rug', 'an optional tech label')
+Rug('Rug', 'Rug', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

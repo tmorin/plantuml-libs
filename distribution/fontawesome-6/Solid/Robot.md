@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Robot')
 
 ' renders the element
-Robot('Robot', 'Robot', 'an optional tech label')
+Robot('Robot', 'Robot', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Robot')
 
 ' renders the element
-Robot('Robot', 'Robot', 'an optional tech label')
+Robot('Robot', 'Robot', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

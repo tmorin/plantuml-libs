@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BackwardFast')
 
 ' renders the element
-BackwardFast('BackwardFast', 'Backward Fast', 'an optional tech label')
+BackwardFast('BackwardFast', 'Backward Fast', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BackwardFast')
 
 ' renders the element
-BackwardFast('BackwardFast', 'Backward Fast', 'an optional tech label')
+BackwardFast('BackwardFast', 'Backward Fast', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/PersonPregnant
 
-sprite $PersonPregnantXs [6x10/16z] Os1Wu6C00ZP-1ZZWv-S04a008VaPMS0SHgWGAv00am
+sprite $PersonPregnantXs [6x10/16z] Os1Wu6C00ZP-1ZZWv-S04a008VaPMI0SACa49C0a
 
-sprite $PersonPregnantSm [7x12/16z] BSM50S10349Hwjw__xGN3_0atRFY8BdNsEdP0s3DvI_W_1Af-U5QdPzTZG4
+sprite $PersonPregnantSm [7x12/16z] BOY50S0m40AfDyh-qxuRSW3w2Hyoh5zXuqx6AvGxZVnN652s3Prccm_A5
 
-sprite $PersonPregnantMd [9x16/16z] LSY50G0X4CJ0vLr9_zNY6cmuXRv3gHqorWgPyfxlbTuV-EASM02fgm9iXKo5Ae9-sDQ8B_udl14U
+sprite $PersonPregnantMd [9x16/16z] PSU50O1034FH5FU__xR0kLHVzDMroDKC7lR3A_pfNDs_WUi7VyNF6W5FXDH3t33OZ-lF5SuVBm
 
-sprite $PersonPregnantLg [12x20/16z] VSw50S0W40J1XxZ0zLyjxhQnYG5akoJ5TW3HPs6IU6ZGzNr7-i9qEpvmESF73VzWUTh7iKSYnx0d4_72hB1TsWtiEpC-0BCRBCo1pLa3
+sprite $PersonPregnantLg [12x20/16z] VOl50GKX30MJh2yo_LUBm-NBd9vAvOeoCM3gS-b2v9OlxCxPMi0OFS0yqz4Y_T1n4s7nH5WeEx3kl_G19vXfqNiHKCGVhQ1DPm
 
-!procedure PersonPregnant($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonPregnant', $name, $tech)
+!procedure PersonPregnant($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonPregnant', $name, $tech, $desc)
 !endprocedure

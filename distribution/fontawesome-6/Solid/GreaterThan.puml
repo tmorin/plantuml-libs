@@ -2,12 +2,12 @@
 
 sprite $GreaterThanXs [7x10/16z] Oq01tFpy40O_FpUCmGQc-K0Id21f5Y014cT2qWS
 
-sprite $GreaterThanSm [9x12/16z] POY30G0n34NFgDx-qzPkyhqjf_boKjIeuS_HW4ZfW6p1psGxi8VvJTQT0m
+sprite $GreaterThanSm [9x12/16z] Oy00lFmSK1OFFvp9Ys3oyVDpGbXC_FnGYXz1CK0f1dP-T9C1
 
-sprite $GreaterThanMd [12x16/16z] VSs53G0X5C3GSmMw_xO4Ttxi5Lq6i_vhj0GPwm64GImvAHLY0vBOZNQZm-WmEetM8FElsOqFBDtH
+sprite $GreaterThanMd [12x16/16z] Oy05k15CNdv-NZY7Wv-VdmU5nuk7nmVZC04v21O_CouM0uZ51BKN94O
 
-sprite $GreaterThanLg [15x20/16z] dSl50S0W44JHk8VflrlSdNzxArDF5x0xVC5QhGzkubni6BomNhZDDU4w9MOusFxSPhO_F0UyvUTeZ08
+sprite $GreaterThanLg [15x20/16z] bOe34W0n0CGEDV__sqvjxN2JF3SZMl_5vLfN0DYlMb0MyB38_xC_7MKVzEVLTZWOQGyQc4SbOrSQcqfx3cS
 
-!procedure GreaterThan($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/GreaterThan', $name, $tech)
+!procedure GreaterThan($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/GreaterThan', $name, $tech, $desc)
 !endprocedure

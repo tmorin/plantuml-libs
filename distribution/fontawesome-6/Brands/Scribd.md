@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Scribd')
 
 ' renders the element
-Scribd('Scribd', 'Scribd', 'an optional tech label')
+Scribd('Scribd', 'Scribd', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Scribd')
 
 ' renders the element
-Scribd('Scribd', 'Scribd', 'an optional tech label')
+Scribd('Scribd', 'Scribd', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

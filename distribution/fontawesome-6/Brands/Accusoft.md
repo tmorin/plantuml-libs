@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Accusoft')
 
 ' renders the element
-Accusoft('Accusoft', 'Accusoft', 'an optional tech label')
+Accusoft('Accusoft', 'Accusoft', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Accusoft')
 
 ' renders the element
-Accusoft('Accusoft', 'Accusoft', 'an optional tech label')
+Accusoft('Accusoft', 'Accusoft', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

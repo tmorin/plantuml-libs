@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Replyd')
 
 ' renders the element
-Replyd('Replyd', 'Replyd', 'an optional tech label')
+Replyd('Replyd', 'Replyd', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Replyd')
 
 ' renders the element
-Replyd('Replyd', 'Replyd', 'an optional tech label')
+Replyd('Replyd', 'Replyd', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

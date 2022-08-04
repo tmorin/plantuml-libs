@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Brands/Spotify
 
-sprite $SpotifyXs [9x10/16z] BOe50S103CGoviM_sgToZm0cHjdhoQy7fdo5GDzfwShc2qTgEYaPcaCNAW
+sprite $SpotifyXs [9x10/16z] BOe50S103CGoviM_sgToZm0cw6Ml9xyUcF8L0dsdfIkRBnofwQHaYD252W
 
-sprite $SpotifySm [11x12/16z] HSR50GGn50MWDsx9f_zgruKJUHg7l07_aU1gXHvvwoxqeWTBfYcPsQdpB2lXv4WHNtk-hoHfi2Pt
+sprite $SpotifySm [11x12/16z] HSR50GG130IWETU4_gjT5rvaTit6uXpBVlz6HLRbXsegUEHsIswywVUxFGbVFYbYzyx-pkGFpsG4
 
-sprite $SpotifyMd [15x16/16z] HSk50S0W34JHgsFXxxzjSHuQKtSUMYBDhOR9MhGbATKd9gEwHDRmr7duKeOSJyamIdmSnvl1KKd7VKfwWSYKbE40f-em2Z74MhGwiKaobaT5t55pK0KLFm
+sprite $SpotifyMd [15x16/16z] JSw50G0X30J1mvtjlzftON1DTBD6dyR5wS9htAjFb_evj3uu6J7ri827q2VCPgJ109AaE8-HasIyFNU0jdmxGP1r6N0jRqqJXYABzzAITLjM5qvLXnq
 
 sprite $SpotifyLg [19x20/16z] {
-LS_50G0X40F0e2T8-gyMrtaXgvYam4a7DlzwZbpCUja-5BnfmB88pld0hWQzksjalTPGeQsrkhNpvCT3451a2rKeX77aBWZLqnuMdfkJg5V3mhPsZXr8QcNV
-xpLpHXoP0NrDoLkSNJPKBmyIZJogBSRLAbyFoG
+LSxL0S0W34NHbr17xlxJrbCvNn1NSDENLqwBGeFGH-HZrew_JkhPrPnBvIB1fE2Dumj9yfIIwr1WvgDA1cUfQMUUuHser9tXaLtXbKqPE6yOjFCSJK1dQPed
+ZnjLlWlPkOo_5bjUEWnyc4x-FJ-a3BJPTDW
 }
 
-!procedure Spotify($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Spotify', $name, $tech)
+!procedure Spotify($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Spotify', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SprayCanSparkles')
 
 ' renders the element
-SprayCanSparkles('SprayCanSparkles', 'Spray Can Sparkles', 'an optional tech label')
+SprayCanSparkles('SprayCanSparkles', 'Spray Can Sparkles', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SprayCanSparkles')
 
 ' renders the element
-SprayCanSparkles('SprayCanSparkles', 'Spray Can Sparkles', 'an optional tech label')
+SprayCanSparkles('SprayCanSparkles', 'Spray Can Sparkles', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BroomBall')
 
 ' renders the element
-BroomBall('BroomBall', 'Broom Ball', 'an optional tech label')
+BroomBall('BroomBall', 'Broom Ball', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BroomBall')
 
 ' renders the element
-BroomBall('BroomBall', 'Broom Ball', 'an optional tech label')
+BroomBall('BroomBall', 'Broom Ball', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

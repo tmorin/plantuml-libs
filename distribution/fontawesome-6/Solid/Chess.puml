@@ -2,15 +2,15 @@
 
 sprite $ChessXs [10x10/16z] JKg30S1044lxPlQVzgrZXAV80pPqHpCTyHztx4QWnaRyeRLMG3jXHFgf
 
-sprite $ChessSm [12x12/16z] HOk50SGm30FLXl7sd_OXQBP0KjK9yFjy36RV2NYkXdtQSNj7P7aTCEuagLk6lX-NjNPFW3PMOuJ6_08
+sprite $ChessSm [12x12/16z] FOi50S103CGoviM_scTk3u6NSNGVU7Bgy5BfHmTU2zutJrjtKmk-W7-MZF_HckUvJzKFyhIS33K2
 
-sprite $ChessMd [16x16/16z] LOn50a0X50AnM-v_sX-siveNW8-CYyfqpOhYc4JEpEcO-OFDFuPZjcGhA2X55M3-ivALlM3cUCoQlluYnmpg_8jRSnUbjMwpRkBo3uRCsZGaSO3AnWi
+sprite $ChessMd [16x16/16z] NOo50KGn24DfxhuZ-qzRzrJ8moYAQP7Qjp3CpSXiF3TOqiRFn6Sj2ub0Hh-fnLi6-fw9VtPhAvJ5u6IkpiKu09cHpSL9L4rR-rNpMHLfYG4
 
 sprite $ChessLg [20x20/16z] {
-POzLWiK020C3TPtxttQNHwdE5qwYODKR7-ZrOW3qnZubac-DINScWkyoMmHcSfTRliqQYuEnr3rNHL7JNET8PaaBOAcJTSzu1He5FMr_hVI7osNDbKloMD_K
-_fEx7g75aHzTrBeZ6aYYTaGBXLe-gA_e3m
+POw54GGn3CJMoJ6f_su_3ZnPGnhZohaKMCcn1Fh7Geb6hB7hcnqdBdExc6GcQszxZJE1ECUzf65Uqp7EqJYAdgCck9xc5s1oCcdvhEHUEw_M_aJUnZUbGjir
+LvUbChlEtMOQNkjsCb0Ye3pi1G
 }
 
-!procedure Chess($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Chess', $name, $tech)
+!procedure Chess($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Chess', $name, $tech, $desc)
 !endprocedure

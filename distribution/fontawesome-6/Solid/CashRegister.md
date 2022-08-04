@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CashRegister')
 
 ' renders the element
-CashRegister('CashRegister', 'Cash Register', 'an optional tech label')
+CashRegister('CashRegister', 'Cash Register', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CashRegister')
 
 ' renders the element
-CashRegister('CashRegister', 'Cash Register', 'an optional tech label')
+CashRegister('CashRegister', 'Cash Register', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

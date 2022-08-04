@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Vk')
 
 ' renders the element
-Vk('Vk', 'Vk', 'an optional tech label')
+Vk('Vk', 'Vk', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Vk')
 
 ' renders the element
-Vk('Vk', 'Vk', 'an optional tech label')
+Vk('Vk', 'Vk', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

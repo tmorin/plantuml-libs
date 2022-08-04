@@ -2,12 +2,12 @@
 
 sprite $PaintRollerXs [10x10/16z] O-3Z1m4-1Y030ZWO-A60YvyPocBWPu0240kc5iA50ZOW7mSB
 
-sprite $PaintRollerSm [12x12/16z] O-3XXm161Y0J1XWO-15i7YGsFro22yY604P6HWum6oh71s63IPWmqMm
+sprite $PaintRollerSm [12x12/16z] O-3XXm061X0Jpk57i7cGsFnm2IuW6m8O6Havm6oe71-43IPXmaIp0G
 
-sprite $PaintRollerMd [16x16/16z] fSUr0S0W0031Ztj-_sdZ0hHSTxH-2WYhWA6gIhuioIqCi0ZbX-ktzU9x7_NTsRuuy2Xq8Z2hHSOdbTiE
+sprite $PaintRollerMd [16x16/16z] fSsr5S003CJGSvYr_xHXkESswdubDRnfpmYxyQ9CdkTavDPkpxoSyPYxwk945tkw2nXbJK3yyCWxtW
 
-sprite $PaintRollerLg [20x20/16z] jSx55G0X34LHV0pu_LUBQmxRUSkB94nup3ndAO6zR9xOdGoaLxm7mqVj4O0anf8nuvQiAaOpYpte-KxBdhmRO9-IwNBwcIEbwR3Kyw-9R6Ep2
+sprite $PaintRollerLg [20x20/16z] jSv55WGX30HG8C6bxd_QcNQfnxR_Cbh63To6MJcycSMWMbfg8CMMIGqL95j0-CTICzeVccmr5Xwr_0vEESq9Q7aZPsLw6GlbPulyRSsz_lu1
 
-!procedure PaintRoller($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PaintRoller', $name, $tech)
+!procedure PaintRoller($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PaintRoller', $name, $tech, $desc)
 !endprocedure

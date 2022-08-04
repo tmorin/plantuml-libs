@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Brands/HackerNewsSquare
 
-sprite $HackerNewsSquareXs [8x10/16z] Ou02LduCmCZF0ARP-Fd0D8YBIQEn0G
+sprite $HackerNewsSquareXs [8x10/16z] Ou02LduCm0248C3CpmSJm4AZiG4
 
-sprite $HackerNewsSquareSm [10x12/16z] Oq00Vgo0bP-VZmV2PEQ7gM7avu2oW4BuMDoeXZ7mGG4F
+sprite $HackerNewsSquareSm [10x12/16z] Oq00Vgo0XP-VZmV2PEI7gW7IxFnm9ZuMDwfX37nGm0C
 
-sprite $HackerNewsSquareMd [14x16/16z] ZSUr0S0m00In3tDk_srTcL6T57j_x_XekmvWTHMyizk-83mnuHqYDBw7WeEGfe0C
+sprite $HackerNewsSquareMd [14x16/16z] ZSUr0S0m00In3tDk_srTcL6T57j_x_XektPWTXMySjiMX2Scl4E4nlTGS4HJn
 
-sprite $HackerNewsSquareLg [17x20/16z] dSd50S0m34DHXTdQVzlwLEON_i61Znicy9yGgRmi1RgIuS9PZOqBWHHmpIQCJH0ORfco3_LpwC8BXmzmQs1l0W
+sprite $HackerNewsSquareLg [17x20/16z] dSYr0O004C30uFxPVrigtBdoE4Yp3Gh_AGhLD9oXLhX84gLp4KI3Qsd1u5g0MpHkqNwEFhmGxk3MmDu8
 
-!procedure HackerNewsSquare($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/HackerNewsSquare', $name, $tech)
+!procedure HackerNewsSquare($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/HackerNewsSquare', $name, $tech, $desc)
 !endprocedure

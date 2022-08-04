@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Film')
 
 ' renders the element
-Film('Film', 'Film', 'an optional tech label')
+Film('Film', 'Film', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Film')
 
 ' renders the element
-Film('Film', 'Film', 'an optional tech label')
+Film('Film', 'Film', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

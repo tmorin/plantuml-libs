@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Cubes')
 
 ' renders the element
-Cubes('Cubes', 'Cubes', 'an optional tech label')
+Cubes('Cubes', 'Cubes', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Cubes')
 
 ' renders the element
-Cubes('Cubes', 'Cubes', 'an optional tech label')
+Cubes('Cubes', 'Cubes', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowUpFromGroundWater')
 
 ' renders the element
-ArrowUpFromGroundWater('ArrowUpFromGroundWater', 'Arrow Up From Ground Water', 'an optional tech label')
+ArrowUpFromGroundWater('ArrowUpFromGroundWater', 'Arrow Up From Ground Water', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowUpFromGroundWater')
 
 ' renders the element
-ArrowUpFromGroundWater('ArrowUpFromGroundWater', 'Arrow Up From Ground Water', 'an optional tech label')
+ArrowUpFromGroundWater('ArrowUpFromGroundWater', 'Arrow Up From Ground Water', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

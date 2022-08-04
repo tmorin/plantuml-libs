@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/CircleUp')
 
 ' renders the element
-CircleUp('CircleUp', 'Circle Up', 'an optional tech label')
+CircleUp('CircleUp', 'Circle Up', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/CircleUp')
 
 ' renders the element
-CircleUp('CircleUp', 'Circle Up', 'an optional tech label')
+CircleUp('CircleUp', 'Circle Up', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

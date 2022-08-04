@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HouseTsunami')
 
 ' renders the element
-HouseTsunami('HouseTsunami', 'House Tsunami', 'an optional tech label')
+HouseTsunami('HouseTsunami', 'House Tsunami', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HouseTsunami')
 
 ' renders the element
-HouseTsunami('HouseTsunami', 'House Tsunami', 'an optional tech label')
+HouseTsunami('HouseTsunami', 'House Tsunami', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

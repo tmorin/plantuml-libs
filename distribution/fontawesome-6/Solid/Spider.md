@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Spider')
 
 ' renders the element
-Spider('Spider', 'Spider', 'an optional tech label')
+Spider('Spider', 'Spider', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Spider')
 
 ' renders the element
-Spider('Spider', 'Spider', 'an optional tech label')
+Spider('Spider', 'Spider', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

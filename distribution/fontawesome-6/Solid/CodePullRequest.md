@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CodePullRequest')
 
 ' renders the element
-CodePullRequest('CodePullRequest', 'Code Pull Request', 'an optional tech label')
+CodePullRequest('CodePullRequest', 'Code Pull Request', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CodePullRequest')
 
 ' renders the element
-CodePullRequest('CodePullRequest', 'Code Pull Request', 'an optional tech label')
+CodePullRequest('CodePullRequest', 'Code Pull Request', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

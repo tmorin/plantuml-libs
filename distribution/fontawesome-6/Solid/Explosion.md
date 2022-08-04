@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Explosion')
 
 ' renders the element
-Explosion('Explosion', 'Explosion', 'an optional tech label')
+Explosion('Explosion', 'Explosion', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Explosion')
 
 ' renders the element
-Explosion('Explosion', 'Explosion', 'an optional tech label')
+Explosion('Explosion', 'Explosion', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

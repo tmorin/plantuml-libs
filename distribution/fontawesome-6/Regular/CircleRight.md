@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/CircleRight')
 
 ' renders the element
-CircleRight('CircleRight', 'Circle Right', 'an optional tech label')
+CircleRight('CircleRight', 'Circle Right', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/CircleRight')
 
 ' renders the element
-CircleRight('CircleRight', 'Circle Right', 'an optional tech label')
+CircleRight('CircleRight', 'Circle Right', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

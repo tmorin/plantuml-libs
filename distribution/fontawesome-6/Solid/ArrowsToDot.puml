@@ -2,15 +2,15 @@
 
 sprite $ArrowsToDotXs [10x10/16z] LOo53O104C2A4_lklorfBaRFbLX4oB2ha_0A5-2RawKYwgot4BOGb_hxzm4
 
-sprite $ArrowsToDotSm [12x12/16z] FOl50G0X3C20p_bb_scfDqWrm_b7i-WKvUasP7VvpgNEH0jDUTQFBU2EcUvuU7J1d5DpIzrn_Xkiwqmy2
+sprite $ArrowsToDotSm [12x12/16z] FSM74SC030CnfFVy_jEcs3f38cdnjjd7g7eObKKxul9cLt3jiNzNoJ8ACm-kuGmkbV6-rzdO1Ru
 
-sprite $ArrowsToDotMd [16x16/16z] VOx50G0n20IHLmpwx_Osn7ZTHWUdBTllGUT4tCorFMu-9SymiTvWN87ITZ1kmOuKCv-6GOpNWc0VleiIwoa5uiYljwZGBRMBGe7GptnYpi2dSQ8_
+sprite $ArrowsToDotMd [16x16/16z] PK-54G0n38gSl8Rzj-rH5wfna8gG1G6TB7q3_Wxx1J5bqBnxCXtPV6jopsBd0Dy_5mKjsZzgKr5lhMYnlhUgZRJ7T9wFWz-ff-DlsGa
 
 sprite $ArrowsToDotLg [20x20/16z] {
-VP053aD120Nvkj3iClS_RULHjuaHR09sOqlx0FnBBbuJ4y0WdtCpXJtZIisFmRcIIFziREDIIdhbb1J8lYAQ1REbuap4q8QRtMF8E7k9mYyQ6IyeMOwaZAwa
-Fv_xyOJa8xbzkxS77Bh__vz8zbju0W
+VL050e0W4ACRzl_Vwd6sm4mkjuaJjeaVW328nLy4g7YrAp1UTUuRKliJZf0zPpawLFflA1oxQQ1lDppSYWYvLn4QVr0xvtDxYBMFbu6tnq0hRnAqdNSqy9ks
+kwTgdDjly2ht3DcHtXA1LCB2ltkYENyt
 }
 
-!procedure ArrowsToDot($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ArrowsToDot', $name, $tech)
+!procedure ArrowsToDot($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ArrowsToDot', $name, $tech, $desc)
 !endprocedure

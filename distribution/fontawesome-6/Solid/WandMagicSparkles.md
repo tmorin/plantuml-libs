@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/WandMagicSparkles')
 
 ' renders the element
-WandMagicSparkles('WandMagicSparkles', 'Wand Magic Sparkles', 'an optional tech label')
+WandMagicSparkles('WandMagicSparkles', 'Wand Magic Sparkles', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/WandMagicSparkles')
 
 ' renders the element
-WandMagicSparkles('WandMagicSparkles', 'Wand Magic Sparkles', 'an optional tech label')
+WandMagicSparkles('WandMagicSparkles', 'Wand Magic Sparkles', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

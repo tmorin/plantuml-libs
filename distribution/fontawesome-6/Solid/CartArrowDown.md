@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CartArrowDown')
 
 ' renders the element
-CartArrowDown('CartArrowDown', 'Cart Arrow Down', 'an optional tech label')
+CartArrowDown('CartArrowDown', 'Cart Arrow Down', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CartArrowDown')
 
 ' renders the element
-CartArrowDown('CartArrowDown', 'Cart Arrow Down', 'an optional tech label')
+CartArrowDown('CartArrowDown', 'Cart Arrow Down', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

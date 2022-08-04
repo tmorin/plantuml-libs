@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PooStorm')
 
 ' renders the element
-PooStorm('PooStorm', 'Poo Storm', 'an optional tech label')
+PooStorm('PooStorm', 'Poo Storm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PooStorm')
 
 ' renders the element
-PooStorm('PooStorm', 'Poo Storm', 'an optional tech label')
+PooStorm('PooStorm', 'Poo Storm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

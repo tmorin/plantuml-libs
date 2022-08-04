@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/CcStripe')
 
 ' renders the element
-CcStripe('CcStripe', 'Cc Stripe', 'an optional tech label')
+CcStripe('CcStripe', 'Cc Stripe', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/CcStripe')
 
 ' renders the element
-CcStripe('CcStripe', 'Cc Stripe', 'an optional tech label')
+CcStripe('CcStripe', 'Cc Stripe', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

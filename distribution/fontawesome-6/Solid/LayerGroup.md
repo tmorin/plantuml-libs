@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/LayerGroup')
 
 ' renders the element
-LayerGroup('LayerGroup', 'Layer Group', 'an optional tech label')
+LayerGroup('LayerGroup', 'Layer Group', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/LayerGroup')
 
 ' renders the element
-LayerGroup('LayerGroup', 'Layer Group', 'an optional tech label')
+LayerGroup('LayerGroup', 'Layer Group', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

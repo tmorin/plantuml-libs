@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TriangleExclamation')
 
 ' renders the element
-TriangleExclamation('TriangleExclamation', 'Triangle Exclamation', 'an optional tech label')
+TriangleExclamation('TriangleExclamation', 'Triangle Exclamation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TriangleExclamation')
 
 ' renders the element
-TriangleExclamation('TriangleExclamation', 'Triangle Exclamation', 'an optional tech label')
+TriangleExclamation('TriangleExclamation', 'Triangle Exclamation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,12 +2,12 @@
 
 sprite $BoreHoleXs [10x10/16z] Om01FWOOu4TbSV7pSm5P_420WyK3Ot7pmm439qWC0G
 
-sprite $BoreHoleSm [12x12/16z] VSQ35S1G542nZ_hXxZzjRUKeOUPX5tbUHAOdaGvWUWP-BwJzmFO4qh8AeGGm3WC
+sprite $BoreHoleSm [12x12/16z] VSV50S104830kAtGVxLnF-4r57jUt9M45f7T8XDhcqiWQw6w3Rmi8zSK3Ml6qm8
 
-sprite $BoreHoleMd [16x16/16z] dSa33W1H54FHfszq_wiTCnhSg2UbhKwtElYbSob55iTfXOOfNLmnzzToTG1miSrJJYUPVvmfAMLSwcqR0VT6
+sprite $BoreHoleMd [16x16/16z] dSV50G0n24JH8Uiw_LSRDquhBm8VsGtbfhpi_JWEYRtwRRdefJwP_6lJz-I_li_q5Plu3smC13ixzyLaeUO
 
-sprite $BoreHoleLg [20x20/16z] lSt50KCn30DGXpdQVzhsCpEzeq6Ybimq0zY5cJizSw5WcbaeIO-IRsPeV3UB0AOpb4Qpi3039G1SOCYGR2e6WkGQ6mHcyXy
+sprite $BoreHoleLg [20x20/16z] lSt50GCn44DHCzk__sh3d6Lwnm59F9ac_a3ecCNPivWl_6EMhtJYAZrcF1mtAy3lZAklMUwO8IgW99-yC8-A3rb9mm3DdtO6
 
-!procedure BoreHole($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BoreHole', $name, $tech)
+!procedure BoreHole($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BoreHole', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Medapps')
 
 ' renders the element
-Medapps('Medapps', 'Medapps', 'an optional tech label')
+Medapps('Medapps', 'Medapps', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Medapps')
 
 ' renders the element
-Medapps('Medapps', 'Medapps', 'an optional tech label')
+Medapps('Medapps', 'Medapps', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

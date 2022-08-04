@@ -2,18 +2,18 @@
 
 sprite $SolarPanelXs [12x10/16z] JOQ50O1008ImM_QVrlZc4ip0t7mtXEx0vVFiF7yvnMdw_6N-Fh__E3H_jm8_al7Z1bu
 
-sprite $SolarPanelSm [15x12/16z] LSU50G8140InuCxqNotwcjFbsUI45jX6EnvdkxX7k4LRBLrr8MoYj268QpB7NOzMx7zw_A-_xcRzm1i
+sprite $SolarPanelSm [15x12/16z] LSU50G8140InuCxqNotwcjFbsUI45jX4EnvdcxX7k4IqTDM5i8aIWhYkuwP7AxO_FVxNNtUpVk0D
 
 sprite $SolarPanelMd [20x16/16z] {
-POrL0WG124ATJkJ-jrrpQzw7BOWC_475KFuosuoSfecx1RLgunap3wC5q9KYm6TYNAoJZNhVu6seHv_nmMYpKYg5bLVEj6PJcgH5pVQeDwRmxNJD9p8Nu5hL
-90tOTUComFuzGYi5Bm
+POq52WG130Exhcd-_zkhdkq0GwYA27zGCPI_334sZYDtarfQUKRDDPeGAGIN64VNDkfzWxUXRg_nmPZx5yLnpxoofbMRNAmNLTiYRyp3jzEPJsGimBdI80tO
+kV4pmFfTGbyANW
 }
 
 sprite $SolarPanelLg [25x20/16z] {
-TSc50OGm5C3GKCF9_jjU-UVswWqm-oLnyjj1L_o1RerZij8T3b2Ce4VaWMu_Zq5BX3bsY9xYiKMUMclQJgjpF8JcJx1exVf-QkwnczZTw3m86hiDdO3a-XuM
-j00ryYDi7ba7OBIzXabN_rZyWrpk5YqF0q-JyiCmp9eIdmvlCkzyW701
+TSd50KCn30JHCNo6wR_Ro0xJEmXsWSKlYSPl9w7w0s7hQxOIJe6a13rxdGY71ArzBdtIBBtN7PBEupZgs6mk_H6AFy6gGuZPZ1vzcZZS2PvqsgS5dO7azbwi
+Q0QAysknUnObLCVNOjRDFrR_8EMxHVD3ucbKVfeq9JwTtXJU-S3L1G
 }
 
-!procedure SolarPanel($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/SolarPanel', $name, $tech)
+!procedure SolarPanel($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/SolarPanel', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FileWord')
 
 ' renders the element
-FileWord('FileWord', 'File Word', 'an optional tech label')
+FileWord('FileWord', 'File Word', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FileWord')
 
 ' renders the element
-FileWord('FileWord', 'File Word', 'an optional tech label')
+FileWord('FileWord', 'File Word', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

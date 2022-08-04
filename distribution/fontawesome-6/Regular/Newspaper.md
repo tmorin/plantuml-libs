@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/Newspaper')
 
 ' renders the element
-Newspaper('Newspaper', 'Newspaper', 'an optional tech label')
+Newspaper('Newspaper', 'Newspaper', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/Newspaper')
 
 ' renders the element
-Newspaper('Newspaper', 'Newspaper', 'an optional tech label')
+Newspaper('Newspaper', 'Newspaper', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

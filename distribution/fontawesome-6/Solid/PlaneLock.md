@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PlaneLock')
 
 ' renders the element
-PlaneLock('PlaneLock', 'Plane Lock', 'an optional tech label')
+PlaneLock('PlaneLock', 'Plane Lock', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PlaneLock')
 
 ' renders the element
-PlaneLock('PlaneLock', 'Plane Lock', 'an optional tech label')
+PlaneLock('PlaneLock', 'Plane Lock', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

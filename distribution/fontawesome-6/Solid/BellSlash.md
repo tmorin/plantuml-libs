@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BellSlash')
 
 ' renders the element
-BellSlash('BellSlash', 'Bell Slash', 'an optional tech label')
+BellSlash('BellSlash', 'Bell Slash', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BellSlash')
 
 ' renders the element
-BellSlash('BellSlash', 'Bell Slash', 'an optional tech label')
+BellSlash('BellSlash', 'Bell Slash', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

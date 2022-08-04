@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Sink')
 
 ' renders the element
-Sink('Sink', 'Sink', 'an optional tech label')
+Sink('Sink', 'Sink', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Sink')
 
 ' renders the element
-Sink('Sink', 'Sink', 'an optional tech label')
+Sink('Sink', 'Sink', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

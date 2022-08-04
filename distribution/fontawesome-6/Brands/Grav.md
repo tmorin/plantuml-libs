@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Grav')
 
 ' renders the element
-Grav('Grav', 'Grav', 'an optional tech label')
+Grav('Grav', 'Grav', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Grav')
 
 ' renders the element
-Grav('Grav', 'Grav', 'an optional tech label')
+Grav('Grav', 'Grav', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -1,19 +1,19 @@
 ' definition of the Item fontawesome-6/Brands/Aws
 
-sprite $AwsXs [12x10/16z] TSJ50G0X00F1nPtqN-svl9W8AmO9dGVzV6EQaM4WEXKGrbay3Ze_9sRabWsWIwV1RmS
+sprite $AwsXs [12x10/16z] TS750OC000ImjBZU_jFYyYBnBH49nWG6-Pd4g4VyYxzImUXLn5m3MiXXDF1Q0G
 
-sprite $AwsSm [15x12/16z] NS750S9G00MmrFlrxRyjND34dpzfMUCOOhOBUZ4ZMq7EiskpMcqfuefSOY5KYvMTKlnOJrcyBRZJ3pXwrWvRprF1lmS
+sprite $AwsSm [15x12/16z] VS75OSH000GmcRqu_NURF8yblwLbYMs8sIxenOmi5xAVNPtLQaqHP-GG2DLYPQSKJvPJFBlJLrXxbWvBpx_YtHy
 
 sprite $AwsMd [20x16/16z] {
-ZSl5eSKW00J0WNW2RF_LVdTzSrnnixKTBAoKnTPMwbhE25cCntu18fQjYt50pKYSUnEXfvEPCA9lE_J5Q6M4T7lejQIoxIgrCEEuYfzSrIUbjrWp-sXPEbh6
-Fe5f7zaCiEV5-FGfjLP_k0S
+ZSZ5OK0X00MmV8SYR_zfw-uvnh-TlN9mud3ratLN8kGmZrviGCHs3J4lM38JDsSNOMIGZJ1ZN0N6OVPbXWn76EiINCNAYXsr-TQN7ZtsRDxRZe6UMLQmbfd3
+12NFvix_tG4
 }
 
 sprite $AwsLg [25x20/16z] {
-hS7LGKGn0031JLxSjlzgSVy2xcQufwCEdB24A4NTG81ah886gfZuO0g2gt4QTbuCrOGbxx8naFG0rGWcnfuLem1f2KC89YuFk2OlZ6H7FqvGM5x4qziM2AC0
-42EG0Feg_55Mmyxy5688mh7nmn21T7IKYnTNcTe97O3eLnqul4jjxhrNBu7_UWG
+hSn5OaLH20JHWkTNgFslDkwPHFv1UjRSKgaDEmm1sTK91AGSWiPZchmn41mxTU81ZvfguBRETIAiMi1cW46RVSCK88VG10pI0aT_wrvjLzb1OPXGrpa5ekqy
+oWHMW6li_DAcCfDlWX3Aao-Q22obRGbu54lNYxXu57vq0SMhFFgSSrmBVtOF
 }
 
-!procedure Aws($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Aws', $name, $tech)
+!procedure Aws($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Aws', $name, $tech, $desc)
 !endprocedure

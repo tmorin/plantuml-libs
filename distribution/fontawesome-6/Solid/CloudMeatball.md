@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CloudMeatball')
 
 ' renders the element
-CloudMeatball('CloudMeatball', 'Cloud Meatball', 'an optional tech label')
+CloudMeatball('CloudMeatball', 'Cloud Meatball', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CloudMeatball')
 
 ' renders the element
-CloudMeatball('CloudMeatball', 'Cloud Meatball', 'an optional tech label')
+CloudMeatball('CloudMeatball', 'Cloud Meatball', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

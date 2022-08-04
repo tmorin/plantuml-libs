@@ -2,12 +2,12 @@
 
 sprite $StrikethroughXs [10x10/16z] Oq06_4302s9myJCmCB61XRXWaYpyF115SC203lWv8VBiV50vY28
 
-sprite $StrikethroughSm [12x12/16z] Oq03FFpy_9mG9Zy_Bv07PZ91A2YR4KJ1rF0nGXa8m805i414kHb113zC2y8oHdPUi1m
+sprite $StrikethroughSm [12x12/16z] Oq03FFpy_9mG9Zy_Bv07OKCfJ3O_7oEKWG0CM00ZH9GRJF0ZQU64Ac3d1Si1
 
-sprite $StrikethroughMd [16x16/16z] TOu30W0X54IpQ-v_scN6Yzz3jkWOBMiMVhB902U42J7R5deezX23BG4-E2A0bDjZWfm9WOvsRily_vPYzxOF4KXD093D3AMvrmq
+sprite $StrikethroughMd [16x16/16z] TOs30G0n40HZvwR_Qj_6XATTzKdiFUipOcMFeHZZMz_2ZBiDL_GjDc1kYGx8riC3zKzhZtZpqNLzz-42IEiWMwDdPWxVZ
 
-sprite $StrikethroughLg [20x20/16z] XSu50S0m00In7vPx_jME6QCW-j2qRLte26P9cynAAmz1WpAqMW6w0gyheD153KGTr8F8oDUpYWU5kMdrfm2ZAt2QjQ7PKgLcZ88n6T2YPLDfvnX5lUe1
+sprite $StrikethroughLg [20x20/16z] XS650SCm00InRy1it_xJDimawKLLrvKEc6Mj2Wij0aJrgcYq07G6GMU0pXeWQQVg9GQXcloueVfAdy3g3Bmc9bOQrL1fmY1QMm3D3AjA6yyWwL47
 
-!procedure Strikethrough($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Strikethrough', $name, $tech)
+!procedure Strikethrough($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Strikethrough', $name, $tech, $desc)
 !endprocedure

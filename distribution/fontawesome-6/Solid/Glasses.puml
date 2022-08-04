@@ -1,19 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/Glasses
 
-sprite $GlassesXs [11x10/16z] JOQ50O1008ImM_QVrlY-X5QQLwBwlI0sE6qwm6BL_HVSN41SLbcSTncrXqrv0G
+sprite $GlassesXs [11x10/16z] JOQ50O1008ImM_QVrlY-X5QQLwBwlI0sE6qwm6BL_HVSN41SLbcSTncrWqrv0G
 
-sprite $GlassesSm [13x12/16z] NSc50OGm5C3G07NB_jEUAw_zphzf0LXcIF8G43nuwHdXvH3vC2uLs7LwyhZxA5t0RJmAh-khj5K0-ifS0G
+sprite $GlassesSm [13x12/16z] NSc50GCX44JHZplJVxN9kJrOvsqe0ambY69Z4SXmQ0bnCa9S5AOam4f37zjzBstBzBqSrwFKcG7QJFm1
 
-sprite $GlassesMd [17x16/16z] {
-RSx5WKH1481GwdjBDVb7kplkxyGHVZZwnCMMCu0wu5O59eE78kpo50OcBrnnuuM9mOl3rQ9k05Kz_A72DBmzf1f0D-eb3fiheEmM84MpgrnYAAkgm7mF8W8U
-yGy
-}
+sprite $GlassesMd [17x16/16z] PSQr0G9H042nuAV_xJyjKc6fmhzfE_1otKzG3Lwg6NcRunPlqSvR9rrvQnVUfYxDrHMMQgf_4uTHDNFSAzYoTC3KsXdbt8GzjMyLhunowGN7Nlnv
 
 sprite $GlassesLg [22x20/16z] {
-TOu54WGX30HdBHoM_lzlhoZMfP6uw9FPnfC-T0LWrg77fXHAo5gn6A1bWowCfFPbNG4fiBnu2uEkH6R1Or6YSDsXBiGA-AH604ZWRBWx5ogds2hNTOhHbnpE
-tYW8gpV3gfcSslG510Jx0Nq3ixQ28XsJv7H6QLwLHbm7lVC7
+TOu5WWGX0CCwYfF_ltQqT-l1WbS_6QVXoIq0yvEdKofrAZ9hck4KU7kFB0qK6GFIpF9bjQ8t4gD0RmmaqVKERI4reD_X0q263gPtEwRnjEVHSUg4Gpwl9a6m
+5x1DwhHJ9n0GrWZS2TRrZA34pIgfsmTfjfmaV_IT7G
 }
 
-!procedure Glasses($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Glasses', $name, $tech)
+!procedure Glasses($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Glasses', $name, $tech, $desc)
 !endprocedure

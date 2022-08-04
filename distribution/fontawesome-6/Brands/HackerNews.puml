@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Brands/HackerNews
 
-sprite $HackerNewsXs [8x10/16z] Ou02Vap0o0yHPUFd0zD0BZgD2G
+sprite $HackerNewsXs [8x10/16z] Ou02Vap0m0yHPURdWmcWqvW
 
-sprite $HackerNewsSm [10x12/16z] Ou03Vko0bP-VZmV2PEQ7AMBavu2oW4BuMDoeXl710G
+sprite $HackerNewsSm [10x12/16z] Ou03Vko0XP-VZmV2PEI7AWBIxFnm9ZuMDwfXV7
 
-sprite $HackerNewsMd [14x16/16z] ZSUt0S0m30InbtE-_RTr9OQAGWSbNqBXt875AdWcspOZd6YuNKJZkocrv0S
+sprite $HackerNewsMd [14x16/16z] ZSUt0O0030In9sTk_ssfd2gZJYhUWiQn0gDNSCktJ8WW1i8cil-xQAdu
 
-sprite $HackerNewsLg [17x20/16z] dSYt0S0W00In9sTk_stTE7UWKlgBVsmA4S1Fk0X8XeUpeCPZQXRnPfC6RrE6BrF-KPUZJxRfxm
+sprite $HackerNewsLg [17x20/16z] dSYt0OKm5C10_K26f_stXSQnmrSUlL_FGTFaunjcg0iMduzoM0InOUqxSLaBiCNMn_uwpd0OlHi
 
-!procedure HackerNews($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/HackerNews', $name, $tech)
+!procedure HackerNews($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/HackerNews', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Dhl')
 
 ' renders the element
-Dhl('Dhl', 'Dhl', 'an optional tech label')
+Dhl('Dhl', 'Dhl', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Dhl')
 
 ' renders the element
-Dhl('Dhl', 'Dhl', 'an optional tech label')
+Dhl('Dhl', 'Dhl', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

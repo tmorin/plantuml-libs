@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HeartCircleBolt')
 
 ' renders the element
-HeartCircleBolt('HeartCircleBolt', 'Heart Circle Bolt', 'an optional tech label')
+HeartCircleBolt('HeartCircleBolt', 'Heart Circle Bolt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HeartCircleBolt')
 
 ' renders the element
-HeartCircleBolt('HeartCircleBolt', 'Heart Circle Bolt', 'an optional tech label')
+HeartCircleBolt('HeartCircleBolt', 'Heart Circle Bolt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

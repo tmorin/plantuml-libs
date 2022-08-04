@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowUpFromBracket')
 
 ' renders the element
-ArrowUpFromBracket('ArrowUpFromBracket', 'Arrow Up From Bracket', 'an optional tech label')
+ArrowUpFromBracket('ArrowUpFromBracket', 'Arrow Up From Bracket', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowUpFromBracket')
 
 ' renders the element
-ArrowUpFromBracket('ArrowUpFromBracket', 'Arrow Up From Bracket', 'an optional tech label')
+ArrowUpFromBracket('ArrowUpFromBracket', 'Arrow Up From Bracket', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

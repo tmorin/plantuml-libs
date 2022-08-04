@@ -1,19 +1,19 @@
 ' definition of the Item fontawesome-6/Solid/HouseTsunami
 
-sprite $HouseTsunamiXs [11x10/16z] FSR50OC0002nrBst_xGuv1KyEbkScl3_q7IQFElV-T7atmbBprbxIl4w4zfnihXwTnW1
+sprite $HouseTsunamiXs [11x10/16z] FSQ50SC040CnbRct_xJXH0ys7fqjJatuVsZgD7dMlzErbiHIprdhASNhH6Z7oUBgtM44
 
-sprite $HouseTsunamiSm [13x12/16z] HSZN0K9148LGvgvPP-c_MjDBvmy0kekLFu20Ce2emQbM-TDw9cID1jQ8zpLwY081610FmCFEUNg9b6Vm-NjCFNm
+sprite $HouseTsunamiSm [13x12/16z] HOc50GD13CFaIxdDQVzfIqyAsWRe3Yl-00IK0563KrtprZFiejd5yBwABb5WiAnu03pirBGYiS3dpsFgmGS
 
 sprite $HouseTsunamiMd [17x16/16z] {
-LS-50S0W40J1mvtjlzgu3kwyTesc3mxQs7kSNAgIvZ4DDRHg9SFEYPF4gGB3ntPEdBeEd3henCb-9wOP28fEvcmYP6CIE6F7SL_XHv9fK8thpAI2vAisDUnr
-EmDW3FPwSbPxUrOqM04
+LS-5WSKW403HmNuIRFglzeGzVRYpV1eE_l00oD_Zbji3R3tZdaTFtpip1Z1qTQKsOY9CZk-H4WpvxyHEI_GXf6YQtd1fWNNkk_qdGh6Jfhlo2AK3z7gM8W3N
+yhFUHlNPHkNGTm
 }
 
 sprite $HouseTsunamiLg [22x20/16z] {
-POw53GGn3C1Ivdh_RL-9_jW2js4nocPuUU0Mndm4-TFrjnb7iCeV3x14P86R_qm28mWiZAB1FnLbT_1IEDW0JfHdr8BFw03a4_Nlw7G5n0xvusjrwYOL47lY
-LPwYMi1i0pkmcpG--M1DNSk2v0apIzvBW_zxuqr-m4m-Tg3uK5IYdoyTMiLUQQjMMl03
+PP1L0W0X20N1Rkv_soNSdXzqU2OeUL5ty6QICfuEQTE0uKMdBA_4jEKuTYUIWS0z6thmT598M4q2WKuMCM2yBVvib-ZFkgyTcDb8vzHOijOAvGnNszzHFdzX
+r6uNR5eYwq4_TBicCOJ8_U4Xh2aIznKU1Nd7uT39ZWanSSaWapziQx6HMrAcdqG7
 }
 
-!procedure HouseTsunami($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HouseTsunami', $name, $tech)
+!procedure HouseTsunami($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HouseTsunami', $name, $tech, $desc)
 !endprocedure

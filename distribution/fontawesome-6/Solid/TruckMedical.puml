@@ -2,18 +2,18 @@
 
 sprite $TruckMedicalXs [12x10/16z] ZOYr0G0W40Elmyd-qwAXvp-EpZK0-Lx6JOfdIPxm-dFaY58w2ghYwWG
 
-sprite $TruckMedicalSm [15x12/16z] VOs50O0m30GFTtx_RGcFwxLnGoiLCzhPmyewIt6O9-ITWj4XGHKc3JcQYRZHXV4_h2IGeRJlJp-GsgwtmkHC
+sprite $TruckMedicalSm [15x12/16z] VOw30S104C1Ikzb_sjhuFCx0ZO8P3mwpG3MA5jCu8cvKUzYo2YNIIp94LjxemsQXu0AfWikbxJQfict02
 
 sprite $TruckMedicalMd [20x16/16z] {
-fL054iCm3DDg6dd-_si7kgwXuogac6ra7GWG51tOPKM8hhBzVJvlVvage7xuKtPug1m-cK3cOJF60uMNMh6Ta3s2eLdSmR0zMOAAI9AP05eE_c1ansYKxFLb
-1dm
+fL053WCn37DedFN_hnrOlQBuN0hRAh8qN44mr51ZXL3RO_LzlUv7J1LGR_sCjGwHrfC9PBQQDgznCBRXJEnvvUXeuln_ouiIN4IIbia_4w3tivnM_HgdzVvP
+0Nm1
 }
 
 sprite $TruckMedicalLg [25x20/16z] {
-lSt50OGm00NHmOd-_hlTA7xUmNaHhAvjzApkhHtqo3vWPFw68KFlX7c6OJwfGxpC3iPLKMuSWN5iU-nPddjaAF89s0oV_GUq5GRrTbYLOZQAW9KrgQW1aCnI
-7lsMVOL5ZfoJd1GeIJ588rtagKrABS0F
+lSr50i905C3Gr3kQ-vyM_pXRKkyR8VlSHXJ_epd0jxOtWEaNZ1ezO1o1yK41dSVibeeQCuO168RR7flwiSSPsDMlG0huw3_WTc4msc5MPKvs89lJgIw0fWNG
+k45oXSd2kQ956vUqDnq8iSAbKNK4ZW
 }
 
-!procedure TruckMedical($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TruckMedical', $name, $tech)
+!procedure TruckMedical($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TruckMedical', $name, $tech, $desc)
 !endprocedure

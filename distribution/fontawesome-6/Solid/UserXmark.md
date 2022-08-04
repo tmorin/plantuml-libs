@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UserXmark')
 
 ' renders the element
-UserXmark('UserXmark', 'User Xmark', 'an optional tech label')
+UserXmark('UserXmark', 'User Xmark', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UserXmark')
 
 ' renders the element
-UserXmark('UserXmark', 'User Xmark', 'an optional tech label')
+UserXmark('UserXmark', 'User Xmark', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

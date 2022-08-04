@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TextSlash')
 
 ' renders the element
-TextSlash('TextSlash', 'Text Slash', 'an optional tech label')
+TextSlash('TextSlash', 'Text Slash', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TextSlash')
 
 ' renders the element
-TextSlash('TextSlash', 'Text Slash', 'an optional tech label')
+TextSlash('TextSlash', 'Text Slash', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/EarthOceania')
 
 ' renders the element
-EarthOceania('EarthOceania', 'Earth Oceania', 'an optional tech label')
+EarthOceania('EarthOceania', 'Earth Oceania', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/EarthOceania')
 
 ' renders the element
-EarthOceania('EarthOceania', 'Earth Oceania', 'an optional tech label')
+EarthOceania('EarthOceania', 'Earth Oceania', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

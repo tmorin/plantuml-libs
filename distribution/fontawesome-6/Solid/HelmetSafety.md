@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HelmetSafety')
 
 ' renders the element
-HelmetSafety('HelmetSafety', 'Helmet Safety', 'an optional tech label')
+HelmetSafety('HelmetSafety', 'Helmet Safety', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HelmetSafety')
 
 ' renders the element
-HelmetSafety('HelmetSafety', 'Helmet Safety', 'an optional tech label')
+HelmetSafety('HelmetSafety', 'Helmet Safety', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

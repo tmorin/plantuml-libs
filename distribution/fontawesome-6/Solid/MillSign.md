@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MillSign')
 
 ' renders the element
-MillSign('MillSign', 'Mill Sign', 'an optional tech label')
+MillSign('MillSign', 'Mill Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MillSign')
 
 ' renders the element
-MillSign('MillSign', 'Mill Sign', 'an optional tech label')
+MillSign('MillSign', 'Mill Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

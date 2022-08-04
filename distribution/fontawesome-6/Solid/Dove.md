@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Dove')
 
 ' renders the element
-Dove('Dove', 'Dove', 'an optional tech label')
+Dove('Dove', 'Dove', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Dove')
 
 ' renders the element
-Dove('Dove', 'Dove', 'an optional tech label')
+Dove('Dove', 'Dove', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

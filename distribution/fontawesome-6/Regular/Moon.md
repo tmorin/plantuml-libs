@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/Moon')
 
 ' renders the element
-Moon('Moon', 'Moon', 'an optional tech label')
+Moon('Moon', 'Moon', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/Moon')
 
 ' renders the element
-Moon('Moon', 'Moon', 'an optional tech label')
+Moon('Moon', 'Moon', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

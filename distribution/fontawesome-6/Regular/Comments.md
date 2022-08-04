@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/Comments')
 
 ' renders the element
-Comments('Comments', 'Comments', 'an optional tech label')
+Comments('Comments', 'Comments', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/Comments')
 
 ' renders the element
-Comments('Comments', 'Comments', 'an optional tech label')
+Comments('Comments', 'Comments', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

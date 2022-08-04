@@ -2,15 +2,15 @@
 
 sprite $GemXs [10x10/16z] JOh50G0m20CXpzhjFstTq9Xz5GiWxmY7KkW038txYbCNNlK6RdQS1W
 
-sprite $GemSm [12x12/16z] NOs50S0W4CIkxit-q-8UU3SDu8dUktgNMxfXlva_c2SSqta6qo0AXqfmoV47zwxxdthiLI6w5W
+sprite $GemSm [12x12/16z] NOs50S0W4CIkxit-q-8UU3SDu8dUEtkNMxfXlPW-c4B3T9x1D8Z2eHASSlp1lUl-fnvxLOYk1G
 
-sprite $GemMd [16x16/16z] LSV50SKm081GwXxsd_PBu-y4H9qfH4JFSFWtR0i_c_AewwG336f0B_m1_qwCyOmH337cq6Ep1UnM0p-7sSZhD9eWElk5IvrftFt2GFG5
+sprite $GemMd [16x16/16z] PSY54S0W44JH7q-mwx_R78F36rc1rHOI4iyh4S-5UhHvdTUk1JQj0H63A10LHogUoHb6FDA3uO3X836Ix0p7GMN72IxDrGy
 
 sprite $GemLg [20x20/16z] {
-VOg50SGW0CIktgBxR_lSuney13FsEvAKXB6U7PjNjts2VDtfdNjie3ByqbvHxbGlhn-Wx1yy5hk_dfVsIEoR3g27VOiUI017Mv6pgLff4BcQoiks8dTRaQTN
-b1iM_
+VSg54O1G0CFGu4xttvRhuTyU7afMS-EsiEjKKvsfLSSPUtQTJLA5q-vV6qv6vTJxTO9LPnn4VRxMtNPQgF3J85OfiX77UBbXTRYoLe-TMnUipXYkh0zNDiJ9
+aP83
 }
 
-!procedure Gem($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Gem', $name, $tech)
+!procedure Gem($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Gem', $name, $tech, $desc)
 !endprocedure

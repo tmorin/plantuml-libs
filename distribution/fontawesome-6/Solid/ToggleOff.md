@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ToggleOff')
 
 ' renders the element
-ToggleOff('ToggleOff', 'Toggle Off', 'an optional tech label')
+ToggleOff('ToggleOff', 'Toggle Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ToggleOff')
 
 ' renders the element
-ToggleOff('ToggleOff', 'Toggle Off', 'an optional tech label')
+ToggleOff('ToggleOff', 'Toggle Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

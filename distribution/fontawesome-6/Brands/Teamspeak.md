@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Teamspeak')
 
 ' renders the element
-Teamspeak('Teamspeak', 'Teamspeak', 'an optional tech label')
+Teamspeak('Teamspeak', 'Teamspeak', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Teamspeak')
 
 ' renders the element
-Teamspeak('Teamspeak', 'Teamspeak', 'an optional tech label')
+Teamspeak('Teamspeak', 'Teamspeak', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

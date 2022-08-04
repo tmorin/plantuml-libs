@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HockeyPuck')
 
 ' renders the element
-HockeyPuck('HockeyPuck', 'Hockey Puck', 'an optional tech label')
+HockeyPuck('HockeyPuck', 'Hockey Puck', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HockeyPuck')
 
 ' renders the element
-HockeyPuck('HockeyPuck', 'Hockey Puck', 'an optional tech label')
+HockeyPuck('HockeyPuck', 'Hockey Puck', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

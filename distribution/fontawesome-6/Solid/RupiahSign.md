@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/RupiahSign')
 
 ' renders the element
-RupiahSign('RupiahSign', 'Rupiah Sign', 'an optional tech label')
+RupiahSign('RupiahSign', 'Rupiah Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/RupiahSign')
 
 ' renders the element
-RupiahSign('RupiahSign', 'Rupiah Sign', 'an optional tech label')
+RupiahSign('RupiahSign', 'Rupiah Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

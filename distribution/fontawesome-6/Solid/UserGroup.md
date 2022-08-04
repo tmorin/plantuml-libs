@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UserGroup')
 
 ' renders the element
-UserGroup('UserGroup', 'User Group', 'an optional tech label')
+UserGroup('UserGroup', 'User Group', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UserGroup')
 
 ' renders the element
-UserGroup('UserGroup', 'User Group', 'an optional tech label')
+UserGroup('UserGroup', 'User Group', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

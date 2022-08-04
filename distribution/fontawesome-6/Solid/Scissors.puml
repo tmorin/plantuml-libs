@@ -2,18 +2,15 @@
 
 sprite $ScissorsXs [10x10/16z] BSQr0SG0002XUvS8-qyRfw9qmQk2teeXNuxqmf6gAp2CwYL2a_uAeOeL
 
-sprite $ScissorsSm [12x12/16z] DKm50W0X2Djrwlx_MXgJ9V3_w4LR_Y_aRmFV66VCNupf8M84te_CiVFnRsNgpfdAz9wHjjldgpBiu7WK
+sprite $ScissorsSm [12x12/16z] HKt50G0n3EBSZ_sdRHldbQ30-oB00J_USV3MyzVxqTCyj1Eu7r9FGyGNDqNdRyelFP_PJhaFqsltkpe
 
-sprite $ScissorsMd [16x16/16z] {
-JOu53i0m3CIkf9Nz_zzEoT2YsgL8SK_zs015JYD5o1NUhKsM5k7MC6aIvgwsNa1zL8KRKoU4-bV3L3TfZMrQwZUFAHoI8fHgToiUDkMUv_3mpUEXsZmRf3ie
-__uAKIS
-}
+sprite $ScissorsMd [16x16/16z] JOx50GGX5CKohf3-grt1S_lo1ERuCX1LDnANowpBeUqKNI1OHrvFq39Ee44zwyXc9Os9Curqnd49JrJPpXQQHZs0rkSqBNgV8orwdxGuqH2Lkc0TisQ-
 
 sprite $ScissorsLg [20x20/16z] {
-NP350GKX4CNUkW7flzel8skvZ0MLj5BqP0HWLz0liuGpoPW1LXXiSBKsmFEpTQXOLU6q905hDNjnwyUEqnQtZ8aWhQIHriNoiiPbYXDF3oVlbQsmW1QdBkg0
-7Fk1zbtawIrVjNilp07sViPxQJOC1Nxp0s3GZIy
+NOzL0aH1281utSFzJxkbRl4p8HQmUlBBeEfEqaq364oyc5LNxK7zV6rgtElBWrE1IzyMeAwN2ajOm6xGbh1UJ2Pb5SsoFYn_LZ_qsV7j6THSzPMMshBhKhkf
+6Ws1LQjxgwts-4jpqBqRZRyocoz8Ol93jOSFTm
 }
 
-!procedure Scissors($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Scissors', $name, $tech)
+!procedure Scissors($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Scissors', $name, $tech, $desc)
 !endprocedure

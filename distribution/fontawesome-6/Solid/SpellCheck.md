@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SpellCheck')
 
 ' renders the element
-SpellCheck('SpellCheck', 'Spell Check', 'an optional tech label')
+SpellCheck('SpellCheck', 'Spell Check', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SpellCheck')
 
 ' renders the element
-SpellCheck('SpellCheck', 'Spell Check', 'an optional tech label')
+SpellCheck('SpellCheck', 'Spell Check', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

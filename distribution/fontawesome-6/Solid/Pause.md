@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Pause')
 
 ' renders the element
-Pause('Pause', 'Pause', 'an optional tech label')
+Pause('Pause', 'Pause', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Pause')
 
 ' renders the element
-Pause('Pause', 'Pause', 'an optional tech label')
+Pause('Pause', 'Pause', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

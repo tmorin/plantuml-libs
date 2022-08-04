@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/WeightScale')
 
 ' renders the element
-WeightScale('WeightScale', 'Weight Scale', 'an optional tech label')
+WeightScale('WeightScale', 'Weight Scale', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/WeightScale')
 
 ' renders the element
-WeightScale('WeightScale', 'Weight Scale', 'an optional tech label')
+WeightScale('WeightScale', 'Weight Scale', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

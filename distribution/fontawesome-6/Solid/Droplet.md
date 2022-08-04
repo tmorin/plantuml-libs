@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Droplet')
 
 ' renders the element
-Droplet('Droplet', 'Droplet', 'an optional tech label')
+Droplet('Droplet', 'Droplet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Droplet')
 
 ' renders the element
-Droplet('Droplet', 'Droplet', 'an optional tech label')
+Droplet('Droplet', 'Droplet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FileInvoice')
 
 ' renders the element
-FileInvoice('FileInvoice', 'File Invoice', 'an optional tech label')
+FileInvoice('FileInvoice', 'File Invoice', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FileInvoice')
 
 ' renders the element
-FileInvoice('FileInvoice', 'File Invoice', 'an optional tech label')
+FileInvoice('FileInvoice', 'File Invoice', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

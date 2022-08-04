@@ -2,15 +2,15 @@
 
 sprite $CodePullRequestXs [10x10/16z] VOZ50K0X34Fp1PUt_xJucJQku2IPmG2VO2GFBp3puTPvc6ig6UmCaMzl1Je
 
-sprite $CodePullRequestSm [12x12/16z] ZSYr0OG00C30UnSa-szBWvLK4SyPHdXM5CpTKXLgyAvNyGxtt3Q7Yrw1gbdmIEU_
+sprite $CodePullRequestSm [12x12/16z] ZSYr0OC00031YmVz_RUbGagg5-yLPdXN5An9LQZ9fvx5DuZ3tVOALAs2Hxh-3G
 
-sprite $CodePullRequestMd [16x16/16z] dOvL0e0W44J7LkhT_xHq_FiKcEsLWb41DG3gSrGpe3TBm9izsvRNiragfkLRoSFzj1fGnh3hX6bhhtBP-cdlowuIO9eGsDw-kcNxC7pPLUslI05E3S0d
+sprite $CodePullRequestMd [16x16/16z] hOx50O0m5CKUxcJ_QQdhcLI-Y_IUSg00W1UZDr-qCWXuVDx5-c1_pndoB-c1PGur8CjfzGcY7Vd37ZeRg5T_qSxWpOjXv-HuaUTWjofmb_p7
 
 sprite $CodePullRequestLg [20x20/16z] {
-lSY5OOHG5031FJTW-gysXbQG-VgsNXxz-Tng1cFLIBCNBou5pNZDPpPKFS4vp4xLY4y5rnTJ5ThU1yVMvrbnERGPj_zfPyTsPonmI8m3SM_6-ypa4yzcdEC2
-QZQ2tdXqZ9Tl
+lSs5WSH034DHXJcl_seF7QXW_w19IXPJ_jY6570aoK6b5XQwX3l7KWViIJA3jd8e6LlfjWjdcUH-9zwvR7CIkiezC7mcrtZdHeu4l58SEs6i76l3QGlpdMj2
+1r8S82k6l9FjDm
 }
 
-!procedure CodePullRequest($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CodePullRequest', $name, $tech)
+!procedure CodePullRequest($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CodePullRequest', $name, $tech, $desc)
 !endprocedure

@@ -2,15 +2,18 @@
 
 sprite $SymfonyXs [10x10/16z] 9OZ70G0X3CDq5NXv_safIkBEkGVlopdWDxm10qNyFEbqQlz7JCfbui1mtB
 
-sprite $SymfonySm [12x12/16z] LSY50G0X30J1mvtjlzjtOUAH3awtoI4VAxVnV2F22x010KTB0UCYu01DSH03YpWiFTEAus2aGUOGjVFFTmC
+sprite $SymfonySm [12x12/16z] LSY30KLH30MmyuoBx3_jDrCt3rDUEjXp0z3UtrMCmR08X7asJ2icf0T44u7_lYlx298qErXpy_bU0G
 
-sprite $SymfonyMd [16x16/16z] LSk50SGm40D1XTdJVxMFmJMU87-g9XSDKFPnSz0zncdHdc6b4HBOHWAcO8bjZHegZ2cITeM6HI8L46ADpETiw9JOvmBQsD-mL4uxwQrDKyunQHraPpgwoHi
-
-sprite $SymfonyLg [20x20/16z] {
-LO-5WSGm3C1K3cl_QHy3FGNDDeFju8Cj-KUxf-foqLNHDpl0xUGw3mKs9pJH2cbvCQ9L9SH7WgTgHFL11KMrRQgHNI7sF8SQXDzZXrxlgXnltPqYHa9N5The
-PFxkESPg7b0phU9q0pJWL1L-sRNMfUfCZJUJFJQrTCqt
+sprite $SymfonyMd [16x16/16z] {
+LSg50S0m3CH0bHlK_jEMyOAsdrFJyMezrAiitePV6PBj4xQseg1QPiLTG4rOCZRgSKrKeS-gdIP1y81YHk9JEmrMlEhghiVhHLFZLGgCvhQhLxbhlN49xbg0
+5G
 }
 
-!procedure Symfony($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Symfony', $name, $tech)
+sprite $SymfonyLg [20x20/16z] {
+LOs5WGKn20M9U-Y_syCst9_LDq7W8oJuPQ9mtHTqJ0tyJsHLFPUSjD8LNAHqUBntwJVe5_fezCB8OOXh_EOfacxGay1ks9n4JwVCpzjb-yhXMdTr3i11fSgc
+6YM-lmBfQ_1McRpWdhUXWiWE-DG69YAUuyeuw8sFC2xN54r_
+}
+
+!procedure Symfony($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Symfony', $name, $tech, $desc)
 !endprocedure

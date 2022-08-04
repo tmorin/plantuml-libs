@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/RoadLock')
 
 ' renders the element
-RoadLock('RoadLock', 'Road Lock', 'an optional tech label')
+RoadLock('RoadLock', 'Road Lock', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/RoadLock')
 
 ' renders the element
-RoadLock('RoadLock', 'Road Lock', 'an optional tech label')
+RoadLock('RoadLock', 'Road Lock', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

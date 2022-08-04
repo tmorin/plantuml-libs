@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/PersonDress
 
-sprite $PersonDressXs [6x10/16z] FOQ50G0X08JuxcV_QMsz1FW1TXbIo_YNTPhLXoSZk4dT2
+sprite $PersonDressXs [6x10/16z] FOI50S0m08EO-_Z_sdgR0C0FiCkOMk9VwZIh3uyAEFT6
 
-sprite $PersonDressSm [7x12/16z] DOc50G0X30Fphd3xJulK6vNqhfe3HkzkzBsUWIEVqSTTi7GnjF8PL2jdKWS
+sprite $PersonDressSm [7x12/16z] HOY50S0m3CCyNb7_Nrk6W46IxAawqCnUpPpj3BhYcZd-mAPgzXUBaMTQ1W
 
-sprite $PersonDressMd [9x16/16z] LSg30G0n44JHYPtVVxLdlc2fJOyw1D31tOdC5KEhHzhPECbma3XbSPb4Debh9vXhQKho3B3Qq47_fEt92W
+sprite $PersonDressMd [9x16/16z] LOo50S0m3CCyvkd_QyiK5OAs0k-kn0OvcK9IiXANvqxn8J27X4ID73NXPq-DEjkcaloIPZv8dhmWcpmnyG
 
-sprite $PersonDressLg [12x20/16z] VOx50SKm3CLUkK7jFstOfmyAc46T9yiu0TFlhXiPfozS8RZDCZftLrycFS8YIn7Z59X5XZHhOMDd448hM3fg1Ekv1hHxpXMWNVtLTpY6NW4
+sprite $PersonDressLg [12x20/16z] VSp50GGn40D1cTcTVxJ7i5olGUafJNrPu5l7HQr9rW7NMlbTFFbdcNbxrdnCgVFb1BzkmdWL4GoMbzQcP1OvRL4hlOxjg_PWGPUr0VEgxm
 
-!procedure PersonDress($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonDress', $name, $tech)
+!procedure PersonDress($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonDress', $name, $tech, $desc)
 !endprocedure

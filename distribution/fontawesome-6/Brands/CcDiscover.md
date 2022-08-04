@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/CcDiscover')
 
 ' renders the element
-CcDiscover('CcDiscover', 'Cc Discover', 'an optional tech label')
+CcDiscover('CcDiscover', 'Cc Discover', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/CcDiscover')
 
 ' renders the element
-CcDiscover('CcDiscover', 'Cc Discover', 'an optional tech label')
+CcDiscover('CcDiscover', 'Cc Discover', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

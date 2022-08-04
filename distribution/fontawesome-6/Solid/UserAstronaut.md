@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UserAstronaut')
 
 ' renders the element
-UserAstronaut('UserAstronaut', 'User Astronaut', 'an optional tech label')
+UserAstronaut('UserAstronaut', 'User Astronaut', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UserAstronaut')
 
 ' renders the element
-UserAstronaut('UserAstronaut', 'User Astronaut', 'an optional tech label')
+UserAstronaut('UserAstronaut', 'User Astronaut', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

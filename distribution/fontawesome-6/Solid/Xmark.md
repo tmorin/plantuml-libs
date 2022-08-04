@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Xmark')
 
 ' renders the element
-Xmark('Xmark', 'Xmark', 'an optional tech label')
+Xmark('Xmark', 'Xmark', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Xmark')
 
 ' renders the element
-Xmark('Xmark', 'Xmark', 'an optional tech label')
+Xmark('Xmark', 'Xmark', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

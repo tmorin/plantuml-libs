@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Lyft')
 
 ' renders the element
-Lyft('Lyft', 'Lyft', 'an optional tech label')
+Lyft('Lyft', 'Lyft', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Lyft')
 
 ' renders the element
-Lyft('Lyft', 'Lyft', 'an optional tech label')
+Lyft('Lyft', 'Lyft', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/GasPump')
 
 ' renders the element
-GasPump('GasPump', 'Gas Pump', 'an optional tech label')
+GasPump('GasPump', 'Gas Pump', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/GasPump')
 
 ' renders the element
-GasPump('GasPump', 'Gas Pump', 'an optional tech label')
+GasPump('GasPump', 'Gas Pump', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

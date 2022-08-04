@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CompactDisc')
 
 ' renders the element
-CompactDisc('CompactDisc', 'Compact Disc', 'an optional tech label')
+CompactDisc('CompactDisc', 'Compact Disc', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CompactDisc')
 
 ' renders the element
-CompactDisc('CompactDisc', 'Compact Disc', 'an optional tech label')
+CompactDisc('CompactDisc', 'Compact Disc', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

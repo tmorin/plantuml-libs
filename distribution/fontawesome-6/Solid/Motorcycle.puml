@@ -1,19 +1,19 @@
 ' definition of the Item fontawesome-6/Solid/Motorcycle
 
-sprite $MotorcycleXs [12x10/16z] NOo50G0X548lRNtxRsldxm2kqq31ib6hJyND8xH153pyf3KvAOBdJjlDywRDL8aGkEwcd5e4
+sprite $MotorcycleXs [12x10/16z] NOg30S0m44Nhnc__QMCVluwzGC34ADV6OuO85Nmv3o-HfexZB4TXPpoAp9oBByFy0W
 
-sprite $MotorcycleSm [15x12/16z] ROhL0GCX0CM2SmBPVzgwz_Bpb2CsPPKtgvg0lcqRe3a3g8hgrrF3SwshXfi95ePeqhmxZGBkmo1MYKLoRa8HLG5K9zGH0Uxc3
+sprite $MotorcycleSm [15x12/16z] ROfL0WHH08AOU1tS_xJRlUCNAXobATLtlnHTWTnQ0oxbsb0LrI_pKLNZfTzXCT15LzswqqN0FaICikoohXVW0ge2g4w8OxssAooS0G
 
 sprite $MotorcycleMd [20x16/16z] {
-VSdLOSKm0CLGcLEJzj-sSHdV-Rh00sdl9vYJBowrg8blbcha5iQj04r7JXpRusAeyYh6cAg-NeCtOpUQn_Hag1vqDPJNZFQq5Lse9tTx68o9vc5_FSpT22pJ
-CXQPLXSH9UVGt72oEdLnV6Hzdxxa47Zrdfy1
+VSd5WKCn4C1GsH-Dwh_RdQLmyYu3ueDbpWAzmzMfRchcpZ0aGceXAfksd21C3IVDmDMklwdnfyoTGqEtnWwx1ghAfW6qvAdeG5scLajgd0LDnVeRp5N2C0tp
+8jqzIaB9cTq9A6etGhZk-l-wt-zz0G
 }
 
 sprite $MotorcycleLg [25x20/16z] {
-XSt5eSKm30NHCGGDqt-r3vJFU7R2o__IkguPybhvRAYcgkPl5uSnBNnZI8IpFHmyJPsr9iBc1P9-35Z765DryS9dqrSBhmuTAvkXQ9IG3PDJDIKleBP3FL1F
-LADSj093wPes7HxFSYZJ-fB5irIAJaLN7lQNmHw3LGkPhkHQsPubD8tmJMs4r_Aa6YQNyg6SwaxuNdvt1m
+ZSi5iiKW40NH1k89q_jVxPUfUgud0dU4BxJM2j0gjxegWreUDXQpMtbWWhJjVzQyXaOzpJTDf_dAgT5x3zNBn8tmf76oQX-OJ5KpGZ45cogedYxxggwSVcOS
+TG2wScYPjBlIjIkHFIRD0QLeA3fUD-PiJ5ef74gfbKaRi2lgFgixwHGtcYaWLIynr8Nq61_z0W
 }
 
-!procedure Motorcycle($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Motorcycle', $name, $tech)
+!procedure Motorcycle($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Motorcycle', $name, $tech, $desc)
 !endprocedure

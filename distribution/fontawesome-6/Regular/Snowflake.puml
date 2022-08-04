@@ -2,18 +2,18 @@
 
 sprite $SnowflakeXs [10x10/16z] 9SN50GC1402XYNlelzgpvKExVmtCFPNYdFY5KSLxSlL3bFuJpxJxsry1
 
-sprite $SnowflakeSm [12x12/16z] DSd5OS00002XYtlOVzfw-TAFjt_tojIt-GYfd4gvxs9CEyNasqBVUFi6fnVwEGqCNRCcPLvhc2QqzsCTB5MV
+sprite $SnowflakeSm [12x12/16z] DS65OS000C0WwjxyV-ryuCVhtxtM2CP39NH6TD_K86jHKrLBWNf1rT5RPIcYkAOCqRnY72gx7xCM-0G
 
 sprite $SnowflakeMd [16x16/16z] {
-JSg5eS0W303H0r8FlVsd_L9_I9JBpbU698_gFme7Eqq5Ho1DOHIgguMYLa9OT8DKtK9sZycy5XR_DMel72QrSD1i7lP1WzhL4Xux6qU044OLXYM5pKPnI82-
-iAaD0mxXgl8g8OL_lm
+JOs50SD0009vzsV_RGlrYs89tbpyipEnVpBGV1IF34jMLxa95BerwTXHrZN8vLmiwKiHqASJ4n4FNhJVvycTI7CBcTNnJ7ifhazLseRlm_-V303JXZX3KXjf
+APDe0t_aZte
 }
 
 sprite $SnowflakeLg [20x20/16z] {
-NOy73iCm30DfPIjgxl-_BGXrvhoqGUlDTEd6Cf9OXdw1ugJq8MVjc50kQhZa83PnOAMmSJ996sbdT9FI5y13pW6h74kW5kURug09ZIsaKPXTqhpf3K2-dPMS
-FmEMs8eM1in9FC3uyy3PMW8ezmAeOxhQYPf1TdVtv7xAkFub1TIyczXiVk1APbB_78ot-GG
+NSvLeaCX303HGMgvARF_rTQ09pr_yR2LmPTAM2h_Q7gOi4NZx1l4YSa1LnLGW6OgS5ZWOgoILWWBgDvvrzJ-oOMQd_gKtfmAj0AaRrUWDZRLOEb69PngkQHm
+zQE7vUu7qDHZ_bBKN2cPEOOgb6mA3C_GZEl1cmdh5MNQGvue_7A4tU2_csnF
 }
 
-!procedure Snowflake($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Regular/Snowflake', $name, $tech)
+!procedure Snowflake($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/Snowflake', $name, $tech, $desc)
 !endprocedure

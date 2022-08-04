@@ -2,15 +2,15 @@
 
 sprite $TruckXs [12x10/16z] O-070ru68E270Z0R3X1iJY07LPGmOE3YOE3dv0IJG3qy_0mG4W
 
-sprite $TruckSm [15x12/16z] VOw30S0m54IlTc__QMFh1Ty07GSq31JcCXip8KkUoTHKziMCVsmUiHzsevkBzyDifDj8YHKI
+sprite $TruckSm [15x12/16z] O-270dO64E270pGk8oE4Ym0eYXc168aBv7Foem0-_5nsX7aCB20s137my49fg8k051C3
 
-sprite $TruckMd [20x16/16z] fP3L0SCm50DbPcl_QGigSvFSrnaUOl1AWj3L5K3mrrtlHNVFFDzvfyitVvxkT6duYjrmrv9IHugpmNQru9rpGnOSu1cX4uBikXelcoG3i0S
+sprite $TruckMd [20x16/16z] fL250S0m38Avx_zh9yorHet64xJzZXp2AbgnodgJh6dALNR5NKPA-6Bpa46o1q9aTQxGwPuacMysAY4XsOh5d3Kfz9jO8hQE9X7h9fO28m
 
 sprite $TruckLg [25x20/16z] {
-lO-50SCm40CLZl7sdxQWCdFFx4SfSioa7P5Jnfs1C-Ah1dFJm3L32GcuNcC6hXfikMfGjE4Q_p4mSQPdbaO0zO7g3cDOKMdi5GOVsytsKHf8VYH8K6IW5cYr
-iv0bqm4CafO
+lSt50OD0503HmLcT_gkDUv0R3rdvHlJJn5FqM_yC-6FQ3onO3RWKA26fopCcTJ70h2u628gBZWaugG8-pT2hqWSh48tXeWgWOG3q-OFW29q9WAH92pTQYpOy
+8sRkMjKME0C
 }
 
-!procedure Truck($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Truck', $name, $tech)
+!procedure Truck($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Truck', $name, $tech, $desc)
 !endprocedure

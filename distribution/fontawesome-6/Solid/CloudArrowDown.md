@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CloudArrowDown')
 
 ' renders the element
-CloudArrowDown('CloudArrowDown', 'Cloud Arrow Down', 'an optional tech label')
+CloudArrowDown('CloudArrowDown', 'Cloud Arrow Down', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CloudArrowDown')
 
 ' renders the element
-CloudArrowDown('CloudArrowDown', 'Cloud Arrow Down', 'an optional tech label')
+CloudArrowDown('CloudArrowDown', 'Cloud Arrow Down', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

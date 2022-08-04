@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Maxcdn')
 
 ' renders the element
-Maxcdn('Maxcdn', 'Maxcdn', 'an optional tech label')
+Maxcdn('Maxcdn', 'Maxcdn', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Maxcdn')
 
 ' renders the element
-Maxcdn('Maxcdn', 'Maxcdn', 'an optional tech label')
+Maxcdn('Maxcdn', 'Maxcdn', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

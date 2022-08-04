@@ -2,12 +2,12 @@
 
 sprite $WirsindhandwerkXs [10x10/16z] Oq00Vdu8nOIBnSFF0cP108W5bWQp6C7gE9aOUA0w615w0G
 
-sprite $WirsindhandwerkSm [12x12/16z] Oq06pFoSO9gVdm2R2Su6qlnGDWJ0s415K3ORM2yNaCt8oW4nXn4a3c63LVAnWzcyV0m
+sprite $WirsindhandwerkSm [12x12/16z] XKh50G0X33jN8FjFYzH_L6DBh1qlVM22LyS017CHfhi9FfTHNyVh_X36EdJ6b2mtuLoM1W
 
-sprite $WirsindhandwerkMd [16x16/16z] dOvL0a0H54HrC_jVxKlDboDl3rb8oUHVJEcv0Pjj0AUsW-niZfTgLvfDYUxiNr38TY0P-jdCccn3gI-_si36fhJMFzyR
+sprite $WirsindhandwerkMd [16x16/16z] dSV50KKX34JHmPtflzglEBjtaUJWgbRVjb8h038qatpgIBrOyLltR5h0BhRubfipMk9d4NmpjVd-72Oldxq1
 
-sprite $WirsindhandwerkLg [20x20/16z] jSx50SGW04HHtE7tN-sweCTCWZrKREESq_tWsG3nPu2wpbHSh01cCCShJV-jJsz6nDv-DxVEYlZ4_4oAV-BBWYhXHqGfnUjbdS7Jc4mTRCqT
+sprite $WirsindhandwerkLg [20x20/16z] jSv50e0W50JG7nOvzp-j7UJIKUgHr8ogIZeu6W3cDG3odx6fp0COCfjm9l9dQL9JCgczDyV4FDsHrvY-cDCMzijBCCnqlYonQnSAauxLsG
 
-!procedure Wirsindhandwerk($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Wirsindhandwerk', $name, $tech)
+!procedure Wirsindhandwerk($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Wirsindhandwerk', $name, $tech, $desc)
 !endprocedure

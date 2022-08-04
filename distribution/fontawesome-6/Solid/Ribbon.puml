@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/Ribbon
 
-sprite $RibbonXs [8x10/16z] 7Sgr0OG00C30UyN9_jDYPGJV7LIzqCSKlrAefJpY3VRoV1MLwf7g1
+sprite $RibbonXs [8x10/16z] 9Sd50SC0000XwetU_jD6lu3t2geUw6M8PodKLFZSpLhGew9ItLWx
 
-sprite $RibbonSm [10x12/16z] 7So50SC04090ufxRVzeAxmBaP_ixfmR-myN3q5Coq4cpaybT1jUU6Ygp6vGxSKzbOCoEbIN9onS
+sprite $RibbonSm [10x12/16z] HOo50G0X54BHwtpxJslxEm4LE_zLpQXMXmS-2Eta1J4d0kzWFAUHcymnOH7UsCQArmdi7VD31W
 
-sprite $RibbonMd [14x16/16z] DSw10S0G34JH001__srR9DV20yY96xkAPNDI7X8lJp1BRfjna27zpGHv3K4wu6sR5Dl8PQST61-CXdAvRIQvmsdBV03e-iZx1gWJlRO2dBaW9mFQ1m
+sprite $RibbonMd [14x16/16z] JSxL0KCn34Mn-vYZ_QSjkNI2-dEUTKTRywc1fJ2eIfpZC3V74pD3afFKey-kD44MfO3ijlony6Mg9T0Az1sS1ReUzXfICiDwGfTaXRH2Sh3T0G
 
 sprite $RibbonLg [17x20/16z] {
-LO-50OKm44C3TSt-qtuvGHxKpWFXQ6jct2mAbodJW46dGvXa_TVPv1LGhDAK3lmHjFA-33pbMFYpjKEmLE-oKJYXd1JGuKGn3DoKjsLjjAUO-VTDsZXGPpF5
-fwTtbuZWvNmS6_FMWBIueGIodry
+LOw55OL030GNFS_sN-sN68z1Rw8msfet7XQLL3STE0mwb4bM09kGcN1vfvaLXtMM5DpqirI86XnMcYc2Y_Cz5nt1eMBWeRpD4ZGrPsuwCDNi02nOiTHiKTvp
+r9Rjp8YOHngSYm9Z9_ls1G
 }
 
-!procedure Ribbon($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Ribbon', $name, $tech)
+!procedure Ribbon($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Ribbon', $name, $tech, $desc)
 !endprocedure

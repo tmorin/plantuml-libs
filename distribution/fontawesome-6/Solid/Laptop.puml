@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/Laptop
 
-sprite $LaptopXs [12x10/16z] Oq01_330mC343nKZcOrc8W8WSm
+sprite $LaptopXs [12x10/16z] Oq01_300OaF5I6QZcOW0o1m
 
-sprite $LaptopSm [15x12/16z] Oq07_0Z01UBoya01Fp-8omnJnqCfbmVEvUHXuE110TpyA821anS9i08
+sprite $LaptopSm [15x12/16z] Oq07_0Z01UBoya01Fp-8omXJnqCfbmVEvUHXuE110TpyA821anS9i08
 
-sprite $LaptopMd [20x16/16z] nSYr0G0X0C30lFkp_xIuGyzr2NtFdzlHRb6QWLViI_A9nRw5v1twbhHydM_h5orwZwc60W
+sprite $LaptopMd [20x16/16z] nSYr0S0m40D0lSAy_xGnitjVUUYxtjngwlnAvkvlOV9yOa-Gt4EFH4O8x7Vh_LheNOS2
 
-sprite $LaptopLg [25x20/16z] Oy07sD012qIS7nDmufBWXKemenhDCn8aS0CE7Xo07nTWmoN1m8rTd1cdvG
+sprite $LaptopLg [25x20/16z] Oy07cD414qIS7nDmufBWXKemeXhDCn8aS0CE7Xo07nTWmoN1m8rTd1cdvG
 
-!procedure Laptop($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Laptop', $name, $tech)
+!procedure Laptop($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Laptop', $name, $tech, $desc)
 !endprocedure

@@ -2,15 +2,12 @@
 
 sprite $HashnodeXs [10x10/16z] Om02Hdu62E070bO80ye4aX0c8v20Ii1POCm0bc55IB126L0ca08
 
-sprite $HashnodeSm [12x12/16z] BObL0a0X20JN5_vOzp-jr8m26mhwQOBZB6GoXSJa-N9twWEVw-stXI7NZ1tf-PK66GQP1ca
+sprite $HashnodeSm [12x12/16z] HOm54a0X44BP7qvOzx-jmcmyOnD0sZOu-p8z5QDI5Ggcl_6hgKmM8mllO_1V_5wey9I5foeyFG
 
-sprite $HashnodeMd [16x16/16z] JOk50S0W40FhBljFsm8vFbm5OfquthapqvjffB04fB5ygb6EDGLoZXZsdZr9qfmZ7tHJeKTUrE2E7Md14bm6fpy
+sprite $HashnodeMd [16x16/16z] HOl50S0m54Bhth3_j54-l1Cw3HxiardHa5qmi2MqHb-a2D0uQp6InqU8PB-hduVYWFRphV7h5st3bdXCt1O
 
-sprite $HashnodeLg [20x20/16z] {
-JSx70KGX30FH-Jc2-gzsWz51xsW6C3QzEZ5xzRSJP1jWJILBcSkeifH5-QfSi7GF9u_oOMUKKucog_XeuUzneD819Z-7UvsxAm6RpFnocYXPOYwZofAqZYM6
-Bm
-}
+sprite $HashnodeLg [20x20/16z] JS-53GH130H1-_-O9lze3woMnYtSMWxAGqiG7VeQEeb6qoaoYenUPUm07ghMYBnK_HFg1xCigWNizbV5L9RjB51rrPyvBWQnuR_xd55aCfgC9gF9Q6glFHWy
 
-!procedure Hashnode($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Hashnode', $name, $tech)
+!procedure Hashnode($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Hashnode', $name, $tech, $desc)
 !endprocedure

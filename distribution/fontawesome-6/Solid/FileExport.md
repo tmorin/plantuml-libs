@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FileExport')
 
 ' renders the element
-FileExport('FileExport', 'File Export', 'an optional tech label')
+FileExport('FileExport', 'File Export', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FileExport')
 
 ' renders the element
-FileExport('FileExport', 'File Export', 'an optional tech label')
+FileExport('FileExport', 'File Export', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

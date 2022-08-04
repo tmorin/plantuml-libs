@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/Pills
 
-sprite $PillsXs [11x10/16z] JSR50SC000IWQ-FA_jF6ZHVvmBLQ36VDwUOavTqV1fXh-u_YVtKu7jInFyMsX3uh
+sprite $PillsXs [11x10/16z] JSR50SC000IWQ-FA_jF6ZHVvmBLQ36VDwUOavLCCCF_zd6RkpmF-WZBsfr0deSyA
 
-sprite $PillsSm [13x12/16z] LSV50K81042XPxViFwtvankjxDXCyQJ1KpaCCUJ6VWfSmE4c-0Sj8swmEqA2WcTrFbPjxvTw0m
+sprite $PillsSm [13x12/16z] LOk50S0m3CCyvkd_QyiK5MEGOO4-yFVf9ynpDShm4Euw4BY8p1TfoWEWFkJf8J1jQSfkxl-Ipbs1wRqa3m
 
-sprite $PillsMd [17x16/16z] NSg53KKn5CDGFovx_sa_mrMFs0amstiY6ghyhRfNHpoi42-wVCDLCp7uLFY6PTrykdnZo660oZK5AJ5yIzKmKZ_J1PzXuL0hVCe2iF2nBC0T
+sprite $PillsMd [17x16/16z] PSe53eHG04F1uixS_xJh0lmNQoPDMRkDERP3_jNKY_rug9BZXUG3xJBb260wG0DwG7Rf70eoN42c2yZCuZUHHS2G04awBCb7gXJT0G
 
 sprite $PillsLg [22x20/16z] {
-TSw50O0W503H7tRT_jFQHPtzL41AULEbo96cc783jHYCWIwmdqUMG3cV-qUjIbGdZff8kHh_YZrSSxLh0_BmfnEW5Yj7OZb5FTIHx-lxdadyULqn2ZnBNtY-
-FfPwVRetNJeVztvz-TmoIAaD
+TSy53eKm50NHM_rIcVtlbg2rCB770IfwopYx8djcnRqH8mGPI8DMa9IeWyB-_BlL-bKpUs5IpbAlo5pikQgoD6wQQTmK6a-AxAY9njTCbcdR9btgfShzjVHZ
+BxUhKVRP0L6wH_vwQmC
 }
 
-!procedure Pills($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Pills', $name, $tech)
+!procedure Pills($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Pills', $name, $tech, $desc)
 !endprocedure

@@ -1,16 +1,19 @@
 ' definition of the Item fontawesome-6/Brands/Yarn
 
-sprite $YarnXs [9x10/16z] 7S650OG0002X-xHb_sajwFBg0PQ2FqDym4G03FZPuID_M3HPtmll6g1E
+sprite $YarnXs [9x10/16z] 7S650OG0002X-xHb_sajg7hr04l1do4-O2801lpiy94_B9gixuLgW3e1
 
-sprite $YarnSm [11x12/16z] DOk50SD0549fuxx_ji7oJhu04FyVmcE-xk9BDrxihyehty6tos46TbN-AZTpKSPxLZjlR2c0lRb1JdKpy08
+sprite $YarnSm [11x12/16z] DOs50G0X30Fphi3-stArG-gDZ5N9SCfhlF3sXj-oVFC-tXiTiE5bPSLSdRcehFqqztpOGRqKHXVyvftI1
 
-sprite $YarnMd [15x16/16z] FK-74G0X2CFUpVxR_XCEe_GkXXZaOO78Pi5nddMJyYsoLVQCe39faEgqUcL54wpSev6c1x50xe5ACtZ1NJa1eXh8QiEH2cGDjmP0H7xzpiM2yYumYmWqfgeV
-
-sprite $YarnLg [19x20/16z] {
-JSo53S0m34HHDyn__sqhA_YACPnivfENww3AAGyE_rQMh9NzxsRBYGJcdoSqr1hg5c1sqopPcRqYKF7vPsQQEVH8g8-ftQXUc96tX2CuG7Ho1YA1skdIO3Ic
-yGtmOW0tDAOuVGyHYK1DdqsWH2KUHaGPjYw7hy38S-G7
+sprite $YarnMd [15x16/16z] {
+FKy74W1117FRk___zeGXMuYE3EcZm6P5DiQE6-nb_8VeGFR27-IdJdoBWOAloXkMZW-1IQaxsRfjTpIbv0blbspqiNwboo0ILCGD8auYqT_Qcf1Z0sSnzeBs
+0m
 }
 
-!procedure Yarn($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Yarn', $name, $tech)
+sprite $YarnLg [19x20/16z] {
+JSm53W0X30NHZwv1v_wttQ3XHP1EgiKxdNobUxKOMre_XwVzh7iqcYWbEf-8XMP6rGDacbiqWIRD5JJNSSTe_8gscyOnb1rHNzXrO6Ov0cgbqIdpLQeAM64m
+6NWv8DeBlF7jtz85VBSBDvsQpC6fyonLM_W0UqRo0m
+}
+
+!procedure Yarn($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Yarn', $name, $tech, $desc)
 !endprocedure

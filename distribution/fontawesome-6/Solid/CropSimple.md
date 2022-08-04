@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CropSimple')
 
 ' renders the element
-CropSimple('CropSimple', 'Crop Simple', 'an optional tech label')
+CropSimple('CropSimple', 'Crop Simple', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CropSimple')
 
 ' renders the element
-CropSimple('CropSimple', 'Crop Simple', 'an optional tech label')
+CropSimple('CropSimple', 'Crop Simple', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

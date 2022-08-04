@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MaskVentilator')
 
 ' renders the element
-MaskVentilator('MaskVentilator', 'Mask Ventilator', 'an optional tech label')
+MaskVentilator('MaskVentilator', 'Mask Ventilator', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MaskVentilator')
 
 ' renders the element
-MaskVentilator('MaskVentilator', 'Mask Ventilator', 'an optional tech label')
+MaskVentilator('MaskVentilator', 'Mask Ventilator', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

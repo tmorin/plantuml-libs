@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Meetup')
 
 ' renders the element
-Meetup('Meetup', 'Meetup', 'an optional tech label')
+Meetup('Meetup', 'Meetup', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Meetup')
 
 ' renders the element
-Meetup('Meetup', 'Meetup', 'an optional tech label')
+Meetup('Meetup', 'Meetup', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

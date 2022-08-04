@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ColonSign')
 
 ' renders the element
-ColonSign('ColonSign', 'Colon Sign', 'an optional tech label')
+ColonSign('ColonSign', 'Colon Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ColonSign')
 
 ' renders the element
-ColonSign('ColonSign', 'Colon Sign', 'an optional tech label')
+ColonSign('ColonSign', 'Colon Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

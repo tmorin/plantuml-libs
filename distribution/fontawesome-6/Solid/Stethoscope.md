@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Stethoscope')
 
 ' renders the element
-Stethoscope('Stethoscope', 'Stethoscope', 'an optional tech label')
+Stethoscope('Stethoscope', 'Stethoscope', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Stethoscope')
 
 ' renders the element
-Stethoscope('Stethoscope', 'Stethoscope', 'an optional tech label')
+Stethoscope('Stethoscope', 'Stethoscope', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PersonHarassing')
 
 ' renders the element
-PersonHarassing('PersonHarassing', 'Person Harassing', 'an optional tech label')
+PersonHarassing('PersonHarassing', 'Person Harassing', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PersonHarassing')
 
 ' renders the element
-PersonHarassing('PersonHarassing', 'Person Harassing', 'an optional tech label')
+PersonHarassing('PersonHarassing', 'Person Harassing', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

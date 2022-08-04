@@ -2,12 +2,12 @@
 
 sprite $BreadSliceXs [10x10/16z] Oq02JFmW06Jmmm0Fd8KGWqip4Ci2
 
-sprite $BreadSliceSm [12x12/16z] Oq05BFn0mCS4Pi400mC_Ti302sTo8IbY89tDmmS1x0m
+sprite $BreadSliceSm [12x12/16z] Oq05BFn0mCS8P37omm030pzsmC0BPt8XAM8WdSt31m7i3
 
-sprite $BreadSliceMd [16x16/16z] jSUr0S0W0031ZtlOVrhSeUMwesS-l__T9vVf4y45R287elHNFwepVTbM8Fyyu4zrfWGK
+sprite $BreadSliceMd [16x16/16z] jSUr0G0X002nUy5j_srfS6X95quU7QANTI5L1X1f16aMbwlb48OzpEV2tVHL1W
 
-sprite $BreadSliceLg [20x20/16z] pSYr0O1000J1nPthlrhSZyz_mY4iBSgop9D7wDApoKOzTK2XBv0PUhbH3faEFZj2r3VWr_1h1W
+sprite $BreadSliceLg [20x20/16z] pSgr0O1004FHZplPVrhSm_NtkWXXIPfbMSejrQK_BgEUEg3G5yWClTmeXqm7dtQ4gBi1xnf-pG
 
-!procedure BreadSlice($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BreadSlice', $name, $tech)
+!procedure BreadSlice($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BreadSlice', $name, $tech, $desc)
 !endprocedure

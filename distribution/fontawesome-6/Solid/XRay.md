@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/XRay')
 
 ' renders the element
-XRay('XRay', 'X Ray', 'an optional tech label')
+XRay('XRay', 'X Ray', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/XRay')
 
 ' renders the element
-XRay('XRay', 'X Ray', 'an optional tech label')
+XRay('XRay', 'X Ray', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

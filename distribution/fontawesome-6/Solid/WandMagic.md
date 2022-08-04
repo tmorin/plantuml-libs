@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/WandMagic')
 
 ' renders the element
-WandMagic('WandMagic', 'Wand Magic', 'an optional tech label')
+WandMagic('WandMagic', 'Wand Magic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/WandMagic')
 
 ' renders the element
-WandMagic('WandMagic', 'Wand Magic', 'an optional tech label')
+WandMagic('WandMagic', 'Wand Magic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

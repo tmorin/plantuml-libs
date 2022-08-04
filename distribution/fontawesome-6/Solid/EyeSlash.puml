@@ -1,19 +1,19 @@
 ' definition of the Item fontawesome-6/Solid/EyeSlash
 
-sprite $EyeSlashXs [12x10/16z] JS750SC0542XL_VF_jCsSWgSEt3kXtiR6BGPtHjgT37Y6ehGWygTKp4LlohGKplKoG8
+sprite $EyeSlashXs [12x10/16z] JSh50OG040F0dE9C_zKYUR4QU-THNjdmBu4T9RlyhwFeupfyKvV-eKb_VVRUBNt8A2qQE04
 
-sprite $EyeSlashSm [15x12/16z] LSY5RGH1000n_p5F_zr6Aux5ddx-wMIglXz3m_0nFFLZhU2rjiglNewYjrG_rK6bUimLxduLleBHErId7yNmD2o-CAplFM7l3m
+sprite $EyeSlashSm [15x12/16z] LSt5WGC14CH0sSjO-KTxZ7eDD3pxZwsUkB_tBxuF9zKJLLUZ8SLLA-KY5DP2EByzkr3TL3qmrRUy-6w2P_VNtdGTLOjN
 
 sprite $EyeSlashMd [20x16/16z] {
-PO-50GD12C1oyYxPVzeQr7EAGrtuO_O4eE_7MacQ5Ww3YSGW8DdL0WmlPIbC2li86kcrKxNk7YoHiwfR9eqdaacyeIln41KeAQng1qAX5Lx-mAaka4gNGeD5
-IKw36fC6JSr-TOIab7Gul08
+PO_L0SKm30DL3j_-qpw8NRuVCsYCUX5etSwbfYCvWLGnDZbSaLFS7w_95QIoz95cexC4Gw4g0giDP5zgnfOXivuxZ9PBBW7pvQd3LQS1KKSoI8CKGKx363J2
+S8ZkD7_tHUKB
 }
 
 sprite $EyeSlashLg [25x20/16z] {
-ROy5TaGn30CLvkZ-j-spGsrtvpDa9DkExtJIGZ4XHeT78ps0n8t18PBLyV7SXfl9nPyWTdM4Vxf29i1A60Keh80d6wpqqBW6069UVpgzEp9xRXg5jA_ILh1d
-b29vrx5cLBtNYcodOOKYqbThgEls5WA4sqFmHoGO2iK2ORN4XHSTJCNFVVMPpBWa2jC2gXluYfdy0G
+RP25eOGm50GtWilqN-sNi0awTy1pYwk-MI5OZ2aLqIoG9GsOqzV373cvrCRi_buQjS3uy4mmI34xtHvcASCYGLI28aixS4Ic8jNPGirTYj3vAoL_lKgloGQd
+rf6Yrjga0vZRHfUnjile8uNik8idkz35CmOfkbo3nh5OkDx4fD9ebF4MxD5pR_fcvnS
 }
 
-!procedure EyeSlash($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/EyeSlash', $name, $tech)
+!procedure EyeSlash($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/EyeSlash', $name, $tech, $desc)
 !endprocedure

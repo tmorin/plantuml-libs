@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Om')
 
 ' renders the element
-Om('Om', 'Om', 'an optional tech label')
+Om('Om', 'Om', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Om')
 
 ' renders the element
-Om('Om', 'Om', 'an optional tech label')
+Om('Om', 'Om', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

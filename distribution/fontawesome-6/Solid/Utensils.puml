@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/Utensils
 
-sprite $UtensilsXs [8x10/16z] NOZ50O10082mM_QVrlRgHT1l6p0mA-ZFVRtOQUN5_da4rX_1aYS
+sprite $UtensilsXs [8x10/16z] NOZ50O10082mM_QVrlRgHT1l6p0mA-ZFVRrOQ-N5vda4LX_1aYS
 
-sprite $UtensilsSm [10x12/16z] RSR50O0m0C30u4xsdnRNjlSwfeoEpOGTRb6SycspDjfkytIEToZfLTCzykHM
+sprite $UtensilsSm [10x12/16z] RSQ50S0m4CD0bRdQVzeo9dcmZmawW0aR11IdN9YrsGyyvnIlKD8gfbkGr0e
 
-sprite $UtensilsMd [14x16/16z] XSY50ODG30JG0xxRxRzj8tKZ_eACX0gBVO7723Cf9YbYcXGqkgfg4p2BfYhJOagBXguYRVAdeTo4eEE_zXS1nujmfkD95m
+sprite $UtensilsMd [14x16/16z] XSX50e1020LGfdl-_MyhOQsKVb2XJ8qqt2RuwLOMB825iC3eC3KL0uMrH0KQYvirPLLkbJqLzH956T_oRwdVeZ-vbmu
 
 sprite $UtensilsLg [17x20/16z] {
-hSZ50K9H34JH-_rfflzgaS7PeF4SfandNS2HAoKGDVoEaWY333g2Oj1ODU3VC6kjcc4oR8gaMfKX6qBHfQw0RZXERmWVmndc2x1v9Qu0dcz1UGRQCq3y3VeD
-DcaF
+hSi52iH0343HNzVat_-qArKeiZeJVH3AWQ2jMTymCIOovR8MAhc02wXY5fOhk45bErci1zgPhTFa0CC2QOQ62R50wDeXLIqsg7UWMLhF0R3Kjs2y0lCL8Fy6
+SKAdTm
 }
 
-!procedure Utensils($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Utensils', $name, $tech)
+!procedure Utensils($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Utensils', $name, $tech, $desc)
 !endprocedure

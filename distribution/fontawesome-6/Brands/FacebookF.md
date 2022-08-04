@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/FacebookF')
 
 ' renders the element
-FacebookF('FacebookF', 'Facebook F', 'an optional tech label')
+FacebookF('FacebookF', 'Facebook F', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/FacebookF')
 
 ' renders the element
-FacebookF('FacebookF', 'Facebook F', 'an optional tech label')
+FacebookF('FacebookF', 'Facebook F', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SchoolLock')
 
 ' renders the element
-SchoolLock('SchoolLock', 'School Lock', 'an optional tech label')
+SchoolLock('SchoolLock', 'School Lock', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SchoolLock')
 
 ' renders the element
-SchoolLock('SchoolLock', 'School Lock', 'an optional tech label')
+SchoolLock('SchoolLock', 'School Lock', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

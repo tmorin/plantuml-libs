@@ -2,12 +2,12 @@
 
 sprite $MountainXs [10x10/16z] Oq05_706FvJ9pWyJv0TXY1n8cfU1WP4V0e12CC07Po74
 
-sprite $MountainSm [12x12/16z] PSR50O1G04En5lUt_xGuVCifAX2LzUk0y7iQhRn5DkFL1WHmdKzKMXDiqRLid_4
+sprite $MountainSm [12x12/16z] PSR50O1000InnPtflreurxoY3aLvOZT4FBCUGj4miDlE801xeg8inNcBwtwZumS
 
-sprite $MountainMd [16x16/16z] TSl50S00349HKbV-_jFMNTuf0lhHtrTehsiDnBa62CxTX1ggVItdyYKmJpPuJvFMpF9vJJdDEnUzr76L17T-xEbZb-9A8m
+sprite $MountainMd [16x16/16z] TSl50G11349HrdNo-wzsNKRVBG5KuC8J5lySWJ2M_p2acU4z-siCNbjcO6-RPkBKdMV3xxpnE6d5LucGHNSJtOhi
 
-sprite $MountainLg [20x20/16z] VSt50SH03C10XTdglzh3CEoyp2ObgxdGZfDUvIZNIp6Sq8QTHZFQms3s7z5WDSs9LimgBS4VPcem-JFnCwZspehvmG4VdlJGUPPdNaHuDNX5UDR2rHi
+sprite $MountainLg [20x20/16z] VSk30SHG403HYRtJVxM7sEzpnQkC2squQLME4hqamm4jsAaKQcL7g_4ELiCSQCgi6F-EcAd1u6XWrAcsZkRfn2C0JrfeF4lm8iAhpYl2ingklW
 
-!procedure Mountain($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Mountain', $name, $tech)
+!procedure Mountain($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Mountain', $name, $tech, $desc)
 !endprocedure

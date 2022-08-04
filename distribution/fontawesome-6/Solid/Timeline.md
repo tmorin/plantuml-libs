@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Timeline')
 
 ' renders the element
-Timeline('Timeline', 'Timeline', 'an optional tech label')
+Timeline('Timeline', 'Timeline', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Timeline')
 
 ' renders the element
-Timeline('Timeline', 'Timeline', 'an optional tech label')
+Timeline('Timeline', 'Timeline', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

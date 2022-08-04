@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BackwardStep')
 
 ' renders the element
-BackwardStep('BackwardStep', 'Backward Step', 'an optional tech label')
+BackwardStep('BackwardStep', 'Backward Step', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BackwardStep')
 
 ' renders the element
-BackwardStep('BackwardStep', 'Backward Step', 'an optional tech label')
+BackwardStep('BackwardStep', 'Backward Step', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

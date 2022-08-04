@@ -2,18 +2,18 @@
 
 sprite $RobotXs [12x10/16z] LSor0G0X0CNGVwwG_QV5DTMhefHHZuRSGDx1lp0WsCLFS6csBZWvxSd_Z1yF
 
-sprite $RobotSm [15x12/16z] PKm34W0W0Cl6_t_RidQQIOUcv4GEctFES-ISZMIXAdv92YagDv0qPqW2NKTrjyk_J5MA99GILTxF5QSi
+sprite $RobotSm [15x12/16z] POs50G0n308XxzhzfwrxhXe390uCcBVzIPgFB9LAY3Y4zE4Q_gSF_Tzl-1ZmnuImeCC_XFBBjaW81sNbwm
 
 sprite $RobotMd [20x16/16z] {
-XS_50S0m20LGweRiFstRk2V_WBmJWCj4K0Hb6Tdy8A88_haSIHnZTsABDYoCvzysO55LsKD_-GrW5LtDQeeYLOE5D8srRIllA-qhQuC5z0j2gEflixhcAMyk
-V_i
+XSzN0i8m30DGssnGhFlVbdYmQQliznN9CqD-0kgctG2GcBcqADzJTlqmJSEFkKqxY3FsiDiWmqJsx5t1CWR5_cwTPVCqCp_Os9cdYKfMu43iqrIZsU-VVxlT
+0G
 }
 
 sprite $RobotLg [25x20/16z] {
-dS-50O0m40F0hxrWsNzQt1s2vu2sj4gPw3GCd8Dy0COck_v4i0zVWTr113eeYFAkykGwyAWmW7Il3CCEW14GXdjpkeCblw4Q8SOgYn7S7WEGMW_CLSuCOUwd
-OEdRojC8VjUNNTa
+dSy50eKW00FGqStkVzh_xUxPUog0HOh1OJHv3EO5MAvori_2RUmPX2lGP0iPI6qbW0vOsOFhNY4n0WUW4CDFt0RcV8OwW9GrIadL73t0zzzPMvErTDPs4Cox
+bPi1nAOlRVa7
 }
 
-!procedure Robot($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Robot', $name, $tech)
+!procedure Robot($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Robot', $name, $tech, $desc)
 !endprocedure

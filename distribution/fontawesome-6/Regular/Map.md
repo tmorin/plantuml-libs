@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/Map')
 
 ' renders the element
-Map('Map', 'Map', 'an optional tech label')
+Map('Map', 'Map', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/Map')
 
 ' renders the element
-Map('Map', 'Map', 'an optional tech label')
+Map('Map', 'Map', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

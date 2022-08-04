@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/DigitalOcean')
 
 ' renders the element
-DigitalOcean('DigitalOcean', 'Digital Ocean', 'an optional tech label')
+DigitalOcean('DigitalOcean', 'Digital Ocean', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/DigitalOcean')
 
 ' renders the element
-DigitalOcean('DigitalOcean', 'Digital Ocean', 'an optional tech label')
+DigitalOcean('DigitalOcean', 'Digital Ocean', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

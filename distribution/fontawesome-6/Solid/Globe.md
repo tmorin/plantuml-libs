@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Globe')
 
 ' renders the element
-Globe('Globe', 'Globe', 'an optional tech label')
+Globe('Globe', 'Globe', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Globe')
 
 ' renders the element
-Globe('Globe', 'Globe', 'an optional tech label')
+Globe('Globe', 'Globe', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Joint')
 
 ' renders the element
-Joint('Joint', 'Joint', 'an optional tech label')
+Joint('Joint', 'Joint', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Joint')
 
 ' renders the element
-Joint('Joint', 'Joint', 'an optional tech label')
+Joint('Joint', 'Joint', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

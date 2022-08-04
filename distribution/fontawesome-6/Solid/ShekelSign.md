@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ShekelSign')
 
 ' renders the element
-ShekelSign('ShekelSign', 'Shekel Sign', 'an optional tech label')
+ShekelSign('ShekelSign', 'Shekel Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ShekelSign')
 
 ' renders the element
-ShekelSign('ShekelSign', 'Shekel Sign', 'an optional tech label')
+ShekelSign('ShekelSign', 'Shekel Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

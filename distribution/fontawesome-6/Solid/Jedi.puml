@@ -1,19 +1,19 @@
 ' definition of the Item fontawesome-6/Solid/Jedi
 
-sprite $JediXs [11x10/16z] JOU50O0m0CE2E_d_McHUBoqCkGgtqC5WXsxqeA9s8uSEuKw4qfrGTpAwWdPxjoc00V02
+sprite $JediXs [11x10/16z] JOR50S0m08IeUzb_siYzSWgZp6x2Rt1sGYycKDE9HvVWJ4uFSdyQF46vkHJ022e
 
-sprite $JediSm [13x12/16z] LKg50GGX30lkiF-stxH_XiJnFV4O7mL1z-T326eoZKC2EjD0gF0Q2YHqO3Fa5u0xPt76VVN2J5hUqHR8udRSghKxbly
+sprite $JediSm [13x12/16z] LKh70G0X28kzw_xR7Y6lKo0L_nUVqE7P3H0-dkIYIcHWa2IUYc0Gc6Hqu1fHJNkOexzNY7HwkLaDP5CtN-UUFVaV
 
 sprite $JediMd [17x16/16z] {
-HK-54G0X0EBJblsdDR2u4maJ4myEFdPgu-Bec6S0Sd1gR8QCJL6v7G55l05t0Rv90qlb_iOtkjod1_4PAgDp0D83IOglni7eZ3IEVYFfBYj_D_sWwGj1xm1x
-7cX3Lqu_83reeJkWH1X-m0t_T5q1
+HOw5OGD14CJq_8Vglzh47fCEbuSt2pzsFmvZhqxWY4Do3-0YtmwNyT_4OIuNA41LBsxZhx0dnbJTwE_VHBN1MCXNSg7jIeyHFrlNmX5xwRfmAxJe87dDkw4M
+YAVYJMO4my-6ObW0_W4
 }
 
 sprite $JediLg [22x20/16z] {
-LKu54WGn24jjfPR_l_Q4i596c2ZWcGFB9Dhg0D2wav5YfmKSWAIsScncSJPSBCCVBEnfKEkqUgiHssn7_wGQIguo89jb8IUCpKBjjgBmEiOgTW3pu5xr4G_j
-2XGzw7M8LZJTHBBZKK_p1cb-Dw5Nbef15VcJ0PL1BqGyTEqyfc8-1vyHi_2z27u1
+NOy50e0m30E3Jyho_zSYJT4oor75OmaVw-YNdKUr6ugsyvX2WF7mioUhk_mfEuz_qoIPpolVDIbQ_Uw2balHJLGkmmNRMGSOf6fGYAeAY-WAj9bpXcJIlVXG
+X5JJmCneSZgfuVcR7jy4O5I7LZXbhFUaLQz28ClZmSMOF7cFiCJ7H3xSmd47
 }
 
-!procedure Jedi($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Jedi', $name, $tech)
+!procedure Jedi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Jedi', $name, $tech, $desc)
 !endprocedure

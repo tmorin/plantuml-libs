@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BottleDroplet')
 
 ' renders the element
-BottleDroplet('BottleDroplet', 'Bottle Droplet', 'an optional tech label')
+BottleDroplet('BottleDroplet', 'Bottle Droplet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BottleDroplet')
 
 ' renders the element
-BottleDroplet('BottleDroplet', 'Bottle Droplet', 'an optional tech label')
+BottleDroplet('BottleDroplet', 'Bottle Droplet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

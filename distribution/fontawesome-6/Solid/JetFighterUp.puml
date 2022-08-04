@@ -1,16 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/JetFighterUp
 
-sprite $JetFighterUpXs [11x10/16z] Oq03_5m89Z-CnOZ9v0DA0m4l0m-G0GF8J0wOMZOWPkRd1hC1
+sprite $JetFighterUpXs [11x10/16z] Oq03_5m89ZyU9X-G0GIy33n01WmWCpbWQjc0c9cV6ym6
 
-sprite $JetFighterUpSm [13x12/16z] LOs54S0m30FTNfX-_saBuVo1KP9KBjaWxGEhzx0UmpvaSBL9SbCHKSAYd0DAgGXQALjw37b5Echi2m
+sprite $JetFighterUpSm [13x12/16z] NOt50S1G5CBeTy_-qzOzbwU0TYQzeBq7dZw_XmAFgaFScoR3ZkJ4m_WDnfWApXW_pXZw4vdOanO
 
-sprite $JetFighterUpMd [17x16/16z] bSxL0K8n0CNG2zGj-q-BF_TJprVrvpH3riGDD06OUU1QgBnvVHahmvzKfDOO58mQ4skXcJVUlgVfVmvwk-lh0QQ0Uln2rjiB
+sprite $JetFighterUpMd [17x16/16z] bOw50O0m40E3ExV_j5NSkUfxD57g0DtHmT4cFphuv-YzOvgS5ygPS15f75dfIJJP4vUECNNuVtYJmzZ9TWbPlnL2T7J-Rm4
 
-sprite $JetFighterUpLg [22x20/16z] {
-fT550WGX30NHZpjr_zEEkq_tMzO6akXgw8M2rJEeUX81FG58B-lK0xEs9jYRxXocPE5iIBvBYT2vbGRx-kJlclnEOC_lJIJbn_-Qg1C7mqBNoJdI171_XtCr
-sji2
-}
+sprite $JetFighterUpLg [22x20/16z] hSx50OKm0C3Gu5Ip_xJVtOLNpwcS5Hu8DjpJo9r1vOuRuyDQ5w-JExNXe4BZIO4-RvPTzj9KtDOxNzUXtUZSQhUgm7pttv63HijcPIvrQi8DBeIRkWO
 
-!procedure JetFighterUp($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/JetFighterUp', $name, $tech)
+!procedure JetFighterUp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/JetFighterUp', $name, $tech, $desc)
 !endprocedure

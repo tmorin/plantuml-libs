@@ -2,12 +2,12 @@
 
 sprite $DeliciousXs [8x10/16z] Ou02Ldue0B8nQ8GK0tOQeGW
 
-sprite $DeliciousSm [10x12/16z] Oq00VZW0yGYp43n6ObaCV5300m
+sprite $DeliciousSm [10x12/16z] Oq00VZW0yGYp43m68bcC37nGm0C
 
-sprite $DeliciousMd [14x16/16z] Oq05F7m8mCxBoGm2_53025P12Gy18BRnKOV73k7nWW4_0oCIO
+sprite $DeliciousMd [14x16/16z] Oq05F7m8mCxBoGG2_53025P12Gy18BRnKOV73k7nWW4_geS
 
-sprite $DeliciousLg [17x20/16z] Oy00B6meW96L7nrmG5N21TZf8800K74w2V3219WWW1_TGRmO8GW
+sprite $DeliciousLg [17x20/16z] Oy00JCmeW86L7nrmG5N21TZf8800K74w2V3211WXW1_TGRmO8GW
 
-!procedure Delicious($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Delicious', $name, $tech)
+!procedure Delicious($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Delicious', $name, $tech, $desc)
 !endprocedure

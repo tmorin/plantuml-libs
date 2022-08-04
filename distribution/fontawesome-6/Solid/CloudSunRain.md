@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CloudSunRain')
 
 ' renders the element
-CloudSunRain('CloudSunRain', 'Cloud Sun Rain', 'an optional tech label')
+CloudSunRain('CloudSunRain', 'Cloud Sun Rain', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CloudSunRain')
 
 ' renders the element
-CloudSunRain('CloudSunRain', 'Cloud Sun Rain', 'an optional tech label')
+CloudSunRain('CloudSunRain', 'Cloud Sun Rain', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

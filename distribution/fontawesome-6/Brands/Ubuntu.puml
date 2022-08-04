@@ -1,19 +1,19 @@
 ' definition of the Item fontawesome-6/Brands/Ubuntu
 
-sprite $UbuntuXs [9x10/16z] DSU50OC000F1holS_jFYn5DrQGFu5SWhgXyVlpVXyG0UTEfQ7rRJ-bvGCm
+sprite $UbuntuXs [9x10/16z] DSC50OG00C30lIjS_xGuawfB6-1N8A-eVdpyteJR3NZGsRK-h9Fg1JK3
 
-sprite $UbuntuSm [11x12/16z] FOg30GGm54DJks__QG_LPwH_MQDTh7eem49Z2KFWtUoQq42mJz_f0NaBJUltbBnZIyIaIPROqIb9VHdI5m
+sprite $UbuntuSm [11x12/16z] FOY50GGW30E3ExV_j2zO6zV_hCwnxYK7Auqr386tisj20y6MhXK7v3qqBU_9MyEAuBmcMIipc9BK0QBq1G
 
 sprite $UbuntuMd [15x16/16z] {
-JKy50W0X29lT-l_V7eEhATqmU8SNuoYYMUV1-bbPb0bCwXwWUGBPHYy9aNuoAr1xdLgjF9cGeNTZeK77fkL0nhvKEhhmkmkGQIrasYDbJG6mxaOo9_yku2Y5
-KwDJlG
+JK-50S0W30lkyF-tQuO6weu9hN1GnWyphR7H7ikBKe5ANIezACawaZLGz5kXMG2gRSGuozqKfriJAdJqsOvirsPauREB0Hoj1a-xQACm-xJLI7FhUy6qpjgP
+sWS
 }
 
 sprite $UbuntuLg [19x20/16z] {
-NOr5Oa1H2CJotHxC_KzRIRrPCS7uOfxupLgH-rktMRP_PdHo0UIBjbvXDpx0K0Kqxn7kvxq-LQkp1Nw-79eItUBD5FjqHIOY1wmZKYwEv2os24uPG7DXCjni
-TzU6eIXT0ylJxZ57pcqVJZLmv0iLxvpvnOouAyKtsvEaBqTu1G
+NO_L0KCn30ClZ8xtdxQWSk_BeWUyY85lehcOl3ZIelmv-tOD07znT6SeaWlOA0OvTmbptUykAwbhO7Srlhf6q3FTg2XG92g4xS8ql8bYbEzM-HeCf2GcUHvB
+I1Wcxm1fwTSYmKMBQQjrWEOlP76d-XS14Vs5yIRTV_WCLRW2
 }
 
-!procedure Ubuntu($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Ubuntu', $name, $tech)
+!procedure Ubuntu($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Ubuntu', $name, $tech, $desc)
 !endprocedure

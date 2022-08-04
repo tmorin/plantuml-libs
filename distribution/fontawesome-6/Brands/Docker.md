@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Docker')
 
 ' renders the element
-Docker('Docker', 'Docker', 'an optional tech label')
+Docker('Docker', 'Docker', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Docker')
 
 ' renders the element
-Docker('Docker', 'Docker', 'an optional tech label')
+Docker('Docker', 'Docker', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

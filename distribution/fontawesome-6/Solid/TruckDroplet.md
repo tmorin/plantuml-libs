@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TruckDroplet')
 
 ' renders the element
-TruckDroplet('TruckDroplet', 'Truck Droplet', 'an optional tech label')
+TruckDroplet('TruckDroplet', 'Truck Droplet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TruckDroplet')
 
 ' renders the element
-TruckDroplet('TruckDroplet', 'Truck Droplet', 'an optional tech label')
+TruckDroplet('TruckDroplet', 'Truck Droplet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Hotel')
 
 ' renders the element
-Hotel('Hotel', 'Hotel', 'an optional tech label')
+Hotel('Hotel', 'Hotel', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Hotel')
 
 ' renders the element
-Hotel('Hotel', 'Hotel', 'an optional tech label')
+Hotel('Hotel', 'Hotel', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

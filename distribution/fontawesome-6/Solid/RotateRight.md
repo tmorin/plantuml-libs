@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/RotateRight')
 
 ' renders the element
-RotateRight('RotateRight', 'Rotate Right', 'an optional tech label')
+RotateRight('RotateRight', 'Rotate Right', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/RotateRight')
 
 ' renders the element
-RotateRight('RotateRight', 'Rotate Right', 'an optional tech label')
+RotateRight('RotateRight', 'Rotate Right', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

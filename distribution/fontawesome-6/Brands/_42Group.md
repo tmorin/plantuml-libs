@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/_42Group')
 
 ' renders the element
-_42Group('42group', '42group', 'an optional tech label')
+_42Group('42group', '42group', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/_42Group')
 
 ' renders the element
-_42Group('42group', '42group', 'an optional tech label')
+_42Group('42group', '42group', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

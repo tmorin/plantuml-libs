@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UnlockKeyhole')
 
 ' renders the element
-UnlockKeyhole('UnlockKeyhole', 'Unlock Keyhole', 'an optional tech label')
+UnlockKeyhole('UnlockKeyhole', 'Unlock Keyhole', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UnlockKeyhole')
 
 ' renders the element
-UnlockKeyhole('UnlockKeyhole', 'Unlock Keyhole', 'an optional tech label')
+UnlockKeyhole('UnlockKeyhole', 'Unlock Keyhole', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

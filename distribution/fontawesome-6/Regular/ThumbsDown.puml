@@ -2,15 +2,15 @@
 
 sprite $ThumbsDownXs [10x10/16z] LSZ50O100CJ0u4xwhnOzdSyAoQ6WjgYzWAXGDSmDJvfqY0GkJMm2Dm
 
-sprite $ThumbsDownSm [12x12/16z] JOk50G0X4CEAEzb_sdSXvr8jH90CCAKZ-q8w6dVrMGUUgzS5_kyZQvz0_cXopkYW8sRlyP6vgGT3_tgbVkOT
+sprite $ThumbsDownSm [12x12/16z] JSQ70S0W3CJ0JwTh_sr31u7jqzOBUGEfxjFoP9pLHhcBQjMubc-MNpxGdM6CGRc0I27SAd6VIRs3CAqlAFS3
 
-sprite $ThumbsDownMd [16x16/16z] NSV50SH04C0mBnrculwh3RD-uYdYpwHrVLH0jL1TjFNrQp3HxUN5hDhMip7kR-RRi-rsDDHoFCdiBxXYeLHBAPbLjkA7Ko_-E2MLcyHY1
+sprite $ThumbsDownMd [16x16/16z] RShL0OD050NHMOi_flzgOpZi-Rl2KSGJeBs6g81gflYNftmt07JAkV9JRDD_OknpDUroikqo6cfYFV3p51pDFwebvyJ4YetL83vO9PMU3m
 
 sprite $ThumbsDownLg [20x20/16z] {
-RSx50O0m44JHmIBOxxzQdFYxH5RLCXapwjPTDzFfid7f9V4Arr4EDcUCXV0tmg0Rs93dzHeX_0MjlnsgFwrqrH-OHjvhK693m2xHIOQF7ZtqiaMLUVTIPcFK
-Zd8WJwSWxA12wDvq0W
+RS-54SCm44JH5OT__zMQlQ5xGneTAv9BoNuLhPu0IHAxDNuyEZnxAGFyLw5e1SDvL-qA-C-YlnVupnx17zGWRvVquOc0bxH-Tmx7gP3KVDwkWmJwygJgXRw1
+hYIPTz0FxnIQ0G
 }
 
-!procedure ThumbsDown($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Regular/ThumbsDown', $name, $tech)
+!procedure ThumbsDown($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/ThumbsDown', $name, $tech, $desc)
 !endprocedure

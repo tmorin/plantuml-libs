@@ -2,15 +2,15 @@
 
 sprite $DockerXs [12x10/16z] PKp50G0X0Bgpc_sdjLjUzFS0WpWdtJIXinzaPhPm400U2swoscwmY-jwKrQoiWG
 
-sprite $DockerSm [15x12/16z] RSd50SGm00F1DRFLVxM7uMHU0XwfSjGIgwwF2WJ0ffXpoY6PAC3h_ye6IKD7-LWdSAYSgk7OMTWsg-Nl3G
+sprite $DockerSm [15x12/16z] RSc50S0W34JHZplPVzgwbuTUZY79F9N0gSfYRIsWd8ynHEVmievaRqMxvMdo59-n0u_8ufcUcOCgFIjsCm
 
-sprite $DockerMd [20x16/16z] VSt50GGn40D1BPix_sYFmLo_GMacfLKrA7hRhdq_3kK2AxptraDlnxcS3za7-EoT84ZXh7gHXqXZeIR9KFeavQAU4fcaD_wClXnlLhdbGNzt
+sprite $DockerMd [20x16/16z] VSg50O0m4C30u4xstnPtsgky4ZEEV2XtIJBVek2kDtN6BCdP56LIpfXfieLzhrHqR8fNRt0s-97u1jG-5Sny660sUZEoyL9pQDqqH4m
 
 sprite $DockerLg [25x20/16z] {
-ZT030i0m50FGp4N-Sl_JpcPVRI11LTTu5ANa0Ky6SiXnGMc8wugcUXcGSepCBAonCKEkROAs5Kv2fWdWdAlNM3e7QDIQda5FCW3K7J4e7XUCT5DWudMnVV5z
-d_rNT-xsYIDcID03
+ZP250O0m30I3Lpxy_jFYJktgZKSAg9icBF1aiS023bZshm3aCa-BeOq8o7exLTMTSr1T19S2Bmj3RX-Rp1ZJdxCrvX2CoZ0I_bq0_q0Mcf311dyqHplueHC9
+cbIlhbwORnCtK4a1Cm
 }
 
-!procedure Docker($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Docker', $name, $tech)
+!procedure Docker($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Docker', $name, $tech, $desc)
 !endprocedure

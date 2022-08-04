@@ -2,15 +2,15 @@
 
 sprite $MastodonXs [8x10/16z] Ou03VX00KTpyd406FmCV4F8ZGoum2GPGcXUa7ggV4wYJWG4
 
-sprite $MastodonSm [10x12/16z] JOk50S0m40A9Utx_RGlrYxm0-95D1C1k2ZjEKB6G-JbrlgjRLzUlhapvDxiRi4kuOAhbTlLnpi1o
+sprite $MastodonSm [10x12/16z] JOg30K0n30NlezR-qzQw8ddWGgR62scYwWRj9j8ZwzStRFl2sEpOb6_zMBS9TViPr5N_Ugo_zozG
 
-sprite $MastodonMd [14x16/16z] NOs50S0m20G_xc7_ROlKBuBp-EDYNtjMhm7TL62mMUVpN1hIe4sR7rkFiT3OvHjfYYaMfL-q-piIKBNb0K-aIjMCeSN4niFOshTnuPo3SW
+sprite $MastodonMd [14x16/16z] RSU50SD04CH06Pv1_LSRvdWEbpzx7RFdXIjVCZHrF0Qq0G8wKN2X3OgYh7QK_JZD-awRLmGx-iOxsO1yFM_g3YpSJQycVyu
 
 sprite $MastodonLg [17x20/16z] {
-ROs54S0W40GFzx_-kmqoSHPVNh15M--zC-TJU17HuPC4f7x8sDhOE0CiW3gtaJIjQA14QB9q8V1TwXLUfuWap2tQKvHJvB94FbFEbW5yeo1yue7IZrDcT2n7
-uXDsy3DIgpISkBFWbWC
+RSs50O0W503Himku_QUrMv_9JtvbUL4KUSOkwQ5bvbq7dPgMLrnUWbe0ONrfpHfDEGmjcGveebROdh066YMx0l4U68v0Fso1_cWvLfRub96ygs5GZs3FB5SR
+xbJvH588ANAeZe6_9W
 }
 
-!procedure Mastodon($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Mastodon', $name, $tech)
+!procedure Mastodon($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Mastodon', $name, $tech, $desc)
 !endprocedure

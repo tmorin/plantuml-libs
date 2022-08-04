@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Xbox')
 
 ' renders the element
-Xbox('Xbox', 'Xbox', 'an optional tech label')
+Xbox('Xbox', 'Xbox', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Xbox')
 
 ' renders the element
-Xbox('Xbox', 'Xbox', 'an optional tech label')
+Xbox('Xbox', 'Xbox', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

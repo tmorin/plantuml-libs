@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/RulerCombined')
 
 ' renders the element
-RulerCombined('RulerCombined', 'Ruler Combined', 'an optional tech label')
+RulerCombined('RulerCombined', 'Ruler Combined', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/RulerCombined')
 
 ' renders the element
-RulerCombined('RulerCombined', 'Ruler Combined', 'an optional tech label')
+RulerCombined('RulerCombined', 'Ruler Combined', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

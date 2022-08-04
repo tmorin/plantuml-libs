@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Message')
 
 ' renders the element
-Message('Message', 'Message', 'an optional tech label')
+Message('Message', 'Message', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Message')
 
 ' renders the element
-Message('Message', 'Message', 'an optional tech label')
+Message('Message', 'Message', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

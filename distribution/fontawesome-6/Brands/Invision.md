@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Invision')
 
 ' renders the element
-Invision('Invision', 'Invision', 'an optional tech label')
+Invision('Invision', 'Invision', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Invision')
 
 ' renders the element
-Invision('Invision', 'Invision', 'an optional tech label')
+Invision('Invision', 'Invision', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

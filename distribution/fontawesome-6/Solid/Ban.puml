@@ -2,18 +2,18 @@
 
 sprite $BanXs [10x10/16z] BSV50S104CD0XUEN-g_sS7aC45zckIeJnyeF7iN8figchsoAB4OokU_ZBEW
 
-sprite $BanSm [12x12/16z] 9Oo50KGn5CBojTxiF-t9SmK065RIJCln06u5jULxuT7i0CqXT0T0SaOiLecbWtW3TDiI9PaMICtb9fh6zGi
+sprite $BanSm [12x12/16z] 9Oo54S102C1IVy_-s_PuWYj1jv2OH9h-Yg1M0YTIRP5Nkz3iKUHDtuN5VDf0lA9erYbANlf1_fmkTj3T_G4
 
 sprite $BanMd [16x16/16z] {
-JStL0SKm2010wafk_scVL7DVE74OqjR4BPsc8skm3zrKoFX1t8tz71Odsk2Tw1dirGffg6uakkfesapn5ef6YRT0q3o5LOcn-ivvip_obJ5-TcGMP_hJEXo7
-lm
+JOxL0SK04CAeAvVzftrIQldBAJeOpDRemeGf2knzEnGuIkhDhvvX5A0HF1CT3B-Pfm2cVzqmqBwEcer1Jw5eADs576_kmaff1Dq5ShCxV8LHFtR0Bg893kJm
+5m
 }
 
 sprite $BanLg [20x20/16z] {
-JOs73G0n4CButf9u_srVwLZjP1sWnfC8fuoBHjowmdY6IeSoD_3shyKYH-_QJKgG5l3FM_bvjyy0J_wLVPwGYhFFZOpadok4xFnpXpCx_xoXRFidH4MGVJvm
-QALBstowzFi5mhcj-msmgN0mqU2c40zbVW
+NT053iD034HHExZyxt_QWXjBeux86RqisPEw69T9JfvCpmf9pOgrnrI0baf_ENEjNKepM0ugYttDBd90_LeJkSEAJgG3qObq6D69tE2AJcI1s5ibJ9jW8Yji
+CPZ8-AfPwjo0iRjl1M3xUz9GcH0mV-WD
 }
 
-!procedure Ban($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Ban', $name, $tech)
+!procedure Ban($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Ban', $name, $tech, $desc)
 !endprocedure

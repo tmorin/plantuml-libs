@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SolarPanel')
 
 ' renders the element
-SolarPanel('SolarPanel', 'Solar Panel', 'an optional tech label')
+SolarPanel('SolarPanel', 'Solar Panel', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SolarPanel')
 
 ' renders the element
-SolarPanel('SolarPanel', 'Solar Panel', 'an optional tech label')
+SolarPanel('SolarPanel', 'Solar Panel', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

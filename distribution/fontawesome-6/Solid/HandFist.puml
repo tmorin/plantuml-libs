@@ -1,16 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/HandFist
 
-sprite $HandFistXs [8x10/16z] FSM50O100CF0mvtkFotELn9qe4q4tUCK3_ECo1jfzO-Vx3o6noS
+sprite $HandFistXs [8x10/16z] FSM50O100CF0mvtkFotELn9qe4waECN3F2FoHbhzuoSxZ-7n2G
 
-sprite $HandFistSm [10x12/16z] HSV50S0m0CD0bRdQVzjm8d_En3vAfYrTvv0_774kKRUwBSywOohUFmecYqetZSGgXW8
+sprite $HandFistSm [10x12/16z] HSQr0GH10810Niw5_gjT5qY6r4FD_6zed_A5BUqlwL3_t-l_mTofRn9WLUsaarJ7K0G
 
-sprite $HandFistMd [14x16/16z] NSa74WCn24DHoQG7qFrlctNtvBk-0Qt4Z0vNlLikknIoGoahdrDVSSfLl6fKK6SFrP8P891geLwi8ede-ahXBdLHEm2lXJUkRAFcNVQl7m
+sprite $HandFistMd [14x16/16z] NSq50e1024JHmGvWxdzR5x2_-NG3cUDEeOnxWT9ax5voThAzjVDMtL_5lucHmostOeQufKG4Ljf9KuttaB0gORcnejNToBGaVnq
 
-sprite $HandFistLg [17x20/16z] {
-ZSzL0aCX30NHYpvdzh_R5fAwpkT18wj5tSf9AoWKMG46G3Q8LwYlG7k43Ez08IY4f7cNGLbxMRqE1IjLY1td6_G6j6LPYfh31BlEDHmo3qdYliE6knLqEzwB
-il0s_GCd
-}
+sprite $HandFistLg [17x20/16z] ZSY54SCm40J0iz3urt-t6J65TdYHY4AZDfmaK8-CGUevt1gKCHGvX0rHRF0tKjWpC0X2Q2RAabj8qoA88STnQ4YB6m24EHG70DXxC0qYOQ6GCBlmJxm
 
-!procedure HandFist($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HandFist', $name, $tech)
+!procedure HandFist($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HandFist', $name, $tech, $desc)
 !endprocedure

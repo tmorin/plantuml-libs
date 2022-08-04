@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BagShopping')
 
 ' renders the element
-BagShopping('BagShopping', 'Bag Shopping', 'an optional tech label')
+BagShopping('BagShopping', 'Bag Shopping', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BagShopping')
 
 ' renders the element
-BagShopping('BagShopping', 'Bag Shopping', 'an optional tech label')
+BagShopping('BagShopping', 'Bag Shopping', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Evernote')
 
 ' renders the element
-Evernote('Evernote', 'Evernote', 'an optional tech label')
+Evernote('Evernote', 'Evernote', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Evernote')
 
 ' renders the element
-Evernote('Evernote', 'Evernote', 'an optional tech label')
+Evernote('Evernote', 'Evernote', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Hooli')
 
 ' renders the element
-Hooli('Hooli', 'Hooli', 'an optional tech label')
+Hooli('Hooli', 'Hooli', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Hooli')
 
 ' renders the element
-Hooli('Hooli', 'Hooli', 'an optional tech label')
+Hooli('Hooli', 'Hooli', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

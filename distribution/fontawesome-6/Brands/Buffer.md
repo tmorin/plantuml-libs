@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Buffer')
 
 ' renders the element
-Buffer('Buffer', 'Buffer', 'an optional tech label')
+Buffer('Buffer', 'Buffer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Buffer')
 
 ' renders the element
-Buffer('Buffer', 'Buffer', 'an optional tech label')
+Buffer('Buffer', 'Buffer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

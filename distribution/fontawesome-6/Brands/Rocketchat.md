@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Rocketchat')
 
 ' renders the element
-Rocketchat('Rocketchat', 'Rocketchat', 'an optional tech label')
+Rocketchat('Rocketchat', 'Rocketchat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Rocketchat')
 
 ' renders the element
-Rocketchat('Rocketchat', 'Rocketchat', 'an optional tech label')
+Rocketchat('Rocketchat', 'Rocketchat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

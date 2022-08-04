@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Hamsa')
 
 ' renders the element
-Hamsa('Hamsa', 'Hamsa', 'an optional tech label')
+Hamsa('Hamsa', 'Hamsa', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Hamsa')
 
 ' renders the element
-Hamsa('Hamsa', 'Hamsa', 'an optional tech label')
+Hamsa('Hamsa', 'Hamsa', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HollyBerry')
 
 ' renders the element
-HollyBerry('HollyBerry', 'Holly Berry', 'an optional tech label')
+HollyBerry('HollyBerry', 'Holly Berry', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HollyBerry')
 
 ' renders the element
-HollyBerry('HollyBerry', 'Holly Berry', 'an optional tech label')
+HollyBerry('HollyBerry', 'Holly Berry', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

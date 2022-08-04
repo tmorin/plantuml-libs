@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TruckMonster')
 
 ' renders the element
-TruckMonster('TruckMonster', 'Truck Monster', 'an optional tech label')
+TruckMonster('TruckMonster', 'Truck Monster', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TruckMonster')
 
 ' renders the element
-TruckMonster('TruckMonster', 'Truck Monster', 'an optional tech label')
+TruckMonster('TruckMonster', 'Truck Monster', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -1,19 +1,19 @@
 ' definition of the Item fontawesome-6/Solid/PersonBiking
 
-sprite $PersonBikingXs [12x10/16z] JKo50S0m36AhA_zVMxUu09XcS8qyOtwlD6gFUe6IbdtmlXr3cvhdpDZNuQ2BTmQRJIbM
+sprite $PersonBikingXs [12x10/16z] JKo30G1047eR-s_xE1kL0Sj6R6yUbxxk76bC29eflA6rU-ntkhxM7bVjpxVL8RFPrq1g7m
 
-sprite $PersonBikingSm [15x12/16z] LKo50G0W3B9R-VzQkzO5i6EvvpC1a3sARm72MnIclLzcF2ynKtZ_yZwC0fGEGvf3COCnLZi7b54vKiOQXZ23bMleJ9WfFuO6
+sprite $PersonBikingSm [15x12/16z] JOc55G0X3CLoxcJ_RU_X1Df-eV8nCYaZpqH7xsuM4xtxcBwFo1wcLQDm0WsARn9X5uWs2qFSa-zd5Z2Bnomi4jITs4Jn0m
 
 sprite $PersonBikingMd [20x16/16z] {
-PO-50S0m2C2Wxld_shcl6b957gL7-POAFvV-pblpLK1v6yjMMdllGW7Cq_LbLDKZBYC8mCQ4PGniiG5xie2kB0rxSc6zecskSgIppHvTNDyu4BPB1r8n4Rzm
-Hw26mH0nSd1V0SRZwrrc
+POm75e0W34FP6tB_szh6hLNWlsQOnyniljE1tox_Ty7Qxmf0UsySE6EyNU1bdxlvohMLQ24ZoPsWeuNsPACdo3LWoH5eZ7JkAhaUDG5MTlFWX2ZlWbZjpg98
+F2miTHmy5N2ioBBQ
 }
 
 sprite $PersonBikingLg [25x20/16z] {
-RSu54WGX4C30h2ymaF__zchEhSi8pgVU-6jey8yg_smwy-jmvP-kLdvCtXp7pBl55AQF5HCKrPy79ZxDCGgexhUqa8RffAXlcOCurOr3mNlky-qJHSc5vPbX
-aEuBORkddYITSg5xtBFe-ubwoqbp3QPXXpXvozER2TBX3R2hzedqbXS
+RP074eH020Gn0gR-_s-l42xJbMn6tLdactENbWkEDW1eWmc6PgpCqd42s_zu854Tl-OZmG7y74CMyhzUPrDqF2xFJzPKl6uRg3ZmKiij6B384W6bwvWb5EvW
+ofCSZjfQ1GTxALWz3H6SQAd3vnVsLl2xooboM4oqr4XU6txf2iJxnLBw
 }
 
-!procedure PersonBiking($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonBiking', $name, $tech)
+!procedure PersonBiking($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonBiking', $name, $tech, $desc)
 !endprocedure

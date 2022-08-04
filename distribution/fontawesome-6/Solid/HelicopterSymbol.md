@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HelicopterSymbol')
 
 ' renders the element
-HelicopterSymbol('HelicopterSymbol', 'Helicopter Symbol', 'an optional tech label')
+HelicopterSymbol('HelicopterSymbol', 'Helicopter Symbol', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HelicopterSymbol')
 
 ' renders the element
-HelicopterSymbol('HelicopterSymbol', 'Helicopter Symbol', 'an optional tech label')
+HelicopterSymbol('HelicopterSymbol', 'Helicopter Symbol', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

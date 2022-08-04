@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SquarePollVertical')
 
 ' renders the element
-SquarePollVertical('SquarePollVertical', 'Square Poll Vertical', 'an optional tech label')
+SquarePollVertical('SquarePollVertical', 'Square Poll Vertical', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SquarePollVertical')
 
 ' renders the element
-SquarePollVertical('SquarePollVertical', 'Square Poll Vertical', 'an optional tech label')
+SquarePollVertical('SquarePollVertical', 'Square Poll Vertical', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

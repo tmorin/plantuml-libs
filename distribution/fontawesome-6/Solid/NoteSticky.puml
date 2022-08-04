@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/NoteSticky
 
-sprite $NoteStickyXs [8x10/16z] Ou02Ldueu09pYQ2XcdZOsDWu-O4YG02a
+sprite $NoteStickyXs [8x10/16z] Ou02Ldueu09pYQEPWEfvsDZOEFc18a00f
 
 sprite $NoteStickySm [10x12/16z] Oq00VWJWWG0W2of70WjA8rYSC5Ev6HZum82DWG4
 
-sprite $NoteStickyMd [14x16/16z] Oq05F7m8mCxBZmhOc6409CECq4Hj7YCFa0Fd0TbeF4P-VbuU401p6DWHJcG4wOO1a78
+sprite $NoteStickyMd [14x16/16z] Oq05F7m8mCxBZmfOcM009CE4q4Hr7W-G0-S1sMWy1dv-NXuG074O6TWHJcH01m
 
-sprite $NoteStickyLg [17x20/16z] Oy00B6meW96Ldp3WHTBFE2W5ED5ToWlYyQ49y340CSpdV4011WOWYG1y88N80WpO
+sprite $NoteStickyLg [17x20/16z] Oy00JCmeW86Ldp3WHJPWK0fmehkK5yJZGnFWOm1YDYZW0memC0191E23c8i03DW
 
-!procedure NoteSticky($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/NoteSticky', $name, $tech)
+!procedure NoteSticky($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/NoteSticky', $name, $tech, $desc)
 !endprocedure

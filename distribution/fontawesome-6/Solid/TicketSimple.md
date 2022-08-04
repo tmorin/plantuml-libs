@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TicketSimple')
 
 ' renders the element
-TicketSimple('TicketSimple', 'Ticket Simple', 'an optional tech label')
+TicketSimple('TicketSimple', 'Ticket Simple', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TicketSimple')
 
 ' renders the element
-TicketSimple('TicketSimple', 'Ticket Simple', 'an optional tech label')
+TicketSimple('TicketSimple', 'Ticket Simple', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

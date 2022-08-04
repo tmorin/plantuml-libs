@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Lemon')
 
 ' renders the element
-Lemon('Lemon', 'Lemon', 'an optional tech label')
+Lemon('Lemon', 'Lemon', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Lemon')
 
 ' renders the element
-Lemon('Lemon', 'Lemon', 'an optional tech label')
+Lemon('Lemon', 'Lemon', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

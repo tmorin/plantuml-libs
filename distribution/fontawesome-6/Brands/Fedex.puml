@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Brands/Fedex
 
-sprite $FedexXs [12x10/16z] ZS470SD0000Xsknv_jt6meC1o_B3l2m8t5PKkhEn9FSRVZy3FW
+sprite $FedexXs [12x10/16z] ZKc30G113ClZZEm_RJL15I8nfJo6Voc6Z6IZkYR1JJGhJM7VQ1yaHW4
 
-sprite $FedexSm [15x12/16z] fOa50S0m4CHIxZ3-rGuD31uE-J7gpJ4cm14o10dXRaMpj5pYw1WNea7ct4DjcJhHsp6rqNWpEm
+sprite $FedexSm [15x12/16z] fOc50S002CC2T2xz_zhf0nEaoe-nVJFaIJtKoKJShR5bkgeSZtOvEpDMHwj44sshSn1lPWS
 
-sprite $FedexMd [20x16/16z] lSc50G8n5C3GNDsp_xGu8y1hl_C7Qwq1JttLMddIxsv9-Uv6cQUopfOvztmadt28KXivSYdJn-bm90RQuod1xUK3N8Ls3Pu2SF4pTm
+sprite $FedexMd [20x16/16z] lOo50G913C3oTjvc_sbnHe3KbJ-mrXgywAlMoXFzzfQSrwVNhv65bI5pndmud-0GfJQEZKsPzcwISkmqAifckFa0A5JU_xUN_Omx
 
 sprite $FedexLg [25x20/16z] {
-pOq70i0m20BD8bFv_szhTv_Gouu2yakAaxwF-qLdo4dazBtU1Ty-XOby5rIJaINupGl0NAWLamVIQGpJ2xKEAI8uh4WpenvM_Kn9Lq7wKYOzmbkCKM9GzRkI
-EHY7JW1Z8FaklsG3
+pSc70O0W30NHqqWd_FsdjPSLF3gFNnRsx7jyB-qLxjI0z01x7xIuFE1kGrgEsmvchLjArdH6qH1jXvGg1X49f36670w0OzaDbEuotm7oF4tCk0Ck6KFLMuon
+rZWjiVBBDW
 }
 
-!procedure Fedex($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Fedex', $name, $tech)
+!procedure Fedex($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Fedex', $name, $tech, $desc)
 !endprocedure

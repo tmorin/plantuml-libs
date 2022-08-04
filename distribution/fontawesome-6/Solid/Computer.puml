@@ -1,19 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/Computer
 
-sprite $ComputerXs [12x10/16z] TOY50O1030CFTxB_jEYxj7626sJk3SStjO-lFk_1hcfkPUvWWN7IESApmxUEDD8D
+sprite $ComputerXs [12x10/16z] TKY50S0W3CiKX_-lnLtQEBhxJBuGL9mkxxnbsUtcc6yJBcu4-8dHF-1t8Av_S0S
 
-sprite $ComputerSm [15x12/16z] XSUr0G114CD07_Ew_sgV6HLfS8bhPTuwHshMWPXh0ykPE9C_R5mR2C9O6odMMam4vzH03gmo1Q18xG4
+sprite $ComputerSm [15x12/16z] XSU30S004CNGr6xsdxOst_5puQgQttgcE2oPDM9rZfoZFx5nWqWOXfdji9aYpe1fr-q4gDgw1m
 
-sprite $ComputerMd [20x16/16z] {
-bSi50eGm30NHmQcaS__JhhllWrgIpokrNIrGTdjuY-B1F9mrkt2Sr86psDTAFDU65tFnOax_g4KzyrHRl4L89_suesr_7EABq1rIrbhOrtQWUDR3VApHdN5y
-i0K
-}
+sprite $ComputerMd [20x16/16z] bSk50GCn4CH0FUDQ_LSRPiuOZtXbBLS3BBixtcBneAlFYbMiExNcBFlSakTSrJxdakUS_f7BUkOfDtYB25BLErhsps6y5wh3bEkwiC_jmE8Pq9_U9ri
 
-sprite $ComputerLg [25x20/16z] {
-jT170W8X44JHtqoETV_RMc9MUkcRGFWh8DMF7tfWy1Y3limSQkCrUtFK07ixx9lQOLsIKChP3lRla73OPgdeot0_ET5V7T9P9u537uuGlcMPXuAf0lGcie3r
-iftC1G
-}
+sprite $ComputerLg [25x20/16z] jS-r0O100C30u4xsdnPtwpXuJVMy2gEJSBaYyIAdyHckE6Yc0FLpg2kVGrcyX21ediFWx_02hH8DlKYMbqCuQhITDW5eE4L8qzJ1i0GCd00UV8ROGSsR7W
 
-!procedure Computer($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Computer', $name, $tech)
+!procedure Computer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Computer', $name, $tech, $desc)
 !endprocedure

@@ -2,15 +2,15 @@
 
 sprite $MagnifyingGlassXs [10x10/16z] JOk30K0n50Fl6qNsdxRMFIF0hPE2ChLfwHOPWLhtSRPk_MjQUJ8V-DQIsmW
 
-sprite $MagnifyingGlassSm [12x12/16z] NOk50S1030Bvr9NzjssZbNk90BZPsCEX8T4ALh9PhnlHikd2L_ggxxbKZqojdd9KRTgiFWI_uG8
+sprite $MagnifyingGlassSm [12x12/16z] NOq30W0X44NNIF_-fmsZy6gihU9nRGo8GznzSm3vfFTcF7RfP57_mYy-gPsqg_g0O0SS1y8I5
 
-sprite $MagnifyingGlassMd [16x16/16z] NSs30GKn40JGEIEO_giDLX_lc2MccsL7g1Gt55tox6lXGxzlrCaeGXraHAU5t83oVLw1FSuF6MCqNQ43kI-BV30bXiqMJNMd31JR_5ab43I0lq07
+sprite $MagnifyingGlassMd [16x16/16z] NSm55i0W30FGp0t8_M-xrmR_6rQ3kHbtL8dkXh3uIlRDuSrEFHNmKOGSP8qwSW7YzDxh-o7h65qID91hESp7Qe7PQDBg0LdiidYWKW1Ju0S
 
 sprite $MagnifyingGlassLg [20x20/16z] {
-ROu74WCX4CCsxUZe_wzDyp0cHLSnMW_nvXZqQ-mqH764sQEPZy8B3whgbUQbhVQAn0E6cvKDIB7eMW17X8UBjh8z2LUOUz_w9cluL8hSpOjMkhuXC2xFYACX
-KwJoRfesZKtpDkEF-G
+LOy73eCm00Cx83ln_r_BEYaErxAy19-7qDMspqeLP4iogpJ2F-l6HQPkDH6x9IWY6AJkPRGkxLDhKiJw8r3EM0713viqtdjSesFoMqqf-3jKS-Fw0HcF9q6e
+8WanX_iod3GpQKZwoSaJ
 }
 
-!procedure MagnifyingGlass($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/MagnifyingGlass', $name, $tech)
+!procedure MagnifyingGlass($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/MagnifyingGlass', $name, $tech, $desc)
 !endprocedure

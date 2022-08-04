@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Perbyte')
 
 ' renders the element
-Perbyte('Perbyte', 'Perbyte', 'an optional tech label')
+Perbyte('Perbyte', 'Perbyte', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Perbyte')
 
 ' renders the element
-Perbyte('Perbyte', 'Perbyte', 'an optional tech label')
+Perbyte('Perbyte', 'Perbyte', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

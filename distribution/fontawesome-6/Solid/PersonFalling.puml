@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/PersonFalling
 
-sprite $PersonFallingXs [8x10/16z] DSY50G0X3C30l2ja_sbnhbuc8pvrlaXrsgTz7bRrVQcoYoTIIQTa
+sprite $PersonFallingXs [8x10/16z] DSQ50G0X5CFGd2ja_sbntfUMoOXFpHUfJdlQSxM2pQkLLJoHIZeb0m
 
-sprite $PersonFallingSm [10x12/16z] 7SM50SG030CnFMDx-qzRY1BRnXD-KL3q1vTB6TTYL1azgq8QH4-NkBBEZ5QCU-m
+sprite $PersonFallingSm [10x12/16z] BSU54SG030CmFPJ1-qzRo4L1AoDi8K7jxEXGFlsGz2jZEaJw3HbymeUpJicfVSCD
 
-sprite $PersonFallingMd [14x16/16z] HSsr0KGn081Guj_PVzhJoEkee7luEnkWwHyQGVcf2caK4GwjT45j3Ae7NV4hzBfi_aNWDfqzmw_G6iAkS1dxx_4_vF464frcbgomF2Pu0m
+sprite $PersonFallingMd [14x16/16z] JSs54K0X30DGt27xJukbtF6LLrLo3VdNk3-08G1zn5Gu1_kaTgO0NdJA47-WFBWZF3N4Qoxfq5L8AI1edGxRbhxn0IxSXyuJByxuzdpQjRjk0G
 
 sprite $PersonFallingLg [17x20/16z] {
-LSo50GCn3CLG7NEq_xJ5xy8Bnq3PTgAV0T0kR_LrrCUY0hiIsg3JYpB0fX9fOy-NwidNfUeCnJTAfwDnfYMdSUK3ovgFHIUWANHQLr2WIwU3rwFicaTH-JFe
-mf_J5RW3
+LSw50GCn3CLG7NEq_xJ5N_0BemsnxKGtyAHTrkfxu6ryRwnAQ8DEBuWEDdCXLFkwzkJdKdMi5yeVEXfdDZYDAnjehDbOT0AQPYDJbEZqIDgnQqUXKlIwK9ok
+m1q
 }
 
-!procedure PersonFalling($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonFalling', $name, $tech)
+!procedure PersonFalling($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonFalling', $name, $tech, $desc)
 !endprocedure

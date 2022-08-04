@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Dna')
 
 ' renders the element
-Dna('Dna', 'Dna', 'an optional tech label')
+Dna('Dna', 'Dna', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Dna')
 
 ' renders the element
-Dna('Dna', 'Dna', 'an optional tech label')
+Dna('Dna', 'Dna', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

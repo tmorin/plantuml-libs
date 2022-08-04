@@ -1,19 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/BlenderPhone
 
-sprite $BlenderPhoneXs [11x10/16z] NOk30S0m44LVtNZ_QMEVxmC4hWIvzbDhwcciQ2U7U_Dv70mjd8uHPxK1Vrpf3G
+sprite $BlenderPhoneXs [11x10/16z] POk30G0n34NV6TN-qzPkd0_uC2dmjPvIa4-bltAocJkUsqRJmcveKMp0wzVcRmS
 
-sprite $BlenderPhoneSm [13x12/16z] HSo50S0W44FHNpSW-s_RuAy2fv1Or12b6KXV2HOx10wADwKMOB47ngATFWCQsswu7OG2srY-uWMJuU_jmUul_W
+sprite $BlenderPhoneSm [13x12/16z] BOe50W0W20Ddj_x_jn8x0nR01Hx1aSTTbsK2Gj6VmRoN0iAXC1rUTX52i8L90Rg8RK2GT1aJocDrWYB9Eny
 
-sprite $BlenderPhoneMd [17x16/16z] {
-JSx50O0m50JHYU9i_zto5t_nEGNg0lgGlEdZ-tw7Ohvxip6KfWpebJVnXXxGBwphEhDymKQIMdUmb1BuFY4pOFv_R2T8A_cMi0JpSgjWcqBRlITCHl5Ulh3B
-oW4
-}
+sprite $BlenderPhoneMd [17x16/16z] JOw50GGW3CI2E-m_xKlHeFK3Ms1SnBYE-U_BeV_y_sOvuW_ZXkBjGHiSnwguZbfhfYp7mg66yzkXrEeNUMIHNs5zrbVK0a51BWkDq6H0NqtsrFcew-Xogoy
 
 sprite $BlenderPhoneLg [22x20/16z] {
-PP250S0W30GVTtx_QUj2u5hi4XH0IO2Zu90arMpDLKjRq8J50m_SbAlS5PyiAkjY6yWqMeMBBkq5aDbdUmX5QlzRhPHwJvO-6qC8ECZBtRvhM2UMFT1anefM
-W2a_yGiyav-xFJRm90FYvUAJeuLr5607
+POz50e103CI2mzhy_xMuTPjZgWF41NePTYd9sLRUHhAnt6Xdg7eP9A2sIT7PZ3G3zTwYnVL2KAdjBXgf7J_RDatpVBQyTkgwZftWihqnkjwitMcbWAS1clWn
+yd0FFzak9Xq4C0ddkwSnTf213G
 }
 
-!procedure BlenderPhone($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BlenderPhone', $name, $tech)
+!procedure BlenderPhone($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BlenderPhone', $name, $tech, $desc)
 !endprocedure

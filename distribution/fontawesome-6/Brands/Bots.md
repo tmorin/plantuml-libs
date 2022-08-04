@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Bots')
 
 ' renders the element
-Bots('Bots', 'Bots', 'an optional tech label')
+Bots('Bots', 'Bots', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Bots')
 
 ' renders the element
-Bots('Bots', 'Bots', 'an optional tech label')
+Bots('Bots', 'Bots', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

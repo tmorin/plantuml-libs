@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PlaneArrival')
 
 ' renders the element
-PlaneArrival('PlaneArrival', 'Plane Arrival', 'an optional tech label')
+PlaneArrival('PlaneArrival', 'Plane Arrival', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PlaneArrival')
 
 ' renders the element
-PlaneArrival('PlaneArrival', 'Plane Arrival', 'an optional tech label')
+PlaneArrival('PlaneArrival', 'Plane Arrival', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

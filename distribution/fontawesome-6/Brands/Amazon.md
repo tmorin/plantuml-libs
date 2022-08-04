@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Amazon')
 
 ' renders the element
-Amazon('Amazon', 'Amazon', 'an optional tech label')
+Amazon('Amazon', 'Amazon', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Amazon')
 
 ' renders the element
-Amazon('Amazon', 'Amazon', 'an optional tech label')
+Amazon('Amazon', 'Amazon', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

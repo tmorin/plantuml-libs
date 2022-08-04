@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/RoadCircleCheck')
 
 ' renders the element
-RoadCircleCheck('RoadCircleCheck', 'Road Circle Check', 'an optional tech label')
+RoadCircleCheck('RoadCircleCheck', 'Road Circle Check', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/RoadCircleCheck')
 
 ' renders the element
-RoadCircleCheck('RoadCircleCheck', 'Road Circle Check', 'an optional tech label')
+RoadCircleCheck('RoadCircleCheck', 'Road Circle Check', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

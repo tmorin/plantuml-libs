@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Inbox')
 
 ' renders the element
-Inbox('Inbox', 'Inbox', 'an optional tech label')
+Inbox('Inbox', 'Inbox', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Inbox')
 
 ' renders the element
-Inbox('Inbox', 'Inbox', 'an optional tech label')
+Inbox('Inbox', 'Inbox', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

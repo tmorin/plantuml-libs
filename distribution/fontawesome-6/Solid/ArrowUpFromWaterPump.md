@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowUpFromWaterPump')
 
 ' renders the element
-ArrowUpFromWaterPump('ArrowUpFromWaterPump', 'Arrow Up From Water Pump', 'an optional tech label')
+ArrowUpFromWaterPump('ArrowUpFromWaterPump', 'Arrow Up From Water Pump', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowUpFromWaterPump')
 
 ' renders the element
-ArrowUpFromWaterPump('ArrowUpFromWaterPump', 'Arrow Up From Water Pump', 'an optional tech label')
+ArrowUpFromWaterPump('ArrowUpFromWaterPump', 'Arrow Up From Water Pump', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

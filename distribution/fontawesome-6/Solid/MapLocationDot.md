@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MapLocationDot')
 
 ' renders the element
-MapLocationDot('MapLocationDot', 'Map Location Dot', 'an optional tech label')
+MapLocationDot('MapLocationDot', 'Map Location Dot', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MapLocationDot')
 
 ' renders the element
-MapLocationDot('MapLocationDot', 'Map Location Dot', 'an optional tech label')
+MapLocationDot('MapLocationDot', 'Map Location Dot', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

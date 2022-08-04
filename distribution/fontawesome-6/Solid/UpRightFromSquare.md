@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UpRightFromSquare')
 
 ' renders the element
-UpRightFromSquare('UpRightFromSquare', 'Up Right From Square', 'an optional tech label')
+UpRightFromSquare('UpRightFromSquare', 'Up Right From Square', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UpRightFromSquare')
 
 ' renders the element
-UpRightFromSquare('UpRightFromSquare', 'Up Right From Square', 'an optional tech label')
+UpRightFromSquare('UpRightFromSquare', 'Up Right From Square', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Npm')
 
 ' renders the element
-Npm('Npm', 'Npm', 'an optional tech label')
+Npm('Npm', 'Npm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Npm')
 
 ' renders the element
-Npm('Npm', 'Npm', 'an optional tech label')
+Npm('Npm', 'Npm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

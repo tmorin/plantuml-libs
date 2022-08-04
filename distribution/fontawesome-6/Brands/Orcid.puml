@@ -2,15 +2,15 @@
 
 sprite $OrcidXs [10x10/16z] HOk50O0m40E3ExV_j51vruXgJ6gnKACSAx8JBgwddgqOOEfNOfjT6inYNicE7m
 
-sprite $OrcidSm [12x12/16z] POY50G0X3CJoBjZ-q-9EQkaHESXe4tY3ceoAgKZF6UBlWSFVv4cEpbdyFCBbDOKDLDORprbI1m
+sprite $OrcidSm [12x12/16z] POY50G0X3CJoBjZ-q-9EQkaHESXe4tY3ceoAgKZF7kBxWStVv4cEpbbytyFbDGL0PRtnx2Lr
 
-sprite $OrcidMd [16x16/16z] TOw50OGm5CM2Ezb_sXESIghV7pj5nKtbnihEuabpc9q7zPxSU0ARsxgkMzLXiv5rdPdKuh3tHwl09c_NdSgwsr2Ckm2V0CtRXFes3uPJF7m1
+sprite $OrcidMd [16x16/16z] TOw50GGn40AvkDD_jMzats-Ywq0S7YyS7oo8IIDkCt7Zb1ne0Bnnq1s7vutwi46iDT0V8TbwIFzbuzm-CaaisJUQ1F0T0F7Jb48pHJNnm1K
 
 sprite $OrcidLg [20x20/16z] {
-XOy55e0W04D7Dzp_jZhivDkhzyI6KBWWOkjKYmtJ3bOfj3EIagLRBqd1fsu71UZpQJvJAbkx4SodrWgA7-7G-1GKgxXeorszQ1XgZbCPTTDI2gf_MTXD0qJO
-VgJTi7Y86KG-958knHKPAZEhCW4
+XO-50S0W30G_kBF_jcr8NQy2N1x32ccSINtGTc_x3eJOZoXMZgljd1p5lbENvVFyvbn54YG_lqeHY0TnToF2ij79oLy_EFmwp_-2jhgSeneZ2xqwWE9waNx1
+uIOB67LJJ3rF52WspbWC9W
 }
 
-!procedure Orcid($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Orcid', $name, $tech)
+!procedure Orcid($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Orcid', $name, $tech, $desc)
 !endprocedure

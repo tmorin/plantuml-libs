@@ -2,12 +2,12 @@
 
 sprite $PrescriptionBottleXs [7x10/16z] O-971WnG0EU1AEmyDZOa7W
 
-sprite $PrescriptionBottleSm [9x12/16z] O-971omyKC303G5S350PNWP6HaOm0o4216WYB2miS14K1Xi
+sprite $PrescriptionBottleSm [9x12/16z] O-971qmyKC303G5S350PNWP6HaOm0o4216WYJ4nCS14K1Xi
 
-sprite $PrescriptionBottleMd [12x16/16z] XSor0S102010h7bq_sdZhjVWKFq3te7Q2Y5gHK23N7BFpBL_tC71cfkxF-smYAov7dRy-ATMq0C
+sprite $PrescriptionBottleMd [12x16/16z] O-8d31YO4821Yni661Xu4Kh0W0_Avk7ZWp3vKTKm0W6CpSt3muDL3T0I69iBIGqFibq8DW
 
-sprite $PrescriptionBottleLg [15x20/16z] ZSl50G113090rZtflzlZSsuxlmImUYJwgPvFN8Hs0AHpDmwwJEDsNigNqnMIyxPCResdjfqsahoL_Vb4to-F1G
+sprite $PrescriptionBottleLg [15x20/16z] ZSsr0S0m30J03yUy_xR-nenNYNMwd7LJianHELK6kChPor2r-gPkCLodfo1RxehDNPoaOdgyP8UFgbsTiXiU
 
-!procedure PrescriptionBottle($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PrescriptionBottle', $name, $tech)
+!procedure PrescriptionBottle($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PrescriptionBottle', $name, $tech, $desc)
 !endprocedure

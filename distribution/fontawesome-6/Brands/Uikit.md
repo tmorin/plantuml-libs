@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Uikit')
 
 ' renders the element
-Uikit('Uikit', 'Uikit', 'an optional tech label')
+Uikit('Uikit', 'Uikit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Uikit')
 
 ' renders the element
-Uikit('Uikit', 'Uikit', 'an optional tech label')
+Uikit('Uikit', 'Uikit', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

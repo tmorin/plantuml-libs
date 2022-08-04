@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UniversalAccess')
 
 ' renders the element
-UniversalAccess('UniversalAccess', 'Universal Access', 'an optional tech label')
+UniversalAccess('UniversalAccess', 'Universal Access', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UniversalAccess')
 
 ' renders the element
-UniversalAccess('UniversalAccess', 'Universal Access', 'an optional tech label')
+UniversalAccess('UniversalAccess', 'Universal Access', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

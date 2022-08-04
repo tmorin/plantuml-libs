@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Joget')
 
 ' renders the element
-Joget('Joget', 'Joget', 'an optional tech label')
+Joget('Joget', 'Joget', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Joget')
 
 ' renders the element
-Joget('Joget', 'Joget', 'an optional tech label')
+Joget('Joget', 'Joget', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

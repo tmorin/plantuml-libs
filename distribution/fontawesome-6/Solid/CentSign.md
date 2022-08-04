@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CentSign')
 
 ' renders the element
-CentSign('CentSign', 'Cent Sign', 'an optional tech label')
+CentSign('CentSign', 'Cent Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CentSign')
 
 ' renders the element
-CentSign('CentSign', 'Cent Sign', 'an optional tech label')
+CentSign('CentSign', 'Cent Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

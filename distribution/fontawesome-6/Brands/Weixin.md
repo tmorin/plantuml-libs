@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Weixin')
 
 ' renders the element
-Weixin('Weixin', 'Weixin', 'an optional tech label')
+Weixin('Weixin', 'Weixin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Weixin')
 
 ' renders the element
-Weixin('Weixin', 'Weixin', 'an optional tech label')
+Weixin('Weixin', 'Weixin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

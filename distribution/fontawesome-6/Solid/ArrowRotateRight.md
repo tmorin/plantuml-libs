@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowRotateRight')
 
 ' renders the element
-ArrowRotateRight('ArrowRotateRight', 'Arrow Rotate Right', 'an optional tech label')
+ArrowRotateRight('ArrowRotateRight', 'Arrow Rotate Right', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowRotateRight')
 
 ' renders the element
-ArrowRotateRight('ArrowRotateRight', 'Arrow Rotate Right', 'an optional tech label')
+ArrowRotateRight('ArrowRotateRight', 'Arrow Rotate Right', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

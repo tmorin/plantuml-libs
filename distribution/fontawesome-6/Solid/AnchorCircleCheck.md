@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/AnchorCircleCheck')
 
 ' renders the element
-AnchorCircleCheck('AnchorCircleCheck', 'Anchor Circle Check', 'an optional tech label')
+AnchorCircleCheck('AnchorCircleCheck', 'Anchor Circle Check', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/AnchorCircleCheck')
 
 ' renders the element
-AnchorCircleCheck('AnchorCircleCheck', 'Anchor Circle Check', 'an optional tech label')
+AnchorCircleCheck('AnchorCircleCheck', 'Anchor Circle Check', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

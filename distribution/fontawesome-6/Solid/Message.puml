@@ -4,10 +4,10 @@ sprite $MessageXs [10x10/16z] O-270cv-2W0VdCN0mih5py_Aoih8mC30piy00W
 
 sprite $MessageSm [12x12/16z] O-3XXm4sNdxQ0WPaDX20A1ZWvuBG
 
-sprite $MessageMd [16x16/16z] Os3dHm9y31pyGmimeFCP61aPUO4CTaOGO0037dv-A0lAvuCp0G
+sprite $MessageMd [16x16/16z] Os3dHm9y31pyGmimeFD1W1V8O6D001w8E8BF1sS2
 
-sprite $MessageLg [20x20/16z] vSd50K0X0CFGVXUa-q-BEoFmZWaE3aHDbUPYD6VWH03dTLq_lIlO43rnHxNT69lUK5a
+sprite $MessageLg [20x20/16z] Os3cHmFS2244uECVze2mXnc062Em65XOMLcvm1nMC61aW01si3GK8CJO6D35-91v
 
-!procedure Message($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Message', $name, $tech)
+!procedure Message($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Message', $name, $tech, $desc)
 !endprocedure

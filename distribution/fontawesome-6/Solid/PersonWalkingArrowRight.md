@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PersonWalkingArrowRight')
 
 ' renders the element
-PersonWalkingArrowRight('PersonWalkingArrowRight', 'Person Walking Arrow Right', 'an optional tech label')
+PersonWalkingArrowRight('PersonWalkingArrowRight', 'Person Walking Arrow Right', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PersonWalkingArrowRight')
 
 ' renders the element
-PersonWalkingArrowRight('PersonWalkingArrowRight', 'Person Walking Arrow Right', 'an optional tech label')
+PersonWalkingArrowRight('PersonWalkingArrowRight', 'Person Walking Arrow Right', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

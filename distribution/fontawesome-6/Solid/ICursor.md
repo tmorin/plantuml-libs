@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ICursor')
 
 ' renders the element
-ICursor('ICursor', 'I Cursor', 'an optional tech label')
+ICursor('ICursor', 'I Cursor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ICursor')
 
 ' renders the element
-ICursor('ICursor', 'I Cursor', 'an optional tech label')
+ICursor('ICursor', 'I Cursor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CarBurst')
 
 ' renders the element
-CarBurst('CarBurst', 'Car Burst', 'an optional tech label')
+CarBurst('CarBurst', 'Car Burst', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CarBurst')
 
 ' renders the element
-CarBurst('CarBurst', 'Car Burst', 'an optional tech label')
+CarBurst('CarBurst', 'Car Burst', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PersonArrowUpFromLine')
 
 ' renders the element
-PersonArrowUpFromLine('PersonArrowUpFromLine', 'Person Arrow Up From Line', 'an optional tech label')
+PersonArrowUpFromLine('PersonArrowUpFromLine', 'Person Arrow Up From Line', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PersonArrowUpFromLine')
 
 ' renders the element
-PersonArrowUpFromLine('PersonArrowUpFromLine', 'Person Arrow Up From Line', 'an optional tech label')
+PersonArrowUpFromLine('PersonArrowUpFromLine', 'Person Arrow Up From Line', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PenNib')
 
 ' renders the element
-PenNib('PenNib', 'Pen Nib', 'an optional tech label')
+PenNib('PenNib', 'Pen Nib', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PenNib')
 
 ' renders the element
-PenNib('PenNib', 'Pen Nib', 'an optional tech label')
+PenNib('PenNib', 'Pen Nib', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

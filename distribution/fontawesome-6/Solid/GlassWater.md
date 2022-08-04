@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/GlassWater')
 
 ' renders the element
-GlassWater('GlassWater', 'Glass Water', 'an optional tech label')
+GlassWater('GlassWater', 'Glass Water', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/GlassWater')
 
 ' renders the element
-GlassWater('GlassWater', 'Glass Water', 'an optional tech label')
+GlassWater('GlassWater', 'Glass Water', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -1,19 +1,19 @@
 ' definition of the Item fontawesome-6/Solid/Link
 
-sprite $LinkXs [12x10/16z] PSR50S1030D1XJdRVxN6vncaqJWJKEX-AOhgPlP2SYupPohDfZPmP7z25we1rEC
+sprite $LinkXs [12x10/16z] Oy04ZFpy_606XERX1pE124H3c22Q4Ip416934GDOXXNA1W9s4CqBv782HM0cGW
 
-sprite $LinkSm [15x12/16z] TSc54SCm4031CuFW-kys4GxwUUVvY4sz-tqUnBn5ZuAWMevirRrI_LfquRCMAhStg-nMOG14goYDBcjH_ovg5RScBsRiVq_y
+sprite $LinkSm [15x12/16z] TSY53SH050DHXxCu_NTxzq4hZ4Nph8yTm9jz7-fpxro61c0nSRsRt1NJ8yfc1Bsysj61IpIxBS5B-KUrS4Wl36wjdNyl_
 
 sprite $LinkMd [20x16/16z] {
-XOy54eGm00E3rhl__-rDYe_T8X6ewHyDMBzLn-Gh5aZQYhJ09BCo666ddLNML476uj-3w0xNVww6oopI19DVqGDcDMHJ92zuT62jrvGADBLrybzNPs7FhWmi
-bkbzXWtYuYMNiEiYOnPzc79Fd-87
+XSv50iCm30NHdyHCS__JbcGLLjLkdb7_PWBXbnO0pRD3rTMb4qmkW1sHkQb9OoCOPR4iRD_vfCHKu_9jK2GuDAswaHb8C7olCbFpibrk0bBR93WSeMh_aNGs
+JXqvoQS1S7gwhlhJTm
 }
 
 sprite $LinkLg [25x20/16z] {
-ZSu5Ok0m3031DONZ_Vzhxrgfp1EqBUAl-kay6vzSXeCtIW6cdgUwy-nKFQ43g92cgH1qUVvnrdg_H3xNKZVsdKrRRhYzx2zQo7aU_tlMt-8DqP-kFiTdlyne
-kR--r1liMYE-HQ798xqvdH5VtWp0_lZJ61d_PcHyLWYN4ieqLCBpR9VGfWvU7AQLZpOVtNnXhAFmmNy
+ZP25iKCn3C3qc19h_sa_DBuowS2CV4j_64V70yKJE_U47eUwdJs7wW4ZW7hEj453frGq-hwU8sOlTM7RMBHFnvh-bL4xSf-f9OIk40fw08DAveFEj8g--QTp
+lubLEmRDHi4_MZaCUhMxMe1L5yxvLokZINT-6usuzfztAC8GEd5cjp5ppwfgvGdzq7FFBm
 }
 
-!procedure Link($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Link', $name, $tech)
+!procedure Link($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Link', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Ship')
 
 ' renders the element
-Ship('Ship', 'Ship', 'an optional tech label')
+Ship('Ship', 'Ship', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Ship')
 
 ' renders the element
-Ship('Ship', 'Ship', 'an optional tech label')
+Ship('Ship', 'Ship', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

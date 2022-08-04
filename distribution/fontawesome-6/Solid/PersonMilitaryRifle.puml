@@ -1,19 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/PersonMilitaryRifle
 
-sprite $PersonMilitaryRifleXs [8x10/16z] LSUd0OC00031Iy1GV_zfgGhp1SO5LFfutaQWcVQANrgZKltVxRShEW4
+sprite $PersonMilitaryRifleXs [8x10/16z] LSUd0OC00031Iy1GV_zfgGhp1SO5LFfutlv0C-qLqXgLwlzklrtH2G
 
-sprite $PersonMilitaryRifleSm [10x12/16z] DKi54W1126AxvV-_FNJcR0bur9rZKp7m_2obwDUHX87TiSCMaC0CeR_5OYS6Didvg3SeKFzZTK0mZgEpuNq
+sprite $PersonMilitaryRifleSm [10x12/16z] FKk50S0m2AFkpV_NOXES25da6Nr3ez6nCuIW_miIibrB5yZPgF1lkRu9ZdMW7mKDCb3_WsodmhGCxOME
 
-sprite $PersonMilitaryRifleMd [14x16/16z] {
-BSk50S0W4CNGr9tilsq_yj0pklLy6HwDXOLcgk2MwejqcXF6noFDeKwJEyCCAirLIZdr8fRfig5Ib4-9eWyQM-QDPTC0zLMAkpv76X8LNFBS5lAuBmlA18z1
-J3y
-}
+sprite $PersonMilitaryRifleMd [14x16/16z] HS67WSGW3031TRP1QFllzj5Vck5bluEtRbbPeIm5cfGn1HWKrK4Nogc29pygb3ipBtsODXuj54KPofJQiHomg2w71THGqbFxfLjeuXhQJ48zbXLbwggKFm
 
 sprite $PersonMilitaryRifleLg [17x20/16z] {
-LSj9jY8W50Mm2wNO0Td_Rklmz7UP9n_z-fZvjfMHj9I7qjFC_D7i5CTEjakAO-PYvUq9FRHytEQhPz3p6qRU5Yoal7AZt7BShMoF80NNcC6g01bAJvfZPod9
-Oc8q1aP781VZWSqZi397q4WS8oF_oB4TBST_
+LSq75WGn209GqgSOkVzjzy7sFpKgJxpKSGR4aZOXSj8gmC2VmeHHKjaAemGgDs2N2WKaH5RS1LF5Np-Rjo9wmMuiqWPaSIEvb82vmu1I3b2jGIj0eIGspGl2
+-yYfS5NLhSvvQfOyNTW8JR4eHfcOQ2GaAGNo
 }
 
-!procedure PersonMilitaryRifle($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonMilitaryRifle', $name, $tech)
+!procedure PersonMilitaryRifle($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonMilitaryRifle', $name, $tech, $desc)
 !endprocedure

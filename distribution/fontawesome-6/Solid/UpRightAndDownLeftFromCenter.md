@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UpRightAndDownLeftFromCenter')
 
 ' renders the element
-UpRightAndDownLeftFromCenter('UpRightAndDownLeftFromCenter', 'Up Right And Down Left From Center', 'an optional tech label')
+UpRightAndDownLeftFromCenter('UpRightAndDownLeftFromCenter', 'Up Right And Down Left From Center', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UpRightAndDownLeftFromCenter')
 
 ' renders the element
-UpRightAndDownLeftFromCenter('UpRightAndDownLeftFromCenter', 'Up Right And Down Left From Center', 'an optional tech label')
+UpRightAndDownLeftFromCenter('UpRightAndDownLeftFromCenter', 'Up Right And Down Left From Center', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

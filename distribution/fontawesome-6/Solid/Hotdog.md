@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Hotdog')
 
 ' renders the element
-Hotdog('Hotdog', 'Hotdog', 'an optional tech label')
+Hotdog('Hotdog', 'Hotdog', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Hotdog')
 
 ' renders the element
-Hotdog('Hotdog', 'Hotdog', 'an optional tech label')
+Hotdog('Hotdog', 'Hotdog', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

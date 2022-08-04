@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PersonArrowDownToLine')
 
 ' renders the element
-PersonArrowDownToLine('PersonArrowDownToLine', 'Person Arrow Down To Line', 'an optional tech label')
+PersonArrowDownToLine('PersonArrowDownToLine', 'Person Arrow Down To Line', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PersonArrowDownToLine')
 
 ' renders the element
-PersonArrowDownToLine('PersonArrowDownToLine', 'Person Arrow Down To Line', 'an optional tech label')
+PersonArrowDownToLine('PersonArrowDownToLine', 'Person Arrow Down To Line', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

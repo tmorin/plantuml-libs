@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Question')
 
 ' renders the element
-Question('Question', 'Question', 'an optional tech label')
+Question('Question', 'Question', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Question')
 
 ' renders the element
-Question('Question', 'Question', 'an optional tech label')
+Question('Question', 'Question', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

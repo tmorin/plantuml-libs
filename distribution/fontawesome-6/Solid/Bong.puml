@@ -2,12 +2,12 @@
 
 sprite $BongXs [10x10/16z] JSV50O1G081Gx9RzfpL-Sth0hSgVHGYjnYBt07IAo1jQYgOYU04
 
-sprite $BongSm [12x12/16z] VOk54S0m30E_pDN-s-PCnycRGJ39E34Mxr-Szm3Hwu_B-i_xo-IItJolmdX-GCMWdxAzeG4
+sprite $BongSm [12x12/16z] VSR10K0000IW083RVrg09xr2JZqehi_0t15VRmTOhlVfIJ0dg0Ec5NdztDEH7G
 
-sprite $BongMd [16x16/16z] XSkr0SD040NHERB5l_zkTGoH9diBm5ybQbUr6mFdh3p3WDodpRPwqvvebFqWoJJYYg0GZ0vYLlTLAejJ8njzJtRHssGJRIP7pWyXwWK
+sprite $BongMd [16x16/16z] XSq50eKW44NHQpUp_zN-aEwdn648O1CTJ6xZqI-Cuo0pte2CVU-nTpbUosk5VbEJIKjJJquzFBUEBbnYe_s8pm3iIPtK_i04V04
 
-sprite $BongLg [20x20/16z] fSu34a0n34NHD3NV_bVxRUEECgUafeAXGbEOkZPA4DqI_JErjm2_Cmc4ZW86Ipn-A0wNYnPqDwhvlJmS7BwmcXchH6jcRVR0_F34sFpkscXlXVR8BTG
+sprite $BongLg [20x20/16z] dT350GKn20HG-Be-_LUx4dUR4tbnwCu1bODCO58ssiH0qRXzObimHyR08cY1ietrWrR0llChge-zRyT28ehSck657tlxzeyDudalZzIzlf5hVgUZQoy
 
-!procedure Bong($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Bong', $name, $tech)
+!procedure Bong($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Bong', $name, $tech, $desc)
 !endprocedure

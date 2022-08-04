@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Regular/FilePdf
 
-sprite $FilePdfXs [7x10/16z] BSM50S0m3CH0bI7m-syRamo7B9Z09nJ8C3kLl62QDlPllBsDtz82
+sprite $FilePdfXs [7x10/16z] BSR50S1048LGufxVVxKx-Yw07Fp0BfHHXEkbAMH-hsBO2TFptKu6
 
-sprite $FilePdfSm [9x12/16z] FOk50SD058N8kRF_jFM6x_9OleYmJckjMx43bzP_uxjv8rnSlBrSHwbGsdBWee27ofju0RUg-EC9
+sprite $FilePdfSm [9x12/16z] FOk50G0X4CFoYjFzfyKXvrAY6W_4R8onCZHlI6Otwar7S3Nh_bzPmhJ6HdaK-K4PG-UYSLI_5XK
 
-sprite $FilePdfMd [12x16/16z] HSk50OGm40NHmNsd_sgHVyA39AkCHWS9OmBbSJp96pjzuzqWkgwpRVcvezgPgwCASAe3aIVkJ9nwDOcx9uPZ5x_hJPzdt_ZPbH_nTG4
+sprite $FilePdfMd [12x16/16z] HSY54GGn3C107MEi_gjz26x06hERBP0pEq01I7emsgFsQqOsJLEk8HxEc8a0F28X0ZYPE--3t3CWf5S4c80vZ_UXUPL67Bu
 
 sprite $FilePdfLg [15x20/16z] {
-LSe52WH10CJ07ZTsyl_VNf-j12s8ukPRaekSDNCJzCdk4kYaVQVz92SrnjWSXwx6YJCV8K4MO5AENQZ8-31JY6Qh9j2-19EHL4ZNB9FrOv3BKKgIQjLLhg2h
-nMBFCz3crdW1
+HSe53W0X30NHluw4plrlkrZQGLzIdSRgKk_4-pgDGpCWII1dTt0wkDCkvsoqfYWxFAFfWbD09q-pXnUX4UVDCy1p3SAt28FleOSpXjL9xVJEG-fRxwleVa5H
+eMB50nb4-GS
 }
 
-!procedure FilePdf($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Regular/FilePdf', $name, $tech)
+!procedure FilePdf($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/FilePdf', $name, $tech, $desc)
 !endprocedure

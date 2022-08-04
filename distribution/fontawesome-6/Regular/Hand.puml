@@ -2,15 +2,15 @@
 
 sprite $HandXs [10x10/16z] LOQ50O1008ImM_QVrloyX5S7lxJJ3n1q25IFaKw2n4G1_SRrTE06
 
-sprite $HandSm [12x12/16z] LSY53GH13CLGBmv4YVklzXYVu0DtH_AIcihTwbBaC85Dah57pK_VelwwIj2sDSf9yd3_UOdWzDLTeCjT2N1uLt05
+sprite $HandSm [12x12/16z] HKm30W0m46hs-lzhPvnHOPefE5R84NicAahW_0cYm8bKuvl70gW_aqI2dJC3Zk2y0sSUtxlCxlTILpESLe4E
 
-sprite $HandMd [16x16/16z] RSc50SGW5C3GrFMJ_RUz8kSD-e3Q4RmRGZMcnb7jKRVgGrA793soJudYOxFxzC2TGp-jofbzzfUJ8AtBHyQ7qJS7uVCX13fJu-AKZrwtV8G7jQIv_Fi
+sprite $HandMd [16x16/16z] RSc55OGm50NHjxxmPVhlbXF39teJjIoqzGY0-7G-WOU0gTbGIYZ1YXr5jVqv-A4x1mS3o8kzE2dN4RAApOADJtHuY7ebExzyol60Npa2KoifrTy5
 
 sprite $HandLg [20x20/16z] {
-bSq54iGW44JHmPr__zjkJJoXR1j_c9mPmyWhCG64-205xm3iJRaZGg_Cx4uJfwOp25zh0Rxcv1zpWyL0pHncrJfHCd95RUewlCsZ-3PfpCLalB1GT9YCYooS
-nwVTPn7E_mOmQfiedGaJDCtewWS
+bSe54iGW40NHZqPd-lwttOedKBQDlq9NPlgM2a1CUZe083mqhaYiCpw6onGsam1AQqk4reB-iMXqnjO6ZwrKZUW9vDkxV2spuTUqu9t9FZWnROTZkWfmVVUW
+lGfPHmROl3XGT1KTjfQmlNu
 }
 
-!procedure Hand($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Regular/Hand', $name, $tech)
+!procedure Hand($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/Hand', $name, $tech, $desc)
 !endprocedure

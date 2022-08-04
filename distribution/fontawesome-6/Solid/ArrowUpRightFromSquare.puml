@@ -1,16 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/ArrowUpRightFromSquare
 
-sprite $ArrowUpRightFromSquareXs [8x10/16z] JOY50G0X30FV1Sl-stB5hnBPLYGvhXfogXgrHVGL5VgPe826nn3EE3C
+sprite $ArrowUpRightFromSquareXs [8x10/16z] JOY50G0X30FV1Sl-stB5hnBPLYGvhXfogXgrHVGL5VgPe826nn3Es3C
 
-sprite $ArrowUpRightFromSquareSm [10x12/16z] NOc50S104C9IzxB_jE-UKu01EIOt7zVh_tLDfc9A_Fnw_2e-ck2xeWRzzNkLU7d-m8i5
+sprite $ArrowUpRightFromSquareSm [10x12/16z] NSd70S0W243H7qzszzysTe6dT8pMZLG8UVJEZUMmhgnkf3JItTC-A65qGwklostBf3fbVW
 
-sprite $ArrowUpRightFromSquareMd [14x16/16z] RSY50G9150FHMSK2wRzR27xoLkUpgzmUn91q0Jc6eq2RZjbx0wgV6b7iirAVu5i9AAdS5oA54XIbye7CIYhswwetknJ_0SeNt04
+sprite $ArrowUpRightFromSquareMd [14x16/16z] TSVL0OLG04EnymGlTFzfh-6Ml_1iIaGbQG0vgvm1tth-z_i1FYw-CAVNjXJcBKdcsGFRD4Vp-9Hu6IyRjR311vn5
 
-sprite $ArrowUpRightFromSquareLg [17x20/16z] {
-ZSm54eH040F0h0km-VzlhqREZIuR3RuBLUJxW0QBeWAx3IPLroUhLyuvIPzeZeUG-32GEeM70Sa0sC3pCeGC_1yFWq4MwKhqGM3sO1-uV7AmwiqWqVWCEFWe
-uCq5
-}
+sprite $ArrowUpRightFromSquareLg [17x20/16z] ZOm50i0m20D3TSx_VplMpFrgAP3W1J_XiA84GtaYqB7GyCamX7fmpWaCfwJVXRYrm7c7NS6KO5SmuIbOAFExGgqQO3XP9y8SN0ehxcTXI2kMZQn7WFxulp82
 
-!procedure ArrowUpRightFromSquare($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ArrowUpRightFromSquare', $name, $tech)
+!procedure ArrowUpRightFromSquare($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ArrowUpRightFromSquare', $name, $tech, $desc)
 !endprocedure

@@ -1,19 +1,16 @@
 ' definition of the Item fontawesome-6/Brands/Centos
 
-sprite $CentosXs [8x10/16z] JOk30K0n34Jl6yNRVzfQSGvQWZnESgJjmEtIY-VbUG3bll10qtbfks-kU_WZ
+sprite $CentosXs [8x10/16z] JOk30K0n34Jl6yNRVzfQSGvQWZnsSgJjmEtIY-VbUG3bll10qtb9zyrr3ty4
 
-sprite $CentosSm [10x12/16z] LOk30K0n34IlTj_-qtuppa7_u5pMPAArEp20iCFCIKbDQa2jR0_G1Q38602RfKwOnDtHRk-6udL5siSA
+sprite $CentosSm [10x12/16z] LOk55O1G30FptNlxRyl3uUeI_K4NbQmT5f3OEpDQ6T80UeTQW2a09TO2zhzkOEngngNTjmHTb3rj
 
-sprite $CentosMd [14x16/16z] {
-ROq55iGm24I1je78uz__jikwzKUn6Jd3FuCadkdXOt2zjA99SEN0AegU7MWphj7Wkeu9cmW3HkfA27UkQ7LS4Pzmh7bjYQi3RS4rl3aSCw62PXz-pZLICmkY
-7ddGKFdd0W
-}
+sprite $CentosMd [14x16/16z] ROq54WH120DP6m6A_lzlRtDkFOebze_-7XIFi7jtHvUYO20E58rP4sWn53bQHy1gTlxmMh9Wj8vOp17M0euCjMYmqn8KNXsEA3Y3zkxNLHFhqCoJXltX0W
 
 sprite $CentosLg [17x20/16z] {
-TO-50GGn20I98H6s_sfVpdMYED0RyQh0EClTkz9200hG2XhWisBqIO6qA9Xz_1MCD2U2Inkji3FiBmi0xIsW02v4BghAJ37-Nd4LJ2WHPcXI6L8s1zm3KVpB
-iQLkInzarHcjZAfUviOyJesDORuewgH0NaAOkN2B77ylhJGWNURFzC8N
+ZO-50GCn24KfQP08V_zjUw7kzw8uq6umd-KHm-v6LA1NT20ktYCLA1U5ICob49IP2eJssQk4m9Ui06pqmyeKIXHgPY94lBqQeaXi5KieLOx27a2iChnaxcKu
+BcMzXQ3NsIpgfIndOtDwN1Gj5JZUEfKgdOMtbwvqW5_cP_h22G
 }
 
-!procedure Centos($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Centos', $name, $tech)
+!procedure Centos($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Centos', $name, $tech, $desc)
 !endprocedure

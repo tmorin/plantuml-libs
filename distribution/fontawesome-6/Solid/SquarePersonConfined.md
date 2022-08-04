@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SquarePersonConfined')
 
 ' renders the element
-SquarePersonConfined('SquarePersonConfined', 'Square Person Confined', 'an optional tech label')
+SquarePersonConfined('SquarePersonConfined', 'Square Person Confined', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SquarePersonConfined')
 
 ' renders the element
-SquarePersonConfined('SquarePersonConfined', 'Square Person Confined', 'an optional tech label')
+SquarePersonConfined('SquarePersonConfined', 'Square Person Confined', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

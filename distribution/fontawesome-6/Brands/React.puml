@@ -2,18 +2,18 @@
 
 sprite $ReactXs [10x10/16z] LSkn0KG0002n_0F0xR-jblJnDjqQ8GBMiVk6CFlhfZaX-9it3ldxNlsiyG
 
-sprite $ReactSm [12x12/16z] LSgtOSH0300mIBeSoFstjTj73Ryo7oKMU7p118_rl1QqlBtjcmz7X72Q3BudiWx89rCrPZdulvad0DzWWDUgrG9zuhpy0G
+sprite $ReactSm [12x12/16z] LSgtOGCn400mV6BctVxJsWgLKCElJEuOlewWWqDt673dhcNkF5WYX7N9u1HvDqYPRgrV2w-RkSBNrMZWC9xB0BLZ7Vm3
 
 sprite $ReactMd [16x16/16z] {
-RSwrOG0n40NH9pWGxVRVhJFpXud7FtbMGJyLgBUnP1F0ZP8Om5N8ifX0NJioywo04a_K1sdlhGvMYdnBD3BGXioGQ9BOtj2VsnMCFFKWMqQ3rliuC--wldps
-U_5--RnH6O3TetbtIu3onGy
+RSw5OKKX402m84-1k_sdhNj_9eW7ZW5z5Q1ipY6h07QKn0NKGhgvlJjdPEOQ0IMEA0VId5Ez62do48KCr4jcI3H9J4VeHzE38rTTo9fHeRHwhZrx6T-VUNPE
+eE6CmkNTRD6SioR-UWO
 }
 
 sprite $ReactLg [20x20/16z] {
-TSh5WG1040B1ddM5_ACzTwaVmdzI2vwLneTRBKXUnRmv2Ohw1JPl3D0CC7cZW7H3mEBDg6NQiZe7diMqkd8GTmwh0TE1sKG3fq5tjFdQXos60v02oARP9XbW
-nWNEhiYJimhq0xu80wJDQPu0ULlQSqnVk_5gPt1X9rYyCO360aPyxRe36BoPbTWBTRZmnduzsPD_F08
+TSYtOGCn50KmaAV0-D_-sxfIQPJmd_O0_U7dlbEqh5S0JgFNzs8313w12L2DTXKMmEYlcLJgwm1cwgc6EqVgXHbYyo5z-CPd_Zvb1AeQUdoIQ87fukn7PJgh
+yptaAe6-dKycj9sgFSVCJHx0RgJRdGKGgB4m6Y3m3Go0-R2N-dBz96aOoVIFFm
 }
 
-!procedure React($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/React', $name, $tech)
+!procedure React($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/React', $name, $tech, $desc)
 !endprocedure

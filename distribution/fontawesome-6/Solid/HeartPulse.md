@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HeartPulse')
 
 ' renders the element
-HeartPulse('HeartPulse', 'Heart Pulse', 'an optional tech label')
+HeartPulse('HeartPulse', 'Heart Pulse', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HeartPulse')
 
 ' renders the element
-HeartPulse('HeartPulse', 'Heart Pulse', 'an optional tech label')
+HeartPulse('HeartPulse', 'Heart Pulse', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/GithubAlt')
 
 ' renders the element
-GithubAlt('GithubAlt', 'Github Alt', 'an optional tech label')
+GithubAlt('GithubAlt', 'Github Alt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/GithubAlt')
 
 ' renders the element
-GithubAlt('GithubAlt', 'Github Alt', 'an optional tech label')
+GithubAlt('GithubAlt', 'Github Alt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

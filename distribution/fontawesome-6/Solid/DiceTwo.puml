@@ -2,12 +2,12 @@
 
 sprite $DiceTwoXs [8x10/16z] Ou01VdG05244U1WmL0C
 
-sprite $DiceTwoSm [10x12/16z] Oq00Vgo03SRWGoWW311gUO088SpD1m7i
+sprite $DiceTwoSm [10x12/16z] Oq00Vgo06SRWGoWW311gUO088SpD1m7i
 
-sprite $DiceTwoMd [14x16/16z] Oq05h7nmmCl8neyNyB8YyrWPU54a-Ia0V2p8F1P29ZEYy1WO61600G
+sprite $DiceTwoMd [14x16/16z] Oq05h7nmmCl0neyNy38XyvWOU54a-Ia0VCp8F6P29ZEWyb
 
-sprite $DiceTwoLg [17x20/16z] lS6t0OC04C10sUIe_RUbvKFD7TNyDe7HTLfLssG4Xy4o-9sPrM1aCJhjB2PS1XFP0m
+sprite $DiceTwoLg [17x20/16z] lS6t0O0m0C0mqpl-_rjM87MAH6Xuwy6lwxJ6qli5XnzJPpiZYnyzer-dCOi_N7vC_3q
 
-!procedure DiceTwo($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/DiceTwo', $name, $tech)
+!procedure DiceTwo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/DiceTwo', $name, $tech, $desc)
 !endprocedure

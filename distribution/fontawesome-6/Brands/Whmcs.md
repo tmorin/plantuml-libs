@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Whmcs')
 
 ' renders the element
-Whmcs('Whmcs', 'Whmcs', 'an optional tech label')
+Whmcs('Whmcs', 'Whmcs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Whmcs')
 
 ' renders the element
-Whmcs('Whmcs', 'Whmcs', 'an optional tech label')
+Whmcs('Whmcs', 'Whmcs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

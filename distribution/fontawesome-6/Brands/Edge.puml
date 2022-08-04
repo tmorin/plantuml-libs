@@ -2,15 +2,15 @@
 
 sprite $EdgeXs [10x10/16z] FOY50G0X3CJoBjZ-sq8rjVGG3fHx27U8gDWXofgVPcy5FBjLP8qTPPn3I8K9
 
-sprite $EdgeSm [12x12/16z] HSd70O0m0810x5tsdrRJSqyWcIXUevV0AjJxE0wZXzC60nWC9lK2xFrHHq9Miire7uQ3k0-ZbM1oLGVu0G
+sprite $EdgeSm [12x12/16z] JSZ50O0m0C30u5Ip_xIuz9u7fu57zLGv-8AQGmYU2j4F7W0FWvg0velQSxHoMpmj481Yy3Hpw9rLO0S
 
-sprite $EdgeMd [16x16/16z] HKq50W0X28DBU_z_hKdC11Pqm3SvRXn8hq9HhVJ6ZHHZp2PfPN-IDAZj9pz1QdCMmRe-h_VJajQydWAStCf4RTSW0o09pDzglu1a2UkHXei2OWMUzHq
+sprite $EdgeMd [16x16/16z] HSs55S0W34NHNtVU_jlsH0YtIbHXMZGiX4dke_lgE08pztLTJxMq5tCJr33FUkOPOzjmlciVP_-qkvyd-xpWUtr_ypCgX6UMDcGlJfBCN06ba-k3rNv_
 
 sprite $EdgeLg [20x20/16z] {
-LOy50e0W34K_tUp-fxKMwZDvi8BY0dwuJampbUabishqfTkf_qb7kzqiaq3Fct-3kePAYlvjlAcTXekhkF3qpJ89Dwm6VzlZ9ZltkCtzQolOz-dhyG1YAKd7
-cCHIqM2YbJrScaba96D2ssgl4fQTp31StQED8UO4
+LSw50G8n40J0_RXl_zqIpp7mbbCSdyQ_n2NYS7mSfaWfoIoPoHQ7ogEtTusJFcSHWSTvQn2jJ_a-2-WKPPT239poUiPvLixSsNLjTOxGHdQ_lj5GQuLEptQT
+md6AkwfxhYfs7nfU1SCt1z-ZhTvCXoUq77Esc7u
 }
 
-!procedure Edge($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Edge', $name, $tech)
+!procedure Edge($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Edge', $name, $tech, $desc)
 !endprocedure

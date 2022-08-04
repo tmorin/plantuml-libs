@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/RecordVinyl')
 
 ' renders the element
-RecordVinyl('RecordVinyl', 'Record Vinyl', 'an optional tech label')
+RecordVinyl('RecordVinyl', 'Record Vinyl', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/RecordVinyl')
 
 ' renders the element
-RecordVinyl('RecordVinyl', 'Record Vinyl', 'an optional tech label')
+RecordVinyl('RecordVinyl', 'Record Vinyl', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

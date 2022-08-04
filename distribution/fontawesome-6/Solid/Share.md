@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Share')
 
 ' renders the element
-Share('Share', 'Share', 'an optional tech label')
+Share('Share', 'Share', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Share')
 
 ' renders the element
-Share('Share', 'Share', 'an optional tech label')
+Share('Share', 'Share', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

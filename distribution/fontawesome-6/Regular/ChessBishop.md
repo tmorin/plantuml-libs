@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/ChessBishop')
 
 ' renders the element
-ChessBishop('ChessBishop', 'Chess Bishop', 'an optional tech label')
+ChessBishop('ChessBishop', 'Chess Bishop', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/ChessBishop')
 
 ' renders the element
-ChessBishop('ChessBishop', 'Chess Bishop', 'an optional tech label')
+ChessBishop('ChessBishop', 'Chess Bishop', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

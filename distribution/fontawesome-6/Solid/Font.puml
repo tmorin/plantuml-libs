@@ -1,16 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/Font
 
-sprite $FontXs [8x10/16z] Oq02_12A0qhpy_91Q8W45vJc1m4GpSV71wHvm6nsDf0O8py_
+sprite $FontXs [8x10/16z] Oq02_12A0qhpy_91Q8W45vJc1m4GpSV71wHvm6nsDeWOFm
 
-sprite $FontSm [10x12/16z] LOc30K1H24MVMPtzf_rck7J_uHP2k2Fi59x87JdYgUfkjWdKsW_5CNrNQGF3LU0ilDdOb9gj
+sprite $FontSm [10x12/16z] LOg30G0n54FFRFFsdxRcPxJCHGM6jKgeefqg1PpH7KceZVj-4oBL4r3AYEKcPUALle2iv04
 
-sprite $FontMd [14x16/16z] RSZ50S1G3CFGfCpQVzj-PftyB8FqAGLR9JAkId1nHqmW4FMm2Sn1zfzvFLO8butGLWcBWpESAlh0Ow7mtY_0P7G3Y9h4PiSF
+sprite $FontMd [14x16/16z] ROt50O0m54E3Es__QT5wVsvn6MZsbC6GCI9PCWOhIzW0HNDd5BIEWTHn_AHzMOZYC6RiCsSt_h4TTdTpR0SkiW4emmq
 
-sprite $FontLg [17x20/16z] {
-TS_50S1030F12tEc_sh33FioMmf_PF4zJxaN43yB_JKlkU_GazyAQQyxyuRx7tENQiyJeX1whXiXnASKE_LcmyQ-qz7F8Dqsyikpa5KaQw4bZrjibGRa83eS
-2az6
-}
+sprite $FontLg [17x20/16z] TOx50S0m30FBtDp-quOPxcEsD8rOgdg3iW7CTKFazO6cN12m5erLyAVwXL87CuKhrBFL591VQA_92e4ds8wunW_2GB02HoOsxNVq-C6nV1XcBwOvqhChf2KA
 
-!procedure Font($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Font', $name, $tech)
+!procedure Font($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Font', $name, $tech, $desc)
 !endprocedure

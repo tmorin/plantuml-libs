@@ -1,19 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/Signature
 
-sprite $SignatureXs [12x10/16z] LSR50O100C2muaxtdnOzpIlKTYKIs-8TYMhQWWgu8_6jI_DXTf7b0qXm0m
+sprite $SignatureXs [12x10/16z] NSQr0S104C0mNnMEzvys-AnAz7Ob4sDuebgseBxTaNnSuiFi8ii7aEG6
 
-sprite $SignatureSm [15x12/16z] POs50GGX4CG6Tz9_jI_d4bWtlQcWay1Wd657apFC29J9sk5Fr481C17MEbriIKaUdOSc_p1FLYIpw1FNJ_yB
+sprite $SignatureSm [15x12/16z] POq30i0m4C0oU_d_QsSKQSyYPrH-AXUNFvnbzGyRKHfxNZnfk1ZqgdhNdV5DGY7_eTKpx5RrAL_wfvn_VmS
 
-sprite $SignatureMd [20x16/16z] {
-TSs50S0W40F0u4xsdnQfwrLvnIzVD1uuPDm4LatY9bEWKk4gZHXdp2KS940c3k8Ih5nTTam1baF5fCaQcUQkIQvhzRe2OW3Mc0I9KwKQiKflU812OfdVqvoo
-3xuHkEa
-}
+sprite $SignatureMd [20x16/16z] XSw50KGX3C3GVCCX-qzxxlfmRVagzOKN7ZIU1CUYF6d2SEPH5NI2jV98gmSJDzFmZAliKMRpO70qwoXMQFUhpGMTWUdWdefoDvoR3EFY3HFLVXplE51d_jW3
 
 sprite $SignatureLg [25x20/16z] {
-ZS_50GCn4CLGBRFLVxM17-QycptCBrrVlVrM7NbH6mtFPWNTUBPQe5ZU1yuLBNUQhKsW7elA4-CvqA_6fXCtar4QUgE-dXV0Pcn4_dHzELLdcjV3gmHKg6ue
-YiwjZdYFQK9pLp_T6G5oGySRcuxyQmy
+ZS-reSLG081GudA5_QVzyYHkfwM2ErN5aKQrPwVmfMHhLD34LZH3DXy7JG0r2sMgNg7eiyg6BzjGHL-ITim6Nt95uqkns5E1v4lYHGMDkrKTAFRZnIkeKCp8
+YWwbThZ4CA1PfHqMUe2eMd4WQSzJlm
 }
 
-!procedure Signature($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Signature', $name, $tech)
+!procedure Signature($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Signature', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Vault')
 
 ' renders the element
-Vault('Vault', 'Vault', 'an optional tech label')
+Vault('Vault', 'Vault', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Vault')
 
 ' renders the element
-Vault('Vault', 'Vault', 'an optional tech label')
+Vault('Vault', 'Vault', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

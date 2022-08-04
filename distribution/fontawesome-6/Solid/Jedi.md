@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Jedi')
 
 ' renders the element
-Jedi('Jedi', 'Jedi', 'an optional tech label')
+Jedi('Jedi', 'Jedi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Jedi')
 
 ' renders the element
-Jedi('Jedi', 'Jedi', 'an optional tech label')
+Jedi('Jedi', 'Jedi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

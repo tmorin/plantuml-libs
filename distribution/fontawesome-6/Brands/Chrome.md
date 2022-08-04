@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Chrome')
 
 ' renders the element
-Chrome('Chrome', 'Chrome', 'an optional tech label')
+Chrome('Chrome', 'Chrome', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Chrome')
 
 ' renders the element
-Chrome('Chrome', 'Chrome', 'an optional tech label')
+Chrome('Chrome', 'Chrome', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

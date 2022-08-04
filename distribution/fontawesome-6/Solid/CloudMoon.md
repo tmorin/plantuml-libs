@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CloudMoon')
 
 ' renders the element
-CloudMoon('CloudMoon', 'Cloud Moon', 'an optional tech label')
+CloudMoon('CloudMoon', 'Cloud Moon', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CloudMoon')
 
 ' renders the element
-CloudMoon('CloudMoon', 'Cloud Moon', 'an optional tech label')
+CloudMoon('CloudMoon', 'Cloud Moon', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

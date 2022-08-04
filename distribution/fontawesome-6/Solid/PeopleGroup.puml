@@ -1,19 +1,19 @@
 ' definition of the Item fontawesome-6/Solid/PeopleGroup
 
-sprite $PeopleGroupXs [12x10/16z] LOk55O0m30LnXzj_MruRlxZyeG33mTXAx-5fHJZi1Ojhuq1uxvMvrMO3mjR-flRRTwRVMla1
+sprite $PeopleGroupXs [12x10/16z] LOo30K0X500_Szt-qsRUCwy3k1GrL0UkX8OQAmmp0aN3sx-sV96BXW3QdzeRzwA41
 
-sprite $PeopleGroupSm [15x12/16z] NSR5WG81002n0TOj_LTxhkILdYrknLT21_Uuga7T-4nDowD-0a6mdTo01UTEJkxk23SNbmNT48GAdTn3dsxNzPbN
+sprite $PeopleGroupSm [15x12/16z] NOc50O0020Inczj_MocJ-9J_p1X02bV83YxKR8T8uxQDjXzQfn803wn72PY1OtFhcQVr2XgjL5P5seFAQrIJJm
 
 sprite $PeopleGroupMd [20x16/16z] {
-ROnLOWL1408PM-tPklzf8tJod0-eLdrMdqNIi2Uh0jAm5xlKd07KMqy7_RPXlglTo0jCzPYdPCv0bsDKnq70raW9M860TZ61YYOq1hyHxZNlJJiXKiv3Vgyb
-MnkmIZg18lzJs2NLMdDIa-ygfVpZDm
+TOo54GGn4CDy77R_tVwUdaapiHnQ_MRj2hP8EjYE8v8UJBYHz9FYvR6Z0qmlrK7NqdgLw4BMGEkCYfkT5XiKwuZLUDOvKMZovbELiuLtdNIB15p4UEqSAKMi
+acfOwcGZuN7pdmi
 }
 
 sprite $PeopleGroupLg [25x20/16z] {
-XOu5WaGn24EfAytzRxiKM1zvNz8KfLUaQbhpBqiTW4WGOT5cLZW096b224HNcWOs06co84GYDYi4HlzkPVOtlVooSPx3NK_X_fRR2eMY2bDsJwOnmZYs7NYY
-g0MSSbCOmhtRXACcMGulB3a3Yx0r42sHJQoL1YP6y9kkIWsEhnd8zfk-339P_iLFDiCiQs0oS_uEkFscw8JtV
+XOm7ki0m28BfRamDzx_jY-ZRYuuVn4_yfMLBRkkdY9jaSC8dheh087a2nfm4TXKFoGNeLVX4t9IzuxHELVoi-_WK5nl3Rpdz-emdW9CI5i6nLKPoMPWQCD6D
+Xo9VTOJrS64C70fBxdXdvvR5yxgbGgXJAepjTNABk5Z2cG1MRS8eRSZzK3aFLdGLvkvR5U_nNOUA__K2
 }
 
-!procedure PeopleGroup($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PeopleGroup', $name, $tech)
+!procedure PeopleGroup($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PeopleGroup', $name, $tech, $desc)
 !endprocedure

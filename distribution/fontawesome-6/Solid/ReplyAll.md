@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ReplyAll')
 
 ' renders the element
-ReplyAll('ReplyAll', 'Reply All', 'an optional tech label')
+ReplyAll('ReplyAll', 'Reply All', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ReplyAll')
 
 ' renders the element
-ReplyAll('ReplyAll', 'Reply All', 'an optional tech label')
+ReplyAll('ReplyAll', 'Reply All', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

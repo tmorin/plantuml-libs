@@ -2,12 +2,12 @@
 
 sprite $RocketXs [10x10/16z] Ou005dvkCCt63mGW1XEGOWOX463XusVWHm4mPH06WWK121QO0G
 
-sprite $RocketSm [12x12/16z] HSsr0S103CLGXJb__scFRRzAdJ2FBff9bUTU-tZVaWU_sDNz4dAt0iNVwgLIiz8yQ-c5ME7TCWC
+sprite $RocketSm [12x12/16z] HSR50O1G5C2muaxtdnRvzd8ArU5Mvgzr_B-SvrzkcJMv5PlT072ddVnCUf9ZZDEfjAU-
 
-sprite $RocketMd [16x16/16z] NOw50S0W30I_nJNxJulxeV77vdSKvB8iDQP9WyEK2CssteSUalMYILJLQUZ4WIuUymU-x_FJ_ExPV4fxR6WTgysmQ3Pkcr-sHoC3
+sprite $RocketMd [16x16/16z] NSsr0S1008LGufw__xJdJlSggCsFlftShL2cKWqtlk3xVJzlM2LGxdSKbzeUr3KIfcbwnrbgJhu7Svv_PmYczzBv9MG1
 
-sprite $RocketLg [20x20/16z] PShL0K0X34FHu0xxJ_i4Xzw_dWP7CfGSn0OybjOYtMKpMy-u6-yBqKo666Eb1A1_LXAvMhbpSCG0GfPI1BZxoeiyUeiKgCbfYjg7eRF0NZD6pOEOn6qElHS
+sprite $RocketLg [20x20/16z] PSl50G0X34JHmHtwhtPziVctl2HOqgdLf2OGkRqDiY_CvfynpoQ_2_MQIZddXmg0RpFIg8-rlO101X1vfWo8S5K7HNmDCc2JtGpRXKcIzN-mHJQDtGA-JW
 
-!procedure Rocket($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Rocket', $name, $tech)
+!procedure Rocket($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Rocket', $name, $tech, $desc)
 !endprocedure

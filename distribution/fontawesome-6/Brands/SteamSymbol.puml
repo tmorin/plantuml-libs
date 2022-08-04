@@ -2,15 +2,12 @@
 
 sprite $SteamSymbolXs [8x10/16z] Oy06-84GHF7niu1fJdvcVY051QpyG0uJaC47KSs6h1K
 
-sprite $SteamSymbolSm [10x12/16z] TSYr0S0m44DHXJb__sdjWoRu6e5-dJ3AZHCdSammUMaPo1Et03CmvHwGQquQfULOTLS1
+sprite $SteamSymbolSm [10x12/16z] TSp50O1030H0t67whnPtk7oo7WLle5X1KHgiI4csW5Xg4q6Dofg7rB5mRDLzyrgV
 
-sprite $SteamSymbolMd [14x16/16z] ZSV5OSH0402mCTjBwh_Qv9X9FyKlnhnrbx1buocpXT5fPfJBLcnEeLTMkbqo8D20qaU0t9XY9u5Ed6Zg5cTTcxOSLtqNB_q3
+sprite $SteamSymbolMd [14x16/16z] ZSor0GDH50Cm7yC7xJzj6Cf4tGCx_vZByHtOY_arh3OchycA-fas75u3KNU6sr00GGVgc83IFTjFCCYBhktvwDDUyjiL
 
-sprite $SteamSymbolLg [17x20/16z] {
-fSq53WGn241Hg2HJ_VU_xTP8usilXYF_Y0pXve4csebYA0-aYkKEPL2ia7R1MK71CqGhCFZqUCf-b302fDpPydZAuXYwBUzt9Fk_24vCwD2roaKGHMKmgHML
-pxq
-}
+sprite $SteamSymbolLg [17x20/16z] fSj7OeKm50D0WMqwpFrFcqvP9lcpUaNAAnhqkLHxSYWvMIUcpRbt0jrr67MGwq21vjhfvwbOrIIPdO9vEG1Bdm0z75SPOSwN7eW-ftfmPCjDJUHftjVymJi
 
-!procedure SteamSymbol($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/SteamSymbol', $name, $tech)
+!procedure SteamSymbol($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/SteamSymbol', $name, $tech, $desc)
 !endprocedure

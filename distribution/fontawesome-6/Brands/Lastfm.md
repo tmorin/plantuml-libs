@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Lastfm')
 
 ' renders the element
-Lastfm('Lastfm', 'Lastfm', 'an optional tech label')
+Lastfm('Lastfm', 'Lastfm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Lastfm')
 
 ' renders the element
-Lastfm('Lastfm', 'Lastfm', 'an optional tech label')
+Lastfm('Lastfm', 'Lastfm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

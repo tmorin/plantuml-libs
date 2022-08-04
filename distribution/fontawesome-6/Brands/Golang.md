@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Golang')
 
 ' renders the element
-Golang('Golang', 'Golang', 'an optional tech label')
+Golang('Golang', 'Golang', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Golang')
 
 ' renders the element
-Golang('Golang', 'Golang', 'an optional tech label')
+Golang('Golang', 'Golang', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

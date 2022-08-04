@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CalendarWeek')
 
 ' renders the element
-CalendarWeek('CalendarWeek', 'Calendar Week', 'an optional tech label')
+CalendarWeek('CalendarWeek', 'Calendar Week', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CalendarWeek')
 
 ' renders the element
-CalendarWeek('CalendarWeek', 'Calendar Week', 'an optional tech label')
+CalendarWeek('CalendarWeek', 'Calendar Week', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

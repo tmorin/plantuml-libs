@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Mandalorian')
 
 ' renders the element
-Mandalorian('Mandalorian', 'Mandalorian', 'an optional tech label')
+Mandalorian('Mandalorian', 'Mandalorian', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Mandalorian')
 
 ' renders the element
-Mandalorian('Mandalorian', 'Mandalorian', 'an optional tech label')
+Mandalorian('Mandalorian', 'Mandalorian', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

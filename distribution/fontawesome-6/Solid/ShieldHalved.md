@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ShieldHalved')
 
 ' renders the element
-ShieldHalved('ShieldHalved', 'Shield Halved', 'an optional tech label')
+ShieldHalved('ShieldHalved', 'Shield Halved', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ShieldHalved')
 
 ' renders the element
-ShieldHalved('ShieldHalved', 'Shield Halved', 'an optional tech label')
+ShieldHalved('ShieldHalved', 'Shield Halved', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

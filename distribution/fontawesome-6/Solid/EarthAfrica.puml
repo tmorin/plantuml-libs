@@ -2,18 +2,15 @@
 
 sprite $EarthAfricaXs [10x10/16z] BKg30S1044lTP_QVzkm8LeqllCWBFvi31dyS1M5BxGxUC_scjkncoey7a-4fe
 
-sprite $EarthAfricaSm [12x12/16z] FOg50S0W4CHIzsR_QN5uFIFNuqaj_QvV2wpljK2vdVY_Wj_V5NpK1RWpQ77KKzqQfZdhm1Fg0RRw0JwjQWG
+sprite $EarthAfricaSm [12x12/16z] FOk50S0W4CHIzsR_QN78knoPnvEAVkUlfQtbjRHo2_zN-lTt0Hzr0kxR0arsgblhQPTvz1Fg0JP-W4_hDW8
 
-sprite $EarthAfricaMd [16x16/16z] {
-FSx70KCX30DGVNhN_ji64y4xWJkEEDa_N9D_6UOZgV34nit1H0uL-znQ0n8T-7p0OgH9WBMqpbCUOVXul43Nudl7HxC6WC7jTgby8TrbHM5TFxHNVTJNE1uB
-smy
-}
+sprite $EarthAfricaMd [16x16/16z] JSt50SGm44FH7p23-gzsGS5tiOUnCDGMBaEoX4awq-CCXUtgPpEfrWf12xejC1NyZLYgSdjmzEwy4-qvxDMB6sO7kYz9ThPFecmXd-aXw_VTBdDeYsm2V04
 
 sprite $EarthAfricaLg [20x20/16z] {
-JSu53iGm34JHAJVuxt_RbQDHrq-Kc6Lbqcyb3pOE6J3ZymBb2r6rN7uHfWmkwN6irNUUqWOIcQJ2wnXbVtfPMw6m-8PJ09FGjUmaLKReX24R03VBdK8eto4t
-ZHGx2PTsR9FIuVOu52gMhx_uq-Tb6PV23m
+JT053WKX303HMVUT-v_sIsb8Num0LTBnUgyKY-aPIEex0Rjwz2jFmfWd_rwIBh3atNMkaK312ZZSiJc6xJw65dqO9i9C98ghcyRYf5xUhN_IexeQrd8bjGyo
+w2btOnn61jC0fV6qzIiuhSQoqaIt6vxswGi
 }
 
-!procedure EarthAfrica($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/EarthAfrica', $name, $tech)
+!procedure EarthAfrica($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/EarthAfrica', $name, $tech, $desc)
 !endprocedure

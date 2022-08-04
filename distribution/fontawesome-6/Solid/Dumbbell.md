@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Dumbbell')
 
 ' renders the element
-Dumbbell('Dumbbell', 'Dumbbell', 'an optional tech label')
+Dumbbell('Dumbbell', 'Dumbbell', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Dumbbell')
 
 ' renders the element
-Dumbbell('Dumbbell', 'Dumbbell', 'an optional tech label')
+Dumbbell('Dumbbell', 'Dumbbell', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

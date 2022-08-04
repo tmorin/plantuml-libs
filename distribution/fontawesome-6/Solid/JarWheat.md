@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/JarWheat')
 
 ' renders the element
-JarWheat('JarWheat', 'Jar Wheat', 'an optional tech label')
+JarWheat('JarWheat', 'Jar Wheat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/JarWheat')
 
 ' renders the element
-JarWheat('JarWheat', 'Jar Wheat', 'an optional tech label')
+JarWheat('JarWheat', 'Jar Wheat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FileMedical')
 
 ' renders the element
-FileMedical('FileMedical', 'File Medical', 'an optional tech label')
+FileMedical('FileMedical', 'File Medical', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FileMedical')
 
 ' renders the element
-FileMedical('FileMedical', 'File Medical', 'an optional tech label')
+FileMedical('FileMedical', 'File Medical', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

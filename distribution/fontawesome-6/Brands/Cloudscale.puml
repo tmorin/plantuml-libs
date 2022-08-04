@@ -1,19 +1,16 @@
 ' definition of the Item fontawesome-6/Brands/Cloudscale
 
-sprite $CloudscaleXs [8x10/16z] FOU50S0W0CCoz-N_Qt6ebu551HuNBXT4nLFXHcyoNArDwKCMtIt7N14
+sprite $CloudscaleXs [8x10/16z] FS710K00002X083RVri_vJTLk9eS3L9fBqvrWkP0WYrZhGKL7m
 
-sprite $CloudscaleSm [10x12/16z] JSQ50GD14CD0_J6h_sx3C0is_x8Q7aLTUa0fCoOxNXujtI5t6zG83rPv4JCFHvO5c2ROFXGU-dda3G
+sprite $CloudscaleSm [10x12/16z] JSQt4GD14C0m_ddF_hlLR2P4u5zL2UhH1qhPNt8YFctJ9S05DK6m2mIn4fuSeziCrr09ypNW1m
 
-sprite $CloudscaleMd [14x16/16z] {
-POk54GCm30CLvlp-s_O2vJ-mHVh7jLdC_HC7kqI74Lq6_4wiIelhaS065ham7KDDilGL36BSOqa3S5RAMdGgwpjC12_5KlaLLLaeLwoM1qQVt8bPtsaSZ35Q
-F
-}
+sprite $CloudscaleMd [14x16/16z] PSd50SD00CH0sJuczLzjc3El1VxjVLKUidSRmD1vx57TRyz6xOcee5lmgbJNuQG33j1fIC0GcEg-GUPgs4myBL6U58slgx5fVHI1NPrZgJnNjVBh3
 
 sprite $CloudscaleLg [17x20/16z] {
-TSx5OG0X503HsSKbJF_Lne1RyaxmdN_4d0DSZrjdgtgzzzy0blf0q0Lbz4XIOUaPibRMWgR7bjl9hgeCWDTtzxk8G3VV0nR04mOxC7U0yEm-epvm5KKxN3eP
-6Zcclg0MVZmVsk-gcQlgkfcZSRp-6Fpf2m
+TSh50OHG5CNGVC7XfVzgqN4vkolyaKj9F7aPkNG-SEZL0I1K86j0DusPh9uzoKD4rOeM7CfmMwDN9e1iWg9XK83H5a0rE9I9Wywt8dFIgZnrYeuywCoaXPjP
+4wWTf-NsLftRNZLkYpS3Dzd3n4yR
 }
 
-!procedure Cloudscale($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Cloudscale', $name, $tech)
+!procedure Cloudscale($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Cloudscale', $name, $tech, $desc)
 !endprocedure

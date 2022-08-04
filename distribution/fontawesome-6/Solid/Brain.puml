@@ -2,15 +2,15 @@
 
 sprite $BrainXs [10x10/16z] TSP10a1030F00IxG_xyMSeDjssGmJrOmLAc2YYg8zkWL6Ote6AFE2G
 
-sprite $BrainSm [12x12/16z] PSQ50OC040F0gnVD_jFYpajoqF8jWJgHVA39vBoHnHLPdUhWxy7BkETdCu-3AIO_w04
+sprite $BrainSm [12x12/16z] PSQ50OC040F0gnVD_jFYpajoqF8jWJgHlA39v3oHnHLPdUhWxy7BkETdCuvMJ7xG0m
 
-sprite $BrainMd [16x16/16z] NSe52WD10C30gNlp_zVMvVQmC11mFACLmA5IBO1Z7t-EVWvs4o_PDd5S1Yyi1zFWhZEVHizxPh3HLwm-_X2REghW3W
+sprite $BrainMd [16x16/16z] NS-50S0W40J1Ytks_sfnTmP_-NI_hc5HIXSW8F4ccIcOOZpNvBHXfp7IDtWUJ6V-mS_WeN-bpkhzEq_5ZY4jSEVuB
 
 sprite $BrainLg [20x20/16z] {
-PSk53S105CDGbxdUVzeote_uoU5ORGMC4_jkqffPVQXG7L2T7dhiARkVPJjbuy-QtVHdpb2d9fH6AunVKtCQewdHIgCn12iWjPne6P3_RU9OEQZzOLLso9Nc
-j7Uq0W
+ZT253SKm0CHGbxdUVzgFPKfE_6JHyLjf0VG3wmerPrGNobGxLESoSR6bR2witra1e3jpXEneGXfZ8tWqX_vWyuwMNnZToH8uMihP4Y3PsVnMtgdjpug4pOC9
+zHoz0G
 }
 
-!procedure Brain($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Brain', $name, $tech)
+!procedure Brain($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Brain', $name, $tech, $desc)
 !endprocedure

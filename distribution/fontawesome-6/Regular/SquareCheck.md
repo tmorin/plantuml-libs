@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/SquareCheck')
 
 ' renders the element
-SquareCheck('SquareCheck', 'Square Check', 'an optional tech label')
+SquareCheck('SquareCheck', 'Square Check', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/SquareCheck')
 
 ' renders the element
-SquareCheck('SquareCheck', 'Square Check', 'an optional tech label')
+SquareCheck('SquareCheck', 'Square Check', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

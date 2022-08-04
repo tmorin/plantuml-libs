@@ -2,12 +2,12 @@
 
 sprite $WindowsXs [8x10/16z] Oq06NFmu0Km9kZWVYZmRFm
 
-sprite $WindowsSm [10x12/16z] Oq03Z2pS_2nS_Fni_120ZuNGHK0T4niFgWv6TW
+sprite $WindowsSm [10x12/16z] Oq07BDpyZ5py_6py482FXT14I1qR3veETW
 
-sprite $WindowsMd [14x16/16z] Oy0569avGHGJ2mC_Cg2KXse9kQQmSl1YciaC54ItWH4
+sprite $WindowsMd [14x16/16z] Oy09c3d150i3FpAWb8Tg1xccC77mOZ4JA8XX0m
 
-sprite $WindowsLg [17x20/16z] Oo0065aGJ7OUVX1WO6Hbv-BbP-171RGMm70QJMpXmsOj4oi70oysTp2nys9n6
+sprite $WindowsLg [17x20/16z] Oo04cE0iHdOUVX00Yh5nyV8pyAC2MWjWk8mcjl1XivQHYOE15vixcDXviJWC
 
-!procedure Windows($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Windows', $name, $tech)
+!procedure Windows($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Windows', $name, $tech, $desc)
 !endprocedure

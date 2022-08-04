@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Retweet')
 
 ' renders the element
-Retweet('Retweet', 'Retweet', 'an optional tech label')
+Retweet('Retweet', 'Retweet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Retweet')
 
 ' renders the element
-Retweet('Retweet', 'Retweet', 'an optional tech label')
+Retweet('Retweet', 'Retweet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

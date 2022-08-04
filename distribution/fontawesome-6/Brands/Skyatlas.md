@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Skyatlas')
 
 ' renders the element
-Skyatlas('Skyatlas', 'Skyatlas', 'an optional tech label')
+Skyatlas('Skyatlas', 'Skyatlas', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Skyatlas')
 
 ' renders the element
-Skyatlas('Skyatlas', 'Skyatlas', 'an optional tech label')
+Skyatlas('Skyatlas', 'Skyatlas', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

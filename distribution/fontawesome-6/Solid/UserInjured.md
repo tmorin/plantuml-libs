@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UserInjured')
 
 ' renders the element
-UserInjured('UserInjured', 'User Injured', 'an optional tech label')
+UserInjured('UserInjured', 'User Injured', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UserInjured')
 
 ' renders the element
-UserInjured('UserInjured', 'User Injured', 'an optional tech label')
+UserInjured('UserInjured', 'User Injured', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

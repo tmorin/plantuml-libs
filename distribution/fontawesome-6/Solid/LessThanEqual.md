@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/LessThanEqual')
 
 ' renders the element
-LessThanEqual('LessThanEqual', 'Less Than Equal', 'an optional tech label')
+LessThanEqual('LessThanEqual', 'Less Than Equal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/LessThanEqual')
 
 ' renders the element
-LessThanEqual('LessThanEqual', 'Less Than Equal', 'an optional tech label')
+LessThanEqual('LessThanEqual', 'Less Than Equal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

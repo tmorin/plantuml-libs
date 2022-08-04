@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/Bookmark')
 
 ' renders the element
-Bookmark('Bookmark', 'Bookmark', 'an optional tech label')
+Bookmark('Bookmark', 'Bookmark', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/Bookmark')
 
 ' renders the element
-Bookmark('Bookmark', 'Bookmark', 'an optional tech label')
+Bookmark('Bookmark', 'Bookmark', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

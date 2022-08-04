@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowsSplitUpAndLeft')
 
 ' renders the element
-ArrowsSplitUpAndLeft('ArrowsSplitUpAndLeft', 'Arrows Split Up And Left', 'an optional tech label')
+ArrowsSplitUpAndLeft('ArrowsSplitUpAndLeft', 'Arrows Split Up And Left', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowsSplitUpAndLeft')
 
 ' renders the element
-ArrowsSplitUpAndLeft('ArrowsSplitUpAndLeft', 'Arrows Split Up And Left', 'an optional tech label')
+ArrowsSplitUpAndLeft('ArrowsSplitUpAndLeft', 'Arrows Split Up And Left', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

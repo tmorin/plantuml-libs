@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/TemperatureQuarter
 
-sprite $TemperatureQuarterXs [6x10/16z] FOI50S0m08EO-_Z_sdgR0830h88NxhaUeq_kx2tkad_EygXJ1
+sprite $TemperatureQuarterXs [6x10/16z] FOQ50G0X08JuxcV_QMsz131rLi6zvnZxv9syJIpPvoIFIWG
 
-sprite $TemperatureQuarterSm [7x12/16z] POZ50S1G2CLIzsR_QP7pX-V0Ur5d7Ho2SBVDWyrjkkAF7QHjQQ57h2C1
+sprite $TemperatureQuarterSm [7x12/16z] ROZ50S1G2CLIzsR_QP7xX-V0Ur5d7Ho2SBTDOzCLV-mWRKiBFM8T2G
 
-sprite $TemperatureQuarterMd [9x16/16z] ZSt50G0X34JHMSFXzryjpdsZBwUeHuuQOUWn02OCNGHfuCR_WPdm-DHnZoERcopArpthERXkMO9Uo0NEzqiD
+sprite $TemperatureQuarterMd [9x16/16z] ZSsr0G0n30J1CxEt_sgV8RLm54b7ZAOp0aUSW50lKQGJXhW2Vw4Gwm5p7YCOXfZky5NcXQH8bOKnuV--0m
 
-sprite $TemperatureQuarterLg [12x20/16z] dOb54aCn3CNq8Gow_sqxdkAwIcm_81XMdbI3C-Jfaz3R3VUpq0Pe_j7bJpsU-WWjkc3eYNJZs0uTST4hgomdcgxGsbdAMJarSUk-pw82moS7G0wrJdW
+sprite $TemperatureQuarterLg [12x20/16z] dOm34aDH5CNoZOViVxUTKsFON9DGtBcn6OQaepUITtiQPg3hZz_-pCjRBjgWw82S9dYWvHvPLPeLNORaUjAKSMVGYL7xE6mgUNI3i2Hhm0K
 
-!procedure TemperatureQuarter($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TemperatureQuarter', $name, $tech)
+!procedure TemperatureQuarter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TemperatureQuarter', $name, $tech, $desc)
 !endprocedure

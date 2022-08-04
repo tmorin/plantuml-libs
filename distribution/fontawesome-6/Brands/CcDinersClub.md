@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/CcDinersClub')
 
 ' renders the element
-CcDinersClub('CcDinersClub', 'Cc Diners Club', 'an optional tech label')
+CcDinersClub('CcDinersClub', 'Cc Diners Club', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/CcDinersClub')
 
 ' renders the element
-CcDinersClub('CcDinersClub', 'Cc Diners Club', 'an optional tech label')
+CcDinersClub('CcDinersClub', 'Cc Diners Club', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

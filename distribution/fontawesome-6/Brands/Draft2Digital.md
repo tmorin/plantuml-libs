@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Draft2Digital')
 
 ' renders the element
-Draft2Digital('Draft2Digital', 'Draft2 Digital', 'an optional tech label')
+Draft2Digital('Draft2Digital', 'Draft2 Digital', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Draft2Digital')
 
 ' renders the element
-Draft2Digital('Draft2Digital', 'Draft2 Digital', 'an optional tech label')
+Draft2Digital('Draft2Digital', 'Draft2 Digital', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Fedex')
 
 ' renders the element
-Fedex('Fedex', 'Fedex', 'an optional tech label')
+Fedex('Fedex', 'Fedex', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Fedex')
 
 ' renders the element
-Fedex('Fedex', 'Fedex', 'an optional tech label')
+Fedex('Fedex', 'Fedex', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

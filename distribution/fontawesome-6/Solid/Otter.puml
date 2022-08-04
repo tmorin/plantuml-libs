@@ -1,19 +1,19 @@
 ' definition of the Item fontawesome-6/Solid/Otter
 
-sprite $OtterXs [12x10/16z] JSR50K81042XPxViFwtncnDjdJ7rhNAer6ldekecJo_EEKY5u_1hxSHP9zGUogng1nxr1G
+sprite $OtterXs [12x10/16z] JSY54G8034MnuCxRVrlkdv9w_RjMc6_eWFZe5ZpIkqzTTKYepcs_iz4rbsfNHJFiDoz-
 
-sprite $OtterSm [15x12/16z] NOx50GCm30CLvcZ_RMiet-lCnZyKmYi8d41c5EqCOWEOt12IP8b1y5e_nUX8a3JSlcva3ocXIoRLB7FeGc6jPL64nqxoLyOLZWOF
+sprite $OtterSm [15x12/16z] NSY50GCm30D1XJdQVziQoXyyupzANnf0P91VbJih9pVWKs8Gl5HJViy4KRbjp96T52Rz6ENOvD0_bDPQfW2t5s6DAnt50m
 
 sprite $OtterMd [20x16/16z] {
-RSm53W8m58FXVnQOzlwtPLbn-A9FMlwhQys2MP1nj0XS95zcO4jQa5Kgq9R0Iu5ox0fngNROf854MaHj4Jf3OifEePIyo-2_-jXLNO7pZhmZI7EC3Yaq6UW8
-_dM5grRVP6n57pZ2qbFbATp1TWC
+RSt50GDH203HMNUc_shNFl6y4mx_JH5RnmSBRZF0a9aRbzg0rdQw-Y5P5AnPf0g7XOkkA4rGvSc5LTbCrq6jIwqkPtGYQvCjS8zZrj1jNHUegz42lENiPQAy
+ZELa0T3uWI9yclZl
 }
 
 sprite $OtterLg [25x20/16z] {
-VSw55GCX44NHZrlWzTzj3XANkxwZ-YV468C-UBRy-R_463ESea9taWOuBT2rGLq58St2E8ZQt8g0jOrXN4VEQbbjmCWJ92OZoIX1LuR6l1P93HU16ON1FJzm
-0X4qDQQYSGi4q0BGLRa5p7t_2ju3n1cLE3HTE9hadWETmzopUfiuiYO-D6sLLqbt3Uwo_he2
+VT07RaKX34JHWNcTmDt_RYFibD-FX1hk-gJQhdgoa0xTCvos3x32II-I1XG5w4fmHI5li-0ss9Hg_42fZL7SaOl2W2gGZ2KcXHsw3cZaouz6sG0PO11AJbz_
+FpGrfbFZzwE20a3NnU_7__mNL0Di5_cHD7r1Qf9lFpga_wZU9kukofEcT75lrv_6lqCVVGC
 }
 
-!procedure Otter($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Otter', $name, $tech)
+!procedure Otter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Otter', $name, $tech, $desc)
 !endprocedure

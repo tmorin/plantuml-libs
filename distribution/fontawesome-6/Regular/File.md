@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/File')
 
 ' renders the element
-File('File', 'File', 'an optional tech label')
+File('File', 'File', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/File')
 
 ' renders the element
-File('File', 'File', 'an optional tech label')
+File('File', 'File', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

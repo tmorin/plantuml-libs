@@ -1,13 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/TrashArrowUp
 
-sprite $TrashArrowUpXs [8x10/16z] HOX50G0m30FlCuRuLpk6DWn8Wg9ztBlz4pWvgfmj7VTKpRCT
+sprite $TrashArrowUpXs [8x10/16z] Os1WuEVdPs3WvOS01XY0yM4OB0LbS_7pGiMueJG70nzOEJC
 
-sprite $TrashArrowUpSm [10x12/16z] DSV50OG00C2mdYja_sbnycgh2wgNq-L_wdVuvl0BstvYg7WsIh-BUp-4Mv-ZBZsnNJUxPW
+sprite $TrashArrowUpSm [10x12/16z] DSV50OG00C2mdYja_sbnycgh2wgNK_zJlyCtXr_OzXD3nRDH-brS-o5S-XnLDspNnQuP
 
-sprite $TrashArrowUpMd [14x16/16z] PSk30K0X543H-usq_xJPdVX4O3n9eBKsaVz8PNeSdPrVD1l2D1jVV8yqnfsUBJqX2ocCDtmexjho4UubOerq7sLwY1uS
+sprite $TrashArrowUpMd [14x16/16z] ZSh50S0W44JH7_UX_sfnlUKXgmJ6UmaacSWdxsTwp9s9-sdWwHUvKipLdW8fBAc05ECw7qjTkUB_fr9VPHgg0mS
 
-sprite $TrashArrowUpLg [17x20/16z] NOm50WGX30EpZlV_lxtQMGPB1oWSCNhaMv6WQ3od43SBWBdx7y33Fwu8woEEgB6bm2xAW8OKY2DD2g1Yt-ttIj55gxt5Nt6oUMDHMDmiZXGVTXM3nI5V5l02
+sprite $TrashArrowUpLg [17x20/16z] {
+PO-50GGX40DpkDD_jMZUzkU4xE0uz4s-MI_w9QoeQXSuAV27pZy0HixW5kqjrAq12ZoxALY10hUXeG3YglViHf6Nwq-wS_k1RP8YIE7UWhjgYZTO52aKCsym
+0G
+}
 
-!procedure TrashArrowUp($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TrashArrowUp', $name, $tech)
+!procedure TrashArrowUp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TrashArrowUp', $name, $tech, $desc)
 !endprocedure

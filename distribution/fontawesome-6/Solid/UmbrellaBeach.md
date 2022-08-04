@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UmbrellaBeach')
 
 ' renders the element
-UmbrellaBeach('UmbrellaBeach', 'Umbrella Beach', 'an optional tech label')
+UmbrellaBeach('UmbrellaBeach', 'Umbrella Beach', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UmbrellaBeach')
 
 ' renders the element
-UmbrellaBeach('UmbrellaBeach', 'Umbrella Beach', 'an optional tech label')
+UmbrellaBeach('UmbrellaBeach', 'Umbrella Beach', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

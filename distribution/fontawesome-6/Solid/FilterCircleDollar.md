@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FilterCircleDollar')
 
 ' renders the element
-FilterCircleDollar('FilterCircleDollar', 'Filter Circle Dollar', 'an optional tech label')
+FilterCircleDollar('FilterCircleDollar', 'Filter Circle Dollar', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FilterCircleDollar')
 
 ' renders the element
-FilterCircleDollar('FilterCircleDollar', 'Filter Circle Dollar', 'an optional tech label')
+FilterCircleDollar('FilterCircleDollar', 'Filter Circle Dollar', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

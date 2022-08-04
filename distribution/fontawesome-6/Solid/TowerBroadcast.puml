@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/TowerBroadcast
 
-sprite $TowerBroadcastXs [11x10/16z] bSQ50S0m4CD0bRdQVzfm1iY3VNoq-IUPCpRydM-K7p_d9xCkU4969oEC
+sprite $TowerBroadcastXs [11x10/16z] bSO50O1004FHXplhdnOdm4s_3M2leePEzfWbTjbYaNXDHeGVbU09
 
-sprite $TowerBroadcastSm [13x12/16z] fSSt0SH00C0mVKalviyssn689yjjT6ZyloFvb5ygsUeZROcoNH9qOOe1NkC1
+sprite $TowerBroadcastSm [13x12/16z] fSSt0SH00C0mVKalviyssn689yjjT6ZyfoDHlgbaAzAMACibGHUc6E0r7W
 
-sprite $TowerBroadcastMd [17x16/16z] nSX7OSG034JHl-xzyMURguqWqlJEiTSTOxm75akcEjVQxxWD-OMzLGT-AMZMvZHcw6RiqccmjrNKD4HKVUoR_cdu0m
+sprite $TowerBroadcastMd [17x16/16z] nOg50OH04CG2d5lwh_PTAs1rZ7xmK-r0-IbDHjoXPwWJdMxSHoj9cWg2AeSK-pCnzM18TxTI08LzGr60l_UFJXAk
 
 sprite $TowerBroadcastLg [22x20/16z] {
-rSZL0K9H5C2mFhr-kl-qkCC2v3DiWmzBW6uVgtNIcNdcReEYLS60JGCc1wk6Cbj1jKF8f1eifkl6VOSoswwxWy6iIS4EQ8N9nAReoeLcBeP1_DW4yB70_swu
-SNS4
+rSY5SSK05C0mVOOap_jFM-PsWVh89wVDZmv37NvetNV5Vlz19svrBnfEDMYpgocwKxKolUuuTFAwxxeLBQzweg4kHIlgZiuEfNP0NLzdQymVUeOVYl-hq_7Z
+7m4
 }
 
-!procedure TowerBroadcast($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TowerBroadcast', $name, $tech)
+!procedure TowerBroadcast($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TowerBroadcast', $name, $tech, $desc)
 !endprocedure

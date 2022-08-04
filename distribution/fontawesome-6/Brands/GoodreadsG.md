@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/GoodreadsG')
 
 ' renders the element
-GoodreadsG('GoodreadsG', 'Goodreads G', 'an optional tech label')
+GoodreadsG('GoodreadsG', 'Goodreads G', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/GoodreadsG')
 
 ' renders the element
-GoodreadsG('GoodreadsG', 'Goodreads G', 'an optional tech label')
+GoodreadsG('GoodreadsG', 'Goodreads G', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

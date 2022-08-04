@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SimCard')
 
 ' renders the element
-SimCard('SimCard', 'Sim Card', 'an optional tech label')
+SimCard('SimCard', 'Sim Card', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SimCard')
 
 ' renders the element
-SimCard('SimCard', 'Sim Card', 'an optional tech label')
+SimCard('SimCard', 'Sim Card', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

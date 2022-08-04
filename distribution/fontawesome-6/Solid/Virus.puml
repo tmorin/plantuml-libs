@@ -2,18 +2,15 @@
 
 sprite $VirusXs [10x10/16z] Om01FWOOu8TI401diO5PO1u37uY0IeD997LS81OhYC6FP1u
 
-sprite $VirusSm [12x12/16z] FSh50S0m5CDGbRdQVzfmyYuVR8gVOPRAUzP_Kk2sMah1qwIjOAxz9bX0ltPWiYAnkG0NVdUkdsAIB08
+sprite $VirusSm [12x12/16z] JOg50S0W40E_hkJsdnQtQu6OPMITbIfu3MGa_r9OSy6TTDvo9uyMvGXAqzoHzuL9yYIzckBWaMKMyXC
 
-sprite $VirusMd [16x16/16z] {
-HOu55WKX4CEwRa3kVzelfO_DiuoFGbD8o3JyaWItD5qEuG8eDxs9mQCqXCan86q0XpSx5dzQTSWcWgOxSZZ_epW-6YpwSqEO_-74Ip__p0Ump7bWyjMjMwX4
-lW
-}
+sprite $VirusMd [16x16/16z] HSm53i1024JHgNVrt_-sNGYaBuAZC1MYP5Cgag18M_4I2akl80EfoHIId2SNossVOu2Pmqik4RILI1xWrD8npuHDffAytlXPNMYwWMq3fUclVeD8FW
 
 sprite $VirusLg [20x20/16z] {
-PSy50e0W44JHRs7ltF-q9iqpgGs2qMX82pLf8p6Di4hgOVUxLTXvZSf1iz6bEHi6qslbzOKVulRE1_Dpdfd_WYAMJTxwdR7L0RsV6wbhyQPcBZQzApU4RTFw
-Dx591wzb1ph9WE4OIDwsQXRRvmO
+TOy55i0W34E3wslkVzfvvsG2V5A3oWi-8ZE-hEAIq065f07QuUP3RMFkmO2FCLvCZ96DbHLeUhKRmElkIY5ohFUio5MtoMwtnGCm1xCOz1A-J8TklCkgBPHz
+Y4hsZUMs5n80jbjSqh7k4dhTpW
 }
 
-!procedure Virus($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Virus', $name, $tech)
+!procedure Virus($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Virus', $name, $tech, $desc)
 !endprocedure

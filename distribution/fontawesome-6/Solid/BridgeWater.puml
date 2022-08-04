@@ -2,12 +2,12 @@
 
 sprite $BridgeWaterXs [11x10/16z] RSQ50OC000F1r0Mv_QV57QAVIraLgA1EIFBjQSGezXZpKFxvu2qy_qGB
 
-sprite $BridgeWaterSm [13x12/16z] TOY30G0n34LVxMR_QSz6yitlTRdShS0aTT4EX7c1LRtqd-AkfM081gqIGIutTTCIgbH57G4
+sprite $BridgeWaterSm [13x12/16z] TOo30S1054DVxTx-qvwDRoHXQB_8h5X0bzVM7zZC1LnTzQc_BFdoC75CkbmSXVJ5ybtw_yAh
 
-sprite $BridgeWaterMd [17x16/16z] ZOY30KGn50GdThR_Ri_yd8S5XvZ-IzC_Kt_Wxp9yk6jpm5Kht7NoD7VrKlafxFaYl8jkkU8hLos1AmtCb3I6hlJvVFTqVweI1Z3Nz_pc0W
+sprite $BridgeWaterMd [17x16/16z] ZOY50GCn4CCKvdZ_QSlS9nqOsAT_q_JBr0-OcmpZRzeCSD4ADvqyp4szbByAZXVkLNHpovMB5iU51an9O-X2duztIxUdAl7B6G
 
-sprite $BridgeWaterLg [22x20/16z] jSy30WGW54NHcztR_sh7DazsdwyLlMxg5kg-Dmwz6O6scGFmMdDihBjivFLEjiwxxSzTsg5x-1UbW8NO33Xiyq3IIe_Rm5BUD7RebYXPvhhdsUml58cRbW
+sprite $BridgeWaterLg [22x20/16z] jP255SCm34H_OkRzj-sJLMRA6SJ8pqZZVVIxMlA1QqUkUw1C7S0wbIiJmYeNnHF59LisPYb7zjWNAS82jYn2bsA18DrMhuE5g7EqSGzUCdNXhAuaoNAvYnq
 
-!procedure BridgeWater($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BridgeWater', $name, $tech)
+!procedure BridgeWater($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BridgeWater', $name, $tech, $desc)
 !endprocedure

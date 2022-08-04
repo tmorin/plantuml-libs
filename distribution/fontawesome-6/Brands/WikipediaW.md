@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/WikipediaW')
 
 ' renders the element
-WikipediaW('WikipediaW', 'Wikipedia W', 'an optional tech label')
+WikipediaW('WikipediaW', 'Wikipedia W', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/WikipediaW')
 
 ' renders the element
-WikipediaW('WikipediaW', 'Wikipedia W', 'an optional tech label')
+WikipediaW('WikipediaW', 'Wikipedia W', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

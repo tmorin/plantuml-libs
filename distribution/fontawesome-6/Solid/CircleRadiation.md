@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CircleRadiation')
 
 ' renders the element
-CircleRadiation('CircleRadiation', 'Circle Radiation', 'an optional tech label')
+CircleRadiation('CircleRadiation', 'Circle Radiation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CircleRadiation')
 
 ' renders the element
-CircleRadiation('CircleRadiation', 'Circle Radiation', 'an optional tech label')
+CircleRadiation('CircleRadiation', 'Circle Radiation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

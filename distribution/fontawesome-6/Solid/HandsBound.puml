@@ -1,19 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/HandsBound
 
-sprite $HandsBoundXs [12x10/16z] LSR50O100C2muaxtdnOzpIiSH1F6TjRlTW7RJHGtj55s7_Xe8Nu3LdyjjTrVnmq
+sprite $HandsBoundXs [12x10/16z] LSR50O100C2muaxtdnOzpIiSH1F6DjPlTW6RJHGt_BBh5sqXVWDMVmsrtL_B3G
 
-sprite $HandsBoundSm [15x12/16z] POo55O10582mM_RVrcTTyZkP6dxkt3sMdbMvVVjp-vHo2enE_LEAmXCEMc_el06cM3u_JhKRr8aR0zpCFnF_ydcx7Iu
+sprite $HandsBoundSm [15x12/16z] PSg55O0m4C3Gu4xstvQ7LN_bb8dWpjq9FAjoOsm0PfvIJe7HiNjAKNZ2GUlj3p0QIcwdslJgnCs0s_3hm_9vVpjS
 
-sprite $HandsBoundMd [20x16/16z] {
-bSm50WCX30NHMNVc_gUj97NlnnyGsBXBjS5cSsUhzLzMBqIgvMo5rHAc5OOveMlGXaURZ_EWC2chMe6PEixc3-ujAzTtHgR4bwGbgVOsl4ttwbsrgMsrnWpi
-0G
-}
+sprite $HandsBoundMd [20x16/16z] TSnL0iH02C3GrBsv_sbNOAMQlta3mCA-1HRB7StUMN5j4zdqjPNPDKZ1C0Tq3bfGOLJBJg5NvZ3CYdYR6-mjBnSx8rjZ9MbAAjp6RUNbtAAMp6e5y0G
 
 sprite $HandsBoundLg [25x20/16z] {
-fOw55OH04CK-iYxJVxVtniwTu0ahm8XuW5qaUl21NNeIuf5GayiQBo5WvvimsP45MlbrPz-9Akev45PvH-379aOVVTKX_ie1ZOp4mG3J7uBlv24a67UXkezq
-XuVm43uHvYt3GtazLVHTNVG9
+fOw54GD130FrS0pglzkCFGfpie-tHc14t65k8-zy81y7uZ-16Y5gE0S2TdivqnmLu6A_k_bELjHJW5Zy7u6aZ2jsUw-0VZs0Hf4i863q-y0EvowG86u25IBo
+1eXm5tX7cDSCYFAyLJnjTT87
 }
 
-!procedure HandsBound($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HandsBound', $name, $tech)
+!procedure HandsBound($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HandsBound', $name, $tech, $desc)
 !endprocedure

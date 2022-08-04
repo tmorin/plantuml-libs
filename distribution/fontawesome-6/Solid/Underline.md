@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Underline')
 
 ' renders the element
-Underline('Underline', 'Underline', 'an optional tech label')
+Underline('Underline', 'Underline', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Underline')
 
 ' renders the element
-Underline('Underline', 'Underline', 'an optional tech label')
+Underline('Underline', 'Underline', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

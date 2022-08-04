@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PlaneUp')
 
 ' renders the element
-PlaneUp('PlaneUp', 'Plane Up', 'an optional tech label')
+PlaneUp('PlaneUp', 'Plane Up', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PlaneUp')
 
 ' renders the element
-PlaneUp('PlaneUp', 'Plane Up', 'an optional tech label')
+PlaneUp('PlaneUp', 'Plane Up', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

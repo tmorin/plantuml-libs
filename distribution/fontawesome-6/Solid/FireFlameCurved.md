@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FireFlameCurved')
 
 ' renders the element
-FireFlameCurved('FireFlameCurved', 'Fire Flame Curved', 'an optional tech label')
+FireFlameCurved('FireFlameCurved', 'Fire Flame Curved', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FireFlameCurved')
 
 ' renders the element
-FireFlameCurved('FireFlameCurved', 'Fire Flame Curved', 'an optional tech label')
+FireFlameCurved('FireFlameCurved', 'Fire Flame Curved', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

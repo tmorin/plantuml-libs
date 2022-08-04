@@ -2,15 +2,15 @@
 
 sprite $RavelryXs [10x10/16z] Oq06_200Pa00Y05ZGcJWB7uC5ZStJ0kACJmC3
 
-sprite $RavelrySm [12x12/16z] Oq03_23036Any4C0DmC38uY6oe19PcOG1MQ3z23O_7ZOl50ZeReuO4mmu0Eok80q
+sprite $RavelrySm [12x12/16z] Oq03_230168nyKC0DmC38pyCC3A0IKQm29WDqeDWy-DXyqADXEhYW371W0_8uWBI
 
-sprite $RavelryMd [16x16/16z] XOs50G0X54AnM_UVrhuEd_aBy0PF3Rs5QODjuGRRmWt0zDVxr3y28zpdzfY9QzoUTUpWsXCu7_7DtmAWH-ZHYJDKc12xHmK
+sprite $RavelryMd [16x16/16z] ZOs50G0X54AnM_QVzhhJP_u2FA4vujUGAs8DLyGQhW1XUdFcz36OmsrkYvKvnsHBd936fmWnnnV_241m8sEYBg73IjoY7W
 
 sprite $RavelryLg [20x20/16z] {
-TT254OKm44NHnI4hh_zgln2tEyOSuZJlCW3sB5aEn2IIGv4VogZwqrs2dxwWpI_cPvnXoad5Ai6ui5CK_xGm-8Oc0xk8Erjeyn_CN5n4KKV_QjheJMhohUtp
-URqSkvDyNm
+TS-54OKm54JHnI7F-g_s2t6xOpi73UOTQcRwb68nZkIio1ELvF4k8JnkRO2B0qTuP4VvQczKsC7oJYdCZx7nm2vGPy3Y1n5bWtI_t1ramHlt1AnH64NBviXj
+y7q1
 }
 
-!procedure Ravelry($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Ravelry', $name, $tech)
+!procedure Ravelry($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Ravelry', $name, $tech, $desc)
 !endprocedure

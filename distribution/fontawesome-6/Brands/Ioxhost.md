@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Ioxhost')
 
 ' renders the element
-Ioxhost('Ioxhost', 'Ioxhost', 'an optional tech label')
+Ioxhost('Ioxhost', 'Ioxhost', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Ioxhost')
 
 ' renders the element
-Ioxhost('Ioxhost', 'Ioxhost', 'an optional tech label')
+Ioxhost('Ioxhost', 'Ioxhost', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

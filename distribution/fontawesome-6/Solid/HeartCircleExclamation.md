@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HeartCircleExclamation')
 
 ' renders the element
-HeartCircleExclamation('HeartCircleExclamation', 'Heart Circle Exclamation', 'an optional tech label')
+HeartCircleExclamation('HeartCircleExclamation', 'Heart Circle Exclamation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HeartCircleExclamation')
 
 ' renders the element
-HeartCircleExclamation('HeartCircleExclamation', 'Heart Circle Exclamation', 'an optional tech label')
+HeartCircleExclamation('HeartCircleExclamation', 'Heart Circle Exclamation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

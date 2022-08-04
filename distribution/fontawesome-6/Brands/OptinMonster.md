@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/OptinMonster')
 
 ' renders the element
-OptinMonster('OptinMonster', 'Optin Monster', 'an optional tech label')
+OptinMonster('OptinMonster', 'Optin Monster', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/OptinMonster')
 
 ' renders the element
-OptinMonster('OptinMonster', 'Optin Monster', 'an optional tech label')
+OptinMonster('OptinMonster', 'Optin Monster', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

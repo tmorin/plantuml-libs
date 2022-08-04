@@ -2,12 +2,12 @@
 
 sprite $DownloadXs [10x10/16z] Om01FWOOuCVDukS0ilYP8Kn-VgWeXC4Cee0G2jZu-Rdu4G
 
-sprite $DownloadSm [12x12/16z] bOT50i104CBeSAdd_w-jh5yt8mGbRZKM9Zo8pxTSmMpiAeMijlLfVCcFSdR4o0i
+sprite $DownloadSm [12x12/16z] bSUr0S0m0CJ0_p1h_sd3fjAgJdex53Crvl74Prfc5lt3HzjwQ9idkQ58nLq
 
-sprite $DownloadMd [16x16/16z] hSUt0GCn300nKcvUyVQVLZdsHWUPaZmI-hTh63TXt4ExWf4EI1XmCj6C3gSQAYUjeV9qNdx28r2fvM4JYLS1
+sprite $DownloadMd [16x16/16z] hSV10KGH303HsCi7ClrN2m3tVP2CJ2eFnVolu-muCa1lwki0vGTU9ggHqvMnybApRu4kY14UaSfO7bPHNWK
 
-sprite $DownloadLg [20x20/16z] jSwr0O1G4C3GEzop_xRmNLjIlYeIcXvfWgqrzbzDesc-uGp6O0QDFJ1BXfy1XuGKKqucMXBDQGJJ88OEOWx7IB5pmNGCD0r2juEs5m
+sprite $DownloadLg [20x20/16z] lSYr0O1G54Mn-t0_-q-ByxqcPVHfDcLWo8_nxuFXFQZTqTstGIkN3302annkhbowSiAgkPckcd2UD5VEt04m6HaJHHEv0m
 
-!procedure Download($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Download', $name, $tech)
+!procedure Download($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Download', $name, $tech, $desc)
 !endprocedure

@@ -2,15 +2,15 @@
 
 sprite $CommentMedicalXs [10x10/16z] 9SR50GC1402XYNlelzgpvKLZWEfc57x1cweptzc9y0_w6UUC-gYn0W
 
-sprite $CommentMedicalSm [12x12/16z] NOo50S0W30I_xltzfutWS755p_IJV4BgcNC17iur526VW-TB4iwGfvtm8FXZ2H_WeVxytfZXEL5G
+sprite $CommentMedicalSm [12x12/16z] NOo50O1054AVtRB_jCRrxmHmTaiwyXHiWx-jVLZ2JAWwmmYuENoJGAXB5nJerMfUPvZWM2ds0W
 
-sprite $CommentMedicalMd [16x16/16z] NSw50GD130F1DJo3-gyse73c66tiJqo7zkQfz7G6mAgFXbcUzE8na478HjtCCp3xuU5JyzNzRnr_x_bTxwznbm7wE7_JQtoy0vc1HV3Z2W
+sprite $CommentMedicalMd [16x16/16z] VOw30K0X500lk_QVzjlemZFun9MMDHkYRTJ5ZEr4WbyL6HO9RPMxOkVFUy0lXMMBicNaXoqUzOz-UPVvaRTGx-kfjMccmmW
 
 sprite $CommentMedicalLg [20x20/16z] {
-ZSt50GCn44FHlsIsrN-r8ONvtGR5PzCMOrYu4tKnOQlkD8usFG8MsRe66SWw84lJGy-AZi1c7Os7tkJiDpt7jbg0MdM2R02oIf01iWcw7it0q8FLKNSguDCu
-nTfxonidLKhyOGy
+ZOw54GDG34BphHPX_sbhaRgyCou2q1Vw6AFT3xP8SZnmXrn72u-SHpraxxE68PHAxjxCSF1p9upiOTOy-yri-8OFvmbp1CEnMmPNPP-5KZpIppDx70sgZ_AY
+U5sqM5NsdQumiAC_E04
 }
 
-!procedure CommentMedical($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CommentMedical', $name, $tech)
+!procedure CommentMedical($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CommentMedical', $name, $tech, $desc)
 !endprocedure

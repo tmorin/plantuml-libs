@@ -2,12 +2,12 @@
 
 sprite $CloudsmithXs [6x10/16z] Ou01Bdv-8CaF8fc198J5ny_F31Q5AeAh0LC
 
-sprite $CloudsmithSm [7x12/16z] Om019Z39py-FeDX050SVFpyx0nD4X0ykpyq00OpyR50Dg1G
+sprite $CloudsmithSm [7x12/16z] Om019Z39py-Fe5X153iVFpyx0nD4X0ykpmsYm4msg0PK2W
 
-sprite $CloudsmithMd [10x16/16z] RKs54G0n32BlMlRVjXSzYpl0HH12ylD2fQ-sI_E8NbzjyEZ9q6hLIkeDnnX5u3Ud5LV3SLQ5dzmc
+sprite $CloudsmithMd [10x16/16z] RKq50W0X21lNwVx_MhjRWHN24iH5yai5EQ-Mq_sgGYvNFAvIhbfT9Lc6NQaS43WdigpBE7E5dzmC
 
-sprite $CloudsmithLg [12x20/16z] TSw50G0X20LGk_NlF-s50PVcCq6ieaWLW1vCECimlgqwsqczjcsVgvPybNyBtQrRTzjrPHr4COjsvnSkwhK1FWq_kTNbTT2cJKCMEm
+sprite $CloudsmithLg [12x20/16z] TSw50S0W30H0tE7tdxRogGjwQABsOWvr05POi1Onlct8iTBksuvpDu-hybkY1srflr_P3_AUYhPw6LtM-mREq_IJMz-z7upDTg2g6G
 
-!procedure Cloudsmith($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Cloudsmith', $name, $tech)
+!procedure Cloudsmith($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Cloudsmith', $name, $tech, $desc)
 !endprocedure

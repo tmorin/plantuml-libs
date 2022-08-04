@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MagnifyingGlassDollar')
 
 ' renders the element
-MagnifyingGlassDollar('MagnifyingGlassDollar', 'Magnifying Glass Dollar', 'an optional tech label')
+MagnifyingGlassDollar('MagnifyingGlassDollar', 'Magnifying Glass Dollar', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MagnifyingGlassDollar')
 
 ' renders the element
-MagnifyingGlassDollar('MagnifyingGlassDollar', 'Magnifying Glass Dollar', 'an optional tech label')
+MagnifyingGlassDollar('MagnifyingGlassDollar', 'Magnifying Glass Dollar', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

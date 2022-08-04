@@ -1,19 +1,19 @@
 ' definition of the Item fontawesome-6/Regular/HandSpock
 
-sprite $HandSpockXs [11x10/16z] FSQ50OD004FHXyDPzf-sNg8VoWgmNv70aR9bRTd8RNMkOkXaS9dU921a1eAiS1L8Mabu0W
+sprite $HandSpockXs [11x10/16z] FSQ50OD004FHXyDPzf-sNg8VoWgmNv70aJ9dQjd8RNMgOkXaSFcGW90P2BB0LI1f9U49
 
-sprite $HandSpockSm [13x12/16z] FSZ50S0m581Gwlh3_jDMOky6_D90voMwyZib7U8Dh1xBw4d4zGU1qyB-1I9vZ13oNGu4muDVZedWDoOOlifS-6i5M2Kp0ru
+sprite $HandSpockSm [13x12/16z] FSZ70SCm5CKmk3TzlVsdJOzn8q4Vt796ie8p-X5fc7ACOqvLrpkKZBFzGiHde6AnEuHKDXyXWm9ZzwcFJ905blZ81vu
 
 sprite $HandSpockMd [17x16/16z] {
-LSs55GGn203HMPSaJF_Ldl1MVrm0qY8lHGNjEBZYh4hgD304hG0wow9CCTi35gHNzXu7e4aPKQGJo3c86SdoWqviZB1YWz4Zzr6Va5qETh3QiK8Q1GXx3Y40
-dZUZ8-d8kXiSLjCEy0K
+LSoteQHG0C30uNRnyDH_jVUzcqYHW3L_d1N5fpOjLO0Q6b4Nr3Dh-JSUGQSenwG9T_Q74i4KmrXa3Ozws3tOTFFiymrjZ1pvrCGM6-0HZFZqcJK1Znx0v_Le
+-BJrxe0N
 }
 
 sprite $HandSpockLg [22x20/16z] {
-PSt5eGGn3C1G3OH1_LVxOJFBEhx4DbVLawzKCwGQNp1QK5Jx0u_kIJFQZsdU5oQr4jIJhWO0D8p9fcxC7dNf0445OLugk37y7m2NDdTQvRHnpZKA7BTRu45B
-94-0eXCg50WRGm1LDnuf46pe_i3D3YGZpF3GqmAWEozL3u2WvulgDVFAnShgqF90N-wglTQfyb9nTOt_0W
+PSy53iD04CLGXxFe-z-s6dLKVCBuXvPKtVcZUiDPFxVJWgBQNt7fhZHF-pAz5mYNMbdLXQuU15t711LctvJW0BF6a5LmOJXp9JGNMcMtiiSm28k5JN2ZNPpk
+4OjEg53WW6540xmeiDdGbHTxL7UOnokkNda6FjJdvVgT5J9lhrYil79vHI4jghtMQSPq-vIFFm
 }
 
-!procedure HandSpock($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Regular/HandSpock', $name, $tech)
+!procedure HandSpock($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/HandSpock', $name, $tech, $desc)
 !endprocedure

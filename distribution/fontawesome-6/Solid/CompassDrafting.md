@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CompassDrafting')
 
 ' renders the element
-CompassDrafting('CompassDrafting', 'Compass Drafting', 'an optional tech label')
+CompassDrafting('CompassDrafting', 'Compass Drafting', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CompassDrafting')
 
 ' renders the element
-CompassDrafting('CompassDrafting', 'Compass Drafting', 'an optional tech label')
+CompassDrafting('CompassDrafting', 'Compass Drafting', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

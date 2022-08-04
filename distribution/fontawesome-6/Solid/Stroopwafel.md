@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Stroopwafel')
 
 ' renders the element
-Stroopwafel('Stroopwafel', 'Stroopwafel', 'an optional tech label')
+Stroopwafel('Stroopwafel', 'Stroopwafel', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Stroopwafel')
 
 ' renders the element
-Stroopwafel('Stroopwafel', 'Stroopwafel', 'an optional tech label')
+Stroopwafel('Stroopwafel', 'Stroopwafel', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

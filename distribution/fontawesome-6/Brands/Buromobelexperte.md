@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Buromobelexperte')
 
 ' renders the element
-Buromobelexperte('Buromobelexperte', 'Buromobelexperte', 'an optional tech label')
+Buromobelexperte('Buromobelexperte', 'Buromobelexperte', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Buromobelexperte')
 
 ' renders the element
-Buromobelexperte('Buromobelexperte', 'Buromobelexperte', 'an optional tech label')
+Buromobelexperte('Buromobelexperte', 'Buromobelexperte', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

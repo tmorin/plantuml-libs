@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ChessPawn')
 
 ' renders the element
-ChessPawn('ChessPawn', 'Chess Pawn', 'an optional tech label')
+ChessPawn('ChessPawn', 'Chess Pawn', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ChessPawn')
 
 ' renders the element
-ChessPawn('ChessPawn', 'Chess Pawn', 'an optional tech label')
+ChessPawn('ChessPawn', 'Chess Pawn', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ShopSlash')
 
 ' renders the element
-ShopSlash('ShopSlash', 'Shop Slash', 'an optional tech label')
+ShopSlash('ShopSlash', 'Shop Slash', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ShopSlash')
 
 ' renders the element
-ShopSlash('ShopSlash', 'Shop Slash', 'an optional tech label')
+ShopSlash('ShopSlash', 'Shop Slash', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

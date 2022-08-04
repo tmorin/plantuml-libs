@@ -2,18 +2,15 @@
 
 sprite $BugXs [10x10/16z] FSRL0G9G54Ene7zmzfyMUNQb3SYQ6inzwAqydm_TQCp2YCiHKrYAafVw0W
 
-sprite $BugSm [12x12/16z] JOo50O104CE2Ezb_MlJbtDe2q4ksJMtIhBhJWDBqVK_h3dvsAkJ5FFrr3ZEqQSwIUJRDWiBCfty3
+sprite $BugSm [12x12/16z] LOo50S1020DJzzx-qrRUW7j14_sCg790Am3Ed4Xztwl_In9tNYDJi_olENSJvIpaRIVxhnhKSRu
 
-sprite $BugMd [16x16/16z] {
-LSlL0K0n34BHM_Uo_xJFzVmb01oA71_Q31vLEmwcGJzkYwtGDS5l75Oo8CtKDor81K2FuoGUOsq-AJhC-R-5S_svepD0Ukxz0lVSnsa_Uy18DHotEHvT5JYM
--sy5
-}
+sprite $BugMd [16x16/16z] LSV70ODG5C0mq-4txxzjNkZe9WwR0o-6oYrfu92XxEyWGR517pfw1RJD9UHHDuAtlKo6ta3mWBlMlfU-B_UdlWEM--pwxpllUpID-r6XcBWeFm
 
 sprite $BugLg [20x20/16z] {
-PSxH0SGG54JH2O1DylhlTZC0t2yEWDOj7cjUsBMOvEwPh9HGkkG1p31vkOMe3RkWwW9HkozxSQBBB-OiSZDfJ7PZcDJI6BsdoNNQWw_PFDXgg8NJt79VfxjQ
-BAZvE3JjATS0XjGZuWy
+PSzL0e0W54JHiPlP_sxb1Ns_zD18lJpGjb5gZTexJYiJ-G5hCGPWeU0qIy3i0uBB7jic-Ldi5dKhj9eMLFQY6BsxV8NHE8ts8LRR8T0Pl7EqlTalq-js6Tgh
+5x7Fjb53IH0_
 }
 
-!procedure Bug($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Bug', $name, $tech)
+!procedure Bug($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Bug', $name, $tech, $desc)
 !endprocedure

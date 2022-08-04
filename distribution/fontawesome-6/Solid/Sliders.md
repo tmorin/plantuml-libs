@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Sliders')
 
 ' renders the element
-Sliders('Sliders', 'Sliders', 'an optional tech label')
+Sliders('Sliders', 'Sliders', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Sliders')
 
 ' renders the element
-Sliders('Sliders', 'Sliders', 'an optional tech label')
+Sliders('Sliders', 'Sliders', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

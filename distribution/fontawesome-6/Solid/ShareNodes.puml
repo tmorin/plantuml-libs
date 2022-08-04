@@ -2,15 +2,15 @@
 
 sprite $ShareNodesXs [8x10/16z] JSgt0S102C10EMTh_saVwBZww3QbY33n-uW9Rs-acAxsYfTGl0C
 
-sprite $ShareNodesSm [10x12/16z] NSl50OK000MWzzEM_QUrcpjvufi5dIpKaKPRcdtroAy9qMLXzfxlk_q4_VKk6cJrRpC2
+sprite $ShareNodesSm [10x12/16z] NSl50OK000MWzzEM_QUrcpjvufi5dIpKaKPRc7troAy9qMLXzfhlgtq7_VKk6cJrRpC2
 
-sprite $ShareNodesMd [14x16/16z] TSs53SLG5CDGb_iWylxJVcOuuWi9V-oPU53DOsDcvIOkH2XjPLQDuarNvs96TGG6q8auS3Lx1NjcYDgy2Z01HRDyzJt_yznnwUDfW2C
+sprite $ShareNodesMd [14x16/16z] TSs53GG130Em76Fb_QTzPh2uaEIFkReyG3qsgYKtfKj9ngrB2qNSxEWNrQ3D1MrARdfNvxu-AMouzpL95gfxwVlyBt9twSkR8m
 
 sprite $ShareNodesLg [17x20/16z] {
-VSx50S0W44JHYU7m-wysxlOkoAh-rARLMMQaWsTIj8EY3iuVJXL8QXj97ICFo39oRBpOL3LW5TTRT-uj2DhOyH61L6-RiakCf2f1b6DLBfj_RBefO3b_rEkc
-rn-dXm4
+VSw5RKH130N0znbtf_zk8x9oF4ApyyimZNdK8Fzsq9D2py9ZOaz8Caz95ZYG1NRbY38Cs7AH0TFZxd2aR9mNxg4-fToGvERA3Zn-MZyaXIrvJ7GsZua177dC
+iEVD7m
 }
 
-!procedure ShareNodes($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ShareNodes', $name, $tech)
+!procedure ShareNodes($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ShareNodes', $name, $tech, $desc)
 !endprocedure

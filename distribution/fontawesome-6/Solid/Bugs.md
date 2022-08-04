@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Bugs')
 
 ' renders the element
-Bugs('Bugs', 'Bugs', 'an optional tech label')
+Bugs('Bugs', 'Bugs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Bugs')
 
 ' renders the element
-Bugs('Bugs', 'Bugs', 'an optional tech label')
+Bugs('Bugs', 'Bugs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

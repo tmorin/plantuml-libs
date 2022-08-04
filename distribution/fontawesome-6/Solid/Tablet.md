@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Tablet')
 
 ' renders the element
-Tablet('Tablet', 'Tablet', 'an optional tech label')
+Tablet('Tablet', 'Tablet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Tablet')
 
 ' renders the element
-Tablet('Tablet', 'Tablet', 'an optional tech label')
+Tablet('Tablet', 'Tablet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

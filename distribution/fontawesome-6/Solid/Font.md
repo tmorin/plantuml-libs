@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Font')
 
 ' renders the element
-Font('Font', 'Font', 'an optional tech label')
+Font('Font', 'Font', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Font')
 
 ' renders the element
-Font('Font', 'Font', 'an optional tech label')
+Font('Font', 'Font', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

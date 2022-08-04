@@ -1,16 +1,13 @@
 ' definition of the Item fontawesome-6/Regular/HandBackFist
 
-sprite $HandBackFistXs [8x10/16z] Os1Wu0TYCCNFpm_bCW8vO65M1Cs0JFE0b40KWsak60q
+sprite $HandBackFistXs [8x10/16z] Os1Wu0TYCCNFpm_bCW8vO64c1Cs0JFD0jV53QIuO3G
 
-sprite $HandBackFistSm [10x12/16z] PSR50OC000Imr8lU_jFYJbv1sGBUgPCyy6juVnFIW4WvhnM_RIwBJxxm3G9vS5yF
+sprite $HandBackFistSm [10x12/16z] TOQ50O1008ImM_QVrcx_Bm7QaLsPdPe0nG1Phk30Ah7TQKJAY_YGv1O0fO14PmO
 
-sprite $HandBackFistMd [14x16/16z] ZSur0eHG0CJG0Dyjzp_jkdQaUzKCGBBoAQcQTXuDMMkgwQL7AWHVOfFD-HRIvKTBjZzzalcdmmoVORfk3pGJi7dmy-AShW
+sprite $HandBackFistMd [14x16/16z] ZOu30W0X54HdpUh-fytsYzy3oSaUM9IXE5TZ_GoK4kMmbaRQmAekQyjD8kjZY2mg_osB9DR6BcUeKP-RyEhnYxMiYZbB
 
-sprite $HandBackFistLg [17x20/16z] {
-dSo50SKW54FHuCxTVzhlhcs37-3fcCpGOnf0g_O6eCGfvWPsciI0QIzmJkMq7V1GJe87ACZHmnCat3DadFGJqXCq5AWFC95W65sIwJeAGQTukFWDucaDMy2V
-mH6q1m
-}
+sprite $HandBackFistLg [17x20/16z] bSg54O0m0CNG3tND_jFYVahgxwgrIDEp0b3oS04ei7N3s0TFWpuSi9VtJ-s2bIHuG40ZTNo1HSCNf1-GaI7hhYD16tGKgLg5KLiZQCtTuFVpFmmtECq
 
-!procedure HandBackFist($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Regular/HandBackFist', $name, $tech)
+!procedure HandBackFist($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/HandBackFist', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PumpSoap')
 
 ' renders the element
-PumpSoap('PumpSoap', 'Pump Soap', 'an optional tech label')
+PumpSoap('PumpSoap', 'Pump Soap', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PumpSoap')
 
 ' renders the element
-PumpSoap('PumpSoap', 'Pump Soap', 'an optional tech label')
+PumpSoap('PumpSoap', 'Pump Soap', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,15 +2,15 @@
 
 sprite $ElevatorXs [10x10/16z] ROO50e0W0CHcj_l_Q-q4BWSKe0AQWnMlCfDY4awwAY2q3-7WhHK
 
-sprite $ElevatorSm [12x12/16z] TSc50O0m40F0u1R8_jkInwMzzXr0xv2vj5kM2cUIlXIbst4wTLGM84rEeOo2GO6K5iuoMAJnqVTgT5i1
+sprite $ElevatorSm [12x12/16z] TSQ50O004090x4BPVri_xBWF0D3RoLYqyUqPaZtIEEqwwXSW3VPSuO51ZfGMpZ8m_lfBRzJej08
 
-sprite $ElevatorMd [16x16/16z] XOtL5S0m30F33FjlMobble_pCmiG9EGxa4pz794sfhO3HCcKQ20sV3wYNFydos6rvlEpsNEkXdLVgBj1rjhCRlCucNtF6_R8R3JxcGa
+sprite $ElevatorMd [16x16/16z] XSt55O1G34JHmPtqtoq3v-5s5r-YibfMXOcNpDzHLf2GlulKjAcwewICVrt22KcS_9LoOk2atViZMfyZvSPv-u_kct660fW
 
 sprite $ElevatorLg [20x20/16z] {
-bSd50G9H4C3GhFkc_sxvCxZ3EoQ4iQ5e31Dfq0we3FqvQKrXp6IYg1rufrqUJ5G-s_r3JsknLwoU0PjASTjsjOBAiud1KE4d19qfHjD0w2IPUa8hQJSCTUYj
-qwwBpzXzD1q
+bSX50W9134N1tpO-_Uv_MvBW3hKikQd89DoiC4ALmTLJcNpAfa2GytgZh0zc9Pvr_b1LC5tQE9Eq0pAtrnzlreYJ-4GE5fc9qEGg2eGYbr7ek9PS9OKEAy_K
+UJGV
 }
 
-!procedure Elevator($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Elevator', $name, $tech)
+!procedure Elevator($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Elevator', $name, $tech, $desc)
 !endprocedure

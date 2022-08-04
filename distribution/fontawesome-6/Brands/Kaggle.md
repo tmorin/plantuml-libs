@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Kaggle')
 
 ' renders the element
-Kaggle('Kaggle', 'Kaggle', 'an optional tech label')
+Kaggle('Kaggle', 'Kaggle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Kaggle')
 
 ' renders the element
-Kaggle('Kaggle', 'Kaggle', 'an optional tech label')
+Kaggle('Kaggle', 'Kaggle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

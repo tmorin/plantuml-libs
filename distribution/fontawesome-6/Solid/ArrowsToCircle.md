@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowsToCircle')
 
 ' renders the element
-ArrowsToCircle('ArrowsToCircle', 'Arrows To Circle', 'an optional tech label')
+ArrowsToCircle('ArrowsToCircle', 'Arrows To Circle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowsToCircle')
 
 ' renders the element
-ArrowsToCircle('ArrowsToCircle', 'Arrows To Circle', 'an optional tech label')
+ArrowsToCircle('ArrowsToCircle', 'Arrows To Circle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

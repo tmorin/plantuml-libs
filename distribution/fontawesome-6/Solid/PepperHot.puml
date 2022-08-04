@@ -2,15 +2,12 @@
 
 sprite $PepperHotXs [10x10/16z] Oy04_12AWv-N7oR2pm-b4ImWXWknmHZyC9gJWO4FhXe
 
-sprite $PepperHotSm [12x12/16z] HSQ50S104091ufxjlzhtSnZvt45zfscUxtSGOEwyrWNe1lVLkXk0jVbl_elc9bvfxsAHTBka3
+sprite $PepperHotSm [12x12/16z] HSO50i0m2C30p7tv_sidDQu5GhCJhfLcFSdyT2JRqAaasdf9DxU_FlMT-WOwanDcim7OMy4B
 
-sprite $PepperHotMd [16x16/16z] LOo50G0W3CE6E_t_Mbo3PaOlGjE70_s0tR-EGJqUqJdAYLBpk1tWyIaGW7WTpTkJSTB8ELkEanwG6fgMvc5gPsCJXeD-En7Ev8waHGK
+sprite $PepperHotMd [16x16/16z] NSo50S0W00F1u4xsdxQAV_Kmh4cBhK3ihROvwSMPRuC2A8zpDodpia0TvkFdKvlburghbyriGNyiZRMTrSfjQSjiJ5WNQxHk
 
-sprite $PepperHotLg [20x20/16z] {
-XSxL0SCm34NH5-RS_QSjgsRx_8cbsAd4mAK4D7ChS8MvZOz3IICCBd6pYhTRfWV4X_kLD6V1w78NmFpY7kmntRp-ZvfDFpZww1QNEUCM6pnmhZvUJgUVZezZ
-blC4
-}
+sprite $PepperHotLg [20x20/16z] XStL0G9H44FHhE_Jst-rE1cSypSQlQfwCz7q1lxsTg0zzn8NHM-BCCWwkpZhRWs0k72lyjwx5sFq6i1q8lS6xhJk3hrBVXPqjM7LAo-7XT26r-V8k2YJmX4
 
-!procedure PepperHot($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PepperHot', $name, $tech)
+!procedure PepperHot($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PepperHot', $name, $tech, $desc)
 !endprocedure

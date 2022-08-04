@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Icons')
 
 ' renders the element
-Icons('Icons', 'Icons', 'an optional tech label')
+Icons('Icons', 'Icons', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Icons')
 
 ' renders the element
-Icons('Icons', 'Icons', 'an optional tech label')
+Icons('Icons', 'Icons', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

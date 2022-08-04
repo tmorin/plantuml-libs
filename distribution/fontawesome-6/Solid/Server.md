@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Server')
 
 ' renders the element
-Server('Server', 'Server', 'an optional tech label')
+Server('Server', 'Server', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Server')
 
 ' renders the element
-Server('Server', 'Server', 'an optional tech label')
+Server('Server', 'Server', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

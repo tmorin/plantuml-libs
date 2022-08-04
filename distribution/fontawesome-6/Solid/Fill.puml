@@ -2,15 +2,15 @@
 
 sprite $FillXs [10x10/16z] DSR70S0m2CLGvPQk_QTr_SW67X-LeeQYfKNDEMHrUvd0GiWgw
 
-sprite $FillSm [12x12/16z] FOZ50S1G58DIzxB_jD-US4b0nwG4PdrWylEnXy0XcNp0PFApMuIfNGDkagvvDMDCIf4nnwq
+sprite $FillSm [12x12/16z] HOh50S103CFYCcl_QKiNqCTeinKWEw65YvCf0ho_5av0BLnChGIzDguRoHlBcif6i8R2FW
 
-sprite $FillMd [16x16/16z] LSg54SC00CD0jM7K_jE6oJxKds4cDYemQSKvTSyNPbMgVF32PC2almSAPWNiEE6dF9jqC4QP2Pa1FmAubmdCRwu
+sprite $FillMd [16x16/16z] LOg73OG058MuQfVzfxNhpoCL0im4emAJVZbHTwqmxy8d3ofCLZYrZZUp0dQSuQKyJ3eOy4s5r0YSb4QWc4jN
 
 sprite $FillLg [20x20/16z] {
-NP074iD02CGs7UEY__ystXI6GTSrrq3Qdvey8JmcB2N14fCb3uWDjhrBpEPnI8zj9oQajdE7pRBjhBjaW8SsgvEywoVpOjL8Y8HN8m4jJ7n-S3bTp5qcnguf
-LKJRDULCTl_w6m
+PSpL0SCm4C1GbPqBQFzfosPzlWFOxunTD064BkJyef-2tA5fqsrlqKyRE290i-cd1CtchjiVywRvLxuvitq9uimVu_IdN6WAlLrgeR8u1im4QQG9OKAO42Q4
+jhkwaNi1
 }
 
-!procedure Fill($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Fill', $name, $tech)
+!procedure Fill($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Fill', $name, $tech, $desc)
 !endprocedure

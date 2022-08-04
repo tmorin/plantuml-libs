@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Frog')
 
 ' renders the element
-Frog('Frog', 'Frog', 'an optional tech label')
+Frog('Frog', 'Frog', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Frog')
 
 ' renders the element
-Frog('Frog', 'Frog', 'an optional tech label')
+Frog('Frog', 'Frog', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

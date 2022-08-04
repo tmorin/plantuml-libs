@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/DongSign')
 
 ' renders the element
-DongSign('DongSign', 'Dong Sign', 'an optional tech label')
+DongSign('DongSign', 'Dong Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/DongSign')
 
 ' renders the element
-DongSign('DongSign', 'Dong Sign', 'an optional tech label')
+DongSign('DongSign', 'Dong Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PlugCircleXmark')
 
 ' renders the element
-PlugCircleXmark('PlugCircleXmark', 'Plug Circle Xmark', 'an optional tech label')
+PlugCircleXmark('PlugCircleXmark', 'Plug Circle Xmark', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PlugCircleXmark')
 
 ' renders the element
-PlugCircleXmark('PlugCircleXmark', 'Plug Circle Xmark', 'an optional tech label')
+PlugCircleXmark('PlugCircleXmark', 'Plug Circle Xmark', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

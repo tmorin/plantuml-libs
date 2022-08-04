@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HandPointDown')
 
 ' renders the element
-HandPointDown('HandPointDown', 'Hand Point Down', 'an optional tech label')
+HandPointDown('HandPointDown', 'Hand Point Down', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HandPointDown')
 
 ' renders the element
-HandPointDown('HandPointDown', 'Hand Point Down', 'an optional tech label')
+HandPointDown('HandPointDown', 'Hand Point Down', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

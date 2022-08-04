@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Wix')
 
 ' renders the element
-Wix('Wix', 'Wix', 'an optional tech label')
+Wix('Wix', 'Wix', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Wix')
 
 ' renders the element
-Wix('Wix', 'Wix', 'an optional tech label')
+Wix('Wix', 'Wix', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

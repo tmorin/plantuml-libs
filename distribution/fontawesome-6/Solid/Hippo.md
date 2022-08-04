@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Hippo')
 
 ' renders the element
-Hippo('Hippo', 'Hippo', 'an optional tech label')
+Hippo('Hippo', 'Hippo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Hippo')
 
 ' renders the element
-Hippo('Hippo', 'Hippo', 'an optional tech label')
+Hippo('Hippo', 'Hippo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

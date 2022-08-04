@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/Church
 
-sprite $ChurchXs [12x10/16z] NOh50S1008DIzxB_jEVEAu82dmg02jHuCLUbI5_8YqidAJF_-2oVmMTf7hC5
+sprite $ChurchXs [12x10/16z] JOh50O104CI6_G1dwR_QSyjh9Ef4RG1jhlXZHzbIRB4_7pDZYPRLChGisPMVbWi
 
-sprite $ChurchSm [15x12/16z] LSa54e000091xCJx_sljGAROELrhb6iOo-2C-ynBamByOkHSyJNUJlLmdhN_Wpu9d1obP2dvfF_S
+sprite $ChurchSm [15x12/16z] LSc54K0X0CFGuaxtd_OBJaxV1Js3CyCe3sOMV-ugJv4i2v4jiH_NfvZC6OgDfP5aOm1EIg0qbfil
 
-sprite $ChurchMd [20x16/16z] VSk53G0X0C10tA7xJ_lkGkENL1nLySho8e2dAeyMpmmlYe2vYMQfNIYmTrezJ6zIzCMAMx-RWKvi5atT33PBq_8qDLdjcETj8m
+sprite $ChurchMd [20x16/16z] VSt50K0X3C1Gt27xJ_lTXHmVj1L7LRnIl0ZWgTAYn3F9YoAW7mUMseKSUwVLmzGcHLwik4a2t0nqOhEWwcQmMPn6dgOcgntpl6q4
 
-sprite $ChurchLg [25x20/16z] fSo54GGX44JHLHmw_sXnv_n-UR-QsRhKkJqEvl4SKkk-Hp1FNtq31m3zO5U8qMbcgEtpcreFzsFWvmZoZZC19b3n2dW4aAQ1Vw0h01L4-Fi8ZW3w3pYVW74
+sprite $ChurchLg [25x20/16z] fSx50SGW04HHt67whtPzepZ_E2y1oA70IJwa_Fmkt7VwWLGyQWGOW9ZP0pwfosombNbIHcGUB3s3PvzP0HS8dx-07C2d7IGXSGDW0qjUvU1pOrm0Ne3q1
 
-!procedure Church($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Church', $name, $tech)
+!procedure Church($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Church', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HandMiddleFinger')
 
 ' renders the element
-HandMiddleFinger('HandMiddleFinger', 'Hand Middle Finger', 'an optional tech label')
+HandMiddleFinger('HandMiddleFinger', 'Hand Middle Finger', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HandMiddleFinger')
 
 ' renders the element
-HandMiddleFinger('HandMiddleFinger', 'Hand Middle Finger', 'an optional tech label')
+HandMiddleFinger('HandMiddleFinger', 'Hand Middle Finger', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

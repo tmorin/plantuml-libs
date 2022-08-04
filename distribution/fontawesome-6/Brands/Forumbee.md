@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Forumbee')
 
 ' renders the element
-Forumbee('Forumbee', 'Forumbee', 'an optional tech label')
+Forumbee('Forumbee', 'Forumbee', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Forumbee')
 
 ' renders the element
-Forumbee('Forumbee', 'Forumbee', 'an optional tech label')
+Forumbee('Forumbee', 'Forumbee', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

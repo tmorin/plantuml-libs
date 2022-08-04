@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HandSparkles')
 
 ' renders the element
-HandSparkles('HandSparkles', 'Hand Sparkles', 'an optional tech label')
+HandSparkles('HandSparkles', 'Hand Sparkles', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HandSparkles')
 
 ' renders the element
-HandSparkles('HandSparkles', 'Hand Sparkles', 'an optional tech label')
+HandSparkles('HandSparkles', 'Hand Sparkles', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

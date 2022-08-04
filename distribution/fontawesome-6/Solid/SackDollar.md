@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SackDollar')
 
 ' renders the element
-SackDollar('SackDollar', 'Sack Dollar', 'an optional tech label')
+SackDollar('SackDollar', 'Sack Dollar', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SackDollar')
 
 ' renders the element
-SackDollar('SackDollar', 'Sack Dollar', 'an optional tech label')
+SackDollar('SackDollar', 'Sack Dollar', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

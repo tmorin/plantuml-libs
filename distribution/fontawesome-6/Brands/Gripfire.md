@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Gripfire')
 
 ' renders the element
-Gripfire('Gripfire', 'Gripfire', 'an optional tech label')
+Gripfire('Gripfire', 'Gripfire', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Gripfire')
 
 ' renders the element
-Gripfire('Gripfire', 'Gripfire', 'an optional tech label')
+Gripfire('Gripfire', 'Gripfire', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

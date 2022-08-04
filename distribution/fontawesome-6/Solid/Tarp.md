@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Tarp')
 
 ' renders the element
-Tarp('Tarp', 'Tarp', 'an optional tech label')
+Tarp('Tarp', 'Tarp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Tarp')
 
 ' renders the element
-Tarp('Tarp', 'Tarp', 'an optional tech label')
+Tarp('Tarp', 'Tarp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

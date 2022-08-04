@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HatCowboySide')
 
 ' renders the element
-HatCowboySide('HatCowboySide', 'Hat Cowboy Side', 'an optional tech label')
+HatCowboySide('HatCowboySide', 'Hat Cowboy Side', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HatCowboySide')
 
 ' renders the element
-HatCowboySide('HatCowboySide', 'Hat Cowboy Side', 'an optional tech label')
+HatCowboySide('HatCowboySide', 'Hat Cowboy Side', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

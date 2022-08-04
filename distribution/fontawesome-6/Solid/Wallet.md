@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Wallet')
 
 ' renders the element
-Wallet('Wallet', 'Wallet', 'an optional tech label')
+Wallet('Wallet', 'Wallet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Wallet')
 
 ' renders the element
-Wallet('Wallet', 'Wallet', 'an optional tech label')
+Wallet('Wallet', 'Wallet', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

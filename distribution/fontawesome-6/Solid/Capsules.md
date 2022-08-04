@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Capsules')
 
 ' renders the element
-Capsules('Capsules', 'Capsules', 'an optional tech label')
+Capsules('Capsules', 'Capsules', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Capsules')
 
 ' renders the element
-Capsules('Capsules', 'Capsules', 'an optional tech label')
+Capsules('Capsules', 'Capsules', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,12 +2,12 @@
 
 sprite $BoxTissueXs [10x10/16z] Os3Wv-TdW01-E9CV0b1Op6068r048eYi4G7Ou00X1W
 
-sprite $BoxTissueSm [12x12/16z] TOg35S0m00LhDxV_jB5n3v_J1FoJ1uFtl_7lkgxQRyQRw4_-DaS_m-aldya1ShOC1YW
+sprite $BoxTissueSm [12x12/16z] TOgr0S0m4CGUcv3sdpRCjjKSYW2ZdB1n-d7plQgktZU_nVDqtlJs2dbUXYrVyCPUq601
 
-sprite $BoxTissueMd [16x16/16z] PSt50SGm40D09MPK_zKUc65-Ym82Vnm6mG83Y-UecMACfPavuC-CqfVw7VNxtyuODN8YEUfGeXsU1azv7ITUv24UUCZSVG4
+sprite $BoxTissueMd [16x16/16z] PSwr0S1030J1andqklwhDJp3P9ijSFDp8flf8HlRSwhgsvZvtdDUlYMtV6M6t317ClSzXHM98CQF5XnC7UsmOrs_
 
-sprite $BoxTissueLg [20x20/16z] ZSt50SGm44FH7-Qe_seNWcRxtGO5wD1Xqcd6iEg4OT1fgtWqCYqSP6e3FJFaiWKULa0hJUZ5glrODrDrc1YcMtCz1rEhOcr07w12itnV
+sprite $BoxTissueLg [20x20/16z] ZSt50SD044FHRsQh_se3YmhdtGO5A1XmYbRChWWpA3giryXj178jhpqFUNhQMQy1Ucd1UkmwmxgdAbYObgn9py6r-blxnlY6_hJgrHK
 
-!procedure BoxTissue($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BoxTissue', $name, $tech)
+!procedure BoxTissue($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BoxTissue', $name, $tech, $desc)
 !endprocedure

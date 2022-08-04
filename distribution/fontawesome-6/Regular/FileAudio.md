@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/FileAudio')
 
 ' renders the element
-FileAudio('FileAudio', 'File Audio', 'an optional tech label')
+FileAudio('FileAudio', 'File Audio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/FileAudio')
 
 ' renders the element
-FileAudio('FileAudio', 'File Audio', 'an optional tech label')
+FileAudio('FileAudio', 'File Audio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

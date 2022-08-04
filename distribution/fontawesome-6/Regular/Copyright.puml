@@ -2,18 +2,18 @@
 
 sprite $CopyrightXs [10x10/16z] HSgr0GDH040Xufwt_xHVggC6NjrjTV7eHLzRDr7Hwo9RaUrpVuWd7SyhMxZLfvW
 
-sprite $CopyrightSm [12x12/16z] BSR50SKm0CKmVmo-UlzfYz59N8QLXwP5x_wvJ9-MyOK4GOi37A78JHkZhDVmTHqXwl_-13w01GmNDu1uAN
+sprite $CopyrightSm [12x12/16z] BSR50SKm0CKmVmo-UlzfYz59N8QLXwP4x_wuJ9_-nniI12qES8I_tBGmodeDRzSHelxkJ-05MC1mSGE8bm87
 
 sprite $CopyrightMd [16x16/16z] {
-JOu53aH1348xxlFkVziDNVil0YGLp2c75UpBuKtp5A2xsHm9VESoMyEQ6Kl3bMWQRe2FNGgwiBJd0neVs1SVMuyitnuvu5FHRzl4s5u9gN6jabKWlHjw-ogl
-A2UvqecYY3XN_WK
+JOm75iCW34F5tkZ-jsrbTqG9yCNx1fPok0A-EVGqhr_OF5w_NkAMB1ohwXa6IAuaJRiiEhZUco1J-Y2-CMqzkhW-UX3JBWFG2MuVy_EYCaaCshRamoAsMlsu
+6PfLDPUMAtu1
 }
 
 sprite $CopyrightLg [20x20/16z] {
-JOu55WGX34DnBxd_RNThZya8vQSMJFFYjF1HXuco8m0tcpKT7NShi1mz0PKB1DMrHrJ8dqQi_ey6Hi3L-XoxsnEPMzEtusLliU4YWDb6V6pZGFgsnouQ3ulQ
-VHnR1fg8FQ-42HI85myDW22v9mr3qj6wv3Jua6o7eIGHVDCA0BIljdGDYAZAxGS
+JP074i0W2C34BdV-_zeEaBFf0ABd84poe9tXny6aYojWR6-yWEog-MY4uce1nxkMgLXgcbA_5vJhpH8fC5GraSE7CzktTF-lE7X38IxNqVaLMQxIq7MFvGQd
+RcQhfsRhMPcWvg6fq4FNzKz0bTPYQH3HS6cPftIbiK0o8ntYhwMz3blIIIZT9Zq
 }
 
-!procedure Copyright($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Regular/Copyright', $name, $tech)
+!procedure Copyright($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/Copyright', $name, $tech, $desc)
 !endprocedure

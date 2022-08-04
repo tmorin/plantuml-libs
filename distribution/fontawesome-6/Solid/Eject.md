@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Eject')
 
 ' renders the element
-Eject('Eject', 'Eject', 'an optional tech label')
+Eject('Eject', 'Eject', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Eject')
 
 ' renders the element
-Eject('Eject', 'Eject', 'an optional tech label')
+Eject('Eject', 'Eject', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

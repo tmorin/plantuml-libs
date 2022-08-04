@@ -2,15 +2,15 @@
 
 sprite $WheelchairXs [10x10/16z] POh50O100CEAEzb_MZZNVAeod0g0EWQ2GS1hJJnkgtKmA7nE9D83BgnxVm
 
-sprite $WheelchairSm [12x12/16z] HSc50GCW44FHZplPVzkc_k0ScuaVwT_Fyk_J_FTIx-_JxLU6QJFV7KautWSDO9iY_M9n8O7dLweUWgnxFk41
+sprite $WheelchairSm [12x12/16z] HSR50S0W0C30r9tilsrnxdL4zqAduzSwFjtZUcuBIJY34P4lTncBC9k09_16mXc8vWS59y2PLS7e13v-
 
-sprite $WheelchairMd [16x16/16z] LOv50iHG349f-rt2_Myx4zdahQ80b298a4JkBn8lCckaTgV_fomgeI5SrVePsbyoP87r8h9DoePAN4Bv_dGAC1Y9TkouGnPGMtJU1qNRi75pJmRy
+sprite $WheelchairMd [16x16/16z] NSq54W9030F0dFlb_x-5TB2oO_L2yeL3yYy_S0AysLswt7u8a_AwSJcJvUDrExg7JB3ythli52mtGH4aFXLUeByMuthrE9LQhBTe-fkKljuK2buU
 
 sprite $WheelchairLg [20x20/16z] {
-ZP150WGX3C2OmJN_V-rAstND2G9LfwpcdW7A6_VoiS3c_Y7ryAmsuDa5OAqrzvl83cMPwj34zTvDLSd4Gq8z3w2abEBvaadwMz3MbuPuC2pqHfEFXMZtlPVp
-bth_4QmMhZ553OODXBRM0UptsgKT7lTy1
+ZP3L0SLG2CKgrotxJri1dklvWk1Cgb6cPm7fbV6Ic63wIxwkpsZcjTW1Oum-tq2SK0r35OgmMgkXB9ruQAXs0yAwhilfH89ccyufW-ioAYkzgOYRyEOlDPqf
+-PPeHfFoGXVKQ6UoC5ttkX-CSnyFZt_U0G
 }
 
-!procedure Wheelchair($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Wheelchair', $name, $tech)
+!procedure Wheelchair($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Wheelchair', $name, $tech, $desc)
 !endprocedure

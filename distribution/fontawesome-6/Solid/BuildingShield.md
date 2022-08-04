@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BuildingShield')
 
 ' renders the element
-BuildingShield('BuildingShield', 'Building Shield', 'an optional tech label')
+BuildingShield('BuildingShield', 'Building Shield', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BuildingShield')
 
 ' renders the element
-BuildingShield('BuildingShield', 'Building Shield', 'an optional tech label')
+BuildingShield('BuildingShield', 'Building Shield', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

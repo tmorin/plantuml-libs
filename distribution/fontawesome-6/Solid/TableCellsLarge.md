@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TableCellsLarge')
 
 ' renders the element
-TableCellsLarge('TableCellsLarge', 'Table Cells Large', 'an optional tech label')
+TableCellsLarge('TableCellsLarge', 'Table Cells Large', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TableCellsLarge')
 
 ' renders the element
-TableCellsLarge('TableCellsLarge', 'Table Cells Large', 'an optional tech label')
+TableCellsLarge('TableCellsLarge', 'Table Cells Large', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

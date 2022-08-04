@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/WindowMinimize')
 
 ' renders the element
-WindowMinimize('WindowMinimize', 'Window Minimize', 'an optional tech label')
+WindowMinimize('WindowMinimize', 'Window Minimize', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/WindowMinimize')
 
 ' renders the element
-WindowMinimize('WindowMinimize', 'Window Minimize', 'an optional tech label')
+WindowMinimize('WindowMinimize', 'Window Minimize', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

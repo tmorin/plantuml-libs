@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowTrendUp')
 
 ' renders the element
-ArrowTrendUp('ArrowTrendUp', 'Arrow Trend Up', 'an optional tech label')
+ArrowTrendUp('ArrowTrendUp', 'Arrow Trend Up', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowTrendUp')
 
 ' renders the element
-ArrowTrendUp('ArrowTrendUp', 'Arrow Trend Up', 'an optional tech label')
+ArrowTrendUp('ArrowTrendUp', 'Arrow Trend Up', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Stairs')
 
 ' renders the element
-Stairs('Stairs', 'Stairs', 'an optional tech label')
+Stairs('Stairs', 'Stairs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Stairs')
 
 ' renders the element
-Stairs('Stairs', 'Stairs', 'an optional tech label')
+Stairs('Stairs', 'Stairs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

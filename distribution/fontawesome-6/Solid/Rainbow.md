@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Rainbow')
 
 ' renders the element
-Rainbow('Rainbow', 'Rainbow', 'an optional tech label')
+Rainbow('Rainbow', 'Rainbow', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Rainbow')
 
 ' renders the element
-Rainbow('Rainbow', 'Rainbow', 'an optional tech label')
+Rainbow('Rainbow', 'Rainbow', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

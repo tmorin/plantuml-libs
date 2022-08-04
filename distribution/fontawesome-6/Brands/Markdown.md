@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Markdown')
 
 ' renders the element
-Markdown('Markdown', 'Markdown', 'an optional tech label')
+Markdown('Markdown', 'Markdown', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Markdown')
 
 ' renders the element
-Markdown('Markdown', 'Markdown', 'an optional tech label')
+Markdown('Markdown', 'Markdown', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

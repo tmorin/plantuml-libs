@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FaucetDrip')
 
 ' renders the element
-FaucetDrip('FaucetDrip', 'Faucet Drip', 'an optional tech label')
+FaucetDrip('FaucetDrip', 'Faucet Drip', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FaucetDrip')
 
 ' renders the element
-FaucetDrip('FaucetDrip', 'Faucet Drip', 'an optional tech label')
+FaucetDrip('FaucetDrip', 'Faucet Drip', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

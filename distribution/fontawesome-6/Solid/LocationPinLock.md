@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/LocationPinLock')
 
 ' renders the element
-LocationPinLock('LocationPinLock', 'Location Pin Lock', 'an optional tech label')
+LocationPinLock('LocationPinLock', 'Location Pin Lock', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/LocationPinLock')
 
 ' renders the element
-LocationPinLock('LocationPinLock', 'Location Pin Lock', 'an optional tech label')
+LocationPinLock('LocationPinLock', 'Location Pin Lock', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

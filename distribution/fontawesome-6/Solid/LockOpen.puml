@@ -2,12 +2,12 @@
 
 sprite $LockOpenXs [11x10/16z] Ou02FXOeWuCV221C48N2v8S0RYW3ef8Wanl11
 
-sprite $LockOpenSm [13x12/16z] dST70S0m0CGmT--QFzhE787e9s8xYCR7p4zXCMa1a-QB0Pl633KP3U06
+sprite $LockOpenSm [13x12/16z] Ou01Rbu6EE070Wuucu61an_6OGGIQ1n-602QmGy7x40fCZXiIAOn
 
-sprite $LockOpenMd [17x16/16z] jSZ50S0W5C3GrBtPVzgw07SU-aDWNae2goS-lRQrBhpqlfCmfA6NVhdfqa9dQw22mj08v0y3IG7O0G
+sprite $LockOpenMd [17x16/16z] lOs50O0W50MVtTx-qofT0t3mkrHmFsCPlbXolC8omPCIu7MJEDh4ZjR70yyYRQmKsAkKd5qIXvgCZNy
 
-sprite $LockOpenLg [22x20/16z] pP250G0X3CHmXzj_sbUidO3WmIieeLKZkCE7Oh8ZTmlKfpP0eKk_rWERRNqaYGNQib9r7gk61IL_cnAL_R7WkBDjvbRtI17A9sy
+sprite $LockOpenLg [22x20/16z] pP254S1020JZdcp_rKPUEIh8lW0xDqQZBDSvDDuHQ9rCY8Np_GSuD1hgBE4hJsBXChPDmDLcYx87k-48SJp3l-sEeqkR4euW7m
 
-!procedure LockOpen($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/LockOpen', $name, $tech)
+!procedure LockOpen($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/LockOpen', $name, $tech, $desc)
 !endprocedure

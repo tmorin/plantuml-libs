@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Radiation')
 
 ' renders the element
-Radiation('Radiation', 'Radiation', 'an optional tech label')
+Radiation('Radiation', 'Radiation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Radiation')
 
 ' renders the element
-Radiation('Radiation', 'Radiation', 'an optional tech label')
+Radiation('Radiation', 'Radiation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

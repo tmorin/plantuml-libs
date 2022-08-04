@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PenClip')
 
 ' renders the element
-PenClip('PenClip', 'Pen Clip', 'an optional tech label')
+PenClip('PenClip', 'Pen Clip', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PenClip')
 
 ' renders the element
-PenClip('PenClip', 'Pen Clip', 'an optional tech label')
+PenClip('PenClip', 'Pen Clip', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

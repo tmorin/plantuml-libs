@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Thumbtack')
 
 ' renders the element
-Thumbtack('Thumbtack', 'Thumbtack', 'an optional tech label')
+Thumbtack('Thumbtack', 'Thumbtack', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Thumbtack')
 
 ' renders the element
-Thumbtack('Thumbtack', 'Thumbtack', 'an optional tech label')
+Thumbtack('Thumbtack', 'Thumbtack', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

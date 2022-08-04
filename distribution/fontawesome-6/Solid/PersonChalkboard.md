@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PersonChalkboard')
 
 ' renders the element
-PersonChalkboard('PersonChalkboard', 'Person Chalkboard', 'an optional tech label')
+PersonChalkboard('PersonChalkboard', 'Person Chalkboard', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PersonChalkboard')
 
 ' renders the element
-PersonChalkboard('PersonChalkboard', 'Person Chalkboard', 'an optional tech label')
+PersonChalkboard('PersonChalkboard', 'Person Chalkboard', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

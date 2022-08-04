@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/NotEqual')
 
 ' renders the element
-NotEqual('NotEqual', 'Not Equal', 'an optional tech label')
+NotEqual('NotEqual', 'Not Equal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/NotEqual')
 
 ' renders the element
-NotEqual('NotEqual', 'Not Equal', 'an optional tech label')
+NotEqual('NotEqual', 'Not Equal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

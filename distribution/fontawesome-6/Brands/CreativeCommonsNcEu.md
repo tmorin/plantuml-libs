@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/CreativeCommonsNcEu')
 
 ' renders the element
-CreativeCommonsNcEu('CreativeCommonsNcEu', 'Creative Commons Nc Eu', 'an optional tech label')
+CreativeCommonsNcEu('CreativeCommonsNcEu', 'Creative Commons Nc Eu', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/CreativeCommonsNcEu')
 
 ' renders the element
-CreativeCommonsNcEu('CreativeCommonsNcEu', 'Creative Commons Nc Eu', 'an optional tech label')
+CreativeCommonsNcEu('CreativeCommonsNcEu', 'Creative Commons Nc Eu', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,12 +2,12 @@
 
 sprite $MarkdownXs [12x10/16z] LSQ50O105CFGu4xsdnOzVLzQIbrcXTqPHHKazPs34r1nF710TG-dfnc56m
 
-sprite $MarkdownSm [15x12/16z] VSV50O100C2muaxtdnPtkVn2K6DOJMrAhsobuzgOWZu5ygL6qWknQvqhlgJtSZS2
+sprite $MarkdownSm [15x12/16z] VSV50O100C2muaxtdnPtkVn2K6DOJMrAhsobuzgOWZu5ygKYlH2vrhdYItelToC
 
-sprite $MarkdownMd [20x16/16z] ZSY50SC03C0mRsNq_zUMcHKENtbI-HsaMe8AouzAJZyu_Kf8m120wMVy4_G7E82bG-qW2bN3ePVUA3mZYey2E6i1
+sprite $MarkdownMd [20x16/16z] ZSY50SD0581GshYo_xHnztVwuIjFAh-3H4jGOMbKScfmQYKaO0Z0r8n_WYv9M6we7GG_rTzmbzueF2EAZtvmrW8
 
-sprite $MarkdownLg [25x20/16z] hSpL3SLG081GwhtA_jC-TvVoUnBueUvX32uQks65MOrm0IJb8M3t1E0X561gcEtPLKwGwTt2xaZq12RTWS3e1NW4wJsMizjAhghLvxrqdaZYwzO
+sprite $MarkdownLg [25x20/16z] hSx50SGW00NHYJlJVxKhs6LTVe8-Z2_ItGs3Vmtnm02Zka85O5Fk0ZOF0Ex20KnNw8avAknqNi4MOBM2cn7g6ofOG3fBzZqsnnvKO_KuZvq7il5npW
 
-!procedure Markdown($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Markdown', $name, $tech)
+!procedure Markdown($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Markdown', $name, $tech, $desc)
 !endprocedure

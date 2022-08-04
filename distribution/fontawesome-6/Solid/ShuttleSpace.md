@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ShuttleSpace')
 
 ' renders the element
-ShuttleSpace('ShuttleSpace', 'Shuttle Space', 'an optional tech label')
+ShuttleSpace('ShuttleSpace', 'Shuttle Space', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ShuttleSpace')
 
 ' renders the element
-ShuttleSpace('ShuttleSpace', 'Shuttle Space', 'an optional tech label')
+ShuttleSpace('ShuttleSpace', 'Shuttle Space', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

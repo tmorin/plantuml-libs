@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Handcuffs')
 
 ' renders the element
-Handcuffs('Handcuffs', 'Handcuffs', 'an optional tech label')
+Handcuffs('Handcuffs', 'Handcuffs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Handcuffs')
 
 ' renders the element
-Handcuffs('Handcuffs', 'Handcuffs', 'an optional tech label')
+Handcuffs('Handcuffs', 'Handcuffs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

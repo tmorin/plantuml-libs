@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/ClipboardQuestion
 
-sprite $ClipboardQuestionXs [7x10/16z] JOg30S105CLIkzb_skBy-GGSCu2wicjtMEk0yBmMrGMROjSKVW4
+sprite $ClipboardQuestionXs [7x10/16z] JOM50O1008ImM_QVrlY-0E2O0TI5NJciEI38Qr6Ti0cB7eQy
 
-sprite $ClipboardQuestionSm [9x12/16z] Om02Nau6CE070WO6HX39n8y5GEIXSXn0DaI8YO6R7oO4PV31LBC32JQOC
+sprite $ClipboardQuestionSm [9x12/16z] Om02Nau6CE070WZ5mCYF1K3aeN8SG3P4Y8c1cnyc16NmmLIp0masc3
 
-sprite $ClipboardQuestionMd [12x16/16z] HStN5KL1249H9kSv_LVxudMvVnNGro3hmSVHHzcNcs7lMFY8mcsS6p4cUz0NVnscC98ziRJ07Cntr_Yk_mZt1W
+sprite $ClipboardQuestionMd [12x16/16z] HSs50SCm34JHYvd__jEMctjcaAItJj8FBrilUHrEXBMKURc4BSowTFq_w8slzkgEzYUc9hVjxGdykQx_27i2
 
-sprite $ClipboardQuestionLg [15x20/16z] VSor0S0m44FH7-Pe_sa3HbL-rQ48PfqTnQtFIh8h2FjBdujEloLkBf2xr71VlkQtvcvY64SB-nSzjugZexCew6MOr31jCWV83KkQIuvRPdi1
+sprite $ClipboardQuestionLg [15x20/16z] VSd50O0m40NHmPtflrgSP4zvfoyyUjUAPFSoy9bzSDkyRE2jdqqrs2pOjtXp6_sqL7KD_ku3TfC5CDcXCg2ne9aC9Z2gMX-BHkm6qma
 
-!procedure ClipboardQuestion($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ClipboardQuestion', $name, $tech)
+!procedure ClipboardQuestion($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ClipboardQuestion', $name, $tech, $desc)
 !endprocedure

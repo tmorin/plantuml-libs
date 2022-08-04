@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/FaceGrimace')
 
 ' renders the element
-FaceGrimace('FaceGrimace', 'Face Grimace', 'an optional tech label')
+FaceGrimace('FaceGrimace', 'Face Grimace', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/FaceGrimace')
 
 ' renders the element
-FaceGrimace('FaceGrimace', 'Face Grimace', 'an optional tech label')
+FaceGrimace('FaceGrimace', 'Face Grimace', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Deploydog')
 
 ' renders the element
-Deploydog('Deploydog', 'Deploydog', 'an optional tech label')
+Deploydog('Deploydog', 'Deploydog', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Deploydog')
 
 ' renders the element
-Deploydog('Deploydog', 'Deploydog', 'an optional tech label')
+Deploydog('Deploydog', 'Deploydog', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

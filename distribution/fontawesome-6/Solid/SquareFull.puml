@@ -8,6 +8,6 @@ sprite $SquareFullMd [16x16/16z] un_X
 
 sprite $SquareFullLg [20x20/16z] unzKO1G
 
-!procedure SquareFull($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/SquareFull', $name, $tech)
+!procedure SquareFull($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/SquareFull', $name, $tech, $desc)
 !endprocedure

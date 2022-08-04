@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ImagePortrait')
 
 ' renders the element
-ImagePortrait('ImagePortrait', 'Image Portrait', 'an optional tech label')
+ImagePortrait('ImagePortrait', 'Image Portrait', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ImagePortrait')
 
 ' renders the element
-ImagePortrait('ImagePortrait', 'Image Portrait', 'an optional tech label')
+ImagePortrait('ImagePortrait', 'Image Portrait', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

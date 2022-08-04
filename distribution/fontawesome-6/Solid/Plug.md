@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Plug')
 
 ' renders the element
-Plug('Plug', 'Plug', 'an optional tech label')
+Plug('Plug', 'Plug', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Plug')
 
 ' renders the element
-Plug('Plug', 'Plug', 'an optional tech label')
+Plug('Plug', 'Plug', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

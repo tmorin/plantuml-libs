@@ -2,12 +2,12 @@
 
 sprite $KickstarterXs [8x10/16z] Ou02LduCm024GC03b8NIV30-N1u6u4m
 
-sprite $KickstarterSm [10x12/16z] Oq00Vgo0XvUV4y9YO61Zu0QpmAfXB5OuYu4FoW8Xh8213mfu
+sprite $KickstarterSm [10x12/16z] Oq00Vgo0XvUV4y9YO61Zu02pmAfXB5OuYu4FoW8Xh8213mfu
 
-sprite $KickstarterMd [14x16/16z] VSV50SCm542nPsR__QTjmvpe9ivgt_actteIgMKTX0xx7CS1zJJPfq7jSmxYCaqHHPPluJJK0Ny
+sprite $KickstarterMd [14x16/16z] VOl50O0m0CI2ExV_j3ZrDh-JuBFkbdvJcNsIrkLFqEzWKukRWDLBigd6ypeOlbGn2sQL6Ro4nma
 
-sprite $KickstarterLg [17x20/16z] dSYr0K9H0C30V7aksNzR6jpXoeDxUxon1FypibgwPx0OmPC93Eu2sEx3Zn5l8WF34y0Ty0I2GlShqpjuQt3l
+sprite $KickstarterLg [17x20/16z] dSsr0O1050JHmPtflriItEzU-6MNYpGxe33EKAjDxmem1nSZC70Q0CbvuESWFmngO3ZKPi1kK2Zq_Z9wWaS3PnC
 
-!procedure Kickstarter($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Kickstarter', $name, $tech)
+!procedure Kickstarter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Kickstarter', $name, $tech, $desc)
 !endprocedure

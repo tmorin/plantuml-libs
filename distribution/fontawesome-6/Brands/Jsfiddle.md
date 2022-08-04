@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Jsfiddle')
 
 ' renders the element
-Jsfiddle('Jsfiddle', 'Jsfiddle', 'an optional tech label')
+Jsfiddle('Jsfiddle', 'Jsfiddle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Jsfiddle')
 
 ' renders the element
-Jsfiddle('Jsfiddle', 'Jsfiddle', 'an optional tech label')
+Jsfiddle('Jsfiddle', 'Jsfiddle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

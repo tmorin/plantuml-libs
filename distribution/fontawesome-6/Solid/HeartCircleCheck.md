@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HeartCircleCheck')
 
 ' renders the element
-HeartCircleCheck('HeartCircleCheck', 'Heart Circle Check', 'an optional tech label')
+HeartCircleCheck('HeartCircleCheck', 'Heart Circle Check', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HeartCircleCheck')
 
 ' renders the element
-HeartCircleCheck('HeartCircleCheck', 'Heart Circle Check', 'an optional tech label')
+HeartCircleCheck('HeartCircleCheck', 'Heart Circle Check', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

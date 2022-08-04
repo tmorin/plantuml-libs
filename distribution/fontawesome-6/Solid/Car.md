@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Car')
 
 ' renders the element
-Car('Car', 'Car', 'an optional tech label')
+Car('Car', 'Car', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Car')
 
 ' renders the element
-Car('Car', 'Car', 'an optional tech label')
+Car('Car', 'Car', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

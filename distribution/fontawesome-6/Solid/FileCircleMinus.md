@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FileCircleMinus')
 
 ' renders the element
-FileCircleMinus('FileCircleMinus', 'File Circle Minus', 'an optional tech label')
+FileCircleMinus('FileCircleMinus', 'File Circle Minus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FileCircleMinus')
 
 ' renders the element
-FileCircleMinus('FileCircleMinus', 'File Circle Minus', 'an optional tech label')
+FileCircleMinus('FileCircleMinus', 'File Circle Minus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

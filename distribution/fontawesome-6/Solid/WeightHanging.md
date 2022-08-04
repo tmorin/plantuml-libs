@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/WeightHanging')
 
 ' renders the element
-WeightHanging('WeightHanging', 'Weight Hanging', 'an optional tech label')
+WeightHanging('WeightHanging', 'Weight Hanging', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/WeightHanging')
 
 ' renders the element
-WeightHanging('WeightHanging', 'Weight Hanging', 'an optional tech label')
+WeightHanging('WeightHanging', 'Weight Hanging', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

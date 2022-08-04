@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Mosquito')
 
 ' renders the element
-Mosquito('Mosquito', 'Mosquito', 'an optional tech label')
+Mosquito('Mosquito', 'Mosquito', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Mosquito')
 
 ' renders the element
-Mosquito('Mosquito', 'Mosquito', 'an optional tech label')
+Mosquito('Mosquito', 'Mosquito', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

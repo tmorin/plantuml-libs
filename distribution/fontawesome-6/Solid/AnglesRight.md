@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/AnglesRight')
 
 ' renders the element
-AnglesRight('AnglesRight', 'Angles Right', 'an optional tech label')
+AnglesRight('AnglesRight', 'Angles Right', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/AnglesRight')
 
 ' renders the element
-AnglesRight('AnglesRight', 'Angles Right', 'an optional tech label')
+AnglesRight('AnglesRight', 'Angles Right', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

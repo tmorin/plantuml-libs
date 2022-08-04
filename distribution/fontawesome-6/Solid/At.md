@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/At')
 
 ' renders the element
-At('At', 'At', 'an optional tech label')
+At('At', 'At', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/At')
 
 ' renders the element
-At('At', 'At', 'an optional tech label')
+At('At', 'At', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,12 +2,12 @@
 
 sprite $HandXs [10x10/16z] Om01FWO8u0T318iFncBZHsN108o5485BCiBLCG
 
-sprite $HandSm [12x12/16z] VSQr0G0X04MnTwxmzvyMjufK8R4KbnQX_3zzNuRBJfzPgxCTDGRQDrZgYMez
+sprite $HandSm [12x12/16z] VSUr0G0X0CNGd2ly_QV5hIBL2obBwT8YbFqdhwDbfyvPgxqPjGnzDlf06_
 
-sprite $HandMd [16x16/16z] bSYr0S0m00D1cTdQVzemgSntzxYQU3CTayRqsursSwUxt0yFUblLdUQq--adapZ5ZHnVOxmuh0EGqQ03P_5K1x02
+sprite $HandMd [16x16/16z] dSYr0S104CH0cUcW_shDjEah6t4N_38YAuox9GzRrhVjjE-UrPQ5VcF842-P_ZUU_q07EXPqSDLVCc03
 
-sprite $HandLg [20x20/16z] hT052WH150FHj7lN_K-xxd_nAVmHB7eMjxxB4bI5-ARE53I1rxF9VbZyQsnZ2OpbO-mp1N2_1c1tmFesHNwJHMJHoU3GlS2xprVlPLqw0m
+sprite $HandLg [20x20/16z] hT2r0S0m50DHcTdQVzemVvUvyfM7CzlnpW1aXD8tPTR54aXrMMK_J0-DNPWZXVb_x1aCAOnBNrDSQc-3vJSC418L11RigOSzh-vPBCq
 
-!procedure Hand($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Hand', $name, $tech)
+!procedure Hand($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Hand', $name, $tech, $desc)
 !endprocedure

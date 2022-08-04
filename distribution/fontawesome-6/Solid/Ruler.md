@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Ruler')
 
 ' renders the element
-Ruler('Ruler', 'Ruler', 'an optional tech label')
+Ruler('Ruler', 'Ruler', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Ruler')
 
 ' renders the element
-Ruler('Ruler', 'Ruler', 'an optional tech label')
+Ruler('Ruler', 'Ruler', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

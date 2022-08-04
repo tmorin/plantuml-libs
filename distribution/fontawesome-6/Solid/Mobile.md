@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Mobile')
 
 ' renders the element
-Mobile('Mobile', 'Mobile', 'an optional tech label')
+Mobile('Mobile', 'Mobile', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Mobile')
 
 ' renders the element
-Mobile('Mobile', 'Mobile', 'an optional tech label')
+Mobile('Mobile', 'Mobile', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

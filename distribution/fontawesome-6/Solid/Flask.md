@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Flask')
 
 ' renders the element
-Flask('Flask', 'Flask', 'an optional tech label')
+Flask('Flask', 'Flask', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Flask')
 
 ' renders the element
-Flask('Flask', 'Flask', 'an optional tech label')
+Flask('Flask', 'Flask', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TentArrowLeftRight')
 
 ' renders the element
-TentArrowLeftRight('TentArrowLeftRight', 'Tent Arrow Left Right', 'an optional tech label')
+TentArrowLeftRight('TentArrowLeftRight', 'Tent Arrow Left Right', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TentArrowLeftRight')
 
 ' renders the element
-TentArrowLeftRight('TentArrowLeftRight', 'Tent Arrow Left Right', 'an optional tech label')
+TentArrowLeftRight('TentArrowLeftRight', 'Tent Arrow Left Right', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

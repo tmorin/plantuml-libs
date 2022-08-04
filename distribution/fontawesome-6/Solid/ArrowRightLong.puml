@@ -2,12 +2,12 @@
 
 sprite $ArrowRightLongXs [10x10/16z] Oy0D-14iP2OVFmp0nNZG6Goio0O1
 
-sprite $ArrowRightLongSm [12x12/16z] Oo00c93O_Fn8uY0E8nImyFFpySC1GXKdFpU2oGKNHZ0n0G
+sprite $ArrowRightLongSm [12x12/16z] Oo01yFCZs8mW3YCKiF3py_730K8L9pytWia55qOmCG4
 
-sprite $ArrowRightLongMd [16x16/16z] dSWn0a0m5C3G_6y2Sl_RsW1e-xQ4PZ5mCYedFexbG5qy8tQTZknIX_TaF2Sa1LO
+sprite $ArrowRightLongMd [16x16/16z] dSYt5O1G581Gth4oil-sTiQVRmUCMtXPbHUJutXG3z-8swGhjz0bdwplXA312G
 
 sprite $ArrowRightLongLg [20x20/16z] Ow0buEF75EFdnnJa84sGbHyJy64HO-3WH0508IvCr_2W2H6dYW6X2W6OMIaECW
 
-!procedure ArrowRightLong($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ArrowRightLong', $name, $tech)
+!procedure ArrowRightLong($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ArrowRightLong', $name, $tech, $desc)
 !endprocedure

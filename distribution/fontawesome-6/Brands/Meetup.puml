@@ -2,18 +2,15 @@
 
 sprite $MeetupXs [10x10/16z] HOk30S0m44LVxMR_QOEpxmFu86EIMIJo6hUyIs6LQnEeKFOn4Tsvf0L4j9HveG4
 
-sprite $MeetupSm [12x12/16z] POS55e1058JOjEN-j_NPnOzX-3FjaN5bBwDNqPh8oTs1i4R6df6vAbHX3hXwC1SDONMYE-tgqseJEwcG4HO
+sprite $MeetupSm [12x12/16z] POg54S0m30C_pD7-s_RAz6PB_1dxy6XbFxgkGt86RuyTCElmgDAPSNr5mLpV0cJzEdUhTZB0MBV1ZWru10i
 
-sprite $MeetupMd [16x16/16z] {
-PSd5WGCm0C0mXpdUVzfZRFKL08Ldmgz-1-5t_5JvjFqICX3KPcjBwm6EHlYCGEbROK3FUiXjEq4kQWCq4Yihg761mecNf7RWk9jwGJD0zGS0oK-dyYbyfVnA
-G0TU0G
-}
+sprite $MeetupMd [16x16/16z] NS65GU00002nrBst_xJl0YHWmLVnt_uU_ac_pNwx-yC8rTQsNRK-U6hmIx7iTx6pplMOrxkJlAeDDHXNbseuAHulrOwdUwbUQeAvVy3ORy_ijw5VvBy9Exu3
 
 sprite $MeetupLg [20x20/16z] {
-PShLOSLG50CmXVbu_scBoIqy_Hc0owiESdenTpIBhfBinpvwH1w7MtUc6Re1vdpxNjP0agA7BUdSdTkGXBtkheXAmdXATfoMIP909ICrAckIGv44CM_o_Aw4
-DNjsytbtybWDIG5hVkd19arvjADPCoNRaEWp-6LQOO1t
+TSq5ZeKX303X-HtjtF-qAoIm-Zve8pM6pWis_hWtM0u8jTIoCubJPMek1wFtrg6fcWHG0yQ1h0pgkgP22LGWG4A5iw45Q3mNgW2XEyHEaDHAW0h8dN7sTONR
+Ok5iyvvJuj1WI7wp0P1n2QRLoC5oQJwKtODlzZGom3i
 }
 
-!procedure Meetup($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Meetup', $name, $tech)
+!procedure Meetup($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Meetup', $name, $tech, $desc)
 !endprocedure

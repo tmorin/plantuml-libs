@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BuildingUn')
 
 ' renders the element
-BuildingUn('BuildingUn', 'Building Un', 'an optional tech label')
+BuildingUn('BuildingUn', 'Building Un', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BuildingUn')
 
 ' renders the element
-BuildingUn('BuildingUn', 'Building Un', 'an optional tech label')
+BuildingUn('BuildingUn', 'Building Un', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

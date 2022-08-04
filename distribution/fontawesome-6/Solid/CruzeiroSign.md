@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CruzeiroSign')
 
 ' renders the element
-CruzeiroSign('CruzeiroSign', 'Cruzeiro Sign', 'an optional tech label')
+CruzeiroSign('CruzeiroSign', 'Cruzeiro Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CruzeiroSign')
 
 ' renders the element
-CruzeiroSign('CruzeiroSign', 'Cruzeiro Sign', 'an optional tech label')
+CruzeiroSign('CruzeiroSign', 'Cruzeiro Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

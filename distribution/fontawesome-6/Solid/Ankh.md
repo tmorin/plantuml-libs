@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Ankh')
 
 ' renders the element
-Ankh('Ankh', 'Ankh', 'an optional tech label')
+Ankh('Ankh', 'Ankh', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Ankh')
 
 ' renders the element
-Ankh('Ankh', 'Ankh', 'an optional tech label')
+Ankh('Ankh', 'Ankh', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

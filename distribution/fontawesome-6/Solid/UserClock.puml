@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/UserClock
 
-sprite $UserClockXs [12x10/16z] RSO50eK0409HVeVnxdzQktLsWKc7MoRkA2O75nwyiWMVv84ttGGyEy_aFni2BG
+sprite $UserClockXs [12x10/16z] RSR50OK000MWzpiCzf_MRkL4EcwPt51C1nSFNjd29tdWpPrWo3tJVpO2BG
 
-sprite $UserClockSm [15x12/16z] NSc54S003830fExilssfovzoX98c7ZDw4Zs_18tVMztPMalyeL3Hj6rfpPETxDBiJUvaX0Of-5WIvGe
+sprite $UserClockSm [15x12/16z] NOs50G0X30C3xyh-q-BLGsi9AY7j4BvKaR15KWyzV6mrSdZKw8U71VVZY3NwtXQdJWklzd2OdkedeURlCGe
 
-sprite $UserClockMd [20x16/16z] RSp50O1G3C3GmdVD_jEYnNd7L6HJyF8KM3tI09-Oj0roATgCNFnrUs5JvHERB5ohWppz_qXwKTb43vWAYA1iMPjnS2RSsbffC9mj6rJZ95qFhaRVevCP
+sprite $UserClockMd [20x16/16z] RSo50O0m40J1mvtjlreaRWEnDna7it8BFsMW2cwDsE5YdQBHnHhpJbN1Iv_fEZhbsZCsrt5YB2FG_my9fp_-hHj1PB7hkA33stkSYq0tnfJ4RXkSz08
 
 sprite $UserClockLg [25x20/16z] {
-fT05ZiCm443H7qRxt_-qkwqp2WlxX8P1DbtAFK-DHSkTeU9gDgnSkVlveJKCt2IBpCFanypNa7MkU73JlTtF-nQgP94O_62DUaa3xW-2knmFK9uV3-koHlIE
-sTtaILTf6BsWDn0H8T7ayX_-0G
+fT253SGm4031_J3Pst-rmLDG_2EsZpdKAJTy_ToLl1bu6GmJJvx-_gWCBI_9NUQZTpMmQRCEFpuyrBou6iuh_9AxHEkAAVeb3NX-29voV41ylpwcSOhi4uEd
+tfiQ3OqFr0Pwxn95tkDX0G
 }
 
-!procedure UserClock($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/UserClock', $name, $tech)
+!procedure UserClock($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/UserClock', $name, $tech, $desc)
 !endprocedure

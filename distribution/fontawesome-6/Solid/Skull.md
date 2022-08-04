@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Skull')
 
 ' renders the element
-Skull('Skull', 'Skull', 'an optional tech label')
+Skull('Skull', 'Skull', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Skull')
 
 ' renders the element
-Skull('Skull', 'Skull', 'an optional tech label')
+Skull('Skull', 'Skull', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

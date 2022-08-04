@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/KitMedical
 
-sprite $KitMedicalXs [11x10/16z] Oq02_0pyOC02nAXCe1oKoSl0m0jbWhHWAk1dP4Kp0SbS
+sprite $KitMedicalXs [11x10/16z] Oq02_0pyOC0CnAXCe1oKoSl0m0jbWhHWAk1dP4Kp0SbS
 
-sprite $KitMedicalSm [13x12/16z] XOo30S1G30Mlzil-qzR-kfXyiCuEsjKI1Tn5aqEkiyXO6QyrWTutxhVnNJ2qatOQDGi
+sprite $KitMedicalSm [13x12/16z] Oq01_9py4C0En0Gu30nm3Zj8Bn-KmmZYyC2KyG4baFLWciQ3p67Wvk3b0mCsFdO
 
-sprite $KitMedicalMd [17x16/16z] ZOu30aGX500dk-v_sjrlQy8pE64hTSQR8crhj9be1_7DKM7lA7j7OE31aOK08ROzydFJvyN4qG42iO3W3m
+sprite $KitMedicalMd [17x16/16z] Oy00R7mCV330mShBmCRFpy0F0rniG89O0Lu61hm2d10ByGZme0a0CJTkGmaxZ05301q
 
-sprite $KitMedicalLg [22x20/16z] dS_70SGW44DHsIR3eFwhtPoN_8_l907bZ87vQD-C0aWYyvrHfAIIaaiAu5zpIIK14FbMF58JQh-KbEA6idBRzD9ZMrH8GJMAdG4
+sprite $KitMedicalLg [22x20/16z] dO_50GCn40DrPbR_rOOvvdak2D10IiWF3aW1a4JX6oN9d6fJSciAu7zQQjESBjESlwTue1QcziSjLpFKfpmElTNOLgV8bQb6bJC
 
-!procedure KitMedical($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/KitMedical', $name, $tech)
+!procedure KitMedical($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/KitMedical', $name, $tech, $desc)
 !endprocedure

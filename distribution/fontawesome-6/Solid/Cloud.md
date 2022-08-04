@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Cloud')
 
 ' renders the element
-Cloud('Cloud', 'Cloud', 'an optional tech label')
+Cloud('Cloud', 'Cloud', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Cloud')
 
 ' renders the element
-Cloud('Cloud', 'Cloud', 'an optional tech label')
+Cloud('Cloud', 'Cloud', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

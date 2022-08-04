@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UpLong')
 
 ' renders the element
-UpLong('UpLong', 'Up Long', 'an optional tech label')
+UpLong('UpLong', 'Up Long', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UpLong')
 
 ' renders the element
-UpLong('UpLong', 'Up Long', 'an optional tech label')
+UpLong('UpLong', 'Up Long', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

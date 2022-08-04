@@ -2,15 +2,15 @@
 
 sprite $ShrimpXs [10x10/16z] Oq00VYXWu4E8SO05W0WapGraGPaW5WT80HUG1OHG09A5oZF2MGm
 
-sprite $ShrimpSm [12x12/16z] JSor0G810C30mvtiFotoVbMgs6hXRRNhyUT-WBgyK-7UkrIXnjx1kPGsawblU4vTX-v6x_V-m1S
+sprite $ShrimpSm [12x12/16z] JSP50S000CImZldgN-sOyWf_lWW_JWV60a2xY0gCnlC2Uhq0QCuZB-yFm7nV2qSk2ILi
 
-sprite $ShrimpMd [16x16/16z] NSV50G0n08H0ufxjlzjpdHVm5-QB8Kxt0jF1cr4xc58Th8ga9faXoG1cNSuNgptE5wlNi-ldPoOdXot6IhmatUyBgwn-VfPScnvEO_skniqO3Ai5
+sprite $ShrimpMd [16x16/16z] POw50SGW00DJtBF_j2_5uIeGGN2Yom9WYbW0YZpwZ9N7X-SrFCb8FlatrWOZggx6Ewcw6el6IspQeg0Xy5WyjT2n75hvQgGPYRZSDVzqOiJ55m
 
 sprite $ShrimpLg [20x20/16z] {
-TO-50SGW00DJnSd-qxxWUYrsMC2Ij-S6m043M8i9Rp1nq9d42wEkQ2KJ2YHvnEqaSMR7EuGXUPheoigwDxL9LYSHSTMTAEbqT1O7EQI5vEXWsJgfZX3Cyoqk
-BA033XHqS2LAVI4zDdm1
+TOy50eGm3C22wvR_l_QqE6HQRxcbEb82dfXWdhcG9wwOfg1b6eg_iZSOK8rmbTBGMGEqQZcjElconSORoatNyoTjkeA9OFphPb1Ez5vqitjT_ozNPMi8L351
+mSgeihMoJMZcWJS
 }
 
-!procedure Shrimp($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Shrimp', $name, $tech)
+!procedure Shrimp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Shrimp', $name, $tech, $desc)
 !endprocedure

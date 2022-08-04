@@ -2,12 +2,12 @@
 
 sprite $TerminalXs [11x10/16z] Oq00Ndu4cn-PpOU3ZM2nmraSS1Od0mCR1721k6
 
-sprite $TerminalSm [13x12/16z] JOZ50G0n08FEfSR-qzOb-GJOT6yGsL4xyM8NJWqh1ei3rsJBFTdmJ7vvj-scRQyzj2K
+sprite $TerminalSm [13x12/16z] JOZ70O100CAmTxF_j7hzu4CI-RRN3RUHnspYDfkvpA3pozJuOcbyiZRUsAI5FAN-vlq
 
-sprite $TerminalMd [17x16/16z] POt50S103CEEET7-qvQv-YbWcn_zuuf-9Y2_oVXDsczItmCBvJqfyFBqyG3ku_xf7kAhOVSw3hgIrpaNnXwN9pC
+sprite $TerminalMd [17x16/16z] POtL0K0n309JzxB_jCyrtDz5G8YcV6Ag2J1eqcbIQL9eal-33FmyAlU0-Re3tDSju5L3497IBzf4EiOFeba1
 
-sprite $TerminalLg [22x20/16z] ZOvL0e1020Mnsxd_QUrs5vXFU2LXoj1nW90Kni2v9gXkmkfsFRlLNJHa29n3GnAW32ahzx5s7njPAM_IuLJofAIL_rM2p
+sprite $TerminalLg [22x20/16z] ZSnL0e10201Hx7RkVrgxtGNcyn4IBWlX004jOGnmJN2x2M-tAxktk-YJ8S104CiGLcwitTZ8MdcN3kScpqfQ-Qi4cm4
 
-!procedure Terminal($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Terminal', $name, $tech)
+!procedure Terminal($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Terminal', $name, $tech, $desc)
 !endprocedure

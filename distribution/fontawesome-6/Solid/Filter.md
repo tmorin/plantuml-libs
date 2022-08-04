@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Filter')
 
 ' renders the element
-Filter('Filter', 'Filter', 'an optional tech label')
+Filter('Filter', 'Filter', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Filter')
 
 ' renders the element
-Filter('Filter', 'Filter', 'an optional tech label')
+Filter('Filter', 'Filter', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

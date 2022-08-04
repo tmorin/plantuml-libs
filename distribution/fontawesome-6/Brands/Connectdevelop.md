@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Connectdevelop')
 
 ' renders the element
-Connectdevelop('Connectdevelop', 'Connectdevelop', 'an optional tech label')
+Connectdevelop('Connectdevelop', 'Connectdevelop', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Connectdevelop')
 
 ' renders the element
-Connectdevelop('Connectdevelop', 'Connectdevelop', 'an optional tech label')
+Connectdevelop('Connectdevelop', 'Connectdevelop', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

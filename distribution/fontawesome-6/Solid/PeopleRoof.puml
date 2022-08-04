@@ -1,19 +1,19 @@
 ' definition of the Item fontawesome-6/Solid/PeopleRoof
 
-sprite $PeopleRoofXs [12x10/16z] DS570GD1000XhlST_sxp2W33twXsi1GADRDorVvY2i9cYG-UL9fHrLQ3ghUvEbIjFjKF
+sprite $PeopleRoofXs [12x10/16z] DSI70OG008F0-rwL_QUrcm30wDnOFS6jSEJAdKyz_z2PXriCy4kb2wfwr4ZLFzLBrSsWcW4
 
-sprite $PeopleRoofSm [15x12/16z] HSd5TS00042X7_Um_xPzTQxqRH_xDyBGjm6DwDFx4ojN6tFbh0xQ-kJfqrNTbRUMfK_U8Feq3LwiurW5Cq7vrBQkiERaU4kCFW
+sprite $PeopleRoofSm [15x12/16z] HS65SS00002XZtlOVzjU7VgsZ_qReLzeG9zU-ZHnjJ5MpkgWhK-UFbtLNNbhMVha3Q9FGrwizGbcWW9jwm9hJewtnEW3
 
 sprite $PeopleRoofMd [20x16/16z] {
-NSo5bG0X303HMLyiqt-tzmBd7oV2botuPrDj_3RKfjvyUTKNwEf9kjNwrLFTsTG1SBIvgsFeHjANT2aRo-FNRPxz0i82ZBn-PcFYK9PeE5r4PRfREtpLyEvj
-1-YcKsNTO7D2nzSLK_K5ObqVFDGt0d3BQ_S3
+NKw50GGn2AFdLsp_RP-GzxIuHLuO8V_8Wlval3Apv7XdhehEibPsxSo67Y6Y_D6B7E6YhH7MfjUHg-tQ2U9C-ORjlUe60RZSGNxvDHZALEuIDrERwfhW67cO
+ZjwM05YoUn4PPHWxSw_biya5tLCIrAy8q1vmBHy
 }
 
 sprite $PeopleRoofLg [25x20/16z] {
-RT25jLWX0C3Gu4_9_jls8Fr-SHU-U1j_ELKBFrMtm5T5zGwpUBuCEJ2qEOCfF6eltuuwW5krCcIchfeVzMIw_vySNxNQsLwDB57vuchyy5npgtLMiB3TceaE
-BwXiJHFTgV8g_-L4SeCQMABJ-W_laJC4foUhul-ZmEM9iyEbG74BXC1jTmAjgibtRNlfo0xw7LHvrq2jQWyU_m
+RSs5eTWm303H2yTu-szRKpy_CqZYY_Bmbs1pyDFjil7LOPCuRJAVxEYU-MFAQjrPNfiRI6lJd0pLvipgov2KOIlgRMKfkZ7joXVnuOSSQTAgvSMIz02x0YhB
+enlLuQGe_-qRkmiSB9l3PPDDVVvwdqyR70gDKsPSE5rmkj15gmFeRNEumgDDzAKcR2ZpuRhKYky_
 }
 
-!procedure PeopleRoof($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PeopleRoof', $name, $tech)
+!procedure PeopleRoof($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PeopleRoof', $name, $tech, $desc)
 !endprocedure

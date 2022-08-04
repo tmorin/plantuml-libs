@@ -1,19 +1,19 @@
 ' definition of the Item fontawesome-6/Solid/Gears
 
-sprite $GearsXs [12x10/16z] HOk50O0m4CI2Ezb_MgWtxtB0I6ENmcA4Z2UzD_er8nYXF4x2wJFvjiUkAZ-z_m4
+sprite $GearsXs [12x10/16z] HOk50O0m4CI2Ezb_MgWtxtB0I6ENmcA4Z2UzD_er8nYXF0x2wJFvjiUkAZ-z_m4
 
-sprite $GearsSm [15x12/16z] LOt50O003CI2MqlsdnRNl2ed00LVzBUezfoKEZOQNwdoVgFLmCIulGEg-IIFEcgnwnkO5UB9g4xz-EiF7ZIL5G
+sprite $GearsSm [15x12/16z] LOt50O104CI2E-c_MlGqhvKH7XfAj5fUPduQNLlTyxUKlv_X_NhW7hqBgaTANdNvFKq7fyAkEUBLhrN_Jh4UoWq
 
 sprite $GearsMd [20x16/16z] {
-NSt50O0m5C3Gu53B_jFY_YxjTpOr_6dYOsooEdGDjzhBDnUQRuwiWBxl5DsxMsWQc83HLN75j7xMNmLUQ5wtclEJtRLiTDnNci0LbzPzLNhd2DVEaSVehk9b
-SCTRerMZi
+RSx50SKm3C1GkSpQVzgFnIJlPZPV5HbTU1YgLUtR2WwL1pY4EiKpnwg01fTD8RI6ge8E65GtLKRTDWKyKDrkrUg-MO_5EW3g0ggFfu3bdcCwTWvSEd-uQmgv
+IWc5Dm
 }
 
 sprite $GearsLg [25x20/16z] {
-RT054e0W503HLS9cxtzRnyutGVC35e5_Ad-2cdWh5XVbzIfvwU5Ik-o4RXaoTra59cru7nHW-1oe1gfbO1a01Lel8-u6mCjrBGCXLgCwrI52ETu-MvAM_KId
-Je55D_RBSFo-dClfEfZU1yso4ydgc7bmD_5of9jukGfy2LeHB3NC
+RT07aeGm3031aRqPhFd_Qo_Vgb3HP1mK-34vft9cgbUwD5NDjkfgUK49rLVSjMytLM3fdJwGm6OVK9s4Ab2tXsN7FnjWgMaJYC6kheW1-R_ss99hgbUUwffy
+U-ulWF_TKvMt6bXzuBxKmKtTBnpuPz5KkaqLs0mDfXdm2G
 }
 
-!procedure Gears($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Gears', $name, $tech)
+!procedure Gears($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Gears', $name, $tech, $desc)
 !endprocedure

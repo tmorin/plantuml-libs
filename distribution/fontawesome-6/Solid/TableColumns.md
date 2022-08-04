@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TableColumns')
 
 ' renders the element
-TableColumns('TableColumns', 'Table Columns', 'an optional tech label')
+TableColumns('TableColumns', 'Table Columns', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TableColumns')
 
 ' renders the element
-TableColumns('TableColumns', 'Table Columns', 'an optional tech label')
+TableColumns('TableColumns', 'Table Columns', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

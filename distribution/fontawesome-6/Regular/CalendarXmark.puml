@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Regular/CalendarXmark
 
-sprite $CalendarXmarkXs [8x10/16z] NOV50K0X04BV3plOVrhx90qau1dMS2Rg0WjcjD1gg_DpMVtXC2d72NK
+sprite $CalendarXmarkXs [8x10/16z] NOV50K0X04BV3plOVrhx90qau1dMS2Rg0WllQA7LLkVdilh3yQOS9zG1
 
-sprite $CalendarXmarkSm [10x12/16z] VSdL5S0m34FHLsPf_sbBElxDJSp0_eRuED6vQIRqTlk9kx_3laWdR-asrJKqkpm
+sprite $CalendarXmarkSm [10x12/16z] Os1Wu09YFWOGu8TXl8250GBuW2mk7WP-C0kaYHVC0X6S41Od7rWMeOCDRWW
 
-sprite $CalendarXmarkMd [14x16/16z] ZOl50S0W40GtRi3qNoqEzysWjwACbzqwAFTE_JkFovHxFVZFQW0owdImo34c1HpNd0IVvlGHsCQqSofORosdJmPbDX8
+sprite $CalendarXmarkMd [14x16/16z] ZOq30W0X54Gdkxd_QTTchxw5WO9TGtBKOj8c5-Q1KSEm7UmyH8e2cLkjCjFjdMJQvn8hvHf9MjHzJenolm0UwG4
 
-sprite $CalendarXmarkLg [17x20/16z] dSf75a8n3CNGzrjwhFslbWvsfjoXZlHm3hsOFYPwIfnhoBo2iIYDFym8G57zX4CFkuT2bS23e1Wj1053CHZa68m9oKDcQ0SFUksN1rVfp1Q0MBKx
+sprite $CalendarXmarkLg [17x20/16z] dSe53WCn30NHlnZstF-qvTQELD6-y2XwsBjUJ1y3FMqiVuCnEIiNZ0X0KVg4vRLvo1G9F0YoKKCGq1M3GOh1671wI7Gju46lxuS7bsYC6e2OrJi
 
-!procedure CalendarXmark($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Regular/CalendarXmark', $name, $tech)
+!procedure CalendarXmark($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/CalendarXmark', $name, $tech, $desc)
 !endprocedure

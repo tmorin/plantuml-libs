@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ShieldCat')
 
 ' renders the element
-ShieldCat('ShieldCat', 'Shield Cat', 'an optional tech label')
+ShieldCat('ShieldCat', 'Shield Cat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ShieldCat')
 
 ' renders the element
-ShieldCat('ShieldCat', 'Shield Cat', 'an optional tech label')
+ShieldCat('ShieldCat', 'Shield Cat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Asterisk')
 
 ' renders the element
-Asterisk('Asterisk', 'Asterisk', 'an optional tech label')
+Asterisk('Asterisk', 'Asterisk', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Asterisk')
 
 ' renders the element
-Asterisk('Asterisk', 'Asterisk', 'an optional tech label')
+Asterisk('Asterisk', 'Asterisk', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

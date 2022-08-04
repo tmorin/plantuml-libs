@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ToriiGate')
 
 ' renders the element
-ToriiGate('ToriiGate', 'Torii Gate', 'an optional tech label')
+ToriiGate('ToriiGate', 'Torii Gate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ToriiGate')
 
 ' renders the element
-ToriiGate('ToriiGate', 'Torii Gate', 'an optional tech label')
+ToriiGate('ToriiGate', 'Torii Gate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

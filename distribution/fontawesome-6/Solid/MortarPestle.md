@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MortarPestle')
 
 ' renders the element
-MortarPestle('MortarPestle', 'Mortar Pestle', 'an optional tech label')
+MortarPestle('MortarPestle', 'Mortar Pestle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MortarPestle')
 
 ' renders the element
-MortarPestle('MortarPestle', 'Mortar Pestle', 'an optional tech label')
+MortarPestle('MortarPestle', 'Mortar Pestle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

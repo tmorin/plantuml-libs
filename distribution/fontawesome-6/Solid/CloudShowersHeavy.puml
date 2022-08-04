@@ -2,15 +2,15 @@
 
 sprite $CloudShowersHeavyXs [10x10/16z] HOQ30S0m00IlZRt_j36U1oJ3Kfbwv3eSvKlo4le06JIbUuv8O-BazD4
 
-sprite $CloudShowersHeavySm [12x12/16z] RSA54SCm00GmXT7-_QSjSwCJshGUzjnqa0SqULZ9iJvljZnrqD3UraKQCOHeenHfpLK6qOGp
+sprite $CloudShowersHeavySm [12x12/16z] RS450e80002nsUtz_xLs0XlcpRqSUvX3Bz3BdgOj-tAebpbW1iuRaMLabjD9RC-QYxW2
 
-sprite $CloudShowersHeavyMd [16x16/16z] VSg50GCn30J1DREl_swZCFyOX1Y_9o-MJ7ApSH7q06Re8LpN7sO2lLbDnwBUiT_7G7Zmc06kGOcNb21OzjH80hJj9OgkAGgqQ-uilQvsUz3jSG8
+sprite $CloudShowersHeavyMd [16x16/16z] VSh5OKD150F0-Ooxwh_QnCpsN1v8qDOTDoK7Wtq1cjo0BJSDbDpi7NbIblpMvvdw7AEzQM2ZMPWwDdIXXCpw89KCffnNQIsNFSsbkXBMu1y
 
 sprite $CloudShowersHeavyLg [20x20/16z] {
-ZSg5eKCX04FHYplPVzelzJu_U0B_x53Ysz0_WuiExghkkgJ6dJuPrbdXdzUdKGmqBJchjNanyrgZhw80KLy6EwO0HSW2L06Z2UK_ao2eyD-c-zDfm93XsTRx
-vRuvTPWosFUtyMoZmlq2lm
+ZSo55OH034NHDu8JVl_TxidYpeMn62wQAlPCBX1IOD9gr4lg66ahS8urkBYBcGSx7OMei-5ZBEkC_XHAK6h7k348K0dr_zBY-m2DnoJ8Ql1iDJwJZpB1d6t7
+oxWbzJuo4CQoWE_ChMcym0y
 }
 
-!procedure CloudShowersHeavy($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CloudShowersHeavy', $name, $tech)
+!procedure CloudShowersHeavy($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CloudShowersHeavy', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ShieldDog')
 
 ' renders the element
-ShieldDog('ShieldDog', 'Shield Dog', 'an optional tech label')
+ShieldDog('ShieldDog', 'Shield Dog', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ShieldDog')
 
 ' renders the element
-ShieldDog('ShieldDog', 'Shield Dog', 'an optional tech label')
+ShieldDog('ShieldDog', 'Shield Dog', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

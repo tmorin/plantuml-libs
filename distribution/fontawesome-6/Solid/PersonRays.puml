@@ -2,18 +2,18 @@
 
 sprite $PersonRaysXs [10x10/16z] Os800du6ACd93w5159pa1z8G1fJ92MUnWmJPeTBCKFKW5jWGg1W_
 
-sprite $PersonRaysSm [12x12/16z] 9Sd5WG9H0C3G1unR-gzsXN-Bl46mwKLjx7c5YpLWFzS1LDq3jt_k1Rh_ENYbUWNZ35Zfa-d5tk1Nhos3lVe5
+sprite $PersonRaysSm [12x12/16z] FSd50SGm0CH0XStglzg36EQriFCdGC0Dz84ecq21H_YB-OPEjVRu-DUprR-U-ITPJmyFUCYnGRJdpIr8psn-0G
 
 sprite $PersonRaysMd [16x16/16z] {
-HSo70O0W34JHq3kt_xQc27phYu9l90MGjXjq0C0UP0DWoLSuue6N1NmD9iSCOpHw5KZFqFRXWfMC0IVpG1BC3My3Hsf-lWqp-s-80piMuSPnGPLNTqmLRJDr
-YCxFXWy
+HOc54GH12C3WJrVJVxUF37DPJVWrSGuas8q8G3wI0PPFFJRKxf-T4JzHssCq-RXnFYVOfOlaIbMAzC7fCZUQGINStW9kPibmFyoFntLJ_l3wLylbfVaqei-a
+yGS
 }
 
 sprite $PersonRaysLg [20x20/16z] {
-JT053W0n30D17tFs_xyzMIcjg9f6vFbLTZ0h-rv2RWFa5b3m-NbLWqtw4eFBLvYCYsgFoPcEvxbNIRDQu6uD1TdSQQNMZTPPwOB0HJ_qFsxkXmTAywjLBUks
-ZBOytTOx3UPcDrzTebckP6gM-9aySmYK-0C
+JT053W0n30D17tFs_xyzMIcjA9fQrFbLTZ0f-rv2RWFaPb3m-RogmIPzYS7b5IRZfDfZSgRZUUuvxnguMqD1DdUQgNMZTLQw873HXtx7pNrue3HVhMfPjsMq
+-Ucst6amDRlvwayqqsSqDKlyJ5w7G8a_
 }
 
-!procedure PersonRays($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonRays', $name, $tech)
+!procedure PersonRays($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonRays', $name, $tech, $desc)
 !endprocedure

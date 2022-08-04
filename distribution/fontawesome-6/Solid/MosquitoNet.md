@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MosquitoNet')
 
 ' renders the element
-MosquitoNet('MosquitoNet', 'Mosquito Net', 'an optional tech label')
+MosquitoNet('MosquitoNet', 'Mosquito Net', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MosquitoNet')
 
 ' renders the element
-MosquitoNet('MosquitoNet', 'Mosquito Net', 'an optional tech label')
+MosquitoNet('MosquitoNet', 'Mosquito Net', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/GroupArrowsRotate')
 
 ' renders the element
-GroupArrowsRotate('GroupArrowsRotate', 'Group Arrows Rotate', 'an optional tech label')
+GroupArrowsRotate('GroupArrowsRotate', 'Group Arrows Rotate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/GroupArrowsRotate')
 
 ' renders the element
-GroupArrowsRotate('GroupArrowsRotate', 'Group Arrows Rotate', 'an optional tech label')
+GroupArrowsRotate('GroupArrowsRotate', 'Group Arrows Rotate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

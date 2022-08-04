@@ -2,12 +2,12 @@
 
 sprite $EraserXs [10x10/16z] LSR50G0X00InFLUO_gl5DQzezb3o0YtG0Y5INaZgahU4QESyJwxpb3Oo3m
 
-sprite $EraserSm [12x12/16z] POor0S103CJqTXNK_jC6htkPaObX4KhjFsrDaLGBIWD38Rd2NrJdcpPe9Vs20LZFS0C
+sprite $EraserSm [12x12/16z] POmr0e1G5CFwouJc_gT5iv7bIIL_6942TUMXhXxFAXcGk3_hTtIoxRNp7jOWhtavv08
 
-sprite $EraserMd [16x16/16z] TOg54S0m3CJUPVxzjssOhQ1qXiOibPAyApLSjUR0o1qq1wyvUSqpGMEOPgyXp13Jl1zMWSk4h3uy1l8pz-r31WOf-04
+sprite $EraserMd [16x16/16z] TOg54S0m483gth3_j74Ned0_ZLZdGe6tL7XAJO706pK5eoavJJDEOrXMep4ivfcTNrQdnuIeBdmQ4Ff-NKXC5Ge
 
-sprite $EraserLg [20x20/16z] XOy54e1030DJtFd_RsbECuCjUZjL_60tCv_dSLC4od96Rb54eYerIgXHbIr5mKGoYc-LcFnbKDaYHeaqzFGYUMASEkFFu3yDI9UYqkz0_3loswJ8soBjpTsv
+sprite $EraserLg [20x20/16z] bOi53W0X40CNplt_hyLAass8tU2JmNvpVDyxg8geymDI4Qc8L4GhSFVAJCApvyxjK4v6Wt8os58zGMM-2wqgpBpOX8fohPHpgsU4LFX9tKW6
 
-!procedure Eraser($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Eraser', $name, $tech)
+!procedure Eraser($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Eraser', $name, $tech, $desc)
 !endprocedure

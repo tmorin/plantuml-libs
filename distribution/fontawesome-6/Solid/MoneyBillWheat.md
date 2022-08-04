@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MoneyBillWheat')
 
 ' renders the element
-MoneyBillWheat('MoneyBillWheat', 'Money Bill Wheat', 'an optional tech label')
+MoneyBillWheat('MoneyBillWheat', 'Money Bill Wheat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MoneyBillWheat')
 
 ' renders the element
-MoneyBillWheat('MoneyBillWheat', 'Money Bill Wheat', 'an optional tech label')
+MoneyBillWheat('MoneyBillWheat', 'Money Bill Wheat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

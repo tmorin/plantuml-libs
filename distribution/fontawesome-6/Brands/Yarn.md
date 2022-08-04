@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Yarn')
 
 ' renders the element
-Yarn('Yarn', 'Yarn', 'an optional tech label')
+Yarn('Yarn', 'Yarn', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Yarn')
 
 ' renders the element
-Yarn('Yarn', 'Yarn', 'an optional tech label')
+Yarn('Yarn', 'Yarn', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,18 +2,18 @@
 
 sprite $RestroomXs [12x10/16z] NSR50K81040XxFRjFwtjhnDmnetj1aLVGBuKsTTUbJvCVvlSwPR5bUcV
 
-sprite $RestroomSm [15x12/16z] NSc54S0m4CJ02tFKVxLcPksyf5_IfXG2r__gO_T-5HX3ztD6nW1cJu0bl6GoyC_yOapiA4-_ofMJjL8-1be
+sprite $RestroomSm [15x12/16z] LSc54SD04C109MPK_zMQdbax1vp0G0pqwVCV0tO-Xc3Tvi0Gwl-bQdXDb9PduX42UqdJe_3lwByG_qBB6m
 
 sprite $RestroomMd [20x16/16z] {
-TSi53iGm44DHbyA9xt_RrT1oNVfzKW0S2x8fhzCQ9EMFrijjl5c7ReTRD8xUcrlqHfcRTt-peRs1kg4MJPkPuvj5dqlUSubTHWiW4mlUpbuVTfA5zVmmxOmx
-kvZ5l2yy
+TSi7ZiCm44DHgdVn_hTT3BX9NEdsyGm121ksPQ-e1aa0ZceXEGys09k3xDlmOtJPjq6RxDFZO5EjNvnmXwPsCCw3VJfiUwzj5aKR82Ch3cSJZkR9pEQFPkrP
+y6Q1vM09Vm
 }
 
 sprite $RestroomLg [25x20/16z] {
-dP450eKm3CMAJ_lkVrgaPVhz1mt1HoU61xe8asmiax82a1t4HicsmUH035k5GJIHGeFntiyQMXMM55Xq8Xeri8Qaa9SG1Wr9JxjPD2JTyXwtWIqI4bpMs8PG
-T3600wP9Ghxar3EiGFf0l0gp1yuZyzW7Sad_21CmtS7B0F8C9Ze
+dT45hWL120LHHjDAxN-r8v0ENvzLZ9iJHwwIYjKMkSigtWROGPUhTKp9to7Pj9GSu3CAY5AjTGc8QQq3rEOb4vOEm1D9utA82Txc47DS-XqqCpA8sRz3Yxaa
+I31D1bBmhfbW1H47_eEvmWxpJx0vs_m05iP5jN_gX8gS
 }
 
-!procedure Restroom($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Restroom', $name, $tech)
+!procedure Restroom($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Restroom', $name, $tech, $desc)
 !endprocedure

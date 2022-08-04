@@ -1,16 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/CartShopping
 
-sprite $CartShoppingXs [11x10/16z] O-BdO803VXZ0nUI2ilWO61YXJB0-32D0J2O6E0dImC3Bpm
+sprite $CartShoppingXs [11x10/16z] O-BdO803VXZ0nUI2ilWGYi7weFfHHPaOu2HO0oy_0m
 
-sprite $CartShoppingSm [13x12/16z] JSc50O002031irlsdzOEddme8_pqySEQPSXIVlkAJwei419h_gXlIcZkKymGKT_33W
+sprite $CartShoppingSm [13x12/16z] JSc50O002031irlsdzOEddme8_nqySEQfSjIVFkAJuei419h_YXl2cZkKymGKTx33W
 
-sprite $CartShoppingMd [17x16/16z] XSsr0S0m34JHBmUDj_-qOLALrmalI8clMLBxA61oWFz6qyS8P7qOqFaB_wISZSbkd8s4rtp8fdzmi1munCIT0cV-u1f8WHK
+sprite $CartShoppingMd [17x16/16z] XSx50O003C30u4xsdnPtlL-zePOSvMfxK4FW2V2VQ3r8WVBIG7HDuAwU4scmOdBvzNGcOX9kc5NBR5umMQy5wyYQG0Dw
 
-sprite $CartShoppingLg [22x20/16z] {
-RSw54GKn24LHTkDw-w_skm9dx4s2dK0LRNAJbVZuC6wlpNrDQ4jkqAhxUhglSjVLuvQxg5wZt1rsm1sq7-drkX77fBUl-7gjzeIx-4lUpjE93RgD2xQD1UfV
-l08
-}
+sprite $CartShoppingLg [22x20/16z] RSw54G0X34JHd0ko_LUBU_B7Tju9x01UMjC87KjxUR0Kz17rO6WenFGMTHELOl-2Dkcvw4afzeEYtz1Ur8A4DFwlTnQz-HLY-nXr5UOB_7mQmF9v0_SqFG
 
-!procedure CartShopping($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CartShopping', $name, $tech)
+!procedure CartShopping($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CartShopping', $name, $tech, $desc)
 !endprocedure

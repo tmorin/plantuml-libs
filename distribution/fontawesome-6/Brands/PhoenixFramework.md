@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/PhoenixFramework')
 
 ' renders the element
-PhoenixFramework('PhoenixFramework', 'Phoenix Framework', 'an optional tech label')
+PhoenixFramework('PhoenixFramework', 'Phoenix Framework', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/PhoenixFramework')
 
 ' renders the element
-PhoenixFramework('PhoenixFramework', 'Phoenix Framework', 'an optional tech label')
+PhoenixFramework('PhoenixFramework', 'Phoenix Framework', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

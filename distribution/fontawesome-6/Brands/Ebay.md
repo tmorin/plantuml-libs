@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Ebay')
 
 ' renders the element
-Ebay('Ebay', 'Ebay', 'an optional tech label')
+Ebay('Ebay', 'Ebay', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Ebay')
 
 ' renders the element
-Ebay('Ebay', 'Ebay', 'an optional tech label')
+Ebay('Ebay', 'Ebay', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

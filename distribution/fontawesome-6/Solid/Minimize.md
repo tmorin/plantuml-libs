@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Minimize')
 
 ' renders the element
-Minimize('Minimize', 'Minimize', 'an optional tech label')
+Minimize('Minimize', 'Minimize', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Minimize')
 
 ' renders the element
-Minimize('Minimize', 'Minimize', 'an optional tech label')
+Minimize('Minimize', 'Minimize', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

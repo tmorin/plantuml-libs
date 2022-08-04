@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CodeCompare')
 
 ' renders the element
-CodeCompare('CodeCompare', 'Code Compare', 'an optional tech label')
+CodeCompare('CodeCompare', 'Code Compare', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CodeCompare')
 
 ' renders the element
-CodeCompare('CodeCompare', 'Code Compare', 'an optional tech label')
+CodeCompare('CodeCompare', 'Code Compare', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

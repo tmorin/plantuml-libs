@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/FileCsv
 
-sprite $FileCsvXs [7x10/16z] DOQ50G0X08JuJcN_QMqlGJqXrXFRTPqJ13mHuxBi0ilgqDSl0m
+sprite $FileCsvXs [7x10/16z] DOQ50G0X08JuJcN_QMqlGJqXrXFRTPqJ13mH8wm2o-BGroy3
 
-sprite $FileCsvSm [9x12/16z] HOQ30G1H5CFwxPVzfpsZZ2PWITTZiuWRA3U46FbbLq1a8Hi8lDTOQEQf8M0SnlYKNzW1
+sprite $FileCsvSm [9x12/16z] HOQ30G1H5CFwxPVzfpsZZ2PWITTZiuWRA3Sux_bbLq148Mi8v3KMcd5g21Y7CJxb5tO
 
-sprite $FileCsvMd [12x16/16z] TSR50GGm30In3TkXwR_QOmQzfCfPBDAjnDaaxgUzd7PxIZbdRkO9RrA4u944AraL2C7C47N_6dZ89jWALcBS6i2Qp0cBlyJJ4G
+sprite $FileCsvMd [12x16/16z] TSQr0GG14CGmpnwZ-w_scK6Hw5LD1xUQTG3lTtYvm-rDgigRzSGt5MKgerl65aLqZiBzs-n4ZUXE-YRPMTHjTLrryozyEW8
 
 sprite $FileCsvLg [15x20/16z] {
-XSV70SGW30NH8ODjzFllTWMRJnw2z8Yc7GKlwXLNSzgNwg0Vkd_f_Z9bJv_gIZSLC0jCR4Gd5clCQtOMTLqbJ6SBcrxYOiIscQkKqm0jmXdX4achQyfEaqnt
-dV_4VZKU
+XSV70SGW30NH8MC3-lrtkyARJnw2z8YcAmfUr2jcSzgNwg0Vkd_f_Z94Jv_gJZSLC8E5zUZ4OWvfpyAcvimiPtxIIqnwg1TJTgS6seGHO8gWtLooOPBVcyO_
+iLyT3m
 }
 
-!procedure FileCsv($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FileCsv', $name, $tech)
+!procedure FileCsv($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FileCsv', $name, $tech, $desc)
 !endprocedure

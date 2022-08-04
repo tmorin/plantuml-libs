@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Drupal')
 
 ' renders the element
-Drupal('Drupal', 'Drupal', 'an optional tech label')
+Drupal('Drupal', 'Drupal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Drupal')
 
 ' renders the element
-Drupal('Drupal', 'Drupal', 'an optional tech label')
+Drupal('Drupal', 'Drupal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

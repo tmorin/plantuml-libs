@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/Bell')
 
 ' renders the element
-Bell('Bell', 'Bell', 'an optional tech label')
+Bell('Bell', 'Bell', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/Bell')
 
 ' renders the element
-Bell('Bell', 'Bell', 'an optional tech label')
+Bell('Bell', 'Bell', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

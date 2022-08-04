@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/PersonDrowning
 
-sprite $PersonDrowningXs [11x10/16z] LOh50G0X0CDwhf3zfyKrdwec6AsbHBQNDzkDJphpGCIgs3yV5hJlkVfVk80JmHw2y
+sprite $PersonDrowningXs [11x10/16z] LSk35SG000FG76hy_QUjcOSuBtZAaKD-M-qkVxgat0imvf3zzVj_zgXlgL0A_vQO0G
 
-sprite $PersonDrowningSm [13x12/16z] LOl50G0n08DIzxB_jEVABuBqPxPFOAh17H1F4DwIxp2PANGOUt3iN6FXwp3lqEIKd6IA4X-sx4QHQTsehm
+sprite $PersonDrowningSm [13x12/16z] NOl50GCn0CCSvcZ_QTjZqiyWVPZj4PXgS0R45OIpv3DCPlGTnZwj76FXwJ3Fq6IKp7fGui6ItIXIwrB_0m
 
-sprite $PersonDrowningMd [17x16/16z] RSc50GCn3C10FOUr_xG5b-4IC_zi1vyKffO-5shwNdGUTXjTPvwq4kFH29Fgy6eXUDSdmXnJuscBnSPJrYt9tLgOPtBSAqn3xLsrZNkAAP95cO1fuf6dCm
+sprite $PersonDrowningMd [17x16/16z] ROo50KKX30Fpt2Yt_xHVSJYqRHADs8wc0PBSMJU0esrOQkmu6KnAm1FYNUg01vACW8Lw0hwsnCoNLOaBbWC5bblJf6lv_hyk3vW1E1ykWt1nWrhU
 
 sprite $PersonDrowningLg [22x20/16z] {
-VS-50GGX40J1mPtEFzftEI_SMLs8EZ38sfjKoG9sFTkU5Q253XBRsGXE5QXQ0enoprfnGDDJd8jx2alwQFpCi8ZZpM_YUEbQuMKJk04alxoW5CaRnMRqO9kN
-b01wh3obp9CT78bWDG6yAa1H0Hsw0m
+VS_50GGX04FHuCxllzfr6NzuJaGNd0uCilOcLRA0NQVjkG5Qw22nJJrOLQ1g2P1opvkV0KrFSGBwo2pfe_0pmwB7cztqUEbQuItlKibZz5EoP2NVNfbfNb82
+wB7ob39FTd0aWjK4yAe0HGLqw0u
 }
 
-!procedure PersonDrowning($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonDrowning', $name, $tech)
+!procedure PersonDrowning($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonDrowning', $name, $tech, $desc)
 !endprocedure

@@ -4,10 +4,10 @@ sprite $TableListXs [10x10/16z] Oq00VWHWu8U9iF6pWG2GXKKMhmw4F
 
 sprite $TableListSm [12x12/16z] Oq06_CY01uZ00CXcuE67ga05V4041cXg29l3WwI2WOiF1jW
 
-sprite $TableListMd [16x16/16z] fSr50e0m30J0NUmI-_zhSQZUEdL9Wjhg6UCMjMssSppiFC_GcF2upgRNU4J7GZt7enVlVer7F0RgCqe0SpW
+sprite $TableListMd [16x16/16z] fSr50i0m24JHYMuI-FS_RTtRNLzS03qLlp1LdaeqSbmP4DNHPZvRdyUA3qcTeDLNlFiyLin-rHTtUXW1
 
-sprite $TableListLg [20x20/16z] hSyr0i0W44JH7_VC_M-R9WOCtRuErh76J0ygxBiis7NoQAj_utZe71-JlCWPixpWEzmfxChr61S
+sprite $TableListLg [20x20/16z] hSyr0e0m50FGrBsv_srPSC84Rsk_Gt8t5k13xvI0pecDUVsBSN36JQBsROPpWzDj8hMVxr2deFFEGrW
 
-!procedure TableList($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TableList', $name, $tech)
+!procedure TableList($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TableList', $name, $tech, $desc)
 !endprocedure

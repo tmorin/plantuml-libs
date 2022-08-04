@@ -1,16 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/TextHeight
 
-sprite $TextHeightXs [11x10/16z] VSQn0KG0002n_0F0xR-jKYTLlAwg5j8jhIhanzo0GBvRCJUZee8y
+sprite $TextHeightXs [11x10/16z] VSQd0OG0002n-_xKxByjXkA8IfS5_4hMv1ygLL-le-c-gA_lKLHf0m
 
-sprite $TextHeightSm [13x12/16z] bSV50S0m4CH0XJdglzgWwUivN4gJdmbwqVtju_dr54_SyG5lU4rI6vh9DWKVSRztXUCy3ruBDm
+sprite $TextHeightSm [13x12/16z] fOl50O0m5CM2Ezb_MhHsRxxBesJoOuHUT7_ze5DFySGD7-0PWe2gmOS__zCAntaUl2pS
 
-sprite $TextHeightMd [17x16/16z] hSZ50KCn3C1GVOQ0zj-sTXckVK6B7_rk8ZJm2L3HPT9fLZ1rmTiPJ8otC03JuZOHb9i8_3kKpRsyXT44SzMw4KwrG3EHgfKm16xYlG
+sprite $TextHeightMd [17x16/16z] hSdL0KCX50FGFCCX-szRN7zxu3eEeNeGUO0TyX3ZlSaxHZs6tDH8SEKXkpw-SHmBl7pnxuML57PUC05kHpg9oCJP0huU8aU7mmy
 
-sprite $TextHeightLg [22x20/16z] {
-pSl74GC12CLGRSwe_svjS4vtwyGyvlEzyT4L6ZXyD2M6Wa_Dm9v7ev7_3KglqtZIwJvbvgfDNisu6Dq0LxrrLlX3FLmDVLEpqdOCZv6gAroV_zcWRhnfyiwF
-JW
-}
+sprite $TextHeightLg [22x20/16z] pS-r5SH04C1GcNdKVxTdPkUdQDzVvhtiQ0LWyAXYB1GyLGEzOsX0sC6e-zOuQR5lfMRLUPIKZP4LiElIgF27EjWQUbENvl-4GybSDcDxcHyhTDnurPbxFle1
 
-!procedure TextHeight($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TextHeight', $name, $tech)
+!procedure TextHeight($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TextHeight', $name, $tech, $desc)
 !endprocedure

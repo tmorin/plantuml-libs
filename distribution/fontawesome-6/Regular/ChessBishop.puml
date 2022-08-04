@@ -1,16 +1,13 @@
 ' definition of the Item fontawesome-6/Regular/ChessBishop
 
-sprite $ChessBishopXs [6x10/16z] 5SUr0SG0000XNk9o-qyReOEf3zQ-I3nV9r7ZtxQSmQg_DTz5hAyR
+sprite $ChessBishopXs [6x10/16z] Os1WvsS00YumoG-48CJ53cRmip4pS7FoWQKu6FYPmQhOm0f
 
-sprite $ChessBishopSm [7x12/16z] 9OY74S102CEKtgFzjtryW3kWr2rjjqxP6YlyPzAi-vEjdBflCIPFUQOZE3Kt
+sprite $ChessBishopSm [7x12/16z] BOg30G0n5CLoHf7zfwq_dm05sEVxvdFE2VdjQDCxWEW1a8uL2olsz7aTLG4
 
-sprite $ChessBishopMd [9x16/16z] FSh5OGC10CJ0yJ6h_sh3iJwBMEi5gXCiVyshymbww6JgvqyNzZPXxce9xNfkFtJrPtI-cChIJWtycDERfpy-0G
+sprite $ChessBishopMd [9x16/16z] FOo50SGm482eDyh-qxx4E5VWKHfgQiczEgdQOWKZ70ANO0PUNsoDx2rWm5fec1q9xUkcNDwW6xGaigWElW
 
-sprite $ChessBishopLg [12x20/16z] {
-HOw50K8n30NpjTxRVrjYmAjTuw8gm24XL2EvAv_9Mxa6JhQaurAK4uoZHgU8F7HH7M29txf5M86DzN8h3ffiLeGK-nCSbRAZ5m7Fw3RUkMdAU9ipMKo7Npx8
-JstnrmS
-}
+sprite $ChessBishopLg [12x20/16z] LOsr0G0n4CCSvcZ_QPzHrO516mdG1HljckldFe5yZfqfiFjejr46JkVfIPAdNc6xyHhnOfnZOKJSDZQA9kEKRCRoQSmaqjCkO7TKQ3AJkCsSDTUiF_MX35vM
 
-!procedure ChessBishop($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Regular/ChessBishop', $name, $tech)
+!procedure ChessBishop($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/ChessBishop', $name, $tech, $desc)
 !endprocedure

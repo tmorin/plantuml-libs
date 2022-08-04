@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/PersonBooth
 
-sprite $PersonBoothXs [11x10/16z] HSR50O0m0C30u4xsdnRglTS1tAYNE67jqBfG--W2TwpUof5x0UQAfQzpxogHFm
+sprite $PersonBoothXs [11x10/16z] HSR50O0m0C30u4xsdnRglTS1tAYNE6BjqBfG--W4TwpUof5x0EQAfQzJxooHFm
 
-sprite $PersonBoothSm [13x12/16z] TOi30W0X54HdcUl-fyt6Yt-0W87nX4VWQeFfXWi7H_lRcpGE2JnbW4VNeNO2tK3Ym5GS_Z14Z0C
+sprite $PersonBoothSm [13x12/16z] Om01VWP-801HtCWSVYGE462NuGEIZ0mC760E130mGpbWRNmm3a8F221nMC0SJbu41s8T
 
-sprite $PersonBoothMd [17x16/16z] NSx50OHG4C3Gu3PC-gzs1UVd-4vXQnHLfp5f0_02qIXXU0Cr6wm7CCQumN90hmPrpN30LkP0VKEgmWEeAXYUG0HnWwyFdSqtL7h0wl20YfgQqPGDO6lq2m
+sprite $PersonBoothMd [17x16/16z] NS-50SGm30J13PEYwx_Q1pFJ64L8fz0_dQUp6g0COSL6E7fW8i2RORSjm9DWb_G0h0b2Sj-PAlY_WGQOfkw8WnbMGTq_f5lU0xderTv03jj7-08
 
 sprite $PersonBoothLg [22x20/16z] {
-RSxL0K0X34FHu4xsd_QvOFVp82sUCi6x99W0gm0ejafKyc1D8ZPACjvg6isak1MDGW4BDMQXF39GfRHQUFDPVlKl0x7J-muGEat2Xw21t2lks6aPDxjJI-Mb
-ljMgI7qgEmLfJvL5fMYAwFNjqCWCKWww0m
+PSu53WGn0810QgljyV_VNjQD-CI0hIfkpJX32a3qhlBJ24cPRgeEcvQRLWsRSbC2yDLI-Afg8hLsr-R6I_NKimhJGwjBC3vqP1Z72FMbMpwqVSvSIbzTOj7X
+hh-eQL4VYkP5Gqlpb5juwfbEpcXywHy
 }
 
-!procedure PersonBooth($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonBooth', $name, $tech)
+!procedure PersonBooth($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonBooth', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Gulp')
 
 ' renders the element
-Gulp('Gulp', 'Gulp', 'an optional tech label')
+Gulp('Gulp', 'Gulp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Gulp')
 
 ' renders the element
-Gulp('Gulp', 'Gulp', 'an optional tech label')
+Gulp('Gulp', 'Gulp', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

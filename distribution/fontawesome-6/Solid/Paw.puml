@@ -2,15 +2,15 @@
 
 sprite $PawXs [10x10/16z] Oq06_CmC_FmG5Z-4nG9biVBpSy0bW88mUNuG08j301gBbO4Bo08
 
-sprite $PawSm [12x12/16z] NSR50K81040XxFRjFwtjBqwOkyIg3QXKar_GRjNMBPSgh53AhTeft7ixmBulw6_nzMsFquqd
+sprite $PawSm [12x12/16z] NSQ50G8154EnuCxRVrgSitnfpLr2Qr2f9ls2jk-zvLA55KgvLJk5Usy7sFS5_ItwwhR7wSOJ
 
-sprite $PawMd [16x16/16z] ROw55GGW34E3Ezb_stlGzloZzU0FVZe0SPfD4WZaVDdvN7pP_LpZ6ACYamxZX7iPP8Dpf-jDN5BMTjB6fopn83OSAWM7Iw0XjbagAFB5iGTVU8klzjR0kTVp
+sprite $PawMd [16x16/16z] RSm55W0X409Gx9RxttOVsuNvZS5FJDVi-s6IW2FxvQY9bwkc9hG4hvkcgOP6PjmAZUrRddupz2rGsQnBwIflUMGpptJHyOhSNlRQZBBvamK
 
 sprite $PawLg [20x20/16z] {
-TP250OKm5CI2G-tsdnQvBtZggJzUwMitNRShIGrkngCJT6wEhY7UN4jQw-XnrSBa1UDQLz3HIWN6t04XDTlOZEne9SWB6OlMLTZXuv69uBeQEnePxnWwZFva
-kAZzla57RikyyEuoTnVj72F_RJ_lnW8
+TO-50OKm44DJmsdsd_RBrIrGU-TOoYWvj2w8f0d7KJC2DXmLKxW7fl6Gl0Emm2aEHt1p_oGUE5u7u7fKI1gADMakYYCEpqSZiFzcvHegXFsmq492XDCbIT0B
+LAYjjxDMuzOujkoTi32n-rzbjf1lgYy
 }
 
-!procedure Paw($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Paw', $name, $tech)
+!procedure Paw($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Paw', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Foursquare')
 
 ' renders the element
-Foursquare('Foursquare', 'Foursquare', 'an optional tech label')
+Foursquare('Foursquare', 'Foursquare', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Foursquare')
 
 ' renders the element
-Foursquare('Foursquare', 'Foursquare', 'an optional tech label')
+Foursquare('Foursquare', 'Foursquare', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

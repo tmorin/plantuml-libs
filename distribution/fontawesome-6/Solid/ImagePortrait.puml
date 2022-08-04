@@ -2,12 +2,12 @@
 
 sprite $ImagePortraitXs [7x10/16z] O-373XWO41H2Z84LGg7h0W
 
-sprite $ImagePortraitSm [9x12/16z] O-2705v-h82L0qepCF216HmC36XA61WOc40q4mCGS86CuWO2X3p2Q
+sprite $ImagePortraitSm [9x12/16z] NOo35G1H3C1onjV-qvQFJKrMCZ9KZZVZ3dCvBvGLOFEuOVp-gXdBgAyL
 
-sprite $ImagePortraitMd [12x16/16z] O-3bXm5sA9Cmu63XXJCP61XWR6OW6oR11sHZrSh8o0HLmyG00fnWDeW5qy4D1dWSmux41W
+sprite $ImagePortraitMd [12x16/16z] O-3bXm5sA9Cmu63YXJCP61XWR4OW6oR11nR71EoCZ33D36300MV3T7230Hx7i2En0G
 
-sprite $ImagePortraitLg [15x20/16z] fSw34G113030iwB-gttRs64SLMJ1Dj5FuC8oKeqvT6r8K-ZNLMcY86SmD-PFLOSMP-PbOHqAz51Uigk8Qm
+sprite $ImagePortraitLg [15x20/16z] fSs35G1130JGjQB-gptR-8_Xg28Bjgb-0cENbMhCfMvBcag_dafJUJc3kJ5LHdLe4JC_C-jIe8VoabrLN0C
 
-!procedure ImagePortrait($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ImagePortrait', $name, $tech)
+!procedure ImagePortrait($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ImagePortrait', $name, $tech, $desc)
 !endprocedure

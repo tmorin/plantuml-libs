@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CircleExclamation')
 
 ' renders the element
-CircleExclamation('CircleExclamation', 'Circle Exclamation', 'an optional tech label')
+CircleExclamation('CircleExclamation', 'Circle Exclamation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CircleExclamation')
 
 ' renders the element
-CircleExclamation('CircleExclamation', 'Circle Exclamation', 'an optional tech label')
+CircleExclamation('CircleExclamation', 'Circle Exclamation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

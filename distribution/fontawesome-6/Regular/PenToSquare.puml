@@ -2,15 +2,15 @@
 
 sprite $PenToSquareXs [10x10/16z] DSR50OK0040XVgU-_QUrvOJ3-qptD8vVfQ2hFfqHmnQHljeMjcsYx-gN6G
 
-sprite $PenToSquareSm [12x12/16z] HSR50O0m0C30u4xsdnRglTVHx6sphwZUeHFU3y3YvAD7AZpYqPekl5AUQloX3-M5l6S_LXi_
+sprite $PenToSquareSm [12x12/16z] HSR50O0m0C30u4xsdnRglTVHx6sphwZUeIFU3y3YwADRAZpYrfekl5AUQloX3-M5l4S_LXi_
 
-sprite $PenToSquareMd [16x16/16z] JSx50O0m5C3Gu4xsdnQfv_QgdxQjQpMgA-pdL-35BeP-kZ5xIcZosZoyD1C-ef5tV21wA8o-_TO2evqYp-Z9mtYu3_vqJbGJnwwcUd4et0LiMk45
+sprite $PenToSquareMd [16x16/16z] RS_L0GCX00JHFJTW-gyMstXk_XwEFZk6Jyt0BfsXrXbr87gD75e8gBSG3ouYF2bL2ipa0-onSMgq4-RJB6QmHowysAuAazvszzvu_-ce5i_ykm8
 
 sprite $PenToSquareLg [20x20/16z] {
-NStL0KKX3C3GN7Uo_xHFyNmUQ4lNllQog0uzpPU1nN-HG573f_D71WQzdQl1OD1D8yqwGj23Q74NNq8JZOcI_NuDFqhsE4OgfecMCThepQ4du1DjKtK7C4Ix
-r1aQOm9wex7RgQR96z3xp5sw0AkfVFmD
+NSu53aKX30NHUUwT_Q_sAuM46-LGeyk-zhAezkHy6Kp-ywS953K-ENzaWDxEhN4AGnSjDEi8eGVQge0leKbZKbghglRKgcQQD0xbDNXpw0du55jKtG6COfVc
+wTKOoAHbqcvRJTa6Ufyrbux_dPbS_WO
 }
 
-!procedure PenToSquare($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Regular/PenToSquare', $name, $tech)
+!procedure PenToSquare($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/PenToSquare', $name, $tech, $desc)
 !endprocedure

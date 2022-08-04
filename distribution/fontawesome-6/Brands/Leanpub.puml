@@ -1,19 +1,16 @@
 ' definition of the Item fontawesome-6/Brands/Leanpub
 
-sprite $LeanpubXs [11x10/16z] RORL0O1G30DJxBEt_xJ0SusUzW8x_nxS8adoXlJe3H-k1ww08Cjj-W
+sprite $LeanpubXs [11x10/16z] RSQr0S0m4C106SlN_jE6ERxg6DDKD6KRxY3k-cpSxTQk5KH92ifj1W
 
-sprite $LeanpubSm [13x12/16z] TOY50SGm4CCSvcZ_RH_BhGvbFMDuCpvhIYq3CID5Apfya5mKBAAsYf5OnNva_CLzf5KWDo1XFv7APmMqvmK
+sprite $LeanpubSm [13x12/16z] VSUr0GDH00MWTovVs7_RD76Z8tz0WvwK7UikMHCLI8Ort9Bo7AzfW26HSc8lM8o69CUKP99d5m
 
-sprite $LeanpubMd [17x16/16z] {
-ZSkrWGCm0CLGcTdQVzfZJ9LNVk0PiU-LeEvL0szqpwcUEOyNejSthNa18H-_VGPz_0i2f_qB4lQ_mIhuxz8dhhz1kNWywpsy2uXYExvf7yyPH5k0uaqGfnBu
-9_Be5G
-}
+sprite $LeanpubMd [17x16/16z] ZOl50GLH2CHcbIT0-g_sk-lcDX9jedYVfDNxgYFWhG7HIf378W7Cpa6QWYldejIN8kof64HvBFeYdfJIH7yinXH1z6EPNTA0i02mazcE1NQyaeCqDD1VzW
 
 sprite $LeanpubLg [22x20/16z] {
-hSz7WWGX241HA3Es_llVTi097LQJNfNfxv3_q1QXwoJC516egca1G-KoA54hHpCFuh3O6dTHrnPH-airtpF6tUMr4MjobxqMhuF5NVMQlCwzkUjUbIJhCMBY
-g8BnO9xQpn2MKzt4UPqw1UqHOBGROUQz1CxW6gdvsN7fvjT3JTubM_83Rm
+hSy7RaCX48JXMJhBWxd_RSDk4XjPpUr_PQGFDV2DygHLC7o761g8H3lgWg1aDYtqgcw0WTglyfRhN82mFQWI2DH3PMlT6ZaEZLjbQ-SyDFtfMElGWXq3vebi
+hX7KKxjhyqjeYcNHDhWEK9e1sUlbEyAQ8FtYObG1D8DuLVobVoiwyK8_
 }
 
-!procedure Leanpub($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Leanpub', $name, $tech)
+!procedure Leanpub($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Leanpub', $name, $tech, $desc)
 !endprocedure

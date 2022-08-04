@@ -2,12 +2,12 @@
 
 sprite $CircleExclamationXs [10x10/16z] HKZ50G0W4CAM5_jFQtj1OnrLiK_d-8DKJZf2Ix9KlRhmJq1vOG8
 
-sprite $CircleExclamationSm [12x12/16z] Om01RduE1WZWXm0m4mQWJ1OGmGjXGqXk93O_4fi3YMJ0Jh8ZpES3MSRB3nK5
+sprite $CircleExclamationSm [12x12/16z] Om01RduE1WZWXm0m4mQWJ2OGmGjXGqXk93O_4fi3YMJ0Jh8ZpES3MSRB3nK5
 
-sprite $CircleExclamationMd [16x16/16z] NO-50G0W2C2mM_-_rYwOIGDCL2g1mI6LXPaIAvSyvF8HhxDS3z_cSDmKaHEH2v73VezygsEzWjEHHl6x-uE6Jlp50V-cQG
+sprite $CircleExclamationMd [16x16/16z] NO-50S1020D3tRF_j7NqNd70Ixzp5IWxFyPFf76eg6pct7oF_EPLtVeYxqLcaTV_LLce97qFxMX8yN_toe2RBOk0X6ak
 
-sprite $CircleExclamationLg [20x20/16z] RSo53KH1409Glg_JVxMdP5PVZ8m0yONfHkEXv0F2Xg-ZAjHHTTMkT5A0kivARZ6ZNypADFkQPuboerZa39JiB5aBuAnvjxwwXH_RlW9R1tukLX2hpnU-tW
+sprite $CircleExclamationLg [20x20/16z] RSw54KGn20JG_Hwd_sfF2HjxOmmEvOka6urBLDwWfE6Pei0KNToLzffasuwiaLlan2zofStHb4jymKPkcQ46sLbaMm1dcpVRnohykEqh33_zN49GjZx_czu
 
-!procedure CircleExclamation($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CircleExclamation', $name, $tech)
+!procedure CircleExclamation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CircleExclamation', $name, $tech, $desc)
 !endprocedure

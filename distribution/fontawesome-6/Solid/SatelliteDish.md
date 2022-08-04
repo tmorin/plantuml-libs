@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SatelliteDish')
 
 ' renders the element
-SatelliteDish('SatelliteDish', 'Satellite Dish', 'an optional tech label')
+SatelliteDish('SatelliteDish', 'Satellite Dish', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SatelliteDish')
 
 ' renders the element
-SatelliteDish('SatelliteDish', 'Satellite Dish', 'an optional tech label')
+SatelliteDish('SatelliteDish', 'Satellite Dish', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,15 +2,15 @@
 
 sprite $CommentXs [10x10/16z] Oq06_200f5b010CZaEI7oN0pmbYyCDLy25a6VXO8Wn4e3pM56oW60G
 
-sprite $CommentSm [12x12/16z] ROt50SL0509Pzvt-g_qQJ-Ro5D0PCu3oQoTLifqiCVM79BJ2QC_zyUUWpHhT5IFRAJ90Nx9Sjrfv0m
+sprite $CommentSm [12x12/16z] NOs50GCn54A9Uzx-qxRdzbr17nb0sQf9bKmdIynZIn8wXL4VTRdhvytZDsjqKpRC9GBzu7BTw9G_
 
-sprite $CommentMd [16x16/16z] ROw50SGm4CCSvcZ_QH_BhOB7rXCczbdTQZaMniyip7yeWPKoMIiJYQOTIEX0O9viCIwsFTaLmK4NxNTsOPB5kHw-cYVpDtAmu7-I84ZMshM7Jhm1
+sprite $CommentMd [16x16/16z] TSq50GH14C2m7YvF_QjzPeY1yDFUeoxSJDuCpeenSxRh1DcTkn1iF6cI5wiXhnpoobbU956URA_1h30vJNq6rZ007TuiGAWR_nq1
 
 sprite $CommentLg [20x20/16z] {
-XT350SGm3011cTdRVxK7OSxy349vOBrtMZOyCoKZ0_GKV2n06QEWoaG1uoyhgmmYuzMg4XHDzg2WJdSW1uLskkiuyYbMZi61B84k6mRKeS44QemtBHWHPHFZ
-Xq9gBCgw9XTAQpMvkSFn-vil
+VP253G0X4C1mX-u_xRiBZP5oBZeehPMy2iVE4GAqgBNBG5wKWR9_oyckKKgSf5ckwgJW9LNSWOnyEH0FClNb6fRqoXNFP3y5MTfLALXYpQaYo3LVLZk_r6JG
+I-jOESZdcPJDjPQezWdFUZr6
 }
 
-!procedure Comment($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Regular/Comment', $name, $tech)
+!procedure Comment($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/Comment', $name, $tech, $desc)
 !endprocedure

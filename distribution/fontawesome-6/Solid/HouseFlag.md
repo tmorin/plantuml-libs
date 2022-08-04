@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HouseFlag')
 
 ' renders the element
-HouseFlag('HouseFlag', 'House Flag', 'an optional tech label')
+HouseFlag('HouseFlag', 'House Flag', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HouseFlag')
 
 ' renders the element
-HouseFlag('HouseFlag', 'House Flag', 'an optional tech label')
+HouseFlag('HouseFlag', 'House Flag', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

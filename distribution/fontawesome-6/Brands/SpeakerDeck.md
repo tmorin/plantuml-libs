@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/SpeakerDeck')
 
 ' renders the element
-SpeakerDeck('SpeakerDeck', 'Speaker Deck', 'an optional tech label')
+SpeakerDeck('SpeakerDeck', 'Speaker Deck', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/SpeakerDeck')
 
 ' renders the element
-SpeakerDeck('SpeakerDeck', 'Speaker Deck', 'an optional tech label')
+SpeakerDeck('SpeakerDeck', 'Speaker Deck', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

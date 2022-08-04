@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/PersonHiking
 
-sprite $PersonHikingXs [7x10/16z] DKU50G0X4E8xXVsdLQzeCF718GA7OavOxJOep7VP_wm87RE4XrK3
+sprite $PersonHikingXs [7x10/16z] DKU50S0m36AkBVzV6myE31y2dC31d0QltSSaxEt-Fwy97bR4ERiK
 
-sprite $PersonHikingSm [9x12/16z] 9SQr0S0m0C0mbnlq_zS6DOdf-zWKu8J_1_Gz4oker6D7g_LN4FYjErSqh4XmvfDZnPqE
+sprite $PersonHikingSm [9x12/16z] BOg30S1054DJks__QU-RaQAEGrNGO0y5TZqj0_gd0l3pRv6D-CbVOBwv4g2B0Bjl0WeO
 
-sprite $PersonHikingMd [12x16/16z] LSY55SGm4CHG1SrM_zKUXBFutx1N2t1InzD1jx_K1VOqwafEczMXgL1HKRMvQDkjNTUe5H2Ww7GQzV1GqBux6D1nStUWEMrMNgwE-0K
+sprite $PersonHikingMd [12x16/16z] LSY54GH130Cm7sDM_LVxZ46DywnQaZVftbvu_E6SacUwCcVV7aOAoVamA1FrD8rXuamYIGxwjuDF7jhJaoLq3pT9UPf_dtTV0G
 
 sprite $PersonHikingLg [15x20/16z] {
-JSx5eKKn009H8jVbz5_jbpoT7J2HF2cMV87-7VcUTtS6bVrJDyoPZZM34xKpv3cG6wwwoUYzMB4Kx1VSo8esxadwaWDbnDVJwYUceRtYOkolo9N6_8gEX2KZ
-LjfNNCbNNCRlR_ql_W8
+JSV50GGX00ImMJSW_LTxBkINV0osT33tPUjwQidJo9cV2MkMQt-t83DQaZMG1dKu12s-Tgm3pWeDMJ0bkIJZaWjvzsd0-6z6JDzkdlSjzVdrrprXUtTWx3gJ
+hekMf9bpkGC
 }
 
-!procedure PersonHiking($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonHiking', $name, $tech)
+!procedure PersonHiking($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonHiking', $name, $tech, $desc)
 !endprocedure

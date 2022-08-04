@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PlugCirclePlus')
 
 ' renders the element
-PlugCirclePlus('PlugCirclePlus', 'Plug Circle Plus', 'an optional tech label')
+PlugCirclePlus('PlugCirclePlus', 'Plug Circle Plus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PlugCirclePlus')
 
 ' renders the element
-PlugCirclePlus('PlugCirclePlus', 'Plug Circle Plus', 'an optional tech label')
+PlugCirclePlus('PlugCirclePlus', 'Plug Circle Plus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

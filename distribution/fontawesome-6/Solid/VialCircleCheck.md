@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/VialCircleCheck')
 
 ' renders the element
-VialCircleCheck('VialCircleCheck', 'Vial Circle Check', 'an optional tech label')
+VialCircleCheck('VialCircleCheck', 'Vial Circle Check', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/VialCircleCheck')
 
 ' renders the element
-VialCircleCheck('VialCircleCheck', 'Vial Circle Check', 'an optional tech label')
+VialCircleCheck('VialCircleCheck', 'Vial Circle Check', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

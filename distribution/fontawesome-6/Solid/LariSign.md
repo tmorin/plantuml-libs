@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/LariSign')
 
 ' renders the element
-LariSign('LariSign', 'Lari Sign', 'an optional tech label')
+LariSign('LariSign', 'Lari Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/LariSign')
 
 ' renders the element
-LariSign('LariSign', 'Lari Sign', 'an optional tech label')
+LariSign('LariSign', 'Lari Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -1,19 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/Mosque
 
-sprite $MosqueXs [12x10/16z] JSQ50SC04090shZU_jF6xLuWNpn_uf-EFUgw_ZdL-Bjy-eZSC7bDHYaDPuz4h
+sprite $MosqueXs [12x10/16z] JSQ50SC04090shZU_jF6xLuWNpn_8kdWbxgkurGZBfy-8ZTCNfDHIiFP8n4h
 
-sprite $MosqueSm [15x12/16z] LSk50S0m30D1bRc__xHXyWLDqgxaL09NV7P8ITBx4SpI6aYGlEaZgjM6dmtd57Pfm5Y8RdeeaDXllXA-8LnEF
+sprite $MosqueSm [15x12/16z] LOgr0S104CCSvcZ_QP_fr1YbNOap2rnHLaWbIJ-opW69p9kCg2msVZRcSmUOCEHu3r4WiTvyvFY6E6zu
 
-sprite $MosqueMd [20x16/16z] {
-TSs5OGL1203HELavdVwx3UIxlNK1e73JkTfqWbIK2mEf6qR2RXY0KzCAp0cgTmDx6l49fl7moV3pxciimmCO-h0_smpJxeVfMc9zkvjrWvZwuuxT2SwOjAdp
-_dht1m
-}
+sprite $MosqueMd [20x16/16z] RSw53SG04CH0VnWkSV_TlYvC8rfPj52pwzYC-eDKAYlTPfUho1LxcpKDG96WyG2Hm0jCJ1yjFXfVxNU2JDqlhiPil_3bDsr_7-sd8-XOdutm1xC5scQBU_i3
 
 sprite $MosqueLg [25x20/16z] {
-hSl5bKDH081GlZ-d_sfdukx9tN804aTXOgzNEtOcxTbHRR2ng8viZ7fOiXkHjUfQ03eFDiT63yaJ2ymR8z4p8sualF2xa0-1U0RSu9fhK-Tjm_Gqf78TifgW
-gUKq5882dOwSXioo2UX0qq5rxA_3Fm
+hSc50GCX0C308E-I_RSjrDqF9y38IPyuY2e7IGDx5YjiTHQHhMp5rkJMGBLOTK3mY29k1HWzqqAxbHYya75hm2l_2zCnC5m0jxXbbOBtXUPb6EVRCDL_MDNv
+FCoK3GWQEG_JFb33ggc666x31W
 }
 
-!procedure Mosque($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Mosque', $name, $tech)
+!procedure Mosque($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Mosque', $name, $tech, $desc)
 !endprocedure

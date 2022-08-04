@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/StumbleuponCircle')
 
 ' renders the element
-StumbleuponCircle('StumbleuponCircle', 'Stumbleupon Circle', 'an optional tech label')
+StumbleuponCircle('StumbleuponCircle', 'Stumbleupon Circle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/StumbleuponCircle')
 
 ' renders the element
-StumbleuponCircle('StumbleuponCircle', 'Stumbleupon Circle', 'an optional tech label')
+StumbleuponCircle('StumbleuponCircle', 'Stumbleupon Circle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

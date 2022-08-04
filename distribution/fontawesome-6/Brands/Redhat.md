@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Redhat')
 
 ' renders the element
-Redhat('Redhat', 'Redhat', 'an optional tech label')
+Redhat('Redhat', 'Redhat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Redhat')
 
 ' renders the element
-Redhat('Redhat', 'Redhat', 'an optional tech label')
+Redhat('Redhat', 'Redhat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

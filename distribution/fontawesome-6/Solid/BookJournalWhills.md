@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BookJournalWhills')
 
 ' renders the element
-BookJournalWhills('BookJournalWhills', 'Book Journal Whills', 'an optional tech label')
+BookJournalWhills('BookJournalWhills', 'Book Journal Whills', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BookJournalWhills')
 
 ' renders the element
-BookJournalWhills('BookJournalWhills', 'Book Journal Whills', 'an optional tech label')
+BookJournalWhills('BookJournalWhills', 'Book Journal Whills', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

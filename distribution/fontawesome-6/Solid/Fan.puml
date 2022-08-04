@@ -2,15 +2,15 @@
 
 sprite $FanXs [10x10/16z] Om01FWOeuEU7CH0iC42m-3d1V0Y19ecf6ym
 
-sprite $FanSm [12x12/16z] NOo50S0m3CESyKh-_zeoAup8E3H-ikSSkOhvPxwS6nOavW_fcFYpn-JhjTJyHAxE-UkM9ny
+sprite $FanSm [12x12/16z] Om03FWOOuEJdXxFv4Mmk89k3XmFCvk6704OWcuMVdm_CuGIJ34WaL3SZN3MOnuXiAXeRH08
 
-sprite $FanMd [16x16/16z] NKu50W0G4DFD_lzQtPCBxiX48ZS0t3IzdEFbhd7bWvayOC4UVq2POBW04bs9SJ0o-Jft2NiuwuBQd9C1oYdzMfALfaNcB_JYST42
+sprite $FanMd [16x16/16z] LOw50GCn200Xxkm_RVk6NVGY07mSi12HrUCToVkuFSxLFb_4TBvdIfqr9g83_E9T0ZklagAh8zmauo-80AOaVdICDtyDc_KF
 
 sprite $FanLg [20x20/16z] {
-PT350SKW00DGt27xJ_k5DcXEwIik6DqiAmM0Fmo_s9kWDxBTv6Qfcqqb1qKhc2clPInfZmMi2GKrnzHFKecHHOXPMMhedyguiA_FCxOfyov-CqPgzPw7mllT
-Lkvdw5kvwrKhD_W2
+ROy54WGn20I9U_h_hpr9BUjTDZWZYfjMhbWWo1K0-qnX7fCW5-hA-TfRDfhh7FGjrpWnPP4vapkZbGfu6PeiAaGEgMBa5HhhydM__ZWveU-bIqunnaX-zVVC
+zMTgdOfo1OOU-08
 }
 
-!procedure Fan($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Fan', $name, $tech)
+!procedure Fan($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Fan', $name, $tech, $desc)
 !endprocedure

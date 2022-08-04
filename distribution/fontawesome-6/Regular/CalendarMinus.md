@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/CalendarMinus')
 
 ' renders the element
-CalendarMinus('CalendarMinus', 'Calendar Minus', 'an optional tech label')
+CalendarMinus('CalendarMinus', 'Calendar Minus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/CalendarMinus')
 
 ' renders the element
-CalendarMinus('CalendarMinus', 'Calendar Minus', 'an optional tech label')
+CalendarMinus('CalendarMinus', 'Calendar Minus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

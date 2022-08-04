@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Coins')
 
 ' renders the element
-Coins('Coins', 'Coins', 'an optional tech label')
+Coins('Coins', 'Coins', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Coins')
 
 ' renders the element
-Coins('Coins', 'Coins', 'an optional tech label')
+Coins('Coins', 'Coins', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

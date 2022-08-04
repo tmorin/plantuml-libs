@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TruckFieldUn')
 
 ' renders the element
-TruckFieldUn('TruckFieldUn', 'Truck Field Un', 'an optional tech label')
+TruckFieldUn('TruckFieldUn', 'Truck Field Un', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TruckFieldUn')
 
 ' renders the element
-TruckFieldUn('TruckFieldUn', 'Truck Field Un', 'an optional tech label')
+TruckFieldUn('TruckFieldUn', 'Truck Field Un', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

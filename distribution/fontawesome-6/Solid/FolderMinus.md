@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FolderMinus')
 
 ' renders the element
-FolderMinus('FolderMinus', 'Folder Minus', 'an optional tech label')
+FolderMinus('FolderMinus', 'Folder Minus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FolderMinus')
 
 ' renders the element
-FolderMinus('FolderMinus', 'Folder Minus', 'an optional tech label')
+FolderMinus('FolderMinus', 'Folder Minus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

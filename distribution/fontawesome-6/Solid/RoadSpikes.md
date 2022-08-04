@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/RoadSpikes')
 
 ' renders the element
-RoadSpikes('RoadSpikes', 'Road Spikes', 'an optional tech label')
+RoadSpikes('RoadSpikes', 'Road Spikes', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/RoadSpikes')
 
 ' renders the element
-RoadSpikes('RoadSpikes', 'Road Spikes', 'an optional tech label')
+RoadSpikes('RoadSpikes', 'Road Spikes', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

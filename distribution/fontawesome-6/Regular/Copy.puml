@@ -2,12 +2,12 @@
 
 sprite $CopyXs [10x10/16z] Om01VY20CC0S18kHdvyBpEK1aVXP7FpyS7FOW9YRbukBYnV41m
 
-sprite $CopySm [12x12/16z] VOjL0W0X44BPxkN-fvr2Vtt61822mTNQypn_lkhZFIJkvwaUAz__EDH3aTwVexvGZpM1Uhbs5d_s3W
+sprite $CopySm [12x12/16z] ZOo50G0X3CJk5IVxJujs059NBHW4IvrpbRppOGaKKrgvRd9rRkS29vtbnhz-JBJplVMpg3Fl
 
-sprite $CopyMd [16x16/16z] hOkr0S0W00G_kBF_jBZNkUeL7Hah0GCL1yFx9bmFbhVLIsijwHwCHL5VT7XWFFxot_0aBaR36XJJmn5Kbe_Tu_bb
+sprite $CopyMd [16x16/16z] hOl50O1030GtmJdhlreaXhnlNgjGbdPJOSpDC5z4P0t2fzilAILI3-OcJ_62FNfxQe4rB13S8vCUugaUlzy9
 
-sprite $CopyLg [20x20/16z] lSo50S0W00F1r9tiFoqUR81-bKEWRgPMb5ZQH3FV-7qZokvY7EoAjZw-GuPb_JWnTClYTiDbyhMc4_yma5UEnKwMRXccDJUX6B3lwLki_NtutQcl60nL8GS
+sprite $CopyLg [20x20/16z] lSk53S10049HwkViF-sv3z0V8oy1BSNIZHvxJwE31YcJi9lgnirajal7lcOuJik3ATKjtHsFzkr6uYy3AMli9jXJsN9d3HY6zqLfs9YQLfLiDpYsEWK
 
-!procedure Copy($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Regular/Copy', $name, $tech)
+!procedure Copy($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/Copy', $name, $tech, $desc)
 !endprocedure

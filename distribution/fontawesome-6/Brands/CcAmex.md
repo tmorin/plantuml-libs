@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/CcAmex')
 
 ' renders the element
-CcAmex('CcAmex', 'Cc Amex', 'an optional tech label')
+CcAmex('CcAmex', 'Cc Amex', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/CcAmex')
 
 ' renders the element
-CcAmex('CcAmex', 'Cc Amex', 'an optional tech label')
+CcAmex('CcAmex', 'Cc Amex', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

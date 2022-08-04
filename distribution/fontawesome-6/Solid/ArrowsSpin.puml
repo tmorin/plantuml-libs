@@ -2,18 +2,15 @@
 
 sprite $ArrowsSpinXs [10x10/16z] HS750OK0040XVggdj_-qTe37fzGNYc_zJONww-qKyCkfL2Yg1WNA_sy1
 
-sprite $ArrowsSpinSm [12x12/16z] LSY74OHG549Hs63Mst-tVfYaBvv1h_h_Vn_urS3d070z4iSpYfiGfMnnLeymNlI7iqBnFsOVFYz0sTPoohPk
+sprite $ArrowsSpinSm [12x12/16z] LSY55GGn201HufxflzixM9y8_o6VKeeUWXdm4q1jlzE_8FT6d-MSi4pFqbmbmJ8Xwg1c_Bqs8FgikaJx0G
 
-sprite $ArrowsSpinMd [16x16/16z] {
-ROq50WCW30CJEiNo_z-k-EpG2rBy9zL83EHOxNFG3Engznwvtfh3UGntwqvr3oeOc5a0ekuuLOYiwt4H93RL7Idd18V0_7_yc5GKXyVX4XoFfPgvF04jOUmN
-1wVA2m
-}
+sprite $ArrowsSpinMd [16x16/16z] RKu50WGX4C9k-Vzhh_2sCGcTmJFQh0O2IM9-Tsku13WRljANHnr0reMqul8j1uwez8SgGAVREG6OFJlv5Njl4DR_70eFLl4gJhKtICvk_hm1NyLK1Izu0m
 
 sprite $ArrowsSpinLg [20x20/16z] {
-VSk54SKm30HHAKQ5jlzg0_SPTqZtnhP_rLRyFXB0R9pbOvxcMePQAlN-y3ooM8PChLSBQ5UhN0qmhx9vFKfc0mpsLe7dMU73D8U8Pmkmzv1nrWMhPwXNGtG_
-TQn-jw835QteTDbY7UdZhmfPgRNgxsSx
+VSvL0iKW30NH5ATszxzQP9xhV2Md0lOlxztJej5kceMnWcmcEfBIj0KR1HWJHkVLgfIlbdGrNehOVeuyVtFsbfEUroHzM9phKkkprMbl2TEi0ATvAJrV-J4o
+d0_p3AAQ8wDXXnMX64WLYocbQ5_h
 }
 
-!procedure ArrowsSpin($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ArrowsSpin', $name, $tech)
+!procedure ArrowsSpin($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ArrowsSpin', $name, $tech, $desc)
 !endprocedure

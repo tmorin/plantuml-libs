@@ -1,19 +1,19 @@
 ' definition of the Item fontawesome-6/Regular/Handshake
 
-sprite $HandshakeXs [12x10/16z] NSR50OK00CMmVCLv-q-BUtk9PuLoKv_lT4MY4sIEo8lFOdddC5BCxbD2Ne7CkJS2
+sprite $HandshakeXs [12x10/16z] NSQ50G8154EnuCxRVrgSitnfBHqS0VUshpbHRa9l9Amgj6hewF3kzuwGe3TpJm
 
-sprite $HandshakeSm [15x12/16z] RSg50SCm4C101SoW_QSjStE6Huuij_kGl5c1ragL96psthK7WdHORbiTtAS0ZnBDlikhnOowgTo8UTiWoxBLB6nSxLxnxmm
+sprite $HandshakeSm [15x12/16z] XSV50KKX0C2mFiEX-q_xtJMty5Vm1A3MN2GAawqrRIkRD22gDd0P0boA9kyzCQ5EwkKOfmcYJ7DEmiJHwX7lzW
 
 sprite $HandshakeMd [20x16/16z] {
-bSp50KCn3C1GXzdQVzj-J9bqV0RvApCWGhsX0Wr61oTBhJLRAPAs9QKl0KxJGatIXblRFbqKMUitfc3lhIwYv3lRQkXk1HtZmB1WpnnDbAeujtmsAmwfdY7Y
-pb_t-qSfc-ADlEq2
+bSY53GD04CJ0VUPp_zM6cJCYo_hFWWnTLmq6h0b1EsCCrsagT4d6t06y5HM6uc4UUKbC6TgRrpVi63UlWpFgxJlgsF4rR2qT1KopSAAZXBhXd9C4qbBpB6at
+ZZZHhLBLejxR0W
 }
 
 sprite $HandshakeLg [25x20/16z] {
-fSp50GGn34DH3OGJ__wh7URZxZlQalI7C4hHwyDnQfqUAjZOO0n0hrLPA4Eli9y2r1KBmNRuhg953xqCBRekF1wPGT2qyO-7mmo8-Zvaq3fedyV9iExxs5Ne
-zaSMYw9J07aJApCmdK0zC0o35ctz-AGSZIXr-tN_d9hUqZwPedur0m
+fP1LWiKW40GRz-dxttO7uidVlee0NJX-87aWHxpmF1YuqqdnW_H9bSMaAQYaGPe_pA9Fg81S0HQ19r0CQI2xIpTHwN2k76yYK8Ha_WXeF8n-7u5ToqUS9pAR
+gA3IJgCXegnmBIkdKM596cEWZ6bYGKd23EpfCjzRt4dRb2NZl_m1
 }
 
-!procedure Handshake($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Regular/Handshake', $name, $tech)
+!procedure Handshake($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/Handshake', $name, $tech, $desc)
 !endprocedure

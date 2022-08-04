@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/Question
 
-sprite $QuestionXs [6x10/16z] Ou00VY3Wuk47iI1yC04acK040nkGW05MFZ39oy
+sprite $QuestionXs [6x10/16z] Ou00VY3Wuk47iI1yC04a6K440nkGW05MFZ39oy
 
-sprite $QuestionSm [7x12/16z] JOb50G0W40IH5phzq-AShxet1S15QgtGsD66JvbDK4snjGvHmWa
+sprite $QuestionSm [7x12/16z] Ou02RduWO63cv-7XuUVdvGS90GaunGcK13BvUP0aW6meG1C4
 
-sprite $QuestionMd [9x16/16z] NOo50SCm4CJEpDR-qxPXqZFgfiqvkv7OYONgd8imsEOPcIqfQ2Eo9nF24YnmzAis0Zgm-b1mUzA9Ux8__mC
+sprite $QuestionMd [9x16/16z] NSU50GCn40D1cTdRVxN9CysXT6jpphvSTh5GhRKE1bfbj2l74zYV2M4vXYD7gZOU7Om-2cv_Ea4FVm
 
-sprite $QuestionLg [12x20/16z] NSZ50O100CJ0u4xwhnRdR3uhPAh-rbN0u6S6Wt5L7hjkRZmgPI3stwBnTGwdAxTQjU7HwmIXywkTAPKwTtwxnj-DqWa
+sprite $QuestionLg [12x20/16z] NSZ50SCm04DH9MRy-qzRhkbT1DgPj_lT0ZzPOl0LzD6XqVG52jBeVsNq2yZZf8wJMnyUaZIw1h9E9qSVlSFoDvsU
 
-!procedure Question($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Question', $name, $tech)
+!procedure Question($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Question', $name, $tech, $desc)
 !endprocedure

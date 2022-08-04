@@ -1,19 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/ChalkboardUser
 
-sprite $ChalkboardUserXs [12x10/16z] Om02VYW0CddXR107Y47IO1KmDXCIcm6PpGXYCWC5eE9GSo0a9mX036S2Qm
+sprite $ChalkboardUserXs [12x10/16z] Om02VYW0CddXR107Y47IO1K4s53C11I0YaFDWP2S800nd16i0G
 
-sprite $ChalkboardUserSm [15x12/16z] TOs30G0n40JV_ap_rSR6XAVToK3Wzr70X3-JntokPyf2D5KuZwecNgqUYmtNTTP7mBwYiuRWFMFvmh37Xme
+sprite $ChalkboardUserSm [15x12/16z] TOm50i1G249btTp_jfkr_k-d2eZ2P8qgqNAb1FeP9hcLF7YLA4srhYsFi1BGiv4DA2iLeGCQIvg3A7S
 
-sprite $ChalkboardUserMd [20x16/16z] {
-PO-50G0X202nM_UVziC6pZuBe5FQXUigDyGyfWvbE1NWC9nFXhh_YOATt-yUbxeJo6bsRWRSF_6rrkv-vCb6TIT2pic2pZsRlmVR1YAStCvCJI1kTwAfswdj
-NW
-}
+sprite $ChalkboardUserMd [20x16/16z] PO-50G0X3CIkkBF_j2-u10_MeX3pWYugv8rsZ4rYTSnYKftn_7Jv8-xEv9_T-U9eS-8-LmCMvQ-KKd4_DBEXwcm8Ne67aitVG-KAxCnjpgW1DzqW3JSZV04
 
 sprite $ChalkboardUserLg [25x20/16z] {
-ZSv50iGW04FHr1Lo_zFYal5vcnO-XcpXamd9m1UwuNs06ljuUnlswnZUX56VeS4oUGty4OR_TqoC5aJJ6lJd6Xfa9Zqm1V4SBaO6eCB4QXeqGF_Ney4YuO0m
-4Wp4AU66y
+hSv50e0W04JHeHlkVrex1c7ftoWy2cUcVL8u4cres300EF6EtHHy2fY0u6SmLBwDeVq7YYuNQkjzRca5kFwsn0bS3wdj5Q1naC-lH0VyRyCJ3847LGWAGoJ8
+32i
 }
 
-!procedure ChalkboardUser($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ChalkboardUser', $name, $tech)
+!procedure ChalkboardUser($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ChalkboardUser', $name, $tech, $desc)
 !endprocedure

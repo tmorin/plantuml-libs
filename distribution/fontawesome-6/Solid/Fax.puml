@@ -2,15 +2,15 @@
 
 sprite $FaxXs [10x10/16z] POc30S105CLIkzb_sXg7ZqV0SoPUvNggqxOgmwcgGV4TpYlcLp6QjRH1jWC
 
-sprite $FaxSm [12x12/16z] TSf50W0n24FHL5OjyEz_sd6Nju8aaX8BpOnLMcxDYDJpSODfDzt6Rhb5QBkdmwRxlQb4_T-C
+sprite $FaxSm [12x12/16z] Om02VZ1W004UVWI71oB4pyV0ZM3py_Cmm02G3LFF3s6354FO80OFa8sfXecVZmct6W
 
-sprite $FaxMd [16x16/16z] TSk30S0m443HGws__xIreXUUPAVSQZbDFDexhlrGWrwnFOsgun34W9lBPVySSJ-_fYEU-DnnAz39yiQw_rscD-OvXVckWhugpo_pTLZ0HZuR
+sprite $FaxMd [16x16/16z] TSk30S0m54NHLxjt_sdB62VyqWjZq6V7capSjwy1J2ovpxP6CT0sZOcVpnilXxE_yOvduaamwtInTD9gTp7sLERd5gQsFdyU_-64PiEx0G
 
 sprite $FaxLg [20x20/16z] {
-bSs50S0W00F1u4xstxRkojUl28O4rnBc4hVoR9cxwcp3orGXBsPx4odPix4FBdZCgH0c4tBVP9dddaqXaG9vRu0RRdPl0c6mE43h7aOdKklFFPICf9HFUmoE
-SBGE
+bSq50eCm44JHMPpOtF-sRTog7tz446998wLPCyaCcrmo_nApv6I7DwstqVWCvtrbM-yx6gGjcc7NHrkXIV6lrO3LtuxURdzJ7lxTOriqkInVzrX4aIBlzl2E
+kxS7
 }
 
-!procedure Fax($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Fax', $name, $tech)
+!procedure Fax($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Fax', $name, $tech, $desc)
 !endprocedure

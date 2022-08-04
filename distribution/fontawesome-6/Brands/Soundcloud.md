@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Soundcloud')
 
 ' renders the element
-Soundcloud('Soundcloud', 'Soundcloud', 'an optional tech label')
+Soundcloud('Soundcloud', 'Soundcloud', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Soundcloud')
 
 ' renders the element
-Soundcloud('Soundcloud', 'Soundcloud', 'an optional tech label')
+Soundcloud('Soundcloud', 'Soundcloud', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

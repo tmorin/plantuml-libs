@@ -2,12 +2,12 @@
 
 sprite $WeightHangingXs [10x10/16z] Om01VY26CFYXJ5P-g20_603PZ70MFnImmbdy21OZFoO
 
-sprite $WeightHangingSm [12x12/16z] LSR50G0X00InSmMc_sfnMVBAaXmipG-izRW5atV_O73_5ayp_vRJtNBqjzp80m
+sprite $WeightHangingSm [12x12/16z] LSR50G0X00InSmMc_sfnMVBAaXmipG-qunPCtls3mVrhFCtyMqvtoz7VSYCF
 
-sprite $WeightHangingMd [16x16/16z] NSUr0G0n300nXpct_xJFQ7MIKy7B1y1uMvaUtdUiWBlMseGEhUMzdjV-yRdRpaTLHyIfpz-DyDFKSUfJFQYl
+sprite $WeightHangingMd [16x16/16z] NSV50GCn44MnCRDV_zM6i_1ratqrebq0hBET7U3yn1cutyROC66C-cxWzFwISz7bc0NvbdCpv0JvbYVv4m
 
-sprite $WeightHangingLg [20x20/16z] ZSw53O005CJGm-N8x_xR4jpbnHkh5gRIKSKWqHuCEkqKaAg5KvEQNSji0nrWjz8Ws2iruC13IZWQchasJefh8wISi-7qB55mLeeB9roPVr8keWS
+sprite $WeightHangingLg [20x20/16z] ZSw54SHG30DH7GILyVPVRPXvXzy7MrCcqxQ4hgtHL-skVLJ2pgHYPL_RtKF0BWSBrlrwOvCx-h2jCvyOkv8J2-dBlcxJeyN1VkAGFnmpx_eSAHe
 
-!procedure WeightHanging($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/WeightHanging', $name, $tech)
+!procedure WeightHanging($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/WeightHanging', $name, $tech, $desc)
 !endprocedure

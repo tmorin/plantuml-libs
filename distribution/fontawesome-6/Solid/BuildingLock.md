@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BuildingLock')
 
 ' renders the element
-BuildingLock('BuildingLock', 'Building Lock', 'an optional tech label')
+BuildingLock('BuildingLock', 'Building Lock', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BuildingLock')
 
 ' renders the element
-BuildingLock('BuildingLock', 'Building Lock', 'an optional tech label')
+BuildingLock('BuildingLock', 'Building Lock', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

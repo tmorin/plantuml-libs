@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Hashnode')
 
 ' renders the element
-Hashnode('Hashnode', 'Hashnode', 'an optional tech label')
+Hashnode('Hashnode', 'Hashnode', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Hashnode')
 
 ' renders the element
-Hashnode('Hashnode', 'Hashnode', 'an optional tech label')
+Hashnode('Hashnode', 'Hashnode', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

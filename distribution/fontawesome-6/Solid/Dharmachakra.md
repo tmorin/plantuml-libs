@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Dharmachakra')
 
 ' renders the element
-Dharmachakra('Dharmachakra', 'Dharmachakra', 'an optional tech label')
+Dharmachakra('Dharmachakra', 'Dharmachakra', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Dharmachakra')
 
 ' renders the element
-Dharmachakra('Dharmachakra', 'Dharmachakra', 'an optional tech label')
+Dharmachakra('Dharmachakra', 'Dharmachakra', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/Neuter
 
-sprite $NeuterXs [7x10/16z] Os1WuEK64gpyGC300CL0ae4HGh7mWmGO8H8W4aYpCQ1H
+sprite $NeuterXs [7x10/16z] Os1WuEK64gpyGC300CL04aY3AHP-a00ZH88V8i76W4O1
 
-sprite $NeuterSm [9x12/16z] ROkr0O0030GFRIAt_xGuLCJp0WoTdE4PTUvcqXMzOSpt-93pEZMV2qRb3llts04
+sprite $NeuterSm [9x12/16z] ROir0e003CI2BfNy_xKuJ6Hfpm0wEV6aG9jHL_IsCT_7xn7EphU2GRcnVvyT
 
-sprite $NeuterMd [12x16/16z] bOnN4e0m50AnTxd_RMNsMRvTJKAPGQ7PlQWmx9_4xFQSvB1R4L2VENqKVVI8Fj5crzaTC5r5Xuj1OK5sAeviwx--
+sprite $NeuterMd [12x16/16z] bOp50OK03CNo5IVxJuja0t9gdt6pEa4OQsVqhFe7DdsHaBsZRo0V_NJltNRhnA_dez92_026pXQoNl3yFW4
 
-sprite $NeuterLg [15x20/16z] hO-50O1G20NFRjb_Mtd41jvF6X33QUz6CRuMd6covfMepxtjPTSxufp-0G-iBAQVTCaXxnOZxA938-pWgW9CCcJP8IiO-HRGSldK19Op58iSVnO_
+sprite $NeuterLg [15x20/16z] hOw50O0m40E3UxB_jl063D2hlWVEBYv8EihPmr91C-rpZcl6xSrw-r3ABeyveOAUj__CHJhCxCAajE780UWZe7Xy4k9DgkDdbGBEU9airDYy0G
 
-!procedure Neuter($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Neuter', $name, $tech)
+!procedure Neuter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Neuter', $name, $tech, $desc)
 !endprocedure

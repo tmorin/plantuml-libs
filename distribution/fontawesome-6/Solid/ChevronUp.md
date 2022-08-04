@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ChevronUp')
 
 ' renders the element
-ChevronUp('ChevronUp', 'Chevron Up', 'an optional tech label')
+ChevronUp('ChevronUp', 'Chevron Up', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ChevronUp')
 
 ' renders the element
-ChevronUp('ChevronUp', 'Chevron Up', 'an optional tech label')
+ChevronUp('ChevronUp', 'Chevron Up', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

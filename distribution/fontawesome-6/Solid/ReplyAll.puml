@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/ReplyAll
 
-sprite $ReplyAllXs [11x10/16z] LSR50K81040XxFRjFwtvanDMZay1ZnIeJL-K1kPpJb7OFiKfe-lSl04
+sprite $ReplyAllXs [11x10/16z] LOp50O100CE2Ezb_MlIq_YeLnXF_TOZ_L5JDIyrRc4NvJFizZ18nvoat
 
-sprite $ReplyAllSm [13x12/16z] NSVL0OLG081GrDl5_jE-JiyNSBO2lblHxQSDpvxur6coV5ba6U-3O2YwCHJO3C4DbBVp9BuoLm
+sprite $ReplyAllSm [13x12/16z] NSV50O1G081Gx9RzfxNzzKv0QQ_nRqMhf6tUtl2rCClkPsUGzJzeRGQjM1N0kha6vLTEJpHm0W
 
-sprite $ReplyAllMd [17x16/16z] RSZ50OH00CNGu32M_gjTmUrTll2gYj1rx6fbK3QTCdaSWuMaMZ4BPhAhuRyZnGELCdZ8yzDx0BHgvbgl1zfKIrNvArBDDIgpYiMaN1HRBenSLV05
+sprite $ReplyAllMd [17x16/16z] RSo50SCW503HYpkt_xJr1dquNsWxO9ZYirCMXPzHsOmViu7J-B5xSVapljy7mUZNCBf0cOq0xNfLllltf_jUVny4GO7Z-n5jvKUm9-D1vGa
 
 sprite $ReplyAllLg [22x20/16z] {
-VSY55SCm4C1GXT6d_RVjQvXblCzNPV6_iZFM1lJ62Jkj6JnhqXpLk6BuBsTD9NDh_5kcYK8zkGh9Sn2QPHVjGCsvC31enQWQMPLMfTNwpmPGhKgj7Usif5N9
-_r3EscnAjbr_7RdLQtRNiEMU7I_z
+VSw54OHG5CNGu4xwxtRdhgE1RsViSLTPP6DRwmgZwmPxRPZSwg8b6jrWmQhc_AHc-pI_SQ5IDwx2uZPOixbjY1mPCcZD_9giMZvAhotX5MW-cjj0_rAMZr86
+wfUsqKDD9ZxKQt7KrPvZ3bpq
 }
 
-!procedure ReplyAll($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ReplyAll', $name, $tech)
+!procedure ReplyAll($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ReplyAll', $name, $tech, $desc)
 !endprocedure

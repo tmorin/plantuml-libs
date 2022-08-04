@@ -2,15 +2,15 @@
 
 sprite $MoneyBillTrendUpXs [10x10/16z] BSl50O0034FHuCxRVrgq_zB6yiDO7vA6_zi4Uvf8ikpLAEhTDch5Hh9mMe7pl04
 
-sprite $MoneyBillTrendUpSm [12x12/16z] DOe50e0m3CI2MxVy_xN0BFNUqSawZLtDmE41Lzt3R5pU1hgpwqrnpC1qKj11Ckw-dbfMM3LP6TOhwKRyhIg33m
+sprite $MoneyBillTrendUpSm [12x12/16z] HSg50S0W4C30L76o_xHrEUILHrTUQWU20TALLxircQtepAgPGnZEFtBoqyxLMz0pXKcRbtSrD9seEjdyxG
 
-sprite $MoneyBillTrendUpMd [16x16/16z] LOo55O103CM2Ezb_MrhySlhbbPTAtVbO32gIgINe7hth1FMJcwmXvoLqfVkLpT61rOKWvKLLF6p-6LAMO30t6GnuCG86Jxlv3HhIl_DMlOBDb6HQS
+sprite $MoneyBillTrendUpMd [16x16/16z] ROs55G0X04Av3eFzfxLRlqayHOMaHaNGWS1tmd5bhSaFs79EZtJo5mnIH-zt7K1ImE7b4iMMHt44mT-Lty78cxxDxVQXn_iftqd6G0M9aBPO
 
 sprite $MoneyBillTrendUpLg [20x20/16z] {
-VS_50S102011SkxRVxLnjtdYo5a4S7B1x1ehfvW2BvCZrW6aIwzZLgPGCdCipwajBguJiK2tff8i56qxhiYFn9r-XfPpECdB7G4WhgUZygbw3fujzx1PQfSB
-9mqGnSIgm6HvA77IKaFpq0O
+VS-54OKm00JHmo6s_LVxXHjStcXyexq9eDS1CnsatLm5mxPncO9mEDinIm92Eyz5G5hcrLTI3SXB15b5MUAINWJEci0TYPteZXvWMfAhoC891-vXuRqk_2k0
+Zz1K8t_-K62dX4B3HVa2
 }
 
-!procedure MoneyBillTrendUp($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/MoneyBillTrendUp', $name, $tech)
+!procedure MoneyBillTrendUp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/MoneyBillTrendUp', $name, $tech, $desc)
 !endprocedure

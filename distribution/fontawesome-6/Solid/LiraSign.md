@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/LiraSign')
 
 ' renders the element
-LiraSign('LiraSign', 'Lira Sign', 'an optional tech label')
+LiraSign('LiraSign', 'Lira Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/LiraSign')
 
 ' renders the element
-LiraSign('LiraSign', 'Lira Sign', 'an optional tech label')
+LiraSign('LiraSign', 'Lira Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

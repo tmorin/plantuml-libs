@@ -2,12 +2,12 @@
 
 sprite $PersonPrayingXs [7x10/16z] Om02PdO64E3dHr2CG88Po0O11WuGoGRay87aUQ3gU44q7r06A0m
 
-sprite $PersonPrayingSm [9x12/16z] FOo50S0W40FhNcx_QU7TBSbarYOt88SyhRLl212GDAI1VsX6l-09iPYkooSIEm
+sprite $PersonPrayingSm [9x12/16z] FOg50S0W30JhNcx_QI7kRvDLcxo012dDnLSa23Imf8L_TJHxmJDPDRZrxxiZCZi
 
-sprite $PersonPrayingMd [12x16/16z] RSw54O1030NHnPtVVxNOJaPvvvgWyQHCIK1vjAXn7tN8pNa5ZZpU7jeKgDdf5-7CZ5VElpXTBQYJpgm4R3Llu0O
+sprite $PersonPrayingMd [12x16/16z] LKs30G1H5EhiQ_zflv-jGfVzXyX1Kcgw6hx658R73U2hrpNMiOYLl-3zFCVdxta4SRR6RGu3nEFg3
 
-sprite $PersonPrayingLg [15x20/16z] NOw50S0W40EhECd-q-9-5RX_95V7uBac8FbDPSBjQgQgfDV2_Qxdg3n-tKXPnbnZGP15mKxUyaxBkPZ1s-pgzN_cMHBemsrMJF-NlWV0tbypoAHY3n41
+sprite $PersonPrayingLg [15x20/16z] NOw50S0W30HJNFFxRrlS3ZqUeqbWGHi68BUYa6uDMrrHEldEUrmTrJJ0jh6OGCEWCCEnH2ItYV4YMCo7CCvekdJW7u_jy7Pzv9cPCVBh3xQesVeL_G4
 
-!procedure PersonPraying($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonPraying', $name, $tech)
+!procedure PersonPraying($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonPraying', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/LessThan')
 
 ' renders the element
-LessThan('LessThan', 'Less Than', 'an optional tech label')
+LessThan('LessThan', 'Less Than', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/LessThan')
 
 ' renders the element
-LessThan('LessThan', 'Less Than', 'an optional tech label')
+LessThan('LessThan', 'Less Than', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

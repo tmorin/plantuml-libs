@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Intercom')
 
 ' renders the element
-Intercom('Intercom', 'Intercom', 'an optional tech label')
+Intercom('Intercom', 'Intercom', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Intercom')
 
 ' renders the element
-Intercom('Intercom', 'Intercom', 'an optional tech label')
+Intercom('Intercom', 'Intercom', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

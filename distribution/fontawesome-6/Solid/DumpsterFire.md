@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/DumpsterFire')
 
 ' renders the element
-DumpsterFire('DumpsterFire', 'Dumpster Fire', 'an optional tech label')
+DumpsterFire('DumpsterFire', 'Dumpster Fire', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/DumpsterFire')
 
 ' renders the element
-DumpsterFire('DumpsterFire', 'Dumpster Fire', 'an optional tech label')
+DumpsterFire('DumpsterFire', 'Dumpster Fire', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

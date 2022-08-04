@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Brands/Zhihu
 
-sprite $ZhihuXs [12x10/16z] ZSYr0S0m402nCzF3_jE6wf1AyOTxT6U8P3945fH6EJApc5FN8ethQO0HV06BHpi
+sprite $ZhihuXs [12x10/16z] ZSYr0S1040InUURR_girnIQ5uW_9IRGv8n4S0r8XUIaow7sDGMZNKm33QG23Hpi
 
-sprite $ZhihuSm [15x12/16z] bOn50e0W54I7RkR-jvLUghpVYIkuejGkPCBJ56rmA4r4ZrqboLwAs4W9YEZb9g0MaNUbNF_QCqzyyG
+sprite $ZhihuSm [15x12/16z] bSNL0GHH34BH-ropz5_jsjZVo4a07j6wpeSsHP4pvzaPjYw6bsI0wrzZGCSuD5x6P1Kou02gkF81
 
-sprite $ZhihuMd [20x16/16z] hSh50GCn3031DOEe_sh3_CsDGSZH5Y-vjB7KWxZ8xhwWjhfAWjHA9pVIjTSP441fpnxEO1ToNDHRR-wzROi8pFJQWy5DMFxjzKtaS9zStVuYjv-R5CQVpW
+sprite $ZhihuMd [20x16/16z] hSsr5GHH243HXtmN-gzstTETUqXmZjPu4LLlSmTn8Nll12BI510NGow5IrYcG03l6ljIwuB6XTzgjVU--XW3AgyvADp4ajzQReJ4xI-t9R01e3nt-DCP
 
 sprite $ZhihuLg [25x20/16z] {
-nSk96O8m40NXoIrPDg__RcNnjW3z8UTyuQ-gmqikhLysSncc0p4jm7sV6ZK3mi-P5A4MM90cDJQlWCxpol0Lwc2HDyWA_HvcqBG3eDUBL0-hnGneFSFfkJRR
-KCxzApI1OvBDUn2XU29qxdOPlt85
+nSg55SGW50NHGMBOwx_RvNFY1MnkWWvyoXTkdFDXsN9L9gl3fWRKMfAMw05HnmmMd6EiYMYRAw2nDW-lu9U--WsypBo7P9Hojx_U0xvhqMP0xGhSrvWtX0kl
+C0agMSff3yA4kdTsHPb_-G4
 }
 
-!procedure Zhihu($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Zhihu', $name, $tech)
+!procedure Zhihu($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Zhihu', $name, $tech, $desc)
 !endprocedure

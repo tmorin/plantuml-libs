@@ -2,15 +2,15 @@
 
 sprite $SatelliteXs [10x10/16z] 9SRN0G0X20JHyUVokVrNIzfHu57Tu3wfPW2gO8btqEoG0zCQhlRP0cSb
 
-sprite $SatelliteSm [12x12/16z] FSd50OG00CJ0d0kI_hibwBnM81CN5NoJMNxc2NS1ymB-OjwaaaayVFd9x0PkmcJ-tht1qr3PhXukiv05
+sprite $SatelliteSm [12x12/16z] FSc50O0m30NHmvtRVrj-iDV6AGS_5Ho9KnQZ1wo80LZ562chSOYlcKLERz08Xx7Qs41da06mBlnEAHS
 
-sprite $SatelliteMd [16x16/16z] JSr50iGW54J1YZjz_zEE_R6tgqu0LVDVbmJdMEmJYPRCnOQywd2aHtiPFETYHmt5e3lRhbJtVaEzKdNOud_Oik5wILAqbgMOk5xMWscX9VpNehe3
+sprite $SatelliteMd [16x16/16z] JSt50S0m3C10bTdQVzfoGByBs7m5TOqAx7qcIkZuCG3V7cysG6IZJKtGXv-RDMO-jOeb-BPylKCNgGyM5-1uXNva_emVbUCr3K_31F6uBf8l
 
 sprite $SatelliteLg [20x20/16z] {
-NOy54WCn3CJscBt__ssZgUE2sYEDGagEI_-SziDpcKlTTZJ9Swqgf72q6fcLX7mZi9US4nx1WDJrKJ0tIGMfA8kGj3sjtsjWDEcava8-XfzTS1LiwQ6kajLJ
-LJcoUgefmqrpLvijmyv7FqGm9zqlb9D-eLJd1G
+NOw54SH03CGKHdlxx_RVnnCbHneJXUlXoorPdFFSr2kvB9rxYt9m-Is5B54GCaCWRQLcO0HJaazNmVANzv1P8XiER2RPsH9TZaOCaZHr2E9GPmCiebjaT2-g
+HKxJCBALE9Qg3Wa5Ppn8h7Am5FSXwl75HEK7
 }
 
-!procedure Satellite($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Satellite', $name, $tech)
+!procedure Satellite($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Satellite', $name, $tech, $desc)
 !endprocedure

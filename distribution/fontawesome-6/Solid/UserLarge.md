@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UserLarge')
 
 ' renders the element
-UserLarge('UserLarge', 'User Large', 'an optional tech label')
+UserLarge('UserLarge', 'User Large', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UserLarge')
 
 ' renders the element
-UserLarge('UserLarge', 'User Large', 'an optional tech label')
+UserLarge('UserLarge', 'User Large', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

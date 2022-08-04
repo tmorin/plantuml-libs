@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Brands/Flipboard
 
-sprite $FlipboardXs [8x10/16z] Ou02VWm05eRGR6mG6YBEp0-dCG4
+sprite $FlipboardXs [8x10/16z] Ou02VWm05eRGR6mG6YBEo0-dCG4
 
-sprite $FlipboardSm [10x12/16z] Ou03Vgo02Ip7Yy7YueF9ya3LSN3pGLayKBqSxBnefl710G
+sprite $FlipboardSm [10x12/16z] Ou03Vgm08iUBmUBYWydoGDLnSFD1MJnGlQpCl6YcyS41
 
-sprite $FlipboardMd [14x16/16z] Oq01V2Y07p-0QM8dZiS8P63dCJ8o8V6097OUEpixFn604GK
+sprite $FlipboardMd [14x16/16z] Oq01V2Y07p-0QM8XaWTc4kO1IUmyPcPcVY80gey
 
-sprite $FlipboardLg [17x20/16z] Oq07xEY0dop0Yp2HH05cDZOs504E89CK0H1DWW0Vo8-K08mW1
+sprite $FlipboardLg [17x20/16z] Oq07pEY0dop0Yp2HH04cDZOs505s89CK0H1DWW0Vo8-K08mW1
 
-!procedure Flipboard($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Flipboard', $name, $tech)
+!procedure Flipboard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Flipboard', $name, $tech, $desc)
 !endprocedure

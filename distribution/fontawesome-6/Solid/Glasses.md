@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Glasses')
 
 ' renders the element
-Glasses('Glasses', 'Glasses', 'an optional tech label')
+Glasses('Glasses', 'Glasses', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Glasses')
 
 ' renders the element
-Glasses('Glasses', 'Glasses', 'an optional tech label')
+Glasses('Glasses', 'Glasses', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Twitter')
 
 ' renders the element
-Twitter('Twitter', 'Twitter', 'an optional tech label')
+Twitter('Twitter', 'Twitter', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Twitter')
 
 ' renders the element
-Twitter('Twitter', 'Twitter', 'an optional tech label')
+Twitter('Twitter', 'Twitter', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

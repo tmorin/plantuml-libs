@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MoneyBill1')
 
 ' renders the element
-MoneyBill1('MoneyBill1', 'Money Bill1', 'an optional tech label')
+MoneyBill1('MoneyBill1', 'Money Bill1', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MoneyBill1')
 
 ' renders the element
-MoneyBill1('MoneyBill1', 'Money Bill1', 'an optional tech label')
+MoneyBill1('MoneyBill1', 'Money Bill1', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowUpAZ')
 
 ' renders the element
-ArrowUpAZ('ArrowUpAz', 'Arrow Up Az', 'an optional tech label')
+ArrowUpAZ('ArrowUpAz', 'Arrow Up Az', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowUpAZ')
 
 ' renders the element
-ArrowUpAZ('ArrowUpAz', 'Arrow Up Az', 'an optional tech label')
+ArrowUpAZ('ArrowUpAz', 'Arrow Up Az', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

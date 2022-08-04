@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/GooglePlay')
 
 ' renders the element
-GooglePlay('GooglePlay', 'Google Play', 'an optional tech label')
+GooglePlay('GooglePlay', 'Google Play', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/GooglePlay')
 
 ' renders the element
-GooglePlay('GooglePlay', 'Google Play', 'an optional tech label')
+GooglePlay('GooglePlay', 'Google Play', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

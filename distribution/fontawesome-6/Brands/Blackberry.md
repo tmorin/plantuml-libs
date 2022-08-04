@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Blackberry')
 
 ' renders the element
-Blackberry('Blackberry', 'Blackberry', 'an optional tech label')
+Blackberry('Blackberry', 'Blackberry', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Blackberry')
 
 ' renders the element
-Blackberry('Blackberry', 'Blackberry', 'an optional tech label')
+Blackberry('Blackberry', 'Blackberry', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

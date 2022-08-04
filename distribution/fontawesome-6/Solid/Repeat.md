@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Repeat')
 
 ' renders the element
-Repeat('Repeat', 'Repeat', 'an optional tech label')
+Repeat('Repeat', 'Repeat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Repeat')
 
 ' renders the element
-Repeat('Repeat', 'Repeat', 'an optional tech label')
+Repeat('Repeat', 'Repeat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

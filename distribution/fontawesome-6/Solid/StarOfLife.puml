@@ -2,15 +2,15 @@
 
 sprite $StarOfLifeXs [10x10/16z] FOo30K0n34Jl6yNjlstZ5nF2HWJTC_5DxBv1KZBnqdGWJ8ctnBrwvEY-TzUN-hS
 
-sprite $StarOfLifeSm [12x12/16z] NSsr0SG000CnFuQZ_QSDiwghxCmgEL3U-vLGBzthOj53ycNnoinigPv5bQ2dXl1UTWh5ysll4G
+sprite $StarOfLifeSm [12x12/16z] TSsr0SG000CnFsEY_QSDCwYwoaxh8nEUk-RRTQc8JWd9NI-TEKkzJuAI3uHBj_FmElkg0G
 
-sprite $StarOfLifeMd [16x16/16z] XS-r0GH100Cn7_Eg_sgV6PLDPkUi6FC8ttgjRjtEoSPyxgfG1mnOeIIRko47bOij5y1ogPcBDaddKHLOWmPA1khBde4apSFU-k-VFG
+sprite $StarOfLifeMd [16x16/16z] XS-r0GH100Cn7_Eg_sgV6PLDPkUi6FC8ttgzTpCd6_Eb2rL0XnLAihaRSkHYomMmN6hceatIUPJ06jHGCb0bI3gIL0zxgxz_zW
 
 sprite $StarOfLifeLg [20x20/16z] {
-bP3L0SDG2029ExV_j1KiyjLUyWm72HhOvS4E_2BRRZAuoaP6aGbOKzQh7HYJoHI0MGRkU4aBLzfBKcUIGd76aimKsfkavSPXJHaA71Y3XpgytpPa7MXRCvZy
-6BlRN9R_vxTUP6y
+bP1L0eGm30KVxfdxdnQfjr-x0xLuea07fnfEu1VPKScWbCtCqWJiKTQREt0iJcPyh1geyILjb7GfQMHIml3CIRAIi5uVFHMNR-h3lYUEGUQLdoguzEh0kZI3
+oH_pKCrb-tz-Uo5x
 }
 
-!procedure StarOfLife($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/StarOfLife', $name, $tech)
+!procedure StarOfLife($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/StarOfLife', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HeartCirclePlus')
 
 ' renders the element
-HeartCirclePlus('HeartCirclePlus', 'Heart Circle Plus', 'an optional tech label')
+HeartCirclePlus('HeartCirclePlus', 'Heart Circle Plus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HeartCirclePlus')
 
 ' renders the element
-HeartCirclePlus('HeartCirclePlus', 'Heart Circle Plus', 'an optional tech label')
+HeartCirclePlus('HeartCirclePlus', 'Heart Circle Plus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

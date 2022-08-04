@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Worm')
 
 ' renders the element
-Worm('Worm', 'Worm', 'an optional tech label')
+Worm('Worm', 'Worm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Worm')
 
 ' renders the element
-Worm('Worm', 'Worm', 'an optional tech label')
+Worm('Worm', 'Worm', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

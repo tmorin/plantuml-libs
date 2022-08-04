@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Hashtag')
 
 ' renders the element
-Hashtag('Hashtag', 'Hashtag', 'an optional tech label')
+Hashtag('Hashtag', 'Hashtag', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Hashtag')
 
 ' renders the element
-Hashtag('Hashtag', 'Hashtag', 'an optional tech label')
+Hashtag('Hashtag', 'Hashtag', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

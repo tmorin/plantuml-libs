@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CameraRotate')
 
 ' renders the element
-CameraRotate('CameraRotate', 'Camera Rotate', 'an optional tech label')
+CameraRotate('CameraRotate', 'Camera Rotate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CameraRotate')
 
 ' renders the element
-CameraRotate('CameraRotate', 'Camera Rotate', 'an optional tech label')
+CameraRotate('CameraRotate', 'Camera Rotate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

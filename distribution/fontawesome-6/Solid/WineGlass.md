@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/WineGlass')
 
 ' renders the element
-WineGlass('WineGlass', 'Wine Glass', 'an optional tech label')
+WineGlass('WineGlass', 'Wine Glass', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/WineGlass')
 
 ' renders the element
-WineGlass('WineGlass', 'Wine Glass', 'an optional tech label')
+WineGlass('WineGlass', 'Wine Glass', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BuildingWheat')
 
 ' renders the element
-BuildingWheat('BuildingWheat', 'Building Wheat', 'an optional tech label')
+BuildingWheat('BuildingWheat', 'Building Wheat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BuildingWheat')
 
 ' renders the element
-BuildingWheat('BuildingWheat', 'Building Wheat', 'an optional tech label')
+BuildingWheat('BuildingWheat', 'Building Wheat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

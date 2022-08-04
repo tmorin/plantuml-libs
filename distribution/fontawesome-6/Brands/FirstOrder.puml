@@ -1,19 +1,19 @@
 ' definition of the Item fontawesome-6/Brands/FirstOrder
 
-sprite $FirstOrderXs [8x10/16z] FOU50S0m40A9-z_-qzOR75qOUk0eLy8W3QjSQ50lm-vLv_Vl60NrcEjKaBH0EW4
+sprite $FirstOrderXs [8x10/16z] FOU50S0m40A9-z_-qzOR75qOUa6vWq4QLhdGe5w6tQlExzyn2kenrwaWQO5q0W
 
-sprite $FirstOrderSm [10x12/16z] HOs30G0n301h1RV_j6zS6okSIBYfXHLFHsLDhHvw8GE3Sdp0QMjWdCmrRWUEtE_5fozraa4LFGvadDB2YHK_z0u
+sprite $FirstOrderSm [10x12/16z] HOg50G112CDwxcJ_QTybEArEXcvIfEjaZjvcCfM81mgX4W0ZzyhYfFLwBz0h_wR7vmfkGHfJ6W4Z9fsiQ4VV0G
 
 sprite $FirstOrderMd [14x16/16z] {
-HSV50G0n3CH01ytP_giz1hqqTEVqPzooFzzZ06Yh75zNMqfUBQOJZyY93hY0JUHO1n1eg29wuk8wL1gkikWXmzkf-YBya8TVc8ag34Oam53KcXqD5P6IFObO
-POaQUZOwYv5WOtegg-SrEm
+HSV50KCn3C1GKyEEzf-szEcT93bCUOpgwMVRUW6-zTkwRNUPDbQPKdrb430RjRU6Cu65OQtrt_ntVq-TlzJ-lS7bTtRDcj-RQ_9J4ckLoageT4mpC8oLBID5
+QckxzK6aoSzw9NLKEUcEb9yF
 }
 
 sprite $FirstOrderLg [17x20/16z] {
-JO-50G0X203rBHJXzf_skywa8Tn837-oPz7muQt0VZ_UcXqpHhQqYmjnUidep1Inq5gZ9nobT_SqfQ3GmUWqQBjYDEUaZtOeZ0yz54F6BRgS7fqFzrsXMRcH
-vV1mvuvnv51GAyP9chiYmq1XKiy-5ilg4KMPZNhCB1QPGKfYBiHmeD80pxE5cqYSjLlu8Uefd6m
+JOy55aGX201jK8Iv_sttwziQauRqHdFwfqPJ-vD3EZptMnHhWJkh-OdBv1szORlHrPDqOHO2Oyw8khLZCC6P2CYZM19SvfAZS7xOKInTRp7qUan-H3mAAyOR
+BSSZWdTCe4V163YNiX5ji33OZDj7zcQHC8mjZ3EpUc8dxPMToUbWAa2qBLTyJpocfp_KegJB2m
 }
 
-!procedure FirstOrder($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/FirstOrder', $name, $tech)
+!procedure FirstOrder($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/FirstOrder', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Receipt')
 
 ' renders the element
-Receipt('Receipt', 'Receipt', 'an optional tech label')
+Receipt('Receipt', 'Receipt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Receipt')
 
 ' renders the element
-Receipt('Receipt', 'Receipt', 'an optional tech label')
+Receipt('Receipt', 'Receipt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

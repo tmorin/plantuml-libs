@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Gem')
 
 ' renders the element
-Gem('Gem', 'Gem', 'an optional tech label')
+Gem('Gem', 'Gem', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Gem')
 
 ' renders the element
-Gem('Gem', 'Gem', 'an optional tech label')
+Gem('Gem', 'Gem', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

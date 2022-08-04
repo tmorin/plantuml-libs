@@ -2,15 +2,12 @@
 
 sprite $AddressBookXs [10x10/16z] Os3W1mDc80CAa5be18Oi0n2WiJ1D0G
 
-sprite $AddressBookSm [12x12/16z] LOh50K0X08NuQUl-qzh9wGKGEhJOsFDLin0pAz33SU3RVle0tVbB_jhkJSQVFdjE
+sprite $AddressBookSm [12x12/16z] NOh50S0m08IeDxx_j77dTGAu2YKMvdpaV7yz2v3DCM3Jlli0rNbIlijkLSIkFdCE
 
-sprite $AddressBookMd [16x16/16z] ROor0G0X0CJohi3-q-8EwKxXL9a5E5I5rRBMwzTf6VLnDHhOlDwofjuly3Jxzazkot9wlJWjyEJz7hH8VVbvPdyRej6mr1eC
+sprite $AddressBookMd [16x16/16z] RKm30a0X55jstV-q7rcBRm9awi07CSPCn6LssnphJDKo0o3v9Nt6oEVPBFcrBr92nCW7PFGyBNDe_kWoRdq4OPa_hFCB
 
-sprite $AddressBookLg [20x20/16z] {
-ZSx50S0m3C10DSpPVzeoivuNi85KTqc6wZ43c9Dbm9wiKDyiA7is3uZP_6o2ljcQsUHiyzjr0_TZRlBUXzdSP4oLqHZDpIPsRnLpEojnAZtEzIURDbKdY_Ib
-epNG0G
-}
+sprite $AddressBookLg [20x20/16z] ZT350OKm042nu0xxJ_iLrxvZwaKxh4h0i2r5ihFkn7h3dTLniRSAqMZLQ16C5grjjxP37d1kMrLLFLhvD__wd_bPELgqMXiRMrdV_6ilpwrE_ohUMGFjrl06
 
-!procedure AddressBook($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/AddressBook', $name, $tech)
+!procedure AddressBook($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/AddressBook', $name, $tech, $desc)
 !endprocedure

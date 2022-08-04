@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/RubleSign')
 
 ' renders the element
-RubleSign('RubleSign', 'Ruble Sign', 'an optional tech label')
+RubleSign('RubleSign', 'Ruble Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/RubleSign')
 
 ' renders the element
-RubleSign('RubleSign', 'Ruble Sign', 'an optional tech label')
+RubleSign('RubleSign', 'Ruble Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

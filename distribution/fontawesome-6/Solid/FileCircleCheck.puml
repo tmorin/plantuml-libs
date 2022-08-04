@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/FileCircleCheck
 
-sprite $FileCircleCheckXs [11x10/16z] FSQ50O00449HxFRllwrU1pozy4woUVd9QCHfThAkQn7Kj5eDbZL23C4Pq-KUBJu
+sprite $FileCircleCheckXs [11x10/16z] DSY54O0m0C302cw__xH0BMT_2GzF3AK7ZsgL1YtBCZXk5PQgp2W8OfMaw2miu0C
 
-sprite $FileCircleCheckSm [13x12/16z] JKp50S0W30GYdyhjFss5A9hJSGAGOUl43s001Z0JA3Cd-5S7eu7zJvlPlX8kAZ3CL3Pj1Ui5
+sprite $FileCircleCheckSm [13x12/16z] JKp50S0W30GYdyhjFss5A9hJSG9OmzQ97y003A00hxKC-EfWDB1_1sHV2TSiKF5bd_Q25m
 
-sprite $FileCircleCheckMd [17x16/16z] PSc50S0W3031fEw__xJ5_V53TboIsmYGYGGCG0lBiimrVC_pN0bIFOW-xro1VBWoh6Su0-UV7IfOsBM1LOK6sAcwfd3kaaHdW4CC
+sprite $FileCircleCheckMd [17x16/16z] PSk53KGn0CFG_39x_scFeM3nYwB8C_qAlE57V843MC4OSyqmMcjbXcSxwAhDJg31in_OpAidJuk72InH2tY91GXCvOjdqqiM8EaE
 
 sprite $FileCircleCheckLg [22x20/16z] {
-RSe53W8m04FHJj39l_zfSIYJ7sjUgjHvrfNa8dmKixgL-5Eiva7DV5D-DcizFhF-jzEkZHvrR52YDA37hwxAfpnSDuKhhtG29q051GQjS9KIGpa29J1MnBTp
-CIl-bhevXFPwIdS
+RSw50OD000J1nPtjlzfuEEpWRLwfLjzPAKXA_QbXrgXXe-6ZUbOftpdhtBuJtUTELswqfbbqAWxQOZhPFljB5Qtm9eo_jZkeoYI51vrrv8IMfJgTq8cySGfd
+Cwo6MLGxU08
 }
 
-!procedure FileCircleCheck($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FileCircleCheck', $name, $tech)
+!procedure FileCircleCheck($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FileCircleCheck', $name, $tech, $desc)
 !endprocedure

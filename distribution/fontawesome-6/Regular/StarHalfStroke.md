@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/StarHalfStroke')
 
 ' renders the element
-StarHalfStroke('StarHalfStroke', 'Star Half Stroke', 'an optional tech label')
+StarHalfStroke('StarHalfStroke', 'Star Half Stroke', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/StarHalfStroke')
 
 ' renders the element
-StarHalfStroke('StarHalfStroke', 'Star Half Stroke', 'an optional tech label')
+StarHalfStroke('StarHalfStroke', 'Star Half Stroke', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

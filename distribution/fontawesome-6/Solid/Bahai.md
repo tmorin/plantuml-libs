@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Bahai')
 
 ' renders the element
-Bahai('Bahai', 'Bahai', 'an optional tech label')
+Bahai('Bahai', 'Bahai', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Bahai')
 
 ' renders the element
-Bahai('Bahai', 'Bahai', 'an optional tech label')
+Bahai('Bahai', 'Bahai', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

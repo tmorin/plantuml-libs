@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Sun')
 
 ' renders the element
-Sun('Sun', 'Sun', 'an optional tech label')
+Sun('Sun', 'Sun', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Sun')
 
 ' renders the element
-Sun('Sun', 'Sun', 'an optional tech label')
+Sun('Sun', 'Sun', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

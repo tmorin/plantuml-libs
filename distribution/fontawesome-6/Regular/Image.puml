@@ -2,12 +2,12 @@
 
 sprite $ImageXs [10x10/16z] Oq00VZY0YN3p0n6CnG1ZGHI3M51TG1PCCpUI8N0M
 
-sprite $ImageSm [12x12/16z] JSY53G0n4CJ0lMUC-wysJ2Eoh1cJTxgtt3SQHfj9L-s4lpUmvsOdIKttCUXrpHu
+sprite $ImageSm [12x12/16z] JSY53G0n0830bxgn_xHrknZXkN5nrzLF2gVXTAEk9ku6_jv8cjg6BN0yFYso
 
-sprite $ImageMd [16x16/16z] NSV50SDG34J1LMAcrt-rPjYlkOsoUZ5pD6HovnUALz3x1J__fPlAG-q7U4veuN1zWexJSBpbyoUBT2cSDW
+sprite $ImageMd [16x16/16z] NSc54SG03C2mF4D1-qzRfaI7FaVrwY-wUAlYQkbUwXk_zEM_-hQvULmRzdQB7gpTyWR-WO_JNHMrYn4
 
-sprite $ImageLg [20x20/16z] RSY50SKW5CNGMpSW-q_xfRWSz4L3UsELw1Z3kTS0r7XySnnrytVRpa7JpTGrxs3h6j0s_dAR_HUuOzjmsl0MtsRW8VADYdqOEUZ9q5ery0K
+sprite $ImageLg [20x20/16z] RSY50SKW5CNGMpSW-q_xfRWSz4L3IsEMw1Z3kTG0r7XySsnrytVRpa7JpTGrRsFj6j0s_dAR_HUuOzjmsl0MtoRW8VADYdqOEUZ9q5ery0K
 
-!procedure Image($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Regular/Image', $name, $tech)
+!procedure Image($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/Image', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PlaceOfWorship')
 
 ' renders the element
-PlaceOfWorship('PlaceOfWorship', 'Place Of Worship', 'an optional tech label')
+PlaceOfWorship('PlaceOfWorship', 'Place Of Worship', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PlaceOfWorship')
 
 ' renders the element
-PlaceOfWorship('PlaceOfWorship', 'Place Of Worship', 'an optional tech label')
+PlaceOfWorship('PlaceOfWorship', 'Place Of Worship', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FileCircleQuestion')
 
 ' renders the element
-FileCircleQuestion('FileCircleQuestion', 'File Circle Question', 'an optional tech label')
+FileCircleQuestion('FileCircleQuestion', 'File Circle Question', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FileCircleQuestion')
 
 ' renders the element
-FileCircleQuestion('FileCircleQuestion', 'File Circle Question', 'an optional tech label')
+FileCircleQuestion('FileCircleQuestion', 'File Circle Question', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

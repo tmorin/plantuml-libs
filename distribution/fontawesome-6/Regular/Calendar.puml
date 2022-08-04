@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Regular/Calendar
 
-sprite $CalendarXs [8x10/16z] Os3WPc1WO0HYVY3cOU3YHmCCOC1AYERcuG81VW
+sprite $CalendarXs [8x10/16z] Os3WPc1WO0HYVY3cOU3YHmCCOC14YERcuG81VW
 
-sprite $CalendarSm [10x12/16z] Os1Wu09YFWOGu8TWHdwyW8q10lX8Px713G4
+sprite $CalendarSm [10x12/16z] Os1Wu09YFWOGu8TXl8250GBuI6UnmGq1
 
-sprite $CalendarMd [14x16/16z] Om02NWO4oS3A3o9Pm2Gh3oy_3n20I2PMVk814m80UGm8G0SUY8y
+sprite $CalendarMd [14x16/16z] Om02NWO4oS343o8PmIGh3oy_3n20I0PMVk810mBGdGVY8m
 
-sprite $CalendarLg [17x20/16z] pSYr0O0m04N1Zpjl_saXBcsgN7aovblEg-11rifSn-RZfRAVD7XA62eT_SR5SnP0rCuV
+sprite $CalendarLg [17x20/16z] pSYr0O0m04N1Zpjl_sbnubMgN7cwjAiUkpuRkZLKoTZnz3CPDXSNkOPoOs6R7I1yyma
 
-!procedure Calendar($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Regular/Calendar', $name, $tech)
+!procedure Calendar($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/Calendar', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UsersRays')
 
 ' renders the element
-UsersRays('UsersRays', 'Users Rays', 'an optional tech label')
+UsersRays('UsersRays', 'Users Rays', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UsersRays')
 
 ' renders the element
-UsersRays('UsersRays', 'Users Rays', 'an optional tech label')
+UsersRays('UsersRays', 'Users Rays', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

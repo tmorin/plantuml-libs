@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BridgeWater')
 
 ' renders the element
-BridgeWater('BridgeWater', 'Bridge Water', 'an optional tech label')
+BridgeWater('BridgeWater', 'Bridge Water', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BridgeWater')
 
 ' renders the element
-BridgeWater('BridgeWater', 'Bridge Water', 'an optional tech label')
+BridgeWater('BridgeWater', 'Bridge Water', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

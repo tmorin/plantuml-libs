@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Rss')
 
 ' renders the element
-Rss('Rss', 'Rss', 'an optional tech label')
+Rss('Rss', 'Rss', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Rss')
 
 ' renders the element
-Rss('Rss', 'Rss', 'an optional tech label')
+Rss('Rss', 'Rss', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UserShield')
 
 ' renders the element
-UserShield('UserShield', 'User Shield', 'an optional tech label')
+UserShield('UserShield', 'User Shield', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UserShield')
 
 ' renders the element
-UserShield('UserShield', 'User Shield', 'an optional tech label')
+UserShield('UserShield', 'User Shield', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

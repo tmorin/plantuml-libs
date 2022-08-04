@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Envira')
 
 ' renders the element
-Envira('Envira', 'Envira', 'an optional tech label')
+Envira('Envira', 'Envira', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Envira')
 
 ' renders the element
-Envira('Envira', 'Envira', 'an optional tech label')
+Envira('Envira', 'Envira', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

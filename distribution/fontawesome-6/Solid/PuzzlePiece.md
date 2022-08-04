@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PuzzlePiece')
 
 ' renders the element
-PuzzlePiece('PuzzlePiece', 'Puzzle Piece', 'an optional tech label')
+PuzzlePiece('PuzzlePiece', 'Puzzle Piece', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PuzzlePiece')
 
 ' renders the element
-PuzzlePiece('PuzzlePiece', 'Puzzle Piece', 'an optional tech label')
+PuzzlePiece('PuzzlePiece', 'Puzzle Piece', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/KitMedical')
 
 ' renders the element
-KitMedical('KitMedical', 'Kit Medical', 'an optional tech label')
+KitMedical('KitMedical', 'Kit Medical', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/KitMedical')
 
 ' renders the element
-KitMedical('KitMedical', 'Kit Medical', 'an optional tech label')
+KitMedical('KitMedical', 'Kit Medical', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

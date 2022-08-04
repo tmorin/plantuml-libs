@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Desktop')
 
 ' renders the element
-Desktop('Desktop', 'Desktop', 'an optional tech label')
+Desktop('Desktop', 'Desktop', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Desktop')
 
 ' renders the element
-Desktop('Desktop', 'Desktop', 'an optional tech label')
+Desktop('Desktop', 'Desktop', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

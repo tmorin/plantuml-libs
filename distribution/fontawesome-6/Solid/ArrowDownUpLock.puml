@@ -1,19 +1,19 @@
 ' definition of the Item fontawesome-6/Solid/ArrowDownUpLock
 
-sprite $ArrowDownUpLockXs [12x10/16z] DOc50S003C8oz-N_QwSqLO2FWnzRrFfLpJyZBOLmokaF8jWciXjjHTIid4R9VmC
+sprite $ArrowDownUpLockXs [12x10/16z] DSR50OK0042XzpkL_QUrvKIRePt2UN3ydQwTrAZHBYbjvFQK1C7vwFWC
 
-sprite $ArrowDownUpLockSm [15x12/16z] FOw30GKn5C1olZBxJ_jHfNW6dMTZ8how3-kGeCqUfj6iomGpdRrXsIbATOB4t98xybQsdxbZHjNYRN2RPliZoqH3MxAPNm
+sprite $ArrowDownUpLockSm [15x12/16z] HSx50O0030ImmvtiFoqk-TMRMvUFfEUD2XdW3mrclZ0nvrPUB6KMidf5nlbglacp_hDWqUfzOM3ymp1SJu8T
 
 sprite $ArrowDownUpLockMd [20x16/16z] {
-LSm56iGW30NXbx2EpFrlksY_TAhyY4vMDOeZ0u8LVD30QCOgMkLNI7TJKhV-FhclcI5MSd-t7RIMZPuQ8Qj8sDwrQyDys7pdbcJZ08hbOJxUIQmg59vWmVRt
-fsXQf8nVDl2hdacDsHy
+LSi53iKm3C1GHrymQdp_qtugUoizAOmAjUMbCdkifBjPM-tnV8pT2Bv6iFSpYES4igMPDwgaIr44wzIBLau3k3D0CtsuV_RR3QmL_SxgQksyDgCIzsheIQrK
+-m
 }
 
 sprite $ArrowDownUpLockLg [25x20/16z] {
-NOy50iH02CIchf3_l_Q4AgHTcwpgXGtADAF-ECnP705_fY9MoGdcAhWOgs2Te06Aw0PD8AMjpFx3447JA749mAM1ZCanZoQp2HHbccUm-M8G9ZdF0o-gk0xl
-EEcOGy0XXaiOpB0wD5c8arL5D5TUXNJcQgfe_lb5Tual
+POw50GKX5CDwhe_iF-sNdWB12LAzY445dVi4apBm1b0QM7pUfXHSZ9LO1X1GY6xGNsZEOePVjgXv192yoWWb8dd8sGHo6-SPOhxeH4Y9EzL3BVnvmqd7R04M
+JvY06TPK2N6obk8qYofXipf49lAuJwel
 }
 
-!procedure ArrowDownUpLock($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ArrowDownUpLock', $name, $tech)
+!procedure ArrowDownUpLock($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ArrowDownUpLock', $name, $tech, $desc)
 !endprocedure

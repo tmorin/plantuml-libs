@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Slideshare')
 
 ' renders the element
-Slideshare('Slideshare', 'Slideshare', 'an optional tech label')
+Slideshare('Slideshare', 'Slideshare', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Slideshare')
 
 ' renders the element
-Slideshare('Slideshare', 'Slideshare', 'an optional tech label')
+Slideshare('Slideshare', 'Slideshare', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

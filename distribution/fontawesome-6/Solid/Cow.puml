@@ -1,19 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/Cow
 
-sprite $CowXs [12x10/16z] Oy05-640p6O6aYnW3f1WPs03ou18X38a9WC8Cm5rGTaW0eIG
+sprite $CowXs [12x10/16z] Oy05-640p6O6ainW3f1WPs03ou18X38a9WC8Cm9rGTaW0eIG
 
-sprite $CowSm [15x12/16z] VOk50O0m30HnXzj_Ms8uxLNpKkJfED6HcguHOfQnBmGTXrb7jdh0wMIyCvrZPMqPgmMvIsORvQhqXXXbrfkfUB83
+sprite $CowSm [15x12/16z] VOk50O1030D3SBtzjwMuSw-Dw9-2dMd4P0xMcOHoagUnQgUHmLkbcCOJzJvgEehH7Px6TXfdRHvPn_McqPKH
 
-sprite $CowMd [20x16/16z] {
-ZSW53WGn40D1RpWBu___zYRECPUWfSRVmhPVTKZYWmMEjd5BegctxMmGeziGzDZd4gEUCvsfw5qqJhXxu10nNgSxI1YP2Rs5qO8NbRJBMx2C0dJd1wUta1MU
-481R0zuv0G
-}
+sprite $CowMd [20x16/16z] ZSW54aGX30JH-Ix0zFrlkvMmNaQZUHfkAlNTrMdbfpHSA7FsHahbLEQmeYcDwqrWke7DkptitKbFNoQYMM4NG0CPLfGc5a_n7k2NwVK2_nPuQB07
 
 sprite $CowLg [25x20/16z] {
-hT250OGm50JHmVLd-w_sP9Dpby5vGVbdlQvgSOrkQWoBslseN2Td226jbCAGZg01DoitfBc0Wbr9nnR3LOPU3q1ALr2LxSeLK3OOKhTVrGUeumY8AJ2iViiZ
-r51by7ewWZFuztNiMYCym7ipqCV8vsq1
+hT050eCm44JHmIsRkVzfAsjrxyTvQF3FHbxLGcl8-xAnE-vRdOc246I19merWHEqbTPGLmSA3bLcMy1rsyW7GDOhYCE2-m0erEwuQWAQaW1Y52WK_Sg4nlTe
+woK19sXYl8g8Ng1xAu1HPdpU7W
 }
 
-!procedure Cow($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Cow', $name, $tech)
+!procedure Cow($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Cow', $name, $tech, $desc)
 !endprocedure

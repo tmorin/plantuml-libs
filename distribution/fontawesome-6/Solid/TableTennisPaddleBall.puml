@@ -2,15 +2,15 @@
 
 sprite $TableTennisPaddleBallXs [10x10/16z] DKk30G0n4CkZHlQVjZWpm8t1HpObvB0pJxzOfbyq5E15tLgWx9J9_mhasW
 
-sprite $TableTennisPaddleBallSm [12x12/16z] HOk50O1030CFTsx_QN4-zKPuOdE49tnYoAbjJcKdjv8x3z-pGW-DojhTxr2aJl4_6yPkLKy
+sprite $TableTennisPaddleBallSm [12x12/16z] HOk50O1030CFTsx_QN4-zKPuOdFa3PyOScgRKzd9hUJEm_Siq46jidQwCXIfK_pFXh5TrHC
 
-sprite $TableTennisPaddleBallMd [16x16/16z] LOk54O1040FpYhFzTyk4G_Vr8WhonbvqqmXQZ3Ctut-496M-ADNocoT-WbOeduegFq7Y4MeQqIDC6jSgpo6Sxwf4a2RCMIp-R1ZVtPsvOWIJJDBgv04
+sprite $TableTennisPaddleBallMd [16x16/16z] LOW50e0m3CHk5Hpo_zVYjapQH1SsixWUaekyTE2XgnKa5QY2MUKzLT04fVmyg8B46wAqw0szkYbqErwEoNGhbFuQ07QycOFZTmcwu43Gws82V0C
 
 sprite $TableTennisPaddleBallLg [20x20/16z] {
-NP075iCW34ELdPWQtV-qRICsokI_px1HiZjf2xeOSuv25hOy4rAk2Ial2nCpu4QSnOKtFXCxoMSoSP2pcNOTrqHIYcctCG9mCgzfUAEYcSsWigsSMQQGeBT2
-onvwHvUOcUibEnIsbqvSP5ulwByc2Fq
+NP075iCm24ELdK2nxd_Q3aRRy3Ejzpq0nMgaJFX3cCme-EDgaNEqoFb4sZ81JemkJjpnQDb2Nit4J7OpThslYL3Ab5Cu01YPQme-UD5CKxrigJExwP67zYkK
+GNo7kSZ0BNDRArkh4mUPwocsY0Brw0K
 }
 
-!procedure TableTennisPaddleBall($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TableTennisPaddleBall', $name, $tech)
+!procedure TableTennisPaddleBall($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TableTennisPaddleBall', $name, $tech, $desc)
 !endprocedure

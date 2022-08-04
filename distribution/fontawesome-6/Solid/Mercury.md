@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Mercury')
 
 ' renders the element
-Mercury('Mercury', 'Mercury', 'an optional tech label')
+Mercury('Mercury', 'Mercury', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Mercury')
 
 ' renders the element
-Mercury('Mercury', 'Mercury', 'an optional tech label')
+Mercury('Mercury', 'Mercury', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

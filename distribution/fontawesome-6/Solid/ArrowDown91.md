@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowDown91')
 
 ' renders the element
-ArrowDown91('ArrowDown91', 'Arrow Down91', 'an optional tech label')
+ArrowDown91('ArrowDown91', 'Arrow Down91', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowDown91')
 
 ' renders the element
-ArrowDown91('ArrowDown91', 'Arrow Down91', 'an optional tech label')
+ArrowDown91('ArrowDown91', 'Arrow Down91', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

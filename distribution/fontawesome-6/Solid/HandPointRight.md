@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HandPointRight')
 
 ' renders the element
-HandPointRight('HandPointRight', 'Hand Point Right', 'an optional tech label')
+HandPointRight('HandPointRight', 'Hand Point Right', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HandPointRight')
 
 ' renders the element
-HandPointRight('HandPointRight', 'Hand Point Right', 'an optional tech label')
+HandPointRight('HandPointRight', 'Hand Point Right', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

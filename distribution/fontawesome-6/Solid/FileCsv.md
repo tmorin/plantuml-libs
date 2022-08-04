@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FileCsv')
 
 ' renders the element
-FileCsv('FileCsv', 'File Csv', 'an optional tech label')
+FileCsv('FileCsv', 'File Csv', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FileCsv')
 
 ' renders the element
-FileCsv('FileCsv', 'File Csv', 'an optional tech label')
+FileCsv('FileCsv', 'File Csv', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

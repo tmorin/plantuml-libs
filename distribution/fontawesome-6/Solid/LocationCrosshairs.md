@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/LocationCrosshairs')
 
 ' renders the element
-LocationCrosshairs('LocationCrosshairs', 'Location Crosshairs', 'an optional tech label')
+LocationCrosshairs('LocationCrosshairs', 'Location Crosshairs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/LocationCrosshairs')
 
 ' renders the element
-LocationCrosshairs('LocationCrosshairs', 'Location Crosshairs', 'an optional tech label')
+LocationCrosshairs('LocationCrosshairs', 'Location Crosshairs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ParachuteBox')
 
 ' renders the element
-ParachuteBox('ParachuteBox', 'Parachute Box', 'an optional tech label')
+ParachuteBox('ParachuteBox', 'Parachute Box', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ParachuteBox')
 
 ' renders the element
-ParachuteBox('ParachuteBox', 'Parachute Box', 'an optional tech label')
+ParachuteBox('ParachuteBox', 'Parachute Box', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

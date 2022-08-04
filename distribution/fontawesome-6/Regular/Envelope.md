@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/Envelope')
 
 ' renders the element
-Envelope('Envelope', 'Envelope', 'an optional tech label')
+Envelope('Envelope', 'Envelope', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/Envelope')
 
 ' renders the element
-Envelope('Envelope', 'Envelope', 'an optional tech label')
+Envelope('Envelope', 'Envelope', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

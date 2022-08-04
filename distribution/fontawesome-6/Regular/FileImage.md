@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/FileImage')
 
 ' renders the element
-FileImage('FileImage', 'File Image', 'an optional tech label')
+FileImage('FileImage', 'File Image', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/FileImage')
 
 ' renders the element
-FileImage('FileImage', 'File Image', 'an optional tech label')
+FileImage('FileImage', 'File Image', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

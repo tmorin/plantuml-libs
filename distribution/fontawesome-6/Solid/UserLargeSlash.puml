@@ -1,19 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/UserLargeSlash
 
-sprite $UserLargeSlashXs [12x10/16z] JSR50O100C2muaxtdnOvpoizd-uYiCVFpi_37y7LdA4vD0KNVfCVlFyRi0gz4Pql
+sprite $UserLargeSlashXs [12x10/16z] JSQt0O003CH0aJFQVriULxxgHc9uA0uO9uINFyhJpjGEhU06iHZu4XPswoNv
 
-sprite $UserLargeSlashSm [15x12/16z] NOp50O1G08MmM_QVrlONjvTrnSqwy-84YshzQV61bzLCqkKI2ackOB5AfpGE-P7xBVtes4saAuCd
+sprite $UserLargeSlashSm [15x12/16z] LOp50SC008Heuyh-qyRj-9t-EHXxJknWKBq2nGEkeY4fKq9AI0LzJlbPvv7pBhqecFr8HnfN
 
-sprite $UserLargeSlashMd [20x16/16z] {
-NS_5WGCW54NHYpkl_sfdaY2HiuFljh2K4Tco9a3LasLnaY5euP3EbmP7ryMLTC1bjHG-_QRTflmAtt-szXunakCOUkemLUxN1aNpx76uTUav_-udHMZwC67e
-7m
-}
+sprite $UserLargeSlashMd [20x16/16z] PS-r0KCn00FH-sRM_jE63A5NNYMPp9HxO4aQ04LFXibAu3MnIKPBOsiwEC9tMpGb_YFVsapV_4yhhJcGB5lVsuRoIGjaZTbq68nqpVj71ib3rOS1NNS
 
 sprite $UserLargeSlashLg [25x20/16z] {
-RT750SGm40D0XS6W_giza1dcavWNLelaScP3PibLFpUbB1bo1_0mMf2Sv8k56H9DlimMD0yL1ohFR47swLN213qpEo2NzizifCDSVzNofa1VycnJbqTnstPU
-d4Q-ZJD7wrCds3ZLcdjSe05MAcvs_8B5ymi
+RT350SGm34JH2ND-_zKkc6HwDuDml1LjppKfkM7mrpZsTC4iwI0O5ArmQY2H0KwmaAAGiIfMeNtGNDSmzb2xUlSsede6UDJNXFZvPjVtKgJm3jVttNRgIi1h
+VHf9RzmNXLNQOMyVkAGn9YszBjqN
 }
 
-!procedure UserLargeSlash($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/UserLargeSlash', $name, $tech)
+!procedure UserLargeSlash($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/UserLargeSlash', $name, $tech, $desc)
 !endprocedure

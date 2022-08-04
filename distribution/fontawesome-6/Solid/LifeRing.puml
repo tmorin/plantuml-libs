@@ -2,18 +2,18 @@
 
 sprite $LifeRingXs [10x10/16z] 9Sp5WSC000InCRFLVxK7YRuB_Jai_V7rYg5wB1cy7ZdqcXKovysY1qFow1s-hU_ba0KCVW4
 
-sprite $LifeRingSm [12x12/16z] BOq52WCm4C0ohL7o_z-EmDAU6t6SXDi_WwsbFlf0NP2vo3AUsoEKoPY2aPcMc6Rmex6kD0Oj-EPlu7PhFAunnkC7
+sprite $LifeRingSm [12x12/16z] BSK72aKn2031_JLHaRt_RHyfGncMShAONeDKWA--K0DMZOJBAot1nfM2C5PJqEaAlxf4Y_e6Gl-e2RGEngjTnk01
 
 sprite $LifeRingMd [16x16/16z] {
-BOo74SGm3CCefxe9-s_xprEGOj0gahasCqfZQLFSVzUohRFTQGa9aCnfgsR7Pca2yJ4kk5ZI5osRquUdTmstoWBdoMszb4mf2LADGhNyXE566AHkdpBL4dZQ
-39mNPk_4X1JUPzB-0m
+BOm70i0W30AJxfNm_zyMn6jLo206U-7DC5yKp94VhTItvjuIxFiccvI7PLCYWmQJXnCxc36jH67Le-toSjg7mrxibBmQR_1AT2HCE9ofZmRvi7aucNX4mrk8
+P_WFegeT8MPUI_y
 }
 
 sprite $LifeRingLg [20x20/16z] {
-FL074i0m239xn___jWQvqeMuQCGHnjLTH8WIfIbnuWkbC2IkgaW4yxOERkHzWpYEyIASbI5Dy5TsWy_HOn-BUtZ5wT-0zl5gnQfMLj3AtM8It-n1bF6-yBQf
-sTkQ6zu5sb57WE-tsttHfrcIGr_hjg3mKVY_0lmxBpwEWPaygrDJp1qKPtKX4-5lOiKfY3u
+LT074iGW34DH6T8J_Ez_snqqtlPIwGALCtbMgRJGIXanYshyIP32VrtJuNz9027P05PfPUgQBYO9Ce041gJW47HrIdhu2P8IxWN_zbfRSDVREQfkyJjTzrGT
+7hLB3LQeN5CujzU-e7J1qAXST-w1SxJQhymvAnig9r1d1QD7j0EJWbmn2v3im4RJz08
 }
 
-!procedure LifeRing($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/LifeRing', $name, $tech)
+!procedure LifeRing($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/LifeRing', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/ItchIo')
 
 ' renders the element
-ItchIo('ItchIo', 'Itch Io', 'an optional tech label')
+ItchIo('ItchIo', 'Itch Io', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/ItchIo')
 
 ' renders the element
-ItchIo('ItchIo', 'Itch Io', 'an optional tech label')
+ItchIo('ItchIo', 'Itch Io', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

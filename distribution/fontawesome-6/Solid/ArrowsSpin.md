@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowsSpin')
 
 ' renders the element
-ArrowsSpin('ArrowsSpin', 'Arrows Spin', 'an optional tech label')
+ArrowsSpin('ArrowsSpin', 'Arrows Spin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowsSpin')
 
 ' renders the element
-ArrowsSpin('ArrowsSpin', 'Arrows Spin', 'an optional tech label')
+ArrowsSpin('ArrowsSpin', 'Arrows Spin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

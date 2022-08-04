@@ -2,12 +2,12 @@
 
 sprite $CameraXs [10x10/16z] Oq06_4302AAn0mO63ZYB0GkB5LKrd0K
 
-sprite $CameraSm [12x12/16z] Oq03_4300s8mCRFmWm0pCmCRFnu0qeDWCh0YiLcWR6wu6h3fS1AkZuiF1jW
+sprite $CameraSm [12x12/16z] Oq03_4300sOnClE302CZ0ni_7W3IWs0oi2An6Q5iRhWQiEbm4gwFYmy6s
 
-sprite $CameraMd [16x16/16z] ZSt50G1134BHqQmbq7-rw-xln3_XxWG3e5jpPECMLUL4jGd2NtAizZcUR2dRooYDhMjNOtCJ-woufxpdJ-sSttCT
+sprite $CameraMd [16x16/16z] ZSs35S1G30NGcW_xJrkR_nx5YPx4b8GzzuHJN03m36ZZma7og3wcqvCzBVOlatZAiUNrtjy7QX_1pw9hVj43
 
-sprite $CameraLg [20x20/16z] bSx50S1G20FGrBtPVzgwVWFU3GTnLRtByS5B5iZDEFHqvJMjPY-3JSlBzudEQzlme__al3v_N-lVhRptHgOqzC4VAH6m0W
+sprite $CameraLg [20x20/16z] bSx50S1G20FGKFViFstTly6xuI0iopU25vx4avkmw_Wd5Qqc9uDLmzlpHFjls_2by-GOpbLqagNpti2OcYwu8mKy5W
 
-!procedure Camera($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Camera', $name, $tech)
+!procedure Camera($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Camera', $name, $tech, $desc)
 !endprocedure

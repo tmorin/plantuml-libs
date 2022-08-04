@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Osi')
 
 ' renders the element
-Osi('Osi', 'Osi', 'an optional tech label')
+Osi('Osi', 'Osi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Osi')
 
 ' renders the element
-Osi('Osi', 'Osi', 'an optional tech label')
+Osi('Osi', 'Osi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

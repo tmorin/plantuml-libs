@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MugHot')
 
 ' renders the element
-MugHot('MugHot', 'Mug Hot', 'an optional tech label')
+MugHot('MugHot', 'Mug Hot', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MugHot')
 
 ' renders the element
-MugHot('MugHot', 'Mug Hot', 'an optional tech label')
+MugHot('MugHot', 'Mug Hot', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

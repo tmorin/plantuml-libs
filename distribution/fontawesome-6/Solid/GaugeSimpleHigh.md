@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/GaugeSimpleHigh')
 
 ' renders the element
-GaugeSimpleHigh('GaugeSimpleHigh', 'Gauge Simple High', 'an optional tech label')
+GaugeSimpleHigh('GaugeSimpleHigh', 'Gauge Simple High', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/GaugeSimpleHigh')
 
 ' renders the element
-GaugeSimpleHigh('GaugeSimpleHigh', 'Gauge Simple High', 'an optional tech label')
+GaugeSimpleHigh('GaugeSimpleHigh', 'Gauge Simple High', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

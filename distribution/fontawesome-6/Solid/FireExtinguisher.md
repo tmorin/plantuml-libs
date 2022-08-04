@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FireExtinguisher')
 
 ' renders the element
-FireExtinguisher('FireExtinguisher', 'Fire Extinguisher', 'an optional tech label')
+FireExtinguisher('FireExtinguisher', 'Fire Extinguisher', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FireExtinguisher')
 
 ' renders the element
-FireExtinguisher('FireExtinguisher', 'Fire Extinguisher', 'an optional tech label')
+FireExtinguisher('FireExtinguisher', 'Fire Extinguisher', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

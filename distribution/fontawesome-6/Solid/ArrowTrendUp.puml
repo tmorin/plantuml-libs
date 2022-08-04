@@ -2,12 +2,12 @@
 
 sprite $ArrowTrendUpXs [11x10/16z] VS750OK0040XVgU-_QSrpmhELDdTFuNtYA5urU2VFAFYVmjoQ0O
 
-sprite $ArrowTrendUpSm [13x12/16z] XSVH0K0m0CJG0m2o_xPIyCcZRIx_6ZszehnwXrYyEbPAuseW3k-HcTqgdKosDbjDlXq
+sprite $ArrowTrendUpSm [13x12/16z] XOTN0i0W2CKUtVlT_xOD7Nvg54ZK9k3tmw32z8PtLk_3wQR25i5UlFd2qgKLXnE7K9qR
 
-sprite $ArrowTrendUpMd [17x16/16z] fOtL0SKm549fuyh-qyRbzyc9NWFyXO-DW0i7kBn2x8InjwU_cXmPCjkUa6oOKOVbYD-NxEasJ8Zs1yGUVnvIzO_QXebccHvtV4i5
+sprite $ArrowTrendUpMd [17x16/16z] fSkr0GL1409GxjQL_gjTb_JBosO0_CN79k3YWEjvtltG6WFNGv5stjdsXsHZHex-UCdd8ViRCCH3lkCxvmz8WRd3aAWmF5WUVAi2
 
-sprite $ArrowTrendUpLg [22x20/16z] lKu54WGX32lh0kt_NukaHKRFBtXieBz03C-motaU0-kQ43fx27So65jI0JSlSZjbTn6ZVJaA2vBfpk-oUL9sqtP6W57389rMmWdC_NVzHW5ESr33GJz10W
+sprite $ArrowTrendUpLg [22x20/16z] lSp50O1044FHu3gJ_gj5WdF1-UY-5VmInyveN1IvT9yjcjCNj54pagQ_cgmW5L9SwoDDIKT5Ml-gqQkG09nzhcCSYL2xjL95GhNymPPV19ZByKaj
 
-!procedure ArrowTrendUp($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ArrowTrendUp', $name, $tech)
+!procedure ArrowTrendUp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ArrowTrendUp', $name, $tech, $desc)
 !endprocedure

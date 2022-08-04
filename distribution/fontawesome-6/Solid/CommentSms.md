@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CommentSms')
 
 ' renders the element
-CommentSms('CommentSms', 'Comment Sms', 'an optional tech label')
+CommentSms('CommentSms', 'Comment Sms', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CommentSms')
 
 ' renders the element
-CommentSms('CommentSms', 'Comment Sms', 'an optional tech label')
+CommentSms('CommentSms', 'Comment Sms', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

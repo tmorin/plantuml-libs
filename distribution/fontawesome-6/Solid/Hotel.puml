@@ -2,12 +2,12 @@
 
 sprite $HotelXs [10x10/16z] DSU50G0n4091tYMo_LSRPquHjc52ZzS3Trz2jvUfZyQ6vCz-u1gn0W
 
-sprite $HotelSm [12x12/16z] VOg30S105CLIkzb_sjgupoSyg_GijDscnvRp7XNGLSXs707LXhkcQVIUxrGXLnq1
+sprite $HotelSm [12x12/16z] O-1700uaDb2S1uhu6FXv610a3E0H1nl0m09ZCm019vJDoytD3QHGrFD2rBE1A
 
-sprite $HotelMd [16x16/16z] ROo55G0X3CLwYlFtdnPt299N9KnOYncQ4q-8nMF17oHV8Nv8JxOQzQMOtnRiHl2vVw35x5PZJ86xnpz5UWmLq3qUzsNVzvEiIxcC0nu
+sprite $HotelMd [16x16/16z] ROg54G0X40FpYdFzLuixB9A9W2QifHdCmHqyl-EZf0Z-XfxKQcelUXuU0mKzxmUQ_syrUWJkxbz4kYSLqDrtWAfNKcsBhuK7
 
-sprite $HotelLg [20x20/16z] VOs50SKm20NvKk-3_QUDkrqb5vIausRf-VGXqD75oCR2xwolUsU74RbsE0inXkHVrx6qbXnxBZGnaAMEaMClOo1FLVS-5hQwtij0sdi7sUoqm2Yc0G
+sprite $HotelLg [20x20/16z] VOm75eKW4CJc5xkpU__RAhqJ1V92WJQSeYsVDX6_fi4qO3FJxistjR7j5JrMMlDDg6bgRaoj9hNhODK8GzbWMV96E8fpzsMGr2hC6nOX6ThfPJ6lUNhj0G
 
-!procedure Hotel($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Hotel', $name, $tech)
+!procedure Hotel($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Hotel', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Elevator')
 
 ' renders the element
-Elevator('Elevator', 'Elevator', 'an optional tech label')
+Elevator('Elevator', 'Elevator', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Elevator')
 
 ' renders the element
-Elevator('Elevator', 'Elevator', 'an optional tech label')
+Elevator('Elevator', 'Elevator', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

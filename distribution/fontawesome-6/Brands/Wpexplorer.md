@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Wpexplorer')
 
 ' renders the element
-Wpexplorer('Wpexplorer', 'Wpexplorer', 'an optional tech label')
+Wpexplorer('Wpexplorer', 'Wpexplorer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Wpexplorer')
 
 ' renders the element
-Wpexplorer('Wpexplorer', 'Wpexplorer', 'an optional tech label')
+Wpexplorer('Wpexplorer', 'Wpexplorer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

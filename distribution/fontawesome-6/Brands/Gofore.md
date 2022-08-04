@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Gofore')
 
 ' renders the element
-Gofore('Gofore', 'Gofore', 'an optional tech label')
+Gofore('Gofore', 'Gofore', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Gofore')
 
 ' renders the element
-Gofore('Gofore', 'Gofore', 'an optional tech label')
+Gofore('Gofore', 'Gofore', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

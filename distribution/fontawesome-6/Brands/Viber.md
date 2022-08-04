@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Viber')
 
 ' renders the element
-Viber('Viber', 'Viber', 'an optional tech label')
+Viber('Viber', 'Viber', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Viber')
 
 ' renders the element
-Viber('Viber', 'Viber', 'an optional tech label')
+Viber('Viber', 'Viber', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/HardDrive')
 
 ' renders the element
-HardDrive('HardDrive', 'Hard Drive', 'an optional tech label')
+HardDrive('HardDrive', 'Hard Drive', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/HardDrive')
 
 ' renders the element
-HardDrive('HardDrive', 'Hard Drive', 'an optional tech label')
+HardDrive('HardDrive', 'Hard Drive', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

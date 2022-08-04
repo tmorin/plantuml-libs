@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowUpRightFromSquare')
 
 ' renders the element
-ArrowUpRightFromSquare('ArrowUpRightFromSquare', 'Arrow Up Right From Square', 'an optional tech label')
+ArrowUpRightFromSquare('ArrowUpRightFromSquare', 'Arrow Up Right From Square', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowUpRightFromSquare')
 
 ' renders the element
-ArrowUpRightFromSquare('ArrowUpRightFromSquare', 'Arrow Up Right From Square', 'an optional tech label')
+ArrowUpRightFromSquare('ArrowUpRightFromSquare', 'Arrow Up Right From Square', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

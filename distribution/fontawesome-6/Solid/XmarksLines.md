@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/XmarksLines')
 
 ' renders the element
-XmarksLines('XmarksLines', 'Xmarks Lines', 'an optional tech label')
+XmarksLines('XmarksLines', 'Xmarks Lines', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/XmarksLines')
 
 ' renders the element
-XmarksLines('XmarksLines', 'Xmarks Lines', 'an optional tech label')
+XmarksLines('XmarksLines', 'Xmarks Lines', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

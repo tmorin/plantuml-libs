@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MicrophoneSlash')
 
 ' renders the element
-MicrophoneSlash('MicrophoneSlash', 'Microphone Slash', 'an optional tech label')
+MicrophoneSlash('MicrophoneSlash', 'Microphone Slash', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MicrophoneSlash')
 
 ' renders the element
-MicrophoneSlash('MicrophoneSlash', 'Microphone Slash', 'an optional tech label')
+MicrophoneSlash('MicrophoneSlash', 'Microphone Slash', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

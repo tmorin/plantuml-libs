@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Mix')
 
 ' renders the element
-Mix('Mix', 'Mix', 'an optional tech label')
+Mix('Mix', 'Mix', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Mix')
 
 ' renders the element
-Mix('Mix', 'Mix', 'an optional tech label')
+Mix('Mix', 'Mix', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/GgCircle')
 
 ' renders the element
-GgCircle('GgCircle', 'Gg Circle', 'an optional tech label')
+GgCircle('GgCircle', 'Gg Circle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/GgCircle')
 
 ' renders the element
-GgCircle('GgCircle', 'Gg Circle', 'an optional tech label')
+GgCircle('GgCircle', 'Gg Circle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

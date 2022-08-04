@@ -2,12 +2,15 @@
 
 sprite $TagsXs [10x10/16z] DSQ55G0n40BHEObR_zN6U6lmmSQFFOmV3iIJuYdnDHQYm41aL208Q1ei
 
-sprite $TagsSm [12x12/16z] JSV50O1G081Gx9RzfpL-lnFGyiTuvbGyGRikpe7Ubsaii3SRPJ51yk1D6kuR_acPdS0B
+sprite $TagsSm [12x12/16z] JSV50O1G081Gx9RzfpL-SthGvX_ZcQbu_gQBSw3tPHfBs1TtCcSZUV06fi3x9yo9kHDu0G
 
-sprite $TagsMd [16x16/16z] NSZL0OLG081Gx9RzftsXjyyVq3hldsk0yydBruBoe_LGwPwneaztY-_e50ihrgR9lXh8QhRsmc9qei1IPnmdjnrnFDaJJAuSJxQ-
+sprite $TagsMd [16x16/16z] NSW53eHG4C3Gul2jzp_j-aucDFhAlJPUzGKQ0Drl1mgWQNpD5EFhpHZuBOQvRN4sXno9noJimOO2MoOn6iE968cmUbA3kIS
 
-sprite $TagsLg [20x20/16z] TSg5aSG008LGuXxwh_Pk_KVVE0CHTVlI06NDI-iNw3iQHQdjeKdvFjMUOd-g0-N-TA-ejFA0sdKzHIrFRPB-_76850fqHeMsa5D1Po2d5QiZ9EPApBNZmfr_
+sprite $TagsLg [20x20/16z] {
+TS-54SGm30NH7-Pi_zKUcF4DxnWajOoJ9MaOPQnu4iocGQ31HHeHM3Na4JXyyv4Wn962HjwtYgs35rhhSzAU9zEqG33w1VVir2t3dnprSihPybFXP3YLur7F
+5m
+}
 
-!procedure Tags($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Tags', $name, $tech)
+!procedure Tags($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Tags', $name, $tech, $desc)
 !endprocedure

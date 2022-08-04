@@ -1,16 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/CheckDouble
 
-sprite $CheckDoubleXs [8x10/16z] Oq06NFnWYXL4yV4pGtZy80g4GHGBBn-8OWTY7WP-ReWyL19C0G
+sprite $CheckDoubleXs [8x10/16z] Oq06NFnWYXL4yV4pGdZy80g4GHGJBn-8OWTY7WP-ReWyL19C0G
 
-sprite $CheckDoubleSm [10x12/16z] NKk30G0W4Cokst_QRFqVoN-mGKCA4xJLGVzhhA1Egq4HbyKH4bYF27JGuG05
+sprite $CheckDoubleSm [10x12/16z] Oq07_706YCN63sM0A303Z244GY4x7mDSc1ScnSJFmmTLmm8IWJ8PmHG
 
-sprite $CheckDoubleMd [14x16/16z] RSx50S0W44HHv1AV_gjDmiVjD0zOCUjZhmPESYqEWfuCf2V1dJ11uZNZg1F0rUAHAkWnJF0W4rJktVuvV
+sprite $CheckDoubleMd [14x16/16z] TOtL0S0m24IFl_hRVzfw7AB0cOArrGrOtIpVVqYM6i7nDxQ-xTz0fSdit6ovcQK3KlDzf2ObfAPAg0oyTG4
 
-sprite $CheckDoubleLg [17x20/16z] {
-VOy50WCn2C0uh-V_hvqWyrsgWQgSiNyub0zd-_0aog1e7ouTgW1PRRO8Vk0Az-7X2-37rF1Pdip0z7oUvXSzCVAsVeSHlcWcMmHOrIqogmSLr9-KpuzAK__3
-5G
-}
+sprite $CheckDoubleLg [17x20/16z] VS-54GCn44DH7Pj__zK6p1Cu3JuPLtVPFWpkmsmVDif9UMVgLWGlm6QjfMdxLwZ7STLCrsWfBXdUPY_vHfKKwuGqhKkofG7MxD8iaoKF7uEv3qk1Gt_p1
 
-!procedure CheckDouble($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CheckDouble', $name, $tech)
+!procedure CheckDouble($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CheckDouble', $name, $tech, $desc)
 !endprocedure

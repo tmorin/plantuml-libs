@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/IceCream')
 
 ' renders the element
-IceCream('IceCream', 'Ice Cream', 'an optional tech label')
+IceCream('IceCream', 'Ice Cream', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/IceCream')
 
 ' renders the element
-IceCream('IceCream', 'Ice Cream', 'an optional tech label')
+IceCream('IceCream', 'Ice Cream', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

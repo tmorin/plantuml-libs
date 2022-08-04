@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/Copyright')
 
 ' renders the element
-Copyright('Copyright', 'Copyright', 'an optional tech label')
+Copyright('Copyright', 'Copyright', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/Copyright')
 
 ' renders the element
-Copyright('Copyright', 'Copyright', 'an optional tech label')
+Copyright('Copyright', 'Copyright', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

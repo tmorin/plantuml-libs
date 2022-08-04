@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Supple')
 
 ' renders the element
-Supple('Supple', 'Supple', 'an optional tech label')
+Supple('Supple', 'Supple', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Supple')
 
 ' renders the element
-Supple('Supple', 'Supple', 'an optional tech label')
+Supple('Supple', 'Supple', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

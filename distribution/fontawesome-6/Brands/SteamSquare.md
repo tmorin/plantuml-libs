@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/SteamSquare')
 
 ' renders the element
-SteamSquare('SteamSquare', 'Steam Square', 'an optional tech label')
+SteamSquare('SteamSquare', 'Steam Square', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/SteamSquare')
 
 ' renders the element
-SteamSquare('SteamSquare', 'Steam Square', 'an optional tech label')
+SteamSquare('SteamSquare', 'Steam Square', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Yandex')
 
 ' renders the element
-Yandex('Yandex', 'Yandex', 'an optional tech label')
+Yandex('Yandex', 'Yandex', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Yandex')
 
 ' renders the element
-Yandex('Yandex', 'Yandex', 'an optional tech label')
+Yandex('Yandex', 'Yandex', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

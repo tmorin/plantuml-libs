@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CircleInfo')
 
 ' renders the element
-CircleInfo('CircleInfo', 'Circle Info', 'an optional tech label')
+CircleInfo('CircleInfo', 'Circle Info', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CircleInfo')
 
 ' renders the element
-CircleInfo('CircleInfo', 'Circle Info', 'an optional tech label')
+CircleInfo('CircleInfo', 'Circle Info', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

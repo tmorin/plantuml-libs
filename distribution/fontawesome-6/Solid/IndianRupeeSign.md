@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/IndianRupeeSign')
 
 ' renders the element
-IndianRupeeSign('IndianRupeeSign', 'Indian Rupee Sign', 'an optional tech label')
+IndianRupeeSign('IndianRupeeSign', 'Indian Rupee Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/IndianRupeeSign')
 
 ' renders the element
-IndianRupeeSign('IndianRupeeSign', 'Indian Rupee Sign', 'an optional tech label')
+IndianRupeeSign('IndianRupeeSign', 'Indian Rupee Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/JsSquare')
 
 ' renders the element
-JsSquare('JsSquare', 'Js Square', 'an optional tech label')
+JsSquare('JsSquare', 'Js Square', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/JsSquare')
 
 ' renders the element
-JsSquare('JsSquare', 'Js Square', 'an optional tech label')
+JsSquare('JsSquare', 'Js Square', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

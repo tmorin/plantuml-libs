@@ -2,12 +2,12 @@
 
 sprite $NotesMedicalXs [10x10/16z] JSd50S0m40Cm5Txs_jEM8KgEIGz1FMBgPQs-dE7fOEpoN9zqmleqEm
 
-sprite $NotesMedicalSm [12x12/16z] LSg30G0W40NGdztjFstc2qV0qO26iXrQwZAuc42EqnB8YPtdcGCdHvEUFFuxGCzJQ9_f-MJHXDorRWK
+sprite $NotesMedicalSm [12x12/16z] LSgr0G0W3031fy5b_sbnoo5HS6MYAzbCWCkW5egXRA4OTVAyShWvNVhoA7TWv2dqpunyiNGX3mOQ
 
-sprite $NotesMedicalMd [16x16/16z] RS_50O0m44JHZzjiflzgSOTtIzO1USUYzoa3SCUT3BqE3VQzmfcD_jvbdXvlYDkxP17dEsUXyvq4lVxgoRPt3ES9UbtGF9-GxG0c
+sprite $NotesMedicalMd [16x16/16z] RStL0O1G34FHYrlwil-qkCFvgmQGTonw-r6xvKw6NeS6-txXfTPVNP8UDSIjBbd4MHzPHvq4lVxkOQjZyAq-i6YUvTC4
 
-sprite $NotesMedicalLg [20x20/16z] XT2r0SKm54FH6se2qlxJVWYRJsa_1YRv8dQzt_hzpLw8JEaJCdH-6x71eSQRDYLlGFjDiDioRslZBQYdp1izUBSjw-jUVXExp1DZyfJw0W
+sprite $NotesMedicalLg [20x20/16z] XP253GD030El97Y8zv-s_4mdYi8sy30bZ1-gkVnJdex7cC845zNSaK0jXvn56tB0EPS4n4akR7B3FflakAGm-b3vfKH9CKbn7r8ZBm
 
-!procedure NotesMedical($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/NotesMedical', $name, $tech)
+!procedure NotesMedical($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/NotesMedical', $name, $tech, $desc)
 !endprocedure

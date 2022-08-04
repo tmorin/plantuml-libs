@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/Ticket
 
-sprite $TicketXs [11x10/16z] Oy0AkFYH00CR6B3mi_8pG4HOW0mOavqV8GfaGW0xFpEIVWG
+sprite $TicketXs [11x10/16z] Oy0AkFYH00CR6B3mi_8pG4IOWGmOavqV8GfaGW0Ra8FGZm
 
-sprite $TicketSm [13x12/16z] Oy096FbH0GiKWDYSK34EVdu690uV0oU2myYEa07huO40Dh0GDmJmW0n00YWk
+sprite $TicketSm [13x12/16z] Oy0D-5414nI0s9nGCNP-VWOa3Xy39uB3m8wG0UlXWG0si10t1F203402A0u
 
-sprite $TicketMd [17x16/16z] XSp50G0X44FHZplqN-swwxkD9Fop-KJQTXVrPbwGLyxEY_rtM63F2u4uBw2U5_RMCK2jf6-JjCh38De5o1DkUW
+sprite $TicketMd [17x16/16z] XOs35G0n04DpHhN_jBNvdqEikMd1TekMVuyu0J7_t4v8MItWBWK0jS1BuMusZ11VjzSP941TlWHB5
 
-sprite $TicketLg [22x20/16z] fSs35K1H30FGFBlTVzfl6_UuIF0VyPwFV2RefV4Pniwa7gVBRDjEpT4q0_jfnj7K0VeW0STj5zCLnuEqaDk1uYEmPIS9l503
+sprite $TicketLg [22x20/16z] fSs30S1030NGVtQo_xIrZLTUYF-8ztpaCrukZSqmTYRq65tErgfvcQDe1lRHZAEe0zJ111nlkuYkM1waXTm651-1AJi9RzG
 
-!procedure Ticket($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Ticket', $name, $tech)
+!procedure Ticket($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Ticket', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/DiagramPredecessor')
 
 ' renders the element
-DiagramPredecessor('DiagramPredecessor', 'Diagram Predecessor', 'an optional tech label')
+DiagramPredecessor('DiagramPredecessor', 'Diagram Predecessor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/DiagramPredecessor')
 
 ' renders the element
-DiagramPredecessor('DiagramPredecessor', 'Diagram Predecessor', 'an optional tech label')
+DiagramPredecessor('DiagramPredecessor', 'Diagram Predecessor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

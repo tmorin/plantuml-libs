@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Sith')
 
 ' renders the element
-Sith('Sith', 'Sith', 'an optional tech label')
+Sith('Sith', 'Sith', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Sith')
 
 ' renders the element
-Sith('Sith', 'Sith', 'an optional tech label')
+Sith('Sith', 'Sith', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

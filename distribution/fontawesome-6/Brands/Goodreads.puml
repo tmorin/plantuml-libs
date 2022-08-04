@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Brands/Goodreads
 
-sprite $GoodreadsXs [8x10/16z] Ou02HduuO6JWWx9uG0G7GeORJ38ny2FBytCoyFBpmyG
+sprite $GoodreadsXs [8x10/16z] Ou02HduuO63WWx9uG0G7GeORJ38ny2FBytCoyFBpmyG
 
-sprite $GoodreadsSm [10x12/16z] JOc30G0n54DpHl7sdxRMHwWvh6CVR16FuwcLsiCsrCpGkrVbHlP-N1vyJv7pTVu8
+sprite $GoodreadsSm [10x12/16z] TSQ35SG0502mVwYH_QUjZJmbTexgH0tIHXeWy3wHVkOrc9SL_YqjD11DEojx
 
-sprite $GoodreadsMd [14x16/16z] ROs50S0W30GVr-JtdxRkvI1kU5FqnbN-w43GU0PsKSOV4LPLNf6C8wkB2cT424ky8YOlLsTQEqk-ZWihU95ZvOhZ4vW7c04
+sprite $GoodreadsMd [14x16/16z] TSx50S0W30NGuCxVVzfwSTuj7kgvN0cFIIGIMPK006DVT0UmNPGsKGOW_WYKO7M9O6GgdUhkjBRSI_24GdqV2hIeSm8
 
-sprite $GoodreadsLg [17x20/16z] TKw50S0W3CiKX_-lnLsoOMqZM73_0t2P2JgVQYmJ09T4VRD057Sh81BUMj3fncj1fPiyJnZ8i3-T2tmS6aHR1NXbLrWqHCpnjrwea9wX0JpfAio4MPbXXWC
+sprite $GoodreadsLg [17x20/16z] TKo50G0X4EBxpTj_Mhi32u_0XEFgW8C6wFIgVlpvh4JvCq_5KGS8WRCCT6Iy35HaSkyWoBw363JHVu6Q2N39PZ1rYD3nLirFlZQXVKUaWWQCpGmZB
 
-!procedure Goodreads($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Goodreads', $name, $tech)
+!procedure Goodreads($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Goodreads', $name, $tech, $desc)
 !endprocedure

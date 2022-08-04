@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CalendarCheck')
 
 ' renders the element
-CalendarCheck('CalendarCheck', 'Calendar Check', 'an optional tech label')
+CalendarCheck('CalendarCheck', 'Calendar Check', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CalendarCheck')
 
 ' renders the element
-CalendarCheck('CalendarCheck', 'Calendar Check', 'an optional tech label')
+CalendarCheck('CalendarCheck', 'Calendar Check', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

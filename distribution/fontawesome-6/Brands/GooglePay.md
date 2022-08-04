@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/GooglePay')
 
 ' renders the element
-GooglePay('GooglePay', 'Google Pay', 'an optional tech label')
+GooglePay('GooglePay', 'Google Pay', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/GooglePay')
 
 ' renders the element
-GooglePay('GooglePay', 'Google Pay', 'an optional tech label')
+GooglePay('GooglePay', 'Google Pay', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

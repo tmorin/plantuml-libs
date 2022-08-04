@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/LeftLong')
 
 ' renders the element
-LeftLong('LeftLong', 'Left Long', 'an optional tech label')
+LeftLong('LeftLong', 'Left Long', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/LeftLong')
 
 ' renders the element
-LeftLong('LeftLong', 'Left Long', 'an optional tech label')
+LeftLong('LeftLong', 'Left Long', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

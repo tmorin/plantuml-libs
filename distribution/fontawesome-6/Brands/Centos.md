@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Centos')
 
 ' renders the element
-Centos('Centos', 'Centos', 'an optional tech label')
+Centos('Centos', 'Centos', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Centos')
 
 ' renders the element
-Centos('Centos', 'Centos', 'an optional tech label')
+Centos('Centos', 'Centos', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Sleigh')
 
 ' renders the element
-Sleigh('Sleigh', 'Sleigh', 'an optional tech label')
+Sleigh('Sleigh', 'Sleigh', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Sleigh')
 
 ' renders the element
-Sleigh('Sleigh', 'Sleigh', 'an optional tech label')
+Sleigh('Sleigh', 'Sleigh', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

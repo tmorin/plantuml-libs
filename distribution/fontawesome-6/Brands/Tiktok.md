@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Tiktok')
 
 ' renders the element
-Tiktok('Tiktok', 'Tiktok', 'an optional tech label')
+Tiktok('Tiktok', 'Tiktok', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Tiktok')
 
 ' renders the element
-Tiktok('Tiktok', 'Tiktok', 'an optional tech label')
+Tiktok('Tiktok', 'Tiktok', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

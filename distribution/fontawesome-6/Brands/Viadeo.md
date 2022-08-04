@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Viadeo')
 
 ' renders the element
-Viadeo('Viadeo', 'Viadeo', 'an optional tech label')
+Viadeo('Viadeo', 'Viadeo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Viadeo')
 
 ' renders the element
-Viadeo('Viadeo', 'Viadeo', 'an optional tech label')
+Viadeo('Viadeo', 'Viadeo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

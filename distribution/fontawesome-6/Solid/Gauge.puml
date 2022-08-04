@@ -2,18 +2,18 @@
 
 sprite $GaugeXs [10x10/16z] FKh50G012EBwUBd_j7Oh1I_AYoZ9Oe4u3_nd2rkhL_CwlZOCvAMVj-XJQHW
 
-sprite $GaugeSm [12x12/16z] JOo50G0X30FltJ_xJuj3UqWr8VFefA9AJykNKvwKJvE-b3-v_tybAJiLtfAlw5HYutCEk7nD_r4wXHyekwKR0G
+sprite $GaugeSm [12x12/16z] JSZ50G8100InmPtqNorodizAVm_NHaPZ9IXwI3klk97tYmV8g2UnpnMElI2eDdsFIp5wLxqOtoy
 
 sprite $GaugeMd [16x16/16z] {
-DKu75iKW34gwdTp_jly3BxGgon72lJ0o2Wl6AvNY5wT5BJcyJ9KZfTaywETBpGMuKNrZOH-bnN35f1PR612-s2PfMVV2orcltF7KmnpNwwVc9_umjHGEgqt-
-0m
+FOu70e0W30FZdct-_rgLn185hhkGbk0re1IqDflYgLtHpSlFhMH0DWPoQ7wijfUF5rQ-5SoXR14dtByz8dZLw3GCklUQIpzzoyHQYrKWl9dk5P-CDgN1LZP-
+0G
 }
 
 sprite $GaugeLg [20x20/16z] {
-RO-50SGW00E3Ezb_sXUqmhNO1SKWL6QB2uw3eZ3WXN1L5hMrSIiQbDbfUm7TUOWnsYv0alJWPUqW75mbfTWk8ZGDvEKq99d9s2BT4hfAMdRKvJspStbHGNav
-0yc612vnO2FPwowHLnGQvgAmy6mKqqPV
+RP050iCm30DLRiZw_si7ya23A-Qi81wKODzXR7mmfgUYKLnj27shfMQCPr5Z0UbsJDaoL-HEqFicvOyBSiBRLUpIG4-dzqHsiXRbLE4IvCvaiVs0YUreO7mx
+ZIacmCg5ekq-IgKpsv5wIfmK8qDN
 }
 
-!procedure Gauge($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Gauge', $name, $tech)
+!procedure Gauge($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Gauge', $name, $tech, $desc)
 !endprocedure

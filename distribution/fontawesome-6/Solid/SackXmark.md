@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SackXmark')
 
 ' renders the element
-SackXmark('SackXmark', 'Sack Xmark', 'an optional tech label')
+SackXmark('SackXmark', 'Sack Xmark', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SackXmark')
 
 ' renders the element
-SackXmark('SackXmark', 'Sack Xmark', 'an optional tech label')
+SackXmark('SackXmark', 'Sack Xmark', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

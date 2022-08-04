@@ -2,15 +2,15 @@
 
 sprite $GoogleDriveXs [10x10/16z] LSh50SG00091Jk8o_LSRLpxOvYKSuOpyyJa-9FXbf3-Ohkj2WD20FZcd6G
 
-sprite $GoogleDriveSm [12x12/16z] NOg30S1054DJks__QS_-Z3GMS4GqJp-GLM-y7cwmFya0Y4Tlk3CmU-LBxfaJyHztndELfVdzGrso
+sprite $GoogleDriveSm [12x12/16z] NSg50OG020LGkB3rxJ-jtUIlU1V-6yeSSAY1Re4_YdOtO3lHhVU3Jw3VtUf8RF_V73WlEIAxOQqw9W
 
-sprite $GoogleDriveMd [16x16/16z] RSl50SCm40NHCQFq--yscS2U_8HBFEgY34VUZd-uTg9_d4oJyGsocMX4_dPgelkPk7nc62BuDqG3iFWvP--BCXZJycV_DbQuG4Al6BYcfS8H3GLU
+sprite $GoogleDriveMd [16x16/16z] ROo55S0W44E3E-o_RHki-j78E_nI2IvyEmbBwOf6bcvDIkeyP61q5S2VlupAZqBYencJ_Luzmq_Kl1CsWXgbBTWtOal30QXN32IfjnHuSm
 
 sprite $GoogleDriveLg [20x20/16z] {
-TSu53iH0509GwbxkVziDf67-sglByC5_qom3ge66uiHDsH4RUz2wl2ClR9IplIB7_5ZoCPOnJ_oIgwhHKFlGXYmurKCk2AtFLUP3jkFvVob0qQ0udUSlqJbO
-7-9qlw5Z0Jbni5dmqmi
+TSs50O0m34JHNyTl_sqXnUr1FS8_7uo_twdYOc2IwJYqSZm3fP5MPc2ZHTm27PMJ8Lwoj_BbM1T95RWpK5Ku4WQsVYFdixkroxrf-oq-N223rscezHAwS61X
+xIqCaWAwm0pqEXK-pG
 }
 
-!procedure GoogleDrive($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/GoogleDrive', $name, $tech)
+!procedure GoogleDrive($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/GoogleDrive', $name, $tech, $desc)
 !endprocedure

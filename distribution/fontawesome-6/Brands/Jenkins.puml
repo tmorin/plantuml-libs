@@ -2,18 +2,18 @@
 
 sprite $JenkinsXs [10x10/16z] 3SA74O0W402ms0M-xB-jvWAoW1iAFJG30jniWsKVlA0t4fK3O6kClRh_W7EE3m
 
-sprite $JenkinsSm [12x12/16z] BSI5OKGn0CFG5_XXs7_QziYM1EoJWL0o1dYYW8ijPe3sImsK4eYc0410twWf9zYAriA07JJseYKfMqCuEb27-Wy
+sprite $JenkinsSm [12x12/16z] NOot0G0n309nplR-spv8tL-X2C0uDyEfYML0b0Znz4VGtSygdKgfLI8MVlJ3qb8sqw6qTqoVqLctfSUCpUlLIRIEzW4
 
 sprite $JenkinsMd [16x16/16z] {
-1S410iGG302mcBEs0___xIM0Pzy9G5IX7y3KW0Dg5eNd3BGXJM2XC_1uj4JVtm-ZUtPYPNn025G7K1EjNc3tDy6473CrK0o-pm5saBJz9kerOiQDrQE_BbYi
-J-WsQ6IBQlu
+BSorOGGn000mcTct_xJ9KwLEW7YU1K0R7V42bW1SCDPW8Dm2MRU03IH4X0fd9kGed8xTsmIQWX7WDyEem4wrWmKjzmeO5EPqWLFe7pj6bjjgJzknfUe1cpqr
+oG61getW7m
 }
 
 sprite $JenkinsLg [20x20/16z] {
-JSwxOU0W50310SHN0lglziv-aIVQS27KVK_trzehyNmBGc-Da0_XAJaZr07IRPDoCygyu6NG2GLiFaWWDTXF-i0mv3dXfdV2ULdPXBRxGYXDWpw4S2NuKYQC
-CL8LzXBEtMSkmcQGUibqGaD5IIuXxqqUKUM0RyhxxFlZhEjIRqRip_buvU8bTBoFPL9x2LCvvHbVsVu3
+JS_50U0W4030MM8u_LTx4d8o7tIDppNMVFolZehKAv_dlcqnRUSHuNDbhtKNOWMYBD38NBO0W-wV6qRwxh8iIe4LhS1irEJT7-EfFkdUiK_spnBGXItd79VN
+g5vpZLc-lK4cdWWksstlZx1iCGQHtrrCq8iqvbY_pBeipc_sGYcd9eLcUz1ELI4zyIhIJ6VkCVm4
 }
 
-!procedure Jenkins($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Jenkins', $name, $tech)
+!procedure Jenkins($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Jenkins', $name, $tech, $desc)
 !endprocedure

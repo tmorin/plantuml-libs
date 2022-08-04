@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Menorah')
 
 ' renders the element
-Menorah('Menorah', 'Menorah', 'an optional tech label')
+Menorah('Menorah', 'Menorah', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Menorah')
 
 ' renders the element
-Menorah('Menorah', 'Menorah', 'an optional tech label')
+Menorah('Menorah', 'Menorah', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

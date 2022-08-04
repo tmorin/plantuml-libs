@@ -1,19 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/School
 
-sprite $SchoolXs [12x10/16z] LSQ50O105CFGu4xsdnOzVLzQFYTHe_8Pj6LxtwwA-461Bx_hlwnHtAZGlldvkju
+sprite $SchoolXs [12x10/16z] LSM54OG05CJGtE6Q_hjbTiVWVGbr4_5JgKb_7FhdL4MC16XxO_l5wsQ5VrhmInu
 
-sprite $SchoolSm [15x12/16z] NOs50SGW4C3oMc_sdxQ64pWt0kEB2Yz8Z3hE-aa5-V2wxMO8_s8057WfOmpzpuQm1yAEgdc6klaDuSRMXYS
+sprite $SchoolSm [15x12/16z] NOq35iG05CHcKIFtFssLEayVWqWT4O1pgQ1euEC3oDTXmBKaI0BAKk1AsUBwmk-0NzScSPLlOiVmN6S
 
-sprite $SchoolMd [20x16/16z] {
-ROo54SKm5CDU6qRlFstO7wi3dnGGSbNv9G4mN-N6vbrq1keO05xDK7WZo8L5F6bSGnI0t7hTks-XJ3s_UmedwleML92tACD0uVMW2uKJPGrRdXVkqSeHmZPn
-3wq3
-}
+sprite $SchoolMd [20x16/16z] ROq50eKm08Lir-_-frtpKqnOBI_I0k0bdTz9WtTOWrHNRfBCsa9aXcMscodMu6g3PMSdfEbiDyB77UajIeAtR2S1ORhP8iB7jcFVBRG9Msrn2j0QzqCh
 
 sprite $SchoolLg [25x20/16z] {
-VSt50G0n449HrkB9xx_QTRTtdG5qaetU6A1KUYZCtCixkTn2RMAKD6BYDOaiYkHhLQniOjL9-4gSPKRj6CvEszR4I43G3CXIsGvhH4el1t9huNn8nd5XBV-C
-n5cHheTEohoC1uqkXsmyerfQ8yQmkHusxuU6zqCP
+VSrL0iGm28JXgSLXxd_RXQthzrBv4y2113mPI2hkb7y9PnEDwENIs6WQ35s6gvmfa3ihYwbjRm2jy4Xe1hii4UikryC_2_xyFw1xy2kcFGJA6CbZQ4FaoJ3m
+smZmI06UTao0y65vXZa52NdfovKGkDl3xZaCBq5_
 }
 
-!procedure School($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/School', $name, $tech)
+!procedure School($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/School', $name, $tech, $desc)
 !endprocedure

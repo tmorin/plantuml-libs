@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Bucket')
 
 ' renders the element
-Bucket('Bucket', 'Bucket', 'an optional tech label')
+Bucket('Bucket', 'Bucket', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Bucket')
 
 ' renders the element
-Bucket('Bucket', 'Bucket', 'an optional tech label')
+Bucket('Bucket', 'Bucket', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

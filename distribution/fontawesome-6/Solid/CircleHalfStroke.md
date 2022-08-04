@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CircleHalfStroke')
 
 ' renders the element
-CircleHalfStroke('CircleHalfStroke', 'Circle Half Stroke', 'an optional tech label')
+CircleHalfStroke('CircleHalfStroke', 'Circle Half Stroke', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CircleHalfStroke')
 
 ' renders the element
-CircleHalfStroke('CircleHalfStroke', 'Circle Half Stroke', 'an optional tech label')
+CircleHalfStroke('CircleHalfStroke', 'Circle Half Stroke', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

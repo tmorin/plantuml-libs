@@ -2,18 +2,15 @@
 
 sprite $CircleDollarToSlotXs [10x10/16z] JOg55S0W4CLIzsR_RNaufzy03XTYJSO2Y2ykZyQLI2zUNRcL3HrpyHLoCLrmsIi
 
-sprite $CircleDollarToSlotSm [12x12/16z] HSVL0O0m00FHmvtRVriQhEyZGgnEF0uZZrtTr1vG6xgIF6d0MFA0R9hayEoaYHEwnWVjuK7MJfAFXzK5
+sprite $CircleDollarToSlotSm [12x12/16z] HSU50G8134MnXsl9_jFYSAd-NiuEVGnyqXKNh2lKUjcWzfX2dxrRVk5MgtpKcE0Qz6Ci7W
 
-sprite $CircleDollarToSlotMd [16x16/16z] {
-LOq55W0X44AnM-v_snMtly6R11ixMF7WUNA5YJT6eQ70qp6NZgMA_QKcpYQTLvnX2iKLAzC-iKNOSLjnvS8XFOOKUxohd0ml9beQP4I_LWv9S0Qm-fnJOdmW
-4_yS
-}
+sprite $CircleDollarToSlotMd [16x16/16z] LOs50G0X00Bvi8FzfxNpFl2mq7W3BHO_EqCLUHLzk8fOCepw7GaHNSquN0DcRc13mGtl8PgxuhOMNxzrtzUs-pejm464Ku4Ky4qbYXHz03pzLujmG2hUP
 
 sprite $CircleDollarToSlotLg [20x20/16z] {
-RSu73e0m34DHT-_c_hSbgjdmjD17iGfGcj8TRimGobUIqmHPkHbiKqGLCCRhCW3evtKJrU6RbmMACx1LoBAfmblbLwDk-6a0LEuXW0tde1OpkOnpfaBEEIKt
-ZS7WdehKiLvKMMRGj9JY09DB190BVzi79xz-yjm
+ROw54KHH20FptA7_Qi_2VT-npA8mYkWCEBAKrCqutP2p8ejEz4i39PVg5mzWRjFZcoRYY6pSsXPSLzqccDf_LgCvZZCw0Dr4CdU-A_RWjgPZEs6D6uF2fAcc
+VVqkTHhnQ4oj1S3LbW7Knh8xuVMHS5Vo1W
 }
 
-!procedure CircleDollarToSlot($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CircleDollarToSlot', $name, $tech)
+!procedure CircleDollarToSlot($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CircleDollarToSlot', $name, $tech, $desc)
 !endprocedure

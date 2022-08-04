@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TengeSign')
 
 ' renders the element
-TengeSign('TengeSign', 'Tenge Sign', 'an optional tech label')
+TengeSign('TengeSign', 'Tenge Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TengeSign')
 
 ' renders the element
-TengeSign('TengeSign', 'Tenge Sign', 'an optional tech label')
+TengeSign('TengeSign', 'Tenge Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

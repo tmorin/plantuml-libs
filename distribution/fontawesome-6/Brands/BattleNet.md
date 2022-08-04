@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/BattleNet')
 
 ' renders the element
-BattleNet('BattleNet', 'Battle Net', 'an optional tech label')
+BattleNet('BattleNet', 'Battle Net', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/BattleNet')
 
 ' renders the element
-BattleNet('BattleNet', 'Battle Net', 'an optional tech label')
+BattleNet('BattleNet', 'Battle Net', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

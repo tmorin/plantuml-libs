@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BoxesStacked')
 
 ' renders the element
-BoxesStacked('BoxesStacked', 'Boxes Stacked', 'an optional tech label')
+BoxesStacked('BoxesStacked', 'Boxes Stacked', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BoxesStacked')
 
 ' renders the element
-BoxesStacked('BoxesStacked', 'Boxes Stacked', 'an optional tech label')
+BoxesStacked('BoxesStacked', 'Boxes Stacked', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

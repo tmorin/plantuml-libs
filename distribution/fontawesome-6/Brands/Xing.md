@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Xing')
 
 ' renders the element
-Xing('Xing', 'Xing', 'an optional tech label')
+Xing('Xing', 'Xing', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Xing')
 
 ' renders the element
-Xing('Xing', 'Xing', 'an optional tech label')
+Xing('Xing', 'Xing', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

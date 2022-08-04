@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Mitten')
 
 ' renders the element
-Mitten('Mitten', 'Mitten', 'an optional tech label')
+Mitten('Mitten', 'Mitten', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Mitten')
 
 ' renders the element
-Mitten('Mitten', 'Mitten', 'an optional tech label')
+Mitten('Mitten', 'Mitten', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

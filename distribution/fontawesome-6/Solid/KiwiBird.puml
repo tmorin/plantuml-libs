@@ -2,12 +2,12 @@
 
 sprite $KiwiBirdXs [11x10/16z] Oq06_400PS404fEV3qhpyF5p8aGPa9WiK3sy87siV12ZG8WROYm
 
-sprite $KiwiBirdSm [13x12/16z] RSV50O0m0C30u4xsdnRNjlSx0ch5gVHG5mNWgwrDGhlWBmPFuwZGkM4p2BN8GQ1WvBG2
+sprite $KiwiBirdSm [13x12/16z] RSV50O0m0C30u4xsdnRNjlSx0ch5AVTGPndWgwrDGhlWBmPFuwZGkc4p2AN8GQ1WvBG2
 
-sprite $KiwiBirdMd [17x16/16z] XSY55S1G2CLGgClZPFzfwwxtAx4dcPGTHoR5EgUiGgg6m9adN8Y3bWi3wbly3rjHdgPJc4lOoESGQOFDwYbeUcVhnstL0m
+sprite $KiwiBirdMd [17x16/16z] XSY54SKm0CDGXyavxp_jXpBt7KguuacFbTKW7lgdanc0zepL0RNHT019vJJVntBeh1t6U3e6usYc2ACoZ8eaJ8IZBm
 
-sprite $KiwiBirdLg [22x20/16z] VT254O0m04FHu4xsdnQeMuv__kh5JzCyTRNHLVZ8q3L6x5Wt0xZPT04KxHjLzGOdRg67LRq3jDvI1wNvYsbVV5b5dxtKv1JajDtClykfMOVOwVG4Zan1o5u
+sprite $KiwiBirdLg [22x20/16z] VSo54O0m50JHnPthlrhSajomu-yBF-L5diMciy1ptKtvWvdYQc1MqWGozPrSyOEHsUXmgF-0rzbgPfLIJoLRqw7FTitPgKXLDukxybQONcKyTOH1l0dR2W
 
-!procedure KiwiBird($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/KiwiBird', $name, $tech)
+!procedure KiwiBird($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/KiwiBird', $name, $tech, $desc)
 !endprocedure

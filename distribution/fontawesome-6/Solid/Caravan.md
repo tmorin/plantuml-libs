@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Caravan')
 
 ' renders the element
-Caravan('Caravan', 'Caravan', 'an optional tech label')
+Caravan('Caravan', 'Caravan', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Caravan')
 
 ' renders the element
-Caravan('Caravan', 'Caravan', 'an optional tech label')
+Caravan('Caravan', 'Caravan', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

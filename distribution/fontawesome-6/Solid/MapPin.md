@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MapPin')
 
 ' renders the element
-MapPin('MapPin', 'Map Pin', 'an optional tech label')
+MapPin('MapPin', 'Map Pin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MapPin')
 
 ' renders the element
-MapPin('MapPin', 'Map Pin', 'an optional tech label')
+MapPin('MapPin', 'Map Pin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

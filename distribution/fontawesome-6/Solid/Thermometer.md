@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Thermometer')
 
 ' renders the element
-Thermometer('Thermometer', 'Thermometer', 'an optional tech label')
+Thermometer('Thermometer', 'Thermometer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Thermometer')
 
 ' renders the element
-Thermometer('Thermometer', 'Thermometer', 'an optional tech label')
+Thermometer('Thermometer', 'Thermometer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

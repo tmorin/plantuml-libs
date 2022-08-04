@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Tv')
 
 ' renders the element
-Tv('Tv', 'Tv', 'an optional tech label')
+Tv('Tv', 'Tv', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Tv')
 
 ' renders the element
-Tv('Tv', 'Tv', 'an optional tech label')
+Tv('Tv', 'Tv', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

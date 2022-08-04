@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CaretDown')
 
 ' renders the element
-CaretDown('CaretDown', 'Caret Down', 'an optional tech label')
+CaretDown('CaretDown', 'Caret Down', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CaretDown')
 
 ' renders the element
-CaretDown('CaretDown', 'Caret Down', 'an optional tech label')
+CaretDown('CaretDown', 'Caret Down', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

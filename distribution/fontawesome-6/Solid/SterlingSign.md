@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SterlingSign')
 
 ' renders the element
-SterlingSign('SterlingSign', 'Sterling Sign', 'an optional tech label')
+SterlingSign('SterlingSign', 'Sterling Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SterlingSign')
 
 ' renders the element
-SterlingSign('SterlingSign', 'Sterling Sign', 'an optional tech label')
+SterlingSign('SterlingSign', 'Sterling Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

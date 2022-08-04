@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TachographDigital')
 
 ' renders the element
-TachographDigital('TachographDigital', 'Tachograph Digital', 'an optional tech label')
+TachographDigital('TachographDigital', 'Tachograph Digital', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TachographDigital')
 
 ' renders the element
-TachographDigital('TachographDigital', 'Tachograph Digital', 'an optional tech label')
+TachographDigital('TachographDigital', 'Tachograph Digital', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

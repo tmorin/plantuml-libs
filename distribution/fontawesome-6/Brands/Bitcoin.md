@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Bitcoin')
 
 ' renders the element
-Bitcoin('Bitcoin', 'Bitcoin', 'an optional tech label')
+Bitcoin('Bitcoin', 'Bitcoin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Bitcoin')
 
 ' renders the element
-Bitcoin('Bitcoin', 'Bitcoin', 'an optional tech label')
+Bitcoin('Bitcoin', 'Bitcoin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

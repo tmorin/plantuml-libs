@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/PinterestSquare')
 
 ' renders the element
-PinterestSquare('PinterestSquare', 'Pinterest Square', 'an optional tech label')
+PinterestSquare('PinterestSquare', 'Pinterest Square', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/PinterestSquare')
 
 ' renders the element
-PinterestSquare('PinterestSquare', 'Pinterest Square', 'an optional tech label')
+PinterestSquare('PinterestSquare', 'Pinterest Square', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,12 +2,12 @@
 
 sprite $ReplyXs [10x10/16z] Oq06JFnG1ZS_bCKF0M06Z8rWCR23rK4KWmWkVfXHl60MH1m
 
-sprite $ReplySm [12x12/16z] PSR50O1G04EnXtkx_xGuVCifPARbxsfzjQssUlgPMFmJlNzGsm9q7Uxp78ftuJq7
+sprite $ReplySm [12x12/16z] NSQr0S1000En2xEz_xJXHrMYiconknLgMstiPs9p94P7qDe2z1pUynseFn2DN
 
-sprite $ReplyMd [16x16/16z] RSZL0SKW0CNGr5lixZ_jKnpoTy8qsr9QAYrglElJkQ-Hjt9-1wCwpwec1-tWFnRWZYRypHAD_PiGpSOl7qrCMblVD2tm1W
+sprite $ReplyMd [16x16/16z] ROs50SGW4C3ohctsdxQAG-3S6FAhGosZYrLyLRrTBo5ycvYkyBLauch57wm0Wk4LdJdU2p4_eIg4urE88tgfupSjAm
 
-sprite $ReplyLg [20x20/16z] TSY54SH0581Gubcb_shF_L_U60F7nZakvSTcUCNmgbVpFF7Yfmmm-AE04VJmTZ00yZF6hJ-JxHcmlt9vFNpdA_BxCN2NjFAZwSWFtGXlvwyp
+sprite $ReplyLg [20x20/16z] TSwt5GGn009Hrbjf-k_s4dbkYURz27rlcerc66d3xC7i1M2Ufqgqkvs0nmcGejafOPDqvvYsc5D7_NUMN8g9cYNkOdKNlAC5c4Q3GsQd_ku7
 
-!procedure Reply($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Reply', $name, $tech)
+!procedure Reply($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Reply', $name, $tech, $desc)
 !endprocedure

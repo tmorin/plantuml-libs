@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Safari')
 
 ' renders the element
-Safari('Safari', 'Safari', 'an optional tech label')
+Safari('Safari', 'Safari', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Safari')
 
 ' renders the element
-Safari('Safari', 'Safari', 'an optional tech label')
+Safari('Safari', 'Safari', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

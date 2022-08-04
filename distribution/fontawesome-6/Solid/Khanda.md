@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Khanda')
 
 ' renders the element
-Khanda('Khanda', 'Khanda', 'an optional tech label')
+Khanda('Khanda', 'Khanda', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Khanda')
 
 ' renders the element
-Khanda('Khanda', 'Khanda', 'an optional tech label')
+Khanda('Khanda', 'Khanda', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

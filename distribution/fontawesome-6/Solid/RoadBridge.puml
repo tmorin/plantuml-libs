@@ -1,16 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/RoadBridge
 
-sprite $RoadBridgeXs [12x10/16z] Om03HduGWB1vW0n-VcQm28JDmCaFX3nGDNmC_10rK836vWAf0M4WcmM9pO341be7
+sprite $RoadBridgeXs [12x10/16z] NOg50S0m3CCyvkd_QykiGc9G14zSNxV0WYVkkd3dJPrVn4vYs6_VyS_jQxEhsIUm
 
-sprite $RoadBridgeSm [15x12/16z] Ou02NdumW761J31c1WCO5wO8XXcW208O6S488Wi7MBYC81h4u0QIC7lPG0J2P6OiN9WJ
+sprite $RoadBridgeSm [15x12/16z] Ou02NdumW761J31c10CO5wO8XXcW208O6S488Wi7sBaGNTn04cOl2uX0o39YuSAS
 
-sprite $RoadBridgeMd [20x16/16z] {
-VOy50e0m201XtVl_RvMmuvOqm0vEPHowHdAdwwfhG3fiYZbqVIgMT9rrOCEqDauBf1C0d1pHLIuyXXoxvpluqcaDMqKLBpMCF5f3XVNsbpb4m1zTttILTFme
-2m
-}
+sprite $RoadBridgeMd [20x16/16z] VO-50SD024M1Uh7zfpttoalEy0yJRzWqINvhtdORGx590wTDlK7PfZKEBuvuTwpr2W2OrjLR3owDpUgYKMzosCuUnDLqstfGFPOULUTjqr4VyCUctSRLnjw9
 
-sprite $RoadBridgeLg [25x20/16z] hOw50G0X30E3Ezr_sdTtuN0g2POucl1Om6Z1FW1S1mHDs5KWdGLW7P5pxQQsujDs4v2OWZkDKe6SXhYb3hrtvTfJOGnuEmOmdfF6aq1-431o6GWOBXCr
+sprite $RoadBridgeLg [25x20/16z] hT030WGX00NGKTRzJxlCrX_MouSVecne0CfB2lfJX5lPu0142GvCb2Ba-mBnvFRLW4jxEiS-a48x_bS_wQg8hjT0yHzqEJch5iWEG8yFJ8FB6m
 
-!procedure RoadBridge($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/RoadBridge', $name, $tech)
+!procedure RoadBridge($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/RoadBridge', $name, $tech, $desc)
 !endprocedure

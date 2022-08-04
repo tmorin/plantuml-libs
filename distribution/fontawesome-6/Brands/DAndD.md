@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/DAndD')
 
 ' renders the element
-DAndD('DAndD', 'D And D', 'an optional tech label')
+DAndD('DAndD', 'D And D', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/DAndD')
 
 ' renders the element
-DAndD('DAndD', 'D And D', 'an optional tech label')
+DAndD('DAndD', 'D And D', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

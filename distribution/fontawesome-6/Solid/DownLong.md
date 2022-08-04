@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/DownLong')
 
 ' renders the element
-DownLong('DownLong', 'Down Long', 'an optional tech label')
+DownLong('DownLong', 'Down Long', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/DownLong')
 
 ' renders the element
-DownLong('DownLong', 'Down Long', 'an optional tech label')
+DownLong('DownLong', 'Down Long', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

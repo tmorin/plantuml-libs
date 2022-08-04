@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ScaleBalanced')
 
 ' renders the element
-ScaleBalanced('ScaleBalanced', 'Scale Balanced', 'an optional tech label')
+ScaleBalanced('ScaleBalanced', 'Scale Balanced', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ScaleBalanced')
 
 ' renders the element
-ScaleBalanced('ScaleBalanced', 'Scale Balanced', 'an optional tech label')
+ScaleBalanced('ScaleBalanced', 'Scale Balanced', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

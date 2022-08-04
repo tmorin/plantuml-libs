@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Passport')
 
 ' renders the element
-Passport('Passport', 'Passport', 'an optional tech label')
+Passport('Passport', 'Passport', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Passport')
 
 ' renders the element
-Passport('Passport', 'Passport', 'an optional tech label')
+Passport('Passport', 'Passport', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

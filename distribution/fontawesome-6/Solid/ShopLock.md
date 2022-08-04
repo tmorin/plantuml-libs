@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ShopLock')
 
 ' renders the element
-ShopLock('ShopLock', 'Shop Lock', 'an optional tech label')
+ShopLock('ShopLock', 'Shop Lock', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ShopLock')
 
 ' renders the element
-ShopLock('ShopLock', 'Shop Lock', 'an optional tech label')
+ShopLock('ShopLock', 'Shop Lock', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

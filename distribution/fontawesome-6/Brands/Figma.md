@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Figma')
 
 ' renders the element
-Figma('Figma', 'Figma', 'an optional tech label')
+Figma('Figma', 'Figma', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Figma')
 
 ' renders the element
-Figma('Figma', 'Figma', 'an optional tech label')
+Figma('Figma', 'Figma', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

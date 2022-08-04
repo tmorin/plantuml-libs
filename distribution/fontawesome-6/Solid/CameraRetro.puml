@@ -2,12 +2,12 @@
 
 sprite $CameraRetroXs [10x10/16z] Oq02_5nS_2009a4240hCGW2e90uM0Y1u
 
-sprite $CameraRetroSm [12x12/16z] LSg30G0W4030REm_RUvnuIcOteNfXxoXB2iOO_v2Nt-g_kPBC_rBlxcelSRxLt4tT2HI-zm4
+sprite $CameraRetroSm [12x12/16z] RSg50S0W40F0r8jc_srnvv1N34XSZ922zdmupxCiqF_IF2dtxCr2bgO7Jsxwr5SAR21jyJe
 
-sprite $CameraRetroMd [16x16/16z] RSY50S0W44FHrF7ilsrnV-W_B5xd3Xp61VR0GzAoUfc8Ax1XSj_tXIHq_5zFRUlHS-4j3fpi0EW76W4hCpKF01yxyZNSEgO6ZXv-
+sprite $CameraRetroMd [16x16/16z] RSc54S0m40D1XStglzkOUOqtZyNh703Z0Wiy92shbuauWp1u_7iW2Ns6pt7LjXuz5zu2EDb1m4fFRQPco8yTUHbkOUx93m
 
-sprite $CameraRetroLg [20x20/16z] VSo50OCm54NHYpjl_srR86u7Ojyec-UvUmvZV6AITdOv9vSoBd_pwVKO7nrH3CV7-h_nbdGyjq5D0x0fCl8uenYlgH2BvtUG3RnuAB7EkneMvJYL6Ydu0G
+sprite $CameraRetroLg [20x20/16z] ZSo30KKn5C3G5D_8_jC-swVk1TjIIktHYbJKDsy7Ntwk3F4_hM0jrc3sHsls5ohfhtv29Nee02zd8hMlKpJYnRzvmnyr5-xfxO67QtnTocme0G
 
-!procedure CameraRetro($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CameraRetro', $name, $tech)
+!procedure CameraRetro($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CameraRetro', $name, $tech, $desc)
 !endprocedure

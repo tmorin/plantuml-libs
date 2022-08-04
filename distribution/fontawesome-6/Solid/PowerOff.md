@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PowerOff')
 
 ' renders the element
-PowerOff('PowerOff', 'Power Off', 'an optional tech label')
+PowerOff('PowerOff', 'Power Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PowerOff')
 
 ' renders the element
-PowerOff('PowerOff', 'Power Off', 'an optional tech label')
+PowerOff('PowerOff', 'Power Off', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

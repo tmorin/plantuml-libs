@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HeartCircleXmark')
 
 ' renders the element
-HeartCircleXmark('HeartCircleXmark', 'Heart Circle Xmark', 'an optional tech label')
+HeartCircleXmark('HeartCircleXmark', 'Heart Circle Xmark', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HeartCircleXmark')
 
 ' renders the element
-HeartCircleXmark('HeartCircleXmark', 'Heart Circle Xmark', 'an optional tech label')
+HeartCircleXmark('HeartCircleXmark', 'Heart Circle Xmark', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PersonSkiing')
 
 ' renders the element
-PersonSkiing('PersonSkiing', 'Person Skiing', 'an optional tech label')
+PersonSkiing('PersonSkiing', 'Person Skiing', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PersonSkiing')
 
 ' renders the element
-PersonSkiing('PersonSkiing', 'Person Skiing', 'an optional tech label')
+PersonSkiing('PersonSkiing', 'Person Skiing', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

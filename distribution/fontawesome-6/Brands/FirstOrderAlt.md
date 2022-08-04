@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/FirstOrderAlt')
 
 ' renders the element
-FirstOrderAlt('FirstOrderAlt', 'First Order Alt', 'an optional tech label')
+FirstOrderAlt('FirstOrderAlt', 'First Order Alt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/FirstOrderAlt')
 
 ' renders the element
-FirstOrderAlt('FirstOrderAlt', 'First Order Alt', 'an optional tech label')
+FirstOrderAlt('FirstOrderAlt', 'First Order Alt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

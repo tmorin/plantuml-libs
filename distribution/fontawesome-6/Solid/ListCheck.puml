@@ -2,12 +2,12 @@
 
 sprite $ListCheckXs [10x10/16z] Oq02l9mGcfEVdu617mGOs12oh1mGcWyX2sIW0w0eApz4bXac1W
 
-sprite $ListCheckSm [12x12/16z] RS650O0m0C2muax_lnRNRGb_Sfa61_204r0U-Cc4x31h0HwO6r8AAvhXOi_iYOyL
+sprite $ListCheckSm [12x12/16z] RSh50O0m0C30u4xsdnRNjlS-_kGo3GxW0ISWFyG_EyoQFNzkI2aigOUBFRCdFbO
 
-sprite $ListCheckMd [16x16/16z] VSm50GC134MnLnYl_VxLZk4u0iA2AmDEox3hswLqLKBfWz8U8Dy2VFlZzT5lrIh5yEltPs-0iIKayCjFIyv5FwW0_s7Y3W
+sprite $ListCheckMd [16x16/16z] ZSm50GC13C30ZB6DVxNRCzC9E9ZxCf82tzed_7g1hmt26y2vTeBJeIzhaOOd21kaTu1JZJqN1JwTr1CVEnXi-GC
 
-sprite $ListCheckLg [20x20/16z] dS650SCm0C0m5yFn_z-EcIVnoig3Pk9Qw2Gxq3nBRh7LFIFf05lpoG3hm3C33nOZrwR4h0CaJtftQmAyeEd2rfXELZ3mfqaBaCj5SWiMhotQWDek2iF4DpO
+sprite $ListCheckLg [20x20/16z] dS650SCm0C0mbyF-_zenyohnpi2JQkJMqeWse7eHtG5eNX2LW_uCcFdLPE1M5naKY9wrvau7U4NL2Q2BPoEuiDAW6KZvAhe3axSchK2fLna6Vh45
 
-!procedure ListCheck($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ListCheck', $name, $tech)
+!procedure ListCheck($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ListCheck', $name, $tech, $desc)
 !endprocedure

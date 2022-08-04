@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UsersBetweenLines')
 
 ' renders the element
-UsersBetweenLines('UsersBetweenLines', 'Users Between Lines', 'an optional tech label')
+UsersBetweenLines('UsersBetweenLines', 'Users Between Lines', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UsersBetweenLines')
 
 ' renders the element
-UsersBetweenLines('UsersBetweenLines', 'Users Between Lines', 'an optional tech label')
+UsersBetweenLines('UsersBetweenLines', 'Users Between Lines', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

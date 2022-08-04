@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/GraduationCap')
 
 ' renders the element
-GraduationCap('GraduationCap', 'Graduation Cap', 'an optional tech label')
+GraduationCap('GraduationCap', 'Graduation Cap', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/GraduationCap')
 
 ' renders the element
-GraduationCap('GraduationCap', 'Graduation Cap', 'an optional tech label')
+GraduationCap('GraduationCap', 'Graduation Cap', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowUp19')
 
 ' renders the element
-ArrowUp19('ArrowUp19', 'Arrow Up19', 'an optional tech label')
+ArrowUp19('ArrowUp19', 'Arrow Up19', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowUp19')
 
 ' renders the element
-ArrowUp19('ArrowUp19', 'Arrow Up19', 'an optional tech label')
+ArrowUp19('ArrowUp19', 'Arrow Up19', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -1,19 +1,16 @@
 ' definition of the Item fontawesome-6/Brands/Napster
 
-sprite $NapsterXs [9x10/16z] JOc30G0n54DpHl7sdxRMHwXb05z8vXDEA5daRbflkyYxsq8bsCuStc-rGE88
+sprite $NapsterXs [9x10/16z] JOc30G0n54DpHl7sdxRMHwXb05z8vXDEA5daRbflkyYxsK8rsN9ulzK2YIC
 
-sprite $NapsterSm [11x12/16z] LSQ50G0n40B1ZNlelzftdHFWRqgLZRCo46KCO-emFE8KPtkg-biHcXXfgyNHIszq0u9HZg1tD91daxGni08
+sprite $NapsterSm [11x12/16z] LSZ50GC130CmbIc9zv-sJAUFmT8aPrW9Ta5FdlhrmNuktvhwLP4XkTSJTQgBGkWZGPMqRE2GEzm
 
-sprite $NapsterMd [15x16/16z] {
-RS_5WKH1481GMhvN5_b7kplkxyOHVbb6z4U4UOHE03KogRtJt0TKRz8K5fbcW2XOK1vql6Uy9qef1KgfA5M6barR5H1AAwt2B90x50_06IZEB4SKGiwwsM5H
-Ra9l1_y
-}
+sprite $NapsterMd [15x16/16z] ROt50GHH2CKoBXz8_zMk-qxGd1v7B1dZIyBQGyUxL47NqRidu8EoX4d66I10K5veVcjyAs_jK3f9PTC10U-f7Sm2jGCsm97xNbf0241l3J0f3q9r0ZW3
 
 sprite $NapsterLg [19x20/16z] {
-TT35eS0m3C1GjM6ozf_sCyCx9cR-bsjDV1M-wBmhsc_8o-25Ug3lLRZK3HY-Y_UdnZ81J1Dk21jVQA_-V39-F-tVJ_nw2ggTqCEbTXHmaTLxwWOR4F8f2N1R
-WUgv00E0umqzbHk6XHVQoRrTztPyFTTHhL-gpj3TUF48
+TT35WG0X5C3G03CuF_rNk-xoZZc6_-LI4b-5Bphliju9yZ9ueHxeUzsWRi3mNRodnh80J3Dk21jVQA_-JCRlj7ydVgMWsWazeDueuAAeJDrW0q8-5G6I5IWU
+00E08z3BdM6OUQ6Dt2jfExxkEggL3sc6xhVm2
 }
 
-!procedure Napster($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Napster', $name, $tech)
+!procedure Napster($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Napster', $name, $tech, $desc)
 !endprocedure

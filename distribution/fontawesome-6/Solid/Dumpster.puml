@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/Dumpster
 
-sprite $DumpsterXs [11x10/16z] RSA54O0m0C30u4xsdnRNjd_FXnOEYkOwEMYXHTTsNNF45BmrJ5uoIY-GoK5M
+sprite $DumpsterXs [11x10/16z] ROY50O1030E3ExV_jCYxjN4b1nq727gu_jZ1iAtRjXY8riLrqHL6ZJ7gfx4N
 
-sprite $DumpsterSm [13x12/16z] LSV50O100C2muaxtdnOzpIzKjDTPDnNbYwFkAIWLiyqIgqdBO09j6QgS_Dg36m
+sprite $DumpsterSm [13x12/16z] TSV50O0m0C30u4xsdnPtsliTBvfhhPsAiiLI-oieBzuwdsYzGFOCyOpiqe4P
 
-sprite $DumpsterMd [17x16/16z] VOY50GD13CESOxJttxRSvzT15E7094DzlawwGIP8UhqmfDoUOgimtLF6B_p4lFTuFdDVGPyRVD4MQW_2TZVODW2u3sCVsZDGxaTMVWOp_7dg0m
+sprite $DumpsterMd [17x16/16z] XSY50GDH309GlZliFsszv_BYmSuWNI5j8qqd8oIzotKfPKbcyHZle_yV_mN6c6_zbpPMaBH6RS5hnG1QmTsZRnyL08M_A8-T9m
 
 sprite $DumpsterLg [22x20/16z] {
-ZSX50W8n50JHYYTZVV_RqhZ3lCMNuhDSQqru5AgT1xASF6Pafz5ECxPR3PF74cMijvgoR96qeLjjKPR669rXZVian7TGz8v5--MXDsi7lMbygWbOzIe0NQ-m
-_B46QLllxZLmDxJnnG4
+ZOW54iH03CEqS6qNy__VNieCcabiYskiSyuoFcLyYEADlZJKSO-rNMtKb-rGosAD5oNhLMInxV1T2A4ZAEtcWpa3JiwGvJisd5tfu6nRhgm3oicYT9VMNrf4
+QbbPBHk2L6xu0m
 }
 
-!procedure Dumpster($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Dumpster', $name, $tech)
+!procedure Dumpster($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Dumpster', $name, $tech, $desc)
 !endprocedure

@@ -2,12 +2,12 @@
 
 sprite $ChartGanttXs [10x10/16z] Ou03NduOYvyVYFYXB4vE3WWBX24aGXs40W64AMnG01I70W
 
-sprite $ChartGanttSm [12x12/16z] NOgr0G0W0CDmX_v_BUwPAY4N6YUZPixPoWx0ofsTKM7_leFUEGHwEn878jEc
+sprite $ChartGanttSm [12x12/16z] Oq02xFm8DZ-GpSW8PtFn0mam6qKDY002HdHnE8CTpkRXOKHMmygF00oiV7
 
-sprite $ChartGanttMd [16x16/16z] PSsr0G1120H093ki_shV1PaCNUYqbX7KQWOILKdrYaEgWG-v1hI3_hN6YPuwoJMQQwxF6Cpxp3JkLxWc0b41OB43
+sprite $ChartGanttMd [16x16/16z] PSqn0W0W10NG60FtFstL0hmD-AlZMfhXg86OATNRdhmFJxa7UJXgjW_6_rgBSgv_J9aZmhZVffpGicer5m
 
-sprite $ChartGanttLg [20x20/16z] VT150W0X20LGk_NV_xIJ6mDuIwKL9PnF7JZUmBrvlCpoLl2AQsv-fBEUUQrl-6dfJPvFXn3CzeRNzjO03A7USPUmCHedvOWtmWq
+sprite $ChartGanttLg [20x20/16z] VT2r0S0m30H0SpY__xJ1HdobBKwMgfyEGBt1U-juPVQsujNPMreUiwwNN_mDl_2DqM-rrYpUy19lEu3JhwVlCeIIeALcl1bk
 
-!procedure ChartGantt($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ChartGantt', $name, $tech)
+!procedure ChartGantt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ChartGantt', $name, $tech, $desc)
 !endprocedure

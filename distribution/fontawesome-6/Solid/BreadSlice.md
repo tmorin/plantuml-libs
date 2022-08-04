@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BreadSlice')
 
 ' renders the element
-BreadSlice('BreadSlice', 'Bread Slice', 'an optional tech label')
+BreadSlice('BreadSlice', 'Bread Slice', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BreadSlice')
 
 ' renders the element
-BreadSlice('BreadSlice', 'Bread Slice', 'an optional tech label')
+BreadSlice('BreadSlice', 'Bread Slice', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

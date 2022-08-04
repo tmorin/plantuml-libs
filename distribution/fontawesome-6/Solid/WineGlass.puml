@@ -2,12 +2,12 @@
 
 sprite $WineGlassXs [6x10/16z] O-070GP-1WO6E0a4g2GpY03BmKakVYu6
 
-sprite $WineGlassSm [7x12/16z] NSL50G0n00Em7eoX_jsECP-0XGMrreOWifpBSjNLpmmP0sfkzJ130W
+sprite $WineGlassSm [7x12/16z] NSMn5K1G50N12m1i_ztQynByIIQWFIpBiX8YEsIbQKGHLwhZ4ye3
 
-sprite $WineGlassMd [9x16/16z] XSZ50O1G3C3Gu4xsd_Rx4NdriblqM2quaxYJddavKnw9DpRloyRO7Z2tcNZpirWG0G
+sprite $WineGlassMd [9x16/16z] XSR50O005CFGu4xsdnOf797tfMKq2hnqs79mn39bFdOwkEBjlGmK1b0dmvMVOh03
 
-sprite $WineGlassLg [12x20/16z] ZSw53SKm4C1GbvlaJjv_si-CVIABpU0Lb8UkTXmLEq9EPaVoqgCpsax25M_gGxSlNMYtxkcyIBWDSTHLTU52LxPthPfrFgON8ti
+sprite $WineGlassLg [12x20/16z] ZSQ54SGm30312yUsDDT_jS-CsQ6bzmgMXrSvANR4vRCzUVdeWBQJSCIR-l3svOLsUmTU931SpabL5ovqPVjhrQmpW1SZUm
 
-!procedure WineGlass($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/WineGlass', $name, $tech)
+!procedure WineGlass($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/WineGlass', $name, $tech, $desc)
 !endprocedure

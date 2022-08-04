@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Ethereum')
 
 ' renders the element
-Ethereum('Ethereum', 'Ethereum', 'an optional tech label')
+Ethereum('Ethereum', 'Ethereum', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Ethereum')
 
 ' renders the element
-Ethereum('Ethereum', 'Ethereum', 'an optional tech label')
+Ethereum('Ethereum', 'Ethereum', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

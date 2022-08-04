@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Clover')
 
 ' renders the element
-Clover('Clover', 'Clover', 'an optional tech label')
+Clover('Clover', 'Clover', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Clover')
 
 ' renders the element
-Clover('Clover', 'Clover', 'an optional tech label')
+Clover('Clover', 'Clover', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

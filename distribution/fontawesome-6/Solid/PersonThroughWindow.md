@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PersonThroughWindow')
 
 ' renders the element
-PersonThroughWindow('PersonThroughWindow', 'Person Through Window', 'an optional tech label')
+PersonThroughWindow('PersonThroughWindow', 'Person Through Window', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PersonThroughWindow')
 
 ' renders the element
-PersonThroughWindow('PersonThroughWindow', 'Person Through Window', 'an optional tech label')
+PersonThroughWindow('PersonThroughWindow', 'Person Through Window', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

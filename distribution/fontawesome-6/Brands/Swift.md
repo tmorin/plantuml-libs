@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Swift')
 
 ' renders the element
-Swift('Swift', 'Swift', 'an optional tech label')
+Swift('Swift', 'Swift', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Swift')
 
 ' renders the element
-Swift('Swift', 'Swift', 'an optional tech label')
+Swift('Swift', 'Swift', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

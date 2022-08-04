@@ -6,8 +6,8 @@ sprite $TabletButtonSm [10x12/16z] O-3XXm1s88EMW054iC6v
 
 sprite $TabletButtonMd [14x16/16z] Os3ZHm0WPoW15WPa7ZUKXoB83m
 
-sprite $TabletButtonLg [17x20/16z] Os3cuqS2F0nC_6W0A3_o01y38we0BmC3bCKD4u59CQ3fvG8
+sprite $TabletButtonLg [17x20/16z] Os3cuqS2F0nC_6W0A3_o01y30we03ro06qhpmgGOqFHo0G
 
-!procedure TabletButton($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TabletButton', $name, $tech)
+!procedure TabletButton($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TabletButton', $name, $tech, $desc)
 !endprocedure

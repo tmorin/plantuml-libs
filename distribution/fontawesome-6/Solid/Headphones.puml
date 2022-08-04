@@ -2,15 +2,15 @@
 
 sprite $HeadphonesXs [10x10/16z] JSO54W0W20NHFqpPU__JshKAFFtHSnFMLwH3C-D8P6yJWTuKdzALA5iD
 
-sprite $HeadphonesSm [12x12/16z] NOg50GCn30CLvjp-qxRFT05Re0yLYDiMw4PkOYI7DlmoLxrHCEY4CSUvhhXjRTlkjxt3VEpkqL7esXdc3m
+sprite $HeadphonesSm [12x12/16z] NOh50GCn0CCKvdZ_QTjZqiiWFbH9SKj1tM2d02isd40S99ahep776LVC5jkMxPQxD1_PFHn2PsVm1m
 
-sprite $HeadphonesMd [16x16/16z] ROw55S0W44DJnuxilsqVhXyz3xRSJinPBSV4Yy11gkoMy92rYWuGelBoH4YkU3v4e2O8vQkc60RAv605xgfZjVrawyb6E9cFGU21od7W1m
+sprite $HeadphonesMd [16x16/16z] ROw50O0m40E3swUt_xIumrNVer_AS9-TLh1HR-Rn2RoPHrv1IERMXamqkaXKw4Q5yPNWdeLZycP1VjFnjjFBxbwsbhFJGEZ51
 
 sprite $HeadphonesLg [20x20/16z] {
-bSzLWa8n04FHrBrt_wkT0PxXSkhvQlI6Yp4ONMELjIb0JJ5tm2tH0Aj5Wx2SKpiFvhBhYWLfudIj4GMwOHY9e5imADYhf4uMvkgh6wzD_oMRJxB-91E0lMe1
-KnxcTGlGC_y
+bP05WeD03033ki__NtlN5dSOM8idSa6djUfM4WR298b0iZeKOB2jeAGdW-tF9XFwPwbW5WtFnZfTnWZ86gh7RcLK8afcKgD7LgNsp8RbZQmToCg1JEY7CG-1
+9WRQUf9on3y
 }
 
-!procedure Headphones($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Headphones', $name, $tech)
+!procedure Headphones($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Headphones', $name, $tech, $desc)
 !endprocedure

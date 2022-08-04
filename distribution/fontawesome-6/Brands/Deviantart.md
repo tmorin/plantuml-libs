@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Deviantart')
 
 ' renders the element
-Deviantart('Deviantart', 'Deviantart', 'an optional tech label')
+Deviantart('Deviantart', 'Deviantart', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Deviantart')
 
 ' renders the element
-Deviantart('Deviantart', 'Deviantart', 'an optional tech label')
+Deviantart('Deviantart', 'Deviantart', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

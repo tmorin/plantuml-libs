@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TreeCity')
 
 ' renders the element
-TreeCity('TreeCity', 'Tree City', 'an optional tech label')
+TreeCity('TreeCity', 'Tree City', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TreeCity')
 
 ' renders the element
-TreeCity('TreeCity', 'Tree City', 'an optional tech label')
+TreeCity('TreeCity', 'Tree City', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

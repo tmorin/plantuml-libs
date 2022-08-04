@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/G')
 
 ' renders the element
-G('G', 'G', 'an optional tech label')
+G('G', 'G', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/G')
 
 ' renders the element
-G('G', 'G', 'an optional tech label')
+G('G', 'G', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

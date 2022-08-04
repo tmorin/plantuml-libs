@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/AustralSign')
 
 ' renders the element
-AustralSign('AustralSign', 'Austral Sign', 'an optional tech label')
+AustralSign('AustralSign', 'Austral Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/AustralSign')
 
 ' renders the element
-AustralSign('AustralSign', 'Austral Sign', 'an optional tech label')
+AustralSign('AustralSign', 'Austral Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

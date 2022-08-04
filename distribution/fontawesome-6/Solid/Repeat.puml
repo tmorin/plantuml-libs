@@ -2,15 +2,15 @@
 
 sprite $RepeatXs [10x10/16z] NS710K0050MW082t_xJWtvJIeMJZI24WdF6teeG-i8SKJ05k
 
-sprite $RepeatSm [12x12/16z] HSt70O1G40BHCMUd_shDVjvr5-0ZeLpyWGxjHQ4r_qh4JWZCSbk4JPUBZkblCdav0G
+sprite $RepeatSm [12x12/16z] HSt70O1G40BHCMUd_shDVjvr5-0ZeLpyWNRrHQ4r_qh4JWZCSbk4JPUBZkclCdav0G
 
-sprite $RepeatMd [16x16/16z] VSw50SCm34JH2vl__jksvcAU6IKDczMRI52nkf01AIyJqrgMrvubE2I1gi1M-alDKbylkf4-Sr3c-vgoXbM5o-i52Fuf0Faoqr8JuLYpHVtPgku1
+sprite $RepeatMd [16x16/16z] VSx50SK02C3GV9TIil-qTRU7ts3o-B5I6dHk_sYfIIETzUVhtafz04ell7VzpL9wuq9kVw1LCD2fj_xQdKRH2BkpS4OhzCxINoOr
 
 sprite $RepeatLg [20x20/16z] {
-XO-50SGm2029Usx_QMlqNNfH7EIPwUG3I5zqDFs5oHDbLmrUg9kg0CahfqfWFkNB-vF0t7KzQaiWxrI6N5FhXyfyIURXVFjTDrJddthiscDYenri6dNZ1Msj
-75-bEb6IvdiblWwp0W
+XSw54SKm30DGXpdQVzgIFfJpZdncsUj6BW1taqDXP3jsaYmQ3lAIIW2S9Z0bGD_jYx88WFnKpvUOEyXeCfQpNDmiqs3EeFvoZJcx-x7oHuT5sLGik7IFhwKj
+fAo40lSTMJJPcG4
 }
 
-!procedure Repeat($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Repeat', $name, $tech)
+!procedure Repeat($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Repeat', $name, $tech, $desc)
 !endprocedure

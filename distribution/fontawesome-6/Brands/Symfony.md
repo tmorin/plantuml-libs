@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Symfony')
 
 ' renders the element
-Symfony('Symfony', 'Symfony', 'an optional tech label')
+Symfony('Symfony', 'Symfony', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Symfony')
 
 ' renders the element
-Symfony('Symfony', 'Symfony', 'an optional tech label')
+Symfony('Symfony', 'Symfony', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

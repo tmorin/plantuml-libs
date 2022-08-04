@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Ring')
 
 ' renders the element
-Ring('Ring', 'Ring', 'an optional tech label')
+Ring('Ring', 'Ring', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Ring')
 
 ' renders the element
-Ring('Ring', 'Ring', 'an optional tech label')
+Ring('Ring', 'Ring', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

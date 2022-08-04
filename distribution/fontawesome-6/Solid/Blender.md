@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Blender')
 
 ' renders the element
-Blender('Blender', 'Blender', 'an optional tech label')
+Blender('Blender', 'Blender', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Blender')
 
 ' renders the element
-Blender('Blender', 'Blender', 'an optional tech label')
+Blender('Blender', 'Blender', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

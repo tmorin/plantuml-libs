@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/FonticonsFi')
 
 ' renders the element
-FonticonsFi('FonticonsFi', 'Fonticons Fi', 'an optional tech label')
+FonticonsFi('FonticonsFi', 'Fonticons Fi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/FonticonsFi')
 
 ' renders the element
-FonticonsFi('FonticonsFi', 'Fonticons Fi', 'an optional tech label')
+FonticonsFi('FonticonsFi', 'Fonticons Fi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

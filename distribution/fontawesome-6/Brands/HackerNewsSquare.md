@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/HackerNewsSquare')
 
 ' renders the element
-HackerNewsSquare('HackerNewsSquare', 'Hacker News Square', 'an optional tech label')
+HackerNewsSquare('HackerNewsSquare', 'Hacker News Square', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/HackerNewsSquare')
 
 ' renders the element
-HackerNewsSquare('HackerNewsSquare', 'Hacker News Square', 'an optional tech label')
+HackerNewsSquare('HackerNewsSquare', 'Hacker News Square', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

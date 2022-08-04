@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Ribbon')
 
 ' renders the element
-Ribbon('Ribbon', 'Ribbon', 'an optional tech label')
+Ribbon('Ribbon', 'Ribbon', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Ribbon')
 
 ' renders the element
-Ribbon('Ribbon', 'Ribbon', 'an optional tech label')
+Ribbon('Ribbon', 'Ribbon', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

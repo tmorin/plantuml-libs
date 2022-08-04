@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HouseLock')
 
 ' renders the element
-HouseLock('HouseLock', 'House Lock', 'an optional tech label')
+HouseLock('HouseLock', 'House Lock', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HouseLock')
 
 ' renders the element
-HouseLock('HouseLock', 'House Lock', 'an optional tech label')
+HouseLock('HouseLock', 'House Lock', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

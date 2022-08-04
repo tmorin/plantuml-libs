@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HouseCircleExclamation')
 
 ' renders the element
-HouseCircleExclamation('HouseCircleExclamation', 'House Circle Exclamation', 'an optional tech label')
+HouseCircleExclamation('HouseCircleExclamation', 'House Circle Exclamation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HouseCircleExclamation')
 
 ' renders the element
-HouseCircleExclamation('HouseCircleExclamation', 'House Circle Exclamation', 'an optional tech label')
+HouseCircleExclamation('HouseCircleExclamation', 'House Circle Exclamation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

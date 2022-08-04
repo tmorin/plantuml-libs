@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HourglassEmpty')
 
 ' renders the element
-HourglassEmpty('HourglassEmpty', 'Hourglass Empty', 'an optional tech label')
+HourglassEmpty('HourglassEmpty', 'Hourglass Empty', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HourglassEmpty')
 
 ' renders the element
-HourglassEmpty('HourglassEmpty', 'Hourglass Empty', 'an optional tech label')
+HourglassEmpty('HourglassEmpty', 'Hourglass Empty', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

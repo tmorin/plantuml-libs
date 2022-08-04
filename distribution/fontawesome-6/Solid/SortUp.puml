@@ -2,12 +2,12 @@
 
 sprite $SortUpXs [6x10/16z] Ou01VZ31pmyaG80JJ3BW1G
 
-sprite $SortUpSm [7x12/16z] Ou03FZOGoStFpyp0mC4F14miG094yu410z4
+sprite $SortUpSm [7x12/16z] Ou03FZOGoStFpyp0mC4F18nC_630n0S634G3
 
-sprite $SortUpMd [9x16/16z] Oq0674mGcfsVdn54C_C30P1c0b9W5Zy4yF412OWG8nGmK0a
+sprite $SortUpMd [9x16/16z] Oq0678mGcfsV7qmpy_E3MOn02ipYXm0-FY014Q8s
 
-sprite $SortUpLg [12x20/16z] pSP50S0m04MnF-Oz_se7PJ3GdABA50kdxmriiR3-lR1cwSGRTwADI0ru0G
+sprite $SortUpLg [12x20/16z] pSP50S0m04MnF-Oz_se7PJ3GdA9A7mkdxmriiR3-lR1cwSJhTwADI0ru0G
 
-!procedure SortUp($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/SortUp', $name, $tech)
+!procedure SortUp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/SortUp', $name, $tech, $desc)
 !endprocedure

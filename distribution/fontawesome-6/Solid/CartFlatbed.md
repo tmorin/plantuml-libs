@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CartFlatbed')
 
 ' renders the element
-CartFlatbed('CartFlatbed', 'Cart Flatbed', 'an optional tech label')
+CartFlatbed('CartFlatbed', 'Cart Flatbed', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CartFlatbed')
 
 ' renders the element
-CartFlatbed('CartFlatbed', 'Cart Flatbed', 'an optional tech label')
+CartFlatbed('CartFlatbed', 'Cart Flatbed', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

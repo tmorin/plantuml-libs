@@ -2,12 +2,12 @@
 
 sprite $OutdentXs [10x10/16z] Oq00VXXWG0LiG02IveAe099SK1c4608miq40ada
 
-sprite $OutdentSm [12x12/16z] Oq06_730pi310mEC3AY03wgG7KG3kI302192KiAFKCF0mS20nHm-9BlO-M204G
+sprite $OutdentSm [12x12/16z] Oq06_730pi310mEC3AY03wgG7KG3kK004K9ImezGmy36m83573uakzZvO801
 
-sprite $OutdentMd [16x16/16z] TSu30WGW40NGdrttF-qYysNEO4VYn0C-pGZ09XGtYe3upE4d98Omtlzw1f0iB_Dwy7dTumDYULyzunC_SPVyoGnV
+sprite $OutdentMd [16x16/16z] TSw50OD0343Ht-8GsNzQN4xVkIQGie20U0Zu1twKz82S5dRglxrTWBqFdtcoHixr4t_NXkyVzVWIM4ZpJsq
 
-sprite $OutdentLg [20x20/16z] dT230GGn443H7plJVxLdhFLYWqNEZsbmCWLQ9ZgdA03_mKkG1CCpe8fag8C-zImo8tcXZ_ZkKuDtl6wTfsT03r2klCFuCGx-bR3a3W
+sprite $OutdentLg [20x20/16z] dT235KGn443H5plJVxLhVEiU1aCMQJEcGCiKA9dedES_U0cIO5W3gaY6EhoJXyn8NhWZVku6SxowpjCQq0EKAtCOFyR1NGbBxW
 
-!procedure Outdent($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Outdent', $name, $tech)
+!procedure Outdent($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Outdent', $name, $tech, $desc)
 !endprocedure

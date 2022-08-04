@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Regular/File
 
-sprite $FileXs [7x10/16z] O-070WO6FWO61av-1duG1H80qJnWYe4D7yNDomK4_
+sprite $FileXs [7x10/16z] VOK50G0W0CE6E--V5Wl0PKCdC84ezAGhId_2_TH6FT46
 
-sprite $FileSm [9x12/16z] dSP70G0X00InlKfd_AkbOu2yeaZpI35RQnr6E4aNc1rQXiFyB1K
+sprite $FileSm [9x12/16z] O-3X1m9c1WOUFdPsTWv-TWOW0W9-VdOOWn_800Co6MpyK
 
-sprite $FileMd [12x16/16z] jSP50S0m0C30Z7dnhtPOCj1x7QEV3c9r0kLrw5JSANptmwVhkdIW-Z6x0G
+sprite $FileMd [12x16/16z] jSP50S0m0C30Z7dnhtPGLD1x7RF10A710ihlqeLwb_JJWA3hkl2a-R5w0G
 
-sprite $FileLg [15x20/16z] pSV70O0m54CnqxlV_jFIIV8tG3UfDez6fvfaE6igtSwF4YYLCVHyBAcQfibta-MdNV2SW4nXEW
+sprite $FileLg [15x20/16z] pSV70O0m54CnqxlV_jFIIV8tG3UfDez6fvfaE6igtSwF4YYLCVHyBAcQfibta_cdNV2SW4nXEW
 
-!procedure File($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Regular/File', $name, $tech)
+!procedure File($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/File', $name, $tech, $desc)
 !endprocedure

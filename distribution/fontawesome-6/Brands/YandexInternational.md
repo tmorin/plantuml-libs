@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/YandexInternational')
 
 ' renders the element
-YandexInternational('YandexInternational', 'Yandex International', 'an optional tech label')
+YandexInternational('YandexInternational', 'Yandex International', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/YandexInternational')
 
 ' renders the element
-YandexInternational('YandexInternational', 'Yandex International', 'an optional tech label')
+YandexInternational('YandexInternational', 'Yandex International', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

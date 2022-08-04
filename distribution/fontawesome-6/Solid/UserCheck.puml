@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/UserCheck
 
-sprite $UserCheckXs [12x10/16z] NOa50W0X20I9wvh_l_RATXJOa1TK8WRiKVFHQu8PPJglJH9Sxt9WZJvGwolAL3m
+sprite $UserCheckXs [12x10/16z] NOg50O1030DJt6__QO5tkNeJ_M2A67367KU_4uvPo_qSIl3yRGJsoWxr_iGr2Hy
 
-sprite $UserCheckSm [15x12/16z] LOm50W1120Avxfl_ltQxd4qLK61YL-SZqCjOzVcIoZVzZpfTKqMwu9TcLZImvshUZsDHOO8ncaenc1fRUW
+sprite $UserCheckSm [15x12/16z] LOp50G0X40C3vvh-gyLPcLyKXS0ToiU2ogeq3qs-g1mpZLNjh5PHFn2v5gNiG-t7iRXZlUPa39ocbna
 
-sprite $UserCheckMd [20x16/16z] ZO_L0G0X242nM_QVrYxkwvv90mm2Qg0Ox10L6oggT4l77brOEh7bTZIDpUCpLR7_12Jai9LfVX9A-82aKKh4YNdTD_bLRJmTx6qn_THL
+sprite $UserCheckMd [20x16/16z] ZSw53GL1409GrdtflzelHupelTXa78_52jVu1yC_JmxBoQ84o0AGlUy-WLBx7qMSfr_9e-0m0uxsgDkKvX_BzPHCfG95b3ilSry
 
 sprite $UserCheckLg [25x20/16z] {
-XO-50S0W30GJwhx_jDWNjwlmn4DWUTwLIgRFCXUExuSfvNIEkqXmZ1tYh3iOSdRspKouw9-HXWVsr-XNsxxl870O-uaga2dEyr0LthnoFGGbm0mNLzTBTx-_
-XBT8S0Y_GSRb4Wf66Ge
+XOz50W0X24N1wPBxdzPYx7eRuDF0R9_SeGR9iLG9-YdrsoVUgi4pJ-3TIR2xUlsmjSBf6rW-rgNrfKaJNS1SLh_PzsuDqGTjTk-Wto4WWsLEOVLU_VkR9sJL
+u17nWvp7DrJCEZG
 }
 
-!procedure UserCheck($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/UserCheck', $name, $tech)
+!procedure UserCheck($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/UserCheck', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PersonCircleXmark')
 
 ' renders the element
-PersonCircleXmark('PersonCircleXmark', 'Person Circle Xmark', 'an optional tech label')
+PersonCircleXmark('PersonCircleXmark', 'Person Circle Xmark', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PersonCircleXmark')
 
 ' renders the element
-PersonCircleXmark('PersonCircleXmark', 'Person Circle Xmark', 'an optional tech label')
+PersonCircleXmark('PersonCircleXmark', 'Person Circle Xmark', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

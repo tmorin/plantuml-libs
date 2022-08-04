@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PaintRoller')
 
 ' renders the element
-PaintRoller('PaintRoller', 'Paint Roller', 'an optional tech label')
+PaintRoller('PaintRoller', 'Paint Roller', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PaintRoller')
 
 ' renders the element
-PaintRoller('PaintRoller', 'Paint Roller', 'an optional tech label')
+PaintRoller('PaintRoller', 'Paint Roller', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

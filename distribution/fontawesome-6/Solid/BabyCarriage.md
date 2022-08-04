@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BabyCarriage')
 
 ' renders the element
-BabyCarriage('BabyCarriage', 'Baby Carriage', 'an optional tech label')
+BabyCarriage('BabyCarriage', 'Baby Carriage', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BabyCarriage')
 
 ' renders the element
-BabyCarriage('BabyCarriage', 'Baby Carriage', 'an optional tech label')
+BabyCarriage('BabyCarriage', 'Baby Carriage', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

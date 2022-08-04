@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UsersViewfinder')
 
 ' renders the element
-UsersViewfinder('UsersViewfinder', 'Users Viewfinder', 'an optional tech label')
+UsersViewfinder('UsersViewfinder', 'Users Viewfinder', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UsersViewfinder')
 
 ' renders the element
-UsersViewfinder('UsersViewfinder', 'Users Viewfinder', 'an optional tech label')
+UsersViewfinder('UsersViewfinder', 'Users Viewfinder', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

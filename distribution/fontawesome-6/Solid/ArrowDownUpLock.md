@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowDownUpLock')
 
 ' renders the element
-ArrowDownUpLock('ArrowDownUpLock', 'Arrow Down Up Lock', 'an optional tech label')
+ArrowDownUpLock('ArrowDownUpLock', 'Arrow Down Up Lock', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowDownUpLock')
 
 ' renders the element
-ArrowDownUpLock('ArrowDownUpLock', 'Arrow Down Up Lock', 'an optional tech label')
+ArrowDownUpLock('ArrowDownUpLock', 'Arrow Down Up Lock', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

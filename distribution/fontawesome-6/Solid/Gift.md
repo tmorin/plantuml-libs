@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Gift')
 
 ' renders the element
-Gift('Gift', 'Gift', 'an optional tech label')
+Gift('Gift', 'Gift', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Gift')
 
 ' renders the element
-Gift('Gift', 'Gift', 'an optional tech label')
+Gift('Gift', 'Gift', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

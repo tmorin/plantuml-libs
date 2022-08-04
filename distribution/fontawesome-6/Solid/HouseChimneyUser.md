@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HouseChimneyUser')
 
 ' renders the element
-HouseChimneyUser('HouseChimneyUser', 'House Chimney User', 'an optional tech label')
+HouseChimneyUser('HouseChimneyUser', 'House Chimney User', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HouseChimneyUser')
 
 ' renders the element
-HouseChimneyUser('HouseChimneyUser', 'House Chimney User', 'an optional tech label')
+HouseChimneyUser('HouseChimneyUser', 'House Chimney User', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

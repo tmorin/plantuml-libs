@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/GreaterThanEqual')
 
 ' renders the element
-GreaterThanEqual('GreaterThanEqual', 'Greater Than Equal', 'an optional tech label')
+GreaterThanEqual('GreaterThanEqual', 'Greater Than Equal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/GreaterThanEqual')
 
 ' renders the element
-GreaterThanEqual('GreaterThanEqual', 'Greater Than Equal', 'an optional tech label')
+GreaterThanEqual('GreaterThanEqual', 'Greater Than Equal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

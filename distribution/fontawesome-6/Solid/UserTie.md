@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UserTie')
 
 ' renders the element
-UserTie('UserTie', 'User Tie', 'an optional tech label')
+UserTie('UserTie', 'User Tie', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UserTie')
 
 ' renders the element
-UserTie('UserTie', 'User Tie', 'an optional tech label')
+UserTie('UserTie', 'User Tie', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

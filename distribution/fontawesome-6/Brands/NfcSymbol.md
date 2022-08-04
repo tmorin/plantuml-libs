@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/NfcSymbol')
 
 ' renders the element
-NfcSymbol('NfcSymbol', 'Nfc Symbol', 'an optional tech label')
+NfcSymbol('NfcSymbol', 'Nfc Symbol', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/NfcSymbol')
 
 ' renders the element
-NfcSymbol('NfcSymbol', 'Nfc Symbol', 'an optional tech label')
+NfcSymbol('NfcSymbol', 'Nfc Symbol', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

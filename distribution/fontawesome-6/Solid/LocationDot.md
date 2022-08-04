@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/LocationDot')
 
 ' renders the element
-LocationDot('LocationDot', 'Location Dot', 'an optional tech label')
+LocationDot('LocationDot', 'Location Dot', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/LocationDot')
 
 ' renders the element
-LocationDot('LocationDot', 'Location Dot', 'an optional tech label')
+LocationDot('LocationDot', 'Location Dot', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

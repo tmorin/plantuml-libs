@@ -2,12 +2,12 @@
 
 sprite $ScrewdriverXs [10x10/16z] Oy00_Fnm1Z-w49JcPEL4Ky8FO_5YqGK
 
-sprite $ScrewdriverSm [12x12/16z] NKor0G0W0B9R-VzQkvbeia4FzS2YmCqtjO2Or6qp4Rie_eTDqw1XqOQB5W
+sprite $ScrewdriverSm [12x12/16z] Ou03HWIJcvyVnkJdHx2Hc9py_4nG9XTSa8-14wuKpGG4am_2v04peG292G
 
-sprite $ScrewdriverMd [16x16/16z] VSlL0O1G34FHu4xsdnQ7yAIzVwU2e2PGIJO_zZmIbvDDw5d4GGQioe25C4qOdC_GbCNkvHeIY8WYv0u
+sprite $ScrewdriverMd [16x16/16z] VSi54e1034FHBEwv_sbnoAoqV_HL4DL62cGBDV1CN2_MiHSedaMi4348yupH-OnDMUm_RX7FOfx5F
 
-sprite $ScrewdriverLg [20x20/16z] XSxL0SC0409GshYo_xHnEuZm-KwXAM1fIINEYNCBjTv5kFtSujs4xBfMktB4_9MgFaCLgIVPuEijkl4qfUIaxcOojwxvjQrBCOao0W
+sprite $ScrewdriverLg [20x20/16z] XSu53iG024HHbgtRl_zfwuOadVX3nQUMa04y0GxBdOROHJOPpTvL6CV1TrLkxkUfdKffBKr0Brzl4GrZXlIXCPciVDUMzkpog5OM
 
-!procedure Screwdriver($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Screwdriver', $name, $tech)
+!procedure Screwdriver($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Screwdriver', $name, $tech, $desc)
 !endprocedure

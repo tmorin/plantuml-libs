@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Fire')
 
 ' renders the element
-Fire('Fire', 'Fire', 'an optional tech label')
+Fire('Fire', 'Fire', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Fire')
 
 ' renders the element
-Fire('Fire', 'Fire', 'an optional tech label')
+Fire('Fire', 'Fire', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Linkedin')
 
 ' renders the element
-Linkedin('Linkedin', 'Linkedin', 'an optional tech label')
+Linkedin('Linkedin', 'Linkedin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Linkedin')
 
 ' renders the element
-Linkedin('Linkedin', 'Linkedin', 'an optional tech label')
+Linkedin('Linkedin', 'Linkedin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

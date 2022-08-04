@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Sitrox')
 
 ' renders the element
-Sitrox('Sitrox', 'Sitrox', 'an optional tech label')
+Sitrox('Sitrox', 'Sitrox', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Sitrox')
 
 ' renders the element
-Sitrox('Sitrox', 'Sitrox', 'an optional tech label')
+Sitrox('Sitrox', 'Sitrox', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

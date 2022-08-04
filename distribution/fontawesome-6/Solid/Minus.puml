@@ -4,10 +4,10 @@ sprite $MinusXs [8x10/16z] Oo0My4C08MK
 
 sprite $MinusSm [10x12/16z] Oo0TC4810mC_391k2
 
-sprite $MinusMd [14x16/16z] Ow0zuE5301O6VcJ0mC2803In7
+sprite $MinusMd [14x16/16z] Ow0zuE9306O6VcJ0mC2803In7
 
-sprite $MinusLg [17x20/16z] OnYqW8SV1R0oyAC2RWOMJcJ0CMXS3W
+sprite $MinusLg [17x20/16z] OnYqW8SV1R0myAC2RWOcJcJ0CMXS3W
 
-!procedure Minus($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Minus', $name, $tech)
+!procedure Minus($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Minus', $name, $tech, $desc)
 !endprocedure

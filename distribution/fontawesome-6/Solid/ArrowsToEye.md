@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowsToEye')
 
 ' renders the element
-ArrowsToEye('ArrowsToEye', 'Arrows To Eye', 'an optional tech label')
+ArrowsToEye('ArrowsToEye', 'Arrows To Eye', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowsToEye')
 
 ' renders the element
-ArrowsToEye('ArrowsToEye', 'Arrows To Eye', 'an optional tech label')
+ArrowsToEye('ArrowsToEye', 'Arrows To Eye', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

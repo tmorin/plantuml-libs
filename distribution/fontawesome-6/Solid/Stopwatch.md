@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Stopwatch')
 
 ' renders the element
-Stopwatch('Stopwatch', 'Stopwatch', 'an optional tech label')
+Stopwatch('Stopwatch', 'Stopwatch', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Stopwatch')
 
 ' renders the element
-Stopwatch('Stopwatch', 'Stopwatch', 'an optional tech label')
+Stopwatch('Stopwatch', 'Stopwatch', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

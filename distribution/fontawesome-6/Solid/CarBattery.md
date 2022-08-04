@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CarBattery')
 
 ' renders the element
-CarBattery('CarBattery', 'Car Battery', 'an optional tech label')
+CarBattery('CarBattery', 'Car Battery', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CarBattery')
 
 ' renders the element
-CarBattery('CarBattery', 'Car Battery', 'an optional tech label')
+CarBattery('CarBattery', 'Car Battery', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

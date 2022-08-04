@@ -2,12 +2,12 @@
 
 sprite $PrintXs [10x10/16z] Os3W1mC68E27Cu4OId82CPZaHmTCI6nki2wG8eHUX7a
 
-sprite $PrintSm [12x12/16z] RSp50S0m0810wbxsdxQkIUx52vWzr6oyD7kNx2RV7kN750nCuqwbV3xb_-cD5G
+sprite $PrintSm [12x12/16z] RSp50S0m0810wbxsdxQkIUx52vWzr6oyD7ldx2RV7kN750nCuqubVpxv_-cD5G
 
-sprite $PrintMd [16x16/16z] VSw35G0n40JGYRtJVxLd8_yXM0AAEuzPuo6iRsyMZjJBss9LFz_QOBNUGhkeohC3YJTH-3J_1BDg966lyxtvsgzjkBmBJneZ
+sprite $PrintMd [16x16/16z] VSw35G0n40JGYRtJVxLd8_yXM0BWpcFMU0Zhs-c59TUtngf-lfN2QhsvTb6LPmSIRwBmQVvnUjL8Gb_dM_MrNzjmUHUUW14
 
-sprite $PrintLg [20x20/16z] ZS-r0G0n049HuXxsd_RSDQ_y5G08t5dCUEGV6jtID5PakRNC-jf2a5Yvu34GyWm0RtpaFmdUECbcYJnl7a3fomyjNlyQkThQqMDBG0y
+sprite $PrintLg [20x20/16z] ZS_50K0X30FGu4xsd_QxA-zOBu30dSMCH_uXHhV495PakSKowsii186L2_CISGQ0DpxodmHld62pH9vl7a38on_o_LyjLdliu36MW1u
 
-!procedure Print($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Print', $name, $tech)
+!procedure Print($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Print', $name, $tech, $desc)
 !endprocedure

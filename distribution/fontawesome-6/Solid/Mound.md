@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Mound')
 
 ' renders the element
-Mound('Mound', 'Mound', 'an optional tech label')
+Mound('Mound', 'Mound', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Mound')
 
 ' renders the element
-Mound('Mound', 'Mound', 'an optional tech label')
+Mound('Mound', 'Mound', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

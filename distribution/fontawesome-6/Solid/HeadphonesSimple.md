@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HeadphonesSimple')
 
 ' renders the element
-HeadphonesSimple('HeadphonesSimple', 'Headphones Simple', 'an optional tech label')
+HeadphonesSimple('HeadphonesSimple', 'Headphones Simple', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HeadphonesSimple')
 
 ' renders the element
-HeadphonesSimple('HeadphonesSimple', 'Headphones Simple', 'an optional tech label')
+HeadphonesSimple('HeadphonesSimple', 'Headphones Simple', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

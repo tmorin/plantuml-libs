@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/BloggerB')
 
 ' renders the element
-BloggerB('BloggerB', 'Blogger B', 'an optional tech label')
+BloggerB('BloggerB', 'Blogger B', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/BloggerB')
 
 ' renders the element
-BloggerB('BloggerB', 'Blogger B', 'an optional tech label')
+BloggerB('BloggerB', 'Blogger B', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

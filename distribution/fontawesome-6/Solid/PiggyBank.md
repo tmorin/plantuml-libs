@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PiggyBank')
 
 ' renders the element
-PiggyBank('PiggyBank', 'Piggy Bank', 'an optional tech label')
+PiggyBank('PiggyBank', 'Piggy Bank', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PiggyBank')
 
 ' renders the element
-PiggyBank('PiggyBank', 'Piggy Bank', 'an optional tech label')
+PiggyBank('PiggyBank', 'Piggy Bank', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

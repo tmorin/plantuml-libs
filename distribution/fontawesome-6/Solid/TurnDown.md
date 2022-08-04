@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TurnDown')
 
 ' renders the element
-TurnDown('TurnDown', 'Turn Down', 'an optional tech label')
+TurnDown('TurnDown', 'Turn Down', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TurnDown')
 
 ' renders the element
-TurnDown('TurnDown', 'Turn Down', 'an optional tech label')
+TurnDown('TurnDown', 'Turn Down', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

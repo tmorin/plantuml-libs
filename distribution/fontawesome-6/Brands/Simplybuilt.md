@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Simplybuilt')
 
 ' renders the element
-Simplybuilt('Simplybuilt', 'Simplybuilt', 'an optional tech label')
+Simplybuilt('Simplybuilt', 'Simplybuilt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Simplybuilt')
 
 ' renders the element
-Simplybuilt('Simplybuilt', 'Simplybuilt', 'an optional tech label')
+Simplybuilt('Simplybuilt', 'Simplybuilt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

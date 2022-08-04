@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ClockRotateLeft')
 
 ' renders the element
-ClockRotateLeft('ClockRotateLeft', 'Clock Rotate Left', 'an optional tech label')
+ClockRotateLeft('ClockRotateLeft', 'Clock Rotate Left', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ClockRotateLeft')
 
 ' renders the element
-ClockRotateLeft('ClockRotateLeft', 'Clock Rotate Left', 'an optional tech label')
+ClockRotateLeft('ClockRotateLeft', 'Clock Rotate Left', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

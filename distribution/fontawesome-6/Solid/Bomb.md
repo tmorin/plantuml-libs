@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Bomb')
 
 ' renders the element
-Bomb('Bomb', 'Bomb', 'an optional tech label')
+Bomb('Bomb', 'Bomb', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Bomb')
 
 ' renders the element
-Bomb('Bomb', 'Bomb', 'an optional tech label')
+Bomb('Bomb', 'Bomb', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

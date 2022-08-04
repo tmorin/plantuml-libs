@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Building')
 
 ' renders the element
-Building('Building', 'Building', 'an optional tech label')
+Building('Building', 'Building', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Building')
 
 ' renders the element
-Building('Building', 'Building', 'an optional tech label')
+Building('Building', 'Building', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,12 +2,12 @@
 
 sprite $EnvelopeXs [10x10/16z] Oy02-E40aydEni_Fnu3WCm0XCc16Q803
 
-sprite $EnvelopeSm [12x12/16z] Oy01sFaH09dDmW9dCl3pCi2OO88Ff9OHhew12wQIbvaV7J0Wiv4
+sprite $EnvelopeSm [12x12/16z] Oy01sFaH09dDp0HdCl3pCi2OO88Ff1OgnCB4py05KydBo8yE693PI
 
-sprite $EnvelopeMd [16x16/16z] XSkr0GCn0CNGRsPh_stJv9XUBUbBwtjnS9GuKcJFO0sheG9LOtarzu_MqWgcCgiieybUvvxXIB9xEli1
+sprite $EnvelopeMd [16x16/16z] XSkr0O000C2muax_lnPtpHx-LFLHsdYMUKRg4GQuQIYqe5alxV60Y_4qv6vo0bgFQf_X6Jzw
 
-sprite $EnvelopeLg [20x20/16z] fSw30GGn50JGYPtflzh3sdoBy0ClIAuKRd1SW-UII52SoP0aCCi5-n_i95uYir7xgmM2lIfGchXP5__u_y5C0XHlsWg0BGj9uA8l
+sprite $EnvelopeLg [20x20/16z] fSw35KHH303H-NwU_gjTsxY7SVX3vvsgznRl4UvJ-NPZeLUusiMiEZ5xr57SQU1E1OyQrDtSrHSpGQXUoT3vfS5xZFL6vbDh
 
-!procedure Envelope($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Envelope', $name, $tech)
+!procedure Envelope($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Envelope', $name, $tech, $desc)
 !endprocedure

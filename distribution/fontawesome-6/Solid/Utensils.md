@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Utensils')
 
 ' renders the element
-Utensils('Utensils', 'Utensils', 'an optional tech label')
+Utensils('Utensils', 'Utensils', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Utensils')
 
 ' renders the element
-Utensils('Utensils', 'Utensils', 'an optional tech label')
+Utensils('Utensils', 'Utensils', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

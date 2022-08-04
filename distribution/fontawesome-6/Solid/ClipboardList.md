@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ClipboardList')
 
 ' renders the element
-ClipboardList('ClipboardList', 'Clipboard List', 'an optional tech label')
+ClipboardList('ClipboardList', 'Clipboard List', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ClipboardList')
 
 ' renders the element
-ClipboardList('ClipboardList', 'Clipboard List', 'an optional tech label')
+ClipboardList('ClipboardList', 'Clipboard List', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

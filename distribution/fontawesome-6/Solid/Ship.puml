@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/Ship
 
-sprite $ShipXs [11x10/16z] HSZ50S1030F13NFKVxN7jkSZe7YbbKw5b-AfTQVuUrLHgymNDUu3cEODJbPkkGm
+sprite $ShipXs [11x10/16z] HSZ50S1030F13NFKVxN7jkSZe7YbbKw5b-AfTQNuMzrLr2hpHOtx0APvWvELMou3
 
-sprite $ShipSm [13x12/16z] JSt50O0m5C3Gu4xsdnQflqlxdPzwaNIgpJU7isEG0kY15Dogfy1jCM6rDwKDGZHlkeOp4tZ0BhUD5m
+sprite $ShipSm [13x12/16z] JSd50O100CJ0u4xwhnOvdzSAF_KYKoNe_AKwsWUfG0UaSgkU0hV5XDNUN2k4Dcow09q3UC0kjuqN
 
-sprite $ShipMd [17x16/16z] NOw54S0W40Glxcp_rQAVGHPzFsLEW4aL4fz-FaVclIrSsSsn5WukSwYmLiVymLCTbUJOwB1uPHqypz2ZAcCxm8Qij-PPzwPbKgfmmFUHRcUN0xju8
+sprite $ShipMd [17x16/16z] NOw54S0W40GlZc__tMPmXaNVJmK3e0KoKPsOA0ItX2jlSvoL1zCSgfpJSKJmYsEG7G-irFZ2lNdyrcDHThw0LUPoEWwvMuUKAn8G8_bExSfllV3m0m
 
 sprite $ShipLg [22x20/16z] {
-RS_L0S0W54FHu4xsdxOksAa0z-k1H-P9ewDuGqVFDR8bS6CdVTNhLssgnMkeqYSxLi-R_gfW9zzjKe306G1EqZrCB-32ZiEZN2UToFz2Ka160sZ0-tCvMoAp
-aJgIT5AvSq7aIYI3ltVc6gQOGku
+RSq50e0W38NXRRO2x_wtTNH-zYz1YG7KJXr1rDTjhYzQd2ewNwcNPAxKTk-XyltjGprlH7kfZ8v98qUMwC5iEJQixD2xA1XZOg4E-S8ZDMQILpzsellMHsWV
+O8Jb1N0ods6D5ojQdpk-YOEocmL-
 }
 
-!procedure Ship($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Ship', $name, $tech)
+!procedure Ship($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Ship', $name, $tech, $desc)
 !endprocedure

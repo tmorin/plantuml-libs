@@ -2,12 +2,12 @@
 
 sprite $UnlockKeyholeXs [8x10/16z] Os1WOEHd005-8606qKWOHE42G7bs18SRIWC
 
-sprite $UnlockKeyholeSm [10x12/16z] Om02Dduc1Z3W1m4GWmT8Ce5P_Bn0WWdE0ZC80OGQNcvK6JOu2m
+sprite $UnlockKeyholeSm [10x12/16z] Om02Dduc1Z3W1m4GWmT4Wbdyl4224Su2CmW1X1fURbGPDZWB
 
-sprite $UnlockKeyholeMd [14x16/16z] bSV50OGm00J0ZNks_shlWEWBcT_WakWm99vqYoEzocGRAG04sZRYfB2jSOKiJHQMdrIbz9e2K5TJodm2xlu
+sprite $UnlockKeyholeMd [14x16/16z] bSx50SGW441HtE7tN-qQUjea3zSPyPFnOifygRxmu5I1lkfZn1uh8S-ppbQeNP6EHvfIccwaqLXoBbmHdDu
 
-sprite $UnlockKeyholeLg [17x20/16z] hSp50GCW50FGu4xsdxQANweFvmkUV2qQa-U3HEFOYFP15W2Qp2EXdGKFkNr0uVXeH25b1u2x4FWl7aTxTtumfrJvfiG3k8jN
+sprite $UnlockKeyholeLg [17x20/16z] hSor0GCm40D0cTdQVzgWkGbUzIWy-Leq9iy7WSQnGKCM09BCU31aEonuoFrMu1XqXHGT0Ev2uBzu7F7k732dLFccn0EEFbu1
 
-!procedure UnlockKeyhole($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/UnlockKeyhole', $name, $tech)
+!procedure UnlockKeyhole($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/UnlockKeyhole', $name, $tech, $desc)
 !endprocedure

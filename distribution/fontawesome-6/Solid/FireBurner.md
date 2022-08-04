@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FireBurner')
 
 ' renders the element
-FireBurner('FireBurner', 'Fire Burner', 'an optional tech label')
+FireBurner('FireBurner', 'Fire Burner', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FireBurner')
 
 ' renders the element
-FireBurner('FireBurner', 'Fire Burner', 'an optional tech label')
+FireBurner('FireBurner', 'Fire Burner', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/HandSpock')
 
 ' renders the element
-HandSpock('HandSpock', 'Hand Spock', 'an optional tech label')
+HandSpock('HandSpock', 'Hand Spock', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/HandSpock')
 
 ' renders the element
-HandSpock('HandSpock', 'Hand Spock', 'an optional tech label')
+HandSpock('HandSpock', 'Hand Spock', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

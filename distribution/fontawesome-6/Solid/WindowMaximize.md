@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/WindowMaximize')
 
 ' renders the element
-WindowMaximize('WindowMaximize', 'Window Maximize', 'an optional tech label')
+WindowMaximize('WindowMaximize', 'Window Maximize', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/WindowMaximize')
 
 ' renders the element
-WindowMaximize('WindowMaximize', 'Window Maximize', 'an optional tech label')
+WindowMaximize('WindowMaximize', 'Window Maximize', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

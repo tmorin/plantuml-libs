@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Scissors')
 
 ' renders the element
-Scissors('Scissors', 'Scissors', 'an optional tech label')
+Scissors('Scissors', 'Scissors', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Scissors')
 
 ' renders the element
-Scissors('Scissors', 'Scissors', 'an optional tech label')
+Scissors('Scissors', 'Scissors', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

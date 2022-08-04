@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Icicles')
 
 ' renders the element
-Icicles('Icicles', 'Icicles', 'an optional tech label')
+Icicles('Icicles', 'Icicles', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Icicles')
 
 ' renders the element
-Icicles('Icicles', 'Icicles', 'an optional tech label')
+Icicles('Icicles', 'Icicles', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Campground')
 
 ' renders the element
-Campground('Campground', 'Campground', 'an optional tech label')
+Campground('Campground', 'Campground', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Campground')
 
 ' renders the element
-Campground('Campground', 'Campground', 'an optional tech label')
+Campground('Campground', 'Campground', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

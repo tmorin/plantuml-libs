@@ -2,15 +2,15 @@
 
 sprite $CloudBoltXs [10x10/16z] Os1Wu6LdW01-C42mE84C6E03ao0-Cn3pi85vRFoCG1AXXHTk48p11Y81
 
-sprite $CloudBoltSm [12x12/16z] NSo50OH00C2m0kVM_QTzLp90WDsTbw4kFG1y0JPV6dZMsDH3zKYYqfLfyZiT1q_7ePsNPOGNURW2
+sprite $CloudBoltSm [12x12/16z] LOk30S105CLIkzb_slAORpoWjIMmgwV_RA3irznQxphVD8hAfXmExoQecuQVfjEDm6bFnB_S
 
-sprite $CloudBoltMd [16x16/16z] LSp50S0m00906dVstxPnkI-2IfI4IsQblkJHIMve8ZSvwqlI01_PSxAAjqyupKgoWw6ohFfTGIB1IW6G4eMqa5807QkS0nOfO-yU93ySXiID6TCF
+sprite $CloudBoltMd [16x16/16z] LSU50SCm30NHCpGit_xRDWnF-5dbjl0IhYhBo2vvOpDxIwp2srB0ZnWzTSatqf1TbJDsbjuLeJOMnLK5SgPfjzx4mLN4n2MbMIqyL5wgycPm-WC
 
 sprite $CloudBoltLg [20x20/16z] {
-PT25TKCn04FHP_WCsd_R7ZM9yPePiFXee_V80ccDV9twyD35Xrg1kU_0ibhF4U3IA4LLRoaBOEYxoUAMfTArIiWyPAjldgDimUCAoEE-myDNyBOxdN9ZgfYI
-PxxCK-S_F1b8AuDTYU8F
+PT055e0m30FGp7sv_srvmM4VdRU5sC64hq41Z3CuLHuqr73Wcy7QLo2MRqETZN_cFMj-lmBWrzVXY4vnTrSaGRc6WYBtXkAXSHfGuufXuA9j8pvu6dWOOpHp
+Ofswrh3YHqVyP3hSDW
 }
 
-!procedure CloudBolt($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CloudBolt', $name, $tech)
+!procedure CloudBolt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CloudBolt', $name, $tech, $desc)
 !endprocedure

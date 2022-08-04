@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BookOpen')
 
 ' renders the element
-BookOpen('BookOpen', 'Book Open', 'an optional tech label')
+BookOpen('BookOpen', 'Book Open', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BookOpen')
 
 ' renders the element
-BookOpen('BookOpen', 'Book Open', 'an optional tech label')
+BookOpen('BookOpen', 'Book Open', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

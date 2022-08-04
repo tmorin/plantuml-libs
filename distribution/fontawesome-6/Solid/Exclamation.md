@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Exclamation')
 
 ' renders the element
-Exclamation('Exclamation', 'Exclamation', 'an optional tech label')
+Exclamation('Exclamation', 'Exclamation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Exclamation')
 
 ' renders the element
-Exclamation('Exclamation', 'Exclamation', 'an optional tech label')
+Exclamation('Exclamation', 'Exclamation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

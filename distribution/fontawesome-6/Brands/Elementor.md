@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Elementor')
 
 ' renders the element
-Elementor('Elementor', 'Elementor', 'an optional tech label')
+Elementor('Elementor', 'Elementor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Elementor')
 
 ' renders the element
-Elementor('Elementor', 'Elementor', 'an optional tech label')
+Elementor('Elementor', 'Elementor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

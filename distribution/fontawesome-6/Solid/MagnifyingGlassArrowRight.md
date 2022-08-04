@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MagnifyingGlassArrowRight')
 
 ' renders the element
-MagnifyingGlassArrowRight('MagnifyingGlassArrowRight', 'Magnifying Glass Arrow Right', 'an optional tech label')
+MagnifyingGlassArrowRight('MagnifyingGlassArrowRight', 'Magnifying Glass Arrow Right', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MagnifyingGlassArrowRight')
 
 ' renders the element
-MagnifyingGlassArrowRight('MagnifyingGlassArrowRight', 'Magnifying Glass Arrow Right', 'an optional tech label')
+MagnifyingGlassArrowRight('MagnifyingGlassArrowRight', 'Magnifying Glass Arrow Right', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

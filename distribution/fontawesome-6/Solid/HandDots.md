@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HandDots')
 
 ' renders the element
-HandDots('HandDots', 'Hand Dots', 'an optional tech label')
+HandDots('HandDots', 'Hand Dots', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HandDots')
 
 ' renders the element
-HandDots('HandDots', 'Hand Dots', 'an optional tech label')
+HandDots('HandDots', 'Hand Dots', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

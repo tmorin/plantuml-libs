@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Neos')
 
 ' renders the element
-Neos('Neos', 'Neos', 'an optional tech label')
+Neos('Neos', 'Neos', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Neos')
 
 ' renders the element
-Neos('Neos', 'Neos', 'an optional tech label')
+Neos('Neos', 'Neos', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

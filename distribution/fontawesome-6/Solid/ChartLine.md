@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ChartLine')
 
 ' renders the element
-ChartLine('ChartLine', 'Chart Line', 'an optional tech label')
+ChartLine('ChartLine', 'Chart Line', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ChartLine')
 
 ' renders the element
-ChartLine('ChartLine', 'Chart Line', 'an optional tech label')
+ChartLine('ChartLine', 'Chart Line', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

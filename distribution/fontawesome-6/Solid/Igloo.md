@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Igloo')
 
 ' renders the element
-Igloo('Igloo', 'Igloo', 'an optional tech label')
+Igloo('Igloo', 'Igloo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Igloo')
 
 ' renders the element
-Igloo('Igloo', 'Igloo', 'an optional tech label')
+Igloo('Igloo', 'Igloo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

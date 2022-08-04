@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Palfed')
 
 ' renders the element
-Palfed('Palfed', 'Palfed', 'an optional tech label')
+Palfed('Palfed', 'Palfed', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Palfed')
 
 ' renders the element
-Palfed('Palfed', 'Palfed', 'an optional tech label')
+Palfed('Palfed', 'Palfed', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

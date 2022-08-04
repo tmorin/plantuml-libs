@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ChessKing')
 
 ' renders the element
-ChessKing('ChessKing', 'Chess King', 'an optional tech label')
+ChessKing('ChessKing', 'Chess King', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ChessKing')
 
 ' renders the element
-ChessKing('ChessKing', 'Chess King', 'an optional tech label')
+ChessKing('ChessKing', 'Chess King', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

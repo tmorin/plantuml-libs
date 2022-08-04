@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PlaneCircleCheck')
 
 ' renders the element
-PlaneCircleCheck('PlaneCircleCheck', 'Plane Circle Check', 'an optional tech label')
+PlaneCircleCheck('PlaneCircleCheck', 'Plane Circle Check', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PlaneCircleCheck')
 
 ' renders the element
-PlaneCircleCheck('PlaneCircleCheck', 'Plane Circle Check', 'an optional tech label')
+PlaneCircleCheck('PlaneCircleCheck', 'Plane Circle Check', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

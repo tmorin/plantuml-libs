@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/Plug
 
-sprite $PlugXs [7x10/16z] JSM50O0m4CNGXpkt_xGuRRyaT6oqGIJrR-A9Khl74AD7FIS
+sprite $PlugXs [7x10/16z] JSM50O0m4CNGXpkt_xGuRRyaT6pKGIJrR-A9Khl74AD7FIS
 
-sprite $PlugSm [9x12/16z] JSQ50O1040Emu0xxJukzdhJXG3FXwjYl6ZswtdJ5QHB4FX9wKMXYupfLU
+sprite $PlugSm [9x12/16z] NSR50O10000WxDRzfxNrWXSiq64hcBSu9OfIjxtaMRvKtl6CUwie1m
 
-sprite $PlugMd [12x16/16z] XSb50a0040NGfvlxdrOp6p7nasJWmdxAVZ7BdPZqztJ352DC9dIgkZL2kui4Yf0OffHtlG
+sprite $PlugMd [12x16/16z] XSV50O1040Imu0xzTyi7vsGrWuNppbkHlKNflFDLqxBTvGx5mtGFUxgxINqJorQwNNoz0m
 
-sprite $PlugLg [15x20/16z] ZSUr0S0m00In2tD-_sdDs5cTWEl1c_uPJre07drjtw6kAzwoBi2sD-PNdRqlHpVslcjVcht0MOltvUtWNN4hsI5DL9l4G2q
+sprite $PlugLg [15x20/16z] ZSc54KGX5CNGV1Vazb_j2WvZ13tpWCSGyajufF0QkPPsYkiQdcLTWEDiMgswpfvidKQkFMbaWRiRWiiw2JqAhUGkQQ5sI4pm2m
 
-!procedure Plug($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Plug', $name, $tech)
+!procedure Plug($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Plug', $name, $tech, $desc)
 !endprocedure

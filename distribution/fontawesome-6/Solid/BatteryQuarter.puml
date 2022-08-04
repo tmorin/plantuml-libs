@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/BatteryQuarter
 
-sprite $BatteryQuarterXs [11x10/16z] Oy0E-660WOUV4mA073uW7mHOS30v-17wMA3Qs96D1G
+sprite $BatteryQuarterXs [11x10/16z] Oy0E-660WOUV4mA073uW7mIOSJ0v-17wMA3Qs96D1G
 
-sprite $BatteryQuarterSm [13x12/16z] Oy03c640oEP706P-VhWIVZv-VZP-FYY77oS7g0vk6Zylicbux0S
+sprite $BatteryQuarterSm [13x12/16z] VSUn0G0G34N13wsy_QS5e8hhJX_XaCGJGGS66Tl1Zn4EYdZaQm
 
-sprite $BatteryQuarterMd [17x16/16z] dSwr0O1G34NH26vt_sbn-D8Wfum--S7w8UZM0YcPg3mOSD1X7ELKCQu581HuLN3tK2WxfY40ot9i_pnYyi82
+sprite $BatteryQuarterMd [17x16/16z] dSYr0K9154N1-zVzz5yj3e-Da0b7VpZwC4qIEot2OGO7QCofXyG40HPy5SuvYz1Omu34PaewtkaBPm
 
-sprite $BatteryQuarterLg [22x20/16z] jSYr0GGX0031FLVO_gjzDoHy9XnQwSrjWAMTK_SjeQAHlkyxFiRNgaUoDjgeafgKrGg85WPWt58B_t05
+sprite $BatteryQuarterLg [22x20/16z] jSYr0OL05031_Ogp_LUBs-DIRi8XbvTt5M2gfjMw2bIqv_LwSVfigpPXpRIzIlHLIar1R-85VAkeu0aZ
 
-!procedure BatteryQuarter($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BatteryQuarter', $name, $tech)
+!procedure BatteryQuarter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BatteryQuarter', $name, $tech, $desc)
 !endprocedure

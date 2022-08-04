@@ -2,12 +2,12 @@
 
 sprite $GripVerticalXs [6x10/16z] HKY50G0W3C9k-VzQEpOQwo89ZfkA09YWMVz2Yp8qlaKm3-q
 
-sprite $GripVerticalSm [7x12/16z] FOgr0S0m4CJqK8Mq_xHXMyqX7wdW0wsh4ih7d_wjlYULKENZviQnmR5V
+sprite $GripVerticalSm [7x12/16z] FOgt0S0m48JuT-V4_jCgIrGNO98AThZqKKBNjzhwbaa0qMVoVFml_5y5
 
-sprite $GripVerticalMd [9x16/16z] VOh50SGm30H7P8R-gprCyhHmYQVcCgYhxqyXd_E0hmJVOmQeAMC6j7aCgm6Oq8T37UqK5W54v0q
+sprite $GripVerticalMd [9x16/16z] VOgt0G0n20CFVUFi_RTzvv8Z8_6eJH1RxWCOxItvBfWn6BtKRvYhQvOOoCXbcalop9SV
 
-sprite $GripVerticalLg [12x20/16z] VOo50GCn3CGKvjp-szPbVfcHLrBEpaBCsNSPu7K7ocS-hdcuXDBQvKLh0USz61QYf0qS_TdNF5s2MGQMr7b5ryPzNP1__xpsdTcyxeiNJW
+sprite $GripVerticalLg [12x20/16z] VOs30G0n40HZe_zkVzxE1ETRSKLflHcPEk3s3Np_zFFgwyNu60NO6DaX9UvY3BM6EzhJLjykXkVehxqdSQMlYRsTVlUpSybBNjbqnOK9
 
-!procedure GripVertical($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/GripVertical', $name, $tech)
+!procedure GripVertical($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/GripVertical', $name, $tech, $desc)
 !endprocedure

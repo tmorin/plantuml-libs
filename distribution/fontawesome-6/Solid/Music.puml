@@ -2,12 +2,12 @@
 
 sprite $MusicXs [10x10/16z] Ou017WZ53mGG2fd53c615K0nWWLInmjJomFNnGHYWG4
 
-sprite $MusicSm [12x12/16z] Oq00FYZDp0y480Oda8QoUVZHs9oC310s2qWbbCs0ocO4gsS2iy5weGR0p8AgOGK9i4Cj1m
+sprite $MusicSm [12x12/16z] Oq00FYZDp0y480Oda8QoUVZHs9mC310s2v24iHdGs33r42O_Y02peG2gXXKam0wr7
 
-sprite $MusicMd [16x16/16z] TS-30G0W4030REm_RRPr-S6Mc9jZg7nA3TXbDACocZOVSsY77ScZxepLw6bXtEfslr2kM5NdffYNaHq6USXLCQmHeNQB02D5
+sprite $MusicMd [16x16/16z] TSt50S0W343HjBZlFotkajD_A2n3xGJfujH6Dg7whzsi7sPWkYsAqVr1cc6uccixkxxFPLcLnVrNbijqGqecXw6_mWS3
 
-sprite $MusicLg [20x20/16z] ZSu30i0W00NGCUF-fytstzABLvkRaHe0aoO586cJxICHei42eh6rmQSs-fj-QUvLbOaWf_Q2lpNfKfc8naqTBBmnj9Mnqe3het043myXdBpsEJRWAWFTyeeq
+sprite $MusicLg [20x20/16z] ZSs30G0X00NGOyR-qsRxvvUkBepKwvT9amAG30dhXqI81Wk8njO6xzheO-Qb4JShJGGvjVlzMfCkbObetFJ1f4yOAsEb0JT7uGaUlYMStDVZ3LnbVdUy8Wq
 
-!procedure Music($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Music', $name, $tech)
+!procedure Music($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Music', $name, $tech, $desc)
 !endprocedure

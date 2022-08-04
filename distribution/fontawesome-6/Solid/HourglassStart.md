@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HourglassStart')
 
 ' renders the element
-HourglassStart('HourglassStart', 'Hourglass Start', 'an optional tech label')
+HourglassStart('HourglassStart', 'Hourglass Start', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HourglassStart')
 
 ' renders the element
-HourglassStart('HourglassStart', 'Hourglass Start', 'an optional tech label')
+HourglassStart('HourglassStart', 'Hourglass Start', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

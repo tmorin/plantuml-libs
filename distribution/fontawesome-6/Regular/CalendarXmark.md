@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/CalendarXmark')
 
 ' renders the element
-CalendarXmark('CalendarXmark', 'Calendar Xmark', 'an optional tech label')
+CalendarXmark('CalendarXmark', 'Calendar Xmark', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/CalendarXmark')
 
 ' renders the element
-CalendarXmark('CalendarXmark', 'Calendar Xmark', 'an optional tech label')
+CalendarXmark('CalendarXmark', 'Calendar Xmark', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

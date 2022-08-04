@@ -2,12 +2,12 @@
 
 sprite $SignsPostXs [10x10/16z] Om01FZ393mD8B7PE2620gC2f3XNmex8
 
-sprite $SignsPostSm [12x12/16z] Om03FWZ53mUCI6n-93O70mfWOc9YvMS20cIzV2XiHXuOO8HeuKRIpe_11W
+sprite $SignsPostSm [12x12/16z] Om03FWZ53mV8R7uaDWS32c1YOcBXPm82PFLyA6m67XXW16jXv4RIpe_11W
 
-sprite $SignsPostMd [16x16/16z] XOo30G0n4C1Ikzr_shUPCrceQoBgI6jJiD1Ek4lTAATIW3eWM4XbIu__w_M_K9SQ__LViX2Ju4XjV_MIz
+sprite $SignsPostMd [16x16/16z] XSm30i0m44JHNxjp_zFMYFDYxF1O-NOdwLfQaAL3DXRx28M1rxGKRlx5pQToplHUVldxGiUfmBGgT-Qs0m
 
-sprite $SignsPostLg [20x20/16z] dSxL0O0m34NHYzNRx3yjxWxdC_gOL8b5fNeYNlK09NkW3xN0iPPGnn9ekyKYppFsH5OJxl0MVynNo064O-rOJDpoNftb-rrBeXWr
+sprite $SignsPostLg [20x20/16z] dSw54S1G20FGr9tiFstTl_FEE1oNIl0e3kHm15kAVxRSQCc9cHC0JVU5HvR1GBuwUkCi1lE_WWPWD7DcKk0r3BNjFtLEMEAq
 
-!procedure SignsPost($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/SignsPost', $name, $tech)
+!procedure SignsPost($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/SignsPost', $name, $tech, $desc)
 !endprocedure

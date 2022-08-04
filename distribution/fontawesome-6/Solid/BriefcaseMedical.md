@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BriefcaseMedical')
 
 ' renders the element
-BriefcaseMedical('BriefcaseMedical', 'Briefcase Medical', 'an optional tech label')
+BriefcaseMedical('BriefcaseMedical', 'Briefcase Medical', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BriefcaseMedical')
 
 ' renders the element
-BriefcaseMedical('BriefcaseMedical', 'Briefcase Medical', 'an optional tech label')
+BriefcaseMedical('BriefcaseMedical', 'Briefcase Medical', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

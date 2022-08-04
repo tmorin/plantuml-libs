@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Screwdriver')
 
 ' renders the element
-Screwdriver('Screwdriver', 'Screwdriver', 'an optional tech label')
+Screwdriver('Screwdriver', 'Screwdriver', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Screwdriver')
 
 ' renders the element
-Screwdriver('Screwdriver', 'Screwdriver', 'an optional tech label')
+Screwdriver('Screwdriver', 'Screwdriver', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MarsAndVenus')
 
 ' renders the element
-MarsAndVenus('MarsAndVenus', 'Mars And Venus', 'an optional tech label')
+MarsAndVenus('MarsAndVenus', 'Mars And Venus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MarsAndVenus')
 
 ' renders the element
-MarsAndVenus('MarsAndVenus', 'Mars And Venus', 'an optional tech label')
+MarsAndVenus('MarsAndVenus', 'Mars And Venus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/RedditAlien')
 
 ' renders the element
-RedditAlien('RedditAlien', 'Reddit Alien', 'an optional tech label')
+RedditAlien('RedditAlien', 'Reddit Alien', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/RedditAlien')
 
 ' renders the element
-RedditAlien('RedditAlien', 'Reddit Alien', 'an optional tech label')
+RedditAlien('RedditAlien', 'Reddit Alien', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

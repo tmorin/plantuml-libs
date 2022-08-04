@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PlaneCircleExclamation')
 
 ' renders the element
-PlaneCircleExclamation('PlaneCircleExclamation', 'Plane Circle Exclamation', 'an optional tech label')
+PlaneCircleExclamation('PlaneCircleExclamation', 'Plane Circle Exclamation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PlaneCircleExclamation')
 
 ' renders the element
-PlaneCircleExclamation('PlaneCircleExclamation', 'Plane Circle Exclamation', 'an optional tech label')
+PlaneCircleExclamation('PlaneCircleExclamation', 'Plane Circle Exclamation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

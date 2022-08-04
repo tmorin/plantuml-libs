@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Brands/Discourse
 
-sprite $DiscourseXs [8x10/16z] FOU50G0X00BvjBtzfxMLHWStq2hGyMWSSBtqmcYjZhDlDhHA5G
+sprite $DiscourseXs [8x10/16z] FOU50G0X00BvjBtzfxMLHWStq2hGSMaSSBtqmcYjZhDlDhHA5G
 
-sprite $DiscourseSm [10x12/16z] LSQr0SG000IWUuaB-qyRLohoLE2xncRSqlnxcf35duwieBdclGvgUlmToeoheKmo0m
+sprite $DiscourseSm [10x12/16z] LOg50G0X480-RMN_QUr4hxbsVg0sL49jzEDokjhb1RivUjbdboLGu827pd-5WXTPI
 
-sprite $DiscourseMd [14x16/16z] PSpL0SC030FH2xDl_sbBAkVz6IJEkgtMXfYCzZxillGmgpNsiogeCtUbrMiHwg4ZKIOSgPi9lJioT9d6r-2gpcKbWr_ucXQWUU7k2W
+sprite $DiscourseMd [14x16/16z] PSnL0eLG549Hx6RFVxGlrDlhxmIerH_UEpqM7lTy4lJI2dZeLm09MFLdy0ZM0xXWrCCXh5Itwi7jUeRkcOOuxC1g_6H4HjcqgVO5
 
 sprite $DiscourseLg [17x20/16z] {
-TOu30WGW54Gdk-v_sip5Y_EDFt0fsL4a3TpKEcter0TIi_j7Ss7x1uZr3kWqWqBNftWqzTeDVRFql8bCdMCGn_1Ef9OXTdcAglhtLuhfmxVBDaz8_Olq4F0Q
-31w3mqyA
+TSw50S0W30J0hnVD_jFYBbS5OjWuh-j0HP50z54Hedvg0BZ8-ywJfntjtggMkb7NOKSpzpgHIByJAqLtBHrTTQEVw4QYAJgR0Dcai32yVt5_eiZZe8v2ly7G
+RGWiMG
 }
 
-!procedure Discourse($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Discourse', $name, $tech)
+!procedure Discourse($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Discourse', $name, $tech, $desc)
 !endprocedure

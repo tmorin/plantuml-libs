@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Pencil')
 
 ' renders the element
-Pencil('Pencil', 'Pencil', 'an optional tech label')
+Pencil('Pencil', 'Pencil', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Pencil')
 
 ' renders the element
-Pencil('Pencil', 'Pencil', 'an optional tech label')
+Pencil('Pencil', 'Pencil', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

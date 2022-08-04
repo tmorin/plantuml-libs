@@ -2,15 +2,15 @@
 
 sprite $PlantWiltXs [10x10/16z] BOY30G0n54FFAFVVjj7x23RnzSrC48SzKzouecN2RjpPvdpWm9uEn8cu1G
 
-sprite $PlantWiltSm [12x12/16z] FSR50OC0002nrBst_xGuv1N0jRDDrS_satlm-5pZsesgd2hd-6v_PmhLirekd-Eevt5VZZi-0W
+sprite $PlantWiltSm [12x12/16z] HOc50S0m40AfUzb_sxp_HJ0uAsS45Bxq4pP2s9vLTE7YEqqmYxxXRz79_IdFF8Ydl21JURneZ_83
 
-sprite $PlantWiltMd [16x16/16z] TSi73aGn20DH_zupzx_joY1PTKSjBu3IzyrIUW16EC6nmPvbFsSe7CyrcAIrJJMPO7xBOp_jMlB-LfvZ0USCeBRuX5lQhe_YFeeTh-Bqrpy
+sprite $PlantWiltMd [16x16/16z] TSi53iG030D1bxdx_z-UukWix0edeFGyevGkW3SSO9bX_VjczT1OhkDbaAOsRYX2yT5Llje-gll57cC1-zX7jdX4DTYkd-9-YYjknUdJFm
 
 sprite $PlantWiltLg [20x20/16z] {
-ZSrL0eKm44FHu53B_bVx99tA_77nGmLJD_CAry5_UQQLjJXP91VT9oD3VMnGLmmd-G3OxTV6VxAZRKEoc541GKi4Pxe1il2duaq3DztPRIKl9Dbfzki2Ykok
-PYrkhXKrp9dVjnVWJRsnBm
+ZSz50eKm54FHu53B_bVxvQ9lHf2sfwv7LjTU8PF_gK_gR98VbksE_yFi98hXM2gdmTua3NQwLyBOfpBSxJ0JAR5u2iPFmjAVMZG6Tlnz6FijAjXychH83Lkn
+U4q5KsPOiB3ldQHev8rz0G
 }
 
-!procedure PlantWilt($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PlantWilt', $name, $tech)
+!procedure PlantWilt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PlantWilt', $name, $tech, $desc)
 !endprocedure

@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Brands/Imdb
 
-sprite $ImdbXs [8x10/16z] Ou02LduSW8k1aO612qGpGMaE1XPc36KCK1e
+sprite $ImdbXs [8x10/16z] Ou02LduSW0iaomMY6Q4q1mCBCuOo1YWD
 
-sprite $ImdbSm [10x12/16z] Oq00Vc816rmv6miJbCd6mKg46GnyKC03
+sprite $ImdbSm [10x12/16z] Oq00Vc812rmv2pECoSB1H8GP37nGm0C
 
-sprite $ImdbMd [14x16/16z] dSV50OGm04N15zUVz5_j2iuHvZRSzN5Acc-5OekrJdQPorYGmwvphDCo3rI_Rln8ckhpWNGRve8l
+sprite $ImdbMd [14x16/16z] dSUr0S0m34N15yOlxJzjE8RIlkx8xHPDybhzmWA8P-rCSwMXUNVbcPwrr-PlTf7asht0b8tC2G
 
-sprite $ImdbLg [17x20/16z] jSz50e0W503HePj__zFQxLQ7VZjuPVqjvUIVMcyoZJvjwnjF93Dj_G0pWVPeiu5ZXQWsY3CeJpX0JK156Vca_WIU_-3P2
+sprite $ImdbLg [17x20/16z] jS-r0S0W503Hmvs__xPnRyFXhuDFsZp2oPXQRpAFFc_R6qiaCs_z13M3DcYzWsE3o0w16PGXdA1ce8AHN-fluFqFtaq
 
-!procedure Imdb($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Imdb', $name, $tech)
+!procedure Imdb($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Imdb', $name, $tech, $desc)
 !endprocedure

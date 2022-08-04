@@ -2,12 +2,12 @@
 
 sprite $IdBadgeXs [7x10/16z] O-372nWO41H23Cnb0mAO4
 
-sprite $IdBadgeSm [9x12/16z] O-2705v-9C31pCoF1XWO8JGp0mD4AHy30rmI9W0HOW01JY03tMW
+sprite $IdBadgeSm [9x12/16z] O-2705v-9C31oCYF1XYW2XaP621A-O0YC00JW0WnW00da85kD
 
-sprite $IdBadgeMd [12x16/16z] LSp50KCn30DGXJdPVzhsa-cTZC8wf519QWY1wZtdfDgeSN49WEe0W1RxcPDjykTRUjpQK-FrrFEnZb5K_GS
+sprite $IdBadgeMd [12x16/16z] LSp50S0m30D0bScm_xIbn7Gley1gDYlDDewZrK94LXVxm5u2i7e0O0lvvqPAFjdvv_XhD7zDFzPYI_K3
 
-sprite $IdBadgeLg [15x20/16z] ZSp50G0X40F0d2lGVxMu-_nM4hmiieMfQOT4sAmlVgK0jgoAjaQgnZXyFQpbWRB4oP0-qv6S5XlPaeaA
+sprite $IdBadgeLg [15x20/16z] ZSp50G0X40F0d2lGVxMu-_nM4hmiieMfQOL4sAmlVgKokeLnWKJJPfey8mxl3sjve8LaF9_fI4wBZMp9H0K
 
-!procedure IdBadge($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/IdBadge', $name, $tech)
+!procedure IdBadge($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/IdBadge', $name, $tech, $desc)
 !endprocedure

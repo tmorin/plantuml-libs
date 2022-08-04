@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ScrewdriverWrench')
 
 ' renders the element
-ScrewdriverWrench('ScrewdriverWrench', 'Screwdriver Wrench', 'an optional tech label')
+ScrewdriverWrench('ScrewdriverWrench', 'Screwdriver Wrench', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ScrewdriverWrench')
 
 ' renders the element
-ScrewdriverWrench('ScrewdriverWrench', 'Screwdriver Wrench', 'an optional tech label')
+ScrewdriverWrench('ScrewdriverWrench', 'Screwdriver Wrench', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

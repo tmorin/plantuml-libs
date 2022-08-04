@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Uniregistry')
 
 ' renders the element
-Uniregistry('Uniregistry', 'Uniregistry', 'an optional tech label')
+Uniregistry('Uniregistry', 'Uniregistry', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Uniregistry')
 
 ' renders the element
-Uniregistry('Uniregistry', 'Uniregistry', 'an optional tech label')
+Uniregistry('Uniregistry', 'Uniregistry', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

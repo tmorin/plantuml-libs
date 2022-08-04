@@ -1,19 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/TruckField
 
-sprite $TruckFieldXs [12x10/16z] JOY50O003CE2E_d_MbowrSdpkYAopbzSC7FDwdz4dfnvHn1vTP1BItO
+sprite $TruckFieldXs [12x10/16z] JOZ50G0W30CFNdZsdnQtDiv_clTdATsOqPyjHU_uSbJYZD2LervCDJG
 
-sprite $TruckFieldSm [15x12/16z] NSd50OH00CNG0EEM_gjTLzxf2oUxJppvqO7DbzJzFNUiFpLi2ijV2N-jgMdpWQ44mHZ2h600PnVOh3Q0ChZRPe0h
+sprite $TruckFieldSm [15x12/16z] NSU54SKm5C0m5yFn_jD-XdVLeRZoBUwbnMxDCC4SkYqAq-Z4Q0uzy8Mkh8Bxkeu2hk2eyk1fvI5tNiOETm
 
-sprite $TruckFieldMd [20x16/16z] {
-RS_50KGn24NH5sCCSlllThxxsKGnFMfz5cc_OkFUD0cEtXeaTbP10mwoeDtkCbpkXkBGapetMzs3dBZn02HZiErK7KcqMcjCEojInHHeq8QTev43TPkpQPQa
-u-uF
-}
+sprite $TruckFieldMd [20x16/16z] ROzL0W0X20N7_e5zzp_jTkkOD32aJ0V-Kkd6hB3ZUjDsdHvIb7ugmQhlT1pNYxNuUWNM-m_uGASEyzrGRfUytT7sKZd6wCSlG5HXbyYgx1vWal8zPsB80W
 
 sprite $TruckFieldLg [25x20/16z] {
-VT25TOL000NHmPtflzlmOX_PmrrtuKNN_savysGxp_TcuSVWNKDKcsTzgn9UrOp9IWFeMXwOb8D56-oMmM8H31On9L_xrN_ZO2p9WFEx6rMQrXsOxTh3PWMu
-jobCGudH9TbC3Bhh1A5n-lc1NxlklFa2
+VSd5bSKm4031jcG6TVxPxipI9ptNjRXHQag5PpwvU2Y-EO1KVLSXNJwhHINv2cOTke6U_TYKODS5pJvOxO9g5vlXhAV_biLq601JgZ0O68eDs1rBk2JO2a41
+9SqUiBgJ9cswGT94oj65a9esxdm1
 }
 
-!procedure TruckField($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TruckField', $name, $tech)
+!procedure TruckField($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TruckField', $name, $tech, $desc)
 !endprocedure

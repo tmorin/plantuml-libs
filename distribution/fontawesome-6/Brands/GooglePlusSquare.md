@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/GooglePlusSquare')
 
 ' renders the element
-GooglePlusSquare('GooglePlusSquare', 'Google Plus Square', 'an optional tech label')
+GooglePlusSquare('GooglePlusSquare', 'Google Plus Square', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/GooglePlusSquare')
 
 ' renders the element
-GooglePlusSquare('GooglePlusSquare', 'Google Plus Square', 'an optional tech label')
+GooglePlusSquare('GooglePlusSquare', 'Google Plus Square', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Display')
 
 ' renders the element
-Display('Display', 'Display', 'an optional tech label')
+Display('Display', 'Display', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Display')
 
 ' renders the element
-Display('Display', 'Display', 'an optional tech label')
+Display('Display', 'Display', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

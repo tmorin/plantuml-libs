@@ -2,12 +2,12 @@
 
 sprite $BinocularsXs [10x10/16z] Oq02_FmWWei1JOmVBC41P_53MH0CvdF1MVnm5XkS1G
 
-sprite $BinocularsSm [12x12/16z] LKo30G0n32oU3Mx_QMiZE9dZU23NMenZphKM4uWi6QAtih0eDKks6NF-wzoKUBPPjndRR5Mr97Fk2G
+sprite $BinocularsSm [12x12/16z] LKm30i1034ldhSZ_NpkTLKGOZf1l_GjWLWekLL6exZzBuLV7cNK-lv9PRjqStSnkHaHyoVRs1m
 
-sprite $BinocularsMd [16x16/16z] TOg54GH1409Xvts4_BFzSxykwK9mvbN5LK18hLDADcGpsmXqz_PpVjr_67zg9VRk7zharo4B-EuoeI6J679E6HYpleTSXwpRtTK3zg27FNy
+sprite $BinocularsMd [16x16/16z] TKm30WH134llraN-_zernsY8V7KHhmymSlkSb1tBxxTzl-E3g2ecbL5rEdr4KFP_NNpXBi44nWHp_qImOp_nsKkE2Ou4iwhhCILh0G
 
-sprite $BinocularsLg [20x20/16z] TSi53aGX54FHZk7G_Qzslk4yRgmvIR59AVKjuvMDP2h3YRRDUEyTl5VmPv_oO09fxnK5utqLZ9Cfu3iRWP3Dsb-sBvZjBE_mMOrEi2GOznPxKxoplK7e
+sprite $BinocularsLg [20x20/16z] TSi53W0n449HwbxkVzfrt-cFaPU0GSOOVOxJIFPpPD66nL9AHYaUPKcV3tQGQLjDC6vNmVWn3-Yl4QY7fUGEq-1XIyUkvc_CWdN1EBRsDC-jz3G8pG
 
-!procedure Binoculars($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Binoculars', $name, $tech)
+!procedure Binoculars($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Binoculars', $name, $tech, $desc)
 !endprocedure

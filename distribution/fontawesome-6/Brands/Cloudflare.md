@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Cloudflare')
 
 ' renders the element
-Cloudflare('Cloudflare', 'Cloudflare', 'an optional tech label')
+Cloudflare('Cloudflare', 'Cloudflare', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Cloudflare')
 
 ' renders the element
-Cloudflare('Cloudflare', 'Cloudflare', 'an optional tech label')
+Cloudflare('Cloudflare', 'Cloudflare', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

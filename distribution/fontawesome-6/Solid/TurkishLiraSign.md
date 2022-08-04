@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TurkishLiraSign')
 
 ' renders the element
-TurkishLiraSign('TurkishLiraSign', 'Turkish Lira Sign', 'an optional tech label')
+TurkishLiraSign('TurkishLiraSign', 'Turkish Lira Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TurkishLiraSign')
 
 ' renders the element
-TurkishLiraSign('TurkishLiraSign', 'Turkish Lira Sign', 'an optional tech label')
+TurkishLiraSign('TurkishLiraSign', 'Turkish Lira Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,12 +2,12 @@
 
 sprite $ThumbsUpXs [10x10/16z] Oq05pFmm5Z-CnGvcSV7pC_7302kSnOR6Oe1W4Ca2n60k0m
 
-sprite $ThumbsUpSm [12x12/16z] RSR50O1000InmPtjlrhatF8ADVMnEf9tiLhNTRcbGT7O-9MSyjZ2lWFZTI_m0W
+sprite $ThumbsUpSm [12x12/16z] RSR50O1000InmPtjlrhatF8ADNMnEf8drJHDuorrYlh6h-IKnnRs7HYlUu4N
 
-sprite $ThumbsUpMd [16x16/16z] TSU50G0X30F0u0xxJ_ikIBqvS9NTmDIQwDrQwsb7guFsZgLac3QKogFrxpfPJCPeSJjDnaCBbED985_6KK88T7y7
+sprite $ThumbsUpMd [16x16/16z] VSwr0S100810uXxsdpRkydJNmLzjSMEZqTNgbVdTiPgnr7KjYRVYzjVzmuJDwkPXDgRGkOotYtat0W
 
-sprite $ThumbsUpLg [20x20/16z] ZS-50S0W30J0aBfc_sbnzwy0XqC_wrxGGlJbHZ8PCKb_Pe-qCwKZdieGvVycbL_dq0s6L6JTHdOPssE3EJjAUy7Q6knn1i70scAkI_RAgxid6eD61
+sprite $ThumbsUpLg [20x20/16z] ZS_50KCX0C3Gu0xxJzj-TykDX_ESL2TIhPMZjQuBgmTAdTazkTrM8O3O-kgG6GR8TagQDmkZsQtnpTpPCfFfrT9ihCPYf8ayeAUv-IlSz0S
 
-!procedure ThumbsUp($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ThumbsUp', $name, $tech)
+!procedure ThumbsUp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ThumbsUp', $name, $tech, $desc)
 !endprocedure

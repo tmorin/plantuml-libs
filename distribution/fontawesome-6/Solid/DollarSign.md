@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/DollarSign')
 
 ' renders the element
-DollarSign('DollarSign', 'Dollar Sign', 'an optional tech label')
+DollarSign('DollarSign', 'Dollar Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/DollarSign')
 
 ' renders the element
-DollarSign('DollarSign', 'Dollar Sign', 'an optional tech label')
+DollarSign('DollarSign', 'Dollar Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

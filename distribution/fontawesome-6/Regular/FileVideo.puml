@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Regular/FileVideo
 
-sprite $FileVideoXs [7x10/16z] HOM50O1008ImM_QVLh__0Z1au0KE9vEKw3k9JNHB2kawZf7jUiuGVm
+sprite $FileVideoXs [7x10/16z] HOM50O1008ImM_QVLh__0Z1au0LM1vECuhYJc4MtBEqwZf7vUiuGVm
 
-sprite $FileVideoSm [9x12/16z] NOg50S1030AfUs__QT_zuW6zE5wvUPxd1UAID07zucYN1Twmu3d6PTwhUITX0G
+sprite $FileVideoSm [9x12/16z] NOg50S1030AfUs__QT_zuW6zE5wvUHp72UAG0-WMJxiiy8O5pp4kqrhDEmaB
 
-sprite $FileVideoMd [12x16/16z] RSo53S10581GyklA_jFMlKVinQ1qguU5Pw2i3UhJ7kuV9ikorMTVTsfssBNMswOznhWviYpxFV5k1W
+sprite $FileVideoMd [12x16/16z] RSp50S0m0810wbxsdxQkINZT2sgFHjXv1ShUf7xjvV5ZiYpRVHTwK8lBxlM-Dkqvcm_lx-Y9Roi
 
-sprite $FileVideoLg [15x20/16z] ZOw54S0m30DLhk6i_QSjC-Q3PY4FpZW6SkxaG333n6YFDtQJ-TdacmaHYT7SyGHpqhMPmX6hE9lAcNzphyqN4ws8j8zpZQ4R9887f0S
+sprite $FileVideoLg [15x20/16z] ZSs53SG03C30FBO1nVjFMsQsy4IMTz8NqlHchc7oagxU83FPa3EAgcRFCN_0f6cYqkOVUXfzZrZGvYzwIgcgvU7NIPi2IHPf3G
 
-!procedure FileVideo($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Regular/FileVideo', $name, $tech)
+!procedure FileVideo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/FileVideo', $name, $tech, $desc)
 !endprocedure

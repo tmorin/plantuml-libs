@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Renren')
 
 ' renders the element
-Renren('Renren', 'Renren', 'an optional tech label')
+Renren('Renren', 'Renren', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Renren')
 
 ' renders the element
-Renren('Renren', 'Renren', 'an optional tech label')
+Renren('Renren', 'Renren', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

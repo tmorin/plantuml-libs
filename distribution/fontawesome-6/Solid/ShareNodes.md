@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ShareNodes')
 
 ' renders the element
-ShareNodes('ShareNodes', 'Share Nodes', 'an optional tech label')
+ShareNodes('ShareNodes', 'Share Nodes', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ShareNodes')
 
 ' renders the element
-ShareNodes('ShareNodes', 'Share Nodes', 'an optional tech label')
+ShareNodes('ShareNodes', 'Share Nodes', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

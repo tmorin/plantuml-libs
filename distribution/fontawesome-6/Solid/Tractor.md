@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Tractor')
 
 ' renders the element
-Tractor('Tractor', 'Tractor', 'an optional tech label')
+Tractor('Tractor', 'Tractor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Tractor')
 
 ' renders the element
-Tractor('Tractor', 'Tractor', 'an optional tech label')
+Tractor('Tractor', 'Tractor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

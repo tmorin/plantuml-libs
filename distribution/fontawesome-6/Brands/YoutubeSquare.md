@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/YoutubeSquare')
 
 ' renders the element
-YoutubeSquare('YoutubeSquare', 'Youtube Square', 'an optional tech label')
+YoutubeSquare('YoutubeSquare', 'Youtube Square', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/YoutubeSquare')
 
 ' renders the element
-YoutubeSquare('YoutubeSquare', 'Youtube Square', 'an optional tech label')
+YoutubeSquare('YoutubeSquare', 'Youtube Square', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

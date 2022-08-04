@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Umbrella')
 
 ' renders the element
-Umbrella('Umbrella', 'Umbrella', 'an optional tech label')
+Umbrella('Umbrella', 'Umbrella', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Umbrella')
 
 ' renders the element
-Umbrella('Umbrella', 'Umbrella', 'an optional tech label')
+Umbrella('Umbrella', 'Umbrella', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

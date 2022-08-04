@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Windows')
 
 ' renders the element
-Windows('Windows', 'Windows', 'an optional tech label')
+Windows('Windows', 'Windows', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Windows')
 
 ' renders the element
-Windows('Windows', 'Windows', 'an optional tech label')
+Windows('Windows', 'Windows', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

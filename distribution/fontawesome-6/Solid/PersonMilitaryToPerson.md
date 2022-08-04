@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PersonMilitaryToPerson')
 
 ' renders the element
-PersonMilitaryToPerson('PersonMilitaryToPerson', 'Person Military To Person', 'an optional tech label')
+PersonMilitaryToPerson('PersonMilitaryToPerson', 'Person Military To Person', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PersonMilitaryToPerson')
 
 ' renders the element
-PersonMilitaryToPerson('PersonMilitaryToPerson', 'Person Military To Person', 'an optional tech label')
+PersonMilitaryToPerson('PersonMilitaryToPerson', 'Person Military To Person', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

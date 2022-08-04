@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Infinity')
 
 ' renders the element
-Infinity('Infinity', 'Infinity', 'an optional tech label')
+Infinity('Infinity', 'Infinity', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Infinity')
 
 ' renders the element
-Infinity('Infinity', 'Infinity', 'an optional tech label')
+Infinity('Infinity', 'Infinity', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

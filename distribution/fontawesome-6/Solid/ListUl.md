@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ListUl')
 
 ' renders the element
-ListUl('ListUl', 'List Ul', 'an optional tech label')
+ListUl('ListUl', 'List Ul', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ListUl')
 
 ' renders the element
-ListUl('ListUl', 'List Ul', 'an optional tech label')
+ListUl('ListUl', 'List Ul', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

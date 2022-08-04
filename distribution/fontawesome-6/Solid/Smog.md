@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Smog')
 
 ' renders the element
-Smog('Smog', 'Smog', 'an optional tech label')
+Smog('Smog', 'Smog', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Smog')
 
 ' renders the element
-Smog('Smog', 'Smog', 'an optional tech label')
+Smog('Smog', 'Smog', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

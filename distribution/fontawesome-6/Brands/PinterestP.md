@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/PinterestP')
 
 ' renders the element
-PinterestP('PinterestP', 'Pinterest P', 'an optional tech label')
+PinterestP('PinterestP', 'Pinterest P', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/PinterestP')
 
 ' renders the element
-PinterestP('PinterestP', 'Pinterest P', 'an optional tech label')
+PinterestP('PinterestP', 'Pinterest P', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

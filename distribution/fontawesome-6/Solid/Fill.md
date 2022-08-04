@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Fill')
 
 ' renders the element
-Fill('Fill', 'Fill', 'an optional tech label')
+Fill('Fill', 'Fill', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Fill')
 
 ' renders the element
-Fill('Fill', 'Fill', 'an optional tech label')
+Fill('Fill', 'Fill', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

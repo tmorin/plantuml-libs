@@ -2,15 +2,15 @@
 
 sprite $PaperPlaneXs [10x10/16z] Ou01BYZDoCyFOV030PHc0h5uG7mmXX6CC0OlI1qtY0NHYM21CG
 
-sprite $PaperPlaneSm [12x12/16z] LKo50S0m36Bku_zhwx5gKDZwTJh9CIsap6Mu-_oLSMQThoRtHz_xBC-FlyvpyJpOw6h2VDjSxh8Z0m
+sprite $PaperPlaneSm [12x12/16z] LOo30G0n54FVcMtsdxOsVqXVjastLAP5gdCOtZoRCAw9lvESd_Q-aRNOEAzmVUmQQgRvxJEmddW
 
-sprite $PaperPlaneMd [16x16/16z] LSt50ODG50J0nPtflzfuuCkpEMsgrvmLKMXJUgHm3-lb4te_xt06bcHoKnjWom6Q4qmPW6J6aCOTrtQ9srS2jfyFm7XvIRFHNlwi9da2
+sprite $PaperPlaneMd [16x16/16z] LSw55S0W30JGA-wt_xPzEC4_ba2KhmcIV9JvsdKTgxvEnwtJSBdqHKCV8-1vIJKdPjGnpvTqiFjxrty2k0ryQlE4BujvkIwxupZon_PP_G
 
 sprite $PaperPlaneLg [20x20/16z] {
-TSm52W0n44FHrBsv_sdNAkiV2Ro1mQkOdc99taLmxoQPJuliNHxjxPwxo4FgCU7wA8jZp4vD6D5M0eujFsu0UsOUKTbIa1mcsWfWK06WCWcW3BCO9Oum4doR
-_37O-hHZ2_tbNy1i1G
+TOw54GCn0CFSPzR-s_R2hB0SKiDrrsO3IlE3sZtKxeBAhHYCVugBlidqPtxHuv8v6Iw1uIVjE8xqB9urXlfmJFhX2JEb0w_vneDHRt2R0ZS1HMZTR-0qVxMJ
+uULGX3FD_m
 }
 
-!procedure PaperPlane($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PaperPlane', $name, $tech)
+!procedure PaperPlane($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PaperPlane', $name, $tech, $desc)
 !endprocedure

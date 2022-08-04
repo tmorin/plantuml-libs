@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Basketball')
 
 ' renders the element
-Basketball('Basketball', 'Basketball', 'an optional tech label')
+Basketball('Basketball', 'Basketball', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Basketball')
 
 ' renders the element
-Basketball('Basketball', 'Basketball', 'an optional tech label')
+Basketball('Basketball', 'Basketball', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

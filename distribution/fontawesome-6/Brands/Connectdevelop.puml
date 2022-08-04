@@ -1,19 +1,16 @@
 ' definition of the Item fontawesome-6/Brands/Connectdevelop
 
-sprite $ConnectdevelopXs [11x10/16z] LS774O10400WBiTn--zMluAVIKeNdhcWO4q5bx3ezhYOZICrOIhTKjYhj5fAOCw4bk3aJ_02
+sprite $ConnectdevelopXs [11x10/16z] LOo50G0X30EBE-o_xL_VgKiIsIoJfWisGz7co1B4q3WluHYb9eK4Vet65K3anQ4M5xnpIxN28m3EOXmF
 
-sprite $ConnectdevelopSm [13x12/16z] NS770SD0200m0QvNzzysULloyLmHyRp0vRpSDeoBk72ZS2076udWLa1Ww80ioGqO2my44eQaR91x_cty
+sprite $ConnectdevelopSm [13x12/16z] 3S470S0W000W_5_xjzq00A3N448VG9Movi6kg2W8o8YRXm0q4O1j0KA21jWN3G1iWUY1-CxluGC
 
-sprite $ConnectdevelopMd [17x16/16z] {
-RSJ5OS0m50KmcPqO_lxJbe_L0_-fSRz505n9ceO3J7gdCO7eP1K2tWOTl1cFXZJGtk2WIxo6NAeD3nm80qFdrHc9wq4TU6tqDtrfvUlc0e528Y-GgmmSGAG4
-ANT0YJ_m2G
-}
+sprite $ConnectdevelopMd [17x16/16z] RS750GD1400WrkLa-gys_WpufyRz5W5mmpHSmA1r6XE8Jb8WO3VeO2Si3GRQ2YvqYMr8gJXXmGMXO-XidO7RGXdOJhGD9MCU8910sY1N2RW00SWTKE87dW
 
 sprite $ConnectdevelopLg [22x20/16z] {
-VSf90jWW30F0iOc1a1J-_zgkENTiwIJ_SVPlvqyEFiyiY3VMcpxnJXMzCzW-EsRTYGUp0RNxJJO3d0JxDj4MyDvGNKtqAs3S6mvkYevbj9VLCEk2Rf1-D0Tc
-5dY8KAzQM1djspOEJZ3HTDnbDCJZciWAU6tmh7Qtrkgwsc_Z9CXjaga5yWNCQuf0KZjypemBbBNuzASoi__EEF1PuxU_DS4l
+VSf5OW0X3030GR86XV__jflQiOD4_MElrywt_HbNIBCyi_WrGtSqJXOfauYxOk1gfBwEarATqYQjMw0yf7b372BGktHU2pPkWWEFiqoUXZCg74wAZsf3b2OD
+AQPsuodgxoxxvmMA0tSu6mmjK4AQbZIUThVMelVsEdSXBK6f6fI9TFMWeDAMNpiqgRjll_g8MklnldFpvscl_FebVG8
 }
 
-!procedure Connectdevelop($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Connectdevelop', $name, $tech)
+!procedure Connectdevelop($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Connectdevelop', $name, $tech, $desc)
 !endprocedure

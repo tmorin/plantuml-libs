@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Chalkboard')
 
 ' renders the element
-Chalkboard('Chalkboard', 'Chalkboard', 'an optional tech label')
+Chalkboard('Chalkboard', 'Chalkboard', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Chalkboard')
 
 ' renders the element
-Chalkboard('Chalkboard', 'Chalkboard', 'an optional tech label')
+Chalkboard('Chalkboard', 'Chalkboard', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FlorinSign')
 
 ' renders the element
-FlorinSign('FlorinSign', 'Florin Sign', 'an optional tech label')
+FlorinSign('FlorinSign', 'Florin Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FlorinSign')
 
 ' renders the element
-FlorinSign('FlorinSign', 'Florin Sign', 'an optional tech label')
+FlorinSign('FlorinSign', 'Florin Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

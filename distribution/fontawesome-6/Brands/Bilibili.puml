@@ -2,15 +2,15 @@
 
 sprite $BilibiliXs [10x10/16z] JSR50SC000GWshZU_jF6ZHUCe462TEGsXqCI8xfZGOuTlfCRrSaA
 
-sprite $BilibiliSm [12x12/16z] JSU54S0m0810wbxstpON3sSFJ2Un5s3p0NI2qzgs-7-vkDIYrpyY-p5w9veTk22wvjCyYps60W
+sprite $BilibiliSm [12x12/16z] JSW54e100810x9R__rQlRwSOW9tW1fYz00tNOfbydyGVHUZn3P7wClH4Q1PWWz25L-r1REXy
 
-sprite $BilibiliMd [16x16/16z] PSk30GGn54NHDqPm-wzs4UE4NvAkMv7TmWCclIwyAzXbMO3btqJhsi0L7c1NvS9GPKFyi4bws5DiE4BjJF4HPWwM55TpR7YR64HFAmshqHS
+sprite $BilibiliMd [16x16/16z] POg30KKn40Jt6S7qN-r7Z0dk5fAkMn6xXG4cJHVc0ZP8GecMQmDNy02RAWvO6cs3lj6FXpLfmn6oBUaTIU6FkZ9hmzDe43qI3LOZNm
 
 sprite $BilibiliLg [20x20/16z] {
-ZSY53S1008NGNpzd_sdhxYz6K2yOBKAZKGv-Ni1MOGchGUKy4Btt0DxcKkIiAO2u1oJGGSb0HyiBkGQLtPu33Q1QdrzVlRw6EBzYVGV_duVii0o8ApMSvPAA
-QY_JhGu
+ZSY53S1008NGNpzd_sdhxYz6K2yOBKAZKGP-Ni1MOGchGUuy4Btt0DvcKkIiAO2u1oJGGSv0HyiBcGQLtPu33I1VdrzViRw6EBziVGV_duTCUpM8ArNNrIkg
+lKotEW
 }
 
-!procedure Bilibili($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Bilibili', $name, $tech)
+!procedure Bilibili($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Bilibili', $name, $tech, $desc)
 !endprocedure

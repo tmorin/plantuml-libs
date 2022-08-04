@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/CreativeCommonsBy')
 
 ' renders the element
-CreativeCommonsBy('CreativeCommonsBy', 'Creative Commons By', 'an optional tech label')
+CreativeCommonsBy('CreativeCommonsBy', 'Creative Commons By', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/CreativeCommonsBy')
 
 ' renders the element
-CreativeCommonsBy('CreativeCommonsBy', 'Creative Commons By', 'an optional tech label')
+CreativeCommonsBy('CreativeCommonsBy', 'Creative Commons By', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/AnchorLock')
 
 ' renders the element
-AnchorLock('AnchorLock', 'Anchor Lock', 'an optional tech label')
+AnchorLock('AnchorLock', 'Anchor Lock', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/AnchorLock')
 
 ' renders the element
-AnchorLock('AnchorLock', 'Anchor Lock', 'an optional tech label')
+AnchorLock('AnchorLock', 'Anchor Lock', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Weebly')
 
 ' renders the element
-Weebly('Weebly', 'Weebly', 'an optional tech label')
+Weebly('Weebly', 'Weebly', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Weebly')
 
 ' renders the element
-Weebly('Weebly', 'Weebly', 'an optional tech label')
+Weebly('Weebly', 'Weebly', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

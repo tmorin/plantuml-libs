@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Delicious')
 
 ' renders the element
-Delicious('Delicious', 'Delicious', 'an optional tech label')
+Delicious('Delicious', 'Delicious', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Delicious')
 
 ' renders the element
-Delicious('Delicious', 'Delicious', 'an optional tech label')
+Delicious('Delicious', 'Delicious', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

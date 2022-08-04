@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Sellcast')
 
 ' renders the element
-Sellcast('Sellcast', 'Sellcast', 'an optional tech label')
+Sellcast('Sellcast', 'Sellcast', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Sellcast')
 
 ' renders the element
-Sellcast('Sellcast', 'Sellcast', 'an optional tech label')
+Sellcast('Sellcast', 'Sellcast', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

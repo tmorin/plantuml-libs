@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Trademark')
 
 ' renders the element
-Trademark('Trademark', 'Trademark', 'an optional tech label')
+Trademark('Trademark', 'Trademark', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Trademark')
 
 ' renders the element
-Trademark('Trademark', 'Trademark', 'an optional tech label')
+Trademark('Trademark', 'Trademark', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

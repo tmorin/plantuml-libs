@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/FilePowerpoint')
 
 ' renders the element
-FilePowerpoint('FilePowerpoint', 'File Powerpoint', 'an optional tech label')
+FilePowerpoint('FilePowerpoint', 'File Powerpoint', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/FilePowerpoint')
 
 ' renders the element
-FilePowerpoint('FilePowerpoint', 'File Powerpoint', 'an optional tech label')
+FilePowerpoint('FilePowerpoint', 'File Powerpoint', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

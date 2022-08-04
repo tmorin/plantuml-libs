@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/AnchorCircleXmark')
 
 ' renders the element
-AnchorCircleXmark('AnchorCircleXmark', 'Anchor Circle Xmark', 'an optional tech label')
+AnchorCircleXmark('AnchorCircleXmark', 'Anchor Circle Xmark', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/AnchorCircleXmark')
 
 ' renders the element
-AnchorCircleXmark('AnchorCircleXmark', 'Anchor Circle Xmark', 'an optional tech label')
+AnchorCircleXmark('AnchorCircleXmark', 'Anchor Circle Xmark', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

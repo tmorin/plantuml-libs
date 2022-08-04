@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Instalod')
 
 ' renders the element
-Instalod('Instalod', 'Instalod', 'an optional tech label')
+Instalod('Instalod', 'Instalod', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Instalod')
 
 ' renders the element
-Instalod('Instalod', 'Instalod', 'an optional tech label')
+Instalod('Instalod', 'Instalod', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

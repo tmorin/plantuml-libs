@@ -1,19 +1,19 @@
 ' definition of the Item fontawesome-6/Solid/Khanda
 
-sprite $KhandaXs [11x10/16z] NKo50S0m39glpl_VDbQD2t1i1bYd2P4QNn0lAbx6_52HU2b_oYJh9qoebIxswfJpawbL
+sprite $KhandaXs [11x10/16z] NKo50G0W3B9R-VzQkzS1aC-0sUi4NrkxmDDQR1yZgwM7d1dwgZeJmz8MasEAaSNQ2W
 
-sprite $KhandaSm [13x12/16z] PS650OD00C300E-M_QUjU-_uiojtMQPct62Jg5EQeAoqZdNi9fIWGxeJbQKPhMITML41rRgh7S254uMhpP8MBuuTu0m
+sprite $KhandaSm [13x12/16z] NOk50SHG2CLI_mRPVzfpRN1vS6PIdcmIUl2OlOs6D479-MRCxYYhTka6AldGMDarTaK5LEkaTW0J0-M9PKy-s1xb2W
 
 sprite $KhandaMd [17x16/16z] {
-LSk5WSGW5431by3wXkc_sdCTz5jz6lqt-0ssMs7LupDsxmvxLD7c0bqzFgVFSaixzQ0fjw71tg8ih9wC7gmsA6mDt8BFgs1jrWwNAd3SOVLkPsvqeKzx9yUn
-HhzinxpgBwjFhm
+LSZ5WSH0402n6diPMlb7UunwgYzx_-tqwrgOkbUrtBh1YYhA6JgxrqQRNDEYxhvYrquDPJ0zMDsPWaA5Qn1KCCi4fohmlC5KjTYYCtrQxPxFsVgbvtxMNwPF
+hm
 }
 
 sprite $KhandaLg [22x20/16z] {
-RS-5TKGX503HuHlEzDzj3X3VlRZp-95vO_XcMhNnInM2UpPwitGBk5HmJpzwq4oQDT0KG0MbUXnc7irmVircGx3CMLdrmJ1qh-P5KI6gaSDbW2fSgd3hzoO1
-rVuLnQ5QWUP4LyFZnEJoP8_cb9c2VmosIzk15kuzkTs0QjtTRyLwUYX_79tk5Jh_p5c-V
+RSu73eGW503H-TWLcFlVTWF4RFFH9mtU3XvK7x9gXhVBTrsSw8eds5tWoAj2TjTZt0HGGRcCvCQg1yHT3y6zLM5IeHh5b9quLPZLZMHNGPNnXaNV9w1Qxl-6
+wWLa6ueQgmsDtNeOsMQZ2RzKXgGvq9Fv7M41LAz-VJkyag5yIOLYYiAFLhcz
 }
 
-!procedure Khanda($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Khanda', $name, $tech)
+!procedure Khanda($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Khanda', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CalendarDays')
 
 ' renders the element
-CalendarDays('CalendarDays', 'Calendar Days', 'an optional tech label')
+CalendarDays('CalendarDays', 'Calendar Days', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CalendarDays')
 
 ' renders the element
-CalendarDays('CalendarDays', 'Calendar Days', 'an optional tech label')
+CalendarDays('CalendarDays', 'Calendar Days', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

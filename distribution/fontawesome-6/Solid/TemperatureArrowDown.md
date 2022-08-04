@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TemperatureArrowDown')
 
 ' renders the element
-TemperatureArrowDown('TemperatureArrowDown', 'Temperature Arrow Down', 'an optional tech label')
+TemperatureArrowDown('TemperatureArrowDown', 'Temperature Arrow Down', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TemperatureArrowDown')
 
 ' renders the element
-TemperatureArrowDown('TemperatureArrowDown', 'Temperature Arrow Down', 'an optional tech label')
+TemperatureArrowDown('TemperatureArrowDown', 'Temperature Arrow Down', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

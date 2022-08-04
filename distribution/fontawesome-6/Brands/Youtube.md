@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Youtube')
 
 ' renders the element
-Youtube('Youtube', 'Youtube', 'an optional tech label')
+Youtube('Youtube', 'Youtube', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Youtube')
 
 ' renders the element
-Youtube('Youtube', 'Youtube', 'an optional tech label')
+Youtube('Youtube', 'Youtube', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

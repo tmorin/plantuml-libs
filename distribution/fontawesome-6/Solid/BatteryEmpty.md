@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BatteryEmpty')
 
 ' renders the element
-BatteryEmpty('BatteryEmpty', 'Battery Empty', 'an optional tech label')
+BatteryEmpty('BatteryEmpty', 'Battery Empty', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BatteryEmpty')
 
 ' renders the element
-BatteryEmpty('BatteryEmpty', 'Battery Empty', 'an optional tech label')
+BatteryEmpty('BatteryEmpty', 'Battery Empty', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

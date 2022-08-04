@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Salesforce')
 
 ' renders the element
-Salesforce('Salesforce', 'Salesforce', 'an optional tech label')
+Salesforce('Salesforce', 'Salesforce', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Salesforce')
 
 ' renders the element
-Salesforce('Salesforce', 'Salesforce', 'an optional tech label')
+Salesforce('Salesforce', 'Salesforce', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

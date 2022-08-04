@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ListOl')
 
 ' renders the element
-ListOl('ListOl', 'List Ol', 'an optional tech label')
+ListOl('ListOl', 'List Ol', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ListOl')
 
 ' renders the element
-ListOl('ListOl', 'List Ol', 'an optional tech label')
+ListOl('ListOl', 'List Ol', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

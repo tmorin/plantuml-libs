@@ -2,12 +2,12 @@
 
 sprite $StampXs [10x10/16z] Om01VY26CFYXJ1OuYm6PnG6XmO0NoC043FoSOC33Zv05
 
-sprite $StampSm [12x12/16z] PSor0SC00CJ03yTu-qzhPb-bIXczPLNYiJJKIpVuPe7SkZRx9tQrtSyksraRcxe7
+sprite $StampSm [12x12/16z] PSp50O002010xFRsdzPkxqCJgroSMgu2-YCVa3y6ySjxkpg2Iy-buXBNPsEuz3C
 
-sprite $StampMd [16x16/16z] LSl50K0n309GljRB_jFMBUyK0NI6BmuimbuDgxqxLW-cN_oBI59Z--KR_gZVaPCVrUszAKLAYX8Y_sSAlCiU5lA2B203
+sprite $StampMd [16x16/16z] NSl50K0n309GljRB_jFM_TqI09NYYmKJDq_5RDw6sJtkvyZXq_alzxl7iClyzknidIxUcpj_tEAuuVbTdUELRZUGm3v01
 
-sprite $StampLg [20x20/16z] ZSx50GD13CLGBVEe_sh3yCDvDxEvMXnur7jKaJnP2OrdX3PppxDfUhq1sPQv4LBtT68qRCtrZLJ05-leVmPVCUWKLeL1wp0ez3w3oYShUm
+sprite $StampLg [20x20/16z] ZSxL0O0020JGimkz_QUrWx3U7mqE7IjO1HSmk18e6JTGSfKBirgZstIZtEHg6BcRhQdqsV6QDW0CfEO_5IDKPAC8kTvDb6hBUOZF22O
 
-!procedure Stamp($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Stamp', $name, $tech)
+!procedure Stamp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Stamp', $name, $tech, $desc)
 !endprocedure

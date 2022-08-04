@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Language')
 
 ' renders the element
-Language('Language', 'Language', 'an optional tech label')
+Language('Language', 'Language', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Language')
 
 ' renders the element
-Language('Language', 'Language', 'an optional tech label')
+Language('Language', 'Language', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

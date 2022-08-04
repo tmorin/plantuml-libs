@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Cat')
 
 ' renders the element
-Cat('Cat', 'Cat', 'an optional tech label')
+Cat('Cat', 'Cat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Cat')
 
 ' renders the element
-Cat('Cat', 'Cat', 'an optional tech label')
+Cat('Cat', 'Cat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

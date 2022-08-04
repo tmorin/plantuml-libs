@@ -2,15 +2,15 @@
 
 sprite $CarOnXs [8x10/16z] HSV50O1G50Emu2Ve_jDYt_AqNXUolSCfzRBlkrS-7Ezu9uMi_nxP9my
 
-sprite $CarOnSm [10x12/16z] DSU74O003CD0qNkq_xQSS_2f9YhhtW0xEVNtI4oqmSYdLMNbIpm4FnTknY6knYx-S2Vq1G
+sprite $CarOnSm [10x12/16z] BOo50GC1309ftmtsdpP-SKN2TEyHJbLfgUmJaXyQ9PsG56STXo8P7cYhv1AqL7P6DaHspYi7
 
-sprite $CarOnMd [14x16/16z] NSg50GCn34DH7KFWxxzjOwly0aPPTvZF-5SKwidrhZgwc9zLOP9c3OlUxXeE9R2II_HfcC6ZLQ55dA0RI9Y99a96mK78-B_9FblDQfOLU
+sprite $CarOnMd [14x16/16z] HSY55SCm301H1Snm-s_R2bvynY_njZztrVl5C2ljqqOQbyYZ6lhxRx-YFhNa81gAXnr3ls_JuZLj3nISXEK3UmKINbATJAzuqtI51lm
 
 sprite $CarOnLg [17x20/16z] {
-JSm73iCW44JHSQNpxt_Q53QZ-Ba07sdrqq_lhbZeiTvGdW44wHycRKM78_AcZrt-h_N-kcHOrTB1jXNm3J7p08KMkm5tI71uWdqAJ6n04sXpq4KNbEfmpnMU
-8WoRH92T3hP1UGC
+JSm56eD034JXmLbzzpzj9UbyvOUrc7xwvjkgG5VOe3m38BZ-WKcBe0ChNRPu3-lvTSYmgj31iWLdo9aRABMy3TZI1QidOAjWOWEQG7901rrGgWFxZC1J1ePD
+CY1R7R05oXi
 }
 
-!procedure CarOn($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CarOn', $name, $tech)
+!procedure CarOn($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CarOn', $name, $tech, $desc)
 !endprocedure

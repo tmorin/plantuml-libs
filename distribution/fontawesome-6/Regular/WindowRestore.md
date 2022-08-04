@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/WindowRestore')
 
 ' renders the element
-WindowRestore('WindowRestore', 'Window Restore', 'an optional tech label')
+WindowRestore('WindowRestore', 'Window Restore', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/WindowRestore')
 
 ' renders the element
-WindowRestore('WindowRestore', 'Window Restore', 'an optional tech label')
+WindowRestore('WindowRestore', 'Window Restore', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

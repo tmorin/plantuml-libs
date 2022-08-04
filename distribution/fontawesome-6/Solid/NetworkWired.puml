@@ -1,19 +1,19 @@
 ' definition of the Item fontawesome-6/Solid/NetworkWired
 
-sprite $NetworkWiredXs [12x10/16z] Om02Tdv-VWOe03BX723Dn8yY3WCG5Xy_0i05-M6A8IIO3oQP-P750G
+sprite $NetworkWiredXs [12x10/16z] Om02Tdv-VWOe03BX723Do8yY3WCG5Xy_0i05-M6A8II43p4AMHm
 
-sprite $NetworkWiredSm [15x12/16z] LSq53aGX00FH-Oxt_hVTnU55cecLxDCVWugP9yGbW_TQClDaHw5GDsa3157eMaxAV2ZUzoqkvKae03c1d0L7cV03
+sprite $NetworkWiredSm [15x12/16z] LSp50G0X34JHlwum_LUBwxl4GtGfe57IonNCKFxVDqwZBwLBeZz7gmdmgpz4IOaNCkkwYbKnMFG3iGHYcR2ay7i
 
 sprite $NetworkWiredMd [20x16/16z] {
-PS-54S0W40NHZqNlsFwhZNlUs0wETiwgrOEpqqEbf9ISy1gBahvZDeuZhx6EdPvYD4gyjXtWBA_yAOHWfB2hb10aZGPkxLND4kp2evmsvmn9HbuuSHbBalOn
-BMmRyyK-jbTKm-xncHa
+POy75eGm24HXjg_WtF-qcbw_9fb7HpBEo4S6d9dHTl89mAcJ3U5URNOS1oVRXncPCJvwMe6ioa_kYAeQePamayO-Xv5kdwRUGJ2ZJSL1Nm18Y141ZxQqGhRb
+cQBD0zcMbSYxLNbLTGC
 }
 
 sprite $NetworkWiredLg [25x20/16z] {
-bSu55iD020JGYQ_1tF-sXLTAtNuyACB4iuu7l1YuCp4z1MOO-ISmkY7vRhZWtYQYf4Z7i-EkpShNLFa6IgtLeZMHpUuxtA0YaSl3efFF3mtOCr009a_YwYBG
-_Rr602u23MQFmEmYqFtTaz_Fc6wtgWm39m
+bT053WGn30D0BvVz_zUsYSx7F0krL0vauad60rBAkmu-TSmmzP-EaWrVT4Z5lQNMHjQQyMmZSRNojTRu1aACqNhZ1Pdily8LjliRAOZbWvA0XPHmLp7lc9qw
+ekUW3ZXr732xEYQdZkZv8D_lSN-gI2aO
 }
 
-!procedure NetworkWired($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/NetworkWired', $name, $tech)
+!procedure NetworkWired($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/NetworkWired', $name, $tech, $desc)
 !endprocedure

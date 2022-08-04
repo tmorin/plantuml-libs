@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HandsPraying')
 
 ' renders the element
-HandsPraying('HandsPraying', 'Hands Praying', 'an optional tech label')
+HandsPraying('HandsPraying', 'Hands Praying', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HandsPraying')
 
 ' renders the element
-HandsPraying('HandsPraying', 'Hands Praying', 'an optional tech label')
+HandsPraying('HandsPraying', 'Hands Praying', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

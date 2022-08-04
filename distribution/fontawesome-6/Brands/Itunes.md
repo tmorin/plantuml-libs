@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Itunes')
 
 ' renders the element
-Itunes('Itunes', 'Itunes', 'an optional tech label')
+Itunes('Itunes', 'Itunes', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Itunes')
 
 ' renders the element
-Itunes('Itunes', 'Itunes', 'an optional tech label')
+Itunes('Itunes', 'Itunes', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

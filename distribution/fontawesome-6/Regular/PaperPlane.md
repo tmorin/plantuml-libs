@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/PaperPlane')
 
 ' renders the element
-PaperPlane('PaperPlane', 'Paper Plane', 'an optional tech label')
+PaperPlane('PaperPlane', 'Paper Plane', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/PaperPlane')
 
 ' renders the element
-PaperPlane('PaperPlane', 'Paper Plane', 'an optional tech label')
+PaperPlane('PaperPlane', 'Paper Plane', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

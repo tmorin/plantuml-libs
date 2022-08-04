@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Swatchbook')
 
 ' renders the element
-Swatchbook('Swatchbook', 'Swatchbook', 'an optional tech label')
+Swatchbook('Swatchbook', 'Swatchbook', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Swatchbook')
 
 ' renders the element
-Swatchbook('Swatchbook', 'Swatchbook', 'an optional tech label')
+Swatchbook('Swatchbook', 'Swatchbook', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

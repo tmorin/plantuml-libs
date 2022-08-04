@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Italic')
 
 ' renders the element
-Italic('Italic', 'Italic', 'an optional tech label')
+Italic('Italic', 'Italic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Italic')
 
 ' renders the element
-Italic('Italic', 'Italic', 'an optional tech label')
+Italic('Italic', 'Italic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

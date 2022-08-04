@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Qrcode')
 
 ' renders the element
-Qrcode('Qrcode', 'Qrcode', 'an optional tech label')
+Qrcode('Qrcode', 'Qrcode', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Qrcode')
 
 ' renders the element
-Qrcode('Qrcode', 'Qrcode', 'an optional tech label')
+Qrcode('Qrcode', 'Qrcode', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

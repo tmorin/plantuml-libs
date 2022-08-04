@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/WheelchairMove')
 
 ' renders the element
-WheelchairMove('WheelchairMove', 'Wheelchair Move', 'an optional tech label')
+WheelchairMove('WheelchairMove', 'Wheelchair Move', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/WheelchairMove')
 
 ' renders the element
-WheelchairMove('WheelchairMove', 'Wheelchair Move', 'an optional tech label')
+WheelchairMove('WheelchairMove', 'Wheelchair Move', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

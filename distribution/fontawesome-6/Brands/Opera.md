@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Opera')
 
 ' renders the element
-Opera('Opera', 'Opera', 'an optional tech label')
+Opera('Opera', 'Opera', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Opera')
 
 ' renders the element
-Opera('Opera', 'Opera', 'an optional tech label')
+Opera('Opera', 'Opera', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

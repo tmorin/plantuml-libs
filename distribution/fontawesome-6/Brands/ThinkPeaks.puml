@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Brands/ThinkPeaks
 
-sprite $ThinkPeaksXs [11x10/16z] FSh50O1000F1mPtqNotExISA6eMzk5GJtvmHiCKOC5NC5GjJi4SbzVVdepXKJW
+sprite $ThinkPeaksXs [11x10/16z] DS570S1000CWkdVZt-sz0c2cVXMNoWduuWouS4yy7C4VP8PPL40D
 
-sprite $ThinkPeaksSm [13x12/16z] HS650SD050KWudvl_sdhpGUWKyOeCVfR7F5tNQVDLxDgfwyzJC913CXgxdHJe1_IYA_qb8qIdW
+sprite $ThinkPeaksSm [13x12/16z] PSkr0SDG50F0C_kZzjysLVYQX_9d3PvYytHfyJH6Lvwzs-o06WwXFTEvdTW3ov9905byk7q83m
 
-sprite $ThinkPeaksMd [17x16/16z] TSw50GGX34JHZplJVxNdiiR3DM5XTFOq3LiJCzcmtQU-lI8an8-hnVjI_VO2RAwat2pO6HBOzBemD_UWkayEqrTV0D5vwLPw3Np917QAvq0Sn09t
+sprite $ThinkPeaksMd [17x16/16z] TSh50GGX04MnXpk__shNPOoSmyBex6coCs6oORgFdGqX8NviBTwMwhO1DYN61fWP4fW4YBbvKEtaPThgCo0wBzrAG3TyYS1ESHo8Wv3X3W
 
 sprite $ThinkPeaksLg [22x20/16z] {
-PSu5aaKn24JH6tbnwFslTbn-YXEX36Z-58YwGoHl16jd4OXa4susYY5kHKXvE1ULxaMeNAaCWSQzK6alG5Zdpzn90Ck-wyv0Kh86WFAUq1pWp2A-F8v02SZ2
-Az-yZhCsW6fULsxudlBFUXq4IK3qFJLG8lhUymu
+ZSh5WG8150MmZFj__LUxBZZa77zQhat5jTJeoherSIKSYml7s1roNPDsBawbdQgDj4uCXv2vZHDfrXLnZFuicy1wD86jSNfYM-WBzgaDC9GGQA8wG7NJlcoG
+lbtzQ2E1lfmufdPsBMvPDbxEO-4T
 }
 
-!procedure ThinkPeaks($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/ThinkPeaks', $name, $tech)
+!procedure ThinkPeaks($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/ThinkPeaks', $name, $tech, $desc)
 !endprocedure

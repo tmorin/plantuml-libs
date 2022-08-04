@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PhoneFlip')
 
 ' renders the element
-PhoneFlip('PhoneFlip', 'Phone Flip', 'an optional tech label')
+PhoneFlip('PhoneFlip', 'Phone Flip', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PhoneFlip')
 
 ' renders the element
-PhoneFlip('PhoneFlip', 'Phone Flip', 'an optional tech label')
+PhoneFlip('PhoneFlip', 'Phone Flip', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

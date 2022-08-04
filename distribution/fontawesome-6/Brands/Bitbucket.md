@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Bitbucket')
 
 ' renders the element
-Bitbucket('Bitbucket', 'Bitbucket', 'an optional tech label')
+Bitbucket('Bitbucket', 'Bitbucket', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Bitbucket')
 
 ' renders the element
-Bitbucket('Bitbucket', 'Bitbucket', 'an optional tech label')
+Bitbucket('Bitbucket', 'Bitbucket', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

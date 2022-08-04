@@ -2,15 +2,15 @@
 
 sprite $ShopwareXs [10x10/16z] Om01PWOmOEC70GY32oB4py_E06E1221WXhE011z42io5AGG152O
 
-sprite $ShopwareSm [12x12/16z] FOh50S0W5CLIzxB_jF0zbwSO2y7Vb5EjcgtQoupNmFm-vhyu_eltJOaFVEuzi7DgU216OxAmfXy
+sprite $ShopwareSm [12x12/16z] HOkr0S0m40ClpF7-qneUrOWHB1Z-Cd0EESGIwIL2Os1w7z6V3Vz5SxdR1ZxHPbWvXtd0o-ncrmq
 
-sprite $ShopwareMd [16x16/16z] LSo53S0m34JHAuUp_xQLzODFP3pXk3HT5KAcopbVetttOqtM7cmEUjR52g_3agol6EyFlUXD77qMhbB9AS8CYgD_AyeZtBLJuwkvhVm1
+sprite $ShopwareMd [16x16/16z] LSx50K0X30FGu0xxJ_k5eEzMBqWeRB8Hg30gfQWLwhiPsmxb5TVsSH3_ffudDUk6CVPyN741oTgufs9hNLgnRLGLzeS4KEXH_-y5
 
 sprite $ShopwareLg [20x20/16z] {
-PO-53SHG34C_C-m_xO6L1jGd3XZSWu_EuCS5f_2eN856_O9LK_0XgQjXj332ce5yTGPHzlkl6cbsC3kFDUGsPliIKNu3PzH96yz8a6yNANV9smkNjG696Lv3
-RcWos9ARPyKnePz_29fy0G
+POy55iKW30HtwyxzJ_ibH5-doa0C1aTKZYOyuPSMgDgRSCq3oI6TEf0HDRxJhoYapFS_AzKzeXuhpV_xzcF26B4qb_DXo-w1ClpBQEOTpZxxiCWqvMIMpeJ8
+6ynkRtSB7ExFlmazzGK
 }
 
-!procedure Shopware($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Shopware', $name, $tech)
+!procedure Shopware($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Shopware', $name, $tech, $desc)
 !endprocedure

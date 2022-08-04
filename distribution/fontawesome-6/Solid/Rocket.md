@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Rocket')
 
 ' renders the element
-Rocket('Rocket', 'Rocket', 'an optional tech label')
+Rocket('Rocket', 'Rocket', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Rocket')
 
 ' renders the element
-Rocket('Rocket', 'Rocket', 'an optional tech label')
+Rocket('Rocket', 'Rocket', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

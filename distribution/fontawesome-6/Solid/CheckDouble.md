@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CheckDouble')
 
 ' renders the element
-CheckDouble('CheckDouble', 'Check Double', 'an optional tech label')
+CheckDouble('CheckDouble', 'Check Double', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CheckDouble')
 
 ' renders the element
-CheckDouble('CheckDouble', 'Check Double', 'an optional tech label')
+CheckDouble('CheckDouble', 'Check Double', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

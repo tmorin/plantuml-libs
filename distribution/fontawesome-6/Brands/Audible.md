@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Audible')
 
 ' renders the element
-Audible('Audible', 'Audible', 'an optional tech label')
+Audible('Audible', 'Audible', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Audible')
 
 ' renders the element
-Audible('Audible', 'Audible', 'an optional tech label')
+Audible('Audible', 'Audible', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

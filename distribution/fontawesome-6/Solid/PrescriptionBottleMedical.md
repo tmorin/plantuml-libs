@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PrescriptionBottleMedical')
 
 ' renders the element
-PrescriptionBottleMedical('PrescriptionBottleMedical', 'Prescription Bottle Medical', 'an optional tech label')
+PrescriptionBottleMedical('PrescriptionBottleMedical', 'Prescription Bottle Medical', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PrescriptionBottleMedical')
 
 ' renders the element
-PrescriptionBottleMedical('PrescriptionBottleMedical', 'Prescription Bottle Medical', 'an optional tech label')
+PrescriptionBottleMedical('PrescriptionBottleMedical', 'Prescription Bottle Medical', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SquareNfi')
 
 ' renders the element
-SquareNfi('SquareNfi', 'Square Nfi', 'an optional tech label')
+SquareNfi('SquareNfi', 'Square Nfi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SquareNfi')
 
 ' renders the element
-SquareNfi('SquareNfi', 'Square Nfi', 'an optional tech label')
+SquareNfi('SquareNfi', 'Square Nfi', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CircleDollarToSlot')
 
 ' renders the element
-CircleDollarToSlot('CircleDollarToSlot', 'Circle Dollar To Slot', 'an optional tech label')
+CircleDollarToSlot('CircleDollarToSlot', 'Circle Dollar To Slot', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CircleDollarToSlot')
 
 ' renders the element
-CircleDollarToSlot('CircleDollarToSlot', 'Circle Dollar To Slot', 'an optional tech label')
+CircleDollarToSlot('CircleDollarToSlot', 'Circle Dollar To Slot', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

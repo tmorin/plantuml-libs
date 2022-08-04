@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/Horse
 
-sprite $HorseXs [11x10/16z] HSR50S0m3C10bRdQVzfYOj_hA3OjKql7l_uEMmkGw5RQ0dZ2B5-FhAKt
+sprite $HorseXs [11x10/16z] HSQr0S104C0m1wgGzvysz0UgHDWrfaQNKOVJsG1ItQCpW1UiylVi6dq
 
-sprite $HorseSm [13x12/16z] RSY50O1030J1mvtjlrhatU8J-HW0Vzya0AuV-t4Svt-Z2nSpB7U0nEGnV1WF1_rXVgl7l_esTeyN
+sprite $HorseSm [13x12/16z] POo50O0m40E3ExV_j51t_QZYce0ulnG0U2muh-kwxOmUmbfXUnEGc2AOBBW223sZj2OGtnxi4Vm
 
-sprite $HorseMd [17x16/16z] NOs50KGX34EBE-o_xUNohH0qhoPAQK7AB-hm_WI3eBQ_O2TBy7kK1y1Z22IRlWEq6lK3aK0LSPen-BNnL0Yd985UC9cg09g63JYqK82_oUTgzGC
+sprite $HorseMd [17x16/16z] NSs50SGW04FHr8l-_QSzmI7umpJa0L0FASlwM24aiEuV8AOhZfOtW600lV8pI0JRuKwW3ls_Dv1kf3YuabU8e0aix1Fiu2OGn3Jmw9Sl
 
 sprite $HorseLg [22x20/16z] {
-PSy53iGW5411g1kT-vzsjVR3Yv71Kool8EBVb82Rew10jmKTFDVcUVrLe1mwUDONf8MecR51rFIfo6ebHMqE7O8UVupQfAE2dDfnsV7yv_uRJ0_DM2fDABNk
-g7L1hhHrQ7_f6m
+RS_50SKm3C3GuCUwsd_QCXbqomidNVwpfd4tHE70aTATog2qejP-_rkoWXpwubcLLN-WDK4lE5qIKg1OBOSsfSSVjPPq9DkAt7yZyFpdcDOQMd-XYjVpEAs_
+KCivg9VE
 }
 
-!procedure Horse($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Horse', $name, $tech)
+!procedure Horse($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Horse', $name, $tech, $desc)
 !endprocedure

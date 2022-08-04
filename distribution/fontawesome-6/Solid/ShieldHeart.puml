@@ -2,15 +2,15 @@
 
 sprite $ShieldHeartXs [10x10/16z] FOkr4G0n4CJq45lzT-ivLBH88CbZ47v0F-Ia8bZrMpdlN3v3XGoHbBW
 
-sprite $ShieldHeartSm [12x12/16z] HSc55SCm34NHruRnxxzjZeNN5cD4M3JyWLjfGmtfXXcydnbkwyKmxgiFbL_a_Ip7S6gOC7DiFm
+sprite $ShieldHeartSm [12x12/16z] HSc75O0m30FHetUq_xOyMK1-uauHn2JhW5EV1JL89uoGliVEweNvFcVuyutI3mfib_LONG0U
 
-sprite $ShieldHeartMd [16x16/16z] NOw50S0m40AfUzb_sYXKSj5tKEc93oipeq8NpGQ0Fux6Ph41NC1WUqBbRkmhTpn8pUv8TkMcJMhWBNE3sjx5fDe8DxQvGznMRvOoAXC1
+sprite $ShieldHeartMd [16x16/16z] NOw50O1G44AnM_RVrYkiz_CQ92tnOgRJbtLGB6Rnm_Qp6RON0Qti3ibPTliqNh2vCyaVvU1Zd_KkBZKTT7xwQf3C5SKfzM8oiu5p0G
 
 sprite $ShieldHeartLg [20x20/16z] {
-RP050e0m4CE2E_t_Qx6ZGuCklIccLiQ3hDTESpDAZ65QFPXAq8VknmtX2cW4p9VhCD7Qen8pIghfZxVPAt8gRLYLPqD9HZxlvKdcLwmpBVspCSH_8Izrvxa9
-tdB6b0zbV7h6fpYN12i
+PS-54S0m34FHN-Pe_srx3iCxCgb0ielEBREHJSfUCASQtmmQN6ZmXDa2Xm1NPXT9w6mraxmMucw-ooucPZidMcCZKusSdUVXd2iKjqiip1FgCD84flq9-g4Z
+MSPHldnfd9AR2Nu
 }
 
-!procedure ShieldHeart($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ShieldHeart', $name, $tech)
+!procedure ShieldHeart($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ShieldHeart', $name, $tech, $desc)
 !endprocedure

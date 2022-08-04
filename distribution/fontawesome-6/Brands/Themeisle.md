@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Themeisle')
 
 ' renders the element
-Themeisle('Themeisle', 'Themeisle', 'an optional tech label')
+Themeisle('Themeisle', 'Themeisle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Themeisle')
 
 ' renders the element
-Themeisle('Themeisle', 'Themeisle', 'an optional tech label')
+Themeisle('Themeisle', 'Themeisle', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

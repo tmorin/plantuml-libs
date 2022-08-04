@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MobileScreen')
 
 ' renders the element
-MobileScreen('MobileScreen', 'Mobile Screen', 'an optional tech label')
+MobileScreen('MobileScreen', 'Mobile Screen', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MobileScreen')
 
 ' renders the element
-MobileScreen('MobileScreen', 'Mobile Screen', 'an optional tech label')
+MobileScreen('MobileScreen', 'Mobile Screen', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

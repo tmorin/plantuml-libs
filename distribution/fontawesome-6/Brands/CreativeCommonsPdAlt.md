@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/CreativeCommonsPdAlt')
 
 ' renders the element
-CreativeCommonsPdAlt('CreativeCommonsPdAlt', 'Creative Commons Pd Alt', 'an optional tech label')
+CreativeCommonsPdAlt('CreativeCommonsPdAlt', 'Creative Commons Pd Alt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/CreativeCommonsPdAlt')
 
 ' renders the element
-CreativeCommonsPdAlt('CreativeCommonsPdAlt', 'Creative Commons Pd Alt', 'an optional tech label')
+CreativeCommonsPdAlt('CreativeCommonsPdAlt', 'Creative Commons Pd Alt', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/InternetExplorer')
 
 ' renders the element
-InternetExplorer('InternetExplorer', 'Internet Explorer', 'an optional tech label')
+InternetExplorer('InternetExplorer', 'Internet Explorer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/InternetExplorer')
 
 ' renders the element
-InternetExplorer('InternetExplorer', 'Internet Explorer', 'an optional tech label')
+InternetExplorer('InternetExplorer', 'Internet Explorer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

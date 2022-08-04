@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FlagUsa')
 
 ' renders the element
-FlagUsa('FlagUsa', 'Flag Usa', 'an optional tech label')
+FlagUsa('FlagUsa', 'Flag Usa', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FlagUsa')
 
 ' renders the element
-FlagUsa('FlagUsa', 'Flag Usa', 'an optional tech label')
+FlagUsa('FlagUsa', 'Flag Usa', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

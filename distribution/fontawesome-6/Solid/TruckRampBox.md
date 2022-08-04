@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TruckRampBox')
 
 ' renders the element
-TruckRampBox('TruckRampBox', 'Truck Ramp Box', 'an optional tech label')
+TruckRampBox('TruckRampBox', 'Truck Ramp Box', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TruckRampBox')
 
 ' renders the element
-TruckRampBox('TruckRampBox', 'Truck Ramp Box', 'an optional tech label')
+TruckRampBox('TruckRampBox', 'Truck Ramp Box', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

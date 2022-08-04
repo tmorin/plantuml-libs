@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Bridge')
 
 ' renders the element
-Bridge('Bridge', 'Bridge', 'an optional tech label')
+Bridge('Bridge', 'Bridge', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Bridge')
 
 ' renders the element
-Bridge('Bridge', 'Bridge', 'an optional tech label')
+Bridge('Bridge', 'Bridge', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

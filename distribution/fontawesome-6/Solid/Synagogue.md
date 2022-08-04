@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Synagogue')
 
 ' renders the element
-Synagogue('Synagogue', 'Synagogue', 'an optional tech label')
+Synagogue('Synagogue', 'Synagogue', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Synagogue')
 
 ' renders the element
-Synagogue('Synagogue', 'Synagogue', 'an optional tech label')
+Synagogue('Synagogue', 'Synagogue', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

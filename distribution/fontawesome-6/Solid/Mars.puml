@@ -2,15 +2,15 @@
 
 sprite $MarsXs [8x10/16z] Oq01_Fm8cXy4-80KAuZ7oGyHveVIZ62Q7QmCeeiFJ04
 
-sprite $MarsSm [10x12/16z] NOl50O0030E3ExV_jCYL5_L6yW_WkoQlPH_41emiWQuv8LbeDLI_VpBJYJc6x5vzMOtbwDvr0m
+sprite $MarsSm [10x12/16z] NSZ50S0m3CLGbRdQVzh0F-QPpKY5EB9TxvpVQd2X2x_2vGmeARY4qoc_j9atssn7NDy2K04
 
-sprite $MarsMd [14x16/16z] ROw50S0W4CHIzsR_QUiA17q_qcHkF5P-MHVrPRNZK55uMBqNNI635pqRwjbZ1hghKNEyJrijOBwiJ7Ce3nzCUdLfo4OTJaKN7xcEF6GP9oi
+sprite $MarsMd [14x16/16z] TSp50GH14CD0BGo3ye_scA5-3JP_gFwRuctAlQsiNgRgJTcaULDlOM3L2HJbBEdjTA4BpBTfr_Ky3Bsr1EZQpjFY3LUUTRuT0G
 
 sprite $MarsLg [17x20/16z] {
-VSs55GGn24NHFnhFwx_RXSEwtT6W-YSvFMISdiptm7OBRAMtl6Z7HQKRmE817ZOfgMDImdGvuBmjbIamxakFADWZaA14O8l00TK-BUAcGxBF4hFYPvMPiUO4
-fjpAdS86OTDDnHJzS04
+VSw50O0m34JHmvs__xRaS7zesvZ-PAP3ZUbal6zasqRIz5sTB6kMI1k0n1iSqaXJJwWgGYy3YgsflmqCUrEVB9bMGhDiQ5506v_E--RgbOVQGu2j5faJO9Gb
+xBH8ZpatBQ7HXma
 }
 
-!procedure Mars($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Mars', $name, $tech)
+!procedure Mars($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Mars', $name, $tech, $desc)
 !endprocedure

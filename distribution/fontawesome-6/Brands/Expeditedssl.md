@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Expeditedssl')
 
 ' renders the element
-Expeditedssl('Expeditedssl', 'Expeditedssl', 'an optional tech label')
+Expeditedssl('Expeditedssl', 'Expeditedssl', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Expeditedssl')
 
 ' renders the element
-Expeditedssl('Expeditedssl', 'Expeditedssl', 'an optional tech label')
+Expeditedssl('Expeditedssl', 'Expeditedssl', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

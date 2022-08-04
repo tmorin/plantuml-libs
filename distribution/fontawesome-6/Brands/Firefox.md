@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Firefox')
 
 ' renders the element
-Firefox('Firefox', 'Firefox', 'an optional tech label')
+Firefox('Firefox', 'Firefox', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Firefox')
 
 ' renders the element
-Firefox('Firefox', 'Firefox', 'an optional tech label')
+Firefox('Firefox', 'Firefox', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MartiniGlassEmpty')
 
 ' renders the element
-MartiniGlassEmpty('MartiniGlassEmpty', 'Martini Glass Empty', 'an optional tech label')
+MartiniGlassEmpty('MartiniGlassEmpty', 'Martini Glass Empty', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MartiniGlassEmpty')
 
 ' renders the element
-MartiniGlassEmpty('MartiniGlassEmpty', 'Martini Glass Empty', 'an optional tech label')
+MartiniGlassEmpty('MartiniGlassEmpty', 'Martini Glass Empty', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

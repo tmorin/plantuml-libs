@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Reply')
 
 ' renders the element
-Reply('Reply', 'Reply', 'an optional tech label')
+Reply('Reply', 'Reply', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Reply')
 
 ' renders the element
-Reply('Reply', 'Reply', 'an optional tech label')
+Reply('Reply', 'Reply', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

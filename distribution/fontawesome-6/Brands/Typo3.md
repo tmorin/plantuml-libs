@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Typo3')
 
 ' renders the element
-Typo3('Typo3', 'Typo3', 'an optional tech label')
+Typo3('Typo3', 'Typo3', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Typo3')
 
 ' renders the element
-Typo3('Typo3', 'Typo3', 'an optional tech label')
+Typo3('Typo3', 'Typo3', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

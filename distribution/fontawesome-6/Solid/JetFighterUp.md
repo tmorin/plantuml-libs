@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/JetFighterUp')
 
 ' renders the element
-JetFighterUp('JetFighterUp', 'Jet Fighter Up', 'an optional tech label')
+JetFighterUp('JetFighterUp', 'Jet Fighter Up', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/JetFighterUp')
 
 ' renders the element
-JetFighterUp('JetFighterUp', 'Jet Fighter Up', 'an optional tech label')
+JetFighterUp('JetFighterUp', 'Jet Fighter Up', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

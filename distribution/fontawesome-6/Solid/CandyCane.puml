@@ -2,15 +2,15 @@
 
 sprite $CandyCaneXs [10x10/16z] Om03TZu62E1duEVd1p70D8W5vS0P712QcHiiniuF1CmGvHmW0HweDh0G8uG1
 
-sprite $CandyCaneSm [12x12/16z] FSor0G0X0CNGVugJ_QV58TMhejc3rOe7k9UposBwvmEqorVQ15XAWh_B0V0qtM15K8jm5WaIpnbuhIe
+sprite $CandyCaneSm [12x12/16z] BSh50GH14CD0BGyh_sWFNPy6cx_3GhYhsLrraUDE48j9g6QRw0rG_Tg1JGjs0FjfgbEd6t_QY3S
 
-sprite $CandyCaneMd [16x16/16z] LOx50S0m4CCkpD7-qvRRI_spfO1yQMGj0WLqAI2GPbGUAG9lZtGFPzVq_EkLBDeTh3v8qDe0_7XgeClyVcC0cgE_gWy0zguJY8NldmPur4ymIzq1
+sprite $CandyCaneMd [16x16/16z] LSh50SH04CJ0CRCh_sWFlQHNWo9pMAF0IbbMWlcUop_RWjHdPmzHSQvDtorH-a3j4rEf1_INf9vnOqagH-TCwZ12zwytfiKS2IGr2L7n1W
 
 sprite $CandyCaneLg [20x20/16z] {
-PSw5RG0m34JH2tF-_jjMBZhg4vejfztRzPXSWAK_6pGnlesK8GRSFARfQQpG2aQlzJ-NI4h8sm0T_p9Vcdu4IE-wi0269jkDNJ19N_A5ge8rVZkOsq7VEZSK
-J7bUajoOjM6sF4pG8qFNwmC
+LSx50S0m34DH5SFv-qzR1lkT0WR92Br7EPaEKFIheCp9bZ6DC0ZJpod85QwmZ9pa5G0v0vC6P5M0Y7uBjyMqCVbnzoqfK_K8qBbCkeqTLerNuQDnwX7--5tp
+tUOYIQPDYbogB4w3d0cYl1q
 }
 
-!procedure CandyCane($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CandyCane', $name, $tech)
+!procedure CandyCane($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CandyCane', $name, $tech, $desc)
 !endprocedure

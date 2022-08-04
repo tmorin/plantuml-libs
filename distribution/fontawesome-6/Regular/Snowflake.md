@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/Snowflake')
 
 ' renders the element
-Snowflake('Snowflake', 'Snowflake', 'an optional tech label')
+Snowflake('Snowflake', 'Snowflake', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/Snowflake')
 
 ' renders the element
-Snowflake('Snowflake', 'Snowflake', 'an optional tech label')
+Snowflake('Snowflake', 'Snowflake', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/NairaSign')
 
 ' renders the element
-NairaSign('NairaSign', 'Naira Sign', 'an optional tech label')
+NairaSign('NairaSign', 'Naira Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/NairaSign')
 
 ' renders the element
-NairaSign('NairaSign', 'Naira Sign', 'an optional tech label')
+NairaSign('NairaSign', 'Naira Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

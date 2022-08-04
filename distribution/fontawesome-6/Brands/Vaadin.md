@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Vaadin')
 
 ' renders the element
-Vaadin('Vaadin', 'Vaadin', 'an optional tech label')
+Vaadin('Vaadin', 'Vaadin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Vaadin')
 
 ' renders the element
-Vaadin('Vaadin', 'Vaadin', 'an optional tech label')
+Vaadin('Vaadin', 'Vaadin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HeartCrack')
 
 ' renders the element
-HeartCrack('HeartCrack', 'Heart Crack', 'an optional tech label')
+HeartCrack('HeartCrack', 'Heart Crack', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HeartCrack')
 
 ' renders the element
-HeartCrack('HeartCrack', 'Heart Crack', 'an optional tech label')
+HeartCrack('HeartCrack', 'Heart Crack', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

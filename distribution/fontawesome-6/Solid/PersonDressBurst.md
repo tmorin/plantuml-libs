@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PersonDressBurst')
 
 ' renders the element
-PersonDressBurst('PersonDressBurst', 'Person Dress Burst', 'an optional tech label')
+PersonDressBurst('PersonDressBurst', 'Person Dress Burst', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PersonDressBurst')
 
 ' renders the element
-PersonDressBurst('PersonDressBurst', 'Person Dress Burst', 'an optional tech label')
+PersonDressBurst('PersonDressBurst', 'Person Dress Burst', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

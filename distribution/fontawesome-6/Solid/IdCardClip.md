@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/IdCardClip')
 
 ' renders the element
-IdCardClip('IdCardClip', 'Id Card Clip', 'an optional tech label')
+IdCardClip('IdCardClip', 'Id Card Clip', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/IdCardClip')
 
 ' renders the element
-IdCardClip('IdCardClip', 'Id Card Clip', 'an optional tech label')
+IdCardClip('IdCardClip', 'Id Card Clip', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CodeMerge')
 
 ' renders the element
-CodeMerge('CodeMerge', 'Code Merge', 'an optional tech label')
+CodeMerge('CodeMerge', 'Code Merge', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CodeMerge')
 
 ' renders the element
-CodeMerge('CodeMerge', 'Code Merge', 'an optional tech label')
+CodeMerge('CodeMerge', 'Code Merge', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

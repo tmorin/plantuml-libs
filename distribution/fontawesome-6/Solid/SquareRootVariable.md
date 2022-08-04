@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SquareRootVariable')
 
 ' renders the element
-SquareRootVariable('SquareRootVariable', 'Square Root Variable', 'an optional tech label')
+SquareRootVariable('SquareRootVariable', 'Square Root Variable', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SquareRootVariable')
 
 ' renders the element
-SquareRootVariable('SquareRootVariable', 'Square Root Variable', 'an optional tech label')
+SquareRootVariable('SquareRootVariable', 'Square Root Variable', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

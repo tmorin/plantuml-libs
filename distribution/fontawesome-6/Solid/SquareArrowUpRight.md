@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SquareArrowUpRight')
 
 ' renders the element
-SquareArrowUpRight('SquareArrowUpRight', 'Square Arrow Up Right', 'an optional tech label')
+SquareArrowUpRight('SquareArrowUpRight', 'Square Arrow Up Right', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SquareArrowUpRight')
 
 ' renders the element
-SquareArrowUpRight('SquareArrowUpRight', 'Square Arrow Up Right', 'an optional tech label')
+SquareArrowUpRight('SquareArrowUpRight', 'Square Arrow Up Right', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/PersonRifle
 
-sprite $PersonRifleXs [11x10/16z] JSR50O100C2muaxtdnOvpoi0wmB-OTA9EtJKCPMX1uz_ggk7SHvjxJ5Nv2-tGEaB
+sprite $PersonRifleXs [11x10/16z] JSR50K81040XxFRjFwtncnDmlH0urTuR7DSwxEa1LTSUZUknRNlDJQgymz8l
 
-sprite $PersonRifleSm [13x12/16z] HSV50O0m0C30u4xsdnRglTyHFGjiGgI6zJmjXy8WtPrpgQBp2wlHe4k8DUwSxYNJW1A3UkEKWpjHYVm
+sprite $PersonRifleSm [13x12/16z] HSV50S0m3C10bRdQVzfYOj_lU1q33F9HUyZiaKKfAVO_cohQdD1PCZonnedLkQG1fSGTcpyu0TJ83G
 
-sprite $PersonRifleMd [17x16/16z] NSm54eGm4031WNZLSlF_rvxXnDCh051CG0Zh66g1V82gJrYkaDG9cd0GW0xMqMA9Glf2p4TFyGjcm0Va2sW2Bn10_Ue1hvZudlCAVIrHLe2im3Gz0AumyG4
+sprite $PersonRifleMd [17x16/16z] XSu50eGm44FHu5J__M-xatKdK7jLoLaOewxecWGiqdW7d7Tepp02FWdTCxY2NPSijTLPKq1zd8a8m4jvG3ACJu219_0HAuntw25HwmAxQyFJqv5p02S
 
 sprite $PersonRifleLg [22x20/16z] {
-PT250G0X20LGkuNzfxr0CV-bprRq1FJ_Hs8LCu1VI76YnJ-MggS6Kd-e8JMidFfXQHF8XNLKlLDUL2f9q_xAhR65PiqLMszapOlYha2QLgNCfbD1jIE0LJDl
-IrqZm5_BQbZxYsU1DfUhvbRAhkxMIeju0G
+PS-50GKX30DGx1JQx3_jb-2GKnvQKtBZuXTYUXI_KD7nm3-EtLrlwhLesCOoyiDaLZN-SMLI7DHQosr7HGvtZGAQGzKuA6PLwZjfBt9MpUU6ZXhhLgOhmw5l
+KrULhweSn6h4xyhC6dOL7k8B
 }
 
-!procedure PersonRifle($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonRifle', $name, $tech)
+!procedure PersonRifle($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonRifle', $name, $tech, $desc)
 !endprocedure

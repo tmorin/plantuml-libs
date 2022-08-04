@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/FaceSadCry')
 
 ' renders the element
-FaceSadCry('FaceSadCry', 'Face Sad Cry', 'an optional tech label')
+FaceSadCry('FaceSadCry', 'Face Sad Cry', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/FaceSadCry')
 
 ' renders the element
-FaceSadCry('FaceSadCry', 'Face Sad Cry', 'an optional tech label')
+FaceSadCry('FaceSadCry', 'Face Sad Cry', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

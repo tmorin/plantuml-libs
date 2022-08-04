@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CarOn')
 
 ' renders the element
-CarOn('CarOn', 'Car On', 'an optional tech label')
+CarOn('CarOn', 'Car On', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CarOn')
 
 ' renders the element
-CarOn('CarOn', 'Car On', 'an optional tech label')
+CarOn('CarOn', 'Car On', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

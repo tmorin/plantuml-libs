@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Ferry')
 
 ' renders the element
-Ferry('Ferry', 'Ferry', 'an optional tech label')
+Ferry('Ferry', 'Ferry', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Ferry')
 
 ' renders the element
-Ferry('Ferry', 'Ferry', 'an optional tech label')
+Ferry('Ferry', 'Ferry', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MoneyBillTrendUp')
 
 ' renders the element
-MoneyBillTrendUp('MoneyBillTrendUp', 'Money Bill Trend Up', 'an optional tech label')
+MoneyBillTrendUp('MoneyBillTrendUp', 'Money Bill Trend Up', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MoneyBillTrendUp')
 
 ' renders the element
-MoneyBillTrendUp('MoneyBillTrendUp', 'Money Bill Trend Up', 'an optional tech label')
+MoneyBillTrendUp('MoneyBillTrendUp', 'Money Bill Trend Up', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

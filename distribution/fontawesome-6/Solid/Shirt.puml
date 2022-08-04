@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/Shirt
 
-sprite $ShirtXs [12x10/16z] Oq01BFpyG19CyFB302iVFm809I4ox4Ygc84iujWyO3OJ0mC
+sprite $ShirtXs [12x10/16z] Oq01BFpyG19CyFB302iVFm809I4ox4Ygc80iujWyC3O
 
-sprite $ShirtSm [15x12/16z] Oy00FFpy88gVdnLCWG0B6uZaWV0GW1EL2vJb1JF0D0T8DumBP5A9omDa0W
+sprite $ShirtSm [15x12/16z] Oy00FFpy88gVdnbCWG0Z2uZaWV0GW1EL2vJb1JF0D0T8DumBP5A9omDa0W
 
-sprite $ShirtMd [20x16/16z] nSYr0O100CNGu4xsdnPtgUyrN_YHQCjCPLMgna2z5pfNhQi2VEbwt_2b9zAaSvVKokBo0M6_qXsp4G
+sprite $ShirtMd [20x16/16z] nSYr0O100C30u4xsdnPtgV_AuqUi3JELLQaQ0xLg1D2vQbqLu4lN-uOlFMZKkOjhXTdbWB2NksCs0W
 
-sprite $ShirtLg [25x20/16z] tSd50GCn0C0m7uKJxpzjcMc0wYj-QxfmKZLnDNamEF6WSnOzwJDidiqST3zOOFXH7dwn-DaWUH1zK3sOe3ccpGTikdBs76T_5NXNETa3
+sprite $ShirtLg [25x20/16z] tS_50O1G081Gx9RzfxLR_mA-AoTuU6WrOj5eoIvoqhDmqh7AN7GH9AuY9fqV4kZzLFK697xhAPqKNZHEbeUUp0iIJLaymk9V0KyDYn4
 
-!procedure Shirt($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Shirt', $name, $tech)
+!procedure Shirt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Shirt', $name, $tech, $desc)
 !endprocedure

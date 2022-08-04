@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Cloudversify')
 
 ' renders the element
-Cloudversify('Cloudversify', 'Cloudversify', 'an optional tech label')
+Cloudversify('Cloudversify', 'Cloudversify', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Cloudversify')
 
 ' renders the element
-Cloudversify('Cloudversify', 'Cloudversify', 'an optional tech label')
+Cloudversify('Cloudversify', 'Cloudversify', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

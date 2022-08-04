@@ -2,15 +2,15 @@
 
 sprite $HeartCrackXs [10x10/16z] JKU50S0m36Bku_zlIwZYO009t16aSbSyykBxwNWmydsz5eM7q8Od2ZmI
 
-sprite $HeartCrackSm [12x12/16z] LOg50S1020EHkkw_RKbI-tk1Y3N4FjM_Rcvs5cbP_-Gda7LmJJfhlR2JSCIclSFVSpLsjHQXLVYt5Zl_2m
+sprite $HeartCrackSm [12x12/16z] LOt50G0X3C3ENVQVjfAYUGJgGyVu7kRxCVt6E4pcW_yVgO_lHEQcvGUUwOd_ubxv3lJovK3-0j_CYnK
 
-sprite $HeartCrackMd [16x16/16z] RSY50S0W3031htkp_xIumwCN1arJ-NmYSXk9QGTnJU6pJzuN_ExprPJ8-3tTdKrutkYrdXC7aR3KXDdh9pRL11h255uD
+sprite $HeartCrackMd [16x16/16z] XSY30S105C3Gr6xsdxOsStoVtngr11nAvqT7puFP1RJJfpdJbUitTsmtorElZivpri5A2C-4O5RBreMmybOF
 
 sprite $HeartCrackLg [20x20/16z] {
-ZSxL0SCm303H2tDk_sbBiihqVWn2_ZUe6y2iMWDuqPEt2JO3qCUjgonQQ0sBeOc-zxgO4BR8Zhv5byDgJHXMLelvDWmBeB4OyYi_qqwXQIFL5YjtSiwzAfPy
-eYDV704
+ZSq53WD134FHlunJt_-qfQmjB3nH53B_MoGrW5rFFO3UvbGRD1LWhcf2bm5wbICj5bbQkwpLDZJ5vB1EWSh9wTREu33SWpIrkEMctRWe6fRC4mZdM9eRbkRA
+5my
 }
 
-!procedure HeartCrack($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HeartCrack', $name, $tech)
+!procedure HeartCrack($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HeartCrack', $name, $tech, $desc)
 !endprocedure

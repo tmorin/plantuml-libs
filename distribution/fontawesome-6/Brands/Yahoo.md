@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Yahoo')
 
 ' renders the element
-Yahoo('Yahoo', 'Yahoo', 'an optional tech label')
+Yahoo('Yahoo', 'Yahoo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Yahoo')
 
 ' renders the element
-Yahoo('Yahoo', 'Yahoo', 'an optional tech label')
+Yahoo('Yahoo', 'Yahoo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Wind')
 
 ' renders the element
-Wind('Wind', 'Wind', 'an optional tech label')
+Wind('Wind', 'Wind', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Wind')
 
 ' renders the element
-Wind('Wind', 'Wind', 'an optional tech label')
+Wind('Wind', 'Wind', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

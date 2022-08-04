@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BoltLightning')
 
 ' renders the element
-BoltLightning('BoltLightning', 'Bolt Lightning', 'an optional tech label')
+BoltLightning('BoltLightning', 'Bolt Lightning', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BoltLightning')
 
 ' renders the element
-BoltLightning('BoltLightning', 'Bolt Lightning', 'an optional tech label')
+BoltLightning('BoltLightning', 'Bolt Lightning', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

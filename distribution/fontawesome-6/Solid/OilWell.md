@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/OilWell')
 
 ' renders the element
-OilWell('OilWell', 'Oil Well', 'an optional tech label')
+OilWell('OilWell', 'Oil Well', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/OilWell')
 
 ' renders the element
-OilWell('OilWell', 'Oil Well', 'an optional tech label')
+OilWell('OilWell', 'Oil Well', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

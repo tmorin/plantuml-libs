@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Signature')
 
 ' renders the element
-Signature('Signature', 'Signature', 'an optional tech label')
+Signature('Signature', 'Signature', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Signature')
 
 ' renders the element
-Signature('Signature', 'Signature', 'an optional tech label')
+Signature('Signature', 'Signature', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

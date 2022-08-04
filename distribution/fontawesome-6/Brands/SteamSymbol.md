@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/SteamSymbol')
 
 ' renders the element
-SteamSymbol('SteamSymbol', 'Steam Symbol', 'an optional tech label')
+SteamSymbol('SteamSymbol', 'Steam Symbol', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/SteamSymbol')
 
 ' renders the element
-SteamSymbol('SteamSymbol', 'Steam Symbol', 'an optional tech label')
+SteamSymbol('SteamSymbol', 'Steam Symbol', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

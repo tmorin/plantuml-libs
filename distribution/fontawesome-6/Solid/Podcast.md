@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Podcast')
 
 ' renders the element
-Podcast('Podcast', 'Podcast', 'an optional tech label')
+Podcast('Podcast', 'Podcast', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Podcast')
 
 ' renders the element
-Podcast('Podcast', 'Podcast', 'an optional tech label')
+Podcast('Podcast', 'Podcast', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

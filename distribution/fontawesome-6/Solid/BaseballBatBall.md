@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BaseballBatBall')
 
 ' renders the element
-BaseballBatBall('BaseballBatBall', 'Baseball Bat Ball', 'an optional tech label')
+BaseballBatBall('BaseballBatBall', 'Baseball Bat Ball', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BaseballBatBall')
 
 ' renders the element
-BaseballBatBall('BaseballBatBall', 'Baseball Bat Ball', 'an optional tech label')
+BaseballBatBall('BaseballBatBall', 'Baseball Bat Ball', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

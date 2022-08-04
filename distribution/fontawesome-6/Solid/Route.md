@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Route')
 
 ' renders the element
-Route('Route', 'Route', 'an optional tech label')
+Route('Route', 'Route', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Route')
 
 ' renders the element
-Route('Route', 'Route', 'an optional tech label')
+Route('Route', 'Route', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

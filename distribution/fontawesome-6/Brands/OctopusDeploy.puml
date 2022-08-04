@@ -2,15 +2,15 @@
 
 sprite $OctopusDeployXs [10x10/16z] Om01Vau620q280OlFup9ZuN52cSn86HXqloi809Y93yOCGC
 
-sprite $OctopusDeploySm [12x12/16z] LOe50e0m482mM_x_MdF9TWqldJi1N_RSwl090M0f-jv0uNT5tzREugcpRsPWiy43jzTVm1su0G
+sprite $OctopusDeploySm [12x12/16z] LOg50O103CI2Ezb_MlGrzTxnqhaJy6NFgtP0Om1OYhqjTiBQ53krP_7KsRVJi0aUk04ku0xS
 
-sprite $OctopusDeployMd [16x16/16z] NOw50S0m3CCyvkd_QykiOjYA7Foh2W-1x7b9BC5SA0Jxep1xcyfIxHf_Xlgvc8y2nRw6EC6cyWSrFt32z_CYlkK42NQLWjrVc_HltlvytnDvB
+sprite $OctopusDeployMd [16x16/16z] XOx50GGn4CCSvgZ_QeznKRy1WvuafjU7nWFx6Zilp6EqV7ZCOp5pChV5hC_O5dDvZ6RVRpxQJ233c7J4C14ayFe8eWHEck4-ZxjlHdUk
 
 sprite $OctopusDeployLg [20x20/16z] {
-ZP250GGX3C3E3MZsd_QbzYx1KxmB3jYxUmP1aJxLH9AE96MxTxCvxgcgUXwmGxb7tgmzthZHtFpcBjsVJkvTyHzvlc0l843RWEqwA1qmBnhrQizF6BJMX_Rg
-BBZReNxfOxE_Q3Oy0m
+ZP050eKW04ELxjt_j7J-T4gzZRo63A2lNNT0LLY8O6eou0twdT7t6Dm7XhRfWSA7dFd0xiRuXxDS3rdOcHqlSgYbIj2hNAaoi6KjJglRApqVuQvrtQ-nPkes
+f8qPrIpVXWa
 }
 
-!procedure OctopusDeploy($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/OctopusDeploy', $name, $tech)
+!procedure OctopusDeploy($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/OctopusDeploy', $name, $tech, $desc)
 !endprocedure

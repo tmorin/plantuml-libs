@@ -1,16 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/LariSign
 
-sprite $LariSignXs [7x10/16z] DSN50G0m2CNGVwbBzf-s2a6UlDgvT2wJ2KdqmNsj7yRG2uCIJxms
+sprite $LariSignXs [7x10/16z] DOd50G0m30BvrENsdxQQN1IGKphtLEwPJ4YY3aGVDsCCFR13YGSU6m
 
-sprite $LariSignSm [9x12/16z] JSR50SC000IWQ-FA_jF6ZHVvy9_6CntPJD0cQ8ufzWn6KPjZbjDVBgurBh_viW8
+sprite $LariSignSm [9x12/16z] JSR50SC000IWQ-FA_jF6ZHVvy9_6CntPJD0cQ8xvxncCeZR7BAUVN5nhN39VLW
 
-sprite $LariSignMd [12x16/16z] NSt50OK030MmXplPVzglU4xrvc6iCjPRJDXYvYqkWUKJ5b11GazOJOLrssNMRl62-lnZE9zongircsB6EdzDYrEAqni
+sprite $LariSignMd [12x16/16z] NOs50S0W3C3cm_F_jRW7wdPig3lz0gJVV5FzaunjRbQfGUH-XpvnTHOCJ_KjS8qx_ECe3D_Xkcy0PnBQCZWc0W
 
-sprite $LariSignLg [15x20/16z] {
-PSo55S0W40JHnPtflzkykFq8d4f_tadHw6309EOpBF08LqTKEBWrcW1r05WfmMITNHd1F5OPQ0xi4Qf11wrX1ZbMKWnIjkivG0y1x3E6yGmBz7StZ1GtjlCI
-UT7R0W
-}
+sprite $LariSignLg [15x20/16z] RSg53SG00CImAtEz_xJFK8hGKd9HMIJLdwIpRZcm8JyEFbLFhJ0kK2OjAvybOSsR1LD5yM4cPl9aJmeysPH9LoHjlP1D3SNMB5iEpFkRfMjVbRDTxPxPTmS
 
-!procedure LariSign($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/LariSign', $name, $tech)
+!procedure LariSign($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/LariSign', $name, $tech, $desc)
 !endprocedure

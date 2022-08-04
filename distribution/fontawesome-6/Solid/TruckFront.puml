@@ -2,12 +2,12 @@
 
 sprite $TruckFrontXs [10x10/16z] O-3aXm1cC0CJC800AWi1e1B88WWMN0S
 
-sprite $TruckFrontSm [12x12/16z] Os3XXm444nFmie00L1qOS83PZ630XAwS0K9nW6YeBbvsVYuK5N301sGpWytauUS3
+sprite $TruckFrontSm [12x12/16z] Os3XXm444nFmCe40L1qOS83PZ630XAwS0KAnWsX6g0ci_5meAk203yXc0fl9myy7
 
-sprite $TruckFrontMd [16x16/16z] XSwr0G11449HrdtelzfprnVnCm3XBWCy4_vhTkBMrfYLfR6mIykAJyISbqLRsirhpcLbdk6S5K9wFQkaGYND_a_r
+sprite $TruckFrontMd [16x16/16z] XSwr0G0X04FH75Hezf_s3FTN_NG1F0iDiELvvaJ0w49W620I37p26I_Rad0COeKPIxC5DYmyAH5O4h3DFpm
 
-sprite $TruckFrontLg [20x20/16z] fS-30GH10CNGhCVflzgpZLV01qIlj06yaw9_gkF1xCd8KV68ayKZJdg_Kx9dqHse7aqCRdLu4bbyA7aFxsGMjTKZLLZk_iAuQpwAAci
+sprite $TruckFrontLg [20x20/16z] fS-35KGn503H-Owd_shNDkvXyWpHAsq0xwJedsf_C7ZISrGyucHwyDVvdP8zYyTkrQF-q14yYKm-bBo7TpAJskgHAWntzqAlSX9LrW
 
-!procedure TruckFront($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TruckFront', $name, $tech)
+!procedure TruckFront($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TruckFront', $name, $tech, $desc)
 !endprocedure

@@ -2,12 +2,12 @@
 
 sprite $UnlockXs [8x10/16z] Os1WOEHd005-8606qKWOH147kA4q
 
-sprite $UnlockSm [10x12/16z] Om02Dduc1Z3W1m4GWmT8Ce5P_Bn0WWdE0ZF81snm5W
+sprite $UnlockSm [10x12/16z] Om02Dduc1Z3W1m4GWmT4Wbdyl4224Su2CyW7R70M
 
-sprite $UnlockMd [14x16/16z] lST50S0m0C30Z7dnhtPOKj3x7P_DYMZprV-PTEvs_QSDi3Y6yUh82wP3Zz_UZDQ5fHi
+sprite $UnlockMd [14x16/16z] lOa55S0m4CN6AyU_sZ8QQ0xp_f7H_FcMFt4L-U6x31GhL_9ETfnpLdWjs88vF_PoB1O
 
-sprite $UnlockLg [17x20/16z] pSg50SCW50JGmvtRVzesWa-GXtp5ozUYCNa-91h7Hk155W2Qp6EXnO97RWqe78r6559s0BWBWH-LU01tyGy
+sprite $UnlockLg [17x20/16z] pSh50OH00CNGhEAa_shHyGfujo_S-dNvalLUNWIT0O4km5jdBZyDnuNB7BylcY9Qz1K1reR1XvfiO6tS0G
 
-!procedure Unlock($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Unlock', $name, $tech)
+!procedure Unlock($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Unlock', $name, $tech, $desc)
 !endprocedure

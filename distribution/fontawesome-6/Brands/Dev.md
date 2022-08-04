@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Dev')
 
 ' renders the element
-Dev('Dev', 'Dev', 'an optional tech label')
+Dev('Dev', 'Dev', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Dev')
 
 ' renders the element
-Dev('Dev', 'Dev', 'an optional tech label')
+Dev('Dev', 'Dev', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

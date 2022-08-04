@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Searchengin')
 
 ' renders the element
-Searchengin('Searchengin', 'Searchengin', 'an optional tech label')
+Searchengin('Searchengin', 'Searchengin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Searchengin')
 
 ' renders the element
-Searchengin('Searchengin', 'Searchengin', 'an optional tech label')
+Searchengin('Searchengin', 'Searchengin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

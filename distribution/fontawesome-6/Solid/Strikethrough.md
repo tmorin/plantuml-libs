@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Strikethrough')
 
 ' renders the element
-Strikethrough('Strikethrough', 'Strikethrough', 'an optional tech label')
+Strikethrough('Strikethrough', 'Strikethrough', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Strikethrough')
 
 ' renders the element
-Strikethrough('Strikethrough', 'Strikethrough', 'an optional tech label')
+Strikethrough('Strikethrough', 'Strikethrough', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

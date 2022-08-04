@@ -1,19 +1,16 @@
 ' definition of the Item fontawesome-6/Brands/Megaport
 
-sprite $MegaportXs [9x10/16z] 9Kg30G1H5EhmZVQVzfa9LW-Yo7Au_3jWSn1is6TTXXmq0yM0bLDuk10ZmGkqo441
+sprite $MegaportXs [9x10/16z] 9Kg30G1134kVv-m_RSq8Ne8iyjwSyGFm3v2i--St7GNu7RmEl88YmaBq0gx-cOC1
 
-sprite $MegaportSm [11x12/16z] HSf5WGG10CJ0x32NVxN7a4zZdmollc5v-7PUEmgQS8TNhJZHT-FVRWnL5v5UJxxjQvUjh8x7w_c-OQbt
+sprite $MegaportSm [11x12/16z] HSh50S800CNGuCxRVrgeDvUlZHnRuF9bTdgWe2C-eRhXXUR6RkySgzv4wjjg7t8l5y-llikDQ_q1
 
-sprite $MegaportMd [15x16/16z] {
-LOq50iGW40E3E_d_Rs_bh5cT5WXSCU2hHMwIsOaYP6ddJM_a1hPZi97W14HRijDjMBeTHzAHJzHsnJgvHNZR8HjBLIb4CTK_rJ5BcU7fEgjY5Vmv59Y2mTJr
-1G
-}
+sprite $MegaportMd [15x16/16z] LS-rOGC140315SF3z5-jwKpQR9A3fkEXtnOMd4RG4Tk8eRNMOU2GqTXvj5zRO1iozCe5UosdWeDPrpYEqS4QMzVXaQYsQtGXf_bW6bNWMVKE
 
 sprite $MegaportLg [19x20/16z] {
-PSm55eGm4C3Gu3wv_sttTGSdQ7-5exhYNhlffiudXnhKgjqX5paLqJlPGfz_CvZ1ASVlcDyLneegRSettRKZJEelyakhfNBE0eEbBYLB8oKg66O8tTZoaA3I
-caqxwXT5sVyaIgEB_XzdQ_xL7csSTMLDJBda1m
+NOy55iGW4CLITtB_s-uRP2kfyWMXqNSywI-zr9r6KXEeJasv9JSeVxVa29FDjT1-zZk_Od320bqjL6Uw6wbAyoq57-aq03nWCPYg4bIDeYHWtY4E6o-ekuTJ
+UxgFbAB_bWXc3pKUTpi8UXiND8R8fAr4VW
 }
 
-!procedure Megaport($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Megaport', $name, $tech)
+!procedure Megaport($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Megaport', $name, $tech, $desc)
 !endprocedure

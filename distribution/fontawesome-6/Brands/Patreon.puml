@@ -2,12 +2,12 @@
 
 sprite $PatreonXs [10x10/16z] Ou03Vdu61Xv-802pG0me1vF53Q7XwdX0B90es1GeGB
 
-sprite $PatreonSm [12x12/16z] Oq02_FmS30mS_4300sQp0raW3eZD3mN4ibaW34wmcImGCH260fni
+sprite $PatreonSm [12x12/16z] Oq02_Foi30mS_4300sQp0LaW3eZD3mN4ifaX34uG6y9X0vi91JZP
 
-sprite $PatreonMd [16x16/16z] dSwr0G0X5C3GSmMo_xIuTn3qTN_f0jnpu7gIVq8g-23rU5EQikgyaZgzbploJ_Ejol5Ol4lZDW
+sprite $PatreonMd [16x16/16z] dSwr0G0X5C3GSmMo_xIuTn3qTN_f0jnpu7gIVq8gU2VrU5EQikgyaZgybploJ_Ejod5Vl4lZDW
 
-sprite $PatreonLg [20x20/16z] hSu53i0W40NHN_VE_KzRtU1n9ih3LeM0Ks_zmTiOs8vrEbl0endunjyEB_w5ohP5wy8ilTdeQPUPnqNExCr3ykQhRpS
+sprite $PatreonLg [20x20/16z] hSu53i0W40NHN_VE_KzRtU1n9ih3LeM0Ks_TmTiOs8vrEbl0endunjyEB_w5ohP5wy8idTdeQPUPnqNExCr3ykQhRpS
 
-!procedure Patreon($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Patreon', $name, $tech)
+!procedure Patreon($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Patreon', $name, $tech, $desc)
 !endprocedure

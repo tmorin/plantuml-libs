@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Vials')
 
 ' renders the element
-Vials('Vials', 'Vials', 'an optional tech label')
+Vials('Vials', 'Vials', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Vials')
 
 ' renders the element
-Vials('Vials', 'Vials', 'an optional tech label')
+Vials('Vials', 'Vials', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

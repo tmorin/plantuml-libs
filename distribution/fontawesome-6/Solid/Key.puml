@@ -2,12 +2,12 @@
 
 sprite $KeyXs [10x10/16z] Om03NXu8pSqF16mW5f06OY231Su2aY00P_2ZCJXWQY1cmHaC
 
-sprite $KeySm [12x12/16z] NOd50G0n3CEEeRZ_jALmzBAb3OZrn1NgPCrZhW87fEmQOPTrrhuhxylFa6wSrxQ02e05EW
+sprite $KeySm [12x12/16z] NOd50G0n3CEEeRZ_jALmzBAb3OZrn1NgPCrzhW87fEmQOPTrrhuhxylFa4wSnxQ02e05EW
 
-sprite $KeyMd [16x16/16z] LSw54GGX04FHxEAQ_gizmJByCHwENM0pE4MEtiN4rJCznicJX7O3TRaCcuUNHyFXjXFRZvRgPXKRtXU7tcAbVyj-K3PGNm
+sprite $KeyMd [16x16/16z] LSo73G0X34DHqpliF-tL18klnYEIeQKr77PvVV4eYRzt2leHvTR5xRCrYzOuHmToFFIBdUpaW37Oz1OILsc7qnRi1W
 
-sprite $KeyLg [20x20/16z] XSm53W0X34JHuixS_xHhUDP-Z3pQqaWcH45p1YKrAA2b6ocCU3MKhaTQp9IpXMInM3xlvvhHpMvpTz9tId-K0KHvacnagTOeIq4zLAEf8idSJD9IFasijWC
+sprite $KeyLg [20x20/16z] XP230SKm04IliRF_j9ynNtreW0hpqL6qyFYdKMtCYDABbITfwVFtuZkD0_BdD5NtDxj14qqtSSZrafWbVvF2vtAaMvN2iD107XHo3mr_nSj98-W8QSTQtW
 
-!procedure Key($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Key', $name, $tech)
+!procedure Key($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Key', $name, $tech, $desc)
 !endprocedure

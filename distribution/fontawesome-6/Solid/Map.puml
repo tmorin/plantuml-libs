@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/Map
 
-sprite $MapXs [11x10/16z] Oq06R6pyR22QduUVduqV2FY0c68c1ni3s51U1WO
+sprite $MapXs [11x10/16z] Oq06R2pyR22QduUVduKV2FY0c68c1ni3s51U1WO
 
-sprite $MapSm [13x12/16z] Oq03d8oS40O_0py_FoCGyu8O_50EFqqux0ni40up8oF4TYOG0G
+sprite $MapSm [13x12/16z] Oq03d4081lmC_FnWp0iam01CquJ3pi06uJ0oGfq1fW4
 
-sprite $MapMd [17x16/16z] pSZ50O0m0C30u4xsdnPtEa3lUOGaf9mgo1MrJ20PjD0zTCXTnHtT5RKE2K3Ih97nDmC
+sprite $MapMd [17x16/16z] pSZ50O0m0C30u4xsdnPtEa3lUOIbd2h85BLaCMYXYgiXTHLtT5VKEh1friZucm4
 
-sprite $MapLg [22x20/16z] xOZL0OH05CHctJVzLtj-y8CLG9vET1ttNf7e8VvT0zaAR_kcE8K1q66reCd2RGT0jP9S-TiiPQ8M8Xf6kpm1
+sprite $MapLg [22x20/16z] xOY54G0X40E3E-c_snzqxAq0zZIB_uYsBBKYxNA9X8XaiuqW84jxChbi0vMROqjRKG0GOLaB-BOMbYW2Zrm
 
-!procedure Map($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Map', $name, $tech)
+!procedure Map($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Map', $name, $tech, $desc)
 !endprocedure

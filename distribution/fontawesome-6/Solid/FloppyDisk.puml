@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/FloppyDisk
 
-sprite $FloppyDiskXs [8x10/16z] Ou01VZ1WuEU6ShZGQ0JWWAbbO8CmG1HC2G
+sprite $FloppyDiskXs [8x10/16z] Ou01VZ1WuEU6ShZGQ0JWWAbbO8Oms80OfWG
 
-sprite $FloppyDiskSm [10x12/16z] Oq00VWW0CNX00CW48X1W1uaZM8mW09H61MmCl50MmYn61ZOWYL3AmCq70Um
+sprite $FloppyDiskSm [10x12/16z] NSor0S1008NG7_Um_xJd_YegL17vU3qGoDkWhSbx66pwYDhN2hnaUlxei
 
-sprite $FloppyDiskMd [14x16/16z] VSV50O100C2muaxtdnPtkVp2NTPlMY3t15ebgrxHX5MhXcU_yaSLznvAm4C2TEuwG4-jYyWhY4wC
+sprite $FloppyDiskMd [14x16/16z] VSV50O100C2muaxtdnPtkVp2NTPlMY3t15h6grxHc5MhXcU_yaSPzvS07YAWSzS1NhGky8gR4G
 
-sprite $FloppyDiskLg [17x20/16z] bSkr0SD040NHCLkqqt-rOZY8z9B5J-rxOM4Aw4q5Q73eL7JWqAX3kT1w4HnQRsawJG5F4r-0QX5UeepehpqQ2moQ-b2Q
+sprite $FloppyDiskLg [17x20/16z] bS_L0SCm303HQyDu-qyRHlahpymMgUp6oYUWzsc4jJfrAZfmQjGXJfXCFEze_QJfZ5_y-r348BQmndSC_7ofshDZmE1BGJG3
 
-!procedure FloppyDisk($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FloppyDisk', $name, $tech)
+!procedure FloppyDisk($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FloppyDisk', $name, $tech, $desc)
 !endprocedure

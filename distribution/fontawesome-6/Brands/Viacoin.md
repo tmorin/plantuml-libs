@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Viacoin')
 
 ' renders the element
-Viacoin('Viacoin', 'Viacoin', 'an optional tech label')
+Viacoin('Viacoin', 'Viacoin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Viacoin')
 
 ' renders the element
-Viacoin('Viacoin', 'Viacoin', 'an optional tech label')
+Viacoin('Viacoin', 'Viacoin', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

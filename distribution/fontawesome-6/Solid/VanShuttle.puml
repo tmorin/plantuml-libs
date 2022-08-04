@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/VanShuttle
 
-sprite $VanShuttleXs [12x10/16z] Oq06_300PF8oyF8pyF02nH1i88SOmCJF0r7903O9264a9v00aKmC
+sprite $VanShuttleXs [12x10/16z] Oq06_300PF8oyF8pyF02nH1i88SOmCJF0r7903O9264a9v00aOmC
 
-sprite $VanShuttleSm [15x12/16z] bOo54SCm4C2Kn6p_QVzfotnOFIC_-6Q3S2sl5alXPJleLud_4LesRx2KGp2d5FtnFgR0PdS0jCMLBHAS0G
+sprite $VanShuttleSm [15x12/16z] bSU54OG050FHFS79RF_LuZxA-neUF06nxvqdqu5ZcEyjuZlH0XVqqtm5_zzl6l0pJLgPMDeogNiM-SC8
 
-sprite $VanShuttleMd [20x16/16z] hOZ70K9H3CFyEire_st93xqSqK5Hh5zKdr_OvyGxbWIhDTCtZTRW846JZAGJLIemFpSrg63xgJZ_Pm7IpBwNwYbAZDwxisQeX_FJY3fbnO6UvQWX9MNJiou
+sprite $VanShuttleMd [20x16/16z] hOv50W913C2ohYN__osCuSTDlQVmZpvkRspvvIS1wDptuLYRxkdNGmYSgQ7Zpw_NJYEYjOJNiwWmrGl6rBlia7pxA5isciWNetErV8madmXru2zt
 
 sprite $VanShuttleLg [25x20/16z] {
-nSd5GK0n403HYSkNwRzRMDoll6ITtxN-HORWTnrW-OCCg40pSj8SMNyyKFN-yS1GKNFEtSX5QmwNRl_TsK_Vp678ge2l2XHLKlK6jgq-kao0Tm4m1YLCZqYR
-CFJM1K43pvewU77hpLyU
+nSdL0SCm303Hanocst_QG9b_-smntsLv4Ppuhc7N-q40Ab2VCjVivqFHvUE1LaMDYEQKKpCEimx-tLGcRzhMGwe2NXK8LKWNOB3AtImxbpWLp-dGE4BdmA7M
+HNjEF87hnPQBHHT-sG
 }
 
-!procedure VanShuttle($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/VanShuttle', $name, $tech)
+!procedure VanShuttle($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/VanShuttle', $name, $tech, $desc)
 !endprocedure

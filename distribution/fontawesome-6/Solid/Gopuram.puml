@@ -2,18 +2,15 @@
 
 sprite $GopuramXs [10x10/16z] LOc50G0n4CBohYtxJrlNKo3m87vYATKxgrTVa5cHb7HAKIT5V5j23RnL7KJb0G
 
-sprite $GopuramSm [12x12/16z] NKg50S0m36BkyF-tYqpQHZ40AtRGscfGLeiFZOPcBOObM9lhc1qxzmn6HESf1YPUF8c3hbqCr-jDRlWnC3k-0G
+sprite $GopuramSm [12x12/16z] NOg30S1G34IlTjx-s_PRuKdIgLlcsjL4h14_p0wj70w3N4_1m2QRM3mcH7XVB61JnWikyzrOSA4cBrKixHx_
 
-sprite $GopuramMd [16x16/16z] {
-RSs50GKX009GBctOVrhRduVvJ027XT_WTn0zKTIen_JCipVAf8exASpj8_7KKITxTMhUm6Nf2YB5Coe1bEgafHtOfWzykutTM_t8Ip7MrdwSzsg-tl7djzk_
-tVnn0G
-}
+sprite $GopuramMd [16x16/16z] RSs30G0n04FHd9s__xHdrNfD8QdgDHP7iyuoOwvMt7vAreMfbntDmdJ7nUA2SbySNWvBVWpLX8shcMCVZeHhUbmfz35VXcQ4UTxx_kt4UpruPon2IxeMZhm1
 
 sprite $GopuramLg [20x20/16z] {
-bSw54GGX5C3GhEAa_shFtIzZpCC-G8eCmbAXSqhNObgx8PWkTYt_Pr7BSe1P-tG-baSjYjfk3EB1-fs5Ymtgl7gCgXN2etcrcV9a43xPv65rwEdbbvQVhBsO
-T07Ebb_O5W
+bSw53KCn54DHDynt_sdB_DcYwEIH9EKa8Vac3Jq3jXBjm4Vospufnon1TNSmCCohh9oWWe3-PLAws_Wn-p7011vHWoRPV-DZLdLYabqpo_C5V2QlMPbOdxdK
+VrcPiGi
 }
 
-!procedure Gopuram($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Gopuram', $name, $tech)
+!procedure Gopuram($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Gopuram', $name, $tech, $desc)
 !endprocedure

@@ -1,16 +1,13 @@
 ' definition of the Item fontawesome-6/Regular/ChessKing
 
-sprite $ChessKingXs [8x10/16z] LSV50S1G20FGr3uE-qzRoQqF3LuDqbcy-tnxhJLhNNEHm_0PpEy6riu89ta
+sprite $ChessKingXs [8x10/16z] LOd50G0m30AfUzb_sWg_N1J0OqDKPbtFltFEp3anYOwcZA2v0y5Beejo0G
 
-sprite $ChessKingSm [10x12/16z] FOl50SC03CJK1b_M_jE633B3yH8KFt_TA4KsDd6I15PdTpznoUFEwiWFo1mcvmq
+sprite $ChessKingSm [10x12/16z] LOl50G0m3099zGVxJrlNYmle41kTHlftsZ2kFS-ttixcCS9qv1cOcPha2W
 
-sprite $ChessKingMd [14x16/16z] JStL0GGX303HMRViJV_LdaFoVY3EpuDYaUJRJNE6vqgtjiuZtcxZOpcjGhf176X231g3R1qT61pRLG4ltjhdiZMsfkuo3Iy
+sprite $ChessKingMd [14x16/16z] NSh50S0m509GwaRA_jF6_Ls-098VdLrev9bwlTIxeJfAyw5dn61xrQFG25hgGN-nHKIhBdvhrJTU7xooV6h5oQS63W
 
-sprite $ChessKingLg [17x20/16z] {
-LSw50GGn24JHlt6V_giz5tXn1JvMmjF6Aasd1VxqPEzSGJlWQFtVl-YyXaIGTwHiRGr5Z2DyHZf8_2KrXam2MnTHqsOCzarM0-O_pj8514tt0guBCBDX5SXo
-k0C
-}
+sprite $ChessKingLg [17x20/16z] LSl5OKKn3031VGo6xR_QvBFakGyVTM5a8zjF-paHV6g4QRRD3ApnN-pxqyhagEkMDMyNaYus4ZjAcDsv9JHXigGXvBDu0iMPZofFSPGGxco7nG7_
 
-!procedure ChessKing($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Regular/ChessKing', $name, $tech)
+!procedure ChessKing($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/ChessKing', $name, $tech, $desc)
 !endprocedure

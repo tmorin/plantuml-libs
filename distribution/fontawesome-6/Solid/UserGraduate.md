@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UserGraduate')
 
 ' renders the element
-UserGraduate('UserGraduate', 'User Graduate', 'an optional tech label')
+UserGraduate('UserGraduate', 'User Graduate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UserGraduate')
 
 ' renders the element
-UserGraduate('UserGraduate', 'User Graduate', 'an optional tech label')
+UserGraduate('UserGraduate', 'User Graduate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

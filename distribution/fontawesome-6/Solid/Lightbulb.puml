@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/Lightbulb
 
-sprite $LightbulbXs [7x10/16z] JSM50SC040B0Q-FA_jF6xHyuJ0EgR4SSfZl9bqC77QgcWIvX1G
+sprite $LightbulbXs [7x10/16z] JSN50SC000GWshZU_jF6ZG-O1bH9GXodFSktOqSDggQ19c45
 
-sprite $LightbulbSm [9x12/16z] LOo30K0X503lCzV-qsRUCu7BMmgXu4gyxfpz1E52WImz2MVoCIRmz9YppFmu4WC9
+sprite $LightbulbSm [9x12/16z] LOp50K0X5CFo5OVzfyKrJvfJWSjR2g7WIbx5VyBdGe4yNS8f7zrAJSzicTaun402
 
-sprite $LightbulbMd [12x16/16z] HStL0K0X3CNGFDTozvyMXmOxNvJSykkXfThVUH_vClZpTPboAn9PfL3SM67ksSC-3OJEmsSPfQkQrbRg_alTAdLR_oK1
+sprite $LightbulbMd [12x16/16z] HSQ75O0m203HitVPVrhwqqk0ZpVSSb19TZVNsTS3jw_r4Mz015VqXek9v_VNmVmPU9iBNl4XMjDKGzI-exP4xSSv0GO
 
-sprite $LightbulbLg [15x20/16z] LSxL0SKW5C3Gr0N9_jC-GIhd2wxpDmJpHZDcYxEcx3A0kiFPyhlE92lGTFtSq6smEz5ZimluT73wC3Bu06ol7qIRcS8gKGMBWMOgwBQ2Ph1uVpFTMIy2lW
+sprite $LightbulbLg [15x20/16z] LSw54GKX4C3GdFkb_sg_83kGqOSk0CFbkr4QNbDdbhKNGDtXBFkxJZpcG9-G2xfXxKIFBNXXsy7PSe2MmDO9xggHLD53xigaDgI2MofegkSRFCj4y0K
 
-!procedure Lightbulb($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Lightbulb', $name, $tech)
+!procedure Lightbulb($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Lightbulb', $name, $tech, $desc)
 !endprocedure

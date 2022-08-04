@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CheckToSlot')
 
 ' renders the element
-CheckToSlot('CheckToSlot', 'Check To Slot', 'an optional tech label')
+CheckToSlot('CheckToSlot', 'Check To Slot', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CheckToSlot')
 
 ' renders the element
-CheckToSlot('CheckToSlot', 'Check To Slot', 'an optional tech label')
+CheckToSlot('CheckToSlot', 'Check To Slot', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

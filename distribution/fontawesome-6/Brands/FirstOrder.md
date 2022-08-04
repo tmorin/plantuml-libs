@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/FirstOrder')
 
 ' renders the element
-FirstOrder('FirstOrder', 'First Order', 'an optional tech label')
+FirstOrder('FirstOrder', 'First Order', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/FirstOrder')
 
 ' renders the element
-FirstOrder('FirstOrder', 'First Order', 'an optional tech label')
+FirstOrder('FirstOrder', 'First Order', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

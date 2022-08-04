@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BuildingNgo')
 
 ' renders the element
-BuildingNgo('BuildingNgo', 'Building Ngo', 'an optional tech label')
+BuildingNgo('BuildingNgo', 'Building Ngo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BuildingNgo')
 
 ' renders the element
-BuildingNgo('BuildingNgo', 'Building Ngo', 'an optional tech label')
+BuildingNgo('BuildingNgo', 'Building Ngo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

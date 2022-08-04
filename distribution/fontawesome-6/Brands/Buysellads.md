@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Buysellads')
 
 ' renders the element
-Buysellads('Buysellads', 'Buysellads', 'an optional tech label')
+Buysellads('Buysellads', 'Buysellads', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Buysellads')
 
 ' renders the element
-Buysellads('Buysellads', 'Buysellads', 'an optional tech label')
+Buysellads('Buysellads', 'Buysellads', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

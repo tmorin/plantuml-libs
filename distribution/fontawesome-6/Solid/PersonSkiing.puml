@@ -2,15 +2,15 @@
 
 sprite $PersonSkiingXs [10x10/16z] HOc30G1H34FJdldsd_ORHQWsTuOj0qZ6J-OoGu4-y2ex-YYnpBCTUGG
 
-sprite $PersonSkiingSm [12x12/16z] JSU53S0m0C2mZ7dv_zkgN0jD8y14zFW1FipA2v7gJxRXwmQHJkWtppb46kTEjEYi59jEC8nkLmC
+sprite $PersonSkiingSm [12x12/16z] LOg50S1020DJzzx-qxuRXvEeGLyVllXuGg6to86_wAjuMUi_rZTFvOX0l8fZ3XUei88wcxbsm0C
 
-sprite $PersonSkiingMd [16x16/16z] NSY55SKm3CNG5-Pe_sa_5dnwWvQiLMHrS9zdhgGFxmhe2uRhGF0w5BwsJaaPmEcmIDA0fGCWLN2-cV3He1n1VnFozrwIAQ2RMz1bEI3Aye3NUXJU
+sprite $PersonSkiingMd [16x16/16z] ROw54S0m4CDSvcZ_RNjXLF3PAlcEohp1Fk-tU7i7MU2nCUP9IX70AB9uJsxCAZtmHGSWdQ3voWxB1Lv4gdvXjxUjpHweXCEb2c0UU3vb9e0V
 
 sprite $PersonSkiingLg [20x20/16z] {
-RP054WGX3C2wWal-_zlhRC-GuA6eJEGkCmcmtkq-hdnSW5ERgxHmGdZS0VG0cFXmLXwc4qp-2OUJipWW3b6NI1j3xO1BhMx-9xtrAkIF_9xgW2BAQRD609A8
-xJvOvP212BJjBuMDjTjSWwr00Hau2cfV
+RP055eGm30KJ72fp_zEkX5Vlu5-eICSJfUS6n5ZsfBcadQ2_XxfmAfocAH1Fu1KIwZ6w4J0gOM4JTIjmDQbL9BJHTm0D88kln4CC3qyIIQFkWBDXaflKsxfI
+SMAeD5n0cExIELMttrCRrGCEfCK1xWi
 }
 
-!procedure PersonSkiing($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonSkiing', $name, $tech)
+!procedure PersonSkiing($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonSkiing', $name, $tech, $desc)
 !endprocedure

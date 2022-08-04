@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/LungsVirus')
 
 ' renders the element
-LungsVirus('LungsVirus', 'Lungs Virus', 'an optional tech label')
+LungsVirus('LungsVirus', 'Lungs Virus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/LungsVirus')
 
 ' renders the element
-LungsVirus('LungsVirus', 'Lungs Virus', 'an optional tech label')
+LungsVirus('LungsVirus', 'Lungs Virus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

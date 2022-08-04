@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/TurnDown
 
-sprite $TurnDownXs [7x10/16z] O-3dvs1WO63av-TdPW01VZPy55GfFv26KWmW4W
+sprite $TurnDownXs [7x10/16z] O-3dvs1WO63av-TdP001VZP253yG82W640a
 
-sprite $TurnDownSm [9x12/16z] O-3dvsTb008EVY1WOu00VZxI6SpC_7pCJ20-6310MH0rO1e
+sprite $TurnDownSm [9x12/16z] O-3dvsTb008EVZ0B0lZvI6SmClBpCOBvO01ZGTI0QG
 
-sprite $TurnDownMd [12x16/16z] jSP70S0m40InJUyP_cZjQnIibuIv5Nw2mcBowMCUz-LzuNqV_q6QP6xSel02gyhFBjC1
+sprite $TurnDownMd [12x16/16z] jSQ70S0W30D1fJU5tt_R86S63co_w6wLHb6PktJ4opIkPnli9ttmKzp4h69WIKHZo_a
 
-sprite $TurnDownLg [15x20/16z] O-070Lv61WZWuuS0LWYNaHyA6900ww3dyiC0DogN2qMQ3wgQ2H84SDrCQ1vcWQa4
+sprite $TurnDownLg [15x20/16z] O-070Lu6AE3ZXm0M29UH7meOa03heEVomm0tAfSBHPeFgfeH5WG8FehHJ32L
 
-!procedure TurnDown($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TurnDown', $name, $tech)
+!procedure TurnDown($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TurnDown', $name, $tech, $desc)
 !endprocedure

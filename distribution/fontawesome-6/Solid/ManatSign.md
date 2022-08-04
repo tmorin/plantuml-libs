@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ManatSign')
 
 ' renders the element
-ManatSign('ManatSign', 'Manat Sign', 'an optional tech label')
+ManatSign('ManatSign', 'Manat Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ManatSign')
 
 ' renders the element
-ManatSign('ManatSign', 'Manat Sign', 'an optional tech label')
+ManatSign('ManatSign', 'Manat Sign', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

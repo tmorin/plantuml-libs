@@ -2,12 +2,12 @@
 
 sprite $TrowelBricksXs [10x10/16z] Om02BY06q_pyO9g57mXuUO440n03nS040v200x04AWlEu-I70Iu81G
 
-sprite $TrowelBricksSm [12x12/16z] PSg50S0W30J0Rt7VVrhSEIIAmcDm8Qoiv7_-VLX0Mnz2iFoJadyPchRpvj9cdp4QsbHr5eQL9m
+sprite $TrowelBricksSm [12x12/16z] PSg50S0W30J0Rt7VVrhSEIIAmcDm8Qoiv5_-VLXAe-u8mVB_rvqCJTjvSsap6AEXJLLdOLXv0W
 
-sprite $TrowelBricksMd [16x16/16z] TSc50S0W00F1r1Mo_xIuow4FS5Q9maeorqOMlT0xZiETaZNSuGHUS_o0Vq7fjYqjWKZIcVRVD3PhNRxlUx5-4QtjPsKJZ6Jphm4
+sprite $TrowelBricksMd [16x16/16z] TScr0GD144FHBoVBe_whDHtJYmJyATYHxKFRTq-aQGyVaVq7LDiTfeNLj43y31RXlyVUJvtNZsYjLMWB_wZxGCEBEFqV
 
-sprite $TrowelBricksLg [20x20/16z] dSg54O1G0CFGuaxtdnRdkx_pNF2P5nWcaj3Cl1cFQCDqgLl-jctR-TXfmyOFBky6L8jig2vuRA99pukAhntIm4z1gsMpLSjb1gP5cFYOAbhcEjPctZfGSG8
+sprite $TrowelBricksLg [20x20/16z] dSi54e1030F0uBITNlx_MjoTs_489ceu49BOKVQEcpchf9FadBbxu23m3CxDTvm1i2dRytCsRiVdz9rbd4HaoIOxiuu2OWlXGC0JJTuoPQ_OVLi
 
-!procedure TrowelBricks($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TrowelBricks', $name, $tech)
+!procedure TrowelBricks($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TrowelBricks', $name, $tech, $desc)
 !endprocedure

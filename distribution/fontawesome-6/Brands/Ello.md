@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Ello')
 
 ' renders the element
-Ello('Ello', 'Ello', 'an optional tech label')
+Ello('Ello', 'Ello', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Ello')
 
 ' renders the element
-Ello('Ello', 'Ello', 'an optional tech label')
+Ello('Ello', 'Ello', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

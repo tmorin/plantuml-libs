@@ -2,15 +2,15 @@
 
 sprite $PenRulerXs [10x10/16z] HSR50S80002nmvtiFotKcrVgKjMdNbuLBhnrGeYJPmcELV1Sy_ZOep71RKpH7m
 
-sprite $PenRulerSm [12x12/16z] JOg53S003CCynih_VpjbN0m16wcc0Es0NWrSXL8tBUV1fXGDrEG9J97wmVw2-eSv5nnp0tEjpK3GuW
+sprite $PenRulerSm [12x12/16z] JSQ53GC1540Xwlhpzf-sBaSCN811RR2jdZt7L9UQZhjCgMVBuDq2YsxVhMNpxRRtgPfB1JNk
 
-sprite $PenRulerMd [16x16/16z] NSv50WGX30NHQdV-_MyxnCQg1LvM0SQBQ6WJC4k2l1p12vXaZSQpVpEF-UfVlmoB7XiyT3lj_Zn0q6fuHJr4VvoBJNyqJzyynHTNsojPyp49SR4r9ZmZBm
+sprite $PenRulerMd [16x16/16z] NSy53e004CJ0uax__rkoE3Hsiz43oecpjG9g5SvZE3W1bQaCHwLcYITrKHgN30kcej4C2t1HLqXoqENmd_N5rH_ZuirHNgn7vUIrboVXEDHycK8s
 
 sprite $PenRulerLg [20x20/16z] {
-NSu53WKn203HMVVE_K_xfOIcMMBaeG3BHSRmH7weOz2YEi2bNXrfxJeudO0dh9QujR1CX5sgJoLTQkSUfI2Tq1EcZdHX0w2ZzjHOc9CECbhNcT9tNKxPbLIV
-UdV5w-EhQr7ElijrKMcKcG-Dc9As_jKWYbuhH4oL-08
+NSe53WGn40D1Ns0fqF__xIaPJHOiiaejIRbehTa_WPz91f1KWF8WcDMfYo2fcLbTeIj7cHM0DWdIB0ynPWIZlAJme57k6diG1Cs5hkHqohUgo-LP5O9NJWtw
+jngKWtwVAeEkPqNAW1RvescHWjFkD6Qa3YLAjZ19Vm
 }
 
-!procedure PenRuler($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PenRuler', $name, $tech)
+!procedure PenRuler($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PenRuler', $name, $tech, $desc)
 !endprocedure

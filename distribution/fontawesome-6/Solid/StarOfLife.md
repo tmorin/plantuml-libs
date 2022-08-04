@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/StarOfLife')
 
 ' renders the element
-StarOfLife('StarOfLife', 'Star Of Life', 'an optional tech label')
+StarOfLife('StarOfLife', 'Star Of Life', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/StarOfLife')
 
 ' renders the element
-StarOfLife('StarOfLife', 'Star Of Life', 'an optional tech label')
+StarOfLife('StarOfLife', 'Star Of Life', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

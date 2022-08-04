@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/Tarp
 
-sprite $TarpXs [11x10/16z] Oy0AkFWHW8-1doZ0n01NoCZFmmnZyY2R2m
+sprite $TarpXs [11x10/16z] Oy0AkFWHW8-1doW0r0PdylCmmvWyoEO2
 
-sprite $TarpSm [13x12/16z] Oy096FbH00ioXu6V900q3S5Xv-T3vY19iQEv
+sprite $TarpSm [13x12/16z] Oy0D-5404p87A4SAG36CdPyFcOCanOxc
 
-sprite $TarpMd [17x16/16z] Oo0Cs7XG01CRFmRWHXTZOa1NmiTF0M1YP6H4iOy5w10K0LQW8ZG1PWP6504Ma6UO402hPm4
+sprite $TarpMd [17x16/16z] fSwr0S0m40D0ASpQVzkuDEDrpu-oxN5mK-1UvGBa-JHW8kdScyqZJcAHw2Lcm4aigF03
 
-sprite $TarpLg [22x20/16z] Ow0SyF5Z0WukVXo0ZHsB81zsKrXO-Ua0E440NP09x3LqKKQGEYvieZpOr78pC31ZYFA036RZHG6ChAG6EW
+sprite $TarpLg [22x20/16z] Ow0SyF5Z0WukVXo0XHsB81zsKvYP-Ua0E440NH3YDGnHa3ekRA8ysDHoCp0mOuZoW0ncvKK13Aoa1Ze
 
-!procedure Tarp($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Tarp', $name, $tech)
+!procedure Tarp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Tarp', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/VestPatches')
 
 ' renders the element
-VestPatches('VestPatches', 'Vest Patches', 'an optional tech label')
+VestPatches('VestPatches', 'Vest Patches', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/VestPatches')
 
 ' renders the element
-VestPatches('VestPatches', 'Vest Patches', 'an optional tech label')
+VestPatches('VestPatches', 'Vest Patches', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

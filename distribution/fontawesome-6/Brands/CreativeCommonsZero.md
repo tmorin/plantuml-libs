@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/CreativeCommonsZero')
 
 ' renders the element
-CreativeCommonsZero('CreativeCommonsZero', 'Creative Commons Zero', 'an optional tech label')
+CreativeCommonsZero('CreativeCommonsZero', 'Creative Commons Zero', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/CreativeCommonsZero')
 
 ' renders the element
-CreativeCommonsZero('CreativeCommonsZero', 'Creative Commons Zero', 'an optional tech label')
+CreativeCommonsZero('CreativeCommonsZero', 'Creative Commons Zero', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/DiamondTurnRight')
 
 ' renders the element
-DiamondTurnRight('DiamondTurnRight', 'Diamond Turn Right', 'an optional tech label')
+DiamondTurnRight('DiamondTurnRight', 'Diamond Turn Right', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/DiamondTurnRight')
 
 ' renders the element
-DiamondTurnRight('DiamondTurnRight', 'Diamond Turn Right', 'an optional tech label')
+DiamondTurnRight('DiamondTurnRight', 'Diamond Turn Right', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,12 +2,12 @@
 
 sprite $LeftRightXs [10x10/16z] Oo00-3b112yGy_FnyF3m8mEW60S3I8Q9WO6N7SJ2RWO
 
-sprite $LeftRightSm [12x12/16z] Oo0ES8D93X31pmyYcVbvW4muu4CmWV907WSGSF7pim2rGjKpWocmEOouBG8
+sprite $LeftRightSm [12x12/16z] Oo0ES8D93X31pmyY6VbvW4muu4CmWV907ZiGSFBpCmErGjKpWIb25W4
 
-sprite $LeftRightMd [16x16/16z] Ow02u8PGB1mGcf-V6Kppy7E3kGW-Fo-GYnymyA5mMHaOU27w4GnkVYO87ohE0AKO6CbmEm
+sprite $LeftRightMd [16x16/16z] Ow02u8PGp1mGcf-V4Kppy7E3kGW-Fo-GYnymyA5mMHWOU27wmGnci7LmFXF4GaOAt0u
 
-sprite $LeftRightLg [20x20/16z] lSYr0K9H0C30V7aksNzQtAdXokDVsi9LoLmjMhZImTdgwzc1JNNsArNP_JBr6yDF4LGpLwehG7kxdOjXuagvs-1gMVY18m
+sprite $LeftRightLg [20x20/16z] lOv55i0W4CL-tPlxdxQAiuOWavVLg1QRbMMs1ekpuviDOMCtYNF_uKKj6IVawCXIBm7O5G3QRxkeTRyTJAx9qgWeDm
 
-!procedure LeftRight($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/LeftRight', $name, $tech)
+!procedure LeftRight($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/LeftRight', $name, $tech, $desc)
 !endprocedure

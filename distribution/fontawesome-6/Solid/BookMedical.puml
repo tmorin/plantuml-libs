@@ -2,12 +2,12 @@
 
 sprite $BookMedicalXs [8x10/16z] Os3b1mCcVWHWu8PGG02dmGmkVap0nG2MPu1o0G
 
-sprite $BookMedicalSm [10x12/16z] NSQ50S104091ufxjlzftdnEGY7xHqLhQdD8R6cWYEMvwQyI78aHc0G
+sprite $BookMedicalSm [10x12/16z] Os3WXm0-C0C169ZXB4Oe3G885amMhe-TYnyLC440FozG4KGBmWu
 
-sprite $BookMedicalMd [14x16/16z] XSt50O000810x9RzfxKxxySBADnaU5Huby5BnKng9z6fYW08WjP53kvAy5yRhvhbjYuYRLPAuq4F
+sprite $BookMedicalMd [14x16/16z] VSUr0GGn00InDREd_sgVuLYPfC9F4ak5lIITpEgbys9MoyyQC_d84d_rkqlJVWt0wQlZO7o11Wjt
 
-sprite $BookMedicalLg [17x20/16z] fSs35KH150FGZ3tflzh5jtaF7mEeoWcDn3d9XSAMjMxMhm2E6kZOPKFlDbBm048e1oa4m1Ui7XZc9c0Wc2EfvK0nWmlGdFi2
+sprite $BookMedicalLg [17x20/16z] bSt50S0m509GuXxsdxRktdVy0e2gtD18t9CyA1nfPNVp2k1fW8a-3kJj80KF88JoqCB3u2yj5ufvB5WmHrAA5JDu07KOj
 
-!procedure BookMedical($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BookMedical', $name, $tech)
+!procedure BookMedical($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BookMedical', $name, $tech, $desc)
 !endprocedure

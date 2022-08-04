@@ -2,18 +2,18 @@
 
 sprite $AppStoreXs [10x10/16z] FKk54G0X3CkxF_jlI-HAlH4e5ZZsng7UMIlmvAlcc4WikWBWRutdTlFz2wPh67RSF3e
 
-sprite $AppStoreSm [12x12/16z] BOs50S0W30I_kF_-spPs43SO6S5x6PL3NG99JBd04xlv0RsOd-WDMRLbdhfpGmi7DLFer1fngpPKyKRvO1onjxlRL1U-y_J23m
+sprite $AppStoreSm [12x12/16z] 9SQr0GG100CWpZtPVzfNAe0981dDtQ70z12SnJ8AXaADg20JZajnceT-RAsePq8cjS-06y_oxmfZSwPu0m
 
 sprite $AppStoreMd [16x16/16z] {
-HSU5OGDH30FGvsFwrlxJbfk81QZP6tFIezE0qS2I5SQDfqvaOMv8RWW1Hy1r2iZQ8DLmHmeo3qYv0z56lj59LX7c1TPGqOiS8AUn40Mm15lUzwykg160CzzO
-u1C
+HKg54S0W47lSoVxRzkrAa2WPGgA72DnrSTqU5mb5xU9lq-0VaSVQ0bD9hg0PzU4UvHe7vGLMwjDIaiZ4fGF11NW2gLAMAiFwHEWamA0J9VgHH5SygnHzV_vY
+G115VW
 }
 
 sprite $AppStoreLg [20x20/16z] {
-LSy50iH020J1PkEs_V_Ndi1fnOU9yHO3Vs8tzPctMHjFgr8s9zwEcixMVhH28AeLsdcwBjWbdGxKi64ZUUqaDoGf1azpZyg6v_Gz7dpNc5pg7A6RJjMLzfk9
-Eh6Vz1KsV_x2cLcmKzoP13m8NY9h5NvvyjIytiKfetJf36tFmrlRkdg-aZi
+NSg5OKKX40NHuRd1z5zjv6xq7sILRstclyiOwSUcKv93AQSBtswdsgf_iPe0rfQEnDxXadXiX0qdmduHdaWerk8sMlMQ9qeuMr6Ot2j76CQZUZ3zxOcwSZsC
+0qw9smQkp8A3uiKauCrVRhmsVH8cEvGfhUYwmNGbV6ldK9-LU0S
 }
 
-!procedure AppStore($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/AppStore', $name, $tech)
+!procedure AppStore($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/AppStore', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CircleDown')
 
 ' renders the element
-CircleDown('CircleDown', 'Circle Down', 'an optional tech label')
+CircleDown('CircleDown', 'Circle Down', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CircleDown')
 
 ' renders the element
-CircleDown('CircleDown', 'Circle Down', 'an optional tech label')
+CircleDown('CircleDown', 'Circle Down', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

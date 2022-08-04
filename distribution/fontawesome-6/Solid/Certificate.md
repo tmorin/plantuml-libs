@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Certificate')
 
 ' renders the element
-Certificate('Certificate', 'Certificate', 'an optional tech label')
+Certificate('Certificate', 'Certificate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Certificate')
 
 ' renders the element
-Certificate('Certificate', 'Certificate', 'an optional tech label')
+Certificate('Certificate', 'Certificate', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

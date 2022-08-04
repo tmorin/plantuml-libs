@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Playstation')
 
 ' renders the element
-Playstation('Playstation', 'Playstation', 'an optional tech label')
+Playstation('Playstation', 'Playstation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Playstation')
 
 ' renders the element
-Playstation('Playstation', 'Playstation', 'an optional tech label')
+Playstation('Playstation', 'Playstation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

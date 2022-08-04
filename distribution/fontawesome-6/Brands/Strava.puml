@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Brands/Strava
 
-sprite $StravaXs [7x10/16z] Ou03VWW9e_Z191EOOe4Ay_62LG5vF60ka0Ec6G
+sprite $StravaXs [7x10/16z] Ou03VWW9e_WX73350XNcumNpWJmUC1V80TCC
 
-sprite $StravaSm [9x12/16z] JSg53S103CNGG9cy_xGzXeYibo_J7TI01dmL2bsScWd6AiAPqn7EGkrd5KGY1
+sprite $StravaSm [9x12/16z] JOor0G0n30Fr387RVzemkR5OorqqG0Cl-2PKwUVRYWGpbOIlm1tnzNoV-ZgG8W
 
-sprite $StravaMd [12x16/16z] FOw50G0X4CFwhf3zfyLfqFEgiiYio4Gs3NPm0E2q6x1xWskuT_N0U5fWkQvLztrTrtshiX5ryyxw1Qm27WseRWSUcUhE
+sprite $StravaMd [12x16/16z] FSw53KLH2C3GFh_U_QVzIZXH7BusqYPfUH1sbQ1wyNFubUbTxqYVg946z87jlZTAUUwdb1XV51i_kcb-ePMWagmaWJS
 
 sprite $StravaLg [15x20/16z] {
-LK-54S1038hK9Uo_RRdNbDSuIC4cFq2pTUDAbW98valp6PQ1cDLFCTzKkSymVo7HgvscbNfjRODFr4UUXrdkAz_5VSmoTXdaWgddvER0CeEbLIRkAC4Sbf_A
-KpAAXWy
+LOu73aH124BnzyxzRxkiqvIfv44YN1kIcDpDAq56_Ce-tHaPyUFs3SrTnxhxyBMsEPXQ-_r32Fk3vr7ARDOxM-qhEm7imtsAdbvlU77OSHwS3YD6aF54r0lf
+1m
 }
 
-!procedure Strava($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Strava', $name, $tech)
+!procedure Strava($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Strava', $name, $tech, $desc)
 !endprocedure

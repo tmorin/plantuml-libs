@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TemperatureHalf')
 
 ' renders the element
-TemperatureHalf('TemperatureHalf', 'Temperature Half', 'an optional tech label')
+TemperatureHalf('TemperatureHalf', 'Temperature Half', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/TemperatureHalf')
 
 ' renders the element
-TemperatureHalf('TemperatureHalf', 'Temperature Half', 'an optional tech label')
+TemperatureHalf('TemperatureHalf', 'Temperature Half', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

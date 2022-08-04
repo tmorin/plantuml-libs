@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Amilia')
 
 ' renders the element
-Amilia('Amilia', 'Amilia', 'an optional tech label')
+Amilia('Amilia', 'Amilia', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Amilia')
 
 ' renders the element
-Amilia('Amilia', 'Amilia', 'an optional tech label')
+Amilia('Amilia', 'Amilia', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

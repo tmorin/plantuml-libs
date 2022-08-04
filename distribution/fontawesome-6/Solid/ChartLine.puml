@@ -2,12 +2,12 @@
 
 sprite $ChartLineXs [10x10/16z] Ou03NduOYn_6uWEnM82Odnd8OkK70cQWB2jO1AIE7Qu3OGeR5005eG
 
-sprite $ChartLineSm [12x12/16z] NOo30S0m403hnhV_jB7lpMFYP-Jq_1pvXSavn9JS9vDRDIHtil_PyvV1yRfE
+sprite $ChartLineSm [12x12/16z] Oq02xFm8DZysDXC_3vWD91Y16CJc1mEm49I2i76O0mUi_0Z0mCe71m
 
-sprite $ChartLineMd [16x16/16z] VSsr0S0m30NHBwKnt_xJXfdE-2hfNhaI_ERkWAUB7Monmtn5pNQ0cPCd9e2asJR_5axEfEiyky__SQALKrbSa-pI
+sprite $ChartLineMd [16x16/16z] VSt50G0X30NH7qveflzgrrqOz9sYP_LE21tdcmDiDbYkjDe05gw6392rUlcjd5r8ztdsdDznnkkb8kxfqGW
 
-sprite $ChartLineLg [20x20/16z] ZO-54O0m40HnX-s_MoRkSj7VUHrosbBqGiBeONmncm3B5lK2is4Ry0WlLfDlnMXMpifhUb5UYgtA-HLUXWalyTy5qcodDKS_Us6BD8sa4eCcBACV
+sprite $ChartLineLg [20x20/16z] dOw55SCm4CNCBbsr_xIbtp17YKdloCqHfyfWujZZU8vT05gNT0AnSGbu_A9IKo_J41MiA6yeIYuhs1Gbr_IfmRMkCZVpEMTGHWJ759Tct0nl
 
-!procedure ChartLine($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ChartLine', $name, $tech)
+!procedure ChartLine($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ChartLine', $name, $tech, $desc)
 !endprocedure

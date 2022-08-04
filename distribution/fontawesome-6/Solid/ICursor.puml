@@ -2,12 +2,12 @@
 
 sprite $ICursorXs [5x10/16z] O-1XOE1Zv0S21WOW1X9SK08aXk22PJb1OW
 
-sprite $ICursorSm [6x12/16z] HOY50O0m30GFTsx_QQ7Uv9qN1dTLuN419cawEu3gtVUkSNvqrHy
+sprite $ICursorSm [6x12/16z] HOY50O0m30GFTsx_QQ7Uv9qNS5SL7cTWaAQp0wZUVUyQvqTN_G4
 
-sprite $ICursorMd [8x16/16z] TOh50S0m4CDKPcl_QGF_HiTdumuyYRghB9zwJO2UT5wNlndDrwzEyq-lsy2_qj4F-EoyQOLQ0G
+sprite $ICursorMd [8x16/16z] VOh50S0m3CHKPcl_QPFuMp8UuGmS4Ugiqb_gsW7jaNMQxF53uqgM1NIduryUlO3Bh3FQebO
 
-sprite $ICursorLg [10x20/16z] ZOt10KGH4CK20Bp-krrmtn-Od3BCRW0_wvJKh1P6Zm7qDGE7PV2i_hUNwH1V3qXbPOl_NW7tzfgJwOwYnTIYhkd8otu
+sprite $ICursorLg [10x20/16z] bSr50W8m44FHN_Vc_hSbs1vUPRBAS3UMxxoILf3vUpl0zioyEF5DyuUabmr9Rq0RhXtnZnR2T--hPWU6xCgcPw0xFG
 
-!procedure ICursor($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ICursor', $name, $tech)
+!procedure ICursor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ICursor', $name, $tech, $desc)
 !endprocedure

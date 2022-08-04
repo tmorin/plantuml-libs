@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UsersLine')
 
 ' renders the element
-UsersLine('UsersLine', 'Users Line', 'an optional tech label')
+UsersLine('UsersLine', 'Users Line', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UsersLine')
 
 ' renders the element
-UsersLine('UsersLine', 'Users Line', 'an optional tech label')
+UsersLine('UsersLine', 'Users Line', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

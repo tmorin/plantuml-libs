@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/StickerMule')
 
 ' renders the element
-StickerMule('StickerMule', 'Sticker Mule', 'an optional tech label')
+StickerMule('StickerMule', 'Sticker Mule', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/StickerMule')
 
 ' renders the element
-StickerMule('StickerMule', 'Sticker Mule', 'an optional tech label')
+StickerMule('StickerMule', 'Sticker Mule', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -1,19 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/Republican
 
-sprite $RepublicanXs [12x10/16z] JSQr0OG0002nUyN9_jjI8QbIJu17gTbxr3wzJD7gOylIayl-F5GhArzxDH07
+sprite $RepublicanXs [12x10/16z] JSQr0OG0002nUyN9_jjI8QbIJu17gTbhr3wzJD7gOylIayl-F5GhArzxDH07
 
-sprite $RepublicanSm [15x12/16z] NSk50SGW44JHYGVz_LTxWiD3rxIwAL94jwNGGAZro2MFDYJIyG7So_M2LeocC92Y-_W1zXmUPIWTv_NdmgqzR5y
+sprite $RepublicanSm [15x12/16z] NSk50S0W40F0L76o_xIu7_g6qyy66QSQ2jBrsFE58P1tETQHHl8LEJnmjOME9Ngl9DTgUBMXSen5PjoFoo42
 
-sprite $RepublicanMd [20x16/16z] {
-RSY54SC030Im3tEq_xOzbqbcvxzcEs-EENUdD_FlYx5-M730Z2GxRJfzchsMke8X1sdeebfmKls-TFdBj-7VRpfzw1XsPUpAWJn_NKhjMU50cx8XmPwcQN9J
-M_LS
-}
+sprite $RepublicanMd [20x16/16z] TSc50GCX0CNGV-va_srBwdR17pbfAxUE-I65j-Plia439k0GPg3IxjxGU_D2am1T3Z-yyB225PpQt_Yk_MTJ-O8wTwnlx03oj2RcFIl0yRHD2x3dJnS
 
 sprite $RepublicanLg [25x20/16z] {
-VSw50O0m30J0htj__scHu7euKVnoVcTngBp8MF6kGJG-vBqWIMAVxs6-OPB9QX7829NOFLmZBQIW0vPCieMMFt7j1Et88k_Qd09F4J_26__Lgdq659ywJW5l
-X7i438Jc37Elbq17aeUTxrX9MqW4dqO
+VSk55SGW0C3Gr0t8_jEUrFstQ1wyoejL3gkWUpqppoAZw4M_FcXKOrgt0Bs6WaPRiivKKqKj0JL1hXq4pK1jnw3abGwWKkp2LSkBuXRWdVWSl4hiGfcDYal8
+OAGgQlGQ4ksubAhiGWsTogCl
 }
 
-!procedure Republican($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Republican', $name, $tech)
+!procedure Republican($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Republican', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Crown')
 
 ' renders the element
-Crown('Crown', 'Crown', 'an optional tech label')
+Crown('Crown', 'Crown', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Crown')
 
 ' renders the element
-Crown('Crown', 'Crown', 'an optional tech label')
+Crown('Crown', 'Crown', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

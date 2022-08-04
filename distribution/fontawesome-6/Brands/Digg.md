@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Digg')
 
 ' renders the element
-Digg('Digg', 'Digg', 'an optional tech label')
+Digg('Digg', 'Digg', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Digg')
 
 ' renders the element
-Digg('Digg', 'Digg', 'an optional tech label')
+Digg('Digg', 'Digg', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

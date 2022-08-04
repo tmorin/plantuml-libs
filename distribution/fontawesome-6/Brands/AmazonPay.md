@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/AmazonPay')
 
 ' renders the element
-AmazonPay('AmazonPay', 'Amazon Pay', 'an optional tech label')
+AmazonPay('AmazonPay', 'Amazon Pay', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/AmazonPay')
 
 ' renders the element
-AmazonPay('AmazonPay', 'Amazon Pay', 'an optional tech label')
+AmazonPay('AmazonPay', 'Amazon Pay', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

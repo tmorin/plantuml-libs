@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowUpWideShort')
 
 ' renders the element
-ArrowUpWideShort('ArrowUpWideShort', 'Arrow Up Wide Short', 'an optional tech label')
+ArrowUpWideShort('ArrowUpWideShort', 'Arrow Up Wide Short', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ArrowUpWideShort')
 
 ' renders the element
-ArrowUpWideShort('ArrowUpWideShort', 'Arrow Up Wide Short', 'an optional tech label')
+ArrowUpWideShort('ArrowUpWideShort', 'Arrow Up Wide Short', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

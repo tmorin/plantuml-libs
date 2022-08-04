@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CircleArrowUp')
 
 ' renders the element
-CircleArrowUp('CircleArrowUp', 'Circle Arrow Up', 'an optional tech label')
+CircleArrowUp('CircleArrowUp', 'Circle Arrow Up', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CircleArrowUp')
 
 ' renders the element
-CircleArrowUp('CircleArrowUp', 'Circle Arrow Up', 'an optional tech label')
+CircleArrowUp('CircleArrowUp', 'Circle Arrow Up', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

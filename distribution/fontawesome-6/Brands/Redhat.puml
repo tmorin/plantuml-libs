@@ -2,15 +2,15 @@
 
 sprite $RedhatXs [10x10/16z] Oy0E-440XSKFOV61A0Oc8C45bcC2gm4puNgWB3W
 
-sprite $RedhatSm [12x12/16z] Oy03-8603SBauGS3Y32SpS_726E32NOGcmFCuOPgOu2euEE5wE02KWYJc7cXJ0G
+sprite $RedhatSm [12x12/16z] Oy03-8605SBauGS3Y32SpS_706E32NOGcmFCuOPgOs04A-3ZXUZW0b88anXveKm4
 
-sprite $RedhatMd [16x16/16z] ZSgr0GGX04JHZplqN-qf7ktBHdZ2IgfPKRMVJ9TRrtDFFIjTHrOWMWkadZtqM_bbBP3jmz8rrxz1mcy3stO0yShRHp08gMHFkpS
+sprite $RedhatMd [16x16/16z] ZSi53i0W44JHmHtkVzhA1Dbe-wDl1N_o2jqTgi7gSXspwQbfRVgoucz4cOx0F6kq1VHuyfYDC6yJoLixP7ZAqinjVdK3
 
 sprite $RedhatLg [20x20/16z] {
-fOm50eCm54DJz-R-fvtMvWCUr7u4Xo538fF2nB0ZqCaSpEZtcSO5HSBEMMtr2hAkuNxADeeUBMPkBSPQWKA1bf9et2fxLGdMkjogF9_0bVWwU_8AT8IDkR8a
-Yxyv0m
+fStL0SCm54DHcTbt_sdBp4tEvmD9gq5fq8okB6VNMUTvoEUPruu3nUjiIWg0avcSdT-krTIiqvlLZh7E6GsaoMbw0lCoP1JdN3z5PHvehpxF7cvrvMgVZERr
+ioq
 }
 
-!procedure Redhat($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Redhat', $name, $tech)
+!procedure Redhat($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Redhat', $name, $tech, $desc)
 !endprocedure

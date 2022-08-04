@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Burger')
 
 ' renders the element
-Burger('Burger', 'Burger', 'an optional tech label')
+Burger('Burger', 'Burger', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Burger')
 
 ' renders the element
-Burger('Burger', 'Burger', 'an optional tech label')
+Burger('Burger', 'Burger', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

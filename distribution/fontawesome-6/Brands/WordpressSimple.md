@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/WordpressSimple')
 
 ' renders the element
-WordpressSimple('WordpressSimple', 'Wordpress Simple', 'an optional tech label')
+WordpressSimple('WordpressSimple', 'Wordpress Simple', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/WordpressSimple')
 
 ' renders the element
-WordpressSimple('WordpressSimple', 'Wordpress Simple', 'an optional tech label')
+WordpressSimple('WordpressSimple', 'Wordpress Simple', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

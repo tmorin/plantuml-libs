@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Atlassian')
 
 ' renders the element
-Atlassian('Atlassian', 'Atlassian', 'an optional tech label')
+Atlassian('Atlassian', 'Atlassian', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Atlassian')
 
 ' renders the element
-Atlassian('Atlassian', 'Atlassian', 'an optional tech label')
+Atlassian('Atlassian', 'Atlassian', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

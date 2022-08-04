@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Brands/Odnoklassniki
 
-sprite $OdnoklassnikiXs [6x10/16z] 3S610K000C2W083z_ot549vg55lYp5en_GzL8QZeLHy
+sprite $OdnoklassnikiXs [6x10/16z] 5S450SG0000XNkPo_TDEW4yuggyO4cl6Yg-VHIy45Ptg1W
 
-sprite $OdnoklassnikiSm [7x12/16z] JSl50O1G30FGXplTVreafrzl1DUEhhuWlQibPxwLS1OzHry9hgfJZD3OwmK
+sprite $OdnoklassnikiSm [7x12/16z] NSk50OG030F0UyN9_jFYNcy4NGsPWgLhAKZMhzovmflcbINeaXQIXpqZ
 
-sprite $OdnoklassnikiMd [9x16/16z] 7Og55O0m30KFgDljloqlZNu3dhE8sge9FYr3GtXWc54WMPdXBpyUtKU1hFTFU2EUTJnlUCjR5MXQY9gQ0Bhg0qL92fSrwmy
+sprite $OdnoklassnikiMd [9x16/16z] 7Ot50S1048J8kTD_jJ5UAoF0THOVMpL2qDpqEm3TWFATAzC4omjq7mMoAZ0XN32o3iBtM_uKe6ZYO_uDq5IltqrI-BTcVG
 
 sprite $OdnoklassnikiLg [12x20/16z] {
-FOw54GGX4C22dq7wh_Q5dRaWwmAG7a-2HzKEC0qo97qWgp0K2766NXLwwDSMQat7hg8RG9JfIi1T81NWR5MV2cce-7B3PT3PB1i4jrfVDTRS2yqSnj05oTXj
-0HJb2m
+HOw50SGm30FLC6l_RVyj5wvDOhRmvrhiS1QDREQc4u2BNBe99Bk0R4ztEzWJtHvwrDRKXK87U9nZrhIv4K3FYLpXJe8lKzD4X3XI9kONdOzC2Tg1v2MTvz6S
+pNI9Fm
 }
 
-!procedure Odnoklassniki($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Odnoklassniki', $name, $tech)
+!procedure Odnoklassniki($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Odnoklassniki', $name, $tech, $desc)
 !endprocedure

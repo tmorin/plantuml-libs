@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FeatherPointed')
 
 ' renders the element
-FeatherPointed('FeatherPointed', 'Feather Pointed', 'an optional tech label')
+FeatherPointed('FeatherPointed', 'Feather Pointed', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FeatherPointed')
 
 ' renders the element
-FeatherPointed('FeatherPointed', 'Feather Pointed', 'an optional tech label')
+FeatherPointed('FeatherPointed', 'Feather Pointed', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

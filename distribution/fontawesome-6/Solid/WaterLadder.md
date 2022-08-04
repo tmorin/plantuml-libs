@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/WaterLadder')
 
 ' renders the element
-WaterLadder('WaterLadder', 'Water Ladder', 'an optional tech label')
+WaterLadder('WaterLadder', 'Water Ladder', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/WaterLadder')
 
 ' renders the element
-WaterLadder('WaterLadder', 'Water Ladder', 'an optional tech label')
+WaterLadder('WaterLadder', 'Water Ladder', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

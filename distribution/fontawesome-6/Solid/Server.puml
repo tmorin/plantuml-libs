@@ -2,12 +2,12 @@
 
 sprite $ServerXs [10x10/16z] Ou03NduqmC6Cn663iqZN0G
 
-sprite $ServerSm [12x12/16z] Oq02xFpu0GCt4mgVaGy1g6KE
+sprite $ServerSm [12x12/16z] Oq02xFpu0GCt8ogV3m6ePGu
 
-sprite $ServerMd [16x16/16z] Oq07V2Y0Xnytu0P29C33mCs0gOWFZS_0Y0e6sdu
+sprite $ServerMd [16x16/16z] Oq07V2Y0Xnytu0P29C33mCs0gOWFZOzktK3R3m
 
-sprite $ServerLg [20x20/16z] Oy06s3002oy_6O2BWvyPNOoHWPk1atWZsB28ONFoSF47
+sprite $ServerLg [20x20/16z] Oy06c3404oy_6O2BWvyPNOo1WPk1atWZsB28ONFoSF47
 
-!procedure Server($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Server', $name, $tech)
+!procedure Server($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Server', $name, $tech, $desc)
 !endprocedure

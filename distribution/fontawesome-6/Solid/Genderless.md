@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Genderless')
 
 ' renders the element
-Genderless('Genderless', 'Genderless', 'an optional tech label')
+Genderless('Genderless', 'Genderless', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Genderless')
 
 ' renders the element
-Genderless('Genderless', 'Genderless', 'an optional tech label')
+Genderless('Genderless', 'Genderless', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

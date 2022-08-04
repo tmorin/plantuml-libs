@@ -2,12 +2,12 @@
 
 sprite $VolumeOffXs [6x10/16z] Oq00VZ31py32meyA-C0aM1Ac1am1
 
-sprite $VolumeOffSm [7x12/16z] Oq06_12I7qBoC_BZ1WmyF40IgXAk3mou0G
+sprite $VolumeOffSm [7x12/16z] Oq06_12I7qBo0p5EmC330oIXAk7wm80R
 
-sprite $VolumeOffMd [9x16/16z] XKp50O100C9ksNzQlUwWNo35PPgqJTl4TLsKUDZ7RWV6QNfeVnuxyDY1rmuCFm
+sprite $VolumeOffMd [9x16/16z] Oq07t52Qdnz6yqDe48ERcviV17Zv2GCE68E1aOc9bnzc3Y-80MD1xUBZXriF
 
-sprite $VolumeOffLg [12x20/16z] dSQr0S0m40D0oM7K_jE6O_pALnrChlLjfB-z_0VvJthEjctNf-fKRu_EwBWnEfp_BJxlU_614m
+sprite $VolumeOffLg [12x20/16z] dSR50S0W44N15_Vy_gkD2x1xOaw3goY_LjBRHjyxVHzqlwxhMPT6-TRWX3yLmIc3GtZ24nvs
 
-!procedure VolumeOff($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/VolumeOff', $name, $tech)
+!procedure VolumeOff($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/VolumeOff', $name, $tech, $desc)
 !endprocedure

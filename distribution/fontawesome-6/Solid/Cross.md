@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Cross')
 
 ' renders the element
-Cross('Cross', 'Cross', 'an optional tech label')
+Cross('Cross', 'Cross', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Cross')
 
 ' renders the element
-Cross('Cross', 'Cross', 'an optional tech label')
+Cross('Cross', 'Cross', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

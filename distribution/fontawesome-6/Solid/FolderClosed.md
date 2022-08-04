@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FolderClosed')
 
 ' renders the element
-FolderClosed('FolderClosed', 'Folder Closed', 'an optional tech label')
+FolderClosed('FolderClosed', 'Folder Closed', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FolderClosed')
 
 ' renders the element
-FolderClosed('FolderClosed', 'Folder Closed', 'an optional tech label')
+FolderClosed('FolderClosed', 'Folder Closed', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

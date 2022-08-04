@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/RoadBarrier')
 
 ' renders the element
-RoadBarrier('RoadBarrier', 'Road Barrier', 'an optional tech label')
+RoadBarrier('RoadBarrier', 'Road Barrier', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/RoadBarrier')
 
 ' renders the element
-RoadBarrier('RoadBarrier', 'Road Barrier', 'an optional tech label')
+RoadBarrier('RoadBarrier', 'Road Barrier', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

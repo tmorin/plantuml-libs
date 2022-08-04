@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Bus')
 
 ' renders the element
-Bus('Bus', 'Bus', 'an optional tech label')
+Bus('Bus', 'Bus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Bus')
 
 ' renders the element
-Bus('Bus', 'Bus', 'an optional tech label')
+Bus('Bus', 'Bus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

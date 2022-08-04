@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Houzz')
 
 ' renders the element
-Houzz('Houzz', 'Houzz', 'an optional tech label')
+Houzz('Houzz', 'Houzz', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Houzz')
 
 ' renders the element
-Houzz('Houzz', 'Houzz', 'an optional tech label')
+Houzz('Houzz', 'Houzz', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

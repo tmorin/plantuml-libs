@@ -1,16 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/X
 
-sprite $XXs [7x10/16z] 9OI50S0m08EOhyh_rrOJWBrIPiKJYXmBICgSxXhX4pPSFYz0xG
+sprite $XXs [7x10/16z] 9SI50SC008J0gpVA_jD6_m70ia1wiaGUOIfGTnlvnOrNdo-iEm
 
-sprite $XSm [9x12/16z] DOk50S102CHIzsR_QTznE27Yi6yddxRbS8VF2Lwdowt3dGQDhNtJhByJrNgwGhLoqEBD
+sprite $XSm [9x12/16z] DOk54S103CDKvch_QGll2oS6AXQpnQDjMHpX4ZXbSmWS6hIsPjFzt2smEAyndB90kru
 
-sprite $XMd [12x16/16z] JSn50WKX081Gfalb_gVzCUPRiO9He9X2D98fUfSCe3iGJS2YCxVoT-Yc4wz7NIWqzTGdPzGooujPPzXroZCcNUeiUf8bcQYcBm
+sprite $XMd [12x16/16z] JSor0SL0081GuiaP-q_xzOpgLJ2NXhAvKj5GcK1t85k0LHU2yktIlHAYkbBJCgZnpwnrzbyiki2fTSQYQvjbJ_uLcNe3
 
-sprite $XLg [15x20/16z] {
-NSw55SCm34LHXJbt_sbBXkFc6SK_7ipDVnWlgZKoSsQhGnmSoSGGSVEhl_ABFk9ahpNTmXM97fe92tHHaGep5yoDjQdPAsTgN_gsJtQdoSLAkYwcfkNK3YJ-
-UGC
-}
+sprite $XLg [15x20/16z] NSs50SD030D0Xpct_xJbFfbHYaQ6ekxxYzIDp9p_5d5mfAwBk1dVtSMSfoTx_bcu_lXGCCpVBedq-0DbAheDNVeyeqF2JIcDVypvwMI_60l8gIGaQda2
 
-!procedure X($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/X', $name, $tech)
+!procedure X($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/X', $name, $tech, $desc)
 !endprocedure

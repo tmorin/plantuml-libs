@@ -2,15 +2,15 @@
 
 sprite $PersonShelterXs [10x10/16z] Om01FWO8u0S23Y3DmiyFvW4H8v1cOE04Ie348MeG15W7Dup5pW-LO6PdG6O1
 
-sprite $PersonShelterSm [12x12/16z] POd50S0m4CDKvch_QOlnAmT6lZd9dEhogKbdTkreT8SDV0TO1TfVqm5yUb6ZDSHww6bBsXEYkqhV
+sprite $PersonShelterSm [12x12/16z] POd50S0m4CDKvch_QOlnAmT6lZd9dEhogKb7Tcr1TzZ0Tu1PW5_J4RseqHfYFVIq8Uq9qLsbRm
 
-sprite $PersonShelterMd [16x16/16z] TSm50iKm20DGg7lkVziV-6wPXBUrbMlqo6l0p8ScPKzs5KwTlTbH5C0IYPCFH_iO_83fItqDKo6MVVS-uzMmF7tSzUw8pZwuUo2p5U6ntynwSVpZ0ttnmWK
+sprite $PersonShelterMd [16x16/16z] TOm50e0W40Hj9VV_ltNfdijHO0liTgi1KTaKpTNfxU4cE0tdxezgtbSiheOL7f3i5yWHBlcx9hcnedOuYbllL_83WjCYkSJ5kM7FzxsJukV2BVRADNu
 
 sprite $PersonShelterLg [20x20/16z] {
-bS-54SGW04JH3UxRVxStk8pUZxyOOAOBdcGX6IxYo2tnzT8YreDkekfft8y3N_rG-W0J1Q0hXhhx-ZDbVAU6rdnV70Q5r-fFpMrisTCCUwTn5BSvzgcGtp9F
-D3FRQlCNjyc_BJ0F4zJZx0S
+bSq53i0W343Huiw__scdC8lknyW3MfcvBfzK1_AB64MP9G0d1K0VOW7A_Ln4Eb3t7JjhW0oWpZTzpW7aQFvNt2PMlbO0_pQEmjCyPqzZL6wB9800joNaC7_R
+tbZnCVFRCcsOnetJ2W
 }
 
-!procedure PersonShelter($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonShelter', $name, $tech)
+!procedure PersonShelter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonShelter', $name, $tech, $desc)
 !endprocedure

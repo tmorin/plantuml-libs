@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ShieldVirus')
 
 ' renders the element
-ShieldVirus('ShieldVirus', 'Shield Virus', 'an optional tech label')
+ShieldVirus('ShieldVirus', 'Shield Virus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ShieldVirus')
 
 ' renders the element
-ShieldVirus('ShieldVirus', 'Shield Virus', 'an optional tech label')
+ShieldVirus('ShieldVirus', 'Shield Virus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

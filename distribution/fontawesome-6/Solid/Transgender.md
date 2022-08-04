@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Transgender')
 
 ' renders the element
-Transgender('Transgender', 'Transgender', 'an optional tech label')
+Transgender('Transgender', 'Transgender', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Transgender')
 
 ' renders the element
-Transgender('Transgender', 'Transgender', 'an optional tech label')
+Transgender('Transgender', 'Transgender', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

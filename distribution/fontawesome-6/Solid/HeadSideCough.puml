@@ -1,19 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/HeadSideCough
 
-sprite $HeadSideCoughXs [12x10/16z] LScr0O0050FHXpj__scnL5mJEUor2akz3A02R5yxwi2PDwB2lq-qEUs6z76WyiTiDm
+sprite $HeadSideCoughXs [12x10/16z] NOor0S10008lxc7_QT-T2WTUtKHSyjW2LuIdJs2VFk0F7Abs1duauPzP8zytK2dvImi
 
-sprite $HeadSideCoughSm [15x12/16z] LSU50SGm3C10DSpUVzg7XXMm3r1D2YlftHfMDrlV2zr5UhOJMLbG1oDKXai1bHW4a7v7e1k3hJq0yWK
+sprite $HeadSideCoughSm [15x12/16z] LSU50SGm300nFKF1-qzR2b_05kvhp6gH6bHy7xccVPOyH-gPA6fFxXr_BBBd6N-P4EdckAqornN43W
 
-sprite $HeadSideCoughMd [20x16/16z] {
-NOq74W8n3CIKnAQQxFzVIyUpW-xIv0OmIwg9CVKbJ3M7dvFHQSRjuwf5Nd-9NYXzXb_QxTVoH9yo_zo042xNPCecxrWBWXFHBW66OAcTgWgirgOUoNOn1cz2
-3m
-}
+sprite $HeadSideCoughMd [20x16/16z] NSq54iD034FHRoLbDxh_QSlrQABbjmIWjbja_CiQD3aEHNwajFlNUc2zsVkhO8jthcFRk-N1_4KxAv19L56EdpT9K9oeiOLt3FAOknlYRlnwOXaJlyXF
 
 sprite $HeadSideCoughLg [25x20/16z] {
-RT253S0m4C10bxdUVzeoHAzSc85JEQbpJL3x6aXr9iByx8Yli5jfm6CoSJRAp4u5jSxSLdyjW_fVDcZojthtAfYD01GC1kYXWCBK25HsdCBRslxDqid0Ag20
-hxvfcXB0afEf2YXjEEK-TrsJWOxVlEm
+RP250SKW34IlnVNsd_Ohcl9mui6NEv7C6WB5Ji2AuuBGFqhO4Tvk2j18N4YBW0lNDs1kWig9GPWcZX9rpchwoZpbzTtvhCG35uJ40RXQ756RzNrZ8_O2MWom
+uuqnrrV6wvdm_OjnJu5eRgsBm66Ioni
 }
 
-!procedure HeadSideCough($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HeadSideCough', $name, $tech)
+!procedure HeadSideCough($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HeadSideCough', $name, $tech, $desc)
 !endprocedure

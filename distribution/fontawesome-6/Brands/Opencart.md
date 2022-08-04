@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Opencart')
 
 ' renders the element
-Opencart('Opencart', 'Opencart', 'an optional tech label')
+Opencart('Opencart', 'Opencart', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Opencart')
 
 ' renders the element
-Opencart('Opencart', 'Opencart', 'an optional tech label')
+Opencart('Opencart', 'Opencart', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

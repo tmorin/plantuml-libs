@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Resolving')
 
 ' renders the element
-Resolving('Resolving', 'Resolving', 'an optional tech label')
+Resolving('Resolving', 'Resolving', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Resolving')
 
 ' renders the element
-Resolving('Resolving', 'Resolving', 'an optional tech label')
+Resolving('Resolving', 'Resolving', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

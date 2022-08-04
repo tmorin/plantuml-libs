@@ -1,19 +1,19 @@
 ' definition of the Item fontawesome-6/Solid/TowerCell
 
-sprite $TowerCellXs [11x10/16z] BOQ55GGn48LOYGlzLtioBrzXSRGlhmuWRXSeutOvBfHvYTnPwGZWEoLqgmVju0uq5BHY2ry
+sprite $TowerCellXs [11x10/16z] DSZ50G0X0CJ0d2ka_sfnvhD2O8YBN1HYjDpAXy5lGVaHMKxbHGhNNpgBqLumZdFU1WelCW
 
-sprite $TowerCellSm [13x12/16z] FSd50S0W0CNGr0t8_jiMVwSl9AOF4OftzojbKH0jvT6bbAUKlJ_8Ylgn798jBezq5kSeCOJKh-3tVS65mexia68HVW
+sprite $TowerCellSm [13x12/16z] FOe54e0m40CNbqh-_rj89x2LkmYTdu8GWtjI6K9-I1PNn6KnHtXrNc0JnaM2pFw9LcjFL5LAgH4Al2p2J887
 
 sprite $TowerCellMd [17x16/16z] {
-HSq50GC1002Xcxu__TFEXGAqdEflFaN7FWvnTKsr33MApN5Ic4ep3gk2qcXn6XGkdRGucbBG8B9NiuagUg6BhPyB-qu_tiO-3fmUw6EtBG-SUlDJlS_Zo__y
-PKFT0G
+LOs50O0m4CI2Kyt-q-AQwjiTgUD3x53QDw6Z0m9fWacqsCo26a2YRjUP46GssOndOg2HP6lWxXX4iGBHeAVBxKPduQ7LMlLDU3A_2TkDjwLQqeQs_mdlbitp
+BlnVEaTO0G
 }
 
 sprite $TowerCellLg [22x20/16z] {
-NS-5WSKW403H2HfZf_zgJt_quSvI1oyvG2jFkasQ9bSE3XPTb6Q7gW6450rb2AZki9acrI2EsO3bRtOecnEeLjYTadObkvutA5NHGYIQxWfhPnY46K07sW66
-dNzP2xlo4DhQyeep-H7Sx1uo5rq_RN1QTTz-XKuSlDduQ3e-GldGmSVa6SBzvVrlzXi
+LT25WSKm3C1GbI6njV-qXz-55sPW2NYR4dJWJTkWu4OnEFHGLXTOD86KGLC90TK6JL1DKghAAcWepG5K5-Y2RiheJksWJ8eEvC2gNU7S29Dq0D10Du1mhVVe
+I5TUKgTfqvadFvA7RXbVKyzF-PXyQ6-_Kg7uqFXODJuUapKeMd_zFBcx0Ty
 }
 
-!procedure TowerCell($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TowerCell', $name, $tech)
+!procedure TowerCell($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TowerCell', $name, $tech, $desc)
 !endprocedure

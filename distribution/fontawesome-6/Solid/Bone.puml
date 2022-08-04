@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/Bone
 
-sprite $BoneXs [11x10/16z] Oy0E-BcXD3ylFp-OnS7FpymF1mnm5WSNGfGJgfO9IBD1JM9YH38M
+sprite $BoneXs [11x10/16z] Oy0E-BcXD3ylFp-OnS7FpymF1mnm5WSNGfGJgfOHIBD1JM9YH38M
 
-sprite $BoneSm [13x12/16z] VSm50O100C30uSxwfyLT_W8S0H6Rc4WB5gwgSbAhU47j8SwywDKrLT7jhfLV8m
+sprite $BoneSm [13x12/16z] Oo0IyFEpGnaGmCOA15n01b000HYuaDYio39yG0mt08WPmMoGUjns0W
 
-sprite $BoneMd [17x16/16z] dOw30G0n40Jttfx-gttRoGHdo8EeZ3SZAyo0rTC0msD97lII4phPjO9JWZZHSA8Qd9fPcjgwrnWCjM61lka
+sprite $BoneMd [17x16/16z] dOw30S1040GtTgR_QcFZDS_pAe2uoKwZh2KWtUqUc0-RdG0qFD33xlJmFEsvwODsTcfZRthgOWv6EfaDAoC
 
-sprite $BoneLg [22x20/16z] jS_50GCX443HMJVWzrzj3BTBadsuCtAN1Qvi0f01uCWdCPgtEBdpcSOs3jP4YnpK9X4gUsiIpfC-jJeR7qVntz6ExPlHPMDTTycCno2_Um8
+sprite $BoneLg [22x20/16z] jSwr0SC040D0cTct_xHXXYPm3sgLVscOSWi93Bc2TR6NYzxUwXWdZYglPF2iJ3pf4vwDe_VcwgHcRtZeMzWBbBcQC2HjdplbKEHxMm
 
-!procedure Bone($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Bone', $name, $tech)
+!procedure Bone($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Bone', $name, $tech, $desc)
 !endprocedure

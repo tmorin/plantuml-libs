@@ -1,19 +1,16 @@
 ' definition of the Item fontawesome-6/Brands/Cmplid
 
-sprite $CmplidXs [12x10/16z] VOg35G0n44GFiNx_rSPup7Bqt8g-gUDGDrPc06S4pM55f6cfWNd2_rIw0c2DZCCzLG
+sprite $CmplidXs [12x10/16z] VOh50G0X40DphZ3zLulRYzMOPaLQc_0VrWHs0zUz4nrgPBrbAqR_ga1h09vxDP6DvG4
 
-sprite $CmplidSm [15x12/16z] ZOl50OKm50Gdxjd-g_s2mubvBiiBbF_9e6tSqh_67mIiy2BenqIeCl9oL_odGtrAmzp6-DSnr7xGc77HrDzapN_nyoTV
+sprite $CmplidSm [15x12/16z] ZSZL0SKm5CFGKwOatd_Rn_XLNPIT80j2dkgZunM3FguzvaeJMTLLa0dnRF5KKtlg54FK75SSsYmp-zLwry2r_xa
 
-sprite $CmplidMd [20x16/16z] {
-bSwr0SD040J04VDl_zKQXAaz3vSS-LDLWtf_fnHeGn-dZ92mnQa5MSb6bzqdafRKwgp3Hw-V3B6_1DBpjCk2Da-xcTGe0QdKQKnvjfl3k9UloqTb6PIG83jL
-MfdixrTl
-}
+sprite $CmplidMd [20x16/16z] hOw53SC04CGSvdZ_QGDN51OjFID_mFNKjP4hTj728bUAQET3bhCtK0bMXvIKpjr1IplGIKGvi7bUvvXxjtM9FRUlrno91n_VzH9PdAU3WgbBj-aDUS61oBli
 
 sprite $CmplidLg [25x20/16z] {
-jOu54aD134BvlixzRzk6eJvMUojCFFW7jK6KDjamv4rjY9bTEf4spD4sQUP-DfWYjpGngVtW17JEm4wZphSHCxakmGoi2nQsc3FSyof8F8323UhvkkpDynBm
-nYjhI8omqRY6euoGC1VFwsGLGAcUIAefnS3aTvstYWNmq_S99m
+jOu54aCX30KN-Gwy-z-s3UcKaRei4XV-mL5SxYKCmv26zCy9gYFWXfFBXB5ejcy5mbuwrXwQWAe0iow0lsixnT2160Wg4DHWKmGJFc9LnescEylgJY3wnaa7
+Bcs46SLwmjvCc9bWiwzAHmVsyskZkvm6_iQys0dW3_y-u0G
 }
 
-!procedure Cmplid($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Cmplid', $name, $tech)
+!procedure Cmplid($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Cmplid', $name, $tech, $desc)
 !endprocedure

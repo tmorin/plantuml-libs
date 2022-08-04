@@ -2,12 +2,12 @@
 
 sprite $TvXs [12x10/16z] O-370NWPO81aDZ9Wu4G0X1Gd0m
 
-sprite $TvSm [15x12/16z] O-171hpyw8012L2Noum4-DdHR4K7JCXo
+sprite $TvSm [15x12/16z] O-171hpyw8012L2NouW4-DdHR4K7ZCXo
 
-sprite $TvMd [20x16/16z] pSf50K0X00FGVS6jVrhSAS2xJM3SZfLgHxvLUdrOwSiwlN6EkHFURuVeDHEDJBhP2mG
+sprite $TvMd [20x16/16z] O-3bHmVi825CmCg42a2gc1XG0SyW4-D10q3FOV4P0oC609l0YmHu88PoeMW4AWC
 
-sprite $TvLg [25x20/16z] O-3YnmgOWUAa0mPCm3I29N03TfmXoCA95K2DH0MCCAimem-N10jG4
+sprite $TvLg [25x20/16z] O-3YnmgOWUAa0mOiO0HBu0RiE4EGXHChW9Z8Y0fmsyICIu85A0W
 
-!procedure Tv($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Tv', $name, $tech)
+!procedure Tv($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Tv', $name, $tech, $desc)
 !endprocedure

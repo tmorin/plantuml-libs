@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Briefcase')
 
 ' renders the element
-Briefcase('Briefcase', 'Briefcase', 'an optional tech label')
+Briefcase('Briefcase', 'Briefcase', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Briefcase')
 
 ' renders the element
-Briefcase('Briefcase', 'Briefcase', 'an optional tech label')
+Briefcase('Briefcase', 'Briefcase', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

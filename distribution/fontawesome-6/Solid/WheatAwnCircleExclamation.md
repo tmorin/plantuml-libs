@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/WheatAwnCircleExclamation')
 
 ' renders the element
-WheatAwnCircleExclamation('WheatAwnCircleExclamation', 'Wheat Awn Circle Exclamation', 'an optional tech label')
+WheatAwnCircleExclamation('WheatAwnCircleExclamation', 'Wheat Awn Circle Exclamation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/WheatAwnCircleExclamation')
 
 ' renders the element
-WheatAwnCircleExclamation('WheatAwnCircleExclamation', 'Wheat Awn Circle Exclamation', 'an optional tech label')
+WheatAwnCircleExclamation('WheatAwnCircleExclamation', 'Wheat Awn Circle Exclamation', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

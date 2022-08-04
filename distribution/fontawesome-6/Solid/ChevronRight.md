@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ChevronRight')
 
 ' renders the element
-ChevronRight('ChevronRight', 'Chevron Right', 'an optional tech label')
+ChevronRight('ChevronRight', 'Chevron Right', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ChevronRight')
 
 ' renders the element
-ChevronRight('ChevronRight', 'Chevron Right', 'an optional tech label')
+ChevronRight('ChevronRight', 'Chevron Right', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

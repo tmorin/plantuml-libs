@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Registered')
 
 ' renders the element
-Registered('Registered', 'Registered', 'an optional tech label')
+Registered('Registered', 'Registered', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Registered')
 
 ' renders the element
-Registered('Registered', 'Registered', 'an optional tech label')
+Registered('Registered', 'Registered', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

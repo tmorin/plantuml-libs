@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PeopleRobbery')
 
 ' renders the element
-PeopleRobbery('PeopleRobbery', 'People Robbery', 'an optional tech label')
+PeopleRobbery('PeopleRobbery', 'People Robbery', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PeopleRobbery')
 
 ' renders the element
-PeopleRobbery('PeopleRobbery', 'People Robbery', 'an optional tech label')
+PeopleRobbery('PeopleRobbery', 'People Robbery', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

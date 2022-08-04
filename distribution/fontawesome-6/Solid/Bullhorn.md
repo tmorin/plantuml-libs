@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Bullhorn')
 
 ' renders the element
-Bullhorn('Bullhorn', 'Bullhorn', 'an optional tech label')
+Bullhorn('Bullhorn', 'Bullhorn', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Bullhorn')
 
 ' renders the element
-Bullhorn('Bullhorn', 'Bullhorn', 'an optional tech label')
+Bullhorn('Bullhorn', 'Bullhorn', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

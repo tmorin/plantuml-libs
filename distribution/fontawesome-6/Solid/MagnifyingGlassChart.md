@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MagnifyingGlassChart')
 
 ' renders the element
-MagnifyingGlassChart('MagnifyingGlassChart', 'Magnifying Glass Chart', 'an optional tech label')
+MagnifyingGlassChart('MagnifyingGlassChart', 'Magnifying Glass Chart', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MagnifyingGlassChart')
 
 ' renders the element
-MagnifyingGlassChart('MagnifyingGlassChart', 'Magnifying Glass Chart', 'an optional tech label')
+MagnifyingGlassChart('MagnifyingGlassChart', 'Magnifying Glass Chart', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

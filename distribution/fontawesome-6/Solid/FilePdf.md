@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FilePdf')
 
 ' renders the element
-FilePdf('FilePdf', 'File Pdf', 'an optional tech label')
+FilePdf('FilePdf', 'File Pdf', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FilePdf')
 
 ' renders the element
-FilePdf('FilePdf', 'File Pdf', 'an optional tech label')
+FilePdf('FilePdf', 'File Pdf', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

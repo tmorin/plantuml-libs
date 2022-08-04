@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/CcVisa')
 
 ' renders the element
-CcVisa('CcVisa', 'Cc Visa', 'an optional tech label')
+CcVisa('CcVisa', 'Cc Visa', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/CcVisa')
 
 ' renders the element
-CcVisa('CcVisa', 'Cc Visa', 'an optional tech label')
+CcVisa('CcVisa', 'Cc Visa', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

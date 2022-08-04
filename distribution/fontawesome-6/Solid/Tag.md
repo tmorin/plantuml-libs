@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Tag')
 
 ' renders the element
-Tag('Tag', 'Tag', 'an optional tech label')
+Tag('Tag', 'Tag', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Tag')
 
 ' renders the element
-Tag('Tag', 'Tag', 'an optional tech label')
+Tag('Tag', 'Tag', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

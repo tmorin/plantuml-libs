@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CommentMedical')
 
 ' renders the element
-CommentMedical('CommentMedical', 'Comment Medical', 'an optional tech label')
+CommentMedical('CommentMedical', 'Comment Medical', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CommentMedical')
 
 ' renders the element
-CommentMedical('CommentMedical', 'Comment Medical', 'an optional tech label')
+CommentMedical('CommentMedical', 'Comment Medical', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

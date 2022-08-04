@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Cookie')
 
 ' renders the element
-Cookie('Cookie', 'Cookie', 'an optional tech label')
+Cookie('Cookie', 'Cookie', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Cookie')
 
 ' renders the element
-Cookie('Cookie', 'Cookie', 'an optional tech label')
+Cookie('Cookie', 'Cookie', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

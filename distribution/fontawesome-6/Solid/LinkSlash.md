@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/LinkSlash')
 
 ' renders the element
-LinkSlash('LinkSlash', 'Link Slash', 'an optional tech label')
+LinkSlash('LinkSlash', 'Link Slash', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/LinkSlash')
 
 ' renders the element
-LinkSlash('LinkSlash', 'Link Slash', 'an optional tech label')
+LinkSlash('LinkSlash', 'Link Slash', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

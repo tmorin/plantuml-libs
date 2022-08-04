@@ -1,16 +1,13 @@
 ' definition of the Item fontawesome-6/Brands/Sourcetree
 
-sprite $SourcetreeXs [8x10/16z] FSM50S0W4C30rBtPVreSydB0vaJANCCtkVDf4kPiky_S3fcVb5uC8m
+sprite $SourcetreeXs [8x10/16z] FOQ50S0W0CConUd_r-9G3V3feabTwnJR_oIfFLpzLvEwVkYNeOFZV0K
 
-sprite $SourcetreeSm [10x12/16z] LOY55O1G3CI2E-o_BVrII-No3k7uLbeM1fY-1fHVwgSOb9_jv2ksVuq1cfm8gyX8eRH4-m4
+sprite $SourcetreeSm [10x12/16z] LOo50S0W3C0oz_7_jJYLr9NC5NPQB4mmXmOKNzfVoQYrpsxgubcy36e_ixHtz7MR9G
 
-sprite $SourcetreeMd [14x16/16z] XKu53W0n2ElSj_-_TWASnQwHXbh0WMuZGs06Wmud1v-RdhCSQeakHLQKI0PhGDZSwJBxgfihf11PrPzDjFkme0R3lruh88Yh_gu5
+sprite $SourcetreeMd [14x16/16z] XOxL0G0X34EBE-o_xH4glnSaUMW9ykjq4hd3Uf0460s00xQQ4EOgHphfXN9zFtANvlK90bPOiD_anZ8893UWH5mcyk0ik-wFFW
 
-sprite $SourcetreeLg [17x20/16z] {
-dSs54GGX44JHluwJVxGdFLG7iAy4nf6zpf6mSuQs8NcQwmRmVwt0lNurNcZ_fxlrPCG3gEU9_0vG_hz4r-EHcxnUXZwmwJLq9dZPc9OGnm_BfQQoOJgryJBn
-1G
-}
+sprite $SourcetreeLg [17x20/16z] dO_54GGn40DxcJtvHslIbShlwyymYCxyH3enIuWNSOLHUmXdOkI6xUSzil0syxbr9ZKp0VIUbN3YLk9hPlF8WhxOqMoeC83Ec1bQhpdeZB6OazuM5io_YG8
 
-!procedure Sourcetree($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Sourcetree', $name, $tech)
+!procedure Sourcetree($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Sourcetree', $name, $tech, $desc)
 !endprocedure

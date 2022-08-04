@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Mixcloud')
 
 ' renders the element
-Mixcloud('Mixcloud', 'Mixcloud', 'an optional tech label')
+Mixcloud('Mixcloud', 'Mixcloud', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Mixcloud')
 
 ' renders the element
-Mixcloud('Mixcloud', 'Mixcloud', 'an optional tech label')
+Mixcloud('Mixcloud', 'Mixcloud', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

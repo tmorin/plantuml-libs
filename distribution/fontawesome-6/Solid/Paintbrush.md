@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Paintbrush')
 
 ' renders the element
-Paintbrush('Paintbrush', 'Paintbrush', 'an optional tech label')
+Paintbrush('Paintbrush', 'Paintbrush', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Paintbrush')
 
 ' renders the element
-Paintbrush('Paintbrush', 'Paintbrush', 'an optional tech label')
+Paintbrush('Paintbrush', 'Paintbrush', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

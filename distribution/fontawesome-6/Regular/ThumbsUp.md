@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/ThumbsUp')
 
 ' renders the element
-ThumbsUp('ThumbsUp', 'Thumbs Up', 'an optional tech label')
+ThumbsUp('ThumbsUp', 'Thumbs Up', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/ThumbsUp')
 
 ' renders the element
-ThumbsUp('ThumbsUp', 'Thumbs Up', 'an optional tech label')
+ThumbsUp('ThumbsUp', 'Thumbs Up', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

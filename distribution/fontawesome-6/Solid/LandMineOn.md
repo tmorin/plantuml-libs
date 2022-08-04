@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/LandMineOn')
 
 ' renders the element
-LandMineOn('LandMineOn', 'Land Mine On', 'an optional tech label')
+LandMineOn('LandMineOn', 'Land Mine On', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/LandMineOn')
 
 ' renders the element
-LandMineOn('LandMineOn', 'Land Mine On', 'an optional tech label')
+LandMineOn('LandMineOn', 'Land Mine On', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

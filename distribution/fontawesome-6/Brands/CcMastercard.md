@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/CcMastercard')
 
 ' renders the element
-CcMastercard('CcMastercard', 'Cc Mastercard', 'an optional tech label')
+CcMastercard('CcMastercard', 'Cc Mastercard', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/CcMastercard')
 
 ' renders the element
-CcMastercard('CcMastercard', 'Cc Mastercard', 'an optional tech label')
+CcMastercard('CcMastercard', 'Cc Mastercard', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Sailboat')
 
 ' renders the element
-Sailboat('Sailboat', 'Sailboat', 'an optional tech label')
+Sailboat('Sailboat', 'Sailboat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Sailboat')
 
 ' renders the element
-Sailboat('Sailboat', 'Sailboat', 'an optional tech label')
+Sailboat('Sailboat', 'Sailboat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

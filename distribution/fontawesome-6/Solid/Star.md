@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Star')
 
 ' renders the element
-Star('Star', 'Star', 'an optional tech label')
+Star('Star', 'Star', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Star')
 
 ' renders the element
-Star('Star', 'Star', 'an optional tech label')
+Star('Star', 'Star', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

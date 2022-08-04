@@ -1,19 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/TeethOpen
 
-sprite $TeethOpenXs [11x10/16z] Oq02_7300yGC_9nW4Q0u0mk8uEE6CxcmQqEevMJdv-Jd01d4nezGm04
+sprite $TeethOpenXs [11x10/16z] Oq02_7300yGC_9nW4Q0u0oE8uEE6CpcnQqEevM3dv-Jd01d4nezGm04
 
-sprite $TeethOpenSm [13x12/16z] LOk30K0n50ElThF_jD-yPuGVJG_UQQDBuvhbA316a18OjjHXncPIDCsQQOtuePU_HesSw9O9-hrXnhpeh
+sprite $TeethOpenSm [13x12/16z] LOk30K0n50ElThF_jD-yPuGVJG_UxRbBGmTMbW9ZRFi0XWWTPcmcHTEicSQ87thvQzH8aMwPeDyRZ7dHMG4
 
-sprite $TeethOpenMd [17x16/16z] {
-PSo50SCm3031JqmXwVUVjimzimNyM_Cj6lWjLw_wqBfvjpOtY0fc3HNQ2di10KsOFpymq-lAn-9FpqynTqlPefHSIh6M-jzKOGrmW1EJHKCZzV2s2Bzqc3x1
-6G
-}
+sprite $TeethOpenMd [17x16/16z] POo5OKHH2C3IfzyW-q_RSm-k_BBcY-ZW9xbUGsjQjdjlBMuGVs2MKA6li5yQW2Rmti1CBvPtuuUHxmJ3KhOe9KSfrb9_dogi0Svxesfef1vUZV23mJSd
 
 sprite $TeethOpenLg [22x20/16z] {
-TS_L0GCX403HESDX-kysN_6zXplBdVJZ1BB_mC0QgZf0A_XoNGfS0ibn5bNW43XVrL81lcUhFPXjilpNxaCBWZCmH_XQ_3Cz8Bb3SOCkiCnQgrgwceUQfcAW
-WdyAiGS
+TS_55SCm403HCOkd_sxpmhJ-1x4MEBFyc873Vs1WDBrge1byMHO5bkkms-Qa2ipNOReEwtKOAi3tQR86frc6_yfvQq5p1deBiyMLwGAR4oI1UXs6X-QifgeU
+JTsxOY0J72TY5m
 }
 
-!procedure TeethOpen($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TeethOpen', $name, $tech)
+!procedure TeethOpen($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TeethOpen', $name, $tech, $desc)
 !endprocedure

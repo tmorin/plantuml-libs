@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SuitcaseRolling')
 
 ' renders the element
-SuitcaseRolling('SuitcaseRolling', 'Suitcase Rolling', 'an optional tech label')
+SuitcaseRolling('SuitcaseRolling', 'Suitcase Rolling', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SuitcaseRolling')
 
 ' renders the element
-SuitcaseRolling('SuitcaseRolling', 'Suitcase Rolling', 'an optional tech label')
+SuitcaseRolling('SuitcaseRolling', 'Suitcase Rolling', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

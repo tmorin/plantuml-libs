@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Sass')
 
 ' renders the element
-Sass('Sass', 'Sass', 'an optional tech label')
+Sass('Sass', 'Sass', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Sass')
 
 ' renders the element
-Sass('Sass', 'Sass', 'an optional tech label')
+Sass('Sass', 'Sass', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

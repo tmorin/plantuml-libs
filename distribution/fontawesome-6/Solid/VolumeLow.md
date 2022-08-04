@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/VolumeLow')
 
 ' renders the element
-VolumeLow('VolumeLow', 'Volume Low', 'an optional tech label')
+VolumeLow('VolumeLow', 'Volume Low', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/VolumeLow')
 
 ' renders the element
-VolumeLow('VolumeLow', 'Volume Low', 'an optional tech label')
+VolumeLow('VolumeLow', 'Volume Low', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

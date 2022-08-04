@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Superpowers')
 
 ' renders the element
-Superpowers('Superpowers', 'Superpowers', 'an optional tech label')
+Superpowers('Superpowers', 'Superpowers', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Superpowers')
 
 ' renders the element
-Superpowers('Superpowers', 'Superpowers', 'an optional tech label')
+Superpowers('Superpowers', 'Superpowers', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

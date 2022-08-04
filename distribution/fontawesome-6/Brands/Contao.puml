@@ -2,15 +2,15 @@
 
 sprite $ContaoXs [10x10/16z] Ou037du8pSyFOd3pWPaW0WG8iNXW-Y048mC3CmkGX1W8
 
-sprite $ContaoSm [12x12/16z] JOg30S0m44LhDs__QSEplgPG1ug0K_53as-Ozu-EaMhu2_XGl8TG6lXjhuLUZSwJ55DA0izK
+sprite $ContaoSm [12x12/16z] JOg30S0m44LhDs__QSEplgPG1ug0G_5Dayzwbu-EqQhu2tXJl8LG6lZfhvwdtxrUBQQK19wf
 
-sprite $ContaoMd [16x16/16z] NSk55S0W303HX3fs-s_RXyj7OxABeN_F63t8u81SrkUI1D0K0jOy7ahxmv3YUuiDmvCI3774Oy2J-TkL-6Y505Twss1CRtAV-I60aSuZgZfYrHy
+sprite $ContaoMd [16x16/16z] TOlL0S0m48NgUZtsdxOMDtvuHBeSlVoSL0MYknEGVwtpBy3vw6V1zeIbqNtKo_y_e5dpjV0ZysbwY2wcp-wZVlvO-bzSy2sBq6Ky
 
 sprite $ContaoLg [20x20/16z] {
-RT3L0S0W40DGt6N_QIkX0jpbAtt51HVdxFIbd7Ewz2xcT4G9WctK_9PqMK1h-6j2mLGBwqiCOuwnm5Y1rHLXWJ6pcfeMp5xXhEMrkQB8zQmAJVScHy4Y-yEO
-2-LC4OkHd
+TP035WH134I3jdB_qovgCShyfuf17ggoirXVzZ2ZFGQOBiv5eFz4U_aAr49Koa2fm6S7F9ywlkBu1dppw8IlE3wv7zmZOzVny-qb11_tOYYrzHCl-lanuVoj
+QaOEJm
 }
 
-!procedure Contao($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Contao', $name, $tech)
+!procedure Contao($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Contao', $name, $tech, $desc)
 !endprocedure

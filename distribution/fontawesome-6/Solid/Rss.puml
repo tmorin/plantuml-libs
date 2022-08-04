@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/Rss
 
-sprite $RssXs [8x10/16z] BOc30S1040HZlAR_QizQRZKJtbGFL7QPwExEIB0R9N3uxWqeHnHJ0G
+sprite $RssXs [8x10/16z] BOc30S1040HZlAR_QizQRZKJtbGFL7QPwExsIB0R9N3uZWqeHnHJ0G
 
-sprite $RssSm [10x12/16z] FKk30S104AlnolxJdgrWgtY1pwzzGYBnnyzRXvudiFoK6D3pT9s1XmBVTi1z2ewwjgxIBiK
+sprite $RssSm [10x12/16z] FSY54S0m4CH0XJdglrgp_RXpZ3hqRFnKczagbtmo5_qRuJLpojpj8UvCxfe9laCy2_2aYG
 
-sprite $RssMd [14x16/16z] LOw54S0W40JZGN_xhnPtFnsEVNZxdXEGX-dmVeq0_sAtu1TuWgHBm1LSxwkxu2xq3-byobdv4hfxYQxYPwy47SNnKUry6GcGnTplEPicKktdygC8
+sprite $RssMd [14x16/16z] LOo50G0X30FVdTx-stw34xInQKHuzsv0UCguh8y1HsT_8VHnCByDlZpgNOeBraaumUyPQagX98g_F0FJySu-VXBX8DdPD1aWKVs1AMjcsTxX1m
 
 sprite $RssLg [17x20/16z] {
-POw55SGm3CLS34VxRtj--LTMCJBQXtrV9xlHmAct14IRxMBjECdkHDNTmHazMjbbYd8AJZbCC6T9mA8gJEJJv6Cmp2eo4pCePRUpAWvHpxJn2R03NRkkFX6X
-BZvXWY3Xq8Qm1fD4LQStFm
+POw55O0m4CKEgxVPVrhiumHgUMVsOnXwUrBPABTmYDhPpTW0eZq9Lzu5m5wZva4cAIO3P3DTf-tiFD0f2xkY1vbaOb1ClaAi1uMCzo1X5-KAsmyF3cWAwJSj
+599suMzHbLYXaoWINnO
 }
 
-!procedure Rss($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Rss', $name, $tech)
+!procedure Rss($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Rss', $name, $tech, $desc)
 !endprocedure

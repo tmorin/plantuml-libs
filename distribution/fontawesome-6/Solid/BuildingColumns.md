@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BuildingColumns')
 
 ' renders the element
-BuildingColumns('BuildingColumns', 'Building Columns', 'an optional tech label')
+BuildingColumns('BuildingColumns', 'Building Columns', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BuildingColumns')
 
 ' renders the element
-BuildingColumns('BuildingColumns', 'Building Columns', 'an optional tech label')
+BuildingColumns('BuildingColumns', 'Building Columns', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

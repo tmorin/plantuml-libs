@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Gamepad')
 
 ' renders the element
-Gamepad('Gamepad', 'Gamepad', 'an optional tech label')
+Gamepad('Gamepad', 'Gamepad', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Gamepad')
 
 ' renders the element
-Gamepad('Gamepad', 'Gamepad', 'an optional tech label')
+Gamepad('Gamepad', 'Gamepad', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

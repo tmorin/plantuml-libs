@@ -1,16 +1,13 @@
 ' definition of the Item fontawesome-6/Solid/FireFlameSimple
 
-sprite $FireFlameSimpleXs [7x10/16z] DOY50G0X3CJohf3zfyLfpu65Tjgr-bTjG--egywTpRlQ8dtaL2K3
+sprite $FireFlameSimpleXs [7x10/16z] Ou03Vdu82QAvGHGZaCF1ny_F11I1YZCmytD0b86KWp0RM08
 
-sprite $FireFlameSimpleSm [9x12/16z] HSo50O004090xFRsdzQExm2IfCfj5VS0RxSa0r04gL1I9uiVE9ll8No3SMB-T7O
+sprite $FireFlameSimpleSm [9x12/16z] HSo50O004090xFRsdzQExm2IfCnj9VS0RxSa0v0W5KhgPF43P_CzX6_GJSoVpWu
 
-sprite $FireFlameSimpleMd [12x16/16z] JOs55S0m24Hft6__RVkGo8_W70cB3i2yBj3K7M02kn4A--RoI6Fh-Vj8ou6Dix79NS2YEnR5dq1zV7fw-CrFzXH9NE4bNYNw0G
+sprite $FireFlameSimpleMd [12x16/16z] HOk50OGm5CM2GotxJtj2BT_byL8OQ9wjXjecLJU0pKhzg6G8xqCzrBohhkeEP3LhOSfMg8V7sUFyGSqBgtg3MW4egZxm1G
 
-sprite $FireFlameSimpleLg [15x20/16z] {
-LSq75i0W309GkhVS_xPzY77G-TKaS9uPNMvo6KHEePqvHPCLJi5JEaFURk9NkX8BtTq23dtlMUzLHP_-NfMCyoR9steoN7qsFlfLFvDaGjAH8kwOsP80s_B0
-npe0_
-}
+sprite $FireFlameSimpleLg [15x20/16z] JOw50S0W30GVTzX_s_RHNFM8Ob4K17aCBUtdcgSzNtQy7_MqE2uYbJHs9J23g1KyxRFcsxAeyQ-k4jb40IVCHomNdoR-ij-jxUXCEPqCr7Xq05eQASi2W0y
 
-!procedure FireFlameSimple($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FireFlameSimple', $name, $tech)
+!procedure FireFlameSimple($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FireFlameSimple', $name, $tech, $desc)
 !endprocedure

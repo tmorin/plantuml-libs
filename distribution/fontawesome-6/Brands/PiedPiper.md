@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/PiedPiper')
 
 ' renders the element
-PiedPiper('PiedPiper', 'Pied Piper', 'an optional tech label')
+PiedPiper('PiedPiper', 'Pied Piper', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/PiedPiper')
 
 ' renders the element
-PiedPiper('PiedPiper', 'Pied Piper', 'an optional tech label')
+PiedPiper('PiedPiper', 'Pied Piper', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

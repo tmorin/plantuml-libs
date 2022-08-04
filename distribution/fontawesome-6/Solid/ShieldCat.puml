@@ -2,15 +2,15 @@
 
 sprite $ShieldCatXs [10x10/16z] Om01VWOmOEG70H0V1e0i3WIBWPK1ok85gsNW0wk6QG4BGNL3JOGm
 
-sprite $ShieldCatSm [12x12/16z] HSg50S0W30J0htj__sc1-25HAC9j5FF8NeO3BF2tH3va_k4P-OlT-eS6NPgf-Ke3SMkwGAtUxG
+sprite $ShieldCatSm [12x12/16z] JSY50S0m24JHN_VU_jF64tWu5ABPb4t0g-v0XbPJtvEnVpnfVzdh_oX3hY-goEwopXHB-qO
 
-sprite $ShieldCatMd [16x16/16z] LOw50S0W30GVTzX_spPMEJJ-4Fp1Xtg8gA5rZ0RW_1Xc6sm7kkPyRTmclZP1TiCWsqLijXsSJSQcT1b8fbC1r7nx9FFZrPV0cDcXR5Dl51v5N
+sprite $ShieldCatMd [16x16/16z] NSx50S0m40D19MQy_girymRdPQ7t4uuqrVXGe9afeYltc9h_-l9--KCXJjUg3Lprnn6R-m4_Qd6PciU0ltpZrpxqx6DeJLgCubY_Kcj41W
 
 sprite $ShieldCatLg [20x20/16z] {
-RT254O0m0CNGO7NPVrhi5oTdtAFEaQaTZxfGj-nDwbcIkFeeZr0_-H-BiZRVFeoTQ7EBZ6aQa1c2R4_MCyboX-jaxL_4mYGhe0NP6yzFxRLs3eDOjwRs3WDx
-pqlmniBH-AJM-NhgVCKoeXO
+RP254GKX4CLoxj1_jL_kBKx6cB1EOFLKdFxFGcJmaLjczmNF2BxXwBXBplAtml4gBDV9iImJSXEdt8lSm2Ztm3x80IgxWUKwK45UnlXKBqXXS6d_uRGEB-KI
+rD8Hc2ebulL4lA8R4Ly
 }
 
-!procedure ShieldCat($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ShieldCat', $name, $tech)
+!procedure ShieldCat($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ShieldCat', $name, $tech, $desc)
 !endprocedure

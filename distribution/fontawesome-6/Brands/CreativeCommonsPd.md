@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/CreativeCommonsPd')
 
 ' renders the element
-CreativeCommonsPd('CreativeCommonsPd', 'Creative Commons Pd', 'an optional tech label')
+CreativeCommonsPd('CreativeCommonsPd', 'Creative Commons Pd', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/CreativeCommonsPd')
 
 ' renders the element
-CreativeCommonsPd('CreativeCommonsPd', 'Creative Commons Pd', 'an optional tech label')
+CreativeCommonsPd('CreativeCommonsPd', 'Creative Commons Pd', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

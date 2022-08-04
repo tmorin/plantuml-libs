@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/IdBadge')
 
 ' renders the element
-IdBadge('IdBadge', 'Id Badge', 'an optional tech label')
+IdBadge('IdBadge', 'Id Badge', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/IdBadge')
 
 ' renders the element
-IdBadge('IdBadge', 'Id Badge', 'an optional tech label')
+IdBadge('IdBadge', 'Id Badge', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SquareEnvelope')
 
 ' renders the element
-SquareEnvelope('SquareEnvelope', 'Square Envelope', 'an optional tech label')
+SquareEnvelope('SquareEnvelope', 'Square Envelope', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SquareEnvelope')
 
 ' renders the element
-SquareEnvelope('SquareEnvelope', 'Square Envelope', 'an optional tech label')
+SquareEnvelope('SquareEnvelope', 'Square Envelope', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

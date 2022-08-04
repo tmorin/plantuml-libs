@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Lungs')
 
 ' renders the element
-Lungs('Lungs', 'Lungs', 'an optional tech label')
+Lungs('Lungs', 'Lungs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Lungs')
 
 ' renders the element
-Lungs('Lungs', 'Lungs', 'an optional tech label')
+Lungs('Lungs', 'Lungs', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

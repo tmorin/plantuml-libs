@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Percent')
 
 ' renders the element
-Percent('Percent', 'Percent', 'an optional tech label')
+Percent('Percent', 'Percent', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Percent')
 
 ' renders the element
-Percent('Percent', 'Percent', 'an optional tech label')
+Percent('Percent', 'Percent', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

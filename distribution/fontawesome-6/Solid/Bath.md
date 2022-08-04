@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Bath')
 
 ' renders the element
-Bath('Bath', 'Bath', 'an optional tech label')
+Bath('Bath', 'Bath', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Bath')
 
 ' renders the element
-Bath('Bath', 'Bath', 'an optional tech label')
+Bath('Bath', 'Bath', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

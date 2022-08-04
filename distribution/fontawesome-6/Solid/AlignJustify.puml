@@ -2,12 +2,12 @@
 
 sprite $AlignJustifyXs [8x10/16z] Ou02Ndu8O801DYY0YXEh3W
 
-sprite $AlignJustifySm [10x12/16z] Ou03TduOOEI10QooV310YLu
+sprite $AlignJustifySm [10x12/16z] Ou03TduOOE210QooV310YLu
 
-sprite $AlignJustifyMd [14x16/16z] Oq05V4Y0XvSV6J0m8m4cL6sCF4Y06qqV8pAWjtq
+sprite $AlignJustifyMd [14x16/16z] Oq05V4Y0XvSV6J0m8G56D7qyI80RJHyAeBTz
 
-sprite $AlignJustifyLg [17x20/16z] Oy00RAY0XPSV3R2X2p0G1goeXZBna6xeq74f
+sprite $AlignJustifyLg [17x20/16z] Oy00pAY0YPSV3R2X2p0G1gniA829XtH3XuvB0G
 
-!procedure AlignJustify($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/AlignJustify', $name, $tech)
+!procedure AlignJustify($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/AlignJustify', $name, $tech, $desc)
 !endprocedure

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SortUp')
 
 ' renders the element
-SortUp('SortUp', 'Sort Up', 'an optional tech label')
+SortUp('SortUp', 'Sort Up', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/SortUp')
 
 ' renders the element
-SortUp('SortUp', 'Sort Up', 'an optional tech label')
+SortUp('SortUp', 'Sort Up', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

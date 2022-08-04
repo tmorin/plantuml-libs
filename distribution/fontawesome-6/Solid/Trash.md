@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Trash')
 
 ' renders the element
-Trash('Trash', 'Trash', 'an optional tech label')
+Trash('Trash', 'Trash', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Trash')
 
 ' renders the element
-Trash('Trash', 'Trash', 'an optional tech label')
+Trash('Trash', 'Trash', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

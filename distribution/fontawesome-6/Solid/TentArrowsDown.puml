@@ -1,19 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/TentArrowsDown
 
-sprite $TentArrowsDownXs [11x10/16z] PSY53S100810wbxsdxOkByGkmCfL3tZJbntMw6KLPD2IT-ZwISrP_KHb1m
+sprite $TentArrowsDownXs [11x10/16z] PSY53S100810wbxsdxOkByGkmCfL3tZJbntMw6KLPD2IT-ZwISrP_4Hb1m
 
-sprite $TentArrowsDownSm [13x12/16z] LSU50G0X3CNGZplPVzfp3T8-oUiix5-_XF_3q0EI8aIKm6esbNqg604eQizofBqChxZBDmRGRnp_WxX_Am
+sprite $TentArrowsDownSm [13x12/16z] LSUr0SH00C0m9yVe_QTzHdM2awS4CECpdlyvd4dWr2n5JtQdwG41LCdSdJvmL_Kxt_8xIvtleCexMUKA
 
-sprite $TentArrowsDownMd [17x16/16z] {
-ROu50WGX00AnM_x_spksQ-p10Z2muoC4xIx6_1BkBunP3aXumqpF8S4vvYGooGdK04DInvFMasm0kPmrQoQ_uRcnhHjtjW_mmgVORiY7o5jsYBu9gzu169k0
--eWV
-}
+sprite $TentArrowsDownMd [17x16/16z] RSo53GCn40NHEKFOE_rt6nb5zqIB7sXikTAPzg35tU0wWwiFhikNnTO7HekGbnhmoQ1wmRFteL_e_MGNRCM5wUkHzlrnEqZQFSzWLd86lpL8ExMj0QgPFm
 
 sprite $TentArrowsDownLg [22x20/16z] {
-ZSs5aKGX50NH_ehJ-MUx1QpRp2bzUW7wneSGcKvlFkXRDppPBRDRcCADSePDRqCtCdIJHYKwLE04d3QurGoNDg2lvgWZ98STb7VD9V9XyrtdJV2pZUdmAwRm
-QpUxt2xRbtowqydWgxU0-BLBTIZVkZYqxzseMk45
+ZSY5ZGD150N1NkRf_BCz_NVaiSWbBe36YsqdHbSYz7Ut3_VANiIseipReAjRSw4q3zsLtN83Cs00gth2eW_GLChY3eTb1AN4ex4HCLYYyMlprK2CzeZP7d5g
+hDq-6ZHZelY3mLZwvRPSz8lbUTzLzOOl
 }
 
-!procedure TentArrowsDown($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TentArrowsDown', $name, $tech)
+!procedure TentArrowsDown($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TentArrowsDown', $name, $tech, $desc)
 !endprocedure

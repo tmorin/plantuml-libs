@@ -1,16 +1,16 @@
 ' definition of the Item fontawesome-6/Solid/HandsHolding
 
-sprite $HandsHoldingXs [12x10/16z] Oy01-FaHJ3ni7duGWn74vcFWvm7I4CGF9naXR8X6RYYRcG4
+sprite $HandsHoldingXs [12x10/16z] Oy01-FaHJ3ni7duGWn74vcFWvm7I4CGF9naWR8X6RWWRg04
 
-sprite $HandsHoldingSm [15x12/16z] XSUr0OG0002nUnSa-szBXLIGBfqQ7FBYsEzbRr5bwWzbBheHNdJdWNwW1xZLlFTJjNMg1G
+sprite $HandsHoldingSm [15x12/16z] XSUr0OG0002nUnSa-szBXLIGBfqQ7FBWsDTbRr5bwWzbBheHddJZXdwWEwZclP-ghLCj
 
-sprite $HandsHoldingMd [20x16/16z] fS-r0GDH34J1FUO__LThviJq8ccopQUjzGlq4rwClwtQBlzsjvKSeqe5reJvI2H7G9T2Cb1dGs13anK5QohWOf2aUx4Scv_iChzml1SOa-m1
+sprite $HandsHoldingMd [20x16/16z] fOz50aCX44E7xygx_stRK7nJ2vhnsAUuN6TOTg2pmV-sE_Axs2w88SuSmYLo11FXke3HlDWCWzs0xDo8okrZNa2qnPvZPpFXQ6nHld_zJptRapy
 
 sprite $HandsHoldingLg [25x20/16z] {
-lOu54iCm30JDTl7-_zlE2KeQ3cnuLqcSzgC3ETe5Cc9udXfmCvNbJiDAgV4i092pK6IaqpzauWw3hyZaa4kdey6TXg_8L8PSRd2M1AFAGmnJ5XA3Bhx5a9Jr
-5zpxkhk7HlS2
+lSe54i8m00NHhNlt_hTbyd4P1VhQw8RVwPHteqNDc_tGu09HkTp226sPGyqSLPwq09iEi7W1TMRwB9rgMwOr-mvCi63nQWHlAlWO1W3VmqBHl0U8yJLmjLfq
+O3G09m
 }
 
-!procedure HandsHolding($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HandsHolding', $name, $tech)
+!procedure HandsHolding($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HandsHolding', $name, $tech, $desc)
 !endprocedure

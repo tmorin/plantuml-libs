@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UserCheck')
 
 ' renders the element
-UserCheck('UserCheck', 'User Check', 'an optional tech label')
+UserCheck('UserCheck', 'User Check', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UserCheck')
 
 ' renders the element
-UserCheck('UserCheck', 'User Check', 'an optional tech label')
+UserCheck('UserCheck', 'User Check', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

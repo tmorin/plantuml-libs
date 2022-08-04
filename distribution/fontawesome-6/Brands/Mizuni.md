@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Mizuni')
 
 ' renders the element
-Mizuni('Mizuni', 'Mizuni', 'an optional tech label')
+Mizuni('Mizuni', 'Mizuni', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Mizuni')
 
 ' renders the element
-Mizuni('Mizuni', 'Mizuni', 'an optional tech label')
+Mizuni('Mizuni', 'Mizuni', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

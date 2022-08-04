@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FileImport')
 
 ' renders the element
-FileImport('FileImport', 'File Import', 'an optional tech label')
+FileImport('FileImport', 'File Import', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/FileImport')
 
 ' renders the element
-FileImport('FileImport', 'File Import', 'an optional tech label')
+FileImport('FileImport', 'File Import', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

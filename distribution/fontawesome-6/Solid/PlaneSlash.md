@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PlaneSlash')
 
 ' renders the element
-PlaneSlash('PlaneSlash', 'Plane Slash', 'an optional tech label')
+PlaneSlash('PlaneSlash', 'Plane Slash', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/PlaneSlash')
 
 ' renders the element
-PlaneSlash('PlaneSlash', 'Plane Slash', 'an optional tech label')
+PlaneSlash('PlaneSlash', 'Plane Slash', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/AngleDown')
 
 ' renders the element
-AngleDown('AngleDown', 'Angle Down', 'an optional tech label')
+AngleDown('AngleDown', 'Angle Down', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/AngleDown')
 
 ' renders the element
-AngleDown('AngleDown', 'Angle Down', 'an optional tech label')
+AngleDown('AngleDown', 'Angle Down', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

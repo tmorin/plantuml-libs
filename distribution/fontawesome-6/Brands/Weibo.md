@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Weibo')
 
 ' renders the element
-Weibo('Weibo', 'Weibo', 'an optional tech label')
+Weibo('Weibo', 'Weibo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Weibo')
 
 ' renders the element
-Weibo('Weibo', 'Weibo', 'an optional tech label')
+Weibo('Weibo', 'Weibo', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

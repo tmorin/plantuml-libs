@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/GetPocket')
 
 ' renders the element
-GetPocket('GetPocket', 'Get Pocket', 'an optional tech label')
+GetPocket('GetPocket', 'Get Pocket', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/GetPocket')
 
 ' renders the element
-GetPocket('GetPocket', 'Get Pocket', 'an optional tech label')
+GetPocket('GetPocket', 'Get Pocket', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/HandLizard')
 
 ' renders the element
-HandLizard('HandLizard', 'Hand Lizard', 'an optional tech label')
+HandLizard('HandLizard', 'Hand Lizard', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Regular/HandLizard')
 
 ' renders the element
-HandLizard('HandLizard', 'Hand Lizard', 'an optional tech label')
+HandLizard('HandLizard', 'Hand Lizard', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

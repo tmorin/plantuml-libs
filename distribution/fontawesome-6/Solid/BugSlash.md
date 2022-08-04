@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BugSlash')
 
 ' renders the element
-BugSlash('BugSlash', 'Bug Slash', 'an optional tech label')
+BugSlash('BugSlash', 'Bug Slash', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BugSlash')
 
 ' renders the element
-BugSlash('BugSlash', 'Bug Slash', 'an optional tech label')
+BugSlash('BugSlash', 'Bug Slash', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

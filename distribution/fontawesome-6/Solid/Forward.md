@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Forward')
 
 ' renders the element
-Forward('Forward', 'Forward', 'an optional tech label')
+Forward('Forward', 'Forward', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Forward')
 
 ' renders the element
-Forward('Forward', 'Forward', 'an optional tech label')
+Forward('Forward', 'Forward', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

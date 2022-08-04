@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Readme')
 
 ' renders the element
-Readme('Readme', 'Readme', 'an optional tech label')
+Readme('Readme', 'Readme', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Readme')
 
 ' renders the element
-Readme('Readme', 'Readme', 'an optional tech label')
+Readme('Readme', 'Readme', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

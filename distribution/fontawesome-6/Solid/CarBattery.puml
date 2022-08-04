@@ -2,12 +2,12 @@
 
 sprite $CarBatteryXs [10x10/16z] Oy06-742X1GEHSm81N
 
-sprite $CarBatterySm [12x12/16z] Oy05cFZv-PcPsVdvsHdO-742FZuWmSs54E3XuISAC22paG
+sprite $CarBatterySm [12x12/16z] Oy09-Fdv6HdP-VdP6TZuSG8-FY31pOKGuE7X9mem8BEH
 
-sprite $CarBatteryMd [16x16/16z] bSbL0e0020DGOBR4_KzhT_j-O1kzArMJzMGQ7TNXr9B5Pz3nCZFwGupJlfLQ_CUnHoHRTDG2
+sprite $CarBatteryMd [16x16/16z] Oo0CE7buM20K4v1Yu-470XuUCCNDoCPFD63YWT10GvXW5AOy0Z3pyfCE6D3v1
 
-sprite $CarBatteryLg [20x20/16z] jSsr0O1G54FHYplPVrgymR-UxcdmKsgH0BqMB5fTfQLSfADkwBMhMGn7Dczxrru4cUueXuikmT0C
+sprite $CarBatteryLg [20x20/16z] Ow0CiF030OZ10sDmyQC3HZP-SW0Z7wOOq1e8O0DPnGkraW6xEamn6W1cB68CBBneW9le00K
 
-!procedure CarBattery($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CarBattery', $name, $tech)
+!procedure CarBattery($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CarBattery', $name, $tech, $desc)
 !endprocedure

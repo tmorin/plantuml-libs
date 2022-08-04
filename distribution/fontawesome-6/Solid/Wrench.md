@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Wrench')
 
 ' renders the element
-Wrench('Wrench', 'Wrench', 'an optional tech label')
+Wrench('Wrench', 'Wrench', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Wrench')
 
 ' renders the element
-Wrench('Wrench', 'Wrench', 'an optional tech label')
+Wrench('Wrench', 'Wrench', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

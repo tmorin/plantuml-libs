@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HeadSideMask')
 
 ' renders the element
-HeadSideMask('HeadSideMask', 'Head Side Mask', 'an optional tech label')
+HeadSideMask('HeadSideMask', 'Head Side Mask', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/HeadSideMask')
 
 ' renders the element
-HeadSideMask('HeadSideMask', 'Head Side Mask', 'an optional tech label')
+HeadSideMask('HeadSideMask', 'Head Side Mask', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

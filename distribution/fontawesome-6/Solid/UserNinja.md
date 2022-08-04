@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UserNinja')
 
 ' renders the element
-UserNinja('UserNinja', 'User Ninja', 'an optional tech label')
+UserNinja('UserNinja', 'User Ninja', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UserNinja')
 
 ' renders the element
-UserNinja('UserNinja', 'User Ninja', 'an optional tech label')
+UserNinja('UserNinja', 'User Ninja', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

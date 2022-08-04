@@ -2,12 +2,12 @@
 
 sprite $CloneXs [10x10/16z] Om02NduWu0OoMFZ10CXYWx9OsA0ie1eeYn-PnG1dyJ600J_S26uu2m
 
-sprite $CloneSm [12x12/16z] Om01VZ1W0pEX01SRo63XXm7SR5OG0TV30mOSO0uFDpSdadayG3ORbCq1P0C
+sprite $CloneSm [12x12/16z] Om01VZ1W0pEX01SRo63YXm42RBWU7Z1W1NDukBavaSpZ0RBPe6nM81i
 
-sprite $CloneMd [16x16/16z] bOp50S0W00DJzxB_jBWxzuj2iXEDaeTMndW7zF6-YwV5ywgrfgsVKDyp2LcmQA2TXpE34xHY7HfICW
+sprite $CloneMd [16x16/16z] bOhL0G0n348Xvyh-qvvB-MjV9K5mqUhXberanboWctbcejlZHQALeoVN8-K4uW6FCnqG1zPoJRXnoHq
 
-sprite $CloneLg [20x20/16z] dSc50GCW303157VsdxQEEuyVyC_wa0xaizoFYC_x6RiqmjYZiiz6IhF1yewCjiQWDGVSfsZ0lF1fzQTWUMFJ7GEN4VtH2m
+sprite $CloneLg [20x20/16z] dSg53S0W04JHmntsdxP-ITq-_WAMIcE9r5RLcNHRDvlzQThQlOsRt5gXhVjavcWAHwjOVrJ4TMsff37QkcjB9uQw8ZLJ3m
 
-!procedure Clone($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Clone', $name, $tech)
+!procedure Clone($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Clone', $name, $tech, $desc)
 !endprocedure

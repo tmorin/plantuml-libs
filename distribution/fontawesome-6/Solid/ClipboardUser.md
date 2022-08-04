@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ClipboardUser')
 
 ' renders the element
-ClipboardUser('ClipboardUser', 'Clipboard User', 'an optional tech label')
+ClipboardUser('ClipboardUser', 'Clipboard User', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ClipboardUser')
 
 ' renders the element
-ClipboardUser('ClipboardUser', 'Clipboard User', 'an optional tech label')
+ClipboardUser('ClipboardUser', 'Clipboard User', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

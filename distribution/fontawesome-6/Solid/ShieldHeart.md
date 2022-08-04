@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ShieldHeart')
 
 ' renders the element
-ShieldHeart('ShieldHeart', 'Shield Heart', 'an optional tech label')
+ShieldHeart('ShieldHeart', 'Shield Heart', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/ShieldHeart')
 
 ' renders the element
-ShieldHeart('ShieldHeart', 'Shield Heart', 'an optional tech label')
+ShieldHeart('ShieldHeart', 'Shield Heart', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

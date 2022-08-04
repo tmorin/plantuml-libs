@@ -2,12 +2,12 @@
 
 sprite $FolderMinusXs [10x10/16z] Ou03LduW0BFu2G9UNbueYvEJ4uSQX34
 
-sprite $FolderMinusSm [12x12/16z] Oq06_4300sE2ESn0mCHF9E3ZvUM5iHc1W9b8VGoyV3300m
+sprite $FolderMinusSm [12x12/16z] Oq06_4300sE2EOn006KJ1doylBmmDiWCHYBrCV3omG0F
 
-sprite $FolderMinusMd [16x16/16z] Oq07F7mW0EVoyaC0ZCyF0pnWmCvF5S0B0a0QnJ8sQfYCxa06HXJ
+sprite $FolderMinusMd [16x16/16z] Oq07F7mW0EVoyaC0ZCyF0pnWmCvF5S0B0a0QnJ8cQfYCxa1qxm8
 
-sprite $FolderMinusLg [20x20/16z] Oy06MDZ0W1L9Y9KV2f04WJmCGNvCmCLFFy0B1dp8GbXTnWa6tBHn11yMCIm1muCjw04
+sprite $FolderMinusLg [20x20/16z] lSwr0S0m4CNG7-Pe_sd3wBlMVgKgoPCNXrolYakb1zY8rPFET9ZvSC-wmq0KCvOmHZbM
 
-!procedure FolderMinus($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FolderMinus', $name, $tech)
+!procedure FolderMinus($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FolderMinus', $name, $tech, $desc)
 !endprocedure

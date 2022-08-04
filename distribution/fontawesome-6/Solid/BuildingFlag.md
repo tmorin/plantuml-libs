@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BuildingFlag')
 
 ' renders the element
-BuildingFlag('BuildingFlag', 'Building Flag', 'an optional tech label')
+BuildingFlag('BuildingFlag', 'Building Flag', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/BuildingFlag')
 
 ' renders the element
-BuildingFlag('BuildingFlag', 'Building Flag', 'an optional tech label')
+BuildingFlag('BuildingFlag', 'Building Flag', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

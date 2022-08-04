@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Pagelines')
 
 ' renders the element
-Pagelines('Pagelines', 'Pagelines', 'an optional tech label')
+Pagelines('Pagelines', 'Pagelines', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Brands/Pagelines')
 
 ' renders the element
-Pagelines('Pagelines', 'Pagelines', 'an optional tech label')
+Pagelines('Pagelines', 'Pagelines', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

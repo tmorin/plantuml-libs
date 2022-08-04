@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CodeFork')
 
 ' renders the element
-CodeFork('CodeFork', 'Code Fork', 'an optional tech label')
+CodeFork('CodeFork', 'Code Fork', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/CodeFork')
 
 ' renders the element
-CodeFork('CodeFork', 'Code Fork', 'an optional tech label')
+CodeFork('CodeFork', 'Code Fork', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Road')
 
 ' renders the element
-Road('Road', 'Road', 'an optional tech label')
+Road('Road', 'Road', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Road')
 
 ' renders the element
-Road('Road', 'Road', 'an optional tech label')
+Road('Road', 'Road', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

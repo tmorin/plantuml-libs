@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UserDoctor')
 
 ' renders the element
-UserDoctor('UserDoctor', 'User Doctor', 'an optional tech label')
+UserDoctor('UserDoctor', 'User Doctor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/UserDoctor')
 
 ' renders the element
-UserDoctor('UserDoctor', 'User Doctor', 'an optional tech label')
+UserDoctor('UserDoctor', 'User Doctor', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

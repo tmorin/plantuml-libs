@@ -2,15 +2,15 @@
 
 sprite $TeamspeakXs [10x10/16z] FSY50S0W3031htj__sbnk7X8pdyd-uN9EMzabYpUiQddI-PgmY6MVyvXwSij4G
 
-sprite $TeamspeakSm [12x12/16z] HSd70O0m4C0mqo7blF-qT8Y-uf9YvQ5Bdwm0pbnAG9zu2CAZdmVvgCZ393f35RzJQ1OQ-IH73W
+sprite $TeamspeakSm [12x12/16z] HSb50GH10C2mxZ3NlzfZo3SyZTDuqnAw6y3Cqpfm3Tu4uUqgKRvKvCqXMc2BtrFuA_p9LpTn1m
 
-sprite $TeamspeakMd [16x16/16z] NSwr0GD14CNGxsKSzT-jZ-bbogID7zP_EWqm0xms4AL5fseHq26Y1KwdrYLlkY5Prirym-is0Uz9TnikWsdXozAodmTC5L0VvvyCXhxc9-SxSNU42Kl-0G
+sprite $TeamspeakMd [16x16/16z] NSx50O0m40NH3yHbf_zgSP_ekwtsfcPLTmtCWF4W-FsjPAqvTjq_1bsLAesc9oJpBzjO65_km3WG7XjZ1Dk7Igjbmm2OCg3QhlbaqFIl_zY_P7WmTJOk
 
 sprite $TeamspeakLg [20x20/16z] {
-RSY54ODG5031-uB3k_wxpIJ1OSUNLR_4qdBIkfeIgz0188Lc-9gTMLMjV1diaWF092T505lEOeOgd7M2jokEo_soN_JEZrDZZVAzglYLe5E_HwuKrOLGXGQ-
-EhMbLNlUB3mKkQi-RjJAeNR3edC6FW
+RSe72iCm5C1GUMJ7rlrlMpwqpNni8Rxcrjl8IVLhWw-k2q3gcY7ixdpbRyJEmGLWavCYW8MplaEMYq7mrh9hkxTaO7P_DBL_GufMemLWKgEHCYLQenkD37o7
+aL6TUTDuABwaHrirSyXbQRedu0C
 }
 
-!procedure Teamspeak($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Teamspeak', $name, $tech)
+!procedure Teamspeak($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Teamspeak', $name, $tech, $desc)
 !endprocedure

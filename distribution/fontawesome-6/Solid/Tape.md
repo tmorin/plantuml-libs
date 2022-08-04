@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Tape')
 
 ' renders the element
-Tape('Tape', 'Tape', 'an optional tech label')
+Tape('Tape', 'Tape', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/Tape')
 
 ' renders the element
-Tape('Tape', 'Tape', 'an optional tech label')
+Tape('Tape', 'Tape', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

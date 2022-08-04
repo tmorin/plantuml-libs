@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MobileRetro')
 
 ' renders the element
-MobileRetro('MobileRetro', 'Mobile Retro', 'an optional tech label')
+MobileRetro('MobileRetro', 'Mobile Retro', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MobileRetro')
 
 ' renders the element
-MobileRetro('MobileRetro', 'Mobile Retro', 'an optional tech label')
+MobileRetro('MobileRetro', 'Mobile Retro', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

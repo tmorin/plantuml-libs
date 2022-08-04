@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MugSaucer')
 
 ' renders the element
-MugSaucer('MugSaucer', 'Mug Saucer', 'an optional tech label')
+MugSaucer('MugSaucer', 'Mug Saucer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MugSaucer')
 
 ' renders the element
-MugSaucer('MugSaucer', 'Mug Saucer', 'an optional tech label')
+MugSaucer('MugSaucer', 'Mug Saucer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

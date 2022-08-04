@@ -1,13 +1,13 @@
 ' definition of the Item fontawesome-6/Brands/Trello
 
-sprite $TrelloXs [8x10/16z] Ou02Hdueu6HWu0SYVdOmpOkL1W88ZG0m3W
+sprite $TrelloXs [8x10/16z] Ou02Hdueu6HWu0SYVcOmpOkL1W88ZG0m3W
 
-sprite $TrelloSm [10x12/16z] Oq00VWJWuE3Xv-BW1BA0uY1C50i242n6HbOmpGStbu6N3mAu
+sprite $TrelloSm [10x12/16z] Oq00VWHWPUNXvsHb0xA0uY1C50i8q5WiO9eFRYu3Bny4S04
 
-sprite $TrelloMd [14x16/16z] dSU50O0m34JHEzpPVrgSkhzAyg4RDwcUTbq7ODt7wr-kmcNOUVrzOGsY7f4QI6wxIwqLgC09
+sprite $TrelloMd [14x16/16z] Oq05d7m8mCp5ZmfOWGfu-Jc090-G1rBE3YPPoU0n0aasE0yC2F3OW3m-Vco06OM7wY4
 
-sprite $TrelloLg [17x20/16z] lSZ50S0m30J1Sz2y_NSRPlfbnD95qHp8S9BxxD6R1qaz0nhGYxy-WhKsx1wRxqSsFSkZm8auSZhh
+sprite $TrelloLg [17x20/16z] lSZ50O003C30u4xstnPt-t7rSX541mIUj7tsxCt3XbwW3EoL3FvwL7cULxl7vllHqijzL7c2HmLd7G
 
-!procedure Trello($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Trello', $name, $tech)
+!procedure Trello($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Trello', $name, $tech, $desc)
 !endprocedure

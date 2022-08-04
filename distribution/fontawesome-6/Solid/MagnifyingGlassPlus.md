@@ -36,7 +36,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MagnifyingGlassPlus')
 
 ' renders the element
-MagnifyingGlassPlus('MagnifyingGlassPlus', 'Magnifying Glass Plus', 'an optional tech label')
+MagnifyingGlassPlus('MagnifyingGlassPlus', 'Magnifying Glass Plus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('fontawesome-6/bootstrap')
 include('fontawesome-6/Solid/MagnifyingGlassPlus')
 
 ' renders the element
-MagnifyingGlassPlus('MagnifyingGlassPlus', 'Magnifying Glass Plus', 'an optional tech label')
+MagnifyingGlassPlus('MagnifyingGlassPlus', 'Magnifying Glass Plus', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
