@@ -2,14 +2,14 @@
 
 sprite $PersistentDiskXs [10x10/16z] Oq02p120naB8Ch410PZD1A4Om08S750L41O7141amGe
 
-sprite $PersistentDiskSm [12x12/16z] LSZ50G0m349HeBh_mdL9tka378MDfhMQM7QdQJuKKXw4vKLSPwnpXZXmTqnJNftgDflQW0u
+sprite $PersistentDiskSm [12x12/16z] PShL0K1H209GRFTV-CNjE5yAOCDItVUwWVt-cnZc7rJkL0_r3sdMpGVBpLvkomgR5m
 
-sprite $PersistentDiskMd [16x16/16z] RSk35G0n303G-cN_XG-DySkePLtTU8fHn_Uz95xNbFXSgx4YrZzgFCynm6w6n9jm32B7oGi
+sprite $PersistentDiskMd [16x16/16z] XSU54G0n2011VEY_uPUuPoDmSCS5hJlCe3H6fIqGI5PTzmX4k6jtXKPfId9xCVVa1G
 
-sprite $PersistentDiskLg [20x20/16z] bSx50S0W30LG7FPVk5ui_exHx_H2dDbhhXDgeNpGMeVNo96HfTTyQ-shvK-lpKRDvwxNOklOMYWpXpi1
+sprite $PersistentDiskLg [20x20/16z] bSg54S0W5C3GBosm_yAuE-yy5tZ0jVS6nRwHYEOjMJQeb0KHXwQKYksFKglLZHBE3LLjtK3KOCu
 
-!procedure PersistentDisk($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/PersistentDisk', $name, $tech)
+!procedure PersistentDisk($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/PersistentDisk', $name, $tech, $desc)
 !endprocedure
 
 !procedure PersistentDiskCard($id, $funcName="", $content="")

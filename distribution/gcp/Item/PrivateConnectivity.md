@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/PrivateConnectivity')
 
 ' renders the element
-PrivateConnectivity('PrivateConnectivity', 'Private Connectivity', 'an optional tech label')
+PrivateConnectivity('PrivateConnectivity', 'Private Connectivity', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/PrivateConnectivity')
 
 ' renders the element
-PrivateConnectivity('PrivateConnectivity', 'Private Connectivity', 'an optional tech label')
+PrivateConnectivity('PrivateConnectivity', 'Private Connectivity', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

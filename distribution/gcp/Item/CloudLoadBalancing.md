@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudLoadBalancing')
 
 ' renders the element
-CloudLoadBalancing('CloudLoadBalancing', 'Cloud Load Balancing', 'an optional tech label')
+CloudLoadBalancing('CloudLoadBalancing', 'Cloud Load Balancing', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudLoadBalancing')
 
 ' renders the element
-CloudLoadBalancing('CloudLoadBalancing', 'Cloud Load Balancing', 'an optional tech label')
+CloudLoadBalancing('CloudLoadBalancing', 'Cloud Load Balancing', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

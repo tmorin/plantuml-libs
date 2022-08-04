@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/GoogleMapsPlatform')
 
 ' renders the element
-GoogleMapsPlatform('GoogleMapsPlatform', 'Google Maps Platform', 'an optional tech label')
+GoogleMapsPlatform('GoogleMapsPlatform', 'Google Maps Platform', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/GoogleMapsPlatform')
 
 ' renders the element
-GoogleMapsPlatform('GoogleMapsPlatform', 'Google Maps Platform', 'an optional tech label')
+GoogleMapsPlatform('GoogleMapsPlatform', 'Google Maps Platform', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

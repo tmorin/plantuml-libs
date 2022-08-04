@@ -2,14 +2,14 @@
 
 sprite $DialogflowInsightsXs [10x10/16z] Oq05p30Q160CLcOcc106YusB2ynYW0f1cAY60W
 
-sprite $DialogflowInsightsSm [12x12/16z] POp50S1020GNXcZ__KRFRrwmfWcl5_1_1X3mtj_PtjIRSgznxg1gUDrKmd2Dt
+sprite $DialogflowInsightsSm [12x12/16z] PSot0S0m3C0mEL3g__-cTtF2nAXg7g4SXEHolkqnbxkSXilWt1R4bQXQ
 
-sprite $DialogflowInsightsMd [16x16/16z] TOt50S0m4CEIw8hxxrjMEVBhm7Qga9yJy9mModCCs4rSN7Exw9gxHJtESiqZOmpE1Vf5dOqQbb6Sn4d8gS8C
+sprite $DialogflowInsightsMd [16x16/16z] ZOx50G1130BZrd-_vwuxlA80RJ3pkHgWfSAvb7M55qwr3Tfh7nGV-yKbkTR478ES-Mp8vq1u2aZd-F163m
 
-sprite $DialogflowInsightsLg [20x20/16z] bS_L0K0X241HmOJzztrfj_Vpc8ZJf8HAGBvXkSdNY9R-WiemDsMahSoNcr7AILRBVMGqL_jQGvc2Sh9wEFIRAlEI6uew48jk
+sprite $DialogflowInsightsLg [20x20/16z] bS-53S10241HlBB_ldKXv_puomb0D6PC1FaiEVIKYVB_W3Vo9iQJjpzl9ZBpAjrpY-cQdCkD-2_Tup_bZWAaXf0QGLfo9cy7
 
-!procedure DialogflowInsights($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/DialogflowInsights', $name, $tech)
+!procedure DialogflowInsights($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/DialogflowInsights', $name, $tech, $desc)
 !endprocedure
 
 !procedure DialogflowInsightsCard($id, $funcName="", $content="")

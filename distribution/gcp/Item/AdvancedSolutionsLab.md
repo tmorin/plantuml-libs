@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/AdvancedSolutionsLab')
 
 ' renders the element
-AdvancedSolutionsLab('AdvancedSolutionsLab', 'Advanced Solutions Lab', 'an optional tech label')
+AdvancedSolutionsLab('AdvancedSolutionsLab', 'Advanced Solutions Lab', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/AdvancedSolutionsLab')
 
 ' renders the element
-AdvancedSolutionsLab('AdvancedSolutionsLab', 'Advanced Solutions Lab', 'an optional tech label')
+AdvancedSolutionsLab('AdvancedSolutionsLab', 'Advanced Solutions Lab', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

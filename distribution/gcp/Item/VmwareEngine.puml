@@ -2,17 +2,17 @@
 
 sprite $VmwareEngineXs [10x10/16z] LOY55G0n58CuBVilN5U-X1SEB8HgPB9TYbRZkeOf55F4vy4QjVKNAkz79G4
 
-sprite $VmwareEngineSm [12x12/16z] NSQr0GC140InFPx-6xQVIP7qrHlRZYtAbsKYg5vFn7tDt8UGrXUTnCou72UbqQ8oWuLM5AQJd_a3
+sprite $VmwareEngineSm [12x12/16z] POY53S003CDIzlyNJsDo8LRqfJTsPtsvFZC45QiJSRjcRWUNLYywyPcH72EbqLg7EO1MAFHd0G
 
-sprite $VmwareEngineMd [16x16/16z] TOw50KCn20M12BV_mbMa_N9H_Car6gH9a7Pyli-S4m5MsC2_7Sws7N3_ixqoRGzzsp5luxZj7Sa2Qw5cHaYPKz0M1-hnJGScTpm1
+sprite $VmwareEngineMd [16x16/16z] ZOw50GD120GFd_uRJjxTS6VRDsAY9Tyw4QC1CUN0FkzqdnTGjSjhcTIqrkVJlwGeSLj-4iuMWqYdmDANue2ztT8V
 
 sprite $VmwareEngineLg [20x20/16z] {
-bSy50iGW40F0zV3_5r-MytfJ0GQNcncVu6k8P_1ZzQgyZTsquiHycxAnjlwlJLMNvgCXqvVskw-5AzhoSsRC2gOvGsAdDSxgzwRWJpZYQnNH8mRpDd1kVLeV
-9Aly9v1obWS
+bOxN0O102CN0zjn_OcFNwvSl2DKwMH_qEaqd-hZb2cxdxhY5mVbsJX8xWzWn7hfZt25qmLtJxlpvMKUWmus0cbc4V1-0euicEkR7BQmZM-5s8bgUx96x3fWq
+MuqD
 }
 
-!procedure VmwareEngine($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/VmwareEngine', $name, $tech)
+!procedure VmwareEngine($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/VmwareEngine', $name, $tech, $desc)
 !endprocedure
 
 !procedure VmwareEngineCard($id, $funcName="", $content="")

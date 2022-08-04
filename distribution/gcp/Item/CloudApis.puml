@@ -2,17 +2,14 @@
 
 sprite $CloudApisXs [10x10/16z] Oq05R306CoESoS084G5BCWFLC49uJ20cc86ccHakmW1c
 
-sprite $CloudApisSm [12x12/16z] POo30G1130GtJlyDFywOcBYG9VLPC1o3w0kCHFm1x7-NjAp9L_mfeQBh-_c7nyBW1G
+sprite $CloudApisSm [12x12/16z] PKn50G0m2CIXV-6vZm_dy1qVq6XX0jk6pm115C9OV6kgj5WZiXjopkyTD7Wl0m
 
-sprite $CloudApisMd [16x16/16z] ZOu54e1030CtlKpW_n_6hQFiQJtyew9c3gVPmiMBCEAYIamsAXtcs4nX7p-8iO4P4a27up8F1DvClH9qdNS4QVD7cZxqcfqL
+sprite $CloudApisMd [16x16/16z] ZSYv5G8020N10Vv3-s_O-uxSRDP_rNvpyZMQbC_2iseEYUexvq8IFR2HuCYkvtYJ8XSgp-fBTDjFcrrVFVdR6G
 
-sprite $CloudApisLg [20x20/16z] {
-bOy5WWGW30CdoH7u_uTltNtGUiklg8-gT3oeelPU1xdN7Q-BGeAn3D8b5xGi8BceHa7B-A1i1GiW4re3Z0OlyJSFVowUPwyBdjmXW8SvpBZJaRJc3ZSyODwn
-0G
-}
+sprite $CloudApisLg [20x20/16z] bS-53KGn30JHMLlUfF-6Z-ypZYXwOMxdDQLhHIbxQI2pJakeFgDCiEcVuKXbeEkFjlYi8HlOmQjweLuOBwetZIk7LMDgbtwSebQMTh0erlH2Zde2
 
-!procedure CloudApis($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudApis', $name, $tech)
+!procedure CloudApis($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudApis', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudApisCard($id, $funcName="", $content="")

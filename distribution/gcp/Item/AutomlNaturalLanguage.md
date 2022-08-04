@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/AutomlNaturalLanguage')
 
 ' renders the element
-AutomlNaturalLanguage('AutomlNaturalLanguage', 'Automl Natural Language', 'an optional tech label')
+AutomlNaturalLanguage('AutomlNaturalLanguage', 'Automl Natural Language', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/AutomlNaturalLanguage')
 
 ' renders the element
-AutomlNaturalLanguage('AutomlNaturalLanguage', 'Automl Natural Language', 'an optional tech label')
+AutomlNaturalLanguage('AutomlNaturalLanguage', 'Automl Natural Language', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

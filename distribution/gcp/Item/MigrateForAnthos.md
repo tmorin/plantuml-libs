@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/MigrateForAnthos')
 
 ' renders the element
-MigrateForAnthos('MigrateForAnthos', 'Migrate For Anthos', 'an optional tech label')
+MigrateForAnthos('MigrateForAnthos', 'Migrate For Anthos', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/MigrateForAnthos')
 
 ' renders the element
-MigrateForAnthos('MigrateForAnthos', 'Migrate For Anthos', 'an optional tech label')
+MigrateForAnthos('MigrateForAnthos', 'Migrate For Anthos', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

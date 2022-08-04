@@ -2,14 +2,14 @@
 
 sprite $BinaryAuthorizationXs [10x10/16z] Oq03R3061pkKmSW0Ot40COp53b7816Sn0mLP6I1CX2cC808
 
-sprite $BinaryAuthorizationSm [12x12/16z] VSR50SC0302nCtl_XTim9tg9JzhxSt-ptac9qEc6qzXqfMcPZqGHSp5YEwR9nHy
+sprite $BinaryAuthorizationSm [12x12/16z] VSY54SC03C10cRt_mcsO4ntzYS-qT-VkPhMIXCbamsbi-KqpVyIBOCu6hSOqkVG7
 
-sprite $BinaryAuthorizationMd [16x16/16z] ZOp50G8130Gdjad_5VC1pcL-gxobjh9dcsghXuskMEj0bYF5NpSC-TDkCeR8lsQwaQqE1EA71uMSjQ5aXOLnoWS
+sprite $BinaryAuthorizationMd [16x16/16z] ZSpL0KKn2C3GuEo_yDFhdh_J0ZmjrgnUqNFjPcMpfOt4EzCc5z__qKhAnoQ3vQCgSddWWzbY12cJKIETPIOSzWO
 
-sprite $BinaryAuthorizationLg [20x20/16z] dStL0KGn20NHGNFxRtZTz_bydWJWGFrFO_oHz6VT-Mic_an9_Hde2m8NhUwE3mj13hxC7bOlSqU9BkPl2rmNzUPTE2se-hvCVNy32xjGy9L7jFERiTGP
+sprite $BinaryAuthorizationLg [20x20/16z] dSzN0iCm20JH0KNhlV-5qnicrVFvL653whGiZUncqcvjOPevcSt01SO9P4dZoSASxYl6rU9kcJZmqSg5QIVL4XdcNBqyITKnHXmfg8qXMi6d3W
 
-!procedure BinaryAuthorization($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/BinaryAuthorization', $name, $tech)
+!procedure BinaryAuthorization($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/BinaryAuthorization', $name, $tech, $desc)
 !endprocedure
 
 !procedure BinaryAuthorizationCard($id, $funcName="", $content="")

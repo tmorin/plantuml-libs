@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudDeploy')
 
 ' renders the element
-CloudDeploy('CloudDeploy', 'Cloud Deploy', 'an optional tech label')
+CloudDeploy('CloudDeploy', 'Cloud Deploy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudDeploy')
 
 ' renders the element
-CloudDeploy('CloudDeploy', 'Cloud Deploy', 'an optional tech label')
+CloudDeploy('CloudDeploy', 'Cloud Deploy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

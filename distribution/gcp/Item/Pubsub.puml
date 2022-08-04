@@ -2,17 +2,14 @@
 
 sprite $PubsubXs [10x10/16z] Oq05pEWiDWO63Z39m08MOuP8CZD1Q0u6PaOEPfXo9hWc66014G
 
-sprite $PubsubSm [12x12/16z] PKo30G1H50gd_HU-Rp-Zmc4QepqjT-tF0tofLRWvuLq6wfFnCRtAhJGHIA6AVp2io0G
+sprite $PubsubSm [12x12/16z] PKg30G1134lT_HT-d556k8ed5A59h7rt8F_NuhBc6o4a2vAgYF6usItFZhDU
 
-sprite $PubsubMd [16x16/16z] TKw30G0n38pp-o_yjTr61tWiN5Dcsd9UHabxIfRYBrwpbAD9Uck-u4Uwyd4kKELZzbH4PyOPYYK7Ic--mwFQwbSCxYi
+sprite $PubsubMd [16x16/16z] ZKw50G1121Anzb_uk_Fi5caZKYyvvKI-HOWnha4ZfaBOMDtoftsSSuvzOawKp2b8yhow11iow0udS89d8S_K0m
 
-sprite $PubsubLg [20x20/16z] {
-bOy54i0W30JZa_z_k2tEmLXnDdhqTwZAYLXLRpzaDSYSgtz37bvObdU4KhkZEDlEgFvKkPR24kCBJ6wavAiLjKmIPSvK5KmrdgX0nbjaAM2eCxf5PXTZHETu
-0G
-}
+sprite $PubsubLg [20x20/16z] bKx50O1032FDsVuBmxdbHTtJvo-HTfT0KkUeDVDxvaD9aKeS0fxcGt6knGLfP2Ggr0b1XPK7KUVMfD6bb2sG4YcdPhXTjnbljt7WXB0GLir93Nj9wGC
 
-!procedure Pubsub($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Pubsub', $name, $tech)
+!procedure Pubsub($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Pubsub', $name, $tech, $desc)
 !endprocedure
 
 !procedure PubsubCard($id, $funcName="", $content="")

@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/PrivateServiceConnect')
 
 ' renders the element
-PrivateServiceConnect('PrivateServiceConnect', 'Private Service Connect', 'an optional tech label')
+PrivateServiceConnect('PrivateServiceConnect', 'Private Service Connect', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/PrivateServiceConnect')
 
 ' renders the element
-PrivateServiceConnect('PrivateServiceConnect', 'Private Service Connect', 'an optional tech label')
+PrivateServiceConnect('PrivateServiceConnect', 'Private Service Connect', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/DataStudio')
 
 ' renders the element
-DataStudio('DataStudio', 'Data Studio', 'an optional tech label')
+DataStudio('DataStudio', 'Data Studio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/DataStudio')
 
 ' renders the element
-DataStudio('DataStudio', 'Data Studio', 'an optional tech label')
+DataStudio('DataStudio', 'Data Studio', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

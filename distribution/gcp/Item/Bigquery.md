@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Bigquery')
 
 ' renders the element
-Bigquery('Bigquery', 'Bigquery', 'an optional tech label')
+Bigquery('Bigquery', 'Bigquery', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Bigquery')
 
 ' renders the element
-Bigquery('Bigquery', 'Bigquery', 'an optional tech label')
+Bigquery('Bigquery', 'Bigquery', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

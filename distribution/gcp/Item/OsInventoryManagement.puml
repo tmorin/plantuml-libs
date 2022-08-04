@@ -2,17 +2,17 @@
 
 sprite $OsInventoryManagementXs [10x10/16z] Oq0174nGcWE8E21C41kX0A6M4Ie2KOW0R6n0CMO4duK1
 
-sprite $OsInventoryManagementSm [12x12/16z] NSQr0GC140InFPx-6xQVIP7qrLT0CDlNuNsygkpywd5JdeU0uzqQFmwoxI0mbPx-
+sprite $OsInventoryManagementSm [12x12/16z] NSY54G0n30D1nNZzD_oCCUv8SzK34FJXNLXTpinnUw-FX-8sE5okKeydb-pu70vzQmK
 
-sprite $OsInventoryManagementMd [16x16/16z] XOp50SG0409PXVuRFebxveVY6jihIOk8do2qM5s38Exrm8iE86tLKbFQwkgjjZpsmwtneqZsJzC07vuZ79Iv5Kvy0G
+sprite $OsInventoryManagementMd [16x16/16z] ZSc50GCX50JHmVvk_mqdvsw3Fk1Jjfah7OINfsW3nBs7NboWRco7xArRR4qUvkO_9OAk9YawAx599gN6gJy
 
 sprite $OsInventoryManagementLg [20x20/16z] {
-bT250SGW50JHXRzmqt_35tUV-8kZRmLahSgsAPLsaoQZIp5i9XiP-SbotyR6JYrxRnquhIq00LwPWGoKbINugRQ-sDB-EgSoMcqRdXTIxQtCOo2KGklSBc6T
-rm
+bT375SCm4CHGK1hIwBzXvU1i2xVvRq_BjNhjk2-9jPda8ESepXq6RlxBojA3RRqrSjWTfDnRKL6xEykyrNfdw8sctDjzztUXRgDD4PKU6dFr-04oyrq1IdZV
+2
 }
 
-!procedure OsInventoryManagement($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/OsInventoryManagement', $name, $tech)
+!procedure OsInventoryManagement($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/OsInventoryManagement', $name, $tech, $desc)
 !endprocedure
 
 !procedure OsInventoryManagementCard($id, $funcName="", $content="")

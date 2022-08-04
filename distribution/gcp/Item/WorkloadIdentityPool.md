@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/WorkloadIdentityPool')
 
 ' renders the element
-WorkloadIdentityPool('WorkloadIdentityPool', 'Workload Identity Pool', 'an optional tech label')
+WorkloadIdentityPool('WorkloadIdentityPool', 'Workload Identity Pool', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/WorkloadIdentityPool')
 
 ' renders the element
-WorkloadIdentityPool('WorkloadIdentityPool', 'Workload Identity Pool', 'an optional tech label')
+WorkloadIdentityPool('WorkloadIdentityPool', 'Workload Identity Pool', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

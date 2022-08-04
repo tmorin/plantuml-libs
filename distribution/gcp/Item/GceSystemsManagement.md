@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/GceSystemsManagement')
 
 ' renders the element
-GceSystemsManagement('GceSystemsManagement', 'Gce Systems Management', 'an optional tech label')
+GceSystemsManagement('GceSystemsManagement', 'Gce Systems Management', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/GceSystemsManagement')
 
 ' renders the element
-GceSystemsManagement('GceSystemsManagement', 'Gce Systems Management', 'an optional tech label')
+GceSystemsManagement('GceSystemsManagement', 'Gce Systems Management', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

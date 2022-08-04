@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/FinancialServicesMarketplace')
 
 ' renders the element
-FinancialServicesMarketplace('FinancialServicesMarketplace', 'Financial Services Marketplace', 'an optional tech label')
+FinancialServicesMarketplace('FinancialServicesMarketplace', 'Financial Services Marketplace', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/FinancialServicesMarketplace')
 
 ' renders the element
-FinancialServicesMarketplace('FinancialServicesMarketplace', 'Financial Services Marketplace', 'an optional tech label')
+FinancialServicesMarketplace('FinancialServicesMarketplace', 'Financial Services Marketplace', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

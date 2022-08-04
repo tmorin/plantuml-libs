@@ -2,17 +2,17 @@
 
 sprite $IotCoreXs [10x10/16z] LOg50S102CJo0cJ_XUkAdl6hS9m_rTXmMMBOBiI6c5aKPv8apxVFPfxdCedzh
 
-sprite $IotCoreSm [12x12/16z] NSY50GD130F1FP2b_XjEdcdCvgjNur19n2gBjZOOmI6QQRGe8NQ0DcnSnMf0ST2aEFxIkekTQ5mwgpy
+sprite $IotCoreSm [12x12/16z] NSY75O0m30DHkMl_YH4TSYd-prYpVjWawn3L-I68aSDbq2cF5YfcCDsI30XdbVArzu9SE2iObZO
 
-sprite $IotCoreMd [16x16/16z] TKy50WGm2B8G_l_YcruNIsAX_O6_CKh2dKH10zI6bj0rYCEbR74MICjzDb9SEGKkRohj8BD98wjlZuxQPc4tb2_Fcns1uP5rYmCMxG7SyXlljnA0i9-u
+sprite $IotCoreMd [16x16/16z] ZSY50SD034DHcRN_nAt3dBp3RtnI96Cf2JQJeOOeiFM4r1nQWnmQJWxFq4MjeQre-3FBAbHv2WOzJK0nyUvXF529RbN7G3IW2R708f7OYb1S-W4
 
 sprite $IotCoreLg [20x20/16z] {
-bOi50WG1208nGF__uGttkcziHVm9kpjmH_KESO6bFc2TjAVH3grERzeYzePRs26Rj4KXknF0wTopF-bmlnE635KLzb3Wn3GwnVkTYJPpY3WX82SBOQSTcOcG
-WqdWXDkk54wo2tJX4QVX0oi
+bOk50GGX30GtllqtV9RSkmuG7V0dGT9mHt4dRfnADb7ZJZjkphVSdkr5R4zQwq0MXFJsj7f6Z8VxMUB0BQiA-ql3S1GvxyCietiz2epXHqoOe0brXQKW972Y
+ifk9Kpi991xHm2TM
 }
 
-!procedure IotCore($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/IotCore', $name, $tech)
+!procedure IotCore($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/IotCore', $name, $tech, $desc)
 !endprocedure
 
 !procedure IotCoreCard($id, $funcName="", $content="")

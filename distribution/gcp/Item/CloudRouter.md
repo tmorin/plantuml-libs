@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudRouter')
 
 ' renders the element
-CloudRouter('CloudRouter', 'Cloud Router', 'an optional tech label')
+CloudRouter('CloudRouter', 'Cloud Router', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudRouter')
 
 ' renders the element
-CloudRouter('CloudRouter', 'Cloud Router', 'an optional tech label')
+CloudRouter('CloudRouter', 'Cloud Router', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudTasks')
 
 ' renders the element
-CloudTasks('CloudTasks', 'Cloud Tasks', 'an optional tech label')
+CloudTasks('CloudTasks', 'Cloud Tasks', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudTasks')
 
 ' renders the element
-CloudTasks('CloudTasks', 'Cloud Tasks', 'an optional tech label')
+CloudTasks('CloudTasks', 'Cloud Tasks', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

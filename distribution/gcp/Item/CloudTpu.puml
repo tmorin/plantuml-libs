@@ -2,17 +2,17 @@
 
 sprite $CloudTpuXs [10x10/16z] RKk50S0m2Ci8zl_3ytfn8jY7qsdlSIViRX179Z_iFduiyM5cDBeKYw2B2m
 
-sprite $CloudTpuSm [12x12/16z] VOo30G0m40EJUl-5Q-lUn0UJfQI5acg2g0Ke7MiVmjdMfuD3IOkleR3_7mG
+sprite $CloudTpuSm [12x12/16z] Oy03s40GoeG029C5Ga6KC31p04c801C7EroSWm4k3ZK0nHo4-QW
 
-sprite $CloudTpuMd [16x16/16z] ZSf70aKX2CNG6ENg_ZVyUw_lE148MvGKOt1XXh7AwtXrZXCca9u8E98LvpHUUWhMyjxBQbnwpE58vt8VbRI6iwSypxrxU3DrwQ-uY8GghWHHFjW3
+sprite $CloudTpuMd [16x16/16z] ZSsr0SLG3CLGFRYAzr_uOxZAgSpcYK2OausjISBA3G1H16GjD2tR8hBc1AhwCT-enZQFL35OvsUqGLkQMND-5dF_ln8auO4t
 
 sprite $CloudTpuLg [20x20/16z] {
-fL07aWGm228YnF-_-CnjSTfsKcJiYfzXWMuHew9DEMd5g0QtmCDy66KB1qsozi9oK-aMYrXPLSbRBDLCGDMMoSbNVOXxFgJH2R68U-nXkxBrevksV8yDMM8g
-sQe8N9GUFDq1r3gr27o2Fm
+fL1L0WHH26946Ez_udNIhsrUs8c_OO5k4gEYJJbfnQW6L-36UJVA5ZOqizJQZ9kLhbXWoQfANh5KSmAgLfcSVDM7kFCXZJqXSSTkt5hP-j5DMxvZGvQOIhOg
+0Zl2WvSxW5gd9e5ly
 }
 
-!procedure CloudTpu($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudTpu', $name, $tech)
+!procedure CloudTpu($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudTpu', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudTpuCard($id, $funcName="", $content="")

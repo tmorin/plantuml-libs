@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudHealthcareApi')
 
 ' renders the element
-CloudHealthcareApi('CloudHealthcareApi', 'Cloud Healthcare Api', 'an optional tech label')
+CloudHealthcareApi('CloudHealthcareApi', 'Cloud Healthcare Api', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudHealthcareApi')
 
 ' renders the element
-CloudHealthcareApi('CloudHealthcareApi', 'Cloud Healthcare Api', 'an optional tech label')
+CloudHealthcareApi('CloudHealthcareApi', 'Cloud Healthcare Api', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

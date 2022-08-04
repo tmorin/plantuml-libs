@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/DataTransfer')
 
 ' renders the element
-DataTransfer('DataTransfer', 'Data Transfer', 'an optional tech label')
+DataTransfer('DataTransfer', 'Data Transfer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/DataTransfer')
 
 ' renders the element
-DataTransfer('DataTransfer', 'Data Transfer', 'an optional tech label')
+DataTransfer('DataTransfer', 'Data Transfer', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

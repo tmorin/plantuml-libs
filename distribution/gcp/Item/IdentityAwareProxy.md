@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/IdentityAwareProxy')
 
 ' renders the element
-IdentityAwareProxy('IdentityAwareProxy', 'Identity Aware Proxy', 'an optional tech label')
+IdentityAwareProxy('IdentityAwareProxy', 'Identity Aware Proxy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/IdentityAwareProxy')
 
 ' renders the element
-IdentityAwareProxy('IdentityAwareProxy', 'Identity Aware Proxy', 'an optional tech label')
+IdentityAwareProxy('IdentityAwareProxy', 'Identity Aware Proxy', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

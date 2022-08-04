@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/FreeTrial')
 
 ' renders the element
-FreeTrial('FreeTrial', 'Free Trial', 'an optional tech label')
+FreeTrial('FreeTrial', 'Free Trial', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/FreeTrial')
 
 ' renders the element
-FreeTrial('FreeTrial', 'Free Trial', 'an optional tech label')
+FreeTrial('FreeTrial', 'Free Trial', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

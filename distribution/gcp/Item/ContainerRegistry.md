@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/ContainerRegistry')
 
 ' renders the element
-ContainerRegistry('ContainerRegistry', 'Container Registry', 'an optional tech label')
+ContainerRegistry('ContainerRegistry', 'Container Registry', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/ContainerRegistry')
 
 ' renders the element
-ContainerRegistry('ContainerRegistry', 'Container Registry', 'an optional tech label')
+ContainerRegistry('ContainerRegistry', 'Container Registry', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

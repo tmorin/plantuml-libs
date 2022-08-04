@@ -2,14 +2,14 @@
 
 sprite $TrafficDirectorXs [10x10/16z] Oq01R1WiPY2B6IB20M9103ABZHagZz3Dn8PYAW
 
-sprite $TrafficDirectorSm [12x12/16z] NSp50S1G20FGuEo_SFlTtWaDNhHBTcmEwKNohZrYreKxbFUzYyYgCSyKT-hZ1m
+sprite $TrafficDirectorSm [12x12/16z] Oq07Z4XiDXGsCuJ1mOXWix6pWzbG7Xi32nD2FHipCpES3JUO4SrKD
 
-sprite $TrafficDirectorMd [16x16/16z] ZOp70O0m54BvO33xBsmln9FlHiKlcaPjVt93VC9Jwv9zxaeDiJir81jM3V-coFXtbSJKmBFGjEkat30GCba1
+sprite $TrafficDirectorMd [16x16/16z] ZOo53G11408NoF7RVyFlHlGcYjOKKcexzN09RvYwbsRaOjjnYLrR-M-A_FqR9J7q1t3h3u_Kdmms
 
-sprite $TrafficDirectorLg [20x20/16z] bSe73eKX20DWB52v_uLTMJLl_dNofVOmV2Ld_6MDQUuo-uj5CLzwdLLO5cA6LhkR3jFqPNI_BBOjX5JzM7ENBewjr_5YLm9YKYLUCDEUPG8
+sprite $TrafficDirectorLg [20x20/16z] bSg53S1G30DHXzpilt2PBVedVZeCHYLZYeKQG4F4UnBBPiatiTjNoy2xxjNgjESrCBwOcsteZzbkY7Y_Xy72nJuPr00dNR0AOoq
 
-!procedure TrafficDirector($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/TrafficDirector', $name, $tech)
+!procedure TrafficDirector($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/TrafficDirector', $name, $tech, $desc)
 !endprocedure
 
 !procedure TrafficDirectorCard($id, $funcName="", $content="")

@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/DatabaseMigrationService')
 
 ' renders the element
-DatabaseMigrationService('DatabaseMigrationService', 'Database Migration Service', 'an optional tech label')
+DatabaseMigrationService('DatabaseMigrationService', 'Database Migration Service', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/DatabaseMigrationService')
 
 ' renders the element
-DatabaseMigrationService('DatabaseMigrationService', 'Database Migration Service', 'an optional tech label')
+DatabaseMigrationService('DatabaseMigrationService', 'Database Migration Service', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,14 +2,14 @@
 
 sprite $AccessContextManagerXs [10x10/16z] Oq05p7068pDSX176O6DWu0190Lbi31pCO2ORM0RCP8Rf1RAX0Cm
 
-sprite $AccessContextManagerSm [12x12/16z] PSU30SG050FGzt7OV-7QZUE5SA0gZvcJZXbYdxwXcoZJ_ke_igPDX-qeRAV2SS838m
+sprite $AccessContextManagerSm [12x12/16z] POS50G0n30ElNF-6dt4BXmdoJhFdc6BoJ7XdWjXfCf7cF0a2vpddTGpUCs85
 
-sprite $AccessContextManagerMd [16x16/16z] ZSfN0e0m20JHTBZ_YTsnhd-nvWsKlQlr-YV1oOQHRtKk7KPzA2yv2H0FENMgrtng7aokCDX4Lq2Y1MW1Ud3wTG
+sprite $AccessContextManagerMd [16x16/16z] ZSx50G0W30D06dJ_XN5gB_Bg1Gr_eUY8w5OHtMOObZKmfsT1RKqHnsbQYib0TV4KwPtd7N5I5T7yC4wQC5q6
 
-sprite $AccessContextManagerLg [20x20/16z] bSq53W0X44FH3dx_4o-bEB4rvES5yFSnZpTv_wRwFGbESILDbq8BxbI9OoXBiINFbhXcKajMMz4PtgaPNG2MP49eQafRjsxI3xHaqwUKVUJpNEfwFW
+sprite $AccessContextManagerLg [20x20/16z] bT253O0m441HeBh_nEJNtVMbUizr4WCIegUtHUPWGs1BdkjLMc0s4wO5fZszmJHctOeFn1xiIs_3yjLf9TBy8bzMhgIs8V3KhknIGqtw0G
 
-!procedure AccessContextManager($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/AccessContextManager', $name, $tech)
+!procedure AccessContextManager($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/AccessContextManager', $name, $tech, $desc)
 !endprocedure
 
 !procedure AccessContextManagerCard($id, $funcName="", $content="")

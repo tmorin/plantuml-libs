@@ -2,14 +2,14 @@
 
 sprite $DialogflowCxXs [10x10/16z] Oq05p32QcOsP6SBWuk9YPWApc3cPeImsDZOK5eW90Z3Dg8O2
 
-sprite $DialogflowCxSm [12x12/16z] PSn70e102CLG81_R_UzhrsbPlLLiA8e0l-MmRZCyrhPjdoSaVJxxdByDCY7Ai_njw
+sprite $DialogflowCxSm [12x12/16z] PSot0S0m3CH0qdWwxR-lex9GNGMRMge0_md7kS5BH-TvPgz8odxAZcA324XR1onNLBi1
 
-sprite $DialogflowCxMd [16x16/16z] TOx50KCX50I1MRJ_VfFl-DoUh9WDjfiSOEiD4BXwzANax-KSJu1dXbGyTLOGFhJpoNv6zyWN6DGrWgTEdKrBFOxy0G
+sprite $DialogflowCxMd [16x16/16z] ZSsr0S0m4CNGsFg6k_tt3JEhUvMQNmLWHq0GPqL8xWPC7jct6QedDYkBbFVkUp4QoJRCchajmiRUREZRTAu3
 
-sprite $DialogflowCxLg [20x20/16z] bS_5WGGn3031iSlIGFxvtYrh6VfPlvv-ZNud7RVQ8E52C6_R5cXbsw65NZQM7QKR2sCbRYmpHEQTxVjiSI9bo1nG8mX5jx-tLbjbVRglJH_w1m
+sprite $DialogflowCxLg [20x20/16z] bS_70GCX4CLG636Vq7-_pZR9QNLyDuMZWIrYN1ib0cXIWDnQSo1sQxSAMBTKBYGcSr85dqnoN5hisc_p1tMx9gLv1N0wxR_T-bOt2sin_EWC
 
-!procedure DialogflowCx($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/DialogflowCx', $name, $tech)
+!procedure DialogflowCx($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/DialogflowCx', $name, $tech, $desc)
 !endprocedure
 
 !procedure DialogflowCxCard($id, $funcName="", $content="")

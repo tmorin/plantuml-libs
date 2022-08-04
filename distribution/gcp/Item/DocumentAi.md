@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/DocumentAi')
 
 ' renders the element
-DocumentAi('DocumentAi', 'Document Ai', 'an optional tech label')
+DocumentAi('DocumentAi', 'Document Ai', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/DocumentAi')
 
 ' renders the element
-DocumentAi('DocumentAi', 'Document Ai', 'an optional tech label')
+DocumentAi('DocumentAi', 'Document Ai', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

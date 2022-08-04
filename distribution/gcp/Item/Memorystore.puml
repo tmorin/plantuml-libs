@@ -2,17 +2,17 @@
 
 sprite $MemorystoreXs [10x10/16z] JKk30G102CpT_Wk_aUj0DLGrOko8TS4NHXSJkjZegtkOolF6mKJSn-u
 
-sprite $MemorystoreSm [12x12/16z] LOW90e0m2CFALV__O-FjiW5fjP9W3zPJO49SBdmBPTwUqXWzUuAAHT3L5_lkSN-z3QcisriG4GdI3W
+sprite $MemorystoreSm [12x12/16z] LOh50S0W5CNoVV-DMnnoUSgB_cJ6xppi9_ymFRyl49bU8FAtimTJMc3qHin-_bUVZTalU_W
 
-sprite $MemorystoreMd [16x16/16z] ROo53G0X5CKUrhlz9yQTeasQhmUcqznbI6GnCFmZUGXPLJoCNdilZJwxhVxJ-dpRRRxqci-ORs3hOUk7PuRh9W8
+sprite $MemorystoreMd [16x16/16z] ZOp50O100CE21VPV6FVJ_cgXGjqcrTtfxKU1OTWikn_kFTyztFlDjuUVFFS0xOSFCRufVgVF_klXzeHQ
 
 sprite $MemorystoreLg [20x20/16z] {
-bOo50KCX4CKUd7N_XP7KlSrN0XVzWq5k1Ev-uzPYkVLpumuPoqK4IhWgl_QwddjDJxqkFVNuyMslFRwN7hCCEzDnwpgzsgxtZbCasqs0uzXjRv5Gjpr7qOCR
-fpDzOG5wmmG
+bOy55W913CNgvVudfcGDXyspJjvKlfp1eMu8gEgTczUuAUxSfN9SPg84rnt7F9ExUH71jyNDOvzd5CpRzr94bPbkymJsUVJI77JdWsDUv_qjkUIGEsTLp_Ey
+eE_d1Uf-tkvammPFa0zS0G
 }
 
-!procedure Memorystore($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Memorystore', $name, $tech)
+!procedure Memorystore($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Memorystore', $name, $tech, $desc)
 !endprocedure
 
 !procedure MemorystoreCard($id, $funcName="", $content="")

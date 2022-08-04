@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudDomains')
 
 ' renders the element
-CloudDomains('CloudDomains', 'Cloud Domains', 'an optional tech label')
+CloudDomains('CloudDomains', 'Cloud Domains', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudDomains')
 
 ' renders the element
-CloudDomains('CloudDomains', 'Cloud Domains', 'an optional tech label')
+CloudDomains('CloudDomains', 'Cloud Domains', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

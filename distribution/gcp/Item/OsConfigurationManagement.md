@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/OsConfigurationManagement')
 
 ' renders the element
-OsConfigurationManagement('OsConfigurationManagement', 'Os Configuration Management', 'an optional tech label')
+OsConfigurationManagement('OsConfigurationManagement', 'Os Configuration Management', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/OsConfigurationManagement')
 
 ' renders the element
-OsConfigurationManagement('OsConfigurationManagement', 'Os Configuration Management', 'an optional tech label')
+OsConfigurationManagement('OsConfigurationManagement', 'Os Configuration Management', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

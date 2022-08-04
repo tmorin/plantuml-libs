@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Debugger')
 
 ' renders the element
-Debugger('Debugger', 'Debugger', 'an optional tech label')
+Debugger('Debugger', 'Debugger', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Debugger')
 
 ' renders the element
-Debugger('Debugger', 'Debugger', 'an optional tech label')
+Debugger('Debugger', 'Debugger', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

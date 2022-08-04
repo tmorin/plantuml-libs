@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudForMarketing')
 
 ' renders the element
-CloudForMarketing('CloudForMarketing', 'Cloud For Marketing', 'an optional tech label')
+CloudForMarketing('CloudForMarketing', 'Cloud For Marketing', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudForMarketing')
 
 ' renders the element
-CloudForMarketing('CloudForMarketing', 'Cloud For Marketing', 'an optional tech label')
+CloudForMarketing('CloudForMarketing', 'Cloud For Marketing', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/AssuredWorkloads')
 
 ' renders the element
-AssuredWorkloads('AssuredWorkloads', 'Assured Workloads', 'an optional tech label')
+AssuredWorkloads('AssuredWorkloads', 'Assured Workloads', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/AssuredWorkloads')
 
 ' renders the element
-AssuredWorkloads('AssuredWorkloads', 'Assured Workloads', 'an optional tech label')
+AssuredWorkloads('AssuredWorkloads', 'Assured Workloads', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,14 +2,14 @@
 
 sprite $CloudGenericXs [10x10/16z] Oq003YXWGsKnCh11M61581P4EIESnSQ6LIyR5B02
 
-sprite $CloudGenericSm [12x12/16z] NSR50K0X342nL-_-2tyN8ASmYdm9rI-zNzyBU2wSx7nmEv_3s-MWTVsnN3xi
+sprite $CloudGenericSm [12x12/16z] LSQr0S10302nCtl_XSDvK2LMaJ-e_dslyGA-yv3xmUj-Bcz_Miy_-rSd
 
-sprite $CloudGenericMd [16x16/16z] Oy00ZCW0oEL01ZZvx2XyPg0vx0W-AzXWLYYV3MuLXCy8vxEYyz7Kmyq30pPCzn3cemC
+sprite $CloudGenericMd [16x16/16z] Oo08E901JZux2fyPIBCZ-AnWWrYXV3QuqH0-mYfMT3wQUhXvOC26wHx2V7G
 
-sprite $CloudGenericLg [20x20/16z] fO-35G0n40KdoQh_XiysvddnmMDYWtsO-MwM05lF2lJ3OJPCXkamoypuC6D1EfXnCBDXjX3Kenx_PxP1EQ86
+sprite $CloudGenericLg [20x20/16z] fS_50O104CNGO7_els7SMTyStoqaDtvIWTdF6a0FE-Z0mphET5hBdHt6eyPXE4o7FR1pVTIRFWsucW4
 
-!procedure CloudGeneric($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudGeneric', $name, $tech)
+!procedure CloudGeneric($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudGeneric', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudGenericCard($id, $funcName="", $content="")

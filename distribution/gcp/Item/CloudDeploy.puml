@@ -2,14 +2,14 @@
 
 sprite $CloudDeployXs [10x10/16z] TSOr0G01302nAzU_uMU6JE5FDmkVrhOivmD6P2nJastCOnl1rGW
 
-sprite $CloudDeploySm [12x12/16z] VSUr0G113CJ0DRl_Xf_XMD48ov8APpvoucFqjZiqxP3mEOz5y1euJP_L0RvCwDi1
+sprite $CloudDeploySm [12x12/16z] VSV50G0n4810ijv_m-SkuJNGhTh5LPjY6LiTWPK3Aiii5bLsmzqMR3NUZG
 
-sprite $CloudDeployMd [16x16/16z] ZSZ50GG13810ukc_uTDrvpVmCDkuMpVkcX1AzgSOdO7KPqpETEflCKK-OxQPC1lKR6N-9XVsZv71QgmJpde3
+sprite $CloudDeployMd [16x16/16z] ZSUt0S0W00F1DmAX_HTspXNN7OFqU_9_-fq6pgfTTuEUvBvTwUTLmFPpQU9rYlGvn_7hrJoA6BK
 
-sprite $CloudDeployLg [20x20/16z] hSYr0GC1302nCyRxBnn-Pb0fRb4sSrLpLq77vNrVrbs64D_KxZ8TiZqHD3-KzjGKudtHlpUqlJPbT4XpZ-ve3XiS_ZcG_a4meC9nBm
+sprite $CloudDeployLg [20x20/16z] hSYr0GC1302nCyRxBnn-Pb0fRb4wSrLpLq77V_TctMM0VLEwotJ8zWGqFvJsr1JYVT4_Cq6wwxAxd-OUCuSDpz_tqnqC3n6EUm4
 
-!procedure CloudDeploy($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudDeploy', $name, $tech)
+!procedure CloudDeploy($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudDeploy', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudDeployCard($id, $funcName="", $content="")

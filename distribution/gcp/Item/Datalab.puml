@@ -2,14 +2,14 @@
 
 sprite $DatalabXs [10x10/16z] Oq05B9Wi161dOuMoE1YOq1LoiB2mi85Ph1n006Onih61X
 
-sprite $DatalabSm [12x12/16z] TSWr0G01302nAzU_uMU6Z84duLF-V8cpQugD8yecGMllRZTXeJrX9JDW1
+sprite $DatalabSm [12x12/16z] RSkr0S1030J15Ql_Xitid_207s4e6IkCKrCS5EHnbQDmklqwz8At6G
 
-sprite $DatalabMd [16x16/16z] ZOt50G1120E3XluRFdVT-K4CZUZrpjD9CNoG974aSBfLKSUxGCP-kWBAqzf0xZAhA2dBFKWrilivdeu7UW
+sprite $DatalabMd [16x16/16z] ZSVN0KCn24MnOnkuxBzmydfl-XCV5VPgx2eQ3veajfpTIoMtJoHVMmjKhHT0YRc6ChM-rCWUCwclSU4F
 
-sprite $DatalabLg [20x20/16z] bS-r0S1030D0oRp_mc7cNFLWn5zcNmCBHyvFoTexl6L4-h638d1GXCcXNC2Z3c7dLRI_kUS-p7eHswPQ7RA8cRhMQ9ixlJbMZ15kjG
+sprite $DatalabLg [20x20/16z] bS_50GC124JHZzD_m_6iwxkYmrtkLnkRfU3IiBmnLvaLpBcGB3IuCgD9P3FJwoZcG4JDs_mjau6Rzej8JqP3-ciwA_qHZ2I_sFK4
 
-!procedure Datalab($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Datalab', $name, $tech)
+!procedure Datalab($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Datalab', $name, $tech, $desc)
 !endprocedure
 
 !procedure DatalabCard($id, $funcName="", $content="")

@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudApis')
 
 ' renders the element
-CloudApis('CloudApis', 'Cloud Apis', 'an optional tech label')
+CloudApis('CloudApis', 'Cloud Apis', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudApis')
 
 ' renders the element
-CloudApis('CloudApis', 'Cloud Apis', 'an optional tech label')
+CloudApis('CloudApis', 'Cloud Apis', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

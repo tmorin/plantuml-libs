@@ -2,14 +2,14 @@
 
 sprite $AutomlTranslationXs [10x10/16z] Oy0EE8204SA0YZ1nCB2niO5Op40IA0UHO6PWOkI0wsA3wUL0DWm
 
-sprite $AutomlTranslationSm [12x12/16z] TOp50G0W24Lfs7zYF-R9HoVzYMfMNkdkkbAqOdMvZ5JHzivXl289ed2l7hJG0mbE-_r_3
+sprite $AutomlTranslationSm [12x12/16z] TOp50G0m20FhiF_2kBnwLI39-FDGyJ_25FmhhUNTYMVilSUusjT6ltEvDDZeRX2otVaD0m
 
-sprite $AutomlTranslationMd [16x16/16z] ZOs50GD120InW-c_uUJTRKwnNVc0CQ1pN0pa50QqdhaCBXiQY7kwRSkglLhs5zLTtiSwV8S-zIwknS9Dp09a2yHiKJrhcH6VO_C1kU0F
+sprite $AutomlTranslationMd [16x16/16z] ZSst0SGW40J0FR_zDom9J_O_2Pp77uGTbcAN69IK1XDfk0G9rTHJ5apPum9W8kExMB-JAn8eXCIDz7MYcbFc8FZj1G
 
-sprite $AutomlTranslationLg [20x20/16z] fS_50SL0203H0IBJVyDnp-NBM_U5VpLkWeFlkKwxTi4kLHvw3OYEKsf7TJE003YkNkfreLoRI21qlOzPLAnVI7PLL1BQSqYWKFCTOySk-uNAmLt3eTpmZH4
+sprite $AutomlTranslationLg [20x20/16z] fSw55GGn20JGGHwP_Xi-8zow_xW2dd9s6B08If0cFvDhc6dv9Z1GCY3njV4o3umvYEQD_0zVOZq5HJ63AOHiADjPEHaesducrrWSACOELxm1
 
-!procedure AutomlTranslation($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/AutomlTranslation', $name, $tech)
+!procedure AutomlTranslation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/AutomlTranslation', $name, $tech, $desc)
 !endprocedure
 
 !procedure AutomlTranslationCard($id, $funcName="", $content="")

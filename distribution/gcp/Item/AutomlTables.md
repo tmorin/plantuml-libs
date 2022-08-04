@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/AutomlTables')
 
 ' renders the element
-AutomlTables('AutomlTables', 'Automl Tables', 'an optional tech label')
+AutomlTables('AutomlTables', 'Automl Tables', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/AutomlTables')
 
 ' renders the element
-AutomlTables('AutomlTables', 'Automl Tables', 'an optional tech label')
+AutomlTables('AutomlTables', 'Automl Tables', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

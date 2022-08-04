@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/WebRisk')
 
 ' renders the element
-WebRisk('WebRisk', 'Web Risk', 'an optional tech label')
+WebRisk('WebRisk', 'Web Risk', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/WebRisk')
 
 ' renders the element
-WebRisk('WebRisk', 'Web Risk', 'an optional tech label')
+WebRisk('WebRisk', 'Web Risk', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

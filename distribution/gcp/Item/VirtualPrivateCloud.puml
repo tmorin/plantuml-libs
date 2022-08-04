@@ -2,14 +2,14 @@
 
 sprite $VirtualPrivateCloudXs [10x10/16z] Oq00PbOs4Cd61cAnix61M0Wn1dOW0q82EI0ImSAkbua59CR4nWe
 
-sprite $VirtualPrivateCloudSm [12x12/16z] POp70S103C9qOBp_nkazBaWlU8xStY7ixYG-F9OsLsV02Y264z7cfRVBCHkEpgfVvv203JC
+sprite $VirtualPrivateCloudSm [12x12/16z] NOp50G0n409d1Vhl-5oIu2yOaUMlgcn9zUoCgm0dd1M0ujhw0dhPMUAjwxFx_GokOiGE
 
-sprite $VirtualPrivateCloudMd [16x16/16z] dOx50S0m24Lns7_YnltK5yK_N61Y-I2BQR6PpQfjOObfgr2YsQGg9PzQOIIpO5uVQhRe3_kfnoInsAw9OQ_v9ny
+sprite $VirtualPrivateCloudMd [16x16/16z] bOu30W1124NZh_jVU6qCtY23ggZ1LqM1rKPYuhITBt5njoLVji9aMa6iWZRCU-s_VM0J5pjyuh2l-Kz6
 
-sprite $VirtualPrivateCloudLg [20x20/16z] fO-50KGn24EvaAJTV-6pxswlYaES9bDszqtRdKxABvpeQl4NJNGalanYv_b2bT7Xshmg8rrf8upee1_haX8RpIjfSczUcryEvvt70knq06p56Xy
+sprite $VirtualPrivateCloudLg [20x20/16z] hO-50GGn2C3GjFil_7hkbYeESXZtXEuFj3hzCzBL0f0JF_dG-2td4wtQ5QJ-Noq3NMbqI4VmW2vDUvtgrhmGN_RcdSQQHQSpWvGbtW
 
-!procedure VirtualPrivateCloud($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/VirtualPrivateCloud', $name, $tech)
+!procedure VirtualPrivateCloud($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/VirtualPrivateCloud', $name, $tech, $desc)
 !endprocedure
 
 !procedure VirtualPrivateCloudCard($id, $funcName="", $content="")

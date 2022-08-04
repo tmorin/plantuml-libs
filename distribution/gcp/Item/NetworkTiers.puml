@@ -2,17 +2,17 @@
 
 sprite $NetworkTiersXs [10x10/16z] LSU54G0130B1Yp7qt_2xRXH-9DtFzTQPW6JdmkPYdGTGt1-L8su5h
 
-sprite $NetworkTiersSm [12x12/16z] NOo54O1030JZNFyLCp7aDwvqeYwJUIIQgN2eMXTQ7Ov8JmN0TC5eCNZ7V1MT0_b7bCdcJ9GYCXqglG4
+sprite $NetworkTiersSm [12x12/16z] NSg50S0W34JH7xjc_uNh1W-9CejoBgL303WAKZ8WWeF4gnkMDXxPTKK0rRk3Uq1o2oGc6m
 
-sprite $NetworkTiersMd [16x16/16z] RSx50G0n20J0HKF_3P_4RNuuk2EQ8_EVp666ZCbSHRxOSYY2x4jmZXajaJ1B4G15A2PJtDVq2W4GLvvZQBwet9_-uZpLCK3vkTCB
+sprite $NetworkTiersMd [16x16/16z] ZStL0G8024NHIxF_n29sU_x8npyYZ-on72oTXc1JnvPch6a8mvHBexXNtK2tSBMrS--QmwvZgGyrkeakN4ozL_SaWtSE
 
 sprite $NetworkTiersLg [20x20/16z] {
-bSs53GHH20JGiS_IVyFdvDnUZ623_xYEYAlKq6rlN3eIKucphlUsRxwkXnuornGnjcvZN7iRWEuE7XnwwwctLM5Sth6klNIVwofnakSt9Pj0Sgnn8LjOLSOD
-2SYrTnNZlJq
+bS_50GGX50FGRq3whtYnB7QQZ00Fbs_ntAARM6QMHNxGAeQAfONklgsQQFiYdFjF0JXWjr8B02fNglbZPJlgdAFRIGCOzKhA5O7WHTmh1fiqatepFz14WhOd
+Thhp0m
 }
 
-!procedure NetworkTiers($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/NetworkTiers', $name, $tech)
+!procedure NetworkTiers($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/NetworkTiers', $name, $tech, $desc)
 !endprocedure
 
 !procedure NetworkTiersCard($id, $funcName="", $content="")

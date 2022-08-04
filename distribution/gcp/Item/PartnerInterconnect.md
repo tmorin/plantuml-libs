@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/PartnerInterconnect')
 
 ' renders the element
-PartnerInterconnect('PartnerInterconnect', 'Partner Interconnect', 'an optional tech label')
+PartnerInterconnect('PartnerInterconnect', 'Partner Interconnect', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/PartnerInterconnect')
 
 ' renders the element
-PartnerInterconnect('PartnerInterconnect', 'Partner Interconnect', 'an optional tech label')
+PartnerInterconnect('PartnerInterconnect', 'Partner Interconnect', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

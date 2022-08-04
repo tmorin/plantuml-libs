@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/DataLossPreventionApi')
 
 ' renders the element
-DataLossPreventionApi('DataLossPreventionApi', 'Data Loss Prevention Api', 'an optional tech label')
+DataLossPreventionApi('DataLossPreventionApi', 'Data Loss Prevention Api', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/DataLossPreventionApi')
 
 ' renders the element
-DataLossPreventionApi('DataLossPreventionApi', 'Data Loss Prevention Api', 'an optional tech label')
+DataLossPreventionApi('DataLossPreventionApi', 'Data Loss Prevention Api', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

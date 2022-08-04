@@ -2,14 +2,14 @@
 
 sprite $CloudEndpointsXs [10x10/16z] Oo00c9Y110U8nSp0nCG4OZApC71mS30mCu8a839GDSpOpG
 
-sprite $CloudEndpointsSm [12x12/16z] ZSdL0SC020JG1rTX_uMhoLyCENLjkl48r0zx8974yqR7VMO8vgwgf67AhxPIbzrv0m
+sprite $CloudEndpointsSm [12x12/16z] ZS610KC040Im_5_BxJ-n2I3npIwE1O4fX2JE7nl_jWJzcnbPA6p0Z6SN
 
-sprite $CloudEndpointsMd [16x16/16z] hOo35S1044H7X_uRZlKS_JNn0zBYgxVIn4plMF3MPszxwHcaSAu3z9bjKpsehRN0vlKFhUFFzI_afItYEIC
+sprite $CloudEndpointsMd [16x16/16z] hOp50O1G34EJLFTV6BShy5zTCG1fyobiqBZ5RcoOOQVhB6q57bnh1thbs5GJMLNQo_iFJVUVvryIdva1
 
-sprite $CloudEndpointsLg [20x20/16z] lOw70OGm30DbItcq_y90UXPuBiMzu2ioeydoutAHGx67AyWOwkMhAsG2MG7i66a06maLzZG1RWZeVK9EgFdsEFN6e_TGxB9SWUNCSz6X3ry6_i03
+sprite $CloudEndpointsLg [20x20/16z] lSv75i9030DGkJ6w_ubv4gJkaxzpDzwI6P3vv9wgWYMvvPoonRMb4aW1I6y9jPK1EVLhQu3MYjpOr7OvphKMty-HiwS2U_9uT1E19tq1
 
-!procedure CloudEndpoints($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudEndpoints', $name, $tech)
+!procedure CloudEndpoints($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudEndpoints', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudEndpointsCard($id, $funcName="", $content="")

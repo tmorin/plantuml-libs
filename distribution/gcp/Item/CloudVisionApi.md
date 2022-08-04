@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudVisionApi')
 
 ' renders the element
-CloudVisionApi('CloudVisionApi', 'Cloud Vision Api', 'an optional tech label')
+CloudVisionApi('CloudVisionApi', 'Cloud Vision Api', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudVisionApi')
 
 ' renders the element
-CloudVisionApi('CloudVisionApi', 'Cloud Vision Api', 'an optional tech label')
+CloudVisionApi('CloudVisionApi', 'Cloud Vision Api', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

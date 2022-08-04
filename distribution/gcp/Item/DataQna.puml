@@ -2,14 +2,14 @@
 
 sprite $DataQnaXs [10x10/16z] Oy0EsC20YO430Y0iPYYBaO6PdGsD1G4CG1QcOG
 
-sprite $DataQnaSm [12x12/16z] TSQt0G0W20J09xF_mcQjyAh3d_esks5SSjldb7UaX1Vdj8Y4Z8Sj60Ib3W
+sprite $DataQnaSm [12x12/16z] TSQt0G0W20J09xF_mcQjyAh37_asks5SSjldb7UaX1Vdj8W4ZuSj60Ib3W
 
-sprite $DataQnaMd [16x16/16z] bSUr0S0m402n2ppilt0OpLOdMaotyQm-WFd1SN-ydwRF1OblQlNByGV8VfKB1w772W
+sprite $DataQnaMd [16x16/16z] bSUr0S0m402nin_tNpZC77NY2vdLeSKN_HOCpmNBHJOtxFpmUByDNu3rTvimKFve0G
 
-sprite $DataQnaLg [20x20/16z] fSZ50G0X402n0TRwR_ZSNV8CVnLRI0UNWIopGd-nj3nJtPsMihu49-TcFu_-be3-T4Ol2Zk5hse
+sprite $DataQnaLg [20x20/16z] fSZ50G0X402n0TRwR_ZSNV8CVoLRI0UNkrcWlrXQdgdkJajPNuAJSxEVHtzBG7ywenU9dSHNDG
 
-!procedure DataQna($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/DataQna', $name, $tech)
+!procedure DataQna($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/DataQna', $name, $tech, $desc)
 !endprocedure
 
 !procedure DataQnaCard($id, $funcName="", $content="")

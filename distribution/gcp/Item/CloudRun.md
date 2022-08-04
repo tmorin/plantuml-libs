@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudRun')
 
 ' renders the element
-CloudRun('CloudRun', 'Cloud Run', 'an optional tech label')
+CloudRun('CloudRun', 'Cloud Run', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudRun')
 
 ' renders the element
-CloudRun('CloudRun', 'Cloud Run', 'an optional tech label')
+CloudRun('CloudRun', 'Cloud Run', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

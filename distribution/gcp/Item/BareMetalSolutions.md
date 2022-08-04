@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/BareMetalSolutions')
 
 ' renders the element
-BareMetalSolutions('BareMetalSolutions', 'Bare Metal Solutions', 'an optional tech label')
+BareMetalSolutions('BareMetalSolutions', 'Bare Metal Solutions', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/BareMetalSolutions')
 
 ' renders the element
-BareMetalSolutions('BareMetalSolutions', 'Bare Metal Solutions', 'an optional tech label')
+BareMetalSolutions('BareMetalSolutions', 'Bare Metal Solutions', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

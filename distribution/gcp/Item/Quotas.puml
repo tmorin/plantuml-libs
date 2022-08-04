@@ -2,14 +2,14 @@
 
 sprite $QuotasXs [10x10/16z] Oq02R62I0yHYPsHWOEM0Yw6nsDWuE5XniH3gM5XPsTdPcHa
 
-sprite $QuotasSm [12x12/16z] ZSQr0GD1402nkUN-6xQVcHI97HDweO2BEkBJcu1CftVnYAhw_av4P7zQQzA1Fm
+sprite $QuotasSm [12x12/16z] Oq01B12A3KImWX0ZAvGD1WJOR6mS71p4iu60ZOsD7TK5
 
-sprite $QuotasMd [16x16/16z] hSU50SH024JHMMIW_uRlukx9Nu67TMLOser210XdT0xKXuCL1eKEHjjbaynCVcKL4QsApdLPvrZr1m
+sprite $QuotasMd [16x16/16z] hOU50S0m3CE6jlz_U8nbajeawk9WazkVmQjvYAVxqwSlaXk09BJgOHlz1g_UqSxSMQm
 
-sprite $QuotasLg [20x20/16z] lSwr0GD14C107Ipqtx3zp4mJAXB79OsqrBjc1CL8ijCIH18X3XgjXveMl21VjkMNYjUePIbP9R7i3m
+sprite $QuotasLg [20x20/16z] lSk30G0n30NGduRxBtossLT6k8uC0uiXvw1KNtgIe-QTpxQ-orabAfevDnXpZMYX9Lhp1cDR2G
 
-!procedure Quotas($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Quotas', $name, $tech)
+!procedure Quotas($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Quotas', $name, $tech, $desc)
 !endprocedure
 
 !procedure QuotasCard($id, $funcName="", $content="")

@@ -2,17 +2,17 @@
 
 sprite $ContainerRegistryXs [10x10/16z] RSA72S0m00F1mmBX_HTEeQJw_ooBMrk6Og8gEVLyEWbW411tEm
 
-sprite $ContainerRegistrySm [12x12/16z] TSot0SC03CH0aC-q_yBELXQggy1jBd0G844eCJafg6b8fmGCFvk4z7NMK9ClXwoIR5vs-MzjWBvcrnC
+sprite $ContainerRegistrySm [12x12/16z] TOo50S0m20GFP_-9wzuuhuoNdQ_DZrki80IoQnxcVvvfzbbcstpMER9dbyop2nb4CSzgIs3vhtxbiIO
 
-sprite $ContainerRegistryMd [16x16/16z] ZOi54e1030DxjSl_NypYC0RrRIRs8yPhZmY6SmK3P4P4dahph9vYHH_ihHVpiPlnkKN4mRXRrgcwMF1KRbpuQEl0mmxCUpYyhOCHFcC1
+sprite $ContainerRegistryMd [16x16/16z] ZKv50W0X419HdFz_sCxJhZb5k1yBRqhMnxUWFkC56LP7hQja3QYPG_Ra0xzoaBvYkV8ecLCmhBoXbMOUApWE7h2BBd-U7D_CwRvN0G
 
 sprite $ContainerRegistryLg [20x20/16z] {
-fP350GKX30L3Ngp_XdTnEtr1XmbEVoPW8azL7ACnhqu0KQBKHh0ICREeuCMPD1VHWzEHXTBfKYdCovMTaHM0vLHXda5SbpCFhySiX-mqHyAPJCVBsfc5mDM1
-rtk1TF_1mhJcqHVf1G
+fO_N0GCW24I1ayFz5xOhoMz2vs6LVmMliak0sM7Nbga0nLy7pWd9kegOZ6MpkXdvcB2wV3DTlNum1Q1Y09AvWp6A4fgCKMDTaym6mvYCWN2_SWH_VuGj1it_
+tWPuB4kLdwG3
 }
 
-!procedure ContainerRegistry($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/ContainerRegistry', $name, $tech)
+!procedure ContainerRegistry($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/ContainerRegistry', $name, $tech, $desc)
 !endprocedure
 
 !procedure ContainerRegistryCard($id, $funcName="", $content="")

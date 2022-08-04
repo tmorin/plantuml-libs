@@ -2,17 +2,17 @@
 
 sprite $NetworkConnectivityCenterXs [10x10/16z] PKo50S0m348Q-V_XkIyk0DwMZqbRRoB6Dj6Pwzy1EMK2YEC6ZbJwfyArp
 
-sprite $NetworkConnectivityCenterSm [12x12/16z] RSst0O000091Wh3_nkQiLFSL-8mt--9GKJiTTAEjRAHhE2xNcdCJeCovXu22_ldQDm4
+sprite $NetworkConnectivityCenterSm [12x12/16z] TOf50G114CFI8V-EZt4Xdo8TuiLVgtgcK59NAylJoilnr3NWTJiIdl_XZ2ah
 
-sprite $NetworkConnectivityCenterMd [16x16/16z] ZSxL0KC124FHImBPV-Ewzzdvm-4O-JC00gLxM0YdqID64KLFlQUTQEw1onWxGWKeaN6ddYt6rHtnr7A6VaJb6LNt-15Ba9yVpRTXsHa
+sprite $NetworkConnectivityCenterMd [16x16/16z] ZSw50KDH24FHImBPV-Ewzzjvhi0nLRm9o6C42d0A5GyHqEP9Si8y5XXZv_bhWd67Q1uVkheZdXfdQ1xiWUenxzm24c_csx3i3
 
 sprite $NetworkConnectivityCenterLg [20x20/16z] {
-bSq5SWG034BH7o1Cxt_XUhjkRpGAhvfoGJCSMu02MduP8pTWyKTlEy1knByTkPtCyN_PRVdBdc2iIMep0V1iiR0RrPg_M8ka3kF_ZAD_VnASiFoRZMgb-Bzh
-2IXWSqpbWcGk3FTy
+bT05KWLG34FHcwJDiFyDu_3TpjZJ6gzIkM1EBK01Bxz283L4_F7R2jWT7tzsMYmEvAGj_TiF8TPC4pG0OKjCqd6308I9cQa7TCZn5-zWZ4Oi_xH3uoavz243
+1M9Et9_BWRZd0m
 }
 
-!procedure NetworkConnectivityCenter($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/NetworkConnectivityCenter', $name, $tech)
+!procedure NetworkConnectivityCenter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/NetworkConnectivityCenter', $name, $tech, $desc)
 !endprocedure
 
 !procedure NetworkConnectivityCenterCard($id, $funcName="", $content="")

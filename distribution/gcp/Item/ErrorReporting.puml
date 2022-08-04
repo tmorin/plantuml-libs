@@ -2,17 +2,17 @@
 
 sprite $ErrorReportingXs [10x10/16z] JSY54G1120J1mSa_ufTJj6kvA_ETWNdUROeCNhYs3RtPK4cqV4eC8PsNQla18eWN3m
 
-sprite $ErrorReportingSm [12x12/16z] NKm50W114672-l-7htEd0vYi6z77H2b2qZvBk5iBDM12iSyksFTiv3CpdZkD0Ifk7QfFjJxoC7BBhQy
+sprite $ErrorReportingSm [12x12/16z] NOo50GDH34BVbm3xBzoUMrm0FbP5htsKsfBQHyvMOfZ0FcUGd7COrqo_xWI37Zh5jjIMB_i3
 
-sprite $ErrorReportingMd [16x16/16z] RSk74GGn24DHQIq3_LTy-oyd4nyprhzdc_RWhWfjlV58EDnu_yL1XjrQOSM1cOaUPk-fDu_qRlZcZ4_xxhB2eeNfbbuBitIS3RuEyFTT
+sprite $ErrorReportingMd [16x16/16z] ZSZH5O0010LG0FjFN8ygfwy05_q8Zp0CNHIpVZHfOXvW9gdYX0sqAdsCEokMYsWRNDOsjNieZdF6CzUXWIDwlWyPVkC
 
 sprite $ErrorReportingLg [20x20/16z] {
-bSc50GCW34JHWzZjFt7JO7Nv-0F_rDtTWDplo8iszdsLULjqTw-ZCO0ejB95pDinKj59oftHe4z681wjmNbdaMJriKnoeq1pRVCEY00DC7V5ncpHn5J9VT56
-dJIpxBehtdK1
+bSX50aCn549HyfJzhxZKg8tAbzmS_BEOcGRq_w2vaJ6SUI_JHzyFBh0tRCXCLDb05e9aVfYkyMC4zjiK_B3bGPCyjjIFWT9d6tKcS82UAHWrqnsbgV-TZ0Tr
+8wyrw6_wsGK
 }
 
-!procedure ErrorReporting($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/ErrorReporting', $name, $tech)
+!procedure ErrorReporting($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/ErrorReporting', $name, $tech, $desc)
 !endprocedure
 
 !procedure ErrorReportingCard($id, $funcName="", $content="")

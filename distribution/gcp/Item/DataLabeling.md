@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/DataLabeling')
 
 ' renders the element
-DataLabeling('DataLabeling', 'Data Labeling', 'an optional tech label')
+DataLabeling('DataLabeling', 'Data Labeling', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/DataLabeling')
 
 ' renders the element
-DataLabeling('DataLabeling', 'Data Labeling', 'an optional tech label')
+DataLabeling('DataLabeling', 'Data Labeling', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

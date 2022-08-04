@@ -2,14 +2,14 @@
 
 sprite $DataStudioXs [10x10/16z] Oy00Z62IZOsDdOCDnkI0Kd0-1oD4BH20QBWuGYyBmaG
 
-sprite $DataStudioSm [12x12/16z] Oy07s820WmEPpGZXC081L90TAiyAbcU7Se207SaWPX30D8S5PZu2
+sprite $DataStudioSm [12x12/16z] Oy07s820WmEPZQc07Ih62fPdXtA0W1r97JC8O9h3Wcac
 
-sprite $DataStudioMd [16x16/16z] ZSwr0G0X30NG7y_-2v_IuBmAuZWZ_eXa5FxApDcVvQ6A5ttGb0P-D1bbMD7_7ZczX_Y3pWq
+sprite $DataStudioMd [16x16/16z] Oo0ECBC10Ji7dCy60XmS7EXyX0OWO671C0UXb9s0KInutSC2SGyZqUvX0WDCWm
 
-sprite $DataStudioLg [20x20/16z] dO-54S1G24Dns7_XklVxE-Em9308FclRY8YxjxTywTdLqskFuTFqK4Xplw9_wwyO2xStEVVyvNqdbMg3dgrYDatqf92jpWm
+sprite $DataStudioLg [20x20/16z] dO-54S1G24Dns7_XklVxE-Em9308FclRY8YxjxTywTdLqskFuTFqKCXmlQ9_wwyO2xStEVVyvNq7cYXcqqHFCjdQc04
 
-!procedure DataStudio($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/DataStudio', $name, $tech)
+!procedure DataStudio($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/DataStudio', $name, $tech, $desc)
 !endprocedure
 
 !procedure DataStudioCard($id, $funcName="", $content="")

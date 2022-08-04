@@ -2,14 +2,14 @@
 
 sprite $PrivateConnectivityXs [10x10/16z] TOR50S0m58NuHlUVk7vCdi9EyRzYVOGZK2K7LW3-XL9Pwm8
 
-sprite $PrivateConnectivitySm [12x12/16z] ZSQt0SCm40J11VvlrN_5eWzf9Xe-AdLS7Odib841HXb-Q04Om6OpJ2Ads3nO
+sprite $PrivateConnectivitySm [12x12/16z] ZKgr0G0W3Ald_ujncB1gZ3vB8c91TX-aY4pX1R6MXo9e8LqA6o5VUI8Vwg4o
 
-sprite $PrivateConnectivityMd [16x16/16z] hOp50S0m3CHCf-u_SHcVJI8psWYSbNgNxWLsmaP0tlNcurp8t99fkygyvworplqwz-FpaBAR18Mri
+sprite $PrivateConnectivityMd [16x16/16z] hKt50S0m43gb-q_Sk3qZvmhqH135vfRPW7aBYTRx5AKUgARY8mPK-nwnztflzNwX6uHvbuyF9
 
-sprite $PrivateConnectivityLg [20x20/16z] jKz50W0X4782zlyljlkyOXFgX6UGct0Ms4xbinRU3fU2cXNPRNauycY4Y6RRqAGwpQnmybNEhCSBfuqB0okx7ZP22wfjaGrdORxA-1q9
+sprite $PrivateConnectivityLg [20x20/16z] jO_50S0m24NXO_jFtCRrd1V5WPx1fq8ziwcJZAoNpGlcI9RDBHsrT5fkHdBhDYuvHIJhE8fEf1NAEbGTTNhiMfZTa5dhadZb7aJe3Jy
 
-!procedure PrivateConnectivity($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/PrivateConnectivity', $name, $tech)
+!procedure PrivateConnectivity($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/PrivateConnectivity', $name, $tech, $desc)
 !endprocedure
 
 !procedure PrivateConnectivityCard($id, $funcName="", $content="")

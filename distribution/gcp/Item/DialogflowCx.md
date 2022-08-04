@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/DialogflowCx')
 
 ' renders the element
-DialogflowCx('DialogflowCx', 'Dialogflow Cx', 'an optional tech label')
+DialogflowCx('DialogflowCx', 'Dialogflow Cx', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/DialogflowCx')
 
 ' renders the element
-DialogflowCx('DialogflowCx', 'Dialogflow Cx', 'an optional tech label')
+DialogflowCx('DialogflowCx', 'Dialogflow Cx', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

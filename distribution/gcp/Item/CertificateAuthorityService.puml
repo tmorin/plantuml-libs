@@ -2,17 +2,17 @@
 
 sprite $CertificateAuthorityServiceXs [10x10/16z] DOc50G0W40BFrlq7zhk1mseJTQs0kWqLzz5ADNI2FbKj5Q3gX6htlMi2kaf
 
-sprite $CertificateAuthorityServiceSm [12x12/16z] DOo50S0m40AlKTX_uHAxTsKpk7mASsSdfeGIzmqu-SGMthcG-yi_eDdd2-3ay781LMfE3c78eR5fAGhm0m
+sprite $CertificateAuthorityServiceSm [12x12/16z] LOs50G0W3CE2h_y_Z5jWRWmo6skKvPKPWs_AjPxf5oH3AszAstT0bFOK-lokdLbKy-THKyCpY2rmG0K
 
-sprite $CertificateAuthorityServiceMd [16x16/16z] JSe74i0W00B1iyl_FnnaqYvr7RYR_2hRhNAh6dCidrISjTuHCRJfvtEH1BSzRx6-_TOyezkTaroS6TrSmFgv0JLkiPa1Mztk90yaRItkul1k-g1nkW
+sprite $CertificateAuthorityServiceMd [16x16/16z] HSs73S0m24JHxmgt_y96o8XBVGc5dmkTuH4hpS0zLb_oLnMHXdNZQWz9K3PMMbtlkaJHzmP0aNIMiOC6M5j0BMnRsBN3aogGv39-qasuNiKF
 
 sprite $CertificateAuthorityServiceLg [20x20/16z] {
-NP055i0m24EfqUJ-5rxWqTcVzbSGEpIt7tC3yFusEBGo2y0Usfq_qmG2IyPPMjyPf-sNqvkajZzkcr4iVVxhcXnVpXnJh-DAYaOHpY5MEWOv-NV1rtdLbguI
-gZwa0ptSFgq3d09wthsYg9r5BsblsW8nQd01
+ROy50e1040AvXlz_MAxiiSTDR4B5YzX8Fcpc9YnJ_DwIiyTBX647WxH3rpDNHxIRyrsIqo_N09dYnpiksEdcK9bzkpckNMJ2231bE7N6pn-7fwjhj-7QT9WC
+HqTOjUK2MMMumlRkck0YBea7XM9QxmS
 }
 
-!procedure CertificateAuthorityService($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CertificateAuthorityService', $name, $tech)
+!procedure CertificateAuthorityService($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CertificateAuthorityService', $name, $tech, $desc)
 !endprocedure
 
 !procedure CertificateAuthorityServiceCard($id, $funcName="", $content="")

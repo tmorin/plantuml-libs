@@ -2,17 +2,17 @@
 
 sprite $AdvancedSolutionsLabXs [10x10/16z] LOW50G0m20GFxTzuhl3EVxbSS5s3kpMTcs4zUHkifIu-as9ksXCziIwwL
 
-sprite $AdvancedSolutionsLabSm [12x12/16z] NSY70GCn2CLGWRwz_yR9zVRemDVWLCRZ9oPbhRjDbXHmCRJNlusJPjybwBhFvHKPOQKfEJZbqgp-
+sprite $AdvancedSolutionsLabSm [12x12/16z] POg50S103089nsV_ZUlUAAPVZHiITb1icCsd52crOC1ZsIriqLhWXbaoRFbUDiZP7LBeABU-DGC
 
-sprite $AdvancedSolutionsLabMd [16x16/16z] TOw50KKn3089Hzb_u-_wvAfnTCByczG_bY7cdRBm40Jh4Qo5SZlqMHjyju6d3QJCnxRLHkXjmsz-euSzwMlUtHuDqHE647u5Xj4lrJ5N
+sprite $AdvancedSolutionsLabMd [16x16/16z] ZSV70K813CKmlpXa_utf7NxHJUnJyr7jyf48QOcvVe8qXNEzaVDLRzVqYF7sAcOQUTpYt7Zx59ulFTSVfEY0pOtOfdZA-NmO_Zi1
 
 sprite $AdvancedSolutionsLabLg [20x20/16z] {
-bSi7caCn20FX0GdkV-JzjEaz-L-rFV0hRN6dFJBNIiXgNP8KAhje3SHiHZ42hGaVfanRCf55YNJA7OT5xxfRhNDds1qGLvrQqzUpKduDXv-OBTp9ys-YMg3a
-P3n2Bbd8N2H8TyShxjNmpXy
+bSx50GH02CNGGFxGVyVhxflZ6m7-pNcYpl9UIepjhHIIXhQEj0O8GN2EMCTNeLl3qUWwcA9dKtec81VhmCowCxLhtRrLXO3gTPU28FJK4LlmOAsSiweY5hTf
+b8SonLEBJsq1
 }
 
-!procedure AdvancedSolutionsLab($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/AdvancedSolutionsLab', $name, $tech)
+!procedure AdvancedSolutionsLab($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/AdvancedSolutionsLab', $name, $tech, $desc)
 !endprocedure
 
 !procedure AdvancedSolutionsLabCard($id, $funcName="", $content="")

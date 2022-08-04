@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudCode')
 
 ' renders the element
-CloudCode('CloudCode', 'Cloud Code', 'an optional tech label')
+CloudCode('CloudCode', 'Cloud Code', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudCode')
 
 ' renders the element
-CloudCode('CloudCode', 'Cloud Code', 'an optional tech label')
+CloudCode('CloudCode', 'Cloud Code', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

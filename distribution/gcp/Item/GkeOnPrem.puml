@@ -2,17 +2,17 @@
 
 sprite $GkeOnPremXs [10x10/16z] LKi50e1021jC9l__i5u7pG9tS6wl1JWXHOT3Uh9URcAYNGhcMoyQDErazUxu0G
 
-sprite $GkeOnPremSm [12x12/16z] POo53S1054BvmaltNxZkHmpNWBXPLjQXgb9M7bm6EklWJQ63Gqs-U91zy1IWdMjVnKwFsz0N2m
+sprite $GkeOnPremSm [12x12/16z] PSo54O1040J1uVP_YlmJnftJBbj-DTmAsPL0ftRJrLGsjsR9RitOJoFjC2faZzpF6LjyQWO
 
-sprite $GkeOnPremMd [16x16/16z] ZKw50GCm348Ao_yFpzshCGH_BTgwIsL3rZKH6C3W8RU9j5tWQOHW3uloCJMwL3IuvAlrZAvvcOQRktuuurCE2qXpw5mSYCUFzmOV79jultO
+sprite $GkeOnPremMd [16x16/16z] ZOq50aDX289H9lF-5rxZwjNtfmKu1faVKJBkny6zLW3TUeia4U6Xq1rt4688gebF4hjZOg5KSPwOAdIduxkT2jQpJn8cIJ0mEFZd2W
 
 sprite $GkeOnPremLg [20x20/16z] {
-bS_50S0W50FG25_sNxZkjwO2F1n_G_CZicMzT97zVuD5E0GPlAO1kIG0sZiAoZtGOGG2gmmqTeAqY1cCRDnpcOjs5nwMScODzzCoO7RLPGR6ebswvjBcgjxh
-ZzjoaurkzNtV6o7YLsO
+bS-53GGn4C10xphKVyF_noWwYw89yxNmHPhcKm1FTHb7lUnF1ThKegwOP5iZDmkeoxh2GBPranYLsguMRT8nEjTrOMizyhwt8gFtmuISTFGuzg81fNdvzVbI
+bBDKp_-UIFAjFm
 }
 
-!procedure GkeOnPrem($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/GkeOnPrem', $name, $tech)
+!procedure GkeOnPrem($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/GkeOnPrem', $name, $tech, $desc)
 !endprocedure
 
 !procedure GkeOnPremCard($id, $funcName="", $content="")

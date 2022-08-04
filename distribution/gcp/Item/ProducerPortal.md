@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/ProducerPortal')
 
 ' renders the element
-ProducerPortal('ProducerPortal', 'Producer Portal', 'an optional tech label')
+ProducerPortal('ProducerPortal', 'Producer Portal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/ProducerPortal')
 
 ' renders the element
-ProducerPortal('ProducerPortal', 'Producer Portal', 'an optional tech label')
+ProducerPortal('ProducerPortal', 'Producer Portal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

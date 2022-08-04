@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/AccessContextManager')
 
 ' renders the element
-AccessContextManager('AccessContextManager', 'Access Context Manager', 'an optional tech label')
+AccessContextManager('AccessContextManager', 'Access Context Manager', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/AccessContextManager')
 
 ' renders the element
-AccessContextManager('AccessContextManager', 'Access Context Manager', 'an optional tech label')
+AccessContextManager('AccessContextManager', 'Access Context Manager', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

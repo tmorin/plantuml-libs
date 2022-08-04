@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/MigrateForComputeEngine')
 
 ' renders the element
-MigrateForComputeEngine('MigrateForComputeEngine', 'Migrate For Compute Engine', 'an optional tech label')
+MigrateForComputeEngine('MigrateForComputeEngine', 'Migrate For Compute Engine', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/MigrateForComputeEngine')
 
 ' renders the element
-MigrateForComputeEngine('MigrateForComputeEngine', 'Migrate For Compute Engine', 'an optional tech label')
+MigrateForComputeEngine('MigrateForComputeEngine', 'Migrate For Compute Engine', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

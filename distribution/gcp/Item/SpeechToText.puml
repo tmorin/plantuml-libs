@@ -2,14 +2,14 @@
 
 sprite $SpeechToTextXs [10x10/16z] LSmn0G0010H00FqB0nFWfeTVTezNsfALZQoVZ3WW-dn1QsOgVbu1
 
-sprite $SpeechToTextSm [12x12/16z] Oy00R5ZOR2YO5OGXR0W4ipbW48FD1CKCA9W1J2C04vW4
+sprite $SpeechToTextSm [12x12/16z] Oy00R5ZOR2YO5OGXR0W4ipbW48FD2CKCA9W1JAC3
 
-sprite $SpeechToTextMd [16x16/16z] ZSU50S0m2011w6FxJrntoqVWv2MzCBOLDgF35xuvc8qEXit1u64-EwGwgNcsUQY6z-ovciURjte
+sprite $SpeechToTextMd [16x16/16z] ZSU54S1030F12sdSVyFXPpHgcImrhSDRlnSGo-8jqFqR5WRs_Jd35qj_vMFJlYu
 
-sprite $SpeechToTextLg [20x20/16z] bSY53S1G30DHXzpilt2P11zoejD3DQSCBEnd4QVHVqRsZ3oDNhKqv0BF-weMVbhepu3JW9u1jztrpOXU6m
+sprite $SpeechToTextLg [20x20/16z] bSZ50S1G20FGO2dxBrotonSS7ghX75dOpoBEHVyPsJFoD7hLqf0BFE-hQk6dXVuCE0te6N3R7NqpeXSR
 
-!procedure SpeechToText($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/SpeechToText', $name, $tech)
+!procedure SpeechToText($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/SpeechToText', $name, $tech, $desc)
 !endprocedure
 
 !procedure SpeechToTextCard($id, $funcName="", $content="")

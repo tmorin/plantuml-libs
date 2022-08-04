@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/IdentityPlatform')
 
 ' renders the element
-IdentityPlatform('IdentityPlatform', 'Identity Platform', 'an optional tech label')
+IdentityPlatform('IdentityPlatform', 'Identity Platform', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/IdentityPlatform')
 
 ' renders the element
-IdentityPlatform('IdentityPlatform', 'Identity Platform', 'an optional tech label')
+IdentityPlatform('IdentityPlatform', 'Identity Platform', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

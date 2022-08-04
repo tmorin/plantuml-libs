@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/TextToSpeech')
 
 ' renders the element
-TextToSpeech('TextToSpeech', 'Text To Speech', 'an optional tech label')
+TextToSpeech('TextToSpeech', 'Text To Speech', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/TextToSpeech')
 
 ' renders the element
-TextToSpeech('TextToSpeech', 'Text To Speech', 'an optional tech label')
+TextToSpeech('TextToSpeech', 'Text To Speech', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

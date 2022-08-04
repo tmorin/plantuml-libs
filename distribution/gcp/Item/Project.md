@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Project')
 
 ' renders the element
-Project('Project', 'Project', 'an optional tech label')
+Project('Project', 'Project', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Project')
 
 ' renders the element
-Project('Project', 'Project', 'an optional tech label')
+Project('Project', 'Project', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

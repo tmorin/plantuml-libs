@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudOps')
 
 ' renders the element
-CloudOps('CloudOps', 'Cloud Ops', 'an optional tech label')
+CloudOps('CloudOps', 'Cloud Ops', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudOps')
 
 ' renders the element
-CloudOps('CloudOps', 'Cloud Ops', 'an optional tech label')
+CloudOps('CloudOps', 'Cloud Ops', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

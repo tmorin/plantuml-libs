@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/KeyAccessJustifications')
 
 ' renders the element
-KeyAccessJustifications('KeyAccessJustifications', 'Key Access Justifications', 'an optional tech label')
+KeyAccessJustifications('KeyAccessJustifications', 'Key Access Justifications', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/KeyAccessJustifications')
 
 ' renders the element
-KeyAccessJustifications('KeyAccessJustifications', 'Key Access Justifications', 'an optional tech label')
+KeyAccessJustifications('KeyAccessJustifications', 'Key Access Justifications', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

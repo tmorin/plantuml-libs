@@ -2,14 +2,14 @@
 
 sprite $PremiumNetworkTierXs [10x10/16z] Oy0E63auEC0CThWG4n1piB812GOG9W4
 
-sprite $PremiumNetworkTierSm [12x12/16z] dSJ50O1034JH7q__3UDmm_QDyCJJs6K9sW8GpghEgquI7CWsBiA86G
+sprite $PremiumNetworkTierSm [12x12/16z] Oy07MDYOe2msTY310MQoGiJOOGGx1ni36r0jI1K7CmE5
 
-sprite $PremiumNetworkTierMd [16x16/16z] jOkr0S0020HnRl-5uzR6S5xaILW1gVjRn3I33QZQy5p5lQiiveqj3qpKyY-3HQLJnyNaydUC
+sprite $PremiumNetworkTierMd [16x16/16z] jKp50S1032BE_WlNxTkJk01eiYGPdqq1EEyrhy6EAdMZHFVEMm1uT_90oSMwIOhPjW8
 
-sprite $PremiumNetworkTierLg [20x20/16z] pScr0GC14CH07M__3PivzTE44ak8TBwOReQtLZaGBUDXnAzytPZcJlueKj79HStzN0HWN2YVZPSnhlhnt3YwCm
+sprite $PremiumNetworkTierLg [20x20/16z] pSgr0S10509GlhF_md5lO_Sw14yGkHQS57R9c9RaLXLnvLkbbPXHCJ4oa8v1rBmC50lwsc5JcEJoKa7hUW
 
-!procedure PremiumNetworkTier($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/PremiumNetworkTier', $name, $tech)
+!procedure PremiumNetworkTier($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/PremiumNetworkTier', $name, $tech, $desc)
 !endprocedure
 
 !procedure PremiumNetworkTierCard($id, $funcName="", $content="")

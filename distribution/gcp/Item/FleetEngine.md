@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/FleetEngine')
 
 ' renders the element
-FleetEngine('FleetEngine', 'Fleet Engine', 'an optional tech label')
+FleetEngine('FleetEngine', 'Fleet Engine', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/FleetEngine')
 
 ' renders the element
-FleetEngine('FleetEngine', 'Fleet Engine', 'an optional tech label')
+FleetEngine('FleetEngine', 'Fleet Engine', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

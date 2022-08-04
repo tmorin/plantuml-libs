@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudOptimizationAiFleetRoutingApi')
 
 ' renders the element
-CloudOptimizationAiFleetRoutingApi('CloudOptimizationAiFleetRoutingApi', 'Cloud Optimization Ai Fleet Routing Api', 'an optional tech label')
+CloudOptimizationAiFleetRoutingApi('CloudOptimizationAiFleetRoutingApi', 'Cloud Optimization Ai Fleet Routing Api', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudOptimizationAiFleetRoutingApi')
 
 ' renders the element
-CloudOptimizationAiFleetRoutingApi('CloudOptimizationAiFleetRoutingApi', 'Cloud Optimization Ai Fleet Routing Api', 'an optional tech label')
+CloudOptimizationAiFleetRoutingApi('CloudOptimizationAiFleetRoutingApi', 'Cloud Optimization Ai Fleet Routing Api', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

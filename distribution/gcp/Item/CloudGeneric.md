@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudGeneric')
 
 ' renders the element
-CloudGeneric('CloudGeneric', 'Cloud Generic', 'an optional tech label')
+CloudGeneric('CloudGeneric', 'Cloud Generic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudGeneric')
 
 ' renders the element
-CloudGeneric('CloudGeneric', 'Cloud Generic', 'an optional tech label')
+CloudGeneric('CloudGeneric', 'Cloud Generic', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

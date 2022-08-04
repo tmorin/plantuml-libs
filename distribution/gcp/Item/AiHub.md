@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/AiHub')
 
 ' renders the element
-AiHub('AiHub', 'Ai Hub', 'an optional tech label')
+AiHub('AiHub', 'Ai Hub', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/AiHub')
 
 ' renders the element
-AiHub('AiHub', 'Ai Hub', 'an optional tech label')
+AiHub('AiHub', 'Ai Hub', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

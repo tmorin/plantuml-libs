@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/NetworkTiers')
 
 ' renders the element
-NetworkTiers('NetworkTiers', 'Network Tiers', 'an optional tech label')
+NetworkTiers('NetworkTiers', 'Network Tiers', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/NetworkTiers')
 
 ' renders the element
-NetworkTiers('NetworkTiers', 'Network Tiers', 'an optional tech label')
+NetworkTiers('NetworkTiers', 'Network Tiers', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

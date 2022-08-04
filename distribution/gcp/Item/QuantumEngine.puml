@@ -2,17 +2,17 @@
 
 sprite $QuantumEngineXs [10x10/16z] Oq06p43826AmGG1GX8q129b1J0WBNGm8G6AC8DL0p8Ia5wA5cO41
 
-sprite $QuantumEngineSm [12x12/16z] ROpL0G0n2CM2lUu_yGdbvoIfOho8zYPhuq19ydj3b6YNmxp_uZSJbv0cBkMUW_jgQRo54m
+sprite $QuantumEngineSm [12x12/16z] ROk54G1130BFikc_unzWv6qv3J1UR4kS2deNC005Yc6rvdd_pGMPfviv7FrDMqyk
 
-sprite $QuantumEngineMd [16x16/16z] ROu55e0m3CNIZkRj_XV67JAjV_w8PKUSTaiQcRlbILrs7dOqfSH8xK1UTYKpf_sVZxAonrEhYlcecps3A-VyuT9JvR9dSs2Z9ntbXma
+sprite $QuantumEngineMd [16x16/16z] ZOw50S0W30GVP_-9UqdTEJJ-6Y7PZd6nwaRPRMrsmYZO0LSNx7RHoNxFTvPuf6yfuZ31xNKURFFpheT4svXvQTJPUziJ4m
 
 sprite $QuantumEngineLg [20x20/16z] {
-bO-75SGW34DjPC3xJtoYNtgY5F4-hl99W2XeEe02Pa1xqHZIl_vP37yCneEcA3HUUpgo77lk7-jjDynmKMya_1sFhETIpALwheODG_ZRmngxtfVoBEOqo5GR
-ZGQvqWy
+bO-54GGn4CFiymRwh_YNdba3oYYClv10kNWff1bbBf6TvYstJRXfiXXCmgKvztnkQ_JUcuPCkckcD-VbtgRtFhVUwn2fsilZhkcu_cDOjVV_TVQ2RPTm9P_c
+4jvn0W
 }
 
-!procedure QuantumEngine($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/QuantumEngine', $name, $tech)
+!procedure QuantumEngine($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/QuantumEngine', $name, $tech, $desc)
 !endprocedure
 
 !procedure QuantumEngineCard($id, $funcName="", $content="")

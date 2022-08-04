@@ -2,14 +2,14 @@
 
 sprite $AutomlVisionXs [10x10/16z] Oy0EE8204SA0YZ3160pCR0niR40P69yHpk9WW-dbG3OC
 
-sprite $AutomlVisionSm [12x12/16z] TOo30G01200lj__2R-Co-ITxPisx8iBMjDcHTd27c7F8z2MYF5UjrrvD74zdk3C2
+sprite $AutomlVisionSm [12x12/16z] TOo30G01200lj__2R-Co-ITxPisxP69Dcnrf1pE8kG-PlaI4vwhrsgk9u-aCTqO
 
-sprite $AutomlVisionMd [16x16/16z] ZSx50GH130F17eEi_1C-Pjnw6iK6uPF5nVX4S59s7t5X9zorpSMztLA25k219GcM1mYWJjV6WhjwErHmqdDqR_la7YFoX0_s
+sprite $AutomlVisionMd [16x16/16z] ZStL0KCn34FH6vAr_yBjOwRpavZv87d0B3mGesod7XExiD5ijkm4JKgW8Gv0qlpjbLA6Es8ZdHRL-KJqrh97YNT_
 
-sprite $AutomlVisionLg [20x20/16z] fSxL0S0W30JGGtFxBumxFvLN1MBuox9HSu_tdYUzAz1faZZ8LgU7UKpbk9NsIVaWCVHpIxNIaWkafhQEeB5JfE30Eyok8sWfjk7PsRbdsE2D2
+sprite $AutomlVisionLg [20x20/16z] fSw30K0n30JGQtZxB_njuzLCy9TnW1b71QCWjNHMrx2HuvkPa871vcKqkW4DPSnR6BvEDDpT-XG4QuNCmx_NR9c2P6TrZIF3H3d06pK
 
-!procedure AutomlVision($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/AutomlVision', $name, $tech)
+!procedure AutomlVision($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/AutomlVision', $name, $tech, $desc)
 !endprocedure
 
 !procedure AutomlVisionCard($id, $funcName="", $content="")

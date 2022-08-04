@@ -2,14 +2,14 @@
 
 sprite $SecurityHealthAdvisorXs [10x10/16z] PSk50S0m20J0YxF_mdKlpWluH-sbWEmUGK9441aqGm6Tut9wpvW1
 
-sprite $SecurityHealthAdvisorSm [12x12/16z] VKr50W0W21lD_pziApVftF0HSf5JkZFaTBxYhND47XwPexGpDo2LToqsmWCI25y2ksL91m
+sprite $SecurityHealthAdvisorSm [12x12/16z] VOp50G0n2C22i__2fvLVWoidqcncASYeylCpRtwgko56Fw1jv1QlMoynPH0ptTm
 
-sprite $SecurityHealthAdvisorMd [16x16/16z] ZOs50G0n308Xv6dtN_ZT_Qenm3yO-qYsf2L5Eu6GDCNX-TrYyXYNiYdN7WfCQKa1g7NjnoYVM0t3UxcUnWH5hAJLXti2ztG
+sprite $SecurityHealthAdvisorMd [16x16/16z] ZKw30G1H2BtS_XEVlftTkmu9omHKYIYbglpOND7WvxbPFkOFlUSnz4FrgQNvv_oJ4AJt7w8yBleKosrMUgPFw0O
 
-sprite $SecurityHealthAdvisorLg [20x20/16z] hSZL0KKn34En4xlnxVuJFsO6VOe_66tfSf9uxJJQ39JELc5F5wSxDpT9dLzNG6DZqtEZQPZ8dAjb69yk3ImJhEDr2XZex2fXm-R4QT2-JXdRnGKDYm-j
+sprite $SecurityHealthAdvisorLg [20x20/16z] hSu50eGW58JXbxFS_yJBsDs__Qc0V92csrm2WDT6CGgl4pKCTpEp3Il2T6gf_3OOkR2KvBT6cFIhuACXQKLaiku4ppR_5H3cKtFaaeXmqhnmavlz0G
 
-!procedure SecurityHealthAdvisor($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/SecurityHealthAdvisor', $name, $tech)
+!procedure SecurityHealthAdvisor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/SecurityHealthAdvisor', $name, $tech, $desc)
 !endprocedure
 
 !procedure SecurityHealthAdvisorCard($id, $funcName="", $content="")

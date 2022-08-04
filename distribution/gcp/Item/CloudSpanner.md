@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudSpanner')
 
 ' renders the element
-CloudSpanner('CloudSpanner', 'Cloud Spanner', 'an optional tech label')
+CloudSpanner('CloudSpanner', 'Cloud Spanner', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudSpanner')
 
 ' renders the element
-CloudSpanner('CloudSpanner', 'Cloud Spanner', 'an optional tech label')
+CloudSpanner('CloudSpanner', 'Cloud Spanner', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

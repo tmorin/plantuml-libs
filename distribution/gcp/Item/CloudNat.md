@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudNat')
 
 ' renders the element
-CloudNat('CloudNat', 'Cloud Nat', 'an optional tech label')
+CloudNat('CloudNat', 'Cloud Nat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudNat')
 
 ' renders the element
-CloudNat('CloudNat', 'Cloud Nat', 'an optional tech label')
+CloudNat('CloudNat', 'Cloud Nat', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

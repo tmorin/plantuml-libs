@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudRoutes')
 
 ' renders the element
-CloudRoutes('CloudRoutes', 'Cloud Routes', 'an optional tech label')
+CloudRoutes('CloudRoutes', 'Cloud Routes', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudRoutes')
 
 ' renders the element
-CloudRoutes('CloudRoutes', 'Cloud Routes', 'an optional tech label')
+CloudRoutes('CloudRoutes', 'Cloud Routes', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

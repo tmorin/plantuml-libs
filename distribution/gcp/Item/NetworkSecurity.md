@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/NetworkSecurity')
 
 ' renders the element
-NetworkSecurity('NetworkSecurity', 'Network Security', 'an optional tech label')
+NetworkSecurity('NetworkSecurity', 'Network Security', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/NetworkSecurity')
 
 ' renders the element
-NetworkSecurity('NetworkSecurity', 'Network Security', 'an optional tech label')
+NetworkSecurity('NetworkSecurity', 'Network Security', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

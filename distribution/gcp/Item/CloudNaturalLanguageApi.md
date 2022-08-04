@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudNaturalLanguageApi')
 
 ' renders the element
-CloudNaturalLanguageApi('CloudNaturalLanguageApi', 'Cloud Natural Language Api', 'an optional tech label')
+CloudNaturalLanguageApi('CloudNaturalLanguageApi', 'Cloud Natural Language Api', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudNaturalLanguageApi')
 
 ' renders the element
-CloudNaturalLanguageApi('CloudNaturalLanguageApi', 'Cloud Natural Language Api', 'an optional tech label')
+CloudNaturalLanguageApi('CloudNaturalLanguageApi', 'Cloud Natural Language Api', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

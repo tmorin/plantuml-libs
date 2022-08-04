@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CertificateManager')
 
 ' renders the element
-CertificateManager('CertificateManager', 'Certificate Manager', 'an optional tech label')
+CertificateManager('CertificateManager', 'Certificate Manager', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CertificateManager')
 
 ' renders the element
-CertificateManager('CertificateManager', 'Certificate Manager', 'an optional tech label')
+CertificateManager('CertificateManager', 'Certificate Manager', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

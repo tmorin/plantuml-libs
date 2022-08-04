@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudMonitoring')
 
 ' renders the element
-CloudMonitoring('CloudMonitoring', 'Cloud Monitoring', 'an optional tech label')
+CloudMonitoring('CloudMonitoring', 'Cloud Monitoring', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudMonitoring')
 
 ' renders the element
-CloudMonitoring('CloudMonitoring', 'Cloud Monitoring', 'an optional tech label')
+CloudMonitoring('CloudMonitoring', 'Cloud Monitoring', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

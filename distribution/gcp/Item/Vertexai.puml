@@ -2,17 +2,14 @@
 
 sprite $VertexaiXs [10x10/16z] Oy09c64CDdOuYmEDnGoMPOCmMLYOi9i4
 
-sprite $VertexaiSm [12x12/16z] TOe74iG0209NOPZx_uSllITh5_X6S_VSkw3upNirqQgsIP75BzABHynxpwPkGfgPaiEEk3C
+sprite $VertexaiSm [12x12/16z] TOg50S002CE2y__3SvVWjFnZIrTEUka2QRigv9IhNqXTFSQow-fHabJONCc1y6G4
 
-sprite $VertexaiMd [16x16/16z] ZSh5WGH030Cm1GRwR_XmcVK9s3vGW7Mw4odXjBLzoikqh5CUmZ80eRGGD_tj44lJ944LK3E0g33qT5BPit6oX2lbiMy
+sprite $VertexaiMd [16x16/16z] ZG-30G11ADV-4x__Z6p01l2hFVaLqCa2yULFjBFQiooUdcOJvRNo-hSVhmuxyLItps_Sy6l0SvPODe7GYgiSiFcX2mS
 
-sprite $VertexaiLg [20x20/16z] {
-bOw50GH120Cd2N3NVyFlxZ-hUFW7lVY5CtFZ4q14SSP7Nvdr9izeM7BZ0qDOcziPmSDQDtaYshl1Dtb-p1E43AMBr4IdkMRcd1VlB_0q5n8eQimDZglFhWiB
-pIFTva-s
-}
+sprite $VertexaiLg [20x20/16z] bK-55KCn2CHX_uNhnQh_uk7a0KU0RswSDsj_-2Z9LDy-el7eAdE4c3o6m971LrvC7XUb_9BNWNPZOWeproorTDskN6s6jnR4QBWneHeiE2Xig28Sn1a
 
-!procedure Vertexai($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Vertexai', $name, $tech)
+!procedure Vertexai($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Vertexai', $name, $tech, $desc)
 !endprocedure
 
 !procedure VertexaiCard($id, $funcName="", $content="")

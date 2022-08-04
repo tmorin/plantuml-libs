@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/BinaryAuthorization')
 
 ' renders the element
-BinaryAuthorization('BinaryAuthorization', 'Binary Authorization', 'an optional tech label')
+BinaryAuthorization('BinaryAuthorization', 'Binary Authorization', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/BinaryAuthorization')
 
 ' renders the element
-BinaryAuthorization('BinaryAuthorization', 'Binary Authorization', 'an optional tech label')
+BinaryAuthorization('BinaryAuthorization', 'Binary Authorization', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

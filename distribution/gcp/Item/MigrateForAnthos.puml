@@ -2,17 +2,17 @@
 
 sprite $MigrateForAnthosXs [10x10/16z] TOYt0G0W08Emy__3TaTP4k27xoJUjSLtq7r4V6V7PZLD8iJCPW
 
-sprite $MigrateForAnthosSm [12x12/16z] VOcr0G014C8up_uBlrlrD42Yt_1Eo_xWkMVwUq2axMj0ldyf2B0PNEhgeBiFGM6wywmL
+sprite $MigrateForAnthosSm [12x12/16z] VSZ50SD04CLGBOxwRpWni_qk7_ZaeTTsk8D5EGp5EhLGCWeKan9XXbvojlUkW4tk_W
 
-sprite $MigrateForAnthosMd [16x16/16z] ZOo50GGn3CFI0rlxJ_nkdlbKLAWEihmuuqcr-Sb9v46TQXw6KUoh7eRDm7MayAort0hgFSmQ7P6LhOQ0Tgcm0cnTlsHVgE1eVUC4
+sprite $MigrateForAnthosMd [16x16/16z] ZSZL0GCm30DHnQJRV-4o-QyNVDQVXNQSnIuleyaV-aXyUH2Typ6F0IyDHfB73y8yzZ7dvQIa0HwE49vRK7TpG3zvStS5
 
 sprite $MigrateForAnthosLg [20x20/16z] {
-hOs50SCm3C3CrlyNhv2CULCRaad-GkkDCl8sBRXET2IuSlYoua8bqc9SfYssfVDSPQ_MJcEygFMLtJKKAwAu9EogmHhMygmXjwp6zZ2-kQgIf5PMEMgrm2Us
-omQJIwn2Nd4
+hOg50KKn4CAeS6J_XR-xoqlr0bg4tAk6xskJMpNGdQJlpYL6KKUN81F5byhPselYA0f9JkgWs28nP0x5G0lWu3f808L3pDYvwbscjcpb8LJ1ED9tags-eTVK
+EzO
 }
 
-!procedure MigrateForAnthos($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/MigrateForAnthos', $name, $tech)
+!procedure MigrateForAnthos($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/MigrateForAnthos', $name, $tech, $desc)
 !endprocedure
 
 !procedure MigrateForAnthosCard($id, $funcName="", $content="")

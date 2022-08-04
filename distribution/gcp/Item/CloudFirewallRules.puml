@@ -2,14 +2,14 @@
 
 sprite $CloudFirewallRulesXs [10x10/16z] Oq003Y004MmeOanWKJOorB410OXW1G
 
-sprite $CloudFirewallRulesSm [12x12/16z] PSt50G0n2031nUc_uTZd91CNWBUiXJq9iPrPCCCMnQ2QNf8MtgeNzlIxl_xVjKGNpZG1
+sprite $CloudFirewallRulesSm [12x12/16z] PSrH0W0H203HsGNkVsAZ7_00gDZL9cBYduY9xxCxOM-Thafdvxs8QVV-Vslj1W
 
-sprite $CloudFirewallRulesMd [16x16/16z] XSo53S1030D0XxF_n9KjLL2yvm_WnkGyO4k55Tn5m8DuLJvwoV2OxsHm-UtFV9YJhl_zYm8bl_qF
+sprite $CloudFirewallRulesMd [16x16/16z] Oo08E4205K9nO95dP0HXHWW5Li_01bMBLJqJ2312A2OYp0SgOeIg1M9gcmy
 
-sprite $CloudFirewallRulesLg [20x20/16z] fT350KCX403HWHNel-7OtEB9VoTqZQzj1Sj50qj1koYUYmX622AcyPXROBpCPAIkk-2vqYHTv8lwXbouUlIibgTdnsRL2if5ySmP
+sprite $CloudFirewallRulesLg [20x20/16z] fT2r0SD044JHF_PI_mqRDAbOBpc-1KuR4-r90MsYF4dMIG8jFF5_lCR0_qK42eE8D-lI83o9rVnEMijbTUzPhyf4UfAi-G8
 
-!procedure CloudFirewallRules($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudFirewallRules', $name, $tech)
+!procedure CloudFirewallRules($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudFirewallRules', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudFirewallRulesCard($id, $funcName="", $content="")

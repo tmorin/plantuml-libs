@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Bigtable')
 
 ' renders the element
-Bigtable('Bigtable', 'Bigtable', 'an optional tech label')
+Bigtable('Bigtable', 'Bigtable', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Bigtable')
 
 ' renders the element
-Bigtable('Bigtable', 'Bigtable', 'an optional tech label')
+Bigtable('Bigtable', 'Bigtable', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

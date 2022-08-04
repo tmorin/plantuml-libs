@@ -2,14 +2,14 @@
 
 sprite $KuberunXs [10x10/16z] Oq05R0mOW8E30ye00R0QLWuWXuq590R227NO0G
 
-sprite $KuberunSm [12x12/16z] VOl50G1120Dnqd_3vx8-7uXHXnL_57Py0HYQZyi965zv60XgSIfLjs-T43Yz2AtO0G
+sprite $KuberunSm [12x12/16z] VOl50S1G34AXZR3_mdNzzYu9XWhx_F6nW_ShY7cNKx8p3nCqyzXCD7lMASXmGunO0G
 
-sprite $KuberunMd [16x16/16z] dKu30aK136gi-r_u6y-QlR12DibxdCOuz-eQfALyiF-wQWZKTxSo986UpqUT7HJKZ-1zDGkaGpyCSeB9_pknnH5SnpMw0m
+sprite $KuberunMd [16x16/16z] dOkr0GC154Bv1ko_S3mdrSchK9o4UvkvzyFUk7QulNeJXlv1JOHj2FMsR9OCaq5-xmCfuVKFGIsiWMXXI-0UJm
 
-sprite $KuberunLg [20x20/16z] jSp5OGLG44BHEyQZ_uRZ-UvoTYF0lL8SQIKtA6cIFRQyF7khHPXmiv6Mq-aslwgH6Ck1InM0X4OMThcb1Y8OJzggSKPi-fA56RCrNeN60LljRy6-pE1DFW4
+sprite $KuberunLg [20x20/16z] jSYr0GGm0CGmXoxUV-5dPbGftXQkzF2AbWpEQPoUhHEas3cencgrorRf90mZMD804Z9Yq6P9EXl3KZIboK4H9ZBaQ3WBEIlehd6fy2zB
 
-!procedure Kuberun($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Kuberun', $name, $tech)
+!procedure Kuberun($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Kuberun', $name, $tech, $desc)
 !endprocedure
 
 !procedure KuberunCard($id, $funcName="", $content="")

@@ -2,14 +2,14 @@
 
 sprite $RecommendationsAiXs [10x10/16z] LKg30G102BpS_Wk_6K_uIrevCbCN0Xf2HymggkfFkkVQ6aQkhRp8tQsjem8
 
-sprite $RecommendationsAiSm [12x12/16z] POk50SD030FrCku_SGsb96S6uG47cBiVAOo8Agn0zqJtP_PkHec2-CTxqsj1QIbCKWMhpGCHh3RDh7eMc_02
+sprite $RecommendationsAiSm [12x12/16z] POk50G0n2CI2i__2xze6bsD2To0o4zi8A1NRU_PUs7kEVKPWjS6Ft3V7-jAsYdDfUq-NjcDBFrO
 
-sprite $RecommendationsAiMd [16x16/16z] TOs50GDH349fYUq_yKNEvNsD0Jxu3NlCnh8GYKqi7UVBZF_4n00x1i_ntkzc9g2tpfSpTlls8-fsmQuNdizxJ4h5-NHiYIAiRHyi
+sprite $RecommendationsAiMd [16x16/16z] ZOm50WHH24AnlV-9rzYkcVTJ1N0I6Hn05hwrJat4KdLTMmCqDUHHF-d3tHKIctDC5Z9tAEvv6O1yhucaQoATsWj3Ug7uu08
 
-sprite $RecommendationsAiLg [20x20/16z] bSw55O0m34NHMcJ_YObyt1-IdekMttN4jXvHdutTr9EnD_PbMEi5HdPAitcopREjjR3XXGbxPf9VS_kQHWEJqeI8XXjPtGd_ukRpfx55PkABD8u8y-wF9m
+sprite $RecommendationsAiLg [20x20/16z] bSw55O0m34NHMcJ_YObyt1yIpiLQVjSHstNDPcCtzMJiZUsf7jPwWP6TqcoUp89nQoriU672dfce9sQVqsXWKfeGqN0ZgpjXBMu-VnfRP2PifN54c7ShdW
 
-!procedure RecommendationsAi($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/RecommendationsAi', $name, $tech)
+!procedure RecommendationsAi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/RecommendationsAi', $name, $tech, $desc)
 !endprocedure
 
 !procedure RecommendationsAiCard($id, $funcName="", $content="")

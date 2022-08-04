@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/ServiceDiscovery')
 
 ' renders the element
-ServiceDiscovery('ServiceDiscovery', 'Service Discovery', 'an optional tech label')
+ServiceDiscovery('ServiceDiscovery', 'Service Discovery', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/ServiceDiscovery')
 
 ' renders the element
-ServiceDiscovery('ServiceDiscovery', 'Service Discovery', 'an optional tech label')
+ServiceDiscovery('ServiceDiscovery', 'Service Discovery', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

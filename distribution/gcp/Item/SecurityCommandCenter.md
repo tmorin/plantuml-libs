@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/SecurityCommandCenter')
 
 ' renders the element
-SecurityCommandCenter('SecurityCommandCenter', 'Security Command Center', 'an optional tech label')
+SecurityCommandCenter('SecurityCommandCenter', 'Security Command Center', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/SecurityCommandCenter')
 
 ' renders the element
-SecurityCommandCenter('SecurityCommandCenter', 'Security Command Center', 'an optional tech label')
+SecurityCommandCenter('SecurityCommandCenter', 'Security Command Center', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

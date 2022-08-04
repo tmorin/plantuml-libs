@@ -2,17 +2,17 @@
 
 sprite $CloudSqlXs [10x10/16z] LOc54G0n20JH7Vfl-2KUv5JkgS6GrRJxxxpBX94XQ9VCKd9avdoYJ-jU
 
-sprite $CloudSqlSm [12x12/16z] POi50e0020C7XvF_VzXkQHRwnN1TvMwsA-mKFMutR82s07jt126hTZm1EtPSkBJZaFBf3Svh-xOv0m
+sprite $CloudSqlSm [12x12/16z] POX90W0n389iR9Zy_yEpx_KYe65vKwVA1uBacdQsZt0Av8bDg1yzR4Cxke8G1pi4w9XlkhS
 
-sprite $CloudSqlMd [16x16/16z] TOp50S0m008Xj9Vilt3TXHUk7_YkQFLq2b1ROvE1VZ9hgsMDatN3gfsag9zRgvuTGFQgfzH8i6ejVTR-_ZYhBNOiCpzwJnDrmAs_fXlc_YT6
+sprite $CloudSqlMd [16x16/16z] ZSp75GCW40DHBV8EzD-m8_daEH7-a_ugQ5KheBP6lnbIKXsas5qDO1SbP1_xl03gXOl4xUc-lsotS2YGSlFIurWq45h5kDsz
 
 sprite $CloudSqlLg [20x20/16z] {
-bSw54GGm20H03f8B_LVySNjdZ5bK_etWUecHxabF8QFdm1pBabkGDTbeivw1tCnG-bf_hnSjmdK2ecPaL0dOzu6vGWxJZ8hsKRRLMSMMQDiNvDYNqrYVn_wA
-5kashqpPT5xOmkHJF
+bSu73WCW30F0J9F_lxXXMgrchOKEY2F_9if-n86geTy2P7Nu3S3ys3hyFlDx0fpcEj-jzoSwTGfOiHH84LF-ROMA0TUiqQRYscsPuXIT2aIlodbJiuL_rLUB
+tMNOmWOg6nWAmtm
 }
 
-!procedure CloudSql($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudSql', $name, $tech)
+!procedure CloudSql($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudSql', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudSqlCard($id, $funcName="", $content="")

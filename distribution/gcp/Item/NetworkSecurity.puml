@@ -2,17 +2,17 @@
 
 sprite $NetworkSecurityXs [10x10/16z] LKkr0G0m2CFX_uUBPAf1bFvJM15HLGb40nTvC05Hp3uKDfAYueMsn08Stz4
 
-sprite $NetworkSecuritySm [12x12/16z] NKk50G112C92zb_uEwwLn7giNXIaf3XXaOoJF1XyS0MhxC8Pfuhskmf8mddElDGNTlAI7tB1vzWrTm
+sprite $NetworkSecuritySm [12x12/16z] POl70S0m30B1bYxQV-7qRbwqqw2yJ8Ugyju1NiFbnUcpa-dTHz_RQMT1Ml-dP_L7RzZhCrpsqG8
 
-sprite $NetworkSecurityMd [16x16/16z] TSx50S0m30D0cHJjlt2PczpFR0pOAqXAUKR1XHOjjfYhq89t37vYvnK7YgIZFMAfqEhiju8MSTspBSRklCSZzkCVd6AB3HUZ2bqp
+sprite $NetworkSecurityMd [16x16/16z] ZSvL0aGn24FHK0diVyNJCC_z_Xsg-5HZH9jHEOgHMvhADE1gy63Zuegk4_2D8ogyp_kjG_ULTD4WBKqNofniqtyIquda6gFZiXy
 
 sprite $NetworkSecurityLg [20x20/16z] {
-bSz94WCn20J1be0Q_V_53eoN3i_9TKojwDyu9MybSCwvuYqR66iU2xgAGRSKDqCBDmfO2BFGhawwp1Qpvsq2SY5_LpnnBFpJCQPtTDMKaczyJ-RO9ZcsbNvQ
-BlSU
+bSy53WGX40NHZzLm_nDlMaAGs5RyeQr_OuuJEZ3d_DeI8Cmug3YD4hXR5uyXSTW02cAp8XLB-j94a_pTtVm5xUyAnx2MLWrBs3d8CEhBYbbEjgffsYjcOnVN
+NTv-
 }
 
-!procedure NetworkSecurity($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/NetworkSecurity', $name, $tech)
+!procedure NetworkSecurity($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/NetworkSecurity', $name, $tech, $desc)
 !endprocedure
 
 !procedure NetworkSecurityCard($id, $funcName="", $content="")

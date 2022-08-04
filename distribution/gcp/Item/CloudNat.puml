@@ -2,14 +2,14 @@
 
 sprite $CloudNatXs [10x10/16z] Oq0170Wc6vHYOqC8meGuE1WOEJYOC0IXW8KHne8e0G
 
-sprite $CloudNatSm [12x12/16z] NKo50G112C9s_uN_hyiE0A_HCUSSM8FNee2VO6_TD3CHjGopqLqaC6T5Nlgl_G
+sprite $CloudNatSm [12x12/16z] VOg50G0n38Iei__2xoubdZjwU6ovHOyTAYi1eB3qhDBqwbkeqDZtW1p8Yn4
 
-sprite $CloudNatMd [16x16/16z] ZSw50GD12031nUc_uUYxpxa2ZrIm8D3A93nBcecccRQp8iKWZQy62X3F_g3rqnUWJES-nSEAaNkcBHAmTBTcQRCabHDl
+sprite $CloudNatMd [16x16/16z] ZScr0GC140InETx-6pQpdvIAGwRu9kUbiWVnucsWu8iD3tqV0GEGhGlaaWOmNX-ynF2KsHqodgpTGdmoyQLPSmO
 
-sprite $CloudNatLg [20x20/16z] bO_L0G0n24Enfjb_uYDVv_QgEDXFU5O5STJqEIXHc2ZwJYU2unHhoUVI0rcYTNspf4E0mkWKeMIrZPr-FqgMZ9Yx_XnAbsRxoebpUnhjGBBiHDWp2m
+sprite $CloudNatLg [20x20/16z] bS_50KKX34JH6s6O_Xl-xlBax23EJkQRnRly_bHhAlt-TuO7NyhBeuSgpZ0HwGPGocSuV9P0zcljN3hbskCjHI4R5tnCbldK3Zw4ao_9iYC
 
-!procedure CloudNat($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudNat', $name, $tech)
+!procedure CloudNat($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudNat', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudNatCard($id, $funcName="", $content="")

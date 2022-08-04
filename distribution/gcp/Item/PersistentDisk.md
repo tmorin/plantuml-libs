@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/PersistentDisk')
 
 ' renders the element
-PersistentDisk('PersistentDisk', 'Persistent Disk', 'an optional tech label')
+PersistentDisk('PersistentDisk', 'Persistent Disk', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/PersistentDisk')
 
 ' renders the element
-PersistentDisk('PersistentDisk', 'Persistent Disk', 'an optional tech label')
+PersistentDisk('PersistentDisk', 'Persistent Disk', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

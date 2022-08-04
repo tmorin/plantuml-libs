@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/GoogleKubernetesEngine')
 
 ' renders the element
-GoogleKubernetesEngine('GoogleKubernetesEngine', 'Google Kubernetes Engine', 'an optional tech label')
+GoogleKubernetesEngine('GoogleKubernetesEngine', 'Google Kubernetes Engine', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/GoogleKubernetesEngine')
 
 ' renders the element
-GoogleKubernetesEngine('GoogleKubernetesEngine', 'Google Kubernetes Engine', 'an optional tech label')
+GoogleKubernetesEngine('GoogleKubernetesEngine', 'Google Kubernetes Engine', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

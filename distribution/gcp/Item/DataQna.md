@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/DataQna')
 
 ' renders the element
-DataQna('DataQna', 'Data Qna', 'an optional tech label')
+DataQna('DataQna', 'Data Qna', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/DataQna')
 
 ' renders the element
-DataQna('DataQna', 'Data Qna', 'an optional tech label')
+DataQna('DataQna', 'Data Qna', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

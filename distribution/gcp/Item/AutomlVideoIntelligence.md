@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/AutomlVideoIntelligence')
 
 ' renders the element
-AutomlVideoIntelligence('AutomlVideoIntelligence', 'Automl Video Intelligence', 'an optional tech label')
+AutomlVideoIntelligence('AutomlVideoIntelligence', 'Automl Video Intelligence', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/AutomlVideoIntelligence')
 
 ' renders the element
-AutomlVideoIntelligence('AutomlVideoIntelligence', 'Automl Video Intelligence', 'an optional tech label')
+AutomlVideoIntelligence('AutomlVideoIntelligence', 'Automl Video Intelligence', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

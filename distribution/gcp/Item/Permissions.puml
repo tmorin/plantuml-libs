@@ -2,14 +2,14 @@
 
 sprite $PermissionsXs [10x10/16z] Oq01x9oSK0QGnGHdSI1aCG0hL0wa3YJF3cLn8bW
 
-sprite $PermissionsSm [12x12/16z] RKk30G1H2CtOV-3Zj-iHrkFf3Nfc33WFM1zCS3fOjt_v_C8_VYlUS8AzvySt
+sprite $PermissionsSm [12x12/16z] VOl50O1G08LiPF-1xVZDwMMNWdmINGDjGSzetpK1l0ypjpulVDfkERdr3W
 
-sprite $PermissionsMd [16x16/16z] ZOp50K0n34999OJz1_xksdT3yKoET9Iaf8ESD2zQhzedNSz_H3F9AKMUXN548vpah6S0Fsa3BzfEe0S
+sprite $PermissionsMd [16x16/16z] ZSw53S100CF05DFilt3rp63X2Or-rtVa92NbDBuhQ-ZN-aBCcDZkV2d58vfaOgIn2NWhitBL3m
 
-sprite $PermissionsLg [20x20/16z] dK_L0KD13E8kolu3jy_T-KnGNA5QtLnA1CdjARWvnd2h1xTyU5j57sIWjhV4HrIJrGeTSsbpvdWRhx6-qG7TtWZOiziH_W
+sprite $PermissionsLg [20x20/16z] dSxL0S0W34LHB7Bt7xZkNjuVXrXuJ3f2D0FsPeDneC7IXVb7IuyxvbiyL2P9thtBl9VPUvWDPA2zeSCLU-EpNQK5
 
-!procedure Permissions($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Permissions', $name, $tech)
+!procedure Permissions($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Permissions', $name, $tech, $desc)
 !endprocedure
 
 !procedure PermissionsCard($id, $funcName="", $content="")

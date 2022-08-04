@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/PhishingProtection')
 
 ' renders the element
-PhishingProtection('PhishingProtection', 'Phishing Protection', 'an optional tech label')
+PhishingProtection('PhishingProtection', 'Phishing Protection', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/PhishingProtection')
 
 ' renders the element
-PhishingProtection('PhishingProtection', 'Phishing Protection', 'an optional tech label')
+PhishingProtection('PhishingProtection', 'Phishing Protection', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

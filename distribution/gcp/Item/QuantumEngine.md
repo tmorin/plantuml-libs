@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/QuantumEngine')
 
 ' renders the element
-QuantumEngine('QuantumEngine', 'Quantum Engine', 'an optional tech label')
+QuantumEngine('QuantumEngine', 'Quantum Engine', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/QuantumEngine')
 
 ' renders the element
-QuantumEngine('QuantumEngine', 'Quantum Engine', 'an optional tech label')
+QuantumEngine('QuantumEngine', 'Quantum Engine', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

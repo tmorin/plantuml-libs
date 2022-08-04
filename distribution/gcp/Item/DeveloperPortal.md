@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/DeveloperPortal')
 
 ' renders the element
-DeveloperPortal('DeveloperPortal', 'Developer Portal', 'an optional tech label')
+DeveloperPortal('DeveloperPortal', 'Developer Portal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/DeveloperPortal')
 
 ' renders the element
-DeveloperPortal('DeveloperPortal', 'Developer Portal', 'an optional tech label')
+DeveloperPortal('DeveloperPortal', 'Developer Portal', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

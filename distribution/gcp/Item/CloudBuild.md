@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudBuild')
 
 ' renders the element
-CloudBuild('CloudBuild', 'Cloud Build', 'an optional tech label')
+CloudBuild('CloudBuild', 'Cloud Build', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudBuild')
 
 ' renders the element
-CloudBuild('CloudBuild', 'Cloud Build', 'an optional tech label')
+CloudBuild('CloudBuild', 'Cloud Build', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

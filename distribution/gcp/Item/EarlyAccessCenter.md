@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/EarlyAccessCenter')
 
 ' renders the element
-EarlyAccessCenter('EarlyAccessCenter', 'Early Access Center', 'an optional tech label')
+EarlyAccessCenter('EarlyAccessCenter', 'Early Access Center', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/EarlyAccessCenter')
 
 ' renders the element
-EarlyAccessCenter('EarlyAccessCenter', 'Early Access Center', 'an optional tech label')
+EarlyAccessCenter('EarlyAccessCenter', 'Early Access Center', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

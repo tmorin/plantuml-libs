@@ -2,14 +2,14 @@
 
 sprite $AdvancedAgentModelingXs [10x10/16z] Oq05p30Q120CLbPMPYOGYvMJWmt2OcRZWhB0W0ccWmcc6TLG
 
-sprite $AdvancedAgentModelingSm [12x12/16z] Oy00J0WMCpCpbCSC0L1H3ZOsE9kJ0y5cu-A2irbOM81ig5w4GOmWKs00A8WE
+sprite $AdvancedAgentModelingSm [12x12/16z] PSor0S0m4C30Pzf_tt2CgguIR54NC-DBVliSPiqPtLRLB2BDT__slNo6hHC
 
-sprite $AdvancedAgentModelingMd [16x16/16z] TSx50KGX303HXS6I_llTRxZCxQ7v7JAZW8wysImBE9wgWuJWmMQx4Ey5Lqs86ZsTWwRH8VJ6zp-IQpFcpLfMi-dLTm4
+sprite $AdvancedAgentModelingMd [16x16/16z] ZSsn0G0H40LH3A3_WW_Woswo1xlcNy2hbbkoW8VMj8DOOWpNFgPsuEK-rHGGnveVjzGqj6IXi4NB6hKJDIkUFW
 
-sprite $AdvancedAgentModelingLg [20x20/16z] bS_50SGW40NGSTd--usYiwVy2F1m-1fYBC9FLaNkMQPTKPOL7merlKeQTb66sMPgwPVPFixiboP_viQRYPddPlqiYz63zIfT29PG7rJiac84DLYXvWG
+sprite $AdvancedAgentModelingLg [20x20/16z] bP250GCW3C3gil__dHiEmOCNJY76oY0_A1H_-DjsHrd-vLE5cjvR-hgxoZ0hd5hwtLcvpkoI9etpSY-BcMVflc_vEk8VxJ-eYC1tKUaGQaTGWx3W1W
 
-!procedure AdvancedAgentModeling($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/AdvancedAgentModeling', $name, $tech)
+!procedure AdvancedAgentModeling($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/AdvancedAgentModeling', $name, $tech, $desc)
 !endprocedure
 
 !procedure AdvancedAgentModelingCard($id, $funcName="", $content="")

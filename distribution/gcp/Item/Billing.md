@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Billing')
 
 ' renders the element
-Billing('Billing', 'Billing', 'an optional tech label')
+Billing('Billing', 'Billing', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Billing')
 
 ' renders the element
-Billing('Billing', 'Billing', 'an optional tech label')
+Billing('Billing', 'Billing', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

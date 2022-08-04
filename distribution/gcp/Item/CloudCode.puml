@@ -2,14 +2,14 @@
 
 sprite $CloudCodeXs [10x10/16z] XOR50G0W4CEAT_-92NoHgqQHIbb1VLC7EiDcnfODI1voqLKJ
 
-sprite $CloudCodeSm [12x12/16z] ZKd50O103AkJ_IUczaIk4gN3KIBMbQhvKZ8iMJIoaGZEn28ILU04M2Nak5ANB9EVydLk
+sprite $CloudCodeSm [12x12/16z] ZKnL0i1G238Pzp_nNkdVmWv0VfgFr3EwZrmBOjpDOQC2ynJ0g6PC8MFZUOsvTTxj1W
 
-sprite $CloudCodeMd [16x16/16z] hOf75i10249b2iFzJnpBC_kKRnVi3-Q8XlkS_l26Llj6dkGeFnaFaii2EZx0VUH3oy_aI3AlieKasDQn1iFRiZTS
+sprite $CloudCodeMd [16x16/16z] hOZ50S0m3CHazluBb-7T9ZBgc84eOA-QAMPte7gvd9gf2fXa0cIcSpvN4DL0-wbGtSqspiMcH1SF0ZX_M04
 
-sprite $CloudCodeLg [20x20/16z] lSpN5KCX30DGkGdjFt7eXmNoxWUuupCM-trB4VjzIXt6urYSQyBxMrnJ9FSbBxBGSJWRdQChLiW0i3aPc1YI0kolExQH5Lf_4vVKvXjur7mJV_43
+sprite $CloudCodeLg [20x20/16z] lKxN4KH123AChFrNVEXiBE0U7m9c-GvUGVr9kJFLyQI8ZYOJc1sCWPa2vYOB86OAisebUpmGdbhLOJD5xPbCWj5cIjg53CPAJMIEZi_JqT7aB_W1
 
-!procedure CloudCode($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudCode', $name, $tech)
+!procedure CloudCode($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudCode', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudCodeCard($id, $funcName="", $content="")

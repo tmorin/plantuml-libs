@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Eventarc')
 
 ' renders the element
-Eventarc('Eventarc', 'Eventarc', 'an optional tech label')
+Eventarc('Eventarc', 'Eventarc', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Eventarc')
 
 ' renders the element
-Eventarc('Eventarc', 'Eventarc', 'an optional tech label')
+Eventarc('Eventarc', 'Eventarc', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

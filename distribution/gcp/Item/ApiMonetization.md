@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/ApiMonetization')
 
 ' renders the element
-ApiMonetization('ApiMonetization', 'Api Monetization', 'an optional tech label')
+ApiMonetization('ApiMonetization', 'Api Monetization', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/ApiMonetization')
 
 ' renders the element
-ApiMonetization('ApiMonetization', 'Api Monetization', 'an optional tech label')
+ApiMonetization('ApiMonetization', 'Api Monetization', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

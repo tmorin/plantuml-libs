@@ -2,14 +2,14 @@
 
 sprite $IdentityAwareProxyXs [10x10/16z] Oo08M3WO6DX033O8nS3CmC70oi3419P4g0F9ic8r0G
 
-sprite $IdentityAwareProxySm [12x12/16z] dSQr0G0n302nCtl_XH_J1rI90nhUX7ntalpY246RySe8JOQEn8KLDm
+sprite $IdentityAwareProxySm [12x12/16z] dSd50G0X3031ZQV_Xa_v8mDn3aZG11ydd_Ss3hm7uvNcaWmTYRFa1W
 
-sprite $IdentityAwareProxyMd [16x16/16z] jS45WGD1402mxE3vD_nGC518V4LTkrIvwwEi0ugLuvHpE4gBfZCIkCnCjATipghm4BDDfRVz0W
+sprite $IdentityAwareProxyMd [16x16/16z] jSUv0S8m400msVVkFp5L5W2YJbwHEqFcq-CQG31kau2ZtABS05PtknvH67a1Ja-IuMSV
 
-sprite $IdentityAwareProxyLg [20x20/16z] nSlNeG8m30F0I-As_yAlq5a0xi-MvCjYff3beOCpMwQxEgAOnoeOJf7OS0v3v1Bxx0FhCEgFmdhi4xHNMN6obwptxtuCFk0N
+sprite $IdentityAwareProxyLg [20x20/16z] nSw54G913030FOdqtp3EpLS0EngFFzlTYKX7RKOF4RvosKcVgKspai24DMXsiAUvVBHya2vsW78LEKRK-ULavnduWJi
 
-!procedure IdentityAwareProxy($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/IdentityAwareProxy', $name, $tech)
+!procedure IdentityAwareProxy($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/IdentityAwareProxy', $name, $tech, $desc)
 !endprocedure
 
 !procedure IdentityAwareProxyCard($id, $funcName="", $content="")

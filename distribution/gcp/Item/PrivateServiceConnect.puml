@@ -2,14 +2,14 @@
 
 sprite $PrivateServiceConnectXs [10x10/16z] Oo08s3XO80nMDdOE4CtCniB4mi7Cp0ZYi31om1Hou381
 
-sprite $PrivateServiceConnectSm [12x12/16z] ZOgt0S1020D54ko_iFsvvXf5jF7dWbLnF8VFQKH9k2VF1t33WKKq-G4
+sprite $PrivateServiceConnectSm [12x12/16z] Oo0QCC9Ph6mS72nGDXkGpGwMPc9ZOs1XOMU3gc5WO87hOEDW8zOM
 
-sprite $PrivateServiceConnectMd [16x16/16z] hOp50K0n348XGjb_uU_I0VfE2OP5rFomPVV_IufFYFFd66wGjzj2mIK-aH88OnwmXGcviOGT
+sprite $PrivateServiceConnectMd [16x16/16z] hSgt0G0n349HSFXc_uKlnzwlaW1Duj_NIThx0YKfpn8ynlRRPzjHKnhkEbHaHIz8q0Vfcc85
 
-sprite $PrivateServiceConnectLg [20x20/16z] lKx54G113888I_yLtvpRV_CBZgbNFqIotsXhnUmF5aCtnbonPiQACLSi8PK21JkLu0w21xP-Tss1_1HpxHs_WMvCl0K
+sprite $PrivateServiceConnectLg [20x20/16z] lKwr0S1043g3P_-5uvx-A75hXVyOKgeN0wwSzE5YyEOyLmwUiNAUAvT65iFAf6HUMtvmxzaozy-mhxlZTr2mHim
 
-!procedure PrivateServiceConnect($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/PrivateServiceConnect', $name, $tech)
+!procedure PrivateServiceConnect($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/PrivateServiceConnect', $name, $tech, $desc)
 !endprocedure
 
 !procedure PrivateServiceConnectCard($id, $funcName="", $content="")

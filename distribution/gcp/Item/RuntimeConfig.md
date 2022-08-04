@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/RuntimeConfig')
 
 ' renders the element
-RuntimeConfig('RuntimeConfig', 'Runtime Config', 'an optional tech label')
+RuntimeConfig('RuntimeConfig', 'Runtime Config', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/RuntimeConfig')
 
 ' renders the element
-RuntimeConfig('RuntimeConfig', 'Runtime Config', 'an optional tech label')
+RuntimeConfig('RuntimeConfig', 'Runtime Config', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

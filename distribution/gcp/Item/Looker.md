@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Looker')
 
 ' renders the element
-Looker('Looker', 'Looker', 'an optional tech label')
+Looker('Looker', 'Looker', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Looker')
 
 ' renders the element
-Looker('Looker', 'Looker', 'an optional tech label')
+Looker('Looker', 'Looker', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

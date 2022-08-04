@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudTpu')
 
 ' renders the element
-CloudTpu('CloudTpu', 'Cloud Tpu', 'an optional tech label')
+CloudTpu('CloudTpu', 'Cloud Tpu', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudTpu')
 
 ' renders the element
-CloudTpu('CloudTpu', 'Cloud Tpu', 'an optional tech label')
+CloudTpu('CloudTpu', 'Cloud Tpu', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

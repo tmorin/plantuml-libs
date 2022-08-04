@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudTestLab')
 
 ' renders the element
-CloudTestLab('CloudTestLab', 'Cloud Test Lab', 'an optional tech label')
+CloudTestLab('CloudTestLab', 'Cloud Test Lab', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudTestLab')
 
 ' renders the element
-CloudTestLab('CloudTestLab', 'Cloud Test Lab', 'an optional tech label')
+CloudTestLab('CloudTestLab', 'Cloud Test Lab', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

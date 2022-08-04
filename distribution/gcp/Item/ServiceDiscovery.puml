@@ -2,17 +2,17 @@
 
 sprite $ServiceDiscoveryXs [10x10/16z] LOk50S0m3CCqqlh_msKCny0HQZzw8xxMyxtvQTV5FIGg7WxGZy2A1
 
-sprite $ServiceDiscoverySm [12x12/16z] NKg53G113A96Vl-9dvB6hehXhPeyr9nicXN1r0hkIPHonWmrQ9pRXvsl5fRTQ36OSCXFo2o1FdBr0m
+sprite $ServiceDiscoverySm [12x12/16z] NKY54S1038e0r_qdxhibkBsNZ96WSCXhT9agIwmIvPqrhwyvwe_SneJLikPQHEcpVL7BlXy
 
-sprite $ServiceDiscoveryMd [16x16/16z] RSk54GGn34DHoL7-NlyLttYMuGLD-cRh8hInX-itP0qdIWfxxJ1MCh067QztzOMxVGfW0T7PJ9L6ILxhXUH5jK-AQ0BfJ_Fw6hGopExuMLgDP5XhueBIqny
+sprite $ServiceDiscoveryMd [16x16/16z] PSg50O0m3031RqWUzbyOzrubIg-NRXgd8qsJNKbc4yuDMUkj60JEFyu9LE5grAFE8eXpVlqZ0Usiar9ZItPdL4vQfKxSCWSu6m-3lmK
 
 sprite $ServiceDiscoveryLg [20x20/16z] {
-bSw5SS1G3C1GcPI__yIzO9dUeTdyJxgB3vdfqNdDtHsjhod2pXdoxcoJqbReQ-8U40YBdKq6iIK5rx25Bjqsvyar4Kn2llO9XEpIPbSMvGv6Nl-RYcxAVdqw
-sOt3BTGPrPMyopgmNfEljRNuBFZI2m
+bP05ZaL120GRXgutzx_m2Y7VjIAuwZkIVwGp0RWCFliWMXQSNH8PjfB9BBgwauf96zc2fHQb3EcGbeGr8TXm7FZaAqN8AUKvZ-dM8biiGZ5t69q7ErMbHMbW
+Adnz73R0ZkilO6cVdMVsrZsXX_m2
 }
 
-!procedure ServiceDiscovery($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/ServiceDiscovery', $name, $tech)
+!procedure ServiceDiscovery($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/ServiceDiscovery', $name, $tech, $desc)
 !endprocedure
 
 !procedure ServiceDiscoveryCard($id, $funcName="", $content="")

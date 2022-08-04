@@ -2,14 +2,14 @@
 
 sprite $RetailApiXs [10x10/16z] Oq02J2224SnaOM1Wum2pE9Y0B20JBCN6m0GH1086N82D3OmH
 
-sprite $RetailApiSm [12x12/16z] TSY50S0m2031nzb_ugRkXyElwBctC3CrigMOzRoFnyo5Y6RLWy8iELdEOlqRIC9iVcboCm4
+sprite $RetailApiSm [12x12/16z] TSb90W0W24BHtypzBzoShdeR1VYAOj8D8L55Oz7wPx5aA4KScZWgBjQbd3xvkAhpkm4
 
-sprite $RetailApiMd [16x16/16z] XSS7bWCX40FH4Wn2zp_nFj8wsv_GNVoKT0Q5BGAgejtLLAoeNKmPJHIMraRRbIr2b73q38KZF73tmbQsdStZhpvjQ_xNRXM6yJ_x0m
+sprite $RetailApiMd [16x16/16z] XOpL0S0m20MZ3_PVE8hKUn-74tvX9accBCbU9umAaKCjiZ3hOTt8TTP0zWzYWNWI34cLHDW48GfILandQ8sL0SKUYEzq
 
-sprite $RetailApiLg [20x20/16z] ZSo50SDG20JGms__XMj0tLxo3SF_L0LZBrP5jA1WbUCaynpJBINKEYR4e6sCZc4b7NC2Ynq3zHPpsbaKRenDSPE15yIhud9yOJClybQMcJBdcph3_uu
+sprite $RetailApiLg [20x20/16z] ZSo50OH030J0ZM__3R-Tv1q6pc8uJrKmhOjL4KCGMpbkCkynnQ24seW9CT5MZ8x9IaPCYOqZ1Yesfzn5eGa7e6NW0_6fk3Z-i3aliiioiy-FEiDvLm
 
-!procedure RetailApi($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/RetailApi', $name, $tech)
+!procedure RetailApi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/RetailApi', $name, $tech, $desc)
 !endprocedure
 
 !procedure RetailApiCard($id, $funcName="", $content="")

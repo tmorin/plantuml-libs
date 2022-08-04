@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/RecommendationsAi')
 
 ' renders the element
-RecommendationsAi('RecommendationsAi', 'Recommendations Ai', 'an optional tech label')
+RecommendationsAi('RecommendationsAi', 'Recommendations Ai', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/RecommendationsAi')
 
 ' renders the element
-RecommendationsAi('RecommendationsAi', 'Recommendations Ai', 'an optional tech label')
+RecommendationsAi('RecommendationsAi', 'Recommendations Ai', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

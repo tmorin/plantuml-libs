@@ -2,14 +2,14 @@
 
 sprite $CloudDomainsXs [10x10/16z] Oo0CcDaOs80Ka61c0RAX0imW8KOWcvaPn61XO0PAOpS
 
-sprite $CloudDomainsSm [12x12/16z] ZKhL0G1H21BXs7_ZL_fvPLBnlqov8Hq-U5rUQHoiNEp8m0AWAfi4UMH1YZNFDG4
+sprite $CloudDomainsSm [12x12/16z] Oo0Ui36ni46Pp6mCR20sY6HcPMI3oBCm0Nb8IfYPOGn689Cu
 
-sprite $CloudDomainsMd [16x16/16z] hKnL5i0m36g0SlyZB_BM_qarwFfhsKlU1pBdxUWv8X87xDiAoabXPDSiq2STEPFJXfhxJXkrSqvQuvK2KdvOBzO5
+sprite $CloudDomainsMd [16x16/16z] hOh50K0n34A9yFRV-BkUsoYcMGLg_D32Clfm9JpHR5JaGOCTb-eVh_ABZxreUyTPVML30xK2
 
-sprite $CloudDomainsLg [20x20/16z] lOl50GHH24F3Vo7zbxpZUjx1YUZRI5fEhX29rIzC8-5mHKKiJbdcrvECzEaQcbyuP5KrlmZwWD2CJOqtR7u7e1CgRCrGdPZjairyw2_n0m
+sprite $CloudDomainsLg [20x20/16z] lOl90G9048F8Cfl-E_Q-VMkU0VZlsisqhvTjs5yVgrsFgiJEvNzyWtFvzqk5tMXvcJReNKkyVAXvAYmLdRlc32fvVX1-koC
 
-!procedure CloudDomains($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudDomains', $name, $tech)
+!procedure CloudDomains($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudDomains', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudDomainsCard($id, $funcName="", $content="")

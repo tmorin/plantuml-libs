@@ -2,14 +2,14 @@
 
 sprite $StreamSuiteXs [10x10/16z] Oo04s860XGF8OEO00WP6c3W7TWQ2XG
 
-sprite $StreamSuiteSm [12x12/16z] Oo0IiB810ICxGe2P5KHoW0031rmKmcHc0GDck2WxEu89X4WST
+sprite $StreamSuiteSm [12x12/16z] ZSQr0G0n302nCtl_XHy3RLI9Gv4FYaM3HxzefhzgBpUcgbtsLxSR
 
-sprite $StreamSuiteMd [16x16/16z] hSUr0S1054EnT_Yz_y9XS1TK9_vG-oBLsBueITvAbAMjBsY1os8HArHmlMEQX1F2DNLk6G4
+sprite $StreamSuiteMd [16x16/16z] hS750S0W04MnX__z5wxWdAe9V_0nmoKoau78R45od4BC28c5o5A13BCOcGI9cH2peCWjEm
 
-sprite $StreamSuiteLg [20x20/16z] jSgt0GDG24F1znDe_uMTK4NZVFNnRmEROMDeKj8s2heZof8DD2ZR5Zfq8SgHZQL1futPE9aqakX4xbVUs8CtNG4
+sprite $StreamSuiteLg [20x20/16z] jSf50G1140InMfpsR_YO6VCEVtDqVEw0F2thH9HPIg8Lr04vMgw74ajPj98w1B6Yo88pOq4IIyBYbOVZhX8
 
-!procedure StreamSuite($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/StreamSuite', $name, $tech)
+!procedure StreamSuite($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/StreamSuite', $name, $tech, $desc)
 !endprocedure
 
 !procedure StreamSuiteCard($id, $funcName="", $content="")

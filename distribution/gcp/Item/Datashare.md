@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Datashare')
 
 ' renders the element
-Datashare('Datashare', 'Datashare', 'an optional tech label')
+Datashare('Datashare', 'Datashare', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Datashare')
 
 ' renders the element
-Datashare('Datashare', 'Datashare', 'an optional tech label')
+Datashare('Datashare', 'Datashare', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

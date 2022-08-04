@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudVpn')
 
 ' renders the element
-CloudVpn('CloudVpn', 'Cloud Vpn', 'an optional tech label')
+CloudVpn('CloudVpn', 'Cloud Vpn', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudVpn')
 
 ' renders the element
-CloudVpn('CloudVpn', 'Cloud Vpn', 'an optional tech label')
+CloudVpn('CloudVpn', 'Cloud Vpn', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

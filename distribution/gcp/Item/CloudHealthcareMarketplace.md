@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudHealthcareMarketplace')
 
 ' renders the element
-CloudHealthcareMarketplace('CloudHealthcareMarketplace', 'Cloud Healthcare Marketplace', 'an optional tech label')
+CloudHealthcareMarketplace('CloudHealthcareMarketplace', 'Cloud Healthcare Marketplace', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudHealthcareMarketplace')
 
 ' renders the element
-CloudHealthcareMarketplace('CloudHealthcareMarketplace', 'Cloud Healthcare Marketplace', 'an optional tech label')
+CloudHealthcareMarketplace('CloudHealthcareMarketplace', 'Cloud Healthcare Marketplace', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

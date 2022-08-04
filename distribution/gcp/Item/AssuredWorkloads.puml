@@ -2,14 +2,14 @@
 
 sprite $AssuredWorkloadsXs [10x10/16z] LOl50S0W00CZBR3_mhZUAue7Bc679HX2rv58Ov3mA8MbJ48LZ_kY
 
-sprite $AssuredWorkloadsSm [12x12/16z] ROY70O1020F37qJtNzZUVKZNz-AEu7C4sUs8O3lNCcZSlfz5N1bAYWHSX7LUe_Iy6G
+sprite $AssuredWorkloadsSm [12x12/16z] VSO50e0024FHuOVf_IziTprYqm_mKMKt6WKZswbHgswUzowE3YL50Yx2sb4w6m
 
-sprite $AssuredWorkloadsMd [16x16/16z] ZSs54G1124FHa43c-c_utFsllZ7mAvexXMJddeJjcAYXT9ysUwWmrg3SNpdpqUJUuzJQcHBTKocfNC7mOCv1Ch5FC_Tr
+sprite $AssuredWorkloadsMd [16x16/16z] ZSu54a9130JHsKpInVql37ntwTLN6hqgsD26dDNi433INSc_M4nNgU-ZudzbwTwnjMngw-1Ff-sY50rsKsgJGuT-
 
-sprite $AssuredWorkloadsLg [20x20/16z] fOw35K1H34E3f_qN_hPnZzi8Bw5s9pd5pSbsIcajig7c6AQJMnXIotJgw4vJg3AOmM8KOY0MeFozTTErkNNrtDtOtUmmx9F8VhPwfkdOq7KyfWO
+sprite $AssuredWorkloadsLg [20x20/16z] fT234S1004JHnQd_XcCRVp9wEUDbr8xa53TaEwMq7cG33ORb89iXjIt9xcXQL1dCG67x3R4qyDiW9wsjFpftnixiC9nF8ljZgwzrs8tjduTuN0q
 
-!procedure AssuredWorkloads($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/AssuredWorkloads', $name, $tech)
+!procedure AssuredWorkloads($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/AssuredWorkloads', $name, $tech, $desc)
 !endprocedure
 
 !procedure AssuredWorkloadsCard($id, $funcName="", $content="")

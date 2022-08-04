@@ -2,14 +2,14 @@
 
 sprite $CloudExternalIpAddressesXs [10x10/16z] Oq0371mSR0niG01aCG1PK3482oJ1364n02diB2Om0B9OeO01
 
-sprite $CloudExternalIpAddressesSm [12x12/16z] ZSR50G0n30In2NZj_Xi-PenUugvAIXGRu94zOphSWE4HwzE0vQ3SU2s6fnNq
+sprite $CloudExternalIpAddressesSm [12x12/16z] ZSRL0O1G54EnW_Ls_uLnXoVv2b-z9EY66U4cOD3j0xEmlVrmNBNNZeS9
 
-sprite $CloudExternalIpAddressesMd [16x16/16z] Oy096440YSi10a2Q3Gn0V0OcC9yL141y9XOmdmcX7WSV0L3uR2neV5Qo-Amm0EKZ02kcBm4
+sprite $CloudExternalIpAddressesMd [16x16/16z] Oo0QS800a6O30n2VWH7CPmK149-H6SndHAZ7pKS019-D1OtFIXQV5GQWV0HWnVGL
 
-sprite $CloudExternalIpAddressesLg [20x20/16z] lSp50S0m40D1cTr_mu4DCsT-1v9ko8YIN8jT2EnYYvtKxWBOMTlkfdt7kmZNxYROJOOVTnReTbFimfJMbG
+sprite $CloudExternalIpAddressesLg [20x20/16z] lSp50S0m40D1cTr_mu4DCsT-1v9ko8YIJ8jT2EnYYvtKxWBO6TFkfdt7kmZNxYROJOOVTnReTbFimfJMbG
 
-!procedure CloudExternalIpAddresses($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudExternalIpAddresses', $name, $tech)
+!procedure CloudExternalIpAddresses($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudExternalIpAddresses', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudExternalIpAddressesCard($id, $funcName="", $content="")

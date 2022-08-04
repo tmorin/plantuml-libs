@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/VmwareEngine')
 
 ' renders the element
-VmwareEngine('VmwareEngine', 'Vmware Engine', 'an optional tech label')
+VmwareEngine('VmwareEngine', 'Vmware Engine', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/VmwareEngine')
 
 ' renders the element
-VmwareEngine('VmwareEngine', 'Vmware Engine', 'an optional tech label')
+VmwareEngine('VmwareEngine', 'Vmware Engine', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

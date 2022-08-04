@@ -2,14 +2,14 @@
 
 sprite $EarlyAccessCenterXs [10x10/16z] Oy01sA4q1uXWX30vEDWX3110PR53090DruS
 
-sprite $EarlyAccessCenterSm [12x12/16z] VSR50SC0302nCtl_XTim9tg9BtLECXAo4sNI8oRI8plSdP6Dq0BpHRCfJlu
+sprite $EarlyAccessCenterSm [12x12/16z] Oy07s54PR50U6mSR0oE4oG4234XiP74c5Z2R4GJ0PZ2pG047cXq8
 
-sprite $EarlyAccessCenterMd [16x16/16z] ZSp50GD130J1Nd7-2Tl7JFKI3j_OeIyMQeTPWBiYkbnK9rdK89Ri6Z7nGwzpdpgShqeFlRCL-vR6sHy
+sprite $EarlyAccessCenterMd [16x16/16z] ZSZ50GD1581Gvdl_3IVhRky6V6E7BXPgXnTWta2OI7MIHGrYJglHt7vecJkrpxQgVjYgdArmNlq1
 
-sprite $EarlyAccessCenterLg [20x20/16z] hOv50W0X30EHIlx_uSKTRZkNUXFp0y9dJsajRSkyzWmjWvs_8R9-L6JK33mgVlJGu4jFhhrXHYhU45mMNK0sImjelWTyjeoShJS1
+sprite $EarlyAccessCenterLg [20x20/16z] hSp50GG13090ulJVyEcwsxoYu04Pc2aVjuA65Xf6D2Ze9J_6YSMVGi_Oa7x6LYpCSd5MQ5Ws1FRFh14I7pxocuq5CPCuuGq
 
-!procedure EarlyAccessCenter($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/EarlyAccessCenter', $name, $tech)
+!procedure EarlyAccessCenter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/EarlyAccessCenter', $name, $tech, $desc)
 !endprocedure
 
 !procedure EarlyAccessCenterCard($id, $funcName="", $content="")

@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/ApigeeApiPlatform')
 
 ' renders the element
-ApigeeApiPlatform('ApigeeApiPlatform', 'Apigee Api Platform', 'an optional tech label')
+ApigeeApiPlatform('ApigeeApiPlatform', 'Apigee Api Platform', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/ApigeeApiPlatform')
 
 ' renders the element
-ApigeeApiPlatform('ApigeeApiPlatform', 'Apigee Api Platform', 'an optional tech label')
+ApigeeApiPlatform('ApigeeApiPlatform', 'Apigee Api Platform', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/OsInventoryManagement')
 
 ' renders the element
-OsInventoryManagement('OsInventoryManagement', 'Os Inventory Management', 'an optional tech label')
+OsInventoryManagement('OsInventoryManagement', 'Os Inventory Management', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/OsInventoryManagement')
 
 ' renders the element
-OsInventoryManagement('OsInventoryManagement', 'Os Inventory Management', 'an optional tech label')
+OsInventoryManagement('OsInventoryManagement', 'Os Inventory Management', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

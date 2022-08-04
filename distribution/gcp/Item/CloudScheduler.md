@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudScheduler')
 
 ' renders the element
-CloudScheduler('CloudScheduler', 'Cloud Scheduler', 'an optional tech label')
+CloudScheduler('CloudScheduler', 'Cloud Scheduler', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudScheduler')
 
 ' renders the element
-CloudScheduler('CloudScheduler', 'Cloud Scheduler', 'an optional tech label')
+CloudScheduler('CloudScheduler', 'Cloud Scheduler', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

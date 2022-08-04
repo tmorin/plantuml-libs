@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudSecurityScanner')
 
 ' renders the element
-CloudSecurityScanner('CloudSecurityScanner', 'Cloud Security Scanner', 'an optional tech label')
+CloudSecurityScanner('CloudSecurityScanner', 'Cloud Security Scanner', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudSecurityScanner')
 
 ' renders the element
-CloudSecurityScanner('CloudSecurityScanner', 'Cloud Security Scanner', 'an optional tech label')
+CloudSecurityScanner('CloudSecurityScanner', 'Cloud Security Scanner', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

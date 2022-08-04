@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/MediaTranslationApi')
 
 ' renders the element
-MediaTranslationApi('MediaTranslationApi', 'Media Translation Api', 'an optional tech label')
+MediaTranslationApi('MediaTranslationApi', 'Media Translation Api', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/MediaTranslationApi')
 
 ' renders the element
-MediaTranslationApi('MediaTranslationApi', 'Media Translation Api', 'an optional tech label')
+MediaTranslationApi('MediaTranslationApi', 'Media Translation Api', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

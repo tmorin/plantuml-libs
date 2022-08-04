@@ -2,14 +2,14 @@
 
 sprite $BatchXs [10x10/16z] Oo08E1WuE40q8pkG0MAo0264nS36mCW8P42LiU0m0G
 
-sprite $BatchSm [12x12/16z] ZSRL0S1G20F0UmRilt3rkt98ugVinxZCrbK5XAOEYzQcMITq8UxA7BcYt9ftEm
+sprite $BatchSm [12x12/16z] ZSW50G0m2031n-bVU5g0ms6ejAJ-wgUwaoCH-eZ_zxu08SY_Wab5DZCR
 
-sprite $BatchMd [16x16/16z] dOsr0GH154BVT_fl-7Gz73AS5TY3Z_UWEYXjI8gTfZFwmFyqDYhPXukySOOof7EW6VZGtEyxHvS_Z6My0G
+sprite $BatchMd [16x16/16z] hOtL0S102CLo1jb_uNgPuFA5F647sIDnr4g0slzrGggsTntzNT-3zIx10hK2WWIr2cAckDZ02G
 
-sprite $BatchLg [20x20/16z] jOwr5G1H20Jdezj_nUSUtpmYO8K_6TnGqqtAhbKpDD3CE5T66Qw5VLM3TaowbXdajL8lkuXbkEsMfI-_Tb-n1DHWt3EMfRUDcbVZsLc4-3BuXGa
+sprite $BatchLg [20x20/16z] lSwt5OG040FHMQ_-6pv_i0t0F4K_4bTch3JCK5eq8D2hauo6qCAsjxfqOZaLe5y3aFdUjZS6vTWcQAVjXy0FiJ7h7wtF8iLjFG4
 
-!procedure Batch($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Batch', $name, $tech)
+!procedure Batch($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Batch', $name, $tech, $desc)
 !endprocedure
 
 !procedure BatchCard($id, $funcName="", $content="")

@@ -2,17 +2,17 @@
 
 sprite $DatashareXs [10x10/16z] LSj50G1130F0MMpz6px6VCA-Y3H1vgwIUgf6E1HcJcP7Erj4yFjsC0oi
 
-sprite $DatashareSm [12x12/16z] NSp5OGGm30J0iItgl-7acFJHif_R9O6U6MKTzjnnBjon7MohHnMtpA74ktjW7v5A5skcRpXnxZi0ouP_
+sprite $DatashareSm [12x12/16z] NOp70K0X24EV2Y7xB_nxbGlfJDT5dgXienFxnFd1BQuKqfKPxFhRxOVUw8ae7PawS0BZt9bk1G
 
-sprite $DatashareMd [16x16/16z] RSs54S0m30D0ixN_n0teofmtok-bEXzUrW0aYWo0zjPXd4x1S9skyhFXx9yrQZ4C6aYLOOld_EPwvVxHDWsMbOoR-okdstDOSUupJcZwvpe
+sprite $DatashareMd [16x16/16z] ZSst0GD120H0FDj_nU8vdmcYmT8VaG38Oig0QStFs7P2EROZT2_i_PuHAsCQSAOoSLlNVZQhklzBprkNovNpV_Zd5E-1zr-jvUCdVW
 
 sprite $DatashareLg [20x20/16z] {
-bSx50KC120FGuEm_SOlKzUVuK1m9HMP0NAx2MNcql3FFAF9xCoZDwCrIiW_edM5MHesFAJOHLMC-csKjsnlEGCsgZj7jXWScGgy_1uFLrpIiBMTYVswpcdJJ
-jf2OuVjzYedUx3vi1ZR6nvm
+bSu54WD03090el3_3rTorwaRunl5Fp5AX7LSHTAZwSPQF5FVMY4DWD-QGZERDmORueoF9NP8myIwPd3VQ1-BjATVcfi2pp_JODdRaZMcDR5_7YkTqfLZDAxX
+stsN5_F6Rk9LG3dUvWW
 }
 
-!procedure Datashare($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Datashare', $name, $tech)
+!procedure Datashare($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Datashare', $name, $tech, $desc)
 !endprocedure
 
 !procedure DatashareCard($id, $funcName="", $content="")

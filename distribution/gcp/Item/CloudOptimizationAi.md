@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudOptimizationAi')
 
 ' renders the element
-CloudOptimizationAi('CloudOptimizationAi', 'Cloud Optimization Ai', 'an optional tech label')
+CloudOptimizationAi('CloudOptimizationAi', 'Cloud Optimization Ai', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudOptimizationAi')
 
 ' renders the element
-CloudOptimizationAi('CloudOptimizationAi', 'Cloud Optimization Ai', 'an optional tech label')
+CloudOptimizationAi('CloudOptimizationAi', 'Cloud Optimization Ai', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

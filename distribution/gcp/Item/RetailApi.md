@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/RetailApi')
 
 ' renders the element
-RetailApi('RetailApi', 'Retail Api', 'an optional tech label')
+RetailApi('RetailApi', 'Retail Api', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/RetailApi')
 
 ' renders the element
-RetailApi('RetailApi', 'Retail Api', 'an optional tech label')
+RetailApi('RetailApi', 'Retail Api', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Dataprep')
 
 ' renders the element
-Dataprep('Dataprep', 'Dataprep', 'an optional tech label')
+Dataprep('Dataprep', 'Dataprep', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Dataprep')
 
 ' renders the element
-Dataprep('Dataprep', 'Dataprep', 'an optional tech label')
+Dataprep('Dataprep', 'Dataprep', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

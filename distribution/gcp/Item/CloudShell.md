@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudShell')
 
 ' renders the element
-CloudShell('CloudShell', 'Cloud Shell', 'an optional tech label')
+CloudShell('CloudShell', 'Cloud Shell', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudShell')
 
 ' renders the element
-CloudShell('CloudShell', 'Cloud Shell', 'an optional tech label')
+CloudShell('CloudShell', 'Cloud Shell', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

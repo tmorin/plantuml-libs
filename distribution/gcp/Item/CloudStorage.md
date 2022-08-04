@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudStorage')
 
 ' renders the element
-CloudStorage('CloudStorage', 'Cloud Storage', 'an optional tech label')
+CloudStorage('CloudStorage', 'Cloud Storage', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudStorage')
 
 ' renders the element
-CloudStorage('CloudStorage', 'Cloud Storage', 'an optional tech label')
+CloudStorage('CloudStorage', 'Cloud Storage', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

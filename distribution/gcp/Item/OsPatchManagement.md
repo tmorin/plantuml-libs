@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/OsPatchManagement')
 
 ' renders the element
-OsPatchManagement('OsPatchManagement', 'Os Patch Management', 'an optional tech label')
+OsPatchManagement('OsPatchManagement', 'Os Patch Management', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/OsPatchManagement')
 
 ' renders the element
-OsPatchManagement('OsPatchManagement', 'Os Patch Management', 'an optional tech label')
+OsPatchManagement('OsPatchManagement', 'Os Patch Management', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

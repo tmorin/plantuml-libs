@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/AdvancedAgentModeling')
 
 ' renders the element
-AdvancedAgentModeling('AdvancedAgentModeling', 'Advanced Agent Modeling', 'an optional tech label')
+AdvancedAgentModeling('AdvancedAgentModeling', 'Advanced Agent Modeling', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/AdvancedAgentModeling')
 
 ' renders the element
-AdvancedAgentModeling('AdvancedAgentModeling', 'Advanced Agent Modeling', 'an optional tech label')
+AdvancedAgentModeling('AdvancedAgentModeling', 'Advanced Agent Modeling', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

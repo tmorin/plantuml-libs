@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudJobsApi')
 
 ' renders the element
-CloudJobsApi('CloudJobsApi', 'Cloud Jobs Api', 'an optional tech label')
+CloudJobsApi('CloudJobsApi', 'Cloud Jobs Api', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudJobsApi')
 
 ' renders the element
-CloudJobsApi('CloudJobsApi', 'Cloud Jobs Api', 'an optional tech label')
+CloudJobsApi('CloudJobsApi', 'Cloud Jobs Api', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

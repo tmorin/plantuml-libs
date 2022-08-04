@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudSql')
 
 ' renders the element
-CloudSql('CloudSql', 'Cloud Sql', 'an optional tech label')
+CloudSql('CloudSql', 'Cloud Sql', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudSql')
 
 ' renders the element
-CloudSql('CloudSql', 'Cloud Sql', 'an optional tech label')
+CloudSql('CloudSql', 'Cloud Sql', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/ReleaseNotes')
 
 ' renders the element
-ReleaseNotes('ReleaseNotes', 'Release Notes', 'an optional tech label')
+ReleaseNotes('ReleaseNotes', 'Release Notes', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/ReleaseNotes')
 
 ' renders the element
-ReleaseNotes('ReleaseNotes', 'Release Notes', 'an optional tech label')
+ReleaseNotes('ReleaseNotes', 'Release Notes', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

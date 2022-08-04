@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/AiPlatform')
 
 ' renders the element
-AiPlatform('AiPlatform', 'Ai Platform', 'an optional tech label')
+AiPlatform('AiPlatform', 'Ai Platform', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/AiPlatform')
 
 ' renders the element
-AiPlatform('AiPlatform', 'Ai Platform', 'an optional tech label')
+AiPlatform('AiPlatform', 'Ai Platform', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

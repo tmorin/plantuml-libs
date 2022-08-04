@@ -2,14 +2,14 @@
 
 sprite $CloudStorageXs [10x10/16z] Oy06s9WXW0t8Oc1WPcO0ik1YEDGnCU5K1m
 
-sprite $CloudStorageSm [12x12/16z] TSh50G0120F1i5Z_5P-xp0T9z2UTLQ4Advdtl0FkMdTV5Reu_cl797Tnzfd_piPrDG8
+sprite $CloudStorageSm [12x12/16z] TSgr0G1130F1DVTVySDXv4aC4fqmdHBIxITM__xzp9YxJGdN_S-EW1bw-_h_6oy
 
-sprite $CloudStorageMd [16x16/16z] Oo0LCB8nmm4B1pAVaPc57Snd12fZ1f9CB6oewZ7vr3IV2M8-AnCSCBCIz0u
+sprite $CloudStorageMd [16x16/16z] Oo0Pi3730Gi7Cf-HcOKTp6S4ain0aec53LKz9f-QvZD1p6DbWWDcLeA-0G
 
-sprite $CloudStorageLg [20x20/16z] fSwr0G1H20FGuEo_yBb-gNWb6fIeofVPLdFxrTB_DQAtXjrM0xYVsnhnhnryhvdfbnb6-YmnpyUx8ykurcUPvgjO0G
+sprite $CloudStorageLg [20x20/16z] fOv50W1H24ADRzp_mjFDkFAjJ81QC6Fhfa_ItpFcUqOhoun8y6vPXAEUU-6BO9QeyydAbkL_XbdAV1rc
 
-!procedure CloudStorage($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudStorage', $name, $tech)
+!procedure CloudStorage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudStorage', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudStorageCard($id, $funcName="", $content="")

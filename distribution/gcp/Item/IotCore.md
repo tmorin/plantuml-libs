@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/IotCore')
 
 ' renders the element
-IotCore('IotCore', 'Iot Core', 'an optional tech label')
+IotCore('IotCore', 'Iot Core', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/IotCore')
 
 ' renders the element
-IotCore('IotCore', 'Iot Core', 'an optional tech label')
+IotCore('IotCore', 'Iot Core', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudNetwork')
 
 ' renders the element
-CloudNetwork('CloudNetwork', 'Cloud Network', 'an optional tech label')
+CloudNetwork('CloudNetwork', 'Cloud Network', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudNetwork')
 
 ' renders the element
-CloudNetwork('CloudNetwork', 'Cloud Network', 'an optional tech label')
+CloudNetwork('CloudNetwork', 'Cloud Network', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

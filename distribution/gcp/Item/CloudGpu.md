@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudGpu')
 
 ' renders the element
-CloudGpu('CloudGpu', 'Cloud Gpu', 'an optional tech label')
+CloudGpu('CloudGpu', 'Cloud Gpu', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudGpu')
 
 ' renders the element
-CloudGpu('CloudGpu', 'Cloud Gpu', 'an optional tech label')
+CloudGpu('CloudGpu', 'Cloud Gpu', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

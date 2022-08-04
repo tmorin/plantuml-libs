@@ -2,14 +2,14 @@
 
 sprite $OnboardingXs [10x10/16z] LOc54OC05CNIGYx7_WFZ-kKft-baBNVMgX-_Kqt0Q46W_6XNUyi-Dl2U1G
 
-sprite $OnboardingSm [12x12/16z] PSR50S0m0CGm1oxUV-8oLo_nKwxrQ3sMk02IumhdgopM1uGQ61Jt9qMtKn8T79fypG
+sprite $OnboardingSm [12x12/16z] POhN0S105898uRd_nEdrpYyLw38yRJOvswXRFvOU_Lnt7mzlxyBUXMB8sPNTVfpYJcYp0W
 
-sprite $OnboardingMd [16x16/16z] ZKx50S0W43iBwVuB5xSVVXQHfsLWx4m1aFIH1dfEsiXcJghObN_Nl2OsXfetTCiHvJ94ENAW4YUsVE23B7caxUTqw23aQMK
+sprite $OnboardingMd [16x16/16z] ZKx50S1020kIflilN3tzmOyuQaVb-f6Il7t9_vUiVVsN0D_-SzCZjEGP_fy9K06e_QG3E7vzy-VdjrZyiUqbIdS3
 
-sprite $OnboardingLg [20x20/16z] bSt95GD120DHOIZhEV-0lMlMqzJnTmEwslWaOBEL6tniemqnkxy4MxChj34ZrTvut9SJv8-_9itVf1Yj6hutMGmabJJsng3KzchRkqeLwpz48vjwTBKN
+sprite $OnboardingLg [20x20/16z] bSy52WGn50JHM6-pzx_mKCG_ciB2YwVNcgCKoTP54eQUWb4TCcoKeM0Sa6_J_pSknSOQOpnk6EDkocW_VPbu5nFsOMYnWmd1ujzo-37_2kMMNli
 
-!procedure Onboarding($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Onboarding', $name, $tech)
+!procedure Onboarding($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Onboarding', $name, $tech, $desc)
 !endprocedure
 
 !procedure OnboardingCard($id, $funcName="", $content="")

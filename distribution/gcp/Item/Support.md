@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Support')
 
 ' renders the element
-Support('Support', 'Support', 'an optional tech label')
+Support('Support', 'Support', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Support')
 
 ' renders the element
-Support('Support', 'Support', 'an optional tech label')
+Support('Support', 'Support', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudInterconnect')
 
 ' renders the element
-CloudInterconnect('CloudInterconnect', 'Cloud Interconnect', 'an optional tech label')
+CloudInterconnect('CloudInterconnect', 'Cloud Interconnect', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudInterconnect')
 
 ' renders the element
-CloudInterconnect('CloudInterconnect', 'Cloud Interconnect', 'an optional tech label')
+CloudInterconnect('CloudInterconnect', 'Cloud Interconnect', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

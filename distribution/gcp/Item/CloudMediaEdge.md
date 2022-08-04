@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudMediaEdge')
 
 ' renders the element
-CloudMediaEdge('CloudMediaEdge', 'Cloud Media Edge', 'an optional tech label')
+CloudMediaEdge('CloudMediaEdge', 'Cloud Media Edge', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/CloudMediaEdge')
 
 ' renders the element
-CloudMediaEdge('CloudMediaEdge', 'Cloud Media Edge', 'an optional tech label')
+CloudMediaEdge('CloudMediaEdge', 'Cloud Media Edge', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

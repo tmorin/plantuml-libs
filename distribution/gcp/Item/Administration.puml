@@ -2,14 +2,14 @@
 
 sprite $AdministrationXs [10x10/16z] Oq00LbPsTYYB1SvYWhCOsDWvMO40f0x8OWDAWCKOs1YGM0XP10i
 
-sprite $AdministrationSm [12x12/16z] Oq06hAoixEpOs0mi32ZYxAmW017dO65XPMM1Y7E29S7YG3OJ2nixKU88DXi
+sprite $AdministrationSm [12x12/16z] ZKY30S1038on_y2r-qhEy3nLTIzb47ZjGkljUuYeohxdAhxloO3iG_kTRGO
 
-sprite $AdministrationMd [16x16/16z] XKm55a0X23COFEv_u1zsEvEL6K40HAJCkCw6oBGpWRcT7S6B8i1clqg0pNqAS9Yp7fumKz334sOFnZU7P_IFVVDiEvWN
+sprite $AdministrationMd [16x16/16z] XOo55KH120C3bv2t_HTytzrcTJ2SeIJRg-lJGM3lLDKndt3Jo5hVFBBEw_Cr-9hldy3e7FFZCthebxs7cEVwyxohd-a
 
-sprite $AdministrationLg [20x20/16z] hOo53S1054B9tGVI_GUkkzkBejWZHGrhCD5grrnxiUCXX9MNKpZs_mhsZDkrbqEiFVUijkgzQGieiEVzlNtWxL41
+sprite $AdministrationLg [20x20/16z] hOo35G1150EJnKV_1Pzjx3m7WqCui8noWpRSPscV4KcmoM98cevzdWUcxoOBJC8cqu7DLuPi_W9276Mblo-o8se
 
-!procedure Administration($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Administration', $name, $tech)
+!procedure Administration($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Administration', $name, $tech, $desc)
 !endprocedure
 
 !procedure AdministrationCard($id, $funcName="", $content="")

@@ -2,14 +2,14 @@
 
 sprite $CloudEkmXs [10x10/16z] Oq003YXW0xDOOIm680Io84eGIc6w40muYndEOW3h0m
 
-sprite $CloudEkmSm [12x12/16z] JSgr0G113CJ0ENR_3J-35Ir8PioNOiLBlJBUN5VqSMOiMlTmQIyfZfIbd7K5x
+sprite $CloudEkmSm [12x12/16z] JSg50S0m24JHtqRtNpWEt8kWg58Dj6vk3bY-NYehR0tIpsOBHj8YEPBRkfW
 
-sprite $CloudEkmMd [16x16/16z] VSlL0K0n34BHMoFil_1pbvwl2F2IhgRLLySUjxq2ElSWtDXsIJLBcWUno4kEpTRDN1awkzt_9ptsikql8m
+sprite $CloudEkmMd [16x16/16z] XOc55G1H3CBoZRB_mkUkgUR1BpwoUPmy0zez25SMbrIJf774HF8y6xATE6BuSFixJxhanJpJ0m
 
-sprite $CloudEkmLg [20x20/16z] ZSo50O0m30J0Z__-2-EkFQZ5q8mN-HshkCOA0pl7niFXvrYDcywn1QUjS5G5AECKqsNgMT9nvSI5QDnYla_xx8N5FVROQualFG
+sprite $CloudEkmLg [20x20/16z] ZOw50G0X4CE2T_-5tnKFUbwcKKRi-rB8VGd0_7qWUVpVbyx0wJlHSIM-f0H6hgAI32z3Zb7fSfLAYG9R-bmeVTLQ4-cn0W
 
-!procedure CloudEkm($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudEkm', $name, $tech)
+!procedure CloudEkm($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudEkm', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudEkmCard($id, $funcName="", $content="")

@@ -2,17 +2,17 @@
 
 sprite $ConnectorsXs [10x10/16z] LKk30G102CpT_Wk_ZJhITnGOMxID0NLSTC36rgo68e0s5seITOZO5KpGJlPH0G
 
-sprite $ConnectorsSm [12x12/16z] NKo54SG0388e-o_ytt8vQrm0V2qcRyhCQ9N7y6NhdPzuYm0cUdONImGn8mb3C6wMyVNCyCnq5q_KwBDm_GC
+sprite $ConnectorsSm [12x12/16z] NOe50GC130ClPV-6jsSgXlYMbH_8NSg93HfhjQru7OS1YQpkfi6WQcOea1rusC8BPiDoE21e1SMx_W
 
-sprite $ConnectorsMd [16x16/16z] ROw5WGGm3CEKXhp_mWy-1XN3vZiHyE1aIaemaNc0rc9i0UpYP9yCGiVXcyqiHCBCI1fAh_OHSBURjfsqxM27Mu5Kf08WFGfIzH0ai6d2Tl25Nm
+sprite $ConnectorsMd [16x16/16z] ZSw50GGm20F0K2pxB_mI-gxrgm7-ASkTf5_ehf6zkVP-zrnMFz-X0LfiLu-hYcJ1-Cs99HjI1hfEDbqWNTSd7IsDSKleP76A_BOS0G
 
 sprite $ConnectorsLg [20x20/16z] {
-bSv50WGm34BH7qXRxd_XSVTvooZyHtQIuiex6ZDPnNM80oUNAN5IAtMgGRcnGPa0CjSQCvSnjQkxW0YmOEvanv31Ssq-r0HfmBxMG67F1SVQWEIQRr-Rq35x
-PGiwG6TnOXzgjoNgDEVcZXUVR04
+bSe55iH020JHWYPCt__46r-tIiR-W_zAoNPmBIJbrFQ0wn0ioJwdagEnemHeFzq0ARXQ-nYBB4LL0Cx54dhESm9FBwmVBC6rcAu6QPOKiDa4tat0OWrbSSKo
+opRWYel5bI1tA-xIu5CN
 }
 
-!procedure Connectors($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Connectors', $name, $tech)
+!procedure Connectors($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Connectors', $name, $tech, $desc)
 !endprocedure
 
 !procedure ConnectorsCard($id, $funcName="", $content="")

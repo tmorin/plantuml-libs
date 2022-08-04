@@ -2,14 +2,14 @@
 
 sprite $CloudVisionApiXs [10x10/16z] TSQ53GDH00KWlhrq_uLhvqOCJzgMgQqfMY7XHGf22P0HipZu
 
-sprite $CloudVisionApiSm [12x12/16z] VOo54S1G348VuJxN_HUkkyK5uDTqZBRNIIxMfIn2UHfZqa42A8rrNFguhzRYf_vX0m
+sprite $CloudVisionApiSm [12x12/16z] VOU53S1030ClP7N_XKjFmfXD2pip8lPqvh4mX7_75UW22K35d7z_VwBaD7W
 
-sprite $CloudVisionApiMd [16x16/16z] dOl50G0n20HnwB_XkBvE9ieA_8IlYPWPpv60onaqRmjSkXPKItKqAq-4rvzrGO7QABsWLIUpqU__ecsmTYuOtf41
+sprite $CloudVisionApiMd [16x16/16z] dOi53i1G348fPAptl_3qQspo8Ys6dsXI8Oq6HKXHL7abLWau0xmtje3C5R1z6mlYaYe3-x831TgqgwgR2U4TEm
 
-sprite $CloudVisionApiLg [20x20/16z] hOxL5G0X30HZx4l_5L_i_9V5Xq5eI_YFHB-GDI9l5gJQov9s-I5nlN73liaTyT1S2a0fcVUYJ0DMhDo81uqQVI6QpBu2Heyi8EhtqwL-8g0TEG
+sprite $CloudVisionApiLg [20x20/16z] jOvL6e1020O9TpxkVs43i5zrDkbV_i9SdovViPShpubcpkcilww1_YGLZa34kYbGlYWZCmt6QeMbIvh-wiNL9GwJN1YmxgVeh7k2VC42
 
-!procedure CloudVisionApi($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudVisionApi', $name, $tech)
+!procedure CloudVisionApi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudVisionApi', $name, $tech, $desc)
 !endprocedure
 
 !procedure CloudVisionApiCard($id, $funcName="", $content="")

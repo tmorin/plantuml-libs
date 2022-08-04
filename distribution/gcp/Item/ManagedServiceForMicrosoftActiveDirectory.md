@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/ManagedServiceForMicrosoftActiveDirectory')
 
 ' renders the element
-ManagedServiceForMicrosoftActiveDirectory('ManagedServiceForMicrosoftActiveDirectory', 'Managed Service For Microsoft Active Directory', 'an optional tech label')
+ManagedServiceForMicrosoftActiveDirectory('ManagedServiceForMicrosoftActiveDirectory', 'Managed Service For Microsoft Active Directory', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/ManagedServiceForMicrosoftActiveDirectory')
 
 ' renders the element
-ManagedServiceForMicrosoftActiveDirectory('ManagedServiceForMicrosoftActiveDirectory', 'Managed Service For Microsoft Active Directory', 'an optional tech label')
+ManagedServiceForMicrosoftActiveDirectory('ManagedServiceForMicrosoftActiveDirectory', 'Managed Service For Microsoft Active Directory', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Datastream')
 
 ' renders the element
-Datastream('Datastream', 'Datastream', 'an optional tech label')
+Datastream('Datastream', 'Datastream', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Datastream')
 
 ' renders the element
-Datastream('Datastream', 'Datastream', 'an optional tech label')
+Datastream('Datastream', 'Datastream', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

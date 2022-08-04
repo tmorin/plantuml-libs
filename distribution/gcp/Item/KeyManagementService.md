@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/KeyManagementService')
 
 ' renders the element
-KeyManagementService('KeyManagementService', 'Key Management Service', 'an optional tech label')
+KeyManagementService('KeyManagementService', 'Key Management Service', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/KeyManagementService')
 
 ' renders the element
-KeyManagementService('KeyManagementService', 'Key Management Service', 'an optional tech label')
+KeyManagementService('KeyManagementService', 'Key Management Service', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

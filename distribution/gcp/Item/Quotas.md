@@ -36,7 +36,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Quotas')
 
 ' renders the element
-Quotas('Quotas', 'Quotas', 'an optional tech label')
+Quotas('Quotas', 'Quotas', 'an optional tech label', 'an optional description')
 @enduml
 ```
 
@@ -57,7 +57,7 @@ include('gcp/bootstrap')
 include('gcp/Item/Quotas')
 
 ' renders the element
-Quotas('Quotas', 'Quotas', 'an optional tech label')
+Quotas('Quotas', 'Quotas', 'an optional tech label', 'an optional description')
 @enduml
 ```
 

@@ -2,17 +2,17 @@
 
 sprite $ArtifactRegistryXs [10x10/16z] RKk50S0m328pnly7rxsD1y4foBe4l3H0yP8fN_oCJxfUtjUVBkKQl2qy
 
-sprite $ArtifactRegistrySm [12x12/16z] RKs54O004EA3G_OVs6xzJi2VnEAgjQQ0fIpDqnOC8CKvUgqTFcfbK5izi2hQQ-rssKkbH0Ae1ISl_3ll1
+sprite $ArtifactRegistrySm [12x12/16z] TOp50G1120DnIFy5d-iAn5v3qqi-olESl3Lf4hQIr2rnR33kdSAUvovNPSEnOL1WwvspGsNdVFZVMm4
 
-sprite $ArtifactRegistryMd [16x16/16z] XKw30G113BiopVu3lyrZ5RJ_vRO4CGOAw9e3qf3J37pkDKv3YGbLd7CEFmvvKHXxFi14a6ikWAWYVSd9ej799I-ob46C-GYpqP7Af6yNVnV_rzK3
+sprite $ArtifactRegistryMd [16x16/16z] XOw50K9134D_DSt-2tEEmsbVgjV_vRACw8O2r-Pk8aSCHb0Jg3qeOLqeJcRx_O6BGZlSqqIGcmKGLQGl9ej69nTN4uH1TEvfCWQR_UrblfVvNzSD
 
 sprite $ArtifactRegistryLg [20x20/16z] {
-bP055W8m34DNpNB_2zCNt66-N-_wP_Zb5QUxeDVfdNCc03kHym_8gyQCHgtD4pgf1skHGjiZz7BYp4ZZ0_CzhEyOqAPmLnO0mXBekB091GRTDg-CoM4iYYc_
-7fRpAeRoasDpXNGbNw_gVUxBg_wz7WS
+dT350KGX30JGA9Ffl-7DT-EqE0z7_Wk-rmazBM5T1e0TpXvWrumE0od5dR1jeKpXQbRgpirm6AbycLRRU1WmLBkCono0Im33JsCAw3GjNiPW6vERLTjeYsub
+lIttTtJUoqJEtllzbzd_pSCF
 }
 
-!procedure ArtifactRegistry($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/ArtifactRegistry', $name, $tech)
+!procedure ArtifactRegistry($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/ArtifactRegistry', $name, $tech, $desc)
 !endprocedure
 
 !procedure ArtifactRegistryCard($id, $funcName="", $content="")

@@ -2,14 +2,14 @@
 
 sprite $SupportXs [10x10/16z] Oq01x9mSg2nc86050GPs8E040R0ic49ZCU1Y0G
 
-sprite $SupportSm [12x12/16z] Oq07x9mSI6nEE9k5amaY1WASOC30niO6OKFqi47LOx8vaDWCMDciR10s
+sprite $SupportSm [12x12/16z] Oq07x9mSI6nEE9iPocG70KumO61ZOuEoES1AeEensHn8R0QiR2Os21i
 
-sprite $SupportMd [16x16/16z] bSc55S0m30DHAJ7kFt2PkJzupxZccTkqhhbfFSnXgVDl52F2HpaYs1kw_s0qD5RlBOV6hoRxtMi1
+sprite $SupportMd [16x16/16z] Oy0Es3avaRbiG3uZ4fy5AezGmCa2Oq401mG0JO80JWY06SyEPPFDPqBZCv34Hm
 
-sprite $SupportLg [20x20/16z] jSg53S1G549HgfJz1wvzr-WxKMx0n4fTg92gu_8rJN_XAAQnUKS0xFGKT9ldsed0fXqmRRK7
+sprite $SupportLg [20x20/16z] jSe52W0n50FHh5Ho_mFNWzJG__1XS1CObnHOuz9u_HGP8CytE07-C52sRUZjXTWq1yEsoW
 
-!procedure Support($id, $name="", $tech="")
-  IconElement($id, 'IconElement', 'gcp/Item/Support', $name, $tech)
+!procedure Support($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Support', $name, $tech, $desc)
 !endprocedure
 
 !procedure SupportCard($id, $funcName="", $content="")
