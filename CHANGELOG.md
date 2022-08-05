@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [9.1.0](https://github.com/tmorin/plantuml-libs/compare/v9.0.0...v9.1.0) (2022-08-05)
+
+
+### Features
+
+* **aws-q1-2022:** add support for descriptions in items ([ec37ff9](https://github.com/tmorin/plantuml-libs/commit/ec37ff9fa27f7bb2c25b58504e2c011d8fa7a8b2))
+* **aws-q2-2022:** add support for descriptions in items ([0545e20](https://github.com/tmorin/plantuml-libs/commit/0545e20abdfa80f625f6481030cd249b220de951))
+* **azure-4:** add support for descriptions in items ([718138e](https://github.com/tmorin/plantuml-libs/commit/718138eaa49044c87bc20a4084df7ae1f75da3e6))
+* **c4model:** add support for descriptions in items ([e80c6e5](https://github.com/tmorin/plantuml-libs/commit/e80c6e5566d4ff39e145d83c2797bc72c89d2d00))
+* **c4nord:** add support for descriptions in items ([b59b74a](https://github.com/tmorin/plantuml-libs/commit/b59b74a87361af10aa184ae6848c00818e15099a))
+* **domainstorytelling:** add support for descriptions in items ([c2f8b87](https://github.com/tmorin/plantuml-libs/commit/c2f8b878239e095502b1357bdaf7347121f4809e))
+* **eip-1:** add support for descriptions in items ([291f7c7](https://github.com/tmorin/plantuml-libs/commit/291f7c7db5c51638d6722906339b19492c3ec316))
+* **eventstorming:** add support for descriptions in items ([96f2962](https://github.com/tmorin/plantuml-libs/commit/96f2962ba63c3c5f77e5312d307af0b509a0ed10))
+* **fontawesome-6:** add support for descriptions in items ([0c69ae6](https://github.com/tmorin/plantuml-libs/commit/0c69ae631f94b3de2ae4f5b10675552295775d39))
+* **gcp:** add support for descriptions in items ([0785ab7](https://github.com/tmorin/plantuml-libs/commit/0785ab7e120e387005d591e6b572f5f284b90b86))
+* **homecloud-2:** add support for descriptions in items ([9c4518a](https://github.com/tmorin/plantuml-libs/commit/9c4518a170c8f542ad6f0e5aa1639263829c910f))
+* **material-4:** add support for descriptions in items ([5f94f7b](https://github.com/tmorin/plantuml-libs/commit/5f94f7b637476a144018f78b5d17d2f0452f06df))
+* **simpleicons-7:** add support for descriptions in items ([ffecdcf](https://github.com/tmorin/plantuml-libs/commit/ffecdcfc623746a92cc3d882c6f929b8e6bbc8d3))
+
 ## [9.0.0](https://github.com/tmorin/plantuml-libs/compare/v8.0.0...v9.0.0) (2022-07-16)
 
 
