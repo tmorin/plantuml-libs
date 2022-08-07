@@ -1,0 +1,30 @@
+@startuml
+
+' loads the library's bootstrap
+!include https://raw.githubusercontent.com/chriseyre2000/plantuml-libs/master/distribution/bootstrap.puml
+
+!include https://raw.githubusercontent.com/chriseyre2000/plantuml-libs/master/distribution/eventstorming/bootstrap.puml
+
+' loads the package bootstrap
+
+' include elements
+include('eventstorming/Element/FacadeCommand')
+include('eventstorming/Element/Command')
+include('eventstorming/Element/Result')
+include('eventstorming/Element/Event')
+include('eventstorming/Element/DomainEvent')
+include('eventstorming/Element/IntegrationEvent')
+include('eventstorming/Element/Query')
+include('eventstorming/Element/ReadModel')
+include('eventstorming/Element/UserInterface')
+include('eventstorming/Element/Aggregate')
+include('eventstorming/Element/Service')
+include('eventstorming/Element/Policy')
+include('eventstorming/Element/Saga')
+include('eventstorming/Element/Process')
+include('eventstorming/Element/Timer')
+include('eventstorming/Element/Person')
+include('eventstorming/Element/System')
+include('eventstorming/Element/Comment')
+
+@enduml
