@@ -2,12 +2,12 @@ name: Library Builder
 
 on:
   workflow_dispatch:
-    inputs: {}
+    inputs: { }
 
 jobs:
   generate-workdir:
-    name: Generate the workdir
-    runs-on: ubuntu-20.04
+    name: Generate the working directory
+    runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v2
       - name: "Setup NodeJs"
@@ -39,9 +39,25 @@ jobs:
             .workdir/source
             .workdir/library.yaml
 
-  generate-distribution:
-    name: Generate the distribution
+  generate-package:
+    name: Generate a package
     runs-on: ubuntu-20.04
+    strategy:
+      matrix:
+        PACKAGE_URN:
+          - aws-q1-2022
+          - aws-q2-2022
+          - azure-4
+          - c4model
+          - c4nord
+          - domainstorytelling
+          - eip-1
+          - eventstorming
+          - fontawesome-6
+          - gcp
+          - homecloud-2
+          - material-4
+          - simpleicons-7
     container: docker://thibaultmorin/plantuml-generator:1
     needs: [ generate-workdir ]
     steps:
@@ -54,40 +70,44 @@ jobs:
           name: workdir
       - name: "Provide the .tmp directory"
         run: tar xf tmp.tar
-      - name: "Delete the distribution content"
-        run: rm -Rf distribution/*
-      - name: "Generate the distribution"
-        run: plantuml-generator library generate library.yaml
-      - name: "Tar distribution directory"
-        run: tar cf distribution.tar distribution
-      - name: "Upload the distribution"
+      - name: "Delete package directory"
+        run: rm -Rf "distribution/${{ matrix.PACKAGE_URN }}"
+      - name: "Generate the package"
+        run: plantuml-generator library generate library.yaml --urn "${{ matrix.PACKAGE_URN }}" --clean-urn "${{ matrix.PACKAGE_URN }}"
+      - name: "Tar the package directory"
+        run: tar cf "${{ matrix.PACKAGE_URN }}-distribution.tar" "distribution/${{ matrix.PACKAGE_URN }}"
+      - name: "Upload the package directory"
         uses: actions/upload-artifact@v2
         with:
-          name: distribution
-          path: distribution.tar
+          name: "${{ matrix.PACKAGE_URN }}-distribution"
+          path: "${{ matrix.PACKAGE_URN }}-distribution.tar"
 
   push-distribution:
     name: Push the distribution
     runs-on: ubuntu-20.04
-    needs: [ generate-distribution ]
+    needs: [ generate-package ]
     steps:
       - uses: actions/checkout@v2
-      - name: "Delete distribution"
-        run: rm -Rf distribution
       - uses: actions/download-artifact@v2
-        with:
-          name: distribution
-      - name: "Provide the distribution directory"
+      - name: "Refresh the distribution directory"
         run: |
-          tar xf distribution.tar
-          rm distribution.tar
+          set -ex
+          for tar_path in `find . -name "*-distribution.tar"`
+          do
+            tar_name=$(basename "$tar_path")
+            package_urn="${tar_name%-*}"
+            rm -Rf "distribution/$package_urn"
+            tar xf "$tar_path"
+          done
+          rm -Rf *-distribution
+          rm -Rf workdir
       - run: ls -hla
       - name: "Commit changes"
         run: |
           git config --local user.email "package_builder@users.noreply.github.com"
           git config --local user.name "package_builder"
           git add -A
-          git commit -m "feat: refresh all packages"
+          git commit -m "feat: refresh the library"
       - name: "Push the changes"
         uses: ad-m/github-push-action@master
         with:
