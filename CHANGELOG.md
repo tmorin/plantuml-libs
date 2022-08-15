@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [9.2.0](https://github.com/tmorin/plantuml-libs/compare/v9.1.0...v9.2.0) (2022-08-15)
+
+
+### Features
+
+* add a unique file per package to load every in one call ;) ([c308bcc](https://github.com/tmorin/plantuml-libs/commit/c308bccdb99b3f1fa99fbdb65941f98d01fe90a6))
+* add the full package loader ([66544f3](https://github.com/tmorin/plantuml-libs/commit/66544f3a413df72b8d99d377d1193318bacab013))
+
 ## [9.1.0](https://github.com/tmorin/plantuml-libs/compare/v9.0.0...v9.1.0) (2022-08-05)
 
 
