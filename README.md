@@ -9,7 +9,7 @@ This repository hosts a [PlantUML] lib which provides several packages.
 Each package focus on a particular technology/approach: Amazon Web Services (AWS), Azure, C4 Model or even EventStorming and more.
 
 Additionally, a CLI utility, working with NodeJS, is also provided within the NPN package.
-Its purpose is to speedup the rendering of PlantUML source files, i.e. the generation of PNG.
+Its purpose is to speed up the rendering of PlantUML source files, i.e. the generation of PNG.
 
 [PlantUML]: https://plantuml.com
 
