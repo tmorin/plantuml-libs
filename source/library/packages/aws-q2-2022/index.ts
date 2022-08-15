@@ -204,6 +204,9 @@ export class AwsQ22022Factory implements PackageFactory {
       templates: {
         bootstrap: `${this.getUrn()}/bootstrap.tera`,
       },
+      rendering: {
+        skip_embedded: true,
+      },
       modules: [
         {
           urn: `${this.getUrn()}/Architecture`,

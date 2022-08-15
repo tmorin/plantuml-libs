@@ -84,6 +84,9 @@ export class Fontawesome6Factory implements PackageFactory {
                 bootstrap: `${this.getUrn()}/bootstrap.tera`,
                 documentation: `${this.getUrn()}/documentation.tera`,
             },
+            rendering: {
+                skip_embedded: true,
+            },
             modules: Object.keys(itemsByModules).map(moduleUrn => ({
                 urn: moduleUrn,
                 items: unifyItems(itemsByModules[moduleUrn])

@@ -3,7 +3,9 @@
 ## Presentation
 This package implements elements based on [Simple Icons](https://github.com/simple-icons/simple-icons).
 
-## Bootstrap
+## Usage
+
+### Bootstrap
 
 The bootstrap may provide PlantUML artifacts like constants, procedures or style statements.
 
@@ -11,6 +13,8 @@ The bootstrap may provide PlantUML artifacts like constants, procedures or style
 ' loads the simpleicons-7 bootstrap
 include('simpleicons-7/bootstrap')
 ```
+
+
 
 
 

@@ -1,69 +1,1116 @@
-@startuml
-
-
-include('eip-1/bootstrap')
-include('eip-1/MessageConstruction/CommandMessage')
-include('eip-1/MessageConstruction/CorrelationIdentifier')
-include('eip-1/MessageConstruction/DocumentMessage')
-include('eip-1/MessageConstruction/EventMessage')
-include('eip-1/MessageConstruction/MessageExpiration')
-include('eip-1/MessageConstruction/MessageReturnAddress')
-include('eip-1/MessageConstruction/MessageSequence')
-include('eip-1/MessageConstruction/QueryMessage')
-include('eip-1/MessageConstruction/ResultMessage')
-include('eip-1/MessageConstruction/ReturnAddress')
-include('eip-1/MessageRouting/Aggregator')
-include('eip-1/MessageRouting/ComposedMessageProcessor')
-include('eip-1/MessageRouting/ContentBasedRouter')
-include('eip-1/MessageRouting/DynamicRouter')
-include('eip-1/MessageRouting/MessageBroker')
-include('eip-1/MessageRouting/MessageFilter')
-include('eip-1/MessageRouting/ProcessManager')
-include('eip-1/MessageRouting/RecipientList')
-include('eip-1/MessageRouting/Resequencer')
-include('eip-1/MessageRouting/RoutingSlip')
-include('eip-1/MessageRouting/Splitter')
-include('eip-1/MessageTransformation/ClaimCheck')
-include('eip-1/MessageTransformation/ContentEnricher')
-include('eip-1/MessageTransformation/ContentFilter')
-include('eip-1/MessageTransformation/EnvelopeWrapper')
-include('eip-1/MessageTransformation/Normalizer')
-include('eip-1/MessagingChannels/ChannelAdapter')
-include('eip-1/MessagingChannels/DatatypeChannel')
-include('eip-1/MessagingChannels/DeadLetterChannel')
-include('eip-1/MessagingChannels/InvalidMessageChannel')
-include('eip-1/MessagingChannels/MessageBus')
-include('eip-1/MessagingChannels/MessagingBridge')
-include('eip-1/MessagingChannels/PointToPointChannel')
-include('eip-1/MessagingChannels/PublishSubscribeChannel')
-include('eip-1/MessagingEndpoints/Application')
-include('eip-1/MessagingEndpoints/CompetingConsumers')
-include('eip-1/MessagingEndpoints/DurableSubscriber')
-include('eip-1/MessagingEndpoints/Endpoint')
-include('eip-1/MessagingEndpoints/EventDrivenConsumer')
-include('eip-1/MessagingEndpoints/MessageDispatcher')
-include('eip-1/MessagingEndpoints/MessagingGateway')
-include('eip-1/MessagingEndpoints/PollingConsumer')
-include('eip-1/MessagingEndpoints/SelectiveConsumer')
-include('eip-1/MessagingEndpoints/ServiceActivator')
-include('eip-1/MessagingEndpoints/TransactionalClient')
-include('eip-1/MessagingSystems/Message')
-include('eip-1/MessagingSystems/MessageChannel')
-include('eip-1/MessagingSystems/MessageEndpoint')
-include('eip-1/MessagingSystems/MessageRouter')
-include('eip-1/MessagingSystems/MessageSingleGreen')
-include('eip-1/MessagingSystems/MessageSingleOrange')
-include('eip-1/MessagingSystems/MessageSingleRed')
-include('eip-1/MessagingSystems/MessageTranslator')
-include('eip-1/MessagingSystems/PipesAndFilters')
-include('eip-1/SystemManagement/ChannelPurger')
-include('eip-1/SystemManagement/ControlBus')
-include('eip-1/SystemManagement/Detour')
-include('eip-1/SystemManagement/MessageStore')
-include('eip-1/SystemManagement/SmartProxy')
-include('eip-1/SystemManagement/TestMessage')
-include('eip-1/SystemManagement/WireTap')
 
 
 
-@enduml
+
+
+skinparam DefaultTextAlignment center
+
+!global $EIP_LIGHT_GREEN="#C0F5A9"
+!global $EIP_LIGHT_YELLOW="#FFFBC0"
+!global $EIP_LIGHT_GREY="#E6E6E6"
+!global $EIP_DARK_GREY="#808080"
+!global $EIP_LIGHT_TURQUOISE="#ECF8FC"
+!global $EIP_MEDIUM_TURQUOISE="#9DDBEF"
+!global $EIP_STRONG_YELLOW="#FFE040"
+!global $EIP_STRONG_RED="#DF2F2F"
+
+skinparam Arrow {
+    FontColor $FONT_COLOR
+    Color $FONT_COLOR
+    Thickness 1
+}
+
+skinparam Card<<IconElement>> {
+    BorderThickness 0
+    BorderColor transparent
+    BackgroundColor transparent
+    shadowing false
+}
+
+skinparam Rectangle<<IconGroupElement>> {
+  StereotypeFontColor $FONT_COLOR
+  BorderThickness 1
+  BorderColor $FONT_COLOR
+  BorderStyle solid
+  FontStyle none
+  FontColor $FONT_COLOR
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}
+
+
+
+' definition of the Item eip-1/MessageConstruction/CommandMessage
+
+sprite $CommandMessageXs [15x10/16z] Oy06M55uxEpiw5mKFffUT2u71mSAbnD51GSVWei
+
+sprite $CommandMessageSm [18x12/16z] Oo0QiBEpOuem4bB3mCP0fWWh7oko20ihAoShAveoLYvM7Au5
+
+sprite $CommandMessageMd [25x16/16z] hScr0S103C10DsRQVzkKONwLElWUCvtyXMo1B-1Ou3Y4aP1cbeV06Ru3Gan7T3WegUiGpDq3Rfe
+
+sprite $CommandMessageLg [31x20/16z] jOsr0O0040CVYU3xJukMk5qRkVWCP4UXHlPZJN0lJJNpS1qyTaS-faSWVevpJ-p61aiN1t67dJW7KAi3jkDOrbLt44jM5Tym
+
+!procedure CommandMessage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageConstruction/CommandMessage', $name, $tech, $desc)
+!endprocedure
+
+!procedure CommandMessageGroup($id, $name='Command Message', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CommandMessageLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessageConstruction/CorrelationIdentifier
+
+sprite $CorrelationIdentifierXs [15x10/16z] RSU50S0W34JHZplPVzgwbnSzFhHYPzQbGW07kFL1hzi0VejunouOXc9KvxDkLpKRwTk-el0s0m
+
+sprite $CorrelationIdentifierSm [18x12/16z] ZSg50KCX40FG8BdWx3zjtVlj8QSuGXBkABbx4CWO8tJnlMEInrN0ayETnyj69pDrt5atm5Zdl7T8QmaNETbh9nD_pW
+
+sprite $CorrelationIdentifierMd [25x16/16z] {
+fOy53iKW04EnqYdS_xOVwtVVcpQL1FCxddHN4kJu8_ilcWeiA54h04B1a3Ai_hnosefaC1TQ_m4rZnXBmSdeKiVAk3AmPzHF8Izn60w8I0bTOUTM384iOoqC
+GzAyuWG
+}
+
+sprite $CorrelationIdentifierLg [31x20/16z] {
+hSm54iGm34DH1nILVV_RRbHkCznz0u4_jdqK4EqbPpiKLeyORp-14ZM2O2RarK4f5W5a2OySAKbxcccvtsyBu_KgzfJ8O2VL9yK_PdPop_7uKPx13jCz9_Gz
+U6RtTtOkogYMubEvCe0UFatACW_3i2YVKir-PbRp8xFgxPCV
+}
+
+!procedure CorrelationIdentifier($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageConstruction/CorrelationIdentifier', $name, $tech, $desc)
+!endprocedure
+
+!procedure CorrelationIdentifierGroup($id, $name='Correlation Identifier', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CorrelationIdentifierLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessageConstruction/DocumentMessage
+
+sprite $DocumentMessageXs [15x10/16z] Oy06M55uxEpiw5mKFffUT2u71mSobvsL1KKtBuAB
+
+sprite $DocumentMessageSm [18x12/16z] Oo0QiBEpOuem4bB3mCP0fWWFBmko20ihAoyBAuOBM72u5W
+
+sprite $DocumentMessageMd [25x16/16z] hScr0S104CJ0DSDH_zKQqcTIg45xnx57VaIElmpuWd0RHe9SroL1C6BoODysiTK8WSJq3C9DH8nCBm
+
+sprite $DocumentMessageLg [31x20/16z] jSrL0i0m309GsiQOtl-qiz-vlTy4m6Uq71rzid_scUrTioyUfc77sv3fUaJnyrbYjdiEPGZtpqvsssTHrSOfFR4dlErvT9vK-CO8
+
+!procedure DocumentMessage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageConstruction/DocumentMessage', $name, $tech, $desc)
+!endprocedure
+
+!procedure DocumentMessageGroup($id, $name='Document Message', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DocumentMessageLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessageConstruction/EventMessage
+
+sprite $EventMessageXs [15x10/16z] Oy06M55uxEpiw5mKFffUT2u71mSI5wYT1KKtBuAB
+
+sprite $EventMessageSm [18x12/16z] Oo0QiBEpOuem4bB3mCP0fWWB7mko20ihAmitL0GXoC62mxK
+
+sprite $EventMessageMd [25x16/16z] hScr0S0m4CNG7xIFzvysN8L9fHxUbr9xy0yaZTs7HR1VWp_1cDbs8McM3RHDiy0sIo6xm2AYkAW7
+
+sprite $EventMessageLg [31x20/16z] jOr55e0m50Fpu5lG-vyMNUAqdMraa0sjxq9Vk8vznQxIoZT-hc7tRiYItg4e74kiNCOXfF4c7aNEOr7LJiPMpsFiwyvlObzea8SP
+
+!procedure EventMessage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageConstruction/EventMessage', $name, $tech, $desc)
+!endprocedure
+
+!procedure EventMessageGroup($id, $name='Event Message', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$EventMessageLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessageConstruction/MessageExpiration
+
+sprite $MessageExpirationXs [15x10/16z] Oo02y38my21u7222cu4C03M65S5dPsPZnAOE
+
+sprite $MessageExpirationSm [18x12/16z] Oo01S75nel2PGGGZXZ96LcGbJ0mChCYo743CXDSQk09kT24ED8lOS9i
+
+sprite $MessageExpirationMd [25x16/16z] jSu52W11243HFptg_S-xtK5iF92m-OD4N1SdbO5oO4mobyAnKC07F2S2u3XBt777BsOoDpWEb9uFd3XLhRpG0W
+
+sprite $MessageExpirationLg [31x20/16z] lS_50SKm30DGsIhJ_jj-R5YzvXL31lJ3PN4yEOYFROAqtrzRzMeqek666o6Edo4q0TEnIV2tr5Ht1xpRMbJmP12d4qSYkjdGccMWPF5xrI3PDJkt3Rsy0G
+
+!procedure MessageExpiration($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageConstruction/MessageExpiration', $name, $tech, $desc)
+!endprocedure
+
+!procedure MessageExpirationGroup($id, $name='Message Expiration', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$MessageExpirationLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessageConstruction/MessageReturnAddress
+
+sprite $MessageReturnAddressXs [15x10/16z] Oy06cDXHk2n0BZx0pCI4eXl1nGHihCmCX04
+
+sprite $MessageReturnAddressSm [18x12/16z] Oy09sD456DdPq8LOC7GnCp030Oe84n2mewh14C5c3ePjh70zX04
+
+sprite $MessageReturnAddressMd [25x16/16z] jSv50e102010Elx_ORsBspit6XX0Ftbrdom0mm_yBtWGoNSXITBBgucVmlyDowmAnCa_BuSgNF
+
+sprite $MessageReturnAddressLg [31x20/16z] pOx50O0054Bv0UZ-2xk0tUzAuZvihwYnBcD31h5ARybjaVAYt9MPjI27iiYknNJcIlhgyoelojAu9WDD3lW74m
+
+!procedure MessageReturnAddress($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageConstruction/MessageReturnAddress', $name, $tech, $desc)
+!endprocedure
+
+!procedure MessageReturnAddressGroup($id, $name='Message Return Address', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$MessageReturnAddressLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessageConstruction/MessageSequence
+
+sprite $MessageSequenceXs [15x10/16z] bST50S10402nESRrBxVCtFp2Jo5WKPOmrGCgW0Dmpc2C0T5grxAlKZnh0G
+
+sprite $MessageSequenceSm [18x12/16z] fSY35S1G30NGXrhxRrlpg1znBZAYVEOUDQ1rhir7rgvvILcMwxGD56IroRXBlSkqoxJBk4azR2BfCqDY0G
+
+sprite $MessageSequenceMd [25x16/16z] lSo53OH0443HyJkq_t8PmOaZ7rPVil1TQ5GRKjZr4vyiDZuHxo15OeCk6rYz0g2x8w1wlh8NAo4X5xGBZ3CC9_X90QxG5ZHDmPyJWBpB-cGJ
+
+sprite $MessageSequenceLg [31x20/16z] {
+rSu55eD040DGabb7xd_SpYokpziIB8-_rhmW4cIkpilU0gA-zT6NVH3s75tz64Vg6txF4VPJZEiYv6maaqTjcNhNPXMLYzSKQqaqUJoC067aq8MPKpynNJ-p
+BmkxcT5r2tTvvY5DB55dF-mDJ4mBBbhpstm
+}
+
+!procedure MessageSequence($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageConstruction/MessageSequence', $name, $tech, $desc)
+!endprocedure
+
+!procedure MessageSequenceGroup($id, $name='Message Sequence', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$MessageSequenceLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessageConstruction/QueryMessage
+
+sprite $QueryMessageXs [15x10/16z] Oy06M55uxEpiw5mKFffUT2u71mSAbuq3MPw3dmsB0m
+
+sprite $QueryMessageSm [18x12/16z] Oo0QiBEpOuem4bB3mCP0fWWd3uem2oihFni7kZ9EDXok1G
+
+sprite $QueryMessageMd [25x16/16z] hScr0S0m4CNG7p8SxZzjk0g3LUhXUp66atyYSUe6zeBZEfG49M4z10_EEmXTPoliqY1q2CJCWfi6
+
+sprite $QueryMessageLg [31x20/16z] jSkr5SD0403HjQNbW_whFKh5DEb_0w-5qnvoQvkvHrlwvz7D6wWpR3TttGdXOvwbjyb2CQbjiodbTPuHCMnpJoXdsM4HTOTtgW
+
+!procedure QueryMessage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageConstruction/QueryMessage', $name, $tech, $desc)
+!endprocedure
+
+!procedure QueryMessageGroup($id, $name='Query Message', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$QueryMessageLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessageConstruction/ResultMessage
+
+sprite $ResultMessageXs [15x10/16z] Oy06M55uxEpiw5mKFffUT2u71mSobvsL1KKt2uAB
+
+sprite $ResultMessageSm [18x12/16z] Oo0QiBEpOuem4bB3mCP0fWWNBmko20ihApS_2xeo5XOShWK
+
+sprite $ResultMessageMd [25x16/16z] hSct0OH030LHtO6y_lPVBY7UC-4yUfwgxFo9B45FOIcq7TEN07V79Y0jLY3CGEEWZO2-RK9aPj590m
+
+sprite $ResultMessageLg [31x20/16z] jSj55i1020HHHe2Et_-sQRADsz_MA_cCbgFej9yzs5xDldXuYntDL5cFgFoSAy9kXWArsS_MTRgTgwhsDawyz_16UvIfbM_C
+
+!procedure ResultMessage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageConstruction/ResultMessage', $name, $tech, $desc)
+!endprocedure
+
+!procedure ResultMessageGroup($id, $name='Result Message', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ResultMessageLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessageConstruction/ReturnAddress
+
+sprite $ReturnAddressXs [15x10/16z] Ow0KCBCmC30n8Gam0W4knPnWGDXG
+
+sprite $ReturnAddressSm [18x12/16z] Ow0cO65c1f9CJ4WYh6mW4ba4Y1c105M4cPaPHOHY
+
+sprite $ReturnAddressMd [25x16/16z] OnW4W1Md11CR6uXcmf1WP641qOnCs8nY105i4cmWW4s27GJG9LZWW8vX0G
+
+sprite $ReturnAddressLg [31x20/16z] rScr0S1030D0sv82-mySPaxtV-rP_cGRF7T8RZt4PPDJsrLxnDZkLprLvxuvkEl9_wwtOEbh0G
+
+!procedure ReturnAddress($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageConstruction/ReturnAddress', $name, $tech, $desc)
+!endprocedure
+
+!procedure ReturnAddressGroup($id, $name='Return Address', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ReturnAddressLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessageRouting/Aggregator
+
+sprite $AggregatorXs [15x10/16z] uqC3p2Y0Zvc37ONBm872XGE4B1SN7oypCmCBM9O4lIW
+
+sprite $AggregatorSm [18x12/16z] uyC4pEW0cmWx0s4HJWu4Zuq3heQBYukF4oZ2m4AaoHoCXDs33W
+
+sprite $AggregatorMd [25x16/16z] fKu30a0X3Cqrtl-stpPosvEU3dyohXeXX9E6AIyRyKmgsf4XiRkiJGifG4HLQHl6z0qeD31oVvMI-qR6jwdiIQCV_nir
+
+sprite $AggregatorLg [31x20/16z] fOs54KGX34J3i0Id_svFlYlwHf2rL43cmBXiZCd889BzibIAC_APVBaFF0j4V9QD-n5JiXSPsBVjSWLW6xQxPI6GaJECoiZ1Nm
+
+!procedure Aggregator($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageRouting/Aggregator', $name, $tech, $desc)
+!endprocedure
+
+!procedure AggregatorGroup($id, $name='Aggregator', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$AggregatorLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessageRouting/ComposedMessageProcessor
+
+sprite $ComposedMessageProcessorXs [15x10/16z] uqC3p2W0okNWGE4oC45e3CKC75oy70nCNBoS32m8MUBqeW
+
+sprite $ComposedMessageProcessorSm [18x12/16z] uyC4pEW0jmW70puHJWwm29Xaum29i3CmS_5oSu18NZO65j9CPYJi7WG
+
+sprite $ComposedMessageProcessorMd [25x16/16z] bOwr0S1000BXbTVzjuqsSRaMxRVO6pu9tbyB4VWfMEVsWgVM13aFMKk6HN1GpgKh0YxdtYom2bbbJMXDMYdkDaACV--IP-7CVs44
+
+sprite $ComposedMessageProcessorLg [31x20/16z] hL454i0m34fla7h-_zkvdSp7IIKAs0MQC-3Fi0-19s68-FTX9VNfQYB3bM5jdZZST0iZfMnb3AUKpBWB0xhC1ePg37-8PxF_vqtdJiA_6uepQ0S
+
+!procedure ComposedMessageProcessor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageRouting/ComposedMessageProcessor', $name, $tech, $desc)
+!endprocedure
+
+!procedure ComposedMessageProcessorGroup($id, $name='Composed Message Processor', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ComposedMessageProcessorLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessageRouting/ContentBasedRouter
+
+sprite $ContentBasedRouterXs [15x10/16z] uqC3p2W05vULZusD3SRbWycoS75nyO5PG0PElSnWQ_1R1
+
+sprite $ContentBasedRouterSm [18x12/16z] uyC4pEW0lmWVcWWd6pkA22-IIYuWWAe7CGcPp084A28S1Do3
+
+sprite $ContentBasedRouterMd [25x16/16z] hP3L0OGm343le77PVrlSvQkyUkF9LzeNwWLYpm8pBoDd0Lcvk-BMSJnBsGIY0vOqloDrf7oGRgICt5q1rBRaJWy
+
+sprite $ContentBasedRouterLg [31x20/16z] lP750GCX44MJ5M3izz_jkhk_2umRTeYtI3utgswP2N0LwTpi9Amd9rsjhLvy_MCQchb28AqIu9fXTDgdJExCxVsc6GssR7RkeuibMxWS
+
+!procedure ContentBasedRouter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageRouting/ContentBasedRouter', $name, $tech, $desc)
+!endprocedure
+
+!procedure ContentBasedRouterGroup($id, $name='Content Based Router', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ContentBasedRouterLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessageRouting/DynamicRouter
+
+sprite $DynamicRouterXs [15x10/16z] uqC3p2W05vULZusD3SRbWycoS75nyO5PG0PElSnWQ_1R1
+
+sprite $DynamicRouterSm [18x12/16z] uyC4pEW0lmWVcWWd6pkA22yhGYKN4035MO5i41EXYmLAeuZmiG01YWW70VSW
+
+sprite $DynamicRouterMd [25x16/16z] hP3L0OGm343le77PVrlSvQkyUkF9LzeNwWLYpm8pBoDd0Lcvk-BMSJnBsGIY0vOqloDrf7oGRgICt5q1rBRaJWy
+
+sprite $DynamicRouterLg [31x20/16z] lP7L0GGX34JlLe3OzD_jkhk_7oIUmGxn5iddPjKjCm6k8fsRdOJrv6IhjTMBhszCGpDN2AHybvy0rmoZqpvbSd7kAixxpMWqsBBPkOtaroMPHoSZql7JvG
+
+!procedure DynamicRouter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageRouting/DynamicRouter', $name, $tech, $desc)
+!endprocedure
+
+!procedure DynamicRouterGroup($id, $name='Dynamic Router', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DynamicRouterLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessageRouting/MessageBroker
+
+sprite $MessageBrokerXs [15x10/16z] RKl50S0m44AYj_--TM_uu1Y13nt1rVQ8PrdkGMdDpwzl9q50flJ_tlvXMzl53
+
+sprite $MessageBrokerSm [18x12/16z] VSt50SC030J15Ql_XXCps_CJ7g-gYWyEWgQIa6idmQ0WsKG4PsPsQKId73_xzcVB6lziMPlNpty
+
+sprite $MessageBrokerMd [25x16/16z] ZL250G0X2FodTF-5xUupEPhl0G20A_xtke7oo8hmJv1uW02Y4pGAbVwT0ea88GIWZno6J8XOgHS5CBFqb1OHJIcVSiAjgjJ77qDLnMOae-8E2m
+
+sprite $MessageBrokerLg [31x20/16z] {
+hT650SD020NGZyl-0vUhkxzuJW7yZnrk7pLNZpWrzy8uyFsDsPW940ovRXwCSTqSEaBtpQIkGt15AYipyOZBi6-ROpKxhX4FWkssfk05bu457GBJp-8-DASj
+X-OVAtQjSnZUjm4
+}
+
+!procedure MessageBroker($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageRouting/MessageBroker', $name, $tech, $desc)
+!endprocedure
+
+!procedure MessageBrokerGroup($id, $name='Message Broker', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$MessageBrokerLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessageRouting/MessageFilter
+
+sprite $MessageFilterXs [15x10/16z] uqC3p2W0pENcvkBYv8HpETcOcHbPuLncDX22S25yHcPyN4uO5m4mkG
+
+sprite $MessageFilterSm [18x12/16z] uyC4pEW0bmWR6v1WP4KIOG6AC36YwE9aWof1cCC6X8H5sD54s5dmkGST
+
+sprite $MessageFilterMd [25x16/16z] hSct5S1G24Mn0_VpeFB-spfqpbcjkaCSk8gcIKoMGKa0PhaAf0PkOXi2SpP1JH4xGUBYho1ten9s0xx5
+
+sprite $MessageFilterLg [31x20/16z] jT555i0W34NH4tuQgUr_kNLtuKqlJdaHpkAVkCZgqZglamt3H0HrHAJOieoSxExjBGS2xtBjDRHBxpAhr6muO8WW0F4OvynsmYO__zWvyrbI0G
+
+!procedure MessageFilter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageRouting/MessageFilter', $name, $tech, $desc)
+!endprocedure
+
+!procedure MessageFilterGroup($id, $name='Message Filter', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$MessageFilterLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessageRouting/ProcessManager
+
+sprite $ProcessManagerXs [15x10/16z] TKe30e1049nSg___Dfsr75bLIr6UegJBc18HGCHTbsZTY9QBwAV0kW7B_cuTVW
+
+sprite $ProcessManagerSm [18x12/16z] uyC4pEW09iB2G5Y4cHF6m6uE2nSN5pC3DnSNDrm4hWkt20C32n0pCBCnCB1X5q47
+
+sprite $ProcessManagerMd [25x16/16z] XKs55OL034kzNs3_RN67Fd9-iRQ453WIfi-40uK3MX1QTbG4tQFQxm07_kDf2x7lzfcEEw5o8SmQi-7mQRSmNGa0FkqamiDXRqH6H8fE-_IOYG8z
+
+sprite $ProcessManagerLg [31x20/16z] {
+hOt50S0m30ETcihxRrjc2D_7AAbtW3Oew2mijZC1gEMiK5Yp5LFEDQCrs_3NcPjweZ40idJTuxoLNLn_db4n_5pFb8XBhCvrwkGuCqp8D6qLbvhZR64wamqP
+0G
+}
+
+!procedure ProcessManager($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageRouting/ProcessManager', $name, $tech, $desc)
+!endprocedure
+
+!procedure ProcessManagerGroup($id, $name='Process Manager', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ProcessManagerLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessageRouting/RecipientList
+
+sprite $RecipientListXs [15x10/16z] uqC3p2W05vULZusD3SRbWycoS75nyN512PWm2nkwKM1hy5i4
+
+sprite $RecipientListSm [18x12/16z] uyC4pEW0lmWVcWWd6pkA22-IIYuWuEC6ao02heQD0ul9t7miG81Y5qGPCIu4
+
+sprite $RecipientListMd [25x16/16z] hP035i0m3427nhZ_RMVZQVjru-GhxGlV1MBF0ZCl8sS1MRcxujPnF4lP1Am3bgaJoraEhagKrwn4NzCjcJ9IRdK0_DMIdHu
+
+sprite $RecipientListLg [31x20/16z] lP436i0m38M78dptl-riVkm_57627zelGd6nsPUOWJGHx-AazEwSxJMsPStpJlWebWa5L6Q0UUMZTThYXl2METjNtNFgEN-s1Gl-B4wfqCJ25wa7
+
+!procedure RecipientList($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageRouting/RecipientList', $name, $tech, $desc)
+!endprocedure
+
+!procedure RecipientListGroup($id, $name='Recipient List', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$RecipientListLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessageRouting/Resequencer
+
+sprite $ResequencerXs [15x10/16z] uqC3p2W0oENWGE4oCI2u68ePEBYu-BWO61aP65WmPPcHj6BAeW
+
+sprite $ResequencerSm [18x12/16z] XKx50S102CifplxZbcyTTv9t6bTwhc3zLPJBpJ5OX8bdLHX3jJvWDMpCjylNocg_UAvq
+
+sprite $ResequencerMd [25x16/16z] bP154iHG448XXBHL_VlVTdGvchTjGTP7z87l0zll1ni-3qwzCalItb9pCodoU0nsP7VFMcxGW83de6lqfAjSfQfyQcJc-nm6tWyEyaGbvmTN
+
+sprite $ResequencerLg [31x20/16z] jL435aGn39o-JhYu_stN_6OHE-UHKuSEjr2Rkmof0Lkk3X5TM1g19tCErW3402LWF-hCFDo6n0wrY3qhuEtV61C9YkJ4iGZWozLQoe1wluLowEWL
+
+!procedure Resequencer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageRouting/Resequencer', $name, $tech, $desc)
+!endprocedure
+
+!procedure ResequencerGroup($id, $name='Resequencer', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ResequencerLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessageRouting/RoutingSlip
+
+sprite $RoutingSlipXs [15x10/16z] uqC3p2Y0H2u31nSd0nSN0pSN0ybwKG
+
+sprite $RoutingSlipSm [18x12/16z] uyC4pEY0N15E3cPc3Z1cOMO3OZvcTWOkBauWvc7Wvk9cOC7KHJKH
+
+sprite $RoutingSlipMd [25x16/16z] pS-v4O103CLGVsJ0nmpzTyiPRymgVP6EOGpw6rO5kEGGMW1fUy4jgjgigz9KLMOVL3HuX4D60X4xp3bu0G
+
+sprite $RoutingSlipLg [31x20/16z] uoC0cF41bc4jpS00Oh8oC312AB040mCRGfgBYuiRA0sY83mkX3GB2nj86miBAuHY0uknS0xhK6F11zW
+
+!procedure RoutingSlip($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageRouting/RoutingSlip', $name, $tech, $desc)
+!endprocedure
+
+!procedure RoutingSlipGroup($id, $name='Routing Slip', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$RoutingSlipLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessageRouting/Splitter
+
+sprite $SplitterXs [15x10/16z] uqC3p2W0cSl1WS9bO676KCp0mSpCnSN7YqMMe5uK
+
+sprite $SplitterSm [18x12/16z] uyC4pEY0a0WR0mjM4KuE914Ea2vs1Y2JYukBZnEiXXoJ6V7fGW
+
+sprite $SplitterMd [25x16/16z] bKw30S1037n_lF-sjTtOERkbU4E_6ZcdwuPpvMSZfV5KzZ1LD0_E-t4ZkRw1H6IcsrC4F6tKqG7Kwn-r_aKrFR-X_uqM
+
+sprite $SplitterLg [31x20/16z] jP634K0n343JgwFzj_ss-GvjB3t17k5-CgUK3imE8BmmUv-kjGOmAeZ3CdbdJbWXgcbXTYxOdjnzdNFvfFP_SniJE_D_1tL7X18
+
+!procedure Splitter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageRouting/Splitter', $name, $tech, $desc)
+!endprocedure
+
+!procedure SplitterGroup($id, $name='Splitter', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$SplitterLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessageTransformation/ClaimCheck
+
+sprite $ClaimCheckXs [15x10/16z] uqC3p2Y049U1WG6Toyd5nSV2pC22AGi7N8nChFXD1W
+
+sprite $ClaimCheckSm [18x12/16z] uyC4pEY0E14M840LuM1W08kmWJ07N8ILYukNZuMP3SY4YE0scOcT7Ks4XPKuzm
+
+sprite $ClaimCheckMd [25x16/16z] lKy36e1G3FwtUbEu_sspyIdCHdqBsGtyb11cbgj40f16hnmqaMmJ7X5rNNK9O9iOG0PffaF2LDKsqqLkhd8Yjgj4alpTpri
+
+sprite $ClaimCheckLg [31x20/16z] pT035W0X403GnIZU_xRfQMtqi-5tz5kWyc7AS7MuoUZOC3af0wLdD8mwiTwRvU42fHG0e8wT3TcudpicejLt6scxj6vjc87X_J-7BHG1
+
+!procedure ClaimCheck($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageTransformation/ClaimCheck', $name, $tech, $desc)
+!endprocedure
+
+!procedure ClaimCheckGroup($id, $name='Claim Check', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ClaimCheckLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessageTransformation/ContentEnricher
+
+sprite $ContentEnricherXs [15x10/16z] uqC3p2Y0Q2u30mkGoy31pCN5pGVceikIP38
+
+sprite $ContentEnricherSm [18x12/16z] uyC4pEY0P14M5XQG22S7N8I1WG4amWuakRYu-FZW8d005q45v8e
+
+sprite $ContentEnricherMd [25x16/16z] nS-r0S102030TmNs7pT84_kQAt7eA1_u919hcgXnM0XhPe5PeWHEpBKM4JuIQsphwFdHyTOP9rm_lm
+
+sprite $ContentEnricherLg [31x20/16z] uoC0cF41bY4dpSu611mufLaOW00cpS005-VZOi4XpGK2m71YGvTcOM63wGPfHfN618IbGM2mXpaBFi06
+
+!procedure ContentEnricher($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageTransformation/ContentEnricher', $name, $tech, $desc)
+!endprocedure
+
+!procedure ContentEnricherGroup($id, $name='Content Enricher', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ContentEnricherLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessageTransformation/ContentFilter
+
+sprite $ContentFilterXs [15x10/16z] uqC3p2Y049U1WG6Toyd5nSV2pC22BakIoG
+
+sprite $ContentFilterSm [18x12/16z] uyC4pEY0E14M840LuM1W08kmWJ07N8ILYukNZuMP3SY4Y62QJBa8
+
+sprite $ContentFilterMd [25x16/16z] nOyr0i0W34KZE2JtlstbB_MrF8Y-AVw9Vl2JI2AItaGaegXWe3AdiwYjDNVR1D5PW8HSIeOeEUSowS0FLW
+
+sprite $ContentFilterLg [31x20/16z] uoC0cF41ba4kpGO2h3Yb6K20ZJXfDbuEi0HG14sQbGi8UFZukB5AGm0h1yHO5XPEuknc0O6X5-Oi-00R
+
+!procedure ContentFilter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageTransformation/ContentFilter', $name, $tech, $desc)
+!endprocedure
+
+!procedure ContentFilterGroup($id, $name='Content Filter', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ContentFilterLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessageTransformation/EnvelopeWrapper
+
+sprite $EnvelopeWrapperXs [15x10/16z] uqC3p2W06vS119WGN0u61ZO6L5cSN2umm6Ko0W
+
+sprite $EnvelopeWrapperSm [18x12/16z] ZSWb0W0X002mdTBu_tE9k2mkzfxMyVm_U8jnSL_A8T2CrJIE9W4
+
+sprite $EnvelopeWrapperMd [25x16/16z] jS-r0G0X5C3G05-wst_RStSZxQjI79OE-X_SwDCb6180DB86WeF35a1W7tW4CfRjV5i5
+
+sprite $EnvelopeWrapperLg [31x20/16z] pP550e0m3C2ojSNX_x_5NIzOjcgEBIwGC_GNElQC1C56cmley04x6W87RTxNk01dSAJ176SQ7j797Fl5IVICe08
+
+!procedure EnvelopeWrapper($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageTransformation/EnvelopeWrapper', $name, $tech, $desc)
+!endprocedure
+
+!procedure EnvelopeWrapperGroup($id, $name='Envelope Wrapper', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$EnvelopeWrapperLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessageTransformation/Normalizer
+
+sprite $NormalizerXs [15x10/16z] uqC3p2W0Wyl6Yi9bOMD1LSp0oip51JI5WGKaYwgNYnkVoIW
+
+sprite $NormalizerSm [18x12/16z] uyC4pEY0E14E1WmrxCmiC1uR1qGNEmChCnSN5z0MDWOMa0W7CoUgBbOqSyXp3m
+
+sprite $NormalizerMd [25x16/16z] jSy53e0020LG68rn_zlQkl8lzOqbFKC2V9jmYlU4KO9H9dBd9jam-xE3MAGtyzmYH5T2ZpYOR3BZJ32uAhN-_XnO0G
+
+sprite $NormalizerLg [31x20/16z] pP6r0S0W54GFT_RVDkvobCbhuBlL1egXlpO716O6QBI3LohIsWPs-RdYHWDWTtC0n235WLnhkfgL4sRvMJUbrJgiPjzepJ7pKF2N9z4CsmC
+
+!procedure Normalizer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageTransformation/Normalizer', $name, $tech, $desc)
+!endprocedure
+
+!procedure NormalizerGroup($id, $name='Normalizer', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$NormalizerLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessagingChannels/ChannelAdapter
+
+sprite $ChannelAdapterXs [15x10/16z] Oy0667bGkOpCg5n69gfnUL1CXZ4
+
+sprite $ChannelAdapterSm [18x12/16z] Oy05M7WmH1XP6T5561bvC4JOQ2N2n8GcmeNkGeG2
+
+sprite $ChannelAdapterMd [25x16/16z] Ou01HWOSW96L5OS48oCFBWb65Wvi4c30ZKk2QKX9CBDXb-367YGis4CHFGW1
+
+sprite $ChannelAdapterLg [31x20/16z] vT8d5e1G30LHVadF_jUBfyp14vahvntVBnnPHW_a8OayHYtaiGjv6F1_EGRmJaWoSq0nmJtq_NK2
+
+!procedure ChannelAdapter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingChannels/ChannelAdapter', $name, $tech, $desc)
+!endprocedure
+
+!procedure ChannelAdapterGroup($id, $name='Channel Adapter', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ChannelAdapterLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessagingChannels/DatatypeChannel
+
+sprite $DatatypeChannelXs [15x10/16z] fKUr0G0n48Bp_HT-YVGH75p16Uhn1HdVLKKQ5D_txrPCaDZ22m
+
+sprite $DatatypeChannelSm [18x12/16z] hKW50G112CCc_Gk_Iu63UQoxwl_o7AO46ZoqvbhS2la4EwybAEi6bR7iTW
+
+sprite $DatatypeChannelMd [25x16/16z] pSc53S0m50DHEyx7_VSj2GeBD4ywqM5P6cyoN48YfYQWE5AHunekuJcQz6kakrjucdaTUPB49J_QyRCT
+
+sprite $DatatypeChannelLg [31x20/16z] tOtL0G8m30LpUOsn_xwuspzS6pVxQofVg0uxqn2PWJ8JFoWOqBaigSr2PUQAKyAXlvI1kftUk5UE-ygI7_Olw5lvXKPsWNVORxC3
+
+!procedure DatatypeChannel($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingChannels/DatatypeChannel', $name, $tech, $desc)
+!endprocedure
+
+!procedure DatatypeChannelGroup($id, $name='Datatype Channel', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DatatypeChannelLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessagingChannels/DeadLetterChannel
+
+sprite $DeadLetterChannelXs [15x10/16z] Ow08i3820PXWP0DocK60dGj8CB82kHniCC38I9gv
+
+sprite $DeadLetterChannelSm [18x12/16z] Ow0UO69604QG00iJ231pWKWMi0W7M9ARcGMa12p2m0O6N222dP5wZW4
+
+sprite $DeadLetterChannelMd [25x16/16z] pOa50S10201nxPztxWNsXtCmB4nlM673USUojfc8j0axH8dj4z4s4NPGlOr0HDZDXpBucHa
+
+sprite $DeadLetterChannelLg [31x20/16z] tSt50S0m241HVXJOVz-wqmNQTqbm-RNUWgvrhoe7w_i7ybRE1pVJzPT0OpatMtz03wVTVGiAw56Eb2mxtiYtZG
+
+!procedure DeadLetterChannel($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingChannels/DeadLetterChannel', $name, $tech, $desc)
+!endprocedure
+
+!procedure DeadLetterChannelGroup($id, $name='Dead Letter Channel', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DeadLetterChannelLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessagingChannels/InvalidMessageChannel
+
+sprite $InvalidMessageChannelXs [15x10/16z] Ow08i3B20HkGomm2B9n0Wf4LoELWWm56HjBC1G
+
+sprite $InvalidMessageChannelSm [18x12/16z] Ow0UO69604QG00iJ672221Qm20TOaWLCCO956DX0W8kB4qYoCrBFCG
+
+sprite $InvalidMessageChannelMd [25x16/16z] pOa50G0X303drh_lkm05uEOxM1Qc7bQuS7weUoGYNS9UGN9xHBj4s4sAN6iW8jnce0mcimC
+
+sprite $InvalidMessageChannelLg [31x20/16z] tSs35G0n303G6FiFV4QrGFkVui3It3eU-dO3F_m6USHFctzXJq28qRL3tWWHlNkjGdb7yc-xzU9u_S8HcDiE
+
+!procedure InvalidMessageChannel($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingChannels/InvalidMessageChannel', $name, $tech, $desc)
+!endprocedure
+
+!procedure InvalidMessageChannelGroup($id, $name='Invalid Message Channel', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$InvalidMessageChannelLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessagingChannels/MessageBus
+
+sprite $MessageBusXs [15x10/16z] Oy04RAXS5WZ5n805i3B20KWNCnmmiWAv76mmmCZ8G18
+
+sprite $MessageBusSm [18x12/16z] XSg35G1140JHsd7-2P_D_zZWMJ1JLlhx4JLTDGOcEvkQqbsR6cANZLtZAhWohfn53m
+
+sprite $MessageBusMd [25x16/16z] bSrL0iGW40FG16VkVz_TUel3-nn9CE3mKCd24XTZauKPHp6zKQZHAgMl6gzJaJm3d4u9ULO6bmeaSMuouf0Y6fp28gTHA3l-
+
+sprite $MessageBusLg [31x20/16z] ZSs54GDH24NHT-5h_mN7imwpPmn7DzKW-R8M93ybIBwy1ibFquhpSGyJzNRIn_9WS3R1zUKN34RI1dhykXKOINlW-cDXB7J1bMfvtvGgdXz7cMFt2G
+
+!procedure MessageBus($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingChannels/MessageBus', $name, $tech, $desc)
+!endprocedure
+
+!procedure MessageBusGroup($id, $name='Message Bus', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$MessageBusLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessagingChannels/MessagingBridge
+
+sprite $MessagingBridgeXs [15x10/16z] uqC3p2W0AvULWmk9oyl6pCpD3kDoC8Eu25baBh8rA2QpO5W4
+
+sprite $MessagingBridgeSm [18x12/16z] bKwr0S1022puns7_RUFkeUCypmV7-u4u2EWM4UiGzXL9612W6Iaw8PEc5DPYHGkNOcNGb5ENRbwvsjC2
+
+sprite $MessagingBridgeMd [25x16/16z] jP330K0n340FGH7il-stpLStZky2E_mYo84fyLgG6H10P2d8q0f0vmA7NW1nAaXv5D1KG1C1MYz8oQgH9ENwLkyfTXO8CwHt9R007xMa1
+
+sprite $MessagingBridgeLg [31x20/16z] pT6r0S0m0CJ0Gc-6_RSDCvTHUsRNbtXAl-6SWg_kXbs1pfGlEIWEZCiNx0mpaqwioChK8wSTHx_do1FB7vYyiAitBRCzfzAwUEASMzboaVto9NhAjW
+
+!procedure MessagingBridge($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingChannels/MessagingBridge', $name, $tech, $desc)
+!endprocedure
+
+!procedure MessagingBridgeGroup($id, $name='Messaging Bridge', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$MessagingBridgeLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessagingChannels/PointToPointChannel
+
+sprite $PointToPointChannelXs [15x10/16z] Ow0gO842DbRAp04
+
+sprite $PointToPointChannelSm [18x12/16z] Ow0FO8JIB730naPJ2m4
+
+sprite $PointToPointChannelMd [25x16/16z] OnZgW9KHpcHcGGPiRApOTJ0EPky
+
+sprite $PointToPointChannelLg [31x20/16z] Oo01Z09MHYGECmiwO6DZmQURSOI77W
+
+!procedure PointToPointChannel($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingChannels/PointToPointChannel', $name, $tech, $desc)
+!endprocedure
+
+!procedure PointToPointChannelGroup($id, $name='Point To Point Channel', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$PointToPointChannelLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessagingChannels/PublishSubscribeChannel
+
+sprite $PublishSubscribeChannelXs [15x10/16z] Oo07C38oiZ5Zas210ZPMd7hPG82G1G
+
+sprite $PublishSubscribeChannelSm [18x12/16z] Ow0Si34XyvX18Wpe8enGDWiOi08n6nkQ6WH0c8CXp4giem
+
+sprite $PublishSubscribeChannelMd [25x16/16z] OnWGmCgAKu9aenZXJ6OMPC36XiCie0RY9PX1W8sD1QVbL0O
+
+sprite $PublishSubscribeChannelLg [31x20/16z] rSq35W0140BG6jt_nclR-C-3mjym55E41OcGoJKQ9zPEjDHgRgK8M_hcgMx394O32nJlIm4
+
+!procedure PublishSubscribeChannel($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingChannels/PublishSubscribeChannel', $name, $tech, $desc)
+!endprocedure
+
+!procedure PublishSubscribeChannelGroup($id, $name='Publish Subscribe Channel', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$PublishSubscribeChannelLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessagingEndpoints/Application
+
+sprite $ApplicationXs [15x10/16z] u-P41KmeOA2u
+
+sprite $ApplicationSm [18x12/16z] u-R404peO2YA
+
+sprite $ApplicationMd [25x16/16z] u-R41PXm05fAZ4e
+
+sprite $ApplicationLg [31x20/16z] u-R41xWucV01zb5f930gpSsE3t02
+
+!procedure Application($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingEndpoints/Application', $name, $tech, $desc)
+!endprocedure
+
+!procedure ApplicationGroup($id, $name='Application', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ApplicationLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessagingEndpoints/CompetingConsumers
+
+sprite $CompetingConsumersXs [15x10/16z] uqC3p2W05vS5g1B2PGKYc2mR67010IzG6ggO5yCeRf1U_1O1
+
+sprite $CompetingConsumersSm [18x12/16z] XOor0G1H2CMAy1tOVzjprvHFudUuyfD4FoKjHxOaWionWKkSe0vuzNb7WBoOZXvHFPbdxWcFIGy
+
+sprite $CompetingConsumersMd [25x16/16z] bP2r0S1030EB1xFstpRCd6iD0joIRlWpA3U3WZWFieBE0_PwVbLhNXK8mw3E9Eq9PC3MYvmss45Sd3Adv9TsOGRS10GzLl9_q08
+
+sprite $CompetingConsumersLg [31x20/16z] {
+jT4t0eGm34JHOcJ9SUv_sytBaAduxKCuyIASPVTmE-N1UiIP0oJts6iD520HIpO0lK3vWjsJ9811_x0hi_gfimN9nRI6OPyDRhPMMA0ln2gLLcYeTF6o63KE
+pgrbalYs1xMp_0a
+}
+
+!procedure CompetingConsumers($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingEndpoints/CompetingConsumers', $name, $tech, $desc)
+!endprocedure
+
+!procedure CompetingConsumersGroup($id, $name='Competing Consumers', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CompetingConsumersLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessagingEndpoints/DurableSubscriber
+
+sprite $DurableSubscriberXs [15x10/16z] Oo0Ui44e5aP6HZO69XP629S9GZA2kImiJAXwqBXi8424LG
+
+sprite $DurableSubscriberSm [18x12/16z] bOY30G1H3CLgx3_msVX8-GBTk5sJqMnaIpIDJeFcfrd8ZFc8o6vEteQdCNvQXNP6
+
+sprite $DurableSubscriberMd [25x16/16z] jOk54G0X30JZqd_1x_x0Q1Q9x1oKOYJusydofNdSAxu5kkXNR21XMzomo1t-oR70XjWmwoGLAfW1
+
+sprite $DurableSubscriberLg [31x20/16z] pSd50KCn3C1GcUtz1oupNKh_XIF-8QfumQ7XdgNkzipXaikEPm8fhI9NcHs1NPxxV9QomLr-o7mZUCa_aSsUv3mAdZDZ8TO
+
+!procedure DurableSubscriber($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingEndpoints/DurableSubscriber', $name, $tech, $desc)
+!endprocedure
+
+!procedure DurableSubscriberGroup($id, $name='Durable Subscriber', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DurableSubscriberLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessagingEndpoints/Endpoint
+
+sprite $EndpointXs [15x10/16z] u-P41KmeOA2u
+
+sprite $EndpointSm [18x12/16z] u-R404peO2YA
+
+sprite $EndpointMd [25x16/16z] u-R41PXm05fAZ4e
+
+sprite $EndpointLg [31x20/16z] u-R41xWucV01jb5f930gpSME3t02
+
+!procedure Endpoint($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingEndpoints/Endpoint', $name, $tech, $desc)
+!endprocedure
+
+!procedure EndpointGroup($id, $name='Endpoint', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$EndpointLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessagingEndpoints/EventDrivenConsumer
+
+sprite $EventDrivenConsumerXs [15x10/16z] uqC3p2Y0C9SLYSi61bn0mCl7XwQOD2u
+
+sprite $EventDrivenConsumerSm [18x12/16z] uyC4pEY00X4sE9SNACB21WRCN430nyN71b732fQ7ggQMxG
+
+sprite $EventDrivenConsumerMd [25x16/16z] uyC9c760mI31niO25M1bPcRd0qkmmG0p5mZmyh7myN4XTB0W6yCDn8FJWm
+
+sprite $EventDrivenConsumerLg [31x20/16z] uoC0cF41bc4WpO8knOOYpSR6Yf1XPsRcvMC3IxCX00iB5nZmy76pWqCCeHkY6M4H1o-8CNm3bGKVO0C
+
+!procedure EventDrivenConsumer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingEndpoints/EventDrivenConsumer', $name, $tech, $desc)
+!endprocedure
+
+!procedure EventDrivenConsumerGroup($id, $name='Event Driven Consumer', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$EventDrivenConsumerLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessagingEndpoints/MessageDispatcher
+
+sprite $MessageDispatcherXs [15x10/16z] uqC3p2W09nUe4i9b1V4u869iOC37nyN52vI6A-PbGJCAf1U_HG
+
+sprite $MessageDispatcherSm [18x12/16z] uyC4pEY0W0WR7we82oypN8GDYBcvGInUe0WB6nZmyd5pSV5nyR51rB22r458L7Fuq4s6yeXn8G
+
+sprite $MessageDispatcherMd [25x16/16z] dL2r0KHH22km9v3zjxtxxfuIYU4KT88t2pbP2E9e4Nwyg7b3fSf4oFtOq2rqH0LAAG46wlp1BG_vGBZNOF2mtIp8IWLE0i9EA_cs-0C
+
+sprite $MessageDispatcherLg [31x20/16z] {
+jP750G0X30GV4GwR_hizT_knEF4i_4F-e6t4-LTSILzYJGZm9GwO678LwxoR2CjD_29s7qLEZTCzJD5z5li11KfAgP03SB6sQIScMm9rlAUc9K-xV1P6aeH_
+jqN3JzqJ8ZQBsnAgV_01
+}
+
+!procedure MessageDispatcher($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingEndpoints/MessageDispatcher', $name, $tech, $desc)
+!endprocedure
+
+!procedure MessageDispatcherGroup($id, $name='Message Dispatcher', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$MessageDispatcherLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessagingEndpoints/MessagingGateway
+
+sprite $MessagingGatewayXs [15x10/16z] uqC3p330niZ8o0pdCh8YSnaHN5OaBXiO86J1W02NcGcLoypEmS713
+
+sprite $MessagingGatewaySm [18x12/16z] POk53G0n4CDKFjv_ssTiB4xiGChBs93oNLfAQNoMbAQb_PR-Mre_c9m6rL72KXeiPS1IQjieAm
+
+sprite $MessagingGatewayMd [25x16/16z] dSt55G1130BGHmHkst-tw-up_ve0pIC_Yrwwdm_XwCNva8RRWu3x0meEP5mENDmdud6Zxk3nT70-7LpRuK47
+
+sprite $MessagingGatewayLg [31x20/16z] dSm52iK038DXIfCycTp_jdEN3FRZ_MZgXzA5A_udem-Nh32C3CFACDpV3UEEuLdY9MiDvfjcVEezJ-uvvJb_dbEUa_d_zlKCbre
+
+!procedure MessagingGateway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingEndpoints/MessagingGateway', $name, $tech, $desc)
+!endprocedure
+
+!procedure MessagingGatewayGroup($id, $name='Messaging Gateway', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$MessagingGatewayLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessagingEndpoints/PollingConsumer
+
+sprite $PollingConsumerXs [15x10/16z] uqC3p2Y03qvo8xWi888TocL5Kim61X0s7rGnN0TMavcvc5c1aXYo
+
+sprite $PollingConsumerSm [18x12/16z] POs50S0m20IhEEo_RJMUYsB_CREFf0mZetQPqA4d0IK39UTFve2FFo41VyzPvmOTRPIfNBL758hxm0q
+
+sprite $PollingConsumerMd [25x16/16z] TSvL5iCW50JGZsSz7JhxtssZE4o2NepRo2OTcAs0oKGK4nZJtOOEyCcTRu4nreAx5lW5R_2S32HHTwYKGB2-OtnkxgG11AKPG1mH21bWp1uE
+
+sprite $PollingConsumerLg [31x20/16z] {
+bT550eGm44JHHRKYTV_RZW-DGzxsnyCBE2CDMI7TInpaWOgttdOpcVYmsCbHgvfKtjEliono0hR8PegY66cVRALMa22vcAr0CGHRZhQKEzdmDs8dXzVIkujJ
+0UI0PIxYRYt_BMVi2G
+}
+
+!procedure PollingConsumer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingEndpoints/PollingConsumer', $name, $tech, $desc)
+!endprocedure
+
+!procedure PollingConsumerGroup($id, $name='Polling Consumer', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$PollingConsumerLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessagingEndpoints/SelectiveConsumer
+
+sprite $SelectiveConsumerXs [15x10/16z] uqC3p2Y0C9SLY7WO8LmsC63aPEJYvUE3AUPaP0FJ99aC
+
+sprite $SelectiveConsumerSm [18x12/16z] uyC4pEY0914s3cGHDcPcLXOmYnSemi861foCN8nSV5nyR10rh43C22RPC4qcLmG
+
+sprite $SelectiveConsumerMd [25x16/16z] nS_54SKm40FGMKbcwB_R3s6y9czyydA_nHjF1xoPFmQy5uErQjwHeGy1Fuk6OBbrzLxM2f4omCIVSfWHXZTvzV8l
+
+sprite $SelectiveConsumerLg [31x20/16z] rP3L5KGn24JF84FMwB_RVUxsdHiFJZwWTrWzOj9vAZPj2V23KSwDcFJsYRS7bA7wI_PYBfW1F-3ppKzaviRQkmq8I1-ev5dc0CfDOQJNqdExWmq
+
+!procedure SelectiveConsumer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingEndpoints/SelectiveConsumer', $name, $tech, $desc)
+!endprocedure
+
+!procedure SelectiveConsumerGroup($id, $name='Selective Consumer', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$SelectiveConsumerLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessagingEndpoints/ServiceActivator
+
+sprite $ServiceActivatorXs [15x10/16z] uqC3p2Y0C9SLYSi61dnyN5oyp2neYadZ0W
+
+sprite $ServiceActivatorSm [18x12/16z] uyC4pEY00X4s8EPXXhBuMDZ0W8MFbukBZuEP4wA65ImB0bpasuKE
+
+sprite $ServiceActivatorMd [25x16/16z] pS-b0GGn4010CM7glzldlrFn6RcyQyl62OcK0cqXKWEMz6UjqTfSaN9t16W-GiQP3pu1
+
+sprite $ServiceActivatorLg [31x20/16z] tP130W0n34K7LVJlVzknkS-h6mS_j5y41-8m7t4JqKcSqYW1qdZFerwUn6ad401cLWWFifFrv9Pi3LJYAFRRrF15wW4
+
+!procedure ServiceActivator($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingEndpoints/ServiceActivator', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceActivatorGroup($id, $name='Service Activator', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceActivatorLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessagingEndpoints/TransactionalClient
+
+sprite $TransactionalClientXs [15x10/16z] NOt50K0X3CL8-rtOVrlSSweyiGiQs1KEZTYmK8Xhto2ki8NfCWPsjKSYhuIl8FLxX5LdRzib5mMkvycz7W
+
+sprite $TransactionalClientSm [18x12/16z] POw50G0W20JjrlstjGiua_v2aHFZhDVhEpnAy8NP7iCVoxCD8SHqbP5YnfynrcyjYpAJut4zn_K0lpch3-xykuuUQP6UYL9g_ne
+
+sprite $TransactionalClientMd [25x16/16z] {
+TT150e0W441Hfrbn_-CwT3_RRnAVg6D7NGqIe41RWiB4UX24XRI0i94I51fCQedb1bLCuNCfQ0hQx84uxQNL7XGQL0UkVIvih8QzsFJd29q8jP18871YtCVg
+uGS
+}
+
+sprite $TransactionalClientLg [31x20/16z] {
+XSy73WCn24JHc86nK-z_t0I40axzsv3UDj_-X5zfunE79yVrphHH2MtdnEhKs33UOd5fQo9vZPPvY2dPPz7aWsS-BGJFOD9aPmbcXM8l6FHHyk76cj-MKRr_
+6xEpU34W6Vovxdg-4g8OItOD3CwcFGqaEcSydOwFNU4bwwzu1m
+}
+
+!procedure TransactionalClient($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingEndpoints/TransactionalClient', $name, $tech, $desc)
+!endprocedure
+
+!procedure TransactionalClientGroup($id, $name='Transactional Client', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$TransactionalClientLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessagingSystems/Message
+
+sprite $MessageXs [15x10/16z] Oy06sDdHkNW14nEAQcPc55bEJdnwMLYmMGK
+
+sprite $MessageSm [18x12/16z] Oy05MDdHHTZP6T54s81g20D6JYuqWpYOMT3L464K8pi7gW0pAmihkY8Eg1e
+
+sprite $MessageMd [25x16/16z] Oo0C69bnYBEpisELOC4bmG0KfoBWO65Xn6e91pCp8rOTS0dA0HSxEpQZc9aHhYBiN4m
+
+sprite $MessageLg [31x20/16z] jP350S0W40JH34l_1OS63cU-9olk6e2tfm7uxB7lZrq6roEvmt5eTCObncoEGMtSlUwF9JqBLg5qnagfq_jeN45kcXy
+
+!procedure Message($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingSystems/Message', $name, $tech, $desc)
+!endprocedure
+
+!procedure MessageGroup($id, $name='Message', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$MessageLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessagingSystems/MessageChannel
+
+sprite $MessageChannelXs [15x10/16z] Ow08i3B20HkGomm7ZAn0BWSR330oacOk
+
+sprite $MessageChannelSm [18x12/16z] Ow0UO69604QG00iJ0h20HJYGbO156DWGW9sHUeu1
+
+sprite $MessageChannelMd [25x16/16z] pSat0S0m00CmZsp-V3ilbq2ZLzYMbLpnw4wJr1FDQP7jYT7I88btFbR3pqu
+
+sprite $MessageChannelLg [31x20/16z] tSsr0G1H20FGuB3_mETk_VrN8WcQ5duJQLWatHMHO2OFc2W_raGKM_MT4kN7EacmeYVujnu
+
+!procedure MessageChannel($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingSystems/MessageChannel', $name, $tech, $desc)
+!endprocedure
+
+!procedure MessageChannelGroup($id, $name='Message Channel', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$MessageChannelLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessagingSystems/MessageEndpoint
+
+sprite $MessageEndpointXs [15x10/16z] uqC3p2Y0C9SLn61WO01nsS00pWN986H9CXa
+
+sprite $MessageEndpointSm [18x12/16z] uyC4pEY0H14M5XQu21jOX8610Ip2mWO6I28WWXLP3MMs8m
+
+sprite $MessageEndpointMd [25x16/16z] uyC9c740-akmC041YWGR6mjOWW48O19iC80k0GPW3PWI2C0E17Jt82O
+
+sprite $MessageEndpointLg [31x20/16z] uoC0cF41bY4bpSu61EpeqYmm1Yi34B2XIxEniMALPaC05ZowMR4R3WS4fQ5YG30Kmfm57s03
+
+!procedure MessageEndpoint($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingSystems/MessageEndpoint', $name, $tech, $desc)
+!endprocedure
+
+!procedure MessageEndpointGroup($id, $name='Message Endpoint', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$MessageEndpointLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessagingSystems/MessageRouter
+
+sprite $MessageRouterXs [15x10/16z] uqC3p2W05vULZusD3SRbWycoS75nyO5PG0PElSnWQ_1R1
+
+sprite $MessageRouterSm [18x12/16z] uyC4pEW0lmWVcWWd6pkA22-IIYuWWAe7CGcPp084A28S1Do3
+
+sprite $MessageRouterMd [25x16/16z] hP3L0OGm343le77PVrlSvQkyUkF9LzeNwWLYpm8pBoDd0Lcvk-BMSJnBsGIY0vOqloDrf7oGRgICt5q1rBRaJWy
+
+sprite $MessageRouterLg [31x20/16z] lP750GCX44MJ5M3izz_jkhk_2umRTeYtI3utgswP2N0LwTpi9Amd9rsjhLvy_MCQchb28AqIu9fXTDgdJExCxVsc6GssR7RkeuibMxWS
+
+!procedure MessageRouter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingSystems/MessageRouter', $name, $tech, $desc)
+!endprocedure
+
+!procedure MessageRouterGroup($id, $name='Message Router', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$MessageRouterLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessagingSystems/MessageSingleGreen
+
+sprite $MessageSingleGreenXs [15x10/16z] Oy06M55uxEpiw5mKFffUT2u71mSobusP6KaQpCK4
+
+sprite $MessageSingleGreenSm [18x12/16z] Oo0QiBEpOuem4bB3mCP0fWWpCpEo20ihAve80q8D9W
+
+sprite $MessageSingleGreenMd [25x16/16z] hScr0S104CJ0VJxilrnpP2Q56holjNhm3wID7SE1OB-2Fy6PsNSXfIGRgAKiiEqGH5KD5_K
+
+sprite $MessageSingleGreenLg [31x20/16z] jSkr5S1040DH7UnAXlxRFOhDyDDvWyzOEefii8kTOqVayF26iy6-tEeHmyyvgzlDIisZdCritSs3Jh8rCxvH0G
+
+!procedure MessageSingleGreen($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingSystems/MessageSingleGreen', $name, $tech, $desc)
+!endprocedure
+
+!procedure MessageSingleGreenGroup($id, $name='Message Single Green', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$MessageSingleGreenLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessagingSystems/MessageSingleOrange
+
+sprite $MessageSingleOrangeXs [15x10/16z] Oy06M55uxEpiw5mKFffUT2u71mSobvs51KaQpCK4
+
+sprite $MessageSingleOrangeSm [18x12/16z] Oo0QiBEpOuem4bB3mCP0fWWB2mko20ihAve80q8D9W
+
+sprite $MessageSingleOrangeMd [25x16/16z] hScr0S104CJ0VJxilrnpP2Q56holjNhm3wID7SE1OB-2Fy6PsNSXvomRgAKiiEqGH5KD5_K
+
+sprite $MessageSingleOrangeLg [31x20/16z] jSkr5G113CJGMIRttwufFeQVwWcVAUaeDhMVcwbxDJRty4OzcbNMUgJWvvoxsSqzg_4avr8AxMVJJt9L4zyG
+
+!procedure MessageSingleOrange($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingSystems/MessageSingleOrange', $name, $tech, $desc)
+!endprocedure
+
+!procedure MessageSingleOrangeGroup($id, $name='Message Single Orange', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$MessageSingleOrangeLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessagingSystems/MessageSingleRed
+
+sprite $MessageSingleRedXs [15x10/16z] Oy06M55uxEpiw5mKFffUT2u71mSobvkB2qaQpCK4
+
+sprite $MessageSingleRedSm [18x12/16z] Oo0QiBEpOuem4bB3mCP0fWWN5nUo20ihAve80q8D9W
+
+sprite $MessageSingleRedMd [25x16/16z] hScr0O1G5CNGYyEp_RT5ExvBoXpKjsrhu0TaUmf3GE1lGK_GE_C24Qa3wxBO1suQ0f8x9Be
+
+sprite $MessageSingleRedLg [31x20/16z] jSkr5S1G3CNG5_Xixp-kgGx3RNM4pwJbA1QpdulBUtKkuU6DV3IRrUgHX9_pMjrkhjtGaxocb6W_ktgIXs5yGm4
+
+!procedure MessageSingleRed($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingSystems/MessageSingleRed', $name, $tech, $desc)
+!endprocedure
+
+!procedure MessageSingleRedGroup($id, $name='Message Single Red', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$MessageSingleRedLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessagingSystems/MessageTranslator
+
+sprite $MessageTranslatorXs [15x10/16z] NSc53S0m44MnBxbC-uzRfhoWTKkHNujs2ytsz1kpPMEJL1TdnhpKQJxic3_acTPRgFPtuwyL
+
+sprite $MessageTranslatorSm [18x12/16z] POs54O0030DnX_t7fQv_zbT9livSWSa2a9F0P1-05GOaYqmkd1nxc0pREb_fPbX1ykI6hpDETag-VLAwAdto0m
+
+sprite $MessageTranslatorMd [25x16/16z] bT150i90343Hb5Zz_hS5AkF-DoDlbPp5i50DLExmYkMERo2ukq7WJYnCwmlJuiCLwmNR1s80F90MWGpWEMCEH17t36nu9NC4JF00B0xASppXdRsFB_47
+
+sprite $MessageTranslatorLg [31x20/16z] {
+fT454iGW38NXil5auFwtNNsiU__HzAi1uqFqBbxDR4XFrm9ZWXS4rijuuP0BLtlWPLFWZBkdKSL1-vENOoxneDTC8-arXnELlE9-sefwoY5pOI6FN5VRqWpy
+nQwH83wnpDOVABzBTm
+}
+
+!procedure MessageTranslator($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingSystems/MessageTranslator', $name, $tech, $desc)
+!endprocedure
+
+!procedure MessageTranslatorGroup($id, $name='Message Translator', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$MessageTranslatorLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/MessagingSystems/PipesAndFilters
+
+sprite $PipesAndFiltersXs [15x10/16z] uqC3p2XWeBW
+
+sprite $PipesAndFiltersSm [18x12/16z] uyC4pEXWA8e
+
+sprite $PipesAndFiltersMd [25x16/16z] uyC9c740MagCIW
+
+sprite $PipesAndFiltersLg [31x20/16z] uoC0cF41bb5fP30gpO8Fi04
+
+!procedure PipesAndFilters($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingSystems/PipesAndFilters', $name, $tech, $desc)
+!endprocedure
+
+!procedure PipesAndFiltersGroup($id, $name='Pipes And Filters', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$PipesAndFiltersLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/SystemManagement/ChannelPurger
+
+sprite $ChannelPurgerXs [15x10/16z] uqC3p2W0p6K30pWNn6HaXNCvG5mME9SPn6L6uR8WSJcOcM0c8m0c5m
+
+sprite $ChannelPurgerSm [18x12/16z] uyC4pEW0bmWR6v1WPCGGOKSIOGUBe9Z31XI0Yy0KCRAXY702HT1ivs1bmUCUT
+
+sprite $ChannelPurgerMd [25x16/16z] fT035e10403GDyfr_zlcMjluwoqOA12Im7-meEkwgmBeB1W_4EyA170EVw5pOEpuFS9PqPs0ddVq5uW7nWlO0po8IF1BMk
+
+sprite $ChannelPurgerLg [31x20/16z] {
+jT654GCn40F0aG-3_NSRvXm4_ZMiDNlRXAhmH2pwa82lxG0uMDnLJpK0ZLakB05VzmJYazkLFUJLYKSm-xey7raINXmPi8HTvSZfenutXwMyT16MHvxtGxcA
+xW4
+}
+
+!procedure ChannelPurger($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/SystemManagement/ChannelPurger', $name, $tech, $desc)
+!endprocedure
+
+!procedure ChannelPurgerGroup($id, $name='Channel Purger', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ChannelPurgerLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/SystemManagement/ControlBus
+
+sprite $ControlBusXs [15x10/16z] Oo0PC881dCl3oyV7XyJbvED0vl81fLdGzH84
+
+sprite $ControlBusSm [18x12/16z] fSYr0O1050Mmy-zl_srnRI5bqWzbTqUpM71-J01mVGq3yHuGMFjZEYyQfUzc
+
+sprite $ControlBusMd [25x16/16z] lSsr0G0n30H1Ctlxx_QP8TLambE2pE7UzoOkWjQFWMFrCIWT-jSWTo8VWqwf97puoGZnCT079MS4
+
+sprite $ControlBusLg [31x20/16z] rOz54iH024NR6x__RKVYHjR9gs85V0al86qvhrlSKCxhPXFWhVyNwg_x_zTT8zf_d3KBAmee43hHm8mCOhfOLvre0EM-TmxFvmi
+
+!procedure ControlBus($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/SystemManagement/ControlBus', $name, $tech, $desc)
+!endprocedure
+
+!procedure ControlBusGroup($id, $name='Control Bus', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ControlBusLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/SystemManagement/Detour
+
+sprite $DetourXs [15x10/16z] uqC3p2W09vUFZOsDcHZ5t70kAx8r1FG2
+
+sprite $DetourSm [18x12/16z] uyC4pEW0lmWVkWWxEve89xekTdmcim017mkSXAhXG2A9SI4
+
+sprite $DetourMd [25x16/16z] uyC9c740oYKukN58yFAmW02611jsezXnsC6Bmt9ExAvYmN0k1oS8y75pGcW-CCK2ry41fLbPAGqIJ
+
+sprite $DetourLg [31x20/16z] lP750G1120DFrw7_RizTvibyqIIgJ4jqvkLIiApg5lhFSg3bVK-t8xuc-7aYOLq0tV5uoljhMV-GkVoMwvnHOXtXHW
+
+!procedure Detour($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/SystemManagement/Detour', $name, $tech, $desc)
+!endprocedure
+
+!procedure DetourGroup($id, $name='Detour', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DetourLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/SystemManagement/MessageStore
+
+sprite $MessageStoreXs [15x10/16z] uqC3p2W0mcNZv6H5SDdOEJXO615S5cOcHdAu28391G
+
+sprite $MessageStoreSm [18x12/16z] uyC4pEW0bmWJ8mYm88cmiJ4p0uLe8CB13hIFXGsdUz01
+
+sprite $MessageStoreMd [25x16/16z] pOa52W1H20NH5qZj_M-xJMm7zSTskajmmGj1ZN0lo5YfdR0rWemu28uZeYc1AW58o3knuuyO
+
+sprite $MessageStoreLg [31x20/16z] vP434i10303dubJ__srjSzGz13jCiWDm3tfFixgxAQtf64EFBdKaOcfkoX32gfOgXf8_QR5cd80aCkXF5qfxI04
+
+!procedure MessageStore($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/SystemManagement/MessageStore', $name, $tech, $desc)
+!endprocedure
+
+!procedure MessageStoreGroup($id, $name='Message Store', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$MessageStoreLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/SystemManagement/SmartProxy
+
+sprite $SmartProxyXs [5x10/16z] u-K20MOWm4Tm8N41
+
+sprite $SmartProxySm [6x12/16z] u-K20sOGW99iR3niR40sDrY41KR2rB2nWTJmCBEmSR7pm7K1
+
+sprite $SmartProxyMd [8x16/16z] u-M20cO8mA3PsDXuW1Z4Xs5MD7Kio7mMLdQOE3iBI3yxaCy3qiy24aVG4
+
+sprite $SmartProxyLg [10x20/16z] u-M20sOO8C1Y0m8U86O5Yx71PJdmwcN1OnuNEv8i5qIC6qXnihEXgEF1xIe
+
+!procedure SmartProxy($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/SystemManagement/SmartProxy', $name, $tech, $desc)
+!endprocedure
+
+!procedure SmartProxyGroup($id, $name='Smart Proxy', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$SmartProxyLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/SystemManagement/TestMessage
+
+sprite $TestMessageXs [15x10/16z] uqC3p2Y0H2uVBnSF7pC38oC30mip9KO1
+
+sprite $TestMessageSm [18x12/16z] uyC4pEY0R15EPcOM88i32DWuG2ASV5nSF7nip0miZ0ni32oOkgWc0W
+
+sprite $TestMessageMd [25x16/16z] pSyd0e104CNG-MHxcVlVbcvNG-nJyMKi-XgI1s00LLkKaD8DqsThpJrJJT4CimTelDLIOocKak6VWmS
+
+sprite $TestMessageLg [31x20/16z] tP0t3a0n24EHGfVY-n_tfss_xJmwtemVsXTSMkx8kID6So8n8kLHHmQGWp7uIVOkRH0yTsOpvZ4uIhl6N-W5
+
+!procedure TestMessage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/SystemManagement/TestMessage', $name, $tech, $desc)
+!endprocedure
+
+!procedure TestMessageGroup($id, $name='Test Message', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$TestMessageLg>', $name, $tech)
+!endprocedure
+' definition of the Item eip-1/SystemManagement/WireTap
+
+sprite $WireTapXs [15x10/16z] uqC3p2Y0D2uB5mZmSO41J9QL5KKnAr560G
+
+sprite $WireTapSm [18x12/16z] uyC4pEY0UY9S4C07fH5gkE1gS3EuIB4B
+
+sprite $WireTapMd [25x16/16z] uyC9c760GIF1XYh1oGK3V7nm9WkA3XPSHl7nuPBWm6KvZJm8
+
+sprite $WireTapLg [31x20/16z] uoC0cF41bf4YpSsE8Ss51FZua7aOkZdm6ix2mOfFcfMF3w_J-3ZmIdFGDTHOy04s
+
+!procedure WireTap($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/SystemManagement/WireTap', $name, $tech, $desc)
+!endprocedure
+
+!procedure WireTapGroup($id, $name='Wire Tap', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$WireTapLg>', $name, $tech)
+!endprocedure

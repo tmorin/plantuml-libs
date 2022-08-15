@@ -3,7 +3,9 @@
 ## Presentation
 This package implements elements based on [Material Design Icons](https://github.com/google/material-design-icons).
 
-## Bootstrap
+## Usage
+
+### Bootstrap
 
 The bootstrap may provide PlantUML artifacts like constants, procedures or style statements.
 
@@ -11,6 +13,8 @@ The bootstrap may provide PlantUML artifacts like constants, procedures or style
 ' loads the material-4 bootstrap
 include('material-4/bootstrap')
 ```
+
+
 
 
 

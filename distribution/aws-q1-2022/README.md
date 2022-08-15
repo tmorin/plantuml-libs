@@ -1,6 +1,8 @@
 # aws-q1-2022
 
-## Bootstrap
+## Usage
+
+### Bootstrap
 
 The bootstrap may provide PlantUML artifacts like constants, procedures or style statements.
 
@@ -8,6 +10,8 @@ The bootstrap may provide PlantUML artifacts like constants, procedures or style
 ' loads the aws-q1-2022 bootstrap
 include('aws-q1-2022/bootstrap')
 ```
+
+
 
 
 

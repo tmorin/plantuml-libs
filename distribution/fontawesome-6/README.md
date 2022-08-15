@@ -3,7 +3,9 @@
 ## Presentation
 This package implements elements based on [Font Awesome](https://github.com/FortAwesome/Font-Awesome).
 
-## Bootstrap
+## Usage
+
+### Bootstrap
 
 The bootstrap may provide PlantUML artifacts like constants, procedures or style statements.
 
@@ -11,6 +13,8 @@ The bootstrap may provide PlantUML artifacts like constants, procedures or style
 ' loads the fontawesome-6 bootstrap
 include('fontawesome-6/bootstrap')
 ```
+
+
 
 
 
