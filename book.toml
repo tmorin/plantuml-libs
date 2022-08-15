@@ -1,0 +1,19 @@
+[book]
+title = "tmorin/plantuml-libs"
+authors = ["Thibault Morin"]
+description = "A set of PlantUML libraries and a NPM cli tool to design diagrams which focus on several technologies/approaches: Amazon Web Services (AWS), Azure, Google Cloud Platform (GCP), C4 Model or even EventStorming and more."
+
+src = "distribution"
+
+[build]
+build-dir = "public"              # the directory where the output is placed
+create-missing = false            # whether or not to create missing pages
+use-default-preprocessors = true  # use the default preprocessors
+
+[output.html]
+git-repository-url = "https://github.com/tmorin/plantuml-libs"
+git-repository-icon = "fa-github"
+
+[output.html.fold]
+enable = true    # whether or not to enable section folding
+level = 0        # the depth to start folding
