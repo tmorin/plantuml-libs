@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2022/bootstrap')
+
+' loads the Item which embeds the element AmazonEc2Is4GenInstanceCard
+include('aws-q2-2022/Resource/Compute/AmazonEc2Is4GenInstance')
+
+' renders the element
+AmazonEc2Is4GenInstanceCard('AmazonEc2Is4GenInstanceCard', 'Amazon Ec2 Is4 Gen Instance Card', 'an optional description')
+@enduml

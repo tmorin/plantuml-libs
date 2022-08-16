@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/O/Opencollective
+
+sprite $OpencollectiveXs [10x10/16z] Om02JdvM1X3W1mC8Wm42e0ncVawe22UI71kKnSSFL0SL0odWPE03SrYXvW4
+
+sprite $OpencollectiveSm [12x12/16z] FOkr0G0m409fuiB-qqR_kGh5fJ7ZmySqsUCqEV4PHslQsAN9A9qvfMrlMYR-ZuBnT08s
+
+sprite $OpencollectiveMd [16x16/16z] FSxLeSK020Kmwagp_xHFhfpyuTJBqgwAzhQ-Gry97KEDTvgV-dg6Gi9cuKYCPaXyWOgLYp7npS2T68KqhBfMJ4bylx_MsvejRqaCGDUVNm
+
+sprite $OpencollectiveLg [20x20/16z] {
+VT35GGL140N0j-vJ-KUBGo_swpJQbWzRSqwvcNoukdnGjWT7jLahbfOoIY1bO0ss5DYGcmtjnra7o1tE7sS3vXzd3K5BmPKBImfzEbXJsaT5R5t6Lf5tvUT8
+VK-t0bUVLyy
+}
+
+!procedure Opencollective($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/O/Opencollective', $name, $tech, $desc)
+!endprocedure

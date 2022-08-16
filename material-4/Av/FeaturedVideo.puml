@@ -1,0 +1,13 @@
+' definition of the Item material-4/Av/FeaturedVideo
+
+sprite $FeaturedVideoXs [10x10/16z] Oy06-DdOsFZuWO217yZ3OF7n0HbW5X3WPi41
+
+sprite $FeaturedVideoSm [12x12/16z] Oy05-160WHyam4U0pGS4CFKWG3IR1zbQ
+
+sprite $FeaturedVideoMd [16x16/16z] hSU53S0m3031LoC8sTv_sZ8pdV2uuh9C4fZaXdKovcXeTtb-RTdupayFKConLW4
+
+sprite $FeaturedVideoLg [20x20/16z] jSYr0S100090uWxxJnltvltAGuXMVnce-a2T6b0u93qUzBvJmflqLwEO-DN3rW8
+
+!procedure FeaturedVideo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/FeaturedVideo', $name, $tech, $desc)
+!endprocedure

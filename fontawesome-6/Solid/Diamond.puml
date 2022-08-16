@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Diamond
+
+sprite $DiamondXs [10x10/16z] Om01FWOeuEVdXp6WJ7u8039WW0_EWeaXf15QaCq3
+
+sprite $DiamondSm [12x12/16z] HSkr0S1034DHzGRjFsro_5zZb9RMOvls3Tvers2q8ThYAGcd5jerb8OV
+
+sprite $DiamondMd [16x16/16z] NSV10K0m50N1_Qwm_LSB8CcRs_2eZTwaHZMgKOrgL2b7MvonAqIXTU4MXIX4GLTk1m
+
+sprite $DiamondLg [20x20/16z] PSgn5K000CJGQm2u_RSb5UINUGamdlcRsof12KfGWXAKe8ICjREMoXx7t7H15tH15tH15rxN1G
+
+!procedure Diamond($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Diamond', $name, $tech, $desc)
+!endprocedure

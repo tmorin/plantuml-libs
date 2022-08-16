@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/Blog
+
+sprite $BlogXs [10x10/16z] HSk53GD100F1EKKGtlwhVGOBpF3-iEDNyOf-_YcCL85KYk_OLVkDWaVzTtMVPW
+
+sprite $BlogSm [12x12/16z] FSQ50G0X3C30lFjd_sbn2BGzSl_3I7K6fZg_9_g2ocqrLSsyxsos0jBiC4hkrM7CDUyEHW
+
+sprite $BlogMd [16x16/16z] {
+LS-50SGW5C3GrBtPVzeJtE5zd9YyHffqgzvDO5mU5PYkwz-U0pmAwWYRkd1gT3nYutKjPdSODFWO_W75w7Zq84_n2pZSqPjAI4CmJpQtxc1ns6lZ05twlyrP
+Nm
+}
+
+sprite $BlogLg [20x20/16z] {
+NSj50WL120FH6hUcw_wd_Shesq4IqkhMyw1gD5o5FuM7MQt0eW9e05K3p5yELvtpzzMeeA9AMXHqllvONGX_8BQMBsKmV-e6K6oQoyy5w9ov_WGG8l9OrOwK
+lqQTIKLjO507KgTQgce3gPeg9nDNc-hAwGq
+}
+
+!procedure Blog($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Blog', $name, $tech, $desc)
+!endprocedure

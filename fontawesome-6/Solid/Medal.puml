@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Medal
+
+sprite $MedalXs [10x10/16z] JOk50O103CI2Ezb_MkIztfD50MR5_moproM_C36lH4RJWVwOHtZJMDCrs3irZXS
+
+sprite $MedalSm [12x12/16z] BSk50G8130J1mPtjlrfuYISdjmfKgWk-bMk5cdbohpiSJlMrdJur9eTA1T_WqX4Lwef7EIXGrToQymy
+
+sprite $MedalMd [16x16/16z] HOs50GCn30FlEQpzfoqPUa6JzEW3XZxyhfgXwD7mwzmilRnSlQ_3FaBeQUnjL5Wu-Z4oTAQ5FNqtBwy2Huk9_wjugpqPNsoHXbiQqemoJ1a7JbMwlG4
+
+sprite $MedalLg [20x20/16z] {
+JOu70iCW30DjilV_VrjyUFJQ949uQFiCSLPE2-_RlG_avgFck6v-zvgboAkhXjggqpYjRk_Yg2d2tRIexTqbQA-FqhG82MbD7C_Sdqdt-42p-vvgVgfx9oU4
+HwmLzUBbLcy8JuVK4BctvtbisP9XaaU2EJtvuyBnnXy
+}
+
+!procedure Medal($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Medal', $name, $tech, $desc)
+!endprocedure

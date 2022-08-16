@@ -1,0 +1,21 @@
+' definition of the Item azure-4/Item/Storage/ServiceStorageAccountsClassic
+
+sprite $ServiceStorageAccountsClassicXs [10x10/16z] Oy06E640YSKAaGBIh500P35109350W6i36nGIJQ4SG
+
+sprite $ServiceStorageAccountsClassicSm [12x12/16z] Oy05E140XSsA00oiSDMigE9CC80cpW83h0ni281iBG
+
+sprite $ServiceStorageAccountsClassicMd [16x16/16z] Oo04E5401ngV4uFFXWeOM5cO482L5SX7CXp4HmMOwbcP4G3CPq40J3w6_GG
+
+sprite $ServiceStorageAccountsClassicLg [20x20/16z] Ow04S680Teh4M3402r0CrKvcx68uz3AX01PiOZZrig00N69iR6meEe5Se1WwO24sI04
+
+!procedure ServiceStorageAccountsClassic($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Storage/ServiceStorageAccountsClassic', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceStorageAccountsClassicCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceStorageAccountsClassicLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure ServiceStorageAccountsClassicGroup($id, $name='Service Storage Accounts Classic', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceStorageAccountsClassicLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item material-4/Av/PlayCircleFilled
+
+sprite $PlayCircleFilledXs [10x10/16z] Oq01_FoyO9gR7mIOG28G06RmW0WM20j8SZFm0LdCO8K8TGpC40OOiFA0p
+
+sprite $PlayCircleFilledSm [12x12/16z] NOg50O0m30GZkEw_BS-XxLMI5wiPvkxUrlsalrTejMiaGbtzOPj-juNT-3j-EZZ3Vkyir4NthE31E
+
+sprite $PlayCircleFilledMd [16x16/16z] ROu30i0m54Dhu_wddV8plw4D2lMFrdVLvauKPQRGeI5WiDnXMCOgiA2XPUHktFRo4tsCunZAfkEyE6uvJfbmeNv9OFTArUg75G
+
+sprite $PlayCircleFilledLg [20x20/16z] {
+bSw54GCn34HHqJ6e_shD6uUJ-qEUPn9TQ_RKeNSoUUiKqEOzmQdxk9W_jDsUzrs1_TXEj7l9xWmFBtU60RPxuwEifcHdCxsRqAejT__Y89gAwJqTLDDxGhmz
+N4J3kiz2dui
+}
+
+!procedure PlayCircleFilled($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/PlayCircleFilled', $name, $tech, $desc)
+!endprocedure

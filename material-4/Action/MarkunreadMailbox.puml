@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/MarkunreadMailbox
+
+sprite $MarkunreadMailboxXs [10x10/16z] Os1WuEVdPu0010j9X9aV23ZWB1uGYm_EuiVDOkI100O
+
+sprite $MarkunreadMailboxSm [12x12/16z] XSQr0O000C2muax_lnPtpHIWLaD6bwTHjBGoAkj11Or6ZQFm-jRz_hq-d7153m
+
+sprite $MarkunreadMailboxMd [16x16/16z] hSU35SK0542n-r4_x3zjRIk7eIHUKZh75qPYSI6JIlQ7ZtjvRy7tnDrcz_VEkC9S0G
+
+sprite $MarkunreadMailboxLg [20x20/16z] nSYr0O00402nm-rb_sbnTofIXevuZz77ApkxOokgn9rGHaLttY7oINvoylNCzjVv_N8Wa8sSKmq
+
+!procedure MarkunreadMailbox($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/MarkunreadMailbox', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item material-4/Notification/TvOff
+
+sprite $TvOffXs [10x10/16z] HKc30G113CkvxlxJlb64-6S23NwgM8MTcHjIrzNbiJfV1Lslkj9BNUcXxbaJpsZP0G
+
+sprite $TvOffSm [12x12/16z] JSUr0S103CLG1NzZs7_Qu85LFL5RmM7Hwn3uJpArvXz9YA_NttIJwcxJJQZxczSzBT0BRW
+
+sprite $TvOffMd [16x16/16z] ROg74S0W4CDCxx3_jW7UbwuKaCxueoW0tcBHmlef-82D7W7QZ93DH0DZpD07YHXcBKXhqo7XSeRBeHZeihYSYykve5-XJh-O8Sn-OcTue1KE
+
+sprite $TvOffLg [20x20/16z] {
+TSo50KCX40FGuCxjlsrJ3RLyvPtWRsAwVVhZw3AO7VXQvM7DoWqJnfDu8hhMRArs2oU66J6R4jb6rXGy3pJq5yhOcRzCdOTffqoTCksKgLEcdJ9rEZxBpX1o
+HbZx3F4hmzmt1k02
+}
+
+!procedure TvOff($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Notification/TvOff', $name, $tech, $desc)
+!endprocedure

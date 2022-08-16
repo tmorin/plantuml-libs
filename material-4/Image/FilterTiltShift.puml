@@ -1,0 +1,19 @@
+' definition of the Item material-4/Image/FilterTiltShift
+
+sprite $FilterTiltShiftXs [10x10/16z] LKf50G1021lwXFvfpnMTuQj4B31tddR7U5lMmNFeCItZank7O9F28ErM
+
+sprite $FilterTiltShiftSm [12x12/16z] NSlL0KCn34FHyvYIQFzfI_xhDOFySzeLBQSxApoA7L64wo2v6HD80ewBvwkC2ap1Lgq9zWp9fAZg3G
+
+sprite $FilterTiltShiftMd [16x16/16z] {
+RKs50S0m28Ewv_zhw_FXcj2_yADBo0JOe_L5zUWWLklea3YFoma2sUCCDecnodsOHmkW9vrF0XneF1PoxUq8YtTkIvoy1xu4hnMlblI15XNP0dKSgf89aUb7
+6W
+}
+
+sprite $FilterTiltShiftLg [20x20/16z] {
+bO-55GCX44JdS4xszzzj7XBtWNNNVoXacNbTaS6YTZ1tyKNSZ5soWgxObYxWwl9iJTHPE19s6iSQJmpfQ9ro70rWl---03TzRJldvMusRipc-Rfg8EaA6CLS
+NM5aoxK_u7MPkj5FYd1noUsGPOtT8WOLh_Su0G
+}
+
+!procedure FilterTiltShift($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/FilterTiltShift', $name, $tech, $desc)
+!endprocedure

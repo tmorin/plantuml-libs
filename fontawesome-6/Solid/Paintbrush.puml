@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Paintbrush
+
+sprite $PaintbrushXs [11x10/16z] Ou03VWGBnkJYXp7vKLWy22QK0K888JYJ6SA2Ym8
+
+sprite $PaintbrushSm [13x12/16z] JKp50G0X33lt8_jF2_Ksh_XKy2SzWU0DAOXYLhemRyM7yPlvOVxoH41atusl89mskEgWF0q
+
+sprite $PaintbrushMd [17x16/16z] POx50O1G3CLmX-m_BMxfxwtFCz_O-GV-Ruw15c3u_XaBpfSo_AI_WVvvcpQJuEI0_Fw7gtyfx1zZuFAy-Np-55xCyFmR
+
+sprite $PaintbrushLg [22x20/16z] XSx50SGm34HHuqBezrzjs4mwFj68iWown1ae44fLDwufJbH6rmV_iKaeHtyELOHVXqkHoEqNQY9JZgEe5dWvZwJ41hOuASLSUwJ5K3zEPJ3bZ4rKT8hm
+
+!procedure Paintbrush($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Paintbrush', $name, $tech, $desc)
+!endprocedure

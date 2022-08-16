@@ -1,0 +1,16 @@
+' definition of the Item material-4/Hardware/SpeakerGroup
+
+sprite $SpeakerGroupXs [10x10/16z] Oq01_200f3aP-9c07908N8mV21cv82mUe0XKZ96F4KqTXca
+
+sprite $SpeakerGroupSm [12x12/16z] NOh50GCn0CCSvcZ_QTjZqiiWVQYis2rteYPkJRxJn9KPLvxgEhE5rezS2-Rogvj7ZgneoxhmhAp67m
+
+sprite $SpeakerGroupMd [16x16/16z] RSx50GGX0CNGFsv0-gzsPN39xTsYOVWs-HPWDM2y_fwbQDQV7osbVOLdJRRmV69LMC1Y2ZkGoxQQjP4Dnf5S_7fNONtHQ-al
+
+sprite $SpeakerGroupLg [20x20/16z] {
+XSu73iGW44DH3xrp_zEcnxlfNmqzWGMUystBWNLsi0mKcevgDWKucks6zmx63bQyhoVp444wsZmMSR0YorZvjpPFDjJ3Mv7MH8vxpSodh__bdVBFZircrPhG
+5BSIcFPRsyO8
+}
+
+!procedure SpeakerGroup($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Hardware/SpeakerGroup', $name, $tech, $desc)
+!endprocedure

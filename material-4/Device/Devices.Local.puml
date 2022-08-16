@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element Devices
+include('material-4/Device/Devices')
+
+' renders the element
+Devices('Devices', 'Devices', 'an optional tech label', 'an optional description')
+@enduml

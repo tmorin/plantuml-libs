@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/CloudTestLab
+
+sprite $CloudTestLabXs [10x10/16z] HOg30G1130GdJlyDFuxXYbkIy4t31DO1jtfRtT-8CLqPWuA3ZS1sVR3W1G
+
+sprite $CloudTestLabSm [12x12/16z] LSE53GGn00Cm5zBB_Wi_Ych9BlcV8UA85fbMUEhMPPSSJgiz1XmypEqoHZoTCjcEDgRB6m
+
+sprite $CloudTestLabMd [16x16/16z] ZOxL0O0m34HVszZ-2sFtWqFSStoIDuTe0LK9D1nWomjmxwiPa6LyaQx8E86ko3GSNP7n6Fp4ftlDXUzmBmHj2EIPPW
+
+sprite $CloudTestLabLg [20x20/16z] {
+bK-54GC124Fpx3zniRhdEDn2FuC1IGDOwYEEok4icPE8iCbvQqt9d6TEu3thlhF_u8ZIYDgWq0eYQeUd8M8ZaSd5Q2RbUg8xK9_rHR3VyLdz5hMrrnUqjGlx
+iAg0dPVlurrmfMtxoBXNM6kKhj6NE04
+}
+
+!procedure CloudTestLab($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudTestLab', $name, $tech, $desc)
+!endprocedure
+
+!procedure CloudTestLabCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudTestLabLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CloudTestLabGroup($id, $name='Cloud Test Lab', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudTestLabLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item material-4/Toggle/ToggleOff
+
+sprite $ToggleOffXs [10x10/16z] Oo00EFX1W8c1WPkL0SnaO00Y5X2Bcu6L3oe616mWWDqC
+
+sprite $ToggleOffSm [12x12/16z] Oo0PyF9303i30oil0mE4my30mmoJOc9WucTWX8api47LCn9bEW
+
+sprite $ToggleOffMd [16x16/16z] hS450S0m44MnL-P-_sg7vs1B-5-NsOdBKaeo2PmSE1dmuY83A47IQmDLUyiuBc7CL-Ex4m
+
+sprite $ToggleOffLg [20x20/16z] nSo55S0W40FGu4xstxOFPuBoM-mC3_dAfSWHAcJbvbeeqG2IMuknj3tic6-ns69wnrABrJ5qCG0Cgq3aXiRpKYK6OnU5dtm
+
+!procedure ToggleOff($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Toggle/ToggleOff', $name, $tech, $desc)
+!endprocedure

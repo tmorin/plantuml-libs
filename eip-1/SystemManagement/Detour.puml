@@ -1,0 +1,17 @@
+' definition of the Item eip-1/SystemManagement/Detour
+
+sprite $DetourXs [15x10/16z] uqC3p2W09vUFZOsDcHZ5t70kAx8r1FG2
+
+sprite $DetourSm [18x12/16z] uyC4pEW0lmWVkWWxEve89xekTdmcim017mkSXAhXG2A9SI4
+
+sprite $DetourMd [25x16/16z] uyC9c740oYKukN58yFAmW02611jsezXnsC6Bmt9ExAvYmN0k1oS8y75pGcW-CCK2ry41fLbPAGqIJ
+
+sprite $DetourLg [31x20/16z] lP750G1120DFrw7_RizTvibyqIIgJ4jqvkLIiApg5lhFSg3bVK-t8xuc-7aYOLq0tV5uoljhMV-GkVoMwvnHOXtXHW
+
+!procedure Detour($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/SystemManagement/Detour', $name, $tech, $desc)
+!endprocedure
+
+!procedure DetourGroup($id, $name='Detour', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DetourLg>', $name, $tech)
+!endprocedure

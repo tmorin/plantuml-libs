@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Brands/SpeakerDeck
+
+sprite $SpeakerDeckXs [10x10/16z] Oy06EFdv-Jc0c8-57qI225v-g1m_0py8W5WGFXiGyq34G9WJ2404ad4
+
+sprite $SpeakerDeckSm [12x12/16z] TOo30G0n303hnjb_shTnCSC_CSRD-S8InB7t7chlvkn2XFDgyNrdoHVSBdtkixly2J-C
+
+sprite $SpeakerDeckMd [16x16/16z] bSsr0S0m30J03tD-_sbDeYvmZIt6Ryjn5XtEOWEezBDek7ZXHY1dhqiCgaDZZ4T1KcCnjr_d-_tWuM6hdEW4sWUlCW
+
+sprite $SpeakerDeckLg [20x20/16z] hSYr0SDG5CLGcTdQVzhG-zJ7fxd0upR3IkGDbnbxv3MQtPIcCotrqetMfOFPMJvEixjyB9U6ycMxplbRjw3sH9vQq4SU5ZsH4yiMHlZbob_U
+
+!procedure SpeakerDeck($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/SpeakerDeck', $name, $tech, $desc)
+!endprocedure

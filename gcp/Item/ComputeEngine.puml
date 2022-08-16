@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/ComputeEngine
+
+sprite $ComputeEngineXs [10x10/16z] JKo50G0m279W_V_mkkm0v3VlZZ4KXOBZecD5UYz29jQDdllcxkC6OXZ7dDtvwpK
+
+sprite $ComputeEngineSm [12x12/16z] RSg70G0H50FGt26o_y9wvoc_uk3AgLXEOQgyG5CxAd-QUFI-eKQV91xx5GgLiui
+
+sprite $ComputeEngineMd [16x16/16z] ZOq54e1G24HfkF-9NUpMztDZ1lf3z7PVjHCxkIrI5wQow-9NJIy9O9fzXbPDwAKF7SNxVaGikIDd03-YjKt-ei_pGVL6UD5N1W
+
+sprite $ComputeEngineLg [20x20/16z] {
+bP050W9H20Nn3NN_2vlOkZ6xlsYmNMGOUJwqA3l8NRZaF8JYoVYbyzHsv_cCU9LLnTpCEDEcqG8tMLraxZpYGNPFl8TlPexlGvONJ0krI20DW7xrCNIPz_d0
+bcNFMVtZ1
+}
+
+!procedure ComputeEngine($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/ComputeEngine', $name, $tech, $desc)
+!endprocedure
+
+!procedure ComputeEngineCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ComputeEngineLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure ComputeEngineGroup($id, $name='Compute Engine', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ComputeEngineLg>', $name, $tech)
+!endprocedure

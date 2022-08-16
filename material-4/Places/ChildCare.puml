@@ -1,0 +1,16 @@
+' definition of the Item material-4/Places/ChildCare
+
+sprite $ChildCareXs [10x10/16z] ROc53G0X5CLwhj3zjoLeZ2zFcO_nqYpCi0NmGoHag2FcCrUuSlBV057DOam2
+
+sprite $ChildCareSm [12x12/16z] VSd50SH03CLGPPZitt-romnvHuaTBcbmeG9ClzJ2cVLBhOvW6k9Eo5bcre8QZ85hedXv2u865qKwrpT7
+
+sprite $ChildCareMd [16x16/16z] ZSgr0GH140F1NkPH_j4-Crvv0ZO9VLR7bPVMDAthg75kZHCDpjJFPyZWFUduq0IKEBrLKE1kJKmUvuyWASAISpfODBNJoQ3DGb3cHCSRLPsBeQFCdVUEZ_O
+
+sprite $ChildCareLg [20x20/16z] {
+fOxL0GCW44E3Ezb_suQh_rKUSYxu6zSfTi6JJEvM1adtT6rlIk6-5puq12wJQTFZJkVG7oaX_LHwk4Lfq_eE_PN1UaPiuWtFhAg4LyRfJbAVCM7THLDsebZ0
+OeJ1anwplidwM9hDISR5ZWURXcKz26sjMHo-uW8
+}
+
+!procedure ChildCare($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/ChildCare', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-7/T/Tietoevry
+
+sprite $TietoevryXs [10x10/16z] HSI50O0m0CJ0u4xsdnRglHSwztZ4yqP9Vt6z-D8j3h2DAnYDyoplBegm4abrm0y
+
+sprite $TietoevrySm [12x12/16z] LSI50SD00CD0XVDaxJzj6S_0Bmb00xgxQOxC4T645WQUZY5EoXzFfjSND_Gq19a7Ye9EopQXVDI93u4h
+
+sprite $TietoevryMd [16x16/16z] {
+NSc5WLWX403HGJxEJl_L9kVsO9s_J5rUoQlXB8E-60wUHRPspqvcoumcfguHaIGoudcvtnAuUqoXaYWDgEJNabUT_A03Biqru83MYM7ofXbeoIkInsGJJ1Hd
+ruC26caJYQ40YK_tuHVvhGBy1m
+}
+
+sprite $TietoevryLg [20x20/16z] {
+RSRLWKKX4C3GN046c_HVxRhlEpy9Zup9dBpwAah4rtxKLBREK4ajABhay5IcB55KCpEKJ2v9qIdCCsL8IZELgOFxVKuUssFiWr-AnW4IpJCg2DhEHJZSmpN8
+3UefrjVStajGE5spg1TE0PEeIXekKW1r7maU75iBG5Q-EVYho3zs_ZdUymm
+}
+
+!procedure Tietoevry($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/T/Tietoevry', $name, $tech, $desc)
+!endprocedure

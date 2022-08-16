@@ -1,0 +1,13 @@
+' definition of the Item material-4/Maps/MedicalServices
+
+sprite $MedicalServicesXs [10x10/16z] Oq01_FpyK1OF0vZ53mKSO1OF28DP8887gXnD30J0B4OU26
+
+sprite $MedicalServicesSm [12x12/16z] NOo35S1G302lUWZtdxR-l9ZCc6jDZyqt7jJI7bNmBAnVldOvDTy0w_irjo-txWzhWGi
+
+sprite $MedicalServicesMd [16x16/16z] VOs54S0m30E_JF9f_sdBJ9-OYLUID4tFeIUEE3EaMrnByY9TllLkGFeQ1t-nc3ZLeoFYRzxwkiSv57S6
+
+sprite $MedicalServicesLg [20x20/16z] dO-50S1020D9NLAo_xPrzxzN7EmVfNgmqychgbAvrx6_Afk8Qv9IVtbtbRrE1ueB7LUTywpBpJ_e03CWs-bi80t8rzFiUzd3czd07RtgWXO
+
+!procedure MedicalServices($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/MedicalServices', $name, $tech, $desc)
+!endprocedure

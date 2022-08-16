@@ -1,0 +1,13 @@
+' definition of the Item material-4/File/SnippetFolder
+
+sprite $SnippetFolderXs [10x10/16z] Oy06-840oe823WYBWOcV1yBYuSTaSN82MHnG7KZ60G
+
+sprite $SnippetFolderSm [12x12/16z] Oy09U7XusA5CNduWu042RX0R1fYWR0O6FZYRYPy1XOrG0sBp8EbbO8O155i1
+
+sprite $SnippetFolderMd [16x16/16z] bSt50S0W44JHYNlelrhSdO--qs8u8ZeiPo9xHS-gx7AUvpCmFfo1nQxv-m8lFE4fceVhTQrenG
+
+sprite $SnippetFolderLg [20x20/16z] fSYr0G0X50MmXpliF-svO1K_PK0ZrK6YLcvcSYNUt7irMr_EkHnYVGpWmuK4sLyi1Ql7EE_FdQgh-EDiTo3P0G
+
+!procedure SnippetFolder($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/File/SnippetFolder', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-7/V/Vapor
+
+sprite $VaporXs [10x10/16z] DOo50S0m40AXhhdzfus_6w1cjwO1COpHhIwjF7q7wsWx_9PtcgLJUk6URBXIoFYfjG
+
+sprite $VaporSm [12x12/16z] HSS50G1130F177FNlzfdc69qQVg0_U_X-WBPXplC-m11xVjDdeCMdQ7KZmF9oAg5bMYDvIItgEI1BlIHbXvMimux
+
+sprite $VaporMd [16x16/16z] {
+LOw54S0m30CLvcZ_RIjV-GDcm4N33tBZnTDupC8JTvfJcW-BP3nBpzGXsO7yb9ubZ18JPw0NfJKfpSo-Qq7UVGyQIQcm_AnZfa8Pc6rdfjNNw3j156cBLKdN
+GbwPaMNZGSLZuCDYF9K3
+}
+
+sprite $VaporLg [20x20/16z] {
+NSt50GCn44DHcTc__sgJPNgtGUbIz6MWwosmqbDXPtGPdA8EWB7MDHRr_0vM2yjYIlAicbQJbPGgg_klCIh4An6OYQKNiIo2B537kXU8bCOkpfwHcY50OkN9
+SoOZHvgr4c1P2RFqeGMj4GbbuF5KRTf816Xb1e8E2K_COnPqCwH1xbqlD4FLHyFfy0S
+}
+
+!procedure Vapor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/V/Vapor', $name, $tech, $desc)
+!endprocedure

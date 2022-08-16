@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/FaceSadCry
+
+sprite $FaceSadCryXs [10x10/16z] HS650G81000XxFRsdrQ_7-3H5JHvqEAYrQCZyMrtgUjNIbqlKXvTkoQShnN-
+
+sprite $FaceSadCrySm [12x12/16z] LSP50G0n00InBNF7lzfZp2lQDR9Ed3w5JncVqnYA3XNnay5IHU-W_L9yRZIs9sdxflUfZJdkfHK
+
+sprite $FaceSadCryMd [16x16/16z] NOu50WGW20JNRlV_lptYUimn01ZbS0MyE7IQAzzSrm_R7ty8u2z51f3UipnFa_4oBGQHVvQCkBcZBMHm1-2ENx-eJm_cMhrjjXrN25kTwgB6qo4y
+
+sprite $FaceSadCryLg [20x20/16z] {
+RSu10a0W40NH3w1gv_wdXIh001ugbHOZZBerK8fD9MujNmBt9HYkiQuaFit9mkmvMcPB5w3DmzfnET0ECwo5EC8O-2zvEq5O0AN78TcO1gkcOiDbKV5ZhPfi
+uJ99IxAqacGwSiaWMwjKVvdNMKSgAhK1
+}
+
+!procedure FaceSadCry($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FaceSadCry', $name, $tech, $desc)
+!endprocedure

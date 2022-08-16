@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/CcAmazonPay
+
+sprite $CcAmazonPayXs [11x10/16z] NKk30G0n4CkpRlQVjlRv0ipukGIGwYFoILX1BygfhZ_DSfQvMvWiATx_AOXGXoO2
+
+sprite $CcAmazonPaySm [13x12/16z] LSV50S00008nwWgt_xHrpI_wWJyJSvfn23K-mbGqKSCU2IaKHpY4dsO4XOER1XXr27_AQru1
+
+sprite $CcAmazonPayMd [17x16/16z] PSg55KKX3C3GubQQ_QVzybmkdeEygDtKoLjg7gAt0ca9iaoaAN86vmIdTeHg_oWi9FvJSiou1JR5M4osKy6WAGSRHM5AcjkNu1f_NLREg6nCrLWK7kJf2m
+
+sprite $CcAmazonPayLg [22x20/16z] {
+bSp5OK11203H-RRAClrN6tVFk-3mjVtuZEB_S842wshAqdkazL23HF4HAiPPaPprjPjRR0QEilc4vjRdPa719yGnj1pPbUaJrC_vuRErXzwRlhS0jUxBjo9H
+JRZoUVEaF7-S6y-AXgzclVhoIVeL_4BmfLi
+}
+
+!procedure CcAmazonPay($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/CcAmazonPay', $name, $tech, $desc)
+!endprocedure

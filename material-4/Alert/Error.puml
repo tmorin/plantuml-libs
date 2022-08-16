@@ -1,0 +1,13 @@
+' definition of the Item material-4/Alert/Error
+
+sprite $ErrorXs [10x10/16z] Oq01_FoyO9gR7mIOm2ByO0ma82mME8kRWGz8GXK2IKwmEWPci134F5OUa1a
+
+sprite $ErrorSm [12x12/16z] NSk30G0W40NGdrtxJvlzuWa_xII6a1grlvMe__QE2th_2Vp-KyYqFFrZOBHNSdyRGj4K
+
+sprite $ErrorMd [16x16/16z] ROu50aGX24GLTd_ZtF-qTkipwL5xjEwj3u4pMuIC91iLgScIl5p2KXwbUnkbMxCrUagzuVWytZuxEweqA5mg8fqPuP3oQhN10G
+
+sprite $ErrorLg [20x20/16z] bSs50OKm30JGgtkp_xHVWSFbeOtYcIWVpO223Bh6e0XfLf7wnUGdeF--PHhFcB2CCRiJIpknmfZqAOaXJHg0tTax_DV4Li38J0COPEXF5Uu4kLoZnh4t
+
+!procedure Error($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Alert/Error', $name, $tech, $desc)
+!endprocedure

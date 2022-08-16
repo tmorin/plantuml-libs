@@ -1,0 +1,5 @@
+' definition of the Item c4model/Element/ExternalContainer
+
+!procedure ExternalContainer($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'ExternalContainer', 'External Container', $id, $name, $desc, $tech)
+!endprocedure

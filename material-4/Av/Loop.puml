@@ -1,0 +1,16 @@
+' definition of the Item material-4/Av/Loop
+
+sprite $LoopXs [10x10/16z] Oq05J306Fpy_GWpCXF1vuIn-68kH2yBbWsdWXUk5Y04
+
+sprite $LoopSm [12x12/16z] NKs50G0X4CBMo_sd_Kwl4p1BY6_fKfx6A_ir1YBIqVH-xhOH91-rf2qKFkTdZB3zvOGqzvV0x2NM8wu
+
+sprite $LoopMd [16x16/16z] RKu30W0W3Cok_V-rsJLxX_w4oPd2cKCckUKAX8OmXaiXpuTUS6uSeMrPzC6WMyxGCGXgz5K_dWqlEUxVGuwtzpY0F_5G0-FAUMlIm9
+
+sprite $LoopLg [20x20/16z] {
+VP030W11203Fhld_QyzhSt9DRRHjokWIBPXYg3nZJlHcHL9_2uVvocJYRlJ6RhFQndfWj4puxf71ikDdlPU34ZW9NI-leZo1dOMmtcOQLd60065hXWVP-2xa
+ZmAMeiQrxm8
+}
+
+!procedure Loop($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/Loop', $name, $tech, $desc)
+!endprocedure

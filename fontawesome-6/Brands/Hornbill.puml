@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Brands/Hornbill
+
+sprite $HornbillXs [10x10/16z] FOo54S0m3CHqxL7mzvysP90PWKwWWsTJ0nhyiZu-kTdaCh9NLQNxvGvkcFdcyB41
+
+sprite $HornbillSm [12x12/16z] LSsr0SHG081Gak_A_jEUwwle00PVti73OIKD7XI2EmX3xdHYEtZO8c_YvE6SedBdfeeUZtmOXUtnVxu2
+
+sprite $HornbillMd [16x16/16z] {
+LSt50S0W44JHMKXm-FrN6zUvlLLjgL6_G0PULwWUtEqPb8BRRRkXIjOO1fAVhaaF82EKQw-1xSU_duILXvOG_MNSa21ThX7D07RG4Ko9vi-9mhWNlGjHOBSd
+q01kom4pkrS
+}
+
+sprite $HornbillLg [20x20/16z] {
+NT254KCX403HvHj-st-tcGYnDuQUSTS7_tOzg_R45ryo7qc54PwmD0rqNW3zu4xT81MDhIjGTlq93DKHBAgm6MuibxenxV9biw447nC7ohUfXQAcJxocSAgJ
+nTs3vjsQIyW1HLFHkG5R6Dpjt9NxLjrWwKOZgOMFxil6npQD_1h63G
+}
+
+!procedure Hornbill($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Hornbill', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2022/Architecture/InternetOfThings/AwsIoTButton
+
+sprite $AwsIoTButtonXs [10x10/16z] FOh70KDH3C9urKRUVzxaTouqsNag8ln5Mpg2Hc1TwqZe3m1fQuQEDF6rWZZZo69Ey0XN0TVw1m
+
+sprite $AwsIoTButtonSm [12x12/16z] HObH0W0G58C0j7V_-mBeQokWJUg0V-QkQvQvwoi2xf4Qav3dJe1pb3es24ZB8ub9CxMxCTFax7yw
+
+sprite $AwsIoTButtonMd [16x16/16z] NOfN0aGn48BI8pFtF-yMi_Nn1mgWmtx29N09m6ZJeRLbRv_7qWwOlCEM8g1sqxgU7XLJYfQzspPQtTuYNAhtPpZKmNi_3pRAVoSp40vxy_IC0oOluGu
+
+sprite $AwsIoTButtonLg [20x20/16z] {
+PSq70i0W20F0kAFz_tyB0frndsjA61aMjLl_vkXsQnW0imwKiCV98YVNppYMugYHeRu4y_rx3Yic4ms46RaDeyxHtLPPTZTLCBdL9kXCDxBttZITOvf1Mfmi
+OiVXvbYagTLQ3LdAK9Cet2VT8hVzJfu
+}
+
+!procedure AwsIoTButton($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/InternetOfThings/AwsIoTButton', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTButtonCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTButtonLg>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTButtonGroup($id, $name='Aws Io T Button', $tech='')
+  IconGroupElement($id, 'InternetOfThingsFamily', '<$AwsIoTButtonLg>', $name, $tech)
+!endprocedure

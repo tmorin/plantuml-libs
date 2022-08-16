@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-7/G/Gentoo
+
+sprite $GentooXs [10x10/16z] BSY53S104CH0XpdklzlNCOmMO9eXogZ05qyF-1NFeAY68erQwMXkB58YmCdb51W
+
+sprite $GentooSm [12x12/16z] FSY54O100CJ0uF1s_NVBlMPi9xXjt-djSc7hj99qsD6-YiyELtKx9nJKmrsTTu6zymgBv0sQ8i9jKg14S7goHEi7
+
+sprite $GentooMd [16x16/16z] {
+LSx50G0X40J1nft9FzfphHUiSp3MyZ136--khzNb2cWpZgXxqip97Z2GfgHk4aSSQZRQ31qyH0MZomXiWcxekt3ylmMPpzTQVSvhjFdUr_6A71gR8d5nsd5R
+0G
+}
+
+sprite $GentooLg [20x20/16z] {
+LS-50SGW44JHlxXF_zrU26TvkBCSPixna7MP_c_Mz65mkANjheDZiwaDQ99o1l3Q9bgCFUc1ihGnL8ekAKEBGLkqgXiED8dwaoDGrD4FWoqkVH7wxpi7NW1E
+FpWzGrCdoPwxF1AFRHsdmQ43bX97jQbHiAx1HozmXsNyT5s6u-S5
+}
+
+!procedure Gentoo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/G/Gentoo', $name, $tech, $desc)
+!endprocedure

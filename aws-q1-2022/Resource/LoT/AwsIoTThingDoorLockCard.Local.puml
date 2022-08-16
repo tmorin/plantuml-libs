@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2022/bootstrap')
+
+' loads the Item which embeds the element AwsIoTThingDoorLockCard
+include('aws-q1-2022/Resource/LoT/AwsIoTThingDoorLock')
+
+' renders the element
+AwsIoTThingDoorLockCard('AwsIoTThingDoorLockCard', 'Aws Io T Thing Door Lock Card', 'an optional description')
+@enduml

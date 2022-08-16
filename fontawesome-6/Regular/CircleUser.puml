@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Regular/CircleUser
+
+sprite $CircleUserXs [10x10/16z] 5SY54GC130GnXJdRVxS_9xFXrTtKnQCNVKqtqNljTI5HrlvyxWzCsglabLc_rQSu
+
+sprite $CircleUserSm [12x12/16z] DSY50G90302nuDg__QV5IRtURfrzrPoce8EtUz-rXXbn6steDjnlsb8dLEWy_f9TRwGLteyJBVp7z7RY2G
+
+sprite $CircleUserMd [16x16/16z] {
+JOu54WH120EpRZ3z_zzU4SvwD1GIcIrv9dr8caFcymcovITl8Igvwg6VIKuc9WS66qwKLbINqok9_lGJm6Jze7-OhE-8E2MTYFppnz1EiiX93Ep-LWDxFG5R
+rPOq4sRK_mK
+}
+
+sprite $CircleUserLg [20x20/16z] {
+LT053WGn3C10BnVZ___sL4L7irWteaAguRZvSMcQspkfSG2FMjzfGDgr_QQa5roPGYqPyu6XJNUWM33UkuSzVwl7kstl5hA4TG_FzJir6wh1qXsIZhBdJtZx
+y4_HDMzwO7CotL6D23NNcseXXLs1geqtbQNvdjkcxZz7EhiBl1LTPWwz
+}
+
+!procedure CircleUser($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/CircleUser', $name, $tech, $desc)
+!endprocedure

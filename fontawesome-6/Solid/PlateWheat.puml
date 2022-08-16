@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/PlateWheat
+
+sprite $PlateWheatXs [10x10/16z] Oq06RFmC8CZ0nmkY-VX1W1CgnyK95KEeGm2WC1Gm85WCC0O
+
+sprite $PlateWheatSm [12x12/16z] LS450SH00C2mRiTO_sgVCO5_TcG8UYYQRPpdoUAKFf9AWCHnicMAdau0nJRbr_8h-uKV6ufF1rS
+
+sprite $PlateWheatMd [16x16/16z] RSU54GHH381GrkKdeVzgp_tsZJ1mPDaW-riO8cYAZjUmABsYTGtz1PCGTKsgTlmewPKKGhjLqLoKcx1GmeHVyQNvO_ORVaduMMW-TN06
+
+sprite $PlateWheatLg [20x20/16z] {
+TSx5WKKn3CLG9NuKilglTXW_dFq5dWiW2fJAjqCFT34Lg6gfAkhULI1pWKhJH8Nw3ePmEIXB_D3uPtiJq1R4QZ0IwBr1AkTt7w6Meg8UJVtzTwB9LBvT1QuA
+4JpMl9VUExo7TphXZGH8_xhuu1yxy0e
+}
+
+!procedure PlateWheat($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PlateWheat', $name, $tech, $desc)
+!endprocedure

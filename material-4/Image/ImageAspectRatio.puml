@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/ImageAspectRatio
+
+sprite $ImageAspectRatioXs [10x10/16z] Oy06-A60XO4VAi83P34p016OnSG0H20MM368XL370TMBP1m
+
+sprite $ImageAspectRatioSm [12x12/16z] TOc50K0X20NFRjb_sjyTfy0BVgaR1PetnawOfcbcxsUTTL5PhrenlrKpCUUxriowxeW6iyEL4G
+
+sprite $ImageAspectRatioMd [16x16/16z] bSp50S0m30D06SgW_QSjCoRtCWhHU501IZUVMSgnnyQU-we6HRdr8X10B_UNNlcS9wntuwuuz8u_FG
+
+sprite $ImageAspectRatioLg [20x20/16z] fOm50e0m30EhEEJ_lsMuwsxQDWd5ORv6knPsMDShJVlLeOQgwnMqvgud8RZRikfL88LqlwN7GT1jli-Ro-BOAz9RRrEjwIKPjb0KBG
+
+!procedure ImageAspectRatio($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/ImageAspectRatio', $name, $tech, $desc)
+!endprocedure

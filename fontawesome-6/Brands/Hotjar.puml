@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Brands/Hotjar
+
+sprite $HotjarXs [8x10/16z] Oq00Vdu-20q4C9eVIl53ANuk4C78pyy35WGZa59k1aOGpS4
+
+sprite $HotjarSm [10x12/16z] FSUt0OG04C0mVoIZ_RUbErTojJUnZnWnO63W3uxv_SMR-rJ4LIsgKtNK0m
+
+sprite $HotjarMd [14x16/16z] LOo50G0n20Ffkz_-stuLkIgGH3BN91vWjkh3ro-5nvHMNdHAseDIPLRXIUefrwkYDrJh44X9Ms2JMXKktdoFYbCAwQjtkNu
+
+sprite $HotjarLg [17x20/16z] LSo54GCn50FHpJ5l_zrcpFOR_20Ht3EZIR-Ldi59ynXD_I9QkiZmSraH73ORyDhvu7F0umYB-pIuXjk8JRLLdA2-am6V5t7nmu1eZM-_jlWy2Eh26QBVGVC7
+
+!procedure Hotjar($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Hotjar', $name, $tech, $desc)
+!endprocedure

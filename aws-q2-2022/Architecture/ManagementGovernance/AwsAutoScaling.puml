@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2022/Architecture/ManagementGovernance/AwsAutoScaling
+
+sprite $AwsAutoScalingXs [10x10/16z] FOk54S1040A91wx_Vd_sZJ5iRV_e-xnjiC86UmuNNnxkr7j8nnyaiCATO8LLS5WmDm
+
+sprite $AwsAutoScalingSm [12x12/16z] HOh70S0m30BT9V3--yQGTg-Zu90Y8e0_qA4uKA6tKA13ul66Xe8kRnMeSzRf3u_ejYacn5OOxN658EqELBW
+
+sprite $AwsAutoScalingMd [16x16/16z] NSc74GGn349HAur1xh_UI-ZICl4_-1oq_HWlm0kqUg-15fIxe0UIqu8qyDDEBzf6gjtAQDpBJ7ysmXqC0gUru6iu0qxj2CnZUc1rgr-WlVe2Tm
+
+sprite $AwsAutoScalingLg [20x20/16z] {
+RSz50aKn24DHIYsX-r_ly_3r3ayLNa7DC_v1_a4cjiIG5Hl2U13JAvv2I6UQ49sKdNMoEWt4J6iJtk36EXxhNWo3XGOhHViyME3JYChJLBMkYTOIWazlvbHh
+tShcmhGO5f4cFVjd8PCcxW
+}
+
+!procedure AwsAutoScaling($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/ManagementGovernance/AwsAutoScaling', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsAutoScalingCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsAutoScalingLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsAutoScalingGroup($id, $name='Aws Auto Scaling', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsAutoScalingLg>', $name, $tech)
+!endprocedure

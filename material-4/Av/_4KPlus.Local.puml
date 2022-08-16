@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element _4KPlus
+include('material-4/Av/_4KPlus')
+
+' renders the element
+_4KPlus('4kPlus', '4k Plus', 'an optional tech label', 'an optional description')
+@enduml

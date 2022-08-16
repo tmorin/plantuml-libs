@@ -1,0 +1,16 @@
+' definition of the Item material-4/Social/PeopleAlt
+
+sprite $PeopleAltXs [10x10/16z] Oy0E-Fb120Wu-45Cg1Wl6uJ5m0Y4GC363mHy86b-C03oaLXm
+
+sprite $PeopleAltSm [12x12/16z] VSA53S0m0C2mZ7dv_zfXILJBLAmJoyH7FHftNgeehrFdrfbFy_uSgWlx0lvE50EKBk1Pk04
+
+sprite $PeopleAltMd [16x16/16z] dSg53S0m30J03tD-_sqR5fTECXi_I393jLZO570l53kK5eEOSsqnnJPAa0gRc36vzicY879_qDoWMe17memjjxuW7w7r4Gyk
+
+sprite $PeopleAltLg [20x20/16z] {
+fOwr0G0X54EJSuNzfyKTEbxnNO9fkAt6EXCvf9G2C9QnH6dvRUkBjKiw06i2PwZHciXW5xihmHWYGmOJsUvF_E-v0AirJbn4q4WGKKWaw1PbxO0rWzevh4sW
+0G
+}
+
+!procedure PeopleAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/PeopleAlt', $name, $tech, $desc)
+!endprocedure

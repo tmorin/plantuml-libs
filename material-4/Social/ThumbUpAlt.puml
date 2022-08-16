@@ -1,0 +1,13 @@
+' definition of the Item material-4/Social/ThumbUpAlt
+
+sprite $ThumbUpAltXs [10x10/16z] Oq03R306Fp-SmGEcMFd1W8c1dmt2ueQp691Pp8mG1W8
+
+sprite $ThumbUpAltSm [12x12/16z] PSQr0G0X002nUnTi_sbn9rLOtQtQr2fZkkeSJB9rtxlJ_dS7zftjy3O63W
+
+sprite $ThumbUpAltMd [16x16/16z] ZSV50K0X0CFGuaxtd_QxApdbeJ51VIRZcLHdSlrYmB5IIbQ0P0QtVfmk5cTNdAq7YsmWyvJ7Vpq
+
+sprite $ThumbUpAltLg [20x20/16z] fSZ50O1000InnPtflrhSzIJFo5wUtgg0X-9Mjyl7ghKAWwN8mi5qa8Y3SI4zNMLuuVrQtIzzEAtNRbKi5obOgvMd7W
+
+!procedure ThumbUpAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/ThumbUpAlt', $name, $tech, $desc)
+!endprocedure

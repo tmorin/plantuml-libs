@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-4/bootstrap')
+
+' loads the Item which embeds the element ServiceAppServicesCard
+include('azure-4/Item/AppServices/ServiceAppServices')
+
+' renders the element
+ServiceAppServicesCard('ServiceAppServicesCard', 'Service App Services Card', 'an optional description')
+@enduml

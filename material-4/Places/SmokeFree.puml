@@ -1,0 +1,16 @@
+' definition of the Item material-4/Places/SmokeFree
+
+sprite $SmokeFreeXs [10x10/16z] PSR50O00400WxFRsdzPkUU4jpNIa294X68TwdO2gEviaOgLiUo30lpC
+
+sprite $SmokeFreeSm [12x12/16z] TOo50S0W3C22E_t_sxcFr9KlcHD1oHnyMtDIdMES2orICalHcMb6duLQQfdfI9txsioaZkPWUJ0e51C
+
+sprite $SmokeFreeMd [16x16/16z] dKk50SCm35EOa_-l7HZ6qDPi0Rw5UNx714gwNex-1RJ5LvBV5W8i0MNDuM9NWBTPU0Iwun-60GDx9IaIPYUUVWAgwjNo5FO0O80p
+
+sprite $SmokeFreeLg [20x20/16z] {
+bSs50SGm30J1DREk_swV6JD12zdCAq0Qt76gu5O_vGC7IO1qEgpJDyf1Q2eScCBfisObYFjWRcqPgt3NVc2b3vw2i_V9Kz3j0NOWAT0iZzOElRe8z7pkxMU7
+xRxaN3buNlGpQ7y7btZbW1q
+}
+
+!procedure SmokeFree($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/SmokeFree', $name, $tech, $desc)
+!endprocedure

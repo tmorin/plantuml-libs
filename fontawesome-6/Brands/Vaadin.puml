@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Brands/Vaadin
+
+sprite $VaadinXs [8x10/16z] Ou02VYZDoy_FpmZ4236u2aO6BgWmFqI0dm-c5m4
+
+sprite $VaadinSm [10x12/16z] NSh50SD00CH09SP3zL-jcUUtmALm21h2I0X1L8igA_belLeBn-jl8pjD7EHb1W
+
+sprite $VaadinMd [14x16/16z] RSw50OKm303H-ufp-q-BG_NLDI7n-HACpWJExcOyNCDqhGwjnABL5FNqje2-E2Xydr2D4uQNsZk4z5I2sJ-HZeeL
+
+sprite $VaadinLg [17x20/16z] ZSc50OGm50MmXplPVzfpLz9-pvioJogUpoYBWoJ5qMXnrd0MPwkp9MSjHPwOyyCiHxKgPupNSjQHP21Nh0b3hchAYTojqEQkW3nQAVF4agts
+
+!procedure Vaadin($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Vaadin', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Brands/BuyNLarge
+
+sprite $BuyNLargeXs [11x10/16z] LSh50K81040XxFRjFwtvapDMpbLR2ASyADWeNRJTxTGkPAj4Ul8qL1xqzmJL0sy
+
+sprite $BuyNLargeSm [13x12/16z] NSg54KH120FG8D_Mqd-t5uRHUoie_jqKGmcUSwXFkHE5VVKM_AsiBb9L7Z8uUqavGSFSfkHzLQ1ya0r4vCSd1S9sqEwz4l83
+
+sprite $BuyNLargeMd [17x16/16z] {
+RSwrWGHH081GvhlJVxNdilP28dZjwdit_Wn_PBuuqeVXJka0A5z203Ti1G9VDAB2DEWYgcW5aCwrrQW022sged19YyXVY0NQ-ZeyjCgN0K03KeonJh_kqjVh
+qeTtZbychxm3
+}
+
+sprite $BuyNLargeLg [22x20/16z] {
+VSx50SK02C3G07NB_jD-T-cxuR0lgp9uCtYNt7Nwj0KNYnCNlG9h0ipFiHe03KYLkm1Ks7G3LYFdfQ3K5dK4dDAoEXPrZSStwqY7U5QFjG9vo_9OEp0nBEqz
+Em3Fky0sCnlSD5mP83VplRm2KIVDC6lRNBISXMysRYQVMfuwBzPWnn4
+}
+
+!procedure BuyNLarge($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/BuyNLarge', $name, $tech, $desc)
+!endprocedure

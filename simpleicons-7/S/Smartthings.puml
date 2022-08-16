@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-7/S/Smartthings
+
+sprite $SmartthingsXs [10x10/16z] BOo30K0n30Nl6yNRVzj65nFOXph6gGJClP7kKSiOqcPPv7WwJtNBMtLY_5aMUX9l4XO
+
+sprite $SmartthingsSm [12x12/16z] 5Sk50O0m30J0npMz_QU5DfwNz3XBRHa1qCR9DS4JY0iETH8soiaoNOVWNfH9ACYrmZRypHw4kCLE6Y-Zr-G6u_m1
+
+sprite $SmartthingsMd [16x16/16z] {
+HS_5eS0m30MmLwOasd_Q3qMPZyw_gJHrxv8JZ-CxgzDpfdPW2kSKfz6fX5DHvxaInYCq2rqPMiG2-a5eX-nKi1mwfnrQtTASEWnxQFDIaBDc3cRaeFKRXW59
+-6pdjnv9VW4
+}
+
+sprite $SmartthingsLg [20x20/16z] {
+PSZLeSKW00Mm0rKgPFzfdroNV2ONjPtqOybTEJoj-JTwbwIu6iiEzEG0rbrnLUFhZkgcP7NJs4k1e9M2ar2ecGa3Y3CrXt5QOfz1p-0iY9uHtLNOYwl3rPx4
+pGBgq93QGA3e1T4s28JG1tr6ouezWJ6193uiITA_AwcxkvOalm
+}
+
+!procedure Smartthings($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/S/Smartthings', $name, $tech, $desc)
+!endprocedure

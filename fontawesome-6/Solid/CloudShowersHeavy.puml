@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/CloudShowersHeavy
+
+sprite $CloudShowersHeavyXs [10x10/16z] HOQ30S0m00IlZRt_j36U1oJ3Kfbwv3eSvKlo4le06JIbUuv8O-BazD4
+
+sprite $CloudShowersHeavySm [12x12/16z] RS450e80002nsUtz_xLs0XlcpRqSUvX3Bz3BdgOj-tAebpbW1iuRaMLabjD9RC-QYxW2
+
+sprite $CloudShowersHeavyMd [16x16/16z] VSh5OKD150F0-Ooxwh_QnCpsN1v8qDOTDoK7Wtq1cjo0BJSDbDpi7NbIblpMvvdw7AEzQM2ZMPWwDdIXXCpw89KCffnNQIsNFSsbkXBMu1y
+
+sprite $CloudShowersHeavyLg [20x20/16z] {
+ZSo55OH034NHDu8JVl_TxidYpeMn62wQAlPCBX1IOD9gr4lg66ahS8urkBYBcGSx7OMei-5ZBEkC_XHAK6h7k348K0dr_zBY-m2DnoJ8Ql1iDJwJZpB1d6t7
+oxWbzJuo4CQoWE_ChMcym0y
+}
+
+!procedure CloudShowersHeavy($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CloudShowersHeavy', $name, $tech, $desc)
+!endprocedure

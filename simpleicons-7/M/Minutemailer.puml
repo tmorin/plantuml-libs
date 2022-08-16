@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-7/M/Minutemailer
+
+sprite $MinutemailerXs [10x10/16z] Oo06yFFp0qb6VX1WPE670fWKFmk41MHZrmu
+
+sprite $MinutemailerSm [12x12/16z] bSQr0O100C30u4xsdnQdWvUhZXp5x9D57O7A6xMlcLFZYPkLBjnwMFYt0m
+
+sprite $MinutemailerMd [16x16/16z] hSkr0S105CDGXJdQVzemr0Ul-c2JKJ7glqogrRsKYxTpgLPV3RM_jzs-WOv7DthYssNMWLTRG24HTW
+
+sprite $MinutemailerLg [20x20/16z] jSsr0GGn44FHlsnM_zKUcdE_R52iTpFQJ5AWv_IrjGsdZDo8olBQ7jH9S6govwn-aKRPIIFlvpKaDaaFdGHWnGfl
+
+!procedure Minutemailer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/M/Minutemailer', $name, $tech, $desc)
+!endprocedure

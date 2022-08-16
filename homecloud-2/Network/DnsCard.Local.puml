@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('homecloud-2/bootstrap')
+
+' loads the Item which embeds the element DnsCard
+include('homecloud-2/Network/Dns')
+
+' renders the element
+DnsCard('DnsCard', 'Dns Card', 'an optional description')
+@enduml

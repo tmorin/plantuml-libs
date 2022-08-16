@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-7/C/Cpanel
+
+sprite $CpanelXs [10x10/16z] Oo0Qy3D3Q5u65duEBWO6TbO69WO63bOmnWi
+
+sprite $CpanelSm [12x12/16z] Ow08yF536Ooy3Fpyp1nSZFnyt7mCl2mCN7nS3DnyVDoacWW
+
+sprite $CpanelMd [16x16/16z] jOP70S0m54B9XYpyksrlKV2P3_6gzN42UKK98fhAFQbCTzPvc-wmcm_Gx54w_nM2zG4
+
+sprite $CpanelLg [20x20/16z] pS770GD130EnsPmailzk_NK91_1zrMxyCQ6xkqFgqk4fSMxSxRdFDKPB8svsjugVviCxxrLdr07ClKPXi_SSVCaF
+
+!procedure Cpanel($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/C/Cpanel', $name, $tech, $desc)
+!endprocedure

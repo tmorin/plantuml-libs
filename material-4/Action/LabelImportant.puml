@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/LabelImportant
+
+sprite $LabelImportantXs [10x10/16z] Oy0AE400p6Bb1m8UC9CV11WGJ1G63uZ1Yjqq
+
+sprite $LabelImportantSm [12x12/16z] Oo0AiF6301U4mmVcC44u_600ONE1sHmW9YEIE1AJ6ynanMCJ
+
+sprite $LabelImportantMd [16x16/16z] Oo0TC4C08upFomy1J301VYY0yLcXV1wO00zKW1NAPqJJ0UD2hU22SjcXzaEvlEZMaGC
+
+sprite $LabelImportantLg [20x20/16z] jSur0e0m44HHtEN-jwKP0I9LyiiNsMtADotCrjxiCex2mxWBH-EjRBtiD5x2ZhIAbjnJlsn9XsWCLzwQAZq
+
+!procedure LabelImportant($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/LabelImportant', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item material-4/Places/Dry
+
+sprite $DryXs [10x10/16z] NOg50G0n309vryB-qzRzuW5Cy2wRm3W478hBvWcBXmn6PRwulS_p86sUgW8E
+
+sprite $DrySm [12x12/16z] PSe30W0m2030sVZ_RsTKDqH6vNwEsi-KBTDPvvbMVWQrrZpCj2lTp0--SYsxlxzp9INl--6r6m
+
+sprite $DryMd [16x16/16z] VSs55GGX40FGu4xwx_PUXdFxgupY5w_x2LtW_U20FS64eoZ3b0XJgPynG9lGoAg17dRil6igezaIDEPOfkhyx7vEGV2Mzt_p6pBMZTPV
+
+sprite $DryLg [20x20/16z] {
+bSy72iGm34JHYNlLtF-sAsGJHAZxwDzL-9y86Zzj4zMt1q1X1ULDWHl08hBs8vA4OWOtJD8KeIHXJqjPayGBff3UsNM9QL2RLok7Dk77T6sEut5jTAF9chTy
+6qUmT_rzzHtCWGdLIL0_
+}
+
+!procedure Dry($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/Dry', $name, $tech, $desc)
+!endprocedure

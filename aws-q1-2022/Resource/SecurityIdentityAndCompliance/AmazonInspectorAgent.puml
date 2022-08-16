@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2022/Resource/SecurityIdentityAndCompliance/AmazonInspectorAgent
+
+sprite $AmazonInspectorAgentXs [10x10/16z] JOd50G0n08Ee2_lFUoxDAm3BeidhL2RtYrdm_c8erojuEIEjuHqfNlVQPBotk0C
+
+sprite $AmazonInspectorAgentSm [12x12/16z] LS650GD140GWNivs-gythk1VJyLJISuEQjjH2tebyRGtPBTZPKGEC0rT3oXdKnhOrjh5iNcByd6w0W
+
+sprite $AmazonInspectorAgentMd [16x16/16z] {
+RSxLOGKm2030YmVOVzwwzzqVZaTstkPBRFJo8UrSjwGtRTnEzvaeP-MiZp5gQAM7QWro4bIM1cMVQ4eiC7gmZrBUb1jpbnZXJIwew-k5cz7rI_cX9U6dEjCV
+pm
+}
+
+sprite $AmazonInspectorAgentLg [20x20/16z] {
+TSnLeiL020JHwZ46Ul_hVNezINqUXClKcjwbsRE7asUHQ4MZMNTQWKjCJtmtuoPexD7pjjRMmAB0zyN4P5OOLalTJy60qPhjpmgZFylHGdyMR68c-FbFXQ4x
+rVDkMCqGH54MToJi6kIWnXqBODeTl6weoDeDSi8Etgk0R1yOc_LfJ9kplW4
+}
+
+!procedure AmazonInspectorAgent($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/SecurityIdentityAndCompliance/AmazonInspectorAgent', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonInspectorAgentCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonInspectorAgentLg>', 'SecurityIdentityAndCompliance', $funcName, $content)
+!endprocedure
+
+!procedure AmazonInspectorAgentGroup($id, $name='Amazon Inspector Agent', $tech='')
+  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AmazonInspectorAgentLg>', $name, $tech)
+!endprocedure

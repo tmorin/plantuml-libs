@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/CalendarToday
+
+sprite $CalendarTodayXs [10x10/16z] Oq02d3227mfua5bGHIIme80D
+
+sprite $CalendarTodaySm [12x12/16z] Oq05_72IWny661buuMmc1busPWZW1RAPeTfuA6Cpmyrd
+
+sprite $CalendarTodayMd [16x16/16z] Oy04pFmeD0SlFoy4yFCmCp0myYC1e0ec33uF7F22-SWcqv_FoC-B020vJYG-CmC
+
+sprite $CalendarTodayLg [20x20/16z] Oy01EFWmMPpyw2mUVbJ011JZHmCyf8XneJXYw8fnCo43hFvb0wbcHm6i30m
+
+!procedure CalendarToday($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/CalendarToday', $name, $tech, $desc)
+!endprocedure

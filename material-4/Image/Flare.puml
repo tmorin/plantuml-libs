@@ -1,0 +1,16 @@
+' definition of the Item material-4/Image/Flare
+
+sprite $FlareXs [10x10/16z] Oq05_1WiVWIR3KBpymCHFoUGGbN72SHOJG4
+
+sprite $FlareSm [12x12/16z] Oy00_DZOh8n0DXk4pSYBBCFFpmMb-U4O1BZvMQ0gsFX1qemGlI2TZ7Zi0W
+
+sprite $FlareMd [16x16/16z] bOx50KDH3CCKVtpe_QSjCrT1tSnhv3zycWzUpxvOG7PmGYnL71JjOB5zU0FleEwMXjrg7DY_NCaWOZvhTJ2mU3nv139CV-IFTdgs
+
+sprite $FlareLg [20x20/16z] {
+hP350GGW40E3E-c_soFdxeDcFh2BPwHfRbpcToxKdRFZv1eh1EdFf0CCKALEH7AU_fKN01STGS5XAi5Ge6XFC0BO1IZWI9Swmx90p7foanwXw9_nw8pVrnR_
+qnVXJb_P
+}
+
+!procedure Flare($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/Flare', $name, $tech, $desc)
+!endprocedure

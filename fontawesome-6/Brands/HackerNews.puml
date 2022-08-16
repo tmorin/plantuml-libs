@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Brands/HackerNews
+
+sprite $HackerNewsXs [8x10/16z] Ou02Vap0m0yHPURdWmcWqvW
+
+sprite $HackerNewsSm [10x12/16z] Ou03Vko0XP-VZmV2PEI7AWBIxFnm9ZuMDwfXV7
+
+sprite $HackerNewsMd [14x16/16z] ZSUt0O0030In9sTk_ssfd2gZJYhUWiQn0gDNSCktJ8WW1i8cil-xQAdu
+
+sprite $HackerNewsLg [17x20/16z] dSYt0OKm5C10_K26f_stXSQnmrSUlL_FGTFaunjcg0iMduzoM0InOUqxSLaBiCNMn_uwpd0OlHi
+
+!procedure HackerNews($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/HackerNews', $name, $tech, $desc)
+!endprocedure

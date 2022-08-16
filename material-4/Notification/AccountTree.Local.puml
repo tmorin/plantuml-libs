@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element AccountTree
+include('material-4/Notification/AccountTree')
+
+' renders the element
+AccountTree('AccountTree', 'Account Tree', 'an optional tech label', 'an optional description')
+@enduml

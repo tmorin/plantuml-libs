@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2022/bootstrap')
+
+' loads the Item which embeds the element AmazonSimpleStorageServiceS3ObjectLambdaAccessPointsCard
+include('aws-q1-2022/Resource/Storage/AmazonSimpleStorageServiceS3ObjectLambdaAccessPoints')
+
+' renders the element
+AmazonSimpleStorageServiceS3ObjectLambdaAccessPointsCard('AmazonSimpleStorageServiceS3ObjectLambdaAccessPointsCard', 'Amazon Simple Storage Service S3 Object Lambda Access Points Card', 'an optional description')
+@enduml

@@ -1,0 +1,21 @@
+' definition of the Item azure-4/Item/Networking/ServiceReservedIpAddressesClassic
+
+sprite $ServiceReservedIpAddressesClassicXs [10x10/16z] Oq005XXWueAAS35om00ZAmm0MLmW26AnmLW8MJOOG1WC
+
+sprite $ServiceReservedIpAddressesClassicSm [12x12/16z] TSgr0G1130F10-Fst-ypmoG6gVneo4PfsCQfUdhicA8PwvwEmgjpxdOg5oC
+
+sprite $ServiceReservedIpAddressesClassicMd [16x16/16z] XSk50G0X30D0e9hil--xww6rygFoh37BRepXExBwMRMpfvYmuF3a73jf88PdgMUOmmpnF7-E_Qp8MRde0G
+
+sprite $ServiceReservedIpAddressesClassicLg [20x20/16z] bSs50S0m203169BVVz-wUoykGFYgd2NmdGe9KjZIuSvqoo7wMPIpNtSWufWOFjyvc033cEuKL2ekljnDT1Y_wkhPrLtug0K
+
+!procedure ServiceReservedIpAddressesClassic($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Networking/ServiceReservedIpAddressesClassic', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceReservedIpAddressesClassicCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceReservedIpAddressesClassicLg>', 'Networking', $funcName, $content)
+!endprocedure
+
+!procedure ServiceReservedIpAddressesClassicGroup($id, $name='Service Reserved Ip Addresses Classic', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceReservedIpAddressesClassicLg>', $name, $tech)
+!endprocedure

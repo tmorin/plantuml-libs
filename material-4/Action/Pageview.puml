@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/Pageview
+
+sprite $PageviewXs [10x10/16z] Oy06-A601SHYPGGIF0n01Wy_0uG5H10Ma6Q0iK0S88i3gXV9E
+
+sprite $PageviewSm [12x12/16z] TSW54i0W3031enc3sFzVM_UMGx8JkjcUWkVHiBY176Qzfull5WgnEyE3c6svjkwH8-vD
+
+sprite $PageviewMd [16x16/16z] bSut0i904CLGsTwS_lrFIuQP2h2wrudJoTLXb-_b1CavqHhHJ9CQpbtgpf7UESmAS53DzmhZxircT3TrM85VNG4
+
+sprite $PageviewLg [20x20/16z] fSl50SCm04FHRsPh_sdBp4tUKS0wFjno07hWNsJzaWLCUSWC1jnT5kXIfDrc64cJ-2tB94r7lyrasGjtcMg8tHDkiXDFVyhKzmyWwnwhR04
+
+!procedure Pageview($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Pageview', $name, $tech, $desc)
+!endprocedure

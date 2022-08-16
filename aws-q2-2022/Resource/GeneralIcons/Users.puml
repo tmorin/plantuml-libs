@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2022/Resource/GeneralIcons/Users
+
+sprite $UsersXs [10x10/16z] 3S670O1030GWh5-IstzT1G0eBG8AqCrJDy615ovX01kGB20eSFus7m
+
+sprite $UsersSm [12x12/16z] 9SM50G1130AmdFl-uxws4020aljBWy5-ETZK7sOV-ST2U15bKB2542BU1RjCW8qEH0Z0MEy5RW
+
+sprite $UsersMd [16x16/16z] POk50SCm40ClRD3lFwv1vUQCB-3E8Hr0hSAStWcmi37Ovz-QxyiHQv0ZCX2AbRTeVqklZbGjFkq02eD47N01MiOlOmJMNgmHuiErpVx2Y_DTCkbPUiTbx7S
+
+sprite $UsersLg [20x20/16z] {
+TSq54aCn24NH6nTW_zljPqYzFN5v0tzaqO5RkWXDe2bWCPoUQMIWrEUTGEGxRfR8f0r8Ec5L0sWc5b5af5GD-ixaFG2CS4ApGsqucKLYPx2ZMjHn8wCkNbeU
+Uic42R0JRpHHD-_iidXL120BBmm-BsjzVGih7o-LKxd3tG
+}
+
+!procedure Users($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GeneralIcons/Users', $name, $tech, $desc)
+!endprocedure
+
+!procedure UsersCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$UsersLg>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+
+!procedure UsersGroup($id, $name='Users', $tech='')
+  IconGroupElement($id, 'GeneralIconsFamily', '<$UsersLg>', $name, $tech)
+!endprocedure

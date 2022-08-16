@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Brands/FonticonsFi
+
+sprite $FonticonsFiXs [7x10/16z] Oq03_FnWnCFF3wBOGK9W9fJ7WaO10HzG3W
+
+sprite $FonticonsFiSm [9x12/16z] VObL4a0X54BXTQXd_xjr6B_r1gd9FBmoK0MvryUEmKvBHkFZbo9JmXq
+
+sprite $FonticonsFiMd [12x16/16z] dOhL0SDG30Frc7txJrjkFaDdjgGZmdntLwiJW3uTBwXoeC5mi9H0Fyp0pDHQItn80khckR4lm9Rqdl63zEvF
+
+sprite $FonticonsFiLg [15x20/16z] hSlL0SGW44NHYxCsh_zgum7-rdBGCJvc35nKSK2Gz0Aje6gpnNwxIHBk30qS-8nFHtZImM4BTuOuzTcDNHkwgFK6t18cxO3p7Sq
+
+!procedure FonticonsFi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/FonticonsFi', $name, $tech, $desc)
+!endprocedure

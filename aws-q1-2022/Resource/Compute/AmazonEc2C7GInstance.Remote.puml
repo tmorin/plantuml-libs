@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2022/bootstrap')
+
+' loads the Item which embeds the element AmazonEc2C7GInstance
+include('aws-q1-2022/Resource/Compute/AmazonEc2C7GInstance')
+
+' renders the element
+AmazonEc2C7GInstance('AmazonEc2C7gInstance', 'Amazon Ec2 C7g Instance', 'an optional tech label', 'an optional description')
+@enduml

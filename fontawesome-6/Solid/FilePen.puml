@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/FilePen
+
+sprite $FilePenXs [11x10/16z] JSY53S003C2mZhd-_zenHMGbaYpYA95EE-cXjcqVuizyr2tFx1TEovc82Sf3iG4
+
+sprite $FilePenSm [13x12/16z] VOmr0e0m54E3BiYx_scXxRUjcUAwWLM6pbanWGbAxEkwfkYO2IZnbXBSIbx5qnvE2-pj1m
+
+sprite $FilePenMd [17x16/16z] RS_50S0m2010shYo_xHnT-HU00BpWN4uLXY47V02tE7__sy5RwtL3SPnBx1aXnGtuBk0GmviwMqA7ypUfA1W09CfQ9YG2xClqmQB
+
+sprite $FilePenLg [22x20/16z] {
+bT150W8n40NHFsv9r_rFYqFBZbg-U3GPpqo3l14-Ic1p3OohSrQgel5PrRO-SutzgusfgB-WgAXjwaYS1HkWGH5tTO2cg8SQmAMeziQkf8VUovzTFnqNmCgt
+8uFpWtS
+}
+
+!procedure FilePen($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FilePen', $name, $tech, $desc)
+!endprocedure

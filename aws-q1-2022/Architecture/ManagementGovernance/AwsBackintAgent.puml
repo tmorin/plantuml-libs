@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2022/Architecture/ManagementGovernance/AwsBackintAgent
+
+sprite $AwsBackintAgentXs [10x10/16z] FSR10KHG40N1sOLvtJ__U07KgO2SkldgsJcLA1J9EQSVfAEp72gUrXGPTjdBBuoXLi6nimex
+
+sprite $AwsBackintAgentSm [12x12/16z] JOh90GGn2CCs5xP8__qkuJLwoGU57vBuXEomnwgGBmpiOMU56MjPxOu3vxJ_qe1LFjwBmV3DW7sGnRtrqea1vHrCUuK6_W
+
+sprite $AwsBackintAgentMd [16x16/16z] {
+NOm7TaGX30E_kmNtlszSacmHTKOyqCbDLF0by2KEbicDMfmLYe8MPuH9HgOl7uWWgerOTl03XChsyVnzAiDM2qoUqCnRpui9P0P1tdjCpSb04W7S4jsR9m73
+AuYmt68p_2L-
+}
+
+sprite $AwsBackintAgentLg [20x20/16z] {
+RSn50WD124HHQAoAkVzv8wJZyvSFuOHdTOydo1FaCvHRFB2VPWwK3FR6o3bNtEgD0junnWOZLgefKB6jQLGZQSXwMj8aIBhfyzQbkOCyh6f-gleYaMC-zvA0
+2Hd0SUmzhmm85tYtBX5fhGfeWkHnQsurikwtJvjaYV1fJmNxrwQdJPzu1G
+}
+
+!procedure AwsBackintAgent($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/ManagementGovernance/AwsBackintAgent', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsBackintAgentCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsBackintAgentLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsBackintAgentGroup($id, $name='Aws Backint Agent', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsBackintAgentLg>', $name, $tech)
+!endprocedure

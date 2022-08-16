@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/C/Chai
+
+sprite $ChaiXs [10x10/16z] BSR50O0050KWxFRjFwtvEG4Em4hJmW0Ee1a9749DBPeQ25718hW1
+
+sprite $ChaiSm [12x12/16z] JOo30K0X500lk_QVzYFVC-aK5b5WLS-awo43bKKQgxe1fUSUk_F1oDkL-pRo91WOjRzcEYAF-WK
+
+sprite $ChaiMd [16x16/16z] TSo50SGW4031nHtwh_Ob7cGYSCgXy9GDsLwHJTjHnNQ8grKM80bk3ZARK0sRBSP3USGHa8-uiLd6hY6UCSfma8cBgDjo2vkiO5CauCApKLOsNm
+
+sprite $ChaiLg [20x20/16z] {
+PSg5ZK1H24N1-VwS_gjTDx8JWvFhspQHZM8ygRG9M-o-tNFpwPa-nUNNxDYhP0kEdsVSuBTvY2stYP3Q5gYvbGboY_zjYvqjDorwIxiaiCwKMeCh_BX_xjg1
+8mw_LaKKoRw-nxm2
+}
+
+!procedure Chai($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/C/Chai', $name, $tech, $desc)
+!endprocedure

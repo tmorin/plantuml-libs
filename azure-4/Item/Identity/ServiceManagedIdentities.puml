@@ -1,0 +1,24 @@
+' definition of the Item azure-4/Item/Identity/ServiceManagedIdentities
+
+sprite $ServiceManagedIdentitiesXs [10x10/16z] LSc73S0m4CD0VTz_uz3f5jg1qhv-a7qpKIu4cW4MxhJWCqHV52q0JCqbQOGE
+
+sprite $ServiceManagedIdentitiesSm [12x12/16z] PKn70e00017Y_ozkxvni_92REZwfd0mxfHVUex7mjYiLoKGP5ugLsrOWO-6HnBKl1D5rL1uSAB3m6G
+
+sprite $ServiceManagedIdentitiesMd [16x16/16z] TSst0GH1349H91Zel-8pw-sFU15uYHUwZcpP1vP-zcvDziwVatWdxKHZ8lkNRPa42ZsR_meIwkz1IGn0DNwsI6fvHnaKCJVDP3UW17qm6hE_
+
+sprite $ServiceManagedIdentitiesLg [20x20/16z] {
+bSx70OHG201HqaB_7U-0sNyIytCCydKy5xB8DsfWBuonU17sGD-joXuK2BEJ0UxMtSytLAwPDk8T6yQeMUUJehlrUy7ijvditLZgb2624J9nVbZ5k0_QHaSQ
+LNG7JTe__B2kGbwsvqD_
+}
+
+!procedure ServiceManagedIdentities($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Identity/ServiceManagedIdentities', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceManagedIdentitiesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceManagedIdentitiesLg>', 'Identity', $funcName, $content)
+!endprocedure
+
+!procedure ServiceManagedIdentitiesGroup($id, $name='Service Managed Identities', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceManagedIdentitiesLg>', $name, $tech)
+!endprocedure

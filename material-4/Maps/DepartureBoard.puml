@@ -1,0 +1,19 @@
+' definition of the Item material-4/Maps/DepartureBoard
+
+sprite $DepartureBoardXs [10x10/16z] Oq05_430mC0E99b1F0WVmc808oOG2y9a1Cg201zK9GiJ6zW4k1um5uW1
+
+sprite $DepartureBoardSm [12x12/16z] PSQrOG01000Xtlrl_sdZNQZmprbDc8_hUHqQz8tRaAPfYeU469fVOOuf-lEYfNhs86zjG_ZUjmMke16V
+
+sprite $DepartureBoardMd [16x16/16z] {
+TSS5baKn2C3GF9T2i__Tpc6-swr0-67ecWCtYxaiwG9iNNKd9tOXj52D6sP4c9VEm0bemk96FoyzEW2jHZLaZSa0dvmyTr3SwUhEQs_OAASt8sKqnw9Sv4A9
+Hla3
+}
+
+sprite $DepartureBoardLg [20x20/16z] {
+VSv7cWCX30NXHwQJwlwddR4H_S7AjUCdIR-hjzrTUm4lpsNAEKDLKO8agU4b2Kcmw9PR9-d1wzCILSPuqgtlfd4tGkp4rouVeWRGQu8sNYDypKO0DcSsjgn9
+mvxRuOAgQV8Pi-9cVh-fKDmEjZG3y-3KRBsyh3HvkGMD_W4
+}
+
+!procedure DepartureBoard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/DepartureBoard', $name, $tech, $desc)
+!endprocedure

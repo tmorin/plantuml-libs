@@ -1,0 +1,13 @@
+' definition of the Item material-4/Editor/FormatPaint
+
+sprite $FormatPaintXs [10x10/16z] Oq02_620OF4ZiK206GZueIgPc9YWB221ayND1I81
+
+sprite $FormatPaintSm [12x12/16z] Oq01BBnW06Rpy8C1Bm-2pSuFP3CoWm43FqGBM0EKpS_F10GmDeWadWtL1m
+
+sprite $FormatPaintMd [16x16/16z] Oy04Z4nG0ENpmm0pb8y0J2XyTWYVcmSA625y183pUU3w8O0No0JRYE23QMhnkQ5yJ
+
+sprite $FormatPaintLg [20x20/16z] Oo0UCFCZ01DKZ1L9Z8EL1Iw607mOOkn0CGppW68O05cC6GgGn9XWcj74c9b0W1553CgZgnWZ5Z46RXukl84C
+
+!procedure FormatPaint($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/FormatPaint', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/Hanukiah
+
+sprite $HanukiahXs [12x10/16z] JSY50G0X30J1nPthlzftOUBXuhab0m8Cnaa5ayWQcEZllmiQ6Y23xLhtAe2dwST5FBxl3W
+
+sprite $HanukiahSm [15x12/16z] TOk50S9G4CLI-tva_sbnX-PS7hzC4DEzYvpD6KJnVdNShWUdIIP740EzZlFE609FhVW1JFCPuv8dxZXuaBq3d
+
+sprite $HanukiahMd [20x16/16z] {
+ZSY5TKL1203HMJd94zZflzhlxXU7Yyuph-jWuf_fk4o7fOZpFW2NNSnD2aTXuQXCmLHc5iBzA5Fv2wrHabrtDyRk27__jS8-md9Sqgvne1bxGmaVDQ0UfFqm
+2rTXuLPafkRE14UhLmNO0W
+}
+
+sprite $HanukiahLg [25x20/16z] {
+hSa5ZiGm40317YUcKF__jnVIQL6uPG_p8F65cGVr_2CDN0XeHo8G79fx8i4wXtjYMS8Szati1BWLyVp1zOEix89BIHGOoUTX2CgPYegHDqp7OQt8qj4V7pf3
+eyLng0ETaaCd7RWSXzki-Db2-16xI9UcwGQFil8cTbLZnuEaZ_WtwwDWzmS
+}
+
+!procedure Hanukiah($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Hanukiah', $name, $tech, $desc)
+!endprocedure

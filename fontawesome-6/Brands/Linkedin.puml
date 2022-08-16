@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Brands/Linkedin
+
+sprite $LinkedinXs [8x10/16z] Ou02NduOO42b-HYuWT8GcXyRpSRBnW-24
+
+sprite $LinkedinSm [10x12/16z] Ou03Tdu4u8Mp6DXWB6w460yZI3sKnSV006Nniy9PR2WiX4u-6
+
+sprite $LinkedinMd [14x16/16z] XSS50eH034FHxEAG9lS_BUxwHzg7Ozf5d_jh3_nsqY_seaowg4RbI8onJOM0M6K3tEdtAJ5CUdpoFXpg
+
+sprite $LinkedinLg [17x20/16z] dSZ50SGm00InCREt_sgF6PFeATwuPtPe0T2J2KvFOEetA89imJx4MNgCCO27CD9p1CbjZnYxOYnIZadlebxmQWy
+
+!procedure Linkedin($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Linkedin', $name, $tech, $desc)
+!endprocedure

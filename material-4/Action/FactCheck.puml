@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/FactCheck
+
+sprite $FactCheckXs [10x10/16z] Oy06-A60Xu6VZO4PoW83JgWO6nC3J8m5BCl3oGLL1mLS2EC
+
+sprite $FactCheckSm [12x12/16z] Oy05EFXXW9615yvc0h8Pe7mcc3WV0qoSZO418Sw2NJsKpG9derWB
+
+sprite $FactCheckMd [16x16/16z] XSx50G0X3031nHtwh_RSTNxnyCkNJLOWsX78Mvo1OznAALCGZd5fWaE_HN3QfrddYr9gttUFZ-x_8UIEcnu
+
+sprite $FactCheckLg [20x20/16z] fOy30a0n28PRC__xd_RPnZVcebyahE56XmtfL6UQMsvqbfdrQQmNeovOQprWuKciyZKt4ysnfG7G9FRvr4qloNiVxkVO41gTpcL9fCVK
+
+!procedure FactCheck($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/FactCheck', $name, $tech, $desc)
+!endprocedure

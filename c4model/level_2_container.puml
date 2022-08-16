@@ -1,0 +1,45 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION=".."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('c4model/bootstrap')
+
+
+C4Legend()
+Title("Container diagram for Internet Banking System")
+
+include('c4model/Element/Person')
+include('c4model/Boundary/SystemBoundary')
+include('c4model/Element/Container')
+include('c4model/Element/Database')
+include('c4model/Element/ExternalSystem')
+
+Person("pbc", "Personal Banking Customer", "A customer of the bank, with personal bank accounts.")
+SystemBoundary("ibs", "Internet Banking System") {
+    Container("wa", "Web Application", "Delivers the static content and the Internet banking single page application.", "Java and Spring MVC")
+    Container("spa", "Single-Page Application", "Provides all of the Internet banking functionality to customers via their browser.", "JavaScript and Angular")
+    Container("ma", "Mobile App", "Provides limited subset of the Internet banking functionality to customers via their mobile device.", "Xamarin")
+    Container("api", "API Application", "Provides Internet banking functionality via a JSON/HTTPS API.", "Java and Spring MVC")
+    Database("db", "Database", "Stores user registration information, hashed authentication credentials, access log, etc.", "Oracle Database Schema")
+}
+ExternalSystem("mbs", "Mainframe Banking System", "Stores all of the core banking information about customers, accounts, transactions, etc.")
+ExternalSystem("ems", "E-Mail System", "The internal Microsoft Exchange e-email system.")
+
+pbc --> wa : C4Relationship("Visits bigbank.com/ib using", "HTTPS")
+pbc --> spa : C4Relationship("Views account balances, and makes payments using")
+pbc --> ma : C4Relationship("Views account balances, and makes payments using")
+wa -> spa : C4Relationship("Delivers to the the customer's browser")
+spa --> api : C4Relationship("Maks API calls to", "JSON/HTTPS")
+ma --> api : C4Relationship("Maks API calls to", "JSON/HTTPS")
+api -left-> db : C4Relationship("Reads from and writes to", "JDBC")
+api -right-> mbs : C4Relationship("Makes API calls to", "XML/HTTPS")
+api -up-> ems : C4Relationship("Sends e-mail using", "SMTP")
+ems -left-> pbc : C4Relationship("Sends e-mail to")
+ma -[hidden]right-> ems
+
+@enduml

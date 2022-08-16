@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/HandHoldingMedical
+
+sprite $HandHoldingMedicalXs [11x10/16z] Om01VaOG2M5om1WWWCn4AC03-C40Il5pih7nyxE1M50Z
+
+sprite $HandHoldingMedicalSm [13x12/16z] Om01Ddus1ZZWukU5i_b102k7dOUVZnr53q703mOWnHmy81OJ4oDO307uaFYi30m
+
+sprite $HandHoldingMedicalMd [17x16/16z] bSp50SG04CD07OH1_LSRPixy5cnwch6YNYxitIzkIr_9yjO7218WiPT3fd5Uslf-l-12tb0pNFc3IpHg
+
+sprite $HandHoldingMedicalLg [22x20/16z] fSwr0KKn049HuXxsd_RBSzVJSIlG8ocmygl-KWqX_ceEGM22lV2WTaIN7ZvxBx9JkuKVZhhbS-w2bb82cZ-9Ws1_cct1DO5rhS2wElnz0G
+
+!procedure HandHoldingMedical($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HandHoldingMedical', $name, $tech, $desc)
+!endprocedure

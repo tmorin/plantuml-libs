@@ -1,0 +1,55 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION=".."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('domainstorytelling/bootstrap')
+
+Title("Your First Domain Story", "From the book __Domain Storytelling__")
+
+include('domainstorytelling/Actor/User')
+include('fontawesome-6/Solid/Ticket')
+include('fontawesome-6/Solid/Film')
+include('fontawesome-6/Solid/Burger')
+
+User(moviegoer, "moviegoer")
+User(cashier, "cashier")
+User(usher, "usher")
+User(concession_stand, "concession stand")
+User(projectionist, "projectionist")
+
+Ticket(ticket_a, "ticket")
+Ticket(ticket_b, "ticket")
+Ticket(ticket_c, "ticket")
+
+Burger(snacks_and_drinks, "snacks and\ndrinks")
+
+Film(movie_a, "movie")
+Film(movie_b, "movie")
+
+moviegoer -u-> snacks_and_drinks : Activity("02", "buys")
+snacks_and_drinks -u-> concession_stand : Activity("", "from")
+
+moviegoer -u-> ticket_a : Activity("01", "buys")
+ticket_a -u-> cashier : Activity("", "from")
+
+moviegoer -d-> ticket_b : Activity("03", "shows")
+ticket_b -d-> usher : Activity("", "to")
+
+usher -u-> ticket_c : Activity("04", "checks")
+ticket_c -u-> moviegoer : Activity("", "and fronts\nentrance to")
+
+projectionist -u-> movie_a : Activity("05", "starts")
+movie_a -u-> moviegoer : Activity("", "for")
+
+moviegoer --> movie_b : Activity("06", "watches")
+
+movie_b -[hidden]r- movie_a
+movie_a -[hidden]r- ticket_c
+ticket_c -[hidden]r- ticket_b
+
+@enduml

@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2022/bootstrap')
+
+' loads the Item which embeds the element AwsIdentityAccessManagementDataEncryptionKey
+include('aws-q2-2022/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessManagementDataEncryptionKey')
+
+' renders the element
+AwsIdentityAccessManagementDataEncryptionKey('AwsIdentityAccessManagementDataEncryptionKey', 'Aws Identity Access Management Data Encryption Key', 'an optional tech label', 'an optional description')
+@enduml

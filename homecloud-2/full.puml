@@ -1,0 +1,836 @@
+
+
+
+
+
+hide stereotype
+
+skinparam defaultTextAlignment center
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+' Polar Night
+!global $HOMECLOUD_NORD_0="#2e3440"
+!global $HOMECLOUD_NORD_1="#3b4252"
+!global $HOMECLOUD_NORD_2="#434c5e"
+!global $HOMECLOUD_NORD_3="#4c566a"
+' Snow Storm
+!global $HOMECLOUD_NORD_4="#d8dee9"
+!global $HOMECLOUD_NORD_5="#e5e9f0"
+!global $HOMECLOUD_NORD_6="#eceff4"
+' Frost
+!global $HOMECLOUD_NORD_7="#8fbcbb"
+!global $HOMECLOUD_NORD_8="#88c0d0"
+!global $HOMECLOUD_NORD_9="#81a1c1"
+!global $HOMECLOUD_NORD_10="#5e81ac"
+' Aurora
+!global $HOMECLOUD_NORD_11="#bf616a"
+!global $HOMECLOUD_NORD_12="#d08770"
+!global $HOMECLOUD_NORD_13="#ebcb8b"
+!global $HOMECLOUD_NORD_14="#a3be8c"
+!global $HOMECLOUD_NORD_15="#b48ead"
+
+!global $FONT_COLOR=$HOMECLOUD_NORD_2
+!global $FONT_COLOR_LIGHT=$HOMECLOUD_NORD_3
+
+skinparam Arrow {
+    FontColor $FONT_COLOR
+    Color $FONT_COLOR_LIGHT
+    Thickness 1
+}
+
+skinparam Note {
+    BorderThickness 1
+    BorderColor $FONT_COLOR
+    BackgroundColor transparent
+    FontColor $FONT_COLOR
+    shadowing true
+}
+
+skinparam Card<<IconElement>> {
+    BorderThickness 0
+    BorderColor transparent
+    BackgroundColor transparent
+    FontColor $FONT_COLOR
+    shadowing false
+}
+
+skinparam Rectangle<<IconCardElement>> {
+    BorderThickness 1
+    BorderColor $FONT_COLOR
+    BackgroundColor #FFFFFF
+    FontColor $FONT_COLOR_LIGHT
+    FontSize $FONT_SIZE_XS
+    shadowing true
+}
+
+skinparam Rectangle<<IconGroupElement>> {
+  StereotypeFontColor $FONT_COLOR_LIGHT
+  BorderThickness 1
+  BorderColor $FONT_COLOR
+  BorderStyle solid
+  FontStyle none
+  FontColor $FONT_COLOR
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}
+
+
+
+' definition of the Item homecloud-2/Brand/Backup
+
+sprite $BackupXs [10x10/16z] DOk54S0m3CHKxb6q_xOvazuC11S4h_vQ1H31Oac8YDTVLOi_eWEu-XTwiW4
+
+sprite $BackupSm [12x12/16z] DSZ5OS00000XufxRVzfwUUB7vCzRR-rGCFJyREirLQDKMpKaQuYcrxMXGJBzluP-BTahWmfF0vPM6Al29m
+
+sprite $BackupMd [16x16/16z] {
+HS674G8n0C0mfr-gzz-M0xv8_8N4A-hNuMzx4b2r02mTVAaHekhei_e5dk4jsZ4nd816ja7e0WIXceGfNmQo25M08ZIneWQA3euSNyC8gf70K0MAHhw6yXLr
+bzoESkb-HO0F
+}
+
+sprite $BackupLg [20x20/16z] {
+NSw5SGGm30NHbG-Dst-rWH_E6zA8-L8N_Xh6IJxkglqvLI6wTgBKzjr5FBz2eutvx8as31D-ELeegBlLJLrSxSarDq1YF6M7OKjkMQ0Ndp2jvBh9uOIdj-IE
+9AVv-lCzA1V7oZEh7rMwDox-b_dyLVKPtadI0v7gkwPU0QgRL6mZWzygHzUDU0K
+}
+
+!procedure Backup($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Brand/Backup', $name, $tech, $desc)
+!endprocedure
+
+!procedure BackupCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$BackupLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure BackupGroup($id, $name='Backup', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$BackupLg>', $name, $tech)
+!endprocedure
+' definition of the Item homecloud-2/Brand/Calibreweb
+
+sprite $CalibrewebXs [10x10/16z] Oy06MFZvkHZu-VaP6FXPM5Zu6O0qyImOG1W7
+
+sprite $CalibrewebSm [12x12/16z] dOp50O0030CRt6__RSa7TwwkSOtc37eO6Eo3p13cHzvqJOwQrWqgfNufLSIA4G
+
+sprite $CalibrewebMd [16x16/16z] jOwr0GCm30Hb1i7llsrCNPXE-DtHsxZ6FOzRcEiuWAa1erN7478SPD14xUJqlrnPk8mSXy_CmFJ1zZ4AjEXqcmi
+
+sprite $CalibrewebLg [20x20/16z] pSZ50SKW54JHmPtflrfiyzqbEUYx-3hDAGAIKnwfahKKZdk6Ccu5KY-P6fCuQf7OQGiffs17ao6bO6Qxe523m20paroVfF2a3W
+
+!procedure Calibreweb($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Brand/Calibreweb', $name, $tech, $desc)
+!endprocedure
+
+!procedure CalibrewebCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CalibrewebLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CalibrewebGroup($id, $name='Calibreweb', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CalibrewebLg>', $name, $tech)
+!endprocedure
+' definition of the Item homecloud-2/Brand/Ceph
+
+sprite $CephXs [10x10/16z] BSZ50SG00CCm7KF1-qzRJbuMt3x0rBuxSxpe9ZlD-dRBNVRSBdrs--fycc-PheJT7gm
+
+sprite $CephSm [12x12/16z] BSM5WSG008J0YNlelzhNMm4mRZxfBpVKYBKeHpNfbBDpU1j-b3QFKaaTMphIFhnA6ixO_bHAbqxofdaBj2Xy0m
+
+sprite $CephMd [16x16/16z] {
+HOpL0KCn30FlCIQt_xG5g-0VYyajsyJlDdD3gDgsPLVFq1vzr0DE6vEMgg15cygiapTPkWlTJeEDxevIgT4D5UN--dh57__zIDc78ViSTYxd2YaaS53M3h1p
+Ew4ZHQaQ2VC4
+}
+
+sprite $CephLg [20x20/16z] {
+HOy75e0W34F3SjlU_xQcHE2pyc9Q112fxHL2fCV5EQtN5tbPhSVleSpzvb5QuaupKRjVe_pevjo4XTov2en2jpTMsC5O2etSEqIlE6v9GrQ0mBGSYANSnTNe
+ZTokOqC-05CJHclNvAQEUs7p9natrJ1xeuPtpgyCTvdn-2EVF1PUOZjZLOLGHOvdJjBD61Wy47m
+}
+
+!procedure Ceph($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Brand/Ceph', $name, $tech, $desc)
+!endprocedure
+
+!procedure CephCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CephLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CephGroup($id, $name='Ceph', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CephLg>', $name, $tech)
+!endprocedure
+' definition of the Item homecloud-2/Brand/Debian
+
+sprite $DebianXs [10x10/16z] Oq06_FmChFoC80OGWqac8CK9Pd61640AZDWGilnC_12rCC21C8yRGW4
+
+sprite $DebianSm [12x12/16z] JSc50K0H543Hgvlzf_sX3wy1K2oYjL9Q1g2Dd7SBSOGuPyBLLnX72J8YxBv9EYSu6fV2y08
+
+sprite $DebianMd [16x16/16z] NOm50WKW34AnM-v_sX-sFdCRW8x1IM93Z99C_wVGeRrpaFc_1J6X153rlzaaJTZ6gZjbhoS5i-x9wQxh5Y6KqZCWYHkAj_7KekAXBiiN
+
+sprite $DebianLg [20x20/16z] {
+ROu55eH034CpxY_tF-rAMvmFOxK46nattEAVsOzG8nc1HD9Pg98UGY4jndLqs7rPIA1eUQfC0np0BjEqB5hp-E-zoXrAdxA7_pujDjCHosQCwaxQmjGoJNdJ
+OFQTC5ZKJ4pO6SG3H_U8YUi7exq59vwuwO_75m
+}
+
+!procedure Debian($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Brand/Debian', $name, $tech, $desc)
+!endprocedure
+
+!procedure DebianCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DebianLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure DebianGroup($id, $name='Debian', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DebianLg>', $name, $tech)
+!endprocedure
+' definition of the Item homecloud-2/Brand/Dnas
+
+sprite $DnasXs [10x10/16z] RSQt0O0m0C0mqpl-_rf8dw99TFY-hta49i21Sidpp6Kkx2jd68kwUjrMD3y
+
+sprite $DnasSm [12x12/16z] TSh50S0W50FG5FViFoqkfpxaAtvO3YkdxLzXxCBCOMp7aLE3IQBdkIGWKuoS6P3oqsBjX4GeZlmW-01F0m
+
+sprite $DnasMd [16x16/16z] XSl50G0X40F0dEAa_sfnVJ7e6awCpT0vLcZ8zfX2z0gR6jy0tZTTDVRvkg-dnjvhNqftYJLVuFF5d-jlka5_WMppZd3oWhOjdYYumq44
+
+sprite $DnasLg [20x20/16z] {
+fSo50S0W40J1nvthlzkuAx1H1g666EPs1kIX0ox_5WXpehS5Tz6fi1ZSy0BuPXaOZ8oOpQIS88_h0DM3ZJ7cs3TQwb7tcFgNzs9t7aiSf0rtYwdUWDw0sOu5
+H5oZaCv9-ba7
+}
+
+!procedure Dnas($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Brand/Dnas', $name, $tech, $desc)
+!endprocedure
+
+!procedure DnasCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DnasLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure DnasGroup($id, $name='Dnas', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DnasLg>', $name, $tech)
+!endprocedure
+' definition of the Item homecloud-2/Brand/Docker
+
+sprite $DockerXs [10x10/16z] Oy05-24KDmS_aCK7v0DPG2O_0h1nG1bC331Xi4OWO4Gn2W
+
+sprite $DockerSm [12x12/16z] VSO50W0X24JHiPkv_sctEtmAV7HnZnn3tZi5du0wJsKhf6-y49sv0x2d1o1hEinKONLu6W4
+
+sprite $DockerMd [16x16/16z] dSa53eL000FHMVVj_K_xNO08Ceszb6i5BL3zOtyQPIK1fGFCz5YSVY8v2wytAeYgROsnP0I_DC26f3N1pfSyXxe3
+
+sprite $DockerLg [20x20/16z] {
+hSg54SCm50JH5N_ZzTzjPAQ1q3Dgv_Y7LlxHEWLESXlRjhJkEZ5fsPMHYVV9Wbaoxps3ujIcYQqlHbKmJSBwegjfwbT3vX41qvMdkgQUPuE9qw5ZSbawJdm8
+mV6n5m
+}
+
+!procedure Docker($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Brand/Docker', $name, $tech, $desc)
+!endprocedure
+
+!procedure DockerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DockerLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure DockerGroup($id, $name='Docker', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DockerLg>', $name, $tech)
+!endprocedure
+' definition of the Item homecloud-2/Brand/Influxdata
+
+sprite $InfluxdataXs [10x10/16z] 1S670OC0400XKkpwj_-s0Wn0wrCGbr-4GT_8a1eM4jSFAN3a62pFm5GdBm
+
+sprite $InfluxdataSm [12x12/16z] DSR50SDG00KWuldwzf-sNax0MlrTUHcWXDisGvim5yFrwJROgy-TYFYBEA_x_mMsx6ViyL63v6JfqyUTPE89
+
+sprite $InfluxdataMd [16x16/16z] {
+JSk5eOKm50Mm58VAsN_QBqz9zPg7iRhBlyDBITFiIIwFi6AWPJ3b1DcAEKesq1xZiQN0vI6Jh3WmepUPTjjZ0bka6cFs6ebpA4nzMqrdecJtC4-EBAHwk5oP
+a5m5Zfh7QqlI9-CHUfYI1Fm2
+}
+
+sprite $InfluxdataLg [20x20/16z] {
+NT25OKKX5C3GFCCX-qzRuT_gmLruAUladw4wB_Ynh2bFrVBJbQ4S75MT06W2wC0r5K0VDji9M44FjlN4Aee9Okdkx78g008BuFB0rk809i3XWo8BYBNOwH8d
+mivrhp-Xhmjgz1q-kygH-cgzT1Su97Ie2kXDk6aEW6hy7G_JzVDvum8SDWZdKcr6LtZzNM9x1m
+}
+
+!procedure Influxdata($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Brand/Influxdata', $name, $tech, $desc)
+!endprocedure
+
+!procedure InfluxdataCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$InfluxdataLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure InfluxdataGroup($id, $name='Influxdata', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$InfluxdataLg>', $name, $tech)
+!endprocedure
+' definition of the Item homecloud-2/Brand/Keepalived
+
+sprite $KeepalivedXs [12x10/16z] Oy09kFbvWIG_FokG0048oG8KvGJI446m0Yu61YQGB5Y43yg0ajn05PmWqnWvK4q7
+
+sprite $KeepalivedSm [15x12/16z] XOZ70G0X08DolQhxRojsNyed0KrP-d5WqxWqZPkKMfwVVR6e6mU3LIVVHVuqHZBCANtCep4U
+
+sprite $KeepalivedMd [20x16/16z] fOx50GGX00EpXaFwh_OawEzavnL3S1CN_IQnXNXAHBufhuJY038R9zb3aX6kvzf6qkE58WcnlsLe4HBfT3tSkjCsirDKcUQIshRU9Kp_QKPbGnTIt_84
+
+sprite $KeepalivedLg [25x20/16z] {
+lOx50KGn20LVt9F-g_q2HEuhSneS_8au7WnxUbsJwi5q05QyILv0FXpSFPZjoN8PwbXYIJWF6IsaPJ0WybR_s1iwF8IZYOGk0Ujy54STYpOs1jZvmnDV9Vpn
+ZmLZKbGGR0huCZS
+}
+
+!procedure Keepalived($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Brand/Keepalived', $name, $tech, $desc)
+!endprocedure
+
+!procedure KeepalivedCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$KeepalivedLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure KeepalivedGroup($id, $name='Keepalived', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$KeepalivedLg>', $name, $tech)
+!endprocedure
+' definition of the Item homecloud-2/Brand/Kubernetes
+
+sprite $KubernetesXs [10x10/16z] BOc50S104C9IzsR_QIlFvHJWPo2exdNxVt0n6XqdGAFcqvz3v5_k9C40ZFMy
+
+sprite $KubernetesSm [12x12/16z] DSsrWSG00C0m7uQZ_QTz2AXovmwlRXl6etQ4wSntCnxnJNkhFHxVLwqpaJmyMTN-oV98UAJGW7hWEBqm-rGvhFKB
+
+sprite $KubernetesMd [16x16/16z] {
+LSU5OGCn40NH4Ho9flzkemtPVekVNuLtKxq_Kin3M8PaU20UPwOQeBjoJfFENHJKnYDcr0iLsQvsgHXp8sDbzNQTK25bk7IgzPR57XLLyhFdL0UeifNV9skV
+QcJ2RGW9mbJ32Nm1
+}
+
+sprite $KubernetesLg [20x20/16z] {
+NSy54WCX40NHPWsdxt_RrCIJ1sFbdxUTFwchXMy-DPwsQTWCbU3Jzfg0Xhgn3yE2JVCf5399D7QraHqegC9KjuEp8SyBLPm0c-UfLbHniSlbsDHrwMf0OYC1
+GyDX90EKrgkUgeF58QjWe3rpQWL3WgMQ4u3XUct9aDL6sDHXwBfuEFpWfVgo0Tm
+}
+
+!procedure Kubernetes($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Brand/Kubernetes', $name, $tech, $desc)
+!endprocedure
+
+!procedure KubernetesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$KubernetesLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure KubernetesGroup($id, $name='Kubernetes', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$KubernetesLg>', $name, $tech)
+!endprocedure
+' definition of the Item homecloud-2/Brand/Longhorn
+
+sprite $LonghornXs [12x10/16z] JS650O0m0C2muax_lnQP9zncnstZdepG3OCBbSo00pF43B1O_ErMBm
+
+sprite $LonghornSm [14x12/16z] POk50O104CE2Ezr_MdZNd4kvbLalrJnbTvCcRC1koWPsEWYCGJDnaUKNGXdsQWBrBDNq0m
+
+sprite $LonghornMd [19x16/16z] ZS650SCm0C0m5yFn_zUE6Ikn-8BPRKBqmTHKyAupgZ24xabTOLP7dbIFsiB5shs1cfbyDD8dieyM8lYa0FWC67tHcXVTD_Xc3m
+
+sprite $LonghornLg [24x20/16z] {
+bSYr0GD040InUURR_girCrkXSAPd0wUNpFGl8-aUQ2U1xinZDAYwiSBnZGDVfutaED1UuD7GoQoU8z-Mxa0RW1v15AGNZs3eKOG1UjBOqpE0f1TwCNtLzHgc
+LzeM
+}
+
+!procedure Longhorn($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Brand/Longhorn', $name, $tech, $desc)
+!endprocedure
+
+!procedure LonghornCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$LonghornLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure LonghornGroup($id, $name='Longhorn', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$LonghornLg>', $name, $tech)
+!endprocedure
+' definition of the Item homecloud-2/Brand/Nextcloud
+
+sprite $NextcloudXs [10x10/16z] Oo08-Fdv81G_0mCd6uZYuWVn6TY1OhnSG0PG20ZO-76P
+
+sprite $NextcloudSm [12x12/16z] ZSMr0SH00CH0FPXX-k_McUDRa1hEv_M6Jzy-N2hmZuhkM5HkgZveC0y
+
+sprite $NextcloudMd [16x16/16z] hSUr0GGn44DHcLc__seFeytz1gLBmYCP6F_tm6UaJArG6icWZm7jCrRuvmGI0JYKJxO15CzGPsOJjBV-AZZeXZS
+
+sprite $NextcloudLg [20x20/16z] lSwrbGGn40N0FonuKkKVxJ7k-bDUS-TMorC2PhxLjhwdMXb6KjgMGEMZweJU747BEvoPI1hbEvTS3gDWv9rf5jAn3E_3f6BvUco0y_-R9pCtUWK
+
+!procedure Nextcloud($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Brand/Nextcloud', $name, $tech, $desc)
+!endprocedure
+
+!procedure NextcloudCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$NextcloudLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure NextcloudGroup($id, $name='Nextcloud', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$NextcloudLg>', $name, $tech)
+!endprocedure
+' definition of the Item homecloud-2/Brand/Nfs
+
+sprite $NfsXs [10x10/16z] RSR10G0G34FH003PVre09v-s3vzOQ-NMMhEfJ0MaAKyihRQOeOYKUSEh0m
+
+sprite $NfsSm [12x12/16z] TSg30S0m54NHLxjt_sdB62VuLCN4In-cvplP7kkNQvmUV3dTyVvsn-JjCZnCVq3dOl9zVwyGdW8t
+
+sprite $NfsMd [16x16/16z] XOx50S0m30DTHklsdxOOVEM2PbcButn9flCJRGZFyR7428c_pFrxetqObLszcv24-kY7nHnPjFUldcIVv_pgVEs56cjm0m
+
+sprite $NfsLg [20x20/16z] {
+fSk53SLG34FHv4F9VlN-qvQPuOgieyHUvEgQc9JNpR3VYOIkRsqT3WtcltyxC1WbVPSMEPQMT6km25L2bK_ks1vFVqLzB0lKr8oLVMrg9DqY4erHwmnXsSyk
+LW8
+}
+
+!procedure Nfs($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Brand/Nfs', $name, $tech, $desc)
+!endprocedure
+
+!procedure NfsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$NfsLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure NfsGroup($id, $name='Nfs', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$NfsLg>', $name, $tech)
+!endprocedure
+' definition of the Item homecloud-2/Brand/Portainer
+
+sprite $PortainerXs [10x10/16z] Oq01N0oSO9eV0Y1i1XOmpStD06MniR41ML1rK1OhaCc6q8l20W
+
+sprite $PortainerSm [12x12/16z] NOh50K0n2CNgEEm_xNTjJa-IPbgnC-HiUSFkFVcr4ySduvrJx-FE7l4uTSiCbnyxZ_FazEGL
+
+sprite $PortainerMd [16x16/16z] ROp50GGn54A9-wV_QbT6O--6OeyIwMLJW2cNA9NbWBS3u-3UhTBYEos5GATRuP0xvxtkDFyCkcNfjAty8O-EFB33dlIJhk_1eN7m1G
+
+sprite $PortainerLg [20x20/16z] {
+XSnN0a8n24JHCRtF_bThBm7KT_Dt0k2JWsaCBQt1rRvB6e_T4Pz0aT_kdv03H8xAsDc6ibww0ypSqBifNf-SSxnLXVcxTNMFgRNWucwny5xQRF2PldTis6oh
+atqkXqSN
+}
+
+!procedure Portainer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Brand/Portainer', $name, $tech, $desc)
+!endprocedure
+
+!procedure PortainerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$PortainerLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure PortainerGroup($id, $name='Portainer', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$PortainerLg>', $name, $tech)
+!endprocedure
+' definition of the Item homecloud-2/Brand/Samba
+
+sprite $SambaXs [10x10/16z] Oq00VXX0OQ7BCYB9GW4o2vif
+
+sprite $SambaSm [12x12/16z] Oq06_0Y0ncPbWW8WcmcBUcOKzOpS401Ymm0FaCqD1NpeviC14m
+
+sprite $SambaMd [16x16/16z] Oq07ZFp8W9E1dp2VbGaE645y9YJZCFaeW173F2OqFXBWmSRdHW0-mkvbOU141YmC
+
+sprite $SambaLg [20x20/16z] bT2r0S1040D1IMRklrfJyamJRdA0g7dp4FFb4xP8snDja0r_4rpnvZhvDH-YkoZIN7jByzvoPkxrCRepvIBm
+
+!procedure Samba($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Brand/Samba', $name, $tech, $desc)
+!endprocedure
+
+!procedure SambaCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$SambaLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure SambaGroup($id, $name='Samba', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$SambaLg>', $name, $tech)
+!endprocedure
+' definition of the Item homecloud-2/Brand/Syncthing
+
+sprite $SyncthingXs [10x10/16z] Oq01xFpC40OR4FE3HS1SVaQW20Zm02bUi4AmC2z46OpaWuY2C1kIgG
+
+sprite $SyncthingSm [12x12/16z] LSkt0SGW400mEP7Xzf_s0vtL2s_7UR0zapCEU6xGCwQj1eVjAPtTSfmo4RCzJp0GO9au1iomHIzZ32zV
+
+sprite $SyncthingMd [16x16/16z] ZSo30GGn503H2GxXz5_jsTmNvuCbaav7u6AKyx6vF3DdhGGWLIwA0d8rBG_lOA3VtXi59bIFvdG05QBdVb6e4GYJyqTFShJkd6ZY9Bk1K3LmaTieaK_s
+
+sprite $SyncthingLg [20x20/16z] {
+bSpL5GCX503HMSMP_hlDOVqt5-S9VmhDil0nLTEsxiN0m_s-j3lBbLkf6qCDFA9EuvHNrXdO4u_gBkFSxxwq2drSszKkQ1nFOD5SQdTOhkwhjfdX_IF8PHPo
+OjZbadgwxxLUbrqJb-pAK7JdjbJj6hUDF_m
+}
+
+!procedure Syncthing($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Brand/Syncthing', $name, $tech, $desc)
+!endprocedure
+
+!procedure SyncthingCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$SyncthingLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure SyncthingGroup($id, $name='Syncthing', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$SyncthingLg>', $name, $tech)
+!endprocedure
+' definition of the Item homecloud-2/Brand/Traefik
+
+sprite $TraefikXs [10x10/16z] ROl50G0W30CJtDb_Mg3jbtj5yQLd44sbmwQfd7rE8cACASPWCfa0NIHLPS6-JpZW0W
+
+sprite $TraefikSm [12x12/16z] LOd50S0m008ZI6J_UIFr7X_Wmf_qwQrGgVUZzotGZcw0L3YGl1AtZLmlYVC_UZqwScR6zGC6uz6ZD-62IlkU
+
+sprite $TraefikMd [16x16/16z] {
+RK-50GCn43e3tlPVjnQh4KKYP__0C7DWql92EhtJOxCiY-Di76SpzgFdz_Iu8jJaC4byJjO1yA4G7kq-FF2SgjanUB_Vt2ChmwFp1ojMfNTELAaAWwSQLZql
+wlO7Tm
+}
+
+sprite $TraefikLg [20x20/16z] {
+TOu5bWKn20IxqVT6xt_QSPRzLl5A0k0degeqKpJ-vTKmH6P6J4EM6y-j4F1XA3UCvB4GdFuSHW5o9MKmN138Y51wH09yv9d1zKn3oEFSppTnB6ILTt4gDwiK
+xHA5bZDf9q8gAQeeI8guy015k9ddCRoTPO6cLID-AH7yOWS
+}
+
+!procedure Traefik($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Brand/Traefik', $name, $tech, $desc)
+!endprocedure
+
+!procedure TraefikCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$TraefikLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure TraefikGroup($id, $name='Traefik', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$TraefikLg>', $name, $tech)
+!endprocedure
+' definition of the Item homecloud-2/Brand/Ubuntu
+
+sprite $UbuntuXs [10x10/16z] FSY50S0W3031htj__sbnk7X8BdSoYwikvu8RolamwwNOYaVzT1y_T05-vJBP4DZC808
+
+sprite $UbuntuSm [12x12/16z] FSY5OGC1302nopDh_sdBZSpkssdhbr_lzOd2LSl07LFVy-7yETd3rW0UDhenleYhynb3K5UivKUUgXi_tqy
+
+sprite $UbuntuMd [16x16/16z] {
+JKw50GGn3ABkoVxR_b7UE6cH22xAyHNmmN6XYRwP7J-Y8hnjXNS5qF9p2o35sZQKBC-dco6v-_7Oi9s8QWL4KqyUoyqntWORyWETSMLSns96O3j3VMyQRlnl
+UtBkXUq2wKKGCzvV
+}
+
+sprite $UbuntuLg [20x20/16z] {
+NOq55W8n34IdhcdkVrjUXBKFQsE5CmxlYWU57Gfm-C7uI2I5-P1cfwGVvRzrnAKuvDrZYBsj14JvwAe5PBCmvV5CyqRG8MveeQjqcm3YSesEnlcaW_JArMUb
+sy5c02P1kWIIhpGW79sB2Am401FmGmV_AQf1c9TOIPfAuHjST1F8GZy
+}
+
+!procedure Ubuntu($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Brand/Ubuntu', $name, $tech, $desc)
+!endprocedure
+
+!procedure UbuntuCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$UbuntuLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure UbuntuGroup($id, $name='Ubuntu', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$UbuntuLg>', $name, $tech)
+!endprocedure
+' definition of the Item homecloud-2/Container/Container
+
+sprite $ContainerXs [10x10/16z] Oy06-DaWW9-130W32EC
+
+sprite $ContainerSm [12x12/16z] Oy05-160WP-1XvEH1qW0MK38mmWYo68pCJ8mWGX-9FDvaAq5
+
+sprite $ContainerMd [16x16/16z] lSSn0a1034JHdsWWcRd_QK6rgksyxZ6pr0ZSGzqugMAle3PQpstamFNJCuc4ZFSV6nCN
+
+sprite $ContainerLg [20x20/16z] rSYr0S0m30J0DxD__sd3t8GgdrZum_CA8Es9eyBupraEPH5pW5X-f1mge30tyvDoB04nrFYhl5AGkPn5FDK3
+
+!procedure Container($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Container/Container', $name, $tech, $desc)
+!endprocedure
+
+!procedure ContainerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ContainerLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure ContainerGroup($id, $name='Container', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ContainerLg>', $name, $tech)
+!endprocedure
+' definition of the Item homecloud-2/Container/Pod
+
+sprite $PodXs [10x10/16z] Ou03DduuW0bnypD01BYuKSJui8ZnWCGuaSGOuCO1
+
+sprite $PodSm [12x12/16z] NSX50G0W00F0uGxzq-9-dmbkwQAmj1v1czP9Gchwpp7y__B_RFzUB0aXBhu
+
+sprite $PodMd [16x16/16z] NSpL0SDG34DHKnkEzfysJDBvUd1jK-FyrKnGLE_tdCtZSDvdn3Nbnzs2-zhwEfntQ5_IRqz-UFQFr2VtNsZ0JAm
+
+sprite $PodLg [20x20/16z] VSp50SH05CDGXpdglzf5XuRUyOEKKZSXzQGqWGrGO06aQQzKcpm3AcpsRA5HQvLdgTvEfzdQixT7lNwHAbEX1vEmuPojmYRFrEYKw-ti0H2HLGbl
+
+!procedure Pod($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Container/Pod', $name, $tech, $desc)
+!endprocedure
+
+!procedure PodCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$PodLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure PodGroup($id, $name='Pod', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$PodLg>', $name, $tech)
+!endprocedure
+' definition of the Item homecloud-2/Container/Registry
+
+sprite $RegistryXs [10x10/16z] Oy0AE46GcPETWO4V1DduUHaOc42GaOa9MGm146AO
+
+sprite $RegistrySm [12x12/16z] Oo0AyFFpy8C9D3OlBnSlc40JPmG2C85JBou
+
+sprite $RegistryMd [16x16/16z] bOj50e1054B1rHHm_zDQIzltEy1lI6Bp7G1AfWJ96CbfFl7wtstQi7kp0JI94gHMfLVzNnO
+
+sprite $RegistryLg [20x20/16z] hOp50O0030Dng2NxJulpmUtgcloFY8pMYEIrI3tqI2vMEHb7FG2Z1L0gO4CloxB5qgpdoRzjRykdVt_J0G
+
+!procedure Registry($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Container/Registry', $name, $tech, $desc)
+!endprocedure
+
+!procedure RegistryCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$RegistryLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure RegistryGroup($id, $name='Registry', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$RegistryLg>', $name, $tech)
+!endprocedure
+' definition of the Item homecloud-2/Container/VolumeDisk
+
+sprite $VolumeDiskXs [10x10/16z] Oy02-Fdu-FWXB3011Z19RY2B5yO20MOk80kYYec1cuSV1X3c0G
+
+sprite $VolumeDiskSm [12x12/16z] TSQ50S0m24JHkCl-snQuUfkN05yjnCdGCz8Qiv92JK8aKxgKJ5kQ8w6j8KThaj67gUP5tMm
+
+sprite $VolumeDiskMd [16x16/16z] XSc53S0m00F1CjU__xHX5EL4VdaQUJ-lv4-KEoruWpC_5BwAr4ZQQ-FdKtfLy9Vsp_KhzwBWoztWf3SDM
+
+sprite $VolumeDiskLg [20x20/16z] fSw53OG050JHBtSuJF_LukxoOfk9hNoWz6ODYiOYqky8qfuthOypifAUjS9hnQBbAerYreoyHJ0rbyRVBLatCvqrfMU7NpAs9CtNVd9J1G
+
+!procedure VolumeDisk($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Container/VolumeDisk', $name, $tech, $desc)
+!endprocedure
+
+!procedure VolumeDiskCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$VolumeDiskLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure VolumeDiskGroup($id, $name='Volume Disk', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$VolumeDiskLg>', $name, $tech)
+!endprocedure
+' definition of the Item homecloud-2/Container/VolumeK8S
+
+sprite $VolumeK8SXs [10x10/16z] Oy02-Fdu-FWXB3010Y0M9uZW1X8iG348Yv-51S82Ci6oFFmmW30F
+
+sprite $VolumeK8SSm [12x12/16z] TSY55S0m3CJGAtEr_xJ5CFo0zQoAYPS-JCztiZtMhpLE3xw6yVc_fWVRsp9CZUbnFjtUG7WAt
+
+sprite $VolumeK8SMd [16x16/16z] XSa53W0n2011EFVz_slhBRaOKzqWdll9HhvKlQ4zTx7t2LtjPPMYzaGoMz_tn_LQeogAzOCgOruVnDgmyoUE2
+
+sprite $VolumeK8SLg [20x20/16z] fS-54SCm341HXHFJtt_QCWZAVKS-Y-KF7HVg3zgH-Ro-LyWN0yZrKn4dt_usMDmVR1dCtuXaUZhzLyc3p4pw3yPfd4cktxBeVhSJrLmdKuWaLs-K3-q1
+
+!procedure VolumeK8S($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Container/VolumeK8S', $name, $tech, $desc)
+!endprocedure
+
+!procedure VolumeK8SCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$VolumeK8SLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure VolumeK8SGroup($id, $name='Volume K8s', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$VolumeK8SLg>', $name, $tech)
+!endprocedure
+' definition of the Item homecloud-2/Container/VolumeLonghorn
+
+sprite $VolumeLonghornXs [10x10/16z] ROP70e1048EmT_d_QtNxQPb90XrytzTigH8mRji6b-0fnSHiXqQxhT3u0G
+
+sprite $VolumeLonghornSm [12x12/16z] TSR50O0m0C30u4xsdnPtsdiT4PKhDbR0QBTejrDM2zUFYmIsCvZbn-tm-kBuIRpnC0C
+
+sprite $VolumeLonghornMd [16x16/16z] XSa54e0m3011tE7-_rgiZOrbgpTfCllnQSH98GtrsN-pJ12bHMaPI6yJB9EVbsCznFv9Uyn4JU81
+
+sprite $VolumeLonghornLg [20x20/16z] fSZ50SD000InJSn7qt-rPcRGK_hWHqyJ28r5Wbevs5xKNfyJhTZ-_bbhSGG0xnOd0qRB2qOoB0yaDcVCwWfQwNHB5iUMh5-BTLC5
+
+!procedure VolumeLonghorn($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Container/VolumeLonghorn', $name, $tech, $desc)
+!endprocedure
+
+!procedure VolumeLonghornCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$VolumeLonghornLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure VolumeLonghornGroup($id, $name='Volume Longhorn', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$VolumeLonghornLg>', $name, $tech)
+!endprocedure
+' definition of the Item homecloud-2/Hardware/Board
+
+sprite $BoardXs [10x10/16z] Oy06-Dd0W1_8Ok070WP-NZ2BXmT8WH03N0m8868W3Gpyh60Hi2W2
+
+sprite $BoardSm [12x12/16z] Oy05EFYX0CZcPOA8yJ22s3mWKI09PSF5WGnaSI0RKpt274Qu-IW
+
+sprite $BoardMd [16x16/16z] XOt50O1040FtXmsa_shnSvlJjSI6p3YsDvQFzIRaE-6BaGxfVTDu3_Mu_w7MN-hnnWjiW8yp_y1YGou
+
+sprite $BoardLg [20x20/16z] fO-30K11243FIljF-stZ7NEfNw0iWKud66P8UbrP1eswBjmsf_lHNaUmq25YsiQcb7ppIt5HOvCF5lbsTMzwSSq4kZckqGL_DiUQJcTeYLRFgG4
+
+!procedure Board($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Hardware/Board', $name, $tech, $desc)
+!endprocedure
+
+!procedure BoardCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$BoardLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure BoardGroup($id, $name='Board', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$BoardLg>', $name, $tech)
+!endprocedure
+' definition of the Item homecloud-2/Hardware/Hdd
+
+sprite $HddXs [11x10/16z] Oy01-Fb0W9-JWO697oe2Hb0s4e1Byt50cRmCd1myIF88
+
+sprite $HddSm [13x12/16z] VSV50O100C2muaxtdnPtkVn2Y1i0InOsaCb6CDfbtcKiKcBwFMAnPDVZ1LSZ
+
+sprite $HddMd [17x16/16z] ZSp50S004091uixsNstSVLwdw9UodYLJNxCArGj8D3FgWLRKVS2kLzm_WNUuOHti1aQm7sHMLUlwad6YJnq
+
+sprite $HddLg [22x20/16z] hSZ50OLG0C2muZpj_jD-TnTo38jel50uq7gYWPrau4nRDbhbGgTiA5UY4P8prxJj_0PtvkiTX59lLsVqTfi2SpZjjTdi8wHoR-0BQm
+
+!procedure Hdd($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Hardware/Hdd', $name, $tech, $desc)
+!endprocedure
+
+!procedure HddCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$HddLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure HddGroup($id, $name='Hdd', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$HddLg>', $name, $tech)
+!endprocedure
+' definition of the Item homecloud-2/Hardware/Laptop
+
+sprite $LaptopXs [10x10/16z] Oy06-A60XO4VAi9BY0K5pFnmW30E
+
+sprite $LaptopSm [12x12/16z] Oy09UA20cu61bvK90dY1R2QOF75i7bweEVmCtDpyCC3DY0IGRGK
+
+sprite $LaptopMd [16x16/16z] Oo0Py2C17X2V2GvO-K5yX58ccl2H0GCtDoyIbvkR1mqGyWq
+
+sprite $LaptopLg [20x20/16z] Ow0CCA40Hf0GFnfW0OdneAZZvmM9SQ6OD71YkDo71fWPkBcvKOLuGGAOW9801G
+
+!procedure Laptop($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Hardware/Laptop', $name, $tech, $desc)
+!endprocedure
+
+!procedure LaptopCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$LaptopLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure LaptopGroup($id, $name='Laptop', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$LaptopLg>', $name, $tech)
+!endprocedure
+' definition of the Item homecloud-2/Hardware/SdCard
+
+sprite $SdCardXs [10x10/16z] Oq01_4300MRmyWC940F10WDIM2my8C3
+
+sprite $SdCardSm [12x12/16z] dSQr0S0m402nOFDq-qyRD9TMfMLaxcv_OsSxRNthB2pRTmN3dFV6R-PQthe1
+
+sprite $SdCardMd [16x16/16z] Oo0AyF630GUKoylFmC_0oy330-F2-30kFnC_4oyJbCyF1mF3vu7pcJ1z1W
+
+sprite $SdCardLg [20x20/16z] rSYr0O1G50F0uF2VPFzfSNTAhZnyn569cJ4m10_EkKW3WG2Tpuv77YxcoeylEZcaEXDSQ
+
+!procedure SdCard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Hardware/SdCard', $name, $tech, $desc)
+!endprocedure
+
+!procedure SdCardCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$SdCardLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure SdCardGroup($id, $name='Sd Card', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$SdCardLg>', $name, $tech)
+!endprocedure
+' definition of the Item homecloud-2/Hardware/Smartphone
+
+sprite $SmartphoneXs [10x10/16z] Oq02xFmW069niW413vX5EW4tXGdA0W
+
+sprite $SmartphoneSm [12x12/16z] Oq05_120mQO5YMaN3mC3
+
+sprite $SmartphoneMd [16x16/16z] Oy02-A601y9bv8S169y737XX_457Gm4EFWCdXCV716G3
+
+sprite $SmartphoneLg [20x20/16z] Oy05UFWXW8-F5IR4pey0C35Eh69iKC2341lEB2B3XGbP32x830DWBW
+
+!procedure Smartphone($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Hardware/Smartphone', $name, $tech, $desc)
+!endprocedure
+
+!procedure SmartphoneCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$SmartphoneLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure SmartphoneGroup($id, $name='Smartphone', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$SmartphoneLg>', $name, $tech)
+!endprocedure
+' definition of the Item homecloud-2/Hardware/Usb
+
+sprite $UsbXs [10x10/16z] Oq05_3066pyRJ8GV8ie9Pp4WiO204rClgda
+
+sprite $UsbSm [12x12/16z] Oy00_4XCVXua3a8Ko0OIw6mUHY2RXmdCPk870LIzc6m-VbO41y84
+
+sprite $UsbMd [16x16/16z] TSt50K0X3C1Gt6dsd_QxIswF0bK_SQSGhlIDTfjhBe3PdUtCWBjQYSppThYrsGgpER5s_cuSnhptdSM7GHvE9wwD
+
+sprite $UsbLg [20x20/16z] VSw54KGX303HZplRVxNdai5s_279TIpFLD4Z1M0qN_1-n3XS0_yoyRu3eoNeersDzt-187PxcnOxPhufEVXTEknti8eToGEZkOLT1NCTkWC
+
+!procedure Usb($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Hardware/Usb', $name, $tech, $desc)
+!endprocedure
+
+!procedure UsbCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$UsbLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure UsbGroup($id, $name='Usb', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$UsbLg>', $name, $tech)
+!endprocedure
+' definition of the Item homecloud-2/Network/Dns
+
+sprite $DnsXs [10x10/16z] Oy0A-3duGG38uc20iVWX0A48HOmTZpe
+
+sprite $DnsSm [12x12/16z] Oy09-640n0OY19iHmOO1elKo4z0B
+
+sprite $DnsMd [16x16/16z] XOl50S1040A9Ezj_jR5pdnUA9kFf-Fmbf6X-Ju0L7-z7iH0P3bsw_pm5_leolmVy_ep-THu
+
+sprite $DnsLg [20x20/16z] fSw35K1H30FGFBlTVzfl6_Uu3FxXbJBKifzhrDSoeBOr3uXjZPMWRQstggaLWJF4I-7q7ZDWjpLtb0y83_BbikJnM0q
+
+!procedure Dns($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Network/Dns', $name, $tech, $desc)
+!endprocedure
+
+!procedure DnsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DnsLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure DnsGroup($id, $name='Dns', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DnsLg>', $name, $tech)
+!endprocedure
+' definition of the Item homecloud-2/Network/Internet
+
+sprite $InternetXs [10x10/16z] Oy01-FdveGmeXl2Pc1dO624IZFoyCCNCG1LmrVmGW6GM
+
+sprite $InternetSm [12x12/16z] VS450GGn00InANFNlzfdE4wuahhdpQZOBfw20Am0TLwKYHtUYcJvccRo9ORQcmIODrRk
+
+sprite $InternetMd [16x16/16z] dSg35KGn54NH-n7Zz5_jE5eOxU1HVqc0KRF1iGTggqbBWBRsAAiQoB9eE82g6Ocr5gU64pb8JS5B2hb9cpwv0W
+
+sprite $InternetLg [20x20/16z] hOsr0SCm00HVpBhzfmsRo_ZAHzs1jUQa302YDWmqQmFqJODlhv9_IeEmcakFiHxXbju6K1KNQRcRb8bEJCP5SmJSIKi8JXh8mcmR7QoapfwfltW2
+
+!procedure Internet($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Network/Internet', $name, $tech, $desc)
+!endprocedure
+
+!procedure InternetCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$InternetLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure InternetGroup($id, $name='Internet', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$InternetLg>', $name, $tech)
+!endprocedure
+' definition of the Item homecloud-2/Network/LocalNetwork
+
+sprite $LocalNetworkXs [12x10/16z] Om02Fdv-VWu62E070IWRI3Foeuh3U10I0c1IN70fY00ZcEA7cWD4oE8
+
+sprite $LocalNetworkSm [15x12/16z] NOs54G0W548vBcpPVrixd_aBqCYgM2pKEI61T8Kn1EblFcIUmaNBOE1z2sOojZT2YHn6zSrGFBujRBImlRa
+
+sprite $LocalNetworkMd [20x16/16z] ROy53WCn0CEoCkV_hzrsvLPdaMLHWWOh1Hk5ZS_Hb10YNqq0k5kACV9eYGsSo2seZgKQy8KwEA0pD2MM50_Duy7KHxGGTNFJN9iuVgJQSiwihUky02pz0G
+
+sprite $LocalNetworkLg [25x20/16z] {
+bT454iGm509G-7Nb_hVT2hDrUrKcdi0g6R6bl_S5WK7tfQ1j1X_6gBkkauPNu4Wz5dczaDRX2ZYGk4ZKSE0fOK7L_Xf6vP8IcLU-BeY8T2aOKkc2mrxbBY0P
+Iy6GYjinGhOzOVm
+}
+
+!procedure LocalNetwork($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Network/LocalNetwork', $name, $tech, $desc)
+!endprocedure
+
+!procedure LocalNetworkCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$LocalNetworkLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure LocalNetworkGroup($id, $name='Local Network', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$LocalNetworkLg>', $name, $tech)
+!endprocedure
+' definition of the Item homecloud-2/Network/Router
+
+sprite $RouterXs [10x10/16z] Oy05-1aO-315sL1P_100KSuFv2A98G
+
+sprite $RouterSm [12x12/16z] Oy0Bk7XO-PXW77uUNkog-37O_300OhFoCl4pGTay_Dn026530G-AMG
+
+sprite $RouterMd [16x16/16z] ZSV50K0X0CFGuaxtd_QxAo-de9L8IM973HXYLmRu4kFvItv-nHq6vVPI5X1b-voPXfRttE5N3m
+
+sprite $RouterLg [20x20/16z] hSY55O1G34FHuDOc-s_BmTsvN_lmYy15ASLCAZHOOQwKqR4KzMSfm9RIfotN34CqjE1zir9bivl6leKGcZrlLgbgzhpD6Hg9pnZkgm4
+
+!procedure Router($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Network/Router', $name, $tech, $desc)
+!endprocedure
+
+!procedure RouterCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$RouterLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure RouterGroup($id, $name='Router', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$RouterLg>', $name, $tech)
+!endprocedure

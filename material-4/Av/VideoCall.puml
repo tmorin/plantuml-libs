@@ -1,0 +1,13 @@
+' definition of the Item material-4/Av/VideoCall
+
+sprite $VideoCallXs [10x10/16z] Oo00-4603S828ZP-40iYZYe60gpOpG
+
+sprite $VideoCallSm [12x12/16z] ZKYr0G0n24o0vlNsdnOlNmBdO-cECsxF382T0vM3o2mkL-NUxyvdzCipCui8Z_Sp
+
+sprite $VideoCallMd [16x16/16z] fOfL0W0X24HXxBx_QStjp_KPC47Rg7YWbawbb3I-I0Q71eOsPUcSmBDnQ4aT7Fhkvu-Ec3gMWqWOcgMG4wOVD
+
+sprite $VideoCallLg [20x20/16z] lOor0SHG04Bvxh3_j2TngPD7X-4TQbzfPlMq4u6-UKIUF4FUF6hrIefmAVtTpVEOE7bYHoAb8Tt_oj4BRV9GLcyZ06dod9_blSCZV04
+
+!procedure VideoCall($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/VideoCall', $name, $tech, $desc)
+!endprocedure

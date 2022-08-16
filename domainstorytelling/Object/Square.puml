@@ -1,0 +1,21 @@
+' definition of the Item domainstorytelling/Object/Square
+
+sprite $SquareXs [8x10/16z] Ou02LdxA00EK1W
+
+sprite $SquareSm [10x12/16z] Oq00Vje31Zueu04
+
+sprite $SquareMd [14x16/16z] Oq05F7m8mCxBFpG0EmeFrKC
+
+sprite $SquareLg [17x20/16z] Oy00JCmeW86LVqG3FdG11ZG-BqO80W
+
+!procedure Square($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'domainstorytelling/Object/Square', $name, $tech, $desc)
+!endprocedure
+
+!procedure SquareCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$SquareLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure SquareGroup($id, $name='Square', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$SquareLg>', $name, $tech)
+!endprocedure

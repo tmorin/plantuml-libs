@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Brands/Dev
+
+sprite $DevXs [8x10/16z] Ou023duSW9c7cPy9HFCpC_1py0D9PcP-1dHLS14
+
+sprite $DevSm [10x12/16z] VSQt0O103C10kI63zfyM-5ZwgcCAS_6iSRZhSuFkj25b9zoocUFfxWy
+
+sprite $DevMd [14x16/16z] bOc54S1G38MeUzX_shgUzXFb7b-cU6Z3_qJii-tLW20JssepiyWr6xFfD738SJUsJ0uZtx-iDu7kOtnO
+
+sprite $DevLg [17x20/16z] jSX55a8n0CNGV9UsB_jVBUvC8QESorVzy5Qt-fSsc0L4oGL2K35u0MbKxPRb1JXFjzmXg06lq273e3UemnINCzJgRyBtmcT7
+
+!procedure Dev($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Dev', $name, $tech, $desc)
+!endprocedure

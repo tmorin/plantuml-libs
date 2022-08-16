@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2022/bootstrap')
+
+' loads the Item which embeds the element AwsGroundStation
+include('aws-q1-2022/Architecture/Satellite/AwsGroundStation')
+
+' renders the element
+AwsGroundStation('AwsGroundStation', 'Aws Ground Station', 'an optional tech label', 'an optional description')
+@enduml

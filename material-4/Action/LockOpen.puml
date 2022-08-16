@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/LockOpen
+
+sprite $LockOpenXs [10x10/16z] Oq01_Fpy40OV0mCZCroO3Ip70m8WUOWQ28k97ye2gqALPGNhO6
+
+sprite $LockOpenSm [12x12/16z] NSh50S1G309GwbxstxRz4dsd140oa9JxFwO7pTJ-uYvurNCPYtigzun2xeDsBtRRvdhkWkN6s00V
+
+sprite $LockOpenMd [16x16/16z] VOi50e0m30FdqWRo_zVYBhjf8-QJIFRs71Ep0y-PQRxgCVlv4XpZWdPkIn-KTGvR3lYTGN-RITpcY4O_-PLj1ZUsu8qH
+
+sprite $LockOpenLg [20x20/16z] XOw50SGm3CGSvcZ_QH_AN0ND9m_ushFUkof_x2wB8A8wMr_l_rjXDZup6dZPi_SrLiBeShGw0vDlew6--dApHvy6ZZu5zUWJxTzdd7s6BJBYwaAH6xu
+
+!procedure LockOpen($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/LockOpen', $name, $tech, $desc)
+!endprocedure

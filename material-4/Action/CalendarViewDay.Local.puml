@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element CalendarViewDay
+include('material-4/Action/CalendarViewDay')
+
+' renders the element
+CalendarViewDay('CalendarViewDay', 'Calendar View Day', 'an optional tech label', 'an optional description')
+@enduml

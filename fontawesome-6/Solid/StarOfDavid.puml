@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/StarOfDavid
+
+sprite $StarOfDavidXs [10x10/16z] Om01VY26CFWvG1GZ8oC_43821M00n08hO8KgPmMI_DmGCJuaTI01k84yO0O
+
+sprite $StarOfDavidSm [12x12/16z] HSZ50S8004MnuCxRVrgeDvSl9jdKo-BS8T1Exs_eLXJSozhrdOuBlaMVRy_dirTfym4zilfqXZy
+
+sprite $StarOfDavidMd [16x16/16z] LSq50eL0203HiPkv_sb_g5jlEm0UdJGqg5pgGDOhoir6e7juxlkknsKmUkbJ8lG9wFWxTGO6vQ7FxFOUFU5mUUuNzn1iSLgRkMbdK4mgjLI3Bm
+
+sprite $StarOfDavidLg [20x20/16z] {
+PT230SDG00N0rzYt_xHrVDz6LerSFLXo0LrEEZgoUdpGFPWURqdSj77JfoQC-Q0VMHUlTqITjxLymvoFXVpLDEk2AJ_hDemyyZ72yYqVY-NnLj0rFE9cJE-g
+M3StXUxsVUHiGguOrkeB
+}
+
+!procedure StarOfDavid($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/StarOfDavid', $name, $tech, $desc)
+!endprocedure

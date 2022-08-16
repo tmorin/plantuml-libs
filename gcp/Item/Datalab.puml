@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/Datalab
+
+sprite $DatalabXs [10x10/16z] Oq05B9Wi161dOuMoE1YOq1LoiB2mi85Ph1n006Onih61X
+
+sprite $DatalabSm [12x12/16z] RSkr0S1030J15Ql_Xitid_207s4e6IkCKrCS5EHnbQDmklqwz8At6G
+
+sprite $DatalabMd [16x16/16z] ZSVN0KCn24MnOnkuxBzmydfl-XCV5VPgx2eQ3veajfpTIoMtJoHVMmjKhHT0YRc6ChM-rCWUCwclSU4F
+
+sprite $DatalabLg [20x20/16z] bS_50GC124JHZzD_m_6iwxkYmrtkLnkRfU3IiBmnLvaLpBcGB3IuCgD9P3FJwoZcG4JDs_mjau6Rzej8JqP3-ciwA_qHZ2I_sFK4
+
+!procedure Datalab($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Datalab', $name, $tech, $desc)
+!endprocedure
+
+!procedure DatalabCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DatalabLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure DatalabGroup($id, $name='Datalab', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DatalabLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item material-4/Communication/StayCurrentLandscape
+
+sprite $StayCurrentLandscapeXs [10x10/16z] Oy06s3aXW9c1dmqimCzFYCK3rW1aOG4
+
+sprite $StayCurrentLandscapeSm [12x12/16z] Oo06y2C0a0qL98SD1zouh08
+
+sprite $StayCurrentLandscapeMd [16x16/16z] Oo0PC2C19WO6VXJ00UJpm5G2sRmquFF2hGVnUL3iPo7LDm
+
+sprite $StayCurrentLandscapeLg [20x20/16z] Ow0wOET41SmC3Dpyw825WO-Vdmr95r2CVR29yI3v0Yp6Zk4FHcg77W
+
+!procedure StayCurrentLandscape($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/StayCurrentLandscape', $name, $tech, $desc)
+!endprocedure

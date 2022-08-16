@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Splotch
+
+sprite $SplotchXs [10x10/16z] Om01DdO6263XvmTH_630pS30nmy1O34OcndEOeLBOwY36WXc0G
+
+sprite $SplotchSm [12x12/16z] RSY50OC0302mRBZs_sjnXzGBvArT7j70xwUA2PhO88jTJfput9DpnVbb6brCSflf-Z42
+
+sprite $SplotchMd [16x16/16z] RSt50SGm34JHdvXn-gzs6M9u9x7uyE8gI-BFwC6-EwtahgS6KFGtv_q0DF0O3M3EkoxSs1yVT1ZQPfVZJi3h8V9tI0Au0m
+
+sprite $SplotchLg [20x20/16z] PSw53O1G303HmvtRVrk2_wOlMY-VtW6YMPq9Ma-KEikSfONJOi1fDzWuQRJKCAcfrmIQdCkD7NIv2_FNOqvXq73Qp3bszxbf9ZsD19uQeaqtJWS
+
+!procedure Splotch($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Splotch', $name, $tech, $desc)
+!endprocedure

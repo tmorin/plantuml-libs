@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/A/Amazonpay
+
+sprite $AmazonpayXs [10x10/16z] RS650OG000GWliEu_QUrMy6bEdB_UO8YWLTU8bPVaxW7RW6ltzrM2m
+
+sprite $AmazonpaySm [12x12/16z] TOor0S0m4CHaPj_-qmQRe9wHVyoX1ms18Wseg0GHEw0MUnQ3et-Wsul6S9putGtj528_h
+
+sprite $AmazonpayMd [16x16/16z] bSlL4GGX44NHYpkTVxPRhqRutJbe6vz5FpnfL38Ke3isq31SLQnTztB13wvuOMJ7tYZEbfWMDNdL7uOuk2HT8NA4q64FnyNDfc6txD8qSt6E__m
+
+sprite $AmazonpayLg [20x20/16z] {
+hSZ5GGH100J06eCTkUlyeyNr3VLfyV_kzuGazPgi3c5Dr0W1mT7t5IaM27NthKPTjm8of8vjXWH8dPKnIsC-006_-_Ifd0ONloMnfrzAsTHa-ZnsZZlKMpvD
+51_6DH-hlti6
+}
+
+!procedure Amazonpay($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/A/Amazonpay', $name, $tech, $desc)
+!endprocedure

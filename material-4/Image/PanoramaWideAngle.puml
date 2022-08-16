@@ -1,0 +1,16 @@
+' definition of the Item material-4/Image/PanoramaWideAngle
+
+sprite $PanoramaWideAngleXs [10x10/16z] Oy0A-260WO47mcS72a6bEE0iRY0B9it526PmWHI0TFAn8Pa6
+
+sprite $PanoramaWideAngleSm [12x12/16z] TOg35GLG34DJFHRxJ_jjt8CGVo4TUwykPr-hgrht0cpTzfFVUlD12BbvPonxzhgVVrI5ksUTFS0YGdZd2
+
+sprite $PanoramaWideAngleMd [16x16/16z] bOk50S0m20JZ2lp-qzRTUr5Ur6zSOOnGwcT8YTuv5n8XzhDPefMLqbYh4VlPTN-pcUt1z_r_CwTXTijCr5q227KmC5h6fzhD9JgjNca1
+
+sprite $PanoramaWideAngleLg [20x20/16z] {
+fSh55G0X301Ht67wxtPPznDpWEI_YE6aDZsjv0wDQsacIqt1sNvdVImmMq5SyimlxMeICriHrmZpa-wM_opVBSrFlPllJ-DA6jtVXBnOOduLq6gPQ_EudeV2
+LijEYg4c
+}
+
+!procedure PanoramaWideAngle($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/PanoramaWideAngle', $name, $tech, $desc)
+!endprocedure

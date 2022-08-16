@@ -1,0 +1,16 @@
+' definition of the Item material-4/Places/Stroller
+
+sprite $StrollerXs [10x10/16z] Oy0AEFZv-HduUPb1J2233IhC3sFnmrZSS1OR443bm1W8M86OaOM10G
+
+sprite $StrollerSm [12x12/16z] TSV50G0X44FHh0lo-wyMbnEZBrgN1yuFibym9t9x2Nu3zMAQQQQFJ5FzZoF3BbcE4lP-8W
+
+sprite $StrollerMd [16x16/16z] ZOs53G0n00AfUzb_sdVNNXIu1BHWKhA0I6vAYYDUi31FXHzY0WiqiHGLdCUbG3bbH9wouoahdhBWHDfo7jcYZlE7N_9i2bBDELFFDHxe0G
+
+sprite $StrollerLg [20x20/16z] {
+fSk54S0W44JHnPtjlzgu0sFvKTxSuM-kSYa2XGmxUMxvXMAXUc12MeUMxuLbVLayyXI6kprIR4omDRQMMqjiJF58FkRiteDSt0ygNRkQ9DOUougjmQJzAvB6
+g1a
+}
+
+!procedure Stroller($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/Stroller', $name, $tech, $desc)
+!endprocedure

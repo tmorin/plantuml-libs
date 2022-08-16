@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2022/bootstrap')
+
+' loads the Item which embeds the element AmazonDynamoDbAttributes
+include('aws-q2-2022/Resource/Database/AmazonDynamoDbAttributes')
+
+' renders the element
+AmazonDynamoDbAttributes('AmazonDynamoDbAttributes', 'Amazon Dynamo Db Attributes', 'an optional tech label', 'an optional description')
+@enduml

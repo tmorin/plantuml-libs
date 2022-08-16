@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Suitcase
+
+sprite $SuitcaseXs [10x10/16z] Os1WuEBdvsTY005-EEO70JOW9f-5C0K
+
+sprite $SuitcaseSm [12x12/16z] jSQ70O103090UBiciF-qNxA3bmAOF2NA5zTrcRCHyP1q8z8HNjgy7phoUxLGCG
+
+sprite $SuitcaseMd [16x16/16z] pSd50O0m341HtE7lFstyb0buRNnmBsuVoaKQQtw8mXJ7Ptnu7DFvR2zC3wwQdyrxcuT60G
+
+sprite $SuitcaseLg [20x20/16z] tSZ50O0m04MnZpjl_sbnwbsWEKQFcLSjO-GdOqMFYJfxW5P-TG_J5XyKV5lY5D-gX1C
+
+!procedure Suitcase($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Suitcase', $name, $tech, $desc)
+!endprocedure

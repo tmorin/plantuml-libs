@@ -1,0 +1,24 @@
+' definition of the Item azure-4/Item/Compute/ServiceDisks
+
+sprite $ServiceDisksXs [10x10/16z] LOk50S0m40AfSVJttxSkoRqBwfZcyImZFY0Ic1LYLTcGEX_g84Vrmz-XAHmrqSafb7O
+
+sprite $ServiceDisksSm [12x12/16z] TSYt0S0W34JHJpmXxpylcTAlkS2leZf90JIhVoupi7jR0xnfLsVAlWIc-fngfjDL3m6o8tC4bW4
+
+sprite $ServiceDisksMd [16x16/16z] ZOs50S0m40Bh79_zvwsxN_GDiXyKpKWzHPKqXf8OOlhGAIKBtCTZMGDuQB2MRXnzN4VOO3jYLemHvtktaI4UNW6Q4ulvqi3MBWPzq0WmALPCbDcL3W
+
+sprite $ServiceDisksLg [20x20/16z] {
+bSq50eGm34JHQcOQxd_VJGRM_UEFIlclsiVexGOcO2gULT8esWr4cWY-RPi7aJCC6eQr5jAMXVbbCH6PvhkAwAxTpREOgsUG6dx4UaYtcwRK7heQCyk6x3w4
+4NT42-laXHaLPRms96eW1_VojXC
+}
+
+!procedure ServiceDisks($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Compute/ServiceDisks', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceDisksCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDisksLg>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDisksGroup($id, $name='Service Disks', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDisksLg>', $name, $tech)
+!endprocedure

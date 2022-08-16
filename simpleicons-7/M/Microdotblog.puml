@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/M/Microdotblog
+
+sprite $MicrodotblogXs [10x10/16z] DOc50G0W20JVRjr_MybJu0F4U1NC4wu8axnb7ReCAvRT2jWs6bo2IGFbuGC
+
+sprite $MicrodotblogSm [12x12/16z] JOo50S0m40AfUzb_sjZhHLu1dOSN10ejcsXeL_ubvN_FLFMfpATuFVyvUDnUP9-a1nm-g
+
+sprite $MicrodotblogMd [16x16/16z] NO-55S0m24JZBljFMxbtKFbH70n8StTdX4qQ9BiVnAgeoBVoBQ9lK3Ala22k-pkXo6frJ6jDOrxU7RzXugy-_0JCuDzcW9ZHA2lbaay
+
+sprite $MicrodotblogLg [20x20/16z] {
+RSw54S0m30D0XJdQVzgYVSKl10qucJ8v8cuAnNHwXpTJj-u6DXItcrsc7HJsPpQY14mWp2cRPvpYZS4kwhqJDbdcGQhU8sLqQ3GoRwZS9Mxgq3HyIVXi3k2p
+QN7olE3YSeb0qExl72km0W
+}
+
+!procedure Microdotblog($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/M/Microdotblog', $name, $tech, $desc)
+!endprocedure

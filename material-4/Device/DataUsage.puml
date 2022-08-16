@@ -1,0 +1,16 @@
+' definition of the Item material-4/Device/DataUsage
+
+sprite $DataUsageXs [10x10/16z] LOh50G112CHoxfV-grs1rmPdXW7vw3p-w0m8i0Z-T5pnoEtXDxSvYoVD7OBjxUyA
+
+sprite $DataUsageSm [12x12/16z] NSdL0GKn40B0ERSaz5_jSxtvsGMSBIPFDP4iptV6aGcPNojhW2wT4a_fpPyUsNsiAVH91tFkUa_Tyxa2
+
+sprite $DataUsageMd [16x16/16z] RKw53S0W01lkzFzlXxjJ3Tzxa0rvX0zG3L40Fc64YW5Nw4Ru1Bl0ojbhH3QG7ciIXTymGTnmEaZ7ngL3TGCJzOu0JvSUFmoeG_SSZmavyZt63m
+
+sprite $DataUsageLg [20x20/16z] {
+bSxL0GD124LHraUv_LSROUNzHC-uWlqdiPdtoMI3vnxuQ8SA-1m3utNBf-l-O4_WTfYWFiSS3mu5TEqmmXnxoGHoz9i9rEYB2V7AGLi34N26rMIBtfLChKgK
+F3nVT6ZQF7LbMWcHbIobvT7UkmC
+}
+
+!procedure DataUsage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Device/DataUsage', $name, $tech, $desc)
+!endprocedure

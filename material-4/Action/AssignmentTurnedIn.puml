@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/AssignmentTurnedIn
+
+sprite $AssignmentTurnedInXs [10x10/16z] Oq01_FpiK9gV2uWXB7u4YuaLp680CS0iRWPMc2mFFweE1
+
+sprite $AssignmentTurnedInSm [12x12/16z] Oq07_FnSK0OGW0aecn-5pO9WCpD2s7pS_4oCC3KCG2PSFIEoNdGs3uhr
+
+sprite $AssignmentTurnedInMd [16x16/16z] TStL0GD120HGadCPflzkRzttVU78cF9EyGCeDm8uRVhIMcdzJGucTNxL-IAQSvk28TV5Hfhs8OiTJZbLR9fp0fp-lvZznFWdDcry
+
+sprite $AssignmentTurnedInLg [20x20/16z] ZSx50GGX30NGFuf3_zMku0xl5Wyc3g4fAkQ785BcZy9Ohs-nkB6Kp-NqHkuwT9qxyTHzDzviLiDtPJcEmtTbimB0Kz_bjglwHMx_x4cR8qedwiIsBm
+
+!procedure AssignmentTurnedIn($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/AssignmentTurnedIn', $name, $tech, $desc)
+!endprocedure

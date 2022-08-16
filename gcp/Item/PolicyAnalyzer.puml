@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/PolicyAnalyzer
+
+sprite $PolicyAnalyzerXs [10x10/16z] JOc50S0m40AXZTp-2yVj1TKpcJQfAov46Ee5s_9g0z1L2B-6cddKcYOg
+
+sprite $PolicyAnalyzerSm [12x12/16z] PSg30G0n30NG7sV_XGyrNX5Y9mL-UlszdvaZfy-QO-pml_QnlrOp_2A291HTfc7Wxxq
+
+sprite $PolicyAnalyzerMd [16x16/16z] XSc55GGn549HE5-W_uPNndrkz2Lu9q-cVZzbcm__hPzDymzOEYBGjfREJ5TC3oQ0K2d63lrGqLbOMKrisSJP5m
+
+sprite $PolicyAnalyzerLg [20x20/16z] bT350GCm34DHAQQ__y9bvhvBE0RzOJXhdP4dXSv-dnKxTRyNjHC_liLtUpwG_FZ23Nd_DZcukvU4DTpL5WXytklPC-fCT0UYLBhZSxFkJEcTBG
+
+!procedure PolicyAnalyzer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/PolicyAnalyzer', $name, $tech, $desc)
+!endprocedure
+
+!procedure PolicyAnalyzerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$PolicyAnalyzerLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure PolicyAnalyzerGroup($id, $name='Policy Analyzer', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$PolicyAnalyzerLg>', $name, $tech)
+!endprocedure

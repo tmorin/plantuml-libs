@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Brands/Chromecast
+
+sprite $ChromecastXs [10x10/16z] Oy06-DaWW9-17oQ2a6DWuUU1i82GYnig2rNA3uBi3Fn0W30E
+
+sprite $ChromecastSm [12x12/16z] TSR50O0m0C30u4xsdnPtsdiTCTwGaoIFzydzLA-tuFd238-NU5s6P6HGUnvc
+
+sprite $ChromecastMd [16x16/16z] XSgr0GGn44FHRsQh_sgFOIVoomISX7a5MfUeXJn_QpETpM2pr4rsJKhsdrNiF-co1qsMVhc3dFjdRNP3eAV6mHq
+
+sprite $ChromecastLg [20x20/16z] fOo35GH10CMo7gV_QiysylZ9FmHl0PslM1nGhkYUU73lTJpQMhhRxTYqtFzboyqsG39VUac5OdUr7HNCbxsUoHcz-kjG5i4z0xK6SgMlK7SaFcKD
+
+!procedure Chromecast($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Chromecast', $name, $tech, $desc)
+!endprocedure

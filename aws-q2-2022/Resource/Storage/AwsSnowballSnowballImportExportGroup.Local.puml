@@ -1,0 +1,21 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2022/bootstrap')
+
+' loads the Item which embeds the element AwsSnowballSnowballImportExportGroup
+include('aws-q2-2022/Resource/Storage/AwsSnowballSnowballImportExport')
+
+' renders the element
+AwsSnowballSnowballImportExportGroup('AwsSnowballSnowballImportExportGroup', 'Aws Snowball Snowball Import Export Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

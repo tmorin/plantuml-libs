@@ -1,0 +1,17 @@
+' definition of the Item eip-1/MessageConstruction/QueryMessage
+
+sprite $QueryMessageXs [15x10/16z] Oy06M55uxEpiw5mKFffUT2u71mSAbuq3MPw3dmsB0m
+
+sprite $QueryMessageSm [18x12/16z] Oo0QiBEpOuem4bB3mCP0fWWd3uem2oihFni7kZ9EDXok1G
+
+sprite $QueryMessageMd [25x16/16z] hScr0S0m4CNG7p8SxZzjk0g3LUhXUp66atyYSUe6zeBZEfG49M4z10_EEmXTPoliqY1q2CJCWfi6
+
+sprite $QueryMessageLg [31x20/16z] jSkr5SD0403HjQNbW_whFKh5DEb_0w-5qnvoQvkvHrlwvz7D6wWpR3TttGdXOvwbjyb2CQbjiodbTPuHCMnpJoXdsM4HTOTtgW
+
+!procedure QueryMessage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageConstruction/QueryMessage', $name, $tech, $desc)
+!endprocedure
+
+!procedure QueryMessageGroup($id, $name='Query Message', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$QueryMessageLg>', $name, $tech)
+!endprocedure

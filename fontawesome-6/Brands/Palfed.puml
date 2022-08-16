@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Brands/Palfed
+
+sprite $PalfedXs [11x10/16z] NSQ50S800CJ0uCxjForExJKjnFyTSIrSkdGbRglOKxvMuJlVDSDpjGVg2G
+
+sprite $PalfedSm [13x12/16z] PSV50SDG081Gadmtzf-sxkN4uw-gp_NUUZvGREptLrIIuWqhmXqfse3b8MmQWAwYkW7n2O3z4ynrgy8P
+
+sprite $PalfedMd [17x16/16z] {
+TSk54SC030J1CxEk_supxp3jWF3vuwYQU6f7rR65qwAw6rtcHhNEd0B6agb55TMD7JrGXKxPH4UKiAWZmtvVIBlJqljOw0wRhuiDeru-ZFMnA8oHECxMQFXs
+0G
+}
+
+sprite $PalfedLg [22x20/16z] {
+VS-54SKm3C1GbRdQVzeFyPL1nozetYj-PHTLdTbNJovDrOAcMgCnS30LjwiPO3H0DammgevvO4V6h5AfogmwaOagjMf3EfHXqfv9y-Krgb1GILMQKSvq5UYY
+fIvpgOlcneFZv4unLAywBphlrKNxMss8QlVns1S
+}
+
+!procedure Palfed($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Palfed', $name, $tech, $desc)
+!endprocedure

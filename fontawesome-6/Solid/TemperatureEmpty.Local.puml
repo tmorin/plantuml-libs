@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-6/bootstrap')
+
+' loads the Item which embeds the element TemperatureEmpty
+include('fontawesome-6/Solid/TemperatureEmpty')
+
+' renders the element
+TemperatureEmpty('TemperatureEmpty', 'Temperature Empty', 'an optional tech label', 'an optional description')
+@enduml

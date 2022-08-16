@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Brands/ItunesNote
+
+sprite $ItunesNoteXs [7x10/16z] Oq005dv-1WOkVdue1HBY0c8CYe-1WPyVh028-Rb1GW
+
+sprite $ItunesNoteSm [9x12/16z] Oq05Z3pyG98V150PJ505V0pu64n0nNpyV32DF403-LWP-7aX2W
+
+sprite $ItunesNoteMd [12x16/16z] bSRN0O0m30DHqJlQVrjqtxJa9RPFZxfD60-3D1vx6t9c-XHgktDMG--sMRGZwIEzsCkKRXLe1m4N
+
+sprite $ItunesNoteLg [15x20/16z] hSZL0O0m54FH1FVilotrzWVdLi_3IQpJjzzaWcsHBL6NN3lpMJrfxyGDFr3sekUmoN5qb0sZkJ8dbPmtUu-mLJNz44KiiGC
+
+!procedure ItunesNote($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/ItunesNote', $name, $tech, $desc)
+!endprocedure

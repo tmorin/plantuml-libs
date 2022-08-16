@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/PersonBiking
+
+sprite $PersonBikingXs [12x10/16z] JKo30G1047eR-s_xE1kL0Sj6R6yUbxxk76bC29eflA6rU-ntkhxM7bVjpxVL8RFPrq1g7m
+
+sprite $PersonBikingSm [15x12/16z] JOc55G0X3CLoxcJ_RU_X1Df-eV8nCYaZpqH7xsuM4xtxcBwFo1wcLQDm0WsARn9X5uWs2qFSa-zd5Z2Bnomi4jITs4Jn0m
+
+sprite $PersonBikingMd [20x16/16z] {
+POm75e0W34FP6tB_szh6hLNWlsQOnyniljE1tox_Ty7Qxmf0UsySE6EyNU1bdxlvohMLQ24ZoPsWeuNsPACdo3LWoH5eZ7JkAhaUDG5MTlFWX2ZlWbZjpg98
+F2miTHmy5N2ioBBQ
+}
+
+sprite $PersonBikingLg [25x20/16z] {
+RP074eH020Gn0gR-_s-l42xJbMn6tLdactENbWkEDW1eWmc6PgpCqd42s_zu854Tl-OZmG7y74CMyhzUPrDqF2xFJzPKl6uRg3ZmKiij6B384W6bwvWb5EvW
+ofCSZjfQ1GTxALWz3H6SQAd3vnVsLl2xooboM4oqr4XU6txf2iJxnLBw
+}
+
+!procedure PersonBiking($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonBiking', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item material-4/Maps/LocalLibrary
+
+sprite $LocalLibraryXs [10x10/16z] Oq01JFmm5Zy_FrmC9iBAm0CMvGS1d2mc4Ct32DK48W
+
+sprite $LocalLibrarySm [12x12/16z] Oq07JDm8DZy_FnAR3yBWPc5WO6PWOEU6AE1Wu8KeumS3OjaWm0faCC4ju0IJ
+
+sprite $LocalLibraryMd [16x16/16z] hSyd4e0040D0UeVz_s-PABeZAdkdKdoalAZ2sGkga_lJlofpMEhKU6LDwJQg6EO29_EJate2_Md3gdlVjmC
+
+sprite $LocalLibraryLg [20x20/16z] lS-35GHH3030_BMd_shFDdUUuyIRCeRB67JdeGHkrBMNy-ZZoDINkmdDQDp6O1qTO3h6z3cNCUQEHTRO6Sfqyjg89YvKKZom1
+
+!procedure LocalLibrary($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/LocalLibrary', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item material-4/Image/WbAuto
+
+sprite $WbAutoXs [10x10/16z] RS710K1G00MW1m2q_xHmWryfGfCRGVg-fsePOHQtHlJizHQtv3QIjnC
+
+sprite $WbAutoSm [12x12/16z] TS750S9G00MmLvSlsNzQ_0GqoRMjB7cRGLweGSJ9U9oapH1X6rjVbRK5iKIbzpvbJ08z7yEKNtS
+
+sprite $WbAutoMd [16x16/16z] bSorWSD000J05Kj7qt-r_-ROddGXlpjGfxnvMlCq63cnnn8pZZcFYMlMaFPexMMS5JsM7MtMryAMUGgaIqZZUNj8YfUy533oCPsjBFdIFm
+
+sprite $WbAutoLg [20x20/16z] {
+hSxLOKKn0CMmSp7KHFjFMyRlFYrWvx_syzpon-dTaH_Tfvel1HAGk7CBz6H1TZDFyuPZsqxOAz4cf9V0lQhT1Jrc1hfTjGriFqVfv62bSGVMUoNJk1QkQVKh
+wMUo-vPl1-_Mdbygt7c85m
+}
+
+!procedure WbAuto($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/WbAuto', $name, $tech, $desc)
+!endprocedure

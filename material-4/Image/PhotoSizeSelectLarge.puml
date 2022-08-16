@@ -1,0 +1,16 @@
+' definition of the Item material-4/Image/PhotoSizeSelectLarge
+
+sprite $PhotoSizeSelectLargeXs [10x10/16z] Oy06s9WPs204FqG0GiFOO02aGIm-40l81lE0Eg6odCWw
+
+sprite $PhotoSizeSelectLargeSm [12x12/16z] Oy05-94W4a3mqCKX0CI2iQ7YlBmCK76m22i_adgG63UoCG
+
+sprite $PhotoSizeSelectLargeMd [16x16/16z] XSo50GCW34JHpr6DxZzjtVNXHFX7Kc9E7iyjX1IONSuDhtfobucUcw4hW37egtdAVteVzP5TtkPqRzO5bxVHoT7oAVzepYOte0iGujKU
+
+sprite $PhotoSizeSelectLargeLg [20x20/16z] {
+fT230GGn54NHEp7Vxx_QjOqJ6_mZ6zLmbj6Xjf0IFa7ofvhZ4HcNThiCSMLHuf5SpW2Muf6T7VQxwsFXsBShED2ktPdNQ_46ow6Fv945M81uNZljvF074Jzr
+GX5BurDh
+}
+
+!procedure PhotoSizeSelectLarge($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/PhotoSizeSelectLarge', $name, $tech, $desc)
+!endprocedure

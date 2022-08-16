@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/ArrowRightToCity
+
+sprite $ArrowRightToCityXs [12x10/16z] JSR50K81042XPxViFwtncnCDNZJ3VddsgjshtCRdbU0DYLHswm-5yOq_RyuN
+
+sprite $ArrowRightToCitySm [15x12/16z] NOg54O0008JURjb_MmzRkVeW9q0U09PNdVEfJ2mbHupNKOkYWa21h4W1WJxQ0vCobB4o9eUvMCNc-rJvrmq
+
+sprite $ArrowRightToCityMd [20x16/16z] {
+LSi15a0m30JH1K2QkVzjIK4pGFzxgwy2h4hjHDcCfOS-6vt2zcH-GDy_SwYsTibujyKfi_mgqC29_czdB09MEUgwRe3ZsTBBq5LGR0t0g5OsXTNMtb7jiN-R
+p8raJxyjlvq
+}
+
+sprite $ArrowRightToCityLg [25x20/16z] {
+XSq54eH030NHZpFQzx_jfYf8rXldZIYqO7MzDUBfjUK7IEjdyDl0-0gj01gPvO43DRq2OQbXPfEt0zVcNfyvCuXrpWQ3KGNOjOBsP07vsiDOS6vUv920LVC5
+MGQ47FAk29C6a1SWxF4ATSql4Fe77g7-
+}
+
+!procedure ArrowRightToCity($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ArrowRightToCity', $name, $tech, $desc)
+!endprocedure

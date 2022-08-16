@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/Billing
+
+sprite $BillingXs [10x10/16z] Oy02M4607GuuGG0XnWfJneOG0v905WC32pipN0nX7W
+
+sprite $BillingSm [12x12/16z] TSg30G0n30NGVuZs7xWsNX7Yug581fQCEGqxzAAIgS_XaO098MUkVRpHbs3W0G
+
+sprite $BillingMd [16x16/16z] Oo0HiB1203iQu8G2T3uR57100IihYd7i67mqyy4iR7m6DaPMHZOW4sWuaZmZcdv2_W4
+
+sprite $BillingLg [20x20/16z] fSp50G1120F0B4x_1P-xoxpGu0yUoOXquWToydHsbAUA3JkS7VqUpyQD6pkRoMecSAYKjhF6-fSFyl133G
+
+!procedure Billing($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Billing', $name, $tech, $desc)
+!endprocedure
+
+!procedure BillingCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$BillingLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure BillingGroup($id, $name='Billing', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$BillingLg>', $name, $tech)
+!endprocedure

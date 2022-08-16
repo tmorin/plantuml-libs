@@ -1,0 +1,21 @@
+' definition of the Item homecloud-2/Network/Router
+
+sprite $RouterXs [10x10/16z] Oy05-1aO-315sL1P_100KSuFv2A98G
+
+sprite $RouterSm [12x12/16z] Oy0Bk7XO-PXW77uUNkog-37O_300OhFoCl4pGTay_Dn026530G-AMG
+
+sprite $RouterMd [16x16/16z] ZSV50K0X0CFGuaxtd_QxAo-de9L8IM973HXYLmRu4kFvItv-nHq6vVPI5X1b-voPXfRttE5N3m
+
+sprite $RouterLg [20x20/16z] hSY55O1G34FHuDOc-s_BmTsvN_lmYy15ASLCAZHOOQwKqR4KzMSfm9RIfotN34CqjE1zir9bivl6leKGcZrlLgbgzhpD6Hg9pnZkgm4
+
+!procedure Router($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Network/Router', $name, $tech, $desc)
+!endprocedure
+
+!procedure RouterCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$RouterLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure RouterGroup($id, $name='Router', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$RouterLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item material-4/Action/_3DRotation
+
+sprite $_3DRotationXs [10x10/16z] FOg50G0X54BVTIhxJslBJmg0U39BuJ9UTaC1csBxi8U6JdWKrn_ud7mMmqDgFmC
+
+sprite $_3DRotationSm [12x12/16z] HS770KCn30KWVc-stlxRvXO1KBUM52tQyi6tl6EZi4kvk61UPTsu6L86V6os3HGjo-9l9C0F
+
+sprite $_3DRotationMd [16x16/16z] LSl50GH130In6kPs_j4Umrf_yQ4PSSoiSdKu6sykF4MUOY2c04G1Z3wBQj-0yPAR0YV0vcbOK60bO5N8i1KGG3fGP56oofFXrOrt9jvMzocP6Hzt
+
+sprite $_3DRotationLg [20x20/16z] {
+PSw50S0W40F0uFxPVzgwyccnGt77I8kOOqbsEw6X3AOP0Sy25KElCH8wrv5Ef4F8RW14EQmvq4kyzjsR7Srce0LmFSUFWSFSiQsU3njnCqE3-yHM39qaEphm
+d9XhGAbRTQOtg5WwZOL6OsL4dJrmouoc2EN55G
+}
+
+!procedure _3DRotation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/_3DRotation', $name, $tech, $desc)
+!endprocedure

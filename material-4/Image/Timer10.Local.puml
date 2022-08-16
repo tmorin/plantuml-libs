@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element Timer10
+include('material-4/Image/Timer10')
+
+' renders the element
+Timer10('Timer10', 'Timer10', 'an optional tech label', 'an optional description')
+@enduml

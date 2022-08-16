@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-7/P/Pimcore
+
+sprite $PimcoreXs [10x10/16z] Oo05i848VbvsPdu6PZP-VcAr0G
+
+sprite $PimcoreSm [12x12/16z] Ow00C38nCZ2oyZ8mC34myVDpCxAnCF2oyFDoGsHPo38J
+
+sprite $PimcoreMd [16x16/16z] lOe50S0m30IlJ07_QiSMrk0JcqkDd0ij1WjsZNieWGpESaypVZ7bGOcVwmG
+
+sprite $PimcoreLg [20x20/16z] rOY50O1030FltPlzfyNP0TeuVxcKUKznrL9J7v1NPyQgA1sR2rrG0rdAwWrIF9bB39L0QfsFtmu
+
+!procedure Pimcore($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/P/Pimcore', $name, $tech, $desc)
+!endprocedure

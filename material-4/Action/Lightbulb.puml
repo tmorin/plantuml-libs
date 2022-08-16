@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/Lightbulb
+
+sprite $LightbulbXs [10x10/16z] Oq01VFnS40O_280OB70M1vp5W60nWXamGGPqmCt32YG1
+
+sprite $LightbulbSm [12x12/16z] Oq07R3pCK1OZFmX0sFnWm8N4viTWyu6PR0WDF523U81ikA4iB2nmktXuUE1i9YOc40K
+
+sprite $LightbulbMd [16x16/16z] TSp70G0X24HHO6Ppwh_QpMRzjwU0r5EDnUDkJtddVFpD7-sd6q1cTNGNzzzzUd3zvIv8qmAIY6n0J5dkSPLQ5m
+
+sprite $LightbulbLg [20x20/16z] bSxL0S0W34LHt27xJrllIrtkvq4IyI_LY2ZjAD6SPWgq9c4WVcw8mzEFffWQPZIOW-cLYk3aYR1XUZLbj356F8SL3vXBAVRXKGy
+
+!procedure Lightbulb($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Lightbulb', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/SquareEnvelope
+
+sprite $SquareEnvelopeXs [8x10/16z] Ou01VZJ01nC5KIpy_5mC_408f67YZ200LmxJ3m
+
+sprite $SquareEnvelopeSm [10x12/16z] Oq00Vlm0gWh6P08pkFaP-5b0OY0HY2ocQJm8CxZv880T
+
+sprite $SquareEnvelopeMd [14x16/16z] ZSV50O100CJ0uCxsNoskvtbb-5VDJnErqgkucpUDDp9jTPgkdpRbr9gHO3m4zPpnQE_Iy4Z1-ElN2W
+
+sprite $SquareEnvelopeLg [17x20/16z] dSq30e1054NHcztR_sgpCJfnFdbBhcBGNTSgn7M19ZqNMYHiQitwGlqIAgVliXagAIwc1xR055ggzi35zvOyEdHoKEY1Hrl6qmW
+
+!procedure SquareEnvelope($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/SquareEnvelope', $name, $tech, $desc)
+!endprocedure

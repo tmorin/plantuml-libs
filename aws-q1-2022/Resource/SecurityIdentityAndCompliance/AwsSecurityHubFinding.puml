@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2022/Resource/SecurityIdentityAndCompliance/AwsSecurityHubFinding
+
+sprite $AwsSecurityHubFindingXs [10x10/16z] PSR50O0000GWxBZzvxLRNdYAPeGOszHA4l0VZjNGeHTPcr8bI98gPW
+
+sprite $AwsSecurityHubFindingSm [12x12/16z] TSQt0SD050KWfCl_xR-lIsSgV4Yl1iOXGm_AibpdHc5HVxxWO0cXQLQ3nhZRsh2vcXSpHy83
+
+sprite $AwsSecurityHubFindingMd [16x16/16z] bSV5OGH0400WrcNwhpUUS-M7ctQiOreKrAZ0e4L4PO7K1i7C-Uy8lFlaz2bg3oWLOIa4jabq6XLJdcBIA13KaGfii6UMTsOKHsaDV08
+
+sprite $AwsSecurityHubFindingLg [20x20/16z] {
+hSe54WCW34JH3mG9U__xTaBgCjh57yllbENrLReyjlse-6vGBSgoD05RmnKmAccQm8Ggwjr8m_zi0tYpeRNzrTpYL6wh79i7giUZe3ZYHxVYfggysPYmfDgX
+tOpfP1y_CwC8yZRKU4sf9OuB
+}
+
+!procedure AwsSecurityHubFinding($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/SecurityIdentityAndCompliance/AwsSecurityHubFinding', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsSecurityHubFindingCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsSecurityHubFindingLg>', 'SecurityIdentityAndCompliance', $funcName, $content)
+!endprocedure
+
+!procedure AwsSecurityHubFindingGroup($id, $name='Aws Security Hub Finding', $tech='')
+  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsSecurityHubFindingLg>', $name, $tech)
+!endprocedure

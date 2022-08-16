@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Cloud
+
+sprite $CloudXs [12x10/16z] Oq05JFpy_30sFnZmWfbGm8x4vW8o4O07YSsDn4PMWwI10G
+
+sprite $CloudSm [15x12/16z] VSgr0S1040D1dPct_shDz3YPG243lbJ3F_EOxklZY3YHlwR7iRXHkRX8DYstsRG1
+
+sprite $CloudMd [20x16/16z] TSl50O0040F1uCxsNotkEUOPqRzsgFGsighrCB0hwYxNBk6XtxE6f_jwIzQ8jsgDZ0hSYEjnYZ8_3r9lKMG6
+
+sprite $CloudLg [25x20/16z] bT350S0W50FGu4xsdxRktdU4xtWbbSI5obx0WU2aO8-BkCjptCkOy4ZSVNWCCeyiUZmhPjhW0YIlXSo_4c-0Dr1uATxCMwSR7ddSQm4
+
+!procedure Cloud($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Cloud', $name, $tech, $desc)
+!endprocedure

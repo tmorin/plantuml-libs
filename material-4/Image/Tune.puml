@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/Tune
+
+sprite $TuneXs [10x10/16z] Oy0AE860WOSJncK3a_mmBZy_4049P36WUdwG9eHA1
+
+sprite $TuneSm [12x12/16z] Oo00-24a2818X3Wo3LC3KOSg3kTXga688m
+
+sprite $TuneMd [16x16/16z] ZSq54aCn203HpMQimd3_qxRVtLvS01vxl-bOEqGqKoEoqwqoY--y5L0wHLFiZF6Q7UbqwqAb133Nnwoje_YEoPeS-mC
+
+sprite $TuneLg [20x20/16z] hSu50eH020LGsFniwFrlAsLtF6EIeAkKBqgITEydWZXDxBDYDbRTs8VYIQrH103TUo2yIMLcb2uZcDbcdERo9MX_BL7GFN6OgJ6ERRqBffqg
+
+!procedure Tune($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/Tune', $name, $tech, $desc)
+!endprocedure

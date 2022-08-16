@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/Panorama
+
+sprite $PanoramaXs [10x10/16z] Oy06-640Dui1WXaO6HXOG2nUJX10KGS7
+
+sprite $PanoramaSm [12x12/16z] Oy05E7XWW9c17m48i1bW10ClCmEO1Y8mO4LJpyGC0oZM0W
+
+sprite $PanoramaMd [16x16/16z] Oo0LSFCZ0sO6VXJ0IpQVXGN2XxAvW3R1-9mC3EmWg_cWV6OeOCKqZuU1XGSP4FGE
+
+sprite $PanoramaLg [20x20/16z] hSZ50S0W5C3Gu0xxJrlt7Y7eVtIbpJi9iNsJr9-vKPR-5gXFAs8v89y6eW7esnHduRGIxaxxP34_ewSP
+
+!procedure Panorama($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/Panorama', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Git
+
+sprite $GitXs [10x10/16z] LOQ50O1008ImM_QVrloyX5hz66aNeJld-JpLHcGGuUL8HD9XsnWNPnpurOQ_0G
+
+sprite $GitSm [12x12/16z] VSQr0GC100IWYtlOVzftDofoYEILmKi2L-wuo5bkGkBo7_zvfli3mlV6_NUwIElXHzPA
+
+sprite $GitMd [16x16/16z] ZSY53GH13CNGFqnAt7-rnunhuRCs1kd9VZHwQXmT33CJ58u9iXCqAOAWGbH0AYTBWk2FRa1xy16dtMIu9uwPt3t8V5L2IA1hHayJrwqEL7rj3m
+
+sprite $GitLg [20x20/16z] {
+bSo5WOL0303HMSL2flzgprs-F5YBSRVkv2SLADzYyH9pvQVjTK0xSrlNjMOclk3qLLK9pOYYiBZ3KD0LkaBHBx6NlQJnBJPynhTOIe7FMC1Kypmw8pNOLV7L
+cCSJcB4nxQKs3Jwz3Aqw-5HyiV5TgLpt2
+}
+
+!procedure Git($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Git', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/A/Astro
+
+sprite $AstroXs [10x10/16z] LOR50S0m3CJiJnlM_jE6yL1I1L66W0NAFwdcfROERUJg9EGLiB5D0G
+
+sprite $AstroSm [12x12/16z] FSY55G0X30JHFLTs-gyMXq7oNrG2r3DmT8DXMiDVzLfOft7t-7JNbOjdYqg1m3ute5bZ0W
+
+sprite $AstroMd [16x16/16z] LOg50SKW30NJudhxJ_i5vv3aYJGoO6Jn0h1rQlfT6d2GJjtU880_DT3CSEfTi91FFPO2jkcgfEFgM1wvKL10DYL0aHEiN33c5m
+
+sprite $AstroLg [20x20/16z] {
+RL250SCm37CRvl-_dJUD32f6520W7COYWVD2anpmJtM7UuulVehaEabZuT5DIt0O9Nv7KOVF_50HxQ8G_rZH9JWHldaXaEF-X3C88Fn-iVkaps3nxPnB5jnD
+0MkKx26B7_S
+}
+
+!procedure Astro($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/A/Astro', $name, $tech, $desc)
+!endprocedure

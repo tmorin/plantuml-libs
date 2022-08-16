@@ -1,0 +1,13 @@
+' definition of the Item material-4/File/Attachment
+
+sprite $AttachmentXs [10x10/16z] XScr0S1034FHVqo6_QSDr85xZIs9ZUIt1NMHKWgvudYCaLBGmBrEmEwdyke4
+
+sprite $AttachmentSm [12x12/16z] bS750G0X00InELVO_gj5lsZ2j5UPXTLoc02xy6ze3T32-M4LFO3qHoJhjWVKUG
+
+sprite $AttachmentMd [16x16/16z] hSor0O1044JHluBBz5yj3ZbmBreTocjq6zdqQiCFeGbGN1SZAJ21QjyOmzLFkZYWsV3OEOVvIRzuv2xuO0K
+
+sprite $AttachmentLg [20x20/16z] nSn50WDH20FGeEEJ-z-s7-hxobkXmH_PmOSDRINF1vurojg9DO4pnundpLlr_Ssrvjg0ODHi1mw-vnqKOEVDYaOkSQEuaPDtYGSrS_D1y0qN
+
+!procedure Attachment($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/File/Attachment', $name, $tech, $desc)
+!endprocedure

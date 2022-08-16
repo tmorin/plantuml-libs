@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element Brightness1
+include('material-4/Image/Brightness1')
+
+' renders the element
+Brightness1('Brightness1', 'Brightness1', 'an optional tech label', 'an optional description')
+@enduml

@@ -1,0 +1,21 @@
+' definition of the Item homecloud-2/Brand/Samba
+
+sprite $SambaXs [10x10/16z] Oq00VXX0OQ7BCYB9GW4o2vif
+
+sprite $SambaSm [12x12/16z] Oq06_0Y0ncPbWW8WcmcBUcOKzOpS401Ymm0FaCqD1NpeviC14m
+
+sprite $SambaMd [16x16/16z] Oq07ZFp8W9E1dp2VbGaE645y9YJZCFaeW173F2OqFXBWmSRdHW0-mkvbOU141YmC
+
+sprite $SambaLg [20x20/16z] bT2r0S1040D1IMRklrfJyamJRdA0g7dp4FFb4xP8snDja0r_4rpnvZhvDH-YkoZIN7jByzvoPkxrCRepvIBm
+
+!procedure Samba($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Brand/Samba', $name, $tech, $desc)
+!endprocedure
+
+!procedure SambaCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$SambaLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure SambaGroup($id, $name='Samba', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$SambaLg>', $name, $tech)
+!endprocedure

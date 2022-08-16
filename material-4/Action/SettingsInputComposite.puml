@@ -1,0 +1,16 @@
+' definition of the Item material-4/Action/SettingsInputComposite
+
+sprite $SettingsInputCompositeXs [10x10/16z] Oq02R0mC_624OF7p0n4_9v12i9YOW8Y94KYXoVAm02aifW
+
+sprite $SettingsInputCompositeSm [12x12/16z] Oq01_DWn3pyF7FFpysF5J4nCSCpBoml3A6gu-5bW69TT
+
+sprite $SettingsInputCompositeMd [16x16/16z] XS-50G8m40F0LB2txByjAUvKhYwFj-Gc6WNOHOReNyT11Wx1w5qOg8GKOuZyE-vAQ0k8zZR-UDv5wy8moGcKUZ3Ml__UuiirpeuZ
+
+sprite $SettingsInputCompositeLg [20x20/16z] {
+fT1LWaKX30FGu5R8_dSxD_FSxNpWqXRtJQysJiYe46QrbKuTrmThtJWDpXRDK8oqXCKDF0LDRVbfpVaDu6K_kUV9U-vYpTG1QWrHNO1RP0GIEPKLsNwfYvIW
+DXH8oS0V
+}
+
+!procedure SettingsInputComposite($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/SettingsInputComposite', $name, $tech, $desc)
+!endprocedure

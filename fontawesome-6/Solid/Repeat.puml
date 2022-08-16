@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Repeat
+
+sprite $RepeatXs [10x10/16z] NS710K0050MW082t_xJWtvJIeMJZI24WdF6teeG-i8SKJ05k
+
+sprite $RepeatSm [12x12/16z] HSt70O1G40BHCMUd_shDVjvr5-0ZeLpyWNRrHQ4r_qh4JWZCSbk4JPUBZkclCdav0G
+
+sprite $RepeatMd [16x16/16z] VSx50SK02C3GV9TIil-qTRU7ts3o-B5I6dHk_sYfIIETzUVhtafz04ell7VzpL9wuq9kVw1LCD2fj_xQdKRH2BkpS4OhzCxINoOr
+
+sprite $RepeatLg [20x20/16z] {
+XSw54SKm30DGXpdQVzgIFfJpZdncsUj6BW1taqDXP3jsaYmQ3lAIIW2S9Z0bGD_jYx88WFnKpvUOEyXeCfQpNDmiqs3EeFvoZJcx-x7oHuT5sLGik7IFhwKj
+fAo40lSTMJJPcG4
+}
+
+!procedure Repeat($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Repeat', $name, $tech, $desc)
+!endprocedure

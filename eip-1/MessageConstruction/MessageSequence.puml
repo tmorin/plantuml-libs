@@ -1,0 +1,20 @@
+' definition of the Item eip-1/MessageConstruction/MessageSequence
+
+sprite $MessageSequenceXs [15x10/16z] bST50S10402nESRrBxVCtFp2Jo5WKPOmrGCgW0Dmpc2C0T5grxAlKZnh0G
+
+sprite $MessageSequenceSm [18x12/16z] fSY35S1G30NGXrhxRrlpg1znBZAYVEOUDQ1rhir7rgvvILcMwxGD56IroRXBlSkqoxJBk4azR2BfCqDY0G
+
+sprite $MessageSequenceMd [25x16/16z] lSo53OH0443HyJkq_t8PmOaZ7rPVil1TQ5GRKjZr4vyiDZuHxo15OeCk6rYz0g2x8w1wlh8NAo4X5xGBZ3CC9_X90QxG5ZHDmPyJWBpB-cGJ
+
+sprite $MessageSequenceLg [31x20/16z] {
+rSu55eD040DGabb7xd_SpYokpziIB8-_rhmW4cIkpilU0gA-zT6NVH3s75tz64Vg6txF4VPJZEiYv6maaqTjcNhNPXMLYzSKQqaqUJoC067aq8MPKpynNJ-p
+BmkxcT5r2tTvvY5DB55dF-mDJ4mBBbhpstm
+}
+
+!procedure MessageSequence($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageConstruction/MessageSequence', $name, $tech, $desc)
+!endprocedure
+
+!procedure MessageSequenceGroup($id, $name='Message Sequence', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$MessageSequenceLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,20 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('domainstorytelling/bootstrap')
+
+' loads the Item which embeds the element DottedAurora12Group
+include('domainstorytelling/Group/DottedAurora12Group')
+
+DottedAurora12Group('DottedAurora12Group', 'Dotted Aurora12 Group', 'an optional tech label') {
+  note as note
+  the content of the boundary
+  end note
+}
+@enduml

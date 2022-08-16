@@ -1,0 +1,13 @@
+' definition of the Item material-4/Places/AirportShuttle
+
+sprite $AirportShuttleXs [10x10/16z] RSQt0O104C0mapFUVrhus9qg4TcER0L4qAsFL3jyJ3Q5vOKLYVm
+
+sprite $AirportShuttleSm [12x12/16z] Oo06y4C1EuWDHK0Ed0tYy2C0aCq7PpFpCl0pCxEoCF0mCp1myRC0ZU3ZnsqL
+
+sprite $AirportShuttleMd [16x16/16z] bOY50S1020Fphi3-qzRTU-W5lp4BWyfA6Dnqe_iRXs1r385OhUV9NI0xwC8ZUFYLwXsvSmMWT_ImvFvO4OlVj
+
+sprite $AirportShuttleLg [20x20/16z] hSp50GGX44JHZpkLVxJhEdBZuRImN2fVaOUkNucxAK3pSJFtpyqVPYfj_q1AzrlEMP-jIE7sjvNE_aRyFElZhrH1LhsP3TIh1-vDApTHU5dkWZGCTqtAh7S5
+
+!procedure AirportShuttle($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/AirportShuttle', $name, $tech, $desc)
+!endprocedure

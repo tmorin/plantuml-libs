@@ -1,0 +1,13 @@
+' definition of the Item material-4/Social/ThumbDownAlt
+
+sprite $ThumbDownAltXs [10x10/16z] RSQt0O0m0C0mqpl-_rf8dw99TDq6U8FH6hQqsJORpTTDe2-P3yL6z0C
+
+sprite $ThumbDownAltSm [12x12/16z] Oy0Dk7c0W8a1Y1ZO-S60WH_8vaUmcP3Ol4Xi5YGs202PJ31JaPYC_8mObW8
+
+sprite $ThumbDownAltMd [16x16/16z] bSUr0G0n30D0XTdUVzfdL9Vh3lESdYnKzylrTjxefP_lTFtVqWqTnZaNzqTOXrFTcl6IVq55UifM
+
+sprite $ThumbDownAltLg [20x20/16z] fS_50GKX34NHEox8wx_QhuE59MSP3wFMxM-2ULi1y4f0yW2JiYt5BcLxYgcFRNqC3SHM5IjEdkGNyYJvxcW-jbN0AGMCLHwi0yDu0m
+
+!procedure ThumbDownAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/ThumbDownAlt', $name, $tech, $desc)
+!endprocedure

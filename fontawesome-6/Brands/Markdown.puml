@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Brands/Markdown
+
+sprite $MarkdownXs [12x10/16z] LSQ50O105CFGu4xsdnOzVLzQIbrcXTqPHHKazPs34r1nF710TG-dfnc56m
+
+sprite $MarkdownSm [15x12/16z] VSV50O100C2muaxtdnPtkVn2K6DOJMrAhsobuzgOWZu5ygKYlH2vrhdYItelToC
+
+sprite $MarkdownMd [20x16/16z] ZSY50SD0581GshYo_xHnztVwuIjFAh-3H4jGOMbKScfmQYKaO0Z0r8n_WYv9M6we7GG_rTzmbzueF2EAZtvmrW8
+
+sprite $MarkdownLg [25x20/16z] hSx50SGW00NHYJlJVxKhs6LTVe8-Z2_ItGs3Vmtnm02Zka85O5Fk0ZOF0Ex20KnNw8avAknqNi4MOBM2cn7g6ofOG3fBzZqsnnvKO_KuZvq7il5npW
+
+!procedure Markdown($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Markdown', $name, $tech, $desc)
+!endprocedure

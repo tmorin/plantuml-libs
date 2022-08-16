@@ -1,0 +1,178 @@
+@startuml
+
+' by default the inclusion mode is remote
+!if (%not(%variable_exists("$INCLUSION_MODE")))
+    !global $INCLUSION_MODE="remote"
+!endif
+
+!if ($INCLUSION_MODE == "remote")
+    !if (%not(%variable_exists("$LIB_BASE_LOCATION")))
+        !global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+    !endif
+!else
+    !if (%not(%variable_exists("$LIB_BASE_LOCATION")))
+        !global $LIB_BASE_LOCATION="."
+    !endif
+!endif
+
+!if (%not(%variable_exists("$IMAGE_BASE_PATH"))) && (%variable_exists("$LIB_BASE_LOCATION"))
+    !global $IMAGE_BASE_PATH=$LIB_BASE_LOCATION + "/"
+!endif
+
+' constants
+
+!global $ICON_FORMAT="png"
+!global $TEXT_WIDTH_MAX=200
+!global $MSG_WIDTH_MAX=150
+!global $FONT_SIZE_XS=10
+!global $FONT_SIZE_SM=12
+!global $FONT_SIZE_MD=16
+!global $FONT_SIZE_LG=20
+!global $FONT_COLOR="#212121"
+!global $FONT_COLOR_LIGHT="#757575"
+
+
+' Styles
+
+hide stereotype
+skinparam wrapWidth $TEXT_WIDTH_MAX
+skinparam maxMessageSize $MSG_WIDTH_MAX
+skinparam DefaultFontSize $FONT_SIZE_SM
+skinparam DefaultFontColor $FONT_COLOR
+
+
+' Title
+
+!procedure Title($title="", $subtitle="", $version="", $date="")
+    !$s="$title"
+    !$s_d="Last modified: " + %date("yyyy-MM-dd'T'HH:mm:ss")
+    !$s_v=""
+    !if ($date != "")
+        !$s_d="Last modified: " + $date
+    !endif
+    !if ($version != "")
+        !$s_v=" | version: " + $version
+    !endif
+    !$s=$s_d + $s_v
+    left header
+    !if ($title != "")
+        <color:$FONT_COLOR><size:$FONT_SIZE_LG>$title</size></color>
+    !endif
+    !if ($subtitle)
+        <color:$FONT_COLOR><size:$FONT_SIZE_MD>$subtitle</size></color>
+    !endif
+        <color:$FONT_COLOR_LIGHT><size:$FONT_SIZE_XS>$s</size></color>
+    end header
+!endprocedure
+
+
+' getIcon()
+
+!function getIcon($name)
+    !return $IMAGE_BASE_PATH/$name.$ICON_FORMAT
+!endfunction
+
+
+' include()
+
+!procedure include($resource)
+    !include $LIB_BASE_LOCATION/$resource.puml
+!endprocedure
+
+
+' Relationship
+
+!procedure Relationship($label="", $tech="")
+    !if ($label != '' && $tech != '')
+        $label\n<size:$FONT_SIZE_XS><color:$FONT_COLOR_LIGHT>[$tech]</color></size>
+    !elseif ($label != '')
+        $label
+    !else
+        <size:$FONT_SIZE_XS><color:$FONT_COLOR_LIGHT>[$tech]</color></size>
+    !endif
+!endprocedure
+
+
+' IconElement
+
+!procedure IconElement($id, $stereotype, $icon, $name="", $tech="", $desc="")
+    !local $H="<img:" + getIcon($icon)+ ">"
+    !if ($name != "")
+        !$H=$H + "\n" + $name
+    !endif
+    !if ($tech != "")
+        !$H=$H + "\n" + "<size:" + $FONT_SIZE_XS + "><color:" + $FONT_COLOR_LIGHT + ">[" + $tech + "]</color></size>"
+    !endif
+    !if ($desc != "")
+        !$H=$H + "\n\n" + $desc
+    !endif
+    card $id <<$stereotype>> as "$H"
+!endprocedure
+
+
+' IconCardElement
+
+!procedure IconCardElement($id, $stereotype, $sprite, $techName="", $funcName="", $content="")
+    !local $V=""
+    !local $H=""
+    !local $S="<color:" + $FONT_COLOR + ">" + $sprite + " </color>"
+    !local $F=""
+    !if ($techName != "") && ($funcName != "")
+        !$ST="<size:" + $FONT_SIZE_MD + ">" + "<color:" + $FONT_COLOR_LIGHT + ">" + $techName + "</color>" + "</size>"
+        !$T="<size:" + $FONT_SIZE_MD + ">" + "<color:" + $FONT_COLOR + ">" + $funcName + "</color>" + "</size>"
+        !$H=$T + "\l" + $S + $ST
+        !$V=$V + $H
+    !elseif ($techName != "")
+        !$ST="<size:" + $FONT_SIZE_MD + ">" + "<color:" + $FONT_COLOR_LIGHT + ">" + $techName + "</color>" + "</size>"
+        !$H=$S + $ST
+        !$V=$V + $H
+    !elseif ($funcName != "")
+        !$T="<size:" + $FONT_SIZE_MD + ">" + "<color:" + $FONT_COLOR + ">" + $funcName + "</color>" + "</size>"
+        !$H=$S + $T
+        !$V=$V + $H
+    !endif
+    !if ($H != "") && ($content != "")
+        !$F="\n----\n" + $content
+        !$V=$V + $F
+    !elseif ($content != "")
+        !$F=$content
+        !$V=$S + "\n" + $F
+    !endif
+    Rectangle $id <<$stereotype>> as "$V"
+!endprocedure
+
+
+' IconGroupElement
+
+!procedure IconGroupElement($id, $stereotype, $sprite, $name="", $tech="")
+    !local $V=$sprite + " "
+    !if ($name != "") && ($tech != "")
+        !$V=$V + $name + "\n" + "<size:" + $FONT_SIZE_XS + "><color:" + $FONT_COLOR_LIGHT + ">[" + $tech + "]</color></size>"
+    !elseif ($name != "")
+        !$V=$V + $name
+    !elseif ($tech != "")
+        !$V=$V + "<size:" + $FONT_SIZE_XS + "><color:" + $FONT_COLOR_LIGHT + ">[" + $tech + "]</color></size>"
+    !endif
+    Rectangle $id <<$stereotype>> as "$V"
+!endprocedure
+
+
+' GroupElement
+
+!procedure GroupElement($id, $stereotype, $name="", $tech="")
+    !local $V=""
+    !if ($name != "") && ($tech != "")
+        !$V=$V + $name + "\n" + "<size:" + $FONT_SIZE_XS + "><color:" + $FONT_COLOR_LIGHT + ">[" + $tech + "]</color></size>"
+    !elseif ($name != "")
+        !$V=$V + $name
+    !elseif ($tech != "")
+        !$V=$V + "<size:" + $FONT_SIZE_XS + "><color:" + $FONT_COLOR_LIGHT + ">[" + $tech + "]</color></size>"
+    !endif
+    !if ($V != "")
+        Rectangle $id <<$stereotype>> as "$V"
+    !else
+        Rectangle $id <<$stereotype>>
+    !endif
+!endprocedure
+
+@enduml

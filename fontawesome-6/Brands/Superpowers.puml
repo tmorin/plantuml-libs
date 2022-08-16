@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Superpowers
+
+sprite $SuperpowersXs [8x10/16z] Oq06tFpy30pyG02aUBWOW6n61Y0JnC2WsK4C86O1AMS4Cjd04W
+
+sprite $SuperpowersSm [10x12/16z] NS750OK0040XVjg-_QSrheAdtnhsRcX3EtEWbu1n4o01o-8R2FNsQs3gXjyFu0G
+
+sprite $SuperpowersMd [14x16/16z] TSc50SCW04JHmvtRVzesmU8VVO3FL6Y7J6orEqUYeHswVx6Y9LW0Gum20IxX9eMo9BWlrT7VIT7WwD0O1MHXtb7PqnF5uwq_
+
+sprite $SuperpowersLg [17x20/16z] {
+XOy55aGX30ChtuMv_sbNqtKPj98yi3zuM17J3j1VWco8uHB3SzneVZvx9MPs4w2z6DZCaaMXYZFnd5YaaFzPrpztE3md3BBYxVAG1CMBRYiiVlwGOaSe3WNx
+x6MyZs4_E08
+}
+
+!procedure Superpowers($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Superpowers', $name, $tech, $desc)
+!endprocedure

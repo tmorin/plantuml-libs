@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-7/K/Kubernetes
+
+sprite $KubernetesXs [10x10/16z] BOc50S104C9IzsR_QIlFvHJWPo2exdNxVt0n6XqdGAFcqvz3v5_k9C40ZFMy
+
+sprite $KubernetesSm [12x12/16z] DSsrWSG00C0m7uQZ_QTz2AXovmwlRXl6etQ4wSntCnxnJNkhFHxVLwqpaJmyMTN-oV98UAJGW7hWEBqm-rGvhFKB
+
+sprite $KubernetesMd [16x16/16z] {
+LSU5OGCn40NH4Ho9flzkemtPVekVNuLtKxq_Kin3M8PaU20UPwOQeBjoJfFENHJKnYDcr0iLsQvsgHXp8sDbzNQTK25bk7IgzPR57XLLyhFdL0UeifNV9skV
+QcJ2RGW9mbJ32Nm1
+}
+
+sprite $KubernetesLg [20x20/16z] {
+NSy54WCX40NHPWsdxt_RrCIJ1sFbdxUTFwchXMy-DPwsQTWCbU3Jzfg0Xhgn3yE2JVCf5399D7QraHqegC9KjuEp8SyBLPm0c-UfLbHniSlbsDHrwMf0OYC1
+GyDX90EKrgkUgeF58QjWe3rpQWL3WgMQ4u3XUct9aDL6sDHXwBfuEFpWfVgo0Tm
+}
+
+!procedure Kubernetes($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/K/Kubernetes', $name, $tech, $desc)
+!endprocedure

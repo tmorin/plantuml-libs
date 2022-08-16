@@ -1,0 +1,13 @@
+' definition of the Item material-4/Places/Carpenter
+
+sprite $CarpenterXs [10x10/16z] Oq06_706Fp-CHO39ny_FmW_JpSKBPG4PKC06n
+
+sprite $CarpenterSm [12x12/16z] Oq05x8m89Zy_dCFFZuF3WipXHURm8t4O-VaP-DYW4a0cDy8eReJTOCK
+
+sprite $CarpenterMd [16x16/16z] RSY53G0n5CFGOoXb_sdB67qB_JQXVLyNsDTTO0V1n-08TX0y39OXZelQ_mAs0xh_lswQjXqsgG
+
+sprite $CarpenterLg [20x20/16z] TO-54G112CI0Tqt_rRxhmMKyW-nA5lLgGhq2zIgLFJlpNuAVD8B9DfgSeqc2oOPxqcsNa6wh3DX_Uuy__HkQT0n9mtwV-ZEoJoLKjUHP0G
+
+!procedure Carpenter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/Carpenter', $name, $tech, $desc)
+!endprocedure

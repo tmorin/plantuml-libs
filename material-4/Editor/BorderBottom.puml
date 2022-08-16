@@ -1,0 +1,13 @@
+' definition of the Item material-4/Editor/BorderBottom
+
+sprite $BorderBottomXs [10x10/16z] Oy0AcDWOs804a0N4_2243DZuWG900aK7M2b81pyO8Ci2
+
+sprite $BorderBottomSm [12x12/16z] Oy09-64GNHo6ALKF1QZY
+
+sprite $BorderBottomMd [16x16/16z] XOt50K0X3CNITyAx_xJVNGDruvUKgB8wsp6E55cPBNTg0UG0Ba02s9NPQ3NRkTybd-tpVR0ARFV12l1ottVc-plSw04
+
+sprite $BorderBottomLg [20x20/16z] fS-30G0n30NGNplPVzgpZLUxmJzimGJFOkYrh8GrK7ReNPrjj6SRmrdgjZiItI3ZZ5Vm3jeFlTE_Y2QtPUYz-Klx-uQoQ5p6iJB4iPBnM0q
+
+!procedure BorderBottom($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/BorderBottom', $name, $tech, $desc)
+!endprocedure

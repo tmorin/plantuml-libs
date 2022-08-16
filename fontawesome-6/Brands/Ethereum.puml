@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Brands/Ethereum
+
+sprite $EthereumXs [6x10/16z] 7OV50K0X08NudSh-qnhlGW0x00P-eO66cRfnYQG1X0u
+
+sprite $EthereumSm [7x12/16z] HOk50O0m30GFTsx_QQ7UU5veuPQNUNh1e9eUVVFAxprm7HFlcCdkurtW1m
+
+sprite $EthereumMd [9x16/16z] JOs30S0m00IlTc__QOlOoPDst5EyEuqFTKb0XFp73eD6I1Ea6Rh_w_XkPktc2Tn_55Xp3Z6cxUBgWHS
+
+sprite $EthereumLg [12x20/16z] HSl50SG048LGuXxwhtPbVkITWTBpwEIX2yIaGgXkb4LLYkK0E8mM6czmUXlm1Pinmf7Zf9jed5bisKzWKXWLW5DF7IdfOrQvwSGZnHS
+
+!procedure Ethereum($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Ethereum', $name, $tech, $desc)
+!endprocedure

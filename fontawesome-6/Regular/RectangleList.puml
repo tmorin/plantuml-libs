@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Regular/RectangleList
+
+sprite $RectangleListXs [11x10/16z] Oq02_0W05-FWP-1dWGXne8eoOnLbmX3bH38N
+
+sprite $RectangleListSm [13x12/16z] ZScr0G0X00F0lE9a_sbnxRWgWWrNSjq_QDm5FB-BO94BXbIUm-SQZ_NVG1W_Y0W
+
+sprite $RectangleListMd [17x16/16z] bSjL0e1G44BHQxViVxLs-_BypG3ybEFJGAclaPVraTUGxlQ7nA0T62TP0_acYvaakx29FW_qmTSC
+
+sprite $RectangleListLg [22x20/16z] VSm55iH02C3GrBsv_sdNg_3sFvq10hagAC74Cjk5tLKbw5LeHoZApVQhDRhPVliPolgdsdxpxYJqu-ReLactg85Yyx-h1KieQ9bqAP92CDZfUgSiHWsf9m
+
+!procedure RectangleList($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/RectangleList', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2022/Resource/GeneralIcons/Multimedia
+
+sprite $MultimediaXs [10x10/16z] JOk30G0m4CHIU_znQ-MDuo4t0Vmo1U0Ae4QekBkYoAj3u6QtKP-sR783
+
+sprite $MultimediaSm [12x12/16z] JOg30G0n54DVZQJxhtl6PyI_hATCw6rCChO80G9xXnq33G4d7ZBpnbaitzY2T6E6TyYENOVPKsl7FUPEfpKHyrDi
+
+sprite $MultimediaMd [16x16/16z] NSS50iKW30JHmI6xtF-utwNj8CdZMjKnKEw9tkYTrWdKyqZPBEENIP3IvpuDT4q3V5ogG7-Rc47vUHEurPyN3Xe_OsZpO7A5Zxiwti-x_N7It-wdk7G7
+
+sprite $MultimediaLg [20x20/16z] {
+fSy5ZaCn34NH5ri_vlqlTwRSaB0tV8J1CLe3OYKZ938wAkIrb1-cSblwE4kVrXh6zR17KlMwVSol1WIFniBbG8sMjnjbrz7gVlEKqJgp9I56GxKEY4o6C0t1
+Q6Fymtyl0jTIujG_
+}
+
+!procedure Multimedia($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/GeneralIcons/Multimedia', $name, $tech, $desc)
+!endprocedure
+
+!procedure MultimediaCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$MultimediaLg>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+
+!procedure MultimediaGroup($id, $name='Multimedia', $tech='')
+  IconGroupElement($id, 'GeneralIconsFamily', '<$MultimediaLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Regular/EyeSlash
+
+sprite $EyeSlashXs [12x10/16z] JOl50K0X34FpNU7jlorDJbWRNJKT5ZNW386ZPYEa0sYZqEgre7zNF8J7zRfEYyWc4CLCyBmzm_0S
+
+sprite $EyeSlashSm [15x12/16z] LSsrOKDH04FHOt-cT_VVDat8wiHld-ZWNGr0rSp-8znn7epWCLTNZ8Szb2MY5vIuRk_exIp269HNQmiKBzJFqrYFtaQ0vRbWwmi
+
+sprite $EyeSlashMd [20x16/16z] {
+PSUrWSDG040n6GB6j_-qXx-BEisR3-zki9xNph0KL_zUXgetECfmjhCTArCPdlr3DnIgIJ7rP6w6Ufd24MUuERk5ARJnYaU5mjx4w68BZ1_S7Mr0pPYmbU7k
+NfdUaxac_vR-tAZLXwjl
+}
+
+sprite $EyeSlashLg [25x20/16z] {
+RP05eeCm04DJW_gx_sc_P2xPW5WrJdt7X72bCQMW1mPaIITNFB83UWHMIQa1JtFp90Fmlj0vUfJK7ed5m7XEw586M66m9NM696rEnrvdKio35DZtVIV9AeAK
+Q99KVPGkp-_tZGuNbwTlVXSdTiHZWBrcGVPMYynSSBBzyRw7hhZI42oUJmxKkzWGdky4DlWizRcc4sTHalUjxzZy0W
+}
+
+!procedure EyeSlash($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/EyeSlash', $name, $tech, $desc)
+!endprocedure

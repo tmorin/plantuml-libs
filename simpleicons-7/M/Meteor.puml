@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/M/Meteor
+
+sprite $MeteorXs [10x10/16z] Oq00LWIJ6yPWPk1ZO869yJDmGPZyGCZ736VoSo2O20KGmCZFm0u
+
+sprite $MeteorSm [12x12/16z] JOk30K0X54NFDwlzfytFlC37vf_JlmyNXpnVpKUUM3E8FVMiiNFOSt7B2I-VFM49Sa8ywba
+
+sprite $MeteorMd [16x16/16z] NSe54e0m3031Qmmd__yj4mRjGlte2Hs3njS0pjS4uzi8BFKB5uSDLk9kHjZh7w-c-gn_liviryMgbEkaoKRHHj8IIpYPa4WIruMujkeR5nr7k_hBF9tn0G
+
+sprite $MeteorLg [20x20/16z] {
+RS_5WGGX50N0mjgRbt-sUzhnki5tlnG_33_qNzcd7tPAem9ecDJEU7ntd8oXhFfBlx0SxDQNVfFjq0ux5489-zIkHyEB6ixRk86LCC8LsmGEPh6acDCAk4Yn
+ffW1D9CCMwe4C4J9Qi_Z5ZQf9RipYuT3oiZXNBqeiGR-
+}
+
+!procedure Meteor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/M/Meteor', $name, $tech, $desc)
+!endprocedure

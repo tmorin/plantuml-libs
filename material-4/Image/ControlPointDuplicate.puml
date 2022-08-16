@@ -1,0 +1,19 @@
+' definition of the Item material-4/Image/ControlPointDuplicate
+
+sprite $ControlPointDuplicateXs [10x10/16z] ROY50O0m30GFTsx_QN5jcxoJF9bjPq66wXZQZACo7QPIbkMn7Prg0hAZrEhCUoi
+
+sprite $ControlPointDuplicateSm [12x12/16z] TSZ50OKm00Mm02qER_zflxla67_LJir9mxIRWZQj4EQMpADnOEj8Maid9xPXCSot5q9B5rtQai8KQDcIsPiZ
+
+sprite $ControlPointDuplicateMd [16x16/16z] {
+ZSe5aaGn24NH6_iMUVlVxH2ctKyL3ZzAUrq3KrIsq6X3pSVguUq0LJn85jgJ85iG1HJr0OT5p8eHf0wr4JM1gc2__AEWGBJ0vqFq0Lsuf09IjCWGTXsO8rbe
+Abp567ZX3m
+}
+
+sprite $ControlPointDuplicateLg [20x20/16z] {
+fOn55WD144AfTkV-jqtpnhP9vYzA0RmaEPN9JT-ZM0mg7ANkcezJEOfmKyV617H6u63IWHCm3griqDmB3SZqn-qGBa9-89J2MOe4rAtlKYZqvD2jAi2CtKnB
+O00YuvD7WbHVsbg6_WM9GyF4WV48Mqubw599XqrYK3bOXWDJINsEwl437m
+}
+
+!procedure ControlPointDuplicate($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/ControlPointDuplicate', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item material-4/Action/Loyalty
+
+sprite $LoyaltyXs [10x10/16z] HOd50O0m54DpmUNjFosqtoMgdWEuJ27WDcLpfRBq1gjMwJ5bS1DYfYXcd_03
+
+sprite $LoyaltySm [12x12/16z] LOg55S0m44AfA-_lFsqbdbDCNTssfmZj7LWYtWSoCP29gMI6u_TXaDQSbNuon9D8X94KA4Nq0W
+
+sprite $LoyaltyMd [16x16/16z] POv50e0m40FPNf7y_xNOHf2fJghJZneNKJJoWHeTsBb5RkWXlfsLGOuwMDgNzWAAexzKYHcq9cWrmDF20G
+
+sprite $LoyaltyLg [20x20/16z] {
+ZOo50GCW30HnXzz_MjpgVVouXFmTYn5_CI343jt5gZ3CS5Wa57WqSSK_i4SJ3maNixPA9aqpDCJhHGn1DUW1j7CAjbyYm2OxtnvfQObU9NIW2QP97wpPCmxh
+mHpr3p6EV4a1
+}
+
+!procedure Loyalty($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Loyalty', $name, $tech, $desc)
+!endprocedure

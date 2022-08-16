@@ -1,0 +1,13 @@
+' definition of the Item material-4/Navigation/ArrowDownward
+
+sprite $ArrowDownwardXs [10x10/16z] Oy05-76p-1c1B2vU29EVYmygoiy7KyUBQXG
+
+sprite $ArrowDownwardSm [12x12/16z] Oy0BU93O_0JOx4062362E1py343816I1EVmW9ep3XD3BY64Z
+
+sprite $ArrowDownwardMd [16x16/16z] dSYr0G0W4CLG72h-_jDY9oMMxiNyvV1lAmxa2d94bZ4TK2PeU11rG2Y3g17FTG
+
+sprite $ArrowDownwardLg [20x20/16z] jT2r0G0X50DGt27xJtkAqqBAXtmXEyBaQWRqf5bUpRBS1K2pEKHIaNzc4Nx9DnzpI1aoUhXygqFaMmE6TGUHxCWD
+
+!procedure ArrowDownward($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Navigation/ArrowDownward', $name, $tech, $desc)
+!endprocedure

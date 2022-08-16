@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/CloudNetwork
+
+sprite $CloudNetworkXs [10x10/16z] NKk54S1020kMO_-5stV3YU0EMPUjApcf1CiqOmat1PHWcOrdFjuLFm
+
+sprite $CloudNetworkSm [12x12/16z] VSkr0S104C0mv_oq_y9X9lNYJyWX5tQDp4GW80cXPQA0-VmBZLsHNITt0m
+
+sprite $CloudNetworkMd [16x16/16z] ZOw54GD130Fb22RzD_pCl0Tcm3UAUvlyOOUpj__8mKPsfOj6CWCcETXQuXnaPQXVgUnjbDxsMyqzBG
+
+sprite $CloudNetworkLg [20x20/16z] bSor0KGn30HHhUPJ_mqVcZVoX4yGsya9qWtCT5wEJrou3IWL-wBASuXI0iMuIWUGnL8b-5zddjVtr_zQKVhY4wMECelpG8Q06uhDtW
+
+!procedure CloudNetwork($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudNetwork', $name, $tech, $desc)
+!endprocedure
+
+!procedure CloudNetworkCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudNetworkLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CloudNetworkGroup($id, $name='Cloud Network', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudNetworkLg>', $name, $tech)
+!endprocedure

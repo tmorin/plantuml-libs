@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/E/Exercism
+
+sprite $ExercismXs [10x10/16z] Oq00VbOmnSV1m0yJGM5n0MbM1dvELcO6TWP6g2mFb0NIYAQ3dH_A
+
+sprite $ExercismSm [12x12/16z] NOkr0G0n3CGKPdl_QPyngWxvujG0a1KKJeAyskcaYnp2w2OCdaZYt3Wis5ENOFvVlsd3IMkGJvCoAm
+
+sprite $ExercismMd [16x16/16z] XOs50KGX583uPIlxJtlTYRuktbWp5xO41Bcn2GxklCNpdtZ1Y56OUmdOip0nGpp-MMpSCLtcLtpQbvs_t1joHy1u2xkyiWS
+
+sprite $ExercismLg [20x20/16z] {
+bP030WGm30IdTlR_hptRDtNZy1hdR-uE02bnnLJ1tts115MUMzQBl_d7NvE3de3ZCGGIB9S7E7Eb4zIR4i510NSy99Qu8ocUOqm8xY5kYiodNBAvZ_a5XQTw
+dUPJNoYwiHuIBza2
+}
+
+!procedure Exercism($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/E/Exercism', $name, $tech, $desc)
+!endprocedure

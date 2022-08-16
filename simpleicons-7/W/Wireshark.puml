@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/W/Wireshark
+
+sprite $WiresharkXs [10x10/16z] O-270Xv-1XX0Oa48NWYB1oR62PVb1LBCG1Od9rY0YmkXbmVE0W
+
+sprite $WiresharkSm [12x12/16z] O-3XXm4s7WO4uCTay_F0s5mW6eAPWPWNokQ5iq40heOJn6O3iPcOcC0IG1hPV3O4ama
+
+sprite $WiresharkMd [16x16/16z] XSw53SHG30JH-OoM-w_s8CmPqJxX4dKRCR1Db5tkrYAwSSaWgui7_CRyiek5lUlWCDkPmJBO6DCO_PjHxI_6VYkz_FM8tUJq2m
+
+sprite $WiresharkLg [20x20/16z] {
+dP230KH130M3K_Zwx_RixrdFEgJu8KcBVn20wHVVu0A9RtUwZAM-dDkbig-zXwGBzULmg_lJcVmxF6x-S5ntTzAtEydTSTsTcrdJ0_Y5naukF1tBXLmQWvG_
+LmItRyhF
+}
+
+!procedure Wireshark($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/W/Wireshark', $name, $tech, $desc)
+!endprocedure

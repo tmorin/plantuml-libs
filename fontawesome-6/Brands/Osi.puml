@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Brands/Osi
+
+sprite $OsiXs [10x10/16z] 1S410G0G002W003_toe0iF0021J0W-8X0O1WG-304waUY1cR3m
+
+sprite $OsiSm [12x12/16z] 7SN50SGm000W6lViF-r9-G00A8ldF700ZGw0WhZWG0DYnCK0tXyU4KV5iL1TF5o1XmdpucI-
+
+sprite $OsiMd [16x16/16z] {
+ROu55eGm34IJ5Uhj_M_BcuyxyH5xUsfFeOomTbDPYquCl-DE8IeS5sEfV8b_oyebMFse62m-2Wt05mK5QBasXiKuYfovXG1-vSzh3fB0G-1EAzSPLD6v3VvZ
+rtprDeYudm4
+}
+
+sprite $OsiLg [20x20/16z] {
+TOu50W8n30IdthFa_w_5DZXCDRxy9Mz-x6QJ9xv5o5T4CHxK-1il90DmtcWJHkCTVrHEDqjgsTYviZR0vToH9aKE5PUYKfxZB6d4zfh7AYi1Uuw8eq_7kbHF
+bXI9KO7hw4uxGBdU-NgL7b5Tj3qcZafsHFOQcdVZmKXIBZ5d
+}
+
+!procedure Osi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Osi', $name, $tech, $desc)
+!endprocedure

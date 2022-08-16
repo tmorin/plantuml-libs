@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/Debugger
+
+sprite $DebuggerXs [10x10/16z] Oq00TdOe1KG80KuePc5XO6Lb1L90OKuWYnCi2nO30gWwxAO
+
+sprite $DebuggerSm [12x12/16z] NKq50W0X2AFP_l_Wwx0LMCcuklNwitkgLNdLqFipCznyiSmyE7NKxACcZg7xFJUtYt_Soo0Jjq7caYLFNJi
+
+sprite $DebuggerMd [16x16/16z] TOw53S1030Fx4Df_uIfSF963zl44YLA2IY8QFxMlZY5UJXuniSRYVWgA2h_tklw9M2siDJxcoj0IwzlaSj7Nc4OCy9itwoSd
+
+sprite $DebuggerLg [20x20/16z] {
+dP150eGm30299_z_CDHbVPdRjF7Z9G2mIZOmi_aeoNvvqsIrHFH7yr6zFrgilLKorfMPK-q279Ijz42eRmGw-aQqtF3n1ZstpjVeRmjYa75OdcAV4qJKnvmk
+8hVkqjzUSG4
+}
+
+!procedure Debugger($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Debugger', $name, $tech, $desc)
+!endprocedure
+
+!procedure DebuggerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DebuggerLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure DebuggerGroup($id, $name='Debugger', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DebuggerLg>', $name, $tech)
+!endprocedure

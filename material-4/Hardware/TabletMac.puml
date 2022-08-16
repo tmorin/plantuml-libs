@@ -1,0 +1,13 @@
+' definition of the Item material-4/Hardware/TabletMac
+
+sprite $TabletMacXs [10x10/16z] Os3W1mDE80CAW2m6C22F1G4G5Y-8O
+
+sprite $TabletMacSm [12x12/16z] Os3WuuS0HWO67duOO63WPMQ005gnWRRmiaFiuWAIx0nWDW
+
+sprite $TabletMacMd [16x16/16z] pSWr0G0m44FHNnxZNssP9DnR0f1q9S3fuy0hNF9ZSzdSdxjXxrrAsNS3
+
+sprite $TabletMacLg [20x20/16z] vOW50S0m4CGovfr_jOCoI6WUBy2fX8sVMwgaSYxZTX9qD-boKjVrbRkI1pOPzjFU4Lu
+
+!procedure TabletMac($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Hardware/TabletMac', $name, $tech, $desc)
+!endprocedure

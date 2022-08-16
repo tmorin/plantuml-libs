@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/PartnerPortal
+
+sprite $PartnerPortalXs [10x10/16z] LOo55S10349Zh_JlFt3rD2w0RIRuk-J0EpoRdyzuo6L0jcFxUXNFg6V4tib2WcBHkm4
+
+sprite $PartnerPortalSm [12x12/16z] NSst0GCn3CLGA7vY_u7jIvLUnKnEKHwTH3SJHfA95qZs1kQN44I1f0FgCy-k-aOkbb-oklYzwD7pxny
+
+sprite $PartnerPortalMd [16x16/16z] ROu50aCn5C9IPU_-5nvbBlaQgF6NgQftt_O9OQqcQLTTUc5qS5o7QEl9fxqnJoiOHVeJzEqoQfOaJBlxblnKc213A2Dc0ftT3N1taJeioT9PR-UtlbXsmXK
+
+sprite $PartnerPortalLg [20x20/16z] {
+ZP074eCm30JFHPBl_n-ET4gRai3ITnQmZJz4aBns9hU-4ejaC8cEem5cISL3pu5ay9G4N95SNikDbcDLIodzgCC8wZS7RoVuxGnc6SfziZ5s8giP95kq6ztf
+huHrzmodd4iL9H8c6tIyc3VN3-xdE9e7
+}
+
+!procedure PartnerPortal($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/PartnerPortal', $name, $tech, $desc)
+!endprocedure
+
+!procedure PartnerPortalCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$PartnerPortalLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure PartnerPortalGroup($id, $name='Partner Portal', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$PartnerPortalLg>', $name, $tech)
+!endprocedure

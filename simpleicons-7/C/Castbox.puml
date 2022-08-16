@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/C/Castbox
+
+sprite $CastboxXs [10x10/16z] Om01VWO8uEFdvsS3qepy402KWG4K5WCx0uOOcXQ8aH0Q
+
+sprite $CastboxSm [12x12/16z] JOo30K0n34GljM__QJ_g5nCTOb59-fvP3WJWnbzv_dDL66Ski8ZYUXwbCgdQSyQrdxaGhAyL7KNoZoy
+
+sprite $CastboxMd [16x16/16z] ROp50K0X04Bv7GRxJsktlXk9o4QqQ99_KHyZUr0x2zh9cot0lz8QtAeM10XPz1P_rPqr0JgzbJt6lwetji0XYhhXA1M9mk4a0XO
+
+sprite $CastboxLg [20x20/16z] {
+XT3L0OGm50NHmI5s-wzsBPwrUNy7YP3RnT0K99cEWc9xaKEbCCNFrEKZ3S7ymoRvmNXEPviudpOtDi41Jzsh6PIc-zySt-hit_uOoPGhA4t4R96DMXH7rr7k
+3ku
+}
+
+!procedure Castbox($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/C/Castbox', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,411 @@
+
+
+
+' by default the inclusion mode is remote
+!if (%not(%variable_exists("$INCLUSION_MODE")))
+    !global $INCLUSION_MODE="remote"
+!endif
+
+!if ($INCLUSION_MODE == "remote")
+    !if (%not(%variable_exists("$LIB_BASE_LOCATION")))
+        !global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+    !endif
+!else
+    !if (%not(%variable_exists("$LIB_BASE_LOCATION")))
+        !global $LIB_BASE_LOCATION="."
+    !endif
+!endif
+
+!if (%not(%variable_exists("$IMAGE_BASE_PATH"))) && (%variable_exists("$LIB_BASE_LOCATION"))
+    !global $IMAGE_BASE_PATH=$LIB_BASE_LOCATION + "/"
+!endif
+
+' constants
+
+!global $ICON_FORMAT="png"
+!global $TEXT_WIDTH_MAX=200
+!global $MSG_WIDTH_MAX=150
+!global $FONT_SIZE_XS=10
+!global $FONT_SIZE_SM=12
+!global $FONT_SIZE_MD=16
+!global $FONT_SIZE_LG=20
+!global $FONT_COLOR="#212121"
+!global $FONT_COLOR_LIGHT="#757575"
+
+
+' Styles
+
+hide stereotype
+skinparam wrapWidth $TEXT_WIDTH_MAX
+skinparam maxMessageSize $MSG_WIDTH_MAX
+skinparam DefaultFontSize $FONT_SIZE_SM
+skinparam DefaultFontColor $FONT_COLOR
+
+
+' Title
+
+!procedure Title($title="", $subtitle="", $version="", $date="")
+    !$s="$title"
+    !$s_d="Last modified: " + %date("yyyy-MM-dd'T'HH:mm:ss")
+    !$s_v=""
+    !if ($date != "")
+        !$s_d="Last modified: " + $date
+    !endif
+    !if ($version != "")
+        !$s_v=" | version: " + $version
+    !endif
+    !$s=$s_d + $s_v
+    left header
+    !if ($title != "")
+        <color:$FONT_COLOR><size:$FONT_SIZE_LG>$title</size></color>
+    !endif
+    !if ($subtitle)
+        <color:$FONT_COLOR><size:$FONT_SIZE_MD>$subtitle</size></color>
+    !endif
+        <color:$FONT_COLOR_LIGHT><size:$FONT_SIZE_XS>$s</size></color>
+    end header
+!endprocedure
+
+
+' getIcon()
+
+!function getIcon($name)
+    !return $IMAGE_BASE_PATH/$name.$ICON_FORMAT
+!endfunction
+
+
+' include()
+
+!procedure include($resource)
+    !include $LIB_BASE_LOCATION/$resource.puml
+!endprocedure
+
+
+' Relationship
+
+!procedure Relationship($label="", $tech="")
+    !if ($label != '' && $tech != '')
+        $label\n<size:$FONT_SIZE_XS><color:$FONT_COLOR_LIGHT>[$tech]</color></size>
+    !elseif ($label != '')
+        $label
+    !else
+        <size:$FONT_SIZE_XS><color:$FONT_COLOR_LIGHT>[$tech]</color></size>
+    !endif
+!endprocedure
+
+
+' IconElement
+
+!procedure IconElement($id, $stereotype, $icon, $name="", $tech="", $desc="")
+    !local $H="<img:" + getIcon($icon)+ ">"
+    !if ($name != "")
+        !$H=$H + "\n" + $name
+    !endif
+    !if ($tech != "")
+        !$H=$H + "\n" + "<size:" + $FONT_SIZE_XS + "><color:" + $FONT_COLOR_LIGHT + ">[" + $tech + "]</color></size>"
+    !endif
+    !if ($desc != "")
+        !$H=$H + "\n\n" + $desc
+    !endif
+    card $id <<$stereotype>> as "$H"
+!endprocedure
+
+
+' IconCardElement
+
+!procedure IconCardElement($id, $stereotype, $sprite, $techName="", $funcName="", $content="")
+    !local $V=""
+    !local $H=""
+    !local $S="<color:" + $FONT_COLOR + ">" + $sprite + " </color>"
+    !local $F=""
+    !if ($techName != "") && ($funcName != "")
+        !$ST="<size:" + $FONT_SIZE_MD + ">" + "<color:" + $FONT_COLOR_LIGHT + ">" + $techName + "</color>" + "</size>"
+        !$T="<size:" + $FONT_SIZE_MD + ">" + "<color:" + $FONT_COLOR + ">" + $funcName + "</color>" + "</size>"
+        !$H=$T + "\l" + $S + $ST
+        !$V=$V + $H
+    !elseif ($techName != "")
+        !$ST="<size:" + $FONT_SIZE_MD + ">" + "<color:" + $FONT_COLOR_LIGHT + ">" + $techName + "</color>" + "</size>"
+        !$H=$S + $ST
+        !$V=$V + $H
+    !elseif ($funcName != "")
+        !$T="<size:" + $FONT_SIZE_MD + ">" + "<color:" + $FONT_COLOR + ">" + $funcName + "</color>" + "</size>"
+        !$H=$S + $T
+        !$V=$V + $H
+    !endif
+    !if ($H != "") && ($content != "")
+        !$F="\n----\n" + $content
+        !$V=$V + $F
+    !elseif ($content != "")
+        !$F=$content
+        !$V=$S + "\n" + $F
+    !endif
+    Rectangle $id <<$stereotype>> as "$V"
+!endprocedure
+
+
+' IconGroupElement
+
+!procedure IconGroupElement($id, $stereotype, $sprite, $name="", $tech="")
+    !local $V=$sprite + " "
+    !if ($name != "") && ($tech != "")
+        !$V=$V + $name + "\n" + "<size:" + $FONT_SIZE_XS + "><color:" + $FONT_COLOR_LIGHT + ">[" + $tech + "]</color></size>"
+    !elseif ($name != "")
+        !$V=$V + $name
+    !elseif ($tech != "")
+        !$V=$V + "<size:" + $FONT_SIZE_XS + "><color:" + $FONT_COLOR_LIGHT + ">[" + $tech + "]</color></size>"
+    !endif
+    Rectangle $id <<$stereotype>> as "$V"
+!endprocedure
+
+
+' GroupElement
+
+!procedure GroupElement($id, $stereotype, $name="", $tech="")
+    !local $V=""
+    !if ($name != "") && ($tech != "")
+        !$V=$V + $name + "\n" + "<size:" + $FONT_SIZE_XS + "><color:" + $FONT_COLOR_LIGHT + ">[" + $tech + "]</color></size>"
+    !elseif ($name != "")
+        !$V=$V + $name
+    !elseif ($tech != "")
+        !$V=$V + "<size:" + $FONT_SIZE_XS + "><color:" + $FONT_COLOR_LIGHT + ">[" + $tech + "]</color></size>"
+    !endif
+    !if ($V != "")
+        Rectangle $id <<$stereotype>> as "$V"
+    !else
+        Rectangle $id <<$stereotype>>
+    !endif
+!endprocedure
+
+
+
+' Constants
+
+!global $C4_ELEMENT_COLOR_TEXT_LIGHT="#FFFFFF"
+!global $C4_ELEMENT_COLOR_TEXT_DARK="#000000"
+
+!global $C4_ARROW_COLOR="#707070"
+
+!global $C4_BOUNDARY_COLOR_BORDER="#707070"
+!global $C4_BOUNDARY_COLOR_TEXT=$C4_BOUNDARY_COLOR_BORDER
+
+!global $C4_EXTERNAL_COLOR_BG="#999999"
+!global $C4_EXTERNAL_COLOR_BORDER=$C4_ELEMENT_COLOR_TEXT_LIGHT
+!global $C4_EXTERNAL_COLOR_TEXT=$C4_ELEMENT_COLOR_TEXT_LIGHT
+
+!global $C4_PERSON_COLOR_BG="#01203a"
+!global $C4_PERSON_COLOR_BORDER=$C4_ELEMENT_COLOR_TEXT_LIGHT
+!global $C4_PERSON_COLOR_TEXT=$C4_ELEMENT_COLOR_TEXT_LIGHT
+
+!global $C4_SYSTEM_COLOR_BG="#08427b"
+!global $C4_SYSTEM_COLOR_BORDER=$C4_ELEMENT_COLOR_TEXT_LIGHT
+!global $C4_SYSTEM_COLOR_TEXT=$C4_ELEMENT_COLOR_TEXT_LIGHT
+
+!global $C4_CONTAINER_COLOR_BG="#1268bd"
+!global $C4_CONTAINER_COLOR_BORDER=$C4_ELEMENT_COLOR_TEXT_LIGHT
+!global $C4_CONTAINER_COLOR_TEXT=$C4_ELEMENT_COLOR_TEXT_LIGHT
+
+!global $C4_COMPONENT_COLOR_BG="#378fe6"
+!global $C4_COMPONENT_COLOR_BORDER=$C4_ELEMENT_COLOR_TEXT_LIGHT
+!global $C4_COMPONENT_COLOR_TEXT=$C4_ELEMENT_COLOR_TEXT_LIGHT
+
+' procedures
+
+!procedure C4Boundary($type, $id, $name, $tech="")
+  !if ($tech)
+    rectangle $id <<Boundary>> as "<b>$name</b>\n<size:$FONT_SIZE_XS>[$type: $tech]</size>"
+  !else
+    rectangle $id <<Boundary>> as "<b>$name</b>\n<size:$FONT_SIZE_XS>[$type]</size>"
+  !endif
+!endprocedure
+
+!procedure C4Element($shape, $stereotype, $type, $id, $name, $desc="", $tech="")
+  !local $V="<b>" + $name + "</b>"
+  !if ($tech)
+    !$V=$V + "\n" + "<size:" + $FONT_SIZE_XS + ">[" + $type + ": " + $tech + "]</size>"
+  !else
+    !$V=$V + "\n" + "<size:" + $FONT_SIZE_XS + ">[" + $type + "]</size>"
+  !endif
+  !if ($desc)
+    !$V=$V + "\n\n" + $desc
+  !endif
+  $shape $id <<$stereotype>> as "$V"
+!endprocedure
+
+' Relationship
+
+!procedure C4Relationship($desc="", $tech="")
+    !if ($desc) && ($tech)
+        <b>$desc</b>\n<size:$FONT_SIZE_XS>[$tech]</size>
+    !elseif ($desc)
+        <b>$desc</b>
+    !else
+        <size:$FONT_SIZE_XS>[$tech]</size>
+    !endif
+!endprocedure
+
+' Legend
+
+!procedure C4Legend()
+    legend right
+    |=   |=Type|=   |=Type|
+    |<$C4_EXTERNAL_COLOR_BG>| external person |<$C4_EXTERNAL_COLOR_BG>| external system |
+    |<$C4_PERSON_COLOR_BG>| person |<$C4_SYSTEM_COLOR_BG>| system |
+    |<$C4_CONTAINER_COLOR_BG>| container |<$C4_COMPONENT_COLOR_BG>| component |
+    endlegend
+!endprocedure
+
+' Style
+
+hide stereotype
+
+skinparam defaultTextAlignment center
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam Arrow {
+    Color $C4_ARROW_COLOR
+    FontColor $C4_ARROW_COLOR
+    FontSize $FONT_SIZE_SM
+}
+
+skinparam rectangle {
+    StereotypeFontSize $FONT_SIZE_SM
+    FontSize $FONT_SIZE_SM
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize $FONT_SIZE_SM
+    FontSize $FONT_SIZE_SM
+    shadowing false
+}
+
+skinparam rectangle<<Boundary>> {
+    StereotypeFontColor $C4_BOUNDARY_COLOR_TEXT
+    FontColor $C4_BOUNDARY_COLOR_TEXT
+    FontStyle none
+    BorderColor $C4_BOUNDARY_COLOR_BORDER
+    BorderStyle dashed
+    BackgroundColor transparent
+}
+
+skinparam rectangle<<ExternalPerson>> {
+    StereotypeFontColor $C4_EXTERNAL_COLOR_TEXT
+    FontColor $C4_EXTERNAL_COLOR_TEXT
+    BorderColor $C4_EXTERNAL_COLOR_BORDER
+    BackgroundColor $C4_EXTERNAL_COLOR_BG
+    roundCorner 40
+}
+
+skinparam rectangle<<ExternalSystem>> {
+    StereotypeFontColor $C4_EXTERNAL_COLOR_TEXT
+    FontColor $C4_EXTERNAL_COLOR_TEXT
+    BorderColor $C4_EXTERNAL_COLOR_BORDER
+    BackgroundColor $C4_EXTERNAL_COLOR_BG
+}
+
+skinparam rectangle<<ExternalContainer>> {
+    StereotypeFontColor $C4_EXTERNAL_COLOR_TEXT
+    FontColor $C4_EXTERNAL_COLOR_TEXT
+    BorderColor $C4_EXTERNAL_COLOR_BORDER
+    BackgroundColor $C4_EXTERNAL_COLOR_BG
+}
+
+skinparam rectangle<<Person>> {
+    StereotypeFontColor $C4_PERSON_COLOR_TEXT
+    FontColor $C4_PERSON_COLOR_TEXT
+    BorderColor $C4_PERSON_COLOR_BORDER
+    BackgroundColor $C4_PERSON_COLOR_BG
+    roundCorner 40
+}
+
+skinparam rectangle<<System>> {
+    StereotypeFontColor $C4_SYSTEM_COLOR_TEXT
+    FontColor $C4_SYSTEM_COLOR_TEXT
+    BorderColor $C4_SYSTEM_COLOR_BORDER
+    BackgroundColor $C4_SYSTEM_COLOR_BG
+}
+
+skinparam rectangle<<Container>> {
+    StereotypeFontColor $C4_CONTAINER_COLOR_TEXT
+    FontColor $C4_CONTAINER_COLOR_TEXT
+    BorderColor $C4_CONTAINER_COLOR_BORDER
+    BackgroundColor $C4_CONTAINER_COLOR_BG
+}
+
+skinparam database<<Container>> {
+    StereotypeFontColor $C4_CONTAINER_COLOR_TEXT
+    FontColor $C4_CONTAINER_COLOR_TEXT
+    BorderColor $C4_CONTAINER_COLOR_BORDER
+    BackgroundColor $C4_CONTAINER_COLOR_BG
+}
+
+skinparam rectangle<<Component>> {
+    StereotypeFontColor $C4_COMPONENT_COLOR_TEXT
+    FontColor $C4_COMPONENT_COLOR_TEXT
+    BorderColor $C4_COMPONENT_COLOR_BORDER
+    BackgroundColor $C4_COMPONENT_COLOR_BG
+}
+
+
+
+' definition of the Item c4model/Element/Person
+
+!procedure Person($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Person', 'Person', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4model/Element/ExternalPerson
+
+!procedure ExternalPerson($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'ExternalPerson', 'External Person', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4model/Element/System
+
+!procedure System($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'System', 'System', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4model/Element/ExternalSystem
+
+!procedure ExternalSystem($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'ExternalSystem', 'External System', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4model/Element/Container
+
+!procedure Container($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Container', 'Container', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4model/Element/ExternalContainer
+
+!procedure ExternalContainer($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'ExternalContainer', 'External Container', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4model/Element/Database
+
+!procedure Database($id, $name, $desc="", $tech="")
+  C4Element('database', 'Container', 'Container', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4model/Element/Component
+
+!procedure Component($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Component', 'Component', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4model/Boundary/EnterpriseBoundary
+
+!procedure EnterpriseBoundary($id, $name, $tech="")
+  C4Boundary('Enterprise', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4model/Boundary/SystemBoundary
+
+!procedure SystemBoundary($id, $name, $tech="")
+  C4Boundary('System', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4model/Boundary/ContainerBoundary
+
+!procedure ContainerBoundary($id, $name, $tech="")
+  C4Boundary('Container', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4model/Boundary/DeploymentNodeBoundary
+
+!procedure DeploymentNodeBoundary($id, $name, $tech="")
+  C4Boundary('Deployment Node', $id, $name, $tech)
+!endprocedure

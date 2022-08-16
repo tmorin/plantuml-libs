@@ -1,0 +1,21 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-4/bootstrap')
+
+' loads the Item which embeds the element ServiceManagedDatabaseGroup
+include('azure-4/Item/Databases/ServiceManagedDatabase')
+
+' renders the element
+ServiceManagedDatabaseGroup('ServiceManagedDatabaseGroup', 'Service Managed Database Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

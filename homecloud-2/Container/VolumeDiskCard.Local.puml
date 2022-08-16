@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('homecloud-2/bootstrap')
+
+' loads the Item which embeds the element VolumeDiskCard
+include('homecloud-2/Container/VolumeDisk')
+
+' renders the element
+VolumeDiskCard('VolumeDiskCard', 'Volume Disk Card', 'an optional description')
+@enduml

@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2022/Resource/Storage/AmazonSimpleStorageServiceS3IntelligentTiering
+
+sprite $AmazonSimpleStorageServiceS3IntelligentTieringXs [10x10/16z] JKe50G11388v_GE_oqqnBANpv02pI2drXTu0BafLlw74MwCNSOvWawd63W
+
+sprite $AmazonSimpleStorageServiceS3IntelligentTieringSm [12x12/16z] LSUr0GH040GWpcVxB_XToV1dPROs4fINITM0bX0lOK2Xl5LBzp4RxnOsq1hYPU7affGh
+
+sprite $AmazonSimpleStorageServiceS3IntelligentTieringMd [16x16/16z] RKs50G112BAL_GV-ZYliX1P8r07aNO7Vlk1mrMu6aKNfjS5QeNI3pSxUrPUxyQLnrPLlMkylSE68e1SCS4Vej_jmxUk_htTe5au7kGlXmfrP0caN_mu
+
+sprite $AmazonSimpleStorageServiceS3IntelligentTieringLg [20x20/16z] {
+TKy55iKm22jMoFqF_8NNpCSqEZRUHY8Bg0mX0nXV0zMUEaVgpWqqLsd2tagqqE_uJVeFrkAEamSEwna7JXn_gDPcOKm0cVKFhuzowGGRE0Jpo9dteqw_vbnw
+vtBGTpGsd7AWVCKIwJ940v34hgkfqly5
+}
+
+!procedure AmazonSimpleStorageServiceS3IntelligentTiering($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Storage/AmazonSimpleStorageServiceS3IntelligentTiering', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceS3IntelligentTieringCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonSimpleStorageServiceS3IntelligentTieringLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceS3IntelligentTieringGroup($id, $name='Amazon Simple Storage Service S3 Intelligent Tiering', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonSimpleStorageServiceS3IntelligentTieringLg>', $name, $tech)
+!endprocedure

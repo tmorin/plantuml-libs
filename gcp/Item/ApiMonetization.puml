@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/ApiMonetization
+
+sprite $ApiMonetizationXs [10x10/16z] Oy00p70M8ro43KCD6rYC2SnZ1M8E24HXCGBbcO4G
+
+sprite $ApiMonetizationSm [12x12/16z] Oy0Ac11CHcO690wCmSp0p8QfYvc1ZH53d8E1ZOE1Wv650myR0G
+
+sprite $ApiMonetizationMd [16x16/16z] bKk30S0034kT_n-UxTKDy2FKZi3Xbyrj1akvqLjN3iJoAp8d_J6SG0ay8En_iZkgNqvz-oT_TrJr_bEq
+
+sprite $ApiMonetizationLg [20x20/16z] dOw50GCn30FF6Es_S9dx78ujuk08_ojP1Fz5LciHJdJ_Q1dMoTBmWEXlN0HKvvyUSTz_qUj-IJ1aj9BKUDKakzJhKjEXMgjUUcQ0VsNv7sS
+
+!procedure ApiMonetization($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/ApiMonetization', $name, $tech, $desc)
+!endprocedure
+
+!procedure ApiMonetizationCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ApiMonetizationLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure ApiMonetizationGroup($id, $name='Api Monetization', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ApiMonetizationLg>', $name, $tech)
+!endprocedure

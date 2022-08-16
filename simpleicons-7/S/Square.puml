@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-7/S/Square
+
+sprite $SquareXs [10x10/16z] Os3dXm1680CE6C207SvY1BE014uMGXqx8mW03OIR1W
+
+sprite $SquareSm [12x12/16z] Os3YXm484m6u8G3CP80033QO8iZ6r8i2aBa
+
+sprite $SquareMd [16x16/16z] bSU50S0W34JHgmBH_QUjk_SZoGF4roBW-yHFHSpPO2pHdRKRrSRz23zSXH2orNFNDfhh47qVzgGM
+
+sprite $SquareLg [20x20/16z] jSYr0S0m00CmEpYb_l_QCZD5eu2eXKIWq9gFkWypSUTuSRQnFAj6pXlTFwDEv4Irf2rg2tvR5G
+
+!procedure Square($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/S/Square', $name, $tech, $desc)
+!endprocedure

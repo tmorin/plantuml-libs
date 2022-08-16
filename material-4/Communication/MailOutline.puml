@@ -1,0 +1,13 @@
+' definition of the Item material-4/Communication/MailOutline
+
+sprite $MailOutlineXs [10x10/16z] Oy06-A601SY22F0my3Fm0GaE1X2B0OIXB0Oq5WTKBv9n
+
+sprite $MailOutlineSm [12x12/16z] TSP50G0n402nANFNlzfZXhp2hxefqAenTYQQbaG1NjfqGsz8eYv72-o7z-jED9WTLoC
+
+sprite $MailOutlineMd [16x16/16z] bSUr0SGm04MnPsR__QSz35K1TU8n7JImoiulkhvNvyT9lrELWAxW_iTeHdLO3rcMuu6RD-ex0ULmpvKt
+
+sprite $MailOutlineLg [20x20/16z] fOj55W0X34E3Exd_RUUrZ6_vQ2FOmuStJYJ-yAe5vsKfbNtbCYu6bzOofrD5FakhC5D-LWkN1aIoiLiycj0Ov7cq5_lQx6yqala5Mnm
+
+!procedure MailOutline($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/MailOutline', $name, $tech, $desc)
+!endprocedure

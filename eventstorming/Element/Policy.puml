@@ -1,0 +1,14 @@
+' definition of the Item eventstorming/Element/Policy
+
+
+skinparam file<<Policy>> {
+    StereotypeFontSize $FONT_SIZE_SM
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor #b6a2db
+}
+
+!procedure Policy($id, $label="")
+  EsEntity('file', 'Policy', $id, $label)
+!endprocedure

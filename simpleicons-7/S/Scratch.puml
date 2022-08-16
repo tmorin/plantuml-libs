@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-7/S/Scratch
+
+sprite $ScratchXs [10x10/16z] BSR50S103C0mbxdUVzgZH2_HhJ-3Ujlp2ClMAxxVckC-_x7P2SSUp5sIWqdwEg02
+
+sprite $ScratchSm [12x12/16z] 9SR50SK030KWwfwt_xHVcXC0SyQE99K7D84XhYVzFKhV6RVgvtRba1MPHdRFWunJXiZPnnX8iLOsa2G5Nm
+
+sprite $ScratchMd [16x16/16z] {
+HSg55S0m30FHAqDYt_xJba71_sIUz1Q-p5uP7nQj1VHcOpxl-DHW93XVLiP-49nULv36xdLfwGuFjyzMp-jsXz06-RWzJH2_l_c_fzZVBkVTfi6LjFQf5fwe
+vZtB3W
+}
+
+sprite $ScratchLg [20x20/16z] {
+NP07Yi0m4CJacXxz_xLN76-kYBR80mZpKg-xyvlTXqoG_ERSLGAzyppMgOxvN6ZwpZBDgqd-vS1qUb73fU7WFkZXydJRpkhzUrS1JetUSunD4Ewoi5MemcsU
+BdCSW9dJCjmzxahpINtTfixKS4UTzHU3qpMYOaRL35r7piHW___Boxlv1
+}
+
+!procedure Scratch($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/S/Scratch', $name, $tech, $desc)
+!endprocedure

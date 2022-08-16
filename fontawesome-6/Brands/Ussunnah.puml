@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Brands/Ussunnah
+
+sprite $UssunnahXs [10x10/16z] JOU55K0n30BfYrRPVzllSX4E_B7KsxYNkQTna0G5YRdRXAClzCC4OX8YXXtXoMwb34R7WKp67Xi
+
+sprite $UssunnahSm [12x12/16z] PSQr0S0m00InCxD__srZwg9A_3Z_OjeS2lvKJ3KcYvms2k3RM2rpGa1RKxJhpk1SLtFGTKG16IqzMvPKWU5vKc3v
+
+sprite $UssunnahMd [16x16/16z] {
+TSt50GGm24JH7uZRz5_jkiixuV27yI8IIkGXhUcMTZKkiYZIDjzs6HQwc3OCoBulQSff4a3ilYJLB8lWCZMTj2AcWOA5jQgLB1eWfA4BDy3pBLEuF6GpBsci
+bOiTQICpEZT5Qsuv3m63YoC
+}
+
+sprite $UssunnahLg [20x20/16z] {
+VSnNOiKm24JHYt2HOc3slzkufkUT-QBoGjjZUpxDT2P-cBAKOw7nM9JdjfAdkyei90rwpVSl4Rgm2cSNtdMfeXhGkb3gD3Ae1PZ6ectFBbC8Q9kNE7fvzieD
+kkUyY5WMnIOAQ3xcxctrtTkSY0O8IQ7JHW16-Ae7CWuk-jFgmSLaXAILhRWrgsY6TGq-ENdk_MGqBky
+}
+
+!procedure Ussunnah($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Ussunnah', $name, $tech, $desc)
+!endprocedure

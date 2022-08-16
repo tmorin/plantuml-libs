@@ -1,0 +1,16 @@
+' definition of the Item material-4/Action/TextRotationAngledown
+
+sprite $TextRotationAngledownXs [10x10/16z] Oy096FbPm3GlFoCVL8YFcHz4yKCnY8AnO3I2YG
+
+sprite $TextRotationAngledownSm [12x12/16z] Oo006BbXB7P-Jdu8YvUVdu6D5SJY0udpGOIvG1G73mES0-8ZP10SJeJXC3O2
+
+sprite $TextRotationAngledownMd [16x16/16z] dKl50GGX30pkJF_LtgtWyDfuHkXpy8ZXCu31G46Gj_tdS5Je_6o6b0gB0WWQ0ONo5GjtD06CnW0m_MpvEUTqZ3y
+
+sprite $TextRotationAngledownLg [20x20/16z] {
+hOzL0aCX40FHwdRd_gTzYlDJmqaoYFbVYQDW1K8dN1MvqYZk1MADFgeKGJVCuv8WUyuOnGiP8xa2vTf0ilUv4Ur-C_c6cepvXYpk-qiLSdBdHr7dtyEaYQhv
+iAm
+}
+
+!procedure TextRotationAngledown($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/TextRotationAngledown', $name, $tech, $desc)
+!endprocedure

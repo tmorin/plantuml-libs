@@ -1,0 +1,19 @@
+' definition of the Item material-4/Maps/ElectricBike
+
+sprite $ElectricBikeXs [10x10/16z] LSY54G0n2031ctU__gjDWB7FuZ3wfEX4hfEJYUdbcuxddfIpFYo8i7xPDz9A4VXj7G
+
+sprite $ElectricBikeSm [12x12/16z] PSZL0S0W303Hgnjm-q-B__N5mq_odLi82yvz5ro1gBVTVKRm_euWkc6pdSHL5g4FBbsXZOLkXUaD_JabcW8
+
+sprite $ElectricBikeMd [16x16/16z] {
+TSw5WGGn4C0mXvSoxh_QXsDK1UABK1xbuigLcXboLMD2CWEagRrxje6pB3PxLfkn2NapefYiIIV5Cpeu18u0h50bd9g0rGW7ZECIAVkUkKZvETkSYRkcEISU
+DCv-0G
+}
+
+sprite $ElectricBikeLg [20x20/16z] {
+VSw5OHWn4031rJs8R_klDZ6pFHKCVrgPDr-a2k-k1n1Mtga6AE_EQWUwmPFOxi1N4sYQsfQPgQOUuGRIiB6SHfXBk5ftQdFXeglGVJ6uuRGRK2xlKee9i4LF
+BWMupC9mSAY-lDfhXkC-U7LTXNTNy4rpyKcPQcRdisNXc-3LVm
+}
+
+!procedure ElectricBike($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/ElectricBike', $name, $tech, $desc)
+!endprocedure

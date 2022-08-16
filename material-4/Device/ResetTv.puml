@@ -1,0 +1,13 @@
+' definition of the Item material-4/Device/ResetTv
+
+sprite $ResetTvXs [10x10/16z] Oy06-DaWW9-17yXZ0c8mYucVcPcP0S9YOcA2o392P3aXW1-idHz48G
+
+sprite $ResetTvSm [12x12/16z] Oy05-160WHyk2cNpWGXcC9kFdnS886nEVYOWWAhX115eUk606oJ00sGmeraB
+
+sprite $ResetTvMd [16x16/16z] XSa53W9000F1vjpx_z_2QOaoqStY7zkwL82z2Hje8RtVJfXAEPs8WtRbOSydpTJRQH2J6g-zbMyt_dAOB2U8cI3o0G
+
+sprite $ResetTvLg [20x20/16z] fSn50iHG309Gahfo_zEsttKpyfO9W7-iR0bkpfM5YxcXekLDfRkD50JnfkGuEFd6J8lSeDR0EUqDOK-B6wI-9UcsLNPpMzWIU7Hsb6vdmrTU
+
+!procedure ResetTv($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Device/ResetTv', $name, $tech, $desc)
+!endprocedure

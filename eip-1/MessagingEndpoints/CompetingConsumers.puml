@@ -1,0 +1,20 @@
+' definition of the Item eip-1/MessagingEndpoints/CompetingConsumers
+
+sprite $CompetingConsumersXs [15x10/16z] uqC3p2W05vS5g1B2PGKYc2mR67010IzG6ggO5yCeRf1U_1O1
+
+sprite $CompetingConsumersSm [18x12/16z] XOor0G1H2CMAy1tOVzjprvHFudUuyfD4FoKjHxOaWionWKkSe0vuzNb7WBoOZXvHFPbdxWcFIGy
+
+sprite $CompetingConsumersMd [25x16/16z] bP2r0S1030EB1xFstpRCd6iD0joIRlWpA3U3WZWFieBE0_PwVbLhNXK8mw3E9Eq9PC3MYvmss45Sd3Adv9TsOGRS10GzLl9_q08
+
+sprite $CompetingConsumersLg [31x20/16z] {
+jT4t0eGm34JHOcJ9SUv_sytBaAduxKCuyIASPVTmE-N1UiIP0oJts6iD520HIpO0lK3vWjsJ9811_x0hi_gfimN9nRI6OPyDRhPMMA0ln2gLLcYeTF6o63KE
+pgrbalYs1xMp_0a
+}
+
+!procedure CompetingConsumers($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingEndpoints/CompetingConsumers', $name, $tech, $desc)
+!endprocedure
+
+!procedure CompetingConsumersGroup($id, $name='Competing Consumers', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CompetingConsumersLg>', $name, $tech)
+!endprocedure

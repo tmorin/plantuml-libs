@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Facebook
+
+sprite $FacebookXs [10x10/16z] Om01PWOmOEK70I233KIpS0EP405c805aG0WWXn6eXXF8XR3uaMNXN0Qm30Wn
+
+sprite $FacebookSm [12x12/16z] NOg53G0n009vbzh-spP7YFKYgCoXq0Uys15QMbUxwqzRfS5V6d2G8RrW-UYDzzpYRvuxddO2
+
+sprite $FacebookMd [16x16/16z] HSi54eG034FHj2iutF-sP2hf7saUWim-cFo9xkBrT3yCpuF3zJ5O7D4-l5jPtrdxb-CJYYpc-2-xaNRAyxy3SjmQEinbL5lu2_O2
+
+sprite $FacebookLg [20x20/16z] {
+TSw54KGX54FHu4xwh_OhkdB7tXmKFQ6m5_bKfnlE6WMkoPiiMrxRr7OsIVUiI9PnFT6D0fnM-HHMQrCLtqR5Ex5z2vlndsNKh_iCxBJ_avqNpzlkvBIRMcMO
+mqY42Y0RF9q
+}
+
+!procedure Facebook($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Facebook', $name, $tech, $desc)
+!endprocedure

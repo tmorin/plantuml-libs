@@ -1,0 +1,21 @@
+' definition of the Item homecloud-2/Hardware/Usb
+
+sprite $UsbXs [10x10/16z] Oq05_3066pyRJ8GV8ie9Pp4WiO204rClgda
+
+sprite $UsbSm [12x12/16z] Oy00_4XCVXua3a8Ko0OIw6mUHY2RXmdCPk870LIzc6m-VbO41y84
+
+sprite $UsbMd [16x16/16z] TSt50K0X3C1Gt6dsd_QxIswF0bK_SQSGhlIDTfjhBe3PdUtCWBjQYSppThYrsGgpER5s_cuSnhptdSM7GHvE9wwD
+
+sprite $UsbLg [20x20/16z] VSw54KGX303HZplRVxNdai5s_279TIpFLD4Z1M0qN_1-n3XS0_yoyRu3eoNeersDzt-187PxcnOxPhufEVXTEknti8eToGEZkOLT1NCTkWC
+
+!procedure Usb($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Hardware/Usb', $name, $tech, $desc)
+!endprocedure
+
+!procedure UsbCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$UsbLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure UsbGroup($id, $name='Usb', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$UsbLg>', $name, $tech)
+!endprocedure

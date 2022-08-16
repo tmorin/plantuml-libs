@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/WonSign
+
+sprite $WonSignXs [10x10/16z] FOc50G0W3CDmb_-_9TWoRQk4Fbbts5w-EQDAV7HXmfWVCeT3o3Sx4nGWAmFppW8
+
+sprite $WonSignSm [12x12/16z] HSR5WO000CJ0mPtqN-t9YzNmQGk2bd26CStKoPkYeiFQCBGtp0rld_XVdHsOQrM1OlkO3Z1ikF0B
+
+sprite $WonSignMd [16x16/16z] {
+POw55GH1349PTtx_tTxBSBvn3_gdC-vwPcOgRyOuuGfuEK62SYFMLPDpSjEfBLoOGMtMO0Dnb_abTGDix1tqqENsrVOEpc02f07ILfTdiLdOohRnB9Izw7Md
+1m
+}
+
+sprite $WonSignLg [20x20/16z] {
+TOs50SD030CLnlVjFst1KEu5H07zOlWqVTyWBAnbDYZRN6SG-4iJEHecYzsgWqahX8L5YjZ1b1sXTHzWppHhv0iplj6w0HiScwMEyQiHf0rMaDFbF_lG0A2b
+pWesOCXEHVe3J8L5ryEaOc5p1VtZ2W
+}
+
+!procedure WonSign($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/WonSign', $name, $tech, $desc)
+!endprocedure

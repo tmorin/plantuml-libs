@@ -1,0 +1,13 @@
+' definition of the Item material-4/Av/FiberPin
+
+sprite $FiberPinXs [10x10/16z] Oy06-A601SxYOU072ZC2QHYB2SpY1xBuWIo4EWue2yau
+
+sprite $FiberPinSm [12x12/16z] TShL0S1G34BHM_Uo_xJLvtA-4e2gtTZWaDN6TzUYHcX_RzvxQBzRUkvfskFz7jnq5g4R
+
+sprite $FiberPinMd [16x16/16z] bOo50G0n30AfUzb_sdVtlseI0B_XXWH8RhcgfTIicYRJ33MAAaLGeQgn1cfVUpdL9FkQKrtOD_gdNEIBGusGLpJUQ04
+
+sprite $FiberPinLg [20x20/16z] fSg55SGm40DHcTdglzg3CECaflyMxz9ccleJ5-aDoxjMQoN_w_-t5W4OEa4Y4xtL85j3mN9EI3dELRP6CHZPM-viqLLB0Fp2yAel
+
+!procedure FiberPin($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/FiberPin', $name, $tech, $desc)
+!endprocedure

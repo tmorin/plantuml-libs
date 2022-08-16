@@ -1,0 +1,13 @@
+' definition of the Item material-4/Places/GolfCourse
+
+sprite $GolfCourseXs [10x10/16z] Oq01F70MFpyldCK8Om4nOHO_K0S_XCVEmm6Y
+
+sprite $GolfCourseSm [12x12/16z] Oq07Z4XiVduc93O_1vpDYQI6WHGs2r0l4mCJEv39nSy3D9EHWmzYBHF4OW
+
+sprite $GolfCourseMd [16x16/16z] Oo0AyF8neVBv-S4Y23uGCAFmML7Kym89cl5PWFPniZ0mC761kK2NWDt3mCqFTYE4nyiCL83fCm
+
+sprite $GolfCourseLg [20x20/16z] pK_50S1028Dpezb_shfxVyqJelGDgfpSWAoEDq3uU4Cvt8HfTnDzpF3qZvjfRn9jzyjwsZ1kivGX_OqhZ31an8vQzhdaeEW63G
+
+!procedure GolfCourse($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/GolfCourse', $name, $tech, $desc)
+!endprocedure

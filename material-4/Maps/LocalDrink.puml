@@ -1,0 +1,16 @@
+' definition of the Item material-4/Maps/LocalDrink
+
+sprite $LocalDrinkXs [10x10/16z] Oq02_100PF51-10C9H6o81B20X4S_3nG5ZC_Av353L460Zn009G4
+
+sprite $LocalDrinkSm [12x12/16z] LSY55S1020JHZNlIVxUPKs1E-0-5dXR-fjpy9IitvVsTUtRyVAKPdqpnHhn0JNmqvb7CM7HrvxA7CGL-
+
+sprite $LocalDrinkMd [16x16/16z] POu10W0H20GT0DZ___O4m0035Nlu-8BSO_4LrvWlwqvCfnsTYewjpZ39omDDSRgfivjEOG1TFG6gB1cGrJrjglFgfXQcw5T5eZ9z5X3Pomy
+
+sprite $LocalDrinkLg [20x20/16z] {
+ZSy53eH044JH4LowxdzQj7ML5wdaevEUGx1mcmockr5I1SEr16iLtRMBQotgjHEyVBKUdjn_eiwtYbDDisiPXucNt47E7VWOt4WU6Fnz_EAM6ztlApWKRZDC
+Obreh5z4IL_i
+}
+
+!procedure LocalDrink($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/LocalDrink', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,42 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION=".."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('eventstorming/bootstrap')
+
+include('eventstorming/Element/System')
+include('eventstorming/Element/Command')
+include('eventstorming/Element/Aggregate')
+include('eventstorming/Element/DomainEvent')
+include('eventstorming/Element/ReadModel')
+include('eventstorming/Element/UserInterface')
+include('eventstorming/Element/Policy')
+include('eventstorming/Element/Person')
+
+System('system')
+Command('command1', 'command')
+Aggregate('aggregate')
+DomainEvent('domain_event', 'domain event')
+ReadModel('read_model', 'read model')
+UserInterface('user_interface', 'user interface')
+Command('command2', 'command')
+Policy('policy')
+Person('person')
+
+command1 --> aggregate : invoked on
+command1 --> system : invoked on
+aggregate --> domain_event : generates
+system --> domain_event : generates
+domain_event --> read_model : translated into
+read_model --> user_interface : displayed by
+domain_event --> policy : triggers
+policy --> command2 : invokes
+person --> command2 : invokes
+person -l-> user_interface : used by
+
+@enduml

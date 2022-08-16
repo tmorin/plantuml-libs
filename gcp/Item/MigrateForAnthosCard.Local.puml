@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('gcp/bootstrap')
+
+' loads the Item which embeds the element MigrateForAnthosCard
+include('gcp/Item/MigrateForAnthos')
+
+' renders the element
+MigrateForAnthosCard('MigrateForAnthosCard', 'Migrate For Anthos Card', 'an optional description')
+@enduml

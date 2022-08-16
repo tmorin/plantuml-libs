@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-7/C/Campaignmonitor
+
+sprite $CampaignmonitorXs [10x10/16z] Oy02-7bX3220CC20bO6F7mA00X303gKvOGAC_320C0y
+
+sprite $CampaignmonitorSm [12x12/16z] TSQn0K000CJ0003PVre0Nxdg-D6bhKvFlG2KFdfM7mk-ciaNVhgK8Y1s
+
+sprite $CampaignmonitorMd [16x16/16z] bSV10K0m00J10m2s_se1k0z9vZTA1Bu2e7ewS9ZEPJpohGr6mgdqpPgzNOwh1bp1Nr702W
+
+sprite $CampaignmonitorLg [20x20/16z] fSgr0SGm00D0cTdQVzh7e5BwwiC2Ow4SEN37hsbmojmKx2OtH_My2KSwLHYAY4fX31KIHSEWA9ugD2h39onu0m
+
+!procedure Campaignmonitor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/C/Campaignmonitor', $name, $tech, $desc)
+!endprocedure

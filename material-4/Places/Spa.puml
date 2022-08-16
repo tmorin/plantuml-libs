@@ -1,0 +1,16 @@
+' definition of the Item material-4/Places/Spa
+
+sprite $SpaXs [10x10/16z] Oq05V3061p-CnSyFPZA1M7n06Yp0pCZFpye09FX16AAA7oGFPSBCuGOH
+
+sprite $SpaSm [12x12/16z] POc50O0m30GVTsx_QQ6kroPvKSUQvSQGDD3fSxVwr70Esk7L52himUiNpow3bw-LlZaK6MNv0G
+
+sprite $SpaMd [16x16/16z] ZSp50OG000F1uCxqN-svA_kBPXkLPytoA3iywXNTWuOf9mfhcwowP2G9bAaoSDFgB30cwS48YkiPzyloAjVaqPXpes4fyuaz
+
+sprite $SpaLg [20x20/16z] {
+bSk50KCX54FH-ms7xBzjcxhBGP_nhtd0ew7CWoI91zeht5ba3wFtkHbWTMe0J3CWgIxG525qAGEo2WkJR0EghEDv0rorTde7rdLhmsRT61njZodR7bCsLLda
+NgmB7-m
+}
+
+!procedure Spa($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/Spa', $name, $tech, $desc)
+!endprocedure

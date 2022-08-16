@@ -1,0 +1,16 @@
+' definition of the Item material-4/Social/Facebook
+
+sprite $FacebookXs [10x10/16z] LOo53S1G448vYTNOVzk65_td0kWm-wNVZZKNfp0yAPjIQllMbuS0ycKT9c6hQFm
+
+sprite $FacebookSm [12x12/16z] NKe50W0X2BFrSlz_hHt055WfYVI4oJuqn4MJ--0h7zuBr6xbfXdGrMYfUPiJ0AjcHwrEusbohIf2utKO2W
+
+sprite $FacebookMd [16x16/16z] ROm70i0m20AnUvdy_xSbmUvUfWhW7xDxjUN265MJ0rTT_rFNgI5ngxuU0gmkXqMj2ALvmxV6QhwTkV4uuCM_ifvkVWD9PpsXugfP1crYlHf-s04
+
+sprite $FacebookLg [20x20/16z] {
+bOo50GGX3C22E-m_xIbzrw1DXV-8OwCPheGnwLfK6LVqNLMqTf-WsBaMkEqjoFZH0UtttxMiGZz_zeLBuhG2TVOMSHou_Hk0_k0qOA_phYtzpWLspArh85AS
+A51rki0j5eBcFIi
+}
+
+!procedure Facebook($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/Facebook', $name, $tech, $desc)
+!endprocedure

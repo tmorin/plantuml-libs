@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/C/Carrefour
+
+sprite $CarrefourXs [10x10/16z] TS750K81040XxFRjFwrryITOq-K6AIBgVAbdzAETeZCf3h2HdO4t
+
+sprite $CarrefourSm [12x12/16z] VOg50O103CI2Ezb_MjpbK-yTGHesChId1H0KxBQfbVQz7P4hz89sQ06xBmEeK4dPY7Wo0W
+
+sprite $CarrefourMd [16x16/16z] dOp50SCm54DbPcl_RQk6Ru7t6V6DpW6t5m6Mf9fhgMoGLSbOoYOZf_pglDp19DsrLXhMkWsv1CmX8_MSZ12gw_egOA4i1mOU1wQfUC8F
+
+sprite $CarrefourLg [20x20/16z] {
+hO_50KGX4CNotNdzLulhUJTui1d-mip014YwU9hQWWgEjoWHNHgokc7soaJt4LV08i_95OQu04urZ4dkKWUcE_SfFO6qvFU0fE0pCDL_Do9zV5d11K-Iwv3m
+5-uk_8e3
+}
+
+!procedure Carrefour($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/C/Carrefour', $name, $tech, $desc)
+!endprocedure

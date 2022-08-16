@@ -1,0 +1,13 @@
+' definition of the Item material-4/Navigation/East
+
+sprite $EastXs [10x10/16z] Oy09cE0iJZuK9ZyKi4B5-DaG3Am
+
+sprite $EastSm [12x12/16z] Oo0UyB8ZSVZHERpyCC2846V2nkHWmcC9
+
+sprite $EastMd [16x16/16z] Oo0RCA9oMVcPK0LuC0N0MfZWW1SamCIF1FXGD13Wyg9mcVZ8yWK
+
+sprite $EastLg [20x20/16z] Ow0XOC8YnC-3ASZ9puT549zA3cJ01r79ZmPOWMACo82FdntPB8WUDdGXubGnyBBJ9im
+
+!procedure East($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Navigation/East', $name, $tech, $desc)
+!endprocedure

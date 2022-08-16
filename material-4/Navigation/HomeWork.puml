@@ -1,0 +1,13 @@
+' definition of the Item material-4/Navigation/HomeWork
+
+sprite $HomeWorkXs [10x10/16z] Oy05-460WO4HHB012J2VcHFA0b8GnCpFpmbdiQA8mG4
+
+sprite $HomeWorkSm [12x12/16z] Oy07UFZ10CJaPM21ijc090i37mEG3P46Ci5ig3mGWnJmWca46rCSmKO2
+
+sprite $HomeWorkMd [16x16/16z] ZOg50S0m20Gl0Uej-qzRTxy8lF2Fgfue5-qJzQXAHLSzhXKK5QEUguhLW_Q568zQODOAWnO_QkHTYz_f62DCVvps0nq
+
+sprite $HomeWorkLg [20x20/16z] fSk54KCX403HnI5ort-raU-kYxyPu7vEkrA7pwdb9tWPclc_FA2Hnh9MFI4aMvdHBaVHoaJxy6bkq5amnbUMfJCFhhAYSuEvXRBnTsul4N5WvHVvlqSEzWK
+
+!procedure HomeWork($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Navigation/HomeWork', $name, $tech, $desc)
+!endprocedure

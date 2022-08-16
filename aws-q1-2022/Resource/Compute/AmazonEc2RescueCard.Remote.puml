@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2022/bootstrap')
+
+' loads the Item which embeds the element AmazonEc2RescueCard
+include('aws-q1-2022/Resource/Compute/AmazonEc2Rescue')
+
+' renders the element
+AmazonEc2RescueCard('AmazonEc2RescueCard', 'Amazon Ec2 Rescue Card', 'an optional description')
+@enduml

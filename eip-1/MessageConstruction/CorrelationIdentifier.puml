@@ -1,0 +1,23 @@
+' definition of the Item eip-1/MessageConstruction/CorrelationIdentifier
+
+sprite $CorrelationIdentifierXs [15x10/16z] RSU50S0W34JHZplPVzgwbnSzFhHYPzQbGW07kFL1hzi0VejunouOXc9KvxDkLpKRwTk-el0s0m
+
+sprite $CorrelationIdentifierSm [18x12/16z] ZSg50KCX40FG8BdWx3zjtVlj8QSuGXBkABbx4CWO8tJnlMEInrN0ayETnyj69pDrt5atm5Zdl7T8QmaNETbh9nD_pW
+
+sprite $CorrelationIdentifierMd [25x16/16z] {
+fOy53iKW04EnqYdS_xOVwtVVcpQL1FCxddHN4kJu8_ilcWeiA54h04B1a3Ai_hnosefaC1TQ_m4rZnXBmSdeKiVAk3AmPzHF8Izn60w8I0bTOUTM384iOoqC
+GzAyuWG
+}
+
+sprite $CorrelationIdentifierLg [31x20/16z] {
+hSm54iGm34DH1nILVV_RRbHkCznz0u4_jdqK4EqbPpiKLeyORp-14ZM2O2RarK4f5W5a2OySAKbxcccvtsyBu_KgzfJ8O2VL9yK_PdPop_7uKPx13jCz9_Gz
+U6RtTtOkogYMubEvCe0UFatACW_3i2YVKir-PbRp8xFgxPCV
+}
+
+!procedure CorrelationIdentifier($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageConstruction/CorrelationIdentifier', $name, $tech, $desc)
+!endprocedure
+
+!procedure CorrelationIdentifierGroup($id, $name='Correlation Identifier', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CorrelationIdentifierLg>', $name, $tech)
+!endprocedure

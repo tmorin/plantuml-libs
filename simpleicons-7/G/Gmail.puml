@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-7/G/Gmail
+
+sprite $GmailXs [10x10/16z] Oy02-FZvmJG_482OpFmu0L0D9qWTN0U2XJ0F
+
+sprite $GmailSm [12x12/16z] Oy01MFZveIn-881mcFcXW8E1bnyJS899LgXo4C48qyh3W60pWDbiI6naUm4
+
+sprite $GmailMd [16x16/16z] XSc54O104C30u4xwhnPttTVCyQSe3b4bbSeYSX7FGpSru4diks9va-KbSD0EpzBGMd9i0ixDqisb-T43
+
+sprite $GmailLg [20x20/16z] fSYr0SHG081GpY_A_jF6lrMnrm5tQ4Vcestlv4tGQ52pii3afQKNjLTK1Xy3dYvQ7WQ0auhoKVcaUC6vHpV9tbGr1uq
+
+!procedure Gmail($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/G/Gmail', $name, $tech, $desc)
+!endprocedure

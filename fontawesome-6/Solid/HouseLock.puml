@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/HouseLock
+
+sprite $HouseLockXs [12x10/16z] Om013WOuuEVdHp3X77u8O44mUNZv6VYWR0OGP41b0mbU88cJ3G
+
+sprite $HouseLockSm [15x12/16z] VSZ50O1G081Gx9RzfxKxFhS7QnMNKkrFrSxjwlHYzzARibRf3o9r2nTc_SgsTTqh8GuoMZa2
+
+sprite $HouseLockMd [20x16/16z] bSyr0iHG481GrcqotF-qw_bQXV9ri9QC7TI1BdxQjVJmrx7Iujfb9PlECx6Bsq21AjdQRX44eXevsHMDCFwM-_r1_FKtWDXkjzNkw-GB
+
+sprite $HouseLockLg [25x20/16z] {
+jSx50O0m44JHZplJVxLuF3doS5PnL9FJIXf8zRhDn2Qz5aARZ3tvR-7ebaOgXHgtPg3cdTGfjB5hsvz7Q47YkSOn20neWrt9KXG2jTtH1jfdSxeamEtVmCvj
+TLkT
+}
+
+!procedure HouseLock($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HouseLock', $name, $tech, $desc)
+!endprocedure

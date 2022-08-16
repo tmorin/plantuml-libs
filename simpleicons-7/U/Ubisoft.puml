@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-7/U/Ubisoft
+
+sprite $UbisoftXs [10x10/16z] 9SR50SC0000XwetU_jD6Nm3p-W2jV48gejnADQR7foYhxteljInwoZCcmhFUQ-m
+
+sprite $UbisoftSm [12x12/16z] 5Oc54S0m3CGKBCNM_jlsJ8y0FND2pJJ625zWIrj017Xy7uNi6Ampcc1jpMdOqYxeZOGjuRCZYgL1ZcrhoGPAJNvGlQaBVW
+
+sprite $UbisoftMd [16x16/16z] {
+5Ow55S102CK2TIFxRzltSu8BXCiv2A7K6HN2uGlXSmTMjtxr0ZOR7FtEsmGFGGUgw3WyK4xLkoG9zkMj-jcK5OztLl04SOqFq8L4Zq584rAluWTdFdTA2pLc
+vdChMG1syvFTW1wRa9BmHVy1
+}
+
+sprite $UbisoftLg [20x20/16z] {
+FT174fr84431rto7xRp_QMSa4K5korUtpsbketgStDQwVPbtCghgnrFqOQaMsi6dYegTkQqxgk6g5vw-rQukitOSOxXg-4QvxQlAcHaVZfF3fnW-guLgmLfJ
+bYbh5Rv5lkRmgi9IhZ1pLGFtt1LThjfPwb1XT89t3SSzJhKTdxl-UT5uVjHjWVNzcymUAt0kLVqF
+}
+
+!procedure Ubisoft($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/U/Ubisoft', $name, $tech, $desc)
+!endprocedure

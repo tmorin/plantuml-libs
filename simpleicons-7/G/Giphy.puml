@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-7/G/Giphy
+
+sprite $GiphyXs [10x10/16z] XOQr0G0W0CCwuP3_hyLbf1fP8ACkYtF2Jke3ZvYqjOa_BQa1
+
+sprite $GiphySm [12x12/16z] dSQn0G0G00InHmTk_sa1K4iLYIPXrP5p46vU3V2UVTFiD_avFzzK0G
+
+sprite $GiphyMd [16x16/16z] jSYr0S0m00D1XJdQVzg0cLtvktk0eek4IFg4OxDhvcPz_YtMei3tvfjjFAfcPTk65m
+
+sprite $GiphyLg [20x20/16z] pSYr0S0m30J0hsonzfysp5pcoWDgZfnJC9bEi3_ge3klTJaCE3iVh_DwaukByqMUBtzuUzVN0W
+
+!procedure Giphy($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/G/Giphy', $name, $tech, $desc)
+!endprocedure

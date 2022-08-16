@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-6/bootstrap')
+
+' loads the Item which embeds the element ArrowsDownToLine
+include('fontawesome-6/Solid/ArrowsDownToLine')
+
+' renders the element
+ArrowsDownToLine('ArrowsDownToLine', 'Arrows Down To Line', 'an optional tech label', 'an optional description')
+@enduml

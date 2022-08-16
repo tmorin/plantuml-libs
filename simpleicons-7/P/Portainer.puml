@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/P/Portainer
+
+sprite $PortainerXs [10x10/16z] Oq01N0oSO9eV0Y1i1XOmpStD06MniR41ML1rK1OhaCc6q8l20W
+
+sprite $PortainerSm [12x12/16z] NOh50K0n2CNgEEm_xNTjJa-IPbgnC-HiUSFkFVcr4ySduvrJx-FE7l4uTSiCbnyxZ_FazEGL
+
+sprite $PortainerMd [16x16/16z] ROp50GGn54A9-wV_QbT6O--6OeyIwMLJW2cNA9NbWBS3u-3UhTBYEos5GATRuP0xvxtkDFyCkcNfjAty8O-EFB33dlIJhk_1eN7m1G
+
+sprite $PortainerLg [20x20/16z] {
+XSnN0a8n24JHCRtF_bThBm7KT_Dt0k2JWsaCBQt1rRvB6e_T4Pz0aT_kdv03H8xAsDc6ibww0ypSqBifNf-SSxnLXVcxTNMFgRNWucwny5xQRF2PldTis6oh
+atqkXqSN
+}
+
+!procedure Portainer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/P/Portainer', $name, $tech, $desc)
+!endprocedure

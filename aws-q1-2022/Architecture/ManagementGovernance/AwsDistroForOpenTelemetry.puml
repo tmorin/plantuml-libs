@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2022/Architecture/ManagementGovernance/AwsDistroForOpenTelemetry
+
+sprite $AwsDistroForOpenTelemetryXs [10x10/16z] FSR70O003CImeyVE_lFIGIy1TTas_lfsA5qMc6ivbv1d2f1hcnHKcoK6wFPoxUy1
+
+sprite $AwsDistroForOpenTelemetrySm [12x12/16z] JOh50G0m20FhaB3_l7MxJnGT7OW8li0la0N8EOUSbFGvZA5CBqcTGBiVeEEMxstiIOrGECQG0RFrAXX-1Gx_XGO
+
+sprite $AwsDistroForOpenTelemetryMd [16x16/16z] {
+NOr70i0W2C1SZE3__rliRdDB563X1vRm2_n2l8AAMmGEAYAjINDFhwsjiUPwkAWQXPJ33KeVLlNm1J2objEDIZckpELL6efPXZcZDsi4gYGpmq7Xz3FuwS-F
+qpzX0m
+}
+
+sprite $AwsDistroForOpenTelemetryLg [20x20/16z] {
+RSX90WGX20D0K94a_V__ZipMQnsBBFZ9meVaG_8XTSxkYPIO5R6CrY8Ia3GYmhaCOFuEG2FZT6Rcf64TlXSIPuiPtdj-hv23ZQGP_WSwEyl_qZMO-EQsrLbK
+UBgJh8DPo2HQ9yksQA6asKxtWVtsVJfzxxnrBm
+}
+
+!procedure AwsDistroForOpenTelemetry($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/ManagementGovernance/AwsDistroForOpenTelemetry', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsDistroForOpenTelemetryCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsDistroForOpenTelemetryLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsDistroForOpenTelemetryGroup($id, $name='Aws Distro For Open Telemetry', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsDistroForOpenTelemetryLg>', $name, $tech)
+!endprocedure

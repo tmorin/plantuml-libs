@@ -1,0 +1,13 @@
+' definition of the Item material-4/Maps/StoreMallDirectory
+
+sprite $StoreMallDirectoryXs [10x10/16z] Oy0A-26080k8-O0aAWi8G2m4
+
+sprite $StoreMallDirectorySm [12x12/16z] TSO70eGW34JH0L9sDUN-jxLt_P3auRE_BTNHhJKQQnZBDJqvJixHBhK6L-FHHa1KM9liPhcwjh7nuD8
+
+sprite $StoreMallDirectoryMd [16x16/16z] bSc54S0m3C10bScm_xHbvdnGPyBvIXYaIJf9ajFSXenzCtHnQl5D33Hkgke-dA7n53054MvRHSItbb43LSsd3W
+
+sprite $StoreMallDirectoryLg [20x20/16z] fSw34G113030iwB-gttRs0nZzO_sIttEozBGvsmNBUlwN3peWrNET3bUvKANavLoaAFJd9Vk0MvFegYNESA6h7ETEVT73G
+
+!procedure StoreMallDirectory($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/StoreMallDirectory', $name, $tech, $desc)
+!endprocedure

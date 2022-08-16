@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/BuildingColumns
+
+sprite $BuildingColumnsXs [10x10/16z] Om01FWOmOEG70GO6PZ059w2Y2C0FWRXOR638m0NN2m
+
+sprite $BuildingColumnsSm [12x12/16z] ZSZ50S0m3C10bRdQVzf2y9ipc-0c6VrrmF4l_6s-_9t6Jx53HzV51dQtE9wsxQjPVrkz
+
+sprite $BuildingColumnsMd [16x16/16z] hSV50GD140D1tJAgyu_Mp6_Ne7GNh0yDBi8ZRS2HYoQ9c-Dnr-RnFAxuSaY_be_e9bl3kZ17eWkq-4U6lV621LdYYystCm
+
+sprite $BuildingColumnsLg [20x20/16z] nSgr0SGm04DHcTb__scF8LZdTG9znQcDobFGZ-6dwINnOZxVRkNua0eVWw_EbnfRNcPiD9q08x0QT7NcnLsEKE9anl7gF1lJLFOQUtS
+
+!procedure BuildingColumns($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BuildingColumns', $name, $tech, $desc)
+!endprocedure

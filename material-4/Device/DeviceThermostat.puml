@@ -1,0 +1,13 @@
+' definition of the Item material-4/Device/DeviceThermostat
+
+sprite $DeviceThermostatXs [10x10/16z] Oq01JFmm5Zy7Fup5W8N53sKnmrdyGC2A9iR0o0CY0G
+
+sprite $DeviceThermostatSm [12x12/16z] Oq07JDm8DZyhFuBDZCJcGc8p8B7vuMnU89iD9Wm2MDWSG2OZmc8m2G
+
+sprite $DeviceThermostatMd [16x16/16z] bSd50O1G0CDGt27xJuj_zznUMmMg3JM0xkreQJJlUqjhk2apwAu13lE6GVebg-LPUdWj-Gv7BQLt0G
+
+sprite $DeviceThermostatLg [20x20/16z] bSt50S1G20FGxmfa_sdhxitn8L4_Om0wMaSenxMOW9DPEPkwCCAdFRhewBEtF9ZTaWLEYpAPsHYc-8tnkdVy9xlUjAwjqPc2UaWB
+
+!procedure DeviceThermostat($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Device/DeviceThermostat', $name, $tech, $desc)
+!endprocedure

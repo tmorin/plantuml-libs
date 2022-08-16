@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/FileImport
+
+sprite $FileImportXs [10x10/16z] Os1WuEBdvsS00tuGYn_1ueUo-DdOO2oO60Z3z26BeQg3
+
+sprite $FileImportSm [12x12/16z] HSY50K0X24NH9x-J_RULvbf78B7qhj0UytkeNpSVwMyGfJNtSQVrqO-0e7qz1wS7EAsvx_G4
+
+sprite $FileImportMd [16x16/16z] NSp50G0n44BH6TOD-gzsBPv_UqJiwz8NHWlj2ZwNu3DPIsSjbGS7K5ddM-slPBVMiZ20vEXVOLY_pK9ixr_jVrVx7zLQnKlb1m
+
+sprite $FileImportLg [20x20/16z] RSt50G0X34JH8Mluz5_jEiu_FaY2Dyilh4WP9lCwcIz6FR64ZL5tfkIkDUvFlpLLfaSJoFWFKByjTzeywOpVMCgF_sJS9-nCpUuQZiR6tCIMXk85
+
+!procedure FileImport($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FileImport', $name, $tech, $desc)
+!endprocedure

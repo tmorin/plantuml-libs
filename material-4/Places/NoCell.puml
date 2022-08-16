@@ -1,0 +1,13 @@
+' definition of the Item material-4/Places/NoCell
+
+sprite $NoCellXs [10x10/16z] Oq02ZFmW06JmipE2MM0caE1a017yR30MK1JA0YfWOuIoWA8GTK00PhBmGmm4
+
+sprite $NoCellSm [12x12/16z] LSc33K0154FHRsF_QP_PwDnqwFjrh7qmQomqjWJDB66c9ytXbb0_D8jVjwVlRK
+
+sprite $NoCellMd [16x16/16z] ROs50O0m0CEAE_n_xQHblg3931s-duksuGp1w_AbW12csR7AiRhWcRppgv3SBycTIt9dI1wEJQuG_FRm57bW2nuO6Ov7p0DW0G
+
+sprite $NoCellLg [20x20/16z] TSp50S0W44JHYJlqNosoP73-yQrWrAFOJffqIc3H1vRAe1rEbU5pEA_Bwdh4k1cwQBY8fUczCVbP6N-M9fkrmV-SAfFDfJJ-fBqXGHeZqafSSzlnuy4ck2m
+
+!procedure NoCell($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/NoCell', $name, $tech, $desc)
+!endprocedure

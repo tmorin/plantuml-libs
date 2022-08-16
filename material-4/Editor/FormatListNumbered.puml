@@ -1,0 +1,13 @@
+' definition of the Item material-4/Editor/FormatListNumbered
+
+sprite $FormatListNumberedXs [10x10/16z] Oy06s1WumG1PZ9aHnc9bu0S351riC1tyR1Z60G
+
+sprite $FormatListNumberedSm [12x12/16z] Oy05k9YGECmC_120feONmMPaGgXXOa9ImuEaWHz93JDMQm4
+
+sprite $FormatListNumberedMd [16x16/16z] bSsr0O0m54NHcz0aN_VVbWPtJls4lqh2C0Dmo5a5vANlIfq1nBvVN9xxPlj_iNtVEZ-C
+
+sprite $FormatListNumberedLg [20x20/16z] hS_50G0X30J0nPtqN-svkp0_YECN9R2ZFU1c5gtcZsPv_7j228OjamNipA2Xx7u6PGMsW1DASMnff_Tt9BsVGHhbr
+
+!procedure FormatListNumbered($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/FormatListNumbered', $name, $tech, $desc)
+!endprocedure

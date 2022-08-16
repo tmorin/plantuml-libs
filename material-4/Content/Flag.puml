@@ -1,0 +1,13 @@
+' definition of the Item material-4/Content/Flag
+
+sprite $FlagXs [10x10/16z] Oy0AEFdv-M4iCC350c8e2w4NmpG
+
+sprite $FlagSm [12x12/16z] Oy0DU8206Shc1m8-7XucC1i2cF6ocPYOuMmWPcO6Ci5i1E37PYa
+
+sprite $FlagMd [16x16/16z] Oo0TCFE301yQdv-7XuSJpeSAaSddvUNbG-Q3I5G-0X3cCp3XyGm
+
+sprite $FlagLg [20x20/16z] Ow0GCBD20B8O9py4O1FZ0G6460BGLGnCOHFZ0WE460AGACR1Hrvu0W
+
+!procedure Flag($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/Flag', $name, $tech, $desc)
+!endprocedure

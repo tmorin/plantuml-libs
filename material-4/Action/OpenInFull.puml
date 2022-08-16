@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/OpenInFull
+
+sprite $OpenInFullXs [10x10/16z] Oy096FdvOKmuYv-14SPWG6KWAsP4Cma
+
+sprite $OpenInFullSm [12x12/16z] Oy0FEFZv-U4SRWIRZP-37yu4AeCp8O0TmMJWvqQOmC_FZc23E1W
+
+sprite $OpenInFullMd [16x16/16z] ZSYt0SDG3CHGy7UsTBpzfrNE6Tq3NwlKLLXBsrjpi9nRoq6kpeuGAvdx0rg9r34sjcVE5ZllH-aBRce1
+
+sprite $OpenInFullLg [20x20/16z] hOw53K1H20FHE7J_QR-xoxie5w2bCYXQSYtvm94VkFsU0AOR1sZpCpPRNT1govORyzQyiTlgPa3thUoWgHuuyDfbIp2zfWO
+
+!procedure OpenInFull($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/OpenInFull', $name, $tech, $desc)
+!endprocedure

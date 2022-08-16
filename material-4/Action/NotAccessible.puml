@@ -1,0 +1,16 @@
+' definition of the Item material-4/Action/NotAccessible
+
+sprite $NotAccessibleXs [10x10/16z] Oq05_12I7SI2CVbXScmm9aAKdnae2WAS30niG5686NoCK2OFc0i
+
+sprite $NotAccessibleSm [12x12/16z] PKs50S0W3CjyQFw_5dUdRGpRKldZ1sYUlRc0rl0Pcx_KJsWKKscCuLSf0QXDH5LfVceUg4XAUk41
+
+sprite $NotAccessibleMd [16x16/16z] TSy50WGG441HtVpxttRrjlRaY3z9tf4V3SGzjVZd_0dwUTHrSBWds0u1ymdbdf6-WsoS5r5qk0ahu0cwxxEbN938tXPteM8jJJmXGvxFggyW7m
+
+sprite $NotAccessibleLg [20x20/16z] {
+bOu54aCX50DnXxt_QMjVoBHZnTadYVbtBFBzziVR0pk10qANglc1rWiwCnj1q97f-8AGtaVypLoiAYn_UcRn4vYUGrtQEGyaAOnuOm7oPlNTnQMaC1xEUfq2
+UHSlh95CpzLDCzCenqF5TJm1
+}
+
+!procedure NotAccessible($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/NotAccessible', $name, $tech, $desc)
+!endprocedure

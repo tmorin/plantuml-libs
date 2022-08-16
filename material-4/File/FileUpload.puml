@@ -1,0 +1,13 @@
+' definition of the Item material-4/File/FileUpload
+
+sprite $FileUploadXs [10x10/16z] Oy01MFdX37u8ava7oEA12CB442m4u0GAeGe2
+
+sprite $FileUploadSm [12x12/16z] Oy076FcHcFpy22QSmyG4P38nGMKWmfXiPcPcA8i70Y2Y481g9G
+
+sprite $FileUploadMd [16x16/16z] Oo0IiA5oUVdPKRdyO0445oI0u4801ue2PY1D1XyJCF7000QVC
+
+sprite $FileUploadLg [20x20/16z] hSe54e004090xBg3___MiRlTIG9_I1LW9P6uUJM2rQl1zQl1yHcPkHfc5IQX6fXyx8AoWNEPJT0hDC57DG
+
+!procedure FileUpload($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/File/FileUpload', $name, $tech, $desc)
+!endprocedure

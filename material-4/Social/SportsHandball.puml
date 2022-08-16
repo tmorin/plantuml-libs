@@ -1,0 +1,16 @@
+' definition of the Item material-4/Social/SportsHandball
+
+sprite $SportsHandballXs [10x10/16z] LSY53S104CJ0lJ2x_shpJ1QDh25UYYGheiwh0Bw86JQY-52IuNzK7Wu
+
+sprite $SportsHandballSm [12x12/16z] NKp50K0X2BLRsN_Rd_I5ryuUB63ilC0Da9sUA3H0v878lk6eB_IFckRN36EvbMcJRl_Q1G
+
+sprite $SportsHandballMd [16x16/16z] ROf50WGX0CCwXaF-_zhr7RIt9j5obxMqFoVN_MAbRMjyrWOL7EpTLyQtlG2Qc-Z01d1n_Ny1YdButOi4M_t5YoJLNXPrmtRNL_q4
+
+sprite $SportsHandballLg [20x20/16z] {
+VT350GGX0CNGZplflzfr6S_nuUYYQjm8QpBK0MiBU5FjrfoaP9PcIHAmGdZPQhbdsZ2oLW5Lwnh0N9657VONLToVt8kYeQmEW27HVfH94vpCukWvPUbIOF4r
+Hl3QT_q7MTjWHnQlVtS
+}
+
+!procedure SportsHandball($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/SportsHandball', $name, $tech, $desc)
+!endprocedure

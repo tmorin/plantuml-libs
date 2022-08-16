@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Shower
+
+sprite $ShowerXs [10x10/16z] JSR50OC00CNGz5Q3j_-qk7rDjnXt-0Wgsc6d6bz8ITJErCxqc5qp
+
+sprite $ShowerSm [12x12/16z] JOg50O103CI2Ezb_MlIbgVUEoAWa6WyVpW5GMX_uz-rR9Vs17PL6S6SYEM4oxJisf9sfWRHFVp-0n0q
+
+sprite $ShowerMd [16x16/16z] TSc50G0n20D0g3lxR_kXxvRg4NebT7-bQ4pDUol33fbXDJeoavbsburrSmOBOSpSr3JPqO8mAvkmZjIQXbFbS1UG-EmPBRXxQqztjAV_im
+
+sprite $ShowerLg [20x20/16z] {
+VSo50S0W34JHfEv__sbnwd3u0oB_QLfzYU9oF0tm2EnJ7sa6bPsKyvb8mqcdBIUrfwsPOCWs9f83bVC-pgkRiccivMSqlnWyoTZ8ofxD1KOtAztDLXf9Uszd
+lhRgUKLbftltiNei
+}
+
+!procedure Shower($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Shower', $name, $tech, $desc)
+!endprocedure

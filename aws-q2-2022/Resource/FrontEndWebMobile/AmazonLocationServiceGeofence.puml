@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2022/Resource/FrontEndWebMobile/AmazonLocationServiceGeofence
+
+sprite $AmazonLocationServiceGeofenceXs [10x10/16z] LSR50SKm00KWsdZU_lD-LqxuSwOVAZJOZYHdYB1vBMSTQviWE5vxwN0c5Lm1
+
+sprite $AmazonLocationServiceGeofenceSm [12x12/16z] NKs50G0X4CAk_UVzKAyx0LxQMhFbkUiJrucndxg5E-aePvA0ZBblykgJFf0Fnf7mUJtLdgS38QodU04
+
+sprite $AmazonLocationServiceGeofenceMd [16x16/16z] TOs50G0n20FJuh3_lEykLy49VY3ncaYixDOswvlbFUvhfG5HQQnhIzzRfxvQpVJMWan6jnwqJXAUKmzXfswAkvVOYRrhRz_DhQyo2533XUvzTqS
+
+sprite $AmazonLocationServiceGeofenceLg [20x20/16z] {
+VL050iGm22kf8Fd_U-UZEqqjnQ7yXmYWve5R0D96ausrbDLaAZVhAOiCfWrg1-DsHBb3KPWoOcU-dI4fcr7iLSQydZBKvchEIDbe09hBsP6L2PuFsgUionJL
+IwPJDEumdg8OoN3b8ae2Hj8QFsUCnsS5
+}
+
+!procedure AmazonLocationServiceGeofence($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/FrontEndWebMobile/AmazonLocationServiceGeofence', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonLocationServiceGeofenceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonLocationServiceGeofenceLg>', 'FrontEndWebMobile', $funcName, $content)
+!endprocedure
+
+!procedure AmazonLocationServiceGeofenceGroup($id, $name='Amazon Location Service Geofence', $tech='')
+  IconGroupElement($id, 'FrontEndWebMobileFamily', '<$AmazonLocationServiceGeofenceLg>', $name, $tech)
+!endprocedure

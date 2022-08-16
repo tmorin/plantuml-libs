@@ -1,0 +1,16 @@
+' definition of the Item material-4/Toggle/StarBorder
+
+sprite $StarBorderXs [10x10/16z] Oq05770MFup1mmYcsFdv-Hc06CXaueFBSoFKy_5py49O48m
+
+sprite $StarBorderSm [12x12/16z] PKm30i103BjYgF__sjchaQJzZ1vptQF4yvp744AjrzhMMfdYD_Da11SSIbpIufXjBKZjPJC
+
+sprite $StarBorderMd [16x16/16z] ZKt50O1G5E9tm_xJsddIrmduAUFTHhrxZV9ihN0Tr3we08cZbMrNpBOmvF5SzzHn2CCQRaGPMEH7xwJkUBPUyYYw6RTBGujlcG4
+
+sprite $StarBorderLg [20x20/16z] {
+bSc54S0W44JHZyE4o_PVRTn7y-2Stofy9S6NAV7XPCP7DoTkpeTKbB6UOt2iYZQGpeQr7pXucJkxaKrKv-H7sueQjs6_YmTLKdSeSt5AewJQZKkKp9CbSMbA
+MntaE1KE8V333
+}
+
+!procedure StarBorder($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Toggle/StarBorder', $name, $tech, $desc)
+!endprocedure

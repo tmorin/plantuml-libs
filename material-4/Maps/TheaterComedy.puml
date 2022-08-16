@@ -1,0 +1,16 @@
+' definition of the Item material-4/Maps/TheaterComedy
+
+sprite $TheaterComedyXs [10x10/16z] TSRL0K0X5CFGF5V8_jFYlvmhBJCMVs-h_6oLmGy7iCuZu7kMh5RreFjfCW
+
+sprite $TheaterComedySm [12x12/16z] VOW54W0W40AnM_x_MbkdtGjsm1TEv777z3op3ezbabMYGE5aVg3eGZ2n0gV7mjBfwzZrGSWZ7G
+
+sprite $TheaterComedyMd [16x16/16z] ZOw30G0n54DJkzb_shFPLtu7ROWoizgICxjjoPGEjY93s6n8pP6zKW3gQ4-l6sqKQZFP2QDTvaeXPoLapfbxPzAfUB3Zt0uRRZVlz
+
+sprite $TheaterComedyLg [20x20/16z] {
+hSk52GH15C3GF-wJ_gjTL-HqWp-8F55agxwpbA74ksaDJguMUZjVioUqcSjax2cjrB9VZIMPekaEkcvcLfF9PB84QOBRAqUGlVS9v6e4uxcPPit9fR1Gb7kX
+HddJ2
+}
+
+!procedure TheaterComedy($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/TheaterComedy', $name, $tech, $desc)
+!endprocedure

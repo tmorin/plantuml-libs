@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2022/Resource/Database/AmazonAuroraAmazonRdsInstance
+
+sprite $AmazonAuroraAmazonRdsInstanceXs [10x10/16z] HKg30G113BjQsN_TDyfe_INFnp43O4PEjQER3pGL1zCJoHMgByuF4diHa0SzoYkn0m
+
+sprite $AmazonAuroraAmazonRdsInstanceSm [12x12/16z] JSZ70SCm40F1PIQ1wxzTMrcQ3m9VaIvvaYONaLHMbLPR8l7vMnc2QJNII0CMO19mTjqzbkFpctprX9ZQOGT_
+
+sprite $AmazonAuroraAmazonRdsInstanceMd [16x16/16z] {
+PSc54S0m3C10kOOuiF-yPTRXd_WszKS3EizoSIE24be8sk9KCss6kcxU4a5Wiw8uIuSNwkBMitLPR28i9I1zyP56p-bXP-bXorRrzn_EthmpEAg09cJRChGu
+p
+}
+
+sprite $AmazonAuroraAmazonRdsInstanceLg [20x20/16z] {
+ROu56aGX20RXHvhxdtVvjcjUg2D5VucUTufNoLVC43MHVxY3TJRSFRuF6ks2TLKYCLQa0PMuEYCLA_MrHR2h--Bggf7XVZthkRiGoRCk4e0FNUDOYd2TR4ci
+OzgNUPttJDfxZtiSFbs2uVCL9wRVSTV_LxsU9K3r7ISWZDo1JNhCzGOFY9XvnGK
+}
+
+!procedure AmazonAuroraAmazonRdsInstance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Database/AmazonAuroraAmazonRdsInstance', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonAuroraAmazonRdsInstanceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonAuroraAmazonRdsInstanceLg>', 'Database', $funcName, $content)
+!endprocedure
+
+!procedure AmazonAuroraAmazonRdsInstanceGroup($id, $name='Amazon Aurora Amazon Rds Instance', $tech='')
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonAuroraAmazonRdsInstanceLg>', $name, $tech)
+!endprocedure

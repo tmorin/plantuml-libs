@@ -1,0 +1,13 @@
+' definition of the Item material-4/Editor/InsertDriveFile
+
+sprite $InsertDriveFileXs [10x10/16z] Oq02_4303cTniSDO360cFmIGm6Bb0G461W
+
+sprite $InsertDriveFileSm [12x12/16z] Oq05FBoylEnG9ZyGyB4Zs0n03fpDmCSCPaC0EMnk93O34mGmC
+
+sprite $InsertDriveFileMd [16x16/16z] Oy02c4204SxbXm1sL3uZM031Ps022o3uO044dvUNbuy7meS3-l1vu7mMJBy2
+
+sprite $InsertDriveFileLg [20x20/16z] rSg53O0m00NHZpliForrztWl_d9ew9DjXXP9fqPZWq5ZE3GQWpoDJUCuNfynKnysHGpBhRkGY
+
+!procedure InsertDriveFile($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/InsertDriveFile', $name, $tech, $desc)
+!endprocedure

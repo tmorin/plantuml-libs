@@ -1,0 +1,16 @@
+' definition of the Item material-4/Image/NaturePeople
+
+sprite $NaturePeopleXs [10x10/16z] LSc50S0W40J1ZIjS_zNYEl3ERDMV6wk0ID43oftXixc36Fbu2X1Hx_u4F
+
+sprite $NaturePeopleSm [12x12/16z] POe50e0W40JfE_l_ltNMZb5WA_nfzLI-mE5GW1WKYqmOBrtcuTfCN4sox9hRWY10vrrFupXoIQU345O
+
+sprite $NaturePeopleMd [16x16/16z] ZSx50G0X44FHu4xwhtRTbNzxwA0jKKcMdPnRNHUd4H8WzmE9IXmjytc_r8IotvVJwcAiHbvV5yiSSlsyK5zirP2cKektSAy7
+
+sprite $NaturePeopleLg [20x20/16z] {
+bO-50KGX3CMAEs__QK_Gxn8yM4kluGc8d9P45Fn2PM0h9GQikp2TAzSocrU1z7S0tpcfLdVj_wcS0udfojKoniMnxlfjHmj7t24xJWNzFrzOv038Psv9St49
+dV05
+}
+
+!procedure NaturePeople($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/NaturePeople', $name, $tech, $desc)
+!endprocedure

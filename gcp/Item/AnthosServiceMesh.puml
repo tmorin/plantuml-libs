@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/AnthosServiceMesh
+
+sprite $AnthosServiceMeshXs [10x10/16z] TOh70S103C9qhko_S1hloDt03qAOMa_bShG0aTInAqG9xubPX34t
+
+sprite $AnthosServiceMeshSm [12x12/16z] VOh70S102CDqdVqNfdyJORhvOOMQ-v1PrmkISiJZdKilyCeJrzEUYO-Szbpay8q1
+
+sprite $AnthosServiceMeshMd [16x16/16z] dOo54K813CLIV_ilZ4EF4-IdhXmX12vUk1BfDNKO9HGt99WqJ8z6pIJgVL02LAzlb13JUzzl6vXebdfiREDXtpa3
+
+sprite $AnthosServiceMeshLg [20x20/16z] fSt55GHH20NH-d9ubN_2eoti-o8hXEV6qJezMXC7PK6tZMrz623IrtKHgO66mpJ2Dk4sNS1sSAavdOJjl7u8KmFx_b500f3YPiZYqDT3Pm2Bnzu
+
+!procedure AnthosServiceMesh($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/AnthosServiceMesh', $name, $tech, $desc)
+!endprocedure
+
+!procedure AnthosServiceMeshCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AnthosServiceMeshLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure AnthosServiceMeshGroup($id, $name='Anthos Service Mesh', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$AnthosServiceMeshLg>', $name, $tech)
+!endprocedure

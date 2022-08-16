@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/X/Xbox
+
+sprite $XboxXs [10x10/16z] 7Ok50G0X30Fphd3xJujSlP6Ck3aIOyU5wnamdi0pZzkJHHXEVF-Gwm71B1xQ3l3e
+
+sprite $XboxSm [12x12/16z] BOg50G0n20Fpxd_xRriaQO6O4W-dZEddQyPSvo8eN45_-99N3tXW2LTweMoliodeG3Jb2VQju432s1NuYeOx
+
+sprite $XboxMd [16x16/16z] FSg54SH00810Fkxqt-qF8xV9EP3bzMRO7jNld1X-3ucs7xktb1BL7yqdCMlJwBKSkFp1RgeVTIhmrbxpuwS_3nOr1JGdh1yxdyb2T22FoGRvQRxsVm
+
+sprite $XboxLg [20x20/16z] {
+NSu54WGX4C30h2la_x-zchdrnYaBXxcu3pnqLTFAKw-5MrtWr9Hyg79Or046GqjO3M0YZOOPGmDfDoovPI608Si0T8jI3mqq1a1rrnqmdBTH6_2mPmyAnLDF
+Ow5CBDx0bgR1Xuf0C_b46hv_tqyupQRI4du
+}
+
+!procedure Xbox($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/X/Xbox', $name, $tech, $desc)
+!endprocedure

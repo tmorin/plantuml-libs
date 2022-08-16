@@ -1,0 +1,16 @@
+' definition of the Item material-4/Image/Texture
+
+sprite $TextureXs [10x10/16z] Oy0As1Wu-1WO-45CTYW38S80Oa3OM1bGX
+
+sprite $TextureSm [12x12/16z] Oy09-9aOcFWP6DY0c069oO2DoGLamvWW6IYJ3nUJ5yY6gkNbGR4L
+
+sprite $TextureMd [16x16/16z] XSk55SH024LHXjquqd-t-H1tUuSxGj_FC20YI1qKHSnZYj2miOGNwYijs7DUInAOHoGF9tyeBNStoXCR9cGZfldXikJqZ
+
+sprite $TextureLg [20x20/16z] {
+fSo50SKW30JGuXfk_scH--vId1VPzWr1c6U4p5F3q-19ZMzOMbWRbLb78b-oBYGtMTUzpFeSwBfNRhJhNXc5nbwtn75Fp3BliXJbffSHsWsXqiAYs5WeehUl
+nm
+}
+
+!procedure Texture($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/Texture', $name, $tech, $desc)
+!endprocedure

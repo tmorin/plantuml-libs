@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2022/Resource/ManagementGovernance/AwsTrustedAdvisorChecklistCost
+
+sprite $AwsTrustedAdvisorChecklistCostXs [10x10/16z] NKW50W0X389TAlz_hzqRZUEKnKH9-qQ_RaQVpU4ZaAAboqjcjGyjVeW
+
+sprite $AwsTrustedAdvisorChecklistCostSm [12x12/16z] JOZ70K0X58F8i-l-y_vYpoK0zvnCKkui34XqDWwJ3pTYZ6xs0AOAO9aMb2cz0tyjOFzwRSmLwi9UNm
+
+sprite $AwsTrustedAdvisorChecklistCostMd [16x16/16z] LSV50GGW302muD3kF--vvXVyotXfGB31-nd6tljp1Nnl_JsEsdl_NCLNC51RIH1dwLCx94GPK20HG8AaFaaesqVYy9NbhsnS0G
+
+sprite $AwsTrustedAdvisorChecklistCostLg [20x20/16z] {
+TSr50i0m20NHWJRskVzvwovlEGd05yM9JN2ujfoVpIEmcFZbdttDqhrRUJKB_UxpoMLVMfCb7Qrrc7cdHAfRYmQbJB-0fEindnFhp_2DjYZm7NMDSYuqnrAu
+cd-Mp8DKU74c8m
+}
+
+!procedure AwsTrustedAdvisorChecklistCost($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ManagementGovernance/AwsTrustedAdvisorChecklistCost', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsTrustedAdvisorChecklistCostCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsTrustedAdvisorChecklistCostLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsTrustedAdvisorChecklistCostGroup($id, $name='Aws Trusted Advisor Checklist Cost', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsTrustedAdvisorChecklistCostLg>', $name, $tech)
+!endprocedure

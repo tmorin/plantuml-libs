@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-7/H/Honda
+
+sprite $HondaXs [10x10/16z] Oq02dFmWm0vayK84cFWOE9Y0D3y8CVD3M3mW4enPWIGG05aGFXj4744oiB0o0qa
+
+sprite $HondaSm [12x12/16z] NSR50SKW00Mmr0ru-q_xNPjJd8ppCWtG5D1a8o2w47Wb7OvGI4KQCyasj1IGzBPiPfi46SIyZXFMllXr1G
+
+sprite $HondaMd [16x16/16z] {
+XKs50KHH2E9rgljlUtolsqx0Nn5f9QMOSXao0KNGoyPe8o2OTvvLSUi7SpzgA-TprbMFGczzsvVYCkxT--MHknKJguiu-xni60S3zV8_BG4RPK0kU15UT54L
+OTW5Rt82
+}
+
+sprite $HondaLg [20x20/16z] {
+ZOy54iGW00E3E_d_Rsy2vzPkYsHndCUMoHizoGJwQ74Zc4A0mE1DATbPCb1l3eNoqm6PjyMKcug1_TbrEQUkCDjDBRkvi5tVpa4CJjL5YQiFJmwbK9QxqPJG
+jfl15P9rEIwd6f7C01hcSXsudTKzh1wi_lK5Xj2RQqhEY9ZoQBXXlG_UMVpa0W
+}
+
+!procedure Honda($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/H/Honda', $name, $tech, $desc)
+!endprocedure

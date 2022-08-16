@@ -1,0 +1,24 @@
+' definition of the Item azure-4/Item/General/ServiceBizTalk
+
+sprite $ServiceBizTalkXs [10x10/16z] JSQ74O1G3CDG_Hhbs7zVy5LUYitVggf3L6L1jxWlImajbKj-Ts_yFgbF2b5vCJh_1G
+
+sprite $ServiceBizTalkSm [12x12/16z] NSQ50G1130B1FINIVx_lEX7WPqYQxBg4D80rr6WIO4OrZ68CimgDjPjilJAn5Rw28zhsStk3NN2R6dTlNbWj
+
+sprite $ServiceBizTalkMd [16x16/16z] RSg50G8n44JHdwpC7FJVBvoYBxBANxtYejqrbGf9pIhrD9d7WkmnP9nZQe1j4EiRTifsJsP1XsrvHNKDhrXMaw2s36yXPs_Hi2VtxHUd6n-avfrjtiKosJm
+
+sprite $ServiceBizTalkLg [20x20/16z] {
+VOy70iCW30Fb9Hpw__yMu-wHInWwDau8al5cR3GlLYflhxXJINeo6bRV1SgxaynqzmnK6ooN2w1syhIQGLWx0HwhOcGnW0XVXZlbna0Ix237Xb0N7CszTG3P
+tSHTpZdlqnQZtQLTuebEnIVrhW_gxlX0QlDFb8_zhW
+}
+
+!procedure ServiceBizTalk($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceBizTalk', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceBizTalkCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceBizTalkLg>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceBizTalkGroup($id, $name='Service Biz Talk', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceBizTalkLg>', $name, $tech)
+!endprocedure

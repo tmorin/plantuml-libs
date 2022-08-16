@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/C/Cashapp
+
+sprite $CashappXs [10x10/16z] Os3WuUFdv-VZOc3WXm4U4C4DupCmmAGGAfXXGWXH5eWoBhW8GWK
+
+sprite $CashappSm [12x12/16z] JOs30S0m54HVxMR_QSDlwmxEFpNvLqWkvqXBN_KAFjdDV1TIJtqg0lon6_bbMZWKXxcdjGLv3RnV0G
+
+sprite $CashappMd [16x16/16z] LSx50GGX44JHFufJ-KUxWlCkI2iGiegSBP2qEj4kg4guMbHV1roQu3fWF1rsf9OYGAi4e0tOUO_IWvllOfblEOEAMkJ7CcZ7kJ-_
+
+sprite $CashappLg [20x20/16z] {
+RS_50G0X40F0u4xwh_PSiFcWQm1ChfMtMYCEaeCCS18DFoczF_-hB-RDxd58R4dSsBZ-517xEyTR7wihUme7pq40m541-fDBIVJ_D2wvdmEGNtFlfeqJd26l
+-e_JrGu
+}
+
+!procedure Cashapp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/C/Cashapp', $name, $tech, $desc)
+!endprocedure

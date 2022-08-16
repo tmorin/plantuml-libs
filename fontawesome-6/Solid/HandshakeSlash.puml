@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/HandshakeSlash
+
+sprite $HandshakeSlashXs [12x10/16z] JOc30G0n54DpHl7sdxRMHxXh6RRLG7wJbNnrUoOTw6-QqZQDoQPeLuCDfJ7Pl6WP8W
+
+sprite $HandshakeSlashSm [15x12/16z] LSwr0GH10CImEOO5zL_jCpfJvZ7_EVxDR9jmHrbJpJiOIg5aHZeZr9geEJ-KiEL3Pqvovr0Eo41imv044ZslANfFklorkG8
+
+sprite $HandshakeSlashMd [20x16/16z] {
+PSg5aGKn3C1GsSkRnEg_seFFeE4toeElTkiR9mNcanmj7ggdigew0xG6NTcz5aThAjT7JZMxgfcW4hvORw0ZULfqXQORRsQmw61SxBoQCwZGDzM8KcrG5gsC
+2E22mc6HoRMkfP0QVANBDmv_0G
+}
+
+sprite $HandshakeSlashLg [25x20/16z] {
+RT053iCm343HxvGR-FU_xMIDjpvX57DfN6iQNAewSsdLawXs9jM3DrDdysuXrHhGjB7x54kjzHvnw52zPvNDExYN7nI_FogW0ZyVpG9LdQW_7nwGputZvyC6
+eLQcxuzt2xX_L9uVpd2emJOmmQhfW5dljua8oBUf0yD1b09tnRlyqU0jMfzBsm1stRaKshasl04
+}
+
+!procedure HandshakeSlash($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HandshakeSlash', $name, $tech, $desc)
+!endprocedure

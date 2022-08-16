@@ -1,0 +1,13 @@
+' definition of the Item material-4/Editor/BorderVertical
+
+sprite $BorderVerticalXs [10x10/16z] Oy0AcDWO-844a0N4_204172AZH_8OaCLOmAps91a4G
+
+sprite $BorderVerticalSm [12x12/16z] Oy09-E4G351eVXG-vUeH
+
+sprite $BorderVerticalMd [16x16/16z] XOs54S0m3CHi7PL__sbBVsK8AaeCKHnD4ptPculNqO7CBMZsRVJTxcAviliQdZaJcOuNo7ofrpIRR_qt_-o_rTlwpy1yZ0a
+
+sprite $BorderVerticalLg [20x20/16z] fO-53S0m30J_mvpzjwtAp2SwcOr_L8DQu2e7Qp42HhUnmMRQsAftZWszHIzY9PtsEWbdszXWPxSG8DlOO6zkCMAEdVnnkhVezdfREDXZ6W
+
+!procedure BorderVertical($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/BorderVertical', $name, $tech, $desc)
+!endprocedure

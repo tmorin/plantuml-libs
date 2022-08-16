@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-7/W/Wireguard
+
+sprite $WireguardXs [10x10/16z] FSU50OC000F1gtj__sbnY0U-dmUe9wBg2BpgMK9LogtUSr6fa-vgU_fIw6S4
+
+sprite $WireguardSm [12x12/16z] FSJ70GD108D0BkUT_hlrpn9GDR_FNLKhrQAQKFvrz25KUxXPSXGmJPpXHNiDnBjt5U9i8pGnvOiggbFz
+
+sprite $WireguardMd [16x16/16z] {
+BOo50S0W4CI2E-m_RGi7ULT47gqx7cQjES3DgJAiZPAfSCfgRdl1kYIC1bmF2QL-MmSBNdNVPaz6O3qCQggUsneC1_VlST42PfoKRSx3cl3gbkD9zJ-eM-Zl
+A-1l0FSY-v7A2Fm
+}
+
+sprite $WireguardLg [20x20/16z] {
+JOy5eiKW40EdZYpa_gTzGlRBj4W6nvmHFHx-4T8S6qW5Sqc_OShBzEK0dhDAIyfi80DLoKFsTomkeAKCEnO5fvBBxEs6zry7ddOcNLvLyrjLAEiOBLgUyJKC
+kzqZ9smtn4giQeCktLxSllsp32Vu_yf_Be3DwPY3hnkGCe1KoJKrDzXdsm3U
+}
+
+!procedure Wireguard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/W/Wireguard', $name, $tech, $desc)
+!endprocedure

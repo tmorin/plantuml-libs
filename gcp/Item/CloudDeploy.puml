@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/CloudDeploy
+
+sprite $CloudDeployXs [10x10/16z] TSOr0G01302nAzU_uMU6JE5FDmkVrhOivmD6P2nJastCOnl1rGW
+
+sprite $CloudDeploySm [12x12/16z] VSV50G0n4810ijv_m-SkuJNGhTh5LPjY6LiTWPK3Aiii5bLsmzqMR3NUZG
+
+sprite $CloudDeployMd [16x16/16z] ZSUt0S0W00F1DmAX_HTspXNN7OFqU_9_-fq6pgfTTuEUvBvTwUTLmFPpQU9rYlGvn_7hrJoA6BK
+
+sprite $CloudDeployLg [20x20/16z] hSYr0GC1302nCyRxBnn-Pb0fRb4wSrLpLq77V_TctMM0VLEwotJ8zWGqFvJsr1JYVT4_Cq6wwxAxd-OUCuSDpz_tqnqC3n6EUm4
+
+!procedure CloudDeploy($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudDeploy', $name, $tech, $desc)
+!endprocedure
+
+!procedure CloudDeployCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudDeployLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CloudDeployGroup($id, $name='Cloud Deploy', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudDeployLg>', $name, $tech)
+!endprocedure

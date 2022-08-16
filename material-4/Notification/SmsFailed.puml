@@ -1,0 +1,13 @@
+' definition of the Item material-4/Notification/SmsFailed
+
+sprite $SmsFailedXs [10x10/16z] Oq00Jdu8O63WXm8U1Z0VpcA6ivZWB7uK5ZC3FoC3EW
+
+sprite $SmsFailedSm [12x12/16z] Oq01FBmGmCt0mCiF0qmGDWiIcm69pOl4Pi8GHpE7XPa529YPWUOpCM03
+
+sprite $SmsFailedMd [16x16/16z] VSUr0S0m40ImUoWJU_zfpKpgX0rn5sj701zlTFwFzwFnFxyUFQw52E8P8oQyU
+
+sprite $SmsFailedLg [20x20/16z] Oo0QSFAZ0f0OFnhWnYB6Wn3ZPE7346Dd84wCanacXjyE3YP2vi41QMBC434M5cOW108WoGG90qQCiE87of07
+
+!procedure SmsFailed($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Notification/SmsFailed', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,5 @@
+' definition of the Item c4model/Element/Component
+
+!procedure Component($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Component', 'Component', $id, $name, $desc, $tech)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-7/I/Ibeacon
+
+sprite $IbeaconXs [10x10/16z] 7Sh50SGm000W6lViF-r9tm1r9Z03GMMKvP564bQlIQ7_cyZwKN9LfRmVdLW0Om0ebeul
+
+sprite $IbeaconSm [12x12/16z] 9Oc74SLG38Dmzw_PVzj4zxWc0UBrQGvkaykS7K7Hffa9JivYaGR6mtlyj2x_fkO5FlNQSWksEq44ZQXEKZlq1prDRGEL6m
+
+sprite $IbeaconMd [16x16/16z] {
+7So7OG0n20GmWU7ywVjFcwO119otjnS0NZXR3D1rm7MXLw2RorD64DEA4xQi9HbanSFUzdvGgKydftXVyFdLsSPROH_DJVCVWb4PtBOujlGZZ6MgB4IxTAo5
+Aurf2zI01tu
+}
+
+sprite $IbeaconLg [20x20/16z] {
+7Sq7Tg0m30JGhx8oOB_7_K-xIL2lCm3hxAS1e8i8OW9WonloOG5jYVcL4ctWCGw2Q8-cBMq2Kre5cOxRkdepfE4EOycYn2NxPiIoKM4upfUljDzgNVBwPg7J
+-zwib6CpREfsYnQFaML8qlWuUMIfu1izlXHbWF7FIA6r6E9l51OU3nTuf01B9M2918OyvCq2O1AY4_m
+}
+
+!procedure Ibeacon($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/I/Ibeacon', $name, $tech, $desc)
+!endprocedure

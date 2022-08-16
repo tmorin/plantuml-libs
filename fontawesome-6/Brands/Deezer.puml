@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Brands/Deezer
+
+sprite $DeezerXs [11x10/16z] Oy0F-FdH-NpOHVdvEL14-O40KnG
+
+sprite $DeezerSm [13x12/16z] Oo02CF7pOt2ukJb176vk48UVdmSkWm1G6Nv-VgWCAoiBAoih8oihK0WXW-2W6m
+
+sprite $DeezerMd [17x16/16z] bOgb0S105CK-wMR_RQkEEUQXF18HJLPWNgYgD0Q8vZ4K0q1yG7wqnVYcUGo57Fa1
+
+sprite $DeezerLg [22x20/16z] Ow0-OEK70l94CG58dWz9BJvHFY3WXOg2s0JD1PCSS1CmHH7cye19TZpcyeC0XWdOHNb1W054S8D9TXQm00a
+
+!procedure Deezer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Deezer', $name, $tech, $desc)
+!endprocedure

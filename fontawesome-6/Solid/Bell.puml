@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Bell
+
+sprite $BellXs [8x10/16z] Om02FWOmOETd0b7y882WcQ0q1vJc1mDU5Y015k240B06TWO6
+
+sprite $BellSm [10x12/16z] Om01FWOeOEA7ClX10CxWvuIp-B6pEE4iVXZWWp5WPiADvWMI
+
+sprite $BellMd [14x16/16z] LSwr0S104CH0cTdRVxNFT9Cf4zdFuDT4DIbuoHPbkLHyCJPLiHvJhoargwaV3dMWqM-AQKHqVzzdjuay
+
+sprite $BellLg [17x20/16z] XSZ50OH004MnZpkl_sePjzKSe-YSrHX0jVw6NSMDjoeYMUIjPF8eZjUu_mQoXjSuNeFQAUqqkf4NDo-qjIO5dQNAYgKQiCap
+
+!procedure Bell($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Bell', $name, $tech, $desc)
+!endprocedure

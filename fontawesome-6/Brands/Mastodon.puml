@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Mastodon
+
+sprite $MastodonXs [8x10/16z] Ou03VX00KTpyd406FmCV4F8ZGoum2GPGcXUa7ggV4wYJWG4
+
+sprite $MastodonSm [10x12/16z] JOg30K0n30NlezR-qzQw8ddWGgR62scYwWRj9j8ZwzStRFl2sEpOb6_zMBS9TViPr5N_Ugo_zozG
+
+sprite $MastodonMd [14x16/16z] RSU50SD04CH06Pv1_LSRvdWEbpzx7RFdXIjVCZHrF0Qq0G8wKN2X3OgYh7QK_JZD-awRLmGx-iOxsO1yFM_g3YpSJQycVyu
+
+sprite $MastodonLg [17x20/16z] {
+RSs50O0W503Himku_QUrMv_9JtvbUL4KUSOkwQ5bvbq7dPgMLrnUWbe0ONrfpHfDEGmjcGveebROdh066YMx0l4U68v0Fso1_cWvLfRub96ygs5GZs3FB5SR
+xbJvH588ANAeZe6_9W
+}
+
+!procedure Mastodon($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Mastodon', $name, $tech, $desc)
+!endprocedure

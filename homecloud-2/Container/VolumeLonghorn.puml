@@ -1,0 +1,21 @@
+' definition of the Item homecloud-2/Container/VolumeLonghorn
+
+sprite $VolumeLonghornXs [10x10/16z] ROP70e1048EmT_d_QtNxQPb90XrytzTigH8mRji6b-0fnSHiXqQxhT3u0G
+
+sprite $VolumeLonghornSm [12x12/16z] TSR50O0m0C30u4xsdnPtsdiT4PKhDbR0QBTejrDM2zUFYmIsCvZbn-tm-kBuIRpnC0C
+
+sprite $VolumeLonghornMd [16x16/16z] XSa54e0m3011tE7-_rgiZOrbgpTfCllnQSH98GtrsN-pJ12bHMaPI6yJB9EVbsCznFv9Uyn4JU81
+
+sprite $VolumeLonghornLg [20x20/16z] fSZ50SD000InJSn7qt-rPcRGK_hWHqyJ28r5Wbevs5xKNfyJhTZ-_bbhSGG0xnOd0qRB2qOoB0yaDcVCwWfQwNHB5iUMh5-BTLC5
+
+!procedure VolumeLonghorn($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Container/VolumeLonghorn', $name, $tech, $desc)
+!endprocedure
+
+!procedure VolumeLonghornCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$VolumeLonghornLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure VolumeLonghornGroup($id, $name='Volume Longhorn', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$VolumeLonghornLg>', $name, $tech)
+!endprocedure

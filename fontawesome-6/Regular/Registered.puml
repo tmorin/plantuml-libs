@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Regular/Registered
+
+sprite $RegisteredXs [10x10/16z] DOg30S105CLIkzb_slFt4wKkTshfmk5LmDlvXkngWTV2NYcLTUtPZz1Ahqj7bzIgTzEd1ZC
+
+sprite $RegisteredSm [12x12/16z] BKk50S0m368k4Vx_TeKk7WIAu8qPP5r5-ZoC97q-4UElWjxhuZvM5FI-8T-bOIVlYVl-3xw-4miKLjSyMxFa5Ve1
+
+sprite $RegisteredMd [16x16/16z] {
+JOo70GCX54BvrulA_jicGCfXHH_0MZllmbUTqHxxlJJss2ytimb-N-xxFbN3Wk2cjB31bKugLy32_lN-WB7mAR_ZgxZQrvStU11iZpuER9nXrUUz9-dObcCi
+pigQf3LqVm4
+}
+
+sprite $RegisteredLg [20x20/16z] {
+JP05aa0X3CNUDxpa_gTTAMM6uC6he4v6qi57O9S2O3wICb2t6WfkQ8SAu9C-L_sFTYsvYXBE9wbGn7INf1VMmihZxfEqtKJkydqdtoA3S8vVqXdXUgruLvD4
+tkSP-p6mtUqllJ0Pj_JonBq-lhntASW-ZBDF9JKeSYw3-mYfzGddbe9ZQz4l
+}
+
+!procedure Registered($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/Registered', $name, $tech, $desc)
+!endprocedure

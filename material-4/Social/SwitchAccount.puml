@@ -1,0 +1,16 @@
+' definition of the Item material-4/Social/SwitchAccount
+
+sprite $SwitchAccountXs [10x10/16z] Oq06_600OO4m3mC_cCK5PV6pGiI010CpX0NM1sQ10JEG1GECF200L0e
+
+sprite $SwitchAccountSm [12x12/16z] NSQ53SHG04EnzncZx3_jCRIro5niFQrNRMNRaH4V1vvNUZtyRldx0UZzp9EUNzfFVfwK7rA2hVsIU8XlZzq1
+
+sprite $SwitchAccountMd [16x16/16z] RSV50O0m04MnLyFXxpyjKiLo2t-CpL97LV6Bf819Dylr3GZnLd-N1xLdxHumQpt9aB_ak_HHLJpEHyvntHL4gZnV1m
+
+sprite $SwitchAccountLg [20x20/16z] {
+bSw54SH0241HrdtelzkRLU0ioOy_Ol0aWwnbPLpKEWvbMbrpFKOTuh2qXzqmZzFGBKjhtP1RppcKHf5LFNwqCNEmycHmsbRGdRO5P9bfe8qrjcUiXcaV8SzE
+KvLbu4Sl
+}
+
+!procedure SwitchAccount($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/SwitchAccount', $name, $tech, $desc)
+!endprocedure

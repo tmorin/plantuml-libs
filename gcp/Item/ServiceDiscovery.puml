@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/ServiceDiscovery
+
+sprite $ServiceDiscoveryXs [10x10/16z] LOk50S0m3CCqqlh_msKCny0HQZzw8xxMyxtvQTV5FIGg7WxGZy2A1
+
+sprite $ServiceDiscoverySm [12x12/16z] NKY54S1038e0r_qdxhibkBsNZ96WSCXhT9agIwmIvPqrhwyvwe_SneJLikPQHEcpVL7BlXy
+
+sprite $ServiceDiscoveryMd [16x16/16z] PSg50O0m3031RqWUzbyOzrubIg-NRXgd8qsJNKbc4yuDMUkj60JEFyu9LE5grAFE8eXpVlqZ0Usiar9ZItPdL4vQfKxSCWSu6m-3lmK
+
+sprite $ServiceDiscoveryLg [20x20/16z] {
+bP05ZaL120GRXgutzx_m2Y7VjIAuwZkIVwGp0RWCFliWMXQSNH8PjfB9BBgwauf96zc2fHQb3EcGbeGr8TXm7FZaAqN8AUKvZ-dM8biiGZ5t69q7ErMbHMbW
+Adnz73R0ZkilO6cVdMVsrZsXX_m2
+}
+
+!procedure ServiceDiscovery($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/ServiceDiscovery', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceDiscoveryCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDiscoveryLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDiscoveryGroup($id, $name='Service Discovery', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDiscoveryLg>', $name, $tech)
+!endprocedure

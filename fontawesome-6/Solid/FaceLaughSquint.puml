@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/FaceLaughSquint
+
+sprite $FaceLaughSquintXs [10x10/16z] 7SR50S003CD0bPkNzf-se0lO0EF9pqmb1yegw2XsoIcvH6lAL7k7FtW1
+
+sprite $FaceLaughSquintSm [12x12/16z] LOY50SD058Leuyh-qyRE-VhWPNCcO22y4L0sTUWz28BtRibtDimU11Ij_pE-4wZxU4Hrg9-z0G
+
+sprite $FaceLaughSquintMd [16x16/16z] PSi53a9H30J05eSdS__J8WsD_ObLTgDSbv7H5kKUXRPxRRF2SGLv8GCYNhAIhdX5LXGMOeEHZWOZ6v9Rj4sWrnCxRkmegLvBLNBuLwTsws2fsWS
+
+sprite $FaceLaughSquintLg [20x20/16z] {
+PP274OGm30INdA7_Rl_F9y0QrjdA8bZEQn-f6AxWQ0YkYYL_cTLVcS6-QC_GwVMYk8PMkr-pJO53HfFZQ6lqAEUgepXwyjj7dr_s_zgM5_r9cGevnba-bCoE
+f2YpbaR1KuC0kqKSyONpZ4nbcLkQNC_HPYlz
+}
+
+!procedure FaceLaughSquint($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FaceLaughSquint', $name, $tech, $desc)
+!endprocedure

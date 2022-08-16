@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/SatelliteDish
+
+sprite $SatelliteDishXs [10x10/16z] HSR50O0m0C30u4xsdnRglTSHd1V5ev9SCs_f8SgKBYvE76cFJiB4CnXAOZ3tZi0F
+
+sprite $SatelliteDishSm [12x12/16z] JSdL0SC034D1jM6y_QSDq_looTcRXpp1_-MilVSflLnDGYxg_YgsTKVChfzexBZoGVz52zD-hG
+
+sprite $SatelliteDishMd [16x16/16z] NSy50W91241HjXFV_K-hRiUVf24sJ6NSc66EYx99N7BnFydTluoHou4sFlzJ79f958JnKCYWiIhoVmQH4aFCrXGnco4LQyx_hbazJi2LD7fWkcPvAxOKOkK7
+
+sprite $SatelliteDishLg [20x20/16z] {
+RSx50SDG3C1GXT5V-q_RXldTp6RJEvGyE8kCgt0nyj2gYTEmh4iQztqzzDfowbHGkHhNPCjON8_NXABdhvc9IYkrcBVrwoKo7NNfN5SdGSDP4UjVXH3Hk-8Y
+SrLmuQRaL7ybnw_au2Rdb8MpdiqV
+}
+
+!procedure SatelliteDish($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/SatelliteDish', $name, $tech, $desc)
+!endprocedure

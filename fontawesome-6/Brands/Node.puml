@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Node
+
+sprite $NodeXs [12x10/16z] XOQ50O0m0CE2E_t_MbpcguQC1B123uMWLQbQuimiFYu1A6hur0mVjemusW4
+
+sprite $NodeSm [15x12/16z] ZOU30SC054G_w-RjFsridqzkWbZUR1DL48Lq2XxFRm5lXEHP4DPTwelq-AZLwVqpVtQplw_N_4gyPGyL
+
+sprite $NodeMd [20x16/16z] dSY50SGm4CH0cTdRVxNFZ4d6U68JppjzRraHZ0emXg39I4FDwu3RfScjmU5ADJsqorMnW84P3_SOG9vS9IYyi2L5zzPSUMqfKtXZ-MKF
+
+sprite $NodeLg [25x20/16z] {
+jSc50GGX0CJ0uCxst-sxkrnmXWLJVWJZ9SpEEYFBkjgt84_MkaYNDF3Q7atIb5nGGvlMdCCQ93CbWKvWs4BrN86q1K5XNOIc3ZWf0NMjd6fcSAy4rZZFJJPq
+hECU5EVlmQYGk5lE_D8A
+}
+
+!procedure Node($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Node', $name, $tech, $desc)
+!endprocedure

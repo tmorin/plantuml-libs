@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Regular/FaceLaugh
+
+sprite $FaceLaughXs [10x10/16z] BS450SG0000XtcLo_TFE0NwzxUhXquz6krvowlSG_vTo6TuVxIIVYloo2wyQYXK
+
+sprite $FaceLaughSm [12x12/16z] FSQ5hK81542nVi6vdFst9KyRgyMhkqtDRGgwMBmxouo8d-Wr39xKpQ7xUBJubMX1UhFrHcFH1wR5ZIy
+
+sprite $FaceLaughMd [16x16/16z] {
+NSx50GCn4CLGBOD1_LSR-k5dr6ruM9fbuAKPM_BrgROan6I59c-B0svmJi0vGtSHy7NDDedGlox2s0Dm41PZO1Shz4SMiBCwmPbfgq1p8QfhdZu3kqaOVEW0
+Lm
+}
+
+sprite $FaceLaughLg [20x20/16z] {
+PP25bSL04CESP9dKVxK7VdyE5RHcMI_wOHNz8FDYNw60yqYgG0-redh3-AESifG95L9-fCSvIMeqSLoy5QD0vr4q7cJ_7_I73V_SPDazWQH3eKgTu9R0mr-X
+_B-rFskLKCwN_vuubUhOGO6LbmfDvjfm_pZIFGyUCMYOVJkz0m
+}
+
+!procedure FaceLaugh($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/FaceLaugh', $name, $tech, $desc)
+!endprocedure

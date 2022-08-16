@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Landmark
+
+sprite $LandmarkXs [10x10/16z] Om01FWO8u0S23Y3DnWy1804O4mdmGo0k5XiOCd31zG8
+
+sprite $LandmarkSm [12x12/16z] ZSR50S0m5CDGbRdQVzf2y9htmIQuoIvrvRSOzM2rM457ryK7zfSudhRrrQo_hLu
+
+sprite $LandmarkMd [16x16/16z] hSUr0GDH04CntsVqst_QCDTH9zqTrYSkffucTrbNXRT3uiistwHVqqTqbwrXNMn2P0gq-CVDtdZ1WYpnnURR6G
+
+sprite $LandmarkLg [20x20/16z] nSZL0OKm40NHZVkT_gjzhi0_9xfZRqcsuGJqlyHB_PJ6bt-Kp1_TajZg771hPzWny8-pc3RHoQrcQ5aehqUBRCXrzWPxLm
+
+!procedure Landmark($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Landmark', $name, $tech, $desc)
+!endprocedure

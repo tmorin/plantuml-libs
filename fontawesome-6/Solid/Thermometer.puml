@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Thermometer
+
+sprite $ThermometerXs [10x10/16z] Ou02VZY3dn-DnGy243KO37vaHL1jd9neHW8
+
+sprite $ThermometerSm [12x12/16z] JSsr0G0X5C3GSmMo_xJubrIloo8zKGamUPgvRl5v0QoTN4Akngrn1M6pS7azRMrS2W
+
+sprite $ThermometerMd [16x16/16z] LSc54SK03CFGv4EvrlxJbi7HuJk5rV5t0gWINi_5AEGM1_Ev64E7-BpNE85pi_EmCwWKtyoqcs6fCbO
+
+sprite $ThermometerLg [20x20/16z] VSk53S10049Hwbxsd_RSZVZB1_bEFeNCr5ioers3EEnc4bEm69s6vb25vvn4EF8AO5q1zP7Xc5X1Q10QDDS4yhckQygh7SKQzDK42G
+
+!procedure Thermometer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Thermometer', $name, $tech, $desc)
+!endprocedure

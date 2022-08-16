@@ -1,0 +1,13 @@
+' definition of the Item material-4/Content/Biotech
+
+sprite $BiotechXs [10x10/16z] Oq05_0WMEuHcv8SA0Ybs28iJ98okde63duqH8WO2o8O2
+
+sprite $BiotechSm [12x12/16z] PSR50O100C2muaxtdnQNaxn2PlWxEdulUzzL5XRtXTRcEoNFQtwhAe_bcvULo0u
+
+sprite $BiotechMd [16x16/16z] TOx50GGX5CLmX_HVxUeObjkN9sA3xCT0wMQWcrN0FBuBadgD5PNbBP1yp3Njd3MY1pE6j_f5NOeCfSIkpsDe_CbdkHCnymO
+
+sprite $BiotechLg [20x20/16z] bSr50WGX44FH1Dhjt_-quzFOYhShZNfjH5LyWMh0h9B30cN780XA9hwzLSddQYO_dZv7FXXJRqKVLXAPrBYOLVF5ZvM41UPfid8HoiR9JmgRhjkf3ay
+
+!procedure Biotech($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/Biotech', $name, $tech, $desc)
+!endprocedure

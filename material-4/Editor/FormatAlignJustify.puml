@@ -1,0 +1,13 @@
+' definition of the Item material-4/Editor/FormatAlignJustify
+
+sprite $FormatAlignJustifyXs [10x10/16z] Oy0As200oEA708GKGene7G
+
+sprite $FormatAlignJustifySm [12x12/16z] Oy09-660hk8
+
+sprite $FormatAlignJustifyMd [16x16/16z] Oo08k7WHW0d4vq409YpgUVaH02JFX01WvOn8V0prjBOV0m
+
+sprite $FormatAlignJustifyLg [20x20/16z] Ow0CyAC0Fh0O6mfW9Kal7mhWmQcN0mMmupIF4HKCj3y80m
+
+!procedure FormatAlignJustify($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/FormatAlignJustify', $name, $tech, $desc)
+!endprocedure

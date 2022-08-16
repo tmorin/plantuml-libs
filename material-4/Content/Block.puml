@@ -1,0 +1,16 @@
+' definition of the Item material-4/Content/Block
+
+sprite $BlockXs [10x10/16z] LKo53G0W34CZsFx_bipTsvPa09Vw1bmQ5ZxhKDh0YNANnyDi3E6jGoqJ1_mSrFW
+
+sprite $BlockSm [12x12/16z] NSor0G0n509GuXxsdpR6LVVrLU1VkKMe1hElJ8_jtiW0WEBzEOcO1js9w1QnYBY7ehatVpJAc9sNhunzRmC
+
+sprite $BlockMd [16x16/16z] RKq54WGW4B9R-Vzlpwrh38RGTV_X_RjQ85HL0ITTgjYYCOMt6EkOZ8WK9vNUhLlmO7ckT1dqcqYw4pJVKgf4gFoMMuDDardu8AfiDddcM0z9GJm09fL_y
+
+sprite $BlockLg [20x20/16z] {
+bOu54WGn3CEy30Nz_xStoJGz9YtMLa7_iGEKwIRPeEPKe8uH9HYZ6yDAhHo1GGQe0QtV6RirA-DbxTPanMo_gLlU7FOwFVCe579O3fkaIbZ6uZlEhAClVtkm
+IhTqiCcOOEjHaI9CWwzbKMD86E47ovdtKU-v
+}
+
+!procedure Block($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/Block', $name, $tech, $desc)
+!endprocedure

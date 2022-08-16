@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/PersonCircleXmark
+
+sprite $PersonCircleXmarkXs [11x10/16z] RSYd0O0000Inezhilos63Z5VAXqc_S3Lk5UimuYiKX8vwd2-0sm
+
+sprite $PersonCircleXmarkSm [13x12/16z] TOf50e1008ImM_x_MhlTdTi0G5LnJn-dVfgkUrPtfu_dg8ExhyTU-rGtn7fGC7AqFy_sc04
+
+sprite $PersonCircleXmarkMd [17x16/16z] VOi30WGn54CpdZBtF-sYzYj_W1z2eOOyMm5hTgMgYkGFMmXqxCrC0flIHodO-6pkFGGT5XkS01AF0UbAnWdkAWKBo4g0PLdPw7YSeF_wmHyllW
+
+sprite $PersonCircleXmarkLg [22x20/16z] {
+ZSq54eD00C30d0mE-VzlEqXR788l9umLHWu5zQZfgzjwMrwMshOzR3SurcsnSYvjr6zhRFrMG-wr3O3spXNuVHaqEyP0vtUBO8pVLRKebFdZgurs50I_YeBg
+06wrcp_BZOxFW3t3Hl5RiTRmLSQFhq8_MWaV
+}
+
+!procedure PersonCircleXmark($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonCircleXmark', $name, $tech, $desc)
+!endprocedure

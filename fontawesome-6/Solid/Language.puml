@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Language
+
+sprite $LanguageXs [12x10/16z] Oy01kFZH0HD86CG04an02iBa1eg3Q21cPe2p4UgPaKn0DXy
+
+sprite $LanguageSm [15x12/16z] VSt50KC134EnL-Pg_sdB35-9VNN3_3I-WFqCjQgWa4TDDXIZCAwunu8v7pER2tdJkoC
+
+sprite $LanguageMd [20x16/16z] ZSYtWG8m44N19-_r-w_s3bO97YOSVfNc8v8-IVvOCaKN7gZ0jChOnRsrjpi7xdh46DV6hYFi47Bd09BTqiHk8qskLpGKx8xhcRkRuv3GCtxq3m
+
+sprite $LanguageLg [25x20/16z] {
+hOy30aGn34Gd-2eozp_jAclhrGq7VwJpBcFX6uGUy2i3ZZ2fA6aGLJRLeq60DCGXb0aS_PXAs0uH1W9xGyo5SZ2adZGKSZaKds1ci9r1kE5W67IxfS53DHHu
+fUD0FT18umFW_HuLdxC6
+}
+
+!procedure Language($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Language', $name, $tech, $desc)
+!endprocedure

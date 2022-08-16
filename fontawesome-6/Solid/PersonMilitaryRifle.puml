@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/PersonMilitaryRifle
+
+sprite $PersonMilitaryRifleXs [8x10/16z] LSUd0OC00031Iy1GV_zfgGhp1SO5LFfutlv0C-qLqXgLwlzklrtH2G
+
+sprite $PersonMilitaryRifleSm [10x12/16z] FKk50S0m2AFkpV_NOXES25da6Nr3ez6nCuIW_miIibrB5yZPgF1lkRu9ZdMW7mKDCb3_WsodmhGCxOME
+
+sprite $PersonMilitaryRifleMd [14x16/16z] HS67WSGW3031TRP1QFllzj5Vck5bluEtRbbPeIm5cfGn1HWKrK4Nogc29pygb3ipBtsODXuj54KPofJQiHomg2w71THGqbFxfLjeuXhQJ48zbXLbwggKFm
+
+sprite $PersonMilitaryRifleLg [17x20/16z] {
+LSq75WGn209GqgSOkVzjzy7sFpKgJxpKSGR4aZOXSj8gmC2VmeHHKjaAemGgDs2N2WKaH5RS1LF5Np-Rjo9wmMuiqWPaSIEvb82vmu1I3b2jGIj0eIGspGl2
+-yYfS5NLhSvvQfOyNTW8JR4eHfcOQ2GaAGNo
+}
+
+!procedure PersonMilitaryRifle($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonMilitaryRifle', $name, $tech, $desc)
+!endprocedure

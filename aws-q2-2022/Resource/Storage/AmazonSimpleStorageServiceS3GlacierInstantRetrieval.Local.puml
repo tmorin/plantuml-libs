@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2022/bootstrap')
+
+' loads the Item which embeds the element AmazonSimpleStorageServiceS3GlacierInstantRetrieval
+include('aws-q2-2022/Resource/Storage/AmazonSimpleStorageServiceS3GlacierInstantRetrieval')
+
+' renders the element
+AmazonSimpleStorageServiceS3GlacierInstantRetrieval('AmazonSimpleStorageServiceS3GlacierInstantRetrieval', 'Amazon Simple Storage Service S3 Glacier Instant Retrieval', 'an optional tech label', 'an optional description')
+@enduml

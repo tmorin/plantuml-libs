@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/KitMedical
+
+sprite $KitMedicalXs [11x10/16z] Oq02_0pyOC0CnAXCe1oKoSl0m0jbWhHWAk1dP4Kp0SbS
+
+sprite $KitMedicalSm [13x12/16z] Oq01_9py4C0En0Gu30nm3Zj8Bn-KmmZYyC2KyG4baFLWciQ3p67Wvk3b0mCsFdO
+
+sprite $KitMedicalMd [17x16/16z] Oy00R7mCV330mShBmCRFpy0F0rniG89O0Lu61hm2d10ByGZme0a0CJTkGmaxZ05301q
+
+sprite $KitMedicalLg [22x20/16z] dO_50GCn40DrPbR_rOOvvdak2D10IiWF3aW1a4JX6oN9d6fJSciAu7zQQjESBjESlwTue1QcziSjLpFKfpmElTNOLgV8bQb6bJC
+
+!procedure KitMedical($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/KitMedical', $name, $tech, $desc)
+!endprocedure

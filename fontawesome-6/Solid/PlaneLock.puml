@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/PlaneLock
+
+sprite $PlaneLockXs [12x10/16z] NKg30G0n4CkpRlQVjlOnGYw9KUIAxnDNI7vmpAWKMD70hkOB1wxyAYxFvHC1
+
+sprite $PlaneLockSm [15x12/16z] ZSUr0OG000ImUyN9_jFYsf4kMVIvehdNqtQWJ4jIsaJgbaj_FVv10ZAx5nnjBnq1
+
+sprite $PlaneLockMd [20x16/16z] dOw54KCn5CFycQFzj-s5yQWAFhO2HXtGEI-WzHbW_iztOzaaJUyboqv4ylT4PlgiMny5CbWV2SCfU5zU-DOq5uyi8zy9rbdw7ZobxuLdDYGHFm
+
+sprite $PlaneLockLg [25x20/16z] {
+hS-rOGHH54DH3RDk_zNQY_CvsvC-bBucgwe7L0CmjmfNg-2V53QUUcKcW7lcdkrCiCbSVZreOeT00Ysa5d59HcIK5BmE0ExtlkFcuSuHFwYNTe6NBIyCV5nP
+uUGhB-2jKt-0xg_-0G
+}
+
+!procedure PlaneLock($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PlaneLock', $name, $tech, $desc)
+!endprocedure

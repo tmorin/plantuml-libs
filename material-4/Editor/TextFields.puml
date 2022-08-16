@@ -1,0 +1,13 @@
+' definition of the Item material-4/Editor/TextFields
+
+sprite $TextFieldsXs [10x10/16z] Oy06UFX10C9c1T8m5YDG52h6nCy4amKYE0ih
+
+sprite $TextFieldsSm [12x12/16z] Oy0567d00CncuWS3c1G_Bv20inb1Kb0sK2KF4rmDFmy3BZPE
+
+sprite $TextFieldsMd [16x16/16z] Oo0Py4C1BmOV3dZucO0a2f-H5mIu47o87eHw9XP-7YP69FrC_3n09cbyqW4
+
+sprite $TextFieldsLg [20x20/16z] Ow08iB320LoCXnyEcB2B8G0hFp-OnX1ZWW1aCKQe0JZ547hv-7bGzG81BpyFaAIk60q
+
+!procedure TextFields($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/TextFields', $name, $tech, $desc)
+!endprocedure

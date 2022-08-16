@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2022/Resource/ManagementGovernance/AwsCloudFormationTemplate
+
+sprite $AwsCloudFormationTemplateXs [10x10/16z] Oy01kE4CJXYBWmqX2mHe6XZX0d0f9WXW
+
+sprite $AwsCloudFormationTemplateSm [12x12/16z] Oq01p8mGm0naCt9mCJ60Q32RWOaR21YXVBWuEpV9QZY005qD5mmm
+
+sprite $AwsCloudFormationTemplateMd [16x16/16z] VOk30G0n300RQ_zvtqQl2A-zY3o9kRxEbkSOztewDRFL072Tltt9ha-gVT_VliziDPjrVCqJRIC
+
+sprite $AwsCloudFormationTemplateLg [20x20/16z] ZOq50e0m30FJpiBo__VYxWUpsk4U7HbZ1NlAl2Uod6C4T1lJo1hBKdEiktT4CfzZDBjrsDbHwo-7kVjV1pYonegaRmTz3yUO7m4w
+
+!procedure AwsCloudFormationTemplate($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ManagementGovernance/AwsCloudFormationTemplate', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsCloudFormationTemplateCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCloudFormationTemplateLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsCloudFormationTemplateGroup($id, $name='Aws Cloud Formation Template', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsCloudFormationTemplateLg>', $name, $tech)
+!endprocedure

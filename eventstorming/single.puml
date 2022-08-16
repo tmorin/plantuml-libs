@@ -1,0 +1,455 @@
+
+
+
+' by default the inclusion mode is remote
+!if (%not(%variable_exists("$INCLUSION_MODE")))
+    !global $INCLUSION_MODE="remote"
+!endif
+
+!if ($INCLUSION_MODE == "remote")
+    !if (%not(%variable_exists("$LIB_BASE_LOCATION")))
+        !global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+    !endif
+!else
+    !if (%not(%variable_exists("$LIB_BASE_LOCATION")))
+        !global $LIB_BASE_LOCATION="."
+    !endif
+!endif
+
+!if (%not(%variable_exists("$IMAGE_BASE_PATH"))) && (%variable_exists("$LIB_BASE_LOCATION"))
+    !global $IMAGE_BASE_PATH=$LIB_BASE_LOCATION + "/"
+!endif
+
+' constants
+
+!global $ICON_FORMAT="png"
+!global $TEXT_WIDTH_MAX=200
+!global $MSG_WIDTH_MAX=150
+!global $FONT_SIZE_XS=10
+!global $FONT_SIZE_SM=12
+!global $FONT_SIZE_MD=16
+!global $FONT_SIZE_LG=20
+!global $FONT_COLOR="#212121"
+!global $FONT_COLOR_LIGHT="#757575"
+
+
+' Styles
+
+hide stereotype
+skinparam wrapWidth $TEXT_WIDTH_MAX
+skinparam maxMessageSize $MSG_WIDTH_MAX
+skinparam DefaultFontSize $FONT_SIZE_SM
+skinparam DefaultFontColor $FONT_COLOR
+
+
+' Title
+
+!procedure Title($title="", $subtitle="", $version="", $date="")
+    !$s="$title"
+    !$s_d="Last modified: " + %date("yyyy-MM-dd'T'HH:mm:ss")
+    !$s_v=""
+    !if ($date != "")
+        !$s_d="Last modified: " + $date
+    !endif
+    !if ($version != "")
+        !$s_v=" | version: " + $version
+    !endif
+    !$s=$s_d + $s_v
+    left header
+    !if ($title != "")
+        <color:$FONT_COLOR><size:$FONT_SIZE_LG>$title</size></color>
+    !endif
+    !if ($subtitle)
+        <color:$FONT_COLOR><size:$FONT_SIZE_MD>$subtitle</size></color>
+    !endif
+        <color:$FONT_COLOR_LIGHT><size:$FONT_SIZE_XS>$s</size></color>
+    end header
+!endprocedure
+
+
+' getIcon()
+
+!function getIcon($name)
+    !return $IMAGE_BASE_PATH/$name.$ICON_FORMAT
+!endfunction
+
+
+' include()
+
+!procedure include($resource)
+    !include $LIB_BASE_LOCATION/$resource.puml
+!endprocedure
+
+
+' Relationship
+
+!procedure Relationship($label="", $tech="")
+    !if ($label != '' && $tech != '')
+        $label\n<size:$FONT_SIZE_XS><color:$FONT_COLOR_LIGHT>[$tech]</color></size>
+    !elseif ($label != '')
+        $label
+    !else
+        <size:$FONT_SIZE_XS><color:$FONT_COLOR_LIGHT>[$tech]</color></size>
+    !endif
+!endprocedure
+
+
+' IconElement
+
+!procedure IconElement($id, $stereotype, $icon, $name="", $tech="", $desc="")
+    !local $H="<img:" + getIcon($icon)+ ">"
+    !if ($name != "")
+        !$H=$H + "\n" + $name
+    !endif
+    !if ($tech != "")
+        !$H=$H + "\n" + "<size:" + $FONT_SIZE_XS + "><color:" + $FONT_COLOR_LIGHT + ">[" + $tech + "]</color></size>"
+    !endif
+    !if ($desc != "")
+        !$H=$H + "\n\n" + $desc
+    !endif
+    card $id <<$stereotype>> as "$H"
+!endprocedure
+
+
+' IconCardElement
+
+!procedure IconCardElement($id, $stereotype, $sprite, $techName="", $funcName="", $content="")
+    !local $V=""
+    !local $H=""
+    !local $S="<color:" + $FONT_COLOR + ">" + $sprite + " </color>"
+    !local $F=""
+    !if ($techName != "") && ($funcName != "")
+        !$ST="<size:" + $FONT_SIZE_MD + ">" + "<color:" + $FONT_COLOR_LIGHT + ">" + $techName + "</color>" + "</size>"
+        !$T="<size:" + $FONT_SIZE_MD + ">" + "<color:" + $FONT_COLOR + ">" + $funcName + "</color>" + "</size>"
+        !$H=$T + "\l" + $S + $ST
+        !$V=$V + $H
+    !elseif ($techName != "")
+        !$ST="<size:" + $FONT_SIZE_MD + ">" + "<color:" + $FONT_COLOR_LIGHT + ">" + $techName + "</color>" + "</size>"
+        !$H=$S + $ST
+        !$V=$V + $H
+    !elseif ($funcName != "")
+        !$T="<size:" + $FONT_SIZE_MD + ">" + "<color:" + $FONT_COLOR + ">" + $funcName + "</color>" + "</size>"
+        !$H=$S + $T
+        !$V=$V + $H
+    !endif
+    !if ($H != "") && ($content != "")
+        !$F="\n----\n" + $content
+        !$V=$V + $F
+    !elseif ($content != "")
+        !$F=$content
+        !$V=$S + "\n" + $F
+    !endif
+    Rectangle $id <<$stereotype>> as "$V"
+!endprocedure
+
+
+' IconGroupElement
+
+!procedure IconGroupElement($id, $stereotype, $sprite, $name="", $tech="")
+    !local $V=$sprite + " "
+    !if ($name != "") && ($tech != "")
+        !$V=$V + $name + "\n" + "<size:" + $FONT_SIZE_XS + "><color:" + $FONT_COLOR_LIGHT + ">[" + $tech + "]</color></size>"
+    !elseif ($name != "")
+        !$V=$V + $name
+    !elseif ($tech != "")
+        !$V=$V + "<size:" + $FONT_SIZE_XS + "><color:" + $FONT_COLOR_LIGHT + ">[" + $tech + "]</color></size>"
+    !endif
+    Rectangle $id <<$stereotype>> as "$V"
+!endprocedure
+
+
+' GroupElement
+
+!procedure GroupElement($id, $stereotype, $name="", $tech="")
+    !local $V=""
+    !if ($name != "") && ($tech != "")
+        !$V=$V + $name + "\n" + "<size:" + $FONT_SIZE_XS + "><color:" + $FONT_COLOR_LIGHT + ">[" + $tech + "]</color></size>"
+    !elseif ($name != "")
+        !$V=$V + $name
+    !elseif ($tech != "")
+        !$V=$V + "<size:" + $FONT_SIZE_XS + "><color:" + $FONT_COLOR_LIGHT + ">[" + $tech + "]</color></size>"
+    !endif
+    !if ($V != "")
+        Rectangle $id <<$stereotype>> as "$V"
+    !else
+        Rectangle $id <<$stereotype>>
+    !endif
+!endprocedure
+
+
+
+
+!procedure EsEntity($shape, $stereotype, $id, $label="")
+  !if ($label != "")
+    $shape "$label" as $id <<$stereotype>>
+  !else
+    $shape $id <<$stereotype>>
+  !endif
+!endprocedure
+
+show stereotype
+
+skinparam defaultTextAlignment center
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam Arrow {
+    Color $FONT_COLOR
+    FontColor $FONT_COLOR
+    FontSize $FONT_SIZE_SM
+}
+
+
+
+' definition of the Item eventstorming/Element/FacadeCommand
+
+
+skinparam file<<FacadeCommand>> {
+    StereotypeFontSize $FONT_SIZE_SM
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor #779fae
+}
+
+!procedure FacadeCommand($id, $label="")
+  EsEntity('file', 'FacadeCommand', $id, $label)
+!endprocedure
+' definition of the Item eventstorming/Element/Command
+
+
+skinparam file<<Command>> {
+    StereotypeFontSize $FONT_SIZE_SM
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor #aec6cf
+}
+
+!procedure Command($id, $label="")
+  EsEntity('file', 'Command', $id, $label)
+!endprocedure
+' definition of the Item eventstorming/Element/Result
+
+
+skinparam file<<Result>> {
+    StereotypeFontSize $FONT_SIZE_SM
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor #cfcfc4
+}
+
+!procedure Result($id, $label="")
+  EsEntity('file', 'Result', $id, $label)
+!endprocedure
+' definition of the Item eventstorming/Element/Event
+
+
+skinparam file<<Event>> {
+    StereotypeFontSize $FONT_SIZE_SM
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor #ffb853
+}
+
+!procedure Event($id, $label="")
+  EsEntity('file', 'Event', $id, $label)
+!endprocedure
+' definition of the Item eventstorming/Element/DomainEvent
+
+
+skinparam file<<DomainEvent>> {
+    StereotypeFontSize $FONT_SIZE_SM
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor #ffcb81
+}
+
+!procedure DomainEvent($id, $label="")
+  EsEntity('file', 'DomainEvent', $id, $label)
+!endprocedure
+' definition of the Item eventstorming/Element/IntegrationEvent
+
+
+skinparam file<<IntegrationEvent>> {
+    StereotypeFontSize $FONT_SIZE_SM
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor #ffdeaf
+}
+
+!procedure IntegrationEvent($id, $label="")
+  EsEntity('file', 'IntegrationEvent', $id, $label)
+!endprocedure
+' definition of the Item eventstorming/Element/Query
+
+
+skinparam file<<Query>> {
+    StereotypeFontSize $FONT_SIZE_SM
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor #62d862
+}
+
+!procedure Query($id, $label="")
+  EsEntity('file', 'Query', $id, $label)
+!endprocedure
+' definition of the Item eventstorming/Element/ReadModel
+
+
+skinparam file<<ReadModel>> {
+    StereotypeFontSize $FONT_SIZE_SM
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor #77dd77
+}
+
+!procedure ReadModel($id, $label="")
+  EsEntity('file', 'ReadModel', $id, $label)
+!endprocedure
+' definition of the Item eventstorming/Element/UserInterface
+
+
+skinparam file<<UserInterface>> {
+    StereotypeFontSize $FONT_SIZE_SM
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor #a2e8a2
+}
+
+!procedure UserInterface($id, $label="")
+  EsEntity('file', 'UserInterface', $id, $label)
+!endprocedure
+' definition of the Item eventstorming/Element/Aggregate
+
+
+skinparam file<<Aggregate>> {
+    StereotypeFontSize $FONT_SIZE_SM
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor #fdfd9d
+}
+
+!procedure Aggregate($id, $label="")
+  EsEntity('file', 'Aggregate', $id, $label)
+!endprocedure
+' definition of the Item eventstorming/Element/Service
+
+
+skinparam file<<Service>> {
+    StereotypeFontSize $FONT_SIZE_SM
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor #fcfc78
+}
+
+!procedure Service($id, $label="")
+  EsEntity('file', 'Service', $id, $label)
+!endprocedure
+' definition of the Item eventstorming/Element/Policy
+
+
+skinparam file<<Policy>> {
+    StereotypeFontSize $FONT_SIZE_SM
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor #b6a2db
+}
+
+!procedure Policy($id, $label="")
+  EsEntity('file', 'Policy', $id, $label)
+!endprocedure
+' definition of the Item eventstorming/Element/Saga
+
+
+skinparam file<<Saga>> {
+    StereotypeFontSize $FONT_SIZE_SM
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor #c9bbe5
+}
+
+!procedure Saga($id, $label="")
+  EsEntity('file', 'Saga', $id, $label)
+!endprocedure
+' definition of the Item eventstorming/Element/Process
+
+
+skinparam file<<Process>> {
+    StereotypeFontSize $FONT_SIZE_SM
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor #ddd4ee
+}
+
+!procedure Process($id, $label="")
+  EsEntity('file', 'Process', $id, $label)
+!endprocedure
+' definition of the Item eventstorming/Element/Timer
+
+
+skinparam file<<Timer>> {
+    StereotypeFontSize $FONT_SIZE_SM
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor #cfcfc4
+}
+
+!procedure Timer($id, $label="")
+  EsEntity('file', 'Timer', $id, $label)
+!endprocedure
+' definition of the Item eventstorming/Element/Person
+
+
+skinparam actor<<Person>> {
+    StereotypeFontSize 0
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor #ffd1dc
+}
+
+!procedure Person($id, $label="")
+  EsEntity('actor', 'Person', $id, $label)
+!endprocedure
+' definition of the Item eventstorming/Element/System
+
+
+skinparam file<<System>> {
+    StereotypeFontSize $FONT_SIZE_SM
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor #ffd1dc
+}
+
+!procedure System($id, $label="")
+  EsEntity('file', 'System', $id, $label)
+!endprocedure
+' definition of the Item eventstorming/Element/Comment
+
+
+skinparam file<<Comment>> {
+    StereotypeFontSize $FONT_SIZE_SM
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor transparent
+}
+
+!procedure Comment($id, $label="")
+  EsEntity('file', 'Comment', $id, $label)
+!endprocedure

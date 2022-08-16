@@ -1,0 +1,52 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION=".."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('eventstorming/bootstrap')
+
+' include elements
+include('eventstorming/Element/FacadeCommand')
+include('eventstorming/Element/Command')
+include('eventstorming/Element/Result')
+include('eventstorming/Element/Event')
+include('eventstorming/Element/DomainEvent')
+include('eventstorming/Element/IntegrationEvent')
+include('eventstorming/Element/Query')
+include('eventstorming/Element/ReadModel')
+include('eventstorming/Element/UserInterface')
+include('eventstorming/Element/Aggregate')
+include('eventstorming/Element/Service')
+include('eventstorming/Element/Policy')
+include('eventstorming/Element/Saga')
+include('eventstorming/Element/Process')
+include('eventstorming/Element/Timer')
+include('eventstorming/Element/Person')
+include('eventstorming/Element/System')
+include('eventstorming/Element/Comment')
+
+' display elements
+FacadeCommand('FacadeCommand')
+Command('Command')
+Result('Result')
+Event('Event')
+DomainEvent('DomainEvent')
+IntegrationEvent('IntegrationEvent')
+Query('Query')
+ReadModel('ReadModel')
+UserInterface('UserInterface')
+Aggregate('Aggregate')
+Service('Service')
+Policy('Policy')
+Saga('Saga')
+Process('Process')
+Timer('Timer')
+Person('Person')
+System('System')
+Comment('Comment')
+
+@enduml

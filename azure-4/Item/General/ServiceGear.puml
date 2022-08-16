@@ -1,0 +1,24 @@
+' definition of the Item azure-4/Item/General/ServiceGear
+
+sprite $ServiceGearXs [10x10/16z] LSU50S0W34HHYEq_SazgV2GlwsYtPpjfFrg11Ph1vGC3QW1RuKbkAOqB
+
+sprite $ServiceGearSm [12x12/16z] NOk72G1H349DqVr7Fls4TWzILVmPta8MIR2p7-EzQ8zvNc9Tj4bIkzO5k9JQ-EL0FaR72-UvM8JO43u
+
+sprite $ServiceGearMd [16x16/16z] ROo50O0m4CHgkVqtHjxGGDkyjd-Wbm-BgH0MGVJoYaVti6TiFOCLtNRXgWExv3gunRPGciTHvtWzDa4L5nPRgpIwQ8dSYwMG7G
+
+sprite $ServiceGearLg [20x20/16z] {
+VSo75S10209GFCNzHquWlVvKV9puGoPkWkGvgi5PwBETEYj8yWnxCUCvEpQSHaCvOjb7yKxbvTs2QdEg9I5Rt600YEwnrZa_fXn8bjeyPbtg2unzDcwpTCyA
+WEETrjzb1LOJ
+}
+
+!procedure ServiceGear($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceGear', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceGearCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceGearLg>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceGearGroup($id, $name='Service Gear', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceGearLg>', $name, $tech)
+!endprocedure

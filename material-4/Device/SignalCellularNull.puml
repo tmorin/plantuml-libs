@@ -1,0 +1,13 @@
+' definition of the Item material-4/Device/SignalCellularNull
+
+sprite $SignalCellularNullXs [10x10/16z] Oy04t3067m-CmGvbyRCny415620iVY03pE9ZOm2nm58G5ZSF1702
+
+sprite $SignalCellularNullSm [12x12/16z] RSQr0S1030ImirlJ_jCcpwnAUADPuzaODzL-L_Ix8RsttnJzgVqMMWI3kCCF
+
+sprite $SignalCellularNullMd [16x16/16z] bSUt0S0m30D1oA4aiV-qpk75JjUTXcJVSAdxBdowpMQbu-Xv53_BXyM76nzUvjjwFWsgTW
+
+sprite $SignalCellularNullLg [20x20/16z] dSgv4O00509H4c-5_hjr2E4RkU6RnU-kISyzY1hsQ1YrjJtQK2QjiDLLHfCjhpAPqdoLKIlAV9NHbFOeibrtTk2h5m
+
+!procedure SignalCellularNull($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Device/SignalCellularNull', $name, $tech, $desc)
+!endprocedure

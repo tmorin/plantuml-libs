@@ -1,0 +1,19 @@
+' definition of the Item material-4/Action/GTranslate
+
+sprite $GTranslateXs [10x10/16z] Oq00VY20ic200IZ0n08I0I9UNh0OI9eDA0E680v85g6U7wO8OH8
+
+sprite $GTranslateSm [12x12/16z] JOs50G0W20Inszz_MZiufOiu64Jc8q_Ky8t3pevN8f9RlYxG6hLM1R8H4A2uUymSSij7gHWiVqDb-58DPfh03tO
+
+sprite $GTranslateMd [16x16/16z] {
+NSm50e0W04FHqStkVrk7hS_y5FuwbwUvIz--EVK8ePyRmW0pl0SZhDggCOuJPaf1FS2rcDwNvDGJ5321ntfZvZI6hE5eEi1HSFQfqdnwAdJxlWpD7-jFf9NQ
+SUfZwTW
+}
+
+sprite $GTranslateLg [20x20/16z] {
+RStL0S0W00FHu52x_QUjExpF2w8MDqwRyTqc3gsMmya-xM6trWTVdikajJcjBFxLaWgCC0fpDNaOLnoEbk3OZS6RwzmgYa6EysvMWM5Rx6IVVpUiigv67qDX
+Pw_s2BYw-N5luTtEzou1YdvDNDpJOZfuBG
+}
+
+!procedure GTranslate($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/GTranslate', $name, $tech, $desc)
+!endprocedure

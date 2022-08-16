@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2022/Resource/Analytics/AwsDataExchangeForApIs
+
+sprite $AwsDataExchangeForApIsXs [10x10/16z] Oq00RZGM0h31Q3YB0OF53WISM4rZ0m
+
+sprite $AwsDataExchangeForApIsSm [12x12/16z] Oq0674XiRaOO0F5OEK00MHKZZCsDO3CZYxCXs0Zr370J6JXXW1jXAJC3
+
+sprite $AwsDataExchangeForApIsMd [16x16/16z] VOl50S0m54BXrvlzvusxlHEAWR-rwgju0Rx3ute3oKT1RhnglHhwtPyUIHuCME5DuISQVcczm
+
+sprite $AwsDataExchangeForApIsLg [20x20/16z] XSt50GGX44JHZqlb7-_gEFOkq4wNCMrADBBo7O0iFI7lE1pVQDQv69jSp6sVQ7D6RGxC-cxQ5CF1xC3IyW9olLFRcICzRm
+
+!procedure AwsDataExchangeForApIs($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Analytics/AwsDataExchangeForApIs', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsDataExchangeForApIsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsDataExchangeForApIsLg>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AwsDataExchangeForApIsGroup($id, $name='Aws Data Exchange For Ap Is', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AwsDataExchangeForApIsLg>', $name, $tech)
+!endprocedure

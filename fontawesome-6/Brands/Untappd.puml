@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Untappd
+
+sprite $UntappdXs [12x10/16z] DSd70SC030904lTw-q_hhlj8G6vjrXIzbB-K7nLMVlnoG_2zMo3PaGHjhN-4EJUS
+
+sprite $UntappdSm [15x12/16z] LSc54O000CF0u4xsdnQ77ZdzbgiPUfBTAkal5YqZjN29xcwjwgZQdIhluxrL2nYppkyySu-lMLzHQRi3
+
+sprite $UntappdMd [20x16/16z] NSk53O1050JHmPtflrko2NRt8b-NsmxC56PNb9B3wKhbL2g7pYs5GssBSAlQgyB3Q5GFRgU1CK5CnlIS29-G1aNN6YjiHaCy_NCZD31ugEwWmcFKWmi
+
+sprite $UntappdLg [25x20/16z] {
+RSxLOK0X5C3GF5V8_jDMe8AT7-GgVrw0aqxq0jrfJOfABqnHPmQYHWQ2kip3VEFgGMttswHAQVLRo64A9dl8yR9_ChqcVtCkayXaHb8-pofYjXTDx-8UggmP
+rhhlObQcPC7amUJYps_WA1eLImAxIkdK09y
+}
+
+!procedure Untappd($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Untappd', $name, $tech, $desc)
+!endprocedure

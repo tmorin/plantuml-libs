@@ -1,0 +1,19 @@
+' definition of the Item material-4/Content/AddCircleOutline
+
+sprite $AddCircleOutlineXs [10x10/16z] LKY30G0n4CkZHlQVjkPTZEl8qDonbhVAHkFx5sKv2OVOD_4saqtnyOKWsWd_5iq
+
+sprite $AddCircleOutlineSm [12x12/16z] NKY54S0m4A9nP_zjUt7vn_6UYsQaJAS2ROknBTHLDfqTkNn84go79612tMz-rLq1Qlog6PR45jieclq
+
+sprite $AddCircleOutlineMd [16x16/16z] {
+ROg50KCn24InxuJRVzi6gBSl0YVq7-PtvKYsknA4pR5ZjCRLazlmg4uPch4zDFb8SoenY32jw0I5aw7pHt_B7zjJn_amsUUtWCkD72btAWPyqIrIDXe0BgO_
+t
+}
+
+sprite $AddCircleOutlineLg [20x20/16z] {
+bSo5aKKn3CLGnNaSKF_LBdcP_nc-rfZR7AgZycRNsTlG6P2QnaiTBrM355e0q6mAKFD-P9yRNG0dxxPm0Mnm74VtF8uAde0NQDeomGwbbDCe1N07fk__hGQm
+kB_Rp68QGDq0pWoepaew7QIgFO3LrmbAC-syjrxz27vs3m
+}
+
+!procedure AddCircleOutline($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/AddCircleOutline', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/FaceSmileBeam
+
+sprite $FaceSmileBeamXs [10x10/16z] HSR50O0000IWirlsdzOENkGmQ7C2XZSqeMPS65YYg_YrNg4jrY0384dpP0S
+
+sprite $FaceSmileBeamSm [12x12/16z] LSo30SG044JHESHu_LSRyw-PbKwT7JjtYZjb26qwdw0ZelRpedQJ_SPfFlcXkf-EMHZOkpC
+
+sprite $FaceSmileBeamMd [16x16/16z] PO_50GDH24HdlplzTni6uliEkCB8M-Q55rkS2aFU77S_B2_-S84I5qMWcSt5eEXgirpra4fzPyel5tkyC5B0HDWoGV-WYDA0Qrdczw02PNsxvFhwvW4
+
+sprite $FaceSmileBeamLg [20x20/16z] {
+PSw55S0W30JGmpLa_sahzwhmgq0CbpAqHtm4lOZ1HJ_Aj4MLMvF0MfChpFDJ8USdWriiqG1mip1Q55rjKkVEvU1O_17-qQhhAkeAvwkXVqOI2ADX-iZNi1Q6
+Nx60oKe0obpjLFNBWi8SHQp4ggST
+}
+
+!procedure FaceSmileBeam($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FaceSmileBeam', $name, $tech, $desc)
+!endprocedure

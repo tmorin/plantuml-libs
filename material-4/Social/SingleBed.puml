@@ -1,0 +1,13 @@
+' definition of the Item material-4/Social/SingleBed
+
+sprite $SingleBedXs [10x10/16z] Oy0Es3WvEHd1B7uGXB2OWH3CO08141E8eIGxBniR6pyRLiC
+
+sprite $SingleBedSm [12x12/16z] Oo0ESF2302EOpSFCmC_0mm9cy_FoylFoyu25MPb002ZB09E5iFaX0CHcu0CHZ1ouBG8
+
+sprite $SingleBedMd [16x16/16z] dSt50O1G30FGu9PFzfyM2ptXl5Ez-2ClLbcahImA9781Ai_pGS45LRcHpcClyhIJSofn9NNOZ7xSjFXk1W
+
+sprite $SingleBedLg [20x20/16z] jSs53G0X40H0t67xhnQts7-CYLtEbZoXx41Fos0vpO3MfqH2_FGuTn1SGyuEmoMCdeHaIy3gdI_VlTlCq8YgqqYAJ8clmf072W
+
+!procedure SingleBed($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/SingleBed', $name, $tech, $desc)
+!endprocedure

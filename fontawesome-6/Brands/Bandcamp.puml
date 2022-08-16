@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Bandcamp
+
+sprite $BandcampXs [10x10/16z] NOkr0G0W0CEAZkJ_Qt7FL5N3gHDeL16xQ995Kwg0WzG5WYhiKFz5bIaA
+
+sprite $BandcampSm [12x12/16z] HOg53G0n548vrvRzfwsGBo-2GcmmAYVtj3IAMcDL_GmAAM_NpUn3zKMrV88xBL3CdlEwUji1
+
+sprite $BandcampMd [16x16/16z] LSx50O00243HRxViFwr5-cuqgAOZjV8vBJp43HQ6rfe3oC-YyGHegVdYB-pbqSLUj1Bb8U8koy8fLQ_v47CHrWynYpyFDm
+
+sprite $BandcampLg [20x20/16z] {
+NSw50OKm54FHuCxTVzel2Tg3jdscKzNeRSRsUx_ZffXuglNJ4yz82flB5oeHLQp096nLUABgZBUTloR3oYfCUSVss9jaDRQwn194fuQI90gzoatMb2wsOdic
+dgff1zPEzWK
+}
+
+!procedure Bandcamp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Bandcamp', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/BrazilianRealSign
+
+sprite $BrazilianRealSignXs [10x10/16z] HOQ55G0X08MuJcN_RNtsJsXw22fmYnBoPe48DCghuvIi_4uA-JnV41P9
+
+sprite $BrazilianRealSignSm [12x12/16z] DSh5OS00000XufxRVzfwUUFVnLPjqAxkjvT-CASO2kb1CUNie1-yjLSTuAgK7vKbUfqLxOQVkhD1cqy
+
+sprite $BrazilianRealSignMd [16x16/16z] HSZ50GGn5CDG3ME--gzs8QYJds7qh414F9GKp4MXhhhDgoQmDWFAuGiJnKbI7jKXfs_tfA3kO6cZJ0Q1o7jL6CVCSChUJ71xivYDKhPdEC4hmACJC5Bu0W
+
+sprite $BrazilianRealSignLg [20x20/16z] {
+PP250SGW5CLIzsR_QKyexpHuyCytsmBGFMW92XmM3WfpwHaWWyciNg9SwefTQNG66gfhb4ufVBZsnysQVjfM3rZKimT3SwrM-LJ0e6vLGRWCQ4zeZ3l_t93B
+9vgpElJ8YiyOG5qpCxe2Q0xZZ-Bk
+}
+
+!procedure BrazilianRealSign($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BrazilianRealSign', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Gratipay
+
+sprite $GratipayXs [9x10/16z] 9Sa50S1030F0_fZFlzfH2i5wfzK_O0zZBXe3A-aHCVuAXHDgHVev_
+
+sprite $GratipaySm [11x12/16z] LOk50S0m40AlxcN_QUFs5ta1YCmKbEYTr3jzeLtvBXufN2ABIPpXtV37JLfFIctbfFO_WJTsEtW
+
+sprite $GratipayMd [15x16/16z] JOw50SH03CFyMAxsdxOKr67OCjul9GiF7xC8DhU2LLffl0JiUlkFBo3ZTvTNomMd9fWhBEmUfAsPlBukv4z3aLMgbsvbq_d-dG
+
+sprite $GratipayLg [19x20/16z] {
+NSu50e0W00F0qSt-_rgJFgLhwAJ0IXP-8hhAmOoPAU31dGOC3m1VHf8i8lBXmOS242o0RoxmCI8vFkfuvdXSuXFvolpW9Van_9GbOMyjKFfgwMjst2kugptB
+X9VbC59BTWM3IYHh47ZT
+}
+
+!procedure Gratipay($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Gratipay', $name, $tech, $desc)
+!endprocedure

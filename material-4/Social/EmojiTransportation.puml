@@ -1,0 +1,16 @@
+' definition of the Item material-4/Social/EmojiTransportation
+
+sprite $EmojiTransportationXs [10x10/16z] RKcr0O1048iqUFQV5dYj_YIAzKHCL_KQoFQlzb-DJlddG0mVoNsLrgKzCUS3
+
+sprite $EmojiTransportationSm [12x12/16z] VOg53G0n30DTHYlxR_igH_HNI0pu8Jh7iplQjTVU7J3tzNUIQUm2sA6NNpWmmnzF17RwbC7O1TsCleNY0m
+
+sprite $EmojiTransportationMd [16x16/16z] ZSm54e0m44FHFmaxXkJ-fyMrOpoaNUMFSQCd7Z3oEuxksFO0NB5A4W-PBSouclROWH8hTzVSfDsqnHeXbLLbZuSrxfwOLKxNleYLmqRRknEj1G
+
+sprite $EmojiTransportationLg [20x20/16z] {
+fOr5WWCW3023E_d_Qt6_xBOTV8Z0pw2juEs06WAlOqXVj_S6nW9KsdxzKjOOJkXoSAygMdTdi1oMmYvG13cAERBgKPpObSiqD0FCDyTaSMYR2y6lN8OJltEH
+GWDTQwXBJnAWuoNybmm
+}
+
+!procedure EmojiTransportation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/EmojiTransportation', $name, $tech, $desc)
+!endprocedure

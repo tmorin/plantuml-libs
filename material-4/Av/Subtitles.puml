@@ -1,0 +1,13 @@
+' definition of the Item material-4/Av/Subtitles
+
+sprite $SubtitlesXs [10x10/16z] Oy06-A601SxYGMOnCV4o0G6A650NYE1Xu82A8Ha7
+
+sprite $SubtitlesSm [12x12/16z] TSQ50S0m4090ulAs_xPrR-u5CCGx0iGEVjoJv-XdF7SHauNDFOVP_CM3LpQl1y81TnC
+
+sprite $SubtitlesMd [16x16/16z] Oo0Py2C1RWO69dvaG0wVYOa5Y4601SfdXV9PiQe7EG92CmCn8pyF181ea1md3mAm4FGD
+
+sprite $SubtitlesLg [20x20/16z] Ow0CiB0Y0sQG43yQOC4YnaCBCMuc9YP-NYOeW8XnWGWUc6jnw-NZWW8m2wON160ig3eUA02pm18SQEPH5g
+
+!procedure Subtitles($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/Subtitles', $name, $tech, $desc)
+!endprocedure

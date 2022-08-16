@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/LaptopCode
+
+sprite $LaptopCodeXs [12x10/16z] Oq01_300OiF489YLWGlA1f6C_50s2m-8WQ8UpKG4GEO
+
+sprite $LaptopCodeSm [15x12/16z] NOk50S0W30I_NY2o_xIu7veNxEZ0ff6fefh60nLgewRTn_ISsiTxSPSkzT4GFhT0kW0h4sy
+
+sprite $LaptopCodeMd [20x16/16z] RSt50S0m509Gwd7stxPnVpU-Oa-xtWjFSGJFy3aRooFM3ZIcgrdWC6EDlWQwlcO9x-GuH-3WCzJW8ywSzd_F4vt3fq-lk85TRUC7
+
+sprite $LaptopCodeLg [25x20/16z] ZSx50SGm44FH7pQh_sgNCSPt7P1eMSvc7fIpjK5y3IR-XC610-OZ7oG1Xynfy9hYPRC1TuVSQV2Sx0fvk0TcEret7zGTla8rHsr0KD5ApHK
+
+!procedure LaptopCode($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/LaptopCode', $name, $tech, $desc)
+!endprocedure

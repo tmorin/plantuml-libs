@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Brands/Vimeo
+
+sprite $VimeoXs [8x10/16z] Ou02TdvqmC00GloyG8AP0IG0v3D191XW2X00nWO
+
+sprite $VimeoSm [10x12/16z] RSQ50O1040F1nPtqNotoRdEI47Hguj32y1SmPwfk1jT0lnKuP40lQzoKuNQk5m
+
+sprite $VimeoMd [14x16/16z] VSk30S0m503HgztRVzhQo0k_k6lxKzaR5g52fCjB9u0gAQJsW7jH8Txdi0LN3PHGkG68tDq2ZIe_t9FSZ
+
+sprite $VimeoLg [17x20/16z] dSk50SCm4C10XStQVzeoStF69vxqmvrkSPKAQW7QEMPKZeyczamzq7iG01N87Xsd0Q-9OW_9andw09qN7FYGg5xr3x7sVVEDfmAF3JpQ0W
+
+!procedure Vimeo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Vimeo', $name, $tech, $desc)
+!endprocedure

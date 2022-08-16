@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-7/K/Kaufland
+
+sprite $KauflandXs [10x10/16z] uqS01XZWPm3oW1ZEWek10Bew3eGE3eHU3YHr
+
+sprite $KauflandSm [12x12/16z] uqS630Z0pm0M06446qaSIGqOOD7BZcmE6xAPR20s6n2024OKlG
+
+sprite $KauflandMd [16x16/16z] uqS73AW02n-i34oYyT7aqTIZwYTeFZkwVMpezhEXkuSDXGyH8E0VHW
+
+sprite $KauflandLg [20x20/16z] TSx50S0m34DHbSFQVzeoo_d75x1f1SbLRF1R3dxlCC-j0cv13MfGWneUSsKhLVRJjwDXT8PnD8pEC8w6qTLtKNDIMW
+
+!procedure Kaufland($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/K/Kaufland', $name, $tech, $desc)
+!endprocedure

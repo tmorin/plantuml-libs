@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element AccountBalanceWallet
+include('material-4/Action/AccountBalanceWallet')
+
+' renders the element
+AccountBalanceWallet('AccountBalanceWallet', 'Account Balance Wallet', 'an optional tech label', 'an optional description')
+@enduml

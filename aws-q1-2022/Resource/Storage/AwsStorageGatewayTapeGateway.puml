@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2022/Resource/Storage/AwsStorageGatewayTapeGateway
+
+sprite $AwsStorageGatewayTapeGatewayXs [10x10/16z] NKg30S1038on_y3jM-49Tga0i5T4KteG3XJbSjUozCnfHuPLx2ub4Vm
+
+sprite $AwsStorageGatewayTapeGatewaySm [12x12/16z] XOh50K0n24DV3PBz1_wkfw8nVkLHgke1TIfbXjkJFwXF71imzS0-_MF58BSzU0D2QiG6B4jc1G
+
+sprite $AwsStorageGatewayTapeGatewayMd [16x16/16z] fSUrWGD040Gm7U_qN_2ZsQ6LoRkLgfpRjZyZ_fIByy5Nak7sG3ikdwHYjCkZS9pRWrANbqERrkM6MSCPlVlxtAX6NApwmpS
+
+sprite $AwsStorageGatewayTapeGatewayLg [20x20/16z] {
+hT350GGX50DG-9x-2yPbzJOE3mkaFrUsG5X-4OMCFyCtaRpqtqPtoAEsibnZA1derK97sVaQMUCU6TTMhRrw34dR2ltZhvQcnR7u6Zisdm6yh753cBj7xCms
+CXiHuVMmQLwjM04
+}
+
+!procedure AwsStorageGatewayTapeGateway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AwsStorageGatewayTapeGateway', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsStorageGatewayTapeGatewayCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsStorageGatewayTapeGatewayLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AwsStorageGatewayTapeGatewayGroup($id, $name='Aws Storage Gateway Tape Gateway', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AwsStorageGatewayTapeGatewayLg>', $name, $tech)
+!endprocedure

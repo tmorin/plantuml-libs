@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/Vignette
+
+sprite $VignetteXs [10x10/16z] Oy06-640o684yjb1B8WK1vm5fFcPmGnUa3ekY3ualN
+
+sprite $VignetteSm [12x12/16z] TSY53G0X0CNGVuh3_jFYBesz5ATCArZ_Byr-46B17AdW9rjwg-uR5gc3VKfw1TSakXm
+
+sprite $VignetteMd [16x16/16z] XSV50GGX50MmDuhp-wzs1NTo2tOkRJ85K4Nxo-T-DVsO_mMSm_fBHFv8MFFR_KYNxZRs97Uof-jBxexMXYWz4y1PGkiB
+
+sprite $VignetteLg [20x20/16z] fS-r0GGn44DHBUEC-w_sOC7C_k6B9BIq2hiExDZo6AtJEE-wSOUxHHf1Dhm6hVMs4tgtxHuZdRhRnA0PFQRXfZRlSibZLtoU9B-Hi9in49ljoEqB
+
+!procedure Vignette($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/Vignette', $name, $tech, $desc)
+!endprocedure

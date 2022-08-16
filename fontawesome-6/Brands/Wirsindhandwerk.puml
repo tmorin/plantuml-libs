@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Brands/Wirsindhandwerk
+
+sprite $WirsindhandwerkXs [10x10/16z] Oq00Vdu8nOIBnSFF0cP108W5bWQp6C7gE9aOUA0w615w0G
+
+sprite $WirsindhandwerkSm [12x12/16z] XKh50G0X33jN8FjFYzH_L6DBh1qlVM22LyS017CHfhi9FfTHNyVh_X36EdJ6b2mtuLoM1W
+
+sprite $WirsindhandwerkMd [16x16/16z] dSV50KKX34JHmPtflzglEBjtaUJWgbRVjb8h038qatpgIBrOyLltR5h0BhRubfipMk9d4NmpjVd-72Oldxq1
+
+sprite $WirsindhandwerkLg [20x20/16z] jSv50e0W50JG7nOvzp-j7UJIKUgHr8ogIZeu6W3cDG3odx6fp0COCfjm9l9dQL9JCgczDyV4FDsHrvY-cDCMzijBCCnqlYonQnSAauxLsG
+
+!procedure Wirsindhandwerk($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Wirsindhandwerk', $name, $tech, $desc)
+!endprocedure

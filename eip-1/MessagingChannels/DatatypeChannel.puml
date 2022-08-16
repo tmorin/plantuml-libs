@@ -1,0 +1,17 @@
+' definition of the Item eip-1/MessagingChannels/DatatypeChannel
+
+sprite $DatatypeChannelXs [15x10/16z] fKUr0G0n48Bp_HT-YVGH75p16Uhn1HdVLKKQ5D_txrPCaDZ22m
+
+sprite $DatatypeChannelSm [18x12/16z] hKW50G112CCc_Gk_Iu63UQoxwl_o7AO46ZoqvbhS2la4EwybAEi6bR7iTW
+
+sprite $DatatypeChannelMd [25x16/16z] pSc53S0m50DHEyx7_VSj2GeBD4ywqM5P6cyoN48YfYQWE5AHunekuJcQz6kakrjucdaTUPB49J_QyRCT
+
+sprite $DatatypeChannelLg [31x20/16z] tOtL0G8m30LpUOsn_xwuspzS6pVxQofVg0uxqn2PWJ8JFoWOqBaigSr2PUQAKyAXlvI1kftUk5UE-ygI7_Olw5lvXKPsWNVORxC3
+
+!procedure DatatypeChannel($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingChannels/DatatypeChannel', $name, $tech, $desc)
+!endprocedure
+
+!procedure DatatypeChannelGroup($id, $name='Datatype Channel', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DatatypeChannelLg>', $name, $tech)
+!endprocedure

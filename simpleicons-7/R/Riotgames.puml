@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/R/Riotgames
+
+sprite $RiotgamesXs [10x10/16z] DSY50S102C30rBtPVzft3eVcelkim66sEHI_yS1VbPQnlVvkRQlqlrV6wfe1
+
+sprite $RiotgamesSm [12x12/16z] PSO54e103C30u4x-_rkcCahksYxLjD6jPi1knsNsXWEFNkt0KZx3KtdmZkN3B3w7wCul8xeb_04
+
+sprite $RiotgamesMd [16x16/16z] RSu10e0G30NG1G3S_xR11lW53m0ZYS6It99u0yiZHNoWMezkQ9vJOZ73Re9IQX-BhPMRbg3guk7salgdmshudVRw68RbUFw8hVu1
+
+sprite $RiotgamesLg [20x20/16z] {
+VOw54KCX44GNTwx_RiEIx_PcpXK7KiQ59AGdZPKcEo2g23dcv4o3wSUGgcWv4gWIP25JkQcmJXW-egU7AbAuKitjp6cC5Prp3ElCAR2kbrp6yXxr8kcQAxou
+vEhGVOZZnINtXGnwpT4USbN-H1neCh4uepDF_
+}
+
+!procedure Riotgames($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/R/Riotgames', $name, $tech, $desc)
+!endprocedure

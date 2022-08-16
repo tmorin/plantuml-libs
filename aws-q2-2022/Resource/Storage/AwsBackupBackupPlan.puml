@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2022/Resource/Storage/AwsBackupBackupPlan
+
+sprite $AwsBackupBackupPlanXs [10x10/16z] Oq07d70MAvJ9oC3039TXXgk3Yx53nDY175HPHZ1WOG
+
+sprite $AwsBackupBackupPlanSm [12x12/16z] LOg15G0G448BgFqNzW1ykAl2XzZns6jG_ylToTftG2vzzjUxMdidF7jwEddxgH9FnsDQaue6
+
+sprite $AwsBackupBackupPlanMd [16x16/16z] PKo50G0X4CAusd_WJspCet322UMS-5RbhEdx5H8fM_dUvDrVD0Cmplv-OfkXVVuHVKxR_FTQdxEkVO1OnPZ_9_fCS8u1u0O
+
+sprite $AwsBackupBackupPlanLg [20x20/16z] {
+RSp50OGm54NHxz9_mJD0NDxgSaW2ztdsTOjHEPbhhUXcOANKiXb5b4HKdDyh7zpDA9Ki5ijoDcSZ-efaM5zEPXVBGkYJETUQ3C81C7cs1ymL46ShYxnOTCDf
+KWnftWD_
+}
+
+!procedure AwsBackupBackupPlan($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Storage/AwsBackupBackupPlan', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsBackupBackupPlanCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsBackupBackupPlanLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AwsBackupBackupPlanGroup($id, $name='Aws Backup Backup Plan', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AwsBackupBackupPlanLg>', $name, $tech)
+!endprocedure

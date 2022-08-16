@@ -1,0 +1,13 @@
+' definition of the Item material-4/Editor/Subscript
+
+sprite $SubscriptXs [10x10/16z] Oy0E-1aOkBbWJ7we81kCmS37pyI0AWkYcFbPkE06y2CC0m
+
+sprite $SubscriptSm [12x12/16z] TSUt0O000CCmqJlv_rkcZ6Yo_Pjlt81itbDdZ3eogEHgRf5sM69wC4wOhHCrjS47
+
+sprite $SubscriptMd [16x16/16z] dSsr0GCm34JHRsRV_jE6IKteTSBZ3ruLqEQk2uey3zgeynIqnQkjP3_Ap2Lpt-IeygmLhzljck73kjINhekiW35dvuCZ
+
+sprite $SubscriptLg [20x20/16z] fSx50KGX34NHXpkt_sh71TZ-WskYgspmUWfXsOHdtwZBdcTAxjajEb4JfvM1HDCk0Zf1qs42Lfl0iA0DM1MA5etyEQYrnN_AaWFvKjzxrbizEI-Sqmb8kk0E
+
+!procedure Subscript($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/Subscript', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item material-4/Action/Settings
+
+sprite $SettingsXs [10x10/16z] LSUt0G0X581GBaTr_saD_CfN0PCteOLINgi42pOhkwkxyXStW7qHbXMW0G
+
+sprite $SettingsSm [12x12/16z] NOg50O0m40DnXzj_MqYeN-K_qhMCOvzsUFvbVMvWHn70gU_RR_-mk7rwzwhHm-tTU1-t1HXK538RNW
+
+sprite $SettingsMd [16x16/16z] ZOw50KGn2CKeTIFxRtkkNrF5dvn2WMyxVzjcbHkLV3CZ7sxsxPsF5gIReyCpBygDzB3rsT81UdqhZ5SzKUkhNl_wIozgGDFkvKdyq-lCJ5Qv
+
+sprite $SettingsLg [20x20/16z] {
+bP3L0GCm24G9SRtzfwtGGDtUr-52VzBcd8y-d0Wtjjk-HWPZ5GYZOpSOKAm1Yrmfr8kGlANAdts5r9bKH39VqCvCf2LLb-pc0jWM42U4AHvDBBZ5xHd5DR5Z
+wENX1_d5N_o3pp4pVU08
+}
+
+!procedure Settings($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Settings', $name, $tech, $desc)
+!endprocedure

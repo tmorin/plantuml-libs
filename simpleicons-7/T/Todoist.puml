@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/T/Todoist
+
+sprite $TodoistXs [10x10/16z] DSUt0SD0002XivKZ-s-hwZle1Lm3upD2G2qwqAE09rkm980JS07u
+
+sprite $TodoistSm [12x12/16z] ROo30S105CLIks__QOkpyarEUUQGHkwGhHpwODB5udexQBCVc3yRmouws5t_3lq5r61EyXS
+
+sprite $TodoistMd [16x16/16z] XSt50GGn3C10BOKJzL_jCUEyp2Ruw9B-DsOVpKHFo6fayg91Wkx6y2nIh5nJKA4_N8BW04yMdNMwdXUoWKKV7Z1yrFq1d-q1
+
+sprite $TodoistLg [20x20/16z] {
+bSx50SDG3C1GXVF9sd_QCdFVpMpwy5wXzqc4_ogCtgiTWoSqzphm0hfmWgHJkwu19bqF-ODLfpuit7mAJGMyYewkXspqDvqD5bqWUyAachbzU88YuAteWUA3
+blsk-8pmKTe2
+}
+
+!procedure Todoist($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/T/Todoist', $name, $tech, $desc)
+!endprocedure
