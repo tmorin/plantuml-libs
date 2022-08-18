@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/C/Canva
+
+sprite $CanvaXs [10x10/16z] FSR50S0W0C30rBtPVreSxdKabpkPnTMZ6tQNv-RmJgAxanLsN3smjKG
+
+sprite $CanvaSm [12x12/16z] JOo30G0n5CLUxMR_QSzelgcJHjODDqiAIyeGfCPDmp9vCSHWgAwGSMLK1eSJ7skU_gTJ1-FjxW
+
+sprite $CanvaMd [16x16/16z] LS_50G0X30311FVjlzfpWNaXKP6JxrILL-SMxokViLwXdS4p5I1NFXuSogSpylzrQi1eQgpO39NXYTxY7Cw0iX8MGyBwlGuKvD3cwqcdRNO
+
+sprite $CanvaLg [20x20/16z] {
+PSt50GGn40D1cTcTVxI7owxVeBGfanvr4TWCemqNPMr1NLiGjbyt4eii8FS-RpdGC_S74on0OtI6fMu_WTYdyLGv1dGmq9pYT2dYF101upWD48kXmPELuKbI
+MLjIVLp-XFlM9c-9_wKt
+}
+
+!procedure Canva($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/C/Canva', $name, $tech, $desc)
+!endprocedure

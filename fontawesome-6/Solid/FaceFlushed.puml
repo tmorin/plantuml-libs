@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/FaceFlushed
+
+sprite $FaceFlushedXs [10x10/16z] DOY50O1G20NFzWVS_jFQmck0uifzgbh-e0kA9bhaUmM4wkf_g9cfKlu9bY-S
+
+sprite $FaceFlushedSm [12x12/16z] NSZ50G8100InuCxqNotEMJuhuDBHLr_6MiRQJN5jGrtQhk-IUtLd6-hOoAAVK1sehplSwli-0G
+
+sprite $FaceFlushedMd [16x16/16z] LS-50SGW5C3GrBtPVzeJd8Sxds1vl0QoHuEDmEBjXtgdpSM02dEf5nqOEINKFieeYs3Oe1FmEWEFNker6-fN7UnXvsLL1GWxwJ-q0jpzCEmiqNm1
+
+sprite $FaceFlushedLg [20x20/16z] {
+PSY55S8030N0N_VU_jloWaCldZmjfttCby7JqUJ9b-NwOhs-69B1lmJ6z70cE-OWXRt6XeKpZIQxDfi49qUQkkj_9YWfR3LMxD2dXRN90gEhk3XoKCv2QTCy
+PzcK98jVAQjlRL867tcRAKURSWC
+}
+
+!procedure FaceFlushed($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FaceFlushed', $name, $tech, $desc)
+!endprocedure

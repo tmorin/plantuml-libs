@@ -1,0 +1,19 @@
+' definition of the Item material-4/Maps/MyLocation
+
+sprite $MyLocationXs [10x10/16z] Oq05_32QZvsV7ox0p0ia-1ZuWK90FZyxX0LaWaYWE4WT4v3WOMS0AGJASY2R1m
+
+sprite $MyLocationSm [12x12/16z] NSr5OS00002nbBddt-q-unW8_-NBKnr0AwuNtjLy3Pu5MIf3bBiQ5HagOpXF9XhXlHaxWRKQ_xqV
+
+sprite $MyLocationMd [16x16/16z] {
+ROs55SCm44DbIcBy-s_RgWoHIVHyEaVYMpRsy58HrbYCb-ptPzqrbj6aFRzgG5J1GPyIu3Of28OIXkrhTZZ0DE2PlXDEAZBcOqwYtCaYoscxo_iudBwG2Vf4
+c0zo0G
+}
+
+sprite $MyLocationLg [20x20/16z] {
+VSW76eGW30NX2QWK9U_-jrs1xUsdPBxmJtRZNT7RpgfEll6mILxIBiaUAuzqISvazoAgCLG5IAuZpExaaDH1K0PIxaD30dcE-CoXZ4YOgK9Jju9s0t11qCbX
+KQ9Bsi1oNO4c9Yam7KfCvYe6B4sLEzUKUHABQq_6gopZNKpSN
+}
+
+!procedure MyLocation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/MyLocation', $name, $tech, $desc)
+!endprocedure

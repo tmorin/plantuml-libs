@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/DeveloperPortal
+
+sprite $DeveloperPortalXs [10x10/16z] Oy05MA4q2mESmSp6m012G00Yc81YO04ca3Gx8mCh8tQZ
+
+sprite $DeveloperPortalSm [12x12/16z] ZSYr0S105CDG1Rxj_HSED-5xdKIZSgNdIg0gw66GL6Z1rgMEmx2VNM8-p
+
+sprite $DeveloperPortalMd [16x16/16z] hOp50O103C1Ix_uBu_O5BdLb1DePLO-Q9m9Oo3KCy21XCt85_8WG8Ed7_FdaejOgb8liRkCBCm
+
+sprite $DeveloperPortalLg [20x20/16z] jOnL0iDW28FHmFrFl0NcqhT-xMz4v2mY_MDIZQpEDrEi8eVGv01unuvmdIbK0dpaZ1RE1-CmOymAdXoHMFiS7FsdMbd2_ObLTqFEuG8
+
+!procedure DeveloperPortal($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/DeveloperPortal', $name, $tech, $desc)
+!endprocedure
+
+!procedure DeveloperPortalCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DeveloperPortalLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure DeveloperPortalGroup($id, $name='Developer Portal', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DeveloperPortalLg>', $name, $tech)
+!endprocedure

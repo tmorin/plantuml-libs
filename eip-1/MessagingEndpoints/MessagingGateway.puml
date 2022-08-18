@@ -1,0 +1,17 @@
+' definition of the Item eip-1/MessagingEndpoints/MessagingGateway
+
+sprite $MessagingGatewayXs [15x10/16z] uqC3p330niZ8o0pdCh8YSnaHN5OaBXiO86J1W02NcGcLoypEmS713
+
+sprite $MessagingGatewaySm [18x12/16z] POk53G0n4CDKFjv_ssTiB4xiGChBs93oNLfAQNoMbAQb_PR-Mre_c9m6rL72KXeiPS1IQjieAm
+
+sprite $MessagingGatewayMd [25x16/16z] dSt55G1130BGHmHkst-tw-up_ve0pIC_Yrwwdm_XwCNva8RRWu3x0meEP5mENDmdud6Zxk3nT70-7LpRuK47
+
+sprite $MessagingGatewayLg [31x20/16z] dSm52iK038DXIfCycTp_jdEN3FRZ_MZgXzA5A_udem-Nh32C3CFACDpV3UEEuLdY9MiDvfjcVEezJ-uvvJb_dbEUa_d_zlKCbre
+
+!procedure MessagingGateway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingEndpoints/MessagingGateway', $name, $tech, $desc)
+!endprocedure
+
+!procedure MessagingGatewayGroup($id, $name='Messaging Gateway', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$MessagingGatewayLg>', $name, $tech)
+!endprocedure

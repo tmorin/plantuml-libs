@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/BahtSign
+
+sprite $BahtSignXs [6x10/16z] BOgr0G0W4CI2Tf3zfqNVpu0Aq0LluUXMxvt-kfX_G_lv3G
+
+sprite $BahtSignSm [7x12/16z] DSm50OG0002nUrTO_xGu2x1gRAFwWRYwUP6CNDozdD85AVpyk85pcG4
+
+sprite $BahtSignMd [9x16/16z] DOo55GCn3CL-cAFzjsqTlvCPzUVAgSZO-xA3XBC4SP11O3k9w4cpv3uLE1r28oRm7RKlMVRhc39nWgHErADW_WS
+
+sprite $BahtSignLg [12x20/16z] POy50iGW30J3NRtTxFzVYplJ0d6HW6vIECXUBcz4ZGWhGTRVJVxzwsN4-CsV8lyxMQDSE3gPnf_xy-SXjSI7v2fB9-yCl4W7sW_q8UZ0kUxo9-Bh
+
+!procedure BahtSign($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BahtSign', $name, $tech, $desc)
+!endprocedure

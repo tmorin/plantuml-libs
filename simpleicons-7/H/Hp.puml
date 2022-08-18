@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-7/H/Hp
+
+sprite $HpXs [10x10/16z] 9SM50SC008H0wetU_jD6Nw0gtrl2KBJ29ofbeEyx8NU_jpyVJO_7tED10qBrCJoe7G
+
+sprite $HpSm [12x12/16z] 7SZ5WGDH042Xbumh_LUxyZdIOA_175JH2uetmnEVppVDkKZ7t1FkfBV9hcr98kcf8X1iXIUyLO_MiRy
+
+sprite $HpMd [16x16/16z] {
+DSk50S0m3CH0bJ7M_jlsInSqyV7e-3MPZ8M7BlXeX0hwEA5fiVhfK0V2dd1IwOJdxcrwSfnKuznftmp_zb1w6MGqsyvqRLJsGYd2Cn6z5ekFxmMQCQ4n4wSA
+VnYTnQb5N
+}
+
+sprite $HpLg [20x20/16z] {
+FSm54WGX30312RU6plz_UyKANH8Fdx0TmBARoAezUAdW8wzMMRsPWYeCFpliwW1TGFLaKYQlzxHsC9CwTBCgUB092ZhK7vVWODwbzRI19p-XQTDAk748NL0F
+JUJlrSwkFda74oHGExr66D64YCXg8doKbG5Pfw2i5cyEEYMOTZM_fooNCBGdfZy
+}
+
+!procedure Hp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/H/Hp', $name, $tech, $desc)
+!endprocedure

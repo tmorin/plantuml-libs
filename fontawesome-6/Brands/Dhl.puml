@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Brands/Dhl
+
+sprite $DhlXs [12x10/16z] Oo0PCBEnCG0X6uZDniV3mSF3paswAG
+
+sprite $DhlSm [15x12/16z] Ow0guEFZO-JcvURZumPp-Pbv67XuUDXvW6mM5cOM5WOG1D905WK
+
+sprite $DhlMd [20x16/16z] pSP70S0m30D0TNfR_D5sWaZkTPYByY76XJme-B4baGzau25ozWDTQn_vR1V183S
+
+sprite $DhlLg [25x20/16z] tSi50G0W30J0nvtltnOdn0wTGH3b9mTuhyqytkFAKsS8f27rlFy4YLhddaof0Ki8mNBggxCmEqvvPY74
+
+!procedure Dhl($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Dhl', $name, $tech, $desc)
+!endprocedure

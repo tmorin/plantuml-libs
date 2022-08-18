@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/Assignment
+
+sprite $AssignmentXs [10x10/16z] Oq01_FpiK9gV2uX1B12N4ym20ZnYd9oS81P2304
+
+sprite $AssignmentSm [12x12/16z] Oq07_FnSK0OGW0aecn_E1akJ9iwBnHmeu46n7W
+
+sprite $AssignmentMd [16x16/16z] TSt50S0m30F0CilQVzg6ERcNsLEVy8dn2mXt0hXC-j7OQ2mw1uEOJzOQSpXLBlNyyDwgRLM-Z_xVJEP9MoAJLXG
+
+sprite $AssignmentLg [20x20/16z] ZSu55e0m201Gd1t0_K-hZhVk_v866gQRZZJ7lzs7oDe1B3RJ8YuMQ78XiZampY2dZCldYhExyNJsaM5cEx_4kLE4EQ-IUoIt8tceODW7
+
+!procedure Assignment($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Assignment', $name, $tech, $desc)
+!endprocedure

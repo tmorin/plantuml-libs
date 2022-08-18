@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Regular/SquarePlus
+
+sprite $SquarePlusXs [8x10/16z] Ou01VYY0y9X0D3yApGUKH1Nd1T8mzJ3z
+
+sprite $SquarePlusSm [10x12/16z] Oq00VZXWXukmG5byO1O_EWkY1xiiGYyFBoi4y3Dmyq40Em
+
+sprite $SquarePlusMd [14x16/16z] Oq05h7nmmCl0neyAaDHXvJ7p8_DOa7ZCBEpyB2mm7imuJ9MOF0O8YTTs1WnN8W
+
+sprite $SquarePlusLg [17x20/16z] bSv50e1G409GiFqntF-qThTlEGdEqgq4q5uCAjCDauIjyhuWVoo4nu9pJkPSDHUeoLm0IKNopz6EJ-R2Q_IkP1iIedPo7BK
+
+!procedure SquarePlus($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/SquarePlus', $name, $tech, $desc)
+!endprocedure

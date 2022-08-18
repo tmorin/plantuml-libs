@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/FolderClosed
+
+sprite $FolderClosedXs [10x10/16z] Ou03LduW0BFuuO0J3lX91WXZ
+
+sprite $FolderClosedSm [12x12/16z] Oq06_4300sE2EOn006GZ08foAW46NZuOu04
+
+sprite $FolderClosedMd [16x16/16z] Oq07F7mW0EVoyaC0ZCyF0pnWmCwF1XZH02yQuASpG7SWkdS1
+
+sprite $FolderClosedLg [20x20/16z] rSZ50O0054EnuixRVrhSVnSWnyX9iqsgMy6Xq0LY4hKOZP4O_D18989UnWm
+
+!procedure FolderClosed($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FolderClosed', $name, $tech, $desc)
+!endprocedure

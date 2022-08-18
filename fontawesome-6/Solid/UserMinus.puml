@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/UserMinus
+
+sprite $UserMinusXs [12x10/16z] Om02VaO6A63av-VdXhBvGG25ZU2mWaa65C0C5E64ge00P3OVc8cG
+
+sprite $UserMinusSm [15x12/16z] POk34G0m00DhO_zfQ-Nwn-19WsP5BZ4tRkpfxdH4ZoixKRUKLar-bDOSrPmLfAMf33bZh
+
+sprite $UserMinusMd [20x16/16z] ZSo53K0X34NHxmgy_QV5tM-iEKsxw7vSIzeDLMf0WM_5VcjhP8UroZ-YzogFL0t47an7OBe3mSS2XJv3A-ACqKaJ
+
+sprite $UserMinusLg [25x20/16z] fSzL0e0m201GMFVkVrfxQUlxf84Lzq707iO5tINY1Zec9Tok8VcTO2akeUFZ8gJ-qgpZnC0kyHgc7MItEWcu_sAtqxM9i6j8qXxT9sngsBdh604
+
+!procedure UserMinus($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/UserMinus', $name, $tech, $desc)
+!endprocedure

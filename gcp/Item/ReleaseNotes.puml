@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/ReleaseNotes
+
+sprite $ReleaseNotesXs [10x10/16z] ROd70S0W3CHq2Mt_XMdw8h1zXIVvlazLap16jXeRCpQgVyF05jKULRl00W
+
+sprite $ReleaseNotesSm [12x12/16z] Oy0FMDd150S8C32mCuBO804u6oB101U7iTc104Z1r42baPLoi8811wg5
+
+sprite $ReleaseNotesMd [16x16/16z] ZSb50GGn00ImbElVyE4ovpNWiMAjXU0hzH-q0hKn7k7VurUG37__QenzilvxNl_VFlsi_zEkJ-oz0G
+
+sprite $ReleaseNotesLg [20x20/16z] dSo54OH004FHhAV_XkyWmHtUMEQlu8kyJvLp356wY01hDEtcnX84YEm4jyMN5HWQHLUcrcpL5lPloQabmxALdZRNRpTDRjjIWzLPmOa_
+
+!procedure ReleaseNotes($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/ReleaseNotes', $name, $tech, $desc)
+!endprocedure
+
+!procedure ReleaseNotesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ReleaseNotesLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure ReleaseNotesGroup($id, $name='Release Notes', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ReleaseNotesLg>', $name, $tech)
+!endprocedure

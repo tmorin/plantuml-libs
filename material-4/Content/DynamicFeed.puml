@@ -1,0 +1,13 @@
+' definition of the Item material-4/Content/DynamicFeed
+
+sprite $DynamicFeedXs [10x10/16z] Oy01cFc1W0VCOW8I81O_bCN7mCy0acK4qH3LG9g5ZOsD2SG20LIp
+
+sprite $DynamicFeedSm [12x12/16z] Oy07EFb1W17CvWMpcK2YJBmWYWTCCCFOtCmyp2nWDK2rG3R4112R5ImAOIFCXgf51m
+
+sprite $DynamicFeedMd [16x16/16z] ZSV50O0030F0D3XKzfyMTx_VuPz4hQV9yfZTdaGGlMIwwlKfUrb_yU4M8mKOmnVZcx11lLmQ7LJB3oGcM0X7kDS1
+
+sprite $DynamicFeedLg [20x20/16z] hSk35KKn00FGr6xsd_RpsRh70PvGsP1eARRoTjP-sYppH1Ry3nE06huPs18067yPn1_GPwqsyspOFeEsVxBFPjWIw9XI_mHEUWC
+
+!procedure DynamicFeed($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/DynamicFeed', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item material-4/Maps/LocalTaxi
+
+sprite $LocalTaxiXs [10x10/16z] Oy0EEFdv-Jb137umbns8-HXWV7u808i3QJGnVgWw1
+
+sprite $LocalTaxiSm [12x12/16z] Oy07-FdveIm-7X00yzYOm29S808gpSW5OiC0M9mNo61X0BDvmQ9y_EXgeERmerW9
+
+sprite $LocalTaxiMd [16x16/16z] ZSVL0SDG34Mnymn5EtV_QSkCqP-OPTFTnfLvIqeVv_fKPpg_ahDsZiH55a2qNUduqfq1FR4wPOphbq_NtQUNdBFjwHXNnfiz
+
+sprite $LocalTaxiLg [20x20/16z] fSq50a9120HGjfkv_saj7BjzFvUK_tdiNKPAwzXhBJ3KT18OGnRIOjy09rJ1rijTbiUiPwWMkx8ifhxOMKE2MgomjeimXZnWScFiqijO59h7s5fEg6YLZsq1
+
+!procedure LocalTaxi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/LocalTaxi', $name, $tech, $desc)
+!endprocedure

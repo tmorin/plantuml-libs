@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/SprayCan
+
+sprite $SprayCanXs [10x10/16z] PSd50O0030F0uCxjFotM9vLeqXbJWuD9WjICuvXO13If3YMI7nXHIgaR
+
+sprite $SprayCanSm [12x12/16z] POQ30S100CHIkzb_sXgFOm3bLQ5h9wSlfcSw36LP0EDfrHN4saihWDfLAXTMrv7j2ktBbovU0ju1
+
+sprite $SprayCanMd [16x16/16z] VOf50iGm30EdJ6xq_z_kAdZh16m1W9HW498WoctwrNHh2ZNDr2xJFCzutl305N-U5KfVbG1pgO5vlHsJnmn42svhKpKVUWTIroQaeStGHzTWVW
+
+sprite $SprayCanLg [20x20/16z] {
+XOW7ZaKn2CGclMVkVzibFAqGQjy9O1b28bdXuGD8q8dHsf4Xcuoroe7Du9edFjJA1COGIVMHNoE730h_wK3Rm5oW4V2nI0EFUzKRgZLwLKbPRAWsROfOKeck
+JPNk6eEARpnrqpVbLqiqAZx-
+}
+
+!procedure SprayCan($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/SprayCan', $name, $tech, $desc)
+!endprocedure

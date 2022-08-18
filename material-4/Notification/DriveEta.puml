@@ -1,0 +1,13 @@
+' definition of the Item material-4/Notification/DriveEta
+
+sprite $DriveEtaXs [10x10/16z] Oy0AsFb10CG24mnyGCp9308WFZytK98LpE80iXZ1B0Y0w02J2
+
+sprite $DriveEtaSm [12x12/16z] TSg30G0n3030w8tkFsrjN172slqwXqlf1ETttnkcczXFVO5okIZhFtqElyqFz7dYyeF5yliC7XBK3
+
+sprite $DriveEtaMd [16x16/16z] bSl50G0X30J0nPtqNoqklvD1O_YFqP9dx2ocpD0HmsHTltc-W_tsT740YMGUWRKpZf0Z1cPCYOPCAxvcREIKHgmYmwGYNbK
+
+sprite $DriveEtaLg [20x20/16z] fO-50GCn24M9U_x-qzPeh7hoeZZGMRHfoAPo63GTF3MguLT2Tbse_7fGHq6mVr03E4wtK9uwdS0OZyewrtmJKTE1F1XXccxcfyvfTLjtIjFDSo3HAQu
+
+!procedure DriveEta($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Notification/DriveEta', $name, $tech, $desc)
+!endprocedure

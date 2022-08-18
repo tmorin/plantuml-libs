@@ -1,0 +1,13 @@
+' definition of the Item material-4/Navigation/UnfoldLess
+
+sprite $UnfoldLessXs [10x10/16z] Oy0E6DaP-A5CFdusc2Wh5fLyC0O_9vp9m8cY1
+
+sprite $UnfoldLessSm [12x12/16z] Oy03c97O7FmC_4m83XD2XX67RZO4au-V7SRavM7WPyDZ9m
+
+sprite $UnfoldLessMd [16x16/16z] Oo07C7C32Ju4ducVcu4Vn4S8WBa8m0ZaKWBO-HbHkRmW0GINbO47MO0LY3c8CXW
+
+sprite $UnfoldLessLg [20x20/16z] hOe54W0X3CJst2__VoqoYdIq16gPbP_9K1ofyrRoJV9BLV43kshwL6RJK9Q_L_3swg9EpZ3hR99VRjSkDn4
+
+!procedure UnfoldLess($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Navigation/UnfoldLess', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item material-4/Hardware/CastForEducation
+
+sprite $CastForEducationXs [10x10/16z] RS750S80002nuCxjFotKNqtiwJfBU7SNgEJQKuSapuSlaI3fhihc3m
+
+sprite $CastForEducationSm [12x12/16z] TS75OKC1040XyjtV_jlsLWzufoy26p9YgKuv1bIZp4NEINQlQ29hyn388e7qkeVdTLUNRpu
+
+sprite $CastForEducationMd [16x16/16z] {
+XOa50WGn30AfRft___PApdqgoG3-4SQyqm7ESOS3331I0Z0dXfVvHIulDoADk9qiIehDxR6H2PxECSgTkenALkirCns478aTSzsymjC7tfmBgu8x5RlrTW4l
+yCe9
+}
+
+sprite $CastForEducationLg [20x20/16z] {
+fOx50SCm40HNpBVzTnjXw1Fm63M7k4BaEmf2_q9Ww0uRdTHuFxjACYwtILpuuVIMZOEyQrc6rxRr7pMTyTtciPDHWVRqqvK5UXGNjMkxpqo0aRDB5lR_oZrh
+rtfA_yjFBfakFSWd9zH3nExEsgWIKHgiACWaurjk
+}
+
+!procedure CastForEducation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Hardware/CastForEducation', $name, $tech, $desc)
+!endprocedure

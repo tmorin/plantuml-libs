@@ -1,0 +1,13 @@
+' definition of the Item material-4/Editor/MergeType
+
+sprite $MergeTypeXs [10x10/16z] Oy05-E4CVWGJKvOLncBZXmdoGp02
+
+sprite $MergeTypeSm [12x12/16z] Oy0B-11CVdvU69EPcP-P2I41n5ZORFp8J3P6X2WZFuJ3225G0G
+
+sprite $MergeTypeMd [16x16/16z] bOgr0S10008Xxkm_RTneNgv23edGQojwrN-efbdJX1-5W9pUoAjQhmqgqT_v7TfBdeau6m
+
+sprite $MergeTypeLg [20x20/16z] hSe53e104CNGZpkz_sbndOaWs_XB5QAeyjPZCUh1OWyULH990Qtobe6bd5xAepiX9M0lAQC_pmPfnLIkM6yQ0G
+
+!procedure MergeType($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/MergeType', $name, $tech, $desc)
+!endprocedure

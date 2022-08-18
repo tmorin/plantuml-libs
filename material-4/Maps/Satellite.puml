@@ -1,0 +1,16 @@
+' definition of the Item material-4/Maps/Satellite
+
+sprite $SatelliteXs [10x10/16z] Oy0AkDXu-O40o6BZPu2oU1bOe2m-8CK1Pl7pyFCmG5XWVM0M122P1W
+
+sprite $SatelliteSm [12x12/16z] Oy09-640n6RWOuIp-VWOu6n6g3AOUcuOcnb8SqBOd0oCG8eFpEQ107uaytbGR0K
+
+sprite $SatelliteMd [16x16/16z] XSgr0SGm04FH7pPh_saFpAxoEW7lV6mCG5282ifs80Qic78qkkOitVZbtsBRcvwJn3RoXWwuMZvX0t0rXoPdgo7VzYx7rHS
+
+sprite $SatelliteLg [20x20/16z] {
+fSn50eKm303HmUf9xdzQNBlvmg1z5TubTi-jPiav4xURREPevsSttQqretdQN4zycdZexMcE9bfbkW_3ypoP7q-vMs5vu6O2B4HxMSEHFqpBrM6FocfUz4fQ
+lcu2
+}
+
+!procedure Satellite($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/Satellite', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,803 @@
+
+
+
+' by default the inclusion mode is remote
+!if (%not(%variable_exists("$INCLUSION_MODE")))
+    !global $INCLUSION_MODE="remote"
+!endif
+
+!if ($INCLUSION_MODE == "remote")
+    !if (%not(%variable_exists("$LIB_BASE_LOCATION")))
+        !global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+    !endif
+!else
+    !if (%not(%variable_exists("$LIB_BASE_LOCATION")))
+        !global $LIB_BASE_LOCATION="."
+    !endif
+!endif
+
+!if (%not(%variable_exists("$IMAGE_BASE_PATH"))) && (%variable_exists("$LIB_BASE_LOCATION"))
+    !global $IMAGE_BASE_PATH=$LIB_BASE_LOCATION + "/"
+!endif
+
+' constants
+
+!global $ICON_FORMAT="png"
+!global $TEXT_WIDTH_MAX=200
+!global $MSG_WIDTH_MAX=150
+!global $FONT_SIZE_XS=10
+!global $FONT_SIZE_SM=12
+!global $FONT_SIZE_MD=16
+!global $FONT_SIZE_LG=20
+!global $FONT_COLOR="#212121"
+!global $FONT_COLOR_LIGHT="#757575"
+
+
+' Styles
+
+hide stereotype
+skinparam wrapWidth $TEXT_WIDTH_MAX
+skinparam maxMessageSize $MSG_WIDTH_MAX
+skinparam DefaultFontSize $FONT_SIZE_SM
+skinparam DefaultFontColor $FONT_COLOR
+
+
+' Title
+
+!procedure Title($title="", $subtitle="", $version="", $date="")
+    !$s="$title"
+    !$s_d="Last modified: " + %date("yyyy-MM-dd'T'HH:mm:ss")
+    !$s_v=""
+    !if ($date != "")
+        !$s_d="Last modified: " + $date
+    !endif
+    !if ($version != "")
+        !$s_v=" | version: " + $version
+    !endif
+    !$s=$s_d + $s_v
+    left header
+    !if ($title != "")
+        <color:$FONT_COLOR><size:$FONT_SIZE_LG>$title</size></color>
+    !endif
+    !if ($subtitle)
+        <color:$FONT_COLOR><size:$FONT_SIZE_MD>$subtitle</size></color>
+    !endif
+        <color:$FONT_COLOR_LIGHT><size:$FONT_SIZE_XS>$s</size></color>
+    end header
+!endprocedure
+
+
+' getIcon()
+
+!function getIcon($name)
+    !return $IMAGE_BASE_PATH/$name.$ICON_FORMAT
+!endfunction
+
+
+' include()
+
+!procedure include($resource)
+    !include $LIB_BASE_LOCATION/$resource.puml
+!endprocedure
+
+
+' Relationship
+
+!procedure Relationship($label="", $tech="")
+    !if ($label != '' && $tech != '')
+        $label\n<size:$FONT_SIZE_XS><color:$FONT_COLOR_LIGHT>[$tech]</color></size>
+    !elseif ($label != '')
+        $label
+    !else
+        <size:$FONT_SIZE_XS><color:$FONT_COLOR_LIGHT>[$tech]</color></size>
+    !endif
+!endprocedure
+
+
+' IconElement
+
+!procedure IconElement($id, $stereotype, $icon, $name="", $tech="", $desc="")
+    !local $H="<img:" + getIcon($icon)+ ">"
+    !if ($name != "")
+        !$H=$H + "\n" + $name
+    !endif
+    !if ($tech != "")
+        !$H=$H + "\n" + "<size:" + $FONT_SIZE_XS + "><color:" + $FONT_COLOR_LIGHT + ">[" + $tech + "]</color></size>"
+    !endif
+    !if ($desc != "")
+        !$H=$H + "\n\n" + $desc
+    !endif
+    card $id <<$stereotype>> as "$H"
+!endprocedure
+
+
+' IconCardElement
+
+!procedure IconCardElement($id, $stereotype, $sprite, $techName="", $funcName="", $content="")
+    !local $V=""
+    !local $H=""
+    !local $S="<color:" + $FONT_COLOR + ">" + $sprite + " </color>"
+    !local $F=""
+    !if ($techName != "") && ($funcName != "")
+        !$ST="<size:" + $FONT_SIZE_MD + ">" + "<color:" + $FONT_COLOR_LIGHT + ">" + $techName + "</color>" + "</size>"
+        !$T="<size:" + $FONT_SIZE_MD + ">" + "<color:" + $FONT_COLOR + ">" + $funcName + "</color>" + "</size>"
+        !$H=$T + "\l" + $S + $ST
+        !$V=$V + $H
+    !elseif ($techName != "")
+        !$ST="<size:" + $FONT_SIZE_MD + ">" + "<color:" + $FONT_COLOR_LIGHT + ">" + $techName + "</color>" + "</size>"
+        !$H=$S + $ST
+        !$V=$V + $H
+    !elseif ($funcName != "")
+        !$T="<size:" + $FONT_SIZE_MD + ">" + "<color:" + $FONT_COLOR + ">" + $funcName + "</color>" + "</size>"
+        !$H=$S + $T
+        !$V=$V + $H
+    !endif
+    !if ($H != "") && ($content != "")
+        !$F="\n----\n" + $content
+        !$V=$V + $F
+    !elseif ($content != "")
+        !$F=$content
+        !$V=$S + "\n" + $F
+    !endif
+    Rectangle $id <<$stereotype>> as "$V"
+!endprocedure
+
+
+' IconGroupElement
+
+!procedure IconGroupElement($id, $stereotype, $sprite, $name="", $tech="")
+    !local $V=$sprite + " "
+    !if ($name != "") && ($tech != "")
+        !$V=$V + $name + "\n" + "<size:" + $FONT_SIZE_XS + "><color:" + $FONT_COLOR_LIGHT + ">[" + $tech + "]</color></size>"
+    !elseif ($name != "")
+        !$V=$V + $name
+    !elseif ($tech != "")
+        !$V=$V + "<size:" + $FONT_SIZE_XS + "><color:" + $FONT_COLOR_LIGHT + ">[" + $tech + "]</color></size>"
+    !endif
+    Rectangle $id <<$stereotype>> as "$V"
+!endprocedure
+
+
+' GroupElement
+
+!procedure GroupElement($id, $stereotype, $name="", $tech="")
+    !local $V=""
+    !if ($name != "") && ($tech != "")
+        !$V=$V + $name + "\n" + "<size:" + $FONT_SIZE_XS + "><color:" + $FONT_COLOR_LIGHT + ">[" + $tech + "]</color></size>"
+    !elseif ($name != "")
+        !$V=$V + $name
+    !elseif ($tech != "")
+        !$V=$V + "<size:" + $FONT_SIZE_XS + "><color:" + $FONT_COLOR_LIGHT + ">[" + $tech + "]</color></size>"
+    !endif
+    !if ($V != "")
+        Rectangle $id <<$stereotype>> as "$V"
+    !else
+        Rectangle $id <<$stereotype>>
+    !endif
+!endprocedure
+
+
+
+
+' Group
+
+!procedure DstGroup($stereotype, $id, $name="", $tech="")
+  !$s=""
+  ' name
+  !if ($name!="" && $tech!="")
+    !$s=$name + "\n<size:" + $FONT_SIZE_XS + ">[" + $tech + "]</size>"
+  !elseif ($name != "")
+    !$s=$name
+  !elseif ($tech != "")
+    !$s="<size:" + $FONT_SIZE_XS + ">[" + $tech + "]</size>"
+  !endif
+  rectangle $id <<$stereotype>> as "$s"
+!endprocedure
+
+' Activity
+
+!procedure Activity($index="", $label="", $color="")
+  !$s=""
+  ' index
+  !if ($index != "" && $color!="")
+    !$s="<back:" + $color + ">**" + $index + "**</back>"
+  !elseif ($index != "")
+    !$s="**" + $index + "**"
+  !endif
+  !if ($label!="")
+    ' label
+    !if ($s!="")
+      !$s=$s + "\n" + $label
+    !else
+      !$s=$label
+    !endif
+  !endif
+  ' output
+  "$s"
+!endprocedure
+
+hide stereotype
+
+skinparam defaultTextAlignment center
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+' Polar Night
+!global $HOMECLOUD_NORD_0="#2e3440"
+!global $HOMECLOUD_NORD_1="#3b4252"
+!global $HOMECLOUD_NORD_2="#434c5e"
+!global $HOMECLOUD_NORD_3="#4c566a"
+' Snow Storm
+!global $HOMECLOUD_NORD_4="#d8dee9"
+!global $HOMECLOUD_NORD_5="#e5e9f0"
+!global $HOMECLOUD_NORD_6="#eceff4"
+' Frost
+!global $HOMECLOUD_NORD_7="#8fbcbb"
+!global $HOMECLOUD_NORD_8="#88c0d0"
+!global $HOMECLOUD_NORD_9="#81a1c1"
+!global $HOMECLOUD_NORD_10="#5e81ac"
+' Aurora
+!global $HOMECLOUD_NORD_11="#bf616a"
+!global $HOMECLOUD_NORD_12="#d08770"
+!global $HOMECLOUD_NORD_13="#ebcb8b"
+!global $HOMECLOUD_NORD_14="#a3be8c"
+!global $HOMECLOUD_NORD_15="#b48ead"
+
+!global $FONT_COLOR=$HOMECLOUD_NORD_2
+!global $FONT_COLOR_LIGHT=$HOMECLOUD_NORD_3
+
+skinparam Arrow {
+    Color $FONT_COLOR
+    FontColor $FONT_COLOR
+    FontSize $FONT_SIZE_SM
+}
+
+skinparam Card<<IconElement>> {
+    BorderThickness 0
+    BorderColor transparent
+    BackgroundColor transparent
+    FontColor $FONT_COLOR
+    shadowing false
+}
+
+skinparam Rectangle<<IconCardElement>> {
+    BorderThickness 1
+    BorderColor $FONT_COLOR
+    BackgroundColor #FFFFFF
+    FontColor $FONT_COLOR_LIGHT
+    FontSize $FONT_SIZE_XS
+    shadowing true
+}
+
+skinparam Rectangle<<IconGroupElement>> {
+  StereotypeFontColor $FONT_COLOR_LIGHT
+  BorderThickness 1
+  BorderColor $FONT_COLOR
+  BorderStyle solid
+  FontStyle none
+  FontColor $FONT_COLOR
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}
+
+
+skinparam Rectangle<<SolidGroup>> {
+  StereotypeFontColor $FONT_COLOR
+  BorderThickness 1
+  BorderColor $FONT_COLOR
+  BorderStyle solid
+  FontStyle none
+  FontColor $FONT_COLOR
+  FontSize $FONT_SIZE_SM
+  BackgroundColor transparent
+  shadowing false
+}
+
+skinparam Rectangle<<DashedGroup>> {
+  StereotypeFontColor $FONT_COLOR
+  BorderThickness 1
+  BorderColor $FONT_COLOR
+  BorderStyle dashed
+  FontStyle none
+  FontColor $FONT_COLOR
+  FontSize $FONT_SIZE_SM
+  BackgroundColor transparent
+  shadowing false
+}
+
+skinparam Rectangle<<DottedGroup>> {
+  StereotypeFontColor $FONT_COLOR
+  BorderThickness 1
+  BorderColor $FONT_COLOR
+  BorderStyle dotted
+  FontStyle none
+  FontColor $FONT_COLOR
+  FontSize $FONT_SIZE_SM
+  BackgroundColor transparent
+  shadowing false
+}
+
+skinparam Rectangle<<SolidFrost10Group>> {
+  StereotypeFontColor $HOMECLOUD_NORD_10
+  BorderThickness 1
+  BorderColor $HOMECLOUD_NORD_10
+  BorderStyle solid
+  FontStyle none
+  FontColor $HOMECLOUD_NORD_10
+  FontSize $FONT_SIZE_SM
+  BackgroundColor transparent
+  shadowing false
+}
+
+skinparam Rectangle<<DashedFrost10Group>> {
+  StereotypeFontColor $HOMECLOUD_NORD_10
+  BorderThickness 1
+  BorderColor $HOMECLOUD_NORD_10
+  BorderStyle dashed
+  FontStyle none
+  FontColor $HOMECLOUD_NORD_10
+  FontSize $FONT_SIZE_SM
+  BackgroundColor transparent
+  shadowing false
+}
+
+skinparam Rectangle<<DottedFrost10Group>> {
+  StereotypeFontColor $HOMECLOUD_NORD_10
+  BorderThickness 1
+  BorderColor $HOMECLOUD_NORD_10
+  BorderStyle dotted
+  FontStyle none
+  FontColor $HOMECLOUD_NORD_10
+  FontSize $FONT_SIZE_SM
+  BackgroundColor transparent
+  shadowing false
+}
+
+skinparam Rectangle<<SolidAurora11Group>> {
+  StereotypeFontColor $HOMECLOUD_NORD_11
+  BorderThickness 1
+  BorderColor $HOMECLOUD_NORD_11
+  BorderStyle solid
+  FontStyle none
+  FontColor $HOMECLOUD_NORD_11
+  FontSize $FONT_SIZE_SM
+  BackgroundColor transparent
+  shadowing false
+}
+
+skinparam Rectangle<<DashedAurora11Group>> {
+  StereotypeFontColor $HOMECLOUD_NORD_11
+  BorderThickness 1
+  BorderColor $HOMECLOUD_NORD_11
+  BorderStyle dashed
+  FontStyle none
+  FontColor $HOMECLOUD_NORD_11
+  FontSize $FONT_SIZE_SM
+  BackgroundColor transparent
+  shadowing false
+}
+
+skinparam Rectangle<<DottedAurora11Group>> {
+  StereotypeFontColor $HOMECLOUD_NORD_11
+  BorderThickness 1
+  BorderColor $HOMECLOUD_NORD_11
+  BorderStyle dotted
+  FontStyle none
+  FontColor $HOMECLOUD_NORD_11
+  FontSize $FONT_SIZE_SM
+  BackgroundColor transparent
+  shadowing false
+}
+
+skinparam Rectangle<<SolidAurora12Group>> {
+  StereotypeFontColor $HOMECLOUD_NORD_12
+  BorderThickness 1
+  BorderColor $HOMECLOUD_NORD_12
+  BorderStyle solid
+  FontStyle none
+  FontColor $HOMECLOUD_NORD_12
+  FontSize $FONT_SIZE_SM
+  BackgroundColor transparent
+  shadowing false
+}
+
+skinparam Rectangle<<DashedAurora12Group>> {
+  StereotypeFontColor $HOMECLOUD_NORD_12
+  BorderThickness 1
+  BorderColor $HOMECLOUD_NORD_12
+  BorderStyle dashed
+  FontStyle none
+  FontColor $HOMECLOUD_NORD_12
+  FontSize $FONT_SIZE_SM
+  BackgroundColor transparent
+  shadowing false
+}
+
+skinparam Rectangle<<DottedAurora12Group>> {
+  StereotypeFontColor $HOMECLOUD_NORD_12
+  BorderThickness 1
+  BorderColor $HOMECLOUD_NORD_12
+  BorderStyle dotted
+  FontStyle none
+  FontColor $HOMECLOUD_NORD_12
+  FontSize $FONT_SIZE_SM
+  BackgroundColor transparent
+  shadowing false
+}
+
+skinparam Rectangle<<SolidAurora13Group>> {
+  StereotypeFontColor $HOMECLOUD_NORD_13
+  BorderThickness 1
+  BorderColor $HOMECLOUD_NORD_13
+  BorderStyle solid
+  FontStyle none
+  FontColor $HOMECLOUD_NORD_13
+  FontSize $FONT_SIZE_SM
+  BackgroundColor transparent
+  shadowing false
+}
+
+skinparam Rectangle<<DashedAurora13Group>> {
+  StereotypeFontColor $HOMECLOUD_NORD_13
+  BorderThickness 1
+  BorderColor $HOMECLOUD_NORD_13
+  BorderStyle dashed
+  FontStyle none
+  FontColor $HOMECLOUD_NORD_13
+  FontSize $FONT_SIZE_SM
+  BackgroundColor transparent
+  shadowing false
+}
+
+skinparam Rectangle<<DottedAurora13Group>> {
+  StereotypeFontColor $HOMECLOUD_NORD_13
+  BorderThickness 1
+  BorderColor $HOMECLOUD_NORD_13
+  BorderStyle dotted
+  FontStyle none
+  FontColor $HOMECLOUD_NORD_13
+  FontSize $FONT_SIZE_SM
+  BackgroundColor transparent
+  shadowing false
+}
+
+skinparam Rectangle<<SolidAurora14Group>> {
+  StereotypeFontColor $HOMECLOUD_NORD_14
+  BorderThickness 1
+  BorderColor $HOMECLOUD_NORD_14
+  BorderStyle solid
+  FontStyle none
+  FontColor $HOMECLOUD_NORD_14
+  FontSize $FONT_SIZE_SM
+  BackgroundColor transparent
+  shadowing false
+}
+
+skinparam Rectangle<<DashedAurora14Group>> {
+  StereotypeFontColor $HOMECLOUD_NORD_14
+  BorderThickness 1
+  BorderColor $HOMECLOUD_NORD_14
+  BorderStyle dashed
+  FontStyle none
+  FontColor $HOMECLOUD_NORD_14
+  FontSize $FONT_SIZE_SM
+  BackgroundColor transparent
+  shadowing false
+}
+
+skinparam Rectangle<<DottedAurora14Group>> {
+  StereotypeFontColor $HOMECLOUD_NORD_14
+  BorderThickness 1
+  BorderColor $HOMECLOUD_NORD_14
+  BorderStyle dotted
+  FontStyle none
+  FontColor $HOMECLOUD_NORD_14
+  FontSize $FONT_SIZE_SM
+  BackgroundColor transparent
+  shadowing false
+}
+
+skinparam Rectangle<<SolidAurora15Group>> {
+  StereotypeFontColor $HOMECLOUD_NORD_15
+  BorderThickness 1
+  BorderColor $HOMECLOUD_NORD_15
+  BorderStyle solid
+  FontStyle none
+  FontColor $HOMECLOUD_NORD_15
+  FontSize $FONT_SIZE_SM
+  BackgroundColor transparent
+  shadowing false
+}
+
+skinparam Rectangle<<DashedAurora15Group>> {
+  StereotypeFontColor $HOMECLOUD_NORD_15
+  BorderThickness 1
+  BorderColor $HOMECLOUD_NORD_15
+  BorderStyle dashed
+  FontStyle none
+  FontColor $HOMECLOUD_NORD_15
+  FontSize $FONT_SIZE_SM
+  BackgroundColor transparent
+  shadowing false
+}
+
+skinparam Rectangle<<DottedAurora15Group>> {
+  StereotypeFontColor $HOMECLOUD_NORD_15
+  BorderThickness 1
+  BorderColor $HOMECLOUD_NORD_15
+  BorderStyle dotted
+  FontStyle none
+  FontColor $HOMECLOUD_NORD_15
+  FontSize $FONT_SIZE_SM
+  BackgroundColor transparent
+  shadowing false
+}
+
+
+
+
+' definition of the Item domainstorytelling/Actor/User
+
+sprite $UserXs [8x10/16z] Om02VWOGOEFdvmVpG029PW1H2C055cS4Ye817pyg
+
+sprite $UserSm [10x12/16z] PSR50O1000InnPtflreurxmYOq4UnfM6pPAcl1kOL85dWzScsEazQJy
+
+sprite $UserMd [14x16/16z] ZOt50K0X34FpNO7zfyNTtwsDGVEn4uwBATob3tS-oVNPQz7NRgyazoCw2MfSH4r__mPWOm6T2TnibYkv1
+
+sprite $UserLg [17x20/16z] bOq30WKn34Hhjxd_QJzMmVgLqOoQYQCRXJZuqp412slSreGM3P1beiX4N19fJKYNXBxr7tjrYh6QF2e20MFC0ASd40nuZPKINm
+
+!procedure User($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'domainstorytelling/Actor/User', $name, $tech, $desc)
+!endprocedure
+
+!procedure UserCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$UserLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure UserGroup($id, $name='User', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$UserLg>', $name, $tech)
+!endprocedure
+' definition of the Item domainstorytelling/Actor/Users
+
+sprite $UsersXs [12x10/16z] NSg50S8040J1nPtflrgSsEjPoyBdxtL7AOBzbKvgel-orpih41S1ZYf0JV4J
+
+sprite $UsersSm [15x12/16z] ROp50S0m30El7DR-quRzwmMC4dyyagK7N9BL8z7WPJrHHddqD40-O2s_lKgcOYptoX-I2sOnWoMSHxJoE4yWMNaooMMIW0O
+
+sprite $UsersMd [20x16/16z] {
+VOo50S1030AfUzb_sdUtUoK9OCJrRMM9cg3sPt8btavjfa-BKn_JsciJajg2AKtLfGkEtNKIfIzYVay0tus9QR9BN4d-v3qp0cERyIIrQPedADwaDiEofTuE
+4W
+}
+
+sprite $UsersLg [25x20/16z] {
+ZSy54iGm28NX7rAtT__Rxi2mRlqgyG2SOCtvH67apQxKSzD90xWASEW0B4REf59deKKpCQf0DHPDYoOTS4GBiNS6DYKdZ_1WgNcAnydskcF5A_igE_vhnif8
+XkvcDfKDFHfp6EUiwKacZBcpwed5NDhqn2bl9xZHevsVBW
+}
+
+!procedure Users($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'domainstorytelling/Actor/Users', $name, $tech, $desc)
+!endprocedure
+
+!procedure UsersCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$UsersLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure UsersGroup($id, $name='Users', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$UsersLg>', $name, $tech)
+!endprocedure
+' definition of the Item domainstorytelling/Object/Circle
+
+sprite $CircleXs [10x10/16z] Om01PWOmOEK70I233KX1cFmmW60n8yImiM1Ca85G1W
+
+sprite $CircleSm [12x12/16z] PSZ50S0W00F0jBZlFotkt2U2Yg3peP2bXiwLT_WHbhsJzt-xN1LmlN9a_tWJ
+
+sprite $CircleMd [16x16/16z] XSx50O0m343HZpliForGz_RTua7f1fp-aMuTNeyncT3eJRC1Js2BugUBuY6AQSLt48uGtMSAG_z3jCqy3ny
+
+sprite $CircleLg [20x20/16z] ZS-54S0m30D0bJdQVzjUcE6FpOOrBOZTL8IFR_HCw69ebg6TCHbZufFZKnEOkS2Cc9XRcCDOx8N8OXloWOK_TcJ15zASXQGlQZIcIyYQ3SeF
+
+!procedure Circle($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'domainstorytelling/Object/Circle', $name, $tech, $desc)
+!endprocedure
+
+!procedure CircleCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CircleLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CircleGroup($id, $name='Circle', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CircleLg>', $name, $tech)
+!endprocedure
+' definition of the Item domainstorytelling/Object/Cube
+
+sprite $CubeXs [10x10/16z] FSU53S104CH0XpdRVxUlmn7Pc1jtoYmSqWfSTWVcaqFjfmRGd_M8nUgnmHiO
+
+sprite $CubeSm [12x12/16z] JOc55G0X3CLoxfVzj-NX1Df-WSXDuJIo0ke7YoKOwY-gwRSGiyqACCXHJrBq51TBgo9BKG4
+
+sprite $CubeMd [16x16/16z] XSo50GCX50FGu4xsdxQIwlaxWQ-0c8e_ZKyH4lama_u6bWz58vtI3JuyrMNnDoaPmE3QNEJIiiVWEWuaVd7GIbXAKIIEekYNWTm1
+
+sprite $CubeLg [20x20/16z] {
+bOzL0iGW30KVxd3_q-wsUFBNmGTBiD0H517RYpt6juFgTqgVHt5cheyQWx2EUrp8DAJ3eRH54btesWWMkOzRRmm45HKFr0LyT9MvDsJKs_NS8g2sI_lpnvwp
+MM2XTe0twZhp1m
+}
+
+!procedure Cube($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'domainstorytelling/Object/Cube', $name, $tech, $desc)
+!endprocedure
+
+!procedure CubeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CubeLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CubeGroup($id, $name='Cube', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CubeLg>', $name, $tech)
+!endprocedure
+' definition of the Item domainstorytelling/Object/Cubes
+
+sprite $CubesXs [10x10/16z] Oq01_Fpy40ONY0CJue6pG6BC_10c2v1WPmQnUFc10AgP5QG8eX8e3jB5pW
+
+sprite $CubesSm [12x12/16z] NOU30G0n00ElThF_jc_6uO-kVAxPmKpF1gdGLSyjmMl72KwPi1t6cXwxRR8sLBQqRakstV1CgSjiKO41O2ei
+
+sprite $CubesMd [16x16/16z] ROo53GDH5CDyZEzx_sshbCd28FyPwbsLDUdwa6w4jZsq3cowFtGucJyq3zqtGmO5W_QWUi2gaVc-dSs6NIVLiZGCO7HwWUT3m-ZJCtgomQWkG9oERou
+
+sprite $CubesLg [20x20/16z] {
+VSu52WH15CJGZ5l_pVrlkpJZ-h0YMF6bgBZep4fse_PGJbfipV4wG4qbZPwRkNDhyDcgS5QCgbD1fJ6_KMkerUrIsC-ZD-keD0i8Dr7EMHkS0NERWBqrUvid
+g7CRTBwHZ896_Mb75WfPEvSdVm
+}
+
+!procedure Cubes($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'domainstorytelling/Object/Cubes', $name, $tech, $desc)
+!endprocedure
+
+!procedure CubesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CubesLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CubesGroup($id, $name='Cubes', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CubesLg>', $name, $tech)
+!endprocedure
+' definition of the Item domainstorytelling/Object/Shapes
+
+sprite $ShapesXs [10x10/16z] Ou00VWOeOEE7CVbXB7uGG6RnSZ8WPC04Bvp52MSX2
+
+sprite $ShapesSm [12x12/16z] Ou025bO6EE3dHp2109dD26M20IgR3II94EA3IB21IQWY93OZX8qWsI1i
+
+sprite $ShapesMd [16x16/16z] NSwr0S100CD0XpdQVzfdLdUkhDgxgUs0pi3Vy0EOgmaDv4pSI2M_ZHzsrVOy_xvNnFGJUWOpU1yiGb-n8lC32m
+
+sprite $ShapesLg [20x20/16z] POw54KKX4CJskPF-g_sARyPkGe1J0ujw0lHg1PDycHjryiCpE4mruGoHkyeyV1etFXo-FB1_3wSVOrImQYII1pGHUN07xWxSYSXJkPquL4xhlv968cy
+
+!procedure Shapes($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'domainstorytelling/Object/Shapes', $name, $tech, $desc)
+!endprocedure
+
+!procedure ShapesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ShapesLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure ShapesGroup($id, $name='Shapes', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ShapesLg>', $name, $tech)
+!endprocedure
+' definition of the Item domainstorytelling/Object/Square
+
+sprite $SquareXs [8x10/16z] Ou02LdxA00EK1W
+
+sprite $SquareSm [10x12/16z] Oq00Vje31Zueu04
+
+sprite $SquareMd [14x16/16z] Oq05F7m8mCxBFpG0EmeFrKC
+
+sprite $SquareLg [17x20/16z] Oy00JCmeW86LVqG3FdG11ZG-BqO80W
+
+!procedure Square($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'domainstorytelling/Object/Square', $name, $tech, $desc)
+!endprocedure
+
+!procedure SquareCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$SquareLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure SquareGroup($id, $name='Square', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$SquareLg>', $name, $tech)
+!endprocedure
+' definition of the Item domainstorytelling/Group/SolidGroup
+
+!procedure SolidGroup($id, $name="", $tech="")
+  DstGroup('SolidGroup', $id, $name, $tech)
+!endprocedure
+' definition of the Item domainstorytelling/Group/DashedGroup
+
+!procedure DashedGroup($id, $name="", $tech="")
+  DstGroup('DashedGroup', $id, $name, $tech)
+!endprocedure
+' definition of the Item domainstorytelling/Group/DottedGroup
+
+!procedure DottedGroup($id, $name="", $tech="")
+  DstGroup('DottedGroup', $id, $name, $tech)
+!endprocedure
+' definition of the Item domainstorytelling/Group/SolidFrost10Group
+
+!procedure SolidFrost10Group($id, $name="", $tech="")
+  DstGroup('SolidFrost10Group', $id, $name, $tech)
+!endprocedure
+' definition of the Item domainstorytelling/Group/DashedFrost10Group
+
+!procedure DashedFrost10Group($id, $name="", $tech="")
+  DstGroup('DashedFrost10Group', $id, $name, $tech)
+!endprocedure
+' definition of the Item domainstorytelling/Group/DottedFrost10Group
+
+!procedure DottedFrost10Group($id, $name="", $tech="")
+  DstGroup('DottedFrost10Group', $id, $name, $tech)
+!endprocedure
+' definition of the Item domainstorytelling/Group/SolidAurora11Group
+
+!procedure SolidAurora11Group($id, $name="", $tech="")
+  DstGroup('SolidAurora11Group', $id, $name, $tech)
+!endprocedure
+' definition of the Item domainstorytelling/Group/DashedAurora11Group
+
+!procedure DashedAurora11Group($id, $name="", $tech="")
+  DstGroup('DashedAurora11Group', $id, $name, $tech)
+!endprocedure
+' definition of the Item domainstorytelling/Group/DottedAurora11Group
+
+!procedure DottedAurora11Group($id, $name="", $tech="")
+  DstGroup('DottedAurora11Group', $id, $name, $tech)
+!endprocedure
+' definition of the Item domainstorytelling/Group/SolidAurora12Group
+
+!procedure SolidAurora12Group($id, $name="", $tech="")
+  DstGroup('SolidAurora12Group', $id, $name, $tech)
+!endprocedure
+' definition of the Item domainstorytelling/Group/DashedAurora12Group
+
+!procedure DashedAurora12Group($id, $name="", $tech="")
+  DstGroup('DashedAurora12Group', $id, $name, $tech)
+!endprocedure
+' definition of the Item domainstorytelling/Group/DottedAurora12Group
+
+!procedure DottedAurora12Group($id, $name="", $tech="")
+  DstGroup('DottedAurora12Group', $id, $name, $tech)
+!endprocedure
+' definition of the Item domainstorytelling/Group/SolidAurora13Group
+
+!procedure SolidAurora13Group($id, $name="", $tech="")
+  DstGroup('SolidAurora13Group', $id, $name, $tech)
+!endprocedure
+' definition of the Item domainstorytelling/Group/DashedAurora13Group
+
+!procedure DashedAurora13Group($id, $name="", $tech="")
+  DstGroup('DashedAurora13Group', $id, $name, $tech)
+!endprocedure
+' definition of the Item domainstorytelling/Group/DottedAurora13Group
+
+!procedure DottedAurora13Group($id, $name="", $tech="")
+  DstGroup('DottedAurora13Group', $id, $name, $tech)
+!endprocedure
+' definition of the Item domainstorytelling/Group/SolidAurora14Group
+
+!procedure SolidAurora14Group($id, $name="", $tech="")
+  DstGroup('SolidAurora14Group', $id, $name, $tech)
+!endprocedure
+' definition of the Item domainstorytelling/Group/DashedAurora14Group
+
+!procedure DashedAurora14Group($id, $name="", $tech="")
+  DstGroup('DashedAurora14Group', $id, $name, $tech)
+!endprocedure
+' definition of the Item domainstorytelling/Group/DottedAurora14Group
+
+!procedure DottedAurora14Group($id, $name="", $tech="")
+  DstGroup('DottedAurora14Group', $id, $name, $tech)
+!endprocedure
+' definition of the Item domainstorytelling/Group/SolidAurora15Group
+
+!procedure SolidAurora15Group($id, $name="", $tech="")
+  DstGroup('SolidAurora15Group', $id, $name, $tech)
+!endprocedure
+' definition of the Item domainstorytelling/Group/DashedAurora15Group
+
+!procedure DashedAurora15Group($id, $name="", $tech="")
+  DstGroup('DashedAurora15Group', $id, $name, $tech)
+!endprocedure
+' definition of the Item domainstorytelling/Group/DottedAurora15Group
+
+!procedure DottedAurora15Group($id, $name="", $tech="")
+  DstGroup('DottedAurora15Group', $id, $name, $tech)
+!endprocedure

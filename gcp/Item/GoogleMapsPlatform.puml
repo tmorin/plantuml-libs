@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/GoogleMapsPlatform
+
+sprite $GoogleMapsPlatformXs [10x10/16z] DSU50S103CD0b-Nz5svG3xaekgtEDYJ0Bxoft5zIjtIIkYDoJGAg2gD3o_n-
+
+sprite $GoogleMapsPlatformSm [12x12/16z] 9Oi50W0W30BNyVyFA-EC1I0WruJ4xiwm7xGS6iMdRprn6qUVlzSPlUm7Vi0sv43RGfGEqWmIhXy
+
+sprite $GoogleMapsPlatformMd [16x16/16z] HSi94e0W34FHCWOIxdzXxPBnkpwWqV7k-BjVr35Lb1SeNQRLdXs9nyxFfZH6MJO0ZsKFCkLsPtAy07gx9qvoHRWaZCp3ZXvszWi
+
+sprite $GoogleMapsPlatformLg [20x20/16z] {
+JOy75i0W2CNG8iJx7xWB_tkaqoZB3iuEiqxi5yYcsELWI2saG0vUcV6xA3Mrdv0e5Bm2Gi41QzevYCw5Uq_oCd3tw_tsmbxyoeyRlyew9gvN1MsEYbw_MjOe
+bTPn9UkqP5s62P4wrfYOU
+}
+
+!procedure GoogleMapsPlatform($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/GoogleMapsPlatform', $name, $tech, $desc)
+!endprocedure
+
+!procedure GoogleMapsPlatformCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$GoogleMapsPlatformLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure GoogleMapsPlatformGroup($id, $name='Google Maps Platform', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$GoogleMapsPlatformLg>', $name, $tech)
+!endprocedure

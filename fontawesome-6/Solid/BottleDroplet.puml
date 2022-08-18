@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/BottleDroplet
+
+sprite $BottleDropletXs [6x10/16z] Os3Wv-Td096CI2G_a0018Ca98daPG2GVc0G2A0a
+
+sprite $BottleDropletSm [7x12/16z] JSN50K81042XPxViFwtncmk5HtNXM4LhKE0s9chR6s7fzWK
+
+sprite $BottleDropletMd [9x16/16z] POh50S0m30ElpCt-sqQcLumYc9iArL40_Ma0Y_tNCYjCzYtz1fWiyMjd0n3WAl0MQ5zbh6R-0dC0EW
+
+sprite $BottleDropletLg [12x20/16z] XSg30S1G303HgztRVzhQ_4XU09IE9s0y4yqdCxV_7SriHvkEh2REMwu7eeFZCHMxGvhL3R0wFRWzM6jtUtTqCCt2b1u
+
+!procedure BottleDroplet($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BottleDroplet', $name, $tech, $desc)
+!endprocedure

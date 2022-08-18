@@ -1,0 +1,13 @@
+' definition of the Item material-4/Maps/LocalHospital
+
+sprite $LocalHospitalXs [10x10/16z] Oy0A-240pE9XWB9uE1buUC0iY1g4B8A5f1S1
+
+sprite $LocalHospitalSm [12x12/16z] Oy09-640mcPbuOMpcHXWR5Oc1WOc9XumcmMi3SBcvMLYuEB5K0yaUNXWPa813ugj
+
+sprite $LocalHospitalMd [16x16/16z] XSk30G0n30NGNolOVzgp-Se8_nglyXJgpWunZn_lmoa6x7liCQENEDZnjPPkywyn4QrnqPt1m6uCRde
+
+sprite $LocalHospitalLg [20x20/16z] fOs54S103CFAA7_sdxRC33ho9GRl7x8bINUp5Pfl2gEe4sw-qOcRco1l133V8c-4vxVznfUR0PlR3DqjbPjHu3sc1W
+
+!procedure LocalHospital($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/LocalHospital', $name, $tech, $desc)
+!endprocedure

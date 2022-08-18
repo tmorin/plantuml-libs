@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Gifts
+
+sprite $GiftsXs [12x10/16z] Os3Wus200NuWG6QpGvbWSIW20aPMDcP-PZOsi30KOx2X09SQ
+
+sprite $GiftsSm [15x12/16z] ROg50S0m3CFiCUl_QyTKK24nIFQY3phWa-OlPmu6Jv8cYnFHtk_gKWmC1Rxa-sNbj7D-bnntpYygpw7S
+
+sprite $GiftsMd [20x16/16z] ZOp50G0X30Jt7D_-kpqI_CUWiG5W3tDYuJ8aRLno7vKbvvAauej1PC71UJ651s05UbtvCYttWHV4WS2QC-8GSSgNeLAraFImRUPEfJurvnKuVNPzdzx7D-T-
+
+sprite $GiftsLg [25x20/16z] {
+jSrL0eCm48JXFsmrDlS_RMrmNik7HDO0UXegHv7K98ATa2onatt_O4UJpaRJ91Cr0zph4z3CFQ5wqQGXfQVQNKfL0qiZ97U6h9W3X3Qoh2Ex8piZi3S7Ybsd
+pH-7XupdDj3V
+}
+
+!procedure Gifts($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Gifts', $name, $tech, $desc)
+!endprocedure

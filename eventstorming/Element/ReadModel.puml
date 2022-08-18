@@ -1,0 +1,14 @@
+' definition of the Item eventstorming/Element/ReadModel
+
+
+skinparam file<<ReadModel>> {
+    StereotypeFontSize $FONT_SIZE_SM
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor #77dd77
+}
+
+!procedure ReadModel($id, $label="")
+  EsEntity('file', 'ReadModel', $id, $label)
+!endprocedure

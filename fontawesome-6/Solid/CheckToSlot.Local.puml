@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-6/bootstrap')
+
+' loads the Item which embeds the element CheckToSlot
+include('fontawesome-6/Solid/CheckToSlot')
+
+' renders the element
+CheckToSlot('CheckToSlot', 'Check To Slot', 'an optional tech label', 'an optional description')
+@enduml

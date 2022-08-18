@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2022/Resource/Analytics/AmazonEmrHdfsCluster
+
+sprite $AmazonEmrHdfsClusterXs [10x10/16z] NOd50G0n48I8hVPVxxc6pmZyIShThDXH0eTsVfBcJEGuRPAqmLdRBLk15G
+
+sprite $AmazonEmrHdfsClusterSm [12x12/16z] POpL0KDH34BFTHBsdxVUftpXtE3YdMFzg33B9Y8Co2G5ehiKsH_-dV3boz8mfPG9aEJloEggst-17qy3Jm
+
+sprite $AmazonEmrHdfsClusterMd [16x16/16z] TSwr0GHG3CDGVKnYxp_lCOEwrua_MOetWzxSMlg5x47OIJlL1HY14320TENThJnXnLxzwWM0WQi9JvHsOPrgG5cFXseWyc5sEkTqRw-_2RpubMJL0ZW2
+
+sprite $AmazonEmrHdfsClusterLg [20x20/16z] {
+VSq50iGW40J1HWB3pl__U-ovTxo2yBUm_MuRMlbYhcycHLdYKG-Q2zE-Znq1h8wWLHnP4iMEYv55mgYMj6ws8HzpZLAu6TdhLqpF730jbPi1ie_BlcDc9blx
+cNRDbwNLsd4tbfP5TtyGEQes0syctgorMTwixY0x0G
+}
+
+!procedure AmazonEmrHdfsCluster($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Analytics/AmazonEmrHdfsCluster', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonEmrHdfsClusterCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonEmrHdfsClusterLg>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AmazonEmrHdfsClusterGroup($id, $name='Amazon Emr Hdfs Cluster', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AmazonEmrHdfsClusterLg>', $name, $tech)
+!endprocedure

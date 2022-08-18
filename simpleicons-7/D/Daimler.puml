@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-7/D/Daimler
+
+sprite $DaimlerXs [10x10/16z] Oo0TC7CmSB00QKvYDG
+
+sprite $DaimlerSm [12x12/16z] Ow0QO65dPsPXOE1cuA745
+
+sprite $DaimlerMd [16x16/16z] lS470G0n202nQzdWN-yF4oGi4-UGAAUfqnTcmWXb_iAo5m
+
+sprite $DaimlerLg [20x20/16z] rS490SD00CCmEsdlvSztD5Q93xA7YvdfQxdpYLZMX7MU8fTiJ4Ar4aCRNlxS3m
+
+!procedure Daimler($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/D/Daimler', $name, $tech, $desc)
+!endprocedure

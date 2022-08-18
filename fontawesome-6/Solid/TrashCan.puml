@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/TrashCan
+
+sprite $TrashCanXs [8x10/16z] Os1WuEVdPs3WvOS01XY0yK6GA1e2
+
+sprite $TrashCanSm [10x12/16z] bSP50S0m0C30Z7dnhxPS0RtN0PCA77Qy7KzpO_EZY0njxclE2
+
+sprite $TrashCanMd [14x16/16z] jSV50S0W44JH7tB3flzgSTa6UAj3foRIvPmrj2ScMJZZ8nWWOwH_j5k9sQzIbbgdqO0kAW
+
+sprite $TrashCanLg [17x20/16z] pT350SCm5C1GjM7K_jE6wJiBv9brD1jN7PjiuQvUhl_1H6c2bwmBe308OJn3YT8uyhNGBolhzRU5p008NrGm0m
+
+!procedure TrashCan($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TrashCan', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item azure-4/Item/Databases/ServiceCacheRedis
+
+sprite $ServiceCacheRedisXs [10x10/16z] Oy06cDZO62445nSNDunWOc5XOGUpk3bPkBY1B4uWoGN4R40zO1QGXhCG
+
+sprite $ServiceCacheRedisSm [12x12/16z] TOg30G0130DhxZ_lsxYw2Vp18e9RRrFhlLVLfSy6slPEoNd0BAwLCB6QLwvxrMguCW8
+
+sprite $ServiceCacheRedisMd [16x16/16z] XOk50GH130A9y4Bwh_VSTLOY05unTxUrMf8CMshzo8zghUeur5-4Hwxpa4rVvj8lVwhDhFa7u3dDuHYPPk1n5bOY7PUq
+
+sprite $ServiceCacheRedisLg [20x20/16z] fSw33KG154JHP_PVxvhVED7aHWDd8CiDqzyYkn6KdzLbgkQTV-jXQgL3_3TYkKF_QKoYgeBsqxhI9QhxhpqyMm3ae1ayVHeyd6wFivK6krm1
+
+!procedure ServiceCacheRedis($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Databases/ServiceCacheRedis', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceCacheRedisCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceCacheRedisLg>', 'Databases', $funcName, $content)
+!endprocedure
+
+!procedure ServiceCacheRedisGroup($id, $name='Service Cache Redis', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceCacheRedisLg>', $name, $tech)
+!endprocedure

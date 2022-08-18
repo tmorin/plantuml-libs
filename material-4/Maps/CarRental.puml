@@ -1,0 +1,16 @@
+' definition of the Item material-4/Maps/CarRental
+
+sprite $CarRentalXs [10x10/16z] LKY30G0W4Cp6_jFcdcT1JlR-agdTkIxuzL9AWsQtXBvlfoXMa2V1PfvC
+
+sprite $CarRentalSm [12x12/16z] NSQ50S0m3CJ0BtEr_xHXLcBxr0TNjV05twpIksfidLrRz1Vs7lR_-OWMe6W-u4rUVD5ptXO
+
+sprite $CarRentalMd [16x16/16z] TSo50S0m20H0wWg__xHnbwiaA0sya39SSK3OAkB__y5rFtQQ-DbwOtYjP3qnZdlF47-h5_8R19OWn4mCOASOuuV5ENPodC-E1W
+
+sprite $CarRentalLg [20x20/16z] {
+VOy54e0m40Fhw97_lnQeUtSiSvgm6Pf8DIME7rxNTZ29GAmf464tnXpOq-097Euk55l2XQFy8t1xdkAn3EB9avJCctJjIjqxUyx4sW5rmgAFNAEGZV5YxeQ3
+a6l3UxrITwSwFW
+}
+
+!procedure CarRental($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/CarRental', $name, $tech, $desc)
+!endprocedure

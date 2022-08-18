@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/Q/Qualtrics
+
+sprite $QualtricsXs [10x10/16z] VOQ30S100CHIkzb_sjhuOmXBh9LOq2qdsOk9YcJBoeT6
+
+sprite $QualtricsSm [12x12/16z] ZOV50SD00CCKE0RjFsqPFeMOpH6uuLGOqbn4UJYXo_kFaQRW5574ZF6-OuVOExNH-O8p
+
+sprite $QualtricsMd [16x16/16z] fSU50GDH3CDG7PCRxRzjypSe1FtujnGEey2i73xeeHj4GIFj0eVHk_q8ZeCURLmETw7KOLFLdhrdg_tIjQrqV6HMTlTiG1B8mnQ-h3S
+
+sprite $QualtricsLg [20x20/16z] {
+lSw5GGHH34NHkswPV_gl5eS6W8rxNiyW7XNhCmYTAUw3QezQ7Echjg62VMEv55GtLesRhPsXkgB6WIuVjk3mNbkEcoZMdVVQ0QB33vP3k4HSwyJws5USPweU
+CxFlC8-QwO_f5G
+}
+
+!procedure Qualtrics($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/Q/Qualtrics', $name, $tech, $desc)
+!endprocedure

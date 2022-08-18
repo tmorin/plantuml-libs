@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/Label
+
+sprite $LabelXs [10x10/16z] Oy0AE4204SJY1mC4Yn_1OiCKmsuQ
+
+sprite $LabelSm [12x12/16z] Oo0Ay4C0CnAR7vdDXyJcPqImkR2hnsCJ
+
+sprite $LabelMd [16x16/16z] dSUr0S0W4030jtY0_QV5lOFh3jOH9vXwcuBZbQdc_zEDJ3VJSVm5tb-h891wsE
+
+sprite $LabelLg [20x20/16z] Ow0-OEI00qQO63yIOCOYneT5Z9yBYnW_AnOnVcnYR9XYF5ZKCMAAiM3QomLr7m-oasa1
+
+!procedure Label($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Label', $name, $tech, $desc)
+!endprocedure

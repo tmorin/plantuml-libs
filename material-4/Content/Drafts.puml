@@ -1,0 +1,13 @@
+' definition of the Item material-4/Content/Drafts
+
+sprite $DraftsXs [10x10/16z] Oq01_FoSO9gT7yHX16CGOEC0IZ629RWP-840I41P_6Wi3YWBoLG
+
+sprite $DraftsSm [12x12/16z] PSR50O1G5C2mulhe_jFY_dCAVuFLkSgIpdohFPi8Y8x3b1EQ0RNkDz3pc-JZwnGNtXO
+
+sprite $DraftsMd [16x16/16z] XOor0GGn0CCSvcZ_QP_nK9rHsoIilZXcOhoL6KH9ZVoGXQe7Tk0bWz6RY6GXl6JbgHdFKzuQaWPV_ULScuLMwL-yphW2
+
+sprite $DraftsLg [20x20/16z] jSo53KKn34FHChTt_sa_usEqo3gE8gPYY-g818X_acXQ1B0Vyk0UfT3ae-X6Ug-wFljpUySHxeR_aYpaXtqlFRmDuklRhu4H2Je6d6FfPg5ZObUk
+
+!procedure Drafts($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/Drafts', $name, $tech, $desc)
+!endprocedure

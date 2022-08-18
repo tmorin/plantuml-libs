@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/ArrowRightAlt
+
+sprite $ArrowRightAltXs [10x10/16z] Oo0Dy8C9CE25YV4HqWG
+
+sprite $ArrowRightAltSm [12x12/16z] Oo0Ji22nUJZ093y4C2B4cKWt5m
+
+sprite $ArrowRightAltMd [16x16/16z] Ow0Vu8NIJ5303nNWXmDs5FNy7AZwEMZXA
+
+sprite $ArrowRightAltLg [20x20/16z] OnYiW8K9KuoL7oR8n043tFn0GQWi4k25AcI40JP-7app-33jO1fORmC
+
+!procedure ArrowRightAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/ArrowRightAlt', $name, $tech, $desc)
+!endprocedure

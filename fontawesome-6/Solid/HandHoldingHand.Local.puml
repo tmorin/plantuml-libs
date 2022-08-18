@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-6/bootstrap')
+
+' loads the Item which embeds the element HandHoldingHand
+include('fontawesome-6/Solid/HandHoldingHand')
+
+' renders the element
+HandHoldingHand('HandHoldingHand', 'Hand Holding Hand', 'an optional tech label', 'an optional description')
+@enduml

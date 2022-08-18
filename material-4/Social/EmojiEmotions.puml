@@ -1,0 +1,16 @@
+' definition of the Item material-4/Social/EmojiEmotions
+
+sprite $EmojiEmotionsXs [10x10/16z] LS770S0W3C100VOdJVjFczwuewCpXyb31Ro0aZ8QU1jPRC1Y1OLGe7c0GquLs
+
+sprite $EmojiEmotionsSm [12x12/16z] NOe50aGX20Njrhd_RHVStsF02_Ebz7Xi4oNVAsWaFym2qfLlKInOCpXn9iadUDZz8l_QUm6qQ6NNrh4grktn0m
+
+sprite $EmojiEmotionsMd [16x16/16z] ROw50S0W30Hnb_stRRH-rHSWvXzhxsfi98boMvYiHQanLC3ZESRNCe4A5dGkc651TrCudyH2JUk3Jj7Way5myCKzQ4hiBJgr608tPYa4h7GiVpW
+
+sprite $EmojiEmotionsLg [20x20/16z] {
+bO_55GGn34CLvgJ_QWVyh6Ny1pFYF_8w60vNqbAcPQYlA_PQTSL8RDtHE3vAlyCy9Ck08B8TqcjibbFsUigYiSU1Zx44o5m-CFL2Bqk482QJ4ymcYRbrCleK
+1J181eXjrvqtXDgpnNjs
+}
+
+!procedure EmojiEmotions($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/EmojiEmotions', $name, $tech, $desc)
+!endprocedure

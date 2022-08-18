@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/LabelOff
+
+sprite $LabelOffXs [10x10/16z] Oy066FaPE3av6K5CVduWuWUpu4n-29CDo08pmM9WW6m20W
+
+sprite $LabelOffSm [12x12/16z] Oy05s7cHEFoy3Fn0m0ncGpaGDZyVc02nGG14CeBO41bEg3X83rWzZ8C074merW8
+
+sprite $LabelOffMd [16x16/16z] XOk53G0n3CIkJ87zftrcTD6MWb_euiA06p6pP-NXZBZ9MRUmkWhIwBJw6lpa4_F8xZ86i_WI0WP85nWJNYzXWmc_z
+
+sprite $LabelOffLg [20x20/16z] fS-54O1034JHFTpJVxKu7_STVnFLhrJbtfoPbAHzt8HcfPmDyR6kSh0AMrHcsA8on1QLsA8omgWig9ihXL7fOOlA8UN2pdxVne_rF0q
+
+!procedure LabelOff($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/LabelOff', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,21 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('homecloud-2/bootstrap')
+
+' loads the Item which embeds the element PodGroup
+include('homecloud-2/Container/Pod')
+
+' renders the element
+PodGroup('PodGroup', 'Pod Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

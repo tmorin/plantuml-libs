@@ -1,0 +1,13 @@
+' definition of the Item material-4/Communication/CallReceived
+
+sprite $CallReceivedXs [10x10/16z] Oy03k64CVX312MQ0MI06X0LaG5dyd9oSECm1
+
+sprite $CallReceivedSm [12x12/16z] Oo04M15CDduC9Z-IA3-I0duajVn09fmD0lYi0m
+
+sprite $CallReceivedMd [16x16/16z] fSUr0S0m30H0OINQVzfm3Aqj_8EDSffPE39-Kam4hklanS5vxU2uE3WA9vSoy-Yx65Rg1
+
+sprite $CallReceivedLg [20x20/16z] jSor0O0034JH62wt_xIuNbhuvOl8TwdaqB4O46mFKijR3OujbxTjMsGRlMpR8cDQR7lFrZThBpkIVve1
+
+!procedure CallReceived($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/CallReceived', $name, $tech, $desc)
+!endprocedure

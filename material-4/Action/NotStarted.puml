@@ -1,0 +1,16 @@
+' definition of the Item material-4/Action/NotStarted
+
+sprite $NotStartedXs [10x10/16z] LOp50G0X4CJcX0-M_gl5DUkg2mWjEYflwpHQeZV0tpD5NB6IjSMzfwyd3UFhZmm
+
+sprite $NotStartedSm [12x12/16z] NOi50i0m3089S___RqUOjbU90AWPb_xkjYCPxjPqwbMQwH3ovi_G7rZTWyT1zEw7_ErVT_iTC07HVwq8kfm
+
+sprite $NotStartedMd [16x16/16z] RSg54GGm449Hufxjlzeev_T6_m3-K-gzgco1fONQRNbguBarEGndhNNcGR7XP04q6uYxNtkxEzYovTL1NXIM_io8epsJpBuKXJyc
+
+sprite $NotStartedLg [20x20/16z] {
+bSu53WCn30H0Xpdv_siBAwkRAz-8BBESazVDS49fgMb5jKMMNMIGMmVjiNvAzdC1sZHdPI3qUqv7oZ4dKnSoPx0neQOvpmyHpj3gubqqKaBExQaXW2HJoZGE
+RaBj-F2JAm
+}
+
+!procedure NotStarted($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/NotStarted', $name, $tech, $desc)
+!endprocedure

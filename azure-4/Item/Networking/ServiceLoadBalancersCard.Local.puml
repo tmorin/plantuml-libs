@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-4/bootstrap')
+
+' loads the Item which embeds the element ServiceLoadBalancersCard
+include('azure-4/Item/Networking/ServiceLoadBalancers')
+
+' renders the element
+ServiceLoadBalancersCard('ServiceLoadBalancersCard', 'Service Load Balancers Card', 'an optional description')
+@enduml

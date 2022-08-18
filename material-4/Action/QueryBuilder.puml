@@ -1,0 +1,16 @@
+' definition of the Item material-4/Action/QueryBuilder
+
+sprite $QueryBuilderXs [10x10/16z] LKd50S1032BsgR7_j3st28fZoBVomsAq0F0LB5UK-b2uAu8Iskg6HaKqYtWqOm8
+
+sprite $QueryBuilderSm [12x12/16z] NOg53S1030FzpF7-srO1KKzWn9zvMhZ7MJU7sGE5EX60kCuHNX9k2Nyp-hPt0LMWbAGwHNrYKkcKIxL6oYOV
+
+sprite $QueryBuilderMd [16x16/16z] RKm55WGX568wLBZ_RVVzscP2IVp7DBspBiEUR1PN0AT6SBNiXD1f6RgmcBqMHnycuibtsTgBhoeVbzKEk-k0OvpW3HSJcoOxo2dfcKdrRJcOr7OfgLdg1my
+
+sprite $QueryBuilderLg [20x20/16z] {
+bOe5cWKX3CR-GKQXkVzjzolTvnuyHB-n0lHyPHQmTdImT58DqgbEf-gGWWIJ71YD-PxZVoLTd1eZCrsvH75tN3kn-RPVkqXeSb9d7cwHP2WesAHA6jT52bQ9
+A8oa4niHP2oVLLUGuV2qCbIG3e95rzIzhKcl-GC
+}
+
+!procedure QueryBuilder($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/QueryBuilder', $name, $tech, $desc)
+!endprocedure

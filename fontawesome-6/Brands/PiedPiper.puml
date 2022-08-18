@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/PiedPiper
+
+sprite $PiedPiperXs [9x10/16z] NS770OD0400nEPkmD_rton_9tV0REl7WqqveMOPwoV8eCXgWDu9VFRW
+
+sprite $PiedPiperSm [11x12/16z] ROh50OKm04Fh_KAQ_RSbZpELU7avKu0lsJlgQW6V4SJAvSH7TGVN8uqKyXyLB3_2cX7jJmK2o4OKf-aFtG
+
+sprite $PiedPiperMd [15x16/16z] VSVLOSKm50FGOtYGnBxQVzhoLqai_-1HNxskgUK0kswzdyaTPCB8Va1DQ8azK209uN67IXR5RXX91elLaIJOp8jxaeOW91VqmdFTqq30zVbwEZ1IQoT-uXK
+
+sprite $PiedPiperLg [18x20/16z] {
+XSy50iGW34JHgQFvzp_j2e5rQT6NOFhxxUa5g7sG06m_Y3u_FB926J2rFi3iqc63DTbrPA7114WjYvu99ksNkbY326IFhtMai3nA0P3BR7rRDXUl5TZRdUfr
+bYN6U_1shQmEnGCB0mofassJfkXBnsC19dt-pW
+}
+
+!procedure PiedPiper($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/PiedPiper', $name, $tech, $desc)
+!endprocedure

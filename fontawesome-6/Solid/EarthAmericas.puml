@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/EarthAmericas
+
+sprite $EarthAmericasXs [10x10/16z] BSZ50O1000Emu4xttnPEygd0aLMHJ9A3NEIt2EvIZxHB2eQirreQ_RsDfHrzOad11m
+
+sprite $EarthAmericasSm [12x12/16z] BOh50GH108CuMHVwhtOqVA9qBdSc-cpgi0lyLQV5peFvlNW97nrUpGjtLUP6_1sVxyOSHW4yfgq
+
+sprite $EarthAmericasMd [16x16/16z] HKq54i0m28Ev0V__xIv99LjR96B47lMwTKG9freL68JQoVbGY2IuDTM1RidQnGxm7zigA7_4fgpxFknVBO2auUo3bN9xGk8XOTVRQU8Tq7qagYMyY4Jz0m
+
+sprite $EarthAmericasLg [20x20/16z] {
+JP075aCX3CFqzmJV_xPj6apH7_Y97HfNrRipiAbH9Yj9TG45bzNRsk3E-5Zzs61heoOPa4ZUD9TEL0aMbZ0lX5QeEuHTbSeyI2Xoz3OxZrxFwQV_-dJLBc1q
+USP2-K-UCyxz_0o9o-bqw4TRFNCiQOBnj9A3FW
+}
+
+!procedure EarthAmericas($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/EarthAmericas', $name, $tech, $desc)
+!endprocedure

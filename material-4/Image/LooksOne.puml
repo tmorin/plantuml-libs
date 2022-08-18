@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/LooksOne
+
+sprite $LooksOneXs [10x10/16z] Oy0A-240pE81yI1YJ7XPN42Cf1S1
+
+sprite $LooksOneSm [12x12/16z] Oy09-640ayt4m8iGPoA9ZMac3ugj
+
+sprite $LooksOneMd [16x16/16z] Oo0Ck7bXW0F4vU5702OWdnSRdu612ONFouZ41xCevBEouhAV4udF278m4nmmOdeE
+
+sprite $LooksOneLg [20x20/16z] Ow0CyF8Z0pQm63yAuCKYneSGum4oqCLucL35881fWCIuE975O02d60zOZ9sN3m60_Y4Q
+
+!procedure LooksOne($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/LooksOne', $name, $tech, $desc)
+!endprocedure

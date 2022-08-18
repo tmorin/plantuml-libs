@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Searchengin
+
+sprite $SearchenginXs [9x10/16z] Oq00VY04qr3CnSd0pSq6PF4oS_53XM6AkFbv-Vdvu3hviR
+
+sprite $SearchenginSm [10x12/16z] HSQ50O105CFGu4xsdnOv-zO-YDax-mJTH_Sa185hGvFEW-vCIj4bdNQQHCVEaPX6-o2DBm
+
+sprite $SearchenginMd [14x16/16z] NOx50SKm5CCSvcZ_QJ-K6zqU6BHYl8_NC947SmuXRQiDWgQisCQ614Dzcq0MdD8sPHJ49QHBo52tgOA93Res4a4Ci5URBRVf0V2OCgzhfEl9_08
+
+sprite $SearchenginLg [18x20/16z] {
+RSm5eiCW403HMVZIOdF_qrRZoSDPuLgGs6fcTB1GWweowKgUpY-51XdD01JlOBNoDoKD4wY0JcqoPVVpwo2mGBFmeG46eJ0bUKDkEfXKBRtevYlQFMpnhmNs
+r3zsqlbBDTWPAdlbt3sb9m
+}
+
+!procedure Searchengin($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Searchengin', $name, $tech, $desc)
+!endprocedure

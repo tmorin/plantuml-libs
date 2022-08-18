@@ -1,0 +1,19 @@
+' definition of the Item material-4/Action/PublishedWithChanges
+
+sprite $PublishedWithChangesXs [10x10/16z] JOg30G0n54FV6KNsdxRMPyHIre8ho2WTxVaKhWP-jvy9AO4KmeCIkFObnwwjKyvo8m
+
+sprite $PublishedWithChangesSm [12x12/16z] LSQ30GH104FHjyOW_LTxPlZzQHn7bXSddDcWbK0Mn8X5E3Ouem_gDEMEwcWz70bUtHc6O0ya8wpf90FmkYi
+
+sprite $PublishedWithChangesMd [16x16/16z] {
+XOrN0aGX2CIYyBeuzp_j5lZREjR40d_J97MGDYgUpAuerfLCAp4clLF203cPSpBYAIcKiGgwC7aYfZe_T3sHJO2sftWYyygwG8VH5xMqjOIqG-qkJsvKR0QS
+4S5RxW
+}
+
+sprite $PublishedWithChangesLg [20x20/16z] {
+ZOu7SeHG34Fr2ntlk_zjWyPcUf9zT1L6-fxxuPJqYQ6N3dpiFO-kuh9cTYXnux9MbIO3KYWPN7uSpgTx30LwS2yv2NMc9ATd5jpZyEtK839L4N5xH1pSCkoU
+JouBcGKldAmMNUavp46w4dImrKv6QH1AEjojDBsq6xRKyZ_9dFgJ7m
+}
+
+!procedure PublishedWithChanges($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/PublishedWithChanges', $name, $tech, $desc)
+!endprocedure

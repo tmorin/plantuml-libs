@@ -1,0 +1,27 @@
+' definition of the Item aws-q2-2022/Architecture/AppIntegration/AmazonManagedWorkflowsForApacheAirflow
+
+sprite $AmazonManagedWorkflowsForApacheAirflowXs [10x10/16z] FKg74S102EAxwFxxHkKkLXf9gtgFF_I6IEWDSNUYbQYrX7lWdKHPH6OZltlc604aEYTHAC0F
+
+sprite $AmazonManagedWorkflowsForApacheAirflowSm [12x12/16z] JST10WHH10FH3saIzx_li9jQlUBMLrNnRyHdZmqpbEGq4kNLqhDpDiuVr_HUkvwR1R4sIGI3FIgKXDoTCTcQplLyaXgeyqWN-GC
+
+sprite $AmazonManagedWorkflowsForApacheAirflowMd [16x16/16z] {
+NSi7aWGn24FHHTq4uVlVTv4zMHNVBw1MPpdZJpZYbjQavwtc4L7PpMJeA6zurVYEQnjbSW-stK9c63_lEziAPWbYstB_fF_D_PgWA2DOQ_NLK4ZGo76qonK8
+USsTR036Mf-Huv_m3m
+}
+
+sprite $AmazonManagedWorkflowsForApacheAirflowLg [20x20/16z] {
+PT1N0WGX20DGB9J4-zztXSMloLIVNLJYnJF05_75D5jhMUBAN2EmaSz5wPRaCroRSrua-GpY5jlBNFVsiXWktMubf24ish1scwYqaMlkEOQuGzls0hlT7dyB
+Pj9wdUTKpqB1Z06aAGbBb33i0CuvrvX6mUs1CeeAoqnLorB_gHDBU_YuxUd37m
+}
+
+!procedure AmazonManagedWorkflowsForApacheAirflow($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/AppIntegration/AmazonManagedWorkflowsForApacheAirflow', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonManagedWorkflowsForApacheAirflowCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonManagedWorkflowsForApacheAirflowLg>', 'AppIntegration', $funcName, $content)
+!endprocedure
+
+!procedure AmazonManagedWorkflowsForApacheAirflowGroup($id, $name='Amazon Managed Workflows For Apache Airflow', $tech='')
+  IconGroupElement($id, 'AppIntegrationFamily', '<$AmazonManagedWorkflowsForApacheAirflowLg>', $name, $tech)
+!endprocedure

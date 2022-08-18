@@ -1,0 +1,21 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-4/bootstrap')
+
+' loads the Item which embeds the element ServiceDataLakeStoreGen1Group
+include('azure-4/Item/Analytics/ServiceDataLakeStoreGen1')
+
+' renders the element
+ServiceDataLakeStoreGen1Group('ServiceDataLakeStoreGen1Group', 'Service Data Lake Store Gen1 Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

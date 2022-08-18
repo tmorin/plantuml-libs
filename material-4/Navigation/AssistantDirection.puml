@@ -1,0 +1,19 @@
+' definition of the Item material-4/Navigation/AssistantDirection
+
+sprite $AssistantDirectionXs [10x10/16z] Oq06_4301sM0CPW0aTn0pC3Cp0-YW2AyJ402pE41IyFLiI3q0W4Fa6PbO
+
+sprite $AssistantDirectionSm [12x12/16z] LOo54S0m549Vt9Fzjot7QRyBmD_2arsFNLDHHdo5vEh2okzrDDPptj67bzavdixH_EAEL8RkrmfCYPaSTRL4L3iUPJeQm0S
+
+sprite $AssistantDirectionMd [16x16/16z] {
+ROu50WCn3CFK9CVW__zsSyVWebJaN-gKjBKxDTsplN31_M7kU1zdg3ksBk2y8N5O5CQGOx7YFQc8L6FKZdHU6LeZVU7U1M1K4BAueu3Tueu5S5hK_JlE8gUl
+tZEinn8u5m
+}
+
+sprite $AssistantDirectionLg [20x20/16z] {
+TSm50WCX44FHu6kG-z-sdGdK-rTv2FvNpZwkFRr8uso4HHSjlUih1UoqYZQACD5iqS8JA4yQGk1q2kaUXGdT25IdOS6m0y0UOsJtuoikiW6y_3o4GMO_eScC
+_VH4HoyO4G2Vw9G1HE5QrM6rYKw4AbHQjRge2bvBjPK8TGC
+}
+
+!procedure AssistantDirection($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Navigation/AssistantDirection', $name, $tech, $desc)
+!endprocedure

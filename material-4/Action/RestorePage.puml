@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/RestorePage
+
+sprite $RestorePageXs [10x10/16z] LOd50O1G08MmM_QVrlp9vGKKg4v_IzLKNJdHjx7gPh9_Wyxw6_ONk04
+
+sprite $RestorePageSm [12x12/16z] LOa75W0G34DZRxd_RJsRJziC_EHIYbkI7VTekgM3BgJgEejC6vP69J4rErixtQkTz-awiJCrv0He
+
+sprite $RestorePageMd [16x16/16z] RSZ50GCn0CJ0FJHR_LSRZbc_aHRjxxP2lfdYOL16TKvraDYroq3yEke6bAet85n_VmjdiR60OZ7xTiXGJOfG_Aqu5f-QUW8
+
+sprite $RestorePageLg [20x20/16z] bSW54W9H30JHMVaUClS_BGuJdEsoheSDyLeH9JxXpOGoeKmeIy3SJtCpwnFC2seqJ3ncY0Rq4qv3HdS_MvVT0eCvCcdJ6esxqooCTb9pHhibMzuOajqR-D01
+
+!procedure RestorePage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/RestorePage', $name, $tech, $desc)
+!endprocedure

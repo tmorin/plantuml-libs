@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/Bookmarks
+
+sprite $BookmarksXs [10x10/16z] Oq06_600P72200C_J8YDT1R8E3uWvW6o
+
+sprite $BookmarksSm [12x12/16z] Oq03_120B08NvKDYyrF4veMmsM0syO08HX0R
+
+sprite $BookmarksMd [16x16/16z] lSUr0G0X00ImUyLX_sbnXvfqmOumMVwJI7E7tMat44zDnj9LkJn-FjqBrm_mw7AAv2Bm7
+
+sprite $BookmarksLg [20x20/16z] Oy09c7dve82N2IR6Zm0yc1hu-S0q8oSCC0DryA5hPC8YnZOanTXvCSKG0SN7pi3AYoB6nmG97nw465W48WfX0W
+
+!procedure Bookmarks($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Bookmarks', $name, $tech, $desc)
+!endprocedure

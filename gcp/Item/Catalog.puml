@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/Catalog
+
+sprite $CatalogXs [10x10/16z] RSY53G0m20J06hR_m3ZHefTV_zfU08vxBq2AY4eYikAUaFkuAhgJNNBThcK
+
+sprite $CatalogSm [12x12/16z] VSY53G1120LHdFp-6xvrYDt4NeR-if7BaezeEKVN4SyEv3W0baTfspeIw79aW3YNRzJx
+
+sprite $CatalogMd [16x16/16z] ZSp50G0n24JHkFHVS0J-khxJeEQVeDRQ3Y56Xb4iTPfsTPwe8JMv3lAIK7UeIOMQksofavjDPxBMYEN-7z01
+
+sprite $CatalogLg [20x20/16z] hSs50G8n44JHMOlqtp1CP77ddV-Bu0yibYmouQnvJ99DZFIYUQLurOHyDcBhPA3ALvqjtJP0JwqDy8h81kARIRO2FJu4XhfQOdgyhrt1NGS
+
+!procedure Catalog($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Catalog', $name, $tech, $desc)
+!endprocedure
+
+!procedure CatalogCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CatalogLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CatalogGroup($id, $name='Catalog', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CatalogLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/WindowMinimize
+
+sprite $WindowMinimizeXs [10x10/16z] Ow0sO8C3VXW
+
+sprite $WindowMinimizeSm [12x12/16z] OnWWmCwF00ny2
+
+sprite $WindowMinimizeMd [16x16/16z] OnXkW0S5SFFoem9qvG
+
+sprite $WindowMinimizeLg [20x20/16z] Ow0CZ09MDdJ0nCEF2TYmY64p3W
+
+!procedure WindowMinimize($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/WindowMinimize', $name, $tech, $desc)
+!endprocedure

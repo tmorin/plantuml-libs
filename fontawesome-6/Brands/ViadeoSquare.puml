@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/ViadeoSquare
+
+sprite $ViadeoSquareXs [8x10/16z] Ou02Ldu4uENdXZ0O6C4aCoS3YEA727FnypFpW_ci866WA2-O1m4
+
+sprite $ViadeoSquareSm [10x12/16z] TS630SG0402mUzJ8_jFMHX8xBsfP2uXF3L5NLK222WGqa9CbG7m_XQDe5tKF
+
+sprite $ViadeoSquareMd [14x16/16z] XSV50S0W44JHYU4m_LUBwoaFsVqukR18pr-EuH5R0W-hSE5MBsmB1F8JajKLojU3g1_sygE481zpitkkZ8iBh2HtE2G
+
+sprite $ViadeoSquareLg [17x20/16z] {
+ZSzL0eKW54NHGpTx_gDzOUkNYswkz6JTZG9lLO3EHMO6ST6J97QZb2aviJ4oeXaLLiuiPtfZewKkaKqpopLLRAfPwYbkHnnYPprab3aOMNiFSwPyT7aGTqDF
+Nm
+}
+
+!procedure ViadeoSquare($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/ViadeoSquare', $name, $tech, $desc)
+!endprocedure

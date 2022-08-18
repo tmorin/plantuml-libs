@@ -1,0 +1,16 @@
+' definition of the Item material-4/Maps/LocalFireDepartment
+
+sprite $LocalFireDepartmentXs [10x10/16z] LOZ50S1008EeUzb_skffFW6ePuA2JW1MzA_Yf2FyHNy2TtvKllLx3zm
+
+sprite $LocalFireDepartmentSm [12x12/16z] POor0S1030EVsRxzfmrpL8dD3_scmiqXdhG2RcCsD-H8YWHoXvKF2chsLWAy0Rk_a0QSbspsVkKsDWC
+
+sprite $LocalFireDepartmentMd [16x16/16z] TSt50GGn30D0UncIJF_L7ZFe9uu_wFetEkjUQS_moXlrbSDo9pbrOB_nRKdMfw06Sy_jWx5fCR7UE6halR2ZHKpC5vvequBRmGWOuuOiA1a_S0G
+
+sprite $LocalFireDepartmentLg [20x20/16z] {
+VSy50e0W44JHePkv_srTx7xsjm3_3EuqCsuK6N53ijoIfxYrIj5nej0vLEno05TgQupZkJ2URVl86eeqHU6NvaWdMyM8N9hb0iXxKqkAGDaRjeHjEDlBrGSA
+ZLNY9jscAmBERAxPuji4
+}
+
+!procedure LocalFireDepartment($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/LocalFireDepartment', $name, $tech, $desc)
+!endprocedure

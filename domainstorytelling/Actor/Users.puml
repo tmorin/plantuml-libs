@@ -1,0 +1,27 @@
+' definition of the Item domainstorytelling/Actor/Users
+
+sprite $UsersXs [12x10/16z] NSg50S8040J1nPtflrgSsEjPoyBdxtL7AOBzbKvgel-orpih41S1ZYf0JV4J
+
+sprite $UsersSm [15x12/16z] ROp50S0m30El7DR-quRzwmMC4dyyagK7N9BL8z7WPJrHHddqD40-O2s_lKgcOYptoX-I2sOnWoMSHxJoE4yWMNaooMMIW0O
+
+sprite $UsersMd [20x16/16z] {
+VOo50S1030AfUzb_sdUtUoK9OCJrRMM9cg3sPt8btavjfa-BKn_JsciJajg2AKtLfGkEtNKIfIzYVay0tus9QR9BN4d-v3qp0cERyIIrQPedADwaDiEofTuE
+4W
+}
+
+sprite $UsersLg [25x20/16z] {
+ZSy54iGm28NX7rAtT__Rxi2mRlqgyG2SOCtvH67apQxKSzD90xWASEW0B4REf59deKKpCQf0DHPDYoOTS4GBiNS6DYKdZ_1WgNcAnydskcF5A_igE_vhnif8
+XkvcDfKDFHfp6EUiwKacZBcpwed5NDhqn2bl9xZHevsVBW
+}
+
+!procedure Users($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'domainstorytelling/Actor/Users', $name, $tech, $desc)
+!endprocedure
+
+!procedure UsersCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$UsersLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure UsersGroup($id, $name='Users', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$UsersLg>', $name, $tech)
+!endprocedure

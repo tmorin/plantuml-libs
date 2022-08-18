@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/ScaleBalanced
+
+sprite $ScaleBalancedXs [12x10/16z] DOk50S102CHIzsR_QIiF19UZSHDei5DZDM2KTOd-RgKJ4HntgBvJMsyJ323CCt0OTBm
+
+sprite $ScaleBalancedSm [15x12/16z] RKv50e0m32jkbV__bYO1JcGMsTQQu9kzg0zAtC7TByhUToQKbT6RzuhUnhAI51aj2h86yuHZa0F9LGt8KoHxEri-H2Z_xUe6
+
+sprite $ScaleBalancedMd [20x16/16z] {
+TP170eGm3CJetTR_VxiJJvOReWbHa-7FdfF5H6OYKZnE5yQCZfEWeMDFywtTeMGlV1QCtSN3nDXRo2SrZW5wOxDh6nchfRpTo56lgSPUVlE8g6PFDefghv_-
+szPU5_NlQdRpX81ex1zpy0C
+}
+
+sprite $ScaleBalancedLg [25x20/16z] {
+NP050iGW40EN2Wxv_s_lDarrgfDK0BlPPhSFgrFnP-Ej2NpPLNHy22Rkz-OhoYtusGlNvCeR1L4NLm9KP1NKWcBqOOoYplLGdZCA2sazj59Lx9Tg92Wif0Lb
+mz08MF05wW14yABVgglUM6_TG8P-JjNIX5HsJLaQpQ4u6GZaNaHyCF7DkN8_
+}
+
+!procedure ScaleBalanced($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ScaleBalanced', $name, $tech, $desc)
+!endprocedure

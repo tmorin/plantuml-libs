@@ -1,0 +1,13 @@
+' definition of the Item material-4/Editor/AttachFile
+
+sprite $AttachFileXs [10x10/16z] Oq06Z3oyK1O_445Pp0py_CImW6m8Yui1eHai2G
+
+sprite $AttachFileSm [12x12/16z] Oq03d7pyZ30s7mC3FupDmyN0pyGCPVCoy3EpaC3cOe6pUHcO6LYPOEOZMy0FPW8
+
+sprite $AttachFileMd [16x16/16z] hSwr0SGm04DHcTdQVzgxS4nbLEbr7yiLKZJC7eADzrzawuIYWdhDpLb_Qjcw5g8rL5kKBT0LCob7_HgsXFFy0G
+
+sprite $AttachFileLg [20x20/16z] pT150iGW44JH0bhmklzfnot2Vdw2lHrWNMopnIq5TXtSsgYtgRUDKM-JSsUnmOYUVYtDkr7-mI9HviumoRGr1r806BzM1-ufDnUkjqbesmUyvzYMN0EUNG4
+
+!procedure AttachFile($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/AttachFile', $name, $tech, $desc)
+!endprocedure

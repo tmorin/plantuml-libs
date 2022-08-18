@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Brands/Twitch
+
+sprite $TwitchXs [10x10/16z] DOg54S0m3CHqFIn5-qyRCEZDVi24Im9H6FmrcHA-hPpQzpmyZs12J-q85W
+
+sprite $TwitchSm [12x12/16z] PSsr0O1G34NHcmQ7j_-qVFTJnGEeyE5B8ZJ7miurNkVVhyRVaw_VqjK-xKIcXyAk73W
+
+sprite $TwitchMd [16x16/16z] ZSYr0S0m00D1XStQVrepLxdk7n47bT9zZOjDMZH6WQLFu3Yc9g3bxswsVdZF_V82cEMViZMZ4xaRPE_x2jAyBxg36hD3eGi
+
+sprite $TwitchLg [20x20/16z] dSZL0KCn34DHFSP4-szRkMZuwmtwm69eb8pa_Ql9Z1fSifdLsiVw1BGz6cKy_hDxrDcS_HfOZKIoKVGodkS93BgDp5vXfEhmjj92CAkX6bm3UKD5kr3iXEy1
+
+!procedure Twitch($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Twitch', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item material-4/Communication/PhoneDisabled
+
+sprite $PhoneDisabledXs [10x10/16z] Oy06-Dd193-O2M61I3O82o8AOa146S4K2B13MH1jC0KC
+
+sprite $PhoneDisabledSm [12x12/16z] Oy05-DaX53y_c0DZWpbWDZTS6IC_8rmFCp-o0L1TZCmmqq00RXeF8qGP0h0n
+
+sprite $PhoneDisabledMd [16x16/16z] XKw34G1130pUX-s_sZD77pjBltJtm3gRx8bMK02o5AwKSmbgmQKy-px1WAUzSEPah1ZaS1QCrbWkn_CjMUH71htWK4ZpHE_xS-8WuV5MQAFKY
+
+sprite $PhoneDisabledLg [20x20/16z] {
+fO_55KGn24M_nfFRVxNZF0xhmLssV-0aonx0U1juS07pOqq50RgPsGoPgbp0kQaflTKEM4YLDyKYcgaohpn8yZLpr_KJbjhzAhXqdCSWwKwBbV3HdBsSySu8
+Vas49m
+}
+
+!procedure PhoneDisabled($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/PhoneDisabled', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/GoogleDrive
+
+sprite $GoogleDriveXs [10x10/16z] LSh50SG00091Jk8o_LSRLpxOvYKSuOpyyJa-9FXbf3-Ohkj2WD20FZcd6G
+
+sprite $GoogleDriveSm [12x12/16z] NSg50OG020LGkB3rxJ-jtUIlU1V-6yeSSAY1Re4_YdOtO3lHhVU3Jw3VtUf8RF_V73WlEIAxOQqw9W
+
+sprite $GoogleDriveMd [16x16/16z] ROo55S0W44E3E-o_RHki-j78E_nI2IvyEmbBwOf6bcvDIkeyP61q5S2VlupAZqBYencJ_Luzmq_Kl1CsWXgbBTWtOal30QXN32IfjnHuSm
+
+sprite $GoogleDriveLg [20x20/16z] {
+TSs50O0m34JHNyTl_sqXnUr1FS8_7uo_twdYOc2IwJYqSZm3fP5MPc2ZHTm27PMJ8Lwoj_BbM1T95RWpK5Ku4WQsVYFdixkroxrf-oq-N223rscezHAwS61X
+xIqCaWAwm0pqEXK-pG
+}
+
+!procedure GoogleDrive($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/GoogleDrive', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item material-4/Device/ScreenLockPortrait
+
+sprite $ScreenLockPortraitXs [10x10/16z] Oq027FmW069niW413vY5H333MK1bw2m40JU51Se2
+
+sprite $ScreenLockPortraitSm [12x12/16z] Oq05_120mKOZkH5iNWOc61ka0okRcPa9rGGSTW6D1G
+
+sprite $ScreenLockPortraitMd [16x16/16z] XSc54G0X30117EBzL_lkUkXEt4EsH3EZhQtcALdzz8Qp9S394FHeDhDmi0oE1zDn_l-kFTk1pANXtmC
+
+sprite $ScreenLockPortraitLg [20x20/16z] dSY53S0m4C30C3tjFssPkR78EdKNy5oOASdQRFdImXIkzkSGuj6iKtYqN1AxlHdfgpDLki9gFsxfqTpEPenpMdMr
+
+!procedure ScreenLockPortrait($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Device/ScreenLockPortrait', $name, $tech, $desc)
+!endprocedure

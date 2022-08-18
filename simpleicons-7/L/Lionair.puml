@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-7/L/Lionair
+
+sprite $LionairXs [10x10/16z] BSQr0SG0000XtYLo-qyRfmAJI_6oczlDf9Dt9-Q-zUX7QKSuvtt_rDVkD__32W
+
+sprite $LionairSm [12x12/16z] LOk54G9H5CHo_ZtzTyli271vBWiqVlZkrG5ScsY6ZRRMOsWtP1rEqXwFUnMOiYwrPDYdFT85H9OzuUgzhx91kDNK3m
+
+sprite $LionairMd [16x16/16z] {
+LOs50GGX3C1QtBF_ja_XxO86Ah9fMVvHdbvmjYzzUy3hXCLv5uIwrRm7S-M7-SgC8xTk8bAuxFYc1MMYRc4TyeuYOZHaCo5UhyUh-DYc-JY-s7ZRYXV3gHHh
+c9jS80wL85yQWIg75m
+}
+
+sprite $LionairLg [20x20/16z] {
+NSi52WH15CJG6clld_lVTgcraOS78cjJJmdqnBSTpzO3Y7yEsB03ubDgWWKBg6trYQ1mScCPbwOgoIVzRB99AxHhN4DGEh1kErIvCNHGUmjWJ6H0LgTYXKMM
+W9x01jc98Gki8qlOp5YPJgvvLPuueQyHqD9HeXJzfQg8jgEhXLuvcZvU
+}
+
+!procedure Lionair($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/L/Lionair', $name, $tech, $desc)
+!endprocedure

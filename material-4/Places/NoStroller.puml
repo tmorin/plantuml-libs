@@ -1,0 +1,16 @@
+' definition of the Item material-4/Places/NoStroller
+
+sprite $NoStrollerXs [10x10/16z] ROh50K0X34FJxmAy_QV5uKGrfbLn6mY_LoYkgLupqD3FaCxpvAuUPGiyyzg14W
+
+sprite $NoStrollerSm [12x12/16z] TOg30S1054DJks__QSipFYFLYad0i80XMu-EzYSDX35vudGUybU79wk9FRNHIZi_QVypwWO
+
+sprite $NoStrollerMd [16x16/16z] XOkr0S0m0CCSvlZ_QqlXgTfam2yEq34v0P7SeuOEaQGJBCmpI6219Xxi4mJKjsoOD-3oVbcEy0HfkIAVm0qLv1TCJmzv1ZhYPGPawYVN2zrYIua30Tm
+
+sprite $NoStrollerLg [20x20/16z] {
+fSr55WGX54FHbE6G_U-sSJBlDxpd2_xfeGKIQmd8f6_8YbSpLobaFWrpnOUCY6s84Niomv46kpQ9Zs9hKarkBjD9DIGsVDGYMofus6gJqjTJjE5UumjVacZ9
+-YDM5duHlIk-qEVQ3m
+}
+
+!procedure NoStroller($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/NoStroller', $name, $tech, $desc)
+!endprocedure

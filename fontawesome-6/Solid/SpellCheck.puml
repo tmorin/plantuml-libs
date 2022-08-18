@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/SpellCheck
+
+sprite $SpellCheckXs [11x10/16z] HSQ53OG0002nUrVe_jiIlB7MM7U_PgvXFi9dxbF-V_N57-hqEVRLJ7tKZ9Ssvaq
+
+sprite $SpellCheckSm [13x12/16z] LOc50OKm30Nlkm2v_QT5weqyXJVmCKYZe0fmJoQUoQXRQn9V_WrXXFUKpBCDEXnoxub_mkeJqkZY2vfx0mS
+
+sprite $SpellCheckMd [17x16/16z] NOs50GCX40JlNP3flzjaUNpWtCmisfyNRllOKGOWM098UeMQkALzJZXsUK1Ev18iLrgx8Q91Y1owoQ9o6vc9KmnpxB9tx_bYAsrIRSC2QrHSMPdFxZd-0G
+
+sprite $SpellCheckLg [22x20/16z] {
+TOu5WeGm4C2Wxld_Ru-ftbhGPlHwQ4hU1iZNfe1yw6mBg6LtTW1Ajs6LhPoT6uTKeC4lsuQju1g8BR60EWta0F6-mOXC3CeANyFABlwn5K5VluZvcuHFcQ1z
+oF0YOPLp7G39FBBZvEoNt5WwdtD4Vk2s_0C
+}
+
+!procedure SpellCheck($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/SpellCheck', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item material-4/Social/MilitaryTech
+
+sprite $MilitaryTechXs [10x10/16z] Oq06_4301cKnu611c0myS3rGcf6V7yRa0JAWWWmW3G
+
+sprite $MilitaryTechSm [12x12/16z] Oq03l200PVFp0n49R0OW6yaaE8kLWv-TcG6k0I71pyMBRZy
+
+sprite $MilitaryTechMd [16x16/16z] fSX50i0W4CNGrBt__gUj2p2pu-qIFEMbu2MjbJG7lP3V8vznHJMXXKWf0fqEQn6F82aa4UWhUbmx
+
+sprite $MilitaryTechLg [20x20/16z] lSYr0SKm30N0PsPh_sa_XAKgVENX49fuVW7z_SlJQMmOIg0A8NO3oH04fIivnOi6cMV_LGHNVmU1ikqUd0B0JlW2
+
+!procedure MilitaryTech($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/MilitaryTech', $name, $tech, $desc)
+!endprocedure

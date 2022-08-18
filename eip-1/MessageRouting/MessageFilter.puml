@@ -1,0 +1,17 @@
+' definition of the Item eip-1/MessageRouting/MessageFilter
+
+sprite $MessageFilterXs [15x10/16z] uqC3p2W0pENcvkBYv8HpETcOcHbPuLncDX22S25yHcPyN4uO5m4mkG
+
+sprite $MessageFilterSm [18x12/16z] uyC4pEW0bmWR6v1WP4KIOG6AC36YwE9aWof1cCC6X8H5sD54s5dmkGST
+
+sprite $MessageFilterMd [25x16/16z] hSct5S1G24Mn0_VpeFB-spfqpbcjkaCSk8gcIKoMGKa0PhaAf0PkOXi2SpP1JH4xGUBYho1ten9s0xx5
+
+sprite $MessageFilterLg [31x20/16z] jT555i0W34NH4tuQgUr_kNLtuKqlJdaHpkAVkCZgqZglamt3H0HrHAJOieoSxExjBGS2xtBjDRHBxpAhr6muO8WW0F4OvynsmYO__zWvyrbI0G
+
+!procedure MessageFilter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageRouting/MessageFilter', $name, $tech, $desc)
+!endprocedure
+
+!procedure MessageFilterGroup($id, $name='Message Filter', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$MessageFilterLg>', $name, $tech)
+!endprocedure

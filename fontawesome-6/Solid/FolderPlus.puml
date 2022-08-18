@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/FolderPlus
+
+sprite $FolderPlusXs [10x10/16z] Ou03LduW0BFuSG6u32y33vJ5oS299el91G
+
+sprite $FolderPlusSm [12x12/16z] Oq06_4300sE2EOn006JZ0mXfFbu67hWe430YgK40PamJUFbWW0S
+
+sprite $FolderPlusMd [16x16/16z] ZSV50S1030In3PETwR_QCEFf9rrPEzBAcQrdPPE2C2vEglEzbDbUJM9s9awk9-5PmPakUW
+
+sprite $FolderPlusLg [20x20/16z] bSx50SKm30DGDSpQVzhFsF2xcOqM8Hy4lZHVD3x8EibQuAxYM14eZLpclvm5OlhBDZ_p_e3raVzajQ-Tov8ZXJMmaj1m1G
+
+!procedure FolderPlus($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FolderPlus', $name, $tech, $desc)
+!endprocedure

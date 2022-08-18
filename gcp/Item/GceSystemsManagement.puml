@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/GceSystemsManagement
+
+sprite $GceSystemsManagementXs [10x10/16z] TSN50O0008LGxBV_nDviVq0_uJHphSf8POcn8gZ2EcxMAhfb1m
+
+sprite $GceSystemsManagementSm [12x12/16z] VKo50G112B9b_uM_uzeEW5O6F4Cg3fEyZonordEE8zCl61WduSG8qYx2ZVTJuT9I2XmSngVVsWu
+
+sprite $GceSystemsManagementMd [16x16/16z] ZOxL0G0X34FhpVuJ7w5ddpoq7ZaYg_HlDv2VuI0T_SIm7WDWj6ak8_U78BPNqJAsDeCkOoVIGCQS-jv3d7Q0pJIbxeP65xyA__I57741
+
+sprite $GceSystemsManagementLg [20x20/16z] {
+fP054a9H30DJp_qlZAJu6F1tBBFDKnp7IFQ7AvA39zd19UhkUUiaIQRKADMqQIhNsoBfSNSe1bP2qtLMX3f-Tyq2nTZBiJfJTbrkDDDoXkIeKKrNR60RyWdO
+pDiV33wOcSIFd04
+}
+
+!procedure GceSystemsManagement($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/GceSystemsManagement', $name, $tech, $desc)
+!endprocedure
+
+!procedure GceSystemsManagementCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$GceSystemsManagementLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure GceSystemsManagementGroup($id, $name='Gce Systems Management', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$GceSystemsManagementLg>', $name, $tech)
+!endprocedure

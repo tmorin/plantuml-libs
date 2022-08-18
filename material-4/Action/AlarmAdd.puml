@@ -1,0 +1,19 @@
+' definition of the Item material-4/Action/AlarmAdd
+
+sprite $AlarmAddXs [10x10/16z] DSA54O00000XxFRttzOhEG30X0TBOoKS3uB-Tc-lS14XLe96Qy1y3_W
+
+sprite $AlarmAddSm [12x12/16z] LKk50G0X4C9ksN_Q3zlh8t27RrF-erJuP407w1ZeTQIg00oRXctqDhdjM5dLmAIaxFpO8G2GpQM8lcecCKB8jbu
+
+sprite $AlarmAddMd [16x16/16z] {
+RKw5WSLG2AFFBMJ_QIlftNVSYVsWxJtDpFAW6eqjB9BTm73cp9qegP5nhdiWQNxSyyPodiHr05TQU9hmC3PXmPtkPWn_EPo0yizvFJplNP_WoXkZVDUu7gyS
+gmk6A83ai5zq
+}
+
+sprite $AlarmAddLg [20x20/16z] {
+bSo5WOKm44NH2t6Rrt-t-oFhVY0snd-OOnkPpKcHo_aRXXfJaDnjcYfLnaEpgqWr-DGbbtGp5OsNAMnE7RXc_fQnT5r0FhjZsfqxTgdiM0OpoQo0-eubq59V
+O-tqlZuOUer51QQW3BZ8WubjAB5SGu73DExLk3gEeiKyR_dQyyNtdW
+}
+
+!procedure AlarmAdd($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/AlarmAdd', $name, $tech, $desc)
+!endprocedure

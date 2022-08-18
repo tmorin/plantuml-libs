@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/ProducerPortal
+
+sprite $ProducerPortalXs [10x10/16z] Oq00TYXWmoB6pi0E4q4IumJoEPaOc3cGMK0928i511WO69a1
+
+sprite $ProducerPortalSm [12x12/16z] LSk30G0n343HVuZsNxX6NXbnUpTGM-f_0vD_g87jGSEE-XSHjte4Do2y7l8_gl6_5G
+
+sprite $ProducerPortalMd [16x16/16z] ZSU53SC040Gm5q-__y25C2SMsgbCuJw5znIlJ94OvIxlwTyojxgwGHLIBhonzwKl
+
+sprite $ProducerPortalLg [20x20/16z] fSZL0SDG34MnyyYttd_WXfaJVOhRj6Axjy_M0Ar1L65EWgB0dAdzXQo8DihkuKxBFGB9VtmzjHRNcryU0OISs5C1
+
+!procedure ProducerPortal($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/ProducerPortal', $name, $tech, $desc)
+!endprocedure
+
+!procedure ProducerPortalCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ProducerPortalLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure ProducerPortalGroup($id, $name='Producer Portal', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ProducerPortalLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item material-4/Communication/ScreenShare
+
+sprite $ScreenShareXs [10x10/16z] Oy06-A601SxY1hE0CX0M0okKnGsLvOEgO-Q70uHn
+
+sprite $ScreenShareSm [12x12/16z] Oy09UA20cu61bny6cA1iDZYRXO611Sm6CLaPOE9yCFKy2Bqy23OFCn90jXK
+
+sprite $ScreenShareMd [16x16/16z] bSc55O0m4C3Gu0xxJulNFTN_Zk8EhGNgGqzvC3tIQHwv6wGtgawVj_Vf3s4zg4olwwvnTIBH1G
+
+sprite $ScreenShareLg [20x20/16z] fSxL0O0W50NGftJlFotTyCTLwf3m5apce4Hk2xwOcarSxAEhbMF8OXfox6m0Fqaq6UUn-XCDKxUtR6OtGw2rNiaMs0CF2G
+
+!procedure ScreenShare($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/ScreenShare', $name, $tech, $desc)
+!endprocedure

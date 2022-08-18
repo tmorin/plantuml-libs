@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Brands/Rust
+
+sprite $RustXs [10x10/16z] 7OU50SD04CEKFAFsdxPmPWFK-GAG58qHtmSDPAlB4tSQrV2DLiMpLc5Pm0KWyAWM-08
+
+sprite $RustSm [12x12/16z] 9SY54S103CH0XU51_NSRtsJD9fRtu7TgPQFeogX7pxV5kfZtRqdEvhugqrUQ0HxktGLh4UC-BJG7fNM1FkV2feqmW0y
+
+sprite $RustMd [16x16/16z] {
+JSw5eKKn2C3GN1SesN_QBpmzTGNQnCqNLJEWJLgrXFfS5Z33eW0QxM9Iy8DqJ392OTFvkXABq2ejPkDs9sm99IQXaDgJj9rJ3tC__dCmglG27PqyflQuzp0T
+9SqNdaQ6pXV0Bm
+}
+
+sprite $RustLg [20x20/16z] {
+LSw5OGGW4031XGINxR_QDru7rpkUCft8DulRxGYy_AbELEMOGnDznp1qniUjuUH5Km3KyPG8ci0V_6kbsFlIMp_LkAjaRMFe0bJyLxQ1uLE2OkeAmwVoI9Oj
+dBTP1StHfrs2n_oygtX4WgvdmjnwJO2wv27kgPsRQHmyD9Rnd2PrfB-srCWHaa-fyrOncUVpqXK
+}
+
+!procedure Rust($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Rust', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item domainstorytelling/Object/Shapes
+
+sprite $ShapesXs [10x10/16z] Ou00VWOeOEE7CVbXB7uGG6RnSZ8WPC04Bvp52MSX2
+
+sprite $ShapesSm [12x12/16z] Ou025bO6EE3dHp2109dD26M20IgR3II94EA3IB21IQWY93OZX8qWsI1i
+
+sprite $ShapesMd [16x16/16z] NSwr0S100CD0XpdQVzfdLdUkhDgxgUs0pi3Vy0EOgmaDv4pSI2M_ZHzsrVOy_xvNnFGJUWOpU1yiGb-n8lC32m
+
+sprite $ShapesLg [20x20/16z] POw54KKX4CJskPF-g_sARyPkGe1J0ujw0lHg1PDycHjryiCpE4mruGoHkyeyV1etFXo-FB1_3wSVOrImQYII1pGHUN07xWxSYSXJkPquL4xhlv968cy
+
+!procedure Shapes($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'domainstorytelling/Object/Shapes', $name, $tech, $desc)
+!endprocedure
+
+!procedure ShapesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ShapesLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure ShapesGroup($id, $name='Shapes', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ShapesLg>', $name, $tech)
+!endprocedure

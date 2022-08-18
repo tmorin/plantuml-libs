@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/TableCells
+
+sprite $TableCellsXs [10x10/16z] Oq00VWHWu6Tbu6S2YR3nSxBnixC1MLXayUf0o0C
+
+sprite $TableCellsSm [12x12/16z] Oq06_CY0XmU4m9WVA0L488mA-FX028ZHr10sXmT91GCN7mom0G
+
+sprite $TableCellsMd [16x16/16z] fOq34WGn50LVnUxxdtOnLd4w-PQk-76WAt356mF619en7J0II9OYTQ2t1grrnj-vO-T-HvMUvdzdDmMyl2_EwC8N
+
+sprite $TableCellsLg [20x20/16z] hS_50O0m44JHWUXYl_zgiLli12_kMNMvoYpHs3Qw945uw_lSD9oBCOAzTOenqVVj3USSc7C1idEHlf_ZIBIqKVFgk
+
+!procedure TableCells($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TableCells', $name, $tech, $desc)
+!endprocedure

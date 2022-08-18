@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Mizuni
+
+sprite $MizuniXs [9x10/16z] DSY30G102030jx7_jBdB1HA3-6pJ33-TMpejM_xJb-zBzONZ_qbZVa7FhXC1
+
+sprite $MizuniSm [11x12/16z] HSQ70S0m2CH0fVVy_jEw0xA1epOpKglfqo-zWlv_dc_muzOJLF0CKhbjdPDQzmdg_G1lrGuP
+
+sprite $MizuniMd [15x16/16z] ROu50WGX00AnM_x_s-EsQymH2olMuA1nmQt6dR5OSqeoQMS7EjMqhi7GW1hRhlHt7NVbNTjTyQ63maW78XqtBB55br-tcub5AiGF
+
+sprite $MizuniLg [19x20/16z] {
+PSe53aD1549HndtO_suRsdvzDqPEm95tkESNgVefcsV92Daaf7Hf17H687787R3s_y0tLKjibhObMfgMaYKOMbYYHgeWyd0SXKSRr5Lm2ohVnG7Adx1m5WR9
+tHpK1m
+}
+
+!procedure Mizuni($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Mizuni', $name, $tech, $desc)
+!endprocedure

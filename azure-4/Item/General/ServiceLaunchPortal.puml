@@ -1,0 +1,21 @@
+' definition of the Item azure-4/Item/General/ServiceLaunchPortal
+
+sprite $ServiceLaunchPortalXs [10x10/16z] NSOt0G10202n-uf_nVI9J67w_tDTxK3a2JiY7sAIoNbk3iPkmm
+
+sprite $ServiceLaunchPortalSm [12x12/16z] RSW53W0m24FHpjhxttX1O_m9Bs3eaaHblfRHtDiNfcZ3B0bf6dVkQJCV9bV01m
+
+sprite $ServiceLaunchPortalMd [16x16/16z] ZSU53S1054En7E-_SPNtosoXzIXrqoQTNda5ZIiq9mrEnv2KV7Uunkdsw7P5Q-Ru_v8NyPqaJG
+
+sprite $ServiceLaunchPortalLg [20x20/16z] bSi55i0W30JH9Nh_4zUsgUjKWFy2tlAOskELDPhDrTpHeap1I8vCc6meRLnffCpWjYo771iZ1NR6gQDnocnxrt4mzj_qmdRHzD10FG
+
+!procedure ServiceLaunchPortal($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceLaunchPortal', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceLaunchPortalCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceLaunchPortalLg>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceLaunchPortalGroup($id, $name='Service Launch Portal', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceLaunchPortalLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/CloudShell
+
+sprite $CloudShellXs [10x10/16z] JOk30G103CHIxh_n6qsDeo0RC5ERA2l9wSmu7VSwMDUXrLZQGMHGwG
+
+sprite $CloudShellSm [12x12/16z] Oy05c9XXW841J311sH2A0OdD22AG9M7w80fX068k6mSZp0fMDZOsHZHh0G
+
+sprite $CloudShellMd [16x16/16z] XSo55G0X30FG1Dz_OXxkz9z05I8zKILcJzGOK5DSCfpZbE6ZFdUD_HZzGufLOen91r65u37G9HXCWfi8
+
+sprite $CloudShellLg [20x20/16z] bO-50GGn20Ip6-s_uVzpx7IYEAJtm3AhiWERZX0TTx_ffTB93qedMg_BJhV-w6l470YnAm14P-4nBskjCkyAnnZ9KcjhhMQZQmibVU8F
+
+!procedure CloudShell($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudShell', $name, $tech, $desc)
+!endprocedure
+
+!procedure CloudShellCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudShellLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CloudShellGroup($id, $name='Cloud Shell', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudShellLg>', $name, $tech)
+!endprocedure

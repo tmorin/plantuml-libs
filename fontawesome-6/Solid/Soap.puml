@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Soap
+
+sprite $SoapXs [10x10/16z] NS650O0m0C2muax_lnPdbd0H6cwjC52g5F2owBHDoirBwmr_Wyfq6H1_9m
+
+sprite $SoapSm [12x12/16z] JSQ50O0m50FHmvtRVrkeztr929vqWOQN-d3HEnUAMmV0O5LyZhyGxAfeSCxgO4AusXybKMm-
+
+sprite $SoapMd [16x16/16z] PSI55GCm30DHXUd5j_-q1QVSBv3RpLyF2_o3ZWQw2NeA-jDMq8SAoFLz8mF2p19k2H3O0AgEZbCnjqC0g9Kd6H0NJs438_0axgB2eGu9i7q0o9-dV0K
+
+sprite $SoapLg [20x20/16z] {
+ZSY50S0m3CJ0BuUr_xHbvWjQcbGKmrD4hJ9WUC5eKSwjGPk8rr-5jph90BPfe0IGJOM9F80iSKrKIk04U0jGQs6OH6N5GXaCLBAHdHxOrDcrDNDhsAXc42Gx
+QoJ00IdF5ZM0k0Wghga3
+}
+
+!procedure Soap($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Soap', $name, $tech, $desc)
+!endprocedure

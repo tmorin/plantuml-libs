@@ -1,0 +1,14 @@
+' definition of the Item eventstorming/Element/Process
+
+
+skinparam file<<Process>> {
+    StereotypeFontSize $FONT_SIZE_SM
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor #ddd4ee
+}
+
+!procedure Process($id, $label="")
+  EsEntity('file', 'Process', $id, $label)
+!endprocedure

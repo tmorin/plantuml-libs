@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Stopwatch
+
+sprite $StopwatchXs [8x10/16z] Os1WuEFdP001VduU80dYSuEvOC201_CZQ2weUWO
+
+sprite $StopwatchSm [10x12/16z] NOo30S105CLUxMR_QS_ED-M0Nn4WPHCvUdRY37X4ojwIZUukcUTLJii_oG8
+
+sprite $StopwatchMd [14x16/16z] RSV50GGX04MnDwxm-wzs1RVS0i0ZQI7IZoMnMdCcwPhm5dcB18T-7lSBN7035PkhQRGtBtkvbG4v1d8jZd4vW2y
+
+sprite $StopwatchLg [17x20/16z] TSg55OGm50NHmPtNVxKhSRqGc_CnJlqCHFfxYHxzB2GcYTILJvnofaSdy2fnk74nckE2GGRuyyh3WFAmb-7gXkcKSV8eCp4h0oYrafS78tiRktsE05y
+
+!procedure Stopwatch($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Stopwatch', $name, $tech, $desc)
+!endprocedure

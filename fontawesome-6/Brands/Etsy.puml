@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Brands/Etsy
+
+sprite $EtsyXs [7x10/16z] BKS50G0W0C9k-R_MGXe8561vZyg_6ZX5bbj0K-5NfR01
+
+sprite $EtsySm [9x12/16z] JKe30G0m49oD_cd7jquAQs8Tg0_N21G0zx0-It6XO9X0Fg0yEbejEPVQDm
+
+sprite $EtsyMd [12x16/16z] RSs50O0m34JHm-hDttzQtE7L9ObkWdT3FnjyB78Gt2oJ9MYqi32FVU-SLEVzRj_pirzyxlSyvTel_5LBBFjUYm6tfAap0zrC
+
+sprite $EtsyLg [15x20/16z] VSh50SD044FHFn06zLzjEBONtqr0oUq5m5uS5GBsal5namDBDDasKiK3Qxm6RABy7zFS3-8NVoZEysX5_BYNKKMKu2BTxUEYoetI4m
+
+!procedure Etsy($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Etsy', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Whmcs
+
+sprite $WhmcsXs [8x10/16z] FS650OG0002X--vd_sbjXGxN_3sBvpVnLVheovTtzVhqKJc57ygicMe4
+
+sprite $WhmcsSm [10x12/16z] LSN50GD14CJ0CjFSAlzeZIytIFxJOuDTCpqQSwphXLGCESTXrRw2sR8Bhb7jd2ixzRDZ--IN1Iy
+
+sprite $WhmcsMd [14x16/16z] ROp5OSH00CHaUvdKVxN9CUito0_s1PCBMLhVrN5MGPrsaf9pqLK4PaErac-Ais3QIBfF1RYyL5KkE9AWsqKrEw2UnQPUXEQjgxQR-vnNc_Rxd48HAf_y0m
+
+sprite $WhmcsLg [17x20/16z] {
+TSv50iGW5C3GOFN-tF-sGtqr3yyA_YaP2eyHZ1WTlPhMSPjtrLBfDdNI2k52NlD-X3te70WFUNMdKr03s0Gcox59fuTrczNW4BkRRVKDu5H3SYYNedE6KHiS
+LA2fllyJ5Zs4bmHlqqJYu6FYiabIYZCVT_xu0G
+}
+
+!procedure Whmcs($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Whmcs', $name, $tech, $desc)
+!endprocedure

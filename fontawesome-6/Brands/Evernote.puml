@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Brands/Evernote
+
+sprite $EvernoteXs [7x10/16z] Ou01JdvM8Cd23m901eZYuOVmK2amu0SJ48gBdm4
+
+sprite $EvernoteSm [9x12/16z] JSR50O100C2muaxtdnOvpoiq1cT-zwWwSZdvwwxRO3SunQI6mmwKdtkNqjqIN1Cl
+
+sprite $EvernoteMd [12x16/16z] NSY50G0X40F1lEAa_sfn7smvd9pk9LxI_JNvilZmfuiLlkVrh1mdqUFI1AVQflPLxl81y7nNkj_K5JLwAm_GzNc2LGG
+
+sprite $EvernoteLg [15x20/16z] RSU50O0m30NH3zJjzfyMTtYLvFId7sxHUU2i7iEYfMv9iEnwzTooQb4v11uA3uwJ4OYRRmuiSjfJVLj7PzTv60RTCfCKhiHBXNGciO9EGDNR1
+
+!procedure Evernote($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Evernote', $name, $tech, $desc)
+!endprocedure

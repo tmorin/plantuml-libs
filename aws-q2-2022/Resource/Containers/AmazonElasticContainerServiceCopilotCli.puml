@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2022/Resource/Containers/AmazonElasticContainerServiceCopilotCli
+
+sprite $AmazonElasticContainerServiceCopilotCliXs [10x10/16z] PKU50G0m067f_uVNFGqRiXAqBjUs134VYyDQROhuGSI93
+
+sprite $AmazonElasticContainerServiceCopilotCliSm [12x12/16z] JOo30G0m3C0ox_-7noerYOnnTRuyFV-hdyzdFwSM1kdOfR-S6NBwNNfvoZpco_h1_Zy6WGq
+
+sprite $AmazonElasticContainerServiceCopilotCliMd [16x16/16z] TSor0GD140F0ETphls6J4jDFjY2viaIrfhMcHcKMnToVCsifOXQEKaHbTiIMMNtDgdtCSv3wrxmROad_VW8buZWLiNsv0m
+
+sprite $AmazonElasticContainerServiceCopilotCliLg [20x20/16z] ZSZ70GGn24Mn1pRm-szuu-IietYgf8O-C1L_OcH6nVv0kRuEuBB5qMI0EG9Z53MU6gCSZ-px8sD_jDnV3eTyl796KVyJQ_fN_estORu_TrfjSUGD
+
+!procedure AmazonElasticContainerServiceCopilotCli($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Containers/AmazonElasticContainerServiceCopilotCli', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonElasticContainerServiceCopilotCliCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonElasticContainerServiceCopilotCliLg>', 'Containers', $funcName, $content)
+!endprocedure
+
+!procedure AmazonElasticContainerServiceCopilotCliGroup($id, $name='Amazon Elastic Container Service Copilot Cli', $tech='')
+  IconGroupElement($id, 'ContainersFamily', '<$AmazonElasticContainerServiceCopilotCliLg>', $name, $tech)
+!endprocedure

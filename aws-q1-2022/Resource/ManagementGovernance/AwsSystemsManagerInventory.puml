@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2022/Resource/ManagementGovernance/AwsSystemsManagerInventory
+
+sprite $AwsSystemsManagerInventoryXs [10x10/16z] LKc30S1038ov_xnr7y4Hjcc8X_q6nLlynQLl4tox7igu_uox7-LExfV2R-G4
+
+sprite $AwsSystemsManagerInventorySm [12x12/16z] NSY74K0X20DGENgo_xo_LwF0kumvIBralgtU9RWgRguhXgsdSEzZDYGLbtMewEKIrIPsKyzinXEk
+
+sprite $AwsSystemsManagerInventoryMd [16x16/16z] RSg75K0H04FHw2Jxx_khxgdtW7DHPf0LuDH8znuflqSEg9NxGHWh87mJNrkA72rHgvtiyFzswVPtvXx-TnRfdC_yRUvm3_Cvz6vhgbm
+
+sprite $AwsSystemsManagerInventoryLg [20x20/16z] {
+VOq70eH020Cf2hZp__TUiVVHRK0IUSE7IuaKwb2fyQdqif38J8-EPuV9HWwJqH5Ca6AF-bYJJCsSqvPQeScf1ignDcijyr130pSEVgLLLdNnSmZQCTU3y7R9
+y8obrdOmrlH4Ps8Nv0i
+}
+
+!procedure AwsSystemsManagerInventory($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/ManagementGovernance/AwsSystemsManagerInventory', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsSystemsManagerInventoryCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsSystemsManagerInventoryLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsSystemsManagerInventoryGroup($id, $name='Aws Systems Manager Inventory', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsSystemsManagerInventoryLg>', $name, $tech)
+!endprocedure

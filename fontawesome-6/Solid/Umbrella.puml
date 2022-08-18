@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Umbrella
+
+sprite $UmbrellaXs [11x10/16z] PSg54S0m30J1LvYl_supPbg3KCwYP8D9pW5EoLnEjjyRh0-OMvcDurR4eJ45S-47
+
+sprite $UmbrellaSm [13x12/16z] RSV50O0m0C30u4xsdnRNjlSx3WqVpbnQ3mM0jnv67pb-D3DgqQa888wbt9mW5RDlbCCA
+
+sprite $UmbrellaMd [17x16/16z] VOu30W0X50MpQ-v_shNHnEydDf8MT-1gMMQQFACRRJ4L5sxnBQTnmmWUU9IPN-cM5W6tYSZsAiKjllXIsd6O-710fLuTaZDX1
+
+sprite $UmbrellaLg [22x20/16z] {
+ZSx50SKm3C1GXLFK_jD-PkoxcSrDNk6TDbxLLPqY3yBiLUUg-mXEHf-bzyuZ8FWE5jz5zDtIdAWU5MRLDIIT8u2kX4JKwVGL9yc0TYPv53bbtspFva_Pea4B
+BpmAlEXgusOF
+}
+
+!procedure Umbrella($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Umbrella', $name, $tech, $desc)
+!endprocedure

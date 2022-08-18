@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/LooksTwo
+
+sprite $LooksTwoXs [10x10/16z] Oy0A-240o08HV50Ma8ABSS5OS7MSd9n05a8l0W
+
+sprite $LooksTwoSm [12x12/16z] Oy09-640auqWGG1PX0d1nb2FmqmU55i1
+
+sprite $LooksTwoMd [16x16/16z] Oo0Ck7bXW0F4vU5702OWdnUT3wMH-K2z81gXdW-Lpugcdea9tJncPXJrp30-flsSI7n6a8EPu80HqtC
+
+sprite $LooksTwoLg [20x20/16z] fSs54S0m30D0MOLmil-qPMRu8vqH_uIqL7Qrj18EQd6gjKdYfaOIigwr19jQK0hRMXlizeUA-xywxMlxb4nhK-kSrNnNKo7E0l5O3G
+
+!procedure LooksTwo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/LooksTwo', $name, $tech, $desc)
+!endprocedure

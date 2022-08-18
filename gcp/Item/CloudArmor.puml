@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/CloudArmor
+
+sprite $CloudArmorXs [10x10/16z] LKg30G1043fK-s_yvZ7PNvelj36Fp7OraDBI9cfWQWta2WD3cRYV2W
+
+sprite $CloudArmorSm [12x12/16z] POg50G0n308l0ljl_Avj56EgVf0RwKHvMhLZY9sSk8mld77yFLexT1mvL6oM3rorGN5MEinGAm
+
+sprite $CloudArmorMd [16x16/16z] ZSt50G0n3CJ0DQd_ZeyPezy4R3KLW6rAKbBXC_7jVFRsS3Ee3lOouPizf91sZqnaERbiu3nYZe5X-wAeZND1AD0XI3tM0m
+
+sprite $CloudArmorLg [20x20/16z] bSY5WGH02C30OEc_urVEFQiCdpRM9SJOl-SawKuwIsN2rguDfpnPUcjZeHUM5UI5cGLHSB9mgUDekEJGH-keNsums2oW0cPWA-EFIawr7U3I5ZeELqNph6y
+
+!procedure CloudArmor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudArmor', $name, $tech, $desc)
+!endprocedure
+
+!procedure CloudArmorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudArmorLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CloudArmorGroup($id, $name='Cloud Armor', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudArmorLg>', $name, $tech)
+!endprocedure

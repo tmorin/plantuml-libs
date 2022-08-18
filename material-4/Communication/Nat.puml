@@ -1,0 +1,16 @@
+' definition of the Item material-4/Communication/Nat
+
+sprite $NatXs [10x10/16z] JKg50G0G43pTx3-jvlklm2fKmiqGF7Uzk4XB4xTP21aG3e5og_G3Jfq_
+
+sprite $NatSm [12x12/16z] LOs50S0W4CIkhf3zfyKry6wQUHOrJeiwnnZyboBmHXtYg249HXzxoDimf0nR6_si2eQ_PTjP3m
+
+sprite $NatMd [16x16/16z] TSx50SGm4C106SDH_zKUGyYpy1ON0Zj99tRoQcHdaZrdFiOH80f4G5rZ39XYj0TpLXTygKmw0WWOWF1yLDbns1MxybTcbrt_ccYv0m
+
+sprite $NatLg [20x20/16z] {
+bSp50SDG3C1GXVF9sd_QCdFVnMp-a8o91tDLHnvDEl6e2uVdfd5R7SDgT-bS_fk1mw2wwhgk0uUWCuGKrONmg2SPjgxhu12i0EaOw5o0nAqcZsRpSoiUEcCy
+jfAQkBUaWM-s
+}
+
+!procedure Nat($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/Nat', $name, $tech, $desc)
+!endprocedure

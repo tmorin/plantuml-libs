@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/ManagementGovernance/ServiceAutomationAccounts
+
+sprite $ServiceAutomationAccountsXs [10x10/16z] BSY50S0m2031ns7_WTlOuR0vJvYPW6IcMIPGvUvLO2NkwvJOh_VimBsRjNL4xqrdOXQMa3D-
+
+sprite $ServiceAutomationAccountsSm [12x12/16z] FOe70aCn24BfbmYv_uMBThmCPM0X_ZIVvxE4gkhEBebLqXbV9EFigcBQ4izKXaoyR824fqIxiXh1zl6G_Pg-Xecbxuut
+
+sprite $ServiceAutomationAccountsMd [16x16/16z] {
+LOjN0aGX4CBGgTx_mWlEjfSV4Wi6Tpp8z9y3AqtuJH4ipcQl8cuM70YbkpddtOiDfEwjo6OIQHJnGOgepidTNGQWEw0VJ8YcH6nEAaqIVL7dEHLzJbCW30uc
+_c3xo0i
+}
+
+sprite $ServiceAutomationAccountsLg [20x20/16z] {
+NSjB5eH024FHK0LftF-6Ey3nUoV4f-BaRlWY0n_1NM3dOvWpAZcv8COsIL3uaswr3CMgUQc1jhMMoiAgTYPpqTQa8NIcpViopK_p1JEJVae90EopLA1YAAQr
+K8bQQ3ibHETiFLL6GDOXZ3n6Ok969uCkJW5JmvV-F-SV
+}
+
+!procedure ServiceAutomationAccounts($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/ManagementGovernance/ServiceAutomationAccounts', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAutomationAccountsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAutomationAccountsLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAutomationAccountsGroup($id, $name='Service Automation Accounts', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAutomationAccountsLg>', $name, $tech)
+!endprocedure

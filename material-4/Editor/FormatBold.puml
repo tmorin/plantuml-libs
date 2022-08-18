@@ -1,0 +1,13 @@
+' definition of the Item material-4/Editor/FormatBold
+
+sprite $FormatBoldXs [10x10/16z] Oy0E-840ok9XuED65-Fdu-U2oJBp8sIn0m
+
+sprite $FormatBoldSm [12x12/16z] Oy03U7XuE65iVXuUVZuOcuc1cH_61W9s69kFZvyVeOO1MGsCpSp2mepFJW
+
+sprite $FormatBoldMd [16x16/16z] dOl50S0m30FBN6d_QGj1EKzVm7YT1_uSMbyNk4lzVv1w65OH650V065zqFWZsVXRgQUFiUyyl
+
+sprite $FormatBoldLg [20x20/16z] jOs30K0n44DhzxB_jDysNtbAs6jqZUAp75hy8fTI1kGibwgR43ToOPPhsV08YnmHZSbHJmAdEUIS0JhnLR9QIh9_A04
+
+!procedure FormatBold($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/FormatBold', $name, $tech, $desc)
+!endprocedure

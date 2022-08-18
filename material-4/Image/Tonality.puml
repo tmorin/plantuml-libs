@@ -1,0 +1,16 @@
+' definition of the Item material-4/Image/Tonality
+
+sprite $TonalityXs [10x10/16z] LOo50G0X54AvJdtxJsldxm0q6HX5-n0tQxmC8Vx_t_C4VB9bMZFYUU9hOs57oOu_QdW
+
+sprite $TonalitySm [12x12/16z] NOg50S0W40E3Ezb_MkJhFUHUWZ-n-BDgZCmCKXQ02uVb_Mgjop7iMclT5QhPzKR3frstrdZbZR7RaQjUA2my-rKkb1PD
+
+sprite $TonalityMd [16x16/16z] ROo54GCm4CFoOTR-spPOrf7fhFuZykugat2SfbkDARJjAJERhA1sDRqnnc5cRPQ_0s5_w45WgkqtdtsScl3gyv21---HkUt8wQDQD4eWz6atfWDbZdzu
+
+sprite $TonalityLg [20x20/16z] {
+bSrL0iGW38HXt67kVziboJokzQlch-2UQRXsb5kgm3dOm0cE9X3kcxqTkU5RaryBhmrmqdIAc3O4kv0CE5nvAIHfawqtWIvjiD6KjjY2lmBg7GxOI5PCADRc
+k61l77XRuvgesY8GfQcjIUFo3Jvf8ZzXAeF9OxNWFdi1
+}
+
+!procedure Tonality($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/Tonality', $name, $tech, $desc)
+!endprocedure

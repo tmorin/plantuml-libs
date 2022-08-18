@@ -1,0 +1,16 @@
+' definition of the Item material-4/Action/AddToDrive
+
+sprite $AddToDriveXs [10x10/16z] LOg30G0n54DpPllsdxRcPwIfW084RqOFKBq43rXbXZYIHTN6fAjU7W
+
+sprite $AddToDriveSm [12x12/16z] NOg50KGX3CKUhYNxJtlwFL2FdfYPDjA2fHyD0VxNG-_0JuRV8KdkjugRmVZM6QJrCpInAP4D52r7gJaW_9mBRm
+
+sprite $AddToDriveMd [16x16/16z] ROo50GGX40DnX_JVxRFsdXEOPOBx6nz2y6_SSFD2EE9fs54Z3OAMoJq0jl1YbuH464ITm641QWwn4x6NujBZ7lOsjjlTrk92oJIBQUyOht6uKzId10ejxYSF
+
+sprite $AddToDriveLg [20x20/16z] {
+bSx50G9G30FGVFTc_scH5Bt1kzMB_oJULNmeE4hY0okKctWP98QIyTr63c_SSBuh52KJ9FlDhpF66zC_ktSrbjVoyxgWr89Rvd_e0jpcQtH0uwKSbXBz18Pw
+AGq8P0t-Miw7AOVxNlfhm_T9YD7k3e1f-DqL
+}
+
+!procedure AddToDrive($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/AddToDrive', $name, $tech, $desc)
+!endprocedure

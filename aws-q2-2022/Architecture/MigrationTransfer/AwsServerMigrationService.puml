@@ -1,0 +1,27 @@
+' definition of the Item aws-q2-2022/Architecture/MigrationTransfer/AwsServerMigrationService
+
+sprite $AwsServerMigrationServiceXs [10x10/16z] DOg73S0m40BT3P_zzmqW-TGe1t75EUIBIOaaDwvZaGT8KhGnb2gfeSIQpf_I7acEHV43
+
+sprite $AwsServerMigrationServiceSm [12x12/16z] HOjH5W8m2CCstgWKxtzVCrJDLw1jNHuWoVuVzjfxpO47Q0uyJzG-U3jSmIJm3dDovFN6ELJTajAP9C-67SV6vv01dyEN5m
+
+sprite $AwsServerMigrationServiceMd [16x16/16z] {
+LSq53aH120JHZ4Anzx_lDdplwAkCUCrgMuDNAPEwJuXBkLz1thtFliy0MDhR4K9kJVOnoq6UwQwrbpd3wG5fzuXOEZRGtzta6cATyDyHl3SWVGIweQNF4zJa
+R_W3
+}
+
+sprite $AwsServerMigrationServiceLg [20x20/16z] {
+PSy70e0W241HPKFtlsy1sVpjrr8xqquozp_w5zi4CrbOXfQnBMm302EvCCsPsLZ7maXJbNntJ6mB9nSHa_etjmLvLcQ4B_D2iBPeAoIrjhXj7DjX0fcwp3d9
+oZfov3NtRMj3XpH_6WVeRKlzxBQ7bhNUk0C
+}
+
+!procedure AwsServerMigrationService($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/MigrationTransfer/AwsServerMigrationService', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsServerMigrationServiceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsServerMigrationServiceLg>', 'MigrationTransfer', $funcName, $content)
+!endprocedure
+
+!procedure AwsServerMigrationServiceGroup($id, $name='Aws Server Migration Service', $tech='')
+  IconGroupElement($id, 'MigrationTransferFamily', '<$AwsServerMigrationServiceLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/SchoolCircleXmark
+
+sprite $SchoolCircleXmarkXs [12x10/16z] DSE53GCn002nAtEz_xI5JsB9RTujExGviUl1lYSacsY3S0uNcuUdM8CpvIQR2hu
+
+sprite $SchoolCircleXmarkSm [15x12/16z] DOc54S0m3CI-pDN-qnQYinBR3v4r8W0f5XXNwAeWlU92EnCaWKJGiXxXruZYhlQAmhr5Y_JAcmkjFYy
+
+sprite $SchoolCircleXmarkMd [20x16/16z] {
+LOw5ZKL13CJycEF-gprOxNomA79e81GXNEh25zfuY-7MWb7T1u0d4qUcpwuUy4G3KowvmTdNubYUQw3YlDSL6wXbwdvR7HV_sMQbsd1sToujyEqE_jsMl7Sx
+0AFYW-7VKJQMxUtwti8l
+}
+
+sprite $SchoolCircleXmarkLg [25x20/16z] {
+RSs50SCm30313xD-_srhAkS21X4VhfaxWnhy2ukLRvF9UVqK3QV9GMAsaHrM0Li7DjFvse4fugVBP83ZMb2liEgXZ2ZgCdu472cMq1tETy2OrzUC2VKS5giT
+dmO_iMY_AngrkHMbQgFpSxXJNNSwlm8RTQLZixZchSNPbSuTFvG05g7pJs2oOVWEq8V930y
+}
+
+!procedure SchoolCircleXmark($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/SchoolCircleXmark', $name, $tech, $desc)
+!endprocedure

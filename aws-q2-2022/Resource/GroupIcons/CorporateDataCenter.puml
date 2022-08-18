@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2022/Resource/GroupIcons/CorporateDataCenter
+
+sprite $CorporateDataCenterXs [10x10/16z] uyG1M3WPO2mMA8kDWv6D2Ih8oCc2mM86iX3QaG
+
+sprite $CorporateDataCenterSm [12x12/16z] uyG7M5cPu6mEHXO4cmF6PkNWPE7aWBBPEHc158pD36S3CP8ut4Ws9X10in8
+
+sprite $CorporateDataCenterMd [16x16/16z] ZSc54K9H5CHGxhFTz5ymyDqbesV2gonfxGJUEdRMoYrz2ASqkG86BMu4eUttpJT2cvz8YuSAB_e1
+
+sprite $CorporateDataCenterLg [20x20/16z] hOtL0SCm50EDyhlz1sx3pCbz2la07oeMMWBSIlCRMZhNicHuf33HA22mDDKYU2WphUCq9yZBlGHncOiGpZyizt27Fm
+
+!procedure CorporateDataCenter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GroupIcons/CorporateDataCenter', $name, $tech, $desc)
+!endprocedure
+
+!procedure CorporateDataCenterCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CorporateDataCenterLg>', 'GroupIcons', $funcName, $content)
+!endprocedure
+
+!procedure CorporateDataCenterGroup($id, $name='Corporate Data Center', $tech='')
+  IconGroupElement($id, 'GroupIconsFamily', '<$CorporateDataCenterLg>', $name, $tech)
+!endprocedure

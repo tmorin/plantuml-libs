@@ -1,0 +1,16 @@
+' definition of the Item material-4/Notification/PhoneInTalk
+
+sprite $PhoneInTalkXs [10x10/16z] RSQr0SC040Gm9MQy_QSrVcbLyYan9BNjrsp8J0Jz27y8IjOamAzMJW
+
+sprite $PhoneInTalkSm [12x12/16z] TOh50S0m30DLvjx-qmOCpnX56XQy-ha2q-xp9_xHjpLyTddxflvaPzBStuQoBBL3A0iaxkmBd5K1
+
+sprite $PhoneInTalkMd [16x16/16z] XSY54G915C3Gh9x-JV_TChZ36qtugqQii4xfqhiAst3dP3arP0T7LIr495muqe0IqkGe1aSkc02o1I0bCYUhF1icQ5lDN8IzgsOkPdtgutdgevnvSm
+
+sprite $PhoneInTalkLg [20x20/16z] {
+fSg5RK1H3CLG_yVi_RUjoin753cN_r5DS3pbPRD0dUhredLkLS-Bjc6lYtXxt9htkwMPOU1MqW5mAS46jnHkHICkk5KUdm72nRrjvArBUITeXg9drvTnLMyT
+darzrxZs-mPNxcitVkm6
+}
+
+!procedure PhoneInTalk($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Notification/PhoneInTalk', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item material-4/Notification/PersonalVideo
+
+sprite $PersonalVideoXs [10x10/16z] Oy06-DaWW9-17of2aCK90VnWBZ-8GW
+
+sprite $PersonalVideoSm [12x12/16z] Oy05-160WHykIY4R3hX10Zn01ZEQjG
+
+sprite $PersonalVideoMd [16x16/16z] lSUf0O0m44N1nsNsxBzQ8Eh7nMNSi795YaDdI0Tz8RdXpoN_esStmzK3SWw8V
+
+sprite $PersonalVideoLg [20x20/16z] Ow04SF2Z0qO6Fdus5C3EpmOKGzN7D2J4E5405r2C7Oj_8G32uq8nXGyCE4aBKW
+
+!procedure PersonalVideo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Notification/PersonalVideo', $name, $tech, $desc)
+!endprocedure

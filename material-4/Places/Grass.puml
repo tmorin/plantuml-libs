@@ -1,0 +1,16 @@
+' definition of the Item material-4/Places/Grass
+
+sprite $GrassXs [10x10/16z] Oy0EE15CVY22iY0C3Yu6HWu6HXuca1070pz4bWCgomy4Z43CZJ01
+
+sprite $GrassSm [12x12/16z] ZSUr0S0m00InCxD__sd3L4QT-AbP874INbo471lNFIORyc0ZWLE3AnARqhk4Pky6wpQu3Lyh
+
+sprite $GrassMd [16x16/16z] dSo50SGW40J0JN2uP_kl5d_tJ0HESKHuY5L6ixaD2sDhuYL49Y8rBauAp9WazOBtxHEFnf0A1f5zmKhiFRnPn_OvT9k8zDXGcXuFsouTlga
+
+sprite $GrassLg [20x20/16z] {
+jSt50GCX503HMSDX-gysxhb5tWM-ynTvuvsHepdEt1IFGNFXRhF2y6d5uaQpysYMoVjawcM5YTHWIgtDfvwk0H9KJLpqyryVZapgIj72NT9EK2xQaSgin-zf
+oyLq-LM-iGS
+}
+
+!procedure Grass($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/Grass', $name, $tech, $desc)
+!endprocedure

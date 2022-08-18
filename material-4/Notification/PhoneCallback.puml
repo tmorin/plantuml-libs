@@ -1,0 +1,16 @@
+' definition of the Item material-4/Notification/PhoneCallback
+
+sprite $PhoneCallbackXs [10x10/16z] Oy0A-FaPE1YOe2m-9eWO5mCVCpE8nSQ1K8YaXuUV7yfb1B4G
+
+sprite $PhoneCallbackSm [12x12/16z] TSQr0S0m0C0mbxd-_zf2S8ecqQGdmDg5oytMaR-7iWhtVGtyf9gaMcLM2GP_9CCLNhq
+
+sprite $PhoneCallbackMd [16x16/16z] XSY50G9H40FHETTi-k-Mu0xlwon_zT9An43ijg43r13BgIix6NsweouPjg3CbGhO97MSjEvuiffdvGQ6hM-va8VHSHlCzbDdSkkRDldg
+
+sprite $PhoneCallbackLg [20x20/16z] {
+fSg55OGm50NHYNjU_zskkm83iNi-sz8-poatRnOX0tPoimBJuFVhPkDWrobevxaeSpKlLVOcvzmL9VR5jEyw6PLvQSYzc95uoKe1eZH7kiUUT6XogqalXXcl
+jjTG-iZytGu
+}
+
+!procedure PhoneCallback($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Notification/PhoneCallback', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/ReceiptLong
+
+sprite $ReceiptLongXs [10x10/16z] Oq01p7oyJ606FniGy8DP801XCGC1XCK4160MX80fOuEpE44i3XuGO68
+
+sprite $ReceiptLongSm [12x12/16z] NSh50K0n309GeExxJ_jT-qu9W3z3UC9nl-iu7RSvwklUmcglkxMMpNLB8kPz7QrkZdkSldVhsEW4h
+
+sprite $ReceiptLongMd [16x16/16z] ZSc54GGn3C10Xpdglzh7OzwWnl90YKG2drl_kbB_6BhAtzGDCDYfzOTecRe26ZErsipbvxWRWthScK5tAFbWacNd3G
+
+sprite $ReceiptLongLg [20x20/16z] bSl50SH030D06SDn_zM6bevXdWByOy0aic9HNZ0WcQDPQ-R5JORY9kCuMUXDHkj9LxdzoedasnTy0kCsApvaPajOKh_H-8_PW9XnMkAMuTBFrSHuRGS
+
+!procedure ReceiptLong($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/ReceiptLong', $name, $tech, $desc)
+!endprocedure

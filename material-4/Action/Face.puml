@@ -1,0 +1,16 @@
+' definition of the Item material-4/Action/Face
+
+sprite $FaceXs [10x10/16z] LSO54e0040B0jLl-_rk7QVS2_2IFkb8Z4gtqZFSs2qVVvQMMaQZ-AQCbr7AF-
+
+sprite $FaceSm [12x12/16z] NSVL0KDH20Mmm7Exx3zjZRy6FVxjrwezzRNrsnPKPMVs2iWSuPwSwKftMa-JRvSUH64V_GQiDUxg5v7W3G
+
+sprite $FaceMd [16x16/16z] RSo50SKW34NHY_EbUVjFMtSu5OZIvnmtVotA7ddj1bQIyYtnNywWLLZBngpk3KwLGzAo3S9-He4xOeCYG8M3VTcJ-xXRi-RsSDyyw9z2iIE4O99-Zeu9
+
+sprite $FaceLg [20x20/16z] {
+bOu54WKX3CMwYlFkVrhaJVjTiqheP93_y1YKxSOuA7KrbN1blKwLR7AXms0JaydoVdnFbJhcXAm-9uTzkiA4WJ1VSRpg_6E2GMGEYonSCbGXDnmyuSuT0-2d
+OXKZwC26kfcQNPN8Arj36Ki2iR9onEnNUKy7
+}
+
+!procedure Face($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Face', $name, $tech, $desc)
+!endprocedure

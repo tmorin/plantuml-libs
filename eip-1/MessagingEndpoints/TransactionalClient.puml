@@ -1,0 +1,23 @@
+' definition of the Item eip-1/MessagingEndpoints/TransactionalClient
+
+sprite $TransactionalClientXs [15x10/16z] NOt50K0X3CL8-rtOVrlSSweyiGiQs1KEZTYmK8Xhto2ki8NfCWPsjKSYhuIl8FLxX5LdRzib5mMkvycz7W
+
+sprite $TransactionalClientSm [18x12/16z] POw50G0W20JjrlstjGiua_v2aHFZhDVhEpnAy8NP7iCVoxCD8SHqbP5YnfynrcyjYpAJut4zn_K0lpch3-xykuuUQP6UYL9g_ne
+
+sprite $TransactionalClientMd [25x16/16z] {
+TT150e0W441Hfrbn_-CwT3_RRnAVg6D7NGqIe41RWiB4UX24XRI0i94I51fCQedb1bLCuNCfQ0hQx84uxQNL7XGQL0UkVIvih8QzsFJd29q8jP18871YtCVg
+uGS
+}
+
+sprite $TransactionalClientLg [31x20/16z] {
+XSy73WCn24JHc86nK-z_t0I40axzsv3UDj_-X5zfunE79yVrphHH2MtdnEhKs33UOd5fQo9vZPPvY2dPPz7aWsS-BGJFOD9aPmbcXM8l6FHHyk76cj-MKRr_
+6xEpU34W6Vovxdg-4g8OItOD3CwcFGqaEcSydOwFNU4bwwzu1m
+}
+
+!procedure TransactionalClient($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingEndpoints/TransactionalClient', $name, $tech, $desc)
+!endprocedure
+
+!procedure TransactionalClientGroup($id, $name='Transactional Client', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$TransactionalClientLg>', $name, $tech)
+!endprocedure

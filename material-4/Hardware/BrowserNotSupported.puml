@@ -1,0 +1,13 @@
+' definition of the Item material-4/Hardware/BrowserNotSupported
+
+sprite $BrowserNotSupportedXs [10x10/16z] Oy06U5dP-440oEHd1Gc0M6myh30MK06K1LJB0c51j85KW04ht31E1W
+
+sprite $BrowserNotSupportedSm [12x12/16z] TOp50S0m30D3zgUW_QSjd0glNC0ebHcPPOL-5SewBhhkNC62U2wSKxmvXNCCdEEeR5VUEg3vEG4
+
+sprite $BrowserNotSupportedMd [16x16/16z] XSwr0G0W3031e0sI_QV5NRyxDF2DpYGemM0fBfYmm5CCQRGD2xbipL1CXhfGNHUgwq8tK1IJWSKveZNgLFoMG5oeXOKfPc7B0m
+
+sprite $BrowserNotSupportedLg [20x20/16z] fSy73iD024JHBotWxhd_RIFIar7tKwV39LMGRq4xb9JU5ffKZ1ZHXevdJ0bFEccgJMKnTgN5s5GMw-qMwqgBSIWirfKMUtpqZ1txarJ4i-TBOZO5Pg6v6m
+
+!procedure BrowserNotSupported($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Hardware/BrowserNotSupported', $name, $tech, $desc)
+!endprocedure

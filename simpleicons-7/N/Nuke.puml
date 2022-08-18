@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-7/N/Nuke
+
+sprite $NukeXs [10x10/16z] 9S650SC00C0Wvglc_skh04DV4Bm6-fPNFdIR1aW4YW-eFo-eCa31PqBi
+
+sprite $NukeSm [12x12/16z] 7SM95O1030BHyTQzflzkVUGd0D5zeRW1fm2ZPTm5cxfjkaqs8pqw8QEwc7qfbx9n4e_EXKHJ7X1WogeTiAq7VW
+
+sprite $NukeMd [16x16/16z] {
+HSW7aiCm581Gv95N_NF_qsuIrpSLEEpBaRYjo42rS32LusubZaG5TERvs_uar3uIqJnqLTppN5yAHkHOS70YqEIY0cNmZWKZbRSTYBmjGIblRm54ldkRVm1p
+79s98o4PhGm3u0C
+}
+
+sprite $NukeLg [20x20/16z] {
+LP25WK0X3CKUvGjMil-q9uKJWWUlDdKo7ltZnejPRdZIXgbDfcxrvcKJNRCjzG34Aj2yfTip09vK0H8Iug3qebWMI3CQQj5Ya6IiPvWsdRU7SyBjbH3joFe5
+uidpReUZI8ZJOURoVBg4AN7klOZ8_NDbdzL-92DTc8ARhi10lnJmCV6rw1C
+}
+
+!procedure Nuke($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/N/Nuke', $name, $tech, $desc)
+!endprocedure

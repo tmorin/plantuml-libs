@@ -1,0 +1,13 @@
+' definition of the Item material-4/Maps/Plumbing
+
+sprite $PlumbingXs [10x10/16z] Oq03dAnG1XS_FnkOmS_8mCWF5c7Xv-S0CLZv6Q0i1Y230HU3WGbA0m
+
+sprite $PlumbingSm [12x12/16z] ROh50O100CEAEzb_MkJSygf43QOOuRHXFNTc1ljp3PfxAqo0TmVOR9w_kChonQMEkcmiU04
+
+sprite $PlumbingMd [16x16/16z] bKsr0S0m02BkuVzhgz6jPSFn5OOKEvs2e8sqXRbnILgZK4hZsf2P6g9rcP-wckbqKOU6UgrjRxye6ft-JdUS
+
+sprite $PlumbingLg [20x20/16z] hOs35KGn00GtTgR_Qiys_ZmlzGE5S2z1kfOgM-9P6BZATC1P0qoHpAKM03-pR3zl9S-MVFKO8blyHN5g0kESSqopatJ5abAwb-JFqXdhzPOr
+
+!procedure Plumbing($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/Plumbing', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,279 @@
+
+
+
+
+
+!procedure EsEntity($shape, $stereotype, $id, $label="")
+  !if ($label != "")
+    $shape "$label" as $id <<$stereotype>>
+  !else
+    $shape $id <<$stereotype>>
+  !endif
+!endprocedure
+
+show stereotype
+
+skinparam defaultTextAlignment center
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam Arrow {
+    Color $FONT_COLOR
+    FontColor $FONT_COLOR
+    FontSize $FONT_SIZE_SM
+}
+
+
+
+' definition of the Item eventstorming/Element/FacadeCommand
+
+
+skinparam file<<FacadeCommand>> {
+    StereotypeFontSize $FONT_SIZE_SM
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor #779fae
+}
+
+!procedure FacadeCommand($id, $label="")
+  EsEntity('file', 'FacadeCommand', $id, $label)
+!endprocedure
+' definition of the Item eventstorming/Element/Command
+
+
+skinparam file<<Command>> {
+    StereotypeFontSize $FONT_SIZE_SM
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor #aec6cf
+}
+
+!procedure Command($id, $label="")
+  EsEntity('file', 'Command', $id, $label)
+!endprocedure
+' definition of the Item eventstorming/Element/Result
+
+
+skinparam file<<Result>> {
+    StereotypeFontSize $FONT_SIZE_SM
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor #cfcfc4
+}
+
+!procedure Result($id, $label="")
+  EsEntity('file', 'Result', $id, $label)
+!endprocedure
+' definition of the Item eventstorming/Element/Event
+
+
+skinparam file<<Event>> {
+    StereotypeFontSize $FONT_SIZE_SM
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor #ffb853
+}
+
+!procedure Event($id, $label="")
+  EsEntity('file', 'Event', $id, $label)
+!endprocedure
+' definition of the Item eventstorming/Element/DomainEvent
+
+
+skinparam file<<DomainEvent>> {
+    StereotypeFontSize $FONT_SIZE_SM
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor #ffcb81
+}
+
+!procedure DomainEvent($id, $label="")
+  EsEntity('file', 'DomainEvent', $id, $label)
+!endprocedure
+' definition of the Item eventstorming/Element/IntegrationEvent
+
+
+skinparam file<<IntegrationEvent>> {
+    StereotypeFontSize $FONT_SIZE_SM
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor #ffdeaf
+}
+
+!procedure IntegrationEvent($id, $label="")
+  EsEntity('file', 'IntegrationEvent', $id, $label)
+!endprocedure
+' definition of the Item eventstorming/Element/Query
+
+
+skinparam file<<Query>> {
+    StereotypeFontSize $FONT_SIZE_SM
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor #62d862
+}
+
+!procedure Query($id, $label="")
+  EsEntity('file', 'Query', $id, $label)
+!endprocedure
+' definition of the Item eventstorming/Element/ReadModel
+
+
+skinparam file<<ReadModel>> {
+    StereotypeFontSize $FONT_SIZE_SM
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor #77dd77
+}
+
+!procedure ReadModel($id, $label="")
+  EsEntity('file', 'ReadModel', $id, $label)
+!endprocedure
+' definition of the Item eventstorming/Element/UserInterface
+
+
+skinparam file<<UserInterface>> {
+    StereotypeFontSize $FONT_SIZE_SM
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor #a2e8a2
+}
+
+!procedure UserInterface($id, $label="")
+  EsEntity('file', 'UserInterface', $id, $label)
+!endprocedure
+' definition of the Item eventstorming/Element/Aggregate
+
+
+skinparam file<<Aggregate>> {
+    StereotypeFontSize $FONT_SIZE_SM
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor #fdfd9d
+}
+
+!procedure Aggregate($id, $label="")
+  EsEntity('file', 'Aggregate', $id, $label)
+!endprocedure
+' definition of the Item eventstorming/Element/Service
+
+
+skinparam file<<Service>> {
+    StereotypeFontSize $FONT_SIZE_SM
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor #fcfc78
+}
+
+!procedure Service($id, $label="")
+  EsEntity('file', 'Service', $id, $label)
+!endprocedure
+' definition of the Item eventstorming/Element/Policy
+
+
+skinparam file<<Policy>> {
+    StereotypeFontSize $FONT_SIZE_SM
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor #b6a2db
+}
+
+!procedure Policy($id, $label="")
+  EsEntity('file', 'Policy', $id, $label)
+!endprocedure
+' definition of the Item eventstorming/Element/Saga
+
+
+skinparam file<<Saga>> {
+    StereotypeFontSize $FONT_SIZE_SM
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor #c9bbe5
+}
+
+!procedure Saga($id, $label="")
+  EsEntity('file', 'Saga', $id, $label)
+!endprocedure
+' definition of the Item eventstorming/Element/Process
+
+
+skinparam file<<Process>> {
+    StereotypeFontSize $FONT_SIZE_SM
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor #ddd4ee
+}
+
+!procedure Process($id, $label="")
+  EsEntity('file', 'Process', $id, $label)
+!endprocedure
+' definition of the Item eventstorming/Element/Timer
+
+
+skinparam file<<Timer>> {
+    StereotypeFontSize $FONT_SIZE_SM
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor #cfcfc4
+}
+
+!procedure Timer($id, $label="")
+  EsEntity('file', 'Timer', $id, $label)
+!endprocedure
+' definition of the Item eventstorming/Element/Person
+
+
+skinparam actor<<Person>> {
+    StereotypeFontSize 0
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor #ffd1dc
+}
+
+!procedure Person($id, $label="")
+  EsEntity('actor', 'Person', $id, $label)
+!endprocedure
+' definition of the Item eventstorming/Element/System
+
+
+skinparam file<<System>> {
+    StereotypeFontSize $FONT_SIZE_SM
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor #ffd1dc
+}
+
+!procedure System($id, $label="")
+  EsEntity('file', 'System', $id, $label)
+!endprocedure
+' definition of the Item eventstorming/Element/Comment
+
+
+skinparam file<<Comment>> {
+    StereotypeFontSize $FONT_SIZE_SM
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor transparent
+}
+
+!procedure Comment($id, $label="")
+  EsEntity('file', 'Comment', $id, $label)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/Dialogflow
+
+sprite $DialogflowXs [10x10/16z] Oq05R30Q1E0iPX23Wus1cO630yG20JGM0mkGPeHeXWWW
+
+sprite $DialogflowSm [12x12/16z] PSUt0G0n3CD0V33D_HTsb2fT1L3yf2RftgEBvJl78JUW-_PHcdRovR8xoHGJ
+
+sprite $DialogflowMd [16x16/16z] ZOfL0W1H48AS3SRxNtYxy_6de282EAw9TfaDAx4zn-LsUCQLpDlZexINlV2ssNQbcJpOBGaTDpg2tkW1
+
+sprite $DialogflowLg [20x20/16z] bSx13G0G40LHWDz_nG8cSDevoGFhhAKIFkcTcZjiXIXoy1EV-zaflYoJ-ggVaOH9kP_HOMIqZXKfZj8YZnn_dp7PcP8prm
+
+!procedure Dialogflow($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Dialogflow', $name, $tech, $desc)
+!endprocedure
+
+!procedure DialogflowCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DialogflowLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure DialogflowGroup($id, $name='Dialogflow', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DialogflowLg>', $name, $tech)
+!endprocedure

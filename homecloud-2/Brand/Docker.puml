@@ -1,0 +1,24 @@
+' definition of the Item homecloud-2/Brand/Docker
+
+sprite $DockerXs [10x10/16z] Oy05-24KDmS_aCK7v0DPG2O_0h1nG1bC331Xi4OWO4Gn2W
+
+sprite $DockerSm [12x12/16z] VSO50W0X24JHiPkv_sctEtmAV7HnZnn3tZi5du0wJsKhf6-y49sv0x2d1o1hEinKONLu6W4
+
+sprite $DockerMd [16x16/16z] dSa53eL000FHMVVj_K_xNO08Ceszb6i5BL3zOtyQPIK1fGFCz5YSVY8v2wytAeYgROsnP0I_DC26f3N1pfSyXxe3
+
+sprite $DockerLg [20x20/16z] {
+hSg54SCm50JH5N_ZzTzjPAQ1q3Dgv_Y7LlxHEWLESXlRjhJkEZ5fsPMHYVV9Wbaoxps3ujIcYQqlHbKmJSBwegjfwbT3vX41qvMdkgQUPuE9qw5ZSbawJdm8
+mV6n5m
+}
+
+!procedure Docker($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Brand/Docker', $name, $tech, $desc)
+!endprocedure
+
+!procedure DockerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DockerLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure DockerGroup($id, $name='Docker', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DockerLg>', $name, $tech)
+!endprocedure

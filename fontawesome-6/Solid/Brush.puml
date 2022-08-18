@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Brush
+
+sprite $BrushXs [7x10/16z] O-1bOE3cnmiO8036Wmk222W5
+
+sprite $BrushSm [9x12/16z] ZOkr0G0W40E3DiZjFoqEDVSk4IfoKC3pZIvSuZiPMo1O3JAigh0a7G
+
+sprite $BrushMd [12x16/16z] hOpJ0G0W54LlTkq_RUP_vva8l6cgg90Ikdu45_7YsNdsAGqr2ahGy3MdmCoHoCp9_5q
+
+sprite $BrushLg [15x20/16z] lSwr0SGm0CNGRsPh_scFCLJcTUgaYZIwn9shu0qeywjnClrp_-3eJlogah5s00HhzTG1xl5Ert-oCa1VGD7T5G
+
+!procedure Brush($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Brush', $name, $tech, $desc)
+!endprocedure

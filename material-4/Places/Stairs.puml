@@ -1,0 +1,13 @@
+' definition of the Item material-4/Places/Stairs
+
+sprite $StairsXs [10x10/16z] Oy0A-240o89GK1QGWB5WiWniK1PKAK8l0W
+
+sprite $StairsSm [12x12/16z] Oy09-640ncPXuOMp6NZWua0ImOQhvs9WXB7Pc5ZWvl3oyCBPKC23OYi
+
+sprite $StairsMd [16x16/16z] XST50G1140EmBlFKlzfZnlo2VwMj8WQLEpsySHAiRSTRc7fuqfhStu3BoSE1ouM7MvpVQkN-n9t2G6-6NlK
+
+sprite $StairsLg [20x20/16z] fSW50W9024HHjeku_sdj6h7zcppwBx7Rwi4C4h2LSnPJiBdxipCs0skxdxUOn9cQWUNTwwrM0ripxcwqJEHCcFdE83vO4xqcaJvk2m
+
+!procedure Stairs($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/Stairs', $name, $tech, $desc)
+!endprocedure

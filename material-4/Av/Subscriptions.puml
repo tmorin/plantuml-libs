@@ -1,0 +1,13 @@
+' definition of the Item material-4/Av/Subscriptions
+
+sprite $SubscriptionsXs [10x10/16z] Oq06_230W2O44sI60BWGFmy36i478X2oZ3mGm
+
+sprite $SubscriptionsSm [12x12/16z] LOg53S1030CjHr3k_jC-1azWHELy9x8yPRBhPyDT-_0gpx2_mUKfoGFXxzq_wGyQw
+
+sprite $SubscriptionsMd [16x16/16z] RSs54G0n24JHVsu9z5_jkMM7DuekWQg-F7NoIqielIQfPmB-iq3jVqzDaXfoMLUfg9To_o5v2RK1
+
+sprite $SubscriptionsLg [20x20/16z] bSw35S1G30NGci7-qnRVnZqEtz03M5jCRR-qQSXRm2LhAxlokzFi6lyIiMRZS01C3RP4xKiUrpuGrKOAvyRRkwVbQyTN6y7pbL9U
+
+!procedure Subscriptions($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/Subscriptions', $name, $tech, $desc)
+!endprocedure

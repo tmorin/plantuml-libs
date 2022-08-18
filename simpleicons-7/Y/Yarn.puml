@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-7/Y/Yarn
+
+sprite $YarnXs [10x10/16z] 9SZ50S103CH0XNEe_giDsFDPu5Cy-HbAbbKzykfgYRORQdwdgOXXTYdke0A7Hda1
+
+sprite $YarnSm [12x12/16z] DKe50W0n2EAwZ___TXYmgHG23qyKM32zOXLTU6f_mTTkFPg9V5l-cbaJnSEE-dVG_Nk3H_wjoe5WMO8GBDq1
+
+sprite $YarnMd [16x16/16z] {
+JO_55S0m3CKSvlpzj-rJMGSpsabQ6iu0bYxAvUfbVwvho7aN3wzMHDYGZQ094Y8Yl62z_lx6hYi6WtRf3RZN2ZL5oUuyCXTjoqocArT9r_KZXqH8cOEdu7R1
+_Ruv
+}
+
+sprite $YarnLg [20x20/16z] {
+LP073iKm24Ffo8Ru_hVz0kTBz7LaOAOSnePMIHGSx9834kDpjRdChBflheMnUACFWhyi5gLxvvrPkiFWqlttVhALq3r8x1bLA8Yc03T8pO4KpSsITBYxQqoC
+MSaM1Mwv8j2A94yiFZaFM4Jaf11d8dFdaIPLS98OHJy
+}
+
+!procedure Yarn($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/Y/Yarn', $name, $tech, $desc)
+!endprocedure

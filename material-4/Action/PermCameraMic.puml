@@ -1,0 +1,16 @@
+' definition of the Item material-4/Action/PermCameraMic
+
+sprite $PermCameraMicXs [10x10/16z] Oy0AE7dv-VavEHaO-840HF3W81X04CpYOc03aZnm7Lm8qm
+
+sprite $PermCameraMicSm [12x12/16z] VOg50S1030AfUzb_sdUtYmSmu2Evw-MaPt9FlSzcR_Vzka5yPjVpWbF_2Olnh5J0j1G9
+
+sprite $PermCameraMicMd [16x16/16z] bOu30aGX500dk-v_siMtCU4PF2ANKYmzGgdS_bYb_cPR0hAJcZJQxwMM3KmZ3tQYjj82KvuaP4EOwoo8Rk2uJs7S1o7_qFyxlW
+
+sprite $PermCameraMicLg [20x20/16z] {
+fOtL0KCX54E3E-o_ROlBpxE3NalmdP0oSiJQc90gnXYHK-b0pXo7gny_SW4WC_Vn9qZLiyIFd89FudyuPb-idXPiv7849Wd8fkmf0B6xPSrOFpPNGyn8-F8w
+tEO7
+}
+
+!procedure PermCameraMic($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/PermCameraMic', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/CloudMediaEdge
+
+sprite $CloudMediaEdgeXs [10x10/16z] TOk30G0124LVRl-5pqRkWxymR5tPkIADe0wQ3RsYAOa3hCXkuHOZ
+
+sprite $CloudMediaEdgeSm [12x12/16z] VOgr0G0n3CHaNy3xBnnk7bKTY3zAGIkuGsXdALdKV8m0Z3BZp1vfPZ7_oY6Yc7mcbmcCXL74ZGu
+
+sprite $CloudMediaEdgeMd [16x16/16z] ZSu54aKn24FH2w6Px7_3trtV6Mjnjl6y_1SIPseWhjjVvKcu4yHZECivAIp0TWmavugrg7DLmPaxGVGje0JVBcWn0ehR7vidAZxQ0m
+
+sprite $CloudMediaEdgeLg [20x20/16z] {
+bSwrOGLH34JHAvet_JTiVrwAzcHYSLTnqH9aSg22gcqiWV1YosKLacongQ2pxTJmqruGC4adRxO3G1CIG4goFwNMV78a0CikVjHXmJIR3jkffegDRHIdhxi0
+Wg-g0eaBYPl-0G
+}
+
+!procedure CloudMediaEdge($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudMediaEdge', $name, $tech, $desc)
+!endprocedure
+
+!procedure CloudMediaEdgeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudMediaEdgeLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CloudMediaEdgeGroup($id, $name='Cloud Media Edge', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudMediaEdgeLg>', $name, $tech)
+!endprocedure

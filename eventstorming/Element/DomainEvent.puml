@@ -1,0 +1,14 @@
+' definition of the Item eventstorming/Element/DomainEvent
+
+
+skinparam file<<DomainEvent>> {
+    StereotypeFontSize $FONT_SIZE_SM
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor #ffcb81
+}
+
+!procedure DomainEvent($id, $label="")
+  EsEntity('file', 'DomainEvent', $id, $label)
+!endprocedure

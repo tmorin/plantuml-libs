@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/PersonMilitaryToPerson
+
+sprite $PersonMilitaryToPersonXs [10x10/16z] LSI50O0m0CJ0u4xsdnQjlXoq6sMqeYSmp3OSFYW--04FAp01Gg-UF0W8Wt03
+
+sprite $PersonMilitaryToPersonSm [12x12/16z] LOY30S105CLIkzb_slBuyH1WEeap30EmsG1geMlKSZQqOVDLPJbHVTMPLvsen_EL7KxLdLS5DF0R
+
+sprite $PersonMilitaryToPersonMd [16x16/16z] {
+NOr50aGX3CNo1PVU_xRJ1-FP96Y18_N0XsbcIH7dmHV1z-N-v-FFNlouZQ6AOtHtc6HTZ2RME8vbiRyDo08u7Pu-zeSipiJ6JFlPEb1j0UKPfTJXqgtYe9g8
+jVi
+}
+
+sprite $PersonMilitaryToPersonLg [20x20/16z] {
+TS-50O0m00F107NB_jDYmUMmnrlCUfyRRXmNwdx0KoRPgMPXBSxARnMImwDW0l2ihkiUPH6strLIrJFF6xcK0CEwRwh5NXRnUWrS9AYKV-ZtgDZjBpJDp53Q
+tDnaYiOdUaT7Iphis7GST6y2
+}
+
+!procedure PersonMilitaryToPerson($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonMilitaryToPerson', $name, $tech, $desc)
+!endprocedure

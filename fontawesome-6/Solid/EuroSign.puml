@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/EuroSign
+
+sprite $EuroSignXs [7x10/16z] Oq00Vdv-C0bcSqD4e68mUOGACCtE2AAv-Fa1
+
+sprite $EuroSignSm [9x12/16z] LKc50S0m20lCLyd_rzOLYMARbtmoazvAuHBho_kwDFioiraIoT0onMmVbFaz8W
+
+sprite $EuroSignMd [12x16/16z] Oy02E7bve2n-402pc84CLYP6g2WxJ2atFpTC4pyKG1KZj08fAE32eeOFBCC65eFPYiRXu-56DW35hG
+
+sprite $EuroSignLg [15x20/16z] TSw35G0n403Hw8pflzf3p7dyuOfHIciPWSrZTRgSDc2B1wK_vYjqtS3zPpvfVFwb_OR39eKrY9WajfLtJpShtFhFdp_0Y7AEfJBdCaTVsAALPzaB
+
+!procedure EuroSign($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/EuroSign', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('gcp/bootstrap')
+
+' loads the Item which embeds the element Looker
+include('gcp/Item/Looker')
+
+' renders the element
+Looker('Looker', 'Looker', 'an optional tech label', 'an optional description')
+@enduml

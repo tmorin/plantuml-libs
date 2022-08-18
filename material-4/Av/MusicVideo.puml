@@ -1,0 +1,13 @@
+' definition of the Item material-4/Av/MusicVideo
+
+sprite $MusicVideoXs [10x10/16z] Oy06-DaWW9-17yZZusTZWBA06CnYvuUn-35OC80m3W
+
+sprite $MusicVideoSm [12x12/16z] TSQt0O0m00F19sUq_xJWhCfN7Jqo173UDvI_o-IFr9zgF-Ll4lMCGtbpW_q
+
+sprite $MusicVideoMd [16x16/16z] XSUt0OGm54J19ocvW_ri_zNYlPri-58KcneSsbYuCAYaFqGiRtnwmFEJVBXzU3uTstb_IcBvmH_o7cST
+
+sprite $MusicVideoLg [20x20/16z] fSYr0GGn00CmXpdUVzg7OqQLmXkUImALTiRH_Gwjc7CsW9nU9MbN1-3HkSpbHN9rtBcwE4DIBmv22GnNk6IXIfsBkEeB
+
+!procedure MusicVideo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/MusicVideo', $name, $tech, $desc)
+!endprocedure

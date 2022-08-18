@@ -1,0 +1,16 @@
+' definition of the Item material-4/Action/Commute
+
+sprite $CommuteXs [10x10/16z] RSI50O0m0CJ0u4xsdnRNjlT2IkM6dR-Rnt42kOa5cesKMhWPGV8Cw7Yi
+
+sprite $CommuteSm [12x12/16z] TKh50O0m32mnDDp-qzRbrUXPsDRzVT_Ru6FC8gZOkLnU-26Yls4gecNy0gu0b88XOoydk-BiAi85vpbAlfnL2G
+
+sprite $CommuteMd [16x16/16z] bOx50GGX54E3ZaBwhnRNoyf3lmT_SxDmDrDGAvsWgBOa2g_SxDSbdc5Basyhk_sYy6JRa-LYkd9_E4gFRCC1vIFPA8AS1asIe2nRazPFlFX61
+
+sprite $CommuteLg [20x20/16z] {
+fSX70eH030D1UGBPqlz_kzYpcIFLjyOzrbF3HzVBvsblDQD_teQ1kZmhmRvVvH5y_dfhHVAlHmn7Ff4yJ1oqn3lWObsWOEs8nwxp-QImRF6Q54ylyM3qLgjw
+EzMcFLuNW293qeex7W
+}
+
+!procedure Commute($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Commute', $name, $tech, $desc)
+!endprocedure

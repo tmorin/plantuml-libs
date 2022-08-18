@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/PanoramaVerticalSelect
+
+sprite $PanoramaVerticalSelectXs [10x10/16z] Oq02_100PF616Kn05XD420JmibZ0B8Gfh40M3nXmCm
+
+sprite $PanoramaVerticalSelectSm [12x12/16z] Oq01x3mGm0XaC_D305W2aysBnEP4OdCWiRamrIFCOKLYCp9100C3
+
+sprite $PanoramaVerticalSelectMd [16x16/16z] Oy04Z700uVF30GUOpmddGnGmm_aCg1fuqVZSQ7nED3u7Fdc4VaOOdm_2Pq6pdnlEPqPpFnUcPm4
+
+sprite $PanoramaVerticalSelectLg [20x20/16z] ZS_L0S0W34NHL-g-_xJL20xtyw11VVrfHsZJIdPOPiWcoq0PfGESsXQn9M9JfSsv-ngrdQsB_7cDs6dLswDH1zbcjIBU3G
+
+!procedure PanoramaVerticalSelect($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/PanoramaVerticalSelect', $name, $tech, $desc)
+!endprocedure

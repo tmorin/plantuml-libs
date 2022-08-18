@@ -1,0 +1,17 @@
+' definition of the Item azure-4/Group/GroupDashed
+
+!procedure GroupDashed($id, $name='Dashed', $tech='')
+  GroupElement($id, 'GroupDashed', $name, $tech)
+!endprocedure
+
+skinparam Rectangle<<GroupDashed>> {
+  StereotypeFontColor $FONT_COLOR
+  BorderThickness 1
+  BorderColor $AZURE_GROUP_BD_DARK
+  BorderStyle dashed
+  FontStyle none
+  FontColor $FONT_COLOR
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}

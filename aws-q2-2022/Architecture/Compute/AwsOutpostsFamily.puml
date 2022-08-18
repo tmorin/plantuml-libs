@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2022/Architecture/Compute/AwsOutpostsFamily
+
+sprite $AwsOutpostsFamilyXs [10x10/16z] FSQ70S0m2CH0yXIn_yHnbmqSKBDC7e4FcmG1fQeca3JO3KhIXXeLnj3WnwWxCsFyeHcZ7m
+
+sprite $AwsOutpostsFamilySm [12x12/16z] HOg53G0m3CFAwVyNhoJDee01nEAENoORUpGLlHwppTHQFmaMBg9pCfXQwvn61fXsxcUu76XAEHove7a
+
+sprite $AwsOutpostsFamilyMd [16x16/16z] JSm70i0W24DHWf9u_mkxr-zyjAeUJn6XFTXD_uF9v0cVWnAHZZsj8OPBD_OU62xApEIK3vUaB0jSqqmzmDWz2XaTXAuPWdhRnRYiBdUuZHCOtccs_GOD
+
+sprite $AwsOutpostsFamilyLg [20x20/16z] {
+RSg74SD030F13m2ExhzW1uwpTDAd7V8edtoFVypBE3NfetHpa_5hFPwf_R55vsIz30swPFHaGJHPdUFri693Br0osaeFMyi3-MKrjqG86ijFAz1Q6UnXNbOe
+nWZ3oqhC2UBHnrRoDAegjfUdv6s9jk9LxZti4wyk9tW3
+}
+
+!procedure AwsOutpostsFamily($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Compute/AwsOutpostsFamily', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsOutpostsFamilyCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsOutpostsFamilyLg>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AwsOutpostsFamilyGroup($id, $name='Aws Outposts Family', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AwsOutpostsFamilyLg>', $name, $tech)
+!endprocedure

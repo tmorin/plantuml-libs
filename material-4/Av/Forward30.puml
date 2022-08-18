@@ -1,0 +1,16 @@
+' definition of the Item material-4/Av/Forward30
+
+sprite $Forward30Xs [10x10/16z] LKc30G0n4CkZHlQVjkOXn3rnYeViWZgoYzeE5H26mXSgGjfcwpYIBux9
+
+sprite $Forward30Sm [12x12/16z] NOg50GCn30ClpD7-qxRFT6PBy6K-Tt7G98tZMPY7oIrpd8wmhCTH8yKvXWMCy3YqcwR1oRFXfULyymS
+
+sprite $Forward30Md [16x16/16z] TStL0SCm34NHQsQ__QSjDvpp9HOtEdjpicMd1ekaj_HFcn9J-PzwMPXBocn0PA70c0oxv1up78LH__Dzc1XGMEwz5It_8fWcpq_McsDbhU7I4m
+
+sprite $Forward30Lg [20x20/16z] {
+bO_50GD03CDypD7-qvQPgsT8ZZvIzOnrFTSOkiTbu6uo6WVSjLIWEeDuBNdCINPR4XmSjoL7EqpV2KYAgylMRIrAkOUqf65dHP7JFDJWx33vdjMA0kUlC_ri
+GsS6SszDTwa7H-xo-3hNoFgFBG
+}
+
+!procedure Forward30($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/Forward30', $name, $tech, $desc)
+!endprocedure

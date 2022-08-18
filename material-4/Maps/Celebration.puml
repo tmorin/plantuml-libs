@@ -1,0 +1,16 @@
+' definition of the Item material-4/Maps/Celebration
+
+sprite $CelebrationXs [10x10/16z] NSQr0O1000ImuCxjFotwrQUAIlm6UXtiOeCu_qYiHxuaFYdL9AtFgBW1
+
+sprite $CelebrationSm [12x12/16z] POh50S0m4CFiAwFsdxQCYJv6vSnVzuHQCGKSll4Svz2oX_C1UpWkPW_jPgI1dUT2Trep-dJxws45
+
+sprite $CelebrationMd [16x16/16z] TSd50GC05CBGVAiNzf-sxfBR0_uLyIRIyKB3R22v9T2afOUrJYTnHeaRhsqjY0UnBI9MzkhCzdKGA82zhyCzNzlTE3wtZfTxMppRd_6t8m
+
+sprite $CelebrationLg [20x20/16z] {
+ZShL0GCn30JHCHvx--ysqHd2yFuqMdw8Rv8I3qA29EwqkqH8WK6GXLVHIhCNiYBQm67S2kwQ_DX0jdSvLyCX6zWgPHhfZAiznMbMZyMnbJRhSV1gDeP5NQ9h
+OGaCpiBkkRTfJpp9_EC2
+}
+
+!procedure Celebration($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/Celebration', $name, $tech, $desc)
+!endprocedure

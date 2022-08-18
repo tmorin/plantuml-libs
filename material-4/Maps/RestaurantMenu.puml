@@ -1,0 +1,16 @@
+' definition of the Item material-4/Maps/RestaurantMenu
+
+sprite $RestaurantMenuXs [10x10/16z] ROd50G0X4CHohf3-gyMVh8modGXSkh1OfBfLZ5NrseK-Fd48kECGqDCn6G
+
+sprite $RestaurantMenuSm [12x12/16z] TKY30G0n4CkRRVQVjZRkOaplTof9e_nzv68oXHMtksBY3bV02_4eHOedn9yYGdbDj6L3UHe
+
+sprite $RestaurantMenuMd [16x16/16z] ZOk55O0m4CKET_x-qzRT0vNazMYS-TpaSRzQ7m2tE04LTaZ4vTL1wK_wzXcVoOHD-KeQ7AIUUkI8Pn8cWrUvlQ46GQiFivkZ70u
+
+sprite $RestaurantMenuLg [20x20/16z] {
+fSe53eG000F1ujxz_syl3KxaRF2o-a-lNMrOlx1M7L7a9yoA4gALLC1QZX1LtXVMSeQGWhKSY3hBMhgeiYoLThOgA7IJQj5DgW4_fr8zyttAeyVtAbBUgXZs
+id2gLJ_eSoy
+}
+
+!procedure RestaurantMenu($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/RestaurantMenu', $name, $tech, $desc)
+!endprocedure

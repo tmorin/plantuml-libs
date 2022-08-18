@@ -1,0 +1,27 @@
+' definition of the Item aws-q2-2022/Architecture/GameTech/AwsGameKit
+
+sprite $AwsGameKitXs [10x10/16z] FOl50S0m30Fbi9pzz-sbT2-XxNMOqxzCb2Ha9WAEgX15g9M6jZQgnQqsVInrR-GCRYWas1S
+
+sprite $AwsGameKitSm [12x12/16z] JOl50K0X34EXdcR_URyBxnJ5GLraOZ6zc3xC11wTzrXEFQRDENNceQtV3qyz8sP5aIKoKaSwI9vv0vVc8ReJbsQV03i
+
+sprite $AwsGameKitMd [16x16/16z] {
+NOrT0eCX2CC49hHu__jkTFzVtX85EE15LP7Y4_eIkaSozqw5df3J_EqLBrpER0V95GYzEwi0k6FBOtQ8-lYgPLP1d74sp9XXv3bD5CCzbiaVFtIaapwkO7iE
+tUGAWlA_S0S
+}
+
+sprite $AwsGameKitLg [20x20/16z] {
+RSrR4WGX24DHCR4XkF_z3YLTyxwVHm6TufbNqfV-M6FgHpqRnyaRiv6gOZqjDPwjsow8IvKprcmZ04DbFZ7QF79ELLoksVOyTFnfbS4gG17xDePH51XbEmMI
+y6iwFIoaNPWLbis8OUjO8_AAbAcjqMcPXKF76ZkfxGVt7tm
+}
+
+!procedure AwsGameKit($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/GameTech/AwsGameKit', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsGameKitCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsGameKitLg>', 'GameTech', $funcName, $content)
+!endprocedure
+
+!procedure AwsGameKitGroup($id, $name='Aws Game Kit', $tech='')
+  IconGroupElement($id, 'GameTechFamily', '<$AwsGameKitLg>', $name, $tech)
+!endprocedure

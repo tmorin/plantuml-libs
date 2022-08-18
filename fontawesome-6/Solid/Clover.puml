@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Clover
+
+sprite $CloverXs [10x10/16z] Om02FY040tuWu8Ap83GGWJ0283Yy235k1h0wLdQeNbQuAK0H
+
+sprite $CloverSm [12x12/16z] Om02Hbu6VWOeu0S176nka5eWpGh4R43Cnuy03306fZWt6uZc1MAeERnux08
+
+sprite $CloverMd [16x16/16z] ROu54iG030B9NJNw_zVMbUcEHG5ik287NDI6Kf_KszNhrikvC-nzL4NK6wKUrFFzS5MvtskQo5x-FVzOYQt_Kpx_oi_tCm
+
+sprite $CloverLg [20x20/16z] {
+VP250OGm34K_TU_-qvvGrmUrU8A4208keCV6H2-B6REHwOqC7RINfV0KnLN_zaUabtjt6u-8ZGohoEr2-AElJkRiJHy0gsiZ3k1M8g4kS-4RcTt8P2UZgLcV
+Nby
+}
+
+!procedure Clover($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Clover', $name, $tech, $desc)
+!endprocedure

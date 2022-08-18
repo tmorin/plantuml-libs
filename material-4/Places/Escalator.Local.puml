@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element Escalator
+include('material-4/Places/Escalator')
+
+' renders the element
+Escalator('Escalator', 'Escalator', 'an optional tech label', 'an optional description')
+@enduml

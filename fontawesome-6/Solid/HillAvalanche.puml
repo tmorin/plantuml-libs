@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/HillAvalanche
+
+sprite $HillAvalancheXs [12x10/16z] LSkr0O0044FHuCxRVrhiAduLpPy1GppA6SWBHp3k-wlBLCxQQ2bjxbvLsZ2OHD5cIkdwtW
+
+sprite $HillAvalancheSm [15x12/16z] PSU53SD0000ngwBWt_xJbZaMsj6I8jY6xgnGUTI2FW-z3thzLD7hWttM-xjrq-T5dyFoqmi
+
+sprite $HillAvalancheMd [20x16/16z] TS-54OH050JHmPtEFrfWTKwxxDU3DVrj7pKTJHXCS0B3CpHwMa0DAIcI3eoFhSMC6qqoer87Hfln5D3PKFlOs1vaCqhPZ8TccmzQanbLtkPEfNWjoWq
+
+sprite $HillAvalancheLg [25x20/16z] {
+NSw5gGL144N1MlUz-KVxzGqDSt2A5brzmuHfX66aIh8a2P81E2_cVBfv0qn9U9f0GRWBbhCWDKEo5zJCRRifg1aeg9c3GK7Ds98y3Mhc8SURkq7Dl91eK3Dt
+1qtUP3XxgDyKb4pdgg3Iwk5ii7Gm0Ty
+}
+
+!procedure HillAvalanche($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HillAvalanche', $name, $tech, $desc)
+!endprocedure

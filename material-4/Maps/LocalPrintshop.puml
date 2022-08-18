@@ -1,0 +1,13 @@
+' definition of the Item material-4/Maps/LocalPrintshop
+
+sprite $LocalPrintshopXs [10x10/16z] Oy0E-440LGG2-5ZWB1uG2op3my361cQniMBJ2m
+
+sprite $LocalPrintshopSm [12x12/16z] Oy0DUFX1W0MTpSK30Mn09Zy4SF4pCl3omm0JYCtAnCJ42sKpGmnW0b5WDeQP2
+
+sprite $LocalPrintshopMd [16x16/16z] ZSx50G0n24JHYIlGVxNhhddHVmCD4itCqbLczhcrMQanvI03QY_d1D1oi3QDzguOpQrgNPlg_5cUjtcW5tZG0m
+
+sprite $LocalPrintshopLg [20x20/16z] fSz50e1020LGd4x-_KzhT-ky9GsLIfYehx6ZAcFDTp5iCDG-fWZfM7SImnAZdhwB6MFo77F6wEcFANR_M-29f0yQ
+
+!procedure LocalPrintshop($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/LocalPrintshop', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2022/Architecture/DeveloperTools/AwsCloudControlApi
+
+sprite $AwsCloudControlApiXs [10x10/16z] FSR50G0X40ImvPIH_jl58Q-GQ7B3KvwsnApOV0X0YdwaDZ6rHf_w2FUoysa5
+
+sprite $AwsCloudControlApiSm [12x12/16z] JSUv0S0W0CF0y6EP_USDxhXA0iKEdk6PT6yjavwWt3O8bZGbUt6DZ5rD1z9tLhswv9Y4ZWFYFFC3
+
+sprite $AwsCloudControlApiMd [16x16/16z] NSgv0KD120DHxxz0m_RVhWyH6MLl0DJB7lmNHc04CuxpT6XdW8vmAE00bEcNAZmTofTTo-67zJFfEz2k0ywV58zTMIip8iJFdkXfLmzwUuGzmWS
+
+sprite $AwsCloudControlApiLg [20x20/16z] {
+RSpN0KCn24DHTrk2_UTDK7eUz_DGIEBLUSO4cI0JP89FQhtr9xwin6PzeGKDxQxQXz02UzW2K11Pu5OLE7qzhL1L8fxAfedsuHtdaQquhs240fcrORqFrOvC
+eVAPx8dyeDkh3tg2dg0dU0C
+}
+
+!procedure AwsCloudControlApi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/DeveloperTools/AwsCloudControlApi', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsCloudControlApiCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCloudControlApiLg>', 'DeveloperTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsCloudControlApiGroup($id, $name='Aws Cloud Control Api', $tech='')
+  IconGroupElement($id, 'DeveloperToolsFamily', '<$AwsCloudControlApiLg>', $name, $tech)
+!endprocedure

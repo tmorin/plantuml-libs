@@ -1,0 +1,13 @@
+' definition of the Item material-4/Notification/OndemandVideo
+
+sprite $OndemandVideoXs [10x10/16z] Oy06-DaWW9-1du613IG2Pl7pOx9OeRAS4C0FveAb4G
+
+sprite $OndemandVideoSm [12x12/16z] Oy05-160WHyk2c7pmTXWTJn8R6OucnEX1g4N3hX10Zpy80se
+
+sprite $OndemandVideoMd [16x16/16z] XST15aH044J1FmEWwkNzJmiWkrTY5tnf8cq1PPW2DLZUZwP-AgalBVKdoYVu1xzhB8DGgUNGw83z3vXj
+
+sprite $OndemandVideoLg [20x20/16z] fS-r0GD130H07VDj_zNQpxJ9muHYoHSHLqew_4c07s9oehUOyXpJw9PZGEFOm52iKbqpjDVHNheldUGX5lXVcM6IvQXFaZpo1m
+
+!procedure OndemandVideo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Notification/OndemandVideo', $name, $tech, $desc)
+!endprocedure

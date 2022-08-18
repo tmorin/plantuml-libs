@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/Crop32
+
+sprite $Crop32Xs [10x10/16z] Oy0A-240o683yubd8VGY
+
+sprite $Crop32Sm [12x12/16z] Oy09E7WWW1d8vcTcPW42PduG6ofF5Xjg9eZDn0m1gBO2
+
+sprite $Crop32Md [16x16/16z] Oo0PCFCZ08ZFmylC0W7C_4n0FYyFN2bT-3pyF300v8C4u82Ji6y
+
+sprite $Crop32Lg [20x20/16z] Ow0CCB8Y0HQ863yAu8I8SJ2pW208CFFpGiJOa0pYvniQOhmy203r1pUAVvaf2r
+
+!procedure Crop32($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/Crop32', $name, $tech, $desc)
+!endprocedure

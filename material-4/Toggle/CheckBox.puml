@@ -1,0 +1,13 @@
+' definition of the Item material-4/Toggle/CheckBox
+
+sprite $CheckBoxXs [10x10/16z] Oy0A-240ncA2iPXOGImU1Y038ilDm0fJnuFG0MOX
+
+sprite $CheckBoxSm [12x12/16z] Oy09-640AvkP2SvcPeI8Ct3pCp72r300cN3rZ5ZDWG8U55i1
+
+sprite $CheckBoxMd [16x16/16z] XSr50i0W34JHgUiazxzjKyVvAnuMrDluDf_SzQyrC-Uk_NqIVBo-l2tepfLyxuckE_bQ1IT_AvcVlpXkOBLV9uCE
+
+sprite $CheckBoxLg [20x20/16z] fSw35K1H30FGFBlTVzfl6pc-9Vwby3AsCrwb71XjJPgTATYjIPXvrdIaOUTz6HYxvhu8CNJDnWc0sVuIkwxDV_davrFBdRb2Suh4uzG
+
+!procedure CheckBox($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Toggle/CheckBox', $name, $tech, $desc)
+!endprocedure

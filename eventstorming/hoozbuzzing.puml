@@ -1,0 +1,79 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION=".."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('eventstorming/bootstrap')
+
+include('eventstorming/Element/FacadeCommand')
+include('eventstorming/Element/Command')
+include('eventstorming/Element/Event')
+include('eventstorming/Element/Aggregate')
+include('eventstorming/Element/Saga')
+include('eventstorming/Element/Comment')
+include('eventstorming/Element/Service')
+include('eventstorming/Element/Query')
+
+FacadeCommand("SubmitMoment", "Submit Moment")
+Command("CreateMoment", "Create Moment")
+Event("MomentCreated", "Moment Created")
+Aggregate("Moment")
+Aggregate("Notification")
+Saga("WelcomeNotifier") [
+    Welcome Notifier
+    --description--
+    1. generates the content of the notification
+    2. creates the notification
+]
+Command("CreateNotification", "Create Notification")
+Event("NotificationCreated", "Notification Created")
+Comment("EmailSenderComment") [
+    When the service failed, the process retries for a maximum of three attempts. The delay between each retry must be at least 1 hours.
+]
+Saga("EmailSender") [
+    E-mail Sender
+    --description--
+    1. generates and sends the e-mail
+    2. when the send is OK, flag the notification sent
+    3. when the send is KO, flag the notification not sent
+]
+Service("EmailService") [
+    E-Mail Service
+    --description--
+    The service sending the e-mails.
+]
+Command("FlagNotificationSent", "Flag Notification Sent")
+Event("NotificationSent", "Notification Sent")
+Command("FlagNotificationNotSent", "Flag Notification Not Sent")
+Event("NotificationNotSent", "Notification Not Sent")
+Query("GetWelcomeNotificationContent", "Get Welcome Notification Content")
+
+SubmitMoment --> CreateMoment : triggers
+CreateMoment .l. Moment : invoked on
+CreateMoment --> MomentCreated : produces
+
+MomentCreated --> WelcomeNotifier : starts
+WelcomeNotifier -l-> GetWelcomeNotificationContent : 1.1 asks
+WelcomeNotifier --> CreateNotification : 2.1 triggers
+CreateNotification -> NotificationCreated : produces
+NotificationCreated -u-> WelcomeNotifier : 2.2 ends
+
+NotificationCreated -> EmailSender : starts
+EmailSender -r-> EmailService : 1. uses
+EmailSender --> FlagNotificationSent : 2.1 triggers
+FlagNotificationSent -> NotificationSent : produces
+NotificationSent -u-> EmailSender : 2.2 ends
+EmailSender --> FlagNotificationNotSent : 3.1 triggers
+FlagNotificationNotSent -> NotificationNotSent : produces
+NotificationNotSent -u-> EmailSender : 3.2 ends
+EmailSender .u. EmailSenderComment
+
+CreateNotification .. Notification : invoked on
+FlagNotificationSent .. Notification : invoked on
+FlagNotificationNotSent .. Notification : invoked on
+
+@enduml

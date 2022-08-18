@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/RequestPage
+
+sprite $RequestPageXs [10x10/16z] Oq02_4303c71cVmG9fY5H31nGbX001FZPE25Y_63MQmy8C3
+
+sprite $RequestPageSm [12x12/16z] Oq05FBoylEnG9Zy8i4FP40wCpGp243QGHB2PME1iNbu6h6huUQ1wkK4cGjaCJ130m
+
+sprite $RequestPageMd [16x16/16z] RSrL0e0W00JHjLllVrgL6dB-tYgWHhsfWuzhmGoO0PyCnbkl_lh7u9-LdyHRtolzFWr3xbx3WtaFc_29HrLz
+
+sprite $RequestPageLg [20x20/16z] bSk55SGW54JHmHtwhtOtFd5v4U0UFZxKfXp9D2ADIDiWZKYh5hds6rf5tzwqztvlGihmFDidyE9UqF1bFrloiD2cQEh4OF9ImaL_
+
+!procedure RequestPage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/RequestPage', $name, $tech, $desc)
+!endprocedure

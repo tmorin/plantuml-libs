@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/C/Credly
+
+sprite $CredlyXs [10x10/16z] Oy0FUFc111CGyp0m0I4V5mCZaCNFpyqF10pS30oC85NyCENiM0q1
+
+sprite $CredlySm [12x12/16z] ZS6t0GGX000WpfpTVzkllXUy-4A4E90oI9V3T3JrxCNuxlJfsvdA-NhjhVbRmOiV
+
+sprite $CredlyMd [16x16/16z] fSUr0S104CH0FVDj_zqwCcM6YIH-2ou0aEW0Gd163iUx1GXO9LNCl9_42NGp3UP22MGBZRwaeMcE2p-iSJ72uCRnsWO
+
+sprite $CredlyLg [20x20/16z] {
+lS6rOKGn00KmsVVHzFQVDjW4oe3aNzH7UNXtQw3FCmMe4R28TwrlWV6W7jIRTRPRAL8nbpGpDUMiopYfBJMzbuYKaAijMTdICbQVILNw3cLts23BP_FgpHVp
+Z6-At_SC
+}
+
+!procedure Credly($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/C/Credly', $name, $tech, $desc)
+!endprocedure

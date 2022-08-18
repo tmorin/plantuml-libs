@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-6/bootstrap')
+
+' loads the Item which embeds the element LandMineOn
+include('fontawesome-6/Solid/LandMineOn')
+
+' renders the element
+LandMineOn('LandMineOn', 'Land Mine On', 'an optional tech label', 'an optional description')
+@enduml

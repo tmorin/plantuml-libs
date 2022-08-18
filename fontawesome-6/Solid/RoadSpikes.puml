@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/RoadSpikes
+
+sprite $RoadSpikesXs [12x10/16z] Oy03U1WueIn-8EJX1H8WDWi_FmzGW1V4XW4m6y51020NgpW
+
+sprite $RoadSpikesSm [15x12/16z] Oo0DyCCHXCl3mCyBHZnWBZySGRW8WCe5AUT10anW7WAmywC0D4S
+
+sprite $RoadSpikesMd [20x16/16z] fOe54e103CGMT_R_lwM2ErnEqiaKGKJo4ddnE2jj3_GStO-DcRH2d8lpiL5cpXuRUxcJnxOXEsayQoaGxP6r0qt78tZ9
+
+sprite $RoadSpikesLg [25x20/16z] lOd55O1G40DnX_JVBG_vxZg7tIJJr07IOM9_piOI5MYVqx531QJ3nF6SxJdxTuZ0y9pnEUrpEYfaZ68p2PY5cKFF1XFjSMhPcc1k
+
+!procedure RoadSpikes($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/RoadSpikes', $name, $tech, $desc)
+!endprocedure

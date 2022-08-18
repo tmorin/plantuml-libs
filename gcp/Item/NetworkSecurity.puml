@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/NetworkSecurity
+
+sprite $NetworkSecurityXs [10x10/16z] LKkr0G0m2CFX_uUBPAf1bFvJM15HLGb40nTvC05Hp3uKDfAYueMsn08Stz4
+
+sprite $NetworkSecuritySm [12x12/16z] POl70S0m30B1bYxQV-7qRbwqqw2yJ8Ugyju1NiFbnUcpa-dTHz_RQMT1Ml-dP_L7RzZhCrpsqG8
+
+sprite $NetworkSecurityMd [16x16/16z] ZSvL0aGn24FHK0diVyNJCC_z_Xsg-5HZH9jHEOgHMvhADE1gy63Zuegk4_2D8ogyp_kjG_ULTD4WBKqNofniqtyIquda6gFZiXy
+
+sprite $NetworkSecurityLg [20x20/16z] {
+bSy53WGX40NHZzLm_nDlMaAGs5RyeQr_OuuJEZ3d_DeI8Cmug3YD4hXR5uyXSTW02cAp8XLB-j94a_pTtVm5xUyAnx2MLWrBs3d8CEhBYbbEjgffsYjcOnVN
+NTv-
+}
+
+!procedure NetworkSecurity($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/NetworkSecurity', $name, $tech, $desc)
+!endprocedure
+
+!procedure NetworkSecurityCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$NetworkSecurityLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure NetworkSecurityGroup($id, $name='Network Security', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$NetworkSecurityLg>', $name, $tech)
+!endprocedure

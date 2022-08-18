@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/WbCloudy
+
+sprite $WbCloudyXs [10x10/16z] Oy01-FdvOGm8any2M1au-6603yvYGB1WJ4Q4MG
+
+sprite $WbCloudySm [12x12/16z] Oy07sBbPeImcVX202FA30H-GoGy3d0mS_DW12nARWHT8m7KpCaC08ugL
+
+sprite $WbCloudyMd [16x16/16z] dSV50O1000InnPtflrhSvIo_A4W3vCTY5jtMY4szbDEZqAZafkUXVJnwNCMjfHHNxQv9P3C2
+
+sprite $WbCloudyLg [20x20/16z] hS750S0m40CmXpdUVzeotxEHC80oLkEjSkLnqpmKN3fF4HjL-82LvOl3Wby9aKBgb3gbG0aKEWo_B832fwRmnmm
+
+!procedure WbCloudy($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/WbCloudy', $name, $tech, $desc)
+!endprocedure

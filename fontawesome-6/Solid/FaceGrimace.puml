@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/FaceGrimace
+
+sprite $FaceGrimaceXs [10x10/16z] JSR50O100C2muaxtdnOvpoi0cpC_WmrC9imsvP3EngnmWg9zV_MziXa1KyeB
+
+sprite $FaceGrimaceSm [12x12/16z] JOo50S0m20IfDzZlFstS3bSg27vgeB6bm9R2IlvdusnIXe1csobpzy-_FWy87ZJK_35IkXNVUkgKiPALRW8
+
+sprite $FaceGrimaceMd [16x16/16z] RS-30SH050N05plJVxLdHBFs_hmqYwd8ry9BbnU-rlsG-RlvguYz1XAaW0NI8eqBaxq2gP8vHHe4upoEwwEQMDFIVDPdilzGcuTvFqoAJJHt
+
+sprite $FaceGrimaceLg [20x20/16z] {
+TP05biGm240Xxjp_jlkGBXdxRGm7CFgXLU0Yax7n4T55Tv4pNEHaZ-MucTDKLb12uTOyPZvbHsAEQf9K5-WdYpufcYa2BFubbEH5h8YR_yXXWTE7q4BO8Qp0
+iY3fyxylX-V9qIl03Be9FbAtUcWaR3Nw0m
+}
+
+!procedure FaceGrimace($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FaceGrimace', $name, $tech, $desc)
+!endprocedure

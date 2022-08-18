@@ -1,0 +1,13 @@
+' definition of the Item material-4/Navigation/MoreHoriz
+
+sprite $MoreHorizXs [10x10/16z] Oo05C44eVdvcVY11j3O
+
+sprite $MoreHorizSm [12x12/16z] Ow0CyC0GaE1dvkLd0f8W3XCKaGm
+
+sprite $MoreHorizMd [16x16/16z] Ow0_uEPdOU01OX0D0lpyt43C0wP1W8MNWO6L5qpJ7W
+
+sprite $MoreHorizLg [20x20/16z] OnWAW0c50DFy_3mC3Fpyt10M6B3oy_CpC0C920i2UFZPa8Z13m
+
+!procedure MoreHoriz($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Navigation/MoreHoriz', $name, $tech, $desc)
+!endprocedure

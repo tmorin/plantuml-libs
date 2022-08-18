@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2022/Category/MigrationTransfer
+
+sprite $MigrationTransferXs [10x10/16z] HOc70S0m3CAo8zp__sssDw3k9M2yrgQAOSYXL20lkdWPoe8Ke0rbFQar6CeqQgXloAEEr0y
+
+sprite $MigrationTransferSm [12x12/16z] JKo50S0m2AjWOV__EyAqIjJ_2r6hVZDpW2C1Pwm88U3ivLgK4W4Gz5nhN9bC5O5CAvYPCh5eywD0Dt0cw13d5vm
+
+sprite $MigrationTransferMd [16x16/16z] NSjB4aGX349Hlm7i_U-tWndvxknG1Rw93YuY1lGCjb9hmvKLGNQuyl1Xx-kJt6BMulg4CW-xl9DeQPHFXqA3qScq6nA3j7yskY9Kzk1BTbt3aREVOM0-jJy
+
+sprite $MigrationTransferLg [20x20/16z] {
+RS-74SGW44DHif3TVxydhxXn_4nyP7nLUzJ-rPhHEID4GnNP0q_BAHcNIOku6cM3gec4NcgRYO7ZjFEUbctRbgZEbQVLT1Z6CZOIWrMa-yCKPZcuZwd2LEvW
+JvYdANODSjbkRFvH6FQ5WjECfzeMqXMKTpy
+}
+
+!procedure MigrationTransfer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Category/MigrationTransfer', $name, $tech, $desc)
+!endprocedure
+
+!procedure MigrationTransferCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$MigrationTransferLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure MigrationTransferGroup($id, $name='Migration Transfer', $tech='')
+  IconGroupElement($id, 'MigrationTransfer', '<$MigrationTransferLg>', $name, $tech)
+!endprocedure

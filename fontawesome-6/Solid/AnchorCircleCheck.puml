@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/AnchorCircleCheck
+
+sprite $AnchorCircleCheckXs [12x10/16z] FOY54S103CDSvch_RV-22icHyIqgW0xeVyiVK074VxOmMJu4vXZYCaTMA-OWJ0pR3
+
+sprite $AnchorCircleCheckSm [15x12/16z] TOp50O0m00CFTsx_QN6dpIlEXcRW0TMdJ36ULjf7qXOOF3rjD-c6Pj1TZjQv9BBBWMnlxz9HtNzrtAzc
+
+sprite $AnchorCircleCheckMd [20x16/16z] {
+NOy5WWCn3CHc6IVw_sllMZibAwoGhSx1f0A0VzLEc-3NDKQvk0bCSRgXVd81rBlTBRu6FJYZDuD44DU6xaXy0gIR0PY8sP7kWWDD887UJfhwWqut0WlX1DXW
+DO8bimsQdEeV
+}
+
+sprite $AnchorCircleCheckLg [25x20/16z] {
+bOy54eD040G7EBVv_szJUnvF6gTNCV4CUC51uNeMRBmI1jTheTu99huIvxlcaKBwOoedAT41jd1iMjeZCwzCtRekmS7LNeUm79H2mNRHVyAJWBnW2HJsyfdS
+XG6kLlqW_H11ofwZRIBJUHnPId9WrjO2z7mJrfGPP-dnDm
+}
+
+!procedure AnchorCircleCheck($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/AnchorCircleCheck', $name, $tech, $desc)
+!endprocedure

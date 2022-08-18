@@ -1,0 +1,13 @@
+' definition of the Item material-4/Navigation/Menu
+
+sprite $MenuXs [10x10/16z] Oo00-2603344
+
+sprite $MenuSm [12x12/16z] Oo0AyC00aCqC0sXg-640ZruMPcOM883hnGG
+
+sprite $MenuMd [16x16/16z] Ow0OSF8W01EGpuN2nmICJ0W0ulFo8m0JGTimrJEpCBE00P0ctVK
+
+sprite $MenuLg [20x20/16z] Ow0Fu441N60nVXJ0Hv9v72Y07QTvZAW0ftciA805ftaiBCnW20GWcle11G
+
+!procedure Menu($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Navigation/Menu', $name, $tech, $desc)
+!endprocedure

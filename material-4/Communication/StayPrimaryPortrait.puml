@@ -1,0 +1,13 @@
+' definition of the Item material-4/Communication/StayPrimaryPortrait
+
+sprite $StayPrimaryPortraitXs [10x10/16z] Oq027FmW069niW413vX5EW4tXGNA0W
+
+sprite $StayPrimaryPortraitSm [12x12/16z] Oq05_120mQO5YMaNDmC3
+
+sprite $StayPrimaryPortraitMd [16x16/16z] Oy02-A606y9bveS169y737XX_457Gm4EFWCdBmIm0Da
+
+sprite $StayPrimaryPortraitLg [20x20/16z] Oy05kFbWW0qcnC6F030nJgnYR530Wn0RpYmYmuK5MGmko0u3Z20k
+
+!procedure StayPrimaryPortrait($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/StayPrimaryPortrait', $name, $tech, $desc)
+!endprocedure

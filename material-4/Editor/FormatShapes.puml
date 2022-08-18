@@ -1,0 +1,16 @@
+' definition of the Item material-4/Editor/FormatShapes
+
+sprite $FormatShapesXs [10x10/16z] HOo50O1030E3yz9c_sqv_Egg7rjG28uLUg6nqZ-L37qo_FvadKXMkc1naOk1vl_l
+
+sprite $FormatShapesSm [12x12/16z] Oq06_FpyS1e8WG3EGiW34JBcOMQ4ia683yPcOcFYXxCXceao7m
+
+sprite $FormatShapesMd [16x16/16z] PSw50O0m34JHexZytlxR4bpwwfhepq6xsZPosvg3QuXrvsLthF_tnRBF5PnqhAEhFsjN-Rtk9_czpf27PrrPqOvr3RKEjTjKvblNleXOWzEkDKO4xH8mhm
+
+sprite $FormatShapesLg [20x20/16z] {
+bP35WGKW50E3E-c_sttOVhSv9OE3PxGkd197yUWKZakZ174hRQ2dIur-KvdoT8zh0VfHFJ7WEE-uHlVWwDkzomMyTxHeyTPP3cvTgIEO6vULXEItYuarOUCI
+cUmFVw0p-uRKviKV-20SPqSnVm
+}
+
+!procedure FormatShapes($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/FormatShapes', $name, $tech, $desc)
+!endprocedure

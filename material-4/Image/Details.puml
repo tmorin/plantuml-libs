@@ -1,0 +1,16 @@
+' definition of the Item material-4/Image/Details
+
+sprite $DetailsXs [10x10/16z] Oy05-64CFdvcc10_FqoEdvaJneAev0SZFWO69du8G38A
+
+sprite $DetailsSm [12x12/16z] VSZ50S0m3C10bRdQVzfYw9KpcoeXMco8rBZkatRn_SNdx95Z0cY5Bm7RRrasw8qetG
+
+sprite $DetailsMd [16x16/16z] ZSUr0S0W54317pVWxJyjxbMkE_bf7xin7fw-9z2V3xxMXvMDfPvZHOmk_H3_XIrrOGiNPTArbdZX2DrOyn_2wTp-Qqzc3W
+
+sprite $DetailsLg [20x20/16z] {
+hSw35SLG44NHKV1u-g_ssqRkyXxA4j5wRmM_QuExnWwtZS4sjss9cV6IHgOPlMu4sPYJpZGpR4qQUjcsCwUStxMzIJqssgwwCw7lhM8dIyI-xIgxnjQl4_9f
+rW
+}
+
+!procedure Details($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/Details', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/ReplyAll
+
+sprite $ReplyAllXs [11x10/16z] LOp50O100CE2Ezb_MlIq_YeLnXF_TOZ_L5JDIyrRc4NvJFizZ18nvoat
+
+sprite $ReplyAllSm [13x12/16z] NSV50O1G081Gx9RzfxNzzKv0QQ_nRqMhf6tUtl2rCClkPsUGzJzeRGQjM1N0kha6vLTEJpHm0W
+
+sprite $ReplyAllMd [17x16/16z] RSo50SCW503HYpkt_xJr1dquNsWxO9ZYirCMXPzHsOmViu7J-B5xSVapljy7mUZNCBf0cOq0xNfLllltf_jUVny4GO7Z-n5jvKUm9-D1vGa
+
+sprite $ReplyAllLg [22x20/16z] {
+VSw54OHG5CNGu4xwxtRdhgE1RsViSLTPP6DRwmgZwmPxRPZSwg8b6jrWmQhc_AHc-pI_SQ5IDwx2uZPOixbjY1mPCcZD_9giMZvAhotX5MW-cjj0_rAMZr86
+wfUsqKDD9ZxKQt7KrPvZ3bpq
+}
+
+!procedure ReplyAll($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ReplyAll', $name, $tech, $desc)
+!endprocedure

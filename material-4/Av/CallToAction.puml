@@ -1,0 +1,13 @@
+' definition of the Item material-4/Av/CallToAction
+
+sprite $CallToActionXs [10x10/16z] Oy06-660U1PK9x8O7
+
+sprite $CallToActionSm [12x12/16z] Oy05-160CZOp303PSDEHrV0WMmi
+
+sprite $CallToActionMd [16x16/16z] Oo04c7bu4O2RWO4V1V2WyNbfpsT6SXml5ZuAu6HWO4866Du3
+
+sprite $CallToActionLg [20x20/16z] Ow04SF2Z0qO6FWmnzY4WneK2kC5Yg7vbmY76Ys4U6mCpBnygu28wI04
+
+!procedure CallToAction($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/CallToAction', $name, $tech, $desc)
+!endprocedure

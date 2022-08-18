@@ -1,0 +1,13 @@
+' definition of the Item material-4/Social/Notifications
+
+sprite $NotificationsXs [10x10/16z] Oq05d306DpyRXC4F11nm5Zyk5YUOnSY01hX11
+
+sprite $NotificationsSm [12x12/16z] Oy00Z0WcCp-SoSlFpyyE4mK129iRp6O6itd0R1OCDX-OpG5JZj30mCc3P1aJc0G
+
+sprite $NotificationsMd [16x16/16z] ZSj50a0X40BGtwbo_zFQtMyt0onp7YJdol14vmrbzIaq5iP82h-zTtiJUnzpzmQBcXlUlpZxlYqnOiS50G
+
+sprite $NotificationsLg [20x20/16z] fSk53G113CJ0Oqws_sgVcS7YaIpUfkFUWB2b3C2jHA6hBAsdrMunDbkQJ4sM9zEJbSdC3xCZHSp9dWoMYUiam3kqMLuzDG
+
+!procedure Notifications($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/Notifications', $name, $tech, $desc)
+!endprocedure

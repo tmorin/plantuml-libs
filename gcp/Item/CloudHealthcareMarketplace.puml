@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/CloudHealthcareMarketplace
+
+sprite $CloudHealthcareMarketplaceXs [10x10/16z] Oq02B1mW068niO00a85L5YZ10IJGMCmSp6XY350T
+
+sprite $CloudHealthcareMarketplaceSm [12x12/16z] Oq057100P94kpW51c6mse0f6T75KaXLi32C30m
+
+sprite $CloudHealthcareMarketplaceMd [16x16/16z] TSk30G0m30J0yZ_xBrmRLqRgGReMwwx5__utTBsVbVIudNyC2F28__DOOo8ZLSF2goG2
+
+sprite $CloudHealthcareMarketplaceLg [20x20/16z] dSo50SD030D0cRN_mcsO-P8d4qvupQOOPxYWFdlRkxNjdMCoICwnUViGOoTMCREacRwVPrJqYXXn4fZ82Aq_
+
+!procedure CloudHealthcareMarketplace($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudHealthcareMarketplace', $name, $tech, $desc)
+!endprocedure
+
+!procedure CloudHealthcareMarketplaceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudHealthcareMarketplaceLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CloudHealthcareMarketplaceGroup($id, $name='Cloud Healthcare Marketplace', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudHealthcareMarketplaceLg>', $name, $tech)
+!endprocedure

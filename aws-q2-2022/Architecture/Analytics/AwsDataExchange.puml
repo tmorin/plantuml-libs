@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2022/Architecture/Analytics/AwsDataExchange
+
+sprite $AwsDataExchangeXs [10x10/16z] FSR70S0m30CnT-d8_UTDZ_42aBS8TlMqNjNRPo8epoeKHgPLGmL8kqhjWcrT0E-U
+
+sprite $AwsDataExchangeSm [12x12/16z] JSUv0S0m2CNG-0BqsN_VW2khqgEAcpiFz42oBipx1PCLwxuOfNqV-C0YiZ1L3v65etDE8JFTpKH_fQx_mGy
+
+sprite $AwsDataExchangeMd [16x16/16z] NOu70e0m20Ex8V3__shYzhJZGXU8dvWP3kuWVa74wMifs7q9zsvohLZSK0-ttdq2nGTTGBIppda1R9tElzJgl2OfDQASRyja7M4xQz7pcEfGUSQ9_1VaBzW
+
+sprite $AwsDataExchangeLg [20x20/16z] {
+RS-50O0m3031Mdp_VOdWyFXXhMHyHfx8IrzseChtITNJLeT2LIMi_8bEQTxjxNuO0W2Zo21UXyMJCOB6bpb4mlxeOLsYvjl2qrH9fS4Ob7-oD0BLTlxTB4oc
+xt6CaMgENJqU5QTP9ugvd8EtI8yE-wBzeFtW1W
+}
+
+!procedure AwsDataExchange($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Analytics/AwsDataExchange', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsDataExchangeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsDataExchangeLg>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AwsDataExchangeGroup($id, $name='Aws Data Exchange', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AwsDataExchangeLg>', $name, $tech)
+!endprocedure

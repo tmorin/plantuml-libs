@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2022/bootstrap')
+
+' loads the Item which embeds the element AwsMigrationHubRefactorSpacesEnvironmentsCard
+include('aws-q2-2022/Resource/MigrationAndTransfer/AwsMigrationHubRefactorSpacesEnvironments')
+
+' renders the element
+AwsMigrationHubRefactorSpacesEnvironmentsCard('AwsMigrationHubRefactorSpacesEnvironmentsCard', 'Aws Migration Hub Refactor Spaces Environments Card', 'an optional description')
+@enduml

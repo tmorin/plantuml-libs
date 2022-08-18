@@ -1,0 +1,25 @@
+' definition of the Item aws-q2-2022/Group/GroupAutoScaling
+
+sprite $AutoScalingXs [10x10/16z] uy05c72pc9WOEHYOc72hOq0r2W
+
+sprite $AutoScalingSm [12x12/16z] uy0B693OJ5ZPh1piC34c9ZOEHY29Lpq7Ex8u8uQD
+
+sprite $AutoScalingMd [16x16/16z] uo0IiA5ocHZH1JX8uBEp8OcmCJ4nCG0fHY2Df8I3ZHJpsPdOKPtBGAI_
+
+sprite $AutoScalingLg [20x20/16z] hSwd0S0030D1T__-4ySebQGTqoFnXr8kt9GBuyTc3KHkUwX2YusjEwFZnozjpPbASf4yjG
+
+!procedure GroupAutoScaling($id, $name='Auto scaling', $tech='')
+  IconGroupElement($id, 'GroupAutoScaling', '<$AutoScalingLg>', $name, $tech)
+!endprocedure
+
+skinparam Rectangle<<GroupAutoScaling>> {
+  StereotypeFontColor $AWS_COLOR_ORANGE
+  BorderThickness 1
+  BorderColor $AWS_COLOR_ORANGE
+  BorderStyle dashed
+  FontStyle none
+  FontColor $AWS_COLOR_ORANGE
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}

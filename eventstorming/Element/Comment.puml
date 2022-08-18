@@ -1,0 +1,14 @@
+' definition of the Item eventstorming/Element/Comment
+
+
+skinparam file<<Comment>> {
+    StereotypeFontSize $FONT_SIZE_SM
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor transparent
+}
+
+!procedure Comment($id, $label="")
+  EsEntity('file', 'Comment', $id, $label)
+!endprocedure

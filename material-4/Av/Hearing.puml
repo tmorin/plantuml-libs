@@ -1,0 +1,16 @@
+' definition of the Item material-4/Av/Hearing
+
+sprite $HearingXs [10x10/16z] HSYr0OG0002nlEBS_jlI82d3OvpK3nBZZdcp90mfq6i1fCbbVV7ylHm
+
+sprite $HearingSm [12x12/16z] LOt50K0n5C9IzxB_jDyrbwS0VmInENPgGTKFdMjP7AMUFL91LpyLB-cqNCI1dg6p3x-C_lH3-JbO0oi
+
+sprite $HearingMd [16x16/16z] PSZ5OGD150Km3TbU-g__QiCS7SL_1xJ6korKaamWIwgnlSUAFGosm779KWbfE4yPadGTjfA7Hygx4O_u8PkKRojTujj4bT_IE9ilbN743rVI_VCC
+
+sprite $HearingLg [20x20/16z] {
+TSk50SCm30313vhr-s_RbFcC8lxP-P8ja3niS3KvcC9eJGTNnOLmlqu4d8Mi9fZdSttbpCeGccOcAsVk6E01ed5ckkU2EpjDMCTOk1iosNYpkzFSUQFdKtWr
+kq2tygKxySL-hfIFnfNTzzpa8VYG-iuV9m
+}
+
+!procedure Hearing($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/Hearing', $name, $tech, $desc)
+!endprocedure

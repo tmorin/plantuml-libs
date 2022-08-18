@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/ShoppingCart
+
+sprite $ShoppingCartXs [10x10/16z] Oq00VYGc1C1PV711k3G7YC713DV21W9W1Z_SB2uWvc5W
+
+sprite $ShoppingCartSm [12x12/16z] HSk50S0W44FHrBtPVrhi8myz4_2UwXO_k2KzngF4OC8PO-T8YmS6FIiNUQviQbS4
+
+sprite $ShoppingCartMd [16x16/16z] PSl50KH120FGZFka_shNWFtsBcXmvnmko8QBnCFlbmTy5PgC7weDqIW2HENFXDAS2LpAybDPlkAhH_kd1p1826aY1vxU
+
+sprite $ShoppingCartLg [20x20/16z] ZS-54GCm30D0XJdUVzf2w5Jk7vkDVtMHbrZAaYrH8zg4jH6pmXm68HsJevYctKl1vgbiYpiKSKXN4wZCWBmSYCtu0rlCSv8hbawf-o6A5OfD8MCmLOEmAm
+
+!procedure ShoppingCart($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/ShoppingCart', $name, $tech, $desc)
+!endprocedure

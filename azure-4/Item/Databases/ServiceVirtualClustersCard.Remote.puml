@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-4/bootstrap')
+
+' loads the Item which embeds the element ServiceVirtualClustersCard
+include('azure-4/Item/Databases/ServiceVirtualClusters')
+
+' renders the element
+ServiceVirtualClustersCard('ServiceVirtualClustersCard', 'Service Virtual Clusters Card', 'an optional description')
+@enduml

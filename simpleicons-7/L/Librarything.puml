@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-7/L/Librarything
+
+sprite $LibrarythingXs [10x10/16z] Os3WvGS2Fcu61duO08b0UQImm8WRI880iWm
+
+sprite $LibrarythingSm [12x12/16z] NSor0S1030J1CxEt_sgVUHAnfEl7-pU9we9LgUCNbcPuDFdPvkFE7_FRvyf_FdJ11byGHzbd0G
+
+sprite $LibrarythingMd [16x16/16z] XOw50SD024KVqiQv_QUDk-BE1waZJHG5qAGzcOoDgEkvK0ygK2mxeqNIWV2Ft4wvVlJ_eptELxByRw29QiGqw5_Tp4LZt7czJ0S
+
+sprite $LibrarythingLg [20x20/16z] bO-50SGm200lxh3_jEzQxqLn0E8GVI7IB61rmW2TKQFUYDOQ-7e-7wZwGTwwebEWpdMqcSuiwif9tRn6NAZ1dou_LEPl3eQ8VsPjJwyt3z7g7CPC5Q3EL5S
+
+!procedure Librarything($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/L/Librarything', $name, $tech, $desc)
+!endprocedure

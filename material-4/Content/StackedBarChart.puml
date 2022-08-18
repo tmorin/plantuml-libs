@@ -1,0 +1,13 @@
+' definition of the Item material-4/Content/StackedBarChart
+
+sprite $StackedBarChartXs [10x10/16z] Oy0EEE4iVZYB6SO6qamm5WXYPo4
+
+sprite $StackedBarChartSm [12x12/16z] Oo0EyF1ZPtFnCl0p8SIP46g0ua02pkRamH1dOcPW1X4e
+
+sprite $StackedBarChartMd [16x16/16z] dOh50G0n3CCIvtCGs7_QOyQs_baI5Gno_Xhu_02njVjl0mWxz-3J7tt4-Ojy--tN2jQMLEb_FG
+
+sprite $StackedBarChartLg [20x20/16z] jOl50O1G5CEUuhJxRyiLzzzZaqY9rMsp-GRYrjTX43LTVEOc3RbfzpurtNmr805isYGtdsRkURU_Zvi
+
+!procedure StackedBarChart($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/StackedBarChart', $name, $tech, $desc)
+!endprocedure

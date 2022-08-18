@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/CloudNat
+
+sprite $CloudNatXs [10x10/16z] Oq0170Wc6vHYOqC8meGuE1WOEJYOC0IXW8KHne8e0G
+
+sprite $CloudNatSm [12x12/16z] VOg50G0n38Iei__2xoubdZjwU6ovHOyTAYi1eB3qhDBqwbkeqDZtW1p8Yn4
+
+sprite $CloudNatMd [16x16/16z] ZScr0GC140InETx-6pQpdvIAGwRu9kUbiWVnucsWu8iD3tqV0GEGhGlaaWOmNX-ynF2KsHqodgpTGdmoyQLPSmO
+
+sprite $CloudNatLg [20x20/16z] bS_50KKX34JH6s6O_Xl-xlBax23EJkQRnRly_bHhAlt-TuO7NyhBeuSgpZ0HwGPGocSuV9P0zcljN3hbskCjHI4R5tnCbldK3Zw4ao_9iYC
+
+!procedure CloudNat($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudNat', $name, $tech, $desc)
+!endprocedure
+
+!procedure CloudNatCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudNatLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CloudNatGroup($id, $name='Cloud Nat', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudNatLg>', $name, $tech)
+!endprocedure

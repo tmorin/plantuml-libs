@@ -1,0 +1,13 @@
+' definition of the Item material-4/Hardware/KeyboardHide
+
+sprite $KeyboardHideXs [10x10/16z] Oy06-A60Xu6VZP-PWO4DbGK141PODGzG0W9Wsk4cWGW
+
+sprite $KeyboardHideSm [12x12/16z] TOU50O104CE2Ezr_MlHTSjAK6hCi3OUwyUp7erFx-FxlvtG7xSxdbiyxO7-zbuKCwGpAzsy
+
+sprite $KeyboardHideMd [16x16/16z] XStL0SLG20FGNDV0_jC-gNiFNpXUPIww0unk0LRfwEKNT4lkv1TBRcdb5xHZtkrOwLE-DUOTVqC-_kFVcAFqbSSrKTMyBupf8c7q1G
+
+sprite $KeyboardHideLg [20x20/16z] fSg55S0W40JHnHtwxpRkWlq4ctVeujCL7LkwyNFJB35fUEHwlArD8e4fH8ZnjhOOnt_T_kQSJjhwSNFZRMqNHoCpUMcOYQDTIOpa1SCVboRy6VbpakE1OJC
+
+!procedure KeyboardHide($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Hardware/KeyboardHide', $name, $tech, $desc)
+!endprocedure

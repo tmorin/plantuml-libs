@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/ArrowsDownToPeople
+
+sprite $ArrowsDownToPeopleXs [12x10/16z] NOg50O1030DJt6__QO5tgSQKwd37Te_fCIoQ19viNlHGiyOVt0wU-03cyy0CZuTStbez7lyqy04
+
+sprite $ArrowsDownToPeopleSm [15x12/16z] ROk54KCn5CFqEQpzfotuUjpaaGbeaBTjMVvWRt-WLhDx5sWADj242-04WXY02wuhq8Kg6hZXKky0L4_D3bAU-p8EczO5ehjl
+
+sprite $ArrowsDownToPeopleMd [20x16/16z] {
+bSor5GD140JHEiQToZzRlMsXgsyDDi39npb0UF3c-TVCvlcQMbxkmA0Au_KfIGMOWvGVc_ow5w2IsHPYLB1ZwcNKXR5G1p5Vr-Ikbkjz3KcpcrNiHXWCj660
+tUaEb2at7DMz2d3evUq3
+}
+
+sprite $ArrowsDownToPeopleLg [25x20/16z] {
+hSt54SGm4031CTkYoJ_RAvLaV5-_bfSgh3oKWPE5ss3uUsCrQBP_J1v6fR8gm7nc7foT1BJ1GTtVFxBjtZb_2niVAT1EhG0kT54diCgWqcqwKBIQoSff71Zj
+OA8Rj5fKar5DptgQLV5y1VO6QZwp1MOxgc0vCrrLftCzg0PtIaILt1hBeXRSVm
+}
+
+!procedure ArrowsDownToPeople($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ArrowsDownToPeople', $name, $tech, $desc)
+!endprocedure

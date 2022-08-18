@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/CloudLogging
+
+sprite $CloudLoggingXs [10x10/16z] Oq00PcPc18iD15YHn1Wu61X10CJYWCY2n12op62090i7
+
+sprite $CloudLoggingSm [12x12/16z] LSh70S002090xEw_S7eizr804ulKBTVjZtt32CK9zhZloDhutXJp3nvrjnC
+
+sprite $CloudLoggingMd [16x16/16z] XSt50G1120F0uFJVyBckpWyDfaI4rIvNRNvfrAp2-4h2lsPyzv6H_gi9RrvrNzVX_hlteXvQ0G
+
+sprite $CloudLoggingLg [20x20/16z] bSt50S003090YE-_SDszzum0FjFUvImM_djsm28kPrnCCpFRvWsph3pD25pCFlVgQfWj1TkyElKEV67ugWK
+
+!procedure CloudLogging($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudLogging', $name, $tech, $desc)
+!endprocedure
+
+!procedure CloudLoggingCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudLoggingLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CloudLoggingGroup($id, $name='Cloud Logging', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudLoggingLg>', $name, $tech)
+!endprocedure

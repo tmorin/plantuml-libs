@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/CcStripe
+
+sprite $CcStripeXs [11x10/16z] Oq00DdwSW1T2WLLnCV02bJ8niJBmS854-1cu6O1C8CsCNJC3WWa
+
+sprite $CcStripeSm [13x12/16z] ZS650O1040InmU7bjlzgSVU40_sLI4uJ8AMEK6LE3GWNQm113Yv2fDB4d5vXcz01
+
+sprite $CcStripeMd [17x16/16z] dSY50GD020J1VNUk_sxZxXaS7aoxKPV-qhSLiewC1Bxa2dF_ThsoVORC93QtP82mxKDi3Va0Vl_mL8AakKsJYUrYInTLNogwmxqD
+
+sprite $CcStripeLg [22x20/16z] {
+jSZLOKCn5C1GFJ23zf-s3VDdSenNVBPkxuZ-si17K_RZqswp3evsY5HWD8XQw8CWkLDnMKaDTMKzrdQgWIEj9S3IphMmBqjBsg0DzdC5XSr75Rzc-Wb-qFde
+7m
+}
+
+!procedure CcStripe($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/CcStripe', $name, $tech, $desc)
+!endprocedure

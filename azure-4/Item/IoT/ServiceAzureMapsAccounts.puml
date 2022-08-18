@@ -1,0 +1,24 @@
+' definition of the Item azure-4/Item/IoT/ServiceAzureMapsAccounts
+
+sprite $ServiceAzureMapsAccountsXs [10x10/16z] JSQ70G0W20F1KEF-2zlRAV3unR1ZMA4sCZDTnnwZgqZLJ9BW0PG5tOu6
+
+sprite $ServiceAzureMapsAccountsSm [12x12/16z] LOc50G0W20HVUl-5xU8K-426T32bRcYdXMPZ0ofzwTH4yumbH3IrknEnQRzTixaFRK1CF0A0n0AJcVVR
+
+sprite $ServiceAzureMapsAccountsMd [16x16/16z] RSZ50S0m241HWhF_maLl_T47_CLIuGhbEbRl1ijvZu9dxJ1ThumPCwt6nJUsZ99CLfK5IKsro41fgxGU0F1BtGLwS1bqHuNB8qAW-W
+
+sprite $ServiceAzureMapsAccountsLg [20x20/16z] {
+TOg50GGW30DJP_-5SNqvB3s2_wWrv38sEPRchFrwMoFehMWclXn3PX_g0sRGIC1Koampot9ScLdNNtVQio4QnWsLFkXmLKXhJwVj5gktktK780w-dALDUBtG
+Y7GZwFYZ9h8LBiWyNETG
+}
+
+!procedure ServiceAzureMapsAccounts($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/IoT/ServiceAzureMapsAccounts', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureMapsAccountsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureMapsAccountsLg>', 'IoT', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureMapsAccountsGroup($id, $name='Service Azure Maps Accounts', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureMapsAccountsLg>', $name, $tech)
+!endprocedure

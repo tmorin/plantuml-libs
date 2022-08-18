@@ -1,0 +1,13 @@
+' definition of the Item material-4/Content/Save
+
+sprite $SaveXs [10x10/16z] Oy0AkDY0W9yHo683SVdvGGG8eB5010USnOmYYm
+
+sprite $SaveSm [12x12/16z] Oy09-2607So6Yh0ZiVdXQZ3PO98LmaOZMHcuKTNpeDWA
+
+sprite $SaveMd [16x16/16z] XSg50S1020F0KFViFstjtUyL2DhsKzbLUV3uaUTVdmVKgnf-pUv_pnzjhLHhOFJhuNslIarn-PMEuDLPWiG3
+
+sprite $SaveLg [20x20/16z] fSs34G1H30JG_NRIVxLd6s-q4-AVmZCrr3ZQGLCKGyrYC4-kQzGd9mUBsknRZRHqsreR_5nRfUsSsjGY84__vgxc2isAn6Cr
+
+!procedure Save($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/Save', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item material-4/Social/Luggage
+
+sprite $LuggageXs [10x10/16z] Oq01_FoyC1OGWW0RFn20cPn0Yfa85WTS1mCxn2m
+
+sprite $LuggageSm [12x12/16z] Oq07FBnSS3Ol0p-KnS733uGiO3O_143OpFmCl3p4iq6cmFM20JV40aOe1W
+
+sprite $LuggageMd [16x16/16z] hSq54e1G20JGbJ1XzlwdjLkdF_scm7-8o9sHIRav1Qcdsc3CDTX6vH67qocKoo44KSwC9G_BwpygceWC0tvY0W
+
+sprite $LuggageLg [20x20/16z] pSY53GD15CJGELwO_Uw_sZ1pX6TPzFHV7K2xjvw-JpoQDDzPih4RhkEPPgwTBKFiZxWpKSKmhS9C6BUh9QxfN8NOHyowj4pQL_IsBG
+
+!procedure Luggage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/Luggage', $name, $tech, $desc)
+!endprocedure

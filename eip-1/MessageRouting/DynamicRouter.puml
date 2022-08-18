@@ -1,0 +1,17 @@
+' definition of the Item eip-1/MessageRouting/DynamicRouter
+
+sprite $DynamicRouterXs [15x10/16z] uqC3p2W05vULZusD3SRbWycoS75nyO5PG0PElSnWQ_1R1
+
+sprite $DynamicRouterSm [18x12/16z] uyC4pEW0lmWVcWWd6pkA22yhGYKN4035MO5i41EXYmLAeuZmiG01YWW70VSW
+
+sprite $DynamicRouterMd [25x16/16z] hP3L0OGm343le77PVrlSvQkyUkF9LzeNwWLYpm8pBoDd0Lcvk-BMSJnBsGIY0vOqloDrf7oGRgICt5q1rBRaJWy
+
+sprite $DynamicRouterLg [31x20/16z] lP7L0GGX34JlLe3OzD_jkhk_7oIUmGxn5iddPjKjCm6k8fsRdOJrv6IhjTMBhszCGpDN2AHybvy0rmoZqpvbSd7kAixxpMWqsBBPkOtaroMPHoSZql7JvG
+
+!procedure DynamicRouter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageRouting/DynamicRouter', $name, $tech, $desc)
+!endprocedure
+
+!procedure DynamicRouterGroup($id, $name='Dynamic Router', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DynamicRouterLg>', $name, $tech)
+!endprocedure

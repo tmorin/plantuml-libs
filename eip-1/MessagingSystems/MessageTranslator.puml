@@ -1,0 +1,20 @@
+' definition of the Item eip-1/MessagingSystems/MessageTranslator
+
+sprite $MessageTranslatorXs [15x10/16z] NSc53S0m44MnBxbC-uzRfhoWTKkHNujs2ytsz1kpPMEJL1TdnhpKQJxic3_acTPRgFPtuwyL
+
+sprite $MessageTranslatorSm [18x12/16z] POs54O0030DnX_t7fQv_zbT9livSWSa2a9F0P1-05GOaYqmkd1nxc0pREb_fPbX1ykI6hpDETag-VLAwAdto0m
+
+sprite $MessageTranslatorMd [25x16/16z] bT150i90343Hb5Zz_hS5AkF-DoDlbPp5i50DLExmYkMERo2ukq7WJYnCwmlJuiCLwmNR1s80F90MWGpWEMCEH17t36nu9NC4JF00B0xASppXdRsFB_47
+
+sprite $MessageTranslatorLg [31x20/16z] {
+fT454iGW38NXil5auFwtNNsiU__HzAi1uqFqBbxDR4XFrm9ZWXS4rijuuP0BLtlWPLFWZBkdKSL1-vENOoxneDTC8-arXnELlE9-sefwoY5pOI6FN5VRqWpy
+nQwH83wnpDOVABzBTm
+}
+
+!procedure MessageTranslator($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingSystems/MessageTranslator', $name, $tech, $desc)
+!endprocedure
+
+!procedure MessageTranslatorGroup($id, $name='Message Translator', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$MessageTranslatorLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Leaf
+
+sprite $LeafXs [10x10/16z] Oy04_222Wny4G3m808bm07aW5YiJJ8mV9ilF1XC28WY36suW
+
+sprite $LeafSm [12x12/16z] Oy0E-24K8n3nWzby_100PYBO_3n0WXt2Pk154eS2FWIJ7yXaOeGnMQ4ciGCfPYIB0G
+
+sprite $LeafMd [16x16/16z] VOp50G0n40A9-z9_jUSkcH-AFkukIQpuMfmft7JWmIbFpOcei6jF2xWYkmxmh_vE11JlTvHJwadoR1XCMkyF3HD2T1a1
+
+sprite $LeafLg [20x20/16z] {
+ZSpL0KKn20FGrBtPVzhd0jVF3mukiLXZNcsH4n-P3vCltwaaMhf7lanncqbcCNnbmy24DkLjq0yxdWOb_xhLDbhkrOeK2e3A2gDRqFSM3uKHJxQEKGnU6d79
+7G
+}
+
+!procedure Leaf($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Leaf', $name, $tech, $desc)
+!endprocedure

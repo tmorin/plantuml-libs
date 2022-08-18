@@ -1,0 +1,17 @@
+' definition of the Item gcp/Group/GroupAccount
+
+!procedure GroupAccount($id, $name='Account', $tech='')
+  GroupElement($id, 'GroupAccount', $name, $tech)
+!endprocedure
+
+skinparam Rectangle<<GroupAccount>> {
+  StereotypeFontColor $GCP_FRONT
+  BorderThickness 0
+  BorderColor transparent
+  BorderStyle solid
+  FontStyle none
+  FontColor $GCP_FRONT
+  FontSize $FONT_SIZE_MD
+  BackgroundColor #E8EAF6
+  shadowing false
+}

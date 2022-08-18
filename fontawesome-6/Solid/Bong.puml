@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Bong
+
+sprite $BongXs [10x10/16z] JSV50O1G081Gx9RzfpL-Sth0hSgVHGYjnYBt07IAo1jQYgOYU04
+
+sprite $BongSm [12x12/16z] VSR10K0000IW083RVrg09xr2JZqehi_0t15VRmTOhlVfIJ0dg0Ec5NdztDEH7G
+
+sprite $BongMd [16x16/16z] XSq50eKW44NHQpUp_zN-aEwdn648O1CTJ6xZqI-Cuo0pte2CVU-nTpbUosk5VbEJIKjJJquzFBUEBbnYe_s8pm3iIPtK_i04V04
+
+sprite $BongLg [20x20/16z] dT350GKn20HG-Be-_LUx4dUR4tbnwCu1bODCO58ssiH0qRXzObimHyR08cY1ietrWrR0llChge-zRyT28ehSck657tlxzeyDudalZzIzlf5hVgUZQoy
+
+!procedure Bong($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Bong', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Weebly
+
+sprite $WeeblyXs [10x10/16z] POQ30S100CHIkzb_sXgFOo1NeRENbWPNbDlKm_sCHsK-pZDdYvVqQCsl7G
+
+sprite $WeeblySm [12x12/16z] TSM53GH10810JjQ5_gjzTo6PmB_KkoawS5PCiWgd8OAShMAWKwbOsGHUx2VXXEdgsGOmpCoJjuu
+
+sprite $WeeblyMd [16x16/16z] XS470SD0000XilUVVxULKF3NUM6_5-PxeygephDgH3NxwdRsn5OerhJIYsAaGV1SzBZZveOjT45GA5n11_Ocwk8Er7mtMjO6cAj7bVz-
+
+sprite $WeeblyLg [20x20/16z] {
+fOm5SiD040Jxo73K__zjQiksfE8axeF56RwXgXswsc3h8XdCRl0gt7PGXPk-YXMAfsv01RH4bJHVUdmYK7t2tS48yHm40jj4TWCPEYouwiYlCEt7JpS1A6VG
+9_1o0isGL61w9sYQgsvxVYel3EOhL7XHnoZ0S_R47_W1
+}
+
+!procedure Weebly($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Weebly', $name, $tech, $desc)
+!endprocedure

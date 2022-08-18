@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/Cases
+
+sprite $CasesXs [10x10/16z] Oq05_FoCK0OGeShWPp5YYZ7oW0430m
+
+sprite $CasesSm [12x12/16z] Oq07ZBoyx30sFpCpFpEKpSB0mCo8ffQNcLGs4vpDmyi30I0X9WW0CW4
+
+sprite $CasesMd [16x16/16z] hSa33a0n383XCYpkVzfdZE7-yKjX4X4LmZpotnx7bVAP-RW4OH1wRShbfWzwch-kGVu9TEq
+
+sprite $CasesLg [20x20/16z] Oo0Ly8C08veG5nSNFpyJaX0JFpkGPELdGLR70jB622Hn0YOiSlnS0oN6Y4sC2SMvkFIY0h0O8myIuCOL0W
+
+!procedure Cases($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/Cases', $name, $tech, $desc)
+!endprocedure

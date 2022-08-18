@@ -1,0 +1,20 @@
+' definition of the Item eip-1/MessageRouting/MessageBroker
+
+sprite $MessageBrokerXs [15x10/16z] RKl50S0m44AYj_--TM_uu1Y13nt1rVQ8PrdkGMdDpwzl9q50flJ_tlvXMzl53
+
+sprite $MessageBrokerSm [18x12/16z] VSt50SC030J15Ql_XXCps_CJ7g-gYWyEWgQIa6idmQ0WsKG4PsPsQKId73_xzcVB6lziMPlNpty
+
+sprite $MessageBrokerMd [25x16/16z] ZL250G0X2FodTF-5xUupEPhl0G20A_xtke7oo8hmJv1uW02Y4pGAbVwT0ea88GIWZno6J8XOgHS5CBFqb1OHJIcVSiAjgjJ77qDLnMOae-8E2m
+
+sprite $MessageBrokerLg [31x20/16z] {
+hT650SD020NGZyl-0vUhkxzuJW7yZnrk7pLNZpWrzy8uyFsDsPW940ovRXwCSTqSEaBtpQIkGt15AYipyOZBi6-ROpKxhX4FWkssfk05bu457GBJp-8-DASj
+X-OVAtQjSnZUjm4
+}
+
+!procedure MessageBroker($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageRouting/MessageBroker', $name, $tech, $desc)
+!endprocedure
+
+!procedure MessageBrokerGroup($id, $name='Message Broker', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$MessageBrokerLg>', $name, $tech)
+!endprocedure

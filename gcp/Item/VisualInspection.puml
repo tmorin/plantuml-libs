@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/VisualInspection
+
+sprite $VisualInspectionXs [10x10/16z] Oy0169cX36OWO88m63X010CR6ni71uW4CHc015Wf4qW02jXGpG8
+
+sprite $VisualInspectionSm [12x12/16z] VOk54SC030Db-lF-2xTXJjuCqYUX5OjO1mzNX4ttSEynIu2wAIWfGGXiaaAX5K0RgIj_
+
+sprite $VisualInspectionMd [16x16/16z] dSl50GDH20JGmUc_uWnPFwsyhnY-CPDBI7e9bGSBMPgtX16wYv_9HsO6uqOI4ye7rJen_gQ1WlUMe8aslemUDF7C3m
+
+sprite $VisualInspectionLg [20x20/16z] hSnL0WD120FGX31o_mjNmjRughtTCGn_4UWegHT9FQX3l8JeunwaGxch_37g4jeRF88nhx0Tg_j5dNilvEKsOFURvXIAyy5CYBYBQObdd1xGU5H7VEeC
+
+!procedure VisualInspection($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/VisualInspection', $name, $tech, $desc)
+!endprocedure
+
+!procedure VisualInspectionCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$VisualInspectionLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure VisualInspectionGroup($id, $name='Visual Inspection', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$VisualInspectionLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item material-4/Maps/LocalConvenienceStore
+
+sprite $LocalConvenienceStoreXs [10x10/16z] Oy0AEFb10CW0aI0c3uXa1a88YmyknWzZOH9m
+
+sprite $LocalConvenienceStoreSm [12x12/16z] TSR50G0n24HHz8HC_zMkk_m4UFHVhYt6sgG2Yb49o6ojqzsOcprtshKsdrjKbTPzRGG
+
+sprite $LocalConvenienceStoreMd [16x16/16z] bOZL0O1G30CX_SEo_xJ0SxUhNhPrX8wQux-tWD2nTU3_Wb_dJI8ud-UVu86A3-v-AS8Ty04
+
+sprite $LocalConvenienceStoreLg [20x20/16z] fOk30K0n34Hh9xV_jDysNfc3-8csCwCMCNEk3Ty02Ok6CcgS6utNcj09HcyqNu1jbxjxrcRkDKufpThttnzg
+
+!procedure LocalConvenienceStore($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/LocalConvenienceStore', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/CloudVpn
+
+sprite $CloudVpnXs [10x10/16z] Oq0771oOB0P686PdPs02ii0IR0mSR8m8MGGBKoyR6mC
+
+sprite $CloudVpnSm [12x12/16z] Oy02cDZO46mE3YGsEq8HAuW0IRApmjXiR32jB2mC38mGDGZr66OYs0W
+
+sprite $CloudVpnMd [16x16/16z] ZOl50G0n0CAealqNFdTjVaZK3l2PZNMYw2bNI58kX-ngoRNEsKv3yit_oy1llj43
+
+sprite $CloudVpnLg [20x20/16z] fP350G11309dZT1_nPVVkSyp2l09s_fQYuCQet1QYmIeVL5p0hqGwvgK1KjQpQ7HZdvyhFtFGDBWa0a
+
+!procedure CloudVpn($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudVpn', $name, $tech, $desc)
+!endprocedure
+
+!procedure CloudVpnCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudVpnLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CloudVpnGroup($id, $name='Cloud Vpn', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudVpnLg>', $name, $tech)
+!endprocedure

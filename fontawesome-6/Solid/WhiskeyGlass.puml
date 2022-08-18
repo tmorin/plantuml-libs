@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/WhiskeyGlass
+
+sprite $WhiskeyGlassXs [10x10/16z] Ou03FduOOEE72l4pO6L10JOMEmCNX05I3cC1
+
+sprite $WhiskeyGlassSm [12x12/16z] JSY53G0n08LGpgMs_xHr-Iz6G3nX-OCT0e5kb_voFrlZSo_I3tPj3ccqBzz00W
+
+sprite $WhiskeyGlassMd [16x16/16z] bSV50OG00C2mdk3I_QV5tSalR9KhkHkH-NUcM31JzFoVxkNC15U-9Al3TtFUF0DYPx1L0m
+
+sprite $WhiskeyGlassLg [20x20/16z] RSz10iGG04FH002v_sbdsguWV-S1e79NTlAk2uiajj83fDciVkOs6-oFbStUyNnyDuV6CuDy6M256M4uQGXBmipxcViuM64errRH7m
+
+!procedure WhiskeyGlass($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/WhiskeyGlass', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2022/Architecture/Analytics/AmazonKinesisFirehose
+
+sprite $AmazonKinesisFirehoseXs [10x10/16z] FSR50O1000EmNh7A_lFYa5Tiwx9j_XlhRJByDC6AnLhEBO3dGJK4VLBB95TRvsbFJmy
+
+sprite $AmazonKinesisFirehoseSm [12x12/16z] JOh50G0n3CEIec7_UO-XUXd40rpCoQM8-8hKlaVYV8kaR1aTTPvxH18z08kjnhWiMoSyiTjNxF_nKdO
+
+sprite $AmazonKinesisFirehoseMd [16x16/16z] NSZ70S1G2CDGMW8s-y-RNhzkJzYhgyp4sJCu31BnSP5qx8t6uoai5C1jb4dDwg9vE4Mq05EP3aDjBd6aEwf9Qh68isuQZswty-ms-1czznazZ1K
+
+sprite $AmazonKinesisFirehoseLg [20x20/16z] {
+RSY74SGm20H0aJdKVx_FUvojdRpOv2bQntDNrrduR5GXydbPLHd0OwlHueApOz_z1ZiFjUriFtLJYdGA4TdFHWj0WmRl1sEcK9OK5cJEFiv1FB3hwpIlFnnc
+9rSziY-pdja7r3FdvfbpaNEHFm
+}
+
+!procedure AmazonKinesisFirehose($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Analytics/AmazonKinesisFirehose', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonKinesisFirehoseCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonKinesisFirehoseLg>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AmazonKinesisFirehoseGroup($id, $name='Amazon Kinesis Firehose', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AmazonKinesisFirehoseLg>', $name, $tech)
+!endprocedure

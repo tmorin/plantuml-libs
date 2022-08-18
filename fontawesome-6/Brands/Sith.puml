@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Sith
+
+sprite $SithXs [8x10/16z] FSF50OC00C30Qt7D_jl2YuYFCFnK_xeKobzrG8LzgBEVxNrjrtReQF37u04
+
+sprite $SithSm [10x12/16z] FS650SCm0C0mDyp-_zhnAd4B_5muXE1Pe2iU1ILjgWqCAW9dg6n0L0GjH8w7w1Tu2LZC_3q1
+
+sprite $SithMd [14x16/16z] LSU55G915CNGxBYd_suvEDolZp-PFqOsTz8tmQEGdmVL7gTQOUk226e2PQhnSW1ql4FkKlWcqaJr880Ixw4eUFI2UzWJ_5Wmh0x0lRpO4BWR87zk
+
+sprite $SithLg [17x20/16z] {
+NSY7bGCX303HaLWs0jD_j_VWakslB3u5dmOSi5J8pkMP5e1RcW5ETuRJ0zIrR6TN1TgQKr5DK8cXDvjU06uutOp1rDXSE8EfSxXGasb4kF1KWCE7ffeea6fG
+dZlM6ppL0s3eU6ve-YyWz57WqA7G6wKnfHHhIIZyk_Zq1G
+}
+
+!procedure Sith($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Sith', $name, $tech, $desc)
+!endprocedure

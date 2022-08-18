@@ -1,0 +1,13 @@
+' definition of the Item material-4/Communication/Message
+
+sprite $MessageXs [10x10/16z] Oq00Jdu8O63WXm8U80iiXSPY0W4G2meGB6O6VaO6T
+
+sprite $MessageSm [12x12/16z] RSo53S1030D0bz7g_jE6Iayd20UPaxS3uFNgBL-6qJ1odkxkZ_TPv5FlxfpXthdT-HX_XW5WZnO5
+
+sprite $MessageMd [16x16/16z] bSsr0S0m0CJ03tEy_xHcPb-dIaXCioEI-80vxMDLFjtxehocPyNqDjJj_wej2qJFyCqJQXW
+
+sprite $MessageLg [20x20/16z] dS-35KDH303Gy1dxJzj-s_Su3ZpcwreRgnln89Rwc1KMbbQUOWAZDCNAf5xM1JSgKqnfb2vwLvx7k8_9z0SBGHT3sAe47_q1
+
+!procedure Message($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/Message', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,17 @@
+' definition of the Item eip-1/MessageConstruction/CommandMessage
+
+sprite $CommandMessageXs [15x10/16z] Oy06M55uxEpiw5mKFffUT2u71mSAbnD51GSVWei
+
+sprite $CommandMessageSm [18x12/16z] Oo0QiBEpOuem4bB3mCP0fWWh7oko20ihAoShAveoLYvM7Au5
+
+sprite $CommandMessageMd [25x16/16z] hScr0S103C10DsRQVzkKONwLElWUCvtyXMo1B-1Ou3Y4aP1cbeV06Ru3Gan7T3WegUiGpDq3Rfe
+
+sprite $CommandMessageLg [31x20/16z] jOsr0O0040CVYU3xJukMk5qRkVWCP4UXHlPZJN0lJJNpS1qyTaS-faSWVevpJ-p61aiN1t67dJW7KAi3jkDOrbLt44jM5Tym
+
+!procedure CommandMessage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageConstruction/CommandMessage', $name, $tech, $desc)
+!endprocedure
+
+!procedure CommandMessageGroup($id, $name='Command Message', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CommandMessageLg>', $name, $tech)
+!endprocedure

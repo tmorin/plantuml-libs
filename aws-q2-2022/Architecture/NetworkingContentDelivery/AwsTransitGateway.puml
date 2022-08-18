@@ -1,0 +1,27 @@
+' definition of the Item aws-q2-2022/Architecture/NetworkingContentDelivery/AwsTransitGateway
+
+sprite $AwsTransitGatewayXs [10x10/16z] FOd70G0W48DYbxlzzxMRLm2WhxN6lpPVaEQrVVj-0KIFyobeTpTjNRgxJKq6dpUgi9_R70m
+
+sprite $AwsTransitGatewaySm [12x12/16z] JSZ70G1124BHoGBst--Yfvtud_H2hmZ-eEgtNq4YWi3kLf2BMDNF-S2U7wxWc0YaJ0vw8LD7cgHF6bkTRaEKkXigV
+
+sprite $AwsTransitGatewayMd [16x16/16z] {
+NSe7aaGn20DHwmT3u_lVTx5siYhnkc0l7ui8y5wXVa8vd1gw7Qf3NgXFFNq1OWVxAfkCiALYCaXTza22qCZJrcvnGDxagfhLQt83Q_c1KUHbTpXIS3VR3er9
+sGwFsT_X3m
+}
+
+sprite $AwsTransitGatewayLg [20x20/16z] {
+PSq75eH020DGO1fXxt_V9M8tzkyZO8kVMHdAGpzM60UkTM8KcggOZC8WkZhKkqyj8ohexBJ3hCRven-cx1JfQMvbK0F7XwEfbBca2XjJTaCR4MEoS7M1-ozH
+pkNmGKjSwzo-tNv4IshYG9zbn6mq3BU5mzXf8Z82bn4hPH-aVV4F
+}
+
+!procedure AwsTransitGateway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/NetworkingContentDelivery/AwsTransitGateway', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsTransitGatewayCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsTransitGatewayLg>', 'NetworkingContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AwsTransitGatewayGroup($id, $name='Aws Transit Gateway', $tech='')
+  IconGroupElement($id, 'NetworkingContentDeliveryFamily', '<$AwsTransitGatewayLg>', $name, $tech)
+!endprocedure

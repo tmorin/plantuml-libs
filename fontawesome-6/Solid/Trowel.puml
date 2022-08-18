@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Trowel
+
+sprite $TrowelXs [10x10/16z] Ou02DaueWu-V7yQ0iI0C8EO5Ci1yNdw81489221Ol406DrmI
+
+sprite $TrowelSm [12x12/16z] Ou03NcOuav-V7ud9ZyJaHB0vmHG8ixB1fFaPOT889XWWi_cHs60x-P3i0m
+
+sprite $TrowelMd [16x16/16z] RSs50S0W40J1k8VjlrhS-KC7dUhSgY4s7UbO_7hEsNlckxa-SuBTTM_w53ZWQzvDpDuJJze5KcJltNLbiKub1W
+
+sprite $TrowelLg [20x20/16z] PO-54SHG24GZt-trN-sv19On1bOtDudgJnsOzhG041IWADRbTA2m7LJjSaflXNb5pTVQZ3W0qvm26W7K3pqUwB43Nf7_JBdLtL6pApdEpSuT
+
+!procedure Trowel($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Trowel', $name, $tech, $desc)
+!endprocedure

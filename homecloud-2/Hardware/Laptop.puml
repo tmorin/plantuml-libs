@@ -1,0 +1,21 @@
+' definition of the Item homecloud-2/Hardware/Laptop
+
+sprite $LaptopXs [10x10/16z] Oy06-A60XO4VAi9BY0K5pFnmW30E
+
+sprite $LaptopSm [12x12/16z] Oy09UA20cu61bvK90dY1R2QOF75i7bweEVmCtDpyCC3DY0IGRGK
+
+sprite $LaptopMd [16x16/16z] Oo0Py2C17X2V2GvO-K5yX58ccl2H0GCtDoyIbvkR1mqGyWq
+
+sprite $LaptopLg [20x20/16z] Ow0CCA40Hf0GFnfW0OdneAZZvmM9SQ6OD71YkDo71fWPkBcvKOLuGGAOW9801G
+
+!procedure Laptop($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Hardware/Laptop', $name, $tech, $desc)
+!endprocedure
+
+!procedure LaptopCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$LaptopLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure LaptopGroup($id, $name='Laptop', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$LaptopLg>', $name, $tech)
+!endprocedure

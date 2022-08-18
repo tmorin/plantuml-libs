@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/FireExtinguisher
+
+sprite $FireExtinguisherXs [10x10/16z] Os1Wu6TZ008k48kVWny864044uXWvmPnWO0PA0bb4c9n0W6g6
+
+sprite $FireExtinguisherSm [12x12/16z] dSYt0S0m24JHmvNpttzQOgbEZumIQcyLloWoE1Z2wcyNy5yly6bGzlQn_0C
+
+sprite $FireExtinguisherMd [16x16/16z] hSYr0SD040NH4Ujm-g_Mi6UE_P8FtDaPzYXLOJO0sSCN9hLRydFRgJh14bUHfheHfdbR33pLdzt-lAU1fzm2JyN0S0K
+
+sprite $FireExtinguisherLg [20x20/16z] lSq53a9H34JH-V9SxlvtIrhSYN6YrP63g9Ej3fa6U3anCXt8kU6yDw0lt91LThAk-TA3uBUIrjWmYIRS9JWsLBaqBpXPN_JYYrx-Sw-S15qj9_hntwgJ0m
+
+!procedure FireExtinguisher($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FireExtinguisher', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Bomb
+
+sprite $BombXs [10x10/16z] NSR50O100C2muaxtdnRdBAz0IG7T1MXqLW7nmUYhniz4xGk8uyy9
+
+sprite $BombSm [12x12/16z] RSp50SC054CnbRbl_sdBc4It3xP97S3CXiECRGzd7DfPLA7bhWUswOcQzTs_eRuz--_w_GLN
+
+sprite $BombMd [16x16/16z] LSt50S0m241HgFlVVzh64tWd774EdoektO4ItFVwVAAIqvVgamJOTUGVjwmFsPdRGfC-icus1treDAs3pHURrtVk_s7RoTtIMOh5TWC
+
+sprite $BombLg [20x20/16z] {
+PSu56iGW34JXgHlatV-s-qtMqxyAn5HjkejLnGg4VWnE9KRP312ThbDDDl8LIXD0EqbTDW13VbAc1kJ6c_TWKjdQGVmOdLhsTgUMlKFInR-b36mo_eHivTUW
+r4g7TFqDyZ8qx7AYFG
+}
+
+!procedure Bomb($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Bomb', $name, $tech, $desc)
+!endprocedure

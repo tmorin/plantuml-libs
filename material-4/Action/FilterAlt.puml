@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/FilterAlt
+
+sprite $FilterAltXs [10x10/16z] Oy0A-240pWGBiW4PS7asA8iPA8JEOkH7DGq
+
+sprite $FilterAltSm [12x12/16z] Oy09M7WW0CHcueS0i0GxcCa8KSKBPBB1jF3pym99c0GJGJOZCuQj
+
+sprite $FilterAltMd [16x16/16z] Oo0TyCC19vZF0USpGXJmGBcig3guu2OmWhXyI4Qo0lbeTl1InEVcOIFECm
+
+sprite $FilterAltLg [20x20/16z] jSor0O0040J1nPtjlrfSFaOcUxdZfI98sUH6x0PlEGSl3QVCmy2jT4VKkieWSb6oYvNyl4jqv0Cp
+
+!procedure FilterAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/FilterAlt', $name, $tech, $desc)
+!endprocedure

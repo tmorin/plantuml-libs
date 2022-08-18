@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/VideoIntelligenceApi
+
+sprite $VideoIntelligenceApiXs [10x10/16z] RSYn5K10042nWFzk_ubrmAMCcKf1YqGiUsMaWf53zrLauWG
+
+sprite $VideoIntelligenceApiSm [12x12/16z] ZOo55G0n24FJ0l-n_yBdhiKbYLei085FSrIdL5UEstZ6oGbZqsM-izzLXt1nq7ct7W
+
+sprite $VideoIntelligenceApiMd [16x16/16z] fScrOKDH04KnvS79ttzXCzMsgWj-rfKAVsZG8lQ1eJiTrxvh-kXLhXwTnlhyhLrZPDnxHjSD_wXQAjyu0m
+
+sprite $VideoIntelligenceApiLg [20x20/16z] jOt74GCn30EN2NFzD-o0Y_hR-n19X14_HuRoksZDgRMr-3uSp-Pj62TR8ZTh4EgIGTOulkWlgtPmQ51grkvOM3NPKE9j3itW1_BM2Bz_uGq
+
+!procedure VideoIntelligenceApi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/VideoIntelligenceApi', $name, $tech, $desc)
+!endprocedure
+
+!procedure VideoIntelligenceApiCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$VideoIntelligenceApiLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure VideoIntelligenceApiGroup($id, $name='Video Intelligence Api', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$VideoIntelligenceApiLg>', $name, $tech)
+!endprocedure

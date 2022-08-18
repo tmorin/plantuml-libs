@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Brands/Gitlab
+
+sprite $GitlabXs [10x10/16z] HS650O0000CWx7R_Nsi7y9l0GWLQH12Bl0fGcpJ7LMX9Ljf0KcO6oi0E
+
+sprite $GitlabSm [12x12/16z] LSR50GD134FHvymooFrN6pn5-Fsf7-3QiUR7OJX03Ph2oQQdwPqfxojnelHqiU4GmxHF5Ta4-hgD9S3LPqy0rU05
+
+sprite $GitlabMd [16x16/16z] {
+POo50GGn20G7pYy9st-tl-yskFAFdiaXpBmUpq6_ZvyBPyx0uBoNUo38YTYVVuRz6CDszvMkeM6s02dcTIEs-tfHzYEmftFCh2YHSzR8azF9sQXmdy8parfF
+LrgA1oKNjSEJHH9VF7Sl
+}
+
+sprite $GitlabLg [20x20/16z] {
+RSk5OUWm30N0KpWnlFsd_LXkpoZoiotV_xsjNisnWEXUpMgmtkB5SGcaFA_3AQqGAe2mZB-dgbB_xEtldvQl5faR6WZ6-TGZ26mtxPQngD0Mf6oJleTzM2P2
+E6B9xhc5fSkYTnYHPIwwVbGEuCYQzP6htPDN6SaoamwldcGcgq-MPFhczEet
+}
+
+!procedure Gitlab($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Gitlab', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Passport
+
+sprite $PassportXs [8x10/16z] O-070ru-VZXWuW8BCZ3pyp60Q4Ok3X3DpitF3PRd0V4GW0q8E81I4
+
+sprite $PassportSm [10x12/16z] LSh50S104CD0XJdglzhWuNmMR7P_qxT4E-07dBvrdPXel_34vjkaSKt5njhHlYoCQRi1
+
+sprite $PassportMd [14x16/16z] NSt50GD13CLGBSF0xx_QaCBlP3PhFan-zMNStia6CtIJJWWLisMhGmWsHrHpjq_EHZJ2D2G2C56B_csZkj-hyez8Lm
+
+sprite $PassportLg [17x20/16z] bSw30KGn44NH6pkl_shNniU9EOERUj6mUZUdVl80JGz0m55ran3JsyhzFNMYXYZtZJltk94lrNXTdIOeeqUSJgFROD1TuU8Ziw8Tx5s-fnvlXdve-e3UrIC
+
+!procedure Passport($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Passport', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/ShopSlash
+
+sprite $ShopSlashXs [12x10/16z] JOo50O0040BFRc__QUtWEu2InTjwy3DoMMMD1vKy9k3oT03xRvu8dOK-Pd07
+
+sprite $ShopSlashSm [15x12/16z] PSt50SC030GmbHky_QSDSynw-KcsSCJTnVkhFlYTndid3wGUvsCwfn7KMQdCYHxvpQoh8SBfBzep_T83
+
+sprite $ShopSlashMd [20x16/16z] NO-50KGn2CNoNKlsd_PSNweuz1kBlm2h2T2dhW1IEOqDpb2U2dDcVA0ZFnpLFPHL07i1d7RFnvVqrJ4fgGCTGhT0kRzrvt6dX4sVkfYqJnte1FE_ZkOL
+
+sprite $ShopSlashLg [25x20/16z] {
+RSd5eSDG30313PYbj_rN-p5cpNMU0U756mXDRrx0OWMWjn00M7Y-VK1urxI7oHiYSuItsl9WPgLoeG-0nVN2F0P37S13imnG7sKmQbV416_DFMBv4oQWhd40
+qEe0HXtBuAa9fAuQ7yrl
+}
+
+!procedure ShopSlash($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ShopSlash', $name, $tech, $desc)
+!endprocedure

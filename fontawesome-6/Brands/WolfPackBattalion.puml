@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Brands/WolfPackBattalion
+
+sprite $WolfPackBattalionXs [10x10/16z] NON50GGn08I8U-Y_sjFVZW1albd0wO0-4DakS6hGCUZBbB5ECeXVaOD8unjP_EE9m1i
+
+sprite $WolfPackBattalionSm [12x12/16z] HSX50GH10C2mxZ3NlzfZo3DmyJVaIO1-DS38K_7RITseGZjRWyPsqOFs55mTw2Zka85Q46ayNOXyoU7BlG3k
+
+sprite $WolfPackBattalionMd [16x16/16z] {
+NOw5WGGX4C2oWhEJ_gjzWTSBCYv0vPjZ_GOR-n8HTPjjR8bRdcrNvMNl7rgeSAdF1IDGHMsd1vHuffxQhZLWLCMxL-TPWHbeHIVcjKL1KMPysioIGinffE-r
+cyWVqejzpFysTtvOl0C
+}
+
+sprite $WolfPackBattalionLg [20x20/16z] {
+NSk5aTWm00NH5TeMRV_THcD8SlU6Fx1b_kdSWetFabkSdZpqoonoAsPvY0csQPHNzNglX2_P8Z3K7jcqkNNSvh33QMZBBRYbArx0Q7trgKdRAEkOm7bqxSay
+qL570y9vtm9rHtYnvK10ExguyiaMSiaq9nfgjd3BDPGxkxWENW5SA3_SMV-T5MRzdJcD_7GI2wy_
+}
+
+!procedure WolfPackBattalion($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/WolfPackBattalion', $name, $tech, $desc)
+!endprocedure

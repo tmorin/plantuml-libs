@@ -1,0 +1,13 @@
+' definition of the Item material-4/Editor/InsertComment
+
+sprite $InsertCommentXs [10x10/16z] Oq00Jdu8O63WXm8U80iiXSPY0W4W2w6E3yw20WuuYu4L
+
+sprite $InsertCommentSm [12x12/16z] LSp50S0m30D0bRdPVzg0sVSo2idxiGVuYffxVInhzr7zlGFFLtwZUfi7hZyoRjwGWsMXd7FKwgHQDG
+
+sprite $InsertCommentMd [16x16/16z] bSwr0G0X0CNGVuBR_jFYJiNhqWM7vnrIkXdmdit-mjIcNw5RlqLhSjUpymVl__q5JptZMuDZ5m
+
+sprite $InsertCommentLg [20x20/16z] ZSj50a11209GfbEz_sb_Tyvp9u1cISx6droKXr-TVy6QuKQq_InMTVlnHZvxEQvu-pczgX_Ra_SVF_nWx7oZEFwkuiCFyU47XoSz
+
+!procedure InsertComment($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/InsertComment', $name, $tech, $desc)
+!endprocedure

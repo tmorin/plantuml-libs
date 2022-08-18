@@ -1,0 +1,13 @@
+' definition of the Item material-4/Notification/NoEncryption
+
+sprite $NoEncryptionXs [10x10/16z] Oq01_Fpy40OV0mCZCuW1vhD1v43I_51LK1Q8Wh60D9m5riRA0mBy3
+
+sprite $NoEncryptionSm [12x12/16z] NSm53i0W44JHeKGgG_xzJrl3sTZxo6gP05I_YAd8kVyNEcokpmOb86Q_KPsZ6JaxHtXzPUUbMvvB3m
+
+sprite $NoEncryptionMd [16x16/16z] RSZL0SKW0CNGr0su-q_xfBZaxuHXc-IcaiTibAqTqELnEFOPk0s-ny6oB8-TlIMnwT_fdORnzYCxZDfYpmwZjcFnpkFDA4NT2Ly
+
+sprite $NoEncryptionLg [20x20/16z] VT054i9000J1ZPpB_l-rE0m-PQdEkVuK-wphAtMVsoKAJj8o_O1LcbCweRUxUMXjrwzuj-s4mgxDyqXVI_SDR103CH03CH03CH03CV3Q1e6Xawk8XzCH
+
+!procedure NoEncryption($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Notification/NoEncryption', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Brands/Uikit
+
+sprite $UikitXs [8x10/16z] Om02RWOmuEVdOu00BXYB7mXW30IDa00IlFmWm0oJ0m
+
+sprite $UikitSm [10x12/16z] VSd50SC030D0js6y_QSDwXs3iEvPwfq_AhFLAdB44WtVIbIFETqEsZJRXIS
+
+sprite $UikitMd [14x16/16z] bSwr0S0m34JH2tF-_jEQGQrV9vQoHzq9BAek-6KiEg2tJqHJBuCTs8Z6evtaKFG1EJ7hAVjledxx9rfLpFL73m
+
+sprite $UikitLg [17x20/16z] hT2r0S0m40D0XStQVreprxdEy8XA79WTZjGORYOI4qKBl6wDOsGnFCmmaKpkDIgvzWlzmyNexsDbfubUPbyQkCORJdBqOLdTwrnwsqUj5G
+
+!procedure Uikit($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Uikit', $name, $tech, $desc)
+!endprocedure

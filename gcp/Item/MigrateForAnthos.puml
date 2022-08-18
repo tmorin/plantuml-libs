@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/MigrateForAnthos
+
+sprite $MigrateForAnthosXs [10x10/16z] TOYt0G0W08Emy__3TaTP4k27xoJUjSLtq7r4V6V7PZLD8iJCPW
+
+sprite $MigrateForAnthosSm [12x12/16z] VSZ50SD04CLGBOxwRpWni_qk7_ZaeTTsk8D5EGp5EhLGCWeKan9XXbvojlUkW4tk_W
+
+sprite $MigrateForAnthosMd [16x16/16z] ZSZL0GCm30DHnQJRV-4o-QyNVDQVXNQSnIuleyaV-aXyUH2Typ6F0IyDHfB73y8yzZ7dvQIa0HwE49vRK7TpG3zvStS5
+
+sprite $MigrateForAnthosLg [20x20/16z] {
+hOg50KKn4CAeS6J_XR-xoqlr0bg4tAk6xskJMpNGdQJlpYL6KKUN81F5byhPselYA0f9JkgWs28nP0x5G0lWu3f808L3pDYvwbscjcpb8LJ1ED9tags-eTVK
+EzO
+}
+
+!procedure MigrateForAnthos($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/MigrateForAnthos', $name, $tech, $desc)
+!endprocedure
+
+!procedure MigrateForAnthosCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$MigrateForAnthosLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure MigrateForAnthosGroup($id, $name='Migrate For Anthos', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$MigrateForAnthosLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2022/bootstrap')
+
+' loads the Item which embeds the element AmazonInspectorAgentGroup
+include('aws-q2-2022/Resource/SecurityIdentityAndCompliance/AmazonInspectorAgent')
+
+' renders the element
+AmazonInspectorAgentGroup('AmazonInspectorAgentGroup', 'Amazon Inspector Agent Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

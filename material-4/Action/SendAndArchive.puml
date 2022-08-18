@@ -1,0 +1,16 @@
+' definition of the Item material-4/Action/SendAndArchive
+
+sprite $SendAndArchiveXs [10x10/16z] RSQt0O0m3031TrGbVlzfoL3vgcD5op-TN3OlsRX4gxMAQaNUQH6JLfa8KBmS
+
+sprite $SendAndArchiveSm [12x12/16z] TSR50SD000Cm7wFh_QTjc1EzX2zifqi_UtmKvZjgHZfCghCZeMba8G-1yxkuFDD2ORe7nXkCdtXD-W
+
+sprite $SendAndArchiveMd [16x16/16z] XOw50G0X4CEA-tN_QTzTWuPY-4FfislINPoC9n-fwkoacEL2Lxcnh9bcz4XhG90nq6Yq65oJZvx6Rl6gXxpIpVducS7XCVeCsmJhudRsYXu
+
+sprite $SendAndArchiveLg [20x20/16z] {
+fSx50S1024JHWKNYqt-rSSyn__XO0RzY9LyZM_aQsTdNvk9hSxLWR-1LNqhPLAEz3nHRaYowLfY0UDtlus4eqCLkLqXxcJbP-TE4St9QxuMAGZfswnLO31xO
+RDk-t7VP4vuL79NSCqm
+}
+
+!procedure SendAndArchive($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/SendAndArchive', $name, $tech, $desc)
+!endprocedure

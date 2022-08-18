@@ -1,0 +1,21 @@
+' definition of the Item homecloud-2/Container/Registry
+
+sprite $RegistryXs [10x10/16z] Oy0AE46GcPETWO4V1DduUHaOc42GaOa9MGm146AO
+
+sprite $RegistrySm [12x12/16z] Oo0AyFFpy8C9D3OlBnSlc40JPmG2C85JBou
+
+sprite $RegistryMd [16x16/16z] bOj50e1054B1rHHm_zDQIzltEy1lI6Bp7G1AfWJ96CbfFl7wtstQi7kp0JI94gHMfLVzNnO
+
+sprite $RegistryLg [20x20/16z] hOp50O0030Dng2NxJulpmUtgcloFY8pMYEIrI3tqI2vMEHb7FG2Z1L0gO4CloxB5qgpdoRzjRykdVt_J0G
+
+!procedure Registry($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'homecloud-2/Container/Registry', $name, $tech, $desc)
+!endprocedure
+
+!procedure RegistryCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$RegistryLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure RegistryGroup($id, $name='Registry', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$RegistryLg>', $name, $tech)
+!endprocedure

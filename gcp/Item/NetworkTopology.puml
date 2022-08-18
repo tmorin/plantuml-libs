@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/NetworkTopology
+
+sprite $NetworkTopologyXs [10x10/16z] Oy0AE40OH32mWZaS435sE0iXne0a1WRCx10-0W
+
+sprite $NetworkTopologySm [12x12/16z] TOs30G0130ElxluBlusQ2RyISr1VwdOefPSHp8NCTNB8KlUbpe-vwD9dBGITBFLLHW
+
+sprite $NetworkTopologyMd [16x16/16z] bOo30S1G50FlCzb_uThkFPFVH8S-5FTnI3AW0cQbpsCPqyNLjOxxMiwxEWvBMlVpuNvzWYAKse_DW2KDqRpI0W
+
+sprite $NetworkTopologyLg [20x20/16z] fO-50G0n2CIWTjb_uNTtIHK7-udlFWQfUyNmctMIcHDwNSYzgRqIGvRItOoMMN8TwF9U1zhfHDxfMdRvEDMDTCshwxACqqMK6K8fDavI1dEGssDg
+
+!procedure NetworkTopology($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/NetworkTopology', $name, $tech, $desc)
+!endprocedure
+
+!procedure NetworkTopologyCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$NetworkTopologyLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure NetworkTopologyGroup($id, $name='Network Topology', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$NetworkTopologyLg>', $name, $tech)
+!endprocedure

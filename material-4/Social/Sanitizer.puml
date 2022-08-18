@@ -1,0 +1,16 @@
+' definition of the Item material-4/Social/Sanitizer
+
+sprite $SanitizerXs [10x10/16z] Oq06_400Om8HJ0p80ZF0J32BYP-VWvyBeWGc1a88TI300m906W
+
+sprite $SanitizerSm [12x12/16z] NSY55O1G34FH2WxXxJyjhhzwJwmeITtj97k_t50Pmq40kVcHxcLYymG12R4xBCWPsprjcvjsC_6Qst7KhXK
+
+sprite $SanitizerMd [16x16/16z] TOk30GH134MZSz1_jpV6uWtp0LTG0fSvCWuJitJf6CL3WEBRHes4mO_g-8x21pZA78tq-RPP95sSJfsDq8hlTUutzJvHoxPPTPiJz_FE7m
+
+sprite $SanitizerLg [20x20/16z] {
+bSs30GGm44JHYRs__shFzaty8lqLZl6trWUh3zCTUegaWBkXnepIf5-eiSzI8P-fm0cbTVyh17N6WUB5geFZDmamtu1UzztPbWxB2EIJQH-Zgz9qiXJbq-dQ
+sJ1L7erfpmPVBSvpgjvc2m
+}
+
+!procedure Sanitizer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/Sanitizer', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Brands/TheRedYeti
+
+sprite $TheRedYetiXs [10x10/16z] 1S450S10400WzkxNl-q003u9e7rlP808F6CBFZIWmnc43aII5ev0Py4F
+
+sprite $TheRedYetiSm [12x12/16z] FSct0GCW300m0Ixf_l_RR6WLb2iU5e1peyz-cT_EX1rckaizTuRviI2nqH3W-08ChvLfHSvWdjXcmOzWyGS
+
+sprite $TheRedYetiMd [16x16/16z] {
+PS75OKKn300m1Hm_zlxRzjPF4hyojpW0YBMEoqkOSnxTd40ROswgicU0IQYg69A7Agfk1aiSeglgwE10IzWIhC45d803Yci0w5LO8xQkYQXQE7E2L0NkXOu2
+p0TTmXy
+}
+
+sprite $TheRedYetiLg [20x20/16z] {
+NSwreIKn4031cj6AbfH_j0SV7fNPLlkMFhMPjLQlef27Dn6bnUb3YyXxZLQgRrsPgLXhHROOK0rXi_u9cq1bNftlbZEuAsCTxN-3e4NeOTZQTzCbDE00imQe
+7JCXIc--bJC6M4o_IY3MGNR2hx5MOgbrbX2vjVhz8w_TjvEr6fZNB9HDi7RV-Wqx30_xdhHim5y
+}
+
+!procedure TheRedYeti($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/TheRedYeti', $name, $tech, $desc)
+!endprocedure

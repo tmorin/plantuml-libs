@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-6/bootstrap')
+
+' loads the Item which embeds the element TrowelBricks
+include('fontawesome-6/Solid/TrowelBricks')
+
+' renders the element
+TrowelBricks('TrowelBricks', 'Trowel Bricks', 'an optional tech label', 'an optional description')
+@enduml

@@ -1,0 +1,13 @@
+' definition of the Item material-4/Navigation/ArrowDropDown
+
+sprite $ArrowDropDownXs [10x10/16z] Oo0UC0C1bCdFpmKJvIAi4G
+
+sprite $ArrowDropDownSm [12x12/16z] Ow0Gy081Dup3py-7aE4Zopm
+
+sprite $ArrowDropDownMd [16x16/16z] OnW8mC4F0eoe0eoeAXZfunG
+
+sprite $ArrowDropDownLg [20x20/16z] OnWIW1aAaCKO-VX1W1DL9KY82qYZgaIeGWXo3KgV0W
+
+!procedure ArrowDropDown($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Navigation/ArrowDropDown', $name, $tech, $desc)
+!endprocedure

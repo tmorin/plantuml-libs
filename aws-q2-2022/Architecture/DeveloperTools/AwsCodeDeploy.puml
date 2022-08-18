@@ -1,0 +1,27 @@
+' definition of the Item aws-q2-2022/Architecture/DeveloperTools/AwsCodeDeploy
+
+sprite $AwsCodeDeployXs [10x10/16z] FSY74S0W5CFGz62P_TUbytNjdK2jr2BOzUkVujJThZcFaUoJWqDTfXtKvIwKcxxl0tAdQLK
+
+sprite $AwsCodeDeploySm [12x12/16z] JSU74SDG3CFGKnUfl_-wYRlzhW4aThtZPxY1YbwT46Z7qM30qEXXkaYgMc86nMAW6hF9Y4ZWQ7LpvRU9jNLbH95Sssou-mC
+
+sprite $AwsCodeDeployMd [16x16/16z] {
+LSxL0GCW34LH_4dOVzqAKidVkQYjFTnZ_nUVm1MEcVF86JeUS5FHw5hME0SwnR2hD0mHh5A4avMWbiNqTdHus8BGbkFd3yi1YI9yJVJK0VlQjLR3jkPoUS_w
+srpXNBhy7vu
+}
+
+sprite $AwsCodeDeployLg [20x20/16z] {
+PSY5aGKn4CJGDevRi_d7Uqi--YeLFS2xzGQV29_8Yz5RZmUtAOfBQ7aRixF2SxaFR-jGRBVh4nCeWB1rUZanypHfIgfgqkMPwGfJO2sxhDko10YG7V9Z6S79
+19xUbkW9_rXsrWWw_3OXT1e_DjPiStLkF1vhywfou_4Wu3FkZXDtiEqJlm
+}
+
+!procedure AwsCodeDeploy($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/DeveloperTools/AwsCodeDeploy', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsCodeDeployCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCodeDeployLg>', 'DeveloperTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsCodeDeployGroup($id, $name='Aws Code Deploy', $tech='')
+  IconGroupElement($id, 'DeveloperToolsFamily', '<$AwsCodeDeployLg>', $name, $tech)
+!endprocedure

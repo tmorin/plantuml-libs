@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/Input
+
+sprite $InputXs [10x10/16z] Oy06-DaWW9-17oO29u5Y8C054-C2OcHr_320C0u
+
+sprite $InputSm [12x12/16z] Oy05-160WHykYif6KFnGzNm8SJuKzPXiEE11jXO
+
+sprite $InputMd [16x16/16z] XSo35K1H30FGFAlOVzflynwLmHz71mrGFlHAK7SuPhxrTYfitlg9rxpUhvP-PjKiFTkfDxVyj_wa0FO8Lpq
+
+sprite $InputLg [20x20/16z] fSw35K1H30FGFBlTVzfl6_Uu3Fxml2L0R5SSEn1ZHPxKCg7ZvjhYrrnplfUP5lScSQo9GU2mlnVtMTHHljlQbeKgj58Ydge1
+
+!procedure Input($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Input', $name, $tech, $desc)
+!endprocedure

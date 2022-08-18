@@ -1,0 +1,16 @@
+' definition of the Item material-4/Image/Gradient
+
+sprite $GradientXs [10x10/16z] Oy0AkDX0W1_8OWFpmIn-80KMumT1JbnY_120P1e
+
+sprite $GradientSm [12x12/16z] Oy09-640n8QAOR0X4CA6CZ75cS4GmkO1GtuaytbGR0K
+
+sprite $GradientMd [16x16/16z] XOg55KGn3CDIHZ_jF-qnVbGXCTWvGs_gNKxc6_nDQzgRFItlPBs_jLSCycFufmQJZ11uz_6U-tngXEuVskx3lDyvdxhnnTaD_-4k5rm1
+
+sprite $GradientLg [20x20/16z] {
+fSn50eKm30JGgMiozpyjBjryvK4jXcU4euWLQxnHzbZ4ZVekPWsC1UmGMs-PPhsTiPPJMl-y_6UCX6M24eLdB1aLazKQZURTFB8sIbqEuRjvPE-KlXnwnqOT
+goHw4uklpG
+}
+
+!procedure Gradient($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/Gradient', $name, $tech, $desc)
+!endprocedure

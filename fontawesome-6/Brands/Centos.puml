@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Centos
+
+sprite $CentosXs [8x10/16z] JOk30K0n34Jl6yNRVzfQSGvQWZnsSgJjmEtIY-VbUG3bll10qtb9zyrr3ty4
+
+sprite $CentosSm [10x12/16z] LOk55O1G30FptNlxRyl3uUeI_K4NbQmT5f3OEpDQ6T80UeTQW2a09TO2zhzkOEngngNTjmHTb3rj
+
+sprite $CentosMd [14x16/16z] ROq54WH120DP6m6A_lzlRtDkFOebze_-7XIFi7jtHvUYO20E58rP4sWn53bQHy1gTlxmMh9Wj8vOp17M0euCjMYmqn8KNXsEA3Y3zkxNLHFhqCoJXltX0W
+
+sprite $CentosLg [17x20/16z] {
+ZO-50GCn24KfQP08V_zjUw7kzw8uq6umd-KHm-v6LA1NT20ktYCLA1U5ICob49IP2eJssQk4m9Ui06pqmyeKIXHgPY94lBqQeaXi5KieLOx27a2iChnaxcKu
+BcMzXQ3NsIpgfIndOtDwN1Gj5JZUEfKgdOMtbwvqW5_cP_h22G
+}
+
+!procedure Centos($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Centos', $name, $tech, $desc)
+!endprocedure

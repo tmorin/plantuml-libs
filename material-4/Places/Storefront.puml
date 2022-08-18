@@ -1,0 +1,16 @@
+' definition of the Item material-4/Places/Storefront
+
+sprite $StorefrontXs [10x10/16z] RSR50S104CD0VSAW_giDvtWMR9fcUuTPs13PUl2R1HoSN0LwRddpHNG2
+
+sprite $StorefrontSm [12x12/16z] VSU50O104CJ0u4xwhnPt-JbTVha3UjoAeehtH9CNwz_5eBsLjGAo2lwRbgiH
+
+sprite $StorefrontMd [16x16/16z] dSU50GCn34DHNPYr_xQLoqm_O3zyhezJsTWuEAS-NIUpW9iZsWIpsMs4d8Y-0C6RxOyqnt6yQSYOP2Fh_dhpm2cwFrnvQODovyJxTW
+
+sprite $StorefrontLg [20x20/16z] {
+hSnL0iCW44NH5y5XxlvtsmwfVbLFWetfDvr7GOuQiTX8oM_3Gu55D6K_YWOU6sYX7B6Xw36_hAGPCzD2ckCK22eUGpv6CefX1KQ5rjbr1YJ0enrCRavOZhLS
+Or5t_uWzwN9fsDrOzROJ
+}
+
+!procedure Storefront($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/Storefront', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item material-4/Maps/WineBar
+
+sprite $WineBarXs [10x10/16z] Oy0E-DdOsFWXB0W6aK20OB535BBpCyBrm1WGPGW
+
+sprite $WineBarSm [12x12/16z] Oy0DUFX1W0N2PWOHK3Ol3myFL9mJh8OHeW7C1j9G3Y_2A8WeWesmW1dDKW
+
+sprite $WineBarMd [16x16/16z] ZSc53G0X0CNGVwx0_jFYxY_Q51CUOcosV_OhR7VzGmbDDiNtnupDzcKRZidVz-BIsnWIQxStfiHRGOq
+
+sprite $WineBarLg [20x20/16z] fSY35K1H30Mm--ns_sc_RUGu-2lpI2_ETiBgq36tDrBJfUdaT7OwpCPoYnFKLS2A8yu26vwdUddSYQkZJi0hDG
+
+!procedure WineBar($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/WineBar', $name, $tech, $desc)
+!endprocedure

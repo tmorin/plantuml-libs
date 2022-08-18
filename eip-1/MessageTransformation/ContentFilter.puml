@@ -1,0 +1,17 @@
+' definition of the Item eip-1/MessageTransformation/ContentFilter
+
+sprite $ContentFilterXs [15x10/16z] uqC3p2Y049U1WG6Toyd5nSV2pC22BakIoG
+
+sprite $ContentFilterSm [18x12/16z] uyC4pEY0E14M840LuM1W08kmWJ07N8ILYukNZuMP3SY4Y62QJBa8
+
+sprite $ContentFilterMd [25x16/16z] nOyr0i0W34KZE2JtlstbB_MrF8Y-AVw9Vl2JI2AItaGaegXWe3AdiwYjDNVR1D5PW8HSIeOeEUSowS0FLW
+
+sprite $ContentFilterLg [31x20/16z] uoC0cF41ba4kpGO2h3Yb6K20ZJXfDbuEi0HG14sQbGi8UFZukB5AGm0h1yHO5XPEuknc0O6X5-Oi-00R
+
+!procedure ContentFilter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'eip-1/MessageTransformation/ContentFilter', $name, $tech, $desc)
+!endprocedure
+
+!procedure ContentFilterGroup($id, $name='Content Filter', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ContentFilterLg>', $name, $tech)
+!endprocedure

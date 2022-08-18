@@ -1,0 +1,13 @@
+' definition of the Item material-4/Communication/PresentToAll
+
+sprite $PresentToAllXs [10x10/16z] Oy06-DaWW9-17oe2PZ7nmrYi_4nG5ZDK3A4E1X360G
+
+sprite $PresentToAllSm [12x12/16z] Oy05-160WHyk2cMp8zXy_1mmDYClFmjSd9UV2SvcOeQhHvW31pp8rW8
+
+sprite $PresentToAllMd [16x16/16z] XSst0O100810p5dstzPE_NmT5RGCv_KvmElyUEB0vxeAlThzUr6xN_Tw_nkzg7Jj5zYW_oFs
+
+sprite $PresentToAllLg [20x20/16z] fSY35K1H30Mm--ns_sc_RUGu-CFpbW2nNN7iciEAl3bLTYUPo-OKDyhwX6bEYjL1DGVSdumnhcvmSriMgj1Qn5Cr
+
+!procedure PresentToAll($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/PresentToAll', $name, $tech, $desc)
+!endprocedure

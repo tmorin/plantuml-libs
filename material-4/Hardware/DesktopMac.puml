@@ -1,0 +1,13 @@
+' definition of the Item material-4/Hardware/DesktopMac
+
+sprite $DesktopMacXs [10x10/16z] Oq00VXXWu8UA46J10885COWFgeI7XmT80W
+
+sprite $DesktopMacSm [12x12/16z] Oq067BmmmCp0pmm3_0pyS1L4ik7c0Da8mC340ZIDdmj8WXK2sN1TZ4nCJ20Q
+
+sprite $DesktopMacMd [16x16/16z] hSVL0S0W303HgtlPVrhSuPE794TZpamW2YTY8Vc-yRtEYUb2tHUiwxAkUZLpmVbqxqIpCEXH
+
+sprite $DesktopMacLg [20x20/16z] pSor0S0m30J0DxD__sd3p6Mk4GjV6Hu1bN4dqNOzx4Ywd_KERdgHHn9GMYkj4aazP6BztAdOAUpPNIyFF6wr
+
+!procedure DesktopMac($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Hardware/DesktopMac', $name, $tech, $desc)
+!endprocedure

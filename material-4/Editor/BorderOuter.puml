@@ -1,0 +1,13 @@
+' definition of the Item material-4/Editor/BorderOuter
+
+sprite $BorderOuterXs [10x10/16z] Oy0AkDX0W1_8OcDW059G5WEKnG-asD34e4g160AGJ0C
+
+sprite $BorderOuterSm [12x12/16z] Oy09-640n8Q9OMA4E1GIhHu6K6m5
+
+sprite $BorderOuterMd [16x16/16z] XOnL0W1124AHlqtkVzhDwNoJAe0fwn7XKn_QFVhg7PvOKtaDfZNVsYpK8lM-_JmxYlgzEdf5tfe9gBW1
+
+sprite $BorderOuterLg [20x20/16z] fOw30K0n34IlThB_jDysNXaV_i4hgFT5EpFwB6PMFizYvtEqy-rhlOFsW5SB7rFRh_-DFY60Vd_IeYpkjApeVRGYup4r
+
+!procedure BorderOuter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/BorderOuter', $name, $tech, $desc)
+!endprocedure

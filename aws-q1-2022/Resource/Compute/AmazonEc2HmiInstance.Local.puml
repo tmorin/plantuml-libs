@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2022/bootstrap')
+
+' loads the Item which embeds the element AmazonEc2HmiInstance
+include('aws-q1-2022/Resource/Compute/AmazonEc2HmiInstance')
+
+' renders the element
+AmazonEc2HmiInstance('AmazonEc2HmiInstance', 'Amazon Ec2 Hmi Instance', 'an optional tech label', 'an optional description')
+@enduml

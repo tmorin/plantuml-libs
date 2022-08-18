@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/AnalyticsHub
+
+sprite $AnalyticsHubXs [10x10/16z] Oy03E82O6OJOW2n61ZPsHY0D5kBWO49I1HPa18jZDGS
+
+sprite $AnalyticsHubSm [12x12/16z] ZKh50S0m23oS_HTkexyOUeQt4X46F2kaUaAjF199JupodB1cCOZK74ltI2hLnAv-
+
+sprite $AnalyticsHubMd [16x16/16z] fKp50GLG2B9b_uLVr_677G3zOxfQCsazaEVAsbPeNzbiF3UQt064FY9jftTF96pjBFESkG4o2mCn4QhQky7fMwi
+
+sprite $AnalyticsHubLg [20x20/16z] jOk90K8n24D30YNxJwnyiHFewqaE_1ddVZHmViTUwHcbaLPJfEPbkH4OGeY3xh25HOJ2RrAysiH70w_s_CfsL-2BzattrRYYMAwJEoZ68O2syI4aSVl6pta1
+
+!procedure AnalyticsHub($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/AnalyticsHub', $name, $tech, $desc)
+!endprocedure
+
+!procedure AnalyticsHubCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AnalyticsHubLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure AnalyticsHubGroup($id, $name='Analytics Hub', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$AnalyticsHubLg>', $name, $tech)
+!endprocedure

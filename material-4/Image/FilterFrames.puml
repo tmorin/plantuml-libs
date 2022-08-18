@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/FilterFrames
+
+sprite $FilterFramesXs [10x10/16z] ZSP70G0X0C2mtfvG_shP0iWhL3U3xmMWBhow8zsFM4si-rd-ZWm
+
+sprite $FilterFramesSm [12x12/16z] ZSQr0OG04031FVd7Jlgl5eUOYORJoAjwu1HH8nMnGFxD0BTKqgOuM1oFFlZdc_bEzaV6fHNqmGO
+
+sprite $FilterFramesMd [16x16/16z] jSZL0S0W303Hmwbc_sbhEFzzw8KiCZWb37cgEf372UfzDz1YZGLGrdXv6sqIJEfT4ljJ6vkerAPo0aXdPtO3
+
+sprite $FilterFramesLg [20x20/16z] pS_50SGm34HHMH1EflzkLq7pVP_vtqoVYIexnZ81InhLp7O8pPZy9cV29VXjmKdFjgeeqqdyXkri2wNUjk6bVzb4pt4ArFz7OV8MjioP6du
+
+!procedure FilterFrames($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/FilterFrames', $name, $tech, $desc)
+!endprocedure

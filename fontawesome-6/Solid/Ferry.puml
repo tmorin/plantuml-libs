@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Ferry
+
+sprite $FerryXs [11x10/16z] NSR50O1G500WxFRjFwsTdnCmHfGWBl2A2m98Uy5m3LbUqIhryLW1
+
+sprite $FerrySm [13x12/16z] PSV50K81040XxFRjFwqTFxW1gWkmxWESF-3qTK0_2B2RvmVRFa2rEjG1YrPqufXh0tS
+
+sprite $FerryMd [17x16/16z] RSk50SCm34JHCuHZ_VstRKzbU4QHqigL7lO8KaIL1K-pKdsIjUFD-qJgcT33_9te_nE3UA99ghoHdJmL9N_h31oojgiKxLr5SYQ0CV0Tzol0bnrm0G
+
+sprite $FerryLg [22x20/16z] {
+dO-50SGW40HFSDl-kttitJC9DYn6cuA1eIkY6h1GLThWdctZdMJwGCptwAjjqRPjzShLtkrto5gzKYxsdZIjldvnVY4x3HqhSzPlnqmIBP4X2g4tq_L44PRK
+SuxPpNZ2AxgDOVLaRb-r0YS
+}
+
+!procedure Ferry($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Ferry', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2022/bootstrap')
+
+' loads the Item which embeds the element AwsIoTThingVibrationSensorCard
+include('aws-q2-2022/Resource/LoT/AwsIoTThingVibrationSensor')
+
+' renders the element
+AwsIoTThingVibrationSensorCard('AwsIoTThingVibrationSensorCard', 'Aws Io T Thing Vibration Sensor Card', 'an optional description')
+@enduml

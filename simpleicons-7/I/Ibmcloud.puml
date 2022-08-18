@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/I/Ibmcloud
+
+sprite $IbmcloudXs [10x10/16z] Oq05_4XiBWZ5oS27feWTGos2oOAadvU7cvk7Xvy1
+
+sprite $IbmcloudSm [12x12/16z] 9S450GGn000WRkxhd_OL002u09lD03m1I5Hq1YB8q02Mk00i6S06W03WikzVz0O
+
+sprite $IbmcloudMd [16x16/16z] TS77WSCm300mIAAxpTj_saiFNm7yS2eTVrW05mOc07fl6cWuPcmT8Gu98646UkO5JW3MRZCfLoEKbZJA1MKMA6dT09WJMZoDqN43
+
+sprite $IbmcloudLg [20x20/16z] {
+VSw50GGn20319SID_gjzb_E9At0ficUirD_UuAlz3eKbvmJSwhCYwCoyzGA-_Z-H4Jun_dITXHJL-ZwNjCipEzOw7MMjPK5O2yQE3dQwJ_izXcD53QWsUk_j
+uJ5Cgnow0m
+}
+
+!procedure Ibmcloud($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/I/Ibmcloud', $name, $tech, $desc)
+!endprocedure

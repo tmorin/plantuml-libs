@@ -1,0 +1,24 @@
+' definition of the Item domainstorytelling/Object/Cube
+
+sprite $CubeXs [10x10/16z] FSU53S104CH0XpdRVxUlmn7Pc1jtoYmSqWfSTWVcaqFjfmRGd_M8nUgnmHiO
+
+sprite $CubeSm [12x12/16z] JOc55G0X3CLoxfVzj-NX1Df-WSXDuJIo0ke7YoKOwY-gwRSGiyqACCXHJrBq51TBgo9BKG4
+
+sprite $CubeMd [16x16/16z] XSo50GCX50FGu4xsdxQIwlaxWQ-0c8e_ZKyH4lama_u6bWz58vtI3JuyrMNnDoaPmE3QNEJIiiVWEWuaVd7GIbXAKIIEekYNWTm1
+
+sprite $CubeLg [20x20/16z] {
+bOzL0iGW30KVxd3_q-wsUFBNmGTBiD0H517RYpt6juFgTqgVHt5cheyQWx2EUrp8DAJ3eRH54btesWWMkOzRRmm45HKFr0LyT9MvDsJKs_NS8g2sI_lpnvwp
+MM2XTe0twZhp1m
+}
+
+!procedure Cube($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'domainstorytelling/Object/Cube', $name, $tech, $desc)
+!endprocedure
+
+!procedure CubeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CubeLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CubeGroup($id, $name='Cube', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CubeLg>', $name, $tech)
+!endprocedure

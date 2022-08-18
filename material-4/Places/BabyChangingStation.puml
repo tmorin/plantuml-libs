@@ -1,0 +1,16 @@
+' definition of the Item material-4/Places/BabyChangingStation
+
+sprite $BabyChangingStationXs [10x10/16z] Oq06_5mm5WjS22W6Op7oG5cC_FmCR60MI9YP7ypY104m2mPue3G
+
+sprite $BabyChangingStationSm [12x12/16z] LOg30O1G54Mpw-m_RP_FkXfYdOoALqo_9eKxS7TAZei3TGJdvQRZSSuh6K1qgMaIb
+
+sprite $BabyChangingStationMd [16x16/16z] ROg50SKm20M1kDx-qtwjjnU19_A0fvrqWvFMva-oXbFSWMosQPW9nYezH3KLrQqku_lwNtztCQ0dTDK2-BnfSt_M_k2FhVsDgxxo1W
+
+sprite $BabyChangingStationLg [20x20/16z] {
+XSo30G0n44JHYRtJVxLdyn_p0hobMhrP8VFL8kbnpPghw1nmZRoTPmQIqG-Mnw4gjPwt5XLZ0A8vcDBZ2_G70rIY2BqLjni2XqnXEnXYpXuwwyrKMekRQQx9
+PeTUhTQAtte
+}
+
+!procedure BabyChangingStation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/BabyChangingStation', $name, $tech, $desc)
+!endprocedure

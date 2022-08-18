@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element NearMe
+include('material-4/Maps/NearMe')
+
+' renders the element
+NearMe('NearMe', 'Near Me', 'an optional tech label', 'an optional description')
+@enduml

@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/Analytics
+
+sprite $AnalyticsXs [10x10/16z] Oy0A-240nkA4idYWB2P-FYWB2A4iJY3avKVIYm
+
+sprite $AnalyticsSm [12x12/16z] Oy09-640Avi1pcQ2ia4iFZYR0KcS0GpvSPZ9Ws8h
+
+sprite $AnalyticsMd [16x16/16z] XOs50G0X30DngEy_xRlheRN4_KEoqiQGRISCiRp4CNx4uevn4DDZF1mvn-V-A1ejbsT_ECJU3OID8RpI0m
+
+sprite $AnalyticsLg [20x20/16z] fSYr0S100090uWhiFssaYUl_bOSuz5Q9cNTuSJeSclTJVxuAsb-QMVB-aDe-NmMzNzEwR-o6wwskhyUiebPCyTa8
+
+!procedure Analytics($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Analytics', $name, $tech, $desc)
+!endprocedure

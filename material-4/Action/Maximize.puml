@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/Maximize
+
+sprite $MaximizeXs [10x10/16z] Oy0As220WJe
+
+sprite $MaximizeSm [12x12/16z] Oy09-660WPu
+
+sprite $MaximizeMd [16x16/16z] Oo08k7WHW0d4vq4087-80m
+
+sprite $MaximizeLg [20x20/16z] Ow0CyAC0Fh0O6mfW9SMuKG
+
+!procedure Maximize($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Maximize', $name, $tech, $desc)
+!endprocedure
