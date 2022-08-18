@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element SignalWifi4BarLock
+include('material-4/Device/SignalWifi4BarLock')
+
+' renders the element
+SignalWifi4BarLock('SignalWifi4BarLock', 'Signal Wifi4 Bar Lock', 'an optional tech label', 'an optional description')
+@enduml

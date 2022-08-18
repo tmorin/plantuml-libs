@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2022/bootstrap')
+
+' loads the Item which embeds the element AmazonSimpleStorageServiceS3IntelligentTieringCard
+include('aws-q2-2022/Resource/Storage/AmazonSimpleStorageServiceS3IntelligentTiering')
+
+' renders the element
+AmazonSimpleStorageServiceS3IntelligentTieringCard('AmazonSimpleStorageServiceS3IntelligentTieringCard', 'Amazon Simple Storage Service S3 Intelligent Tiering Card', 'an optional description')
+@enduml

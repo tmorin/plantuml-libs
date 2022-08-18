@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-6/bootstrap')
+
+' loads the Item which embeds the element HackerNews
+include('fontawesome-6/Brands/HackerNews')
+
+' renders the element
+HackerNews('HackerNews', 'Hacker News', 'an optional tech label', 'an optional description')
+@enduml

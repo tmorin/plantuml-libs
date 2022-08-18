@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('gcp/bootstrap')
+
+' loads the Item which embeds the element CloudAssetInventoryCard
+include('gcp/Item/CloudAssetInventory')
+
+' renders the element
+CloudAssetInventoryCard('CloudAssetInventoryCard', 'Cloud Asset Inventory Card', 'an optional description')
+@enduml

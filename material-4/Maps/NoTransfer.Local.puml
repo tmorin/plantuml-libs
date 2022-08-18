@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element NoTransfer
+include('material-4/Maps/NoTransfer')
+
+' renders the element
+NoTransfer('NoTransfer', 'No Transfer', 'an optional tech label', 'an optional description')
+@enduml

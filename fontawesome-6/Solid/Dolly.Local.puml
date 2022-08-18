@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-6/bootstrap')
+
+' loads the Item which embeds the element Dolly
+include('fontawesome-6/Solid/Dolly')
+
+' renders the element
+Dolly('Dolly', 'Dolly', 'an optional tech label', 'an optional description')
+@enduml

@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2022/bootstrap')
+
+' loads the Item which embeds the element AmazonRoute53ResolverQueryLoggingCard
+include('aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonRoute53ResolverQueryLogging')
+
+' renders the element
+AmazonRoute53ResolverQueryLoggingCard('AmazonRoute53ResolverQueryLoggingCard', 'Amazon Route53 Resolver Query Logging Card', 'an optional description')
+@enduml

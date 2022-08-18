@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2022/bootstrap')
+
+' loads the Item which embeds the element AwsIoTCertificateCard
+include('aws-q2-2022/Resource/LoT/AwsIoTCertificate')
+
+' renders the element
+AwsIoTCertificateCard('AwsIoTCertificateCard', 'Aws Io T Certificate Card', 'an optional description')
+@enduml

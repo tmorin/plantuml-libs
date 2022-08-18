@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element RemoveCircle
+include('material-4/Content/RemoveCircle')
+
+' renders the element
+RemoveCircle('RemoveCircle', 'Remove Circle', 'an optional tech label', 'an optional description')
+@enduml

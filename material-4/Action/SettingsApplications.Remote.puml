@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element SettingsApplications
+include('material-4/Action/SettingsApplications')
+
+' renders the element
+SettingsApplications('SettingsApplications', 'Settings Applications', 'an optional tech label', 'an optional description')
+@enduml

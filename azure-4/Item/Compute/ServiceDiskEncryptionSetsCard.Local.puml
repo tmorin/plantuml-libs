@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-4/bootstrap')
+
+' loads the Item which embeds the element ServiceDiskEncryptionSetsCard
+include('azure-4/Item/Compute/ServiceDiskEncryptionSets')
+
+' renders the element
+ServiceDiskEncryptionSetsCard('ServiceDiskEncryptionSetsCard', 'Service Disk Encryption Sets Card', 'an optional description')
+@enduml

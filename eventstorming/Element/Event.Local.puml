@@ -1,0 +1,20 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('eventstorming/bootstrap')
+
+' loads the Item which embeds the element Event
+include('eventstorming/Element/Event')
+
+Event('Event') [
+Event
+--
+An event notifies something happened.
+]
+@enduml

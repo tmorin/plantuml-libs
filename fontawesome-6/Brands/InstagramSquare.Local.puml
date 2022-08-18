@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-6/bootstrap')
+
+' loads the Item which embeds the element InstagramSquare
+include('fontawesome-6/Brands/InstagramSquare')
+
+' renders the element
+InstagramSquare('InstagramSquare', 'Instagram Square', 'an optional tech label', 'an optional description')
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('eventstorming/bootstrap')
+
+' loads the Item which embeds the element Person
+include('eventstorming/Element/Person')
+
+Person('Person', 'Person')
+note as note
+A person who executes a command through a view.
+end note
+@enduml

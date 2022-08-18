@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2022/bootstrap')
+
+' loads the Item which embeds the element AwsGameKitCard
+include('aws-q2-2022/Architecture/GameTech/AwsGameKit')
+
+' renders the element
+AwsGameKitCard('AwsGameKitCard', 'Aws Game Kit Card', 'an optional description')
+@enduml

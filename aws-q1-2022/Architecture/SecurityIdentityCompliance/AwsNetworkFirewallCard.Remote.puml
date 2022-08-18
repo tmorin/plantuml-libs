@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2022/bootstrap')
+
+' loads the Item which embeds the element AwsNetworkFirewallCard
+include('aws-q1-2022/Architecture/SecurityIdentityCompliance/AwsNetworkFirewall')
+
+' renders the element
+AwsNetworkFirewallCard('AwsNetworkFirewallCard', 'Aws Network Firewall Card', 'an optional description')
+@enduml

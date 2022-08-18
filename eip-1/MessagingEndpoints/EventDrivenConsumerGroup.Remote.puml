@@ -1,0 +1,20 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('eip-1/bootstrap')
+
+' loads the Item which embeds the element EventDrivenConsumerGroup
+include('eip-1/MessagingEndpoints/EventDrivenConsumer')
+
+' renders the element
+EventDrivenConsumerGroup('EventDrivenConsumerGroup', 'Event Driven Consumer Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

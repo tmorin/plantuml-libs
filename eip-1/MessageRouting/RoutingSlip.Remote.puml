@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('eip-1/bootstrap')
+
+' loads the Item which embeds the element RoutingSlip
+include('eip-1/MessageRouting/RoutingSlip')
+
+' renders the element
+RoutingSlip('RoutingSlip', 'Routing Slip', 'an optional tech label', 'an optional description')
+@enduml

@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2022/bootstrap')
+
+' loads the Item which embeds the element RedHatOpenShift
+include('aws-q2-2022/Architecture/Containers/RedHatOpenShift')
+
+' renders the element
+RedHatOpenShift('RedHatOpenShift', 'Red Hat Open Shift', 'an optional tech label', 'an optional description')
+@enduml
