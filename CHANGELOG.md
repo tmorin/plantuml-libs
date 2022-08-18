@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [9.3.0](https://github.com/tmorin/plantuml-libs/compare/v9.2.0...v9.3.0) (2022-08-18)
+
+
+### Features
+
+* add GitHub pages ([932f5e8](https://github.com/tmorin/plantuml-libs/commit/932f5e86c63eddcc07ac6add88469b8ec60ed9c7))
+* decrease the NPM package size removing Markdown files as well as `*.Local.*` and `*.Remote.*` entries ([0f637a0](https://github.com/tmorin/plantuml-libs/commit/0f637a03babbbba378d4894f03683e2a750de798))
+
 ## [9.2.0](https://github.com/tmorin/plantuml-libs/compare/v9.1.0...v9.2.0) (2022-08-15)
 
 
