@@ -6,14 +6,14 @@ import { C4nordFactory } from "./packages/c4nord"
 import {
   DefaultPackageContext,
   LibraryFactory,
-} from "../../workdir-generator/factories"
+} from "../generator/workdir/factories"
 import { DomainstorytellingFactory } from "./packages/domainstorytelling"
 import { Eip1Factory } from "./packages/eip-1"
 import { EventstormingFactory } from "./packages/eventstorming"
 import { Fontawesome6Factory } from "./packages/fontawesome-6"
 import { GcpFactory } from "./packages/gcp"
 import { Homecloud2Factory } from "./packages/homecloud-2"
-import { Library, Package } from "../../workdir-generator/manifest"
+import { Library, Package } from "../generator/workdir/manifest"
 import { Material4Factory } from "./packages/material-4"
 import { Simpleicons7Factory } from "./packages/simpleicons-7"
 

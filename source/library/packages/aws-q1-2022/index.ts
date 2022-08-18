@@ -7,18 +7,15 @@ import { promisify } from "util"
 import {
   PackageContext,
   PackageFactory,
-} from "../../../../workdir-generator/factories"
-import { Item, Package } from "../../../../workdir-generator/manifest"
-import { fetchArchive } from "../../../../workdir-generator/archive"
-import {
-  getAbsoluteImagePath,
-  render,
-} from "../../../../workdir-generator/paths"
-import { toCamelCase, toSnakeCase } from "../../../../workdir-generator/naming"
+} from "../../../generator/workdir/factories"
+import { Item, Package } from "../../../generator/workdir/manifest"
+import { fetchArchive } from "../../../generator/workdir/archive"
+import { getAbsoluteImagePath, render } from "../../../generator/workdir/paths"
+import { toCamelCase, toSnakeCase } from "../../../generator/workdir/naming"
 import {
   csvToCustomGroups,
   unifyItems,
-} from "../../../../workdir-generator/discovery"
+} from "../../../generator/workdir/discovery"
 
 const ICONS_URL =
   "https://d1.awsstatic.com/webteam/architecture-icons/q1-2022/Asset-Package_01312022.735e45eb7f0891333b7fcce325b0af915fd44766.zip?refid=2b20d715-304d-4265-b741-b2837e5cbdf5"

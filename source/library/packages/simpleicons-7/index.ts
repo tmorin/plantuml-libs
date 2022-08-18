@@ -1,15 +1,15 @@
 import {
   PackageContext,
   PackageFactory,
-} from "../../../../workdir-generator/factories"
-import { Item, Package } from "../../../../workdir-generator/manifest"
+} from "../../../generator/workdir/factories"
+import { Item, Package } from "../../../generator/workdir/manifest"
 import P from "path"
-import { fetchArchive } from "../../../../workdir-generator/archive"
+import { fetchArchive } from "../../../generator/workdir/archive"
 import glob from "glob"
-import { getAbsoluteImagePath } from "../../../../workdir-generator/paths"
-import { toCamelCase } from "../../../../workdir-generator/naming"
+import { getAbsoluteImagePath } from "../../../generator/workdir/paths"
+import { toCamelCase } from "../../../generator/workdir/naming"
 import { promisify } from "util"
-import { unifyItems } from "../../../../workdir-generator/discovery"
+import { unifyItems } from "../../../generator/workdir/discovery"
 
 const ICONS_VERSION = "7.4.0"
 const ICONS_URL = `https://github.com/simple-icons/simple-icons/archive/${ICONS_VERSION}.zip`
