@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [9.4.3](https://github.com/tmorin/plantuml-libs/compare/v9.4.2...v9.4.3) (2022-08-19)
+
+
+### Bug Fixes
+
+* **website:** fix the gTagId secret propagation in GitHub Action ([942d369](https://github.com/tmorin/plantuml-libs/commit/942d369fd0d5f13bd8cf5e780ce1741f435228c7))
+
 ### [9.4.2](https://github.com/tmorin/plantuml-libs/compare/v9.4.1...v9.4.2) (2022-08-19)
 
 
