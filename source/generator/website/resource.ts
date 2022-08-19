@@ -142,8 +142,16 @@ export class MdtoHtmlResource extends TransformedResource {
     await F.mkdir(P.dirname(this.absOutputPath), {
       recursive: true,
     })
+
     const contenteAsHtml = await renderSimplePage(this.config, {
-      path: this.relOutputPath,
+      relHrefToRoot: P.relative(
+        P.dirname(this.absOutputPath),
+        this.config.outputDirectory
+      ),
+      relHrefToItemsJson: P.relative(
+        this.absOutputPath,
+        P.join(this.config.outputDirectory, "items.json")
+      ),
       title: P.join(
         P.dirname(this.inputResource.relInputPath),
         P.basename(this.absOutputPath, ".html")
