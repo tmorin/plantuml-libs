@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [9.4.4](https://github.com/tmorin/plantuml-libs/compare/v9.4.3...v9.4.4) (2022-08-19)
+
+
+### Bug Fixes
+
+* **website:** enable remaining packages ([274a384](https://github.com/tmorin/plantuml-libs/commit/274a384f770b28c931cae59f7bfb188b22805eec))
+
 ### [9.4.3](https://github.com/tmorin/plantuml-libs/compare/v9.4.2...v9.4.3) (2022-08-19)
 
 
