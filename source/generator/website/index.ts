@@ -31,7 +31,7 @@ const argv = yargs
     alias: "skip-patterns",
     describe: "resources to skip",
     default: [
-      // "**/*.{Local,Remote}.puml",
+      "**/*.{Local,Remote}.puml",
       // "aws-q1-2022/**",
       // "aws-q2-2022/**",
       // "azure-4/**",
