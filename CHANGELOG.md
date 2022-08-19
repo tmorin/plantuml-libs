@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [9.4.0](https://github.com/tmorin/plantuml-libs/compare/v9.3.0...v9.4.0) (2022-08-19)
+
+
+### Features
+
+* **website:** add a search engine to quickly visualize and find elements ([21b06df](https://github.com/tmorin/plantuml-libs/commit/21b06df394f12d7d722c7d9cb3ea4d78f7ef45c2))
+
+
+### Bug Fixes
+
+* **website:** avoid the `index.html` filename within the Sitemap URLs ([bf8b0ac](https://github.com/tmorin/plantuml-libs/commit/bf8b0ac2f9b472e0cfb3e9d5f903088e78431b80))
+* **website:** skip `**/*.{Local,Remote}.puml` resources ([d14a0d9](https://github.com/tmorin/plantuml-libs/commit/d14a0d9cb2f5179e37aa09a46514f217c7d4a616))
+
 ## [9.3.0](https://github.com/tmorin/plantuml-libs/compare/v9.2.0...v9.3.0) (2022-08-18)
 
 
