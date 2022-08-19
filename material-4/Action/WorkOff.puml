@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/WorkOff
+
+sprite $WorkOffXs [10x10/16z] FSQt0S0m0CCmRkdX_zUwMvW0SO8wAY-EAAethhuucaaccOGL
+
+sprite $WorkOffSm [12x12/16z] NSU55O1G34FHu9QUj_-qE7oftgWkXn-WTUYYlnreDk5DCd0VskTfIqPEHav6MpAIEb98jHq
+
+sprite $WorkOffMd [16x16/16z] ROo50S0W3C3GARJ_Vpiiyw2fcL-iSuwlXd8g8n1BG4iSNxK4zfGqfJsQNbigEiFLcwSJm0dW1726uWHm0WLz1QmxYMNeWs0E
+
+sprite $WorkOffLg [20x20/16z] ZS-50GCX00F0Tomb-szRFDIR5-3mvUzOct_CsRev9cJqtjClCvv85OPEEvWn08m0V3QI6I-sPEGJObYU_cn2cQRBX3AXJ2WJoeI7J5ZkUvkJyJcEnoiUonq
+
+!procedure WorkOff($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/WorkOff', $name, $tech, $desc)
+!endprocedure

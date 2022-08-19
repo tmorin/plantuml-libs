@@ -1,0 +1,16 @@
+' definition of the Item material-4/Action/RemoveDone
+
+sprite $RemoveDoneXs [10x10/16z] Oy066FbHc6py3FmG9eJ1mCa8PW0n3mz80OJ9ZweD0G
+
+sprite $RemoveDoneSm [12x12/16z] TOo35K0n54DlxRxzf_qsSXJp1oCN4HTHe6sYDdhQae9Cr8AQHCk0M2MpW4r8tKH3PUBjsdF52
+
+sprite $RemoveDoneMd [16x16/16z] XOx50GGn4CCKvhZ_QeznKJyDcbFImgSCVundmNHm-La0qC2fl5R-z5d0gG8P28_2GuqQKV5UU69lXQJez5zG_UIm0rA5iGx6FmQMN04
+
+sprite $RemoveDoneLg [20x20/16z] {
+fO-54GGW40DnX_HVBIxlYhDpaf2_XW6xOnGF8DzGste4UHcfW8hWBY8rua8xKbz4xSYDUaKx8jL058dMB3SYrSXII2qdNEcKBTB11mnu6Gb7Bs6iXtCNZjvx
+3-JpKG
+}
+
+!procedure RemoveDone($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/RemoveDone', $name, $tech, $desc)
+!endprocedure

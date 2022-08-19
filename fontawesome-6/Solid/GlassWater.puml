@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/GlassWater
+
+sprite $GlassWaterXs [7x10/16z] O-070ru8nSxF00JyZ10A8aSC1G
+
+sprite $GlassWaterSm [9x12/16z] O-270ZuOWvEV0GpuMM0C1du-Ddu-Tdv-g69I6RmGcXa
+
+sprite $GlassWaterMd [12x16/16z] fScr5O1G40NHmPtflrgSFPl_6pt1i9ii3lLhTxJZfQrBv4fhsgMcLmmbUKrvIhbdYmnnx9m
+
+sprite $GlassWaterLg [15x20/16z] LSUt0G8n50N1FUyaRV_TaW3ttsJ3iBXZshEtyZFfKJhhMhhhf1kmJ41J3DcHRTadUsTFHkr2pxRQcRjsugg5ASjPzm4
+
+!procedure GlassWater($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/GlassWater', $name, $tech, $desc)
+!endprocedure

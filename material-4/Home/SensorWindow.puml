@@ -1,0 +1,13 @@
+' definition of the Item material-4/Home/SensorWindow
+
+sprite $SensorWindowXs [10x10/16z] Oq02_6303c9n0W4pFqoC3ShYWRB0gZ5a-T5bMNb0W841
+
+sprite $SensorWindowSm [12x12/16z] Oq05FBmWm0rciZ6300ypYCt23mBOs2nCl30ss0G2wX5iRbuU4E07iHcO88210G
+
+sprite $SensorWindowMd [16x16/16z] Oy02cA204SBbXmCE29-56GoOU7YWV8Wi3z5yNbu61aPUBZWVQY-wUdBvRCmG0ENpmDtFWkbN
+
+sprite $SensorWindowLg [20x20/16z] fSs33K1H30NGPrNxJ_jjuqHDTTKBiX3xbXSe8vQnv_B0ujoJGVZMGyHrBqRV534kCzHeqUF1QSR_tZxNoj8mz3W1TQ86
+
+!procedure SensorWindow($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Home/SensorWindow', $name, $tech, $desc)
+!endprocedure

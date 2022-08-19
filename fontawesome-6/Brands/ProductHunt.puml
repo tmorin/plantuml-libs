@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/ProductHunt
+
+sprite $ProductHuntXs [10x10/16z] Om01PWOmOEK70I233KX1c202J88n6373rS34KLXW2g849W8
+
+sprite $ProductHuntSm [12x12/16z] HOg50S0m3CCyvlN_QyEWOcJ3M13yGpdrEuBFxBOifmopQc2osCxXxs8UxQTLakxO__JNgrzyTmXpMWO
+
+sprite $ProductHuntMd [16x16/16z] LO-54GCn40FrPdR_rGPqezna7mKc64-44ouvCFOLML84A-yOOw8FVDyJNzhdhvl-lX_-FZzTgAFt6K4QJAIlmFdJ2VmzqW3oTNGSbwHhyy0R
+
+sprite $ProductHuntLg [20x20/16z] {
+PSu73e0W44JHeNVc_hSrAw65P_ygW4aPt39_VNV73KFYIKlol4cZC29Hj3ay1Wg5-KFEIK79VLfjdxjw6yris6l0sIplngMYFyt1F6skitTE7ZCUemdz9D7E
+7oULkdpZyFi
+}
+
+!procedure ProductHunt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/ProductHunt', $name, $tech, $desc)
+!endprocedure

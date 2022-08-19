@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/DeleteForever
+
+sprite $DeleteForeverXs [10x10/16z] Oy0AEFb10Cp4ocBWP82ok1XWOepy72Zg4
+
+sprite $DeleteForeverSm [12x12/16z] Oy0DU7Zu-VbvUC1iPcOM8626YFE300iMDWCd0vpDmG0NvsFWOy2YdWNCHhCK
+
+sprite $DeleteForeverMd [16x16/16z] ZOp50KCX0CM2E-m_RVlTBRUdVCALaiKiL9kP3JsY9fsdMD_gpebRBGZuZMxWjdb0K3VQX2RpxN-Oj6123WWk-0C
+
+sprite $DeleteForeverLg [20x20/16z] fSu35W1H20NGz-tQ_sh7Dcw76JyfOpotZ35ZBl1ip4cbssWfZ3AFz8SSIUBWrha84O3DR0G4xtFWxQoCkzbcCFgxNzAKKnY9J9tYyKOD
+
+!procedure DeleteForever($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/DeleteForever', $name, $tech, $desc)
+!endprocedure

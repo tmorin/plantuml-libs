@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Brands/Sass
+
+sprite $SassXs [12x10/16z] LSG50SH00CJ0jCSO_sgVSHRufxNBtI60VBy3x7kjSBU1Xka04EUniGcMwTn1G8gBmftoTWK
+
+sprite $SassSm [15x12/16z] POc50GDH5C9o_WtOVzgwDqy1_b7Yh0zHim3a4UbnkJ8ztCVn0LOgK1xsxTCc7ZfqvuYp0vcY5RC2J1tSj7dV0O8Ol4Wctfm1
+
+sprite $SassMd [20x16/16z] {
+TSo30GKm34NHMpDv-q_xRPow0NyjdV72v1cOuYxAkH8tLVL-CsuUNr7SR07XVZcxDtQj0A32cJ9d7QQXm8K6e5YnxMccdW2wTQsiZ1827CYxEDgEHnCNdfWU
+JjCS1oYeq4eMWyYTKXSVbZOVZW
+}
+
+sprite $SassLg [25x20/16z] {
+XSp50GGn3C109Si1g_zgZnddOpR_hA76n0lLEYzXvL7LZPDP7dZVIy8zDyD5wzmeDulSpAvmKHov2G7wnDYL1xCP8Azh1lB0wEF9qGhOxpKzE78jvAXv5LBY
+Q7LWSSEnPsMpRyqH8EainTI8YIP01N29B7hwTKo116k0sRdOw37rmj7AB0o18bDFt4IG74c95w5MFaYbP3xO0m
+}
+
+!procedure Sass($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Sass', $name, $tech, $desc)
+!endprocedure

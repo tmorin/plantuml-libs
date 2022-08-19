@@ -1,0 +1,13 @@
+' definition of the Item material-4/Communication/MarkChatUnread
+
+sprite $MarkChatUnreadXs [10x10/16z] VSQt4S0m4C0m-hvnvlxJEgfHH0MI4nOVw8gls0N_ic6o3nSuKRe1
+
+sprite $MarkChatUnreadSm [12x12/16z] ZSP50i0m24JHYIlC_KzRRpUrl0JuEFMqBbcuIXe8Lp6HE9gmvcgAsgl9qVREBvm3nEB93
+
+sprite $MarkChatUnreadMd [16x16/16z] jSV50S1024JHGU98_zN6XLDk-rRWep0xVk8J8J83eBmuZX_Wl67Ed4iFO4RfD5KxkchIUXF1qOoA2Nys
+
+sprite $MarkChatUnreadLg [20x20/16z] pSZ50OH040NHQjd5-Vb7Y_kH4s-qYxksTnuqCQ3IZjzyru0En7mNjnQqKi-joV3WqHJWpTmUsW-rM5jcJ6iMwIpDU9BpqWW
+
+!procedure MarkChatUnread($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/MarkChatUnread', $name, $tech, $desc)
+!endprocedure

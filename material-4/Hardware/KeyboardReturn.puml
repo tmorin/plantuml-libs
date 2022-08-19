@@ -1,0 +1,13 @@
+' definition of the Item material-4/Hardware/KeyboardReturn
+
+sprite $KeyboardReturnXs [10x10/16z] Oo04-644FupBnmy1340c1rmT7suZ
+
+sprite $KeyboardReturnSm [12x12/16z] Oo0Ii26Ol3nWYX-8-O1CA9kT7mQ0V0v-c69q3YC1Um
+
+sprite $KeyboardReturnMd [16x16/16z] Ow06O4FbilEpG1ZyJ10kAmEC3-QoCq41cC-F060-8pytgd5C_3pe0goe0epaEnq
+
+sprite $KeyboardReturnLg [20x20/16z] lSkr0S0m40D0XJdQVreps_LVAO2OPUaZ4W7_5CrLbbOfyz5p9ZxxMV7VZzTKWFFpHESTXVyBOHe
+
+!procedure KeyboardReturn($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Hardware/KeyboardReturn', $name, $tech, $desc)
+!endprocedure

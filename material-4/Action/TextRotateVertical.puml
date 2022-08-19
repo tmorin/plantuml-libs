@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/TextRotateVertical
+
+sprite $TextRotateVerticalXs [10x10/16z] Oy0AE24OIl8mGLbS3FnG5ZyVbCN42kGmW0GOS08
+
+sprite $TextRotateVerticalSm [12x12/16z] Oy0Ds97O_23CWM3pyiFPl0mSB30sFnyVFvJDmGaa6I5iPY39o0GaM82o-04
+
+sprite $TextRotateVerticalMd [16x16/16z] bOpL0S10348vTzX_shh-jUyq2O3_EEtFkyuohrgfFcjFw5ahOAIxDYAfknwijSfTzHPUkPL52K-Q0buuV6S6
+
+sprite $TextRotateVerticalLg [20x20/16z] hS_50SGW00LHtFdJVxNh6pqcWxyRvchsJ9NV6KxcqSdwm1qDD-R1cap0xetoMdLd2KcmCp5VaJRcYE-hs5XfdsjixdDEK3d-LbHpgfZRUW8
+
+!procedure TextRotateVertical($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/TextRotateVertical', $name, $tech, $desc)
+!endprocedure

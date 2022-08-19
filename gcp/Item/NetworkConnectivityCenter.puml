@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/NetworkConnectivityCenter
+
+sprite $NetworkConnectivityCenterXs [10x10/16z] PKo50S0m348Q-V_XkIyk0DwMZqbRRoB6Dj6Pwzy1EMK2YEC6ZbJwfyArp
+
+sprite $NetworkConnectivityCenterSm [12x12/16z] TOf50G114CFI8V-EZt4Xdo8TuiLVgtgcK59NAylJoilnr3NWTJiIdl_XZ2ah
+
+sprite $NetworkConnectivityCenterMd [16x16/16z] ZSw50KDH24FHImBPV-Ewzzjvhi0nLRm9o6C42d0A5GyHqEP9Si8y5XXZv_bhWd67Q1uVkheZdXfdQ1xiWUenxzm24c_csx3i3
+
+sprite $NetworkConnectivityCenterLg [20x20/16z] {
+bT05KWLG34FHcwJDiFyDu_3TpjZJ6gzIkM1EBK01Bxz283L4_F7R2jWT7tzsMYmEvAGj_TiF8TPC4pG0OKjCqd6308I9cQa7TCZn5-zWZ4Oi_xH3uoavz243
+1M9Et9_BWRZd0m
+}
+
+!procedure NetworkConnectivityCenter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/NetworkConnectivityCenter', $name, $tech, $desc)
+!endprocedure
+
+!procedure NetworkConnectivityCenterCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$NetworkConnectivityCenterLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure NetworkConnectivityCenterGroup($id, $name='Network Connectivity Center', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$NetworkConnectivityCenterLg>', $name, $tech)
+!endprocedure

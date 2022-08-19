@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/A/Aircall
+
+sprite $AircallXs [10x10/16z] HKk50G0W3C9k-VzQkzr80AwocB5vZdc8Tlpjb8SggJRAKrfGJoGd-bsO2pe
+
+sprite $AircallSm [12x12/16z] JKo50G112CBlXFsdlGul9G7OG_qNyb9VTUoWCaV-xZeNwa_NqlocduMkmkVcKrhBpDBpPCxgt1U1EKO
+
+sprite $AircallMd [16x16/16z] NKw50S0W34itNF-_5lUW4MXHGCg56An0WumR3wr2l34ufj7ZLBXjDpli6GXrKmy_2ll1Py3KTN1UrZUu6_KDoNgZCFW10ppzdu85CW
+
+sprite $AircallLg [20x20/16z] {
+POy50WGX201drqx-_zeBl336f84tLoXTfBVaO91anW38XbElZGivo5-TdR9u6J2bpj_4RxeeRN8ZYDB7pM3M6KuTpC5LayBi6BMXLMVVrmsWbuQXJOuH2tVN
+9kGWO6G7SASAhl9Nz00y0G
+}
+
+!procedure Aircall($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/A/Aircall', $name, $tech, $desc)
+!endprocedure

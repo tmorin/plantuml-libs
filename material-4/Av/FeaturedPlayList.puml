@@ -1,0 +1,13 @@
+' definition of the Item material-4/Av/FeaturedPlayList
+
+sprite $FeaturedPlayListXs [10x10/16z] Oy06-DdOsFZuWO217mGWBA0uiXXX5Xm
+
+sprite $FeaturedPlayListSm [12x12/16z] Oy05-160WHyam0Tc4n0dXys3R2q
+
+sprite $FeaturedPlayListMd [16x16/16z] jScr0O0m04JHZpliFoqMzoglEg6asmzZW-lOFvUmStLyJj4FBaFqeVsOl_UwKQ4lqDhmFG
+
+sprite $FeaturedPlayListLg [20x20/16z] Ow04SF2Z0qO6Fdus2E23YR43nQ0QKCGG02761m7yXFHoG00_5lFeBCQB8SR6mCpBXmguY0vI
+
+!procedure FeaturedPlayList($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/FeaturedPlayList', $name, $tech, $desc)
+!endprocedure

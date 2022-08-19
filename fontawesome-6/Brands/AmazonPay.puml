@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Brands/AmazonPay
+
+sprite $AmazonPayXs [12x10/16z] TOk50O0m4CI2Ezb_Mjnfyov7514SSE-BMf8Ci1sRIWIsj9K7IKTJiTDiWesQWWSp
+
+sprite $AmazonPaySm [15x12/16z] XSUr0GGn00InCREt_sgVyL2PE657cPII1ErU4CPChETToqHwjCcZESdkKLx4slpD0ATc0MpNlK3LJMBj2W
+
+sprite $AmazonPayMd [20x16/16z] {
+ZSkrWSDG40N0-IJMRl_L7fYTQS87hkkscRwj1WQ8oRehnbvE4WIIMaFg_IEBqiBQqkkxEOmWzaVMZfdrC94UcQTtjdWg0LHVUaGgsRv3YJLZAQ0iaQLKCFBX
+A7HN_G8
+}
+
+sprite $AmazonPayLg [25x20/16z] {
+hSh5WGH03CH0sSFapZ_QOsRO-afSbgPq81Ho5n3b8G2g0EqW0_4S-WRt6en5Fe_XuTtj10Zn8foE80SSYwUW5GADfG1JVmhc3bWo312Fn4lry2XuGS7dqbo9
+LNdBtUU6fi4RQzOEiAMPZ3kMffGGy92UPI3noChSPw_k_Dar
+}
+
+!procedure AmazonPay($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/AmazonPay', $name, $tech, $desc)
+!endprocedure

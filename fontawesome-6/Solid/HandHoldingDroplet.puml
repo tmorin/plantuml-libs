@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/HandHoldingDroplet
+
+sprite $HandHoldingDropletXs [11x10/16z] Oq03_Fmm5W-2oGy422Oh0sx03mPGYf-JZOsVdmtCX1W1
+
+sprite $HandHoldingDropletSm [13x12/16z] XSc35S000CJGr6xsdxOs_zE1ISY1icaqF1pwMah-E87Il5ODmm1FsaDFe0S
+
+sprite $HandHoldingDropletMd [17x16/16z] bSgr0SD05C1GcTdQVzkO3hkyweFuZ5Iqtkt9T5xAe4hqifESTO4N_h7jjmOO5c3njSEcytxgfMrRCBDVr0qBVLd9vGS
+
+sprite $HandHoldingDropletLg [22x20/16z] hSwr0O104031nPtjlrhSBsMY_tDkBKIZ6K6j4hZeuArt5KjNBI-PEruIDoDlRefuhbRyg_Km7ZyMtevVtVVkyZHD8NVHUMdAnVOlCKg8qH5Yj68r0m
+
+!procedure HandHoldingDroplet($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HandHoldingDroplet', $name, $tech, $desc)
+!endprocedure

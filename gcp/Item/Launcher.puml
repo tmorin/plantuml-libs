@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/Launcher
+
+sprite $LauncherXs [10x10/16z] LKk54G0X34irz_iF_BX36yLxk41mmWXC6DYekjvtpz4syYPQviTUa4GI1G
+
+sprite $LauncherSm [12x12/16z] PKt50G0n20jEzX_uN5jUn35TFPz4FI2Y7X20VlweoHF7drux6RRzOEbXtVyk7B-vwl5xdjE25G
+
+sprite $LauncherMd [16x16/16z] XS-50G0X509GyFV-0rztX_gmyVB4cHR7W3Ru4DZaE7WeVYo3p_Dz5NHoQqCojid9o6dAqCQJbHdpX34baJdlC3ggeAjjlQC2FG
+
+sprite $LauncherLg [20x20/16z] {
+ZS_L0GCW34NHI-oL_GUk87NZZnFdssjwjTGpjamzOmxJ4mtJem7Fnf-MuDEUPyHDY6MqlDLjAycd-RAaIvecObZZC7gExxvNPriDbRXN5VtEYb3lNCo6UGgQ
+Lq59CD4VZpm1
+}
+
+!procedure Launcher($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Launcher', $name, $tech, $desc)
+!endprocedure
+
+!procedure LauncherCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$LauncherLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure LauncherGroup($id, $name='Launcher', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$LauncherLg>', $name, $tech)
+!endprocedure

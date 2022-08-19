@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Monero
+
+sprite $MoneroXs [9x10/16z] 9SQ75S0m2CHGfVTe_srzF6J3XpH1PVN4xi2bn4lEYBMU2Tp4K0jJk49VUpi
+
+sprite $MoneroSm [11x12/16z] FSR50S0W0C30r0t8_jiMlzTHh7HMS_L-LY4YzSlh9mHTULKMqa7kBMi0Su7LHydUBvXztmvQ9R9WTi8F
+
+sprite $MoneroMd [15x16/16z] LSwr0GH134DH7ImQr7-rm_WZFqT2xVl1I5ZwLR5dLIC5bDub_814q_qX_udLBn8j4qMPB0G5XP9PFvcVGWTOs8Oes_aJQIFJaMmLOxLimfYHYW
+
+sprite $MoneroLg [19x20/16z] {
+NSg74SH020J1EVVoj_bd-mBafzpI1MSvyInlykPBkgxQHwp9HEygD6swMoMG5YxPa4QdqrPVarFO5gC7PVy9af5RX-gqEWaA53cr864IH2dPHYVBg9I29qL4
+ozv9-vo1drx1ruZI1PshijWz9Qm_
+}
+
+!procedure Monero($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Monero', $name, $tech, $desc)
+!endprocedure

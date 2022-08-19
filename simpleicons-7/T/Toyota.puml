@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/T/Toyota
+
+sprite $ToyotaXs [10x10/16z] ROc50O0m40FJufA__RV5dPUeVYSn4CnY_fZ9pW8Kx76UiPhR-SO5R7MBItCv0grkCm4
+
+sprite $ToyotaSm [12x12/16z] VS75OSK0040Xufwt_xOzrpxuO7kwPz3iYFEco4jjsr9TbPgmZk4TNjn2McbvU0-EnYbp8p0CWn--
+
+sprite $ToyotaMd [16x16/16z] dSorOK1H5CFGS_FvaVUVDjm732hb7pcJcPbHOCzEqcZ1amDJi4BsN4uc8sVwKldEuXECUZaBSWKw3rJamN49PAayIBxzc3dCxDNo0FQ-ifxoYxm1
+
+sprite $ToyotaLg [20x20/16z] {
+fSv5aWKX403HB9WMDEz_sZ7eYB_ljq5AUIzIpZbzVanjtJAriWo_09r0zG1GW5bn9GpO1KAv8HmUIIxr5exPLAP3YEes3pXK_XafhUjXUVuWt6kWpz_LrsrG
+zaQ5TPd6teYoEsi0P2s15bAty-WkDs_z
+}
+
+!procedure Toyota($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/T/Toyota', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-7/L/Lufthansa
+
+sprite $LufthansaXs [10x10/16z] HSI30S0000Emp5x_ltP62XZIWe2Hk3K-mnIawkgGCdL9Yo9-WyRWqpot0m
+
+sprite $LufthansaSm [12x12/16z] HSor0S0m40F02vkz_xPf3DSzI23t02YWmRrNnLHjPzORUewtpb7lNYy4Q94jvTEhcRvTMg6UU3z-
+
+sprite $LufthansaMd [16x16/16z] {
+LOw50G0X30FJufhzj_s-mw7ru28CDi7BIDVJqsF-WSqq-cv21Gah3D1u_LplEMgqz56hsPovc47x2dqYLM6qUn2VjlAgcdVV-i_pNM5Mn4BUzVahsFMDFhb2
+-qYz4Wy
+}
+
+sprite $LufthansaLg [20x20/16z] {
+NSZ5WS1040InMkRf_ACzCDjwYaCppSn3ikG0rvRZe0Y7qTaO3tbByL8IfCYRWV7LI7nPSqDA_CiQ8POLkm5zj0HEAdy2GG1EpGyfUWyG9fikMN9iSlPidCHX
+qZduEO83M2mU6f0yRl0ce6MUZ7-zFCkpISOXYKkr7a8Uo_Fl5m
+}
+
+!procedure Lufthansa($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/L/Lufthansa', $name, $tech, $desc)
+!endprocedure

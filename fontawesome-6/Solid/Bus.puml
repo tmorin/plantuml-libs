@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/Bus
+
+sprite $BusXs [11x10/16z] Om02JZu-TWOGu8S252O8Cu95a9aCC2QgDXum1rqKI818RWO
+
+sprite $BusSm [13x12/16z] NOg50S0W30IlkBF_jiKhXoGlD4GinJCeTT5r6rUZ3N0r2k654CsZ6vZsR2rVmHQ-B_NGnPH9l4GK_ngg5Xfzlm4
+
+sprite $BusMd [17x16/16z] {
+NOk50S0W4CHIzy_-qzODWlu99_rYp2qtuKl7pgoM1wrQtO7v8DGQ2XrsUwxtIvSpmCvK08qMYL0Vmf8BnBzISmX6XB7ZBNpS0eCdy0ZBRHUdiFYZOaVbeDI1
+lu2si04
+}
+
+sprite $BusLg [22x20/16z] {
+VP255S0W50C_xcJ_RHjUtRWAuN1anQJMqMkGauWBJQyI3-9Xcvmz-bVVrHQWQkAW1zH1nBAGWLgBpFhRfedLNvOyvZrsrWtnC2HCzqlhog4ODrlF_eoh7OKv
+Hvlfl0MahO3Ou_gAVCLmZmi
+}
+
+!procedure Bus($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Bus', $name, $tech, $desc)
+!endprocedure

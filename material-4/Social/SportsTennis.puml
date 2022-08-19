@@ -1,0 +1,19 @@
+' definition of the Item material-4/Social/SportsTennis
+
+sprite $SportsTennisXs [10x10/16z] Oq05_Fpyt10653CmiS5O70mm5Yy_8oS_H1atK1ecpiKB9BcXF2wuYGm
+
+sprite $SportsTennisSm [12x12/16z] POc50S0m40A9E-m_RTtx2Xn-DIGTKXc8OvErRW6kQnzQPjSoGMcJIMJ7Lb4xuobh0WtsoWqwDQYC6G
+
+sprite $SportsTennisMd [16x16/16z] {
+TOo54S1G24CBTO6t_xILt9Up1fTa-C44x7qCpcdbgkE5lTcLrRXgASE1YjLxd7LTPZKBKvcJopnPo-XyI2kZaT9TpqaZKKWXHXcDzuEtEJLgNhwv0e9DNS4M
+hzu3
+}
+
+sprite $SportsTennisLg [20x20/16z] {
+VOy54WGX3C1W5S__NtjIfjX9LWdKp5-iIpaUaxeHug02UNzz8ltaIQe9XeC5Ko6hshZKjNCtBSUbpga3etYSLCYSpMNmrdguJGD1MbGInFkgOKq57GRELMK7
+JRKPh7GGHRKPz4GR-jeIcva0sh76URyxV08
+}
+
+!procedure SportsTennis($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/SportsTennis', $name, $tech, $desc)
+!endprocedure

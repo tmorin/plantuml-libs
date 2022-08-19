@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Yammer
+
+sprite $YammerXs [10x10/16z] NSQr0OG0002nl2lS_jFY5QdYx8lFuijB_Nh6E9OKQbHGgGRQaCsVYwCn0m
+
+sprite $YammerSm [12x12/16z] HSh50GH14CD0xJ0h_sYFeJuDDX-TdyFrNrdWMm1GF1XePaqNn_R-2x-ErrJBUq_xzTzEN_WxuF_8m1q
+
+sprite $YammerMd [16x16/16z] JSV50OC050MmuFxV_jFM2-GMfm5kdUDcdDcX-HWtpCXVOIKvcgJTFy-HrstbI8wCJ4aQ90NQl93_cxmqyWAwyzNjcIrvEUfzfDkt_EoOd0gxczBCxghW2G
+
+sprite $YammerLg [20x20/16z] {
+PP050eGm4CI2GsNd_x-z6rnIJtsvK_cWwIC5QNof5WZCigFK0UC4wCP-W5tAaiRTnHZXBb97bMYJoe3TGcV_PyBauvozDOlx0UFDpJAWcqioZPsf7L3k3feX
+Oj7tpNJvKh6xYxa0B0qFcRvHzKh1MyQ8-G4
+}
+
+!procedure Yammer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Yammer', $name, $tech, $desc)
+!endprocedure

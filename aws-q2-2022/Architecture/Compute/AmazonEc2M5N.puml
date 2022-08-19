@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2022/Architecture/Compute/AmazonEc2M5N
+
+sprite $AmazonEc2M5NXs [10x10/16z] FSZ70S0m5C9G_ohsdpXnrUa1qBCg7ZcCNhBeR2qofV-fiF5B0GHJmkUGAdCmjPhw
+
+sprite $AmazonEc2M5NSm [12x12/16z] HSV50G113830EEc_uPDLNWDGiqpk35Fw5SMeldpOH2G_zsS1z7ShufcYCQn0KByxLGCOReo_xeolvT7m2m
+
+sprite $AmazonEc2M5NMd [16x16/16z] NSe55i0m20JHR93b_YSkKfzAydamyoipusVWwU-0KwwgAjhFncq02-reChFTZh4_TaB5p81rkVT17mSiqqsU3jb0adMF-fZgyevgFPx-Zl41
+
+sprite $AmazonEc2M5NLg [20x20/16z] {
+RSi74WH1249HRLJS-rzuEpdvLtu57CMPz_Z4AEF32jkgAokF6RpiVDjfeAdYPb2C1DEoTYEDPHsT3hftix0ObY0LS7U8gboC38OeOriInf60B4kEbmmYozBe
+hO6piYGRgs7krfFJUdoKPwn-7_W7
+}
+
+!procedure AmazonEc2M5N($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Compute/AmazonEc2M5N', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonEc2M5NCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonEc2M5NLg>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AmazonEc2M5NGroup($id, $name='Amazon Ec2 M5n', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2M5NLg>', $name, $tech)
+!endprocedure

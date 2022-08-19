@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/AgentAssist
+
+sprite $AgentAssistXs [10x10/16z] Oq05730Q2DWX30OWP8KASK1PZ70MEn2omdImmJIZ6We
+
+sprite $AgentAssistSm [12x12/16z] PSR50GD100IWMQV_XkCvvKLknZxKRva5tuzb_X-C_wFzFoE_Bp3pKP6V8ZTF
+
+sprite $AgentAssistMd [16x16/16z] ZSgr0GC140D17M__3PlPJvC9T8Z1w6q0ADq5KDR0FJTeg7ZdRi3UkNeO_yXJwFDlXVJEmBopWZlJ4q3e3LgVq9ep
+
+sprite $AgentAssistLg [20x20/16z] {
+bP250GCW40CJUCd-4pTGz_Rmmn__KfeFPieqRmnrec-scM3Ad9UwMsZ5wkJLhQAAEqSjUB-EtalShxEZyBIEUU_KpdtZIfi8Tt119-e-0ljdTwJLmACBF3Bm
+XGC
+}
+
+!procedure AgentAssist($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/AgentAssist', $name, $tech, $desc)
+!endprocedure
+
+!procedure AgentAssistCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AgentAssistLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure AgentAssistGroup($id, $name='Agent Assist', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$AgentAssistLg>', $name, $tech)
+!endprocedure

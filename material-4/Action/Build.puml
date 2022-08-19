@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/Build
+
+sprite $BuildXs [10x10/16z] Oq06_FpeJ7u6LXWB220iHWWJ2WWp6G
+
+sprite $BuildSm [12x12/16z] VSUr0G0n581GOkrd_sdFNKB5uvxw0I5fMj-avlMN2c-at4v05y61O0G
+
+sprite $BuildMd [16x16/16z] bOh50SKW40KJtAV_Qh_Yd3B8xfFhH48Hi-40ruIgnbqrvlCL24rZhmpahYa0lcfDvQh4tH2f-6eCdXitG5mRvLhuf6y
+
+sprite $BuildLg [20x20/16z] jP350S0W301hE2JxJukxF7luuRaEV4ehCalqmEHk3BGnhIjvTGPkNxDXDuG-6JSRly2l6jPnBAZX8HanFMIM0X1qamtrcoIhX6j2DTMWFaeE
+
+!procedure Build($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Build', $name, $tech, $desc)
+!endprocedure

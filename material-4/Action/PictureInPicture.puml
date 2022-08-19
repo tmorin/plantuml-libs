@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/PictureInPicture
+
+sprite $PictureInPictureXs [10x10/16z] Oy06-DaWW9-17yJZ1z8uM620oe81X74
+
+sprite $PictureInPictureSm [12x12/16z] Oy05-160WHyX2eHGIRniAC37XWCUP6i1
+
+sprite $PictureInPictureMd [16x16/16z] Oo04c7bu4O2RWO6VbmS1-7aO-9cH5FFoGlbC_2109XyEoEAZ04wWqSW0mti
+
+sprite $PictureInPictureLg [20x20/16z] Ow04SF2Z0qO6Fdus5C3EpmuKGzN711D3c45JCGP6C4288G35OhmOOS36mCpBXm9ukOWEKW
+
+!procedure PictureInPicture($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/PictureInPicture', $name, $tech, $desc)
+!endprocedure

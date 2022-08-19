@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/Coins
+
+sprite $CoinsXs [10x10/16z] LOk50O103CI2Ezb_MlIrtXFUMDo_xH_LrVKm9kJKFdA3JBhIZsQzCCrm9iSADm
+
+sprite $CoinsSm [12x12/16z] HOl50G0W00AnM_QVrevxaLW4LhSL3oly6bBwEgG04idg0Ktz1inV8rdagJm4cLYK47OzuJZOabLYeBVPv24x
+
+sprite $CoinsMd [16x16/16z] {
+NOw50S0W30G_TI2o_xR5xT6BeygfoTk0hUbAw6qeyRKnw3W-JXGI7M_WS1CeEcIgTIDUR4CalDSoa5RYCeTBzIbTUZ3ZJYvXQRr7VCXOutFl0yZnAZBYOQD-
+r0y
+}
+
+sprite $CoinsLg [20x20/16z] {
+LS650S0m30InirCC-FUVjemIDv-ReeuyhEanSt3zi2lwOMVw2ZYu-rIqYm4EgU-SpM10Wqctvf13Gb-1f3dqOyDiTFe1Uf7qAj1h0unDcvoWyq6oKEkDWy-I
+9GVq0uUiHyz10v36UHhOXBDfKftSDcaEoTZfAyF1gowpSLW1
+}
+
+!procedure Coins($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Coins', $name, $tech, $desc)
+!endprocedure

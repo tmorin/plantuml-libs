@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2022/Resource/Storage/AmazonSimpleStorageServiceVpcAccessPoints
+
+sprite $AmazonSimpleStorageServiceVpcAccessPointsXs [10x10/16z] JSY54G0W40F1u5p_1UFolXFPIbN42SOMiPMrLT0HuwQfU9Brk3p_gGC
+
+sprite $AmazonSimpleStorageServiceVpcAccessPointsSm [12x12/16z] NKg30G0n43iKoVu3F-gU8mbbLEg0xRhCoXEeijP9AAi8aNhGOksZXKeN7OJD18WZtkuB
+
+sprite $AmazonSimpleStorageServiceVpcAccessPointsMd [16x16/16z] RSS50iGm20NHIR3F_G-yMcyd0e_7HakxIWEOoeK0-F9MgqxME5WrWTs3YTNgf7lWr683G3C6_t9vMcmJ6cAoD3GxYsFDcLsSMla6
+
+sprite $AmazonSimpleStorageServiceVpcAccessPointsLg [20x20/16z] {
+VOg74SGW4CHqm8Njl-2FpaaseD4iJxZ6CHIODhdI9ciLauaV8oVVDEdKmiXjYmYoQjToybFhskqaGM5-t1UzMqnj65zCWSD4BUjYGUjP2I6JSq0SoQuOfwZ1
+2Lli3G
+}
+
+!procedure AmazonSimpleStorageServiceVpcAccessPoints($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AmazonSimpleStorageServiceVpcAccessPoints', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceVpcAccessPointsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonSimpleStorageServiceVpcAccessPointsLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceVpcAccessPointsGroup($id, $name='Amazon Simple Storage Service Vpc Access Points', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonSimpleStorageServiceVpcAccessPointsLg>', $name, $tech)
+!endprocedure

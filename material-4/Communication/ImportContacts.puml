@@ -1,0 +1,13 @@
+' definition of the Item material-4/Communication/ImportContacts
+
+sprite $ImportContactsXs [10x10/16z] Oy06MFdvEHbu-FaP6VX102Z23sOn4SdY0kk20m
+
+sprite $ImportContactsSm [12x12/16z] bKe30W1125opcl-_zcnV7AdRqjPqr_G7VJ6OW17RFZ1XynURKaE7a_C2zYv3RQe5
+
+sprite $ImportContactsMd [16x16/16z] jSVL0SCm40DGcL6-_QTjm_GLV8V2PJQLx04TIuaQa16xhatAdBD2XvopniTPXLpYa1lPBP7-41OzbJ3GEFW3
+
+sprite $ImportContactsLg [20x20/16z] pSZ50OH000F0hFkc_shlSFZXCfy8BcSA6q50vROa0HGEcb9phgH5vSYW9UdcJ-Bhdmuf1RlyubWSIb0242OpwRReRB3H7m
+
+!procedure ImportContacts($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/ImportContacts', $name, $tech, $desc)
+!endprocedure

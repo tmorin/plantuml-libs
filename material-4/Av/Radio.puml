@@ -1,0 +1,13 @@
+' definition of the Item material-4/Av/Radio
+
+sprite $RadioXs [10x10/16z] Oq05tFmGcfyFIaC11mD4Wfc11oW70lnyG1ONH04FI9O5okA6YJ7oG003
+
+sprite $RadioSm [12x12/16z] PSUt0G0W4CD0apFUVrhoLwWwuKipFIMMfqxMtVhcpQrfD8DTDdMvdzYvJ9zvMdP05qU0pvMjYw4bJ
+
+sprite $RadioMd [16x16/16z] TSU50SCm30NHRsRV_jEM6yuPfAUxF1kO2ccHdtIxg03zM_EIeIyD98kMtCwuh-SlNlVjz_ptTf3YrdgrjP7CreJ0Qh6fwzWJ
+
+sprite $RadioLg [20x20/16z] XS-54G0X34HHtCdsN-sv8Pdxum-D-Cd53cG6gDrIWIY_aW0oNz056vMxuqvqXTrISpDAQrAFPc4k0ps1wBAcoxR3hhEwNvLRIxkPrcYo3xczZvbDbgQDPgq
+
+!procedure Radio($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/Radio', $name, $tech, $desc)
+!endprocedure

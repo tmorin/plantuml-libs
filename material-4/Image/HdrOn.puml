@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/HdrOn
+
+sprite $HdrOnXs [10x10/16z] Oo0UyFFpC_Bp0nbyG98PY25Y3FpS13G2
+
+sprite $HdrOnSm [12x12/16z] Ow08y30py_FoyF3o0zdyVCpy3Bmy_FnGSNuE7WO-aaq4
+
+sprite $HdrOnMd [16x16/16z] jKU70O0m34BYLiB_trf-i6mm7JTvKpeWFVdQjfTDmtoPt_rI6DzUygjUMaOumAWAgCo_yG4
+
+sprite $HdrOnLg [20x20/16z] pOk50SCm30JVpBxzfst3oGWMwq5hXTtBMBkVrfmOSWZ01A2UMAw8fEa29eqJc_F1e7oyBR9X5lV1O2YWrhHK_04
+
+!procedure HdrOn($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/HdrOn', $name, $tech, $desc)
+!endprocedure

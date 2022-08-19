@@ -1,0 +1,13 @@
+' definition of the Item material-4/Communication/Chat
+
+sprite $ChatXs [10x10/16z] Oq00Jdu8O63WXm8U80iiXSPYOcA2o481WiNCmC_8W0u
+
+sprite $ChatSm [12x12/16z] RSo54S0W40J0YmUveVzgSOSTUNyCD1C5q1Idpx_hzXXpwY3rxtGMy-SyJ-PzUl5s-dF7FzS5yCIE0m
+
+sprite $ChatMd [16x16/16z] XSs35K0n50FGVAFQVzhQl8UFGMFR4rEA7B2tzNCwpDVtuT1Gxqwehrvz-7zDlSu_lUE0gNVazWqp2W
+
+sprite $ChatLg [20x20/16z] dOy30a0X342pSV_Jvdsp5-SDVKR7FLKN3zWBdUiwoMXP5R_es9BSBRgm41_zZ0B2ekEaKNwds9rkuO-EZdnZZlgIdXcZ8v6WIJ8
+
+!procedure Chat($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/Chat', $name, $tech, $desc)
+!endprocedure

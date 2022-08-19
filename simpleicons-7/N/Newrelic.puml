@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/N/Newrelic
+
+sprite $NewrelicXs [10x10/16z] Oq01d7pyJ22Q7oR01IQP42fu6FYWB0u6JZ3D1bG41ImGbGZ0p0mY0G
+
+sprite $NewrelicSm [12x12/16z] PSV50OD0002m0EUs_xPrRtxn9qL0UnmRpTOe0dlFMMFZwDYng0dDfhDdRyVUQBAAjkr5nHQW-NO6
+
+sprite $NewrelicMd [16x16/16z] ZS750G8m00Imr7j5zX-NFvxunqobx0cq3Z0BWh7eWyh2qayX71Kb21XO7R2v8mSGxbW51bjjKC8e2iV41APG2cfAIHDm07K3vBhsQNZr
+
+sprite $NewrelicLg [20x20/16z] {
+bS67OS0W300msOnYClZ_spxGAVcdEkzxxWHWL03c0XmWm0CcN9tSYGSR2iY9PSFZ2hteM1Bf0fERM502R6wyK81Y4GUM3eg7MH0A9ZObuJ6h2eF51MwWXqpS
+e6P4symE7W0y0BbR83vs0e0s6hxt2G
+}
+
+!procedure Newrelic($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/N/Newrelic', $name, $tech, $desc)
+!endprocedure

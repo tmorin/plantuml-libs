@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/GoogleWallet
+
+sprite $GoogleWalletXs [8x10/16z] Oq01_Fn0Wf4HGdFn0m4ZFmG0XNZPGJGZFm-Opm0MumHhOuRG834
+
+sprite $GoogleWalletSm [10x12/16z] NSo50O10509Gk_NjFwsj5xy3A79ZUAUDvx0CppJIKDm15qBFx4ADMDtuSkQS6i_wAu-VyjOT
+
+sprite $GoogleWalletMd [14x16/16z] TOw55S1G20EfAzp-s_Q5kjrNFFP3H5miu6uD9bhvOmzwW8-owhesxm4T0oPsh5GrNTvaBqU4h3J71fWtgycxapM2or9iPqujE-fgTnO
+
+sprite $GoogleWalletLg [17x20/16z] {
+VSzLOaGn243HI2N2ozd_Qclqep8pDuf3UKJllVsKAvIV_5JKMbFHKtw6Sc6b8W9h8BuL2vvmCdNOEF9F70CMClSWa8g9pQjyinzJUlfK15vzUhgS3qN3cUbv
+nOyPO6IdoS5B_w7OsEK70ye_tW4
+}
+
+!procedure GoogleWallet($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/GoogleWallet', $name, $tech, $desc)
+!endprocedure

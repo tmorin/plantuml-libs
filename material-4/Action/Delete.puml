@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/Delete
+
+sprite $DeleteXs [10x10/16z] Oy0AEFb10CmacuK
+
+sprite $DeleteSm [12x12/16z] Oy0DU7Zu-VbvUC1iPcOM8626YFE300l5R1Om6yrI
+
+sprite $DeleteMd [16x16/16z] Oo0AiFFoyZ32ECpyC00JO840PYYV1ohDCa1yJYWVxc8cC01oCG4
+
+sprite $DeleteLg [20x20/16z] Ow0GCBEoSl2302ihAqoCany1O69Cp2mW20BCSCqyS6KiGrgC6ow6y1iZ3nyOy7AG59u
+
+!procedure Delete($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Delete', $name, $tech, $desc)
+!endprocedure

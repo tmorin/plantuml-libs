@@ -1,0 +1,16 @@
+' definition of the Item material-4/Action/VisibilityOff
+
+sprite $VisibilityOffXs [10x10/16z] ROp50O1G34E3M-ZRVrhS-RqqhjHLLk0Ducp7C2uG6i6gzY0JAoJJ0kcEYie-htsFQGO
+
+sprite $VisibilityOffSm [12x12/16z] TOk54S0m30E_3Cf5-szRb_dD8Fxe14LPi23Xe9rxMqjEa2CBbNOztvbtS-qZv5bJG9fp5ekuzemuaRWo0G
+
+sprite $VisibilityOffMd [16x16/16z] XOs50GGX30G7T-Y_soTvjxj1OxkSadXdDGYr5VUIQ4k8jrWwi5DU3UMJh7mgrFsOdQX4-McPlZfuRGYITJeY5NPjJR3guW4rYwxiX8RWvr8Q3wopYCixYoyk
+
+sprite $VisibilityOffLg [20x20/16z] {
+fSx5WGGW343HZplflzibP6taDk-2HFd86Bn8Cg5k4PcH7ra6GKp6-9E1SuIRYt9o370mx0PoBCtSTYzGzNItvsJU1qiFtEr9rqSYwk6nJfR0pTzwQEOjnJxx
+xvuPPPr7MvhvAvwd6VmJQo-UB9CNMHel4kzz0G
+}
+
+!procedure VisibilityOff($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/VisibilityOff', $name, $tech, $desc)
+!endprocedure

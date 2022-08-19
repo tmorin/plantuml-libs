@@ -1,0 +1,16 @@
+' definition of the Item material-4/Communication/WifiCalling
+
+sprite $WifiCallingXs [10x10/16z] Oy0A-FaP-8607Sm2CK5YN0mCB2060ni7GY6I7XwGEZ1W1B4G
+
+sprite $WifiCallingSm [12x12/16z] TOU50O0m0CE2E_d_MjpPwYKAxMdKOTlIg-xx2AYtD6KhRXJFKqkfxYVJRHzlK9wO0G
+
+sprite $WifiCallingMd [16x16/16z] XSY54KCX50NHnPtRVxUPxp2MW-xZBpz61LnfoHpT9O5E7IXdTnqyu2KvEB9maCRx7CRauCJ5oh6fOZTb83HlkGs5A4dl84jVVvEZF_RDpmy
+
+sprite $WifiCallingLg [20x20/16z] {
+fSg53GH10CD07o-x_sgVcM54aHN-eph2K5JBoB7DpBgt75k4ia-5Owj0Smksylv7hzhlswZfE1ROK_PYvcWsSASwSAjJxlGwmQojBfUnB6urphBUDRfwq_Pr
+YgK6FhO6
+}
+
+!procedure WifiCalling($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/WifiCalling', $name, $tech, $desc)
+!endprocedure

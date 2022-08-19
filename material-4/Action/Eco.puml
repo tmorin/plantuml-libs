@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/Eco
+
+sprite $EcoXs [10x10/16z] Oy05MFZv-K4qFmZm01cyO1OJM8WNBia3PJ4pG1WGKLIZ
+
+sprite $EcoSm [12x12/16z] VOo30S1034MZ6d__RPlw_69I6xPHhaHsE7ocAowkhiVzoHUWFyipdp6URQCJqBD-ChvVJbGevG
+
+sprite $EcoMd [16x16/16z] dShL0KD124JHUUjE_zL6Ri9tvAm2epzTUHoRNdL34xAzPSfWxgBUH9-NmEHv7S5BgyAsLAZr4hOeknpr4j3MYFhA7G
+
+sprite $EcoLg [20x20/16z] hSx50G0X40F0u0xzLtk2fW3ckHfS8wG6qx7zg53Qj5VQbZ6rmyzIePhapHBudEubqqkLQddU3BCc_vNCv_fRETCKB2h1jmwizf81Irybue8N
+
+!procedure Eco($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Eco', $name, $tech, $desc)
+!endprocedure

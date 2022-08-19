@@ -1,0 +1,16 @@
+' definition of the Item material-4/Maps/DirectionsSubway
+
+sprite $DirectionsSubwayXs [10x10/16z] Oq06lFpy_DmW1Zy4W5WGX62XoO9eC8iJoEBX0Mdc0x9OaOq5
+
+sprite $DirectionsSubwaySm [12x12/16z] PSP50a0X24NHPxVkVxLIanzNWODFUSoULF5Oubb2F36k88x0uVFpiTIhifAw5yV6zk3saIQaedPuHG
+
+sprite $DirectionsSubwayMd [16x16/16z] TSw54GKn20JG3RFvUeJ-gpsDonl5mPIxvC2Y_nDRzdxYD-cDf6vFJ40CmBQ8lGXDH5ASfJZSKKWneMT8Q8mtsaaPxxkGnjk75P54c3W
+
+sprite $DirectionsSubwayLg [20x20/16z] {
+bSu54aCX40FGKCBWvFwdhQ4ZbVz6rnTNiAhBPgQADlQKrQddd3mjanp9EdFlWI03e5pEfH12KGmXj9KxVCr5-17ld8CTkVcVaQBUIb51nwQfO9b9jrEnJJTS
+y
+}
+
+!procedure DirectionsSubway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/DirectionsSubway', $name, $tech, $desc)
+!endprocedure

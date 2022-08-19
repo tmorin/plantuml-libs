@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Tooth
+
+sprite $ToothXs [8x10/16z] Ou03VduG0c8mWDDyO8eDAW5Mnmwb6I0qCmCVYEPZO61aO
+
+sprite $ToothSm [10x12/16z] JOQ50S0W0CE2E_t_shbG3OkcB5K9cWuvoQ97uwEAUGYuOG9JEXA1eOfaWIX35G02SrE_kmC
+
+sprite $ToothMd [14x16/16z] NOw50KGX3CNo1PVkF-q93a7hZnEL7i2cOcJvWVvT6XufsE8ZoWJyPh5RC_LY3R9QkLlsV_bkWH8nnOgjzLKi8x5O52wvYrnElW
+
+sprite $ToothLg [17x20/16z] XSw50O0W54NHPoVy_QUbEwzzL02jrYrUTAHwxUNHpvnqV36o0mjb0ViKK05FdrVadp3eM8JTm1C1EZlFmoAiTiqH46VBu23w0d1xkHpyz5XO71psxYEqaW
+
+!procedure Tooth($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Tooth', $name, $tech, $desc)
+!endprocedure

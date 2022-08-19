@@ -1,0 +1,13 @@
+' definition of the Item material-4/File/TextSnippet
+
+sprite $TextSnippetXs [10x10/16z] Oy0A-4607Sm2OWYJ7mAWOWoS_AXYd430Yoo6
+
+sprite $TextSnippetSm [12x12/16z] Oy09-C607SA6SY1i8C4BuV3305GSJ14h3WKyABO2
+
+sprite $TextSnippetMd [16x16/16z] XOw54G0X0CFU5Tb_Mwx5FMYABdD-2SJfL6Z7RLtg63Z7i25mBW5shCw9qdfp-yaUt15y9sVXLtl_c_ZAdmIW1GO
+
+sprite $TextSnippetLg [20x20/16z] fSi53i1G20DGfjy_zp_j55OYynSZjAL_2Yj7Yi7X1mu_XEuusmslHlbPHNzEPEQgFnB1_AfW_E1c6qIvtbfv-xbIeRJqs0m
+
+!procedure TextSnippet($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/File/TextSnippet', $name, $tech, $desc)
+!endprocedure

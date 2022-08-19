@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/BatteryFull
+
+sprite $BatteryFullXs [11x10/16z] Oy0E-660WOUV4mA073we83CE9WS_GXyBL1ixih4
+
+sprite $BatteryFullSm [13x12/16z] Oy036640oEP702P-VhWIVZv-VXQeE3iGu-80rS5Du-T5DWsF_G
+
+sprite $BatteryFullMd [17x16/16z] dSwb0S100CNGVyoN_RUjAPl2ar7H3wRrGvN4bIRU73e6rCScHmQ8NOtmAjYTYVZAx0UuVmn9vamlB
+
+sprite $BatteryFullLg [22x20/16z] jSYr0O0m0031nvtVVrhSQPChZrWIlnh0lvPUs-P5HKUI9x9ZVSepDTAEAc-vKkiVZFuaGDwyLOGm0m
+
+!procedure BatteryFull($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BatteryFull', $name, $tech, $desc)
+!endprocedure

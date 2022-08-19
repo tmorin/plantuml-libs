@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/S/Sentry
+
+sprite $SentryXs [10x10/16z] LOg30S105CLIkzb_slBu-KHLdH690NHCpG_dynULhUK8AOF8Fe3pBsuSgE-EtW
+
+sprite $SentrySm [12x12/16z] NOc50SC020IlZGlS_jF67NdbExMtbil4doWFdS5Pz5HI3m2bCiHUo4_aDF7x3-GFAKRsmX-uwq2LxNC6
+
+sprite $SentryMd [16x16/16z] RShLOSKm0CLGcPCOjF-qxMC-VnVuBSiRnrknEjRtTv07lNuU3WF8ZP7YkOIpfPKkM02211CUL06IdNhkm1q2MB5XkdQ994L6Xxd60WGf2t3thA1ALrx5o3y
+
+sprite $SentryLg [20x20/16z] {
+VO-50GGX40FFSQR_Rd_pvnfiFQ7vGkTkeHwunYWjuHpoj4tYKfQNQmVqTZlQOp0JxQxiaLO3g-bX4-GqQ1JjNWZIbkWaQGv5cXRceh3Go6-DezKqwim0Afxz
+WS6ubahZ6LdqoEyjcMIFwWgUvMkTOidiGgKt8Ehf__GJ3OAS-PaGqnq_
+}
+
+!procedure Sentry($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/S/Sentry', $name, $tech, $desc)
+!endprocedure

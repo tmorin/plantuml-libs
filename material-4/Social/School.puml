@@ -1,0 +1,16 @@
+' definition of the Item material-4/Social/School
+
+sprite $SchoolXs [10x10/16z] TS550S100C2mViPG_sh7S9XGeGBWPON11x2gFS8miY12hxFI0kX4Q0S
+
+sprite $SchoolSm [12x12/16z] VS650O0m0C2muax_lnPtMK98Qy6gSfO1kRi8tBG2aJCGwCWa4W6jwHM1MBLdanhnC08
+
+sprite $SchoolMd [16x16/16z] ZSp50G0X44FHlsv0-gyMj-E-sqZ2FylDx9DqzkbHSP1SwjmAhsO65jkdsrgYHTa7UTvsTid2MsTfOqczVPOx5F6-HAjJyjAb_C9idcO1
+
+sprite $SchoolLg [20x20/16z] {
+hSy53iGm44DHXpc-_srNBhUYfIV-mS4VsCxyI9qISIhSpB2Ln8jf0GG-DAE33mc0QPUZqQgfpYrbO6l1mAjMWx2tmWg4eJqycoxMA6VBb4u1ejk6FTyuEPM6
+Xz0iFlG2
+}
+
+!procedure School($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/School', $name, $tech, $desc)
+!endprocedure

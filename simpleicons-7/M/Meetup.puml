@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/M/Meetup
+
+sprite $MeetupXs [10x10/16z] Oy0A-C40XSK8vJAmCl0pS89OOCp73oIXwhWHMZWXvh0mCF0oC
+
+sprite $MeetupSm [12x12/16z] POo50OD04C02l5lsdxRkpRdopu0h6rD7VlIyCW4q5NBp01I8wDLb5a658iJ1_S2ZAxW0lFF-kHsyYN06
+
+sprite $MeetupMd [16x16/16z] TSV50GCn0C0m7qF0-qzR29Ihd_X7tirqOX5febMYK8EhMOS4PANO3J3DvP69fB0isGqI6HL0OMTcLvdhHO8A4Cr9JSDUpsWtKbWDTDaOdJQXMsYk
+
+sprite $MeetupLg [20x20/16z] {
+TSu5Zk1030J02iUQJFh_lpsHRxd4nlQNvO3Xf_YgtbdBkcXhfD6Uj0dOyuc090yh90jOag3RfxMcP69OIfA7OqWkQZFTIIv8Wb2IHAqaONrbaPwR2JCpkot9
+0TB6cGxZo8SRkAKLhGVt6cZdpiPyVLQqVm
+}
+
+!procedure Meetup($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/M/Meetup', $name, $tech, $desc)
+!endprocedure

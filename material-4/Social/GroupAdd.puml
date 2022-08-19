@@ -1,0 +1,13 @@
+' definition of the Item material-4/Social/GroupAdd
+
+sprite $GroupAddXs [10x10/16z] TSQd0S0m44Mnv-lixpzjEeo5n4vY2oXCGhYFyyoiZK-PBWZGjnyd
+
+sprite $GroupAddSm [12x12/16z] ZSU53O1004MnbtF_-q-BGmnhjFnb99G1GPTC4xsh6oHaCKQ6YmXQ6DksRH0BwnOMnuCP
+
+sprite $GroupAddMd [16x16/16z] dSf70W9034BHBzDRkFzfxRhNjqe0_YI1-9hsn05mDk0xjlNvmmx2u8SDQy4HI6VhmjThNtrNqGGama_1CGz--_pv9P4oFxe1
+
+sprite $GroupAddLg [20x20/16z] jSl50G9034JHdybAqEc_Mjpb1cyrnj_q2Ph1Wutjm6uSUG3oGR7s-dCkCrsPzza4dm5zG8m097bAlF00ncgpNS-0gKjElfXCB-78DyZ-dcjvM4Tv_FDZUm
+
+!procedure GroupAdd($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/GroupAdd', $name, $tech, $desc)
+!endprocedure

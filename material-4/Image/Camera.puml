@@ -1,0 +1,19 @@
+' definition of the Item material-4/Image/Camera
+
+sprite $CameraXs [10x10/16z] LKo50O003B9R-VzRrzq3XcP031ymyR215l1bMOTvdaTTgTu6lGZ8nv6SzfcQwqpFJFK7
+
+sprite $CameraSm [12x12/16z] NOdL0KGn40BXUMGp_NTxiQzR1KR_zLLlLG7p3XaU4fwkIRKz058QHqT4M05jK3ZaupYapx0In1T3V_0sqA5U3mQ67EKbVW
+
+sprite $CameraMd [16x16/16z] {
+ROq50WGn4C9WtMRp_zyUFRTKCrJq7_lT3c1SvdT5SDwq77KhrYqTLmxJwEE0K7T3SdpnhGvITrkU6rVOuZvkmL4DRwTWZo-44kqRAvnnjqcBhXHRJnXrfrTi
+j_vm0G
+}
+
+sprite $CameraLg [20x20/16z] {
+bOy53aCX40KNT-R-jssm4gdEL_P9GFuZ0bsqN083Q-XtcfasW3qCMG6evLPp1jf35YPbZ19KwKZgapPcizuw4J4JjMV8G3F8PnRdi9v2daQhjtnHgBntQ5b8
+eSYfxWoy0fGdp9bP9-lpNMLXbcFWRdijqpQ35rrgClAU1m
+}
+
+!procedure Camera($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/Camera', $name, $tech, $desc)
+!endprocedure

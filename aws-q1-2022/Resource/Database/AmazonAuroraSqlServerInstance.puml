@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2022/Resource/Database/AmazonAuroraSqlServerInstance
+
+sprite $AmazonAuroraSqlServerInstanceXs [10x10/16z] HOQ50G0X30C3r9lzrtsNwE7NUfum7kSZ1AzUMl8GWVneFhJa9T91EQILt04
+
+sprite $AmazonAuroraSqlServerInstanceSm [12x12/16z] JKo50G11248kpFtN_Owp0y1g9O_HGEguhmcnhkYDQiVyeR_PClepnwcopF7EwRdU4tncETBoDEG1sG4
+
+sprite $AmazonAuroraSqlServerInstanceMd [16x16/16z] VStL0GKn24JH6p8nPljlzxdBdYySFeLVR61U3Jn3mjG0Ok4YYQAcDOBrCR-JspDTdla4YfzvxJbVymRmackkLNVwRNh9RC_Ne05ZNUZqG704
+
+sprite $AmazonAuroraSqlServerInstanceLg [20x20/16z] {
+RT35eG0n203HmQBqt-wNTPlZWvM4pzhCQqEW6VSI9e80ifihiv02D6Pj4cty6tquYdgfZ1frCGWkBVReQHR-iDvLjIPNotMYDwipinTzx-dTrlVTRVckFko_
+UhVbrgeoddkcIFgMHOxQSvderdAB0lm2
+}
+
+!procedure AmazonAuroraSqlServerInstance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Database/AmazonAuroraSqlServerInstance', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonAuroraSqlServerInstanceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonAuroraSqlServerInstanceLg>', 'Database', $funcName, $content)
+!endprocedure
+
+!procedure AmazonAuroraSqlServerInstanceGroup($id, $name='Amazon Aurora Sql Server Instance', $tech='')
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonAuroraSqlServerInstanceLg>', $name, $tech)
+!endprocedure

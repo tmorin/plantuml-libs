@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Jar
+
+sprite $JarXs [6x10/16z] O-3Zv-TdP-070cuWYGvu6HWOK4W8u0QJ
+
+sprite $JarSm [7x12/16z] O-3a1m961duGu69WO0G21ZP-LC07142A0GWmA6uWWAc3wWC
+
+sprite $JarMd [9x16/16z] VSQr0S0W0031ZmVVVrgS1hlgk5m6jkI4CuDF9-fytGR9qtBlenBjHhG4
+
+sprite $JarLg [12x20/16z] fSR50O1000InmPtjlrhSzIIlGAjP1h5MmDgAaqgh89MjXfdlLStqgjAElMKF
+
+!procedure Jar($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Jar', $name, $tech, $desc)
+!endprocedure

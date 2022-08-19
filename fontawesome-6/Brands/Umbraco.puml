@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Umbraco
+
+sprite $UmbracoXs [10x10/16z] FOU55K0X3CJk2owt_xRK7e4sAPGFHg8YKKIUv13BxQNwERUN_ESMXAoY0o7Y
+
+sprite $UmbracoSm [12x12/16z] BSY74S0W40D1aJFqtoqVT3Qm8rW9x3wjGthisigAp53iAA2lt9csaTwE10HWYuUCPvqd1Cxp6gHe57m
+
+sprite $UmbracoMd [16x16/16z] JOw50S0m2C3gBlz_ksA3J5FK4Juw9Ls2TL-XY0fPawK4Nki2yOK6-YQ7_m3EnV1zESUwoK-_Uz3Zf7OwWXR0s9fRLYvs7I2eCftxFpu
+
+sprite $UmbracoLg [20x20/16z] {
+POy50e0m30Cpz-t_lwKqE0UpUd1Y7DxKfSo8ax1kNa4d5a9QRo2i3vEPlYsIicm66XuNWP6jqdR6iPAJDJ1VDY-hVsn6uzwvtCnbkqe19fTQ753a5IW3X3DT
+EaPldPtINzp0ZlsOoBXC2HUcxBLwWB81
+}
+
+!procedure Umbraco($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Umbraco', $name, $tech, $desc)
+!endprocedure

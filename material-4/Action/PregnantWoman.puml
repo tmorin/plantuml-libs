@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/PregnantWoman
+
+sprite $PregnantWomanXs [10x10/16z] Oq01lDmm5Zy_ZCM398PWyMEmEFZPe2nck3ec7X09
+
+sprite $PregnantWomanSm [12x12/16z] Oq077Cm8DZy_Wis4n4GIv-7dvq9YypCYiPcni1bumNensKmG2m
+
+sprite $PregnantWomanMd [16x16/16z] Oy0E656vNFpyUFaCpEZg-L1Cu-VdvqPMpGy4h6XyVkBvJ3py_3myo3Q0PGdpCG4
+
+sprite $PregnantWomanLg [20x20/16z] dO-r0G0X34LFSNZxRqkBMyfylpRFOylN3Tpb4wZ5R_rosFe5fhQ3re-xyLEDdpdw2GLIVCMCB7NlzpYN_SgB
+
+!procedure PregnantWoman($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/PregnantWoman', $name, $tech, $desc)
+!endprocedure

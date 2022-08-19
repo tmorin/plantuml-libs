@@ -1,0 +1,13 @@
+' definition of the Item material-4/Device/Nfc
+
+sprite $NfcXs [10x10/16z] HSQ52S1050N13K4Y3xR_QYDdVx2Xd7OWNH2ZzY7sxMimf_PrOKl72m
+
+sprite $NfcSm [12x12/16z] LSQ54S1030Cm1yhsPVzfo_Gw4XhKPG7KnqKEnKGRoU1nzgXGNWyK-5pbx-5uBf9rFI9tjf_YfHpm1pO
+
+sprite $NfcMd [16x16/16z] PSU55S0m30DHbKbzsd_QCES2ziVKijOyrGQiGccBVaZS9BTaYgj8xTdqFrfJMsU9dOyVdNtLYcLlUso9tag7CzH4Z5a
+
+sprite $NfcLg [20x20/16z] ZSY53SDG00DHXycgzz-s2dp6E-53TuV2RjFlzDDrsma_yRM3FB1V92ThbBZfRlOCs3LWwJ3fYcsI51keDRQxo9Qd8x0lpwRv_cwmvlLPr0vWOD1DcVu
+
+!procedure Nfc($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Device/Nfc', $name, $tech, $desc)
+!endprocedure

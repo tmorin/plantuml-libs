@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/SchoolLock
+
+sprite $SchoolLockXs [12x10/16z] DSQ50SGm34MnVr06xJzj8V0IsqhfJE-3ge5FDhxP8S9Q8Cb-5E0lGgswJfH6qatt3G
+
+sprite $SchoolLockSm [15x12/16z] LOl50SD00CCKXWFjFst9fUXb9Eo4eFercow73fz2neXcx2hEe49-IrLYNK-Hi_e5MRffMyK0Ua1i63-sNUqT
+
+sprite $SchoolLockMd [20x16/16z] {
+NSm54WGn20NHFnuXzFrFkq8DMNdbZMXo_Ul0eHyGD2q6Bgr0MVGoSgFcThlJa6Y2jYmUArj-GejLLK2wMp75JZRQxYm3APgJvDdM0q8Hc67pjgohcA9LlJ3P
+0DPiwQzTtsqGdW
+}
+
+sprite $SchoolLockLg [25x20/16z] {
+bSu55eGm4C3Gu3hD_M-xyzOT-3Y1jZo9dcyQjV2fU3RogZD5UVkfNKqhITC4QT6p0bDrBcVTUhy3ivZcMS_2rC0I0zhSvwn1dJcpvZnkVmysf3KeHkuyWj4E
+kg2Wg6ipU3TWG17Vy1HQ7hcklBlFqP6wpp3n7gAVplqjd1q9pLkuh-e4
+}
+
+!procedure SchoolLock($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/SchoolLock', $name, $tech, $desc)
+!endprocedure

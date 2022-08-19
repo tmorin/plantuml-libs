@@ -1,0 +1,16 @@
+' definition of the Item material-4/Image/MotionPhotosOn
+
+sprite $MotionPhotosOnXs [10x10/16z] LKk34G0m3FpeKEu_RSqu3toHSvnx3BxuA6dDEgysF5Ax0c0y7NDAyzbyOO7Rh
+
+sprite $MotionPhotosOnSm [12x12/16z] NOpL0SCm50FFpDR-qxQ9FdEFaIzzLKnij3pLtBoyg62s2nWDZWBSm4vlBjYHEjySi443Wl0Vfm6WwcuvTJCw_04
+
+sprite $MotionPhotosOnMd [16x16/16z] RKw55GCX5CCTil-svLizPz5tkF_m_aCUN5GJsr7Qi5KVtP2X26B4-zvKHYTZRJA90JGgbmVLD4wmNFvMYJC3d-SCCnbPtUDLDl4tLexra1H4El-arWyU
+
+sprite $MotionPhotosOnLg [20x20/16z] {
+bL030WKX5CokkVzf5m_Vd6MZOFv3n87fhuHtngxU9x2SKe3y5K18XwK91zYdNezEzQJumUIW7YmfzPmE9zU5Go5BFLzDEKIrO12dYqC-NWlC3TdGgGHIV384
+MVyYYL6HPPtBAuLvtV1mr4KKmtOmylq1jb6SUOyT
+}
+
+!procedure MotionPhotosOn($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/MotionPhotosOn', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item material-4/Image/MicExternalOn
+
+sprite $MicExternalOnXs [10x10/16z] Oq02hFmC3Fn032AvkO0aH9WFo0ABiS5PZ70MJ9ORnW8H_32zF60C
+
+sprite $MicExternalOnSm [12x12/16z] LSP50G0n00InANFNlzfZp2lybG2kcRrLCavU-vF4i7G7bDxDl9ubxllFxUTytzDxgowkWmKCh
+
+sprite $MicExternalOnMd [16x16/16z] VSU50GGn3CJ03NFKVxNFSAo0FJh8cF__g4AHWFasW38IwUK9KsD8lR_i7cd-3N3b0MFf1ctf36df07vfquUMLY16_D_AaBNmeZi
+
+sprite $MicExternalOnLg [20x20/16z] {
+bSe52aGn0CJGVAktkVzjbtMtOCDZ-ADD2p2hsudssvL9wpZZjhTA4HWURJh-ka2JsyQjhQhbtkQzXNkRzhRS6tkRNXW_s7XXLSUZpStbqOX65jkTCLJdUsDh
+aNsvyReT
+}
+
+!procedure MicExternalOn($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/MicExternalOn', $name, $tech, $desc)
+!endprocedure

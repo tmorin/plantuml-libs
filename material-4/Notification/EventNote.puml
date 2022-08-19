@@ -1,0 +1,13 @@
+' definition of the Item material-4/Notification/EventNote
+
+sprite $EventNoteXs [10x10/16z] Oq06_60C8Y00XSN630ICO1OJ4320MI0f20jg04870W
+
+sprite $EventNoteSm [12x12/16z] NSY53G0n3C101uGFtN_QCbyXLZYzLZul6OQxhQdDLz1Q2-PUwMrcZ2vwTo-x1
+
+sprite $EventNoteMd [16x16/16z] TSg34G0m00F0sjX_sjhuOm0UZ06P9pLgxstchMXnG2dRAvkkPWEwddrXHaO5t38y_dR9nIzBFy7SeY77GmG
+
+sprite $EventNoteLg [20x20/16z] ZSq30e0m583XsRZ_QNCzfFtvQn1lvRO_JTENbRu_RJU7r8vpctLIVR3sRav0OFf88eDDmTGHdWlnkTJI5ZNeoqXbCryRL9KORWO
+
+!procedure EventNote($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Notification/EventNote', $name, $tech, $desc)
+!endprocedure

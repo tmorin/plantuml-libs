@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2022/Resource/LoT/AwsIoTThingIndustrialPc
+
+sprite $AwsIoTThingIndustrialPcXs [10x10/16z] JOo50G11282uLFOV-3iEErcPgVBHOD0k1a7NLbeWhPnEX7B8bLqqeLy7kVpR0G
+
+sprite $AwsIoTThingIndustrialPcSm [12x12/16z] LSt50SH05CDG9GEo-ozu6T_7c_btGCD3V9fmo5CEi0zBFhz2jNdi4ZqasmRStfq1v4bWnhJnF_SA
+
+sprite $AwsIoTThingIndustrialPcMd [16x16/16z] RSz50WGX30NH-enKSly3ZpHars-5HBaHf8aSAqMpP7jc590LXWaaRxSbO4L35r45qeS2tL6QwcWN4AcJj-lBfWaQig5l80m1A4VTxZFtDy0N
+
+sprite $AwsIoTThingIndustrialPcLg [20x20/16z] {
+TP054WGX4CIw6V__X--6TGkUIXduWeP0zJWvHruTCsiVWKdYXB0hNbrBim9b0nBMPI9DQvHgCluQY2Y4jZDfbx5sOoDa0AWgX2GBOzwgsYO28W1L4SAj0_jA
+dhhA3Tkx4rjtSKGJAWT9J2WXEOez-Fr_BK6CEPeV
+}
+
+!procedure AwsIoTThingIndustrialPc($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTThingIndustrialPc', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTThingIndustrialPcCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTThingIndustrialPcLg>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTThingIndustrialPcGroup($id, $name='Aws Io T Thing Industrial Pc', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTThingIndustrialPcLg>', $name, $tech)
+!endprocedure

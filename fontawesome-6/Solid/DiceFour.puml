@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/DiceFour
+
+sprite $DiceFourXs [8x10/16z] Ou01VdG05E524SMKvq78mrW
+
+sprite $DiceFourSm [10x12/16z] Oq00Vgo06OYPG0m-a08W9WIu4EhuW9W7X620WPiF0jW1
+
+sprite $DiceFourMd [14x16/16z] Oq05h7nmmCl0neyNy3A1I3uc28-9WHT8CZFmG2MX98c0Znb18ipanMyc0oeF1G
+
+sprite $DiceFourLg [17x20/16z] jO-35G0n44GdThR_Qiys_yCQWpLY2WTeJefq1SCR4tdk4a2e3OFe4eer9h14Fm8qwoNCa6W4SCX1KMksTPdLmiMx2ajA
+
+!procedure DiceFour($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/DiceFour', $name, $tech, $desc)
+!endprocedure

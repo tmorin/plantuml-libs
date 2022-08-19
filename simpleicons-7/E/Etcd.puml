@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-7/E/Etcd
+
+sprite $EtcdXs [10x10/16z] JOm30W11549RO_3kVzgnlb5fCP9PQ1DjQiMZwZlerYjCchOApcakZnlahdYa6W4
+
+sprite $EtcdSm [12x12/16z] LOo30G0n5CLUxMR_QS_CD_N3aniUzfoBiUKPd2gOBJ-d1lRSTZOta6qq6IL1Z81s005sImTmFJspyojH5p3ti08
+
+sprite $EtcdMd [16x16/16z] {
+PKy50WGX4C9k-VzlRmUl5vCm1dSuJlW5aAA97y3meLDyani85wz65zbUkQ2bern-Ca4y12wGsFPG9eVvBfeVstdc_P0cBpeFjoKuk48ElUJv0WxAOSjzIfBv
+GNxp1m
+}
+
+sprite $EtcdLg [20x20/16z] {
+TSw50SGW40NHMUB6z5_j2NikBy7jyqTK8Je8LzAWBgfxLMbyi-THNz4KrQLTgyVpR72rg1j0NfmcDUSiQB0wS-JSgWDQg6weK7freup03EhMRVS0pmXc7IGR
+R7YcTsKrLBTfc5lcqSXKJwICdKQUGdKAtgXsl3kqhgGp
+}
+
+!procedure Etcd($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/E/Etcd', $name, $tech, $desc)
+!endprocedure

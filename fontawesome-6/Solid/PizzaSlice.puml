@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/PizzaSlice
+
+sprite $PizzaSliceXs [10x10/16z] BSM50SC008H0wXAv_QUDlq3btXNe2YxDKHcHiTpm9OYxF7YJW7yzqP4L
+
+sprite $PizzaSliceSm [12x12/16z] FOU55G0W50AnM_RVLfvrF-00k8uFHNlYfsmtGoRCBGg1jaMF--Bj-y5JTD9i7VgLRQXtS1FjBHaYanEN1G
+
+sprite $PizzaSliceMd [16x16/16z] JOq50i0W24MPtTp_jlDZyHRwI9hO4KZ3m6aNT4b6m9BGcRkHY57bPF1xpjyE1FobeedZ5k4TL_Y1ndESBiupyR3mmDo-UM9hFmtvG_dIRjNsI9k6Ddhy
+
+sprite $PizzaSliceLg [20x20/16z] {
+PP050WGX24MnM-z_soLsp3_fem6I6Ld3fK6g-c6a3IcVkq0FXnp3j8ScHNH2DLXTZ58fhXApKCC-ueAL61-wX6Ty_vc2mOh0BpPDGP_5I62egfwr93MtHmmD
+XhbF-6hCClccbR0O2PrTvpcigCpzsQ-nJNsyU_y1
+}
+
+!procedure PizzaSlice($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PizzaSlice', $name, $tech, $desc)
+!endprocedure

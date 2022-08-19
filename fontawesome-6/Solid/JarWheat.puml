@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/JarWheat
+
+sprite $JarWheatXs [6x10/16z] 9SQr0S000C2WB7NX_skhJ7HY2hRyLWigplHzVB-7jTF6mGq
+
+sprite $JarWheatSm [7x12/16z] BOk30G1H3CLonjV-qzQfyVYMiR6S7pQ3UnLiOALjMqpjmWlnqDViEONuiIYT0W
+
+sprite $JarWheatMd [9x16/16z] LSo50S0W40J1mvtjlzgu3iwB70TfSh2IFKYfxvgDF8pfqMGWQSDkpdbto0g_4BqVXxKzst_LKEFaZs8kAm
+
+sprite $JarWheatLg [12x20/16z] RSo53S0m34JHN-RS_jjMONm2iy78Es1L1CJqeV8ecdPLhblwhYlUJp39kh4KHGOkBI0BPr4is4VxlF7HX7N9kNTsemXPZwmlTgBx1m
+
+!procedure JarWheat($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/JarWheat', $name, $tech, $desc)
+!endprocedure

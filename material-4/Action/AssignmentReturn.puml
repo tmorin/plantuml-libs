@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/AssignmentReturn
+
+sprite $AssignmentReturnXs [10x10/16z] Oq01_FpiK9gV2uWXB7uOYvSFok85Sz48VZvK7GW
+
+sprite $AssignmentReturnSm [12x12/16z] Oq07_FnSK0OGW0aecn-9pOTWCoBOZ42I1yfcHx2173viva013uhr
+
+sprite $AssignmentReturnMd [16x16/16z] TSt50S1G20FGkeVilstvxk-4C_K9dnY_W70dWCka7usDng8vc0ppIuhyCaTZhgcHyhFAUHRpfY33VpUJUL9BPDBA3m
+
+sprite $AssignmentReturnLg [20x20/16z] ZSr50aKX241HVfhW_dVxxAuxywW0crwAU6_6nieHZOjRTltJ4vSqFinMeeDf6WnXC0tmPqpMXk3xrSO6SpYOms67my5SQzFU6589tt3T0m
+
+!procedure AssignmentReturn($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/AssignmentReturn', $name, $tech, $desc)
+!endprocedure

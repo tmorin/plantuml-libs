@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/RulerVertical
+
+sprite $RulerVerticalXs [5x10/16z] O-170jnm7XUSnOjGmGOc0G
+
+sprite $RulerVerticalSm [6x12/16z] O-070bv-EE3b0P4yt0WH9aO4cu41mMPc0X9mpG
+
+sprite $RulerVerticalMd [8x16/16z] O-3b1m5s88K9s9cOm3GVDpUAE0S30uJ1nuUgdf4Hmk3XGLKFCmSXpWwb0G
+
+sprite $RulerVerticalLg [10x20/16z] O-3YXm1c88CWu6PWO80nkRanf7bvUI4CBf0wt82JanEg0QywFYOc9YYJZOqDcmfck58
+
+!procedure RulerVertical($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/RulerVertical', $name, $tech, $desc)
+!endprocedure

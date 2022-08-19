@@ -1,0 +1,16 @@
+' definition of the Item material-4/Social/PeopleOutline
+
+sprite $PeopleOutlineXs [10x10/16z] Oy0EE82O7SJW1q8U80Qom90F9CW8nVnyBBpyNApyN0pCC15iXW4
+
+sprite $PeopleOutlineSm [12x12/16z] ZOh50GH108COzqd_rPwkVDOI-C6Z6St060Be80RU0Rx5ZfoMQX6dEJKr99W0tW92-pZP6m
+
+sprite $PeopleOutlineMd [16x16/16z] dOor0S1054A9As7_QS-rpBtYAu01fhbMnouAs5oTmkwMuqwrs_UxwaETSc1JiNoIdZLKToANu3b2NQ5aeQypeGxY9nO
+
+sprite $PeopleOutlineLg [20x20/16z] {
+jOgrOSHG50JtCx_flrgJMB5laaLz0b_3d-PoLeF9b3osyFiBBqVGd59ZwzAlacLHYdldY0fuTQHfsYX0bPo1EHsuNSucjcchHrV6MgFyrWwinhA0dbA7BgsX
+ZMP_4aYoe0t7fXGPRuh-cMy
+}
+
+!procedure PeopleOutline($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/PeopleOutline', $name, $tech, $desc)
+!endprocedure

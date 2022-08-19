@@ -1,0 +1,19 @@
+' definition of the Item material-4/Action/ViewInAr
+
+sprite $ViewInArXs [10x10/16z] HSc53SG05CFGTr3-QlQVjWmM1Enb3Wpv2R-Wa54kCTtDBuQpETiW6wKJ1AKfwCeA
+
+sprite $ViewInArSm [12x12/16z] JSP10a5130Mm_Cu0Mk_-jxK1MSM_OmPCC-V5cJLbbbiUsRgGHfuW6Kb0N5C-5vz7AerPTf93bvccw1HLeCeB
+
+sprite $ViewInArMd [16x16/16z] {
+POw30K0n30M_KTt-qzPsSo_SbhKVHxQYiGC9psWTaJxEg2I-GABtm65fXDSDVyrx_2UXy0Ul5ok7bAzarwgDhyY2XDkFkRZnyfaYTmry9VCylIL2v1qoflcd
+vG
+}
+
+sprite $ViewInArLg [20x20/16z] {
+ZOy50WCX40FXS4Xl_l_RijIzGJC4Stzh1oxp1eGvilTkti-MUqV65WcOCNjXcs10FJDJPoq0qPrL8As97cyRAtVFl41GsXspUotwo5p5_s89iZ4_u9pABWA3
+1fgsNFvM0GxXxcycaM__VNmfAv8aNLYHXdkh8m
+}
+
+!procedure ViewInAr($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/ViewInAr', $name, $tech, $desc)
+!endprocedure

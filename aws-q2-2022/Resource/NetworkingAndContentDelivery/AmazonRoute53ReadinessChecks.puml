@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonRoute53ReadinessChecks
+
+sprite $AmazonRoute53ReadinessChecksXs [10x10/16z] Oq02BCoip8pit0mCt60kYEPWG0MS854eWmj4Su54ME3oKCqmaWMi7m
+
+sprite $AmazonRoute53ReadinessChecksSm [12x12/16z] DSJ90S0W4CF0uOPr__tc5LiI0517BpAP08C0s01SD12NWA2RB84O6A1SWDvGzm-qW0y
+
+sprite $AmazonRoute53ReadinessChecksMd [16x16/16z] PSkt0ODG50F00tvysdzVboPSgU0hE8BUOHh9LCavSJL_nJZzRSJVmFwN1_--q3bF8504lGlG5VJ_AVWRZkKlKEi4hHP0BJNmjm0_
+
+sprite $AmazonRoute53ReadinessChecksLg [20x20/16z] {
+TSg5ZKGn44J1Cljxye_tQ8wMIjHwQYziA0VA1AuUpOWMnOeeC2TprQzLE2ZXLb3FOxFBJRh0yciMnssRbsoh_gP5jlZ_eXncHT_voaz-ZPClzEh8k4YjMjmA
+HBr9Qy69XZHZI6r_pHshu5UF7HvKf7S
+}
+
+!procedure AmazonRoute53ReadinessChecks($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonRoute53ReadinessChecks', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonRoute53ReadinessChecksCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonRoute53ReadinessChecksLg>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AmazonRoute53ReadinessChecksGroup($id, $name='Amazon Route53 Readiness Checks', $tech='')
+  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AmazonRoute53ReadinessChecksLg>', $name, $tech)
+!endprocedure

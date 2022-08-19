@@ -1,0 +1,16 @@
+' definition of the Item material-4/Maps/CleaningServices
+
+sprite $CleaningServicesXs [10x10/16z] Oq01_FnyS1O_JXOFFmYm05aGrI1HDXO6DYYB7qW12I0F0XW
+
+sprite $CleaningServicesSm [12x12/16z] Oq07_FpyvB4P-O40oeCAiV71s52Q7m8nsJ3
+
+sprite $CleaningServicesMd [16x16/16z] dSY54O1044FHd6ic_LUBEupnJz_YCo_fQago3xl_DhEzsPIqjqoi8jQwvhiHUx80s641UxMi5Ng_cxj5SRx4nOrd5YC
+
+sprite $CleaningServicesLg [20x20/16z] {
+lSvL0e0W44NHcQ7pxN-rTYjyUksZ0jJ9rrhuJeofUZV1tD-cN5ZCMzufuqol5125rtI5B7PTlo2kvkWCPRrOqehO4jdrfzMcjnwyt9rMd-O4LGAKB7UhtLhD
+tR948m
+}
+
+!procedure CleaningServices($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/CleaningServices', $name, $tech, $desc)
+!endprocedure

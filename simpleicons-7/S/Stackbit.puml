@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/S/Stackbit
+
+sprite $StackbitXs [10x10/16z] LS750OK0040XVeVnzf_MF0ckSkhc7HfL-gUJkZqxJEPKRpwfT4Ep1gSHLW
+
+sprite $StackbitSm [12x12/16z] PSp50SD04CLGsLuczLzjcFDEWvy_awSrMOsh8ibjym2FpIkAr-7TY3hnYMwyTJ5WOxdPhsbi1gJAJJ2uy-qC
+
+sprite $StackbitMd [16x16/16z] ZSx5OKLH30FHUNpHqt-roMUcixObyPFPSEHijCDWSDGTgIOMCr3SsDmRQKwbC-fHW7OcBuhgIlPgophGFPXSXNxyF5GSoyEmCHh7SPNHuuwZOgAwS1LMNle7
+
+sprite $StackbitLg [20x20/16z] {
+bS-5TG0X403HEKMNwR_RF8Xxyd5d-IyDtclsVNZnAki6tAjP3ariOODgPtAsuPH1AvknaNrsS3hMz5lWqrrlXDF6wJkZQ8VYav6DWA4LN6uGlTQ59sg1PeEa
+1uVJKqHJDJQkzJTldkbOTUEDRTZjV71sVl8
+}
+
+!procedure Stackbit($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/S/Stackbit', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item material-4/Social/Sick
+
+sprite $SickXs [10x10/16z] LSl50S0m30J12tEs_sg5BuzHf07yIYzf8ZCjFtFSanHtUVHprT0SrmLyHBYGLBPtZji1
+
+sprite $SickSm [12x12/16z] NSQt0S0W0C0mfpV0_rzBdw99_DtXP8WsvxsCLYZeekbO3Dp99NcVxX0u7TQw26mge6XQ-c-7XUgS7PQLfW
+
+sprite $SickMd [16x16/16z] {
+RSU5WGCm4CH0cTdglzjdJEPmUIu4Vjdwga7cLVHJA_BABrmxR5rN7VAwGDtltsj723TRcXgE7eY9wZS8diogQNvcr4NR6NK2JTDLUzF0g-kNphlpDqA-wWey
+yG8
+}
+
+sprite $SickLg [20x20/16z] {
+bSu5Sa0X303H_Oxl_KzRWsb6gW_NXFz9gkCWF2vZfsoyQtwwDfst0bqFGBKxUzHxVb-fwhbvxBsiQx9hvzOPmMEtd-hg2o3S6YfWJXlPabTA3p3K3AofEt2g
+USP5TPswtkK-dyAXeKDinjQqLoDck4fBEzzx1G
+}
+
+!procedure Sick($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/Sick', $name, $tech, $desc)
+!endprocedure

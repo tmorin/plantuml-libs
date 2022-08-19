@@ -1,0 +1,13 @@
+' definition of the Item material-4/Av/Shuffle
+
+sprite $ShuffleXs [10x10/16z] Oy0A-C44X8Ip63Y172X0CA1CX3eUg5u4
+
+sprite $ShuffleSm [12x12/16z] TOm30e1044K7MV_-fwtMVcFI63RkkiIaCCK6jNqGBH3rIml8KwLdrcLiPdy6fJyMjMdY0m
+
+sprite $ShuffleMd [16x16/16z] bSs35G0n40JGsJCM_LSRw-aG_udmlnnRdimuBNRBWHQNGEoCpW454jPY43Imby1HaC1j964BZrwPdEvkfjmu_ZzdNimNNei7
+
+sprite $ShuffleLg [20x20/16z] fStL0SKW04FHFAdBtN_QQj1VWXzCZVbu_7PNJCp65V1qmVYrvGWx9kCN_bgLS9BWfpm-LSLKdwhm8URorE_z_KVzrWAs3oRzecar2Lj3JW
+
+!procedure Shuffle($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/Shuffle', $name, $tech, $desc)
+!endprocedure

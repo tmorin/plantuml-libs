@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/AspectRatio
+
+sprite $AspectRatioXs [10x10/16z] Oy06-DaWW9-1dvEV1oG2OW4f28iHH7E0M60HJXYBZGt4WW64SG
+
+sprite $AspectRatioSm [12x12/16z] Oy05-160WHyX2eByJ0WsaZX4b0zP5Cxc1Pg2PWuSy21R2m
+
+sprite $AspectRatioMd [16x16/16z] XSt50S003090cdmgKFQVjkvwloZuazIk0IpkJ3YnauOwRP_hY7DztiSopNQf5-bZNKZdckHId_DFAY2ESDK3
+
+sprite $AspectRatioLg [20x20/16z] fS_50O1050FHxCSjwRzQt1rsZkysy2dLFWSgtfGeQGsRRB1CKdamiZZO1FVcR8AKaorbUcDgsrlSDjdXezA-6475RJdUrW
+
+!procedure AspectRatio($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/AspectRatio', $name, $tech, $desc)
+!endprocedure

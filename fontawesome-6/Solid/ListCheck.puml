@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/ListCheck
+
+sprite $ListCheckXs [10x10/16z] Oq02l9mGcfEVdu617mGOs12oh1mGcWyX2sIW0w0eApz4bXac1W
+
+sprite $ListCheckSm [12x12/16z] RSh50O0m0C30u4xsdnRNjlS-_kGo3GxW0ISWFyG_EyoQFNzkI2aigOUBFRCdFbO
+
+sprite $ListCheckMd [16x16/16z] ZSm50GC13C30ZB6DVxNRCzC9E9ZxCf82tzed_7g1hmt26y2vTeBJeIzhaOOd21kaTu1JZJqN1JwTr1CVEnXi-GC
+
+sprite $ListCheckLg [20x20/16z] dS650SCm0C0mbyF-_zenyohnpi2JQkJMqeWse7eHtG5eNX2LW_uCcFdLPE1M5naKY9wrvau7U4NL2Q2BPoEuiDAW6KZvAhe3axSchK2fLna6Vh45
+
+!procedure ListCheck($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ListCheck', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/ViewModule
+
+sprite $ViewModuleXs [10x10/16z] Oy0AE3cPE840oEBdP-O70XGM7nyJ7n3WaCK4
+
+sprite $ViewModuleSm [12x12/16z] Oo0AyF3py_Bp0qayR2u-Fcu-FY29Hmqp4B2m00cSDW4
+
+sprite $ViewModuleMd [16x16/16z] Oo0TC3Cpmp48yFFpCm4nCuWcXi_Boyi4nM0-7nyV4oyGWsXop6DXPc5WPc41qoG3
+
+sprite $ViewModuleLg [20x20/16z] jSt70O0W30NG53easNzQotS3bNU1TFgVzjwRz0j-oEM8S8qBVfzpKcijN2_u8PVSVObVyDjobvCc9KqfFR_VdG
+
+!procedure ViewModule($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/ViewModule', $name, $tech, $desc)
+!endprocedure

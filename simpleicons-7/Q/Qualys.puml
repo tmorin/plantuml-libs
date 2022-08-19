@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-7/Q/Qualys
+
+sprite $QualysXs [10x10/16z] 9Oc50K0X44BvdSh-steFBqZLVBx5U0u2k_cNcqYurElNvVLDzkX8exhm1o2z8I8H0m
+
+sprite $QualysSm [12x12/16z] BS65OSG0000XufxRVzhg0mnt9t3tR-Mg0MlnDgZ74QNg5k-hAd6cwX8orEi8nLtTK3j3OAZAHmNV
+
+sprite $QualysMd [16x16/16z] {
+JO-54SGm30JFpBx-k_qHV98rhb62qYzt1bn89uZAP4VaAwCvb6mpETRqy30_A1G0ymeg7LSzkq_tXUE_KPtsvq1KFno0Var62wW3OP6y7eTjT7uJE9i1JgBW
+ef07oWy
+}
+
+sprite $QualysLg [20x20/16z] {
+LOu54i0W30GFgm6v__-saoiotIeRnKUkndu5B99nKeVcZxfKXlFuxptSwaAoVIu0tl81RjBaEZ1wwKSkU5XijqT7r56xNK1ZbujuTktOnO1P6lm552y9OqlJ
+UupoqVtkAbMY96Ab_eJ_jm2L1WmwdPQC1OjACTJWbCAVO7mmU04
+}
+
+!procedure Qualys($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/Q/Qualys', $name, $tech, $desc)
+!endprocedure

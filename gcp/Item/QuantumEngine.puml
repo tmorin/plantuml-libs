@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/QuantumEngine
+
+sprite $QuantumEngineXs [10x10/16z] Oq06p43826AmGG1GX8q129b1J0WBNGm8G6AC8DL0p8Ia5wA5cO41
+
+sprite $QuantumEngineSm [12x12/16z] ROk54G1130BFikc_unzWv6qv3J1UR4kS2deNC005Yc6rvdd_pGMPfviv7FrDMqyk
+
+sprite $QuantumEngineMd [16x16/16z] ZOw50S0W30GVP_-9UqdTEJJ-6Y7PZd6nwaRPRMrsmYZO0LSNx7RHoNxFTvPuf6yfuZ31xNKURFFpheT4svXvQTJPUziJ4m
+
+sprite $QuantumEngineLg [20x20/16z] {
+bO-54GGn4CFiymRwh_YNdba3oYYClv10kNWff1bbBf6TvYstJRXfiXXCmgKvztnkQ_JUcuPCkckcD-VbtgRtFhVUwn2fsilZhkcu_cDOjVV_TVQ2RPTm9P_c
+4jvn0W
+}
+
+!procedure QuantumEngine($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/QuantumEngine', $name, $tech, $desc)
+!endprocedure
+
+!procedure QuantumEngineCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$QuantumEngineLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure QuantumEngineGroup($id, $name='Quantum Engine', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$QuantumEngineLg>', $name, $tech)
+!endprocedure

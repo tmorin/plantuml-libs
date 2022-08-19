@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/B/Bugsnag
+
+sprite $BugsnagXs [10x10/16z] JOg35K0n00Fl6qNsdxRMFOI0QFoUnh4wqwpltqVN9LnThrg-DsqMakEPaGW
+
+sprite $BugsnagSm [12x12/16z] TOgr0G0n3CGKHjlxJ_iCLTGS0YxmOdx-dgKFQfwBgtVrwfEaPBJ_FycNLmJbF7K61Eyu4Lm_vmjpnDFk
+
+sprite $BugsnagMd [16x16/16z] bOr50iKW30K7hoHvzp_jrmhR3iGD81apOM9cvtbiOPaB0MnnHAMeb0pfI5XJQqqhQvtt1SGT2zfnnt0ej7B48llFfEqNZqwHhd7mnizq3bPjmvK1tW
+
+sprite $BugsnagLg [20x20/16z] {
+fSz50iGm509G6dVkVzi9TLaEg_PzOb0MufqwQ5vK2iR7xBzMQxoPWypQp7vJcUAv7BrIs4h9xdRv4ZsJztvCoFrrRfZ0Xtd1pRg19w3UTafA20NArJFwr8Qj
+N0SBEDCdnussuQ9cwjVhk8qxSKjbRsJOVdu
+}
+
+!procedure Bugsnag($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/B/Bugsnag', $name, $tech, $desc)
+!endprocedure

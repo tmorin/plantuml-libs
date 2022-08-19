@@ -1,0 +1,25 @@
+' definition of the Item aws-q2-2022/Group/GroupVpc
+
+sprite $VpcXs [10x10/16z] uo846BXO41n69X39mSK4f1aX8cnGPHmWm8ZL2
+
+sprite $VpcSm [12x12/16z] ZSQr0KGX500m75xst_TScc-fug9L0w1Z_Z_3Wamg6C2AeA40AiIRNNS
+
+sprite $VpcMd [16x16/16z] hOt50S0W302B9xV_lhXyQmTnum_KU-KWSSZ2DXMDPHB1Na2QmzKpjcfCYviJfg_39rdhMjXYd4x4pVCBdbC
+
+sprite $VpcLg [20x20/16z] lSo50GCX343HGs9__tqhE0Eq3oV2_sYLuFO4LELKsYvnvbQQH6Oo1N8EMaLJ7SWfvvORkpArdDsx_Qdcuw_TuwETGZiUyqaJGspym1i
+
+!procedure GroupVpc($id, $name='Vpc', $tech='')
+  IconGroupElement($id, 'GroupVpc', '<$VpcLg>', $name, $tech)
+!endprocedure
+
+skinparam Rectangle<<GroupVpc>> {
+  StereotypeFontColor $AWS_COLOR_GREEN
+  BorderThickness 1
+  BorderColor $AWS_COLOR_GREEN
+  BorderStyle solid
+  FontStyle none
+  FontColor $AWS_COLOR_GREEN
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}

@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/Filestore
+
+sprite $FilestoreXs [10x10/16z] Oy0Ec440me0o4O2DZOs3WuEDZHN80W5SB3W
+
+sprite $FilestoreSm [12x12/16z] Oy03c400GvGP1b25MTdOs3WuE80aXCqA921i4C1Wum8
+
+sprite $FilestoreMd [16x16/16z] Oo07C4C07bcu2iA03GWuW80Tn83osTZPWLme7mg8vRCY0uAs0m
+
+sprite $FilestoreLg [20x20/16z] Ow09O8O1V8gOc941GYC2CE4r7y9aX2ba0m5s3X00Crb1Od11DeGO7D1AZ18
+
+!procedure Filestore($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Filestore', $name, $tech, $desc)
+!endprocedure
+
+!procedure FilestoreCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$FilestoreLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure FilestoreGroup($id, $name='Filestore', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$FilestoreLg>', $name, $tech)
+!endprocedure

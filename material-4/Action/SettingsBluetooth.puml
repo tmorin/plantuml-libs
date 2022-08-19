@@ -1,0 +1,16 @@
+' definition of the Item material-4/Action/SettingsBluetooth
+
+sprite $SettingsBluetoothXs [10x10/16z] FKc50G0X4EBJblsdjRaYCST3GtSOD4cgDM4PmLWKIa3Y6Ni17G
+
+sprite $SettingsBluetoothSm [12x12/16z] HSU55S0m4CDGbRdQVzfY_F8FpMUcSihJO49ZuoW9IamIeqfUREHpWZQ4BKH375_13G
+
+sprite $SettingsBluetoothMd [16x16/16z] VOp50SCm54E_cVtsdxODSwAJM6ReA2TemYxyg7T3KGVjJeP6qMGtEfFS3Vhf7zfPSfwV_WQciSHL1ndqA7VeinGLv0DeZTGwqZy
+
+sprite $SettingsBluetoothLg [20x20/16z] {
+XT250GCX50FGu4xsdnQh_cfEUJYu9KQy9J9yC86gksrT8EcMAT5obUoooWpHih59sYsvIUO3LPBkdKWhAKUQXOBs-ZBRdSoYPPa5ZsXiOti_Wu8tQ_WVew7C
+-gWdOzzh0VqfJG
+}
+
+!procedure SettingsBluetooth($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/SettingsBluetooth', $name, $tech, $desc)
+!endprocedure

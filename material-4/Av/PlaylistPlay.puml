@@ -1,0 +1,13 @@
+' definition of the Item material-4/Av/PlaylistPlay
+
+sprite $PlaylistPlayXs [10x10/16z] Oo00-440p6860J2B2GHWiaoyI6fXB1uKCm
+
+sprite $PlaylistPlaySm [12x12/16z] Oo0ASFA001EOpSGC0X1nBbuGW8WpCe40GfoHZG6kde6Ndnbk62ylmc16T9i
+
+sprite $PlaylistPlayMd [16x16/16z] Ow0Sy4011Xy7u8S269y92b3uwEgPcFWOKKnXukVdGkLpeiWpCXBbU
+
+sprite $PlaylistPlayLg [20x20/16z] lSkr0SC00CJ0Jypu-qzhLcN6goLz8ooH2f6HQyilm7_x_UEd3Rn_LHA2VF2JdGYmJOh5hjHzBG
+
+!procedure PlaylistPlay($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/PlaylistPlay', $name, $tech, $desc)
+!endprocedure

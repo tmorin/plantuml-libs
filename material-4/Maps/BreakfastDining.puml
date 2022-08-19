@@ -1,0 +1,13 @@
+' definition of the Item material-4/Maps/BreakfastDining
+
+sprite $BreakfastDiningXs [10x10/16z] Oy06kFWXW8617mguuKm648k70OC51AWi1
+
+sprite $BreakfastDiningSm [12x12/16z] TSR50O1000InmPtjlrhqNF8ALJ9EM6KrpC4vJMTWbreEgSl-oj-R4xa1
+
+sprite $BreakfastDiningMd [16x16/16z] XOm50e0m30CFT_Z_Qu6vRpTjcuGsotafZf6V-t4iq3q-QOrVhkZ6doPkJ0tzVvzfxVIkDZJh3Kbl8EK3
+
+sprite $BreakfastDiningLg [20x20/16z] Ow0CSF4Z0rQ440A0nFZH00SMCMwW61-Q61EcPYwmlQmW9XyxEpl42eGO3v11bXWKa276WaMCWPEN3mPucKa8K
+
+!procedure BreakfastDining($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/BreakfastDining', $name, $tech, $desc)
+!endprocedure

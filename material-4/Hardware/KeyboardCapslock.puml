@@ -1,0 +1,13 @@
+' definition of the Item material-4/Hardware/KeyboardCapslock
+
+sprite $KeyboardCapslockXs [10x10/16z] Oo08cFWH30WJJF6YAUC70Umc
+
+sprite $KeyboardCapslockSm [12x12/16z] Oo0Qy2AO_7oyS2OR0up3n0Oa-30rSlA003EOpSpC0WICk6q1
+
+sprite $KeyboardCapslockMd [16x16/16z] Ow0EOEH5vVBpyw9mUO48cGiXe8293opAHwnbFFmGm0BbCxD002CP3WS
+
+sprite $KeyboardCapslockLg [20x20/16z] lSYr0SC050DHVKhCsdzQCrVcTztXIrvYJydzT3BTJIK5oMPwjx2TIaKdwTv97XF1fE34CJ7lwWXUq
+
+!procedure KeyboardCapslock($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Hardware/KeyboardCapslock', $name, $tech, $desc)
+!endprocedure

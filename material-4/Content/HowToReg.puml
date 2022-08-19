@@ -1,0 +1,13 @@
+' definition of the Item material-4/Content/HowToReg
+
+sprite $HowToRegXs [10x10/16z] Oy01-FdX37u-28kTdvyLNHaNFqW9H3qNDpzK0mCFYY8
+
+sprite $HowToRegSm [12x12/16z] VOl50G0X4CHESKZ_rUBs8kiormaZPmluhMVq0VHykg_9PyjStYpSztTpDwNCwIaVRsPA9Wa
+
+sprite $HowToRegMd [16x16/16z] dOsr0O1G4CM2Ezb_MjmRuAUxUqOGhSRtKo-tC_7ZvYHMQwv4tC_rRllbwBHQJkTtudpcBkS-7j7lYtKx0tt41qO
+
+sprite $HowToRegLg [20x20/16z] hOw30GKn5C3EgBB_jBM-cMFpEFo1QHclbGB4fJe8h1UEY7dfzbRR4C1vOG8NgrooCEKS0JehudVIWFA3eXhR8c6Cp5dPXL89JCqbgSZcSf-FS
+
+!procedure HowToReg($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/HowToReg', $name, $tech, $desc)
+!endprocedure

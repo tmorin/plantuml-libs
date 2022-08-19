@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/PeopleCarryBox
+
+sprite $PeopleCarryBoxXs [12x10/16z] JOU50O0m0CE2E_d_McHUB-m4Z0EWaAh5e1WCbhrWmXu-YmhET0g0ruAaZNkpNm
+
+sprite $PeopleCarryBoxSm [15x12/16z] FOU70S0W383eNYh_VritcWI0HAMB7bHq9VFL67AyMJ9vBu2AVS4xSgcffvERpuLaviswaft6wGLYR-CQS9svVoO98rVy0G
+
+sprite $PeopleCarryBoxMd [20x16/16z] {
+HSY5bSGm5CLGXStglzh5TpBN-0KSYzUPlmgXA--0qCQVZVZyMuEd_uAjdm2g-8TDlTEUD7-bnPPMzFRLL3WLPj95LM0giFy2VZkmd11QWTvHOdVYXgB4utsu
+3XTJedkWovqkiTmOVWC
+}
+
+sprite $PeopleCarryBoxLg [25x20/16z] {
+VOy73iGm20GttINs_F-t9q2EKBj9NSODIIfJcRhY1QJw_SL25ZbEIX8H_xBr9gbrPvVsNaC0I0It2k3dUl6_9U9dJO0bdefnXHZm4Wo_cT9cyoU97I34fiR7
+gUv2G34Vl54vebDkBLBU53CN5RggT6B6fmOmL906Gr2og3RIYvEMnMcp6Z4hYrqFDAjLUXR--W4
+}
+
+!procedure PeopleCarryBox($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PeopleCarryBox', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-7/I/Imdb
+
+sprite $ImdbXs [10x10/16z] O-270mOOmCu2gUJZ0hEuUVbvkJZ0ihpy_5oy3FZr0W
+
+sprite $ImdbSm [12x12/16z] O-170Wm8W9lDoWf4G0na0pMp0tMnyNE0sVnWDZ-CpGvXmm5HR
+
+sprite $ImdbMd [16x16/16z] fSwr0K0n30FHC5lQVzhFcDRNlUuCVmsQVtepKRXdUNklRsOuZN5QykcUFvQ8O0281PpwPqnU0G
+
+sprite $ImdbLg [20x20/16z] lSz50iKm20HG86upzp_jrtgxJeA-7G9UNuRS7-SO130qOFY2nIXaOYU1oeDrV6om4bojSIoMDuiF9ZyZAiVVxFDLrUpJp7JElVbE_Wq
+
+!procedure Imdb($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/I/Imdb', $name, $tech, $desc)
+!endprocedure

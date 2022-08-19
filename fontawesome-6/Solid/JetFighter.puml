@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/JetFighter
+
+sprite $JetFighterXs [12x10/16z] Os1WOEBdPu03L3ORN90V9i4F1mnyl0oyC0v2d0MeXXl4nMOc8umD
+
+sprite $JetFighterSm [15x12/16z] JSk30S1G5CNGrBxPVzfQv_C9ODQPJwCrFxfmwqPGoxSILD_m4oBumPyMZkitIm4gFzhmYORB1W
+
+sprite $JetFighterMd [20x16/16z] PSe50e0W40NHiTj__zCgdSy0XiKQPL3R-mQlTD8tZMJNufj87cdrxIcRx6SNuyHGPtqr-Ta2hng7dvdynJIE8zOjuOStaX7VNag-qRUHsYrZ8Fe1
+
+sprite $JetFighterLg [25x20/16z] {
+bP7L0S0m20M1UkpjFstTu_TxE7I0ZPOycbrON-mfFKK48i8pIlCbrByldmBDJq041xnn2OyzimMqrhvIRfzby0rfX50Swk7aQcw9u5rBZetXhyvCbv38hNJD
+TTMM84KVN
+}
+
+!procedure JetFighter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/JetFighter', $name, $tech, $desc)
+!endprocedure

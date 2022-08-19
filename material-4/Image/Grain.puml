@@ -1,0 +1,16 @@
+' definition of the Item material-4/Image/Grain
+
+sprite $GrainXs [10x10/16z] Oy01-8685yRYOmFH_0oy_51PNWP6TaQuEY06AMO7qM35ZFmePW4
+
+sprite $GrainSm [12x12/16z] Oy07kA4OHF4p0Z4JH9GPZ8601oZ22yHWmCZ00yOC41b686P6g8TeHLRF3CPe
+
+sprite $GrainMd [16x16/16z] dKs50GCn42BkOVzfstVtSmLy4X90eXvQIOfsc8OM8JH1Pp4SUo2GytC0ujn3jFS2AkCOR-3B7T_0gyRbS5Scl84tQpoHFm
+
+sprite $GrainLg [20x20/16z] {
+fSwr0SDG303H-so-_QSDnrZwTMB1VJa0XCncLY3ep4eDa5LMdHF0Obq76n2N9V9NrE_AViq5FuDL2vj0d0iXqAPmlflKGuv3BcJYK4Y9EWHW-xxjR-JBB-lt
+GGEtFG4
+}
+
+!procedure Grain($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/Grain', $name, $tech, $desc)
+!endprocedure

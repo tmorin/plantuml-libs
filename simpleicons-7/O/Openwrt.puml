@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/O/Openwrt
+
+sprite $OpenwrtXs [10x10/16z] 5SM50SC008J0gyI5_QUDl02iJQ0cQ_6bik0Rdo2Lw0ElGioJPGCX-0MzuGO
+
+sprite $OpenwrtSm [12x12/16z] 7St50SG030CmbRdUVze3A_mAk7Ee9NcVDy6UmJ2mHg-_4TOJnkwn9R66ALGu7dg7CLHljGThXdRw-0zV
+
+sprite $OpenwrtMd [16x16/16z] BSd5WSGm000n1PPZJ__L7bfV0VVHTLYsbW7UzG1NRUZ3OtQTz0RF_ks01knhzpXcWoCegZwsRkZDKkZ0RCS8dRW7CtInTE6JvTa61PmDiDMrEsRJCgfwmZS
+
+sprite $OpenwrtLg [20x20/16z] {
+JP1N0eGW34I7tfdxdtPNJJ2-lpn8XU3xvYhuC7X84EeT58VGIH8tasnGt2BZNOgIBPcDbgruA9uSJoP922a61uJWWOOfZdIQ3NJsMsKk8B3NnUV3-IPOf7Mt
+xD2OpUdabSMS2_hTFxy7NYpBLAKCs4s6TuXDnlEQeQplJGzUR9Ve3m
+}
+
+!procedure Openwrt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/O/Openwrt', $name, $tech, $desc)
+!endprocedure

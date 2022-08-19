@@ -1,0 +1,16 @@
+' definition of the Item material-4/Notification/DoNotDisturb
+
+sprite $DoNotDisturbXs [10x10/16z] Oq01_FoyO9gR7yHX0ek0nM68WOa5H84nDmCVH8wL2KJ253C3zR7mGynZvG6P0G
+
+sprite $DoNotDisturbSm [12x12/16z] NKg74G0X3CBUPVzj_tYkgaceU5zV5Nw7BKysqo1WqGa4X41liBW1Ezd3ZgWJ5ZG0WL7OhqHY45JUJLCruWyV
+
+sprite $DoNotDisturbMd [16x16/16z] ROu56aCn28FXIRta_hVT-91fglbJWVwB-TqjgAgx0t8zbuPj7YXsny2Ick3K-AG0Qoia2b2Whr624vuxgBf7JI2331eOODs8MB43pPADTPzLr9fE0J2P_kW1
+
+sprite $DoNotDisturbLg [20x20/16z] {
+bOx50SCm40HZWK4q_NUR5OLn7mTpUFfFErAsDsI34cEMDHD5CBFRNBhYg1fOMY146D3sygx-AqoqjY9pWGOdsxila4D6oGNE5jByA3QsoHHaBfs-VUXQPK9w
+Hy5SO1aDbc87X7nvdjYsN92qH9h6u9GFQLVlMvq1
+}
+
+!procedure DoNotDisturb($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Notification/DoNotDisturb', $name, $tech, $desc)
+!endprocedure

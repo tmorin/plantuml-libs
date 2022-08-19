@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Brands/Kaggle
+
+sprite $KaggleXs [6x10/16z] O-1d00Bi93y7a0GI3Fpyd0mWaXyi3g90Y1i
+
+sprite $KaggleSm [7x12/16z] O-1d007S51iRYE87OH09f7X1993DpmYY646222L0p0K
+
+sprite $KaggleMd [9x16/16z] bSn50O0050FGZpklVrfi2TXfNhOA77y9xKSOFeVvY-GJAeGzf6WpRmYfXP1YlW4
+
+sprite $KaggleLg [12x20/16z] hSu50SGm3030FCFW_AiTb0MiUCKaY5OkziAZ6D-oF_CfTvQqc_nFJ5xvdJgDPR1_yIzMxjbfqFnWhOuVqvZFQmS
+
+!procedure Kaggle($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Kaggle', $name, $tech, $desc)
+!endprocedure

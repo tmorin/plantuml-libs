@@ -1,0 +1,16 @@
+' definition of the Item material-4/Places/WheelchairPickup
+
+sprite $WheelchairPickupXs [10x10/16z] Oq02xFmm5Y-SnO_4uc7WXud1M208Li894k7aOmIp61dv6O0iTXu6TWwW7
+
+sprite $WheelchairPickupSm [12x12/16z] LSV50G0n08H0ufxjlzfpvJNmhxrq-ivBIOR-sABRbTV8Q8pTT3jnBcZtC89SUWR4d4CSMOEnErO
+
+sprite $WheelchairPickupMd [16x16/16z] VSX50WKX081Gp2cL-v_sTyUmU_2ZyCv5TqrwbxgzpAOAtaV_OTuTWy4SuyMn34R7SvUH6aOW9fUBEyw0Ip6SBTKvDI5nyNeQZi2FZW
+
+sprite $WheelchairPickupLg [20x20/16z] {
+bSg50GCX40NHZ_jE_zN6tJDts0FzKO4d0-AZBN1wB3nH1TQ3iQzBneFDPwCyMzIJDINyWyc1Z7qdR4k5eDPx7xIJJNMqhsN3tRwJF4sSRf439sTuPNUofiY-
+f7DbJh-Vgzwt1G
+}
+
+!procedure WheelchairPickup($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/WheelchairPickup', $name, $tech, $desc)
+!endprocedure

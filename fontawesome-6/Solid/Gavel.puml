@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Gavel
+
+sprite $GavelXs [10x10/16z] BSQn0K1000Im01st_xJmVwa2R2gXoQrfUxZC7Ocb2IVx26Xu0G
+
+sprite $GavelSm [12x12/16z] Ou00RWOuuETdGZ3vkU5C18SFpE7XHfBXXp3173Q882C3b0cc-C1Ca33232OiLW8
+
+sprite $GavelMd [16x16/16z] LSg54SL0009HuZdT_glz6avsz378LKq1Cwa3Aq2QwQ6Rx64vUV9oJLxGsNcVa7IR2OXIDVrBdSY5cJfCTyry0m
+
+sprite $GavelLg [20x20/16z] PSq73aGX24LHxDst_zLE9H0-DyqS5KXRYPvj87d2y8Jb2RYEx4iM-_9CS0T5D40YZri-Gv2Vn0NSByghmWj_9iJdgw_4g1gQf6LFT9Gq9fkdDm
+
+!procedure Gavel($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Gavel', $name, $tech, $desc)
+!endprocedure

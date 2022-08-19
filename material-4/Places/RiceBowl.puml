@@ -1,0 +1,16 @@
+' definition of the Item material-4/Places/RiceBowl
+
+sprite $RiceBowlXs [10x10/16z] LOR50G0n380uUTNOVzfAyYf4u48xXshR_GAoQtlcrFlZ66v7fPiyO0APWw2r1Ym
+
+sprite $RiceBowlSm [12x12/16z] NOQ50SCm0CCKvlZ_QxSo6SLNkSM3XhAVIXksRXbE0H0R8yZfu6deSsgF9UWKy6Hp8p0a9NOPQot07m
+
+sprite $RiceBowlMd [16x16/16z] RSk55S0W40JHlRYo_LUBEqm4Fk_0F95Q7rrdr4BI__zWlgktX8DF8HZ2rPfhCZux84JsxbUbLFxSV5Nlotgj3DUPAV0joki9obSmom
+
+sprite $RiceBowlLg [20x20/16z] {
+bSe3jWKn0C3G54zJPF-h7UCRjyuf__DKROdBGosbQOz7Ace5x1gFNuMj3L432-Le90l0qtWrgW1sthHe1Ynl6xu0xRs_sShQtdi0pVS247odiHXyAx8gNZAx
+-r5wuEAgy5PTFVdM1
+}
+
+!procedure RiceBowl($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/RiceBowl', $name, $tech, $desc)
+!endprocedure

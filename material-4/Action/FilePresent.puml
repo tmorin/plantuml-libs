@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/FilePresent
+
+sprite $FilePresentXs [10x10/16z] Oq02_200OO5vO1P45CpYuMTcWB7uCLZyd10MmWHM7X1WO
+
+sprite $FilePresentSm [12x12/16z] RSR50S0m30D0XT7M_jEMkRdNuQtBucXqpWdtUpGZvFwMQ5rtsxjbjVV53LugYECGvlrD-ehhONV03
+
+sprite $FilePresentMd [16x16/16z] bSg53KGn0CFGChVUVzg3pmmMvKaH1wckYGp9qQOxWPfii_mPDLZIaALG1ciKlr6MLhonq7fXGTBKXJK_JdQwRt1Xw7VSzGK
+
+sprite $FilePresentLg [20x20/16z] hT350KCX403HtMyuqt-rSInkWxyZya6KbaehmP_gS2rN3jYPUg_26Oibu6Gq8pdqS8-zHOlEqwtX_sTPPCOEvaWET33na0z7RwLYCttb4s8jo8Fs
+
+!procedure FilePresent($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/FilePresent', $name, $tech, $desc)
+!endprocedure

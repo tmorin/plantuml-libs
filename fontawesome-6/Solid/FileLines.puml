@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/FileLines
+
+sprite $FileLinesXs [7x10/16z] O-3dvsTZ0990YXzAGG0Ra04530mCBFnm09TduuIn0G
+
+sprite $FileLinesSm [9x12/16z] O-070ZvM1Y0DOl2mmnZyx1068nCJFpR000GmDbGb480PJ4meUdXX3
+
+sprite $FileLinesMd [12x16/16z] TSZ50S004091ZhXk_zN6NUQ3g6CMcRHLeYqazavnwHIiah3DfftmhzICLJ_RVi_wzMvdBFAV_r1m6W4
+
+sprite $FileLinesLg [15x20/16z] bSV50GCn40ImDREd_sfDoJ7h9_Bu8KNDD50qhLWAkotijh1B6Mymqns-uZH4_1Wn99oY7ujJ_2VWn-eXuudOB5S
+
+!procedure FileLines($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FileLines', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item material-4/Navigation/SwitchRight
+
+sprite $SwitchRightXs [10x10/16z] Oy01c64CLXu6VWY37yZY1R7uGIo8A8W5aMO0YM47
+
+sprite $SwitchRightSm [12x12/16z] ZSUt0O103C10uPAu_xJEBe5NTMAnJRY6Z_jfXibvodBNk8iGRe9my941
+
+sprite $SwitchRightMd [16x16/16z] hSZ50O104CNGuCxllrjOdRaYkRtmImUqawDkQp867vehepcdm4d5hPemvknMBSGHVGRc4HnO1pGjRxe
+
+sprite $SwitchRightLg [20x20/16z] jSjL5W0X509GUDF9_bSxQVijzZs8Hkbg6lTd4rCQzDcPjlJRSJAsdDcXsFA6tJMLc6dvZD5CAroyzP50P-wZosSvWTkphMYJ6m
+
+!procedure SwitchRight($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Navigation/SwitchRight', $name, $tech, $desc)
+!endprocedure

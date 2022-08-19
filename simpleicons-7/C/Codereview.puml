@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-7/C/Codereview
+
+sprite $CodereviewXs [10x10/16z] 7S650SD0002XgtlPVzgyGDNBhSNsB5fSWhlVoKjjbeIRscJhhQUgZtDTB6S3
+
+sprite $CodereviewSm [12x12/16z] DSc50S0W4C30r1Mo_xGu1-zKdpUT7KNFku8-pxKz3_vO_AVo-hckA-MjYrQhw5qUawZr6WXIMghT4_G5Wdx0RtL-PW
+
+sprite $CodereviewMd [16x16/16z] {
+HSI50GCn3CLG1KknjV-qfQFtWRyUlZWjDvC_TVKwKeCl3VwABWXzF1wqtsd1FwPAr-xYeg6PEI8B-ULcfhMeuSl99SKi1SeNeAYkcshZPJ2riEaAX7P-NYfV
+Iyr8__Wg_WNe1m
+}
+
+sprite $CodereviewLg [20x20/16z] {
+LSo55SGW403H0U81flzgJ_P5FyuAXxLRHnv63orny64XTEs5lrLT-Odpf9RevVf3-MqBAdXWKXj95tGkVwJOQRegBxDs3UYAwkZX_LULbnpVlAoAuJn0A_Nz
+jsacgOdJe1rOL0wxce-kjZcbl1eAFyLBpofXCTGS2Ly
+}
+
+!procedure Codereview($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/C/Codereview', $name, $tech, $desc)
+!endprocedure

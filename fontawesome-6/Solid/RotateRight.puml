@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/RotateRight
+
+sprite $RotateRightXs [10x10/16z] JSQr0OG0002nUtyq-szBWwLAToCUAHxzqAWAULGhqi7ts5C7V3bVRG
+
+sprite $RotateRightSm [12x12/16z] NS650O0m0C2muax_lnPdbb0Or1e4rCqRA9TMPP2R5vJRVi6LG0bgAm9jW6dXfhU9rxJrN4u
+
+sprite $RotateRightMd [16x16/16z] RSc55S0W303HuCxjFstToqVlHOPqQMbzlLllm4v5MB92izgpsQPALdNlCoDRQvfisBjWvAcXNvrmyWBVZgzMa6JLYcmCq6g7BeVEAil03
+
+sprite $RotateRightLg [20x20/16z] {
+VSk54SGm50DHXStRVxK7ts5wmpkINZHjryfqgW9L8sMYRLZ5375EfP4qMRO63AgM5hQKbWPbIxKrqAWgcA0ET7BRsfic6A_j_fmkCK6MwObBvC-D0K0BpwBJ
+9bePzEWB
+}
+
+!procedure RotateRight($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/RotateRight', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item material-4/File/FolderOpen
+
+sprite $FolderOpenXs [10x10/16z] Oy06-840oe823WP-g1mF0HO7L0UISG
+
+sprite $FolderOpenSm [12x12/16z] Oy09U7XusA5CNduWu042RY2RZHa2U9aOU9bXQebZyy00FnC30pCCeDWA
+
+sprite $FolderOpenMd [16x16/16z] Oo0Py8C0EvpBn0y6F230pGBYyy01Bp-8Zz3AJ0C-8v9zF20vJYG-2q7V
+
+sprite $FolderOpenLg [20x20/16z] Ow0CiB020GkA43y4i6CHu-U104w4609mWCIuK8tY6MnYV3p80Ao40yqVb0Ke
+
+!procedure FolderOpen($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/File/FolderOpen', $name, $tech, $desc)
+!endprocedure

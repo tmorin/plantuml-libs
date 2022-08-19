@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Brands/CcApplePay
+
+sprite $CcApplePayXs [11x10/16z] Oq00Ddw2W861dv-9WnlAPE5duES2ChbvWGGFFpCkJGWc
+
+sprite $CcApplePaySm [13x12/16z] Oq06ZFp40bP-BhXY1WOU3du6HYvELZ27ZuE57seMEpC_9r08rLXsVEOoyF320JS
+
+sprite $CcApplePayMd [17x16/16z] dSYr0GGX0031FSDX-w_sNIzame6pxf_SdTByLzAGllYsGX4XvzNoZ22x6nlHEzX4YTl0VxKx8tZ2sHK
+
+sprite $CcApplePayLg [22x20/16z] lSn50aCX34NHXtuZkVjVRTsRMUNWH1JBzKrHv-yAe2JdGPFa238pcxDmf0CGQykUh94VV-jCbj2wSLIk7P29BiusxBW1Os25G7Q-mOY8m51e3m
+
+!procedure CcApplePay($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/CcApplePay', $name, $tech, $desc)
+!endprocedure

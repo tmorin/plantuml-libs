@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Ring
+
+sprite $RingXs [10x10/16z] Oy0A-240o603y_c07B0W7vY4ga4010Scpera6W
+
+sprite $RingSm [12x12/16z] Oy096Fd1W1V815ASJ4pCt42AZHycpm4KPU23gW6HR61X7duKm83CPaSmWO0Ph9KHrLO
+
+sprite $RingMd [16x16/16z] ZSp50OGm04JHYNj-_zMk0ybfUTSHtP9Rhr5V1WvDKW6QjzRc0HY1qw72n4iszTwYaGRG9eVAn_7SkHobnavifiHYI9BZfnlzzGG
+
+sprite $RingLg [20x20/16z] {
+fSt50GGn30D0XT5M_zKkmp7E9p7ZJwOeLzrZnIi5W5lgsLbhNPtxTUcAE2dPAsbmgN0696xKmd3MEP7UkYuVBYuMTfvQSIvMuLE1zw2y5I_MNXuqlD2miwM9
+z1OClZ42
+}
+
+!procedure Ring($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Ring', $name, $tech, $desc)
+!endprocedure

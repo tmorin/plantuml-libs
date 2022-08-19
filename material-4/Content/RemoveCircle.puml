@@ -1,0 +1,13 @@
+' definition of the Item material-4/Content/RemoveCircle
+
+sprite $RemoveCircleXs [10x10/16z] Oq01_FoyO9gR7mIOG28G06Vmim1P82MS_DmCV50n9YHr3CmG1XYmye3C
+
+sprite $RemoveCircleSm [12x12/16z] Oq077DniK1OlFmYmGvWGm0fayyC0K2sSpSZ00n80IpCniC75KTGZD322LB91cH30o0Ic
+
+sprite $RemoveCircleMd [16x16/16z] RSo50S0W30J0V5tv_QV57Qu2KPa3wkYZSyPeOVI7cDaVceirbEi6kCDJ9CCsyLP_0slT_6FZiueXbihX9TvVmc1rBIzamW
+
+sprite $RemoveCircleLg [20x20/16z] bSpL0GD154BHkpe-z5zjbBZk-Ni2R1Drq2PkWgoFMD7D-F1b0qTwK5p_m6yFPk-2LKd9EoovK0VTJXcWwz48p7e4Zu-EmgGx3RoyNzbG7eBOaciS-MmF
+
+!procedure RemoveCircle($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/RemoveCircle', $name, $tech, $desc)
+!endprocedure

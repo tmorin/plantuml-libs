@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/HourglassEnd
+
+sprite $HourglassEndXs [7x10/16z] 9OK50S1008IO--YVzkqCS6IA45Za4Pn0VQ4xrD0zyeeg
+
+sprite $HourglassEndSm [9x12/16z] DSY50S102C30rBtPVzft3WU7qm4_2bzUovoTG9cKme9cp2a-DZ5TO_a-Xmm
+
+sprite $HourglassEndMd [12x16/16z] HSc50GCn40D19S-axRzQCupXG6AmcMIsV_Roryscp4W_oEs_55Ctkn90SAk0qTQa-f7DjWqqZxJIII-pPtZD504
+
+sprite $HourglassEndLg [15x20/16z] LSk54S0m5CDGbpdQVzjUEDRX-o36xe0rcJujeDmEqWnJPeWKXAGP7aadV960OY-yce2rFGLWoOhxlei1eM4YzhPTBfZWCS7aH5gSc_72kfq_
+
+!procedure HourglassEnd($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HourglassEnd', $name, $tech, $desc)
+!endprocedure

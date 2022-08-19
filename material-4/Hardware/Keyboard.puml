@@ -1,0 +1,13 @@
+' definition of the Item material-4/Hardware/Keyboard
+
+sprite $KeyboardXs [10x10/16z] Oy0AE260WO4V2dWO-3dusPYPEK0iDdvc1WOs40i282oWUX0B2m
+
+sprite $KeyboardSm [12x12/16z] ZSRL0S0m203HYpliFsszVvLS0Zncodfd6EhYS64ujPl7-G_Z1hPp-Ewm0_fkhtUyjG8
+
+sprite $KeyboardMd [16x16/16z] bOt50O103C02_AhxJukxN_AfbsAgPcD8Sm_KcROwveRXlSRSzzNx_igI-_ZiFYTtAALq
+
+sprite $KeyboardLg [20x20/16z] hOl50G0X40E3E-c_sdCNNWow4VJ7XojcblZ0VcXvqIm8vL1Xfj-cUKLbWwhAJRzDYuukfEcAqw_HPMMjypNzDktEgM71tBIma7OjyOv4RqO
+
+!procedure Keyboard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Hardware/Keyboard', $name, $tech, $desc)
+!endprocedure

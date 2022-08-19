@@ -1,0 +1,13 @@
+' definition of the Item material-4/Content/PushPin
+
+sprite $PushPinXs [10x10/16z] Oq06_200PpBWOd4WgMC0qdXOh202
+
+sprite $PushPinSm [12x12/16z] Oq05hBmW0ENmylFpiq7PF40sCnOs7v3D0M7oWm4VcCt4nCGFn31Z-O4O7ni1
+
+sprite $PushPinMd [16x16/16z] Oy06c200nkNYXm2u03EO2-CHvhEWyNd0V5QuQYZWW_9vUNdv-7c10Db444a-dv6F0Ji
+
+sprite $PushPinLg [20x20/16z] lSX50e0m40F0u4x-_rgSi1UyxHm7RzJSnRfqoxw6iLuDjzVQQhbADIMbtw_Y0LR521BmaE7A2
+
+!procedure PushPin($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/PushPin', $name, $tech, $desc)
+!endprocedure

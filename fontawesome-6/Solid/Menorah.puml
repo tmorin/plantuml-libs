@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/Menorah
+
+sprite $MenorahXs [12x10/16z] Om025WPM1X3WvU5d04DkRdu69C3F2nPbv0SgmCNc0kk04lnm03K7RXnS5
+
+sprite $MenorahSm [15x12/16z] VOg50SGW4C22ExV_jFzrRnCu1-pWXCD6OJA6kGYKGGTnBCBmHxsVaeWQRhJKDXr_jqCSaJedv0GeFI1jZ8gH_NWax9Vy0G
+
+sprite $MenorahMd [20x16/16z] {
+fSZ5WGL1203HQbbjcCe_sfLnEVw7mnjq_lgnj29rpdBqj7nBoBTbo9XxuP4VW_V1tFVK6ZBzzv9pXg_zMYdyPLZcXRHhp3JdEIdXNGFgBEtpB1p2mbbafkQV
+JrR3Gm5-0G
+}
+
+sprite $MenorahLg [25x20/16z] {
+lSdLWGKX5C3G87SKIF_TxdEVtpreW00g5nc8sm8J8RG1Be_ilIiwerIbFJ9SsCqCmKQzPBhaWNbVsVR2lfDFQtgaYgve3gK_yhy-rZLEAuKoholB6aatBLo5
+ShCh_jP8_iH9obUBvXlUXF8bdSoQJjwUVSF3xfl4oHy
+}
+
+!procedure Menorah($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Menorah', $name, $tech, $desc)
+!endprocedure

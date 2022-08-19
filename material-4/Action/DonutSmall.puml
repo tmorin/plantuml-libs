@@ -1,0 +1,16 @@
+' definition of the Item material-4/Action/DonutSmall
+
+sprite $DonutSmallXs [10x10/16z] Oq01_4080jpyG1O_2qW4pE87CxX112kO2m5yK5bc97KCp40IfeAD0MG6
+
+sprite $DonutSmallSm [12x12/16z] NOg50S0m3CCqvld_QykiGc9WvE98soSXNMdrktoaj0lEyA_kdtZzdjZTldAxl-zpfdt1SVZThu797OS5
+
+sprite $DonutSmallMd [16x16/16z] RSo50O0m0CJ0uCxlForIjw1Nerr7b-ZKXRGv3TBlBsi5ttPni4OthONJBUZ-xmfSVz3_7WXrThlRPx_Xl1DO4_TytS4xfjlP4SRxyzNJw0K
+
+sprite $DonutSmallLg [20x20/16z] {
+bSs53GH130D0tosZ-w_s8Le_eqNHXF1V2XCcmuraqepqeaRAX8atnjsCTzPrxCPu7MkgxFcrkwTpl6pY6Xat06cUam6Ttf5eSG3yYx-hbcKp9xjzvcIt__U-
+hE0sCQ1ulCyH
+}
+
+!procedure DonutSmall($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/DonutSmall', $name, $tech, $desc)
+!endprocedure

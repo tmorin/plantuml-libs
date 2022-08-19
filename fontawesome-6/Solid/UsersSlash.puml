@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/UsersSlash
+
+sprite $UsersSlashXs [12x10/16z] FSQ50OC00CJ0rBst_xGulERSzzoivxCmuubBhRpT7pgVYou8RzJAhVBOu4Cq2_Hqi382
+
+sprite $UsersSlashSm [15x12/16z] NOkr0SGm00DbPj_-qpv4NQuIHiKh4v04O0lsjWMBZJf4WM-PrmD0m9tOsnBQ3qcJQVKd10MgJCU7wmh-95t-Tc6s6by
+
+sprite $UsersSlashMd [20x16/16z] {
+NP254SKm34F33Ml_QGCwrnzKrCiPNJ7FTEPLXhklgo3e_aTZFA4m_VzZatyTZJaSttAS64Dh2Te8aWZPzZ4I7Qh04a7BzudeDtRITSqKprkD2l3VDhL-aauK
+9VQDAPWQ97B60LQM8RgXG6JNocxem0O
+}
+
+sprite $UsersSlashLg [25x20/16z] {
+RSw5bGKX40NH6dSg_sXNtk7twXq5siORhhRopUK2tCPDUIqlOw1xiWHOLPtfMfPJ9HDLcreCxAeZg9vqXpu6i1nq0qns5mp3aDqUfz4mm1XVSpyOzsaqOClO
+bMgbCAey6loWyhzT5tvOL0-OzUQRPZo0DefbW9PtJ5gsDDg9qszk6FJvUs1BptS
+}
+
+!procedure UsersSlash($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/UsersSlash', $name, $tech, $desc)
+!endprocedure

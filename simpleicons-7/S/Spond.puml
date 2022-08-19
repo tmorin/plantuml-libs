@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-7/S/Spond
+
+sprite $SpondXs [10x10/16z] BSkr0SG0000XtYLo-qyRfmT-lK7TUlMZY5wAL-dtl0TLJ4NlWcv9L_nTrn4hLW
+
+sprite $SpondSm [12x12/16z] 9Sk53GC13CLGbp7tzj-sYchHnvQFPt_u6gfykn_R5Qq_DPFtKJru-qo7HnLKE9KdBIGtzk4idttMVL-cb2qRsFG7
+
+sprite $SpondMd [16x16/16z] {
+BOs54KGX4CM2SyDVqd-rPv2nbIVyQU5AS0aFuwmwKLZ6MHjiWUm3eK3I3jM4pHV0LjksoN01a48DeUdEDreJqDKDD9UUrz19DXawxoKFSQLrNOzkklaVVLA0
+i08EqCvVjaksZBj2KcyX7m
+}
+
+sprite $SpondLg [20x20/16z] {
+JOy5ZWGm30DTvix_NtkmYQeTKJYsd77PLLyKd1FaV1A81HYl52Ikf0ZJIr4I-42nMtvpUaymgE_HLQEBBLkMmW0s3B8YN3a0boA52unWuW7_Tm2QJUudCqvJ
+1VNrRIy810EuTYs0E3f45V0JaqlyjCnfabG1EsBAjicJpTEi5kopEtteqVbmREWN
+}
+
+!procedure Spond($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/S/Spond', $name, $tech, $desc)
+!endprocedure

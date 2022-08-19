@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/Bigquery
+
+sprite $BigqueryXs [10x10/16z] Oq06Z6niZ6066ni8WqN0N0Xc0b4WnCp4m0oaGB9CG3wo3XYR0ybO
+
+sprite $BigquerySm [12x12/16z] NOi55e1G40971TxU_yAs_fZjW1cBbqHEdbPtzfrX0VB--krbLhFTFUdxD2tEYKlygEWv
+
+sprite $BigqueryMd [16x16/16z] ZKsr0GH12CIX_uPNa9UBReBH5NW1j0kPAAPusNgTnNHaXifuAHqddwMpTkP3T4h9B9LpoU_w_dneXYKE1RM4nnJ08eUd-C09djW
+
+sprite $BigqueryLg [20x20/16z] bO-55O1034El-hB_mdY3suUpUjel94TaQyg5s9buqkJBpJDOQvEnFSNffqthmKClR3RPxD8c6TMNzJX2ZFE9SxwQNnRHuAXHUW78rZhb0MX71D1seam7UW
+
+!procedure Bigquery($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Bigquery', $name, $tech, $desc)
+!endprocedure
+
+!procedure BigqueryCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$BigqueryLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure BigqueryGroup($id, $name='Bigquery', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$BigqueryLg>', $name, $tech)
+!endprocedure

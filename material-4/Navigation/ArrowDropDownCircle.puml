@@ -1,0 +1,16 @@
+' definition of the Item material-4/Navigation/ArrowDropDownCircle
+
+sprite $ArrowDropDownCircleXs [10x10/16z] LOo35G0m34JBX-ZsdxRcZ-a-01sHqGcZCnY9Y02fPzOTEyCaF7ikpcIGfV-e
+
+sprite $ArrowDropDownCircleSm [12x12/16z] NOg50G0n3089xyh-szRrAWc2cVFPy_OfSBHLslokWkzADqc_6zxO_VrFx5q7_NxcrU3Ps-ennk4
+
+sprite $ArrowDropDownCircleMd [16x16/16z] RSm50W0X20J0vRhv_s_FnOwn9J0cWiAZj8VNfC4BeyaRafCvXLE2y6JtdPVOJR0fCMvsDKtz5UeYWVEbvm7pfcSmC-KM3Fm
+
+sprite $ArrowDropDownCircleLg [20x20/16z] {
+bSxL0SKW44JH26xJVxKuyrnoFY-okrrZKCNphcXCwLZ90tJmrfszDppm_FuEhuKkeH9iMtMYiVmkhGJFXZ0JT6q9n0t5wrnUvDCrZc9FZ4pTxldmddJ17Djd
+1G
+}
+
+!procedure ArrowDropDownCircle($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Navigation/ArrowDropDownCircle', $name, $tech, $desc)
+!endprocedure

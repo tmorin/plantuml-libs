@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/StarAndCrescent
+
+sprite $StarAndCrescentXs [10x10/16z] DOg50S1020Fhth_zfyKvd6GoRlR90UvUfWJ2O1dR1m-nOHpzAv_L5SPY1owR2W
+
+sprite $StarAndCrescentSm [12x12/16z] HOkr0S104CCSvcZ_RPyEL1dLU3Wr0FvzSQbEohFhkslQZNvk9xfMqyy9KzpWg_BurNGh762Lym7_MqK1
+
+sprite $StarAndCrescentMd [16x16/16z] NOy54e0m30GFT_R_lsKk1IfRZISAfekZqyU5kGSbB1molzYfSkuLhA_vKZ3YpDaCUtAtS92HsJ6TzRdEfWuOVvdqoDoT9gIPo9kvMiK9C2dJ4SHy3m
+
+sprite $StarAndCrescentLg [20x20/16z] {
+NOu53i0m30CzvlZ_lvqYLsxK6_Q2Q5p1TqDXOmD6vmi5cq7j67lrhBEdUJhjN4c-6Kat8TbV9lSQBlMIGJjBlDtXbCAUdrdkbTFSHuwCdLo0hnVd4VS9JBGq
+sZ06UJDPg_9YSUxLdhAVJZy
+}
+
+!procedure StarAndCrescent($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/StarAndCrescent', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/PlayForWork
+
+sprite $PlayForWorkXs [10x10/16z] Oy05EE4iVamMFpyFJ8G7AihFoC391H7auMT3CGe
+
+sprite $PlayForWorkSm [12x12/16z] Oo0Qy6DbCpBoCpB2XVbX4fpCG3LSJ60s2n-I3bv-7dvsk6Pc35i
+
+sprite $PlayForWorkMd [16x16/16z] dSYt0O0m0CH0EMV__jlI42l0rqaiSi-q-jEXTRN6fKgoPnb3bUKSPO817SCe07roI9fTCfnixObFDW
+
+sprite $PlayForWorkLg [20x20/16z] jOsr0S0m0CF2dEZ_QylShU3H9F6NRBnx0VcXLnkqTiP8W78m5ZETZCnW3Ys7tZoFdLyv59cWyJJNK4kxGWhWn7lr
+
+!procedure PlayForWork($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/PlayForWork', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item material-4/Av/SkipNext
+
+sprite $SkipNextXs [10x10/16z] Oo04-24OHF8ZMFmOOcmmTPW
+
+sprite $SkipNextSm [12x12/16z] Oo0Ei888JcOmcuSVHB10sVmiI6n-DWGReOOBePuHH30puhO8
+
+sprite $SkipNextMd [16x16/16z] Ow02O8LGFCmCK0OVcE9dWV7v-LdH-FoyA7oG02gV5KMU3yKyRWvKynaX50kG9Xa
+
+sprite $SkipNextLg [20x20/16z] Ow0NO8NIB3pCS34UVaQ873yBaXW_6nOnVXuCCH1WmIB6Zod6XQcN1SCy7WotSBCnO8WnmcWM88lw
+
+!procedure SkipNext($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/SkipNext', $name, $tech, $desc)
+!endprocedure

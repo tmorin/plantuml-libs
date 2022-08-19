@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/PrivateServiceConnect
+
+sprite $PrivateServiceConnectXs [10x10/16z] Oo08s3XO80nMDdOE4CtCniB4mi7Cp0ZYi31om1Hou381
+
+sprite $PrivateServiceConnectSm [12x12/16z] Oo0QCC9Ph6mS72nGDXkGpGwMPc9ZOs1XOMU3gc5WO87hOEDW8zOM
+
+sprite $PrivateServiceConnectMd [16x16/16z] hSgt0G0n349HSFXc_uKlnzwlaW1Duj_NIThx0YKfpn8ynlRRPzjHKnhkEbHaHIz8q0Vfcc85
+
+sprite $PrivateServiceConnectLg [20x20/16z] lKwr0S1043g3P_-5uvx-A75hXVyOKgeN0wwSzE5YyEOyLmwUiNAUAvT65iFAf6HUMtvmxzaozy-mhxlZTr2mHim
+
+!procedure PrivateServiceConnect($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/PrivateServiceConnect', $name, $tech, $desc)
+!endprocedure
+
+!procedure PrivateServiceConnectCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$PrivateServiceConnectLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure PrivateServiceConnectGroup($id, $name='Private Service Connect', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$PrivateServiceConnectLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Hubspot
+
+sprite $HubspotXs [10x10/16z] O-1WP802VduWmS8FOKCnY6A4iC2I_311849NoSy75uEeWt41
+
+sprite $HubspotSm [12x12/16z] HSUr0OG0002nlEBS_jCY5UdYlG9GRsZ3Kb108pl0cDvFAa0phK3O0lhH1dG3tpwM0IZW1
+
+sprite $HubspotMd [16x16/16z] NOw50SCm30GLZl7sdxOWAfnH_2Bpb6-0HJy7bzjN1FIjE-FzDheuNKkGPAUu7J21zcKhyykEIobihtlZSllcK4ddVtw0KjFi9x255LBJtkFx1
+
+sprite $HubspotLg [20x20/16z] {
+POu54WKn2CLWtKhkVzelTRePO_8maSDK1WwWrdUA7s1AQYdn393YlOsem1uhEDhIav1cf4D1etFS78TngPCBaQjtm7qQxExtd3GNk2N9jj8uN-x6ygKsEu55
+XRyBepgzKelRTF9pAWEFM_C5
+}
+
+!procedure Hubspot($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Hubspot', $name, $tech, $desc)
+!endprocedure

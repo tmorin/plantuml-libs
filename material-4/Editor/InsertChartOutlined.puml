@@ -1,0 +1,13 @@
+' definition of the Item material-4/Editor/InsertChartOutlined
+
+sprite $InsertChartOutlinedXs [10x10/16z] Oy06UDZ0W0l80lBu6HXOGIncE8iVXSK6Ph418HEGnSK71ln8nW4
+
+sprite $InsertChartOutlinedSm [12x12/16z] Oy056FbXW861YGSg26FpmzcyI6n-D3O_9XjX3WF2V6G
+
+sprite $InsertChartOutlinedMd [16x16/16z] ZSU54S0m0090wWR7_jFMtP8_VGHbrAQRRd7ZRdg63RKzzT-THbpyFDE4Q9lzc-KdDKRf0Gy3
+
+sprite $InsertChartOutlinedLg [20x20/16z] fSYr0GGn00CmXpdUVzg7OqQLmYkIC-L_cNOYiZrCcEbvYlDJSdsijwxQzV7ih86oW9NZJRGNMIT8_ANf5OVBlW
+
+!procedure InsertChartOutlined($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/InsertChartOutlined', $name, $tech, $desc)
+!endprocedure

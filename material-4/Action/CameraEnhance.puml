@@ -1,0 +1,16 @@
+' definition of the Item material-4/Action/CameraEnhance
+
+sprite $CameraEnhanceXs [10x10/16z] Oy0AE7dv-VavEHaO-A601yHYu6Q0i1Wu-LcumInc1du6c2mZCvW51Lm8qm
+
+sprite $CameraEnhanceSm [12x12/16z] VSY54S0m3C10bRdQVzfYw2WA-CzKEjJnnMoi-PPB__xjwvQJ9VXvCz6zH4-idC6ww-lU66Kt
+
+sprite $CameraEnhanceMd [16x16/16z] ZOx50K9130Ld_P97-gyM-EuoAt7X5IQfZdf8oRoZfjIPlWPYBp_Qs954M-mC3ffjahieY_rN5V8ktzRzyjAlG-Ozntq8SO43Fm
+
+sprite $CameraEnhanceLg [20x20/16z] {
+fSk53SD00CLG7_Fz_QSjCpUn-4bcVKFx8kToANlQLqe907eelh1-iGYstfk11ldM4gIztneKQNhQhOKfgPbwOmwgxFqhi0FydGqmEDtQNllKZTrNWJ3cROsV
+sm8
+}
+
+!procedure CameraEnhance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/CameraEnhance', $name, $tech, $desc)
+!endprocedure

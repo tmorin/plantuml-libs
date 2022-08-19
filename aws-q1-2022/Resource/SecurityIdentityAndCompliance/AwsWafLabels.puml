@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2022/Resource/SecurityIdentityAndCompliance/AwsWafLabels
+
+sprite $AwsWafLabelsXs [10x10/16z] Oq02t404PN1n0mcSW1i26F03HZ00CW
+
+sprite $AwsWafLabelsSm [12x12/16z] NOg50G0n30AFryh-yzRzuW4sT4ckxJTEl6NzuFf1qDg-juTyu_pRmd_wvt2Ll4S
+
+sprite $AwsWafLabelsMd [16x16/16z] ZOs30G0m30HhxZzlRURAw1_jC1EWFPRnKhY69WGoFGaREqJyr791V-8kXsrdgvzYN1dh6EO_M4Ky
+
+sprite $AwsWafLabelsLg [20x20/16z] VOk55G0n5CAWBllFUrgtLCdZOuEABvtY7xFCmNW2eLCCtnsp2f__iZQrzl0drpbiNJ-RgOwnHOozysoeSDixEtToh6Gd6lYh6m
+
+!procedure AwsWafLabels($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/SecurityIdentityAndCompliance/AwsWafLabels', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsWafLabelsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsWafLabelsLg>', 'SecurityIdentityAndCompliance', $funcName, $content)
+!endprocedure
+
+!procedure AwsWafLabelsGroup($id, $name='Aws Waf Labels', $tech='')
+  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsWafLabelsLg>', $name, $tech)
+!endprocedure

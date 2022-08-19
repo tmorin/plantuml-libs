@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2022/Resource/ApplicationIntegration/AmazonEventBridgeSaasPartnerEvent
+
+sprite $AmazonEventBridgeSaasPartnerEventXs [10x10/16z] Oy0EM1WOM44q6n1pGyLOcK1Si2XSZ96Pcml40M5c9FrCK5F
+
+sprite $AmazonEventBridgeSaasPartnerEventSm [12x12/16z] NSr90G0W202mUIlqx-kV5PXg4K2e-kPSKW34yfxv6Axq02bTeEi9ZGKc852N3m
+
+sprite $AmazonEventBridgeSaasPartnerEventMd [16x16/16z] RSUf0G0X302my4Ex_xxdgYuk_YLA8pW07fsdDA07veRSXm5iPoEKjqEkBlAXUIGTJEhbpOnD7DW35y1fW03G9eq0U9X0QS07
+
+sprite $AmazonEventBridgeSaasPartnerEventLg [20x20/16z] {
+VP050iGW30Id1ads_-yzsTFgL20kND7Pau3uCeRbjM-VVIm0lgukeqQ0Xf4Q49YnElI4oJvV5ejDAztOQzIIqACv6De0WWJJ-rvd1as8gjKej58DZfDbMPZM
+qtyHh8NcRQot5tWDgnqa5zm1
+}
+
+!procedure AmazonEventBridgeSaasPartnerEvent($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ApplicationIntegration/AmazonEventBridgeSaasPartnerEvent', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonEventBridgeSaasPartnerEventCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonEventBridgeSaasPartnerEventLg>', 'ApplicationIntegration', $funcName, $content)
+!endprocedure
+
+!procedure AmazonEventBridgeSaasPartnerEventGroup($id, $name='Amazon Event Bridge Saas Partner Event', $tech='')
+  IconGroupElement($id, 'ApplicationIntegrationFamily', '<$AmazonEventBridgeSaasPartnerEventLg>', $name, $tech)
+!endprocedure

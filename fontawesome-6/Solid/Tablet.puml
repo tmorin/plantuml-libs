@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Tablet
+
+sprite $TabletXs [8x10/16z] O-070ru-Vie0Dpy_3nUG1W
+
+sprite $TabletSm [10x12/16z] O-3XXm1s88E6W9sT0qYomVa
+
+sprite $TabletMd [14x16/16z] Os3ZHm0WPyW2PWO61Zwm9r240G
+
+sprite $TabletLg [17x20/16z] Os3cuqS2F0nC_6W0A3yAs1Y00CBaXb1SG01XCQ2fvG8
+
+!procedure Tablet($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Tablet', $name, $tech, $desc)
+!endprocedure

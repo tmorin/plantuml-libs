@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Networking/ServiceDnsZones
+
+sprite $ServiceDnsZonesXs [10x10/16z] JSP10e0W0091AWNs_mzMlJMdqHyct9YsH08dAQZlYB_HY3SUdy_wdduw0pikIA6zEKXoiW4
+
+sprite $ServiceDnsZonesSm [12x12/16z] LOg50SHG34B9jmVx3tnIRnJJkqQ0R33sV-W_rM0R-CdP04v4Q6jLySSsSnHb__JvqzKgUUGjuN_13shyfR-wLRB3Bm
+
+sprite $ServiceDnsZonesMd [16x16/16z] {
+ROzLWWKm38HI2pFtl_3MzZb_a6hyGhRiVgqRLi17rtI2jOCDss65rTb8rXwtGIFfJM9wYXPjkcI7bfVe2MNvccT61hJZ4WU94GF_-pu_ZD06Y1Mk6SV6IXl4
+wmUTiVW3
+}
+
+sprite $ServiceDnsZonesLg [20x20/16z] {
+TS-5SS1044DH7UbBxh_WE9umlE7brRy6Lsz7drgx3Nn4nqNJ6qsYn-MMF5fu6WdmX81ctfrju_18IYLeyXRYQH-wqkczaRtEtYb7RMTOdiDhdwJuBROzzrbu
+9F0McvuU2tPgg-dKXEMxLtUCATE4DxbLKjFO1jjlzyaXRmXKhyBdltJhaP0sTUZIczLYJAilnW6_jUa5
+}
+
+!procedure ServiceDnsZones($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Networking/ServiceDnsZones', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceDnsZonesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDnsZonesLg>', 'Networking', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDnsZonesGroup($id, $name='Service Dns Zones', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDnsZonesLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/DataprocMetastore
+
+sprite $DataprocMetastoreXs [10x10/16z] Oy01M3XO80mE480pGHGx4BC2CHjS3A4EoaOr2m
+
+sprite $DataprocMetastoreSm [12x12/16z] VSc50S0W4C30uDb_uReB1-zqUNHLhKTx316L3AGvbVaSc0GrB1skM2GriMiyZG
+
+sprite $DataprocMetastoreMd [16x16/16z] dSor0GGm30J1DL__3PinUfX4BFuJ5JcS6iUKD2Ice2QiiGD9uFiFqVIXwRdt64c6w1ZI-ovgY2nfZHSdnrSA
+
+sprite $DataprocMetastoreLg [20x20/16z] hO_50GKn44A9GlyDVubdzhBsRgC0NY714YN5hUEeFtGOK1sEdXyzlmgKpfG9vI0h_n_NJNBpKaPbLbu68D8gqoeObQY2YPBDLaKI3ZXSvGi
+
+!procedure DataprocMetastore($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/DataprocMetastore', $name, $tech, $desc)
+!endprocedure
+
+!procedure DataprocMetastoreCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DataprocMetastoreLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure DataprocMetastoreGroup($id, $name='Dataproc Metastore', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DataprocMetastoreLg>', $name, $tech)
+!endprocedure

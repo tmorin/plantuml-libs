@@ -1,0 +1,13 @@
+' definition of the Item material-4/Editor/Functions
+
+sprite $FunctionsXs [10x10/16z] Oy0E-440p6BZXmio8PWSC2OtZC77pyd9YQmN0G
+
+sprite $FunctionsSm [12x12/16z] Oy0DE7b0W1dCPkS70HQ812i_Eq8LCpy7WiF1pmXZSY6OF0WcDv8vJCmWW6Of
+
+sprite $FunctionsMd [16x16/16z] Oo03yF1300kKpux6Ps3ZvsT4qS62Bi24Bi31puVCvKJbSaEv20Sm0m5S5ir-JXu8O2R2Bm
+
+sprite $FunctionsLg [20x20/16z] fO-r0S0m40FDR6l_QSCSTN_bWq19SVv4NxE64tVD8fcf07JrnREXOKFBXWa8dr46ucTKwUZxE82ULypZwiJHla9c
+
+!procedure Functions($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/Functions', $name, $tech, $desc)
+!endprocedure

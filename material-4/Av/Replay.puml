@@ -1,0 +1,16 @@
+' definition of the Item material-4/Av/Replay
+
+sprite $ReplayXs [10x10/16z] Oq05J306FoUSnSJB3vTbPsM0YqCmb6JZWdEv-VdvcP0D1G
+
+sprite $ReplaySm [12x12/16z] NOc54G0n3CESF4Fh_QSjiu8wOqMql-m_0rSJXNsgQ71qJ72yP_ybftb_Lh1nHs8dWyvu
+
+sprite $ReplayMd [16x16/16z] ROu30W0X54GNMNF_qsRNYz_pt7c_rSItcY3lP5j4t9JYyBq6P7B4eCJS8XxGPy6g_82ijjFLhlcaYkdzD5XigCSyWSG_jVw-zxaI
+
+sprite $ReplayLg [20x20/16z] {
+bP250SGW301nXzj_sfUwoxLOF15NIBcNeNPMx6L0D6jHeYEjX1cKgY1NmdyyIrrR_dDuhDX1tSig_MdQN4KPP0g_g7Eyj56a2SFDaQOE5yMLVoKMpAgDF-iv
+g51gTk8TNm
+}
+
+!procedure Replay($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/Replay', $name, $tech, $desc)
+!endprocedure

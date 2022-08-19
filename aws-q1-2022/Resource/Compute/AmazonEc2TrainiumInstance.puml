@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2022/Resource/Compute/AmazonEc2TrainiumInstance
+
+sprite $AmazonEc2TrainiumInstanceXs [10x10/16z] Oq0576n876RiB0u6DcOM1XPc80qLOqDMnmm6h4Zc0G
+
+sprite $AmazonEc2TrainiumInstanceSm [12x12/16z] NOs50S0m408l1ko_S5tphi1VL0W88Be494w9A7Vj0dSjY1gZZzwITsxUUiB1yM7znxi2
+
+sprite $AmazonEc2TrainiumInstanceMd [16x16/16z] XK-30G0n38plzb_uRRIn8HzG0k74jVdOVAokwmvpeA1dOyqj5tzklkOnHqolUL9TGiD2lSXU_ol_te_QWT__r8ISUFP7
+
+sprite $AmazonEc2TrainiumInstanceLg [20x20/16z] {
+bL250GCn2EJm_ISkKlTFS0Vwz9oCA8iLVBPPPFqBmTZYleoqpJqVRE5u6sVs6EVsFgviqE4O6nV9p4g0g0eLIYPlBa0O-lyiV6mFkNk6dGi11oT2IlfsqvcE
+cqpO2G
+}
+
+!procedure AmazonEc2TrainiumInstance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Compute/AmazonEc2TrainiumInstance', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonEc2TrainiumInstanceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonEc2TrainiumInstanceLg>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AmazonEc2TrainiumInstanceGroup($id, $name='Amazon Ec2 Trainium Instance', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2TrainiumInstanceLg>', $name, $tech)
+!endprocedure

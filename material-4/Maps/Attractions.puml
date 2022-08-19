@@ -1,0 +1,19 @@
+' definition of the Item material-4/Maps/Attractions
+
+sprite $AttractionsXs [10x10/16z] LS710K00002X083RVrjlvI_0VVRC4EpXLPimguJK8pJjUeAg5LnkDny
+
+sprite $AttractionsSm [12x12/16z] PKg50S0m24iTQld_sp4tD8PVjGibSleDoV08A2qO9W6tlXNR672oORzYz1L7h5ZBYfapkEUTqBLexbgXJHPYAx-ECx
+
+sprite $AttractionsMd [16x16/16z] {
+TOc55SLG38LuKa_A_jD-To7AkVoXlAikF5dKjDzipGaQv3PVLBdGj5nEGBh2DQW1kph1rI-9RZSl2Q4soiKdPL_3iUhDgz0Sj02qsQrlHNlXYgb6ScCDmew5
+Ruu
+}
+
+sprite $AttractionsLg [20x20/16z] {
+bS_5OG113C10BVEf_sh3p9cdsVpNPUEzEDJwBhITke-P9tcT1I51Sit7cCgJhfFNM6aHsdDiN0bK6tJ3uu82LLNWQSt9C5GDO05WTSW-rwN7c8kWUi2dcCem
+X6gOkfu-DTa1n_7vwzGrjfMsviGpdrHuLen9BwQliRcWx43SYM_S0W
+}
+
+!procedure Attractions($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/Attractions', $name, $tech, $desc)
+!endprocedure

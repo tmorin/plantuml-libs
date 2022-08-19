@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/PlaceOfWorship
+
+sprite $PlaceOfWorshipXs [12x10/16z] XSUr0G0X0CNGVwwG_QV5hIFLYrAhMfQZ6PZuX38t9dbbjKGh6gAbTV0IxG4
+
+sprite $PlaceOfWorshipSm [15x12/16z] VST50S1000EmZddrh_QOAR-WYSoNVTWzAwtTPdBztXSBJJzJagOda7O2FjClhmG
+
+sprite $PlaceOfWorshipMd [20x16/16z] dS_50S0m30H1CqlNVxLXvdYVOvHOKk8Kmvy9HoJqxGtrfaRZ3JdCpL8aBQQAwoG0EmDqmcH1qMXzeuN-yOF9VfW7ynVM0W
+
+sprite $PlaceOfWorshipLg [25x20/16z] jSgr0GCn50JH5REs_shDFlnA3buwWmKDcICXiNoHVxdmouz2k2-eJdvbuV_gc2JbkO2YyUR9JQWa058AB7qE3cZ_yFKD4IzIK7Xf9u8PXFu4
+
+!procedure PlaceOfWorship($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PlaceOfWorship', $name, $tech, $desc)
+!endprocedure

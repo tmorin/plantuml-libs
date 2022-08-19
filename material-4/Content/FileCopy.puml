@@ -1,0 +1,13 @@
+' definition of the Item material-4/Content/FileCopy
+
+sprite $FileCopyXs [10x10/16z] Oq00VZ00inZOE3avmIoGA1CVZCK0P49OV7pyG1PS3nj2DoOB
+
+sprite $FileCopySm [12x12/16z] Oq067FnWm0nYyp93n21ii0mxXCq3P3BniIFO340EbCt7nySFOOC1AXi8SB5P84mU1W
+
+sprite $FileCopyMd [16x16/16z] XST50G1140EmBlFKlzfZnlo26wxcQfh5Ua2FLLWVET7hwxWMgKz7e3eTaMe_HOHw_UpfgfuF_BvSZjfc2UW1
+
+sprite $FileCopyLg [20x20/16z] dT053W0X34HHt6dlVzhrMVSVWvU9LPncQIx2U2d1y48m5uVM5dYihAoCf9WE9WoMAnDOhWtBnQYBQJ7qpPmvMDSlgvE5iniwZrptQm4
+
+!procedure FileCopy($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/FileCopy', $name, $tech, $desc)
+!endprocedure

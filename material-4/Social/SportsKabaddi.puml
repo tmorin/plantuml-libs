@@ -1,0 +1,16 @@
+' definition of the Item material-4/Social/SportsKabaddi
+
+sprite $SportsKabaddiXs [10x10/16z] 9OY50OHG3CK2VBViF-q9RPyJTqFSD3nBYd692aMxcdWqsPlmk07N1GeK5X99e0E9_WK
+
+sprite $SportsKabaddiSm [12x12/16z] FOQ50SD008HupolxJrjlJk6dnAte_54837vIXcOWpDo2TY6esQGRT4mN6WWA5BU0LK0C5FdoR2_ySH8WV1kU
+
+sprite $SportsKabaddiMd [16x16/16z] NSc53GH10810LlviXVwx_PmBqGdS9Lxf_F5qeymGyyMie9QmCM9dLhihcq9HPNLNfQHHWplHJj8SO2KCFQiBKDO7D4CJY0RZwigqsiRfwCRBc6BdwOLFVm
+
+sprite $SportsKabaddiLg [20x20/16z] {
+RSu7SaKX34DHqI7c-Uv_jnb3UhwcMOUgdybPVzDW_3K3-sl9FVyv9wdQJmIwAk3ZopPaSNEWuwcaS2Y3Iq1QOC2eV19UQjC35bP2QWLVck1AaWL9sV3--K81
+7ft0sgGx6NPjgT5ZUX1-B3fRal7soxZqqpOQGJzjKjIYh7binPzMqOky0m
+}
+
+!procedure SportsKabaddi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/SportsKabaddi', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2022/Architecture/SecurityIdentityCompliance/AwsAuditManager
+
+sprite $AwsAuditManagerXs [10x10/16z] FSRN0K0X20F0y8f0il-yThsloou6vordCKT4fi-zBp3NXRk7nih__odHqc3eAqDagkEG3G
+
+sprite $AwsAuditManagerSm [12x12/16z] JOhL0S0W50EVO0dxpzlYS5-HGwSCCfz2Yfcgpco0mMncAW0VkHiI77CdIywvb3goYaX4hTPRGiBEaIEd53jikSC1VW
+
+sprite $AwsAuditManagerMd [16x16/16z] {
+NSe70e0W34DHTffm__jAtFgThvH7SGJeDv2Cf-MErKZZCjO2cEkuhDouAhUraAFGbhpFb559MtuKS8mfHScv9GyoEUTnBhh369KZSVHwM0WfImFsB6TLj9tE
+BZ-33G
+}
+
+sprite $AwsAuditManagerLg [20x20/16z] {
+RSu75e0m20JHTDZb_lSLUTWT-rUJ8DCZ4S4FyWT9h9uTI780qImlwuePc4OK9q_aCa9YZhjrJyeg8ZYC7j1RSyDXWIgHe-tMF2b1Gw5cRj6Q4G0psstbEfSU
+Lcl1y9FwaMPa9zb0h9csZeQwX1c9Z3mi_2ZiYni
+}
+
+!procedure AwsAuditManager($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/SecurityIdentityCompliance/AwsAuditManager', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsAuditManagerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsAuditManagerLg>', 'SecurityIdentityCompliance', $funcName, $content)
+!endprocedure
+
+!procedure AwsAuditManagerGroup($id, $name='Aws Audit Manager', $tech='')
+  IconGroupElement($id, 'SecurityIdentityComplianceFamily', '<$AwsAuditManagerLg>', $name, $tech)
+!endprocedure

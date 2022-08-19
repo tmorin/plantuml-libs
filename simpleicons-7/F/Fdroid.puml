@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/F/Fdroid
+
+sprite $FdroidXs [10x10/16z] JSR50K81042XPxViFwtncnF75k_BI8HijqAx0w93hiI58hhaGTXrnHS
+
+sprite $FdroidSm [12x12/16z] JOo30G113C3oPflzfttZKhEb87cHz0Lk4uHmKOqGM5v0bGgVtROdkFFLITOxJqdczrzsDa_kM8NA3W
+
+sprite $FdroidMd [16x16/16z] LSg54S0m40F1Ct_erN-rOV8DxaYPheWw2zC_GB99Hss-x71mXiiAyVgMquk-xDo__7OXNB_BoPUgChykXO9uF1rBgV6nZw4uCu-58hQKrzgLapxBNMTi
+
+sprite $FdroidLg [20x20/16z] {
+RSZ5WGH140InQEPA_wqzM1ZMKv6Rd8sBA8QLaom7kZ1Uvz3BeaXwtO3qEWVV4wpNbSETL9xfmwINzZq3Hz3BvnQogUwEXmAWMlTRVhcfWDXl54cQfpEtQEPF
+9rG0bN4uiMIgNiUJ0weETvBv1G
+}
+
+!procedure Fdroid($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/F/Fdroid', $name, $tech, $desc)
+!endprocedure

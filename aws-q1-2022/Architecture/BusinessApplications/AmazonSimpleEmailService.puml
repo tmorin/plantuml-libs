@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2022/Architecture/BusinessApplications/AmazonSimpleEmailService
+
+sprite $AmazonSimpleEmailServiceXs [10x10/16z] FOd70G0n088kFUZ--ruwBmK6VTBqfaJjbBKgfPJZ8frlh259erjDYl1XwnihC9QhYbZBcl03
+
+sprite $AmazonSimpleEmailServiceSm [12x12/16z] JOkt0GD13CFybmdjFwzIPLICAbvp-JEGQdoZDKmbzvOMlxtNEAK7UxutT5f_AFL-nWH6FMG6kxgjr7OVLuKbS83K1Oq2
+
+sprite $AmazonSimpleEmailServiceMd [16x16/16z] {
+NSZN0S0m30BH61S4sd_Uz7v_xtGKHwH_m_uul0sYZrOkkuQs6Wyp6hPO3yE0r0VLTW_34ugeifi6B4qK56dt5O48hLQcuGPCG6XiJhd8yAXTkvDkeClAmnac
+BFbo-kpoCnO
+}
+
+sprite $AmazonSimpleEmailServiceLg [20x20/16z] {
+RSi54i0m24HH79RS_xwDZlPNymPmgrTcuWVx1_jYc5fUx8r11S3fsKIDkoxvB09-Adx67Rm6b55wBD412N0fGCUyfwcnv3GxPjCOCsN0fuqzLsR6ym44g34Q
+sIl1YkOp9bA7Ht2u8EFON2UUSmtYmhMHq9RqACArMLIpHpkEdVgrxGV73tu
+}
+
+!procedure AmazonSimpleEmailService($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/BusinessApplications/AmazonSimpleEmailService', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonSimpleEmailServiceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonSimpleEmailServiceLg>', 'BusinessApplications', $funcName, $content)
+!endprocedure
+
+!procedure AmazonSimpleEmailServiceGroup($id, $name='Amazon Simple Email Service', $tech='')
+  IconGroupElement($id, 'BusinessApplicationsFamily', '<$AmazonSimpleEmailServiceLg>', $name, $tech)
+!endprocedure

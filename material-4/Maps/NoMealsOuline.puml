@@ -1,0 +1,16 @@
+' definition of the Item material-4/Maps/NoMealsOuline
+
+sprite $NoMealsOulineXs [10x10/16z] HSk30G0n40J0DyB-kyqYnfosjTwjOkkyEms1KynA6RHG0w4v9f5KsiYh0G
+
+sprite $NoMealsOulineSm [12x12/16z] JSY55S0m3CHGlJBV_jisP0X-cRnMUCk62xIZiYU95iLFTubmYU6fHJS8xTDaBe6vXTbZ6fCV
+
+sprite $NoMealsOulineMd [16x16/16z] ROw55O1034E3Ezb_MogFq-Rqrn5fjEtY9cSSAT-NObt4S1e_59P7353cps8e-AOQhiGppP0OXnaIYpYkOdYUpDOMYTCSYTs0Wh6w8N6AI5fcV
+
+sprite $NoMealsOulineLg [20x20/16z] {
+ZSy54e0m34JHZpjx_zC2zKp6sF7NnlYRQG5qiwe3Hjt0fQNPfcZem-wArYjPncYJiG-zhVU7W_-NoesT6QrnPRG6khlhGsUGogtbYxpbYwpbdvsp-DCRLyFp
+84SQmMU55m
+}
+
+!procedure NoMealsOuline($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/NoMealsOuline', $name, $tech, $desc)
+!endprocedure

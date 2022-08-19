@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/F/Foursquare
+
+sprite $FoursquareXs [10x10/16z] PSY50O0020J0irlsdzPkuLj4PBOBnwsRt-Qw579q5ELcOeC2Xa0YIv9IBym
+
+sprite $FoursquareSm [12x12/16z] dKg30G0n4CiRHVQVzZn1Zn4EagWwR5SnSFav0-xuuJCDTrlQFcvy3Bnd-ZJSmt_ePn8A
+
+sprite $FoursquareMd [16x16/16z] bSk30GC144JHT_PD_zN6TluQG_Quii27EUCukc65F_Ir1ue6E9LqvToJlfnM20PhWRR3U6W30ePKDtE9dBeLGTGpKq2IYZh9tDa2
+
+sprite $FoursquareLg [20x20/16z] {
+ZOw50SKW30LJtCBRVreSliiHlIeH1fBkWHODUdHZ_yDryfEJxvxzs_s9q6kGwZmSFNFhhWsPXugs5qq6Oqkz-hXklsORDIESPJpHkJpISS7G8l1sVEtt213x
+lhIX8Pkyq9xeBx2GD6G2ZvzrdEC5eWe
+}
+
+!procedure Foursquare($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/F/Foursquare', $name, $tech, $desc)
+!endprocedure

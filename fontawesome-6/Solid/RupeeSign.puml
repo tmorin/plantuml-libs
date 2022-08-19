@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/RupeeSign
+
+sprite $RupeeSignXs [8x10/16z] FSg50O0m40F0uCxjForENsFvQiFzpU7zAR_rLATQCOGdbuoURzJNsTBOJm
+
+sprite $RupeeSignSm [10x12/16z] HSZ50S8004MnXplPVrgeDvSlRMuuDEBDfOfwMzl1_fqiBXoVS8fhv5vVwACA9UXQhxfz-WC
+
+sprite $RupeeSignMd [14x16/16z] NOs50GGX40DpBYlJVxKlfy2WQubgCjEUW8DyegaVdn3wuowZf8qsdy-e0r4m6TPPVmKoudGOuJ8-vev82_2FviiyZaWW0uUaavnpRbV55m
+
+sprite $RupeeSignLg [17x20/16z] {
+PSw50O0m4C30uDxilorzN88VzlogSYLtYqRZ1HvDDon0ql85SNX3gszelf1CJERA7Hhj1gFGFJJHBdW4-omd73Ed_QEL0SpccW1qvgA0wPoYE02jITfDE-np
+QRIqTa3b0Brc_xK2
+}
+
+!procedure RupeeSign($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/RupeeSign', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/SettingsCell
+
+sprite $SettingsCellXs [10x10/16z] Os1WuE7dvsTZ005-482mW9X45X0WMBnW5ZCGCZ8m
+
+sprite $SettingsCellSm [12x12/16z] Om02VY3WPG037duGO8QmsPYPcNbP86nc444ccvU7XuSVmkP6Cf-16GGO880N184q
+
+sprite $SettingsCellMd [16x16/16z] Om01FduGu6I00cv-2626ydcWV1OOdmTCqP-FxXuSxcNa0GDE1bo0duc97seg
+
+sprite $SettingsCellLg [20x20/16z] rSYr0S0W0031nntsdpRkrkVAOvBRf5esiQtaTdaxVRWuoQTZOdvrPX9EjzelRQUsasiLlYc9KA04krRnJT0ienu
+
+!procedure SettingsCell($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/SettingsCell', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item material-4/File/DriveFileMoveOutline
+
+sprite $DriveFileMoveOutlineXs [10x10/16z] Oy06-840oe823WQW01ZpW4W-a3mFH8m9nc82ot90TI0P1m
+
+sprite $DriveFileMoveOutlineSm [12x12/16z] TSRL0O1G34MnWrlRk_-qkCFBLqWoiuQDQsQpONvTR3p72q20hUz3Efxd4SSXM6y7vL0Sk9i
+
+sprite $DriveFileMoveOutlineMd [16x16/16z] bOor0GGW00DnX-m_BQxDotLHyZTew2qPEg7XHTDX4z5qh_K1trf0Nvgbr2-tZX6mRz_i_lj74GujivSMv1i5
+
+sprite $DriveFileMoveOutlineLg [20x20/16z] fSk53G0X50FGuaxtd_PSVuZouXNCiMvZVn5FGMQxUafdzXVtBEEBzSqyHraNMU-Tv3_ZmOgl8ZL4bcaXCsXyibw_Zada7wQi
+
+!procedure DriveFileMoveOutline($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/File/DriveFileMoveOutline', $name, $tech, $desc)
+!endprocedure

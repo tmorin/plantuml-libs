@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Centercode
+
+sprite $CentercodeXs [10x10/16z] Om01PWOmOEK70I233KX2c60kY0rcWGMO8P8CJ30n88QgOu8BmFI16G
+
+sprite $CentercodeSm [12x12/16z] BSA54OC0002nh-6G_RVj8RdKwTDZTnghE9psEgZW7Qf6nDnaxyCv534rEseNQwSFJLGTLBlt3uQgjrFr1m
+
+sprite $CentercodeMd [16x16/16z] LKw50S0W30lkyF-tgyqoWKW5Xe0N_WYsqNbk9AFRcUOr3C8I0T3_tQKndyGIpAAlojNBF_07hwd-zOEqW3G1YgDV8xwrdusC4XKMR7AIVpt_HPGQcYrFk
+
+sprite $CentercodeLg [20x20/16z] {
+LOu54WGX30G7T_Z_RwyIXhfihz9HF5p0btQKdV58vyytYNXH-OQ7pPHlafz-tU8VBbSwC2ImGLFN0QnpABSJLvd1yg0luD1v-N3iD6k0jTYYr4ripY1BgeBT
+nPj9ThtChYmJvYkONUTIcGmMFbpRafEW_
+}
+
+!procedure Centercode($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Centercode', $name, $tech, $desc)
+!endprocedure

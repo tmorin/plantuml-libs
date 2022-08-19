@@ -1,0 +1,19 @@
+' definition of the Item material-4/Action/HighlightOff
+
+sprite $HighlightOffXs [10x10/16z] LOYr0S1030FFr8Iq_xGXLM-BMKuwVp_qbVp4EuR8HdZUkRnDUh2Mad5bZWGU
+
+sprite $HighlightOffSm [12x12/16z] NKc54S102Ckxa_stxI5dHQBuppmzrEEicyFaWGwRWgfcF0SIEm59k0KOsjsClj48GazV9obFSPcLEkLIfVSkFW
+
+sprite $HighlightOffMd [16x16/16z] {
+RKs50GGn28Ewalst_V1-aagi8lTG_NSBZlfs4PP83VlbCL-ihs0PvJk8NYUA8flnsXuogp3mJA4ExiLGk2Uy-utgGNNj_vfAxQJX_qBUo50dCttRzietLexL
+QDz81c2gtE01
+}
+
+sprite $HighlightOffLg [20x20/16z] {
+bOv7biKW30I9Je3w_hUTRlDaDlDJBL0gFHH-um0PEInsm7eRV9EtEf3SJcurdoOW1W64XppdX_nwKJ8w7RTcV1ek-bdRXUMq6y2AuEH3Gq0pLz3dXtqsiVCn
+wE5YKrdl2ulIc7N1EimuSauA8iFoqnhFyUXIAzXoKiD4YujwzOFkI_u
+}
+
+!procedure HighlightOff($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/HighlightOff', $name, $tech, $desc)
+!endprocedure

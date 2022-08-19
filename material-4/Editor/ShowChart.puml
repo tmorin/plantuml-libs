@@ -1,0 +1,13 @@
+' definition of the Item material-4/Editor/ShowChart
+
+sprite $ShowChartXs [10x10/16z] Oo0Ay3E1I7O61bvsC9UVdOC7p603ii4CLZow0G
+
+sprite $ShowChartSm [12x12/16z] Oo09S2EOdFnWYf6TWO4LokJdPsU2CHaP-65C9X09qSH4q0O
+
+sprite $ShowChartMd [16x16/16z] Ow0cOEL0uJBpe_0P-RdWB7OWoSy3v_831VZvO5mWYmCe1EVo0aaE69S1o0KBm_Zi53aP
+
+sprite $ShowChartLg [20x20/16z] nOx50O0m5CLmX-m_BL2tQoNLxwzhG7_tYG-6s7Kpkv9LkrRdUgHni3iNy3itBZzh-S_fks1HkQ5BSFkAvYvXwGhp0G
+
+!procedure ShowChart($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/ShowChart', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item material-4/Action/InfoOutline
+
+sprite $InfoOutlineXs [10x10/16z] Oq01_FoyO9gR7yHX0X4810PCB20M67Cpy45Oh4nWYWqYp0pKnmfLpSe3CWC
+
+sprite $InfoOutlineSm [12x12/16z] NKc55KCn4EBYdlstxOD-Fq7ndTBJeUOkeUqisPNiIBY_iEGim_17FXnIE_JZZLmMG6cajDVOaWgTw0S
+
+sprite $InfoOutlineMd [16x16/16z] RKi50iGW3CDXrlp_jxVgsOAqiVICd3_P2SOqLa3j7WkNSXpMKU4aoOXGsMvI4kjYCGKVqAJ_3Uexd_nZ1gVTnNpUNqSMbNWmNKbmuUnr4bD59G17JWzu0G
+
+sprite $InfoOutlineLg [20x20/16z] {
+bOm55iKm2C2epTgI-vzs0j_zPzgGX_p71D3JZHb1M-sWyQmgn7CTprKzJoC4-m5lZbFo-UJzg5OqB5Ev8P8Fvzlov9BvU2rosNTEQFTk517brXNYiOZnnk65
+sYWDn__iWIGqYJFJnKdGekqovOIACyejPMbJbFTi
+}
+
+!procedure InfoOutline($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/InfoOutline', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item material-4/Notification/AirlineSeatReclineExtra
+
+sprite $AirlineSeatReclineExtraXs [10x10/16z] JOo35G0n04DpHl7tdxPMdc8jUEZCTOOw-mLkB_G5FON1A9uqSHJ2FNyZ
+
+sprite $AirlineSeatReclineExtraSm [12x12/16z] LSX50G0n00F1bBdhN-qnpYUWl_PMntSyBUL9lBgP0FqSLARIrHteCYqxjtS_vRptb7sayvxwMW4
+
+sprite $AirlineSeatReclineExtraMd [16x16/16z] VSt50GH124HHQFUVVxIhu_PkQCa5tPSP7cknksCaKsI51OQkTHfyjQcklO2NuAVQuw1l7ohGUtVp0zVucbFQKEi-mdmr-15bJ2_Cbrnv0m
+
+sprite $AirlineSeatReclineExtraLg [20x20/16z] {
+bO_70SH020DPmDbc-g_MEVAwcnzHaln10v81FFScA9Ant68GP_ps8WJ0thsUlSVa-Zn30nXvAz7sU-sDFBseW3hPKs3uzBgzjzDVFQVsgndFGorcljBToUqv
+zLjC-oasEf7IoSyi
+}
+
+!procedure AirlineSeatReclineExtra($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Notification/AirlineSeatReclineExtra', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item material-4/Content/BlockFlipped
+
+sprite $BlockFlippedXs [10x10/16z] LSA53G90002nlaMmstzR8cXJV-eEhg69Hz2xkOLmzO3iGL2OJJlWt2QU
+
+sprite $BlockFlippedSm [12x12/16z] NKn50W0W3C9k-VzhhUtaEW3ybblGQJ3voYIZkOttHKEy1SW9iao3xkI6RX6h0gWt6DhRyrkSg4NEJXalmhws0G
+
+sprite $BlockFlippedMd [16x16/16z] ROm54WGX40E3E_d_Rw-GcRDjl9C2pnY33peNyRuifmEGER2HnB3lyemCLwmU7KJqiIGW8dBz1XMEDxyYhJkJYb6nvHM5PbtcEL1l4uCzk3YOSN6JP3Duu0K
+
+sprite $BlockFlippedLg [20x20/16z] {
+bSg55OKm50JH9O95flzgiOTybq5pp-g_EfQAlvUQKbdUxg04zj_RZwr6MGuQhL7JYTx-UXfTcB6PTA4Zh9PqYmphQzGDseIiMwIJLD4D1Xgjx-u6iKN5dLYn
+WGCl2x9qO5wdeIvqr2IiJhV5CVTExvi1
+}
+
+!procedure BlockFlipped($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/BlockFlipped', $name, $tech, $desc)
+!endprocedure

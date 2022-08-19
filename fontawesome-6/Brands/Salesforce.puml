@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Salesforce
+
+sprite $SalesforceXs [12x10/16z] Oq01_FpyG0ncyl33050O0P3PhFmiB0py7BmiG3OlLZKy89CWOb00Om4
+
+sprite $SalesforceSm [15x12/16z] NSs55SGm5C0m5yFn_jCUmt_L0e8h7L3uyACl2r0CDgeHSqnrd7rEzT2Zu3xTy-vNzWqZo7x5cQ1NFku
+
+sprite $SalesforceMd [20x16/16z] VSY50GGX4CNGZplflzfpMN_eH2VIADhWoStdzKiBSSxqQqk_jlHk_NcLNuEGNNGZfEfB2Yb1W1fydBHSo1FFKkIhi6F4HfTaM6Zwyl1aeXRAC-dI7G
+
+sprite $SalesforceLg [25x20/16z] {
+ZT3L0SCm301HcL6w_QSjSqClCTwVPPCBGPPmDKKCnjyzA3Vl-yc_U0qi6Mk1iXPuXCPLKjx1I7sKDbilCzOsIkuf0RUHh7QmqXFL8X70m9HfJAOg4vZCs-Ko
+7rYKHOn_VV59dBnLk6c39b-CAvD_7HXoo1a
+}
+
+!procedure Salesforce($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Salesforce', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/TarpDroplet
+
+sprite $TarpDropletXs [11x10/16z] Oq03_FneJ4P-VdvE5Y071C0KOS0EqWpNmGrdCW
+
+sprite $TarpDropletSm [13x12/16z] bOTL0e1G40B1rgtxdzPMljzimE26WAXINpxPp8odd35xdJXG3wWct5qocadcuYGX3W
+
+sprite $TarpDropletMd [17x16/16z] hSYr0OH004JHMVVz_LTxWaFCIqQq2Ng0vyO_3xHAxKSJ_D9iP24ZiMcUdp7PIRp9_d3HN6ljTdWmZyDAjyD9Nm
+
+sprite $TarpDropletLg [22x20/16z] nSYr0O0m0031nvtVVrhSavuhZrjFn6XEe589k6YZEtBAkWszcgNTgY5nrv0tu67qqAL9uGCO0VwbOkK7LRS8jb69BNJX9i3utJLd
+
+!procedure TarpDroplet($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TarpDroplet', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,27 @@
+' definition of the Item aws-q2-2022/Architecture/Database/AmazonMemoryDbForRedis
+
+sprite $AmazonMemoryDbForRedisXs [10x10/16z] FSY74G0W2C10x1hOVruxkVON6Ak-mWd2w9kGIfEogEoMXYe9IMchbWGihLY5OLf3ARA-sRyJ
+
+sprite $AmazonMemoryDbForRedisSm [12x12/16z] HOo54GHH34A_H67xh_U6dBsH20AqA87_eVtkVUS0jfIb0pZbdaiswWzeR_BKpcKn--OEBxVvmrNcxt_m7Y3x8Hb3uT51Ghm
+
+sprite $AmazonMemoryDbForRedisMd [16x16/16z] {
+NSp70S0m24DH0YuWUVzrKqZtktsv077o4_1Vy1kogxNUhEIGdJTgxBARwQwTJmYSV_P891I7jztLJOejTmCMiaZusThDi7FDfjFZoEQUNQc4QGSKCKXqqPC0
+O_24qvY63G
+}
+
+sprite $AmazonMemoryDbForRedisLg [20x20/16z] {
+PSXH6iGG40HXqA5hzlxdtVZW9GNC3_WqTl15lhYigpNrXSkSEdDC1u5ccDWrSLjDwbsfo0lZDM0Cs_B2YDTMnnmHhOolCMeXfrPxlHOWMRK-llQ4Ucs0ISSy
+MXjCI-NOFCmIv6LoYA2Mp6lOlnUVaXzLAKcgnh-9mSusy9kuMpxjYty
+}
+
+!procedure AmazonMemoryDbForRedis($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Database/AmazonMemoryDbForRedis', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonMemoryDbForRedisCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonMemoryDbForRedisLg>', 'Database', $funcName, $content)
+!endprocedure
+
+!procedure AmazonMemoryDbForRedisGroup($id, $name='Amazon Memory Db For Redis', $tech='')
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonMemoryDbForRedisLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2022/Resource/LoT/AwsIoTMqttProtocol
+
+sprite $AwsIoTMqttProtocolXs [10x10/16z] Oq009YZDYH0XaiM8AiR236PnCa80Cm
+
+sprite $AwsIoTMqttProtocolSm [12x12/16z] fSor0S002011d6V_WUFMvneS-HgzjUZJvKT-_D4-p953gXL7dcugYJGeXra1
+
+sprite $AwsIoTMqttProtocolMd [16x16/16z] lOl50S103CDqbDZx3rpc0QgNaI_LkZ7urGPwUVtisNr--kpgbTektre2PN7U_2BZU8TKT98p
+
+sprite $AwsIoTMqttProtocolLg [20x20/16z] rO-50O0m30J_lfhz1yOT5k2gyKIVrBZHaQfr9vPzn_wV3XIleRthFc9hLeUCIHTTILQHXAs--oMHDnrXeC9-9oz93JxH2
+
+!procedure AwsIoTMqttProtocol($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTMqttProtocol', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTMqttProtocolCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTMqttProtocolLg>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTMqttProtocolGroup($id, $name='Aws Io T Mqtt Protocol', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTMqttProtocolLg>', $name, $tech)
+!endprocedure

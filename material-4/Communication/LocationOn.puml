@@ -1,0 +1,13 @@
+' definition of the Item material-4/Communication/LocationOn
+
+sprite $LocationOnXs [10x10/16z] Oq01VFnS40O_280OBFmy310M6pypK1ukYs1nmxL0JM7dXnl82Y8
+
+sprite $LocationOnSm [12x12/16z] NOl50K0X04BvQSl-qzhzJYHEVlDqoSoGbjHD0n_Pz0KrT4OMVIzV-17N5JeFSH81
+
+sprite $LocationOnMd [16x16/16z] RSg50G0X30F0u0xxR_j8tZcqRR0d11vqw-gpd42jo_r4JB9_UK-gjGBWgaN_2RYhHYFFsh86CH2lMd5yIRrKU63wLh5t
+
+sprite $LocationOnLg [20x20/16z] bSx50GGn30J1MMPt_j6QuHZg9vR-qnjWrwsDP52rKdGgyCp9xVW8d5A7TpiQXgwRt9otcvjSZpTsAs1KKArFxq6dYknGiv3ebY6OTQl7kvJTJElHmQ0dapvn
+
+!procedure LocationOn($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/LocationOn', $name, $tech, $desc)
+!endprocedure

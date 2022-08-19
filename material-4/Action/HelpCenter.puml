@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/HelpCenter
+
+sprite $HelpCenterXs [10x10/16z] Oy0A-240o08HJ50Ma8AnG1Yc3eSO0W
+
+sprite $HelpCenterSm [12x12/16z] Oy09-640mkPcuOEp6VX094mDb0rX8jWS_DZ5UP3OO3wAhG
+
+sprite $HelpCenterMd [16x16/16z] XOl50G0n40B9nfN-gprtdHUAVt9T2QCjt971rr44auvUL40w-4PQi_inGJrv7FzZpPDdFVjmxSlc8tSK1cHZj1Tw
+
+sprite $HelpCenterLg [20x20/16z] fSY53G113CJ0FUQa_sgVcS4YQ_2lmijiPxogp4PM-tuwcqwkBGbY3rfPcmTlBS9jhS3mrW9eQsqxYufsff5tnfatDfSxSuNcYiJZQW
+
+!procedure HelpCenter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/HelpCenter', $name, $tech, $desc)
+!endprocedure

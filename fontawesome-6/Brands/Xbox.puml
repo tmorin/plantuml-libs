@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Xbox
+
+sprite $XboxXs [10x10/16z] BSY54S0m30F0CZVQVzluxsAB9xSIzsHZU-XMceXKsCKbH-bli2OFNoMBAMBT21q
+
+sprite $XboxSm [12x12/16z] JOY54GH148Gurrtop_Qhv-qORIWcFWohzfdWG5WxDDsfCwD6ZxcbEtGTeysA7_BQEKIwuK3MGGk0_V4pVjyN
+
+sprite $XboxMd [16x16/16z] HSg55G0n20JHEVTC_ztU8_gZm58j35CoV0phA5vlYkG6ave8gkN-UdtLBfIaKKzm25pgh2-S9LJcCGsmHFqoMu2I9gmIzmeyDdEKsBs4sORgD4IO7m
+
+sprite $XboxLg [20x20/16z] {
+LOu54i0W30IlXaF-_zjcBkXMsIW6ruEJAAGvx2HLBoR1Mx5Lt50-pK3dxV_iT5i5cuxsrt3yvyV3QA94kiA-in7Vbf8uHBdrSJsXycjveuQPvfwXA8kcLm6o
+31xSyk4HlHU0th1rLZLtlMG7ngugEbK67elOL9GFv0S
+}
+
+!procedure Xbox($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Xbox', $name, $tech, $desc)
+!endprocedure

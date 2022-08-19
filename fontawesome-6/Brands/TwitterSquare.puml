@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Brands/TwitterSquare
+
+sprite $TwitterSquareXs [8x10/16z] Ou02LdvCmCx002I1ad2Q4qXpWxWGFf9Q61i
+
+sprite $TwitterSquareSm [10x12/16z] TSlL0O10081Gx9RzfxNRk_SDt8n9wavb4CZLvigBUsHHkXWpIDtqdM-CXtu6
+
+sprite $TwitterSquareMd [14x16/16z] XSc50S0W34JHgrl8tt_QkXiFuheoFrI1k28nO-G2CaaPax6wHkjjvKmIBPYrcbMSHsOXrwXWOwtnfk9C5mC
+
+sprite $TwitterSquareLg [17x20/16z] dSc55GCn30DG7OUr_xPzfZB_n8m7yt836_ynBCzJPQD0rImQnOHvi45G3MadIGlLZ73G87IQ3OvktCoYGLIw-VOkMgbyQV0EUAlZtWa
+
+!procedure TwitterSquare($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/TwitterSquare', $name, $tech, $desc)
+!endprocedure

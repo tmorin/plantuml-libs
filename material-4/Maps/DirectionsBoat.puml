@@ -1,0 +1,16 @@
+' definition of the Item material-4/Maps/DirectionsBoat
+
+sprite $DirectionsBoatXs [10x10/16z] Oq01_Fpy41eCU84iA1ycniCFP4015mCRbCK05qGp3A87
+
+sprite $DirectionsBoatSm [12x12/16z] NSp50G0W30J1uCxrtoskYsHUeJy0Kp5Mnz1fXAmbqIo9-pgwCthL4IjERBillEmfrvSCrNZghvO01K03l
+
+sprite $DirectionsBoatMd [16x16/16z] TOs50GCW40Dn3zb_stvANGwz8Ez-0fBndq_UILTdJGUiuugzZNNthFSp7CzyiBrTv2kw_WBCzulhvsBlNguxpw4CtaCkigRWdV20Afq9ybLS76ZUT_CB
+
+sprite $DirectionsBoatLg [20x20/16z] {
+TSu53WGX44HHsaUf-zzsqMJ7Fj67TVgESkrgZDh_8JDlPgQJyDVPpH0gPTLEJDCqE_wC_C0c_xPYT8oxSUA_dOhXrbOituoB-SqAtIyVHVulrz-YsOOjqGxa
+I7g2qqVCiW2BiEqudVasNvwVH3YNq-vQJcY4fHy
+}
+
+!procedure DirectionsBoat($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/DirectionsBoat', $name, $tech, $desc)
+!endprocedure

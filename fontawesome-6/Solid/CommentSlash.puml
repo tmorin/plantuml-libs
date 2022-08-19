@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/CommentSlash
+
+sprite $CommentSlashXs [12x10/16z] HOo50O1058MmM_QVrlOUlxE6O8KNwrjyFCMUGfhaGd8NlhnxekOFutlxuGa
+
+sprite $CommentSlashSm [15x12/16z] LKo50S0m36Bku_zhwp6gmMP4y08M5iYiwFCRvW-hZ7SpMw2ECkl81xUOku99giN7lquRMNRz_rL-9WWEPW
+
+sprite $CommentSlashMd [20x16/16z] NS-50GGX4C30d3lflzfNV71dnmDwk-7NpjTzZ4IJWj53P2tjlQqGhHRXFp53j_7I2zgvyz-vwxd1hu6bpALZM-oSb8tU4DJkqt34I3ch80OTW54l2fsXz_W6
+
+sprite $CommentSlashLg [25x20/16z] {
+RP250SKW34Jnujb_sY-a7FggN3mgYpkPI0f6QIKdIo8o_64SB8ue1ffGCD66dmgj65Z2Pc6rHY7qQh2zn5ueeRPg3OF2XhUJXm2l0_yA1ZUtD1VQ1hJTAOhP
+me91wSd0KgNQzKe3sOwyVjrwaZwL7DkM_Bj790Nob4RsBm
+}
+
+!procedure CommentSlash($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CommentSlash', $name, $tech, $desc)
+!endprocedure

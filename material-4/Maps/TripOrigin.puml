@@ -1,0 +1,16 @@
+' definition of the Item material-4/Maps/TripOrigin
+
+sprite $TripOriginXs [10x10/16z] Oq01_FoyO9gR7mIOm29W0e91J1OuYvk13ynYv6U2I3E2PPZ1UY7ciVA0p
+
+sprite $TripOriginSm [12x12/16z] NOo54S0W40HnX-s_st3CZsNVrVrfirYs4TNIdYRacuCwKQ7Hd03l5kdbY-0Aq_hF1RrLBdyMMhyKi5JuyC87
+
+sprite $TripOriginMd [16x16/16z] ROq50iDG24FRVZVU_KyxOPatNu78Tevz_wmcTnHL1y9wr83bs51ZGlM-GV2noHEMtrb61kuMtp4-hwe1tOu0_VOKC9Niic5DU0aNe59A0yQkwWjN
+
+sprite $TripOriginLg [20x20/16z] {
+bOu50iGW40ENEZh_V-tPafxRL9a4iV_O0EfuOrOwRP3AN1bkMdcPrWOGBivZhPhr4yn9GAyb4y3adzb4XQX85CZkLXCDLlzKgT2FCAdeEVjFlBJQ7e-SgQM1
+bf74bGWPPxLRvbIsmTvp1
+}
+
+!procedure TripOrigin($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/TripOrigin', $name, $tech, $desc)
+!endprocedure

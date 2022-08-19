@@ -1,0 +1,16 @@
+' definition of the Item material-4/Social/HistoryEdu
+
+sprite $HistoryEduXs [10x10/16z] ROO50i0m48EO-_Z_Q-VQbhiaaAJjt04Bp410TzsDSLVPyGggpMEElAm
+
+sprite $HistoryEduSm [12x12/16z] VSQr0SGm04Mn5p33ttzQOtCOLU99Ni1fkE_x4XnoHoc0WADUfye-IDJ2Fe9pFslQJ-kbCbqBRpe
+
+sprite $HistoryEduMd [16x16/16z] bSZ50KGX00FHV4L3-gyMX-FAkytWV-TzKSDPIqswgwlreGWuFQXgjo4FetSrm6IJwbWDIdZhM0qIC7wreqHoTrGNLmSD5BeZJXU-AW
+
+sprite $HistoryEduLg [20x20/16z] {
+hSnL0eCm08FXKFVS_xPRYiFZzg7zA_W3ltEG9TNik1jAbLDsOcTRI0iaSe6epTWxB6dEfaWWaClUfBDtVfbBGoERjY-N1iEeLtWrELhZ9hmR8zYtLhdhJCTf
+XuRVV
+}
+
+!procedure HistoryEdu($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/HistoryEdu', $name, $tech, $desc)
+!endprocedure

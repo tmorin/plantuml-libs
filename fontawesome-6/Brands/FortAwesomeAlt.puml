@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Brands/FortAwesomeAlt
+
+sprite $FortAwesomeAltXs [10x10/16z] FSD50O000C30mvtrRykF2PY0fIei5KNLLgMM0JMMKqg19_5lYGDQ4Xy
+
+sprite $FortAwesomeAltSm [12x12/16z] DSYr0GCm0CH0cTdQVzfmhddW8_5pVEi0gc7g-RsWHdHeNXv5-UWQbG3htJ7yVaJ-f0F70FbTu9h82I1UdG9F
+
+sprite $FortAwesomeAltMd [16x16/16z] {
+HSw50S0W44FHuCxjlsr9Qh_wAW3kNC2VDxKVJYBmb6yo0EVi0IS-DfvLCLLfSDlerSpa9zhBnd5bs3eOnmrrqRxWAM8PjjTw2zWwM3WzgpK0gJyccTzEJgHg
+nZJG1G
+}
+
+sprite $FortAwesomeAltLg [20x20/16z] {
+RSm5SW1120NHPdRS_lrF6w68fzSVr49a3p-Rycw5gEYhe27FhZ_Izot05K2_xC1Gr1I1_qEr7MGt3qd3ZMAMAMIwf6jkM08Ut9JS61DG6FyRuhD-J9ihVcJA
+F65BEGnG0aYIy9cF1532nW9VoP-s5j5HTfkgV6RZIjePxnK
+}
+
+!procedure FortAwesomeAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/FortAwesomeAlt', $name, $tech, $desc)
+!endprocedure

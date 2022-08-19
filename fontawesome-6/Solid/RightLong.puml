@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/RightLong
+
+sprite $RightLongXs [10x10/16z] Oo06yFF0MVpyVFmm01TZXh6mQmS
+
+sprite $RightLongSm [12x12/16z] Oo05S22OZFpSG082MFZv-VZu4G2XXfy5mMOcoWe
+
+sprite $RightLongMd [16x16/16z] Ow0UOE90vVFmSwFn-NaO6FZWW1y8W2GgO6240nuWbnLLFpEgUKoKEne
+
+sprite $RightLongLg [20x20/16z] Ow0xuEJ05EFdvy4Yni-D8GO23Apy682NZnyJC71m8W6m42kcUSoOTZ1Zsaklq04
+
+!procedure RightLong($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/RightLong', $name, $tech, $desc)
+!endprocedure

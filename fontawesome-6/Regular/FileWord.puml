@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Regular/FileWord
+
+sprite $FileWordXs [7x10/16z] 7OM50S0m48IeUzb_shoS06OcVc1ticM9wssnYY-MCgd_Tqx1nFfyTyO
+
+sprite $FileWordSm [9x12/16z] LOg50S1020DJVGDk_sdhUZY9Z0tJDbDA6KJI1l1VDhuB8bVRbXp08V4idTl7F7En0W
+
+sprite $FileWordMd [12x16/16z] NSQ54OH04031mU5iyi_sQ_UTBcjsKuFe2oYXgx_tzVPpfcdAlyGRBD3ZannIZ6FHovQlXYa_AKeUExRNq-tuzG
+
+sprite $FileWordLg [15x20/16z] TSwr0GH15CDGBGv_zL_jCOEo5zdCuRKECFiC22SkNQqywGVzHqefeVAi_M0Ra1Tmld081jNbmirS5UL2FDUC9vkwtBWgGnz3ocn_S9iX_xhHZFf82NrMZW
+
+!procedure FileWord($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/FileWord', $name, $tech, $desc)
+!endprocedure

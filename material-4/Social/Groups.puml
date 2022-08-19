@@ -1,0 +1,16 @@
+' definition of the Item material-4/Social/Groups
+
+sprite $GroupsXs [10x10/16z] XS6n0G0H4031_KS4st-tBWSpF6aXTD6EFqtum0-JOGmL3KKs9W
+
+sprite $GroupsSm [12x12/16z] ZSZL0S0m20JG8wxS_jFMvQUIXuDHfjuxoMrcohBhDktw4i0lCpPmXUR8LhVTBkcijMuXrk753
+
+sprite $GroupsMd [16x16/16z] hSUr0GC1581GliI5_QUDovLdhmBMiJqb0piLtWu7EAi9fuBG8bKuAQ000MmyFolO-rJFRDs-L-FgKvtr5rLDzLiyPw8x
+
+sprite $GroupsLg [20x20/16z] {
+lOn95W8X44EB6NeWzx-joJChjsf_PYg_uadcsU8347sQf0Mo_OYu0V_T4Gt8Rwkm7MFCdC39lqivMyebFzBQShihJ9S2iuErIXFwDtduefQcDiYhDKhL42dn
+5Z_c1G
+}
+
+!procedure Groups($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/Groups', $name, $tech, $desc)
+!endprocedure

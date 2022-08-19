@@ -1,0 +1,16 @@
+' definition of the Item material-4/Editor/MultilineChart
+
+sprite $MultilineChartXs [10x10/16z] TS410KG0002n_GF0zM-h09jtm_e3SwCr_M6X1MfPpz2iH9Dl3m
+
+sprite $MultilineChartSm [12x12/16z] ZSYr0O1000F0mvtiFotUyzT45EbocLdeTvWp1LG3urUJeKxgfrOIpKRr7goe_Ja1
+
+sprite $MultilineChartMd [16x16/16z] fSUr0GDH081Gxhuh-qyRbpvv5V2B8vnyDU_M2Qa2cWy8onAyV-OfQ-Vfi03wMIsuxQ_TL9NiSnTG1Jo0-mBt3025Vrm1
+
+sprite $MultilineChartLg [20x20/16z] {
+jOw54SCm40G55iFststE2dmQyCuyetk4M6ho_uamEEoYm2yldM5T2ggopa5GhYxfWxABvBxuSki4nLBx11rhyu2IbGdMbIM3gNJyTkMZqLzKIubrA-RHjjV8
+xc5U
+}
+
+!procedure MultilineChart($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/MultilineChart', $name, $tech, $desc)
+!endprocedure

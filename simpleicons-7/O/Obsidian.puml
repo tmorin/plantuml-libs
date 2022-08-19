@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/O/Obsidian
+
+sprite $ObsidianXs [10x10/16z] HSR50O0000IWirlsdzOENkJIvy7T1Uir0zeZCyXXi3uB_sRozDrih9CT
+
+sprite $ObsidianSm [12x12/16z] JOo35G0n04CFjVx-qzRAK_mClCy6S5W8OkG9Le2xUBYv1rBdewxNJmtUnS__1s7nvn_J0W
+
+sprite $ObsidianMd [16x16/16z] JSpN0GGX201Hl7nBcFwxNRFCtrD0TX_9ALgEle2nQPMEwMIngjPq_I8R8jj0imkpEFDNyt_wC_SVCgk-gcLr1MHBjMPNW4lgZ_PpDm
+
+sprite $ObsidianLg [20x20/16z] {
+PT35WGCn44N1eKNtL-MVhI-3xNSiiQPRlrDl8Ot0OsP1bVcYm62CasOKy7tOo_ZJZ7-0Wygd8MdsHmPmdKi4_9_s4WNMqsPXm3AT2GNJrHe4_G-gsGPawXF_
+RVsV_uzfRm
+}
+
+!procedure Obsidian($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/O/Obsidian', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item material-4/Device/Dvr
+
+sprite $DvrXs [10x10/16z] RScr0O100C30DBXa_sbntgyzMknV8YznOBqWZkmNifrUSb59dG
+
+sprite $DvrSm [12x12/16z] Oy05-160WHyX2eGyd3mW06OpCJA109ZDnyK70X1n2610qmi7t2017Y236SrQ
+
+sprite $DvrMd [16x16/16z] XSg53S0m00D1AzyAGjv_sZBZ2GtwGowx9BdadRECTcNAYDcSCPwD-VwdXZfRSWbbzlXlsGqv-wZH28-q2oCzwG4
+
+sprite $DvrLg [20x20/16z] fSx50O1034JHZtkc_sfnTzXtYmSNgVOyJF56eXWJ6_vrBXEQJBcaf9pSpQQ6JMxslVqbsyWLasZFOw1UpfhrCZvf
+
+!procedure Dvr($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Device/Dvr', $name, $tech, $desc)
+!endprocedure

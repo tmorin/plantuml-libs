@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/LocationCrosshairs
+
+sprite $LocationCrosshairsXs [10x10/16z] Om01FWOOu8VH801Xm0cG893a0v5W317ZO40eOOVfPKSs3m
+
+sprite $LocationCrosshairsSm [12x12/16z] NOs50OGm4C02r2txJ_kkf3qt7Ym-R7xSfJOUQDcxFh92P3DmKmKLtPRkKMKes5zveBa1HUweGpiFWdg-UmK
+
+sprite $LocationCrosshairsMd [16x16/16z] LStL0SK024FHr3rt_sahm9EUBnmLwyKqhnoMNz8GZb_ghfq11PZrC6lcLXjDY2gTSjtuCD2AXtP0pS8S-QAdermxMDI07WUkjxq2u6TtKrc1wXRJwj-1qWK
+
+sprite $LocationCrosshairsLg [20x20/16z] {
+TP054WGX30G7zyp_Vtk5dsslq7WIRApW1pB-ZZ7XayoEmyLpyp6KjNRoDdWq7CjTL9KqLArb6OgTTRljhb4vsqPIPBgmO-OSOkfnfREt9OlUIl-DvFhQZYC3
+eCsDQbhU4d07sSRn1GTsvggBIcGpp_Mx2EtM5m
+}
+
+!procedure LocationCrosshairs($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/LocationCrosshairs', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Rockrms
+
+sprite $RockrmsXs [9x10/16z] 7OQ50G0X08JuJcN_QOrh01OYFVG3XLClHYhg8tfY1E0HA8eXvGdjm1MY0m
+
+sprite $RockrmsSm [11x12/16z] BOi54e0m30GNT_R_huNs9fNa582HElggGS8Jh4ku3rvC1bzPRx1LsTmjg6YmWMaFxWHxto_0hRh23m
+
+sprite $RockrmsMd [15x16/16z] FSo50SGm4CH0XJdglzg7DKp0FgGO1xhBc0WrFvyQ3J2etd3h1h2Ql5vmNdN3x9lAMiUbN4OmSW-z4Yw9HiKOG4qO97vOUpmc-HZFC5mJm6ML24Xm0dm1
+
+sprite $RockrmsLg [19x20/16z] {
+PSw5OGKX403HESUd_seZy3VwJe4rmhxnqzwT2c6erzgzldSsg7Cl0wYUSJH_hpW2f_aTW4Vi9TPELLQ6PWKUdT-aEhpt_T9HQm6QttXHs_-jowK2lNTLVBbZ
+Y4wFlHsszTqCmAaZPegzAfzkVzYOTaE7S5Hrv1No3W
+}
+
+!procedure Rockrms($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Rockrms', $name, $tech, $desc)
+!endprocedure

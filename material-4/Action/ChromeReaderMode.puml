@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/ChromeReaderMode
+
+sprite $ChromeReaderModeXs [10x10/16z] Oy06-640p682Ya1P234-FZueYuU71raTGYyS
+
+sprite $ChromeReaderModeSm [12x12/16z] Oy05E7XWW9c17mHOMLYOcVaXR2QG2XWRYE7YV7nyS3OGmDKmCpCpeEc50nvaQm4
+
+sprite $ChromeReaderModeMd [16x16/16z] Oo0LSFCZ0sO6A8ELXOM5cOMN5yPd0Yj6ueC14fyN2BYG-7n0m8r7FOZWmJGVauy2E1aOc901XdS
+
+sprite $ChromeReaderModeLg [20x20/16z] fSu33a1H44FHFdjc_wlzjd6YvaR5BzgiII3obWIDq-Y6qeRTt2GwyhRrQzsiQwrRfjQw-T1QjvHRwnPYIxxuLtZBGXLQYtYg1W
+
+!procedure ChromeReaderMode($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/ChromeReaderMode', $name, $tech, $desc)
+!endprocedure

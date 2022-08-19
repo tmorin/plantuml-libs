@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Gofore
+
+sprite $GoforeXs [7x10/16z] DSV50G0X0C2mdYjq_sbnyWlJfKAmGW5kuVjQr5sgraLEg_QF3
+
+sprite $GoforeSm [9x12/16z] HSg50O0m4C30u4xsdnRglSehTAiw02OFgTm49JdTG9tIdi7cIRILdTjmlISL7gEHu7XM-04
+
+sprite $GoforeMd [12x16/16z] NSo54G9H30N0T-v_---M2Gux4a_-pTSrFRA3iYLfdfPic9B5dY1F0sEUBXuT9f_ShlB-E8ucwa5v_9agdKcFjYwGhCfpt5EwVBi1
+
+sprite $GoforeLg [15x20/16z] {
+PSl50O0m40NHmPtflrkomU5TLZ_XfwpAukergmcz7cPWz0QLoG1qMe09DxNXqX_7AHbWrON4h5QdUtG-dhtFN4QExw0mHOBGvSOmreC1IcyjKAmUIhBQqF6p
+0G
+}
+
+!procedure Gofore($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Gofore', $name, $tech, $desc)
+!endprocedure

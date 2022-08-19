@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/GoogleCloudMarketplace
+
+sprite $GoogleCloudMarketplaceXs [10x10/16z] LOQ50G112CEQdW3x3_okrUXLtphYmA4n8iHECmet7SWsEm6TWsoZWmxffwgZAm
+
+sprite $GoogleCloudMarketplaceSm [12x12/16z] NSU54S0020F083cE_HTkaUgZ0VuOA6HDR12Do1HZ1KYaeDvQ8d13ePo8OYnen8CB9GIGGCkSEG
+
+sprite $GoogleCloudMarketplaceMd [16x16/16z] TSg55GCn40DHBHdwRpXQH-7S77u_uQAQff_oyvuwi2oIxWC_2mEnzpPKkmTqiw019ecc1cZA77HEolVYIIWvNCdFe4nljNUUTtoPxni
+
+sprite $GoogleCloudMarketplaceLg [20x20/16z] {
+TSnP6e0W409WPq7Z_XUEvhEzU87-r7R6solekS_Ch0Rws160Lyc4XnR9DZJRB60D-bv8Qk4usCkiEQ8ieVEGgUQnEVeY2lYqb1r_ZvbMITXfHmuAX5TqwltA
+rSxOj_rdaDLa7aRIL5rzsDnE3jKA
+}
+
+!procedure GoogleCloudMarketplace($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/GoogleCloudMarketplace', $name, $tech, $desc)
+!endprocedure
+
+!procedure GoogleCloudMarketplaceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$GoogleCloudMarketplaceLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure GoogleCloudMarketplaceGroup($id, $name='Google Cloud Marketplace', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$GoogleCloudMarketplaceLg>', $name, $tech)
+!endprocedure

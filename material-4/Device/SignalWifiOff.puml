@@ -1,0 +1,16 @@
+' definition of the Item material-4/Device/SignalWifiOff
+
+sprite $SignalWifiOffXs [10x10/16z] Oq00VcGcFmWmC089A9C3oWJ9WYW-Th12Y0WQ4qZp8XaC
+
+sprite $SignalWifiOffSm [12x12/16z] NOk50S0W40DJzsR_RNb33_q8MfQr6RWj56xv_en19Wgh3HzycENISWnGBXiWM5tOOj1USOYH1
+
+sprite $SignalWifiOffMd [16x16/16z] PSp50GCn34JHRsQx_se3aoo_YrWyPAvMXzHw2GQngr6NPA1zeXeIKDWR7VkFHH48fmPVJOr1NGwP_mtFt_PhevzpDJPHlqwDfb-ENKGUtW
+
+sprite $SignalWifiOffLg [20x20/16z] {
+bSv50WHH20FHQjTFtV-quunRlpKauRsA5_hcJ2jMZs9gE5iDC7N0g1eLnOjeAi_kBXSwp_BIoEUxIuuMlSjiSs5UXCDjOMPEfFPsUJFUBbFsz0PtGXseZVjB
+NO2wSASDjje3
+}
+
+!procedure SignalWifiOff($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Device/SignalWifiOff', $name, $tech, $desc)
+!endprocedure

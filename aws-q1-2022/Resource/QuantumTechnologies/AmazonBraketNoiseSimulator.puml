@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2022/Resource/QuantumTechnologies/AmazonBraketNoiseSimulator
+
+sprite $AmazonBraketNoiseSimulatorXs [10x10/16z] NOU50G1048BuTl-5lviBaOi8OkEs2NwLshPgkpLSDmD4EOb4mqC1
+
+sprite $AmazonBraketNoiseSimulatorSm [12x12/16z] LKs50G014E6A_HV-pki4Fr5HSTNSGtpg-TJurltKDiRQClOcl1VSr5lMGoBTJTM6ohipWHK
+
+sprite $AmazonBraketNoiseSimulatorMd [16x16/16z] PK-50GL05765_HV-STtn6dYMacLk_dftovUFUFcyVF3qlUUZBT2ErQ-FvDfJ-S3_Sclsy_1h7LL_rtco8CK8f8bNC-KKyWK
+
+sprite $AmazonBraketNoiseSimulatorLg [20x20/16z] {
+ZP254G9030GlllrNp0HtUF-TwEdzAEkPjWT6xzays9qkcrUcZ5Sc_cJvXWdicONhaHNWQc1_VKa0JChN5dpjF5XhSVADAXF3sU2M8vfbpetDslIKqYJB4-jX
+0eIjmKt8yoTlJEGfZbt0xNC
+}
+
+!procedure AmazonBraketNoiseSimulator($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/QuantumTechnologies/AmazonBraketNoiseSimulator', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonBraketNoiseSimulatorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonBraketNoiseSimulatorLg>', 'QuantumTechnologies', $funcName, $content)
+!endprocedure
+
+!procedure AmazonBraketNoiseSimulatorGroup($id, $name='Amazon Braket Noise Simulator', $tech='')
+  IconGroupElement($id, 'QuantumTechnologiesFamily', '<$AmazonBraketNoiseSimulatorLg>', $name, $tech)
+!endprocedure

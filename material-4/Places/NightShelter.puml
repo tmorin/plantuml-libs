@@ -1,0 +1,13 @@
+' definition of the Item material-4/Places/NightShelter
+
+sprite $NightShelterXs [10x10/16z] Oy01-FaveGmGW31WJ7u6FYOcA0i8EC4ia3oGXL27
+
+sprite $NightShelterSm [12x12/16z] VOgr0G0X0CHUSSZ-q-9MaUearmd1FQ87L8jKGecEnbkputbSpwQQBJ_l-uvSS5kcvaK2
+
+sprite $NightShelterMd [16x16/16z] ZSU50G0n20J1k0BNVxNlhja8Z6eidcG1FZ1XpAvapAMPsAgBPJ4jje0nzc1bX-ascpfkTZUDxIQCqUQbnMPFtUe1
+
+sprite $NightShelterLg [20x20/16z] hSk35KKn00FGr6xsd_RpsRh70PuGg34c-14mPFYJHx-MQd-5FTyUXxhCBMHWhL9AFyeS0ZxoC4ie-0Z3x7ESPVo9moppfzP1De0VNOTmt1i
+
+!procedure NightShelter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/NightShelter', $name, $tech, $desc)
+!endprocedure

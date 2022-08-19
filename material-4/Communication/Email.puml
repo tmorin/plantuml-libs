@@ -1,0 +1,13 @@
+' definition of the Item material-4/Communication/Email
+
+sprite $EmailXs [10x10/16z] Oy06-A60XO4VmcRW0TACpFmCxFmyO14W0MNnex4ue2maum
+
+sprite $EmailSm [12x12/16z] TSO50e0m3C30u4x-_rhSsRArFQBrHnqCZNj3kfXnqR8NQv9AgPiTqDrxN_SFavtnR0O
+
+sprite $EmailMd [16x16/16z] bSV50OG00C2mdk3I_QV5tSallEP21b-pgOdj-VNB-TlUW5ZzaThV4X9-shyLKJX_Tl_FvYJvxC-T6W
+
+sprite $EmailLg [20x20/16z] jSq54WCX44JHtbtS-lwtJN0fZ_mowW4p-2uXrvvCF1BPGbh4CMHpq8DkLAF65JBKGpMc2myPaJzKorb0u8cSLjSvSjhi7-RUPWx3Lxq
+
+!procedure Email($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/Email', $name, $tech, $desc)
+!endprocedure

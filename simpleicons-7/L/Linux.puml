@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-7/L/Linux
+
+sprite $LinuxXs [10x10/16z] FKo50G0X4EA-K_QVLhtk0A16X94vFfBJiSPqEp8ghra-cULatPQv0GApq_K-3
+
+sprite $LinuxSm [12x12/16z] HSI50OGm00F0mvtiF-qBqbu4IEkLHBMrYhrpwxh9wHPa16U3EM2zluKTbhGqX5kdQWUo1Ru
+
+sprite $LinuxMd [16x16/16z] {
+JKu50iGW3CCTyl_VNdj3ic5jO-Rx8ggXBmCOL2zWWUeIZEEwgmBZlKkmjunP3Zp0_sNdEEZrTG-ZVtTi7o2rhLBnrS5zi2-p55FrFVdhW7i--I5l5nGluPEG
+v9Jg1m
+}
+
+sprite $LinuxLg [20x20/16z] {
+NP030aH12433vwZxdtOHnduvYF58WMt8Vwm8bV722ElDabQM7dmbhum1U6FtHNnlGHeS1BTS4tfDOrR4TkgTQnkMqhDyGgr4MPB3kYICy2cOr57rQ8HBJn4Y
+rTT6AQC_3mQY7lKm5j_N70JhFVKOI3STVprsXIy
+}
+
+!procedure Linux($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/L/Linux', $name, $tech, $desc)
+!endprocedure

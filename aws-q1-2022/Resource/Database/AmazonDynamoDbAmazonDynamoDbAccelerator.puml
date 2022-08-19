@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2022/Resource/Database/AmazonDynamoDbAmazonDynamoDbAccelerator
+
+sprite $AmazonDynamoDbAmazonDynamoDbAcceleratorXs [10x10/16z] JOo30G0m40DhtlxhrdWhYP96D8arh3NEoGCwtbijNB0-FJ9VJCjb7jmJE5i7
+
+sprite $AmazonDynamoDbAmazonDynamoDbAcceleratorSm [12x12/16z] NOs50G0X203jtd_T3sbEwGgElTUUuAQh1wH_5GzrnM28VozmlaVa61S7PGScm_uzQXdWyv4N
+
+sprite $AmazonDynamoDbAmazonDynamoDbAcceleratorMd [16x16/16z] ROs50GD020FpXk-_RWMezrwn17yvQhgUaPzyI2iKD6laepugZ8unI4qE1ZfkpEmzTY3m1gUotu7xiFkVtyeYyFkhnHZ3S6UWa3NRHp8LYYThfzalLm
+
+sprite $AmazonDynamoDbAmazonDynamoDbAcceleratorLg [20x20/16z] {
+VSzL0e1024NH2wDElVrlr-uwdpJyC7StJe8KWpT9OfCYcyfAx2nkiUfhfDCUezMic1snfoDMIocwno1pw804be2gYKkAL91avxee9KnSMRT-eXtPYZCBR1GI
+ApNxb-myLqa4yP0QlWm
+}
+
+!procedure AmazonDynamoDbAmazonDynamoDbAccelerator($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Database/AmazonDynamoDbAmazonDynamoDbAccelerator', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonDynamoDbAmazonDynamoDbAcceleratorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonDynamoDbAmazonDynamoDbAcceleratorLg>', 'Database', $funcName, $content)
+!endprocedure
+
+!procedure AmazonDynamoDbAmazonDynamoDbAcceleratorGroup($id, $name='Amazon Dynamo Db Amazon Dynamo Db Accelerator', $tech='')
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonDynamoDbAmazonDynamoDbAcceleratorLg>', $name, $tech)
+!endprocedure

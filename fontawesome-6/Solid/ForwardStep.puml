@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/ForwardStep
+
+sprite $ForwardStepXs [6x10/16z] Oq02_FnW0aJnWm0RFmB0n25g8Ee1
+
+sprite $ForwardStepSm [7x12/16z] Oq01VFmWaXy8e1G_8uJYP-971X11X4eEFh0-g2a
+
+sprite $ForwardStepMd [9x16/16z] POs30G0n54FFgDx-qzRkDvDjbJyb2IRa6qAL2wW5jQ0MJ1ETRsJ-2jWtXZSWdwpa3W
+
+sprite $ForwardStepLg [12x20/16z] Oo02SF9pGLdy8C07OoCu_520pEPdGMBpio6n-RduiGDM11Ea5s43d0bdSoBiPOEvXv6N1UfE3YvSVW4
+
+!procedure ForwardStep($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ForwardStep', $name, $tech, $desc)
+!endprocedure

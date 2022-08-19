@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/H/Hackster
+
+sprite $HacksterXs [10x10/16z] HOg50S0W30JhNcx_RI7kRzEecsEIGkiE0BkWXjmRlebmB7m8ufLhA_UkoEwW0m
+
+sprite $HacksterSm [12x12/16z] HOo54S0m30DTvlx-s-RC7p1AeZoSuk1KgcJwFF1flcp8fGsuPEFuMcNzK_CDUJHwFXFvwwj7-_yg-x8x
+
+sprite $HacksterMd [16x16/16z] JOy55i0m24DXBZIv_sttCcg_YeFzx8MlMwCmELDa1oaEOZXZrUrfliWzVpl5s-L2XYiAOESsqJn9tFBtKCAqWt5IM9D10Jjqiv7TTtRbZLaKFatp0G
+
+sprite $HacksterLg [20x20/16z] {
+LSu53i0m30D03yhD_F_N3bAFJXHP8KZPs2C-0iKc23-Aef-gw2Teb-P6_RHjPCF4IrOspvwfdvS-Gvbcs786bbFY5vpwEfsPVpP5dYBLHrhZW3Th60q6exB7
+hBtslrVuXqlbrmmN_bsIwMmq7G
+}
+
+!procedure Hackster($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/H/Hackster', $name, $tech, $desc)
+!endprocedure

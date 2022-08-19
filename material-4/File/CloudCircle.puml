@@ -1,0 +1,16 @@
+' definition of the Item material-4/File/CloudCircle
+
+sprite $CloudCircleXs [10x10/16z] LOo30G0n5CNUcMtsdxPclga9C2b-HDRK-GNK4UpYKOHFbfJ5HHAntdAIEFxummC
+
+sprite $CloudCircleSm [12x12/16z] NSd50G0W509Gx9RzfxMu-VGtVhb5oE2Lr4e0G18mBsSEewj19nvBYqW8Rx1Vl7sc61nHBSHON1i
+
+sprite $CloudCircleMd [16x16/16z] ROm50i0m30B9tFd_QokiDhbg4W3_cBNLmSYSgew94uA5CujFGyz0dyR95WL6ZX2N1jtjIeeuBpLaB7hCt7HNBEKa5eYpb8a-IdR33nu
+
+sprite $CloudCircleLg [20x20/16z] {
+bSq54iD030D09SUe_x-sv7eqKDpW6V6VofiL88LF-_JGe9ogakCHU_pE0-dnCtmykxB-imvjZnRpRUSzs03OswCsa2mGEsrIeSC6HNBbPB8NR8eF2gGiG465
+p36eHabzrXFlNG4
+}
+
+!procedure CloudCircle($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/File/CloudCircle', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/TextToSpeech
+
+sprite $TextToSpeechXs [10x10/16z] TSQ53S0m44MnL_gw_HTkc1EBp9dT80dZ-KYkC7bX8aYxFR-RnEWv
+
+sprite $TextToSpeechSm [12x12/16z] Oo00MDaHR0uGcvMDZOs1WvK39ix4m0uNPmEncQ0IO3P2d8a38OumaXdTFW
+
+sprite $TextToSpeechMd [16x16/16z] dSV50KCn04En5tAy_yBjPsRTn7SsIr6LbXeag_keuhEhqz-CviTEzzI-TDgZmCH9B1Npn1y
+
+sprite $TextToSpeechLg [20x20/16z] hSwr0GG14CD0Bxl_XX-FcIPK93mc55D5pYAj0b_vPJ1ct-nBm63JUWIbQ_8tQjbeMYPwUot__DVYVwr_ycjGZ51fc0WIjxq1
+
+!procedure TextToSpeech($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/TextToSpeech', $name, $tech, $desc)
+!endprocedure
+
+!procedure TextToSpeechCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$TextToSpeechLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure TextToSpeechGroup($id, $name='Text To Speech', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$TextToSpeechLg>', $name, $tech)
+!endprocedure

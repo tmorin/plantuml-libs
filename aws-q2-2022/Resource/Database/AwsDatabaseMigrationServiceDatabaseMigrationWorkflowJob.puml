@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2022/Resource/Database/AwsDatabaseMigrationServiceDatabaseMigrationWorkflowJob
+
+sprite $AwsDatabaseMigrationServiceDatabaseMigrationWorkflowJobXs [10x10/16z] NOk34G0m00DJA_klM_jF8MuqWD24epU1NQ7ngyGm91cPneDGy-4WvNeqKG
+
+sprite $AwsDatabaseMigrationServiceDatabaseMigrationWorkflowJobSm [12x12/16z] LKo30K1H4Ah7G_kl-yqpAlmjhB16FsO_gevAa8G_cE9vpFEBQLBUcErHV5mw-M8eJ_2yUs56NFf0m80L
+
+sprite $AwsDatabaseMigrationServiceDatabaseMigrationWorkflowJobMd [16x16/16z] RKs50GGn38AwiF-whrVt9i5mMQpVfTnw__ormOa4VMazlvT0RZX_lzFJ6yHIik-uDfn8aaB3MuwfQ0RfgsTi_jO02N7eGyuoOCFDpyJFUDMJtrRvVsy
+
+sprite $AwsDatabaseMigrationServiceDatabaseMigrationWorkflowJobLg [20x20/16z] {
+TL070WCX33gt1lx_tiQEO9VRJE3wE_8q06iacLYVZuMNQTJmohR8sTk-B6nU9ldOoOfJvR1rmvh3Uq_bveYJ3JFjErN3qQE3v2hgKSSNFZUID3DocyI3Lthd
+0JQw46Nox94vb_cT5EVRuxAxmbRMvc46iNnAcRCq-1et
+}
+
+!procedure AwsDatabaseMigrationServiceDatabaseMigrationWorkflowJob($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Database/AwsDatabaseMigrationServiceDatabaseMigrationWorkflowJob', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsDatabaseMigrationServiceDatabaseMigrationWorkflowJobCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsDatabaseMigrationServiceDatabaseMigrationWorkflowJobLg>', 'Database', $funcName, $content)
+!endprocedure
+
+!procedure AwsDatabaseMigrationServiceDatabaseMigrationWorkflowJobGroup($id, $name='Aws Database Migration Service Database Migration Workflow Job', $tech='')
+  IconGroupElement($id, 'DatabaseFamily', '<$AwsDatabaseMigrationServiceDatabaseMigrationWorkflowJobLg>', $name, $tech)
+!endprocedure

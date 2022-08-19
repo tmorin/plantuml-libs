@@ -1,0 +1,13 @@
+' definition of the Item material-4/Navigation/ArrowDropUp
+
+sprite $ArrowDropUpXs [10x10/16z] Oo05yCCP_FmaQ0C
+
+sprite $ArrowDropUpSm [12x12/16z] Ow0KCF8ZCVdX72OG8CCu
+
+sprite $ArrowDropUpMd [16x16/16z] Ow0JO4Vbyl5pe7Bv-P5KSFE202izt0K
+
+sprite $ArrowDropUpLg [20x20/16z] OnWgW8qVYn0_7veGApy8O17YvnqQtWG
+
+!procedure ArrowDropUp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Navigation/ArrowDropUp', $name, $tech, $desc)
+!endprocedure

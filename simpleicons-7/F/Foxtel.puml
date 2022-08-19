@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-7/F/Foxtel
+
+sprite $FoxtelXs [10x10/16z] Oo0IyFFpCZ5oy7E38933mC_DmqsiNW
+
+sprite $FoxtelSm [12x12/16z] Ow00yFDpy3CnClApyOFOV0oS_0mWoC3DmC3Boi3EpG22908
+
+sprite $FoxtelMd [16x16/16z] lST70SGm0C0mP--OFzeR85hznCjCEFQvb1Pwl2WPeyGK31T1got-Vwuyx0i
+
+sprite $FoxtelLg [20x20/16z] pOf50K1H3CFwc1V_QZ-QM4w5o3c03l64qO45SOcarIC1az1gyTrORmkCRsE_Mr1XK_RlhH5jo3at
+
+!procedure Foxtel($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/F/Foxtel', $name, $tech, $desc)
+!endprocedure

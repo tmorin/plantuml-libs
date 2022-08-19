@@ -1,0 +1,13 @@
+' definition of the Item material-4/Content/Archive
+
+sprite $ArchiveXs [10x10/16z] Oy0A-3X1W1_8uWS3A8i7oc9YP61Y1RE011DCbXc8aNGW
+
+sprite $ArchiveSm [12x12/16z] Oy09s5cOGO2J4SZcXm5CDWiJBvJDnyJ0mCW45UU3o498Fh0c7ERmeDWA
+
+sprite $ArchiveMd [16x16/16z] ZOw30G0n34LhXFjFUpRxolYRVnpn34ocLR-GQBH9TznWSuizTDrjSUFh_1QNUSwUBxEvrujzxLyFjftqRmpcbHu
+
+sprite $ArchiveLg [20x20/16z] fO-34G1H30M_dPV-gptRsD5E7F4Jv3G2ruSouaHYtSLuHJc8uIPMIjd6oYXZ34h9HfIoKsmKOUQwqTHeynYpsmjzVz_-Dq-O8IKUKmC
+
+!procedure Archive($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/Archive', $name, $tech, $desc)
+!endprocedure

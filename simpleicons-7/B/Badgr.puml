@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-7/B/Badgr
+
+sprite $BadgrXs [10x10/16z] 7SY50O0m30J0mvtVVrfeaxo36M0Yy6BWS3hm5jCEUfYgdBQ4IZKB1nKXhFm
+
+sprite $BadgrSm [12x12/16z] DSY54SH02030FNaD4_hlDdEsEAREyILCb-blgZ7kWg_IgvZRVMLcqul8iNr7frxngxIn3-DPa_S-8j4BFREOWWyU
+
+sprite $BadgrMd [16x16/16z] {
+FSZLeS0m3C30YyiDUFzf7vJkJ-8sh_YKJYjVLfVciizG43jEY7OEE5YL5UmB2yTk6PbBC2pIaRTEswGhfiWBlMwRIxzwnPgPCyVTa7ysFJdBDp8gr6-unOcU
+uRFFSO1V
+}
+
+sprite $BadgrLg [20x20/16z] {
+NSg55GCX403HMTot_suJB78VdmTShl0WLIYUNyqogN25n67hEGUB4u2KvxQkOblEdgb10R9boWDMA1Y7nDgoTuGTHi3hPW2beDwgQjUf3mVQKV9-Mz43IexE
+iPdRW3Yl7k3RGEQZ2Onl0vq6p2Ot3frIIm0v_V_SgWL8xo9yAO06_hZY2ziB
+}
+
+!procedure Badgr($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/B/Badgr', $name, $tech, $desc)
+!endprocedure

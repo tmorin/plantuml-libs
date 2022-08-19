@@ -1,0 +1,16 @@
+' definition of the Item material-4/Maps/ElectricMoped
+
+sprite $ElectricMopedXs [10x10/16z] Oy0AEFbv6DXuG2m-VY352MJmyuDO_10MFnyGWvXCd522WPK1Ha1K8R4
+
+sprite $ElectricMopedSm [12x12/16z] TKlL0GCn24NR4sJ_QUF9t-4yWUym8_3CSJFtcMDaKWFw_OvxmjxkYDHk8Fkx49awTKF0cIq8TZoMYUURV0K
+
+sprite $ElectricMopedMd [16x16/16z] ZOpL0GD024F3IHtU_jDMpZ-BInBzQ-QltASCVFUNet4efRM-fu0srRv3tusRMXixBxDlIssFWCSt9FFVukwYTeM0EBiU3nszcIKTbdB5xJXKICbqNaR_
+
+sprite $ElectricMopedLg [20x20/16z] {
+fSq53aGX303Hejyxzp_j6WxndLXvD21_va88NaI0kzYH3p7U5BFEEvTkYpdDUyqy57DeCfg1cUt1nyqqGrNP0PALRi_kED8dkvqdUG2P9l51fYaLh2pjt2EO
+2r0zfhqR8qljlJS
+}
+
+!procedure ElectricMoped($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/ElectricMoped', $name, $tech, $desc)
+!endprocedure

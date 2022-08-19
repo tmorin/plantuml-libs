@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/PerformanceDashboard
+
+sprite $PerformanceDashboardXs [10x10/16z] Oy05EA0q4up532BOO5BiC64sHh0Ga0T2G7amdu45oIW
+
+sprite $PerformanceDashboardSm [12x12/16z] ZKh50S1038ABxhzmXUPPYsBuMz4-Y8spLQKhakSny7e03syTiAb0zc08FzKE
+
+sprite $PerformanceDashboardMd [16x16/16z] dOx50S0m3CI2blPVkCo_Xaq7QN35ErKU6O7GhdIFw7lQZp_v-V9Eofxc8whRk9oYMXOErq7TydnwMlEVQmO
+
+sprite $PerformanceDashboardLg [20x20/16z] jKs34GGm43pVzj_m8yRm4MT9_neElp00Eo0eM6u-9KcXm81qF2S86NIs8aO7RBmz5-DU7k2bj726A7Nb0y1UL_PFb6in1I35rQ7o4VfgF04
+
+!procedure PerformanceDashboard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/PerformanceDashboard', $name, $tech, $desc)
+!endprocedure
+
+!procedure PerformanceDashboardCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$PerformanceDashboardLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure PerformanceDashboardGroup($id, $name='Performance Dashboard', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$PerformanceDashboardLg>', $name, $tech)
+!endprocedure

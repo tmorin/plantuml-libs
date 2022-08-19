@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/CollectionsBookmark
+
+sprite $CollectionsBookmarkXs [10x10/16z] Oq06_600Oa5e7WP-x2mmmCPY1h9WW94731WO
+
+sprite $CollectionsBookmarkSm [12x12/16z] VSQ53S0m402nquTv_sdB3B78FEGoIqlRHAaY15aEMIYg-ydpwNAKdYW5kUI5OYAhQIC
+
+sprite $CollectionsBookmarkMd [16x16/16z] ZSV50SC03C106TfmlF-qOUPxILmHdJ38OZ5yEQI11KYvVuslxxxyujDdXyTyO4R_DcCG2-Ui1G
+
+sprite $CollectionsBookmarkLg [20x20/16z] hSg53S0m4CNGepBy_QSjCpU9nK-cFoasJLPWBEz2CLgvML3sa9uDUH3ZCjlOsbyhBYpPcev6egRMfoOqsYbiiz6utAHqKmi
+
+!procedure CollectionsBookmark($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/CollectionsBookmark', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/Today
+
+sprite $TodayXs [10x10/16z] Oq06_60C8Y00XSN6p0oLPkFdPy9WGGr0w4
+
+sprite $TodaySm [12x12/16z] Oq05FCmWWWN4v8S1T3Op183P3BoyZ20QX86gcB2omG2J3GKyA0u
+
+sprite $TodayMd [16x16/16z] VSsr0O100C10t27xJykxIxghCbHwda75OdZ3g-8z34EJz5luSHa_WyiP63DFFS_phEYjQlh4PowJJp5B
+
+sprite $TodayLg [20x20/16z] hSY30G0n343Hci7-qvvjz9TvugnC_Mj8JmRSlvRD8CZBN6Uy2W-Cpis9kTbqqzQuIHMqha-s2ZhpI7EenEDg
+
+!procedure Today($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Today', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/Kuberun
+
+sprite $KuberunXs [10x10/16z] Oq05R0mOW8E30ye00R0QLWuWXuq590R227NO0G
+
+sprite $KuberunSm [12x12/16z] VOl50S1G34AXZR3_mdNzzYu9XWhx_F6nW_ShY7cNKx8p3nCqyzXCD7lMASXmGunO0G
+
+sprite $KuberunMd [16x16/16z] dOkr0GC154Bv1ko_S3mdrSchK9o4UvkvzyFUk7QulNeJXlv1JOHj2FMsR9OCaq5-xmCfuVKFGIsiWMXXI-0UJm
+
+sprite $KuberunLg [20x20/16z] jSYr0GGm0CGmXoxUV-5dPbGftXQkzF2AbWpEQPoUhHEas3cencgrorRf90mZMD804Z9Yq6P9EXl3KZIboK4H9ZBaQ3WBEIlehd6fy2zB
+
+!procedure Kuberun($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Kuberun', $name, $tech, $desc)
+!endprocedure
+
+!procedure KuberunCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$KuberunLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure KuberunGroup($id, $name='Kuberun', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$KuberunLg>', $name, $tech)
+!endprocedure

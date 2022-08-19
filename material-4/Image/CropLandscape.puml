@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/CropLandscape
+
+sprite $CropLandscapeXs [10x10/16z] Oy0AEC607SXY0_Fv2R9um3huiPe6
+
+sprite $CropLandscapeSm [12x12/16z] Oo0AyCC0Y0qL8uiD1TmuRG8
+
+sprite $CropLandscapeMd [16x16/16z] Oo0TC37302E8oy6F0201NXwuIduc6l1vUE7sW_aiIFQJxXa
+
+sprite $CropLandscapeLg [20x20/16z] Ow0-OEH40kmGCNuKm0KHOqFInCyt-CHuaFp1pmiMuqNn1nlr0my
+
+!procedure CropLandscape($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/CropLandscape', $name, $tech, $desc)
+!endprocedure

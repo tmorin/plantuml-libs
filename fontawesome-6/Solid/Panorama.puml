@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Panorama
+
+sprite $PanoramaXs [12x10/16z] Oy01-C60bny2-FWHW0528FWCS1OlN2F446O81w6J3Mew5py
+
+sprite $PanoramaSm [15x12/16z] Oy0BsFdvULd1B4OW4nFmCQ3ocS044weI93KC_22pu3m8W2ddv0MHl1oOrZ3mCYBSnCeD
+
+sprite $PanoramaMd [20x16/16z] ZSp50GHH20FGV5T8_zMkZlkxuE2fbh5YMnH-IOdMs5IL5yHmnqBubPMp8GUu1I1oGIiJFjOx0goR1gF4KMdABwcD9xxBcZ0mzVzzxmq
+
+sprite $PanoramaLg [25x20/16z] {
+hSt50GGn40D1cTcTVxJ7pB3r6vIMOu3cZ2xOC61mOKm-rNbCoZnaDDXJURQXoGDL6tTDc9BkueOCskEA9AyzmmMh2uspLZjxivV9IyVnQ2Nxb4i_DWGaNRCT
+kfvP0m
+}
+
+!procedure Panorama($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Panorama', $name, $tech, $desc)
+!endprocedure

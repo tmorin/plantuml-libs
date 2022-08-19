@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/DoneAll
+
+sprite $DoneAllXs [10x10/16z] Oo02iF8py8CPR5069mEO0SJSF206XCcFIpy
+
+sprite $DoneAllSm [12x12/16z] bSQn0K00302m003z_rhG6MIA7oOMQLwjOtR9rXHbY15HYq9C81gHnQ8OFTa1
+
+sprite $DoneAllMd [16x16/16z] hOor0KCn50FFpDR-quQfoiTh7WWuZm6kV4zDdEhYcO504_QfgXCKUPyOTQAYLUF9VOlwgR83OcKVLm
+
+sprite $DoneAllLg [20x20/16z] lKt50O0m34nmOhV_jBZRZtfxIgb79SEXvH4gWG6275M86_IjcX9RejXL3F2WKU8LsijiF7GDAaQbG7TeKaxfnyO1zE4GeRz63m
+
+!procedure DoneAll($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/DoneAll', $name, $tech, $desc)
+!endprocedure

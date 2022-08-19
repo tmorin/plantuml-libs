@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Brands/RProject
+
+sprite $RProjectXs [11x10/16z] LS750OK0042XzzEM_QSrZa8FEqpL5-Q5uX-yxVO2ZTQYIL50WUWsyALk52S
+
+sprite $RProjectSm [13x12/16z] NKp50S0m4AetplxJdlBAkG37RXLcNupJHwxU4e1cIyyBAk-0W-_2nVEsh8JDk2pBGPqMTx-5aSDbsNMifG
+
+sprite $RProjectMd [18x16/16z] {
+TOw55KCn30FlCyRQVzi-XSeND8j_x7TSAvsanb72nOZaW0Ou_5uKXX3O0TJ4-THPCb5bbg5u84afzbVFAjtXxmAeCeYvk8gT263oTvCq-aFJsA7X-4189usk
+asyU
+}
+
+sprite $RProjectLg [22x20/16z] {
+VSx50KCn201GuWxxRzj2lF8v9G-5vz3667KJqemqIRLbs-tyrfoAFDvev85cTMPcGG-GHmTgGzaE51s38o6duLBg_MKg05JHoCiFJQ9IFRKrvAzfagHhBl1N
+BjTBYqBDlN5NhNamLkm8i28WTzkhU6mRu_ANtiLtl
+}
+
+!procedure RProject($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/RProject', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/PersonWalkingLuggage
+
+sprite $PersonWalkingLuggageXs [10x10/16z] NSYr0SC044Mn5-Pe_sa3zbLMyw7nRD36mtmxUmvJdPNqLA5E5Az84UNr1G
+
+sprite $PersonWalkingLuggageSm [12x12/16z] FOk50G0W40AnM_QVrlRF-03mQH0K2Q6etvdYVilDRJiXlLBf2Wdey8pmK5TjL2SMORWpVg_LUNklSLpK4m
+
+sprite $PersonWalkingLuggageMd [16x16/16z] NKw50S0m329pv_zl5wapQP486hmxMbnanxU1Gpfotcj3FnfgQpgUpDNg0eSOVx9m7nOvSTBN49EpISMiX_NCWu2PZrwdi0L2lK-ghKfVerTCLP7MwqRm7m
+
+sprite $PersonWalkingLuggageLg [20x20/16z] {
+XSy5aaGX40FGu4xkVzkj3Zjk-KBNm_6ODV4SakEDhMTBfCVFb37IemmgJ_ICZjnU5gxMI2mgxehTmI3VpQQ7MKULBMPKAoOvhcVdjc71iCjeMLOagylPyEmL
+xB_9Xs6aEe0gEnHrzA2QLOtkV-QS0ubqi8a_
+}
+
+!procedure PersonWalkingLuggage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonWalkingLuggage', $name, $tech, $desc)
+!endprocedure

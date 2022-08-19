@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Stop
+
+sprite $StopXs [7x10/16z] Oq01NFp40YO81TK7
+
+sprite $StopSm [9x12/16z] Oy04_1G1FXW3RWxSO
+
+sprite $StopMd [12x16/16z] Oy05M7bWW86Ldtw03udDWCp60G
+
+sprite $StopLg [15x20/16z] Oo09yF8Z0JOk_Y40-52vJAXS1XOUNZZW8k1x
+
+!procedure Stop($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Stop', $name, $tech, $desc)
+!endprocedure

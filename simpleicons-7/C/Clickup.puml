@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/C/Clickup
+
+sprite $ClickupXs [10x10/16z] Om01BWOeuEVdXp900Cg0YlBpWRaCs05Od1r8CW5LSmCnaYa
+
+sprite $ClickupSm [12x12/16z] VOt50S0m3CHKvjx-qnPCpoWn4yPE8Ttb_fIxHM1cz62JLpiQBAOlO9R-IxVDAh3Rcxazl
+
+sprite $ClickupMd [16x16/16z] dOx50O1030HnX-s_MvYp95_cDBvTuUW2qXrDwMdMe4mn9_uxLuzvvD3CCtpsMZ9xNZXg9_9_S5TfMeksfweYiWiUDK6Re9gGhOll2m
+
+sprite $ClickupLg [20x20/16z] {
+fS_55SGm40DGZL_GfFwxtLLYlkPVZ4DeFB3A39WP1QETb8pkOcKe0kMck9fTW8DoGhbQ9jSBNJrvhnrlLDdmdJbKPv-YNP6GoByDuhNTMwVCWI_8ngwdOPFG
+79aI3V83
+}
+
+!procedure Clickup($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/C/Clickup', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-7/A/Appveyor
+
+sprite $AppveyorXs [10x10/16z] LKg30G0n4CkZHlQVjkOnGYb3WLfifITWaSlfXc5iP0beThbQNhBUgPym5MG
+
+sprite $AppveyorSm [12x12/16z] DOc50G0W20JFRjr_MfjJu8D36P77U5mfF5bDsxjn0u_Qj_pkzX6JZxvob7Db5F2wGpt7WyZEfWtwJHS
+
+sprite $AppveyorMd [16x16/16z] {
+FO-50GKW24JFRjb_sX_0-KmQeEGZAu1iCIeKUHoAP0D7FoDDVGDSJSUiUUBlDiNFtKtNCm79VdelG8R-fjvXgClzYUqvtPV_eB8JJuPZuf0VHSVHh2OgGUxa
+D5y
+}
+
+sprite $AppveyorLg [20x20/16z] {
+LOy75iH02499dQxtF-qMSTfF9m9FE4cqFbXur6a775s8kqGIfPrdP4cyaf8-naggqJG1ZYePg8nqQNK9VSq-Jen8NFxEfosaB-hgVGeia8MlQVmJWEiwVAnv
+UWQMfaE9L7EoDAexl7nkLAVJk5LBNnQ4VldxEVG5
+}
+
+!procedure Appveyor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/A/Appveyor', $name, $tech, $desc)
+!endprocedure

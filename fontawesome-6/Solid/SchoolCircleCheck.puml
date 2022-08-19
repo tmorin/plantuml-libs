@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/SchoolCircleCheck
+
+sprite $SchoolCircleCheckXs [12x10/16z] DSk54SC040CmbnlK_jE6VD71etDPStkWtOT79fwP8K8RkRJt3Nuka-ejlPCGrQ0T
+
+sprite $SchoolCircleCheckSm [15x12/16z] LSd50KC134EnL-Pg_scB7tL9RFTtRWaQdTYVsOo3jWKFeAC0HOCXEj-2OFs4HvxE-o5UogETmRPuuZ76e3S
+
+sprite $SchoolCircleCheckMd [20x16/16z] {
+NS-53GGX00NHluBBzD_j1S_jnCZ3jQlwbW3pJumEN1cgT0F-Qb3MYh1Mnqb58egTddKIJeh3j4ocf4jr6TbQqHDGEUDM0Mv3oxsqddCUNWa2EaPGCqqYzmF6
+FmodPghqZ3is_sdq0m
+}
+
+sprite $SchoolCircleCheckLg [25x20/16z] {
+RSt50SCm44JHCOhtzrzjG92OtaMmC3eekvuiWEdEgBpEDZvokGmjcO-a3xw2lXADIM6IwBRykqbyAXmLFXOf5IUW6CqirOYg7UkXmAhA6KGf_mlOxdyPcu2y
+E9eeXeKZEGPhosdwQGh7SBPwoj3CiH1KprrQQCeUUbqHS3D7hI26_LBOwBIS2vgD5lG6
+}
+
+!procedure SchoolCircleCheck($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/SchoolCircleCheck', $name, $tech, $desc)
+!endprocedure

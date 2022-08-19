@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-7/E/Elasticstack
+
+sprite $ElasticstackXs [10x10/16z] O-371nZWW9yKTM0ImG8
+
+sprite $ElasticstackSm [12x12/16z] O-0d3FYG00CIu2S2OAg7KBZO
+
+sprite $ElasticstackMd [16x16/16z] O-170Tpy908-DC201dZH0Adciw01TFDXxeOn2F6vqVW
+
+sprite $ElasticstackLg [20x20/16z] O-3bHmTiG26g0ZuiW04BOCG2-Ea068W4S0rCY52ZH8mDYnW
+
+!procedure Elasticstack($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/E/Elasticstack', $name, $tech, $desc)
+!endprocedure

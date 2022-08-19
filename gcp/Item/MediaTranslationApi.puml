@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/MediaTranslationApi
+
+sprite $MediaTranslationApiXs [10x10/16z] RSQt0S10202n-mJilp2nj5M9FxBAgM5cq6CZI6rTL7kbDsfy1
+
+sprite $MediaTranslationApiSm [12x12/16z] TSRN0O0m2431ImFsNzZkdxu4EB_5bTxe6Bo-rtrMQY4kPwhN66wFkzF1M_VP3W
+
+sprite $MediaTranslationApiMd [16x16/16z] bSc54SGm30NH5rlKVyF7E9mLxdmdE1PKlB3MGhs6jGwKUrWB2uhKR8wNcqqlvPNdIEtbAp3zSR3PJ_y1QljZEyCL
+
+sprite $MediaTranslationApiLg [20x20/16z] fSYt0SCm54F11ud4n_uBA-VIllBuJ_TfP63ZfiiueEq4AAoMuxXi3EWw1CNcFZ8ONE3nkXOWVfxI2fNgFWM4azot2vJU9u7EwtvYPOklksxYLpC
+
+!procedure MediaTranslationApi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/MediaTranslationApi', $name, $tech, $desc)
+!endprocedure
+
+!procedure MediaTranslationApiCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$MediaTranslationApiLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure MediaTranslationApiGroup($id, $name='Media Translation Api', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$MediaTranslationApiLg>', $name, $tech)
+!endprocedure

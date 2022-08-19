@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Mercury
+
+sprite $MercuryXs [7x10/16z] 9Oa50S0m4CGoNZ7-rHOV3l41fQYUV9DWFm9iUaMFPnVk8W94XGu
+
+sprite $MercurySm [9x12/16z] DOl50S0W54DJzxxzfmM-vH8NQ81J9zoVEmoFDDnom5mRn5kY4X_25Q-8D_iOAj3limu
+
+sprite $MercuryMd [12x16/16z] 9Sm5WGC1402nAH_7lzg7RWIa3rLH3zGBrM4ygjMurGsV-uP2rPqbdbKXxZL5R5MXYzjizu8JcXHNNo_EU-FWs1gWnkbHzGi
+
+sprite $MercuryLg [15x20/16z] {
+POw50SCm30GLvjp-sxRwcFt64zi0Zqc0ENB_OKHeDqdcUYBDJcFjzVSOvmVLF6BEfezof1TMHu7SLusduvI2zrng0WRLOjLmiY_Da6D57l30DLhKUi0w9KJg
+CIP7-04
+}
+
+!procedure Mercury($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Mercury', $name, $tech, $desc)
+!endprocedure

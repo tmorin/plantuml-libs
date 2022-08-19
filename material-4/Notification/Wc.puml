@@ -1,0 +1,16 @@
+' definition of the Item material-4/Notification/Wc
+
+sprite $WcXs [10x10/16z] Oq06_10C8Ld0B6v-7WO6Fh0GFpyG8rWWGMP-PcOW3w4NbSK3mG
+
+sprite $WcSm [12x12/16z] NOs50S1020CXgTljFstTNu5OV9URzUcF6YB4sMW3zwe18cctUjZg2UuQoBNkO4oWEtraAf_r-XJnhwKpOm4
+
+sprite $WcMd [16x16/16z] dSUr0SDG40HHMypJVxVQpnXfWhrxlrx_R1LiSNFl1gOnhka4z5_CpgZRd2VtglrdDhjMHbA66wP_iFPcClZWl1S
+
+sprite $WcLg [20x20/16z] {
+fOy53WGX54FHmNvuzp_jIjTTfaYJ2k9-GSV44CyQiAS1uwnDf2KexenZ9GJHiOCfF_rHIkoHdJDPGfPMT1LtMbByLXjxchSQWfVc8n2r0ylrFqhlC7gvriH9
+l5OpioD7zm9R
+}
+
+!procedure Wc($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Notification/Wc', $name, $tech, $desc)
+!endprocedure

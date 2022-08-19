@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/HouseTsunami
+
+sprite $HouseTsunamiXs [11x10/16z] FSQ50SC040CnbRct_xJXH0ys7fqjJatuVsZgD7dMlzErbiHIprdhASNhH6Z7oUBgtM44
+
+sprite $HouseTsunamiSm [13x12/16z] HOc50GD13CFaIxdDQVzfIqyAsWRe3Yl-00IK0563KrtprZFiejd5yBwABb5WiAnu03pirBGYiS3dpsFgmGS
+
+sprite $HouseTsunamiMd [17x16/16z] {
+LS-5WSKW403HmNuIRFglzeGzVRYpV1eE_l00oD_Zbji3R3tZdaTFtpip1Z1qTQKsOY9CZk-H4WpvxyHEI_GXf6YQtd1fWNNkk_qdGh6Jfhlo2AK3z7gM8W3N
+yhFUHlNPHkNGTm
+}
+
+sprite $HouseTsunamiLg [22x20/16z] {
+PP1L0W0X20N1Rkv_soNSdXzqU2OeUL5ty6QICfuEQTE0uKMdBA_4jEKuTYUIWS0z6thmT598M4q2WKuMCM2yBVvib-ZFkgyTcDb8vzHOijOAvGnNszzHFdzX
+r6uNR5eYwq4_TBicCOJ8_U4Xh2aIznKU1Nd7uT39ZWanSSaWapziQx6HMrAcdqG7
+}
+
+!procedure HouseTsunami($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HouseTsunami', $name, $tech, $desc)
+!endprocedure

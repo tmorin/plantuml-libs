@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/S/Starlingbank
+
+sprite $StarlingbankXs [10x10/16z] HSY50S0W34JHgtjl_sc1-CSUmUZY3edQPP1xW-3JARc3bNXFGQ6wnbdrXurKT
+
+sprite $StarlingbankSm [12x12/16z] BOe74e1020FNtlN_lvMTa3iW3N5zEy4NqFHmXy9G-v4FNRkqx_36PBI78oTDtkOlR7KsqFxYm2FJ_G4
+
+sprite $StarlingbankMd [16x16/16z] JKy50WGX46Bjzl-ljSRZn9WES61hpnz-g5tWnUn4erb4AJSv0D1R-I1vBBBxKspPZ_Bs_FTsMsGc8fo6Oh46D_l3zrHnhxizFkdZTg0SbIRmFMmc
+
+sprite $StarlingbankLg [20x20/16z] {
+RT053WGX50FGpk3Q-vzsjUdgYn7WAwHjpemtYR8E2D-qZwlT0c_wszK97PDpuURGKTyEO56gxe11QxpB06bReO5_EVdySvTf7Re33Kgwt5RpIAUQ3u2x1j1q
+5-aheFFTwPKQh6hDpqzN
+}
+
+!procedure Starlingbank($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/S/Starlingbank', $name, $tech, $desc)
+!endprocedure

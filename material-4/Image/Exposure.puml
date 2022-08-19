@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/Exposure
+
+sprite $ExposureXs [10x10/16z] Oy0A-240n09n644iY02KnSW8PJ4mylE0MOmC33n0COHU1
+
+sprite $ExposureSm [12x12/16z] TSY53S0m4C10FmfA-qzRvYGMdKopwUgnxawpbTnVk2tS5ZnEAqGUNhbs-ApdtG8
+
+sprite $ExposureMd [16x16/16z] XSa54i0W34JHaBhV_xObdeon5NZpORphiUt4-ujXznDIpm38iVG6sSGmiNH2c6h_psOweWjXLXzVh5507xFk1m
+
+sprite $ExposureLg [20x20/16z] fSk54GCm40F1UpbeF_HVRPWPRdX7uh-YBfljhAwAErFbmIR0Oal6oKRlFROhpdO8xaptPfZTcC3xjO5vfRSB4rZFx3gR0JTViQlfR5VvpkQHvq9yt1e
+
+!procedure Exposure($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/Exposure', $name, $tech, $desc)
+!endprocedure

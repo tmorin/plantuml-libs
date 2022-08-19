@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Brands/Themeisle
+
+sprite $ThemeisleXs [10x10/16z] FKg30G1137lZbFsdhTr6czNU_Dy0343Q9eHU21ENe7zVWZOLrw5fWp8ADxi3rswO0G
+
+sprite $ThemeisleSm [12x12/16z] BSkr0GGn0CH0cTdglzh7ct21XpoEclZncja0Kqy06gWAK0r6_VNB8oepHhroT8AAxRaeKmWfK8MYiVGvv-ykq2lm1W
+
+sprite $ThemeisleMd [16x16/16z] {
+FOx74S0m40Avu6nh--_MWnxQrqL0Y-lJ8Z2hFUfq_wrjV5xMxkxSW17pJjA7kJKP9TXPKj0Ggo_uGFF-EY8niyThBszGO3xUTov3ZJa5hu8XAIkbVIOykFUu
+kgwa705miD8cat3hbbhfzWS
+}
+
+sprite $ThemeisleLg [20x20/16z] {
+JOu74iCW30IFuWQozl-_pSWYYPUgVdfHVEXDcGHwCRT1iEk7sMamseM-L5nRcdcNKG2df5MUd6Ge6LDoi7TtnxHSL2KHXlDnQllvRcWzyywhb-eyDCNjATGp
+xzHOCJarFd37Vr4dc6wGD5drG8dR5DfRgDcNK4WP-TUgujHUMYrjbWmPq1L6NCbfrgvorDvAJyy7
+}
+
+!procedure Themeisle($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Themeisle', $name, $tech, $desc)
+!endprocedure

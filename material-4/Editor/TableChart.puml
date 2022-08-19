@@ -1,0 +1,13 @@
+' definition of the Item material-4/Editor/TableChart
+
+sprite $TableChartXs [10x10/16z] Oy0A-2601vd5pCp0nCJ4p0GIO-RdvmIAuMDn8Km3
+
+sprite $TableChartSm [12x12/16z] Oy09-6604OdDnC3030D0DRoyJ5myF20Af8QPbvyVI97AHh4L
+
+sprite $TableChartMd [16x16/16z] Oo0Ck7bXW8SPoENXHm90FYyQdui72Q2R1T7Fmm1KoiGCrG_bCrE9pud6Ps1YOW9Z887f6W
+
+sprite $TableChartLg [20x20/16z] pSZ50S0m30D0XJdPVzlgMMOwit5DQGCIr8Roxjy2HO0aIAuIr0Yg4G9R_j4lWbof5R8IVAq9ktK
+
+!procedure TableChart($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/TableChart', $name, $tech, $desc)
+!endprocedure

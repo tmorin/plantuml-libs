@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/OpenInBrowser
+
+sprite $OpenInBrowserXs [10x10/16z] Oy0A-240XSK6be6mEFaPeImWXSO2AkO74GW
+
+sprite $OpenInBrowserSm [12x12/16z] TSQ50G0X241HMvhzfxtk-0gyy1l8MfdiUxFpsk9f-ZIRpM5tJ9vMtqPakYApKyvXUZdS6W4
+
+sprite $OpenInBrowserMd [16x16/16z] bSV50SKm04CnVooznFjFMsQkRj9ZNq-QC_kxVZ23xcWm_HKNVzbn_X0Tc5rlImV7yAwVGNjH_uLoo7If0W
+
+sprite $OpenInBrowserLg [20x20/16z] fSk35K1H30FGPxVPVzfl6_Su4Fz8ks3w32ln8AE3ZFlCYTbj5g2tMGGWrrb0Iss_tUnrHgMaBYkbWBei0-0kGqEBNse
+
+!procedure OpenInBrowser($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/OpenInBrowser', $name, $tech, $desc)
+!endprocedure

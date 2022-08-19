@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-7/S/Skoda
+
+sprite $SkodaXs [10x10/16z] 5S450SG0000XNkPo_TDE09P6h-BNGbCQDKWLBNfHL36DFsecdRssB7c5eQRY1W
+
+sprite $SkodaSm [12x12/16z] 9OW94WGW283Okqlv_sztD4fbeDWEBZe-HrjVb2nBjUi9_8rGF-0UDW4tNCznuA5C4ATRNLc-5iNJ7tZQpTgXQTK_
+
+sprite $SkodaMd [16x16/16z] {
+JSV5WGCn000nBGRjwR_QOuX-0exHO_5hLBCwWThPkJMWwQ5YwSb8TTI3hKNxRbQ5qP7w_iBQI7tRK1ClVmILe2KOTOOZtHxzMfhEbli2hkizZ3RVxftmRAmu
+-YvBNoQy0m
+}
+
+sprite $SkodaLg [20x20/16z] {
+LP05aWKn20NVI8pyqFU_xHO5QpqJmq75SZvTVsWKvr81M9oFmofHI3PCwN8iHKCS0H4FMiGo0Rn0ckIwI5O4PGgxOHo2CbneGr4oH-k_RDNvLpRueC21QnFN
+JUU9omDedYe6ly521kPDukXmERziuzQ5osub-tuXS-k740MMtTVr_ZFIDNPLM4m8JXfz0G
+}
+
+!procedure Skoda($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/S/Skoda', $name, $tech, $desc)
+!endprocedure

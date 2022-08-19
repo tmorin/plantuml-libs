@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Guitar
+
+sprite $GuitarXs [10x10/16z] Ou013XY3dn_Au8EmM1Xu-Q4I405M80LcCVBpSqDO_6301rF51jCFqGW
+
+sprite $GuitarSm [12x12/16z] FSo50O0m40D0tE7sdnPlgX-jieOwuqXcP7Iy_sQd_aAKaQEXJuRr7W_izTSn8NMIV43e2m
+
+sprite $GuitarMd [16x16/16z] LSu30W0W3030RFp_jRaXNze4Auspzyx8hHO3KYwwjqvPBqRwa30VrgUorYgi0U_ACydDiEsFoLVrXNxdDB57y-tuiH1cqtvD
+
+sprite $GuitarLg [20x20/16z] {
+PO_50SGm3C3At6Z_QGz29lqiy-2vZw1UkA82vm2ILIcMtS0ZuJBbOKdC1V0ODK4csGioSnCh_EzyaBgxDSaP8tzkunuoup3JFwKZumvHetpTsDmB_lL4vXNJ
+ZdwK-08
+}
+
+!procedure Guitar($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Guitar', $name, $tech, $desc)
+!endprocedure

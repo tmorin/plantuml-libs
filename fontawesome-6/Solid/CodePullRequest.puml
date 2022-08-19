@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/CodePullRequest
+
+sprite $CodePullRequestXs [10x10/16z] VOZ50K0X34Fp1PUt_xJucJQku2IPmG2VO2GFBp3puTPvc6ig6UmCaMzl1Je
+
+sprite $CodePullRequestSm [12x12/16z] ZSYr0OC00031YmVz_RUbGagg5-yLPdXN5An9LQZ9fvx5DuZ3tVOALAs2Hxh-3G
+
+sprite $CodePullRequestMd [16x16/16z] hOx50O0m5CKUxcJ_QQdhcLI-Y_IUSg00W1UZDr-qCWXuVDx5-c1_pndoB-c1PGur8CjfzGcY7Vd37ZeRg5T_qSxWpOjXv-HuaUTWjofmb_p7
+
+sprite $CodePullRequestLg [20x20/16z] {
+lSs5WSH034DHXJcl_seF7QXW_w19IXPJ_jY6570aoK6b5XQwX3l7KWViIJA3jd8e6LlfjWjdcUH-9zwvR7CIkiezC7mcrtZdHeu4l58SEs6i76l3QGlpdMj2
+1r8S82k6l9FjDm
+}
+
+!procedure CodePullRequest($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CodePullRequest', $name, $tech, $desc)
+!endprocedure
