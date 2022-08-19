@@ -41,10 +41,14 @@ export async function renderSimplePage(
     main h1, main h2, main h3, main h4 {
         padding: var(--bs-body-font-size) 0; 
     }
-    #search .list-group .list-group-item img {
-        max-height: 50px !important;
-        /*max-width: 200px !important;*/
-    } 
+    #search .list-group {
+        max-height: 50vh;
+    }
+    #search .list-group .list-group-item {
+        border-left: none;
+        border-right: none;
+        border-radius: 0;
+    }
     </style>
 </head>
 <body>
@@ -78,7 +82,7 @@ export async function renderSimplePage(
 <div class="offcanvas-body">${page.summary}</div>
 </aside>
 <aside id="search" class="modal" tabindex="-1" >
-<div class="modal-dialog modal-dialog-scrollable modal-lg">
+<div class="modal-dialog modal-lg">
     <div class="modal-content">
         <div class="modal-header">
           <h2 class="modal-title">Search</h2>
@@ -88,9 +92,18 @@ export async function renderSimplePage(
             <form name="search">
                 <input id="searchTermInput" class="form-control" type="text" name="term" placeholder="type a regular expression">
             </form>
-            <div id="searchItemsList" class="list-group"></div>
+            <div id="searchItemsList" class="mt-3 list-group overflow-auto"></div>
         </div>
     </div>
+</div>
+<template id="searchGroupItemTemplate">
+<a href="" class="list-group-item list-group-item-action">
+<div class="d-flex w-100 justify-content-start align-items-center">
+<h5 class="flex-grow-1"></h5>
+<img src="" alt="" height="50"/>
+</div>
+</a>
+</template>
     <script>
     var itemsAsPromise = fetch("${page.relHrefToItemsJson}").then(function (resp) {return resp.json()})
     document.querySelector("#search").addEventListener('shown.bs.modal', function (evt) {
@@ -99,29 +112,34 @@ export async function renderSimplePage(
     document.querySelector("#searchTermInput").addEventListener("input", function (evt) {
         evt.preventDefault()
         var filterItemsAsPromise =  itemsAsPromise.then(function (items) {
-            return items.filter(function (item) {
+            return !evt.target.value.trim() ? [] : items.filter(function (item) {
                 return new RegExp(evt.target.value, "ig").test(item.urn)
             })
         })
         filterItemsAsPromise.then(function (items) {
-            return items.map(function (item) {
+            return items.slice(0, 400).map(function (item) {
                 var itemReadmeHref = "${page.relHrefToRoot}/" + item.readme.href
                 var itemImgHref = "${page.relHrefToRoot}/" + item.readme.href.replace(/.html$/, ".Local.png")
-                var itemAsHtmlParts = [];
-                itemAsHtmlParts.push("<a href='"+itemReadmeHref+"' class='list-group-item list-group-item-action'>")
-                itemAsHtmlParts.push("<div class='d-flex w-100 justify-content-start align-items-center'>")
-                itemAsHtmlParts.push("<h5 class='flex-grow-1'>"+item.urn+"</h5>")
-                itemAsHtmlParts.push("<img src='"+itemImgHref+"' class=''>")
-                itemAsHtmlParts.push("</div>")
-                itemAsHtmlParts.push("</a>")
-                return itemAsHtmlParts.join("")
-            }).join("")
-        }).then(function (itemsAsHtml) {
-            document.querySelector("#searchItemsList").innerHTML = itemsAsHtml
+                var groupItemNode = document.querySelector("#searchGroupItemTemplate").content.cloneNode(true)
+                groupItemNode.querySelector("a").href = itemReadmeHref
+                groupItemNode.querySelector("h5").textContent = item.urn
+                groupItemNode.querySelector("img").src = itemImgHref
+                groupItemNode.querySelector("img").alt = item.urn
+                return groupItemNode
+            })
+        }).then(function (groupItemAsNodes) {
+            var searchItemsListNode = document.querySelector("#searchItemsList"); 
+            searchItemsListNode.innerHTML = ""
+            groupItemAsNodes.forEach(function (groupItemAsNode) {
+                searchItemsListNode.appendChild(groupItemAsNode)
+            })
+            var firstListGroupItem = searchItemsListNode.querySelector(".list-group-item:nth-child(1)")
+            if (firstListGroupItem) {
+                firstListGroupItem.scrollIntoView()
+            }
         })
     })
     </script>
-</div>
 </aside>
 <main id="main" class="d-flex flex-fill flex-column min-vh-100">
     <div class="flex-grow-1 pt-5 mt-5">

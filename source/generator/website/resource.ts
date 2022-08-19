@@ -149,7 +149,7 @@ export class MdtoHtmlResource extends TransformedResource {
         this.config.outputDirectory
       ),
       relHrefToItemsJson: P.relative(
-        this.absOutputPath,
+        P.dirname(this.absOutputPath),
         P.join(this.config.outputDirectory, "items.json")
       ),
       title: P.join(
