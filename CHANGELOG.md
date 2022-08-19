@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [9.4.1](https://github.com/tmorin/plantuml-libs/compare/v9.4.0...v9.4.1) (2022-08-19)
+
+
+### Bug Fixes
+
+* **website:** search doesn't load `/items.json` ([6d2b8dc](https://github.com/tmorin/plantuml-libs/commit/6d2b8dcbc5d4e78dd2cf45aae9dd5e3fb794dfa3))
+
 ## [9.4.0](https://github.com/tmorin/plantuml-libs/compare/v9.3.0...v9.4.0) (2022-08-19)
 
 
