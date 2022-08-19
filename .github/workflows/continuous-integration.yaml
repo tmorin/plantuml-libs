@@ -82,7 +82,7 @@ jobs:
       - name: "Install dependencies"
         run: npm ci --no-progress
       - name: "Build summary"
-        run: npm run generate:website
+        run: npm run generate:website -- --gTagId $GOOGLE_TAG_ID
       - name: "Create tmorin-plantuml-public.zip"
         run: zip -r ../tmorin-plantuml-public.zip *
         working-directory: public

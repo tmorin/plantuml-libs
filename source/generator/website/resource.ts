@@ -144,6 +144,7 @@ export class MdtoHtmlResource extends TransformedResource {
     })
 
     const contenteAsHtml = await renderSimplePage(this.config, {
+      gTagId: this.config.tracking.gTagId,
       relHrefToRoot: P.relative(
         P.dirname(this.absOutputPath),
         this.config.outputDirectory

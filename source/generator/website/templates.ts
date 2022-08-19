@@ -4,6 +4,7 @@ import { Config } from "./config"
 export interface SimplePage {
   relHrefToRoot: string
   relHrefToItemsJson: string
+  gTagId: string
   title: string
   content: string
   summary: string
@@ -17,6 +18,13 @@ export async function renderSimplePage(
     `<!DOCTYPE html>
 <html lang="en">
 <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=${page.gTagId}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '${page.gTagId}');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>${page.title} - ${config.library.name}</title>

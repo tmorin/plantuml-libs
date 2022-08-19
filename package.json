@@ -42,7 +42,7 @@
     "alpha:publish": "git push --all && npm publish --tag canary",
     "generate:library": "scripts/generate-library.sh",
     "generate:package": "scripts/generate-package.sh",
-    "generate:website": "ts-node source/generator/website ",
+    "generate:website": "ts-node source/generator/website",
     "generate:workdir": "ts-node source/generator/workdir",
     "release": "standard-version",
     "release:publish": "git push --tags && git push --all",

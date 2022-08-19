@@ -9,6 +9,7 @@ interface YamlGeneratorArgs {
   i: Array<string>
   s: Array<string>
   o: string
+  gTagId: string
 
   [x: string]: unknown
 }
@@ -27,18 +28,24 @@ const argv = yargs
     default: P.join(process.cwd(), "public"),
     type: "string",
   })
+  .option("gTagId", {
+    alias: "google-tag-id",
+    describe: "the Google Tag identifier",
+    default: "",
+    type: "string",
+  })
   .option("s", {
     alias: "skip-patterns",
     describe: "resources to skip",
     default: [
       "**/*.{Local,Remote}.puml",
-      // "aws-q1-2022/**",
-      // "aws-q2-2022/**",
-      // "azure-4/**",
-      // "gcp/**",
-      // "fontawesome-6/**",
-      // "material-4/**",
-      // "simpleicons-7/**",
+      "aws-q1-2022/**",
+      "aws-q2-2022/**",
+      "azure-4/**",
+      "gcp/**",
+      "fontawesome-6/**",
+      "material-4/**",
+      "simpleicons-7/**",
     ],
     type: "string",
   })
@@ -49,6 +56,9 @@ async function execute() {
     inputDirectories: argv.i,
     skipPatterns: argv.s,
     outputDirectory: argv.o,
+    tracking: {
+      gTagId: argv.gTagId,
+    },
     library: {
       name: "tmorin/plantuml-libs",
       github: "https://github.com/tmorin/plantuml-libs",
