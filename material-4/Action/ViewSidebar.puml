@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/ViewSidebar
+
+sprite $ViewSidebarXs [10x10/16z] Oy06-C60WPy7ayNCX266ImSS
+
+sprite $ViewSidebarSm [12x12/16z] Oy05k7Z0W8cJXuc1bnyCc7du4MmcPWOucuiNXnecX1fqSvYOmG18erWB
+
+sprite $ViewSidebarMd [16x16/16z] Oo0LCF7300CF4EFZS_Bm8FCnz7CJqC_5oulC9yv-HXuO0DjF2
+
+sprite $ViewSidebarLg [20x20/16z] Ow08i280CmCBAoiBK8mV0RWOUFZvUSWL0m5qCIPcPYPopUCcpWxA_K49
+
+!procedure ViewSidebar($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/ViewSidebar', $name, $tech, $desc)
+!endprocedure

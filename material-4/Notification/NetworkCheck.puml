@@ -1,0 +1,16 @@
+' definition of the Item material-4/Notification/NetworkCheck
+
+sprite $NetworkCheckXs [10x10/16z] RSZ75G0X3CHGROwW_hlb3LVupcRkq2DprsV_Ra58sqk6Xn8Ntlc4C6nT0m
+
+sprite $NetworkCheckSm [12x12/16z] VScr0GGn00F1DRFLVxNFS3oHW2lM6LwS7doUGDUqK8mKIHQIrxE-7WNLo5FsIDNoPjNu6hByEBRk
+
+sprite $NetworkCheckMd [16x16/16z] dSc53GCn0CNG7-Pu_sshCXyzeMKTOLFhzL69iz7CTEUSq8Cr1W_jd4DdUSf2bB9aElRy57NMWK3WN6SJ9p1aFLZGg_dHqFKgF7FP2G
+
+sprite $NetworkCheckLg [20x20/16z] {
+jSkr0KDH34DHFKRxxZzjcElyKnaa7Q9iW5Bq50PtykJtSmRmKN9UiuD9Qa0FkWYqk86eYEkkawujanIl_Gt12U6wtcrW5qXKFKIm4i0RMwzZan9qcRviYFe1
+w4S2zCke-eCp
+}
+
+!procedure NetworkCheck($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Notification/NetworkCheck', $name, $tech, $desc)
+!endprocedure

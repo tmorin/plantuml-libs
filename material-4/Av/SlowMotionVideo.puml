@@ -1,0 +1,19 @@
+' definition of the Item material-4/Av/SlowMotionVideo
+
+sprite $SlowMotionVideoXs [10x10/16z] LOg35G1134H_z73ilzkrmX57_Rm3vDKEygrZUTMXe0nllemU25svSeHeb43pJG
+
+sprite $SlowMotionVideoSm [12x12/16z] NSV50OH000F0mLbD_zMU_eZ74xS3q7EhkQ01EH3_6yh5oC9SyDsXhwxotVZRXIKuy9qBd9cI5R00Rm
+
+sprite $SlowMotionVideoMd [16x16/16z] {
+ROvN4aDH24BrjTjb_xiDW-a97sV4Rl_b7svY6L0UjiL1LYQb-fZ9n0nYoyHE9ffAYqar0K5U82G0p1_qhbnUAo0KGG_5q5r2EZExcTzjVRmx3YiXAnsn3CFj
+Zsu
+}
+
+sprite $SlowMotionVideoLg [20x20/16z] {
+bOw54GGn30CTzA6t_sv_Wi-amwnaaF-qe69dk24AbcG7yvCb_F0wr3XD3wx-W4m5zl9PQpuS3PxKcBK0eLMNJfewOwcHzQOHKDpQqFRAnd9eOJHstAmQoOLb
+kLtCaAaLhLzVxwg5SxWxkwkzhaZy0IfMNhTAKTJBUrq
+}
+
+!procedure SlowMotionVideo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/SlowMotionVideo', $name, $tech, $desc)
+!endprocedure

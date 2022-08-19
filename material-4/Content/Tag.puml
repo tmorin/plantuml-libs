@@ -1,0 +1,13 @@
+' definition of the Item material-4/Content/Tag
+
+sprite $TagXs [10x10/16z] Oy01U1ZuqLWyFFn0o8CYnWy1M7KW
+
+sprite $TagSm [12x12/16z] VKg54S102EEmQexzfwth6ngZHWrC8rzuPeASwXpOPtUOeGpZD3CYiC-H4PZ0vP_PY_T9QWK
+
+sprite $TagMd [16x16/16z] Oo07CFCpC33nu-8pCxFoCpEp034JcCyF1pn4wMTYOkLdOc86OaQoz0FPG8MCG4m4
+
+sprite $TagLg [20x20/16z] Ow0SiBA026OKCNuU4C55iXWhFpA0YB7myF3myuC8FY116pkOkRYu-FbW1FbsK0m
+
+!procedure Tag($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/Tag', $name, $tech, $desc)
+!endprocedure

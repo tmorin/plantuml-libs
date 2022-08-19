@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Tarp
+
+sprite $TarpXs [11x10/16z] Oy0AkFWHW8-1doW0r0PdylCmmvWyoEO2
+
+sprite $TarpSm [13x12/16z] Oy0D-5404p87A4SAG36CdPyFcOCanOxc
+
+sprite $TarpMd [17x16/16z] fSwr0S0m40D0ASpQVzkuDEDrpu-oxN5mK-1UvGBa-JHW8kdScyqZJcAHw2Lcm4aigF03
+
+sprite $TarpLg [22x20/16z] Ow0SyF5Z0WukVXo0XHsB81zsKvYP-Ua0E440NH3YDGnHa3ekRA8ysDHoCp0mOuZoW0ncvKK13Aoa1Ze
+
+!procedure Tarp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Tarp', $name, $tech, $desc)
+!endprocedure

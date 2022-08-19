@@ -1,0 +1,13 @@
+' definition of the Item material-4/Device/SendToMobile
+
+sprite $SendToMobileXs [10x10/16z] Oq027FmW069n8bXW6GIB3ye2IhF2nDXWigoeUbcWB
+
+sprite $SendToMobileSm [12x12/16z] Oq05_120oMPc0G886qAo8B5vsC5ig1v6X3WJL1nXFWy8yEEmYvk10G
+
+sprite $SendToMobileMd [16x16/16z] ZSwr0G0n3CNG7qRR-qzxp1XrhnCUagKoqyZQc-sKtuoriuiwM6jTHUsMCLuzLIVkpZZRhAvpqlQBH7CMG0y
+
+sprite $SendToMobileLg [20x20/16z] bT3L0O0m34NHLzSa-q-BktFvEzHnL-4vFrEKjTdIPxEc-xhAnh1sjdXXbVSMOemiTMSiGsvhggjAEA_dSJA3axcqMftYtszWpzPXc5FeQW4
+
+!procedure SendToMobile($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Device/SendToMobile', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/C/Chemex
+
+sprite $ChemexXs [10x10/16z] 1S450S10000Xvhxht_R13TmpGHRUZtQGAK01iWH480Xdq4n01W
+
+sprite $ChemexSm [12x12/16z] 1S450S10000XvlxNl-t0FG7dVH2Oix450UEb5P0lWBOEW2m1kcW7Kn1eWU_35H027Fa1
+
+sprite $ChemexMd [16x16/16z] HOu55WGn2CKoxitzJxiob4Ug-ESyIVQJ7Nm8LkVvXD4zR7lcuV2QZKwpNucDrQdiKvJYIhlofyhd5gY48GHuPBQL1LNfaq-mESIiH04lai65Bm
+
+sprite $ChemexLg [20x20/16z] {
+NO_50GGn58KOzz1_jQjnZb-Ui9qhXVrSnWrq8h4P6ButIcHGc3PWDiIPZaHkdpYgf8CpS7XJeL6iulJ1xt5ts9rn_Ewc_en9sxCBU5owiyuukCNi5v5Hotsa
+62wn9BjIrcFta6qk3mgNUznqiTu
+}
+
+!procedure Chemex($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/C/Chemex', $name, $tech, $desc)
+!endprocedure

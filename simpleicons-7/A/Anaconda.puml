@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-7/A/Anaconda
+
+sprite $AnacondaXs [10x10/16z] 9S650SC0400XwjxRVzhO0_ZVZ6xrfA1kUeDwdOnaT3TEwGRA-nQdWgfO0G
+
+sprite $AnacondaSm [12x12/16z] BOk54S0020E_BXpy_jDMoKcS3xNnOqRKJnkFRpD-IPguz5I3kNMADC9ZELkN7D5QMRUZvGQf6QNrd_HBRm
+
+sprite $AnacondaMd [16x16/16z] {
+FS-r0GDH3C1GVJxoQVzfm_7hr1ZuglT1EaOirCd7cZHy2u1xYmvGrGkefV8LMb2IsbcaGuE3L1HtIBgVbTIqdgLbXrAS_5GDocfxfi0zzQYqK0T0zs_aslpc
+2G
+}
+
+sprite $AnacondaLg [20x20/16z] {
+PS_L0SKW5C3Ge3KW-q_xN2hd3wxpDO-ji9DbKDKM-5iCnQUPbw14ICjGNG2ChloYMe0GKkIhgz3SLlxKcUZ-YqLTrh2of_Pm_KCv_-LjrFDVxSXEK5cTpoE8
+MlYfQeGwbsN_9R1QTFcTAqzhSYVovXy_q_2fHPxk
+}
+
+!procedure Anaconda($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/A/Anaconda', $name, $tech, $desc)
+!endprocedure

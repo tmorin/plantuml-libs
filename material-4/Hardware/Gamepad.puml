@@ -1,0 +1,13 @@
+' definition of the Item material-4/Hardware/Gamepad
+
+sprite $GamepadXs [10x10/16z] Oq01_Fpys5WmYWz8ye1OG0QKnS0F4iEbbuS790K
+
+sprite $GamepadSm [12x12/16z] Oq07lBoyS3O_FpzMDXy_1qGjFpyV0pj8YWd4vcS7oa3OG0Ly80uJL2yVGJEPcC1g0G
+
+sprite $GamepadMd [16x16/16z] dOx50S102C02r8tzjwsxNrx1uH9HrMrSkxlzYBCkbb6bhkkKh0khpa2z8qLeUfdYhfhw9XOIiZ76pFhc5EsCaQehQS1_Pre
+
+sprite $GamepadLg [20x20/16z] jOy53WH1409hXjZT2l__xRgxLQpJ1d2Dw8htUc7QYoK1sLbNWok4SlXNPLhrscRLclPoaAUzwXUQzgf3eRPNqVxIntdJ2hOf
+
+!procedure Gamepad($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Hardware/Gamepad', $name, $tech, $desc)
+!endprocedure

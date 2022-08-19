@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/ViewCarousel
+
+sprite $ViewCarouselXs [10x10/16z] Oy0E-8603Ko3MVmy15XiR60M6oismm
+
+sprite $ViewCarouselSm [12x12/16z] Oy03U400nE3aOUO70KuUHWPUVXOmcuUVYMGs483PUEm4
+
+sprite $ViewCarouselMd [16x16/16z] Oo07y8C13vZDoCF33ELpyW25cFZvMQ1y7dv-QlFHxKDr3na
+
+sprite $ViewCarouselLg [20x20/16z] Ow0Oi4814v8OFnImGVayF3pCS35E7XvEY1eMk1WFFp_F81DZOsDZX8knih6nOlYD5W
+
+!procedure ViewCarousel($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/ViewCarousel', $name, $tech, $desc)
+!endprocedure

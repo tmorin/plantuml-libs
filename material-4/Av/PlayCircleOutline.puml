@@ -1,0 +1,16 @@
+' definition of the Item material-4/Av/PlayCircleOutline
+
+sprite $PlayCircleOutlineXs [10x10/16z] LKg34G0134jrAFUVziqomgzcwlWnE-7zdFeniYthYROJw0qbOFpcTezX9uKbRtS5
+
+sprite $PlayCircleOutlineSm [12x12/16z] NOo53S0m3C1SvlR_RwU0Q0uZV_ggdftNytnDquNmYZZOMEnDjWBSm4wIop1If-I0c_m8alUBfa52VNS_IPKG4Ju
+
+sprite $PlayCircleOutlineMd [16x16/16z] RKq54WGX35lSc___zWZj-GQDJQzxEFV99eXYp4FYVYgMSWphg3256HK2RORHZhKedWwOojX9uon7l7rEA_oV7nnLwIeQagdYZ5RL5sOAHKWLGG0Cflxm
+
+sprite $PlayCircleOutlineLg [20x20/16z] {
+bOu50WCX4CHmX_p_j-soTU-SaWbY_ai1cFw6P5YZJrZkZ3gui-tELZ-t3kp-0NE9rxvitm-5Wwqj5V0wEmZh9qQH7wgysfaHpmfZi_FXoCVNGfbk4f4cxCOd
+StkmjIjD5K4Kbh-WUJayGzJ8HXhRqMHpczX64VTT3W
+}
+
+!procedure PlayCircleOutline($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/PlayCircleOutline', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2022/Resource/LoT/AwsIoTAnalyticsNotebook
+
+sprite $AwsIoTAnalyticsNotebookXs [10x10/16z] Oq02p70AmM9Xu0G288k5dO49280iTaweB2OBh0wXbn4Cc04
+
+sprite $AwsIoTAnalyticsNotebookSm [12x12/16z] Oq01x8nG06HpiZ5o004BI9o36KaD0p8ReOOJIOA3bO6P6Qjw1E1aHHBdW086
+
+sprite $AwsIoTAnalyticsNotebookMd [16x16/16z] TOq50a0X349juVu7_c77zimLc1jYm3_EiuJlE5ZZ2hR40Nwjb_vOS2K6qrL78PIOp5UTvEBdPbtnQsX-Uum5ym8
+
+sprite $AwsIoTAnalyticsNotebookLg [20x20/16z] bO_50GHH34BXn_ilU6NSvPtY0Hp3MY5TJJ3JPvPfiEXHy6nEtMLRWoZWrMDzZMBSxNQNMm_d7zjQL0KcvhbE7_lQrLpFwxbUtyof3r2vGFjBRGNm1G
+
+!procedure AwsIoTAnalyticsNotebook($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTAnalyticsNotebook', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTAnalyticsNotebookCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTAnalyticsNotebookLg>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTAnalyticsNotebookGroup($id, $name='Aws Io T Analytics Notebook', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTAnalyticsNotebookLg>', $name, $tech)
+!endprocedure

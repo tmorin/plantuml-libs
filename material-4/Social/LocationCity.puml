@@ -1,0 +1,13 @@
+' definition of the Item material-4/Social/LocationCity
+
+sprite $LocationCityXs [10x10/16z] Oq05V306FniVX0O1C8iDI4DO_1004sC3iRZuWJGNFv8i0W
+
+sprite $LocationCitySm [12x12/16z] Oy00R0Wc7pyxdCqFX1066C054U8m016782B54G
+
+sprite $LocationCityMd [16x16/16z] ZOo50S1030AfAxtzfwsxtsiIGF_828vbpRwsHQG9Cx7M3g49jxeEmI5n68QJVYCSvm8BQaqr1gOprJLCvq5_p0jtw487
+
+sprite $LocationCityLg [20x20/16z] bOo50S1020EXhhdzfwsxzrw19FQNKESML8UMKoHetmj8JTW22xQ014YxNc9mz9OPK7LNrf6ElHqQUwa3cOl-fqDU_zEzjqXWkVvvjQEopxG
+
+!procedure LocationCity($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/LocationCity', $name, $tech, $desc)
+!endprocedure

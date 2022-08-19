@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Yoast
+
+sprite $YoastXs [8x10/16z] Oq01_12AYP-Tdu6F0yW58nZD3A61Sa0QePgB3qap
+
+sprite $YoastSm [10x12/16z] NSQ50S0m3CH0bRc__xHXLcBx6Fi5p-jQj1mRladW_uIYxj_lE4kHtgJTBzweo5apCUtuB
+
+sprite $YoastMd [14x16/16z] TOw30G0n34LhDs__QSz6x7prG_3AkjCBPNnA_jeAR86cpz6aRJA2sJADtowk1aizCi_sRBEtJ72BRtTKytOagptD0eg5vhoxlJC2
+
+sprite $YoastLg [17x20/16z] {
+VSi53eKm00JH1Ueszp_j5zm7wUObrLkLTWHm-kNBL3QWNchzTgCg9ZliRlnsHf85IMxyz-ZNE1jbXOgVTGRHv8-08Ep0uK4x45p1720oZxveh95dq3Wwq0Ac
+1IM8dHdp8qFLeQ7RzXS
+}
+
+!procedure Yoast($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Yoast', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/ArrowsTurnToDots
+
+sprite $ArrowsTurnToDotsXs [10x10/16z] Oq05_222Yv-VWHy4M9d1B0uE3dwuB3-g1gWC3r0rM2qRFoSd9rG_q2ImB
+
+sprite $ArrowsTurnToDotsSm [12x12/16z] NSh50K81042XPxViFwtjBywqjBBlZLQiNhgpuYkANlHXMsdfhg_L2wt8r-N2JRMYOFnF
+
+sprite $ArrowsTurnToDotsMd [16x16/16z] RSw55KD124JH8Iuih_zkmvmat--wWeu5fQzhXfUyliiRu2MZvLK5n9k_8K3kma1VVFyRwEVxNw9Zi5tZuDdT8mtGnHrV_pIULBIh4mxif3RbNyGKtZu
+
+sprite $ArrowsTurnToDotsLg [20x20/16z] {
+VSt50SKm3C1GbRdQVzeFBkEx96RUf8wSgIm6hI5LSsQjAhWf65MJp9qoejXW7LJoePlNzlmbnrkN74r1K5vazfpLEd3M6ybHYmWMFOqgepjqggMEpL-d5gIg
+en8Y1UNGuPnhZTJy7-PFok8B
+}
+
+!procedure ArrowsTurnToDots($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ArrowsTurnToDots', $name, $tech, $desc)
+!endprocedure

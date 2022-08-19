@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/XRay
+
+sprite $XRayXs [10x10/16z] Ou03VZXWG2ROs1ZOs40iY2es80l2H5F708RyZ40U6r03CW
+
+sprite $XRaySm [12x12/16z] PSg50O0m4C30u4xstnQdTfLN8aP6BwiNjAjhwdfpv-juvLjLLPplxdTSYXqtBaykK5tvRZ3imG4
+
+sprite $XRayMd [16x16/16z] NSo50S0W40F0r0t8_jkMFCvLu1MJAumuGSwiD9lYOrrNnC-JKEoTSuWVKxoZy1O7WNwv_oZb73FNMUBDzbybzZYXjyI4UNIxAKximWacFm
+
+sprite $XRayLg [20x20/16z] {
+ZOw30S0m50LVL6F_QTlOkZBtYGg4bRmLdeg3oppXbNQ2Kaf09RTtnx8i78laSUvMxD0Vvn2nM5UVuTF2Z5KkJy4apzkhVNnjulHVS7e8yMaloA6_swAuzV_o
+Je8AFm
+}
+
+!procedure XRay($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/XRay', $name, $tech, $desc)
+!endprocedure

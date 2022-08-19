@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Carrot
+
+sprite $CarrotXs [10x10/16z] NOgr0O004CI2Ezb_Mko-8iqfOO72lrDEZKirUkfHZJP0hshTysgLS0C
+
+sprite $CarrotSm [12x12/16z] ROo30K0X54M_MPtzfyrslSjbilYhcJ8h8Fy2OSVjXcJXpFCBUGxZwiO7YrHqb-R7ScaP
+
+sprite $CarrotMd [16x16/16z] LSu50e1024JHiNl-_KzhA-pRJb0OLAWeDrPGDcCLE2tlqzFRNymbVfAVko-iVC4yDZruDN6SduCsS1MlDwrLpieAnieE
+
+sprite $CarrotLg [20x20/16z] {
+PS-54KKX34JHVUxS_glzcbdiZ49SbKETYqajUDG2r89RhGE0LNyhW9J0zGy_iwRxtXNuKuO6VZP_hH2TydhOfJ1XGv_cqXchZZo1DFbh14wTv9yunxix3TKI
+pw366m
+}
+
+!procedure Carrot($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Carrot', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2022/Resource/Containers/AmazonElasticContainerRegistryRegistry
+
+sprite $AmazonElasticContainerRegistryRegistryXs [10x10/16z] HOk50S1030BXQkm_STzpSK75eqbw3qzB4dHUf2Jqw1ytSR_UzzsZxopS5HtKktYI7m
+
+sprite $AmazonElasticContainerRegistryRegistrySm [12x12/16z] POg50K11248HY_qN_frtpnRmHNR1W8adsR1EWAa-zesz-ROh8hZLv95aMyNkgIfkDNYernDzWnK
+
+sprite $AmazonElasticContainerRegistryRegistryMd [16x16/16z] VSlL0G0n20FGD4ZOV-BhkVTzuE2bTAhUmcTxX400CGS8clie1NlIsYipYpd7TJ_RehR_7FndH8ZHhVzNSs-jjIHw_FuFak9i_YzS607NYPW
+
+sprite $AmazonElasticContainerRegistryRegistryLg [20x20/16z] {
+ZOs54GCm3CJq3lt-4pTO9WLqP-GjkVcUEaA5HmoDsWQMfqZ2L58X72eQNR5YnSezrcyxiHWuob1TCIssTvqdiNJcIOnX0dtReO4Z3UqTaISihLZneEbn1u8_
+TZ3eWQ4PQwGouKZWf7kAwUWHk
+}
+
+!procedure AmazonElasticContainerRegistryRegistry($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Containers/AmazonElasticContainerRegistryRegistry', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonElasticContainerRegistryRegistryCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonElasticContainerRegistryRegistryLg>', 'Containers', $funcName, $content)
+!endprocedure
+
+!procedure AmazonElasticContainerRegistryRegistryGroup($id, $name='Amazon Elastic Container Registry Registry', $tech='')
+  IconGroupElement($id, 'ContainersFamily', '<$AmazonElasticContainerRegistryRegistryLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item material-4/Notification/AccountTree
+
+sprite $AccountTreeXs [10x10/16z] Oy06-FdvmIGF48C0bCN03nA3g42eHOZnGrbGlN
+
+sprite $AccountTreeSm [12x12/16z] Oy05UFdv-O4Ka6G2itbuUE1iPY24iHdu8Mh0W1-X7rMS1y5cOO6pOUOZ0G
+
+sprite $AccountTreeMd [16x16/16z] XSm53i104090JY8Lmlz_MxRkDx5Lq99esKLF0x8iUihMVZITUbANFcSjzrkU-s79MxY_EEw_-WKsjIxxmxtF0NSJ
+
+sprite $AccountTreeLg [20x20/16z] fSu53i0m243HkSlzRxkq1VxS-c84JwBCpaGuNETSv933VhQPq-GsLpkLouMmv2MN0xd9wScnRvshocFE8UTaHL6G0pbmzvK5
+
+!procedure AccountTree($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Notification/AccountTree', $name, $tech, $desc)
+!endprocedure

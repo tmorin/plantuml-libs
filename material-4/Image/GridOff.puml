@@ -1,0 +1,16 @@
+' definition of the Item material-4/Image/GridOff
+
+sprite $GridOffXs [10x10/16z] LOk30K0n34JlimhsdxRcYt6O1FDf1L03WgAaO9xU4US78a9z-EgkKBRzvPHTL66J
+
+sprite $GridOffSm [12x12/16z] JOo53G0n30DTHZVxR_k5HFemd8oVvG8-6u0KnnIO0psubrq3vgvxmHHEsNFows2UxxinPIW7usQEGWhxeuofJHwHYm5URPKF
+
+sprite $GridOffMd [16x16/16z] VOu54e103CJsj6FG__-M1lV0UJfTtKYcb7UaxAR1TwJY5eC7hIl6-TpZ8fVgfRJb7MFSwl4gnkwpOcpdd9jZfBpN0pbs_oy7VKlq9qVWEnXdS2S
+
+sprite $GridOffLg [20x20/16z] {
+dO_L0OKm303p58ZklosfwnU7zjeOxFYjYko0d_Mun23H536_oAMv1EFmXr3-WlnF3aFEptmkdhHCTCeieH27F-uoknpobKA_oJ6wV5TN22TBZJ821ubzxBE9
+1bmwB-wH86TGuGO
+}
+
+!procedure GridOff($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/GridOff', $name, $tech, $desc)
+!endprocedure

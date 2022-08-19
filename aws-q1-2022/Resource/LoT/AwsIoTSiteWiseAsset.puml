@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2022/Resource/LoT/AwsIoTSiteWiseAsset
+
+sprite $AwsIoTSiteWiseAssetXs [10x10/16z] JSR50GGn00GWufd-2pvTuuMdLlUvKcex9ZO4JMTaHu5124F21BCe5YkabDBU
+
+sprite $AwsIoTSiteWiseAssetSm [12x12/16z] NKm50e10369NZFz_M6RhEW3yJ8fxPYAVcRWsoJlQzBY0gBiyToutTXntsTrOiD2g9eQnlTSC1cMdJc6bJHi
+
+sprite $AwsIoTSiteWiseAssetMd [16x16/16z] RSV7OSKm30KmKBR4n_q7Jk_vkC4ZA-VNs-JwVJNb--dRojShAjmDn20N1uOAxfm5LyyCsW6RUnWD34RAHhfqRsF7-ukOorvGLQjIKrMza8O1mWJctNa6
+
+sprite $AwsIoTSiteWiseAssetLg [20x20/16z] {
+TSw5ZG1G20MmyfMt_y3dBWqntFzk-sdMIF_ArQZUFtCf8_DxRjx3xlesQmJTtfpEnDq8K24mmogeNgp0xXkmPz89wcglkRte89otNEE4rq3Lc70gVSQ1iLib
+6Qvr0iQDEcgujhszUiljylQssz7TC_rcS6T0wjKSr1XWlFC8
+}
+
+!procedure AwsIoTSiteWiseAsset($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTSiteWiseAsset', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTSiteWiseAssetCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTSiteWiseAssetLg>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTSiteWiseAssetGroup($id, $name='Aws Io T Site Wise Asset', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTSiteWiseAssetLg>', $name, $tech)
+!endprocedure

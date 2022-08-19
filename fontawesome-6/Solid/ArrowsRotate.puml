@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/ArrowsRotate
+
+sprite $ArrowsRotateXs [10x10/16z] JSN50OC00CNGLo-Q_QT5Jl0bSSzOFSIfNsjUmRTC7qoLAzKJFHM8rlhMawYm0m
+
+sprite $ArrowsRotateSm [12x12/16z] NSR50O0000EnujxRVrkAIrxHJmUKQaYp6TWEYW9GUJSPjR6zvK4SsUvvwxpTLEb8byjiUcsNXgLLh
+
+sprite $ArrowsRotateMd [16x16/16z] XSs50GCX44HH_0pu_NURp6vS1tre-9XqZ4qZg6zuedk7aLC5afmW1MK36R9nxrTB6it_iizpycLUdgv5CFSa-Kyokt4oWvo0uP-RjQEiVcaBZpa1
+
+sprite $ArrowsRotateLg [20x20/16z] {
+ZT052iHG60FXrENHV-v_soLatJyiJBtwekk7NhOnfkn49nLDnbLpIw8wIOj7Mi6iE02t0HR5D9C6A1pI6fEYfStwLpTOBqNdHNWQNeHY1gKTCik6WaePWHmP
+2c2TM-wRfer8IiiFz8fnrxCJ
+}
+
+!procedure ArrowsRotate($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ArrowsRotate', $name, $tech, $desc)
+!endprocedure

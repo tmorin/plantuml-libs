@@ -1,0 +1,16 @@
+' definition of the Item material-4/Maps/ElectricCar
+
+sprite $ElectricCarXs [10x10/16z] Oq02FCmWm0XayGCnXEG70n2BYn588yJuK6NPW1X2mhGZM
+
+sprite $ElectricCarSm [12x12/16z] LOo50O0m30I_kD_-qmBrvE8g3tU4c2v3wXofhKI81PNKlu59ANzC7vENFoYJoiHnGMZLa_m7
+
+sprite $ElectricCarMd [16x16/16z] PSk50S0W40F0u4xsdxPUzD0tx0G_zOs3mwiAt2Y-s8VxbhKFtdTaTtSMwl84tbFUSOP-Ok2DMVdvubUFhNhb9pPPu6KpVa9Y89LX4UWCAQN0mE1r0W
+
+sprite $ElectricCarLg [20x20/16z] {
+VSpL0O0m34NHImqBVVjFYxkTdtZuK7Hvqx0oyniLB1JOsBeOnIwjUMli2dackcZMNjPYIlBIQoYMbi5Fx_Nsug_dsRJgcCJ4haYEGtGyL38kYdRwdckkJ0KF
+Ziq
+}
+
+!procedure ElectricCar($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/ElectricCar', $name, $tech, $desc)
+!endprocedure

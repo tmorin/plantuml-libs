@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/CardTravel
+
+sprite $CardTravelXs [10x10/16z] Oq06hFpy_10MY683qL300HJX0Qa0ab0b81OK05bi480Guq8O2m
+
+sprite $CardTravelSm [12x12/16z] NSg54K0X30FG70vjBljF-rrvI1MJHZ9UkMACEZ9pkM_F09Puz2C36160xVcH7uxyfYtNxR-JTCFN2W
+
+sprite $CardTravelMd [16x16/16z] RSk55SKm20LGu6jRE6__QUEUt2X6Hn9m3v5SFPPmcURWhmeD07tUH1m2M8uDH8BU_yfnSuwb-QHua69jx33FIp-nTBJn
+
+sprite $CardTravelLg [20x20/16z] bSp50O0034DHNDF-_QV5tNctIXByaZBmxGwg7kbcDtsGJNDSIw0U9fLZRg_eTzKkYwQTwc6dTDsj_kxsxdVAjZxtzI-f-LOTVDO2
+
+!procedure CardTravel($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/CardTravel', $name, $tech, $desc)
+!endprocedure

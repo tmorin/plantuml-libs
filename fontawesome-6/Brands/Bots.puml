@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Bots
+
+sprite $BotsXs [12x10/16z] VOi50G0n3CJo38FuLpiIq9JXY2WidAd21fWhtkAR5BDyfpWXiMvBjKb81m
+
+sprite $BotsSm [15x12/16z] bS750OLG0C2mFls2TFzfSRr1mWELcyJ637GA0jXRcagmA6h6lmXIrBwr0yGSGX_8e0P28aVU604
+
+sprite $BotsMd [20x16/16z] jScr0G9H5031FVt-jlzgSIU5IOSVQ7nRU38uAz4dA9apOrd1imK3vWtLlbxUJVDcrI3PaLHM33Qj1jrz0GWCOFDiHKDtcZshN0tT-9SZ
+
+sprite $BotsLg [25x20/16z] {
+pSwrOHXH50NHsSyy_LThYrcPw8GFBz_XuXETJqHUKUw5sUullcaSrGxLfyPKsAxQD2NrRchecXxM_PaJjujgYbr1mvNbadbtAglbld6VzU9GlI3quvsDHcXs
+YbATnpxB7X2y7u2vB_fUaKTJCt_5Vm
+}
+
+!procedure Bots($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Bots', $name, $tech, $desc)
+!endprocedure

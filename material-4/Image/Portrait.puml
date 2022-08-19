@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/Portrait
+
+sprite $PortraitXs [10x10/16z] Oy0AkDX0W1_8OWFp8Imk80KLOuUn-FYv8Imce0OmYny2a4m3
+
+sprite $PortraitSm [12x12/16z] Oy09-640n8Q9GJ0p7umDKiOEPpEm8yJPU5YWRB19t0mOva013ugj
+
+sprite $PortraitMd [16x16/16z] XSt50O1G30FGf3XKzfyMT_llLWtIEjlKKwcXcv2nDiNcg5bTwmYxrVwxJvxhB4P-r8rE1A_vJHo8aUo8Xm4
+
+sprite $PortraitLg [20x20/16z] fStL0SCm54DHCzjt_sdB3NFEvmD9t5CPSfyPoVMetvaJFThsJ4AUpX8mdHbeippjZtJenhUadsa-sd2ctDTstaZvp7njlQh4OKy
+
+!procedure Portrait($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/Portrait', $name, $tech, $desc)
+!endprocedure

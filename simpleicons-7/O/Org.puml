@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/O/Org
+
+sprite $OrgXs [10x10/16z] Ou007WOCm0-Z-VcXD0i_200P8C3E1HA2IC9Ow4nE9h0n
+
+sprite $OrgSm [12x12/16z] RSZ50O0m0CNGu4xsdnRNjk_oXOIPL_wSevoAMLkR8WDrz80wgKCzmVboSF3frUGxSWzyZB02
+
+sprite $OrgMd [16x16/16z] LOw54S1020I9Ezj_js7URjXN_4nibhcoULk6PBoSigQDe1S0OLUEOaPsmJ7paagmxyzPmYNTLBs3xBSrc-IetAeeI933knyU9HcFymC
+
+sprite $OrgLg [20x20/16z] {
+ROw54S0m3CJSCF_-s_R2g69af8r05rpS3e-qkzI07o86u2X3OSdnI02S0PBtFYja10QiAUWcehL4zQ2GILgvl4yeMH40CSeq9u-X3X3fS6osdp8gTBuXDGOq
+y2z9rfOz92pTkFpw0G
+}
+
+!procedure Org($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/O/Org', $name, $tech, $desc)
+!endprocedure

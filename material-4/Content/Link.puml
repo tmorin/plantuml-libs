@@ -1,0 +1,13 @@
+' definition of the Item material-4/Content/Link
+
+sprite $LinkXs [10x10/16z] XSB14K1000Im003RVxNmXij4mPX8QfO6R8GaBBeL1Fh-_ke4
+
+sprite $LinkSm [12x12/16z] Oo0PyFBpypC0CJi30oitL8oVWO67YO47AChCmCt4mCI746TWWwfd9Cfq
+
+sprite $LinkMd [16x16/16z] hSY50SCm34JHRsRV_jisCKpGFB7uNfKqUDeCF8QSjGPhRTJpC0Bi2vAULU3qE3joN6q2MRsKJ2brol1mhVTAxxtmlny
+
+sprite $LinkLg [20x20/16z] nSx50GCm30D0XJdQVzjQBctGtYDemX_rIx91wubmXtVlNR1irPzPJFWwrCgbT5TqxLg65ZVV8Jos16U7I0KNRdma4jB9pooy4K-brffGVVsH1m
+
+!procedure Link($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/Link', $name, $tech, $desc)
+!endprocedure

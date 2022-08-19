@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/Announcement
+
+sprite $AnnouncementXs [10x10/16z] Oq00Jdu8O600aMn0pCC0vcDXyUCGOsRWPsH01m
+
+sprite $AnnouncementSm [12x12/16z] Oq01FBmGmCt0mCiF0qmGDWCHR7v2uYpCB430p0mqdua16m
+
+sprite $AnnouncementMd [16x16/16z] bSgr0S0m40D0FNG1xJzj6Cs-Je28w6kF_0AKX_6V9tHc_MUo_ETK-Fl537jMVAcWP0K
+
+sprite $AnnouncementLg [20x20/16z] Oo0QSFAZ0f0OFnhWHeXniK4PF0WnTWO-gehnS23R0GEOOXoCXCo30znYp10n5XPc80G28Ca42GD6ZB3Y1ygG1m
+
+!procedure Announcement($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Announcement', $name, $tech, $desc)
+!endprocedure

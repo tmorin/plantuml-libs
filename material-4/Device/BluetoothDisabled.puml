@@ -1,0 +1,16 @@
+' definition of the Item material-4/Device/BluetoothDisabled
+
+sprite $BluetoothDisabledXs [10x10/16z] Oq05V12A7uZWJ7vE11Ec3i7WvuSom4mecus12S9Y0n4
+
+sprite $BluetoothDisabledSm [12x12/16z] POkr0S0m0CCKpbJzVssPuyaa1hNB1F0CmO1Fe5UvGtjGRrlLss8qx7u2pVVDIBZyOHO
+
+sprite $BluetoothDisabledMd [16x16/16z] ZOx50S004CAeEzb_shfxVfm0-aT8e8Ky7VGso4XxNHFk1nPeFwY7X_rW9oNtWnqDx0SD4TaswAr2j5quK0ZEI7PzBUqSGkkU3W
+
+sprite $BluetoothDisabledLg [20x20/16z] {
+bSg54GGW4CNG3omkwR_QS_VB-9letyhIRUvWZ5kY7OpRizFsrXWF672LzOW1J0_e2T8ZEZq4xK4yG7-y1fDsVuM2wxS8fft15TqoxMoHxywzaQJkxothiPJq
+gIq
+}
+
+!procedure BluetoothDisabled($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Device/BluetoothDisabled', $name, $tech, $desc)
+!endprocedure

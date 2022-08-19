@@ -1,0 +1,13 @@
+' definition of the Item material-4/Communication/ChatBubbleOutline
+
+sprite $ChatBubbleOutlineXs [10x10/16z] Oq00Jdu8O63WXuhm4C-2QcPcu6TaG0S
+
+sprite $ChatBubbleOutlineSm [12x12/16z] Oq01FBmGmCt0mCl6306yJ0oyp31vSjZSF6303sJpip2p004pK1veB3O
+
+sprite $ChatBubbleOutlineMd [16x16/16z] Oy00Z4m80EBo8mC61YP-X5Bc0U4peRc7dmKAc9aPmF8etc5YPC07
+
+sprite $ChatBubbleOutlineLg [20x20/16z] rSYr0S1040CmF_Dv_sd3t0Iwg1GUIpmRZvAFMCRBE6BznrctMoxno8n7MckiiIDZDQPJkAB6Hpq
+
+!procedure ChatBubbleOutline($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/ChatBubbleOutline', $name, $tech, $desc)
+!endprocedure

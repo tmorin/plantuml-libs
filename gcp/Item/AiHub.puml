@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/AiHub
+
+sprite $AiHubXs [10x10/16z] LOd30G1G34EB7Dx-2t-p2EsVN1oMENLspMhnfS3MCBLRm4eTjDh15G
+
+sprite $AiHubSm [12x12/16z] PSZ50G11349Hukc_uPLn-QS7kE994U6EiTZ0GiYiXkHmHJKdnc-VYidHMFAXqGi
+
+sprite $AiHubMd [16x16/16z] ZSg53S1034FH7yx-2vVRw8IroCyo_s9cYzLckUeiYWFdadqxhelJdvtiNDo7uRLc5tX_vjJy8q_TnXFdel8a6TsVqPeT
+
+sprite $AiHubLg [20x20/16z] {
+bSst0GD020D0HDv_OhySUJghuqZoRzImoPYfgYAuLD_5r10pjeJQ_hPu3QkWXpcVz3PKqrAczJ7cQyXepg363r5EzNNFETDVInpJ97nD8ldZ8iQ19SIax2nP
+UG
+}
+
+!procedure AiHub($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/AiHub', $name, $tech, $desc)
+!endprocedure
+
+!procedure AiHubCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AiHubLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure AiHubGroup($id, $name='Ai Hub', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$AiHubLg>', $name, $tech)
+!endprocedure

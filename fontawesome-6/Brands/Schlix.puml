@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Schlix
+
+sprite $SchlixXs [8x10/16z] PSV50O00400WxFRsdzPk-S5VY72fjYPfHuACg62eCY00HOiP
+
+sprite $SchlixSm [10x12/16z] VS710K0m00Im002t_xQ-e4rKfEMC63BJs9an4CcaiGOOJvFi8EG4140Q3nS
+
+sprite $SchlixMd [14x16/16z] bS650SC000CWwjxyV-tSVU1V0rFI8kFIf3TcBQaKIcVZqA-n992Q4aaeZ6KALB26Z6q2p8AaSHIAiIcT9MwiSQFFx8Kj
+
+sprite $SchlixLg [17x20/16z] {
+fSJ5OKCn50J0UVfCslwh3NFiasV1WyQhl2jhLtbnODhx9McMP2-KelWuwvZQGkkN3wSjXoGNx2tUZCarKAJIuEtqQIAdPF5kMjk0dlZK3yp9uSFLJOVcIv7u
+BTdyiYT-gMKhTpm3
+}
+
+!procedure Schlix($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Schlix', $name, $tech, $desc)
+!endprocedure

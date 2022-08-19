@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/H/Helm
+
+sprite $HelmXs [10x10/16z] DSd50S0m0CF0AtEz_xJ5v6LB0YUm4WB9b1qwWAJFR9Fw4kFOZDtO6z5YXhUa1mHk
+
+sprite $HelmSm [12x12/16z] LOs50SCm4CJKXkcq_xHXbFrCx8G77qTpXaC9T3LVvASjzElJmn_i2R-a2IqTNve0LkTqwG-_TnS
+
+sprite $HelmMd [16x16/16z] PK-30G0n4BlKplxJlb6aE2FoeCa8_YhgOsVxn29R8UsRayibcdiBUgaEeJGW3n8YCYHe0S-kYKJcPMVM9zvSO46Ki_4AFqlgwxUFJKIIxkM0CthgogtyTW
+
+sprite $HelmLg [20x20/16z] {
+TT05RiGm443HRsWIux__QGlMZg3jFg5X4CBcBnD0w0NYJZYAa9ijWusNfVPxw9GmJA-0YuXz20_lP35LJK-7aK789bETYNFdjS-Tvn_dRZYCs5Luzc0q4DB5
+HRekodLH2royPORZaN3R4v2M7mJ7z4Uh4X4RI6PWxhSx3HA-
+}
+
+!procedure Helm($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/H/Helm', $name, $tech, $desc)
+!endprocedure

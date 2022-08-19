@@ -1,0 +1,13 @@
+' definition of the Item material-4/Content/Report
+
+sprite $ReportXs [10x10/16z] Oy0E-440oW1Xt2nkE8k9dvy7ffS7sJ
+
+sprite $ReportSm [12x12/16z] Oy03-440YSdF1sE22G9iVZHnReGvt0X3kT7i1
+
+sprite $ReportMd [16x16/16z] ZOhL0S0W34IlyeNkFor4wy93aXECi6GYRNAjoaNMecLUCxP6FkXvJ3ERJhmaR5gsECaFkB59nkN6pE293W
+
+sprite $ReportLg [20x20/16z] fSe35W0n00FHh9tS_xHhgvhwloAuKalHWmuyanYTgG1FFtMnxiNeOQAUrZmjmOBrRF5oNuuME72fMUICBOxYZbCrd1e
+
+!procedure Report($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/Report', $name, $tech, $desc)
+!endprocedure

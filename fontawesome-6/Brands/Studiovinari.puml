@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Studiovinari
+
+sprite $StudiovinariXs [10x10/16z] HSR50O1G500WxFRjFwtvWnDe9I5IZdY_dNJncWBYWrH9JLgJ8WQu0G
+
+sprite $StudiovinariSm [12x12/16z] LSpL0K0n34BHM_Uo_xJFzNmc09uFUSJ980qN3GQOsaqd0Lwd3CIf4poVn4twJL-C9gSydBWLTYi
+
+sprite $StudiovinariMd [16x16/16z] JSd70SGm3C0mfYUs9Uu_xVKYVC42h1HN1ocwhJb-tTRKllPjfYKm-pPSj0Ea7o4ydNxD0CsVdRVBDxwc6S9EfLJDHZ7CcdbOBeYDluFaxGu
+
+sprite $StudiovinariLg [20x20/16z] {
+PSjNWi0m20FHmKvFpDp_jDiRw_S7alZGgDeJa1l5QjAKOjCdnt4IVD4nrEHmXzi4kFmsxAaTeFjhLpwbV_3bcNxjzezWRlB7rOD7-Ky7yo-eGgLgcbFfgYt7
+5lSJTSOwg0v8lhq2
+}
+
+!procedure Studiovinari($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Studiovinari', $name, $tech, $desc)
+!endprocedure

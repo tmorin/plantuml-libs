@@ -1,0 +1,19 @@
+' definition of the Item material-4/Social/SentimentSatisfied
+
+sprite $SentimentSatisfiedXs [10x10/16z] LOo50G0X54AvJdtxJsldxm0q6PZKV-AonfBlCNZ5iUxb97soUJZM-BxPqcjZrK7v_5730m
+
+sprite $SentimentSatisfiedSm [12x12/16z] NSd50S0m30J1DREk_sf3-cLiCNzz5TnHprFjQnSllISn8JG4lQ50Coom4sv7wiJ9G_iG17G320e0LRQbW0kHrmq
+
+sprite $SentimentSatisfiedMd [16x16/16z] {
+RKo50GCn42Bkn_xRzgWRBmcA_mZXdMqAzSuYBVlHUMwSwzwv2TlkCHUIx0nIxi8-EhtQb8ker1gUoCgzyKRrsstTFvjtiP8654g4cGxHVgiTxfAQYTwGZUGA
+-8CB
+}
+
+sprite $SentimentSatisfiedLg [20x20/16z] {
+bKy55aCn25lToVrlEqZdldnjxC7XFrGeLhXX2Y1pB7txCpK1VtRxiskSLGyu_W3Nbh3rglwEm0wd3srYriv0qdJKFtExp62oOxENMQvW8UOzL_GbkAKI9unK
+MadDNmSJa-fUjvc1Syfv-OPr6Hx3iqkfC_m0mU0LgSzgtdSu0W
+}
+
+!procedure SentimentSatisfied($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/SentimentSatisfied', $name, $tech, $desc)
+!endprocedure

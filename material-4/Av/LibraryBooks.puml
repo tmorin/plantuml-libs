@@ -1,0 +1,13 @@
+' definition of the Item material-4/Av/LibraryBooks
+
+sprite $LibraryBooksXs [10x10/16z] Oq06_600Ph410JyF0pz43Co2I62AyIE9CGDPCC380mOC3
+
+sprite $LibraryBooksSm [12x12/16z] Oq03FBmWm0rcyaC04mCd4my_M1R8vcM6YeFPUCMXR6uaSGPc5Y1WPWPPn0C6p23zJ100P04
+
+sprite $LibraryBooksMd [16x16/16z] RSpL0K0X241HwdMm_xHsw_qx2i0gf5JafQNWLxytv8slSnhq9dNEPMyKAfR1mtouzpN-N5fy3VF04c86Ryv1I4i2SnO
+
+sprite $LibraryBooksLg [20x20/16z] bSo35S1G343Hg4Rsd_ORDTxn3U1Fh9kIJLkReiswjYdLsKFl3LBHT7HMszYQgdPzswTU_gteEnZujZPTt7PRusX0B2m-5e9antIRHCDv4yDD5W
+
+!procedure LibraryBooks($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/LibraryBooks', $name, $tech, $desc)
+!endprocedure

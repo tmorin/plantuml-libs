@@ -1,0 +1,13 @@
+' definition of the Item material-4/Device/SignalWifi0Bar
+
+sprite $SignalWifi0BarXs [10x10/16z] Oy0E-8605qJpWRb0DZzC1eWW31Z13vK0GhWQ5
+
+sprite $SignalWifi0BarSm [12x12/16z] VSW53a0X009GVjfo_zFQpALlGU3WzS7UeoN6_pM93XT_J97WfvxHXseRh-eSCM5XVqLrgm
+
+sprite $SignalWifi0BarMd [16x16/16z] dOlN4G0X50BDMUc_silSy2t6tNcOZVY6AwlOXm8mImpfakCo7OrpRY5cP6akc8puuy1LA8YAjmYA50FkkYc854GATXb5pGa
+
+sprite $SignalWifi0BarLg [20x20/16z] hSpL0O0m54FHEaxstvOyd7nX5-sfk1yAAKL_XXfhGrob1SQsv9Jhdd-P4laDRgjmhRsIEzSIWNon7etpH256L3fM7iI0f6Ghaz1wff2jL68WQPxqi0a
+
+!procedure SignalWifi0Bar($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Device/SignalWifi0Bar', $name, $tech, $desc)
+!endprocedure

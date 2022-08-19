@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Warehouse
+
+sprite $WarehouseXs [12x10/16z] Om03BWOOu0S148E77mROUFcH0Kmb6uWD5MD44cSaIXm
+
+sprite $WarehouseSm [15x12/16z] Ou00LWOam0y2t10s6pySC05by0DUHXW0g-JXWMi5SrdPeO0HGnQJoy8A1PX60G
+
+sprite $WarehouseMd [20x16/16z] hSp50O0m50FGu4xsdnRgtfxwRbyIE2SI6wK9talhz2-X4M3kPT63m60ApjSRRxsxwTdTLTWXrCZUlR8N-GC
+
+sprite $WarehouseLg [25x20/16z] jT350G0X30J0uCxsN-svkyuJuZJX96tW2HNFQCvZe1R1Wo4jO8CamhQOS2JDPNHeOMXB4JDSF_zO6ZwCcs5_zF1vvhXK1h2yF9C0IW
+
+!procedure Warehouse($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Warehouse', $name, $tech, $desc)
+!endprocedure

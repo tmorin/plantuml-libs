@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/GaugeSimpleHigh
+
+sprite $GaugeSimpleHighXs [10x10/16z] DSUt0O000CEmqCca_w-buqdELQsv0_g3vLFe3_nQCUQ_94YnlRlWnWa
+
+sprite $GaugeSimpleHighSm [12x12/16z] HOY75K0X2CJkzwgt_xPAZm9vWV3nXa4ZLKYzo1OkzpDT5mgPUSlQi6O0m7BfbnIZOz98gmC
+
+sprite $GaugeSimpleHighMd [16x16/16z] JO-55G0X34EJSx_zfyL2y_XelKLZVV-R2DvVx19_ytNHF78MKpc4nGDVkLVBOBtjlilJGFBjqlgmYo7hSPSVjfOrxEx-QVU6WhuI6nocoG
+
+sprite $GaugeSimpleHighLg [20x20/16z] {
+JP255SKm30DLvcZ_QJ-UytHjo6mBZkPxLR0Oda7Wu2XHSfOeMOW5p-WFc87qsDvJTcDnf1a6BJCEXen63CErTRELSunAAsnqz10ZPMC56THJI3egHqNxSZeP
+OwIWpax6lz4R
+}
+
+!procedure GaugeSimpleHigh($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/GaugeSimpleHigh', $name, $tech, $desc)
+!endprocedure

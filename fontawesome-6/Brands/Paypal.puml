@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Brands/Paypal
+
+sprite $PaypalXs [7x10/16z] BSN50S104CD0XtFe_gjTbXw3gj42wBNaJRu0iNNO03QNOT5H
+
+sprite $PaypalSm [9x12/16z] HSR50O0m0C30u4xsdnRglTVH6GqmcC1POxQKdEOCnbpf6BqhkxS2pDiOa-Jy
+
+sprite $PaypalMd [12x16/16z] LSa53W0X44FHBkxS_xOBOma_zjBYgUzR8s_9cK-ldN9ELFMteUpL_DLDzgtlqpeUSpEFoq4C00xSCMxd_-ZdpfwXUG_g1m
+
+sprite $PaypalLg [15x20/16z] VSy53eGm48NXLzTqxd_RpSZYyCVugEDMbQ9NPVgNc8EscBINF-agt84WX5rj4jgcuOam3SlnFCYNzq5cTUWQ2youR37WRC6qvnY3akTv_hLNpfp6Upy
+
+!procedure Paypal($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Paypal', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Lyft
+
+sprite $LyftXs [10x10/16z] Oy02-Fb190-GukVduU7bvUVYnmPWma0D3AmCpFoy2Ese
+
+sprite $LyftSm [12x12/16z] TSR50O0m0C30u4xsdnPtsdiT4Sfcj3clMclfDlJwyFvWxbP6SUXx7O4MK3ar7Nyp
+
+sprite $LyftMd [16x16/16z] bSS54iGW40NH7m_Qzx_j5WwbcqPcdZu6iMu1k8SDgUGOZGTm8XN1101ph2OahBR9jLCEJdYh9O5ElryFS2crfmz0jUfJV_O3
+
+sprite $LyftLg [20x20/16z] {
+fSp5OSDG00JH5UFNwx_QSCpiEIvCtc0Snoh_rCiw9K7z7wtWAAi1GRUkQrLAMPY3WWuLLX8upfGhMNyXg_-oxTytOAQ1_om8M_-VTKbI95sJljaeEGBaFEjp
+J5LNUO5F
+}
+
+!procedure Lyft($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Lyft', $name, $tech, $desc)
+!endprocedure

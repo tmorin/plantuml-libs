@@ -1,0 +1,13 @@
+' definition of the Item material-4/Communication/Textsms
+
+sprite $TextsmsXs [10x10/16z] Oq00Jdu8O63WXm8U51O3478YnB2oc1du6HdG0G
+
+sprite $TextsmsSm [12x12/16z] Oq01FBmGmCt0mCiF0qpus0mWY2oEdyt2p084pCn0yvaOi04
+
+sprite $TextsmsMd [16x16/16z] Oy00Z4m80EBo8mC61YOo-4oyV4pyhAn8V5ucVXOedtBpMQ20cPa1n6T2yGuJ8mC-
+
+sprite $TextsmsLg [20x20/16z] dOs50GCn54A9UzX_slRS_KM_0HuJkARDSKCwoEMNkLhRpRhCGTAX4c6Hyu7PDq_-uF4bf_gSrgfPBKfBT3c1BPJuo1y
+
+!procedure Textsms($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/Textsms', $name, $tech, $desc)
+!endprocedure

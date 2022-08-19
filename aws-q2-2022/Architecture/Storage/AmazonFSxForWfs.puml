@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2022/Architecture/Storage/AmazonFSxForWfs
+
+sprite $AmazonFSxForWfsXs [10x10/16z] FSR70G0X40EnYy1u-w-NZFKIb27dZ8ihLyBxUBYlgqzG-9wnSIZXXji
+
+sprite $AmazonFSxForWfsSm [12x12/16z] JOl50K0X5CDmID_-ytwNvbG5riaym0ncC2CpKgCpw9VEZKITwSglMKrzwUB-nAy9Cs5c1m
+
+sprite $AmazonFSxForWfsMd [16x16/16z] NOtL0KH120Dl5mtqN-yzjypV80bMyY0sG0FG03G03Oe6LJ0BL-1sG3QJorNXkWxcJtUl_KPbXAo-4M8AZ3bstxbQ-kje6ZGDcWOB
+
+sprite $AmazonFSxForWfsLg [20x20/16z] {
+RSv5WWKX34NH0c8tjV_rTdz7t_140U8RVmT6FLbq6_HaCHXqJFREJDmC4--QcG84n6e6jB2VDH6e1eNhkjuccO2WbHAZKSCnaVgqTmW0L9MVvVZdVMz8jnoi
+wycoszRv3m
+}
+
+!procedure AmazonFSxForWfs($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Storage/AmazonFSxForWfs', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonFSxForWfsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonFSxForWfsLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonFSxForWfsGroup($id, $name='Amazon F Sx For Wfs', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonFSxForWfsLg>', $name, $tech)
+!endprocedure

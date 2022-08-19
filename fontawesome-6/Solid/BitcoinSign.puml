@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/BitcoinSign
+
+sprite $BitcoinSignXs [6x10/16z] BOe50S0m40DlAsFygoq_XZ0KG5wWNQY1rRvThnhmxjLkVW8
+
+sprite $BitcoinSignSm [7x12/16z] DOp50K0X08NudSh-qzg-l04NB_1w29zLwBgk7WeOTLasBwU0fH_gztswMJKf6G
+
+sprite $BitcoinSignMd [9x16/16z] DSQ50GD14CD0Fn-h_swZq2pOoKfcj74Feic2FK4QWLqGY0xiqODb2G9IWKq7IlJyImUw9ZIaBJlFDCHLCLu
+
+sprite $BitcoinSignLg [12x20/16z] JSw53GGn50DHBmV_zD_jNJXFDBB8qfMbwAG27i7ej_SB57P8JANj_Bl015d53RElhQtqz6xD0VWYW46MYWjcQ-k78XOPiZ592IZZj_ylZAlt3m
+
+!procedure BitcoinSign($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BitcoinSign', $name, $tech, $desc)
+!endprocedure

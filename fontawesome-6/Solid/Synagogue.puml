@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Synagogue
+
+sprite $SynagogueXs [12x10/16z] JSV50G0n08J0FPS8_LSRDrw3IbOZO64VYtIm5RladpqDEFXX1ugPbgx5MxPP704
+
+sprite $SynagogueSm [15x12/16z] RSc54S0m0810wbxsdxQkIJZzWxEIRxqMhzphRiqwgDN5JQ3J-JZ6l742pJoRHiVnHpqumvSvJ2dMVwu
+
+sprite $SynagogueMd [20x16/16z] bSt50GCX04HHV9tVVxV1zHISXunevHLR0HQniE9DBhgJ0P00tLwmOV8WcttWSuog4EtImlXecFWE6GnY3ke5vQX6DQXsgM-rAsOifcBQdoROxGS
+
+sprite $SynagogueLg [25x20/16z] {
+fO-54GGX54DnX_JVxGtE8cENLVA-aaMUaQiYe6u-ii9XCrJ5pTSOkjJXySWHsSu_QKkH05BFdFKhy1D8clyDK43mHBW2UCbI06W6W6zZXVoYc00BI7W0B83c
+FIz0bZqkW6KG_m3-1KYw0_i3
+}
+
+!procedure Synagogue($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Synagogue', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item material-4/Image/DirtyLens
+
+sprite $DirtyLensXs [10x10/16z] Oy0AE7dv-VavEHaO-A42F40M8n3pWrai85c86905aMNWvMTb1B6WW0jX6W
+
+sprite $DirtyLensSm [12x12/16z] VSQr0O100C30lE9a_sbngxZg-36fTK_hBJ0b296InxX_ncWuhvev7iRtP9tdSZuYfEtP6ryh
+
+sprite $DirtyLensMd [16x16/16z] ZOu30iL030LVK3Sxzp_jjzbPnD0crghgTSOYLexq4KUJHoJdMfIAcxqq6VFLNijOwM_n2M0UhtR2aR9RVGEQwMex7LbPjxZh-4Vmle_Cx-YDFG
+
+sprite $DirtyLensLg [20x20/16z] {
+fSs54OGm04JHZNks_svlWFZ8sSSV4VnVuPL5puTmqLK8mLp4sHZCY3NcQSK1cdwQC8W4I3lDC4MIKM2QvfqAqovgkgpdURNlwzXn6eiYJ1HSJ44HrxFPqJN4
+bBgMy74l
+}
+
+!procedure DirtyLens($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/DirtyLens', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item material-4/Editor/FormatColorFill
+
+sprite $FormatColorFillXs [10x10/16z] JSY35G0n00JHESJglzfO_s4161OTcKoCiuJrfk_xdA2AgS9HjQ8JZGG4bpJv0W
+
+sprite $FormatColorFillSm [12x12/16z] LSh50S104CD0XJdglzhWuNmMR1ujcVbWoSTYIXPppUCbhzON0w_kNT5m0EvKrZrgE8pQ6m
+
+sprite $FormatColorFillMd [16x16/16z] VOp50G0n40A9-z9_jUSkcH-AcO0Rbh5l93BTfBLCLmcSHfWbO1XslR5_vbLcE7SnCa0UZLaQKcz6NBOfuGDp1T2yyj8Z
+
+sprite $FormatColorFillLg [20x20/16z] bOs50O0m40DJzsR_QN5t3chtXe604vhvB3thMUPpPc1bFQeCpxnNvTWpZ1cxJ5AD99hP5IvWeSvAmAH3fkZxw5dEodCpfmmAcenhJok6GndyWGVoPzS2
+
+!procedure FormatColorFill($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/FormatColorFill', $name, $tech, $desc)
+!endprocedure

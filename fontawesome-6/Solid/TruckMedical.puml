@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/TruckMedical
+
+sprite $TruckMedicalXs [12x10/16z] ZOYr0G0W40Elmyd-qwAXvp-EpZK0-Lx6JOfdIPxm-dFaY58w2ghYwWG
+
+sprite $TruckMedicalSm [15x12/16z] VOw30S104C1Ikzb_sjhuFCx0ZO8P3mwpG3MA5jCu8cvKUzYo2YNIIp94LjxemsQXu0AfWikbxJQfict02
+
+sprite $TruckMedicalMd [20x16/16z] {
+fL053WCn37DedFN_hnrOlQBuN0hRAh8qN44mr51ZXL3RO_LzlUv7J1LGR_sCjGwHrfC9PBQQDgznCBRXJEnvvUXeuln_ouiIN4IIbia_4w3tivnM_HgdzVvP
+0Nm1
+}
+
+sprite $TruckMedicalLg [25x20/16z] {
+lSr50i905C3Gr3kQ-vyM_pXRKkyR8VlSHXJ_epd0jxOtWEaNZ1ezO1o1yK41dSVibeeQCuO168RR7flwiSSPsDMlG0huw3_WTc4msc5MPKvs89lJgIw0fWNG
+k45oXSd2kQ956vUqDnq8iSAbKNK4ZW
+}
+
+!procedure TruckMedical($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TruckMedical', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/Fingerprint
+
+sprite $FingerprintXs [10x10/16z] DSZ70O0m3C101JvqxRyjYSkvc-d-TXQ5qxdFKd7WooIyY8_v5y_XJM_0bs-csDAvCVq
+
+sprite $FingerprintSm [12x12/16z] FSQ7OGGW3C10qJlQVzha-u5jyNHkvINexDVpoi2sSGK9z7ICbsYMRGw2m-31ThfMURseyEaaloxxs_MqnbFj9oG-vEKV
+
+sprite $FingerprintMd [16x16/16z] {
+JOe7YWL148NiD7dwtV-sw_uiXI3rUB3DkVCXBof8IHh8p8daXYl9mSXkXaBfxNI_nAwxxgEu1uxWAd8IBpPtOAJwiui-7ggAslNUOgi9QyZMNordID_KKB8T
+XDjkBXyKm-E7hFpoVVu1
+}
+
+sprite $FingerprintLg [20x20/16z] {
+JSu54aCX303H3Qa1XRt_RKldwnkDXqrsPqzkchl6BjJEKjNSKrOecGNU-cJHt7frW0PqNmHyCgjQmWRAa4rLbgSrd1INoiT1b27DWlhLXkB2bEuRK3wkBaMt
+Y6eKi_leUwuPgsdbdiAP-_Ub2MVkArtEtDoVLAg5FvyuzkwtxCAwvsuAs8dWxbnqD-Nq0m
+}
+
+!procedure Fingerprint($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Fingerprint', $name, $tech, $desc)
+!endprocedure

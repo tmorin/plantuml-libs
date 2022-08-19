@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Brands/CcMastercard
+
+sprite $CcMastercardXs [11x10/16z] Oq00Ldva0163iHY162Q8ZSd5mS30mOy2UDWvU3ZvE7Zv6H1Y
+
+sprite $CcMastercardSm [13x12/16z] LOs30G0W44Mpw-y_RTQzEeiHG2bS87KP-5uMOVSC_qvqxKv0AuRjMaOdTcltZHXZAZc4vCUPd39AJCXWUEG6
+
+sprite $CcMastercardMd [17x16/16z] {
+ROo50GCn30Frc9ZttxPMcSwC-C7YWpFg3ni0tzl9hGR8IJTOApC7DiPg5YRjaj5uSITm_xBUFmXZLlDuIOeOCpqUDPchjTliNgghZSXCTocIOqmN5HirUh6-
+m3SN
+}
+
+sprite $CcMastercardLg [22x20/16z] {
+XOw50S0W30I_7gBxJrjtu_3Z4RnJL4_Gn3UMaeu34vyaPfQXkSe6D8_r8WjCAB1COATeExOqpwh3BgbboDfkR7JwHGKiTouJ-Fbdl4PfaMkwMdOv_d0MLIPZ
+TMFJDSnA7P5eIeqxgKt1U0Dlql3A
+}
+
+!procedure CcMastercard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/CcMastercard', $name, $tech, $desc)
+!endprocedure

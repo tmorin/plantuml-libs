@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/Colorize
+
+sprite $ColorizeXs [10x10/16z] Oy05k1du-I4iVY20CDYX33vs1duU5X23Wm6gY0l6W6j3
+
+sprite $ColorizeSm [12x12/16z] XSQr0S0m44Mn7-Qy_QSD-g2pAgbYmyO6s5FRYSOgTgBws-ai5UEvoOurkm4
+
+sprite $ColorizeMd [16x16/16z] ZSY50G0X40F1u4xwh_RTbKNdq9vo1rXeqk-avv3S1XnB1zOpnsEFz8mK2-j80-mCEpD7QgmLMZzoDu-47C9hFG
+
+sprite $ColorizeLg [20x20/16z] hSp50GLH349HnZst_sh7dw--d6K2w5ygh5AaMII0-3YpS5aLuT4esCeJ37MH6gGUvd2owzJ2IXjIutsgvK_sdlAjEnKmvoa9-YmbSL7ApBPQNpW
+
+!procedure Colorize($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/Colorize', $name, $tech, $desc)
+!endprocedure

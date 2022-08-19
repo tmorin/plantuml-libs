@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/TurnedIn
+
+sprite $TurnedInXs [10x10/16z] Oy0AEFb1W4mMa6G4OWG
+
+sprite $TurnedInSm [12x12/16z] Oy0D-260ocm-DXYR1qGmyQ5Q2W
+
+sprite $TurnedInMd [16x16/16z] Oo02SF220GypXClC3mE3Xy_3neV4vmHHJBn0Fa4
+
+sprite $TurnedInLg [20x20/16z] Ow0GCFB30GzCZ9CV0OQb61SRBveO1pWiU15YxApm4E8a9Jm1
+
+!procedure TurnedIn($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/TurnedIn', $name, $tech, $desc)
+!endprocedure

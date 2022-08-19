@@ -1,0 +1,13 @@
+' definition of the Item material-4/Editor/FormatSize
+
+sprite $FormatSizeXs [10x10/16z] Oy01-4601yfcWuemGLXC_4n0COWK0mOB4m
+
+sprite $FormatSizeSm [12x12/16z] Oy07UC202Spc1mCcg0mlFroG2SfcuW7A0jaGdK0Q3nit
+
+sprite $FormatSizeMd [16x16/16z] Oo0ByF930GOV3fZuUI0CBbuGO0Jp4MgPu7n69Xv-5YQmUYZWuMTY88jF1W
+
+sprite $FormatSizeLg [20x20/16z] Ow02O8K35fWG4pySyE0GGm1-VZQu6WX04OFgOS8bXj3Bmyy7qmi7G34WIHCnMW
+
+!procedure FormatSize($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/FormatSize', $name, $tech, $desc)
+!endprocedure

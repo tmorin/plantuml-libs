@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/UmbrellaBeach
+
+sprite $UmbrellaBeachXs [12x10/16z] FOo50O0m30I_kD_-qmADNLpL6Hu52mYMdgwMmcKR63ioBk2E_6ozzDp2d7dn-Fz6eGy
+
+sprite $UmbrellaBeachSm [15x12/16z] LSc53S100CD0bxdUVzhYuubYXTysatJQBBg7HzTPbVPD5L_8fp6a16kTWatAyHkj8PMINLcBOKoMk04
+
+sprite $UmbrellaBeachMd [20x16/16z] PSx50O0m5C3Gu4xsdnQtVbuzftBhPbArUcuFLNhLwPkAmWE-3UysSsePdcR6RNoQlB9_6mQenYnyY5t_QRaIJHP4IbGvyXYdWyxJeO7925O
+
+sprite $UmbrellaBeachLg [25x20/16z] {
+RS-54OHG303HnPtjlzfJuEiRpSG9fkEaDAapdJeGQLGtDhy8UjMJnP-DbR_MBpelk4GD2uQ43PTTfZWXmMwSw8aCKUAelBEZIimPsBicJqnNsEnP8feyIj1e
+JyscLEbEJQiGQow7DXU0nfeEJciEU0C
+}
+
+!procedure UmbrellaBeach($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/UmbrellaBeach', $name, $tech, $desc)
+!endprocedure

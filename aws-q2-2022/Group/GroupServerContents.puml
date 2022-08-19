@@ -1,0 +1,25 @@
+' definition of the Item aws-q2-2022/Group/GroupServerContents
+
+sprite $ServerContentsXs [10x10/16z] uyGEc40ODuk1WO69a3e4
+
+sprite $ServerContentsSm [12x12/16z] uyG3M8601SPXOc9YHvB3nkPWO6105YV4PW82HZGx0G
+
+sprite $ServerContentsMd [16x16/16z] uoG6i4C0dCy69faGV2OWO672BSy81Cnuv1c0W0bTddm-2oi80Fc40G
+
+sprite $ServerContentsLg [20x20/16z] uwGOC39103EI61E2HeYnWfK1nGYeus070Mpg28knC800DdLq5sE50dQIGXC
+
+!procedure GroupServerContents($id, $name='Server contents', $tech='')
+  IconGroupElement($id, 'GroupServerContents', '<$ServerContentsLg>', $name, $tech)
+!endprocedure
+
+skinparam Rectangle<<GroupServerContents>> {
+  StereotypeFontColor $AWS_COLOR_GREY
+  BorderThickness 1
+  BorderColor $AWS_COLOR_GREY
+  BorderStyle solid
+  FontStyle none
+  FontColor $AWS_COLOR_GREY
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}

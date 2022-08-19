@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/BabyCarriage
+
+sprite $BabyCarriageXs [10x10/16z] HOS50e1048ImM_x_Mhq-DeQXytWNKsDS7cRre2271UX6aSIni02vUl03
+
+sprite $BabyCarriageSm [12x12/16z] LSsr0S105CDGXpdQVzfZ-gzIPSk08VbpJR6PGstm4OL-qLI5lcWagaLQo5v5r2dTAFhZ2KprtGC
+
+sprite $BabyCarriageMd [16x16/16z] POy54W0X30FFhPB___R2uB1ZgJVBn0MquGf0cnY1BUf39CPnugIG67k81VlQhbAscLV0-4LBtD_5qeHht98vujejHlb9kVZq6WMnECOmYWTeVVu
+
+sprite $BabyCarriageLg [20x20/16z] {
+ROw13G0G0CC02R3_hmK054m1yiSWtCe3SASIAF33eJ6cDkVkncbPiaQ7ZMrQEZ-epjr_60utUR--dI7dnl6MknmftEgHPA26aLEL9BGkGvTqEp4Ypu4kfqSO
+-toB2G
+}
+
+!procedure BabyCarriage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BabyCarriage', $name, $tech, $desc)
+!endprocedure

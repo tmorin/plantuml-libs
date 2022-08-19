@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-7/C/Cratedb
+
+sprite $CratedbXs [10x10/16z] Oy05-FdvaLdyU05O5K8dcb4
+
+sprite $CratedbSm [12x12/16z] Oy0B-FdvcN2p-Oa0GCKyG182CDaO
+
+sprite $CratedbMd [16x16/16z] Oo0Iy0818nAV7mYOYE3pGW683wP914n0m0EY8G1i1OWFimS_dp
+
+sprite $CratedbLg [20x20/16z] Ow0Au0S19ah56E40BCO2Pj41W9t10sR10SLYN7n0G7f80W
+
+!procedure Cratedb($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/C/Cratedb', $name, $tech, $desc)
+!endprocedure

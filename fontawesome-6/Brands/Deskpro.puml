@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Deskpro
+
+sprite $DeskproXs [9x10/16z] u-JdvUFdOc1Wu8S0T0OhiWWtb04Huc5ZOsC00nOm2HA6qcn01W
+
+sprite $DeskproSm [11x12/16z] HSR50O0m0C30u4xsdnRglTSTYbu05lG-lMyjlSPUlQY3aepp3FCyKxmlrREt2Vm
+
+sprite $DeskproMd [15x16/16z] TSS54eLW2811U1tAtl-s3XEstn-mNsGnPdIw1unDIxSj_riEAqPjE3utHFE_PK0Dt6yPNI5KGiLL_bj-rlfQuKVsd
+
+sprite $DeskproLg [18x20/16z] {
+ZOw50GCn54A96mtxJri_rnVzJf7qG7_V5J_q9NplzFFCCHjFttXquQbXxScWTBTFstZm4vBULodbwuc_e4GJlxnzXMImHEMRQZ3XlSSIBs75nkELbeuehPiG
+Nru
+}
+
+!procedure Deskpro($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Deskpro', $name, $tech, $desc)
+!endprocedure

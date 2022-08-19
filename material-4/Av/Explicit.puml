@@ -1,0 +1,13 @@
+' definition of the Item material-4/Av/Explicit
+
+sprite $ExplicitXs [10x10/16z] Oy0A-240o48Xy8fnSd82MGYz2
+
+sprite $ExplicitSm [12x12/16z] Oy09-640ZOrEaYQEQIOFYgq
+
+sprite $ExplicitMd [16x16/16z] Oo0Ck7bXW0F4vU5702OWdnUJZqapyW8fd7nCcWdTF6PcP7bMPXWVqtvE93uZoC5CSC28wJa
+
+sprite $ExplicitLg [20x20/16z] fOo33K1H54EVTRN_jDysJjHKwXyaIqBdoGewy7ZoZfKsncozTB2rCSOdVv6P7_mTACajIs_csCFEYyGpPDHZQW
+
+!procedure Explicit($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/Explicit', $name, $tech, $desc)
+!endprocedure

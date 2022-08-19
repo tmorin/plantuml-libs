@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/StreamSuite
+
+sprite $StreamSuiteXs [10x10/16z] Oo04s860XGF8OEO00WP6c3W7TWQ2XG
+
+sprite $StreamSuiteSm [12x12/16z] ZSQr0G0n302nCtl_XHy3RLI9Gv4FYaM3HxzefhzgBpUcgbtsLxSR
+
+sprite $StreamSuiteMd [16x16/16z] hS750S0W04MnX__z5wxWdAe9V_0nmoKoau78R45od4BC28c5o5A13BCOcGI9cH2peCWjEm
+
+sprite $StreamSuiteLg [20x20/16z] jSf50G1140InMfpsR_YO6VCEVtDqVEw0F2thH9HPIg8Lr04vMgw74ajPj98w1B6Yo88pOq4IIyBYbOVZhX8
+
+!procedure StreamSuite($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/StreamSuite', $name, $tech, $desc)
+!endprocedure
+
+!procedure StreamSuiteCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$StreamSuiteLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure StreamSuiteGroup($id, $name='Stream Suite', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$StreamSuiteLg>', $name, $tech)
+!endprocedure

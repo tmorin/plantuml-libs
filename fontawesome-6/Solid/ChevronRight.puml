@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/ChevronRight
+
+sprite $ChevronRightXs [6x10/16z] Ou02VWY9bG8Jl7223oO8
+
+sprite $ChevronRightSm [7x12/16z] Ou01VYY5dsO6KupyF62I3op3XoJF2o8
+
+sprite $ChevronRightMd [9x16/16z] HKc30S103ApTl_sdZPtZrBET8O2ZrEPY1cPNAn3bKUeffSBvCnuOnbyKT_2fh1DSmm
+
+sprite $ChevronRightLg [12x20/16z] NSg54SC03CNGDipQVzgW-Hyz-VpBQ_vkQ89fOzZRluPzjJ6Q65sCmxt18jnX5owm2LU_ped7JoOK2-8k
+
+!procedure ChevronRight($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ChevronRight', $name, $tech, $desc)
+!endprocedure

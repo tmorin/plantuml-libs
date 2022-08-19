@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/MovieFilter
+
+sprite $MovieFilterXs [10x10/16z] Oy06-FaPm907o083E8i7mW9YNZ2BZO4P9ii8KSS1rO5a7
+
+sprite $MovieFilterSm [12x12/16z] TOg50O0m40CFjq3sdnRtjlV-2Kb4NMrDEQC7JB6sRT-HprqUcCwTFGy_s7x--ovVv51Sy6O1
+
+sprite $MovieFilterMd [16x16/16z] bOkr0SGm00FFpDR-qpw6gi1LGXuZWHozuIMmqbVzix_VEVhMTZ-d8iJDEoV5gCLtW7xuJv0ENhLjtkW8KFgEvuet
+
+sprite $MovieFilterLg [20x20/16z] fSw53KGX50NHmPtRVxNh-pNEn5uEobhUGV3W0xZmdf04IHQlW97wrnhC0Usz-BLB5qkw6_raHYf0EDWWIs9eina1F_Jsl-bjRhwdqzbo_ulHtUPc5SWwnr9F
+
+!procedure MovieFilter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/MovieFilter', $name, $tech, $desc)
+!endprocedure

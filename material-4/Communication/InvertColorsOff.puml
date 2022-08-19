@@ -1,0 +1,16 @@
+' definition of the Item material-4/Communication/InvertColorsOff
+
+sprite $InvertColorsOffXs [10x10/16z] LOad0W0n3CFSX7H6_t_j3REAU4WtGoO5qwqo2h-J6F0tldU2cuZvjzDKPBC-1Idp7QKN
+
+sprite $InvertColorsOffSm [12x12/16z] PKj50W0W29lTxl-ljJb9iy0N-cq559fxq-hUQUL1vsNKseRalfF7URQ_MEpdtBO1otlD3DjxxtqntUU5nGG
+
+sprite $InvertColorsOffMd [16x16/16z] ZStL0SGW54JH5zod_svtS3utVcuG-U_GkD-65u13645iDrW6eTlo1mOQTJet0oqqz32Sh12d3TSO8KzxFXehmd34CCCtBAZ3C7V3GjOJn9IM51VbXFSWVm
+
+sprite $InvertColorsOffLg [20x20/16z] {
+bOy54i0W30I1r6t__rhiwXthLTbPIE9-P_mGlt67e-KNETF55Xetq6xSpGrp8RyVa6nMHd-W2GXkfEJKrdhcUAjZT3fpkiIsd2RpP0sj2eLYYdbcTLJCnIah
+NWnpvKyY9fRD8mPhMnbsGZ-ZAKhrMtJI9lP90W
+}
+
+!procedure InvertColorsOff($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/InvertColorsOff', $name, $tech, $desc)
+!endprocedure

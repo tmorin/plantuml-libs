@@ -1,0 +1,16 @@
+' definition of the Item material-4/Maps/Fastfood
+
+sprite $FastfoodXs [10x10/16z] Oq07_52QdPsVdHtCukK70Z35nG1aWJ2OGh1u6JZ1W86V3MuC8roM0G
+
+sprite $FastfoodSm [12x12/16z] RSg30S0m54NHLxjt_scBM2VuLCCvjd8CMRVDJnDME8KbM7pU7mpo3ZhV7muK_7dSrmi
+
+sprite $FastfoodMd [16x16/16z] VSc54G0X4C30u0xzL_lkGj2Tux-cEvPIDZjTnt0jxhQhBLC-PmzXjeAuJjBo4RYsvPakQ4VasUg8zELsjFfiSe5oD3b0sfa81KO
+
+sprite $FastfoodLg [20x20/16z] {
+XOo30G0n4C1Ikzr_shUPydBW3rtLpPccVvropiKMXbiTQbOCAwAiJYr2YE7AinDxHGJVHW3RzgOyEzLsOBxJmLc6CHNgmSMned1XS05ysB6Zim-zwg5NW90x
+OdGyz0BAxGYCaz03
+}
+
+!procedure Fastfood($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/Fastfood', $name, $tech, $desc)
+!endprocedure

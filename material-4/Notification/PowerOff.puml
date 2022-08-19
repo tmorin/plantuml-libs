@@ -1,0 +1,13 @@
+' definition of the Item material-4/Notification/PowerOff
+
+sprite $PowerOffXs [10x10/16z] RSQr0S0m40Im2pt3_jE6tLcLCBCm0ltMcRhbRTFTRyqqraGOvR7D6OFW0W
+
+sprite $PowerOffSm [12x12/16z] TOkr0G0X54F3FzUt_xIuLAI9QufTh-bRiluFwpePm6NzSZXOgqwcw8Teh1w-P5G1ttyChM8w0W
+
+sprite $PowerOffMd [16x16/16z] ZS_50S0m40D1XJdRVxLXDEkdyPcKadoIikagRQE2pRWNQJHV_GLWlc6ueBZwo0dbsmzu-mdtVCu9TsmeWFo0Tq0_oFFZ6rPM
+
+sprite $PowerOffLg [20x20/16z] fSzL0W0H50NGfvlzxtPq-vexWQFXNr3yWaq_tIc8mq17v9k1IHXIv40RKMJ4amLUHjBPqlJ34XwMrnoc4kKrCUmeXhmm2TC9LoDW5dJUUvBkJk68X7i-
+
+!procedure PowerOff($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Notification/PowerOff', $name, $tech, $desc)
+!endprocedure

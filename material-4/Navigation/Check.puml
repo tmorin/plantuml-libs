@@ -1,0 +1,13 @@
+' definition of the Item material-4/Navigation/Check
+
+sprite $CheckXs [10x10/16z] Oo0AyACmsE4YV1nmAJv-dBe1
+
+sprite $CheckSm [12x12/16z] Oo05CB8ZsFnCQ4mmmSy85k7WXp2X710Jnc72RmK
+
+sprite $CheckMd [16x16/16z] Ow0YOEH5vVFp4SLbH-KoydEZAcRYvu5m4G9eHZ7naUrc
+
+sprite $CheckLg [20x20/16z] Ow0_OEHZnX3ZusSdIeWDtIna8NPCLLpyx11Lx2Z6S60QpyFFWT28K8aGGgXaes7W
+
+!procedure Check($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Navigation/Check', $name, $tech, $desc)
+!endprocedure

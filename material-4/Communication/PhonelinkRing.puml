@@ -1,0 +1,13 @@
+' definition of the Item material-4/Communication/PhonelinkRing
+
+sprite $PhonelinkRingXs [10x10/16z] Oq00VZ00iV0HZ50M8mCNJ8mLKnsAUG
+
+sprite $PhonelinkRingSm [12x12/16z] ROo30G0W402piV-qsVszYKvKRE2QUq4BdhOSydRdokmySh9o78vzydpmhX1RJcEZfXa
+
+sprite $PhonelinkRingMd [16x16/16z] ZOw30G0n301hXFjF-pPxHGnpGnTmDfskh7Qxz1SRyz5sRFGKrujTd9phnRNCzHDXiUrbVrDv9anM3m
+
+sprite $PhonelinkRingLg [20x20/16z] hOu53W0X30GNT_Z_QyzneiV4chOhM29YnfEyInLJTj5-99jt-oRhfXr58iEEHmGrx4Y2iyEEEKGnPOY4QSVux_Q5vKuXepBYMvm
+
+!procedure PhonelinkRing($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/PhonelinkRing', $name, $tech, $desc)
+!endprocedure

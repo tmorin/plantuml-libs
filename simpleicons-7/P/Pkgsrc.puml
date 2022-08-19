@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/P/Pkgsrc
+
+sprite $PkgsrcXs [10x10/16z] VSd50G0X4C30d2ka_shnDmFhL0VDOhK3Dc-x_0gYGijEqpOwYaqy80C
+
+sprite $PkgsrcSm [12x12/16z] TOY54O104CI2E-c_Mzv_Z9niPeaC2uN5o0ni5jxUXyGTk2TGSiTZSHdjFltu71-CCPQeaIdu2Nm
+
+sprite $PkgsrcMd [16x16/16z] NOxL0KD1408vzwF_QcDiditVh09H4ovqVebcaq8bTz6XWIJRtqsms0K7H18abzFSfln3iRFRd80kFhmyF3vSP-GMo9yUy2EOAuOgmCQNDm
+
+sprite $PkgsrcLg [20x20/16z] {
+RT350OGm503HYU7m--zsDwvpun4dTplwr2t_Njk8r2BhJxeCG6SNAPVv1hWGX-_n54Hk_7W5e2rW_IVYIuCHtq6p-9at_ZAIVskUoHJNmix9m2nCZwO1qnla
+bybsGSuaSxGPRuhG3m
+}
+
+!procedure Pkgsrc($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/P/Pkgsrc', $name, $tech, $desc)
+!endprocedure

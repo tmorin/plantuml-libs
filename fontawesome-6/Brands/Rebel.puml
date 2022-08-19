@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Rebel
+
+sprite $RebelXs [10x10/16z] LSR50O100C2muaxtdnOzpIjKEkDKHX1M0H48Qxyf1kL8WP0R
+
+sprite $RebelSm [12x12/16z] NS650G81000XxFRsdzRs2opjydMpMRNZo7v5nPLm3Pk4TJYbk8JIrwtIoBO_NFewmhgt5Ky
+
+sprite $RebelMd [16x16/16z] RSY5WOKm40N00PBWlFwhlVlkwxD-Huj7L2GJmvM3FbDQE23OaXJwi5-VkQv1TZWoN1p9rHtwYnSaCt9nLdkIViZ5Rt5OtzpnPlJlf7idfeiQ_0C
+
+sprite $RebelLg [20x20/16z] {
+VSq5aaKX30NHvha4Ul-xdGhptKvfzFBB8gz65PYX6pOOq6K0Afs0dkvMM7hJ_N9g0p2l700EbLI5i90qIE603YJTISq3ZQUU1buMhn5QKPqegWibrC0tEwUl
+1eglWEgp5S0dZUwjbSAhWxkjgNMc-mC
+}
+
+!procedure Rebel($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Rebel', $name, $tech, $desc)
+!endprocedure

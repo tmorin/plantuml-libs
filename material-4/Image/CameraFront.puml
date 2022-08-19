@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/CameraFront
+
+sprite $CameraFrontXs [10x10/16z] Os1Wu0S11Y3WH2RuiR2Oe2oG1Zum2wwN2S820sO6263duMNZuM5W
+
+sprite $CameraFrontSm [12x12/16z] VSQt0O1034Mnnp-J7VQVbWmbgWGiTJ9EfLFTXnNUU-axZU-J3-zllrURpOoBUusBEoSfEacm0m
+
+sprite $CameraFrontMd [16x16/16z] TSk30S1G30JGY-hczf-sDjvdX4d3bMDXx1V9FNw_BVqMazqjZWvd_7uxalKPh_8HyoVMHmnr3tStRCoCCj-N-LIIE2Gs8m
+
+sprite $CameraFrontLg [20x20/16z] bO-54SGm30H5pxAl_se_75DmXtR4ee4l5encdaWiiS-UiRKnmEkO0AXZ5F1CiGCJuJB6Ze5t7bk8MInnDoOf56b1J9yse9IZ8NcQ5oYVztBtuLtlANfVoJi
+
+!procedure CameraFront($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/CameraFront', $name, $tech, $desc)
+!endprocedure

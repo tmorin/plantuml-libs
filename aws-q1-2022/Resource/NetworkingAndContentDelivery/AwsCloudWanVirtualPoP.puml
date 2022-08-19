@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2022/Resource/NetworkingAndContentDelivery/AwsCloudWanVirtualPoP
+
+sprite $AwsCloudWanVirtualPoPXs [10x10/16z] 1S450G0n000XNYVNl-y00BW0x7xWat1jcQ3OzV2R6v042C031m
+
+sprite $AwsCloudWanVirtualPoPSm [12x12/16z] NSh50SLG30CmFORiF-zdQAjBm7RLiv-oVMsHzdSLJFH24zh8yev0l6j9sEQXNu7POXOV8_d96zm1
+
+sprite $AwsCloudWanVirtualPoPMd [16x16/16z] VOw50GCn30ElSaFI_lEM6Vu2Pk0tjjxiuFTusgjLXDaU9X1GSQKWNbS_ZY50GuumIGnNOUG62_QYbG6OqBA3SAK90eixPQNbVV_Qt5ztymW
+
+sprite $AwsCloudWanVirtualPoPLg [20x20/16z] {
+VSz50aCX30N00RwaUVU_RrTr6To9VohJct68TptRcqvoU5P5p0nkQaVmD5dOCj30qCXInGdgwB0jXDLd3p6JvFPsh6ccmoY4TQJ1CQbqS76JMxLEDoC8AxWP
+VQwio_aHyE7TATxrQk_6T7C5
+}
+
+!procedure AwsCloudWanVirtualPoP($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/NetworkingAndContentDelivery/AwsCloudWanVirtualPoP', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsCloudWanVirtualPoPCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCloudWanVirtualPoPLg>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AwsCloudWanVirtualPoPGroup($id, $name='Aws Cloud Wan Virtual Po P', $tech='')
+  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AwsCloudWanVirtualPoPLg>', $name, $tech)
+!endprocedure

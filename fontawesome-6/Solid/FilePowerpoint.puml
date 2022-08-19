@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/FilePowerpoint
+
+sprite $FilePowerpointXs [7x10/16z] O-3dvsTZ0990YXzAGG0Ra045p105pFnyRCWy1
+
+sprite $FilePowerpointSm [9x12/16z] RSQr0G0X04MnVuhpzfyMfoDLH9C_YP5eTZ0prtrp8YdDW6RUQ-L-cA5BB1K
+
+sprite $FilePowerpointMd [12x16/16z] VSor0S0m40D0nSpQVrepTBdgKSWSFWtiab-o04zD-shIxbf-GWXkgUCFl6mY5U3KcVRMtNTg8JpVpNLAowS1
+
+sprite $FilePowerpointLg [15x20/16z] XSk53SH044DHB_Ew_seFGjQ8yeLl09rdI00U4RFyI97LajNmPz7vNtpA__ZU66DA6_-Mw887n4G2-s6S0x2_ING-39fVYguBfc2qlm
+
+!procedure FilePowerpoint($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FilePowerpoint', $name, $tech, $desc)
+!endprocedure

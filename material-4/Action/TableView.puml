@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/TableView
+
+sprite $TableViewXs [10x10/16z] Oy0AkDX00CHYO-870H0BH310M4XY_402p092Bh0Ig2m2
+
+sprite $TableViewSm [12x12/16z] Oy09-C603y86aonGDZy4GDWGCNHnA0IpMH3Y21c43JmejW8
+
+sprite $TableViewMd [16x16/16z] XOq53W0X30JH2D3k_rzxKZcNGLUIXdyw2Ttam11W1WrzSzvqXyAcKPE0PBfSjEDwYVILUHb48814Xovw04DrsFkkdHYKf8WyCmC
+
+sprite $TableViewLg [20x20/16z] fSu53WGX40LHcanmgFkVTfNvwpeL8mzhjwsEab72Z23JQh4hyoY_6emPJJPqQSX8isjJCePbl17jsbp2hbw6vU6k1ME4IWoKe0bkxifGRJNVnwnxztLx
+
+!procedure TableView($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/TableView', $name, $tech, $desc)
+!endprocedure

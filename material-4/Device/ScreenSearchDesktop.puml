@@ -1,0 +1,13 @@
+' definition of the Item material-4/Device/ScreenSearchDesktop
+
+sprite $ScreenSearchDesktopXs [10x10/16z] Oy06-A60XO4Vn06AS0DP4C2DBiO1Ol51TJ3pmm72E
+
+sprite $ScreenSearchDesktopSm [12x12/16z] TSo35K1H30FGFAFQVzflunwLmI_U420vX3W9uY41fUgyN-gfodljp8vwKlrSJm4hyyosut21Yn4
+
+sprite $ScreenSearchDesktopMd [16x16/16z] bSUr0S0m00CmXpd-_zeoSxK9lt4Z0P9QwP6ox0-WLWe0Qhfr46LxlpygMRVl-B8_r7Z1BUHSDyqdUD42
+
+sprite $ScreenSearchDesktopLg [20x20/16z] fSZL0O1G34FHL76o_xQuzPVxj0V_ydXd6x7acmrkwpeovx1P3y182hOUOqWx5PktJp4gV2wMN2i6CRJKhssrSTlextQR-SqmZkENvWDg-D42
+
+!procedure ScreenSearchDesktop($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Device/ScreenSearchDesktop', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/RestoreFromTrash
+
+sprite $RestoreFromTrashXs [10x10/16z] Oy0AEFb10Cp4oc9Zu8EoU832C1QgEWG
+
+sprite $RestoreFromTrashSm [12x12/16z] TSY54O1050FHuFQJz5yjxd0xzcQHBi9snEgYAEUAxNkfFDnUpj0SLex-_3buEiAxIo_XsGG
+
+sprite $RestoreFromTrashMd [16x16/16z] ZSrL0e0020FGWQt0xdzQk_lzaSClXRl9KYHSB8rqaiorSP8-ro67EW3Prph6R3K1vLjjPbjTSIAOwMWkZpe
+
+sprite $RestoreFromTrashLg [20x20/16z] fSZ50GGW40H1t67oZnRNtqcZM-JFk9G6BIdbCelJCiP5MorELW4hyPFfTh-cwfDUq_sDZo7K1_ZD449up6F5jz6GUj6GRoe
+
+!procedure RestoreFromTrash($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/RestoreFromTrash', $name, $tech, $desc)
+!endprocedure

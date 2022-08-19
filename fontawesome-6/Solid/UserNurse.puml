@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/UserNurse
+
+sprite $UserNurseXs [8x10/16z] Om02VWOmoGz4o3Gd9oU8Xc2m19XYOO0gPsVWu-S5YV80CHy_1
+
+sprite $UserNurseSm [10x12/16z] POo50O0m4CGETxB_j53NlAiio360SFd2aJABovwqISw0JPujFP70pvnRwFa1
+
+sprite $UserNurseMd [14x16/16z] JSx50GD130J1ELxk_BEr1ORwYINtiEa3wD0Zw72faEK1I_n5vXjjRtj63PcCDcuBKEWvbex5LEgFpBhp4miNLiSK2w1kE0zWy6_oxmK
+
+sprite $UserNurseLg [17x20/16z] {
+NSw50S0m30D1bLc__xJbu8NHrgVrfip2mwD-0Dg19Mqqac6hRgID86qiZpNR-CUrt9W8SKTsIGqeuDENgRfJq5IZiHujpE43Xyac7JmEDV3enEVWuuMAgInK
+BW
+}
+
+!procedure UserNurse($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/UserNurse', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/Gavel
+
+sprite $GavelXs [10x10/16z] Oq05_0WMFvJcO-3d0hFuW4o833OcDqm1L2qFK98VP0WF0m
+
+sprite $GavelSm [12x12/16z] Oy00_0Wc3p-Smu_WyFC3ELmG1K0EN1GdXmkY1memE601c1W
+
+sprite $GavelMd [16x16/16z] XOp50S1040BPkDD_jR5pvpSO2cA438tZDSJIDVw6HV8pDiCZFsFMn4CRzhbjpBuX_xCrVfKCuDJw3VZywm4
+
+sprite $GavelLg [20x20/16z] VOy50e0W40Jlx3ZO__zMwMQL6eQYQLvka8AkqGEqK6eege5YHgP-ylq1OoRqztIrcO84C-G589N9PjIOUc0-r9YlQvhtLMQzDIyXuR9cAeGDD8YECuH2FW
+
+!procedure Gavel($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Gavel', $name, $tech, $desc)
+!endprocedure

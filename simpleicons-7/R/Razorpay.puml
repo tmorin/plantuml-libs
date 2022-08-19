@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/R/Razorpay
+
+sprite $RazorpayXs [10x10/16z] FOg50G0G44Lry_QVLdFvIxnI3s3Ejt05BZA8h-a3yZE1kf666mC82mm
+
+sprite $RazorpaySm [12x12/16z] HSp50O1G30DGtE7jFotUtvpYLQ9Fgh15uGHlOVpuqRVaBlZ6u7XO3JHn4NL4VOFDTjCB
+
+sprite $RazorpayMd [16x16/16z] VSg54SKm04EnG3cW_QVzp50Vwlp2tYPlfBzemVWaU6ZrxdDAVJhKXVHmDk71JdXwvEBjSQ8GBzn0VkH0e3zDPhemWOeBZm
+
+sprite $RazorpayLg [20x20/16z] {
+PS_5eSGm30L0XJdJVxKVTaEAtt5iKHIfIrhtjtIqBzfGV4BnYVaX0-0v5iEKIriYzcnx5rjWYaScQvE_LUYsP0i4rklJpc7TGIkmDQWE0pGh3ce00UbCUw3D
+fTE8o5Qxx1S
+}
+
+!procedure Razorpay($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/R/Razorpay', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/Dataproc
+
+sprite $DataprocXs [10x10/16z] Oq05Z306Cn2YirY13BWyYCq88fbPG0IG3UGmWMKW108
+
+sprite $DataprocSm [12x12/16z] VOc53S1G58Iunq-w_yHrDo8dy4EqjYwuzrP7JtTqM8KsQ2eK60KXeiIIURmm
+
+sprite $DataprocMd [16x16/16z] ZOw55S1024CJFdJ_aVlgtZlSYRh8SCbne8Ec15_pQn_YEbzvcnUi6TGKPiAKOb7oiFsOV06JZxLFJCcA2JQlDeq
+
+sprite $DataprocLg [20x20/16z] fSxL0K0n34BHmats7_cvk_15JotbRQIT06oiXIssI_FWNDBHrd9ZtLMqjKvdmD6L65K0hHa2F8vXYaWy3jasTQEWoQO_mUxkTh1evLzg
+
+!procedure Dataproc($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Dataproc', $name, $tech, $desc)
+!endprocedure
+
+!procedure DataprocCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DataprocLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure DataprocGroup($id, $name='Dataproc', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DataprocLg>', $name, $tech)
+!endprocedure

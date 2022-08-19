@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-7/I/Icloud
+
+sprite $IcloudXs [10x10/16z] Oy05-FcPG1GJ9pyGC8C48038m0G8COGw1
+
+sprite $IcloudSm [12x12/16z] Oy0B61dXJ7uWu08nkFWX02m81Mn09WBm8R7PaTWCI4fmsGW
+
+sprite $IcloudMd [16x16/16z] dSUr0GCm44MnPsR__QSDqpKXTU8_Rcew7ghE-ZLfJrrvWA273JYzY21Z3rbRbfV5D2r0zWzyT0G
+
+sprite $IcloudLg [20x20/16z] jSZ50O0m04MnXpj__sbnTsbp3BRaQhWigPSoSFEarC2ZasY9ZdRdQgrqGJjHecSoxQ4z0csvGAwbb5zg
+
+!procedure Icloud($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/I/Icloud', $name, $tech, $desc)
+!endprocedure

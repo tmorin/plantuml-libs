@@ -1,0 +1,16 @@
+' definition of the Item material-4/Action/ImportantDevices
+
+sprite $ImportantDevicesXs [10x10/16z] Ou039dueOE272V6WilZ1N2YB4wGI33WP6DWXEZc1FAWiH1SGCFBm
+
+sprite $ImportantDevicesSm [12x12/16z] JSg50S0W40F0jBXc_sbnE-GLhxG5K8ab_Vonn9dRc_yakj4FR4cpzsKhKnnw3Yc586NBXqX6j7dF_wP_5G
+
+sprite $ImportantDevicesMd [16x16/16z] NSu54WH124FHB65zgDp_jjDkl_IrWhE7BG5_RK616OTvE3P_Gt4XPTLuI-shwl1aAbLSemDsUix3uhJgz90SrJac4toHp-9wtfJ2qGq
+
+sprite $ImportantDevicesLg [20x20/16z] {
+ZP050iKm2CKU5EPRxd_QhtpNr5D7V-8y8y7q2BD0Zx3SdElLhS_ElE5kEh3DvRG2Yufo0YJPSA0lvmGcZHmfrux-uDBCndB56986o1lbUhXHJXuHBHB8A7SB
+3wO7TzrxUucMCx9ZFKklx04
+}
+
+!procedure ImportantDevices($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/ImportantDevices', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-7/S/Stopstalk
+
+sprite $StopstalkXs [10x10/16z] 9Oi50W0X40AvJkN_lvLPPpjGU7mAN3mqcVxkGsaE1ZzEkZTkp1LdxKZCvvsm7disA44Q
+
+sprite $StopstalkSm [12x12/16z] FOk53S0m0CEyCkV_RwUYHK4cLOcDDbkUuCgQKMTAsGvHTUdnPcJvgTFKVcXgP46XG1CIVQP6yLxQ_dTD8lm
+
+sprite $StopstalkMd [16x16/16z] {
+DOs55G0n24FXj4R__jEUaDTKWOWbpg2xBGJ2hHBekny1eNAeJVu2bKVV3DpWAvpnFnkSz7Gqf0dsxxrW9U4QpFyPT0wvPt_Y6NfsOykk_Ar5-UxAJAkTonGd
+JvbLr1v0Z8dA3muiqWi
+}
+
+sprite $StopstalkLg [20x20/16z] {
+JP074iGm2CJMTdf1___j3SnU4gLOxe3C7boBFioOkydmON-6xcw3mxAgk8Y0kSxoaCwpLkJlzZNX_PkWbuPOKYxO8Qtbz4Zh4E0jZ996ek8Z5zO1jzSj7aCR
+PIi8vbGkSQO4jsv8NTesgeMkLi52aoCXAqUooQieEG16Kri3w9-I6Zri52xZ3m
+}
+
+!procedure Stopstalk($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/S/Stopstalk', $name, $tech, $desc)
+!endprocedure

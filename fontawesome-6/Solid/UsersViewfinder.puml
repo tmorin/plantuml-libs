@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/UsersViewfinder
+
+sprite $UsersViewfinderXs [12x10/16z] JOm30W11549RO_3kVzgnlb49LEmWJztkTKw9yHmDWE3_samlkPBJw2iRF5brrVp_Dluk0W
+
+sprite $UsersViewfinderSm [15x12/16z] PSsr0KDH08LGelyv-s-R6xVJKO7AWp6sZOTjquqFj-pGJkmQI4gRedjk9YU5mKrNGa_4JZ5G8ZHEX1kn3-Bl6nzn0G
+
+sprite $UsersViewfinderMd [20x16/16z] {
+XO-50S0m20I_BWdS_jFMNI-AWnZGHWOuPrt9gZZphcihAG_9y2b7dGO2g01aC1YIKLU3ugYhu2jp05lrXIOQ20hkNkpE1OY99fbqMRL4xVs7vKtIaRyvpk2S
+r8617W
+}
+
+sprite $UsersViewfinderLg [25x20/16z] {
+fT750G9130NGlp8kwRzROi3Q2TvXN1EGm54XLab57933a_hpH6bShArm6Tkg4uZl-PMaNAHW2Q99h-l4niLoV66qvqjpu68I5HpuKUKpIm4uTjQDBHY7IoGq
+CYkIz3BCictOoSbE2oLKFeTk_uPaDSi_GQmCHpiFJ4zXkcVm1G
+}
+
+!procedure UsersViewfinder($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/UsersViewfinder', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/Eject
+
+sprite $EjectXs [10x10/16z] Oy05cE0iVZY37yha1RAOeK9GGLPE4C1k5
+
+sprite $EjectSm [12x12/16z] Oo0Qy2EOVFniC2OpFpzS0iY4SNZ1R3PCGo00joq
+
+sprite $EjectMd [16x16/16z] Ow0EOEH7vVFpSo9pEVdv-HcHLOC0acemu4HMpO-aWnaAcD3up50kFmoGuN
+
+sprite $EjectLg [20x20/16z] jSl50O1030LHt67whnPV-pddtI9JkMdiQi3kOD7L3hHQFhHyB5fIrWE1b5fR_Po4tKnIERW
+
+!procedure Eject($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Eject', $name, $tech, $desc)
+!endprocedure

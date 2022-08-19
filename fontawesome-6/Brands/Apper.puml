@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Apper
+
+sprite $ApperXs [12x10/16z] bS450G0X0C30lIkiVrga07B7fCrDiLZztzS7T5zXtpnPuAJQwSW
+
+sprite $ApperSm [15x12/16z] hS450S1000EnFdFFlzlDmY3HVsedWTYJCV5Uf3uYCZcXQATkuR0ThLlg4dhX0W
+
+sprite $ApperMd [20x16/16z] nKt70G8n37EdM8dstnQ77t_WtAiaLmdWXcv1uJJoB5WgZKAbzc8KrcE3UC_6QpF3LqcJqtEccmNoCRCZnWdyfB6UCFuhUG4
+
+sprite $ApperLg [25x20/16z] {
+rSd7eG8W44NHnmGotFwh_K6NMe0UcAnlK_IM0zEu80xK05e7L6rZb49XYplnkpkwcm66X3qEYmZlI8Uu6ESWM8p6OFqVL3FIi5R4pfIyfIprPFndjbx48xa-
+nIy
+}
+
+!procedure Apper($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Apper', $name, $tech, $desc)
+!endprocedure

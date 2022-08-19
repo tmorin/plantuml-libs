@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Avianex
+
+sprite $AvianexXs [10x10/16z] JOQ50O1058MmM_QVrhpuBo7892P9f2sPf26HZ3zrksWkTgT9a63c1W
+
+sprite $AvianexSm [12x12/16z] LSR5OGC0542XryRji_-qSUL4FrPUobj_Zhr-e1mXg236xdtjj68TJXlJILiOvgJnLiTvsDS5
+
+sprite $AvianexMd [16x16/16z] POd50G0X4CI2Ezj_jUSAUOp2JEitpO2LBx19-FTA-F-Qz7Hzharpzhnh0-8UyhxsRUQyDPj4bBNdS6hQrA6UBggB1DpMepp49XNvOJ7VsfbO0G
+
+sprite $AvianexLg [20x20/16z] {
+TSv75iGW081Gr4atSl_RpallVyaAlgIp251x0tW7ZSgj5SrmRQhn70iuWMW9sSb0S98XJ7tIa7HI7LEHJYtgqM1K4pq969o0aqJM0ETcm2tsMnETOj14wo8x
+IQD2yGu6Rrh0Utht1m
+}
+
+!procedure Avianex($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Avianex', $name, $tech, $desc)
+!endprocedure

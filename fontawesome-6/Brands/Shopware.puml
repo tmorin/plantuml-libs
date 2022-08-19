@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Shopware
+
+sprite $ShopwareXs [10x10/16z] Om01PWOmOEC70GY32oB4py_E06E1221WXhE011z42io5AGG152O
+
+sprite $ShopwareSm [12x12/16z] HOkr0S0m40ClpF7-qneUrOWHB1Z-Cd0EESGIwIL2Os1w7z6V3Vz5SxdR1ZxHPbWvXtd0o-ncrmq
+
+sprite $ShopwareMd [16x16/16z] LSx50K0X30FGu0xxJ_k5eEzMBqWeRB8Hg30gfQWLwhiPsmxb5TVsSH3_ffudDUk6CVPyN741oTgufs9hNLgnRLGLzeS4KEXH_-y5
+
+sprite $ShopwareLg [20x20/16z] {
+POy55iKW30HtwyxzJ_ibH5-doa0C1aTKZYOyuPSMgDgRSCq3oI6TEf0HDRxJhoYapFS_AzKzeXuhpV_xzcF26B4qb_DXo-w1ClpBQEOTpZxxiCWqvMIMpeJ8
+6ynkRtSB7ExFlmazzGK
+}
+
+!procedure Shopware($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Shopware', $name, $tech, $desc)
+!endprocedure

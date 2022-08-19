@@ -1,0 +1,13 @@
+' definition of the Item material-4/Notification/AirlineSeatLegroomExtra
+
+sprite $AirlineSeatLegroomExtraXs [10x10/16z] Oy06-3dv-R6n86n-PX2B5yXYvGFpmV9iR6mC_BpyS2Cu4CO1
+
+sprite $AirlineSeatLegroomExtraSm [12x12/16z] ZSV50O100CJ0nPtqNoskvtbDv6igW1H3jtiypUuSvLkq-zG0wb6cE-3nKElR2W
+
+sprite $AirlineSeatLegroomExtraMd [16x16/16z] bSUr0GGn00InDREd_sgV6GwKIMlCi6ECzhZ50MFdwRqyVnLkDzpeWk366VZBC_DSMQOkNEidqYGsgoS7DBsO9Bqo-dO4
+
+sprite $AirlineSeatLegroomExtraLg [20x20/16z] hOo35G0n50Jtnqx_rPvjP9uNWrzaPtE3BfmP8jfcBVuWopHbVChYc2NeAMHz9dEQBfFHJ38z6o5LIpUCgVbFJ1U9DKrai44hFAS6
+
+!procedure AirlineSeatLegroomExtra($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Notification/AirlineSeatLegroomExtra', $name, $tech, $desc)
+!endprocedure

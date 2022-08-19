@@ -1,0 +1,13 @@
+' definition of the Item material-4/Content/Unarchive
+
+sprite $UnarchiveXs [10x10/16z] Oy0A-3X1W1_8uWS3A8iDmW8HR10MI34RH8oF4oIBq84
+
+sprite $UnarchiveSm [12x12/16z] Oy09s5cOGO2J4SZcXm4iR4Oe6qmomjWW4vXWuamCl5ZqGW4FYgq
+
+sprite $UnarchiveMd [16x16/16z] ZOp50S103CDKHYVxJrjcFFsC_1EtcgaPYJnPo3NgrdTYG26wn7OzIh1TZn9iqn94qc6V9DdRVtNG4K2y4N6Z1m
+
+sprite $UnarchiveLg [20x20/16z] fO-34G1H44E_jUg_shEDDyei4_KJXZB2iIy1vuaYjgl92ZgeyLqjx6jQXMsj5M5TqvsAoveQ2AjT7CIorcPvvcy0-s_4CsJKOse
+
+!procedure Unarchive($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/Unarchive', $name, $tech, $desc)
+!endprocedure

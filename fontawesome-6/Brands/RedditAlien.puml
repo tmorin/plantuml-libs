@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/RedditAlien
+
+sprite $RedditAlienXs [10x10/16z] NOR50O104CIo7npIVxNuwMZeDEa78smV2S21gkE8IIYhuCZXfm25RmWLk
+
+sprite $RedditAlienSm [12x12/16z] PSg53SHG081Gsdutzf_stEybHE7VQaNkDgXo9o-7-_tqRjhmZUgE5gORMPEt0CrgLovqzgNSjLMuE0C
+
+sprite $RedditAlienMd [16x16/16z] TOq50e0W54DdAxNxtrQwUUIl3IlK3cWK3foaoU7bKcRBCL7HnugE5musF5rCI9TqMNzjW1lSKjmB175fI0gIEoms41jsbHnnq6CsZFm
+
+sprite $RedditAlienLg [20x20/16z] {
+VSo50SCm34JH7p2hllsdBKXbUeb9n7_h0cpBIyogDAMNM0BiDLQyotPu40y_OritMLiXJ66wIKK53dgtem-L9cdWgHp7uiSAGn8-gU2noI99nkgjCFLgWPZH
+OhhtNEHBZ5kMiEhEk5jYQEUd4m
+}
+
+!procedure RedditAlien($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/RedditAlien', $name, $tech, $desc)
+!endprocedure

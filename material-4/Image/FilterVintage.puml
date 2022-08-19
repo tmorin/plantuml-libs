@@ -1,0 +1,16 @@
+' definition of the Item material-4/Image/FilterVintage
+
+sprite $FilterVintageXs [10x10/16z] Oq01pFmm5Zy_7uZYuuS0Hf080vHW1BCWga0yVeGw9eWe3zmO404
+
+sprite $FilterVintageSm [12x12/16z] NOk50G0n2CJg3jb_sdSjBZapM-ATGO_k808LCSO2FIZidD8EhEoK-gr8VONil0SOd7of1d0jR_C5t6OvsWe
+
+sprite $FilterVintageMd [16x16/16z] ROq50a0H6CPU9tR_q-fcSf_ubpaNZQxG15_bFxmIE0Gyrl78C5ktCPTTNRAv1ogyNSDr5mY_y3QrDb0-jWYluHyA_iBnlfi0jlDxrYNmX3yA81jVane
+
+sprite $FilterVintageLg [20x20/16z] {
+VSw5KGL034NHh7jk_zqo3_WkPsGbQjzK3_OaWTiJW6eF0jmdDeULaNfWgwtpI7y5wS7IGKnSNzT1pIGS1QM3WXBy_wyoJ7I3Q3Al-m2Swv9Bju5uAnFaCXRd
+Icr2coD59DGvYbq1R7jqKDKJcFOijElr1m
+}
+
+!procedure FilterVintage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/FilterVintage', $name, $tech, $desc)
+!endprocedure

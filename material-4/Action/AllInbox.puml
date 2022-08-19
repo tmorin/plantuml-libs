@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/AllInbox
+
+sprite $AllInboxXs [10x10/16z] Oy0AkDX0W1_8OWFp-K4OI33nGrZyV42CK0wLPOR9ygFA0W
+
+sprite $AllInboxSm [12x12/16z] Oy09-640n8QAeRF1ienGDK301rNFo0G187KyF3nm4YZBoi0DLGy5F2Ys0W
+
+sprite $AllInboxMd [16x16/16z] XSm50e0W30NGWHtpt_-sqXtFW2NDFUoTEdpnUf0gvfUyTWncQTUu661TL7JyGllWO-BWfWOzlwfJJ_Xz4BJv-GkHq0Coq67X1m
+
+sprite $AllInboxLg [20x20/16z] fSq34aKn50FGr6xslzhYcuzdbBd4EOMlxAN6Q9zOhZMB9zR_DIUbk2GfvRqsN9BayApH0QA-rYugBygb5lbAunypw8_42OFw-141oTVQgtofkLAVYiHc7G
+
+!procedure AllInbox($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/AllInbox', $name, $tech, $desc)
+!endprocedure

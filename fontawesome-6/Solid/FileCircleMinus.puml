@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/FileCircleMinus
+
+sprite $FileCircleMinusXs [11x10/16z] FSd50O1G0CFGVjpV_jFYq5EJP6ChkRPXSt_tzLrTrtsN_3VeGErV_Bq2CoXm
+
+sprite $FileCircleMinusSm [13x12/16z] ROp50S0m30DL_1Xk_sdB64uib0EzpkNiW1Dm0bumzdr_WcjzWJv0pmC3doNItLkWFx_vMx02
+
+sprite $FileCircleMinusMd [17x16/16z] PSc54K0n3CDGvpFawlsdBNDr_8IR8TGknb291RW0HzYsJNemgleLACq0-NNl08QX2llBME3nT20-xK5zx63g5SRkUh3Jzy01
+
+sprite $FileCircleMinusLg [22x20/16z] {
+RS-54O0m44JHnJtRVxTCz6JkumzBi2Jc4YP8CzcKYfEeOeeAMwLNOivvVVUSg2xIX41NR1_vJ4Pto8bw_MLh4Lt08DoXvgraz2NVND8wpmnwvCtz4SOayqwA
+yUN30Vm
+}
+
+!procedure FileCircleMinus($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FileCircleMinus', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/CloudAuditLogs
+
+sprite $CloudAuditLogsXs [10x10/16z] LKg30G0W4Cor_yAzhLEhDUKTGciX66qYUHEbYPyiwjSwVpiK6knJR1BcuWy
+
+sprite $CloudAuditLogsSm [12x12/16z] PSR70KCX30Km0VOB-o-SthzESZ0zbRLeo0GvqPDanEr3t9Bdjxnljb1DqcnqCzaJMCk_2m
+
+sprite $CloudAuditLogsMd [16x16/16z] ZSd50GGn5CDGVNBIVyEBmwpRitbMX3Dc6jm7ZfT-mvSkrJZeIw213HRv9REZupax03cZaK9YS05P3lJ6ECo4X8Y0OkXhZdi3
+
+sprite $CloudAuditLogsLg [20x20/16z] {
+bT055WCX54FHzot3_ZTSoQbxCyh5uTzKnGihuEAIBQ5NuumIJf4HcKeQWBNgQEssqyDsH9siv3PvQvfejkHgVhGInQsvRuWRCuQkDcvo39oiJXqJq_8dDROh
+kIMdCqZJAITxYFk-pnu
+}
+
+!procedure CloudAuditLogs($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudAuditLogs', $name, $tech, $desc)
+!endprocedure
+
+!procedure CloudAuditLogsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudAuditLogsLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CloudAuditLogsGroup($id, $name='Cloud Audit Logs', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudAuditLogsLg>', $name, $tech)
+!endprocedure

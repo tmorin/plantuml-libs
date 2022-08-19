@@ -1,0 +1,16 @@
+' definition of the Item material-4/Action/HistoryToggleOff
+
+sprite $HistoryToggleOffXs [10x10/16z] Oq01_0nyO9eRHB0oGGKX90GpiI29yO6PO8KiS3EO6HWPM1WXR5O6PY09
+
+sprite $HistoryToggleOffSm [12x12/16z] 1S670S0W00CWkjoQ_xyj001e2g1UpL2XJP0B5uAFNX6S2mXGEuG0N1Te1-I2-plY0bp03m
+
+sprite $HistoryToggleOffMd [16x16/16z] ROo53GGn30GddCXot7-rJ_jyDmB30kSa4XzoE17loob0PkjsGyG4I4hmsgEyRtD8_j6R0-ZkYAJak3z6097Hex2C3mK9xFtgc5ecLXcJ2I9j9umphW
+
+sprite $HistoryToggleOffLg [20x20/16z] {
+bKu50WGX41hhRFZ_Qs-xcrrr4f1l2FG2c5L5IuQJGjD68pAdo74i6kPvWMNBg9OafdNDeBk9TKtJjhTtcrrlrtnfIP0dHtq0trsSRQR9eJMpzsxG3x5TdFrc
+yvXAddMCJ17TZLfHLHQ0lZyRE2l1o3KQ
+}
+
+!procedure HistoryToggleOff($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/HistoryToggleOff', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/WineGlass
+
+sprite $WineGlassXs [6x10/16z] O-070GP-1WO6E0a4g2GpY03BmKakVYu6
+
+sprite $WineGlassSm [7x12/16z] NSMn5K1G50N12m1i_ztQynByIIQWFIpBiX8YEsIbQKGHLwhZ4ye3
+
+sprite $WineGlassMd [9x16/16z] XSR50O005CFGu4xsdnOf797tfMKq2hnqs79mn39bFdOwkEBjlGmK1b0dmvMVOh03
+
+sprite $WineGlassLg [12x20/16z] ZSQ54SGm30312yUsDDT_jS-CsQ6bzmgMXrSvANR4vRCzUVdeWBQJSCIR-l3svOLsUmTU931SpabL5ovqPVjhrQmpW1SZUm
+
+!procedure WineGlass($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/WineGlass', $name, $tech, $desc)
+!endprocedure

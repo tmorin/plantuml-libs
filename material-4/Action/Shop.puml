@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/Shop
+
+sprite $ShopXs [10x10/16z] Oq01_FpyK1OF0vZ53mKyO2a4Yu4PpaANXG8kXAa
+
+sprite $ShopSm [12x12/16z] NKk30G0W4Bpisd_QRFqVyHyVt8Q21TQ0yJxrvmb2MeTsZ1i35wO7nvKvNRunxbC
+
+sprite $ShopMd [16x16/16z] ROs50O105481k_UVLhtET_aBq8MIyl0nf7Zu__8npv_7dzFaStoyLh6mL36mL_5KndVHFvTwTz9dvGygWOOF
+
+sprite $ShopLg [20x20/16z] bOw50O1030E3GotxRukxtsiz-4V3dcJdOuW8cxtF-aimOJraVqN_xPDvm9vy0R_m8VEph_DU-52VVCcvjkB95n_qxH00XSSMnMTQ
+
+!procedure Shop($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Shop', $name, $tech, $desc)
+!endprocedure

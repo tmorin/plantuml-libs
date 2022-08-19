@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/CirclePlus
+
+sprite $CirclePlusXs [10x10/16z] Om02Jdus1X3W1mDE80CAMC4iCC49Ou5f863YvsS3i-444vZ5YL332cK
+
+sprite $CirclePlusSm [12x12/16z] Om01RduE1WZWXm084yxXXmDU21j2SaFPC00pWGF2mqB20Jl2K3wGBbwOA
+
+sprite $CirclePlusMd [16x16/16z] NS-54S0m30D0bS6q_xGbdnhuCCVuB1OoW2pIbiFuEOUat4m3k11foKOu_hQhR13n8AHlOxT_wCRWJzYkKKFxeHKFhOQVeOhc1W
+
+sprite $CirclePlusLg [20x20/16z] {
+RP350GKX34G7T-Y_sg_P32ll4bS8PQuUiH6MC0o4jL7e8fKk4jYBC2sfbbMp63hdmJV_XTO2rjgn20JxixeSC2pQaBJuq0zttw1c6JNh2e1oTm5rxLXzgG8b
+7tFmvGq
+}
+
+!procedure CirclePlus($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CirclePlus', $name, $tech, $desc)
+!endprocedure

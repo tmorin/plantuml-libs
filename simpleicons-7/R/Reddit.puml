@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/R/Reddit
+
+sprite $RedditXs [10x10/16z] DOg30S105CLIkzb_slFt4y3bJYrRNGEyk3MqD5MD2Dm8xZNBZDOvdUgxx0Li0sG
+
+sprite $RedditSm [12x12/16z] 9SQ50SGm3CLGbSFQVzg3VYMs7m3TGZ8H9i8XnHbdTsqRy1JLWssdmx0e-sj5OUFcV6q1kZwWQG7Cbmzy0G
+
+sprite $RedditMd [16x16/16z] LS_L0S0W303Hgmk1st_Qkhul9CgXowQAM_OqSF1HFjTmr7Y2ms3K2a-Lfyx3HFAGjU5K4-w00bM2MfC62BDmrU6cehRqOpr3QA5NemAQgrRsrGF4_mhLPviL
+
+sprite $RedditLg [20x20/16z] {
+LL074i0W2CEzpVz_MpdeYUamXWqfsiRCP92WMEwNOD1UIT0VASvD6qWcrpmgrKECM_X9lTfbpPRRSk6339p8uz3ABO0xbcfCsJbmXWuWtzx9QxVoKqtIBLgI
+iGBRYPlNGf4O5HhLy40IzKVoPgNMooJ24gSF
+}
+
+!procedure Reddit($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/R/Reddit', $name, $tech, $desc)
+!endprocedure

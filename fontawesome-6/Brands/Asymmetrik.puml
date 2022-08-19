@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Brands/Asymmetrik
+
+sprite $AsymmetrikXs [11x10/16z] NS650G81000XxFRsdzRs2omShcTO-Rd0UX-mfIwmewwHasrhTIHbjUg4tfI99m
+
+sprite $AsymmetrikSm [13x12/16z] VOo30S105CLIkzb_sjeuVJmHEkdMkwtJpyMv96WqzHYcbgk7NYkxgSr2JL7QUOqNpL9mRlQzzHnlkmjlPmG
+
+sprite $AsymmetrikMd [17x16/16z] {
+ZSd5WKGn50CmVQRakVzgbnb79uFRZFio3iDq7c0OlJ_Tcm3rrdE-3njR4j0m8uyWNAXaILQ6ic1CDaa83KcGL33jMiBYJ4OuhwIPSbr9G9BhIBefER5LpVQg
+ebVvvXu
+}
+
+sprite $AsymmetrikLg [22x20/16z] {
+dKy53iGm34kPc___za93uSqZopLey0M-Z3bxlYan-uEwEfrymoir1jo0qyXgPoran2E5-abC2NSryckpEYwro0cBrk6HqWuqFwTrOA6ep8f0hmvGIV7DyXuW
+qyTLv9Aj-MMJjaWBMXWSE2Bs2tiGptIyn-hSeJ8UACAtY7QEMaFl2l_W1m
+}
+
+!procedure Asymmetrik($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Asymmetrik', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/A/Amazonecs
+
+sprite $AmazonecsXs [10x10/16z] Oq06_53C1-MpGjay36mm9TXOt6nW4gYL2qXpmerYO6G1QmS
+
+sprite $AmazonecsSm [12x12/16z] TKt50G0X30izHVVV5gZ-g6i2bWSXVVkGgkc0Vk3RkThgtXLBaRhhwQ6-NgwfC6vDHQOaOJEc6eGyoKgx
+
+sprite $AmazonecsMd [16x16/16z] bSX5WiCm40NHPmP9xVkVTYQHUPbgh6-d6DmCEJHXftw1FeFSsvrrOgjFPnrX4hGPbDRknKx-qKlpygPjexfvGMcRKWyi-zdGH6DdcO4sO4YmqyMUyGy
+
+sprite $AmazonecsLg [20x20/16z] {
+fO_L0KGX3C22Qyl-qvuXPvylU2XIDetADxKAJJrlmW0XFyU5UUu_tIl-fRJ0SJ02wsQdXY06e9ZfTCQq3iJfX8Nf_uuhJis_exNbIcNzKepHwK0QC19K0N9P
+FvF8awmhuOCTRawCf3q97CpmW3Q-S5AEkGC
+}
+
+!procedure Amazonecs($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/A/Amazonecs', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item material-4/Social/PersonAdd
+
+sprite $PersonAddXs [10x10/16z] TSR10K0000IW083RVre0FxtofqqWv5gLwbcPaWA4DIbXoWLvzja1
+
+sprite $PersonAddSm [12x12/16z] VOh50S0m30CL1eFsdxPChrx05k2VsPwLfEvJyx5pMurk-zwtFMg9G03kJfOPJoKyoFlEYtrF5_Ym0W
+
+sprite $PersonAddMd [16x16/16z] dScr0SH034HHUPcd_sgNAJhmY_H7z183mjt07Y3QkpbDkz4mSW1uQyOWMJiUcY1wFclWH19Td9F7mdjZYxt3vkYB0W
+
+sprite $PersonAddLg [20x20/16z] hOo50ODG34GRhy7jFotkRW--vUJr3AGo7JaAQ3HYbFoRbq6BFL2nEXC9kF0ecw8aBUr0GjMCs65CrRNQ-xw6yIpIge_x-GSjQHlwOK1ZnP1OcLqc1m
+
+!procedure PersonAdd($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/PersonAdd', $name, $tech, $desc)
+!endprocedure

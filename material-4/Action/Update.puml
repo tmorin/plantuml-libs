@@ -1,0 +1,16 @@
+' definition of the Item material-4/Action/Update
+
+sprite $UpdateXs [10x10/16z] ROd50S0W54DJzxpzfotEYIzHZGS-NYUHt4THlfoo8ohfhYq5vmZFgJW6akWJ
+
+sprite $UpdateSm [12x12/16z] VKc50O104C9ksNzREUpw2nA96KXMc4Ao4yoaS6hLeBUEdxEoB7UjxpSjo1Y-Xrrk7A5qWAScbTvd0G
+
+sprite $UpdateMd [16x16/16z] ZSo55GGX40FGBExflzjx6Sxzhy0e_dB45EpSqQ9KJ6SXf_AHfCMS01pGT-ofSA5nnstj-6ACQzoqfzgrC01KxFHN7fcGkM0S8mmPRABZh54IRfmxyDO9
+
+sprite $UpdateLg [20x20/16z] {
+fOu54aCX34I3Etl_spOqoymVhpniUQZyJrd0xa7Je0bGenPJzZOLWNH6Dm2OSu2GTLr7rBxkawu3n5pRoZJNwHwWF5nlveOeVY9pecpSBnK9kd0ePoGJ381d
+6gXC3cXEnx1u6wzymrqajBb6SV8LBm
+}
+
+!procedure Update($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Update', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/AdvancedSolutionsLab
+
+sprite $AdvancedSolutionsLabXs [10x10/16z] LOW50G0m20GFxTzuhl3EVxbSS5s3kpMTcs4zUHkifIu-as9ksXCziIwwL
+
+sprite $AdvancedSolutionsLabSm [12x12/16z] POg50S103089nsV_ZUlUAAPVZHiITb1icCsd52crOC1ZsIriqLhWXbaoRFbUDiZP7LBeABU-DGC
+
+sprite $AdvancedSolutionsLabMd [16x16/16z] ZSV70K813CKmlpXa_utf7NxHJUnJyr7jyf48QOcvVe8qXNEzaVDLRzVqYF7sAcOQUTpYt7Zx59ulFTSVfEY0pOtOfdZA-NmO_Zi1
+
+sprite $AdvancedSolutionsLabLg [20x20/16z] {
+bSx50GH02CNGGFxGVyVhxflZ6m7-pNcYpl9UIepjhHIIXhQEj0O8GN2EMCTNeLl3qUWwcA9dKtec81VhmCowCxLhtRrLXO3gTPU28FJK4LlmOAsSiweY5hTf
+b8SonLEBJsq1
+}
+
+!procedure AdvancedSolutionsLab($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/AdvancedSolutionsLab', $name, $tech, $desc)
+!endprocedure
+
+!procedure AdvancedSolutionsLabCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AdvancedSolutionsLabLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure AdvancedSolutionsLabGroup($id, $name='Advanced Solutions Lab', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$AdvancedSolutionsLabLg>', $name, $tech)
+!endprocedure

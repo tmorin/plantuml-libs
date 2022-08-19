@@ -1,0 +1,13 @@
+' definition of the Item material-4/Content/ReplyAll
+
+sprite $ReplyAllXs [10x10/16z] Oo00-1WO-C4CVYu6VduGauCVo00119CJo0If0sDC
+
+sprite $ReplyAllSm [12x12/16z] ZKd50S0m4ABkPVzf8_2DdQ0Ocqzd-UEZvPybcPkJEAXPP4uRs6J-P7J0Xif4
+
+sprite $ReplyAllMd [16x16/16z] hSY53O1044HHt67wh_PaFOwzvEHFyuEJZYVeg0jTIQnTJ3AKNB0qCyH6mroEc7teXlK26Xhe5Errq427b7uc0m
+
+sprite $ReplyAllLg [20x20/16z] lSe52WGn50FGZDNRtF-qAtL1LoR0bqTmLtmSMq-1SVJcgT_4lH5f8Z4UVIj7lqcHW6HBml0UDRuqUzHzSmEsoxztn3ZYZOCgRXL7CcmUQpPyaIS
+
+!procedure ReplyAll($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Content/ReplyAll', $name, $tech, $desc)
+!endprocedure

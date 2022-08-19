@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/BarsProgress
+
+sprite $BarsProgressXs [10x10/16z] Oy02-D416ni_GX2XZXL54KGh3nPr
+
+sprite $BarsProgressSm [12x12/16z] Oy01sFan0HCJ4mgVWPSF1dXGDADhv04329iR3FYHrI1h1G
+
+sprite $BarsProgressMd [16x16/16z] Oo04k7cG0HilFox0oiJ4X2pB2rJEpy-EfegWVJnyo80TktqiJ100a-NXXW3IxGC
+
+sprite $BarsProgressLg [20x20/16z] fS-30S1004MnNxjl_sbhyv0D8Wy1Dmr_ma7CMJh8eELEtDGo5KPNIh3IFcMhLGqrTwgQgrY6UW
+
+!procedure BarsProgress($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BarsProgress', $name, $tech, $desc)
+!endprocedure

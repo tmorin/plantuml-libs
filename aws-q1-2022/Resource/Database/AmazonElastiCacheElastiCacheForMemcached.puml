@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2022/Resource/Database/AmazonElastiCacheElastiCacheForMemcached
+
+sprite $AmazonElastiCacheElastiCacheForMemcachedXs [10x10/16z] HSm50G0n54EnDzxwwz_kCKH0-Fc5Lo-js06pbivoWmaWPqw9HSOXOqK0HN9mcMXz9R03
+
+sprite $AmazonElastiCacheElastiCacheForMemcachedSm [12x12/16z] HSR50KKX302muD2-_TVzBZa5V_5dZLZHeePqLZc6JbMMY9sRU7n3By_R59xlzWpNLLfYgoKLdkzgxlSN51zZDRW3
+
+sprite $AmazonElastiCacheElastiCacheForMemcachedMd [16x16/16z] {
+XSS5WWGn20NHIW8D7_h-rrqPzwa8FBxLuxQYnbwk_hkfo62k6ixcb8Y6fXYXqfe4zMyt07JodkqmObz7ay20CVXtaSl1q4I5f4H5CvOK08biWpaubYac8ozc
+08opQPbvYHVz0W
+}
+
+sprite $AmazonElastiCacheElastiCacheForMemcachedLg [20x20/16z] {
+ZOi50WGW20G7L8xw_tUlkyTaWt-fVaOfK4MFHmxFtE-MCAjHouRtQ2cG5XTBSYdUx2Sezjfac2q8cgL7ZN8LKKkdqPFcd4cvQErHcpaigkPP0mT4W12Ecc_C
+1Jd8rB0yQ5tbgIruUuxzg1nmoDXhX-u57-GcQUfECqsKjhpJZfkyxyxpVpHtH1zOV6G7
+}
+
+!procedure AmazonElastiCacheElastiCacheForMemcached($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Database/AmazonElastiCacheElastiCacheForMemcached', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonElastiCacheElastiCacheForMemcachedCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonElastiCacheElastiCacheForMemcachedLg>', 'Database', $funcName, $content)
+!endprocedure
+
+!procedure AmazonElastiCacheElastiCacheForMemcachedGroup($id, $name='Amazon Elasti Cache Elasti Cache For Memcached', $tech='')
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonElastiCacheElastiCacheForMemcachedLg>', $name, $tech)
+!endprocedure

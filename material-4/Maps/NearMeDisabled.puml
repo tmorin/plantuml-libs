@@ -1,0 +1,16 @@
+' definition of the Item material-4/Maps/NearMeDisabled
+
+sprite $NearMeDisabledXs [10x10/16z] JSQ35G0n042nGws__xIryfJdalPCxGkp86k0sgTwUwTJCBCwFhLR0G
+
+sprite $NearMeDisabledSm [12x12/16z] LSV50O1G081Gx9RzfpL_Sk9H9RdvGxFj0RtQlDyfkxwhlbXusp_4rXAwcPyveZbX7Ycw0G
+
+sprite $NearMeDisabledMd [16x16/16z] PO-35KKn50Jt6S7qN-r7Z3c-M6XcLyVDeSIsD8FrXNgn0zoA67PP89ml1WW37vQMm25xICsajJt6GT0ucW5mjmDurGvsGh2b3DPGG2DV
+
+sprite $NearMeDisabledLg [20x20/16z] {
+ZO-54GD14CFs_XZLVxL1Xr73cWNRtkFVEDQhAmox44QHrAHhWBkV30jWIMbo0aGPtu1nbbASE4zskGMWoM323JJvG5wQVE3TPETrCW2fF4q2QdGZCzNeZkdj
+A9Fzonu
+}
+
+!procedure NearMeDisabled($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/NearMeDisabled', $name, $tech, $desc)
+!endprocedure

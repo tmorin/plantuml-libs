@@ -1,0 +1,24 @@
+' definition of the Item azure-4/Item/Containers/ServiceKubernetesServices
+
+sprite $ServiceKubernetesServicesXs [10x10/16z] JKk30S103AoRq_xZrlWuXwu91sITrt9SQ-6uaXcgOwDweLALWo20jNWGGQUJTygVrvzN9xO3
+
+sprite $ServiceKubernetesServicesSm [12x12/16z] NKo50G0W2BC5fl-_QtUoLC_oYPG6zrc8M8JvdvNMzVewP2RsbRLLodJcn4HrfZfJAxNLxteKH4tbVzQ8ZQXJ0G
+
+sprite $ServiceKubernetesServicesMd [16x16/16z] ZKv50iGm428EPFR_pwttjDRe688FA_NzBNTAch98jKTvcwv8Zf6s98_PjfAPaVkiU5bK6aEIRUfVZgAySuxTaGvF2ZTKnyWurg2fs77rOwujvv5V01prq-mA
+
+sprite $ServiceKubernetesServicesLg [20x20/16z] {
+bP15WWL1349BMWA4-rztMkUxbGJPlPINfzx8SdhIWKPJCP_T54i7phCM-QrhJiTOO6cHxTIw_1jnWX4r5LZ4kSXap0o0d14OiSct7Ir6BtGYIf65E0ZRFU-q
+yaRBQzvfvyZOE7xhHclbbQb5Nkpv3m
+}
+
+!procedure ServiceKubernetesServices($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Containers/ServiceKubernetesServices', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceKubernetesServicesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceKubernetesServicesLg>', 'Containers', $funcName, $content)
+!endprocedure
+
+!procedure ServiceKubernetesServicesGroup($id, $name='Service Kubernetes Services', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceKubernetesServicesLg>', $name, $tech)
+!endprocedure

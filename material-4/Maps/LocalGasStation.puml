@@ -1,0 +1,13 @@
+' definition of the Item material-4/Maps/LocalGasStation
+
+sprite $LocalGasStationXs [10x10/16z] Oy0A-DdO-1ZuWGmG0MJnWrZCp7mCV60M4005eIm6DYmi848
+
+sprite $LocalGasStationSm [12x12/16z] ZSR50G0X00Emuaxtd_RSbRo2Lvu3bEbP0rNAifycZA-bKDQQntDG5RPBDjnJuAW7
+
+sprite $LocalGasStationMd [16x16/16z] bSV50SK0508mljRWiV-qTVVc5bpxK58ntI9f9Xh-1H12fkKTclyjk7jB2Czl0lF7hrXSRpuxBBL_Tu0tjYe
+
+sprite $LocalGasStationLg [20x20/16z] hSZ50GH130Cm3sFY_hizncNGKpZ6yA4WuoKmnoibX9_pkBeUH0RdIVwV54F_lEYkhjSqCZpl2QRh_sa2_g_G3GuIpxtAJ0jSUNqGe4h4UXS
+
+!procedure LocalGasStation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/LocalGasStation', $name, $tech, $desc)
+!endprocedure

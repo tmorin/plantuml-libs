@@ -1,0 +1,16 @@
+' definition of the Item material-4/Av/ShuffleOn
+
+sprite $ShuffleOnXs [10x10/16z] Oq00VXXW048G1QOPu2n-DWY77qx0rAAeOuRhXG4
+
+sprite $ShuffleOnSm [12x12/16z] JSg55G0X30FGdFkn_xHGRz6Vlg2kbelyyxyi7_a7XnClMSA5JzoOrcz2iN3znJBzSN3_bi81jgxtrRx70G
+
+sprite $ShuffleOnMd [16x16/16z] NSr16i0G34JX0G3c_gTjAxB8rxVo1-3Vf2s0jAtFfSco045SSGTEhGEFB9R1_hZPrTnq7x_K7qbZ3xAfXPiDZUawoDq65yH2y_-yJ24aiMqYBjF42m
+
+sprite $ShuffleOnLg [20x20/16z] {
+RSx50SH040F1DhELVxHUrg6UDSY_3DVzcGDkVMTErlZQOwGbsirKSG2AQMnuOJD2PojumQ71fd5ENQTYRBNhopBPtFNLbud9bhlESlsacdUD_lds-jEcePAm
+VINQ-MC3pCjdHW8
+}
+
+!procedure ShuffleOn($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/ShuffleOn', $name, $tech, $desc)
+!endprocedure

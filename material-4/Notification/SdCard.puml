@@ -1,0 +1,13 @@
+' definition of the Item material-4/Notification/SdCard
+
+sprite $SdCardXs [10x10/16z] Oq01_4303cBmyV01UI06Fup53mQai5XvG8210G
+
+sprite $SdCardSm [12x12/16z] dSR50G0X40F0d6is_LTxWiEJUGrQDydBbujDwpsvQZHCxfT4tTJ_MrxFh-8OFU05
+
+sprite $SdCardMd [16x16/16z] nSUr0G0X00ImUyLX_sbnXvvqmTuTNBNQH3HN6MWeI5bQdsiU_QWdtrHdBkjVB1m
+
+sprite $SdCardLg [20x20/16z] rSYr0O1000F0u9xiFotky5R-bOT0sbKu3MpLjMofiwWUJD2YFs_GvwZF5Rg9-BAVGz6VEXXC
+
+!procedure SdCard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Notification/SdCard', $name, $tech, $desc)
+!endprocedure

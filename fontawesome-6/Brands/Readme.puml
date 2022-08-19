@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Brands/Readme
+
+sprite $ReadmeXs [11x10/16z] Oq02_40094a6pCpC488D8GOna9C15G
+
+sprite $ReadmeSm [13x12/16z] Oq017400f1Y153i_680eJ01I2oMX0ByoHdu-575cPcPE8CtB0MH0R6Pdm0G
+
+sprite $ReadmeMd [17x16/16z] XSt50O0m5C3Gu4xsdnPtVPVsExzY9oruLlgk2WULXgDfl1wqMe-cQGQ5Cl99mI2xTRpV9nhay_Pa-0OiB3aBUDC3
+
+sprite $ReadmeLg [22x20/16z] dSY35KGn04JHYPtNVxThu-CU3BG5LqPIvg9qRhm6NmJsCZf9WCuAl-aitblcj-1EAk3E6YVUdPJxM_aXyesiEmfbSDAoEz4357s1lZ5QS
+
+!procedure Readme($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Readme', $name, $tech, $desc)
+!endprocedure

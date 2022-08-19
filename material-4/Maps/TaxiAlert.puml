@@ -1,0 +1,19 @@
+' definition of the Item material-4/Maps/TaxiAlert
+
+sprite $TaxiAlertXs [10x10/16z] LSYr0SH000GnFQCz_LThZ4x9Wb4LVAQhfwWSRI8k4gAjdv3Ad-63M04
+
+sprite $TaxiAlertSm [12x12/16z] NSh5WG81002n0Eis_LTxhkGTdgtL0zXEXsvGv1OTHqIcEt4QBc78_H5zGyxg8NJqxihJkOCzNW4
+
+sprite $TaxiAlertMd [16x16/16z] {
+TSW50WCn20NHIM0Tykz_svQwJlJ1dzgGiZquATrJVfMP5Z9OTRKaocY1HUUoV9i1Xw1t63jj05sD29eQ-mgGijPC0Nhf09JJ5PwYR6Hnu5ShYlLS_UpcVklg
+EBXrrEy4
+}
+
+sprite $TaxiAlertLg [20x20/16z] {
+VOw50GGX30HnX-s_sqyuz6rEcQZuZokrXCj8F9Z30LPOfHlq435MAFAE7gma5F6uq1CB63-SvfU2jTQ19pOxNCrStMkrv5fktATdc5uhUOR564D2KIKa9xGE
+Y3PsRhWWmsvvchTTdQvCLuT2g-n_zaDRB9V4n0vdl1GBR_dz0W
+}
+
+!procedure TaxiAlert($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/TaxiAlert', $name, $tech, $desc)
+!endprocedure

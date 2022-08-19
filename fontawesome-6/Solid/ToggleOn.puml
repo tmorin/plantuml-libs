@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/ToggleOn
+
+sprite $ToggleOnXs [11x10/16z] Oy01-A40nk86OdQe20CVN9A1XPy9nWGI_720R082
+
+sprite $ToggleOnSm [13x12/16z] Oy03MFcX0CZcveS39WQuC1y_FnTS2KGOmM53vi0acPb1GamW9eP67ZJx0G
+
+sprite $ToggleOnMd [17x16/16z] ZOtL0S0W30Mnkks_RUFonw7ta9GfndKJPoNjNm2y1QN4jcTTONwg-be0M6-_2v35O8ENAS1LWmUyXq2_sxHkk5SUzwrCy0C
+
+sprite $ToggleOnLg [22x20/16z] {
+hSq34WGn50JG7iMu_sstAqPXzGR15_v2ne4xaSI5gPVRjOq3wz9oZgaAfBdnuoGaWJj-rOr4SBkbukRMZcqJm-sv9QVTS1iE86KPDj-bFgi39FVCH3XVcHCV
+UW4
+}
+
+!procedure ToggleOn($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ToggleOn', $name, $tech, $desc)
+!endprocedure

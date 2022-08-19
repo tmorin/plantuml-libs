@@ -1,0 +1,13 @@
+' definition of the Item material-4/Av/PlayDisabled
+
+sprite $PlayDisabledXs [10x10/16z] Oy0AUE0iDXv69YYJbOUH7yhaXpFv-NbWOWoioDgGJ0C
+
+sprite $PlayDisabledSm [12x12/16z] TKg30S103BmQqVxJbc-49tHhIp0HvfHe848mdsHZ67jiXA0Vx0czwuaNahe1
+
+sprite $PlayDisabledMd [16x16/16z] bKt50S1024FgsFxJrjqlBuX2CbXEH0ZKkFkn9wGwEIHs5kw99cJtX_OEtVszIZjz97Q_8-ppvRno04O9d-W
+
+sprite $PlayDisabledLg [20x20/16z] fSw53GDH30FGt6Vs_jEMAL2s-2bW-Y-ROHZQ4phved3GjfmnYSOn7YU1m12dIOoDsNboC3jDHk9s7kAs2hgmGXJvv7JNdYe9mq1FdsSF
+
+!procedure PlayDisabled($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/PlayDisabled', $name, $tech, $desc)
+!endprocedure

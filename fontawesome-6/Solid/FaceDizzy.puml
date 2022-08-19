@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/FaceDizzy
+
+sprite $FaceDizzyXs [10x10/16z] HS750G91002nmLPUwRzQ72wfsaOlm2vVjroSDDZ4YCF0EGWLsXYeRg0U
+
+sprite $FaceDizzySm [12x12/16z] LSY35KLH00EmFkCY-q_xpHmKkIlsF7dwLYHwinkjMaZeMIWatJh7dnscD0WayUqZjeIddYIDvti5
+
+sprite $FaceDizzyMd [16x16/16z] PO-5eKD12C3oN27xJ_kb9xMSui239Rm66c5XAwATh6BdXd0BTzt3DHtGO46J6NLHLr9T23Lq9z6D9FtYAiy-LjjGn5wtFBtBP5MDPczwRrLNWFBj8Wmlq_m2
+
+sprite $FaceDizzyLg [20x20/16z] {
+RT253SKm34NH5omvlljF-z6gIYVCeB0urdNG22CfSB3Sks2zTq6J6kI1Px0EtK02Yb02L-i2PW5KPG2N3601Y5rxtCe15QfWbRaMdXd15YVqABCaGbGul6Xe
+tFgo4Zz9EWp7wLi_xh9ob0zV6hIRuyIihpS
+}
+
+!procedure FaceDizzy($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FaceDizzy', $name, $tech, $desc)
+!endprocedure

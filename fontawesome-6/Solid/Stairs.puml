@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Stairs
+
+sprite $StairsXs [11x10/16z] Oy04_FpyC2QSmSR6Zv25CpaGOXouTR0XT
+
+sprite $StairsSm [13x12/16z] ROor0O1040HnPwR_Rabu_qjkVUYUQY8yJo9xG6WY2Ydp1lHg8fhl4D2kfYum1Vm1
+
+sprite $StairsMd [17x16/16z] VSl50O1G30FG4Xn2kl-qo8clVSU8HIY9QU2VB3Y18GiE--qaiy0_MnPO9WycILdWdpm0qFqRoIouid_B0m
+
+sprite $StairsLg [22x20/16z] ZS-33K1H343HRsF_QSkeIdhZyzYXqpXpazDVQ-hY9DUD2lfhI--XmqckCnNq_QcWd-hezHvYKTTjsrJ3GrwtC6ST0W
+
+!procedure Stairs($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Stairs', $name, $tech, $desc)
+!endprocedure

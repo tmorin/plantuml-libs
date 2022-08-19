@@ -1,0 +1,19 @@
+' definition of the Item material-4/Action/AlarmOn
+
+sprite $AlarmOnXs [10x10/16z] LSct0O000C0WxDty_wsph0202G-Mnaeu7WI1iECHBZtqMutMWFaUy04
+
+sprite $AlarmOnSm [12x12/16z] LSN50GD10CF0ELvs_zM6VZ58_bF03dCf_PA7izMKi-LOk082WUs-1c8Z1D6Udv5TGwtO0qVuQOq4ODl16m
+
+sprite $AlarmOnMd [16x16/16z] {
+ROu5aWCm30CTvkp_NtlNoWCb1NTCiXyAxrWeUWyAT7hSmB13V31bS6hkaDRsXApywVb6DTSvpxlYH8ZwhUEOp8ZEymh5ofz2ppUAMLI_A-ualKFf6hnBQbSs
+f7Y0QR_q3m
+}
+
+sprite $AlarmOnLg [20x20/16z] {
+bO-54KGn44A9U-Y_svlySEvlR7q1_p2TWf4LE3B2E6-1mOP589sTN5HKpbLhqnIo1fywwH8j5eNZSWMAs24ivmuwZKe1cUw8g4t31iEoQndNdkummTEkgMjj
+9PMw8D630EgE8uECvAjpAXXC-ZmOhjrXZqLjoDt1zBZ5rvuDtdC2
+}
+
+!procedure AlarmOn($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/AlarmOn', $name, $tech, $desc)
+!endprocedure

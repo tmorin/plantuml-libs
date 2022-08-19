@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Brands/Nimblr
+
+sprite $NimblrXs [7x10/16z] Oy01c9c012i_4oi_0mCGWGXE5aPE8CK5va45WOYJbvy1
+
+sprite $NimblrSm [9x12/16z] ZSf50O0050MmuVvV_xHe0NQUFsPxig0oSeGqi9POcKJip290RCKtzrGok
+
+sprite $NimblrMd [12x16/16z] ZSZ50SH030GmXM5X-g_s6BwHsQwO_HL_OJZhuRttF3KaWI6TXFSnokojHyWkSKGOFPKyds-fjdXwpvuDBIiSUHgu0m
+
+sprite $NimblrLg [15x20/16z] VSo50S0W0CJ0h-6G_QUjkwLwcFwhhkokZ5Vomifq1nrppKnRmAWA42TEcClOYKvhC3zRBTrCaaIHYDFlmIJG7a7beALHGpoVhBAwWbQpoTO3LdEMgLH96W
+
+!procedure Nimblr($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Nimblr', $name, $tech, $desc)
+!endprocedure

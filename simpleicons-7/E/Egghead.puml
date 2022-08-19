@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-7/E/Egghead
+
+sprite $EggheadXs [10x10/16z] 9Ogr0G0W0CEAE_d_MZHBLHVqQHFtdOTNHkgaD8oL9G16aa74-voTIqPwvgtbMtrRZza
+
+sprite $EggheadSm [12x12/16z] DOl50S0W00CFTxB_jYrshoWBBnwpoEOZSvDaZtPQTA1nCSE0XB8AFtrfzgNWzzmmmUYGrld8sTVVRXrOc1Ig7S07
+
+sprite $EggheadMd [16x16/16z] {
+HSV50G1148H0rdqw_sZFfLx0hId2RuIEyUbBKbmyPjR91Mv1bpKvf5LnhkVk77qwO0mP2SbN6WT926b0nIj8rGkJHZGMXocfN06sz78L65Klpy45FMnmMaKt
+LxYiSE_WCHjuInns
+}
+
+sprite $EggheadLg [20x20/16z] {
+LSg50GGn30D1MJu8R__LFkC4Z7eRdFfNY-rb_UXUG0vzvJcusz37sdXIqSkUlBIXXmFsLXPGIqz6I2CKaQaRFuAxBNd1RWISzorbX82Q29Yofge8MAhe018D
+pSTcD20bozgrhnXybO9kaXzrwgxn8xhkflbOQTr57Rm5Ucfxvyb3RwqAe8dGHyoMUSogXoi
+}
+
+!procedure Egghead($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/E/Egghead', $name, $tech, $desc)
+!endprocedure

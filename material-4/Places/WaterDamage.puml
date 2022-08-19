@@ -1,0 +1,13 @@
+' definition of the Item material-4/Places/WaterDamage
+
+sprite $WaterDamageXs [10x10/16z] TSR50O0m0C30u4xsdnPtsdiT4Qq9cq4j0DoqaBQAfa3ZYB9DtxlD
+
+sprite $WaterDamageSm [12x12/16z] VSd50O0m04FHuCxVVrgSUljE4PKqcDW1rHj7RlKTLs06MgcgOTT_GACDz6PMRERFpKkU4m
+
+sprite $WaterDamageMd [16x16/16z] ZOe30W0n30I3i-R_hprRxHJ9GYB9hnAgarA0PfV6JBjAPwMRPSh4OixjoKXbacPRV_itxL9VDF2fhTcGC0C
+
+sprite $WaterDamageLg [20x20/16z] hOu30aKX50MpQ_Q_scyyU-Br4LVWKKDN0kJO1QRhghonOnVuZqVI8RrSYXVb4yeldqe0IhoVZw88j4-FbsF1HxHrv0Ds-Kvo1m
+
+!procedure WaterDamage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/WaterDamage', $name, $tech, $desc)
+!endprocedure

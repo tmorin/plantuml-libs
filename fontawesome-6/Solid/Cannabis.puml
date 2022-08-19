@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Cannabis
+
+sprite $CannabisXs [11x10/16z] NSR50O100C2muaxtdnRdBAzGS8kLcr0f8Egew0H-2Et105flUyNDkH8u0G
+
+sprite $CannabisSm [13x12/16z] JOq30i0m4C0oU_d_QuSwxLa4EXgygIY5NMFZRzM5oPD5R_LG0Gl0qlXS9dROBGm0Wsevmps4Eoy
+
+sprite $CannabisMd [17x16/16z] NSx50GGn3C10BNFKVxM7uVcPJRJICT1Ob8QwzWdvUy9K4eS3YpgEgkngB3v60RYi375X4j8F2H-ZjGScjPyPLd_cWMZqyLHg7loz0G
+
+sprite $CannabisLg [22x20/16z] {
+RSg5SSKm00JHDREs_supby-otk017nSDfmDtsZZlQkkgIxCjH0pE09r1d4Alxh0Oq1SLCCRL89qRi5aZh9p4qhhMvncYs_qsaiuxuBAs4-FfMzawtYur1huf
+kztaIMMJjpy
+}
+
+!procedure Cannabis($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Cannabis', $name, $tech, $desc)
+!endprocedure

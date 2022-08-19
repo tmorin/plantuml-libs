@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/GooglePay
+
+sprite $GooglePayXs [12x10/16z] ZSa50O0040F0mvtrJuiMU9kgJ7AI3JxWoBbRsV-wMoM172Q5kG4
+
+sprite $GooglePaySm [15x12/16z] bSUr0GGn00InCREt_sgV6GwKYNrQUPrS1WATi-5f3Jn3ms9h0vsBP9gGT6qe9WE6XyuRmx8Z
+
+sprite $GooglePayMd [20x16/16z] hSgr0G9H5031FVt-jlzgSIU4YOU_MtlXWtOpO6hxVSbLWEpJ39F1f89xsnjzAbW5kX20EWKPW-GC0NJQD0k4Ra03obWc1byslityv0W
+
+sprite $GooglePayLg [25x20/16z] {
+nSctOGCm40GmF9KbFc__QPtPEBGMMdYkkiyRFrto3Zh9O4ieq5HiZzWQkIItyvMLS4zoeEVCA9Omxu53YeP7adgC7f9I2HeMgtGuvLtjo5mfymJN-mbRGVnk
+tFuA_-CL
+}
+
+!procedure GooglePay($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/GooglePay', $name, $tech, $desc)
+!endprocedure

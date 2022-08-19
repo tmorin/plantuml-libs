@@ -1,0 +1,16 @@
+' definition of the Item material-4/File/CloudOff
+
+sprite $CloudOffXs [10x10/16z] ROe54e003CE2Ms_v_sjnJibyBRy4bOinW5TL0lt0r3xVpleC0m8CGV0cV0mS
+
+sprite $CloudOffSm [12x12/16z] TSc50S0W40F0r2NfP_zjwmu7xyZgbiy66n93BUzxSybDBCainRKEwBHKBQaSx0gBxH9ru1oCoLgPMBP5jI7nD0C
+
+sprite $CloudOffMd [16x16/16z] bOj50iH008CoxiF_NxjQxwaS4z1ZN9CQ4DU1fXfzOUYFfVttgYyJ_eFdjtwr__3T4t-tVyF0_DsROUZeE608Xo6WnEn_QAfPigNlmnbqumq
+
+sprite $CloudOffLg [20x20/16z] {
+fOq5ieKm40GddjGkwVkVzYiEfQyXFgBF27zJpl5qXqlEBrLQgPYIbTmdThfq_M7qDSw0LJ3HBncc-whCbBy6ufhv2p3KYEVCc1R6vDI-PaxkxOL6qbNPMJjM
+XKk1gGIBhu0faIKP9rmFAaCFYjxv1W
+}
+
+!procedure CloudOff($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/File/CloudOff', $name, $tech, $desc)
+!endprocedure

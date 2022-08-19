@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/DiceD20
+
+sprite $DiceD20Xs [10x10/16z] 9SQ55GC134EnNwQyQlzf3nMmsqqd5wa8B__w3RhUqcjcsbDusvj4uMxNjTEZ8ce5
+
+sprite $DiceD20Sm [12x12/16z] BSgr0GGn0C0mXpdUVzh7Kor-De-ngnW151M5ODzgK13Q5r4CgCwqvDRd8sYvvkiJ47KH-tQXgqVAtJMIrn4WA0gy0G
+
+sprite $DiceD20Md [16x16/16z] {
+HSu54GCm0C30bBdnxtOtVWNFnuO_sT8ERzE5YaOWg5mr9pt0iaUVq0ONqASMIAA1hwLuACadDeeegYDOYxIg0nKLGPLZgghWqq5yQiGqzZMml6kaG1qvmbD8
+PG4qLVG_oOgNfmS
+}
+
+sprite $DiceD20Lg [20x20/16z] {
+LSw5WSKW50NHUH13f_zgL_YQa-1sUUlSbS4mO-9D8rIgdOUg7TK3DGEXokcxcK3I2vU23c12e_j0IkIA5lY8OKKxdFq1SCrnbCzz52kUQzf_N8gLoT3noRVb
+IgneWKfJvNXaTjBCFBemNJR4XuEKZzgdmgQZbJq5aRY97OYcpdxGXkhEG_MHNZCVknLxiFm2
+}
+
+!procedure DiceD20($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/DiceD20', $name, $tech, $desc)
+!endprocedure

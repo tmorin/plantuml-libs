@@ -1,0 +1,16 @@
+' definition of the Item material-4/Action/AdminPanelSettings
+
+sprite $AdminPanelSettingsXs [10x10/16z] Oy0A6Fdv-Nd1B7umm6H1r84O_4mW3ZUG1HNc0RA0404
+
+sprite $AdminPanelSettingsSm [12x12/16z] Oy03UFZv6I4iFdumO0An-I601IiRgXFCvEG3Qs05iVdPUS5oF20s0oEG3PPXP0BoKG
+
+sprite $AdminPanelSettingsMd [16x16/16z] ZOm30iH04C3Mnlz_UxdQRPOPYK-ek3NReQZ9V9zeOwJs6VFiJG-UHqFcwQDIDmuS7ALoy81MedakACmIJ9TTZYCYzQg74iMC-Xyfplm
+
+sprite $AdminPanelSettingsLg [20x20/16z] {
+fS-r0GHH20JG-Qum_LUxxid9lX07hvbC5dEBD2xaZ7OUn6B52_zlJ4jwpaiu7I7Rj9arrZXJMAebrw3ZhA2peh5U2XEKCxbyKj3KmB3Y3Cxp8XBFdrrjW6rI
+3Rut0W
+}
+
+!procedure AdminPanelSettings($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/AdminPanelSettings', $name, $tech, $desc)
+!endprocedure

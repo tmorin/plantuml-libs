@@ -1,0 +1,16 @@
+' definition of the Item material-4/Social/Deck
+
+sprite $DeckXs [10x10/16z] Oq05_52QXPyVmkG70nvaMJOeYv614yBY0gi3ii1ws40iDX2BbOU11qG
+
+sprite $DeckSm [12x12/16z] POg50O0m30HnXzj_sYZUw5jLr7YZ1ZZXWbVlaBFsq-8CzoTU3E-1pzqs-ziMkCKmNU2p7JTtAm
+
+sprite $DeckMd [16x16/16z] ZSq54iKW30HG9lArOUz_syw6kY_wqF8iWVT21W1ruWyjdX9CwTACGJ9SO0JJxUzivoVGoV-WFvChzmE0279KEhGv349tXUPuw7Lw
+
+sprite $DeckLg [20x20/16z] {
+bSq50WGG54LHtTpzhtO2VpgVFahzcuX-4Ds1U4UEcNv31OdVOhX9cnJxE0V6JBlvAY6BDnRodUNpCBWrXpblt5cPAqlqtatptkzR06FQd2rBLYmviQ34vkoT
+DQzQLQ7fFNkP8m
+}
+
+!procedure Deck($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/Deck', $name, $tech, $desc)
+!endprocedure

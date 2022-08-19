@@ -1,0 +1,16 @@
+' definition of the Item material-4/Maps/LocalCarWash
+
+sprite $LocalCarWashXs [10x10/16z] Oq06_6080gmCR40818py802H104k8EQ1A0PXVfWq9uYD9iOFLGS
+
+sprite $LocalCarWashSm [12x12/16z] NSg54O1030NHZplRVxVCPfIyasZ-hYdadgDt2tuTjp1Tn-YiTifWWLJz1vXJ-OrU-iuONUG3
+
+sprite $LocalCarWashMd [16x16/16z] RSpL0GCm24NH6_Um_xILGBtd2ttyKJ88R6Uz25ESbsvzhVW9m_EN4xEqRmLbWUAihmt0xzSZG9SN3on9wpIjQh-8fmVjPSgnj_NV_zchUVgqEBIw0W
+
+sprite $LocalCarWashLg [20x20/16z] {
+VSxL0GGn24NHEsw4rt-rQmdC-ld3uPTnXVu02idLOHhPj12a4TU2QIVq4tGpCFDFftJGc4r17PL6WhKZaqYpOfJKQMZV-Qbzg1TUSmTzZGjTvBReDOYSJ8rv
+v5v4pjEP6mYcKdzVIFqom1K
+}
+
+!procedure LocalCarWash($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/LocalCarWash', $name, $tech, $desc)
+!endprocedure

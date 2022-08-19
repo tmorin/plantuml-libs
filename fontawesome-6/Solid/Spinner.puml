@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Spinner
+
+sprite $SpinnerXs [10x10/16z] Om01VWOeu8Io-5bW8d069vJcueUgOONIK1rmaf-9WPK1geWBJ04
+
+sprite $SpinnerSm [12x12/16z] NOk50O1058MmM_QVrlQAt_5ua80EVmCheSyfPFskoU_0JqU6ngBqWZiFky_l2G
+
+sprite $SpinnerMd [16x16/16z] ZSx50SCm5C1GjM7K_jE6cT_9_imea1sLcIbejK_zcQNATu7kFkewgb2iM5bpbiuDSK2dqkchyn22ObtrNuvUEKzk0G
+
+sprite $SpinnerLg [20x20/16z] ZSx50S0m3C10bRdQVzeo-fKBeysjCIEeL8BkltUkPhl_NacWGbIIeEhuoNjQdVdo57FFzFzuTY9TytcjzsZs1ftlIGvKvrHsdJtavutPd4Ul4ldcjG8
+
+!procedure Spinner($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Spinner', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item material-4/Places/BusinessCenter
+
+sprite $BusinessCenterXs [10x10/16z] Oy01-DZuGHGhFnW0sVnGm0DYyJ812Mw4QhWq4Wi1
+
+sprite $BusinessCenterSm [12x12/16z] VSQ50S0W30NHN_VU_jFMYyD1agT25V1xhRKrDqR-ActyrLg1jjuUgwxlzMm1smfm-oxmAhSJ
+
+sprite $BusinessCenterMd [16x16/16z] ZSV50KCX042nXpliFstxtIsty8d89M_RSivblMeWsvIsaK2shRjBgQOJImT4wUZ3PVVILbSFcmiwSj7rw0y
+
+sprite $BusinessCenterLg [20x20/16z] fOk30G0n34LhHVjFUxRnodoe_nXfA6jDE8GWQQrXSyr1BokeYsme1nfUQcICaGvejBHsMQiJ-gxtliyDsi0h3Jij4i-GKO-f0G
+
+!procedure BusinessCenter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/BusinessCenter', $name, $tech, $desc)
+!endprocedure

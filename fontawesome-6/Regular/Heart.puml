@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Regular/Heart
+
+sprite $HeartXs [10x10/16z] 1S450S10000Xvhxht_O106hn554tFHDsz07y0cGE124W0GG3
+
+sprite $HeartSm [12x12/16z] LOg30G0n54DJks__QS_yZFGhCyfsMzyEn4wY5RBOhVs8cPymRRnOtD0XpmdZ_YrckndjPR1gJvI1dXh7NG4
+
+sprite $HeartMd [16x16/16z] XOp50SKm5CDKXe3sd_Op-5O7zD1Sggakr2TMU7wlP7jYnH7WT7YYskIbLmegANSpdSKMkJBPCeN9dYcCRmul_ABHdZvJfc2cgJi
+
+sprite $HeartLg [20x20/16z] {
+ZS-5bKKX303HUMx0zD_jvco--yMTyBlLC027eIEOZavjwWRLSbxPipEX_6lH9tHws95cae47XrKUn2KUt5EqVpYwC-Z8LL6WrvcpQju_w7Avlq7IBLihPrt6
+fOMB7FhuBSF60rtvu0y
+}
+
+!procedure Heart($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/Heart', $name, $tech, $desc)
+!endprocedure

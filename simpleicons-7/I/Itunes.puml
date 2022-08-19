@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/I/Itunes
+
+sprite $ItunesXs [10x10/16z] DKk30G0n4CkRRVQVzcm4i7XumeCnxpn8OW_KBrnsxS4CkpQ_WbwDRpCF76xls6ie
+
+sprite $ItunesSm [12x12/16z] JOo50G0X30C3xvhzjqMgLrSC7fuGtkd_uTRXoZDQeykEpNcNxkkDu4lvBg5IuiDnFTh_YBRovCjtFDmEe04
+
+sprite $ItunesMd [16x16/16z] NSUr0GD1300mFH_Ptd_QK1br0iwekG5ODvWti0041BXc5Oi5KL_icuVVimta0G9kF1Cax11_xo1XOWEAhCAmgFez4Uxl6-11071Si3R0yojRNkW1Rm
+
+sprite $ItunesLg [20x20/16z] {
+POs54SD030HFP7Zilzj4JwOrtCoAC3XBJHjkM5OFEZDDLGMJUFJCov30pjQ5nbwTVogWuePg1q3nz-LmmBhBHdDFtljrLc2waF1nbeUJoqdykaEvEuznDoAu
+YPM0E5n2MWrMgtamA7QtABxIS2V3EVUxufvQfj7RZYEVmXPJR_e1
+}
+
+!procedure Itunes($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/I/Itunes', $name, $tech, $desc)
+!endprocedure

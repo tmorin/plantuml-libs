@@ -1,0 +1,16 @@
+' definition of the Item material-4/Av/VolumeOff
+
+sprite $VolumeOffXs [10x10/16z] RSO52W0W44N1RrFoxdzRsI8TQlI5r27RDQu5XB1PQnsRlLjSurZB0m
+
+sprite $VolumeOffSm [12x12/16z] TSV50GH148LGgjr__j6kwyWx0QS4sApScQYElk1Ea9aHq0qrcW3TaNct4qxS5Jc4yHpd9Dw6e_Fh2W
+
+sprite $VolumeOffMd [16x16/16z] XOt50S0m3CJiAwFsdxOKVlM2Ki3sdpuidf17k8izYk4HoCHPn7URzQNrEA0pxOz_-I5UWRyzyNl3KERn4U5SNNU2thAfW9tegv9pocPguM8OS6kIiUG6
+
+sprite $VolumeOffLg [20x20/16z] {
+fSq5ZaCn54FH6tz6xt-t8q_fgOAImoV4RpbcBZd7koqEBi9sgzWic7nISH3G-RY8f2tNsM2rI9m4lQ2CiHls9tYl5WGVrIvlUgkc_DvvuXh52FQDWe8W51Jz
+uITisDCIh9aQB8stymS
+}
+
+!procedure VolumeOff($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/VolumeOff', $name, $tech, $desc)
+!endprocedure

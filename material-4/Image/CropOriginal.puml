@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/CropOriginal
+
+sprite $CropOriginalXs [10x10/16z] Oy0AkDX0W1_8OWFpSRFukFWXB11W1R7u8G39D
+
+sprite $CropOriginalSm [12x12/16z] Oy09-640n8QA4MGpmjYCJCpyK3R494prKC23OYi
+
+sprite $CropOriginalMd [16x16/16z] Oo0Ck7bXW0F4vU7dWG5-9Y2VbmUkaX8-8pAV7SXcGV3P-Ddu-VaHV8ZjNDZDu-H704QGA1CSC69w3W
+
+sprite $CropOriginalLg [20x20/16z] lSt50S0m30D0js7K_jEMcJ7tD4ZqJi2KR6QmSeJGpYID49FFl9lFV2GBYEbC0nwLR3AJ7N7OCUERcGfn57Awh0G
+
+!procedure CropOriginal($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/CropOriginal', $name, $tech, $desc)
+!endprocedure

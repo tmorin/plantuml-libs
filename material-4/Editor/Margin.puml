@@ -1,0 +1,13 @@
+' definition of the Item material-4/Editor/Margin
+
+sprite $MarginXs [10x10/16z] Oy0AkDX0W1_80XBy310MM0QN68B53m58fW4
+
+sprite $MarginSm [12x12/16z] Oy09-640n8Q9WJ0C4XR7puO155i1
+
+sprite $MarginMd [16x16/16z] dOhL0S1024CXVzNiFsszv_vE829Lvis2IszSV_ZerLH_JO3lV3Nake2lLRFzdp5DowtX814d
+
+sprite $MarginLg [20x20/16z] fP230G0n34L_xMJ_QSysNjqu-0UleFulsfdnps9c-cjldiLm6_uemv406LpRUWVj0Qzk_0a1z7Flx-_VQGzeHSPZQW
+
+!procedure Margin($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/Margin', $name, $tech, $desc)
+!endprocedure

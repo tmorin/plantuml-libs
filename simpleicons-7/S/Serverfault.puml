@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-7/S/Serverfault
+
+sprite $ServerfaultXs [10x10/16z] Oy02-440JC9OF3puP7bviSaYn
+
+sprite $ServerfaultSm [12x12/16z] Oy01-C600OBWW94HKnnJFJCOC00H0mCV600fe3WN63004ISKC00HDpUoEG
+
+sprite $ServerfaultMd [16x16/16z] Oo0Hy4C10mmZ0qP6HXHvFZu-7YXW06AG63CKC00n8VEmoRD00GC8ixAoSa410mXpSd9Yc4S
+
+sprite $ServerfaultLg [20x20/16z] fSt50S0W30NGdrxgxVxRukxm8Bd4iE2n8DFD_HPSYX0NzprSnwnqMP3fu7ApP46cZOlxNcxsxidrtaKd1W
+
+!procedure Serverfault($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/S/Serverfault', $name, $tech, $desc)
+!endprocedure

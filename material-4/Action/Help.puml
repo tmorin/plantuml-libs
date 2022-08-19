@@ -1,0 +1,16 @@
+' definition of the Item material-4/Action/Help
+
+sprite $HelpXs [10x10/16z] LSR50O100C2muaxtdnOzpIjKzE2rwQGje8Y2BxGdn8qph0LrL87E5vzXRu4R
+
+sprite $HelpSm [12x12/16z] NOg50O1030E3ExV_jCXxlJ7vMeyveGk09K6fWqaIZ1jHMKD2GASpm1teDMUPa0yLy5hYKaW56Ahhmti1
+
+sprite $HelpMd [16x16/16z] RKk50SH024jTplQV5kUrEO4OdZ5DdwmEnH5ibhshr9pBjije8QY3CjP9vkBs4A_26zDmOBKVizEOwNUCuB4q-s_XXstL_Wc2hZQKdZ1OrgbZqKYPy006
+
+sprite $HelpLg [20x20/16z] {
+bOw54GCn30JrPdR_tKQG2-CExPoG_gDiPdgwalUPvH3rpRGyD-EkNLCaRkOWGSnpSz21Vbdl0Y-Z9AfjODgjS9EjmxJUPB1-pIeraypPWhBWmx3luGYDBQ5V
+yBUpamWXc0IElZ5uIsoZE7hF2G
+}
+
+!procedure Help($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Help', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item material-4/Communication/MarkEmailRead
+
+sprite $MarkEmailReadXs [10x10/16z] ROkr0S0m4CGKvcZ_QStkhER_Y14sLgm_BpejSfW_nNj-MjON5nm_fpfl_ZGsY
+
+sprite $MarkEmailReadSm [12x12/16z] TOc50KGX34E3Ezb_smjdtn-qZU2H_gK1e_33iDAOKjhIfB549ALN3KuVFdfbugEdH9heIxjQ4kMT04WSU04
+
+sprite $MarkEmailReadMd [16x16/16z] bSg52S100CNGrFt-_jEUAzwW3yBlrFN0hAVoKZ1BqiiQhOtJS-5MiWnSwKgM3Zwzw_94fqZDFO_gXybJ6rFoCci9XEiDpTpoxBiJnnm
+
+sprite $MarkEmailReadLg [20x20/16z] {
+fSe52aH1089Xftky_sqNULtKVfJyYF_uSEQKUEFL-kIXigjL96uibiO4qnMMiJHE0qSE895Bam9ukC6ZYKSbgxUfgUqgDfTqRu1acgCLIEB4qHmua3YMyy8Y
+a9ouYNhT1Npv0G
+}
+
+!procedure MarkEmailRead($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/MarkEmailRead', $name, $tech, $desc)
+!endprocedure

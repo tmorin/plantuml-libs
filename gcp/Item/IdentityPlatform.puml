@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/IdentityPlatform
+
+sprite $IdentityPlatformXs [10x10/16z] LKk30G102CpT_Wk_ZJhIVx1s124dS10mK1pa3GnqIXmnf643mzY12W
+
+sprite $IdentityPlatformSm [12x12/16z] PSQ72S0030D12s7vzvyufBUZNVtacZDecv9AmVgrpC1sD-PuN1otLhDUJW3r-codDigwjmK
+
+sprite $IdentityPlatformMd [16x16/16z] ZSYt0S105C9GVe1Z_uMTSsLrJ_YNF1wYEeVxK4b8WNQiJ2sM3Tk76MyBTEN30kZR9CVIOIAt0iQMbhp4dNtQYUiSEkjJtsO
+
+sprite $IdentityPlatformLg [20x20/16z] bS_L0KCn34DHcVIq_yBb1eltymIDVqlv8aPA1yP80ZbgaecWGrAqJKHHkkvKTYEbiiNsVOau79gC1RWM8wN9qAg75V3SHqIsmThPTc2mVDXuTgpOzWmHdpe3
+
+!procedure IdentityPlatform($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/IdentityPlatform', $name, $tech, $desc)
+!endprocedure
+
+!procedure IdentityPlatformCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$IdentityPlatformLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure IdentityPlatformGroup($id, $name='Identity Platform', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$IdentityPlatformLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item material-4/Av/RepeatOne
+
+sprite $RepeatOneXs [10x10/16z] Oq07d222bHC8UFbXN4vkC8kHdu45gWee1MTnWYcm3eW0EW
+
+sprite $RepeatOneSm [12x12/16z] Oo04-24a1F0XHFYWiZpyA8gXW17CvWSpeIOW6GCNmGG
+
+sprite $RepeatOneMd [16x16/16z] ZOq30i1040EdTlF_rzOypt6La4xHt9-JMiqPwY4xOpZVd3lEnkqzG_899l77YbyT9hRWZITT_cTSw-QCQKsj5Zyh
+
+sprite $RepeatOneLg [20x20/16z] dSy53i0024FHCbTw_zFEE_SVQnunyAlyp5mhpbLDwifLcGpGAh4swrUEbPcpmmWgIZjBUzjbLvOvL2pBAKgqUXDn_aFcN9APrZfp_Ae5
+
+!procedure RepeatOne($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/RepeatOne', $name, $tech, $desc)
+!endprocedure

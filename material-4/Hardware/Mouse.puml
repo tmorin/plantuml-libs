@@ -1,0 +1,13 @@
+' definition of the Item material-4/Hardware/Mouse
+
+sprite $MouseXs [10x10/16z] Oq06tFmC_CmW1Zi_aCKFP019VZ161lmGW8N52sGnGOMWJ205
+
+sprite $MouseSm [12x12/16z] POo30G0n40JVYAR_QcCxjzocfTXuqWX-vW_ZcMR2BFDyBCcqpcaMOSZ-FSzRAO8hfKymk_yT
+
+sprite $MouseMd [16x16/16z] XSg54SCm44HHYrdRVxM1et3yXM_cZg_DTQ2O8d0p87GGR_PG8v1XRcH_Zs-svSYmved7cokvcXtP1leXRQ7b-weyV0K
+
+sprite $MouseLg [20x20/16z] bS-54S0W00D0t27xJrlFrIqLu75n7nMjI7v76V2Y0NgbWiLWIHwWWOQDXPdqnZZGj35EbB6e3sSBsynciSq_CnScjyIpj8qP7cOxZ76a9cVOZCo7opXlMEy1
+
+!procedure Mouse($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Hardware/Mouse', $name, $tech, $desc)
+!endprocedure

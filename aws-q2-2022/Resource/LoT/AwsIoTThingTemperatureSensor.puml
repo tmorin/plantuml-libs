@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2022/Resource/LoT/AwsIoTThingTemperatureSensor
+
+sprite $AwsIoTThingTemperatureSensorXs [10x10/16z] JSp50G0n3CH01MtrN_0nn3YlPQsPwkC1xRhbk6qGXuGM-CXJEZx5ANexAvUy7G
+
+sprite $AwsIoTThingTemperatureSensorSm [12x12/16z] LKs54S0m42BsmFuBbrurxmhOfG7MLOgNp4m9h9Qbiayjj9PyrRvcVceRufbuOINraQphVl6wnnHbYpll0G
+
+sprite $AwsIoTThingTemperatureSensorMd [16x16/16z] RS-70GCn3090-2BG_Wj7E3rvztCNBX8XDAYdDtgyFNsGtDBGsRnnscQHq5GmDhAcL2_BLP0oizoM4NK_dBsh_V3pVftUOnBIk1vMFVQtAaQIzKo-ZEVfolW6
+
+sprite $AwsIoTThingTemperatureSensorLg [20x20/16z] {
+TP074iGm20C5X0Fz_yC7TdgHKdUM5EChuWXmz60_v9L99lV6PBdDTqpwMYQBEel06hfpQ0hMDInSjbcnOZyjhsTYUWl7sJ8Ehna9Kw3ELu_KY-SAayEZSl6R
+brGdSFMS5ZTF68dfTMAn8paPnC9IALtvNh-6LHtj_04
+}
+
+!procedure AwsIoTThingTemperatureSensor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTThingTemperatureSensor', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTThingTemperatureSensorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTThingTemperatureSensorLg>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTThingTemperatureSensorGroup($id, $name='Aws Io T Thing Temperature Sensor', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTThingTemperatureSensorLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/PersonCircleCheck
+
+sprite $PersonCircleCheckXs [11x10/16z] RSd50O0030F05FlU_jFY3fLe4ZccbP_1fRXB3DNWg6nRXrHsMJ01
+
+sprite $PersonCircleCheckSm [13x12/16z] JOf50e1000Ans_d_QtLxuKADf6rJ5rZP_Rakfw1dQxpmaF_zlU4UwnzBF9wX5yaUmrBJ3m
+
+sprite $PersonCircleCheckMd [17x16/16z] VOk30S1054DJkzb_shFrZZ-0udgGGwwbW37pysILcue_4MYOqza0JC-xfCBldycyoqN3Zmb6C3StqfG-8omya0cRlbA1ErDXek4mmglrXOeJ4W
+
+sprite $PersonCircleCheckLg [22x20/16z] {
+ZSq5RiL000DHXs5Xxd_RocfS-3p1VGBBhOowQm3kTRBUroZwiAcKSZVNSVK_xdmt_LFINooaGveRb44Ij4jNvSTJCqvTbKmCZ2Ck2pb4pqksgFnZAMZWdrOu
+PVoh_bAC_rIazQyEKVaGbPfjaxu
+}
+
+!procedure PersonCircleCheck($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonCircleCheck', $name, $tech, $desc)
+!endprocedure

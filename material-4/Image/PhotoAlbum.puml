@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/PhotoAlbum
+
+sprite $PhotoAlbumXs [10x10/16z] Oq02_6303c91EBXOG81WiK5Od402JPQL1mGO6
+
+sprite $PhotoAlbumSm [12x12/16z] XOgr0G0X0CJo_lZ-q-9QaUeah6YJK3c-r-KYLyetR7CAStvRVisFBbcJo5bDFcS10W
+
+sprite $PhotoAlbumMd [16x16/16z] Oy02cA204SBbXmCE29y5g0JCvo6JpyACmWS1_7mUVdu6JWIVWu6NYO613ye7KX20GpyFdC-2wLS
+
+sprite $PhotoAlbumLg [20x20/16z] jOs35K0n54DJks__QRzjtkCGDw09ffKK1UzzwiHUam3itvfEOgdrNDESdcigKWB2L7D0GiL4Y-ZWHnzYGuEA0m4xb
+
+!procedure PhotoAlbum($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/PhotoAlbum', $name, $tech, $desc)
+!endprocedure

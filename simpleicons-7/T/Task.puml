@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/T/Task
+
+sprite $TaskXs [10x10/16z] NSR50O100C2muaxtdnRdBAzmMtWrAZTV8RFe-1xLAcmenhkTcuF02G
+
+sprite $TaskSm [12x12/16z] PSsr0S0m30NH7-RS_jCQ19NFeDT9rgDi1oOdNjDA9l6zfeDLDk353HEGFaQVQLlncszPKxDQ5G
+
+sprite $TaskMd [16x16/16z] ZSwr0S0m0CJ03xEr_xHcxABkEYdtgEy2vgg9cCdyA9s1XjOjBMQltF66-udQ3Ccmmdj3DKmm-FXhzVxaEwhdUXnygZPvA-O
+
+sprite $TaskLg [20x20/16z] {
+hT156eKW001Xkc7kVzeNAhbsLdw_j1XbSPO0jOdcgYrKwSKvRKd_AG8debT9aRzHN9VgWCiWv8iCJAEvIWni1bN2QVYNh1pcnI_PRNiQrsrxmdPP45iAN_ht
+5m
+}
+
+!procedure Task($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/T/Task', $name, $tech, $desc)
+!endprocedure

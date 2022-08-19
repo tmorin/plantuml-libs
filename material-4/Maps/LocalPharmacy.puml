@@ -1,0 +1,16 @@
+' definition of the Item material-4/Maps/LocalPharmacy
+
+sprite $LocalPharmacyXs [10x10/16z] Oq07_4n0WXC4-3b1N0Y0i1WWB3wW6YP-PhWO5uJ52SH8EX
+
+sprite $LocalPharmacySm [12x12/16z] Oy026FaHR1vU4CaF0qXia0GtI0Y8cS2wM9aOc7Z0UfduUNaPUC7AWHH43Gk6EGWs0W
+
+sprite $LocalPharmacyMd [16x16/16z] TSw55O0m40JHZU6m_NVB6rn_NE_qhun1LvE5c5RPGs8z-XGbrJxnGM0oHKDWCeg-5XgFCIX6hgC-rw_xnt_9MA-VllA95tgP0G
+
+sprite $LocalPharmacyLg [20x20/16z] {
+ZS_50O0m343Hkil-qoADuF9FuGMh-2m4UR7UrPbqRpX5hlOQ0pwmhzrO7bPXty3iC3TcBm35IEwjWAqNIYqxjJoXqGezONkNQFjd4v2v-KOUSubzf6x-EJwU
+hHqgudSp
+}
+
+!procedure LocalPharmacy($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Maps/LocalPharmacy', $name, $tech, $desc)
+!endprocedure

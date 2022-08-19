@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Brands/Mailchimp
+
+sprite $MailchimpXs [8x10/16z] HSQ30S0000F1gztiFssDyFsQkoaW2QFrUjSm98fnf0eQtHmk9SG5lHq
+
+sprite $MailchimpSm [10x12/16z] LSgr0GD100CmFHzx_sb3NTGP_5bBtO1yW5L7JlglsIyS2TlqEwbCNS-1eLbn0B-VYJkvpW1rNRm1
+
+sprite $MailchimpMd [14x16/16z] {
+PSt5OG1130J1Ebg6_BErpDGlmG3_6SKNxMG7xm-U_RarUgvzx8QJ_FOP3oOnNkyJLcp87KyiiHMdazlCOOAB95tnIwbKYtdCsChjE2UEy74SL6Yn7ZmRkD_h
+_U45
+}
+
+sprite $MailchimpLg [17x20/16z] {
+TSZ7GGCm44N1fvpr---MNJBOdkFmGapyeS2DaWAut25ScOFB5QgqBHecT9Yxp6M3kz3rOMCQ19av1mspG2O1eM0oGGOYb0RCAfUO43WGHylN1kSR8wD92tSB
+ddLAeRIK0cp8TyWY1qZ3mdWC205QmibaJBzyk39hw_2bo2MUU0C
+}
+
+!procedure Mailchimp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Mailchimp', $name, $tech, $desc)
+!endprocedure

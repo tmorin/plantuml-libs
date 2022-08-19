@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/GooglePlus
+
+sprite $GooglePlusXs [10x10/16z] FKc30G0n4CkZrlxRzgmGF1zaqk4XaPb5dWvKaRGy-Npq01yltnRctab491S
+
+sprite $GooglePlusSm [12x12/16z] DSY74OLG30Cm_Lx1-s_BcSjJUgYRiQVUaB7fz_5DNUNZvfyIcIMtDbvt-j_EvwLzXvHt5copFk6wlWS
+
+sprite $GooglePlusMd [16x16/16z] LSl50OK050Emu4xtd_OBJavFMhkYSYkpMUsMd1gOSoltSD-U6P8Mscm6MJJ9LbgI52dbO4wga43GHnhRp_wNiAoLDHjhLXYoASaJclTA-LhlSWbV
+
+sprite $GooglePlusLg [20x20/16z] {
+PSy54iGW4031YKl1plz_UmbobYw5TRfXujTf4P__nG-gmsyZbzLVNBmSqn4s6KuzkUqs0-NhICTWTw2W7Ql6e8oQpujnCfywrTZEnSn5Mssa1ArMT2WZJmOr
+XoR204OWMorC_Huxm3yhZy_4RNn-NV9lOJKSeQQ5uWK
+}
+
+!procedure GooglePlus($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/GooglePlus', $name, $tech, $desc)
+!endprocedure

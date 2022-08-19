@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-7/N/Naver
+
+sprite $NaverXs [10x10/16z] u-VdvsPWOE2700IB7y7YnyB2AuTa29W9
+
+sprite $NaverSm [12x12/16z] umS21Y1WuuS2P3Od4fiVcSsFpEQ1iPc1c1scW8yVIISocm6PpGDdGoK
+
+sprite $NaverMd [16x16/16z] NSUn0K1000J10m2s_seXuNyd6rvzNlpyKsVGyV4NdU8JjQdHi-dnuyzw_F2w0G
+
+sprite $NaverLg [20x20/16z] RSi53e00583GRxVS_xHs2-ktmLONUpnBnJ3hnKZ5CCEi4CECjxMiDI_JAymQiJ0BiqeiHh4mozcQ0G
+
+!procedure Naver($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/N/Naver', $name, $tech, $desc)
+!endprocedure

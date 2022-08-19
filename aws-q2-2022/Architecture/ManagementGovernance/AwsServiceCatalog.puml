@@ -1,0 +1,27 @@
+' definition of the Item aws-q2-2022/Architecture/ManagementGovernance/AwsServiceCatalog
+
+sprite $AwsServiceCatalogXs [10x10/16z] FSXR5W8X0CFG3k-M_U_NW3hvkYUsrsbElmpI54nqdwuahNe4NOHIUCrhCrEvtZ0zHf3W1m
+
+sprite $AwsServiceCatalogSm [12x12/16z] HSY70O0m24HHR73ttNzViINqXpjqHrNP4zntRdc3nk7Kte1T3eTqz8syn-gw_oPyvtsZt6CxqZhXe4YdVJRAREM-Rv1mto-uSG4
+
+sprite $AwsServiceCatalogMd [16x16/16z] {
+NSW74i0W30D1JBFE-VzxKpIPXbBWbc-Ib-yuW0FAEQF7CjG77ROK7rHLdn1lvUpkc2XReXdkLVJHUaVxxvQxxHqiTrONJKIcTBqmCi8lw7g1LPKm15mVLE_l
+2sw3ElMtmNCVy
+}
+
+sprite $AwsServiceCatalogLg [20x20/16z] {
+PSo50KGn20FG09M4xZ_l5tf-eVeggl2PUKVwH_tXstHjdfXR6lgy-iOin9G6EQmmBmGauYeIsCR1BjWmCDYs9Kn25H5FIqKuF4Aqby4K29aB3_E4mAlah_zo
+UCV0HBGcaMlLHThKS38aRKie5HAXEskLzkPfrlMsEzuZzRQjklglLTvM-iOJ
+}
+
+!procedure AwsServiceCatalog($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/ManagementGovernance/AwsServiceCatalog', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsServiceCatalogCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsServiceCatalogLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsServiceCatalogGroup($id, $name='Aws Service Catalog', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsServiceCatalogLg>', $name, $tech)
+!endprocedure

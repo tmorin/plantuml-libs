@@ -1,0 +1,19 @@
+' definition of the Item material-4/Image/FlipCameraAndroid
+
+sprite $FlipCameraAndroidXs [10x10/16z] LOY54O1G34CVRe7ilosNzkotSOQptxB7qJb3xo1fDynBzTw_H6p5Sacp9pQZz4qpy0C
+
+sprite $FlipCameraAndroidSm [12x12/16z] NKZ50G0n3EAeA_jFMqb_b-3uN-x1l78e-wfqyb2pJU7cpbS0af3g2R2JP1uoqEJh60JUnA2JivLFayUYPfTueetFDm
+
+sprite $FlipCameraAndroidMd [16x16/16z] {
+ROs50O0W50L_MEJjFwtTUWgy8EGVrRlBBFIhDepQp6AWRfwqdw5itkq8VFLawVEIvI8RFV1-m7Qzh0w8pSoQVa_P3Wt8JiigAxhRj5M5r7fV6IpBYbSWgVmm
+0G
+}
+
+sprite $FlipCameraAndroidLg [20x20/16z] {
+bS-3eKKn44NH4pkx_seVCzzSbz50_rC1Lj2HWWhiCHPihmVwWET_iHzWwF3Wpfna0kFCFMQTxYQFzvqoxCVf6MG0fjvn5i7OlYApES6BaaM8h-kXznDrusNQ
+cGjW-IkBQHtDUyK9bgmYDxcpp2RrsRo-TmK
+}
+
+!procedure FlipCameraAndroid($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/FlipCameraAndroid', $name, $tech, $desc)
+!endprocedure

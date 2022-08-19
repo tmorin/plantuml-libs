@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/TabUnselected
+
+sprite $TabUnselectedXs [10x10/16z] Oy06s9WPs1ZuWO217yY3i1207q4ZTC1fVawW19Y00m
+
+sprite $TabUnselectedSm [12x12/16z] Oy05-24G1202K3O_4XiP87X4YiCX3x8m
+
+sprite $TabUnselectedMd [16x16/16z] NSs53GKn30JHkRKWj7B_rNuuJbvmH6Qr2icqZlyw36dG6haRN8us6NEBWmv7NxQD31usAuj7wuof6wkCI6oEjmA8OwuGgoy
+
+sprite $TabUnselectedLg [20x20/16z] fT350KGX34NHYpqoblHVxRZRjxF1YR241QiWHyVZ8Y5H12htlSx3Oy_ZSs_hN6tzGdpJZHV9Jj5uTiug9LublldwLkAL2j_i7ZsupaJPOKvoiVNpRCrO1m
+
+!procedure TabUnselected($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/TabUnselected', $name, $tech, $desc)
+!endprocedure

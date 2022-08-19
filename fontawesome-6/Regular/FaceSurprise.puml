@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Regular/FaceSurprise
+
+sprite $FaceSurpriseXs [10x10/16z] 1S470SD0000XkfjVvzzj0Aw-e5v-NRH07m6wNdhhA83v_R53eY9NN8HFpU86
+
+sprite $FaceSurpriseSm [12x12/16z] FSR50S80542nuFfv-q-Bjpa5t3e3QavJq07SMykCE617jo5sKIUBpeDRMoHKI7VgHYSQq0EcZnCl
+
+sprite $FaceSurpriseMd [16x16/16z] {
+JOw50SGm30El7DR-qpx8fGkQXTcwwiH5Lt1WhazJ3vEJHGswkDaquUIBeKrNYGQiShhoVKcyKGrxwrFOa-tzp4j2pLAaANhkMc2IPBVLRy1aSyVFM5qR9amo
+0-0B
+}
+
+sprite $FaceSurpriseLg [20x20/16z] {
+NP03ji1000DJh37tF-r7NZrrq8KEogH7FGWSZ4K7mDma9Q2SKjV12lKb6GXIiFGKVRt8P34b5MU3XuN2vkVk-vJlhaPFOV6O0z27HZ-rTJjU9f6aTmC4nziX
+BWmDrgVcx-LynMRoPy7YNdH9KeKiimnO7riwsWHuBjmCX_GB
+}
+
+!procedure FaceSurprise($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/FaceSurprise', $name, $tech, $desc)
+!endprocedure

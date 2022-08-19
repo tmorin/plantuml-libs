@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2022/Resource/ApplicationIntegration/AmazonMqBroker
+
+sprite $AmazonMqBrokerXs [10x10/16z] Oq01B1nG1ZUCO6K04OmGGMvkECt9pS74m0XaSq756244GYy2
+
+sprite $AmazonMqBrokerSm [12x12/16z] TSQ50GCW40J1mU7flzwuo-dwgztAPIzSdbiq4DHAQS4asRFPkmfzi7OGYIQ1WU2nCqPMPtZJ4G
+
+sprite $AmazonMqBrokerMd [16x16/16z] XSwrWGD040J1EeRDFzu7CMlGRTzLXzWh-j-3QjpzBEtsgmH84pQYrxKf6D7LHRP5iAs8HXKrsTOUh5Ja8Y8niPCIL4WNZj4-yUJJGzinlTGl
+
+sprite $AmazonMqBrokerLg [20x20/16z] {
+bSt50GH124JHtuPL_lckkyuxuR3HZ5ZSTDMAtbhpgJet4lGS-HelqLp6sR9sxW8wn6RGxUxF0MSMOGW1GiXq293K16Hf1htZvawUvmBDGzGQO59908E3FF-c
+BLW33gJ6KnIWVoAog3GBzNsqmGu
+}
+
+!procedure AmazonMqBroker($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ApplicationIntegration/AmazonMqBroker', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonMqBrokerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonMqBrokerLg>', 'ApplicationIntegration', $funcName, $content)
+!endprocedure
+
+!procedure AmazonMqBrokerGroup($id, $name='Amazon Mq Broker', $tech='')
+  IconGroupElement($id, 'ApplicationIntegrationFamily', '<$AmazonMqBrokerLg>', $name, $tech)
+!endprocedure

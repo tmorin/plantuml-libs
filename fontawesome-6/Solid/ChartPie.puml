@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/ChartPie
+
+sprite $ChartPieXs [11x10/16z] JOf50G0m30Cp_lNygnrJCQHPbjUF21XeF2OE1vfOy7ghFe6BTN6v4Qa1
+
+sprite $ChartPieSm [13x12/16z] HOs54S1G24DJzxxzfwqat7q7OigwTjMQ472x1ZTSgTCW3QrPHMlkQhBIB3Kx_Stk2cAKazPqWwmS2f9U
+
+sprite $ChartPieMd [17x16/16z] NS_50SKW50NHYUBlzb_jrw23dntKGZdexP4iwUBV9Ua72W14DT06d1f0W1ROPjY8AzW3hLB1_k5LfPspW4ro01MCNGQmLqdKJFrdRm
+
+sprite $ChartPieLg [22x20/16z] {
+TT3L0SD030JHCVDj_zM63bQXzoMDsGJfcldGWnuER9G4Ug6wLAjptboJpmnL7J38rIVBjVfNUuz71QDhC8GwLFHoNZqgvCNLODVJ3brjlWd08NjjYtz4bc3V
+oKvdWYxtD9BT0G
+}
+
+!procedure ChartPie($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ChartPie', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item material-4/Navigation/Fullscreen
+
+sprite $FullscreenXs [10x10/16z] Oy0AM3dP6JWvGIm4mGud40192KW7BtRJ
+
+sprite $FullscreenSm [12x12/16z] Oo0EyFCpCV3oyuFPo2GJb4G7l30IeHx579m
+
+sprite $FullscreenMd [16x16/16z] Oo03C3CpGqWebv-Vdu612KX2-VXfme09HkCo1s8_6p-6_QG3
+
+sprite $FullscreenLg [20x20/16z] Ow01OENav6G7qfn001FZvEVdvm7I_4005oEInSw3pA8SS1Bj0fW_UFcn-eC6
+
+!procedure Fullscreen($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Navigation/Fullscreen', $name, $tech, $desc)
+!endprocedure

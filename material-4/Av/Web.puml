@@ -1,0 +1,13 @@
+' definition of the Item material-4/Av/Web
+
+sprite $WebXs [10x10/16z] Oy06-A601SxYOU27oX5YSK1r81a7
+
+sprite $WebSm [12x12/16z] Oy09UA20cu61bny6c53Pp62Lp0myQ6nM9X304EU10Nuce0WCeDWA
+
+sprite $WebMd [16x16/16z] bSc55S0W40JHZNlelrhSdO_EEmmZdWUOYI_Ni_BDyoORoWSisVuK4i_pFP5N4Q-ONQ-peeK1
+
+sprite $WebLg [20x20/16z] Ow0CiB0Y0sQG43yQOC4YneDJZ0y6G2o861VSDX2BD364UI0noitZuu4140kiX0FD7vG5A
+
+!procedure Web($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/Web', $name, $tech, $desc)
+!endprocedure

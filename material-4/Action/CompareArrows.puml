@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/CompareArrows
+
+sprite $CompareArrowsXs [10x10/16z] Oy09cE0CVXYBZv-7XnFC048Wu0S2C0FCmMaI
+
+sprite $CompareArrowsSm [12x12/16z] Oo0Uy2AOVFmyF3oC43O7FnCJ4uJ9pi01fhbuUNdvsI5YJCpCpFnWfL0-Vai
+
+sprite $CompareArrowsMd [16x16/16z] hSgr0S100090Y3lxJnjxBr-kGz3At2LnqTY_V9RXCnN_Ju8kTwzJX8lwNOYTQSIEKWy
+
+sprite $CompareArrowsLg [20x20/16z] jSwr0S1034DHXJb__sd3UAhzEhCLA9SfyIuiLt0PzPfXt7Nwc4YMpNjdacFK1vTlLxyReBRdFAMiLfmL
+
+!procedure CompareArrows($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/CompareArrows', $name, $tech, $desc)
+!endprocedure

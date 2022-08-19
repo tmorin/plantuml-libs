@@ -1,0 +1,16 @@
+' definition of the Item material-4/Action/LockClock
+
+sprite $LockClockXs [10x10/16z] JOd50G0n08CugTl-qzQDLmBSfBG6Z2bIfxVqZzB_nol6Yc37ugdRrFaG8ntfW08
+
+sprite $LockClockSm [12x12/16z] LKs54G0n24lTc_st_HhSVHM8uRzCyr9Q-bbUtTUKBUmoSwtiErSzLWaqM9uwhnUujGCcqEsks_BbddUITdlCzJZdE3kdHjlzVW
+
+sprite $LockClockMd [16x16/16z] RSe53a914C3GVbaBizFxdnPtQFGbvL_Bya7LDyw4p9VTOVCmjXlJQpEzFkjL6x2a5zyfOBkRcuStnztxtGc46zNNpph8WCNx0Dq5616XVQlJ0lUw6Wk_dG
+
+sprite $LockClockLg [20x20/16z] {
+bSy53WCW44JHmPsv_sahcs3r_XXvEFufa3GdPVP2sfqK2m1oDoTB4aiEUj9MWKHAMGEciczcRo8loCDarE_OE4qFqtJ3C0pCXtKbjkzLcN7iNU_I2fqOHWyf
+Ca4-9LK5wCwELQ6KSEHhSNZR5G
+}
+
+!procedure LockClock($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/LockClock', $name, $tech, $desc)
+!endprocedure

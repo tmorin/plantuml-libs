@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/P/Peugeot
+
+sprite $PeugeotXs [10x10/16z] 1S410G0G002W003_tohYFESCQ56heGC94CvHuO14OF1iGS86e8C5W8GF
+
+sprite $PeugeotSm [12x12/16z] 1S450GC1400WJlVUF-u0Ux_lUmtexECG4W09ElAWK0E75Vr9bjF5CJGG0w05mWyW9GZL08I5Fm
+
+sprite $PeugeotMd [16x16/16z] JS77OGHH30KWdlJJfFxRjOyBoBg_V-yreVqwQirBqgjxj4lvTMbOacVWc5YNDVifbfiNK9JjkWWQGC174EKJCbtON220E8wO3cYgY09i0W7Oa02GuG7-
+
+sprite $PeugeotLg [20x20/16z] {
+JSY5ZS1G30FGvtmigVjFUo1iOeQQv_tyttKCi8FlLLdscbNwwZCPUoh_h2GYAYWJKAtWizMIx3DG5kHzFDiz6s9X3MZa0OrdWp9f4DvAm1NTHc0TuCMDcvgz
+WNi0GRi4RYPO33RST53WKHORSD8jcHI0Wui3qtUiHZuJ9xJmlHeMm2y
+}
+
+!procedure Peugeot($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/P/Peugeot', $name, $tech, $desc)
+!endprocedure

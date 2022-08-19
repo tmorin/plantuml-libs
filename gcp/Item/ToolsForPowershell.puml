@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/ToolsForPowershell
+
+sprite $ToolsForPowershellXs [10x10/16z] XOc54G0W30D3S_p-6-EdM2MgxzXviOLfegrCQaWua4SFw3mL
+
+sprite $ToolsForPowershellSm [12x12/16z] bOI90S0m48BmJDb_uxuBD0gmlNRQ8mAK1aLOQmhubGwQ0fceX5-x
+
+sprite $ToolsForPowershellMd [16x16/16z] hOc70G0G40DJoFuRwqpW-78V_8U41u6s6x9L8sUfvmSIn2VMScbwoSjD348wWta-JA_uGGS
+
+sprite $ToolsForPowershellLg [20x20/16z] nOg70SH03C9mq_uZl_cq3H9TjK3VahLCw28gL0O4XwkosXTAzA4YLYq3bslbuGhoY9DoLnAWLMPmiTCg7HfwOnQ_Ui3eFNu
+
+!procedure ToolsForPowershell($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/ToolsForPowershell', $name, $tech, $desc)
+!endprocedure
+
+!procedure ToolsForPowershellCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ToolsForPowershellLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure ToolsForPowershellGroup($id, $name='Tools For Powershell', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ToolsForPowershellLg>', $name, $tech)
+!endprocedure

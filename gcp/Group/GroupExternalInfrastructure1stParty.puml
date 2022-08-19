@@ -1,0 +1,17 @@
+' definition of the Item gcp/Group/GroupExternalInfrastructure1stParty
+
+!procedure GroupExternalInfrastructure1stParty($id, $name='External infrastructure 1st party', $tech='')
+  GroupElement($id, 'GroupExternalInfrastructure1stParty', $name, $tech)
+!endprocedure
+
+skinparam Rectangle<<GroupExternalInfrastructure1stParty>> {
+  StereotypeFontColor $GCP_FRONT
+  BorderThickness 0
+  BorderColor transparent
+  BorderStyle solid
+  FontStyle none
+  FontColor $GCP_FRONT
+  FontSize $FONT_SIZE_MD
+  BackgroundColor #E1F5FE
+  shadowing false
+}

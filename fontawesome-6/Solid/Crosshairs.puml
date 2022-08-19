@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Crosshairs
+
+sprite $CrosshairsXs [10x10/16z] BS653GC1300nboFAxRzjzM0xh5lbK5kz4KEq3itMIAKSUXEPyEx0ONhZ3m
+
+sprite $CrosshairsSm [12x12/16z] FSm53W0X34JHeH6SV__RRgPDzk5Kb9v-Xwb2sdKDeS7mFMGRvoeruW6I9sYYWjUeg--BtH3LOc2-MY3x
+
+sprite $CrosshairsMd [16x16/16z] LSg50GD12031VNUs_seZ796V4vGIt8GzFwQ3flSjL99kd48eLKANsP0_fRDjdS15fbUeTbp2eKfltFPHofYZe_s_YTg5tQW7oN9G1jNe-BcaUG8
+
+sprite $CrosshairsLg [20x20/16z] {
+PSw5bSCm00JHaHar_NTxJtn9lYscfLaYF_JWqsEoCrmsypYcKL_LfUzwGJTcDP3aAJXAFp__AjsgO-b_fCK4E0qrG8mcHyring7l1eGZLneNKEb2IRWxqlCe
+YPgJ1pZq99dL5Jt2C-vP7CRDqImV74g8Bz4-zGS
+}
+
+!procedure Crosshairs($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Crosshairs', $name, $tech, $desc)
+!endprocedure

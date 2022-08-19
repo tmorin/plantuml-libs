@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Regular/Newspaper
+
+sprite $NewspaperXs [10x10/16z] Oq02NFmGmCV0py30oCZ8mCqFP865q5WW09K58IGM7qmMo8C27W
+
+sprite $NewspaperSm [12x12/16z] LOY74G0X3CDCxtZ_QR_uAu8aEc653u3XsvAXKtNo84zoBmzoG3mTf9V3cFFBhRfbvc0GcSZpPc07
+
+sprite $NewspaperMd [16x16/16z] XO-50S0m3CCq9g_-_zeneuhXX0Ugi940fGzK0PaDswFicN2H_IENY_oKZ-RW7yKnZ6UH6ubOAex-XItSZi8-oIWTARdG0m
+
+sprite $NewspaperLg [20x20/16z] fSt50K9154FHV1-__LUBm_YAitoIQ6RTIg-HewO7s0g9X0IIbZV9mtiM-CgpzCTizHycpxAwTrVzQu0bpwQ_7bYREmjiIkzPwdvX0o1b46IeFKOZTm
+
+!procedure Newspaper($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/Newspaper', $name, $tech, $desc)
+!endprocedure

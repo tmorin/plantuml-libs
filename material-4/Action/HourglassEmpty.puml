@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/HourglassEmpty
+
+sprite $HourglassEmptyXs [10x10/16z] Oq06_200OG4nEekH7yY002v-HWY3auC1oCIbWmS461W
+
+sprite $HourglassEmptySm [12x12/16z] POo50S0W30HnX-m_RQnU3ed-cozr2bxpaRptCnovb-_8o-GFh3cAfUd1WdAbivYLZxHBS_dDPymn1XovTG8d1
+
+sprite $HourglassEmptyMd [16x16/16z] VOw30G0n34NFnlxJnZLU6V-XmZWfpdv-PN7s8q_JlZ_fyi-kmVUnUJXJ7979mVzFp4DgWiarhxEVjp__UMV6sP7-4WG
+
+sprite $HourglassEmptyLg [20x20/16z] bO-50S0W30IVkl_-qzPnF_om13Lib7I6MrusotrZN-W6mxNSdw7Z1eqWBILFFifc8IbiDN72piPKywq0KjYd7kJ9-ZnS9z5ktYGj8bm
+
+!procedure HourglassEmpty($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/HourglassEmpty', $name, $tech, $desc)
+!endprocedure

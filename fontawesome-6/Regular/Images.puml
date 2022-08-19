@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Regular/Images
+
+sprite $ImagesXs [11x10/16z] Oq06RFnGmCd03nNYu6S0GWGJ2FXXJ91Ag08Gu0OocQ46W0JXW0agni4
+
+sprite $ImagesSm [13x12/16z] NSUr0SH00C0mFuJ1-qyRF5Od6YRmaq2xluJkJtheKW0bvElb5-BZ3YRJ2jy0NBi0ODe3E04
+
+sprite $ImagesMd [17x16/16z] RSZ50OLG0C2muaxtt_OhptCCBTiTNBnTfeO9JoAzSKUBE0-WJ-9ZjWWr2RtKESJipp-kpiStPbERG1zqu4MkCp5JUm4
+
+sprite $ImagesLg [22x20/16z] TSw53S0m4CNGAtEz_xJ5q8-I9xR8LjTqeltYIEPuAtJYPE6j9cRuQmE5Qbgrq1KgaDVvErormi2hJUkC9sV15kf2Ok6h7PbreJUpLZHnLhq_Pwh_SekQhUO6
+
+!procedure Images($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/Images', $name, $tech, $desc)
+!endprocedure

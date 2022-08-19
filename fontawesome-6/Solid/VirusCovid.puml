@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/VirusCovid
+
+sprite $VirusCovidXs [10x10/16z] 5SQr0SG0002XUuaB-qyReQBgD5Ibr5xyaQtUK6SA5co18OXF1QfToAUs5fy-tG
+
+sprite $VirusCovidSm [12x12/16z] 9S65OGDH040XslXzUVjF6mLGqy_XraNGrUgmuxZsS_oXOrVHRKNLNn_EVStBKQLiz8DM_Ppey1Tj-5FRYHS
+
+sprite $VirusCovidMd [16x16/16z] HSu52WH130NH6lVK_K-xyY7CmxhZnAZ2Qyz_91Hc0OjyZqdreHBmiAq2J3PWt55Oyj-uTLR0c8s5qeR1fWy2Z-ajdHW0REJqifL0kQPtud43gBu_txZLZE8B
+
+sprite $VirusCovidLg [20x20/16z] {
+JT35OGKn303HMOnHqt-reQ-5Tp5RG0hr82NLuA50Sm4SkMM5TNek4BPy5RiVg1smXeypAW2x3vAEPSsz1eIi2covILNRrDS7BNBImRVbpCdNghfqZs39lHLL
+5W5ysKW-SYDy2GM6dhHy6Be0DEFfbIl_UeKQzWLSUBmRy0C
+}
+
+!procedure VirusCovid($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/VirusCovid', $name, $tech, $desc)
+!endprocedure

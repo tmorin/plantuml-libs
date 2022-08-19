@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-7/P/Pastebin
+
+sprite $PastebinXs [10x10/16z] JKo50G0W3C9k_VzQMzS9u5YXve0mgu4-Dw5sCmtpuTj6HXNEi-qgv-NqVyrCU
+
+sprite $PastebinSm [12x12/16z] 7SI70KCX4CFGTnXI3_RVDkNRaW1U0Qm169DZAvHzvEb6dPwD1vOIh0esESMTUPNS2TeUGCliUOUbyG950by
+
+sprite $PastebinMd [16x16/16z] {
+HSo5ZGKm30Km5wFY_jiUVBGe-7oTucicNxtWaA5riade6Agf2GrCvQGQi3Ioks7rP3L0kUQm9qp7Liw11YcP8BM2dFOd3G8fTxq8eEV_n54Ja5qTxpuarEOh
+3y0l
+}
+
+sprite $PastebinLg [20x20/16z] {
+JSX7eeKW402mp23I7dh_q_vUp3AUpbruoXQ4XvqOD42qWicB3iQ9tTIG1u56fooMbZGqq-KLMGuK9qBDfGomuWBLFS4UsUEsyHFRPTbB0RQOMSunGA0gXxic
+K6gWSIUe3XA8G6TB6fY4uP9P9L2LhPQfzqC1XCuzaI-0PYnmLW09olRKPKi0xm
+}
+
+!procedure Pastebin($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/P/Pastebin', $name, $tech, $desc)
+!endprocedure

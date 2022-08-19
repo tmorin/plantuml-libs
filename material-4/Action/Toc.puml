@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/Toc
+
+sprite $TocXs [10x10/16z] Oo00-460ZP-W61i8CB5XDGC
+
+sprite $TocSm [12x12/16z] Oo0Py4C00pyPueG1
+
+sprite $TocMd [16x16/16z] hSgt0O0m34N1vryvITf_MdAcXAkFtrbiEY501mIGj4de_T-gRIeceFPDeOklHW
+
+sprite $TocLg [20x20/16z] OnWum8y0R0pyV60nFWHWPU3ZmQcN0m6O6JZOSPh7Y00W3abkOKC09WOsLle42W
+
+!procedure Toc($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Toc', $name, $tech, $desc)
+!endprocedure

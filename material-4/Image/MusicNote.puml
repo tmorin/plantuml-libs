@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/MusicNote
+
+sprite $MusicNoteXs [10x10/16z] Oy05-FZvOImWniNYXwd2P24
+
+sprite $MusicNoteSm [12x12/16z] Oy0B-FZvMR2ocO04NZO_Fp-CpON4vW2ouQfv-JamR0G
+
+sprite $MusicNoteMd [16x16/16z] Oo0ISFFoyZ8ZyVdu-VbPyF5vWGIvV7QWOKXyLdvKFZSQdmF4vqHp38hfJ4ou_0K
+
+sprite $MusicNoteLg [20x20/16z] Ow0AuEC70XPonK0axSGOkVYuqSNuGG1LZ0EB63TETRnOp6D6SmWdBpSJoI49
+
+!procedure MusicNote($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/MusicNote', $name, $tech, $desc)
+!endprocedure

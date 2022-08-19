@@ -1,0 +1,13 @@
+' definition of the Item material-4/Editor/BorderAll
+
+sprite $BorderAllXs [10x10/16z] Oy0AkDZO-848o69ZO01Ig2n-C20aYm
+
+sprite $BorderAllSm [12x12/16z] Oy09-640o2Q8ALIF
+
+sprite $BorderAllMd [16x16/16z] Oo08k7WHW0d8v-NduU414ppyO3uFa63Y1oabai_4nCJ2pmG443u_7A2h9uEFQHuJ4i3q7G
+
+sprite $BorderAllLg [20x20/16z] Ow0CyAC0FeWO5niGSFEpWoYO61k8vE1d157K4EFc008UVauG1HJ3wHPsHY3Wv6S2KTHs2nvx-L003_412W
+
+!procedure BorderAll($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/BorderAll', $name, $tech, $desc)
+!endprocedure

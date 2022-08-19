@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/CloudDataFusion
+
+sprite $CloudDataFusionXs [10x10/16z] Oq03pCpCB2222KYmiO9PG54m2opF2f95A0QH71meB3Om0B9OeO01
+
+sprite $CloudDataFusionSm [12x12/16z] RSQ70G0X20J18zD_mn_DEWeiTlm0wDiYOjyMFDJV9lH6SMpptfvVw-jlBp2v0G
+
+sprite $CloudDataFusionMd [16x16/16z] bSU50G0X241H6lPV-3fjlm4FXkCjlIQVK-tndjXbefyFP3wQSOILBMT-sUxyiBqfPAq
+
+sprite $CloudDataFusionLg [20x20/16z] dSa53W0n44BHCSZS_yBhhcr_Z3oa8P-Akm7RQyiYppOKdoP3x-P0xBRNPfgPjHPBs8rxgu67PiCvUQu7
+
+!procedure CloudDataFusion($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudDataFusion', $name, $tech, $desc)
+!endprocedure
+
+!procedure CloudDataFusionCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudDataFusionLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CloudDataFusionGroup($id, $name='Cloud Data Fusion', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudDataFusionLg>', $name, $tech)
+!endprocedure

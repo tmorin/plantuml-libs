@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-7/R/Renovatebot
+
+sprite $RenovatebotXs [10x10/16z] BSQ74S0W4C0mfuVg_RVbWDSr0IHV9krgcld-JttedhydcaolP9mYh_OiLT698acd13nEC
+
+sprite $RenovatebotSm [12x12/16z] FOg50G0X30FpYdFxJul38Mr4dO3LXCbOVxG4kFv_aFIbxz4ZNWZat5Pd6UYLTttfMevxJ0QjTtQ2ej4GCsgaiJQt0W
+
+sprite $RenovatebotMd [16x16/16z] {
+HS_50G0X00F1uCxsN-q9dCml-ukMC6X6hy6Mj02zSvjxQWxjqAK11UUlTYSZ8dADhf8Q470WTQdC20oGtzF3Ti-AuzPMK26m66vbHG3nSX9CHVvWa3HuHQ8k
+_GzQ3F-R4m
+}
+
+sprite $RenovatebotLg [20x20/16z] {
+JSw55SGW50NHYIjC_zMkl4FaHe5lD5lrd7cPR4f7ererDaABzOxTMnIBAul6HCut2nF5sJ-mAhrhtgYkoE99nmaSzkcJPqPWbsgRuHy1R0xLsnCLft-9sW-Z
+jQ_iAhG87mCvAXGV6SUUpXUW5NzXax_TjvwOV71RZP8WlW
+}
+
+!procedure Renovatebot($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/R/Renovatebot', $name, $tech, $desc)
+!endprocedure

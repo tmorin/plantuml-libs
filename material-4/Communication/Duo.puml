@@ -1,0 +1,13 @@
+' definition of the Item material-4/Communication/Duo
+
+sprite $DuoXs [10x10/16z] Oq01_200fBdumO07A09ZWSNvEM4i1av-RWO-i1WNFnDC7OZF0c600Hit8v04
+
+sprite $DuoSm [12x12/16z] Oq077Bn0m0rYyV1301E8YM3p8zZi_FmWTGmWDY-G3G88SLvc80LN3sPpGfcC89NiK2O4C3A1AG
+
+sprite $DuoMd [16x16/16z] RSi54iHG20HHO7qZS__JVkruken7rTXz7YqqI5GL8Yp2mycIelJKhzbPkJtQ5TYmutWLivzgAlsBlzfoAyqhFsOy83rdjjSo
+
+sprite $DuoLg [20x20/16z] bS_L0GCX54JHMS5b-gysWaDqx-T17wwbs7eLqYMo7FDFadmrlbYwBAQwzRSepOjjU3KaSvEfP0f0RCPeIUu01EVm-Z-Px7YPuj7vGezsprIK69FMgGsVkmC
+
+!procedure Duo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/Duo', $name, $tech, $desc)
+!endprocedure

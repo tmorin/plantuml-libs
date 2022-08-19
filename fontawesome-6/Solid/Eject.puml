@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Eject
+
+sprite $EjectXs [8x10/16z] Oq00Hdu8pS_F3w7037u8u8NIC3vC4nUQE
+
+sprite $EjectSm [10x12/16z] LSQr0G0X542namfz-q-ByoLL7kVd3f2012IKmlNeL3eYugb7xW
+
+sprite $EjectMd [14x16/16z] VOor0O100CHmX-m_BUykwKw72iiN2y2B2O8S8P9OlbZ06mjuNcBsHCdBm91ntO6z_n8Z
+
+sprite $EjectLg [17x20/16z] XSZ50SKm3C1G5yFH_jD-XZhuRfBqRAjkm5mx0kn5m_9j2-hi_BnwvI_B0qhPX4J1Kv28SiYS2yhcAMGAWXQbT0S
+
+!procedure Eject($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Eject', $name, $tech, $desc)
+!endprocedure

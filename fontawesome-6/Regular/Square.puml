@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Regular/Square
+
+sprite $SquareXs [8x10/16z] Ou01VYY0y9X8fM7w0G
+
+sprite $SquareSm [10x12/16z] Oq00VZXWXukmG5bybB1uU5aXW9-1cmy2s04
+
+sprite $SquareMd [14x16/16z] Oq05h7nmmCl0neyAaDGDAXu3XYiH
+
+sprite $SquareLg [17x20/16z] Oy04pCY0YO617nNmyl2p8wlW0ugXw6SVLW908Jua09JdHGqFLem01
+
+!procedure Square($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/Square', $name, $tech, $desc)
+!endprocedure

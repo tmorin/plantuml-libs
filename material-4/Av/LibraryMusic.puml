@@ -1,0 +1,13 @@
+' definition of the Item material-4/Av/LibraryMusic
+
+sprite $LibraryMusicXs [10x10/16z] JSQn0S0G04N1bq03V_zf0N3LyTAmvhqYwaDhQI-o9xGs6CJsnG4g
+
+sprite $LibraryMusicSm [12x12/16z] NSsr0G0W40J1mntwhnRtnOReyUL3otMc4OMXlh--di2w-x-R7LDWEq9EkzJh1kCrnjeWtsEeqL5L0G
+
+sprite $LibraryMusicMd [16x16/16z] TSZ50SH008LGufxVVxKhuyhjGQjXT64w53A-zU--ZOSRuyTy6ENyI7rl39c1p0CejHu5SyWKp3IRfec_9nycXMRglW
+
+sprite $LibraryMusicLg [20x20/16z] bSY55GD1201Hx5pelzk4TxOkiyg7dbYTRjjSsoxRhsaSnqDrDvWVi-4oNL-pgsh76HdQrxNh5zhv_qbWkXevjkcLQvDhV1aG2ul5Gd1RcBh9PRWxCMJw0G
+
+!procedure LibraryMusic($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Av/LibraryMusic', $name, $tech, $desc)
+!endprocedure

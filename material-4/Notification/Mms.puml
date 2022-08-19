@@ -1,0 +1,13 @@
+' definition of the Item material-4/Notification/Mms
+
+sprite $MmsXs [10x10/16z] Oq00Jdu8O63WXm8UT1O3X0LMZYeB1SmC_8mCw
+
+sprite $MmsSm [12x12/16z] Oq01FBmGmCt0mCiF0qnOs5mmDZC_FmCdXCq5DWB2Xfg3ePU5cGK8c9c1vZCnO0C
+
+sprite $MmsMd [16x16/16z] dSp50O0030J1ZU3MVxMuEymhUXo8BhgsMWFzsRillLkLGZRsNHtH6ljIH_OotqTcTBsofiAT1W
+
+sprite $MmsLg [20x20/16z] dSx50GGX0C30u0xzTtkoxZ9uNd1RQ4jyjPMqq_ARLkMo-U-Ik7apX6Q1FBK8EFWQMsMatlnbehgcjVgEh-yk-JV1MfEyz04
+
+!procedure Mms($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Notification/Mms', $name, $tech, $desc)
+!endprocedure

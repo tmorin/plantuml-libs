@@ -1,0 +1,13 @@
+' definition of the Item material-4/Places/CorporateFare
+
+sprite $CorporateFareXs [10x10/16z] Oy06-DdOE9WWB2ZWOU1dO606YV60nPZu-HcGn20wsDY0B8GEE
+
+sprite $CorporateFareSm [12x12/16z] Oy05UFc1W0dAPWPY69iV1fWGuZnCKFMy_2myn8eZp442
+
+sprite $CorporateFareMd [16x16/16z] XSpL0O0m30JGYtrLil-s7Exma3QAFz8ciiQQbLBt67ICZy1OALqfzbYX2flYYVBqETxtpN6ZL6dDvhWIurhjkV-0CVG8LmC
+
+sprite $CorporateFareLg [20x20/16z] fO-30GH1303NHl_T_hpFd6MSY5lq3sgeAmx2M9S4wB5kGddfsXFkzrlciMzT3P3GyQYFxWqwBlFHPGa67G_YQhvfx6WE7haTEvsZJSZYA0y
+
+!procedure CorporateFare($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Places/CorporateFare', $name, $tech, $desc)
+!endprocedure

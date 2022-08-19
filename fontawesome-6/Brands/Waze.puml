@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Waze
+
+sprite $WazeXs [10x10/16z] Oq01_7oy_6062uXW0eb09Q0AcA5S489Y41icpmbImWy2C6LyG0m
+
+sprite $WazeSm [12x12/16z] NKk30G0W4Cokst_QxFSVo1y1mBY4QvE5Va_M45BPj6PQBbwD3Mn2sNPze1lYbqJH-lfACIGw14e1hfEihLYx
+
+sprite $WazeMd [16x16/16z] RSU5OGG130Cm7NEy_xJjCojelxLRBOsxESDbDowEmUkpzExglZQQwVQF25CGkivJCJNqWyil16hjQq6wdOiEjbRr7iODIxPqIDNi8ZUBHwPFEj_-0G
+
+sprite $WazeLg [20x20/16z] {
+VOy55WGn24ExumR__hTTcd5DdSWhwHD5MVvEXGPyD6Zt4jCY6LcrL7i2Msb7nKuLiUIZp1bviqmWrcAvF4EihfHGIpPXhotRVgt37pj5AhoBMpagLsP0SK6I
+pkWyTthgl4Scjn7JTp2V5gvaGxVt3RselPOCfJYaD_m1
+}
+
+!procedure Waze($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Waze', $name, $tech, $desc)
+!endprocedure

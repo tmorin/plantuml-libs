@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/Lens
+
+sprite $LensXs [10x10/16z] Oq01_FoyO9gR7mIOG28G06Vmiy1Pt0nyK1OJaZe6PWW335XvG6O
+
+sprite $LensSm [12x12/16z] Oq077DniK1OlFmYmGvWGm0fayyC0K2sSpSZ00sSpCR31sIZg4HeOGOQoGPaGmCW4fW
+
+sprite $LensMd [16x16/16z] RSx50S0W343HI5ttdxOAHF_jeO4yHAtjV1kBw2pjly_MNWwtk6oh0tZgoclAVXyqbyUZyZVbqJZ1rzvOulV8Yf1q0m
+
+sprite $LensLg [20x20/16z] bSrL0W0X24LHkuNzhtRwJPVtyoWWsWeyLFLEF2-H0cNUKlYrJqx6XpBMxyEtVUR6uetb6_E3qSdKOEPoz_BHJwRtL4S1Wf3CXq5aKmbAFDS3
+
+!procedure Lens($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/Lens', $name, $tech, $desc)
+!endprocedure

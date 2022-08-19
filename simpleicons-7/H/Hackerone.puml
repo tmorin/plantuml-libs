@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-7/H/Hackerone
+
+sprite $HackeroneXs [10x10/16z] Os1Wu6U00i8iVdueYn_60cA2B
+
+sprite $HackeroneSm [12x12/16z] Os1Wu61dW0D-VjBPVFpSK3OG8TZi30Ws0z5i
+
+sprite $HackeroneMd [16x16/16z] Om023bu65C3FJmi-5pyRd0yc-BaHV6P-53uGyt8Xyu60sdnEC1y
+
+sprite $HackeroneLg [20x20/16z] Om013dv61dJ0py-DHOo7Rc9Cp1XY_50t8SJO-J74kFWnnPZv-TdHnK1WS8XnGMbE40K
+
+!procedure Hackerone($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/H/Hackerone', $name, $tech, $desc)
+!endprocedure

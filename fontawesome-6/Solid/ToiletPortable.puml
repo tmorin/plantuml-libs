@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/ToiletPortable
+
+sprite $ToiletPortableXs [6x10/16z] O-0d17XmoW
+
+sprite $ToiletPortableSm [7x12/16z] O-171emGm8yJCC0ex80F1FW1
+
+sprite $ToiletPortableMd [9x16/16z] O-2703v-66220HuOu2S8kA0q3mk2GHhWPG03VW
+
+sprite $ToiletPortableLg [12x20/16z] O-270sv-78012V1J0V0n8jWy3DZP_0WsvVR1VS363m
+
+!procedure ToiletPortable($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ToiletPortable', $name, $tech, $desc)
+!endprocedure

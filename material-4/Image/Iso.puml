@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/Iso
+
+sprite $IsoXs [10x10/16z] Oy0A-240n6BZukTd1BE03209aMM4ie04X0KKOMLZuaVIYm
+
+sprite $IsoSm [12x12/16z] Oy09-640p0PpcK1i29-90IxE21C3CI5i21EXbe-V7y9cWfgDP3uFYgq
+
+sprite $IsoMd [16x16/16z] XSo50SCm34HHXSst_xGcGRdvmMUY-sBMt632exKx0rjcYJVQZa4IvoraO24r3gOPJBLIFRZsrECJKlBgbJYs1sV7hDRWMmq
+
+sprite $IsoLg [20x20/16z] fSp50GGn40D1cL5s_j4UB3FsimRmBjPfjh4wYxr5sOcifRDeHMm-20mc1MJuRw6pyHQO6hkjgRM_LYQnCc1ctLOcQKPhVXbhhHnDec-qQRannp96YSjz0G
+
+!procedure Iso($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/Iso', $name, $tech, $desc)
+!endprocedure

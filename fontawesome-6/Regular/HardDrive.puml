@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Regular/HardDrive
+
+sprite $HardDriveXs [10x10/16z] Oq00VZY0YN1ZPV5XgEE3iFWP-97K8Sm3
+
+sprite $HardDriveSm [12x12/16z] Oq06_4Y02qcKdGWs7x9cTXY0gU5WO8EhvsHWPU3duME50Nu6RZuOO0C
+
+sprite $HardDriveMd [16x16/16z] Oq07h7n8W9U1ZHyTeAYcc8yA-82OIFlusHZus93ux42dCsAQZsu3kdS1
+
+sprite $HardDriveLg [20x20/16z] lSwr0O104031nPtjlri8aRVe9pi_WhgF5lpPT-VkpHiVMwNSQHa-pjoDNT1thfjX62A_J7g-ARjVFG4N
+
+!procedure HardDrive($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/HardDrive', $name, $tech, $desc)
+!endprocedure

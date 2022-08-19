@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/R/Rhinoceros
+
+sprite $RhinocerosXs [10x10/16z] RS650O0m0C2muax_lnRNRGb9AYSR9pQ5ecowKWSB3lPDWHcReb8krdoi
+
+sprite $RhinocerosSm [12x12/16z] TOk35GH10CMo62FzLtisylJ9NvJzhgjurqNqfboqNVK-hJg03D2PGrpFEaNKvVuVOUNE4ddd2
+
+sprite $RhinocerosMd [16x16/16z] ZOx50OKm44GdxddzL_i5vmJhlgDdCiLSKml9Ufq4CN3BDPZ7k1Y2VM00cl-LDIy-0MOVM6n46K26zNCpgcqEi3kaAe0Bhi9izeQw5xsWBm
+
+sprite $RhinocerosLg [20x20/16z] {
+fS-r0GGX54NHXpkt_shN1IPQEHbyrtyA8ADD1uJLoW02RI09XXOML5WI7GoIMFycW9jGwz132Ru1eG7kaQQhXjhWIieyLYNLc8eRyc3qKBlCWC6wkvk1g-FP
+HAnsXXob8w-ld04
+}
+
+!procedure Rhinoceros($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/R/Rhinoceros', $name, $tech, $desc)
+!endprocedure

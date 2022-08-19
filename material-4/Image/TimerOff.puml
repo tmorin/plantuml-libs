@@ -1,0 +1,19 @@
+' definition of the Item material-4/Image/TimerOff
+
+sprite $TimerOffXs [10x10/16z] Oq01_FpyO8g16SJY13D111DO3iW1yzb191XpCq34e1YkceqVOXuB3nDG3
+
+sprite $TimerOffSm [12x12/16z] NSU50SGW00F0gnkG_QTzryRZZ2IWmthCe8-wZdioOGw5GFfeJ1NH1OBmE0_tZxFiwFCE36ab2Q3hwHTN
+
+sprite $TimerOffMd [16x16/16z] {
+RSt50GD134FHFuos-gyspDbtav539Ydn5bDwH891t9868G2uqQpcBibu5231LE1ASg80Su0gt6bmBx8tryAL8h2CU-6HgxWN7lEeFBvKvwehFGeFKxkavZ8U
+eacQmPrl5Su
+}
+
+sprite $TimerOffLg [20x20/16z] {
+TOu55WCX50E3Exd_RTkyDQZCAlCL_p5JxCvIF2d7stk76rR0JOe6Lo3IMphMu5ENDxSySAIz_YIpCYpduJgpEiaXqqDm73tb3ClXqjAJutQ7N5p3BNKGWn19
+ny084PYNvN4mc6vfS38vj7_KyZU553DBtlZQYrLvn1SUm0i
+}
+
+!procedure TimerOff($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Image/TimerOff', $name, $tech, $desc)
+!endprocedure

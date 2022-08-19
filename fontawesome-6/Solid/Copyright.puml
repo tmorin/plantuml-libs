@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Copyright
+
+sprite $CopyrightXs [10x10/16z] Om02Jdus1X3W1mDE80CAM44iY0Gda04LXRFOm2ns80kX3cWO442uh506
+
+sprite $CopyrightSm [12x12/16z] HOo50G0W3CEAE_p_BHsQkK8e8s8pDZybEuswq3V90GVDo4R4U6XtaiYHz3jDeWAGTawgkF3_Tv0sJdS2
+
+sprite $CopyrightMd [16x16/16z] JO-50S0m20JZBljls_8VkoWE2lW-grQRFacaE0-3ugKjvs5DdeA6ETquZp3ptvJ5tU9xCOzS4NvbBPTKoQoaJX-6ly3EsWJe_XB4iRsYe9zfFW
+
+sprite $CopyrightLg [20x20/16z] {
+NO-54GKW34E3Ezb_sYzeZtU2De95wgmU0iT5KrXGaExL9T-hYpjQMMlNvtP_mo2EVSIwKhN7_I5DNKN1qD2eVD7e5DHfdoZmGs2g1yC1E4w0DZj_GxkDiDLt
+YdQi0Ib_A-Kdry0zlsHvjldf2m
+}
+
+!procedure Copyright($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Copyright', $name, $tech, $desc)
+!endprocedure

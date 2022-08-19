@@ -1,0 +1,19 @@
+' definition of the Item material-4/Social/SportsRugby
+
+sprite $SportsRugbyXs [10x10/16z] NOg50G0X480-RMN_RUr4hxaEf2xbnWeepGMbgurBdI4XIN9o25UeAvcKH7AAFua
+
+sprite $SportsRugbySm [12x12/16z] RSR50S1040CnRnWz_LSRvfnUKaASCGRMbHGPnr7BSUTRs_Lah69vUAkSBz_RMFlRiBLYLUXZ1W
+
+sprite $SportsRugbyMd [16x16/16z] {
+ZSr70WGX20H0SAB0qlz_hLalcwPlHQHd2O8IcN9uj5BO6WyO1zJ4IiPD5rgqsesaqsi_W4Ttnrui7ZgDKSSHnp2fD-lWrj-DuKAXvOCLsjX-lUfr6jd5v63w
+d0m
+}
+
+sprite $SportsRugbyLg [20x20/16z] {
+bSr74WGX34DHiCb9zx_jb3tgi6qjN_b3-3wflUStb8t_sYKHm4p5aPI16eINzrKCVlIOKQSiiAmtRTh64mgE6uQ0gn7TIA2RD4E7cbMmj8nfntqL3iHjaAfH
+SUAVMs8tvxnR01W-3vwXuUD-
+}
+
+!procedure SportsRugby($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/SportsRugby', $name, $tech, $desc)
+!endprocedure

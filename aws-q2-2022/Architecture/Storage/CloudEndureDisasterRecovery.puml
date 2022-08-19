@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2022/Architecture/Storage/CloudEndureDisasterRecovery
+
+sprite $CloudEndureDisasterRecoveryXs [10x10/16z] FOh50G0W4CDmIDb_NfpBgn9ecreh5bdu4xLZoojAUSUmaw2wbdTIBGvtaieM-eaikiK9
+
+sprite $CloudEndureDisasterRecoverySm [12x12/16z] JOd50G0n3CCEcyZTVzuowMCGu1KhS0psQFtdRKFm05TTKdLkVjV-0_RYN-cFzF92A5qXw3TpFAhoK8bzZBv71W
+
+sprite $CloudEndureDisasterRecoveryMd [16x16/16z] NSZR5SGW30FHbGDOClttkz79c_cxepqUfTCoj8p3OnpZT53REShq0vf7bRJPP3zSOGR0qMsMdKmn3bS9-a423MGoq9L1-sWCESxJeQDvZSlBcClu0m
+
+sprite $CloudEndureDisasterRecoveryLg [20x20/16z] {
+RSt50KGn20JG18Vjlz-DmFSvFcHyn2gwC-YYNsQdNVHYqh6mhAaRIc5CWdKD31jZ8lf2iROm1Z9L3q0QwVu9dStQDeX9ewwDJTQqYTs9p3sDOg22Z3tFsu40
+CChH34RRi8eAL_llbyRWbSCqBdPeV5cSzjhy0m
+}
+
+!procedure CloudEndureDisasterRecovery($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Storage/CloudEndureDisasterRecovery', $name, $tech, $desc)
+!endprocedure
+
+!procedure CloudEndureDisasterRecoveryCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudEndureDisasterRecoveryLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure CloudEndureDisasterRecoveryGroup($id, $name='Cloud Endure Disaster Recovery', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$CloudEndureDisasterRecoveryLg>', $name, $tech)
+!endprocedure

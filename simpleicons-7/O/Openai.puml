@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-7/O/Openai
+
+sprite $OpenaiXs [10x10/16z] 1S450S10000XvlxNl-q0lWiGTJ1dV3YSCL_fbcIEVU4qhperPINbjkP314Ny
+
+sprite $OpenaiSm [12x12/16z] 3SX50GD10C30wJ77lzlkAm0w0UwJEc7wQ2RQZ-KoFPmsno9QkmoV7AVbSuq3-JJEAzarDJqBISn-gHyjKmU1SRSj_04
+
+sprite $OpenaiMd [16x16/16z] {
+JSc5iKKn481G8bSYk_HVxTTdZ9u1VXiEtbLdczRwj40pj_b_5oZ0dJ2TDpQ84mIvRXPh4vRWchzEkr2KCVu_6B0tKkJNYI0PCFoq9wJZwKOuD_pwIdf0AHGt
+fe0J20jO-Msf9v23PqNJ2V0D
+}
+
+sprite $OpenaiLg [20x20/16z] {
+LP25OKGX5C22t3yy-s_R0jNWmH-NDAtyHqTRblyAeAY-kJnRXMK9uUK0YDfWEJdibTbcOQu0PKLu2HQsWsZjBeAagsUODc3QfSthXBVvdCvxNGTGpgbMXCTq
+NSH8bY7G3Rl-T1aaQW6SGRzTCky1QuHoNDqEcaUtxO8Fx17fV3ZWZTcKpNG06jXqHntEFHYBRuOteDF07nxLoU43
+}
+
+!procedure Openai($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/O/Openai', $name, $tech, $desc)
+!endprocedure

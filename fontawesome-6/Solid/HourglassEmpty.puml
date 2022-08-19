@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/HourglassEmpty
+
+sprite $HourglassEmptyXs [7x10/16z] 9OY50S0W4CHIzsR_QO6tSyoRoX1Ov16SG7qXl3GykLFBPLu7
+
+sprite $HourglassEmptySm [9x12/16z] DSU50S102CNGrBtPVzipUEZ7S1hme_BbjTxP2PH9gQpeuavMaNCgLtof_3v30G
+
+sprite $HourglassEmptyMd [12x16/16z] HSs54S0m3C10bTdQVzjU-0yICtOH3eJRdBpEt6ua8KoQlhFcHCdiAQMYDvdsRwaKaqdxthLIn_I1rI1HIBUJJz0lqpSSVW
+
+sprite $HourglassEmptyLg [15x20/16z] {
+LO-50GH130AJSv_-k_qddB8wi1gyjHnyb1_QeuMm1iqQIEDH0Hm2-Uj_cBIbRE_QO8i4kdlJ0RG5pk_C-pXkIAJjbNMxSrDV-zShqxX35ixtgdXzOTQiXxH6
+aFNMyiKV
+}
+
+!procedure HourglassEmpty($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HourglassEmpty', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/CloudFirewallRules
+
+sprite $CloudFirewallRulesXs [10x10/16z] Oq003Y004MmeOanWKJOorB410OXW1G
+
+sprite $CloudFirewallRulesSm [12x12/16z] PSrH0W0H203HsGNkVsAZ7_00gDZL9cBYduY9xxCxOM-Thafdvxs8QVV-Vslj1W
+
+sprite $CloudFirewallRulesMd [16x16/16z] Oo08E4205K9nO95dP0HXHWW5Li_01bMBLJqJ2312A2OYp0SgOeIg1M9gcmy
+
+sprite $CloudFirewallRulesLg [20x20/16z] fT2r0SD044JHF_PI_mqRDAbOBpc-1KuR4-r90MsYF4dMIG8jFF5_lCR0_qK42eE8D-lI83o9rVnEMijbTUzPhyf4UfAi-G8
+
+!procedure CloudFirewallRules($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudFirewallRules', $name, $tech, $desc)
+!endprocedure
+
+!procedure CloudFirewallRulesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudFirewallRulesLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CloudFirewallRulesGroup($id, $name='Cloud Firewall Rules', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudFirewallRulesLg>', $name, $tech)
+!endprocedure

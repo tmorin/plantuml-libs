@@ -1,0 +1,16 @@
+' definition of the Item material-4/Social/Masks
+
+sprite $MasksXs [10x10/16z] VSQt0S0W0C0mfuVg_xzbOw5e4diMD5_fHlpE8f6CgW3QUwa7Kmq
+
+sprite $MasksSm [12x12/16z] ZS6r0S1040InUURR_girnWQ9NuQ30Ad1H2PfhEGPI6uwpUW8KPSn0GsTyWAOEbLkBl1c1m
+
+sprite $MasksMd [16x16/16z] fSU50SH024JHmU9a-k_srWku_1Lu-5pS0eYjZK5xILvQDa0J1QSb-Q1Otc9F7jbT7aUtP_5rvN1GKPeaTxJigiXJi58J_DKF
+
+sprite $MasksLg [20x20/16z] {
+lOo50SD030FrpDR-szOgTu3caYSBS0rZ1jzZqbvMrOXs39dEHk9YrYpwcDJIUExdZ6o8uMYsfcR5PpPyLSsE2lS4tomGJcImzwpD0p4vtxF928ZEDyT7JzAW
+A04_f1Jn9su
+}
+
+!procedure Masks($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Social/Masks', $name, $tech, $desc)
+!endprocedure

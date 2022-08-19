@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/S/Stripe
+
+sprite $StripeXs [10x10/16z] Om023duk1Z3W1m4M68CVAiI098d4P4ImWHGVN2q_122P0W
+
+sprite $StripeSm [12x12/16z] HKi50e0W49lTyl_NNiSKM49nZmUEVnYKRgEvlqln9UgpDMByHD_nAZ-KnUYpoZFhvZQh-xVJ6M
+
+sprite $StripeMd [16x16/16z] RSx50GGW30J0uCxsN-q9RlEBXmeHaJHr1Wqh8KT71Hwn9IAB6MUQK8GHMnIp9ynzJPuTZPyDRYRQ_YGPnuo7yFnNjYZzWoy
+
+sprite $StripeLg [20x20/16z] {
+RSu53i1G20DGw5nx_zikBCtt5oEuoVxmFM6PlvGtfPdDPKgKmY2tCo3sdbJkO5YiDF5tUPcabBqN4uoIUG6Uufb-WLlfPfZizsf1aOluWECfPZUMoksoQrsH
+kapyKEQ1XGy
+}
+
+!procedure Stripe($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/S/Stripe', $name, $tech, $desc)
+!endprocedure

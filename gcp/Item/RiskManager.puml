@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/RiskManager
+
+sprite $RiskManagerXs [10x10/16z] JOo30G10201VOV-9FzTbhWaIecTRr3gBbwXrsJGp8QPNidK5Fe_zYqqTIJu
+
+sprite $RiskManagerSm [12x12/16z] LOi95e0W4497U_7d_YSEsgLKrbgn8HWdfR2kFQw4r99vJjbDUXNTiJbFtWPNP9v_NDjacUdoAGEQjdemJGy
+
+sprite $RiskManagerMd [16x16/16z] ROs50GD030A9mluBL_AfzrvZW7-qA1cMQ118vuQE123W9DZDFkUURsp1N_-QkKczuYhbMqpT2MWrf8P4c65oSeEHJp-Ds3hazayIsJHgm8ly3DVs2W
+
+sprite $RiskManagerLg [20x20/16z] {
+TP255S0m44Av2B3_n8tLM-B_vHI_YYgfnXMPMM2Xpqy2XB4KYwdR0YZHxykG5Bbs3qjs3goTtRhYmjPR3wQ-IfFBt6qDTbfvwkfFTaPZWU2RmIb2ROLMfEXR
+pfbjoIMXLCUgrnVRlRmYq4kt_fKJdUeGBqNVDW
+}
+
+!procedure RiskManager($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/RiskManager', $name, $tech, $desc)
+!endprocedure
+
+!procedure RiskManagerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$RiskManagerLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure RiskManagerGroup($id, $name='Risk Manager', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$RiskManagerLg>', $name, $tech)
+!endprocedure

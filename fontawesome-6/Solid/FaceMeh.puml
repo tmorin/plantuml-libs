@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/FaceMeh
+
+sprite $FaceMehXs [10x10/16z] JSR50O100C2muaxtdnOvpojyDcT-1bkEJcLkoY6TZTaCxJwRiXa1KyeB
+
+sprite $FaceMehSm [12x12/16z] LOn50e1G24HdPUlS_xP-6XwT46uUC6XaAhIKh-J7iclPBKFo0IT7oo4cUExizVIJwHlT7m
+
+sprite $FaceMehMd [16x16/16z] LS-55S0m409GhkxilsrvSNxSSqZMbtUWUibaHyBciw4yTNCLe5ifwH22ygRnHbKh4tVJ1HrIbKJwqURB_g4DyjXGOeZc1m
+
+sprite $FaceMehLg [20x20/16z] {
+TSw55SD030DGXU50-qzRa5Nqosz3PuGTdNN5buNM1XY_7Fc8FFCHkRZN3u397cVhe5P3YpbEBxehn1wHMTkDl5IPhSnYxcH5RQ7nWscB4KCk1Ovy19pyDaAM
+topRAIsIxW
+}
+
+!procedure FaceMeh($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FaceMeh', $name, $tech, $desc)
+!endprocedure

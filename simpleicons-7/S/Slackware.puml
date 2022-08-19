@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/S/Slackware
+
+sprite $SlackwareXs [10x10/16z] Oq01_4301cO0CPJ5py4CbMK5IOCOK88V9Cl3piy5P441CeiB1W
+
+sprite $SlackwareSm [12x12/16z] NOo30G0W44Mpw-y_RVOxatmeD4RUGXevwy7EVaEk2ou3wDc1RNUi_T3eFsYq2R7_c_pvHG4
+
+sprite $SlackwareMd [16x16/16z] ZSk30GGn54NH5pkt_shNtj49lxGe0YFm32SZTS3SGuE_FkCPMzpjBNe0HgzUBvCRgqyUdlFtznh7MyozFYJkyPtkiPACZy7e6JyTYFEFCm
+
+sprite $SlackwareLg [20x20/16z] {
+fOw53G0X40HnX-s_sbVaNITsMSkH2vZppZ3g5X8AQY7PCPi0Kuj8nLDDGxxiQYuQnSaIYanOgZ9ajIfyELnEMuVfi3Hh-GSnvP0r82YT0BVG4YOaoTgItvhR
+Gm_e0G
+}
+
+!procedure Slackware($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/S/Slackware', $name, $tech, $desc)
+!endprocedure

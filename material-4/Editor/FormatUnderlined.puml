@@ -1,0 +1,13 @@
+' definition of the Item material-4/Editor/FormatUnderlined
+
+sprite $FormatUnderlinedXs [10x10/16z] Oy0E-C6OC8k7duUV2Qg73K9nyeC0ic4
+
+sprite $FormatUnderlinedSm [12x12/16z] Oy0DU7Y013yBqMnEVX2R2QAPdvk9dnzc4Xy_3nRp-I40LH
+
+sprite $FormatUnderlinedMd [16x16/16z] fOa30W0n30IZC_R_hpsRnRJ1PCc1eXcxDBfuZSbXaQwB5vDdaCKPxHYtYuxH2DC6btLERoXMbeEiq9qU
+
+sprite $FormatUnderlinedLg [20x20/16z] lOw30K0X54Mpw-u_xRVDJdW6UKk0R6I4oEhpWuyFFWlRI80DFeucmI7DbaOAwDE6wXf1vWXL9nrYCTBxJ1eXDoW1
+
+!procedure FormatUnderlined($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Editor/FormatUnderlined', $name, $tech, $desc)
+!endprocedure

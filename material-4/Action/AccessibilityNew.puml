@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/AccessibilityNew
+
+sprite $AccessibilityNewXs [10x10/16z] Oq05_EWiVZ20SC0qRXO39ei721aO
+
+sprite $AccessibilityNewSm [12x12/16z] Oy00t0Wc3pyJXC41f9c1Y1F8vkG70pusY1IG2IG9i9cHs0pOsKn020G
+
+sprite $AccessibilityNewMd [16x16/16z] Oy01656v_FoSkFZCR4mW4gY5cGF4v-H70AWfJBn0DYkIaI0-CmC5V5u6YlW8
+
+sprite $AccessibilityNewLg [20x20/16z] jSY30K0n34NHLxlPVzflcwVCnLsP31O44M69A63a50V0H7CPsJIQ2KrZoeRKpD4RWG5l6Xh_jUJNpI1_s5XK217xIW
+
+!procedure AccessibilityNew($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/AccessibilityNew', $name, $tech, $desc)
+!endprocedure

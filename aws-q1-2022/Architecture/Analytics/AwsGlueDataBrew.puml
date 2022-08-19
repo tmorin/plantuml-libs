@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2022/Architecture/Analytics/AwsGlueDataBrew
+
+sprite $AwsGlueDataBrewXs [10x10/16z] FSY54S0m0CF0XYDx_tqRrj6VW3vhZKSTbgx1GcXJYf2-gI8wGzOem90LfV6mwwm4FD88VW
+
+sprite $AwsGlueDataBrewSm [12x12/16z] JSV70KCn3CFGk8gWzjyt_jtl1B3e5C4sffNBb5sdGAFrer7HShIOK68SNLGHHwUh2pzWABEgun9ziDe7E9fnWJpu07y
+
+sprite $AwsGlueDataBrewMd [16x16/16z] {
+NOo55GCn34Dhk9EbxBzl0ox-eE2PYse0yF0sz1tFBJ61-s1LK-F6AY73ZoQTjDbgZQGP6RQrIfoO-tLqrbKiRxru6CryzbbZzSKeS8yTGxCAYUxMMeVEX_cB
+c7gXXbF_6Ky
+}
+
+sprite $AwsGlueDataBrewLg [20x20/16z] {
+NSo50GCX4011x6IF_ljDiBTzPH1cVcN_uACVEnZWzL7xOmJjkLBCFI8QQakrriiW2xJiTbbuDfMcO7QP5QNGggQppci439KaPvruLCoN-RGWYYgrP4bvM1_d
+ZITdHjFwDCrZCMhYq7jlaGhpZ9BIPIUCRQ9N8fbfFRXobaq-NVR17m
+}
+
+!procedure AwsGlueDataBrew($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Analytics/AwsGlueDataBrew', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsGlueDataBrewCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsGlueDataBrewLg>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AwsGlueDataBrewGroup($id, $name='Aws Glue Data Brew', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AwsGlueDataBrewLg>', $name, $tech)
+!endprocedure

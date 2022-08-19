@@ -1,0 +1,13 @@
+' definition of the Item material-4/Communication/ImportExport
+
+sprite $ImportExportXs [10x10/16z] Oy0E-FdXJ1ua5ZES1PT7i3ZuEU1YZCY60G
+
+sprite $ImportExportSm [12x12/16z] Oy03UDaHJ7v-18U7YG6PpSM4OFCoGzb0CJYR0ONDmS_FXE0meTa9
+
+sprite $ImportExportMd [16x16/16z] ZSYt0O100810p5dstzRMpqztqDKQyd4BQJWceUNHiiSdD2IUPgVfvrqT2KP06CZr0G
+
+sprite $ImportExportLg [20x20/16z] fSYr0S1034Mn7pwm_VRVDcqOLKh_-RGhO9iE-nGcFRwktH_byUqykYubFALr9e1MksoqbLgzCWC
+
+!procedure ImportExport($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Communication/ImportExport', $name, $tech, $desc)
+!endprocedure

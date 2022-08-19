@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2022/Resource/LoT/AwsIoTReportedState
+
+sprite $AwsIoTReportedStateXs [10x10/16z] Oq00LYZD2IBOMO4K8qGObGKac31Ph4oidEXYZ1302G
+
+sprite $AwsIoTReportedStateSm [12x12/16z] ROY50G0X3CJgil_0hpYabXwC91P809_Vp9uTZx_iJgfSNPvrTDG0BsuHKbpZ9VyyAd03
+
+sprite $AwsIoTReportedStateMd [16x16/16z] bSY55KCn34DHdPYa_HTkFpEzu3KEYKlw4-i2n3_-Q_rdzF-yjVwjxK1-ilItLcPIvPEhDR8r6osiweQXEJRy
+
+sprite $AwsIoTReportedStateLg [20x20/16z] hSo55SC0201HNFPVk3JkVl4V7h2PH4xpF-bY9W6YVSD_y8_fptzoLUrU1_jl-CRIpDmMLazwR8X_mwcHHfdcr33-bkw7-rojOllNc6BzPPocpJJDggaV
+
+!procedure AwsIoTReportedState($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTReportedState', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTReportedStateCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTReportedStateLg>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTReportedStateGroup($id, $name='Aws Io T Reported State', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTReportedStateLg>', $name, $tech)
+!endprocedure

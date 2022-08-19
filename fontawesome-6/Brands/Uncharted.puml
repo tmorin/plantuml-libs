@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Uncharted
+
+sprite $UnchartedXs [8x10/16z] 1S450S10000Xvhxht_O1W9FGZ7_HZvWaBnnS423mLa0O
+
+sprite $UnchartedSm [10x12/16z] NKo50G0X4EBJblsdjViw01p6N6xAt7nQhtusJEi5TyFWkPNEx_mKbTJhDccmpPBiKZ2vH
+
+sprite $UnchartedMd [14x16/16z] RSg55O0m4C3Gu4xstvQ7rtxbbBBbZGBLHWVqMd6gf49vjUBkpAaMa5hF_9u18tAhE0tlxgcwunnLvDLsLlN6RNTnT-HHwqxk
+
+sprite $UnchartedLg [17x20/16z] {
+XSl50GGn4CH0BPbjvH_jCMDz1fiVPhXO9e0XPrFNSuCBK3Ln8TlAPRuO7LKkN06NJIkmPWfnmmMQAtGlaGMOiF9iuwJVzda5eDqMHkx-BwPsMYpU5fgjAZTD
+DS3TREUBFG
+}
+
+!procedure Uncharted($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Uncharted', $name, $tech, $desc)
+!endprocedure

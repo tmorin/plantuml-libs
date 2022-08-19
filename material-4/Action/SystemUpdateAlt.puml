@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/SystemUpdateAlt
+
+sprite $SystemUpdateAltXs [10x10/16z] Oy06-Fdv6VYX90COex4O-HcXB2Q4B0E4nGe1_0ZZ
+
+sprite $SystemUpdateAltSm [12x12/16z] Oy05-860WHz4SGCf880G-DYCZFoCS74-Vaw46WuazGnGDW8WMmi
+
+sprite $SystemUpdateAltMd [16x16/16z] dSUr0S0m00CmXpd-_zioSxK9ZsGBa90TW1qfYSAM1nLQxJkb_BjG569rJt9z-BRhe-twhUavBPYXoqh6NWC
+
+sprite $SystemUpdateAltLg [20x20/16z] jSYr0GCn00D0cTdQVrfJ5SxZbOSpP2v3XYi2PGf0uLJXAS35e1BJkadItNH214hnV9f3VJx8LSy7NV1yoxypJ-muprSI6tK
+
+!procedure SystemUpdateAlt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/SystemUpdateAlt', $name, $tech, $desc)
+!endprocedure

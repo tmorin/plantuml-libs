@@ -1,0 +1,13 @@
+' definition of the Item material-4/Navigation/DoubleArrow
+
+sprite $DoubleArrowXs [10x10/16z] Oy0AE3b120pu-HZukS4iTduc7dwe83y80G4VZC78pyd2puBTD
+
+sprite $DoubleArrowSm [12x12/16z] ZOgr0G0X00Fphd3xJukNs3LHJR60B4yE5mZM72pN0igarrtiifV-urEn6mXsjV4
+
+sprite $DoubleArrowMd [16x16/16z] bSp50OH044JHmfsNVxIhs7L-kwQSfcd-xg1doawTWvKwo0dIiEIWPijCbuETF2u6ng0wr-qP6HxlQjQZd6dFusBU
+
+sprite $DoubleArrowLg [20x20/16z] jKr50e0m3ClSr___bg0TTyYX6i7tiAKK3yzgzTX419WY4pVkbP-cDySr8x06FIQk5fqLYdvR3hsTkiogsLmwB6jUW-LuZ5U4GsKrzybmAV2iVZKRnwFY5sm
+
+!procedure DoubleArrow($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Navigation/DoubleArrow', $name, $tech, $desc)
+!endprocedure

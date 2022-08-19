@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/SunPlantWilt
+
+sprite $SunPlantWiltXs [12x10/16z] HSd50S80002nuCxjFotKcs_mjahN3vDBWaE-IGUIyrUyIpht_4mNljoIJ8x9Bfxj_W
+
+sprite $SunPlantWiltSm [15x12/16z] LSwr0KKn581GdiHpm_xJVjVJqG6myvMt8VEJcuRnoI6b2H1Q3rVoi0A2O3tje8B4qYuj40LeW29JNXJv7hI6_148_rm1
+
+sprite $SunPlantWiltMd [20x16/16z] {
+PSk50SCm4C10jM6Jzfysp3dZ4ul4HoylgaLVkUwV7TY4k0pQ4T7_EKJKVnJr1_o4PQHam0weSn2Ce1RDqAk26GpQxa4hGG7-iZ1HIQUSWYuv39pQFVVWyCt1
+aSiFpYSLloO
+}
+
+sprite $SunPlantWiltLg [25x20/16z] {
+TT35WKKX542n0z_baVwh7NV94gxtOlMtlLE_CHTZwOVbrUg7ISMnDqTMjLz6jndxNkn02zsii5N5w6vqeBdjubmreavc3IeELNZx-3uL6sfpAuxOKzcAzgZg
+u5pLS2kQw8LUO4Ojjxx2CIg_hZEYNwPBqM-pBn_Z1yQJhlxnxySZ
+}
+
+!procedure SunPlantWilt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/SunPlantWilt', $name, $tech, $desc)
+!endprocedure

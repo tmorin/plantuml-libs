@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/CloudOptimizationAi
+
+sprite $CloudOptimizationAiXs [10x10/16z] LKk54G102CBYt7_XxxGby8SyjusfiSz84Z8U8cEAcE0I1vTFy4S5
+
+sprite $CloudOptimizationAiSm [12x12/16z] VOh50SC03CHazluBjs5Ez3da4r5RRJGi8H6M43JBe2cGU08AdQMm_ZHPGx1Yfbpv0m
+
+sprite $CloudOptimizationAiMd [16x16/16z] ZOx50KK12CE2i__2NvzxBZWj3p4JrgWjSXgO6k73qJ1rgdEkavftQ9B-TLryMCgWnOKlee2da2o_-b0EZP1Bio8SymO
+
+sprite $CloudOptimizationAiLg [20x20/16z] {
+bSw53S0024JH3vJBxRzmtHlhY-BmM_1LCxwo7iqT1hWbKyqgYeE2eVFHs8qjwzue1WC-NoeXMckk1tm-cuOookDP0Da6SUIIdGhkZNJTKiJwLFCGLS57LXL_
+JG
+}
+
+!procedure CloudOptimizationAi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudOptimizationAi', $name, $tech, $desc)
+!endprocedure
+
+!procedure CloudOptimizationAiCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudOptimizationAiLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CloudOptimizationAiGroup($id, $name='Cloud Optimization Ai', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudOptimizationAiLg>', $name, $tech)
+!endprocedure

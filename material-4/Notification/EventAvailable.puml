@@ -1,0 +1,13 @@
+' definition of the Item material-4/Notification/EventAvailable
+
+sprite $EventAvailableXs [10x10/16z] Oq06_60C8Y00XSK6Ly86eg4ia1H25ba70W
+
+sprite $EventAvailableSm [12x12/16z] NSRH0G0G203HWp-m_xG0gADwoA8Rom-MaxPRJJCoN1UsaoqSatZcUXVvQm
+
+sprite $EventAvailableMd [16x16/16z] RSpL0S0W30JGjBXc_sbnX_SNkOC7Qo53MaU3w39qiet3dsPtpRQhiuLkc_stpLx1cBK6hzT_XshFowjlp0gd3v9_-E0I0G
+
+sprite $EventAvailableLg [20x20/16z] ZOw30G0n54DhDzb_shFPLtv7l94nlmPwynNEhwLPF9L7tEJZYVhWmxlFYPqMNwetNw8y-bITNETQC8-kSoqWxpFalvOJPVBvYfsgH3Cz
+
+!procedure EventAvailable($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Notification/EventAvailable', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item material-4/Action/Translate
+
+sprite $TranslateXs [10x10/16z] Oq01F12A7mpO6A0yACt7oCN036PnyWD5MS5oFDmiZFmGHSpyd72bCACuGOO2
+
+sprite $TranslateSm [12x12/16z] NSd50KCX44NH6znV_zq6cTK_CCv7SpnZ3CsTs4BmFimOx0B2p3W3eNDfxNYdlkHH2y2OEsf2m6JJXbcGAjUFpVq1
+
+sprite $TranslateMd [16x16/16z] RSo5OGKW34NHc-Bwzj-suRiTd0W__V4cY0SzJ8uGey-uLWnSsRdesSByFiHJLJnFRMwM4fXarsUK17sjVdjMjb2CmYL_GWaAFe7gJxVb5WyoC3sUHJXbFlm3
+
+sprite $TranslateLg [20x20/16z] {
+bT053WGX38NXLwRiUF_xttPJ2CcwVBYB_iEX6ruJPqr5JN3ZecPozod3YRlf7gjkh5ZFRX4ojjoeQAYiH7R1xMfonWvrT1Le9x17Z3xmWrsEBTYOvT8MYZng
+6RFQvOrppRDIk9g5ndGZukc7IjzYu_Q5VK8vN2zS0G
+}
+
+!procedure Translate($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'material-4/Action/Translate', $name, $tech, $desc)
+!endprocedure
