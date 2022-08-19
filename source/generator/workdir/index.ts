@@ -13,11 +13,11 @@ import {
 import { promisify } from "util"
 
 export interface YamlGeneratorArgs {
-  [x: string]: unknown
-
   p: Array<string>
   c: boolean
   w: string
+
+  [x: string]: unknown
 }
 
 const argv = yargs
