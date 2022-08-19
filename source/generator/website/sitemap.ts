@@ -55,7 +55,7 @@ export class Sitemap {
               urn: packageUrn,
               readme: {
                 label: "Presentation",
-                href: `${packageUrn}/index.html`,
+                href: `${packageUrn}/`,
               },
               modules: [],
               modulesByUrn: {},
@@ -71,7 +71,7 @@ export class Sitemap {
               urn: moduleUrn,
               readme: {
                 label: moduleName,
-                href: `${moduleUrn}/index.html`,
+                href: `${moduleUrn}/`,
               },
               items: [],
             }
@@ -90,7 +90,7 @@ export class Sitemap {
           return library
         },
         {
-          readme: { label: "Presentation", href: "index.html" },
+          readme: { label: "Presentation", href: "./" },
           changelog: { label: "Changelog", href: "CHANGELOG.html" },
           security: { label: "Security", href: "SECURITY.html" },
           packages: [],
