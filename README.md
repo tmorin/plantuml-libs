@@ -16,6 +16,7 @@ Its purpose is to speed up the rendering of PlantUML source files, i.e. the gene
 ## Contributing
 
 Thanks for your interest in contributing!
+
 There are many ways to contribute to this project.
 Get started [here](.github/CONTRIBUTING.md).
 
@@ -23,7 +24,7 @@ Get started [here](.github/CONTRIBUTING.md).
 
 The library can be installed from several channels:
 
-- The NPM package is available on the NPM registry: [@tmorin/plantuml-libs].
+- With the NPM package available on the NPM registry: [@tmorin/plantuml-libs].
 - From the [GitHub Releases] page, an archive of the library can be downloaded. 
 
 [@tmorin/plantuml-libs]: https://www.npmjs.com/package/@tmorin/plantuml-libs
@@ -31,7 +32,13 @@ The library can be installed from several channels:
 
 ## The PlantUML library
 
-The resources can be browsed, from GitHub, with Markdown pages directly in the [distribution](distribution) directory.
+The library brings thousands of PlantUML artifacts.
+Therefore, a _documentation_ is available to discover and pick the resources fulfilling your needs.
+
+The documentation is a set of Markdown documents linked together which can be directly read from the GIT repository: [./distribution/README.md],
+
+The documentation of the latest released version is also available on [tmorin.github.io/plantuml-libs].
+It provides a _search engine_ which should improve the discovery process ;).
 
 The available packages:
 
@@ -48,6 +55,9 @@ The available packages:
 - [Homecloud](distribution/homecloud-2/README.md)
 - [Material (v4)](distribution/material-4/README.md)
 - [simpleicons-7](simpleicons-7/README.md)
+
+[./distribution/README.md]: distribution/README.md
+[tmorin.github.io/plantuml-libs]: https://tmorin.github.io/plantuml-libs/
 
 ## Generate diagrams with `gdiag`
 
@@ -85,8 +95,8 @@ Alternatively, the command line `plantuml-generator`, from [tmorin/plantuml-gene
 
 The build of the library is based on two steps:
 
-- generate a work directory (`.workdir`) which contains the library manifest, and some additional resources like Tera templates, pictures ...
-- generate the distribution directory (`.distribution`) which contains the PlantUML resources as well as the documentation
+- generate a work directory (`./.workdir/`) which contains the library manifest, and some additional resources like Tera templates, pictures ...
+- generate the distribution directory (`./distribution/`) which contains the PlantUML resources as well as the documentation
 
 ### Generate the work directory
 
