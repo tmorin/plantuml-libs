@@ -14,12 +14,12 @@ import {
   unifyItems,
 } from "../../../generator/workdir/discovery"
 
-const ICONS_VERSION = "4"
+const ICONS_VERSION = "6"
 const ICONS_URL = `https://arch-center.azureedge.net/icons/Azure_Public_Service_Icons_V${ICONS_VERSION}.zip`
 
-export class AzureV4Factory implements PackageFactory {
+export class AzureV6Factory implements PackageFactory {
   getUrn(): string {
-    return "azure-4"
+    return "azure-6"
   }
 
   private getItemUrn(imageSrcPath: string) {
