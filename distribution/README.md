@@ -36,7 +36,7 @@ Include locally the library:
 @startuml
 ' configures the library
 !global $INCLUSION_MODE="local"
-!global $LIB_BASE_LOCATION="<the relative path to the /public directory>"
+!global $LIB_BASE_LOCATION="<the relative path to the /distribution directory>"
 
 ' loads the library
 !include $LIB_BASE_LOCATION/bootstrap.puml
