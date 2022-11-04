@@ -1,0 +1,21 @@
+' definition of the Item azure-6/Item/Identity/ServiceUsers
+
+sprite $ServiceUsersXs [10x10/16z] HOk14G0m10C1zj-uIExw04IMdBWw6BeQhglVTJV_T8m2dS2NtcCFkUcwum4
+
+sprite $ServiceUsersSm [12x12/16z] JOo50G0m2CDm_lzuWcQ2jl0WXK8VaV9BBTlsmDWsStS8_DBxU4-v84eOVU7xNZgv3pi_
+
+sprite $ServiceUsersMd [16x16/16z] LSq50i0m20D080tT_pyyIpEvQT4GiE9LlBndYeyW--8pMp9ah7FOlFdiG1XOnIJVRSnCByGzEk69VHcfJqIjtLuvfVNnsKPiFpW
+
+sprite $ServiceUsersLg [20x20/16z] LSy73iH0349H61lltl_2wGZDI_zg1DOgcCjbh_gi9ChIMlD9qnXXFORu6MAIGazQY99OMfIsnRme0rjVp6f-orZFyudpAdfYsZ2xwRdARhz6VY68_flX1
+
+!procedure ServiceUsers($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-6/Item/Identity/ServiceUsers', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceUsersCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceUsersLg>', 'Identity', $funcName, $content)
+!endprocedure
+
+!procedure ServiceUsersGroup($id, $name='Service Users', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceUsersLg>', $name, $tech)
+!endprocedure

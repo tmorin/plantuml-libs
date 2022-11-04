@@ -1,0 +1,24 @@
+' definition of the Item azure-6/Item/General/ServiceManagementGroups
+
+sprite $ServiceManagementGroupsXs [10x10/16z] HOY50G0m2CCo0Vh_mtE1El_CjXKS3gVgf03tcoWp6NwtVOwzTABH0G
+
+sprite $ServiceManagementGroupsSm [12x12/16z] LSQ50G0W4090llVVM6pzWCCtCSk25CBvbaXMbJ6dCuyBa5hcpVhNvmwleIAc1fR5qG
+
+sprite $ServiceManagementGroupsMd [16x16/16z] RS-50G0X20LGG3_SxJ-mtHtFXkw4Fc1aOLW0Hofb3sgdf6N9p7BdkhzV5oCttdLpsMpMNUzKT7jAGsPfbjIa8Wd5CpsDIOQI05mmGl5pdIW2
+
+sprite $ServiceManagementGroupsLg [20x20/16z] {
+TP050aGX24I7ZupS_yIxTjCyMpp4fZeKOYQDf4O1DbIY_Yd8CeEqMdGMOemxWxllZ13HXPLrZ9nOMHVTZtcW3lQ9IEemrXeX3AaY6zDKVQa9dItoPBOYJLkO
+XK6aV1RCfbcj4Qpo0m
+}
+
+!procedure ServiceManagementGroups($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-6/Item/General/ServiceManagementGroups', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceManagementGroupsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceManagementGroupsLg>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceManagementGroupsGroup($id, $name='Service Management Groups', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceManagementGroupsLg>', $name, $tech)
+!endprocedure

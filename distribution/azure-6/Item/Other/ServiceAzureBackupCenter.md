@@ -1,0 +1,157 @@
+# ServiceAzureBackupCenter
+
+
+```text
+azure-6/Item/Other/ServiceAzureBackupCenter
+```
+
+```text
+include('azure-6/Item/Other/ServiceAzureBackupCenter')
+```
+
+
+
+| Illustration | ServiceAzureBackupCenter | ServiceAzureBackupCenterCard | ServiceAzureBackupCenterGroup |
+| :---: | :---: | :---: | :---: |
+| ![illustration for Illustration](../../../azure-6/Item/Other/ServiceAzureBackupCenter.png) | ![illustration for ServiceAzureBackupCenter](../../../azure-6/Item/Other/ServiceAzureBackupCenter.Local.png) | ![illustration for ServiceAzureBackupCenterCard](../../../azure-6/Item/Other/ServiceAzureBackupCenterCard.Local.png) | ![illustration for ServiceAzureBackupCenterGroup](../../../azure-6/Item/Other/ServiceAzureBackupCenterGroup.Local.png) |
+
+
+
+
+## ServiceAzureBackupCenter
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-6/bootstrap')
+
+' loads the Item which embeds the element ServiceAzureBackupCenter
+include('azure-6/Item/Other/ServiceAzureBackupCenter')
+
+' renders the element
+ServiceAzureBackupCenter('ServiceAzureBackupCenter', 'Service Azure Backup Center', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-6/bootstrap')
+
+' loads the Item which embeds the element ServiceAzureBackupCenter
+include('azure-6/Item/Other/ServiceAzureBackupCenter')
+
+' renders the element
+ServiceAzureBackupCenter('ServiceAzureBackupCenter', 'Service Azure Backup Center', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+## ServiceAzureBackupCenterCard
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-6/bootstrap')
+
+' loads the Item which embeds the element ServiceAzureBackupCenterCard
+include('azure-6/Item/Other/ServiceAzureBackupCenter')
+
+' renders the element
+ServiceAzureBackupCenterCard('ServiceAzureBackupCenterCard', 'Service Azure Backup Center Card', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-6/bootstrap')
+
+' loads the Item which embeds the element ServiceAzureBackupCenterCard
+include('azure-6/Item/Other/ServiceAzureBackupCenter')
+
+' renders the element
+ServiceAzureBackupCenterCard('ServiceAzureBackupCenterCard', 'Service Azure Backup Center Card', 'an optional description')
+@enduml
+```
+
+## ServiceAzureBackupCenterGroup
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-6/bootstrap')
+
+' loads the Item which embeds the element ServiceAzureBackupCenterGroup
+include('azure-6/Item/Other/ServiceAzureBackupCenter')
+
+' renders the element
+ServiceAzureBackupCenterGroup('ServiceAzureBackupCenterGroup', 'Service Azure Backup Center Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-6/bootstrap')
+
+' loads the Item which embeds the element ServiceAzureBackupCenterGroup
+include('azure-6/Item/Other/ServiceAzureBackupCenter')
+
+' renders the element
+ServiceAzureBackupCenterGroup('ServiceAzureBackupCenterGroup', 'Service Azure Backup Center Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml
+```
+

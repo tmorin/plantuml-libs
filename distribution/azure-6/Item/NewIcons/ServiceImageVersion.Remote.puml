@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-6/bootstrap')
+
+' loads the Item which embeds the element ServiceImageVersion
+include('azure-6/Item/NewIcons/ServiceImageVersion')
+
+' renders the element
+ServiceImageVersion('ServiceImageVersion', 'Service Image Version', 'an optional tech label', 'an optional description')
+@enduml

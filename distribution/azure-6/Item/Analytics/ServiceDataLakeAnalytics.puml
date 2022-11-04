@@ -1,0 +1,24 @@
+' definition of the Item azure-6/Item/Analytics/ServiceDataLakeAnalytics
+
+sprite $ServiceDataLakeAnalyticsXs [10x10/16z] JSY50S0m2031R_B8_WlNxN3uKwybBzSsp1IgwYYnQZ3tTcor77_iZju1VU4q5JO
+
+sprite $ServiceDataLakeAnalyticsSm [12x12/16z] ROs50G0X202FPl-9lrDFwUA7ktAG5nCVNvL3hUpAiLKBichmEx_wtRtA2j0hVx-UqwjQ
+
+sprite $ServiceDataLakeAnalyticsMd [16x16/16z] RSi55i0m20HH7Ev_uIHiNQQoxrVeBpEzoUF8cd7hRJdDZ1ziELT1tjFEZXbZj1iBMwBzi-NgD31q67UO2bsEbv7wYkwnISy4
+
+sprite $ServiceDataLakeAnalyticsLg [20x20/16z] {
+XSk54KKX30NHUD9_mq_OxxeZbpc0V2t2NqdZJ1-adl8FbjXpZsOMQyCEwrM9ik4tCoai3dBiM3ejUCOj9yKoRnz40kjG5fkL3frcMCxTZeR-MZwPoaCUH_AQ
+ERi3
+}
+
+!procedure ServiceDataLakeAnalytics($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-6/Item/Analytics/ServiceDataLakeAnalytics', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceDataLakeAnalyticsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDataLakeAnalyticsLg>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDataLakeAnalyticsGroup($id, $name='Service Data Lake Analytics', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDataLakeAnalyticsLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item azure-6/Item/General/ServiceBrowser
+
+sprite $ServiceBrowserXs [10x10/16z] Oy06kE0q5mmmiC800HOR322C0m
+
+sprite $ServiceBrowserSm [12x12/16z] Oy05kDYXW8EBWOiL2e1iLWIWYCs60CZM0W
+
+sprite $ServiceBrowserMd [16x16/16z] Oo04k5009mCGmG4Z5nUGpue0G3uxAc1WHGKqvxEX0aBU0m
+
+sprite $ServiceBrowserLg [20x20/16z] Ow04S6403g0O2ueQ3h0OEoiou0IBOUfbnG0iWrwC3GEmOX5Z8JP80G
+
+!procedure ServiceBrowser($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-6/Item/General/ServiceBrowser', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceBrowserCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceBrowserLg>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceBrowserGroup($id, $name='Service Browser', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceBrowserLg>', $name, $tech)
+!endprocedure

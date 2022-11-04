@@ -1,0 +1,24 @@
+' definition of the Item azure-6/Item/General/ServiceGlobeSuccess
+
+sprite $ServiceGlobeSuccessXs [10x10/16z] JSp50O0030F0Gzgm_yAunL_nmz0x599zz4mbiMywv5oMxEW9TKo5yeInwdk43G
+
+sprite $ServiceGlobeSuccessSm [12x12/16z] LOg50K9134DJp_uJaolmvPsq4Rpf0shNcKkCQ6lVFMVKgzJETYZ9tLaZjc-ardJJdcWEB76ej2Z7dxgshAhG_
+
+sprite $ServiceGlobeSuccessMd [16x16/16z] RStN0OCm40JHlQp-A_QSSveltWAI_cIzINLZpjm6lmr3C5jr9u5szwTXbn8VdiTwrhLcWFmI5ZWP8DqlFBJCkpKCBsPANYwL8R8gJghIAm_qKRyZQzDs0G
+
+sprite $ServiceGlobeSuccessLg [20x20/16z] {
+TSs55SD030JH5Ql_YhFlGE4nVn_WRvxC0TWLgTmf8YwnmMrr3JpTpx2jeZCmZe6KlgswX2HQjDYMNOg2rejfToj8R3QcbTKss3PjjiqGWbLS2tXi4aWj5TWX
+HE3h3HPX8hmxNj9WYg_oIoJJFyHtM3q
+}
+
+!procedure ServiceGlobeSuccess($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-6/Item/General/ServiceGlobeSuccess', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceGlobeSuccessCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceGlobeSuccessLg>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceGlobeSuccessGroup($id, $name='Service Globe Success', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceGlobeSuccessLg>', $name, $tech)
+!endprocedure

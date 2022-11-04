@@ -1,0 +1,24 @@
+' definition of the Item azure-6/Item/Databases/ServiceAzureSql
+
+sprite $ServiceAzureSqlXs [10x10/16z] RSQ50S0W40F0noBils_ToxqaCTPQ0xO6W5oIXoYacdAM82qjPJkyajqZt3Tncm4
+
+sprite $ServiceAzureSqlSm [12x12/16z] VSY50S0W30311wBTVz-wsyN3ZwQgmgpQP3xKp2U0hy9fuoDAb1eHFbOfGSrC8jLIqdJU9zqe0D4P5mC
+
+sprite $ServiceAzureSqlMd [16x16/16z] ZSq53e0m343Hkjt_mCmQ5eKt_R72Fwo2TwcQQIVP9bVwjD9V9utSsOCZ0dWqZ3TmhC7dmQ0GmnnqDBEZOAAEXZmeXohWqxNmd50j4Buy
+
+sprite $ServiceAzureSqlLg [20x20/16z] {
+fSf50eHG30FGr5FkV-0XZAzvNwgupqe2FqhwX0zlaOH8NqO-I_C5YVdd01JJGe_b9EUv1hA2wLUFFVeJRSL6ExcxpOjfpzfNJ1stsZJVSTSUk296_SUnmATt
+lE14LH-BMnu
+}
+
+!procedure ServiceAzureSql($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-6/Item/Databases/ServiceAzureSql', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureSqlCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureSqlLg>', 'Databases', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureSqlGroup($id, $name='Service Azure Sql', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureSqlLg>', $name, $tech)
+!endprocedure

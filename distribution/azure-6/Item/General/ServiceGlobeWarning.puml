@@ -1,0 +1,24 @@
+' definition of the Item azure-6/Item/General/ServiceGlobeWarning
+
+sprite $ServiceGlobeWarningXs [10x10/16z] JSp50GGn00B0YK3wh_XS5d_XWj4cWjPZRj8k3N9Cgn3emZwd5SGtpEJ_27S
+
+sprite $ServiceGlobeWarningSm [12x12/16z] LKe50G0n488DwP_uNKyn_Ck93Uym2M-oONER4yD8f0rN87XXx7NcsJRHu8O5Dw1EMvmUkCiFaksv_HK
+
+sprite $ServiceGlobeWarningMd [16x16/16z] PSZ50GCm5CDGVR2p_yODbTzDWdzXMmAnzSg95CjAra4t7GfBaGaCkn2ocbuz32BiHhiJ6jeL1PGvZ5Z6vAbkupdUsGtP0Ggsa2fAuYrBV3EyjHQM1m
+
+sprite $ServiceGlobeWarningLg [20x20/16z] {
+TOq53i103CDIIEx_Bnv4O_3mB5V5BosH3Q2m4LeXcI0lYhNAmEPS0IxHVMHLlNoFaCwglQXXfo4biZt0hHk3M1rAsheS8u0eRyjjyP9jf50472x851WmlSj6
+4oOGiWnF6XAlFnHP4KKsBYGN4Y_qCY7rmxJPx0m
+}
+
+!procedure ServiceGlobeWarning($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-6/Item/General/ServiceGlobeWarning', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceGlobeWarningCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceGlobeWarningLg>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceGlobeWarningGroup($id, $name='Service Globe Warning', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceGlobeWarningLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-6/bootstrap')
+
+' loads the Item which embeds the element ServiceSoftwareUpdatesGroup
+include('azure-6/Item/Intune/ServiceSoftwareUpdates')
+
+' renders the element
+ServiceSoftwareUpdatesGroup('ServiceSoftwareUpdatesGroup', 'Service Software Updates Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

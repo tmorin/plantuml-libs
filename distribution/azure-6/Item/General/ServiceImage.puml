@@ -1,0 +1,21 @@
+' definition of the Item azure-6/Item/General/ServiceImage
+
+sprite $ServiceImageXs [10x10/16z] RSY53S103CNGVnJOV-66HRNeoVZhTNW7AtNjamTAsMFhd6SIaMEPL1r6J1y
+
+sprite $ServiceImageSm [12x12/16z] TSh90G0n2090NBpwRtXp9o_dfG0gV616iGKclTkte_C9_ktR736GFZRh9CUTcPpwNMW
+
+sprite $ServiceImageMd [16x16/16z] bSwr0G1120J0nUc_uNUNaybmqClkvbX8hp5Vk-1O-EOTBmbU0ZD7h5J2RRB5Ch4bpad8ueXbi_zpK4752
+
+sprite $ServiceImageLg [20x20/16z] hSb50e0W54NHnozr_mkccw5S-e3RwP5aOqUxCG2t6d8ocGbArefckodIIac5sFGjbHHFJPavqp3XLBKt5saW1kKasHVZs431Zm8
+
+!procedure ServiceImage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-6/Item/General/ServiceImage', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceImageCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceImageLg>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceImageGroup($id, $name='Service Image', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceImageLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item azure-6/Item/NewIcons/ServiceContainerAppEnvironments
+
+sprite $ServiceContainerAppEnvironmentsXs [10x10/16z] XKkr0O0m0CDZ_z-BB7ZRBF6k0M2HUIW2ikTT2V2bacLNi-Ny_Fk-7pO
+
+sprite $ServiceContainerAppEnvironmentsSm [12x12/16z] JKk50SCm35FCyF-_2wrjm1RYUsICeM0YCj3aZ36dBamMSh65PLLEhEpX4nSR04-lUIRYZRjxvtDZsXYpZNaEPXnigcfd_W
+
+sprite $ServiceContainerAppEnvironmentsMd [16x16/16z] XO-50G0n20EhaEJtd_VThLV58TonXUDTjBzlB0xiSdOtewIwoCNSPrcpF4fmruJR55rsUSvG5titudMEt-KrFmcCSZdwY42pp-MzpLS7
+
+sprite $ServiceContainerAppEnvironmentsLg [20x20/16z] {
+bSy54iH024HHo2uDTEv_thZx_3Bg9MDorHzJWgbAC7t3CbcPwSyyKZVcNV0a6Oi5C1bfixc7xmp8te930PXqRMs0zR-wBu5XlwrXEYDZiP39BCdCph1_cqR4
+_NlVJOSg4xKfMOOM
+}
+
+!procedure ServiceContainerAppEnvironments($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-6/Item/NewIcons/ServiceContainerAppEnvironments', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceContainerAppEnvironmentsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceContainerAppEnvironmentsLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceContainerAppEnvironmentsGroup($id, $name='Service Container App Environments', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceContainerAppEnvironmentsLg>', $name, $tech)
+!endprocedure

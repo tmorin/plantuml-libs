@@ -2,11 +2,12 @@
 
 ## Packages
 
-The library provides 13 packages.
+The library provides 14 packages.
 
 - [aws-q1-2022](aws-q1-2022/README.md)
 - [aws-q2-2022](aws-q2-2022/README.md)
 - [azure-4](azure-4/README.md)
+- [azure-6](azure-6/README.md)
 - [c4model](c4model/README.md)
 - [c4nord](c4nord/README.md)
 - [domainstorytelling](domainstorytelling/README.md)

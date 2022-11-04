@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-6/bootstrap')
+
+' loads the Item which embeds the element ServiceIndustrialIoTCard
+include('azure-6/Item/Iot/ServiceIndustrialIoT')
+
+' renders the element
+ServiceIndustrialIoTCard('ServiceIndustrialIoTCard', 'Service Industrial Io T Card', 'an optional description')
+@enduml

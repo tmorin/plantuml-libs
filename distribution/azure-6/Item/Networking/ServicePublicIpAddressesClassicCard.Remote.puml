@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-6/bootstrap')
+
+' loads the Item which embeds the element ServicePublicIpAddressesClassicCard
+include('azure-6/Item/Networking/ServicePublicIpAddressesClassic')
+
+' renders the element
+ServicePublicIpAddressesClassicCard('ServicePublicIpAddressesClassicCard', 'Service Public Ip Addresses Classic Card', 'an optional description')
+@enduml

@@ -1,0 +1,21 @@
+' definition of the Item azure-6/Item/NewIcons/ServiceAzurite
+
+sprite $ServiceAzuriteXs [10x10/16z] HSR50G11202nMHpwx_TSyWhoO9hB42_oHRtkXHtwP2TE_nnNlNVQ0G
+
+sprite $ServiceAzuriteSm [12x12/16z] LSP50S1040ImMGR_Viizo2lW0TruIQCcnBGzf--kjthe8x_BTJpCoCo-Yn7fTx-T
+
+sprite $ServiceAzuriteMd [16x16/16z] PSUr0G0W4C30TsJ_VN7dgWJe112ZB1QvF2rQtbyOt8MUv-_zPRz95mRvdjiJTxNgmw3AhCNnYeZxk_LYNGO
+
+sprite $ServiceAzuriteLg [20x20/16z] ZSl50K0X30FGGBtxx_lTbNUCe5uK83Fjm3F7B710SvPnD6Pw0zXDU-OtVvdoAZRSd1MQCsnu2A-PY1IMqJ432msEsOW7r-pohRhg0G
+
+!procedure ServiceAzurite($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-6/Item/NewIcons/ServiceAzurite', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzuriteCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzuriteLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzuriteGroup($id, $name='Service Azurite', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzuriteLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item azure-6/Item/General/ServiceSubscriptions
+
+sprite $ServiceSubscriptionsXs [10x10/16z] Om019WOeO052C61cPc9cWJ1OM5YPmOgOGO01neJg038mM2m85jWC
+
+sprite $ServiceSubscriptionsSm [12x12/16z] HSZ50S0W50FGMFSVkGRalqi47mg7BBS2MODUrkqa3ZwzFwjse6ArN_Rqp9_Wym
+
+sprite $ServiceSubscriptionsMd [16x16/16z] VSg72S1G009HqSl-8wSBgV-eJzIHhMkiNPX8vC988UKPgPdM28TTMnssLZQNhRmUhWxnmnaRT8ro0G
+
+sprite $ServiceSubscriptionsLg [20x20/16z] ZOk55GGW3CNQvhF_oEU7M_2yO7y8wv74e3whXlVFjkI51rGb6L4vlKW9r3a9SXTaBEEZogNP8Aq3Y8d39-wcayPEBtpYhATIJm
+
+!procedure ServiceSubscriptions($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-6/Item/General/ServiceSubscriptions', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceSubscriptionsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceSubscriptionsLg>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceSubscriptionsGroup($id, $name='Service Subscriptions', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceSubscriptionsLg>', $name, $tech)
+!endprocedure

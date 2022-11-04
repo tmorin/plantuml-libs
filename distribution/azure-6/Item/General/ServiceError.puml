@@ -1,0 +1,21 @@
+' definition of the Item azure-6/Item/General/ServiceError
+
+sprite $ServiceErrorXs [10x10/16z] JSR50G11202nmQ7_WizbymghF9sHEW7rmFkLtvXBpC2zu1RVF9CT
+
+sprite $ServiceErrorSm [12x12/16z] NSst0O0030D16R32_WEJyrNVFNwuERArwIrrsl9MzEFToC5CK4Ttft3g7g-Skllr7h
+
+sprite $ServiceErrorMd [16x16/16z] bSc50S0W4C3086_x3rntxw41BccFXOsMNviijMdRgYJVKVCzFJInCEisT6cHxWtob2vYXPLq-D5PDKCB
+
+sprite $ServiceErrorLg [20x20/16z] XSg50S0m24JHtmOukl_0TRUy2CgtDYQ5azYSjhGnLeqEp8hEc9Yk3D03bW-XV8fyeZiBJJywzzp7Jv2dDVUnOjGUQoFZmdp4bK-ithCOSLFS6s
+
+!procedure ServiceError($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-6/Item/General/ServiceError', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceErrorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceErrorLg>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceErrorGroup($id, $name='Service Error', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceErrorLg>', $name, $tech)
+!endprocedure

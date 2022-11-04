@@ -1,0 +1,24 @@
+' definition of the Item azure-6/Item/Networking/ServiceVirtualNetworkGateways
+
+sprite $ServiceVirtualNetworkGatewaysXs [10x10/16z] NOZ50G0m2CI2tluJr_WrM3WENWnrY36mbyRTlmttpI0ohtb5nhDiycKj8IKR
+
+sprite $ServiceVirtualNetworkGatewaysSm [12x12/16z] RSc53S1G549HdW3xJrptVc8d5wmhuXpNdLoVs5rRs9r3rx5UIrTXuMRsxGJLYBtBS6zTzc8lrmm
+
+sprite $ServiceVirtualNetworkGatewaysMd [16x16/16z] ZSZ70GD020D10HBqtx49ZZ_lnG4NvUZUcjuCYVmQIBPtl3stIJ_6dsPyMgidZXPvbYBQVDj43_fPSb19XvsxB1J9SsOLaPKlL-TpjHy
+
+sprite $ServiceVirtualNetworkGatewaysLg [20x20/16z] {
+bSvL0iGW40FGaMJW_YVUR1NvQbhieNObmBGvF98R7JWIj5tDQ335XuLnpmyBy-xYks4tv1YSTg1R78JdnHhP8OFXC0o6I4BYmzxm84j3zs4lgwnXtCjgJTRg
+iQgcX57rO-httjd_ATaF
+}
+
+!procedure ServiceVirtualNetworkGateways($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-6/Item/Networking/ServiceVirtualNetworkGateways', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceVirtualNetworkGatewaysCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceVirtualNetworkGatewaysLg>', 'Networking', $funcName, $content)
+!endprocedure
+
+!procedure ServiceVirtualNetworkGatewaysGroup($id, $name='Service Virtual Network Gateways', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceVirtualNetworkGatewaysLg>', $name, $tech)
+!endprocedure

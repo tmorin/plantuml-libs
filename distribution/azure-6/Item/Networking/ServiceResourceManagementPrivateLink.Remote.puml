@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-6/bootstrap')
+
+' loads the Item which embeds the element ServiceResourceManagementPrivateLink
+include('azure-6/Item/Networking/ServiceResourceManagementPrivateLink')
+
+' renders the element
+ServiceResourceManagementPrivateLink('ServiceResourceManagementPrivateLink', 'Service Resource Management Private Link', 'an optional tech label', 'an optional description')
+@enduml

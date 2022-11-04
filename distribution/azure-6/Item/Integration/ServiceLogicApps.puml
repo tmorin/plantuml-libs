@@ -1,0 +1,24 @@
+' definition of the Item azure-6/Item/Integration/ServiceLogicApps
+
+sprite $ServiceLogicAppsXs [10x10/16z] Oy06s1WOk3XOWJIOnG1ZCNE3vPWOk4409CR61X81GGuE88i3n8AR0GS
+
+sprite $ServiceLogicAppsSm [12x12/16z] TSo53GCm30312zF--rQEeFncz8-UA2NJaYvOg3TFBxdZvaq_0LtNAk5YPmp2HPuW9LMyldIlF
+
+sprite $ServiceLogicAppsMd [16x16/16z] XOo30S1034L_pjX_tqQrNapy4lQKs69YbteVO0gdCi-iNpNlTwypGPZgixRAD00gibzifVfzh5LA3gSwhJN8zZaKVU5e_iS2
+
+sprite $ServiceLogicAppsLg [20x20/16z] {
+fP1L0WGn34AXBlU_xuRDQ7zMXXfvzU2HShc59G9qD5hhMORbPEQ-OcHSMKmpOcTHZ6IODEbYgy7Qt2MMGV44rppEAwL44PcTrLfzePcTjTQScTaPtlVvzOhz
+uZKbZ3UMyBLU
+}
+
+!procedure ServiceLogicApps($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-6/Item/Integration/ServiceLogicApps', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceLogicAppsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceLogicAppsLg>', 'Integration', $funcName, $content)
+!endprocedure
+
+!procedure ServiceLogicAppsGroup($id, $name='Service Logic Apps', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceLogicAppsLg>', $name, $tech)
+!endprocedure

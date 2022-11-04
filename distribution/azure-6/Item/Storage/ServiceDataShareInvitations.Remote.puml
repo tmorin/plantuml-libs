@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-6/bootstrap')
+
+' loads the Item which embeds the element ServiceDataShareInvitations
+include('azure-6/Item/Storage/ServiceDataShareInvitations')
+
+' renders the element
+ServiceDataShareInvitations('ServiceDataShareInvitations', 'Service Data Share Invitations', 'an optional tech label', 'an optional description')
+@enduml

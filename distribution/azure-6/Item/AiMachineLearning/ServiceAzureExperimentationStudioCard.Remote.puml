@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-6/bootstrap')
+
+' loads the Item which embeds the element ServiceAzureExperimentationStudioCard
+include('azure-6/Item/AiMachineLearning/ServiceAzureExperimentationStudio')
+
+' renders the element
+ServiceAzureExperimentationStudioCard('ServiceAzureExperimentationStudioCard', 'Service Azure Experimentation Studio Card', 'an optional description')
+@enduml

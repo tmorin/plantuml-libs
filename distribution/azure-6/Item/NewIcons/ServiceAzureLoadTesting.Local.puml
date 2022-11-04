@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-6/bootstrap')
+
+' loads the Item which embeds the element ServiceAzureLoadTesting
+include('azure-6/Item/NewIcons/ServiceAzureLoadTesting')
+
+' renders the element
+ServiceAzureLoadTesting('ServiceAzureLoadTesting', 'Service Azure Load Testing', 'an optional tech label', 'an optional description')
+@enduml
