@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [9.5.0](https://github.com/tmorin/plantuml-libs/compare/v9.4.4...v9.5.0) (2022-11-04)
+
+
+### Features
+
+* **azure-4:** refresh the package ([afeefbf](https://github.com/tmorin/plantuml-libs/commit/afeefbfc3ea3a2ed619619ebc4fb178fad7f6c60))
+* **azure-6:** add the package ([88c2ee3](https://github.com/tmorin/plantuml-libs/commit/88c2ee32d6d3546bb1d9fde6605e52bf60d5eead))
+* **azure-6:** refresh the package ([b1405ed](https://github.com/tmorin/plantuml-libs/commit/b1405ed9d843557724293eebeba35348e6f25864))
+
 ### [9.4.4](https://github.com/tmorin/plantuml-libs/compare/v9.4.3...v9.4.4) (2022-08-19)
 
 
