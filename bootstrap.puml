@@ -1,4 +1,4 @@
-@startuml
+
 
 ' by default the inclusion mode is remote
 !if (%not(%variable_exists("$INCLUSION_MODE")))
@@ -174,5 +174,3 @@ skinparam DefaultFontColor $FONT_COLOR
         Rectangle $id <<$stereotype>>
     !endif
 !endprocedure
-
-@enduml

@@ -1,0 +1,27 @@
+' definition of the Item azure-6/Item/NewIcons/ServiceSonicDash
+
+sprite $ServiceSonicDashXs [10x10/16z] 9Ko50G0W3D9r_d-kkGvWNCFnRKh-WJBvr3D5qA3gyKQhDr6wGTuf32VS6r24LD5bJRUSydLUtm
+
+sprite $ServiceSonicDashSm [12x12/16z] DKs50G0X29Ik__t7jLlWgkr5xIsKUYLNlJfDS6B1iuvC0Vr-MG1a-dTgr78tsNM4882k6ZpJE2O76nF4ueEiG4PoOdbffEiR
+
+sprite $ServiceSonicDashMd [16x16/16z] {
+JKy54W0X2AHLkFl_SsqTTtABW0s65oJnKYdnSD68A3CskIUPZCk_kBinKFh-nRaBHUARV2Avv_XYSx4-BWVcpTqq1F5mx7Lbv34F-pIqCK_7l4GA98HvpdCK
+c_k4gCzZjlEK2FQQmWMA6amq
+}
+
+sprite $ServiceSonicDashLg [20x20/16z] {
+NT074iGm20D02mHkkVz_zo0zrZJFkW7bZfOrmeQlW3xdrpJaQq8csR4-RLJMUZpHVuTnZ67CHTr-fyc8T8j7jyiYDRK5lGpMTnkFPN4zJ7HU9iryJ2VmcCKz
+Km3YSLT201kHQcfjIqCy9k38-FulOIXWg9-rDAYVFHBeOHDml-T21IjXBkK9yrctTSwF_04
+}
+
+!procedure ServiceSonicDash($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-6/Item/NewIcons/ServiceSonicDash', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceSonicDashCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceSonicDashLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceSonicDashGroup($id, $name='Service Sonic Dash', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceSonicDashLg>', $name, $tech)
+!endprocedure

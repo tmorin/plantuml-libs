@@ -1,0 +1,24 @@
+' definition of the Item azure-6/Item/NewIcons/ServiceAcsSolutionsBuilder
+
+sprite $ServiceAcsSolutionsBuilderXs [10x10/16z] RSb50S1040ImMGR_VilSopSOg3x0JmW2sCm2IO3a0XaHgQBAjOmRaVasli1j1W
+
+sprite $ServiceAcsSolutionsBuilderSm [12x12/16z] TSdN0SG0209Gx7BxxtlfFNa_2k03VxlBdxL39O2AKQ5h-dk2RX5fdu0SPuQBHPBZEcQDICnoWhC1
+
+sprite $ServiceAcsSolutionsBuilderMd [16x16/16z] XSU50G0X34FH58Vz1xwav_wGzkD7xaT07qVtBYT0hIOrIsKtIFDkN9PswkxTapFsZ3ixbzwpy3SBkR2Rg5DcmsR51VoP
+
+sprite $ServiceAcsSolutionsBuilderLg [20x20/16z] {
+fSrL0i8m383Xj77kVzzwWhm0sp__Le4R-UCZ-TtaCngciegd3bCjCAlAgsMs3KrMnW2MjblcONIQfYiRXikgU9WpbrA9MORnIfQLkirjviFMi66vdye92B93
+33_N0G
+}
+
+!procedure ServiceAcsSolutionsBuilder($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-6/Item/NewIcons/ServiceAcsSolutionsBuilder', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAcsSolutionsBuilderCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAcsSolutionsBuilderLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAcsSolutionsBuilderGroup($id, $name='Service Acs Solutions Builder', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAcsSolutionsBuilderLg>', $name, $tech)
+!endprocedure

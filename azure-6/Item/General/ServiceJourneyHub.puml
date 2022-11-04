@@ -1,0 +1,21 @@
+' definition of the Item azure-6/Item/General/ServiceJourneyHub
+
+sprite $ServiceJourneyHubXs [10x10/16z] NOk30G1024LpxR_mcRsC3nSTcDdJCNChRUYTkxSXTGCGaTj5HE-QAWOL
+
+sprite $ServiceJourneyHubSm [12x12/16z] TSY54S0030B0AB3_mdMNw1zshUwUDu2uEJCDW7UVtdEIloR3gkhfs2qffh7gdZsjZm
+
+sprite $ServiceJourneyHubMd [16x16/16z] XOg50G0X30EJ-luBlxl08Mq4J-ZkjEb3JAnQMbfLuVFg4orzxMVcHREbpMpLER5gYPwkgfUk-GD80Y82pjy8
+
+sprite $ServiceJourneyHubLg [20x20/16z] hSk54S0W44JHZzD_nM5dH-B-q3DsfI6IX3mae0Y-gpp89S5HaUlSQhR9xpdVaELJhijkpZSKMUJsJ
+
+!procedure ServiceJourneyHub($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-6/Item/General/ServiceJourneyHub', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceJourneyHubCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceJourneyHubLg>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceJourneyHubGroup($id, $name='Service Journey Hub', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceJourneyHubLg>', $name, $tech)
+!endprocedure

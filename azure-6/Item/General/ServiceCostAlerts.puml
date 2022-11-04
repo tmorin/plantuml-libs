@@ -1,0 +1,21 @@
+' definition of the Item azure-6/Item/General/ServiceCostAlerts
+
+sprite $ServiceCostAlertsXs [10x10/16z] JSY50G0m20F1huRz5wuBXyENBkeGPcFMtYI5sOJkEglkdrqiXjS1
+
+sprite $ServiceCostAlertsSm [12x12/16z] TSk70O0W40F00D_sdrXZxCfHls4co8AsVqC__sZAvwh3-I2fGNzzzQVGFoWhEIl3yRG
+
+sprite $ServiceCostAlertsMd [16x16/16z] ZSVL0SH0203HmUc_uRDaxUloLc3u9qxaHUvvTO3iBIQ-jo9veNwSU-7A4d9h1QcxBt9F-aHUglit6RnvuWq
+
+sprite $ServiceCostAlertsLg [20x20/16z] bOY50S102CGEP_-5wzJjyq88_Y8N27P1uGjAPLQD0Qoj9XFVD5zRp10WYwujjEBQF8oeV9q3khP5PB2rhN5hUS7XHGph98eDoyG5IJJH0m
+
+!procedure ServiceCostAlerts($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-6/Item/General/ServiceCostAlerts', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceCostAlertsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceCostAlertsLg>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceCostAlertsGroup($id, $name='Service Cost Alerts', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceCostAlertsLg>', $name, $tech)
+!endprocedure

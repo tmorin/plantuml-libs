@@ -1,0 +1,21 @@
+' definition of the Item azure-6/Item/Storage/ServiceAzureFileshare
+
+sprite $ServiceAzureFileshareXs [10x10/16z] PSR50S0W002nQt7OVrxSoIiC_xMVBvIf30AWcpKXWscGs8QNJ
+
+sprite $ServiceAzureFileshareSm [12x12/16z] JOs30S0m44M_wltdhSANd8KECR26lnGZU3skwyzysFldhvNPLt9k5SLeFbxsodINavy7
+
+sprite $ServiceAzureFileshareMd [16x16/16z] XSZ50KCn081GcXBVVzxgTtqtO4LM7h8YQvr1W62ghVzF_07QlzFijfMye3wN0uKo0zQzabZJRRy1
+
+sprite $ServiceAzureFileshareLg [20x20/16z] bSe53WGn3CLGD_db-vztQRWHxHDRPkL6814eVYLnoGOacyNEsi6KQnzpZdtQEA17svHI-2cNVvehOMLJDovfjhgx6ZmRaa5xu2UqfqdaCc9JQ2Qz0G
+
+!procedure ServiceAzureFileshare($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-6/Item/Storage/ServiceAzureFileshare', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureFileshareCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureFileshareLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureFileshareGroup($id, $name='Service Azure Fileshare', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureFileshareLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,27 @@
+' definition of the Item azure-6/Item/Containers/ServiceAppServices
+
+sprite $ServiceAppServicesXs [10x10/16z] JSod0SG05CDG_MxlF_2Le3ma9DxyzuJgHp1IvSacuJPlJ4JiReHnvksfchOQP8EjpExNxmi
+
+sprite $ServiceAppServicesSm [12x12/16z] LOr10aHX18AHdxh_XIUpUzyAgk9BGoOEYLW05G6ILSFxg1BTpLjesSn3jk9bvdZ9b3M5dLqBGs03QRtLAwvbowkIzC2DFp9t_G4
+
+sprite $ServiceAppServicesMd [16x16/16z] {
+ROwvWSG020F5Z_fl-CJQpcuYXX__4KkHhoKtfDlrKrTSMH6HzPQtpNDk2DYSKl5ypsdNC-rnFY24TNUucgcwSFcuMSXTz7cvvuAPbJ7YvXCLivC1-Fdl_ky1
+ivvj28hLh0RnWo-3ZvKrZZy
+}
+
+sprite $ServiceAppServicesLg [20x20/16z] {
+TSv7Wi0m349HR6G4zx_mM9dUtehyDED_bN7mAM76PrspQVVXzTewiVbArgHIVDlQ9Jl91jQfIToxsay4sWl03NgF2zaOBMcpTURVmKE3wxuH8UkXqRFIoDdZ
+IVswaF2Ewadjecj1pVOfIZpzTXOKOwjufzuRApUwxkUfjZ6K9yvNB-BX3AkJ46-OT_XYdNRNsyKB
+}
+
+!procedure ServiceAppServices($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-6/Item/Containers/ServiceAppServices', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAppServicesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAppServicesLg>', 'Containers', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAppServicesGroup($id, $name='Service App Services', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAppServicesLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item azure-6/Item/Storage/ServiceDataBoxEdge
+
+sprite $ServiceDataBoxEdgeXs [10x10/16z] TSQ35G0m40Mmmo_sNxWsyXJwi4c9otfAeV25gagj2BKH4cQcHGG
+
+sprite $ServiceDataBoxEdgeSm [12x12/16z] VSR50SCm542nPt_UV-0sp8bEuekvorAFWMqTC8WLw21dNK5ZlaX3bgEY6ZLgCBnnymS
+
+sprite $ServiceDataBoxEdgeMd [16x16/16z] dScr0SKm5CLGsK-c_GV-66u2fxh08zQFijRsCm-vJVXARP41ggKjG4DRdoM1SEa69jQU3py6wlZhW5zSzGO
+
+sprite $ServiceDataBoxEdgeLg [20x20/16z] hSj50WH124FH0B_i_WSUwzBTs5iXYVw1d9Df5_cYnKkND9L95oiRzj3Hpa0k6oaW8DMb23UPKRPZ40evR3T2mdJS79VEN1A40DgG976nYxfh-TmT
+
+!procedure ServiceDataBoxEdge($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-6/Item/Storage/ServiceDataBoxEdge', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceDataBoxEdgeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDataBoxEdgeLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDataBoxEdgeGroup($id, $name='Service Data Box Edge', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDataBoxEdgeLg>', $name, $tech)
+!endprocedure
