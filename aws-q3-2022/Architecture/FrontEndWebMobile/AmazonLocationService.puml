@@ -1,0 +1,27 @@
+' definition of the Item aws-q3-2022/Architecture/FrontEndWebMobile/AmazonLocationService
+
+sprite $AmazonLocationServiceXs [10x10/16z] FSY74S0m3CD0TrlG_lk6JCErFuGwRlCJiOdMTuMXMIogRecJC2bIP2ueJ2k93f89uWK
+
+sprite $AmazonLocationServiceSm [12x12/16z] JOgt5GHH20FlEs14__tU4z5E8ekf8VK9SlYjDTxXmdY7SulnUSIcbhrM2SwZMXozKopeNhui8kXkRHGNQ0U597k7WJy
+
+sprite $AmazonLocationServiceMd [16x16/16z] {
+NSZ70GGn2CLGuuW-_TSx2M_KxOdCixNqDwJDdPxXSzfs3gEJpb4kypAstBnNqWM92gpoMDObe0pmk8XwepZJ849kve9Pgz-EFeID9kfy71fTbnQaGvhcaXxd
+oDBVumG
+}
+
+sprite $AmazonLocationServiceLg [20x20/16z] {
+RSpL0KD120LHrfbB__tc2HkVpuEG-MwjnH_K7rHYErg9IgpGVTl6Vl2RQHjfDpPAgNtmDApV7zrQsZIaos3OlYq5SRHiW7lSUwCweoocEHu7oiOr0MiSHSIo
+HUl8ww2NssAQf6fJ32CjjEgIwDNPTg2mLYMb9MPfFnX_y04
+}
+
+!procedure AmazonLocationService($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Architecture/FrontEndWebMobile/AmazonLocationService', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonLocationServiceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonLocationServiceLg>', 'FrontEndWebMobile', $funcName, $content)
+!endprocedure
+
+!procedure AmazonLocationServiceGroup($id, $name='Amazon Location Service', $tech='')
+  IconGroupElement($id, 'FrontEndWebMobileFamily', '<$AmazonLocationServiceLg>', $name, $tech)
+!endprocedure

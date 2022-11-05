@@ -1,0 +1,24 @@
+' definition of the Item aws-q3-2022/Architecture/InternetOfThings/AwsIoTEvents
+
+sprite $AwsIoTEventsXs [10x10/16z] FSR70O0m3C10KcKv-yzBXtkTnWNmhtzJ6zlLF4jfivsZbc8faQUOGwurH6FbnTFwUm
+
+sprite $AwsIoTEventsSm [12x12/16z] JSU74KCn3CFGKnVj_VSDvVo6QtW0UYg63_31hA9ZiFZM9KAiGMMv9Dz3HU0IV1OYXkwp2DD6Rxuld3R1hd_n0m
+
+sprite $AwsIoTEventsMd [16x16/16z] NOj14W0X3C86rrQY___lZkgfkGK0m9UneGIKW18S-nBd3URsb5lsiOEv0myfMyRncT-EJEywtg990cdxWTm7-dDdXCBc-T2ajmIyjeSdZxM33SzBi4hm0m
+
+sprite $AwsIoTEventsLg [20x20/16z] {
+RSe54iGW50JHp03VSl_pHl2LBd_L_cGZRRssz9_Piat_cKtBwL6HZb4jgThnKCE8QYI49QDYD7HLC46Gke4LnPrIcfaM4e2v0cWM8k-NQG8_gjNS3c5HTvr6
+P4V9maU79LD_7_VNplCroH4-gzRQREa_YsK_vmq
+}
+
+!procedure AwsIoTEvents($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Architecture/InternetOfThings/AwsIoTEvents', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTEventsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTEventsLg>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTEventsGroup($id, $name='Aws Io T Events', $tech='')
+  IconGroupElement($id, 'InternetOfThingsFamily', '<$AwsIoTEventsLg>', $name, $tech)
+!endprocedure

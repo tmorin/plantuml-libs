@@ -1,0 +1,24 @@
+' definition of the Item aws-q3-2022/Architecture/NetworkingContentDelivery/AwsPrivateLink
+
+sprite $AwsPrivateLinkXs [10x10/16z] FSR50G0n40EnqC7O_VSRNhq4_DFt4LLKepNjZPBANAfrlFmULMwqtrQQmAC3Oz4E
+
+sprite $AwsPrivateLinkSm [12x12/16z] JKo50G0W3B8L-FzVMsUEn5XjhLfX00sW0HoWZ7tcCFXOrbpf4k0740E1r3noarfTvHcGnB5McmoG0Hq
+
+sprite $AwsPrivateLinkMd [16x16/16z] NSZ50S0m5CFG1XtvxpzlcTzDOZDEaZZSmxzXdttoRtX5xaeytLYbtA_E1ccqivDJce3M-zwod0I5n0YxEcyA98Zmo1Us3f_On6_4RyHlB
+
+sprite $AwsPrivateLinkLg [20x20/16z] {
+RSg55S0m30FH60AIzz-tJfckcF-4jN7MC-2bVvP8V9VaTqb-bzomc9I7SIWomTqCirvSBnEcc5cJVbYX5PjRHzFDAgdvRWDvMrgGFfUaT2yvdHQ4aQqrp4Oo
+8f5QZXoR1O-m5JyOFnW_63-u
+}
+
+!procedure AwsPrivateLink($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Architecture/NetworkingContentDelivery/AwsPrivateLink', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsPrivateLinkCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsPrivateLinkLg>', 'NetworkingContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AwsPrivateLinkGroup($id, $name='Aws Private Link', $tech='')
+  IconGroupElement($id, 'NetworkingContentDeliveryFamily', '<$AwsPrivateLinkLg>', $name, $tech)
+!endprocedure

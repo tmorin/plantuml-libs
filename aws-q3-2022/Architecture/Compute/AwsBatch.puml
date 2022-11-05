@@ -1,0 +1,24 @@
+' definition of the Item aws-q3-2022/Architecture/Compute/AwsBatch
+
+sprite $AwsBatchXs [10x10/16z] DSQ70SD03CD0VGNtdpXGRAkG1zoUS_ZuQidMOQWqYrQkg5egI51Lbf6ScSsPgWVd1m
+
+sprite $AwsBatchSm [12x12/16z] JOh50S0m4CCSEdd_YTjmz388Y4bhF8LEfDOB7KKvkPMH3Hd4o2wIKDTi2mGfUauzaFXpkEQae68RkqBGSuVE1m
+
+sprite $AwsBatchMd [16x16/16z] NOg75KGn2CCmYH7xBtptUrCAoCy0TMARLr3c4x0JrilNwjD5raQp4tLuCvMhK-7LEsD6416btIqgvlesxmG249jNJcJX76pzLaic4VJ2eAq1epRVOQS_mHy
+
+sprite $AwsBatchLg [20x20/16z] {
+RSd50GD15CDGVx8c_HSSfWKTdm3mhxd77lqnpWnFzaU_LfxQMM9hPpCuTaOf_MvzKV2nEwh3T2HKnDEMBQIW9BbUHb0cAo1AJxiN0088_isQf_4oMP2qqGXU
+jWewt8WoF6oKzz62KNAtRtnR9tWvmHi
+}
+
+!procedure AwsBatch($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Architecture/Compute/AwsBatch', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsBatchCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsBatchLg>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AwsBatchGroup($id, $name='Aws Batch', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AwsBatchLg>', $name, $tech)
+!endprocedure

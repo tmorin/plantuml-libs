@@ -1,0 +1,24 @@
+' definition of the Item aws-q3-2022/Category/Serverless
+
+sprite $ServerlessXs [10x10/16z] HSR50S0m40InS3ph_kir7kYbFm5bsBCAtcDLObX31pzph_GpLpKm_7Lrpze1
+
+sprite $ServerlessSm [12x12/16z] JSc53G1144BHar7elzzr8VP-y7jP5sskdZlKqMCQ6Uuo3Qc733lU_FEhPZrgPAGvQRz1HBlxazazeph2-yoa
+
+sprite $ServerlessMd [16x16/16z] NSn50W9144FHrfBC_UzB9S1OTk-t-7lBkFrRSqikD7Vv2ZJkeRcZmfvpNuRpl5_koOs_7T6oCSZwOUXB-e010nLM9drWyvDTb2je-VSLv2lGxRaF
+
+sprite $ServerlessLg [20x20/16z] {
+XSZ50S1030EmWoQEtVtdBJFgAJn9-IeXSn8B0EDTSxyzXvCkkPsbXECDMuDqEnyugeVpGlTWD6KxGaeDAyYoNf6KOK4oi9nfOF3X41olRLKTDUGLNeQVRy71
+Ull-tRwlbsvo3m
+}
+
+!procedure Serverless($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Category/Serverless', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServerlessCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServerlessLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure ServerlessGroup($id, $name='Serverless', $tech='')
+  IconGroupElement($id, 'Serverless', '<$ServerlessLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,27 @@
+' definition of the Item aws-q3-2022/Architecture/MigrationTransfer/AwsTransferFamily
+
+sprite $AwsTransferFamilyXs [10x10/16z] BOh10O0m4CAkgaUX--zhrEO5a0c2Rdl7Bn5Rias-kXMNMzUGahBh6lDBH5nIVdUbFaWhO7W
+
+sprite $AwsTransferFamilySm [12x12/16z] HSV70GCn4CD0PGRrtw-vJeVNW1NIEKTwHjyv6NrcOGDHxt4E5aHyiZ74nZOOSqWJ76JPIl4j--iRi59ydLIz
+
+sprite $AwsTransferFamilyMd [16x16/16z] {
+LSf70WGW24DHYYN1-zzt8jEpydr1R_UMHlwKDlyk-0tp1hx3pdc3jFK0B9UjlOiCSZeG-fQBaUw-4ERj2XsumIpmCOs10F0sdLyNUzUdNL-VmXZv76M57dlo
+VtW
+}
+
+sprite $AwsTransferFamilyLg [20x20/16z] {
+RSn50e1G201HVX5w__iws3NBH_YURMaMySNumVZ1oq3HHEnIiJOIuqBfhaMn2P1EvjQy81Wek7BLlVXgeDHChLiLJoEf-K2iIwdkDxCQd69-6d68qMPJcaKy
+B35RRPut0vzsQpDqAxOkkoD4Jrm
+}
+
+!procedure AwsTransferFamily($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Architecture/MigrationTransfer/AwsTransferFamily', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsTransferFamilyCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsTransferFamilyLg>', 'MigrationTransfer', $funcName, $content)
+!endprocedure
+
+!procedure AwsTransferFamilyGroup($id, $name='Aws Transfer Family', $tech='')
+  IconGroupElement($id, 'MigrationTransferFamily', '<$AwsTransferFamilyLg>', $name, $tech)
+!endprocedure

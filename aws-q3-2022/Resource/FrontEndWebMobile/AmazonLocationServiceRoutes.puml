@@ -1,0 +1,21 @@
+' definition of the Item aws-q3-2022/Resource/FrontEndWebMobile/AmazonLocationServiceRoutes
+
+sprite $AmazonLocationServiceRoutesXs [10x10/16z] Oq02N9pC40QOOaL8S2CnuMmkRZ2V7Q8QhWEXW0N6
+
+sprite $AmazonLocationServiceRoutesSm [12x12/16z] Oq067Dm8DZSdY6H2bcPam0NOaJLoGIX6k0QW03Cxr0PSTi4
+
+sprite $AmazonLocationServiceRoutesMd [16x16/16z] NOq50iGW30G7X-J_xxshjvk1k14nInhZUR6uitbUDgCC0ZEXrBeG39FO_LvQ23ZaPry5l3mzam_BLhYXSTQJVm
+
+sprite $AmazonLocationServiceRoutesLg [20x20/16z] ZS-r0GGX443HZuptt-ybP-ky3COvqzFPIoHxs0X-NA9zeb-33-64Sg9OLLNi5QEpaoTvnayr0yRlY-QWZSR-597Ynzbg9nibSx0JCpZeZPqN
+
+!procedure AmazonLocationServiceRoutes($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Resource/FrontEndWebMobile/AmazonLocationServiceRoutes', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonLocationServiceRoutesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonLocationServiceRoutesLg>', 'FrontEndWebMobile', $funcName, $content)
+!endprocedure
+
+!procedure AmazonLocationServiceRoutesGroup($id, $name='Amazon Location Service Routes', $tech='')
+  IconGroupElement($id, 'FrontEndWebMobileFamily', '<$AmazonLocationServiceRoutesLg>', $name, $tech)
+!endprocedure

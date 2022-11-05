@@ -1,0 +1,27 @@
+' definition of the Item aws-q3-2022/Architecture/EndUserComputing/AmazonWorkSpacesWeb
+
+sprite $AmazonWorkSpacesWebXs [10x10/16z] DSY73S0m4CD0TucV_VUDAz4Ez4opCU0Hpgc2SvjYgbcU2X9qzQb8PAjxgs3xYsscDfdz
+
+sprite $AmazonWorkSpacesWebSm [12x12/16z] HOh50S0W54FXUzBzvwrXxnAjZto92E04m7Jm-Mx-OcO9oBY99J_Vg_sUWWPK6vxr9XKhChCWKA-wI4Aa0w__0l7n-XCU
+
+sprite $AmazonWorkSpacesWebMd [16x16/16z] {
+LOq5WWGm20ChICBz_xyNM9_gf0A674AGNyauVsv8pvkLxMRcZTdE99cl9owlSUe8EEqbnzRf_lWo4kky_N9Vxpf0LJakUTHZoviMuaByJM1-Rf3jZu36HgvW
+u23_3Vu1
+}
+
+sprite $AmazonWorkSpacesWebLg [20x20/16z] {
+PSn95aCX24HHfIim-zzlB4r--qQUAv2_i0jMzSPwup8-TkwEPNgzfO5bPkexCmc0ThrfqmPjeHDbsIYZcMG33RGnBGISb1G_h3MkUyDXergPH0_GSjlWMAy4
+V5fEWpXDge3UayPQB9l0Ff-5sI6cMNKO2-x_xT3Q7NP5sclo2m
+}
+
+!procedure AmazonWorkSpacesWeb($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Architecture/EndUserComputing/AmazonWorkSpacesWeb', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonWorkSpacesWebCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonWorkSpacesWebLg>', 'EndUserComputing', $funcName, $content)
+!endprocedure
+
+!procedure AmazonWorkSpacesWebGroup($id, $name='Amazon Work Spaces Web', $tech='')
+  IconGroupElement($id, 'EndUserComputingFamily', '<$AmazonWorkSpacesWebLg>', $name, $tech)
+!endprocedure

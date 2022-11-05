@@ -1,0 +1,24 @@
+' definition of the Item aws-q3-2022/Resource/Database/AmazonAuroraAmazonRdsInstanceAternate
+
+sprite $AmazonAuroraAmazonRdsInstanceAternateXs [10x10/16z] VKh50G0W4B8Bzb_NrljTKqOgtyyv80duoNpBhVc9K7TWeRaRpL8G_IaC
+
+sprite $AmazonAuroraAmazonRdsInstanceAternateSm [12x12/16z] XSQt0S0W00F19uFa_TTrJXrN7NzBkAL2wDnCK1fP6cM8m4E4afgUjz1u3imUUPXYNSm6
+
+sprite $AmazonAuroraAmazonRdsInstanceAternateMd [16x16/16z] jSV50S103CH0cJROVxrXVaS7zl1f76x1V6zfTez4ez2iVdORcT4dKR5wpGo3rK5GpEsU6NUN6TmyzvVBGVsLCm4
+
+sprite $AmazonAuroraAmazonRdsInstanceAternateLg [20x20/16z] {
+jSYr0GH130J1aMP9a7-wVs3TWllTNk5OY_pc3tNC9H30h4LlQoaHsUyrD3eVSoT7DaSTKZbUQwXiNlkj3hRNbbxpK1jzp3P8Atss43fqCW44CjlKNynN6m9a
+uRSHkDCf0Iu
+}
+
+!procedure AmazonAuroraAmazonRdsInstanceAternate($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Resource/Database/AmazonAuroraAmazonRdsInstanceAternate', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonAuroraAmazonRdsInstanceAternateCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonAuroraAmazonRdsInstanceAternateLg>', 'Database', $funcName, $content)
+!endprocedure
+
+!procedure AmazonAuroraAmazonRdsInstanceAternateGroup($id, $name='Amazon Aurora Amazon Rds Instance Aternate', $tech='')
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonAuroraAmazonRdsInstanceAternateLg>', $name, $tech)
+!endprocedure

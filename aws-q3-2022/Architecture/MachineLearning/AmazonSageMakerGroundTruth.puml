@@ -1,0 +1,27 @@
+' definition of the Item aws-q3-2022/Architecture/MachineLearning/AmazonSageMakerGroundTruth
+
+sprite $AmazonSageMakerGroundTruthXs [10x10/16z] DOh50KDH3CFoo93kls_zIIU351W0-uj9IuL4XpbsaUqgCJCxaLCuISCBfQCEO5dw9UrpfyIuuGy
+
+sprite $AmazonSageMakerGroundTruthSm [12x12/16z] HKd5OGH135kZ8Ftt6y_h34A-mStkIZ-ZCuZRCwSp6Em5dcO4Sm0hz8aVqR1FywfzEgNCu2vjbwT6HVxPYwmfd3xZcP5q-XdhpJy
+
+sprite $AmazonSageMakerGroundTruthMd [16x16/16z] {
+LSdBWGKm24BHe8b2flz-Htr_TkV2MSwY9dsLiJxEiNWSsz5XR8S4mwF2E9WWSCfN2eHnaKJxAl9813gCjI0ZTs1Shz1tBlBMN12OD3vz0KFAot_bS9WZaUqE
+rsgKLAumqwpy6_u1
+}
+
+sprite $AmazonSageMakerGroundTruthLg [20x20/16z] {
+PSZP0GGX20HHaAlRoJ_V7TIzwwyUJhNBZln7_cCR6woGll6O3Go9b8ti1XnG84OsRgEFspmascQRactmycMJAHG1IWm8MJRTYquY8X9nZ1Gf3C0ptqRMy4RN
+GjlK9Coo1D00C3kRoF8Iml1fKIhaikkwBHLffX9QnpfwHWZ9RLjxkNhRyQxjw1iV
+}
+
+!procedure AmazonSageMakerGroundTruth($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Architecture/MachineLearning/AmazonSageMakerGroundTruth', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonSageMakerGroundTruthCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonSageMakerGroundTruthLg>', 'MachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure AmazonSageMakerGroundTruthGroup($id, $name='Amazon Sage Maker Ground Truth', $tech='')
+  IconGroupElement($id, 'MachineLearningFamily', '<$AmazonSageMakerGroundTruthLg>', $name, $tech)
+!endprocedure

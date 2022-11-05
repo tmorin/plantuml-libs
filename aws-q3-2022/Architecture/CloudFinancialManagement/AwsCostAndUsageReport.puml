@@ -1,0 +1,27 @@
+' definition of the Item aws-q3-2022/Architecture/CloudFinancialManagement/AwsCostAndUsageReport
+
+sprite $AwsCostAndUsageReportXs [10x10/16z] FOg50GCn24KJ_C7-yxRdw3UeipAJ3y9wO6CWjREwKKJJ3zGWr8NygWF9CU0rlQu0p1pWWdy
+
+sprite $AwsCostAndUsageReportSm [12x12/16z] JSUn0G0X2CLGFy0TmVtdLUryLGBKzHyympCWESCzwsykg_AlkcN29CNf1WpgjcmSZDC7RK3KR9drCBDaphwuvZCR
+
+sprite $AwsCostAndUsageReportMd [16x16/16z] {
+NOo73GGn3CCkBXTBsN_VT_bEL5A0aCIm2_m5_8KKkp-Xt9SgBbNn3CmDK4Y4tnb8B2r7ZgkSkgBsT6adUWTYt5R8JbxxCYesal40bTAEEEGMCLwINC0vz3aT
+JeRXwN_X0G
+}
+
+sprite $AwsCostAndUsageReportLg [20x20/16z] {
+PSk7aKKn24DH6qpy_VUxOl7BT_8PAP0VMLTswTVGPJVTPeClyxOLasV4OEOXXLdey22C9XimWTA6FzC0PkR-qc8oaZOZ_j-PkciRYlu6tjkCkSpk9Zc5f39P
+ultLoFwYmyXpvSr-Fto9PkQWQde4B8Pa5JiOTFSrTDbd-GS
+}
+
+!procedure AwsCostAndUsageReport($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Architecture/CloudFinancialManagement/AwsCostAndUsageReport', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsCostAndUsageReportCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCostAndUsageReportLg>', 'CloudFinancialManagement', $funcName, $content)
+!endprocedure
+
+!procedure AwsCostAndUsageReportGroup($id, $name='Aws Cost And Usage Report', $tech='')
+  IconGroupElement($id, 'CloudFinancialManagementFamily', '<$AwsCostAndUsageReportLg>', $name, $tech)
+!endprocedure

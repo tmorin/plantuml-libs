@@ -1,0 +1,21 @@
+' definition of the Item aws-q3-2022/Resource/ApplicationIntegration/AmazonSimpleQueueServiceQueue
+
+sprite $AmazonSimpleQueueServiceQueueXs [10x10/16z] XSQt0S0W00F1jybe_trHJRpgU8gbm0-DBD4yoPEyY4Vq8AG4tce
+
+sprite $AmazonSimpleQueueServiceQueueSm [12x12/16z] Oo06SC81DmCZI82R3KXmCJ2oGDYiO3OhYCq25cU6Y3C1sSZgkU206vTL
+
+sprite $AmazonSimpleQueueServiceQueueMd [16x16/16z] fOp50O100CE2Gxl_lBWxN7vLGd6rHeYM2f7GCcfXqaax7xMpGMTPhyseqp6lijDzIqar_LiR-4W3
+
+sprite $AmazonSimpleQueueServiceQueueLg [20x20/16z] lOsr0S1030Fl6RJ_l666Ad3kBE8FL8vOH8_nfEvwxFAB26r-PVChqqzb_jcg-HSq_SJooqjsyNcM7_v-Ty0H2Ckl7h6yJ0i
+
+!procedure AmazonSimpleQueueServiceQueue($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Resource/ApplicationIntegration/AmazonSimpleQueueServiceQueue', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonSimpleQueueServiceQueueCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonSimpleQueueServiceQueueLg>', 'ApplicationIntegration', $funcName, $content)
+!endprocedure
+
+!procedure AmazonSimpleQueueServiceQueueGroup($id, $name='Amazon Simple Queue Service Queue', $tech='')
+  IconGroupElement($id, 'ApplicationIntegrationFamily', '<$AmazonSimpleQueueServiceQueueLg>', $name, $tech)
+!endprocedure

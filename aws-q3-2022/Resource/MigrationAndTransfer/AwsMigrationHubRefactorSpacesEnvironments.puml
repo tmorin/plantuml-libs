@@ -1,0 +1,21 @@
+' definition of the Item aws-q3-2022/Resource/MigrationAndTransfer/AwsMigrationHubRefactorSpacesEnvironments
+
+sprite $AwsMigrationHubRefactorSpacesEnvironmentsXs [10x10/16z] Oy04Z2WiBauuYmD5bWN40Yk0ipYWB1OM5ZP61YOeO0O
+
+sprite $AwsMigrationHubRefactorSpacesEnvironmentsSm [12x12/16z] JSOr0G0m402nAuD_mSM7JC6BGGp2x1lRVgU2F37q8H2sUvw-VzEcdMPFwFjM1aFD1G
+
+sprite $AwsMigrationHubRefactorSpacesEnvironmentsMd [16x16/16z] NSk53K0n549H-D8d--zRzniz9E3ExGY6lUANjMdYoTZyY70tWbGClwHOhRdk9MqcYvtTuoU7eQS_SBUMR7XKV2G9
+
+sprite $AwsMigrationHubRefactorSpacesEnvironmentsLg [20x20/16z] RSg54G112C30m3dzz_jk1x_ZcV1dcASOZkojZLFvjCx9jngRbU6RK7ByMkVqVW9saQljZ4C-MzdjJThJJePO7g5HrJUizFYHNSk7-csY9_QcJb8qO0K
+
+!procedure AwsMigrationHubRefactorSpacesEnvironments($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Resource/MigrationAndTransfer/AwsMigrationHubRefactorSpacesEnvironments', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsMigrationHubRefactorSpacesEnvironmentsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsMigrationHubRefactorSpacesEnvironmentsLg>', 'MigrationAndTransfer', $funcName, $content)
+!endprocedure
+
+!procedure AwsMigrationHubRefactorSpacesEnvironmentsGroup($id, $name='Aws Migration Hub Refactor Spaces Environments', $tech='')
+  IconGroupElement($id, 'MigrationAndTransferFamily', '<$AwsMigrationHubRefactorSpacesEnvironmentsLg>', $name, $tech)
+!endprocedure

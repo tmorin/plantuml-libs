@@ -1,0 +1,21 @@
+' definition of the Item aws-q3-2022/Resource/Storage/AmazonElasticBlockStoreVolumeGp3
+
+sprite $AmazonElasticBlockStoreVolumeGp3Xs [10x10/16z] Oq02h0WM6B33ML0PJC38oS0CPR9WIa800m
+
+sprite $AmazonElasticBlockStoreVolumeGp3Sm [12x12/16z] Oq0578mWm05cGeMOWPW51e1iHgWuErus6nEGXBAPcDYOyQldW09E1W
+
+sprite $AmazonElasticBlockStoreVolumeGp3Md [16x16/16z] bOo50G0n30AXZUu_yBlxNpK9W0ioHdGi3HF2_gQjmlugijBNZeLogFcnfjM0hRMnxlMorh_pDLU05W
+
+sprite $AmazonElasticBlockStoreVolumeGp3Lg [20x20/16z] hSwt0SCm30NHZmpiFx2p9SQELxxgi2lg7__93FyAtoY14SkQmZ-cNVAnjBRycAFjZ0cJ0j8QeHmcqHgitCYyCrS_zXBKzZNk8k09
+
+!procedure AmazonElasticBlockStoreVolumeGp3($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Resource/Storage/AmazonElasticBlockStoreVolumeGp3', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonElasticBlockStoreVolumeGp3Card($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonElasticBlockStoreVolumeGp3Lg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonElasticBlockStoreVolumeGp3Group($id, $name='Amazon Elastic Block Store Volume Gp3', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonElasticBlockStoreVolumeGp3Lg>', $name, $tech)
+!endprocedure

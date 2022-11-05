@@ -1,0 +1,21 @@
+' definition of the Item aws-q3-2022/Category/VrAr
+
+sprite $VrArXs [10x10/16z] HSY53G0m3CJ0CdpsdxSGjEZa6UszrqkaX1Er_BuoNv5m4Y2Sn1GfBm
+
+sprite $VrArSm [12x12/16z] JSS70e0W34DHP-VzxsiI5VYCllfQea3kjwm5Bfd1TP_CvLCTD4fagzEywxuIp-akbYb_2npkoknw
+
+sprite $VrArMd [16x16/16z] NSk54G0n24JHU5Yk_tuFYV_HjmFzhJIfpa9lqCZgVNeEZqdCeEAPEtCP5ydTvdbpomMiRQQiXfa8GdakWFXZ2v9x3jDpc5w3ETpz
+
+sprite $VrArLg [20x20/16z] RSk53GKW34NH2lRA_lD-mUtY9o6-8ZwZoFYNMl5NjudJ9XQp0ukTMCmanb3olflAYBejtyEqWPjPaDiK-ZSKomRz1GlbGB5iBTIAJPmsSTgAqoOMeol-0W
+
+!procedure VrAr($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Category/VrAr', $name, $tech, $desc)
+!endprocedure
+
+!procedure VrArCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$VrArLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure VrArGroup($id, $name='Vr Ar', $tech='')
+  IconGroupElement($id, 'VrAr', '<$VrArLg>', $name, $tech)
+!endprocedure

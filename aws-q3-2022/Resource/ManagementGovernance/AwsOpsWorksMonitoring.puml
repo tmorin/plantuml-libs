@@ -1,0 +1,21 @@
+' definition of the Item aws-q3-2022/Resource/ManagementGovernance/AwsOpsWorksMonitoring
+
+sprite $AwsOpsWorksMonitoringXs [10x10/16z] TSQ34S10002mrDf_tbgldA9i0JqJDOkbHcK6L4WttYQl3G
+
+sprite $AwsOpsWorksMonitoringSm [12x12/16z] Oo04c15CRWPsCCN9mC05f3aX28Y1VAWwJ3OZ3ZOR0Y1R1m
+
+sprite $AwsOpsWorksMonitoringMd [16x16/16z] Oo0VC76XS1dP6Q02dEnW4eYvGGmM9Y0DGb01TX06Cg1y55EuWH2LpqKYdviB1H3o1
+
+sprite $AwsOpsWorksMonitoringLg [20x20/16z] jSY35GH1502mB8Q__thFDlCSVnNXKfl4Q2ldRINqRGujTSm5j042aSS632CwcCFn-c3hU7DsTU77Lo-qaU6ILoq1
+
+!procedure AwsOpsWorksMonitoring($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Resource/ManagementGovernance/AwsOpsWorksMonitoring', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsOpsWorksMonitoringCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsOpsWorksMonitoringLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsOpsWorksMonitoringGroup($id, $name='Aws Ops Works Monitoring', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsOpsWorksMonitoringLg>', $name, $tech)
+!endprocedure

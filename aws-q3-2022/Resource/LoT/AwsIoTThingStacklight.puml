@@ -1,0 +1,24 @@
+' definition of the Item aws-q3-2022/Resource/LoT/AwsIoTThingStacklight
+
+sprite $AwsIoTThingStacklightXs [10x10/16z] JSot0G0n381072Ns7_XpCDLLi3PJvQl1e4gX3O9ogBH0q4BpKhn2Jj7RMIw_7G
+
+sprite $AwsIoTThingStacklightSm [12x12/16z] LOs54G11308vPTD_myzFnYwke5U6L7I9MtQcpjXabhq5WvkS-WfnUwzPbOCgOVtpnhAIuyGTy-tPnbJXb_S3
+
+sprite $AwsIoTThingStacklightMd [16x16/16z] RS-5ZGH034FHvoKd_HTyCD88zul2iNqXQgKtVsIinyrVkGpo26aNJKWqJ9wAJiZCwRV8v_HjYjr8Taz_1_4yVNhlwnPDj865zeEubmkcb_dgv-OV-0K
+
+sprite $AwsIoTThingStacklightLg [20x20/16z] {
+TP275SD02CNq3v-1_HTEWFGYTptXnZ-qSRANfpk9TwU8V2nE4_34L9NQfNkeNCcz4nQrqm7cMyoiyZozdG7kYJGTmiAdKy-QMDW2CfCvf1POvkgEGpsxEvxk
+-IxFhgYIzmxwyDRv5KrN-65FOXmojrYfMlJt_xL4h5wA2m
+}
+
+!procedure AwsIoTThingStacklight($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Resource/LoT/AwsIoTThingStacklight', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTThingStacklightCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTThingStacklightLg>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTThingStacklightGroup($id, $name='Aws Io T Thing Stacklight', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTThingStacklightLg>', $name, $tech)
+!endprocedure

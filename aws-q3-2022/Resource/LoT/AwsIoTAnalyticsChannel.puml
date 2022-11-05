@@ -1,0 +1,24 @@
+' definition of the Item aws-q3-2022/Resource/LoT/AwsIoTAnalyticsChannel
+
+sprite $AwsIoTAnalyticsChannelXs [10x10/16z] JOc30G0m40DJz_OVkCOhb1tA5V9wqkdfRJ8GNbOZauFg3aBcTLjr
+
+sprite $AwsIoTAnalyticsChannelSm [12x12/16z] NSQt0SCm40GmA91_j__2hfo42Xwk-fZFho60xBba1eIx15lRSC59xyCW3JSmdy9H7zd02m
+
+sprite $AwsIoTAnalyticsChannelMd [16x16/16z] RKw50S0m2ADe-F_W-Ugu4zfHvfWhsP0vq5Adk6mhY6RoNIYbk-YKbttYWFuBGa-KDztXyuPnc_Jxz3Va836WVF-kkcg58_ZIzWswu1_oXlO4
+
+sprite $AwsIoTAnalyticsChannelLg [20x20/16z] {
+TT15eW0X30JH0Z99z_qF_6LSQ_bm-2oS3pFL7jPqXU4W-nL50LSKSeVByfQToOCkbOgr3dJBymJcF3oV5G1Qr-AvSHZIl22zs96D78j3gi8JLD0Qgv43K3mU
+Mt5zC6d7yw-oFQoPHnsEVW4
+}
+
+!procedure AwsIoTAnalyticsChannel($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Resource/LoT/AwsIoTAnalyticsChannel', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTAnalyticsChannelCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTAnalyticsChannelLg>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTAnalyticsChannelGroup($id, $name='Aws Io T Analytics Channel', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTAnalyticsChannelLg>', $name, $tech)
+!endprocedure

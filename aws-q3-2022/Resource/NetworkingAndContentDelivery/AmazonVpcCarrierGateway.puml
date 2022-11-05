@@ -1,0 +1,24 @@
+' definition of the Item aws-q3-2022/Resource/NetworkingAndContentDelivery/AmazonVpcCarrierGateway
+
+sprite $AmazonVpcCarrierGatewayXs [10x10/16z] JSE50OGm00J1WNYk_thVXHLNyjb1sCGfOX6EmYJbm3WVen7XIEqg-SQQPoft
+
+sprite $AmazonVpcCarrierGatewaySm [12x12/16z] NSgtOGGn40Gm73rt-kzNaTuXXXyPpmgO20CmKooY2CSsAAKlyN2B-oZBi-78wm-TGMLHiBWKi5Ff-0C
+
+sprite $AmazonVpcCarrierGatewayMd [16x16/16z] RSQtWSKm30KmA5dcu_xpNcm_AlXaTQS3e0UJKq1m6mADemzSrX0qSwl_s7Y59Qv7zJmc9SghnHX3j6EQKHwkSB4DRGwEWsOH59mEze1WDlO3t8AP0M1LxW3V
+
+sprite $AmazonVpcCarrierGatewayLg [20x20/16z] {
+TScvOGGn30GmK5fzdFxxTNQPaSB_vktqANvMFl02e3_KWxU0BkZStriVjDI1Xd06WfHwp8yB1qAuX53cSRYbYVhqVc8iSmWnHstHwXX34wwNgSrf3OSpF5Zb
+4UeH2EOb24M9psP_yE2Ed886N-2b882l2nzs-tcvStp91pyrnW3u0m
+}
+
+!procedure AmazonVpcCarrierGateway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Resource/NetworkingAndContentDelivery/AmazonVpcCarrierGateway', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonVpcCarrierGatewayCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonVpcCarrierGatewayLg>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AmazonVpcCarrierGatewayGroup($id, $name='Amazon Vpc Carrier Gateway', $tech='')
+  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AmazonVpcCarrierGatewayLg>', $name, $tech)
+!endprocedure

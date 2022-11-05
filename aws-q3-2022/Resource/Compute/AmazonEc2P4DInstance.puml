@@ -1,0 +1,24 @@
+' definition of the Item aws-q3-2022/Resource/Compute/AmazonEc2P4DInstance
+
+sprite $AmazonEc2P4DInstanceXs [10x10/16z] LOm50G0m40APN__2StitGDR8tnBiX988eoC70Mrmo3ykJ4kVNWC
+
+sprite $AmazonEc2P4DInstanceSm [12x12/16z] LSt75GH1448nZMcA_1DUR_Kuy_tBfWIQ5n90OmjWDh8TYj1itRQ3bcnm6WJm_yDq7Zl_kbS
+
+sprite $AmazonEc2P4DInstanceMd [16x16/16z] POy55WKn20EdyfBS_y9VMDzE5GTO4IOOxR9tsHIZ7HYG6mUIW9iCs6tNDEIojyezPjcJrZBSw0CbPIzdwum_aDVyQtth8CiykonIDtm1
+
+sprite $AmazonEc2P4DInstanceLg [20x20/16z] {
+bP25WGKW3CKIEDgt_yBttJquzVAAOa4eg3T_gzFfqoOxcYkcG5Lk_hfyghVMhLwjWvu9B247FMZKuNHKc0D8WcbAizDBnb4F_9jDlizb_5R7l6B93ctB4NlQ
+lkkf20D1W0q
+}
+
+!procedure AmazonEc2P4DInstance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Resource/Compute/AmazonEc2P4DInstance', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonEc2P4DInstanceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonEc2P4DInstanceLg>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AmazonEc2P4DInstanceGroup($id, $name='Amazon Ec2 P4d Instance', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2P4DInstanceLg>', $name, $tech)
+!endprocedure

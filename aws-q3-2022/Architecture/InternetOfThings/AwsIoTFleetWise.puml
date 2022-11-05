@@ -1,0 +1,27 @@
+' definition of the Item aws-q3-2022/Architecture/InternetOfThings/AwsIoTFleetWise
+
+sprite $AwsIoTFleetWiseXs [10x10/16z] FSQ73G0W30EmBj6a_Fyl6skPn9AP_9qJw6fnGXEWoXW6o5mraeWvAbC4SvNE2NtMTRNFJdC3
+
+sprite $AwsIoTFleetWiseSm [12x12/16z] DOh70KDH2CFo2c3nzzyt9aKd5m4Qol0lltnNQCf4KBXLm_vhtPib7IcTrzh5BOLpru6rbYPVMRkWfrjwxODvN3gBRtOnazy
+
+sprite $AwsIoTFleetWiseMd [16x16/16z] {
+NSj15iG010JH0BIv_tq7iahlVddGorlCy0duX2MRquQp9f2FneHgyxr8zgfW2YNfm34kWpYfDMZjn30yWjTz9IXbkAyhsW-70sUcIh2XbxzskZ376hy9OER4
+kSFjzIVy0G
+}
+
+sprite $AwsIoTFleetWiseLg [20x20/16z] {
+RSnN0iG010HGlUN-zrqYsJv_7YOxSSStOo_zPujhQIoBBmEFG3lnDedv9vN56iFjj80Jg-PYQ9JEosfi0b72cM5DqjcGq6VcDIqqI-tp1hb_5OG35IdtTz1H
+Cbs0WUEoKaWCpRxhN8QkxDEtTXnjmOv83hbfcm3hVgvTcbNVjlworHS-
+}
+
+!procedure AwsIoTFleetWise($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Architecture/InternetOfThings/AwsIoTFleetWise', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTFleetWiseCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTFleetWiseLg>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTFleetWiseGroup($id, $name='Aws Io T Fleet Wise', $tech='')
+  IconGroupElement($id, 'InternetOfThingsFamily', '<$AwsIoTFleetWiseLg>', $name, $tech)
+!endprocedure
