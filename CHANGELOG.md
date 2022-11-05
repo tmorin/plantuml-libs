@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [10.0.0](https://github.com/tmorin/plantuml-libs/compare/v9.5.0...v10.0.0) (2022-11-05)
+
+
+### ⚠ BREAKING CHANGES
+
+* **aws-q1-2022:** the package is `aws-q1-2022` is removed from the distribution
+* **azure-4:** the package is `azure-4` is removed from the distribution
+
+### Features
+
+* **aws-q1-2022:** remove the package ([f640dca](https://github.com/tmorin/plantuml-libs/commit/f640dcade9c29002510a1ebe13e6f1978688da1c))
+* **aws-q3-2022:** add the package ([a478d00](https://github.com/tmorin/plantuml-libs/commit/a478d0066928a9183850dcf518d21f66e979d8b5))
+* **aws-q3-2022:** refresh the package ([f296c4b](https://github.com/tmorin/plantuml-libs/commit/f296c4b0c448cbd0b8e37194075056e3276e476c))
+* **azure-4:** remove the package ([e0ab66c](https://github.com/tmorin/plantuml-libs/commit/e0ab66c21064e9a9e10418de366c1f00dc3dc4e9))
+
 ## [9.5.0](https://github.com/tmorin/plantuml-libs/compare/v9.4.4...v9.5.0) (2022-11-04)
 
 
