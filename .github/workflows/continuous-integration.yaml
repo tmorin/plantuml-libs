@@ -10,13 +10,13 @@ jobs:
       - name: "Checkout repository"
         uses: actions/checkout@v3
       - name: "Setup node"
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
           node-version: '16.x'
       - name: "Install system dependencies"
         run: sudo apt install graphviz zip
       - name: "Cache Node.js modules"
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: ~/.npm
           key: ${{ runner.OS }}-node16-${{ hashFiles('**/package-lock.json') }}
@@ -33,7 +33,7 @@ jobs:
         run: zip -r ../.cache/tmorin-plantuml-libs.zip *
         working-directory: distribution
       - name: "Upload tmorin-plantuml-libs.zip"
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: artifacts
           path: |
@@ -48,7 +48,7 @@ jobs:
       - name: "Checkout repository"
         uses: actions/checkout@v3
       - name: "Download all artifacts"
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
       - name: "Create the release"
         uses: ncipollo/release-action@v1
         with:
@@ -68,11 +68,11 @@ jobs:
       - name: "Checkout repository"
         uses: actions/checkout@v3
       - name: "Setup Node"
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
           node-version: '16.x'
       - name: "Cache Node.js modules"
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: ~/.npm
           key: ${{ runner.OS }}-node16-${{ hashFiles('**/package-lock.json') }}
@@ -87,7 +87,7 @@ jobs:
         run: zip -r ../tmorin-plantuml-public.zip *
         working-directory: public
       - name: "Upload tmorin-plantuml-public.zip"
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: artifacts
           path: |
@@ -106,7 +106,7 @@ jobs:
       - name: "Checkout repository"
         uses: actions/checkout@v3
       - name: "Setup node"
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
           node-version: '16.x'
           registry-url: 'https://registry.npmjs.org'
@@ -114,7 +114,7 @@ jobs:
       - name: "Install system dependencies"
         run: sudo apt install graphviz zip
       - name: "Cache Node.js modules"
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: ~/.npm
           key: ${{ runner.OS }}-node16-${{ hashFiles('**/package-lock.json') }}

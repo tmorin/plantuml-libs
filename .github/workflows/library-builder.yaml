@@ -11,11 +11,11 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: "Setup NodeJs"
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: '16.x'
       - name: "Cache the dependencies"
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: ~/.npm
           key: ${{ runner.os }}-node16-${{ hashFiles('**/package-lock.json') }}
@@ -31,7 +31,7 @@ jobs:
           tar cf tmp.tar .tmp
         working-directory: .workdir
       - name: "Upload the workdir"
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: workdir
           path: |
@@ -64,7 +64,7 @@ jobs:
         with:
           persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
           fetch-depth: 0 # otherwise, you will fail to push refs to dest repo
-      - uses: actions/download-artifact@v2
+      - uses: actions/download-artifact@v3
         with:
           name: workdir
       - name: "Provide the .tmp directory"
@@ -76,7 +76,7 @@ jobs:
       - name: "Tar the package directory"
         run: tar cf "${{ matrix.PACKAGE_URN }}-distribution.tar" "distribution/${{ matrix.PACKAGE_URN }}"
       - name: "Upload the package directory"
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: "${{ matrix.PACKAGE_URN }}-distribution"
           path: "${{ matrix.PACKAGE_URN }}-distribution.tar"
@@ -87,7 +87,7 @@ jobs:
     needs: [ generate-package ]
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/download-artifact@v2
+      - uses: actions/download-artifact@v3
       - name: "Refresh the distribution directory"
         run: |
           set -ex

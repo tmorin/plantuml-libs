@@ -21,11 +21,11 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: "Setup NodeJs"
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: '16.x'
       - name: "Cache the dependencies"
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: ~/.npm
           key: ${{ runner.os }}-node16-${{ hashFiles('**/package-lock.json') }}
@@ -41,7 +41,7 @@ jobs:
           tar cf tmp.tar .tmp
         working-directory: .workdir
       - name: "Upload the workdir"
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: workdir
           path: |
@@ -59,7 +59,7 @@ jobs:
         with:
           persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
           fetch-depth: 0 # otherwise, you will fail to push refs to dest repo
-      - uses: actions/download-artifact@v2
+      - uses: actions/download-artifact@v3
         with:
           name: workdir
       - name: "Provide the .tmp directory"
@@ -69,7 +69,7 @@ jobs:
       - name: "Tar distribution directory"
         run: tar cf distribution.tar distribution
       - name: "Upload the distribution"
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: distribution
           path: distribution.tar
@@ -82,7 +82,7 @@ jobs:
       - uses: actions/checkout@v3
       - name: "Delete distribution"
         run: rm -Rf distribution
-      - uses: actions/download-artifact@v2
+      - uses: actions/download-artifact@v3
         with:
           name: distribution
       - name: "Provide the distribution directory"
