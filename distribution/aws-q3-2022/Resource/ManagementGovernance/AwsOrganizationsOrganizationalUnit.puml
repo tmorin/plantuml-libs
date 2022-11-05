@@ -1,0 +1,24 @@
+' definition of the Item aws-q3-2022/Resource/ManagementGovernance/AwsOrganizationsOrganizationalUnit
+
+sprite $AwsOrganizationsOrganizationalUnitXs [10x10/16z] PSYr0S0m00CmXUd_UykTeiLWiz3oerAWYryBwsbMM7-pt2tdc9He5SyPgV6HJm
+
+sprite $AwsOrganizationsOrganizationalUnitSm [12x12/16z] JOl50K0X5CE2yzhzv_qkv5HbfQG78FLu8SNJeq-FMvzRqKyzmTZ-z6nSEiA6zdu5Gt1fP4wj1-y
+
+sprite $AwsOrganizationsOrganizationalUnitMd [16x16/16z] NSp70G0X24JHsJKEz5-lEV_RKm1lAZiM2tPVit8dnSJ807hOo6s1x_RjjFd0xeWwgANJhSFo1plsISRwACVzQNxD1L-R1vfxpNeKCW
+
+sprite $AwsOrganizationsOrganizationalUnitLg [20x20/16z] {
+PSw53G0X0CNGueI__xodECLV3E2iQEqriTJChhrcav-BzhK0BGTsiwpJvE9kqQ1cMMzGmCLcF0cZfxBQtsQIXbbhdLv5pQn_UXW8PldBTwRFr0o15Oz1CqWb
+KItQEMzvSOqR
+}
+
+!procedure AwsOrganizationsOrganizationalUnit($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Resource/ManagementGovernance/AwsOrganizationsOrganizationalUnit', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsOrganizationsOrganizationalUnitCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsOrganizationsOrganizationalUnitLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsOrganizationsOrganizationalUnitGroup($id, $name='Aws Organizations Organizational Unit', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsOrganizationsOrganizationalUnitLg>', $name, $tech)
+!endprocedure

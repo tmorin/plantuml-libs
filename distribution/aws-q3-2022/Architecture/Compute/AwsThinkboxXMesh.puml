@@ -1,0 +1,24 @@
+' definition of the Item aws-q3-2022/Architecture/Compute/AwsThinkboxXMesh
+
+sprite $AwsThinkboxXMeshXs [10x10/16z] DSP50G0m302nyjM_uV7o2b1R9hzdVWgfQ6PLeuL7hJM2g-tf6i5Q2uf0RmfllJS1
+
+sprite $AwsThinkboxXMeshSm [12x12/16z] JSU53S003CJ0iBF_n7sLBJe3SzNDRpZ7pZdj5eydnYTd5h9RPx8co1Bb3SU8Ebr1JJgoiac0qzjytjC7
+
+sprite $AwsThinkboxXMeshMd [16x16/16z] NSZ50GD14CJ0mPRpZzYBXjEln4YtxkQCUtWCTfxvOo4prN5N1YcN3x-6STAxBQR7C4AuQdcFIiorhPm3nxTRtJ7WnJBku9G53AzSpkguZUFRzMEy0G
+
+sprite $AwsThinkboxXMeshLg [20x20/16z] {
+PSe7KWDG3CHGhylgS_y30t5wekbln2K_c__uHD-DRrkiXzwjql5kGn9fzyCc990d9kucaYohNJkUDGSKBSVQ1Qj6M3FgjSKOif3IDpkJZ6o7HtUJOeXAifkx
+GHMs9WgyTZ80GSS0QyjoS-lS2zMN7NZQD_vy8ty
+}
+
+!procedure AwsThinkboxXMesh($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Architecture/Compute/AwsThinkboxXMesh', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsThinkboxXMeshCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsThinkboxXMeshLg>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AwsThinkboxXMeshGroup($id, $name='Aws Thinkbox X Mesh', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AwsThinkboxXMeshLg>', $name, $tech)
+!endprocedure

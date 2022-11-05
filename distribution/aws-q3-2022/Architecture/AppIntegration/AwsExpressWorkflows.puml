@@ -1,0 +1,24 @@
+' definition of the Item aws-q3-2022/Architecture/AppIntegration/AwsExpressWorkflows
+
+sprite $AwsExpressWorkflowsXs [10x10/16z] FSR70KCn240nqtbu_tcJttKIqASglixN6I8qwbpcWZpNqO0SMol1w3q7uR3F-fmxUe8_
+
+sprite $AwsExpressWorkflowsSm [12x12/16z] JSYv5GDH34BHCzhXzz-lXI8JlGjsetKt_i3hxq2XOZIIavdXrmOCfbkD7cYbFtDhFOyh-ypMJqWIwaC9Qe723m
+
+sprite $AwsExpressWorkflowsMd [16x16/16z] NOu74i0W3CEE3UR__wrTfrCt9KQon3I3h5zOlm1xQX40Uvq62Zddb7C9J-IyOzUlcIRe2frZcc_ulwg9Ov8TvqIVpCq0_H2xRGQIC2boXvO0ku2nVyC1
+
+sprite $AwsExpressWorkflowsLg [20x20/16z] {
+RSy50iCW44HHP6t8_U_ROTEb-k8_1aXHVCEVY3yHnUJ4LKtYn5LnYCRJogWqkFbfuUBtrQWcHWsRLUkJ51XRjtgNdsS3zSWsW_YkfBkrpR3DdD5riM88JG9b
+IzPHBiecItvQ5rklLfL-6rNxUV81
+}
+
+!procedure AwsExpressWorkflows($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Architecture/AppIntegration/AwsExpressWorkflows', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsExpressWorkflowsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsExpressWorkflowsLg>', 'AppIntegration', $funcName, $content)
+!endprocedure
+
+!procedure AwsExpressWorkflowsGroup($id, $name='Aws Express Workflows', $tech='')
+  IconGroupElement($id, 'AppIntegrationFamily', '<$AwsExpressWorkflowsLg>', $name, $tech)
+!endprocedure

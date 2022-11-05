@@ -1,0 +1,27 @@
+' definition of the Item aws-q3-2022/Architecture/MachineLearning/AmazonFraudDetector
+
+sprite $AmazonFraudDetectorXs [10x10/16z] BSR70GKW34Eny4lYP_QVbwwJjDII2Qzxht1Ulp8qPMMLdI9Qqvg3Y93M4F1HztyTfDxjKoO
+
+sprite $AmazonFraudDetectorSm [12x12/16z] HSV70O1G3CDGuj-iPFzzwV1Eaa_hCEU4Vw3tTuwMPFLZE2OEQcibZeb6rz4PiR4DXuzE5btgzj4Qa-KvNQd0WEqgoEHqTEM1qmu
+
+sprite $AmazonFraudDetectorMd [16x16/16z] {
+NShRbGKW24DH0mW1--ztaBdlyxUpmYacxp8_bd6-7MF5UxY60A04eijEk63RmjhL3WC1Q5nNGiHrCHJZKcYYlS5nkJbtX2Z9iIw7sfA79Nrb9WNagJ84yqQs
+Jy7wazFrQRs7ypFy0G
+}
+
+sprite $AmazonFraudDetectorLg [20x20/16z] {
+PSg7aGDH20HHFCDN_ldU3VBQBl-gyQZl5PkvubnnBVeBQG7zEccjPcw6x8x5OJeEtR6eXvPUsk9kdaqZkWQYh8qRxMIPsQX088gdAN9Ce505rWvSTDmwsWp0
+sXc96Ka9eM7DZwGYFQNiPIE8OJlURgTQy_Hiw8UbSNuWxJyAyQ5lUoFjSlu1
+}
+
+!procedure AmazonFraudDetector($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Architecture/MachineLearning/AmazonFraudDetector', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonFraudDetectorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonFraudDetectorLg>', 'MachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure AmazonFraudDetectorGroup($id, $name='Amazon Fraud Detector', $tech='')
+  IconGroupElement($id, 'MachineLearningFamily', '<$AmazonFraudDetectorLg>', $name, $tech)
+!endprocedure

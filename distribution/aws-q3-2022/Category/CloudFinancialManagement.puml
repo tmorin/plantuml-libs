@@ -1,0 +1,24 @@
+' definition of the Item aws-q3-2022/Category/CloudFinancialManagement
+
+sprite $CloudFinancialManagementXs [10x10/16z] HOc50S0W30JhR_llMvo392_OI2nqfVCiicK7tohTQfHlw_k-hahwJeK78kA22iYKFm
+
+sprite $CloudFinancialManagementSm [12x12/16z] JOkr0S0m40EDWi_-yuODLmcvOritj-hqRtxTgIpTEen2fIBTEbh9ENV-6a3xy-wQXePRRZ9uHEF3guzui6_zyzml
+
+sprite $CloudFinancialManagementMd [16x16/16z] NSs74S0m20H1ZoNuUzn_lSxv9gu2w5_FpBZgWz8sHv9Ehoy4N1u3WhNJwaOIiBhSKMiDQREgUkmhqEErWCjkRhJ7XJSyTXc1Dq_LqLeczkQfzcoVVWvM3zyM
+
+sprite $CloudFinancialManagementLg [20x20/16z] {
+RSk53GH134FHcR1p_VTxoJ9zePza_shCPyCdgjZohksEfr5zfF4qZrdJLjmiUDHTrtjP0i8yL7KoUM5RGX1hVbWAR06wcLXNrzFI40RpcoKgvPjn62-6qm9m
+29MXxVTB2U_CjGohRQ7QxT0loyt6g_a7
+}
+
+!procedure CloudFinancialManagement($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Category/CloudFinancialManagement', $name, $tech, $desc)
+!endprocedure
+
+!procedure CloudFinancialManagementCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudFinancialManagementLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CloudFinancialManagementGroup($id, $name='Cloud Financial Management', $tech='')
+  IconGroupElement($id, 'CloudFinancialManagement', '<$CloudFinancialManagementLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item aws-q3-2022/Category/ManagementGovernance
+
+sprite $ManagementGovernanceXs [10x10/16z] HSY74S0W30H1P_DF__M2icxIplqTW26vS9vA8Y_Fe2YkYg_odvGW_JEe2cu
+
+sprite $ManagementGovernanceSm [12x12/16z] JSt50SH0243HtIJ8P_glTzpU2STkL5wPYR4JiO1NLB_NQnpQkFOuFc35GJLZ-8EXbk9fHfoY7JVfSOg66hiDzKK1
+
+sprite $ManagementGovernanceMd [16x16/16z] NSk73S1024FHgnYJ_VSDHQbVzHc1VqkyVTKWZ3G3BjDlFbnUMsIkgUesNXyIXWcoVbkdjsx3Z5xdPUszjp4eB9j73e9q7uRgyc6s5Tuk-v2HbwyXtBwT
+
+sprite $ManagementGovernanceLg [20x20/16z] {
+RSw50SGm3C30S0pxxrkhJ7hi1UTVARzBCol97hEm9vu6nge6OeQKtiOOfTL03ApxyX6VrLejM_Cobg_TJMfcsiFCR9kdztbHgWypwioRkffR7dqBqzMSxOml
+nHG3kJ_rtS0z9UoDs1Enz2al
+}
+
+!procedure ManagementGovernance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Category/ManagementGovernance', $name, $tech, $desc)
+!endprocedure
+
+!procedure ManagementGovernanceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ManagementGovernanceLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure ManagementGovernanceGroup($id, $name='Management Governance', $tech='')
+  IconGroupElement($id, 'ManagementGovernance', '<$ManagementGovernanceLg>', $name, $tech)
+!endprocedure

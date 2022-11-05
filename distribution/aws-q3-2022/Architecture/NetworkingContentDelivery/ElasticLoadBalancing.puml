@@ -1,0 +1,27 @@
+' definition of the Item aws-q3-2022/Architecture/NetworkingContentDelivery/ElasticLoadBalancing
+
+sprite $ElasticLoadBalancingXs [10x10/16z] FOh90S000C7q5lQVjtVhXGJmbMtZhtdgQYTCmhgQOC9NkuHXbPlrld6RCspGf-fgxyi1
+
+sprite $ElasticLoadBalancingSm [12x12/16z] JKkr0G0W0B85_FzUkrXeTc0YPtv6syGCw1Wxj1mIF33qc6NI3Ht6p1fcbAuaCp-b6nV42B9qCq0xzJJarATX0m
+
+sprite $ElasticLoadBalancingMd [16x16/16z] {
+NOo50G8m30I9aNow_xxqgI1NlHX8RJ8JYnlelq3tyLIVWRu1BLdUJpK5n79v5e27e6gvxXQJtCw0YCBURZrnJfndpBy0KLOWWm6mB3JeCx1G2Fq6u4LVWGNz
+B_02
+}
+
+sprite $ElasticLoadBalancingLg [20x20/16z] {
+PSi73e0m30H1Et79cV-_bt9qMFMH5cnSvHhfgNyZ5fuQnAg7IRGDYtYe3QKHkyXOJIHE6ns0MpIiS9XmxuRR44LqGBtjDhA8eXgGuzNQC1Fecki_LLN4PY9W
+gn5RRrPecTHfmoDeDjeJ7KfxeacUzjnfFwJzS04
+}
+
+!procedure ElasticLoadBalancing($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Architecture/NetworkingContentDelivery/ElasticLoadBalancing', $name, $tech, $desc)
+!endprocedure
+
+!procedure ElasticLoadBalancingCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ElasticLoadBalancingLg>', 'NetworkingContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure ElasticLoadBalancingGroup($id, $name='Elastic Load Balancing', $tech='')
+  IconGroupElement($id, 'NetworkingContentDeliveryFamily', '<$ElasticLoadBalancingLg>', $name, $tech)
+!endprocedure

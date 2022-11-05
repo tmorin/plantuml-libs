@@ -1,0 +1,21 @@
+' definition of the Item aws-q3-2022/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessManagementPermissions
+
+sprite $AwsIdentityAccessManagementPermissionsXs [10x10/16z] Oy00Z62I3SPYGuXnmrZS234uYnrJBnCOi38
+
+sprite $AwsIdentityAccessManagementPermissionsSm [12x12/16z] RKg50O10409RRlzvzRilANHrCfOS9k0Vp6C91NjGyLsmtUkCM37Lu9fHgWS_
+
+sprite $AwsIdentityAccessManagementPermissionsMd [16x16/16z] VOj50e1000An5Vx_NdMxTsx4eE5WH2O_YDmXiyXalJTvAREANMhzMURs57cf_1lFn8SY5_01
+
+sprite $AwsIdentityAccessManagementPermissionsLg [20x20/16z] ZSr50a0X40BGmLRkVzxVQRDy4qWzaP-aqu9y0lLQA2sup922AMxXQl-gHcJ_80dv7edo5dCTLe3Sl6Un1_h2ADwDEwBwn9w6h-sq0W
+
+!procedure AwsIdentityAccessManagementPermissions($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessManagementPermissions', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIdentityAccessManagementPermissionsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIdentityAccessManagementPermissionsLg>', 'SecurityIdentityAndCompliance', $funcName, $content)
+!endprocedure
+
+!procedure AwsIdentityAccessManagementPermissionsGroup($id, $name='Aws Identity Access Management Permissions', $tech='')
+  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsIdentityAccessManagementPermissionsLg>', $name, $tech)
+!endprocedure

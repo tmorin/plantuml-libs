@@ -1,0 +1,24 @@
+' definition of the Item aws-q3-2022/Architecture/Compute/AmazonGenomicsCli
+
+sprite $AmazonGenomicsCliXs [10x10/16z] FSR10G0G54EnWhw__y80SWhWfJL-sLKhvjJLSPhis5NIN22cDIDHYMXroNCBqm
+
+sprite $AmazonGenomicsCliSm [12x12/16z] HSU53G113CH0XTRfl-67mn7PWAOgk0FsyN0FWG6gZ5oDtAJ6ae_ztKQ28ceqHi7ir0VztSqlwAwSH4_yNW
+
+sprite $AmazonGenomicsCliMd [16x16/16z] NSi53aHH34BHL83kVyLJ6RzV3ybJnrS0z3CGloBRYObmjpNkY7jyMKmuoNfP38vBP8opXxFaxR2mftU0sTFLlCw4l9D2xPf7cqdzR-_Ebwxw6nu
+
+sprite $AmazonGenomicsCliLg [20x20/16z] {
+RSg54GCm40D1FqXo-cyuRmpUyCvfn5Uez8qyfc-3pu8E846MnJaRWJYsqU3HkEqYCwzjH0QhFemROPZMozIcqfanhPV9XZLOj6k5B0kptDObDksEzGpTje5I
+gqnAQbcbNPc60NdpOPLEh3JifjFZ3pu1
+}
+
+!procedure AmazonGenomicsCli($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Architecture/Compute/AmazonGenomicsCli', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonGenomicsCliCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonGenomicsCliLg>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AmazonGenomicsCliGroup($id, $name='Amazon Genomics Cli', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonGenomicsCliLg>', $name, $tech)
+!endprocedure

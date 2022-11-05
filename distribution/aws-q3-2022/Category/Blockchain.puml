@@ -1,0 +1,21 @@
+' definition of the Item aws-q3-2022/Category/Blockchain
+
+sprite $BlockchainXs [10x10/16z] JSQ30G0m40F0AjX_uLgFvFGFnm2FkfIG6FjIZe8AXwmnGvj3crsR3G
+
+sprite $BlockchainSm [12x12/16z] NSs53S0m44DHzSwq_y9bIhxeMMHFwOpz6_3PtxuSLosrTpXLDFfoDrfrEV7PvVny3VfulEeD
+
+sprite $BlockchainMd [16x16/16z] NSZ70K0X20HH9RZqt_2F2uQvlS6Psf8sE9u6Sxf66gTn6kbm5N5vKbhC1MuGMbL5UXVw2InT8ntb4N-dWsvxDm
+
+sprite $BlockchainLg [20x20/16z] VSg15S0G54DHoGVxBzm201xW7kwKmfGAERYGRHbZaitwi5cVLhMQ8Mc1k93DUv2Ibb2wEMt2qhHi9an3-h-GQrMRzM6plYprDBM57m
+
+!procedure Blockchain($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Category/Blockchain', $name, $tech, $desc)
+!endprocedure
+
+!procedure BlockchainCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$BlockchainLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure BlockchainGroup($id, $name='Blockchain', $tech='')
+  IconGroupElement($id, 'Blockchain', '<$BlockchainLg>', $name, $tech)
+!endprocedure

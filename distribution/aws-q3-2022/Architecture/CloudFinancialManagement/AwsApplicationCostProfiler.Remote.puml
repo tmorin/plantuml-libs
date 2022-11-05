@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q3-2022/bootstrap')
+
+' loads the Item which embeds the element AwsApplicationCostProfiler
+include('aws-q3-2022/Architecture/CloudFinancialManagement/AwsApplicationCostProfiler')
+
+' renders the element
+AwsApplicationCostProfiler('AwsApplicationCostProfiler', 'Aws Application Cost Profiler', 'an optional tech label', 'an optional description')
+@enduml

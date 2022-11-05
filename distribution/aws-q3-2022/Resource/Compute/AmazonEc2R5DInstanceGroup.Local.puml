@@ -1,0 +1,21 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q3-2022/bootstrap')
+
+' loads the Item which embeds the element AmazonEc2R5DInstanceGroup
+include('aws-q3-2022/Resource/Compute/AmazonEc2R5DInstance')
+
+' renders the element
+AmazonEc2R5DInstanceGroup('AmazonEc2R5dInstanceGroup', 'Amazon Ec2 R5d Instance Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

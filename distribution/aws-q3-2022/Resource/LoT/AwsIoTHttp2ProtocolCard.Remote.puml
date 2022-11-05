@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q3-2022/bootstrap')
+
+' loads the Item which embeds the element AwsIoTHttp2ProtocolCard
+include('aws-q3-2022/Resource/LoT/AwsIoTHttp2Protocol')
+
+' renders the element
+AwsIoTHttp2ProtocolCard('AwsIoTHttp2ProtocolCard', 'Aws Io T Http2 Protocol Card', 'an optional description')
+@enduml

@@ -1,0 +1,21 @@
+' definition of the Item aws-q3-2022/Resource/GeneralIcons/Forums
+
+sprite $ForumsXs [10x10/16z] Oq05B430mC0B0qWi16240J0F8eaGWmE4NW
+
+sprite $ForumsSm [12x12/16z] LSf50G0n402nANV9lznZp3jybRGfEwMcc_ALJy14vir8BnARiHFYnNYHRQV0xwm
+
+sprite $ForumsMd [16x16/16z] NSlL0SLG34Enyw3eUFznov1S_OkMbHbnY4DdGbdGYazcD5tO6KScFWM8p8Z3__0rOp4m51twNSg_cM_12W
+
+sprite $ForumsLg [20x20/16z] RS-53G0n30D0bp7xZ_kCba_OXg7qoI8cBl62ylxv2mg6iGnb6jlxjTjLjF-nWboP1nm3Pc1lFsyN59Kd--N2lDXFtY7l5LO
+
+!procedure Forums($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Resource/GeneralIcons/Forums', $name, $tech, $desc)
+!endprocedure
+
+!procedure ForumsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ForumsLg>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+
+!procedure ForumsGroup($id, $name='Forums', $tech='')
+  IconGroupElement($id, 'GeneralIconsFamily', '<$ForumsLg>', $name, $tech)
+!endprocedure

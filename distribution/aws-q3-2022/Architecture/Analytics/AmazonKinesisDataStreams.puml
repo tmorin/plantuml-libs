@@ -1,0 +1,27 @@
+' definition of the Item aws-q3-2022/Architecture/Analytics/AmazonKinesisDataStreams
+
+sprite $AmazonKinesisDataStreamsXs [10x10/16z] FSR50S0m34KnG-XzxpzlkT59mBhDoQvsTTLuPuIFPrAQkQzIoh4PgqhNeL5t5PrxTmKd
+
+sprite $AmazonKinesisDataStreamsSm [12x12/16z] JKl50K1H27gsuFxx_WukD7RqYIhy37Sfjo7X0ToQw1BFEdD3wHA9NUzErrgx7lP-LlU5dc7HKZK2CzD6oee-z2J9R9nwU03O
+
+sprite $AmazonKinesisDataStreamsMd [16x16/16z] {
+NSZ70SC03CD0gqlC_lk6xWM_mwprKLNDtZNm6G2HbniSFd4DiEoMdCk292lTRJDKUxh2JUcja6LPH6HpAQRKoPd-0GxjAQbIc_bjmnFqACtHqu2qXD4C1MPA
+qWn7gp_Z3m
+}
+
+sprite $AmazonKinesisDataStreamsLg [20x20/16z] {
+LSxL0GCm24LHN5xttxTGJUxdYK2_gbyvhLnwse5uKnoQUACULbYqbfuEmrYJNzRLx5qcBAhsDb1t2x55_jyYH7qWCoBMtfNInimVI_P2XPV8Qz9ZJ07cx29A
+ahN55hIAQXJleez5HIeWFLcDBHO4WAkHKwyjmZ69BgszyTtAseKuxC8d
+}
+
+!procedure AmazonKinesisDataStreams($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Architecture/Analytics/AmazonKinesisDataStreams', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonKinesisDataStreamsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonKinesisDataStreamsLg>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AmazonKinesisDataStreamsGroup($id, $name='Amazon Kinesis Data Streams', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AmazonKinesisDataStreamsLg>', $name, $tech)
+!endprocedure

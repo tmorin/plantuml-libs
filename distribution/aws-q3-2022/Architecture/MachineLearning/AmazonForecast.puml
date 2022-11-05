@@ -1,0 +1,27 @@
+' definition of the Item aws-q3-2022/Architecture/MachineLearning/AmazonForecast
+
+sprite $AmazonForecastXs [10x10/16z] BSY74G0m2CF0TB3PVz_GTErFwedt7j1qpKY6076VJxgEph65n0LMYaWflP9nP2xBwtq
+
+sprite $AmazonForecastSm [12x12/16z] HSe72WH1449HkhBLzx_lwgRvf2SugbbL0S_0RtZIfb5vicMEF7ojND4pz5fcW1xPJMPl9mRqNOje7mTz0Om2VPT1lG
+
+sprite $AmazonForecastMd [16x16/16z] {
+LSi93WGW24DHIS5IlFzzHvZzPtsavCHftwIVorY_YtRFuaOizfwpO8I1bCHviHsyrTZD2EU-hhQjbOXyEIANVcpGajgPLKNmp_dhS-qkXm2rJxaxdh5zQjBK
+_Ziy
+}
+
+sprite $AmazonForecastLg [20x20/16z] {
+TSn70i8m34HHswgZtF--H8n3vo-VIkw2UGTy8tuWtj6DflDH-F1easlJpAPv10rtylspQEYTAIEahQ2zfvavSoIj59c2fVPcPWw5hRQarLZojAIrF2rfHSD_
+EuxJLBrKmaHmsNY9TYe3s_QERL-RDm
+}
+
+!procedure AmazonForecast($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Architecture/MachineLearning/AmazonForecast', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonForecastCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonForecastLg>', 'MachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure AmazonForecastGroup($id, $name='Amazon Forecast', $tech='')
+  IconGroupElement($id, 'MachineLearningFamily', '<$AmazonForecastLg>', $name, $tech)
+!endprocedure

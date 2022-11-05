@@ -1,0 +1,24 @@
+' definition of the Item aws-q3-2022/Resource/LoT/AwsIoTAlexaEnabledDevice
+
+sprite $AwsIoTAlexaEnabledDeviceXs [10x10/16z] HOc30G0m30IZulOVk4Rmb3_fC0i84Hz2mPYAbIzL1eSELSlD19DQbnhTol0zjGC
+
+sprite $AwsIoTAlexaEnabledDeviceSm [12x12/16z] JOpL0G1024BX2jr_uEjwNqhXnxa92SJ1nYs0MhSo8QHvJrpZNe_2qjCeshnzfi-EkJZkyEqdEw01
+
+sprite $AwsIoTAlexaEnabledDeviceMd [16x16/16z] PSV5WGHG242nXqF_1Qzy6SqjV9b-0SChfm4aozPhVGGelHywV2HaNwK1ajbl782C_K7MI_UJN8_Qnzs0uZv5cl3c7EkPRkwlxxk0rvFm2m
+
+sprite $AwsIoTAlexaEnabledDeviceLg [20x20/16z] {
+RSpL0SDG3CLGcV9yzr-u3QC-Zu7FidLjp5JS4pIFqX1phd_9N6pMjNw-M1lwv-YmI1fW2iPkGZ3Nz6czcaUTDbQpT7lUXarirenWJcYt6Gkeg3WiXHTJLtCO
+fgab1QVDHHfiDdWq39HnRJI0-JM37m
+}
+
+!procedure AwsIoTAlexaEnabledDevice($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Resource/LoT/AwsIoTAlexaEnabledDevice', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTAlexaEnabledDeviceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTAlexaEnabledDeviceLg>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTAlexaEnabledDeviceGroup($id, $name='Aws Io T Alexa Enabled Device', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTAlexaEnabledDeviceLg>', $name, $tech)
+!endprocedure

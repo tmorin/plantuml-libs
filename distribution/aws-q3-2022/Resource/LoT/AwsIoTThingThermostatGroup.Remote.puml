@@ -1,0 +1,20 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q3-2022/bootstrap')
+
+' loads the Item which embeds the element AwsIoTThingThermostatGroup
+include('aws-q3-2022/Resource/LoT/AwsIoTThingThermostat')
+
+' renders the element
+AwsIoTThingThermostatGroup('AwsIoTThingThermostatGroup', 'Aws Io T Thing Thermostat Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

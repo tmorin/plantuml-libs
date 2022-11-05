@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q3-2022/bootstrap')
+
+' loads the Item which embeds the element AwsIoTDeviceManagementFleetHubCard
+include('aws-q3-2022/Resource/LoT/AwsIoTDeviceManagementFleetHub')
+
+' renders the element
+AwsIoTDeviceManagementFleetHubCard('AwsIoTDeviceManagementFleetHubCard', 'Aws Io T Device Management Fleet Hub Card', 'an optional description')
+@enduml

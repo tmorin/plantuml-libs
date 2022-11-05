@@ -1,0 +1,20 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q3-2022/bootstrap')
+
+' loads the Item which embeds the element AwsDataExchangeForApIsGroup
+include('aws-q3-2022/Resource/Analytics/AwsDataExchangeForApIs')
+
+' renders the element
+AwsDataExchangeForApIsGroup('AwsDataExchangeForApIsGroup', 'Aws Data Exchange For Ap Is Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

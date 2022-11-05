@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q3-2022/bootstrap')
+
+' loads the Item which embeds the element AwsSystemsManagerPatchManager
+include('aws-q3-2022/Resource/ManagementGovernance/AwsSystemsManagerPatchManager')
+
+' renders the element
+AwsSystemsManagerPatchManager('AwsSystemsManagerPatchManager', 'Aws Systems Manager Patch Manager', 'an optional tech label', 'an optional description')
+@enduml

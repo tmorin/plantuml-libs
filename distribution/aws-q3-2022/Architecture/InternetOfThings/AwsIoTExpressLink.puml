@@ -1,0 +1,27 @@
+' definition of the Item aws-q3-2022/Architecture/InternetOfThings/AwsIoTExpressLink
+
+sprite $AwsIoTExpressLinkXs [10x10/16z] FSR70S0m30CnEPMKzzytnpIyO2lEy_HVLXff6r99JMiPj5Dl6PZrRhSrMPt6f60N
+
+sprite $AwsIoTExpressLinkSm [12x12/16z] JOlN0KCn38JYhfFttpV7wto1YgI0PVG9l9T1uCERtXqfbUFCaLaKfPI8WREmJNiE7jRo3KHKVZQ-razc4mXENFa7
+
+sprite $AwsIoTExpressLinkMd [16x16/16z] {
+NOv90iGW3CDO7Jlz_ty7P_Rg9ha5TE2JCBe5tKBfMBk_WdLJOXjmIC-EvEGXKvq28iYDyX0yDRBRSnsNrFJow56EJhlB3E-ItJ046Lxb-Bpqge2atkvWNduB
+3m
+}
+
+sprite $AwsIoTExpressLinkLg [20x20/16z] {
+NSo50S0W34HHWjvFzv-t5gg7Fo00kZ8YyDQ_FKYarnhuM1gIzS1fJO1ooO5-MBvgfXDznr92f693ahjtO2JBsOwNOHKmW5gaDkATGphDxdTkZNnQQxbFc_yv
+9ZrMQb6n3d2RKw0HjYnXgOmH1hVv4BU5SeolHHwR-k06
+}
+
+!procedure AwsIoTExpressLink($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Architecture/InternetOfThings/AwsIoTExpressLink', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTExpressLinkCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTExpressLinkLg>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTExpressLinkGroup($id, $name='Aws Io T Express Link', $tech='')
+  IconGroupElement($id, 'InternetOfThingsFamily', '<$AwsIoTExpressLinkLg>', $name, $tech)
+!endprocedure

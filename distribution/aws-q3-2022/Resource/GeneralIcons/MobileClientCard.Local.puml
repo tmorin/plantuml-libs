@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q3-2022/bootstrap')
+
+' loads the Item which embeds the element MobileClientCard
+include('aws-q3-2022/Resource/GeneralIcons/MobileClient')
+
+' renders the element
+MobileClientCard('MobileClientCard', 'Mobile Client Card', 'an optional description')
+@enduml

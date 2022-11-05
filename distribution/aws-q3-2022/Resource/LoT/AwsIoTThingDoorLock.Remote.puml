@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q3-2022/bootstrap')
+
+' loads the Item which embeds the element AwsIoTThingDoorLock
+include('aws-q3-2022/Resource/LoT/AwsIoTThingDoorLock')
+
+' renders the element
+AwsIoTThingDoorLock('AwsIoTThingDoorLock', 'Aws Io T Thing Door Lock', 'an optional tech label', 'an optional description')
+@enduml

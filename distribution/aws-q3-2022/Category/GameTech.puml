@@ -1,0 +1,24 @@
+' definition of the Item aws-q3-2022/Category/GameTech
+
+sprite $GameTechXs [10x10/16z] HOh50K1H3CAULKBtd_UxS0AI-0FaaRizLJI8VbJrdj2kvdssUJNfSgEakqPTzMvFtG4
+
+sprite $GameTechSm [12x12/16z] JOj50S0m40IRO_2ljs6OrwA-UCCwoaDFmnh3B1reWCLWw83Y9Z9qOS2FiUcC61zrqKoo24SOkZND-D3BD6sc0n6g
+
+sprite $GameTechMd [16x16/16z] NSZN0K0X5C9G2ru4zv_tzMh-JZY7s6jNYQ6zVaJUliTcVqSYxOe2eDGutGLrvTxQQRg8ct4xHwgrPDJBDYnLKRi77ROtXRHxGDvIkpry9Ds-n-rxx4x_LW
+
+sprite $GameTechLg [20x20/16z] {
+XSY50S0m24JHu1pTVz-wsu_ougb6rreGfd8f8ZRRSRSTHwkwu6pH24F3ira6GExgaRmQ5Lac1DfyCqGfOCFIpSYPHAIPo6PLZW8O2Ep6DHXiC8pMTPwA6eA6
+09YibZ2qsgv_jkkhjLlK0m
+}
+
+!procedure GameTech($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Category/GameTech', $name, $tech, $desc)
+!endprocedure
+
+!procedure GameTechCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$GameTechLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure GameTechGroup($id, $name='Game Tech', $tech='')
+  IconGroupElement($id, 'GameTech', '<$GameTechLg>', $name, $tech)
+!endprocedure

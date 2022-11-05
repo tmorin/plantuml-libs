@@ -1,0 +1,24 @@
+' definition of the Item aws-q3-2022/Resource/GeneralIcons/Alert
+
+sprite $AlertXs [10x10/16z] Oq05N306Dn120I-CHh3Xge0wm2GhM0v4CqDPp0XL
+
+sprite $AlertSm [12x12/16z] VSh50K0X0CFGV1VOVrtSxUNOilAQejCK23Oa7Ub7V_OkuC6xuIVwaPjnROQae04
+
+sprite $AlertMd [16x16/16z] ZSpLWSD030N0CTkI-s_tBl22Nvdb5VZDqgjthRofh1ZMhbu7udGud68Uh3R3JC9c2mti64svPI_OaAmZbUdIEfsBv2Uv-gLy-mS
+
+sprite $AlertLg [20x20/16z] {
+bSv50eCm54NHY-Rh_fTRmIAZza3S7dyp6CKK37nYSZgJ7_FzDZ8JXsef14bPgHASEDhBiMuuhANc01G5d9e31BdVVzfYXPedkDJHjWEmvzLkFEzdxJ0l74gM
+A_yC8RtWLsy
+}
+
+!procedure Alert($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Resource/GeneralIcons/Alert', $name, $tech, $desc)
+!endprocedure
+
+!procedure AlertCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AlertLg>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+
+!procedure AlertGroup($id, $name='Alert', $tech='')
+  IconGroupElement($id, 'GeneralIconsFamily', '<$AlertLg>', $name, $tech)
+!endprocedure

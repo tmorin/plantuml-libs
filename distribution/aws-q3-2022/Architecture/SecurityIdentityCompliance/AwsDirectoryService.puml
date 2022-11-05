@@ -1,0 +1,24 @@
+' definition of the Item aws-q3-2022/Architecture/SecurityIdentityCompliance/AwsDirectoryService
+
+sprite $AwsDirectoryServiceXs [10x10/16z] FSR50G0n30EmWvAT_VTjM2z17RFPPLLtiZfYFy_qSK-T43gS2H4QB5rMLxq
+
+sprite $AwsDirectoryServiceSm [12x12/16z] JST50S104C30TXdywpscl2RUiv76Ct6dMM3MJVYFk1l2LPLeElGp9ijc8WL5zao120E0xXJ2ddPdZBpvJWK
+
+sprite $AwsDirectoryServiceMd [16x16/16z] NSZN0SGW40FH8wsGjlz-ZsoR-Nl3MPq1keQkeMiqnzDqWfcLqNGKoRxYjWX6l2o0gKHMxquX0o4qqxqvnuX2_eQzHhNGcdRBQJNjMh7v6dwDFm
+
+sprite $AwsDirectoryServiceLg [20x20/16z] {
+RSg7aSGm34DHPH14__qUTUDrv7VK6_38VW5WWfwW9-W9XbcxzJExBt_MvlZLy3CdYRARzZD44xrXZjFYpL2MkNVwDuj_eFIsfj4aDpQFK4WhOPHaet4HLaVl
+FvFltOxaEamh5hzucFmNTqfG2Ih1Fm
+}
+
+!procedure AwsDirectoryService($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Architecture/SecurityIdentityCompliance/AwsDirectoryService', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsDirectoryServiceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsDirectoryServiceLg>', 'SecurityIdentityCompliance', $funcName, $content)
+!endprocedure
+
+!procedure AwsDirectoryServiceGroup($id, $name='Aws Directory Service', $tech='')
+  IconGroupElement($id, 'SecurityIdentityComplianceFamily', '<$AwsDirectoryServiceLg>', $name, $tech)
+!endprocedure

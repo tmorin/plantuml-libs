@@ -1,0 +1,24 @@
+' definition of the Item aws-q3-2022/Resource/GeneralIcons/MagnifyingGlass
+
+sprite $MagnifyingGlassXs [10x10/16z] JKg30G104EhDzX_tZNE2A0B6B50WA_B3iJl2XIA87MOSqWiorWTh1m
+
+sprite $MagnifyingGlassSm [12x12/16z] LKg50S0m2CDM2__VkxgWCNhBLI03VZ1nigwYNOHsrORDTKK6R1ZUO6YGXD2WTsAX1foKTpQaIBioun2K7m
+
+sprite $MagnifyingGlassMd [16x16/16z] RKw54GGW30iERTX_tBU6zw2nk-8F1fryKQBPn6o79hzdPiyHXZ_UN1YsSkVZ9kufFUGXliKXOIauPmwTmLilzBtWHyXiAPa_Ca9AW65g1C4gOHz2D5vOn1K
+
+sprite $MagnifyingGlassLg [20x20/16z] {
+TOo5SK1120MNRtZ_vSPkkFYE84_u3_6gUFXAEy3P9vkIgyBByMkx97KjvEwwT5HgBJuBcFHQac1G5m0APp1Rlw3cTLvhvJcth-cVcpttL9zE6vpzaFcmk19H
+kxWJV9vKkrLR0tqpY02IcEOyHsarA_dnB0FbfvEVFX0LNW4
+}
+
+!procedure MagnifyingGlass($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Resource/GeneralIcons/MagnifyingGlass', $name, $tech, $desc)
+!endprocedure
+
+!procedure MagnifyingGlassCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$MagnifyingGlassLg>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+
+!procedure MagnifyingGlassGroup($id, $name='Magnifying Glass', $tech='')
+  IconGroupElement($id, 'GeneralIconsFamily', '<$MagnifyingGlassLg>', $name, $tech)
+!endprocedure

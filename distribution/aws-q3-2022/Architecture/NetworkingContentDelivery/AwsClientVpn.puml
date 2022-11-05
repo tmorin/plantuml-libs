@@ -1,0 +1,24 @@
+' definition of the Item aws-q3-2022/Architecture/NetworkingContentDelivery/AwsClientVpn
+
+sprite $AwsClientVpnXs [10x10/16z] FSR70S0W4C0mEjYt_xpfGIy1wpOdkmBbgNVfpoPKoZrDDDeAaxP6NX5gIK0yzTxk2G
+
+sprite $AwsClientVpnSm [12x12/16z] JSVN0S0m20DHTv3OVz_8fFc-xa5vPeO3F41XO3xF2g2EV2nOaVOtqY1C3mvoz04tZw0g1XKRhRNyXCh_SG4
+
+sprite $AwsClientVpnMd [16x16/16z] NOm54W112CDcdPR___SAvvlH145W5sijd3o1Ms26DUs24OfXpCTP8MhfjpSay_82wgB4btJzd19jbFH15j7bC2UjZAPHhSK0z_n8EGBFKAgutNcHlWNVmW4
+
+sprite $AwsClientVpnLg [20x20/16z] {
+PSm75WGX20DGkmJlVzyDSQTdgly5eDYPoG0l_PhGyMtwnbdArNHX7a1lbn6RkgtNoxn06PPEcvMWrzuQD3XU9ge1RCgQCoaMnhEjyx7KUo-qIblgqD6YDp9e
+InkxirMiJp0hKFC5AK0cx8N9bmbtJllW-g3iWpy
+}
+
+!procedure AwsClientVpn($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Architecture/NetworkingContentDelivery/AwsClientVpn', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsClientVpnCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsClientVpnLg>', 'NetworkingContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AwsClientVpnGroup($id, $name='Aws Client Vpn', $tech='')
+  IconGroupElement($id, 'NetworkingContentDeliveryFamily', '<$AwsClientVpnLg>', $name, $tech)
+!endprocedure

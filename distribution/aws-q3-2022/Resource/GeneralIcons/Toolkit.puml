@@ -1,0 +1,27 @@
+' definition of the Item aws-q3-2022/Resource/GeneralIcons/Toolkit
+
+sprite $ToolkitXs [10x10/16z] LSU30GD000F0Utl_SMl6yOTZWH9UCSHWJi7Wf7pSBkbKc4RAocEj8n-my5nAWoi
+
+sprite $ToolkitSm [12x12/16z] NSp50O1044FHlouJ-YyN2oVUw2dyhTwnCe6T0A9cI480QK9eODfLVFOXB4KDmdz8R3flsW3wcmpoMFPt0G
+
+sprite $ToolkitMd [16x16/16z] {
+RO-54GGn3CGKS6Wt_PVxp7yoQZnaZWdd3qjE5BzK5O0nxsFK0Q252Y1wDSogpWOMoE3Kyyq5u4A7vnrYRzu-dJP--GewndSNKntmA3TFJf41SX4txZDzl307
+QdmYxfm1
+}
+
+sprite $ToolkitLg [20x20/16z] {
+VP150WGn40BfkF7_xouxxdLee78Bll3TheeLlPzCQH0sqcOYxTBq6jhKyYYeKws6vlxlrjWIlCqE73eXkh8xGVWUI1mTXhCAaKsdJSuxCa7epCvYDwA6Wyir
+-1OQQjpTe2SWsVpY0dAlX6JNBH0ovlBKF3m3PdhVVsV3UjAj3ISYCt4ZRkq7
+}
+
+!procedure Toolkit($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Resource/GeneralIcons/Toolkit', $name, $tech, $desc)
+!endprocedure
+
+!procedure ToolkitCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ToolkitLg>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+
+!procedure ToolkitGroup($id, $name='Toolkit', $tech='')
+  IconGroupElement($id, 'GeneralIconsFamily', '<$ToolkitLg>', $name, $tech)
+!endprocedure

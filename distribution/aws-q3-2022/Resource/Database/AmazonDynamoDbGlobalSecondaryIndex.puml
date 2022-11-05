@@ -1,0 +1,24 @@
+' definition of the Item aws-q3-2022/Resource/Database/AmazonDynamoDbGlobalSecondaryIndex
+
+sprite $AmazonDynamoDbGlobalSecondaryIndexXs [10x10/16z] JOg50S1030Af5zb_tUhRnGCO2EXdh63ea1HI6TIrClnS6NtPbCTst
+
+sprite $AmazonDynamoDbGlobalSecondaryIndexSm [12x12/16z] LSh50K0n309GIBsm_xhVzLqYWA-KAYrk1BB2maQ8O5o-_z-US-JBxrzRBNRP26FaSVbrf2fR6wy
+
+sprite $AmazonDynamoDbGlobalSecondaryIndexMd [16x16/16z] XSi53aC1309GgWihzx_ktFVbfR42-ALHpvJcXXYmWHhS46F7Tgkn6yBTxNPtprpF_7SlgiaIxv2Pdcbv5x_z_xtKKkgE89bayEwmi__jzna
+
+sprite $AmazonDynamoDbGlobalSecondaryIndexLg [20x20/16z] {
+dT054aGX30FG49pc_kVThBlzDuDhYrT2KdEXpWW1Qi1auAYycPjJRSwWEmUBe2KNy0pGzZTUdYr65vGpGAHQvQ9ur3-yaMxcAh4YehempeXfnONpBFt-vrBy
+bxBepa5_cPST
+}
+
+!procedure AmazonDynamoDbGlobalSecondaryIndex($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Resource/Database/AmazonDynamoDbGlobalSecondaryIndex', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonDynamoDbGlobalSecondaryIndexCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonDynamoDbGlobalSecondaryIndexLg>', 'Database', $funcName, $content)
+!endprocedure
+
+!procedure AmazonDynamoDbGlobalSecondaryIndexGroup($id, $name='Amazon Dynamo Db Global Secondary Index', $tech='')
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonDynamoDbGlobalSecondaryIndexLg>', $name, $tech)
+!endprocedure

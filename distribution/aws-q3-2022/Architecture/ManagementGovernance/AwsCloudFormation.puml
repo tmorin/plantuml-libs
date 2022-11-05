@@ -1,0 +1,24 @@
+' definition of the Item aws-q3-2022/Architecture/ManagementGovernance/AwsCloudFormation
+
+sprite $AwsCloudFormationXs [10x10/16z] FOg54G0m309hyVttxKKv0_v5X3r4CbMzRgyQzIrloYuiR-zwlAN0DjNilHVLhDyF
+
+sprite $AwsCloudFormationSm [12x12/16z] JSU54S0m30J1YVXV_VSR1mmtT8jHFMKc3l007oYk1wIg2b3sl5m13CJpPZg2F-zEk0UgAK5yTGkVlczEz84R
+
+sprite $AwsCloudFormationMd [16x16/16z] NOw54KH12CM-yyBst-yno5b6anM0G8K5_0N-WhS_7Jp3RPnAF8C1-_saarS1dPPkrqMYFU-7du5EohLjWYsGjC8DSmgjvV9WGdeolZvxf0TUfF-55m
+
+sprite $AwsCloudFormationLg [20x20/16z] {
+RS_L0KGX34HH93QX_tgVP9dr-tdGe0hcT_Y3-8FuWqcJxiJSs08g6_E1KLjRysqoxdhTEMWP0HWA6-tjIq8JaNbd4vEcgWZelIIqkxU9rhfig0qQS1dt9TXQ
+YvPl5b9TJgjozy-IzhFp1
+}
+
+!procedure AwsCloudFormation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Architecture/ManagementGovernance/AwsCloudFormation', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsCloudFormationCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCloudFormationLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsCloudFormationGroup($id, $name='Aws Cloud Formation', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsCloudFormationLg>', $name, $tech)
+!endprocedure

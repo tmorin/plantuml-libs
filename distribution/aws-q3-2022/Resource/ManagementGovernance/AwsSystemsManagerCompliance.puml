@@ -1,0 +1,24 @@
+' definition of the Item aws-q3-2022/Resource/ManagementGovernance/AwsSystemsManagerCompliance
+
+sprite $AwsSystemsManagerComplianceXs [10x10/16z] JOk50S1020DJHMx_UIllE16jWIWx3ZE3_-AFSfKH_K9PhXP1juSLRsSmz08
+
+sprite $AwsSystemsManagerComplianceSm [12x12/16z] PSV50S103CH07TlU_kiDS-ObyJQYUMQJ1WdLOrRSZlwfmwxk80xZwBJ8kZAfCJYuPCm
+
+sprite $AwsSystemsManagerComplianceMd [16x16/16z] TSw30GKm34NHMuHl_tc_ZLCpuIU91nyQhI6SYoB6YLFtzRXuhBDkkFWtCj_NFNE_h0N4oxg1kTxFYyjwdA7MUic7AGJWVU4b5wyYW2C
+
+sprite $AwsSystemsManagerComplianceLg [20x20/16z] {
+XO-50GGW3CI2o-q_xplMj-31MhxZ58oHXAGbKgD1SOIOXsw4LXw8vN0lM4w3vVxC6jRXchDEbTfFLpmGy-4q--NgwjTT0HftHnQg6d-K9uYHIQh3TIUN0ZjU
+AbB3uW2k
+}
+
+!procedure AwsSystemsManagerCompliance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2022/Resource/ManagementGovernance/AwsSystemsManagerCompliance', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsSystemsManagerComplianceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsSystemsManagerComplianceLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsSystemsManagerComplianceGroup($id, $name='Aws Systems Manager Compliance', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsSystemsManagerComplianceLg>', $name, $tech)
+!endprocedure

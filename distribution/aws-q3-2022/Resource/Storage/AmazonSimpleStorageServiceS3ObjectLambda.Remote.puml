@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q3-2022/bootstrap')
+
+' loads the Item which embeds the element AmazonSimpleStorageServiceS3ObjectLambda
+include('aws-q3-2022/Resource/Storage/AmazonSimpleStorageServiceS3ObjectLambda')
+
+' renders the element
+AmazonSimpleStorageServiceS3ObjectLambda('AmazonSimpleStorageServiceS3ObjectLambda', 'Amazon Simple Storage Service S3 Object Lambda', 'an optional tech label', 'an optional description')
+@enduml

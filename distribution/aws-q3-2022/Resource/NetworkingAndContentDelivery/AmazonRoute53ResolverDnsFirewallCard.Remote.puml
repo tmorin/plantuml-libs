@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q3-2022/bootstrap')
+
+' loads the Item which embeds the element AmazonRoute53ResolverDnsFirewallCard
+include('aws-q3-2022/Resource/NetworkingAndContentDelivery/AmazonRoute53ResolverDnsFirewall')
+
+' renders the element
+AmazonRoute53ResolverDnsFirewallCard('AmazonRoute53ResolverDnsFirewallCard', 'Amazon Route53 Resolver Dns Firewall Card', 'an optional description')
+@enduml
