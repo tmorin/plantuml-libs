@@ -1,4 +1,3 @@
-import { AwsQ12022Factory } from "./packages/aws-q1-2022"
 import { AwsQ22022Factory } from "./packages/aws-q2-2022"
 import { AzureV6Factory } from "./packages/azure-6"
 import { C4modelFactory } from "./packages/c4model"
@@ -18,7 +17,6 @@ import { Material4Factory } from "./packages/material-4"
 import { Simpleicons7Factory } from "./packages/simpleicons-7"
 
 const PACKAGE_FACTORIES = [
-  new AwsQ12022Factory(),
   new AwsQ22022Factory(),
   new AzureV6Factory(),
   new C4modelFactory(),

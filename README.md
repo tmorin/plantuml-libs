@@ -42,7 +42,6 @@ It provides a _search engine_ which should improve the discovery process ;).
 
 The available packages:
 
-- [AWS (q1-2022)](distribution/aws-q1-2022/README.md)
 - [AWS (q2-2022)](distribution/aws-q2-2022/README.md)
 - [Azure (v6)](distribution/azure-6/README.md)
 - [C4 Model](distribution/c4model/README.md)

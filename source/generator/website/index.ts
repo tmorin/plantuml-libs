@@ -39,9 +39,9 @@ const argv = yargs
     describe: "resources to skip",
     default: [
       "**/*.{Local,Remote}.puml",
-      /*"aws-q1-2022/!**",
+      /*
       "aws-q2-2022/!**",
-      "azure-4/!**",
+      "azure-6/!**",
       "gcp/!**",
       "fontawesome-6/!**",
       "material-4/!**",
