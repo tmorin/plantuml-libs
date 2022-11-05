@@ -44,7 +44,6 @@ The available packages:
 
 - [AWS (q1-2022)](distribution/aws-q1-2022/README.md)
 - [AWS (q2-2022)](distribution/aws-q2-2022/README.md)
-- [Azure (v4)](distribution/azure-4/README.md)
 - [Azure (v6)](distribution/azure-6/README.md)
 - [C4 Model](distribution/c4model/README.md)
 - [c4model + Nord Theme](distribution/c4nord/README.md)
