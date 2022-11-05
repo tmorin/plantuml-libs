@@ -2,7 +2,7 @@
 
 ## Packages
 
-The library provides 14 packages.
+The library provides 12 packages.
 
 - [aws-q2-2022](aws-q2-2022/README.md)
 - [azure-6](azure-6/README.md)
