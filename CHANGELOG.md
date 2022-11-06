@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [10.1.0](https://github.com/tmorin/plantuml-libs/compare/v10.0.0...v10.1.0) (2022-11-06)
+
+
+### Features
+
+* **simpleicons-7:** refresh the package ([f31baab](https://github.com/tmorin/plantuml-libs/commit/f31baab7f7f1f275ee22ea6b0efd52ecfde1ca7e))
+* **simpleicons-7:** upgrade the package (7.4.0 -> 7.19.0) ([d31077d](https://github.com/tmorin/plantuml-libs/commit/d31077d292433a723913d0235304b92e45ee0678))
+
 ## [10.0.0](https://github.com/tmorin/plantuml-libs/compare/v9.5.0...v10.0.0) (2022-11-05)
 
 
