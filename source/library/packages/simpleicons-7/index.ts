@@ -11,7 +11,7 @@ import { toCamelCase } from "../../../generator/workdir/naming"
 import { promisify } from "util"
 import { unifyItems } from "../../../generator/workdir/discovery"
 
-const ICONS_VERSION = "7.4.0"
+const ICONS_VERSION = "7.19.0"
 const ICONS_URL = `https://github.com/simple-icons/simple-icons/archive/${ICONS_VERSION}.zip`
 
 type ItemsByModules = { [key: string]: Array<Item> }
