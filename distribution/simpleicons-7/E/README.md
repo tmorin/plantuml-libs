@@ -1,12 +1,13 @@
 # E
 
-The module contains 67 items.
+The module contains 73 items.
 
 
 
 | |Name|
 |:---:|---|
 | ![illustration of simpleicons-7/E/E](../../simpleicons-7/E/E.png) | [simpleicons-7/E/E](../../simpleicons-7/E/E.md) |
+| ![illustration of simpleicons-7/E/E3](../../simpleicons-7/E/E3.png) | [simpleicons-7/E/E3](../../simpleicons-7/E/E3.md) |
 | ![illustration of simpleicons-7/E/Ea](../../simpleicons-7/E/Ea.png) | [simpleicons-7/E/Ea](../../simpleicons-7/E/Ea.md) |
 | ![illustration of simpleicons-7/E/Eagle](../../simpleicons-7/E/Eagle.png) | [simpleicons-7/E/Eagle](../../simpleicons-7/E/Eagle.md) |
 | ![illustration of simpleicons-7/E/Easyjet](../../simpleicons-7/E/Easyjet.png) | [simpleicons-7/E/Easyjet](../../simpleicons-7/E/Easyjet.md) |
@@ -28,9 +29,13 @@ The module contains 67 items.
 | ![illustration of simpleicons-7/E/Elasticsearch](../../simpleicons-7/E/Elasticsearch.png) | [simpleicons-7/E/Elasticsearch](../../simpleicons-7/E/Elasticsearch.md) |
 | ![illustration of simpleicons-7/E/Elasticstack](../../simpleicons-7/E/Elasticstack.png) | [simpleicons-7/E/Elasticstack](../../simpleicons-7/E/Elasticstack.md) |
 | ![illustration of simpleicons-7/E/Electron](../../simpleicons-7/E/Electron.png) | [simpleicons-7/E/Electron](../../simpleicons-7/E/Electron.md) |
+| ![illustration of simpleicons-7/E/Electronbuilder](../../simpleicons-7/E/Electronbuilder.png) | [simpleicons-7/E/Electronbuilder](../../simpleicons-7/E/Electronbuilder.md) |
+| ![illustration of simpleicons-7/E/Electronfiddle](../../simpleicons-7/E/Electronfiddle.png) | [simpleicons-7/E/Electronfiddle](../../simpleicons-7/E/Electronfiddle.md) |
 | ![illustration of simpleicons-7/E/Element](../../simpleicons-7/E/Element.png) | [simpleicons-7/E/Element](../../simpleicons-7/E/Element.md) |
 | ![illustration of simpleicons-7/E/Elementary](../../simpleicons-7/E/Elementary.png) | [simpleicons-7/E/Elementary](../../simpleicons-7/E/Elementary.md) |
+| ![illustration of simpleicons-7/E/Elementor](../../simpleicons-7/E/Elementor.png) | [simpleicons-7/E/Elementor](../../simpleicons-7/E/Elementor.md) |
 | ![illustration of simpleicons-7/E/Eleventy](../../simpleicons-7/E/Eleventy.png) | [simpleicons-7/E/Eleventy](../../simpleicons-7/E/Eleventy.md) |
+| ![illustration of simpleicons-7/E/Elgato](../../simpleicons-7/E/Elgato.png) | [simpleicons-7/E/Elgato](../../simpleicons-7/E/Elgato.md) |
 | ![illustration of simpleicons-7/E/Elixir](../../simpleicons-7/E/Elixir.png) | [simpleicons-7/E/Elixir](../../simpleicons-7/E/Elixir.md) |
 | ![illustration of simpleicons-7/E/Eljueves](../../simpleicons-7/E/Eljueves.png) | [simpleicons-7/E/Eljueves](../../simpleicons-7/E/Eljueves.md) |
 | ![illustration of simpleicons-7/E/Ello](../../simpleicons-7/E/Ello.png) | [simpleicons-7/E/Ello](../../simpleicons-7/E/Ello.md) |
@@ -42,6 +47,7 @@ The module contains 67 items.
 | ![illustration of simpleicons-7/E/Emirates](../../simpleicons-7/E/Emirates.png) | [simpleicons-7/E/Emirates](../../simpleicons-7/E/Emirates.md) |
 | ![illustration of simpleicons-7/E/Emlakjet](../../simpleicons-7/E/Emlakjet.png) | [simpleicons-7/E/Emlakjet](../../simpleicons-7/E/Emlakjet.md) |
 | ![illustration of simpleicons-7/E/Empirekred](../../simpleicons-7/E/Empirekred.png) | [simpleicons-7/E/Empirekred](../../simpleicons-7/E/Empirekred.md) |
+| ![illustration of simpleicons-7/E/Engadget](../../simpleicons-7/E/Engadget.png) | [simpleicons-7/E/Engadget](../../simpleicons-7/E/Engadget.md) |
 | ![illustration of simpleicons-7/E/Enpass](../../simpleicons-7/E/Enpass.png) | [simpleicons-7/E/Enpass](../../simpleicons-7/E/Enpass.md) |
 | ![illustration of simpleicons-7/E/Enterprisedb](../../simpleicons-7/E/Enterprisedb.png) | [simpleicons-7/E/Enterprisedb](../../simpleicons-7/E/Enterprisedb.md) |
 | ![illustration of simpleicons-7/E/Envato](../../simpleicons-7/E/Envato.png) | [simpleicons-7/E/Envato](../../simpleicons-7/E/Envato.md) |

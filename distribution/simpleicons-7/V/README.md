@@ -1,12 +1,13 @@
 # V
 
-The module contains 52 items.
+The module contains 56 items.
 
 
 
 | |Name|
 |:---:|---|
 | ![illustration of simpleicons-7/V/V](../../simpleicons-7/V/V.png) | [simpleicons-7/V/V](../../simpleicons-7/V/V.md) |
+| ![illustration of simpleicons-7/V/V2Ex](../../simpleicons-7/V/V2Ex.png) | [simpleicons-7/V/V2Ex](../../simpleicons-7/V/V2Ex.md) |
 | ![illustration of simpleicons-7/V/V8](../../simpleicons-7/V/V8.png) | [simpleicons-7/V/V8](../../simpleicons-7/V/V8.md) |
 | ![illustration of simpleicons-7/V/Vaadin](../../simpleicons-7/V/Vaadin.png) | [simpleicons-7/V/Vaadin](../../simpleicons-7/V/Vaadin.md) |
 | ![illustration of simpleicons-7/V/Vagrant](../../simpleicons-7/V/Vagrant.png) | [simpleicons-7/V/Vagrant](../../simpleicons-7/V/Vagrant.md) |
@@ -34,6 +35,7 @@ The module contains 52 items.
 | ![illustration of simpleicons-7/V/Vimeo](../../simpleicons-7/V/Vimeo.png) | [simpleicons-7/V/Vimeo](../../simpleicons-7/V/Vimeo.md) |
 | ![illustration of simpleicons-7/V/Vimeolivestream](../../simpleicons-7/V/Vimeolivestream.png) | [simpleicons-7/V/Vimeolivestream](../../simpleicons-7/V/Vimeolivestream.md) |
 | ![illustration of simpleicons-7/V/Virgin](../../simpleicons-7/V/Virgin.png) | [simpleicons-7/V/Virgin](../../simpleicons-7/V/Virgin.md) |
+| ![illustration of simpleicons-7/V/Virginmedia](../../simpleicons-7/V/Virginmedia.png) | [simpleicons-7/V/Virginmedia](../../simpleicons-7/V/Virginmedia.md) |
 | ![illustration of simpleicons-7/V/Virtualbox](../../simpleicons-7/V/Virtualbox.png) | [simpleicons-7/V/Virtualbox](../../simpleicons-7/V/Virtualbox.md) |
 | ![illustration of simpleicons-7/V/Virustotal](../../simpleicons-7/V/Virustotal.png) | [simpleicons-7/V/Virustotal](../../simpleicons-7/V/Virustotal.md) |
 | ![illustration of simpleicons-7/V/Visa](../../simpleicons-7/V/Visa.png) | [simpleicons-7/V/Visa](../../simpleicons-7/V/Visa.md) |
@@ -41,6 +43,7 @@ The module contains 52 items.
 | ![illustration of simpleicons-7/V/Visualstudiocode](../../simpleicons-7/V/Visualstudiocode.png) | [simpleicons-7/V/Visualstudiocode](../../simpleicons-7/V/Visualstudiocode.md) |
 | ![illustration of simpleicons-7/V/Vite](../../simpleicons-7/V/Vite.png) | [simpleicons-7/V/Vite](../../simpleicons-7/V/Vite.md) |
 | ![illustration of simpleicons-7/V/Vitess](../../simpleicons-7/V/Vitess.png) | [simpleicons-7/V/Vitess](../../simpleicons-7/V/Vitess.md) |
+| ![illustration of simpleicons-7/V/Vitest](../../simpleicons-7/V/Vitest.png) | [simpleicons-7/V/Vitest](../../simpleicons-7/V/Vitest.md) |
 | ![illustration of simpleicons-7/V/Vivaldi](../../simpleicons-7/V/Vivaldi.png) | [simpleicons-7/V/Vivaldi](../../simpleicons-7/V/Vivaldi.md) |
 | ![illustration of simpleicons-7/V/Vivino](../../simpleicons-7/V/Vivino.png) | [simpleicons-7/V/Vivino](../../simpleicons-7/V/Vivino.md) |
 | ![illustration of simpleicons-7/V/Vk](../../simpleicons-7/V/Vk.png) | [simpleicons-7/V/Vk](../../simpleicons-7/V/Vk.md) |
@@ -53,6 +56,7 @@ The module contains 52 items.
 | ![illustration of simpleicons-7/V/Vowpalwabbit](../../simpleicons-7/V/Vowpalwabbit.png) | [simpleicons-7/V/Vowpalwabbit](../../simpleicons-7/V/Vowpalwabbit.md) |
 | ![illustration of simpleicons-7/V/Vox](../../simpleicons-7/V/Vox.png) | [simpleicons-7/V/Vox](../../simpleicons-7/V/Vox.md) |
 | ![illustration of simpleicons-7/V/Vsco](../../simpleicons-7/V/Vsco.png) | [simpleicons-7/V/Vsco](../../simpleicons-7/V/Vsco.md) |
+| ![illustration of simpleicons-7/V/Vscodium](../../simpleicons-7/V/Vscodium.png) | [simpleicons-7/V/Vscodium](../../simpleicons-7/V/Vscodium.md) |
 | ![illustration of simpleicons-7/V/Vtex](../../simpleicons-7/V/Vtex.png) | [simpleicons-7/V/Vtex](../../simpleicons-7/V/Vtex.md) |
 | ![illustration of simpleicons-7/V/Vuedotjs](../../simpleicons-7/V/Vuedotjs.png) | [simpleicons-7/V/Vuedotjs](../../simpleicons-7/V/Vuedotjs.md) |
 | ![illustration of simpleicons-7/V/Vuetify](../../simpleicons-7/V/Vuetify.png) | [simpleicons-7/V/Vuetify](../../simpleicons-7/V/Vuetify.md) |

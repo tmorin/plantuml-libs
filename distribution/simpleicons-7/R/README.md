@@ -1,6 +1,6 @@
 # R
 
-The module contains 98 items.
+The module contains 104 items.
 
 
 
@@ -20,10 +20,12 @@ The module contains 98 items.
 | ![illustration of simpleicons-7/R/Rarible](../../simpleicons-7/R/Rarible.png) | [simpleicons-7/R/Rarible](../../simpleicons-7/R/Rarible.md) |
 | ![illustration of simpleicons-7/R/Rasa](../../simpleicons-7/R/Rasa.png) | [simpleicons-7/R/Rasa](../../simpleicons-7/R/Rasa.md) |
 | ![illustration of simpleicons-7/R/Raspberrypi](../../simpleicons-7/R/Raspberrypi.png) | [simpleicons-7/R/Raspberrypi](../../simpleicons-7/R/Raspberrypi.md) |
+| ![illustration of simpleicons-7/R/Ravelry](../../simpleicons-7/R/Ravelry.png) | [simpleicons-7/R/Ravelry](../../simpleicons-7/R/Ravelry.md) |
 | ![illustration of simpleicons-7/R/Ray](../../simpleicons-7/R/Ray.png) | [simpleicons-7/R/Ray](../../simpleicons-7/R/Ray.md) |
 | ![illustration of simpleicons-7/R/Razer](../../simpleicons-7/R/Razer.png) | [simpleicons-7/R/Razer](../../simpleicons-7/R/Razer.md) |
 | ![illustration of simpleicons-7/R/Razorpay](../../simpleicons-7/R/Razorpay.png) | [simpleicons-7/R/Razorpay](../../simpleicons-7/R/Razorpay.md) |
 | ![illustration of simpleicons-7/R/React](../../simpleicons-7/R/React.png) | [simpleicons-7/R/React](../../simpleicons-7/R/React.md) |
+| ![illustration of simpleicons-7/R/Reacthookform](../../simpleicons-7/R/Reacthookform.png) | [simpleicons-7/R/Reacthookform](../../simpleicons-7/R/Reacthookform.md) |
 | ![illustration of simpleicons-7/R/Reactivex](../../simpleicons-7/R/Reactivex.png) | [simpleicons-7/R/Reactivex](../../simpleicons-7/R/Reactivex.md) |
 | ![illustration of simpleicons-7/R/Reactos](../../simpleicons-7/R/Reactos.png) | [simpleicons-7/R/Reactos](../../simpleicons-7/R/Reactos.md) |
 | ![illustration of simpleicons-7/R/Reactquery](../../simpleicons-7/R/Reactquery.png) | [simpleicons-7/R/Reactquery](../../simpleicons-7/R/Reactquery.md) |
@@ -43,6 +45,7 @@ The module contains 98 items.
 | ![illustration of simpleicons-7/R/Reduxsaga](../../simpleicons-7/R/Reduxsaga.png) | [simpleicons-7/R/Reduxsaga](../../simpleicons-7/R/Reduxsaga.md) |
 | ![illustration of simpleicons-7/R/Redwoodjs](../../simpleicons-7/R/Redwoodjs.png) | [simpleicons-7/R/Redwoodjs](../../simpleicons-7/R/Redwoodjs.md) |
 | ![illustration of simpleicons-7/R/Reebok](../../simpleicons-7/R/Reebok.png) | [simpleicons-7/R/Reebok](../../simpleicons-7/R/Reebok.md) |
+| ![illustration of simpleicons-7/R/Relay](../../simpleicons-7/R/Relay.png) | [simpleicons-7/R/Relay](../../simpleicons-7/R/Relay.md) |
 | ![illustration of simpleicons-7/R/Relianceindustrieslimited](../../simpleicons-7/R/Relianceindustrieslimited.png) | [simpleicons-7/R/Relianceindustrieslimited](../../simpleicons-7/R/Relianceindustrieslimited.md) |
 | ![illustration of simpleicons-7/R/Remix](../../simpleicons-7/R/Remix.png) | [simpleicons-7/R/Remix](../../simpleicons-7/R/Remix.md) |
 | ![illustration of simpleicons-7/R/Renault](../../simpleicons-7/R/Renault.png) | [simpleicons-7/R/Renault](../../simpleicons-7/R/Renault.md) |
@@ -55,11 +58,13 @@ The module contains 98 items.
 | ![illustration of simpleicons-7/R/Rescript](../../simpleicons-7/R/Rescript.png) | [simpleicons-7/R/Rescript](../../simpleicons-7/R/Rescript.md) |
 | ![illustration of simpleicons-7/R/Rescuetime](../../simpleicons-7/R/Rescuetime.png) | [simpleicons-7/R/Rescuetime](../../simpleicons-7/R/Rescuetime.md) |
 | ![illustration of simpleicons-7/R/Researchgate](../../simpleicons-7/R/Researchgate.png) | [simpleicons-7/R/Researchgate](../../simpleicons-7/R/Researchgate.md) |
+| ![illustration of simpleicons-7/R/Resharper](../../simpleicons-7/R/Resharper.png) | [simpleicons-7/R/Resharper](../../simpleicons-7/R/Resharper.md) |
 | ![illustration of simpleicons-7/R/Resurrectionremixos](../../simpleicons-7/R/Resurrectionremixos.png) | [simpleicons-7/R/Resurrectionremixos](../../simpleicons-7/R/Resurrectionremixos.md) |
 | ![illustration of simpleicons-7/R/Retroarch](../../simpleicons-7/R/Retroarch.png) | [simpleicons-7/R/Retroarch](../../simpleicons-7/R/Retroarch.md) |
 | ![illustration of simpleicons-7/R/Retropie](../../simpleicons-7/R/Retropie.png) | [simpleicons-7/R/Retropie](../../simpleicons-7/R/Retropie.md) |
 | ![illustration of simpleicons-7/R/Revealdotjs](../../simpleicons-7/R/Revealdotjs.png) | [simpleicons-7/R/Revealdotjs](../../simpleicons-7/R/Revealdotjs.md) |
 | ![illustration of simpleicons-7/R/Reverbnation](../../simpleicons-7/R/Reverbnation.png) | [simpleicons-7/R/Reverbnation](../../simpleicons-7/R/Reverbnation.md) |
+| ![illustration of simpleicons-7/R/Revoltdotchat](../../simpleicons-7/R/Revoltdotchat.png) | [simpleicons-7/R/Revoltdotchat](../../simpleicons-7/R/Revoltdotchat.md) |
 | ![illustration of simpleicons-7/R/Revolut](../../simpleicons-7/R/Revolut.png) | [simpleicons-7/R/Revolut](../../simpleicons-7/R/Revolut.md) |
 | ![illustration of simpleicons-7/R/Revue](../../simpleicons-7/R/Revue.png) | [simpleicons-7/R/Revue](../../simpleicons-7/R/Revue.md) |
 | ![illustration of simpleicons-7/R/Rewe](../../simpleicons-7/R/Rewe.png) | [simpleicons-7/R/Rewe](../../simpleicons-7/R/Rewe.md) |
@@ -89,6 +94,7 @@ The module contains 98 items.
 | ![illustration of simpleicons-7/R/Rotaryinternational](../../simpleicons-7/R/Rotaryinternational.png) | [simpleicons-7/R/Rotaryinternational](../../simpleicons-7/R/Rotaryinternational.md) |
 | ![illustration of simpleicons-7/R/Rottentomatoes](../../simpleicons-7/R/Rottentomatoes.png) | [simpleicons-7/R/Rottentomatoes](../../simpleicons-7/R/Rottentomatoes.md) |
 | ![illustration of simpleicons-7/R/Roundcube](../../simpleicons-7/R/Roundcube.png) | [simpleicons-7/R/Roundcube](../../simpleicons-7/R/Roundcube.md) |
+| ![illustration of simpleicons-7/R/Rsocket](../../simpleicons-7/R/Rsocket.png) | [simpleicons-7/R/Rsocket](../../simpleicons-7/R/Rsocket.md) |
 | ![illustration of simpleicons-7/R/Rss](../../simpleicons-7/R/Rss.png) | [simpleicons-7/R/Rss](../../simpleicons-7/R/Rss.md) |
 | ![illustration of simpleicons-7/R/Rstudio](../../simpleicons-7/R/Rstudio.png) | [simpleicons-7/R/Rstudio](../../simpleicons-7/R/Rstudio.md) |
 | ![illustration of simpleicons-7/R/Rte](../../simpleicons-7/R/Rte.png) | [simpleicons-7/R/Rte](../../simpleicons-7/R/Rte.md) |

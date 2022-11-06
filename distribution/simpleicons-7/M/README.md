@@ -1,6 +1,6 @@
 # M
 
-The module contains 133 items.
+The module contains 138 items.
 
 
 
@@ -8,6 +8,7 @@ The module contains 133 items.
 |:---:|---|
 | ![illustration of simpleicons-7/M/Maas](../../simpleicons-7/M/Maas.png) | [simpleicons-7/M/Maas](../../simpleicons-7/M/Maas.md) |
 | ![illustration of simpleicons-7/M/Macos](../../simpleicons-7/M/Macos.png) | [simpleicons-7/M/Macos](../../simpleicons-7/M/Macos.md) |
+| ![illustration of simpleicons-7/M/Macpaw](../../simpleicons-7/M/Macpaw.png) | [simpleicons-7/M/Macpaw](../../simpleicons-7/M/Macpaw.md) |
 | ![illustration of simpleicons-7/M/Macys](../../simpleicons-7/M/Macys.png) | [simpleicons-7/M/Macys](../../simpleicons-7/M/Macys.md) |
 | ![illustration of simpleicons-7/M/Magasinsu](../../simpleicons-7/M/Magasinsu.png) | [simpleicons-7/M/Magasinsu](../../simpleicons-7/M/Magasinsu.md) |
 | ![illustration of simpleicons-7/M/Magento](../../simpleicons-7/M/Magento.png) | [simpleicons-7/M/Magento](../../simpleicons-7/M/Magento.md) |
@@ -117,15 +118,19 @@ The module contains 133 items.
 | ![illustration of simpleicons-7/M/Moneygram](../../simpleicons-7/M/Moneygram.png) | [simpleicons-7/M/Moneygram](../../simpleicons-7/M/Moneygram.md) |
 | ![illustration of simpleicons-7/M/Mongodb](../../simpleicons-7/M/Mongodb.png) | [simpleicons-7/M/Mongodb](../../simpleicons-7/M/Mongodb.md) |
 | ![illustration of simpleicons-7/M/Monkeytie](../../simpleicons-7/M/Monkeytie.png) | [simpleicons-7/M/Monkeytie](../../simpleicons-7/M/Monkeytie.md) |
+| ![illustration of simpleicons-7/M/Monogames](../../simpleicons-7/M/Monogames.png) | [simpleicons-7/M/Monogames](../../simpleicons-7/M/Monogames.md) |
 | ![illustration of simpleicons-7/M/Monoprix](../../simpleicons-7/M/Monoprix.png) | [simpleicons-7/M/Monoprix](../../simpleicons-7/M/Monoprix.md) |
 | ![illustration of simpleicons-7/M/Monster](../../simpleicons-7/M/Monster.png) | [simpleicons-7/M/Monster](../../simpleicons-7/M/Monster.md) |
 | ![illustration of simpleicons-7/M/Monzo](../../simpleicons-7/M/Monzo.png) | [simpleicons-7/M/Monzo](../../simpleicons-7/M/Monzo.md) |
 | ![illustration of simpleicons-7/M/Moo](../../simpleicons-7/M/Moo.png) | [simpleicons-7/M/Moo](../../simpleicons-7/M/Moo.md) |
+| ![illustration of simpleicons-7/M/Moonrepo](../../simpleicons-7/M/Moonrepo.png) | [simpleicons-7/M/Moonrepo](../../simpleicons-7/M/Moonrepo.md) |
 | ![illustration of simpleicons-7/M/Morrisons](../../simpleicons-7/M/Morrisons.png) | [simpleicons-7/M/Morrisons](../../simpleicons-7/M/Morrisons.md) |
 | ![illustration of simpleicons-7/M/Moscowmetro](../../simpleicons-7/M/Moscowmetro.png) | [simpleicons-7/M/Moscowmetro](../../simpleicons-7/M/Moscowmetro.md) |
 | ![illustration of simpleicons-7/M/Motorola](../../simpleicons-7/M/Motorola.png) | [simpleicons-7/M/Motorola](../../simpleicons-7/M/Motorola.md) |
 | ![illustration of simpleicons-7/M/Mozilla](../../simpleicons-7/M/Mozilla.png) | [simpleicons-7/M/Mozilla](../../simpleicons-7/M/Mozilla.md) |
+| ![illustration of simpleicons-7/M/Mqtt](../../simpleicons-7/M/Mqtt.png) | [simpleicons-7/M/Mqtt](../../simpleicons-7/M/Mqtt.md) |
 | ![illustration of simpleicons-7/M/Msi](../../simpleicons-7/M/Msi.png) | [simpleicons-7/M/Msi](../../simpleicons-7/M/Msi.md) |
+| ![illustration of simpleicons-7/M/Msibusiness](../../simpleicons-7/M/Msibusiness.png) | [simpleicons-7/M/Msibusiness](../../simpleicons-7/M/Msibusiness.md) |
 | ![illustration of simpleicons-7/M/Mta](../../simpleicons-7/M/Mta.png) | [simpleicons-7/M/Mta](../../simpleicons-7/M/Mta.md) |
 | ![illustration of simpleicons-7/M/Mtr](../../simpleicons-7/M/Mtr.png) | [simpleicons-7/M/Mtr](../../simpleicons-7/M/Mtr.md) |
 | ![illustration of simpleicons-7/M/Mui](../../simpleicons-7/M/Mui.png) | [simpleicons-7/M/Mui](../../simpleicons-7/M/Mui.md) |

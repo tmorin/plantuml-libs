@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/F/Fugacloud
+
+sprite $FugacloudXs [10x10/16z] 9S673OC0402nIm_L-s-BNjYDhTiF3VnHx1LAmoyQzhmQFw52CSu6gWi
+
+sprite $FugacloudSm [12x12/16z] BSp50G0n24JHlnANwR_QAE-2mr70H4alswCBqFASaKTAR5s1zd0yhDpEgduivOq1IVOja2HL-xO_R9dBzYO
+
+sprite $FugacloudMd [16x16/16z] LSs55GGW009Gx9Rzjxq7rzyknCl2hqaouIsH1WkKeqwFgYRxlGqqaW6Y4oLhQPi5Q0Tl8T3XyNtkzsdY9PRflFHtxk_aEZzG6fQ62_Y6VOCFfUDBL-q1
+
+sprite $FugacloudLg [20x20/16z] {
+JSu7Zi0W50FHCQGtt_-qMxwmagUQ02D3d4ISjXU-Lhj0jCUHmFYpkQo0N9Pgbl7leYXHsvsuxGF4OX6xMK4-9M9fptZRYAlQMcUBMEzsWEmkubYpvMJGy-xp
+bYMsAriwcz_Zxe-7ONPq8e654hfzCFm2
+}
+
+!procedure Fugacloud($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/F/Fugacloud', $name, $tech, $desc)
+!endprocedure

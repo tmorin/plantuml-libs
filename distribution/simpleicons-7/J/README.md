@@ -1,6 +1,6 @@
 # J
 
-The module contains 42 items.
+The module contains 43 items.
 
 
 
@@ -42,6 +42,7 @@ The module contains 42 items.
 | ![illustration of simpleicons-7/J/Json](../../simpleicons-7/J/Json.png) | [simpleicons-7/J/Json](../../simpleicons-7/J/Json.md) |
 | ![illustration of simpleicons-7/J/Jsonwebtokens](../../simpleicons-7/J/Jsonwebtokens.png) | [simpleicons-7/J/Jsonwebtokens](../../simpleicons-7/J/Jsonwebtokens.md) |
 | ![illustration of simpleicons-7/J/Jss](../../simpleicons-7/J/Jss.png) | [simpleicons-7/J/Jss](../../simpleicons-7/J/Jss.md) |
+| ![illustration of simpleicons-7/J/Juke](../../simpleicons-7/J/Juke.png) | [simpleicons-7/J/Juke](../../simpleicons-7/J/Juke.md) |
 | ![illustration of simpleicons-7/J/Julia](../../simpleicons-7/J/Julia.png) | [simpleicons-7/J/Julia](../../simpleicons-7/J/Julia.md) |
 | ![illustration of simpleicons-7/J/Junipernetworks](../../simpleicons-7/J/Junipernetworks.png) | [simpleicons-7/J/Junipernetworks](../../simpleicons-7/J/Junipernetworks.md) |
 | ![illustration of simpleicons-7/J/Junit5](../../simpleicons-7/J/Junit5.png) | [simpleicons-7/J/Junit5](../../simpleicons-7/J/Junit5.md) |

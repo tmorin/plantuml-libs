@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/S/Shopee
+
+sprite $ShopeeXs [10x10/16z] Om01VWO8O6HWu6I0Y_20Q1XW064sC8aGGoNusM7gG2GVN1qN
+
+sprite $ShopeeSm [12x12/16z] POm30W0W302NNVz_RVPk9ZHuWaKWODZCVRK-IGUKyqYhZoqtgUEW3sdpUkxpQhBbeUxMmCOEyExTULa
+
+sprite $ShopeeMd [16x16/16z] NOc50GGn3CDKvdR_QP-SfrF1KOne9yANavdxgzi38tvhRJN_4IyUpC5PxbSytf9FkG7z6ObjJjLW6yZ7G1ulxb_XCbsEsgsGV-4E
+
+sprite $ShopeeLg [20x20/16z] {
+RSi54WCX04FHBEwv_sahM8lyaS0Rm2ZIOiqmoCo5ddhr2rAtaV_MngU-tBkROok6F4tMBH06M4r4acMOgFkmjbY2NwmbeQRzVZcKnMfMTaFTN1_gnO1Cquvb
+68CGchNKR2a0o5m3tW
+}
+
+!procedure Shopee($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/S/Shopee', $name, $tech, $desc)
+!endprocedure

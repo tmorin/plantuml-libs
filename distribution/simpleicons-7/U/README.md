@@ -1,6 +1,6 @@
 # U
 
-The module contains 34 items.
+The module contains 36 items.
 
 
 
@@ -26,6 +26,7 @@ The module contains 34 items.
 | ![illustration of simpleicons-7/U/Unilever](../../simpleicons-7/U/Unilever.png) | [simpleicons-7/U/Unilever](../../simpleicons-7/U/Unilever.md) |
 | ![illustration of simpleicons-7/U/Unitedairlines](../../simpleicons-7/U/Unitedairlines.png) | [simpleicons-7/U/Unitedairlines](../../simpleicons-7/U/Unitedairlines.md) |
 | ![illustration of simpleicons-7/U/Unity](../../simpleicons-7/U/Unity.png) | [simpleicons-7/U/Unity](../../simpleicons-7/U/Unity.md) |
+| ![illustration of simpleicons-7/U/Unlicense](../../simpleicons-7/U/Unlicense.png) | [simpleicons-7/U/Unlicense](../../simpleicons-7/U/Unlicense.md) |
 | ![illustration of simpleicons-7/U/Unocss](../../simpleicons-7/U/Unocss.png) | [simpleicons-7/U/Unocss](../../simpleicons-7/U/Unocss.md) |
 | ![illustration of simpleicons-7/U/Unraid](../../simpleicons-7/U/Unraid.png) | [simpleicons-7/U/Unraid](../../simpleicons-7/U/Unraid.md) |
 | ![illustration of simpleicons-7/U/Unrealengine](../../simpleicons-7/U/Unrealengine.png) | [simpleicons-7/U/Unrealengine](../../simpleicons-7/U/Unrealengine.md) |
@@ -37,6 +38,7 @@ The module contains 34 items.
 | ![illustration of simpleicons-7/U/Uploaded](../../simpleicons-7/U/Uploaded.png) | [simpleicons-7/U/Uploaded](../../simpleicons-7/U/Uploaded.md) |
 | ![illustration of simpleicons-7/U/Ups](../../simpleicons-7/U/Ups.png) | [simpleicons-7/U/Ups](../../simpleicons-7/U/Ups.md) |
 | ![illustration of simpleicons-7/U/Upstash](../../simpleicons-7/U/Upstash.png) | [simpleicons-7/U/Upstash](../../simpleicons-7/U/Upstash.md) |
+| ![illustration of simpleicons-7/U/Uptimekuma](../../simpleicons-7/U/Uptimekuma.png) | [simpleicons-7/U/Uptimekuma](../../simpleicons-7/U/Uptimekuma.md) |
 | ![illustration of simpleicons-7/U/Uptobox](../../simpleicons-7/U/Uptobox.png) | [simpleicons-7/U/Uptobox](../../simpleicons-7/U/Uptobox.md) |
 | ![illustration of simpleicons-7/U/Upwork](../../simpleicons-7/U/Upwork.png) | [simpleicons-7/U/Upwork](../../simpleicons-7/U/Upwork.md) |
 | ![illustration of simpleicons-7/U/Usps](../../simpleicons-7/U/Usps.png) | [simpleicons-7/U/Usps](../../simpleicons-7/U/Usps.md) |

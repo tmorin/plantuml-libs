@@ -1,6 +1,6 @@
 # X
 
-The module contains 16 items.
+The module contains 17 items.
 
 
 
@@ -19,6 +19,7 @@ The module contains 16 items.
 | ![illustration of simpleicons-7/X/Xilinx](../../simpleicons-7/X/Xilinx.png) | [simpleicons-7/X/Xilinx](../../simpleicons-7/X/Xilinx.md) |
 | ![illustration of simpleicons-7/X/Xing](../../simpleicons-7/X/Xing.png) | [simpleicons-7/X/Xing](../../simpleicons-7/X/Xing.md) |
 | ![illustration of simpleicons-7/X/Xmpp](../../simpleicons-7/X/Xmpp.png) | [simpleicons-7/X/Xmpp](../../simpleicons-7/X/Xmpp.md) |
+| ![illustration of simpleicons-7/X/Xo](../../simpleicons-7/X/Xo.png) | [simpleicons-7/X/Xo](../../simpleicons-7/X/Xo.md) |
 | ![illustration of simpleicons-7/X/Xrp](../../simpleicons-7/X/Xrp.png) | [simpleicons-7/X/Xrp](../../simpleicons-7/X/Xrp.md) |
 | ![illustration of simpleicons-7/X/Xsplit](../../simpleicons-7/X/Xsplit.png) | [simpleicons-7/X/Xsplit](../../simpleicons-7/X/Xsplit.md) |
 | ![illustration of simpleicons-7/X/Xstate](../../simpleicons-7/X/Xstate.png) | [simpleicons-7/X/Xstate](../../simpleicons-7/X/Xstate.md) |

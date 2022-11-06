@@ -1,6 +1,6 @@
 # N
 
-The module contains 66 items.
+The module contains 69 items.
 
 
 
@@ -27,10 +27,12 @@ The module contains 66 items.
 | ![illustration of simpleicons-7/N/Netlify](../../simpleicons-7/N/Netlify.png) | [simpleicons-7/N/Netlify](../../simpleicons-7/N/Netlify.md) |
 | ![illustration of simpleicons-7/N/Nette](../../simpleicons-7/N/Nette.png) | [simpleicons-7/N/Nette](../../simpleicons-7/N/Nette.md) |
 | ![illustration of simpleicons-7/N/Netto](../../simpleicons-7/N/Netto.png) | [simpleicons-7/N/Netto](../../simpleicons-7/N/Netto.md) |
+| ![illustration of simpleicons-7/N/Neutralinojs](../../simpleicons-7/N/Neutralinojs.png) | [simpleicons-7/N/Neutralinojs](../../simpleicons-7/N/Neutralinojs.md) |
 | ![illustration of simpleicons-7/N/Newbalance](../../simpleicons-7/N/Newbalance.png) | [simpleicons-7/N/Newbalance](../../simpleicons-7/N/Newbalance.md) |
 | ![illustration of simpleicons-7/N/Newjapanprowrestling](../../simpleicons-7/N/Newjapanprowrestling.png) | [simpleicons-7/N/Newjapanprowrestling](../../simpleicons-7/N/Newjapanprowrestling.md) |
 | ![illustration of simpleicons-7/N/Newrelic](../../simpleicons-7/N/Newrelic.png) | [simpleicons-7/N/Newrelic](../../simpleicons-7/N/Newrelic.md) |
 | ![illustration of simpleicons-7/N/Newyorktimes](../../simpleicons-7/N/Newyorktimes.png) | [simpleicons-7/N/Newyorktimes](../../simpleicons-7/N/Newyorktimes.md) |
+| ![illustration of simpleicons-7/N/Nextbilliondotai](../../simpleicons-7/N/Nextbilliondotai.png) | [simpleicons-7/N/Nextbilliondotai](../../simpleicons-7/N/Nextbilliondotai.md) |
 | ![illustration of simpleicons-7/N/Nextcloud](../../simpleicons-7/N/Nextcloud.png) | [simpleicons-7/N/Nextcloud](../../simpleicons-7/N/Nextcloud.md) |
 | ![illustration of simpleicons-7/N/Nextdoor](../../simpleicons-7/N/Nextdoor.png) | [simpleicons-7/N/Nextdoor](../../simpleicons-7/N/Nextdoor.md) |
 | ![illustration of simpleicons-7/N/Nextdotjs](../../simpleicons-7/N/Nextdotjs.png) | [simpleicons-7/N/Nextdotjs](../../simpleicons-7/N/Nextdotjs.md) |
@@ -67,6 +69,7 @@ The module contains 66 items.
 | ![illustration of simpleicons-7/N/Nuke](../../simpleicons-7/N/Nuke.png) | [simpleicons-7/N/Nuke](../../simpleicons-7/N/Nuke.md) |
 | ![illustration of simpleicons-7/N/Numba](../../simpleicons-7/N/Numba.png) | [simpleicons-7/N/Numba](../../simpleicons-7/N/Numba.md) |
 | ![illustration of simpleicons-7/N/Numpy](../../simpleicons-7/N/Numpy.png) | [simpleicons-7/N/Numpy](../../simpleicons-7/N/Numpy.md) |
+| ![illustration of simpleicons-7/N/Nunjucks](../../simpleicons-7/N/Nunjucks.png) | [simpleicons-7/N/Nunjucks](../../simpleicons-7/N/Nunjucks.md) |
 | ![illustration of simpleicons-7/N/Nutanix](../../simpleicons-7/N/Nutanix.png) | [simpleicons-7/N/Nutanix](../../simpleicons-7/N/Nutanix.md) |
 | ![illustration of simpleicons-7/N/Nuxtdotjs](../../simpleicons-7/N/Nuxtdotjs.png) | [simpleicons-7/N/Nuxtdotjs](../../simpleicons-7/N/Nuxtdotjs.md) |
 | ![illustration of simpleicons-7/N/Nvidia](../../simpleicons-7/N/Nvidia.png) | [simpleicons-7/N/Nvidia](../../simpleicons-7/N/Nvidia.md) |

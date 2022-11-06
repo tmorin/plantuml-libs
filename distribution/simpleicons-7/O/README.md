@@ -1,6 +1,6 @@
 # O
 
-The module contains 68 items.
+The module contains 71 items.
 
 
 
@@ -12,6 +12,7 @@ The module contains 68 items.
 | ![illustration of simpleicons-7/O/Ocaml](../../simpleicons-7/O/Ocaml.png) | [simpleicons-7/O/Ocaml](../../simpleicons-7/O/Ocaml.md) |
 | ![illustration of simpleicons-7/O/Octanerender](../../simpleicons-7/O/Octanerender.png) | [simpleicons-7/O/Octanerender](../../simpleicons-7/O/Octanerender.md) |
 | ![illustration of simpleicons-7/O/Octave](../../simpleicons-7/O/Octave.png) | [simpleicons-7/O/Octave](../../simpleicons-7/O/Octave.md) |
+| ![illustration of simpleicons-7/O/Octoprint](../../simpleicons-7/O/Octoprint.png) | [simpleicons-7/O/Octoprint](../../simpleicons-7/O/Octoprint.md) |
 | ![illustration of simpleicons-7/O/Octopusdeploy](../../simpleicons-7/O/Octopusdeploy.png) | [simpleicons-7/O/Octopusdeploy](../../simpleicons-7/O/Octopusdeploy.md) |
 | ![illustration of simpleicons-7/O/Oculus](../../simpleicons-7/O/Oculus.png) | [simpleicons-7/O/Oculus](../../simpleicons-7/O/Oculus.md) |
 | ![illustration of simpleicons-7/O/Odnoklassniki](../../simpleicons-7/O/Odnoklassniki.png) | [simpleicons-7/O/Odnoklassniki](../../simpleicons-7/O/Odnoklassniki.md) |
@@ -42,6 +43,7 @@ The module contains 68 items.
 | ![illustration of simpleicons-7/O/Openlayers](../../simpleicons-7/O/Openlayers.png) | [simpleicons-7/O/Openlayers](../../simpleicons-7/O/Openlayers.md) |
 | ![illustration of simpleicons-7/O/Openmined](../../simpleicons-7/O/Openmined.png) | [simpleicons-7/O/Openmined](../../simpleicons-7/O/Openmined.md) |
 | ![illustration of simpleicons-7/O/Opennebula](../../simpleicons-7/O/Opennebula.png) | [simpleicons-7/O/Opennebula](../../simpleicons-7/O/Opennebula.md) |
+| ![illustration of simpleicons-7/O/Openproject](../../simpleicons-7/O/Openproject.png) | [simpleicons-7/O/Openproject](../../simpleicons-7/O/Openproject.md) |
 | ![illustration of simpleicons-7/O/Opensea](../../simpleicons-7/O/Opensea.png) | [simpleicons-7/O/Opensea](../../simpleicons-7/O/Opensea.md) |
 | ![illustration of simpleicons-7/O/Opensearch](../../simpleicons-7/O/Opensearch.png) | [simpleicons-7/O/Opensearch](../../simpleicons-7/O/Opensearch.md) |
 | ![illustration of simpleicons-7/O/Opensourceinitiative](../../simpleicons-7/O/Opensourceinitiative.png) | [simpleicons-7/O/Opensourceinitiative](../../simpleicons-7/O/Opensourceinitiative.md) |
@@ -50,6 +52,7 @@ The module contains 68 items.
 | ![illustration of simpleicons-7/O/Openstreetmap](../../simpleicons-7/O/Openstreetmap.png) | [simpleicons-7/O/Openstreetmap](../../simpleicons-7/O/Openstreetmap.md) |
 | ![illustration of simpleicons-7/O/Opensuse](../../simpleicons-7/O/Opensuse.png) | [simpleicons-7/O/Opensuse](../../simpleicons-7/O/Opensuse.md) |
 | ![illustration of simpleicons-7/O/Opentelemetry](../../simpleicons-7/O/Opentelemetry.png) | [simpleicons-7/O/Opentelemetry](../../simpleicons-7/O/Opentelemetry.md) |
+| ![illustration of simpleicons-7/O/Openverse](../../simpleicons-7/O/Openverse.png) | [simpleicons-7/O/Openverse](../../simpleicons-7/O/Openverse.md) |
 | ![illustration of simpleicons-7/O/Openvpn](../../simpleicons-7/O/Openvpn.png) | [simpleicons-7/O/Openvpn](../../simpleicons-7/O/Openvpn.md) |
 | ![illustration of simpleicons-7/O/Openwrt](../../simpleicons-7/O/Openwrt.png) | [simpleicons-7/O/Openwrt](../../simpleicons-7/O/Openwrt.md) |
 | ![illustration of simpleicons-7/O/Openzeppelin](../../simpleicons-7/O/Openzeppelin.png) | [simpleicons-7/O/Openzeppelin](../../simpleicons-7/O/Openzeppelin.md) |

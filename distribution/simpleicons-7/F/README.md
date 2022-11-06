@@ -1,11 +1,13 @@
 # F
 
-The module contains 91 items.
+The module contains 98 items.
 
 
 
 | |Name|
 |:---:|---|
+| ![illustration of simpleicons-7/F/F1](../../simpleicons-7/F/F1.png) | [simpleicons-7/F/F1](../../simpleicons-7/F/F1.md) |
+| ![illustration of simpleicons-7/F/F5](../../simpleicons-7/F/F5.png) | [simpleicons-7/F/F5](../../simpleicons-7/F/F5.md) |
 | ![illustration of simpleicons-7/F/Facebook](../../simpleicons-7/F/Facebook.png) | [simpleicons-7/F/Facebook](../../simpleicons-7/F/Facebook.md) |
 | ![illustration of simpleicons-7/F/Facebookgaming](../../simpleicons-7/F/Facebookgaming.png) | [simpleicons-7/F/Facebookgaming](../../simpleicons-7/F/Facebookgaming.md) |
 | ![illustration of simpleicons-7/F/Facebooklive](../../simpleicons-7/F/Facebooklive.png) | [simpleicons-7/F/Facebooklive](../../simpleicons-7/F/Facebooklive.md) |
@@ -15,6 +17,8 @@ The module contains 91 items.
 | ![illustration of simpleicons-7/F/Fampay](../../simpleicons-7/F/Fampay.png) | [simpleicons-7/F/Fampay](../../simpleicons-7/F/Fampay.md) |
 | ![illustration of simpleicons-7/F/Fandango](../../simpleicons-7/F/Fandango.png) | [simpleicons-7/F/Fandango](../../simpleicons-7/F/Fandango.md) |
 | ![illustration of simpleicons-7/F/Fandom](../../simpleicons-7/F/Fandom.png) | [simpleicons-7/F/Fandom](../../simpleicons-7/F/Fandom.md) |
+| ![illustration of simpleicons-7/F/Fanfou](../../simpleicons-7/F/Fanfou.png) | [simpleicons-7/F/Fanfou](../../simpleicons-7/F/Fanfou.md) |
+| ![illustration of simpleicons-7/F/Fantom](../../simpleicons-7/F/Fantom.png) | [simpleicons-7/F/Fantom](../../simpleicons-7/F/Fantom.md) |
 | ![illustration of simpleicons-7/F/Farfetch](../../simpleicons-7/F/Farfetch.png) | [simpleicons-7/F/Farfetch](../../simpleicons-7/F/Farfetch.md) |
 | ![illustration of simpleicons-7/F/Fastapi](../../simpleicons-7/F/Fastapi.png) | [simpleicons-7/F/Fastapi](../../simpleicons-7/F/Fastapi.md) |
 | ![illustration of simpleicons-7/F/Fastify](../../simpleicons-7/F/Fastify.png) | [simpleicons-7/F/Fastify](../../simpleicons-7/F/Fastify.md) |
@@ -43,6 +47,7 @@ The module contains 91 items.
 | ![illustration of simpleicons-7/F/Firebase](../../simpleicons-7/F/Firebase.png) | [simpleicons-7/F/Firebase](../../simpleicons-7/F/Firebase.md) |
 | ![illustration of simpleicons-7/F/Firefox](../../simpleicons-7/F/Firefox.png) | [simpleicons-7/F/Firefox](../../simpleicons-7/F/Firefox.md) |
 | ![illustration of simpleicons-7/F/Firefoxbrowser](../../simpleicons-7/F/Firefoxbrowser.png) | [simpleicons-7/F/Firefoxbrowser](../../simpleicons-7/F/Firefoxbrowser.md) |
+| ![illustration of simpleicons-7/F/Fireship](../../simpleicons-7/F/Fireship.png) | [simpleicons-7/F/Fireship](../../simpleicons-7/F/Fireship.md) |
 | ![illustration of simpleicons-7/F/First](../../simpleicons-7/F/First.png) | [simpleicons-7/F/First](../../simpleicons-7/F/First.md) |
 | ![illustration of simpleicons-7/F/Fitbit](../../simpleicons-7/F/Fitbit.png) | [simpleicons-7/F/Fitbit](../../simpleicons-7/F/Fitbit.md) |
 | ![illustration of simpleicons-7/F/Fite](../../simpleicons-7/F/Fite.png) | [simpleicons-7/F/Fite](../../simpleicons-7/F/Fite.md) |
@@ -78,6 +83,7 @@ The module contains 91 items.
 | ![illustration of simpleicons-7/F/Fossilscm](../../simpleicons-7/F/Fossilscm.png) | [simpleicons-7/F/Fossilscm](../../simpleicons-7/F/Fossilscm.md) |
 | ![illustration of simpleicons-7/F/Foursquare](../../simpleicons-7/F/Foursquare.png) | [simpleicons-7/F/Foursquare](../../simpleicons-7/F/Foursquare.md) |
 | ![illustration of simpleicons-7/F/Foursquarecityguide](../../simpleicons-7/F/Foursquarecityguide.png) | [simpleicons-7/F/Foursquarecityguide](../../simpleicons-7/F/Foursquarecityguide.md) |
+| ![illustration of simpleicons-7/F/Fox](../../simpleicons-7/F/Fox.png) | [simpleicons-7/F/Fox](../../simpleicons-7/F/Fox.md) |
 | ![illustration of simpleicons-7/F/Foxtel](../../simpleicons-7/F/Foxtel.png) | [simpleicons-7/F/Foxtel](../../simpleicons-7/F/Foxtel.md) |
 | ![illustration of simpleicons-7/F/Fozzy](../../simpleicons-7/F/Fozzy.png) | [simpleicons-7/F/Fozzy](../../simpleicons-7/F/Fozzy.md) |
 | ![illustration of simpleicons-7/F/Framer](../../simpleicons-7/F/Framer.png) | [simpleicons-7/F/Framer](../../simpleicons-7/F/Framer.md) |
@@ -91,6 +97,7 @@ The module contains 91 items.
 | ![illustration of simpleicons-7/F/Freenas](../../simpleicons-7/F/Freenas.png) | [simpleicons-7/F/Freenas](../../simpleicons-7/F/Freenas.md) |
 | ![illustration of simpleicons-7/F/Frontendmentor](../../simpleicons-7/F/Frontendmentor.png) | [simpleicons-7/F/Frontendmentor](../../simpleicons-7/F/Frontendmentor.md) |
 | ![illustration of simpleicons-7/F/Fsecure](../../simpleicons-7/F/Fsecure.png) | [simpleicons-7/F/Fsecure](../../simpleicons-7/F/Fsecure.md) |
+| ![illustration of simpleicons-7/F/Fugacloud](../../simpleicons-7/F/Fugacloud.png) | [simpleicons-7/F/Fugacloud](../../simpleicons-7/F/Fugacloud.md) |
 | ![illustration of simpleicons-7/F/Fujifilm](../../simpleicons-7/F/Fujifilm.png) | [simpleicons-7/F/Fujifilm](../../simpleicons-7/F/Fujifilm.md) |
 | ![illustration of simpleicons-7/F/Fujitsu](../../simpleicons-7/F/Fujitsu.png) | [simpleicons-7/F/Fujitsu](../../simpleicons-7/F/Fujitsu.md) |
 | ![illustration of simpleicons-7/F/Funimation](../../simpleicons-7/F/Funimation.png) | [simpleicons-7/F/Funimation](../../simpleicons-7/F/Funimation.md) |

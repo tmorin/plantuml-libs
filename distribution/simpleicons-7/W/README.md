@@ -1,19 +1,24 @@
 # W
 
-The module contains 74 items.
+The module contains 81 items.
 
 
 
 | |Name|
 |:---:|---|
 | ![illustration of simpleicons-7/W/W3C](../../simpleicons-7/W/W3C.png) | [simpleicons-7/W/W3C](../../simpleicons-7/W/W3C.md) |
+| ![illustration of simpleicons-7/W/Wacom](../../simpleicons-7/W/Wacom.png) | [simpleicons-7/W/Wacom](../../simpleicons-7/W/Wacom.md) |
 | ![illustration of simpleicons-7/W/Wagtail](../../simpleicons-7/W/Wagtail.png) | [simpleicons-7/W/Wagtail](../../simpleicons-7/W/Wagtail.md) |
 | ![illustration of simpleicons-7/W/Wakatime](../../simpleicons-7/W/Wakatime.png) | [simpleicons-7/W/Wakatime](../../simpleicons-7/W/Wakatime.md) |
 | ![illustration of simpleicons-7/W/Walkman](../../simpleicons-7/W/Walkman.png) | [simpleicons-7/W/Walkman](../../simpleicons-7/W/Walkman.md) |
 | ![illustration of simpleicons-7/W/Wallabag](../../simpleicons-7/W/Wallabag.png) | [simpleicons-7/W/Wallabag](../../simpleicons-7/W/Wallabag.md) |
 | ![illustration of simpleicons-7/W/Walmart](../../simpleicons-7/W/Walmart.png) | [simpleicons-7/W/Walmart](../../simpleicons-7/W/Walmart.md) |
+| ![illustration of simpleicons-7/W/Wantedly](../../simpleicons-7/W/Wantedly.png) | [simpleicons-7/W/Wantedly](../../simpleicons-7/W/Wantedly.md) |
 | ![illustration of simpleicons-7/W/Wappalyzer](../../simpleicons-7/W/Wappalyzer.png) | [simpleicons-7/W/Wappalyzer](../../simpleicons-7/W/Wappalyzer.md) |
 | ![illustration of simpleicons-7/W/Warnerbros](../../simpleicons-7/W/Warnerbros.png) | [simpleicons-7/W/Warnerbros](../../simpleicons-7/W/Warnerbros.md) |
+| ![illustration of simpleicons-7/W/Warp](../../simpleicons-7/W/Warp.png) | [simpleicons-7/W/Warp](../../simpleicons-7/W/Warp.md) |
+| ![illustration of simpleicons-7/W/Wasmcloud](../../simpleicons-7/W/Wasmcloud.png) | [simpleicons-7/W/Wasmcloud](../../simpleicons-7/W/Wasmcloud.md) |
+| ![illustration of simpleicons-7/W/Wasmer](../../simpleicons-7/W/Wasmer.png) | [simpleicons-7/W/Wasmer](../../simpleicons-7/W/Wasmer.md) |
 | ![illustration of simpleicons-7/W/Wattpad](../../simpleicons-7/W/Wattpad.png) | [simpleicons-7/W/Wattpad](../../simpleicons-7/W/Wattpad.md) |
 | ![illustration of simpleicons-7/W/Waze](../../simpleicons-7/W/Waze.png) | [simpleicons-7/W/Waze](../../simpleicons-7/W/Waze.md) |
 | ![illustration of simpleicons-7/W/Wearos](../../simpleicons-7/W/Wearos.png) | [simpleicons-7/W/Wearos](../../simpleicons-7/W/Wearos.md) |
@@ -54,6 +59,7 @@ The module contains 74 items.
 | ![illustration of simpleicons-7/W/Winamp](../../simpleicons-7/W/Winamp.png) | [simpleicons-7/W/Winamp](../../simpleicons-7/W/Winamp.md) |
 | ![illustration of simpleicons-7/W/Windicss](../../simpleicons-7/W/Windicss.png) | [simpleicons-7/W/Windicss](../../simpleicons-7/W/Windicss.md) |
 | ![illustration of simpleicons-7/W/Windows](../../simpleicons-7/W/Windows.png) | [simpleicons-7/W/Windows](../../simpleicons-7/W/Windows.md) |
+| ![illustration of simpleicons-7/W/Windows11](../../simpleicons-7/W/Windows11.png) | [simpleicons-7/W/Windows11](../../simpleicons-7/W/Windows11.md) |
 | ![illustration of simpleicons-7/W/Windows95](../../simpleicons-7/W/Windows95.png) | [simpleicons-7/W/Windows95](../../simpleicons-7/W/Windows95.md) |
 | ![illustration of simpleicons-7/W/Windowsterminal](../../simpleicons-7/W/Windowsterminal.png) | [simpleicons-7/W/Windowsterminal](../../simpleicons-7/W/Windowsterminal.md) |
 | ![illustration of simpleicons-7/W/Windowsxp](../../simpleicons-7/W/Windowsxp.png) | [simpleicons-7/W/Windowsxp](../../simpleicons-7/W/Windowsxp.md) |
@@ -76,6 +82,7 @@ The module contains 74 items.
 | ![illustration of simpleicons-7/W/Workplace](../../simpleicons-7/W/Workplace.png) | [simpleicons-7/W/Workplace](../../simpleicons-7/W/Workplace.md) |
 | ![illustration of simpleicons-7/W/Worldhealthorganization](../../simpleicons-7/W/Worldhealthorganization.png) | [simpleicons-7/W/Worldhealthorganization](../../simpleicons-7/W/Worldhealthorganization.md) |
 | ![illustration of simpleicons-7/W/Wpengine](../../simpleicons-7/W/Wpengine.png) | [simpleicons-7/W/Wpengine](../../simpleicons-7/W/Wpengine.md) |
+| ![illustration of simpleicons-7/W/Wpexplorer](../../simpleicons-7/W/Wpexplorer.png) | [simpleicons-7/W/Wpexplorer](../../simpleicons-7/W/Wpexplorer.md) |
 | ![illustration of simpleicons-7/W/Wprocket](../../simpleicons-7/W/Wprocket.png) | [simpleicons-7/W/Wprocket](../../simpleicons-7/W/Wprocket.md) |
 | ![illustration of simpleicons-7/W/Writedotas](../../simpleicons-7/W/Writedotas.png) | [simpleicons-7/W/Writedotas](../../simpleicons-7/W/Writedotas.md) |
 | ![illustration of simpleicons-7/W/Wwe](../../simpleicons-7/W/Wwe.png) | [simpleicons-7/W/Wwe](../../simpleicons-7/W/Wwe.md) |

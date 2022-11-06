@@ -1,6 +1,6 @@
 # H
 
-The module contains 69 items.
+The module contains 72 items.
 
 
 
@@ -20,6 +20,7 @@ The module contains 69 items.
 | ![illustration of simpleicons-7/H/HandshakeProtocol](../../simpleicons-7/H/HandshakeProtocol.png) | [simpleicons-7/H/HandshakeProtocol](../../simpleicons-7/H/HandshakeProtocol.md) |
 | ![illustration of simpleicons-7/H/Happycow](../../simpleicons-7/H/Happycow.png) | [simpleicons-7/H/Happycow](../../simpleicons-7/H/Happycow.md) |
 | ![illustration of simpleicons-7/H/Harbor](../../simpleicons-7/H/Harbor.png) | [simpleicons-7/H/Harbor](../../simpleicons-7/H/Harbor.md) |
+| ![illustration of simpleicons-7/H/Harmonyos](../../simpleicons-7/H/Harmonyos.png) | [simpleicons-7/H/Harmonyos](../../simpleicons-7/H/Harmonyos.md) |
 | ![illustration of simpleicons-7/H/Hashnode](../../simpleicons-7/H/Hashnode.png) | [simpleicons-7/H/Hashnode](../../simpleicons-7/H/Hashnode.md) |
 | ![illustration of simpleicons-7/H/Haskell](../../simpleicons-7/H/Haskell.png) | [simpleicons-7/H/Haskell](../../simpleicons-7/H/Haskell.md) |
 | ![illustration of simpleicons-7/H/Hasura](../../simpleicons-7/H/Hasura.png) | [simpleicons-7/H/Hasura](../../simpleicons-7/H/Hasura.md) |
@@ -30,6 +31,7 @@ The module contains 69 items.
 | ![illustration of simpleicons-7/H/Hcl](../../simpleicons-7/H/Hcl.png) | [simpleicons-7/H/Hcl](../../simpleicons-7/H/Hcl.md) |
 | ![illustration of simpleicons-7/H/Headlessui](../../simpleicons-7/H/Headlessui.png) | [simpleicons-7/H/Headlessui](../../simpleicons-7/H/Headlessui.md) |
 | ![illustration of simpleicons-7/H/Headspace](../../simpleicons-7/H/Headspace.png) | [simpleicons-7/H/Headspace](../../simpleicons-7/H/Headspace.md) |
+| ![illustration of simpleicons-7/H/Hedera](../../simpleicons-7/H/Hedera.png) | [simpleicons-7/H/Hedera](../../simpleicons-7/H/Hedera.md) |
 | ![illustration of simpleicons-7/H/Hellofresh](../../simpleicons-7/H/Hellofresh.png) | [simpleicons-7/H/Hellofresh](../../simpleicons-7/H/Hellofresh.md) |
 | ![illustration of simpleicons-7/H/Hellyhansen](../../simpleicons-7/H/Hellyhansen.png) | [simpleicons-7/H/Hellyhansen](../../simpleicons-7/H/Hellyhansen.md) |
 | ![illustration of simpleicons-7/H/Helm](../../simpleicons-7/H/Helm.png) | [simpleicons-7/H/Helm](../../simpleicons-7/H/Helm.md) |
@@ -53,6 +55,7 @@ The module contains 69 items.
 | ![illustration of simpleicons-7/H/Homebridge](../../simpleicons-7/H/Homebridge.png) | [simpleicons-7/H/Homebridge](../../simpleicons-7/H/Homebridge.md) |
 | ![illustration of simpleicons-7/H/Homify](../../simpleicons-7/H/Homify.png) | [simpleicons-7/H/Homify](../../simpleicons-7/H/Homify.md) |
 | ![illustration of simpleicons-7/H/Honda](../../simpleicons-7/H/Honda.png) | [simpleicons-7/H/Honda](../../simpleicons-7/H/Honda.md) |
+| ![illustration of simpleicons-7/H/Honey](../../simpleicons-7/H/Honey.png) | [simpleicons-7/H/Honey](../../simpleicons-7/H/Honey.md) |
 | ![illustration of simpleicons-7/H/Hootsuite](../../simpleicons-7/H/Hootsuite.png) | [simpleicons-7/H/Hootsuite](../../simpleicons-7/H/Hootsuite.md) |
 | ![illustration of simpleicons-7/H/Hoppscotch](../../simpleicons-7/H/Hoppscotch.png) | [simpleicons-7/H/Hoppscotch](../../simpleicons-7/H/Hoppscotch.md) |
 | ![illustration of simpleicons-7/H/Hotelsdotcom](../../simpleicons-7/H/Hotelsdotcom.png) | [simpleicons-7/H/Hotelsdotcom](../../simpleicons-7/H/Hotelsdotcom.md) |

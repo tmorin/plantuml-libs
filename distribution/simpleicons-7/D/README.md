@@ -1,16 +1,18 @@
 # D
 
-The module contains 98 items.
+The module contains 104 items.
 
 
 
 | |Name|
 |:---:|---|
+| ![illustration of simpleicons-7/D/D](../../simpleicons-7/D/D.png) | [simpleicons-7/D/D](../../simpleicons-7/D/D.md) |
 | ![illustration of simpleicons-7/D/D3Dotjs](../../simpleicons-7/D/D3Dotjs.png) | [simpleicons-7/D/D3Dotjs](../../simpleicons-7/D/D3Dotjs.md) |
 | ![illustration of simpleicons-7/D/Dacia](../../simpleicons-7/D/Dacia.png) | [simpleicons-7/D/Dacia](../../simpleicons-7/D/Dacia.md) |
 | ![illustration of simpleicons-7/D/Daf](../../simpleicons-7/D/Daf.png) | [simpleicons-7/D/Daf](../../simpleicons-7/D/Daf.md) |
 | ![illustration of simpleicons-7/D/Dailymotion](../../simpleicons-7/D/Dailymotion.png) | [simpleicons-7/D/Dailymotion](../../simpleicons-7/D/Dailymotion.md) |
 | ![illustration of simpleicons-7/D/Daimler](../../simpleicons-7/D/Daimler.png) | [simpleicons-7/D/Daimler](../../simpleicons-7/D/Daimler.md) |
+| ![illustration of simpleicons-7/D/Dapr](../../simpleicons-7/D/Dapr.png) | [simpleicons-7/D/Dapr](../../simpleicons-7/D/Dapr.md) |
 | ![illustration of simpleicons-7/D/Darkreader](../../simpleicons-7/D/Darkreader.png) | [simpleicons-7/D/Darkreader](../../simpleicons-7/D/Darkreader.md) |
 | ![illustration of simpleicons-7/D/Dart](../../simpleicons-7/D/Dart.png) | [simpleicons-7/D/Dart](../../simpleicons-7/D/Dart.md) |
 | ![illustration of simpleicons-7/D/Darty](../../simpleicons-7/D/Darty.png) | [simpleicons-7/D/Darty](../../simpleicons-7/D/Darty.md) |
@@ -26,6 +28,7 @@ The module contains 98 items.
 | ![illustration of simpleicons-7/D/Datagrip](../../simpleicons-7/D/Datagrip.png) | [simpleicons-7/D/Datagrip](../../simpleicons-7/D/Datagrip.md) |
 | ![illustration of simpleicons-7/D/Dataiku](../../simpleicons-7/D/Dataiku.png) | [simpleicons-7/D/Dataiku](../../simpleicons-7/D/Dataiku.md) |
 | ![illustration of simpleicons-7/D/Datastax](../../simpleicons-7/D/Datastax.png) | [simpleicons-7/D/Datastax](../../simpleicons-7/D/Datastax.md) |
+| ![illustration of simpleicons-7/D/Dataverse](../../simpleicons-7/D/Dataverse.png) | [simpleicons-7/D/Dataverse](../../simpleicons-7/D/Dataverse.md) |
 | ![illustration of simpleicons-7/D/Dataversioncontrol](../../simpleicons-7/D/Dataversioncontrol.png) | [simpleicons-7/D/Dataversioncontrol](../../simpleicons-7/D/Dataversioncontrol.md) |
 | ![illustration of simpleicons-7/D/Datocms](../../simpleicons-7/D/Datocms.png) | [simpleicons-7/D/Datocms](../../simpleicons-7/D/Datocms.md) |
 | ![illustration of simpleicons-7/D/Datto](../../simpleicons-7/D/Datto.png) | [simpleicons-7/D/Datto](../../simpleicons-7/D/Datto.md) |
@@ -81,9 +84,11 @@ The module contains 98 items.
 | ![illustration of simpleicons-7/D/Dogecoin](../../simpleicons-7/D/Dogecoin.png) | [simpleicons-7/D/Dogecoin](../../simpleicons-7/D/Dogecoin.md) |
 | ![illustration of simpleicons-7/D/Dolby](../../simpleicons-7/D/Dolby.png) | [simpleicons-7/D/Dolby](../../simpleicons-7/D/Dolby.md) |
 | ![illustration of simpleicons-7/D/Doordash](../../simpleicons-7/D/Doordash.png) | [simpleicons-7/D/Doordash](../../simpleicons-7/D/Doordash.md) |
+| ![illustration of simpleicons-7/D/Dotenv](../../simpleicons-7/D/Dotenv.png) | [simpleicons-7/D/Dotenv](../../simpleicons-7/D/Dotenv.md) |
 | ![illustration of simpleicons-7/D/Dotnet](../../simpleicons-7/D/Dotnet.png) | [simpleicons-7/D/Dotnet](../../simpleicons-7/D/Dotnet.md) |
 | ![illustration of simpleicons-7/D/Douban](../../simpleicons-7/D/Douban.png) | [simpleicons-7/D/Douban](../../simpleicons-7/D/Douban.md) |
 | ![illustration of simpleicons-7/D/Doubanread](../../simpleicons-7/D/Doubanread.png) | [simpleicons-7/D/Doubanread](../../simpleicons-7/D/Doubanread.md) |
+| ![illustration of simpleicons-7/D/Dovecot](../../simpleicons-7/D/Dovecot.png) | [simpleicons-7/D/Dovecot](../../simpleicons-7/D/Dovecot.md) |
 | ![illustration of simpleicons-7/D/Dpd](../../simpleicons-7/D/Dpd.png) | [simpleicons-7/D/Dpd](../../simpleicons-7/D/Dpd.md) |
 | ![illustration of simpleicons-7/D/Dragonframe](../../simpleicons-7/D/Dragonframe.png) | [simpleicons-7/D/Dragonframe](../../simpleicons-7/D/Dragonframe.md) |
 | ![illustration of simpleicons-7/D/Draugiemdotlv](../../simpleicons-7/D/Draugiemdotlv.png) | [simpleicons-7/D/Draugiemdotlv](../../simpleicons-7/D/Draugiemdotlv.md) |
@@ -94,6 +99,7 @@ The module contains 98 items.
 | ![illustration of simpleicons-7/D/Drupal](../../simpleicons-7/D/Drupal.png) | [simpleicons-7/D/Drupal](../../simpleicons-7/D/Drupal.md) |
 | ![illustration of simpleicons-7/D/Dsautomobiles](../../simpleicons-7/D/Dsautomobiles.png) | [simpleicons-7/D/Dsautomobiles](../../simpleicons-7/D/Dsautomobiles.md) |
 | ![illustration of simpleicons-7/D/Dtube](../../simpleicons-7/D/Dtube.png) | [simpleicons-7/D/Dtube](../../simpleicons-7/D/Dtube.md) |
+| ![illustration of simpleicons-7/D/Ducati](../../simpleicons-7/D/Ducati.png) | [simpleicons-7/D/Ducati](../../simpleicons-7/D/Ducati.md) |
 | ![illustration of simpleicons-7/D/Duckdb](../../simpleicons-7/D/Duckdb.png) | [simpleicons-7/D/Duckdb](../../simpleicons-7/D/Duckdb.md) |
 | ![illustration of simpleicons-7/D/Duckduckgo](../../simpleicons-7/D/Duckduckgo.png) | [simpleicons-7/D/Duckduckgo](../../simpleicons-7/D/Duckduckgo.md) |
 | ![illustration of simpleicons-7/D/Dungeonsanddragons](../../simpleicons-7/D/Dungeonsanddragons.png) | [simpleicons-7/D/Dungeonsanddragons](../../simpleicons-7/D/Dungeonsanddragons.md) |

@@ -1,6 +1,6 @@
 # C
 
-The module contains 159 items.
+The module contains 164 items.
 
 
 
@@ -8,7 +8,9 @@ The module contains 159 items.
 |:---:|---|
 | ![illustration of simpleicons-7/C/C](../../simpleicons-7/C/C.png) | [simpleicons-7/C/C](../../simpleicons-7/C/C.md) |
 | ![illustration of simpleicons-7/C/Cachet](../../simpleicons-7/C/Cachet.png) | [simpleicons-7/C/Cachet](../../simpleicons-7/C/Cachet.md) |
+| ![illustration of simpleicons-7/C/Cafepress](../../simpleicons-7/C/Cafepress.png) | [simpleicons-7/C/Cafepress](../../simpleicons-7/C/Cafepress.md) |
 | ![illustration of simpleicons-7/C/Caffeine](../../simpleicons-7/C/Caffeine.png) | [simpleicons-7/C/Caffeine](../../simpleicons-7/C/Caffeine.md) |
+| ![illustration of simpleicons-7/C/Cairographics](../../simpleicons-7/C/Cairographics.png) | [simpleicons-7/C/Cairographics](../../simpleicons-7/C/Cairographics.md) |
 | ![illustration of simpleicons-7/C/Cairometro](../../simpleicons-7/C/Cairometro.png) | [simpleicons-7/C/Cairometro](../../simpleicons-7/C/Cairometro.md) |
 | ![illustration of simpleicons-7/C/Cakephp](../../simpleicons-7/C/Cakephp.png) | [simpleicons-7/C/Cakephp](../../simpleicons-7/C/Cakephp.md) |
 | ![illustration of simpleicons-7/C/Campaignmonitor](../../simpleicons-7/C/Campaignmonitor.png) | [simpleicons-7/C/Campaignmonitor](../../simpleicons-7/C/Campaignmonitor.md) |
@@ -115,6 +117,7 @@ The module contains 159 items.
 | ![illustration of simpleicons-7/C/Coinmarketcap](../../simpleicons-7/C/Coinmarketcap.png) | [simpleicons-7/C/Coinmarketcap](../../simpleicons-7/C/Coinmarketcap.md) |
 | ![illustration of simpleicons-7/C/Commerzbank](../../simpleicons-7/C/Commerzbank.png) | [simpleicons-7/C/Commerzbank](../../simpleicons-7/C/Commerzbank.md) |
 | ![illustration of simpleicons-7/C/Commitlint](../../simpleicons-7/C/Commitlint.png) | [simpleicons-7/C/Commitlint](../../simpleicons-7/C/Commitlint.md) |
+| ![illustration of simpleicons-7/C/Commodore](../../simpleicons-7/C/Commodore.png) | [simpleicons-7/C/Commodore](../../simpleicons-7/C/Commodore.md) |
 | ![illustration of simpleicons-7/C/Commonworkflowlanguage](../../simpleicons-7/C/Commonworkflowlanguage.png) | [simpleicons-7/C/Commonworkflowlanguage](../../simpleicons-7/C/Commonworkflowlanguage.md) |
 | ![illustration of simpleicons-7/C/Composer](../../simpleicons-7/C/Composer.png) | [simpleicons-7/C/Composer](../../simpleicons-7/C/Composer.md) |
 | ![illustration of simpleicons-7/C/Comsol](../../simpleicons-7/C/Comsol.png) | [simpleicons-7/C/Comsol](../../simpleicons-7/C/Comsol.md) |
@@ -145,10 +148,12 @@ The module contains 159 items.
 | ![illustration of simpleicons-7/C/Cplusplus](../../simpleicons-7/C/Cplusplus.png) | [simpleicons-7/C/Cplusplus](../../simpleicons-7/C/Cplusplus.md) |
 | ![illustration of simpleicons-7/C/Craftcms](../../simpleicons-7/C/Craftcms.png) | [simpleicons-7/C/Craftcms](../../simpleicons-7/C/Craftcms.md) |
 | ![illustration of simpleicons-7/C/Cratedb](../../simpleicons-7/C/Cratedb.png) | [simpleicons-7/C/Cratedb](../../simpleicons-7/C/Cratedb.md) |
+| ![illustration of simpleicons-7/C/Crayon](../../simpleicons-7/C/Crayon.png) | [simpleicons-7/C/Crayon](../../simpleicons-7/C/Crayon.md) |
 | ![illustration of simpleicons-7/C/Createreactapp](../../simpleicons-7/C/Createreactapp.png) | [simpleicons-7/C/Createreactapp](../../simpleicons-7/C/Createreactapp.md) |
 | ![illustration of simpleicons-7/C/Creativecommons](../../simpleicons-7/C/Creativecommons.png) | [simpleicons-7/C/Creativecommons](../../simpleicons-7/C/Creativecommons.md) |
 | ![illustration of simpleicons-7/C/Credly](../../simpleicons-7/C/Credly.png) | [simpleicons-7/C/Credly](../../simpleicons-7/C/Credly.md) |
 | ![illustration of simpleicons-7/C/Crehana](../../simpleicons-7/C/Crehana.png) | [simpleicons-7/C/Crehana](../../simpleicons-7/C/Crehana.md) |
+| ![illustration of simpleicons-7/C/Criticalrole](../../simpleicons-7/C/Criticalrole.png) | [simpleicons-7/C/Criticalrole](../../simpleicons-7/C/Criticalrole.md) |
 | ![illustration of simpleicons-7/C/Crowdin](../../simpleicons-7/C/Crowdin.png) | [simpleicons-7/C/Crowdin](../../simpleicons-7/C/Crowdin.md) |
 | ![illustration of simpleicons-7/C/Crowdsource](../../simpleicons-7/C/Crowdsource.png) | [simpleicons-7/C/Crowdsource](../../simpleicons-7/C/Crowdsource.md) |
 | ![illustration of simpleicons-7/C/Crunchbase](../../simpleicons-7/C/Crunchbase.png) | [simpleicons-7/C/Crunchbase](../../simpleicons-7/C/Crunchbase.md) |

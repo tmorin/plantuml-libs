@@ -1,6 +1,6 @@
 # S
 
-The module contains 225 items.
+The module contains 236 items.
 
 
 
@@ -40,11 +40,13 @@ The module contains 225 items.
 | ![illustration of simpleicons-7/S/Scrutinizerci](../../simpleicons-7/S/Scrutinizerci.png) | [simpleicons-7/S/Scrutinizerci](../../simpleicons-7/S/Scrutinizerci.md) |
 | ![illustration of simpleicons-7/S/Seagate](../../simpleicons-7/S/Seagate.png) | [simpleicons-7/S/Seagate](../../simpleicons-7/S/Seagate.md) |
 | ![illustration of simpleicons-7/S/Seat](../../simpleicons-7/S/Seat.png) | [simpleicons-7/S/Seat](../../simpleicons-7/S/Seat.md) |
+| ![illustration of simpleicons-7/S/Securityscorecard](../../simpleicons-7/S/Securityscorecard.png) | [simpleicons-7/S/Securityscorecard](../../simpleicons-7/S/Securityscorecard.md) |
 | ![illustration of simpleicons-7/S/Sefaria](../../simpleicons-7/S/Sefaria.png) | [simpleicons-7/S/Sefaria](../../simpleicons-7/S/Sefaria.md) |
 | ![illustration of simpleicons-7/S/Sega](../../simpleicons-7/S/Sega.png) | [simpleicons-7/S/Sega](../../simpleicons-7/S/Sega.md) |
 | ![illustration of simpleicons-7/S/Selenium](../../simpleicons-7/S/Selenium.png) | [simpleicons-7/S/Selenium](../../simpleicons-7/S/Selenium.md) |
 | ![illustration of simpleicons-7/S/Sellfy](../../simpleicons-7/S/Sellfy.png) | [simpleicons-7/S/Sellfy](../../simpleicons-7/S/Sellfy.md) |
 | ![illustration of simpleicons-7/S/Semanticrelease](../../simpleicons-7/S/Semanticrelease.png) | [simpleicons-7/S/Semanticrelease](../../simpleicons-7/S/Semanticrelease.md) |
+| ![illustration of simpleicons-7/S/Semanticscholar](../../simpleicons-7/S/Semanticscholar.png) | [simpleicons-7/S/Semanticscholar](../../simpleicons-7/S/Semanticscholar.md) |
 | ![illustration of simpleicons-7/S/Semanticuireact](../../simpleicons-7/S/Semanticuireact.png) | [simpleicons-7/S/Semanticuireact](../../simpleicons-7/S/Semanticuireact.md) |
 | ![illustration of simpleicons-7/S/Semanticweb](../../simpleicons-7/S/Semanticweb.png) | [simpleicons-7/S/Semanticweb](../../simpleicons-7/S/Semanticweb.md) |
 | ![illustration of simpleicons-7/S/Semaphoreci](../../simpleicons-7/S/Semaphoreci.png) | [simpleicons-7/S/Semaphoreci](../../simpleicons-7/S/Semaphoreci.md) |
@@ -57,6 +59,8 @@ The module contains 225 items.
 | ![illustration of simpleicons-7/S/Sequelize](../../simpleicons-7/S/Sequelize.png) | [simpleicons-7/S/Sequelize](../../simpleicons-7/S/Sequelize.md) |
 | ![illustration of simpleicons-7/S/Serverfault](../../simpleicons-7/S/Serverfault.png) | [simpleicons-7/S/Serverfault](../../simpleicons-7/S/Serverfault.md) |
 | ![illustration of simpleicons-7/S/Serverless](../../simpleicons-7/S/Serverless.png) | [simpleicons-7/S/Serverless](../../simpleicons-7/S/Serverless.md) |
+| ![illustration of simpleicons-7/S/Sessionize](../../simpleicons-7/S/Sessionize.png) | [simpleicons-7/S/Sessionize](../../simpleicons-7/S/Sessionize.md) |
+| ![illustration of simpleicons-7/S/Setapp](../../simpleicons-7/S/Setapp.png) | [simpleicons-7/S/Setapp](../../simpleicons-7/S/Setapp.md) |
 | ![illustration of simpleicons-7/S/Sfml](../../simpleicons-7/S/Sfml.png) | [simpleicons-7/S/Sfml](../../simpleicons-7/S/Sfml.md) |
 | ![illustration of simpleicons-7/S/Shadow](../../simpleicons-7/S/Shadow.png) | [simpleicons-7/S/Shadow](../../simpleicons-7/S/Shadow.md) |
 | ![illustration of simpleicons-7/S/Shanghaimetro](../../simpleicons-7/S/Shanghaimetro.png) | [simpleicons-7/S/Shanghaimetro](../../simpleicons-7/S/Shanghaimetro.md) |
@@ -67,6 +71,7 @@ The module contains 225 items.
 | ![illustration of simpleicons-7/S/Shenzhenmetro](../../simpleicons-7/S/Shenzhenmetro.png) | [simpleicons-7/S/Shenzhenmetro](../../simpleicons-7/S/Shenzhenmetro.md) |
 | ![illustration of simpleicons-7/S/Shieldsdotio](../../simpleicons-7/S/Shieldsdotio.png) | [simpleicons-7/S/Shieldsdotio](../../simpleicons-7/S/Shieldsdotio.md) |
 | ![illustration of simpleicons-7/S/Shikimori](../../simpleicons-7/S/Shikimori.png) | [simpleicons-7/S/Shikimori](../../simpleicons-7/S/Shikimori.md) |
+| ![illustration of simpleicons-7/S/Shopee](../../simpleicons-7/S/Shopee.png) | [simpleicons-7/S/Shopee](../../simpleicons-7/S/Shopee.md) |
 | ![illustration of simpleicons-7/S/Shopify](../../simpleicons-7/S/Shopify.png) | [simpleicons-7/S/Shopify](../../simpleicons-7/S/Shopify.md) |
 | ![illustration of simpleicons-7/S/Shopware](../../simpleicons-7/S/Shopware.png) | [simpleicons-7/S/Shopware](../../simpleicons-7/S/Shopware.md) |
 | ![illustration of simpleicons-7/S/Shotcut](../../simpleicons-7/S/Shotcut.png) | [simpleicons-7/S/Shotcut](../../simpleicons-7/S/Shotcut.md) |
@@ -75,6 +80,7 @@ The module contains 225 items.
 | ![illustration of simpleicons-7/S/Shutterstock](../../simpleicons-7/S/Shutterstock.png) | [simpleicons-7/S/Shutterstock](../../simpleicons-7/S/Shutterstock.md) |
 | ![illustration of simpleicons-7/S/Siemens](../../simpleicons-7/S/Siemens.png) | [simpleicons-7/S/Siemens](../../simpleicons-7/S/Siemens.md) |
 | ![illustration of simpleicons-7/S/Signal](../../simpleicons-7/S/Signal.png) | [simpleicons-7/S/Signal](../../simpleicons-7/S/Signal.md) |
+| ![illustration of simpleicons-7/S/Similarweb](../../simpleicons-7/S/Similarweb.png) | [simpleicons-7/S/Similarweb](../../simpleicons-7/S/Similarweb.md) |
 | ![illustration of simpleicons-7/S/Simkl](../../simpleicons-7/S/Simkl.png) | [simpleicons-7/S/Simkl](../../simpleicons-7/S/Simkl.md) |
 | ![illustration of simpleicons-7/S/Simpleanalytics](../../simpleicons-7/S/Simpleanalytics.png) | [simpleicons-7/S/Simpleanalytics](../../simpleicons-7/S/Simpleanalytics.md) |
 | ![illustration of simpleicons-7/S/Simpleicons](../../simpleicons-7/S/Simpleicons.png) | [simpleicons-7/S/Simpleicons](../../simpleicons-7/S/Simpleicons.md) |
@@ -117,6 +123,7 @@ The module contains 225 items.
 | ![illustration of simpleicons-7/S/Solidity](../../simpleicons-7/S/Solidity.png) | [simpleicons-7/S/Solidity](../../simpleicons-7/S/Solidity.md) |
 | ![illustration of simpleicons-7/S/Sololearn](../../simpleicons-7/S/Sololearn.png) | [simpleicons-7/S/Sololearn](../../simpleicons-7/S/Sololearn.md) |
 | ![illustration of simpleicons-7/S/Solus](../../simpleicons-7/S/Solus.png) | [simpleicons-7/S/Solus](../../simpleicons-7/S/Solus.md) |
+| ![illustration of simpleicons-7/S/Sonar](../../simpleicons-7/S/Sonar.png) | [simpleicons-7/S/Sonar](../../simpleicons-7/S/Sonar.md) |
 | ![illustration of simpleicons-7/S/Sonarcloud](../../simpleicons-7/S/Sonarcloud.png) | [simpleicons-7/S/Sonarcloud](../../simpleicons-7/S/Sonarcloud.md) |
 | ![illustration of simpleicons-7/S/Sonarlint](../../simpleicons-7/S/Sonarlint.png) | [simpleicons-7/S/Sonarlint](../../simpleicons-7/S/Sonarlint.md) |
 | ![illustration of simpleicons-7/S/Sonarqube](../../simpleicons-7/S/Sonarqube.png) | [simpleicons-7/S/Sonarqube](../../simpleicons-7/S/Sonarqube.md) |
@@ -163,6 +170,7 @@ The module contains 225 items.
 | ![illustration of simpleicons-7/S/Squarespace](../../simpleicons-7/S/Squarespace.png) | [simpleicons-7/S/Squarespace](../../simpleicons-7/S/Squarespace.md) |
 | ![illustration of simpleicons-7/S/Ssrn](../../simpleicons-7/S/Ssrn.png) | [simpleicons-7/S/Ssrn](../../simpleicons-7/S/Ssrn.md) |
 | ![illustration of simpleicons-7/S/Stackbit](../../simpleicons-7/S/Stackbit.png) | [simpleicons-7/S/Stackbit](../../simpleicons-7/S/Stackbit.md) |
+| ![illustration of simpleicons-7/S/Stackblitz](../../simpleicons-7/S/Stackblitz.png) | [simpleicons-7/S/Stackblitz](../../simpleicons-7/S/Stackblitz.md) |
 | ![illustration of simpleicons-7/S/Stackedit](../../simpleicons-7/S/Stackedit.png) | [simpleicons-7/S/Stackedit](../../simpleicons-7/S/Stackedit.md) |
 | ![illustration of simpleicons-7/S/Stackexchange](../../simpleicons-7/S/Stackexchange.png) | [simpleicons-7/S/Stackexchange](../../simpleicons-7/S/Stackexchange.md) |
 | ![illustration of simpleicons-7/S/Stackoverflow](../../simpleicons-7/S/Stackoverflow.png) | [simpleicons-7/S/Stackoverflow](../../simpleicons-7/S/Stackoverflow.md) |
@@ -170,6 +178,7 @@ The module contains 225 items.
 | ![illustration of simpleicons-7/S/Stackshare](../../simpleicons-7/S/Stackshare.png) | [simpleicons-7/S/Stackshare](../../simpleicons-7/S/Stackshare.md) |
 | ![illustration of simpleicons-7/S/Stadia](../../simpleicons-7/S/Stadia.png) | [simpleicons-7/S/Stadia](../../simpleicons-7/S/Stadia.md) |
 | ![illustration of simpleicons-7/S/Staffbase](../../simpleicons-7/S/Staffbase.png) | [simpleicons-7/S/Staffbase](../../simpleicons-7/S/Staffbase.md) |
+| ![illustration of simpleicons-7/S/Standardjs](../../simpleicons-7/S/Standardjs.png) | [simpleicons-7/S/Standardjs](../../simpleicons-7/S/Standardjs.md) |
 | ![illustration of simpleicons-7/S/Starbucks](../../simpleicons-7/S/Starbucks.png) | [simpleicons-7/S/Starbucks](../../simpleicons-7/S/Starbucks.md) |
 | ![illustration of simpleicons-7/S/Stardock](../../simpleicons-7/S/Stardock.png) | [simpleicons-7/S/Stardock](../../simpleicons-7/S/Stardock.md) |
 | ![illustration of simpleicons-7/S/Starlingbank](../../simpleicons-7/S/Starlingbank.png) | [simpleicons-7/S/Starlingbank](../../simpleicons-7/S/Starlingbank.md) |
@@ -214,6 +223,7 @@ The module contains 225 items.
 | ![illustration of simpleicons-7/S/Supabase](../../simpleicons-7/S/Supabase.png) | [simpleicons-7/S/Supabase](../../simpleicons-7/S/Supabase.md) |
 | ![illustration of simpleicons-7/S/Supermicro](../../simpleicons-7/S/Supermicro.png) | [simpleicons-7/S/Supermicro](../../simpleicons-7/S/Supermicro.md) |
 | ![illustration of simpleicons-7/S/Superuser](../../simpleicons-7/S/Superuser.png) | [simpleicons-7/S/Superuser](../../simpleicons-7/S/Superuser.md) |
+| ![illustration of simpleicons-7/S/Surrealdb](../../simpleicons-7/S/Surrealdb.png) | [simpleicons-7/S/Surrealdb](../../simpleicons-7/S/Surrealdb.md) |
 | ![illustration of simpleicons-7/S/Surveymonkey](../../simpleicons-7/S/Surveymonkey.png) | [simpleicons-7/S/Surveymonkey](../../simpleicons-7/S/Surveymonkey.md) |
 | ![illustration of simpleicons-7/S/Suse](../../simpleicons-7/S/Suse.png) | [simpleicons-7/S/Suse](../../simpleicons-7/S/Suse.md) |
 | ![illustration of simpleicons-7/S/Suzuki](../../simpleicons-7/S/Suzuki.png) | [simpleicons-7/S/Suzuki](../../simpleicons-7/S/Suzuki.md) |
@@ -231,6 +241,7 @@ The module contains 225 items.
 | ![illustration of simpleicons-7/S/Symphony](../../simpleicons-7/S/Symphony.png) | [simpleicons-7/S/Symphony](../../simpleicons-7/S/Symphony.md) |
 | ![illustration of simpleicons-7/S/Sympy](../../simpleicons-7/S/Sympy.png) | [simpleicons-7/S/Sympy](../../simpleicons-7/S/Sympy.md) |
 | ![illustration of simpleicons-7/S/Synology](../../simpleicons-7/S/Synology.png) | [simpleicons-7/S/Synology](../../simpleicons-7/S/Synology.md) |
+| ![illustration of simpleicons-7/S/System76](../../simpleicons-7/S/System76.png) | [simpleicons-7/S/System76](../../simpleicons-7/S/System76.md) |
 
 
 

@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-7/B/Backstage
+
+sprite $BackstageXs [10x10/16z] LSU30SG000F0UzJ8_jFMZEED_0Fai7nol_JeYX0bdJ7v6MYb2Q4iyXq-G9GrPW
+
+sprite $BackstageSm [12x12/16z] FOU50GDH34BVTqtOVzhs78SRXGyQ-cO07_VKcMze1_Vtvna514renhsBf5OtK6p8LTO0sbmsbGnWTb_58pVKaWNW3m
+
+sprite $BackstageMd [16x16/16z] {
+LOw50GGn20H9a5EO_gjzuLudYg-yEUKFmELB8GE-PdyNFcRrot4z9S4cuimsyye1N_fZLvOb-dm5sbRfyi6w0-H0d_bd6YD2KoZjl8eDKgUsPZ_tuDZhc3cU
+zbgAZs7rLRj6vykRIHLxV-y
+}
+
+sprite $BackstageLg [20x20/16z] {
+PO-5eSH020LViYum_LVxXPpVhEAW9qrV39XwPp8pv7VLYDkUgaMFzy3lgWrB0UZ2g0UqLvrH97MOwrx5xzNmtHJvJcSgw0XIbEm5yZrNjV1Rv8MNv7InI_YP
+S06a9TaClq9fh986LVHwJIL30qokTitJCZCxQnfPTkgVIkdKSrazq8FjQUEEPpqvsSfLtVHA1rYw-0K
+}
+
+!procedure Backstage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/B/Backstage', $name, $tech, $desc)
+!endprocedure

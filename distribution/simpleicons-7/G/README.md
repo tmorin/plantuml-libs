@@ -1,6 +1,6 @@
 # G
 
-The module contains 120 items.
+The module contains 124 items.
 
 
 
@@ -9,6 +9,7 @@ The module contains 120 items.
 | ![illustration of simpleicons-7/G/G2](../../simpleicons-7/G/G2.png) | [simpleicons-7/G/G2](../../simpleicons-7/G/G2.md) |
 | ![illustration of simpleicons-7/G/G2A](../../simpleicons-7/G/G2A.png) | [simpleicons-7/G/G2A](../../simpleicons-7/G/G2A.md) |
 | ![illustration of simpleicons-7/G/Gameandwatch](../../simpleicons-7/G/Gameandwatch.png) | [simpleicons-7/G/Gameandwatch](../../simpleicons-7/G/Gameandwatch.md) |
+| ![illustration of simpleicons-7/G/Gamedeveloper](../../simpleicons-7/G/Gamedeveloper.png) | [simpleicons-7/G/Gamedeveloper](../../simpleicons-7/G/Gamedeveloper.md) |
 | ![illustration of simpleicons-7/G/Gamejolt](../../simpleicons-7/G/Gamejolt.png) | [simpleicons-7/G/Gamejolt](../../simpleicons-7/G/Gamejolt.md) |
 | ![illustration of simpleicons-7/G/Garmin](../../simpleicons-7/G/Garmin.png) | [simpleicons-7/G/Garmin](../../simpleicons-7/G/Garmin.md) |
 | ![illustration of simpleicons-7/G/Gatling](../../simpleicons-7/G/Gatling.png) | [simpleicons-7/G/Gatling](../../simpleicons-7/G/Gatling.md) |
@@ -80,6 +81,7 @@ The module contains 120 items.
 | ![illustration of simpleicons-7/G/Googlefit](../../simpleicons-7/G/Googlefit.png) | [simpleicons-7/G/Googlefit](../../simpleicons-7/G/Googlefit.md) |
 | ![illustration of simpleicons-7/G/Googlefonts](../../simpleicons-7/G/Googlefonts.png) | [simpleicons-7/G/Googlefonts](../../simpleicons-7/G/Googlefonts.md) |
 | ![illustration of simpleicons-7/G/Googlehangouts](../../simpleicons-7/G/Googlehangouts.png) | [simpleicons-7/G/Googlehangouts](../../simpleicons-7/G/Googlehangouts.md) |
+| ![illustration of simpleicons-7/G/Googlehome](../../simpleicons-7/G/Googlehome.png) | [simpleicons-7/G/Googlehome](../../simpleicons-7/G/Googlehome.md) |
 | ![illustration of simpleicons-7/G/Googlekeep](../../simpleicons-7/G/Googlekeep.png) | [simpleicons-7/G/Googlekeep](../../simpleicons-7/G/Googlekeep.md) |
 | ![illustration of simpleicons-7/G/Googlelens](../../simpleicons-7/G/Googlelens.png) | [simpleicons-7/G/Googlelens](../../simpleicons-7/G/Googlelens.md) |
 | ![illustration of simpleicons-7/G/Googlemaps](../../simpleicons-7/G/Googlemaps.png) | [simpleicons-7/G/Googlemaps](../../simpleicons-7/G/Googlemaps.md) |
@@ -110,6 +112,7 @@ The module contains 120 items.
 | ![illustration of simpleicons-7/G/Grav](../../simpleicons-7/G/Grav.png) | [simpleicons-7/G/Grav](../../simpleicons-7/G/Grav.md) |
 | ![illustration of simpleicons-7/G/Gravatar](../../simpleicons-7/G/Gravatar.png) | [simpleicons-7/G/Gravatar](../../simpleicons-7/G/Gravatar.md) |
 | ![illustration of simpleicons-7/G/Graylog](../../simpleicons-7/G/Graylog.png) | [simpleicons-7/G/Graylog](../../simpleicons-7/G/Graylog.md) |
+| ![illustration of simpleicons-7/G/Greenhouse](../../simpleicons-7/G/Greenhouse.png) | [simpleicons-7/G/Greenhouse](../../simpleicons-7/G/Greenhouse.md) |
 | ![illustration of simpleicons-7/G/Greensock](../../simpleicons-7/G/Greensock.png) | [simpleicons-7/G/Greensock](../../simpleicons-7/G/Greensock.md) |
 | ![illustration of simpleicons-7/G/Griddotai](../../simpleicons-7/G/Griddotai.png) | [simpleicons-7/G/Griddotai](../../simpleicons-7/G/Griddotai.md) |
 | ![illustration of simpleicons-7/G/Gridsome](../../simpleicons-7/G/Gridsome.png) | [simpleicons-7/G/Gridsome](../../simpleicons-7/G/Gridsome.md) |
@@ -117,6 +120,7 @@ The module contains 120 items.
 | ![illustration of simpleicons-7/G/Groupon](../../simpleicons-7/G/Groupon.png) | [simpleicons-7/G/Groupon](../../simpleicons-7/G/Groupon.md) |
 | ![illustration of simpleicons-7/G/Grubhub](../../simpleicons-7/G/Grubhub.png) | [simpleicons-7/G/Grubhub](../../simpleicons-7/G/Grubhub.md) |
 | ![illustration of simpleicons-7/G/Grunt](../../simpleicons-7/G/Grunt.png) | [simpleicons-7/G/Grunt](../../simpleicons-7/G/Grunt.md) |
+| ![illustration of simpleicons-7/G/Gsk](../../simpleicons-7/G/Gsk.png) | [simpleicons-7/G/Gsk](../../simpleicons-7/G/Gsk.md) |
 | ![illustration of simpleicons-7/G/Gtk](../../simpleicons-7/G/Gtk.png) | [simpleicons-7/G/Gtk](../../simpleicons-7/G/Gtk.md) |
 | ![illustration of simpleicons-7/G/Guangzhoumetro](../../simpleicons-7/G/Guangzhoumetro.png) | [simpleicons-7/G/Guangzhoumetro](../../simpleicons-7/G/Guangzhoumetro.md) |
 | ![illustration of simpleicons-7/G/Guilded](../../simpleicons-7/G/Guilded.png) | [simpleicons-7/G/Guilded](../../simpleicons-7/G/Guilded.md) |

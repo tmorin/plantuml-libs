@@ -1,6 +1,6 @@
 # I
 
-The module contains 63 items.
+The module contains 67 items.
 
 
 
@@ -12,6 +12,7 @@ The module contains 63 items.
 | ![illustration of simpleicons-7/I/Ibm](../../simpleicons-7/I/Ibm.png) | [simpleicons-7/I/Ibm](../../simpleicons-7/I/Ibm.md) |
 | ![illustration of simpleicons-7/I/Ibmcloud](../../simpleicons-7/I/Ibmcloud.png) | [simpleicons-7/I/Ibmcloud](../../simpleicons-7/I/Ibmcloud.md) |
 | ![illustration of simpleicons-7/I/Ibmwatson](../../simpleicons-7/I/Ibmwatson.png) | [simpleicons-7/I/Ibmwatson](../../simpleicons-7/I/Ibmwatson.md) |
+| ![illustration of simpleicons-7/I/Iced](../../simpleicons-7/I/Iced.png) | [simpleicons-7/I/Iced](../../simpleicons-7/I/Iced.md) |
 | ![illustration of simpleicons-7/I/Iceland](../../simpleicons-7/I/Iceland.png) | [simpleicons-7/I/Iceland](../../simpleicons-7/I/Iceland.md) |
 | ![illustration of simpleicons-7/I/Icinga](../../simpleicons-7/I/Icinga.png) | [simpleicons-7/I/Icinga](../../simpleicons-7/I/Icinga.md) |
 | ![illustration of simpleicons-7/I/Icloud](../../simpleicons-7/I/Icloud.png) | [simpleicons-7/I/Icloud](../../simpleicons-7/I/Icloud.md) |
@@ -39,6 +40,7 @@ The module contains 63 items.
 | ![illustration of simpleicons-7/I/Informatica](../../simpleicons-7/I/Informatica.png) | [simpleicons-7/I/Informatica](../../simpleicons-7/I/Informatica.md) |
 | ![illustration of simpleicons-7/I/Infosys](../../simpleicons-7/I/Infosys.png) | [simpleicons-7/I/Infosys](../../simpleicons-7/I/Infosys.md) |
 | ![illustration of simpleicons-7/I/Ingress](../../simpleicons-7/I/Ingress.png) | [simpleicons-7/I/Ingress](../../simpleicons-7/I/Ingress.md) |
+| ![illustration of simpleicons-7/I/Inkdrop](../../simpleicons-7/I/Inkdrop.png) | [simpleicons-7/I/Inkdrop](../../simpleicons-7/I/Inkdrop.md) |
 | ![illustration of simpleicons-7/I/Inkscape](../../simpleicons-7/I/Inkscape.png) | [simpleicons-7/I/Inkscape](../../simpleicons-7/I/Inkscape.md) |
 | ![illustration of simpleicons-7/I/Insomnia](../../simpleicons-7/I/Insomnia.png) | [simpleicons-7/I/Insomnia](../../simpleicons-7/I/Insomnia.md) |
 | ![illustration of simpleicons-7/I/Instacart](../../simpleicons-7/I/Instacart.png) | [simpleicons-7/I/Instacart](../../simpleicons-7/I/Instacart.md) |
@@ -46,9 +48,11 @@ The module contains 63 items.
 | ![illustration of simpleicons-7/I/Instapaper](../../simpleicons-7/I/Instapaper.png) | [simpleicons-7/I/Instapaper](../../simpleicons-7/I/Instapaper.md) |
 | ![illustration of simpleicons-7/I/Instatus](../../simpleicons-7/I/Instatus.png) | [simpleicons-7/I/Instatus](../../simpleicons-7/I/Instatus.md) |
 | ![illustration of simpleicons-7/I/Instructables](../../simpleicons-7/I/Instructables.png) | [simpleicons-7/I/Instructables](../../simpleicons-7/I/Instructables.md) |
+| ![illustration of simpleicons-7/I/Instructure](../../simpleicons-7/I/Instructure.png) | [simpleicons-7/I/Instructure](../../simpleicons-7/I/Instructure.md) |
 | ![illustration of simpleicons-7/I/Integromat](../../simpleicons-7/I/Integromat.png) | [simpleicons-7/I/Integromat](../../simpleicons-7/I/Integromat.md) |
 | ![illustration of simpleicons-7/I/Intel](../../simpleicons-7/I/Intel.png) | [simpleicons-7/I/Intel](../../simpleicons-7/I/Intel.md) |
 | ![illustration of simpleicons-7/I/Intellijidea](../../simpleicons-7/I/Intellijidea.png) | [simpleicons-7/I/Intellijidea](../../simpleicons-7/I/Intellijidea.md) |
+| ![illustration of simpleicons-7/I/Interactiondesignfoundation](../../simpleicons-7/I/Interactiondesignfoundation.png) | [simpleicons-7/I/Interactiondesignfoundation](../../simpleicons-7/I/Interactiondesignfoundation.md) |
 | ![illustration of simpleicons-7/I/Interactjs](../../simpleicons-7/I/Interactjs.png) | [simpleicons-7/I/Interactjs](../../simpleicons-7/I/Interactjs.md) |
 | ![illustration of simpleicons-7/I/Intercom](../../simpleicons-7/I/Intercom.png) | [simpleicons-7/I/Intercom](../../simpleicons-7/I/Intercom.md) |
 | ![illustration of simpleicons-7/I/Intermarche](../../simpleicons-7/I/Intermarche.png) | [simpleicons-7/I/Intermarche](../../simpleicons-7/I/Intermarche.md) |

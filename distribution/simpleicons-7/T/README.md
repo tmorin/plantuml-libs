@@ -1,17 +1,22 @@
 # T
 
-The module contains 118 items.
+The module contains 126 items.
 
 
 
 | |Name|
 |:---:|---|
 | ![illustration of simpleicons-7/T/Tableau](../../simpleicons-7/T/Tableau.png) | [simpleicons-7/T/Tableau](../../simpleicons-7/T/Tableau.md) |
+| ![illustration of simpleicons-7/T/Tablecheck](../../simpleicons-7/T/Tablecheck.png) | [simpleicons-7/T/Tablecheck](../../simpleicons-7/T/Tablecheck.md) |
+| ![illustration of simpleicons-7/T/Tacobell](../../simpleicons-7/T/Tacobell.png) | [simpleicons-7/T/Tacobell](../../simpleicons-7/T/Tacobell.md) |
 | ![illustration of simpleicons-7/T/Tado](../../simpleicons-7/T/Tado.png) | [simpleicons-7/T/Tado](../../simpleicons-7/T/Tado.md) |
+| ![illustration of simpleicons-7/T/Taichigraphics](../../simpleicons-7/T/Taichigraphics.png) | [simpleicons-7/T/Taichigraphics](../../simpleicons-7/T/Taichigraphics.md) |
+| ![illustration of simpleicons-7/T/Taichilang](../../simpleicons-7/T/Taichilang.png) | [simpleicons-7/T/Taichilang](../../simpleicons-7/T/Taichilang.md) |
 | ![illustration of simpleicons-7/T/Tails](../../simpleicons-7/T/Tails.png) | [simpleicons-7/T/Tails](../../simpleicons-7/T/Tails.md) |
 | ![illustration of simpleicons-7/T/Tailwindcss](../../simpleicons-7/T/Tailwindcss.png) | [simpleicons-7/T/Tailwindcss](../../simpleicons-7/T/Tailwindcss.md) |
 | ![illustration of simpleicons-7/T/Talend](../../simpleicons-7/T/Talend.png) | [simpleicons-7/T/Talend](../../simpleicons-7/T/Talend.md) |
 | ![illustration of simpleicons-7/T/Talenthouse](../../simpleicons-7/T/Talenthouse.png) | [simpleicons-7/T/Talenthouse](../../simpleicons-7/T/Talenthouse.md) |
+| ![illustration of simpleicons-7/T/Tamiya](../../simpleicons-7/T/Tamiya.png) | [simpleicons-7/T/Tamiya](../../simpleicons-7/T/Tamiya.md) |
 | ![illustration of simpleicons-7/T/Tampermonkey](../../simpleicons-7/T/Tampermonkey.png) | [simpleicons-7/T/Tampermonkey](../../simpleicons-7/T/Tampermonkey.md) |
 | ![illustration of simpleicons-7/T/Taobao](../../simpleicons-7/T/Taobao.png) | [simpleicons-7/T/Taobao](../../simpleicons-7/T/Taobao.md) |
 | ![illustration of simpleicons-7/T/Tapas](../../simpleicons-7/T/Tapas.png) | [simpleicons-7/T/Tapas](../../simpleicons-7/T/Tapas.md) |
@@ -65,12 +70,14 @@ The module contains 118 items.
 | ![illustration of simpleicons-7/T/Ticketmaster](../../simpleicons-7/T/Ticketmaster.png) | [simpleicons-7/T/Ticketmaster](../../simpleicons-7/T/Ticketmaster.md) |
 | ![illustration of simpleicons-7/T/Tidal](../../simpleicons-7/T/Tidal.png) | [simpleicons-7/T/Tidal](../../simpleicons-7/T/Tidal.md) |
 | ![illustration of simpleicons-7/T/Tide](../../simpleicons-7/T/Tide.png) | [simpleicons-7/T/Tide](../../simpleicons-7/T/Tide.md) |
+| ![illustration of simpleicons-7/T/Tidyverse](../../simpleicons-7/T/Tidyverse.png) | [simpleicons-7/T/Tidyverse](../../simpleicons-7/T/Tidyverse.md) |
 | ![illustration of simpleicons-7/T/Tietoevry](../../simpleicons-7/T/Tietoevry.png) | [simpleicons-7/T/Tietoevry](../../simpleicons-7/T/Tietoevry.md) |
 | ![illustration of simpleicons-7/T/Tiktok](../../simpleicons-7/T/Tiktok.png) | [simpleicons-7/T/Tiktok](../../simpleicons-7/T/Tiktok.md) |
 | ![illustration of simpleicons-7/T/Tile](../../simpleicons-7/T/Tile.png) | [simpleicons-7/T/Tile](../../simpleicons-7/T/Tile.md) |
 | ![illustration of simpleicons-7/T/Timescale](../../simpleicons-7/T/Timescale.png) | [simpleicons-7/T/Timescale](../../simpleicons-7/T/Timescale.md) |
 | ![illustration of simpleicons-7/T/Tinder](../../simpleicons-7/T/Tinder.png) | [simpleicons-7/T/Tinder](../../simpleicons-7/T/Tinder.md) |
 | ![illustration of simpleicons-7/T/Tinyletter](../../simpleicons-7/T/Tinyletter.png) | [simpleicons-7/T/Tinyletter](../../simpleicons-7/T/Tinyletter.md) |
+| ![illustration of simpleicons-7/T/Tistory](../../simpleicons-7/T/Tistory.png) | [simpleicons-7/T/Tistory](../../simpleicons-7/T/Tistory.md) |
 | ![illustration of simpleicons-7/T/Tmobile](../../simpleicons-7/T/Tmobile.png) | [simpleicons-7/T/Tmobile](../../simpleicons-7/T/Tmobile.md) |
 | ![illustration of simpleicons-7/T/Tmux](../../simpleicons-7/T/Tmux.png) | [simpleicons-7/T/Tmux](../../simpleicons-7/T/Tmux.md) |
 | ![illustration of simpleicons-7/T/Todoist](../../simpleicons-7/T/Todoist.png) | [simpleicons-7/T/Todoist](../../simpleicons-7/T/Todoist.md) |
@@ -86,6 +93,7 @@ The module contains 118 items.
 | ![illustration of simpleicons-7/T/Tplink](../../simpleicons-7/T/Tplink.png) | [simpleicons-7/T/Tplink](../../simpleicons-7/T/Tplink.md) |
 | ![illustration of simpleicons-7/T/Tqdm](../../simpleicons-7/T/Tqdm.png) | [simpleicons-7/T/Tqdm](../../simpleicons-7/T/Tqdm.md) |
 | ![illustration of simpleicons-7/T/Traefikmesh](../../simpleicons-7/T/Traefikmesh.png) | [simpleicons-7/T/Traefikmesh](../../simpleicons-7/T/Traefikmesh.md) |
+| ![illustration of simpleicons-7/T/Traefikproxy](../../simpleicons-7/T/Traefikproxy.png) | [simpleicons-7/T/Traefikproxy](../../simpleicons-7/T/Traefikproxy.md) |
 | ![illustration of simpleicons-7/T/Trainerroad](../../simpleicons-7/T/Trainerroad.png) | [simpleicons-7/T/Trainerroad](../../simpleicons-7/T/Trainerroad.md) |
 | ![illustration of simpleicons-7/T/Trakt](../../simpleicons-7/T/Trakt.png) | [simpleicons-7/T/Trakt](../../simpleicons-7/T/Trakt.md) |
 | ![illustration of simpleicons-7/T/Transportforireland](../../simpleicons-7/T/Transportforireland.png) | [simpleicons-7/T/Transportforireland](../../simpleicons-7/T/Transportforireland.md) |

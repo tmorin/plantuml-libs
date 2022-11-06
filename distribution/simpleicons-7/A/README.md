@@ -1,6 +1,6 @@
 # A
 
-The module contains 218 items.
+The module contains 227 items.
 
 
 
@@ -26,6 +26,7 @@ The module contains 218 items.
 | ![illustration of simpleicons-7/A/Addthis](../../simpleicons-7/A/Addthis.png) | [simpleicons-7/A/Addthis](../../simpleicons-7/A/Addthis.md) |
 | ![illustration of simpleicons-7/A/Adguard](../../simpleicons-7/A/Adguard.png) | [simpleicons-7/A/Adguard](../../simpleicons-7/A/Adguard.md) |
 | ![illustration of simpleicons-7/A/Adidas](../../simpleicons-7/A/Adidas.png) | [simpleicons-7/A/Adidas](../../simpleicons-7/A/Adidas.md) |
+| ![illustration of simpleicons-7/A/Adminer](../../simpleicons-7/A/Adminer.png) | [simpleicons-7/A/Adminer](../../simpleicons-7/A/Adminer.md) |
 | ![illustration of simpleicons-7/A/Adobe](../../simpleicons-7/A/Adobe.png) | [simpleicons-7/A/Adobe](../../simpleicons-7/A/Adobe.md) |
 | ![illustration of simpleicons-7/A/Adobeacrobatreader](../../simpleicons-7/A/Adobeacrobatreader.png) | [simpleicons-7/A/Adobeacrobatreader](../../simpleicons-7/A/Adobeacrobatreader.md) |
 | ![illustration of simpleicons-7/A/Adobeaftereffects](../../simpleicons-7/A/Adobeaftereffects.png) | [simpleicons-7/A/Adobeaftereffects](../../simpleicons-7/A/Adobeaftereffects.md) |
@@ -52,6 +53,7 @@ The module contains 218 items.
 | ![illustration of simpleicons-7/A/Affinityphoto](../../simpleicons-7/A/Affinityphoto.png) | [simpleicons-7/A/Affinityphoto](../../simpleicons-7/A/Affinityphoto.md) |
 | ![illustration of simpleicons-7/A/Affinitypublisher](../../simpleicons-7/A/Affinitypublisher.png) | [simpleicons-7/A/Affinitypublisher](../../simpleicons-7/A/Affinitypublisher.md) |
 | ![illustration of simpleicons-7/A/Aframe](../../simpleicons-7/A/Aframe.png) | [simpleicons-7/A/Aframe](../../simpleicons-7/A/Aframe.md) |
+| ![illustration of simpleicons-7/A/Agora](../../simpleicons-7/A/Agora.png) | [simpleicons-7/A/Agora](../../simpleicons-7/A/Agora.md) |
 | ![illustration of simpleicons-7/A/Aib](../../simpleicons-7/A/Aib.png) | [simpleicons-7/A/Aib](../../simpleicons-7/A/Aib.md) |
 | ![illustration of simpleicons-7/A/Aidungeon](../../simpleicons-7/A/Aidungeon.png) | [simpleicons-7/A/Aidungeon](../../simpleicons-7/A/Aidungeon.md) |
 | ![illustration of simpleicons-7/A/Aiohttp](../../simpleicons-7/A/Aiohttp.png) | [simpleicons-7/A/Aiohttp](../../simpleicons-7/A/Aiohttp.md) |
@@ -59,6 +61,7 @@ The module contains 218 items.
 | ![illustration of simpleicons-7/A/Airasia](../../simpleicons-7/A/Airasia.png) | [simpleicons-7/A/Airasia](../../simpleicons-7/A/Airasia.md) |
 | ![illustration of simpleicons-7/A/Airbnb](../../simpleicons-7/A/Airbnb.png) | [simpleicons-7/A/Airbnb](../../simpleicons-7/A/Airbnb.md) |
 | ![illustration of simpleicons-7/A/Airbus](../../simpleicons-7/A/Airbus.png) | [simpleicons-7/A/Airbus](../../simpleicons-7/A/Airbus.md) |
+| ![illustration of simpleicons-7/A/Airbyte](../../simpleicons-7/A/Airbyte.png) | [simpleicons-7/A/Airbyte](../../simpleicons-7/A/Airbyte.md) |
 | ![illustration of simpleicons-7/A/Aircall](../../simpleicons-7/A/Aircall.png) | [simpleicons-7/A/Aircall](../../simpleicons-7/A/Aircall.md) |
 | ![illustration of simpleicons-7/A/Aircanada](../../simpleicons-7/A/Aircanada.png) | [simpleicons-7/A/Aircanada](../../simpleicons-7/A/Aircanada.md) |
 | ![illustration of simpleicons-7/A/Airchina](../../simpleicons-7/A/Airchina.png) | [simpleicons-7/A/Airchina](../../simpleicons-7/A/Airchina.md) |
@@ -74,6 +77,7 @@ The module contains 218 items.
 | ![illustration of simpleicons-7/A/Alfaromeo](../../simpleicons-7/A/Alfaromeo.png) | [simpleicons-7/A/Alfaromeo](../../simpleicons-7/A/Alfaromeo.md) |
 | ![illustration of simpleicons-7/A/Alfred](../../simpleicons-7/A/Alfred.png) | [simpleicons-7/A/Alfred](../../simpleicons-7/A/Alfred.md) |
 | ![illustration of simpleicons-7/A/Algolia](../../simpleicons-7/A/Algolia.png) | [simpleicons-7/A/Algolia](../../simpleicons-7/A/Algolia.md) |
+| ![illustration of simpleicons-7/A/Algorand](../../simpleicons-7/A/Algorand.png) | [simpleicons-7/A/Algorand](../../simpleicons-7/A/Algorand.md) |
 | ![illustration of simpleicons-7/A/Alibabacloud](../../simpleicons-7/A/Alibabacloud.png) | [simpleicons-7/A/Alibabacloud](../../simpleicons-7/A/Alibabacloud.md) |
 | ![illustration of simpleicons-7/A/Alibabadotcom](../../simpleicons-7/A/Alibabadotcom.png) | [simpleicons-7/A/Alibabadotcom](../../simpleicons-7/A/Alibabadotcom.md) |
 | ![illustration of simpleicons-7/A/Aliexpress](../../simpleicons-7/A/Aliexpress.png) | [simpleicons-7/A/Aliexpress](../../simpleicons-7/A/Aliexpress.md) |
@@ -86,6 +90,7 @@ The module contains 218 items.
 | ![illustration of simpleicons-7/A/Alpinedotjs](../../simpleicons-7/A/Alpinedotjs.png) | [simpleicons-7/A/Alpinedotjs](../../simpleicons-7/A/Alpinedotjs.md) |
 | ![illustration of simpleicons-7/A/Alpinelinux](../../simpleicons-7/A/Alpinelinux.png) | [simpleicons-7/A/Alpinelinux](../../simpleicons-7/A/Alpinelinux.md) |
 | ![illustration of simpleicons-7/A/Altiumdesigner](../../simpleicons-7/A/Altiumdesigner.png) | [simpleicons-7/A/Altiumdesigner](../../simpleicons-7/A/Altiumdesigner.md) |
+| ![illustration of simpleicons-7/A/Alwaysdata](../../simpleicons-7/A/Alwaysdata.png) | [simpleicons-7/A/Alwaysdata](../../simpleicons-7/A/Alwaysdata.md) |
 | ![illustration of simpleicons-7/A/Amazon](../../simpleicons-7/A/Amazon.png) | [simpleicons-7/A/Amazon](../../simpleicons-7/A/Amazon.md) |
 | ![illustration of simpleicons-7/A/Amazonalexa](../../simpleicons-7/A/Amazonalexa.png) | [simpleicons-7/A/Amazonalexa](../../simpleicons-7/A/Amazonalexa.md) |
 | ![illustration of simpleicons-7/A/Amazonapigateway](../../simpleicons-7/A/Amazonapigateway.png) | [simpleicons-7/A/Amazonapigateway](../../simpleicons-7/A/Amazonapigateway.md) |
@@ -96,6 +101,7 @@ The module contains 218 items.
 | ![illustration of simpleicons-7/A/Amazonecs](../../simpleicons-7/A/Amazonecs.png) | [simpleicons-7/A/Amazonecs](../../simpleicons-7/A/Amazonecs.md) |
 | ![illustration of simpleicons-7/A/Amazoneks](../../simpleicons-7/A/Amazoneks.png) | [simpleicons-7/A/Amazoneks](../../simpleicons-7/A/Amazoneks.md) |
 | ![illustration of simpleicons-7/A/Amazonfiretv](../../simpleicons-7/A/Amazonfiretv.png) | [simpleicons-7/A/Amazonfiretv](../../simpleicons-7/A/Amazonfiretv.md) |
+| ![illustration of simpleicons-7/A/Amazongames](../../simpleicons-7/A/Amazongames.png) | [simpleicons-7/A/Amazongames](../../simpleicons-7/A/Amazongames.md) |
 | ![illustration of simpleicons-7/A/Amazonlumberyard](../../simpleicons-7/A/Amazonlumberyard.png) | [simpleicons-7/A/Amazonlumberyard](../../simpleicons-7/A/Amazonlumberyard.md) |
 | ![illustration of simpleicons-7/A/Amazonpay](../../simpleicons-7/A/Amazonpay.png) | [simpleicons-7/A/Amazonpay](../../simpleicons-7/A/Amazonpay.md) |
 | ![illustration of simpleicons-7/A/Amazonprime](../../simpleicons-7/A/Amazonprime.png) | [simpleicons-7/A/Amazonprime](../../simpleicons-7/A/Amazonprime.md) |
@@ -160,6 +166,7 @@ The module contains 218 items.
 | ![illustration of simpleicons-7/A/Apple](../../simpleicons-7/A/Apple.png) | [simpleicons-7/A/Apple](../../simpleicons-7/A/Apple.md) |
 | ![illustration of simpleicons-7/A/Applearcade](../../simpleicons-7/A/Applearcade.png) | [simpleicons-7/A/Applearcade](../../simpleicons-7/A/Applearcade.md) |
 | ![illustration of simpleicons-7/A/Applemusic](../../simpleicons-7/A/Applemusic.png) | [simpleicons-7/A/Applemusic](../../simpleicons-7/A/Applemusic.md) |
+| ![illustration of simpleicons-7/A/Applenews](../../simpleicons-7/A/Applenews.png) | [simpleicons-7/A/Applenews](../../simpleicons-7/A/Applenews.md) |
 | ![illustration of simpleicons-7/A/Applepay](../../simpleicons-7/A/Applepay.png) | [simpleicons-7/A/Applepay](../../simpleicons-7/A/Applepay.md) |
 | ![illustration of simpleicons-7/A/Applepodcasts](../../simpleicons-7/A/Applepodcasts.png) | [simpleicons-7/A/Applepodcasts](../../simpleicons-7/A/Applepodcasts.md) |
 | ![illustration of simpleicons-7/A/Appletv](../../simpleicons-7/A/Appletv.png) | [simpleicons-7/A/Appletv](../../simpleicons-7/A/Appletv.md) |
@@ -213,12 +220,14 @@ The module contains 218 items.
 | ![illustration of simpleicons-7/A/Autohotkey](../../simpleicons-7/A/Autohotkey.png) | [simpleicons-7/A/Autohotkey](../../simpleicons-7/A/Autohotkey.md) |
 | ![illustration of simpleicons-7/A/Automattic](../../simpleicons-7/A/Automattic.png) | [simpleicons-7/A/Automattic](../../simpleicons-7/A/Automattic.md) |
 | ![illustration of simpleicons-7/A/Autoprefixer](../../simpleicons-7/A/Autoprefixer.png) | [simpleicons-7/A/Autoprefixer](../../simpleicons-7/A/Autoprefixer.md) |
+| ![illustration of simpleicons-7/A/Avajs](../../simpleicons-7/A/Avajs.png) | [simpleicons-7/A/Avajs](../../simpleicons-7/A/Avajs.md) |
 | ![illustration of simpleicons-7/A/Avast](../../simpleicons-7/A/Avast.png) | [simpleicons-7/A/Avast](../../simpleicons-7/A/Avast.md) |
 | ![illustration of simpleicons-7/A/Awesomelists](../../simpleicons-7/A/Awesomelists.png) | [simpleicons-7/A/Awesomelists](../../simpleicons-7/A/Awesomelists.md) |
 | ![illustration of simpleicons-7/A/Awesomewm](../../simpleicons-7/A/Awesomewm.png) | [simpleicons-7/A/Awesomewm](../../simpleicons-7/A/Awesomewm.md) |
 | ![illustration of simpleicons-7/A/Awsamplify](../../simpleicons-7/A/Awsamplify.png) | [simpleicons-7/A/Awsamplify](../../simpleicons-7/A/Awsamplify.md) |
 | ![illustration of simpleicons-7/A/Awsfargate](../../simpleicons-7/A/Awsfargate.png) | [simpleicons-7/A/Awsfargate](../../simpleicons-7/A/Awsfargate.md) |
 | ![illustration of simpleicons-7/A/Awslambda](../../simpleicons-7/A/Awslambda.png) | [simpleicons-7/A/Awslambda](../../simpleicons-7/A/Awslambda.md) |
+| ![illustration of simpleicons-7/A/Axios](../../simpleicons-7/A/Axios.png) | [simpleicons-7/A/Axios](../../simpleicons-7/A/Axios.md) |
 | ![illustration of simpleicons-7/A/Azureartifacts](../../simpleicons-7/A/Azureartifacts.png) | [simpleicons-7/A/Azureartifacts](../../simpleicons-7/A/Azureartifacts.md) |
 | ![illustration of simpleicons-7/A/Azuredataexplorer](../../simpleicons-7/A/Azuredataexplorer.png) | [simpleicons-7/A/Azuredataexplorer](../../simpleicons-7/A/Azuredataexplorer.md) |
 | ![illustration of simpleicons-7/A/Azuredevops](../../simpleicons-7/A/Azuredevops.png) | [simpleicons-7/A/Azuredevops](../../simpleicons-7/A/Azuredevops.md) |
