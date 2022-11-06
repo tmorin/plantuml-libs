@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/G/Greenhouse
+
+sprite $GreenhouseXs [10x10/16z] Om03JWOOu8VJ_70nNfWOFp-wCaQuEduGHcEnye4P
+
+sprite $GreenhouseSm [12x12/16z] JOg53S0m0CCyvkN_QykDQa6GohHXlhixVUhsXtNj1pWMVoICBOzkpMwzB1ls_8F__bqh404
+
+sprite $GreenhouseMd [16x16/16z] TOp50SKW0CLILyZ-qtwNOhazvKSanV4YTXFfFiJmbwE0ROqp8VdNG8AfKlUBF06th-m4wFtgmVIYDzMu0nxfV-397G
+
+sprite $GreenhouseLg [20x20/16z] {
+PO-30GD144NdRitNVxMnViQM_K0RvW1yZAR-1lWFcHM2n3ZlOcdiBjRMsFGx4k1EEJRT7PVTmUS6jF20qmfI-hhij_BaUEZnKnXUTiNNTUIDbv8tjbb0Jum0
+w-LS0G
+}
+
+!procedure Greenhouse($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-7/G/Greenhouse', $name, $tech, $desc)
+!endprocedure
