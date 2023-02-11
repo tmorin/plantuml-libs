@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2023/Resource/NetworkingAndContentDelivery/AwsAppMeshVirtualRouter
+
+sprite $AwsAppMeshVirtualRouterXs [10x10/16z] JOk30K0n30Mlnkq_xpSQvu4rV9e0m7mH6T34EEcy4H_FbN4ahMJmBHWzcc47
+
+sprite $AwsAppMeshVirtualRouterSm [12x12/16z] NSQ5OSGm04FHbvYj_UTjZqdu_IZrw04DeG9AGoVt6SjGJT9EuZ0ri7MBq4ISjziAbQMoeNiX8pi5_m
+
+sprite $AwsAppMeshVirtualRouterMd [16x16/16z] RSQtWGGW40GmuM6d_thVfgT8FXb9fG2aWVM0Gfs1Wa2j0OVHGAXuX7s8bZ0KQNhkXgUun04bN5g0ewX9gAStbfiftdqA3oqAi-5_mTp0UT2h0HYlJWFV
+
+sprite $AwsAppMeshVirtualRouterLg [20x20/16z] {
+TO-3WKHH40JhST3vntleCxO-nk8nAriTWo-EjcNfqzKR6DVUy-uQ_bEVSOx_wAHbsy1OgXa5QuC2-qQaPK8CsJVL2JdezodL7NZLwJRfhp5pMhDF2tCcyNs-
+P3cAchAFvRdlyqehz2Bkvle4ttGBlT_efiAjxlUhTWymj_cab6jkQVETCUVadMS
+}
+
+!procedure AwsAppMeshVirtualRouter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Resource/NetworkingAndContentDelivery/AwsAppMeshVirtualRouter', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsAppMeshVirtualRouterCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsAppMeshVirtualRouterLg>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AwsAppMeshVirtualRouterGroup($id, $name='Aws App Mesh Virtual Router', $tech='')
+  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AwsAppMeshVirtualRouterLg>', $name, $tech)
+!endprocedure

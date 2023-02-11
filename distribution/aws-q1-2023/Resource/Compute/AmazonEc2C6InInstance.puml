@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2023/Resource/Compute/AmazonEc2C6InInstance
+
+sprite $AmazonEc2C6InInstanceXs [10x10/16z] Oq0576n876RiB0u6LYOELXPc3WPsg1WxiZfcC615CWy
+
+sprite $AmazonEc2C6InInstanceSm [12x12/16z] LSs50GC130B0gn7sNxZs7bTmbToKG6UHa5YaSTlgkH7ZXQ5XYfRzngc-ufZEtvuNtWy
+
+sprite $AmazonEc2C6InInstanceMd [16x16/16z] TO_L0GK020BF0lTV-7N7VTa2Fn1cCRhblkNcGiKT0t9mHnhW9GVyshSkVQNYtjyDe7TAQ7tfztHMzh_zP_xpltLdV_iPTCa6E08
+
+sprite $AmazonEc2C6InInstanceLg [20x20/16z] {
+bL030W114Ahn_pzyjgzrME4E0GUg6xfwptbML-QE0vVOG7ikedPS1YzzxdjV-EphHrby0vSzAzIEwvMg0XmYvGw3LatPRkdHSzDTyd2NFDz5_hr3D_3nVcGo
+ACLK9f_-bE3ITMW1
+}
+
+!procedure AmazonEc2C6InInstance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Resource/Compute/AmazonEc2C6InInstance', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonEc2C6InInstanceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonEc2C6InInstanceLg>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AmazonEc2C6InInstanceGroup($id, $name='Amazon Ec2 C6 In Instance', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2C6InInstanceLg>', $name, $tech)
+!endprocedure

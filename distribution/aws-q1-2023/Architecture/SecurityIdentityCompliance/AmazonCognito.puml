@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2023/Architecture/SecurityIdentityCompliance/AmazonCognito
+
+sprite $AmazonCognitoXs [10x10/16z] FOh50S0m30FBZUJzvutPzn72MCxFiUGHkFFsIdS3rJtv5Jw6jH2XisvpRgroboqK
+
+sprite $AmazonCognitoSm [12x12/16z] JOW74W8m3CCoA8dI__-NSylI3Lj2zA7cJsOeyIpzW1KHgM_krjLskdk6LPuVcS23tkC0Hi7U8oWM-ufFgrzXzAz8Nm
+
+sprite $AmazonCognitoMd [16x16/16z] {
+NOr70WGX3CCsPPFO_F-zqym9tIHJ84PqymWy0idmJNwE1l1voBEg39xXyYPX3GljR81cbHwG-tz-U4XW5lcsP_6n0TRQ_ndGzlhYXvj1hf3Wb5oXi_6wWdZy
+23S
+}
+
+sprite $AmazonCognitoLg [20x20/16z] {
+RSl95GGX30DHndYJo3_VSRiNBjJnFmbF-HOHE20Fo0EIZB7xFQQzacw-rdShnVZCp5JD8tr_EQVNxZToxrX1BEizyPgeSE1AKRYU7LLTfqfvhaNNEqDrpLTX
+1zIcjjds88KZCNltOHYHyjfx7qFnMk5Rsm7N0Vy
+}
+
+!procedure AmazonCognito($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Architecture/SecurityIdentityCompliance/AmazonCognito', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonCognitoCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonCognitoLg>', 'SecurityIdentityCompliance', $funcName, $content)
+!endprocedure
+
+!procedure AmazonCognitoGroup($id, $name='Amazon Cognito', $tech='')
+  IconGroupElement($id, 'SecurityIdentityComplianceFamily', '<$AmazonCognitoLg>', $name, $tech)
+!endprocedure

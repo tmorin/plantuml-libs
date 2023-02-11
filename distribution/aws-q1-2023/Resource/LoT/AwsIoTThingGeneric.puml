@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2023/Resource/LoT/AwsIoTThingGeneric
+
+sprite $AwsIoTThingGenericXs [10x10/16z] ROp50S103CFq2MZ_WSlS2uDjNXOgRzFz5aYLMnT2TW-FIMqSwSq
+
+sprite $AwsIoTThingGenericSm [12x12/16z] LOq50W1120BPblz_-0okPiCM_5a0Txcx5_HiLzcyxdwBQt3VBSdmcJtcUVeevhJX_iuUPwY_29zMx9_k1G
+
+sprite $AwsIoTThingGenericMd [16x16/16z] {
+PO-54S0m3CGKi_SVkCnLyCyCVvoY4JjbUdj7fjjklP3D-j1kcrt7Ic_sQXZhnQ8hD_jeMzZjlTetwwAx8A0NgDqkkTjhjQjW2Rs3cFxwmUGYdlEemOwH5A8i
+p
+}
+
+sprite $AwsIoTThingGenericLg [20x20/16z] {
+TP055iGm44A94UR-5zvbwlRR66ySNtIKZiXlPw2CgwPvGXLcuWpjDwwQHbdiOcEnAyKQs02Vc0Nemnh1-IVElerQxUWZhAKmV4RKrOva53tiXk9gX-HgjwAJ
+tGd2w4Mh5ASO-V5hVgRuh_cP7m
+}
+
+!procedure AwsIoTThingGeneric($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Resource/LoT/AwsIoTThingGeneric', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTThingGenericCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTThingGenericLg>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTThingGenericGroup($id, $name='Aws Io T Thing Generic', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTThingGenericLg>', $name, $tech)
+!endprocedure

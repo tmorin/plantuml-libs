@@ -1,0 +1,21 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2023/bootstrap')
+
+' loads the Item which embeds the element AmazonEc2Inf1InstanceGroup
+include('aws-q1-2023/Resource/Compute/AmazonEc2Inf1Instance')
+
+' renders the element
+AmazonEc2Inf1InstanceGroup('AmazonEc2Inf1InstanceGroup', 'Amazon Ec2 Inf1 Instance Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

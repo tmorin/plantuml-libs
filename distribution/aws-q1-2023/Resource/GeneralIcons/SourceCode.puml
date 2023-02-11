@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2023/Resource/GeneralIcons/SourceCode
+
+sprite $SourceCodeXs [10x10/16z] Oq02h43CYya2iL5Pt42A2IB616Joub37pWG4G7K
+
+sprite $SourceCodeSm [12x12/16z] VSQ35G0n042nVsRt7xUsyXGAxw9zYplQjwxfp-VkBFvh_8_Wz__OEFsTsP_F0GK
+
+sprite $SourceCodeMd [16x16/16z] dST50S0m002nAxD_kMFcDRzmbbClX_cHWGxx2nbsZo6vxO5uTur3hizGC7vxjpt6WeBviyhdcOOM
+
+sprite $SourceCodeLg [20x20/16z] fOs35GHH5CNoljb_kOkncUDBjf7ICshAqbBBXgRAMeEoqcBCPQhr-dtDG9GeKos7zbLDjAAG125EDBBw9-tY8npzljUy6kaqz0G5V04
+
+!procedure SourceCode($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Resource/GeneralIcons/SourceCode', $name, $tech, $desc)
+!endprocedure
+
+!procedure SourceCodeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$SourceCodeLg>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+
+!procedure SourceCodeGroup($id, $name='Source Code', $tech='')
+  IconGroupElement($id, 'GeneralIconsFamily', '<$SourceCodeLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2023/Resource/ManagementGovernance/AmazonCloudWatchEventEventBased
+
+sprite $AmazonCloudWatchEventEventBasedXs [10x10/16z] Oy04t1WiRcuuYvqHACe5bWEpk1bOSR4OOG
+
+sprite $AmazonCloudWatchEventEventBasedSm [12x12/16z] VOQ50S0m3CFaSlB_lsE66iM7JFAT6too97QbUVA3Czxdb6d9KyhWfqO
+
+sprite $AmazonCloudWatchEventEventBasedMd [16x16/16z] dOo50S0W3C22G_l_lNFtaRfoZtImn_ofjUFmhm0ffMa-A07CiVOfoQw6L5s7WEcT3y63xiWj
+
+sprite $AmazonCloudWatchEventEventBasedLg [20x20/16z] jSs50G0n20F0r0lPVzvtTxsw03WJMH7Ci9k-kXFMC6SgM61AKbygoJmc3ARBgPjtL6LOtW7cnpkjz7Mh6O1P0UmAIW
+
+!procedure AmazonCloudWatchEventEventBased($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Resource/ManagementGovernance/AmazonCloudWatchEventEventBased', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonCloudWatchEventEventBasedCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonCloudWatchEventEventBasedLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AmazonCloudWatchEventEventBasedGroup($id, $name='Amazon Cloud Watch Event Event Based', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AmazonCloudWatchEventEventBasedLg>', $name, $tech)
+!endprocedure

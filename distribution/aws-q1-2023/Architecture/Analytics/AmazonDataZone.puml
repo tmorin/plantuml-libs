@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2023/Architecture/Analytics/AmazonDataZone
+
+sprite $AmazonDataZoneXs [10x10/16z] FOe74W11389oFP3___TcgzDK0BBb-zZLLjzMbGSYMdCAEeJ8qf1yoIf3dnEgnjjQgme_
+
+sprite $AmazonDataZoneSm [12x12/16z] JOkv0G1120BtyyF--pqakeb6WI8f8kftGCVI0Hv-wxeSNk-TbEE-cUpn3JhnRE0TqAoo6w4DQHwicLm78xaEpF41
+
+sprite $AmazonDataZoneMd [16x16/16z] {
+NSp50S0m5CFG1lsjx3zlcNrx2dXRd9Dad-KC_0BiRFaCWAsGYtGQETdHwccScgGfd-v1sCukXmkdFUsc4gpUVnb0z9HpBjdhnXhSCZYV7kn_9Bpx30aulOPp
+fzzX0G
+}
+
+sprite $AmazonDataZoneLg [20x20/16z] {
+RSm54iL028FXL5WWU__pLjA1f__uXwIApgz4x_fhGZRkZIp4QAJGVOkq66rCDzDge8sNBLVmDzjoqSyzzZ8aLvcbxO-PioqXkt1mvMDhPCIahi4B0oFpjXkT
+iPiP4denXO1-O2sRzLCWAqIIPSAgx0Vd7pm1
+}
+
+!procedure AmazonDataZone($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Architecture/Analytics/AmazonDataZone', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonDataZoneCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonDataZoneLg>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AmazonDataZoneGroup($id, $name='Amazon Data Zone', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AmazonDataZoneLg>', $name, $tech)
+!endprocedure

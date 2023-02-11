@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2023/bootstrap')
+
+' loads the Item which embeds the element AwsMainframeModernizationConverterCard
+include('aws-q1-2023/Resource/MigrationAndTransfer/AwsMainframeModernizationConverter')
+
+' renders the element
+AwsMainframeModernizationConverterCard('AwsMainframeModernizationConverterCard', 'Aws Mainframe Modernization Converter Card', 'an optional description')
+@enduml

@@ -1,0 +1,20 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2023/bootstrap')
+
+' loads the Item which embeds the element AwsMigrationHubRefactorSpacesEnvironmentsGroup
+include('aws-q1-2023/Resource/MigrationAndTransfer/AwsMigrationHubRefactorSpacesEnvironments')
+
+' renders the element
+AwsMigrationHubRefactorSpacesEnvironmentsGroup('AwsMigrationHubRefactorSpacesEnvironmentsGroup', 'Aws Migration Hub Refactor Spaces Environments Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

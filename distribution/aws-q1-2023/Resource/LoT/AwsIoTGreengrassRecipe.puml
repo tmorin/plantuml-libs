@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2023/Resource/LoT/AwsIoTGreengrassRecipe
+
+sprite $AwsIoTGreengrassRecipeXs [10x10/16z] Oq02d43CXCw2avpC39oSB9m8CGXcP6I0Yw6p6460am4
+
+sprite $AwsIoTGreengrassRecipeSm [12x12/16z] Oq05Z430oOJWSp0WEEpix30ciW8E3Wu6uiNPSHW3160D
+
+sprite $AwsIoTGreengrassRecipeMd [16x16/16z] ZKg50G0X4C82t7_WxqulAToB7gjwvPgkuGk7Zhn8uivNjDuGmifl_erJiCtcV24abSPyh6j5e0S
+
+sprite $AwsIoTGreengrassRecipeLg [20x20/16z] dSo50O0m34JHNqrk_uLnTnxKObmmZLYCznXr4aCdCRIB1MjfZYtkOqcWLkPxBx7zMvjOQFyMF-P50skbxxrXCSL2N0IW0G
+
+!procedure AwsIoTGreengrassRecipe($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Resource/LoT/AwsIoTGreengrassRecipe', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTGreengrassRecipeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTGreengrassRecipeLg>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTGreengrassRecipeGroup($id, $name='Aws Io T Greengrass Recipe', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTGreengrassRecipeLg>', $name, $tech)
+!endprocedure

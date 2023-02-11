@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2023/Architecture/Storage/AwsSnowball
+
+sprite $AwsSnowballXs [10x10/16z] FSR70KCn048nTtXu_tcJttKI-2I9h_SaAz1xBtqwmKTzRG7tc7DoBZurxvm0zjS_
+
+sprite $AwsSnowballSm [12x12/16z] JSZ50GH124JHnlcGVxphCkzI0lHJFN0PN0PeVjIWXOYqUizeoOD-UW3o_Syvdr_TpKoYTx0ts9qddlOoxW
+
+sprite $AwsSnowballMd [16x16/16z] NSw53S1020NG5F-m_xprqnV5mIq-_i2Mm9RumkQDoHeAJy3LMLdD3eh8H1-Y5jCxQoD-wrFy_VB5wNud7otcdnw8oZHk0gZA3pwr9MfBN
+
+sprite $AwsSnowballLg [20x20/16z] {
+ZSe73e0m34DHQ9l43lU_BvROcy_iawcm55FaNkyCc-rqjTqPaxdvLYTCih7KMgr6LsjlMcRAj6ugW293PifGf_Rc8DLluyveKp9Cblg9gNusIsA9HQzXqB1k
+EKdP4kTaczvPRdPPZW
+}
+
+!procedure AwsSnowball($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Architecture/Storage/AwsSnowball', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsSnowballCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsSnowballLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AwsSnowballGroup($id, $name='Aws Snowball', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AwsSnowballLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2023/Resource/Analytics/AmazonEmrCluster
+
+sprite $AmazonEmrClusterXs [10x10/16z] NOpL0K0n20El3cJ_UPzhxmU9y4UaUxDa85VWaC4o6Z9dGesCDX2bNItb5dE25G
+
+sprite $AmazonEmrClusterSm [12x12/16z] PSR50GD130Gm7Niz_TSRvkWbVpBbVIbt9Ov4CL3H9kOrqrJ9xH3k7rsrnK5XQktcI2qrkubC7jB16G
+
+sprite $AmazonEmrClusterMd [16x16/16z] TSwr0GGm0CD0XHrx_tcV6THT9_uKMsy6lxaKvONCnag4Poao40mciIDGB306I3gCjKQzUWCGu6ef7IlPDmCx1hFtd741e-VJN55hgUNrL-__hsJR0-08
+
+sprite $AmazonEmrClusterLg [20x20/16z] {
+VP050WCX30GtM3Ri___RSgcU3JvuSCkKj7S2YfqubPqZfmMH680sKMLmIGLDYYbD0D50e1J8pQnhMo_DT1ZqmYMyY6Gijw36QZo66TuEYNvgkdmjS97siuvI
+ptlJHTQkpK6BhZoQjVQ2D-4XeggLNGogZd4XTguKjvqhJx3n
+}
+
+!procedure AmazonEmrCluster($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Resource/Analytics/AmazonEmrCluster', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonEmrClusterCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonEmrClusterLg>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AmazonEmrClusterGroup($id, $name='Amazon Emr Cluster', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AmazonEmrClusterLg>', $name, $tech)
+!endprocedure

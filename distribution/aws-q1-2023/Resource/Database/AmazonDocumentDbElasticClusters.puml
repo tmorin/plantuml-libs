@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2023/Resource/Database/AmazonDocumentDbElasticClusters
+
+sprite $AmazonDocumentDbElasticClustersXs [10x10/16z] POor0S103CJqRDf_tJ17ZU60FtukTbw9bSY3Hbwt26kmRx7_gXHdtUpkIPcSgJC
+
+sprite $AmazonDocumentDbElasticClustersSm [12x12/16z] JSh50GCW44JHDyI0tVxRZTk_ZFhdG4YCzcLDoAe9maIplu-tFtRNWj37SMwcS49v_pC2iho9dlQsjlGD
+
+sprite $AmazonDocumentDbElasticClustersMd [16x16/16z] NS_70S9044FHvsojjlzwkG7slqmEycR6qj8kxbdnOqazGei5hj7iG55ORaGnsj441GFavsNEUUOvxnTdEtEkGIteYkj0iM1T5y2zvAt7ZseNwQ2bzmS
+
+sprite $AmazonDocumentDbElasticClustersLg [20x20/16z] {
+ROq55WCn20K_5W7kVzqAQTTdDyay54zu0fJfG6G2cia8d6d1k8O6NsFitvlAPNfu9ooYhhQyWhHYwSp4FGm0CsR5mAqR-1ShKgff67RIyeER7NRaSZt55lyT
+npevxj0SAXQ9BVQzYCiNYkQu46sS0qI8uEgiILzL1ei0zBqWI_46
+}
+
+!procedure AmazonDocumentDbElasticClusters($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Resource/Database/AmazonDocumentDbElasticClusters', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonDocumentDbElasticClustersCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonDocumentDbElasticClustersLg>', 'Database', $funcName, $content)
+!endprocedure
+
+!procedure AmazonDocumentDbElasticClustersGroup($id, $name='Amazon Document Db Elastic Clusters', $tech='')
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonDocumentDbElasticClustersLg>', $name, $tech)
+!endprocedure

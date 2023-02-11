@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2023/Resource/MigrationAndTransfer/AwsApplicationDiscoveryServiceAwsDiscoveryAgent
+
+sprite $AwsApplicationDiscoveryServiceAwsDiscoveryAgentXs [10x10/16z] HSN70K1120BH-M7Jz5_moicd0ArzYPapvq_Py1ufBs5va3X4gFY7q2u
+
+sprite $AwsApplicationDiscoveryServiceAwsDiscoveryAgentSm [12x12/16z] XSh50SCm400mcM7_VTiml2B3eGybPsO8GMtiLx8QQCQPTyovNkbUa9oQuX02VPEy_G4
+
+sprite $AwsApplicationDiscoveryServiceAwsDiscoveryAgentMd [16x16/16z] ZOd55K0X3C22rVRVzqiVSYLe4-vHoQVDqS1_Eqef83ARzXb_F5spTEcdZ3aFeFABg1QXWCpa-vbexZsBgheG73AwJPGBNW
+
+sprite $AwsApplicationDiscoveryServiceAwsDiscoveryAgentLg [20x20/16z] {
+hSl50KGX40FGZ63fl-0bVB-jFNGC_p9QRv0mB97KNNNH15OZCAdGHfrAyfZlIXekP-mS90xkkiQQmUuM6KbmiaT7S-oOE8ozt73ZG3PDNhZuiy-0MbNCK-TP
+z8FX8oy
+}
+
+!procedure AwsApplicationDiscoveryServiceAwsDiscoveryAgent($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Resource/MigrationAndTransfer/AwsApplicationDiscoveryServiceAwsDiscoveryAgent', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsApplicationDiscoveryServiceAwsDiscoveryAgentCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsApplicationDiscoveryServiceAwsDiscoveryAgentLg>', 'MigrationAndTransfer', $funcName, $content)
+!endprocedure
+
+!procedure AwsApplicationDiscoveryServiceAwsDiscoveryAgentGroup($id, $name='Aws Application Discovery Service Aws Discovery Agent', $tech='')
+  IconGroupElement($id, 'MigrationAndTransferFamily', '<$AwsApplicationDiscoveryServiceAwsDiscoveryAgentLg>', $name, $tech)
+!endprocedure

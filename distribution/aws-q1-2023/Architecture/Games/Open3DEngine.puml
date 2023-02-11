@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2023/Architecture/Games/Open3DEngine
+
+sprite $Open3DEngineXs [10x10/16z] FOh50G0W4CDmI6__UN78gnAWBMhbHq5g6ob1EOd5JYehbcQQlr-opHXzSncRiNhXi1KdC
+
+sprite $Open3DEngineSm [12x12/16z] JSYt0S10349HAmkq_xoNAl_g0Kxzgi9ly5ha3HAcXVIyfaBSMg-r1K1ONZDmYnwoJ3AbisSO_Cg-2inCdv_0ynoGXUVX3TW
+
+sprite $Open3DEngineMd [16x16/16z] {
+LSk53GH134FH2SUU_kjTo1v-uRDatFMhgiBJP-2VkyXRq9IkUo092mTA8Xzt0ARHBO_fKE2IZYyuhWgvRhEen6HZwSIg9LA6tYILtI984s1l8abJjQNZpPRP
+4Zg-BnBtpySpJ1Z_3IS
+}
+
+sprite $Open3DEngineLg [20x20/16z] {
+RSW5WW0X34FHgK2JpFtlk-ZwH_kumcSr8d_fRpkeYn5nKGkJw33KHasCiauYtVinPN786lsQZ6M5vaHSOz4u2zYnBA6MEIjgczJ1KySsfveiR1H1u1qun1EM
+J4PYs42w5DMzic0WtuanTZC77clB1i8hr24QZmsKAaqQ-73OmHDvx3U-_-07
+}
+
+!procedure Open3DEngine($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Architecture/Games/Open3DEngine', $name, $tech, $desc)
+!endprocedure
+
+!procedure Open3DEngineCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$Open3DEngineLg>', 'Games', $funcName, $content)
+!endprocedure
+
+!procedure Open3DEngineGroup($id, $name='Open3 D Engine', $tech='')
+  IconGroupElement($id, 'GamesFamily', '<$Open3DEngineLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2023/Resource/ManagementGovernance/AwsOpsWorksLayers
+
+sprite $AwsOpsWorksLayersXs [10x10/16z] Oy04p5XPR320f98R1h3gO8O2LW
+
+sprite $AwsOpsWorksLayersSm [12x12/16z] Oq06p8mmmCN021V5pSO5s160A7Euu80R
+
+sprite $AwsOpsWorksLayersMd [16x16/16z] Oq07t5meW84BHPPaFffvd0oa0cvcP42vUpXH01i
+
+sprite $AwsOpsWorksLayersLg [20x20/16z] Oy06kBZH0HC3DxeYPXg8CQ81LYO65ZPqm40Hu1uelp6Z0Q3Vc3000m
+
+!procedure AwsOpsWorksLayers($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Resource/ManagementGovernance/AwsOpsWorksLayers', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsOpsWorksLayersCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsOpsWorksLayersLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsOpsWorksLayersGroup($id, $name='Aws Ops Works Layers', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsOpsWorksLayersLg>', $name, $tech)
+!endprocedure

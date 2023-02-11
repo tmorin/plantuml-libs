@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2023/Architecture/NetworkingContentDelivery/AmazonVpcLattice
+
+sprite $AmazonVpcLatticeXs [10x10/16z] JSR70SDG34CnwlT7xJzlucxZ163jvkIfpqPVDegbkhPPb3Q_IxkE8bYPqOGKP0vlefARlV07
+
+sprite $AmazonVpcLatticeSm [12x12/16z] JSVB0O102CHGzmUPeVz-nJsPquiwRfdwZVMCEsDZZoKcdC_MsKyCm1sQhBy5rKvFfaJrZ9WCILKpR2oTTXn_7ThT7Ua5
+
+sprite $AmazonVpcLatticeMd [16x16/16z] {
+PSZ50SCm40LH2tO_kFz-8mhFxOrcF07GxZKySGP0s8g-7Ld8uTwahCEnFCxLqL37sdOhh5zkglfpqylLonBlvM0DGgFxDj0BWLeobvcsAAVgSYrUeLx3Cvyq
+_3CU
+}
+
+sprite $AmazonVpcLatticeLg [20x20/16z] {
+RSZ5OS1G50Em_zXszf-t42xeAEvmco_ah_rpHuhiY6ihOZ0IatsTeGQGb1qao-VhAeuJkSo0NXu0ZXFNU9X7ptDQIJfp_Zs-hluxxGVoQxVz0YtdAXwtvqJv
+CYpkjcrhiyGQrk8oEoxLaW2Ani9ndJfPnN4IhoF0hpletkF-v2S
+}
+
+!procedure AmazonVpcLattice($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Architecture/NetworkingContentDelivery/AmazonVpcLattice', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonVpcLatticeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonVpcLatticeLg>', 'NetworkingContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AmazonVpcLatticeGroup($id, $name='Amazon Vpc Lattice', $tech='')
+  IconGroupElement($id, 'NetworkingContentDeliveryFamily', '<$AmazonVpcLatticeLg>', $name, $tech)
+!endprocedure

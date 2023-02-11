@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2023/bootstrap')
+
+' loads the Item which embeds the element AmazonMskAmazonMskConnectCard
+include('aws-q1-2023/Resource/Analytics/AmazonMskAmazonMskConnect')
+
+' renders the element
+AmazonMskAmazonMskConnectCard('AmazonMskAmazonMskConnectCard', 'Amazon Msk Amazon Msk Connect Card', 'an optional description')
+@enduml

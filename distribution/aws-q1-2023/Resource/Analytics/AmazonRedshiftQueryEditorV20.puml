@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2023/Resource/Analytics/AmazonRedshiftQueryEditorV20
+
+sprite $AmazonRedshiftQueryEditorV20Xs [10x10/16z] HSZ50GGn0CGmRJYP_kiz1lriVq7Pi3_vqQ5X-ymTYOyPLbeohm4aNPLPQgZh3W
+
+sprite $AmazonRedshiftQueryEditorV20Sm [12x12/16z] JKg50SD024JUkDz_ts9DWfxHjxO9AsPYpSjv1J1OuU-zlfjzM-5BfrtEpvLnTPNEj7sFfuHAEMGU0X11kpy
+
+sprite $AmazonRedshiftQueryEditorV20Md [16x16/16z] {
+PKy54i0m20EgIVx_tntphLw8NMqPNIGbFqkTTsdVsd7Sx28WtFNFxkHJcaUjviaQxO1u74fclMgDJ71UUcLu62uzJ1w8EFYUBBUOUl8h4Keno_ajIrOo6iXv
+T6KR
+}
+
+sprite $AmazonRedshiftQueryEditorV20Lg [20x20/16z] {
+ROy55WGn24En2idzxxlik6MaUR-eV2icICns8VJL67DdEA-vc_EsdKoJo0JJyvLGWI-cVVZEOkjLcK5TsU0S8J05X-2IgwbbdCAJTLcQuih6UWvTsJA1nz9q
+pvtaZFB4eFQ-vsgz-1zzmc-Bbnea2wPSvGKhYnnkvfrSO4vR1hQIxckR_
+}
+
+!procedure AmazonRedshiftQueryEditorV20($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Resource/Analytics/AmazonRedshiftQueryEditorV20', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonRedshiftQueryEditorV20Card($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonRedshiftQueryEditorV20Lg>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AmazonRedshiftQueryEditorV20Group($id, $name='Amazon Redshift Query Editor V20', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AmazonRedshiftQueryEditorV20Lg>', $name, $tech)
+!endprocedure

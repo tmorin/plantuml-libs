@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2023/Resource/ApplicationIntegration/AmazonEventBridgePipes
+
+sprite $AmazonEventBridgePipesXs [10x10/16z] PS650O0000CWxDZ_zzejk4NfCYGDelAN1QXzzD1rOR0hIpC
+
+sprite $AmazonEventBridgePipesSm [12x12/16z] LSar0G11402nELZsh_SPquQVre9BGEDI86pqY93h7ycXDiP1UGqssOIDzTO6KBoCIsMo0W
+
+sprite $AmazonEventBridgePipesMd [16x16/16z] PSw30G0n343HNoFxptkeyMecN2HdOT8Qj66GsiKOTLc7qMdFBokLgJCMzzhuyMUXxtkLeaWfKTHthYT3y4ef4g0CnLXRXd5_YGel
+
+sprite $AmazonEventBridgePipesLg [20x20/16z] {
+RSz50W0X243HZwtS_xx3jFLM1icU6aPsnsLwlc0QlVicDQc9N5mVbz9VpoVUowqP7fMLCfFckkzRdJ8cmS4i2hTib5lfTdBF9HSnD1cA9yjwRbNeI06aCQZE
+kSR46JW
+}
+
+!procedure AmazonEventBridgePipes($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Resource/ApplicationIntegration/AmazonEventBridgePipes', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonEventBridgePipesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonEventBridgePipesLg>', 'ApplicationIntegration', $funcName, $content)
+!endprocedure
+
+!procedure AmazonEventBridgePipesGroup($id, $name='Amazon Event Bridge Pipes', $tech='')
+  IconGroupElement($id, 'ApplicationIntegrationFamily', '<$AmazonEventBridgePipesLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2023/Resource/Compute/AmazonEc2Ami
+
+sprite $AmazonEc2AmiXs [10x10/16z] Oq00LYZD0KGGm0pYiW05s80iDZPsDWusa1WJ121aaLa8lHnGTUm
+
+sprite $AmazonEc2AmiSm [12x12/16z] TSg30G113031ZTD_mszZ3Y5NBHirX5qXDSS4V-IzcNFTtFR_SsNNM6sQ4G
+
+sprite $AmazonEc2AmiMd [16x16/16z] dSg50S0W30311sBxBrntBuT4EGdVW62huDWAmydWq8VuL9VLE5yTzwjgNGtrXW35Lj02
+
+sprite $AmazonEc2AmiLg [20x20/16z] fOy50W9124K_pVrFx9IwdM-I1coYaLEygWnp4eXL71MrvnH8qm4WxL7mcxf2HBcodgwRqtN4KqOi4OcLAyk9hHhlTUjv7NEQ8fMdUA10CuhY0m
+
+!procedure AmazonEc2Ami($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Resource/Compute/AmazonEc2Ami', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonEc2AmiCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonEc2AmiLg>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AmazonEc2AmiGroup($id, $name='Amazon Ec2 Ami', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2AmiLg>', $name, $tech)
+!endprocedure

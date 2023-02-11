@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2023/Architecture/Storage/AmazonFileCache
+
+sprite $AmazonFileCacheXs [10x10/16z] FOp70K0n24BvDGBxpviUtqbfP0nAASoJdQiJHLpg5nhdcrTWNK9_nWLq-KPOdJdXUQfV3G
+
+sprite $AmazonFileCacheSm [12x12/16z] JSV50S0m3C30EcYv-yyR9hrqWFPoYmVmYIo0YoF9sN3DsWfgDjuz7rXlhed-ajGxJmxwMozxMly0Z6_OgW
+
+sprite $AmazonFileCacheMd [16x16/16z] NSp50KCX54JHe2Fqts-0z_tkpY2QCS9Ads7hBDpGIsyhRgCTfJbu6kSVcRJ3l_eorFHq8gdBLfsJjErfP-5ooja2Y9p4uTsaTYC6GQU7ezFluGy
+
+sprite $AmazonFileCacheLg [20x20/16z] {
+PSpL0KH124DHHaDu_VUxercxdmVXo6_OaLAXR7UjbrAwS5iXMTF9hpMLsi0WAq7zR714NAlzc4V4DjJyPvbU-MlkzcDexjb96OB6KHtcigYfbDnbDBCMv2YR
+3NkUs3MWSoVh06HN3yXECgdm1G
+}
+
+!procedure AmazonFileCache($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Architecture/Storage/AmazonFileCache', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonFileCacheCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonFileCacheLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonFileCacheGroup($id, $name='Amazon File Cache', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonFileCacheLg>', $name, $tech)
+!endprocedure

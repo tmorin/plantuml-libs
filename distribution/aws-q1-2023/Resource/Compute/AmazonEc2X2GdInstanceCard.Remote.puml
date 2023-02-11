@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2023/bootstrap')
+
+' loads the Item which embeds the element AmazonEc2X2GdInstanceCard
+include('aws-q1-2023/Resource/Compute/AmazonEc2X2GdInstance')
+
+' renders the element
+AmazonEc2X2GdInstanceCard('AmazonEc2X2GdInstanceCard', 'Amazon Ec2 X2 Gd Instance Card', 'an optional description')
+@enduml

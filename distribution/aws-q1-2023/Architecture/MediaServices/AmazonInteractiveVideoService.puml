@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2023/Architecture/MediaServices/AmazonInteractiveVideoService
+
+sprite $AmazonInteractiveVideoServiceXs [10x10/16z] FSR70O0030EnaEBp_XCJgbu2T9dXxvLKRu5CD99fCb389X9LxqmMpBL8EC1N2QvT04u
+
+sprite $AmazonInteractiveVideoServiceSm [12x12/16z] HOY50GG12CCeqh3_nF_dmL80NypmXSlbE08Wv9m-dGdE_n96PLTvLvGWV7Y0_kFs_YcXWSFReigm1qt3uISS_
+
+sprite $AmazonInteractiveVideoServiceMd [16x16/16z] LSW90eGW40D1WZDf_l_YpNhR7b0X-Qgx-GoElyD1sKEtrJZJhDFKPgHsMkmTw7XH0dlarMupC4W-hC0zOGx72OkDT1ZPgBAmkxO5GWR2DEE2mqTm-Zly
+
+sprite $AmazonInteractiveVideoServiceLg [20x20/16z] {
+RSk7RKH130DHfUMi-s_ONw2pRn3r8BBfk_E4yPVYNXczXvn5KL9FVXiv56efnhPL5RJ2QvnYc9Qxq0EKGaYAjKih3xjDTOtMRaEe04NhqxgXK0xAifqBL3NR
+iJqn0PDQbOsWOEXSj4tPZZ-lgzt60PlZWhEvRtnxWUy
+}
+
+!procedure AmazonInteractiveVideoService($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Architecture/MediaServices/AmazonInteractiveVideoService', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonInteractiveVideoServiceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonInteractiveVideoServiceLg>', 'MediaServices', $funcName, $content)
+!endprocedure
+
+!procedure AmazonInteractiveVideoServiceGroup($id, $name='Amazon Interactive Video Service', $tech='')
+  IconGroupElement($id, 'MediaServicesFamily', '<$AmazonInteractiveVideoServiceLg>', $name, $tech)
+!endprocedure

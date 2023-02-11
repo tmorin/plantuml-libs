@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2023/bootstrap')
+
+' loads the Item which embeds the element AmazonLocationService
+include('aws-q1-2023/Architecture/FrontEndWebMobile/AmazonLocationService')
+
+' renders the element
+AmazonLocationService('AmazonLocationService', 'Amazon Location Service', 'an optional tech label', 'an optional description')
+@enduml

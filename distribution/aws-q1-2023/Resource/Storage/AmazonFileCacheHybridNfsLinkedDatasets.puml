@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2023/Resource/Storage/AmazonFileCacheHybridNfsLinkedDatasets
+
+sprite $AmazonFileCacheHybridNfsLinkedDatasetsXs [10x10/16z] Oy04Z6Wi5X0BJ76Yoa8aEK0iJavMa3H410PO6O40g0e
+
+sprite $AmazonFileCacheHybridNfsLinkedDatasetsSm [12x12/16z] NOo50S0m3CCqTlu_UA1nLGZQD2oTn1ovykdAfsMdpDqep2_CqsM2c8_ggji1EZIxlZUF56m
+
+sprite $AmazonFileCacheHybridNfsLinkedDatasetsMd [16x16/16z] VSw50S0W30H0F9_z1yRTlaKE5xT8z1JtcQVji4pHwARKKRpQYUwHP0COPsANYv7M8f9IaY5bj7RZkRAqr9klmJM82
+
+sprite $AmazonFileCacheHybridNfsLinkedDatasetsLg [20x20/16z] {
+bSt50GD030CmvJZx3rnchfu1stjv8nmj5r7-d_N76TgwcSKwodKpQo07ZxDmcJqupcQkg0DYd6OJgJN6fME9JanoZODGKuwUa5rp5k5adYUDdsOzBiupvGPi
+0G
+}
+
+!procedure AmazonFileCacheHybridNfsLinkedDatasets($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Resource/Storage/AmazonFileCacheHybridNfsLinkedDatasets', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonFileCacheHybridNfsLinkedDatasetsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonFileCacheHybridNfsLinkedDatasetsLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonFileCacheHybridNfsLinkedDatasetsGroup($id, $name='Amazon File Cache Hybrid Nfs Linked Datasets', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonFileCacheHybridNfsLinkedDatasetsLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2023/Architecture/CloudFinancialManagement/AwsApplicationCostProfiler
+
+sprite $AwsApplicationCostProfilerXs [10x10/16z] BSY93G0n2CH0GCgoplNVx-Mplf71k-xcyKYoqpqHgf73SvAgE2fu6a6XM5et1VwM8WFu5bTBFm
+
+sprite $AwsApplicationCostProfilerSm [12x12/16z] HSW70WD124BHQKO-U__xXjHbYWy1AUc4kzpMsnlD-D56JAsIZkm5RrSy9gpYlT-EAJesfToDBbljnGQk57U9jrCIaYS
+
+sprite $AwsApplicationCostProfilerMd [16x16/16z] {
+NSa70WGX20F0fIVi__zxejTZdS0LdDI4VmN_YisyHW4S6uGo3bIJ1LnKL421RYfLnddSMTW6QamHydlkhENPigsz05OYjnbjdfeK4lSguDtA8NbFqI6N5e-d
+cF3uhtW
+}
+
+sprite $AwsApplicationCostProfilerLg [20x20/16z] {
+NSe73aHH249HVKN1sVz-n-ZlDwITm0ndtf5F_TgDVE72RIPMfi1fqs3KCiyYoOpREB3JjiCZKRXN6gKD4U6aucEBZZOYQnjAikpwxO2LhTI1CkwGCffHsa8Y
+8VF1rBOOEL6nEWE_NngKgQJLdMKHKvOESHvsQ31QRck-hVN6Fm
+}
+
+!procedure AwsApplicationCostProfiler($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Architecture/CloudFinancialManagement/AwsApplicationCostProfiler', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsApplicationCostProfilerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsApplicationCostProfilerLg>', 'CloudFinancialManagement', $funcName, $content)
+!endprocedure
+
+!procedure AwsApplicationCostProfilerGroup($id, $name='Aws Application Cost Profiler', $tech='')
+  IconGroupElement($id, 'CloudFinancialManagementFamily', '<$AwsApplicationCostProfilerLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2023/bootstrap')
+
+' loads the Item which embeds the element AwsIoTSensor
+include('aws-q1-2023/Resource/LoT/AwsIoTSensor')
+
+' renders the element
+AwsIoTSensor('AwsIoTSensor', 'Aws Io T Sensor', 'an optional tech label', 'an optional description')
+@enduml

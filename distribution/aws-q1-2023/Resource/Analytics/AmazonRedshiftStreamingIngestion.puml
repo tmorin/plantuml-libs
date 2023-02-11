@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2023/Resource/Analytics/AmazonRedshiftStreamingIngestion
+
+sprite $AmazonRedshiftStreamingIngestionXs [10x10/16z] TSQ54G0X44FH3B3w-w_t_CPPIPus4nel30QFHZ5SxxH-yOgoyUcEMm4-CgGJ
+
+sprite $AmazonRedshiftStreamingIngestionSm [12x12/16z] NOg50O103CI2Gxh_lFXhzOo-XhlI7mQJF1ek7zovCSEF2GesuQtIXJdXOuwKSGSIHeqLk
+
+sprite $AmazonRedshiftStreamingIngestionMd [16x16/16z] RSxL0KCn3CLG1KpN-yzRvZxzdQ0vJjT69Z0Ywjhl2TxveCLuChbvZQVxvduPQ1YVre-dtkRxVEv9phTNpPnwMywrfoNppudDm4gvRZe3
+
+sprite $AmazonRedshiftStreamingIngestionLg [20x20/16z] {
+VSW55iGm30DHMM7h_lVT5zXoEq5_V6GQcT3mNBMGQgyHvmh0ioK88lE1oZ9ejrgccMmtedNB-M3z8e2hURXPfausVaf7IwrxnT5a3KayMMjM5Fna2dt4mIYl
+MBLb9GbI3enL1IlsoqZQWXy
+}
+
+!procedure AmazonRedshiftStreamingIngestion($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Resource/Analytics/AmazonRedshiftStreamingIngestion', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonRedshiftStreamingIngestionCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonRedshiftStreamingIngestionLg>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AmazonRedshiftStreamingIngestionGroup($id, $name='Amazon Redshift Streaming Ingestion', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AmazonRedshiftStreamingIngestionLg>', $name, $tech)
+!endprocedure

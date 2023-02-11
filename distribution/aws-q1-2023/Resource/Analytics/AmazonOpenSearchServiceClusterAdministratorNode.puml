@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2023/Resource/Analytics/AmazonOpenSearchServiceClusterAdministratorNode
+
+sprite $AmazonOpenSearchServiceClusterAdministratorNodeXs [10x10/16z] POc30S1034NVATn_tjeDFlcFNwh-LALid4hkYOMXkmnwsrigYjSAlJLc
+
+sprite $AmazonOpenSearchServiceClusterAdministratorNodeSm [12x12/16z] XSQt0S0m40EnKzQJ-y_hd3gZ0bzADvEuwU-gSDwcndtSEJyncJYUHgsY74U9FPO4gCCA
+
+sprite $AmazonOpenSearchServiceClusterAdministratorNodeMd [16x16/16z] dSUr0SD050KmcNt_xJzls5X6dTnDTHBAMTsU_v_CKDjwuzgECvFj6SoQbkr6UhRtYmob-jyr408iAPK1bQHXpOWd
+
+sprite $AmazonOpenSearchServiceClusterAdministratorNodeLg [20x20/16z] {
+jSwt0G903C10sVvtt7zUSeOMbLU9dzMyvr1yLC9yckfVJHMGLzjI7gBmjAc0DVDYre20vuibNJb8FAsWOHdk3ykBwSAUjeAAtKZAmsH0529UNto3PHjuwJaW
+LrgQ0SZTG5K0ZW
+}
+
+!procedure AmazonOpenSearchServiceClusterAdministratorNode($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Resource/Analytics/AmazonOpenSearchServiceClusterAdministratorNode', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonOpenSearchServiceClusterAdministratorNodeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonOpenSearchServiceClusterAdministratorNodeLg>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AmazonOpenSearchServiceClusterAdministratorNodeGroup($id, $name='Amazon Open Search Service Cluster Administrator Node', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AmazonOpenSearchServiceClusterAdministratorNodeLg>', $name, $tech)
+!endprocedure

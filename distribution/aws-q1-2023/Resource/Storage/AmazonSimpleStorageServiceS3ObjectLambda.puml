@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2023/Resource/Storage/AmazonSimpleStorageServiceS3ObjectLambda
+
+sprite $AmazonSimpleStorageServiceS3ObjectLambdaXs [10x10/16z] LOj50G01409XdVw1pvKNDlXffDlURd0PWeGVrYKzDxkSGtqOUs0bsu4L
+
+sprite $AmazonSimpleStorageServiceS3ObjectLambdaSm [12x12/16z] NOh50KDH3CFq88cz_y3jPzB5o1TrdtOoECa9vw2awhn8vn1fUshpUncxjw6E3mMTZTQA2qbUxty
+
+sprite $AmazonSimpleStorageServiceS3ObjectLambdaMd [16x16/16z] RSpL0KCn34FHQqWaxpzmcVlEbr4S6uQtNFXhu1xyVLsfzngAI1uKOLpKimTFyKfSFHSEl_Q5WVsALuOKptkrnCxsyn-9SFEGsEpQFFKZvgLb9LTd
+
+sprite $AmazonSimpleStorageServiceS3ObjectLambdaLg [20x20/16z] {
+VSYtbKC124N12tpCwx_WjUA8I1CE7vYJm5KpIi4bS3ov2kaHbuAcwE1ju14qXqb6QyuCM9eWTl5nS3UinCeO_Ig6rG0EK2oHGdB8Svg0L6kJ9i8OqSbAeekY
+1Ckz42FEMUOqS0yftQ8LNEPknhzl
+}
+
+!procedure AmazonSimpleStorageServiceS3ObjectLambda($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Resource/Storage/AmazonSimpleStorageServiceS3ObjectLambda', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceS3ObjectLambdaCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonSimpleStorageServiceS3ObjectLambdaLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceS3ObjectLambdaGroup($id, $name='Amazon Simple Storage Service S3 Object Lambda', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonSimpleStorageServiceS3ObjectLambdaLg>', $name, $tech)
+!endprocedure

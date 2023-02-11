@@ -1,0 +1,20 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2023/bootstrap')
+
+' loads the Item which embeds the element AmazonEc2R6IdnInstanceGroup
+include('aws-q1-2023/Resource/Compute/AmazonEc2R6IdnInstance')
+
+' renders the element
+AmazonEc2R6IdnInstanceGroup('AmazonEc2R6IdnInstanceGroup', 'Amazon Ec2 R6 Idn Instance Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

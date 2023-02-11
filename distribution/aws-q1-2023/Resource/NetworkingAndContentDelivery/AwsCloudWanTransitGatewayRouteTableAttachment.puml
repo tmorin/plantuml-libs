@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2023/Resource/NetworkingAndContentDelivery/AwsCloudWanTransitGatewayRouteTableAttachment
+
+sprite $AwsCloudWanTransitGatewayRouteTableAttachmentXs [10x10/16z] Oq01Z0WcDmEw51C88AIucO449mZ0rM3gPGOH
+
+sprite $AwsCloudWanTransitGatewayRouteTableAttachmentSm [12x12/16z] POs50S0m20I3yx3_l7Nl9RYDBywtptLwZOtD1wrWwwqD3rvwzshJEYGRjFS_DT20ZvsWtwqP
+
+sprite $AwsCloudWanTransitGatewayRouteTableAttachmentMd [16x16/16z] ZOw30G0n5CLglEm_xzbiYc-OPoHtiZ4wsOw3GLrOx9lKJ1eDuLYe5JVqPSr3W-M6Ro4vjVKVO7Z9RDI__LUp1m
+
+sprite $AwsCloudWanTransitGatewayRouteTableAttachmentLg [20x20/16z] ZT1L0aKX24NHBJPd_kDzURkNafzmfSdO20MnvURiQ3Fs2QEZpkjes0Mm2J-jE6wZtge7XAapaeZsssZIefoVFicC-jFkIzzKDhUAR5N4baTdAnYZDm
+
+!procedure AwsCloudWanTransitGatewayRouteTableAttachment($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Resource/NetworkingAndContentDelivery/AwsCloudWanTransitGatewayRouteTableAttachment', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsCloudWanTransitGatewayRouteTableAttachmentCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCloudWanTransitGatewayRouteTableAttachmentLg>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AwsCloudWanTransitGatewayRouteTableAttachmentGroup($id, $name='Aws Cloud Wan Transit Gateway Route Table Attachment', $tech='')
+  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AwsCloudWanTransitGatewayRouteTableAttachmentLg>', $name, $tech)
+!endprocedure

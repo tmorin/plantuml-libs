@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2023/Resource/LoT/AwsIoTGreengrassStreamManager
+
+sprite $AwsIoTGreengrassStreamManagerXs [10x10/16z] Oy01E10iPWPMPYYRaH58S8800oSp8vZFoSu9aGFBm5biI6O1
+
+sprite $AwsIoTGreengrassStreamManagerSm [12x12/16z] VSY50S1024FHNqtOV-2wdZqSMgJkcW8whFlFioCR83OEG0Px9kZeEXBQW7Xeuci5
+
+sprite $AwsIoTGreengrassStreamManagerMd [16x16/16z] dSd50GC148LGelpfl-1urlqTWKCydSANBmY156qCN6HMlN3BdVgWG2H04YZmyt_kAdtNflXs4-dIOjKJ
+
+sprite $AwsIoTGreengrassStreamManagerLg [20x20/16z] hOq50iH03089MUF_3xwhkxUp6WDyG2abhtA0q9DoHUXoiHIRzBdNEVD9pYe07_icwJboKg14g0Egyt0p0Z2oVhgSn557EMVX6f8C7RcbyLZrULhbQhVh_04
+
+!procedure AwsIoTGreengrassStreamManager($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Resource/LoT/AwsIoTGreengrassStreamManager', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTGreengrassStreamManagerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTGreengrassStreamManagerLg>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTGreengrassStreamManagerGroup($id, $name='Aws Io T Greengrass Stream Manager', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTGreengrassStreamManagerLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2023/bootstrap')
+
+' loads the Item which embeds the element AmazonCodeCatalyst
+include('aws-q1-2023/Architecture/DeveloperTools/AmazonCodeCatalyst')
+
+' renders the element
+AmazonCodeCatalyst('AmazonCodeCatalyst', 'Amazon Code Catalyst', 'an optional tech label', 'an optional description')
+@enduml

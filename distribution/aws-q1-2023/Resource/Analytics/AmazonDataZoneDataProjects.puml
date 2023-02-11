@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2023/Resource/Analytics/AmazonDataZoneDataProjects
+
+sprite $AmazonDataZoneDataProjectsXs [10x10/16z] PSQt0GCX00GmcGot_xpENxqgkGa6YPd_el00YbH5eZWIIOfM-ErI6EM35m
+
+sprite $AmazonDataZoneDataProjectsSm [12x12/16z] NSR50SGm300mDMnd_tcFiNh9IHmtSS0Hi8xZSqT-BqcVTsMHZsTdln-blyzUIzma3l6maKzS0G
+
+sprite $AmazonDataZoneDataProjectsMd [16x16/16z] RSo50SD034DHgMZOVz_6MCeFlYESvXOvIzPVUUOFIOZg4q9Zko9zvu_Y84GzNtPhI_c9oor-gJtlkEEszdWRqtf8zIc4hsDQnA1HEE9a2Npd4u0N
+
+sprite $AmazonDataZoneDataProjectsLg [20x20/16z] {
+TSy54iKm28JXHTecxFtFMsNWwJ-QBux_JMPIWi3JICHgRGXvJ4xZsMdRHYdBH5pBU0T0sx8q5tnQs1GexfX6c69UoBA5p56P1e0sNXRt_g2WpTnpQTiLnnZ4
+c5SZxQtw1wAJsrohNlvk1m
+}
+
+!procedure AmazonDataZoneDataProjects($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Resource/Analytics/AmazonDataZoneDataProjects', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonDataZoneDataProjectsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonDataZoneDataProjectsLg>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AmazonDataZoneDataProjectsGroup($id, $name='Amazon Data Zone Data Projects', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AmazonDataZoneDataProjectsLg>', $name, $tech)
+!endprocedure

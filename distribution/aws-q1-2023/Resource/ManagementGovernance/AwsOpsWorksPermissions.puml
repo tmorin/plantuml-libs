@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2023/Resource/ManagementGovernance/AwsOpsWorksPermissions
+
+sprite $AwsOpsWorksPermissionsXs [10x10/16z] Oq0170pS40Od4BE06601DbGMDuIBpkA6ixYWB2OGu6O
+
+sprite $AwsOpsWorksPermissionsSm [12x12/16z] Oq07N8nSS2OGSqFPB43CZfkD2PXOa3WSC0RKH4nR8O210G
+
+sprite $AwsOpsWorksPermissionsMd [16x16/16z] ZOo35K0n00ElHlQVzzliFOOyObHrb14ekwwCv4rhTnkqzV8ZrGEduxXfBtlIefwq4IVDLPkBPjUnhdZe0G
+
+sprite $AwsOpsWorksPermissionsLg [20x20/16z] hSg54S0W343H1etiFsy5zxD-_1tN8KL2q9F7TnFR6OQTMo88XpADIJp0_MA8WY5YzDsl_XvEJMeo2aTl3BqD-zbui51lgfPDjRtl1m
+
+!procedure AwsOpsWorksPermissions($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Resource/ManagementGovernance/AwsOpsWorksPermissions', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsOpsWorksPermissionsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsOpsWorksPermissionsLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsOpsWorksPermissionsGroup($id, $name='Aws Ops Works Permissions', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsOpsWorksPermissionsLg>', $name, $tech)
+!endprocedure

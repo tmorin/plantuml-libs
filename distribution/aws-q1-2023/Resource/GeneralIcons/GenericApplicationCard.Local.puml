@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2023/bootstrap')
+
+' loads the Item which embeds the element GenericApplicationCard
+include('aws-q1-2023/Resource/GeneralIcons/GenericApplication')
+
+' renders the element
+GenericApplicationCard('GenericApplicationCard', 'Generic Application Card', 'an optional description')
+@enduml

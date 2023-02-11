@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2023/Resource/Storage/AwsBackupAwsBackupSupportForAmazonFSxForNetAppOntap
+
+sprite $AwsBackupAwsBackupSupportForAmazonFSxForNetAppOntapXs [10x10/16z] Oy0EsDY110U8nSe2efZ17101ak04GZO6HZ392O8W7IoSCBr0FYkoOG
+
+sprite $AwsBackupAwsBackupSupportForAmazonFSxForNetAppOntapSm [12x12/16z] VOo50S0W40DpEFiltDIT5oIcKVL8AVCZq5R0EmDrVaJDu8pEWmZp2pKtnU-e1J3IqLgS6NFDGVUQ
+
+sprite $AwsBackupAwsBackupSupportForAmazonFSxForNetAppOntapMd [16x16/16z] ZKl70GCn3BBLsN_XOD9VTwWBM3SHbVkzxpr-ncoTi_6Ywinjfm6YMFLojPnB9W4YATaiY5oZfNG7-UGscnSAl5t6JH-qpVyDdK9jwrhNU
+
+sprite $AwsBackupAwsBackupSupportForAmazonFSxForNetAppOntapLg [20x20/16z] {
+fSe52WGm30NH-PN8_G-y4bAAip9OvF5tGX5cuRedSwVow5Cgzm7B0N3OUtbaRNiMenB9MSFfIk9j1UmsKmIWxDq46ZWWjxeLM2eZyxgjuzac8qdPe2qWO-q4
+clMDg8KOd5k3nZUvYMzw0W
+}
+
+!procedure AwsBackupAwsBackupSupportForAmazonFSxForNetAppOntap($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Resource/Storage/AwsBackupAwsBackupSupportForAmazonFSxForNetAppOntap', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsBackupAwsBackupSupportForAmazonFSxForNetAppOntapCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsBackupAwsBackupSupportForAmazonFSxForNetAppOntapLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AwsBackupAwsBackupSupportForAmazonFSxForNetAppOntapGroup($id, $name='Aws Backup Aws Backup Support For Amazon F Sx For Net App Ontap', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AwsBackupAwsBackupSupportForAmazonFSxForNetAppOntapLg>', $name, $tech)
+!endprocedure

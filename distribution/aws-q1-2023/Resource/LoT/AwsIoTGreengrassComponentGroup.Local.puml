@@ -1,0 +1,21 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2023/bootstrap')
+
+' loads the Item which embeds the element AwsIoTGreengrassComponentGroup
+include('aws-q1-2023/Resource/LoT/AwsIoTGreengrassComponent')
+
+' renders the element
+AwsIoTGreengrassComponentGroup('AwsIoTGreengrassComponentGroup', 'Aws Io T Greengrass Component Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

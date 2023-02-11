@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2023/Architecture/DeveloperTools/AwsApplicationComposer
+
+sprite $AwsApplicationComposerXs [10x10/16z] FOh70S0W4CES7kJRVrqwwECAgV9Ns1PEgj7PEdItqZmQ1viNE5MTQRJkCU8zKbWrS8W8pqC1
+
+sprite $AwsApplicationComposerSm [12x12/16z] JSU74O1030F1-IoTwRzUJ6OT1Jxem2-0frsoZtzMkjVK54doGS4gnZv4595iELAvWkDG1Jh-CQDHAyDR72PaRrVWi0C
+
+sprite $AwsApplicationComposerMd [16x16/16z] {
+NOg74GGn20C7kBD1Sl_rFk7pEguG48CFm6-2lo1D1I5hnRsqNJHFs3ANzERodVqypb8Bn1CIUgTA_iNBUNj0KFMhdMdDz1Cecd44OPfctcwBL8WA1758Jxzh
+hWiuXmE6ynSy
+}
+
+sprite $AwsApplicationComposerLg [20x20/16z] {
+PSq7TiKm24HHH11Y1kz_lS5dab-V-xKAIVnNV_43PT_ue8mQYoE3-t1WLHdyptxyli4phMJAJc2AGbMB72yRzU1EUzkzknELP7W1nqEsUPjp4mwJTUOYQvD4
+b6pYej9w2lv0sSvkcXqoRSbmnZgvt8rxx9fFM_Tj1xcsaRW6bPRZT0aVAll6Nm
+}
+
+!procedure AwsApplicationComposer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Architecture/DeveloperTools/AwsApplicationComposer', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsApplicationComposerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsApplicationComposerLg>', 'DeveloperTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsApplicationComposerGroup($id, $name='Aws Application Composer', $tech='')
+  IconGroupElement($id, 'DeveloperToolsFamily', '<$AwsApplicationComposerLg>', $name, $tech)
+!endprocedure

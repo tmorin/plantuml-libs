@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2023/Category/DeveloperTools
+
+sprite $DeveloperToolsXs [10x10/16z] HSZ70S0W5CFGJmSv-yyREZezkxnelTeh45ehDZLUVnLQBOAKhOyXAZQKlNLsVPBeTHt-
+
+sprite $DeveloperToolsSm [12x12/16z] JSQ53GD034KnDVnVRlzrosIH-n_eOMRoytwTb2xcpvjA4w7g1QRKUdn15NhTm8ZNtH8dxZ_Rlk39_MVlWFldhf_Y1W
+
+sprite $DeveloperToolsMd [16x16/16z] {
+NSp50SD044DHUrZQz5zl5WF-Steov3EBdO-kJ1AhwarR3Rfk5v50bkbvJW4anR7Ch3i0Sw2xzM6yAC1o7mJHxpZklX2n3Me_OSLmjN83sQVjbXhZf-8SVhKP
+PyDxsBx-UmC
+}
+
+sprite $DeveloperToolsLg [20x20/16z] {
+RSg54SD044FHPT2v_tO3U-7u3-gDyYpYtoWPw4Ur6_lHRQGZIVGo0-HkPgbFWoFkjnRnbuMcT5bNI_VOFR-lPkrjQmqcQ_Nqj7OBq8UjTaS686z30F0AW5uc
+divuFSUY10IW0l6qbQfO0D8SkDknTfZ6vDZurh7Zr-WllW8
+}
+
+!procedure DeveloperTools($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Category/DeveloperTools', $name, $tech, $desc)
+!endprocedure
+
+!procedure DeveloperToolsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DeveloperToolsLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure DeveloperToolsGroup($id, $name='Developer Tools', $tech='')
+  IconGroupElement($id, 'DeveloperTools', '<$DeveloperToolsLg>', $name, $tech)
+!endprocedure

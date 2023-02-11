@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2023/Resource/Analytics/AmazonDataZoneDataPortal
+
+sprite $AmazonDataZoneDataPortalXs [10x10/16z] LSl50S0m509GQEFiFszSt-KhU0Y80V1LwpcMYcsmc5RtpSwfTOeoQwUUfMNt5m
+
+sprite $AmazonDataZoneDataPortalSm [12x12/16z] NSQt0S0W00F19uEq_xnEwdpLyMSaY89je9V7W6CuBoYbc78W2da1b1VekLY7aXzC8IU4B8Ll
+
+sprite $AmazonDataZoneDataPortalMd [16x16/16z] RSh5WSLG04BHcpm5-gztvdlqx13kXUw-nIM4T3TWUOAP6W9PNXgWJF0x3wakB0KZthhjzieR_R9voZTxiaHRVl8tsqJP_X91MmQ6jimcA7lb7m
+
+sprite $AmazonDataZoneDataPortalLg [20x20/16z] {
+TSt50SKm30JHMIN6xR_U3s6SuxCbmNiAwEriDXKrwh2RH4ufMnM8CYUwZSa2Quuq0it-sxxHjOqJk7VtNp7vRqaN9XBdDekSc8hOBEExsP3ieqrbxTPwGH4Q
+QjdCD9p6UjnNstHYCXtssIv7EpIPKjAX6EB7r_W2
+}
+
+!procedure AmazonDataZoneDataPortal($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Resource/Analytics/AmazonDataZoneDataPortal', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonDataZoneDataPortalCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonDataZoneDataPortalLg>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AmazonDataZoneDataPortalGroup($id, $name='Amazon Data Zone Data Portal', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AmazonDataZoneDataPortalLg>', $name, $tech)
+!endprocedure

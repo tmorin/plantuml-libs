@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2023/Architecture/DeveloperTools/AwsCodeStar
+
+sprite $AwsCodeStarXs [10x10/16z] FSY74O1G0C9Gx09__ta5MwwzYyHq9lrKkO7L9fszLYDcEiGC8ZgG2T9fsMAE2BqQfQiB
+
+sprite $AwsCodeStarSm [12x12/16z] HOh50S0m30CB9idTVzs6a_i8IJIYGPx07Xx1yAz2dXVZSxURU6GxQG3coAHHwqMYUacGz43rwMp1kiyNjtaGNml1pjT3Tby
+
+sprite $AwsCodeStarMd [16x16/16z] {
+NSZ70SCm3CNGi4JYXxt_kkuTDppGNkt1M_W01tXki7saAxjj01HTg5JULGDW0P9S9WqhK2rTzMlh3sgaNA7CxOq_7P2qlVVrQ6NRBqbH1CdnvHZ-Bz2umJBi
+ZGjiNV-66G
+}
+
+sprite $AwsCodeStarLg [20x20/16z] {
+RSa7ZiGm3CLGkKjqxd_U_K3ax3IYFm9nyemVo0_amTaJqrZX8qpuM6jrUNTBH8sW4pua8uHRvcDE26LUX5kOJLbKdIsSWNvTFRpCsuHWLCoZsstKLQ3Z8BWj
+rZQKt5hQ7ZNI6CTKQpQWqlYtsIYKrHtXbMZ3oE8woEPq2K-F_S0_
+}
+
+!procedure AwsCodeStar($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Architecture/DeveloperTools/AwsCodeStar', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsCodeStarCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCodeStarLg>', 'DeveloperTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsCodeStarGroup($id, $name='Aws Code Star', $tech='')
+  IconGroupElement($id, 'DeveloperToolsFamily', '<$AwsCodeStarLg>', $name, $tech)
+!endprocedure

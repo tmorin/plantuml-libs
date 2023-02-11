@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2023/Resource/SecurityIdentityAndCompliance/AwsDirectoryServiceSimpleAd
+
+sprite $AwsDirectoryServiceSimpleAdXs [10x10/16z] LSY30G0m3031hxN_lBLoSH2Aud3d1HafhSfu00q6PxkvJMyBfOG6
+
+sprite $AwsDirectoryServiceSimpleAdSm [12x12/16z] ROk50S0W4CHImVUV5tV8knmxxZvO-2ZyW29JghGIq5bGuisI78xHlvdI5-OUPHK1
+
+sprite $AwsDirectoryServiceSimpleAdMd [16x16/16z] ROs30G0m30HhxZzlZUZAw5_9L1nwbL6SLK8XcGZZM4F4oebkfGuAA9jPocjuj_kuRCV-utcyE3Q76rzex9FH9Zb5w
+
+sprite $AwsDirectoryServiceSimpleAdLg [20x20/16z] {
+VSe53aL124FHqX5i_-lzybpdHWWdnIY_KxfSYOwypO3MpbJhv7lhAt4avNH23hOFDitrUcVtQI0-4-SRFCpOD2Aq4-XjDKwdS9yTp5fTsasuLZVRuvErwVIZ
+GVEVugal
+}
+
+!procedure AwsDirectoryServiceSimpleAd($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Resource/SecurityIdentityAndCompliance/AwsDirectoryServiceSimpleAd', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsDirectoryServiceSimpleAdCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsDirectoryServiceSimpleAdLg>', 'SecurityIdentityAndCompliance', $funcName, $content)
+!endprocedure
+
+!procedure AwsDirectoryServiceSimpleAdGroup($id, $name='Aws Directory Service Simple Ad', $tech='')
+  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsDirectoryServiceSimpleAdLg>', $name, $tech)
+!endprocedure

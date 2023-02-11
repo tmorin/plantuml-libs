@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2023/bootstrap')
+
+' loads the Item which embeds the element AwsDatabaseMigrationServiceDatabaseMigrationWorkflowJob
+include('aws-q1-2023/Resource/Database/AwsDatabaseMigrationServiceDatabaseMigrationWorkflowJob')
+
+' renders the element
+AwsDatabaseMigrationServiceDatabaseMigrationWorkflowJob('AwsDatabaseMigrationServiceDatabaseMigrationWorkflowJob', 'Aws Database Migration Service Database Migration Workflow Job', 'an optional tech label', 'an optional description')
+@enduml

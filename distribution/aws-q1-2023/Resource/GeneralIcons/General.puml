@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2023/Resource/GeneralIcons/General
+
+sprite $GeneralXs [10x10/16z] HSY54S0m30J13zCx_PThiMvevz3nazxt5HbTtBxbyoTt-u0Xyt09Jxh6TPAYNqW9tGG
+
+sprite $GeneralSm [12x12/16z] LSc34G0m40J06A_-kusveuFw66FqO9KXx030jToAwsLaZxsD31an0sBB3ECvET3Ad33abPj8H3rBBzGuvVocAm
+
+sprite $GeneralMd [16x16/16z] NSz70iGm24FHT1X9dliVDq2w_-wvU-WRFuKbLeYsz3rmM_G5v6skWOKyZRMsZ6Iw2N9mXPzka1GxFjwai9NbQIwd8_jj1kboPChI_rRTzYipM_eF3Zi
+
+sprite $GeneralLg [20x20/16z] {
+ZS_50GCn34HHixEQKVhlDc1QXdzyHfcZhDjcZ2THavefDkDiCyvMC8Mfu6pYVs21sH2a7CyHmmI1VtGUAAPA8LD6dF0pp4P6Oc5QB957neNfbFuc4TrA-PNQ
+HBCfCql5tXrRnJhgREPHNm
+}
+
+!procedure General($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Resource/GeneralIcons/General', $name, $tech, $desc)
+!endprocedure
+
+!procedure GeneralCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$GeneralLg>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+
+!procedure GeneralGroup($id, $name='General', $tech='')
+  IconGroupElement($id, 'GeneralIconsFamily', '<$GeneralLg>', $name, $tech)
+!endprocedure

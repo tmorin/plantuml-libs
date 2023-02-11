@@ -1,0 +1,21 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2023/bootstrap')
+
+' loads the Item which embeds the element AmazonVpcNetworkAccessAnalyzerGroup
+include('aws-q1-2023/Resource/NetworkingAndContentDelivery/AmazonVpcNetworkAccessAnalyzer')
+
+' renders the element
+AmazonVpcNetworkAccessAnalyzerGroup('AmazonVpcNetworkAccessAnalyzerGroup', 'Amazon Vpc Network Access Analyzer Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2023/Resource/NetworkingAndContentDelivery/AmazonVpcInternetGateway
+
+sprite $AmazonVpcInternetGatewayXs [10x10/16z] Oq06t53Cm0ZZSWCXEn1pW0L1V4uuYnd60a4eYmbY09Jau6Jc1ee
+
+sprite $AmazonVpcInternetGatewaySm [12x12/16z] NSQr0GDH00KWlilRVzzKiQF2GtgP0HCOGCcznIPcpKfXwkP19Shdr_myydbXj8ihi460cPkA5m
+
+sprite $AmazonVpcInternetGatewayMd [16x16/16z] PSd7GKLH20N0uTq8zD-lA_M7MPs0RwEhklpg02k1zAkWSRlw49iHndwoRYH9iqUW5aAnXzz-lVVKRts__m-MtquZZO9JLa05O2rW9umEl-Bc1du
+
+sprite $AmazonVpcInternetGatewayLg [20x20/16z] {
+TP25ZGKm3CKSAENjl-yfzvaiibmklubTgcKyc4gQetkg_D0o7iZeXGbagNIYPtGJc8Anajc-8HAcrJABqwtdREX6ixeTezvREdfluP_pfh7Ucy3EPqElRNbR
+4RLegdfPa-AEwIRtNrY7EridOqhEC-PkD_y3
+}
+
+!procedure AmazonVpcInternetGateway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Resource/NetworkingAndContentDelivery/AmazonVpcInternetGateway', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonVpcInternetGatewayCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonVpcInternetGatewayLg>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AmazonVpcInternetGatewayGroup($id, $name='Amazon Vpc Internet Gateway', $tech='')
+  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AmazonVpcInternetGatewayLg>', $name, $tech)
+!endprocedure

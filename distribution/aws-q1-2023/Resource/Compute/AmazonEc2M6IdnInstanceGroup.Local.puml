@@ -1,0 +1,21 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2023/bootstrap')
+
+' loads the Item which embeds the element AmazonEc2M6IdnInstanceGroup
+include('aws-q1-2023/Resource/Compute/AmazonEc2M6IdnInstance')
+
+' renders the element
+AmazonEc2M6IdnInstanceGroup('AmazonEc2M6IdnInstanceGroup', 'Amazon Ec2 M6 Idn Instance Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

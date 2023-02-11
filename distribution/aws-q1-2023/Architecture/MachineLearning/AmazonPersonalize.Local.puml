@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2023/bootstrap')
+
+' loads the Item which embeds the element AmazonPersonalize
+include('aws-q1-2023/Architecture/MachineLearning/AmazonPersonalize')
+
+' renders the element
+AmazonPersonalize('AmazonPersonalize', 'Amazon Personalize', 'an optional tech label', 'an optional description')
+@enduml

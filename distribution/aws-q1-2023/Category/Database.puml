@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2023/Category/Database
+
+sprite $DatabaseXs [10x10/16z] HSd70S0m24DHKe6lx3zltFrEAhwHHHGE-HpUavNHUwBS6Ixij2VAB1cmKvRqIQ8eQSOV
+
+sprite $DatabaseSm [12x12/16z] JSo50O0m30J0MfpzvoM6VErIetzK9SBCuAwYlPrBokVWzXh9_8vtI9lA7Bjjd6_AggIWxiliOFxXzYAEmkoXpBa1
+
+sprite $DatabaseMd [16x16/16z] NSa54W8m44FHsagotF-yr3lmHrzY_pNToIYPaLXvRxeFfWPSLmUWYkDatLA1RQ6RenlTGTQ-uJeecbBswn2EdcjHbxBitHBpvx5LSwqWXpynuspu3SFfjoy
+
+sprite $DatabaseLg [20x20/16z] {
+RSq74i0W24HHhB3e_SyRPjCJ__IdWAwIz4qqkUF8zcYtlgtbLFHbjVDN0MuJiAPFqn9LDG2NxNVij372Z9Ug8JeDMKIQNHQ9ixSfBRyCBSvsCt_Ou3_WOLwQ
+MY-L3s4pZCveUH8VIfjVarzf0m
+}
+
+!procedure Database($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Category/Database', $name, $tech, $desc)
+!endprocedure
+
+!procedure DatabaseCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DatabaseLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure DatabaseGroup($id, $name='Database', $tech='')
+  IconGroupElement($id, 'Database', '<$DatabaseLg>', $name, $tech)
+!endprocedure

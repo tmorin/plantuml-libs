@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2023/Resource/LoT/AwsIoTHttpProtocol
+
+sprite $AwsIoTHttpProtocolXs [10x10/16z] Oq009YZDYH0XaiM89iR6oiZ9nC39207C
+
+sprite $AwsIoTHttpProtocolSm [12x12/16z] Oq06d8mmmCx021Vbe80DDeUH7GmuWMmeOk80Cs3gsJau63d0W1C
+
+sprite $AwsIoTHttpProtocolMd [16x16/16z] lOe50S1030FlgKty2nwpW1L3VAjQTndySWEzk7xcx3m_VbReXLeUV9c1y2TFI4LdvGm
+
+sprite $AwsIoTHttpProtocolLg [20x20/16z] rO-54S0030A1N6p_WUlUBj2_dCK0V19zepYrX3kzr1tfVpqI_GgjlVTn6t0eO2Y_z2Be83gcNXrxIo_dMxP81WzCozEfgnEC
+
+!procedure AwsIoTHttpProtocol($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Resource/LoT/AwsIoTHttpProtocol', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTHttpProtocolCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTHttpProtocolLg>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTHttpProtocolGroup($id, $name='Aws Io T Http Protocol', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTHttpProtocolLg>', $name, $tech)
+!endprocedure
