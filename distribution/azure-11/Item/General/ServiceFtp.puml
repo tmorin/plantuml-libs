@@ -1,0 +1,21 @@
+' definition of the Item azure-11/Item/General/ServiceFtp
+
+sprite $ServiceFtpXs [10x10/16z] Oy06k20K4nS35mmmiC800nWpie1PB8mGFXG1CHiC88m3
+
+sprite $ServiceFtpSm [12x12/16z] TSQ50K0X24NHPmlxxqlz3ey25olCj646ZxonxXSqa-8txmh_MwVIKFP6_6sL-5llAcuK
+
+sprite $ServiceFtpMd [16x16/16z] bOo34G1134N_8fZqt--QWyEBYR-OyK8jb3huYPHQBppemc45Zrt35VEhZcXMw-NXTerGpEyw3AjF-SBXXGm
+
+sprite $ServiceFtpLg [20x20/16z] fOk30S1040JdJq7__SOsvdaB_k355eYoP86KPQV90ksrBQ2-vKepKZSjDMdVX2qrwAzH6wkABBL4TzceRQkZfjPVenPRWBI5fzG
+
+!procedure ServiceFtp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-11/Item/General/ServiceFtp', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceFtpCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceFtpLg>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceFtpGroup($id, $name='Service Ftp', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceFtpLg>', $name, $tech)
+!endprocedure

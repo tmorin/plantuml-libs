@@ -1,0 +1,24 @@
+' definition of the Item azure-11/Item/MixedReality/ServiceRemoteRendering
+
+sprite $ServiceRemoteRenderingXs [10x10/16z] TSR70S0m3090TS7-2oUkFvyAo4DLhTBTsYlzdxy1xfO1_6lXLO2GV-DF_ZgfN1y
+
+sprite $ServiceRemoteRenderingSm [12x12/16z] VSZ70GHH209Glgo0_HUyQU9fdbayQJLs-i6Vlyh-FMrIf1UGaAocaqwgI4a9PgfUL6O6tsRE7x2yMRZx
+
+sprite $ServiceRemoteRenderingMd [16x16/16z] dScr0G8144JHTUc_OLQ0oyv-zcRWLMhLGTl-hrTCRdzPcTsRrXypYTH00171RLBs294o4LTcsj-Osis0p9IsvGII5Mjk0e1P7Rpe0m
+
+sprite $ServiceRemoteRenderingLg [20x20/16z] {
+hSXL0a9H24LH-l3cFs49snzhtMJJFuZfKudrc5wYeGK3JeiTGqM1JMYk3jLByogXHTIi8fWeYquJDqDDf5b49aQ4rmJR9hOjil1TSqSsEWgcvR6IU5wtE2wO
+YFPtbmRVq0TE
+}
+
+!procedure ServiceRemoteRendering($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-11/Item/MixedReality/ServiceRemoteRendering', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceRemoteRenderingCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceRemoteRenderingLg>', 'MixedReality', $funcName, $content)
+!endprocedure
+
+!procedure ServiceRemoteRenderingGroup($id, $name='Service Remote Rendering', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceRemoteRenderingLg>', $name, $tech)
+!endprocedure

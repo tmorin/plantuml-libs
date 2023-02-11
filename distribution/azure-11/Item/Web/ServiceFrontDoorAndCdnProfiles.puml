@@ -1,0 +1,24 @@
+' definition of the Item azure-11/Item/Web/ServiceFrontDoorAndCdnProfiles
+
+sprite $ServiceFrontDoorAndCdnProfilesXs [10x10/16z] LSQ50G0W2011ElPVs0vUWOEIcLrCchkBU5S7YAXxzBgixymSwjkkUbq4Anch0G
+
+sprite $ServiceFrontDoorAndCdnProfilesSm [12x12/16z] NSQ90O0m24FHG2FH_HUsz_LQuECM4IipA-MIc2Ud2l9HWhqPI9QxDRwiT3v7mqAUMuw6D0m9nGy
+
+sprite $ServiceFrontDoorAndCdnProfilesMd [16x16/16z] ROw10G0H0083iF_2Nm_0WGw0Dpw6pSYSiR7Yg_f4V6GdCpAw3zL_SzOJ1lWi3AWrJWzAxd0KKLq9sDpytqcstXymeDffSZpv
+
+sprite $ServiceFrontDoorAndCdnProfilesLg [20x20/16z] {
+VSe54iGm34DH1MHdxt_X7Ibb-cteZV5LAUKY37SamndxPjmeLG_jKtIrzRuQSpUD1e0916GU08UBQQ5xZhiDFXX-RZK_m9iHy9a7Ws8aQvKne-2Gh1vX6gvf
+wBq_
+}
+
+!procedure ServiceFrontDoorAndCdnProfiles($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-11/Item/Web/ServiceFrontDoorAndCdnProfiles', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceFrontDoorAndCdnProfilesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceFrontDoorAndCdnProfilesLg>', 'Web', $funcName, $content)
+!endprocedure
+
+!procedure ServiceFrontDoorAndCdnProfilesGroup($id, $name='Service Front Door And Cdn Profiles', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceFrontDoorAndCdnProfilesLg>', $name, $tech)
+!endprocedure

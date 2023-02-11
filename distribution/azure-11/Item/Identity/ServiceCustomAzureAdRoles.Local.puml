@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-11/bootstrap')
+
+' loads the Item which embeds the element ServiceCustomAzureAdRoles
+include('azure-11/Item/Identity/ServiceCustomAzureAdRoles')
+
+' renders the element
+ServiceCustomAzureAdRoles('ServiceCustomAzureAdRoles', 'Service Custom Azure Ad Roles', 'an optional tech label', 'an optional description')
+@enduml

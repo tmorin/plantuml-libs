@@ -1,0 +1,27 @@
+' definition of the Item azure-11/Item/Networking/ServiceVirtualRouter
+
+sprite $ServiceVirtualRouterXs [10x10/16z] JOg50G0X30E3qyl-yxuBXxGHhK21Uyavdoi7nq8ScsYS8qdrR9sYai_nzRfajpnj7VZWS7O
+
+sprite $ServiceVirtualRouterSm [12x12/16z] LOtN0KCn20Fb3iV--mRzvPrDR_eo843cmfaFXhEGCm49Cwr2BPl4POMaPBV6-M3tWx_-8rNLdRUrJrNbnAw9JXv9Fm
+
+sprite $ServiceVirtualRouterMd [16x16/16z] {
+ROq70iCW549n_dN_-nP9T_iIzK_0FsQIQ8_q93ruFLFl_LdGh3CbfbtDfxYcNVdfJAJPGYWqiqJYSDTggVd6D4EXp2yzPzZHllGHLMMhR-CxfSMWzt7A4Cvm
+gFjWLKLNT0C
+}
+
+sprite $ServiceVirtualRouterLg [20x20/16z] {
+TSo70S8m44DHnRugzjyN7Rq-cln9Wl-yoCwDfwHioi9DNz8oYh-aDHunETfNDWU4LsgyQC3dvzuk6IYI1HszcA0SeEszSL0IC3Cwb8UfuM9QLONIEA03DrAx
+b69ftPwtEQRLRG7uRA6sJj9XouDQn8Y9ljQg6RZosN59nCFf9l1gMQpZjiy
+}
+
+!procedure ServiceVirtualRouter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-11/Item/Networking/ServiceVirtualRouter', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceVirtualRouterCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceVirtualRouterLg>', 'Networking', $funcName, $content)
+!endprocedure
+
+!procedure ServiceVirtualRouterGroup($id, $name='Service Virtual Router', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceVirtualRouterLg>', $name, $tech)
+!endprocedure

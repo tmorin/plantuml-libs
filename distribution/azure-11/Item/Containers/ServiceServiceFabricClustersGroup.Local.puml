@@ -1,0 +1,21 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-11/bootstrap')
+
+' loads the Item which embeds the element ServiceServiceFabricClustersGroup
+include('azure-11/Item/Containers/ServiceServiceFabricClusters')
+
+' renders the element
+ServiceServiceFabricClustersGroup('ServiceServiceFabricClustersGroup', 'Service Service Fabric Clusters Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-11/bootstrap')
+
+' loads the Item which embeds the element ServiceContainerServicesDeprecated
+include('azure-11/Item/Compute/ServiceContainerServicesDeprecated')
+
+' renders the element
+ServiceContainerServicesDeprecated('ServiceContainerServicesDeprecated', 'Service Container Services Deprecated', 'an optional tech label', 'an optional description')
+@enduml

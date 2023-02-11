@@ -1,0 +1,21 @@
+' definition of the Item azure-11/Item/Compute/ServiceSharedImageGalleries
+
+sprite $ServiceSharedImageGalleriesXs [10x10/16z] JSQ34G11402mDVklztdAA72AUlGJUutH726koPWWVRC9OeASRW
+
+sprite $ServiceSharedImageGalleriesSm [12x12/16z] NSQ50O0m34JHCtp_UN6el3R9HsTxNBdSrgl7nzjclexeqihN8wMdnmBJoVPrC1TOYWC
+
+sprite $ServiceSharedImageGalleriesMd [16x16/16z] TSo50G0n20D0I59b_tdVNUwbHUrBZSqQzjqQvqtzZubhd7oYCnRWkiMEM-mEx34uxzFqAxKHbk-ip3Z9PMRrpjhTCnu1
+
+sprite $ServiceSharedImageGalleriesLg [20x20/16z] XSYr0GGn40ImXJ7tN-_3WHaKYfQGClUKzV6LBqy-MvnFJ7_Ap6AQW_0FkXDH3CV3CRE8DlTF4PlF3Z0zTx7wvow6_61sbiB0adKz-G8
+
+!procedure ServiceSharedImageGalleries($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-11/Item/Compute/ServiceSharedImageGalleries', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceSharedImageGalleriesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceSharedImageGalleriesLg>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure ServiceSharedImageGalleriesGroup($id, $name='Service Shared Image Galleries', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceSharedImageGalleriesLg>', $name, $tech)
+!endprocedure

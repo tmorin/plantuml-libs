@@ -1,0 +1,24 @@
+' definition of the Item azure-11/Item/Other/ServiceAzureVideoIndexer
+
+sprite $ServiceAzureVideoIndexerXs [10x10/16z] HSR70S0m202neyF-0wV7rajicNjfxwfSDUwPWLPzGxkBY2T0Twjocndd6wyJ
+
+sprite $ServiceAzureVideoIndexerSm [12x12/16z] JOY50G1H28MmTV-1h-DZuMCbS_NCrTLkhmBLl3uxjrQLF0xTBRYVUNTT0QuQdCo12gy7lCxB3W
+
+sprite $ServiceAzureVideoIndexerMd [16x16/16z] NSZN0GCm20DHKKpPV-6WLEBxUuSx2RyS8NzcFojfQbzdGfc_VGu0cvqAsWmisJAYfg-DSemvHJKgmEZIYQ1x2XLiEx2SFz7OFG
+
+sprite $ServiceAzureVideoIndexerLg [20x20/16z] {
+RSY70SCW30NHyrTpzbyuWbHZZgh7jeoDPVhTEcqixRYRPFogAjpKnSMWqQhiRMOsNzNeQc_CYw5pLFzMaqGN4NIcR75c_GEDpe2lzJICRu-PTB2Qms89gy5g
+MkK9
+}
+
+!procedure ServiceAzureVideoIndexer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-11/Item/Other/ServiceAzureVideoIndexer', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureVideoIndexerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureVideoIndexerLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureVideoIndexerGroup($id, $name='Service Azure Video Indexer', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureVideoIndexerLg>', $name, $tech)
+!endprocedure

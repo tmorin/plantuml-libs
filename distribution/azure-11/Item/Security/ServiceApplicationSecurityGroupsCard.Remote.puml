@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-11/bootstrap')
+
+' loads the Item which embeds the element ServiceApplicationSecurityGroupsCard
+include('azure-11/Item/Security/ServiceApplicationSecurityGroups')
+
+' renders the element
+ServiceApplicationSecurityGroupsCard('ServiceApplicationSecurityGroupsCard', 'Service Application Security Groups Card', 'an optional description')
+@enduml

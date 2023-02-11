@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-11/bootstrap')
+
+' loads the Item which embeds the element ServiceMindaroCard
+include('azure-11/Item/Intune/ServiceMindaro')
+
+' renders the element
+ServiceMindaroCard('ServiceMindaroCard', 'Service Mindaro Card', 'an optional description')
+@enduml

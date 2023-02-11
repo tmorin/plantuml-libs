@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-11/bootstrap')
+
+' loads the Item which embeds the element ServiceMicrosoftDefenderEasmCard
+include('azure-11/Item/Security/ServiceMicrosoftDefenderEasm')
+
+' renders the element
+ServiceMicrosoftDefenderEasmCard('ServiceMicrosoftDefenderEasmCard', 'Service Microsoft Defender Easm Card', 'an optional description')
+@enduml

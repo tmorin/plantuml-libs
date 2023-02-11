@@ -1,0 +1,27 @@
+' definition of the Item azure-11/Item/NewIcons/ServiceComplianceCenter
+
+sprite $ServiceComplianceCenterXs [10x10/16z] HSV70SDG381GVaVH_lF6tNudO5w0TVagzXhd9-corchYPGw8ASKTiPkAy8iOefpSRG
+
+sprite $ServiceComplianceCenterSm [12x12/16z] POi52WGn5CLI_IdC_S-xLMo3FQNs2n2FFrqYvzoZqJISgNvycWNQr5vA91WZ3NOKKq_AbCWscb9CJPypUtNgpRx_
+
+sprite $ServiceComplianceCenterMd [16x16/16z] {
+RSb70WCW449Hh63q_kSDC-dbxnu0ynKYllhdpbV5tcHZZSWDL7kmH-crzUe0Uuj5YEmE7TshWyshdN_DqLuQQumaAPILZJ1ipBJHIvUDSh6RXA9mrg6CU9R4
+5G
+}
+
+sprite $ServiceComplianceCenterLg [20x20/16z] {
+TSpN0KCX34DHqInHzfytDgGdxtuUa07x2D5VuqUNbZ-jXqtI2bkEAZd35jaIwsCp3U3IHtFur8r5ThPkQvk3sjaUq_is6LiynRQ9rQEY0gpUBSKsKQSCzdj9
+4I413pC72INiWL83Kz8sZ6rjdzVTa6oC0JbIak5LqGdlPPrVDm
+}
+
+!procedure ServiceComplianceCenter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-11/Item/NewIcons/ServiceComplianceCenter', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceComplianceCenterCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceComplianceCenterLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceComplianceCenterGroup($id, $name='Service Compliance Center', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceComplianceCenterLg>', $name, $tech)
+!endprocedure

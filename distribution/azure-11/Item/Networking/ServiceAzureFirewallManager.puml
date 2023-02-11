@@ -1,0 +1,21 @@
+' definition of the Item azure-11/Item/Networking/ServiceAzureFirewallManager
+
+sprite $ServiceAzureFirewallManagerXs [10x10/16z] HSY35G1140JHMetpJ_UC_z3Wa_MW8amaucmYnuBxMsECMQUZpSdfRymvnjtM6ftRX1q
+
+sprite $ServiceAzureFirewallManagerSm [12x12/16z] JOs55S0W34Il3-BPVzxYy25kU23V0DaqCpVz8IFScyhkkp6drr9t3vLE3ffVQyNWzPlJUZ3fVZqthmiqzmS
+
+sprite $ServiceAzureFirewallManagerMd [16x16/16z] XSk53GH134DHJsZ1st-zvymnFr6-fU2FWxAjwqhPrRiiLSLTr9mBMxUgH9EF0VL4miBTOrp_qy-ECtQ7uEAjEnxQTBlWAcSRxaEw1nweyUO4
+
+sprite $ServiceAzureFirewallManagerLg [20x20/16z] ZSw53GC120NGZvwn_xn5wlvY1CUVZdYIkTZBwgd3ZxdZcFX8SUsBQnEXTD-QOdE69hhRHsRIrEvoSX4NqZajkFexfqaARYuvVPF3FUiN6K_9vrHImmSd
+
+!procedure ServiceAzureFirewallManager($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-11/Item/Networking/ServiceAzureFirewallManager', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureFirewallManagerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureFirewallManagerLg>', 'Networking', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureFirewallManagerGroup($id, $name='Service Azure Firewall Manager', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureFirewallManagerLg>', $name, $tech)
+!endprocedure

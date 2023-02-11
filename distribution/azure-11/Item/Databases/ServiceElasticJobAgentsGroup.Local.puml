@@ -1,0 +1,21 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-11/bootstrap')
+
+' loads the Item which embeds the element ServiceElasticJobAgentsGroup
+include('azure-11/Item/Databases/ServiceElasticJobAgents')
+
+' renders the element
+ServiceElasticJobAgentsGroup('ServiceElasticJobAgentsGroup', 'Service Elastic Job Agents Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

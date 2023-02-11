@@ -1,0 +1,24 @@
+' definition of the Item azure-11/Item/Other/ServiceAzureCommunicationServices
+
+sprite $ServiceAzureCommunicationServicesXs [10x10/16z] Oy02s640XSK8XgmC7630nCN4XCJY105cPbPce7PMHWO6PcPcX7a
+
+sprite $ServiceAzureCommunicationServicesSm [12x12/16z] TSk30S0m40NGVyR-0zTkNdZ2W5yGbyS_CoZdfIppVoLYpFkVvo_NHcJUc5M1HNlzstpcOTnD
+
+sprite $ServiceAzureCommunicationServicesMd [16x16/16z] XSS50WGX34FH91K2zx_lkilCGzgFFNf1eDy0uytFRfrlnQLj5qVGeaZ2TqDTaXujhP0qxoAw8iBFZfKHEFCq695htleoCZEmvmW
+
+sprite $ServiceAzureCommunicationServicesLg [20x20/16z] {
+fSY55GD124LH-3Zz5npEMjplA8_-87w3YUAMF6ZwedbipxanBqTPmcnQ3k58HZglffq1RG0upmooDEIP0YqOTQOY7ZBot5n4okQcXLS5qJJj5gQ5rVAH1Tq0
+q-TE
+}
+
+!procedure ServiceAzureCommunicationServices($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-11/Item/Other/ServiceAzureCommunicationServices', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureCommunicationServicesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureCommunicationServicesLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureCommunicationServicesGroup($id, $name='Service Azure Communication Services', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureCommunicationServicesLg>', $name, $tech)
+!endprocedure

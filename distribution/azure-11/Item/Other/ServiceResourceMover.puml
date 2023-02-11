@@ -1,0 +1,24 @@
+' definition of the Item azure-11/Item/Other/ServiceResourceMover
+
+sprite $ServiceResourceMoverXs [10x10/16z] BOc50G0W20GfS_zzoJy5FgXW0fBWGbgBhQdCPEzHAbRgLvjvPZ_rDwFa5mHA1
+
+sprite $ServiceResourceMoverSm [12x12/16z] HSt50S0m34FHa77_WIkfz4_FmQ7c-5herpESnvi-ctId4VHwhoERZfnpkDu19mPuDSldku1hV8aN
+
+sprite $ServiceResourceMoverMd [16x16/16z] LSh50S1024HHP23IVy5P92l_zWQeOpgIqQwC-rLcQLtsCD2BUHiOWlioDBJVWMMLC2pzkaI6KTZVzuB86mD5zriPKoLF-g4jBQwQ7m
+
+sprite $ServiceResourceMoverLg [20x20/16z] {
+PT253G0X04DHf5Ztt_UaEFmOUS7Do9ehztNBhjQDx3vfdUhzIl0oO8YFiHjybyMalqmJXjqq3LXCyXlGZ15EGSd0Kh50wTA5PFwO_CaeeIgO7vROCqi-bN-U
+EPkpPhaFNW
+}
+
+!procedure ServiceResourceMover($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-11/Item/Other/ServiceResourceMover', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceResourceMoverCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceResourceMoverLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceResourceMoverGroup($id, $name='Service Resource Mover', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceResourceMoverLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-11/bootstrap')
+
+' loads the Item which embeds the element ServiceDataLakeAnalyticsCard
+include('azure-11/Item/Analytics/ServiceDataLakeAnalytics')
+
+' renders the element
+ServiceDataLakeAnalyticsCard('ServiceDataLakeAnalyticsCard', 'Service Data Lake Analytics Card', 'an optional description')
+@enduml

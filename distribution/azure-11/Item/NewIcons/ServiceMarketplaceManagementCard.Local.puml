@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-11/bootstrap')
+
+' loads the Item which embeds the element ServiceMarketplaceManagementCard
+include('azure-11/Item/NewIcons/ServiceMarketplaceManagement')
+
+' renders the element
+ServiceMarketplaceManagementCard('ServiceMarketplaceManagementCard', 'Service Marketplace Management Card', 'an optional description')
+@enduml

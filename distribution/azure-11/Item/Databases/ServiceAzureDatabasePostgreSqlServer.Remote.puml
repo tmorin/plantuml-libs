@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-11/bootstrap')
+
+' loads the Item which embeds the element ServiceAzureDatabasePostgreSqlServer
+include('azure-11/Item/Databases/ServiceAzureDatabasePostgreSqlServer')
+
+' renders the element
+ServiceAzureDatabasePostgreSqlServer('ServiceAzureDatabasePostgreSqlServer', 'Service Azure Database Postgre Sql Server', 'an optional tech label', 'an optional description')
+@enduml

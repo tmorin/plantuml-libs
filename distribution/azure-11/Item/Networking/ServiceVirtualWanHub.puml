@@ -1,0 +1,27 @@
+' definition of the Item azure-11/Item/Networking/ServiceVirtualWanHub
+
+sprite $ServiceVirtualWanHubXs [10x10/16z] DOm50G0m20IV6T8_yD335GM5koVSZdHDpv98NqAubvt7-mBY78cf9ZItORYtddu
+
+sprite $ServiceVirtualWanHubSm [12x12/16z] NOq50W9120271l__N_KwPfSkmE7KSUaDOKL3LLDN_xEn5lDFP28HMbfLKHf0qrNMBCpa-CpgYuc82szYEm8_
+
+sprite $ServiceVirtualWanHubMd [16x16/16z] {
+LSu70aH110FG837b_WTUw_StlO92j6kaeaV9F_j6dFpiJvvUuhw-BsWnBYX4P3Ap-aHG8eTKXrvLWYC6SWIpnex1EJ7d-0-Dwu8hCViBmya--TcPM0ZDnHwb
+wdu
+}
+
+sprite $ServiceVirtualWanHubLg [20x20/16z] {
+VP07aiGm20J9uVx_u8Cj2xEn7QPBMK0ZS85Zglh1P8nd2broSZlUBQHCHSTf-rlWZpPRT1kgmCFDb3ghGLN9tT4BA-Dg0M5m1qD75LR7RYWY0g8GYJXxP6RK
+pwLasXPubuYmOK8OQ7BWuypmevAosdh6Fm
+}
+
+!procedure ServiceVirtualWanHub($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-11/Item/Networking/ServiceVirtualWanHub', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceVirtualWanHubCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceVirtualWanHubLg>', 'Networking', $funcName, $content)
+!endprocedure
+
+!procedure ServiceVirtualWanHubGroup($id, $name='Service Virtual Wan Hub', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceVirtualWanHubLg>', $name, $tech)
+!endprocedure

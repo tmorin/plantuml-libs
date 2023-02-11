@@ -1,0 +1,27 @@
+' definition of the Item azure-11/Item/Identity/ServiceAzureAdPrivilegeIdentityManagement
+
+sprite $ServiceAzureAdPrivilegeIdentityManagementXs [10x10/16z] JOk50S0m408l2jr_uSRz7-KzjPy5ye2IGivjqa133MB5s4mRbuRAG7PG0wtopGCJ2du
+
+sprite $ServiceAzureAdPrivilegeIdentityManagementSm [12x12/16z] NOdN0G0n24990zn_uOFVUubAmGyMb1lHMT4zjmQGjAEVnEYxraiXmTvxatmspCLeiph58oCVC3EYim6iAPN5KI_t0m
+
+sprite $ServiceAzureAdPrivilegeIdentityManagementMd [16x16/16z] {
+ROo50GCm20GV9zr_u3xKvQA7uH-MWpmq7xpKFOU7XhZlozuYGlSYmEhu1dnSHNL6n1HqjvBjvXzTh5slpDwyIUbeiHJIFIND907GXtZMFY3dIT4U5Pjz4ETo
+3CCL
+}
+
+sprite $ServiceAzureAdPrivilegeIdentityManagementLg [20x20/16z] {
+TSk50GGX34JHw93hl-7Bi6v_bGUHxnnTsaaIMxjY5ilxJ1e9viUWQQn86yorBJ3_HOAVq6cn6lUWj0rLvblD341E3AcgOGmiUvbjhWZQqgWGz8PQqNAWLwLY
+SrYHQ26LYF33epp4qEO_Lewn_0Z3xvmivOFO9aFEMS9r_Vy3
+}
+
+!procedure ServiceAzureAdPrivilegeIdentityManagement($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-11/Item/Identity/ServiceAzureAdPrivilegeIdentityManagement', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureAdPrivilegeIdentityManagementCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureAdPrivilegeIdentityManagementLg>', 'Identity', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureAdPrivilegeIdentityManagementGroup($id, $name='Service Azure Ad Privilege Identity Management', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureAdPrivilegeIdentityManagementLg>', $name, $tech)
+!endprocedure

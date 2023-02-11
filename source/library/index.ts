@@ -1,6 +1,6 @@
 import { AwsQ12023Factory } from "./packages/aws-q1-2023"
 import { AwsQ32022Factory } from "./packages/aws-q3-2022"
-import { AzureV6Factory } from "./packages/azure-6"
+import { AzureV11Factory } from "./packages/azure-11"
 import { C4modelFactory } from "./packages/c4model"
 import { C4nordFactory } from "./packages/c4nord"
 import {
@@ -20,7 +20,7 @@ import { Simpleicons8Factory } from "./packages/simpleicons-8"
 const PACKAGE_FACTORIES = [
   new AwsQ12023Factory(),
   new AwsQ32022Factory(),
-  new AzureV6Factory(),
+  new AzureV11Factory(),
   new C4modelFactory(),
   new C4nordFactory(),
   new DomainstorytellingFactory(),

@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-11/bootstrap')
+
+' loads the Item which embeds the element ServiceAzureStackCard
+include('azure-11/Item/Iot/ServiceAzureStack')
+
+' renders the element
+ServiceAzureStackCard('ServiceAzureStackCard', 'Service Azure Stack Card', 'an optional description')
+@enduml

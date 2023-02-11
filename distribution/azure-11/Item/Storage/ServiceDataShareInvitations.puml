@@ -1,0 +1,21 @@
+' definition of the Item azure-11/Item/Storage/ServiceDataShareInvitations
+
+sprite $ServiceDataShareInvitationsXs [10x10/16z] Oy06M620WGr2it8oi86Pd9mW5f3D2MLnStE3MJnWmC69f1SE
+
+sprite $ServiceDataShareInvitationsSm [12x12/16z] ZSUr0S0m4C10F-F-wuRJ1QpgD6PIlekXrqZiFiRYj0f7NBQgkfozjzlwBiPBAm
+
+sprite $ServiceDataShareInvitationsMd [16x16/16z] bSgr0G1140B0VLi1-c_ttIwyoH3hDRRCvnylSr_Uc7LaVovLPxwBfRxiv_VBGVANmSEJKpUUcVgWhDC6
+
+sprite $ServiceDataShareInvitationsLg [20x20/16z] hS_50S0m241HAb1i_tKhSJas__YYmEhEEI0SH128g1MKO2rU4gn5aMg4wLonj9LaC3PHxir2t1Xxoefv4mSJxsE4OnxtJmy
+
+!procedure ServiceDataShareInvitations($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-11/Item/Storage/ServiceDataShareInvitations', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceDataShareInvitationsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDataShareInvitationsLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDataShareInvitationsGroup($id, $name='Service Data Share Invitations', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDataShareInvitationsLg>', $name, $tech)
+!endprocedure

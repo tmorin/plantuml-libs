@@ -1,0 +1,24 @@
+' definition of the Item azure-11/Item/Security/ServiceMicrosoftDefenderForIoT
+
+sprite $ServiceMicrosoftDefenderForIoTXs [10x10/16z] FSQ70S0W3CH0VTb_vOGki7sCL5QExGfgunbDo6Wfw6cCO2D0CokJ5uET-04
+
+sprite $ServiceMicrosoftDefenderForIoTSm [12x12/16z] 7OY10G0W2CBG-V_DnLRg86Ll4Xbsz-oAV8S9HKVqwT67G4Qt0VI3RTmOoaMkQ0Pw7W
+
+sprite $ServiceMicrosoftDefenderForIoTMd [16x16/16z] HOw10G0H00Ahsd_bVmG7N02A8pniIMObiOgJuTEeidpGtZukFk-Ck2v8n7FFwVEixRPwCJfsHp_a1Lc_WODD2YvNN-1EVW
+
+sprite $ServiceMicrosoftDefenderForIoTLg [20x20/16z] {
+PSq73eC034FHsCxzhzpnvPRrjU0fc6dAPgvjRETG-IkqKK-G5dHv7XLZxi9GGZLG3sFpOPdHoJJyfPF2mWjKIsSITGFi5VTxcCLw-9J59iv8847alHD8fQOx
+KTRJtW
+}
+
+!procedure ServiceMicrosoftDefenderForIoT($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-11/Item/Security/ServiceMicrosoftDefenderForIoT', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceMicrosoftDefenderForIoTCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceMicrosoftDefenderForIoTLg>', 'Security', $funcName, $content)
+!endprocedure
+
+!procedure ServiceMicrosoftDefenderForIoTGroup($id, $name='Service Microsoft Defender For Io T', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceMicrosoftDefenderForIoTLg>', $name, $tech)
+!endprocedure

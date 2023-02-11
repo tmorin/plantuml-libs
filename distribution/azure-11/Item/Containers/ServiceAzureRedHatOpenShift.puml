@@ -1,0 +1,24 @@
+' definition of the Item azure-11/Item/Containers/ServiceAzureRedHatOpenShift
+
+sprite $ServiceAzureRedHatOpenShiftXs [10x10/16z] JOh50S0W00ElnSF-y-9sdoWlwYnZKhTESt7CuHSehpE9xHJYScYo5dce
+
+sprite $ServiceAzureRedHatOpenShiftSm [12x12/16z] NOq50W0H50NV9iRzpwjx-5qwi2IgI-Kjxf_q3UZ1javfTYRnLD-Y0Loz_SUfxJOmzxVkgrsA
+
+sprite $ServiceAzureRedHatOpenShiftMd [16x16/16z] ROw50S0W40DnIVVVjn_S3dsFUX81v645aE59_4RUeEaOQ6cVUEXkQ2C7qCtC3FWP1e9KfG_TpYNcr4o0eMlQiPn6IS_KwZaCx2SOTDBiGsPZvQAlgdu
+
+sprite $ServiceAzureRedHatOpenShiftLg [20x20/16z] {
+VOv75aCn20FT3Shzpvj2YrP_LdvZG6eFx2joEXia8qt7dylgpAKkVnUqTkpvmlSw03wz_VukC-L4Pga1818cb_fcTBzQJcqIXoBKsYWfJvo0al8GgourPcwh
+093-CzkK0QOtvx8gr8rNA7glaGy
+}
+
+!procedure ServiceAzureRedHatOpenShift($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-11/Item/Containers/ServiceAzureRedHatOpenShift', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureRedHatOpenShiftCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureRedHatOpenShiftLg>', 'Containers', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureRedHatOpenShiftGroup($id, $name='Service Azure Red Hat Open Shift', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureRedHatOpenShiftLg>', $name, $tech)
+!endprocedure

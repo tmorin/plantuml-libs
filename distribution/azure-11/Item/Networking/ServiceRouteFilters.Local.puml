@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-11/bootstrap')
+
+' loads the Item which embeds the element ServiceRouteFilters
+include('azure-11/Item/Networking/ServiceRouteFilters')
+
+' renders the element
+ServiceRouteFilters('ServiceRouteFilters', 'Service Route Filters', 'an optional tech label', 'an optional description')
+@enduml

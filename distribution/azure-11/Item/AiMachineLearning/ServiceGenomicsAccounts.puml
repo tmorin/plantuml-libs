@@ -1,0 +1,24 @@
+' definition of the Item azure-11/Item/AiMachineLearning/ServiceGenomicsAccounts
+
+sprite $ServiceGenomicsAccountsXs [10x10/16z] JSn50S0030F0Z4B-_OxfFkNYhxPvPbD1NCZSYPtnokPvxhL759Tq-RvSQRa3DW
+
+sprite $ServiceGenomicsAccountsSm [12x12/16z] LKg30G0n38or_xwFkk49xbAthmQf0qDiA0OriQbgJImY2pDvhb0jcFd5EiJuhP70x-YtBm
+
+sprite $ServiceGenomicsAccountsMd [16x16/16z] HSxN0G0X20DGJYL8zX_ux7bVIhT7F6t2_N_KV-dq0XHx8kPN013w-dnJ1VDhBVLlWrF_dfdixr_WnZGfCokDOO3-Z05Gkatlxw4hVW
+
+sprite $ServiceGenomicsAccountsLg [20x20/16z] {
+TSu70e0W34FHC1hQtF_0RgthkvyAu2yJrWelw_AraGpoiaHBrgJvH29NDKZ3tKXwt8qieFnEFXUgsRQ7Y6pMbq8tgqjvm6rfHGBkE1Iu5vBRJOfaCDvGygMC
+HGLBdPTHt4fM1xOCInC
+}
+
+!procedure ServiceGenomicsAccounts($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-11/Item/AiMachineLearning/ServiceGenomicsAccounts', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceGenomicsAccountsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceGenomicsAccountsLg>', 'AiMachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure ServiceGenomicsAccountsGroup($id, $name='Service Genomics Accounts', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceGenomicsAccountsLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-11/bootstrap')
+
+' loads the Item which embeds the element ServiceCustomVisionCard
+include('azure-11/Item/AiMachineLearning/ServiceCustomVision')
+
+' renders the element
+ServiceCustomVisionCard('ServiceCustomVisionCard', 'Service Custom Vision Card', 'an optional description')
+@enduml

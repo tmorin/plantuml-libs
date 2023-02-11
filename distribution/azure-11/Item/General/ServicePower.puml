@@ -1,0 +1,21 @@
+' definition of the Item azure-11/Item/General/ServicePower
+
+sprite $ServicePowerXs [10x10/16z] Om01LbPM5WOO2y9WOO6AC38pCq00WW44S0uc0wWJ2g0C
+
+sprite $ServicePowerSm [12x12/16z] LOir0G1030FRW7_9ptXJC0PkH1oTIqh2af0O2_AJHm_sDx_cIiNXaTwY0W
+
+sprite $ServicePowerMd [16x16/16z] VSYr0G114810rlel-VNSo0PIyKP9NrgrkuTNskE63BGdElVCoKVjMHvDP-9-elQavGq
+
+sprite $ServicePowerLg [20x20/16z] ZSg53G1H381GQlkFVAvVI_m5dkB8-QGrNTkF_8Y_rMGxoO_4jhJOQjBTgBShhKdgbtyvqffmRv1J5aQzLIJ5jG8
+
+!procedure ServicePower($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-11/Item/General/ServicePower', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServicePowerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServicePowerLg>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServicePowerGroup($id, $name='Service Power', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServicePowerLg>', $name, $tech)
+!endprocedure

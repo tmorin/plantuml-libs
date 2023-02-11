@@ -1,0 +1,24 @@
+' definition of the Item azure-11/Item/General/ServiceLocation
+
+sprite $ServiceLocationXs [10x10/16z] FKk50G1013pD_WD_l-O2Aunm8oBiNRjEP6I-wnz05PzDND_Bxihtx0E2VKq
+
+sprite $ServiceLocationSm [12x12/16z] DOc70G0n20A1DDr_uAzmYKh1ooOCzuFrMSz4RoXwrWFC8scfwXP2J_v6O_ScelUZ0q6vyE06
+
+sprite $ServiceLocationMd [16x16/16z] LOg55G0n2CK-3liFV59lgk453J72WVyS6lATNKJybr_EORlFZ4p28dzmksvbgQgT4pvFekMCB2UiWQYNWtYvk1_E17MMtOE45Om50rDV
+
+sprite $ServiceLocationLg [20x20/16z] {
+NSe75eH020JHwfw4zx_mhXdyEgaUd3I6gCRy6sHz7KfSgq5RgpR-litWJujO_nKaZaCdEnl5Yhz9PhO_koIjVnFY8Qn_CagfCRTjqb5gddDDTLpc_l8Sc3vd
+n-JK16gVI3CbWGKIbny
+}
+
+!procedure ServiceLocation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-11/Item/General/ServiceLocation', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceLocationCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceLocationLg>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceLocationGroup($id, $name='Service Location', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceLocationLg>', $name, $tech)
+!endprocedure

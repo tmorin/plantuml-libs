@@ -1,0 +1,21 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-11/bootstrap')
+
+' loads the Item which embeds the element ServiceTimeSeriesInsightsEventSourcesGroup
+include('azure-11/Item/Iot/ServiceTimeSeriesInsightsEventSources')
+
+' renders the element
+ServiceTimeSeriesInsightsEventSourcesGroup('ServiceTimeSeriesInsightsEventSourcesGroup', 'Service Time Series Insights Event Sources Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

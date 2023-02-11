@@ -42,7 +42,7 @@ const argv = yargs
       /*
       "aws-q1-2023/!**",
       "aws-q3-2022/!**",
-      "azure-6/!**",
+      "azure-11/!**",
       "gcp/!**",
       "fontawesome-6/!**",
       "material-4/!**",

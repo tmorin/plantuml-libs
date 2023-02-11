@@ -1,0 +1,24 @@
+' definition of the Item azure-11/Item/Security/ServiceAzureAdAuthenticationMethods
+
+sprite $ServiceAzureAdAuthenticationMethodsXs [10x10/16z] LSY53G103CF0OhB_nizGYqwM6Wu2sEZYH1VPQJqWlAzkU4o6GhoZ5qvNcStN
+
+sprite $ServiceAzureAdAuthenticationMethodsSm [12x12/16z] PKor0GD102A7xJzntfqAnmUvg9AJpjm7LLejb18NFcO-PYGC0M7Xj1L0nE9p7-2dyZXjCVC32vy
+
+sprite $ServiceAzureAdAuthenticationMethodsMd [16x16/16z] TSlN0S1G249H5CJzDyvBx_VlMF2JxvJhHjawoTdEaxEx0qkXsJtQdvbfM_BCN1gaMO0GYukIsA28sPujBl_0C4XYYI8YkeWzgTh9m5vsOFOj0fW
+
+sprite $ServiceAzureAdAuthenticationMethodsLg [20x20/16z] {
+VSxN0KCn24DHG5ZQV-COydgxdyS5xBDnfsJUACau4yhePshZWJmNq_6pDaay4QWohGH416SOcKMnL9H46LQTX2xgfVbY_I_Kkxcr3SmIwtRcqoocMRTSTQFg
+iwt-HmJSzY8bjxftZFK9OBVwsWy
+}
+
+!procedure ServiceAzureAdAuthenticationMethods($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-11/Item/Security/ServiceAzureAdAuthenticationMethods', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureAdAuthenticationMethodsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureAdAuthenticationMethodsLg>', 'Security', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureAdAuthenticationMethodsGroup($id, $name='Service Azure Ad Authentication Methods', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureAdAuthenticationMethodsLg>', $name, $tech)
+!endprocedure

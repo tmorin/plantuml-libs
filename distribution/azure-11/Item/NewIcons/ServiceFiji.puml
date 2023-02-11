@@ -1,0 +1,27 @@
+' definition of the Item azure-11/Item/NewIcons/ServiceFiji
+
+sprite $ServiceFijiXs [10x10/16z] BSY50S0m24JHgmNVVzrYFyf3TJ1z9yxT45MoS7xz6F2gdepIb5-piYzDxKZPjmPDx5_sMRq_
+
+sprite $ServiceFijiSm [12x12/16z] DOY90GGn20Bt2mgS_RTxUITH1wu9haD3uPtsG5L534TKvuSHbCWAABfJ0leC5_JP3WwNcc4CPunUyEo3JaPSCoHDNfCxxN7_
+
+sprite $ServiceFijiMd [16x16/16z] {
+JOm7Za913CNcxu9V2hd_TPakdbeSMMvxjD-1U5rweQeIpwG7FZMMC5YevWAySpXOHx28mJ4-WXI3fVum8d5DFt2KcQOy_jipZZyohk6RRFLTmtUT_gXTlws-
+T__TrdQ_tVr5vhg-
+}
+
+sprite $ServiceFijiLg [20x20/16z] {
+NSm7aiCm30H1Ed00x5h__-u9TRGLfd8ZZ6zFnZs0zqKcQ2juZcyloArBM0Hits0s9SIN2gAjzDKFOFsR552VW1JPzbP7PuXgguZUp9GTHQrRKk_o7k6lAQdT
+4XVPDXi5meQAjafsdPMsCz7tt_p-A-So5I4xqa6E3dM03HwhqBgjzvAkPbkEI-zoZTKV
+}
+
+!procedure ServiceFiji($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-11/Item/NewIcons/ServiceFiji', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceFijiCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceFijiLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceFijiGroup($id, $name='Service Fiji', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceFijiLg>', $name, $tech)
+!endprocedure

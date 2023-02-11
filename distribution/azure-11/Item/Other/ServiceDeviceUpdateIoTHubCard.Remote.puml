@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-11/bootstrap')
+
+' loads the Item which embeds the element ServiceDeviceUpdateIoTHubCard
+include('azure-11/Item/Other/ServiceDeviceUpdateIoTHub')
+
+' renders the element
+ServiceDeviceUpdateIoTHubCard('ServiceDeviceUpdateIoTHubCard', 'Service Device Update Io T Hub Card', 'an optional description')
+@enduml

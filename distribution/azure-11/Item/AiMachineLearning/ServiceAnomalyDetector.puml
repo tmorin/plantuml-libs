@@ -1,0 +1,27 @@
+' definition of the Item azure-11/Item/AiMachineLearning/ServiceAnomalyDetector
+
+sprite $ServiceAnomalyDetectorXs [10x10/16z] LS650SGm400WskHi_u7V5Vo9p0DM1bK87CePiUq8vGZRtfgEY2qn4HZecfl3srm1
+
+sprite $ServiceAnomalyDetectorSm [12x12/16z] NOc30G0124LVhlqNFZDyyf_8b4Db1PgrIG_Js3fWgosWy0Zp3MFBId32s7IxQQnL0z4uTcXw76gIRNHcd2cUcGK
+
+sprite $ServiceAnomalyDetectorMd [16x16/16z] {
+ROo74GH0208De6V_3RzyJdjnOKRx2nBvfiKI3-sYscg_AU71_REbNYg3QdGL8pHHLrkID8z4aF2p_Q5lQzmJyb9WM4N9xGI8IFqWxp7O_MFY3FVE6RdWcQLT
+mJi_WSq5
+}
+
+sprite $ServiceAnomalyDetectorLg [20x20/16z] {
+VOo5aKLH24C394Z_3U_Zhdq_OvaOFY0pF93AvSRtIZ6eAk67k2nnLLNzU2MwXGA0YZzVn28xpPyQ5hhEjSDrGJg2jcgB5am112DErWt0MWQZWmpYsqEd38IB
+vc6juxLhsPPdOubE-EvjZmg76Pb-9NxegVLCC-CtvXmuO_X5rPq6yATvovfuONu1
+}
+
+!procedure ServiceAnomalyDetector($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-11/Item/AiMachineLearning/ServiceAnomalyDetector', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAnomalyDetectorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAnomalyDetectorLg>', 'AiMachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAnomalyDetectorGroup($id, $name='Service Anomaly Detector', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAnomalyDetectorLg>', $name, $tech)
+!endprocedure

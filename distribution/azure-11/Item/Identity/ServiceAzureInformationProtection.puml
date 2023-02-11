@@ -1,0 +1,24 @@
+' definition of the Item azure-11/Item/Identity/ServiceAzureInformationProtection
+
+sprite $ServiceAzureInformationProtectionXs [10x10/16z] 9Oc10G101083s7zXuFvHXO4DZm_o2Y1VeRjVnQmToBE5Yh3eAafHFMMHzYepoHKD
+
+sprite $ServiceAzureInformationProtectionSm [12x12/16z] HOj50G1040BNeN_XSvaNAXDFkTGWhnI9qgrZ1LlRrvWQcD8FQvb3gCP-ET9Zwp0WZYwGOLjpO8QG3W
+
+sprite $ServiceAzureInformationProtectionMd [16x16/16z] NSY50S0m24JH02Tq_u7h_gEFSGJcU8AsRfP4l0PIx7VTtkwG7c_zRP-stm_gQJErJp8IE2nLoLcNEUXQTHbPCYvhpJrrFUurHfvsxwLxzG8
+
+sprite $ServiceAzureInformationProtectionLg [20x20/16z] {
+XSe54WD034BH6B2z_uMxMfS_bdd1TW6aFGUEdfIxV5gLMNHydC5wFb-hFF-7OPqJVqpQ9lsmoiTg6f4hyqxRo3bbHDRTW9Jwe-vMxgqcF5Y4f6SZg4jhU3Ar
+aVdTDic3sAQs8_kZsnK
+}
+
+!procedure ServiceAzureInformationProtection($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-11/Item/Identity/ServiceAzureInformationProtection', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureInformationProtectionCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureInformationProtectionLg>', 'Identity', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureInformationProtectionGroup($id, $name='Service Azure Information Protection', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureInformationProtectionLg>', $name, $tech)
+!endprocedure

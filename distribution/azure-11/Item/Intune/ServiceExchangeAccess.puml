@@ -1,0 +1,24 @@
+' definition of the Item azure-11/Item/Intune/ServiceExchangeAccess
+
+sprite $ServiceExchangeAccessXs [10x10/16z] JOR50G0m20Dnst_WXhwuA5qw07R7_erCW_8-pnJHVLIbfbLuNOiGcEvEBAXcz0C
+
+sprite $ServiceExchangeAccessSm [12x12/16z] NSor0S105CFGZxOl--yRPbMlalqQ07iNSSJDP5MHfvktApDnEYAogTLIP6Lhh6vnJJhsUsrx3zTwSbjR
+
+sprite $ServiceExchangeAccessMd [16x16/16z] RSwt0GCm30D1PeBUVrzbEN-5wq1_AsJXRFL2p0esNV4gfpCpp2ndnnRf_kxyiCb8FwtJCGnWs5G1q6nORGJKSkB6v-t9wRGPHoCCAhqbZpCw
+
+sprite $ServiceExchangeAccessLg [20x20/16z] {
+ZT3L0SH024NH4NJwBtXvRDpl5vnuodtD8zsHco2NQMStIAPc3fjM9iaiJH55Z64r8LMciya7QwZJR3nRJ_E2B0gYi9Z-vh1EH6cSrZ5bCfqsdJZbhSoun6Lf
+JBJxMxQUjMR3HptzwVMw7m
+}
+
+!procedure ServiceExchangeAccess($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-11/Item/Intune/ServiceExchangeAccess', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceExchangeAccessCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceExchangeAccessLg>', 'Intune', $funcName, $content)
+!endprocedure
+
+!procedure ServiceExchangeAccessGroup($id, $name='Service Exchange Access', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceExchangeAccessLg>', $name, $tech)
+!endprocedure

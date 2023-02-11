@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-11/bootstrap')
+
+' loads the Item which embeds the element ServiceOsImagesClassicCard
+include('azure-11/Item/Compute/ServiceOsImagesClassic')
+
+' renders the element
+ServiceOsImagesClassicCard('ServiceOsImagesClassicCard', 'Service Os Images Classic Card', 'an optional description')
+@enduml

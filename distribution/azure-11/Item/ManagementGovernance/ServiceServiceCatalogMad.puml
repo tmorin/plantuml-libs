@@ -1,0 +1,24 @@
+' definition of the Item azure-11/Item/ManagementGovernance/ServiceServiceCatalogMad
+
+sprite $ServiceServiceCatalogMadXs [10x10/16z] HSQ70G0W20F1s7N_WQN3At2eHjDOspBD5bghYyu1vZYclKoGhembUje20G
+
+sprite $ServiceServiceCatalogMadSm [12x12/16z] PSQ50G0n30B0U63_WT-rZS39R-fgtNtDx0Zpov5kwOSxJQEy3uUgtnOnxy9kO0l7OLxpDMG5
+
+sprite $ServiceServiceCatalogMadMd [16x16/16z] ZSU50S0030AmEkp_W-VkLIBNgYrYu5Q_dQfxgsQepWRSgfSdPgTeH5Wj3ZFnYCMLxbdkcCmGKRCmSZBf_LFERhOws-feY7G
+
+sprite $ServiceServiceCatalogMadLg [20x20/16z] {
+dSe54i0m24HH20jixt_WkiJ6-kDl8lCyl6evo4Ah90wBfZy6LMyDQa1Hhyn3tTnAl9Pfuj0IA9cNPQOB961cbS52TWdK9WYur_-ElTXUlCPzqtsvAFaOwNBa
+V8nLhorrCtCUXiPobmq
+}
+
+!procedure ServiceServiceCatalogMad($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-11/Item/ManagementGovernance/ServiceServiceCatalogMad', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceServiceCatalogMadCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceServiceCatalogMadLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure ServiceServiceCatalogMadGroup($id, $name='Service Service Catalog Mad', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceServiceCatalogMadLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item azure-11/Item/Networking/ServiceExpressRouteCircuits
+
+sprite $ServiceExpressRouteCircuitsXs [10x10/16z] Oq01h6niK1OREmUC1HDZOME0i40K8nkOmGeYm8gW-bdPsBb0W8sT0M82a08
+
+sprite $ServiceExpressRouteCircuitsSm [12x12/16z] NOo55S102CMGHpxj_llMzOAhZHGyEUZDzUI9yxJ3xeFQuvNpD0pkHKSPEuLAckQT_Q_QJjGh
+
+sprite $ServiceExpressRouteCircuitsMd [16x16/16z] RK-54O103Aic7FllY_DUTv4r9D2w0T2wDEcDR-JMrWE19k-NqmwyRKNMQVe5Q_fJhGxegwBK-JK6T7iX0TwNRViBbqkzNFltt5TQyqXGJW
+
+sprite $ServiceExpressRouteCircuitsLg [20x20/16z] {
+VOy54WCm20JH8zF_FxYzr0YLZI_4v1-HCLKcWEc0gk6erd1KVYe3cLjT0EigcEF0cQQxZ_wGvA10JsknfyeHv3lQRnw7uFrOq5ALsvFzxTsjonEkAgZUK2sX
+aXT-Mq94LHfSNW4
+}
+
+!procedure ServiceExpressRouteCircuits($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-11/Item/Networking/ServiceExpressRouteCircuits', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceExpressRouteCircuitsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceExpressRouteCircuitsLg>', 'Networking', $funcName, $content)
+!endprocedure
+
+!procedure ServiceExpressRouteCircuitsGroup($id, $name='Service Express Route Circuits', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceExpressRouteCircuitsLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item azure-11/Item/Databases/ServiceAzureDatabaseMySqlServer
+
+sprite $ServiceAzureDatabaseMySqlServerXs [10x10/16z] LOg35G0m4CLIQ_zvQrqUFlbGTg2cIocfuKeU5EdGe5O7S5QGlpITeG4
+
+sprite $ServiceAzureDatabaseMySqlServerSm [12x12/16z] POl50S1040A1ivN-wurxveNY3Uj2uIPB6pQQjEZi8bdCLvsniUaUCKwDzHVSDGGqNdj9l-z3mpSvW1a
+
+sprite $ServiceAzureDatabaseMySqlServerMd [16x16/16z] TOs50G0X30DxASx-yxwx75fBx0EGkuiz31lE6YlLYHBG4lVap8JIrxYtZP-OtCGbDclJap9xBD8rfjA84bSzpDAVtrzSRQKiKRA94G
+
+sprite $ServiceAzureDatabaseMySqlServerLg [20x20/16z] {
+bSx50GDG20FG18U__xnrzxuZ6hn5oXvvhQYTdQkacVcUcPvgILhrNf0KxCqAuu5uhNDjpSNVDN06UAWX1J0CUQq9eO-r0G8Eu5hBgQuiT_BXhmFeF_FLNOqu
+w9kQueoUMHbAx6q1
+}
+
+!procedure ServiceAzureDatabaseMySqlServer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-11/Item/Databases/ServiceAzureDatabaseMySqlServer', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureDatabaseMySqlServerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureDatabaseMySqlServerLg>', 'Databases', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureDatabaseMySqlServerGroup($id, $name='Service Azure Database My Sql Server', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureDatabaseMySqlServerLg>', $name, $tech)
+!endprocedure
