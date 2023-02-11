@@ -2,6 +2,31 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [11.0.0](https://github.com/tmorin/plantuml-libs/compare/v10.1.0...v11.0.0) (2023-02-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* **aws-q3-2022:** the package is `aws-q3-2022` is removed from the distribution
+* **azure-11:** the package is `azure-6` is removed from the distribution
+* **simpleicons-8:** the package is `simpleicons-7` is removed from the distribution
+* **aws-q2-2022:** the package is `aws-q2-2022` is removed from the distribution
+
+### Features
+
+* **aws-q1-2023:** add the package ([ed76797](https://github.com/tmorin/plantuml-libs/commit/ed767978bdea0f20533353755821f69df5337d51))
+* **aws-q2-2022:** remove the package ([7acbcdd](https://github.com/tmorin/plantuml-libs/commit/7acbcdd2e5e494b6f424f8ffdc7564fa2de6e507))
+* **aws-q3-2022:** remove the package ([3fea4ee](https://github.com/tmorin/plantuml-libs/commit/3fea4eefc21ca466ce30a6a58a411a39c6e1bbb9))
+* **azure-11:** upgrade azure from v6 to v11 ([6a5fe7a](https://github.com/tmorin/plantuml-libs/commit/6a5fe7a15a37675bb0e2c20ab82aa00d39cfad6f))
+* **fontawesome-6:** upgrade to 6.3.0 ([3e68b33](https://github.com/tmorin/plantuml-libs/commit/3e68b33e51ea31a5803d02340da0087aad113904))
+* **gcp:** refresh the package ([58ecb2d](https://github.com/tmorin/plantuml-libs/commit/58ecb2d2a93cd86dd3dc3297d37417b66ea9bded))
+* **simpleicons-8:** upgrade simpleicons from v7 to v8 ([58659c7](https://github.com/tmorin/plantuml-libs/commit/58659c79040d7e7e7b3cd3d25d8a9ab30faa063d))
+
+
+### Bug Fixes
+
+* a link is broken ([811eccc](https://github.com/tmorin/plantuml-libs/commit/811eccc6db32d5564a9a9b3710e8138856c1fbda))
+
 ## [10.1.0](https://github.com/tmorin/plantuml-libs/compare/v10.0.0...v10.1.0) (2022-11-06)
 
 
