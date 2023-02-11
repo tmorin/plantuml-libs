@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-8/M/Muller
+
+sprite $MullerXs [10x10/16z] 7SM50OG04CJ0ULT8_zKYjv9KVopLutfFjslTiA3VGr-_J9knDY6fjDuzkDtK7Q79Q0S
+
+sprite $MullerSm [12x12/16z] 9SQ70SGm2CLGNQ-W_RSDFpmRaEC1l8sg5hjgac7Mzl8XFt-KDqJG_5iAur99_FlD-JILwmDjnYrh-_O_U-qz
+
+sprite $MullerMd [16x16/16z] {
+JOu54WD020E3L64k__zj9rJedkAXU48KbrnB8MEUUMKFnDgByK6WnqbU40H3tyBXH92KpJcclDH_6BCFG70sc22KrcMohspTbK1M_SyFNMlxwdFtQ89FDmj-
+KCRm0W
+}
+
+sprite $MullerLg [20x20/16z] {
+PSm5Zi0m4CLGXygfxt_RrKoxRC6NNi3igaHz-hC9rQz6hRMVJdHhjTQmHZRdJlR3cFoph_HqmAu7S6eDAqxeAXILCAxSk7YbhQumx_TVmweR97hxL99gVEzs
+wVFV569nZqqhdYEk7ShPXjf1xnX61MYZ4MPQ2jbFg_wprTNosbSRjtzQWDsd3m
+}
+
+!procedure Muller($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/M/Muller', $name, $tech, $desc)
+!endprocedure

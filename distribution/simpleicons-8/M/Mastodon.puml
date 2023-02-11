@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/M/Mastodon
+
+sprite $MastodonXs [10x10/16z] BOW50S1030Dlp8j_jLzk6BX__HUWljyJ18JctMKAuNRPjafVfVUNz7sU-Y2ahnSC
+
+sprite $MastodonSm [12x12/16z] VOV50S0m4CCKvdZ_QSlqgWui0wvFpUO0TBFh8Cap9IGCqHYa_nqVroqtPdVNHgyEy5Bbncjdxoi
+
+sprite $MastodonMd [16x16/16z] TSVL0SKW4031ZGUuO_klzhdB_0t0rBhsB1DdkqyhRBu2TO7H0LOLxJ2nCi7rbN0dRCJjQKE3zlVc-V6ypxyQyLM1LDSIcL4dpjJWnQRcicp9dLUS7G4
+
+sprite $MastodonLg [20x20/16z] {
+VP1L5iGm3CHKRXFRS__RxfjbreT1RaEOgML9LN5CN6Xwvh3I6mMxSrkxu-we4KU0uHgbXWEC8wi39ONTo2eDZ0whb7RGF9YaXUNLpLSNVrrbNLs_ENDrXrr4
+NLr6UfNwShUkLm9OphEbHsRqsrl9yCfgrp3ZYxo2UNdfci6S
+}
+
+!procedure Mastodon($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/M/Mastodon', $name, $tech, $desc)
+!endprocedure

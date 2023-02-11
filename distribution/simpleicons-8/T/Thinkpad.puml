@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-8/T/Thinkpad
+
+sprite $ThinkpadXs [10x10/16z] Oo0QyF7pyZFoy_C3cVn0o0LbGKYy
+
+sprite $ThinkpadSm [12x12/16z] bOO50S0m4CHIfWV_QiS2riEmALKXe0YNke_cFkjqezjeoxayFYv9BeufnfWJCMT-w0G
+
+sprite $ThinkpadMd [16x16/16z] hSU50SCm44FHRsPh_sdRS3A0tw5Op5eBHrl3JYRYGAXXja_aKeSsjTSI4BxKBWrDLFoJf-ZraxNbNWgB_G4
+
+sprite $ThinkpadLg [20x20/16z] pSY50G9030J1HJz-_NUBQmCGp_17qUe4mQL75tAQdANi9T-aZjggBuRhqkTBjNKvBnCAz6r9yMdri8kmwj9huxYjJduK9m
+
+!procedure Thinkpad($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/T/Thinkpad', $name, $tech, $desc)
+!endprocedure

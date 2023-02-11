@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-8/T/Testinglibrary
+
+sprite $TestinglibraryXs [10x10/16z] DOQ50GCm08EeU_d_slcYy9RyLFpZrWCWAeEtXXkfUDsk3CEWBWE7c1021Iu72WaQxpm1
+
+sprite $TestinglibrarySm [12x12/16z] DKo50GCn4E8_BXVstxQGjj53uVNGxs_a7xnnoFPbnnR_Biy3gR421HK464UwvYgtNHdOYw-cUa8Weh_lQZ74knMkh7vrzvrTq77RFm
+
+sprite $TestinglibraryMd [16x16/16z] {
+JSg5bK0X30NHWSXNylhlTiFwnUV0bqE3VqgIy-CPgjdXuOiVscBmzRocDfwlyFQKQa7Il7ShUUU2crZmwDM0hozdIVtMKZ9PSnorkcG_JsVQdRTobEAy9h32
+XYQ-ffq7f05ovWK4x8DmTcPlpg0zj9jjN4zWiGiV
+}
+
+sprite $TestinglibraryLg [20x20/16z] {
+NSxLOM1H24NH3Lotqt-rCycJsFh3uJMK-KD3MlooiZuuto9BfH_DRhmAMlgmT-AHEzAHD9bFCWHBpxx-J1eCf863uku3UjVzYwu6oeBGMX9tNu6iStJbD9MW
+-NHIrT3pYz4BkKkov-wKP0PMnlwOjd0TpHu0ku2lW505be5bW9oD481ly2l72M9pbO4Am722omIYuL23SjK7ZpugnEptp7y
+}
+
+!procedure Testinglibrary($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/T/Testinglibrary', $name, $tech, $desc)
+!endprocedure

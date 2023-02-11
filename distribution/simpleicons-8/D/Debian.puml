@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/D/Debian
+
+sprite $DebianXs [10x10/16z] Oq06_FmChFoC80OGWqac8CK9Pd61640AZDWGilnC_12rCC21C8yRGW4
+
+sprite $DebianSm [12x12/16z] JSc50K0H543Hgvlzf_sX3wy1K2oYjL9Q1g2Dd7SBSOGuPyBLLnX72J8YxBv9EYSu6fV2y08
+
+sprite $DebianMd [16x16/16z] NOm50WKW34AnM-v_sX-sFdCRW8x1IM93Z99C_wVGeRrpaFc_1J6X153rlzaaJTZ6gZjbhoS5i-x9wQxh5Y6KqZCWYHkAj_7KekAXBiiN
+
+sprite $DebianLg [20x20/16z] {
+ROu55eH034CpxY_tF-rAMvmFOxK46nattEAVsOzG8nc1HD9Pg98UGY4jndLqs7rPIA1eUQfC0np0BjEqB5hp-E-zoXrAdxA7_pujDjCHosQCwaxQmjGoJNdJ
+OFQTC5ZKJ4pO6SG3H_U8YUi7exq59vwuwO_75m
+}
+
+!procedure Debian($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/D/Debian', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/N/Nuget
+
+sprite $NugetXs [10x10/16z] JSO50e0m3C30u4x-_rfadgtjqP6wfUbMpnzk_i44WR2AIV4a4KIhq0i
+
+sprite $NugetSm [12x12/16z] Os1cW0C-VaO4XvC11V230LW1a81mW6mWveApUPZWub2Q5yO66O6DpGUYaSnd
+
+sprite $NugetMd [16x16/16z] PSq50e0W343HJUdQ_KzBDzzyIi0FHuxei2f-Ggbo4Zi3ZIezeTW_b9jVniVqIJfSK-9mtMXPmrWAgYMKbkkRgtTM7J1JGEcZ7eC4
+
+sprite $NugetLg [20x20/16z] {
+TSy50eGm44FHu3PCxd_QbI3rZp-iHTyXRoMdt9pSKA2ZKU-yifUCeHNge6y1PncF_-xjJvFsMsAhli7CkE38xSaiDrsSgK4bPh7DXUcW4Zkf_9hw1iKuIJmS
+7u4l
+}
+
+!procedure Nuget($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/N/Nuget', $name, $tech, $desc)
+!endprocedure

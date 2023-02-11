@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-8/T/Telegraph
+
+sprite $TelegraphXs [10x10/16z] uoS46400nWPYWYnC
+
+sprite $TelegraphSm [12x12/16z] uoSEi3A102-OpSG00ZnG6Ju68442cvy7hqK
+
+sprite $TelegraphMd [16x16/16z] uwS2O6M205uedua10dYWV5vUNWO6RbvU92qC37n0adfy7XuotGu
+
+sprite $TelegraphLg [20x20/16z] uwSNO6M20Lwu61C33F30nLWO6Hc10a2I1qK_0mCpY1eKOZmylBGA9W
+
+!procedure Telegraph($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/T/Telegraph', $name, $tech, $desc)
+!endprocedure

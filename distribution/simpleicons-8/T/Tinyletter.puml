@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-8/T/Tinyletter
+
+sprite $TinyletterXs [10x10/16z] Om02VY1aW33O84n-VWW10gmyC4aGu0KpcHXuES0CA486d9n0ypZP6H2w
+
+sprite $TinyletterSm [12x12/16z] BSZ50OH000J1mbcT_ACzvTK2-n20pJJ0ic-O2zps9WGLyNX0WbFO8vXLpUBvuF_lUtNSTu1j5004tW
+
+sprite $TinyletterMd [16x16/16z] {
+HOx50S0m30FLC5hxRrk7xo4pO28PlU12UCBA2R-qimjoUe5iK8RGeAXD9qQNeEfdJ6myPmo66VOQLWmALFhkjuJZb3pZjN38dh_C_bnIIcfLPRshqA1_7nwo
+rZp2Ydy
+}
+
+sprite $TinyletterLg [20x20/16z] {
+PSk7ZSKm3C1GfiUL-szxPqFuBI_LX0HJyg2umPjbRQQj7--q29pp-oRJ9g6hZK7rV0rb5muteBqN3wlmRWV0MXbAD0i4MpHYZTsTQA0hqBmXskAzckbrtD5S
+vj09PACnBGphkxr5kmTWV4fXIlyKp2bTy7QwoOForEBx1m
+}
+
+!procedure Tinyletter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/T/Tinyletter', $name, $tech, $desc)
+!endprocedure

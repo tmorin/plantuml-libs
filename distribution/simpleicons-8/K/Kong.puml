@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/K/Kong
+
+sprite $KongXs [10x10/16z] Oq03_9mm1X10MGnG5aA42S9a1L50357D0IH1W1KemCaF5MO6OW
+
+sprite $KongSm [12x12/16z] PSl50OK030FGzYl-zfyMTtA9nnDjiqlOz3l9TS7VRvzqI_mHAFSVSf5y41rUhuYQRR3stqYQoGm
+
+sprite $KongMd [16x16/16z] TKs54O0m4Ajxc_stvLvmUDV4_0eUBM2lBKa-Uq-JTbspgmJG-z5QVf-NhQD15QG1e5SQn8C9SJA4jlIyA4aCpXs7r1B2EUXSBME8f5PYgKVQ
+
+sprite $KongLg [20x20/16z] {
+XOy53WGX5CM6Dwwz_sqt7uUr5wM1DWn_fl4DRR1tw02uMaPOAzFUCpjUW2len60hZB8gxERPixkW2KA0T4yRvhuzN3oQ2VFAq1LnJuGX6BRb-1CiagmLug4s
+nqSxsHHUdUaxzOKnw6z9LdSAni7EBm
+}
+
+!procedure Kong($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/K/Kong', $name, $tech, $desc)
+!endprocedure

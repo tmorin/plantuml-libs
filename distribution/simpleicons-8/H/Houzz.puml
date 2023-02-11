@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-8/H/Houzz
+
+sprite $HouzzXs [10x10/16z] O-3dPu00x2mWu8Qme031uaTYWINOSB
+
+sprite $HouzzSm [12x12/16z] O-3dvsE00ZniVWuu6mnucS1iE617OlDZi7buUE1ie3PyR
+
+sprite $HouzzMd [16x16/16z] dSUr0S0m00Cmkyp-_zfoS0be4oGTS6gkbS4VHs_kR3ItXkXZtXUI_cS0TRy
+
+sprite $HouzzLg [20x20/16z] O-3Yv-VdOq01D17Zvs554uC2Ramni79cc1Wgu0ABeGD6Mec1dC16Hp4
+
+!procedure Houzz($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/H/Houzz', $name, $tech, $desc)
+!endprocedure

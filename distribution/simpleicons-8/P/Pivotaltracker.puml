@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-8/P/Pivotaltracker
+
+sprite $PivotaltrackerXs [10x10/16z] DS650G8n002nuBoqj_-qE0aiNK4jXz52sQEBE2SjIn_gO5sXoz1Q-ITBHBZqnXC
+
+sprite $PivotaltrackerSm [12x12/16z] 9SR5WGH1000XTboxye_sb1VWxW3KU2leOcNqttBgbUTPcaltK7zLBzS4EeQhfKfI8zFqIGD5EyNgqu2tgfrl
+
+sprite $PivotaltrackerMd [16x16/16z] {
+BOo54GGn3CJakz3aOwl_Qfyrk0W0FNq4_3d-c3-f1-0gyoS3Ae7XWVp8gT3O1fwuhalhM6YJeTvUEbdcNrCAbmhipHyVmgrngt8RNcYLeP9YSKGB-8ZX02wz
+e0JI3SX7Te2Zw-9EVn92zV_m0W
+}
+
+sprite $PivotaltrackerLg [20x20/16z] {
+NT25iUKm542nuy2RiFglTl6p1WqNUxC_hbTzMhsvHszWdyPwOt-xyemQLHj75QgBgi5QgwSAIyjefXXL2-Bgj4MmFQwJky5k3yncZE8n1Mhch61Knt7K6ovh
+3TGEnUgkX-CnGn4jc3cFypnRtDssNkPG5LE3KRMZEgbsvYhxnrKTdAEt0Kq_Lee-RC3z_zDl
+}
+
+!procedure Pivotaltracker($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/P/Pivotaltracker', $name, $tech, $desc)
+!endprocedure

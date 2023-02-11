@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/E/Enpass
+
+sprite $EnpassXs [10x10/16z] Oq00VXJ02o9OW1WY0yJSS1O_WiK98X0i7WPE8Ca7Lm8M1m
+
+sprite $EnpassSm [12x12/16z] JOo30G0n4C3ogBN_jBLo9ZTf4rmwz7oE6Idoof-PksidWMr_hln3LF_WphSEGEoPXm8
+
+sprite $EnpassMd [16x16/16z] ZOlL0O0m30KFTzX_MgGI--AgUKAalGm7N9upp5kwEs1FlrHV-KXpkfiqxpAFmRzaNZchaDwMIUR_hp3ZX9D4qsS07W
+
+sprite $EnpassLg [20x20/16z] {
+VOw55GGX44EpYtl_rQBpSduV2-FuYWel-0je7pZN_b6eaXWmkSMcpuED53ezAWxFjlHiI-9wjbda_TxRb4HxwKLJum217HhLVrkcIbG6G6Y7AYyM-qCY9oK1
+tna
+}
+
+!procedure Enpass($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/E/Enpass', $name, $tech, $desc)
+!endprocedure

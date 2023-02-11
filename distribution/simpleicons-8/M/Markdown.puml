@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-8/M/Markdown
+
+sprite $MarkdownXs [10x10/16z] Oy06-B411ZwW10EOnS3Dm09M1SGGCOGgDXX060S
+
+sprite $MarkdownSm [12x12/16z] ZOPL0a0n3CBIh_cu_scVkouj41geEc9PtbHjTAYWmkI9I056Lqd8ZwgoH8hQuOKU
+
+sprite $MarkdownMd [16x16/16z] bSV50S0m3C10bRdQVziovkKBs2Agwz-QsSIylVbugn4SrcV1rGMV7bZ9QjpRohNNrtgqUq-vgVxN12q
+
+sprite $MarkdownLg [20x20/16z] hOw30SHG5C1oHf7zfwrjvUCPN8qZejZDm5l_e4BZ8uuO-M3a2uhhirq4_3m5lLEuce9-xUkX-YZ-q1d-Zk7v7i8PKW
+
+!procedure Markdown($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/M/Markdown', $name, $tech, $desc)
+!endprocedure

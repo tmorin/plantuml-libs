@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-8/bootstrap')
+
+' loads the Item which embeds the element Arxiv
+include('simpleicons-8/A/Arxiv')
+
+' renders the element
+Arxiv('Arxiv', 'Arxiv', 'an optional tech label', 'an optional description')
+@enduml

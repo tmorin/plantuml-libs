@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-8/I/Iota
+
+sprite $IotaXs [10x10/16z] NS710K00002X083RVrj_vIyO6Rn6OTZ1qdrEs6V27RR16807l9o0NF81
+
+sprite $IotaSm [12x12/16z] RS470OD0402m7F1xd7-tDT347pt1MJC9aBT6E2VCnXkVtf4Hr9VTBt7XIu-sZ-EhiAygEaYZlG2j5BS2vPDM-04
+
+sprite $IotaMd [16x16/16z] {
+TSgrWGHH30Km-NkONl_L7aEqYkMr1AZfT60Ce3VgEDIbGFfAwN5t40NBtpS_LsUnBiTriiQtn-hQWfhGdFErXedenMC6tKRLj5e6c7iKrjEtYFNnxx6JsPzr
+jPBmBOGgtW4
+}
+
+sprite $IotaLg [20x20/16z] {
+XS75OG1100GWpjUd_sxpYXlupvRu9XCWurcbDX_j1soT5MC7HqGsLPsoa6N2TXQlHgDOAj84bEk9eTK3fY01g34sHya90Xj3Zfw7ihbEpaTiEz2VPzkKNGYW
+gDP3jOLN1JVpzYgEUEAJnKMB3mQvdDCChrP89zcyEdRM0tW1
+}
+
+!procedure Iota($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/I/Iota', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-8/K/Kaspersky
+
+sprite $KasperskyXs [10x10/16z] Oo0ISCDP_AmS_0miN1pCRCJg1G
+
+sprite $KasperskySm [12x12/16z] Ow00yAEmMLcvE5Wu6JdOUK1yPeWmAwbc0W
+
+sprite $KasperskyMd [16x16/16z] lS570O0m542nrzs__RlbZ018-5djDGy7uTpEffRBEfmvsDSmtWOVUm
+
+sprite $KasperskyLg [20x20/16z] pOJ50S0m4CDyJ8Nzfosyiq1iITXyWtMteQHocbB7Kn4jTvkctOLIQMGAl0KGOYg6uFSBOVEz
+
+!procedure Kaspersky($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/K/Kaspersky', $name, $tech, $desc)
+!endprocedure

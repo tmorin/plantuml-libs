@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-8/W/Wiiu
+
+sprite $WiiuXs [10x10/16z] Oo0Ii37m0qbsVauWoSZBmC3B3nRY1x88wWK
+
+sprite $WiiuSm [12x12/16z] Oo0FC34mCJ4oCV0pye5uFFpi33pSFFn00P0GY6G1iSa
+
+sprite $WiiuMd [16x16/16z] jOW50G1120Jdt93-QLyp0Ei4twuOIGodYov_ckTLAvNnTPz5lfNXyFG7V-U87FAcDmGbv6u
+
+sprite $WiiuLg [20x20/16z] pOY50SD030FlcQtzfst3AoG2m_4XURTrJoSMIik3dXTL81QveDd4xZLJC0QvRQoUJ6wkXcWB2RBeVIAvanLjChm2IvpibdkMurtz0G
+
+!procedure Wiiu($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/W/Wiiu', $name, $tech, $desc)
+!endprocedure

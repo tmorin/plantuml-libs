@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/W/Wemo
+
+sprite $WemoXs [10x10/16z] LOh50O1G08MmM_QVrlp9vIMzFy44SDbeWmFKWKF42jon2R_MGxLn4Old3G
+
+sprite $WemoSm [12x12/16z] RSl50SGm44DHcTc__seNmycx34fYCIMECer1pW06Jn5ewsECW3xendJEDDImSxgdRAWrCjc9tHi
+
+sprite $WemoMd [16x16/16z] PSpLOSLG50CmXvDBsd_QSX_gww2JucvBF2jU7KsCov7qX_uwoKEVRntb4gL-xq_VfhHCRDzhtkKRsQRvbjUl1VEuvqzO-xqVwINGXq9dAzWyYoVx9m
+
+sprite $WemoLg [20x20/16z] {
+POzL0WKX3CG6Mo-v_scVh1VoMPjKofKtgwIDbfpfyOl6YK16clTJqTTCG1fSRTAVSDUsNssEzGSxeImA9j389cCdnJh45IWXUe_scx9Bp0flbuMuxIvXShdJ
+hjQw01PT3HLRJfS0mHXdA8fxA3sYeohtfIy
+}
+
+!procedure Wemo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/W/Wemo', $name, $tech, $desc)
+!endprocedure

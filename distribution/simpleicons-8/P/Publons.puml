@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-8/P/Publons
+
+sprite $PublonsXs [10x10/16z] uyS1-E0i1Y24iTWnnP3KuG8
+
+sprite $PublonsSm [12x12/16z] uoSIC38mC_31E0pyt0m8DXyZWitCZs3pOsCpCV3YjGS
+
+sprite $PublonsMd [16x16/16z] dSUr0O1004MnZpjl_stfEDTqeTUBiMYU90mTeClxuHth4-zeVzyUd4FcY_JGvmC
+
+sprite $PublonsLg [20x20/16z] jOir0W0X0CEAE_t_QqysR3cXOvDmqogP-YS1MWc4xfGe9D1zwlxaudEBJuzV8566JmjPERTyzGL05kxQ2G
+
+!procedure Publons($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/P/Publons', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-8/S/Statuspal
+
+sprite $StatuspalXs [10x10/16z] 3S610K000C2W083z_oq5QoFm8dZEsIqW9x0780DC3W09m0Rqk_a
+
+sprite $StatuspalSm [12x12/16z] 5SR50GGn00GWLkEP_gizuGLeUG1zOXzmUZAZm3nET0kMcTCre5h_lxWFWXVOrmKW0l3I0O89oEe9lW
+
+sprite $StatuspalMd [16x16/16z] {
+7Sd7OK8n00KmkVvgl_sdJG1T1PGt5m0bkzUP3IZXUgSM8CxFNodbXbhB3UA5o-BD_0xSRf9mWkaWlmSKPg23WTmt2b2K21N0AdO3GB01E2S2GEwrr_C0r0nS
+WNy
+}
+
+sprite $StatuspalLg [20x20/16z] {
+JSo5WUqW50N0YIVOwR_QBxjF69mhNiwUkfhLZFBKvFIH0MmfNdBQawJHJwzMIdQq461OubNht45LqR9J5WKS6bSIhpis3tSIR0gudMWviBZ1PK7BoiBYAxt1
+3TZm3C5YabqlpDRyhbb_aDqiS7MJMYth8YPvQJxske8Zu2y
+}
+
+!procedure Statuspal($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/S/Statuspal', $name, $tech, $desc)
+!endprocedure

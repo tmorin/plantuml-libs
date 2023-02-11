@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/H/Hotelsdotcom
+
+sprite $HotelsdotcomXs [10x10/16z] VSQr0O100C30L3Xa_sbnUxtgW8MR2htIgkYpVhwdLaOqPeL5Dm
+
+sprite $HotelsdotcomSm [12x12/16z] XSor0SD00CLG7VFz_QTDZ9L9rQi4C3dpaW2ZYG-hOsiIRlFe_NIhOPnU-pArzBiFkQsch0Od_G4
+
+sprite $HotelsdotcomMd [16x16/16z] fSsr0S0m34JHCxDk_sd3r8I_yLN260EEaImOQmHG8uU0MDFu2bUpNbW1QlVI3ySXUJv_jv4mkqYUNfZXCHWRs0C
+
+sprite $HotelsdotcomLg [20x20/16z] {
+jP033eL16CJcNtlkVzhbizceQV01av9nmSREjbnuWKxW80xrefk15gib82h6QRI7Hi7qIlCYdxT1oRngW_-rOH0GptP-thmwjBp_IzSyckycYktcC2XamS8c
+XmO
+}
+
+!procedure Hotelsdotcom($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/H/Hotelsdotcom', $name, $tech, $desc)
+!endprocedure

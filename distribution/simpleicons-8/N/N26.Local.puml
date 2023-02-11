@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-8/bootstrap')
+
+' loads the Item which embeds the element N26
+include('simpleicons-8/N/N26')
+
+' renders the element
+N26('N26', 'N26', 'an optional tech label', 'an optional description')
+@enduml

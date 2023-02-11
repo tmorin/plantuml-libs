@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/V/Vodafone
+
+sprite $VodafoneXs [10x10/16z] FKo35G1053hZgVsd_RQh9lPncXe0cRyFMhQKU7oPOgpfr2I14a1YTWmC
+
+sprite $VodafoneSm [12x12/16z] DOg55G0n58FISsV_RUzHeVf98ZT76a09jE_h1TwQ1vK50Mwr74Zx5pX6vuICWFPdpWBiYiPd-lhJ_W
+
+sprite $VodafoneMd [16x16/16z] NSy5eeLG24NHyzB4DV_H_h1rtwGXCvyoFB9HgCGtCvZcH-LumPWKagG3Z-2TcHu-o0gKGtw1GtvWkDbdtH4lyCfMSSeNwfdd14dAmJp1U8X7dNMe_08
+
+sprite $VodafoneLg [20x20/16z] {
+RO-55GGX30K_xgJ_Rkz5RdrM6OZ1Q9jcneL4JFDvEXXY8j1uurGBW2Ec7wSa9Gd9Se69MwKUQr22k2eE1oBRtGrUxhlp9DoSz3C_pcL--Nk-e-NhJEigIQCS
+2TN1jQDYepjW-arv2Eb-ogWgbXxw0G
+}
+
+!procedure Vodafone($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/V/Vodafone', $name, $tech, $desc)
+!endprocedure

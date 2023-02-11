@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-8/E/Epicgames
+
+sprite $EpicgamesXs [10x10/16z] DS650SD000IWY-UL_QUj5z9zRV4NiI_34Cc-3aGSXYwsxJ93m8qeVRSMuYy9cv4y0G
+
+sprite $EpicgamesSm [12x12/16z] FOl50G0X0CDohhJxJuj3NbKE3y2J9sl-vG2gVeCMMAjU0pTuv8QbwksNZtslMiv8HUlOhlNVwdUGzJ8r1Lb-WGG
+
+sprite $EpicgamesMd [16x16/16z] {
+ROt50GD130Dd6MtrNssOS_g9mVN6Xg5FNFciirPLvNRdfJahKZiFFeK2TSO7fr3JXUljRrruy7V-miU3ZzIJb1IoTFI_il11x0z_vXxs9Axg1_dmmo5A2vB9
+U69BwW2S0G
+}
+
+sprite $EpicgamesLg [20x20/16z] {
+VSw50S0W40F0F4znoFxJrjtIOeS2XTSe8Bm7CEy6G864Ai1kYMfLK46fJpEx0QEPoSZDGb58dSorqzwEd4pAPbrSBM5Rfwh1axP5sBytqxCmCmHFlnbyKL61
+CKKtYoZUAiKWulCyl1aYoHAdDB9PB56IUQegJf54qcF9
+}
+
+!procedure Epicgames($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/E/Epicgames', $name, $tech, $desc)
+!endprocedure

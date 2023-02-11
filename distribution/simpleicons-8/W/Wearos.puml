@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/W/Wearos
+
+sprite $WearosXs [10x10/16z] Oy02-FYv-VaP6HYu-1dumGZ8159CK0w4PWIoeD8W0DJ13c8Y114
+
+sprite $WearosSm [12x12/16z] TSU53O100CNGZplTVrlIY-2DlUQd7W8AvcAqs3gzzSbUVgxymBJuYnQqCU6NXBQQCRk-TW
+
+sprite $WearosMd [16x16/16z] XS65WOK0042XzyjMzf_skXFwpxRNoTIJOzxOGezs5hIXQY7CeJgVJtMWWxM9IuNR6UtC5OGXUeJJW5v0kFJiYbQENc0DlPYujTCdftvo3m
+
+sprite $WearosLg [20x20/16z] {
+fSu5aiD044DHcTdl_gTTJBfS6Fh3qo3b4v1q7FK-Jso19h-iM24Jv9SEWUcIsAt91lahIIRc90sqWGII1EJ4KdyjD84qzFa5zh_4l_SV4_obIw5yj_MtKRwB
+gvrhOfC5IR6RQt-URm
+}
+
+!procedure Wearos($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/W/Wearos', $name, $tech, $desc)
+!endprocedure

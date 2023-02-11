@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/Z/Zillow
+
+sprite $ZillowXs [10x10/16z] DOk35S0044FpMFVlF-tP29HnQmBOeyyB-FGZDNFs8Y2-0j_HrteHxxhPS
+
+sprite $ZillowSm [12x12/16z] HSh70O0m0810x5tsdrRJSryWEMbKii68w31w7U5LuwuNEW1CvcqucNFTt1aV8ht9Dl8slYewy9XWzmC
+
+sprite $ZillowMd [16x16/16z] LSq75iGW40BGYRrp_zlkGsORh_4JHVCC-mjmVXJ1V3YWHF581-388sKsZX0QPrt6NyxhnBeV4LaBHjRFsy6CkD4X9MtkBQ73z-7u-6n1zhXV
+
+sprite $ZillowLg [20x20/16z] {
+VOz50WGn20I9U_h_hnqZq-jRDmeNKkKT0_GtbN3oeXgK80Ja7kfe1Z0lLMuX8XC0Hmqd1ogj32rHCWxSuUBRUYT9JY9M8p2CleMXLKt7SbaVhpE4iCemCXrm
+fqjBk4DWkSuFGOV01-d87xS3
+}
+
+!procedure Zillow($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/Z/Zillow', $name, $tech, $desc)
+!endprocedure

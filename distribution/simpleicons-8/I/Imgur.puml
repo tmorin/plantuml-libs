@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-8/I/Imgur
+
+sprite $ImgurXs [10x10/16z] DOc70G0X20FlU__ilwrHu1H80RCz_tyGhAkN-6Gil8OQBrI8jnJJXpvB_dcM9bb45K03
+
+sprite $ImgurSm [12x12/16z] FSR50SLG3C0mVoWtyVxJ5Xxf98ffJ_CBd0ndOW7XiL4V6ltoBIrtButoMl1h99guSQedWIgc__o8WggR2jm
+
+sprite $ImgurMd [16x16/16z] {
+HSU54OH04031mU5a9_zidvFYkxIPZgU4aMdMkZD5Qy2LGtLVtogdmmcRvk2OR_LmONxHpQ_kcvL_vT2lINcqp9uS4YhNQ72YdfNKwXMGLGldswRI7-2njlRl
+6jgBGvhb1m
+}
+
+sprite $ImgurLg [20x20/16z] {
+JSe53WD13CLG3nGM4j__jjLiIXPzFNq-jTjsP9hneFBSHc-DLOyYgZxdR1mN9K-_iIrIY9yzBphix7-cYiBFh22_jYdtUdrjrx7_lmnE_N-TUf9g-xuQknkr
+hA0HWz0pAUoSTc3Nq0iXezknkJeXrskrj1X8AUAwDTr2AS9Lg0_hLLRbbtW1
+}
+
+!procedure Imgur($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/I/Imgur', $name, $tech, $desc)
+!endprocedure

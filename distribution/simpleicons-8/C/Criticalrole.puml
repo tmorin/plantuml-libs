@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-8/C/Criticalrole
+
+sprite $CriticalroleXs [10x10/16z] 7SQ50OH000F1UG7Eqt-rM7J111HyWL_h_Y_CnLR0cd-5FOA2IA8OoYVeR_86IiK5
+
+sprite $CriticalroleSm [12x12/16z] BSR5OS0m400mtJanrBJ_j6Mz16p-3QA0J6zh6WvXmjJepyvMwrHfxtrA6J-FxPAcsd6hYEcdRMM4QPRCl17nLamk7q2yPS4N
+
+sprite $CriticalroleMd [16x16/16z] {
+JSo7OGGX300mcNiVnK_OVzhqfW7as_PVnPMt7tUwtIf032uB2lL0A1EBwjnoPxGxK9ixw-LcBbHojtuoyxelYjZfe47fslDn6ExlF-VpH4nGZIuF66Ir3oVU
+NHjcuE2-04-EDlsAie4t
+}
+
+sprite $CriticalroleLg [20x20/16z] {
+NSe5ig0m5031VX680Bd_QLU0hrq-DJwTVfkjjTrthTbjpiGh3weenFIuxXx3H9b8Kx0p2UIBR9BZ7DUqwrKZ2pJr73EqYBib3Fdgft9mjv4YYrWXehwVBTR1
+WiJJial9o-b8usaxQsghBok9kmKhsdx4AAFO_xS3JVJbCObhI_-L5RS-eKw81PPNtzusioyNJMz-I2Dthxy
+}
+
+!procedure Criticalrole($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/C/Criticalrole', $name, $tech, $desc)
+!endprocedure

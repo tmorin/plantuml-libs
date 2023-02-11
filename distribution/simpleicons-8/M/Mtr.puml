@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/M/Mtr
+
+sprite $MtrXs [10x10/16z] JOg30G0n54DpHl7sdxRMPwIrVk3A0F101YhDNQXeLS0EfcepDoBAPVZIZG
+
+sprite $MtrSm [12x12/16z] NS650OH00C2m0kVM_QTzLn9EmhHl03IVTkZkHMIweGiPg5MTW1-e6jK362hQ4L7PJLECKs3pYJzN
+
+sprite $MtrMd [16x16/16z] ZSor0O1G303HmvtRVreSlbIy9Xv-cBrrd4e3eD0I9vH5GOzYEUeATIuybE7D_MkwtmGZR-Af05fFU82HWVgjMvnnkbEqRSxQQd7Xi8QlS2gNKELs
+
+sprite $MtrLg [20x20/16z] {
+bP05aWKX50E3Exd_QSV2wlSUfQkUuYCgHVWsdJz4AOgfJr_Audmc7GRP55YGBgSOeqWWMpIWd8SHANcHT1WKJUOl5eEBjZem02A5NP52xlfCuEojm9odSWKu
+jDEjpZHjTBnSSuCqMielf00xlat53xvDZcBma1q
+}
+
+!procedure Mtr($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/M/Mtr', $name, $tech, $desc)
+!endprocedure

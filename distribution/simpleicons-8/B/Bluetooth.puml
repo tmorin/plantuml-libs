@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/B/Bluetooth
+
+sprite $BluetoothXs [10x10/16z] NOc50O0m4CI2Ezb_MfpQood0xC0pEkahv9KYpVIe14IBh3LhTrwfS08
+
+sprite $BluetoothSm [12x12/16z] LOY54SG03CFqK0RjlstFAITcSfC3-wswQfVuLTEJDRxOLaOMDFcjufcNnuwirBBMf3-8MSorQiKD
+
+sprite $BluetoothMd [16x16/16z] BSo5aGH02031EVVh_ADzePZItWMQhX_lGxLYMXuWQDe_tDPVAgnxIh7NFZsxnFYERsNzW7ClzdzOh_M5I_hsD8v8LzRedz_nUtp3iGd--MaplQf-0G
+
+sprite $BluetoothLg [20x20/16z] {
+HSm54i0W44FHrF7S_xPbCnduLHu2LphR1-mEkhfDmynPNoH3Yi_jdJPe9LIstKZBEebd6g-OFcKaCvvfcaws-3iWObd6R6BTHk3XDfFHUqK9MPXbebx15FZ8
+AdbtJjFq8Tjd3srHDds7hSYqYe3hOOnUh3wgVY3w0G
+}
+
+!procedure Bluetooth($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/B/Bluetooth', $name, $tech, $desc)
+!endprocedure

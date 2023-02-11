@@ -54,7 +54,7 @@ The available packages:
 - [Gougle Compute Platform](distribution/gcp/README.md)
 - [Homecloud](distribution/homecloud-2/README.md)
 - [Material (v4)](distribution/material-4/README.md)
-- [simpleicons (v7)](distribution/simpleicons-7/README.md)
+- [simpleicons (v8)](distribution/simpleicons-8/README.md)
 
 [./distribution/README.md]: distribution/README.md
 [tmorin.github.io/plantuml-libs]: https://tmorin.github.io/plantuml-libs/

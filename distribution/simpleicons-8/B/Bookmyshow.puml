@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/B/Bookmyshow
+
+sprite $BookmyshowXs [10x10/16z] DOQ50G0X08JuJcN_QMql0HQ6r6MPfCO5JZXK-H0Ds2tBfDtrj0c11xRhbYwzoG
+
+sprite $BookmyshowSm [12x12/16z] LSY35KLH00EmFkCY-q_xpHmK-KTxrnNCvNa_DOaCGumYeqFJOX7Flcpgkuk4ekj66Ji9M-zvqGpllf5S0G
+
+sprite $BookmyshowMd [16x16/16z] PSV50SD00C0m9pacxpzjcQkV-BSfcRUcsjFWmOVi_leBbCQLcnvJC5LnKhFukeZOIU_d9lXwmAzFd1ogTfsswCu-r1rKbjm40BVcuatrWBTz2Pm1
+
+sprite $BookmyshowLg [20x20/16z] {
+NSZLeKKX30313SUHRF_LFXUuypby2Lvj2eM5cXh4UdxzGO4lnKaI0JIND05F00uDzL10ZkVWYIAwxGfD7XyKOqYtWlztna0BCLroXS8zdJ1CoFbsj83prL0u
+dN4xe5JL4pPra1vyUIh0viMjBFp2OgZUl8Wd0Tu1
+}
+
+!procedure Bookmyshow($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/B/Bookmyshow', $name, $tech, $desc)
+!endprocedure

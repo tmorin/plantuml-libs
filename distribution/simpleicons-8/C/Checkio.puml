@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/C/Checkio
+
+sprite $CheckioXs [10x10/16z] 1S410G0G002W003_toe00221aRpSU20wW08DF1w9ISN343O0-
+
+sprite $CheckioSm [12x12/16z] PS770GCX000WpjxTVzly8tWy5dD0o5Y4a3yAV1Ccd06jqG4CH1K8654InWVYRVxz
+
+sprite $CheckioMd [16x16/16z] bS69SGCW40GmyGxiaVHVhbkm9J-x7S3Cuuu0PoaeSvB1njNn1wtXS0lOO2N0EwWDK3m45nlce2yJe0MYcynqmFgldEOR7m
+
+sprite $CheckioLg [20x20/16z] {
+hSl5WGGn40F0aeSDw_oZFSRVmLQtz9Exsc-OYqzNNJREFHMWRdA4QNKStWTDA2RQMWE3E2di0wY8YZ6tyYJP2w8OMmNaE96p5GAuwCI0oNkVIwY57IgGXhLo
+i0UiymHLLLPoriMxwtAbTz-Ksnw_zGW
+}
+
+!procedure Checkio($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/C/Checkio', $name, $tech, $desc)
+!endprocedure

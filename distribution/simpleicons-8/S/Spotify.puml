@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/S/Spotify
+
+sprite $SpotifyXs [10x10/16z] BSR50S103C0mbxdUVzgZH2_HNEvq3XUODgGxzNAuKM45TDDptcrmG3dDmvgf
+
+sprite $SpotifySm [12x12/16z] FSY50GGW3C30l6kR_QV5uR1Gkfzl9gUJtSZuXVr15lsvl503xj3hhMQaNXMz_V9xmTx7a_D9WDZJ2W
+
+sprite $SpotifyMd [16x16/16z] JSy50WCX34JHMLyWuT__jkrKyrQnY6HxCXPz1M-NPFpCEhIG4iY815i4-kh03aTC81qDqh_dkXu1dDWcRTityk3da0FYh3Om0HE_5W6faqfIKaCyHHtQKhfv
+
+sprite $SpotifyLg [20x20/16z] {
+NS-54SGm34HHMH2Ej_zkxrPXlI7FDyjfxjW6UGcSzYOdlCmrqL8JnNbMtzPjnudBDhbDRDE_3I9gRgQise6vNc30FsCBFglfmZ4EtEBwl6l3eySH0pIvsh0p
+vxxyJzEyLZFjikDXkLMbeUBRQw8PRoh9yIX_1tOL-W4
+}
+
+!procedure Spotify($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/S/Spotify', $name, $tech, $desc)
+!endprocedure

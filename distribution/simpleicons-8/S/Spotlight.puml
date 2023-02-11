@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-8/S/Spotlight
+
+sprite $SpotlightXs [10x10/16z] JSor0SH000D1cU5W-g_s6IpCDYyDxmElJpETvgXM349twYVIaw4JoI8hGKdIP3CumuLt1m
+
+sprite $SpotlightSm [12x12/16z] LOk50SH048H8pfN-gtrNrcNuftld0D2vxjbxua0pLWJ2pflk8MTLyw4w2WyKkxdvwaFApFCsovQ5E8qmtPjJ7xB3Ey0L
+
+sprite $SpotlightMd [16x16/16z] {
+JS65WKKn3C0m5nwrIRp_jCVm9RuqNZM_yUrKtLjj0BgHjL0tNCfUKqUWe9qxKMJQC8vs6122TMdhUQZsvXUkCnzkEshJBcEOsL1HSe85lNn8i-NJUoqoXA4i
+cxLNAB1qIjkXTZxvO_F3BmlW7G
+}
+
+sprite $SpotlightLg [20x20/16z] {
+JT255GCX403HsUCCs-c_sppY7tVXJ_0lVRdvygloqbnEE5Ht05TxcsWvswipL6HRJMvKAEP0pbiD8nIwKOacvM08qq0nKcrLawQpwNriqgUpbmpVk79ZSaL9
+L0-Lt1inf7HKqKJQ4Gfdg9NgNck9F9J6iGes5UcLYZWLU1tIRs-CeGbSQbHfDouiQr1RcVd_WxVBmi-PpfuEM1u
+}
+
+!procedure Spotlight($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/S/Spotlight', $name, $tech, $desc)
+!endprocedure

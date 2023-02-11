@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-8/R/Reacttable
+
+sprite $ReacttableXs [10x10/16z] HS710K00002X083RVrjFnM-JGCICwwWNTkFUJf64gBX9W8WDdjaR7m
+
+sprite $ReacttableSm [12x12/16z] LSkt0GC13CGmVCww_QTrKcNKf7_rS5v52oFQP88rjULK4nCbQfSkOu6eh5aF7emgTJ_QCZ1g-pRsu7cGZJS
+
+sprite $ReacttableMd [16x16/16z] {
+PSU5OSH040F0ENYpL_rN6-Q8nN_S6JYp0alJIZZWeu8ERE1c0EEwyuBfWb7qt2zKUvaTMTUiUpeLz9KG45946oZExEgHHwmrO3HhZiTiEx2Z6lhtNzE-Vb_S
+qtKeG1jWWMS
+}
+
+sprite $ReacttableLg [20x20/16z] {
+TSk5OHWn44JHfzEXQFglDXop_pACxpXQ1NSh0DVZ2bUg00HMwpYsjpifs7PlTu9Q0FrwLdwnQ40PuzvorjHP9GtZnZRlExzSi-UuAsIEaL-UWXdOWl_XCh5M
+gpMrBZ2L34F-C306bBaxdfgQENC1WZHmUxEJ0jlnTdUbO7khRQtau2a0cTcnakKJ1Vm4
+}
+
+!procedure Reacttable($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/R/Reacttable', $name, $tech, $desc)
+!endprocedure

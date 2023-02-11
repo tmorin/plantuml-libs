@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/T/Tryhackme
+
+sprite $TryhackmeXs [10x10/16z] PSR70O0m40CmqJliFosG-1bTiU7QHCS3-JD6iIqGgRrROo9kCx0wjmy
+
+sprite $TryhackmeSm [12x12/16z] JOk55G0W44AnM_VVrcTSVEC2m64MVCQPVc_FjyvNnorh32XIv9PJBI4SAUSCJMdLys0j3FVSdYRQ3G
+
+sprite $TryhackmeMd [16x16/16z] NSVLeSDG5C0mNGwV_QTzs3QWBnkOOtRgaQGetdOGNZR_Lf1ZZmJjFu9Jw8LJKzexIy8GxzyM-k28NyN3Niks9jw6j2oPj_n3JjwMPHvctWPwdvnAnJS
+
+sprite $TryhackmeLg [20x20/16z] {
+PSY75KCX243H1nYxil-qARzxSkcm2sCM5khTjFZoTTb7vZ9Ux1o0TQsHtVJXnpw-Qm4yi1W5xR1oKk6F33WaAb1QmXC78IZKMM7ut2We828yAORn54XKBpm9
+Hdqrdan454ov9V9CI3Hk0X0jPcuv0psLoY95W0y
+}
+
+!procedure Tryhackme($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/T/Tryhackme', $name, $tech, $desc)
+!endprocedure

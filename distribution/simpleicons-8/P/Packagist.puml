@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-8/P/Packagist
+
+sprite $PackagistXs [10x10/16z] 1S450S10400WzkxNl-q01B0Fnc6xGrzOTeXGEHT9GM1z6Qa2d0sWMW3W1m
+
+sprite $PackagistSm [12x12/16z] BScr0GH130GmBVku_seVhMW0UAHjO0UzbugeD7CUjWc3ap8hkh5XL9kXeipDRvf-ZJGAiEMLnPBgsZQy0G
+
+sprite $PackagistMd [16x16/16z] {
+HSlLeSDG30KmNRPBsN_Q1mtfntZinkPMB8HTcm-1MSeuhckWZp83p3aRsUbx8ZVgzWoLgcYZOO0tZzVU1Ing8lMqcu7wlY8ye9oJkb1TcZ6MuT9OYiipnipf
+dcUnZxy
+}
+
+sprite $PackagistLg [20x20/16z] {
+PS75OG0n300mEUJ0mVxRzbMM0AotyLjY-NPS7SGy5nXPaW7iN712tYOoDWKse_Q9Cw1YCy_z5kkztqd7aB906x08BlS22XeLwm6o3n0eBnnzhr0XIbim-YAo
+0xLa1xOllG2b-78vqFmqPM_LzbEdxE6N4oAE_wfVIa43FW
+}
+
+!procedure Packagist($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/P/Packagist', $name, $tech, $desc)
+!endprocedure

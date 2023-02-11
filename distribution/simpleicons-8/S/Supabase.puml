@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-8/S/Supabase
+
+sprite $SupabaseXs [10x10/16z] Oq01_3068vp5pmzZG062mS0114065qm1GYcAWG
+
+sprite $SupabaseSm [12x12/16z] Oq07_0Wc6nARdn_1HB3v-A60Yu657mQ0mY00PYAqS2AnaKr5i1b19
+
+sprite $SupabaseMd [16x16/16z] RSc55S0m30DHbRdQVzf2s731_mm_IfxI8wKfJUdZznZxEB3fSyiLsCMu52azIEyGlY4DwJw-Bm
+
+sprite $SupabaseLg [20x20/16z] PSx50SH03CLGBORp-wyspDBn3TZilN71PAjihzXYwsnbPA_S0tXGRmhmVj07eDnQgTQEwR1X-zfgRDXGvsSZ
+
+!procedure Supabase($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/S/Supabase', $name, $tech, $desc)
+!endprocedure

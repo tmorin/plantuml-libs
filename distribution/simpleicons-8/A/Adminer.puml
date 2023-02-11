@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/A/Adminer
+
+sprite $AdminerXs [10x10/16z] PSYr0S1000GWufxRVzjlNoWn2ikAk0Al45WX5sjexa-ojiUs0mK
+
+sprite $AdminerSm [12x12/16z] ROg55GDH2C3otM7_QTjp3vu7tmHs4fXcZIsD0Kr7SBwrsJTbnZEZVVvTpSq7mBnziNCNdlm1
+
+sprite $AdminerMd [16x16/16z] bKi30W1129mrg_-_zcnVRe1VeSlc2HPmYeDMskG2xtfGuYZaaOS0BdW5EvbasiillKrbkUEdxUQ_rc1zuloYZvYDJ4Ip_1mj
+
+sprite $AdminerLg [20x20/16z] {
+dKm50iGm22kGElB_rvwxRakLMDgCQ2y47quvVYI3Bvx3wK4sX8cuwJnGPpxa6bEwa2cWhbFDUw5ptpWeLu2klpkNxrpqqnyMZpuMYF2dx2E7ws_UEV4uOVp9
+Vk38EXCHozJq0CgrIFg3FG
+}
+
+!procedure Adminer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/A/Adminer', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-8/S/Synology
+
+sprite $SynologyXs [10x10/16z] Oo0ICFF3M1pShApy_DniZ8n0KP009ni1lG
+
+sprite $SynologySm [12x12/16z] Ow00SB0oC332s4pSh8pi_5oCp0mS30nSK556aiq4
+
+sprite $SynologyMd [16x16/16z] jOU55O1034F_lJR1OVzfSHi0uk5lwEmugewaxs8iKHKhwtfzOc8INT23jmYHGYwy4NoF1G
+
+sprite $SynologyLg [20x20/16z] pS470SD0302n--rPyqVR7GwHkBdnAFwKdpPZ1U6fTbHdQ-9CmVTQIujIPuz60rUgZTszoPbD10FmmKNFJcxb1G
+
+!procedure Synology($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/S/Synology', $name, $tech, $desc)
+!endprocedure

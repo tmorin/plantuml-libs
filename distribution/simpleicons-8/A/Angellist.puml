@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-8/A/Angellist
+
+sprite $AngellistXs [10x10/16z] DSYt0S0W34JHHohDttzRLqYN0K2J4snhEa1vuGRqc970rzkA0U7o0m
+
+sprite $AngellistSm [12x12/16z] 1S470S0m00CWzb-R-7SxW0609Jo05_SAJDqL8FK0is-oWoeiKBR6WuhYHAUK5PRzLGAsmLhy
+
+sprite $AngellistMd [16x16/16z] {
+LOs50GH120C7pbT8_zM-mikiOWa0M-UFQIimZoDZ8R2TC-F13i5c6RiZ9g88j3c3OgwNE3mZaoxO8Z8M9W0oqOmPKWdA1PUSZ4y811MFoJK4-57cGbNETu5m
+aeXjxGBW3W
+}
+
+sprite $AngellistLg [20x20/16z] {
+PSq5jWCX40J0cer3eEz_sg-yZTNJqVPl-f0AcFVnwDckk9o4PPOWwl7aUDKEjkPsifigKk9Xh9pfuTYqqVGJ3qaoBx4xPQHGjvmj8LSWbhwHtDlj9BN_efLq
+LkzwTUrgXhtNbJugvV7lTXwa1xRLgyYCm2p_UhSnqJhBFS2O7iwPlSqSWMy
+}
+
+!procedure Angellist($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/A/Angellist', $name, $tech, $desc)
+!endprocedure

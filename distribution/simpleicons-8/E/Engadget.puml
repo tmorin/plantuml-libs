@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-8/E/Engadget
+
+sprite $EngadgetXs [10x10/16z] Os3YXG06Pdu4O800h2piW04A42n6k1G
+
+sprite $EngadgetSm [12x12/16z] Os3WXG9k1WP-PC32204yG3OJ0mJWPgC3J7CO613gGMoOlOn8zZ8o
+
+sprite $EngadgetMd [16x16/16z] Os3Wu4K09WO6VXJ0oyMF0HZWW8bYFec0Zm6i7m6myPaG0EWxPEqyG0LeV
+
+sprite $EngadgetLg [20x20/16z] lS-35S1044NH5pk__sfZctkFnmDscas5GA8bsz5QBcNHL1kEcJ8IUyNMyWyFLZku7ikq05WRCRnrh0G
+
+!procedure Engadget($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/E/Engadget', $name, $tech, $desc)
+!endprocedure

@@ -15,7 +15,7 @@ import { GcpFactory } from "./packages/gcp"
 import { Homecloud2Factory } from "./packages/homecloud-2"
 import { Library, Package } from "../generator/workdir/manifest"
 import { Material4Factory } from "./packages/material-4"
-import { Simpleicons7Factory } from "./packages/simpleicons-7"
+import { Simpleicons8Factory } from "./packages/simpleicons-8"
 
 const PACKAGE_FACTORIES = [
   new AwsQ12023Factory(),
@@ -30,7 +30,7 @@ const PACKAGE_FACTORIES = [
   new GcpFactory(),
   new Homecloud2Factory(),
   new Material4Factory(),
-  new Simpleicons7Factory(),
+  new Simpleicons8Factory(),
 ]
 
 export const PACKAGES = PACKAGE_FACTORIES.map((d) => d.getUrn())

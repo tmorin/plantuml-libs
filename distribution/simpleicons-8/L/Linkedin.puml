@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-8/L/Linkedin
+
+sprite $LinkedinXs [10x10/16z] O-371XYuO2nEX1W_0n3mG5WW16CnmLdCo2m4
+
+sprite $LinkedinSm [12x12/16z] O-371HWOaDaurJ2009pDpyx00cC3AIOyR2Oc809IR2Wc0W
+
+sprite $LinkedinMd [16x16/16z] O-170JnW4asC5uNBnS30XypdPK0pWm-D2vG7wW4gOuAhvsG00sOaFZi_K0293xG8ZSzD7X-_1m4
+
+sprite $LinkedinLg [20x20/16z] hKrL0iKW3CiSQxd_RH_k_BriM6CWE-ARHdie7DCCW1fd1y2JKCuZ9bTERcEf6cy8VU5Wkbb2FpiikPsw6OTTTpDtFHUpwnypezsftHQkR9SGYzaF
+
+!procedure Linkedin($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/L/Linkedin', $name, $tech, $desc)
+!endprocedure

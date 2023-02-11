@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-8/I/Insomnia
+
+sprite $InsomniaXs [10x10/16z] 9S650SC00C0Wvglc_skh04DVf-0v45FzVPogppZeqKcw-Uh6yzb91YgdpuZO0G
+
+sprite $InsomniaSm [12x12/16z] 9S673S1030GWqhjl_sqZwq5xSXe2Q-0boIG4TvBRfrMIU1_vAkqLQSsfCboiCYYnfIqEmlaT57mtwk07
+
+sprite $InsomniaMd [16x16/16z] {
+LSV5OGG130GmBQCz_LSRpe5-0fRADVXNFM7B2eHVM_rtp9VPV5CWtqx7e9_F9CjauyWlNUJ9dlUlr_lFOVDiYHZpZxPkbloQD6gcabnSAzo7Nxq2GtfVppHy
+0W
+}
+
+sprite $InsomniaLg [20x20/16z] {
+NSn7OiKm24NHA_nbLNZxNssAgv8peSEbXURE8ikhsTRbYOkSYwbThHre7hC2tfyMGxygH8Ri77Je811hJvbUkTQcBg1MARBakYKKnj0gu_hVgyovqRJQYBrZ
+Me4GQ14anmtxksOaGLw-VGIq07GuCdxr0B3DW8-CGrRda2GULV8PSkFNDm
+}
+
+!procedure Insomnia($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/I/Insomnia', $name, $tech, $desc)
+!endprocedure

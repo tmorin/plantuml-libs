@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-8/D/Douban
+
+sprite $DoubanXs [10x10/16z] Oq00VXX04kE12_50X55P20tC808g0S7yS
+
+sprite $DoubanSm [12x12/16z] Oq06_0Z0W0AGXQ5Ih4Xi9dGsGZrCWXCYpSyD8K202woI4OYH
+
+sprite $DoubanMd [16x16/16z] ZOo50S1030AfUs__QUlwVgz909dmHyKV1GtJKVSNurNh8a-i_tdrG5_lG5DgvsXVni-7uQh7e-x9jtlQc9ct6wRZ_hC2
+
+sprite $DoubanLg [20x20/16z] fOq34i1040GNiVh_lqt5vlLnDIDdSEGqzvgABJSvcR6mt7lVZcQUNcHy-gPBJi2aewQSSmt5MFFkqOuSkiV1kfSJoXDQ
+
+!procedure Douban($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/D/Douban', $name, $tech, $desc)
+!endprocedure

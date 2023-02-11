@@ -16,7 +16,7 @@ The library provides 13 packages.
 - [gcp](gcp/README.md)
 - [homecloud-2](homecloud-2/README.md)
 - [material-4](material-4/README.md)
-- [simpleicons-7](simpleicons-7/README.md)
+- [simpleicons-8](simpleicons-8/README.md)
 
 ## Include the library
 

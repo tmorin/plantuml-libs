@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/M/Microsoftword
+
+sprite $MicrosoftwordXs [10x10/16z] Oq06_100P74X2N2203y34nzK38ZP8GhPkO4yg3eClGXX
+
+sprite $MicrosoftwordSm [12x12/16z] LOo50SH02C20SoFxJ_jIRt2LDvs3NpwFdgOnVEnCb8pkVGJnSkGfD7DsN12EFiv2_qGnMxQJdlz_blpW2m
+
+sprite $MicrosoftwordMd [16x16/16z] TSx50SGm44FH7sQf_seNmgPtieV9QFNWP-tgo_6lkAXRbaNhSh7b7xawo7M_OSH1dcbOyVqNJ3L-W7dbpM3wr_-m7iplgAqjtdVyjvk9V04
+
+sprite $MicrosoftwordLg [20x20/16z] {
+VT350GGX44JHZpkLVxJhClwEqCuPurPuwbfvlrKM3jz2UvYpBUYlV4a1JTGHNr93bfbNRwA1jSX-IS9J86qd5CnLRg89j7gRJgfkzNO0-p2QNRYwWLbulrMj
+SE0E
+}
+
+!procedure Microsoftword($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/M/Microsoftword', $name, $tech, $desc)
+!endprocedure

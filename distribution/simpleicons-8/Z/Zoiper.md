@@ -1,0 +1,63 @@
+# Zoiper
+
+
+```text
+simpleicons-8/Z/Zoiper
+```
+
+```text
+include('simpleicons-8/Z/Zoiper')
+```
+
+
+
+| Illustration | Zoiper |
+| :---: | :---: |
+| ![illustration for Illustration](../../simpleicons-8/Z/Zoiper.png) | ![illustration for Zoiper](../../simpleicons-8/Z/Zoiper.Local.png) |
+
+
+
+
+## Zoiper
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-8/bootstrap')
+
+' loads the Item which embeds the element Zoiper
+include('simpleicons-8/Z/Zoiper')
+
+' renders the element
+Zoiper('Zoiper', 'Zoiper', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-8/bootstrap')
+
+' loads the Item which embeds the element Zoiper
+include('simpleicons-8/Z/Zoiper')
+
+' renders the element
+Zoiper('Zoiper', 'Zoiper', 'an optional tech label', 'an optional description')
+@enduml
+```
+

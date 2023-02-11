@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/R/Rstudio
+
+sprite $RstudioXs [10x10/16z] FOg50S0m3CCqvlN_Qzkmmh4HhhQZDEEonTXqew7VsXGUa-kdzLjofGMsM0O
+
+sprite $RstudioSm [12x12/16z] FOY50S1020DJzsR_QH_da0YCXoS21cqDj-ioFogVrolDnriviLWVbpDwcC0ENoYR0nr-A5-r0W
+
+sprite $RstudioMd [16x16/16z] LO-55GCm24GFwaLk_sahy68_YWEAQz040sVpQ96J7EB0WI3vlgW-IY7eo6H8_Qv3PbkYPRSA73pINYni-ADbEUFxVgicJQkZEtU08-zzZ3F4GhPflW
+
+sprite $RstudioLg [20x20/16z] {
+PP3L0KKn24DJkmxPVzgdK3q_kC8ubS-6Za930WnsdCtLk9ghKRnNIZ5cvO-Q1b9CFpeVmsrpEX_ahwlxKiJ14V2EhZ-jDjwcbxvVqxzaPEKLybSNcwMgTM94
+uCptSwiBkDWJ_QKDE7w1_9FU
+}
+
+!procedure Rstudio($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/R/Rstudio', $name, $tech, $desc)
+!endprocedure

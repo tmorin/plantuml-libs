@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-8/I/Ikea
+
+sprite $IkeaXs [10x10/16z] Oy0B-1409iJ2pmSIvkRZP-3dWId3Rme
+
+sprite $IkeaSm [12x12/16z] bSN50O000CF0uixjFotE7of9VWRTwM90sZRj-QQITJMOieWcRnOOswQRaG_P0G
+
+sprite $IkeaMd [16x16/16z] hSQr0SGm04MnRsQ__QSz3BU9AkbXVFKSOog3dw1T0-5dcOdlY0OHvkyr39AmoQOGqvS9gG5EgmJnGZUz0G
+
+sprite $IkeaLg [20x20/16z] nSX50a8n40FGr2qqzpyjy5ttVUE3GVIE3ZkJDS6Dbz2dh89KuzICMt-QVitqZmJ8De8CJ2GpGw2h4d5XDEl5clcqhkaFW_m
+
+!procedure Ikea($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/I/Ikea', $name, $tech, $desc)
+!endprocedure

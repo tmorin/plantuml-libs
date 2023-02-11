@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/C/Curl
+
+sprite $CurlXs [10x10/16z] NOc30S0m44LVtNZ_QMCVFjd6WYEFYtUuAXYABkoBCaWBS_SUl6TMEXy4
+
+sprite $CurlSm [12x12/16z] PS770SCm00GWNDLr-s-RVmo-wi42bEK4r91d7H2UqB13065jnaaAWUaAgK0EHu1ve_lp0m
+
+sprite $CurlMd [16x16/16z] ZSo5OGH150BGj-v3_zKcvsxV1V2hHSjQNVUf8ijv7LEnHjyF88KgeyK2Mv2uikbINTQSA9gbfKtD75Yjv_S26kPxiIhpldJdlPke5MVR2fRDI_i7
+
+sprite $CurlLg [20x20/16z] {
+bT053aCn30FGfCo-_ssNUOoVNoMhbCZnnosS1Pwo9f66fmmOT3wYWcLcKu7xj9jBaZBgg6Op7_CUqvuE23G-eiG371KPZTEWTwzdT5wgNQU5RgD-EM0YcmFb
+4GLEqETfEKsbxhaVoQmIvUaPaIRvyvm
+}
+
+!procedure Curl($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/C/Curl', $name, $tech, $desc)
+!endprocedure

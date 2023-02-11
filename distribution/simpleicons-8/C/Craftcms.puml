@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-8/C/Craftcms
+
+sprite $CraftcmsXs [10x10/16z] O-270Zv-We012D4LCx0ne2l3K0C
+
+sprite $CraftcmsSm [12x12/16z] O-270sv-OW4l0oECoSM0qCU0f8IHYG_1vMJ5OH2cnG
+
+sprite $CraftcmsMd [16x16/16z] O-3cHmOi42xbW8iBcSVE00G8BXy37ufYDeWSGZcGZw82f9sBAkvYGUC3
+
+sprite $CraftcmsLg [20x20/16z] nSYr0O1040NHmHtwxvOVheN8dEvZkaAdwDzMrEfeeRsEOA8KPs6phk3GZd3vMkbvlTDP69cE6m
+
+!procedure Craftcms($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/C/Craftcms', $name, $tech, $desc)
+!endprocedure

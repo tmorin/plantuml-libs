@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/S/Simplenote
+
+sprite $SimplenoteXs [10x10/16z] DOh50S1048I8U-Y_slFbDGAL_w9ZuGLxSg_fRV7o0sOxtTqZYoFAFLBX62a3
+
+sprite $SimplenoteSm [12x12/16z] DOv50e003CE2E_d_Qz4kb_bQFiwDmXS-1bDOVG-Sgd3BukvFznQDpbc5HRG-MlaE8odM6CWEDm
+
+sprite $SimplenoteMd [16x16/16z] JSm53i1024JHNrTsxd_RbanMNWG7cqgiTBVIHIKh_DvUA_uoNDk4nDXOfPDqkOxiGJfLFMvCcTR7QPScMNsBniOT7Afcs81IwmaB6TKwZ3y
+
+sprite $SimplenoteLg [20x20/16z] {
+LS-50O0m4C30u4xsdnQj7bfx8UhFSw5s-kd8PeEzt1Pj0DPpZZ3OyBupq2_TdkSML5xDbYVLWr_hx_nt1wC5WkQhCTRQXXRLOlT6A00BVwATmo0sQqjZ8VQw
+cX7boHEYoQ2bi5PJDm
+}
+
+!procedure Simplenote($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/S/Simplenote', $name, $tech, $desc)
+!endprocedure

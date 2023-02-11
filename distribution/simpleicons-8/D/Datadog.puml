@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-8/D/Datadog
+
+sprite $DatadogXs [10x10/16z] 9SO50SC00CJ06wyO_sgBZt7hET4fHTvuHaBTnKqFb5fuCXY2vYUiAhmCp-QN7G
+
+sprite $DatadogSm [12x12/16z] 9SQr0GH100GWpjUd_sfVYG1mTrg-wfEGpSvs_GxKttERc_r_yCmmKnrOAUx4qHOc2QXZiHpqddGAOqkUSu0owuut
+
+sprite $DatadogMd [16x16/16z] {
+HKq74e0W30jxa___rj1JYGFQB5ouFEsCRLFe-ZIHJL-PpeCshrUUmhQvwMfswRrc1dJi4qDce9ahG22xrfeDUqtkj-3Tl8LqkgTbddT-ItDuzLs3Psb5SzO-
+wPLm3JaFvK5XPWBjU5q8gIxE2aE0VpiV
+}
+
+sprite $DatadogLg [20x20/16z] {
+LOy73WGn20DDUbd2_tzxMEIQjm0ZnoBuKsexHISfZwqMgWvOxmpntmIPkZEE39-sLpN_bGZHf7HWaJt1CXFeDmVU7EPSbhoi3b7G7qoYNDtXovAr7KFi984F
+7H7SWDmbxPwuGp3blYtHsUQr2nabu8KnpGfBP3-Mt532DI2pCWUCK31Xm4BeF42sj9ZEMlCwaqcPlvIcfmtsL-d1Loy
+}
+
+!procedure Datadog($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/D/Datadog', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-8/W/Windowsterminal
+
+sprite $WindowsterminalXs [10x10/16z] Oy02-B42X30ddCd5W2IBfXLX7W
+
+sprite $WindowsterminalSm [12x12/16z] TSS73i0m349HxEx9_M_RhzMLv4ase0PZueARCN0TPvz-A1j3-jJ4IESS67tuePSB
+
+sprite $WindowsterminalMd [16x16/16z] XSY50O1030F0u4xsdnRUNQvUTCotCDmEfP7EBasgRx8nSuEH1xt7Z3a-9mPMTKAXDCisACoWumS
+
+sprite $WindowsterminalLg [20x20/16z] fSs50O0m30J0nvtVVrgitk2zkYH1WfcUWih9NNjer5AgXUV6dW8WBzkpo-xiiW8OwO7-FBHNPhyk51Kng2LJHfvg9WalhG
+
+!procedure Windowsterminal($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/W/Windowsterminal', $name, $tech, $desc)
+!endprocedure

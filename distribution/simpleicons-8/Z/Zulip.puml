@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-8/Z/Zulip
+
+sprite $ZulipXs [10x10/16z] Os3WXm0W0mQGM100Pp106Nmm1aA2dmy4i9e2
+
+sprite $ZulipSm [12x12/16z] JSQr0G0n40CmFqF0-qyRFb0bW4li5TcTkAt25T9zrpw423oaYM87ZVjR0G
+
+sprite $ZulipMd [16x16/16z] NSU53SHG0CMm79GX-qzRXgTleQ7s1RGcqDGK_q9s8kYGRUpUr63pLcY-qPRmqUnNf-_bQ09DLV4_c5W1
+
+sprite $ZulipLg [20x20/16z] bT0r0iC03C10XTdw_syx5HoNSgD60RklPW1F3bWyWxMqXguqO3SRI5gr8JjgGdar0n4fhG6DAUq2OqhX1fbAJSR3TE7Bzk-Netov0G
+
+!procedure Zulip($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/Z/Zulip', $name, $tech, $desc)
+!endprocedure

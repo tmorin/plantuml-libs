@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/D/Discourse
+
+sprite $DiscourseXs [10x10/16z] FSd50O1040ImnPtqNorobjT8V5Pp_2HR2bDCZ45ws1qfNUXJ6cWlLqkB9EKKuWK
+
+sprite $DiscourseSm [12x12/16z] XOk35G0n50JtZ63whpR6S-ORgypFfmgLthewj4sgJgtL1XQcRDN_ixTmC_0QxID5
+
+sprite $DiscourseMd [16x16/16z] NOs50G0X30FRTtp_RJyG_D1Q8eKh9AVIy8cy35Cdj33UvntnUf60vwG8VfhBbv0R_mU74KSnvJOZssFNNKX4jCoJgHmuhuYqb71ywjmvdiCvZW9-
+
+sprite $DiscourseLg [20x20/16z] {
+PSx50SD034JHCI___hlD71JZMqP98GtwhfkDq2S5Rl9doygrjPrVh379CikO5FT30TA4wO8LjwfB1uRRec-giouBPeSkcQ0BtxqLw5X_NfknIM474tPm9_4s
+V_TatFLPiXy
+}
+
+!procedure Discourse($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/D/Discourse', $name, $tech, $desc)
+!endprocedure

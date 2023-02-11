@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-8/T/Twitch
+
+sprite $TwitchXs [10x10/16z] Os1Wu8S088C1240KXCEFmU80GZ0B1DXuWImkBWOkRbwO6K060vp103SG
+
+sprite $TwitchSm [12x12/16z] RSR50O100C2muaxttnQNaxm2h5xwevoAVkztZqjRvdxut-gzDNYOF7hzwCM5rzCD
+
+sprite $TwitchMd [16x16/16z] ZSZ50KCX50NH6yDX-gysXhFwWvwdRuLHfUtn9-eXEVvsttrRZCJzkckdq-w8gi68Ek-k71xKmnW3sHZDoDfQ-04
+
+sprite $TwitchLg [20x20/16z] hShN3O0m54DHXvxg_RU51vRIVhdK71bMOPierGgrGitpez4SPLpi-SykzpxLQc6sWtcqdH6o40AmXX2VbSnocxrjLUsqLqPdMescbI8BnYhLUhe1
+
+!procedure Twitch($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/T/Twitch', $name, $tech, $desc)
+!endprocedure

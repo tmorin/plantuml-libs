@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-8/D/Discogs
+
+sprite $DiscogsXs [10x10/16z] 3SUt0S1048J0bNzxzD-j869YdISn5b0ErRryJtPVh4zquCW3pTcf08exePewXAMTeXoZLND-
+
+sprite $DiscogsSm [12x12/16z] BOh50O004CEAmqcp_xHuFbKz9Bi-S7BujvsEGtnjkPJPic7GK416r20fgXjtIxw7ZFs8sgIHRWiOS-3vYvnKrV3CY-ZRbwNdwpHtUm4
+
+sprite $DiscogsMd [16x16/16z] {
+DOo50SG020DJ5qXk_sbVAeUhBcPJWruCTHgU4WS2-rCM7Q0azy_Chz7fJGM3IDDimwa3JXRuDIID0nIueQzF8zr01GzIDBbpbNHDaWQwG516uwGARSGPnf6G
+64ShJAAxCOKaBrghKasnwg80xBSK5z6FBm
+}
+
+sprite $DiscogsLg [20x20/16z] {
+JOw54SGm4CGs30VglzltpbCKj4O6VRYQtFHW0oeRwgSW4tFsNmMamOkyLNFnxgI3pMi5GMTrXXGufhX8wEGGKACce2bDywGCBloGxYSVwI3Xf0kxeGnfWLtL
+BFNR5MJZxfrD90GRb3-hNK9p8aw2dATH5JS1fGAOXB4APaq4YxOSuAgzzidi5z018BDOqGL4EtX3dTctOndZpjGxUW4
+}
+
+!procedure Discogs($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/D/Discogs', $name, $tech, $desc)
+!endprocedure

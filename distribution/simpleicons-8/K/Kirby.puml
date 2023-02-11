@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/K/Kirby
+
+sprite $KirbyXs [10x10/16z] Om01RWO8O6Tdu0Cp-24a646OGCW1Pp7oy_D3nU0i1XGjC7F0F
+
+sprite $KirbySm [12x12/16z] DSY50S0m30F1RvYr_xODdjcmL9vK6ORb6onQzN7uY7ZIsWMstxr92ky_lRzPrfupn_XMiq0i7Fh4z0C
+
+sprite $KirbyMd [16x16/16z] JSg53S0m44FH7-Pu_sshqYbFQ83NuDItKx0Kv86iDpbbNdFUzS0uGULGtnouESjBWQfWEUc6vLoaKSx_pVxc3axHObi0PRyfolDQ4zW5uxGMt2u
+
+sprite $KirbyLg [20x20/16z] {
+VO-50OKm30KVKBVRVzelk5yrdcWbwqnk0QSz7Y-fePM-9OrqJ0cEPaSORKPx4bA7ZhpfGfmo7tHWbM6lwnWfXtoTXsQwO-p4NcVJn4ilAhNJUJZr52tGbf_5
+Zczk-v12fu3LWQwIblyN
+}
+
+!procedure Kirby($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/K/Kirby', $name, $tech, $desc)
+!endprocedure

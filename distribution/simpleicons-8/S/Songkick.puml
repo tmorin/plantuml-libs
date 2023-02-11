@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-8/S/Songkick
+
+sprite $SongkickXs [10x10/16z] DSR50OK0040XVgU-_QUrvGJyxpRLNMtPrYiiKqzrvrPXMOtLkdztB1kzTEBC3
+
+sprite $SongkickSm [12x12/16z] DSg50O0m4C30u53B_jjIlSehrP5FXgoUw0qwSmEQSijBDafLSz12tm4huArvjjiO_KyEQbwerutD2-DMY2uRR0xm0m
+
+sprite $SongkickMd [16x16/16z] {
+LSZ7OKGn58LGVeuI_NVhTpsPtG7IqMTcUC9gvjGXZ9xs2h_i5j_tmxqr3s-gDIPFsA_1yiXe1LtB2vWcgZ8qJMq6PWO8JF49gwwIjd83n7E0tONJQq1ElnlW
+-67gJvt07m
+}
+
+sprite $SongkickLg [20x20/16z] {
+NOu53e103C2AsrZ__riMDA7eTSh56FRGyZ9fKKwZuKG_f-khFcV0_dUsM4JaxNBVCoUTeRWSe67okNesYn6UVYjqwbawR7cwRuklzjjYRodcqpKMwGcqvKO8
+TTDcYHM6SWBTPYzVltElIJoRj-a0kZLC6uj_WEsdMehndtKof1Tn9Xq
+}
+
+!procedure Songkick($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/S/Songkick', $name, $tech, $desc)
+!endprocedure

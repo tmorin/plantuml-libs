@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-8/S/Sumologic
+
+sprite $SumologicXs [10x10/16z] Oo0TiBBmyZEmSlFo4gi1
+
+sprite $SumologicSm [12x12/16z] Ow0Si34mC38mSB0nCx4oS39oi7B0PLX8Dmm
+
+sprite $SumologicMd [16x16/16z] lS570O1G342nzsTt_SlbYW58-Dcu-zo34clTlPIEMED0X6iStbput0C
+
+sprite $SumologicLg [20x20/16z] rOQ70OCm4CJaRd_TVze4c0AkYk-eF3jXd4uxHvPGEKrqzOCDUdF9GXtezkDGgTUKUwzkl-db-WC
+
+!procedure Sumologic($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/S/Sumologic', $name, $tech, $desc)
+!endprocedure

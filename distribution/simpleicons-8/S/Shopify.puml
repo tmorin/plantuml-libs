@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-8/S/Shopify
+
+sprite $ShopifyXs [10x10/16z] BOc50S0m40AltYZxJnlb1GLuBlQyxwEj7iq19bd1lzGddEqtBlMWWkjJdWu
+
+sprite $ShopifySm [12x12/16z] HKe50W0X22FEZlt_juSz1LOqa9KEUexzYj2GU13fC6ICdf5GK546jsw5XOEBZDBWQY5lde54cuzvl6gVtDDeBTGV
+
+sprite $ShopifyMd [16x16/16z] {
+JSo15G0G40BG083sdnR04_3Xi5CLlWYRIlbS89Me-btBN3XI_QAkl9bqJzkPDECFwp4P8GHPdkKOlpLmx9OfWEsopJddlL5C4DDfEynwA6JSpZm9spDg7len
+B3e
+}
+
+sprite $ShopifyLg [20x20/16z] {
+NT05Wi0W34JHaEBsxt_QbP0LEbKUZdWIZxmojR5koffp2bo686KnnXzfodnd04T2tV0o1xVmQoc87jCV-_xKOzKcW2pQ4yTiwW8g7TpsjoqRentpSUnhU1ld
+UzlpPyaiIX09mBH1xTyEQGFBnta0bhLWkuasxeWd51kVrLJa4m
+}
+
+!procedure Shopify($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/S/Shopify', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-8/T/Teamcity
+
+sprite $TeamcityXs [10x10/16z] uySEEFaP-3XWB8GOFnTC0Hy_Bi31mO4c0W
+
+sprite $TeamcitySm [12x12/16z] uyS5-1WO63ZPWGIO1oH13Ani1ZO6X3PUVc810n1WYW8
+
+sprite $TeamcityMd [16x16/16z] hSV50O0m04MnZpjl_sbnTzhc5bvvFOYaafxlo_EHqa2CL840rfU7emBApHDrs2fn8_Hwwwi1Dre
+
+sprite $TeamcityLg [20x20/16z] lSY53SD044N1R_kONl_LXcbrWl28XtSCBf9Ew3fOk586f45QpILL3iojOhgWDXqIbCLUqy4ArcZyKpepjvpniZq
+
+!procedure Teamcity($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/T/Teamcity', $name, $tech, $desc)
+!endprocedure

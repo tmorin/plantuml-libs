@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-8/T/Trendmicro
+
+sprite $TrendmicroXs [10x10/16z] FSR50S0W0C30rBtPVreSxdKabpkPnTNZD2QN_vHpRuePRb0ZUJygsLApQKa4
+
+sprite $TrendmicroSm [12x12/16z] DSc54G0W30J1nvtqtot43ji9u1PrQAGvpw74z93OHnpAeWsRymd22kfLn_C_W3Y1nEKanCy6Bl7NPHqMJny
+
+sprite $TrendmicroMd [16x16/16z] {
+HOs50S0W40E3Ex__jWI_5ezWuPeKXKkJJS3Yd8eryHyhHp_YH_hgHKDtNA8vPmzXqTT0SN9G_rcAlCYCJ4czyeZ06VwS5HBd3WsubXNGXU1IJYB9jRw2nUdh
+80C
+}
+
+sprite $TrendmicroLg [20x20/16z] {
+LOm5WWGn380Oh_F_rzwjfqCrHFYGX-raul13N_ZWHBwhcjC6owIwBvQO5KHP0EdjbjcPrK6umk4m0Rb4sUU9ifDJcmUqw4Gz1EvAUhWJXjh9NpU-dvKdHsy9
+IBuWs9pKji2QrQcJmu0tCQc_Y_u1
+}
+
+!procedure Trendmicro($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/T/Trendmicro', $name, $tech, $desc)
+!endprocedure

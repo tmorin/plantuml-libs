@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-8/M/Microsoftsqlserver
+
+sprite $MicrosoftsqlserverXs [10x10/16z] BS610G0G3C2m0W3-lnPi2LT2BEjHeR0GDfhAvspilW333xwMm7Eba6FXytFmEGQMwm
+
+sprite $MicrosoftsqlserverSm [12x12/16z] FSp50G0W243HRpVxRslhkz2mA1uNyi-zAPv728exSpuquhagKh3HigJGsbjty7A5t5pxYh9kvz4hqLmLxey1
+
+sprite $MicrosoftsqlserverMd [16x16/16z] {
+LKr50e0m3CksUWl__oskkSLnWF553VGFxMma-0a8Tte57QH0Y_OeSuaDXb-KEALZiyT1POA1v-VLaDDdBcemtiS2IxsqDsu-1bqqXXO4L4-Qa0deioRm3mLK
+PI0kiW8
+}
+
+sprite $MicrosoftsqlserverLg [20x20/16z] {
+NSy5ZW0X343HNw55T-v_sdKcX1Ulbt_9fGIt1yNlmZfRRLmApOddZ2E3IEj8DrwgJo3HXNLiTdiI4jgETPjAoCJRZcaibEmcl5RuMCOfMzSKyoCqPWf97h4O
+L5e7PKlAg3DeHqYYJUXui4rmFd91Epue4XcX55usO44g9wqjeRDz0G
+}
+
+!procedure Microsoftsqlserver($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/M/Microsoftsqlserver', $name, $tech, $desc)
+!endprocedure

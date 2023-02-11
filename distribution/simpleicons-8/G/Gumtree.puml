@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/G/Gumtree
+
+sprite $GumtreeXs [10x10/16z] Om02Pdu62E3dv-JdWR1062849LZvOHBy70WbS1OtFmCVI1bC09a5
+
+sprite $GumtreeSm [12x12/16z] LOs55O0m30LnXzj_MzxLlKc-3QwToSy57yJozMUsZ1-VPOH7RclB-4-bzewXlAnlK9GYze5lioZSllu1
+
+sprite $GumtreeMd [16x16/16z] ROw55KCn30Fr6PFRVzi-K_c2PYcusFJYn1ZAd42QeMm8x_wo3NgPqQlJx6bC2cx6jxJwqbusSIMZJrXIYNraNFQk0AE2mwgEII_Mh2aszDz-
+
+sprite $GumtreeLg [20x20/16z] {
+ZT250SCW54NHZpjt_sdhI3qloi6HHqmboNCw07ade2MWBYfm_NXGMpDz-pRIPlUlfpz4CKpFFsWY0--z7OXiU5_QlgoxGNoplFTL87l3VRuCkElugG9gRgsE
+Ov2PgCH2YNh0Q9paDGrpoEgoCm
+}
+
+!procedure Gumtree($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/G/Gumtree', $name, $tech, $desc)
+!endprocedure

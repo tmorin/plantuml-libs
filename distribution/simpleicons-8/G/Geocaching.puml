@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/G/Geocaching
+
+sprite $GeocachingXs [10x10/16z] FS770SCW00ImIrpeQFzj_KFAuUeJ5Fu81S5F4GDISWYyIm7oAiWb5A1HFW
+
+sprite $GeocachingSm [12x12/16z] JSh54SGm00ImdJXiKF_L7aFqLYwWps1XFyt989IOCSJOP4P4-Vn9hgo3sHY4C4icGJ4B0eaT0JF87G
+
+sprite $GeocachingMd [16x16/16z] NOw54GGn4CDq68xxh_R1-tWEAAXPBb7apLFQjhAAlR_Fsx4DSSAClS3ickRQ1pvlFdVlzj659X__jejB_kw3187LcxIzz_NjcG_cRzt9dlRrMBfutoCFOju1
+
+sprite $GeocachingLg [20x20/16z] {
+RSY5OG0X5C3G0ET2zj-sQ3teV_pJE_lyRQicBvyiZlPYxyQ50ditr3NM6pVuj0joDNtDmoZQpK2tDIgfcxpDEFMU5YXstnntZNP7xfN_KYvhEDghnMdRzWwx
+6HOeTNFQ0Pl3D3tLtgHV5Y1HULhjNS8Viy7vT8kp-WknNdm
+}
+
+!procedure Geocaching($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/G/Geocaching', $name, $tech, $desc)
+!endprocedure

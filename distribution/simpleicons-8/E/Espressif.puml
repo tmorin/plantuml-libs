@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-8/E/Espressif
+
+sprite $EspressifXs [10x10/16z] 7S650SC0402XgskU_QUDGOVvTU8VzUo2A4I63t5T_bp8fI93BmEc2ZhykvSs
+
+sprite $EspressifSm [12x12/16z] 7S65WG8m002ng-3Gx3_j2qbVvzFNuqgJwWIYvdZEtiHrm7EGyzRY36wV49j6yn33lTjVZfnkYQi-rRjugcirNrMVqIy
+
+sprite $EspressifMd [16x16/16z] {
+FSs74OCm40310vGV_VNVhSU9RM3voHmyt2TTvKryQsm50chunbBOb5NXLWdZFBPgSgYaWLyTJHI5KorDoOrgeA9ImJSqJeK132rBKKXEtmUA0h6SHL7k1fpZ
+OFuVWEFcTBC6Sy3RoWlEsC0B
+}
+
+sprite $EspressifLg [20x20/16z] {
+LSm7ZWKX3C1GKwP3VF_JRedGBvxAGu5NuTE0L_jPABTwBP1G7UHt4PfT78cSEr0kCtgYSDvdfOp4NJiNPYSzyNQUDLmLr8a6QhiIAMgjYheNQkAf4fFnFMZf
+HsKcTbGs3RY1GvLhdGu1m5Y3fEq7Qtyz0LZKbuq1W3oyZ9MLyhBx9fi3jWxGt5YLEwxMpYTIVW4
+}
+
+!procedure Espressif($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/E/Espressif', $name, $tech, $desc)
+!endprocedure

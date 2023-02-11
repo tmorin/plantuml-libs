@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/P/Pihole
+
+sprite $PiholeXs [10x10/16z] DOlN0O1034BlajYLj_-qTlYXjwPcIBJu96lofxtS0nQ8Jon_2fjx-8KV5m
+
+sprite $PiholeSm [12x12/16z] JSor0S0020H0YFljFstSQ7YFo3w-uu-5wIPB-xDwnGCdr1USUKXBPCVPf0pajTbvbXBVw0qt
+
+sprite $PiholeMd [16x16/16z] LOl50SH04CESPLR_rHu49teP9Ssg5mswzHkBg4YuWa57O1y9WWonopA0-B8sc02iA-XGozg0RVS0aWEMyGBcxZECGHkWWyA2_Nu5bxM1Thu
+
+sprite $PiholeLg [20x20/16z] {
+RSy50eGm30NHu9wv_scnoi_Au0zhxSuN-maulirnk8_j7X0EUjiWs0BhqS5keUd6GggnthxRWE6J3X2AX97yGT4nETiEz8bQW6VAF2NhU2eMdjkAXLzqpZxf
+Um_wly68X2Ar1xe
+}
+
+!procedure Pihole($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/P/Pihole', $name, $tech, $desc)
+!endprocedure

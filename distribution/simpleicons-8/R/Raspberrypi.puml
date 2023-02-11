@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-8/R/Raspberrypi
+
+sprite $RaspberrypiXs [10x10/16z] 7S650SD000GWuk-t_xIL0DRc760tNJ092wub_KJISyu00NqdBjXk3a7U0nhFnXS
+
+sprite $RaspberrypiSm [12x12/16z] BSm7OGGn300mnRcLQVvesry28BH1h1CQ7cnC8Xygp98vZGSYA7hWRBMcCw1qajLXaIJi9odvEoieSCcL9j0vA_u1
+
+sprite $RaspberrypiMd [16x16/16z] {
+FSU5eTWm30JGPmevalQVjlryV737-aiQtArZW6vHMlU0m5qFBk1jgwfQt-S4M-1iSNpzi6jQjJHGHVjqtf0U5CB0-_TJ85kTvxAlA2TikL5JWSthoozuo6T4
+DnkmCb7P0Epkwk0_
+}
+
+sprite $RaspberrypiLg [20x20/16z] {
+9SY7OU0W44N1aG0bmk-_sZlR374VUDTxe8xHRFD4-_I3enOmE3ad6XTuKGzn7zos2KbWsOvn73F9hVHsszAEXPJ-rGg4LJ5VEo4oUfBQfm1j1IMe2V3w830j
+wBmektbsEuDaqU85VILvyFlSOxV35IYB7E0iT7WGMpX33ORjcAMdlptdtM7x0dSEspRR-Tss_m
+}
+
+!procedure Raspberrypi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/R/Raspberrypi', $name, $tech, $desc)
+!endprocedure

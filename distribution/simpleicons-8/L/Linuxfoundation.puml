@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-8/L/Linuxfoundation
+
+sprite $LinuxfoundationXs [10x10/16z] uySA6C00H4DPG40i2ypZHsO1
+
+sprite $LinuxfoundationSm [12x12/16z] uoSEC400c05ZWm2vR1ZWXZ0HR
+
+sprite $LinuxfoundationMd [16x16/16z] uoSTy7B108JFnW03G0w8mic7ggSb7m4OcFY9u0C
+
+sprite $LinuxfoundationLg [20x20/16z] uwS1O402kCH0D44nA1ZSOWW04g5K3
+
+!procedure Linuxfoundation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/L/Linuxfoundation', $name, $tech, $desc)
+!endprocedure

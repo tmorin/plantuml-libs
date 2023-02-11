@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/L/Laragon
+
+sprite $LaragonXs [10x10/16z] Oq067Fpy_22Q4KX3cFmmmCpFmG5byi74kFaP85mW3LO9Pt429I6wEO12
+
+sprite $LaragonSm [12x12/16z] NSQr0SD0002n2pMs_xN_j65MfVvXVyy0FcMC0bWvOVgrOWWsI1CWxR676Y5qWwWB
+
+sprite $LaragonMd [16x16/16z] RSwr0SHG081GuXxsd_Oa-krrT52sQy-bsZtC74PlHzO-DclmjMY3sgvFE_dOZOqU8CpH5TtdoHFkpBxGSw5IjGD1bMTnUflJf1kpA_05
+
+sprite $LaragonLg [20x20/16z] {
+VSm54eH034JHnXdzzp_j8gdKuW_6OleIgPEEvi9Ehgcux24EMejnL0YI4aVRoyhoAPOwO6R-zwuYHvwht4ajnflI5hJYv1qTD2DdWbOJHr61sGRIPuir4bMD
+tGERf5NjPB6PLP4vnkIQRYLjsse1
+}
+
+!procedure Laragon($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/L/Laragon', $name, $tech, $desc)
+!endprocedure

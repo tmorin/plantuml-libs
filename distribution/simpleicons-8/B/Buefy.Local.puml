@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-8/bootstrap')
+
+' loads the Item which embeds the element Buefy
+include('simpleicons-8/B/Buefy')
+
+' renders the element
+Buefy('Buefy', 'Buefy', 'an optional tech label', 'an optional description')
+@enduml

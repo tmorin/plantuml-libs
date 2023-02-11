@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-8/C/Celery
+
+sprite $CeleryXs [10x10/16z] O-372XX00C82ObuuYnylYnckbmdPC
+
+sprite $CelerySm [12x12/16z] O-270rv-DC0014mG9XC31nSJ0rGOJ9F7Pc5WO8JpcO36yw9P3
+
+sprite $CeleryMd [16x16/16z] jO-50S0W3C22E_n_xHmxO47hBQMjk2xkM6Nob2eltLT2YWgw7Np__YJR-mbTrY04q3eysANZKlk0RUS4
+
+sprite $CeleryLg [20x20/16z] nSx50SGW50JGmNTZqt-rSLokUIVuZZzBgWeDJRY8j6c6DzEJW5mc8m06y9-rYdcVnlonJZ7G0AH0NewNPC9A8St2FiNATW
+
+!procedure Celery($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/C/Celery', $name, $tech, $desc)
+!endprocedure

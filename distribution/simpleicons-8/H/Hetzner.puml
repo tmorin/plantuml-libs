@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-8/H/Hetzner
+
+sprite $HetznerXs [10x10/16z] uySA69X110Ck5WZWbcM1i1
+
+sprite $HetznerSm [12x12/16z] uyS9s9X091yJBv1aO02nUHYuCTXSGC01OKC0iXgyR3uUVZ07rLO
+
+sprite $HetznerMd [16x16/16z] uoSTC31mWsb61WRo-320ay_92mBaci_4n0kcsPXO2Ni6
+
+sprite $HetznerLg [20x20/16z] uwSCy75pyq6PtDpS40O70mCpL8o1WO5MOd10K8mP0cZc5au61XOaCSe
+
+!procedure Hetzner($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/H/Hetzner', $name, $tech, $desc)
+!endprocedure

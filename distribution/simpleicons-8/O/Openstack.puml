@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-8/O/Openstack
+
+sprite $OpenstackXs [10x10/16z] Os270NxiW044iBEukBZ0B2ukX1W2yC5P
+
+sprite $OpenstackSm [12x12/16z] Os270rO-Vfo00GnOGGm4W8ip0baus6niR53LR6pyG2up2F2W6iwDn0O
+
+sprite $OpenstackMd [16x16/16z] Os1bHmOCNFoa0mOeO0MomOR0093D1WHmFf2Dh9uHo2R4Pq03sDIpCKC03n5kPKRZ0m
+
+sprite $OpenstackLg [20x20/16z] Os1YHmSCRFmq00nmm8f5Z172nGJOr54YnWK2IEQ3k2JPoyOC0poaU9yFMv1W2l4
+
+!procedure Openstack($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/O/Openstack', $name, $tech, $desc)
+!endprocedure

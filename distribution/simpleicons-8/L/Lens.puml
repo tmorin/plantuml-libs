@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/L/Lens
+
+sprite $LensXs [10x10/16z] uySA61YO61Zu6S0i1Y06iRX114IC1qI0MN0nHY1WO8VgO0NfG
+
+sprite $LensSm [12x12/16z] TOo30G0n40GdTgx_Qj_61CTT-OMLvFOyA_IKAsALo9RBH4bpJfxppf8pvtN9SyvpUyaNGp1phfJIqsjMhem
+
+sprite $LensMd [16x16/16z] XOl50K0X34CVxh3_j5_G8q7QMBkZb59Bnw30_r2PnIFO19iBtnIJLuliHJLzAMBd8klEYRLpi_k3byN7J67C5ZiQulWG07Mu14YqAru
+
+sprite $LensLg [20x20/16z] {
+fSq55WCX303HWIGLzFwtRT57dzLc_IzI_qlSi-XwLd8t1pXFgnfXcm6I5GvBI1NObe7INgBRfX7gRCyrbKMMqrmlf6dd7cNQvR2vtdslfywvItifR1CtAd0z
+vhRk7f0NyzRkOLeChThl9UJwSGy
+}
+
+!procedure Lens($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/L/Lens', $name, $tech, $desc)
+!endprocedure

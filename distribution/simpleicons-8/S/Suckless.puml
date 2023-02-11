@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-8/S/Suckless
+
+sprite $SucklessXs [10x10/16z] Oy02-B429YX0YE3NW30F
+
+sprite $SucklessSm [12x12/16z] Oy01U900FmfWOOG1Vdu-NXX0Li481ppyk4nXH0B8zW8
+
+sprite $SucklessMd [16x16/16z] Oo0Hy1C6FCW0o2T9FnyAGDFCHApb2438Fm
+
+sprite $SucklessLg [20x20/16z] Ow00C641_9G1BdGxW6BSrBI30Oi5rFO49M4A
+
+!procedure Suckless($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/S/Suckless', $name, $tech, $desc)
+!endprocedure
