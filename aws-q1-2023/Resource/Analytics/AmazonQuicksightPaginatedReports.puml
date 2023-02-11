@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2023/Resource/Analytics/AmazonQuicksightPaginatedReports
+
+sprite $AmazonQuicksightPaginatedReportsXs [10x10/16z] PSQr0S0m402n2pxjFs_GR5MY9K2KMNoB1z_CZ3IO5YBoBJx0-e4R
+
+sprite $AmazonQuicksightPaginatedReportsSm [12x12/16z] ROp50G0W30CJNfNzvyKThguuOK5PKgjUGmcj0shBQwld-EVrrISlAL5pBDmg3YG
+
+sprite $AmazonQuicksightPaginatedReportsMd [16x16/16z] VOk50S1020EvUiZ-yzRTxfL8l81pmkieMDvLO9lnPOPgcxN0FeSwSPud_kPKyjC7ECqBiSwXZNLUQPV7E-Cm
+
+sprite $AmazonQuicksightPaginatedReportsLg [20x20/16z] ZSk53G0n34FHGjZxptlCs2-AdfpqLiQI7covouPXcx7gOllE5RhRNCuvTiESfODvclAJiHVtYrN98fDz_meAqB0ZosPdWqwTBC-btR2tshqeUxvOEJP23m
+
+!procedure AmazonQuicksightPaginatedReports($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Resource/Analytics/AmazonQuicksightPaginatedReports', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonQuicksightPaginatedReportsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonQuicksightPaginatedReportsLg>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AmazonQuicksightPaginatedReportsGroup($id, $name='Amazon Quicksight Paginated Reports', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AmazonQuicksightPaginatedReportsLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-8/L/Logstash
+
+sprite $LogstashXs [10x10/16z] O-1dOu02Vdv-18kVQ1OZ8oEK1SHyG2QSnGnb0G
+
+sprite $LogstashSm [12x12/16z] O-3ZPe03Fdv-FYGsFoSIcvzCDZUO3HN0oWRhWB41
+
+sprite $LogstashMd [16x16/16z] Os3Wvs100Vpy_3neV7u-D3u_CngVd-PyTWX5cC-4ncVWHE63LI3u
+
+sprite $LogstashLg [20x20/16z] lSwr0O005CJG-xZV_jFYJcfIlYgI-qBlF5U3UG1p1-O0Qy06CFzZiVQmEAROAZ2HfHzR44ng7ZO1
+
+!procedure Logstash($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/L/Logstash', $name, $tech, $desc)
+!endprocedure

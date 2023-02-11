@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-8/B/Bandsintown
+
+sprite $BandsintownXs [10x10/16z] u-VdPG01VduK5YSd0oSdcCNF3nH1Op5005YC7oQB6m
+
+sprite $BandsintownSm [12x12/16z] u-VdPu0080itcnd81IAyR0OO08j30HgRWGaC-742
+
+sprite $BandsintownMd [16x16/16z] umS21XW0iedYCp8oWZ2Cpmp483QvV0Oa09D70C9y1YOeu2ST
+
+sprite $BandsintownLg [20x20/16z] umS2NWO40F4f5cFYvEJaOE040eGOCuW4Ssadne0A4EeGW68n1YOuuAS1
+
+!procedure Bandsintown($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/B/Bandsintown', $name, $tech, $desc)
+!endprocedure

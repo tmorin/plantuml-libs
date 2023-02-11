@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-8/B/Bandcamp
+
+sprite $BandcampXs [10x10/16z] Oy016C40oE2700O67XW38SIF8OGL
+
+sprite $BandcampSm [12x12/16z] Oo0Iy4C1aCa7PN8X2oEOhDY56HaOsE32k04
+
+sprite $BandcampMd [16x16/16z] Ow06u4S049SBmMN18isBu3AYIsDocH5S7YpIR0Wk5pbE1m
+
+sprite $BandcampLg [20x20/16z] Ow0DO4G6425-PC075k904MF4fOm7HGoBQLp4AUE4264gOqOHOiMbZ0r5Y8ac0GS
+
+!procedure Bandcamp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/B/Bandcamp', $name, $tech, $desc)
+!endprocedure

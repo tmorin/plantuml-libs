@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-8/P/Prometheus
+
+sprite $PrometheusXs [10x10/16z] HKg50G0X4EAxd_sdLQ-RmgYBEwIeTHcGkmbQb5zaHHv3ksWAKMW4__zNll62W0u
+
+sprite $PrometheusSm [12x12/16z] NOnL0a0X409VfphtFwq1--KOcx0CVfx5O9mcrWzGzxeLyXBJ2_Y1MVK0Zr8FngmCKFv5ssvAo-XaygPk0m
+
+sprite $PrometheusMd [16x16/16z] {
+HOw75O0W34I3IY-t_xQcFhu2wJbIyiPC56mOnLmmTO7PuQw7ZhvUpBqrcn6DPa6ZfDY8wmy4jbhDwLiYalYyT0T8R7q6cuSAC6wvgtyOIHTlo_mSSvaaZTBB
+_
+}
+
+sprite $PrometheusLg [20x20/16z] {
+PP250OKm44E3E-m_xPS8rg1zvmThse-rnqtTOMrL48-Dw7H3ny-v_t_d4xK7SEYtIoxys9o8V1kWHS__KInTk8xTxsmlMBG8LJgjh5wRoPEbNbE2IPU8GsFB
+F6UH6bN104pgwQTRNxERIUHPR4hWgT5hbjCN
+}
+
+!procedure Prometheus($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/P/Prometheus', $name, $tech, $desc)
+!endprocedure

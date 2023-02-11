@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/F/Fedora
+
+sprite $FedoraXs [10x10/16z] Om02Jdus1X3W1mDEA8CLYC0i1Y3avuInm3HC3GC8eR5u8N8ClFnG6GO
+
+sprite $FedoraSm [12x12/16z] JOo30S104C1Ikzb_skATC_avN8aOQL9DAN-yKkuwwf7onCAThrPg7sk-SX6k5dNlzZ-zsUe7NW
+
+sprite $FedoraMd [16x16/16z] NKy30W0W45js_V-rsOj3E7I8a1p1GaW3Qj2q4I_gGvjsU3fasXfLqdN31-UDoxe9cpViTpWW5gKGXiDi6_xD8zRCvB5nU0itU9S9e0QL-zYae5yr1G
+
+sprite $FedoraLg [20x20/16z] {
+PP050e0m203FTWN_VwsvGazND91ned6bOz5C6iXeXskYXZSYjwJxM5eiuMAuRyri9EYEksvxbcKjqnF4ok8JffCPDd1Wf0CC0SQnYIBhptV1najFFT5M-dOG
+qbroXiUOY_LRb7VIUYIfvJUzD79p0W
+}
+
+!procedure Fedora($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/F/Fedora', $name, $tech, $desc)
+!endprocedure

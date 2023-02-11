@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/P/Producthunt
+
+sprite $ProducthuntXs [10x10/16z] HOg34G0m40HZZBR_QiCtJk7Kf8LRl9eAe5xqZNdH6xuMeQ52S3InI1Mm0G
+
+sprite $ProducthuntSm [12x12/16z] JOo30G0m30HhO_zjY_2AyDyy-Yu6s02dZvzwvzmDy-N6UljYVtcvJwbUNY0FluSxb8_rqop-wwacTGy
+
+sprite $ProducthuntMd [16x16/16z] LO-50G0W20JVRjb_MZlFF1CmK8a2moRHn4obGvvwYVEmvmr73JQsBJgS6cfww-JOIjDdrxddXuVhr67q7yNl6RhtOVk8_gBHYBy2x6Q32W
+
+sprite $ProducthuntLg [20x20/16z] {
+PP053WCm30FBtFh_hnt6awUU-C9nHZzOnGaPnlPK43gLCgYKp5xXJJnumpJjt7vkpfbDTZgfEfSZxEVnPgaB-53ejEXss-tB1Mixvz-y3YBZ1fJ0bseMQJRn
+c_G4
+}
+
+!procedure Producthunt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/P/Producthunt', $name, $tech, $desc)
+!endprocedure

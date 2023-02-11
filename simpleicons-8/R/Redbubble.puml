@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/R/Redbubble
+
+sprite $RedbubbleXs [10x10/16z] DOQ50G0X08JuJcN_QMql0NWygRBfcQ076bjyl41G1psUWn2dU2R0CI03
+
+sprite $RedbubbleSm [12x12/16z] FSg50G0n3090UDUo_xJrS9KecbSN1WqZTI7xqUgjFxrzKR7h_7AU18daGxPbsGaN2TKVtG8
+
+sprite $RedbubbleMd [16x16/16z] LS_L0SKW0CNGMyCX-q_xf7Z-3exUdamyrClKR2MZiXDINJmx1EKyBPpdLO3dNIJHjcPsKtszpX2hm-iRZh6-pekj8hEvBXeP_KexfMFvpHS
+
+sprite $RedbubbleLg [20x20/16z] {
+NOq55i0W34FRkK7kVzkzuEHlsAzPuOxu3XlOKGXU5GPkLUHHHNRsKd9QZ1YEY-vaYmTUEztLMNTH7P5QrdtLWIud7jLvTroNaOTk0H0iG5dCeN2IAl98PMAN
+hCoLHSX9Fm
+}
+
+!procedure Redbubble($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/R/Redbubble', $name, $tech, $desc)
+!endprocedure

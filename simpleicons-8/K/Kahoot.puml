@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/K/Kahoot
+
+sprite $KahootXs [10x10/16z] FSQt0O000C0WxDty_wsRJ00k12fHWv9QALNe_aUBC15D80e0EZu
+
+sprite $KahootSm [12x12/16z] HSV50S80002nuCxjFotK-qi0hYTy0oh5hVVgPp7xLNXsLNN58PE3ABk_Bi67vdCoErm1U7Jy0m
+
+sprite $KahootMd [16x16/16z] JSg55S0W54FHu0xxRrkI6gz5xk7ZRpYm51xNjSDQSWBCvdpC5svPjgHiQ7SJ_HxgcuxsieBwdK-RzWoCIdlOnzdHWPkXkSbpJQZ7SQtNVMn3Djp_D7K1
+
+sprite $KahootLg [20x20/16z] {
+NSu75eGW303Hq3kv_srtKmmFnlvL0Av6q9jm3F_jGfVRi9aj70uAMVYC7fnUr3Q_5-Ept6OUmOoe0bN5DE0yudmDQ0mpznc8fK8hvQPQelCM2sfsfhOzTSGW
+Dioy_HpDvAAPwMhsXhUpg9D3BF03
+}
+
+!procedure Kahoot($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/K/Kahoot', $name, $tech, $desc)
+!endprocedure

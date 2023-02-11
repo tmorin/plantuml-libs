@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2023/Resource/ApplicationIntegration/AmazonSimpleQueueServiceMessage
+
+sprite $AmazonSimpleQueueServiceMessageXs [10x10/16z] Oq00JWOM18kRWPi5pcA5iDWPs9aXBE9qCB6nCx43nG
+
+sprite $AmazonSimpleQueueServiceMessageSm [12x12/16z] XOor0G0n30CLC-m_xpDMkSOWm8ynKeS81dQoK7dlU4c1oBqNCYQUUKzLTdKGOmK
+
+sprite $AmazonSimpleQueueServiceMessageMd [16x16/16z] jOtL0S0m24HVFC3-yzRxKrTSxrY9gPfB6frv13hlR9QfTu0JJlVwPb_vXTyw8Lb4FOKM
+
+sprite $AmazonSimpleQueueServiceMessageLg [20x20/16z] nG-34S10x8ra_ttxjewD3R84ZGueKC_0AFYOTInOhQanxJieTsQDePD8NK0VUdCTaxdklaFMc77IvDZJZb__u8mfjuEv7IBTJ9a3aj7J1m
+
+!procedure AmazonSimpleQueueServiceMessage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Resource/ApplicationIntegration/AmazonSimpleQueueServiceMessage', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonSimpleQueueServiceMessageCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonSimpleQueueServiceMessageLg>', 'ApplicationIntegration', $funcName, $content)
+!endprocedure
+
+!procedure AmazonSimpleQueueServiceMessageGroup($id, $name='Amazon Simple Queue Service Message', $tech='')
+  IconGroupElement($id, 'ApplicationIntegrationFamily', '<$AmazonSimpleQueueServiceMessageLg>', $name, $tech)
+!endprocedure

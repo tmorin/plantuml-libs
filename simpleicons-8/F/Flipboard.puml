@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-8/F/Flipboard
+
+sprite $FlipboardXs [10x10/16z] uySA6C00bGMXqLa87Vmu0G
+
+sprite $FlipboardSm [12x12/16z] uoSEC4001Xl1mcGpmjd8vX2m2
+
+sprite $FlipboardMd [16x16/16z] uoSTSBF108JFnW03HFBX7EBvG0e_drm
+
+sprite $FlipboardLg [20x20/16z] uwS1O402r193y2aNW_795gCX
+
+!procedure Flipboard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/F/Flipboard', $name, $tech, $desc)
+!endprocedure

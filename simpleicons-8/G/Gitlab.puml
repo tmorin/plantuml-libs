@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-8/G/Gitlab
+
+sprite $GitlabXs [10x10/16z] Oq02_32I7yhY0BBO6K1yVbP-JC20O46O47rG1eJ90IG1
+
+sprite $GitlabSm [12x12/16z] ROY30G0n54DpHf7zfwtTley07OnoEjtunuh-cFpdlVOu_RW6hHV5xi2Usu1t2Wd9qui5
+
+sprite $GitlabMd [16x16/16z] VSl50SKm081GQl64_QVzxj9t1hvCSZCBe3DSD3T06roeaDJxgA0QrhEkLdpNtBVw3jzK6EfT0SZUpLpCNWou6_VshjpR8m
+
+sprite $GitlabLg [20x20/16z] ZSk30SLG50MmKxlPVzflitcyocUBt1Jgqqjk1lFvqUOAbsVD5VgaXFieaWcwUnj5l9aQxrRRTDx5cocrLpdmPCd9ugxBHUygTuMJEK-WpujUcOiz
+
+!procedure Gitlab($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/G/Gitlab', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2023/Resource/Analytics/AmazonRedshiftDenseComputeNode
+
+sprite $AmazonRedshiftDenseComputeNodeXs [10x10/16z] LOk30G1130Jd4FTVxvjn5loZQFVbpOyZ2HX7bPR7JmMjX75QYo6Svu3p6WrM
+
+sprite $AmazonRedshiftDenseComputeNodeSm [12x12/16z] POo50GG12CFQrqBst_VSWwiUO8vSP4qp5dzGLL5ZYLhkqM47nZoI9JI5aIBv8jk_prZsA3CXdxps_zOApUW7
+
+sprite $AmazonRedshiftDenseComputeNodeMd [16x16/16z] TSwr0GHG3CDGvMDYxp_lCOEwrua_MTfl1hqv8lr2LcVRIPng3Z028G28jFBgEHKCc7lDXcYv8G03Y6HCF53QXNK9odeyL838Xrdf7CCjNdyJUF4hoQe9S0G
+
+sprite $AmazonRedshiftDenseComputeNodeLg [20x20/16z] {
+VSvLeaGX30JH2a4QUl_hVJ8-r-hp80cNBTjRCsGScCl6f1LJlAkBT33irzs-W5aHPC7hdY7iTJSYeP9sBvOq_wtJVJk6CNi4DzDhDmCt6wM9L827fS3Sov3T
+xdFx-CyQm1o-sIC769JPNiRKjAYkRm93IGCR4nlB7B6nyXUtVW4
+}
+
+!procedure AmazonRedshiftDenseComputeNode($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Resource/Analytics/AmazonRedshiftDenseComputeNode', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonRedshiftDenseComputeNodeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonRedshiftDenseComputeNodeLg>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AmazonRedshiftDenseComputeNodeGroup($id, $name='Amazon Redshift Dense Compute Node', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AmazonRedshiftDenseComputeNodeLg>', $name, $tech)
+!endprocedure

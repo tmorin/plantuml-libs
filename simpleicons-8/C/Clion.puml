@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-8/C/Clion
+
+sprite $ClionXs [10x10/16z] uySA6DWP-1c0D3B11s61I0O68ER1hfKJ2D24
+
+sprite $ClionSm [12x12/16z] uyS9c1WO6FWPm4nU40Lbip22I8GuBvJDpyh0mCGFqaCSu630gXO
+
+sprite $ClionMd [16x16/16z] hSc54S103CH0X_dKVxLXPjf7ZRactql1Lv-9rJoiwDjS46Eh_qppTDKc_7ngh5Qqj_Y1qvgwQ76W0W
+
+sprite $ClionLg [20x20/16z] jSc50GCn3C10bI6sjV-qPMRulx3YVn9WeE0936SGbst8GcsUs_dwljLTAvYt2KrehHt-WotT7U51MwQQM_PYiTUyCDWR-xKr
+
+!procedure Clion($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/C/Clion', $name, $tech, $desc)
+!endprocedure

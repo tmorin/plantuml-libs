@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-8/T/Tile
+
+sprite $TileXs [10x10/16z] Oy0B-1aOc804YCNFpmra0IaWbnj8StBoSu5PO6cuB3PJ
+
+sprite $TileSm [12x12/16z] ZOh50O0m34LVtPFzfyMv8Or-OwBqM3snjTWRrthekjUPoQCK7VR0DHmXTsQiLwXq6fJCMwq
+
+sprite $TileMd [16x16/16z] fSUr0SGm04MnPsR__QSz39K1TU8XTM1ch-CD-p-OwVicTTJX_obZfVqg7zBSFh-yjZk-flh_NgChWslKO1kOKWnNlG4
+
+sprite $TileLg [20x20/16z] lOt50G9140JhV7UiyuyMzozmzMnb1oG05wOFROntpSpOxAeDhO-WC_UkwypRtYg3HV6gIVs4zAvTiLSjkQ9wsMimzOtrvJTq7sjE2pO7ncupF-S8
+
+!procedure Tile($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/T/Tile', $name, $tech, $desc)
+!endprocedure

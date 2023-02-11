@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2023/Resource/NetworkingAndContentDelivery/AmazonRoute53ResolverDnsFirewall
+
+sprite $AmazonRoute53ResolverDnsFirewallXs [10x10/16z] HSU30GH150FGDyRllzx3CWulQj-fhyOyH41EBeHuAhRWS5CKadNyAEZXm55V
+
+sprite $AmazonRoute53ResolverDnsFirewallSm [12x12/16z] LSgr0GD140J1EeRDFrwn7jePT2E6jf8zMVn86c8X8R_jxv34_iMW4usY08EjiZ7PUc95fq6Bf4Js8y0J
+
+sprite $AmazonRoute53ResolverDnsFirewallMd [16x16/16z] {
+PKm50WGm2CBrvF__FUkQ1M7W7xGd_esRTb4x3hNr2MpF18uqtjJlVOsgntI2IFQSgrYcM_MCO2iiorf45jf_Kw_NiXLxSldnvP7E4T9LiYYlKsIBnwbTDXIw
+Tk8BKlm
+}
+
+sprite $AmazonRoute53ResolverDnsFirewallLg [20x20/16z] {
+VOu55iCm3CKKRFF__U-xnSzZK34oyeDZlwhOd0Jkdaqgr_VoY0HLABMGxxD3FScQnFc0roAOxJ6Y5cNQPi7mcFIMfsmrNS025Afi5sNgcVSq1yMR8tsGnNfo
+PG2j4aubDmYNExfiTU-Z7elRgf4xzdjOaHjh6fAwLg7xABmW3_vm0G
+}
+
+!procedure AmazonRoute53ResolverDnsFirewall($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Resource/NetworkingAndContentDelivery/AmazonRoute53ResolverDnsFirewall', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonRoute53ResolverDnsFirewallCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonRoute53ResolverDnsFirewallLg>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AmazonRoute53ResolverDnsFirewallGroup($id, $name='Amazon Route53 Resolver Dns Firewall', $tech='')
+  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AmazonRoute53ResolverDnsFirewallLg>', $name, $tech)
+!endprocedure

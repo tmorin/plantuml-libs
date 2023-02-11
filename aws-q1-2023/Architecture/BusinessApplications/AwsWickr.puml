@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2023/Architecture/BusinessApplications/AwsWickr
+
+sprite $AwsWickrXs [10x10/16z] FSQt0G0W008mx0B__sitKpZrfUbNi-1P8KhgcEkL8V4Cu9n5vPm9sbtJdeNLkLcj3W
+
+sprite $AwsWickrSm [12x12/16z] HSV70S0W3CNGuFxD_ll6T9sUC8gP9zxa66t7PevFTLYILDN2fnNK2DlqORYN2G0ZqBla2DCf1AvGhhEiXiVCy0C
+
+sprite $AwsWickrMd [16x16/16z] NSZN0GGn30BHjPm0zz_lYTNb-Nl32jNU-XlInqur-cflOwr5RinP3h55j4xqsrt139jlQ-7YbqsREBVp4ZRFIIkomVBfgbxUOwpM7TDElEJi6i_IV-C1
+
+sprite $AwsWickrLg [20x20/16z] {
+RSk73KKn24DHqcsp_xolXUJNYnf7CYEinXZyW_g3MbXBNwX00zkRQVG-Z4HjhOMXaR3hBmGi3CBS9RvP9vbO2lbX-Reli-iU8-3J83ACS1SefNgN7wExNpOZ
+jn6ANkRjMYcLfn7cBbdPS_h2eOs-CGhxnXC
+}
+
+!procedure AwsWickr($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Architecture/BusinessApplications/AwsWickr', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsWickrCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsWickrLg>', 'BusinessApplications', $funcName, $content)
+!endprocedure
+
+!procedure AwsWickrGroup($id, $name='Aws Wickr', $tech='')
+  IconGroupElement($id, 'BusinessApplicationsFamily', '<$AwsWickrLg>', $name, $tech)
+!endprocedure

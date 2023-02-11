@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/A/Affinity
+
+sprite $AffinityXs [10x10/16z] Oq01_Fpy21QCmGTbyhC1ESn01eZF32A06AA26ym30J09OS41
+
+sprite $AffinitySm [12x12/16z] NOo50S0m40BhZT_-qyRzNO1ZDs0QkUjiqzBl5wWwTeR99wQBBVFJTK5h3QJPKQtBlga4
+
+sprite $AffinityMd [16x16/16z] RSo50O0m3031nvtVVrk2Mw_U24cJzjmomyYbq91TxrB3VBrrwjIINTp1m4wRlKTxFDsFwooEVoVmQZoeL2fGrC60EWGFp3wDC8oRUTlvMW
+
+sprite $AffinityLg [20x20/16z] {
+VOu50iGW40E3E_d_R--MkZ4jDXi44rfhNbrLfd1r7BWNnpTNhoftaGeRUcmJryun3qIHPbMUxFkXkwAMYH4Njsh7eAr1VtgNMkio9ApKyPwonIetEgGhVmv7
+5Dx9GBuxd72Oy0C
+}
+
+!procedure Affinity($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/A/Affinity', $name, $tech, $desc)
+!endprocedure

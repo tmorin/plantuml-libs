@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2023/Resource/Storage/AmazonSimpleStorageServiceS3ObjectLambdaAccessPoints
+
+sprite $AmazonSimpleStorageServiceS3ObjectLambdaAccessPointsXs [10x10/16z] LS4v0GD1000XRl_nRpXrm9yCy3aj3owtQ7xV74Jr3Tzde9Z8jXzUyWA27m
+
+sprite $AmazonSimpleStorageServiceS3ObjectLambdaAccessPointsSm [12x12/16z] NS6v0GD140CWvlQJ-c_OkS6_J82p7h9WAVC4hwXJOd9VplrgaBa-4OUI6x9WF2ppMWAfUW4e-04
+
+sprite $AmazonSimpleStorageServiceS3ObjectLambdaAccessPointsMd [16x16/16z] RS57OG1000CWRYV-3VVN3VuraW9GuLq5OZbtkGBb7RnbRLWNdZs36HTETSmXXjPj7IA6DumoYJx3KC-JS1N9T1Uu7gX2yJI7jI4pGwsk0spQm_Rb0Ju
+
+sprite $AmazonSimpleStorageServiceS3ObjectLambdaAccessPointsLg [20x20/16z] {
+TSZ5eG0W30MmK8gy_GV-xf9Z-5-Ub2yceOgFlcVVniuz3To1dQHn6-QXNtu60LiV64S4k2wuuTX8UeudvgxZI4g8L8ogCeVnVcAagDShUworHDX6bwfjGuJ8
+X3W5UpWr9xYaMPpbDjJ1ZCmx4D1N4EOLGCTHgTKTNzsqNuPtZm
+}
+
+!procedure AmazonSimpleStorageServiceS3ObjectLambdaAccessPoints($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Resource/Storage/AmazonSimpleStorageServiceS3ObjectLambdaAccessPoints', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceS3ObjectLambdaAccessPointsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonSimpleStorageServiceS3ObjectLambdaAccessPointsLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceS3ObjectLambdaAccessPointsGroup($id, $name='Amazon Simple Storage Service S3 Object Lambda Access Points', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonSimpleStorageServiceS3ObjectLambdaAccessPointsLg>', $name, $tech)
+!endprocedure

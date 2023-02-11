@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-8/U/Unraid
+
+sprite $UnraidXs [10x10/16z] Oy0Dc60CVbOW1ZD0913324O61cOmYm74mcaG
+
+sprite $UnraidSm [12x12/16z] Oo0UC39mC049C9EDWO67WH_CvaUmuIH87JzK6nCRH0zKYW
+
+sprite $UnraidMd [16x16/16z] hSVL0S0W303HgtlPVrfSFv53aiUmPix2Byky8ho4DlEw9I_0bDccBOoYN-_NUJMxELb6pIa
+
+sprite $UnraidLg [20x20/16z] jSYr0G9H00MmuCxRVreuzoj_oYZgUB8SbxlZ_59VU1xwUGh4BVqTqjzhUgtTk-9wdDtXYSTfSdHdghei3r7K7m
+
+!procedure Unraid($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/U/Unraid', $name, $tech, $desc)
+!endprocedure

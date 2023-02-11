@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2023/Architecture/EndUserComputing/AmazonWorkSpacesFamily
+
+sprite $AmazonWorkSpacesFamilyXs [10x10/16z] BSd50S0W00D0DCR--xR8lIBwyGVOBzvKoK7_0FqfTlbl_2cjk8hrJobkubH-BlRK2e0sPzTQ-Vdt0G
+
+sprite $AmazonWorkSpacesFamilySm [12x12/16z] FSo50GCn30F0ccd_VIiLNg4BkPb2CdFcsS0l-SPXnKtYnekkQAKNzcxNXbUhHzeiw2tSMNlJAw837xqeD_1bH70KV8iCymO
+
+sprite $AmazonWorkSpacesFamilyMd [16x16/16z] {
+NSg50SH024JHm693-kyNERyVVIon-MOTy3LPu_zSvqkcgkHZdmsR7N87q8-nqyCvlgBJiqu4pj4WupXhzWDG11zQEzgCuBuYCprLm47-T3_WIu7nlKuOkl6T
+nCpAqpM-SyCs_XaK
+}
+
+sprite $AmazonWorkSpacesFamilyLg [20x20/16z] {
+PSY5WSGm34HHuu3IVxy6vN2_KKzlp72oFz6VU0pzX37stLfQrwsAkm5Uiuz1IcEQXO8YfSKrDaZgNMdXOPUg7GiqU2oupNseJL1Ccut5LfN0NbyBRtEpI4tg
+s8WekjQlAIrGrL2f7zkv5zg-zZnfOVZqPJYfOUwwjctqcqxUTl3DsRNK7rm
+}
+
+!procedure AmazonWorkSpacesFamily($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Architecture/EndUserComputing/AmazonWorkSpacesFamily', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonWorkSpacesFamilyCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonWorkSpacesFamilyLg>', 'EndUserComputing', $funcName, $content)
+!endprocedure
+
+!procedure AmazonWorkSpacesFamilyGroup($id, $name='Amazon Work Spaces Family', $tech='')
+  IconGroupElement($id, 'EndUserComputingFamily', '<$AmazonWorkSpacesFamilyLg>', $name, $tech)
+!endprocedure

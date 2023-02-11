@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-8/C/Coinmarketcap
+
+sprite $CoinmarketcapXs [10x10/16z] BS450GGn0C2mZddrh_Rn4e1XuKi3nGftysL042AcGX350JQKmp1KcLUKHvOlWQH3uGq
+
+sprite $CoinmarketcapSm [12x12/16z] HStL0SCm303HAvcjst_QXfCd_XARRk6WBKq5yCTc22OEqH0GueU_2KfJh9LY8E9xcs4wBXEV2IbUX3oSnoZ75qCJB
+
+sprite $CoinmarketcapMd [16x16/16z] {
+LSZLeS9G042nu9LBp_xJFi79PzmShwrUHjsStDJvqGFAmw659I-dQC882st2hgZDkKked1hH75FIMA9JT56PSawsg3tLgjgnFy1fpxxXozgHcz4ZjWCkjNUp
+w-OAlm
+}
+
+sprite $CoinmarketcapLg [20x20/16z] {
+NSY5jOKm403H0U8s_LVx9USfTtrvgCiH-H1yc0SFwZY0g2QsvU3XrFZnUj03BYUV59Ql5KweNe-ZAw0D79SHE5JmqOlmc9TJGQj0iMPH5AR90vHiiw2WMD63
+f49pBJiQ780UmDG9JULECtT1USco9Irinr3OBjLMXxfuAMxZ1E0N
+}
+
+!procedure Coinmarketcap($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/C/Coinmarketcap', $name, $tech, $desc)
+!endprocedure

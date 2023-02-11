@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/B/Bootstrap
+
+sprite $BootstrapXs [10x10/16z] Oq02V630oy30pWy130pSS0B8PU47adnW2J0VBiR9mCdFpyO6bc23wKK
+
+sprite $BootstrapSm [12x12/16z] Oy09-640bSt4py_9oWOI0Gjpyl63A0v-41kgae4FBCx3pS_F11I1YUCq4na
+
+sprite $BootstrapMd [16x16/16z] XSt50O004CJ0u4xwhnPtdT_fyYjrny23ubnRBZM3HctMMijbu5A7fOFbEG5CjUJBtFNHKbUd6W87rKl-AcFGkgguwG4
+
+sprite $BootstrapLg [20x20/16z] {
+ZOy53aDH20Htdpltlsr3gVVRn2Ouk4vO7qoBoHTBGrc-qLZPY7KLlanUu-X5CfQgUyM2LanRmcanrnkTt4bY47nVXVZH6opqDS-fLi2MaTuJutbBLIaffNhy
+Hzg8uJlKS9aR
+}
+
+!procedure Bootstrap($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/B/Bootstrap', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/M/Minds
+
+sprite $MindsXs [10x10/16z] HSR50O1G500WV7RlFwtvWnFGjfCa1BGXQRjMrqawBKAhQbefalFSquvpnGq
+
+sprite $MindsSm [12x12/16z] Om01PcOM1ZXWmifa1444Xm5P0rmTCr0ABegi7Q6UaPEP6MuCFpyl4fiVH0C
+
+sprite $MindsMd [16x16/16z] LKs50G0X20JUplsdjHN-JE025lJtVGGFEF-4hmJQxwi_-8FUZ6cexd2fsU_R0YdvFjRD8GSm4FbBgsHu-trIackjITIZZB9Ees7MhmC
+
+sprite $MindsLg [20x20/16z] {
+PO-50SGm203nrzBzfstSBue3L3ZoXWECQuFoMS1wLnY8zsZEzZKPWoHzl6MamlQXexH0Jbp_8x-CpeW5pju8wsytyJ9NdahtQEGjqZxApB3mkICNhhehAJUT
+-ttzLXr-tTsg4
+}
+
+!procedure Minds($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/M/Minds', $name, $tech, $desc)
+!endprocedure

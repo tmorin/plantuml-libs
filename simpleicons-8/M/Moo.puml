@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/M/Moo
+
+sprite $MooXs [10x10/16z] LOQ50O1008ImM_QVrloyX5SxGOEHn0YiRIGapfG8Qsg0unrqLBW1
+
+sprite $MooSm [12x12/16z] JKo50S0m369Ij_-lhSSz0BPbiFacSmClzKMrTBv9BNgQgNehStwnspEBpHgv7e64Mcrh7
+
+sprite $MooMd [16x16/16z] RKy30W0X49mpj_d_QxDhRI32ZmQ4I-qkLAnz2dWNzoImiqgVJkIHDyECd5wzKbAwwm8-gUweom7vv_vVhmNMMF0o_UOJallmq87_q
+
+sprite $MooLg [20x20/16z] {
+PP050eH0203jTkV_hxsK7jsYeLEkhd0pPT4CP1bCd55qC7GtVJIxPLD0Z9M1JLHAU-uheyfOvT9yD35KsM4UJuSzOuayk18kbLKx3UBJeOswbdcy3-VH0zjo
+fH6UV9d_ZpS
+}
+
+!procedure Moo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/M/Moo', $name, $tech, $desc)
+!endprocedure

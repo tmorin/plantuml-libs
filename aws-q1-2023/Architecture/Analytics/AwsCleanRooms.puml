@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2023/Architecture/Analytics/AwsCleanRooms
+
+sprite $AwsCleanRoomsXs [10x10/16z] FSZ15G0G4CHG09djlru0EVqNeArgvLEVKeBGcfiISLyjkaMRK67I9XKWOOjPCBMeoG4
+
+sprite $AwsCleanRoomsSm [12x12/16z] JOot5S0m44AL9RZzz_L_LAOY2xpWNls48tg4tKVutF2tj9lUnWVOKo_SIoq7PRX7tgeedtxe2RvihWSSsCUMu150-W
+
+sprite $AwsCleanRoomsMd [16x16/16z] {
+NSi74iGm34BHe1GCllzvOvljopIzFoEjjUT8Ijax-2_OOLtFC7sKT67UEvQDJIBKY3sscoWeByu0RD37JPjA-jZnB7rAl4WYeNSVcAqi7LZkTKnILXtnUY5i
+It525l-60G
+}
+
+sprite $AwsCleanRoomsLg [20x20/16z] {
+LS_H6i0G28RXzGlA_T_lgk3ndVLkGA9nwfR1guzTr8sT3-f6Z8EgMXlC2dKR2z8QarWG6_6bgOmYlJ39eBtMLOf8tQThHl2QwJK8V_RdQzeep7K62LJRDKCk
+lG0VqC7ESqvMv78R6u-m0NRgrH0aPfvQLDj--qpSRNlmsei_
+}
+
+!procedure AwsCleanRooms($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Architecture/Analytics/AwsCleanRooms', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsCleanRoomsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCleanRoomsLg>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AwsCleanRoomsGroup($id, $name='Aws Clean Rooms', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AwsCleanRoomsLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/F/Falcon
+
+sprite $FalconXs [10x10/16z] Oq00VXWDON7m0oam1X5W9eJ1mCe14eA8WLamDWU4nSCFDOkR7smS
+
+sprite $FalconSm [12x12/16z] FSh50G0W34FHu4xsdnQd__GgW8QKHHMyq5nWs-GcEllYtI2HYiGjLNuNKfpGbYl-bnnWorA_LcVPrGG
+
+sprite $FalconMd [16x16/16z] POs54G0X30Jpk5__tNu6bqNtaD13tkMZv9OP4A5C0ImxL5KmWjS4cARrengKwjI9u6GUCzwZ_jL1GqpFrGijQX9eaS0iLOKbp237-bZCaicr9SeV
+
+sprite $FalconLg [20x20/16z] {
+POw5OKKn30FrE7pxJzj-Sb11dr7IfKNFlZ8qQ4SAFTiSF5BXDk80ijuCA_BMOqv3rPq1BsqTUdS152on5Ke0MsENTyMgcJ3raw_C7Li2ctV9ToDSkaWfutLI
+UdBbA4anoXGVgz_tkVRVIzp_0G
+}
+
+!procedure Falcon($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/F/Falcon', $name, $tech, $desc)
+!endprocedure

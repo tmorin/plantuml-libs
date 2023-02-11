@@ -1,0 +1,21 @@
+' definition of the Item azure-11/Item/General/ServiceExtensions
+
+sprite $ServiceExtensionsXs [10x10/16z] LSP50G0n40ImEIpu5znbo2lehatm4X0QYEqZTV2zl9_ecCpW
+
+sprite $ServiceExtensionsSm [12x12/16z] PSR50G0X00InFK7xBnW6bxoYonEX7qA-0FwYtM0xnl_nf_w7wXi-A04
+
+sprite $ServiceExtensionsMd [16x16/16z] XSU34G0m00Imhx7_lhMPOt11R0QQGKVXF4DYmf4zBhB_W-cS7I-pTfxLD_c3xHGU
+
+sprite $ServiceExtensionsLg [20x20/16z] fSZ50G11202nMGVwx_VSNV8CbvmDoi49SKGl7fphZeNhIuFmwphR2s5_CMukBYuFbXS7VhxPrMq1VWjg
+
+!procedure ServiceExtensions($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-11/Item/General/ServiceExtensions', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceExtensionsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceExtensionsLg>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceExtensionsGroup($id, $name='Service Extensions', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceExtensionsLg>', $name, $tech)
+!endprocedure

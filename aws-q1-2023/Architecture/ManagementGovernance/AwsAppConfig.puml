@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2023/Architecture/ManagementGovernance/AwsAppConfig
+
+sprite $AwsAppConfigXs [10x10/16z] FOl70S0m30BbD7ne_ttZpejsGEsIEDRTwctMflIsEz_mrD9TjzpTFV5rBAqeZe3Ca6swosQw_G4
+
+sprite $AwsAppConfigSm [12x12/16z] JSU53GH13CLGXRyp_TTx36kH7u2UpGmNx0kHJ-m3vhIrj0yC9Vdh3GEgdvyF8RqUoG97Py5dgO1prdlTuFNlNlyLt04
+
+sprite $AwsAppConfigMd [16x16/16z] {
+NOk53GGn4CIq4F2a_tv_ep-sq0DivfzHy0du1EAFsp_G3jAJwT4hq0xoVx6_YuQFrYvFc11Ky7UzNOFesJ7cNAKc5r3EN4jPwfhk0rWLk49k9NyF3Mt-lj6V
+lx-37m
+}
+
+sprite $AwsAppConfigLg [20x20/16z] {
+RSm5ae1030NHaLX_xd_VPIYotkKlmbDrUU8Vv1-4nen6lO9d-8jwCFTqoiQEWpfOit-krmG3OgveEwqD3fQrPvl11DZK_ZIn0UoRLObLDOkLRM4C8e05LTTr
+axEKG361nvAXMMBimUcwqz8Yrafeqr2YKzkJtlupqTRQ-04
+}
+
+!procedure AwsAppConfig($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Architecture/ManagementGovernance/AwsAppConfig', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsAppConfigCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsAppConfigLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsAppConfigGroup($id, $name='Aws App Config', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsAppConfigLg>', $name, $tech)
+!endprocedure

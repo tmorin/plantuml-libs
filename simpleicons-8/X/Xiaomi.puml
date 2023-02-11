@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/X/Xiaomi
+
+sprite $XiaomiXs [10x10/16z] HSR50O0m0C30u4xsdnRglTS1s-Cp0w_PWDNckgw7kxwY3wCgOjpJDblHDzRy
+
+sprite $XiaomiSm [12x12/16z] Om02BZv-NWu64E270I0J0P3PN40k4B211FaWKWmW4a93s7n8R4uaDWupUHWO44m
+
+sprite $XiaomiMd [16x16/16z] NSc54S0m3C10bT7H_jEMCGh-cRq-acbkOQ_sBQE2loAplNP0KGnEgA4DJTF0wRJR21btgxj1XdEUUSxSQeoEsqvfLF5NxXv-PYk-qnK
+
+sprite $XiaomiLg [20x20/16z] {
+RSp50S103CJ03QEj_giDmv6UOz3Li1YupQsUEeAiEic9gywjD8ciIUGDG7ysJC3OdxO2UfgeTPf_JqrwZDlMPY2rMSrlNZ0hs5ombZpbPFBC6bKfkQGwfQlf
+5siaxG
+}
+
+!procedure Xiaomi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/X/Xiaomi', $name, $tech, $desc)
+!endprocedure

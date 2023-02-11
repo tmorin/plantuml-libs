@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/A/Ansible
+
+sprite $AnsibleXs [10x10/16z] BOW50W0n2CDwhbl-_zf98LYe1W-d9fWdP0SEczTZsGZay8J2S_b7UHu2IKTA1m
+
+sprite $AnsibleSm [12x12/16z] JOk50S0W30JhNjX_MpYY5vUVuAtN95H1MX-aaFwHp_9GNbdxPvdgHhraVNFGEBN-XJ_cfEhyT6mR
+
+sprite $AnsibleMd [16x16/16z] HS-50KKX34FH-roGx3_jbo0zk5FiA4eBGv7imZJL62RNUMv6jepsscJ7M4PMN9-RbaS1L8bxCo9JVP6NamJkCgiL_-YKIff7_Vjm0kGOOaj4mnS
+
+sprite $AnsibleLg [20x20/16z] {
+JP255OL030G7vtJxh_Rhvf61itY2ALFz9778Z0MZH0bHfcRHxlDuOXMgRuyPBBxT8Pi8cUAJLSiMUfzqDHi65qZOgTlitkYd3Kzz6KY5op8YWzHTpc3y2kcf
+slMd6YsQ_MieCeOlLParZTH0S7lCVwCt
+}
+
+!procedure Ansible($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/A/Ansible', $name, $tech, $desc)
+!endprocedure

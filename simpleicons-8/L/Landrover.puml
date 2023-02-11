@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/L/Landrover
+
+sprite $LandroverXs [10x10/16z] XSQr0S0m402nCzF3_jE6sf0gyMCDO3Wac3FeTQbI4j39ljn9i5BllMMUx
+
+sprite $LandroverSm [12x12/16z] ZKgr0S0m35Cuvl-lBOybemZ_AZCJyuxQkAI1b34j-SoC4G2OLLGFQxQXjIWQGFM8TpbUAbGIdci5
+
+sprite $LandroverMd [16x16/16z] fSk50SCm3031DmXD-s_Rm0RD6KNmNStCo7GUuRrmAneLPcDnQkyJi321ZBNFMGhqmsKoPnynGOjT4sVvoYq7Z31AWNBTfVhrOxYKIpCFNjS_UkKVFm
+
+sprite $LandroverLg [20x20/16z] {
+lSY75K8n243H5o0DoCd-s-gl6-Ybmx_8TFUZEZSFcyB1fcq5n2jA4K6iWFI4gH2aXu_YwtY46qWsoxOzfF0rjXmZQ_EafYRGQwEdn1ovOhW7C5a3mdJta9qx
+A5fXJYiyfBbmYALj7AnluoKwPjF2Jtm
+}
+
+!procedure Landrover($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/L/Landrover', $name, $tech, $desc)
+!endprocedure

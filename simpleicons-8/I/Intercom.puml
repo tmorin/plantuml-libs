@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-8/I/Intercom
+
+sprite $IntercomXs [10x10/16z] O-3ZXm1k80C1680GYSM0buK0x60n400Q21S5
+
+sprite $IntercomSm [12x12/16z] O-3XXm4s21C1640Gme91ujXm7Wommana196y32nW7Wi30mCxo68aEm4
+
+sprite $IntercomMd [16x16/16z] dO_L0S0W34GFTsx_QMluRnyQJs2vCyIJIhh3gn8qkWbMTrc-B_lxNyvfoe8DlDkv9jJ2GNgl0j4q4MXgXm-HZX4QuCaD
+
+sprite $IntercomLg [20x20/16z] nS-r0SH044DHUPb__zKUc-tuNZ8ZPP8Px5KPJiRWJYfKWMCsG8OY43DjEvd_TDRpitQhscY2mCp0AXRUhAOwxvRcLmlFgaPhREw_m9a6H_a9
+
+!procedure Intercom($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/I/Intercom', $name, $tech, $desc)
+!endprocedure

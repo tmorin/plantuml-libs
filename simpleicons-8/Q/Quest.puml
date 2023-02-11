@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-8/Q/Quest
+
+sprite $QuestXs [10x10/16z] Oo0Qy4CeBY3Doy0FX5mCl6oCl0pS_Fpy-7K2
+
+sprite $QuestSm [12x12/16z] Ow00C88G5F0pC70pCl8pC84uB2mi75piG0Oh2wbc0W
+
+sprite $QuestMd [16x16/16z] jSC50S90043HDpct_cbnIC2-k9esYX-RX7YA4d5hQQ5LSucHoCRUp0azudFOnKtqP-u
+
+sprite $QuestLg [20x20/16z] pSY50GD020J1XVXX_LSRzmf-S5YAE_y6Xcyo0Pm4HoHCiZeCG1He7eNOEh2z_zmD3mJ7wltHgeoAtPo62HPo0G
+
+!procedure Quest($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/Q/Quest', $name, $tech, $desc)
+!endprocedure

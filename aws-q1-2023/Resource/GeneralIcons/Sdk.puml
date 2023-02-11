@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2023/Resource/GeneralIcons/Sdk
+
+sprite $SdkXs [10x10/16z] LSmr0GH00C2m7BD_kS_OALFzTMpG82Ncb6kma-a4UNh8yTLuY8E4zTae9-8A
+
+sprite $SdkSm [12x12/16z] NOg50G0X3CI2GsN_ST-L8Eq9CvBxjQLz6N5VTNlxOjiB4WSQzAeNcd0ISDgrnstlN9ZVxG0EQPmslhsBwEoi
+
+sprite $SdkMd [16x16/16z] TSc5WSK02C3GLs-H_SSz-Qv10pwprkJEMEUwaEVV4k3OOBojMQEbXXhDMGXZ3VpVd5r6oAtSdEQxxuUMozaJiW_EFjI0nbJ06ZGvkX9xn-QHSkON
+
+sprite $SdkLg [20x20/16z] {
+XP056WKW28F1LjZzZsl0wvmnlz-Pz4jHmoj2ew5FfFVJizGRgRXjW6ZEcis3pylfXuxT9nJmTjLu6BCMswcFAXoS4G5isK5qPpl3KlcPMVlFah7M7nXbPVY5
+dUtCCJJp6gqNFWR_dKGkaGlJJZVjbspMX9wK0OJtZxwD5W
+}
+
+!procedure Sdk($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Resource/GeneralIcons/Sdk', $name, $tech, $desc)
+!endprocedure
+
+!procedure SdkCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$SdkLg>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+
+!procedure SdkGroup($id, $name='Sdk', $tech='')
+  IconGroupElement($id, 'GeneralIconsFamily', '<$SdkLg>', $name, $tech)
+!endprocedure

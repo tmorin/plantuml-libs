@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-8/Z/Zalando
+
+sprite $ZalandoXs [10x10/16z] Os3WPsM007uGWB9WR7uuany6yB0GwjYGpGC
+
+sprite $ZalandoSm [12x12/16z] Os3WvcM00NP-482m-I602yQ6IV4ZSVWH00URZm692MVp8Cn1MCOCPW4
+
+sprite $ZalandoMd [16x16/16z] XSwr0O000CJ0u4xsdnPtJNTVFT0s8OUSsgP8JujRpSLwjS75NksFgxDREFFa6g3U69qE5t1mige7
+
+sprite $ZalandoLg [20x20/16z] ZT350SGm0CJ0FGY3-kys73FeEMPBQbaQkNMSzRRnDB_qnTJUDc9tsOhJzp2yceZnZHWncoD6nFgg_LQ5fhtPaTd-AlSJd4c--P-wT1Pi
+
+!procedure Zalando($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/Z/Zalando', $name, $tech, $desc)
+!endprocedure

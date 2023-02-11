@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/S/Suzuki
+
+sprite $SuzukiXs [10x10/16z] HKc30G0n4CkRRVQVjZWZn9mNDYI5FyxPS4owAR6WzbMqHCYoP2eiyXhO0G
+
+sprite $SuzukiSm [12x12/16z] FSo53O0034JHmvst_xQaISElQrAS-K5dcs9ACcA1Dw6QYbvvioQ5ehFrXhERGuyUs3ZINqd3NE43
+
+sprite $SuzukiMd [16x16/16z] FSw54SGm44FH7oRRwh_R6_aq-y9P95wiI89oolOAHiUQGw-c5H9QD3Ne2JNV5s1FYAA_VEq7ZwQhOakbPDBnoGOarAyi10xPIgp--h2eu0y
+
+sprite $SuzukiLg [20x20/16z] {
+NP254GKW34E3Ezb_sYz5ZtTILsmoNXJP7rVWdt0dTGuQ5eK78vue2QfnK02t4cnSceBYIj0d4tbvfIX2M0bCkEWxTQ4Kx79wyOXQmREssRkai_P9K5VvJb2I
+Zm4t6Pjytd8mx_k4IhtKBm
+}
+
+!procedure Suzuki($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/S/Suzuki', $name, $tech, $desc)
+!endprocedure

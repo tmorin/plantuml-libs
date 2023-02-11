@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/H/Hubspot
+
+sprite $HubspotXs [10x10/16z] DSUf0S0m4C0mzKUDzzysw8naorJGo_E7W8nKFQ2FG8pIg32x0G
+
+sprite $HubspotSm [12x12/16z] JKk35S1054ljPlzjxtqR0PuD6MGjyc_G9kjOGhVW_zCauOnuVlez0qlSb6xwIQwJ1uwZ5183
+
+sprite $HubspotMd [16x16/16z] NOo50S0W40Fh3hV_j6YAsqUdrKxT0lAmGeU_FApVnve8Z28xJy9hBR7nETjM0x1L8ZDpnU4vGN36YjM24JzwXFCIMc0oS0dQcXEs_-W1
+
+sprite $HubspotLg [20x20/16z] {
+PO-50KGX3CLAl-7PVzfJd8U7gaZsiWh8zUv8bJ7ytzyp0wup_LqkJTNIOANg0lExS4oPder98aW0iWxGKNJDXOR30Xrf3Obhp489d3SM1wObElWfX_zMZnbO
+aHsH_j1PmL7AChB4MlGmTly6
+}
+
+!procedure Hubspot($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/H/Hubspot', $name, $tech, $desc)
+!endprocedure

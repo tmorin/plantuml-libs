@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2023/Architecture/BusinessApplications/AmazonWorkDocs
+
+sprite $AmazonWorkDocsXs [10x10/16z] FSR10G0G34Kn0A_TVryVo2d8MBhzschOMqrzRJNHrvB468URDAZuAaRJsfPniOK9
+
+sprite $AmazonWorkDocsSm [12x12/16z] JOj50G0m30D7fTI_tZ7TAsW3dGW-0uIKOjWwzJp5hT6rnQtHjSMv5zKKOopg8vyVClUfyMjCpKmJxRg3YJK
+
+sprite $AmazonWorkDocsMd [16x16/16z] NShN0S0m20DHztBilszGkdr_Jp2lnbNlR0C8N-xQlV2vJo_bpyWpVqQ-1i2Dh46ElQQUKemnp66W3TtrP2PhN5rWSG8kMteBik9ENeS3
+
+sprite $AmazonWorkDocsLg [20x20/16z] {
+RSe54iH050BHtN7uzpzl3EBfybSDD_Pwx_X0VY29bhVAWIGBjdxbRQa9PPIX2sMKGQUDCfysojPJbdfggQJqNrii_94PQtLWHEpMTaD4s1BV1gxORE6FFAsT
+rImB4aS3ChcJlN06
+}
+
+!procedure AmazonWorkDocs($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Architecture/BusinessApplications/AmazonWorkDocs', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonWorkDocsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonWorkDocsLg>', 'BusinessApplications', $funcName, $content)
+!endprocedure
+
+!procedure AmazonWorkDocsGroup($id, $name='Amazon Work Docs', $tech='')
+  IconGroupElement($id, 'BusinessApplicationsFamily', '<$AmazonWorkDocsLg>', $name, $tech)
+!endprocedure

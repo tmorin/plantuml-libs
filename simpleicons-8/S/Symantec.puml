@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-8/S/Symantec
+
+sprite $SymantecXs [10x10/16z] LSR50K0n50AmrAvb_sc_Qvw0dr8SSc8_xMW6AR7lJ1N7Nb7sg7lRQyr43gm
+
+sprite $SymantecSm [12x12/16z] RKg74G0X20lsdlst_N3-TQD06fuefhKfTAEeI6fQqMcGCSaclcE2CPBmciX2lnpon7KdSFpUSIHvBgQ5yrjq794F
+
+sprite $SymantecMd [16x16/16z] {
+LKo50GGn2AFkPVzjduItIoM2o1FvQMyXrQiwH49MkAIEVJMO7IPdwaYMsG02q44wRW6o1EDfiMf3ErQ8qvNuRiBg3asV-6zTy8KD_AB8WYIEA_MES5dsm974
+CTrIlm
+}
+
+sprite $SymantecLg [20x20/16z] {
+POm7WiCW4CH4SuVv_sllaXtIPGDRnIy7FvJ699NaG9WcK-5GTikOxLdgMzbwr9wbQNTeropPwJ5Iyy98qd04wZ2aUILfXnGZ6NO9ibIunrqdi8KyvaARW2Dg
+jd9AiqLOapF2r87gbf6K_Sv9iYpojiQn7NB9w0LFIez2pmJ_
+}
+
+!procedure Symantec($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/S/Symantec', $name, $tech, $desc)
+!endprocedure

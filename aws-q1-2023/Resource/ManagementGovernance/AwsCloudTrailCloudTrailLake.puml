@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2023/Resource/ManagementGovernance/AwsCloudTrailCloudTrailLake
+
+sprite $AwsCloudTrailCloudTrailLakeXs [10x10/16z] Oy0Ak840ncQ62t8oS40OG8p2O6DWPs5ZO8A8i78pSBC2AGPEJavci34
+
+sprite $AwsCloudTrailCloudTrailLakeSm [12x12/16z] PSf50GD100J1MYR_UiCvxC-WCysDMn-jwKzYXTip0GRxk0GXZze27TBRZmdo_FIU
+
+sprite $AwsCloudTrailCloudTrailLakeMd [16x16/16z] RK-30K112ErrIFlF-urJDcWDrZeWRTsY1qWJa9CQq8EuctQCyyQFEAiyFVDkbPuXpUZWCzvF1WZjQJWfh7BSjIeYBXnU2CM8JCKCfFqBzfwy0m
+
+sprite $AwsCloudTrailCloudTrailLakeLg [20x20/16z] {
+ZSh5OKHH34FH-yZVilglDnbcEZi1dnJtak07FkBMs83YNftwEyRKVOiHH7Ari1DmNR_cujmfkMWU06xSsW98xXbYc_EmzRXqxI1LqIfEdV5A2-m5eCN9a1eh
+ejI1598ymdRdJcz0u-0V
+}
+
+!procedure AwsCloudTrailCloudTrailLake($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Resource/ManagementGovernance/AwsCloudTrailCloudTrailLake', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsCloudTrailCloudTrailLakeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCloudTrailCloudTrailLakeLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsCloudTrailCloudTrailLakeGroup($id, $name='Aws Cloud Trail Cloud Trail Lake', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsCloudTrailCloudTrailLakeLg>', $name, $tech)
+!endprocedure

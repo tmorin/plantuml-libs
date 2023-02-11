@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/S/Signal
+
+sprite $SignalXs [10x10/16z] DSZ50O0m00ImuCxjFotQvXaGOBLdjh1qUK5-apq_gNfpFNLFQh5DUYSt
+
+sprite $SignalSm [12x12/16z] FSR50S0m40InCREt_sh3ERq4G1AVXizuzxJfvcMLt0JzMl9sbEs07RnziVxYGVtjnYVKWENX1
+
+sprite $SignalMd [16x16/16z] LOg50KGX34C3bVkU_RSzN1xIHb1vw07euikxCLP9_9Y9uQsIZJlUgGmEpX3mEISW0XVE8zLNdBjMttKCjahxmBXel22MDXBdb8SbAP3YfJtTy17AmpL-Bn9_
+
+sprite $SignalLg [20x20/16z] {
+NSZ5WGKW54Mnyt2__LSxyXN8ChnDDNPH0sVcr-IjUHYI2b1vK3IzD4O3gD7hYmb4RzhHGUYGSs6OJWZ6VKodY-yoNK9lfejLVD69o4A7oM3IjBFbg7vgKp20
+imI8MIphOHfoG8Uk32uOB0D0Cnb5z5x3S03y0W
+}
+
+!procedure Signal($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/S/Signal', $name, $tech, $desc)
+!endprocedure

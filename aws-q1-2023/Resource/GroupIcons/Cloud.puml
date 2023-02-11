@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2023/Resource/GroupIcons/Cloud
+
+sprite $CloudXs [10x10/16z] uoK4c7aP4Hmc1X391cQ3cGWPLX3Wnce4
+
+sprite $CloudSm [12x12/16z] uoKMSC1PN3oyF3nGDWkO3sL203UIOXQ4E0yNKTO
+
+sprite $CloudMd [16x16/16z] hOp50O0m303hRUJs7nVNDrnS-GMLLrbWsAk4bYe7H-A-nyHhe5mC0FEhxlixqPqXV6O6
+
+sprite $CloudLg [20x20/16z] lSxJ0K0n30NGsdV_SHzgVUVKJ40dEO-DT4WyOcRpKYMFGI8JO6YY7j-Y20O36oy7VzcpkJTfJI4JKZSvIGel
+
+!procedure Cloud($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Resource/GroupIcons/Cloud', $name, $tech, $desc)
+!endprocedure
+
+!procedure CloudCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudLg>', 'GroupIcons', $funcName, $content)
+!endprocedure
+
+!procedure CloudGroup($id, $name='Cloud', $tech='')
+  IconGroupElement($id, 'GroupIconsFamily', '<$CloudLg>', $name, $tech)
+!endprocedure

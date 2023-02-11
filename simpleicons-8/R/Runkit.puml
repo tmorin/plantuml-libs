@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/R/Runkit
+
+sprite $RunkitXs [10x10/16z] Oq06BFpy_606FpyhY0DaG0b-CC43OS407vp5W611cJnWSo3c0G
+
+sprite $RunkitSm [12x12/16z] NSo30S104031HwpflzhOUsRuKIBkMSIGMTDHl_eQATWNmExnptiFZOTGkqZxrtqX760B2m
+
+sprite $RunkitMd [16x16/16z] RO-50S0m20Ilxltzfwt6mqLnm6IMr0IfrSVfn5CwbXP9ws_SUD6BUrhOz3BWOjrxk3TGodCXduNS53APOWSOdH16SBtqHEIQvWO
+
+sprite $RunkitLg [20x20/16z] {
+VT035i0m403HgTsv_sbh8_yXpeA0IlkOgzH5po7grfr6QrRjlCxsspaJjM7XeeNIMGH4hg1rqKNxp1Xt-vOblhJubllM-zRwXYyTDDuLp6v_tLkrLdEgdINS
+DLt6PWG
+}
+
+!procedure Runkit($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/R/Runkit', $name, $tech, $desc)
+!endprocedure

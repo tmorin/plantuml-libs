@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2023/Resource/Storage/AmazonElasticFileSystemElasticThroughput
+
+sprite $AmazonElasticFileSystemElasticThroughputXs [10x10/16z] HS650GCn00GWuhdz1wwy0gyKbnrbG4ON2IfeSMc59Sji1PXQqKwpK4xj2m
+
+sprite $AmazonElasticFileSystemElasticThroughputSm [12x12/16z] LKe50G0m3EBAw1_uhbCCVvaE3B23SskvFENibWQt8rJ3W1_O1cPOs15aWnrtq20QvgvaW6oLAW
+
+sprite $AmazonElasticFileSystemElasticThroughputMd [16x16/16z] PSV50GHH04AnznNel-2LSSajl7MxNXzAkTzScIfIIfQbCCsSC6J045Xf_JXlp9yVrtafc22NzOXI2aRBXyHV4Vz7fs2uMfwB-GK
+
+sprite $AmazonElasticFileSystemElasticThroughputLg [20x20/16z] {
+TSo50S0W3031Jo2s_y1rbwzo23-9gZojHEfbu4zBoa3Cx3pEaLnEq5ob5-RTg09gUJE_ejZhifgUH9FIsRfUJMPRixTvtImYe2IW-svEO9L5R-eNMtB5htjN
+tFUsMpwRF48Ko3kssKJlCG8
+}
+
+!procedure AmazonElasticFileSystemElasticThroughput($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Resource/Storage/AmazonElasticFileSystemElasticThroughput', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonElasticFileSystemElasticThroughputCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonElasticFileSystemElasticThroughputLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonElasticFileSystemElasticThroughputGroup($id, $name='Amazon Elastic File System Elastic Throughput', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonElasticFileSystemElasticThroughputLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2023/Architecture/VrAr/AmazonSumerian
+
+sprite $AmazonSumerianXs [10x10/16z] FSPH0a1G20312hJxxdzU0FCrG5-sZRzUZOvi3QYU-XthDIJXtcnnTcXOjS8uQqHUkwfm
+
+sprite $AmazonSumerianSm [12x12/16z] HOl70GCm4CBY2ZhllszmgbvKWY-Iu6-AY-mM7QEf9YzNDSF2mz6CHj-hNrqg6dpqgixg-EHGqMvmOhRw0w9ZujXl7NE19m
+
+sprite $AmazonSumerianMd [16x16/16z] {
+NSZ7OSH03CLGJn8_gFxxDSDct1x8r5d4pw1hnd3QIzfdohp6D5jdQKZkFhVYe75KtXQ-OeqsOaZhCDjk3WFUnfWMHhh3nzmds03TCLPvNGUuSp2Ouj2EuVR7
+MEqSNVbd_0C
+}
+
+sprite $AmazonSumerianLg [20x20/16z] {
+RSZNOGKW34KnOzezPlzzGylh-XIR_lM57ycFv2rxRZE3ArkNJ4dgSRAwUlM-Jn4XCmIEF6UTAr1WjQhTmum63jRyNY1wgl82p-i197Y_I7ZLF1vNMk2GS6QE
+CJF5v4m6dEkspwsnZB6tb7a5UzvYLgscUtSN-BwxuthDFm
+}
+
+!procedure AmazonSumerian($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Architecture/VrAr/AmazonSumerian', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonSumerianCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonSumerianLg>', 'VrAr', $funcName, $content)
+!endprocedure
+
+!procedure AmazonSumerianGroup($id, $name='Amazon Sumerian', $tech='')
+  IconGroupElement($id, 'VrArFamily', '<$AmazonSumerianLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item azure-11/Item/Other/ServiceWac
+
+sprite $ServiceWacXs [10x10/16z] HOk50S1020DJBxR_kA_8uH8KzyGxCyFa8Q9dTu-PUZTWYWuOwtVmJJ2R_yTmbnDr
+
+sprite $ServiceWacSm [12x12/16z] JOs50G0X200j6lOVzyC-fIlTjC7mHI9Y-0282DCtYx3fwzT2q--eoFPFdZgGyAFMcZ_fjxX3lO_bXru
+
+sprite $ServiceWacMd [16x16/16z] TSe55W0X20JGBVfv_-kktNuJc6ls5QK6SnxL6ZznNfjZ051hDOzWoiCndwY8z3NvFzGQCrzZG9dFnFfzt_lsLvapCu2_haoofVu1
+
+sprite $ServiceWacLg [20x20/16z] XSo30G0X043HxFOVDvl_s0lW52IjZscYREnZbB8KfQF9c9XC4sbZeobg8fdHMWSJAXoxc89XQ1O3Yp7U2iPI9oCOOmGX3ZNZ8WH0UjUeQ7MJhQDv
+
+!procedure ServiceWac($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-11/Item/Other/ServiceWac', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceWacCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceWacLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceWacGroup($id, $name='Service Wac', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceWacLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-8/S/Spacemacs
+
+sprite $SpacemacsXs [10x10/16z] 3S670OD00CGm9_2zUFzjEOde5WWn1XZJOc4OzwqE2-eoS073rnygY68KwV8QG3cey04
+
+sprite $SpacemacsSm [12x12/16z] 9Sl5eSC00CDGXJbl_sa_j3wPLDLfxwiXK8LOg1j6p-DEtp3FBllOmXTQ1aiL6-6eLpJ0l8i2jZAqmLlrt66jNm
+
+sprite $SpacemacsMd [16x16/16z] {
+FSw55GGn203HMOk7wR_RUvpzk09lzt8U_5s-LTwq4AO0C15wwuBbsnbUMmzac6vNApbqwAf7O7Vhiu5d1lZ6eRnjdNeHwfcN55qSfZD7LFxf61Jz9wp0zW1z
+Am1hmJ0zl1rkr0tm0W
+}
+
+sprite $SpacemacsLg [20x20/16z] {
+JSg5TG0X0C3GdE2I_QUj09MFvy6HXptmNtGR5uSLF0hBlbQrg7MbRSMW1WZ5xQxAKC7okhtJjqJDA1INQzPx1YsQ0pmxDfmwDTup0zVztE0skBIn5RMhCDLs
+yKrzrGjSJaEjq5qww5Wlk3n2zrulm3z0NllxFq7r0Jnkbk20wiAlR7_KlZzz0W
+}
+
+!procedure Spacemacs($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/S/Spacemacs', $name, $tech, $desc)
+!endprocedure

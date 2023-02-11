@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-8/Q/Qatarairways
+
+sprite $QatarairwaysXs [10x10/16z] POpL0S0m448ZPzMt_xGLVdCkG5lDlhnFQrTrxJj_vRSZ_ttdGBS9dHZwDaD7jpaEcYnS2Yy
+
+sprite $QatarairwaysSm [12x12/16z] RKr50e102AItcV-_rjQJd9Yc_slVDwWIzTvgZ7goCtF9g7Pgo6K0Zk-qgCVpXu83tVdujKCIjv-5cJ6kdynK1CzAr93hsG4
+
+sprite $QatarairwaysMd [16x16/16z] {
+VS_50S0m30D0oM7K_jEMwTKBSun_2L_zR5mazv6vjhMijUGSOsa56uRWlKVhrr4w8o7XmuQKUFPRhMvYIlaSpXcaVQmvjh5NbqZj6ZObzq6JHYlNPSQDPZ9y
+1AMVI5uh
+}
+
+sprite $QatarairwaysLg [20x20/16z] {
+dSq5WWGW20NGRnCYzx_jMjizpmu0Z-eP7sW5ojcDqJa3RA0HC948CxKQhHdZ7MbEk8XoJYch2G8Et-8SfhLXYrC8Dk_wQvefETGd7EG-WllDSV_6j8wOzrPp
+n1A8ctjCytweKBnrgmjQzYsy50vJSUSQS9IISufnLJOyOrLXej8zu5MkjQI0dpm1
+}
+
+!procedure Qatarairways($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/Q/Qatarairways', $name, $tech, $desc)
+!endprocedure

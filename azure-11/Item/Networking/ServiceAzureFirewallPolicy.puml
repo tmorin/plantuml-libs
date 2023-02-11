@@ -1,0 +1,21 @@
+' definition of the Item azure-11/Item/Networking/ServiceAzureFirewallPolicy
+
+sprite $ServiceAzureFirewallPolicyXs [10x10/16z] ROp50S0m30E31bdxhrlcvZu6GHf0W281T9vqGaG0IDzKNubLoLL4jbYkghflkPHozyq
+
+sprite $ServiceAzureFirewallPolicySm [12x12/16z] TSY55S0m20HGgCHW_tNHklm4k7VmWubeZE47s48fnGzmzzXDyRwKrThCmtl7DgqYJWO2ucmk-UWTN2W
+
+sprite $ServiceAzureFirewallPolicyMd [16x16/16z] XSl50G0X30J020xzjtkAwtoY2oUYnX3CmqafrTi42EvXrUDj_jbQ-wszVUVlwFyttzzptaPfneZK3vL-4KIeFvnd_c2UwODmS0C
+
+sprite $ServiceAzureFirewallPolicyLg [20x20/16z] fSrL0i0W201GmeRxNtSzso_VKX8sHEqHQ4mNTJT9DpkF3TwwgYWwluY9gDpokzuHinAZJFI7Zjq38SEiYWNs3wfYZFp09aOFX0qd
+
+!procedure ServiceAzureFirewallPolicy($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-11/Item/Networking/ServiceAzureFirewallPolicy', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureFirewallPolicyCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureFirewallPolicyLg>', 'Networking', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureFirewallPolicyGroup($id, $name='Service Azure Firewall Policy', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureFirewallPolicyLg>', $name, $tech)
+!endprocedure

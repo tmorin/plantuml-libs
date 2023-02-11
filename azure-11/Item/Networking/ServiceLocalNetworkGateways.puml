@@ -1,0 +1,24 @@
+' definition of the Item azure-11/Item/Networking/ServiceLocalNetworkGateways
+
+sprite $ServiceLocalNetworkGatewaysXs [10x10/16z] LOU50S0W40El1Lxs7nZNU7WGqnbf316gsa0-INKgfEhMAefgEvWrTTJ5XBSe
+
+sprite $ServiceLocalNetworkGatewaysSm [12x12/16z] NOY50GC12CI2m_u3j-yMB0TVB9uQfwQWkQbd9kjiQXbhWWAo0dInMf3oMf-oEEkiI0lUS8Gy5MHO-GC
+
+sprite $ServiceLocalNetworkGatewaysMd [16x16/16z] RSe70e0m30B0T13i_pzimJtGZgE9_pIy23pO0xYOA54oT_QS2Myx8MitzyTMFK5FyJYqA9ALOXHogqmLoqpC9Uw5Dl4gr5t56EQLiPyh
+
+sprite $ServiceLocalNetworkGatewaysLg [20x20/16z] {
+VShP5SGm24DHsO2KzD_mO3vWzfVLzmZ_ilWWZuYFLLXZhu3zWaPkO3avAsO6deR6s0JI5nbHcEHcI4Z2DYCNf8Ki9E4K2YnbXxBDV17P-KeELKMrB1lAhiph
+tOHr2D0bOAfTKo-Rfll-82psxmC
+}
+
+!procedure ServiceLocalNetworkGateways($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-11/Item/Networking/ServiceLocalNetworkGateways', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceLocalNetworkGatewaysCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceLocalNetworkGatewaysLg>', 'Networking', $funcName, $content)
+!endprocedure
+
+!procedure ServiceLocalNetworkGatewaysGroup($id, $name='Service Local Network Gateways', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceLocalNetworkGatewaysLg>', $name, $tech)
+!endprocedure

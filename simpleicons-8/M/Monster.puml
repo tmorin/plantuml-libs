@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-8/M/Monster
+
+sprite $MonsterXs [10x10/16z] us200NuU60C8e0meanyAO0m4O01Xg38WWcb0PG4
+
+sprite $MonsterSm [12x12/16z] PSY53O1G5CNG-oCuTFzfSNZMs4a7MSn6M8om6c4p0aRIdDjZhVJwh2QpYWy
+
+sprite $MonsterMd [16x16/16z] ZSUr0S0m00D1XJc__xH1apfVTxCSgnSsB-nUEBnmlcieU06l4v-zYTS9BChNmQZoQkHNvMy
+
+sprite $MonsterLg [20x20/16z] hSg53GGn0CJ03NFSVxNFp70ZjfnrZw9R4_fDOglTfQrpCHoDktG-FPVcDaLkI8axcRSi1yDm9B7JTDaqWQphfa7GRPFHVTCYRGq
+
+!procedure Monster($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/M/Monster', $name, $tech, $desc)
+!endprocedure

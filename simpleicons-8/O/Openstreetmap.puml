@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-8/O/Openstreetmap
+
+sprite $OpenstreetmapXs [10x10/16z] HSZ50S80002nuCxjFotKcsTCxbzKtlXwzCragadxtPqFo4Uf-ubAhb_LiUHISEKF
+
+sprite $OpenstreetmapSm [12x12/16z] DSQ5OS0040CnXJct_xJbwi7sQsb33GalO-UKRx7SPh-kygzEhs-duXtWDkrxpJrjsEl2i0tVjP-NhLBTHVdt2G
+
+sprite $OpenstreetmapMd [16x16/16z] {
+JSS5bW0X3C3GT0I7tF-s-xh-aJRyY6K5w0DYueJ70cWH8UqdU_No0acep-BmRO6AV6kyUkBmxMJNyTJlbk843D89i37qdA1w0oqqbr9lEf0fiOBt6K1cf-bM
+VpB_efMJoGFTTmMWWty-
+}
+
+sprite $OpenstreetmapLg [20x20/16z] {
+NSm55W8n4C3GLDSdzxyjRt38Qdy5FgqH2rbT2b0AXrjhkrkYEZo94xA8Xwro73npmAOHo3jXZ7PIVqsLTdxiUbbyBAZg-NTUcOTJx2_QTugkGBT0DWJIwb2t
+0kL8ube9TMTNNMbaIVAeRcbe1ZfX6gzLqbSrd_QcUgYI3wSPxIhvj-a6mwHdSv8byjSD
+}
+
+!procedure Openstreetmap($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/O/Openstreetmap', $name, $tech, $desc)
+!endprocedure

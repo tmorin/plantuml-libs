@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2023/Architecture/Compute/AwsOutpostsRack
+
+sprite $AwsOutpostsRackXs [10x10/16z] DSY73G0X3CNGAtoS_HU6LAiz6TYHn33rAPXlBPU1VChb15B9JSXIX6mzaChB1G
+
+sprite $AwsOutpostsRackSm [12x12/16z] HSU72G0n3CLGNENz5xxo7OXeJq1lLToHQTUis_pOEi8-ZspXl_zfMCyQUTR8GwO1ex9BLloz
+
+sprite $AwsOutpostsRackMd [16x16/16z] NSd50K0n3CFGXgpil_1dh6zF1j2zgk8ATs4Afp6FhmsLvUFoC3lTvpr0VdWF6aEwlOVzvtRlbd0kz_N3vRxDvRRCt4tV0TFN3Rn-mme
+
+sprite $AwsOutpostsRackLg [20x20/16z] {
+RSx70GGn24DH6oo9xR_WdQZ9__WSG4iymvoUI9iUPWITBHBjOKoHhTyiY35tDKBBdO7LQZL04G7ijc4kGjkE2aasOsJE95lvtcoorSLagul9LkhpohcQoc5a
+wxgO1zdU-Fl02G
+}
+
+!procedure AwsOutpostsRack($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Architecture/Compute/AwsOutpostsRack', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsOutpostsRackCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsOutpostsRackLg>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AwsOutpostsRackGroup($id, $name='Aws Outposts Rack', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AwsOutpostsRackLg>', $name, $tech)
+!endprocedure

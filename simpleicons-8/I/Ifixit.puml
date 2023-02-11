@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/I/Ifixit
+
+sprite $IfixitXs [10x10/16z] HOg30S0m54IlRlZsdpR6vqcb3AzgqSfC04z1Uf70mBKYTFGs80jgyzPdTkGP80C
+
+sprite $IfixitSm [12x12/16z] HOo50S0m40AfUs__RKFqB_8AoZoSgb29r9HqzrlXSxv9jVUqpOsGOSwIri9lqUhoBpaEV724_o_Z5gMR
+
+sprite $IfixitMd [16x16/16z] LO-55G0X34FRStp_ROyqwCVgUOXnfn9KEgcGbsuPPBgJoEBBR5Sl5RY8tYAvsZTIOYXCcntskInup0guxfbNgiZL0hW-cCdyR6rf7KI7F9WJLnVeyfiV
+
+sprite $IfixitLg [20x20/16z] {
+NOu55WCn24GdxidzJrjXQ1-Rlp8uG6dxp0n3EifoK8wXNI6XI-WYwQmwwOgmh01P7F4gVZDS-mzgyW-F2pQ5eNuirLurRLsWapLacw5deXsdtGlhEu1EfdWu
+ivqYJK-kgzWffAkAL0OMYzu
+}
+
+!procedure Ifixit($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/I/Ifixit', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item azure-11/Item/Other/ServiceAzureManagedGrafana
+
+sprite $ServiceAzureManagedGrafanaXs [10x10/16z] JSU50G0n24FHNu64_GS-bpuq_COhJorl729JKfFYEBOvflc4vfdg0DIApmu
+
+sprite $ServiceAzureManagedGrafanaSm [12x12/16z] TSc50G0X30F0K4lOV-1tbuCwVjGB8gPCikPhumhqnY0b1QO4BHfaR5ebAkQ-JnY9_e2B4G
+
+sprite $ServiceAzureManagedGrafanaMd [16x16/16z] XSW50GG12031nQ5_uNSv7nmkUEvR_GFBoBkwIq1Dj3wWxZo_TvI8bD_NldCUewJV83hlep_iiGPnx_C48jpt3yaGcpsQIwpS
+
+sprite $ServiceAzureManagedGrafanaLg [20x20/16z] ZSY50G9030F0rFFxBqmUTxXwyQzuuVsLzOk4L_KTd9sUi-rVQPRDZK4jItNxmLJfDZN2BU5CpJ1U363i8Gky2c2OeTcyCHHPYA6iay2MwrvwbsDzDkiL_dG
+
+!procedure ServiceAzureManagedGrafana($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-11/Item/Other/ServiceAzureManagedGrafana', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureManagedGrafanaCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureManagedGrafanaLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureManagedGrafanaGroup($id, $name='Service Azure Managed Grafana', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureManagedGrafanaLg>', $name, $tech)
+!endprocedure

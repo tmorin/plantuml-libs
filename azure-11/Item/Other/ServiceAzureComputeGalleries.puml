@@ -1,0 +1,24 @@
+' definition of the Item azure-11/Item/Other/ServiceAzureComputeGalleries
+
+sprite $ServiceAzureComputeGalleriesXs [10x10/16z] JOm54W01209Hc1Fz_t-lQmrs2kmC4WTIQP60khcCX_N-8g9gO3if-n17fZte6_mCqfnz6m
+
+sprite $ServiceAzureComputeGalleriesSm [12x12/16z] POZ50G0m20E3LCB--zRxuh0Zs0GwFdokxPFTfMuFzcuYKdiFw78rNmwUNFNcNEzU18oRx9l0aGa
+
+sprite $ServiceAzureComputeGalleriesMd [16x16/16z] TO_L0GGm2CLUSTX_u0FEBTKqNyLYZi8BNa-t5tZQ2_hFbMv-s1iwPo_6MH5XxIJH5B1EBEEAklL-wKjERwJT9m38HNT_UlxrUe6__dS1
+
+sprite $ServiceAzureComputeGalleriesLg [20x20/16z] {
+fT150WCm24HHcFZS_y0bGDtR5__BIABAWbnZs_EacZPwjMdAJlt6RkF6krRkMb7LbctHBz2jxYlPfqE1ehRfHA81fUxcPMLJgzxMceocrk2D55ck0tMkJSow
+yM-Jkd5Kzchm-9yF
+}
+
+!procedure ServiceAzureComputeGalleries($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-11/Item/Other/ServiceAzureComputeGalleries', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureComputeGalleriesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureComputeGalleriesLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureComputeGalleriesGroup($id, $name='Service Azure Compute Galleries', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureComputeGalleriesLg>', $name, $tech)
+!endprocedure

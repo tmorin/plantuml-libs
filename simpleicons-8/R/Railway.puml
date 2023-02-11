@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/R/Railway
+
+sprite $RailwayXs [10x10/16z] FSZ50G0n4090pYL2_zrcVJu8nCiBYkRBGhbxR-tJ3T79GrhOgydt9NnqybzH5W
+
+sprite $RailwaySm [12x12/16z] JSg30G0n3030DulzfurrHRYmVpwBcYfJAJQoxvtoRkt1yRo8RD1rDLyjpv6xikWBwTv5
+
+sprite $RailwayMd [16x16/16z] LS-50S0W3031hnVD_jFYUhWJYjk9EUYSL2-53AuE9ml7cLpNPIGxy9LJQ4cOTv2tE9d8PP5FtCz4tRFXsC2tBuEJwI6n-n2E9Pe8
+
+sprite $RailwayLg [20x20/16z] {
+PSn50WKX30FGu4xlVzgnyANCsrKIB7b83_WJP1a6Y_mfUaMLA-rkjJTtgK90wvVMMYqEJcuPa-JcmCUbSsdbCaKnZN_A_LYROkhxhyW5xWsfx0oCx5YXu5RL
+ok8HjY_AN7G-dG
+}
+
+!procedure Railway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/R/Railway', $name, $tech, $desc)
+!endprocedure

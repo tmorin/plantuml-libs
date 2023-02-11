@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/L/Letsencrypt
+
+sprite $LetsencryptXs [10x10/16z] Om01FWOOu4UYEFWXR7umpSKCfFaPkBX0GXmW16A00KmLAWiX2m
+
+sprite $LetsencryptSm [12x12/16z] RSg50SD04CH0XMFS_giro0ppS8XQf83oib_MOFA40XL97gw4VFrZ2KLGeYLlTZdtkQ07
+
+sprite $LetsencryptMd [16x16/16z] XOp50O003CI2Ezb_Mjmrh_QCXPOpif5kVp5RDH03Dbit2A4iM76WPAFMJCFLGgUPG5sqmngXAnz_TFvBBlxw_-tr
+
+sprite $LetsencryptLg [20x20/16z] {
+bOq50i0m30AfU_d_Q-VkkwsM1C2Cg3YX-5OhTQqfoj69ouXVhzK2KWg00Ik2FTZ1WOAH4AFgIu3hjzW_Avb0nc7Ozbq_I_soZqIkh04_QWxrL5F8frh1XPzz
+pQY7MWi
+}
+
+!procedure Letsencrypt($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/L/Letsencrypt', $name, $tech, $desc)
+!endprocedure

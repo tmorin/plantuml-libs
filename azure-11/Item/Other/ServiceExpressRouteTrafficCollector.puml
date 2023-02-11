@@ -1,0 +1,24 @@
+' definition of the Item azure-11/Item/Other/ServiceExpressRouteTrafficCollector
+
+sprite $ServiceExpressRouteTrafficCollectorXs [10x10/16z] HSOr0GG140ImVHZqx_SOKcLUV-tsOK_rR2ziqlQnzXZTxSVI1C0sgFtD_8RPa9mL
+
+sprite $ServiceExpressRouteTrafficCollectorSm [12x12/16z] LSQ50OC040F05eZklo-kBydzFgDzNYvVBay3igVLjiaj3hUtL_LmqlK0h2QIOFnj1jgUpZuaVmi
+
+sprite $ServiceExpressRouteTrafficCollectorMd [16x16/16z] PSw50O1030D0BAdilo_l7lJQj-k8r6nsRdPkTWw3gcgve344DALPoSMkFjiytSDkwI6ppTmj1dYH3IJoVQzSqEXscFIAyr9VoPjVz8SQChO3
+
+sprite $ServiceExpressRouteTrafficCollectorLg [20x20/16z] {
+RSi74iGW34DHccJi-nzuPJOz-VGtG_ciS--qOLjkX-6mu8U5VLZmPhGPoYu6m5PrsSn8simEKqbtyvZXft4gWVXc4TjsceUl_r1_Su_mJDA0PGOiij5xgMXf
+02oKzQBaCYCzcmHAPqtpFPA3A5az6aB13m
+}
+
+!procedure ServiceExpressRouteTrafficCollector($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-11/Item/Other/ServiceExpressRouteTrafficCollector', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceExpressRouteTrafficCollectorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceExpressRouteTrafficCollectorLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceExpressRouteTrafficCollectorGroup($id, $name='Service Express Route Traffic Collector', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceExpressRouteTrafficCollectorLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2023/Resource/NetworkingAndContentDelivery/AwsCloudWanSegmentNetwork
+
+sprite $AwsCloudWanSegmentNetworkXs [10x10/16z] Oq06t4n036K28JkCnm6acI1CLZOK3GmmUI1c09D0NImm6Mus1WwW2
+
+sprite $AwsCloudWanSegmentNetworkSm [12x12/16z] LSQt5G9030KmNNp6V_zvIHMead-ZsmaesZG7Wq9iMe5etS3e-7Kci4P4GBbC6LPvO6njV8kENBm
+
+sprite $AwsCloudWanSegmentNetworkMd [16x16/16z] PSU5OS0m30J0SnJKxpzlmIxtX8__paGoBAE9jcN5asfXZYO3zV1m4ikzGWtBnIbfdvBBN-cmZEuMojAKiNbCHyqlt1UZotP0vZJRRNhEcP_3f_FI1Lu1
+
+sprite $AwsCloudWanSegmentNetworkLg [20x20/16z] {
+TS_LWOH040N0ee6nbt-yvxU-zJNIwhssofex5pDRbJXpUKtnyqRlG72avEUnmInoWDcO4EBFE0bjSnpyMOHL5HTrLYlrXOlBxT5Auc9BKYPnqHcR_MG-z1NQ
+08GQs0VdAhQ-4FpjVPIuFD4cLKB5HT9AHWPS5BK1FW4
+}
+
+!procedure AwsCloudWanSegmentNetwork($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Resource/NetworkingAndContentDelivery/AwsCloudWanSegmentNetwork', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsCloudWanSegmentNetworkCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCloudWanSegmentNetworkLg>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AwsCloudWanSegmentNetworkGroup($id, $name='Aws Cloud Wan Segment Network', $tech='')
+  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AwsCloudWanSegmentNetworkLg>', $name, $tech)
+!endprocedure

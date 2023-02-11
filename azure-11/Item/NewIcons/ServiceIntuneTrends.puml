@@ -1,0 +1,21 @@
+' definition of the Item azure-11/Item/NewIcons/ServiceIntuneTrends
+
+sprite $ServiceIntuneTrendsXs [10x10/16z] Oq07pCmm5YihX69XW_9111SGip6mG5WW4eP148t50OK
+
+sprite $ServiceIntuneTrendsSm [12x12/16z] VKg30S0m47nh_trhDydp18qYmfi8mLQw3c_GmEnmVRjbMm3bn01S9wvOS8tnNJC
+
+sprite $ServiceIntuneTrendsMd [16x16/16z] dOg50G0X30E1fhh_lk_k3zIINFh-0EmqCSzdGIUHU9PC35v16RkKKUhaHmohay2gfslLZFvYddLOVuNNwDDh0G
+
+sprite $ServiceIntuneTrendsLg [20x20/16z] jSY50GCn30J1iuLH__tccPdMgC6Tg6o1pBmm4HbFr5mZKr66bZuYBe_oc4nGLb546XCmDWM8ys1jlz13i_3Q8l9d9gvGPvWdk6Ez0W
+
+!procedure ServiceIntuneTrends($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-11/Item/NewIcons/ServiceIntuneTrends', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceIntuneTrendsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceIntuneTrendsLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceIntuneTrendsGroup($id, $name='Service Intune Trends', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceIntuneTrendsLg>', $name, $tech)
+!endprocedure

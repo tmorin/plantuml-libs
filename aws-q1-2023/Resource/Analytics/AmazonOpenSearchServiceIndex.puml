@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2023/Resource/Analytics/AmazonOpenSearchServiceIndex
+
+sprite $AmazonOpenSearchServiceIndexXs [10x10/16z] LOa50G0130APM_-yxtfJ01-g673Rts3eLfWRtF3lstqxluYmNyeNkW8
+
+sprite $AmazonOpenSearchServiceIndexSm [12x12/16z] TOg53G113CDYLL3OVzvdFB0Wg9O4QZTiNg6etKFkNKZsFiNS6n1FZsxFJllFXre1
+
+sprite $AmazonOpenSearchServiceIndexMd [16x16/16z] ZSpL0S1G34BHMozX_tdhhk_yHO1dZWYBaGOOoCfsciaoZ1gamppA0Eie28wSD3j6scRH2WvpDjhdR9BMxvEc1m
+
+sprite $AmazonOpenSearchServiceIndexLg [20x20/16z] hSxL0K9134JHYGVIVxyCxlxE-lrQl22puzXRKQk2SW8x3MBZJ1yxj2fXS0VN-j14mBR7XhcZ6DpG1TeSs6N3ZiPrw_QRLZjzsUJWsx_e3LVe7Mm
+
+!procedure AmazonOpenSearchServiceIndex($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Resource/Analytics/AmazonOpenSearchServiceIndex', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonOpenSearchServiceIndexCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonOpenSearchServiceIndexLg>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AmazonOpenSearchServiceIndexGroup($id, $name='Amazon Open Search Service Index', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AmazonOpenSearchServiceIndexLg>', $name, $tech)
+!endprocedure

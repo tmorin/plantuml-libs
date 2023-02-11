@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-8/R/Rancher
+
+sprite $RancherXs [10x10/16z] Oo0ES33mWm0dFp-G1GKC340C97WPO2n-x9e1
+
+sprite $RancherSm [12x12/16z] Oo0LyF530ICGWW4NFpyJ0mDKb9kV4SHcPs5XuMDXOG2nGRguW4g80W
+
+sprite $RancherMd [16x16/16z] Ow0wO8K0BY1cOc1Yu4S1h5oSo5oWSYOOcm_1vmC24C49uKFCvUTdOa3dKmu
+
+sprite $RancherLg [20x20/16z] nSYr0O100C30u4xsdnPtgFahZ_1Y5cLAwgvo5WaUugfHiv8czuwPf_hZoiknqYxcTNvTn4z6
+
+!procedure Rancher($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/R/Rancher', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-8/C/Createreactapp
+
+sprite $CreatereactappXs [10x10/16z] Oq00VZW3nE9bXBBO-VcPGIn-86RY1x7O6BXO6NWOeUhuOJhuUS0i3ECO
+
+sprite $CreatereactappSm [12x12/16z] JKl50GC1329fJwBiF-svyS7nnV-Lt7IgXSodRfGZ3orqKUipXx7ZtATmq4ATtucSxFx-zVfY6w2EVJ-WFHXM
+
+sprite $CreatereactappMd [16x16/16z] {
+POt50SC030Cld1Ya_QSjS-zdY_YZumiM81OO4i3NUm8rvFEUeGNrkbDgLppkveXX6ROXf-lTKDWOwdfJrBOa1-jskzdaJFlT1sweZ_tMnpuTi3MtE-PFp3Vg
+BpW3
+}
+
+sprite $CreatereactappLg [20x20/16z] {
+RSxL0GKn20NH8Lc9mUs_skUoDfyd0bmMVYX07CfwcrStwcXvOmLS1kDW_M1zTKajrvyLZzm1ByFjRJ9M8QKY61y3UretWPMNBOFQR7R6mCJBiAOQAIq-8l_d
+DioJeEttMmDmjlVGEg1lxqK1wyx6jZsid1Bdygd47G
+}
+
+!procedure Createreactapp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/C/Createreactapp', $name, $tech, $desc)
+!endprocedure

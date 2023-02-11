@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-8/S/Sky
+
+sprite $SkyXs [10x10/16z] Oy01-D5OV9ni3Foi_FmCG0X6V1nyZ20M4n1Zwc94DWi
+
+sprite $SkySm [12x12/16z] ZSYr0OH000NHkSFNflzgSOYmbtpXev3P59rx4h9f-RDsYCilw9-kdNkK8FyGQ7y4SiT9Raq
+
+sprite $SkyMd [16x16/16z] dSkdGG01002nVEz_-s-Beac8Zt_P_9OlutakmZbXsQfNLDozBKZfrgPAQwErAnWQKzJf-z-c_DBZfp5_zm4
+
+sprite $SkyLg [20x20/16z] jSYrOSG0002nUpHR-qyRHfS1bUf_ZEh8uKuVT-uLYBgnLkocw_qStU3KsRJOfqjneOkzJMqGiwbsexsgrOseK2SGdQcxhGRijsmr6vfTEgAZsQsZqxbVUWG
+
+!procedure Sky($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/S/Sky', $name, $tech, $desc)
+!endprocedure

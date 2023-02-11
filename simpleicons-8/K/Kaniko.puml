@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-8/K/Kaniko
+
+sprite $KanikoXs [10x10/16z] O-270bv-LC22bGLLpiI09CQDgGxLG
+
+sprite $KanikoSm [12x12/16z] O-3bXm4E61C1MD3Pt70s7pTSd16cX941HJqN3x9U9XWRIY0e3YHT
+
+sprite $KanikoMd [16x16/16z] NOw54S1020JVbO7-guthuiwvPb_oTqgQoDFfmZ-F_tx-pMlyxa-dRnQT4zxlYV-AuByCu141lceWZtm5
+
+sprite $KanikoLg [20x20/16z] XSZ50SKm342nn52kt_xJVaONegEAaQoRQZDUdEqDcmjZSvLyOqUwAC4VTPl_Of9I9ZOi1btp0RDk3sJT7iRsgB4zv7iZBylALjdMV0K
+
+!procedure Kaniko($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/K/Kaniko', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item azure-11/Item/Identity/ServiceAzureAdPrivlegedIdentityManagement
+
+sprite $ServiceAzureAdPrivlegedIdentityManagementXs [10x10/16z] BSOr0G1030ImAuD_lu_D51o5nztQ_IuYD696Vvb2cNz4CLErjwgYAf4xEG31fz0D
+
+sprite $ServiceAzureAdPrivlegedIdentityManagementSm [12x12/16z] BSY70G0W20D132tiFx0DtdOYju1qgffG_T_CTDohtOtN6fC4oB7UETd6hLrTZe4gNNYclaHK9bEJ0m
+
+sprite $ServiceAzureAdPrivlegedIdentityManagementMd [16x16/16z] LSg74S0W34DHowBlFt14w9_wxcn_pPvmEIksgDktGqZ7ksFYdGUmNHIHT6yJXgnd6RtZsNJjfL9hSVfq9cjrmYbt_i6CTg8G3WLb7m
+
+sprite $ServiceAzureAdPrivlegedIdentityManagementLg [20x20/16z] {
+PSm50e0W44HHDudx7zWPa_WcZpZkMZksUXz7bYXwJ_QO5qJZzpVa_0psDvl8OYJnqIeoaUHtiPYCXCfiSZMRinYi3JqMZQbKlirCVxDihQg946d5dh16y58S
+dOkDkT_FWgGJ
+}
+
+!procedure ServiceAzureAdPrivlegedIdentityManagement($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-11/Item/Identity/ServiceAzureAdPrivlegedIdentityManagement', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureAdPrivlegedIdentityManagementCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureAdPrivlegedIdentityManagementLg>', 'Identity', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureAdPrivlegedIdentityManagementGroup($id, $name='Service Azure Ad Privleged Identity Management', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureAdPrivlegedIdentityManagementLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-8/U/Ups
+
+sprite $UpsXs [10x10/16z] DSR50OH000ImdA0hqt-rE7a5trAArxXE2tAPoJkc4jufpYdJVxIeISa1qevyOFe4TW
+
+sprite $UpsSm [12x12/16z] FSZ50G0X00F1nPtqN-qfC9y8ZzHRypmoco51riUIh7HwaCdqoVn-44YdYxUx3fESszFLH9Vw0Ao47hoC7jFoYKnCX1i
+
+sprite $UpsMd [16x16/16z] {
+HSs74OGm30NHTJgGq--_snk9j9Fq1BRnwfXZMY8wUIi5CbwTyhYy0eyjnjSsjRHyQU6EqkH0_EfdbSOIdslQd6wxZ6dY7GLy4XXUFAIe0kTudHD0EwGPR4Gj
+cVzR4b5iSatnt1y
+}
+
+sprite $UpsLg [20x20/16z] {
+PSY50KGn2C3G5Eh6_jEUV9TKUIn9QQtr5jcBof4BoZM9fPQavPYxRRNCaj_Xj64lky1X5KjqO4pWOWqJ5BExLHhXOSlcRXcpjjb4eP7mEJfQ0PnLaTQGR4Da
+vB_rOhyQjiQIkrhnYqMcsGWB9GTBeZ8NQGIEaZYpJi9nAIhX1qc1Bm
+}
+
+!procedure Ups($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/U/Ups', $name, $tech, $desc)
+!endprocedure

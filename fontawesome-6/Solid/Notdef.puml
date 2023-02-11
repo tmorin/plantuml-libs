@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Notdef
+
+sprite $NotdefXs [7x10/16z] O-170mmW4Mv-PbuGnG3a8oWs2CNFm0fJ2GC
+
+sprite $NotdefSm [9x12/16z] JSmv0O10402nWMluuzyjxKP00ho6QW7bGqv23tie2k4Co_O8lWAgHlq3
+
+sprite $NotdefMd [12x16/16z] HSQ70SGm24MnVxrYxRzjGgfiuANiNfrETMrMboG_xKDoeN0j_t3_TuSoilOTsJhKth_UQrzuiFQS6NxTPIHXQ9dThAhXvJG1
+
+sprite $NotdefLg [15x20/16z] VOw50S1020EXhjp-qzPIjtl5OmqdKbb_X2smaP-jWCagGNryIGUKO3KKIufCFVLkkjflfgdxPfPwBhNzPWPu1ONCQkkQd4L386oc0j7u0azIpiG8
+
+!procedure Notdef($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Notdef', $name, $tech, $desc)
+!endprocedure

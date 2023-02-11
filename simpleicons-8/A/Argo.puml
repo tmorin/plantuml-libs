@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-8/A/Argo
+
+sprite $ArgoXs [10x10/16z] HSR50O0000GWxFRsdzOENa2zbcw5Ln8bGwvXZEgf8bb0AMtSad-hspers04
+
+sprite $ArgoSm [12x12/16z] BOo50G0W2C2ms_r_hSdeb4kUKJu_ckUSD89e8m56yglQfFQ_TE2OFHRi19g-w4oi4SqpIRS7K3LtW2XZb77x6m
+
+sprite $ArgoMd [16x16/16z] {
+HSq55W0X24NHPxT__xkTmvJN3e37s9qZO2gV1YQzIoDBSb1uoO03M9dqdXbsBhYSH6hFMHvmWWmTu-kIjDnRj-1EFbDGGoBpIZAUJvUfyB5ycwDlxGKVrtig
+1NC1
+}
+
+sprite $ArgoLg [20x20/16z] {
+JSn5Oc1124NHYtmfVVjVRNT2hCu4Xsyvzt1Ejm6GH_SXZFBohJEWzQmBYZCmVQgYt06xUY-G0Cq5AWiO0DqMqqoQv0MDwWbwl4AL0MGE7XWAsD-ttBZjUYV0
+AEQeZ3ej3fBVhpetV0kJXcsrXuDAvz1KvirXwiDsJaFIQivfxJNcTNEwsexMWl8V
+}
+
+!procedure Argo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/A/Argo', $name, $tech, $desc)
+!endprocedure

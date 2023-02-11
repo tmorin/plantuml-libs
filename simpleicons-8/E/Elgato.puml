@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-8/E/Elgato
+
+sprite $ElgatoXs [10x10/16z] 5SI5RGG144Kn9rgcrt-tf_47E5gDEjnTbD4cIpjQ7eizN8i5vI-B8dFChHdp_mr-
+
+sprite $ElgatoSm [12x12/16z] 9Oo50O1G50Anczj_MqNknqjGEDbLm8yXAPU2QRh-XPMIBgnMorWqrypplUGFqeMIrufu5VPqcph_3P3k2m
+
+sprite $ElgatoMd [16x16/16z] {
+FOy54WGX40E3E_d_Rwz2whPN6nZ38n-kW3-Bfbd9hK-ulDO0KtY0oGWqBrL6Q6qfn6V180SvT02Ta2kO2GgtkwnIs8E-giWilqwu2HyY7hp8Bx4v3fwVDkTb
+3uYRKX4eFCqF
+}
+
+sprite $ElgatoLg [20x20/16z] {
+NOw5TGGn4CN-ejdglzkyWT1fqHfKKZVpaNwvITQX1A0UkWRGGsqu5PIKW7w1LxfS7Lt10LPvnf0IijC4CdTkTdIbtanttd_BQRpfh8mUtpkT4MqhLUcQV0kk
+0yAz-9ygA1rmopZP6jvtKHLiBYaJakvr3pmVIjPz7Z9yghBjB_gXugnJnXS
+}
+
+!procedure Elgato($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/E/Elgato', $name, $tech, $desc)
+!endprocedure

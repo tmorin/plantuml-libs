@@ -1,0 +1,21 @@
+' definition of the Item azure-11/Item/ManagementGovernance/ServiceAlerts
+
+sprite $ServiceAlertsXs [10x10/16z] Oq00PXXWO0C2T88T270J7300CGf48G
+
+sprite $ServiceAlertsSm [12x12/16z] Oy05s820bOaD121iCCc6GhA302wI6OdDXCHcvs07wOK0PbOqQm4
+
+sprite $ServiceAlertsMd [16x16/16z] ZSs50S0m20J0nzb_uRetTd41q6Dly0sWlhdEzZdxwqpNEJPqh76i_3aVhhDTxxcBOqKSCe_21qsCc04
+
+sprite $ServiceAlertsLg [20x20/16z] ZSZ50K0X0CFGuEo_y5VStwaDfrH7O0Ajqy868CCocwQMpGMWmogRMJIBoxgcM3VViLWNlVUboOptT5JNrcu
+
+!procedure ServiceAlerts($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-11/Item/ManagementGovernance/ServiceAlerts', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAlertsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAlertsLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAlertsGroup($id, $name='Service Alerts', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAlertsLg>', $name, $tech)
+!endprocedure

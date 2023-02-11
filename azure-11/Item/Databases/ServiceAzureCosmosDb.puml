@@ -1,0 +1,27 @@
+' definition of the Item azure-11/Item/Databases/ServiceAzureCosmosDb
+
+sprite $ServiceAzureCosmosDbXs [10x10/16z] RKl50K1H2EALmlu36wUVjWJ-OqgQs7sGh0M8RiNikfTP7uqUzorqSBEFiTkBUoG
+
+sprite $ServiceAzureCosmosDbSm [12x12/16z] LKi50WH12D8vJkJ_7zxfi2NiYTzrmYqLGDrM_bAAtWNA9Ek66PN4zZ6YdgKozIU9flBQ6P2wem1PpnNUl6vNV
+
+sprite $ServiceAzureCosmosDbMd [16x16/16z] {
+XOm90aGX24BxHABtl_24i--lLGN6NyZdUiw1sYGdUBYpTf5LiGjhZqe3ZrplgIGhCNqlfGANg9Q48bpI5reIqg9wx8OaHhN75qLcPNyniBYoN3Ou1hBY9hu3
+ZbTE
+}
+
+sprite $ServiceAzureCosmosDbLg [20x20/16z] {
+RO_50KGX30NZqd_3-x0r_fp84ALdvC7PdMLco6Ht9LPmygGd9OoSrSz7NDKLZ52dX9dWVTnGcUaZq3MIuQ1YPfr-eWKbK-bMU6L4V1JDxQPqD-lvisey0LIV
+ZOUhT0kexO0KwgexzY3S0-4mK0isCz4Up1owK3E-9TqWwmK
+}
+
+!procedure ServiceAzureCosmosDb($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-11/Item/Databases/ServiceAzureCosmosDb', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureCosmosDbCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureCosmosDbLg>', 'Databases', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureCosmosDbGroup($id, $name='Service Azure Cosmos Db', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureCosmosDbLg>', $name, $tech)
+!endprocedure

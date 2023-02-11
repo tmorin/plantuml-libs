@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-8/H/HiveBlockchain
+
+sprite $HiveBlockchainXs [10x10/16z] LSl50SC030J13SSu_NVhbqciWsv1ZatzQPQ2F0SJl2fn28bSlPKbjG4
+
+sprite $HiveBlockchainSm [12x12/16z] LSYt0OG0000XpDdRVzjlNqfyNNfrmf0jHr0flHpLg66CgfIwgfemzF_6ofezrAj79-J96vYTYtFa1m
+
+sprite $HiveBlockchainMd [16x16/16z] {
+PSw53S103C10b-71-qzRvfuKGHZ-AlgnOHnBDeNW7XiD12FHVklMLuChMZEz2OAh2YtH0dSm35GQt5Mi57Uq9aRpslC-e1f9ZgJzWRDSAgjWXpRRnOrKIctc
+RmO
+}
+
+sprite $HiveBlockchainLg [20x20/16z] {
+VSy7Qi0030J1TU_U__ys7B54JGOucYh_6CSXGHFKnCFdTMFIXLbdY565nweErOiXWUu0km6t3bnQPRNXYyjVAwkE7Acsm3YEeEzbcI1ExRe7ZcC3FLcDtgds
+tXjqPyeom82EkEnVjrfL5M-LnUR0MLlArOyT_E47
+}
+
+!procedure HiveBlockchain($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/H/HiveBlockchain', $name, $tech, $desc)
+!endprocedure

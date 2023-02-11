@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-8/S/Salesforce
+
+sprite $SalesforceXs [10x10/16z] Oy066FdvcVZvGIn-642msE4iRdHPRWQ87ZJZ
+
+sprite $SalesforceSm [12x12/16z] Oy09kFYv6JXOeKmmuEFbOc3WHm1aDZiIcnUR6ZPce45W7XFC1avMJ5i1
+
+sprite $SalesforceMd [16x16/16z] bS630SG00C30F6fa_sbhktUy5gbne04zHscHVo5nAIPq1TSYh_rTAY5pmi3MzylegnaFrG
+
+sprite $SalesforceLg [20x20/16z] fSw50SCm0CH0cTc__xHbvYQtWCHAkHN062wCzgnsF2UwaSV8WD4Zi7eqG4-OUfBqaz7qv34nPtbyRfnv7HXdk2hQuP4n_6yB
+
+!procedure Salesforce($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/S/Salesforce', $name, $tech, $desc)
+!endprocedure

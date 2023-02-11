@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/S/Shelly
+
+sprite $ShellyXs [10x10/16z] DSV50G0m20J1YuSN_LUBin46MCGN7aUKW5UoIoMBxhsX-2QUQVKAht1iE1G
+
+sprite $ShellySm [12x12/16z] HKo50G0W3C9k_VzQUzq0ZfKHyMmyex79jP_sPxzRLBfyR3-jUE_x-mCg4_OKcVSvtp4yuVo4WRQ7Urq
+
+sprite $ShellyMd [16x16/16z] LO_50G0W30E3Ezr_MbplKvTWe185XasYYSQ05Zd56ug_cGEQw9Ix5ydtpITcmrcx_UbCHZTwWn-DWtm6W40TUUApqFQVrWTybm_XA8WvvIjeBLwpg
+
+sprite $ShellyLg [20x20/16z] {
+RP253S0m30GRvdZ_QOj6gIzAxiq7gcsO-L1AW5gE42WrYsRmpdc3T2s5DZew363ziDbxtqqp_6nYyMQE9ohvqLl9JE2-roHMF_UPjY1B8Am3lFC4CmoQaI_I
+qIJPhjvxvqEdilOCDX77ML_G1G
+}
+
+!procedure Shelly($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/S/Shelly', $name, $tech, $desc)
+!endprocedure

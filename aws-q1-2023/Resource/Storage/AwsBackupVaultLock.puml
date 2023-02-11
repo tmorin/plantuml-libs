@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2023/Resource/Storage/AwsBackupVaultLock
+
+sprite $AwsBackupVaultLockXs [10x10/16z] PSQ53S0m40GmXrwv_GSk2skH_JN6wXQDYg31Q4qQsvPlIRI681heQBH2fXC
+
+sprite $AwsBackupVaultLockSm [12x12/16z] LSs50GD030B0UoVx3rpNk89VwUqjqL2d41neNS36yhf946r2NavI-a__kb-xdq7-k5H0ZYi
+
+sprite $AwsBackupVaultLockMd [16x16/16z] NSw50GCX44JHZpFz5nnPYymTyd3-e_iJBjznzplQK3E_ShhDxPxUdEl8_R9sf8-a1jkibu6m8JpCh1TQY_CspE7tjNgFLjyNqXbpHQzl0HAM9S4J
+
+sprite $AwsBackupVaultLockLg [20x20/16z] {
+ROy56iKm3883jN3_0qzIVS9M-pzYza-kRy7qRG8dowrL72nP4PzNqM2FQYipEHVJOsXXLR1fAP6PvQYH2eGmRkOaTJ2tlXOhp_dDvllLKmd11hHncpKm2b7d
+lAqb5bNRR8qvMVqMtxn8TNY4Z67cBCkutW
+}
+
+!procedure AwsBackupVaultLock($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Resource/Storage/AwsBackupVaultLock', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsBackupVaultLockCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsBackupVaultLockLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AwsBackupVaultLockGroup($id, $name='Aws Backup Vault Lock', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AwsBackupVaultLockLg>', $name, $tech)
+!endprocedure

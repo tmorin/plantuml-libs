@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/P/Pubmed
+
+sprite $PubmedXs [10x10/16z] LSQr0SG000GWNk9o-qyRLoee79gSgnEfeChclq-4yhL83P5VG5ke4wUO0G
+
+sprite $PubmedSm [12x12/16z] TSR50O0m0C30u4xsdnPtsdiTBnfxfdfSHxKzZdtgTJYUznJR1qLaP6MlZku7AkKcCm
+
+sprite $PubmedMd [16x16/16z] NSZ50S1008J0pRdJVxLnvpT8_t1y3TFFHIxxbsa0_VHJU2oeaNAv2JHHBnlPBZrMaihRIAXkTc5t3yYktc8qWD5Fjo8f0gVjkIzVsQe5
+
+sprite $PubmedLg [20x20/16z] {
+RS-53SLG581GwlA4_QVzMhqfyHC5O23MzqEEjgZHPhK-cA1ETslyjMusgHQt-jEqBchEfeijgBGACFwjPJ73pG2RQ2E5DPWDZSm_6rGTSIK9yay5xTnimrnK
+hUMmrM6xz30MO5E8FHaPtW
+}
+
+!procedure Pubmed($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/P/Pubmed', $name, $tech, $desc)
+!endprocedure

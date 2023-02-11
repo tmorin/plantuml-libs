@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Brands/SquareHackerNews
+
+sprite $SquareHackerNewsXs [8x10/16z] Ou02LduCm0248C3CpmSJm4AZiG4
+
+sprite $SquareHackerNewsSm [10x12/16z] Oq00Vgo0XP-VZmV2PEI7gW7IxFnm9ZuMDwfX37nGm0C
+
+sprite $SquareHackerNewsMd [14x16/16z] ZSUr0S0m00In3tDk_srTcL6T57j_x_XektPWTXMySjiMX2Scl4E4nlTGS4HJn
+
+sprite $SquareHackerNewsLg [17x20/16z] dSYr0O004C30uFxPVrigtBdoE4Yp3Gh_AGhLD9oXLhX84gLp4KI3Qsd1u5g0MpHkqNwEFhmGxk3MmDu8
+
+!procedure SquareHackerNews($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/SquareHackerNews', $name, $tech, $desc)
+!endprocedure

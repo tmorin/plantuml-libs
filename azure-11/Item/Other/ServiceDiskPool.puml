@@ -1,0 +1,27 @@
+' definition of the Item azure-11/Item/Other/ServiceDiskPool
+
+sprite $ServiceDiskPoolXs [10x10/16z] HKo30G0m3Alr_y7pQYM1DjNRR1OHcjNMeBOdT1QHDTKQTEFCpGpM1BLiJMjqiDOR
+
+sprite $ServiceDiskPoolSm [12x12/16z] JSU54S1024HHRCdCflzwp-sVy90tO4u5ij5C-vRfXYIm7U4nBLH4gnlq203TafAzOVd8dvmsjheXAuKu3Yi
+
+sprite $ServiceDiskPoolMd [16x16/16z] {
+PSc50GH124DHuF8PwR_WOzqo-eXz0iVFeOIVrGyowq5Ih9Ci9ne3k5c2F5oNF29yzvYU2CJcEHsfIAoEyLjxSkihO_RUnpmzjt3rQ_omEIt3BD81ExB-TRFR
+7m
+}
+
+sprite $ServiceDiskPoolLg [20x20/16z] {
+RT250SGW40NH9UnyfF-23-TiuY-E_Is0tM2ilWoa8RUdaTfMUEyPEArHBWLuhishGF6Q1FF6Qw6a4EV5OLkjJYjdENviNUN0ibm53DAwhYLB6c77hDHLlbPF
+rz8cZhLobzHs6e5_ZIOMWKlxoDyl99Yz
+}
+
+!procedure ServiceDiskPool($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-11/Item/Other/ServiceDiskPool', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceDiskPoolCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDiskPoolLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDiskPoolGroup($id, $name='Service Disk Pool', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDiskPoolLg>', $name, $tech)
+!endprocedure

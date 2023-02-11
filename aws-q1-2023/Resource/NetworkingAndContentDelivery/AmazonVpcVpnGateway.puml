@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2023/Resource/NetworkingAndContentDelivery/AmazonVpcVpnGateway
+
+sprite $AmazonVpcVpnGatewayXs [10x10/16z] JOU50S0m408l-iB-yzObEApGOme4vFNY3l1q3HpGnVgiXxLMqK70a-5L7NO
+
+sprite $AmazonVpcVpnGatewaySm [12x12/16z] NSF50OD004JHjoxJVxq9NFdYGtgP0GFeW3XC0fRtJbw80j6u9aGd0bkdqTKN5oQumCfDmny
+
+sprite $AmazonVpcVpnGatewayMd [16x16/16z] {
+RKu53W0X39kWs__VUq1BY5sdpLJ-u9cHyMWgGfsaAEZBSfir1EbxLc_1jasKoHsRaOvwS2eJlEoBx0n9y715rczTM3SLgL053zumGihx2YYDiUDn2rG1dz79
+5W
+}
+
+sprite $AmazonVpcVpnGatewayLg [20x20/16z] {
+TOy50eGm30JhaVt_V-yYE2pIQJpbMvqLIlLacHX-2dQJZXrbfibJbhJ3F_sFNjX1_MQ_AcVgmsc5BVvi9uioCtWQryol8OlihM2BHutirlO-A1IsqOoS1x8B
+ZYcUNmlzUVbiOdLJiOTNEhJnq9gqzF0AkBS1Z79MzMAX7m
+}
+
+!procedure AmazonVpcVpnGateway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Resource/NetworkingAndContentDelivery/AmazonVpcVpnGateway', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonVpcVpnGatewayCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonVpcVpnGatewayLg>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AmazonVpcVpnGatewayGroup($id, $name='Amazon Vpc Vpn Gateway', $tech='')
+  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AmazonVpcVpnGatewayLg>', $name, $tech)
+!endprocedure

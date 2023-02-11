@@ -1,0 +1,27 @@
+' definition of the Item azure-11/Item/AiMachineLearning/ServiceMachineLearningStudioClassicWebServices
+
+sprite $ServiceMachineLearningStudioClassicWebServicesXs [10x10/16z] LSV70S0m20H1Skg_O7FcfLLWeAUUx05u4BWl2N3t4wYbUPnYtnaKF83y2ohUTF41
+
+sprite $ServiceMachineLearningStudioClassicWebServicesSm [12x12/16z] NOgr0SG03CHaXlttVN2wg3eGRt8rHfweQJf-EHJ5c7_sCZVp0Y82HIGlkxcbBU3OADDSpfszcA3AuGBKaxl-dF45
+
+sprite $ServiceMachineLearningStudioClassicWebServicesMd [16x16/16z] {
+RKx50S1020k71VRVjtRoAXwfu3-igxeFf1Oep36XCfdrv7BKao1KaH-EYU7lXenCalLMlzZT-UfYU34UNAgbuQOVLXS7KLBpPs3LGey55UEvcueluks17Ndc
+LATBDi4T4zu
+}
+
+sprite $ServiceMachineLearningStudioClassicWebServicesLg [20x20/16z] {
+VSbPjaCX20NHKe43p7--ht6Hv7vbsvTyiwkhEtYexADJqHk6t8GEHQr9gn-czQ91XvF4cWPvssg8QL99bL9B2U0NQ4E3O6BTjefjxzRdf9_GQIutTydBhIoJ
+oy1Natl9Yslzj-giw0guOaFOoYvdkC_7nux7CRIvuXELQ-HXw2Cc_G8
+}
+
+!procedure ServiceMachineLearningStudioClassicWebServices($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-11/Item/AiMachineLearning/ServiceMachineLearningStudioClassicWebServices', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceMachineLearningStudioClassicWebServicesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceMachineLearningStudioClassicWebServicesLg>', 'AiMachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure ServiceMachineLearningStudioClassicWebServicesGroup($id, $name='Service Machine Learning Studio Classic Web Services', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceMachineLearningStudioClassicWebServicesLg>', $name, $tech)
+!endprocedure

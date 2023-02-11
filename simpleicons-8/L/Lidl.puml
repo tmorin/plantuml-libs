@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-8/L/Lidl
+
+sprite $LidlXs [10x10/16z] FSR50OD0002m0EUw_xJrabTwlf6moFvoyhMpmpmSXsodFKC8CWB8orVF_yXiT9u
+
+sprite $LidlSm [12x12/16z] JSO5ZiGm50KmR-YbQhzo_zkkOCWYt_b1soZ43MZIUCjcTb1HVrIrik8uf_8SBJ30pkFjYhSXshk2McrV-0S
+
+sprite $LidlMd [16x16/16z] {
+NSx50S1024JH7sDzwB_QkByRJWa_h68R1rFFQesxoA7jSJTmALiSULJ27buj7Q6nSaufZCKx4itTt53epSdkQpmwau99eerIJf8fwDXpcaBFYn5eF081olS_
+gCUu1OuOagI9pG8
+}
+
+sprite $LidlLg [20x20/16z] {
+RSY55KCX40NHGHT__NUR0p-U3BgtsvyurT5g7v7JiP6vMkbXasUX7RleMTqs-2Y1kSndmYexwMaP6pW7VPx7xIjOGu8mw5hBP52jRilId8fx9Qhr8CcAufBA
+a4InmSv5ddbBVDKnrXzBuOimQ1_aZb7J1nq3vKiwF0r2RSLpTGC
+}
+
+!procedure Lidl($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/L/Lidl', $name, $tech, $desc)
+!endprocedure

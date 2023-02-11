@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2023/Resource/MediaServices/AwsCloudDigitalInterface
+
+sprite $AwsCloudDigitalInterfaceXs [10x10/16z] JS590O10000Xzfx-YVqA_a8m64XicM1C1nWw1k18LsAwWU3TqUG3
+
+sprite $AwsCloudDigitalInterfaceSm [12x12/16z] NSU5OGGW50FG1tpRV-7stEBnWpah1WIGwzmxZxEEiHC3H-bcmNKRIz_tOXaO5FlzckpWFY6dP-CV
+
+sprite $AwsCloudDigitalInterfaceMd [16x16/16z] RSUt0GCm200mOKpv_-7qCThadxCpEm0sG7Ob3419B6mLUPeJzCKaM9f610pDxYK0pUeMZDy7GK4bQ09rnPA3eHtaGWQP3P0Ng8QO071w2dW2
+
+sprite $AwsCloudDigitalInterfaceLg [20x20/16z] {
+TSW5YWKm40N1Yisy-rzuDGJzZJNbSxCwVGQldGKgt7fvcphG0mmeWhrWvJJMcK4W6odcnboS0cQ0GZ4oSGReQsltSCsrQUNFndXMMVviFNFmPm565gY382bM
+fXFOax4rd4pG62My0dRl7jptwjGSAvdm6Z-vVGC
+}
+
+!procedure AwsCloudDigitalInterface($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Resource/MediaServices/AwsCloudDigitalInterface', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsCloudDigitalInterfaceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCloudDigitalInterfaceLg>', 'MediaServices', $funcName, $content)
+!endprocedure
+
+!procedure AwsCloudDigitalInterfaceGroup($id, $name='Aws Cloud Digital Interface', $tech='')
+  IconGroupElement($id, 'MediaServicesFamily', '<$AwsCloudDigitalInterfaceLg>', $name, $tech)
+!endprocedure

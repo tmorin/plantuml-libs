@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/S/Shenzhenmetro
+
+sprite $ShenzhenmetroXs [10x10/16z] DOl50S1G38MeUzb_sifFSdi2i_GYdJYqf6Wbr4s55csX6IsCjQqgBLfk9orTlW
+
+sprite $ShenzhenmetroSm [12x12/16z] PSo50OC040J1YmUT_gl5dNtNhpf4DNdt_4qA22IfpNmpy02PcMydcdq56hHpAcg-s_y7JysSXnu
+
+sprite $ShenzhenmetroMd [16x16/16z] FSp50GGX04FHZ3kl_sfNWN-BhWovx678oSZSzKCeNIEOgxvP4lZfWYGBU42-32ebbGkCJVR_oW0yLJuQIvVds8mLjpriID3-5kvmDXtC35tVl04
+
+sprite $ShenzhenmetroLg [20x20/16z] {
+PT35WSGm04Mn7-Qe_seN1XnwHvdT8wcfif1KQ6xM8V-Umx073gimPi1S39B0zZ4Oyq7MQGThSY2mvDDSg4cfPj-H71ttEve0TP7MqUE4CdK4nvsJLD1zRCAU
+hAZAkJEgO4wnOAcG7BQXy_pdNm
+}
+
+!procedure Shenzhenmetro($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/S/Shenzhenmetro', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-8/T/Timescale
+
+sprite $TimescaleXs [10x10/16z] JSQr0GDH040XulBbxJzjf3ig7AIPuE5w0eR9cTLBvlWFdOOt0-VBKCyQxX5t0jNa2m
+
+sprite $TimescaleSm [12x12/16z] LS750KCn00KWOjyYR_zjUoxuarEJo8T7kUhc86_rFANSw8KepqQvZpWQoeFGw-vNXJREaTKzlj5QhBK88uKLa0OaWHy
+
+sprite $TimescaleMd [16x16/16z] {
+POTLGWGm44FVI4jrSl_J0cjV6m_Va63iJcXyRWVVk0PWa9k82mR0dhOODfi9u5WCkB1ETq0BS05c6xWtXClt8o7g300TiA9T9GRWvTcKYd7RynCLGkF6pEfY
+hTJ1b0TSCDeHqBLWCg04W8dpqqQtomScYIV-
+}
+
+sprite $TimescaleLg [20x20/16z] {
+TS_5WG0n3C10sGlXgFzgZndc4pJnZpM0p83OXHTQq3srinq0OK2KY9h0a3TbaYSXxzhPyigiz6E60O2K0SU4miu1S3L9Q0BZ305M6YtfmZKP2y0OZCxfP3Ns
+07Ab5O1jnCk_s5Sp3k1bYanPtRUwBt8TOuYZzPOaGCmqNKp3Kb4TiEzXW39lk5xsLxK3w0bu2qmd0A6y2AQTDmLynkIhqaSBNZq2
+}
+
+!procedure Timescale($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/T/Timescale', $name, $tech, $desc)
+!endprocedure

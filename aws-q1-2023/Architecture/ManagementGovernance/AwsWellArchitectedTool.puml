@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2023/Architecture/ManagementGovernance/AwsWellArchitectedTool
+
+sprite $AwsWellArchitectedToolXs [10x10/16z] FOZ70KDH38DUSHFUVzxaTrq4IAfpcVeG-OCmDDTDUzyLM6kchRCPlgEgWR6hfEu4q4dDZNy
+
+sprite $AwsWellArchitectedToolSm [12x12/16z] JKl90GD120gQZ8BzzvlTkVbmyq6-Y0XUHYJm6KPguJaQATyDXuw6zsAlbfd3YAw3Xj_xARczT_-ILHcD4ldg0Y1fw587-GS
+
+sprite $AwsWellArchitectedToolMd [16x16/16z] {
+NOw50S0m3CCMhft_xnspYr8HMyQHMeEVkEWIN3agzH8aj4poshIo1RPsCKKGvfEP7nm8aOHSJ5M5A4hYO179IORBkg597og6gg70w6O80NUpxNFThPMIv0e7
+qpETvCMhENBnMom
+}
+
+sprite $AwsWellArchitectedToolLg [20x20/16z] {
+RSq76eGW34HXqWWJxd_V7VQpwxF_Kl1lxEKA7uWNRcRiWaMA1E0d5b7IDEsSNbNUbCxRnT8xqBsdk-TcWpjeE0GOibdPQ53khEezDYjb44cuwCK4eWuLsSpW
+NXPfZLEv-vm5ytL1CrC1B8lIgWO3fs4rYP8zEXrRa-LQDNXTR0QhrSLcxPt6hlW3
+}
+
+!procedure AwsWellArchitectedTool($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Architecture/ManagementGovernance/AwsWellArchitectedTool', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsWellArchitectedToolCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsWellArchitectedToolLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsWellArchitectedToolGroup($id, $name='Aws Well Architected Tool', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsWellArchitectedToolLg>', $name, $tech)
+!endprocedure

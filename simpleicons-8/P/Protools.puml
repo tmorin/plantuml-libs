@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-8/P/Protools
+
+sprite $ProtoolsXs [10x10/16z] 9SI50SC008J0gpVA_jD6_m4O-eBW_IVyyC5QFSm3fRYhVEg9kRT-eFo11pupOWS
+
+sprite $ProtoolsSm [12x12/16z] 9SM7eK9H34Cn0Q-ti_-qlt2Ls0Pdcw4Nvk0sH4mLRY-l_d6Tr68h6gDO5QZtN1-mbXW-aU66--RrhFm2
+
+sprite $ProtoolsMd [16x16/16z] {
+DSo5jKCX40N0IPuBtFwh_G9d1sV5iBKy7wLbmvdTaA_fR13mWUsbVT6JN7W-EZAyoBRo9f5aexSPhlrAFKbEv-CPhMPJRKc5oUpJbV5kA7dec_9kOtzD5Vca
+t-UJ1hy
+}
+
+sprite $ProtoolsLg [20x20/16z] {
+JSo55GCX50NHWNM1wR_Re2TxSNcVuSg-En-R-LpYSfi2WvbXzQJfwv1l2e_-vUWvDzXQyBAAG11i2Ri0l2S9s2oI1ONN2LZqvGNC4UwHMbKW6GdgnImBwTtw
+hWdgIjuUYqZtggkdFJaa2zI3FpNn6FbwNE7CV0IfRWFJPfoRboOgJAVcb4tzqmy
+}
+
+!procedure Protools($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/P/Protools', $name, $tech, $desc)
+!endprocedure

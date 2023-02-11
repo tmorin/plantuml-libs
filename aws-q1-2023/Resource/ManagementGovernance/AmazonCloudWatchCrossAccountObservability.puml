@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2023/Resource/ManagementGovernance/AmazonCloudWatchCrossAccountObservability
+
+sprite $AmazonCloudWatchCrossAccountObservabilityXs [10x10/16z] NOk30K0n34JlitZxprixpa57K9Vl5nvTau3S667IqFr9k7p1NsrtMXYry2wD2
+
+sprite $AmazonCloudWatchCrossAccountObservabilitySm [12x12/16z] NScr0GD000GWtkNsdpTUXHR_QesFsylHVNIpt_X8cfzG48UyCAK5EMnbNgpWgDMeN4tnyQkVN7W2
+
+sprite $AmazonCloudWatchCrossAccountObservabilityMd [16x16/16z] RSV5OGH000GWrcNwhpVkENvuhDq0c9kmFqj4QO1Dx9lFI_h415ncXNOc3WId46vUOPHS4-Q2kXqNQeKvJYqDDzaeKpy8NAu27KZyKalnqrh0Cm
+
+sprite $AmazonCloudWatchCrossAccountObservabilityLg [20x20/16z] {
+VStLOI1020N0ML-W_thlufxC7_hyPMJuAYblTiJLvgTUa4qPdtlHPERrvbQcGajlWNtcy4b1WbLPYJcW7uoBNgnwSb1EbTD0ww2KrNk77kj0YNpTsqD0KxHw
+JOiDPML173Y7w1fO7LXLnnTpA5-qtE5RimFy1m
+}
+
+!procedure AmazonCloudWatchCrossAccountObservability($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Resource/ManagementGovernance/AmazonCloudWatchCrossAccountObservability', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonCloudWatchCrossAccountObservabilityCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonCloudWatchCrossAccountObservabilityLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AmazonCloudWatchCrossAccountObservabilityGroup($id, $name='Amazon Cloud Watch Cross Account Observability', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AmazonCloudWatchCrossAccountObservabilityLg>', $name, $tech)
+!endprocedure

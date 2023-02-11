@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/S/Skype
+
+sprite $SkypeXs [10x10/16z] FOg55K0X30FlkmBxRqjUxUfDuEuumu7B-gtMLDTWqr3YkgaywfQd3yJl9eTQ9m
+
+sprite $SkypeSm [12x12/16z] BOh50S1G58Eew_liFsqrd290rpQ2eKjkfIwK2j0hgsxeYOeMJAfYfEHTA_bWBBxy5Jg_F6i0CF46
+
+sprite $SkypeMd [16x16/16z] HOk74O0m4CD4xtZ_RJa1IPGgdnyOxxEZaS9Qj68vSWpz_0NNzyZXp-kWytAqyzhqt3PFQl-A49aCkkOseVZAvk_pERc1mNv9xnvO8XWqTDAOaEwi-W
+
+sprite $SkypeLg [20x20/16z] {
+LOu50i0W30Cpn_F_twuG9hqfLuKHMZlX27n9JdbBJpLrwJU_9GMeGoqGD7QvOlaZTwE1WqPKHbcgYfvkYGy1ltvBrZvoB1X4LV6XdYQLrtgMrZpb6eBcnlul
+HtqmATC5bHcB51NqmCXU7UXiFcsoX5nIcvrl
+}
+
+!procedure Skype($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/S/Skype', $name, $tech, $desc)
+!endprocedure

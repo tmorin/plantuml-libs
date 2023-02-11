@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome-6/Solid/BowlRice
 
-sprite $BowlRiceXs [11x10/16z] RSR50O1000InmPtjlrhatF8AkMM-AVKwTtK2DkQUcPsTX89cHnXbm0i
+sprite $BowlRiceXs [10x10/16z] Oq01_4080hnWo8qY1O5C_8pyCC0DPp4WM30cI0-K0G
 
-sprite $BowlRiceSm [13x12/16z] TSUr0G910031UJct_hibmU4dslKZs3SFRIlXaUgMpwE29DWs0Siozr7Zj7YttbnEztOyBtC3
+sprite $BowlRiceSm [12x12/16z] NOY55GCn5CCKvdZ_QTjZqWVhcGzU2Bv8Mwy0Vjr0MAKvsvWCgZEw6G_dwVFI2E5G0z3dIeG_
 
-sprite $BowlRiceMd [17x16/16z] ZSo53GD134JHVxUCqt-rOR95UHg1aJzbdLEcSpxoDWu6SL0xJmf1LF6-ShHGVJxL8tXp6mKvlh6PCaxioWBJ6M0w5RW2
+sprite $BowlRiceMd [16x16/16z] RSU50S0m30F1BxEq_xHb2dp0FhBD7Kl_inOqFoYkMnp_aNrU7N_Qx68oYvdE9Qvmc2AtaOdTXeJoapXxJTe6
 
-sprite $BowlRiceLg [22x20/16z] dSorWKH1081GHhwEq7-rT-lkBoA27qoETBcnkg2yLnPIIInbbmTHgQveY2ylumBhI5olKaCw7ixvM4ptm0SAFh3IlPV8tWEyam6QrqQshYUTe-fP1FW7
+sprite $BowlRiceLg [20x20/16z] {
+VSt5OSL0303HMJ1RE_rNctmcmpk9nR5K81U-D1UqdCz5Jut46B0kt8nAEACPvK1g2xKDp2qH0Ms5h4mkD7lqbkv9ReHkBMubjt1Zs3u90B-itCo-9HvyQHpu
+1m
+}
 
 !procedure BowlRice($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome-6/Solid/BowlRice', $name, $tech, $desc)

@@ -1,0 +1,21 @@
+' definition of the Item azure-11/Item/General/ServiceTag
+
+sprite $ServiceTagXs [10x10/16z] LSOr0G0m402nAvD_lMNwJ45opXKtuZlApZXXUz5n0SpEQ4e9LbSQ
+
+sprite $ServiceTagSm [12x12/16z] PSQr0S0m402n2pxjFs_GR5LYiX-7UEhvGDyURptEjvB0AHbIksa6I2s8lVX9BKZg3G
+
+sprite $ServiceTagMd [16x16/16z] TSs35K0n30NGcllF-r66zp1yHc7Z9mLKTj_3AjDWIe9bQos1SlZB390oiB80VnekFw2SwZJAWPIZ4Grqfoy
+
+sprite $ServiceTagLg [20x20/16z] VSY34G0m00ImhxN_lBMLS_0dCdwKTKvi9JNeI5be42VNajOw9KSDfTGidrg9izIzz2OMFUf856ohZ9e60pigPwaZiMDp1G
+
+!procedure ServiceTag($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-11/Item/General/ServiceTag', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceTagCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceTagLg>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceTagGroup($id, $name='Service Tag', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceTagLg>', $name, $tech)
+!endprocedure

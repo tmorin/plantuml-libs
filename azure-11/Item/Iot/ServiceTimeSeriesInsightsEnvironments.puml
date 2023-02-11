@@ -1,0 +1,24 @@
+' definition of the Item azure-11/Item/Iot/ServiceTimeSeriesInsightsEnvironments
+
+sprite $ServiceTimeSeriesInsightsEnvironmentsXs [10x10/16z] DKe50G002BB_JxR0f6HANQuYL6nsmF6ySS2H6OjTXFxLx7-h1tSgQq03
+
+sprite $ServiceTimeSeriesInsightsEnvironmentsSm [12x12/16z] 9SQ14S1020B1qy3tNt9aM5KWzXjAqjvnF8GCNaeVJX3cVA9qq2OWcZpEjDdKcpiJ3RqO-04
+
+sprite $ServiceTimeSeriesInsightsEnvironmentsMd [16x16/16z] JSp50GH024FH3mdqt_7A-BlWC4d98KzCLNFcqYZD4l-6YYCAvhBsAOFDA-rWyL_AU60vQRuV8kdYQXCTRDM0EvzoD4P7tUTi61-_
+
+sprite $ServiceTimeSeriesInsightsEnvironmentsLg [20x20/16z] {
+JSe10a0m34FHtoNj_MyC11vi-ojHqkAl78BmeO2LzU0sKUxwfUW6AkaVkpc9K1SI9uj80DbyriNo8ll2Dyut8Cgo8E8tC9EDd60ynLzF1Z-Q1jO_AeSZAgc_
+-pbqNtzUrNCobnq
+}
+
+!procedure ServiceTimeSeriesInsightsEnvironments($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-11/Item/Iot/ServiceTimeSeriesInsightsEnvironments', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceTimeSeriesInsightsEnvironmentsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceTimeSeriesInsightsEnvironmentsLg>', 'Iot', $funcName, $content)
+!endprocedure
+
+!procedure ServiceTimeSeriesInsightsEnvironmentsGroup($id, $name='Service Time Series Insights Environments', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceTimeSeriesInsightsEnvironmentsLg>', $name, $tech)
+!endprocedure

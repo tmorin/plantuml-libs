@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Stapler
+
+sprite $StaplerXs [12x10/16z] Oq01_Fpy730c6B22c5pyKC044eS380U86I4SL0a-202nMTWW0CJcHm
+
+sprite $StaplerSm [15x12/16z] PSt50S0W30NG5lU__xIuyqxnV0y0T2O_AhfwMo5WOJbds90y_UUYxdbEjMnwkZl_umjdLuQDIm
+
+sprite $StaplerMd [20x16/16z] VSj50a0X24LHksF_g_rfAzpXuK60H8Xo5fg_t4mbswp0k8sZbIsVhMZ8OLR-6drFAhTUOwIMcWqLuxkLfbyQXiekPFotT0C
+
+sprite $StaplerLg [25x20/16z] VSl50GD134DHGvZKVxLP73IywvSe9ohamEvdrYW-xEpjwuUDVRsmiwyFh0yFnRw0wyDatGFJvZhK4Wgvzy7Am-CtAC6eGM-Z4WG-OhW-55a
+
+!procedure Stapler($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Stapler', $name, $tech, $desc)
+!endprocedure

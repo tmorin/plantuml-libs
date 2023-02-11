@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2023/Architecture/SecurityIdentityCompliance/AwsWaf
+
+sprite $AwsWafXs [10x10/16z] FSR70S0W00CnX-vZ_tr3rqiUsbHv1LdwraQpuvo8gRgkyTbgdG-JRVTE0ZGssZGwDZhv1m
+
+sprite $AwsWafSm [12x12/16z] JKg50S0029ej-F-zwp8f7DLd5N-4j1tAZQdHXR0JHs41vC3xX2lEZ3GeMXOz9B4F2fXXChKa3Znxs2lqn7iiIHxu86TX0m
+
+sprite $AwsWafMd [16x16/16z] {
+NSX9eWGX2C3G4beXyVxd_KFhgh9xuTIdAbz3hs_gW1LFLjUniQ2eokiLF04rZmj7Pi1rQCoC0Ulhfmr7J7BGMrEN4dJ1tj9cMvFatrkGYODZFclv8Ocl_z8U
+hURrzlRdr_W5
+}
+
+sprite $AwsWafLg [20x20/16z] {
+RSu73WGW20H0LDhY__zx6EJwnhIHXXllc1d-OFp127WPFp4I2J0QHCDTon8d3EUnhh9RIG8WwPePN2TnucoZ25_4om2pQoExnOUI0hDCo8C3Gx6mA6rNxmm5
+m4Y6xyGHANhw8SZiWv9lw5J5B4iqZhwpBMcUDJfVTQVT9t5NxiP0jPSLTif-y04
+}
+
+!procedure AwsWaf($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Architecture/SecurityIdentityCompliance/AwsWaf', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsWafCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsWafLg>', 'SecurityIdentityCompliance', $funcName, $content)
+!endprocedure
+
+!procedure AwsWafGroup($id, $name='Aws Waf', $tech='')
+  IconGroupElement($id, 'SecurityIdentityComplianceFamily', '<$AwsWafLg>', $name, $tech)
+!endprocedure

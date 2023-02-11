@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-8/A/Anilist
+
+sprite $AnilistXs [10x10/16z] Oy0E-840ni1ayN40ML0XA0i6W2oOKZW
+
+sprite $AnilistSm [12x12/16z] TSR50OG0302mzbo0x3yjxf9Nube9_-6Mv-gyLu_Ay3iORb1aPd3F15v4n0_4IWC
+
+sprite $AnilistMd [16x16/16z] ZOg50S0m20JvkXxxJrjtpKNWnGB8WH8sxJDwqSMcjvYp9ZteoZsrWnwtinxPTBjfW7QCOqbRQNWsmABjXnu
+
+sprite $AnilistLg [20x20/16z] fSpL0KC13090wfxRVzgwsxFxJ80CjS4EyW1URsEVD-rk4ypURZlaxORAykKsnoHvkRdvVrlw49YCZjvkRnlhgbhbP5OtQUa
+
+!procedure Anilist($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/A/Anilist', $name, $tech, $desc)
+!endprocedure

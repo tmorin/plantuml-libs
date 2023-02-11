@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/I/I18Next
+
+sprite $I18NextXs [10x10/16z] Om02Vdv-1WZWuU41ac0Xg20h5v311nU4Ce1CLgWGBqIG6IW8Pi1910i
+
+sprite $I18NextSm [12x12/16z] 9SV50SGm40GmXSdsz5_jGLO_mP84PLaMofHa0bAWHkd9iIcHBS2QFo2OD31XTiDG5lG5t9Cl
+
+sprite $I18NextMd [16x16/16z] HSo54S0m34DHDSn__sdBlhn3WwGNmDIsRbrR1euzzWQ4QYCySmHzWYQGZqE6XsGA3B5db133neEFpRCwIN46cu_rBAsX77AIEzIipNoB9SCtB_zAPEa2
+
+sprite $I18NextLg [20x20/16z] {
+PSu53eHG303HMPnlS__RRd0QNhHU3jdDZxVcPYGe6o8tl4ok6hEZTyudbt13gpnMlx-e9ZCllSb4aXSpHUBJskicNcWrNl5-FjqN4WhQFLL_T1tyEaXz7Dty
+XCsIU5mvltqKSpfK5-0F
+}
+
+!procedure I18Next($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/I/I18Next', $name, $tech, $desc)
+!endprocedure

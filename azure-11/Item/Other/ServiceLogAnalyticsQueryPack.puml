@@ -1,0 +1,24 @@
+' definition of the Item azure-11/Item/Other/ServiceLogAnalyticsQueryPack
+
+sprite $ServiceLogAnalyticsQueryPackXs [10x10/16z] 9SR90SCm30InaNYp_tuJsuiNUEn7qKgM-3mBoTwy2LWzyppdHCsMz5JT0hoNbe0_
+
+sprite $ServiceLogAnalyticsQueryPackSm [12x12/16z] DSR70S0m3090uW8I-mySDzthiCX7Ol43K0l9NDSJ7lDPdoN2d0qR8qroRioqEDhIjQ_Pbo4JahZ9G1G0Fm
+
+sprite $ServiceLogAnalyticsQueryPackMd [16x16/16z] LSvL0iGm24LHOW_P_u9da9Rc_Dqev9OzEDfQj9PiRjxhwdbUy3uV8jxhh73W3H0eeBgfNllipUtVAioBLyXfc0UFm69A98tZbMvu_m
+
+sprite $ServiceLogAnalyticsQueryPackLg [20x20/16z] {
+TSy50eGm34JHHYVX_lV5PWNz-CFQmNhwvwJfr9j5u5VHSAfVB8xHubG-MTLgcQOfpFDhEd8mIz1EeMd-UpTMwzK07HZC0TgfwYue40PZkSrMnZY_kzfwh5D8
+kLbmd2UJtHO
+}
+
+!procedure ServiceLogAnalyticsQueryPack($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-11/Item/Other/ServiceLogAnalyticsQueryPack', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceLogAnalyticsQueryPackCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceLogAnalyticsQueryPackLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceLogAnalyticsQueryPackGroup($id, $name='Service Log Analytics Query Pack', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceLogAnalyticsQueryPackLg>', $name, $tech)
+!endprocedure

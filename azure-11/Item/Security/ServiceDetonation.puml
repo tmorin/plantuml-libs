@@ -1,0 +1,24 @@
+' definition of the Item azure-11/Item/Security/ServiceDetonation
+
+sprite $ServiceDetonationXs [10x10/16z] LSOr0G0m40ImAppwzrl6JC67chn35FguepO15D97resfk_T4JKGpM4ug
+
+sprite $ServiceDetonationSm [12x12/16z] NSY50S0W3031kEs_RnL_x0YSwTja-x3zyJjsTN-ElWxa88pV-VOPjDu-MgY5DH80ms1huGq
+
+sprite $ServiceDetonationMd [16x16/16z] RSV50KCn50Em5p2a--zRSEcJRgfhUEd_VXoAcGxm0pb81JbojHfIBnAvFMM3viovFb21TGj-JdXRcuXlLLMzrRznQcZV1m
+
+sprite $ServiceDetonationLg [20x20/16z] {
+VOy50WCn20HZxExr_mzkb5AxYKyCqXtLEYsQOfiMrPUqG3vlmJ4xn_3YE5Xkx5Yft9UDxBrKKw8xI527lVfxbtFUoqPt7g2P7fFBxAGX6DGDWvAgJQAQOyaf
+AkUVIlnMAUDBFG4
+}
+
+!procedure ServiceDetonation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-11/Item/Security/ServiceDetonation', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceDetonationCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDetonationLg>', 'Security', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDetonationGroup($id, $name='Service Detonation', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDetonationLg>', $name, $tech)
+!endprocedure

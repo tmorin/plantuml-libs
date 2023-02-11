@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2023/Resource/ManagementGovernance/AwsSystemsManagerDocuments
+
+sprite $AwsSystemsManagerDocumentsXs [10x10/16z] Oq06pCpCC2OtDpSpGWBEP6E3IqD5sDdP6N029X1W
+
+sprite $AwsSystemsManagerDocumentsSm [12x12/16z] NSY53G0n581GQb_td_TSI-m5VhLQw-qIyBe3sIxNIfJsVF3JaLls-RFRn-J7zDXBLW
+
+sprite $AwsSystemsManagerDocumentsMd [16x16/16z] TSe54e1G00BHjHNkVrvRV-_a6w1eqrLaVALWiLuDmHDd6b8Fy_3xl6CvsQ7xxRk-kUigEEobAJnc1ht10G
+
+sprite $AwsSystemsManagerDocumentsLg [20x20/16z] XSk53G0n34DHbo7xptjGvdvHzEHW7SKwC-0Yr1dnK6SUdaAYit1P9sP3m6BMMbZ6IGmxeRMctaAjKGotdGdrna8u_DhPvbs8L6ynptFLU0ru0G
+
+!procedure AwsSystemsManagerDocuments($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Resource/ManagementGovernance/AwsSystemsManagerDocuments', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsSystemsManagerDocumentsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsSystemsManagerDocumentsLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsSystemsManagerDocumentsGroup($id, $name='Aws Systems Manager Documents', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsSystemsManagerDocumentsLg>', $name, $tech)
+!endprocedure

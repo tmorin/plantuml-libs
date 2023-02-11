@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2023/Architecture/SecurityIdentityCompliance/AwsArtifact
+
+sprite $AwsArtifactXs [10x10/16z] FOd70S0m4CA8Ex3_ld4zVIZYP2oweafiWtMtDi_lVAev4xDDoEcjkYjelzUp0aMxtVS7
+
+sprite $AwsArtifactSm [12x12/16z] JSU54K0n3CFGgqknil-ydw4wUl9PN4sMWKCgkaqTKflpj6cjbpPEYwPIv74RM-wHXneSdiuaEFBmuVJeQCJbX04SlkRAEm
+
+sprite $AwsArtifactMd [16x16/16z] {
+NSp70GGW20NHDS8V-g_Nk7ayFLHqyviPVmFuiGEIvTPhUfdYUQLgr-OoAIMLwmnkUxVgSL_UcTAnBIF9bEK1zTnl9oc237bdQjj1PILKT1mgFDOflht35Zky
+771R_XjC
+}
+
+sprite $AwsArtifactLg [20x20/16z] {
+RSYt0KCX50D0U5bY_trDhFolF5prP2O-aX_9cs5gUPCxenK0R-zcQgXCMPBl8Y00l6VrTvqG4mrfA3sN8CLr0TevvxnA0FFidAqZplcyGSQwC2lexXg3y7dp
+0GCQW36pancJ1yhsdMJI27JS6-Z5nbRLwzx4R6XXHfmx-Ppxp_6HFm
+}
+
+!procedure AwsArtifact($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Architecture/SecurityIdentityCompliance/AwsArtifact', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsArtifactCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsArtifactLg>', 'SecurityIdentityCompliance', $funcName, $content)
+!endprocedure
+
+!procedure AwsArtifactGroup($id, $name='Aws Artifact', $tech='')
+  IconGroupElement($id, 'SecurityIdentityComplianceFamily', '<$AwsArtifactLg>', $name, $tech)
+!endprocedure

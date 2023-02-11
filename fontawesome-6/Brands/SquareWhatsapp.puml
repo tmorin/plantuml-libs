@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/SquareWhatsapp
+
+sprite $SquareWhatsappXs [8x10/16z] Ou02LduuO6RW154CO0mZ-BaXD5Y0WHlAukBdvmMJS4a
+
+sprite $SquareWhatsappSm [10x12/16z] LSU50S0W40J1ZUBGVxMupkknX8Fj5nt-kpvbUPNNw-XPrTq7PWgYB2vkNDZWEvi
+
+sprite $SquareWhatsappMd [14x16/16z] POg50S0m40A9UzX_svQwtFi3tlHvamP_36V3THWxs73Sfb6ugZuCCRL0BGoYQx53ZjEKkjgwmW0qbx-ZJL0OYkCe08o5VdeUJIG-mOi5
+
+sprite $SquareWhatsappLg [17x20/16z] {
+ZOx50GKX30KdOLru_LVx5J_j87614GyTp7h63bXK9kANueuhmPdayfTpqFnF9mafPQ_Xtq5YJStoFrlgKdwpYqLNSboIPZ3PrhJIhPD-ZOEqAnZcNdV_oVCg
+rW23VJFo1W
+}
+
+!procedure SquareWhatsapp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/SquareWhatsapp', $name, $tech, $desc)
+!endprocedure

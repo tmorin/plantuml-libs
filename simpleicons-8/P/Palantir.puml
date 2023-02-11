@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-8/P/Palantir
+
+sprite $PalantirXs [10x10/16z] Om02Tdvc1Z3W1m4mWn58y06Ph60k0v3aWRCOa5WG0bKl9qGlGWm
+
+sprite $PalantirSm [12x12/16z] JOm54e002C1cj_l_Rpt06fq4goF5RZ1KSyX60xWGA219-ykRpDlwaBdL7YEecnwHBengmrZjba4bE6CBk
+
+sprite $PalantirMd [16x16/16z] {
+LOy50iCm203ZRVJ-_ziDcVIYE0GbBOQyBc6uM67dsBuAoFfEKmnwCC1lfz0VScG_vCHKERcyoFy98hYQ-7vkhUiAfNf_8MwG0RIH0qlyyu4Y2kcS1PmO795k
+_Rq
+}
+
+sprite $PalantirLg [20x20/16z] {
+JP255O1034FXN9lzfqLhGVDxhtQmAc75mslXLpK4rNQelTzp0_D74pWvIl8BT9TblPyCMERsc-bP-CtoxFnDyoon0OAofOpSiInv8KZpT00ZXBm5SHcMaFgK
+62-W_1YUpOOZtimvloKbpj0ud7q-rTa1gcnk
+}
+
+!procedure Palantir($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/P/Palantir', $name, $tech, $desc)
+!endprocedure

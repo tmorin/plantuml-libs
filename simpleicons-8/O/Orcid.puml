@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/O/Orcid
+
+sprite $OrcidXs [10x10/16z] 9SR50GC1402XYNlelzgpvKNLoxqTy2hcjtXuFF4Yt33pT9_zYHHw6TNDP0K
+
+sprite $OrcidSm [12x12/16z] JOf50e0m0CE2E_p_jMnhPpbLGkBwTind50kAh_D3ZDVg-rAEmQxpy7rxjwCypxpAXGrAV8ayPGq
+
+sprite $OrcidMd [16x16/16z] NO-50O0m30GJ72g__xP4weU-rCWu4m9J9S6vNQAHNUOTXUZb5nKcMCv2X72g9eYTw82ycuQ_1iqIXYNdhcyspxMms--54Tzzuo8XZbBXuJG_
+
+sprite $OrcidLg [20x20/16z] {
+POm50W0X20JNJjp_l_PAhiTa22Xbi4Sy25J4GE63SgkRggfZt3BehCG70DMbbFAipeSR8E6S1GvRBdVCcYKlnrduTYPlLtyxjEsAjzFFumkH7b192aGTDXnt
+B0o_02X_1LG-iJW8xoebJo6pQ0K
+}
+
+!procedure Orcid($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/O/Orcid', $name, $tech, $desc)
+!endprocedure

@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome-6/Regular/FileWord
 
-sprite $FileWordXs [7x10/16z] 7OM50S0m48IeUzb_shoS06OcVc1ticM9wssnYY-MCgd_Tqx1nFfyTyO
+sprite $FileWordXs [7x10/16z] 7OM50S0m48IeUzb_shoS06RW1tQnPOdhRR68_sGfa_frJx5-BCztPmm
 
-sprite $FileWordSm [9x12/16z] LOg50S1020DJVGDk_sdhUZY9Z0tJDbDA6KJI1l1VDhuB8bVRbXp08V4idTl7F7En0W
+sprite $FileWordSm [9x12/16z] HOg50SGW54DpqkAy_QV5vMjCaLO_AMPZZCMeJIim6p30W1SWWeiDzCEdWP7K00zvWDy8lwog
 
-sprite $FileWordMd [12x16/16z] NSQ54OH04031mU5iyi_sQ_UTBcjsKuFe2oYXgx_tzVPpfcdAlyGRBD3ZannIZ6FHovQlXYa_AKeUExRNq-tuzG
+sprite $FileWordMd [12x16/16z] HSU74O0m3CLGqJlQVrlE_u0enS_CfW72j81INRKqkxm-JQIkw-AtyWbNNRMJhMuPLzsyuikgZtiTb1Z5-_KrSK-ltyJM0m
 
-sprite $FileWordLg [15x20/16z] TSwr0GH15CDGBGv_zL_jCOEo5zdCuRKECFiC22SkNQqywGVzHqefeVAi_M0Ra1Tmld081jNbmirS5UL2FDUC9vkwtBWgGnz3ocn_S9iX_xhHZFf82NrMZW
+sprite $FileWordLg [15x20/16z] {
+RSwr0GH1581Grctcqt-r9-j6zZ8eG-SgWDAz3WWBvjGUb9Mp3yw-qfqCmn0pzyONJXcY1ykPML06gvcjxQGeCp7K_g1cjLqvQAEoib0wOoC6EBviJCQufuGU
+3Ly
+}
 
 !procedure FileWord($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome-6/Regular/FileWord', $name, $tech, $desc)

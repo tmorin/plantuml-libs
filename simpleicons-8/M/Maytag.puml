@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-8/M/Maytag
+
+sprite $MaytagXs [10x10/16z] Oo0Ii36mWG28mSF1oi3CpylAG2m
+
+sprite $MaytagSm [12x12/16z] fS470G0X30F0TFu0KlzkiS2umuLqukF7HhmeQi4AhOUhkvkvgHWsJG
+
+sprite $MaytagMd [16x16/16z] lS670S0m308mieSD_FzjhsWalEP62Dwz3ICguh1UiBKweg-OjJ9gnZWxH_3YPny
+
+sprite $MaytagLg [20x20/16z] pOS50G0W40CFjvV-QP4MpCVdg9LSkSpruewxKBJJIfeJ9nb6fahhiIYUS7GLPuNaTOvtG_IGaw-eV8u3
+
+!procedure Maytag($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/M/Maytag', $name, $tech, $desc)
+!endprocedure

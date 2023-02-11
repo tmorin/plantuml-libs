@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-8/C/Castro
+
+sprite $CastroXs [10x10/16z] 9SZ50SC0002XgpVA_jD6UL8r-5O53CNTdzJasMhGQ5J8ad--Ug1a2j7WLdr0xG
+
+sprite $CastroSm [12x12/16z] 9Or50WG13CAoEovj_l_QCNAf0hmShWH3sWKeXInWid3dRvP7JigO3PJyNGLjJtQn85VHMRNQ1JGqYT5tUmC
+
+sprite $CastroMd [16x16/16z] {
+LO-5eKKn2CLoNMdsd_PBpzDKSQ2pbDV0ap9i4LNhRcgBwDJrfzvG2c7H0PrXLuTkMpIYmg1bGNGNgDwHYU6ozOTUNeV49NvM_8fhhBhUgivDqxrFLe3xMqow
+vpI_
+}
+
+sprite $CastroLg [20x20/16z] {
+NOp5eKLH2CJcod59_zL-0PvcWquKjCtCUYCHh4C1RxJNQbw7ZWhG7oi53KZk-ZHBiHh0AMb35InlFIQWmILrs1tmwuRZ8O3a4f120DKYqzJ0eMoH2TcE1yQs
+PqAL7fORbXOCQG4FoscnN76q_RlnYVxf194tqjUN4xxbJxy
+}
+
+!procedure Castro($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/C/Castro', $name, $tech, $desc)
+!endprocedure

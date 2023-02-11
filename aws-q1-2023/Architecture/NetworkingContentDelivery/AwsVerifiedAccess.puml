@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2023/Architecture/NetworkingContentDelivery/AwsVerifiedAccess
+
+sprite $AwsVerifiedAccessXs [10x10/16z] FOh70S0m4CBIOy7-yxhVyG8ae8pyFrcLLUBizHXDtBtEDeMdE6gnTVHsW7lLAsRRGWC
+
+sprite $AwsVerifiedAccessSm [12x12/16z] JOYt5S1G4C9-kW2t_xxcKPa6IT3Qgy9FQDaMIguup3m8zJ2Zrjbmt-T1o-WX-IXkz0mlCXC5Z2HOBHHBcAJPeW4V
+
+sprite $AwsVerifiedAccessMd [16x16/16z] {
+NOY55KH12CGUEWo__tvlzImha71I1m3Sl4F_XTv1yuIU8Isb1CSxYWYMupe92aksArfDLQYv7Df5gZ9b-A8yg1pKCymx0GXbX6S4e0SqBX-XrD3AuoCqP7p7
+HpXS_mel
+}
+
+sprite $AwsVerifiedAccessLg [20x20/16z] {
+LSm75eGm24LHQSB7_Uzt81Fnv5bpKx2AoQk2KqyRp1TT1_D5Zi5S61HABZoMHVlCQomPS54gbJ400bYPRmlMfBip4FrDatit28PRzrwBrcA36IAUHYzBB4DR
+OObmvw6edeLNFKZ4XMsD0dOJmrXZajsPsmQHrMUDkyzE_04
+}
+
+!procedure AwsVerifiedAccess($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Architecture/NetworkingContentDelivery/AwsVerifiedAccess', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsVerifiedAccessCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsVerifiedAccessLg>', 'NetworkingContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AwsVerifiedAccessGroup($id, $name='Aws Verified Access', $tech='')
+  IconGroupElement($id, 'NetworkingContentDeliveryFamily', '<$AwsVerifiedAccessLg>', $name, $tech)
+!endprocedure

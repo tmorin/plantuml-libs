@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-8/R/Readme
+
+sprite $ReadmeXs [10x10/16z] Oy02-440I186lBnyGCoBf1XY0Afv
+
+sprite $ReadmeSm [12x12/16z] TSY50S0W30J0Jzr__scBErmy65YftM1oqn6HZulk70FmSjATL_7LJlsFJjGK
+
+sprite $ReadmeMd [16x16/16z] ZSS53e0m00F0pdtz_szf5iFXeeSl8Gh4H36TImUF6fza9-JqClKIH0yoUUKXP8SCdbaUOJ6J1GSJ_sm
+
+sprite $ReadmeLg [20x20/16z] fSR50O1000InnPtflrhSzIIlo0UpN0fg9ZMhIjnL_D1aJSYROB8cvaquMPCmQaRj8IrtugRI8e8cq4M0xYBPwW4
+
+!procedure Readme($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/R/Readme', $name, $tech, $desc)
+!endprocedure

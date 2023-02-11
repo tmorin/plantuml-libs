@@ -1,0 +1,21 @@
+' definition of the Item azure-11/Item/General/ServiceFeaturePreviews
+
+sprite $ServiceFeaturePreviewsXs [10x10/16z] Oq02h11098iDncA3iTZ0B90IA0jiAXi3
+
+sprite $ServiceFeaturePreviewsSm [12x12/16z] Oq01pAmGG2Ks6vpDnWPdCy3PB40IoePO3zGB
+
+sprite $ServiceFeaturePreviewsMd [16x16/16z] Oy04h730FB1yDbG-6vGFuo7pMHXG-4n02eaFyHSpZ0_tAP0F
+
+sprite $ServiceFeaturePreviewsLg [20x20/16z] Oy01M97141HZmnHZmnHZmnHZGuZ1HT35c1Wmn40qcXY4mOGanW8FNhWO4tAO0p4
+
+!procedure ServiceFeaturePreviews($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-11/Item/General/ServiceFeaturePreviews', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceFeaturePreviewsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceFeaturePreviewsLg>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceFeaturePreviewsGroup($id, $name='Service Feature Previews', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceFeaturePreviewsLg>', $name, $tech)
+!endprocedure

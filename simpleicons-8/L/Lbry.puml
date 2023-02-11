@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/L/Lbry
+
+sprite $LbryXs [10x10/16z] Oy01-1WuaNYi30myC3O_bEO1ia28Wu611SnWX4f1AGG
+
+sprite $LbrySm [12x12/16z] VSYr0SD0400mcVsy_xJ1Qu8gvQzb5meas11r4EeG5WOPCgTv9QKOqyey2LFsxWe
+
+sprite $LbryMd [16x16/16z] ZKt50S0m2CIfT_zju_OBhdUmARAsDyWnkXDJvBDqv6tELmpF_AT6AymFrZisY3re-g-FBoM8nELOUUYiNDG-yKenXIPufzCT2G
+
+sprite $LbryLg [20x20/16z] {
+hSl50GCn300msSUKx3zjcLyb1Kt-8PVUYn9C4tVzw6IuPpSttGh6njFCh5czsDRmR4hLazDK9PTRx-ctLd2wZJtcbbZ2ySwOqSouTmMgcvWJXiwJ6ZQl8drg
+3m
+}
+
+!procedure Lbry($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/L/Lbry', $name, $tech, $desc)
+!endprocedure

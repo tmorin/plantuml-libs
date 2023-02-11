@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2023/Resource/Compute/AwsLambdaLambdaFunction
+
+sprite $AwsLambdaLambdaFunctionXs [10x10/16z] JSW50G0W30J0n-bV6EPkXnhN6ktoFlmTWIFAk42z6Hlre74v1mu8EtZ2vbdjadm
+
+sprite $AwsLambdaLambdaFunctionSm [12x12/16z] NSgr0GD00CF0UxJtNpXSnQ1A_j8rTi7Mb0LCi2aYE1RpCpL8wnBRi7zsnL77P2V8XpO8S9fEF04
+
+sprite $AwsLambdaLambdaFunctionMd [16x16/16z] RSQn0GCn20GmWOsF_ITEzLrKoJ-zoSPd6vm7n7Ol19P5mz15rR7mMAZL1IsmNvuWPXs8nRLLWX4UOzrLECQZ6S6xoI39AGZ0kS0yg9HFlmpm0m
+
+sprite $AwsLambdaLambdaFunctionLg [20x20/16z] {
+TSh7WI0m20F0mHYZ_Xk-kE6ryo58VdRUPgTyksdm0c1xtdi3sy2M860Ft2OmO27OX0Mrd0Orpe3mm5J8nsh1venkE2KmzRwALHR2zj47NGQtrGWPGZr2k8T7
+47tL8enxOF-2sLqBEhu5q5k0km1ivbGd1z_g3u3V
+}
+
+!procedure AwsLambdaLambdaFunction($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2023/Resource/Compute/AwsLambdaLambdaFunction', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsLambdaLambdaFunctionCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsLambdaLambdaFunctionLg>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AwsLambdaLambdaFunctionGroup($id, $name='Aws Lambda Lambda Function', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AwsLambdaLambdaFunctionLg>', $name, $tech)
+!endprocedure

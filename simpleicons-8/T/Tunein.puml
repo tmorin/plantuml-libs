@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-8/T/Tunein
+
+sprite $TuneinXs [10x10/16z] Oy05-460WGa8-FcvW4o862-8nS7E02JXOlnG5fZWWtCH
+
+sprite $TuneinSm [12x12/16z] Oy0B-C40cSt73m6y83vCd1dC1Y5-ReWuBv0Dqym5P7E304Gzr3X6CC2m4G
+
+sprite $TuneinMd [16x16/16z] dSUr0SG00CGmFqF0-qyRkYeCwiH56jD__w6-Rgg4wcFvRs_38QS2ZCNV06yX8V4tIevf0G
+
+sprite $TuneinLg [20x20/16z] Ow0AO8O3X1W_760LOu82PX2FYmiioCa10PmW3WSJM8mHMIylCqoCaP4HGuo3dnqg1YHXUdaHzf8e1WK8vsCJuqFn9kK
+
+!procedure Tunein($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/T/Tunein', $name, $tech, $desc)
+!endprocedure
