@@ -1,6 +1,6 @@
 # Solid
 
-The module contains 1385 items.
+The module contains 1390 items.
 
 - [A](#family-a)
 - [B](#family-b)
@@ -137,6 +137,7 @@ The module contains 1385 items.
 | ![illustration of fontawesome-6/Solid/Ban](../../fontawesome-6/Solid/Ban.png) | [fontawesome-6/Solid/Ban](../../fontawesome-6/Solid/Ban.md) |
 | ![illustration of fontawesome-6/Solid/BanSmoking](../../fontawesome-6/Solid/BanSmoking.png) | [fontawesome-6/Solid/BanSmoking](../../fontawesome-6/Solid/BanSmoking.md) |
 | ![illustration of fontawesome-6/Solid/Bandage](../../fontawesome-6/Solid/Bandage.png) | [fontawesome-6/Solid/Bandage](../../fontawesome-6/Solid/Bandage.md) |
+| ![illustration of fontawesome-6/Solid/BangladeshiTakaSign](../../fontawesome-6/Solid/BangladeshiTakaSign.png) | [fontawesome-6/Solid/BangladeshiTakaSign](../../fontawesome-6/Solid/BangladeshiTakaSign.md) |
 | ![illustration of fontawesome-6/Solid/Barcode](../../fontawesome-6/Solid/Barcode.png) | [fontawesome-6/Solid/Barcode](../../fontawesome-6/Solid/Barcode.md) |
 | ![illustration of fontawesome-6/Solid/Bars](../../fontawesome-6/Solid/Bars.png) | [fontawesome-6/Solid/Bars](../../fontawesome-6/Solid/Bars.md) |
 | ![illustration of fontawesome-6/Solid/BarsProgress](../../fontawesome-6/Solid/BarsProgress.png) | [fontawesome-6/Solid/BarsProgress](../../fontawesome-6/Solid/BarsProgress.md) |
@@ -181,6 +182,7 @@ The module contains 1385 items.
 | ![illustration of fontawesome-6/Solid/BookOpenReader](../../fontawesome-6/Solid/BookOpenReader.png) | [fontawesome-6/Solid/BookOpenReader](../../fontawesome-6/Solid/BookOpenReader.md) |
 | ![illustration of fontawesome-6/Solid/BookQuran](../../fontawesome-6/Solid/BookQuran.png) | [fontawesome-6/Solid/BookQuran](../../fontawesome-6/Solid/BookQuran.md) |
 | ![illustration of fontawesome-6/Solid/BookSkull](../../fontawesome-6/Solid/BookSkull.png) | [fontawesome-6/Solid/BookSkull](../../fontawesome-6/Solid/BookSkull.md) |
+| ![illustration of fontawesome-6/Solid/BookTanakh](../../fontawesome-6/Solid/BookTanakh.png) | [fontawesome-6/Solid/BookTanakh](../../fontawesome-6/Solid/BookTanakh.md) |
 | ![illustration of fontawesome-6/Solid/Bookmark](../../fontawesome-6/Solid/Bookmark.png) | [fontawesome-6/Solid/Bookmark](../../fontawesome-6/Solid/Bookmark.md) |
 | ![illustration of fontawesome-6/Solid/BorderAll](../../fontawesome-6/Solid/BorderAll.png) | [fontawesome-6/Solid/BorderAll](../../fontawesome-6/Solid/BorderAll.md) |
 | ![illustration of fontawesome-6/Solid/BorderNone](../../fontawesome-6/Solid/BorderNone.png) | [fontawesome-6/Solid/BorderNone](../../fontawesome-6/Solid/BorderNone.md) |
@@ -242,6 +244,7 @@ The module contains 1385 items.
 | |Name|
 |:---:|---|
 | ![illustration of fontawesome-6/Solid/C](../../fontawesome-6/Solid/C.png) | [fontawesome-6/Solid/C](../../fontawesome-6/Solid/C.md) |
+| ![illustration of fontawesome-6/Solid/CableCar](../../fontawesome-6/Solid/CableCar.png) | [fontawesome-6/Solid/CableCar](../../fontawesome-6/Solid/CableCar.md) |
 | ![illustration of fontawesome-6/Solid/CakeCandles](../../fontawesome-6/Solid/CakeCandles.png) | [fontawesome-6/Solid/CakeCandles](../../fontawesome-6/Solid/CakeCandles.md) |
 | ![illustration of fontawesome-6/Solid/Calculator](../../fontawesome-6/Solid/Calculator.png) | [fontawesome-6/Solid/Calculator](../../fontawesome-6/Solid/Calculator.md) |
 | ![illustration of fontawesome-6/Solid/Calendar](../../fontawesome-6/Solid/Calendar.png) | [fontawesome-6/Solid/Calendar](../../fontawesome-6/Solid/Calendar.md) |
@@ -311,9 +314,9 @@ The module contains 1385 items.
 | ![illustration of fontawesome-6/Solid/ChevronRight](../../fontawesome-6/Solid/ChevronRight.png) | [fontawesome-6/Solid/ChevronRight](../../fontawesome-6/Solid/ChevronRight.md) |
 | ![illustration of fontawesome-6/Solid/ChevronUp](../../fontawesome-6/Solid/ChevronUp.png) | [fontawesome-6/Solid/ChevronUp](../../fontawesome-6/Solid/ChevronUp.md) |
 | ![illustration of fontawesome-6/Solid/Child](../../fontawesome-6/Solid/Child.png) | [fontawesome-6/Solid/Child](../../fontawesome-6/Solid/Child.md) |
+| ![illustration of fontawesome-6/Solid/ChildCombatant](../../fontawesome-6/Solid/ChildCombatant.png) | [fontawesome-6/Solid/ChildCombatant](../../fontawesome-6/Solid/ChildCombatant.md) |
 | ![illustration of fontawesome-6/Solid/ChildDress](../../fontawesome-6/Solid/ChildDress.png) | [fontawesome-6/Solid/ChildDress](../../fontawesome-6/Solid/ChildDress.md) |
 | ![illustration of fontawesome-6/Solid/ChildReaching](../../fontawesome-6/Solid/ChildReaching.png) | [fontawesome-6/Solid/ChildReaching](../../fontawesome-6/Solid/ChildReaching.md) |
-| ![illustration of fontawesome-6/Solid/ChildRifle](../../fontawesome-6/Solid/ChildRifle.png) | [fontawesome-6/Solid/ChildRifle](../../fontawesome-6/Solid/ChildRifle.md) |
 | ![illustration of fontawesome-6/Solid/Children](../../fontawesome-6/Solid/Children.png) | [fontawesome-6/Solid/Children](../../fontawesome-6/Solid/Children.md) |
 | ![illustration of fontawesome-6/Solid/Church](../../fontawesome-6/Solid/Church.png) | [fontawesome-6/Solid/Church](../../fontawesome-6/Solid/Church.md) |
 | ![illustration of fontawesome-6/Solid/Circle](../../fontawesome-6/Solid/Circle.png) | [fontawesome-6/Solid/Circle](../../fontawesome-6/Solid/Circle.md) |
@@ -735,8 +738,8 @@ The module contains 1385 items.
 | ![illustration of fontawesome-6/Solid/Hotdog](../../fontawesome-6/Solid/Hotdog.png) | [fontawesome-6/Solid/Hotdog](../../fontawesome-6/Solid/Hotdog.md) |
 | ![illustration of fontawesome-6/Solid/Hotel](../../fontawesome-6/Solid/Hotel.png) | [fontawesome-6/Solid/Hotel](../../fontawesome-6/Solid/Hotel.md) |
 | ![illustration of fontawesome-6/Solid/Hourglass](../../fontawesome-6/Solid/Hourglass.png) | [fontawesome-6/Solid/Hourglass](../../fontawesome-6/Solid/Hourglass.md) |
-| ![illustration of fontawesome-6/Solid/HourglassEmpty](../../fontawesome-6/Solid/HourglassEmpty.png) | [fontawesome-6/Solid/HourglassEmpty](../../fontawesome-6/Solid/HourglassEmpty.md) |
 | ![illustration of fontawesome-6/Solid/HourglassEnd](../../fontawesome-6/Solid/HourglassEnd.png) | [fontawesome-6/Solid/HourglassEnd](../../fontawesome-6/Solid/HourglassEnd.md) |
+| ![illustration of fontawesome-6/Solid/HourglassHalf](../../fontawesome-6/Solid/HourglassHalf.png) | [fontawesome-6/Solid/HourglassHalf](../../fontawesome-6/Solid/HourglassHalf.md) |
 | ![illustration of fontawesome-6/Solid/HourglassStart](../../fontawesome-6/Solid/HourglassStart.png) | [fontawesome-6/Solid/HourglassStart](../../fontawesome-6/Solid/HourglassStart.md) |
 | ![illustration of fontawesome-6/Solid/House](../../fontawesome-6/Solid/House.png) | [fontawesome-6/Solid/House](../../fontawesome-6/Solid/House.md) |
 | ![illustration of fontawesome-6/Solid/HouseChimney](../../fontawesome-6/Solid/HouseChimney.png) | [fontawesome-6/Solid/HouseChimney](../../fontawesome-6/Solid/HouseChimney.md) |
@@ -951,6 +954,7 @@ The module contains 1385 items.
 | ![illustration of fontawesome-6/Solid/Neuter](../../fontawesome-6/Solid/Neuter.png) | [fontawesome-6/Solid/Neuter](../../fontawesome-6/Solid/Neuter.md) |
 | ![illustration of fontawesome-6/Solid/Newspaper](../../fontawesome-6/Solid/Newspaper.png) | [fontawesome-6/Solid/Newspaper](../../fontawesome-6/Solid/Newspaper.md) |
 | ![illustration of fontawesome-6/Solid/NotEqual](../../fontawesome-6/Solid/NotEqual.png) | [fontawesome-6/Solid/NotEqual](../../fontawesome-6/Solid/NotEqual.md) |
+| ![illustration of fontawesome-6/Solid/Notdef](../../fontawesome-6/Solid/Notdef.png) | [fontawesome-6/Solid/Notdef](../../fontawesome-6/Solid/Notdef.md) |
 | ![illustration of fontawesome-6/Solid/NoteSticky](../../fontawesome-6/Solid/NoteSticky.png) | [fontawesome-6/Solid/NoteSticky](../../fontawesome-6/Solid/NoteSticky.md) |
 | ![illustration of fontawesome-6/Solid/NotesMedical](../../fontawesome-6/Solid/NotesMedical.png) | [fontawesome-6/Solid/NotesMedical](../../fontawesome-6/Solid/NotesMedical.md) |
 
@@ -994,7 +998,7 @@ The module contains 1385 items.
 | ![illustration of fontawesome-6/Solid/PenRuler](../../fontawesome-6/Solid/PenRuler.png) | [fontawesome-6/Solid/PenRuler](../../fontawesome-6/Solid/PenRuler.md) |
 | ![illustration of fontawesome-6/Solid/PenToSquare](../../fontawesome-6/Solid/PenToSquare.png) | [fontawesome-6/Solid/PenToSquare](../../fontawesome-6/Solid/PenToSquare.md) |
 | ![illustration of fontawesome-6/Solid/Pencil](../../fontawesome-6/Solid/Pencil.png) | [fontawesome-6/Solid/Pencil](../../fontawesome-6/Solid/Pencil.md) |
-| ![illustration of fontawesome-6/Solid/PeopleArrowsLeftRight](../../fontawesome-6/Solid/PeopleArrowsLeftRight.png) | [fontawesome-6/Solid/PeopleArrowsLeftRight](../../fontawesome-6/Solid/PeopleArrowsLeftRight.md) |
+| ![illustration of fontawesome-6/Solid/PeopleArrows](../../fontawesome-6/Solid/PeopleArrows.png) | [fontawesome-6/Solid/PeopleArrows](../../fontawesome-6/Solid/PeopleArrows.md) |
 | ![illustration of fontawesome-6/Solid/PeopleCarryBox](../../fontawesome-6/Solid/PeopleCarryBox.png) | [fontawesome-6/Solid/PeopleCarryBox](../../fontawesome-6/Solid/PeopleCarryBox.md) |
 | ![illustration of fontawesome-6/Solid/PeopleGroup](../../fontawesome-6/Solid/PeopleGroup.png) | [fontawesome-6/Solid/PeopleGroup](../../fontawesome-6/Solid/PeopleGroup.md) |
 | ![illustration of fontawesome-6/Solid/PeopleLine](../../fontawesome-6/Solid/PeopleLine.png) | [fontawesome-6/Solid/PeopleLine](../../fontawesome-6/Solid/PeopleLine.md) |
@@ -1264,9 +1268,10 @@ The module contains 1385 items.
 | ![illustration of fontawesome-6/Solid/SquareUpRight](../../fontawesome-6/Solid/SquareUpRight.png) | [fontawesome-6/Solid/SquareUpRight](../../fontawesome-6/Solid/SquareUpRight.md) |
 | ![illustration of fontawesome-6/Solid/SquareVirus](../../fontawesome-6/Solid/SquareVirus.png) | [fontawesome-6/Solid/SquareVirus](../../fontawesome-6/Solid/SquareVirus.md) |
 | ![illustration of fontawesome-6/Solid/SquareXmark](../../fontawesome-6/Solid/SquareXmark.png) | [fontawesome-6/Solid/SquareXmark](../../fontawesome-6/Solid/SquareXmark.md) |
-| ![illustration of fontawesome-6/Solid/StaffAesculapius](../../fontawesome-6/Solid/StaffAesculapius.png) | [fontawesome-6/Solid/StaffAesculapius](../../fontawesome-6/Solid/StaffAesculapius.md) |
+| ![illustration of fontawesome-6/Solid/StaffSnake](../../fontawesome-6/Solid/StaffSnake.png) | [fontawesome-6/Solid/StaffSnake](../../fontawesome-6/Solid/StaffSnake.md) |
 | ![illustration of fontawesome-6/Solid/Stairs](../../fontawesome-6/Solid/Stairs.png) | [fontawesome-6/Solid/Stairs](../../fontawesome-6/Solid/Stairs.md) |
 | ![illustration of fontawesome-6/Solid/Stamp](../../fontawesome-6/Solid/Stamp.png) | [fontawesome-6/Solid/Stamp](../../fontawesome-6/Solid/Stamp.md) |
+| ![illustration of fontawesome-6/Solid/Stapler](../../fontawesome-6/Solid/Stapler.png) | [fontawesome-6/Solid/Stapler](../../fontawesome-6/Solid/Stapler.md) |
 | ![illustration of fontawesome-6/Solid/Star](../../fontawesome-6/Solid/Star.png) | [fontawesome-6/Solid/Star](../../fontawesome-6/Solid/Star.md) |
 | ![illustration of fontawesome-6/Solid/StarAndCrescent](../../fontawesome-6/Solid/StarAndCrescent.png) | [fontawesome-6/Solid/StarAndCrescent](../../fontawesome-6/Solid/StarAndCrescent.md) |
 | ![illustration of fontawesome-6/Solid/StarHalf](../../fontawesome-6/Solid/StarHalf.png) | [fontawesome-6/Solid/StarHalf](../../fontawesome-6/Solid/StarHalf.md) |

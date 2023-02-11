@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome-6/Solid/Toolbox
 
-sprite $ToolboxXs [10x10/16z] Oq06_200OS4mLi00mIWQeHW1sE0i
+sprite $ToolboxXs [10x10/16z] Oq06_200OS4m5B1myIC11f08a4BM2CK8WE
 
-sprite $ToolboxSm [12x12/16z] TOk50O1030Dng-s_BO5tkxfaAfdjm_Ly8jdojQH2HCQ4nP3hktrndb1-QJzFZCk_P_lGhr0bd3Jn0W
+sprite $ToolboxSm [12x12/16z] NOo30G0W44MpiV-s_LptpcI4sfbfjBqMFGqbnnXhSdrXatBzA0vEmAp5PNVQsjxgDopLGxzBzOBt6zC
 
-sprite $ToolboxMd [16x16/16z] XSk50S1020F0r0L8zf-sxdgl69uOHzKQjfebcBamKZfNZRAHt7A0EgfT_sfmkjSumJYLmeOR5vegCTsk6MszxtY9ST43
+sprite $ToolboxMd [16x16/16z] XSgr0KCn30HGMMc-yVRVDcQ6LmYFTgJpBDSLITbDcf02GZle04RvbT4ZWJV7fIQ2ZAzCsbUQm6Eollv2Ah6jpcZU9ty
 
-sprite $ToolboxLg [20x20/16z] bSk5ZGD04CLGB_F-_hizpOKvUGABp4i-771HTCBPK0fcod4o1QR9W_5ZRCrXh1r8kaVKWwrVLB8CwCpZP60UygWPTomKo-DxjCUMcKE_o7e4Z_u
+sprite $ToolboxLg [20x20/16z] {
+bS-55GCX44NHlsx0wx_Rd96uNzmPlTKDGLSz95qSp8CfT58go6tq2klHA8Unrk_amMZddYPt_j1KCVF8HQyEaxVhXSrqsKgBDPX1FKPgN1HSQxopyEnLR7hX
+1
+}
 
 !procedure Toolbox($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome-6/Solid/Toolbox', $name, $tech, $desc)

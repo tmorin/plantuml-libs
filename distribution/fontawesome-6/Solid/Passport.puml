@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome-6/Solid/Passport
 
-sprite $PassportXs [8x10/16z] O-070ru-VZXWuW8BCZ3pyp60Q4Ok3X3DpitF3PRd0V4GW0q8E81I4
+sprite $PassportXs [8x10/16z] O-070ru-VZXWuW8BCZ3nypA0Q4Ok3X3DpitF3PRd0V4GW0q8E81I4
 
-sprite $PassportSm [10x12/16z] LSh50S104CD0XJdglzhWuNmMR7P_qxT4E-07dBvrdPXel_34vjkaSKt5njhHlYoCQRi1
+sprite $PassportSm [10x12/16z] LOg50G0X30Fl5OVzfyNrwasmeI7gCh10s_8KTTK2mLr5JxYUfbv1J-CLJjnT21l_t18
 
-sprite $PassportMd [14x16/16z] NSt50GD13CLGBSF0xx_QaCBlP3PhFan-zMNStia6CtIJJWWLisMhGmWsHrHpjq_EHZJ2D2G2C56B_csZkj-hyez8Lm
+sprite $PassportMd [14x16/16z] RSr50i9G54FHs_QxPV-hnOB3cJqDIIykFgsuvsUH8S9oiH1Yu2hclbzh3tTiwAeSSnD2naGScsG0BcpglxpRSlemVKDcPm
 
-sprite $PassportLg [17x20/16z] bSw30KGn44NH6pkl_shNniU9EOERUj6mUZUdVl80JGz0m55ran3JsyhzFNMYXYZtZJltk94lrNXTdIOeeqUSJgFROD1TuU8Ziw8Tx5s-fnvlXdve-e3UrIC
+sprite $PassportLg [17x20/16z] {
+bSw30KGn44NH6pkl_shNniU9EOERUj6n-Z3ramTeUW02ddfV9yJqjd5_Jnke8SfzuyxTDsg-LEDrPS941T7kwT7eDbXqLy007vaLxM3lyZtrUDFrGzC7fjxK
+8m
+}
 
 !procedure Passport($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome-6/Solid/Passport', $name, $tech, $desc)

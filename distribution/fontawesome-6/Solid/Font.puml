@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome-6/Solid/Font
 
-sprite $FontXs [8x10/16z] Oq02_12A0qhpy_91Q8W45vJc1m4GpSV71wHvm6nsDeWOFm
+sprite $FontXs [8x10/16z] Oq02_12A7Khpy_91Q8W49vJc1m4GpSV71wHvm6nsDeWOFm
 
-sprite $FontSm [10x12/16z] LOg30G0n54FFRFFsdxRcPxJCHGM6jKgeefqg1PpH7KceZVj-4oBL4r3AYEKcPUALle2iv04
+sprite $FontSm [10x12/16z] LOor0S1000A9ExV_jB5tAbmjIEIWInOaDf2ibmUsACGzoxBzZ1-h53f62n2FxFrbb_q
 
-sprite $FontMd [14x16/16z] ROt50O0m54E3Es__QT5wVsvn6MZsbC6GCI9PCWOhIzW0HNDd5BIEWTHn_AHzMOZYC6RiCsSt_h4TTdTpR0SkiW4emmq
+sprite $FontMd [14x16/16z] RSrL0a0H54NHruaz_z7gvdnPRYspo1gAgn9Gy3I2ZozXXGMI19VL5kN-T-AHpIct4dCrmk69oxq428TL8N-PMlxqA34
 
-sprite $FontLg [17x20/16z] TOx50S0m30FBtDp-quOPxcEsD8rOgdg3iW7CTKFazO6cN12m5erLyAVwXL87CuKhrBFL591VQA_92e4ds8wunW_2GB02HoOsxNVq-C6nV1XcBwOvqhChf2KA
+sprite $FontLg [17x20/16z] {
+TOw50S0W30JhJcx_ROixXyP_6h7CfRr2wH0eKw1CsMk78B0M5Qls9VlH-LjU0yfSTx1dErDIock_Iv92u77s5knGeq0C12bmn656zMq2eVcnV1XcPnkErEmA
+tv8V
+}
 
 !procedure Font($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome-6/Solid/Font', $name, $tech, $desc)

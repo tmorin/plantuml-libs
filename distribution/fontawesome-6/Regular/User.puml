@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome-6/Regular/User
 
-sprite $UserXs [8x10/16z] Om02VWOGOEE7CFXHC8ZW1b88mChF3vRYXH0yO45-FYumu04
+sprite $UserXs [8x10/16z] Om02VWOGOEE7CFXHC8ZW1b88mCpF3vRY0n4y33n02iJZ0WDU
 
-sprite $UserSm [10x12/16z] NOo30S105CLUxMR_QS_ED-NOK0HEdfWbq_R5hEtf1HOD7CUUdhpl2owPvBbmFo9KB
+sprite $UserSm [10x12/16z] NSY50O103C30u4xsdnRdxUhbqibBHvTt-ufk-xVuOrKR2iFGSzDrNHMikSssEo-Z4m
 
-sprite $UserMd [14x16/16z] XSs53GCn40NHVsoU_hkD5WB2FEE8Lgvpw-t1A37iogp8PFMiJUOaxm2RBeOImDH_dN1RG3lsVJycqqBffFhGD1ZeYyMl5m
+sprite $UserMd [14x16/16z] XSV50S0W40NH7pTW-gyMjriUiZlAFaur5uagJFfgFcNM-cejIdRgNy2Y0wCAmEhVIt6aW6zRrtMpc1IgTYwngZ5yQC0n2m
 
-sprite $UserLg [17x20/16z] ZSY53GHH203HMNUc_shFIBv4x-6GjdX6gjclXq8t28LqE-KOIChNuD4_yEmVenjfzoh_fDwXEyMbkl2_CVmvI8_51g11MlM2suD29mmQnkvC8mpFLdYQYZS
+sprite $UserLg [17x20/16z] {
+ZSxL0GGX34NHDuQJst-rwujzpS4rqPUtkgixUQjgm4i6-YaSts5h5_Is4USDaUQD7Q-lG6xxNq0n26eomANxjifR-wFI-5-8NyeUefH9Qc0NfW7LSsfW66ba
+51PF
+}
 
 !procedure User($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome-6/Regular/User', $name, $tech, $desc)

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Brands/SpaceAwesome
+
+sprite $SpaceAwesomeXs [10x10/16z] Om01VY26CFYXJ3Oa5WEw63-OnGLd0I4_b0K2R5nSN10Mr4m
+
+sprite $SpaceAwesomeSm [12x12/16z] JOgt0K11589ur_x0_jDUJbOgq1AoerxLT_K_NPtTZnEfzpwSNSBTVq-tTs1rMcel
+
+sprite $SpaceAwesomeMd [16x16/16z] LSt50KGn24LHP1Mz_LSxynrugvnWScUZaZ9WMx03hEYO05YosouMgLwBOWXFUpprllrvNmopP9BDfFfvkAgkS3bR_GS
+
+sprite $SpaceAwesomeLg [20x20/16z] bS_50S0m3C10Gvcq_xHbvkXvGSiIv7BAeV8ZAKC7IfZwOMRfnSPdJgQQGFWRs6fLiOomitaOzaOpxZeQ25oCDok63XPNCjJiJPOUhGC
+
+!procedure SpaceAwesome($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/SpaceAwesome', $name, $tech, $desc)
+!endprocedure

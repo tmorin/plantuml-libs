@@ -1,6 +1,6 @@
 # Regular
 
-The module contains 162 items.
+The module contains 163 items.
 
 - [A](#family-a)
 - [B](#family-b)
@@ -175,6 +175,7 @@ The module contains 162 items.
 | ![illustration of fontawesome-6/Regular/Heart](../../fontawesome-6/Regular/Heart.png) | [fontawesome-6/Regular/Heart](../../fontawesome-6/Regular/Heart.md) |
 | ![illustration of fontawesome-6/Regular/Hospital](../../fontawesome-6/Regular/Hospital.png) | [fontawesome-6/Regular/Hospital](../../fontawesome-6/Regular/Hospital.md) |
 | ![illustration of fontawesome-6/Regular/Hourglass](../../fontawesome-6/Regular/Hourglass.png) | [fontawesome-6/Regular/Hourglass](../../fontawesome-6/Regular/Hourglass.md) |
+| ![illustration of fontawesome-6/Regular/HourglassHalf](../../fontawesome-6/Regular/HourglassHalf.png) | [fontawesome-6/Regular/HourglassHalf](../../fontawesome-6/Regular/HourglassHalf.md) |
 
 <span id="family-i"></span>
 ## I

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Brands/Stubber
+
+sprite $StubberXs [8x10/16z] Ou01VZ3WXTByZ50Qn0T9SW4fTeWwNf0G5rGUJJqJ
+
+sprite $StubberSm [10x12/16z] Oq00VYX0iFXPu2m651OZ0mDGYekVdu-1dHsg5uoHz69ZiVD102S3
+
+sprite $StubberMd [14x16/16z] VOs30S0m402lThl_j8sDIzuYONyz9_15BDnnE7ynfD5YMeRRrtOm-qwTOdjmcLlh4OWllFqBQxD6YW
+
+sprite $StubberLg [17x20/16z] NS674O103C0mqplUVrkE_eb4LZSb08CL6eE9nQWrgKmOlEtUQ3mD09xmrC5fqdds1EmpjqrTO5ShE7dgFAtGiXlD9fZG634Pr9L11Ta1
+
+!procedure Stubber($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Stubber', $name, $tech, $desc)
+!endprocedure

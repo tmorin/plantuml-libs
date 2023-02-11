@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-6/bootstrap')
+
+' loads the Item which embeds the element SquareGitlab
+include('fontawesome-6/Brands/SquareGitlab')
+
+' renders the element
+SquareGitlab('SquareGitlab', 'Square Gitlab', 'an optional tech label', 'an optional description')
+@enduml

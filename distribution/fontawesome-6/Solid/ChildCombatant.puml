@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/ChildCombatant
+
+sprite $ChildCombatantXs [10x10/16z] NOQ50O1008ImM_QVrlRh4c3badTj0l4HtKUh2ZhZBNJPVf9okFlHSW8
+
+sprite $ChildCombatantSm [12x12/16z] JSZ50SK03CDGVIY3zz-sKVdoeXXOVWNH9FRS5TEh-GZBM8p7hbtYKRdEAlFHKEyF-rEETkz-DdDuzNS3
+
+sprite $ChildCombatantMd [16x16/16z] JSY50SGm3C10bRdQVze71nKy0pm7aNTwD7rkY-tzwDoRWTIJFDzNccYQgXDmAG-Z4Q0YcWfFNlRMwHrKvpUy0eENGlY-_pwJNzNEt5xGExqUdRy
+
+sprite $ChildCombatantLg [20x20/16z] {
+RSi7ZiL020JHdd4EkEv_smMvz-TIQZs1gZZbGAeQcUtoMCk6Uv-soNUsE-1yccjDBXYyfaaEmlVPhgh3fMQ29MaWRKSDbxQL7GYUQ5kUrikgUDfYczJbp-vV
+LR2NPVvzi_PbrUdnOVs77Sg29JXlEm3z0G
+}
+
+!procedure ChildCombatant($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ChildCombatant', $name, $tech, $desc)
+!endprocedure

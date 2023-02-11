@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Brands/Odysee
+
+sprite $OdyseeXs [10x10/16z] 5Oc70O1038ImTzb_MuN_95VuELm8kLzDYAydIoe63r_2afWIcZp5yW8EwSHI9Nm
+
+sprite $OdyseeSm [12x12/16z] BOk50SGm4CFSC6l_QH_Sw1YiFvEc5nGZ5BSvS1fkoM9fAc_1aJbCfWo0BhXrScbUTFUuP-cf4lV1D0kpz0K
+
+sprite $OdyseeMd [16x16/16z] {
+FSI7TSD030JHORObx4t_tGgFwM_WjCKlhnIWRfmieejoqWKD3YY8RWmB5t12BMwbcphWT0oDnUtGDl6oqIASL9ZKWzDNyGG45WUxBJ0xWK1SQ1zNc6XrleRR
+jAvH1-q7
+}
+
+sprite $OdyseeLg [20x20/16z] {
+NSzL0gKu0031XhUurFrFkwCPAuXrlj9Fn-jU-iDYhGdFD19rUsUCnjwE2ICnT_7kdBKjjM3fmztoLe-2guQ9FJTgS73WhG6yxlv9RFtX0vQgnOWpLE4UyKJD
+njrKJJpTZEYec9k0_oggGtMmZoSqdCPgQbZMducZXiznmpDNzGK
+}
+
+!procedure Odysee($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Odysee', $name, $tech, $desc)
+!endprocedure

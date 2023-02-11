@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome-6/Solid/Microscope
 
-sprite $MicroscopeXs [10x10/16z] Os1WOEHdW09-VdviB226ia04N1QP1GOG5YSGS00b6FbX
+sprite $MicroscopeXs [10x10/16z] Om02VX01Pl3pOsC1CPG58k2oo2mmWB0uE3avMO4INFmm
 
-sprite $MicroscopeSm [12x12/16z] NOo50O103CIkk6V_QO5tILtryw342hcu-lomaiDJTWpA_aprnxlbKifFXrjLuc9TANm
+sprite $MicroscopeSm [12x12/16z] NOo50O103CIkk6V_QO5tILtriwB42hcu-lomaWDbnw3iprH_l5ilfVnqk5KbBhQRmWS
 
-sprite $MicroscopeMd [16x16/16z] ROw50K0X24J1tu6t_xHswpFf8yyDK0k0lp4_EBZQ_z9-7kvi0QIr_HJqzHf_tm-8ytAcZi-UnqcqIQairAl_0kpSiOmzqTpfbmmSfw370W
+sprite $MicroscopeMd [16x16/16z] ROt50SKm3CMSSaFQVzeFOTBDVYG1lBG0jZaDWAgtNTxlgxhRWUly3z3dFRQx1SfUSFeIYDqkthB5C_el4_Y_Oqm5mdcAAm1OJyyN
 
-sprite $MicroscopeLg [20x20/16z] ZOs54GCm3CJiObZxJri6NrZ7Z_920Qa8mB6Lu2gM183VrgBJHWDeDQ3PYq3pSGNN_EPFC09V__JHr8phxmMo6At2lRNunJJy1_UIE8YemG59b8PIQBa3
+sprite $MicroscopeLg [20x20/16z] {
+ZOt50O0m0CHmX-m_BLRtvddQ24wsncC5UbVQ-9WTxU1ZhTRsfGqqW9X6iBS3mSSCI_1xok3-IT8VfDPQuwr--IHRSrc4jajMqJX_QnMClqJt3bWimD5iXCIq
+1m
+}
 
 !procedure Microscope($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome-6/Solid/Microscope', $name, $tech, $desc)

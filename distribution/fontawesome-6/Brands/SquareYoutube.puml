@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Brands/SquareYoutube
+
+sprite $SquareYoutubeXs [8x10/16z] Ou02Lduqm0WMvkA7I3E2Q126yzd1D1zCEGEK1W
+
+sprite $SquareYoutubeSm [10x12/16z] RSp50O1044FHZplflrfatTvj925Iozf_XaqQiMvrCF0v10nQOKzsSz9sdUTvAy7jd2y
+
+sprite $SquareYoutubeMd [14x16/16z] VSor0S1020NGSmVsdnPfuhbNeT_TBJnLe1qiCPZOh7CdNRqxMhUEwDBXrzyjCv61fG3fgTuwToC
+
+sprite $SquareYoutubeLg [17x20/16z] dSg53G0X40NHVuvl_zNY3h5xySbWSLu3FFI7kCxaUXLv9phQ1_JU4WIIgmH97C7P0YbuHmtw68y3oPr2mtoGw52YLQ0DxImLDDAOEG
+
+!procedure SquareYoutube($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/SquareYoutube', $name, $tech, $desc)
+!endprocedure

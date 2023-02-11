@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/StaffSnake
+
+sprite $StaffSnakeXs [7x10/16z] 5SW50SG030J1UIZ3-bTRI8xnXTxxzkizYzqOhShQ3Aec3ChBThpB3G
+
+sprite $StaffSnakeSm [9x12/16z] 9SQr0G0W00InnvtRVreqLNGaNI4bI5wzyZcmDDkHR2K14fK8MQ9Dhuldhj47zKKl1WIwYeuD
+
+sprite $StaffSnakeMd [12x16/16z] FSm53iG048LGwbxkVzlDdydsnOX1UVay3eGVTF1lKiVJSPmL1jPDxYUDvogQrdD9NwIlITfj8xGHmsmjuxhaqKeLkuVg4vh43m
+
+sprite $StaffSnakeLg [15x20/16z] {
+HSV10GCH04N1lm24rt-rIHQOssZw1EcoeAbmT2cHEeS3txWiVyQ2CGQGSjGZka8ObQMyXLdUjj57Sgkr9lr5g6ytDZlQpiruFjT2bNQVMabFs-Kl6Y2FTY3y
+MpKvJv3JrRs67m
+}
+
+!procedure StaffSnake($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/StaffSnake', $name, $tech, $desc)
+!endprocedure

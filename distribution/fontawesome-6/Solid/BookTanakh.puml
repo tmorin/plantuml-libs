@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/BookTanakh
+
+sprite $BookTanakhXs [8x10/16z] O-070o050tnC37nW8HwWA8Hc14im8IdYv-Q7QMG00NukA1y
+
+sprite $BookTanakhSm [10x12/16z] TSl50O0m0C30u4xsdnPtsliVxaPyIN7JfelA5OgRJklH3HZ1VjDChDauU9e1
+
+sprite $BookTanakhMd [14x16/16z] PSk50GGX40J1ESSx_sXVSGfT4yqXUf6VBTAahcVVzTagPHcGo1HWtt9m6dc_xOdCFw8Z2wj4JubhptxHhYmYYCKqTxu1
+
+sprite $BookTanakhLg [17x20/16z] TSx50GCX54NHDxZV_gkDPvopWkzYhqgSM7uQHqRiZQgyZC6VZ8oHKUKdMGDTOgKEA36hM6SKLat5JkvOTMOg9ufWLXNaG5g10Yoh3EMyhPp-UW8
+
+!procedure BookTanakh($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BookTanakh', $name, $tech, $desc)
+!endprocedure

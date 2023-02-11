@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Brands/Meta
+
+sprite $MetaXs [12x10/16z] LSM50G8108NGPxViFwrv-GEiKoDKoIwwKZWbxBgXSsWJAdegkaHeAzK6rueJ-FeD
+
+sprite $MetaSm [15x12/16z] NOo50S0W4CHID-3stxQuvLrXPh5t2BSXOEK1oUc2Gq_8WzyKCg1vhIavW5LtQfio3i6K8zdWmqiRheJUfImkhv27GCXUHdu
+
+sprite $MetaMd [20x16/16z] {
+ZOy5iiKm3CHKfgIw_sa_x7ZmeTeaEsRpFQFg2UogPGgTqpQTngW73Dh_NoQ5vWqnvgKveaEqIb1Apcelssuf1uswlJrZSgOPOrFNwfOiuFAo0J6nvUcYqw1N
+5NMO50C4DGNEB58qtNZ6Bm
+}
+
+sprite $MetaLg [25x20/16z] {
+dOvLWaGX40Fp7Esw_sbNW7okp1IQThr71Re63RWrsPZi_Ze8SmYQz2nFG9Pq0p5-Ek2ITa2onurObsNM14v1jmB7TDe6bmOPiEU119k7FZjS5jr1GKXOWR_F
+U9CxGi3ARIlod6-UFPou0_CHnBO571eKO6Xr1bKB9eyK05ao7Hptt3BMl_09
+}
+
+!procedure Meta($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Meta', $name, $tech, $desc)
+!endprocedure
