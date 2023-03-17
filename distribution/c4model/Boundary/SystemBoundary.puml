@@ -1,5 +1,5 @@
 ' definition of the Item c4model/Boundary/SystemBoundary
 
 !procedure SystemBoundary($id, $name, $tech="")
-  C4Boundary('System', $id, $name, $tech)
+  C4Boundary('System', 'Boundary', $id, $name, $tech)
 !endprocedure

@@ -1,10 +1,10 @@
 ' procedures
 
-!procedure C4Boundary($type, $id, $name, $tech="")
+!procedure C4Boundary($type, $stereotype, $id, $name, $tech="")
   !if ($tech)
-    rectangle $id <<Boundary>> as "<b>$name</b>\n<size:$FONT_SIZE_XS>[$type: $tech]</size>"
+    rectangle $id <<$stereotype>> as "<b>$name</b>\n<size:$FONT_SIZE_XS>[$type: $tech]</size>"
   !else
-    rectangle $id <<Boundary>> as "<b>$name</b>\n<size:$FONT_SIZE_XS>[$type]</size>"
+    rectangle $id <<$stereotype>> as "<b>$name</b>\n<size:$FONT_SIZE_XS>[$type]</size>"
   !endif
 !endprocedure
 

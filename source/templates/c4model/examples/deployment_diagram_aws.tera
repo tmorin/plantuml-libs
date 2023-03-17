@@ -1,0 +1,13 @@
+{% extends "package_example.tera" %}
+
+{% block content %}
+
+C4Legend()
+Title("[Deployment] Spring PetClinic")
+
+include('c4model/Element/InfrastructureNode')
+include('c4model/Element/DeploymentNode')
+
+InfrastructureNode("rout53", "Route 53", "Highly available and scalable cloud DNS service.")
+
+{% endblock content -%}

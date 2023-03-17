@@ -30,13 +30,17 @@
 !global $C4_COMPONENT_COLOR_BORDER=$C4_ELEMENT_COLOR_TEXT_LIGHT
 !global $C4_COMPONENT_COLOR_TEXT=$C4_ELEMENT_COLOR_TEXT_LIGHT
 
+!global $C4_NODE_COLOR_BG="#FFFFFF"
+!global $C4_NODE_COLOR_BORDER=$C4_BOUNDARY_COLOR_BORDER
+!global $C4_NODE_COLOR_TEXT=$C4_ELEMENT_COLOR_TEXT_DARK
+
 ' procedures
 
-!procedure C4Boundary($type, $id, $name, $tech="")
+!procedure C4Boundary($type, $stereotype, $id, $name, $tech="")
   !if ($tech)
-    rectangle $id <<Boundary>> as "<b>$name</b>\n<size:$FONT_SIZE_XS>[$type: $tech]</size>"
+    rectangle $id <<$stereotype>> as "<b>$name</b>\n<size:$FONT_SIZE_XS>[$type: $tech]</size>"
   !else
-    rectangle $id <<Boundary>> as "<b>$name</b>\n<size:$FONT_SIZE_XS>[$type]</size>"
+    rectangle $id <<$stereotype>> as "<b>$name</b>\n<size:$FONT_SIZE_XS>[$type]</size>"
   !endif
 !endprocedure
 
@@ -167,6 +171,14 @@ skinparam rectangle<<Component>> {
     FontColor $C4_COMPONENT_COLOR_TEXT
     BorderColor $C4_COMPONENT_COLOR_BORDER
     BackgroundColor $C4_COMPONENT_COLOR_BG
+}
+
+skinparam rectangle<<Node>> {
+    StereotypeFontColor $C4_NODE_COLOR_BG
+    FontColor $C4_NODE_COLOR_TEXT
+    BorderColor $C4_NODE_COLOR_BORDER
+    BackgroundColor $C4_NODE_COLOR_BG
+    roundCorner 20
 }
 
 

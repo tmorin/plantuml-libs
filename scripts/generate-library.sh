@@ -25,10 +25,10 @@ cd "$REPOSITORY_PATH" && npm run generate:workdir
 
 sync
 
-docker run --rm \
+podman run --rm \
   -v "$REPOSITORY_PATH/.workdir:/workdir" \
   -v "$REPOSITORY_PATH/distribution:/distribution" \
-  thibaultmorin/plantuml-generator:1 \
+  docker.io/thibaultmorin/plantuml-generator:1 \
   plantuml-generator library generate library.yaml \
   -O=/distribution
 

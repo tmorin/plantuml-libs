@@ -32,13 +32,17 @@
 !global $C4_COMPONENT_COLOR_BORDER=$C4_ELEMENT_COLOR_TEXT_LIGHT
 !global $C4_COMPONENT_COLOR_TEXT=$C4_ELEMENT_COLOR_TEXT_LIGHT
 
+!global $C4_NODE_COLOR_BG="#FFFFFF"
+!global $C4_NODE_COLOR_BORDER=$C4_BOUNDARY_COLOR_BORDER
+!global $C4_NODE_COLOR_TEXT=$C4_ELEMENT_COLOR_TEXT_DARK
+
 ' procedures
 
-!procedure C4Boundary($type, $id, $name, $tech="")
+!procedure C4Boundary($type, $stereotype, $id, $name, $tech="")
   !if ($tech)
-    rectangle $id <<Boundary>> as "<b>$name</b>\n<size:$FONT_SIZE_XS>[$type: $tech]</size>"
+    rectangle $id <<$stereotype>> as "<b>$name</b>\n<size:$FONT_SIZE_XS>[$type: $tech]</size>"
   !else
-    rectangle $id <<Boundary>> as "<b>$name</b>\n<size:$FONT_SIZE_XS>[$type]</size>"
+    rectangle $id <<$stereotype>> as "<b>$name</b>\n<size:$FONT_SIZE_XS>[$type]</size>"
   !endif
 !endprocedure
 
@@ -171,6 +175,14 @@ skinparam rectangle<<Component>> {
     BackgroundColor $C4_COMPONENT_COLOR_BG
 }
 
+skinparam rectangle<<Node>> {
+    StereotypeFontColor $C4_NODE_COLOR_BG
+    FontColor $C4_NODE_COLOR_TEXT
+    BorderColor $C4_NODE_COLOR_BORDER
+    BackgroundColor $C4_NODE_COLOR_BG
+    roundCorner 20
+}
+
 
 
 ' definition of the Item c4model/Element/Person
@@ -213,23 +225,38 @@ skinparam rectangle<<Component>> {
 !procedure Component($id, $name, $desc="", $tech="")
   C4Element('rectangle', 'Component', 'Component', $id, $name, $desc, $tech)
 !endprocedure
+' definition of the Item c4model/Element/DeploymentNode
+
+!procedure DeploymentNode($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'Deployment Node', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4model/Element/InfrastructureNode
+
+!procedure InfrastructureNode($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'Infrastructure Node', $id, $name, $desc, $tech)
+!endprocedure
 ' definition of the Item c4model/Boundary/EnterpriseBoundary
 
 !procedure EnterpriseBoundary($id, $name, $tech="")
-  C4Boundary('Enterprise', $id, $name, $tech)
+  C4Boundary('Enterprise', 'Boundary', $id, $name, $tech)
 !endprocedure
 ' definition of the Item c4model/Boundary/SystemBoundary
 
 !procedure SystemBoundary($id, $name, $tech="")
-  C4Boundary('System', $id, $name, $tech)
+  C4Boundary('System', 'Boundary', $id, $name, $tech)
 !endprocedure
 ' definition of the Item c4model/Boundary/ContainerBoundary
 
 !procedure ContainerBoundary($id, $name, $tech="")
-  C4Boundary('Container', $id, $name, $tech)
+  C4Boundary('Container', 'Boundary', $id, $name, $tech)
 !endprocedure
 ' definition of the Item c4model/Boundary/DeploymentNodeBoundary
 
 !procedure DeploymentNodeBoundary($id, $name, $tech="")
-  C4Boundary('Deployment Node', $id, $name, $tech)
+  C4Boundary('Deployment Node', 'Node', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4model/Boundary/InfrastructureNodeBoundary
+
+!procedure InfrastructureNodeBoundary($id, $name, $tech="")
+  C4Boundary('Infrastructure Node', 'Node', $id, $name, $tech)
 !endprocedure

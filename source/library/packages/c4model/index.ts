@@ -18,6 +18,7 @@ type ElementItemCsvRow = {
 type BoundaryItemCsvRow = {
   name: string
   type: string
+  stereotype: string
 }
 
 function createElementItems(path: string, urn: string): Array<Item> {
@@ -49,7 +50,7 @@ function createBoundaryItems(path: string, urn: string): Array<Item> {
     F.readFileSync(path, { encoding: "utf-8" }),
     { columns: true }
   )
-  return boundary_items_as_csv.map(({ name, type }) => {
+  return boundary_items_as_csv.map(({ name, type,stereotype }) => {
     return {
       urn: `${urn}/Boundary/${name}Boundary`,
       templates: {
@@ -60,7 +61,7 @@ function createBoundaryItems(path: string, urn: string): Array<Item> {
         {
           shape: {
             type: "Custom",
-            properties: { type },
+            properties: { type, stereotype },
           },
         },
       ],
@@ -80,8 +81,8 @@ export class C4modelFactory implements PackageFactory {
         {
           urn: `${this.getUrn()}/Element`,
           items: createElementItems(
-            P.join(__dirname, "elements.csv"),
-            this.getUrn()
+              P.join(__dirname, "elements.csv"),
+              this.getUrn()
           ),
         },
         {

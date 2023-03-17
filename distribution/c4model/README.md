@@ -48,8 +48,8 @@ Include locally the resources:
 
 The package provides 2 modules.
 
-- [c4model/Element](../c4model/Element/README.md) with 8 items
-- [c4model/Boundary](../c4model/Boundary/README.md) with 4 items
+- [c4model/Element](../c4model/Element/README.md) with 10 items
+- [c4model/Boundary](../c4model/Boundary/README.md) with 5 items
 
 
 
