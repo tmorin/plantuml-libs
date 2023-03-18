@@ -253,10 +253,10 @@ skinparam rectangle<<Node>> {
 ' definition of the Item c4model/Boundary/DeploymentNodeBoundary
 
 !procedure DeploymentNodeBoundary($id, $name, $tech="")
-  C4Boundary('Deployment Node', 'Node', $id, $name, $tech)
+  C4Boundary('Deployment Node', 'Boundary', $id, $name, $tech)
 !endprocedure
 ' definition of the Item c4model/Boundary/InfrastructureNodeBoundary
 
 !procedure InfrastructureNodeBoundary($id, $name, $tech="")
-  C4Boundary('Infrastructure Node', 'Node', $id, $name, $tech)
+  C4Boundary('Infrastructure Node', 'Boundary', $id, $name, $tech)
 !endprocedure

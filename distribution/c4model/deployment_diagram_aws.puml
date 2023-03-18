@@ -1,6 +1,14 @@
-{% extends "package_example.tera" %}
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION=".."
 
-{% block content %}
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('c4model/bootstrap')
+
 include('c4model/Boundary/DeploymentNodeBoundary')
 include('c4model/Element/InfrastructureNode')
 include('c4model/Element/Container')
@@ -29,4 +37,5 @@ DeploymentNodeBoundary("aws", "Amazon Web Services") {
 rout53 ..> ld : Relationship("Forwards\nrequest to", "HTTPS")
 ld ..> app : Relationship("Forwards\nrequest to", "HTTPS")
 app ..> database : Relationship("Reads from and \nwrites to", "MySQL Protocol/SSL")
-{% endblock content -%}
+
+@enduml

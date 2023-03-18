@@ -55,12 +55,17 @@ The package provides 2 modules.
 
 # Examples
 
-The package provides 7 examples.
+The package provides 8 examples.
 
 ## Deployment diagram
 
 ![Deployment diagram](../c4model/deployment_diagram.png)<br>
 [The source file.](../c4model/deployment_diagram.puml)
+
+## Deployment diagram AWS
+
+![Deployment diagram AWS](../c4model/deployment_diagram_aws.png)<br>
+[The source file.](../c4model/deployment_diagram_aws.puml)
 
 ## Dynamic diagram
 

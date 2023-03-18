@@ -50,7 +50,7 @@ function createBoundaryItems(path: string, urn: string): Array<Item> {
     F.readFileSync(path, { encoding: "utf-8" }),
     { columns: true }
   )
-  return boundary_items_as_csv.map(({ name, type,stereotype }) => {
+  return boundary_items_as_csv.map(({ name, type, stereotype }) => {
     return {
       urn: `${urn}/Boundary/${name}Boundary`,
       templates: {
@@ -81,8 +81,8 @@ export class C4modelFactory implements PackageFactory {
         {
           urn: `${this.getUrn()}/Element`,
           items: createElementItems(
-              P.join(__dirname, "elements.csv"),
-              this.getUrn()
+            P.join(__dirname, "elements.csv"),
+            this.getUrn()
           ),
         },
         {
@@ -95,6 +95,7 @@ export class C4modelFactory implements PackageFactory {
       ],
       examples: [
         "Deployment diagram",
+        "Deployment diagram AWS",
         "Dynamic diagram",
         "Level 1 System Context",
         "Level 2 Container",
