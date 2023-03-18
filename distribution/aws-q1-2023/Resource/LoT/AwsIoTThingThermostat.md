@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTThingThermostat')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTThingThermostatXs>`
+- `<$AwsIoTThingThermostatSm>`
+- `<$AwsIoTThingThermostatMd>`
+- `<$AwsIoTThingThermostatLg>`
+
+
+
+
 
 ## AwsIoTThingThermostat
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MediaServices/AmazonElasticTranscoder')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonElasticTranscoderXs>`
+- `<$AmazonElasticTranscoderSm>`
+- `<$AmazonElasticTranscoderMd>`
+- `<$AmazonElasticTranscoderLg>`
+
+
+
+
 
 ## AmazonElasticTranscoder
 

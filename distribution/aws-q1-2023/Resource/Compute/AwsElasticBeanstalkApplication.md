@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Compute/AwsElasticBeanstalkApplication')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsElasticBeanstalkApplicationXs>`
+- `<$AwsElasticBeanstalkApplicationSm>`
+- `<$AwsElasticBeanstalkApplicationMd>`
+- `<$AwsElasticBeanstalkApplicationLg>`
+
+
+
+
 
 ## AwsElasticBeanstalkApplication
 

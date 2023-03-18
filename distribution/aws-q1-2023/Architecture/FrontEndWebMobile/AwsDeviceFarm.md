@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/FrontEndWebMobile/AwsDeviceFarm')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsDeviceFarmXs>`
+- `<$AwsDeviceFarmSm>`
+- `<$AwsDeviceFarmMd>`
+- `<$AwsDeviceFarmLg>`
+
+
+
+
 
 ## AwsDeviceFarm
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Storage/AwsBackupBackupRestore')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsBackupBackupRestoreXs>`
+- `<$AwsBackupBackupRestoreSm>`
+- `<$AwsBackupBackupRestoreMd>`
+- `<$AwsBackupBackupRestoreLg>`
+
+
+
+
 
 ## AwsBackupBackupRestore
 

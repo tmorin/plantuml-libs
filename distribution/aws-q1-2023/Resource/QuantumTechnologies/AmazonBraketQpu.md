@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/QuantumTechnologies/AmazonBraketQpu')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonBraketQpuXs>`
+- `<$AmazonBraketQpuSm>`
+- `<$AmazonBraketQpuMd>`
+- `<$AmazonBraketQpuLg>`
+
+
+
+
 
 ## AmazonBraketQpu
 

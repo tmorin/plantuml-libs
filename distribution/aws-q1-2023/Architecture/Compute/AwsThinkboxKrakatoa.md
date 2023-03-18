@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Compute/AwsThinkboxKrakatoa')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsThinkboxKrakatoaXs>`
+- `<$AwsThinkboxKrakatoaSm>`
+- `<$AwsThinkboxKrakatoaMd>`
+- `<$AwsThinkboxKrakatoaLg>`
+
+
+
+
 
 ## AwsThinkboxKrakatoa
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTThingStacklight')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTThingStacklightXs>`
+- `<$AwsIoTThingStacklightSm>`
+- `<$AwsIoTThingStacklightMd>`
+- `<$AwsIoTThingStacklightLg>`
+
+
+
+
 
 ## AwsIoTThingStacklight
 

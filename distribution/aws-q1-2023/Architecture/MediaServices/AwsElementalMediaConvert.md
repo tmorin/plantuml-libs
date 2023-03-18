@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MediaServices/AwsElementalMediaConvert')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsElementalMediaConvertXs>`
+- `<$AwsElementalMediaConvertSm>`
+- `<$AwsElementalMediaConvertMd>`
+- `<$AwsElementalMediaConvertLg>`
+
+
+
+
 
 ## AwsElementalMediaConvert
 

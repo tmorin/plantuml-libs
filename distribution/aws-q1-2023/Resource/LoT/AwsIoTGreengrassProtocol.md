@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTGreengrassProtocol')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTGreengrassProtocolXs>`
+- `<$AwsIoTGreengrassProtocolSm>`
+- `<$AwsIoTGreengrassProtocolMd>`
+- `<$AwsIoTGreengrassProtocolLg>`
+
+
+
+
 
 ## AwsIoTGreengrassProtocol
 

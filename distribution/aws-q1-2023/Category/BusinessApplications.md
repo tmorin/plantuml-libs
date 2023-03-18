@@ -17,6 +17,17 @@ include('aws-q1-2023/Category/BusinessApplications')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BusinessApplicationsXs>`
+- `<$BusinessApplicationsSm>`
+- `<$BusinessApplicationsMd>`
+- `<$BusinessApplicationsLg>`
+
+
+
+
 
 ## BusinessApplications
 

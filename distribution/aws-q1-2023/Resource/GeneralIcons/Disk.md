@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/GeneralIcons/Disk')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DiskXs>`
+- `<$DiskSm>`
+- `<$DiskMd>`
+- `<$DiskLg>`
+
+
+
+
 
 ## Disk
 

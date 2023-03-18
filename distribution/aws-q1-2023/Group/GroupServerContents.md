@@ -17,6 +17,17 @@ include('aws-q1-2023/Group/GroupServerContents')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GroupServerContentsXs>`
+- `<$GroupServerContentsSm>`
+- `<$GroupServerContentsMd>`
+- `<$GroupServerContentsLg>`
+
+
+
+
 
 ## GroupServerContents
 

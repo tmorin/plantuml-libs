@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Containers/AmazonEksCloud')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonEksCloudXs>`
+- `<$AmazonEksCloudSm>`
+- `<$AmazonEksCloudMd>`
+- `<$AmazonEksCloudLg>`
+
+
+
+
 
 ## AmazonEksCloud
 

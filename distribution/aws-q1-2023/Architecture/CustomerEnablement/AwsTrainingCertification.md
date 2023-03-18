@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/CustomerEnablement/AwsTrainingCertification')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsTrainingCertificationXs>`
+- `<$AwsTrainingCertificationSm>`
+- `<$AwsTrainingCertificationMd>`
+- `<$AwsTrainingCertificationLg>`
+
+
+
+
 
 ## AwsTrainingCertification
 

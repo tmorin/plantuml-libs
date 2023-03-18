@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTThingWindfarm')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTThingWindfarmXs>`
+- `<$AwsIoTThingWindfarmSm>`
+- `<$AwsIoTThingWindfarmMd>`
+- `<$AwsIoTThingWindfarmLg>`
+
+
+
+
 
 ## AwsIoTThingWindfarm
 

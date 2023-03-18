@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Storage/AmazonSimpleStorageServiceGeneralAccessPoi
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonSimpleStorageServiceGeneralAccessPointsXs>`
+- `<$AmazonSimpleStorageServiceGeneralAccessPointsSm>`
+- `<$AmazonSimpleStorageServiceGeneralAccessPointsMd>`
+- `<$AmazonSimpleStorageServiceGeneralAccessPointsLg>`
+
+
+
+
 
 ## AmazonSimpleStorageServiceGeneralAccessPoints
 

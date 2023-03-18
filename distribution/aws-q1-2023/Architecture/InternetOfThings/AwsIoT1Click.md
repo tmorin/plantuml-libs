@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/InternetOfThings/AwsIoT1Click')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoT1ClickXs>`
+- `<$AwsIoT1ClickSm>`
+- `<$AwsIoT1ClickMd>`
+- `<$AwsIoT1ClickLg>`
+
+
+
+
 
 ## AwsIoT1Click
 

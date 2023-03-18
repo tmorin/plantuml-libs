@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MachineLearning/AmazonHealthLake')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonHealthLakeXs>`
+- `<$AmazonHealthLakeSm>`
+- `<$AmazonHealthLakeMd>`
+- `<$AmazonHealthLakeLg>`
+
+
+
+
 
 ## AmazonHealthLake
 

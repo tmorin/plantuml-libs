@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/ManagementGovernance/AwsSystemsManagerChangeManage
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsSystemsManagerChangeManagerXs>`
+- `<$AwsSystemsManagerChangeManagerSm>`
+- `<$AwsSystemsManagerChangeManagerMd>`
+- `<$AwsSystemsManagerChangeManagerLg>`
+
+
+
+
 
 ## AwsSystemsManagerChangeManager
 

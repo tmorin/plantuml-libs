@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Compute/AmazonEc2InstanceWithCloudWatch')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonEc2InstanceWithCloudWatchXs>`
+- `<$AmazonEc2InstanceWithCloudWatchSm>`
+- `<$AmazonEc2InstanceWithCloudWatchMd>`
+- `<$AmazonEc2InstanceWithCloudWatchLg>`
+
+
+
+
 
 ## AmazonEc2InstanceWithCloudWatch
 

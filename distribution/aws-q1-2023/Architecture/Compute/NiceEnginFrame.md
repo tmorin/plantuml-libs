@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Compute/NiceEnginFrame')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NiceEnginFrameXs>`
+- `<$NiceEnginFrameSm>`
+- `<$NiceEnginFrameMd>`
+- `<$NiceEnginFrameLg>`
+
+
+
+
 
 ## NiceEnginFrame
 

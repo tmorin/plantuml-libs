@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MachineLearning/AmazonPolly')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonPollyXs>`
+- `<$AmazonPollySm>`
+- `<$AmazonPollyMd>`
+- `<$AmazonPollyLg>`
+
+
+
+
 
 ## AmazonPolly
 

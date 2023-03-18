@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/GeneralIcons/Folder')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FolderXs>`
+- `<$FolderSm>`
+- `<$FolderMd>`
+- `<$FolderLg>`
+
+
+
+
 
 ## Folder
 

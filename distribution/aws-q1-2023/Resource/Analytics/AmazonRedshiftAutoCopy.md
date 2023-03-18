@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Analytics/AmazonRedshiftAutoCopy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonRedshiftAutoCopyXs>`
+- `<$AmazonRedshiftAutoCopySm>`
+- `<$AmazonRedshiftAutoCopyMd>`
+- `<$AmazonRedshiftAutoCopyLg>`
+
+
+
+
 
 ## AmazonRedshiftAutoCopy
 

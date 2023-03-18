@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTThingLightbulb')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTThingLightbulbXs>`
+- `<$AwsIoTThingLightbulbSm>`
+- `<$AwsIoTThingLightbulbMd>`
+- `<$AwsIoTThingLightbulbLg>`
+
+
+
+
 
 ## AwsIoTThingLightbulb
 

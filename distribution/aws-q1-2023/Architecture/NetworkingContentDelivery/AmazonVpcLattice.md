@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/NetworkingContentDelivery/AmazonVpcLattice')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonVpcLatticeXs>`
+- `<$AmazonVpcLatticeSm>`
+- `<$AmazonVpcLatticeMd>`
+- `<$AmazonVpcLatticeLg>`
+
+
+
+
 
 ## AmazonVpcLattice
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/GeneralIcons/AwsMarketplaceDark')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsMarketplaceDarkXs>`
+- `<$AwsMarketplaceDarkSm>`
+- `<$AwsMarketplaceDarkMd>`
+- `<$AwsMarketplaceDarkLg>`
+
+
+
+
 
 ## AwsMarketplaceDark
 

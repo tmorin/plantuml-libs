@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/ManagementGovernance/AwsSystemsManagerDocuments')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsSystemsManagerDocumentsXs>`
+- `<$AwsSystemsManagerDocumentsSm>`
+- `<$AwsSystemsManagerDocumentsMd>`
+- `<$AwsSystemsManagerDocumentsLg>`
+
+
+
+
 
 ## AwsSystemsManagerDocuments
 

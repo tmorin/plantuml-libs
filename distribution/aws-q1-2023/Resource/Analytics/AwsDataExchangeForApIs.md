@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Analytics/AwsDataExchangeForApIs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsDataExchangeForApIsXs>`
+- `<$AwsDataExchangeForApIsSm>`
+- `<$AwsDataExchangeForApIsMd>`
+- `<$AwsDataExchangeForApIsLg>`
+
+
+
+
 
 ## AwsDataExchangeForApIs
 

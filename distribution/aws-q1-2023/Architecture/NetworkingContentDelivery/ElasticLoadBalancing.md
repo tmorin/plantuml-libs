@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/NetworkingContentDelivery/ElasticLoadBalancing
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ElasticLoadBalancingXs>`
+- `<$ElasticLoadBalancingSm>`
+- `<$ElasticLoadBalancingMd>`
+- `<$ElasticLoadBalancingLg>`
+
+
+
+
 
 ## ElasticLoadBalancing
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/NetworkingAndContentDelivery/AmazonVpcNetworkAcces
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonVpcNetworkAccessAnalyzerXs>`
+- `<$AmazonVpcNetworkAccessAnalyzerSm>`
+- `<$AmazonVpcNetworkAccessAnalyzerMd>`
+- `<$AmazonVpcNetworkAccessAnalyzerLg>`
+
+
+
+
 
 ## AmazonVpcNetworkAccessAnalyzer
 

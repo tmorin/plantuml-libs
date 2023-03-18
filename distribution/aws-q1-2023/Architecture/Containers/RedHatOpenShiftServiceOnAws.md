@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Containers/RedHatOpenShiftServiceOnAws')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RedHatOpenShiftServiceOnAwsXs>`
+- `<$RedHatOpenShiftServiceOnAwsSm>`
+- `<$RedHatOpenShiftServiceOnAwsMd>`
+- `<$RedHatOpenShiftServiceOnAwsLg>`
+
+
+
+
 
 ## RedHatOpenShiftServiceOnAws
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/SecurityIdentityAndCompliance/AwsNetworkFirewallEn
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsNetworkFirewallEndpointsXs>`
+- `<$AwsNetworkFirewallEndpointsSm>`
+- `<$AwsNetworkFirewallEndpointsMd>`
+- `<$AwsNetworkFirewallEndpointsLg>`
+
+
+
+
 
 ## AwsNetworkFirewallEndpoints
 

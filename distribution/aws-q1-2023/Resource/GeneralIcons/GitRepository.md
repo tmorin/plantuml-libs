@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/GeneralIcons/GitRepository')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GitRepositoryXs>`
+- `<$GitRepositorySm>`
+- `<$GitRepositoryMd>`
+- `<$GitRepositoryLg>`
+
+
+
+
 
 ## GitRepository
 

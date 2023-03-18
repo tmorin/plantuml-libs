@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/DeveloperTools/AwsCodeStar')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsCodeStarXs>`
+- `<$AwsCodeStarSm>`
+- `<$AwsCodeStarMd>`
+- `<$AwsCodeStarLg>`
+
+
+
+
 
 ## AwsCodeStar
 

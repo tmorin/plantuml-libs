@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Database/AmazonDynamoDbStandardInfrequentAccessTab
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonDynamoDbStandardInfrequentAccessTableClassXs>`
+- `<$AmazonDynamoDbStandardInfrequentAccessTableClassSm>`
+- `<$AmazonDynamoDbStandardInfrequentAccessTableClassMd>`
+- `<$AmazonDynamoDbStandardInfrequentAccessTableClassLg>`
+
+
+
+
 
 ## AmazonDynamoDbStandardInfrequentAccessTableClass
 

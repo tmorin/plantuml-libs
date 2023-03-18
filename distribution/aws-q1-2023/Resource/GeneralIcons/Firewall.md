@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/GeneralIcons/Firewall')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FirewallXs>`
+- `<$FirewallSm>`
+- `<$FirewallMd>`
+- `<$FirewallLg>`
+
+
+
+
 
 ## Firewall
 

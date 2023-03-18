@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTSimulator')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTSimulatorXs>`
+- `<$AwsIoTSimulatorSm>`
+- `<$AwsIoTSimulatorMd>`
+- `<$AwsIoTSimulatorLg>`
+
+
+
+
 
 ## AwsIoTSimulator
 

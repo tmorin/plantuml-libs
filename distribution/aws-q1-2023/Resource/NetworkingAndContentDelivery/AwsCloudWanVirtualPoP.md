@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/NetworkingAndContentDelivery/AwsCloudWanVirtualPoP
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsCloudWanVirtualPoPXs>`
+- `<$AwsCloudWanVirtualPoPSm>`
+- `<$AwsCloudWanVirtualPoPMd>`
+- `<$AwsCloudWanVirtualPoPLg>`
+
+
+
+
 
 ## AwsCloudWanVirtualPoP
 

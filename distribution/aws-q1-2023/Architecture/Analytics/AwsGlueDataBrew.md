@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Analytics/AwsGlueDataBrew')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsGlueDataBrewXs>`
+- `<$AwsGlueDataBrewSm>`
+- `<$AwsGlueDataBrewMd>`
+- `<$AwsGlueDataBrewLg>`
+
+
+
+
 
 ## AwsGlueDataBrew
 

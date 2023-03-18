@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTLoRaWanProtocol')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTLoRaWanProtocolXs>`
+- `<$AwsIoTLoRaWanProtocolSm>`
+- `<$AwsIoTLoRaWanProtocolMd>`
+- `<$AwsIoTLoRaWanProtocolLg>`
+
+
+
+
 
 ## AwsIoTLoRaWanProtocol
 

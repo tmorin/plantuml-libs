@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Satellite/AwsGroundStation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsGroundStationXs>`
+- `<$AwsGroundStationSm>`
+- `<$AwsGroundStationMd>`
+- `<$AwsGroundStationLg>`
+
+
+
+
 
 ## AwsGroundStation
 

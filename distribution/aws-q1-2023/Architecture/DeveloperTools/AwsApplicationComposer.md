@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/DeveloperTools/AwsApplicationComposer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsApplicationComposerXs>`
+- `<$AwsApplicationComposerSm>`
+- `<$AwsApplicationComposerMd>`
+- `<$AwsApplicationComposerLg>`
+
+
+
+
 
 ## AwsApplicationComposer
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTReportedState')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTReportedStateXs>`
+- `<$AwsIoTReportedStateSm>`
+- `<$AwsIoTReportedStateMd>`
+- `<$AwsIoTReportedStateLg>`
+
+
+
+
 
 ## AwsIoTReportedState
 

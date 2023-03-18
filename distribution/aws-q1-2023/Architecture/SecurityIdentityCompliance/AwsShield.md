@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/SecurityIdentityCompliance/AwsShield')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsShieldXs>`
+- `<$AwsShieldSm>`
+- `<$AwsShieldMd>`
+- `<$AwsShieldLg>`
+
+
+
+
 
 ## AwsShield
 

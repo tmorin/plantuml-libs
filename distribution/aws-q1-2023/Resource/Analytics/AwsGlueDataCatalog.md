@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Analytics/AwsGlueDataCatalog')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsGlueDataCatalogXs>`
+- `<$AwsGlueDataCatalogSm>`
+- `<$AwsGlueDataCatalogMd>`
+- `<$AwsGlueDataCatalogLg>`
+
+
+
+
 
 ## AwsGlueDataCatalog
 

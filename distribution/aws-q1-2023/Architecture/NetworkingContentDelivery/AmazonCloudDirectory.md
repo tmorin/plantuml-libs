@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/NetworkingContentDelivery/AmazonCloudDirectory
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonCloudDirectoryXs>`
+- `<$AmazonCloudDirectorySm>`
+- `<$AmazonCloudDirectoryMd>`
+- `<$AmazonCloudDirectoryLg>`
+
+
+
+
 
 ## AmazonCloudDirectory
 

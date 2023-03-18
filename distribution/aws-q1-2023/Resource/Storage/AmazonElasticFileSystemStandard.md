@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Storage/AmazonElasticFileSystemStandard')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonElasticFileSystemStandardXs>`
+- `<$AmazonElasticFileSystemStandardSm>`
+- `<$AmazonElasticFileSystemStandardMd>`
+- `<$AmazonElasticFileSystemStandardLg>`
+
+
+
+
 
 ## AmazonElasticFileSystemStandard
 

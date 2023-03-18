@@ -17,6 +17,17 @@ include('aws-q1-2023/Category/FrontEndWebMobile')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FrontEndWebMobileXs>`
+- `<$FrontEndWebMobileSm>`
+- `<$FrontEndWebMobileMd>`
+- `<$FrontEndWebMobileLg>`
+
+
+
+
 
 ## FrontEndWebMobile
 

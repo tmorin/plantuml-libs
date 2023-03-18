@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/GeneralIcons/Gear')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GearXs>`
+- `<$GearSm>`
+- `<$GearMd>`
+- `<$GearLg>`
+
+
+
+
 
 ## Gear
 

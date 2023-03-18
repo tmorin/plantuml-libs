@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/MachineLearning/AmazonRekognitionImage')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonRekognitionImageXs>`
+- `<$AmazonRekognitionImageSm>`
+- `<$AmazonRekognitionImageMd>`
+- `<$AmazonRekognitionImageLg>`
+
+
+
+
 
 ## AmazonRekognitionImage
 

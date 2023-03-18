@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Analytics/AmazonRedshiftStreamingIngestion')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonRedshiftStreamingIngestionXs>`
+- `<$AmazonRedshiftStreamingIngestionSm>`
+- `<$AmazonRedshiftStreamingIngestionMd>`
+- `<$AmazonRedshiftStreamingIngestionLg>`
+
+
+
+
 
 ## AmazonRedshiftStreamingIngestion
 

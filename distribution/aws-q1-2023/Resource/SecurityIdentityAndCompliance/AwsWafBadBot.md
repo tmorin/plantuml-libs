@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/SecurityIdentityAndCompliance/AwsWafBadBot')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsWafBadBotXs>`
+- `<$AwsWafBadBotSm>`
+- `<$AwsWafBadBotMd>`
+- `<$AwsWafBadBotLg>`
+
+
+
+
 
 ## AwsWafBadBot
 

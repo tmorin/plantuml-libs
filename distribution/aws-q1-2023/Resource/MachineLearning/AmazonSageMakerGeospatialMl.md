@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/MachineLearning/AmazonSageMakerGeospatialMl')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonSageMakerGeospatialMlXs>`
+- `<$AmazonSageMakerGeospatialMlSm>`
+- `<$AmazonSageMakerGeospatialMlMd>`
+- `<$AmazonSageMakerGeospatialMlLg>`
+
+
+
+
 
 ## AmazonSageMakerGeospatialMl
 

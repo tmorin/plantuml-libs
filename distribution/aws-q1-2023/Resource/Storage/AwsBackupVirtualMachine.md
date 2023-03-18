@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Storage/AwsBackupVirtualMachine')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsBackupVirtualMachineXs>`
+- `<$AwsBackupVirtualMachineSm>`
+- `<$AwsBackupVirtualMachineMd>`
+- `<$AwsBackupVirtualMachineLg>`
+
+
+
+
 
 ## AwsBackupVirtualMachine
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Storage/AmazonFileCacheOnPremisesNfsLinkedDatasets
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonFileCacheOnPremisesNfsLinkedDatasetsXs>`
+- `<$AmazonFileCacheOnPremisesNfsLinkedDatasetsSm>`
+- `<$AmazonFileCacheOnPremisesNfsLinkedDatasetsMd>`
+- `<$AmazonFileCacheOnPremisesNfsLinkedDatasetsLg>`
+
+
+
+
 
 ## AmazonFileCacheOnPremisesNfsLinkedDatasets
 

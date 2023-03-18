@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/GeneralIcons/User')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UserXs>`
+- `<$UserSm>`
+- `<$UserMd>`
+- `<$UserLg>`
+
+
+
+
 
 ## User
 

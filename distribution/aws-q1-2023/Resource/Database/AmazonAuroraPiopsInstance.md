@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Database/AmazonAuroraPiopsInstance')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonAuroraPiopsInstanceXs>`
+- `<$AmazonAuroraPiopsInstanceSm>`
+- `<$AmazonAuroraPiopsInstanceMd>`
+- `<$AmazonAuroraPiopsInstanceLg>`
+
+
+
+
 
 ## AmazonAuroraPiopsInstance
 

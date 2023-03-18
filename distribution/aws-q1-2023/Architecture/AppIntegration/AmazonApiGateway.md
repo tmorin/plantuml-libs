@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/AppIntegration/AmazonApiGateway')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonApiGatewayXs>`
+- `<$AmazonApiGatewaySm>`
+- `<$AmazonApiGatewayMd>`
+- `<$AmazonApiGatewayLg>`
+
+
+
+
 
 ## AmazonApiGateway
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MachineLearning/AmazonMonitron')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonMonitronXs>`
+- `<$AmazonMonitronSm>`
+- `<$AmazonMonitronMd>`
+- `<$AmazonMonitronLg>`
+
+
+
+
 
 ## AmazonMonitron
 

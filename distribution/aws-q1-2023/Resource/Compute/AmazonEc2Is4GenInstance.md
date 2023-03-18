@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Compute/AmazonEc2Is4GenInstance')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonEc2Is4GenInstanceXs>`
+- `<$AmazonEc2Is4GenInstanceSm>`
+- `<$AmazonEc2Is4GenInstanceMd>`
+- `<$AmazonEc2Is4GenInstanceLg>`
+
+
+
+
 
 ## AmazonEc2Is4GenInstance
 

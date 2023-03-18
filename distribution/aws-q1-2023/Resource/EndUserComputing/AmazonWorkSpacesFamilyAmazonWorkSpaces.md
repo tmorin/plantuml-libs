@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/EndUserComputing/AmazonWorkSpacesFamilyAmazonWorkS
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonWorkSpacesFamilyAmazonWorkSpacesXs>`
+- `<$AmazonWorkSpacesFamilyAmazonWorkSpacesSm>`
+- `<$AmazonWorkSpacesFamilyAmazonWorkSpacesMd>`
+- `<$AmazonWorkSpacesFamilyAmazonWorkSpacesLg>`
+
+
+
+
 
 ## AmazonWorkSpacesFamilyAmazonWorkSpaces
 

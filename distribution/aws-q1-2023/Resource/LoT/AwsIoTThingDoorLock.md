@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTThingDoorLock')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTThingDoorLockXs>`
+- `<$AwsIoTThingDoorLockSm>`
+- `<$AwsIoTThingDoorLockMd>`
+- `<$AwsIoTThingDoorLockLg>`
+
+
+
+
 
 ## AwsIoTThingDoorLock
 

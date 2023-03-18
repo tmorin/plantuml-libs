@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTHttp2Protocol')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTHttp2ProtocolXs>`
+- `<$AwsIoTHttp2ProtocolSm>`
+- `<$AwsIoTHttp2ProtocolMd>`
+- `<$AwsIoTHttp2ProtocolLg>`
+
+
+
+
 
 ## AwsIoTHttp2Protocol
 

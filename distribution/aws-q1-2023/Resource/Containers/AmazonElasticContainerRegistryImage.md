@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Containers/AmazonElasticContainerRegistryImage')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonElasticContainerRegistryImageXs>`
+- `<$AmazonElasticContainerRegistryImageSm>`
+- `<$AmazonElasticContainerRegistryImageMd>`
+- `<$AmazonElasticContainerRegistryImageLg>`
+
+
+
+
 
 ## AmazonElasticContainerRegistryImage
 

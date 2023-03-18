@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/QuantumTechnologies/AmazonBraketChandelier')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonBraketChandelierXs>`
+- `<$AmazonBraketChandelierSm>`
+- `<$AmazonBraketChandelierMd>`
+- `<$AmazonBraketChandelierLg>`
+
+
+
+
 
 ## AmazonBraketChandelier
 

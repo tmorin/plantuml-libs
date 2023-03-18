@@ -17,6 +17,17 @@ include('aws-q1-2023/Group/GroupAwsCloud')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GroupAwsCloudXs>`
+- `<$GroupAwsCloudSm>`
+- `<$GroupAwsCloudMd>`
+- `<$GroupAwsCloudLg>`
+
+
+
+
 
 ## GroupAwsCloud
 

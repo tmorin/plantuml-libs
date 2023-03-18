@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Compute/AmazonEc2HabanaGaudiInstance')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonEc2HabanaGaudiInstanceXs>`
+- `<$AmazonEc2HabanaGaudiInstanceSm>`
+- `<$AmazonEc2HabanaGaudiInstanceMd>`
+- `<$AmazonEc2HabanaGaudiInstanceLg>`
+
+
+
+
 
 ## AmazonEc2HabanaGaudiInstance
 

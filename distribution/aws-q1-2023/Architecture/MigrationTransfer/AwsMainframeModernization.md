@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MigrationTransfer/AwsMainframeModernization')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsMainframeModernizationXs>`
+- `<$AwsMainframeModernizationSm>`
+- `<$AwsMainframeModernizationMd>`
+- `<$AwsMainframeModernizationLg>`
+
+
+
+
 
 ## AwsMainframeModernization
 

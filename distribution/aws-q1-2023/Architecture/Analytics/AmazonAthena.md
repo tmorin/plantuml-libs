@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Analytics/AmazonAthena')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonAthenaXs>`
+- `<$AmazonAthenaSm>`
+- `<$AmazonAthenaMd>`
+- `<$AmazonAthenaLg>`
+
+
+
+
 
 ## AmazonAthena
 

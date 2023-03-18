@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/MachineLearning/AmazonSageMakerCanvas')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonSageMakerCanvasXs>`
+- `<$AmazonSageMakerCanvasSm>`
+- `<$AmazonSageMakerCanvasMd>`
+- `<$AmazonSageMakerCanvasLg>`
+
+
+
+
 
 ## AmazonSageMakerCanvas
 

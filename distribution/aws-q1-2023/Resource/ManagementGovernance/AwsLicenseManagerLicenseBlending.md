@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/ManagementGovernance/AwsLicenseManagerLicenseBlend
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsLicenseManagerLicenseBlendingXs>`
+- `<$AwsLicenseManagerLicenseBlendingSm>`
+- `<$AwsLicenseManagerLicenseBlendingMd>`
+- `<$AwsLicenseManagerLicenseBlendingLg>`
+
+
+
+
 
 ## AwsLicenseManagerLicenseBlending
 

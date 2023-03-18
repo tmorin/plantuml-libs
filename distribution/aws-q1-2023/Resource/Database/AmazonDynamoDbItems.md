@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Database/AmazonDynamoDbItems')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonDynamoDbItemsXs>`
+- `<$AmazonDynamoDbItemsSm>`
+- `<$AmazonDynamoDbItemsMd>`
+- `<$AmazonDynamoDbItemsLg>`
+
+
+
+
 
 ## AmazonDynamoDbItems
 

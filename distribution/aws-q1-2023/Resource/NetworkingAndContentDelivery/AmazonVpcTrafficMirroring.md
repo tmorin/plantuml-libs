@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/NetworkingAndContentDelivery/AmazonVpcTrafficMirro
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonVpcTrafficMirroringXs>`
+- `<$AmazonVpcTrafficMirroringSm>`
+- `<$AmazonVpcTrafficMirroringMd>`
+- `<$AmazonVpcTrafficMirroringLg>`
+
+
+
+
 
 ## AmazonVpcTrafficMirroring
 

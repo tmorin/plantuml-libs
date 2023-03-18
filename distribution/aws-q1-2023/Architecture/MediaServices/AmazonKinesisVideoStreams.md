@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MediaServices/AmazonKinesisVideoStreams')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonKinesisVideoStreamsXs>`
+- `<$AmazonKinesisVideoStreamsSm>`
+- `<$AmazonKinesisVideoStreamsMd>`
+- `<$AmazonKinesisVideoStreamsLg>`
+
+
+
+
 
 ## AmazonKinesisVideoStreams
 

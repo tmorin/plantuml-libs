@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Containers/AmazonElasticContainerServiceEcsAnywher
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonElasticContainerServiceEcsAnywhereXs>`
+- `<$AmazonElasticContainerServiceEcsAnywhereSm>`
+- `<$AmazonElasticContainerServiceEcsAnywhereMd>`
+- `<$AmazonElasticContainerServiceEcsAnywhereLg>`
+
+
+
+
 
 ## AmazonElasticContainerServiceEcsAnywhere
 

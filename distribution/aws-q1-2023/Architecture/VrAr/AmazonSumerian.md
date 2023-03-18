@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/VrAr/AmazonSumerian')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonSumerianXs>`
+- `<$AmazonSumerianSm>`
+- `<$AmazonSumerianMd>`
+- `<$AmazonSumerianLg>`
+
+
+
+
 
 ## AmazonSumerian
 

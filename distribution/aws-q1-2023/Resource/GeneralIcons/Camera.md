@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/GeneralIcons/Camera')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CameraXs>`
+- `<$CameraSm>`
+- `<$CameraMd>`
+- `<$CameraLg>`
+
+
+
+
 
 ## Camera
 

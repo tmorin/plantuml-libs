@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Database/AmazonRdsTrustedLanguageExtensionsForPost
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonRdsTrustedLanguageExtensionsForPostgreSqlXs>`
+- `<$AmazonRdsTrustedLanguageExtensionsForPostgreSqlSm>`
+- `<$AmazonRdsTrustedLanguageExtensionsForPostgreSqlMd>`
+- `<$AmazonRdsTrustedLanguageExtensionsForPostgreSqlLg>`
+
+
+
+
 
 ## AmazonRdsTrustedLanguageExtensionsForPostgreSql
 

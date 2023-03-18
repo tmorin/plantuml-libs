@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/SecurityIdentityAndCompliance/AwsWafRule')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsWafRuleXs>`
+- `<$AwsWafRuleSm>`
+- `<$AwsWafRuleMd>`
+- `<$AwsWafRuleLg>`
+
+
+
+
 
 ## AwsWafRule
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTDeviceManagementFleetHub')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTDeviceManagementFleetHubXs>`
+- `<$AwsIoTDeviceManagementFleetHubSm>`
+- `<$AwsIoTDeviceManagementFleetHubMd>`
+- `<$AwsIoTDeviceManagementFleetHubLg>`
+
+
+
+
 
 ## AwsIoTDeviceManagementFleetHub
 

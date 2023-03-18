@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Compute/AwsWavelength')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsWavelengthXs>`
+- `<$AwsWavelengthSm>`
+- `<$AwsWavelengthMd>`
+- `<$AwsWavelengthLg>`
+
+
+
+
 
 ## AwsWavelength
 

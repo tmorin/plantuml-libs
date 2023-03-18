@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/CloudFinancialManagement/AwsApplicationCostPro
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsApplicationCostProfilerXs>`
+- `<$AwsApplicationCostProfilerSm>`
+- `<$AwsApplicationCostProfilerMd>`
+- `<$AwsApplicationCostProfilerLg>`
+
+
+
+
 
 ## AwsApplicationCostProfiler
 

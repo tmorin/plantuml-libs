@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Analytics/AmazonOpenSearchServiceIndex')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonOpenSearchServiceIndexXs>`
+- `<$AmazonOpenSearchServiceIndexSm>`
+- `<$AmazonOpenSearchServiceIndexMd>`
+- `<$AmazonOpenSearchServiceIndexLg>`
+
+
+
+
 
 ## AmazonOpenSearchServiceIndex
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTDeviceGateway')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTDeviceGatewayXs>`
+- `<$AwsIoTDeviceGatewaySm>`
+- `<$AwsIoTDeviceGatewayMd>`
+- `<$AwsIoTDeviceGatewayLg>`
+
+
+
+
 
 ## AwsIoTDeviceGateway
 

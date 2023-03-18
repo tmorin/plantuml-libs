@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTGreengrassRecipe')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTGreengrassRecipeXs>`
+- `<$AwsIoTGreengrassRecipeSm>`
+- `<$AwsIoTGreengrassRecipeMd>`
+- `<$AwsIoTGreengrassRecipeLg>`
+
+
+
+
 
 ## AwsIoTGreengrassRecipe
 

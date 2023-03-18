@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/SecurityIdentityCompliance/AwsCertificateManag
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsCertificateManagerXs>`
+- `<$AwsCertificateManagerSm>`
+- `<$AwsCertificateManagerMd>`
+- `<$AwsCertificateManagerLg>`
+
+
+
+
 
 ## AwsCertificateManager
 

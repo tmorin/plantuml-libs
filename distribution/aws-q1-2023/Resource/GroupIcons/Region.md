@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/GroupIcons/Region')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RegionXs>`
+- `<$RegionSm>`
+- `<$RegionMd>`
+- `<$RegionLg>`
+
+
+
+
 
 ## Region
 

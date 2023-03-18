@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/NetworkingContentDelivery/AwsCloudMap')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsCloudMapXs>`
+- `<$AwsCloudMapSm>`
+- `<$AwsCloudMapMd>`
+- `<$AwsCloudMapLg>`
+
+
+
+
 
 ## AwsCloudMap
 

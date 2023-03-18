@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/GeneralIcons/Question')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$QuestionXs>`
+- `<$QuestionSm>`
+- `<$QuestionMd>`
+- `<$QuestionLg>`
+
+
+
+
 
 ## Question
 

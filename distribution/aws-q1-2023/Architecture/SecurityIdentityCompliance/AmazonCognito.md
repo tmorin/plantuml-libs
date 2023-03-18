@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/SecurityIdentityCompliance/AmazonCognito')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonCognitoXs>`
+- `<$AmazonCognitoSm>`
+- `<$AmazonCognitoMd>`
+- `<$AmazonCognitoLg>`
+
+
+
+
 
 ## AmazonCognito
 

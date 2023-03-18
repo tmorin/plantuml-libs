@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTThingCar')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTThingCarXs>`
+- `<$AwsIoTThingCarSm>`
+- `<$AwsIoTThingCarMd>`
+- `<$AwsIoTThingCarLg>`
+
+
+
+
 
 ## AwsIoTThingCar
 

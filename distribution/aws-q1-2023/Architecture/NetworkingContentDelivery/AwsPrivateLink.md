@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/NetworkingContentDelivery/AwsPrivateLink')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsPrivateLinkXs>`
+- `<$AwsPrivateLinkSm>`
+- `<$AwsPrivateLinkMd>`
+- `<$AwsPrivateLinkLg>`
+
+
+
+
 
 ## AwsPrivateLink
 

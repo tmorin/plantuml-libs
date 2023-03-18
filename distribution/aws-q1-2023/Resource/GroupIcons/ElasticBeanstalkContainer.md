@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/GroupIcons/ElasticBeanstalkContainer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ElasticBeanstalkContainerXs>`
+- `<$ElasticBeanstalkContainerSm>`
+- `<$ElasticBeanstalkContainerMd>`
+- `<$ElasticBeanstalkContainerLg>`
+
+
+
+
 
 ## ElasticBeanstalkContainer
 

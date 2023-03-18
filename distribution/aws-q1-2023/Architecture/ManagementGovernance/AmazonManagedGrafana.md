@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/ManagementGovernance/AmazonManagedGrafana')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonManagedGrafanaXs>`
+- `<$AmazonManagedGrafanaSm>`
+- `<$AmazonManagedGrafanaMd>`
+- `<$AmazonManagedGrafanaLg>`
+
+
+
+
 
 ## AmazonManagedGrafana
 

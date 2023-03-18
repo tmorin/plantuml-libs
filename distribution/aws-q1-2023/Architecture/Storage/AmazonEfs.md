@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Storage/AmazonEfs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonEfsXs>`
+- `<$AmazonEfsSm>`
+- `<$AmazonEfsMd>`
+- `<$AmazonEfsLg>`
+
+
+
+
 
 ## AmazonEfs
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/NetworkingContentDelivery/AwsVerifiedAccess')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsVerifiedAccessXs>`
+- `<$AwsVerifiedAccessSm>`
+- `<$AwsVerifiedAccessMd>`
+- `<$AwsVerifiedAccessLg>`
+
+
+
+
 
 ## AwsVerifiedAccess
 

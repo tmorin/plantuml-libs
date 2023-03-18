@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTThingCart')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTThingCartXs>`
+- `<$AwsIoTThingCartSm>`
+- `<$AwsIoTThingCartMd>`
+- `<$AwsIoTThingCartLg>`
+
+
+
+
 
 ## AwsIoTThingCart
 

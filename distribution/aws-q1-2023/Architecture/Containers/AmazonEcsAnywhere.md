@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Containers/AmazonEcsAnywhere')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonEcsAnywhereXs>`
+- `<$AmazonEcsAnywhereSm>`
+- `<$AmazonEcsAnywhereMd>`
+- `<$AmazonEcsAnywhereLg>`
+
+
+
+
 
 ## AmazonEcsAnywhere
 

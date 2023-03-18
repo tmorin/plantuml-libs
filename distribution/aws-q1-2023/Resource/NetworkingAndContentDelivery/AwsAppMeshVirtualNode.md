@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/NetworkingAndContentDelivery/AwsAppMeshVirtualNode
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsAppMeshVirtualNodeXs>`
+- `<$AwsAppMeshVirtualNodeSm>`
+- `<$AwsAppMeshVirtualNodeMd>`
+- `<$AwsAppMeshVirtualNodeLg>`
+
+
+
+
 
 ## AwsAppMeshVirtualNode
 

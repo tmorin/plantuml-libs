@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/NetworkingAndContentDelivery/AmazonVpcVirtualPriva
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonVpcVirtualPrivateCloudVpcXs>`
+- `<$AmazonVpcVirtualPrivateCloudVpcSm>`
+- `<$AmazonVpcVirtualPrivateCloudVpcMd>`
+- `<$AmazonVpcVirtualPrivateCloudVpcLg>`
+
+
+
+
 
 ## AmazonVpcVirtualPrivateCloudVpc
 

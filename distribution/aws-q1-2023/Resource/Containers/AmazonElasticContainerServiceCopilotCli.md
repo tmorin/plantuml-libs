@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Containers/AmazonElasticContainerServiceCopilotCli
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonElasticContainerServiceCopilotCliXs>`
+- `<$AmazonElasticContainerServiceCopilotCliSm>`
+- `<$AmazonElasticContainerServiceCopilotCliMd>`
+- `<$AmazonElasticContainerServiceCopilotCliLg>`
+
+
+
+
 
 ## AmazonElasticContainerServiceCopilotCli
 

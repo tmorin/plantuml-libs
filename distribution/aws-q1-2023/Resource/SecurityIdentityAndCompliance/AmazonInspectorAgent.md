@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/SecurityIdentityAndCompliance/AmazonInspectorAgent
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonInspectorAgentXs>`
+- `<$AmazonInspectorAgentSm>`
+- `<$AmazonInspectorAgentMd>`
+- `<$AmazonInspectorAgentLg>`
+
+
+
+
 
 ## AmazonInspectorAgent
 

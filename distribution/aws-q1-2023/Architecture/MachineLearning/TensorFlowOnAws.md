@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MachineLearning/TensorFlowOnAws')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TensorFlowOnAwsXs>`
+- `<$TensorFlowOnAwsSm>`
+- `<$TensorFlowOnAwsMd>`
+- `<$TensorFlowOnAwsLg>`
+
+
+
+
 
 ## TensorFlowOnAws
 

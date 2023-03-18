@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Storage/AwsBackupBackupPlan')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsBackupBackupPlanXs>`
+- `<$AwsBackupBackupPlanSm>`
+- `<$AwsBackupBackupPlanMd>`
+- `<$AwsBackupBackupPlanLg>`
+
+
+
+
 
 ## AwsBackupBackupPlan
 

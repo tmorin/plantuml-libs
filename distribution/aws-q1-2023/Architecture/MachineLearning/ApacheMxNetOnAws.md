@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MachineLearning/ApacheMxNetOnAws')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ApacheMxNetOnAwsXs>`
+- `<$ApacheMxNetOnAwsSm>`
+- `<$ApacheMxNetOnAwsMd>`
+- `<$ApacheMxNetOnAwsLg>`
+
+
+
+
 
 ## ApacheMxNetOnAws
 

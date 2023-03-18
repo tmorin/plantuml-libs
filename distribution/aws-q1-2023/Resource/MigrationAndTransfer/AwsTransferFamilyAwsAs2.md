@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/MigrationAndTransfer/AwsTransferFamilyAwsAs2')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsTransferFamilyAwsAs2Xs>`
+- `<$AwsTransferFamilyAwsAs2Sm>`
+- `<$AwsTransferFamilyAwsAs2Md>`
+- `<$AwsTransferFamilyAwsAs2Lg>`
+
+
+
+
 
 ## AwsTransferFamilyAwsAs2
 

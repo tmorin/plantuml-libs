@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Analytics/AwsLakeFormationDataLake')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsLakeFormationDataLakeXs>`
+- `<$AwsLakeFormationDataLakeSm>`
+- `<$AwsLakeFormationDataLakeMd>`
+- `<$AwsLakeFormationDataLakeLg>`
+
+
+
+
 
 ## AwsLakeFormationDataLake
 

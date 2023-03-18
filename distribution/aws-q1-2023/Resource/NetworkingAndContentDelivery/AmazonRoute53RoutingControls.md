@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/NetworkingAndContentDelivery/AmazonRoute53RoutingC
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonRoute53RoutingControlsXs>`
+- `<$AmazonRoute53RoutingControlsSm>`
+- `<$AmazonRoute53RoutingControlsMd>`
+- `<$AmazonRoute53RoutingControlsLg>`
+
+
+
+
 
 ## AmazonRoute53RoutingControls
 

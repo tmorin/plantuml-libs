@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Analytics/AmazonQuickSight')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonQuickSightXs>`
+- `<$AmazonQuickSightSm>`
+- `<$AmazonQuickSightMd>`
+- `<$AmazonQuickSightLg>`
+
+
+
+
 
 ## AmazonQuickSight
 

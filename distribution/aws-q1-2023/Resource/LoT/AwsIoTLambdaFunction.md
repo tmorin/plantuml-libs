@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTLambdaFunction')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTLambdaFunctionXs>`
+- `<$AwsIoTLambdaFunctionSm>`
+- `<$AwsIoTLambdaFunctionMd>`
+- `<$AwsIoTLambdaFunctionLg>`
+
+
+
+
 
 ## AwsIoTLambdaFunction
 

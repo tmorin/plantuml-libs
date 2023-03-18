@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTThingVibrationSensor')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTThingVibrationSensorXs>`
+- `<$AwsIoTThingVibrationSensorSm>`
+- `<$AwsIoTThingVibrationSensorMd>`
+- `<$AwsIoTThingVibrationSensorLg>`
+
+
+
+
 
 ## AwsIoTThingVibrationSensor
 

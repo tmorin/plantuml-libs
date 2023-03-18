@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Database/AmazonAuroraMySqlInstanceAlternate')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonAuroraMySqlInstanceAlternateXs>`
+- `<$AmazonAuroraMySqlInstanceAlternateSm>`
+- `<$AmazonAuroraMySqlInstanceAlternateMd>`
+- `<$AmazonAuroraMySqlInstanceAlternateLg>`
+
+
+
+
 
 ## AmazonAuroraMySqlInstanceAlternate
 

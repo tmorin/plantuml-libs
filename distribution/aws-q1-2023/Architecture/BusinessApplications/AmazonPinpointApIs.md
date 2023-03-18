@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/BusinessApplications/AmazonPinpointApIs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonPinpointApIsXs>`
+- `<$AmazonPinpointApIsSm>`
+- `<$AmazonPinpointApIsMd>`
+- `<$AmazonPinpointApIsLg>`
+
+
+
+
 
 ## AmazonPinpointApIs
 

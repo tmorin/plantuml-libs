@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/CustomerEnablement/AwsIq')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIqXs>`
+- `<$AwsIqSm>`
+- `<$AwsIqMd>`
+- `<$AwsIqLg>`
+
+
+
+
 
 ## AwsIq
 

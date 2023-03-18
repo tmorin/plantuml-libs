@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Analytics/AmazonOpenSearchService')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonOpenSearchServiceXs>`
+- `<$AmazonOpenSearchServiceSm>`
+- `<$AmazonOpenSearchServiceMd>`
+- `<$AmazonOpenSearchServiceLg>`
+
+
+
+
 
 ## AmazonOpenSearchService
 

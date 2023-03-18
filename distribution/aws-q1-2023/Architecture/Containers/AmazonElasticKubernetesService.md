@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Containers/AmazonElasticKubernetesService')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonElasticKubernetesServiceXs>`
+- `<$AmazonElasticKubernetesServiceSm>`
+- `<$AmazonElasticKubernetesServiceMd>`
+- `<$AmazonElasticKubernetesServiceLg>`
+
+
+
+
 
 ## AmazonElasticKubernetesService
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Database/AmazonAuroraAmazonRdsInstance')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonAuroraAmazonRdsInstanceXs>`
+- `<$AmazonAuroraAmazonRdsInstanceSm>`
+- `<$AmazonAuroraAmazonRdsInstanceMd>`
+- `<$AmazonAuroraAmazonRdsInstanceLg>`
+
+
+
+
 
 ## AmazonAuroraAmazonRdsInstance
 

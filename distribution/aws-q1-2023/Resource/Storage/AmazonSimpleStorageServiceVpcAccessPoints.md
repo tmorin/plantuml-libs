@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Storage/AmazonSimpleStorageServiceVpcAccessPoints'
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonSimpleStorageServiceVpcAccessPointsXs>`
+- `<$AmazonSimpleStorageServiceVpcAccessPointsSm>`
+- `<$AmazonSimpleStorageServiceVpcAccessPointsMd>`
+- `<$AmazonSimpleStorageServiceVpcAccessPointsLg>`
+
+
+
+
 
 ## AmazonSimpleStorageServiceVpcAccessPoints
 

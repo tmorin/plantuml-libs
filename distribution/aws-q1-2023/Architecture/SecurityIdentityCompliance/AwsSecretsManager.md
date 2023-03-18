@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/SecurityIdentityCompliance/AwsSecretsManager')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsSecretsManagerXs>`
+- `<$AwsSecretsManagerSm>`
+- `<$AwsSecretsManagerMd>`
+- `<$AwsSecretsManagerLg>`
+
+
+
+
 
 ## AwsSecretsManager
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/GeneralIcons/Email')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EmailXs>`
+- `<$EmailSm>`
+- `<$EmailMd>`
+- `<$EmailLg>`
+
+
+
+
 
 ## Email
 

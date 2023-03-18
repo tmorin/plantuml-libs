@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/DeveloperTools/AwsCloudDevelopmentKit')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsCloudDevelopmentKitXs>`
+- `<$AwsCloudDevelopmentKitSm>`
+- `<$AwsCloudDevelopmentKitMd>`
+- `<$AwsCloudDevelopmentKitLg>`
+
+
+
+
 
 ## AwsCloudDevelopmentKit
 

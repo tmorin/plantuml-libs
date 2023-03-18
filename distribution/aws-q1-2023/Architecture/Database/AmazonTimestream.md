@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Database/AmazonTimestream')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonTimestreamXs>`
+- `<$AmazonTimestreamSm>`
+- `<$AmazonTimestreamMd>`
+- `<$AmazonTimestreamLg>`
+
+
+
+
 
 ## AmazonTimestream
 

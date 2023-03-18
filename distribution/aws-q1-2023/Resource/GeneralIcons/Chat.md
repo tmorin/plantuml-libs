@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/GeneralIcons/Chat')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChatXs>`
+- `<$ChatSm>`
+- `<$ChatMd>`
+- `<$ChatLg>`
+
+
+
+
 
 ## Chat
 

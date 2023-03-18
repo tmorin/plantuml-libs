@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/SecurityIdentityCompliance/AwsSigner')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsSignerXs>`
+- `<$AwsSignerSm>`
+- `<$AwsSignerMd>`
+- `<$AwsSignerLg>`
+
+
+
+
 
 ## AwsSigner
 

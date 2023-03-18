@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Storage/AwsBackupRecoveryPointObjective')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsBackupRecoveryPointObjectiveXs>`
+- `<$AwsBackupRecoveryPointObjectiveSm>`
+- `<$AwsBackupRecoveryPointObjectiveMd>`
+- `<$AwsBackupRecoveryPointObjectiveLg>`
+
+
+
+
 
 ## AwsBackupRecoveryPointObjective
 

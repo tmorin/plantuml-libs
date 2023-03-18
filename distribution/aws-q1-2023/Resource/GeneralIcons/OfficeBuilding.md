@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/GeneralIcons/OfficeBuilding')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OfficeBuildingXs>`
+- `<$OfficeBuildingSm>`
+- `<$OfficeBuildingMd>`
+- `<$OfficeBuildingLg>`
+
+
+
+
 
 ## OfficeBuilding
 

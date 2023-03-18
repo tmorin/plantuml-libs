@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/ManagementGovernance/AwsTrustedAdvisorChecklistFau
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsTrustedAdvisorChecklistFaultTolerantXs>`
+- `<$AwsTrustedAdvisorChecklistFaultTolerantSm>`
+- `<$AwsTrustedAdvisorChecklistFaultTolerantMd>`
+- `<$AwsTrustedAdvisorChecklistFaultTolerantLg>`
+
+
+
+
 
 ## AwsTrustedAdvisorChecklistFaultTolerant
 

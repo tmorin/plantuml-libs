@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/BusinessApplications/AmazonSimpleEmailServiceEmail
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonSimpleEmailServiceEmailXs>`
+- `<$AmazonSimpleEmailServiceEmailSm>`
+- `<$AmazonSimpleEmailServiceEmailMd>`
+- `<$AmazonSimpleEmailServiceEmailLg>`
+
+
+
+
 
 ## AmazonSimpleEmailServiceEmail
 

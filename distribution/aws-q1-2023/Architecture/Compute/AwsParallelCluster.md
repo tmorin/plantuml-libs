@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Compute/AwsParallelCluster')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsParallelClusterXs>`
+- `<$AwsParallelClusterSm>`
+- `<$AwsParallelClusterMd>`
+- `<$AwsParallelClusterLg>`
+
+
+
+
 
 ## AwsParallelCluster
 

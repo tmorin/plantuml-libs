@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Analytics/AmazonOpenSearchServiceUltraWarmNode')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonOpenSearchServiceUltraWarmNodeXs>`
+- `<$AmazonOpenSearchServiceUltraWarmNodeSm>`
+- `<$AmazonOpenSearchServiceUltraWarmNodeMd>`
+- `<$AmazonOpenSearchServiceUltraWarmNodeLg>`
+
+
+
+
 
 ## AmazonOpenSearchServiceUltraWarmNode
 

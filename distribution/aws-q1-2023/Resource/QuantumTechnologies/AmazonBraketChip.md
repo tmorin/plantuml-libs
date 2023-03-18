@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/QuantumTechnologies/AmazonBraketChip')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonBraketChipXs>`
+- `<$AmazonBraketChipSm>`
+- `<$AmazonBraketChipMd>`
+- `<$AmazonBraketChipLg>`
+
+
+
+
 
 ## AmazonBraketChip
 

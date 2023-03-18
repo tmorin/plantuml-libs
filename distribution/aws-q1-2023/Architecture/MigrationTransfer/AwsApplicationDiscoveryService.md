@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MigrationTransfer/AwsApplicationDiscoveryServi
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsApplicationDiscoveryServiceXs>`
+- `<$AwsApplicationDiscoveryServiceSm>`
+- `<$AwsApplicationDiscoveryServiceMd>`
+- `<$AwsApplicationDiscoveryServiceLg>`
+
+
+
+
 
 ## AwsApplicationDiscoveryService
 

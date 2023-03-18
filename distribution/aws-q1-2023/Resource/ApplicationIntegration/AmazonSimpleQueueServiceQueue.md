@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/ApplicationIntegration/AmazonSimpleQueueServiceQue
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonSimpleQueueServiceQueueXs>`
+- `<$AmazonSimpleQueueServiceQueueSm>`
+- `<$AmazonSimpleQueueServiceQueueMd>`
+- `<$AmazonSimpleQueueServiceQueueLg>`
+
+
+
+
 
 ## AmazonSimpleQueueServiceQueue
 

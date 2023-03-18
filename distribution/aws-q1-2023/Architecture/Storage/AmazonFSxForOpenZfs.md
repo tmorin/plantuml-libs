@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Storage/AmazonFSxForOpenZfs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonFSxForOpenZfsXs>`
+- `<$AmazonFSxForOpenZfsSm>`
+- `<$AmazonFSxForOpenZfsMd>`
+- `<$AmazonFSxForOpenZfsLg>`
+
+
+
+
 
 ## AmazonFSxForOpenZfs
 

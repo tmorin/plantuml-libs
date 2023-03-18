@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/CloudFinancialManagement/AwsBillingConductor')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsBillingConductorXs>`
+- `<$AwsBillingConductorSm>`
+- `<$AwsBillingConductorMd>`
+- `<$AwsBillingConductorLg>`
+
+
+
+
 
 ## AwsBillingConductor
 

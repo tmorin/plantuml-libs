@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MachineLearning/AmazonLookoutForMetrics')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonLookoutForMetricsXs>`
+- `<$AmazonLookoutForMetricsSm>`
+- `<$AmazonLookoutForMetricsMd>`
+- `<$AmazonLookoutForMetricsLg>`
+
+
+
+
 
 ## AmazonLookoutForMetrics
 

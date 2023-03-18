@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/DeveloperTools/AwsCodePipeline')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsCodePipelineXs>`
+- `<$AwsCodePipelineSm>`
+- `<$AwsCodePipelineMd>`
+- `<$AwsCodePipelineLg>`
+
+
+
+
 
 ## AwsCodePipeline
 

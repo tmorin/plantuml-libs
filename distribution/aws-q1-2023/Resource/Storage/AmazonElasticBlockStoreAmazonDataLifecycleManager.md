@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Storage/AmazonElasticBlockStoreAmazonDataLifecycle
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonElasticBlockStoreAmazonDataLifecycleManagerXs>`
+- `<$AmazonElasticBlockStoreAmazonDataLifecycleManagerSm>`
+- `<$AmazonElasticBlockStoreAmazonDataLifecycleManagerMd>`
+- `<$AmazonElasticBlockStoreAmazonDataLifecycleManagerLg>`
+
+
+
+
 
 ## AmazonElasticBlockStoreAmazonDataLifecycleManager
 

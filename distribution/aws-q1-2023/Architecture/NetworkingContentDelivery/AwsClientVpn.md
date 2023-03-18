@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/NetworkingContentDelivery/AwsClientVpn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsClientVpnXs>`
+- `<$AwsClientVpnSm>`
+- `<$AwsClientVpnMd>`
+- `<$AwsClientVpnLg>`
+
+
+
+
 
 ## AwsClientVpn
 

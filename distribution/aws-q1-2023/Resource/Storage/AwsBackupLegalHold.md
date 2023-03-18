@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Storage/AwsBackupLegalHold')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsBackupLegalHoldXs>`
+- `<$AwsBackupLegalHoldSm>`
+- `<$AwsBackupLegalHoldMd>`
+- `<$AwsBackupLegalHoldLg>`
+
+
+
+
 
 ## AwsBackupLegalHold
 

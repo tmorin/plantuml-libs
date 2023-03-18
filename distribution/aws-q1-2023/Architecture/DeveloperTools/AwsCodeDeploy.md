@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/DeveloperTools/AwsCodeDeploy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsCodeDeployXs>`
+- `<$AwsCodeDeploySm>`
+- `<$AwsCodeDeployMd>`
+- `<$AwsCodeDeployLg>`
+
+
+
+
 
 ## AwsCodeDeploy
 

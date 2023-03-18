@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Storage/AwsBackupAwsBackupForAwsCloudFormation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsBackupAwsBackupForAwsCloudFormationXs>`
+- `<$AwsBackupAwsBackupForAwsCloudFormationSm>`
+- `<$AwsBackupAwsBackupForAwsCloudFormationMd>`
+- `<$AwsBackupAwsBackupForAwsCloudFormationLg>`
+
+
+
+
 
 ## AwsBackupAwsBackupForAwsCloudFormation
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/ManagementGovernance/AwsSystemsManagerDistributor'
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsSystemsManagerDistributorXs>`
+- `<$AwsSystemsManagerDistributorSm>`
+- `<$AwsSystemsManagerDistributorMd>`
+- `<$AwsSystemsManagerDistributorLg>`
+
+
+
+
 
 ## AwsSystemsManagerDistributor
 

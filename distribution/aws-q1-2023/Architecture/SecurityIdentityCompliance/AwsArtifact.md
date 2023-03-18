@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/SecurityIdentityCompliance/AwsArtifact')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsArtifactXs>`
+- `<$AwsArtifactSm>`
+- `<$AwsArtifactMd>`
+- `<$AwsArtifactLg>`
+
+
+
+
 
 ## AwsArtifact
 

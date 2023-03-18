@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Compute/AwsLambdaLambdaFunction')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsLambdaLambdaFunctionXs>`
+- `<$AwsLambdaLambdaFunctionSm>`
+- `<$AwsLambdaLambdaFunctionMd>`
+- `<$AwsLambdaLambdaFunctionLg>`
+
+
+
+
 
 ## AwsLambdaLambdaFunction
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Analytics/AmazonRedshift')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonRedshiftXs>`
+- `<$AmazonRedshiftSm>`
+- `<$AmazonRedshiftMd>`
+- `<$AmazonRedshiftLg>`
+
+
+
+
 
 ## AmazonRedshift
 

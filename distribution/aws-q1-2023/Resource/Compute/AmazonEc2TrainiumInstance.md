@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Compute/AmazonEc2TrainiumInstance')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonEc2TrainiumInstanceXs>`
+- `<$AmazonEc2TrainiumInstanceSm>`
+- `<$AmazonEc2TrainiumInstanceMd>`
+- `<$AmazonEc2TrainiumInstanceLg>`
+
+
+
+
 
 ## AmazonEc2TrainiumInstance
 

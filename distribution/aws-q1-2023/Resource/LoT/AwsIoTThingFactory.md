@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTThingFactory')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTThingFactoryXs>`
+- `<$AwsIoTThingFactorySm>`
+- `<$AwsIoTThingFactoryMd>`
+- `<$AwsIoTThingFactoryLg>`
+
+
+
+
 
 ## AwsIoTThingFactory
 

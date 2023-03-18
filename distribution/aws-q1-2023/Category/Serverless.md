@@ -17,6 +17,17 @@ include('aws-q1-2023/Category/Serverless')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServerlessXs>`
+- `<$ServerlessSm>`
+- `<$ServerlessMd>`
+- `<$ServerlessLg>`
+
+
+
+
 
 ## Serverless
 

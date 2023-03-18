@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Compute/AmazonEc2ImageBuilder')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonEc2ImageBuilderXs>`
+- `<$AmazonEc2ImageBuilderSm>`
+- `<$AmazonEc2ImageBuilderMd>`
+- `<$AmazonEc2ImageBuilderLg>`
+
+
+
+
 
 ## AmazonEc2ImageBuilder
 

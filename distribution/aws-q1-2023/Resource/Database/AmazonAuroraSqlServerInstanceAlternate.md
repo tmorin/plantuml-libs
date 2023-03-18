@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Database/AmazonAuroraSqlServerInstanceAlternate')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonAuroraSqlServerInstanceAlternateXs>`
+- `<$AmazonAuroraSqlServerInstanceAlternateSm>`
+- `<$AmazonAuroraSqlServerInstanceAlternateMd>`
+- `<$AmazonAuroraSqlServerInstanceAlternateLg>`
+
+
+
+
 
 ## AmazonAuroraSqlServerInstanceAlternate
 

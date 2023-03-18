@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MachineLearning/AwsDeepComposer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsDeepComposerXs>`
+- `<$AwsDeepComposerSm>`
+- `<$AwsDeepComposerMd>`
+- `<$AwsDeepComposerLg>`
+
+
+
+
 
 ## AwsDeepComposer
 

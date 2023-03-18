@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/InternetOfThings/AwsIoTExpressLink')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTExpressLinkXs>`
+- `<$AwsIoTExpressLinkSm>`
+- `<$AwsIoTExpressLinkMd>`
+- `<$AwsIoTExpressLinkLg>`
+
+
+
+
 
 ## AwsIoTExpressLink
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Storage/AmazonSimpleStorageServiceS3IntelligentTie
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonSimpleStorageServiceS3IntelligentTieringXs>`
+- `<$AmazonSimpleStorageServiceS3IntelligentTieringSm>`
+- `<$AmazonSimpleStorageServiceS3IntelligentTieringMd>`
+- `<$AmazonSimpleStorageServiceS3IntelligentTieringLg>`
+
+
+
+
 
 ## AmazonSimpleStorageServiceS3IntelligentTiering
 

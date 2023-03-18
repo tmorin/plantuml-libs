@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/NetworkingAndContentDelivery/AmazonRoute53HostedZo
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonRoute53HostedZoneXs>`
+- `<$AmazonRoute53HostedZoneSm>`
+- `<$AmazonRoute53HostedZoneMd>`
+- `<$AmazonRoute53HostedZoneLg>`
+
+
+
+
 
 ## AmazonRoute53HostedZone
 

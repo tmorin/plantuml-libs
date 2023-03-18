@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Storage/AmazonElasticFileSystemOneZoneInfrequentAc
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonElasticFileSystemOneZoneInfrequentAccessXs>`
+- `<$AmazonElasticFileSystemOneZoneInfrequentAccessSm>`
+- `<$AmazonElasticFileSystemOneZoneInfrequentAccessMd>`
+- `<$AmazonElasticFileSystemOneZoneInfrequentAccessLg>`
+
+
+
+
 
 ## AmazonElasticFileSystemOneZoneInfrequentAccess
 

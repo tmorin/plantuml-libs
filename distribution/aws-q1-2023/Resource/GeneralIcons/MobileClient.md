@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/GeneralIcons/MobileClient')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MobileClientXs>`
+- `<$MobileClientSm>`
+- `<$MobileClientMd>`
+- `<$MobileClientLg>`
+
+
+
+
 
 ## MobileClient
 

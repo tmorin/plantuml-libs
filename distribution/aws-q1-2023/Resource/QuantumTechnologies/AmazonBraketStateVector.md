@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/QuantumTechnologies/AmazonBraketStateVector')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonBraketStateVectorXs>`
+- `<$AmazonBraketStateVectorSm>`
+- `<$AmazonBraketStateVectorMd>`
+- `<$AmazonBraketStateVectorLg>`
+
+
+
+
 
 ## AmazonBraketStateVector
 

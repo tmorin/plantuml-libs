@@ -17,6 +17,17 @@ include('aws-q1-2023/Category/CustomerEnablement')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CustomerEnablementXs>`
+- `<$CustomerEnablementSm>`
+- `<$CustomerEnablementMd>`
+- `<$CustomerEnablementLg>`
+
+
+
+
 
 ## CustomerEnablement
 

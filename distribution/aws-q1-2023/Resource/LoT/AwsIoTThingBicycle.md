@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTThingBicycle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTThingBicycleXs>`
+- `<$AwsIoTThingBicycleSm>`
+- `<$AwsIoTThingBicycleMd>`
+- `<$AwsIoTThingBicycleLg>`
+
+
+
+
 
 ## AwsIoTThingBicycle
 

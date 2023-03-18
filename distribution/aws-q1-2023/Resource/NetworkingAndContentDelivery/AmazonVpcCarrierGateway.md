@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/NetworkingAndContentDelivery/AmazonVpcCarrierGatew
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonVpcCarrierGatewayXs>`
+- `<$AmazonVpcCarrierGatewaySm>`
+- `<$AmazonVpcCarrierGatewayMd>`
+- `<$AmazonVpcCarrierGatewayLg>`
+
+
+
+
 
 ## AmazonVpcCarrierGateway
 

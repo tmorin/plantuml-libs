@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Compute/AmazonEc2HmiInstance')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonEc2HmiInstanceXs>`
+- `<$AmazonEc2HmiInstanceSm>`
+- `<$AmazonEc2HmiInstanceMd>`
+- `<$AmazonEc2HmiInstanceLg>`
+
+
+
+
 
 ## AmazonEc2HmiInstance
 

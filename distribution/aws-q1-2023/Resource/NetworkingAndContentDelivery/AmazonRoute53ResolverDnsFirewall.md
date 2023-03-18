@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/NetworkingAndContentDelivery/AmazonRoute53Resolver
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonRoute53ResolverDnsFirewallXs>`
+- `<$AmazonRoute53ResolverDnsFirewallSm>`
+- `<$AmazonRoute53ResolverDnsFirewallMd>`
+- `<$AmazonRoute53ResolverDnsFirewallLg>`
+
+
+
+
 
 ## AmazonRoute53ResolverDnsFirewall
 

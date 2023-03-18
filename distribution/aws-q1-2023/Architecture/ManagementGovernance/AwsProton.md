@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/ManagementGovernance/AwsProton')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsProtonXs>`
+- `<$AwsProtonSm>`
+- `<$AwsProtonMd>`
+- `<$AwsProtonLg>`
+
+
+
+
 
 ## AwsProton
 

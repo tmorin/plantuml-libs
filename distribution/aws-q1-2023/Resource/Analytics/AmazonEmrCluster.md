@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Analytics/AmazonEmrCluster')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonEmrClusterXs>`
+- `<$AmazonEmrClusterSm>`
+- `<$AmazonEmrClusterMd>`
+- `<$AmazonEmrClusterLg>`
+
+
+
+
 
 ## AmazonEmrCluster
 

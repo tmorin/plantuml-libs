@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/ManagementGovernance/AwsSystemsManagerApplicationM
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsSystemsManagerApplicationManagerXs>`
+- `<$AwsSystemsManagerApplicationManagerSm>`
+- `<$AwsSystemsManagerApplicationManagerMd>`
+- `<$AwsSystemsManagerApplicationManagerLg>`
+
+
+
+
 
 ## AwsSystemsManagerApplicationManager
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Database/AmazonDynamoDbStream')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonDynamoDbStreamXs>`
+- `<$AmazonDynamoDbStreamSm>`
+- `<$AmazonDynamoDbStreamMd>`
+- `<$AmazonDynamoDbStreamLg>`
+
+
+
+
 
 ## AmazonDynamoDbStream
 

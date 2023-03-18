@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MachineLearning/AmazonKendra')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonKendraXs>`
+- `<$AmazonKendraSm>`
+- `<$AmazonKendraMd>`
+- `<$AmazonKendraLg>`
+
+
+
+
 
 ## AmazonKendra
 

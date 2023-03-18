@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTGreengrassComponentPublic')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTGreengrassComponentPublicXs>`
+- `<$AwsIoTGreengrassComponentPublicSm>`
+- `<$AwsIoTGreengrassComponentPublicMd>`
+- `<$AwsIoTGreengrassComponentPublicLg>`
+
+
+
+
 
 ## AwsIoTGreengrassComponentPublic
 

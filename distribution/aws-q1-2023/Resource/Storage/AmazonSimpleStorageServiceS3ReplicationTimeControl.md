@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Storage/AmazonSimpleStorageServiceS3ReplicationTim
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonSimpleStorageServiceS3ReplicationTimeControlXs>`
+- `<$AmazonSimpleStorageServiceS3ReplicationTimeControlSm>`
+- `<$AmazonSimpleStorageServiceS3ReplicationTimeControlMd>`
+- `<$AmazonSimpleStorageServiceS3ReplicationTimeControlLg>`
+
+
+
+
 
 ## AmazonSimpleStorageServiceS3ReplicationTimeControl
 

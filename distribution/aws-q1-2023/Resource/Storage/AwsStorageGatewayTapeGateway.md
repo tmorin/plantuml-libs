@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Storage/AwsStorageGatewayTapeGateway')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsStorageGatewayTapeGatewayXs>`
+- `<$AwsStorageGatewayTapeGatewaySm>`
+- `<$AwsStorageGatewayTapeGatewayMd>`
+- `<$AwsStorageGatewayTapeGatewayLg>`
+
+
+
+
 
 ## AwsStorageGatewayTapeGateway
 

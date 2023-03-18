@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTSiteWiseAssetModel')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTSiteWiseAssetModelXs>`
+- `<$AwsIoTSiteWiseAssetModelSm>`
+- `<$AwsIoTSiteWiseAssetModelMd>`
+- `<$AwsIoTSiteWiseAssetModelLg>`
+
+
+
+
 
 ## AwsIoTSiteWiseAssetModel
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Category/Database')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DatabaseXs>`
+- `<$DatabaseSm>`
+- `<$DatabaseMd>`
+- `<$DatabaseLg>`
+
+
+
+
 
 ## Database
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/GeneralIcons/Recover')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RecoverXs>`
+- `<$RecoverSm>`
+- `<$RecoverMd>`
+- `<$RecoverLg>`
+
+
+
+
 
 ## Recover
 

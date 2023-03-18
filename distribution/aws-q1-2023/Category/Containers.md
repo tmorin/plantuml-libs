@@ -17,6 +17,17 @@ include('aws-q1-2023/Category/Containers')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ContainersXs>`
+- `<$ContainersSm>`
+- `<$ContainersMd>`
+- `<$ContainersLg>`
+
+
+
+
 
 ## Containers
 

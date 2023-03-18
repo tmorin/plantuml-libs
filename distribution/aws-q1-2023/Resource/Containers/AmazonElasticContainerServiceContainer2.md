@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Containers/AmazonElasticContainerServiceContainer2
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonElasticContainerServiceContainer2Xs>`
+- `<$AmazonElasticContainerServiceContainer2Sm>`
+- `<$AmazonElasticContainerServiceContainer2Md>`
+- `<$AmazonElasticContainerServiceContainer2Lg>`
+
+
+
+
 
 ## AmazonElasticContainerServiceContainer2
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/SecurityIdentityCompliance/AwsIdentityAndAcces
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIdentityAndAccessManagementXs>`
+- `<$AwsIdentityAndAccessManagementSm>`
+- `<$AwsIdentityAndAccessManagementMd>`
+- `<$AwsIdentityAndAccessManagementLg>`
+
+
+
+
 
 ## AwsIdentityAndAccessManagement
 

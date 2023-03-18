@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MachineLearning/AmazonCodeWhisperer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonCodeWhispererXs>`
+- `<$AmazonCodeWhispererSm>`
+- `<$AmazonCodeWhispererMd>`
+- `<$AmazonCodeWhispererLg>`
+
+
+
+
 
 ## AmazonCodeWhisperer
 

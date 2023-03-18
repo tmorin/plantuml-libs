@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Analytics/AmazonRedshiftDenseStorageNode')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonRedshiftDenseStorageNodeXs>`
+- `<$AmazonRedshiftDenseStorageNodeSm>`
+- `<$AmazonRedshiftDenseStorageNodeMd>`
+- `<$AmazonRedshiftDenseStorageNodeLg>`
+
+
+
+
 
 ## AmazonRedshiftDenseStorageNode
 

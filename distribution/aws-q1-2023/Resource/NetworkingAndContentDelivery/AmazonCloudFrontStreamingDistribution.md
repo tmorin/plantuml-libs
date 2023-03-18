@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/NetworkingAndContentDelivery/AmazonCloudFrontStrea
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonCloudFrontStreamingDistributionXs>`
+- `<$AmazonCloudFrontStreamingDistributionSm>`
+- `<$AmazonCloudFrontStreamingDistributionMd>`
+- `<$AmazonCloudFrontStreamingDistributionLg>`
+
+
+
+
 
 ## AmazonCloudFrontStreamingDistribution
 

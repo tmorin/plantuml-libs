@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/ApplicationIntegration/AmazonEventBridgeScheduler'
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonEventBridgeSchedulerXs>`
+- `<$AmazonEventBridgeSchedulerSm>`
+- `<$AmazonEventBridgeSchedulerMd>`
+- `<$AmazonEventBridgeSchedulerLg>`
+
+
+
+
 
 ## AmazonEventBridgeScheduler
 

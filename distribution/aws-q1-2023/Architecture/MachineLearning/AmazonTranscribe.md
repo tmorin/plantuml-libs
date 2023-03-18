@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MachineLearning/AmazonTranscribe')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonTranscribeXs>`
+- `<$AmazonTranscribeSm>`
+- `<$AmazonTranscribeMd>`
+- `<$AmazonTranscribeLg>`
+
+
+
+
 
 ## AmazonTranscribe
 

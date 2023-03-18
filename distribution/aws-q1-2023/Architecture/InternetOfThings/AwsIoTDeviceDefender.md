@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/InternetOfThings/AwsIoTDeviceDefender')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTDeviceDefenderXs>`
+- `<$AwsIoTDeviceDefenderSm>`
+- `<$AwsIoTDeviceDefenderMd>`
+- `<$AwsIoTDeviceDefenderLg>`
+
+
+
+
 
 ## AwsIoTDeviceDefender
 

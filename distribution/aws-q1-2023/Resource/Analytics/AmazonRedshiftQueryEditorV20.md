@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Analytics/AmazonRedshiftQueryEditorV20')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonRedshiftQueryEditorV20Xs>`
+- `<$AmazonRedshiftQueryEditorV20Sm>`
+- `<$AmazonRedshiftQueryEditorV20Md>`
+- `<$AmazonRedshiftQueryEditorV20Lg>`
+
+
+
+
 
 ## AmazonRedshiftQueryEditorV20
 

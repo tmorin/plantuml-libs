@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Analytics/AwsGlueElasticViews')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsGlueElasticViewsXs>`
+- `<$AwsGlueElasticViewsSm>`
+- `<$AwsGlueElasticViewsMd>`
+- `<$AwsGlueElasticViewsLg>`
+
+
+
+
 
 ## AwsGlueElasticViews
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/NetworkingAndContentDelivery/AwsCloudMapNamespace'
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsCloudMapNamespaceXs>`
+- `<$AwsCloudMapNamespaceSm>`
+- `<$AwsCloudMapNamespaceMd>`
+- `<$AwsCloudMapNamespaceLg>`
+
+
+
+
 
 ## AwsCloudMapNamespace
 

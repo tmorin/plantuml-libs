@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Analytics/AmazonEmrEmrEngine')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonEmrEmrEngineXs>`
+- `<$AmazonEmrEmrEngineSm>`
+- `<$AmazonEmrEmrEngineMd>`
+- `<$AmazonEmrEmrEngineLg>`
+
+
+
+
 
 ## AmazonEmrEmrEngine
 

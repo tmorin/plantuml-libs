@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/EndUserComputing/AmazonAppStream')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonAppStreamXs>`
+- `<$AmazonAppStreamSm>`
+- `<$AmazonAppStreamMd>`
+- `<$AmazonAppStreamLg>`
+
+
+
+
 
 ## AmazonAppStream
 

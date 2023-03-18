@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/GeneralIcons/SourceCode')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SourceCodeXs>`
+- `<$SourceCodeSm>`
+- `<$SourceCodeMd>`
+- `<$SourceCodeLg>`
+
+
+
+
 
 ## SourceCode
 

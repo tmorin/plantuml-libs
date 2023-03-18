@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/BusinessApplications/AwsSupplyChain')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsSupplyChainXs>`
+- `<$AwsSupplyChainSm>`
+- `<$AwsSupplyChainMd>`
+- `<$AwsSupplyChainLg>`
+
+
+
+
 
 ## AwsSupplyChain
 

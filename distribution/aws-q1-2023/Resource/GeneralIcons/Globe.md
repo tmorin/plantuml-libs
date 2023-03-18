@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/GeneralIcons/Globe')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GlobeXs>`
+- `<$GlobeSm>`
+- `<$GlobeMd>`
+- `<$GlobeLg>`
+
+
+
+
 
 ## Globe
 

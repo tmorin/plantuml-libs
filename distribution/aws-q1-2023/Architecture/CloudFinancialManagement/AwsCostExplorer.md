@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/CloudFinancialManagement/AwsCostExplorer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsCostExplorerXs>`
+- `<$AwsCostExplorerSm>`
+- `<$AwsCostExplorerMd>`
+- `<$AwsCostExplorerLg>`
+
+
+
+
 
 ## AwsCostExplorer
 

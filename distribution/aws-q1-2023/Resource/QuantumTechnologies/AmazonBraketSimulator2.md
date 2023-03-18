@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/QuantumTechnologies/AmazonBraketSimulator2')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonBraketSimulator2Xs>`
+- `<$AmazonBraketSimulator2Sm>`
+- `<$AmazonBraketSimulator2Md>`
+- `<$AmazonBraketSimulator2Lg>`
+
+
+
+
 
 ## AmazonBraketSimulator2
 

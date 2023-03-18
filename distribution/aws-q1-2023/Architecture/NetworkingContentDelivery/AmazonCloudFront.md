@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/NetworkingContentDelivery/AmazonCloudFront')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonCloudFrontXs>`
+- `<$AmazonCloudFrontSm>`
+- `<$AmazonCloudFrontMd>`
+- `<$AmazonCloudFrontLg>`
+
+
+
+
 
 ## AmazonCloudFront
 

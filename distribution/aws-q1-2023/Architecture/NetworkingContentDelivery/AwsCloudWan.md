@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/NetworkingContentDelivery/AwsCloudWan')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsCloudWanXs>`
+- `<$AwsCloudWanSm>`
+- `<$AwsCloudWanMd>`
+- `<$AwsCloudWanLg>`
+
+
+
+
 
 ## AwsCloudWan
 

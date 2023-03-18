@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/ManagementGovernance/AwsCloudFormationChangeSet')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsCloudFormationChangeSetXs>`
+- `<$AwsCloudFormationChangeSetSm>`
+- `<$AwsCloudFormationChangeSetMd>`
+- `<$AwsCloudFormationChangeSetLg>`
+
+
+
+
 
 ## AwsCloudFormationChangeSet
 

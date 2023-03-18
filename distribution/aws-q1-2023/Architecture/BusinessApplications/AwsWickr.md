@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/BusinessApplications/AwsWickr')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsWickrXs>`
+- `<$AwsWickrSm>`
+- `<$AwsWickrMd>`
+- `<$AwsWickrLg>`
+
+
+
+
 
 ## AwsWickr
 

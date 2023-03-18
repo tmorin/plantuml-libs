@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Compute/AmazonEc2AutoScaling')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonEc2AutoScalingXs>`
+- `<$AmazonEc2AutoScalingSm>`
+- `<$AmazonEc2AutoScalingMd>`
+- `<$AmazonEc2AutoScalingLg>`
+
+
+
+
 
 ## AmazonEc2AutoScaling
 

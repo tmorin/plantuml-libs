@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/ManagementGovernance/AwsOpsWorksMonitoring')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsOpsWorksMonitoringXs>`
+- `<$AwsOpsWorksMonitoringSm>`
+- `<$AwsOpsWorksMonitoringMd>`
+- `<$AwsOpsWorksMonitoringLg>`
+
+
+
+
 
 ## AwsOpsWorksMonitoring
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/MachineLearning/AmazonSageMakerShadowTesting')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonSageMakerShadowTestingXs>`
+- `<$AmazonSageMakerShadowTestingSm>`
+- `<$AmazonSageMakerShadowTestingMd>`
+- `<$AmazonSageMakerShadowTestingLg>`
+
+
+
+
 
 ## AmazonSageMakerShadowTesting
 

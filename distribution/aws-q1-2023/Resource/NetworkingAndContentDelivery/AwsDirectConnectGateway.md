@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/NetworkingAndContentDelivery/AwsDirectConnectGatew
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsDirectConnectGatewayXs>`
+- `<$AwsDirectConnectGatewaySm>`
+- `<$AwsDirectConnectGatewayMd>`
+- `<$AwsDirectConnectGatewayLg>`
+
+
+
+
 
 ## AwsDirectConnectGateway
 

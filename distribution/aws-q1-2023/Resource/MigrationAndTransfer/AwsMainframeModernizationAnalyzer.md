@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/MigrationAndTransfer/AwsMainframeModernizationAnal
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsMainframeModernizationAnalyzerXs>`
+- `<$AwsMainframeModernizationAnalyzerSm>`
+- `<$AwsMainframeModernizationAnalyzerMd>`
+- `<$AwsMainframeModernizationAnalyzerLg>`
+
+
+
+
 
 ## AwsMainframeModernizationAnalyzer
 

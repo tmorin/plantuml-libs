@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/AppIntegration/AwsStepFunctions')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsStepFunctionsXs>`
+- `<$AwsStepFunctionsSm>`
+- `<$AwsStepFunctionsMd>`
+- `<$AwsStepFunctionsLg>`
+
+
+
+
 
 ## AwsStepFunctions
 

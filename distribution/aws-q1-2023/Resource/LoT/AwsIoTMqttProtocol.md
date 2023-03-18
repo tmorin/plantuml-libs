@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTMqttProtocol')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTMqttProtocolXs>`
+- `<$AwsIoTMqttProtocolSm>`
+- `<$AwsIoTMqttProtocolMd>`
+- `<$AwsIoTMqttProtocolLg>`
+
+
+
+
 
 ## AwsIoTMqttProtocol
 

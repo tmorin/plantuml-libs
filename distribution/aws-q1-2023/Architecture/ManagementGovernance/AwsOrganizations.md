@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/ManagementGovernance/AwsOrganizations')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsOrganizationsXs>`
+- `<$AwsOrganizationsSm>`
+- `<$AwsOrganizationsMd>`
+- `<$AwsOrganizationsLg>`
+
+
+
+
 
 ## AwsOrganizations
 

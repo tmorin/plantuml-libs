@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Storage/AmazonSimpleStorageServiceS3GlacierInstant
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonSimpleStorageServiceS3GlacierInstantRetrievalXs>`
+- `<$AmazonSimpleStorageServiceS3GlacierInstantRetrievalSm>`
+- `<$AmazonSimpleStorageServiceS3GlacierInstantRetrievalMd>`
+- `<$AmazonSimpleStorageServiceS3GlacierInstantRetrievalLg>`
+
+
+
+
 
 ## AmazonSimpleStorageServiceS3GlacierInstantRetrieval
 

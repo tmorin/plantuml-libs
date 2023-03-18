@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTCertificate')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTCertificateXs>`
+- `<$AwsIoTCertificateSm>`
+- `<$AwsIoTCertificateMd>`
+- `<$AwsIoTCertificateLg>`
+
+
+
+
 
 ## AwsIoTCertificate
 

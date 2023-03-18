@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Storage/AwsStorageGatewayCachedVolume')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsStorageGatewayCachedVolumeXs>`
+- `<$AwsStorageGatewayCachedVolumeSm>`
+- `<$AwsStorageGatewayCachedVolumeMd>`
+- `<$AwsStorageGatewayCachedVolumeLg>`
+
+
+
+
 
 ## AwsStorageGatewayCachedVolume
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/GeneralIcons/Alert')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AlertXs>`
+- `<$AlertSm>`
+- `<$AlertMd>`
+- `<$AlertLg>`
+
+
+
+
 
 ## Alert
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTFireTv')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTFireTvXs>`
+- `<$AwsIoTFireTvSm>`
+- `<$AwsIoTFireTvMd>`
+- `<$AwsIoTFireTvLg>`
+
+
+
+
 
 ## AwsIoTFireTv
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/MachineLearning/AmazonDevOpsGuruInsights')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonDevOpsGuruInsightsXs>`
+- `<$AmazonDevOpsGuruInsightsSm>`
+- `<$AmazonDevOpsGuruInsightsMd>`
+- `<$AmazonDevOpsGuruInsightsLg>`
+
+
+
+
 
 ## AmazonDevOpsGuruInsights
 

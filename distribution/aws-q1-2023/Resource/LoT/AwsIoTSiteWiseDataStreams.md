@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTSiteWiseDataStreams')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTSiteWiseDataStreamsXs>`
+- `<$AwsIoTSiteWiseDataStreamsSm>`
+- `<$AwsIoTSiteWiseDataStreamsMd>`
+- `<$AwsIoTSiteWiseDataStreamsLg>`
+
+
+
+
 
 ## AwsIoTSiteWiseDataStreams
 

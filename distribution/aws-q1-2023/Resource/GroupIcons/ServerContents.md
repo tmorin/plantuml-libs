@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/GroupIcons/ServerContents')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServerContentsXs>`
+- `<$ServerContentsSm>`
+- `<$ServerContentsMd>`
+- `<$ServerContentsLg>`
+
+
+
+
 
 ## ServerContents
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTThingBank')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTThingBankXs>`
+- `<$AwsIoTThingBankSm>`
+- `<$AwsIoTThingBankMd>`
+- `<$AwsIoTThingBankLg>`
+
+
+
+
 
 ## AwsIoTThingBank
 

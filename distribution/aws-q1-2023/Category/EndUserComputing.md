@@ -17,6 +17,17 @@ include('aws-q1-2023/Category/EndUserComputing')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EndUserComputingXs>`
+- `<$EndUserComputingSm>`
+- `<$EndUserComputingMd>`
+- `<$EndUserComputingLg>`
+
+
+
+
 
 ## EndUserComputing
 

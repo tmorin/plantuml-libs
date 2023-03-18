@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MachineLearning/AmazonLookoutForVision')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonLookoutForVisionXs>`
+- `<$AmazonLookoutForVisionSm>`
+- `<$AmazonLookoutForVisionMd>`
+- `<$AmazonLookoutForVisionLg>`
+
+
+
+
 
 ## AmazonLookoutForVision
 

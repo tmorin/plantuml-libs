@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/GeneralIcons/SamlToken')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SamlTokenXs>`
+- `<$SamlTokenSm>`
+- `<$SamlTokenMd>`
+- `<$SamlTokenLg>`
+
+
+
+
 
 ## SamlToken
 

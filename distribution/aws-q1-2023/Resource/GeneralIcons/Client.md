@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/GeneralIcons/Client')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ClientXs>`
+- `<$ClientSm>`
+- `<$ClientMd>`
+- `<$ClientLg>`
+
+
+
+
 
 ## Client
 

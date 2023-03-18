@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/AppIntegration/AwsExpressWorkflows')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsExpressWorkflowsXs>`
+- `<$AwsExpressWorkflowsSm>`
+- `<$AwsExpressWorkflowsMd>`
+- `<$AwsExpressWorkflowsLg>`
+
+
+
+
 
 ## AwsExpressWorkflows
 

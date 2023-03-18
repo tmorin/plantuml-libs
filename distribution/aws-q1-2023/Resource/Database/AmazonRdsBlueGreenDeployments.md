@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Database/AmazonRdsBlueGreenDeployments')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonRdsBlueGreenDeploymentsXs>`
+- `<$AmazonRdsBlueGreenDeploymentsSm>`
+- `<$AmazonRdsBlueGreenDeploymentsMd>`
+- `<$AmazonRdsBlueGreenDeploymentsLg>`
+
+
+
+
 
 ## AmazonRdsBlueGreenDeployments
 

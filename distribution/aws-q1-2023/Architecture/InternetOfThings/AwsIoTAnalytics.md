@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/InternetOfThings/AwsIoTAnalytics')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTAnalyticsXs>`
+- `<$AwsIoTAnalyticsSm>`
+- `<$AwsIoTAnalyticsMd>`
+- `<$AwsIoTAnalyticsLg>`
+
+
+
+
 
 ## AwsIoTAnalytics
 

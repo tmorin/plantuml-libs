@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/ManagementGovernance/AwsResourceExplorer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsResourceExplorerXs>`
+- `<$AwsResourceExplorerSm>`
+- `<$AwsResourceExplorerMd>`
+- `<$AwsResourceExplorerLg>`
+
+
+
+
 
 ## AwsResourceExplorer
 

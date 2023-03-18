@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MediaServices/AwsElementalServer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsElementalServerXs>`
+- `<$AwsElementalServerSm>`
+- `<$AwsElementalServerMd>`
+- `<$AwsElementalServerLg>`
+
+
+
+
 
 ## AwsElementalServer
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/ManagementGovernance/AwsFaultInjectionSimulato
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsFaultInjectionSimulatorXs>`
+- `<$AwsFaultInjectionSimulatorSm>`
+- `<$AwsFaultInjectionSimulatorMd>`
+- `<$AwsFaultInjectionSimulatorLg>`
+
+
+
+
 
 ## AwsFaultInjectionSimulator
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MachineLearning/AmazonComprehendMedical')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonComprehendMedicalXs>`
+- `<$AmazonComprehendMedicalSm>`
+- `<$AmazonComprehendMedicalMd>`
+- `<$AmazonComprehendMedicalLg>`
+
+
+
+
 
 ## AmazonComprehendMedical
 

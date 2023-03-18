@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MediaServices/AwsElementalMediaTailor')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsElementalMediaTailorXs>`
+- `<$AwsElementalMediaTailorSm>`
+- `<$AwsElementalMediaTailorMd>`
+- `<$AwsElementalMediaTailorLg>`
+
+
+
+
 
 ## AwsElementalMediaTailor
 

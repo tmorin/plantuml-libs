@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/ManagementGovernance/AwsLicenseManager')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsLicenseManagerXs>`
+- `<$AwsLicenseManagerSm>`
+- `<$AwsLicenseManagerMd>`
+- `<$AwsLicenseManagerLg>`
+
+
+
+
 
 ## AwsLicenseManager
 

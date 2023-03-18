@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MachineLearning/AmazonTranslate')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonTranslateXs>`
+- `<$AmazonTranslateSm>`
+- `<$AmazonTranslateMd>`
+- `<$AmazonTranslateLg>`
+
+
+
+
 
 ## AmazonTranslate
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Category/Storage')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StorageXs>`
+- `<$StorageSm>`
+- `<$StorageMd>`
+- `<$StorageLg>`
+
+
+
+
 
 ## Storage
 

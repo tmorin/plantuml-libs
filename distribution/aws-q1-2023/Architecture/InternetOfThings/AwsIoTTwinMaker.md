@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/InternetOfThings/AwsIoTTwinMaker')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTTwinMakerXs>`
+- `<$AwsIoTTwinMakerSm>`
+- `<$AwsIoTTwinMakerMd>`
+- `<$AwsIoTTwinMakerLg>`
+
+
+
+
 
 ## AwsIoTTwinMaker
 

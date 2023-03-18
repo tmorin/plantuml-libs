@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Storage/AmazonFSxForNetAppOntap')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonFSxForNetAppOntapXs>`
+- `<$AmazonFSxForNetAppOntapSm>`
+- `<$AmazonFSxForNetAppOntapMd>`
+- `<$AmazonFSxForNetAppOntapLg>`
+
+
+
+
 
 ## AmazonFSxForNetAppOntap
 

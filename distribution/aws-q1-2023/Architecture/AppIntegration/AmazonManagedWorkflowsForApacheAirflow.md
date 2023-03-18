@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/AppIntegration/AmazonManagedWorkflowsForApache
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonManagedWorkflowsForApacheAirflowXs>`
+- `<$AmazonManagedWorkflowsForApacheAirflowSm>`
+- `<$AmazonManagedWorkflowsForApacheAirflowMd>`
+- `<$AmazonManagedWorkflowsForApacheAirflowLg>`
+
+
+
+
 
 ## AmazonManagedWorkflowsForApacheAirflow
 

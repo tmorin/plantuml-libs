@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/SecurityIdentityCompliance/AwsAuditManager')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsAuditManagerXs>`
+- `<$AwsAuditManagerSm>`
+- `<$AwsAuditManagerMd>`
+- `<$AwsAuditManagerLg>`
+
+
+
+
 
 ## AwsAuditManager
 

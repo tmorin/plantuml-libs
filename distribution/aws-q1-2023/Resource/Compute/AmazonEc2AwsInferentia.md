@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Compute/AmazonEc2AwsInferentia')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonEc2AwsInferentiaXs>`
+- `<$AmazonEc2AwsInferentiaSm>`
+- `<$AmazonEc2AwsInferentiaMd>`
+- `<$AmazonEc2AwsInferentiaLg>`
+
+
+
+
 
 ## AmazonEc2AwsInferentia
 

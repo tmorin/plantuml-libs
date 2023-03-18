@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Storage/AmazonSimpleStorageServiceS3ObjectLock')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonSimpleStorageServiceS3ObjectLockXs>`
+- `<$AmazonSimpleStorageServiceS3ObjectLockSm>`
+- `<$AmazonSimpleStorageServiceS3ObjectLockMd>`
+- `<$AmazonSimpleStorageServiceS3ObjectLockLg>`
+
+
+
+
 
 ## AmazonSimpleStorageServiceS3ObjectLock
 

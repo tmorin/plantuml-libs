@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Analytics/AwsGlue')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsGlueXs>`
+- `<$AwsGlueSm>`
+- `<$AwsGlueMd>`
+- `<$AwsGlueLg>`
+
+
+
+
 
 ## AwsGlue
 

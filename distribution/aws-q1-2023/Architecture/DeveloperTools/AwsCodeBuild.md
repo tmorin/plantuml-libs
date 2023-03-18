@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/DeveloperTools/AwsCodeBuild')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsCodeBuildXs>`
+- `<$AwsCodeBuildSm>`
+- `<$AwsCodeBuildMd>`
+- `<$AwsCodeBuildLg>`
+
+
+
+
 
 ## AwsCodeBuild
 

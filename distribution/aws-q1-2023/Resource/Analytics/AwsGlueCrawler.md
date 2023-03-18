@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Analytics/AwsGlueCrawler')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsGlueCrawlerXs>`
+- `<$AwsGlueCrawlerSm>`
+- `<$AwsGlueCrawlerMd>`
+- `<$AwsGlueCrawlerLg>`
+
+
+
+
 
 ## AwsGlueCrawler
 

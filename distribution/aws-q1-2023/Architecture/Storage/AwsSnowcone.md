@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Storage/AwsSnowcone')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsSnowconeXs>`
+- `<$AwsSnowconeSm>`
+- `<$AwsSnowconeMd>`
+- `<$AwsSnowconeLg>`
+
+
+
+
 
 ## AwsSnowcone
 

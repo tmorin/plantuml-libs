@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/NetworkingAndContentDelivery/AwsAppMeshMesh')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsAppMeshMeshXs>`
+- `<$AwsAppMeshMeshSm>`
+- `<$AwsAppMeshMeshMd>`
+- `<$AwsAppMeshMeshLg>`
+
+
+
+
 
 ## AwsAppMeshMesh
 

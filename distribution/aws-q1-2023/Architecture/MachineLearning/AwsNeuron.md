@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MachineLearning/AwsNeuron')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsNeuronXs>`
+- `<$AwsNeuronSm>`
+- `<$AwsNeuronMd>`
+- `<$AwsNeuronLg>`
+
+
+
+
 
 ## AwsNeuron
 

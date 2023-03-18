@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/NetworkingAndContentDelivery/AmazonVpcInternetGate
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonVpcInternetGatewayXs>`
+- `<$AmazonVpcInternetGatewaySm>`
+- `<$AmazonVpcInternetGatewayMd>`
+- `<$AmazonVpcInternetGatewayLg>`
+
+
+
+
 
 ## AmazonVpcInternetGateway
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/ManagementGovernance/AwsLaunchWizard')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsLaunchWizardXs>`
+- `<$AwsLaunchWizardSm>`
+- `<$AwsLaunchWizardMd>`
+- `<$AwsLaunchWizardLg>`
+
+
+
+
 
 ## AwsLaunchWizard
 

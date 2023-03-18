@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Storage/AwsBackupAwsBackupSupportForVMwareWorkload
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsBackupAwsBackupSupportForVMwareWorkloadsXs>`
+- `<$AwsBackupAwsBackupSupportForVMwareWorkloadsSm>`
+- `<$AwsBackupAwsBackupSupportForVMwareWorkloadsMd>`
+- `<$AwsBackupAwsBackupSupportForVMwareWorkloadsLg>`
+
+
+
+
 
 ## AwsBackupAwsBackupSupportForVMwareWorkloads
 

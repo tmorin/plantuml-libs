@@ -17,6 +17,17 @@ include('aws-q1-2023/Category/MediaServices')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MediaServicesXs>`
+- `<$MediaServicesSm>`
+- `<$MediaServicesMd>`
+- `<$MediaServicesLg>`
+
+
+
+
 
 ## MediaServices
 

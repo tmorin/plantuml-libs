@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Analytics/AmazonManagedStreamingForApacheKafka
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonManagedStreamingForApacheKafkaXs>`
+- `<$AmazonManagedStreamingForApacheKafkaSm>`
+- `<$AmazonManagedStreamingForApacheKafkaMd>`
+- `<$AmazonManagedStreamingForApacheKafkaLg>`
+
+
+
+
 
 ## AmazonManagedStreamingForApacheKafka
 

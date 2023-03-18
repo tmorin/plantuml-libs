@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MachineLearning/AwsDeepLens')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsDeepLensXs>`
+- `<$AwsDeepLensSm>`
+- `<$AwsDeepLensMd>`
+- `<$AwsDeepLensLg>`
+
+
+
+
 
 ## AwsDeepLens
 

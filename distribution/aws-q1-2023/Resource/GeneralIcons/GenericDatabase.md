@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/GeneralIcons/GenericDatabase')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GenericDatabaseXs>`
+- `<$GenericDatabaseSm>`
+- `<$GenericDatabaseMd>`
+- `<$GenericDatabaseLg>`
+
+
+
+
 
 ## GenericDatabase
 

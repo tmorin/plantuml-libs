@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Storage/AmazonFSxForWfs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonFSxForWfsXs>`
+- `<$AmazonFSxForWfsSm>`
+- `<$AmazonFSxForWfsMd>`
+- `<$AmazonFSxForWfsLg>`
+
+
+
+
 
 ## AmazonFSxForWfs
 

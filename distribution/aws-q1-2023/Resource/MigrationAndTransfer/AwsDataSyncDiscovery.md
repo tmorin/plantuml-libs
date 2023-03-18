@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/MigrationAndTransfer/AwsDataSyncDiscovery')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsDataSyncDiscoveryXs>`
+- `<$AwsDataSyncDiscoverySm>`
+- `<$AwsDataSyncDiscoveryMd>`
+- `<$AwsDataSyncDiscoveryLg>`
+
+
+
+
 
 ## AwsDataSyncDiscovery
 

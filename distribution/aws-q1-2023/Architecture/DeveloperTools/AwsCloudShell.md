@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/DeveloperTools/AwsCloudShell')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsCloudShellXs>`
+- `<$AwsCloudShellSm>`
+- `<$AwsCloudShellMd>`
+- `<$AwsCloudShellLg>`
+
+
+
+
 
 ## AwsCloudShell
 

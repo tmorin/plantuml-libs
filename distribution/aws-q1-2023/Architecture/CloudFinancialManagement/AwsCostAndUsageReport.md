@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/CloudFinancialManagement/AwsCostAndUsageReport
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsCostAndUsageReportXs>`
+- `<$AwsCostAndUsageReportSm>`
+- `<$AwsCostAndUsageReportMd>`
+- `<$AwsCostAndUsageReportLg>`
+
+
+
+
 
 ## AwsCostAndUsageReport
 

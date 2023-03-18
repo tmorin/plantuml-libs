@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Storage/AwsBackupAwsBackupSupportForAmazonS3')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsBackupAwsBackupSupportForAmazonS3Xs>`
+- `<$AwsBackupAwsBackupSupportForAmazonS3Sm>`
+- `<$AwsBackupAwsBackupSupportForAmazonS3Md>`
+- `<$AwsBackupAwsBackupSupportForAmazonS3Lg>`
+
+
+
+
 
 ## AwsBackupAwsBackupSupportForAmazonS3
 

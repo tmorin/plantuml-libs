@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/MigrationAndTransfer/AwsMigrationHubRefactorSpaces
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsMigrationHubRefactorSpacesApplicationsXs>`
+- `<$AwsMigrationHubRefactorSpacesApplicationsSm>`
+- `<$AwsMigrationHubRefactorSpacesApplicationsMd>`
+- `<$AwsMigrationHubRefactorSpacesApplicationsLg>`
+
+
+
+
 
 ## AwsMigrationHubRefactorSpacesApplications
 

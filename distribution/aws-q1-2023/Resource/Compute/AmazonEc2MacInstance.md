@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Compute/AmazonEc2MacInstance')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonEc2MacInstanceXs>`
+- `<$AmazonEc2MacInstanceSm>`
+- `<$AmazonEc2MacInstanceMd>`
+- `<$AmazonEc2MacInstanceLg>`
+
+
+
+
 
 ## AmazonEc2MacInstance
 

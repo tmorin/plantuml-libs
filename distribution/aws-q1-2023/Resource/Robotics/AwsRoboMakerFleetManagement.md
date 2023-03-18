@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Robotics/AwsRoboMakerFleetManagement')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsRoboMakerFleetManagementXs>`
+- `<$AwsRoboMakerFleetManagementSm>`
+- `<$AwsRoboMakerFleetManagementMd>`
+- `<$AwsRoboMakerFleetManagementLg>`
+
+
+
+
 
 ## AwsRoboMakerFleetManagement
 

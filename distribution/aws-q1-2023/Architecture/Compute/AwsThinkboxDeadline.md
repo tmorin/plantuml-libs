@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Compute/AwsThinkboxDeadline')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsThinkboxDeadlineXs>`
+- `<$AwsThinkboxDeadlineSm>`
+- `<$AwsThinkboxDeadlineMd>`
+- `<$AwsThinkboxDeadlineLg>`
+
+
+
+
 
 ## AwsThinkboxDeadline
 

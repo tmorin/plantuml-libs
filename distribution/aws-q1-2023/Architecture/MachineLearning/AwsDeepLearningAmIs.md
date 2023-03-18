@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MachineLearning/AwsDeepLearningAmIs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsDeepLearningAmIsXs>`
+- `<$AwsDeepLearningAmIsSm>`
+- `<$AwsDeepLearningAmIsMd>`
+- `<$AwsDeepLearningAmIsLg>`
+
+
+
+
 
 ## AwsDeepLearningAmIs
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Analytics/AmazonRedshiftDenseComputeNode')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonRedshiftDenseComputeNodeXs>`
+- `<$AmazonRedshiftDenseComputeNodeSm>`
+- `<$AmazonRedshiftDenseComputeNodeMd>`
+- `<$AmazonRedshiftDenseComputeNodeLg>`
+
+
+
+
 
 ## AmazonRedshiftDenseComputeNode
 

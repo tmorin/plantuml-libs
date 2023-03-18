@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/NetworkingAndContentDelivery/AwsCloudWanTransitGat
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsCloudWanTransitGatewayRouteTableAttachmentXs>`
+- `<$AwsCloudWanTransitGatewayRouteTableAttachmentSm>`
+- `<$AwsCloudWanTransitGatewayRouteTableAttachmentMd>`
+- `<$AwsCloudWanTransitGatewayRouteTableAttachmentLg>`
+
+
+
+
 
 ## AwsCloudWanTransitGatewayRouteTableAttachment
 

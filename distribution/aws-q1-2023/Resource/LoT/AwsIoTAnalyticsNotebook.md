@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTAnalyticsNotebook')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTAnalyticsNotebookXs>`
+- `<$AwsIoTAnalyticsNotebookSm>`
+- `<$AwsIoTAnalyticsNotebookMd>`
+- `<$AwsIoTAnalyticsNotebookLg>`
+
+
+
+
 
 ## AwsIoTAnalyticsNotebook
 

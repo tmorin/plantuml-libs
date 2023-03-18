@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/GroupIcons/CorporateDataCenter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CorporateDataCenterXs>`
+- `<$CorporateDataCenterSm>`
+- `<$CorporateDataCenterMd>`
+- `<$CorporateDataCenterLg>`
+
+
+
+
 
 ## CorporateDataCenter
 

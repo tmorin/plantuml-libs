@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTAnalyticsPipeline')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTAnalyticsPipelineXs>`
+- `<$AwsIoTAnalyticsPipelineSm>`
+- `<$AwsIoTAnalyticsPipelineMd>`
+- `<$AwsIoTAnalyticsPipelineLg>`
+
+
+
+
 
 ## AwsIoTAnalyticsPipeline
 

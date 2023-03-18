@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/ManagementGovernance/AwsSystemsManagerOpsCenter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsSystemsManagerOpsCenterXs>`
+- `<$AwsSystemsManagerOpsCenterSm>`
+- `<$AwsSystemsManagerOpsCenterMd>`
+- `<$AwsSystemsManagerOpsCenterLg>`
+
+
+
+
 
 ## AwsSystemsManagerOpsCenter
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/ManagementGovernance/AwsCloudFormationStack')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsCloudFormationStackXs>`
+- `<$AwsCloudFormationStackSm>`
+- `<$AwsCloudFormationStackMd>`
+- `<$AwsCloudFormationStackLg>`
+
+
+
+
 
 ## AwsCloudFormationStack
 

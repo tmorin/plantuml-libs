@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/CustomerEnablement/AwsManagedServices')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsManagedServicesXs>`
+- `<$AwsManagedServicesSm>`
+- `<$AwsManagedServicesMd>`
+- `<$AwsManagedServicesLg>`
+
+
+
+
 
 ## AwsManagedServices
 

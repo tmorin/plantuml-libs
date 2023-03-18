@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/NetworkingAndContentDelivery/AmazonRoute53Resolver
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonRoute53ResolverQueryLoggingXs>`
+- `<$AmazonRoute53ResolverQueryLoggingSm>`
+- `<$AmazonRoute53ResolverQueryLoggingMd>`
+- `<$AmazonRoute53ResolverQueryLoggingLg>`
+
+
+
+
 
 ## AmazonRoute53ResolverQueryLogging
 

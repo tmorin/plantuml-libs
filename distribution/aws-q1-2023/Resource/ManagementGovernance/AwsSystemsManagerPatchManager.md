@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/ManagementGovernance/AwsSystemsManagerPatchManager
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsSystemsManagerPatchManagerXs>`
+- `<$AwsSystemsManagerPatchManagerSm>`
+- `<$AwsSystemsManagerPatchManagerMd>`
+- `<$AwsSystemsManagerPatchManagerLg>`
+
+
+
+
 
 ## AwsSystemsManagerPatchManager
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/ManagementGovernance/AmazonManagedServiceForPr
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonManagedServiceForPrometheusXs>`
+- `<$AmazonManagedServiceForPrometheusSm>`
+- `<$AmazonManagedServiceForPrometheusMd>`
+- `<$AmazonManagedServiceForPrometheusLg>`
+
+
+
+
 
 ## AmazonManagedServiceForPrometheus
 

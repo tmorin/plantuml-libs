@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/DeveloperTools/AwsCloud9')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsCloud9Xs>`
+- `<$AwsCloud9Sm>`
+- `<$AwsCloud9Md>`
+- `<$AwsCloud9Lg>`
+
+
+
+
 
 ## AwsCloud9
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/NetworkingContentDelivery/AmazonRoute53')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonRoute53Xs>`
+- `<$AmazonRoute53Sm>`
+- `<$AmazonRoute53Md>`
+- `<$AmazonRoute53Lg>`
+
+
+
+
 
 ## AmazonRoute53
 

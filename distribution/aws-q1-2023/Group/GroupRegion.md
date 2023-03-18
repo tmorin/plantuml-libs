@@ -17,6 +17,17 @@ include('aws-q1-2023/Group/GroupRegion')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GroupRegionXs>`
+- `<$GroupRegionSm>`
+- `<$GroupRegionMd>`
+- `<$GroupRegionLg>`
+
+
+
+
 
 ## GroupRegion
 

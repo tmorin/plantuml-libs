@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/ManagementGovernance/AwsOpsWorksStack2')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsOpsWorksStack2Xs>`
+- `<$AwsOpsWorksStack2Sm>`
+- `<$AwsOpsWorksStack2Md>`
+- `<$AwsOpsWorksStack2Lg>`
+
+
+
+
 
 ## AwsOpsWorksStack2
 

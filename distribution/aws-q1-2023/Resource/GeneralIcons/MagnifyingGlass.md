@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/GeneralIcons/MagnifyingGlass')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MagnifyingGlassXs>`
+- `<$MagnifyingGlassSm>`
+- `<$MagnifyingGlassMd>`
+- `<$MagnifyingGlassLg>`
+
+
+
+
 
 ## MagnifyingGlass
 

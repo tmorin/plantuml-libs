@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/ManagementGovernance/AwsServiceManagementConne
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsServiceManagementConnectorXs>`
+- `<$AwsServiceManagementConnectorSm>`
+- `<$AwsServiceManagementConnectorMd>`
+- `<$AwsServiceManagementConnectorLg>`
+
+
+
+
 
 ## AwsServiceManagementConnector
 

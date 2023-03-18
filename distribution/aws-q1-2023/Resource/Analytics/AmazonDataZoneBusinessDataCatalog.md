@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Analytics/AmazonDataZoneBusinessDataCatalog')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonDataZoneBusinessDataCatalogXs>`
+- `<$AmazonDataZoneBusinessDataCatalogSm>`
+- `<$AmazonDataZoneBusinessDataCatalogMd>`
+- `<$AmazonDataZoneBusinessDataCatalogLg>`
+
+
+
+
 
 ## AmazonDataZoneBusinessDataCatalog
 

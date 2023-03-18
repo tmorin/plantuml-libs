@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Compute/AmazonEc2ElasticIpAddress')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonEc2ElasticIpAddressXs>`
+- `<$AmazonEc2ElasticIpAddressSm>`
+- `<$AmazonEc2ElasticIpAddressMd>`
+- `<$AmazonEc2ElasticIpAddressLg>`
+
+
+
+
 
 ## AmazonEc2ElasticIpAddress
 

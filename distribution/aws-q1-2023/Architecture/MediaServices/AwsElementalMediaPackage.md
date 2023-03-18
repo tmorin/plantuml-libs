@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MediaServices/AwsElementalMediaPackage')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsElementalMediaPackageXs>`
+- `<$AwsElementalMediaPackageSm>`
+- `<$AwsElementalMediaPackageMd>`
+- `<$AwsElementalMediaPackageLg>`
+
+
+
+
 
 ## AwsElementalMediaPackage
 

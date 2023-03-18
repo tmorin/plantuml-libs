@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/BusinessApplications/AmazonWorkMail')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonWorkMailXs>`
+- `<$AmazonWorkMailSm>`
+- `<$AmazonWorkMailMd>`
+- `<$AmazonWorkMailLg>`
+
+
+
+
 
 ## AmazonWorkMail
 

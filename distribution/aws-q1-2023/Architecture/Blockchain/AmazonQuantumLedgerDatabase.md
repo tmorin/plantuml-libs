@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Blockchain/AmazonQuantumLedgerDatabase')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonQuantumLedgerDatabaseXs>`
+- `<$AmazonQuantumLedgerDatabaseSm>`
+- `<$AmazonQuantumLedgerDatabaseMd>`
+- `<$AmazonQuantumLedgerDatabaseLg>`
+
+
+
+
 
 ## AmazonQuantumLedgerDatabase
 

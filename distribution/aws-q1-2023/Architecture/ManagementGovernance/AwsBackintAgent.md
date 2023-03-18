@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/ManagementGovernance/AwsBackintAgent')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsBackintAgentXs>`
+- `<$AwsBackintAgentSm>`
+- `<$AwsBackintAgentMd>`
+- `<$AwsBackintAgentLg>`
+
+
+
+
 
 ## AwsBackintAgent
 

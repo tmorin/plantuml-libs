@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Analytics/AmazonEmr')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonEmrXs>`
+- `<$AmazonEmrSm>`
+- `<$AmazonEmrMd>`
+- `<$AmazonEmrLg>`
+
+
+
+
 
 ## AmazonEmr
 

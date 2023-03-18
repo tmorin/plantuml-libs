@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTAlexaSkill')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTAlexaSkillXs>`
+- `<$AwsIoTAlexaSkillSm>`
+- `<$AwsIoTAlexaSkillMd>`
+- `<$AwsIoTAlexaSkillLg>`
+
+
+
+
 
 ## AwsIoTAlexaSkill
 

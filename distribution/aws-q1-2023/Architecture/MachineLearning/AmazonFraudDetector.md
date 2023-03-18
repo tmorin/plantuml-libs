@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MachineLearning/AmazonFraudDetector')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonFraudDetectorXs>`
+- `<$AmazonFraudDetectorSm>`
+- `<$AmazonFraudDetectorMd>`
+- `<$AmazonFraudDetectorLg>`
+
+
+
+
 
 ## AmazonFraudDetector
 

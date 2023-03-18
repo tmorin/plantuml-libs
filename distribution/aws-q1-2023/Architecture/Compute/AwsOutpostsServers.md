@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Compute/AwsOutpostsServers')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsOutpostsServersXs>`
+- `<$AwsOutpostsServersSm>`
+- `<$AwsOutpostsServersMd>`
+- `<$AwsOutpostsServersLg>`
+
+
+
+
 
 ## AwsOutpostsServers
 

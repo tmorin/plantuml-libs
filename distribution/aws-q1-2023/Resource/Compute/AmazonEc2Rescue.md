@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Compute/AmazonEc2Rescue')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonEc2RescueXs>`
+- `<$AmazonEc2RescueSm>`
+- `<$AmazonEc2RescueMd>`
+- `<$AmazonEc2RescueLg>`
+
+
+
+
 
 ## AmazonEc2Rescue
 

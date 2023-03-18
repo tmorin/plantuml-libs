@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Storage/AwsStorageGatewayAmazonS3FileGateway')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsStorageGatewayAmazonS3FileGatewayXs>`
+- `<$AwsStorageGatewayAmazonS3FileGatewaySm>`
+- `<$AwsStorageGatewayAmazonS3FileGatewayMd>`
+- `<$AwsStorageGatewayAmazonS3FileGatewayLg>`
+
+
+
+
 
 ## AwsStorageGatewayAmazonS3FileGateway
 

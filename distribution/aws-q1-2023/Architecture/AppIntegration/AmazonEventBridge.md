@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/AppIntegration/AmazonEventBridge')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonEventBridgeXs>`
+- `<$AmazonEventBridgeSm>`
+- `<$AmazonEventBridgeMd>`
+- `<$AmazonEventBridgeLg>`
+
+
+
+
 
 ## AmazonEventBridge
 

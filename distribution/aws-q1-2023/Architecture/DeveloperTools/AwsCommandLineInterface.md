@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/DeveloperTools/AwsCommandLineInterface')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsCommandLineInterfaceXs>`
+- `<$AwsCommandLineInterfaceSm>`
+- `<$AwsCommandLineInterfaceMd>`
+- `<$AwsCommandLineInterfaceLg>`
+
+
+
+
 
 ## AwsCommandLineInterface
 

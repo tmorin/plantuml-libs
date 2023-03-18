@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Database/AmazonRdsMultiAzDbCluster')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonRdsMultiAzDbClusterXs>`
+- `<$AmazonRdsMultiAzDbClusterSm>`
+- `<$AmazonRdsMultiAzDbClusterMd>`
+- `<$AmazonRdsMultiAzDbClusterLg>`
+
+
+
+
 
 ## AmazonRdsMultiAzDbCluster
 

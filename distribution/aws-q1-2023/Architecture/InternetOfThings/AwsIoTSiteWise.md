@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/InternetOfThings/AwsIoTSiteWise')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTSiteWiseXs>`
+- `<$AwsIoTSiteWiseSm>`
+- `<$AwsIoTSiteWiseMd>`
+- `<$AwsIoTSiteWiseLg>`
+
+
+
+
 
 ## AwsIoTSiteWise
 

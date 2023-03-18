@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTShadow')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTShadowXs>`
+- `<$AwsIoTShadowSm>`
+- `<$AwsIoTShadowMd>`
+- `<$AwsIoTShadowLg>`
+
+
+
+
 
 ## AwsIoTShadow
 

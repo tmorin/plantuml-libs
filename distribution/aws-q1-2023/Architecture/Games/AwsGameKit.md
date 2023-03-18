@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Games/AwsGameKit')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsGameKitXs>`
+- `<$AwsGameKitSm>`
+- `<$AwsGameKitMd>`
+- `<$AwsGameKitLg>`
+
+
+
+
 
 ## AwsGameKit
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/MachineLearning/AmazonTextractAnalyzeLending')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonTextractAnalyzeLendingXs>`
+- `<$AmazonTextractAnalyzeLendingSm>`
+- `<$AmazonTextractAnalyzeLendingMd>`
+- `<$AmazonTextractAnalyzeLendingLg>`
+
+
+
+
 
 ## AmazonTextractAnalyzeLending
 

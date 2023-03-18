@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/DeveloperTools/AwsCloudControlApi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsCloudControlApiXs>`
+- `<$AwsCloudControlApiSm>`
+- `<$AwsCloudControlApiMd>`
+- `<$AwsCloudControlApiLg>`
+
+
+
+
 
 ## AwsCloudControlApi
 

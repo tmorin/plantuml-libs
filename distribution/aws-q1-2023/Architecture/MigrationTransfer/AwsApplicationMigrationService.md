@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MigrationTransfer/AwsApplicationMigrationServi
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsApplicationMigrationServiceXs>`
+- `<$AwsApplicationMigrationServiceSm>`
+- `<$AwsApplicationMigrationServiceMd>`
+- `<$AwsApplicationMigrationServiceLg>`
+
+
+
+
 
 ## AwsApplicationMigrationService
 

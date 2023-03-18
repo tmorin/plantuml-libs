@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/GroupIcons/Vpc')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VpcXs>`
+- `<$VpcSm>`
+- `<$VpcMd>`
+- `<$VpcLg>`
+
+
+
+
 
 ## Vpc
 

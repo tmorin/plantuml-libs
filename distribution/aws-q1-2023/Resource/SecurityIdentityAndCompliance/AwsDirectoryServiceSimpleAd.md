@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/SecurityIdentityAndCompliance/AwsDirectoryServiceS
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsDirectoryServiceSimpleAdXs>`
+- `<$AwsDirectoryServiceSimpleAdSm>`
+- `<$AwsDirectoryServiceSimpleAdMd>`
+- `<$AwsDirectoryServiceSimpleAdLg>`
+
+
+
+
 
 ## AwsDirectoryServiceSimpleAd
 

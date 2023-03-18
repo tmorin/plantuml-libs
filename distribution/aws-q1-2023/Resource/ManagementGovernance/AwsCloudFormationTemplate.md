@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/ManagementGovernance/AwsCloudFormationTemplate')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsCloudFormationTemplateXs>`
+- `<$AwsCloudFormationTemplateSm>`
+- `<$AwsCloudFormationTemplateMd>`
+- `<$AwsCloudFormationTemplateLg>`
+
+
+
+
 
 ## AwsCloudFormationTemplate
 

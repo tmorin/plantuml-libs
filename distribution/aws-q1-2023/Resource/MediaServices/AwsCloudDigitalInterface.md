@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/MediaServices/AwsCloudDigitalInterface')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsCloudDigitalInterfaceXs>`
+- `<$AwsCloudDigitalInterfaceSm>`
+- `<$AwsCloudDigitalInterfaceMd>`
+- `<$AwsCloudDigitalInterfaceLg>`
+
+
+
+
 
 ## AwsCloudDigitalInterface
 

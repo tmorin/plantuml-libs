@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/ManagementGovernance/AmazonCloudWatchAlarm')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonCloudWatchAlarmXs>`
+- `<$AmazonCloudWatchAlarmSm>`
+- `<$AmazonCloudWatchAlarmMd>`
+- `<$AmazonCloudWatchAlarmLg>`
+
+
+
+
 
 ## AmazonCloudWatchAlarm
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/DeveloperTools/AwsXRay')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsXRayXs>`
+- `<$AwsXRaySm>`
+- `<$AwsXRayMd>`
+- `<$AwsXRayLg>`
+
+
+
+
 
 ## AwsXRay
 

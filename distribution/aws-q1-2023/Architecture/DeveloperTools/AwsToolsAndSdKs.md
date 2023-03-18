@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/DeveloperTools/AwsToolsAndSdKs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsToolsAndSdKsXs>`
+- `<$AwsToolsAndSdKsSm>`
+- `<$AwsToolsAndSdKsMd>`
+- `<$AwsToolsAndSdKsLg>`
+
+
+
+
 
 ## AwsToolsAndSdKs
 

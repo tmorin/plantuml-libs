@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/DeveloperTools/AmazonCodeCatalyst')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonCodeCatalystXs>`
+- `<$AmazonCodeCatalystSm>`
+- `<$AmazonCodeCatalystMd>`
+- `<$AmazonCodeCatalystLg>`
+
+
+
+
 
 ## AmazonCodeCatalyst
 

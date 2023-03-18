@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Analytics/AmazonAthenaDataSourceConnectors')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonAthenaDataSourceConnectorsXs>`
+- `<$AmazonAthenaDataSourceConnectorsSm>`
+- `<$AmazonAthenaDataSourceConnectorsMd>`
+- `<$AmazonAthenaDataSourceConnectorsLg>`
+
+
+
+
 
 ## AmazonAthenaDataSourceConnectors
 

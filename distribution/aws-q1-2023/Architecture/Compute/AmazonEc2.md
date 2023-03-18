@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Compute/AmazonEc2')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonEc2Xs>`
+- `<$AmazonEc2Sm>`
+- `<$AmazonEc2Md>`
+- `<$AmazonEc2Lg>`
+
+
+
+
 
 ## AmazonEc2
 

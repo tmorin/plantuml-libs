@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/AppIntegration/AwsAppSync')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsAppSyncXs>`
+- `<$AwsAppSyncSm>`
+- `<$AwsAppSyncMd>`
+- `<$AwsAppSyncLg>`
+
+
+
+
 
 ## AwsAppSync
 

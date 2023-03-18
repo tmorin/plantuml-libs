@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/ManagementGovernance/AwsManagementConsole')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsManagementConsoleXs>`
+- `<$AwsManagementConsoleSm>`
+- `<$AwsManagementConsoleMd>`
+- `<$AwsManagementConsoleLg>`
+
+
+
+
 
 ## AwsManagementConsole
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Database/AmazonRdsProxyInstance')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonRdsProxyInstanceXs>`
+- `<$AmazonRdsProxyInstanceSm>`
+- `<$AmazonRdsProxyInstanceMd>`
+- `<$AmazonRdsProxyInstanceLg>`
+
+
+
+
 
 ## AmazonRdsProxyInstance
 

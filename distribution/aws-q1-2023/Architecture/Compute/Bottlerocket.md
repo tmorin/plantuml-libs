@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Compute/Bottlerocket')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BottlerocketXs>`
+- `<$BottlerocketSm>`
+- `<$BottlerocketMd>`
+- `<$BottlerocketLg>`
+
+
+
+
 
 ## Bottlerocket
 

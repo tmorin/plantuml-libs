@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/GeneralIcons/Sdk')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SdkXs>`
+- `<$SdkSm>`
+- `<$SdkMd>`
+- `<$SdkLg>`
+
+
+
+
 
 ## Sdk
 

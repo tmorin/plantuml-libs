@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Robotics/AwsRoboMakerDevelopmentEnvironment')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsRoboMakerDevelopmentEnvironmentXs>`
+- `<$AwsRoboMakerDevelopmentEnvironmentSm>`
+- `<$AwsRoboMakerDevelopmentEnvironmentMd>`
+- `<$AwsRoboMakerDevelopmentEnvironmentLg>`
+
+
+
+
 
 ## AwsRoboMakerDevelopmentEnvironment
 

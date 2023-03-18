@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MigrationTransfer/AwsTransferFamily')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsTransferFamilyXs>`
+- `<$AwsTransferFamilySm>`
+- `<$AwsTransferFamilyMd>`
+- `<$AwsTransferFamilyLg>`
+
+
+
+
 
 ## AwsTransferFamily
 

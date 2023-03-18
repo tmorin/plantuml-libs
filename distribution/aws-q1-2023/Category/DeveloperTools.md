@@ -17,6 +17,17 @@ include('aws-q1-2023/Category/DeveloperTools')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DeveloperToolsXs>`
+- `<$DeveloperToolsSm>`
+- `<$DeveloperToolsMd>`
+- `<$DeveloperToolsLg>`
+
+
+
+
 
 ## DeveloperTools
 

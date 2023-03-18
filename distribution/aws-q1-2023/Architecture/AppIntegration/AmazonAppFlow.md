@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/AppIntegration/AmazonAppFlow')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonAppFlowXs>`
+- `<$AmazonAppFlowSm>`
+- `<$AmazonAppFlowMd>`
+- `<$AmazonAppFlowLg>`
+
+
+
+
 
 ## AmazonAppFlow
 

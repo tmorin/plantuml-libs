@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/InternetOfThings/AwsIoTRoboRunner')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTRoboRunnerXs>`
+- `<$AwsIoTRoboRunnerSm>`
+- `<$AwsIoTRoboRunnerMd>`
+- `<$AwsIoTRoboRunnerLg>`
+
+
+
+
 
 ## AwsIoTRoboRunner
 

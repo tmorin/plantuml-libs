@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/SecurityIdentityCompliance/AwsWaf')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsWafXs>`
+- `<$AwsWafSm>`
+- `<$AwsWafMd>`
+- `<$AwsWafLg>`
+
+
+
+
 
 ## AwsWaf
 

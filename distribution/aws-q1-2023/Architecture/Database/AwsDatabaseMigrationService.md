@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Database/AwsDatabaseMigrationService')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsDatabaseMigrationServiceXs>`
+- `<$AwsDatabaseMigrationServiceSm>`
+- `<$AwsDatabaseMigrationServiceMd>`
+- `<$AwsDatabaseMigrationServiceLg>`
+
+
+
+
 
 ## AwsDatabaseMigrationService
 

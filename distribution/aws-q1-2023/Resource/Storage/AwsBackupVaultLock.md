@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Storage/AwsBackupVaultLock')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsBackupVaultLockXs>`
+- `<$AwsBackupVaultLockSm>`
+- `<$AwsBackupVaultLockMd>`
+- `<$AwsBackupVaultLockLg>`
+
+
+
+
 
 ## AwsBackupVaultLock
 

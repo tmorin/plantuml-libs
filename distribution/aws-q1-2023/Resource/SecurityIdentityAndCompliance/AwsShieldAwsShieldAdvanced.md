@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/SecurityIdentityAndCompliance/AwsShieldAwsShieldAd
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsShieldAwsShieldAdvancedXs>`
+- `<$AwsShieldAwsShieldAdvancedSm>`
+- `<$AwsShieldAwsShieldAdvancedMd>`
+- `<$AwsShieldAwsShieldAdvancedLg>`
+
+
+
+
 
 ## AwsShieldAwsShieldAdvanced
 

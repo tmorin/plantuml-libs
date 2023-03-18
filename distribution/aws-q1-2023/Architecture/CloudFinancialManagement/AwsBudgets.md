@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/CloudFinancialManagement/AwsBudgets')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsBudgetsXs>`
+- `<$AwsBudgetsSm>`
+- `<$AwsBudgetsMd>`
+- `<$AwsBudgetsLg>`
+
+
+
+
 
 ## AwsBudgets
 

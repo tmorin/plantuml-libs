@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/MigrationAndTransfer/AwsMainframeModernizationRunt
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsMainframeModernizationRuntimeXs>`
+- `<$AwsMainframeModernizationRuntimeSm>`
+- `<$AwsMainframeModernizationRuntimeMd>`
+- `<$AwsMainframeModernizationRuntimeLg>`
+
+
+
+
 
 ## AwsMainframeModernizationRuntime
 

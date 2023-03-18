@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/SecurityIdentityAndCompliance/AwsWafLabels')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsWafLabelsXs>`
+- `<$AwsWafLabelsSm>`
+- `<$AwsWafLabelsMd>`
+- `<$AwsWafLabelsLg>`
+
+
+
+
 
 ## AwsWafLabels
 

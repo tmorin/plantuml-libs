@@ -17,6 +17,17 @@ include('aws-q1-2023/Group/GroupAwsStepFunctionsWorkflow')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GroupAwsStepFunctionsWorkflowXs>`
+- `<$GroupAwsStepFunctionsWorkflowSm>`
+- `<$GroupAwsStepFunctionsWorkflowMd>`
+- `<$GroupAwsStepFunctionsWorkflowLg>`
+
+
+
+
 
 ## GroupAwsStepFunctionsWorkflow
 

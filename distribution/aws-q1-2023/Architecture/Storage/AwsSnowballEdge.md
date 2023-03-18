@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Storage/AwsSnowballEdge')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsSnowballEdgeXs>`
+- `<$AwsSnowballEdgeSm>`
+- `<$AwsSnowballEdgeMd>`
+- `<$AwsSnowballEdgeLg>`
+
+
+
+
 
 ## AwsSnowballEdge
 

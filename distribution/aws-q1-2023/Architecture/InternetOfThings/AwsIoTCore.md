@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/InternetOfThings/AwsIoTCore')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTCoreXs>`
+- `<$AwsIoTCoreSm>`
+- `<$AwsIoTCoreMd>`
+- `<$AwsIoTCoreLg>`
+
+
+
+
 
 ## AwsIoTCore
 

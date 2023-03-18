@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MediaServices/AwsElementalMediaLive')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsElementalMediaLiveXs>`
+- `<$AwsElementalMediaLiveSm>`
+- `<$AwsElementalMediaLiveMd>`
+- `<$AwsElementalMediaLiveLg>`
+
+
+
+
 
 ## AwsElementalMediaLive
 

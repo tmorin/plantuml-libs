@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Analytics/AmazonRedshiftRa3')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonRedshiftRa3Xs>`
+- `<$AmazonRedshiftRa3Sm>`
+- `<$AmazonRedshiftRa3Md>`
+- `<$AmazonRedshiftRa3Lg>`
+
+
+
+
 
 ## AmazonRedshiftRa3
 

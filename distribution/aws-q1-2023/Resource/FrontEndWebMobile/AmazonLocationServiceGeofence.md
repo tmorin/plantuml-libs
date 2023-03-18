@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/FrontEndWebMobile/AmazonLocationServiceGeofence')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonLocationServiceGeofenceXs>`
+- `<$AmazonLocationServiceGeofenceSm>`
+- `<$AmazonLocationServiceGeofenceMd>`
+- `<$AmazonLocationServiceGeofenceLg>`
+
+
+
+
 
 ## AmazonLocationServiceGeofence
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTHardwareBoard')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTHardwareBoardXs>`
+- `<$AwsIoTHardwareBoardSm>`
+- `<$AwsIoTHardwareBoardMd>`
+- `<$AwsIoTHardwareBoardLg>`
+
+
+
+
 
 ## AwsIoTHardwareBoard
 

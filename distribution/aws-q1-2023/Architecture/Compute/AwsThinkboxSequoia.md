@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Compute/AwsThinkboxSequoia')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsThinkboxSequoiaXs>`
+- `<$AwsThinkboxSequoiaSm>`
+- `<$AwsThinkboxSequoiaMd>`
+- `<$AwsThinkboxSequoiaLg>`
+
+
+
+
 
 ## AwsThinkboxSequoia
 

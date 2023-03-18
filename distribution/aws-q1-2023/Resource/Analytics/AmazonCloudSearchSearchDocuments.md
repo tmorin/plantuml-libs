@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Analytics/AmazonCloudSearchSearchDocuments')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonCloudSearchSearchDocumentsXs>`
+- `<$AmazonCloudSearchSearchDocumentsSm>`
+- `<$AmazonCloudSearchSearchDocumentsMd>`
+- `<$AmazonCloudSearchSearchDocumentsLg>`
+
+
+
+
 
 ## AmazonCloudSearchSearchDocuments
 

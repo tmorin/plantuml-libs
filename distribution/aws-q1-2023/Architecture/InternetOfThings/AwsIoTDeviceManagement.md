@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/InternetOfThings/AwsIoTDeviceManagement')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTDeviceManagementXs>`
+- `<$AwsIoTDeviceManagementSm>`
+- `<$AwsIoTDeviceManagementMd>`
+- `<$AwsIoTDeviceManagementLg>`
+
+
+
+
 
 ## AwsIoTDeviceManagement
 

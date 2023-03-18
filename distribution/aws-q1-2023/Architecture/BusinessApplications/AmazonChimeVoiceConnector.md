@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/BusinessApplications/AmazonChimeVoiceConnector
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonChimeVoiceConnectorXs>`
+- `<$AmazonChimeVoiceConnectorSm>`
+- `<$AmazonChimeVoiceConnectorMd>`
+- `<$AmazonChimeVoiceConnectorLg>`
+
+
+
+
 
 ## AmazonChimeVoiceConnector
 

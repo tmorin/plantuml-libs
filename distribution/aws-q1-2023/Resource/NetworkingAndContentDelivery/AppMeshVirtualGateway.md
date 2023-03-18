@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/NetworkingAndContentDelivery/AppMeshVirtualGateway
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AppMeshVirtualGatewayXs>`
+- `<$AppMeshVirtualGatewaySm>`
+- `<$AppMeshVirtualGatewayMd>`
+- `<$AppMeshVirtualGatewayLg>`
+
+
+
+
 
 ## AppMeshVirtualGateway
 

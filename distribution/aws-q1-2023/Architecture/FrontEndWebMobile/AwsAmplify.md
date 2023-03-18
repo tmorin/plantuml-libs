@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/FrontEndWebMobile/AwsAmplify')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsAmplifyXs>`
+- `<$AwsAmplifySm>`
+- `<$AwsAmplifyMd>`
+- `<$AwsAmplifyLg>`
+
+
+
+
 
 ## AwsAmplify
 

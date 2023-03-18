@@ -17,6 +17,17 @@ include('aws-q1-2023/Group/GroupSpotFleet')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GroupSpotFleetXs>`
+- `<$GroupSpotFleetSm>`
+- `<$GroupSpotFleetMd>`
+- `<$GroupSpotFleetLg>`
+
+
+
+
 
 ## GroupSpotFleet
 

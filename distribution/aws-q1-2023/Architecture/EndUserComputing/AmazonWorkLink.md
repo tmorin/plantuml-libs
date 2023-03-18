@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/EndUserComputing/AmazonWorkLink')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonWorkLinkXs>`
+- `<$AmazonWorkLinkSm>`
+- `<$AmazonWorkLinkMd>`
+- `<$AmazonWorkLinkLg>`
+
+
+
+
 
 ## AmazonWorkLink
 

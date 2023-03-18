@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Compute/NiceDcv')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NiceDcvXs>`
+- `<$NiceDcvSm>`
+- `<$NiceDcvMd>`
+- `<$NiceDcvLg>`
+
+
+
+
 
 ## NiceDcv
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Storage/AmazonSimpleStorageServiceS3Replication')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonSimpleStorageServiceS3ReplicationXs>`
+- `<$AmazonSimpleStorageServiceS3ReplicationSm>`
+- `<$AmazonSimpleStorageServiceS3ReplicationMd>`
+- `<$AmazonSimpleStorageServiceS3ReplicationLg>`
+
+
+
+
 
 ## AmazonSimpleStorageServiceS3Replication
 

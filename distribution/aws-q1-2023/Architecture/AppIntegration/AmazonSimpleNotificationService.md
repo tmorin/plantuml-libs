@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/AppIntegration/AmazonSimpleNotificationService
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonSimpleNotificationServiceXs>`
+- `<$AmazonSimpleNotificationServiceSm>`
+- `<$AmazonSimpleNotificationServiceMd>`
+- `<$AmazonSimpleNotificationServiceLg>`
+
+
+
+
 
 ## AmazonSimpleNotificationService
 

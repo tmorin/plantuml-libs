@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Database/AmazonDynamoDbGlobalSecondaryIndex')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonDynamoDbGlobalSecondaryIndexXs>`
+- `<$AmazonDynamoDbGlobalSecondaryIndexSm>`
+- `<$AmazonDynamoDbGlobalSecondaryIndexMd>`
+- `<$AmazonDynamoDbGlobalSecondaryIndexLg>`
+
+
+
+
 
 ## AmazonDynamoDbGlobalSecondaryIndex
 

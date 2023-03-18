@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/ManagementGovernance/AmazonCloudWatchEvidently')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonCloudWatchEvidentlyXs>`
+- `<$AmazonCloudWatchEvidentlySm>`
+- `<$AmazonCloudWatchEvidentlyMd>`
+- `<$AmazonCloudWatchEvidentlyLg>`
+
+
+
+
 
 ## AmazonCloudWatchEvidently
 

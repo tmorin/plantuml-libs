@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/NetworkingAndContentDelivery/AmazonRoute53Readines
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonRoute53ReadinessChecksXs>`
+- `<$AmazonRoute53ReadinessChecksSm>`
+- `<$AmazonRoute53ReadinessChecksMd>`
+- `<$AmazonRoute53ReadinessChecksLg>`
+
+
+
+
 
 ## AmazonRoute53ReadinessChecks
 

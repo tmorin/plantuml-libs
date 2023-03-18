@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/FrontEndWebMobile/AmazonLocationServicePlace')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonLocationServicePlaceXs>`
+- `<$AmazonLocationServicePlaceSm>`
+- `<$AmazonLocationServicePlaceMd>`
+- `<$AmazonLocationServicePlaceLg>`
+
+
+
+
 
 ## AmazonLocationServicePlace
 

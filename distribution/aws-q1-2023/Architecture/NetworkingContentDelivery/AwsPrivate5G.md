@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/NetworkingContentDelivery/AwsPrivate5G')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsPrivate5GXs>`
+- `<$AwsPrivate5GSm>`
+- `<$AwsPrivate5GMd>`
+- `<$AwsPrivate5GLg>`
+
+
+
+
 
 ## AwsPrivate5G
 

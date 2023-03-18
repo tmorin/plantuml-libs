@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Compute/AwsAppRunner')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsAppRunnerXs>`
+- `<$AwsAppRunnerSm>`
+- `<$AwsAppRunnerMd>`
+- `<$AwsAppRunnerLg>`
+
+
+
+
 
 ## AwsAppRunner
 

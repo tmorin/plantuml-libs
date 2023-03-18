@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/CustomerEnablement/AwsRePost')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsRePostXs>`
+- `<$AwsRePostSm>`
+- `<$AwsRePostMd>`
+- `<$AwsRePostLg>`
+
+
+
+
 
 ## AwsRePost
 

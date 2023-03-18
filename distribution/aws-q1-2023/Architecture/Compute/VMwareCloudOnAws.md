@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Compute/VMwareCloudOnAws')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VMwareCloudOnAwsXs>`
+- `<$VMwareCloudOnAwsSm>`
+- `<$VMwareCloudOnAwsMd>`
+- `<$VMwareCloudOnAwsLg>`
+
+
+
+
 
 ## VMwareCloudOnAws
 

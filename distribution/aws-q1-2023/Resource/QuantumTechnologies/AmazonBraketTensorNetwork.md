@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/QuantumTechnologies/AmazonBraketTensorNetwork')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonBraketTensorNetworkXs>`
+- `<$AmazonBraketTensorNetworkSm>`
+- `<$AmazonBraketTensorNetworkMd>`
+- `<$AmazonBraketTensorNetworkLg>`
+
+
+
+
 
 ## AmazonBraketTensorNetwork
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/SecurityIdentityCompliance/AmazonDetective')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonDetectiveXs>`
+- `<$AmazonDetectiveSm>`
+- `<$AmazonDetectiveMd>`
+- `<$AmazonDetectiveLg>`
+
+
+
+
 
 ## AmazonDetective
 

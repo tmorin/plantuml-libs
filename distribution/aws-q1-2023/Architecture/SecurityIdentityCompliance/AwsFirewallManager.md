@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/SecurityIdentityCompliance/AwsFirewallManager'
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsFirewallManagerXs>`
+- `<$AwsFirewallManagerSm>`
+- `<$AwsFirewallManagerMd>`
+- `<$AwsFirewallManagerLg>`
+
+
+
+
 
 ## AwsFirewallManager
 

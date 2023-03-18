@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/GeneralIcons/TapeStorage')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TapeStorageXs>`
+- `<$TapeStorageSm>`
+- `<$TapeStorageMd>`
+- `<$TapeStorageLg>`
+
+
+
+
 
 ## TapeStorage
 

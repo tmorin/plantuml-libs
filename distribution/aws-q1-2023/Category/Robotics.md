@@ -17,6 +17,17 @@ include('aws-q1-2023/Category/Robotics')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RoboticsXs>`
+- `<$RoboticsSm>`
+- `<$RoboticsMd>`
+- `<$RoboticsLg>`
+
+
+
+
 
 ## Robotics
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Database/AwsDatabaseMigrationServiceDatabaseMigrat
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsDatabaseMigrationServiceDatabaseMigrationWorkflowJobXs>`
+- `<$AwsDatabaseMigrationServiceDatabaseMigrationWorkflowJobSm>`
+- `<$AwsDatabaseMigrationServiceDatabaseMigrationWorkflowJobMd>`
+- `<$AwsDatabaseMigrationServiceDatabaseMigrationWorkflowJobLg>`
+
+
+
+
 
 ## AwsDatabaseMigrationServiceDatabaseMigrationWorkflowJob
 

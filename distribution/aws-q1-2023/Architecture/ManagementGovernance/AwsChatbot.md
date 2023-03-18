@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/ManagementGovernance/AwsChatbot')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsChatbotXs>`
+- `<$AwsChatbotSm>`
+- `<$AwsChatbotMd>`
+- `<$AwsChatbotLg>`
+
+
+
+
 
 ## AwsChatbot
 

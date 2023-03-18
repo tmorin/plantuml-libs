@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Storage/AmazonElasticFileSystemOneZone')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonElasticFileSystemOneZoneXs>`
+- `<$AmazonElasticFileSystemOneZoneSm>`
+- `<$AmazonElasticFileSystemOneZoneMd>`
+- `<$AmazonElasticFileSystemOneZoneLg>`
+
+
+
+
 
 ## AmazonElasticFileSystemOneZone
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/NetworkingAndContentDelivery/AmazonRoute53Applicat
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonRoute53ApplicationRecoveryControllerXs>`
+- `<$AmazonRoute53ApplicationRecoveryControllerSm>`
+- `<$AmazonRoute53ApplicationRecoveryControllerMd>`
+- `<$AmazonRoute53ApplicationRecoveryControllerLg>`
+
+
+
+
 
 ## AmazonRoute53ApplicationRecoveryController
 

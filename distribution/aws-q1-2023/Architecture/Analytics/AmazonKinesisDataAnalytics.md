@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Analytics/AmazonKinesisDataAnalytics')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonKinesisDataAnalyticsXs>`
+- `<$AmazonKinesisDataAnalyticsSm>`
+- `<$AmazonKinesisDataAnalyticsMd>`
+- `<$AmazonKinesisDataAnalyticsLg>`
+
+
+
+
 
 ## AmazonKinesisDataAnalytics
 

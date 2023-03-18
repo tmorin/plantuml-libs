@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Storage/AwsBackupGateway')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsBackupGatewayXs>`
+- `<$AwsBackupGatewaySm>`
+- `<$AwsBackupGatewayMd>`
+- `<$AwsBackupGatewayLg>`
+
+
+
+
 
 ## AwsBackupGateway
 

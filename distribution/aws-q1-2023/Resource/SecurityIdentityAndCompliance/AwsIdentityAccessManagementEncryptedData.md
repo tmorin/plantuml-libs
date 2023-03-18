@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessMan
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIdentityAccessManagementEncryptedDataXs>`
+- `<$AwsIdentityAccessManagementEncryptedDataSm>`
+- `<$AwsIdentityAccessManagementEncryptedDataMd>`
+- `<$AwsIdentityAccessManagementEncryptedDataLg>`
+
+
+
+
 
 ## AwsIdentityAccessManagementEncryptedData
 

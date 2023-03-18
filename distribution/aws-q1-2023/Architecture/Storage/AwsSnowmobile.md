@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Storage/AwsSnowmobile')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsSnowmobileXs>`
+- `<$AwsSnowmobileSm>`
+- `<$AwsSnowmobileMd>`
+- `<$AwsSnowmobileLg>`
+
+
+
+
 
 ## AwsSnowmobile
 

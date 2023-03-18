@@ -17,6 +17,17 @@ include('aws-q1-2023/Category/ManagementGovernance')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ManagementGovernanceXs>`
+- `<$ManagementGovernanceSm>`
+- `<$ManagementGovernanceMd>`
+- `<$ManagementGovernanceLg>`
+
+
+
+
 
 ## ManagementGovernance
 

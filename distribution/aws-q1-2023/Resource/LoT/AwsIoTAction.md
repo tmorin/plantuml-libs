@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTAction')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTActionXs>`
+- `<$AwsIoTActionSm>`
+- `<$AwsIoTActionMd>`
+- `<$AwsIoTActionLg>`
+
+
+
+
 
 ## AwsIoTAction
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Storage/AmazonElasticBlockStore')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonElasticBlockStoreXs>`
+- `<$AmazonElasticBlockStoreSm>`
+- `<$AmazonElasticBlockStoreMd>`
+- `<$AmazonElasticBlockStoreLg>`
+
+
+
+
 
 ## AmazonElasticBlockStore
 

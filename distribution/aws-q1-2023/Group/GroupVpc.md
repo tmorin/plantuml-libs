@@ -17,6 +17,17 @@ include('aws-q1-2023/Group/GroupVpc')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GroupVpcXs>`
+- `<$GroupVpcSm>`
+- `<$GroupVpcMd>`
+- `<$GroupVpcLg>`
+
+
+
+
 
 ## GroupVpc
 

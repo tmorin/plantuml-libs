@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/GeneralIcons/TraditionalServer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TraditionalServerXs>`
+- `<$TraditionalServerSm>`
+- `<$TraditionalServerMd>`
+- `<$TraditionalServerLg>`
+
+
+
+
 
 ## TraditionalServer
 

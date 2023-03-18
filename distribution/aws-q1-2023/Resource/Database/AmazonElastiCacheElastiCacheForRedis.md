@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Database/AmazonElastiCacheElastiCacheForRedis')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonElastiCacheElastiCacheForRedisXs>`
+- `<$AmazonElastiCacheElastiCacheForRedisSm>`
+- `<$AmazonElastiCacheElastiCacheForRedisMd>`
+- `<$AmazonElastiCacheElastiCacheForRedisLg>`
+
+
+
+
 
 ## AmazonElastiCacheElastiCacheForRedis
 

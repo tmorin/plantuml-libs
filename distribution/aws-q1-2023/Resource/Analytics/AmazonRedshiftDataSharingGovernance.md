@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Analytics/AmazonRedshiftDataSharingGovernance')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonRedshiftDataSharingGovernanceXs>`
+- `<$AmazonRedshiftDataSharingGovernanceSm>`
+- `<$AmazonRedshiftDataSharingGovernanceMd>`
+- `<$AmazonRedshiftDataSharingGovernanceLg>`
+
+
+
+
 
 ## AmazonRedshiftDataSharingGovernance
 

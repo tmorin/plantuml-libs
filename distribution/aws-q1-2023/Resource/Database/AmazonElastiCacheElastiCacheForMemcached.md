@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Database/AmazonElastiCacheElastiCacheForMemcached'
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonElastiCacheElastiCacheForMemcachedXs>`
+- `<$AmazonElastiCacheElastiCacheForMemcachedSm>`
+- `<$AmazonElastiCacheElastiCacheForMemcachedMd>`
+- `<$AmazonElastiCacheElastiCacheForMemcachedLg>`
+
+
+
+
 
 ## AmazonElastiCacheElastiCacheForMemcached
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Storage/AmazonSimpleStorageServiceS3BatchOperation
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonSimpleStorageServiceS3BatchOperationsXs>`
+- `<$AmazonSimpleStorageServiceS3BatchOperationsSm>`
+- `<$AmazonSimpleStorageServiceS3BatchOperationsMd>`
+- `<$AmazonSimpleStorageServiceS3BatchOperationsLg>`
+
+
+
+
 
 ## AmazonSimpleStorageServiceS3BatchOperations
 

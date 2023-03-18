@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/InternetOfThings/AwsIoTEvents')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTEventsXs>`
+- `<$AwsIoTEventsSm>`
+- `<$AwsIoTEventsMd>`
+- `<$AwsIoTEventsLg>`
+
+
+
+
 
 ## AwsIoTEvents
 

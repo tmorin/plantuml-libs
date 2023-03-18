@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Database/AmazonMemoryDbForRedis')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonMemoryDbForRedisXs>`
+- `<$AmazonMemoryDbForRedisSm>`
+- `<$AmazonMemoryDbForRedisMd>`
+- `<$AmazonMemoryDbForRedisLg>`
+
+
+
+
 
 ## AmazonMemoryDbForRedis
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/NetworkingAndContentDelivery/AmazonCloudFrontEdgeL
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonCloudFrontEdgeLocationXs>`
+- `<$AmazonCloudFrontEdgeLocationSm>`
+- `<$AmazonCloudFrontEdgeLocationMd>`
+- `<$AmazonCloudFrontEdgeLocationLg>`
+
+
+
+
 
 ## AmazonCloudFrontEdgeLocation
 

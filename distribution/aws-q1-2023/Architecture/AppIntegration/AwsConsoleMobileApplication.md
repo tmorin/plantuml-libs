@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/AppIntegration/AwsConsoleMobileApplication')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsConsoleMobileApplicationXs>`
+- `<$AwsConsoleMobileApplicationSm>`
+- `<$AwsConsoleMobileApplicationMd>`
+- `<$AwsConsoleMobileApplicationLg>`
+
+
+
+
 
 ## AwsConsoleMobileApplication
 

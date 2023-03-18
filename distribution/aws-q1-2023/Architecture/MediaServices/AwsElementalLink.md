@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MediaServices/AwsElementalLink')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsElementalLinkXs>`
+- `<$AwsElementalLinkSm>`
+- `<$AwsElementalLinkMd>`
+- `<$AwsElementalLinkLg>`
+
+
+
+
 
 ## AwsElementalLink
 

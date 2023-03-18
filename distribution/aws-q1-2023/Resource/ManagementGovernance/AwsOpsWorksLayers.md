@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/ManagementGovernance/AwsOpsWorksLayers')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsOpsWorksLayersXs>`
+- `<$AwsOpsWorksLayersSm>`
+- `<$AwsOpsWorksLayersMd>`
+- `<$AwsOpsWorksLayersLg>`
+
+
+
+
 
 ## AwsOpsWorksLayers
 

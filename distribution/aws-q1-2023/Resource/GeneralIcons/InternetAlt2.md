@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/GeneralIcons/InternetAlt2')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InternetAlt2Xs>`
+- `<$InternetAlt2Sm>`
+- `<$InternetAlt2Md>`
+- `<$InternetAlt2Lg>`
+
+
+
+
 
 ## InternetAlt2
 

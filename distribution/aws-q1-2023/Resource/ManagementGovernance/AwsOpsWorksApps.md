@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/ManagementGovernance/AwsOpsWorksApps')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsOpsWorksAppsXs>`
+- `<$AwsOpsWorksAppsSm>`
+- `<$AwsOpsWorksAppsMd>`
+- `<$AwsOpsWorksAppsLg>`
+
+
+
+
 
 ## AwsOpsWorksApps
 

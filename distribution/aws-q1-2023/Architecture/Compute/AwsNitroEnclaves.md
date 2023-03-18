@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Compute/AwsNitroEnclaves')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsNitroEnclavesXs>`
+- `<$AwsNitroEnclavesSm>`
+- `<$AwsNitroEnclavesMd>`
+- `<$AwsNitroEnclavesLg>`
+
+
+
+
 
 ## AwsNitroEnclaves
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MachineLearning/TorchServe')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TorchServeXs>`
+- `<$TorchServeSm>`
+- `<$TorchServeMd>`
+- `<$TorchServeLg>`
+
+
+
+
 
 ## TorchServe
 

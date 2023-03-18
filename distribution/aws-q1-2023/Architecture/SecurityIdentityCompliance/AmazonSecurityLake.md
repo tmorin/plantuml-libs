@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/SecurityIdentityCompliance/AmazonSecurityLake'
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonSecurityLakeXs>`
+- `<$AmazonSecurityLakeSm>`
+- `<$AmazonSecurityLakeMd>`
+- `<$AmazonSecurityLakeLg>`
+
+
+
+
 
 ## AmazonSecurityLake
 

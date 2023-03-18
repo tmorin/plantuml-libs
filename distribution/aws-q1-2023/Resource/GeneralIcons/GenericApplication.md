@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/GeneralIcons/GenericApplication')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GenericApplicationXs>`
+- `<$GenericApplicationSm>`
+- `<$GenericApplicationMd>`
+- `<$GenericApplicationLg>`
+
+
+
+
 
 ## GenericApplication
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTServo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTServoXs>`
+- `<$AwsIoTServoSm>`
+- `<$AwsIoTServoMd>`
+- `<$AwsIoTServoLg>`
+
+
+
+
 
 ## AwsIoTServo
 

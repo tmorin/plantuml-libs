@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/GeneralIcons/Internet')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InternetXs>`
+- `<$InternetSm>`
+- `<$InternetMd>`
+- `<$InternetLg>`
+
+
+
+
 
 ## Internet
 

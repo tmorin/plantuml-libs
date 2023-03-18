@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/CustomerEnablement/AwsSupport')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsSupportXs>`
+- `<$AwsSupportSm>`
+- `<$AwsSupportMd>`
+- `<$AwsSupportLg>`
+
+
+
+
 
 ## AwsSupport
 

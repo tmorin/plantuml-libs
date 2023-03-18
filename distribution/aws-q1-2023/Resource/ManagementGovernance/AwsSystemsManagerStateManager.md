@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/ManagementGovernance/AwsSystemsManagerStateManager
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsSystemsManagerStateManagerXs>`
+- `<$AwsSystemsManagerStateManagerSm>`
+- `<$AwsSystemsManagerStateManagerMd>`
+- `<$AwsSystemsManagerStateManagerLg>`
+
+
+
+
 
 ## AwsSystemsManagerStateManager
 

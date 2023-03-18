@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/AppIntegration/AmazonMq')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonMqXs>`
+- `<$AmazonMqSm>`
+- `<$AmazonMqMd>`
+- `<$AmazonMqLg>`
+
+
+
+
 
 ## AmazonMq
 

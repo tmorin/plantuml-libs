@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/ManagementGovernance/AwsDistroForOpenTelemetry
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsDistroForOpenTelemetryXs>`
+- `<$AwsDistroForOpenTelemetrySm>`
+- `<$AwsDistroForOpenTelemetryMd>`
+- `<$AwsDistroForOpenTelemetryLg>`
+
+
+
+
 
 ## AwsDistroForOpenTelemetry
 

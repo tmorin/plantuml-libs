@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/ManagementGovernance/AwsSystemsManagerIncidentMana
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsSystemsManagerIncidentManagerXs>`
+- `<$AwsSystemsManagerIncidentManagerSm>`
+- `<$AwsSystemsManagerIncidentManagerMd>`
+- `<$AwsSystemsManagerIncidentManagerLg>`
+
+
+
+
 
 ## AwsSystemsManagerIncidentManager
 

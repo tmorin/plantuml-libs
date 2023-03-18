@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/NetworkingContentDelivery/AwsTransitGateway')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsTransitGatewayXs>`
+- `<$AwsTransitGatewaySm>`
+- `<$AwsTransitGatewayMd>`
+- `<$AwsTransitGatewayLg>`
+
+
+
+
 
 ## AwsTransitGateway
 

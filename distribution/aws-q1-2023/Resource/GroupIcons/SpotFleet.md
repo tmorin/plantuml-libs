@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/GroupIcons/SpotFleet')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SpotFleetXs>`
+- `<$SpotFleetSm>`
+- `<$SpotFleetMd>`
+- `<$SpotFleetLg>`
+
+
+
+
 
 ## SpotFleet
 

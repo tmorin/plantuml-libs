@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Compute/AmazonLightsail')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonLightsailXs>`
+- `<$AmazonLightsailSm>`
+- `<$AmazonLightsailMd>`
+- `<$AmazonLightsailLg>`
+
+
+
+
 
 ## AmazonLightsail
 

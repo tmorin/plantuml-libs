@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTGreengrassInterprocessCommunication')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTGreengrassInterprocessCommunicationXs>`
+- `<$AwsIoTGreengrassInterprocessCommunicationSm>`
+- `<$AwsIoTGreengrassInterprocessCommunicationMd>`
+- `<$AwsIoTGreengrassInterprocessCommunicationLg>`
+
+
+
+
 
 ## AwsIoTGreengrassInterprocessCommunication
 

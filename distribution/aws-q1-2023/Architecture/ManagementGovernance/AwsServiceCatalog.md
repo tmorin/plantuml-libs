@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/ManagementGovernance/AwsServiceCatalog')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsServiceCatalogXs>`
+- `<$AwsServiceCatalogSm>`
+- `<$AwsServiceCatalogMd>`
+- `<$AwsServiceCatalogLg>`
+
+
+
+
 
 ## AwsServiceCatalog
 

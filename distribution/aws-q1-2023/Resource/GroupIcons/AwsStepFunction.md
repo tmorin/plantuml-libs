@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/GroupIcons/AwsStepFunction')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsStepFunctionXs>`
+- `<$AwsStepFunctionSm>`
+- `<$AwsStepFunctionMd>`
+- `<$AwsStepFunctionLg>`
+
+
+
+
 
 ## AwsStepFunction
 

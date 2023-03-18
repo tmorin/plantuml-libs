@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Analytics/AwsGlueAwsGlueForRay')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsGlueAwsGlueForRayXs>`
+- `<$AwsGlueAwsGlueForRaySm>`
+- `<$AwsGlueAwsGlueForRayMd>`
+- `<$AwsGlueAwsGlueForRayLg>`
+
+
+
+
 
 ## AwsGlueAwsGlueForRay
 

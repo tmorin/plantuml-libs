@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/NetworkingAndContentDelivery/AmazonVpcVpnConnectio
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonVpcVpnConnectionXs>`
+- `<$AmazonVpcVpnConnectionSm>`
+- `<$AmazonVpcVpnConnectionMd>`
+- `<$AmazonVpcVpnConnectionLg>`
+
+
+
+
 
 ## AmazonVpcVpnConnection
 

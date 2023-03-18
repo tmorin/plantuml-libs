@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/ApplicationIntegration/AmazonMqBroker')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonMqBrokerXs>`
+- `<$AmazonMqBrokerSm>`
+- `<$AmazonMqBrokerMd>`
+- `<$AmazonMqBrokerLg>`
+
+
+
+
 
 ## AmazonMqBroker
 

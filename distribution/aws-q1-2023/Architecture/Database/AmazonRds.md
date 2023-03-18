@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Database/AmazonRds')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonRdsXs>`
+- `<$AmazonRdsSm>`
+- `<$AmazonRdsMd>`
+- `<$AmazonRdsLg>`
+
+
+
+
 
 ## AmazonRds
 

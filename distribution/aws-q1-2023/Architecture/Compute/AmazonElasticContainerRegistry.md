@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Compute/AmazonElasticContainerRegistry')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonElasticContainerRegistryXs>`
+- `<$AmazonElasticContainerRegistrySm>`
+- `<$AmazonElasticContainerRegistryMd>`
+- `<$AmazonElasticContainerRegistryLg>`
+
+
+
+
 
 ## AmazonElasticContainerRegistry
 

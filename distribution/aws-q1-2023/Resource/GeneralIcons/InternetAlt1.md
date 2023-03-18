@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/GeneralIcons/InternetAlt1')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InternetAlt1Xs>`
+- `<$InternetAlt1Sm>`
+- `<$InternetAlt1Md>`
+- `<$InternetAlt1Lg>`
+
+
+
+
 
 ## InternetAlt1
 

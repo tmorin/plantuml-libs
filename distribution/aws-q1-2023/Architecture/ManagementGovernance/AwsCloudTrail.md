@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/ManagementGovernance/AwsCloudTrail')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsCloudTrailXs>`
+- `<$AwsCloudTrailSm>`
+- `<$AwsCloudTrailMd>`
+- `<$AwsCloudTrailLg>`
+
+
+
+
 
 ## AwsCloudTrail
 

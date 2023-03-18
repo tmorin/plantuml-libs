@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Robotics/AwsRoboMaker')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsRoboMakerXs>`
+- `<$AwsRoboMakerSm>`
+- `<$AwsRoboMakerMd>`
+- `<$AwsRoboMakerLg>`
+
+
+
+
 
 ## AwsRoboMaker
 

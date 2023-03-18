@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MachineLearning/AmazonSageMakerGroundTruth')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonSageMakerGroundTruthXs>`
+- `<$AmazonSageMakerGroundTruthSm>`
+- `<$AmazonSageMakerGroundTruthMd>`
+- `<$AmazonSageMakerGroundTruthLg>`
+
+
+
+
 
 ## AmazonSageMakerGroundTruth
 

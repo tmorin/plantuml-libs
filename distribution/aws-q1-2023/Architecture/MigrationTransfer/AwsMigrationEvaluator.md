@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MigrationTransfer/AwsMigrationEvaluator')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsMigrationEvaluatorXs>`
+- `<$AwsMigrationEvaluatorSm>`
+- `<$AwsMigrationEvaluatorMd>`
+- `<$AwsMigrationEvaluatorLg>`
+
+
+
+
 
 ## AwsMigrationEvaluator
 

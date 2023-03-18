@@ -17,6 +17,17 @@ include('aws-q1-2023/Group/GroupCloud')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GroupCloudXs>`
+- `<$GroupCloudSm>`
+- `<$GroupCloudMd>`
+- `<$GroupCloudLg>`
+
+
+
+
 
 ## GroupCloud
 

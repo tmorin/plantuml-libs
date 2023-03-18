@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/SecurityIdentityAndCompliance/AwsSecurityHubFindin
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsSecurityHubFindingXs>`
+- `<$AwsSecurityHubFindingSm>`
+- `<$AwsSecurityHubFindingMd>`
+- `<$AwsSecurityHubFindingLg>`
+
+
+
+
 
 ## AwsSecurityHubFinding
 

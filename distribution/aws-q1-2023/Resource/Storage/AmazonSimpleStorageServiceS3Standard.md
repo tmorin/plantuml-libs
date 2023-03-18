@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Storage/AmazonSimpleStorageServiceS3Standard')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonSimpleStorageServiceS3StandardXs>`
+- `<$AmazonSimpleStorageServiceS3StandardSm>`
+- `<$AmazonSimpleStorageServiceS3StandardMd>`
+- `<$AmazonSimpleStorageServiceS3StandardLg>`
+
+
+
+
 
 ## AmazonSimpleStorageServiceS3Standard
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/SecurityIdentityCompliance/AwsSecurityHub')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsSecurityHubXs>`
+- `<$AwsSecurityHubSm>`
+- `<$AwsSecurityHubMd>`
+- `<$AwsSecurityHubLg>`
+
+
+
+
 
 ## AwsSecurityHub
 

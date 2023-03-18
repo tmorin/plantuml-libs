@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/SecurityIdentityAndCompliance/AwsDirectoryServiceA
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsDirectoryServiceAwsManagedMicrosoftAdXs>`
+- `<$AwsDirectoryServiceAwsManagedMicrosoftAdSm>`
+- `<$AwsDirectoryServiceAwsManagedMicrosoftAdMd>`
+- `<$AwsDirectoryServiceAwsManagedMicrosoftAdLg>`
+
+
+
+
 
 ## AwsDirectoryServiceAwsManagedMicrosoftAd
 

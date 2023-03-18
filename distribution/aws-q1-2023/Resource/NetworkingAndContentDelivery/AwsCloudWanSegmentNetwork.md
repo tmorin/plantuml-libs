@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/NetworkingAndContentDelivery/AwsCloudWanSegmentNet
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsCloudWanSegmentNetworkXs>`
+- `<$AwsCloudWanSegmentNetworkSm>`
+- `<$AwsCloudWanSegmentNetworkMd>`
+- `<$AwsCloudWanSegmentNetworkLg>`
+
+
+
+
 
 ## AwsCloudWanSegmentNetwork
 

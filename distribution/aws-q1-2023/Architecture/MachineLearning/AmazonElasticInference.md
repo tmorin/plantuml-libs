@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MachineLearning/AmazonElasticInference')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonElasticInferenceXs>`
+- `<$AmazonElasticInferenceSm>`
+- `<$AmazonElasticInferenceMd>`
+- `<$AmazonElasticInferenceLg>`
+
+
+
+
 
 ## AmazonElasticInference
 

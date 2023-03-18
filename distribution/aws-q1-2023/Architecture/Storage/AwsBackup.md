@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Storage/AwsBackup')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsBackupXs>`
+- `<$AwsBackupSm>`
+- `<$AwsBackupMd>`
+- `<$AwsBackupLg>`
+
+
+
+
 
 ## AwsBackup
 

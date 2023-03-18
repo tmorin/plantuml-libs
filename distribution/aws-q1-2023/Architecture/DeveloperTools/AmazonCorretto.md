@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/DeveloperTools/AmazonCorretto')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonCorrettoXs>`
+- `<$AmazonCorrettoSm>`
+- `<$AmazonCorrettoMd>`
+- `<$AmazonCorrettoLg>`
+
+
+
+
 
 ## AmazonCorretto
 

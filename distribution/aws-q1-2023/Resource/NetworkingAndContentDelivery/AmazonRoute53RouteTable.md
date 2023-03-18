@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/NetworkingAndContentDelivery/AmazonRoute53RouteTab
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonRoute53RouteTableXs>`
+- `<$AmazonRoute53RouteTableSm>`
+- `<$AmazonRoute53RouteTableMd>`
+- `<$AmazonRoute53RouteTableLg>`
+
+
+
+
 
 ## AmazonRoute53RouteTable
 

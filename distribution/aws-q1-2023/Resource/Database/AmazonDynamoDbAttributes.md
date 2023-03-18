@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Database/AmazonDynamoDbAttributes')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonDynamoDbAttributesXs>`
+- `<$AmazonDynamoDbAttributesSm>`
+- `<$AmazonDynamoDbAttributesMd>`
+- `<$AmazonDynamoDbAttributesLg>`
+
+
+
+
 
 ## AmazonDynamoDbAttributes
 

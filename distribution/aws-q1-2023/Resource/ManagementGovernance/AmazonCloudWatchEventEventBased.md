@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/ManagementGovernance/AmazonCloudWatchEventEventBas
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonCloudWatchEventEventBasedXs>`
+- `<$AmazonCloudWatchEventEventBasedSm>`
+- `<$AmazonCloudWatchEventEventBasedMd>`
+- `<$AmazonCloudWatchEventEventBasedLg>`
+
+
+
+
 
 ## AmazonCloudWatchEventEventBased
 

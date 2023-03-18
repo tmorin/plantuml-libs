@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTTopic')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTTopicXs>`
+- `<$AwsIoTTopicSm>`
+- `<$AwsIoTTopicMd>`
+- `<$AwsIoTTopicLg>`
+
+
+
+
 
 ## AwsIoTTopic
 

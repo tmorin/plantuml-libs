@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/ManagementGovernance/AwsSystemsManagerAutomation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsSystemsManagerAutomationXs>`
+- `<$AwsSystemsManagerAutomationSm>`
+- `<$AwsSystemsManagerAutomationMd>`
+- `<$AwsSystemsManagerAutomationLg>`
+
+
+
+
 
 ## AwsSystemsManagerAutomation
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/ApplicationIntegration/AmazonEventBridgeSchemaRegi
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonEventBridgeSchemaRegistryXs>`
+- `<$AmazonEventBridgeSchemaRegistrySm>`
+- `<$AmazonEventBridgeSchemaRegistryMd>`
+- `<$AmazonEventBridgeSchemaRegistryLg>`
+
+
+
+
 
 ## AmazonEventBridgeSchemaRegistry
 

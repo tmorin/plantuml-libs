@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/CloudFinancialManagement/SavingsPlans')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SavingsPlansXs>`
+- `<$SavingsPlansSm>`
+- `<$SavingsPlansMd>`
+- `<$SavingsPlansLg>`
+
+
+
+
 
 ## SavingsPlans
 

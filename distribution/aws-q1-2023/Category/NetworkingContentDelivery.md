@@ -17,6 +17,17 @@ include('aws-q1-2023/Category/NetworkingContentDelivery')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NetworkingContentDeliveryXs>`
+- `<$NetworkingContentDeliverySm>`
+- `<$NetworkingContentDeliveryMd>`
+- `<$NetworkingContentDeliveryLg>`
+
+
+
+
 
 ## NetworkingContentDelivery
 

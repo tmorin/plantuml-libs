@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MachineLearning/AmazonAugmentedAiA2I')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonAugmentedAiA2IXs>`
+- `<$AmazonAugmentedAiA2ISm>`
+- `<$AmazonAugmentedAiA2IMd>`
+- `<$AmazonAugmentedAiA2ILg>`
+
+
+
+
 
 ## AmazonAugmentedAiA2I
 

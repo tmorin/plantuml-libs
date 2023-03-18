@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/SecurityIdentityAndCompliance/AwsKeyManagementServ
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsKeyManagementServiceExternalKeyStoreXs>`
+- `<$AwsKeyManagementServiceExternalKeyStoreSm>`
+- `<$AwsKeyManagementServiceExternalKeyStoreMd>`
+- `<$AwsKeyManagementServiceExternalKeyStoreLg>`
+
+
+
+
 
 ## AwsKeyManagementServiceExternalKeyStore
 

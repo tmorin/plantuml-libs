@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/MigrationAndTransfer/AwsMainframeModernizationConv
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsMainframeModernizationConverterXs>`
+- `<$AwsMainframeModernizationConverterSm>`
+- `<$AwsMainframeModernizationConverterMd>`
+- `<$AwsMainframeModernizationConverterLg>`
+
+
+
+
 
 ## AwsMainframeModernizationConverter
 

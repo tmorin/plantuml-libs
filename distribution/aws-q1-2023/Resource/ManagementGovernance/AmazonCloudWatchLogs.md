@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/ManagementGovernance/AmazonCloudWatchLogs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonCloudWatchLogsXs>`
+- `<$AmazonCloudWatchLogsSm>`
+- `<$AmazonCloudWatchLogsMd>`
+- `<$AmazonCloudWatchLogsLg>`
+
+
+
+
 
 ## AmazonCloudWatchLogs
 

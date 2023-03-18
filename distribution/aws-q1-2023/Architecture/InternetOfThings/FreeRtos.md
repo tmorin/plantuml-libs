@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/InternetOfThings/FreeRtos')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FreeRtosXs>`
+- `<$FreeRtosSm>`
+- `<$FreeRtosMd>`
+- `<$FreeRtosLg>`
+
+
+
+
 
 ## FreeRtos
 

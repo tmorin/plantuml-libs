@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Compute/AwsComputeOptimizer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsComputeOptimizerXs>`
+- `<$AwsComputeOptimizerSm>`
+- `<$AwsComputeOptimizerMd>`
+- `<$AwsComputeOptimizerLg>`
+
+
+
+
 
 ## AwsComputeOptimizer
 

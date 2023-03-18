@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MachineLearning/AmazonLex')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonLexXs>`
+- `<$AmazonLexSm>`
+- `<$AmazonLexMd>`
+- `<$AmazonLexLg>`
+
+
+
+
 
 ## AmazonLex
 

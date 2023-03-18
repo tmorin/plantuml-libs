@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Compute/AwsSimSpaceWeaver')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsSimSpaceWeaverXs>`
+- `<$AwsSimSpaceWeaverSm>`
+- `<$AwsSimSpaceWeaverMd>`
+- `<$AwsSimSpaceWeaverLg>`
+
+
+
+
 
 ## AwsSimSpaceWeaver
 

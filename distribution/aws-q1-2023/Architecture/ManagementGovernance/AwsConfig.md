@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/ManagementGovernance/AwsConfig')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsConfigXs>`
+- `<$AwsConfigSm>`
+- `<$AwsConfigMd>`
+- `<$AwsConfigLg>`
+
+
+
+
 
 ## AwsConfig
 

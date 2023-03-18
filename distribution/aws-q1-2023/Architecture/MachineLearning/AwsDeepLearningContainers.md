@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MachineLearning/AwsDeepLearningContainers')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsDeepLearningContainersXs>`
+- `<$AwsDeepLearningContainersSm>`
+- `<$AwsDeepLearningContainersMd>`
+- `<$AwsDeepLearningContainersLg>`
+
+
+
+
 
 ## AwsDeepLearningContainers
 

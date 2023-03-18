@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTThingCamera')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTThingCameraXs>`
+- `<$AwsIoTThingCameraSm>`
+- `<$AwsIoTThingCameraMd>`
+- `<$AwsIoTThingCameraLg>`
+
+
+
+
 
 ## AwsIoTThingCamera
 

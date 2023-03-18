@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/FrontEndWebMobile/AmazonLocationServiceTrack')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonLocationServiceTrackXs>`
+- `<$AmazonLocationServiceTrackSm>`
+- `<$AmazonLocationServiceTrackMd>`
+- `<$AmazonLocationServiceTrackLg>`
+
+
+
+
 
 ## AmazonLocationServiceTrack
 

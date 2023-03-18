@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/GroupIcons/Cloud')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudXs>`
+- `<$CloudSm>`
+- `<$CloudMd>`
+- `<$CloudLg>`
+
+
+
+
 
 ## Cloud
 

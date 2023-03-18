@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/SecurityIdentityCompliance/AwsIamIdentityCente
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIamIdentityCenterXs>`
+- `<$AwsIamIdentityCenterSm>`
+- `<$AwsIamIdentityCenterMd>`
+- `<$AwsIamIdentityCenterLg>`
+
+
+
+
 
 ## AwsIamIdentityCenter
 

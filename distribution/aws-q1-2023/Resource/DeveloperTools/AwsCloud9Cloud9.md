@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/DeveloperTools/AwsCloud9Cloud9')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsCloud9Cloud9Xs>`
+- `<$AwsCloud9Cloud9Sm>`
+- `<$AwsCloud9Cloud9Md>`
+- `<$AwsCloud9Cloud9Lg>`
+
+
+
+
 
 ## AwsCloud9Cloud9
 

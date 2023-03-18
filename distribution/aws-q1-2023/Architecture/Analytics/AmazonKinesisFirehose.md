@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Analytics/AmazonKinesisFirehose')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonKinesisFirehoseXs>`
+- `<$AmazonKinesisFirehoseSm>`
+- `<$AmazonKinesisFirehoseMd>`
+- `<$AmazonKinesisFirehoseLg>`
+
+
+
+
 
 ## AmazonKinesisFirehose
 

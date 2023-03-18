@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTThingMedicalEmergency')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTThingMedicalEmergencyXs>`
+- `<$AwsIoTThingMedicalEmergencySm>`
+- `<$AwsIoTThingMedicalEmergencyMd>`
+- `<$AwsIoTThingMedicalEmergencyLg>`
+
+
+
+
 
 ## AwsIoTThingMedicalEmergency
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/ManagementGovernance/AwsWellArchitectedTool')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsWellArchitectedToolXs>`
+- `<$AwsWellArchitectedToolSm>`
+- `<$AwsWellArchitectedToolMd>`
+- `<$AwsWellArchitectedToolLg>`
+
+
+
+
 
 ## AwsWellArchitectedTool
 

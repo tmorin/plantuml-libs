@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/SecurityIdentityAndCompliance/AwsWafFilteringRule'
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsWafFilteringRuleXs>`
+- `<$AwsWafFilteringRuleSm>`
+- `<$AwsWafFilteringRuleMd>`
+- `<$AwsWafFilteringRuleLg>`
+
+
+
+
 
 ## AwsWafFilteringRule
 

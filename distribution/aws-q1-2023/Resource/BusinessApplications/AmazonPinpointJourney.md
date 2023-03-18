@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/BusinessApplications/AmazonPinpointJourney')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonPinpointJourneyXs>`
+- `<$AmazonPinpointJourneySm>`
+- `<$AmazonPinpointJourneyMd>`
+- `<$AmazonPinpointJourneyLg>`
+
+
+
+
 
 ## AmazonPinpointJourney
 

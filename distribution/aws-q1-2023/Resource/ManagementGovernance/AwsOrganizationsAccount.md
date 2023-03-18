@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/ManagementGovernance/AwsOrganizationsAccount')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsOrganizationsAccountXs>`
+- `<$AwsOrganizationsAccountSm>`
+- `<$AwsOrganizationsAccountMd>`
+- `<$AwsOrganizationsAccountLg>`
+
+
+
+
 
 ## AwsOrganizationsAccount
 

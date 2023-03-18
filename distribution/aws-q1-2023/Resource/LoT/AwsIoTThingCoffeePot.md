@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTThingCoffeePot')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTThingCoffeePotXs>`
+- `<$AwsIoTThingCoffeePotSm>`
+- `<$AwsIoTThingCoffeePotMd>`
+- `<$AwsIoTThingCoffeePotLg>`
+
+
+
+
 
 ## AwsIoTThingCoffeePot
 

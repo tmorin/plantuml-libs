@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/DeveloperTools/AwsCodeArtifact')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsCodeArtifactXs>`
+- `<$AwsCodeArtifactSm>`
+- `<$AwsCodeArtifactMd>`
+- `<$AwsCodeArtifactLg>`
+
+
+
+
 
 ## AwsCodeArtifact
 

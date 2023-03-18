@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Compute/AmazonEc2R5N')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonEc2R5NXs>`
+- `<$AmazonEc2R5NSm>`
+- `<$AmazonEc2R5NMd>`
+- `<$AmazonEc2R5NLg>`
+
+
+
+
 
 ## AmazonEc2R5N
 

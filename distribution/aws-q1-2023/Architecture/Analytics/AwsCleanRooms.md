@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Analytics/AwsCleanRooms')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsCleanRoomsXs>`
+- `<$AwsCleanRoomsSm>`
+- `<$AwsCleanRoomsMd>`
+- `<$AwsCleanRoomsLg>`
+
+
+
+
 
 ## AwsCleanRooms
 

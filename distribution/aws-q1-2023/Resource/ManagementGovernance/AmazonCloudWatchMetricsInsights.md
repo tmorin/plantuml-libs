@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/ManagementGovernance/AmazonCloudWatchMetricsInsigh
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonCloudWatchMetricsInsightsXs>`
+- `<$AmazonCloudWatchMetricsInsightsSm>`
+- `<$AmazonCloudWatchMetricsInsightsMd>`
+- `<$AmazonCloudWatchMetricsInsightsLg>`
+
+
+
+
 
 ## AmazonCloudWatchMetricsInsights
 

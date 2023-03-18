@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/CloudFinancialManagement/ReservedInstanceRepor
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ReservedInstanceReportingXs>`
+- `<$ReservedInstanceReportingSm>`
+- `<$ReservedInstanceReportingMd>`
+- `<$ReservedInstanceReportingLg>`
+
+
+
+
 
 ## ReservedInstanceReporting
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Storage/AmazonSimpleStorageServiceS3StorageLens')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonSimpleStorageServiceS3StorageLensXs>`
+- `<$AmazonSimpleStorageServiceS3StorageLensSm>`
+- `<$AmazonSimpleStorageServiceS3StorageLensMd>`
+- `<$AmazonSimpleStorageServiceS3StorageLensLg>`
+
+
+
+
 
 ## AmazonSimpleStorageServiceS3StorageLens
 

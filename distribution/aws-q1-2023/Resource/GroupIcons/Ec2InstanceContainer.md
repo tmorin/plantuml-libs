@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/GroupIcons/Ec2InstanceContainer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$Ec2InstanceContainerXs>`
+- `<$Ec2InstanceContainerSm>`
+- `<$Ec2InstanceContainerMd>`
+- `<$Ec2InstanceContainerLg>`
+
+
+
+
 
 ## Ec2InstanceContainer
 

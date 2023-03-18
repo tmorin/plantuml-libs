@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/SecurityIdentityCompliance/AmazonGuardDuty')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonGuardDutyXs>`
+- `<$AmazonGuardDutySm>`
+- `<$AmazonGuardDutyMd>`
+- `<$AmazonGuardDutyLg>`
+
+
+
+
 
 ## AmazonGuardDuty
 

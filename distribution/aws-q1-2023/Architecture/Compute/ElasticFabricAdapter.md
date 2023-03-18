@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Compute/ElasticFabricAdapter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ElasticFabricAdapterXs>`
+- `<$ElasticFabricAdapterSm>`
+- `<$ElasticFabricAdapterMd>`
+- `<$ElasticFabricAdapterLg>`
+
+
+
+
 
 ## ElasticFabricAdapter
 

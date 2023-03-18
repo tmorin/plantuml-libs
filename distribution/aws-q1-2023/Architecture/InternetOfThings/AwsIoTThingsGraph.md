@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/InternetOfThings/AwsIoTThingsGraph')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTThingsGraphXs>`
+- `<$AwsIoTThingsGraphSm>`
+- `<$AwsIoTThingsGraphMd>`
+- `<$AwsIoTThingsGraphLg>`
+
+
+
+
 
 ## AwsIoTThingsGraph
 

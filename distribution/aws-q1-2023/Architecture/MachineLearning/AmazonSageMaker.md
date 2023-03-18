@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MachineLearning/AmazonSageMaker')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonSageMakerXs>`
+- `<$AmazonSageMakerSm>`
+- `<$AmazonSageMakerMd>`
+- `<$AmazonSageMakerLg>`
+
+
+
+
 
 ## AmazonSageMaker
 

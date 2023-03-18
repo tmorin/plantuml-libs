@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/BusinessApplications/AmazonPinpoint')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonPinpointXs>`
+- `<$AmazonPinpointSm>`
+- `<$AmazonPinpointMd>`
+- `<$AmazonPinpointLg>`
+
+
+
+
 
 ## AmazonPinpoint
 

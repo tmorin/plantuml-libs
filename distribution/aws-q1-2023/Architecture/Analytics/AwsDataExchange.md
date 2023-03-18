@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Analytics/AwsDataExchange')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsDataExchangeXs>`
+- `<$AwsDataExchangeSm>`
+- `<$AwsDataExchangeMd>`
+- `<$AwsDataExchangeLg>`
+
+
+
+
 
 ## AwsDataExchange
 

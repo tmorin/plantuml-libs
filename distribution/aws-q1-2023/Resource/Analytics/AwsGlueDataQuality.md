@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Analytics/AwsGlueDataQuality')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsGlueDataQualityXs>`
+- `<$AwsGlueDataQualitySm>`
+- `<$AwsGlueDataQualityMd>`
+- `<$AwsGlueDataQualityLg>`
+
+
+
+
 
 ## AwsGlueDataQuality
 

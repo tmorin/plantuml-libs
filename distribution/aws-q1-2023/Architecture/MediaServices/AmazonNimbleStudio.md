@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MediaServices/AmazonNimbleStudio')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonNimbleStudioXs>`
+- `<$AmazonNimbleStudioSm>`
+- `<$AmazonNimbleStudioMd>`
+- `<$AmazonNimbleStudioLg>`
+
+
+
+
 
 ## AmazonNimbleStudio
 

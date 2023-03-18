@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTThingTemperatureVibrationSensor')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTThingTemperatureVibrationSensorXs>`
+- `<$AwsIoTThingTemperatureVibrationSensorSm>`
+- `<$AwsIoTThingTemperatureVibrationSensorMd>`
+- `<$AwsIoTThingTemperatureVibrationSensorLg>`
+
+
+
+
 
 ## AwsIoTThingTemperatureVibrationSensor
 

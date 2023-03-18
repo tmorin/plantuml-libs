@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/ManagementGovernance/AmazonCloudWatchDataProtectio
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonCloudWatchDataProtectionXs>`
+- `<$AmazonCloudWatchDataProtectionSm>`
+- `<$AmazonCloudWatchDataProtectionMd>`
+- `<$AmazonCloudWatchDataProtectionLg>`
+
+
+
+
 
 ## AmazonCloudWatchDataProtection
 

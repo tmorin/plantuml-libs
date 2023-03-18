@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/SecurityIdentityCompliance/AmazonInspector')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonInspectorXs>`
+- `<$AmazonInspectorSm>`
+- `<$AmazonInspectorMd>`
+- `<$AmazonInspectorLg>`
+
+
+
+
 
 ## AmazonInspector
 

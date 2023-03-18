@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/GroupIcons/VpcSubnetPublic')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VpcSubnetPublicXs>`
+- `<$VpcSubnetPublicSm>`
+- `<$VpcSubnetPublicMd>`
+- `<$VpcSubnetPublicLg>`
+
+
+
+
 
 ## VpcSubnetPublic
 

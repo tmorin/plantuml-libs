@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTOverAirUpdate')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTOverAirUpdateXs>`
+- `<$AwsIoTOverAirUpdateSm>`
+- `<$AwsIoTOverAirUpdateMd>`
+- `<$AwsIoTOverAirUpdateLg>`
+
+
+
+
 
 ## AwsIoTOverAirUpdate
 

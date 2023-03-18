@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/ManagementGovernance/AwsTrustedAdvisorChecklist')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsTrustedAdvisorChecklistXs>`
+- `<$AwsTrustedAdvisorChecklistSm>`
+- `<$AwsTrustedAdvisorChecklistMd>`
+- `<$AwsTrustedAdvisorChecklistLg>`
+
+
+
+
 
 ## AwsTrustedAdvisorChecklist
 

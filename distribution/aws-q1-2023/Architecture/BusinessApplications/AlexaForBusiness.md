@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/BusinessApplications/AlexaForBusiness')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AlexaForBusinessXs>`
+- `<$AlexaForBusinessSm>`
+- `<$AlexaForBusinessMd>`
+- `<$AlexaForBusinessLg>`
+
+
+
+
 
 ## AlexaForBusiness
 

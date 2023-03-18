@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTSensor')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTSensorXs>`
+- `<$AwsIoTSensorSm>`
+- `<$AwsIoTSensorMd>`
+- `<$AwsIoTSensorLg>`
+
+
+
+
 
 ## AwsIoTSensor
 

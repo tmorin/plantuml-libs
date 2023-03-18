@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/SecurityIdentityCompliance/AwsDirectoryService
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsDirectoryServiceXs>`
+- `<$AwsDirectoryServiceSm>`
+- `<$AwsDirectoryServiceMd>`
+- `<$AwsDirectoryServiceLg>`
+
+
+
+
 
 ## AwsDirectoryService
 

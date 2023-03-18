@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/ManagementGovernance/AwsTrustedAdvisor')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsTrustedAdvisorXs>`
+- `<$AwsTrustedAdvisorSm>`
+- `<$AwsTrustedAdvisorMd>`
+- `<$AwsTrustedAdvisorLg>`
+
+
+
+
 
 ## AwsTrustedAdvisor
 

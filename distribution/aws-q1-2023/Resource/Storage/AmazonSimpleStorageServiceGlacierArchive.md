@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Storage/AmazonSimpleStorageServiceGlacierArchive')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonSimpleStorageServiceGlacierArchiveXs>`
+- `<$AmazonSimpleStorageServiceGlacierArchiveSm>`
+- `<$AmazonSimpleStorageServiceGlacierArchiveMd>`
+- `<$AmazonSimpleStorageServiceGlacierArchiveLg>`
+
+
+
+
 
 ## AmazonSimpleStorageServiceGlacierArchive
 

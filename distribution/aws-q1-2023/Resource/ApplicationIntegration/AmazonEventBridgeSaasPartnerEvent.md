@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/ApplicationIntegration/AmazonEventBridgeSaasPartne
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonEventBridgeSaasPartnerEventXs>`
+- `<$AmazonEventBridgeSaasPartnerEventSm>`
+- `<$AmazonEventBridgeSaasPartnerEventMd>`
+- `<$AmazonEventBridgeSaasPartnerEventLg>`
+
+
+
+
 
 ## AmazonEventBridgeSaasPartnerEvent
 

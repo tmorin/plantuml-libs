@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Storage/AwsStorageGateway')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsStorageGatewayXs>`
+- `<$AwsStorageGatewaySm>`
+- `<$AwsStorageGatewayMd>`
+- `<$AwsStorageGatewayLg>`
+
+
+
+
 
 ## AwsStorageGateway
 

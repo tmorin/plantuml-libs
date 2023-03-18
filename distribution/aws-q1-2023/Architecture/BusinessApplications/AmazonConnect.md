@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/BusinessApplications/AmazonConnect')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonConnectXs>`
+- `<$AmazonConnectSm>`
+- `<$AmazonConnectMd>`
+- `<$AmazonConnectLg>`
+
+
+
+
 
 ## AmazonConnect
 

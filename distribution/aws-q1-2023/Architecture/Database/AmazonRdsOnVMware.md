@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Database/AmazonRdsOnVMware')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonRdsOnVMwareXs>`
+- `<$AmazonRdsOnVMwareSm>`
+- `<$AmazonRdsOnVMwareMd>`
+- `<$AmazonRdsOnVMwareLg>`
+
+
+
+
 
 ## AmazonRdsOnVMware
 

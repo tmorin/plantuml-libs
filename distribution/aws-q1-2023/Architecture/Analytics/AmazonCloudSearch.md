@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Analytics/AmazonCloudSearch')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonCloudSearchXs>`
+- `<$AmazonCloudSearchSm>`
+- `<$AmazonCloudSearchMd>`
+- `<$AmazonCloudSearchLg>`
+
+
+
+
 
 ## AmazonCloudSearch
 

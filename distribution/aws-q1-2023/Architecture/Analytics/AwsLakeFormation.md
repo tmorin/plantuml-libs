@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Analytics/AwsLakeFormation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsLakeFormationXs>`
+- `<$AwsLakeFormationSm>`
+- `<$AwsLakeFormationMd>`
+- `<$AwsLakeFormationLg>`
+
+
+
+
 
 ## AwsLakeFormation
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MachineLearning/AwsDeepRacer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsDeepRacerXs>`
+- `<$AwsDeepRacerSm>`
+- `<$AwsDeepRacerMd>`
+- `<$AwsDeepRacerLg>`
+
+
+
+
 
 ## AwsDeepRacer
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/ApplicationIntegration/AmazonEventBridgeCustomEven
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonEventBridgeCustomEventBusXs>`
+- `<$AmazonEventBridgeCustomEventBusSm>`
+- `<$AmazonEventBridgeCustomEventBusMd>`
+- `<$AmazonEventBridgeCustomEventBusLg>`
+
+
+
+
 
 ## AmazonEventBridgeCustomEventBus
 

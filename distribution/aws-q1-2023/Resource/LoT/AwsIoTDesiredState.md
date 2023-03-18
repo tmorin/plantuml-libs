@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTDesiredState')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTDesiredStateXs>`
+- `<$AwsIoTDesiredStateSm>`
+- `<$AwsIoTDesiredStateMd>`
+- `<$AwsIoTDesiredStateLg>`
+
+
+
+
 
 ## AwsIoTDesiredState
 

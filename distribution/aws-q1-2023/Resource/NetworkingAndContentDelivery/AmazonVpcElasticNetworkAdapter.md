@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/NetworkingAndContentDelivery/AmazonVpcElasticNetwo
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonVpcElasticNetworkAdapterXs>`
+- `<$AmazonVpcElasticNetworkAdapterSm>`
+- `<$AmazonVpcElasticNetworkAdapterMd>`
+- `<$AmazonVpcElasticNetworkAdapterLg>`
+
+
+
+
 
 ## AmazonVpcElasticNetworkAdapter
 

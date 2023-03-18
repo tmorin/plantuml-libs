@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/ManagementGovernance/AwsApplicationAutoScaling
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsApplicationAutoScalingXs>`
+- `<$AwsApplicationAutoScalingSm>`
+- `<$AwsApplicationAutoScalingMd>`
+- `<$AwsApplicationAutoScalingLg>`
+
+
+
+
 
 ## AwsApplicationAutoScaling
 

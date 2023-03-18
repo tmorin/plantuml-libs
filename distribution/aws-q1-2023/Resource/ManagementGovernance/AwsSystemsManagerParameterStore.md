@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/ManagementGovernance/AwsSystemsManagerParameterSto
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsSystemsManagerParameterStoreXs>`
+- `<$AwsSystemsManagerParameterStoreSm>`
+- `<$AwsSystemsManagerParameterStoreMd>`
+- `<$AwsSystemsManagerParameterStoreLg>`
+
+
+
+
 
 ## AwsSystemsManagerParameterStore
 

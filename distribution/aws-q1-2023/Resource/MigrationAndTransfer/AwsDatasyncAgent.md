@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/MigrationAndTransfer/AwsDatasyncAgent')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsDatasyncAgentXs>`
+- `<$AwsDatasyncAgentSm>`
+- `<$AwsDatasyncAgentMd>`
+- `<$AwsDatasyncAgentLg>`
+
+
+
+
 
 ## AwsDatasyncAgent
 

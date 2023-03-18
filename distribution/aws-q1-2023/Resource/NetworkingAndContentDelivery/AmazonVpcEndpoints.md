@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/NetworkingAndContentDelivery/AmazonVpcEndpoints')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonVpcEndpointsXs>`
+- `<$AmazonVpcEndpointsSm>`
+- `<$AmazonVpcEndpointsMd>`
+- `<$AmazonVpcEndpointsLg>`
+
+
+
+
 
 ## AmazonVpcEndpoints
 

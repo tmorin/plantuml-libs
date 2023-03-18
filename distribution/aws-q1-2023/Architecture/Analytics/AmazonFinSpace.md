@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Analytics/AmazonFinSpace')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonFinSpaceXs>`
+- `<$AmazonFinSpaceSm>`
+- `<$AmazonFinSpaceMd>`
+- `<$AmazonFinSpaceLg>`
+
+
+
+
 
 ## AmazonFinSpace
 

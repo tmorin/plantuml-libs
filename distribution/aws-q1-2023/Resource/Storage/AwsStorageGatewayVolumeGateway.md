@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Storage/AwsStorageGatewayVolumeGateway')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsStorageGatewayVolumeGatewayXs>`
+- `<$AwsStorageGatewayVolumeGatewaySm>`
+- `<$AwsStorageGatewayVolumeGatewayMd>`
+- `<$AwsStorageGatewayVolumeGatewayLg>`
+
+
+
+
 
 ## AwsStorageGatewayVolumeGateway
 

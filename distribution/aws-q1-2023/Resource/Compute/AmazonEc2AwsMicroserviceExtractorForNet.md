@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Compute/AmazonEc2AwsMicroserviceExtractorForNet')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonEc2AwsMicroserviceExtractorForNetXs>`
+- `<$AmazonEc2AwsMicroserviceExtractorForNetSm>`
+- `<$AmazonEc2AwsMicroserviceExtractorForNetMd>`
+- `<$AmazonEc2AwsMicroserviceExtractorForNetLg>`
+
+
+
+
 
 ## AmazonEc2AwsMicroserviceExtractorForNet
 

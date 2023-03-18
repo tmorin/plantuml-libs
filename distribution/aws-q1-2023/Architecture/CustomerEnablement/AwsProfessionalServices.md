@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/CustomerEnablement/AwsProfessionalServices')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsProfessionalServicesXs>`
+- `<$AwsProfessionalServicesSm>`
+- `<$AwsProfessionalServicesMd>`
+- `<$AwsProfessionalServicesLg>`
+
+
+
+
 
 ## AwsProfessionalServices
 

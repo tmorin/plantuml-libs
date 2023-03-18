@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Compute/AmazonGenomicsCli')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonGenomicsCliXs>`
+- `<$AmazonGenomicsCliSm>`
+- `<$AmazonGenomicsCliMd>`
+- `<$AmazonGenomicsCliLg>`
+
+
+
+
 
 ## AmazonGenomicsCli
 

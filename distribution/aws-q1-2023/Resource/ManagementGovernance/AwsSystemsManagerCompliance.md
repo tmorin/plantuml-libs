@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/ManagementGovernance/AwsSystemsManagerCompliance')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsSystemsManagerComplianceXs>`
+- `<$AwsSystemsManagerComplianceSm>`
+- `<$AwsSystemsManagerComplianceMd>`
+- `<$AwsSystemsManagerComplianceLg>`
+
+
+
+
 
 ## AwsSystemsManagerCompliance
 

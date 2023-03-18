@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Containers/AmazonEksDistro')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonEksDistroXs>`
+- `<$AmazonEksDistroSm>`
+- `<$AmazonEksDistroMd>`
+- `<$AmazonEksDistroLg>`
+
+
+
+
 
 ## AmazonEksDistro
 

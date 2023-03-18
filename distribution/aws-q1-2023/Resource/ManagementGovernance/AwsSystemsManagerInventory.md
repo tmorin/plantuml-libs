@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/ManagementGovernance/AwsSystemsManagerInventory')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsSystemsManagerInventoryXs>`
+- `<$AwsSystemsManagerInventorySm>`
+- `<$AwsSystemsManagerInventoryMd>`
+- `<$AwsSystemsManagerInventoryLg>`
+
+
+
+
 
 ## AwsSystemsManagerInventory
 

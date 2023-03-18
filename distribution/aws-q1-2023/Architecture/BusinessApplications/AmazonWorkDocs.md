@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/BusinessApplications/AmazonWorkDocs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonWorkDocsXs>`
+- `<$AmazonWorkDocsSm>`
+- `<$AmazonWorkDocsMd>`
+- `<$AmazonWorkDocsLg>`
+
+
+
+
 
 ## AmazonWorkDocs
 

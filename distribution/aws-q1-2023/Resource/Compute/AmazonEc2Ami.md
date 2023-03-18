@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Compute/AmazonEc2Ami')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonEc2AmiXs>`
+- `<$AmazonEc2AmiSm>`
+- `<$AmazonEc2AmiMd>`
+- `<$AmazonEc2AmiLg>`
+
+
+
+
 
 ## AmazonEc2Ami
 

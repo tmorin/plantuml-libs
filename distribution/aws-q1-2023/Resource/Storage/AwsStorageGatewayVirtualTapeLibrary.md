@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Storage/AwsStorageGatewayVirtualTapeLibrary')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsStorageGatewayVirtualTapeLibraryXs>`
+- `<$AwsStorageGatewayVirtualTapeLibrarySm>`
+- `<$AwsStorageGatewayVirtualTapeLibraryMd>`
+- `<$AwsStorageGatewayVirtualTapeLibraryLg>`
+
+
+
+
 
 ## AwsStorageGatewayVirtualTapeLibrary
 

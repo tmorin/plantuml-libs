@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Compute/AmazonEc2Z1DInstance')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonEc2Z1DInstanceXs>`
+- `<$AmazonEc2Z1DInstanceSm>`
+- `<$AmazonEc2Z1DInstanceMd>`
+- `<$AmazonEc2Z1DInstanceLg>`
+
+
+
+
 
 ## AmazonEc2Z1DInstance
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/SecurityIdentityAndCompliance/AwsWafBotControl')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsWafBotControlXs>`
+- `<$AwsWafBotControlSm>`
+- `<$AwsWafBotControlMd>`
+- `<$AwsWafBotControlLg>`
+
+
+
+
 
 ## AwsWafBotControl
 

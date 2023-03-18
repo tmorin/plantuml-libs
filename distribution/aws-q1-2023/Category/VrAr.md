@@ -17,6 +17,17 @@ include('aws-q1-2023/Category/VrAr')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VrArXs>`
+- `<$VrArSm>`
+- `<$VrArMd>`
+- `<$VrArLg>`
+
+
+
+
 
 ## VrAr
 

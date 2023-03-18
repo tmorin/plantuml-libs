@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/NetworkingAndContentDelivery/AmazonVpcReachability
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonVpcReachabilityAnalyzerXs>`
+- `<$AmazonVpcReachabilityAnalyzerSm>`
+- `<$AmazonVpcReachabilityAnalyzerMd>`
+- `<$AmazonVpcReachabilityAnalyzerLg>`
+
+
+
+
 
 ## AmazonVpcReachabilityAnalyzer
 

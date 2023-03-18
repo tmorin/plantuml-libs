@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTThingGeneric')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTThingGenericXs>`
+- `<$AwsIoTThingGenericSm>`
+- `<$AwsIoTThingGenericMd>`
+- `<$AwsIoTThingGenericLg>`
+
+
+
+
 
 ## AwsIoTThingGeneric
 

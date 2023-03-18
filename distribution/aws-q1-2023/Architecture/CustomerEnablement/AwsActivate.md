@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/CustomerEnablement/AwsActivate')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsActivateXs>`
+- `<$AwsActivateSm>`
+- `<$AwsActivateMd>`
+- `<$AwsActivateLg>`
+
+
+
+
 
 ## AwsActivate
 

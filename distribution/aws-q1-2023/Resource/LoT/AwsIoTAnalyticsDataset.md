@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTAnalyticsDataset')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTAnalyticsDatasetXs>`
+- `<$AwsIoTAnalyticsDatasetSm>`
+- `<$AwsIoTAnalyticsDatasetMd>`
+- `<$AwsIoTAnalyticsDatasetLg>`
+
+
+
+
 
 ## AwsIoTAnalyticsDataset
 

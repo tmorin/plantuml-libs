@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Games/AmazonGameLift')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonGameLiftXs>`
+- `<$AmazonGameLiftSm>`
+- `<$AmazonGameLiftMd>`
+- `<$AmazonGameLiftLg>`
+
+
+
+
 
 ## AmazonGameLift
 

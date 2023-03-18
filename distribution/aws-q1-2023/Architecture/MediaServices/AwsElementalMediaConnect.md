@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MediaServices/AwsElementalMediaConnect')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsElementalMediaConnectXs>`
+- `<$AwsElementalMediaConnectSm>`
+- `<$AwsElementalMediaConnectMd>`
+- `<$AwsElementalMediaConnectLg>`
+
+
+
+
 
 ## AwsElementalMediaConnect
 

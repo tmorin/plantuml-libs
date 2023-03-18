@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Storage/AmazonSimpleStorageServiceS3ObjectLambdaAc
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonSimpleStorageServiceS3ObjectLambdaAccessPointsXs>`
+- `<$AmazonSimpleStorageServiceS3ObjectLambdaAccessPointsSm>`
+- `<$AmazonSimpleStorageServiceS3ObjectLambdaAccessPointsMd>`
+- `<$AmazonSimpleStorageServiceS3ObjectLambdaAccessPointsLg>`
+
+
+
+
 
 ## AmazonSimpleStorageServiceS3ObjectLambdaAccessPoints
 

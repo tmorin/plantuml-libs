@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Database/AmazonDocumentDb')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonDocumentDbXs>`
+- `<$AmazonDocumentDbSm>`
+- `<$AmazonDocumentDbMd>`
+- `<$AmazonDocumentDbLg>`
+
+
+
+
 
 ## AmazonDocumentDb
 

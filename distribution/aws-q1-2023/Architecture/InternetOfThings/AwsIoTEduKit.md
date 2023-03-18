@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/InternetOfThings/AwsIoTEduKit')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTEduKitXs>`
+- `<$AwsIoTEduKitSm>`
+- `<$AwsIoTEduKitMd>`
+- `<$AwsIoTEduKitLg>`
+
+
+
+
 
 ## AwsIoTEduKit
 

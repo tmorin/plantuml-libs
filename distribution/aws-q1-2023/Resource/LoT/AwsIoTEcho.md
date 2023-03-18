@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTEcho')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTEchoXs>`
+- `<$AwsIoTEchoSm>`
+- `<$AwsIoTEchoMd>`
+- `<$AwsIoTEchoLg>`
+
+
+
+
 
 ## AwsIoTEcho
 

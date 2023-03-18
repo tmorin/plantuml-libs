@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Games/Open3DEngine')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$Open3DEngineXs>`
+- `<$Open3DEngineSm>`
+- `<$Open3DEngineMd>`
+- `<$Open3DEngineLg>`
+
+
+
+
 
 ## Open3DEngine
 

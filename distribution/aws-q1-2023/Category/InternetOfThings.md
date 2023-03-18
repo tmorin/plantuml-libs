@@ -17,6 +17,17 @@ include('aws-q1-2023/Category/InternetOfThings')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InternetOfThingsXs>`
+- `<$InternetOfThingsSm>`
+- `<$InternetOfThingsMd>`
+- `<$InternetOfThingsLg>`
+
+
+
+
 
 ## InternetOfThings
 

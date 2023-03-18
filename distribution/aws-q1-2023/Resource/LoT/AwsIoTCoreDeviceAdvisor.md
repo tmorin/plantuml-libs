@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTCoreDeviceAdvisor')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTCoreDeviceAdvisorXs>`
+- `<$AwsIoTCoreDeviceAdvisorSm>`
+- `<$AwsIoTCoreDeviceAdvisorMd>`
+- `<$AwsIoTCoreDeviceAdvisorLg>`
+
+
+
+
 
 ## AwsIoTCoreDeviceAdvisor
 

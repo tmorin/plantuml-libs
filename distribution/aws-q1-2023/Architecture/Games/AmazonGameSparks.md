@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Games/AmazonGameSparks')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonGameSparksXs>`
+- `<$AmazonGameSparksSm>`
+- `<$AmazonGameSparksMd>`
+- `<$AmazonGameSparksLg>`
+
+
+
+
 
 ## AmazonGameSparks
 

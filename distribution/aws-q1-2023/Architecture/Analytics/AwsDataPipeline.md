@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Analytics/AwsDataPipeline')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsDataPipelineXs>`
+- `<$AwsDataPipelineSm>`
+- `<$AwsDataPipelineMd>`
+- `<$AwsDataPipelineLg>`
+
+
+
+
 
 ## AwsDataPipeline
 

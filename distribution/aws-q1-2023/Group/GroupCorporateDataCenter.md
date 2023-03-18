@@ -17,6 +17,17 @@ include('aws-q1-2023/Group/GroupCorporateDataCenter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GroupCorporateDataCenterXs>`
+- `<$GroupCorporateDataCenterSm>`
+- `<$GroupCorporateDataCenterMd>`
+- `<$GroupCorporateDataCenterLg>`
+
+
+
+
 
 ## GroupCorporateDataCenter
 

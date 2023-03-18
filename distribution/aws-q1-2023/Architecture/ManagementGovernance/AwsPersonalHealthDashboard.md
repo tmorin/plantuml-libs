@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/ManagementGovernance/AwsPersonalHealthDashboar
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsPersonalHealthDashboardXs>`
+- `<$AwsPersonalHealthDashboardSm>`
+- `<$AwsPersonalHealthDashboardMd>`
+- `<$AwsPersonalHealthDashboardLg>`
+
+
+
+
 
 ## AwsPersonalHealthDashboard
 

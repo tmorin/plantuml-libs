@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Storage/AwsBackupCompute')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsBackupComputeXs>`
+- `<$AwsBackupComputeSm>`
+- `<$AwsBackupComputeMd>`
+- `<$AwsBackupComputeLg>`
+
+
+
+
 
 ## AwsBackupCompute
 

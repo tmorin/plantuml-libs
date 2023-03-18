@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Blockchain/AmazonManagedBlockchain')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonManagedBlockchainXs>`
+- `<$AmazonManagedBlockchainSm>`
+- `<$AmazonManagedBlockchainMd>`
+- `<$AmazonManagedBlockchainLg>`
+
+
+
+
 
 ## AmazonManagedBlockchain
 

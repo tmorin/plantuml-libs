@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/GeneralIcons/Servers')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServersXs>`
+- `<$ServersSm>`
+- `<$ServersMd>`
+- `<$ServersLg>`
+
+
+
+
 
 ## Servers
 

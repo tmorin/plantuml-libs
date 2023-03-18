@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Compute/AwsThinkboxXMesh')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsThinkboxXMeshXs>`
+- `<$AwsThinkboxXMeshSm>`
+- `<$AwsThinkboxXMeshMd>`
+- `<$AwsThinkboxXMeshLg>`
+
+
+
+
 
 ## AwsThinkboxXMesh
 

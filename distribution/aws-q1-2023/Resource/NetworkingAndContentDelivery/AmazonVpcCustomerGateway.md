@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/NetworkingAndContentDelivery/AmazonVpcCustomerGate
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonVpcCustomerGatewayXs>`
+- `<$AmazonVpcCustomerGatewaySm>`
+- `<$AmazonVpcCustomerGatewayMd>`
+- `<$AmazonVpcCustomerGatewayLg>`
+
+
+
+
 
 ## AmazonVpcCustomerGateway
 

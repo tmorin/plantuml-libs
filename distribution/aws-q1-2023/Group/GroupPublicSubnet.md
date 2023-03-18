@@ -17,6 +17,17 @@ include('aws-q1-2023/Group/GroupPublicSubnet')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GroupPublicSubnetXs>`
+- `<$GroupPublicSubnetSm>`
+- `<$GroupPublicSubnetMd>`
+- `<$GroupPublicSubnetLg>`
+
+
+
+
 
 ## GroupPublicSubnet
 

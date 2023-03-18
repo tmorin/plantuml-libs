@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/InternetOfThings/AwsIoTGreengrass')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTGreengrassXs>`
+- `<$AwsIoTGreengrassSm>`
+- `<$AwsIoTGreengrassMd>`
+- `<$AwsIoTGreengrassLg>`
+
+
+
+
 
 ## AwsIoTGreengrass
 

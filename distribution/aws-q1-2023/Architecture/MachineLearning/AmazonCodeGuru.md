@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MachineLearning/AmazonCodeGuru')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonCodeGuruXs>`
+- `<$AmazonCodeGuruSm>`
+- `<$AmazonCodeGuruMd>`
+- `<$AmazonCodeGuruLg>`
+
+
+
+
 
 ## AmazonCodeGuru
 

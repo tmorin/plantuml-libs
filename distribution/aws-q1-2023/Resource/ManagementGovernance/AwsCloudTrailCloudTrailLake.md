@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/ManagementGovernance/AwsCloudTrailCloudTrailLake')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsCloudTrailCloudTrailLakeXs>`
+- `<$AwsCloudTrailCloudTrailLakeSm>`
+- `<$AwsCloudTrailCloudTrailLakeMd>`
+- `<$AwsCloudTrailCloudTrailLakeLg>`
+
+
+
+
 
 ## AwsCloudTrailCloudTrailLake
 

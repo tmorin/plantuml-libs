@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/SecurityIdentityCompliance/AwsResourceAccessMa
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsResourceAccessManagerXs>`
+- `<$AwsResourceAccessManagerSm>`
+- `<$AwsResourceAccessManagerMd>`
+- `<$AwsResourceAccessManagerLg>`
+
+
+
+
 
 ## AwsResourceAccessManager
 

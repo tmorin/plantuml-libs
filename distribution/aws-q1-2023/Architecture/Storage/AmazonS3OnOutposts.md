@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Storage/AmazonS3OnOutposts')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonS3OnOutpostsXs>`
+- `<$AmazonS3OnOutpostsSm>`
+- `<$AmazonS3OnOutpostsMd>`
+- `<$AmazonS3OnOutpostsLg>`
+
+
+
+
 
 ## AmazonS3OnOutposts
 

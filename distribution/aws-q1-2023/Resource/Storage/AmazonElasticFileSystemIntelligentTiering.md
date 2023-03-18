@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Storage/AmazonElasticFileSystemIntelligentTiering'
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonElasticFileSystemIntelligentTieringXs>`
+- `<$AmazonElasticFileSystemIntelligentTieringSm>`
+- `<$AmazonElasticFileSystemIntelligentTieringMd>`
+- `<$AmazonElasticFileSystemIntelligentTieringLg>`
+
+
+
+
 
 ## AmazonElasticFileSystemIntelligentTiering
 

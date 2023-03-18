@@ -17,6 +17,17 @@ include('aws-q1-2023/Category/SecurityIdentityCompliance')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SecurityIdentityComplianceXs>`
+- `<$SecurityIdentityComplianceSm>`
+- `<$SecurityIdentityComplianceMd>`
+- `<$SecurityIdentityComplianceLg>`
+
+
+
+
 
 ## SecurityIdentityCompliance
 

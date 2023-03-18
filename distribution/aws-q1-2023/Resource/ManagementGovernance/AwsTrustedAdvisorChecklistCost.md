@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/ManagementGovernance/AwsTrustedAdvisorChecklistCos
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsTrustedAdvisorChecklistCostXs>`
+- `<$AwsTrustedAdvisorChecklistCostSm>`
+- `<$AwsTrustedAdvisorChecklistCostMd>`
+- `<$AwsTrustedAdvisorChecklistCostLg>`
+
+
+
+
 
 ## AwsTrustedAdvisorChecklistCost
 

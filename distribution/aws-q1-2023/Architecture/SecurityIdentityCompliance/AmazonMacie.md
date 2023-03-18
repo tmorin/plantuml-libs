@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/SecurityIdentityCompliance/AmazonMacie')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonMacieXs>`
+- `<$AmazonMacieSm>`
+- `<$AmazonMacieMd>`
+- `<$AmazonMacieLg>`
+
+
+
+
 
 ## AmazonMacie
 

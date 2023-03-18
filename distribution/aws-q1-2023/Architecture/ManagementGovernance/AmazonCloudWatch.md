@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/ManagementGovernance/AmazonCloudWatch')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonCloudWatchXs>`
+- `<$AmazonCloudWatchSm>`
+- `<$AmazonCloudWatchMd>`
+- `<$AmazonCloudWatchLg>`
+
+
+
+
 
 ## AmazonCloudWatch
 

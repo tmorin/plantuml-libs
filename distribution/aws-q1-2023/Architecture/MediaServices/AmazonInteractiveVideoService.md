@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MediaServices/AmazonInteractiveVideoService')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonInteractiveVideoServiceXs>`
+- `<$AmazonInteractiveVideoServiceSm>`
+- `<$AmazonInteractiveVideoServiceMd>`
+- `<$AmazonInteractiveVideoServiceLg>`
+
+
+
+
 
 ## AmazonInteractiveVideoService
 

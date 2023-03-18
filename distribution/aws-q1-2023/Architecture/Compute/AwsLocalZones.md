@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Compute/AwsLocalZones')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsLocalZonesXs>`
+- `<$AwsLocalZonesSm>`
+- `<$AwsLocalZonesMd>`
+- `<$AwsLocalZonesLg>`
+
+
+
+
 
 ## AwsLocalZones
 

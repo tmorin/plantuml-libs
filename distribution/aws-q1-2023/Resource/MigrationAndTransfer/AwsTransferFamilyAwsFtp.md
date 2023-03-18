@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/MigrationAndTransfer/AwsTransferFamilyAwsFtp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsTransferFamilyAwsFtpXs>`
+- `<$AwsTransferFamilyAwsFtpSm>`
+- `<$AwsTransferFamilyAwsFtpMd>`
+- `<$AwsTransferFamilyAwsFtpLg>`
+
+
+
+
 
 ## AwsTransferFamilyAwsFtp
 

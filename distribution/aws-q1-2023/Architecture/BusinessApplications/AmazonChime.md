@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/BusinessApplications/AmazonChime')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonChimeXs>`
+- `<$AmazonChimeSm>`
+- `<$AmazonChimeMd>`
+- `<$AmazonChimeLg>`
+
+
+
+
 
 ## AmazonChime
 

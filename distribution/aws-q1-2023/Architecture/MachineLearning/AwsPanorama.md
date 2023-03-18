@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MachineLearning/AwsPanorama')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsPanoramaXs>`
+- `<$AwsPanoramaSm>`
+- `<$AwsPanoramaMd>`
+- `<$AwsPanoramaLg>`
+
+
+
+
 
 ## AwsPanorama
 

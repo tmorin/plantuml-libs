@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Compute/AwsOutpostsFamily')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsOutpostsFamilyXs>`
+- `<$AwsOutpostsFamilySm>`
+- `<$AwsOutpostsFamilyMd>`
+- `<$AwsOutpostsFamilyLg>`
+
+
+
+
 
 ## AwsOutpostsFamily
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Category/CloudFinancialManagement')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudFinancialManagementXs>`
+- `<$CloudFinancialManagementSm>`
+- `<$CloudFinancialManagementMd>`
+- `<$CloudFinancialManagementLg>`
+
+
+
+
 
 ## CloudFinancialManagement
 

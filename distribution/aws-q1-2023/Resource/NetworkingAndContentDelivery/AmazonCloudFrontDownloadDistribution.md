@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/NetworkingAndContentDelivery/AmazonCloudFrontDownl
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonCloudFrontDownloadDistributionXs>`
+- `<$AmazonCloudFrontDownloadDistributionSm>`
+- `<$AmazonCloudFrontDownloadDistributionMd>`
+- `<$AmazonCloudFrontDownloadDistributionLg>`
+
+
+
+
 
 ## AmazonCloudFrontDownloadDistribution
 

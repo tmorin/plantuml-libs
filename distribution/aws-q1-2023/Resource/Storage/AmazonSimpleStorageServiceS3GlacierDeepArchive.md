@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Storage/AmazonSimpleStorageServiceS3GlacierDeepArc
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonSimpleStorageServiceS3GlacierDeepArchiveXs>`
+- `<$AmazonSimpleStorageServiceS3GlacierDeepArchiveSm>`
+- `<$AmazonSimpleStorageServiceS3GlacierDeepArchiveMd>`
+- `<$AmazonSimpleStorageServiceS3GlacierDeepArchiveLg>`
+
+
+
+
 
 ## AmazonSimpleStorageServiceS3GlacierDeepArchive
 

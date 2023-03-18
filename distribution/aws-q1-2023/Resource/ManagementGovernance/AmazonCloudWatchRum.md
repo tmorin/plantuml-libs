@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/ManagementGovernance/AmazonCloudWatchRum')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonCloudWatchRumXs>`
+- `<$AmazonCloudWatchRumSm>`
+- `<$AmazonCloudWatchRumMd>`
+- `<$AmazonCloudWatchRumLg>`
+
+
+
+
 
 ## AmazonCloudWatchRum
 

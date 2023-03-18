@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/NetworkingAndContentDelivery/AwsCloudWanCoreNetwor
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsCloudWanCoreNetworkEdgeXs>`
+- `<$AwsCloudWanCoreNetworkEdgeSm>`
+- `<$AwsCloudWanCoreNetworkEdgeMd>`
+- `<$AwsCloudWanCoreNetworkEdgeLg>`
+
+
+
+
 
 ## AwsCloudWanCoreNetworkEdge
 

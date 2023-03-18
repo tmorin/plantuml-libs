@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/NetworkingContentDelivery/AwsGlobalAccelerator
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsGlobalAcceleratorXs>`
+- `<$AwsGlobalAcceleratorSm>`
+- `<$AwsGlobalAcceleratorMd>`
+- `<$AwsGlobalAcceleratorLg>`
+
+
+
+
 
 ## AwsGlobalAccelerator
 

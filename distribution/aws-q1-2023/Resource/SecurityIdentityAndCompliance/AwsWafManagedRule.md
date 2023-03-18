@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/SecurityIdentityAndCompliance/AwsWafManagedRule')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsWafManagedRuleXs>`
+- `<$AwsWafManagedRuleSm>`
+- `<$AwsWafManagedRuleMd>`
+- `<$AwsWafManagedRuleLg>`
+
+
+
+
 
 ## AwsWafManagedRule
 

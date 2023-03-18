@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTRule')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTRuleXs>`
+- `<$AwsIoTRuleSm>`
+- `<$AwsIoTRuleMd>`
+- `<$AwsIoTRuleLg>`
+
+
+
+
 
 ## AwsIoTRule
 

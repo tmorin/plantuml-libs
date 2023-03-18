@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MachineLearning/AmazonForecast')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonForecastXs>`
+- `<$AmazonForecastSm>`
+- `<$AmazonForecastMd>`
+- `<$AmazonForecastLg>`
+
+
+
+
 
 ## AmazonForecast
 

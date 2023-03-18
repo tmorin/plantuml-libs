@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/GeneralIcons/Toolkit')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ToolkitXs>`
+- `<$ToolkitSm>`
+- `<$ToolkitMd>`
+- `<$ToolkitLg>`
+
+
+
+
 
 ## Toolkit
 

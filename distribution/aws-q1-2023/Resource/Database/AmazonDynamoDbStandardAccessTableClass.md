@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Database/AmazonDynamoDbStandardAccessTableClass')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonDynamoDbStandardAccessTableClassXs>`
+- `<$AmazonDynamoDbStandardAccessTableClassSm>`
+- `<$AmazonDynamoDbStandardAccessTableClassMd>`
+- `<$AmazonDynamoDbStandardAccessTableClassLg>`
+
+
+
+
 
 ## AmazonDynamoDbStandardAccessTableClass
 

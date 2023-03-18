@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Storage/AmazonFileCacheS3LinkedDatasets')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonFileCacheS3LinkedDatasetsXs>`
+- `<$AmazonFileCacheS3LinkedDatasetsSm>`
+- `<$AmazonFileCacheS3LinkedDatasetsMd>`
+- `<$AmazonFileCacheS3LinkedDatasetsLg>`
+
+
+
+
 
 ## AmazonFileCacheS3LinkedDatasets
 

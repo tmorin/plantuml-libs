@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/GeneralIcons/AwsMarketplaceLight')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsMarketplaceLightXs>`
+- `<$AwsMarketplaceLightSm>`
+- `<$AwsMarketplaceLightMd>`
+- `<$AwsMarketplaceLightLg>`
+
+
+
+
 
 ## AwsMarketplaceLight
 

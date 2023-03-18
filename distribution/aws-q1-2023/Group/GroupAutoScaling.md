@@ -17,6 +17,17 @@ include('aws-q1-2023/Group/GroupAutoScaling')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GroupAutoScalingXs>`
+- `<$GroupAutoScalingSm>`
+- `<$GroupAutoScalingMd>`
+- `<$GroupAutoScalingLg>`
+
+
+
+
 
 ## GroupAutoScaling
 

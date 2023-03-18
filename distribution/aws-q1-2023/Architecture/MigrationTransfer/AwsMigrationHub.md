@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MigrationTransfer/AwsMigrationHub')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsMigrationHubXs>`
+- `<$AwsMigrationHubSm>`
+- `<$AwsMigrationHubMd>`
+- `<$AwsMigrationHubLg>`
+
+
+
+
 
 ## AwsMigrationHub
 

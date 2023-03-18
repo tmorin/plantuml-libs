@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/GroupIcons/AutoScaling')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AutoScalingXs>`
+- `<$AutoScalingSm>`
+- `<$AutoScalingMd>`
+- `<$AutoScalingLg>`
+
+
+
+
 
 ## AutoScaling
 

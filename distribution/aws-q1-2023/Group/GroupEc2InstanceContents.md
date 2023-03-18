@@ -17,6 +17,17 @@ include('aws-q1-2023/Group/GroupEc2InstanceContents')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GroupEc2InstanceContentsXs>`
+- `<$GroupEc2InstanceContentsSm>`
+- `<$GroupEc2InstanceContentsMd>`
+- `<$GroupEc2InstanceContentsLg>`
+
+
+
+
 
 ## GroupEc2InstanceContents
 

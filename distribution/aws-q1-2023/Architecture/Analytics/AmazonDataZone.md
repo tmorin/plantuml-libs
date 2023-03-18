@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Analytics/AmazonDataZone')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonDataZoneXs>`
+- `<$AmazonDataZoneSm>`
+- `<$AmazonDataZoneMd>`
+- `<$AmazonDataZoneLg>`
+
+
+
+
 
 ## AmazonDataZone
 

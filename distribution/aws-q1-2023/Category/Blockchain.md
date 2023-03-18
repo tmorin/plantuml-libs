@@ -17,6 +17,17 @@ include('aws-q1-2023/Category/Blockchain')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BlockchainXs>`
+- `<$BlockchainSm>`
+- `<$BlockchainMd>`
+- `<$BlockchainLg>`
+
+
+
+
 
 ## Blockchain
 

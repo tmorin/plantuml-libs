@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/SecurityIdentityCompliance/AwsKeyManagementSer
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsKeyManagementServiceXs>`
+- `<$AwsKeyManagementServiceSm>`
+- `<$AwsKeyManagementServiceMd>`
+- `<$AwsKeyManagementServiceLg>`
+
+
+
+
 
 ## AwsKeyManagementService
 

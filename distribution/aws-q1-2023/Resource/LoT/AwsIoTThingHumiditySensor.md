@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTThingHumiditySensor')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTThingHumiditySensorXs>`
+- `<$AwsIoTThingHumiditySensorSm>`
+- `<$AwsIoTThingHumiditySensorMd>`
+- `<$AwsIoTThingHumiditySensorLg>`
+
+
+
+
 
 ## AwsIoTThingHumiditySensor
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/MediaServices/AwsElementalAppliancesSoftware')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsElementalAppliancesSoftwareXs>`
+- `<$AwsElementalAppliancesSoftwareSm>`
+- `<$AwsElementalAppliancesSoftwareMd>`
+- `<$AwsElementalAppliancesSoftwareLg>`
+
+
+
+
 
 ## AwsElementalAppliancesSoftware
 

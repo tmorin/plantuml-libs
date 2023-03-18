@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Storage/AwsBackupComplianceReporting')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsBackupComplianceReportingXs>`
+- `<$AwsBackupComplianceReportingSm>`
+- `<$AwsBackupComplianceReportingMd>`
+- `<$AwsBackupComplianceReportingLg>`
+
+
+
+
 
 ## AwsBackupComplianceReporting
 

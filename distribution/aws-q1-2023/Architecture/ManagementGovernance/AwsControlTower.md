@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/ManagementGovernance/AwsControlTower')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsControlTowerXs>`
+- `<$AwsControlTowerSm>`
+- `<$AwsControlTowerMd>`
+- `<$AwsControlTowerLg>`
+
+
+
+
 
 ## AwsControlTower
 

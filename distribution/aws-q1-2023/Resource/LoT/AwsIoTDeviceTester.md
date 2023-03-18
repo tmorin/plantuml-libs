@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTDeviceTester')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTDeviceTesterXs>`
+- `<$AwsIoTDeviceTesterSm>`
+- `<$AwsIoTDeviceTesterMd>`
+- `<$AwsIoTDeviceTesterLg>`
+
+
+
+
 
 ## AwsIoTDeviceTester
 

@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Analytics/AmazonDataZoneDataProjects')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonDataZoneDataProjectsXs>`
+- `<$AmazonDataZoneDataProjectsSm>`
+- `<$AmazonDataZoneDataProjectsMd>`
+- `<$AmazonDataZoneDataProjectsLg>`
+
+
+
+
 
 ## AmazonDataZoneDataProjects
 

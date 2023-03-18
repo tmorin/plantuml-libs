@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/Database/AmazonElastiCache')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonElastiCacheXs>`
+- `<$AmazonElastiCacheSm>`
+- `<$AmazonElastiCacheMd>`
+- `<$AmazonElastiCacheLg>`
+
+
+
+
 
 ## AmazonElastiCache
 

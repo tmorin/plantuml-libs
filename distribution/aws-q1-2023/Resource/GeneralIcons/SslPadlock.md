@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/GeneralIcons/SslPadlock')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SslPadlockXs>`
+- `<$SslPadlockSm>`
+- `<$SslPadlockMd>`
+- `<$SslPadlockLg>`
+
+
+
+
 
 ## SslPadlock
 

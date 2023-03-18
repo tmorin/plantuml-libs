@@ -17,6 +17,17 @@ include('aws-q1-2023/Category/MachineLearning')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MachineLearningXs>`
+- `<$MachineLearningSm>`
+- `<$MachineLearningMd>`
+- `<$MachineLearningLg>`
+
+
+
+
 
 ## MachineLearning
 

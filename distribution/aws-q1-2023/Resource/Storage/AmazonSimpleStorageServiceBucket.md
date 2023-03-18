@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Storage/AmazonSimpleStorageServiceBucket')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonSimpleStorageServiceBucketXs>`
+- `<$AmazonSimpleStorageServiceBucketSm>`
+- `<$AmazonSimpleStorageServiceBucketMd>`
+- `<$AmazonSimpleStorageServiceBucketLg>`
+
+
+
+
 
 ## AmazonSimpleStorageServiceBucket
 

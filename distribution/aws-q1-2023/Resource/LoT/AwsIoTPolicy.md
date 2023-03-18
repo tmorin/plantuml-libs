@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/LoT/AwsIoTPolicy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsIoTPolicyXs>`
+- `<$AwsIoTPolicySm>`
+- `<$AwsIoTPolicyMd>`
+- `<$AwsIoTPolicyLg>`
+
+
+
+
 
 ## AwsIoTPolicy
 

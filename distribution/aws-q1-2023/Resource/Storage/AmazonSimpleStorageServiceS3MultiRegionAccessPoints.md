@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/Storage/AmazonSimpleStorageServiceS3MultiRegionAcc
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonSimpleStorageServiceS3MultiRegionAccessPointsXs>`
+- `<$AmazonSimpleStorageServiceS3MultiRegionAccessPointsSm>`
+- `<$AmazonSimpleStorageServiceS3MultiRegionAccessPointsMd>`
+- `<$AmazonSimpleStorageServiceS3MultiRegionAccessPointsLg>`
+
+
+
+
 
 ## AmazonSimpleStorageServiceS3MultiRegionAccessPoints
 

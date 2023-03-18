@@ -17,6 +17,17 @@ include('aws-q1-2023/Resource/GeneralIcons/Documents')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DocumentsXs>`
+- `<$DocumentsSm>`
+- `<$DocumentsMd>`
+- `<$DocumentsLg>`
+
+
+
+
 
 ## Documents
 

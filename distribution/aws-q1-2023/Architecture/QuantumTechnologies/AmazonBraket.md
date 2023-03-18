@@ -17,6 +17,17 @@ include('aws-q1-2023/Architecture/QuantumTechnologies/AmazonBraket')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonBraketXs>`
+- `<$AmazonBraketSm>`
+- `<$AmazonBraketMd>`
+- `<$AmazonBraketLg>`
+
+
+
+
 
 ## AmazonBraket
 
