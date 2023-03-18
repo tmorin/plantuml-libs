@@ -1,0 +1,77 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION=".."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('c4k8s/bootstrap')
+
+' include the c4model library
+include('c4model/bootstrap')
+include('c4model/Element/InfrastructureNode')
+include('c4model/Element/Container')
+include('c4model/Boundary/InfrastructureNodeBoundary')
+include('c4model/Element/DeploymentNode')
+include('c4model/Boundary/DeploymentNodeBoundary')
+
+' include the c4k8s items
+include('c4k8s/Element/Pod')
+include('c4k8s/Element/PersistentVolumeClaim')
+include('c4k8s/Element/Service')
+include('c4k8s/Element/Ingress')
+include('c4k8s/Boundary/ClusterBoundary')
+include('c4k8s/Boundary/PodBoundary')
+include('c4k8s/Boundary/NamespaceBoundary')
+include('c4k8s/Boundary/StatefulSetBoundary')
+include('c4k8s/Boundary/CronJobBoundary')
+include('c4k8s/Boundary/DeploymentBoundary')
+
+Title("Application", "Deployment Diagram")
+
+InfrastructureNodeBoundary("aws", "Amazon Web Services", "Cloud Provider") {
+  InfrastructureNode("s3", "Simple Storage Service (S3)", "An object storage service offering industry-leading scalability, data availability, security, and performance.", "SaaS")
+}
+
+InfrastructureNodeBoundary("datacenter", "Raspberry PI Cluster", "Homemade Cloud Provider") {
+  ClusterBoundary("cluster", "production") {
+    NamespaceBoundary("application_namespace", "application") {
+      StatefulSetBoundary("database_statefulset", "database", "x1") {
+        PersistentVolumeClaim("database_pvc", "database", "Persists the database files.", "10G")
+        Pod("database_pod", "database", "Stores data related to the backend logic.")
+        database_pod --> database_pvc
+      }
+      Service("database_service", "database")
+      database_service --> database_pod
+
+      Service("backend_service", "backend")
+      DeploymentBoundary("backend_deployment", "backend", "x3") {
+        PodBoundary("backend_pod", "backend") {
+          Container("backend_container", "Backend", "Provides services to execute command and queries.", "Java and Spring MVC")
+        }
+      }
+      backend_service --> backend_container
+      backend_container --> database_service
+
+      CronJobBoundary("report_cronjob", "report", "daily") {
+        Pod("backup_pod", "report", "Extract analytics from the database.")
+      }
+      backup_pod --> database_service
+      backup_pod -r-> s3
+
+      Ingress("backend_ingress", "backend", "", "api.app.com")
+      backend_ingress --> backend_service
+    }
+  }
+}
+
+DeploymentNodeBoundary("dep_sa_c", "Customer's computer", "GNU/Linux, Microsoft Windows or Apple macOS") {
+  DeploymentNodeBoundary("dep_sa_wb", "Web Browser", "Firefox, Chrome, Safari, or Edge") {
+    Container("spa", "Single-Page Application", "Provides all of the Internet banking functionality to customers via their browser.", "JavaScript and Angular")
+  }
+}
+spa --> backend_ingress
+
+@enduml

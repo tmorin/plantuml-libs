@@ -2,6 +2,7 @@ import { AwsQ12023Factory } from "./packages/aws-q1-2023"
 import { AzureV11Factory } from "./packages/azure-11"
 import { C4modelFactory } from "./packages/c4model"
 import { C4nordFactory } from "./packages/c4nord"
+import { C4K8sFactory } from "./packages/c4k8s"
 import {
   DefaultPackageContext,
   LibraryFactory,
@@ -21,6 +22,7 @@ const PACKAGE_FACTORIES = [
   new AzureV11Factory(),
   new C4modelFactory(),
   new C4nordFactory(),
+  new C4K8sFactory(),
   new DomainstorytellingFactory(),
   new Eip1Factory(),
   new EventstormingFactory(),

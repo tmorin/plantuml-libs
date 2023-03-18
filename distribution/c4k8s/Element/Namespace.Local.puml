@@ -1,0 +1,18 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('c4k8s/bootstrap')
+
+' loads the Item which embeds the element Namespace
+include('c4k8s/Element/Namespace')
+
+' load the c4model package
+include('c4model/bootstrap')
+Namespace('Namespace', 'Namespace', 'an optional description label')
+@enduml

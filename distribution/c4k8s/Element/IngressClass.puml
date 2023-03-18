@@ -1,0 +1,5 @@
+' definition of the Item c4k8s/Element/IngressClass
+
+!procedure IngressClass($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/IngressClass', $id, $name, $desc, $tech)
+!endprocedure

@@ -1,0 +1,5 @@
+' definition of the Item c4k8s/Boundary/IngressClassBoundary
+
+!procedure IngressClassBoundary($id, $name, $tech="")
+  C4Boundary('K8s/IngressClass', 'Boundary', $id, $name, $tech)
+!endprocedure

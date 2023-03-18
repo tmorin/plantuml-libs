@@ -1,0 +1,8 @@
+{% extends "item_snippet.tera" %}
+{% block procedures %}
+{%- if data.element_shape == "Custom" %}
+' load the c4model package
+include('c4model/bootstrap')
+{{ data.procedure_name }}('{{ data.variable_name }}', '{{ data.primary_label }}', '{{ data.description_label | default(value="an optional description label") }}')
+{%- endif %}
+{% endblock procedures %}

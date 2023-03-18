@@ -1,0 +1,65 @@
+# SubjectAccessReview
+
+
+```text
+c4k8s/Element/SubjectAccessReview
+```
+
+```text
+include('c4k8s/Element/SubjectAccessReview')
+```
+
+
+
+| SubjectAccessReview |
+| :---: |
+| ![illustration for SubjectAccessReview](../../c4k8s/Element/SubjectAccessReview.Local.png) |
+
+
+
+
+## SubjectAccessReview
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('c4k8s/bootstrap')
+
+' loads the Item which embeds the element SubjectAccessReview
+include('c4k8s/Element/SubjectAccessReview')
+
+' load the c4model package
+include('c4model/bootstrap')
+SubjectAccessReview('SubjectAccessReview', 'Subject Access Review', 'an optional description label')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('c4k8s/bootstrap')
+
+' loads the Item which embeds the element SubjectAccessReview
+include('c4k8s/Element/SubjectAccessReview')
+
+' load the c4model package
+include('c4model/bootstrap')
+SubjectAccessReview('SubjectAccessReview', 'Subject Access Review', 'an optional description label')
+@enduml
+```
+

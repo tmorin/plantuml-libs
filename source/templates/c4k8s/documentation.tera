@@ -1,0 +1,8 @@
+{% extends "package_documentation.tera" %}
+
+{% block header %}
+## Presentation
+This package is an extension of the `c4model` one.
+
+The package provides pre configured Deployment Nodes (item and boundary) for each [Kubernetes resources](https://kubernetes.io/docs/reference/kubernetes-api/).
+{% endblock header %}

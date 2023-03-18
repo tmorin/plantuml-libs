@@ -2,12 +2,13 @@
 
 ## Packages
 
-The library provides 12 packages.
+The library provides 13 packages.
 
 - [aws-q1-2023](aws-q1-2023/README.md)
 - [azure-11](azure-11/README.md)
 - [c4model](c4model/README.md)
 - [c4nord](c4nord/README.md)
+- [c4k8s](c4k8s/README.md)
 - [domainstorytelling](domainstorytelling/README.md)
 - [eip-1](eip-1/README.md)
 - [eventstorming](eventstorming/README.md)

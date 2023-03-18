@@ -1,0 +1,5 @@
+' definition of the Item c4k8s/Boundary/EndpointsBoundary
+
+!procedure EndpointsBoundary($id, $name, $tech="")
+  C4Boundary('K8s/Endpoints', 'Boundary', $id, $name, $tech)
+!endprocedure

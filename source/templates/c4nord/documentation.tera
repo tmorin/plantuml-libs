@@ -2,5 +2,29 @@
 
 {% block header %}
 ## Presentation
+
 This package implements `elements` and `boundaries` coming from the [C4 Model](https://c4model.com) but with the [Nord Theme](https://www.nordtheme.com) flavor.
+
+## Pre-requisite
+
+The package `c4k8s` is just an extension of the `c4model`.
+Therefore, the `c4model` package must be bootstrapped before to include the resources provided by `c4k8s`.
+
+With the _atomic_ approach:
+```plantuml
+' load the c4model package
+include('c4model/bootstrap')
+' load the c4k8s package
+include('c4k8s/bootstrap')
+' load the c4k8s resource
+include('c4k8s/Element/Cluster')
+```
+
+With the _full_ approach:
+```plantuml
+' load the c4model package
+include('c4model/full')
+' load the c4k8s package
+include('c4k8s/full')
+```
 {% endblock header %}

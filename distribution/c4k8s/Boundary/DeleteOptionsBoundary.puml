@@ -1,0 +1,5 @@
+' definition of the Item c4k8s/Boundary/DeleteOptionsBoundary
+
+!procedure DeleteOptionsBoundary($id, $name, $tech="")
+  C4Boundary('K8s/DeleteOptions', 'Boundary', $id, $name, $tech)
+!endprocedure

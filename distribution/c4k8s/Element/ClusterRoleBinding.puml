@@ -1,0 +1,5 @@
+' definition of the Item c4k8s/Element/ClusterRoleBinding
+
+!procedure ClusterRoleBinding($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/ClusterRoleBinding', $id, $name, $desc, $tech)
+!endprocedure

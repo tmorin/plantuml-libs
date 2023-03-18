@@ -1,0 +1,22 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('c4k8s/bootstrap')
+
+' loads the Item which embeds the element LabelSelectorBoundary
+include('c4k8s/Boundary/LabelSelectorBoundary')
+
+' load the c4model package
+include('c4model/bootstrap')
+LabelSelectorBoundary('LabelSelectorBoundary', 'Label Selector Boundary') {
+  note as note
+  the content of the boundary
+  end note
+}
+@enduml
