@@ -17,6 +17,17 @@ include('eip-1/MessagingChannels/InvalidMessageChannel')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InvalidMessageChannelXs>`
+- `<$InvalidMessageChannelSm>`
+- `<$InvalidMessageChannelMd>`
+- `<$InvalidMessageChannelLg>`
+
+
+
+
 
 ## InvalidMessageChannel
 

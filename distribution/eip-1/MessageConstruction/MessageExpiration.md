@@ -17,6 +17,17 @@ include('eip-1/MessageConstruction/MessageExpiration')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MessageExpirationXs>`
+- `<$MessageExpirationSm>`
+- `<$MessageExpirationMd>`
+- `<$MessageExpirationLg>`
+
+
+
+
 
 ## MessageExpiration
 

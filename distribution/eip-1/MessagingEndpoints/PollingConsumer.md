@@ -17,6 +17,17 @@ include('eip-1/MessagingEndpoints/PollingConsumer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PollingConsumerXs>`
+- `<$PollingConsumerSm>`
+- `<$PollingConsumerMd>`
+- `<$PollingConsumerLg>`
+
+
+
+
 
 ## PollingConsumer
 

@@ -17,6 +17,17 @@ include('eip-1/MessagingChannels/DatatypeChannel')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DatatypeChannelXs>`
+- `<$DatatypeChannelSm>`
+- `<$DatatypeChannelMd>`
+- `<$DatatypeChannelLg>`
+
+
+
+
 
 ## DatatypeChannel
 

@@ -17,6 +17,17 @@ include('eip-1/SystemManagement/SmartProxy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SmartProxyXs>`
+- `<$SmartProxySm>`
+- `<$SmartProxyMd>`
+- `<$SmartProxyLg>`
+
+
+
+
 
 ## SmartProxy
 

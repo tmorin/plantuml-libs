@@ -17,6 +17,17 @@ include('eip-1/MessageRouting/Resequencer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ResequencerXs>`
+- `<$ResequencerSm>`
+- `<$ResequencerMd>`
+- `<$ResequencerLg>`
+
+
+
+
 
 ## Resequencer
 

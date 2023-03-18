@@ -17,6 +17,17 @@ include('eip-1/MessageRouting/RoutingSlip')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RoutingSlipXs>`
+- `<$RoutingSlipSm>`
+- `<$RoutingSlipMd>`
+- `<$RoutingSlipLg>`
+
+
+
+
 
 ## RoutingSlip
 

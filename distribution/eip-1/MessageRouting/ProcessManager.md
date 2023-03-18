@@ -17,6 +17,17 @@ include('eip-1/MessageRouting/ProcessManager')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ProcessManagerXs>`
+- `<$ProcessManagerSm>`
+- `<$ProcessManagerMd>`
+- `<$ProcessManagerLg>`
+
+
+
+
 
 ## ProcessManager
 

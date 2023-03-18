@@ -17,6 +17,17 @@ include('eip-1/MessagingSystems/MessageTranslator')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MessageTranslatorXs>`
+- `<$MessageTranslatorSm>`
+- `<$MessageTranslatorMd>`
+- `<$MessageTranslatorLg>`
+
+
+
+
 
 ## MessageTranslator
 

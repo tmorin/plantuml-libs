@@ -17,6 +17,17 @@ include('eip-1/MessagingEndpoints/TransactionalClient')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TransactionalClientXs>`
+- `<$TransactionalClientSm>`
+- `<$TransactionalClientMd>`
+- `<$TransactionalClientLg>`
+
+
+
+
 
 ## TransactionalClient
 

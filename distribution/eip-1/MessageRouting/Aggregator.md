@@ -17,6 +17,17 @@ include('eip-1/MessageRouting/Aggregator')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AggregatorXs>`
+- `<$AggregatorSm>`
+- `<$AggregatorMd>`
+- `<$AggregatorLg>`
+
+
+
+
 
 ## Aggregator
 

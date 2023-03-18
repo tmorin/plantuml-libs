@@ -17,6 +17,17 @@ include('eip-1/MessagingChannels/DeadLetterChannel')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DeadLetterChannelXs>`
+- `<$DeadLetterChannelSm>`
+- `<$DeadLetterChannelMd>`
+- `<$DeadLetterChannelLg>`
+
+
+
+
 
 ## DeadLetterChannel
 

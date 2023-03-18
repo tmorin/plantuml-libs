@@ -17,6 +17,17 @@ include('eip-1/MessageRouting/ComposedMessageProcessor')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ComposedMessageProcessorXs>`
+- `<$ComposedMessageProcessorSm>`
+- `<$ComposedMessageProcessorMd>`
+- `<$ComposedMessageProcessorLg>`
+
+
+
+
 
 ## ComposedMessageProcessor
 

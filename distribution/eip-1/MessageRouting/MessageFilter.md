@@ -17,6 +17,17 @@ include('eip-1/MessageRouting/MessageFilter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MessageFilterXs>`
+- `<$MessageFilterSm>`
+- `<$MessageFilterMd>`
+- `<$MessageFilterLg>`
+
+
+
+
 
 ## MessageFilter
 

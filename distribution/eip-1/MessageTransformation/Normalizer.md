@@ -17,6 +17,17 @@ include('eip-1/MessageTransformation/Normalizer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NormalizerXs>`
+- `<$NormalizerSm>`
+- `<$NormalizerMd>`
+- `<$NormalizerLg>`
+
+
+
+
 
 ## Normalizer
 

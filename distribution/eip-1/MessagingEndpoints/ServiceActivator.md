@@ -17,6 +17,17 @@ include('eip-1/MessagingEndpoints/ServiceActivator')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceActivatorXs>`
+- `<$ServiceActivatorSm>`
+- `<$ServiceActivatorMd>`
+- `<$ServiceActivatorLg>`
+
+
+
+
 
 ## ServiceActivator
 

@@ -17,6 +17,17 @@ include('eip-1/MessageRouting/RecipientList')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RecipientListXs>`
+- `<$RecipientListSm>`
+- `<$RecipientListMd>`
+- `<$RecipientListLg>`
+
+
+
+
 
 ## RecipientList
 

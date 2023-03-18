@@ -17,6 +17,17 @@ include('eip-1/MessageTransformation/ContentFilter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ContentFilterXs>`
+- `<$ContentFilterSm>`
+- `<$ContentFilterMd>`
+- `<$ContentFilterLg>`
+
+
+
+
 
 ## ContentFilter
 

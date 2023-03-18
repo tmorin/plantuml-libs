@@ -17,6 +17,17 @@ include('eip-1/MessagingSystems/MessageSingleGreen')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MessageSingleGreenXs>`
+- `<$MessageSingleGreenSm>`
+- `<$MessageSingleGreenMd>`
+- `<$MessageSingleGreenLg>`
+
+
+
+
 
 ## MessageSingleGreen
 

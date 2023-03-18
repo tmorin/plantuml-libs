@@ -17,6 +17,17 @@ include('eip-1/MessageConstruction/QueryMessage')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$QueryMessageXs>`
+- `<$QueryMessageSm>`
+- `<$QueryMessageMd>`
+- `<$QueryMessageLg>`
+
+
+
+
 
 ## QueryMessage
 

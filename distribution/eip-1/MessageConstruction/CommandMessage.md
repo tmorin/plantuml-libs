@@ -17,6 +17,17 @@ include('eip-1/MessageConstruction/CommandMessage')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CommandMessageXs>`
+- `<$CommandMessageSm>`
+- `<$CommandMessageMd>`
+- `<$CommandMessageLg>`
+
+
+
+
 
 ## CommandMessage
 

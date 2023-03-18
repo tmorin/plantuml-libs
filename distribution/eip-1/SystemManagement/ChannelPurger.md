@@ -17,6 +17,17 @@ include('eip-1/SystemManagement/ChannelPurger')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChannelPurgerXs>`
+- `<$ChannelPurgerSm>`
+- `<$ChannelPurgerMd>`
+- `<$ChannelPurgerLg>`
+
+
+
+
 
 ## ChannelPurger
 

@@ -17,6 +17,17 @@ include('eip-1/MessagingEndpoints/SelectiveConsumer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SelectiveConsumerXs>`
+- `<$SelectiveConsumerSm>`
+- `<$SelectiveConsumerMd>`
+- `<$SelectiveConsumerLg>`
+
+
+
+
 
 ## SelectiveConsumer
 

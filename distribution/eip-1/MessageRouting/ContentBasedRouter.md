@@ -17,6 +17,17 @@ include('eip-1/MessageRouting/ContentBasedRouter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ContentBasedRouterXs>`
+- `<$ContentBasedRouterSm>`
+- `<$ContentBasedRouterMd>`
+- `<$ContentBasedRouterLg>`
+
+
+
+
 
 ## ContentBasedRouter
 

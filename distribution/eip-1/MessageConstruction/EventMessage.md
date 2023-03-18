@@ -17,6 +17,17 @@ include('eip-1/MessageConstruction/EventMessage')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EventMessageXs>`
+- `<$EventMessageSm>`
+- `<$EventMessageMd>`
+- `<$EventMessageLg>`
+
+
+
+
 
 ## EventMessage
 

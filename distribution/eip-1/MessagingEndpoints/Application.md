@@ -17,6 +17,17 @@ include('eip-1/MessagingEndpoints/Application')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ApplicationXs>`
+- `<$ApplicationSm>`
+- `<$ApplicationMd>`
+- `<$ApplicationLg>`
+
+
+
+
 
 ## Application
 

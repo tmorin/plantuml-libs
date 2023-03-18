@@ -17,6 +17,17 @@ include('eip-1/MessagingChannels/MessageBus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MessageBusXs>`
+- `<$MessageBusSm>`
+- `<$MessageBusMd>`
+- `<$MessageBusLg>`
+
+
+
+
 
 ## MessageBus
 

@@ -17,6 +17,17 @@ include('eip-1/MessageRouting/MessageBroker')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MessageBrokerXs>`
+- `<$MessageBrokerSm>`
+- `<$MessageBrokerMd>`
+- `<$MessageBrokerLg>`
+
+
+
+
 
 ## MessageBroker
 

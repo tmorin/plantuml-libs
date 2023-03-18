@@ -17,6 +17,17 @@ include('eip-1/MessageConstruction/ResultMessage')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ResultMessageXs>`
+- `<$ResultMessageSm>`
+- `<$ResultMessageMd>`
+- `<$ResultMessageLg>`
+
+
+
+
 
 ## ResultMessage
 

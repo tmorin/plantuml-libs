@@ -17,6 +17,17 @@ include('eip-1/SystemManagement/ControlBus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ControlBusXs>`
+- `<$ControlBusSm>`
+- `<$ControlBusMd>`
+- `<$ControlBusLg>`
+
+
+
+
 
 ## ControlBus
 

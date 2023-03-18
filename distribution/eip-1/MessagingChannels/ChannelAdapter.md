@@ -17,6 +17,17 @@ include('eip-1/MessagingChannels/ChannelAdapter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChannelAdapterXs>`
+- `<$ChannelAdapterSm>`
+- `<$ChannelAdapterMd>`
+- `<$ChannelAdapterLg>`
+
+
+
+
 
 ## ChannelAdapter
 

@@ -17,6 +17,17 @@ include('eip-1/MessageConstruction/CorrelationIdentifier')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CorrelationIdentifierXs>`
+- `<$CorrelationIdentifierSm>`
+- `<$CorrelationIdentifierMd>`
+- `<$CorrelationIdentifierLg>`
+
+
+
+
 
 ## CorrelationIdentifier
 

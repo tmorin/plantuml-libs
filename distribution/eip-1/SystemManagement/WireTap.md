@@ -17,6 +17,17 @@ include('eip-1/SystemManagement/WireTap')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WireTapXs>`
+- `<$WireTapSm>`
+- `<$WireTapMd>`
+- `<$WireTapLg>`
+
+
+
+
 
 ## WireTap
 

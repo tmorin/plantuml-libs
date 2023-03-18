@@ -17,6 +17,17 @@ include('eip-1/MessagingChannels/MessagingBridge')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MessagingBridgeXs>`
+- `<$MessagingBridgeSm>`
+- `<$MessagingBridgeMd>`
+- `<$MessagingBridgeLg>`
+
+
+
+
 
 ## MessagingBridge
 

@@ -17,6 +17,17 @@ include('eip-1/MessageConstruction/MessageSequence')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MessageSequenceXs>`
+- `<$MessageSequenceSm>`
+- `<$MessageSequenceMd>`
+- `<$MessageSequenceLg>`
+
+
+
+
 
 ## MessageSequence
 

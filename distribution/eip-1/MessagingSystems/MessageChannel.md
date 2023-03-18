@@ -17,6 +17,17 @@ include('eip-1/MessagingSystems/MessageChannel')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MessageChannelXs>`
+- `<$MessageChannelSm>`
+- `<$MessageChannelMd>`
+- `<$MessageChannelLg>`
+
+
+
+
 
 ## MessageChannel
 

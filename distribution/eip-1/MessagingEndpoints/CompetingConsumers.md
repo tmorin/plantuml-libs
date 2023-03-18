@@ -17,6 +17,17 @@ include('eip-1/MessagingEndpoints/CompetingConsumers')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CompetingConsumersXs>`
+- `<$CompetingConsumersSm>`
+- `<$CompetingConsumersMd>`
+- `<$CompetingConsumersLg>`
+
+
+
+
 
 ## CompetingConsumers
 

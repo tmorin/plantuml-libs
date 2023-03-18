@@ -17,6 +17,17 @@ include('eip-1/MessageTransformation/EnvelopeWrapper')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EnvelopeWrapperXs>`
+- `<$EnvelopeWrapperSm>`
+- `<$EnvelopeWrapperMd>`
+- `<$EnvelopeWrapperLg>`
+
+
+
+
 
 ## EnvelopeWrapper
 

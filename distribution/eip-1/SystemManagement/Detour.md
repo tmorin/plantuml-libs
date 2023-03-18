@@ -17,6 +17,17 @@ include('eip-1/SystemManagement/Detour')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DetourXs>`
+- `<$DetourSm>`
+- `<$DetourMd>`
+- `<$DetourLg>`
+
+
+
+
 
 ## Detour
 

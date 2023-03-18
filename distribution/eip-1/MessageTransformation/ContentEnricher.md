@@ -17,6 +17,17 @@ include('eip-1/MessageTransformation/ContentEnricher')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ContentEnricherXs>`
+- `<$ContentEnricherSm>`
+- `<$ContentEnricherMd>`
+- `<$ContentEnricherLg>`
+
+
+
+
 
 ## ContentEnricher
 

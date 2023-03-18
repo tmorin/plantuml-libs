@@ -17,6 +17,17 @@ include('eip-1/MessageRouting/DynamicRouter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DynamicRouterXs>`
+- `<$DynamicRouterSm>`
+- `<$DynamicRouterMd>`
+- `<$DynamicRouterLg>`
+
+
+
+
 
 ## DynamicRouter
 

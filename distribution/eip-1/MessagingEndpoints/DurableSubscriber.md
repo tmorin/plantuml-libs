@@ -17,6 +17,17 @@ include('eip-1/MessagingEndpoints/DurableSubscriber')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DurableSubscriberXs>`
+- `<$DurableSubscriberSm>`
+- `<$DurableSubscriberMd>`
+- `<$DurableSubscriberLg>`
+
+
+
+
 
 ## DurableSubscriber
 

@@ -17,6 +17,17 @@ include('eip-1/MessagingSystems/Message')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MessageXs>`
+- `<$MessageSm>`
+- `<$MessageMd>`
+- `<$MessageLg>`
+
+
+
+
 
 ## Message
 

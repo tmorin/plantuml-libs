@@ -17,6 +17,17 @@ include('eip-1/MessageConstruction/MessageReturnAddress')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MessageReturnAddressXs>`
+- `<$MessageReturnAddressSm>`
+- `<$MessageReturnAddressMd>`
+- `<$MessageReturnAddressLg>`
+
+
+
+
 
 ## MessageReturnAddress
 

@@ -17,6 +17,17 @@ include('eip-1/MessagingEndpoints/EventDrivenConsumer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EventDrivenConsumerXs>`
+- `<$EventDrivenConsumerSm>`
+- `<$EventDrivenConsumerMd>`
+- `<$EventDrivenConsumerLg>`
+
+
+
+
 
 ## EventDrivenConsumer
 

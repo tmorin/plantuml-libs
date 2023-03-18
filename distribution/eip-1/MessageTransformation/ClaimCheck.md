@@ -17,6 +17,17 @@ include('eip-1/MessageTransformation/ClaimCheck')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ClaimCheckXs>`
+- `<$ClaimCheckSm>`
+- `<$ClaimCheckMd>`
+- `<$ClaimCheckLg>`
+
+
+
+
 
 ## ClaimCheck
 

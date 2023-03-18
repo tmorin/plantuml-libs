@@ -17,6 +17,17 @@ include('eip-1/MessageConstruction/DocumentMessage')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DocumentMessageXs>`
+- `<$DocumentMessageSm>`
+- `<$DocumentMessageMd>`
+- `<$DocumentMessageLg>`
+
+
+
+
 
 ## DocumentMessage
 

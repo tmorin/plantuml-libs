@@ -17,6 +17,17 @@ include('eip-1/MessagingChannels/PublishSubscribeChannel')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PublishSubscribeChannelXs>`
+- `<$PublishSubscribeChannelSm>`
+- `<$PublishSubscribeChannelMd>`
+- `<$PublishSubscribeChannelLg>`
+
+
+
+
 
 ## PublishSubscribeChannel
 

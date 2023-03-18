@@ -17,6 +17,17 @@ include('eip-1/SystemManagement/TestMessage')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TestMessageXs>`
+- `<$TestMessageSm>`
+- `<$TestMessageMd>`
+- `<$TestMessageLg>`
+
+
+
+
 
 ## TestMessage
 

@@ -17,6 +17,17 @@ include('eip-1/MessagingChannels/PointToPointChannel')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PointToPointChannelXs>`
+- `<$PointToPointChannelSm>`
+- `<$PointToPointChannelMd>`
+- `<$PointToPointChannelLg>`
+
+
+
+
 
 ## PointToPointChannel
 

@@ -17,6 +17,17 @@ include('eip-1/MessagingSystems/MessageRouter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MessageRouterXs>`
+- `<$MessageRouterSm>`
+- `<$MessageRouterMd>`
+- `<$MessageRouterLg>`
+
+
+
+
 
 ## MessageRouter
 

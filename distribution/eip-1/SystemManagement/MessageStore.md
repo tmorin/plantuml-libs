@@ -17,6 +17,17 @@ include('eip-1/SystemManagement/MessageStore')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MessageStoreXs>`
+- `<$MessageStoreSm>`
+- `<$MessageStoreMd>`
+- `<$MessageStoreLg>`
+
+
+
+
 
 ## MessageStore
 

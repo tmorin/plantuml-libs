@@ -17,6 +17,17 @@ include('eip-1/MessagingSystems/PipesAndFilters')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PipesAndFiltersXs>`
+- `<$PipesAndFiltersSm>`
+- `<$PipesAndFiltersMd>`
+- `<$PipesAndFiltersLg>`
+
+
+
+
 
 ## PipesAndFilters
 

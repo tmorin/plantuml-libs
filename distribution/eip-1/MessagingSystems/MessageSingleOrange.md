@@ -17,6 +17,17 @@ include('eip-1/MessagingSystems/MessageSingleOrange')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MessageSingleOrangeXs>`
+- `<$MessageSingleOrangeSm>`
+- `<$MessageSingleOrangeMd>`
+- `<$MessageSingleOrangeLg>`
+
+
+
+
 
 ## MessageSingleOrange
 

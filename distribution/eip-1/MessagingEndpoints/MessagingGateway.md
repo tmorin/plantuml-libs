@@ -17,6 +17,17 @@ include('eip-1/MessagingEndpoints/MessagingGateway')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MessagingGatewayXs>`
+- `<$MessagingGatewaySm>`
+- `<$MessagingGatewayMd>`
+- `<$MessagingGatewayLg>`
+
+
+
+
 
 ## MessagingGateway
 

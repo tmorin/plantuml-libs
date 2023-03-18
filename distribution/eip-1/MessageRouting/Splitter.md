@@ -17,6 +17,17 @@ include('eip-1/MessageRouting/Splitter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SplitterXs>`
+- `<$SplitterSm>`
+- `<$SplitterMd>`
+- `<$SplitterLg>`
+
+
+
+
 
 ## Splitter
 

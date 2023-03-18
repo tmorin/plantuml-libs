@@ -17,6 +17,17 @@ include('eip-1/MessagingEndpoints/MessageDispatcher')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MessageDispatcherXs>`
+- `<$MessageDispatcherSm>`
+- `<$MessageDispatcherMd>`
+- `<$MessageDispatcherLg>`
+
+
+
+
 
 ## MessageDispatcher
 
