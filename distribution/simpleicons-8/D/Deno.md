@@ -17,6 +17,17 @@ include('simpleicons-8/D/Deno')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DenoXs>`
+- `<$DenoSm>`
+- `<$DenoMd>`
+- `<$DenoLg>`
+
+
+
+
 
 ## Deno
 

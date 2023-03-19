@@ -17,6 +17,17 @@ include('simpleicons-8/D/Discogs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DiscogsXs>`
+- `<$DiscogsSm>`
+- `<$DiscogsMd>`
+- `<$DiscogsLg>`
+
+
+
+
 
 ## Discogs
 

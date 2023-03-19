@@ -17,6 +17,17 @@ include('simpleicons-8/O/Openverse')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OpenverseXs>`
+- `<$OpenverseSm>`
+- `<$OpenverseMd>`
+- `<$OpenverseLg>`
+
+
+
+
 
 ## Openverse
 

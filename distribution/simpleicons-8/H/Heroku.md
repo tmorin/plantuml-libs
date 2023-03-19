@@ -17,6 +17,17 @@ include('simpleicons-8/H/Heroku')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HerokuXs>`
+- `<$HerokuSm>`
+- `<$HerokuMd>`
+- `<$HerokuLg>`
+
+
+
+
 
 ## Heroku
 

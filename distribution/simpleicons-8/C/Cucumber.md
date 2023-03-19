@@ -17,6 +17,17 @@ include('simpleicons-8/C/Cucumber')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CucumberXs>`
+- `<$CucumberSm>`
+- `<$CucumberMd>`
+- `<$CucumberLg>`
+
+
+
+
 
 ## Cucumber
 

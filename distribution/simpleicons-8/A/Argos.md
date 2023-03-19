@@ -17,6 +17,17 @@ include('simpleicons-8/A/Argos')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ArgosXs>`
+- `<$ArgosSm>`
+- `<$ArgosMd>`
+- `<$ArgosLg>`
+
+
+
+
 
 ## Argos
 

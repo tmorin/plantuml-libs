@@ -17,6 +17,17 @@ include('simpleicons-8/O/Oracle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OracleXs>`
+- `<$OracleSm>`
+- `<$OracleMd>`
+- `<$OracleLg>`
+
+
+
+
 
 ## Oracle
 

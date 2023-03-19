@@ -17,6 +17,17 @@ include('simpleicons-8/S/Statamic')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StatamicXs>`
+- `<$StatamicSm>`
+- `<$StatamicMd>`
+- `<$StatamicLg>`
+
+
+
+
 
 ## Statamic
 

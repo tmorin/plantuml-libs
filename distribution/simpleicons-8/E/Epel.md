@@ -17,6 +17,17 @@ include('simpleicons-8/E/Epel')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EpelXs>`
+- `<$EpelSm>`
+- `<$EpelMd>`
+- `<$EpelLg>`
+
+
+
+
 
 ## Epel
 

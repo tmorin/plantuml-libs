@@ -17,6 +17,17 @@ include('simpleicons-8/S/Spectrum')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SpectrumXs>`
+- `<$SpectrumSm>`
+- `<$SpectrumMd>`
+- `<$SpectrumLg>`
+
+
+
+
 
 ## Spectrum
 

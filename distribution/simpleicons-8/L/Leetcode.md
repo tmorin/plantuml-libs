@@ -17,6 +17,17 @@ include('simpleicons-8/L/Leetcode')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LeetcodeXs>`
+- `<$LeetcodeSm>`
+- `<$LeetcodeMd>`
+- `<$LeetcodeLg>`
+
+
+
+
 
 ## Leetcode
 

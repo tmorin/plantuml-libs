@@ -17,6 +17,17 @@ include('simpleicons-8/A/Alibabadotcom')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AlibabadotcomXs>`
+- `<$AlibabadotcomSm>`
+- `<$AlibabadotcomMd>`
+- `<$AlibabadotcomLg>`
+
+
+
+
 
 ## Alibabadotcom
 

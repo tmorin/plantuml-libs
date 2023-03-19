@@ -17,6 +17,17 @@ include('simpleicons-8/A/Amazon')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonXs>`
+- `<$AmazonSm>`
+- `<$AmazonMd>`
+- `<$AmazonLg>`
+
+
+
+
 
 ## Amazon
 

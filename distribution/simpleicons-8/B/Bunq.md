@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bunq')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BunqXs>`
+- `<$BunqSm>`
+- `<$BunqMd>`
+- `<$BunqLg>`
+
+
+
+
 
 ## Bunq
 

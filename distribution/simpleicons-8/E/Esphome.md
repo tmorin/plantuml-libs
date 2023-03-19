@@ -17,6 +17,17 @@ include('simpleicons-8/E/Esphome')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EsphomeXs>`
+- `<$EsphomeSm>`
+- `<$EsphomeMd>`
+- `<$EsphomeLg>`
+
+
+
+
 
 ## Esphome
 

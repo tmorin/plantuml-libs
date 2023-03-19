@@ -17,6 +17,17 @@ include('simpleicons-8/A/Airchina')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AirchinaXs>`
+- `<$AirchinaSm>`
+- `<$AirchinaMd>`
+- `<$AirchinaLg>`
+
+
+
+
 
 ## Airchina
 

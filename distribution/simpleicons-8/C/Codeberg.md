@@ -17,6 +17,17 @@ include('simpleicons-8/C/Codeberg')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CodebergXs>`
+- `<$CodebergSm>`
+- `<$CodebergMd>`
+- `<$CodebergLg>`
+
+
+
+
 
 ## Codeberg
 

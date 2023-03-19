@@ -17,6 +17,17 @@ include('simpleicons-8/R/Rubyonrails')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RubyonrailsXs>`
+- `<$RubyonrailsSm>`
+- `<$RubyonrailsMd>`
+- `<$RubyonrailsLg>`
+
+
+
+
 
 ## Rubyonrails
 

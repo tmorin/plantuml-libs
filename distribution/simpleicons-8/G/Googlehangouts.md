@@ -17,6 +17,17 @@ include('simpleicons-8/G/Googlehangouts')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GooglehangoutsXs>`
+- `<$GooglehangoutsSm>`
+- `<$GooglehangoutsMd>`
+- `<$GooglehangoutsLg>`
+
+
+
+
 
 ## Googlehangouts
 

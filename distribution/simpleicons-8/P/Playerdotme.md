@@ -17,6 +17,17 @@ include('simpleicons-8/P/Playerdotme')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PlayerdotmeXs>`
+- `<$PlayerdotmeSm>`
+- `<$PlayerdotmeMd>`
+- `<$PlayerdotmeLg>`
+
+
+
+
 
 ## Playerdotme
 

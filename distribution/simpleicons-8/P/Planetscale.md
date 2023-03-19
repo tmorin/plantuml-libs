@@ -17,6 +17,17 @@ include('simpleicons-8/P/Planetscale')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PlanetscaleXs>`
+- `<$PlanetscaleSm>`
+- `<$PlanetscaleMd>`
+- `<$PlanetscaleLg>`
+
+
+
+
 
 ## Planetscale
 

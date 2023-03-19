@@ -17,6 +17,17 @@ include('simpleicons-8/R/Roots')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RootsXs>`
+- `<$RootsSm>`
+- `<$RootsMd>`
+- `<$RootsLg>`
+
+
+
+
 
 ## Roots
 

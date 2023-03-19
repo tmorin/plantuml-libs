@@ -17,6 +17,17 @@ include('simpleicons-8/P/Portainer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PortainerXs>`
+- `<$PortainerSm>`
+- `<$PortainerMd>`
+- `<$PortainerLg>`
+
+
+
+
 
 ## Portainer
 

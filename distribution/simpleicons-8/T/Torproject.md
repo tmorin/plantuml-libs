@@ -17,6 +17,17 @@ include('simpleicons-8/T/Torproject')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TorprojectXs>`
+- `<$TorprojectSm>`
+- `<$TorprojectMd>`
+- `<$TorprojectLg>`
+
+
+
+
 
 ## Torproject
 

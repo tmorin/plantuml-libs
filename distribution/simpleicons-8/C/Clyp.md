@@ -17,6 +17,17 @@ include('simpleicons-8/C/Clyp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ClypXs>`
+- `<$ClypSm>`
+- `<$ClypMd>`
+- `<$ClypLg>`
+
+
+
+
 
 ## Clyp
 

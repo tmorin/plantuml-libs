@@ -17,6 +17,17 @@ include('simpleicons-8/O/Overcast')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OvercastXs>`
+- `<$OvercastSm>`
+- `<$OvercastMd>`
+- `<$OvercastLg>`
+
+
+
+
 
 ## Overcast
 

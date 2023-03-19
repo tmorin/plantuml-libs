@@ -17,6 +17,17 @@ include('simpleicons-8/C/Ckeditor4')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$Ckeditor4Xs>`
+- `<$Ckeditor4Sm>`
+- `<$Ckeditor4Md>`
+- `<$Ckeditor4Lg>`
+
+
+
+
 
 ## Ckeditor4
 

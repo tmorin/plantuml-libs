@@ -17,6 +17,17 @@ include('simpleicons-8/C/Cocos')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CocosXs>`
+- `<$CocosSm>`
+- `<$CocosMd>`
+- `<$CocosLg>`
+
+
+
+
 
 ## Cocos
 

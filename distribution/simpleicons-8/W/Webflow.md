@@ -17,6 +17,17 @@ include('simpleicons-8/W/Webflow')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WebflowXs>`
+- `<$WebflowSm>`
+- `<$WebflowMd>`
+- `<$WebflowLg>`
+
+
+
+
 
 ## Webflow
 

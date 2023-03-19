@@ -17,6 +17,17 @@ include('simpleicons-8/I/Icinga')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IcingaXs>`
+- `<$IcingaSm>`
+- `<$IcingaMd>`
+- `<$IcingaLg>`
+
+
+
+
 
 ## Icinga
 

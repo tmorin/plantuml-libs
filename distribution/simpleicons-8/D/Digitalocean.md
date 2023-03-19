@@ -17,6 +17,17 @@ include('simpleicons-8/D/Digitalocean')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DigitaloceanXs>`
+- `<$DigitaloceanSm>`
+- `<$DigitaloceanMd>`
+- `<$DigitaloceanLg>`
+
+
+
+
 
 ## Digitalocean
 

@@ -17,6 +17,17 @@ include('simpleicons-8/L/Lg')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LgXs>`
+- `<$LgSm>`
+- `<$LgMd>`
+- `<$LgLg>`
+
+
+
+
 
 ## Lg
 

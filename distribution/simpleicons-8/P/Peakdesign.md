@@ -17,6 +17,17 @@ include('simpleicons-8/P/Peakdesign')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PeakdesignXs>`
+- `<$PeakdesignSm>`
+- `<$PeakdesignMd>`
+- `<$PeakdesignLg>`
+
+
+
+
 
 ## Peakdesign
 

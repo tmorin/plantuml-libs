@@ -17,6 +17,17 @@ include('simpleicons-8/P/Premierleague')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PremierleagueXs>`
+- `<$PremierleagueSm>`
+- `<$PremierleagueMd>`
+- `<$PremierleagueLg>`
+
+
+
+
 
 ## Premierleague
 

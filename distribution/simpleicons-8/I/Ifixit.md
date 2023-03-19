@@ -17,6 +17,17 @@ include('simpleicons-8/I/Ifixit')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IfixitXs>`
+- `<$IfixitSm>`
+- `<$IfixitMd>`
+- `<$IfixitLg>`
+
+
+
+
 
 ## Ifixit
 

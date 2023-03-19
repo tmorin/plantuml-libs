@@ -17,6 +17,17 @@ include('simpleicons-8/T/Trustpilot')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TrustpilotXs>`
+- `<$TrustpilotSm>`
+- `<$TrustpilotMd>`
+- `<$TrustpilotLg>`
+
+
+
+
 
 ## Trustpilot
 

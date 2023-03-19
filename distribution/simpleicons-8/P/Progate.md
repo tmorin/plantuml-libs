@@ -17,6 +17,17 @@ include('simpleicons-8/P/Progate')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ProgateXs>`
+- `<$ProgateSm>`
+- `<$ProgateMd>`
+- `<$ProgateLg>`
+
+
+
+
 
 ## Progate
 

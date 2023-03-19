@@ -17,6 +17,17 @@ include('simpleicons-8/A/Aew')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AewXs>`
+- `<$AewSm>`
+- `<$AewMd>`
+- `<$AewLg>`
+
+
+
+
 
 ## Aew
 

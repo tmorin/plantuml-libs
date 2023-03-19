@@ -17,6 +17,17 @@ include('simpleicons-8/X/Xbox')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$XboxXs>`
+- `<$XboxSm>`
+- `<$XboxMd>`
+- `<$XboxLg>`
+
+
+
+
 
 ## Xbox
 

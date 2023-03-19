@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tqdm')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TqdmXs>`
+- `<$TqdmSm>`
+- `<$TqdmMd>`
+- `<$TqdmLg>`
+
+
+
+
 
 ## Tqdm
 

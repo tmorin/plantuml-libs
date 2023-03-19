@@ -17,6 +17,17 @@ include('simpleicons-8/J/Jpeg')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JpegXs>`
+- `<$JpegSm>`
+- `<$JpegMd>`
+- `<$JpegLg>`
+
+
+
+
 
 ## Jpeg
 

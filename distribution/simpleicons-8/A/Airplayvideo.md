@@ -17,6 +17,17 @@ include('simpleicons-8/A/Airplayvideo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AirplayvideoXs>`
+- `<$AirplayvideoSm>`
+- `<$AirplayvideoMd>`
+- `<$AirplayvideoLg>`
+
+
+
+
 
 ## Airplayvideo
 

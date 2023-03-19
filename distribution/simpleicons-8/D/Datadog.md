@@ -17,6 +17,17 @@ include('simpleicons-8/D/Datadog')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DatadogXs>`
+- `<$DatadogSm>`
+- `<$DatadogMd>`
+- `<$DatadogLg>`
+
+
+
+
 
 ## Datadog
 

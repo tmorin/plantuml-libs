@@ -17,6 +17,17 @@ include('simpleicons-8/O/Onlyoffice')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OnlyofficeXs>`
+- `<$OnlyofficeSm>`
+- `<$OnlyofficeMd>`
+- `<$OnlyofficeLg>`
+
+
+
+
 
 ## Onlyoffice
 

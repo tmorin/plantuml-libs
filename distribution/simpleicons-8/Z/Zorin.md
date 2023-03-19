@@ -17,6 +17,17 @@ include('simpleicons-8/Z/Zorin')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ZorinXs>`
+- `<$ZorinSm>`
+- `<$ZorinMd>`
+- `<$ZorinLg>`
+
+
+
+
 
 ## Zorin
 

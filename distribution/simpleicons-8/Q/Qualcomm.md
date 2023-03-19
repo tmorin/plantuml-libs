@@ -17,6 +17,17 @@ include('simpleicons-8/Q/Qualcomm')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$QualcommXs>`
+- `<$QualcommSm>`
+- `<$QualcommMd>`
+- `<$QualcommLg>`
+
+
+
+
 
 ## Qualcomm
 

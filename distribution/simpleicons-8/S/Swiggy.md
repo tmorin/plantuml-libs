@@ -17,6 +17,17 @@ include('simpleicons-8/S/Swiggy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SwiggyXs>`
+- `<$SwiggySm>`
+- `<$SwiggyMd>`
+- `<$SwiggyLg>`
+
+
+
+
 
 ## Swiggy
 

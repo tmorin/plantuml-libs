@@ -17,6 +17,17 @@ include('simpleicons-8/N/Nucleo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NucleoXs>`
+- `<$NucleoSm>`
+- `<$NucleoMd>`
+- `<$NucleoLg>`
+
+
+
+
 
 ## Nucleo
 

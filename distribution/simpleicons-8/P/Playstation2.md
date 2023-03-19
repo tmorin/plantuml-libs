@@ -17,6 +17,17 @@ include('simpleicons-8/P/Playstation2')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$Playstation2Xs>`
+- `<$Playstation2Sm>`
+- `<$Playstation2Md>`
+- `<$Playstation2Lg>`
+
+
+
+
 
 ## Playstation2
 

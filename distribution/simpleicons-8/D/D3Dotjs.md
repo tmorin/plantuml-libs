@@ -17,6 +17,17 @@ include('simpleicons-8/D/D3Dotjs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$D3DotjsXs>`
+- `<$D3DotjsSm>`
+- `<$D3DotjsMd>`
+- `<$D3DotjsLg>`
+
+
+
+
 
 ## D3Dotjs
 

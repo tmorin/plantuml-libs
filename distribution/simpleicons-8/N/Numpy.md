@@ -17,6 +17,17 @@ include('simpleicons-8/N/Numpy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NumpyXs>`
+- `<$NumpySm>`
+- `<$NumpyMd>`
+- `<$NumpyLg>`
+
+
+
+
 
 ## Numpy
 

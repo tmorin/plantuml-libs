@@ -17,6 +17,17 @@ include('simpleicons-8/W/Wpengine')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WpengineXs>`
+- `<$WpengineSm>`
+- `<$WpengineMd>`
+- `<$WpengineLg>`
+
+
+
+
 
 ## Wpengine
 

@@ -17,6 +17,17 @@ include('simpleicons-8/C/Coderwall')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CoderwallXs>`
+- `<$CoderwallSm>`
+- `<$CoderwallMd>`
+- `<$CoderwallLg>`
+
+
+
+
 
 ## Coderwall
 

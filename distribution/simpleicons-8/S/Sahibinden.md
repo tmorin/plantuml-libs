@@ -17,6 +17,17 @@ include('simpleicons-8/S/Sahibinden')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SahibindenXs>`
+- `<$SahibindenSm>`
+- `<$SahibindenMd>`
+- `<$SahibindenLg>`
+
+
+
+
 
 ## Sahibinden
 

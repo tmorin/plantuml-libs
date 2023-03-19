@@ -17,6 +17,17 @@ include('simpleicons-8/W/Wegame')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WegameXs>`
+- `<$WegameSm>`
+- `<$WegameMd>`
+- `<$WegameLg>`
+
+
+
+
 
 ## Wegame
 

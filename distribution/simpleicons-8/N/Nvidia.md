@@ -17,6 +17,17 @@ include('simpleicons-8/N/Nvidia')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NvidiaXs>`
+- `<$NvidiaSm>`
+- `<$NvidiaMd>`
+- `<$NvidiaLg>`
+
+
+
+
 
 ## Nvidia
 

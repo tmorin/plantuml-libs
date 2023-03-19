@@ -17,6 +17,17 @@ include('simpleicons-8/K/Keystone')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KeystoneXs>`
+- `<$KeystoneSm>`
+- `<$KeystoneMd>`
+- `<$KeystoneLg>`
+
+
+
+
 
 ## Keystone
 

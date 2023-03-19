@@ -17,6 +17,17 @@ include('simpleicons-8/R/Rootsbedrock')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RootsbedrockXs>`
+- `<$RootsbedrockSm>`
+- `<$RootsbedrockMd>`
+- `<$RootsbedrockLg>`
+
+
+
+
 
 ## Rootsbedrock
 

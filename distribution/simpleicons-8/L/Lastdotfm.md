@@ -17,6 +17,17 @@ include('simpleicons-8/L/Lastdotfm')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LastdotfmXs>`
+- `<$LastdotfmSm>`
+- `<$LastdotfmMd>`
+- `<$LastdotfmLg>`
+
+
+
+
 
 ## Lastdotfm
 

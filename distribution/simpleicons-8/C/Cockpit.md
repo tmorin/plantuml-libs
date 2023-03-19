@@ -17,6 +17,17 @@ include('simpleicons-8/C/Cockpit')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CockpitXs>`
+- `<$CockpitSm>`
+- `<$CockpitMd>`
+- `<$CockpitLg>`
+
+
+
+
 
 ## Cockpit
 

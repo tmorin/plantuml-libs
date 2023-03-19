@@ -17,6 +17,17 @@ include('simpleicons-8/T/Teratail')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TeratailXs>`
+- `<$TeratailSm>`
+- `<$TeratailMd>`
+- `<$TeratailLg>`
+
+
+
+
 
 ## Teratail
 

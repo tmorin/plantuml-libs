@@ -17,6 +17,17 @@ include('simpleicons-8/T/Testcafe')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TestcafeXs>`
+- `<$TestcafeSm>`
+- `<$TestcafeMd>`
+- `<$TestcafeLg>`
+
+
+
+
 
 ## Testcafe
 

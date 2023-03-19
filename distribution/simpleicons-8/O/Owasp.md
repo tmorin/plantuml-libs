@@ -17,6 +17,17 @@ include('simpleicons-8/O/Owasp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OwaspXs>`
+- `<$OwaspSm>`
+- `<$OwaspMd>`
+- `<$OwaspLg>`
+
+
+
+
 
 ## Owasp
 

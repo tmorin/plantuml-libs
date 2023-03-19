@@ -17,6 +17,17 @@ include('simpleicons-8/C/Codemirror')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CodemirrorXs>`
+- `<$CodemirrorSm>`
+- `<$CodemirrorMd>`
+- `<$CodemirrorLg>`
+
+
+
+
 
 ## Codemirror
 

@@ -17,6 +17,17 @@ include('simpleicons-8/A/Applepodcasts')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ApplepodcastsXs>`
+- `<$ApplepodcastsSm>`
+- `<$ApplepodcastsMd>`
+- `<$ApplepodcastsLg>`
+
+
+
+
 
 ## Applepodcasts
 

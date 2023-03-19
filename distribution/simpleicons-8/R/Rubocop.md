@@ -17,6 +17,17 @@ include('simpleicons-8/R/Rubocop')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RubocopXs>`
+- `<$RubocopSm>`
+- `<$RubocopMd>`
+- `<$RubocopLg>`
+
+
+
+
 
 ## Rubocop
 

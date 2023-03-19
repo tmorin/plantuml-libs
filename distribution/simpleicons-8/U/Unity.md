@@ -17,6 +17,17 @@ include('simpleicons-8/U/Unity')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UnityXs>`
+- `<$UnitySm>`
+- `<$UnityMd>`
+- `<$UnityLg>`
+
+
+
+
 
 ## Unity
 

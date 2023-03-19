@@ -17,6 +17,17 @@ include('simpleicons-8/C/Codeforces')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CodeforcesXs>`
+- `<$CodeforcesSm>`
+- `<$CodeforcesMd>`
+- `<$CodeforcesLg>`
+
+
+
+
 
 ## Codeforces
 

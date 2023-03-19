@@ -17,6 +17,17 @@ include('simpleicons-8/B/Barclays')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BarclaysXs>`
+- `<$BarclaysSm>`
+- `<$BarclaysMd>`
+- `<$BarclaysLg>`
+
+
+
+
 
 ## Barclays
 

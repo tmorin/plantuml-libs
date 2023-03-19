@@ -17,6 +17,17 @@ include('simpleicons-8/C/Chase')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChaseXs>`
+- `<$ChaseSm>`
+- `<$ChaseMd>`
+- `<$ChaseLg>`
+
+
+
+
 
 ## Chase
 

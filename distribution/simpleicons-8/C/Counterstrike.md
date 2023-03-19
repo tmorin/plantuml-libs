@@ -17,6 +17,17 @@ include('simpleicons-8/C/Counterstrike')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CounterstrikeXs>`
+- `<$CounterstrikeSm>`
+- `<$CounterstrikeMd>`
+- `<$CounterstrikeLg>`
+
+
+
+
 
 ## Counterstrike
 

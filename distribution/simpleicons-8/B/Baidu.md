@@ -17,6 +17,17 @@ include('simpleicons-8/B/Baidu')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BaiduXs>`
+- `<$BaiduSm>`
+- `<$BaiduMd>`
+- `<$BaiduLg>`
+
+
+
+
 
 ## Baidu
 

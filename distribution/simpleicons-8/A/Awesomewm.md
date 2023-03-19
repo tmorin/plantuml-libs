@@ -17,6 +17,17 @@ include('simpleicons-8/A/Awesomewm')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwesomewmXs>`
+- `<$AwesomewmSm>`
+- `<$AwesomewmMd>`
+- `<$AwesomewmLg>`
+
+
+
+
 
 ## Awesomewm
 

@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tensorflow')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TensorflowXs>`
+- `<$TensorflowSm>`
+- `<$TensorflowMd>`
+- `<$TensorflowLg>`
+
+
+
+
 
 ## Tensorflow
 

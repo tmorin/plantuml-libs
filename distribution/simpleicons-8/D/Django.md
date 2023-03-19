@@ -17,6 +17,17 @@ include('simpleicons-8/D/Django')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DjangoXs>`
+- `<$DjangoSm>`
+- `<$DjangoMd>`
+- `<$DjangoLg>`
+
+
+
+
 
 ## Django
 

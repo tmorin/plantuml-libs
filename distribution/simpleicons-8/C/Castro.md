@@ -17,6 +17,17 @@ include('simpleicons-8/C/Castro')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CastroXs>`
+- `<$CastroSm>`
+- `<$CastroMd>`
+- `<$CastroLg>`
+
+
+
+
 
 ## Castro
 

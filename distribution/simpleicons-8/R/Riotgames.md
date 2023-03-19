@@ -17,6 +17,17 @@ include('simpleicons-8/R/Riotgames')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RiotgamesXs>`
+- `<$RiotgamesSm>`
+- `<$RiotgamesMd>`
+- `<$RiotgamesLg>`
+
+
+
+
 
 ## Riotgames
 

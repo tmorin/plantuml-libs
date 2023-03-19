@@ -17,6 +17,17 @@ include('simpleicons-8/G/Ghost')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GhostXs>`
+- `<$GhostSm>`
+- `<$GhostMd>`
+- `<$GhostLg>`
+
+
+
+
 
 ## Ghost
 

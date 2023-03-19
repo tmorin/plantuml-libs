@@ -17,6 +17,17 @@ include('simpleicons-8/A/Ajv')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AjvXs>`
+- `<$AjvSm>`
+- `<$AjvMd>`
+- `<$AjvLg>`
+
+
+
+
 
 ## Ajv
 

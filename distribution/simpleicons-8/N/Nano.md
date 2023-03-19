@@ -17,6 +17,17 @@ include('simpleicons-8/N/Nano')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NanoXs>`
+- `<$NanoSm>`
+- `<$NanoMd>`
+- `<$NanoLg>`
+
+
+
+
 
 ## Nano
 

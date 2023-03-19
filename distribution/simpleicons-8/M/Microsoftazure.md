@@ -17,6 +17,17 @@ include('simpleicons-8/M/Microsoftazure')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MicrosoftazureXs>`
+- `<$MicrosoftazureSm>`
+- `<$MicrosoftazureMd>`
+- `<$MicrosoftazureLg>`
+
+
+
+
 
 ## Microsoftazure
 

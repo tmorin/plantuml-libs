@@ -17,6 +17,17 @@ include('simpleicons-8/A/Alpinedotjs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AlpinedotjsXs>`
+- `<$AlpinedotjsSm>`
+- `<$AlpinedotjsMd>`
+- `<$AlpinedotjsLg>`
+
+
+
+
 
 ## Alpinedotjs
 

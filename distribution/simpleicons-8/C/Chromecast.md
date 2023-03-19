@@ -17,6 +17,17 @@ include('simpleicons-8/C/Chromecast')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChromecastXs>`
+- `<$ChromecastSm>`
+- `<$ChromecastMd>`
+- `<$ChromecastLg>`
+
+
+
+
 
 ## Chromecast
 

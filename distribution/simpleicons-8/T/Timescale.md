@@ -17,6 +17,17 @@ include('simpleicons-8/T/Timescale')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TimescaleXs>`
+- `<$TimescaleSm>`
+- `<$TimescaleMd>`
+- `<$TimescaleLg>`
+
+
+
+
 
 ## Timescale
 

@@ -17,6 +17,17 @@ include('simpleicons-8/V/Vox')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VoxXs>`
+- `<$VoxSm>`
+- `<$VoxMd>`
+- `<$VoxLg>`
+
+
+
+
 
 ## Vox
 

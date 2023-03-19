@@ -17,6 +17,17 @@ include('simpleicons-8/O/Opel')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OpelXs>`
+- `<$OpelSm>`
+- `<$OpelMd>`
+- `<$OpelLg>`
+
+
+
+
 
 ## Opel
 

@@ -17,6 +17,17 @@ include('simpleicons-8/K/Kitsu')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KitsuXs>`
+- `<$KitsuSm>`
+- `<$KitsuMd>`
+- `<$KitsuLg>`
+
+
+
+
 
 ## Kitsu
 

@@ -17,6 +17,17 @@ include('simpleicons-8/Z/Zoiper')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ZoiperXs>`
+- `<$ZoiperSm>`
+- `<$ZoiperMd>`
+- `<$ZoiperLg>`
+
+
+
+
 
 ## Zoiper
 

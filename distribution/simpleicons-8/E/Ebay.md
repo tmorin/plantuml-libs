@@ -17,6 +17,17 @@ include('simpleicons-8/E/Ebay')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EbayXs>`
+- `<$EbaySm>`
+- `<$EbayMd>`
+- `<$EbayLg>`
+
+
+
+
 
 ## Ebay
 

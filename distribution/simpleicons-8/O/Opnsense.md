@@ -17,6 +17,17 @@ include('simpleicons-8/O/Opnsense')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OpnsenseXs>`
+- `<$OpnsenseSm>`
+- `<$OpnsenseMd>`
+- `<$OpnsenseLg>`
+
+
+
+
 
 ## Opnsense
 

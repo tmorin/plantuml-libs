@@ -17,6 +17,17 @@ include('simpleicons-8/I/Integromat')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IntegromatXs>`
+- `<$IntegromatSm>`
+- `<$IntegromatMd>`
+- `<$IntegromatLg>`
+
+
+
+
 
 ## Integromat
 

@@ -17,6 +17,17 @@ include('simpleicons-8/A/Anydesk')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AnydeskXs>`
+- `<$AnydeskSm>`
+- `<$AnydeskMd>`
+- `<$AnydeskLg>`
+
+
+
+
 
 ## Anydesk
 

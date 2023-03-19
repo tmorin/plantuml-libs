@@ -17,6 +17,17 @@ include('simpleicons-8/V/Vodafone')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VodafoneXs>`
+- `<$VodafoneSm>`
+- `<$VodafoneMd>`
+- `<$VodafoneLg>`
+
+
+
+
 
 ## Vodafone
 

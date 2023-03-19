@@ -17,6 +17,17 @@ include('simpleicons-8/E/Etsy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EtsyXs>`
+- `<$EtsySm>`
+- `<$EtsyMd>`
+- `<$EtsyLg>`
+
+
+
+
 
 ## Etsy
 

@@ -17,6 +17,17 @@ include('simpleicons-8/G/Garmin')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GarminXs>`
+- `<$GarminSm>`
+- `<$GarminMd>`
+- `<$GarminLg>`
+
+
+
+
 
 ## Garmin
 

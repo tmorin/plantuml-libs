@@ -17,6 +17,17 @@ include('simpleicons-8/A/Abbvie')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AbbvieXs>`
+- `<$AbbvieSm>`
+- `<$AbbvieMd>`
+- `<$AbbvieLg>`
+
+
+
+
 
 ## Abbvie
 

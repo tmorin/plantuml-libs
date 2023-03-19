@@ -17,6 +17,17 @@ include('simpleicons-8/A/Awesomelists')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwesomelistsXs>`
+- `<$AwesomelistsSm>`
+- `<$AwesomelistsMd>`
+- `<$AwesomelistsLg>`
+
+
+
+
 
 ## Awesomelists
 

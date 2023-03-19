@@ -17,6 +17,17 @@ include('simpleicons-8/F/Fnac')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FnacXs>`
+- `<$FnacSm>`
+- `<$FnacMd>`
+- `<$FnacLg>`
+
+
+
+
 
 ## Fnac
 

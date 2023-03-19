@@ -17,6 +17,17 @@ include('simpleicons-8/I/Iconfinder')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IconfinderXs>`
+- `<$IconfinderSm>`
+- `<$IconfinderMd>`
+- `<$IconfinderLg>`
+
+
+
+
 
 ## Iconfinder
 

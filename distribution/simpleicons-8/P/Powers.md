@@ -17,6 +17,17 @@ include('simpleicons-8/P/Powers')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PowersXs>`
+- `<$PowersSm>`
+- `<$PowersMd>`
+- `<$PowersLg>`
+
+
+
+
 
 ## Powers
 

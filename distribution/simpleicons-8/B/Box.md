@@ -17,6 +17,17 @@ include('simpleicons-8/B/Box')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BoxXs>`
+- `<$BoxSm>`
+- `<$BoxMd>`
+- `<$BoxLg>`
+
+
+
+
 
 ## Box
 

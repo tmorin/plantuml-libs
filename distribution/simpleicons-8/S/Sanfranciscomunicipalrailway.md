@@ -17,6 +17,17 @@ include('simpleicons-8/S/Sanfranciscomunicipalrailway')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SanfranciscomunicipalrailwayXs>`
+- `<$SanfranciscomunicipalrailwaySm>`
+- `<$SanfranciscomunicipalrailwayMd>`
+- `<$SanfranciscomunicipalrailwayLg>`
+
+
+
+
 
 ## Sanfranciscomunicipalrailway
 

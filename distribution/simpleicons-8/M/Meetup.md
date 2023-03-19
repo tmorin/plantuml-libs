@@ -17,6 +17,17 @@ include('simpleicons-8/M/Meetup')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MeetupXs>`
+- `<$MeetupSm>`
+- `<$MeetupMd>`
+- `<$MeetupLg>`
+
+
+
+
 
 ## Meetup
 

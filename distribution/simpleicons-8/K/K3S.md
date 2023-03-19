@@ -17,6 +17,17 @@ include('simpleicons-8/K/K3S')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$K3SXs>`
+- `<$K3SSm>`
+- `<$K3SMd>`
+- `<$K3SLg>`
+
+
+
+
 
 ## K3S
 

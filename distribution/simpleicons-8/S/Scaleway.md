@@ -17,6 +17,17 @@ include('simpleicons-8/S/Scaleway')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ScalewayXs>`
+- `<$ScalewaySm>`
+- `<$ScalewayMd>`
+- `<$ScalewayLg>`
+
+
+
+
 
 ## Scaleway
 

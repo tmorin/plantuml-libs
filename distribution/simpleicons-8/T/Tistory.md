@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tistory')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TistoryXs>`
+- `<$TistorySm>`
+- `<$TistoryMd>`
+- `<$TistoryLg>`
+
+
+
+
 
 ## Tistory
 

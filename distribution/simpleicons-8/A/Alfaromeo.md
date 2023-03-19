@@ -17,6 +17,17 @@ include('simpleicons-8/A/Alfaromeo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AlfaromeoXs>`
+- `<$AlfaromeoSm>`
+- `<$AlfaromeoMd>`
+- `<$AlfaromeoLg>`
+
+
+
+
 
 ## Alfaromeo
 

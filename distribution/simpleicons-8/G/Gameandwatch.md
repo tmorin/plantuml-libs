@@ -17,6 +17,17 @@ include('simpleicons-8/G/Gameandwatch')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GameandwatchXs>`
+- `<$GameandwatchSm>`
+- `<$GameandwatchMd>`
+- `<$GameandwatchLg>`
+
+
+
+
 
 ## Gameandwatch
 

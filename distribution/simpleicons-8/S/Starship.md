@@ -17,6 +17,17 @@ include('simpleicons-8/S/Starship')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StarshipXs>`
+- `<$StarshipSm>`
+- `<$StarshipMd>`
+- `<$StarshipLg>`
+
+
+
+
 
 ## Starship
 

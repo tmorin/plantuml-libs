@@ -17,6 +17,17 @@ include('simpleicons-8/V/Vk')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VkXs>`
+- `<$VkSm>`
+- `<$VkMd>`
+- `<$VkLg>`
+
+
+
+
 
 ## Vk
 

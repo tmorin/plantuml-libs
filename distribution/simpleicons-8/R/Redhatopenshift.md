@@ -17,6 +17,17 @@ include('simpleicons-8/R/Redhatopenshift')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RedhatopenshiftXs>`
+- `<$RedhatopenshiftSm>`
+- `<$RedhatopenshiftMd>`
+- `<$RedhatopenshiftLg>`
+
+
+
+
 
 ## Redhatopenshift
 

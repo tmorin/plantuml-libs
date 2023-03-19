@@ -17,6 +17,17 @@ include('simpleicons-8/K/Kirby')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KirbyXs>`
+- `<$KirbySm>`
+- `<$KirbyMd>`
+- `<$KirbyLg>`
+
+
+
+
 
 ## Kirby
 

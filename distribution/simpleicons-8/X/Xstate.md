@@ -17,6 +17,17 @@ include('simpleicons-8/X/Xstate')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$XstateXs>`
+- `<$XstateSm>`
+- `<$XstateMd>`
+- `<$XstateLg>`
+
+
+
+
 
 ## Xstate
 

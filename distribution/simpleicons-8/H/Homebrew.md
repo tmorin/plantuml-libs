@@ -17,6 +17,17 @@ include('simpleicons-8/H/Homebrew')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HomebrewXs>`
+- `<$HomebrewSm>`
+- `<$HomebrewMd>`
+- `<$HomebrewLg>`
+
+
+
+
 
 ## Homebrew
 

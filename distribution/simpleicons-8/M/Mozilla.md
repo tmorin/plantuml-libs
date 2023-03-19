@@ -17,6 +17,17 @@ include('simpleicons-8/M/Mozilla')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MozillaXs>`
+- `<$MozillaSm>`
+- `<$MozillaMd>`
+- `<$MozillaLg>`
+
+
+
+
 
 ## Mozilla
 

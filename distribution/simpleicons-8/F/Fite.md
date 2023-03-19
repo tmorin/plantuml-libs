@@ -17,6 +17,17 @@ include('simpleicons-8/F/Fite')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FiteXs>`
+- `<$FiteSm>`
+- `<$FiteMd>`
+- `<$FiteLg>`
+
+
+
+
 
 ## Fite
 

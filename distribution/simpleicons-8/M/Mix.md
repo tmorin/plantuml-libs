@@ -17,6 +17,17 @@ include('simpleicons-8/M/Mix')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MixXs>`
+- `<$MixSm>`
+- `<$MixMd>`
+- `<$MixLg>`
+
+
+
+
 
 ## Mix
 

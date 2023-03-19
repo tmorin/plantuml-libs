@@ -17,6 +17,17 @@ include('simpleicons-8/A/Apacheairflow')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ApacheairflowXs>`
+- `<$ApacheairflowSm>`
+- `<$ApacheairflowMd>`
+- `<$ApacheairflowLg>`
+
+
+
+
 
 ## Apacheairflow
 

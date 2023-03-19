@@ -17,6 +17,17 @@ include('simpleicons-8/S/Siemens')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SiemensXs>`
+- `<$SiemensSm>`
+- `<$SiemensMd>`
+- `<$SiemensLg>`
+
+
+
+
 
 ## Siemens
 

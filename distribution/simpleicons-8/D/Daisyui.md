@@ -17,6 +17,17 @@ include('simpleicons-8/D/Daisyui')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DaisyuiXs>`
+- `<$DaisyuiSm>`
+- `<$DaisyuiMd>`
+- `<$DaisyuiLg>`
+
+
+
+
 
 ## Daisyui
 

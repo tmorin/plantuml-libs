@@ -17,6 +17,17 @@ include('simpleicons-8/K/Kahoot')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KahootXs>`
+- `<$KahootSm>`
+- `<$KahootMd>`
+- `<$KahootLg>`
+
+
+
+
 
 ## Kahoot
 

@@ -17,6 +17,17 @@ include('simpleicons-8/G/Gitter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GitterXs>`
+- `<$GitterSm>`
+- `<$GitterMd>`
+- `<$GitterLg>`
+
+
+
+
 
 ## Gitter
 

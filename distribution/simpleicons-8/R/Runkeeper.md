@@ -17,6 +17,17 @@ include('simpleicons-8/R/Runkeeper')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RunkeeperXs>`
+- `<$RunkeeperSm>`
+- `<$RunkeeperMd>`
+- `<$RunkeeperLg>`
+
+
+
+
 
 ## Runkeeper
 

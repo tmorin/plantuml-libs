@@ -17,6 +17,17 @@ include('simpleicons-8/W/Webstorm')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WebstormXs>`
+- `<$WebstormSm>`
+- `<$WebstormMd>`
+- `<$WebstormLg>`
+
+
+
+
 
 ## Webstorm
 

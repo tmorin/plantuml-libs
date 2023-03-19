@@ -17,6 +17,17 @@ include('simpleicons-8/S/Starz')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StarzXs>`
+- `<$StarzSm>`
+- `<$StarzMd>`
+- `<$StarzLg>`
+
+
+
+
 
 ## Starz
 

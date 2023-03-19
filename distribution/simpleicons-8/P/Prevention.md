@@ -17,6 +17,17 @@ include('simpleicons-8/P/Prevention')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PreventionXs>`
+- `<$PreventionSm>`
+- `<$PreventionMd>`
+- `<$PreventionLg>`
+
+
+
+
 
 ## Prevention
 

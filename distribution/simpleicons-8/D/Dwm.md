@@ -17,6 +17,17 @@ include('simpleicons-8/D/Dwm')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DwmXs>`
+- `<$DwmSm>`
+- `<$DwmMd>`
+- `<$DwmLg>`
+
+
+
+
 
 ## Dwm
 

@@ -17,6 +17,17 @@ include('simpleicons-8/A/Americanairlines')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmericanairlinesXs>`
+- `<$AmericanairlinesSm>`
+- `<$AmericanairlinesMd>`
+- `<$AmericanairlinesLg>`
+
+
+
+
 
 ## Americanairlines
 

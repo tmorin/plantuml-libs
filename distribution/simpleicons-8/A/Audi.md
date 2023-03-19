@@ -17,6 +17,17 @@ include('simpleicons-8/A/Audi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AudiXs>`
+- `<$AudiSm>`
+- `<$AudiMd>`
+- `<$AudiLg>`
+
+
+
+
 
 ## Audi
 

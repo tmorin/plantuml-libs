@@ -17,6 +17,17 @@ include('simpleicons-8/D/Dbt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DbtXs>`
+- `<$DbtSm>`
+- `<$DbtMd>`
+- `<$DbtLg>`
+
+
+
+
 
 ## Dbt
 

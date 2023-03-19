@@ -17,6 +17,17 @@ include('simpleicons-8/G/Gnuemacs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GnuemacsXs>`
+- `<$GnuemacsSm>`
+- `<$GnuemacsMd>`
+- `<$GnuemacsLg>`
+
+
+
+
 
 ## Gnuemacs
 

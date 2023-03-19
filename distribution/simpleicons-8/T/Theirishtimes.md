@@ -17,6 +17,17 @@ include('simpleicons-8/T/Theirishtimes')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TheirishtimesXs>`
+- `<$TheirishtimesSm>`
+- `<$TheirishtimesMd>`
+- `<$TheirishtimesLg>`
+
+
+
+
 
 ## Theirishtimes
 

@@ -17,6 +17,17 @@ include('simpleicons-8/V/Viber')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ViberXs>`
+- `<$ViberSm>`
+- `<$ViberMd>`
+- `<$ViberLg>`
+
+
+
+
 
 ## Viber
 

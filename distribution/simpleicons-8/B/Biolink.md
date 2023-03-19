@@ -17,6 +17,17 @@ include('simpleicons-8/B/Biolink')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BiolinkXs>`
+- `<$BiolinkSm>`
+- `<$BiolinkMd>`
+- `<$BiolinkLg>`
+
+
+
+
 
 ## Biolink
 

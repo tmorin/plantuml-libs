@@ -17,6 +17,17 @@ include('simpleicons-8/L/Lenovo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LenovoXs>`
+- `<$LenovoSm>`
+- `<$LenovoMd>`
+- `<$LenovoLg>`
+
+
+
+
 
 ## Lenovo
 

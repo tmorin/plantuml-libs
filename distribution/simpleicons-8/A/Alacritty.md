@@ -17,6 +17,17 @@ include('simpleicons-8/A/Alacritty')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AlacrittyXs>`
+- `<$AlacrittySm>`
+- `<$AlacrittyMd>`
+- `<$AlacrittyLg>`
+
+
+
+
 
 ## Alacritty
 

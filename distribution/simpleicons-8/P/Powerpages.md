@@ -17,6 +17,17 @@ include('simpleicons-8/P/Powerpages')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PowerpagesXs>`
+- `<$PowerpagesSm>`
+- `<$PowerpagesMd>`
+- `<$PowerpagesLg>`
+
+
+
+
 
 ## Powerpages
 

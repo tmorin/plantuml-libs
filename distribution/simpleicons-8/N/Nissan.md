@@ -17,6 +17,17 @@ include('simpleicons-8/N/Nissan')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NissanXs>`
+- `<$NissanSm>`
+- `<$NissanMd>`
+- `<$NissanLg>`
+
+
+
+
 
 ## Nissan
 

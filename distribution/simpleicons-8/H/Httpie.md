@@ -17,6 +17,17 @@ include('simpleicons-8/H/Httpie')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HttpieXs>`
+- `<$HttpieSm>`
+- `<$HttpieMd>`
+- `<$HttpieLg>`
+
+
+
+
 
 ## Httpie
 

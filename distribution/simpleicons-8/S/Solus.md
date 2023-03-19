@@ -17,6 +17,17 @@ include('simpleicons-8/S/Solus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SolusXs>`
+- `<$SolusSm>`
+- `<$SolusMd>`
+- `<$SolusLg>`
+
+
+
+
 
 ## Solus
 

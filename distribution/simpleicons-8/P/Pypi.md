@@ -17,6 +17,17 @@ include('simpleicons-8/P/Pypi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PypiXs>`
+- `<$PypiSm>`
+- `<$PypiMd>`
+- `<$PypiLg>`
+
+
+
+
 
 ## Pypi
 

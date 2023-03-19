@@ -17,6 +17,17 @@ include('simpleicons-8/N/Nubank')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NubankXs>`
+- `<$NubankSm>`
+- `<$NubankMd>`
+- `<$NubankLg>`
+
+
+
+
 
 ## Nubank
 

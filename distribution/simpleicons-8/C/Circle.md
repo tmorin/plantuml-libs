@@ -17,6 +17,17 @@ include('simpleicons-8/C/Circle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CircleXs>`
+- `<$CircleSm>`
+- `<$CircleMd>`
+- `<$CircleLg>`
+
+
+
+
 
 ## Circle
 

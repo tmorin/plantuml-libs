@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bitcoinsv')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BitcoinsvXs>`
+- `<$BitcoinsvSm>`
+- `<$BitcoinsvMd>`
+- `<$BitcoinsvLg>`
+
+
+
+
 
 ## Bitcoinsv
 

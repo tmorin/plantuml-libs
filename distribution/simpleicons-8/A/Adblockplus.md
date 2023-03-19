@@ -17,6 +17,17 @@ include('simpleicons-8/A/Adblockplus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AdblockplusXs>`
+- `<$AdblockplusSm>`
+- `<$AdblockplusMd>`
+- `<$AdblockplusLg>`
+
+
+
+
 
 ## Adblockplus
 

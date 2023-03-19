@@ -17,6 +17,17 @@ include('simpleicons-8/D/Docsdotrs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DocsdotrsXs>`
+- `<$DocsdotrsSm>`
+- `<$DocsdotrsMd>`
+- `<$DocsdotrsLg>`
+
+
+
+
 
 ## Docsdotrs
 

@@ -17,6 +17,17 @@ include('simpleicons-8/D/Discord')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DiscordXs>`
+- `<$DiscordSm>`
+- `<$DiscordMd>`
+- `<$DiscordLg>`
+
+
+
+
 
 ## Discord
 

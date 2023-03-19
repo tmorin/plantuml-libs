@@ -17,6 +17,17 @@ include('simpleicons-8/D/Dsautomobiles')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DsautomobilesXs>`
+- `<$DsautomobilesSm>`
+- `<$DsautomobilesMd>`
+- `<$DsautomobilesLg>`
+
+
+
+
 
 ## Dsautomobiles
 

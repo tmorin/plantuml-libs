@@ -17,6 +17,17 @@ include('simpleicons-8/V/Vscodium')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VscodiumXs>`
+- `<$VscodiumSm>`
+- `<$VscodiumMd>`
+- `<$VscodiumLg>`
+
+
+
+
 
 ## Vscodium
 

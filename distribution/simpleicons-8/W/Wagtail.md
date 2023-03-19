@@ -17,6 +17,17 @@ include('simpleicons-8/W/Wagtail')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WagtailXs>`
+- `<$WagtailSm>`
+- `<$WagtailMd>`
+- `<$WagtailLg>`
+
+
+
+
 
 ## Wagtail
 

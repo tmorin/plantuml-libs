@@ -17,6 +17,17 @@ include('simpleicons-8/T/Taobao')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TaobaoXs>`
+- `<$TaobaoSm>`
+- `<$TaobaoMd>`
+- `<$TaobaoLg>`
+
+
+
+
 
 ## Taobao
 

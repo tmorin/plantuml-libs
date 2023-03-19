@@ -17,6 +17,17 @@ include('simpleicons-8/J/Junit5')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$Junit5Xs>`
+- `<$Junit5Sm>`
+- `<$Junit5Md>`
+- `<$Junit5Lg>`
+
+
+
+
 
 ## Junit5
 

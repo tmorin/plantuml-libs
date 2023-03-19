@@ -17,6 +17,17 @@ include('simpleicons-8/M/Matterdotjs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MatterdotjsXs>`
+- `<$MatterdotjsSm>`
+- `<$MatterdotjsMd>`
+- `<$MatterdotjsLg>`
+
+
+
+
 
 ## Matterdotjs
 

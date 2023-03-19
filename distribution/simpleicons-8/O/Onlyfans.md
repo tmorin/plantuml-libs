@@ -17,6 +17,17 @@ include('simpleicons-8/O/Onlyfans')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OnlyfansXs>`
+- `<$OnlyfansSm>`
+- `<$OnlyfansMd>`
+- `<$OnlyfansLg>`
+
+
+
+
 
 ## Onlyfans
 

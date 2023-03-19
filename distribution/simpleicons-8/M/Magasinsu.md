@@ -17,6 +17,17 @@ include('simpleicons-8/M/Magasinsu')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MagasinsuXs>`
+- `<$MagasinsuSm>`
+- `<$MagasinsuMd>`
+- `<$MagasinsuLg>`
+
+
+
+
 
 ## Magasinsu
 

@@ -17,6 +17,17 @@ include('simpleicons-8/W/Windows')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WindowsXs>`
+- `<$WindowsSm>`
+- `<$WindowsMd>`
+- `<$WindowsLg>`
+
+
+
+
 
 ## Windows
 

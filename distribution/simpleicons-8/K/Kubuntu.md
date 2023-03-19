@@ -17,6 +17,17 @@ include('simpleicons-8/K/Kubuntu')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KubuntuXs>`
+- `<$KubuntuSm>`
+- `<$KubuntuMd>`
+- `<$KubuntuLg>`
+
+
+
+
 
 ## Kubuntu
 

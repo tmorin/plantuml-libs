@@ -17,6 +17,17 @@ include('simpleicons-8/S/Serverless')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServerlessXs>`
+- `<$ServerlessSm>`
+- `<$ServerlessMd>`
+- `<$ServerlessLg>`
+
+
+
+
 
 ## Serverless
 

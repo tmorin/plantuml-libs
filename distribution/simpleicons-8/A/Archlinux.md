@@ -17,6 +17,17 @@ include('simpleicons-8/A/Archlinux')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ArchlinuxXs>`
+- `<$ArchlinuxSm>`
+- `<$ArchlinuxMd>`
+- `<$ArchlinuxLg>`
+
+
+
+
 
 ## Archlinux
 

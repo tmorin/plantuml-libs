@@ -17,6 +17,17 @@ include('simpleicons-8/M/Mongodb')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MongodbXs>`
+- `<$MongodbSm>`
+- `<$MongodbMd>`
+- `<$MongodbLg>`
+
+
+
+
 
 ## Mongodb
 

@@ -17,6 +17,17 @@ include('simpleicons-8/O/Octopusdeploy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OctopusdeployXs>`
+- `<$OctopusdeploySm>`
+- `<$OctopusdeployMd>`
+- `<$OctopusdeployLg>`
+
+
+
+
 
 ## Octopusdeploy
 

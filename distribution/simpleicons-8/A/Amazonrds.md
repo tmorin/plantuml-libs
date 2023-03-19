@@ -17,6 +17,17 @@ include('simpleicons-8/A/Amazonrds')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonrdsXs>`
+- `<$AmazonrdsSm>`
+- `<$AmazonrdsMd>`
+- `<$AmazonrdsLg>`
+
+
+
+
 
 ## Amazonrds
 

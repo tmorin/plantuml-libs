@@ -17,6 +17,17 @@ include('simpleicons-8/M/Mediamarkt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MediamarktXs>`
+- `<$MediamarktSm>`
+- `<$MediamarktMd>`
+- `<$MediamarktLg>`
+
+
+
+
 
 ## Mediamarkt
 

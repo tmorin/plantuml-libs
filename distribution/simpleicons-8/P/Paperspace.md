@@ -17,6 +17,17 @@ include('simpleicons-8/P/Paperspace')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PaperspaceXs>`
+- `<$PaperspaceSm>`
+- `<$PaperspaceMd>`
+- `<$PaperspaceLg>`
+
+
+
+
 
 ## Paperspace
 

@@ -17,6 +17,17 @@ include('simpleicons-8/W/Warp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WarpXs>`
+- `<$WarpSm>`
+- `<$WarpMd>`
+- `<$WarpLg>`
+
+
+
+
 
 ## Warp
 

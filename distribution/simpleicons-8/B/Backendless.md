@@ -17,6 +17,17 @@ include('simpleicons-8/B/Backendless')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BackendlessXs>`
+- `<$BackendlessSm>`
+- `<$BackendlessMd>`
+- `<$BackendlessLg>`
+
+
+
+
 
 ## Backendless
 

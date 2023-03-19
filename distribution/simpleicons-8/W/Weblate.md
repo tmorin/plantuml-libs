@@ -17,6 +17,17 @@ include('simpleicons-8/W/Weblate')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WeblateXs>`
+- `<$WeblateSm>`
+- `<$WeblateMd>`
+- `<$WeblateLg>`
+
+
+
+
 
 ## Weblate
 

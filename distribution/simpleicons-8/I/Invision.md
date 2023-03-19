@@ -17,6 +17,17 @@ include('simpleicons-8/I/Invision')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InvisionXs>`
+- `<$InvisionSm>`
+- `<$InvisionMd>`
+- `<$InvisionLg>`
+
+
+
+
 
 ## Invision
 

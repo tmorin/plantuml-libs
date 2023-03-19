@@ -17,6 +17,17 @@ include('simpleicons-8/K/Kaggle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KaggleXs>`
+- `<$KaggleSm>`
+- `<$KaggleMd>`
+- `<$KaggleLg>`
+
+
+
+
 
 ## Kaggle
 

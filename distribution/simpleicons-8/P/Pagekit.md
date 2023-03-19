@@ -17,6 +17,17 @@ include('simpleicons-8/P/Pagekit')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PagekitXs>`
+- `<$PagekitSm>`
+- `<$PagekitMd>`
+- `<$PagekitLg>`
+
+
+
+
 
 ## Pagekit
 

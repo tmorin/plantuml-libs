@@ -17,6 +17,17 @@ include('simpleicons-8/W/Writedotas')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WritedotasXs>`
+- `<$WritedotasSm>`
+- `<$WritedotasMd>`
+- `<$WritedotasLg>`
+
+
+
+
 
 ## Writedotas
 

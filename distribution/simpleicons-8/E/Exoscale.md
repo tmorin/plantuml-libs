@@ -17,6 +17,17 @@ include('simpleicons-8/E/Exoscale')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ExoscaleXs>`
+- `<$ExoscaleSm>`
+- `<$ExoscaleMd>`
+- `<$ExoscaleLg>`
+
+
+
+
 
 ## Exoscale
 

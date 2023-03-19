@@ -17,6 +17,17 @@ include('simpleicons-8/A/Allocine')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AllocineXs>`
+- `<$AllocineSm>`
+- `<$AllocineMd>`
+- `<$AllocineLg>`
+
+
+
+
 
 ## Allocine
 

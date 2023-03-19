@@ -17,6 +17,17 @@ include('simpleicons-8/C/Crowdin')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CrowdinXs>`
+- `<$CrowdinSm>`
+- `<$CrowdinMd>`
+- `<$CrowdinLg>`
+
+
+
+
 
 ## Crowdin
 

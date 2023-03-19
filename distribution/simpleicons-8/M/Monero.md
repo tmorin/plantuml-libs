@@ -17,6 +17,17 @@ include('simpleicons-8/M/Monero')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MoneroXs>`
+- `<$MoneroSm>`
+- `<$MoneroMd>`
+- `<$MoneroLg>`
+
+
+
+
 
 ## Monero
 

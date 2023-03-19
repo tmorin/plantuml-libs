@@ -17,6 +17,17 @@ include('simpleicons-8/W/Wireshark')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WiresharkXs>`
+- `<$WiresharkSm>`
+- `<$WiresharkMd>`
+- `<$WiresharkLg>`
+
+
+
+
 
 ## Wireshark
 

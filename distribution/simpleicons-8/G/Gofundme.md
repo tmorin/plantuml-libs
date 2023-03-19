@@ -17,6 +17,17 @@ include('simpleicons-8/G/Gofundme')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GofundmeXs>`
+- `<$GofundmeSm>`
+- `<$GofundmeMd>`
+- `<$GofundmeLg>`
+
+
+
+
 
 ## Gofundme
 

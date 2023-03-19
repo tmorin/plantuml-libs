@@ -17,6 +17,17 @@ include('simpleicons-8/S/Shutterstock')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShutterstockXs>`
+- `<$ShutterstockSm>`
+- `<$ShutterstockMd>`
+- `<$ShutterstockLg>`
+
+
+
+
 
 ## Shutterstock
 

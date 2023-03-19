@@ -17,6 +17,17 @@ include('simpleicons-8/R/Republicofgamers')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RepublicofgamersXs>`
+- `<$RepublicofgamersSm>`
+- `<$RepublicofgamersMd>`
+- `<$RepublicofgamersLg>`
+
+
+
+
 
 ## Republicofgamers
 

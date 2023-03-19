@@ -17,6 +17,17 @@ include('simpleicons-8/A/Algorand')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AlgorandXs>`
+- `<$AlgorandSm>`
+- `<$AlgorandMd>`
+- `<$AlgorandLg>`
+
+
+
+
 
 ## Algorand
 

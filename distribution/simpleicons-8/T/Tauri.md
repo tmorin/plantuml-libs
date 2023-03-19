@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tauri')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TauriXs>`
+- `<$TauriSm>`
+- `<$TauriMd>`
+- `<$TauriLg>`
+
+
+
+
 
 ## Tauri
 

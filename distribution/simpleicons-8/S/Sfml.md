@@ -17,6 +17,17 @@ include('simpleicons-8/S/Sfml')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SfmlXs>`
+- `<$SfmlSm>`
+- `<$SfmlMd>`
+- `<$SfmlLg>`
+
+
+
+
 
 ## Sfml
 

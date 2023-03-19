@@ -17,6 +17,17 @@ include('simpleicons-8/E/Eagle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EagleXs>`
+- `<$EagleSm>`
+- `<$EagleMd>`
+- `<$EagleLg>`
+
+
+
+
 
 ## Eagle
 

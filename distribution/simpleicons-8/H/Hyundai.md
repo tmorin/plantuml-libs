@@ -17,6 +17,17 @@ include('simpleicons-8/H/Hyundai')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HyundaiXs>`
+- `<$HyundaiSm>`
+- `<$HyundaiMd>`
+- `<$HyundaiLg>`
+
+
+
+
 
 ## Hyundai
 

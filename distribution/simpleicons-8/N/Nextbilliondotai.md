@@ -17,6 +17,17 @@ include('simpleicons-8/N/Nextbilliondotai')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NextbilliondotaiXs>`
+- `<$NextbilliondotaiSm>`
+- `<$NextbilliondotaiMd>`
+- `<$NextbilliondotaiLg>`
+
+
+
+
 
 ## Nextbilliondotai
 

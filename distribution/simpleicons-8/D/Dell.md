@@ -17,6 +17,17 @@ include('simpleicons-8/D/Dell')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DellXs>`
+- `<$DellSm>`
+- `<$DellMd>`
+- `<$DellLg>`
+
+
+
+
 
 ## Dell
 

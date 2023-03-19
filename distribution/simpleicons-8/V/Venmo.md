@@ -17,6 +17,17 @@ include('simpleicons-8/V/Venmo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VenmoXs>`
+- `<$VenmoSm>`
+- `<$VenmoMd>`
+- `<$VenmoLg>`
+
+
+
+
 
 ## Venmo
 

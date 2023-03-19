@@ -17,6 +17,17 @@ include('simpleicons-8/M/Mqtt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MqttXs>`
+- `<$MqttSm>`
+- `<$MqttMd>`
+- `<$MqttLg>`
+
+
+
+
 
 ## Mqtt
 

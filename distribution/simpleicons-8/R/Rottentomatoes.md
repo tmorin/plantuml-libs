@@ -17,6 +17,17 @@ include('simpleicons-8/R/Rottentomatoes')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RottentomatoesXs>`
+- `<$RottentomatoesSm>`
+- `<$RottentomatoesMd>`
+- `<$RottentomatoesLg>`
+
+
+
+
 
 ## Rottentomatoes
 

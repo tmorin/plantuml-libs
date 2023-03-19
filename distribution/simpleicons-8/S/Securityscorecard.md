@@ -17,6 +17,17 @@ include('simpleicons-8/S/Securityscorecard')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SecurityscorecardXs>`
+- `<$SecurityscorecardSm>`
+- `<$SecurityscorecardMd>`
+- `<$SecurityscorecardLg>`
+
+
+
+
 
 ## Securityscorecard
 

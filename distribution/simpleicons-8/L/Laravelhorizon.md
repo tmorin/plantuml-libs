@@ -17,6 +17,17 @@ include('simpleicons-8/L/Laravelhorizon')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LaravelhorizonXs>`
+- `<$LaravelhorizonSm>`
+- `<$LaravelhorizonMd>`
+- `<$LaravelhorizonLg>`
+
+
+
+
 
 ## Laravelhorizon
 

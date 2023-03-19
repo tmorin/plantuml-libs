@@ -17,6 +17,17 @@ include('simpleicons-8/F/Fox')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FoxXs>`
+- `<$FoxSm>`
+- `<$FoxMd>`
+- `<$FoxLg>`
+
+
+
+
 
 ## Fox
 

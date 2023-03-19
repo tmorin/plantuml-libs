@@ -17,6 +17,17 @@ include('simpleicons-8/H/Helpdesk')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HelpdeskXs>`
+- `<$HelpdeskSm>`
+- `<$HelpdeskMd>`
+- `<$HelpdeskLg>`
+
+
+
+
 
 ## Helpdesk
 

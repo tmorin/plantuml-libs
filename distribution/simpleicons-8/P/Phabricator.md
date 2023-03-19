@@ -17,6 +17,17 @@ include('simpleicons-8/P/Phabricator')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PhabricatorXs>`
+- `<$PhabricatorSm>`
+- `<$PhabricatorMd>`
+- `<$PhabricatorLg>`
+
+
+
+
 
 ## Phabricator
 

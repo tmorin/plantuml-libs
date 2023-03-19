@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tmobile')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TmobileXs>`
+- `<$TmobileSm>`
+- `<$TmobileMd>`
+- `<$TmobileLg>`
+
+
+
+
 
 ## Tmobile
 

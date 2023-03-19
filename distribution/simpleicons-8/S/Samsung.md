@@ -17,6 +17,17 @@ include('simpleicons-8/S/Samsung')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SamsungXs>`
+- `<$SamsungSm>`
+- `<$SamsungMd>`
+- `<$SamsungLg>`
+
+
+
+
 
 ## Samsung
 

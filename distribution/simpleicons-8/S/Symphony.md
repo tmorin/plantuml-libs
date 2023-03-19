@@ -17,6 +17,17 @@ include('simpleicons-8/S/Symphony')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SymphonyXs>`
+- `<$SymphonySm>`
+- `<$SymphonyMd>`
+- `<$SymphonyLg>`
+
+
+
+
 
 ## Symphony
 

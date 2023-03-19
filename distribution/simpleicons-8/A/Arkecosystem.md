@@ -17,6 +17,17 @@ include('simpleicons-8/A/Arkecosystem')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ArkecosystemXs>`
+- `<$ArkecosystemSm>`
+- `<$ArkecosystemMd>`
+- `<$ArkecosystemLg>`
+
+
+
+
 
 ## Arkecosystem
 

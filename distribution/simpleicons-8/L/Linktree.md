@@ -17,6 +17,17 @@ include('simpleicons-8/L/Linktree')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LinktreeXs>`
+- `<$LinktreeSm>`
+- `<$LinktreeMd>`
+- `<$LinktreeLg>`
+
+
+
+
 
 ## Linktree
 

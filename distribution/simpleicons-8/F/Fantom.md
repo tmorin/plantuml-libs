@@ -17,6 +17,17 @@ include('simpleicons-8/F/Fantom')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FantomXs>`
+- `<$FantomSm>`
+- `<$FantomMd>`
+- `<$FantomLg>`
+
+
+
+
 
 ## Fantom
 

@@ -17,6 +17,17 @@ include('simpleicons-8/O/Osano')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OsanoXs>`
+- `<$OsanoSm>`
+- `<$OsanoMd>`
+- `<$OsanoLg>`
+
+
+
+
 
 ## Osano
 

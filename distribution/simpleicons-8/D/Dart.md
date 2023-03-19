@@ -17,6 +17,17 @@ include('simpleicons-8/D/Dart')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DartXs>`
+- `<$DartSm>`
+- `<$DartMd>`
+- `<$DartLg>`
+
+
+
+
 
 ## Dart
 

@@ -17,6 +17,17 @@ include('simpleicons-8/M/Minutemailer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MinutemailerXs>`
+- `<$MinutemailerSm>`
+- `<$MinutemailerMd>`
+- `<$MinutemailerLg>`
+
+
+
+
 
 ## Minutemailer
 

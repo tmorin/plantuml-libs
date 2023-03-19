@@ -17,6 +17,17 @@ include('simpleicons-8/C/Cplusplus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CplusplusXs>`
+- `<$CplusplusSm>`
+- `<$CplusplusMd>`
+- `<$CplusplusLg>`
+
+
+
+
 
 ## Cplusplus
 

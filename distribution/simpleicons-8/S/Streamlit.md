@@ -17,6 +17,17 @@ include('simpleicons-8/S/Streamlit')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StreamlitXs>`
+- `<$StreamlitSm>`
+- `<$StreamlitMd>`
+- `<$StreamlitLg>`
+
+
+
+
 
 ## Streamlit
 

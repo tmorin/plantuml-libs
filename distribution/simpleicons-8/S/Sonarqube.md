@@ -17,6 +17,17 @@ include('simpleicons-8/S/Sonarqube')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SonarqubeXs>`
+- `<$SonarqubeSm>`
+- `<$SonarqubeMd>`
+- `<$SonarqubeLg>`
+
+
+
+
 
 ## Sonarqube
 

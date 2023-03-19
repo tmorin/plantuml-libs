@@ -17,6 +17,17 @@ include('simpleicons-8/K/Knative')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KnativeXs>`
+- `<$KnativeSm>`
+- `<$KnativeMd>`
+- `<$KnativeLg>`
+
+
+
+
 
 ## Knative
 

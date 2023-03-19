@@ -17,6 +17,17 @@ include('simpleicons-8/N/Nintendo3Ds')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$Nintendo3DsXs>`
+- `<$Nintendo3DsSm>`
+- `<$Nintendo3DsMd>`
+- `<$Nintendo3DsLg>`
+
+
+
+
 
 ## Nintendo3Ds
 

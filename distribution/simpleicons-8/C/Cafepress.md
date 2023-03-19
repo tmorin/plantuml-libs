@@ -17,6 +17,17 @@ include('simpleicons-8/C/Cafepress')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CafepressXs>`
+- `<$CafepressSm>`
+- `<$CafepressMd>`
+- `<$CafepressLg>`
+
+
+
+
 
 ## Cafepress
 

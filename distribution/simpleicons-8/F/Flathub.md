@@ -17,6 +17,17 @@ include('simpleicons-8/F/Flathub')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FlathubXs>`
+- `<$FlathubSm>`
+- `<$FlathubMd>`
+- `<$FlathubLg>`
+
+
+
+
 
 ## Flathub
 

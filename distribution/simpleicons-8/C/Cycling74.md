@@ -17,6 +17,17 @@ include('simpleicons-8/C/Cycling74')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$Cycling74Xs>`
+- `<$Cycling74Sm>`
+- `<$Cycling74Md>`
+- `<$Cycling74Lg>`
+
+
+
+
 
 ## Cycling74
 

@@ -17,6 +17,17 @@ include('simpleicons-8/E/Eclipseide')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EclipseideXs>`
+- `<$EclipseideSm>`
+- `<$EclipseideMd>`
+- `<$EclipseideLg>`
+
+
+
+
 
 ## Eclipseide
 

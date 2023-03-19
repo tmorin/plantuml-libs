@@ -17,6 +17,17 @@ include('simpleicons-8/N/Nec')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NecXs>`
+- `<$NecSm>`
+- `<$NecMd>`
+- `<$NecLg>`
+
+
+
+
 
 ## Nec
 

@@ -17,6 +17,17 @@ include('simpleicons-8/P/Protondb')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ProtondbXs>`
+- `<$ProtondbSm>`
+- `<$ProtondbMd>`
+- `<$ProtondbLg>`
+
+
+
+
 
 ## Protondb
 

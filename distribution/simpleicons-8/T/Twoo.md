@@ -17,6 +17,17 @@ include('simpleicons-8/T/Twoo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TwooXs>`
+- `<$TwooSm>`
+- `<$TwooMd>`
+- `<$TwooLg>`
+
+
+
+
 
 ## Twoo
 

@@ -17,6 +17,17 @@ include('simpleicons-8/Q/Quora')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$QuoraXs>`
+- `<$QuoraSm>`
+- `<$QuoraMd>`
+- `<$QuoraLg>`
+
+
+
+
 
 ## Quora
 

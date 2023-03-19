@@ -17,6 +17,17 @@ include('simpleicons-8/S/Sky')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SkyXs>`
+- `<$SkySm>`
+- `<$SkyMd>`
+- `<$SkyLg>`
+
+
+
+
 
 ## Sky
 

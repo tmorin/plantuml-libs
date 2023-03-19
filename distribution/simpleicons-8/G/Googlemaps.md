@@ -17,6 +17,17 @@ include('simpleicons-8/G/Googlemaps')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GooglemapsXs>`
+- `<$GooglemapsSm>`
+- `<$GooglemapsMd>`
+- `<$GooglemapsLg>`
+
+
+
+
 
 ## Googlemaps
 

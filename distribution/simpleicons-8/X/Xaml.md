@@ -17,6 +17,17 @@ include('simpleicons-8/X/Xaml')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$XamlXs>`
+- `<$XamlSm>`
+- `<$XamlMd>`
+- `<$XamlLg>`
+
+
+
+
 
 ## Xaml
 

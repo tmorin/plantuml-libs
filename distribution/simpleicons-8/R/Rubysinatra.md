@@ -17,6 +17,17 @@ include('simpleicons-8/R/Rubysinatra')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RubysinatraXs>`
+- `<$RubysinatraSm>`
+- `<$RubysinatraMd>`
+- `<$RubysinatraLg>`
+
+
+
+
 
 ## Rubysinatra
 

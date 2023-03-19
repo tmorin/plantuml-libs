@@ -17,6 +17,17 @@ include('simpleicons-8/X/Xilinx')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$XilinxXs>`
+- `<$XilinxSm>`
+- `<$XilinxMd>`
+- `<$XilinxLg>`
+
+
+
+
 
 ## Xilinx
 

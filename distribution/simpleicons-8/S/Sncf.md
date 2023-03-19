@@ -17,6 +17,17 @@ include('simpleicons-8/S/Sncf')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SncfXs>`
+- `<$SncfSm>`
+- `<$SncfMd>`
+- `<$SncfLg>`
+
+
+
+
 
 ## Sncf
 

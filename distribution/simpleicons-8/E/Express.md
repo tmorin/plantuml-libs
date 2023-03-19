@@ -17,6 +17,17 @@ include('simpleicons-8/E/Express')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ExpressXs>`
+- `<$ExpressSm>`
+- `<$ExpressMd>`
+- `<$ExpressLg>`
+
+
+
+
 
 ## Express
 

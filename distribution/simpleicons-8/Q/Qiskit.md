@@ -17,6 +17,17 @@ include('simpleicons-8/Q/Qiskit')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$QiskitXs>`
+- `<$QiskitSm>`
+- `<$QiskitMd>`
+- `<$QiskitLg>`
+
+
+
+
 
 ## Qiskit
 

@@ -17,6 +17,17 @@ include('simpleicons-8/A/Adobefonts')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AdobefontsXs>`
+- `<$AdobefontsSm>`
+- `<$AdobefontsMd>`
+- `<$AdobefontsLg>`
+
+
+
+
 
 ## Adobefonts
 

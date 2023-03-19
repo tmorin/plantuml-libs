@@ -17,6 +17,17 @@ include('simpleicons-8/F/Fifa')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FifaXs>`
+- `<$FifaSm>`
+- `<$FifaMd>`
+- `<$FifaLg>`
+
+
+
+
 
 ## Fifa
 

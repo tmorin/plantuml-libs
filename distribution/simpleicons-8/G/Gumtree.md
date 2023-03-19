@@ -17,6 +17,17 @@ include('simpleicons-8/G/Gumtree')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GumtreeXs>`
+- `<$GumtreeSm>`
+- `<$GumtreeMd>`
+- `<$GumtreeLg>`
+
+
+
+
 
 ## Gumtree
 

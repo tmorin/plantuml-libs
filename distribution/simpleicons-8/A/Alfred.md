@@ -17,6 +17,17 @@ include('simpleicons-8/A/Alfred')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AlfredXs>`
+- `<$AlfredSm>`
+- `<$AlfredMd>`
+- `<$AlfredLg>`
+
+
+
+
 
 ## Alfred
 

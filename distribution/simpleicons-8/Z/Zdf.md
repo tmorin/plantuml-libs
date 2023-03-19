@@ -17,6 +17,17 @@ include('simpleicons-8/Z/Zdf')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ZdfXs>`
+- `<$ZdfSm>`
+- `<$ZdfMd>`
+- `<$ZdfLg>`
+
+
+
+
 
 ## Zdf
 

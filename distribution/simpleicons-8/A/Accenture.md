@@ -17,6 +17,17 @@ include('simpleicons-8/A/Accenture')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AccentureXs>`
+- `<$AccentureSm>`
+- `<$AccentureMd>`
+- `<$AccentureLg>`
+
+
+
+
 
 ## Accenture
 

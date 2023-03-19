@@ -17,6 +17,17 @@ include('simpleicons-8/I/Instagram')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InstagramXs>`
+- `<$InstagramSm>`
+- `<$InstagramMd>`
+- `<$InstagramLg>`
+
+
+
+
 
 ## Instagram
 

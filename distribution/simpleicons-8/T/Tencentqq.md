@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tencentqq')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TencentqqXs>`
+- `<$TencentqqSm>`
+- `<$TencentqqMd>`
+- `<$TencentqqLg>`
+
+
+
+
 
 ## Tencentqq
 

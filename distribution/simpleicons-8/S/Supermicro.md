@@ -17,6 +17,17 @@ include('simpleicons-8/S/Supermicro')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SupermicroXs>`
+- `<$SupermicroSm>`
+- `<$SupermicroMd>`
+- `<$SupermicroLg>`
+
+
+
+
 
 ## Supermicro
 

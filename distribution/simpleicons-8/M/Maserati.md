@@ -17,6 +17,17 @@ include('simpleicons-8/M/Maserati')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MaseratiXs>`
+- `<$MaseratiSm>`
+- `<$MaseratiMd>`
+- `<$MaseratiLg>`
+
+
+
+
 
 ## Maserati
 

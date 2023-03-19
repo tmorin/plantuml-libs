@@ -17,6 +17,17 @@ include('simpleicons-8/S/Shadow')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShadowXs>`
+- `<$ShadowSm>`
+- `<$ShadowMd>`
+- `<$ShadowLg>`
+
+
+
+
 
 ## Shadow
 

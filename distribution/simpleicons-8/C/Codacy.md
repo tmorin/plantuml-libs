@@ -17,6 +17,17 @@ include('simpleicons-8/C/Codacy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CodacyXs>`
+- `<$CodacySm>`
+- `<$CodacyMd>`
+- `<$CodacyLg>`
+
+
+
+
 
 ## Codacy
 

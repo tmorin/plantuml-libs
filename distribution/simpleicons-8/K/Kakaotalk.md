@@ -17,6 +17,17 @@ include('simpleicons-8/K/Kakaotalk')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KakaotalkXs>`
+- `<$KakaotalkSm>`
+- `<$KakaotalkMd>`
+- `<$KakaotalkLg>`
+
+
+
+
 
 ## Kakaotalk
 

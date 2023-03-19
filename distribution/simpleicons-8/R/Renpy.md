@@ -17,6 +17,17 @@ include('simpleicons-8/R/Renpy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RenpyXs>`
+- `<$RenpySm>`
+- `<$RenpyMd>`
+- `<$RenpyLg>`
+
+
+
+
 
 ## Renpy
 

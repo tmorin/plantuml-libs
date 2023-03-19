@@ -17,6 +17,17 @@ include('simpleicons-8/V/Vercel')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VercelXs>`
+- `<$VercelSm>`
+- `<$VercelMd>`
+- `<$VercelLg>`
+
+
+
+
 
 ## Vercel
 

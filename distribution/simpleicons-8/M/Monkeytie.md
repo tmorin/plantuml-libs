@@ -17,6 +17,17 @@ include('simpleicons-8/M/Monkeytie')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MonkeytieXs>`
+- `<$MonkeytieSm>`
+- `<$MonkeytieMd>`
+- `<$MonkeytieLg>`
+
+
+
+
 
 ## Monkeytie
 

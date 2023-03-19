@@ -17,6 +17,17 @@ include('simpleicons-8/S/Surrealdb')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SurrealdbXs>`
+- `<$SurrealdbSm>`
+- `<$SurrealdbMd>`
+- `<$SurrealdbLg>`
+
+
+
+
 
 ## Surrealdb
 

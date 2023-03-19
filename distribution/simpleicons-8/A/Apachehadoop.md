@@ -17,6 +17,17 @@ include('simpleicons-8/A/Apachehadoop')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ApachehadoopXs>`
+- `<$ApachehadoopSm>`
+- `<$ApachehadoopMd>`
+- `<$ApachehadoopLg>`
+
+
+
+
 
 ## Apachehadoop
 

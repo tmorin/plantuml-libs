@@ -17,6 +17,17 @@ include('simpleicons-8/C/Chai')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChaiXs>`
+- `<$ChaiSm>`
+- `<$ChaiMd>`
+- `<$ChaiLg>`
+
+
+
+
 
 ## Chai
 

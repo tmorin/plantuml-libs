@@ -17,6 +17,17 @@ include('simpleicons-8/S/Snyk')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SnykXs>`
+- `<$SnykSm>`
+- `<$SnykMd>`
+- `<$SnykLg>`
+
+
+
+
 
 ## Snyk
 

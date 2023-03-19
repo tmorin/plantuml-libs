@@ -17,6 +17,17 @@ include('simpleicons-8/S/Similarweb')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SimilarwebXs>`
+- `<$SimilarwebSm>`
+- `<$SimilarwebMd>`
+- `<$SimilarwebLg>`
+
+
+
+
 
 ## Similarweb
 

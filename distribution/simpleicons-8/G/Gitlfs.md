@@ -17,6 +17,17 @@ include('simpleicons-8/G/Gitlfs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GitlfsXs>`
+- `<$GitlfsSm>`
+- `<$GitlfsMd>`
+- `<$GitlfsLg>`
+
+
+
+
 
 ## Gitlfs
 

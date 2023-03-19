@@ -17,6 +17,17 @@ include('simpleicons-8/S/Shazam')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShazamXs>`
+- `<$ShazamSm>`
+- `<$ShazamMd>`
+- `<$ShazamLg>`
+
+
+
+
 
 ## Shazam
 

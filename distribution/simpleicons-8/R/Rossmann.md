@@ -17,6 +17,17 @@ include('simpleicons-8/R/Rossmann')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RossmannXs>`
+- `<$RossmannSm>`
+- `<$RossmannMd>`
+- `<$RossmannLg>`
+
+
+
+
 
 ## Rossmann
 

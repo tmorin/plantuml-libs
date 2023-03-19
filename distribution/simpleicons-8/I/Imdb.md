@@ -17,6 +17,17 @@ include('simpleicons-8/I/Imdb')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ImdbXs>`
+- `<$ImdbSm>`
+- `<$ImdbMd>`
+- `<$ImdbLg>`
+
+
+
+
 
 ## Imdb
 

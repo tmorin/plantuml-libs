@@ -17,6 +17,17 @@ include('simpleicons-8/F/Flatpak')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FlatpakXs>`
+- `<$FlatpakSm>`
+- `<$FlatpakMd>`
+- `<$FlatpakLg>`
+
+
+
+
 
 ## Flatpak
 

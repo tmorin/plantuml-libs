@@ -17,6 +17,17 @@ include('simpleicons-8/A/Applepay')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ApplepayXs>`
+- `<$ApplepaySm>`
+- `<$ApplepayMd>`
+- `<$ApplepayLg>`
+
+
+
+
 
 ## Applepay
 

@@ -17,6 +17,17 @@ include('simpleicons-8/C/Codecademy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CodecademyXs>`
+- `<$CodecademySm>`
+- `<$CodecademyMd>`
+- `<$CodecademyLg>`
+
+
+
+
 
 ## Codecademy
 

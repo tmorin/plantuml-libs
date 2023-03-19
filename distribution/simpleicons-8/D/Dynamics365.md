@@ -17,6 +17,17 @@ include('simpleicons-8/D/Dynamics365')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$Dynamics365Xs>`
+- `<$Dynamics365Sm>`
+- `<$Dynamics365Md>`
+- `<$Dynamics365Lg>`
+
+
+
+
 
 ## Dynamics365
 

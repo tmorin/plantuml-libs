@@ -17,6 +17,17 @@ include('simpleicons-8/D/Dotnet')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DotnetXs>`
+- `<$DotnetSm>`
+- `<$DotnetMd>`
+- `<$DotnetLg>`
+
+
+
+
 
 ## Dotnet
 

@@ -17,6 +17,17 @@ include('simpleicons-8/O/Odnoklassniki')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OdnoklassnikiXs>`
+- `<$OdnoklassnikiSm>`
+- `<$OdnoklassnikiMd>`
+- `<$OdnoklassnikiLg>`
+
+
+
+
 
 ## Odnoklassniki
 

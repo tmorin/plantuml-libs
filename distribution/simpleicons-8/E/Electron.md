@@ -17,6 +17,17 @@ include('simpleicons-8/E/Electron')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ElectronXs>`
+- `<$ElectronSm>`
+- `<$ElectronMd>`
+- `<$ElectronLg>`
+
+
+
+
 
 ## Electron
 

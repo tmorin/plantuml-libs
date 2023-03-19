@@ -17,6 +17,17 @@ include('simpleicons-8/A/Alpinelinux')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AlpinelinuxXs>`
+- `<$AlpinelinuxSm>`
+- `<$AlpinelinuxMd>`
+- `<$AlpinelinuxLg>`
+
+
+
+
 
 ## Alpinelinux
 

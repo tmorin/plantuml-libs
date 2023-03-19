@@ -17,6 +17,17 @@ include('simpleicons-8/A/Accusoft')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AccusoftXs>`
+- `<$AccusoftSm>`
+- `<$AccusoftMd>`
+- `<$AccusoftLg>`
+
+
+
+
 
 ## Accusoft
 

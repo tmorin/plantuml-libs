@@ -17,6 +17,17 @@ include('simpleicons-8/H/Hilton')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HiltonXs>`
+- `<$HiltonSm>`
+- `<$HiltonMd>`
+- `<$HiltonLg>`
+
+
+
+
 
 ## Hilton
 

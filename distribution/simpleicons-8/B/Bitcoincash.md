@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bitcoincash')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BitcoincashXs>`
+- `<$BitcoincashSm>`
+- `<$BitcoincashMd>`
+- `<$BitcoincashLg>`
+
+
+
+
 
 ## Bitcoincash
 

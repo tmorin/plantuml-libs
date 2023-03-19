@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bugatti')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BugattiXs>`
+- `<$BugattiSm>`
+- `<$BugattiMd>`
+- `<$BugattiLg>`
+
+
+
+
 
 ## Bugatti
 

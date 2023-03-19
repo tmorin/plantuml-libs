@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tapas')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TapasXs>`
+- `<$TapasSm>`
+- `<$TapasMd>`
+- `<$TapasLg>`
+
+
+
+
 
 ## Tapas
 

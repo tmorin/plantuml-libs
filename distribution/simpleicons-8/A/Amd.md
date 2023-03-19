@@ -17,6 +17,17 @@ include('simpleicons-8/A/Amd')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmdXs>`
+- `<$AmdSm>`
+- `<$AmdMd>`
+- `<$AmdLg>`
+
+
+
+
 
 ## Amd
 

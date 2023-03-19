@@ -17,6 +17,17 @@ include('simpleicons-8/G/Gnu')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GnuXs>`
+- `<$GnuSm>`
+- `<$GnuMd>`
+- `<$GnuLg>`
+
+
+
+
 
 ## Gnu
 

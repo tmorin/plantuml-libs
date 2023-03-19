@@ -17,6 +17,17 @@ include('simpleicons-8/_/_1001Tracklists')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$_1001TracklistsXs>`
+- `<$_1001TracklistsSm>`
+- `<$_1001TracklistsMd>`
+- `<$_1001TracklistsLg>`
+
+
+
+
 
 ## _1001Tracklists
 

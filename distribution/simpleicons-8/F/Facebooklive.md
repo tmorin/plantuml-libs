@@ -17,6 +17,17 @@ include('simpleicons-8/F/Facebooklive')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FacebookliveXs>`
+- `<$FacebookliveSm>`
+- `<$FacebookliveMd>`
+- `<$FacebookliveLg>`
+
+
+
+
 
 ## Facebooklive
 

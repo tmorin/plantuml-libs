@@ -17,6 +17,17 @@ include('simpleicons-8/O/Octoprint')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OctoprintXs>`
+- `<$OctoprintSm>`
+- `<$OctoprintMd>`
+- `<$OctoprintLg>`
+
+
+
+
 
 ## Octoprint
 

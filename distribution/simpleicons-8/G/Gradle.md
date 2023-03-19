@@ -17,6 +17,17 @@ include('simpleicons-8/G/Gradle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GradleXs>`
+- `<$GradleSm>`
+- `<$GradleMd>`
+- `<$GradleLg>`
+
+
+
+
 
 ## Gradle
 

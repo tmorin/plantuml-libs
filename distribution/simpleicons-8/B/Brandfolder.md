@@ -17,6 +17,17 @@ include('simpleicons-8/B/Brandfolder')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BrandfolderXs>`
+- `<$BrandfolderSm>`
+- `<$BrandfolderMd>`
+- `<$BrandfolderLg>`
+
+
+
+
 
 ## Brandfolder
 

@@ -17,6 +17,17 @@ include('simpleicons-8/M/Modx')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ModxXs>`
+- `<$ModxSm>`
+- `<$ModxMd>`
+- `<$ModxLg>`
+
+
+
+
 
 ## Modx
 

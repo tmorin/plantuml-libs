@@ -17,6 +17,17 @@ include('simpleicons-8/S/Surveymonkey')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SurveymonkeyXs>`
+- `<$SurveymonkeySm>`
+- `<$SurveymonkeyMd>`
+- `<$SurveymonkeyLg>`
+
+
+
+
 
 ## Surveymonkey
 

@@ -17,6 +17,17 @@ include('simpleicons-8/M/Micropython')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MicropythonXs>`
+- `<$MicropythonSm>`
+- `<$MicropythonMd>`
+- `<$MicropythonLg>`
+
+
+
+
 
 ## Micropython
 

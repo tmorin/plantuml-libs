@@ -17,6 +17,17 @@ include('simpleicons-8/T/Twilio')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TwilioXs>`
+- `<$TwilioSm>`
+- `<$TwilioMd>`
+- `<$TwilioLg>`
+
+
+
+
 
 ## Twilio
 

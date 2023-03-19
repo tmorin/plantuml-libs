@@ -17,6 +17,17 @@ include('simpleicons-8/M/Microsoftaccess')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MicrosoftaccessXs>`
+- `<$MicrosoftaccessSm>`
+- `<$MicrosoftaccessMd>`
+- `<$MicrosoftaccessLg>`
+
+
+
+
 
 ## Microsoftaccess
 

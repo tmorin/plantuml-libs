@@ -17,6 +17,17 @@ include('simpleicons-8/C/Contentful')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ContentfulXs>`
+- `<$ContentfulSm>`
+- `<$ContentfulMd>`
+- `<$ContentfulLg>`
+
+
+
+
 
 ## Contentful
 

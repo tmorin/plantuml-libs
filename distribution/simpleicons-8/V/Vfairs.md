@@ -17,6 +17,17 @@ include('simpleicons-8/V/Vfairs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VfairsXs>`
+- `<$VfairsSm>`
+- `<$VfairsMd>`
+- `<$VfairsLg>`
+
+
+
+
 
 ## Vfairs
 

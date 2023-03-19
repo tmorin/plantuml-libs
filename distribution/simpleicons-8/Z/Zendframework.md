@@ -17,6 +17,17 @@ include('simpleicons-8/Z/Zendframework')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ZendframeworkXs>`
+- `<$ZendframeworkSm>`
+- `<$ZendframeworkMd>`
+- `<$ZendframeworkLg>`
+
+
+
+
 
 ## Zendframework
 

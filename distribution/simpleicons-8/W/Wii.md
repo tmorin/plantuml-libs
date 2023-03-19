@@ -17,6 +17,17 @@ include('simpleicons-8/W/Wii')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WiiXs>`
+- `<$WiiSm>`
+- `<$WiiMd>`
+- `<$WiiLg>`
+
+
+
+
 
 ## Wii
 

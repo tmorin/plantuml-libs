@@ -17,6 +17,17 @@ include('simpleicons-8/P/Powerapps')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PowerappsXs>`
+- `<$PowerappsSm>`
+- `<$PowerappsMd>`
+- `<$PowerappsLg>`
+
+
+
+
 
 ## Powerapps
 

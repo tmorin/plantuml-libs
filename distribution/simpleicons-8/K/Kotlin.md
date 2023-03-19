@@ -17,6 +17,17 @@ include('simpleicons-8/K/Kotlin')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KotlinXs>`
+- `<$KotlinSm>`
+- `<$KotlinMd>`
+- `<$KotlinLg>`
+
+
+
+
 
 ## Kotlin
 

@@ -17,6 +17,17 @@ include('simpleicons-8/G/Gamedeveloper')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GamedeveloperXs>`
+- `<$GamedeveloperSm>`
+- `<$GamedeveloperMd>`
+- `<$GamedeveloperLg>`
+
+
+
+
 
 ## Gamedeveloper
 

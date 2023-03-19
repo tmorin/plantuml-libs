@@ -17,6 +17,17 @@ include('simpleicons-8/S/Stmicroelectronics')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StmicroelectronicsXs>`
+- `<$StmicroelectronicsSm>`
+- `<$StmicroelectronicsMd>`
+- `<$StmicroelectronicsLg>`
+
+
+
+
 
 ## Stmicroelectronics
 

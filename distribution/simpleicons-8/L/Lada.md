@@ -17,6 +17,17 @@ include('simpleicons-8/L/Lada')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LadaXs>`
+- `<$LadaSm>`
+- `<$LadaMd>`
+- `<$LadaLg>`
+
+
+
+
 
 ## Lada
 

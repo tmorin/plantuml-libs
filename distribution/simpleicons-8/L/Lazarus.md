@@ -17,6 +17,17 @@ include('simpleicons-8/L/Lazarus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LazarusXs>`
+- `<$LazarusSm>`
+- `<$LazarusMd>`
+- `<$LazarusLg>`
+
+
+
+
 
 ## Lazarus
 

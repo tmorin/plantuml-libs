@@ -17,6 +17,17 @@ include('simpleicons-8/M/Majorleaguehacking')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MajorleaguehackingXs>`
+- `<$MajorleaguehackingSm>`
+- `<$MajorleaguehackingMd>`
+- `<$MajorleaguehackingLg>`
+
+
+
+
 
 ## Majorleaguehacking
 

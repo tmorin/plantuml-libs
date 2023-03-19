@@ -17,6 +17,17 @@ include('simpleicons-8/R/Renren')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RenrenXs>`
+- `<$RenrenSm>`
+- `<$RenrenMd>`
+- `<$RenrenLg>`
+
+
+
+
 
 ## Renren
 

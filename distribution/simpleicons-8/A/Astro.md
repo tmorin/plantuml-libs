@@ -17,6 +17,17 @@ include('simpleicons-8/A/Astro')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AstroXs>`
+- `<$AstroSm>`
+- `<$AstroMd>`
+- `<$AstroLg>`
+
+
+
+
 
 ## Astro
 

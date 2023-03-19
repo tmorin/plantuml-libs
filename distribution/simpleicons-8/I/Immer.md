@@ -17,6 +17,17 @@ include('simpleicons-8/I/Immer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ImmerXs>`
+- `<$ImmerSm>`
+- `<$ImmerMd>`
+- `<$ImmerLg>`
+
+
+
+
 
 ## Immer
 

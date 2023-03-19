@@ -17,6 +17,17 @@ include('simpleicons-8/M/Mocha')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MochaXs>`
+- `<$MochaSm>`
+- `<$MochaMd>`
+- `<$MochaLg>`
+
+
+
+
 
 ## Mocha
 

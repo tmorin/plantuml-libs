@@ -17,6 +17,17 @@ include('simpleicons-8/K/Kickstarter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KickstarterXs>`
+- `<$KickstarterSm>`
+- `<$KickstarterMd>`
+- `<$KickstarterLg>`
+
+
+
+
 
 ## Kickstarter
 

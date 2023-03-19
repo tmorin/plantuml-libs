@@ -17,6 +17,17 @@ include('simpleicons-8/R/Red')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RedXs>`
+- `<$RedSm>`
+- `<$RedMd>`
+- `<$RedLg>`
+
+
+
+
 
 ## Red
 

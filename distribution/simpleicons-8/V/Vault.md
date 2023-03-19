@@ -17,6 +17,17 @@ include('simpleicons-8/V/Vault')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VaultXs>`
+- `<$VaultSm>`
+- `<$VaultMd>`
+- `<$VaultLg>`
+
+
+
+
 
 ## Vault
 

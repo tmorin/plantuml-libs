@@ -17,6 +17,17 @@ include('simpleicons-8/L/Linkfire')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LinkfireXs>`
+- `<$LinkfireSm>`
+- `<$LinkfireMd>`
+- `<$LinkfireLg>`
+
+
+
+
 
 ## Linkfire
 

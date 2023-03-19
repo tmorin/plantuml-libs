@@ -17,6 +17,17 @@ include('simpleicons-8/D/Datacamp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DatacampXs>`
+- `<$DatacampSm>`
+- `<$DatacampMd>`
+- `<$DatacampLg>`
+
+
+
+
 
 ## Datacamp
 

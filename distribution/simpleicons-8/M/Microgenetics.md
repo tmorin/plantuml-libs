@@ -17,6 +17,17 @@ include('simpleicons-8/M/Microgenetics')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MicrogeneticsXs>`
+- `<$MicrogeneticsSm>`
+- `<$MicrogeneticsMd>`
+- `<$MicrogeneticsLg>`
+
+
+
+
 
 ## Microgenetics
 

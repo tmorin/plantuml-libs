@@ -17,6 +17,17 @@ include('simpleicons-8/R/Rescript')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RescriptXs>`
+- `<$RescriptSm>`
+- `<$RescriptMd>`
+- `<$RescriptLg>`
+
+
+
+
 
 ## Rescript
 

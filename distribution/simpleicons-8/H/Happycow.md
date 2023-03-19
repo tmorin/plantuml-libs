@@ -17,6 +17,17 @@ include('simpleicons-8/H/Happycow')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HappycowXs>`
+- `<$HappycowSm>`
+- `<$HappycowMd>`
+- `<$HappycowLg>`
+
+
+
+
 
 ## Happycow
 

@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bookbub')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BookbubXs>`
+- `<$BookbubSm>`
+- `<$BookbubMd>`
+- `<$BookbubLg>`
+
+
+
+
 
 ## Bookbub
 

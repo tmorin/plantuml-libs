@@ -17,6 +17,17 @@ include('simpleicons-8/W/Wordpress')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WordpressXs>`
+- `<$WordpressSm>`
+- `<$WordpressMd>`
+- `<$WordpressLg>`
+
+
+
+
 
 ## Wordpress
 

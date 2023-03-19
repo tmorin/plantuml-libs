@@ -17,6 +17,17 @@ include('simpleicons-8/J/Justeat')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JusteatXs>`
+- `<$JusteatSm>`
+- `<$JusteatMd>`
+- `<$JusteatLg>`
+
+
+
+
 
 ## Justeat
 

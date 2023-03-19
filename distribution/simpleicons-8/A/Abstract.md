@@ -17,6 +17,17 @@ include('simpleicons-8/A/Abstract')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AbstractXs>`
+- `<$AbstractSm>`
+- `<$AbstractMd>`
+- `<$AbstractLg>`
+
+
+
+
 
 ## Abstract
 

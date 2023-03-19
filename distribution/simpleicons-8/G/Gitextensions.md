@@ -17,6 +17,17 @@ include('simpleicons-8/G/Gitextensions')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GitextensionsXs>`
+- `<$GitextensionsSm>`
+- `<$GitextensionsMd>`
+- `<$GitextensionsLg>`
+
+
+
+
 
 ## Gitextensions
 

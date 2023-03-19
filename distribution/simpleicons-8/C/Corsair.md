@@ -17,6 +17,17 @@ include('simpleicons-8/C/Corsair')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CorsairXs>`
+- `<$CorsairSm>`
+- `<$CorsairMd>`
+- `<$CorsairLg>`
+
+
+
+
 
 ## Corsair
 

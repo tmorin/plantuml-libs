@@ -17,6 +17,17 @@ include('simpleicons-8/A/Adidas')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AdidasXs>`
+- `<$AdidasSm>`
+- `<$AdidasMd>`
+- `<$AdidasLg>`
+
+
+
+
 
 ## Adidas
 

@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bata')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BataXs>`
+- `<$BataSm>`
+- `<$BataMd>`
+- `<$BataLg>`
+
+
+
+
 
 ## Bata
 

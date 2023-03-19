@@ -17,6 +17,17 @@ include('simpleicons-8/J/Jcb')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JcbXs>`
+- `<$JcbSm>`
+- `<$JcbMd>`
+- `<$JcbLg>`
+
+
+
+
 
 ## Jcb
 

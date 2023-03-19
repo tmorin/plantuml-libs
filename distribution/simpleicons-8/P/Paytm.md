@@ -17,6 +17,17 @@ include('simpleicons-8/P/Paytm')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PaytmXs>`
+- `<$PaytmSm>`
+- `<$PaytmMd>`
+- `<$PaytmLg>`
+
+
+
+
 
 ## Paytm
 

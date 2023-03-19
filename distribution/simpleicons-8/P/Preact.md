@@ -17,6 +17,17 @@ include('simpleicons-8/P/Preact')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PreactXs>`
+- `<$PreactSm>`
+- `<$PreactMd>`
+- `<$PreactLg>`
+
+
+
+
 
 ## Preact
 

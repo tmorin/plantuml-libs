@@ -17,6 +17,17 @@ include('simpleicons-8/J/Jira')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JiraXs>`
+- `<$JiraSm>`
+- `<$JiraMd>`
+- `<$JiraLg>`
+
+
+
+
 
 ## Jira
 

@@ -17,6 +17,17 @@ include('simpleicons-8/T/Thunderbird')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ThunderbirdXs>`
+- `<$ThunderbirdSm>`
+- `<$ThunderbirdMd>`
+- `<$ThunderbirdLg>`
+
+
+
+
 
 ## Thunderbird
 

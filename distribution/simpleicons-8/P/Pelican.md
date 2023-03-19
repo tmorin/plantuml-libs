@@ -17,6 +17,17 @@ include('simpleicons-8/P/Pelican')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PelicanXs>`
+- `<$PelicanSm>`
+- `<$PelicanMd>`
+- `<$PelicanLg>`
+
+
+
+
 
 ## Pelican
 

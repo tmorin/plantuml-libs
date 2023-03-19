@@ -17,6 +17,17 @@ include('simpleicons-8/T/Teespring')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TeespringXs>`
+- `<$TeespringSm>`
+- `<$TeespringMd>`
+- `<$TeespringLg>`
+
+
+
+
 
 ## Teespring
 

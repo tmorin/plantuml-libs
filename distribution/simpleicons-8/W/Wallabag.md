@@ -17,6 +17,17 @@ include('simpleicons-8/W/Wallabag')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WallabagXs>`
+- `<$WallabagSm>`
+- `<$WallabagMd>`
+- `<$WallabagLg>`
+
+
+
+
 
 ## Wallabag
 

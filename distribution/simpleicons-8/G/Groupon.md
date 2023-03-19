@@ -17,6 +17,17 @@ include('simpleicons-8/G/Groupon')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GrouponXs>`
+- `<$GrouponSm>`
+- `<$GrouponMd>`
+- `<$GrouponLg>`
+
+
+
+
 
 ## Groupon
 

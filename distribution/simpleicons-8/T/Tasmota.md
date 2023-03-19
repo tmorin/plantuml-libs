@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tasmota')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TasmotaXs>`
+- `<$TasmotaSm>`
+- `<$TasmotaMd>`
+- `<$TasmotaLg>`
+
+
+
+
 
 ## Tasmota
 

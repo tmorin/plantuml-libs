@@ -17,6 +17,17 @@ include('simpleicons-8/A/Asda')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AsdaXs>`
+- `<$AsdaSm>`
+- `<$AsdaMd>`
+- `<$AsdaLg>`
+
+
+
+
 
 ## Asda
 

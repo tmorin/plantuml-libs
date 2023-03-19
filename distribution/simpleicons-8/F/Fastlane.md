@@ -17,6 +17,17 @@ include('simpleicons-8/F/Fastlane')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FastlaneXs>`
+- `<$FastlaneSm>`
+- `<$FastlaneMd>`
+- `<$FastlaneLg>`
+
+
+
+
 
 ## Fastlane
 

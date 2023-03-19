@@ -17,6 +17,17 @@ include('simpleicons-8/R/Reactos')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ReactosXs>`
+- `<$ReactosSm>`
+- `<$ReactosMd>`
+- `<$ReactosLg>`
+
+
+
+
 
 ## Reactos
 

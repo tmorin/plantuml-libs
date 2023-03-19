@@ -17,6 +17,17 @@ include('simpleicons-8/R/Reactquery')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ReactqueryXs>`
+- `<$ReactquerySm>`
+- `<$ReactqueryMd>`
+- `<$ReactqueryLg>`
+
+
+
+
 
 ## Reactquery
 

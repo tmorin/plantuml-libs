@@ -17,6 +17,17 @@ include('simpleicons-8/D/Dior')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DiorXs>`
+- `<$DiorSm>`
+- `<$DiorMd>`
+- `<$DiorLg>`
+
+
+
+
 
 ## Dior
 

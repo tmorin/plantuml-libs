@@ -17,6 +17,17 @@ include('simpleicons-8/R/Radiopublic')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RadiopublicXs>`
+- `<$RadiopublicSm>`
+- `<$RadiopublicMd>`
+- `<$RadiopublicLg>`
+
+
+
+
 
 ## Radiopublic
 

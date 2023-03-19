@@ -17,6 +17,17 @@ include('simpleicons-8/A/Apache')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ApacheXs>`
+- `<$ApacheSm>`
+- `<$ApacheMd>`
+- `<$ApacheLg>`
+
+
+
+
 
 ## Apache
 

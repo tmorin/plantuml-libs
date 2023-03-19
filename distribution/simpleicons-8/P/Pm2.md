@@ -17,6 +17,17 @@ include('simpleicons-8/P/Pm2')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$Pm2Xs>`
+- `<$Pm2Sm>`
+- `<$Pm2Md>`
+- `<$Pm2Lg>`
+
+
+
+
 
 ## Pm2
 

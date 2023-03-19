@@ -17,6 +17,17 @@ include('simpleicons-8/C/Cytoscapedotjs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CytoscapedotjsXs>`
+- `<$CytoscapedotjsSm>`
+- `<$CytoscapedotjsMd>`
+- `<$CytoscapedotjsLg>`
+
+
+
+
 
 ## Cytoscapedotjs
 

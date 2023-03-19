@@ -17,6 +17,17 @@ include('simpleicons-8/N/Nativescript')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NativescriptXs>`
+- `<$NativescriptSm>`
+- `<$NativescriptMd>`
+- `<$NativescriptLg>`
+
+
+
+
 
 ## Nativescript
 

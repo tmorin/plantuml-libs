@@ -17,6 +17,17 @@ include('simpleicons-8/M/Maas')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MaasXs>`
+- `<$MaasSm>`
+- `<$MaasMd>`
+- `<$MaasLg>`
+
+
+
+
 
 ## Maas
 

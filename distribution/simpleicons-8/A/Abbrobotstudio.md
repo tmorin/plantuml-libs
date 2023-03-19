@@ -17,6 +17,17 @@ include('simpleicons-8/A/Abbrobotstudio')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AbbrobotstudioXs>`
+- `<$AbbrobotstudioSm>`
+- `<$AbbrobotstudioMd>`
+- `<$AbbrobotstudioLg>`
+
+
+
+
 
 ## Abbrobotstudio
 

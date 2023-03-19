@@ -17,6 +17,17 @@ include('simpleicons-8/S/Spyderide')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SpyderideXs>`
+- `<$SpyderideSm>`
+- `<$SpyderideMd>`
+- `<$SpyderideLg>`
+
+
+
+
 
 ## Spyderide
 

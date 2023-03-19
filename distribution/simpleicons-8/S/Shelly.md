@@ -17,6 +17,17 @@ include('simpleicons-8/S/Shelly')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShellyXs>`
+- `<$ShellySm>`
+- `<$ShellyMd>`
+- `<$ShellyLg>`
+
+
+
+
 
 ## Shelly
 

@@ -17,6 +17,17 @@ include('simpleicons-8/S/Semanticrelease')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SemanticreleaseXs>`
+- `<$SemanticreleaseSm>`
+- `<$SemanticreleaseMd>`
+- `<$SemanticreleaseLg>`
+
+
+
+
 
 ## Semanticrelease
 

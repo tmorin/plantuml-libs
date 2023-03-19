@@ -17,6 +17,17 @@ include('simpleicons-8/X/Xfce')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$XfceXs>`
+- `<$XfceSm>`
+- `<$XfceMd>`
+- `<$XfceLg>`
+
+
+
+
 
 ## Xfce
 

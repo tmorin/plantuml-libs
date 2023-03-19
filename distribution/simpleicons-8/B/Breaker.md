@@ -17,6 +17,17 @@ include('simpleicons-8/B/Breaker')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BreakerXs>`
+- `<$BreakerSm>`
+- `<$BreakerMd>`
+- `<$BreakerLg>`
+
+
+
+
 
 ## Breaker
 

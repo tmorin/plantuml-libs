@@ -17,6 +17,17 @@ include('simpleicons-8/A/Allegro')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AllegroXs>`
+- `<$AllegroSm>`
+- `<$AllegroMd>`
+- `<$AllegroLg>`
+
+
+
+
 
 ## Allegro
 

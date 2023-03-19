@@ -17,6 +17,17 @@ include('simpleicons-8/C/Canonical')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CanonicalXs>`
+- `<$CanonicalSm>`
+- `<$CanonicalMd>`
+- `<$CanonicalLg>`
+
+
+
+
 
 ## Canonical
 

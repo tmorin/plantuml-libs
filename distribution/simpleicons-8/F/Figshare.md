@@ -17,6 +17,17 @@ include('simpleicons-8/F/Figshare')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FigshareXs>`
+- `<$FigshareSm>`
+- `<$FigshareMd>`
+- `<$FigshareLg>`
+
+
+
+
 
 ## Figshare
 

@@ -17,6 +17,17 @@ include('simpleicons-8/A/Audacity')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AudacityXs>`
+- `<$AudacitySm>`
+- `<$AudacityMd>`
+- `<$AudacityLg>`
+
+
+
+
 
 ## Audacity
 

@@ -17,6 +17,17 @@ include('simpleicons-8/G/Gtk')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GtkXs>`
+- `<$GtkSm>`
+- `<$GtkMd>`
+- `<$GtkLg>`
+
+
+
+
 
 ## Gtk
 

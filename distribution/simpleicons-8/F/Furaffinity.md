@@ -17,6 +17,17 @@ include('simpleicons-8/F/Furaffinity')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FuraffinityXs>`
+- `<$FuraffinitySm>`
+- `<$FuraffinityMd>`
+- `<$FuraffinityLg>`
+
+
+
+
 
 ## Furaffinity
 

@@ -17,6 +17,17 @@ include('simpleicons-8/P/Pulumi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PulumiXs>`
+- `<$PulumiSm>`
+- `<$PulumiMd>`
+- `<$PulumiLg>`
+
+
+
+
 
 ## Pulumi
 

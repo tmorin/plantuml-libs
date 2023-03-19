@@ -17,6 +17,17 @@ include('simpleicons-8/P/Platformdotsh')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PlatformdotshXs>`
+- `<$PlatformdotshSm>`
+- `<$PlatformdotshMd>`
+- `<$PlatformdotshLg>`
+
+
+
+
 
 ## Platformdotsh
 

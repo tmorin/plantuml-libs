@@ -17,6 +17,17 @@ include('simpleicons-8/B/Buefy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BuefyXs>`
+- `<$BuefySm>`
+- `<$BuefyMd>`
+- `<$BuefyLg>`
+
+
+
+
 
 ## Buefy
 

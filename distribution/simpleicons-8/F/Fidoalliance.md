@@ -17,6 +17,17 @@ include('simpleicons-8/F/Fidoalliance')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FidoallianceXs>`
+- `<$FidoallianceSm>`
+- `<$FidoallianceMd>`
+- `<$FidoallianceLg>`
+
+
+
+
 
 ## Fidoalliance
 

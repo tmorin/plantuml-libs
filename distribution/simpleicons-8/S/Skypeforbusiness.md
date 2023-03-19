@@ -17,6 +17,17 @@ include('simpleicons-8/S/Skypeforbusiness')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SkypeforbusinessXs>`
+- `<$SkypeforbusinessSm>`
+- `<$SkypeforbusinessMd>`
+- `<$SkypeforbusinessLg>`
+
+
+
+
 
 ## Skypeforbusiness
 

@@ -17,6 +17,17 @@ include('simpleicons-8/Q/Quasar')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$QuasarXs>`
+- `<$QuasarSm>`
+- `<$QuasarMd>`
+- `<$QuasarLg>`
+
+
+
+
 
 ## Quasar
 

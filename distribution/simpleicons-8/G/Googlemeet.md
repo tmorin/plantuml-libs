@@ -17,6 +17,17 @@ include('simpleicons-8/G/Googlemeet')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GooglemeetXs>`
+- `<$GooglemeetSm>`
+- `<$GooglemeetMd>`
+- `<$GooglemeetLg>`
+
+
+
+
 
 ## Googlemeet
 

@@ -17,6 +17,17 @@ include('simpleicons-8/I/Influxdb')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InfluxdbXs>`
+- `<$InfluxdbSm>`
+- `<$InfluxdbMd>`
+- `<$InfluxdbLg>`
+
+
+
+
 
 ## Influxdb
 

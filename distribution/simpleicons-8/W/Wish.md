@@ -17,6 +17,17 @@ include('simpleicons-8/W/Wish')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WishXs>`
+- `<$WishSm>`
+- `<$WishMd>`
+- `<$WishLg>`
+
+
+
+
 
 ## Wish
 

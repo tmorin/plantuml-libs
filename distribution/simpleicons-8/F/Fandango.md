@@ -17,6 +17,17 @@ include('simpleicons-8/F/Fandango')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FandangoXs>`
+- `<$FandangoSm>`
+- `<$FandangoMd>`
+- `<$FandangoLg>`
+
+
+
+
 
 ## Fandango
 

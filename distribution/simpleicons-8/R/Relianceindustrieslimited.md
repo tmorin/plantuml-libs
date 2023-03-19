@@ -17,6 +17,17 @@ include('simpleicons-8/R/Relianceindustrieslimited')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RelianceindustrieslimitedXs>`
+- `<$RelianceindustrieslimitedSm>`
+- `<$RelianceindustrieslimitedMd>`
+- `<$RelianceindustrieslimitedLg>`
+
+
+
+
 
 ## Relianceindustrieslimited
 

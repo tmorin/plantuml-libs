@@ -17,6 +17,17 @@ include('simpleicons-8/A/Aerlingus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AerlingusXs>`
+- `<$AerlingusSm>`
+- `<$AerlingusMd>`
+- `<$AerlingusLg>`
+
+
+
+
 
 ## Aerlingus
 

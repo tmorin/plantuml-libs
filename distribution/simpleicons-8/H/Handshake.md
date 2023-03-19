@@ -17,6 +17,17 @@ include('simpleicons-8/H/Handshake')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HandshakeXs>`
+- `<$HandshakeSm>`
+- `<$HandshakeMd>`
+- `<$HandshakeLg>`
+
+
+
+
 
 ## Handshake
 

@@ -17,6 +17,17 @@ include('simpleicons-8/D/Drone')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DroneXs>`
+- `<$DroneSm>`
+- `<$DroneMd>`
+- `<$DroneLg>`
+
+
+
+
 
 ## Drone
 

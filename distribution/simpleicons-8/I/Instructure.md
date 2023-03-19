@@ -17,6 +17,17 @@ include('simpleicons-8/I/Instructure')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InstructureXs>`
+- `<$InstructureSm>`
+- `<$InstructureMd>`
+- `<$InstructureLg>`
+
+
+
+
 
 ## Instructure
 

@@ -17,6 +17,17 @@ include('simpleicons-8/P/Picnic')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PicnicXs>`
+- `<$PicnicSm>`
+- `<$PicnicMd>`
+- `<$PicnicLg>`
+
+
+
+
 
 ## Picnic
 

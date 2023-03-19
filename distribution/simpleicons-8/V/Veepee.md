@@ -17,6 +17,17 @@ include('simpleicons-8/V/Veepee')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VeepeeXs>`
+- `<$VeepeeSm>`
+- `<$VeepeeMd>`
+- `<$VeepeeLg>`
+
+
+
+
 
 ## Veepee
 

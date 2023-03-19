@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bandsintown')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BandsintownXs>`
+- `<$BandsintownSm>`
+- `<$BandsintownMd>`
+- `<$BandsintownLg>`
+
+
+
+
 
 ## Bandsintown
 

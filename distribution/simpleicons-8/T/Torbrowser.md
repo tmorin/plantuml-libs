@@ -17,6 +17,17 @@ include('simpleicons-8/T/Torbrowser')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TorbrowserXs>`
+- `<$TorbrowserSm>`
+- `<$TorbrowserMd>`
+- `<$TorbrowserLg>`
+
+
+
+
 
 ## Torbrowser
 

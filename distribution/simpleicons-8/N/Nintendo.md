@@ -17,6 +17,17 @@ include('simpleicons-8/N/Nintendo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NintendoXs>`
+- `<$NintendoSm>`
+- `<$NintendoMd>`
+- `<$NintendoLg>`
+
+
+
+
 
 ## Nintendo
 

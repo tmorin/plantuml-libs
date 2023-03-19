@@ -17,6 +17,17 @@ include('simpleicons-8/G/Globus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GlobusXs>`
+- `<$GlobusSm>`
+- `<$GlobusMd>`
+- `<$GlobusLg>`
+
+
+
+
 
 ## Globus
 

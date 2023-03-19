@@ -17,6 +17,17 @@ include('simpleicons-8/S/Simpleanalytics')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SimpleanalyticsXs>`
+- `<$SimpleanalyticsSm>`
+- `<$SimpleanalyticsMd>`
+- `<$SimpleanalyticsLg>`
+
+
+
+
 
 ## Simpleanalytics
 

@@ -17,6 +17,17 @@ include('simpleicons-8/V/Vultr')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VultrXs>`
+- `<$VultrSm>`
+- `<$VultrMd>`
+- `<$VultrLg>`
+
+
+
+
 
 ## Vultr
 

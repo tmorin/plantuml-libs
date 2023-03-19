@@ -17,6 +17,17 @@ include('simpleicons-8/C/Ceph')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CephXs>`
+- `<$CephSm>`
+- `<$CephMd>`
+- `<$CephLg>`
+
+
+
+
 
 ## Ceph
 

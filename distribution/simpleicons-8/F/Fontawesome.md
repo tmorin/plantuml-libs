@@ -17,6 +17,17 @@ include('simpleicons-8/F/Fontawesome')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FontawesomeXs>`
+- `<$FontawesomeSm>`
+- `<$FontawesomeMd>`
+- `<$FontawesomeLg>`
+
+
+
+
 
 ## Fontawesome
 

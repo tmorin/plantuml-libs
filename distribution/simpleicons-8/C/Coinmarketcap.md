@@ -17,6 +17,17 @@ include('simpleicons-8/C/Coinmarketcap')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CoinmarketcapXs>`
+- `<$CoinmarketcapSm>`
+- `<$CoinmarketcapMd>`
+- `<$CoinmarketcapLg>`
+
+
+
+
 
 ## Coinmarketcap
 

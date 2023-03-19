@@ -17,6 +17,17 @@ include('simpleicons-8/C/Chainlink')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChainlinkXs>`
+- `<$ChainlinkSm>`
+- `<$ChainlinkMd>`
+- `<$ChainlinkLg>`
+
+
+
+
 
 ## Chainlink
 

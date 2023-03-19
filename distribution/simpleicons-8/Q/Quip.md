@@ -17,6 +17,17 @@ include('simpleicons-8/Q/Quip')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$QuipXs>`
+- `<$QuipSm>`
+- `<$QuipMd>`
+- `<$QuipLg>`
+
+
+
+
 
 ## Quip
 

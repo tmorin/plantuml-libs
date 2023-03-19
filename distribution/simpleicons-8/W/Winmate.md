@@ -17,6 +17,17 @@ include('simpleicons-8/W/Winmate')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WinmateXs>`
+- `<$WinmateSm>`
+- `<$WinmateMd>`
+- `<$WinmateLg>`
+
+
+
+
 
 ## Winmate
 

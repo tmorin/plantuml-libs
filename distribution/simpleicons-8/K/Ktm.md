@@ -17,6 +17,17 @@ include('simpleicons-8/K/Ktm')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KtmXs>`
+- `<$KtmSm>`
+- `<$KtmMd>`
+- `<$KtmLg>`
+
+
+
+
 
 ## Ktm
 

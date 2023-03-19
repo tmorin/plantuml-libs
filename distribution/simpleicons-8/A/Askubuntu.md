@@ -17,6 +17,17 @@ include('simpleicons-8/A/Askubuntu')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AskubuntuXs>`
+- `<$AskubuntuSm>`
+- `<$AskubuntuMd>`
+- `<$AskubuntuLg>`
+
+
+
+
 
 ## Askubuntu
 

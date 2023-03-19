@@ -17,6 +17,17 @@ include('simpleicons-8/E/Electronbuilder')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ElectronbuilderXs>`
+- `<$ElectronbuilderSm>`
+- `<$ElectronbuilderMd>`
+- `<$ElectronbuilderLg>`
+
+
+
+
 
 ## Electronbuilder
 

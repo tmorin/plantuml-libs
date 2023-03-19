@@ -17,6 +17,17 @@ include('simpleicons-8/D/Deviantart')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DeviantartXs>`
+- `<$DeviantartSm>`
+- `<$DeviantartMd>`
+- `<$DeviantartLg>`
+
+
+
+
 
 ## Deviantart
 

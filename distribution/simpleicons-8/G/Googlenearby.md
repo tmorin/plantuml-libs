@@ -17,6 +17,17 @@ include('simpleicons-8/G/Googlenearby')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GooglenearbyXs>`
+- `<$GooglenearbySm>`
+- `<$GooglenearbyMd>`
+- `<$GooglenearbyLg>`
+
+
+
+
 
 ## Googlenearby
 

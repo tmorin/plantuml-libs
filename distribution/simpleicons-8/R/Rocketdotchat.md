@@ -17,6 +17,17 @@ include('simpleicons-8/R/Rocketdotchat')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RocketdotchatXs>`
+- `<$RocketdotchatSm>`
+- `<$RocketdotchatMd>`
+- `<$RocketdotchatLg>`
+
+
+
+
 
 ## Rocketdotchat
 

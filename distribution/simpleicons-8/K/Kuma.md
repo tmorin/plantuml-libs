@@ -17,6 +17,17 @@ include('simpleicons-8/K/Kuma')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KumaXs>`
+- `<$KumaSm>`
+- `<$KumaMd>`
+- `<$KumaLg>`
+
+
+
+
 
 ## Kuma
 

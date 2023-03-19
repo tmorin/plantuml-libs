@@ -17,6 +17,17 @@ include('simpleicons-8/O/Org')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OrgXs>`
+- `<$OrgSm>`
+- `<$OrgMd>`
+- `<$OrgLg>`
+
+
+
+
 
 ## Org
 

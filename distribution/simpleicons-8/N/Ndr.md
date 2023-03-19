@@ -17,6 +17,17 @@ include('simpleicons-8/N/Ndr')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NdrXs>`
+- `<$NdrSm>`
+- `<$NdrMd>`
+- `<$NdrLg>`
+
+
+
+
 
 ## Ndr
 

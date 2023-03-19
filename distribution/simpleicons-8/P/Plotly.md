@@ -17,6 +17,17 @@ include('simpleicons-8/P/Plotly')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PlotlyXs>`
+- `<$PlotlySm>`
+- `<$PlotlyMd>`
+- `<$PlotlyLg>`
+
+
+
+
 
 ## Plotly
 

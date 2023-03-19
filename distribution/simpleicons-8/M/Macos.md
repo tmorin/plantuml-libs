@@ -17,6 +17,17 @@ include('simpleicons-8/M/Macos')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MacosXs>`
+- `<$MacosSm>`
+- `<$MacosMd>`
+- `<$MacosLg>`
+
+
+
+
 
 ## Macos
 

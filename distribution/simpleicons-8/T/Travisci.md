@@ -17,6 +17,17 @@ include('simpleicons-8/T/Travisci')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TravisciXs>`
+- `<$TravisciSm>`
+- `<$TravisciMd>`
+- `<$TravisciLg>`
+
+
+
+
 
 ## Travisci
 

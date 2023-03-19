@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tripdotcom')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TripdotcomXs>`
+- `<$TripdotcomSm>`
+- `<$TripdotcomMd>`
+- `<$TripdotcomLg>`
+
+
+
+
 
 ## Tripdotcom
 

@@ -17,6 +17,17 @@ include('simpleicons-8/L/Legacygames')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LegacygamesXs>`
+- `<$LegacygamesSm>`
+- `<$LegacygamesMd>`
+- `<$LegacygamesLg>`
+
+
+
+
 
 ## Legacygames
 

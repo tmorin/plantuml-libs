@@ -17,6 +17,17 @@ include('simpleicons-8/G/Gsk')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GskXs>`
+- `<$GskSm>`
+- `<$GskMd>`
+- `<$GskLg>`
+
+
+
+
 
 ## Gsk
 

@@ -17,6 +17,17 @@ include('simpleicons-8/A/Agora')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AgoraXs>`
+- `<$AgoraSm>`
+- `<$AgoraMd>`
+- `<$AgoraLg>`
+
+
+
+
 
 ## Agora
 

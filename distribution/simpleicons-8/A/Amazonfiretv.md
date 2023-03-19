@@ -17,6 +17,17 @@ include('simpleicons-8/A/Amazonfiretv')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonfiretvXs>`
+- `<$AmazonfiretvSm>`
+- `<$AmazonfiretvMd>`
+- `<$AmazonfiretvLg>`
+
+
+
+
 
 ## Amazonfiretv
 

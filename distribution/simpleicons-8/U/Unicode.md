@@ -17,6 +17,17 @@ include('simpleicons-8/U/Unicode')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UnicodeXs>`
+- `<$UnicodeSm>`
+- `<$UnicodeMd>`
+- `<$UnicodeLg>`
+
+
+
+
 
 ## Unicode
 

@@ -17,6 +17,17 @@ include('simpleicons-8/B/Byjus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ByjusXs>`
+- `<$ByjusSm>`
+- `<$ByjusMd>`
+- `<$ByjusLg>`
+
+
+
+
 
 ## Byjus
 

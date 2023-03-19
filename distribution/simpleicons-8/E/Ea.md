@@ -17,6 +17,17 @@ include('simpleicons-8/E/Ea')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EaXs>`
+- `<$EaSm>`
+- `<$EaMd>`
+- `<$EaLg>`
+
+
+
+
 
 ## Ea
 

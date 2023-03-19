@@ -17,6 +17,17 @@ include('simpleicons-8/U/Uptimekuma')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UptimekumaXs>`
+- `<$UptimekumaSm>`
+- `<$UptimekumaMd>`
+- `<$UptimekumaLg>`
+
+
+
+
 
 ## Uptimekuma
 

@@ -17,6 +17,17 @@ include('simpleicons-8/F/Foursquare')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FoursquareXs>`
+- `<$FoursquareSm>`
+- `<$FoursquareMd>`
+- `<$FoursquareLg>`
+
+
+
+
 
 ## Foursquare
 

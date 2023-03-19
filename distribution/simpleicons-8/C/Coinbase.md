@@ -17,6 +17,17 @@ include('simpleicons-8/C/Coinbase')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CoinbaseXs>`
+- `<$CoinbaseSm>`
+- `<$CoinbaseMd>`
+- `<$CoinbaseLg>`
+
+
+
+
 
 ## Coinbase
 

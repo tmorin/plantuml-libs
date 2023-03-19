@@ -17,6 +17,17 @@ include('simpleicons-8/M/Mdnwebdocs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MdnwebdocsXs>`
+- `<$MdnwebdocsSm>`
+- `<$MdnwebdocsMd>`
+- `<$MdnwebdocsLg>`
+
+
+
+
 
 ## Mdnwebdocs
 

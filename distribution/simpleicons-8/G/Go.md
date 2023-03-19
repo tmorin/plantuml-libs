@@ -17,6 +17,17 @@ include('simpleicons-8/G/Go')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GoXs>`
+- `<$GoSm>`
+- `<$GoMd>`
+- `<$GoLg>`
+
+
+
+
 
 ## Go
 

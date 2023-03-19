@@ -17,6 +17,17 @@ include('simpleicons-8/A/Affinitydesigner')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AffinitydesignerXs>`
+- `<$AffinitydesignerSm>`
+- `<$AffinitydesignerMd>`
+- `<$AffinitydesignerLg>`
+
+
+
+
 
 ## Affinitydesigner
 

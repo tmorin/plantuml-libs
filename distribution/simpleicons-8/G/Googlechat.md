@@ -17,6 +17,17 @@ include('simpleicons-8/G/Googlechat')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GooglechatXs>`
+- `<$GooglechatSm>`
+- `<$GooglechatMd>`
+- `<$GooglechatLg>`
+
+
+
+
 
 ## Googlechat
 

@@ -17,6 +17,17 @@ include('simpleicons-8/H/Homeassistantcommunitystore')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HomeassistantcommunitystoreXs>`
+- `<$HomeassistantcommunitystoreSm>`
+- `<$HomeassistantcommunitystoreMd>`
+- `<$HomeassistantcommunitystoreLg>`
+
+
+
+
 
 ## Homeassistantcommunitystore
 

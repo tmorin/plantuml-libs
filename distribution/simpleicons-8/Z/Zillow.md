@@ -17,6 +17,17 @@ include('simpleicons-8/Z/Zillow')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ZillowXs>`
+- `<$ZillowSm>`
+- `<$ZillowMd>`
+- `<$ZillowLg>`
+
+
+
+
 
 ## Zillow
 

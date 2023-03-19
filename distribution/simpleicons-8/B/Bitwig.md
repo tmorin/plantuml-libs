@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bitwig')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BitwigXs>`
+- `<$BitwigSm>`
+- `<$BitwigMd>`
+- `<$BitwigLg>`
+
+
+
+
 
 ## Bitwig
 

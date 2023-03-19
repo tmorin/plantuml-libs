@@ -17,6 +17,17 @@ include('simpleicons-8/L/Lineageos')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LineageosXs>`
+- `<$LineageosSm>`
+- `<$LineageosMd>`
+- `<$LineageosLg>`
+
+
+
+
 
 ## Lineageos
 

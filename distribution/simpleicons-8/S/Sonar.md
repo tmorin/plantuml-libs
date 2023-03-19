@@ -17,6 +17,17 @@ include('simpleicons-8/S/Sonar')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SonarXs>`
+- `<$SonarSm>`
+- `<$SonarMd>`
+- `<$SonarLg>`
+
+
+
+
 
 ## Sonar
 

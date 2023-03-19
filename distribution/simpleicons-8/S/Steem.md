@@ -17,6 +17,17 @@ include('simpleicons-8/S/Steem')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SteemXs>`
+- `<$SteemSm>`
+- `<$SteemMd>`
+- `<$SteemLg>`
+
+
+
+
 
 ## Steem
 

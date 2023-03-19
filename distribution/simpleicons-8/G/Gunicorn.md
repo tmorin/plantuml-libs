@@ -17,6 +17,17 @@ include('simpleicons-8/G/Gunicorn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GunicornXs>`
+- `<$GunicornSm>`
+- `<$GunicornMd>`
+- `<$GunicornLg>`
+
+
+
+
 
 ## Gunicorn
 

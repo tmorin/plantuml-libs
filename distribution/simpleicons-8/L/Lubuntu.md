@@ -17,6 +17,17 @@ include('simpleicons-8/L/Lubuntu')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LubuntuXs>`
+- `<$LubuntuSm>`
+- `<$LubuntuMd>`
+- `<$LubuntuLg>`
+
+
+
+
 
 ## Lubuntu
 

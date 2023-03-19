@@ -17,6 +17,17 @@ include('simpleicons-8/N/Nette')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NetteXs>`
+- `<$NetteSm>`
+- `<$NetteMd>`
+- `<$NetteLg>`
+
+
+
+
 
 ## Nette
 

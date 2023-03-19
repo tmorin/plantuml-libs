@@ -17,6 +17,17 @@ include('simpleicons-8/W/Winamp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WinampXs>`
+- `<$WinampSm>`
+- `<$WinampMd>`
+- `<$WinampLg>`
+
+
+
+
 
 ## Winamp
 

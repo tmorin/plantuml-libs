@@ -17,6 +17,17 @@ include('simpleicons-8/D/Deepin')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DeepinXs>`
+- `<$DeepinSm>`
+- `<$DeepinMd>`
+- `<$DeepinLg>`
+
+
+
+
 
 ## Deepin
 

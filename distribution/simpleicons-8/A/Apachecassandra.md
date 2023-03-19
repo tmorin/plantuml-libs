@@ -17,6 +17,17 @@ include('simpleicons-8/A/Apachecassandra')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ApachecassandraXs>`
+- `<$ApachecassandraSm>`
+- `<$ApachecassandraMd>`
+- `<$ApachecassandraLg>`
+
+
+
+
 
 ## Apachecassandra
 

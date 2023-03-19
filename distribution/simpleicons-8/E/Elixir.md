@@ -17,6 +17,17 @@ include('simpleicons-8/E/Elixir')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ElixirXs>`
+- `<$ElixirSm>`
+- `<$ElixirMd>`
+- `<$ElixirLg>`
+
+
+
+
 
 ## Elixir
 

@@ -17,6 +17,17 @@ include('simpleicons-8/H/Hotelsdotcom')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HotelsdotcomXs>`
+- `<$HotelsdotcomSm>`
+- `<$HotelsdotcomMd>`
+- `<$HotelsdotcomLg>`
+
+
+
+
 
 ## Hotelsdotcom
 

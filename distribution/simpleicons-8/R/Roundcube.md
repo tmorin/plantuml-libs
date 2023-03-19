@@ -17,6 +17,17 @@ include('simpleicons-8/R/Roundcube')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RoundcubeXs>`
+- `<$RoundcubeSm>`
+- `<$RoundcubeMd>`
+- `<$RoundcubeLg>`
+
+
+
+
 
 ## Roundcube
 

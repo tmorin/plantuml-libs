@@ -17,6 +17,17 @@ include('simpleicons-8/U/Unitedairlines')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UnitedairlinesXs>`
+- `<$UnitedairlinesSm>`
+- `<$UnitedairlinesMd>`
+- `<$UnitedairlinesLg>`
+
+
+
+
 
 ## Unitedairlines
 

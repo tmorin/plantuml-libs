@@ -17,6 +17,17 @@ include('simpleicons-8/A/Appsignal')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AppsignalXs>`
+- `<$AppsignalSm>`
+- `<$AppsignalMd>`
+- `<$AppsignalLg>`
+
+
+
+
 
 ## Appsignal
 

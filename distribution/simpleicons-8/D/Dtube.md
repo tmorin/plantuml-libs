@@ -17,6 +17,17 @@ include('simpleicons-8/D/Dtube')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DtubeXs>`
+- `<$DtubeSm>`
+- `<$DtubeMd>`
+- `<$DtubeLg>`
+
+
+
+
 
 ## Dtube
 

@@ -17,6 +17,17 @@ include('simpleicons-8/W/Wikidata')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WikidataXs>`
+- `<$WikidataSm>`
+- `<$WikidataMd>`
+- `<$WikidataLg>`
+
+
+
+
 
 ## Wikidata
 

@@ -17,6 +17,17 @@ include('simpleicons-8/M/Mulesoft')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MulesoftXs>`
+- `<$MulesoftSm>`
+- `<$MulesoftMd>`
+- `<$MulesoftLg>`
+
+
+
+
 
 ## Mulesoft
 

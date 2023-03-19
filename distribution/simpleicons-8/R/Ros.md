@@ -17,6 +17,17 @@ include('simpleicons-8/R/Ros')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RosXs>`
+- `<$RosSm>`
+- `<$RosMd>`
+- `<$RosLg>`
+
+
+
+
 
 ## Ros
 

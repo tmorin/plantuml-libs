@@ -17,6 +17,17 @@ include('simpleicons-8/P/Polymerproject')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PolymerprojectXs>`
+- `<$PolymerprojectSm>`
+- `<$PolymerprojectMd>`
+- `<$PolymerprojectLg>`
+
+
+
+
 
 ## Polymerproject
 

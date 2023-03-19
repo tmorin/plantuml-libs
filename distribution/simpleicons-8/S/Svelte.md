@@ -17,6 +17,17 @@ include('simpleicons-8/S/Svelte')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SvelteXs>`
+- `<$SvelteSm>`
+- `<$SvelteMd>`
+- `<$SvelteLg>`
+
+
+
+
 
 ## Svelte
 

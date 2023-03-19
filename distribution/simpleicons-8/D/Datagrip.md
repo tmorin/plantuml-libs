@@ -17,6 +17,17 @@ include('simpleicons-8/D/Datagrip')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DatagripXs>`
+- `<$DatagripSm>`
+- `<$DatagripMd>`
+- `<$DatagripLg>`
+
+
+
+
 
 ## Datagrip
 

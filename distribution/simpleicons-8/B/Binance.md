@@ -17,6 +17,17 @@ include('simpleicons-8/B/Binance')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BinanceXs>`
+- `<$BinanceSm>`
+- `<$BinanceMd>`
+- `<$BinanceLg>`
+
+
+
+
 
 ## Binance
 

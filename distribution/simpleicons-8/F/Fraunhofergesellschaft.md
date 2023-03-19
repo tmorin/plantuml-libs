@@ -17,6 +17,17 @@ include('simpleicons-8/F/Fraunhofergesellschaft')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FraunhofergesellschaftXs>`
+- `<$FraunhofergesellschaftSm>`
+- `<$FraunhofergesellschaftMd>`
+- `<$FraunhofergesellschaftLg>`
+
+
+
+
 
 ## Fraunhofergesellschaft
 

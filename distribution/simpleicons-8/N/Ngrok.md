@@ -17,6 +17,17 @@ include('simpleicons-8/N/Ngrok')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NgrokXs>`
+- `<$NgrokSm>`
+- `<$NgrokMd>`
+- `<$NgrokLg>`
+
+
+
+
 
 ## Ngrok
 

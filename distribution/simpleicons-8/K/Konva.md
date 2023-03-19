@@ -17,6 +17,17 @@ include('simpleicons-8/K/Konva')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KonvaXs>`
+- `<$KonvaSm>`
+- `<$KonvaMd>`
+- `<$KonvaLg>`
+
+
+
+
 
 ## Konva
 

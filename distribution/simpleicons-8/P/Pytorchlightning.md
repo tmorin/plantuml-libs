@@ -17,6 +17,17 @@ include('simpleicons-8/P/Pytorchlightning')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PytorchlightningXs>`
+- `<$PytorchlightningSm>`
+- `<$PytorchlightningMd>`
+- `<$PytorchlightningLg>`
+
+
+
+
 
 ## Pytorchlightning
 

@@ -17,6 +17,17 @@ include('simpleicons-8/H/Hackaday')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HackadayXs>`
+- `<$HackadaySm>`
+- `<$HackadayMd>`
+- `<$HackadayLg>`
+
+
+
+
 
 ## Hackaday
 

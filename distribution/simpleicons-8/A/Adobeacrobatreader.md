@@ -17,6 +17,17 @@ include('simpleicons-8/A/Adobeacrobatreader')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AdobeacrobatreaderXs>`
+- `<$AdobeacrobatreaderSm>`
+- `<$AdobeacrobatreaderMd>`
+- `<$AdobeacrobatreaderLg>`
+
+
+
+
 
 ## Adobeacrobatreader
 

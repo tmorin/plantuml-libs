@@ -17,6 +17,17 @@ include('simpleicons-8/R/Redux')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ReduxXs>`
+- `<$ReduxSm>`
+- `<$ReduxMd>`
+- `<$ReduxLg>`
+
+
+
+
 
 ## Redux
 

@@ -17,6 +17,17 @@ include('simpleicons-8/R/Rabbitmq')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RabbitmqXs>`
+- `<$RabbitmqSm>`
+- `<$RabbitmqMd>`
+- `<$RabbitmqLg>`
+
+
+
+
 
 ## Rabbitmq
 

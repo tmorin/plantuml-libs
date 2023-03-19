@@ -17,6 +17,17 @@ include('simpleicons-8/R/Redhat')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RedhatXs>`
+- `<$RedhatSm>`
+- `<$RedhatMd>`
+- `<$RedhatLg>`
+
+
+
+
 
 ## Redhat
 

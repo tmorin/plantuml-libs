@@ -17,6 +17,17 @@ include('simpleicons-8/W/Wechat')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WechatXs>`
+- `<$WechatSm>`
+- `<$WechatMd>`
+- `<$WechatLg>`
+
+
+
+
 
 ## Wechat
 

@@ -17,6 +17,17 @@ include('simpleicons-8/G/Grab')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GrabXs>`
+- `<$GrabSm>`
+- `<$GrabMd>`
+- `<$GrabLg>`
+
+
+
+
 
 ## Grab
 

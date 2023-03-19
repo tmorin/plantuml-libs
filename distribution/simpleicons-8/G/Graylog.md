@@ -17,6 +17,17 @@ include('simpleicons-8/G/Graylog')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GraylogXs>`
+- `<$GraylogSm>`
+- `<$GraylogMd>`
+- `<$GraylogLg>`
+
+
+
+
 
 ## Graylog
 

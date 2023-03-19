@@ -17,6 +17,17 @@ include('simpleicons-8/W/Wolframlanguage')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WolframlanguageXs>`
+- `<$WolframlanguageSm>`
+- `<$WolframlanguageMd>`
+- `<$WolframlanguageLg>`
+
+
+
+
 
 ## Wolframlanguage
 

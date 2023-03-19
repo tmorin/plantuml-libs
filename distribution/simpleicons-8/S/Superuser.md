@@ -17,6 +17,17 @@ include('simpleicons-8/S/Superuser')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SuperuserXs>`
+- `<$SuperuserSm>`
+- `<$SuperuserMd>`
+- `<$SuperuserLg>`
+
+
+
+
 
 ## Superuser
 

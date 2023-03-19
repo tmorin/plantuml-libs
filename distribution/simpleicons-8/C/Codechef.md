@@ -17,6 +17,17 @@ include('simpleicons-8/C/Codechef')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CodechefXs>`
+- `<$CodechefSm>`
+- `<$CodechefMd>`
+- `<$CodechefLg>`
+
+
+
+
 
 ## Codechef
 

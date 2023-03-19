@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bitwarden')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BitwardenXs>`
+- `<$BitwardenSm>`
+- `<$BitwardenMd>`
+- `<$BitwardenLg>`
+
+
+
+
 
 ## Bitwarden
 

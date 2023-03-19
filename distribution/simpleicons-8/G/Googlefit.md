@@ -17,6 +17,17 @@ include('simpleicons-8/G/Googlefit')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GooglefitXs>`
+- `<$GooglefitSm>`
+- `<$GooglefitMd>`
+- `<$GooglefitLg>`
+
+
+
+
 
 ## Googlefit
 

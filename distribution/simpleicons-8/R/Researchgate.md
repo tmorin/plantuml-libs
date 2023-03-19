@@ -17,6 +17,17 @@ include('simpleicons-8/R/Researchgate')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ResearchgateXs>`
+- `<$ResearchgateSm>`
+- `<$ResearchgateMd>`
+- `<$ResearchgateLg>`
+
+
+
+
 
 ## Researchgate
 

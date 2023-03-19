@@ -17,6 +17,17 @@ include('simpleicons-8/P/Prometheus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PrometheusXs>`
+- `<$PrometheusSm>`
+- `<$PrometheusMd>`
+- `<$PrometheusLg>`
+
+
+
+
 
 ## Prometheus
 

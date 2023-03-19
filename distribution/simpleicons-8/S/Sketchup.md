@@ -17,6 +17,17 @@ include('simpleicons-8/S/Sketchup')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SketchupXs>`
+- `<$SketchupSm>`
+- `<$SketchupMd>`
+- `<$SketchupLg>`
+
+
+
+
 
 ## Sketchup
 

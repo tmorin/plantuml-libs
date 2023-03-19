@@ -17,6 +17,17 @@ include('simpleicons-8/C/Castorama')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CastoramaXs>`
+- `<$CastoramaSm>`
+- `<$CastoramaMd>`
+- `<$CastoramaLg>`
+
+
+
+
 
 ## Castorama
 

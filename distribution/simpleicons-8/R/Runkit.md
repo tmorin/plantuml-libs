@@ -17,6 +17,17 @@ include('simpleicons-8/R/Runkit')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RunkitXs>`
+- `<$RunkitSm>`
+- `<$RunkitMd>`
+- `<$RunkitLg>`
+
+
+
+
 
 ## Runkit
 

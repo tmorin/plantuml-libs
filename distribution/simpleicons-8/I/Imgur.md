@@ -17,6 +17,17 @@ include('simpleicons-8/I/Imgur')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ImgurXs>`
+- `<$ImgurSm>`
+- `<$ImgurMd>`
+- `<$ImgurLg>`
+
+
+
+
 
 ## Imgur
 

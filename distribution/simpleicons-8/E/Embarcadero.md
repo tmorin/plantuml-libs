@@ -17,6 +17,17 @@ include('simpleicons-8/E/Embarcadero')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EmbarcaderoXs>`
+- `<$EmbarcaderoSm>`
+- `<$EmbarcaderoMd>`
+- `<$EmbarcaderoLg>`
+
+
+
+
 
 ## Embarcadero
 

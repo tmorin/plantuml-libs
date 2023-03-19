@@ -17,6 +17,17 @@ include('simpleicons-8/Q/Quest')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$QuestXs>`
+- `<$QuestSm>`
+- `<$QuestMd>`
+- `<$QuestLg>`
+
+
+
+
 
 ## Quest
 

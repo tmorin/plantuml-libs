@@ -17,6 +17,17 @@ include('simpleicons-8/T/Telegraph')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TelegraphXs>`
+- `<$TelegraphSm>`
+- `<$TelegraphMd>`
+- `<$TelegraphLg>`
+
+
+
+
 
 ## Telegraph
 

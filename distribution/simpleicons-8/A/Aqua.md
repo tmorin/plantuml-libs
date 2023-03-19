@@ -17,6 +17,17 @@ include('simpleicons-8/A/Aqua')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AquaXs>`
+- `<$AquaSm>`
+- `<$AquaMd>`
+- `<$AquaLg>`
+
+
+
+
 
 ## Aqua
 

@@ -17,6 +17,17 @@ include('simpleicons-8/V/Velog')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VelogXs>`
+- `<$VelogSm>`
+- `<$VelogMd>`
+- `<$VelogLg>`
+
+
+
+
 
 ## Velog
 

@@ -17,6 +17,17 @@ include('simpleicons-8/G/Gatsby')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GatsbyXs>`
+- `<$GatsbySm>`
+- `<$GatsbyMd>`
+- `<$GatsbyLg>`
+
+
+
+
 
 ## Gatsby
 

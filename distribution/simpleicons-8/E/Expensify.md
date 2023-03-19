@@ -17,6 +17,17 @@ include('simpleicons-8/E/Expensify')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ExpensifyXs>`
+- `<$ExpensifySm>`
+- `<$ExpensifyMd>`
+- `<$ExpensifyLg>`
+
+
+
+
 
 ## Expensify
 

@@ -17,6 +17,17 @@ include('simpleicons-8/S/Shopify')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShopifyXs>`
+- `<$ShopifySm>`
+- `<$ShopifyMd>`
+- `<$ShopifyLg>`
+
+
+
+
 
 ## Shopify
 

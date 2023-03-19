@@ -17,6 +17,17 @@ include('simpleicons-8/R/Resurrectionremixos')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ResurrectionremixosXs>`
+- `<$ResurrectionremixosSm>`
+- `<$ResurrectionremixosMd>`
+- `<$ResurrectionremixosLg>`
+
+
+
+
 
 ## Resurrectionremixos
 

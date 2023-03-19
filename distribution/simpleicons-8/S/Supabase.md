@@ -17,6 +17,17 @@ include('simpleicons-8/S/Supabase')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SupabaseXs>`
+- `<$SupabaseSm>`
+- `<$SupabaseMd>`
+- `<$SupabaseLg>`
+
+
+
+
 
 ## Supabase
 

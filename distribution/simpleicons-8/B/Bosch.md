@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bosch')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BoschXs>`
+- `<$BoschSm>`
+- `<$BoschMd>`
+- `<$BoschLg>`
+
+
+
+
 
 ## Bosch
 

@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tado')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TadoXs>`
+- `<$TadoSm>`
+- `<$TadoMd>`
+- `<$TadoLg>`
+
+
+
+
 
 ## Tado
 

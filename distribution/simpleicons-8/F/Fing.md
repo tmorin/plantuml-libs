@@ -17,6 +17,17 @@ include('simpleicons-8/F/Fing')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FingXs>`
+- `<$FingSm>`
+- `<$FingMd>`
+- `<$FingLg>`
+
+
+
+
 
 ## Fing
 

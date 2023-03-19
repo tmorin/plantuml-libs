@@ -17,6 +17,17 @@ include('simpleicons-8/A/Anaconda')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AnacondaXs>`
+- `<$AnacondaSm>`
+- `<$AnacondaMd>`
+- `<$AnacondaLg>`
+
+
+
+
 
 ## Anaconda
 

@@ -17,6 +17,17 @@ include('simpleicons-8/G/Googleplay')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GoogleplayXs>`
+- `<$GoogleplaySm>`
+- `<$GoogleplayMd>`
+- `<$GoogleplayLg>`
+
+
+
+
 
 ## Googleplay
 

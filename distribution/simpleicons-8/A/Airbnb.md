@@ -17,6 +17,17 @@ include('simpleicons-8/A/Airbnb')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AirbnbXs>`
+- `<$AirbnbSm>`
+- `<$AirbnbMd>`
+- `<$AirbnbLg>`
+
+
+
+
 
 ## Airbnb
 

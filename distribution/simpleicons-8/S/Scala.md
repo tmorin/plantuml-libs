@@ -17,6 +17,17 @@ include('simpleicons-8/S/Scala')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ScalaXs>`
+- `<$ScalaSm>`
+- `<$ScalaMd>`
+- `<$ScalaLg>`
+
+
+
+
 
 ## Scala
 

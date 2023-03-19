@@ -17,6 +17,17 @@ include('simpleicons-8/S/Speedtest')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SpeedtestXs>`
+- `<$SpeedtestSm>`
+- `<$SpeedtestMd>`
+- `<$SpeedtestLg>`
+
+
+
+
 
 ## Speedtest
 

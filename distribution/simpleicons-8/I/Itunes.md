@@ -17,6 +17,17 @@ include('simpleicons-8/I/Itunes')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ItunesXs>`
+- `<$ItunesSm>`
+- `<$ItunesMd>`
+- `<$ItunesLg>`
+
+
+
+
 
 ## Itunes
 

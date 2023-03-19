@@ -17,6 +17,17 @@ include('simpleicons-8/F/Fauna')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FaunaXs>`
+- `<$FaunaSm>`
+- `<$FaunaMd>`
+- `<$FaunaLg>`
+
+
+
+
 
 ## Fauna
 

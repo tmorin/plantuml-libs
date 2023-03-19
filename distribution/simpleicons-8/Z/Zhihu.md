@@ -17,6 +17,17 @@ include('simpleicons-8/Z/Zhihu')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ZhihuXs>`
+- `<$ZhihuSm>`
+- `<$ZhihuMd>`
+- `<$ZhihuLg>`
+
+
+
+
 
 ## Zhihu
 

@@ -17,6 +17,17 @@ include('simpleicons-8/V/Veeam')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VeeamXs>`
+- `<$VeeamSm>`
+- `<$VeeamMd>`
+- `<$VeeamLg>`
+
+
+
+
 
 ## Veeam
 

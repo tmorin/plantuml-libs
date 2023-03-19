@@ -17,6 +17,17 @@ include('simpleicons-8/F/Floatplane')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FloatplaneXs>`
+- `<$FloatplaneSm>`
+- `<$FloatplaneMd>`
+- `<$FloatplaneLg>`
+
+
+
+
 
 ## Floatplane
 

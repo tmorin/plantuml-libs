@@ -17,6 +17,17 @@ include('simpleicons-8/B/Blueprint')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BlueprintXs>`
+- `<$BlueprintSm>`
+- `<$BlueprintMd>`
+- `<$BlueprintLg>`
+
+
+
+
 
 ## Blueprint
 

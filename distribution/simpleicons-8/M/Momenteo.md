@@ -17,6 +17,17 @@ include('simpleicons-8/M/Momenteo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MomenteoXs>`
+- `<$MomenteoSm>`
+- `<$MomenteoMd>`
+- `<$MomenteoLg>`
+
+
+
+
 
 ## Momenteo
 

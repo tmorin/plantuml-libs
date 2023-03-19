@@ -17,6 +17,17 @@ include('simpleicons-8/J/Json')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JsonXs>`
+- `<$JsonSm>`
+- `<$JsonMd>`
+- `<$JsonLg>`
+
+
+
+
 
 ## Json
 

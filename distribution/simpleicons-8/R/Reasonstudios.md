@@ -17,6 +17,17 @@ include('simpleicons-8/R/Reasonstudios')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ReasonstudiosXs>`
+- `<$ReasonstudiosSm>`
+- `<$ReasonstudiosMd>`
+- `<$ReasonstudiosLg>`
+
+
+
+
 
 ## Reasonstudios
 

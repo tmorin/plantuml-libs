@@ -17,6 +17,17 @@ include('simpleicons-8/S/Sensu')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SensuXs>`
+- `<$SensuSm>`
+- `<$SensuMd>`
+- `<$SensuLg>`
+
+
+
+
 
 ## Sensu
 

@@ -17,6 +17,17 @@ include('simpleicons-8/S/Skillshare')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SkillshareXs>`
+- `<$SkillshareSm>`
+- `<$SkillshareMd>`
+- `<$SkillshareLg>`
+
+
+
+
 
 ## Skillshare
 

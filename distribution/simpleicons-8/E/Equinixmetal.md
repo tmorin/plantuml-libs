@@ -17,6 +17,17 @@ include('simpleicons-8/E/Equinixmetal')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EquinixmetalXs>`
+- `<$EquinixmetalSm>`
+- `<$EquinixmetalMd>`
+- `<$EquinixmetalLg>`
+
+
+
+
 
 ## Equinixmetal
 

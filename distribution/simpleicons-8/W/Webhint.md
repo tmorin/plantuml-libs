@@ -17,6 +17,17 @@ include('simpleicons-8/W/Webhint')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WebhintXs>`
+- `<$WebhintSm>`
+- `<$WebhintMd>`
+- `<$WebhintLg>`
+
+
+
+
 
 ## Webhint
 

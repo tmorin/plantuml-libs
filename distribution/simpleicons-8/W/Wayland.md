@@ -17,6 +17,17 @@ include('simpleicons-8/W/Wayland')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WaylandXs>`
+- `<$WaylandSm>`
+- `<$WaylandMd>`
+- `<$WaylandLg>`
+
+
+
+
 
 ## Wayland
 

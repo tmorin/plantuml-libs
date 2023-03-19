@@ -17,6 +17,17 @@ include('simpleicons-8/S/Spond')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SpondXs>`
+- `<$SpondSm>`
+- `<$SpondMd>`
+- `<$SpondLg>`
+
+
+
+
 
 ## Spond
 

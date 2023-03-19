@@ -17,6 +17,17 @@ include('simpleicons-8/M/Motorola')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MotorolaXs>`
+- `<$MotorolaSm>`
+- `<$MotorolaMd>`
+- `<$MotorolaLg>`
+
+
+
+
 
 ## Motorola
 

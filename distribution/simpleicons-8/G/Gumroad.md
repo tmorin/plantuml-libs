@@ -17,6 +17,17 @@ include('simpleicons-8/G/Gumroad')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GumroadXs>`
+- `<$GumroadSm>`
+- `<$GumroadMd>`
+- `<$GumroadLg>`
+
+
+
+
 
 ## Gumroad
 

@@ -17,6 +17,17 @@ include('simpleicons-8/R/Revealdotjs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RevealdotjsXs>`
+- `<$RevealdotjsSm>`
+- `<$RevealdotjsMd>`
+- `<$RevealdotjsLg>`
+
+
+
+
 
 ## Revealdotjs
 

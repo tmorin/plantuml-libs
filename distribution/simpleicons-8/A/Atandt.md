@@ -17,6 +17,17 @@ include('simpleicons-8/A/Atandt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AtandtXs>`
+- `<$AtandtSm>`
+- `<$AtandtMd>`
+- `<$AtandtLg>`
+
+
+
+
 
 ## Atandt
 

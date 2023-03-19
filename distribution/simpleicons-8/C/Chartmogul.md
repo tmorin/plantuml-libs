@@ -17,6 +17,17 @@ include('simpleicons-8/C/Chartmogul')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChartmogulXs>`
+- `<$ChartmogulSm>`
+- `<$ChartmogulMd>`
+- `<$ChartmogulLg>`
+
+
+
+
 
 ## Chartmogul
 

@@ -17,6 +17,17 @@ include('simpleicons-8/I/Ifood')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IfoodXs>`
+- `<$IfoodSm>`
+- `<$IfoodMd>`
+- `<$IfoodLg>`
+
+
+
+
 
 ## Ifood
 

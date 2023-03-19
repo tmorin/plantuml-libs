@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tide')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TideXs>`
+- `<$TideSm>`
+- `<$TideMd>`
+- `<$TideLg>`
+
+
+
+
 
 ## Tide
 

@@ -17,6 +17,17 @@ include('simpleicons-8/T/Transportforlondon')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TransportforlondonXs>`
+- `<$TransportforlondonSm>`
+- `<$TransportforlondonMd>`
+- `<$TransportforlondonLg>`
+
+
+
+
 
 ## Transportforlondon
 

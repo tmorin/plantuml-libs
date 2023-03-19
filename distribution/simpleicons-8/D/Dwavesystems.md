@@ -17,6 +17,17 @@ include('simpleicons-8/D/Dwavesystems')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DwavesystemsXs>`
+- `<$DwavesystemsSm>`
+- `<$DwavesystemsMd>`
+- `<$DwavesystemsLg>`
+
+
+
+
 
 ## Dwavesystems
 

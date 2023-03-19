@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bathasu')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BathasuXs>`
+- `<$BathasuSm>`
+- `<$BathasuMd>`
+- `<$BathasuLg>`
+
+
+
+
 
 ## Bathasu
 

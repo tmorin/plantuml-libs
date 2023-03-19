@@ -17,6 +17,17 @@ include('simpleicons-8/G/Guangzhoumetro')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GuangzhoumetroXs>`
+- `<$GuangzhoumetroSm>`
+- `<$GuangzhoumetroMd>`
+- `<$GuangzhoumetroLg>`
+
+
+
+
 
 ## Guangzhoumetro
 

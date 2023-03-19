@@ -17,6 +17,17 @@ include('simpleicons-8/A/Analogue')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AnalogueXs>`
+- `<$AnalogueSm>`
+- `<$AnalogueMd>`
+- `<$AnalogueLg>`
+
+
+
+
 
 ## Analogue
 

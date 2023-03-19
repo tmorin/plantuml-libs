@@ -17,6 +17,17 @@ include('simpleicons-8/S/Shanghaimetro')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShanghaimetroXs>`
+- `<$ShanghaimetroSm>`
+- `<$ShanghaimetroMd>`
+- `<$ShanghaimetroLg>`
+
+
+
+
 
 ## Shanghaimetro
 

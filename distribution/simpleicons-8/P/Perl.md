@@ -17,6 +17,17 @@ include('simpleicons-8/P/Perl')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PerlXs>`
+- `<$PerlSm>`
+- `<$PerlMd>`
+- `<$PerlLg>`
+
+
+
+
 
 ## Perl
 

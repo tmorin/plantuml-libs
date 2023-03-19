@@ -17,6 +17,17 @@ include('simpleicons-8/M/Mta')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MtaXs>`
+- `<$MtaSm>`
+- `<$MtaMd>`
+- `<$MtaLg>`
+
+
+
+
 
 ## Mta
 

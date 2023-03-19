@@ -17,6 +17,17 @@ include('simpleicons-8/M/Mxlinux')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MxlinuxXs>`
+- `<$MxlinuxSm>`
+- `<$MxlinuxMd>`
+- `<$MxlinuxLg>`
+
+
+
+
 
 ## Mxlinux
 

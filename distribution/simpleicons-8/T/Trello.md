@@ -17,6 +17,17 @@ include('simpleicons-8/T/Trello')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TrelloXs>`
+- `<$TrelloSm>`
+- `<$TrelloMd>`
+- `<$TrelloLg>`
+
+
+
+
 
 ## Trello
 

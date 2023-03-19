@@ -17,6 +17,17 @@ include('simpleicons-8/M/Marriott')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MarriottXs>`
+- `<$MarriottSm>`
+- `<$MarriottMd>`
+- `<$MarriottLg>`
+
+
+
+
 
 ## Marriott
 

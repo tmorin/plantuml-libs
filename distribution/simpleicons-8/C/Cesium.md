@@ -17,6 +17,17 @@ include('simpleicons-8/C/Cesium')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CesiumXs>`
+- `<$CesiumSm>`
+- `<$CesiumMd>`
+- `<$CesiumLg>`
+
+
+
+
 
 ## Cesium
 

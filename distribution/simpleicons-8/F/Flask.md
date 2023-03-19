@@ -17,6 +17,17 @@ include('simpleicons-8/F/Flask')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FlaskXs>`
+- `<$FlaskSm>`
+- `<$FlaskMd>`
+- `<$FlaskLg>`
+
+
+
+
 
 ## Flask
 

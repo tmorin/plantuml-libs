@@ -17,6 +17,17 @@ include('simpleicons-8/H/Hackthebox')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HacktheboxXs>`
+- `<$HacktheboxSm>`
+- `<$HacktheboxMd>`
+- `<$HacktheboxLg>`
+
+
+
+
 
 ## Hackthebox
 

@@ -17,6 +17,17 @@ include('simpleicons-8/W/Wise')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WiseXs>`
+- `<$WiseSm>`
+- `<$WiseMd>`
+- `<$WiseLg>`
+
+
+
+
 
 ## Wise
 

@@ -17,6 +17,17 @@ include('simpleicons-8/C/Chocolatey')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChocolateyXs>`
+- `<$ChocolateySm>`
+- `<$ChocolateyMd>`
+- `<$ChocolateyLg>`
+
+
+
+
 
 ## Chocolatey
 

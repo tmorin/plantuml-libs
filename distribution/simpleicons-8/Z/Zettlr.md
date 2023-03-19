@@ -17,6 +17,17 @@ include('simpleicons-8/Z/Zettlr')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ZettlrXs>`
+- `<$ZettlrSm>`
+- `<$ZettlrMd>`
+- `<$ZettlrLg>`
+
+
+
+
 
 ## Zettlr
 

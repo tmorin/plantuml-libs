@@ -17,6 +17,17 @@ include('simpleicons-8/C/Cairographics')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CairographicsXs>`
+- `<$CairographicsSm>`
+- `<$CairographicsMd>`
+- `<$CairographicsLg>`
+
+
+
+
 
 ## Cairographics
 

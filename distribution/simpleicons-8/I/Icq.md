@@ -17,6 +17,17 @@ include('simpleicons-8/I/Icq')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IcqXs>`
+- `<$IcqSm>`
+- `<$IcqMd>`
+- `<$IcqLg>`
+
+
+
+
 
 ## Icq
 

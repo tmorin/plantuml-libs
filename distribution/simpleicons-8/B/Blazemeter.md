@@ -17,6 +17,17 @@ include('simpleicons-8/B/Blazemeter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BlazemeterXs>`
+- `<$BlazemeterSm>`
+- `<$BlazemeterMd>`
+- `<$BlazemeterLg>`
+
+
+
+
 
 ## Blazemeter
 

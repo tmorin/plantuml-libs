@@ -17,6 +17,17 @@ include('simpleicons-8/C/Castbox')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CastboxXs>`
+- `<$CastboxSm>`
+- `<$CastboxMd>`
+- `<$CastboxLg>`
+
+
+
+
 
 ## Castbox
 

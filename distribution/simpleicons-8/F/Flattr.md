@@ -17,6 +17,17 @@ include('simpleicons-8/F/Flattr')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FlattrXs>`
+- `<$FlattrSm>`
+- `<$FlattrMd>`
+- `<$FlattrLg>`
+
+
+
+
 
 ## Flattr
 

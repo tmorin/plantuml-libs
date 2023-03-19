@@ -17,6 +17,17 @@ include('simpleicons-8/O/Openzfs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OpenzfsXs>`
+- `<$OpenzfsSm>`
+- `<$OpenzfsMd>`
+- `<$OpenzfsLg>`
+
+
+
+
 
 ## Openzfs
 

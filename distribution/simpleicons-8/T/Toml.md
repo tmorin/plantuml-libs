@@ -17,6 +17,17 @@ include('simpleicons-8/T/Toml')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TomlXs>`
+- `<$TomlSm>`
+- `<$TomlMd>`
+- `<$TomlLg>`
+
+
+
+
 
 ## Toml
 

@@ -17,6 +17,17 @@ include('simpleicons-8/C/Civo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CivoXs>`
+- `<$CivoSm>`
+- `<$CivoMd>`
+- `<$CivoLg>`
+
+
+
+
 
 ## Civo
 

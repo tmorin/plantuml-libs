@@ -17,6 +17,17 @@ include('simpleicons-8/H/Here')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HereXs>`
+- `<$HereSm>`
+- `<$HereMd>`
+- `<$HereLg>`
+
+
+
+
 
 ## Here
 

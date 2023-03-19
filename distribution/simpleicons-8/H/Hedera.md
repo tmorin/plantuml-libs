@@ -17,6 +17,17 @@ include('simpleicons-8/H/Hedera')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HederaXs>`
+- `<$HederaSm>`
+- `<$HederaMd>`
+- `<$HederaLg>`
+
+
+
+
 
 ## Hedera
 

@@ -17,6 +17,17 @@ include('simpleicons-8/M/Man')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ManXs>`
+- `<$ManSm>`
+- `<$ManMd>`
+- `<$ManLg>`
+
+
+
+
 
 ## Man
 

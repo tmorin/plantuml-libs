@@ -17,6 +17,17 @@ include('simpleicons-8/W/Wolfram')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WolframXs>`
+- `<$WolframSm>`
+- `<$WolframMd>`
+- `<$WolframLg>`
+
+
+
+
 
 ## Wolfram
 

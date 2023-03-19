@@ -17,6 +17,17 @@ include('simpleicons-8/Z/Zara')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ZaraXs>`
+- `<$ZaraSm>`
+- `<$ZaraMd>`
+- `<$ZaraLg>`
+
+
+
+
 
 ## Zara
 

@@ -17,6 +17,17 @@ include('simpleicons-8/M/Moneygram')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MoneygramXs>`
+- `<$MoneygramSm>`
+- `<$MoneygramMd>`
+- `<$MoneygramLg>`
+
+
+
+
 
 ## Moneygram
 

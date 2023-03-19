@@ -17,6 +17,17 @@ include('simpleicons-8/W/Wails')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WailsXs>`
+- `<$WailsSm>`
+- `<$WailsMd>`
+- `<$WailsLg>`
+
+
+
+
 
 ## Wails
 

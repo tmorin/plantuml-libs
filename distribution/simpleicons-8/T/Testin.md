@@ -17,6 +17,17 @@ include('simpleicons-8/T/Testin')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TestinXs>`
+- `<$TestinSm>`
+- `<$TestinMd>`
+- `<$TestinLg>`
+
+
+
+
 
 ## Testin
 

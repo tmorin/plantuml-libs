@@ -17,6 +17,17 @@ include('simpleicons-8/T/Themighty')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ThemightyXs>`
+- `<$ThemightySm>`
+- `<$ThemightyMd>`
+- `<$ThemightyLg>`
+
+
+
+
 
 ## Themighty
 

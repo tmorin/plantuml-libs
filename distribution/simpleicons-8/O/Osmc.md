@@ -17,6 +17,17 @@ include('simpleicons-8/O/Osmc')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OsmcXs>`
+- `<$OsmcSm>`
+- `<$OsmcMd>`
+- `<$OsmcLg>`
+
+
+
+
 
 ## Osmc
 

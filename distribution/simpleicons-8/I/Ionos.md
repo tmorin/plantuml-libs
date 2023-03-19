@@ -17,6 +17,17 @@ include('simpleicons-8/I/Ionos')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IonosXs>`
+- `<$IonosSm>`
+- `<$IonosMd>`
+- `<$IonosLg>`
+
+
+
+
 
 ## Ionos
 

@@ -17,6 +17,17 @@ include('simpleicons-8/M/Mastercomfig')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MastercomfigXs>`
+- `<$MastercomfigSm>`
+- `<$MastercomfigMd>`
+- `<$MastercomfigLg>`
+
+
+
+
 
 ## Mastercomfig
 

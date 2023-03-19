@@ -17,6 +17,17 @@ include('simpleicons-8/C/Chef')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChefXs>`
+- `<$ChefSm>`
+- `<$ChefMd>`
+- `<$ChefLg>`
+
+
+
+
 
 ## Chef
 

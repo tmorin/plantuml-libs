@@ -17,6 +17,17 @@ include('simpleicons-8/T/Turkishairlines')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TurkishairlinesXs>`
+- `<$TurkishairlinesSm>`
+- `<$TurkishairlinesMd>`
+- `<$TurkishairlinesLg>`
+
+
+
+
 
 ## Turkishairlines
 

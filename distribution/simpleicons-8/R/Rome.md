@@ -17,6 +17,17 @@ include('simpleicons-8/R/Rome')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RomeXs>`
+- `<$RomeSm>`
+- `<$RomeMd>`
+- `<$RomeLg>`
+
+
+
+
 
 ## Rome
 

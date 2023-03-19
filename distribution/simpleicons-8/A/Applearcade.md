@@ -17,6 +17,17 @@ include('simpleicons-8/A/Applearcade')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ApplearcadeXs>`
+- `<$ApplearcadeSm>`
+- `<$ApplearcadeMd>`
+- `<$ApplearcadeLg>`
+
+
+
+
 
 ## Applearcade
 

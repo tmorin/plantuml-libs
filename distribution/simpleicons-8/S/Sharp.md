@@ -17,6 +17,17 @@ include('simpleicons-8/S/Sharp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SharpXs>`
+- `<$SharpSm>`
+- `<$SharpMd>`
+- `<$SharpLg>`
+
+
+
+
 
 ## Sharp
 

@@ -17,6 +17,17 @@ include('simpleicons-8/Q/Qiita')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$QiitaXs>`
+- `<$QiitaSm>`
+- `<$QiitaMd>`
+- `<$QiitaLg>`
+
+
+
+
 
 ## Qiita
 

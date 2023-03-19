@@ -17,6 +17,17 @@ include('simpleicons-8/T/Trainerroad')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TrainerroadXs>`
+- `<$TrainerroadSm>`
+- `<$TrainerroadMd>`
+- `<$TrainerroadLg>`
+
+
+
+
 
 ## Trainerroad
 

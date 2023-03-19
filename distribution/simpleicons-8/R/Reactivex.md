@@ -17,6 +17,17 @@ include('simpleicons-8/R/Reactivex')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ReactivexXs>`
+- `<$ReactivexSm>`
+- `<$ReactivexMd>`
+- `<$ReactivexLg>`
+
+
+
+
 
 ## Reactivex
 

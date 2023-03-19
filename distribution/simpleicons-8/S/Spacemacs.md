@@ -17,6 +17,17 @@ include('simpleicons-8/S/Spacemacs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SpacemacsXs>`
+- `<$SpacemacsSm>`
+- `<$SpacemacsMd>`
+- `<$SpacemacsLg>`
+
+
+
+
 
 ## Spacemacs
 

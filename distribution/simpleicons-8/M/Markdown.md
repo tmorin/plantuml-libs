@@ -17,6 +17,17 @@ include('simpleicons-8/M/Markdown')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MarkdownXs>`
+- `<$MarkdownSm>`
+- `<$MarkdownMd>`
+- `<$MarkdownLg>`
+
+
+
+
 
 ## Markdown
 

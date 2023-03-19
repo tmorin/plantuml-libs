@@ -17,6 +17,17 @@ include('simpleicons-8/C/Csharp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CsharpXs>`
+- `<$CsharpSm>`
+- `<$CsharpMd>`
+- `<$CsharpLg>`
+
+
+
+
 
 ## Csharp
 

@@ -17,6 +17,17 @@ include('simpleicons-8/B/Blackberry')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BlackberryXs>`
+- `<$BlackberrySm>`
+- `<$BlackberryMd>`
+- `<$BlackberryLg>`
+
+
+
+
 
 ## Blackberry
 

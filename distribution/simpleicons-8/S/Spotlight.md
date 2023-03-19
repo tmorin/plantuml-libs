@@ -17,6 +17,17 @@ include('simpleicons-8/S/Spotlight')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SpotlightXs>`
+- `<$SpotlightSm>`
+- `<$SpotlightMd>`
+- `<$SpotlightLg>`
+
+
+
+
 
 ## Spotlight
 

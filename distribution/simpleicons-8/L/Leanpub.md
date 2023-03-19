@@ -17,6 +17,17 @@ include('simpleicons-8/L/Leanpub')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LeanpubXs>`
+- `<$LeanpubSm>`
+- `<$LeanpubMd>`
+- `<$LeanpubLg>`
+
+
+
+
 
 ## Leanpub
 

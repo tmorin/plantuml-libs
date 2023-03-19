@@ -17,6 +17,17 @@ include('simpleicons-8/H/Hackerearth')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HackerearthXs>`
+- `<$HackerearthSm>`
+- `<$HackerearthMd>`
+- `<$HackerearthLg>`
+
+
+
+
 
 ## Hackerearth
 

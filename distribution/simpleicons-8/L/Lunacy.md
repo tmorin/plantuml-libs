@@ -17,6 +17,17 @@ include('simpleicons-8/L/Lunacy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LunacyXs>`
+- `<$LunacySm>`
+- `<$LunacyMd>`
+- `<$LunacyLg>`
+
+
+
+
 
 ## Lunacy
 

@@ -17,6 +17,17 @@ include('simpleicons-8/G/Gitbook')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GitbookXs>`
+- `<$GitbookSm>`
+- `<$GitbookMd>`
+- `<$GitbookLg>`
+
+
+
+
 
 ## Gitbook
 

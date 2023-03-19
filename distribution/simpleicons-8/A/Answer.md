@@ -17,6 +17,17 @@ include('simpleicons-8/A/Answer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AnswerXs>`
+- `<$AnswerSm>`
+- `<$AnswerMd>`
+- `<$AnswerLg>`
+
+
+
+
 
 ## Answer
 

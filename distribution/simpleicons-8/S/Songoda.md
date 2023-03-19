@@ -17,6 +17,17 @@ include('simpleicons-8/S/Songoda')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SongodaXs>`
+- `<$SongodaSm>`
+- `<$SongodaMd>`
+- `<$SongodaLg>`
+
+
+
+
 
 ## Songoda
 

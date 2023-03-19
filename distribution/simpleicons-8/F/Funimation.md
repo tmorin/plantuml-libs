@@ -17,6 +17,17 @@ include('simpleicons-8/F/Funimation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FunimationXs>`
+- `<$FunimationSm>`
+- `<$FunimationMd>`
+- `<$FunimationLg>`
+
+
+
+
 
 ## Funimation
 

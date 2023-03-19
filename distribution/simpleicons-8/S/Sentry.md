@@ -17,6 +17,17 @@ include('simpleicons-8/S/Sentry')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SentryXs>`
+- `<$SentrySm>`
+- `<$SentryMd>`
+- `<$SentryLg>`
+
+
+
+
 
 ## Sentry
 

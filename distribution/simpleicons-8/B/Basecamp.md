@@ -17,6 +17,17 @@ include('simpleicons-8/B/Basecamp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BasecampXs>`
+- `<$BasecampSm>`
+- `<$BasecampMd>`
+- `<$BasecampLg>`
+
+
+
+
 
 ## Basecamp
 

@@ -17,6 +17,17 @@ include('simpleicons-8/D/Datto')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DattoXs>`
+- `<$DattoSm>`
+- `<$DattoMd>`
+- `<$DattoLg>`
+
+
+
+
 
 ## Datto
 

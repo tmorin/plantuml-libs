@@ -17,6 +17,17 @@ include('simpleicons-8/R/Ravelry')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RavelryXs>`
+- `<$RavelrySm>`
+- `<$RavelryMd>`
+- `<$RavelryLg>`
+
+
+
+
 
 ## Ravelry
 

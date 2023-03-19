@@ -17,6 +17,17 @@ include('simpleicons-8/S/Spreadshirt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SpreadshirtXs>`
+- `<$SpreadshirtSm>`
+- `<$SpreadshirtMd>`
+- `<$SpreadshirtLg>`
+
+
+
+
 
 ## Spreadshirt
 

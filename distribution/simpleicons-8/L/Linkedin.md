@@ -17,6 +17,17 @@ include('simpleicons-8/L/Linkedin')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LinkedinXs>`
+- `<$LinkedinSm>`
+- `<$LinkedinMd>`
+- `<$LinkedinLg>`
+
+
+
+
 
 ## Linkedin
 

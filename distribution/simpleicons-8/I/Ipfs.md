@@ -17,6 +17,17 @@ include('simpleicons-8/I/Ipfs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IpfsXs>`
+- `<$IpfsSm>`
+- `<$IpfsMd>`
+- `<$IpfsLg>`
+
+
+
+
 
 ## Ipfs
 

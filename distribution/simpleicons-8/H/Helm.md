@@ -17,6 +17,17 @@ include('simpleicons-8/H/Helm')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HelmXs>`
+- `<$HelmSm>`
+- `<$HelmMd>`
+- `<$HelmLg>`
+
+
+
+
 
 ## Helm
 

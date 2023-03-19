@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bootstrap')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BootstrapXs>`
+- `<$BootstrapSm>`
+- `<$BootstrapMd>`
+- `<$BootstrapLg>`
+
+
+
+
 
 ## Bootstrap
 

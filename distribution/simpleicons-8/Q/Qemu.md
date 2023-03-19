@@ -17,6 +17,17 @@ include('simpleicons-8/Q/Qemu')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$QemuXs>`
+- `<$QemuSm>`
+- `<$QemuMd>`
+- `<$QemuLg>`
+
+
+
+
 
 ## Qemu
 

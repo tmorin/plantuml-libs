@@ -17,6 +17,17 @@ include('simpleicons-8/H/Husqvarna')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HusqvarnaXs>`
+- `<$HusqvarnaSm>`
+- `<$HusqvarnaMd>`
+- `<$HusqvarnaLg>`
+
+
+
+
 
 ## Husqvarna
 

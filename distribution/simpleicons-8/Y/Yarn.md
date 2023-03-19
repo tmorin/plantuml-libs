@@ -17,6 +17,17 @@ include('simpleicons-8/Y/Yarn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$YarnXs>`
+- `<$YarnSm>`
+- `<$YarnMd>`
+- `<$YarnLg>`
+
+
+
+
 
 ## Yarn
 

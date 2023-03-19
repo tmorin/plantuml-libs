@@ -17,6 +17,17 @@ include('simpleicons-8/T/Teamviewer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TeamviewerXs>`
+- `<$TeamviewerSm>`
+- `<$TeamviewerMd>`
+- `<$TeamviewerLg>`
+
+
+
+
 
 ## Teamviewer
 

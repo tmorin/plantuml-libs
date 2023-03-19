@@ -17,6 +17,17 @@ include('simpleicons-8/P/Photopea')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PhotopeaXs>`
+- `<$PhotopeaSm>`
+- `<$PhotopeaMd>`
+- `<$PhotopeaLg>`
+
+
+
+
 
 ## Photopea
 

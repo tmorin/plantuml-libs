@@ -17,6 +17,17 @@ include('simpleicons-8/P/Passport')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PassportXs>`
+- `<$PassportSm>`
+- `<$PassportMd>`
+- `<$PassportLg>`
+
+
+
+
 
 ## Passport
 

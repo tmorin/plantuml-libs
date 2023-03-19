@@ -17,6 +17,17 @@ include('simpleicons-8/F/Fanfou')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FanfouXs>`
+- `<$FanfouSm>`
+- `<$FanfouMd>`
+- `<$FanfouLg>`
+
+
+
+
 
 ## Fanfou
 

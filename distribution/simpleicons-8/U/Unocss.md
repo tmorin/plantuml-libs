@@ -17,6 +17,17 @@ include('simpleicons-8/U/Unocss')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UnocssXs>`
+- `<$UnocssSm>`
+- `<$UnocssMd>`
+- `<$UnocssLg>`
+
+
+
+
 
 ## Unocss
 

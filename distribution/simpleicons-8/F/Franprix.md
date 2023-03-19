@@ -17,6 +17,17 @@ include('simpleicons-8/F/Franprix')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FranprixXs>`
+- `<$FranprixSm>`
+- `<$FranprixMd>`
+- `<$FranprixLg>`
+
+
+
+
 
 ## Franprix
 

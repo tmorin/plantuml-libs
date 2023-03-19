@@ -17,6 +17,17 @@ include('simpleicons-8/D/Deezer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DeezerXs>`
+- `<$DeezerSm>`
+- `<$DeezerMd>`
+- `<$DeezerLg>`
+
+
+
+
 
 ## Deezer
 

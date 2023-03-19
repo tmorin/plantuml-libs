@@ -17,6 +17,17 @@ include('simpleicons-8/G/Gitee')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GiteeXs>`
+- `<$GiteeSm>`
+- `<$GiteeMd>`
+- `<$GiteeLg>`
+
+
+
+
 
 ## Gitee
 

@@ -17,6 +17,17 @@ include('simpleicons-8/T/Todoist')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TodoistXs>`
+- `<$TodoistSm>`
+- `<$TodoistMd>`
+- `<$TodoistLg>`
+
+
+
+
 
 ## Todoist
 

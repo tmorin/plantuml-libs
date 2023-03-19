@@ -17,6 +17,17 @@ include('simpleicons-8/C/Cookiecutter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CookiecutterXs>`
+- `<$CookiecutterSm>`
+- `<$CookiecutterMd>`
+- `<$CookiecutterLg>`
+
+
+
+
 
 ## Cookiecutter
 

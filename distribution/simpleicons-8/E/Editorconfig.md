@@ -17,6 +17,17 @@ include('simpleicons-8/E/Editorconfig')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EditorconfigXs>`
+- `<$EditorconfigSm>`
+- `<$EditorconfigMd>`
+- `<$EditorconfigLg>`
+
+
+
+
 
 ## Editorconfig
 

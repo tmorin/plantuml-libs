@@ -17,6 +17,17 @@ include('simpleicons-8/I/Infracost')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InfracostXs>`
+- `<$InfracostSm>`
+- `<$InfracostMd>`
+- `<$InfracostLg>`
+
+
+
+
 
 ## Infracost
 

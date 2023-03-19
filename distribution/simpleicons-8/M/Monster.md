@@ -17,6 +17,17 @@ include('simpleicons-8/M/Monster')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MonsterXs>`
+- `<$MonsterSm>`
+- `<$MonsterMd>`
+- `<$MonsterLg>`
+
+
+
+
 
 ## Monster
 

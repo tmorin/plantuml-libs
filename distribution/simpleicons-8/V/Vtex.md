@@ -17,6 +17,17 @@ include('simpleicons-8/V/Vtex')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VtexXs>`
+- `<$VtexSm>`
+- `<$VtexMd>`
+- `<$VtexLg>`
+
+
+
+
 
 ## Vtex
 

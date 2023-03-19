@@ -17,6 +17,17 @@ include('simpleicons-8/D/Dgraph')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DgraphXs>`
+- `<$DgraphSm>`
+- `<$DgraphMd>`
+- `<$DgraphLg>`
+
+
+
+
 
 ## Dgraph
 

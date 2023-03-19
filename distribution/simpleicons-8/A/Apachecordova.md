@@ -17,6 +17,17 @@ include('simpleicons-8/A/Apachecordova')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ApachecordovaXs>`
+- `<$ApachecordovaSm>`
+- `<$ApachecordovaMd>`
+- `<$ApachecordovaLg>`
+
+
+
+
 
 ## Apachecordova
 

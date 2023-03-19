@@ -17,6 +17,17 @@ include('simpleicons-8/F/Flood')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FloodXs>`
+- `<$FloodSm>`
+- `<$FloodMd>`
+- `<$FloodLg>`
+
+
+
+
 
 ## Flood
 

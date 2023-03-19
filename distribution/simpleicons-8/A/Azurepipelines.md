@@ -17,6 +17,17 @@ include('simpleicons-8/A/Azurepipelines')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AzurepipelinesXs>`
+- `<$AzurepipelinesSm>`
+- `<$AzurepipelinesMd>`
+- `<$AzurepipelinesLg>`
+
+
+
+
 
 ## Azurepipelines
 

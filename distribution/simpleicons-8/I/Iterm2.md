@@ -17,6 +17,17 @@ include('simpleicons-8/I/Iterm2')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$Iterm2Xs>`
+- `<$Iterm2Sm>`
+- `<$Iterm2Md>`
+- `<$Iterm2Lg>`
+
+
+
+
 
 ## Iterm2
 

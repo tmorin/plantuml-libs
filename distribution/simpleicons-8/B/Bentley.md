@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bentley')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BentleyXs>`
+- `<$BentleySm>`
+- `<$BentleyMd>`
+- `<$BentleyLg>`
+
+
+
+
 
 ## Bentley
 

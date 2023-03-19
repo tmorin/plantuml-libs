@@ -17,6 +17,17 @@ include('simpleicons-8/E/Expo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ExpoXs>`
+- `<$ExpoSm>`
+- `<$ExpoMd>`
+- `<$ExpoLg>`
+
+
+
+
 
 ## Expo
 

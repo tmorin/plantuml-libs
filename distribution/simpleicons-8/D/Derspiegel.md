@@ -17,6 +17,17 @@ include('simpleicons-8/D/Derspiegel')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DerspiegelXs>`
+- `<$DerspiegelSm>`
+- `<$DerspiegelMd>`
+- `<$DerspiegelLg>`
+
+
+
+
 
 ## Derspiegel
 

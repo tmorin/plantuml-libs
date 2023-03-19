@@ -17,6 +17,17 @@ include('simpleicons-8/H/Hibob')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HibobXs>`
+- `<$HibobSm>`
+- `<$HibobMd>`
+- `<$HibobLg>`
+
+
+
+
 
 ## Hibob
 

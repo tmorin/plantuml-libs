@@ -17,6 +17,17 @@ include('simpleicons-8/W/Welcometothejungle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WelcometothejungleXs>`
+- `<$WelcometothejungleSm>`
+- `<$WelcometothejungleMd>`
+- `<$WelcometothejungleLg>`
+
+
+
+
 
 ## Welcometothejungle
 

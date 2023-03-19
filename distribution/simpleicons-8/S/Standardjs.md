@@ -17,6 +17,17 @@ include('simpleicons-8/S/Standardjs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StandardjsXs>`
+- `<$StandardjsSm>`
+- `<$StandardjsMd>`
+- `<$StandardjsLg>`
+
+
+
+
 
 ## Standardjs
 

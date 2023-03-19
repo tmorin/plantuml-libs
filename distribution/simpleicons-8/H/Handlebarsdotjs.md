@@ -17,6 +17,17 @@ include('simpleicons-8/H/Handlebarsdotjs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HandlebarsdotjsXs>`
+- `<$HandlebarsdotjsSm>`
+- `<$HandlebarsdotjsMd>`
+- `<$HandlebarsdotjsLg>`
+
+
+
+
 
 ## Handlebarsdotjs
 

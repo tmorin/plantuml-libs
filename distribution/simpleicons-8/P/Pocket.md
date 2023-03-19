@@ -17,6 +17,17 @@ include('simpleicons-8/P/Pocket')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PocketXs>`
+- `<$PocketSm>`
+- `<$PocketMd>`
+- `<$PocketLg>`
+
+
+
+
 
 ## Pocket
 

@@ -17,6 +17,17 @@ include('simpleicons-8/M/Mariadbfoundation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MariadbfoundationXs>`
+- `<$MariadbfoundationSm>`
+- `<$MariadbfoundationMd>`
+- `<$MariadbfoundationLg>`
+
+
+
+
 
 ## Mariadbfoundation
 

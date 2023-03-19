@@ -17,6 +17,17 @@ include('simpleicons-8/F/Fdroid')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FdroidXs>`
+- `<$FdroidSm>`
+- `<$FdroidMd>`
+- `<$FdroidLg>`
+
+
+
+
 
 ## Fdroid
 

@@ -17,6 +17,17 @@ include('simpleicons-8/G/G2A')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$G2AXs>`
+- `<$G2ASm>`
+- `<$G2AMd>`
+- `<$G2ALg>`
+
+
+
+
 
 ## G2A
 

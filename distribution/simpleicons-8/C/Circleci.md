@@ -17,6 +17,17 @@ include('simpleicons-8/C/Circleci')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CircleciXs>`
+- `<$CircleciSm>`
+- `<$CircleciMd>`
+- `<$CircleciLg>`
+
+
+
+
 
 ## Circleci
 

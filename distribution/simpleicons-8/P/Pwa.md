@@ -17,6 +17,17 @@ include('simpleicons-8/P/Pwa')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PwaXs>`
+- `<$PwaSm>`
+- `<$PwaMd>`
+- `<$PwaLg>`
+
+
+
+
 
 ## Pwa
 

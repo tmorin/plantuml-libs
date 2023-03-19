@@ -17,6 +17,17 @@ include('simpleicons-8/G/Gnometerminal')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GnometerminalXs>`
+- `<$GnometerminalSm>`
+- `<$GnometerminalMd>`
+- `<$GnometerminalLg>`
+
+
+
+
 
 ## Gnometerminal
 

@@ -17,6 +17,17 @@ include('simpleicons-8/E/Easyjet')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EasyjetXs>`
+- `<$EasyjetSm>`
+- `<$EasyjetMd>`
+- `<$EasyjetLg>`
+
+
+
+
 
 ## Easyjet
 

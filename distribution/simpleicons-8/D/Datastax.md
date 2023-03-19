@@ -17,6 +17,17 @@ include('simpleicons-8/D/Datastax')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DatastaxXs>`
+- `<$DatastaxSm>`
+- `<$DatastaxMd>`
+- `<$DatastaxLg>`
+
+
+
+
 
 ## Datastax
 

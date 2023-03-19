@@ -17,6 +17,17 @@ include('simpleicons-8/A/Acer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AcerXs>`
+- `<$AcerSm>`
+- `<$AcerMd>`
+- `<$AcerLg>`
+
+
+
+
 
 ## Acer
 

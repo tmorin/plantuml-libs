@@ -17,6 +17,17 @@ include('simpleicons-8/S/System76')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$System76Xs>`
+- `<$System76Sm>`
+- `<$System76Md>`
+- `<$System76Lg>`
+
+
+
+
 
 ## System76
 

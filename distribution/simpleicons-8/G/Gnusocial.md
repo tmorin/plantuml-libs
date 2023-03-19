@@ -17,6 +17,17 @@ include('simpleicons-8/G/Gnusocial')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GnusocialXs>`
+- `<$GnusocialSm>`
+- `<$GnusocialMd>`
+- `<$GnusocialLg>`
+
+
+
+
 
 ## Gnusocial
 

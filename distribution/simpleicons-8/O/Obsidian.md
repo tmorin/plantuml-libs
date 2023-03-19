@@ -17,6 +17,17 @@ include('simpleicons-8/O/Obsidian')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ObsidianXs>`
+- `<$ObsidianSm>`
+- `<$ObsidianMd>`
+- `<$ObsidianLg>`
+
+
+
+
 
 ## Obsidian
 

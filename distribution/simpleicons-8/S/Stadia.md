@@ -17,6 +17,17 @@ include('simpleicons-8/S/Stadia')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StadiaXs>`
+- `<$StadiaSm>`
+- `<$StadiaMd>`
+- `<$StadiaLg>`
+
+
+
+
 
 ## Stadia
 

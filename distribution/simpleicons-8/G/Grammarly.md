@@ -17,6 +17,17 @@ include('simpleicons-8/G/Grammarly')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GrammarlyXs>`
+- `<$GrammarlySm>`
+- `<$GrammarlyMd>`
+- `<$GrammarlyLg>`
+
+
+
+
 
 ## Grammarly
 

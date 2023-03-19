@@ -17,6 +17,17 @@ include('simpleicons-8/E/Eventbrite')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EventbriteXs>`
+- `<$EventbriteSm>`
+- `<$EventbriteMd>`
+- `<$EventbriteLg>`
+
+
+
+
 
 ## Eventbrite
 

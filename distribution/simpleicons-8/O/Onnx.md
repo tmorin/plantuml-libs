@@ -17,6 +17,17 @@ include('simpleicons-8/O/Onnx')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OnnxXs>`
+- `<$OnnxSm>`
+- `<$OnnxMd>`
+- `<$OnnxLg>`
+
+
+
+
 
 ## Onnx
 

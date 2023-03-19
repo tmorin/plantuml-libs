@@ -17,6 +17,17 @@ include('simpleicons-8/Q/Qwiklabs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$QwiklabsXs>`
+- `<$QwiklabsSm>`
+- `<$QwiklabsMd>`
+- `<$QwiklabsLg>`
+
+
+
+
 
 ## Qwiklabs
 

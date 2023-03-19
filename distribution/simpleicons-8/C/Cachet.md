@@ -17,6 +17,17 @@ include('simpleicons-8/C/Cachet')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CachetXs>`
+- `<$CachetSm>`
+- `<$CachetMd>`
+- `<$CachetLg>`
+
+
+
+
 
 ## Cachet
 

@@ -17,6 +17,17 @@ include('simpleicons-8/S/Setapp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SetappXs>`
+- `<$SetappSm>`
+- `<$SetappMd>`
+- `<$SetappLg>`
+
+
+
+
 
 ## Setapp
 

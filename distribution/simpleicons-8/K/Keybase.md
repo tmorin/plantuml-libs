@@ -17,6 +17,17 @@ include('simpleicons-8/K/Keybase')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KeybaseXs>`
+- `<$KeybaseSm>`
+- `<$KeybaseMd>`
+- `<$KeybaseLg>`
+
+
+
+
 
 ## Keybase
 

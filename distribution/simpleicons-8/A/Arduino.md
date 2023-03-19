@@ -17,6 +17,17 @@ include('simpleicons-8/A/Arduino')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ArduinoXs>`
+- `<$ArduinoSm>`
+- `<$ArduinoMd>`
+- `<$ArduinoLg>`
+
+
+
+
 
 ## Arduino
 

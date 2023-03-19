@@ -17,6 +17,17 @@ include('simpleicons-8/S/Solid')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SolidXs>`
+- `<$SolidSm>`
+- `<$SolidMd>`
+- `<$SolidLg>`
+
+
+
+
 
 ## Solid
 

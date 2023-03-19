@@ -17,6 +17,17 @@ include('simpleicons-8/S/Swift')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SwiftXs>`
+- `<$SwiftSm>`
+- `<$SwiftMd>`
+- `<$SwiftLg>`
+
+
+
+
 
 ## Swift
 

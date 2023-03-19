@@ -17,6 +17,17 @@ include('simpleicons-8/S/Shell')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShellXs>`
+- `<$ShellSm>`
+- `<$ShellMd>`
+- `<$ShellLg>`
+
+
+
+
 
 ## Shell
 

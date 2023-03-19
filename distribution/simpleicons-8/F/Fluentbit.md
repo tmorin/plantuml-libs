@@ -17,6 +17,17 @@ include('simpleicons-8/F/Fluentbit')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FluentbitXs>`
+- `<$FluentbitSm>`
+- `<$FluentbitMd>`
+- `<$FluentbitLg>`
+
+
+
+
 
 ## Fluentbit
 

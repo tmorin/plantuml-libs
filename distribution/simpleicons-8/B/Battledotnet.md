@@ -17,6 +17,17 @@ include('simpleicons-8/B/Battledotnet')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BattledotnetXs>`
+- `<$BattledotnetSm>`
+- `<$BattledotnetMd>`
+- `<$BattledotnetLg>`
+
+
+
+
 
 ## Battledotnet
 

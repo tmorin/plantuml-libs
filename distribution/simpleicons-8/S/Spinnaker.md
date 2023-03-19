@@ -17,6 +17,17 @@ include('simpleicons-8/S/Spinnaker')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SpinnakerXs>`
+- `<$SpinnakerSm>`
+- `<$SpinnakerMd>`
+- `<$SpinnakerLg>`
+
+
+
+
 
 ## Spinnaker
 

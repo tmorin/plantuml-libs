@@ -17,6 +17,17 @@ include('simpleicons-8/T/Typeform')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TypeformXs>`
+- `<$TypeformSm>`
+- `<$TypeformMd>`
+- `<$TypeformLg>`
+
+
+
+
 
 ## Typeform
 

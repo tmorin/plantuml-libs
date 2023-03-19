@@ -17,6 +17,17 @@ include('simpleicons-8/S/Sourcegraph')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SourcegraphXs>`
+- `<$SourcegraphSm>`
+- `<$SourcegraphMd>`
+- `<$SourcegraphLg>`
+
+
+
+
 
 ## Sourcegraph
 

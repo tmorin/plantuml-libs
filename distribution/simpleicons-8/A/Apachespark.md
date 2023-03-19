@@ -17,6 +17,17 @@ include('simpleicons-8/A/Apachespark')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ApachesparkXs>`
+- `<$ApachesparkSm>`
+- `<$ApachesparkMd>`
+- `<$ApachesparkLg>`
+
+
+
+
 
 ## Apachespark
 

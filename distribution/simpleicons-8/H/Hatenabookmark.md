@@ -17,6 +17,17 @@ include('simpleicons-8/H/Hatenabookmark')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HatenabookmarkXs>`
+- `<$HatenabookmarkSm>`
+- `<$HatenabookmarkMd>`
+- `<$HatenabookmarkLg>`
+
+
+
+
 
 ## Hatenabookmark
 

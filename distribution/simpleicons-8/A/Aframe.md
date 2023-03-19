@@ -17,6 +17,17 @@ include('simpleicons-8/A/Aframe')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AframeXs>`
+- `<$AframeSm>`
+- `<$AframeMd>`
+- `<$AframeLg>`
+
+
+
+
 
 ## Aframe
 

@@ -17,6 +17,17 @@ include('simpleicons-8/T/Testinglibrary')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TestinglibraryXs>`
+- `<$TestinglibrarySm>`
+- `<$TestinglibraryMd>`
+- `<$TestinglibraryLg>`
+
+
+
+
 
 ## Testinglibrary
 

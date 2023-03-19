@@ -17,6 +17,17 @@ include('simpleicons-8/I/Itchdotio')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ItchdotioXs>`
+- `<$ItchdotioSm>`
+- `<$ItchdotioMd>`
+- `<$ItchdotioLg>`
+
+
+
+
 
 ## Itchdotio
 

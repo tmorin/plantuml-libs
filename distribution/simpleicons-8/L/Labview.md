@@ -17,6 +17,17 @@ include('simpleicons-8/L/Labview')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LabviewXs>`
+- `<$LabviewSm>`
+- `<$LabviewMd>`
+- `<$LabviewLg>`
+
+
+
+
 
 ## Labview
 

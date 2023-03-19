@@ -17,6 +17,17 @@ include('simpleicons-8/R/Razer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RazerXs>`
+- `<$RazerSm>`
+- `<$RazerMd>`
+- `<$RazerLg>`
+
+
+
+
 
 ## Razer
 

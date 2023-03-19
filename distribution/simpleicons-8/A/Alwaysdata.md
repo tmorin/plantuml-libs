@@ -17,6 +17,17 @@ include('simpleicons-8/A/Alwaysdata')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AlwaysdataXs>`
+- `<$AlwaysdataSm>`
+- `<$AlwaysdataMd>`
+- `<$AlwaysdataLg>`
+
+
+
+
 
 ## Alwaysdata
 

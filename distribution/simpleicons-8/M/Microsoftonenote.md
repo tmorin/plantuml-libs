@@ -17,6 +17,17 @@ include('simpleicons-8/M/Microsoftonenote')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MicrosoftonenoteXs>`
+- `<$MicrosoftonenoteSm>`
+- `<$MicrosoftonenoteMd>`
+- `<$MicrosoftonenoteLg>`
+
+
+
+
 
 ## Microsoftonenote
 

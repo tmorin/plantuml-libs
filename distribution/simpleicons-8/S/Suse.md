@@ -17,6 +17,17 @@ include('simpleicons-8/S/Suse')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SuseXs>`
+- `<$SuseSm>`
+- `<$SuseMd>`
+- `<$SuseLg>`
+
+
+
+
 
 ## Suse
 

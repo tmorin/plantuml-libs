@@ -17,6 +17,17 @@ include('simpleicons-8/N/Notist')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NotistXs>`
+- `<$NotistSm>`
+- `<$NotistMd>`
+- `<$NotistLg>`
+
+
+
+
 
 ## Notist
 

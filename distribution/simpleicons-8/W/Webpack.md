@@ -17,6 +17,17 @@ include('simpleicons-8/W/Webpack')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WebpackXs>`
+- `<$WebpackSm>`
+- `<$WebpackMd>`
+- `<$WebpackLg>`
+
+
+
+
 
 ## Webpack
 

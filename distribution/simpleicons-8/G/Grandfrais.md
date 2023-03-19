@@ -17,6 +17,17 @@ include('simpleicons-8/G/Grandfrais')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GrandfraisXs>`
+- `<$GrandfraisSm>`
+- `<$GrandfraisMd>`
+- `<$GrandfraisLg>`
+
+
+
+
 
 ## Grandfrais
 

@@ -17,6 +17,17 @@ include('simpleicons-8/C/Carthrottle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CarthrottleXs>`
+- `<$CarthrottleSm>`
+- `<$CarthrottleMd>`
+- `<$CarthrottleLg>`
+
+
+
+
 
 ## Carthrottle
 

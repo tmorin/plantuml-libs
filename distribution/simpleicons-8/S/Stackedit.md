@@ -17,6 +17,17 @@ include('simpleicons-8/S/Stackedit')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StackeditXs>`
+- `<$StackeditSm>`
+- `<$StackeditMd>`
+- `<$StackeditLg>`
+
+
+
+
 
 ## Stackedit
 

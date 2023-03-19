@@ -17,6 +17,17 @@ include('simpleicons-8/V/Volvo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VolvoXs>`
+- `<$VolvoSm>`
+- `<$VolvoMd>`
+- `<$VolvoLg>`
+
+
+
+
 
 ## Volvo
 

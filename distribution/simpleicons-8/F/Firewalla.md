@@ -17,6 +17,17 @@ include('simpleicons-8/F/Firewalla')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FirewallaXs>`
+- `<$FirewallaSm>`
+- `<$FirewallaMd>`
+- `<$FirewallaLg>`
+
+
+
+
 
 ## Firewalla
 

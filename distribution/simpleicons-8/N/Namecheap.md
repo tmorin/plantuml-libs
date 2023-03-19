@@ -17,6 +17,17 @@ include('simpleicons-8/N/Namecheap')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NamecheapXs>`
+- `<$NamecheapSm>`
+- `<$NamecheapMd>`
+- `<$NamecheapLg>`
+
+
+
+
 
 ## Namecheap
 

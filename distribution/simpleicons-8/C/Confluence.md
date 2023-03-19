@@ -17,6 +17,17 @@ include('simpleicons-8/C/Confluence')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ConfluenceXs>`
+- `<$ConfluenceSm>`
+- `<$ConfluenceMd>`
+- `<$ConfluenceLg>`
+
+
+
+
 
 ## Confluence
 

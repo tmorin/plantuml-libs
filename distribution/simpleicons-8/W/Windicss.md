@@ -17,6 +17,17 @@ include('simpleicons-8/W/Windicss')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WindicssXs>`
+- `<$WindicssSm>`
+- `<$WindicssMd>`
+- `<$WindicssLg>`
+
+
+
+
 
 ## Windicss
 

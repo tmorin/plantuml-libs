@@ -17,6 +17,17 @@ include('simpleicons-8/E/Epicgames')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EpicgamesXs>`
+- `<$EpicgamesSm>`
+- `<$EpicgamesMd>`
+- `<$EpicgamesLg>`
+
+
+
+
 
 ## Epicgames
 

@@ -17,6 +17,17 @@ include('simpleicons-8/G/Googlelens')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GooglelensXs>`
+- `<$GooglelensSm>`
+- `<$GooglelensMd>`
+- `<$GooglelensLg>`
+
+
+
+
 
 ## Googlelens
 

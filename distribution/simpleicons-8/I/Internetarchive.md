@@ -17,6 +17,17 @@ include('simpleicons-8/I/Internetarchive')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InternetarchiveXs>`
+- `<$InternetarchiveSm>`
+- `<$InternetarchiveMd>`
+- `<$InternetarchiveLg>`
+
+
+
+
 
 ## Internetarchive
 

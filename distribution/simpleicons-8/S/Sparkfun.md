@@ -17,6 +17,17 @@ include('simpleicons-8/S/Sparkfun')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SparkfunXs>`
+- `<$SparkfunSm>`
+- `<$SparkfunMd>`
+- `<$SparkfunLg>`
+
+
+
+
 
 ## Sparkfun
 

@@ -17,6 +17,17 @@ include('simpleicons-8/P/Penpot')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PenpotXs>`
+- `<$PenpotSm>`
+- `<$PenpotMd>`
+- `<$PenpotLg>`
+
+
+
+
 
 ## Penpot
 

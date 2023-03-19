@@ -17,6 +17,17 @@ include('simpleicons-8/P/Php')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PhpXs>`
+- `<$PhpSm>`
+- `<$PhpMd>`
+- `<$PhpLg>`
+
+
+
+
 
 ## Php
 

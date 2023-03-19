@@ -17,6 +17,17 @@ include('simpleicons-8/S/Sennheiser')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SennheiserXs>`
+- `<$SennheiserSm>`
+- `<$SennheiserMd>`
+- `<$SennheiserLg>`
+
+
+
+
 
 ## Sennheiser
 

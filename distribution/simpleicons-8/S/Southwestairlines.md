@@ -17,6 +17,17 @@ include('simpleicons-8/S/Southwestairlines')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SouthwestairlinesXs>`
+- `<$SouthwestairlinesSm>`
+- `<$SouthwestairlinesMd>`
+- `<$SouthwestairlinesLg>`
+
+
+
+
 
 ## Southwestairlines
 

@@ -17,6 +17,17 @@ include('simpleicons-8/S/Squareenix')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquareenixXs>`
+- `<$SquareenixSm>`
+- `<$SquareenixMd>`
+- `<$SquareenixLg>`
+
+
+
+
 
 ## Squareenix
 

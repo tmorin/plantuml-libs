@@ -17,6 +17,17 @@ include('simpleicons-8/N/Namebase')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NamebaseXs>`
+- `<$NamebaseSm>`
+- `<$NamebaseMd>`
+- `<$NamebaseLg>`
+
+
+
+
 
 ## Namebase
 

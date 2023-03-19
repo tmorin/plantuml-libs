@@ -17,6 +17,17 @@ include('simpleicons-8/N/Nestjs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NestjsXs>`
+- `<$NestjsSm>`
+- `<$NestjsMd>`
+- `<$NestjsLg>`
+
+
+
+
 
 ## Nestjs
 

@@ -17,6 +17,17 @@ include('simpleicons-8/J/Jitsi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JitsiXs>`
+- `<$JitsiSm>`
+- `<$JitsiMd>`
+- `<$JitsiLg>`
+
+
+
+
 
 ## Jitsi
 

@@ -17,6 +17,17 @@ include('simpleicons-8/D/Darkreader')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DarkreaderXs>`
+- `<$DarkreaderSm>`
+- `<$DarkreaderMd>`
+- `<$DarkreaderLg>`
+
+
+
+
 
 ## Darkreader
 

@@ -17,6 +17,17 @@ include('simpleicons-8/T/Ticketmaster')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TicketmasterXs>`
+- `<$TicketmasterSm>`
+- `<$TicketmasterMd>`
+- `<$TicketmasterLg>`
+
+
+
+
 
 ## Ticketmaster
 

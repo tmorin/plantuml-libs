@@ -17,6 +17,17 @@ include('simpleicons-8/C/Creativetechnology')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CreativetechnologyXs>`
+- `<$CreativetechnologySm>`
+- `<$CreativetechnologyMd>`
+- `<$CreativetechnologyLg>`
+
+
+
+
 
 ## Creativetechnology
 

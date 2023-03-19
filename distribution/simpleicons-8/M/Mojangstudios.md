@@ -17,6 +17,17 @@ include('simpleicons-8/M/Mojangstudios')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MojangstudiosXs>`
+- `<$MojangstudiosSm>`
+- `<$MojangstudiosMd>`
+- `<$MojangstudiosLg>`
+
+
+
+
 
 ## Mojangstudios
 

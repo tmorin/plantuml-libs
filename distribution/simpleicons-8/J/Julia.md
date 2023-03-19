@@ -17,6 +17,17 @@ include('simpleicons-8/J/Julia')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JuliaXs>`
+- `<$JuliaSm>`
+- `<$JuliaMd>`
+- `<$JuliaLg>`
+
+
+
+
 
 ## Julia
 

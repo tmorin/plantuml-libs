@@ -17,6 +17,17 @@ include('simpleicons-8/K/Koa')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KoaXs>`
+- `<$KoaSm>`
+- `<$KoaMd>`
+- `<$KoaLg>`
+
+
+
+
 
 ## Koa
 

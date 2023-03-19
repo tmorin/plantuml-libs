@@ -17,6 +17,17 @@ include('simpleicons-8/S/Steamworks')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SteamworksXs>`
+- `<$SteamworksSm>`
+- `<$SteamworksMd>`
+- `<$SteamworksLg>`
+
+
+
+
 
 ## Steamworks
 

@@ -17,6 +17,17 @@ include('simpleicons-8/C/Chakraui')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChakrauiXs>`
+- `<$ChakrauiSm>`
+- `<$ChakrauiMd>`
+- `<$ChakrauiLg>`
+
+
+
+
 
 ## Chakraui
 

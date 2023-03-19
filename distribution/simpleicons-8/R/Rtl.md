@@ -17,6 +17,17 @@ include('simpleicons-8/R/Rtl')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RtlXs>`
+- `<$RtlSm>`
+- `<$RtlMd>`
+- `<$RtlLg>`
+
+
+
+
 
 ## Rtl
 

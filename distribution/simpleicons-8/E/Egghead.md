@@ -17,6 +17,17 @@ include('simpleicons-8/E/Egghead')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EggheadXs>`
+- `<$EggheadSm>`
+- `<$EggheadMd>`
+- `<$EggheadLg>`
+
+
+
+
 
 ## Egghead
 

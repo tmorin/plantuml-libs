@@ -17,6 +17,17 @@ include('simpleicons-8/E/Edotleclerc')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EdotleclercXs>`
+- `<$EdotleclercSm>`
+- `<$EdotleclercMd>`
+- `<$EdotleclercLg>`
+
+
+
+
 
 ## Edotleclerc
 

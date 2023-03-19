@@ -17,6 +17,17 @@ include('simpleicons-8/A/Avajs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AvajsXs>`
+- `<$AvajsSm>`
+- `<$AvajsMd>`
+- `<$AvajsLg>`
+
+
+
+
 
 ## Avajs
 

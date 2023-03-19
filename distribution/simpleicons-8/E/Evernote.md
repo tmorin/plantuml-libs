@@ -17,6 +17,17 @@ include('simpleicons-8/E/Evernote')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EvernoteXs>`
+- `<$EvernoteSm>`
+- `<$EvernoteMd>`
+- `<$EvernoteLg>`
+
+
+
+
 
 ## Evernote
 

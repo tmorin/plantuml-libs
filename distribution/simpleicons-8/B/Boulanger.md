@@ -17,6 +17,17 @@ include('simpleicons-8/B/Boulanger')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BoulangerXs>`
+- `<$BoulangerSm>`
+- `<$BoulangerMd>`
+- `<$BoulangerLg>`
+
+
+
+
 
 ## Boulanger
 

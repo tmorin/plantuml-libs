@@ -17,6 +17,17 @@ include('simpleicons-8/A/Androidstudio')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AndroidstudioXs>`
+- `<$AndroidstudioSm>`
+- `<$AndroidstudioMd>`
+- `<$AndroidstudioLg>`
+
+
+
+
 
 ## Androidstudio
 

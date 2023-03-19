@@ -17,6 +17,17 @@ include('simpleicons-8/V/Volkswagen')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VolkswagenXs>`
+- `<$VolkswagenSm>`
+- `<$VolkswagenMd>`
+- `<$VolkswagenLg>`
+
+
+
+
 
 ## Volkswagen
 

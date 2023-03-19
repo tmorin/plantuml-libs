@@ -17,6 +17,17 @@ include('simpleicons-8/J/Jordan')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JordanXs>`
+- `<$JordanSm>`
+- `<$JordanMd>`
+- `<$JordanLg>`
+
+
+
+
 
 ## Jordan
 

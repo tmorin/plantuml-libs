@@ -17,6 +17,17 @@ include('simpleicons-8/H/Hackerone')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HackeroneXs>`
+- `<$HackeroneSm>`
+- `<$HackeroneMd>`
+- `<$HackeroneLg>`
+
+
+
+
 
 ## Hackerone
 

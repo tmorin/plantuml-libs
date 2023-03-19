@@ -17,6 +17,17 @@ include('simpleicons-8/C/Cashapp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CashappXs>`
+- `<$CashappSm>`
+- `<$CashappMd>`
+- `<$CashappLg>`
+
+
+
+
 
 ## Cashapp
 

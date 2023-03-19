@@ -17,6 +17,17 @@ include('simpleicons-8/P/Powerbi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PowerbiXs>`
+- `<$PowerbiSm>`
+- `<$PowerbiMd>`
+- `<$PowerbiLg>`
+
+
+
+
 
 ## Powerbi
 

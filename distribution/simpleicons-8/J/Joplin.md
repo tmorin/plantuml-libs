@@ -17,6 +17,17 @@ include('simpleicons-8/J/Joplin')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JoplinXs>`
+- `<$JoplinSm>`
+- `<$JoplinMd>`
+- `<$JoplinLg>`
+
+
+
+
 
 ## Joplin
 

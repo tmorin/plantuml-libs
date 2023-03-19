@@ -17,6 +17,17 @@ include('simpleicons-8/P/Pegasusairlines')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PegasusairlinesXs>`
+- `<$PegasusairlinesSm>`
+- `<$PegasusairlinesMd>`
+- `<$PegasusairlinesLg>`
+
+
+
+
 
 ## Pegasusairlines
 

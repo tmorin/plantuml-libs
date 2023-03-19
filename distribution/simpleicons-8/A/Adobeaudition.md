@@ -17,6 +17,17 @@ include('simpleicons-8/A/Adobeaudition')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AdobeauditionXs>`
+- `<$AdobeauditionSm>`
+- `<$AdobeauditionMd>`
+- `<$AdobeauditionLg>`
+
+
+
+
 
 ## Adobeaudition
 

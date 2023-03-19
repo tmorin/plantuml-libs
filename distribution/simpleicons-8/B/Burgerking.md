@@ -17,6 +17,17 @@ include('simpleicons-8/B/Burgerking')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BurgerkingXs>`
+- `<$BurgerkingSm>`
+- `<$BurgerkingMd>`
+- `<$BurgerkingLg>`
+
+
+
+
 
 ## Burgerking
 

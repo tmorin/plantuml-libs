@@ -17,6 +17,17 @@ include('simpleicons-8/M/Meteor')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MeteorXs>`
+- `<$MeteorSm>`
+- `<$MeteorMd>`
+- `<$MeteorLg>`
+
+
+
+
 
 ## Meteor
 

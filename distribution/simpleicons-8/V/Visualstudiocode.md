@@ -17,6 +17,17 @@ include('simpleicons-8/V/Visualstudiocode')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VisualstudiocodeXs>`
+- `<$VisualstudiocodeSm>`
+- `<$VisualstudiocodeMd>`
+- `<$VisualstudiocodeLg>`
+
+
+
+
 
 ## Visualstudiocode
 

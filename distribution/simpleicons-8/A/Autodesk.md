@@ -17,6 +17,17 @@ include('simpleicons-8/A/Autodesk')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AutodeskXs>`
+- `<$AutodeskSm>`
+- `<$AutodeskMd>`
+- `<$AutodeskLg>`
+
+
+
+
 
 ## Autodesk
 

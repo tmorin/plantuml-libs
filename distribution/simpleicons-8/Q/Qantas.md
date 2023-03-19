@@ -17,6 +17,17 @@ include('simpleicons-8/Q/Qantas')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$QantasXs>`
+- `<$QantasSm>`
+- `<$QantasMd>`
+- `<$QantasLg>`
+
+
+
+
 
 ## Qantas
 

@@ -17,6 +17,17 @@ include('simpleicons-8/N/Netto')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NettoXs>`
+- `<$NettoSm>`
+- `<$NettoMd>`
+- `<$NettoLg>`
+
+
+
+
 
 ## Netto
 

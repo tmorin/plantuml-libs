@@ -17,6 +17,17 @@ include('simpleicons-8/P/Parsedotly')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ParsedotlyXs>`
+- `<$ParsedotlySm>`
+- `<$ParsedotlyMd>`
+- `<$ParsedotlyLg>`
+
+
+
+
 
 ## Parsedotly
 

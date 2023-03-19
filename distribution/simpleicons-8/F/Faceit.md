@@ -17,6 +17,17 @@ include('simpleicons-8/F/Faceit')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FaceitXs>`
+- `<$FaceitSm>`
+- `<$FaceitMd>`
+- `<$FaceitLg>`
+
+
+
+
 
 ## Faceit
 

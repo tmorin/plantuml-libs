@@ -17,6 +17,17 @@ include('simpleicons-8/M/Mediatemple')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MediatempleXs>`
+- `<$MediatempleSm>`
+- `<$MediatempleMd>`
+- `<$MediatempleLg>`
+
+
+
+
 
 ## Mediatemple
 

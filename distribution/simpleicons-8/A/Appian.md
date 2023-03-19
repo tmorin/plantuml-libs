@@ -17,6 +17,17 @@ include('simpleicons-8/A/Appian')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AppianXs>`
+- `<$AppianSm>`
+- `<$AppianMd>`
+- `<$AppianLg>`
+
+
+
+
 
 ## Appian
 

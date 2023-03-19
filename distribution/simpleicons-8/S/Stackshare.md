@@ -17,6 +17,17 @@ include('simpleicons-8/S/Stackshare')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StackshareXs>`
+- `<$StackshareSm>`
+- `<$StackshareMd>`
+- `<$StackshareLg>`
+
+
+
+
 
 ## Stackshare
 

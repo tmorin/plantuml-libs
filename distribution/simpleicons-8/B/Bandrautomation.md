@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bandrautomation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BandrautomationXs>`
+- `<$BandrautomationSm>`
+- `<$BandrautomationMd>`
+- `<$BandrautomationLg>`
+
+
+
+
 
 ## Bandrautomation
 

@@ -17,6 +17,17 @@ include('simpleicons-8/M/Mcafee')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$McafeeXs>`
+- `<$McafeeSm>`
+- `<$McafeeMd>`
+- `<$McafeeLg>`
+
+
+
+
 
 ## Mcafee
 

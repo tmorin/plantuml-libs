@@ -17,6 +17,17 @@ include('simpleicons-8/D/Duolingo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DuolingoXs>`
+- `<$DuolingoSm>`
+- `<$DuolingoMd>`
+- `<$DuolingoLg>`
+
+
+
+
 
 ## Duolingo
 

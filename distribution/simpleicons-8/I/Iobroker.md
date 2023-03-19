@@ -17,6 +17,17 @@ include('simpleicons-8/I/Iobroker')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IobrokerXs>`
+- `<$IobrokerSm>`
+- `<$IobrokerMd>`
+- `<$IobrokerLg>`
+
+
+
+
 
 ## Iobroker
 

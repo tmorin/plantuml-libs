@@ -17,6 +17,17 @@ include('simpleicons-8/N/Nintendoswitch')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NintendoswitchXs>`
+- `<$NintendoswitchSm>`
+- `<$NintendoswitchMd>`
+- `<$NintendoswitchLg>`
+
+
+
+
 
 ## Nintendoswitch
 

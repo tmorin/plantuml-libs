@@ -17,6 +17,17 @@ include('simpleicons-8/M/Microsoftacademic')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MicrosoftacademicXs>`
+- `<$MicrosoftacademicSm>`
+- `<$MicrosoftacademicMd>`
+- `<$MicrosoftacademicLg>`
+
+
+
+
 
 ## Microsoftacademic
 

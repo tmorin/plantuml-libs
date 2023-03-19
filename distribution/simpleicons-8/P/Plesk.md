@@ -17,6 +17,17 @@ include('simpleicons-8/P/Plesk')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PleskXs>`
+- `<$PleskSm>`
+- `<$PleskMd>`
+- `<$PleskLg>`
+
+
+
+
 
 ## Plesk
 

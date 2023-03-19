@@ -17,6 +17,17 @@ include('simpleicons-8/Y/Yelp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$YelpXs>`
+- `<$YelpSm>`
+- `<$YelpMd>`
+- `<$YelpLg>`
+
+
+
+
 
 ## Yelp
 

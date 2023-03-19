@@ -17,6 +17,17 @@ include('simpleicons-8/H/Hive')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HiveXs>`
+- `<$HiveSm>`
+- `<$HiveMd>`
+- `<$HiveLg>`
+
+
+
+
 
 ## Hive
 

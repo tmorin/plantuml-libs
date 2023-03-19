@@ -17,6 +17,17 @@ include('simpleicons-8/P/Prime')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PrimeXs>`
+- `<$PrimeSm>`
+- `<$PrimeMd>`
+- `<$PrimeLg>`
+
+
+
+
 
 ## Prime
 

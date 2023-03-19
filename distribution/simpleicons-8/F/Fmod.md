@@ -17,6 +17,17 @@ include('simpleicons-8/F/Fmod')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FmodXs>`
+- `<$FmodSm>`
+- `<$FmodMd>`
+- `<$FmodLg>`
+
+
+
+
 
 ## Fmod
 

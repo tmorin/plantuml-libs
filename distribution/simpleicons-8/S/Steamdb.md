@@ -17,6 +17,17 @@ include('simpleicons-8/S/Steamdb')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SteamdbXs>`
+- `<$SteamdbSm>`
+- `<$SteamdbMd>`
+- `<$SteamdbLg>`
+
+
+
+
 
 ## Steamdb
 

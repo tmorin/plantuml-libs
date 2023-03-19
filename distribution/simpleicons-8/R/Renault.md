@@ -17,6 +17,17 @@ include('simpleicons-8/R/Renault')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RenaultXs>`
+- `<$RenaultSm>`
+- `<$RenaultMd>`
+- `<$RenaultLg>`
+
+
+
+
 
 ## Renault
 

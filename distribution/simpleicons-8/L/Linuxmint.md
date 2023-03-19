@@ -17,6 +17,17 @@ include('simpleicons-8/L/Linuxmint')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LinuxmintXs>`
+- `<$LinuxmintSm>`
+- `<$LinuxmintMd>`
+- `<$LinuxmintLg>`
+
+
+
+
 
 ## Linuxmint
 

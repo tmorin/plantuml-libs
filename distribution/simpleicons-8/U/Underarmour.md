@@ -17,6 +17,17 @@ include('simpleicons-8/U/Underarmour')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UnderarmourXs>`
+- `<$UnderarmourSm>`
+- `<$UnderarmourMd>`
+- `<$UnderarmourLg>`
+
+
+
+
 
 ## Underarmour
 

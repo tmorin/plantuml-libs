@@ -17,6 +17,17 @@ include('simpleicons-8/F/Fujitsu')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FujitsuXs>`
+- `<$FujitsuSm>`
+- `<$FujitsuMd>`
+- `<$FujitsuLg>`
+
+
+
+
 
 ## Fujitsu
 

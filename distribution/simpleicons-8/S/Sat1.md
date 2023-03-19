@@ -17,6 +17,17 @@ include('simpleicons-8/S/Sat1')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$Sat1Xs>`
+- `<$Sat1Sm>`
+- `<$Sat1Md>`
+- `<$Sat1Lg>`
+
+
+
+
 
 ## Sat1
 

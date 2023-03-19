@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bankofamerica')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BankofamericaXs>`
+- `<$BankofamericaSm>`
+- `<$BankofamericaMd>`
+- `<$BankofamericaLg>`
+
+
+
+
 
 ## Bankofamerica
 

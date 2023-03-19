@@ -17,6 +17,17 @@ include('simpleicons-8/O/Openmined')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OpenminedXs>`
+- `<$OpenminedSm>`
+- `<$OpenminedMd>`
+- `<$OpenminedLg>`
+
+
+
+
 
 ## Openmined
 

@@ -17,6 +17,17 @@ include('simpleicons-8/M/Mercedes')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MercedesXs>`
+- `<$MercedesSm>`
+- `<$MercedesMd>`
+- `<$MercedesLg>`
+
+
+
+
 
 ## Mercedes
 

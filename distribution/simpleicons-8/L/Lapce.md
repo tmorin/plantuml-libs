@@ -17,6 +17,17 @@ include('simpleicons-8/L/Lapce')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LapceXs>`
+- `<$LapceSm>`
+- `<$LapceMd>`
+- `<$LapceLg>`
+
+
+
+
 
 ## Lapce
 

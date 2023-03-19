@@ -17,6 +17,17 @@ include('simpleicons-8/P/Pantheon')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PantheonXs>`
+- `<$PantheonSm>`
+- `<$PantheonMd>`
+- `<$PantheonLg>`
+
+
+
+
 
 ## Pantheon
 

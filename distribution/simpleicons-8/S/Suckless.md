@@ -17,6 +17,17 @@ include('simpleicons-8/S/Suckless')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SucklessXs>`
+- `<$SucklessSm>`
+- `<$SucklessMd>`
+- `<$SucklessLg>`
+
+
+
+
 
 ## Suckless
 

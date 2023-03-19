@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bigbasket')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BigbasketXs>`
+- `<$BigbasketSm>`
+- `<$BigbasketMd>`
+- `<$BigbasketLg>`
+
+
+
+
 
 ## Bigbasket
 

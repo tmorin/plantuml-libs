@@ -17,6 +17,17 @@ include('simpleicons-8/C/Countingworkspro')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CountingworksproXs>`
+- `<$CountingworksproSm>`
+- `<$CountingworksproMd>`
+- `<$CountingworksproLg>`
+
+
+
+
 
 ## Countingworkspro
 

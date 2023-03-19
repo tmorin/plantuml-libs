@@ -17,6 +17,17 @@ include('simpleicons-8/R/Redmine')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RedmineXs>`
+- `<$RedmineSm>`
+- `<$RedmineMd>`
+- `<$RedmineLg>`
+
+
+
+
 
 ## Redmine
 

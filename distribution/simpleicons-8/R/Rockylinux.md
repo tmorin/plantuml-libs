@@ -17,6 +17,17 @@ include('simpleicons-8/R/Rockylinux')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RockylinuxXs>`
+- `<$RockylinuxSm>`
+- `<$RockylinuxMd>`
+- `<$RockylinuxLg>`
+
+
+
+
 
 ## Rockylinux
 

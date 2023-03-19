@@ -17,6 +17,17 @@ include('simpleicons-8/F/Fontbase')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FontbaseXs>`
+- `<$FontbaseSm>`
+- `<$FontbaseMd>`
+- `<$FontbaseLg>`
+
+
+
+
 
 ## Fontbase
 

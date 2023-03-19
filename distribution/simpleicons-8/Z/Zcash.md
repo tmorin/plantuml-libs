@@ -17,6 +17,17 @@ include('simpleicons-8/Z/Zcash')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ZcashXs>`
+- `<$ZcashSm>`
+- `<$ZcashMd>`
+- `<$ZcashLg>`
+
+
+
+
 
 ## Zcash
 

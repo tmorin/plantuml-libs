@@ -17,6 +17,17 @@ include('simpleicons-8/N/Nfc')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NfcXs>`
+- `<$NfcSm>`
+- `<$NfcMd>`
+- `<$NfcLg>`
+
+
+
+
 
 ## Nfc
 

@@ -17,6 +17,17 @@ include('simpleicons-8/R/Replit')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ReplitXs>`
+- `<$ReplitSm>`
+- `<$ReplitMd>`
+- `<$ReplitLg>`
+
+
+
+
 
 ## Replit
 

@@ -17,6 +17,17 @@ include('simpleicons-8/M/Mobxstatetree')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MobxstatetreeXs>`
+- `<$MobxstatetreeSm>`
+- `<$MobxstatetreeMd>`
+- `<$MobxstatetreeLg>`
+
+
+
+
 
 ## Mobxstatetree
 

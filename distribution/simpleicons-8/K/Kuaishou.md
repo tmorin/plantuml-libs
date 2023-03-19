@@ -17,6 +17,17 @@ include('simpleicons-8/K/Kuaishou')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KuaishouXs>`
+- `<$KuaishouSm>`
+- `<$KuaishouMd>`
+- `<$KuaishouLg>`
+
+
+
+
 
 ## Kuaishou
 

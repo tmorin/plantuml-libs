@@ -17,6 +17,17 @@ include('simpleicons-8/T/Triller')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TrillerXs>`
+- `<$TrillerSm>`
+- `<$TrillerMd>`
+- `<$TrillerLg>`
+
+
+
+
 
 ## Triller
 

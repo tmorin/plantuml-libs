@@ -17,6 +17,17 @@ include('simpleicons-8/P/Pingdom')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PingdomXs>`
+- `<$PingdomSm>`
+- `<$PingdomMd>`
+- `<$PingdomLg>`
+
+
+
+
 
 ## Pingdom
 

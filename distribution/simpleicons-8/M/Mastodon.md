@@ -17,6 +17,17 @@ include('simpleicons-8/M/Mastodon')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MastodonXs>`
+- `<$MastodonSm>`
+- `<$MastodonMd>`
+- `<$MastodonLg>`
+
+
+
+
 
 ## Mastodon
 

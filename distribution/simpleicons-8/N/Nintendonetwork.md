@@ -17,6 +17,17 @@ include('simpleicons-8/N/Nintendonetwork')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NintendonetworkXs>`
+- `<$NintendonetworkSm>`
+- `<$NintendonetworkMd>`
+- `<$NintendonetworkLg>`
+
+
+
+
 
 ## Nintendonetwork
 

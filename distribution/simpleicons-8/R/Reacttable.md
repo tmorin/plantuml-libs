@@ -17,6 +17,17 @@ include('simpleicons-8/R/Reacttable')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ReacttableXs>`
+- `<$ReacttableSm>`
+- `<$ReacttableMd>`
+- `<$ReacttableLg>`
+
+
+
+
 
 ## Reacttable
 

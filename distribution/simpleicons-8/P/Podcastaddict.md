@@ -17,6 +17,17 @@ include('simpleicons-8/P/Podcastaddict')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PodcastaddictXs>`
+- `<$PodcastaddictSm>`
+- `<$PodcastaddictMd>`
+- `<$PodcastaddictLg>`
+
+
+
+
 
 ## Podcastaddict
 

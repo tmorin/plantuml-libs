@@ -17,6 +17,17 @@ include('simpleicons-8/G/Gnuicecat')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GnuicecatXs>`
+- `<$GnuicecatSm>`
+- `<$GnuicecatMd>`
+- `<$GnuicecatLg>`
+
+
+
+
 
 ## Gnuicecat
 

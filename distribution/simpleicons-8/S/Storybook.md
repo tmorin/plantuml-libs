@@ -17,6 +17,17 @@ include('simpleicons-8/S/Storybook')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StorybookXs>`
+- `<$StorybookSm>`
+- `<$StorybookMd>`
+- `<$StorybookLg>`
+
+
+
+
 
 ## Storybook
 

@@ -17,6 +17,17 @@ include('simpleicons-8/A/Audible')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AudibleXs>`
+- `<$AudibleSm>`
+- `<$AudibleMd>`
+- `<$AudibleLg>`
+
+
+
+
 
 ## Audible
 

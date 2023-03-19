@@ -17,6 +17,17 @@ include('simpleicons-8/T/Task')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TaskXs>`
+- `<$TaskSm>`
+- `<$TaskMd>`
+- `<$TaskLg>`
+
+
+
+
 
 ## Task
 

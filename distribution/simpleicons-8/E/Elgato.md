@@ -17,6 +17,17 @@ include('simpleicons-8/E/Elgato')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ElgatoXs>`
+- `<$ElgatoSm>`
+- `<$ElgatoMd>`
+- `<$ElgatoLg>`
+
+
+
+
 
 ## Elgato
 

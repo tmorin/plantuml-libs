@@ -17,6 +17,17 @@ include('simpleicons-8/D/Dependabot')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DependabotXs>`
+- `<$DependabotSm>`
+- `<$DependabotMd>`
+- `<$DependabotLg>`
+
+
+
+
 
 ## Dependabot
 

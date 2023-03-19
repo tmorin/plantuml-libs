@@ -17,6 +17,17 @@ include('simpleicons-8/F/Figma')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FigmaXs>`
+- `<$FigmaSm>`
+- `<$FigmaMd>`
+- `<$FigmaLg>`
+
+
+
+
 
 ## Figma
 

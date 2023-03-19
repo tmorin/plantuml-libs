@@ -17,6 +17,17 @@ include('simpleicons-8/W/Windows11')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$Windows11Xs>`
+- `<$Windows11Sm>`
+- `<$Windows11Md>`
+- `<$Windows11Lg>`
+
+
+
+
 
 ## Windows11
 

@@ -17,6 +17,17 @@ include('simpleicons-8/C/Codersrank')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CodersrankXs>`
+- `<$CodersrankSm>`
+- `<$CodersrankMd>`
+- `<$CodersrankLg>`
+
+
+
+
 
 ## Codersrank
 

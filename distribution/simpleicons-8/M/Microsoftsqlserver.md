@@ -17,6 +17,17 @@ include('simpleicons-8/M/Microsoftsqlserver')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MicrosoftsqlserverXs>`
+- `<$MicrosoftsqlserverSm>`
+- `<$MicrosoftsqlserverMd>`
+- `<$MicrosoftsqlserverLg>`
+
+
+
+
 
 ## Microsoftsqlserver
 

@@ -17,6 +17,17 @@ include('simpleicons-8/N/Nixos')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NixosXs>`
+- `<$NixosSm>`
+- `<$NixosMd>`
+- `<$NixosLg>`
+
+
+
+
 
 ## Nixos
 

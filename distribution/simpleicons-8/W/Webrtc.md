@@ -17,6 +17,17 @@ include('simpleicons-8/W/Webrtc')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WebrtcXs>`
+- `<$WebrtcSm>`
+- `<$WebrtcMd>`
+- `<$WebrtcLg>`
+
+
+
+
 
 ## Webrtc
 

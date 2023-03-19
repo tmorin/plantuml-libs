@@ -17,6 +17,17 @@ include('simpleicons-8/R/Resharper')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ResharperXs>`
+- `<$ResharperSm>`
+- `<$ResharperMd>`
+- `<$ResharperLg>`
+
+
+
+
 
 ## Resharper
 

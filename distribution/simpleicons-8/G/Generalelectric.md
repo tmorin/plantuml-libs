@@ -17,6 +17,17 @@ include('simpleicons-8/G/Generalelectric')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GeneralelectricXs>`
+- `<$GeneralelectricSm>`
+- `<$GeneralelectricMd>`
+- `<$GeneralelectricLg>`
+
+
+
+
 
 ## Generalelectric
 

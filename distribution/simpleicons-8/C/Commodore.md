@@ -17,6 +17,17 @@ include('simpleicons-8/C/Commodore')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CommodoreXs>`
+- `<$CommodoreSm>`
+- `<$CommodoreMd>`
+- `<$CommodoreLg>`
+
+
+
+
 
 ## Commodore
 

@@ -17,6 +17,17 @@ include('simpleicons-8/D/Dvc')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DvcXs>`
+- `<$DvcSm>`
+- `<$DvcMd>`
+- `<$DvcLg>`
+
+
+
+
 
 ## Dvc
 

@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tele5')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$Tele5Xs>`
+- `<$Tele5Sm>`
+- `<$Tele5Md>`
+- `<$Tele5Lg>`
+
+
+
+
 
 ## Tele5
 

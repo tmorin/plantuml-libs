@@ -17,6 +17,17 @@ include('simpleicons-8/F/Furrynetwork')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FurrynetworkXs>`
+- `<$FurrynetworkSm>`
+- `<$FurrynetworkMd>`
+- `<$FurrynetworkLg>`
+
+
+
+
 
 ## Furrynetwork
 

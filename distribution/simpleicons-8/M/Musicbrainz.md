@@ -17,6 +17,17 @@ include('simpleicons-8/M/Musicbrainz')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MusicbrainzXs>`
+- `<$MusicbrainzSm>`
+- `<$MusicbrainzMd>`
+- `<$MusicbrainzLg>`
+
+
+
+
 
 ## Musicbrainz
 

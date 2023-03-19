@@ -17,6 +17,17 @@ include('simpleicons-8/H/Homeadvisor')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HomeadvisorXs>`
+- `<$HomeadvisorSm>`
+- `<$HomeadvisorMd>`
+- `<$HomeadvisorLg>`
+
+
+
+
 
 ## Homeadvisor
 

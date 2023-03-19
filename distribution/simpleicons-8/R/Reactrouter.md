@@ -17,6 +17,17 @@ include('simpleicons-8/R/Reactrouter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ReactrouterXs>`
+- `<$ReactrouterSm>`
+- `<$ReactrouterMd>`
+- `<$ReactrouterLg>`
+
+
+
+
 
 ## Reactrouter
 

@@ -17,6 +17,17 @@ include('simpleicons-8/M/Metafilter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MetafilterXs>`
+- `<$MetafilterSm>`
+- `<$MetafilterMd>`
+- `<$MetafilterLg>`
+
+
+
+
 
 ## Metafilter
 

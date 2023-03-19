@@ -17,6 +17,17 @@ include('simpleicons-8/P/Prestashop')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PrestashopXs>`
+- `<$PrestashopSm>`
+- `<$PrestashopMd>`
+- `<$PrestashopLg>`
+
+
+
+
 
 ## Prestashop
 

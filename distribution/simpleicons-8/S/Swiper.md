@@ -17,6 +17,17 @@ include('simpleicons-8/S/Swiper')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SwiperXs>`
+- `<$SwiperSm>`
+- `<$SwiperMd>`
+- `<$SwiperLg>`
+
+
+
+
 
 ## Swiper
 

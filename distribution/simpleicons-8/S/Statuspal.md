@@ -17,6 +17,17 @@ include('simpleicons-8/S/Statuspal')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StatuspalXs>`
+- `<$StatuspalSm>`
+- `<$StatuspalMd>`
+- `<$StatuspalLg>`
+
+
+
+
 
 ## Statuspal
 

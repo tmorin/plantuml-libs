@@ -17,6 +17,17 @@ include('simpleicons-8/J/Jinja')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JinjaXs>`
+- `<$JinjaSm>`
+- `<$JinjaMd>`
+- `<$JinjaLg>`
+
+
+
+
 
 ## Jinja
 

@@ -17,6 +17,17 @@ include('simpleicons-8/D/Darty')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DartyXs>`
+- `<$DartySm>`
+- `<$DartyMd>`
+- `<$DartyLg>`
+
+
+
+
 
 ## Darty
 

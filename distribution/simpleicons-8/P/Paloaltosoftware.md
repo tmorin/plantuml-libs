@@ -17,6 +17,17 @@ include('simpleicons-8/P/Paloaltosoftware')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PaloaltosoftwareXs>`
+- `<$PaloaltosoftwareSm>`
+- `<$PaloaltosoftwareMd>`
+- `<$PaloaltosoftwareLg>`
+
+
+
+
 
 ## Paloaltosoftware
 

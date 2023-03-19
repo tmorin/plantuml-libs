@@ -17,6 +17,17 @@ include('simpleicons-8/U/Uikit')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UikitXs>`
+- `<$UikitSm>`
+- `<$UikitMd>`
+- `<$UikitLg>`
+
+
+
+
 
 ## Uikit
 

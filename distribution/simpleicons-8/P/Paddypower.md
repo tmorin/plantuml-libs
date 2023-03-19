@@ -17,6 +17,17 @@ include('simpleicons-8/P/Paddypower')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PaddypowerXs>`
+- `<$PaddypowerSm>`
+- `<$PaddypowerMd>`
+- `<$PaddypowerLg>`
+
+
+
+
 
 ## Paddypower
 

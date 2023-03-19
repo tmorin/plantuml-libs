@@ -17,6 +17,17 @@ include('simpleicons-8/M/Mazda')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MazdaXs>`
+- `<$MazdaSm>`
+- `<$MazdaMd>`
+- `<$MazdaLg>`
+
+
+
+
 
 ## Mazda
 

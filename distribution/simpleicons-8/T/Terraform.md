@@ -17,6 +17,17 @@ include('simpleicons-8/T/Terraform')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TerraformXs>`
+- `<$TerraformSm>`
+- `<$TerraformMd>`
+- `<$TerraformLg>`
+
+
+
+
 
 ## Terraform
 

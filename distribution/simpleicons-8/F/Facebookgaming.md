@@ -17,6 +17,17 @@ include('simpleicons-8/F/Facebookgaming')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FacebookgamingXs>`
+- `<$FacebookgamingSm>`
+- `<$FacebookgamingMd>`
+- `<$FacebookgamingLg>`
+
+
+
+
 
 ## Facebookgaming
 

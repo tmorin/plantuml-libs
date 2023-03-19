@@ -17,6 +17,17 @@ include('simpleicons-8/I/Istio')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IstioXs>`
+- `<$IstioSm>`
+- `<$IstioMd>`
+- `<$IstioLg>`
+
+
+
+
 
 ## Istio
 

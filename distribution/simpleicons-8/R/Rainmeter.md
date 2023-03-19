@@ -17,6 +17,17 @@ include('simpleicons-8/R/Rainmeter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RainmeterXs>`
+- `<$RainmeterSm>`
+- `<$RainmeterMd>`
+- `<$RainmeterLg>`
+
+
+
+
 
 ## Rainmeter
 

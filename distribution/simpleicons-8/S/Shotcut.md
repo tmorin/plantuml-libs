@@ -17,6 +17,17 @@ include('simpleicons-8/S/Shotcut')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShotcutXs>`
+- `<$ShotcutSm>`
+- `<$ShotcutMd>`
+- `<$ShotcutLg>`
+
+
+
+
 
 ## Shotcut
 

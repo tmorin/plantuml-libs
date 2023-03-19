@@ -17,6 +17,17 @@ include('simpleicons-8/L/Lerna')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LernaXs>`
+- `<$LernaSm>`
+- `<$LernaMd>`
+- `<$LernaLg>`
+
+
+
+
 
 ## Lerna
 

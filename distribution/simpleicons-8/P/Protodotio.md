@@ -17,6 +17,17 @@ include('simpleicons-8/P/Protodotio')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ProtodotioXs>`
+- `<$ProtodotioSm>`
+- `<$ProtodotioMd>`
+- `<$ProtodotioLg>`
+
+
+
+
 
 ## Protodotio
 

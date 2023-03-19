@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tailwindcss')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TailwindcssXs>`
+- `<$TailwindcssSm>`
+- `<$TailwindcssMd>`
+- `<$TailwindcssLg>`
+
+
+
+
 
 ## Tailwindcss
 

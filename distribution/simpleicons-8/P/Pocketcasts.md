@@ -17,6 +17,17 @@ include('simpleicons-8/P/Pocketcasts')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PocketcastsXs>`
+- `<$PocketcastsSm>`
+- `<$PocketcastsMd>`
+- `<$PocketcastsLg>`
+
+
+
+
 
 ## Pocketcasts
 

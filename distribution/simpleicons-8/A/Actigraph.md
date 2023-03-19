@@ -17,6 +17,17 @@ include('simpleicons-8/A/Actigraph')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ActigraphXs>`
+- `<$ActigraphSm>`
+- `<$ActigraphMd>`
+- `<$ActigraphLg>`
+
+
+
+
 
 ## Actigraph
 

@@ -17,6 +17,17 @@ include('simpleicons-8/I/Ios')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IosXs>`
+- `<$IosSm>`
+- `<$IosMd>`
+- `<$IosLg>`
+
+
+
+
 
 ## Ios
 

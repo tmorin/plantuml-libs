@@ -17,6 +17,17 @@ include('simpleicons-8/I/Inkscape')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InkscapeXs>`
+- `<$InkscapeSm>`
+- `<$InkscapeMd>`
+- `<$InkscapeLg>`
+
+
+
+
 
 ## Inkscape
 

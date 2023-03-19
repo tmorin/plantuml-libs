@@ -17,6 +17,17 @@ include('simpleicons-8/I/Indeed')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IndeedXs>`
+- `<$IndeedSm>`
+- `<$IndeedMd>`
+- `<$IndeedLg>`
+
+
+
+
 
 ## Indeed
 

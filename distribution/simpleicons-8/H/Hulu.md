@@ -17,6 +17,17 @@ include('simpleicons-8/H/Hulu')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HuluXs>`
+- `<$HuluSm>`
+- `<$HuluMd>`
+- `<$HuluLg>`
+
+
+
+
 
 ## Hulu
 

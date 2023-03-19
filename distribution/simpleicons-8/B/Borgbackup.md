@@ -17,6 +17,17 @@ include('simpleicons-8/B/Borgbackup')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BorgbackupXs>`
+- `<$BorgbackupSm>`
+- `<$BorgbackupMd>`
+- `<$BorgbackupLg>`
+
+
+
+
 
 ## Borgbackup
 

@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tryitonline')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TryitonlineXs>`
+- `<$TryitonlineSm>`
+- `<$TryitonlineMd>`
+- `<$TryitonlineLg>`
+
+
+
+
 
 ## Tryitonline
 

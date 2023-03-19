@@ -17,6 +17,17 @@ include('simpleicons-8/A/Acm')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AcmXs>`
+- `<$AcmSm>`
+- `<$AcmMd>`
+- `<$AcmLg>`
+
+
+
+
 
 ## Acm
 

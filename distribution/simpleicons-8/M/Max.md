@@ -17,6 +17,17 @@ include('simpleicons-8/M/Max')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MaxXs>`
+- `<$MaxSm>`
+- `<$MaxMd>`
+- `<$MaxLg>`
+
+
+
+
 
 ## Max
 

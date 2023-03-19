@@ -17,6 +17,17 @@ include('simpleicons-8/D/Drupal')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DrupalXs>`
+- `<$DrupalSm>`
+- `<$DrupalMd>`
+- `<$DrupalLg>`
+
+
+
+
 
 ## Drupal
 

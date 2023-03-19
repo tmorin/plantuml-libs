@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tidal')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TidalXs>`
+- `<$TidalSm>`
+- `<$TidalMd>`
+- `<$TidalLg>`
+
+
+
+
 
 ## Tidal
 

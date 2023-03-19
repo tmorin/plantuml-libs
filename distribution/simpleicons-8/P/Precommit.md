@@ -17,6 +17,17 @@ include('simpleicons-8/P/Precommit')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PrecommitXs>`
+- `<$PrecommitSm>`
+- `<$PrecommitMd>`
+- `<$PrecommitLg>`
+
+
+
+
 
 ## Precommit
 

@@ -17,6 +17,17 @@ include('simpleicons-8/M/Merck')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MerckXs>`
+- `<$MerckSm>`
+- `<$MerckMd>`
+- `<$MerckLg>`
+
+
+
+
 
 ## Merck
 

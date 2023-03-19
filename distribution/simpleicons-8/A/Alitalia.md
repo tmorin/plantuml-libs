@@ -17,6 +17,17 @@ include('simpleicons-8/A/Alitalia')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AlitaliaXs>`
+- `<$AlitaliaSm>`
+- `<$AlitaliaMd>`
+- `<$AlitaliaLg>`
+
+
+
+
 
 ## Alitalia
 

@@ -17,6 +17,17 @@ include('simpleicons-8/Q/Qatarairways')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$QatarairwaysXs>`
+- `<$QatarairwaysSm>`
+- `<$QatarairwaysMd>`
+- `<$QatarairwaysLg>`
+
+
+
+
 
 ## Qatarairways
 

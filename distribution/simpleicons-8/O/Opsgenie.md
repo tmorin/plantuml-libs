@@ -17,6 +17,17 @@ include('simpleicons-8/O/Opsgenie')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OpsgenieXs>`
+- `<$OpsgenieSm>`
+- `<$OpsgenieMd>`
+- `<$OpsgenieLg>`
+
+
+
+
 
 ## Opsgenie
 

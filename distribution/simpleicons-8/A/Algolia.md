@@ -17,6 +17,17 @@ include('simpleicons-8/A/Algolia')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AlgoliaXs>`
+- `<$AlgoliaSm>`
+- `<$AlgoliaMd>`
+- `<$AlgoliaLg>`
+
+
+
+
 
 ## Algolia
 

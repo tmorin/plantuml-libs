@@ -17,6 +17,17 @@ include('simpleicons-8/D/Disroot')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DisrootXs>`
+- `<$DisrootSm>`
+- `<$DisrootMd>`
+- `<$DisrootLg>`
+
+
+
+
 
 ## Disroot
 

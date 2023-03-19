@@ -17,6 +17,17 @@ include('simpleicons-8/G/Goland')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GolandXs>`
+- `<$GolandSm>`
+- `<$GolandMd>`
+- `<$GolandLg>`
+
+
+
+
 
 ## Goland
 

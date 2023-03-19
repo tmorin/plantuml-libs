@@ -17,6 +17,17 @@ include('simpleicons-8/C/Condaforge')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CondaforgeXs>`
+- `<$CondaforgeSm>`
+- `<$CondaforgeMd>`
+- `<$CondaforgeLg>`
+
+
+
+
 
 ## Condaforge
 

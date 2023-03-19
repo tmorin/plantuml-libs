@@ -17,6 +17,17 @@ include('simpleicons-8/D/Digikeyelectronics')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DigikeyelectronicsXs>`
+- `<$DigikeyelectronicsSm>`
+- `<$DigikeyelectronicsMd>`
+- `<$DigikeyelectronicsLg>`
+
+
+
+
 
 ## Digikeyelectronics
 

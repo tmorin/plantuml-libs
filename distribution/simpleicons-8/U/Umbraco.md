@@ -17,6 +17,17 @@ include('simpleicons-8/U/Umbraco')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UmbracoXs>`
+- `<$UmbracoSm>`
+- `<$UmbracoMd>`
+- `<$UmbracoLg>`
+
+
+
+
 
 ## Umbraco
 

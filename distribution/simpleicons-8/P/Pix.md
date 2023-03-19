@@ -17,6 +17,17 @@ include('simpleicons-8/P/Pix')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PixXs>`
+- `<$PixSm>`
+- `<$PixMd>`
+- `<$PixLg>`
+
+
+
+
 
 ## Pix
 

@@ -17,6 +17,17 @@ include('simpleicons-8/Z/Zerply')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ZerplyXs>`
+- `<$ZerplySm>`
+- `<$ZerplyMd>`
+- `<$ZerplyLg>`
+
+
+
+
 
 ## Zerply
 

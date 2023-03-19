@@ -17,6 +17,17 @@ include('simpleicons-8/S/Slickpic')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SlickpicXs>`
+- `<$SlickpicSm>`
+- `<$SlickpicMd>`
+- `<$SlickpicLg>`
+
+
+
+
 
 ## Slickpic
 

@@ -17,6 +17,17 @@ include('simpleicons-8/P/Puppeteer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PuppeteerXs>`
+- `<$PuppeteerSm>`
+- `<$PuppeteerMd>`
+- `<$PuppeteerLg>`
+
+
+
+
 
 ## Puppeteer
 

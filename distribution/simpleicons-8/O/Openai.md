@@ -17,6 +17,17 @@ include('simpleicons-8/O/Openai')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OpenaiXs>`
+- `<$OpenaiSm>`
+- `<$OpenaiMd>`
+- `<$OpenaiLg>`
+
+
+
+
 
 ## Openai
 

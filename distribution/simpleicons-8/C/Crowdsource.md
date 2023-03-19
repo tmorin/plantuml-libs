@@ -17,6 +17,17 @@ include('simpleicons-8/C/Crowdsource')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CrowdsourceXs>`
+- `<$CrowdsourceSm>`
+- `<$CrowdsourceMd>`
+- `<$CrowdsourceLg>`
+
+
+
+
 
 ## Crowdsource
 

@@ -17,6 +17,17 @@ include('simpleicons-8/M/Microbit')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MicrobitXs>`
+- `<$MicrobitSm>`
+- `<$MicrobitMd>`
+- `<$MicrobitLg>`
+
+
+
+
 
 ## Microbit
 

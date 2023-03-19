@@ -17,6 +17,17 @@ include('simpleicons-8/P/Postman')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PostmanXs>`
+- `<$PostmanSm>`
+- `<$PostmanMd>`
+- `<$PostmanLg>`
+
+
+
+
 
 ## Postman
 

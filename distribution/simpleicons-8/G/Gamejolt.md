@@ -17,6 +17,17 @@ include('simpleicons-8/G/Gamejolt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GamejoltXs>`
+- `<$GamejoltSm>`
+- `<$GamejoltMd>`
+- `<$GamejoltLg>`
+
+
+
+
 
 ## Gamejolt
 

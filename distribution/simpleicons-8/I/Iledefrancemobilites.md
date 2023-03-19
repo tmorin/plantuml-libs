@@ -17,6 +17,17 @@ include('simpleicons-8/I/Iledefrancemobilites')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IledefrancemobilitesXs>`
+- `<$IledefrancemobilitesSm>`
+- `<$IledefrancemobilitesMd>`
+- `<$IledefrancemobilitesLg>`
+
+
+
+
 
 ## Iledefrancemobilites
 

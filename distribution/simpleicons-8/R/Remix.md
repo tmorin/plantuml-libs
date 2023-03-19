@@ -17,6 +17,17 @@ include('simpleicons-8/R/Remix')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RemixXs>`
+- `<$RemixSm>`
+- `<$RemixMd>`
+- `<$RemixLg>`
+
+
+
+
 
 ## Remix
 

@@ -17,6 +17,17 @@ include('simpleicons-8/F/First')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FirstXs>`
+- `<$FirstSm>`
+- `<$FirstMd>`
+- `<$FirstLg>`
+
+
+
+
 
 ## First
 

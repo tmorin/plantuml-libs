@@ -17,6 +17,17 @@ include('simpleicons-8/S/Sandisk')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SandiskXs>`
+- `<$SandiskSm>`
+- `<$SandiskMd>`
+- `<$SandiskLg>`
+
+
+
+
 
 ## Sandisk
 

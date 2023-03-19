@@ -17,6 +17,17 @@ include('simpleicons-8/A/Astonmartin')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AstonmartinXs>`
+- `<$AstonmartinSm>`
+- `<$AstonmartinMd>`
+- `<$AstonmartinLg>`
+
+
+
+
 
 ## Astonmartin
 

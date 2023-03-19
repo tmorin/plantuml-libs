@@ -17,6 +17,17 @@ include('simpleicons-8/S/Showtime')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShowtimeXs>`
+- `<$ShowtimeSm>`
+- `<$ShowtimeMd>`
+- `<$ShowtimeLg>`
+
+
+
+
 
 ## Showtime
 

@@ -17,6 +17,17 @@ include('simpleicons-8/G/Googlehome')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GooglehomeXs>`
+- `<$GooglehomeSm>`
+- `<$GooglehomeMd>`
+- `<$GooglehomeLg>`
+
+
+
+
 
 ## Googlehome
 

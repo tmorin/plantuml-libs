@@ -17,6 +17,17 @@ include('simpleicons-8/B/Backblaze')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BackblazeXs>`
+- `<$BackblazeSm>`
+- `<$BackblazeMd>`
+- `<$BackblazeLg>`
+
+
+
+
 
 ## Backblaze
 

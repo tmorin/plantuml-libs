@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bookmyshow')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BookmyshowXs>`
+- `<$BookmyshowSm>`
+- `<$BookmyshowMd>`
+- `<$BookmyshowLg>`
+
+
+
+
 
 ## Bookmyshow
 

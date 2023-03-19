@@ -17,6 +17,17 @@ include('simpleicons-8/L/Lgtm')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LgtmXs>`
+- `<$LgtmSm>`
+- `<$LgtmMd>`
+- `<$LgtmLg>`
+
+
+
+
 
 ## Lgtm
 

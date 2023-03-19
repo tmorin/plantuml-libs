@@ -17,6 +17,17 @@ include('simpleicons-8/F/Firefoxbrowser')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FirefoxbrowserXs>`
+- `<$FirefoxbrowserSm>`
+- `<$FirefoxbrowserMd>`
+- `<$FirefoxbrowserLg>`
+
+
+
+
 
 ## Firefoxbrowser
 

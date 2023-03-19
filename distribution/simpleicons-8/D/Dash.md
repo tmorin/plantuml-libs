@@ -17,6 +17,17 @@ include('simpleicons-8/D/Dash')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DashXs>`
+- `<$DashSm>`
+- `<$DashMd>`
+- `<$DashLg>`
+
+
+
+
 
 ## Dash
 

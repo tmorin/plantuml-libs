@@ -17,6 +17,17 @@ include('simpleicons-8/W/Webassembly')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WebassemblyXs>`
+- `<$WebassemblySm>`
+- `<$WebassemblyMd>`
+- `<$WebassemblyLg>`
+
+
+
+
 
 ## Webassembly
 

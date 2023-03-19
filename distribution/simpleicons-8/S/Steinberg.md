@@ -17,6 +17,17 @@ include('simpleicons-8/S/Steinberg')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SteinbergXs>`
+- `<$SteinbergSm>`
+- `<$SteinbergMd>`
+- `<$SteinbergLg>`
+
+
+
+
 
 ## Steinberg
 

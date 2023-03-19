@@ -17,6 +17,17 @@ include('simpleicons-8/S/Scipy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ScipyXs>`
+- `<$ScipySm>`
+- `<$ScipyMd>`
+- `<$ScipyLg>`
+
+
+
+
 
 ## Scipy
 

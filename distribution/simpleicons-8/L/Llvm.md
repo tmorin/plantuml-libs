@@ -17,6 +17,17 @@ include('simpleicons-8/L/Llvm')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LlvmXs>`
+- `<$LlvmSm>`
+- `<$LlvmMd>`
+- `<$LlvmLg>`
+
+
+
+
 
 ## Llvm
 

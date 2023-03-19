@@ -17,6 +17,17 @@ include('simpleicons-8/U/Unsplash')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UnsplashXs>`
+- `<$UnsplashSm>`
+- `<$UnsplashMd>`
+- `<$UnsplashLg>`
+
+
+
+
 
 ## Unsplash
 

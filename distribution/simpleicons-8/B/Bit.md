@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bit')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BitXs>`
+- `<$BitSm>`
+- `<$BitMd>`
+- `<$BitLg>`
+
+
+
+
 
 ## Bit
 

@@ -17,6 +17,17 @@ include('simpleicons-8/E/Erlang')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ErlangXs>`
+- `<$ErlangSm>`
+- `<$ErlangMd>`
+- `<$ErlangLg>`
+
+
+
+
 
 ## Erlang
 

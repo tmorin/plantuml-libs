@@ -17,6 +17,17 @@ include('simpleicons-8/F/Folium')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FoliumXs>`
+- `<$FoliumSm>`
+- `<$FoliumMd>`
+- `<$FoliumLg>`
+
+
+
+
 
 ## Folium
 

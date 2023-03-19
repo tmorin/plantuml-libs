@@ -17,6 +17,17 @@ include('simpleicons-8/S/Saturn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SaturnXs>`
+- `<$SaturnSm>`
+- `<$SaturnMd>`
+- `<$SaturnLg>`
+
+
+
+
 
 ## Saturn
 

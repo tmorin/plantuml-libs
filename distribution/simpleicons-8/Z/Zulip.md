@@ -17,6 +17,17 @@ include('simpleicons-8/Z/Zulip')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ZulipXs>`
+- `<$ZulipSm>`
+- `<$ZulipMd>`
+- `<$ZulipLg>`
+
+
+
+
 
 ## Zulip
 

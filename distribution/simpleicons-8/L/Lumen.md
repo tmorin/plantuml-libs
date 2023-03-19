@@ -17,6 +17,17 @@ include('simpleicons-8/L/Lumen')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LumenXs>`
+- `<$LumenSm>`
+- `<$LumenMd>`
+- `<$LumenLg>`
+
+
+
+
 
 ## Lumen
 

@@ -17,6 +17,17 @@ include('simpleicons-8/E/Enterprisedb')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EnterprisedbXs>`
+- `<$EnterprisedbSm>`
+- `<$EnterprisedbMd>`
+- `<$EnterprisedbLg>`
+
+
+
+
 
 ## Enterprisedb
 

@@ -17,6 +17,17 @@ include('simpleicons-8/C/Cliqz')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CliqzXs>`
+- `<$CliqzSm>`
+- `<$CliqzMd>`
+- `<$CliqzLg>`
+
+
+
+
 
 ## Cliqz
 

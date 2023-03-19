@@ -17,6 +17,17 @@ include('simpleicons-8/R/Rotaryinternational')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RotaryinternationalXs>`
+- `<$RotaryinternationalSm>`
+- `<$RotaryinternationalMd>`
+- `<$RotaryinternationalLg>`
+
+
+
+
 
 ## Rotaryinternational
 

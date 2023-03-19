@@ -17,6 +17,17 @@ include('simpleicons-8/R/Radar')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RadarXs>`
+- `<$RadarSm>`
+- `<$RadarMd>`
+- `<$RadarLg>`
+
+
+
+
 
 ## Radar
 

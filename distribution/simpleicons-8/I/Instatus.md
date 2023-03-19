@@ -17,6 +17,17 @@ include('simpleicons-8/I/Instatus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InstatusXs>`
+- `<$InstatusSm>`
+- `<$InstatusMd>`
+- `<$InstatusLg>`
+
+
+
+
 
 ## Instatus
 

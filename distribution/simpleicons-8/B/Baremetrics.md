@@ -17,6 +17,17 @@ include('simpleicons-8/B/Baremetrics')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BaremetricsXs>`
+- `<$BaremetricsSm>`
+- `<$BaremetricsMd>`
+- `<$BaremetricsLg>`
+
+
+
+
 
 ## Baremetrics
 

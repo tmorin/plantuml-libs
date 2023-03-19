@@ -17,6 +17,17 @@ include('simpleicons-8/L/Linode')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LinodeXs>`
+- `<$LinodeSm>`
+- `<$LinodeMd>`
+- `<$LinodeLg>`
+
+
+
+
 
 ## Linode
 

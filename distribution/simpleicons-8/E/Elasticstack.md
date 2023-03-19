@@ -17,6 +17,17 @@ include('simpleicons-8/E/Elasticstack')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ElasticstackXs>`
+- `<$ElasticstackSm>`
+- `<$ElasticstackMd>`
+- `<$ElasticstackLg>`
+
+
+
+
 
 ## Elasticstack
 

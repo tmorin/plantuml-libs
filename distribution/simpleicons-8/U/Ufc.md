@@ -17,6 +17,17 @@ include('simpleicons-8/U/Ufc')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UfcXs>`
+- `<$UfcSm>`
+- `<$UfcMd>`
+- `<$UfcLg>`
+
+
+
+
 
 ## Ufc
 

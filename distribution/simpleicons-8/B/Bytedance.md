@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bytedance')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BytedanceXs>`
+- `<$BytedanceSm>`
+- `<$BytedanceMd>`
+- `<$BytedanceLg>`
+
+
+
+
 
 ## Bytedance
 

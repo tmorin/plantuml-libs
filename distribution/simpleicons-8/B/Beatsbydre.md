@@ -17,6 +17,17 @@ include('simpleicons-8/B/Beatsbydre')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BeatsbydreXs>`
+- `<$BeatsbydreSm>`
+- `<$BeatsbydreMd>`
+- `<$BeatsbydreLg>`
+
+
+
+
 
 ## Beatsbydre
 

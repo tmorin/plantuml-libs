@@ -17,6 +17,17 @@ include('simpleicons-8/M/Mumble')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MumbleXs>`
+- `<$MumbleSm>`
+- `<$MumbleMd>`
+- `<$MumbleLg>`
+
+
+
+
 
 ## Mumble
 

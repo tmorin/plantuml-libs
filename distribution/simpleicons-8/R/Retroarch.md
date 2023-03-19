@@ -17,6 +17,17 @@ include('simpleicons-8/R/Retroarch')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RetroarchXs>`
+- `<$RetroarchSm>`
+- `<$RetroarchMd>`
+- `<$RetroarchLg>`
+
+
+
+
 
 ## Retroarch
 

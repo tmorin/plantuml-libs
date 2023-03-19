@@ -17,6 +17,17 @@ include('simpleicons-8/E/Etcd')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EtcdXs>`
+- `<$EtcdSm>`
+- `<$EtcdMd>`
+- `<$EtcdLg>`
+
+
+
+
 
 ## Etcd
 

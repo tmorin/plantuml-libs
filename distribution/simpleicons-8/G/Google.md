@@ -17,6 +17,17 @@ include('simpleicons-8/G/Google')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GoogleXs>`
+- `<$GoogleSm>`
+- `<$GoogleMd>`
+- `<$GoogleLg>`
+
+
+
+
 
 ## Google
 

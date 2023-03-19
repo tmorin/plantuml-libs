@@ -17,6 +17,17 @@ include('simpleicons-8/O/Openzeppelin')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OpenzeppelinXs>`
+- `<$OpenzeppelinSm>`
+- `<$OpenzeppelinMd>`
+- `<$OpenzeppelinLg>`
+
+
+
+
 
 ## Openzeppelin
 

@@ -17,6 +17,17 @@ include('simpleicons-8/S/Spinrilla')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SpinrillaXs>`
+- `<$SpinrillaSm>`
+- `<$SpinrillaMd>`
+- `<$SpinrillaLg>`
+
+
+
+
 
 ## Spinrilla
 

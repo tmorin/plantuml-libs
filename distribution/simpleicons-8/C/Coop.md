@@ -17,6 +17,17 @@ include('simpleicons-8/C/Coop')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CoopXs>`
+- `<$CoopSm>`
+- `<$CoopMd>`
+- `<$CoopLg>`
+
+
+
+
 
 ## Coop
 

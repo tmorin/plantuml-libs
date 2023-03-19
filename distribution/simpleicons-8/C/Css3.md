@@ -17,6 +17,17 @@ include('simpleicons-8/C/Css3')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$Css3Xs>`
+- `<$Css3Sm>`
+- `<$Css3Md>`
+- `<$Css3Lg>`
+
+
+
+
 
 ## Css3
 

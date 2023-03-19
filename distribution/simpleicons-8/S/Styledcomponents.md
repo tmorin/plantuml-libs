@@ -17,6 +17,17 @@ include('simpleicons-8/S/Styledcomponents')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StyledcomponentsXs>`
+- `<$StyledcomponentsSm>`
+- `<$StyledcomponentsMd>`
+- `<$StyledcomponentsLg>`
+
+
+
+
 
 ## Styledcomponents
 

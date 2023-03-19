@@ -17,6 +17,17 @@ include('simpleicons-8/C/Chartdotjs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChartdotjsXs>`
+- `<$ChartdotjsSm>`
+- `<$ChartdotjsMd>`
+- `<$ChartdotjsLg>`
+
+
+
+
 
 ## Chartdotjs
 

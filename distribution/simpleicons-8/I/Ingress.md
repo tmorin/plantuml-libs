@@ -17,6 +17,17 @@ include('simpleicons-8/I/Ingress')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IngressXs>`
+- `<$IngressSm>`
+- `<$IngressMd>`
+- `<$IngressLg>`
+
+
+
+
 
 ## Ingress
 

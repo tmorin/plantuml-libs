@@ -17,6 +17,17 @@ include('simpleicons-8/O/Openid')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OpenidXs>`
+- `<$OpenidSm>`
+- `<$OpenidMd>`
+- `<$OpenidLg>`
+
+
+
+
 
 ## Openid
 

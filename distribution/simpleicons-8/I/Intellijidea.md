@@ -17,6 +17,17 @@ include('simpleicons-8/I/Intellijidea')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IntellijideaXs>`
+- `<$IntellijideaSm>`
+- `<$IntellijideaMd>`
+- `<$IntellijideaLg>`
+
+
+
+
 
 ## Intellijidea
 

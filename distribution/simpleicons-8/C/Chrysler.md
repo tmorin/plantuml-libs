@@ -17,6 +17,17 @@ include('simpleicons-8/C/Chrysler')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChryslerXs>`
+- `<$ChryslerSm>`
+- `<$ChryslerMd>`
+- `<$ChryslerLg>`
+
+
+
+
 
 ## Chrysler
 

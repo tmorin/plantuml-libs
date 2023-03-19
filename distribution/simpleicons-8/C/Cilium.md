@@ -17,6 +17,17 @@ include('simpleicons-8/C/Cilium')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CiliumXs>`
+- `<$CiliumSm>`
+- `<$CiliumMd>`
+- `<$CiliumLg>`
+
+
+
+
 
 ## Cilium
 

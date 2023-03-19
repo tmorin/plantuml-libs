@@ -17,6 +17,17 @@ include('simpleicons-8/J/Juke')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JukeXs>`
+- `<$JukeSm>`
+- `<$JukeMd>`
+- `<$JukeLg>`
+
+
+
+
 
 ## Juke
 

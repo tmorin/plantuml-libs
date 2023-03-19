@@ -17,6 +17,17 @@ include('simpleicons-8/F/Framework7')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$Framework7Xs>`
+- `<$Framework7Sm>`
+- `<$Framework7Md>`
+- `<$Framework7Lg>`
+
+
+
+
 
 ## Framework7
 

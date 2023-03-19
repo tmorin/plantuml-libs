@@ -17,6 +17,17 @@ include('simpleicons-8/_/_4Chan')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$_4ChanXs>`
+- `<$_4ChanSm>`
+- `<$_4ChanMd>`
+- `<$_4ChanLg>`
+
+
+
+
 
 ## _4Chan
 

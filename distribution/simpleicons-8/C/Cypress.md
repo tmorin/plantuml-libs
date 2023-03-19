@@ -17,6 +17,17 @@ include('simpleicons-8/C/Cypress')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CypressXs>`
+- `<$CypressSm>`
+- `<$CypressMd>`
+- `<$CypressLg>`
+
+
+
+
 
 ## Cypress
 

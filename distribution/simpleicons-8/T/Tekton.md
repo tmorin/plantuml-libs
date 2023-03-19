@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tekton')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TektonXs>`
+- `<$TektonSm>`
+- `<$TektonMd>`
+- `<$TektonLg>`
+
+
+
+
 
 ## Tekton
 

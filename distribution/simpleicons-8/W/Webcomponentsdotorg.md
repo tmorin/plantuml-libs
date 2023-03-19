@@ -17,6 +17,17 @@ include('simpleicons-8/W/Webcomponentsdotorg')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WebcomponentsdotorgXs>`
+- `<$WebcomponentsdotorgSm>`
+- `<$WebcomponentsdotorgMd>`
+- `<$WebcomponentsdotorgLg>`
+
+
+
+
 
 ## Webcomponentsdotorg
 

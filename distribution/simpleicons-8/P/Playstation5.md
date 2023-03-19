@@ -17,6 +17,17 @@ include('simpleicons-8/P/Playstation5')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$Playstation5Xs>`
+- `<$Playstation5Sm>`
+- `<$Playstation5Md>`
+- `<$Playstation5Lg>`
+
+
+
+
 
 ## Playstation5
 

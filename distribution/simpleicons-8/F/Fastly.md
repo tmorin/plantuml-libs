@@ -17,6 +17,17 @@ include('simpleicons-8/F/Fastly')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FastlyXs>`
+- `<$FastlySm>`
+- `<$FastlyMd>`
+- `<$FastlyLg>`
+
+
+
+
 
 ## Fastly
 

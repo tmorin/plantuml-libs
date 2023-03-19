@@ -17,6 +17,17 @@ include('simpleicons-8/A/Adobe')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AdobeXs>`
+- `<$AdobeSm>`
+- `<$AdobeMd>`
+- `<$AdobeLg>`
+
+
+
+
 
 ## Adobe
 

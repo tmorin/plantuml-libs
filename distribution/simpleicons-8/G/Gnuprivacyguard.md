@@ -17,6 +17,17 @@ include('simpleicons-8/G/Gnuprivacyguard')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GnuprivacyguardXs>`
+- `<$GnuprivacyguardSm>`
+- `<$GnuprivacyguardMd>`
+- `<$GnuprivacyguardLg>`
+
+
+
+
 
 ## Gnuprivacyguard
 

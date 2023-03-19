@@ -17,6 +17,17 @@ include('simpleicons-8/T/Telegram')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TelegramXs>`
+- `<$TelegramSm>`
+- `<$TelegramMd>`
+- `<$TelegramLg>`
+
+
+
+
 
 ## Telegram
 

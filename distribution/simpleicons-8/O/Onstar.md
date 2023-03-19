@@ -17,6 +17,17 @@ include('simpleicons-8/O/Onstar')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OnstarXs>`
+- `<$OnstarSm>`
+- `<$OnstarMd>`
+- `<$OnstarLg>`
+
+
+
+
 
 ## Onstar
 

@@ -17,6 +17,17 @@ include('simpleicons-8/D/Databricks')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DatabricksXs>`
+- `<$DatabricksSm>`
+- `<$DatabricksMd>`
+- `<$DatabricksLg>`
+
+
+
+
 
 ## Databricks
 

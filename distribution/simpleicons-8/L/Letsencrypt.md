@@ -17,6 +17,17 @@ include('simpleicons-8/L/Letsencrypt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LetsencryptXs>`
+- `<$LetsencryptSm>`
+- `<$LetsencryptMd>`
+- `<$LetsencryptLg>`
+
+
+
+
 
 ## Letsencrypt
 

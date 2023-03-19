@@ -17,6 +17,17 @@ include('simpleicons-8/G/Googlephotos')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GooglephotosXs>`
+- `<$GooglephotosSm>`
+- `<$GooglephotosMd>`
+- `<$GooglephotosLg>`
+
+
+
+
 
 ## Googlephotos
 

@@ -17,6 +17,17 @@ include('simpleicons-8/F/Ford')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FordXs>`
+- `<$FordSm>`
+- `<$FordMd>`
+- `<$FordLg>`
+
+
+
+
 
 ## Ford
 

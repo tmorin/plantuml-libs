@@ -17,6 +17,17 @@ include('simpleicons-8/W/Whitesource')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WhitesourceXs>`
+- `<$WhitesourceSm>`
+- `<$WhitesourceMd>`
+- `<$WhitesourceLg>`
+
+
+
+
 
 ## Whitesource
 

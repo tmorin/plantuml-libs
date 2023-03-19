@@ -17,6 +17,17 @@ include('simpleicons-8/P/Primevideo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PrimevideoXs>`
+- `<$PrimevideoSm>`
+- `<$PrimevideoMd>`
+- `<$PrimevideoLg>`
+
+
+
+
 
 ## Primevideo
 

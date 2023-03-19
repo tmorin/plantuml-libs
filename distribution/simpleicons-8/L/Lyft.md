@@ -17,6 +17,17 @@ include('simpleicons-8/L/Lyft')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LyftXs>`
+- `<$LyftSm>`
+- `<$LyftMd>`
+- `<$LyftLg>`
+
+
+
+
 
 ## Lyft
 

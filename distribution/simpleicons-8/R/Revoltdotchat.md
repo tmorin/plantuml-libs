@@ -17,6 +17,17 @@ include('simpleicons-8/R/Revoltdotchat')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RevoltdotchatXs>`
+- `<$RevoltdotchatSm>`
+- `<$RevoltdotchatMd>`
+- `<$RevoltdotchatLg>`
+
+
+
+
 
 ## Revoltdotchat
 

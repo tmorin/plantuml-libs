@@ -17,6 +17,17 @@ include('simpleicons-8/P/Phpstorm')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PhpstormXs>`
+- `<$PhpstormSm>`
+- `<$PhpstormMd>`
+- `<$PhpstormLg>`
+
+
+
+
 
 ## Phpstorm
 

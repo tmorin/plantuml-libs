@@ -17,6 +17,17 @@ include('simpleicons-8/Z/Zomato')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ZomatoXs>`
+- `<$ZomatoSm>`
+- `<$ZomatoMd>`
+- `<$ZomatoLg>`
+
+
+
+
 
 ## Zomato
 

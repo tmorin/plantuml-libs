@@ -17,6 +17,17 @@ include('simpleicons-8/W/Wetransfer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WetransferXs>`
+- `<$WetransferSm>`
+- `<$WetransferMd>`
+- `<$WetransferLg>`
+
+
+
+
 
 ## Wetransfer
 

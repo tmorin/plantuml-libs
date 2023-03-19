@@ -17,6 +17,17 @@ include('simpleicons-8/D/Daimler')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DaimlerXs>`
+- `<$DaimlerSm>`
+- `<$DaimlerMd>`
+- `<$DaimlerLg>`
+
+
+
+
 
 ## Daimler
 

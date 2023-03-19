@@ -17,6 +17,17 @@ include('simpleicons-8/A/Adobedreamweaver')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AdobedreamweaverXs>`
+- `<$AdobedreamweaverSm>`
+- `<$AdobedreamweaverMd>`
+- `<$AdobedreamweaverLg>`
+
+
+
+
 
 ## Adobedreamweaver
 

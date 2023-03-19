@@ -17,6 +17,17 @@ include('simpleicons-8/T/Ted')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TedXs>`
+- `<$TedSm>`
+- `<$TedMd>`
+- `<$TedLg>`
+
+
+
+
 
 ## Ted
 

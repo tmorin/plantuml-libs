@@ -17,6 +17,17 @@ include('simpleicons-8/P/Processwire')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ProcesswireXs>`
+- `<$ProcesswireSm>`
+- `<$ProcesswireMd>`
+- `<$ProcesswireLg>`
+
+
+
+
 
 ## Processwire
 

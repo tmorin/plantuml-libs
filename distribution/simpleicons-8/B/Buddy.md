@@ -17,6 +17,17 @@ include('simpleicons-8/B/Buddy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BuddyXs>`
+- `<$BuddySm>`
+- `<$BuddyMd>`
+- `<$BuddyLg>`
+
+
+
+
 
 ## Buddy
 

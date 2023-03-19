@@ -17,6 +17,17 @@ include('simpleicons-8/D/Dolby')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DolbyXs>`
+- `<$DolbySm>`
+- `<$DolbyMd>`
+- `<$DolbyLg>`
+
+
+
+
 
 ## Dolby
 

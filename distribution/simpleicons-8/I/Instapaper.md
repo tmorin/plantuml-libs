@@ -17,6 +17,17 @@ include('simpleicons-8/I/Instapaper')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InstapaperXs>`
+- `<$InstapaperSm>`
+- `<$InstapaperMd>`
+- `<$InstapaperLg>`
+
+
+
+
 
 ## Instapaper
 

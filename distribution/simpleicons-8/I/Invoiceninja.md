@@ -17,6 +17,17 @@ include('simpleicons-8/I/Invoiceninja')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InvoiceninjaXs>`
+- `<$InvoiceninjaSm>`
+- `<$InvoiceninjaMd>`
+- `<$InvoiceninjaLg>`
+
+
+
+
 
 ## Invoiceninja
 

@@ -17,6 +17,17 @@ include('simpleicons-8/P/Pepsi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PepsiXs>`
+- `<$PepsiSm>`
+- `<$PepsiMd>`
+- `<$PepsiLg>`
+
+
+
+
 
 ## Pepsi
 

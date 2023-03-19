@@ -17,6 +17,17 @@ include('simpleicons-8/L/Liberapay')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LiberapayXs>`
+- `<$LiberapaySm>`
+- `<$LiberapayMd>`
+- `<$LiberapayLg>`
+
+
+
+
 
 ## Liberapay
 

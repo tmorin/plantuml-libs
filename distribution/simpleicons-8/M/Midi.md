@@ -17,6 +17,17 @@ include('simpleicons-8/M/Midi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MidiXs>`
+- `<$MidiSm>`
+- `<$MidiMd>`
+- `<$MidiLg>`
+
+
+
+
 
 ## Midi
 

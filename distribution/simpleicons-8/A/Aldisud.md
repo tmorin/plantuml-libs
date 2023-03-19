@@ -17,6 +17,17 @@ include('simpleicons-8/A/Aldisud')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AldisudXs>`
+- `<$AldisudSm>`
+- `<$AldisudMd>`
+- `<$AldisudLg>`
+
+
+
+
 
 ## Aldisud
 

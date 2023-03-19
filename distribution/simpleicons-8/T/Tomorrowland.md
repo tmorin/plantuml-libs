@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tomorrowland')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TomorrowlandXs>`
+- `<$TomorrowlandSm>`
+- `<$TomorrowlandMd>`
+- `<$TomorrowlandLg>`
+
+
+
+
 
 ## Tomorrowland
 

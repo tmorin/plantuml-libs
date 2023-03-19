@@ -17,6 +17,17 @@ include('simpleicons-8/S/Simkl')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SimklXs>`
+- `<$SimklSm>`
+- `<$SimklMd>`
+- `<$SimklLg>`
+
+
+
+
 
 ## Simkl
 

@@ -17,6 +17,17 @@ include('simpleicons-8/C/Cloud66')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$Cloud66Xs>`
+- `<$Cloud66Sm>`
+- `<$Cloud66Md>`
+- `<$Cloud66Lg>`
+
+
+
+
 
 ## Cloud66
 

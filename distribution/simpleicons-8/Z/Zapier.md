@@ -17,6 +17,17 @@ include('simpleicons-8/Z/Zapier')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ZapierXs>`
+- `<$ZapierSm>`
+- `<$ZapierMd>`
+- `<$ZapierLg>`
+
+
+
+
 
 ## Zapier
 

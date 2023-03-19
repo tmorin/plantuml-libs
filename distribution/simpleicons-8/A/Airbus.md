@@ -17,6 +17,17 @@ include('simpleicons-8/A/Airbus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AirbusXs>`
+- `<$AirbusSm>`
+- `<$AirbusMd>`
+- `<$AirbusLg>`
+
+
+
+
 
 ## Airbus
 

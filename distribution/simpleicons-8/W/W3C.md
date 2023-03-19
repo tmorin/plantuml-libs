@@ -17,6 +17,17 @@ include('simpleicons-8/W/W3C')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$W3CXs>`
+- `<$W3CSm>`
+- `<$W3CMd>`
+- `<$W3CLg>`
+
+
+
+
 
 ## W3C
 

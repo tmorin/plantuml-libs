@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bigbluebutton')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BigbluebuttonXs>`
+- `<$BigbluebuttonSm>`
+- `<$BigbluebuttonMd>`
+- `<$BigbluebuttonLg>`
+
+
+
+
 
 ## Bigbluebutton
 

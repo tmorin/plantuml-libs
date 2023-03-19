@@ -17,6 +17,17 @@ include('simpleicons-8/I/Iheartradio')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IheartradioXs>`
+- `<$IheartradioSm>`
+- `<$IheartradioMd>`
+- `<$IheartradioLg>`
+
+
+
+
 
 ## Iheartradio
 

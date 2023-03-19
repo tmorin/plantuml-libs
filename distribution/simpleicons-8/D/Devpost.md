@@ -17,6 +17,17 @@ include('simpleicons-8/D/Devpost')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DevpostXs>`
+- `<$DevpostSm>`
+- `<$DevpostMd>`
+- `<$DevpostLg>`
+
+
+
+
 
 ## Devpost
 

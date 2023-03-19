@@ -17,6 +17,17 @@ include('simpleicons-8/D/Devexpress')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DevexpressXs>`
+- `<$DevexpressSm>`
+- `<$DevexpressMd>`
+- `<$DevexpressLg>`
+
+
+
+
 
 ## Devexpress
 

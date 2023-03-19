@@ -17,6 +17,17 @@ include('simpleicons-8/S/Sega')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SegaXs>`
+- `<$SegaSm>`
+- `<$SegaMd>`
+- `<$SegaLg>`
+
+
+
+
 
 ## Sega
 

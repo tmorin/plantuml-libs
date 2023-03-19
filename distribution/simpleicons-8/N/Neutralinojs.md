@@ -17,6 +17,17 @@ include('simpleicons-8/N/Neutralinojs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NeutralinojsXs>`
+- `<$NeutralinojsSm>`
+- `<$NeutralinojsMd>`
+- `<$NeutralinojsLg>`
+
+
+
+
 
 ## Neutralinojs
 

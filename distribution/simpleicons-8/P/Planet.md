@@ -17,6 +17,17 @@ include('simpleicons-8/P/Planet')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PlanetXs>`
+- `<$PlanetSm>`
+- `<$PlanetMd>`
+- `<$PlanetLg>`
+
+
+
+
 
 ## Planet
 

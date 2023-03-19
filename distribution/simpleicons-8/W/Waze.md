@@ -17,6 +17,17 @@ include('simpleicons-8/W/Waze')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WazeXs>`
+- `<$WazeSm>`
+- `<$WazeMd>`
+- `<$WazeLg>`
+
+
+
+
 
 ## Waze
 

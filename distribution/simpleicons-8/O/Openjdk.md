@@ -17,6 +17,17 @@ include('simpleicons-8/O/Openjdk')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OpenjdkXs>`
+- `<$OpenjdkSm>`
+- `<$OpenjdkMd>`
+- `<$OpenjdkLg>`
+
+
+
+
 
 ## Openjdk
 

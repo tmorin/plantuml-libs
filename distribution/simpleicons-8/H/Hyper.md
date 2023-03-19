@@ -17,6 +17,17 @@ include('simpleicons-8/H/Hyper')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HyperXs>`
+- `<$HyperSm>`
+- `<$HyperMd>`
+- `<$HyperLg>`
+
+
+
+
 
 ## Hyper
 

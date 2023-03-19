@@ -17,6 +17,17 @@ include('simpleicons-8/C/Cbs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CbsXs>`
+- `<$CbsSm>`
+- `<$CbsMd>`
+- `<$CbsLg>`
+
+
+
+
 
 ## Cbs
 

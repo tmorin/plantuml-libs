@@ -17,6 +17,17 @@ include('simpleicons-8/T/Thewashingtonpost')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ThewashingtonpostXs>`
+- `<$ThewashingtonpostSm>`
+- `<$ThewashingtonpostMd>`
+- `<$ThewashingtonpostLg>`
+
+
+
+
 
 ## Thewashingtonpost
 

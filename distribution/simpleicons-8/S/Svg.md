@@ -17,6 +17,17 @@ include('simpleicons-8/S/Svg')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SvgXs>`
+- `<$SvgSm>`
+- `<$SvgMd>`
+- `<$SvgLg>`
+
+
+
+
 
 ## Svg
 

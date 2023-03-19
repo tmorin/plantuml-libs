@@ -17,6 +17,17 @@ include('simpleicons-8/E/Esea')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EseaXs>`
+- `<$EseaSm>`
+- `<$EseaMd>`
+- `<$EseaLg>`
+
+
+
+
 
 ## Esea
 

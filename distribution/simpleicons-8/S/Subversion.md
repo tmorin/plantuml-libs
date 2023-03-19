@@ -17,6 +17,17 @@ include('simpleicons-8/S/Subversion')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SubversionXs>`
+- `<$SubversionSm>`
+- `<$SubversionMd>`
+- `<$SubversionLg>`
+
+
+
+
 
 ## Subversion
 

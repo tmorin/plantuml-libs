@@ -17,6 +17,17 @@ include('simpleicons-8/G/Gulp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GulpXs>`
+- `<$GulpSm>`
+- `<$GulpMd>`
+- `<$GulpLg>`
+
+
+
+
 
 ## Gulp
 

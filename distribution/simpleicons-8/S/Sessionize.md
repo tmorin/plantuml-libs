@@ -17,6 +17,17 @@ include('simpleicons-8/S/Sessionize')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SessionizeXs>`
+- `<$SessionizeSm>`
+- `<$SessionizeMd>`
+- `<$SessionizeLg>`
+
+
+
+
 
 ## Sessionize
 

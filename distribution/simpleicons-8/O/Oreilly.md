@@ -17,6 +17,17 @@ include('simpleicons-8/O/Oreilly')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OreillyXs>`
+- `<$OreillySm>`
+- `<$OreillyMd>`
+- `<$OreillyLg>`
+
+
+
+
 
 ## Oreilly
 

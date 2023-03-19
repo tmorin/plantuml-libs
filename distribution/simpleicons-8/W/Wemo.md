@@ -17,6 +17,17 @@ include('simpleicons-8/W/Wemo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WemoXs>`
+- `<$WemoSm>`
+- `<$WemoMd>`
+- `<$WemoLg>`
+
+
+
+
 
 ## Wemo
 

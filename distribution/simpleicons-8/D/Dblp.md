@@ -17,6 +17,17 @@ include('simpleicons-8/D/Dblp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DblpXs>`
+- `<$DblpSm>`
+- `<$DblpMd>`
+- `<$DblpLg>`
+
+
+
+
 
 ## Dblp
 

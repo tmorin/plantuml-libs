@@ -17,6 +17,17 @@ include('simpleicons-8/S/Sitepoint')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SitepointXs>`
+- `<$SitepointSm>`
+- `<$SitepointMd>`
+- `<$SitepointLg>`
+
+
+
+
 
 ## Sitepoint
 

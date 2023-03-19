@@ -17,6 +17,17 @@ include('simpleicons-8/C/Curseforge')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CurseforgeXs>`
+- `<$CurseforgeSm>`
+- `<$CurseforgeMd>`
+- `<$CurseforgeLg>`
+
+
+
+
 
 ## Curseforge
 

@@ -17,6 +17,17 @@ include('simpleicons-8/A/Academia')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AcademiaXs>`
+- `<$AcademiaSm>`
+- `<$AcademiaMd>`
+- `<$AcademiaLg>`
+
+
+
+
 
 ## Academia
 

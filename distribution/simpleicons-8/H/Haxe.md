@@ -17,6 +17,17 @@ include('simpleicons-8/H/Haxe')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HaxeXs>`
+- `<$HaxeSm>`
+- `<$HaxeMd>`
+- `<$HaxeLg>`
+
+
+
+
 
 ## Haxe
 

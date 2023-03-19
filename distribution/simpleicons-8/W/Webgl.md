@@ -17,6 +17,17 @@ include('simpleicons-8/W/Webgl')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WebglXs>`
+- `<$WebglSm>`
+- `<$WebglMd>`
+- `<$WebglLg>`
+
+
+
+
 
 ## Webgl
 

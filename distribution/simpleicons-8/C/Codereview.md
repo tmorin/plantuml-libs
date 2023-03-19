@@ -17,6 +17,17 @@ include('simpleicons-8/C/Codereview')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CodereviewXs>`
+- `<$CodereviewSm>`
+- `<$CodereviewMd>`
+- `<$CodereviewLg>`
+
+
+
+
 
 ## Codereview
 

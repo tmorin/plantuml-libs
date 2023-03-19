@@ -17,6 +17,17 @@ include('simpleicons-8/S/Sogou')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SogouXs>`
+- `<$SogouSm>`
+- `<$SogouMd>`
+- `<$SogouLg>`
+
+
+
+
 
 ## Sogou
 

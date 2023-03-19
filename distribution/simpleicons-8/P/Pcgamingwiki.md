@@ -17,6 +17,17 @@ include('simpleicons-8/P/Pcgamingwiki')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PcgamingwikiXs>`
+- `<$PcgamingwikiSm>`
+- `<$PcgamingwikiMd>`
+- `<$PcgamingwikiLg>`
+
+
+
+
 
 ## Pcgamingwiki
 

@@ -17,6 +17,17 @@ include('simpleicons-8/G/Gravatar')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GravatarXs>`
+- `<$GravatarSm>`
+- `<$GravatarMd>`
+- `<$GravatarLg>`
+
+
+
+
 
 ## Gravatar
 

@@ -17,6 +17,17 @@ include('simpleicons-8/A/Applenews')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ApplenewsXs>`
+- `<$ApplenewsSm>`
+- `<$ApplenewsMd>`
+- `<$ApplenewsLg>`
+
+
+
+
 
 ## Applenews
 

@@ -17,6 +17,17 @@ include('simpleicons-8/B/Boardgamegeek')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BoardgamegeekXs>`
+- `<$BoardgamegeekSm>`
+- `<$BoardgamegeekMd>`
+- `<$BoardgamegeekLg>`
+
+
+
+
 
 ## Boardgamegeek
 

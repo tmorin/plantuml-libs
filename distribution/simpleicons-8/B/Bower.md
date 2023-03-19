@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bower')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BowerXs>`
+- `<$BowerSm>`
+- `<$BowerMd>`
+- `<$BowerLg>`
+
+
+
+
 
 ## Bower
 

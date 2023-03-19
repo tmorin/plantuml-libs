@@ -17,6 +17,17 @@ include('simpleicons-8/H/Hackster')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HacksterXs>`
+- `<$HacksterSm>`
+- `<$HacksterMd>`
+- `<$HacksterLg>`
+
+
+
+
 
 ## Hackster
 

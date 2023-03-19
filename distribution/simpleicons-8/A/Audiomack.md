@@ -17,6 +17,17 @@ include('simpleicons-8/A/Audiomack')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AudiomackXs>`
+- `<$AudiomackSm>`
+- `<$AudiomackMd>`
+- `<$AudiomackLg>`
+
+
+
+
 
 ## Audiomack
 

@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tampermonkey')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TampermonkeyXs>`
+- `<$TampermonkeySm>`
+- `<$TampermonkeyMd>`
+- `<$TampermonkeyLg>`
+
+
+
+
 
 ## Tampermonkey
 

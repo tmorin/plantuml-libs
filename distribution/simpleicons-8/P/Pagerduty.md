@@ -17,6 +17,17 @@ include('simpleicons-8/P/Pagerduty')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PagerdutyXs>`
+- `<$PagerdutySm>`
+- `<$PagerdutyMd>`
+- `<$PagerdutyLg>`
+
+
+
+
 
 ## Pagerduty
 

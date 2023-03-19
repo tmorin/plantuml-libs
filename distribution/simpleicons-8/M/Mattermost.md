@@ -17,6 +17,17 @@ include('simpleicons-8/M/Mattermost')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MattermostXs>`
+- `<$MattermostSm>`
+- `<$MattermostMd>`
+- `<$MattermostLg>`
+
+
+
+
 
 ## Mattermost
 

@@ -17,6 +17,17 @@ include('simpleicons-8/T/Trustedshops')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TrustedshopsXs>`
+- `<$TrustedshopsSm>`
+- `<$TrustedshopsMd>`
+- `<$TrustedshopsLg>`
+
+
+
+
 
 ## Trustedshops
 

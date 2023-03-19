@@ -17,6 +17,17 @@ include('simpleicons-8/T/Trulia')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TruliaXs>`
+- `<$TruliaSm>`
+- `<$TruliaMd>`
+- `<$TruliaLg>`
+
+
+
+
 
 ## Trulia
 

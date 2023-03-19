@@ -17,6 +17,17 @@ include('simpleicons-8/P/Perforce')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PerforceXs>`
+- `<$PerforceSm>`
+- `<$PerforceMd>`
+- `<$PerforceLg>`
+
+
+
+
 
 ## Perforce
 

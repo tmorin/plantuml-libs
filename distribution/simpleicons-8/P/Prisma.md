@@ -17,6 +17,17 @@ include('simpleicons-8/P/Prisma')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PrismaXs>`
+- `<$PrismaSm>`
+- `<$PrismaMd>`
+- `<$PrismaLg>`
+
+
+
+
 
 ## Prisma
 

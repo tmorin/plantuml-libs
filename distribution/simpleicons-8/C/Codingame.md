@@ -17,6 +17,17 @@ include('simpleicons-8/C/Codingame')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CodingameXs>`
+- `<$CodingameSm>`
+- `<$CodingameMd>`
+- `<$CodingameLg>`
+
+
+
+
 
 ## Codingame
 

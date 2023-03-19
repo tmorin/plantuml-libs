@@ -17,6 +17,17 @@ include('simpleicons-8/W/Westerndigital')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WesterndigitalXs>`
+- `<$WesterndigitalSm>`
+- `<$WesterndigitalMd>`
+- `<$WesterndigitalLg>`
+
+
+
+
 
 ## Westerndigital
 

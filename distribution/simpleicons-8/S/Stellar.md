@@ -17,6 +17,17 @@ include('simpleicons-8/S/Stellar')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StellarXs>`
+- `<$StellarSm>`
+- `<$StellarMd>`
+- `<$StellarLg>`
+
+
+
+
 
 ## Stellar
 

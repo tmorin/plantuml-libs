@@ -17,6 +17,17 @@ include('simpleicons-8/H/Houdini')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HoudiniXs>`
+- `<$HoudiniSm>`
+- `<$HoudiniMd>`
+- `<$HoudiniLg>`
+
+
+
+
 
 ## Houdini
 

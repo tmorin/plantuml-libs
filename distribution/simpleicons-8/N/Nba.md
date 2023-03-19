@@ -17,6 +17,17 @@ include('simpleicons-8/N/Nba')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NbaXs>`
+- `<$NbaSm>`
+- `<$NbaMd>`
+- `<$NbaLg>`
+
+
+
+
 
 ## Nba
 

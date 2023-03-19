@@ -17,6 +17,17 @@ include('simpleicons-8/M/Macys')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MacysXs>`
+- `<$MacysSm>`
+- `<$MacysMd>`
+- `<$MacysLg>`
+
+
+
+
 
 ## Macys
 

@@ -17,6 +17,17 @@ include('simpleicons-8/P/Protractor')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ProtractorXs>`
+- `<$ProtractorSm>`
+- `<$ProtractorMd>`
+- `<$ProtractorLg>`
+
+
+
+
 
 ## Protractor
 

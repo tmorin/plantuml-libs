@@ -17,6 +17,17 @@ include('simpleicons-8/K/Kibana')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KibanaXs>`
+- `<$KibanaSm>`
+- `<$KibanaMd>`
+- `<$KibanaLg>`
+
+
+
+
 
 ## Kibana
 

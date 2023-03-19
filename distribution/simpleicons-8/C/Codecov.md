@@ -17,6 +17,17 @@ include('simpleicons-8/C/Codecov')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CodecovXs>`
+- `<$CodecovSm>`
+- `<$CodecovMd>`
+- `<$CodecovLg>`
+
+
+
+
 
 ## Codecov
 

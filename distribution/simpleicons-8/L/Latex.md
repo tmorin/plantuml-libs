@@ -17,6 +17,17 @@ include('simpleicons-8/L/Latex')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LatexXs>`
+- `<$LatexSm>`
+- `<$LatexMd>`
+- `<$LatexLg>`
+
+
+
+
 
 ## Latex
 

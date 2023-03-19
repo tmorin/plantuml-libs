@@ -17,6 +17,17 @@ include('simpleicons-8/M/Monica')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MonicaXs>`
+- `<$MonicaSm>`
+- `<$MonicaMd>`
+- `<$MonicaLg>`
+
+
+
+
 
 ## Monica
 

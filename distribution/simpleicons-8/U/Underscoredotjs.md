@@ -17,6 +17,17 @@ include('simpleicons-8/U/Underscoredotjs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UnderscoredotjsXs>`
+- `<$UnderscoredotjsSm>`
+- `<$UnderscoredotjsMd>`
+- `<$UnderscoredotjsLg>`
+
+
+
+
 
 ## Underscoredotjs
 

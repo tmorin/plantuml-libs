@@ -17,6 +17,17 @@ include('simpleicons-8/R/Roamresearch')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RoamresearchXs>`
+- `<$RoamresearchSm>`
+- `<$RoamresearchMd>`
+- `<$RoamresearchLg>`
+
+
+
+
 
 ## Roamresearch
 

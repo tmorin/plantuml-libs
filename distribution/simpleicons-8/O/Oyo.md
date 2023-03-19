@@ -17,6 +17,17 @@ include('simpleicons-8/O/Oyo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OyoXs>`
+- `<$OyoSm>`
+- `<$OyoMd>`
+- `<$OyoLg>`
+
+
+
+
 
 ## Oyo
 

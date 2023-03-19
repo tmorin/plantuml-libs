@@ -17,6 +17,17 @@ include('simpleicons-8/C/Clojure')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ClojureXs>`
+- `<$ClojureSm>`
+- `<$ClojureMd>`
+- `<$ClojureLg>`
+
+
+
+
 
 ## Clojure
 

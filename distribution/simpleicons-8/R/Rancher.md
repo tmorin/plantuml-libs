@@ -17,6 +17,17 @@ include('simpleicons-8/R/Rancher')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RancherXs>`
+- `<$RancherSm>`
+- `<$RancherMd>`
+- `<$RancherLg>`
+
+
+
+
 
 ## Rancher
 

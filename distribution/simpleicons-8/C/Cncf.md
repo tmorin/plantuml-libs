@@ -17,6 +17,17 @@ include('simpleicons-8/C/Cncf')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CncfXs>`
+- `<$CncfSm>`
+- `<$CncfMd>`
+- `<$CncfLg>`
+
+
+
+
 
 ## Cncf
 

@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tunein')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TuneinXs>`
+- `<$TuneinSm>`
+- `<$TuneinMd>`
+- `<$TuneinLg>`
+
+
+
+
 
 ## Tunein
 

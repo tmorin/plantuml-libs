@@ -17,6 +17,17 @@ include('simpleicons-8/R/Ray')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RayXs>`
+- `<$RaySm>`
+- `<$RayMd>`
+- `<$RayLg>`
+
+
+
+
 
 ## Ray
 

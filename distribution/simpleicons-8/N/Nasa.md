@@ -17,6 +17,17 @@ include('simpleicons-8/N/Nasa')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NasaXs>`
+- `<$NasaSm>`
+- `<$NasaMd>`
+- `<$NasaLg>`
+
+
+
+
 
 ## Nasa
 

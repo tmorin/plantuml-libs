@@ -17,6 +17,17 @@ include('simpleicons-8/J/Jasmine')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JasmineXs>`
+- `<$JasmineSm>`
+- `<$JasmineMd>`
+- `<$JasmineLg>`
+
+
+
+
 
 ## Jasmine
 

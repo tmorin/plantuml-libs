@@ -17,6 +17,17 @@ include('simpleicons-8/Z/Zenodo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ZenodoXs>`
+- `<$ZenodoSm>`
+- `<$ZenodoMd>`
+- `<$ZenodoLg>`
+
+
+
+
 
 ## Zenodo
 

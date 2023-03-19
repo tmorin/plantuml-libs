@@ -17,6 +17,17 @@ include('simpleicons-8/A/Airfrance')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AirfranceXs>`
+- `<$AirfranceSm>`
+- `<$AirfranceMd>`
+- `<$AirfranceLg>`
+
+
+
+
 
 ## Airfrance
 

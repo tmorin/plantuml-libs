@@ -17,6 +17,17 @@ include('simpleicons-8/F/Fedora')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FedoraXs>`
+- `<$FedoraSm>`
+- `<$FedoraMd>`
+- `<$FedoraLg>`
+
+
+
+
 
 ## Fedora
 

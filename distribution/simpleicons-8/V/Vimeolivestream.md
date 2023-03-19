@@ -17,6 +17,17 @@ include('simpleicons-8/V/Vimeolivestream')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VimeolivestreamXs>`
+- `<$VimeolivestreamSm>`
+- `<$VimeolivestreamMd>`
+- `<$VimeolivestreamLg>`
+
+
+
+
 
 ## Vimeolivestream
 

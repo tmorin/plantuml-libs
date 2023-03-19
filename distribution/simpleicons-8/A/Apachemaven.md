@@ -17,6 +17,17 @@ include('simpleicons-8/A/Apachemaven')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ApachemavenXs>`
+- `<$ApachemavenSm>`
+- `<$ApachemavenMd>`
+- `<$ApachemavenLg>`
+
+
+
+
 
 ## Apachemaven
 

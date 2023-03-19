@@ -17,6 +17,17 @@ include('simpleicons-8/S/S7Airlines')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$S7AirlinesXs>`
+- `<$S7AirlinesSm>`
+- `<$S7AirlinesMd>`
+- `<$S7AirlinesLg>`
+
+
+
+
 
 ## S7Airlines
 

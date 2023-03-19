@@ -17,6 +17,17 @@ include('simpleicons-8/Y/Youtubemusic')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$YoutubemusicXs>`
+- `<$YoutubemusicSm>`
+- `<$YoutubemusicMd>`
+- `<$YoutubemusicLg>`
+
+
+
+
 
 ## Youtubemusic
 

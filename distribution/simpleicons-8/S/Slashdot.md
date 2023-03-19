@@ -17,6 +17,17 @@ include('simpleicons-8/S/Slashdot')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SlashdotXs>`
+- `<$SlashdotSm>`
+- `<$SlashdotMd>`
+- `<$SlashdotLg>`
+
+
+
+
 
 ## Slashdot
 

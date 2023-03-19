@@ -17,6 +17,17 @@ include('simpleicons-8/V/Vbulletin')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VbulletinXs>`
+- `<$VbulletinSm>`
+- `<$VbulletinMd>`
+- `<$VbulletinLg>`
+
+
+
+
 
 ## Vbulletin
 

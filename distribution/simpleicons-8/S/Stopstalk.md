@@ -17,6 +17,17 @@ include('simpleicons-8/S/Stopstalk')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StopstalkXs>`
+- `<$StopstalkSm>`
+- `<$StopstalkMd>`
+- `<$StopstalkLg>`
+
+
+
+
 
 ## Stopstalk
 

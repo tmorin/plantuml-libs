@@ -17,6 +17,17 @@ include('simpleicons-8/P/Pimcore')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PimcoreXs>`
+- `<$PimcoreSm>`
+- `<$PimcoreMd>`
+- `<$PimcoreLg>`
+
+
+
+
 
 ## Pimcore
 

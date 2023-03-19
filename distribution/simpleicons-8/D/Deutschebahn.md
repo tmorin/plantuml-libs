@@ -17,6 +17,17 @@ include('simpleicons-8/D/Deutschebahn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DeutschebahnXs>`
+- `<$DeutschebahnSm>`
+- `<$DeutschebahnMd>`
+- `<$DeutschebahnLg>`
+
+
+
+
 
 ## Deutschebahn
 

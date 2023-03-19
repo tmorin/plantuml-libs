@@ -17,6 +17,17 @@ include('simpleicons-8/C/Checkmarx')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CheckmarxXs>`
+- `<$CheckmarxSm>`
+- `<$CheckmarxMd>`
+- `<$CheckmarxLg>`
+
+
+
+
 
 ## Checkmarx
 

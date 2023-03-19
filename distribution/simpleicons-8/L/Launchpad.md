@@ -17,6 +17,17 @@ include('simpleicons-8/L/Launchpad')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LaunchpadXs>`
+- `<$LaunchpadSm>`
+- `<$LaunchpadMd>`
+- `<$LaunchpadLg>`
+
+
+
+
 
 ## Launchpad
 

@@ -17,6 +17,17 @@ include('simpleicons-8/C/Caffeine')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CaffeineXs>`
+- `<$CaffeineSm>`
+- `<$CaffeineMd>`
+- `<$CaffeineLg>`
+
+
+
+
 
 ## Caffeine
 

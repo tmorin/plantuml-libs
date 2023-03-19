@@ -17,6 +17,17 @@ include('simpleicons-8/A/Anilist')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AnilistXs>`
+- `<$AnilistSm>`
+- `<$AnilistMd>`
+- `<$AnilistLg>`
+
+
+
+
 
 ## Anilist
 

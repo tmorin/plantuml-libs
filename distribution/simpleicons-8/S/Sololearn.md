@@ -17,6 +17,17 @@ include('simpleicons-8/S/Sololearn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SololearnXs>`
+- `<$SololearnSm>`
+- `<$SololearnMd>`
+- `<$SololearnLg>`
+
+
+
+
 
 ## Sololearn
 

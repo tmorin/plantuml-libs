@@ -17,6 +17,17 @@ include('simpleicons-8/A/Atom')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AtomXs>`
+- `<$AtomSm>`
+- `<$AtomMd>`
+- `<$AtomLg>`
+
+
+
+
 
 ## Atom
 

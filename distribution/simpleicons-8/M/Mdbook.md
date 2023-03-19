@@ -17,6 +17,17 @@ include('simpleicons-8/M/Mdbook')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MdbookXs>`
+- `<$MdbookSm>`
+- `<$MdbookMd>`
+- `<$MdbookLg>`
+
+
+
+
 
 ## Mdbook
 

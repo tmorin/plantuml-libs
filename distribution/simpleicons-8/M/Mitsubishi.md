@@ -17,6 +17,17 @@ include('simpleicons-8/M/Mitsubishi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MitsubishiXs>`
+- `<$MitsubishiSm>`
+- `<$MitsubishiMd>`
+- `<$MitsubishiLg>`
+
+
+
+
 
 ## Mitsubishi
 

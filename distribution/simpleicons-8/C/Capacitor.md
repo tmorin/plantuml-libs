@@ -17,6 +17,17 @@ include('simpleicons-8/C/Capacitor')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CapacitorXs>`
+- `<$CapacitorSm>`
+- `<$CapacitorMd>`
+- `<$CapacitorLg>`
+
+
+
+
 
 ## Capacitor
 

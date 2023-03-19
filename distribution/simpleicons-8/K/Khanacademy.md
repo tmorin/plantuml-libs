@@ -17,6 +17,17 @@ include('simpleicons-8/K/Khanacademy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KhanacademyXs>`
+- `<$KhanacademySm>`
+- `<$KhanacademyMd>`
+- `<$KhanacademyLg>`
+
+
+
+
 
 ## Khanacademy
 

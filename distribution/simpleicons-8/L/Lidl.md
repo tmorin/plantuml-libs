@@ -17,6 +17,17 @@ include('simpleicons-8/L/Lidl')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LidlXs>`
+- `<$LidlSm>`
+- `<$LidlMd>`
+- `<$LidlLg>`
+
+
+
+
 
 ## Lidl
 

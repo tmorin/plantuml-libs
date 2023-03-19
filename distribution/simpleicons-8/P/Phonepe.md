@@ -17,6 +17,17 @@ include('simpleicons-8/P/Phonepe')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PhonepeXs>`
+- `<$PhonepeSm>`
+- `<$PhonepeMd>`
+- `<$PhonepeLg>`
+
+
+
+
 
 ## Phonepe
 

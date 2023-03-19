@@ -17,6 +17,17 @@ include('simpleicons-8/L/Less')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LessXs>`
+- `<$LessSm>`
+- `<$LessMd>`
+- `<$LessLg>`
+
+
+
+
 
 ## Less
 

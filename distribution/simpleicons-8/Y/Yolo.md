@@ -17,6 +17,17 @@ include('simpleicons-8/Y/Yolo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$YoloXs>`
+- `<$YoloSm>`
+- `<$YoloMd>`
+- `<$YoloLg>`
+
+
+
+
 
 ## Yolo
 

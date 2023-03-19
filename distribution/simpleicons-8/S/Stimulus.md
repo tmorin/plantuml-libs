@@ -17,6 +17,17 @@ include('simpleicons-8/S/Stimulus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StimulusXs>`
+- `<$StimulusSm>`
+- `<$StimulusMd>`
+- `<$StimulusLg>`
+
+
+
+
 
 ## Stimulus
 

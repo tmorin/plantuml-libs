@@ -17,6 +17,17 @@ include('simpleicons-8/C/Cloudways')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudwaysXs>`
+- `<$CloudwaysSm>`
+- `<$CloudwaysMd>`
+- `<$CloudwaysLg>`
+
+
+
+
 
 ## Cloudways
 

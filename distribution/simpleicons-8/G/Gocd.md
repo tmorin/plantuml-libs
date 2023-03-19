@@ -17,6 +17,17 @@ include('simpleicons-8/G/Gocd')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GocdXs>`
+- `<$GocdSm>`
+- `<$GocdMd>`
+- `<$GocdLg>`
+
+
+
+
 
 ## Gocd
 

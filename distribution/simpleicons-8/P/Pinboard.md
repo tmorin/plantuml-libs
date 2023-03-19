@@ -17,6 +17,17 @@ include('simpleicons-8/P/Pinboard')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PinboardXs>`
+- `<$PinboardSm>`
+- `<$PinboardMd>`
+- `<$PinboardLg>`
+
+
+
+
 
 ## Pinboard
 

@@ -17,6 +17,17 @@ include('simpleicons-8/P/Pexels')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PexelsXs>`
+- `<$PexelsSm>`
+- `<$PexelsMd>`
+- `<$PexelsLg>`
+
+
+
+
 
 ## Pexels
 

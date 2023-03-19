@@ -17,6 +17,17 @@ include('simpleicons-8/E/Eventstore')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EventstoreXs>`
+- `<$EventstoreSm>`
+- `<$EventstoreMd>`
+- `<$EventstoreLg>`
+
+
+
+
 
 ## Eventstore
 

@@ -17,6 +17,17 @@ include('simpleicons-8/F/Fujifilm')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FujifilmXs>`
+- `<$FujifilmSm>`
+- `<$FujifilmMd>`
+- `<$FujifilmLg>`
+
+
+
+
 
 ## Fujifilm
 

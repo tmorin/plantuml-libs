@@ -17,6 +17,17 @@ include('simpleicons-8/C/Crystal')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CrystalXs>`
+- `<$CrystalSm>`
+- `<$CrystalMd>`
+- `<$CrystalLg>`
+
+
+
+
 
 ## Crystal
 

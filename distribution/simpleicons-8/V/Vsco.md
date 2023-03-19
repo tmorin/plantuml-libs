@@ -17,6 +17,17 @@ include('simpleicons-8/V/Vsco')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VscoXs>`
+- `<$VscoSm>`
+- `<$VscoMd>`
+- `<$VscoLg>`
+
+
+
+
 
 ## Vsco
 

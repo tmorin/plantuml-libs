@@ -17,6 +17,17 @@ include('simpleicons-8/M/Microsofttranslator')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MicrosofttranslatorXs>`
+- `<$MicrosofttranslatorSm>`
+- `<$MicrosofttranslatorMd>`
+- `<$MicrosofttranslatorLg>`
+
+
+
+
 
 ## Microsofttranslator
 

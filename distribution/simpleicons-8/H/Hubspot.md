@@ -17,6 +17,17 @@ include('simpleicons-8/H/Hubspot')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HubspotXs>`
+- `<$HubspotSm>`
+- `<$HubspotMd>`
+- `<$HubspotLg>`
+
+
+
+
 
 ## Hubspot
 

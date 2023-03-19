@@ -17,6 +17,17 @@ include('simpleicons-8/T/Teradata')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TeradataXs>`
+- `<$TeradataSm>`
+- `<$TeradataMd>`
+- `<$TeradataLg>`
+
+
+
+
 
 ## Teradata
 

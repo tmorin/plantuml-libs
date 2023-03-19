@@ -17,6 +17,17 @@ include('simpleicons-8/S/Semanticweb')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SemanticwebXs>`
+- `<$SemanticwebSm>`
+- `<$SemanticwebMd>`
+- `<$SemanticwebLg>`
+
+
+
+
 
 ## Semanticweb
 

@@ -17,6 +17,17 @@ include('simpleicons-8/M/Miro')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MiroXs>`
+- `<$MiroSm>`
+- `<$MiroMd>`
+- `<$MiroLg>`
+
+
+
+
 
 ## Miro
 

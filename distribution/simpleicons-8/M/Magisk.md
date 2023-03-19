@@ -17,6 +17,17 @@ include('simpleicons-8/M/Magisk')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MagiskXs>`
+- `<$MagiskSm>`
+- `<$MagiskMd>`
+- `<$MagiskLg>`
+
+
+
+
 
 ## Magisk
 

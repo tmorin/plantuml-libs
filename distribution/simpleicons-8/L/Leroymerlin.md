@@ -17,6 +17,17 @@ include('simpleicons-8/L/Leroymerlin')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LeroymerlinXs>`
+- `<$LeroymerlinSm>`
+- `<$LeroymerlinMd>`
+- `<$LeroymerlinLg>`
+
+
+
+
 
 ## Leroymerlin
 

@@ -17,6 +17,17 @@ include('simpleicons-8/V/Vlcmediaplayer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VlcmediaplayerXs>`
+- `<$VlcmediaplayerSm>`
+- `<$VlcmediaplayerMd>`
+- `<$VlcmediaplayerLg>`
+
+
+
+
 
 ## Vlcmediaplayer
 

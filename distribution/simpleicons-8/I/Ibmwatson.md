@@ -17,6 +17,17 @@ include('simpleicons-8/I/Ibmwatson')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IbmwatsonXs>`
+- `<$IbmwatsonSm>`
+- `<$IbmwatsonMd>`
+- `<$IbmwatsonLg>`
+
+
+
+
 
 ## Ibmwatson
 

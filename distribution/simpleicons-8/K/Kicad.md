@@ -17,6 +17,17 @@ include('simpleicons-8/K/Kicad')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KicadXs>`
+- `<$KicadSm>`
+- `<$KicadMd>`
+- `<$KicadLg>`
+
+
+
+
 
 ## Kicad
 

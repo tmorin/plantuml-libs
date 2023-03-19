@@ -17,6 +17,17 @@ include('simpleicons-8/S/Scrollreveal')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ScrollrevealXs>`
+- `<$ScrollrevealSm>`
+- `<$ScrollrevealMd>`
+- `<$ScrollrevealLg>`
+
+
+
+
 
 ## Scrollreveal
 

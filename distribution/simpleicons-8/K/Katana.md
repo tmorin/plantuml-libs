@@ -17,6 +17,17 @@ include('simpleicons-8/K/Katana')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KatanaXs>`
+- `<$KatanaSm>`
+- `<$KatanaMd>`
+- `<$KatanaLg>`
+
+
+
+
 
 ## Katana
 

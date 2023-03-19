@@ -17,6 +17,17 @@ include('simpleicons-8/G/Godaddy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GodaddyXs>`
+- `<$GodaddySm>`
+- `<$GodaddyMd>`
+- `<$GodaddyLg>`
+
+
+
+
 
 ## Godaddy
 

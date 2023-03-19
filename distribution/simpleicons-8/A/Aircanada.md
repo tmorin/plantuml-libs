@@ -17,6 +17,17 @@ include('simpleicons-8/A/Aircanada')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AircanadaXs>`
+- `<$AircanadaSm>`
+- `<$AircanadaMd>`
+- `<$AircanadaLg>`
+
+
+
+
 
 ## Aircanada
 

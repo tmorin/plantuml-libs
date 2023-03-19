@@ -17,6 +17,17 @@ include('simpleicons-8/I/Instructables')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InstructablesXs>`
+- `<$InstructablesSm>`
+- `<$InstructablesMd>`
+- `<$InstructablesLg>`
+
+
+
+
 
 ## Instructables
 

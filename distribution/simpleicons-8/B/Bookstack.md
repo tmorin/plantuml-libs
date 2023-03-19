@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bookstack')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BookstackXs>`
+- `<$BookstackSm>`
+- `<$BookstackMd>`
+- `<$BookstackLg>`
+
+
+
+
 
 ## Bookstack
 

@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bbciplayer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BbciplayerXs>`
+- `<$BbciplayerSm>`
+- `<$BbciplayerMd>`
+- `<$BbciplayerLg>`
+
+
+
+
 
 ## Bbciplayer
 

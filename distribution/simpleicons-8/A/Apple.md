@@ -17,6 +17,17 @@ include('simpleicons-8/A/Apple')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AppleXs>`
+- `<$AppleSm>`
+- `<$AppleMd>`
+- `<$AppleLg>`
+
+
+
+
 
 ## Apple
 

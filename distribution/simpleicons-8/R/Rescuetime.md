@@ -17,6 +17,17 @@ include('simpleicons-8/R/Rescuetime')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RescuetimeXs>`
+- `<$RescuetimeSm>`
+- `<$RescuetimeMd>`
+- `<$RescuetimeLg>`
+
+
+
+
 
 ## Rescuetime
 

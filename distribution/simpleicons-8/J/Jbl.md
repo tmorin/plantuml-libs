@@ -17,6 +17,17 @@ include('simpleicons-8/J/Jbl')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JblXs>`
+- `<$JblSm>`
+- `<$JblMd>`
+- `<$JblLg>`
+
+
+
+
 
 ## Jbl
 

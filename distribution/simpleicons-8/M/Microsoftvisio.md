@@ -17,6 +17,17 @@ include('simpleicons-8/M/Microsoftvisio')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MicrosoftvisioXs>`
+- `<$MicrosoftvisioSm>`
+- `<$MicrosoftvisioMd>`
+- `<$MicrosoftvisioLg>`
+
+
+
+
 
 ## Microsoftvisio
 

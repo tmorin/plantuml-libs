@@ -17,6 +17,17 @@ include('simpleicons-8/Z/Zig')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ZigXs>`
+- `<$ZigSm>`
+- `<$ZigMd>`
+- `<$ZigLg>`
+
+
+
+
 
 ## Zig
 

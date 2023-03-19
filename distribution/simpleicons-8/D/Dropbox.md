@@ -17,6 +17,17 @@ include('simpleicons-8/D/Dropbox')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DropboxXs>`
+- `<$DropboxSm>`
+- `<$DropboxMd>`
+- `<$DropboxLg>`
+
+
+
+
 
 ## Dropbox
 

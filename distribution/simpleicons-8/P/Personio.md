@@ -17,6 +17,17 @@ include('simpleicons-8/P/Personio')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PersonioXs>`
+- `<$PersonioSm>`
+- `<$PersonioMd>`
+- `<$PersonioLg>`
+
+
+
+
 
 ## Personio
 

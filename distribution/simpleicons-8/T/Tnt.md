@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tnt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TntXs>`
+- `<$TntSm>`
+- `<$TntMd>`
+- `<$TntLg>`
+
+
+
+
 
 ## Tnt
 

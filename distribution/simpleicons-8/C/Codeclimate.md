@@ -17,6 +17,17 @@ include('simpleicons-8/C/Codeclimate')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CodeclimateXs>`
+- `<$CodeclimateSm>`
+- `<$CodeclimateMd>`
+- `<$CodeclimateLg>`
+
+
+
+
 
 ## Codeclimate
 

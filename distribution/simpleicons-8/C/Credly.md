@@ -17,6 +17,17 @@ include('simpleicons-8/C/Credly')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CredlyXs>`
+- `<$CredlySm>`
+- `<$CredlyMd>`
+- `<$CredlyLg>`
+
+
+
+
 
 ## Credly
 

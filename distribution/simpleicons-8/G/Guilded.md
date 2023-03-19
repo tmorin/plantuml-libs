@@ -17,6 +17,17 @@ include('simpleicons-8/G/Guilded')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GuildedXs>`
+- `<$GuildedSm>`
+- `<$GuildedMd>`
+- `<$GuildedLg>`
+
+
+
+
 
 ## Guilded
 

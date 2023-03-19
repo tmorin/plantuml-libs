@@ -17,6 +17,17 @@ include('simpleicons-8/P/Pixabay')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PixabayXs>`
+- `<$PixabaySm>`
+- `<$PixabayMd>`
+- `<$PixabayLg>`
+
+
+
+
 
 ## Pixabay
 

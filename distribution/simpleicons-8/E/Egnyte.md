@@ -17,6 +17,17 @@ include('simpleicons-8/E/Egnyte')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EgnyteXs>`
+- `<$EgnyteSm>`
+- `<$EgnyteMd>`
+- `<$EgnyteLg>`
+
+
+
+
 
 ## Egnyte
 

@@ -17,6 +17,17 @@ include('simpleicons-8/H/Hey')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HeyXs>`
+- `<$HeySm>`
+- `<$HeyMd>`
+- `<$HeyLg>`
+
+
+
+
 
 ## Hey
 

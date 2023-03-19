@@ -17,6 +17,17 @@ include('simpleicons-8/D/Dassaultsystemes')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DassaultsystemesXs>`
+- `<$DassaultsystemesSm>`
+- `<$DassaultsystemesMd>`
+- `<$DassaultsystemesLg>`
+
+
+
+
 
 ## Dassaultsystemes
 

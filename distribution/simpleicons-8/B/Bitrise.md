@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bitrise')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BitriseXs>`
+- `<$BitriseSm>`
+- `<$BitriseMd>`
+- `<$BitriseLg>`
+
+
+
+
 
 ## Bitrise
 

@@ -17,6 +17,17 @@ include('simpleicons-8/G/Googlecardboard')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GooglecardboardXs>`
+- `<$GooglecardboardSm>`
+- `<$GooglecardboardMd>`
+- `<$GooglecardboardLg>`
+
+
+
+
 
 ## Googlecardboard
 

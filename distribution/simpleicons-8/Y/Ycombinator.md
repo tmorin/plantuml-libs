@@ -17,6 +17,17 @@ include('simpleicons-8/Y/Ycombinator')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$YcombinatorXs>`
+- `<$YcombinatorSm>`
+- `<$YcombinatorMd>`
+- `<$YcombinatorLg>`
+
+
+
+
 
 ## Ycombinator
 

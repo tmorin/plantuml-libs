@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tsnode')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TsnodeXs>`
+- `<$TsnodeSm>`
+- `<$TsnodeMd>`
+- `<$TsnodeLg>`
+
+
+
+
 
 ## Tsnode
 

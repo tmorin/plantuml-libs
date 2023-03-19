@@ -17,6 +17,17 @@ include('simpleicons-8/E/Eljueves')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EljuevesXs>`
+- `<$EljuevesSm>`
+- `<$EljuevesMd>`
+- `<$EljuevesLg>`
+
+
+
+
 
 ## Eljueves
 

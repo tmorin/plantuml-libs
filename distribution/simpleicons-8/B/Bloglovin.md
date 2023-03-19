@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bloglovin')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BloglovinXs>`
+- `<$BloglovinSm>`
+- `<$BloglovinMd>`
+- `<$BloglovinLg>`
+
+
+
+
 
 ## Bloglovin
 

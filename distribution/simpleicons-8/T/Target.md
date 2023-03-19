@@ -17,6 +17,17 @@ include('simpleicons-8/T/Target')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TargetXs>`
+- `<$TargetSm>`
+- `<$TargetMd>`
+- `<$TargetLg>`
+
+
+
+
 
 ## Target
 

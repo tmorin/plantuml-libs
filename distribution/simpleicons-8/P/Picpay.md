@@ -17,6 +17,17 @@ include('simpleicons-8/P/Picpay')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PicpayXs>`
+- `<$PicpaySm>`
+- `<$PicpayMd>`
+- `<$PicpayLg>`
+
+
+
+
 
 ## Picpay
 

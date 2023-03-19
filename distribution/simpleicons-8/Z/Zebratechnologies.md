@@ -17,6 +17,17 @@ include('simpleicons-8/Z/Zebratechnologies')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ZebratechnologiesXs>`
+- `<$ZebratechnologiesSm>`
+- `<$ZebratechnologiesMd>`
+- `<$ZebratechnologiesLg>`
+
+
+
+
 
 ## Zebratechnologies
 

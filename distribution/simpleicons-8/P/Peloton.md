@@ -17,6 +17,17 @@ include('simpleicons-8/P/Peloton')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PelotonXs>`
+- `<$PelotonSm>`
+- `<$PelotonMd>`
+- `<$PelotonLg>`
+
+
+
+
 
 ## Peloton
 

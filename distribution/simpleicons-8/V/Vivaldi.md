@@ -17,6 +17,17 @@ include('simpleicons-8/V/Vivaldi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VivaldiXs>`
+- `<$VivaldiSm>`
+- `<$VivaldiMd>`
+- `<$VivaldiLg>`
+
+
+
+
 
 ## Vivaldi
 

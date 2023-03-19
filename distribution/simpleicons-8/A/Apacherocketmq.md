@@ -17,6 +17,17 @@ include('simpleicons-8/A/Apacherocketmq')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ApacherocketmqXs>`
+- `<$ApacherocketmqSm>`
+- `<$ApacherocketmqMd>`
+- `<$ApacherocketmqLg>`
+
+
+
+
 
 ## Apacherocketmq
 

@@ -17,6 +17,17 @@ include('simpleicons-8/A/Aral')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AralXs>`
+- `<$AralSm>`
+- `<$AralMd>`
+- `<$AralLg>`
+
+
+
+
 
 ## Aral
 

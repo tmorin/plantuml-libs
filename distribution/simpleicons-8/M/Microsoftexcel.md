@@ -17,6 +17,17 @@ include('simpleicons-8/M/Microsoftexcel')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MicrosoftexcelXs>`
+- `<$MicrosoftexcelSm>`
+- `<$MicrosoftexcelMd>`
+- `<$MicrosoftexcelLg>`
+
+
+
+
 
 ## Microsoftexcel
 

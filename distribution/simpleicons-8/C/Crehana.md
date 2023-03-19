@@ -17,6 +17,17 @@ include('simpleicons-8/C/Crehana')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CrehanaXs>`
+- `<$CrehanaSm>`
+- `<$CrehanaMd>`
+- `<$CrehanaLg>`
+
+
+
+
 
 ## Crehana
 

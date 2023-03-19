@@ -17,6 +17,17 @@ include('simpleicons-8/G/Grunt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GruntXs>`
+- `<$GruntSm>`
+- `<$GruntMd>`
+- `<$GruntLg>`
+
+
+
+
 
 ## Grunt
 

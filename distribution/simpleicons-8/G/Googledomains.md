@@ -17,6 +17,17 @@ include('simpleicons-8/G/Googledomains')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GoogledomainsXs>`
+- `<$GoogledomainsSm>`
+- `<$GoogledomainsMd>`
+- `<$GoogledomainsLg>`
+
+
+
+
 
 ## Googledomains
 

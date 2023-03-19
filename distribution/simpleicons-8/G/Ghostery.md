@@ -17,6 +17,17 @@ include('simpleicons-8/G/Ghostery')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GhosteryXs>`
+- `<$GhosterySm>`
+- `<$GhosteryMd>`
+- `<$GhosteryLg>`
+
+
+
+
 
 ## Ghostery
 

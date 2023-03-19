@@ -17,6 +17,17 @@ include('simpleicons-8/T/Trakt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TraktXs>`
+- `<$TraktSm>`
+- `<$TraktMd>`
+- `<$TraktLg>`
+
+
+
+
 
 ## Trakt
 

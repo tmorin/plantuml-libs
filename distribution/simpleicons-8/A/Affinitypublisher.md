@@ -17,6 +17,17 @@ include('simpleicons-8/A/Affinitypublisher')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AffinitypublisherXs>`
+- `<$AffinitypublisherSm>`
+- `<$AffinitypublisherMd>`
+- `<$AffinitypublisherLg>`
+
+
+
+
 
 ## Affinitypublisher
 

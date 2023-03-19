@@ -17,6 +17,17 @@ include('simpleicons-8/F/Foxtel')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FoxtelXs>`
+- `<$FoxtelSm>`
+- `<$FoxtelMd>`
+- `<$FoxtelLg>`
+
+
+
+
 
 ## Foxtel
 

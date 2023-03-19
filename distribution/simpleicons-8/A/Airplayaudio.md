@@ -17,6 +17,17 @@ include('simpleicons-8/A/Airplayaudio')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AirplayaudioXs>`
+- `<$AirplayaudioSm>`
+- `<$AirplayaudioMd>`
+- `<$AirplayaudioLg>`
+
+
+
+
 
 ## Airplayaudio
 

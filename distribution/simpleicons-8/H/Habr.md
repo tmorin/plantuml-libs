@@ -17,6 +17,17 @@ include('simpleicons-8/H/Habr')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HabrXs>`
+- `<$HabrSm>`
+- `<$HabrMd>`
+- `<$HabrLg>`
+
+
+
+
 
 ## Habr
 

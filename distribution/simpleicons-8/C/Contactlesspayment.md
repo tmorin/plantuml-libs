@@ -17,6 +17,17 @@ include('simpleicons-8/C/Contactlesspayment')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ContactlesspaymentXs>`
+- `<$ContactlesspaymentSm>`
+- `<$ContactlesspaymentMd>`
+- `<$ContactlesspaymentLg>`
+
+
+
+
 
 ## Contactlesspayment
 

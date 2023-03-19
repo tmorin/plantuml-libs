@@ -17,6 +17,17 @@ include('simpleicons-8/L/Lastpass')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LastpassXs>`
+- `<$LastpassSm>`
+- `<$LastpassMd>`
+- `<$LastpassLg>`
+
+
+
+
 
 ## Lastpass
 

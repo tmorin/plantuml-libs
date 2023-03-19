@@ -17,6 +17,17 @@ include('simpleicons-8/O/Openaccess')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OpenaccessXs>`
+- `<$OpenaccessSm>`
+- `<$OpenaccessMd>`
+- `<$OpenaccessLg>`
+
+
+
+
 
 ## Openaccess
 

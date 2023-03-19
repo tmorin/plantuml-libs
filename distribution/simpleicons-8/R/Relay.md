@@ -17,6 +17,17 @@ include('simpleicons-8/R/Relay')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RelayXs>`
+- `<$RelaySm>`
+- `<$RelayMd>`
+- `<$RelayLg>`
+
+
+
+
 
 ## Relay
 

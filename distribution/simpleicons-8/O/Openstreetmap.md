@@ -17,6 +17,17 @@ include('simpleicons-8/O/Openstreetmap')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OpenstreetmapXs>`
+- `<$OpenstreetmapSm>`
+- `<$OpenstreetmapMd>`
+- `<$OpenstreetmapLg>`
+
+
+
+
 
 ## Openstreetmap
 

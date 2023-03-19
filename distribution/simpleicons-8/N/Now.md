@@ -17,6 +17,17 @@ include('simpleicons-8/N/Now')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NowXs>`
+- `<$NowSm>`
+- `<$NowMd>`
+- `<$NowLg>`
+
+
+
+
 
 ## Now
 

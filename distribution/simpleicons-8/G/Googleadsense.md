@@ -17,6 +17,17 @@ include('simpleicons-8/G/Googleadsense')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GoogleadsenseXs>`
+- `<$GoogleadsenseSm>`
+- `<$GoogleadsenseMd>`
+- `<$GoogleadsenseLg>`
+
+
+
+
 
 ## Googleadsense
 

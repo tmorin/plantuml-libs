@@ -17,6 +17,17 @@ include('simpleicons-8/R/Rsocket')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RsocketXs>`
+- `<$RsocketSm>`
+- `<$RsocketMd>`
+- `<$RsocketLg>`
+
+
+
+
 
 ## Rsocket
 

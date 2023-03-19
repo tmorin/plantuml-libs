@@ -17,6 +17,17 @@ include('simpleicons-8/A/Aerospike')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AerospikeXs>`
+- `<$AerospikeSm>`
+- `<$AerospikeMd>`
+- `<$AerospikeLg>`
+
+
+
+
 
 ## Aerospike
 

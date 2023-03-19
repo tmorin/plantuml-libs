@@ -17,6 +17,17 @@ include('simpleicons-8/I/Infosys')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InfosysXs>`
+- `<$InfosysSm>`
+- `<$InfosysMd>`
+- `<$InfosysLg>`
+
+
+
+
 
 ## Infosys
 

@@ -17,6 +17,17 @@ include('simpleicons-8/T/Turborepo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TurborepoXs>`
+- `<$TurborepoSm>`
+- `<$TurborepoMd>`
+- `<$TurborepoLg>`
+
+
+
+
 
 ## Turborepo
 

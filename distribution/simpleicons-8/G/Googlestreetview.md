@@ -17,6 +17,17 @@ include('simpleicons-8/G/Googlestreetview')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GooglestreetviewXs>`
+- `<$GooglestreetviewSm>`
+- `<$GooglestreetviewMd>`
+- `<$GooglestreetviewLg>`
+
+
+
+
 
 ## Googlestreetview
 

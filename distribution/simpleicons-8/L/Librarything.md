@@ -17,6 +17,17 @@ include('simpleicons-8/L/Librarything')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LibrarythingXs>`
+- `<$LibrarythingSm>`
+- `<$LibrarythingMd>`
+- `<$LibrarythingLg>`
+
+
+
+
 
 ## Librarything
 

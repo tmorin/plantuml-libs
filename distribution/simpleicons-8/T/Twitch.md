@@ -17,6 +17,17 @@ include('simpleicons-8/T/Twitch')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TwitchXs>`
+- `<$TwitchSm>`
+- `<$TwitchMd>`
+- `<$TwitchLg>`
+
+
+
+
 
 ## Twitch
 

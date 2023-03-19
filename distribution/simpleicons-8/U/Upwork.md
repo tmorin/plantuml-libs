@@ -17,6 +17,17 @@ include('simpleicons-8/U/Upwork')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UpworkXs>`
+- `<$UpworkSm>`
+- `<$UpworkMd>`
+- `<$UpworkLg>`
+
+
+
+
 
 ## Upwork
 

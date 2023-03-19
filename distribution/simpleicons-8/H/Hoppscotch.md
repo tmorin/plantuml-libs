@@ -17,6 +17,17 @@ include('simpleicons-8/H/Hoppscotch')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HoppscotchXs>`
+- `<$HoppscotchSm>`
+- `<$HoppscotchMd>`
+- `<$HoppscotchLg>`
+
+
+
+
 
 ## Hoppscotch
 

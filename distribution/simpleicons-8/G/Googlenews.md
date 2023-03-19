@@ -17,6 +17,17 @@ include('simpleicons-8/G/Googlenews')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GooglenewsXs>`
+- `<$GooglenewsSm>`
+- `<$GooglenewsMd>`
+- `<$GooglenewsLg>`
+
+
+
+
 
 ## Googlenews
 

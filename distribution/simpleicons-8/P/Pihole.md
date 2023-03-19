@@ -17,6 +17,17 @@ include('simpleicons-8/P/Pihole')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PiholeXs>`
+- `<$PiholeSm>`
+- `<$PiholeMd>`
+- `<$PiholeLg>`
+
+
+
+
 
 ## Pihole
 

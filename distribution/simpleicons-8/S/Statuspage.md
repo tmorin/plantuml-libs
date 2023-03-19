@@ -17,6 +17,17 @@ include('simpleicons-8/S/Statuspage')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StatuspageXs>`
+- `<$StatuspageSm>`
+- `<$StatuspageMd>`
+- `<$StatuspageLg>`
+
+
+
+
 
 ## Statuspage
 

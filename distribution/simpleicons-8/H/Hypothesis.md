@@ -17,6 +17,17 @@ include('simpleicons-8/H/Hypothesis')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HypothesisXs>`
+- `<$HypothesisSm>`
+- `<$HypothesisMd>`
+- `<$HypothesisLg>`
+
+
+
+
 
 ## Hypothesis
 

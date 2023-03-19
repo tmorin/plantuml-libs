@@ -17,6 +17,17 @@ include('simpleicons-8/Z/Zotero')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ZoteroXs>`
+- `<$ZoteroSm>`
+- `<$ZoteroMd>`
+- `<$ZoteroLg>`
+
+
+
+
 
 ## Zotero
 

@@ -17,6 +17,17 @@ include('simpleicons-8/U/Upcloud')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UpcloudXs>`
+- `<$UpcloudSm>`
+- `<$UpcloudMd>`
+- `<$UpcloudLg>`
+
+
+
+
 
 ## Upcloud
 

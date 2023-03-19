@@ -17,6 +17,17 @@ include('simpleicons-8/R/Ripple')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RippleXs>`
+- `<$RippleSm>`
+- `<$RippleMd>`
+- `<$RippleLg>`
+
+
+
+
 
 ## Ripple
 

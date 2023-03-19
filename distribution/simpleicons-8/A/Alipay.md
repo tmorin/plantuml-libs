@@ -17,6 +17,17 @@ include('simpleicons-8/A/Alipay')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AlipayXs>`
+- `<$AlipaySm>`
+- `<$AlipayMd>`
+- `<$AlipayLg>`
+
+
+
+
 
 ## Alipay
 

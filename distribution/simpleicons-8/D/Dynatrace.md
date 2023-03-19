@@ -17,6 +17,17 @@ include('simpleicons-8/D/Dynatrace')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DynatraceXs>`
+- `<$DynatraceSm>`
+- `<$DynatraceMd>`
+- `<$DynatraceLg>`
+
+
+
+
 
 ## Dynatrace
 

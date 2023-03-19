@@ -17,6 +17,17 @@ include('simpleicons-8/G/Googleearth')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GoogleearthXs>`
+- `<$GoogleearthSm>`
+- `<$GoogleearthMd>`
+- `<$GoogleearthLg>`
+
+
+
+
 
 ## Googleearth
 

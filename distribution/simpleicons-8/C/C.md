@@ -17,6 +17,17 @@ include('simpleicons-8/C/C')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CXs>`
+- `<$CSm>`
+- `<$CMd>`
+- `<$CLg>`
+
+
+
+
 
 ## C
 

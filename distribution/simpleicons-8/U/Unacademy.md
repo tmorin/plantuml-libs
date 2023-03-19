@@ -17,6 +17,17 @@ include('simpleicons-8/U/Unacademy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UnacademyXs>`
+- `<$UnacademySm>`
+- `<$UnacademyMd>`
+- `<$UnacademyLg>`
+
+
+
+
 
 ## Unacademy
 

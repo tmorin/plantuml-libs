@@ -17,6 +17,17 @@ include('simpleicons-8/I/Insomnia')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InsomniaXs>`
+- `<$InsomniaSm>`
+- `<$InsomniaMd>`
+- `<$InsomniaLg>`
+
+
+
+
 
 ## Insomnia
 

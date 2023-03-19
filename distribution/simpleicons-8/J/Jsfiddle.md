@@ -17,6 +17,17 @@ include('simpleicons-8/J/Jsfiddle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JsfiddleXs>`
+- `<$JsfiddleSm>`
+- `<$JsfiddleMd>`
+- `<$JsfiddleLg>`
+
+
+
+
 
 ## Jsfiddle
 

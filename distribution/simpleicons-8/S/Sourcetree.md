@@ -17,6 +17,17 @@ include('simpleicons-8/S/Sourcetree')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SourcetreeXs>`
+- `<$SourcetreeSm>`
+- `<$SourcetreeMd>`
+- `<$SourcetreeLg>`
+
+
+
+
 
 ## Sourcetree
 

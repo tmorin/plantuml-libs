@@ -17,6 +17,17 @@ include('simpleicons-8/P/Pagseguro')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PagseguroXs>`
+- `<$PagseguroSm>`
+- `<$PagseguroMd>`
+- `<$PagseguroLg>`
+
+
+
+
 
 ## Pagseguro
 

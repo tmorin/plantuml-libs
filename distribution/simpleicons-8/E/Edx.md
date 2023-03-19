@@ -17,6 +17,17 @@ include('simpleicons-8/E/Edx')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EdxXs>`
+- `<$EdxSm>`
+- `<$EdxMd>`
+- `<$EdxLg>`
+
+
+
+
 
 ## Edx
 

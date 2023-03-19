@@ -17,6 +17,17 @@ include('simpleicons-8/F/Fsecure')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FsecureXs>`
+- `<$FsecureSm>`
+- `<$FsecureMd>`
+- `<$FsecureLg>`
+
+
+
+
 
 ## Fsecure
 

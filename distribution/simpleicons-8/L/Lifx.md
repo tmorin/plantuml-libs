@@ -17,6 +17,17 @@ include('simpleicons-8/L/Lifx')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LifxXs>`
+- `<$LifxSm>`
+- `<$LifxMd>`
+- `<$LifxLg>`
+
+
+
+
 
 ## Lifx
 

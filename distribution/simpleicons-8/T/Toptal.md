@@ -17,6 +17,17 @@ include('simpleicons-8/T/Toptal')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ToptalXs>`
+- `<$ToptalSm>`
+- `<$ToptalMd>`
+- `<$ToptalLg>`
+
+
+
+
 
 ## Toptal
 

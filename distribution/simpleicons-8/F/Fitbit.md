@@ -17,6 +17,17 @@ include('simpleicons-8/F/Fitbit')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FitbitXs>`
+- `<$FitbitSm>`
+- `<$FitbitMd>`
+- `<$FitbitLg>`
+
+
+
+
 
 ## Fitbit
 

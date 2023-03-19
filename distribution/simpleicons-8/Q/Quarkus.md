@@ -17,6 +17,17 @@ include('simpleicons-8/Q/Quarkus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$QuarkusXs>`
+- `<$QuarkusSm>`
+- `<$QuarkusMd>`
+- `<$QuarkusLg>`
+
+
+
+
 
 ## Quarkus
 

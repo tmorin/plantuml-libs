@@ -17,6 +17,17 @@ include('simpleicons-8/L/Linuxcontainers')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LinuxcontainersXs>`
+- `<$LinuxcontainersSm>`
+- `<$LinuxcontainersMd>`
+- `<$LinuxcontainersLg>`
+
+
+
+
 
 ## Linuxcontainers
 

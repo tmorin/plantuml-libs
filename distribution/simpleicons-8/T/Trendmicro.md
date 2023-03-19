@@ -17,6 +17,17 @@ include('simpleicons-8/T/Trendmicro')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TrendmicroXs>`
+- `<$TrendmicroSm>`
+- `<$TrendmicroMd>`
+- `<$TrendmicroLg>`
+
+
+
+
 
 ## Trendmicro
 

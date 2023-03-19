@@ -17,6 +17,17 @@ include('simpleicons-8/S/Semver')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SemverXs>`
+- `<$SemverSm>`
+- `<$SemverMd>`
+- `<$SemverLg>`
+
+
+
+
 
 ## Semver
 

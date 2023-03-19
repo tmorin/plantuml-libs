@@ -17,6 +17,17 @@ include('simpleicons-8/Z/Zazzle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ZazzleXs>`
+- `<$ZazzleSm>`
+- `<$ZazzleMd>`
+- `<$ZazzleLg>`
+
+
+
+
 
 ## Zazzle
 

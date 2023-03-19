@@ -17,6 +17,17 @@ include('simpleicons-8/F/Fastapi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FastapiXs>`
+- `<$FastapiSm>`
+- `<$FastapiMd>`
+- `<$FastapiLg>`
+
+
+
+
 
 ## Fastapi
 

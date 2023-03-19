@@ -17,6 +17,17 @@ include('simpleicons-8/S/Sepa')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SepaXs>`
+- `<$SepaSm>`
+- `<$SepaMd>`
+- `<$SepaLg>`
+
+
+
+
 
 ## Sepa
 

@@ -17,6 +17,17 @@ include('simpleicons-8/M/Mlflow')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MlflowXs>`
+- `<$MlflowSm>`
+- `<$MlflowMd>`
+- `<$MlflowLg>`
+
+
+
+
 
 ## Mlflow
 

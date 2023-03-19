@@ -17,6 +17,17 @@ include('simpleicons-8/S/Songkick')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SongkickXs>`
+- `<$SongkickSm>`
+- `<$SongkickMd>`
+- `<$SongkickLg>`
+
+
+
+
 
 ## Songkick
 

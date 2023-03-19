@@ -17,6 +17,17 @@ include('simpleicons-8/D/Drooble')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DroobleXs>`
+- `<$DroobleSm>`
+- `<$DroobleMd>`
+- `<$DroobleLg>`
+
+
+
+
 
 ## Drooble
 

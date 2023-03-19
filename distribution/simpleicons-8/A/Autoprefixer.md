@@ -17,6 +17,17 @@ include('simpleicons-8/A/Autoprefixer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AutoprefixerXs>`
+- `<$AutoprefixerSm>`
+- `<$AutoprefixerMd>`
+- `<$AutoprefixerLg>`
+
+
+
+
 
 ## Autoprefixer
 

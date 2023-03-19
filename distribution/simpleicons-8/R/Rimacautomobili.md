@@ -17,6 +17,17 @@ include('simpleicons-8/R/Rimacautomobili')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RimacautomobiliXs>`
+- `<$RimacautomobiliSm>`
+- `<$RimacautomobiliMd>`
+- `<$RimacautomobiliLg>`
+
+
+
+
 
 ## Rimacautomobili
 

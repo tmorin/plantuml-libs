@@ -17,6 +17,17 @@ include('simpleicons-8/G/Googlepay')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GooglepayXs>`
+- `<$GooglepaySm>`
+- `<$GooglepayMd>`
+- `<$GooglepayLg>`
+
+
+
+
 
 ## Googlepay
 

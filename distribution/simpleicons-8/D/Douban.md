@@ -17,6 +17,17 @@ include('simpleicons-8/D/Douban')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DoubanXs>`
+- `<$DoubanSm>`
+- `<$DoubanMd>`
+- `<$DoubanLg>`
+
+
+
+
 
 ## Douban
 

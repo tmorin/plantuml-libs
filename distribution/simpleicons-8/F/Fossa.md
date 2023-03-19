@@ -17,6 +17,17 @@ include('simpleicons-8/F/Fossa')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FossaXs>`
+- `<$FossaSm>`
+- `<$FossaMd>`
+- `<$FossaLg>`
+
+
+
+
 
 ## Fossa
 

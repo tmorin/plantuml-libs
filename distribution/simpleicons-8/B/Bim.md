@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bim')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BimXs>`
+- `<$BimSm>`
+- `<$BimMd>`
+- `<$BimLg>`
+
+
+
+
 
 ## Bim
 

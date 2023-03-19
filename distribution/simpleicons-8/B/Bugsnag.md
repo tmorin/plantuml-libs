@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bugsnag')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BugsnagXs>`
+- `<$BugsnagSm>`
+- `<$BugsnagMd>`
+- `<$BugsnagLg>`
+
+
+
+
 
 ## Bugsnag
 

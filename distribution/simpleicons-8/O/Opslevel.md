@@ -17,6 +17,17 @@ include('simpleicons-8/O/Opslevel')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OpslevelXs>`
+- `<$OpslevelSm>`
+- `<$OpslevelMd>`
+- `<$OpslevelLg>`
+
+
+
+
 
 ## Opslevel
 

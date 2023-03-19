@@ -17,6 +17,17 @@ include('simpleicons-8/S/Sonarcloud')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SonarcloudXs>`
+- `<$SonarcloudSm>`
+- `<$SonarcloudMd>`
+- `<$SonarcloudLg>`
+
+
+
+
 
 ## Sonarcloud
 

@@ -17,6 +17,17 @@ include('simpleicons-8/S/Slack')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SlackXs>`
+- `<$SlackSm>`
+- `<$SlackMd>`
+- `<$SlackLg>`
+
+
+
+
 
 ## Slack
 

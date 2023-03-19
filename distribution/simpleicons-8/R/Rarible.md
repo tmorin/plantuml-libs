@@ -17,6 +17,17 @@ include('simpleicons-8/R/Rarible')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RaribleXs>`
+- `<$RaribleSm>`
+- `<$RaribleMd>`
+- `<$RaribleLg>`
+
+
+
+
 
 ## Rarible
 

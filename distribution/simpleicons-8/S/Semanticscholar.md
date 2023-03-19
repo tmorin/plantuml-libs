@@ -17,6 +17,17 @@ include('simpleicons-8/S/Semanticscholar')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SemanticscholarXs>`
+- `<$SemanticscholarSm>`
+- `<$SemanticscholarMd>`
+- `<$SemanticscholarLg>`
+
+
+
+
 
 ## Semanticscholar
 

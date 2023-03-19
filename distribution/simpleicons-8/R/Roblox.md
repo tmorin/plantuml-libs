@@ -17,6 +17,17 @@ include('simpleicons-8/R/Roblox')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RobloxXs>`
+- `<$RobloxSm>`
+- `<$RobloxMd>`
+- `<$RobloxLg>`
+
+
+
+
 
 ## Roblox
 

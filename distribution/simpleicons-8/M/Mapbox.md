@@ -17,6 +17,17 @@ include('simpleicons-8/M/Mapbox')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MapboxXs>`
+- `<$MapboxSm>`
+- `<$MapboxMd>`
+- `<$MapboxLg>`
+
+
+
+
 
 ## Mapbox
 

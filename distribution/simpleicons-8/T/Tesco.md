@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tesco')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TescoXs>`
+- `<$TescoSm>`
+- `<$TescoMd>`
+- `<$TescoLg>`
+
+
+
+
 
 ## Tesco
 

@@ -17,6 +17,17 @@ include('simpleicons-8/A/Abletonlive')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AbletonliveXs>`
+- `<$AbletonliveSm>`
+- `<$AbletonliveMd>`
+- `<$AbletonliveLg>`
+
+
+
+
 
 ## Abletonlive
 

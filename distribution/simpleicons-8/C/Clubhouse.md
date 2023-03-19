@@ -17,6 +17,17 @@ include('simpleicons-8/C/Clubhouse')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ClubhouseXs>`
+- `<$ClubhouseSm>`
+- `<$ClubhouseMd>`
+- `<$ClubhouseLg>`
+
+
+
+
 
 ## Clubhouse
 

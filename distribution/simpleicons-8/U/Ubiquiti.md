@@ -17,6 +17,17 @@ include('simpleicons-8/U/Ubiquiti')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UbiquitiXs>`
+- `<$UbiquitiSm>`
+- `<$UbiquitiMd>`
+- `<$UbiquitiLg>`
+
+
+
+
 
 ## Ubiquiti
 

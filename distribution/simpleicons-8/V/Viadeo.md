@@ -17,6 +17,17 @@ include('simpleicons-8/V/Viadeo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ViadeoXs>`
+- `<$ViadeoSm>`
+- `<$ViadeoMd>`
+- `<$ViadeoLg>`
+
+
+
+
 
 ## Viadeo
 

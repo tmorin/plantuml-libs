@@ -17,6 +17,17 @@ include('simpleicons-8/N/Nodedotjs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NodedotjsXs>`
+- `<$NodedotjsSm>`
+- `<$NodedotjsMd>`
+- `<$NodedotjsLg>`
+
+
+
+
 
 ## Nodedotjs
 

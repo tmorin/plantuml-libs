@@ -17,6 +17,17 @@ include('simpleicons-8/A/Amul')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmulXs>`
+- `<$AmulSm>`
+- `<$AmulMd>`
+- `<$AmulLg>`
+
+
+
+
 
 ## Amul
 

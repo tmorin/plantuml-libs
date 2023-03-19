@@ -17,6 +17,17 @@ include('simpleicons-8/P/Producthunt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ProducthuntXs>`
+- `<$ProducthuntSm>`
+- `<$ProducthuntMd>`
+- `<$ProducthuntLg>`
+
+
+
+
 
 ## Producthunt
 

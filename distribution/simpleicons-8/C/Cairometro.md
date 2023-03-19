@@ -17,6 +17,17 @@ include('simpleicons-8/C/Cairometro')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CairometroXs>`
+- `<$CairometroSm>`
+- `<$CairometroMd>`
+- `<$CairometroLg>`
+
+
+
+
 
 ## Cairometro
 

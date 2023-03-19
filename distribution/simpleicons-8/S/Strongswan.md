@@ -17,6 +17,17 @@ include('simpleicons-8/S/Strongswan')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StrongswanXs>`
+- `<$StrongswanSm>`
+- `<$StrongswanMd>`
+- `<$StrongswanLg>`
+
+
+
+
 
 ## Strongswan
 

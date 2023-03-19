@@ -17,6 +17,17 @@ include('simpleicons-8/V/Vonage')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VonageXs>`
+- `<$VonageSm>`
+- `<$VonageMd>`
+- `<$VonageLg>`
+
+
+
+
 
 ## Vonage
 

@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tile')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TileXs>`
+- `<$TileSm>`
+- `<$TileMd>`
+- `<$TileLg>`
+
+
+
+
 
 ## Tile
 

@@ -17,6 +17,17 @@ include('simpleicons-8/L/Logstash')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LogstashXs>`
+- `<$LogstashSm>`
+- `<$LogstashMd>`
+- `<$LogstashLg>`
+
+
+
+
 
 ## Logstash
 

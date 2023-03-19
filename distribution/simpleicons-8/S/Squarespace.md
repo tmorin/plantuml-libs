@@ -17,6 +17,17 @@ include('simpleicons-8/S/Squarespace')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquarespaceXs>`
+- `<$SquarespaceSm>`
+- `<$SquarespaceMd>`
+- `<$SquarespaceLg>`
+
+
+
+
 
 ## Squarespace
 

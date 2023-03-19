@@ -17,6 +17,17 @@ include('simpleicons-8/C/Chinaeasternairlines')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChinaeasternairlinesXs>`
+- `<$ChinaeasternairlinesSm>`
+- `<$ChinaeasternairlinesMd>`
+- `<$ChinaeasternairlinesLg>`
+
+
+
+
 
 ## Chinaeasternairlines
 

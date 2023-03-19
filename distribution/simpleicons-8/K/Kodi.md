@@ -17,6 +17,17 @@ include('simpleicons-8/K/Kodi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KodiXs>`
+- `<$KodiSm>`
+- `<$KodiMd>`
+- `<$KodiLg>`
+
+
+
+
 
 ## Kodi
 

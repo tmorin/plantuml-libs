@@ -17,6 +17,17 @@ include('simpleicons-8/C/Codingninjas')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CodingninjasXs>`
+- `<$CodingninjasSm>`
+- `<$CodingninjasMd>`
+- `<$CodingninjasLg>`
+
+
+
+
 
 ## Codingninjas
 

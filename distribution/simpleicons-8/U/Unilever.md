@@ -17,6 +17,17 @@ include('simpleicons-8/U/Unilever')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UnileverXs>`
+- `<$UnileverSm>`
+- `<$UnileverMd>`
+- `<$UnileverLg>`
+
+
+
+
 
 ## Unilever
 

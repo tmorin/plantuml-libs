@@ -17,6 +17,17 @@ include('simpleicons-8/F/Frontendmentor')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FrontendmentorXs>`
+- `<$FrontendmentorSm>`
+- `<$FrontendmentorMd>`
+- `<$FrontendmentorLg>`
+
+
+
+
 
 ## Frontendmentor
 

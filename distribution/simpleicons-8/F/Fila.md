@@ -17,6 +17,17 @@ include('simpleicons-8/F/Fila')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FilaXs>`
+- `<$FilaSm>`
+- `<$FilaMd>`
+- `<$FilaLg>`
+
+
+
+
 
 ## Fila
 

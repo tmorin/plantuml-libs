@@ -17,6 +17,17 @@ include('simpleicons-8/A/Appstore')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AppstoreXs>`
+- `<$AppstoreSm>`
+- `<$AppstoreMd>`
+- `<$AppstoreLg>`
+
+
+
+
 
 ## Appstore
 

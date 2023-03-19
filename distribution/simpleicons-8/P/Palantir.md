@@ -17,6 +17,17 @@ include('simpleicons-8/P/Palantir')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PalantirXs>`
+- `<$PalantirSm>`
+- `<$PalantirMd>`
+- `<$PalantirLg>`
+
+
+
+
 
 ## Palantir
 

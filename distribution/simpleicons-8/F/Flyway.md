@@ -17,6 +17,17 @@ include('simpleicons-8/F/Flyway')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FlywayXs>`
+- `<$FlywaySm>`
+- `<$FlywayMd>`
+- `<$FlywayLg>`
+
+
+
+
 
 ## Flyway
 

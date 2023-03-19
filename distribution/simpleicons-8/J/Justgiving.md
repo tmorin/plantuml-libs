@@ -17,6 +17,17 @@ include('simpleicons-8/J/Justgiving')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JustgivingXs>`
+- `<$JustgivingSm>`
+- `<$JustgivingMd>`
+- `<$JustgivingLg>`
+
+
+
+
 
 ## Justgiving
 

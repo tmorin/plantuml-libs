@@ -17,6 +17,17 @@ include('simpleicons-8/W/Webdriverio')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WebdriverioXs>`
+- `<$WebdriverioSm>`
+- `<$WebdriverioMd>`
+- `<$WebdriverioLg>`
+
+
+
+
 
 ## Webdriverio
 

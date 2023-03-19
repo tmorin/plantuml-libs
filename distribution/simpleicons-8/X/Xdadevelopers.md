@@ -17,6 +17,17 @@ include('simpleicons-8/X/Xdadevelopers')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$XdadevelopersXs>`
+- `<$XdadevelopersSm>`
+- `<$XdadevelopersMd>`
+- `<$XdadevelopersLg>`
+
+
+
+
 
 ## Xdadevelopers
 

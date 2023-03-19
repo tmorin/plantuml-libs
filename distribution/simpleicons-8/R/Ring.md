@@ -17,6 +17,17 @@ include('simpleicons-8/R/Ring')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RingXs>`
+- `<$RingSm>`
+- `<$RingMd>`
+- `<$RingLg>`
+
+
+
+
 
 ## Ring
 

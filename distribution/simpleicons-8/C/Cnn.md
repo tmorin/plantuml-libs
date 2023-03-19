@@ -17,6 +17,17 @@ include('simpleicons-8/C/Cnn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CnnXs>`
+- `<$CnnSm>`
+- `<$CnnMd>`
+- `<$CnnLg>`
+
+
+
+
 
 ## Cnn
 

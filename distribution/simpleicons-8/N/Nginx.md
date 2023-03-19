@@ -17,6 +17,17 @@ include('simpleicons-8/N/Nginx')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NginxXs>`
+- `<$NginxSm>`
+- `<$NginxMd>`
+- `<$NginxLg>`
+
+
+
+
 
 ## Nginx
 

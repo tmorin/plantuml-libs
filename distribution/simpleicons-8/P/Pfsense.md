@@ -17,6 +17,17 @@ include('simpleicons-8/P/Pfsense')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PfsenseXs>`
+- `<$PfsenseSm>`
+- `<$PfsenseMd>`
+- `<$PfsenseLg>`
+
+
+
+
 
 ## Pfsense
 

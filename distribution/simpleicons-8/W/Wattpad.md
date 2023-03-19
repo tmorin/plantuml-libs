@@ -17,6 +17,17 @@ include('simpleicons-8/W/Wattpad')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WattpadXs>`
+- `<$WattpadSm>`
+- `<$WattpadMd>`
+- `<$WattpadLg>`
+
+
+
+
 
 ## Wattpad
 

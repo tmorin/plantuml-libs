@@ -17,6 +17,17 @@ include('simpleicons-8/S/Socialblade')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SocialbladeXs>`
+- `<$SocialbladeSm>`
+- `<$SocialbladeMd>`
+- `<$SocialbladeLg>`
+
+
+
+
 
 ## Socialblade
 

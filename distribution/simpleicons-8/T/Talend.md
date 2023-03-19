@@ -17,6 +17,17 @@ include('simpleicons-8/T/Talend')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TalendXs>`
+- `<$TalendSm>`
+- `<$TalendMd>`
+- `<$TalendLg>`
+
+
+
+
 
 ## Talend
 

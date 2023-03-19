@@ -17,6 +17,17 @@ include('simpleicons-8/M/Mtr')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MtrXs>`
+- `<$MtrSm>`
+- `<$MtrMd>`
+- `<$MtrLg>`
+
+
+
+
 
 ## Mtr
 

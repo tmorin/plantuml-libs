@@ -17,6 +17,17 @@ include('simpleicons-8/M/Moo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MooXs>`
+- `<$MooSm>`
+- `<$MooMd>`
+- `<$MooLg>`
+
+
+
+
 
 ## Moo
 

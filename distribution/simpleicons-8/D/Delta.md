@@ -17,6 +17,17 @@ include('simpleicons-8/D/Delta')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DeltaXs>`
+- `<$DeltaSm>`
+- `<$DeltaMd>`
+- `<$DeltaLg>`
+
+
+
+
 
 ## Delta
 

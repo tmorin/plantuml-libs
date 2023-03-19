@@ -17,6 +17,17 @@ include('simpleicons-8/H/Hootsuite')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HootsuiteXs>`
+- `<$HootsuiteSm>`
+- `<$HootsuiteMd>`
+- `<$HootsuiteLg>`
+
+
+
+
 
 ## Hootsuite
 

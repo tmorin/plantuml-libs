@@ -17,6 +17,17 @@ include('simpleicons-8/C/Carto')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CartoXs>`
+- `<$CartoSm>`
+- `<$CartoMd>`
+- `<$CartoLg>`
+
+
+
+
 
 ## Carto
 

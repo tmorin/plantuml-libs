@@ -17,6 +17,17 @@ include('simpleicons-8/R/Rewe')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ReweXs>`
+- `<$ReweSm>`
+- `<$ReweMd>`
+- `<$ReweLg>`
+
+
+
+
 
 ## Rewe
 

@@ -17,6 +17,17 @@ include('simpleicons-8/P/Plex')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PlexXs>`
+- `<$PlexSm>`
+- `<$PlexMd>`
+- `<$PlexLg>`
+
+
+
+
 
 ## Plex
 

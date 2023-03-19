@@ -17,6 +17,17 @@ include('simpleicons-8/A/Arlo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ArloXs>`
+- `<$ArloSm>`
+- `<$ArloMd>`
+- `<$ArloLg>`
+
+
+
+
 
 ## Arlo
 

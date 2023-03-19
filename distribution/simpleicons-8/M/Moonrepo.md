@@ -17,6 +17,17 @@ include('simpleicons-8/M/Moonrepo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MoonrepoXs>`
+- `<$MoonrepoSm>`
+- `<$MoonrepoMd>`
+- `<$MoonrepoLg>`
+
+
+
+
 
 ## Moonrepo
 

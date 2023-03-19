@@ -17,6 +17,17 @@ include('simpleicons-8/L/Lamborghini')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LamborghiniXs>`
+- `<$LamborghiniSm>`
+- `<$LamborghiniMd>`
+- `<$LamborghiniLg>`
+
+
+
+
 
 ## Lamborghini
 

@@ -17,6 +17,17 @@ include('simpleicons-8/F/Freelancer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FreelancerXs>`
+- `<$FreelancerSm>`
+- `<$FreelancerMd>`
+- `<$FreelancerLg>`
+
+
+
+
 
 ## Freelancer
 

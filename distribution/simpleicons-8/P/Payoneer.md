@@ -17,6 +17,17 @@ include('simpleicons-8/P/Payoneer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PayoneerXs>`
+- `<$PayoneerSm>`
+- `<$PayoneerMd>`
+- `<$PayoneerLg>`
+
+
+
+
 
 ## Payoneer
 

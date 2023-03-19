@@ -17,6 +17,17 @@ include('simpleicons-8/B/Beats')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BeatsXs>`
+- `<$BeatsSm>`
+- `<$BeatsMd>`
+- `<$BeatsLg>`
+
+
+
+
 
 ## Beats
 

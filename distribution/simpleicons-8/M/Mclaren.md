@@ -17,6 +17,17 @@ include('simpleicons-8/M/Mclaren')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MclarenXs>`
+- `<$MclarenSm>`
+- `<$MclarenMd>`
+- `<$MclarenLg>`
+
+
+
+
 
 ## Mclaren
 

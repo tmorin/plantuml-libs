@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tablecheck')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TablecheckXs>`
+- `<$TablecheckSm>`
+- `<$TablecheckMd>`
+- `<$TablecheckLg>`
+
+
+
+
 
 ## Tablecheck
 

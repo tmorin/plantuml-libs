@@ -17,6 +17,17 @@ include('simpleicons-8/W/Webmoney')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WebmoneyXs>`
+- `<$WebmoneySm>`
+- `<$WebmoneyMd>`
+- `<$WebmoneyLg>`
+
+
+
+
 
 ## Webmoney
 

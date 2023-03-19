@@ -17,6 +17,17 @@ include('simpleicons-8/G/Googlemybusiness')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GooglemybusinessXs>`
+- `<$GooglemybusinessSm>`
+- `<$GooglemybusinessMd>`
+- `<$GooglemybusinessLg>`
+
+
+
+
 
 ## Googlemybusiness
 

@@ -17,6 +17,17 @@ include('simpleicons-8/P/Plurk')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PlurkXs>`
+- `<$PlurkSm>`
+- `<$PlurkMd>`
+- `<$PlurkLg>`
+
+
+
+
 
 ## Plurk
 

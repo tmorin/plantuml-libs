@@ -17,6 +17,17 @@ include('simpleicons-8/D/Datocms')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DatocmsXs>`
+- `<$DatocmsSm>`
+- `<$DatocmsMd>`
+- `<$DatocmsLg>`
+
+
+
+
 
 ## Datocms
 

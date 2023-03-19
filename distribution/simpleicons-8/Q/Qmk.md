@@ -17,6 +17,17 @@ include('simpleicons-8/Q/Qmk')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$QmkXs>`
+- `<$QmkSm>`
+- `<$QmkMd>`
+- `<$QmkLg>`
+
+
+
+
 
 ## Qmk
 

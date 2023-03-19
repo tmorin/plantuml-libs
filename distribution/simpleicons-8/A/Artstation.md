@@ -17,6 +17,17 @@ include('simpleicons-8/A/Artstation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ArtstationXs>`
+- `<$ArtstationSm>`
+- `<$ArtstationMd>`
+- `<$ArtstationLg>`
+
+
+
+
 
 ## Artstation
 

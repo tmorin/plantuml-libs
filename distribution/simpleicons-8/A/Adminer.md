@@ -17,6 +17,17 @@ include('simpleicons-8/A/Adminer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AdminerXs>`
+- `<$AdminerSm>`
+- `<$AdminerMd>`
+- `<$AdminerLg>`
+
+
+
+
 
 ## Adminer
 

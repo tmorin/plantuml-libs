@@ -17,6 +17,17 @@ include('simpleicons-8/N/Nodemon')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NodemonXs>`
+- `<$NodemonSm>`
+- `<$NodemonMd>`
+- `<$NodemonLg>`
+
+
+
+
 
 ## Nodemon
 

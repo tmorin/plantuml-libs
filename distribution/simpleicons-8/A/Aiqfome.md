@@ -17,6 +17,17 @@ include('simpleicons-8/A/Aiqfome')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AiqfomeXs>`
+- `<$AiqfomeSm>`
+- `<$AiqfomeMd>`
+- `<$AiqfomeLg>`
+
+
+
+
 
 ## Aiqfome
 

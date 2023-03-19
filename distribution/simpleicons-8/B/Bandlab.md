@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bandlab')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BandlabXs>`
+- `<$BandlabSm>`
+- `<$BandlabMd>`
+- `<$BandlabLg>`
+
+
+
+
 
 ## Bandlab
 

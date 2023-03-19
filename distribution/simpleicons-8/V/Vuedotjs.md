@@ -17,6 +17,17 @@ include('simpleicons-8/V/Vuedotjs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VuedotjsXs>`
+- `<$VuedotjsSm>`
+- `<$VuedotjsMd>`
+- `<$VuedotjsLg>`
+
+
+
+
 
 ## Vuedotjs
 

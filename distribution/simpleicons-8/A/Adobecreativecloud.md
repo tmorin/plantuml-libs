@@ -17,6 +17,17 @@ include('simpleicons-8/A/Adobecreativecloud')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AdobecreativecloudXs>`
+- `<$AdobecreativecloudSm>`
+- `<$AdobecreativecloudMd>`
+- `<$AdobecreativecloudLg>`
+
+
+
+
 
 ## Adobecreativecloud
 

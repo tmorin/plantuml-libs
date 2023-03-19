@@ -17,6 +17,17 @@ include('simpleicons-8/M/Medium')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MediumXs>`
+- `<$MediumSm>`
+- `<$MediumMd>`
+- `<$MediumLg>`
+
+
+
+
 
 ## Medium
 

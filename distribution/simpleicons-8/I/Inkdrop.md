@@ -17,6 +17,17 @@ include('simpleicons-8/I/Inkdrop')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InkdropXs>`
+- `<$InkdropSm>`
+- `<$InkdropMd>`
+- `<$InkdropLg>`
+
+
+
+
 
 ## Inkdrop
 

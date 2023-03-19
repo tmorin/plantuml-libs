@@ -17,6 +17,17 @@ include('simpleicons-8/M/Microsoftexchange')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MicrosoftexchangeXs>`
+- `<$MicrosoftexchangeSm>`
+- `<$MicrosoftexchangeMd>`
+- `<$MicrosoftexchangeLg>`
+
+
+
+
 
 ## Microsoftexchange
 

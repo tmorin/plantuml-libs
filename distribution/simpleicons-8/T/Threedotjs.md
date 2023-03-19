@@ -17,6 +17,17 @@ include('simpleicons-8/T/Threedotjs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ThreedotjsXs>`
+- `<$ThreedotjsSm>`
+- `<$ThreedotjsMd>`
+- `<$ThreedotjsLg>`
+
+
+
+
 
 ## Threedotjs
 

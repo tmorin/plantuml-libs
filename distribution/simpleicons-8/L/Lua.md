@@ -17,6 +17,17 @@ include('simpleicons-8/L/Lua')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LuaXs>`
+- `<$LuaSm>`
+- `<$LuaMd>`
+- `<$LuaLg>`
+
+
+
+
 
 ## Lua
 

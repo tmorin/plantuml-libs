@@ -17,6 +17,17 @@ include('simpleicons-8/K/Known')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KnownXs>`
+- `<$KnownSm>`
+- `<$KnownMd>`
+- `<$KnownLg>`
+
+
+
+
 
 ## Known
 

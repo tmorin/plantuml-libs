@@ -17,6 +17,17 @@ include('simpleicons-8/B/Britishairways')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BritishairwaysXs>`
+- `<$BritishairwaysSm>`
+- `<$BritishairwaysMd>`
+- `<$BritishairwaysLg>`
+
+
+
+
 
 ## Britishairways
 

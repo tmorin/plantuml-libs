@@ -17,6 +17,17 @@ include('simpleicons-8/Y/Youtubestudio')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$YoutubestudioXs>`
+- `<$YoutubestudioSm>`
+- `<$YoutubestudioMd>`
+- `<$YoutubestudioLg>`
+
+
+
+
 
 ## Youtubestudio
 

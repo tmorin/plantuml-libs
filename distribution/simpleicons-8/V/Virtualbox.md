@@ -17,6 +17,17 @@ include('simpleicons-8/V/Virtualbox')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VirtualboxXs>`
+- `<$VirtualboxSm>`
+- `<$VirtualboxMd>`
+- `<$VirtualboxLg>`
+
+
+
+
 
 ## Virtualbox
 

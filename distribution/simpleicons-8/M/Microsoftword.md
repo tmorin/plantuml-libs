@@ -17,6 +17,17 @@ include('simpleicons-8/M/Microsoftword')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MicrosoftwordXs>`
+- `<$MicrosoftwordSm>`
+- `<$MicrosoftwordMd>`
+- `<$MicrosoftwordLg>`
+
+
+
+
 
 ## Microsoftword
 

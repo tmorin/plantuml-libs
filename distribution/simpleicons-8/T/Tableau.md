@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tableau')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TableauXs>`
+- `<$TableauSm>`
+- `<$TableauMd>`
+- `<$TableauLg>`
+
+
+
+
 
 ## Tableau
 

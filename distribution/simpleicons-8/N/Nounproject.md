@@ -17,6 +17,17 @@ include('simpleicons-8/N/Nounproject')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NounprojectXs>`
+- `<$NounprojectSm>`
+- `<$NounprojectMd>`
+- `<$NounprojectLg>`
+
+
+
+
 
 ## Nounproject
 

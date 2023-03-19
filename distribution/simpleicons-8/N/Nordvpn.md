@@ -17,6 +17,17 @@ include('simpleicons-8/N/Nordvpn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NordvpnXs>`
+- `<$NordvpnSm>`
+- `<$NordvpnMd>`
+- `<$NordvpnLg>`
+
+
+
+
 
 ## Nordvpn
 

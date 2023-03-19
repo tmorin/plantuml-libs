@@ -17,6 +17,17 @@ include('simpleicons-8/Q/Quickbooks')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$QuickbooksXs>`
+- `<$QuickbooksSm>`
+- `<$QuickbooksMd>`
+- `<$QuickbooksLg>`
+
+
+
+
 
 ## Quickbooks
 

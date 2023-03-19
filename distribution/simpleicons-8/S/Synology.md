@@ -17,6 +17,17 @@ include('simpleicons-8/S/Synology')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SynologyXs>`
+- `<$SynologySm>`
+- `<$SynologyMd>`
+- `<$SynologyLg>`
+
+
+
+
 
 ## Synology
 

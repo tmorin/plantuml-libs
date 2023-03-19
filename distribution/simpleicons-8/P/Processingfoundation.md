@@ -17,6 +17,17 @@ include('simpleicons-8/P/Processingfoundation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ProcessingfoundationXs>`
+- `<$ProcessingfoundationSm>`
+- `<$ProcessingfoundationMd>`
+- `<$ProcessingfoundationLg>`
+
+
+
+
 
 ## Processingfoundation
 

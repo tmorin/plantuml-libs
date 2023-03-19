@@ -17,6 +17,17 @@ include('simpleicons-8/C/Cinema4D')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$Cinema4DXs>`
+- `<$Cinema4DSm>`
+- `<$Cinema4DMd>`
+- `<$Cinema4DLg>`
+
+
+
+
 
 ## Cinema4D
 

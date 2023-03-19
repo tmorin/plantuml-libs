@@ -17,6 +17,17 @@ include('simpleicons-8/A/Adyen')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AdyenXs>`
+- `<$AdyenSm>`
+- `<$AdyenMd>`
+- `<$AdyenLg>`
+
+
+
+
 
 ## Adyen
 

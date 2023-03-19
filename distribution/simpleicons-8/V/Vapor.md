@@ -17,6 +17,17 @@ include('simpleicons-8/V/Vapor')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VaporXs>`
+- `<$VaporSm>`
+- `<$VaporMd>`
+- `<$VaporLg>`
+
+
+
+
 
 ## Vapor
 

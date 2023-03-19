@@ -17,6 +17,17 @@ include('simpleicons-8/P/Pycharm')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PycharmXs>`
+- `<$PycharmSm>`
+- `<$PycharmMd>`
+- `<$PycharmLg>`
+
+
+
+
 
 ## Pycharm
 

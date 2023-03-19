@@ -17,6 +17,17 @@ include('simpleicons-8/C/Checkio')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CheckioXs>`
+- `<$CheckioSm>`
+- `<$CheckioMd>`
+- `<$CheckioLg>`
+
+
+
+
 
 ## Checkio
 

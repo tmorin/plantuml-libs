@@ -17,6 +17,17 @@ include('simpleicons-8/K/Kong')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KongXs>`
+- `<$KongSm>`
+- `<$KongMd>`
+- `<$KongLg>`
+
+
+
+
 
 ## Kong
 

@@ -17,6 +17,17 @@ include('simpleicons-8/J/Jabber')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JabberXs>`
+- `<$JabberSm>`
+- `<$JabberMd>`
+- `<$JabberLg>`
+
+
+
+
 
 ## Jabber
 

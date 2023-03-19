@@ -17,6 +17,17 @@ include('simpleicons-8/I/I18Next')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$I18NextXs>`
+- `<$I18NextSm>`
+- `<$I18NextMd>`
+- `<$I18NextLg>`
+
+
+
+
 
 ## I18Next
 

@@ -17,6 +17,17 @@ include('simpleicons-8/A/Airasia')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AirasiaXs>`
+- `<$AirasiaSm>`
+- `<$AirasiaMd>`
+- `<$AirasiaLg>`
+
+
+
+
 
 ## Airasia
 

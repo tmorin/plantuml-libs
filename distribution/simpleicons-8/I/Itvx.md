@@ -17,6 +17,17 @@ include('simpleicons-8/I/Itvx')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ItvxXs>`
+- `<$ItvxSm>`
+- `<$ItvxMd>`
+- `<$ItvxLg>`
+
+
+
+
 
 ## Itvx
 

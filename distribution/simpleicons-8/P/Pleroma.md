@@ -17,6 +17,17 @@ include('simpleicons-8/P/Pleroma')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PleromaXs>`
+- `<$PleromaSm>`
+- `<$PleromaMd>`
+- `<$PleromaLg>`
+
+
+
+
 
 ## Pleroma
 

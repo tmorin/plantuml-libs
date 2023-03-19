@@ -17,6 +17,17 @@ include('simpleicons-8/G/Glitch')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GlitchXs>`
+- `<$GlitchSm>`
+- `<$GlitchMd>`
+- `<$GlitchLg>`
+
+
+
+
 
 ## Glitch
 

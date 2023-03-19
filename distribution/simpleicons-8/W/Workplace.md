@@ -17,6 +17,17 @@ include('simpleicons-8/W/Workplace')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WorkplaceXs>`
+- `<$WorkplaceSm>`
+- `<$WorkplaceMd>`
+- `<$WorkplaceLg>`
+
+
+
+
 
 ## Workplace
 

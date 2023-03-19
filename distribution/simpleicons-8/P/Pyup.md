@@ -17,6 +17,17 @@ include('simpleicons-8/P/Pyup')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PyupXs>`
+- `<$PyupSm>`
+- `<$PyupMd>`
+- `<$PyupLg>`
+
+
+
+
 
 ## Pyup
 

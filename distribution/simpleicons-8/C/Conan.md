@@ -17,6 +17,17 @@ include('simpleicons-8/C/Conan')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ConanXs>`
+- `<$ConanSm>`
+- `<$ConanMd>`
+- `<$ConanLg>`
+
+
+
+
 
 ## Conan
 

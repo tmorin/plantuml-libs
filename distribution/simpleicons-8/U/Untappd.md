@@ -17,6 +17,17 @@ include('simpleicons-8/U/Untappd')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UntappdXs>`
+- `<$UntappdSm>`
+- `<$UntappdMd>`
+- `<$UntappdLg>`
+
+
+
+
 
 ## Untappd
 

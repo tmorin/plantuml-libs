@@ -17,6 +17,17 @@ include('simpleicons-8/B/Boxysvg')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BoxysvgXs>`
+- `<$BoxysvgSm>`
+- `<$BoxysvgMd>`
+- `<$BoxysvgLg>`
+
+
+
+
 
 ## Boxysvg
 

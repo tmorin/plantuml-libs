@@ -17,6 +17,17 @@ include('simpleicons-8/C/Citroen')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CitroenXs>`
+- `<$CitroenSm>`
+- `<$CitroenMd>`
+- `<$CitroenLg>`
+
+
+
+
 
 ## Citroen
 

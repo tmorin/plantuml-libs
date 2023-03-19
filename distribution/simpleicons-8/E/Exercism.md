@@ -17,6 +17,17 @@ include('simpleicons-8/E/Exercism')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ExercismXs>`
+- `<$ExercismSm>`
+- `<$ExercismMd>`
+- `<$ExercismLg>`
+
+
+
+
 
 ## Exercism
 

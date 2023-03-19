@@ -17,6 +17,17 @@ include('simpleicons-8/Y/Youtubegaming')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$YoutubegamingXs>`
+- `<$YoutubegamingSm>`
+- `<$YoutubegamingMd>`
+- `<$YoutubegamingLg>`
+
+
+
+
 
 ## Youtubegaming
 

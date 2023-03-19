@@ -17,6 +17,17 @@ include('simpleicons-8/T/Taichigraphics')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TaichigraphicsXs>`
+- `<$TaichigraphicsSm>`
+- `<$TaichigraphicsMd>`
+- `<$TaichigraphicsLg>`
+
+
+
+
 
 ## Taichigraphics
 

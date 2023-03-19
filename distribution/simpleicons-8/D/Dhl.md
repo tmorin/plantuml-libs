@@ -17,6 +17,17 @@ include('simpleicons-8/D/Dhl')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DhlXs>`
+- `<$DhlSm>`
+- `<$DhlMd>`
+- `<$DhlLg>`
+
+
+
+
 
 ## Dhl
 

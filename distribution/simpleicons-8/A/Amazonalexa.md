@@ -17,6 +17,17 @@ include('simpleicons-8/A/Amazonalexa')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonalexaXs>`
+- `<$AmazonalexaSm>`
+- `<$AmazonalexaMd>`
+- `<$AmazonalexaLg>`
+
+
+
+
 
 ## Amazonalexa
 

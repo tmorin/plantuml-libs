@@ -17,6 +17,17 @@ include('simpleicons-8/W/Wikidotjs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WikidotjsXs>`
+- `<$WikidotjsSm>`
+- `<$WikidotjsMd>`
+- `<$WikidotjsLg>`
+
+
+
+
 
 ## Wikidotjs
 

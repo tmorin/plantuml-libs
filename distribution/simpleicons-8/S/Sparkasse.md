@@ -17,6 +17,17 @@ include('simpleicons-8/S/Sparkasse')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SparkasseXs>`
+- `<$SparkasseSm>`
+- `<$SparkasseMd>`
+- `<$SparkasseLg>`
+
+
+
+
 
 ## Sparkasse
 

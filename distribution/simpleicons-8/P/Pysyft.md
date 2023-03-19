@@ -17,6 +17,17 @@ include('simpleicons-8/P/Pysyft')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PysyftXs>`
+- `<$PysyftSm>`
+- `<$PysyftMd>`
+- `<$PysyftLg>`
+
+
+
+
 
 ## Pysyft
 

@@ -17,6 +17,17 @@ include('simpleicons-8/L/Litiengine')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LitiengineXs>`
+- `<$LitiengineSm>`
+- `<$LitiengineMd>`
+- `<$LitiengineLg>`
+
+
+
+
 
 ## Litiengine
 

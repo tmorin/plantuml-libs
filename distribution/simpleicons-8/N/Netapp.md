@@ -17,6 +17,17 @@ include('simpleicons-8/N/Netapp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NetappXs>`
+- `<$NetappSm>`
+- `<$NetappMd>`
+- `<$NetappLg>`
+
+
+
+
 
 ## Netapp
 

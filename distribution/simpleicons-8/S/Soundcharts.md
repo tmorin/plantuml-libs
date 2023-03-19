@@ -17,6 +17,17 @@ include('simpleicons-8/S/Soundcharts')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SoundchartsXs>`
+- `<$SoundchartsSm>`
+- `<$SoundchartsMd>`
+- `<$SoundchartsLg>`
+
+
+
+
 
 ## Soundcharts
 

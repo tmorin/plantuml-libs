@@ -17,6 +17,17 @@ include('simpleicons-8/P/Postgresql')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PostgresqlXs>`
+- `<$PostgresqlSm>`
+- `<$PostgresqlMd>`
+- `<$PostgresqlLg>`
+
+
+
+
 
 ## Postgresql
 

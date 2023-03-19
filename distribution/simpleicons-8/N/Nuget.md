@@ -17,6 +17,17 @@ include('simpleicons-8/N/Nuget')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NugetXs>`
+- `<$NugetSm>`
+- `<$NugetMd>`
+- `<$NugetLg>`
+
+
+
+
 
 ## Nuget
 

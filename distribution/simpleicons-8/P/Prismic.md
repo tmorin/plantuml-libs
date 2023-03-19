@@ -17,6 +17,17 @@ include('simpleicons-8/P/Prismic')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PrismicXs>`
+- `<$PrismicSm>`
+- `<$PrismicMd>`
+- `<$PrismicLg>`
+
+
+
+
 
 ## Prismic
 

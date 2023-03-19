@@ -17,6 +17,17 @@ include('simpleicons-8/R/Robotframework')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RobotframeworkXs>`
+- `<$RobotframeworkSm>`
+- `<$RobotframeworkMd>`
+- `<$RobotframeworkLg>`
+
+
+
+
 
 ## Robotframework
 

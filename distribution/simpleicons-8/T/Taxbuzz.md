@@ -17,6 +17,17 @@ include('simpleicons-8/T/Taxbuzz')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TaxbuzzXs>`
+- `<$TaxbuzzSm>`
+- `<$TaxbuzzMd>`
+- `<$TaxbuzzLg>`
+
+
+
+
 
 ## Taxbuzz
 

@@ -17,6 +17,17 @@ include('simpleicons-8/O/Orcid')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OrcidXs>`
+- `<$OrcidSm>`
+- `<$OrcidMd>`
+- `<$OrcidLg>`
+
+
+
+
 
 ## Orcid
 

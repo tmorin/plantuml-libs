@@ -17,6 +17,17 @@ include('simpleicons-8/A/Apacheecharts')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ApacheechartsXs>`
+- `<$ApacheechartsSm>`
+- `<$ApacheechartsMd>`
+- `<$ApacheechartsLg>`
+
+
+
+
 
 ## Apacheecharts
 

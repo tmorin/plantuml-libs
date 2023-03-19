@@ -17,6 +17,17 @@ include('simpleicons-8/R/Railway')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RailwayXs>`
+- `<$RailwaySm>`
+- `<$RailwayMd>`
+- `<$RailwayLg>`
+
+
+
+
 
 ## Railway
 

@@ -17,6 +17,17 @@ include('simpleicons-8/W/Wantedly')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WantedlyXs>`
+- `<$WantedlySm>`
+- `<$WantedlyMd>`
+- `<$WantedlyLg>`
+
+
+
+
 
 ## Wantedly
 

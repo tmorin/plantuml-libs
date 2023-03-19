@@ -17,6 +17,17 @@ include('simpleicons-8/N/Neo4J')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$Neo4JXs>`
+- `<$Neo4JSm>`
+- `<$Neo4JMd>`
+- `<$Neo4JLg>`
+
+
+
+
 
 ## Neo4J
 

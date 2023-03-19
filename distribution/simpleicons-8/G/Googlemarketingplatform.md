@@ -17,6 +17,17 @@ include('simpleicons-8/G/Googlemarketingplatform')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GooglemarketingplatformXs>`
+- `<$GooglemarketingplatformSm>`
+- `<$GooglemarketingplatformMd>`
+- `<$GooglemarketingplatformLg>`
+
+
+
+
 
 ## Googlemarketingplatform
 

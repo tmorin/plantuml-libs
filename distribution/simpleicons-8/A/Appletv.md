@@ -17,6 +17,17 @@ include('simpleicons-8/A/Appletv')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AppletvXs>`
+- `<$AppletvSm>`
+- `<$AppletvMd>`
+- `<$AppletvLg>`
+
+
+
+
 
 ## Appletv
 

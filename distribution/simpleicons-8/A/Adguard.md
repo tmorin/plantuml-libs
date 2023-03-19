@@ -17,6 +17,17 @@ include('simpleicons-8/A/Adguard')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AdguardXs>`
+- `<$AdguardSm>`
+- `<$AdguardMd>`
+- `<$AdguardLg>`
+
+
+
+
 
 ## Adguard
 

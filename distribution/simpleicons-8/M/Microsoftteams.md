@@ -17,6 +17,17 @@ include('simpleicons-8/M/Microsoftteams')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MicrosoftteamsXs>`
+- `<$MicrosoftteamsSm>`
+- `<$MicrosoftteamsMd>`
+- `<$MicrosoftteamsLg>`
+
+
+
+
 
 ## Microsoftteams
 

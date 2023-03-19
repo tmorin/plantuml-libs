@@ -17,6 +17,17 @@ include('simpleicons-8/S/Scopus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ScopusXs>`
+- `<$ScopusSm>`
+- `<$ScopusMd>`
+- `<$ScopusLg>`
+
+
+
+
 
 ## Scopus
 

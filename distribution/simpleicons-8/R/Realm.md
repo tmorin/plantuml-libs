@@ -17,6 +17,17 @@ include('simpleicons-8/R/Realm')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RealmXs>`
+- `<$RealmSm>`
+- `<$RealmMd>`
+- `<$RealmLg>`
+
+
+
+
 
 ## Realm
 

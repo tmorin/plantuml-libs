@@ -17,6 +17,17 @@ include('simpleicons-8/E/Epson')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EpsonXs>`
+- `<$EpsonSm>`
+- `<$EpsonMd>`
+- `<$EpsonLg>`
+
+
+
+
 
 ## Epson
 

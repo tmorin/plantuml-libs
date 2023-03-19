@@ -17,6 +17,17 @@ include('simpleicons-8/O/Otto')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OttoXs>`
+- `<$OttoSm>`
+- `<$OttoMd>`
+- `<$OttoLg>`
+
+
+
+
 
 ## Otto
 

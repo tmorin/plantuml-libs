@@ -17,6 +17,17 @@ include('simpleicons-8/W/Worldhealthorganization')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WorldhealthorganizationXs>`
+- `<$WorldhealthorganizationSm>`
+- `<$WorldhealthorganizationMd>`
+- `<$WorldhealthorganizationLg>`
+
+
+
+
 
 ## Worldhealthorganization
 

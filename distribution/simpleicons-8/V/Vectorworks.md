@@ -17,6 +17,17 @@ include('simpleicons-8/V/Vectorworks')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VectorworksXs>`
+- `<$VectorworksSm>`
+- `<$VectorworksMd>`
+- `<$VectorworksLg>`
+
+
+
+
 
 ## Vectorworks
 

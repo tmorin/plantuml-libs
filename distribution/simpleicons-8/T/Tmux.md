@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tmux')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TmuxXs>`
+- `<$TmuxSm>`
+- `<$TmuxMd>`
+- `<$TmuxLg>`
+
+
+
+
 
 ## Tmux
 

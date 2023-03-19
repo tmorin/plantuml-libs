@@ -17,6 +17,17 @@ include('simpleicons-8/J/Jetpackcompose')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JetpackcomposeXs>`
+- `<$JetpackcomposeSm>`
+- `<$JetpackcomposeMd>`
+- `<$JetpackcomposeLg>`
+
+
+
+
 
 ## Jetpackcompose
 

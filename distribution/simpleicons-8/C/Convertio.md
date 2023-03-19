@@ -17,6 +17,17 @@ include('simpleicons-8/C/Convertio')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ConvertioXs>`
+- `<$ConvertioSm>`
+- `<$ConvertioMd>`
+- `<$ConvertioLg>`
+
+
+
+
 
 ## Convertio
 

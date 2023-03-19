@@ -17,6 +17,17 @@ include('simpleicons-8/C/Conekta')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ConektaXs>`
+- `<$ConektaSm>`
+- `<$ConektaMd>`
+- `<$ConektaLg>`
+
+
+
+
 
 ## Conekta
 

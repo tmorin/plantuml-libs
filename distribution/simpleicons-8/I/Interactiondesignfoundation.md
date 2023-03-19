@@ -17,6 +17,17 @@ include('simpleicons-8/I/Interactiondesignfoundation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InteractiondesignfoundationXs>`
+- `<$InteractiondesignfoundationSm>`
+- `<$InteractiondesignfoundationMd>`
+- `<$InteractiondesignfoundationLg>`
+
+
+
+
 
 ## Interactiondesignfoundation
 

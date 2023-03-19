@@ -17,6 +17,17 @@ include('simpleicons-8/J/Junipernetworks')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JunipernetworksXs>`
+- `<$JunipernetworksSm>`
+- `<$JunipernetworksMd>`
+- `<$JunipernetworksLg>`
+
+
+
+
 
 ## Junipernetworks
 

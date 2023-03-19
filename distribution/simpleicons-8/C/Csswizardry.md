@@ -17,6 +17,17 @@ include('simpleicons-8/C/Csswizardry')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CsswizardryXs>`
+- `<$CsswizardrySm>`
+- `<$CsswizardryMd>`
+- `<$CsswizardryLg>`
+
+
+
+
 
 ## Csswizardry
 

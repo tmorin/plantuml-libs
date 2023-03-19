@@ -17,6 +17,17 @@ include('simpleicons-8/N/Neovim')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NeovimXs>`
+- `<$NeovimSm>`
+- `<$NeovimMd>`
+- `<$NeovimLg>`
+
+
+
+
 
 ## Neovim
 

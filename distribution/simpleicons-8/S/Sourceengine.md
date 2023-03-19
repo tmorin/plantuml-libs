@@ -17,6 +17,17 @@ include('simpleicons-8/S/Sourceengine')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SourceengineXs>`
+- `<$SourceengineSm>`
+- `<$SourceengineMd>`
+- `<$SourceengineLg>`
+
+
+
+
 
 ## Sourceengine
 

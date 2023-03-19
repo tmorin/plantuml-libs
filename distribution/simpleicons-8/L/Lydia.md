@@ -17,6 +17,17 @@ include('simpleicons-8/L/Lydia')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LydiaXs>`
+- `<$LydiaSm>`
+- `<$LydiaMd>`
+- `<$LydiaLg>`
+
+
+
+
 
 ## Lydia
 

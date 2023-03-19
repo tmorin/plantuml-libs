@@ -17,6 +17,17 @@ include('simpleicons-8/H/Homebridge')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HomebridgeXs>`
+- `<$HomebridgeSm>`
+- `<$HomebridgeMd>`
+- `<$HomebridgeLg>`
+
+
+
+
 
 ## Homebridge
 

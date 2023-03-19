@@ -17,6 +17,17 @@ include('simpleicons-8/I/Internetexplorer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InternetexplorerXs>`
+- `<$InternetexplorerSm>`
+- `<$InternetexplorerMd>`
+- `<$InternetexplorerLg>`
+
+
+
+
 
 ## Internetexplorer
 

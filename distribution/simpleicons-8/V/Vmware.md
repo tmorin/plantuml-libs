@@ -17,6 +17,17 @@ include('simpleicons-8/V/Vmware')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VmwareXs>`
+- `<$VmwareSm>`
+- `<$VmwareMd>`
+- `<$VmwareLg>`
+
+
+
+
 
 ## Vmware
 

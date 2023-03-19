@@ -17,6 +17,17 @@ include('simpleicons-8/D/Deliveroo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DeliverooXs>`
+- `<$DeliverooSm>`
+- `<$DeliverooMd>`
+- `<$DeliverooLg>`
+
+
+
+
 
 ## Deliveroo
 

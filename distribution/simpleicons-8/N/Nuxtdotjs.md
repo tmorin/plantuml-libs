@@ -17,6 +17,17 @@ include('simpleicons-8/N/Nuxtdotjs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NuxtdotjsXs>`
+- `<$NuxtdotjsSm>`
+- `<$NuxtdotjsMd>`
+- `<$NuxtdotjsLg>`
+
+
+
+
 
 ## Nuxtdotjs
 

@@ -17,6 +17,17 @@ include('simpleicons-8/P/Pusher')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PusherXs>`
+- `<$PusherSm>`
+- `<$PusherMd>`
+- `<$PusherLg>`
+
+
+
+
 
 ## Pusher
 

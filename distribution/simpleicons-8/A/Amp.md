@@ -17,6 +17,17 @@ include('simpleicons-8/A/Amp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmpXs>`
+- `<$AmpSm>`
+- `<$AmpMd>`
+- `<$AmpLg>`
+
+
+
+
 
 ## Amp
 

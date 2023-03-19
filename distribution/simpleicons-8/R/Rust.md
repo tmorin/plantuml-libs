@@ -17,6 +17,17 @@ include('simpleicons-8/R/Rust')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RustXs>`
+- `<$RustSm>`
+- `<$RustMd>`
+- `<$RustLg>`
+
+
+
+
 
 ## Rust
 

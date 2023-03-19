@@ -17,6 +17,17 @@ include('simpleicons-8/S/Slides')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SlidesXs>`
+- `<$SlidesSm>`
+- `<$SlidesMd>`
+- `<$SlidesLg>`
+
+
+
+
 
 ## Slides
 

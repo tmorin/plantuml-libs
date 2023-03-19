@@ -17,6 +17,17 @@ include('simpleicons-8/P/Pastebin')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PastebinXs>`
+- `<$PastebinSm>`
+- `<$PastebinMd>`
+- `<$PastebinLg>`
+
+
+
+
 
 ## Pastebin
 

@@ -17,6 +17,17 @@ include('simpleicons-8/G/Googlescholar')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GooglescholarXs>`
+- `<$GooglescholarSm>`
+- `<$GooglescholarMd>`
+- `<$GooglescholarLg>`
+
+
+
+
 
 ## Googlescholar
 

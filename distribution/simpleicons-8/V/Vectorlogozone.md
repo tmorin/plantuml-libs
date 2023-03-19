@@ -17,6 +17,17 @@ include('simpleicons-8/V/Vectorlogozone')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VectorlogozoneXs>`
+- `<$VectorlogozoneSm>`
+- `<$VectorlogozoneMd>`
+- `<$VectorlogozoneLg>`
+
+
+
+
 
 ## Vectorlogozone
 

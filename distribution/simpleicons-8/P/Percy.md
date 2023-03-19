@@ -17,6 +17,17 @@ include('simpleicons-8/P/Percy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PercyXs>`
+- `<$PercySm>`
+- `<$PercyMd>`
+- `<$PercyLg>`
+
+
+
+
 
 ## Percy
 

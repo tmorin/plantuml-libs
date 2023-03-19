@@ -17,6 +17,17 @@ include('simpleicons-8/L/Lbry')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LbryXs>`
+- `<$LbrySm>`
+- `<$LbryMd>`
+- `<$LbryLg>`
+
+
+
+
 
 ## Lbry
 

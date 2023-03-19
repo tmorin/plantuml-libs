@@ -17,6 +17,17 @@ include('simpleicons-8/L/Livejournal')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LivejournalXs>`
+- `<$LivejournalSm>`
+- `<$LivejournalMd>`
+- `<$LivejournalLg>`
+
+
+
+
 
 ## Livejournal
 

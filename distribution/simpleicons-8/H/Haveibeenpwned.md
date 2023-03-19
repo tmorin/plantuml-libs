@@ -17,6 +17,17 @@ include('simpleicons-8/H/Haveibeenpwned')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HaveibeenpwnedXs>`
+- `<$HaveibeenpwnedSm>`
+- `<$HaveibeenpwnedMd>`
+- `<$HaveibeenpwnedLg>`
+
+
+
+
 
 ## Haveibeenpwned
 

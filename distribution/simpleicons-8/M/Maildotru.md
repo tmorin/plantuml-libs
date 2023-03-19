@@ -17,6 +17,17 @@ include('simpleicons-8/M/Maildotru')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MaildotruXs>`
+- `<$MaildotruSm>`
+- `<$MaildotruMd>`
+- `<$MaildotruLg>`
+
+
+
+
 
 ## Maildotru
 

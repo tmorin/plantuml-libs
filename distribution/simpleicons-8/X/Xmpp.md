@@ -17,6 +17,17 @@ include('simpleicons-8/X/Xmpp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$XmppXs>`
+- `<$XmppSm>`
+- `<$XmppMd>`
+- `<$XmppLg>`
+
+
+
+
 
 ## Xmpp
 

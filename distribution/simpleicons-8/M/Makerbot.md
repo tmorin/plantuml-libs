@@ -17,6 +17,17 @@ include('simpleicons-8/M/Makerbot')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MakerbotXs>`
+- `<$MakerbotSm>`
+- `<$MakerbotMd>`
+- `<$MakerbotLg>`
+
+
+
+
 
 ## Makerbot
 

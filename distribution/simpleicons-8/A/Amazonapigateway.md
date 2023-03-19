@@ -17,6 +17,17 @@ include('simpleicons-8/A/Amazonapigateway')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonapigatewayXs>`
+- `<$AmazonapigatewaySm>`
+- `<$AmazonapigatewayMd>`
+- `<$AmazonapigatewayLg>`
+
+
+
+
 
 ## Amazonapigateway
 

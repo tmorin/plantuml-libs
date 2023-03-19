@@ -17,6 +17,17 @@ include('simpleicons-8/Q/Qualtrics')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$QualtricsXs>`
+- `<$QualtricsSm>`
+- `<$QualtricsMd>`
+- `<$QualtricsLg>`
+
+
+
+
 
 ## Qualtrics
 

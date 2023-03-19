@@ -17,6 +17,17 @@ include('simpleicons-8/G/Geant')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GeantXs>`
+- `<$GeantSm>`
+- `<$GeantMd>`
+- `<$GeantLg>`
+
+
+
+
 
 ## Geant
 

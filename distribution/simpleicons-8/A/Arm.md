@@ -17,6 +17,17 @@ include('simpleicons-8/A/Arm')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ArmXs>`
+- `<$ArmSm>`
+- `<$ArmMd>`
+- `<$ArmLg>`
+
+
+
+
 
 ## Arm
 

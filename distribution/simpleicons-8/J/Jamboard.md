@@ -17,6 +17,17 @@ include('simpleicons-8/J/Jamboard')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JamboardXs>`
+- `<$JamboardSm>`
+- `<$JamboardMd>`
+- `<$JamboardLg>`
+
+
+
+
 
 ## Jamboard
 

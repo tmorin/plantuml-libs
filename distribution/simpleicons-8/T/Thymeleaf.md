@@ -17,6 +17,17 @@ include('simpleicons-8/T/Thymeleaf')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ThymeleafXs>`
+- `<$ThymeleafSm>`
+- `<$ThymeleafMd>`
+- `<$ThymeleafLg>`
+
+
+
+
 
 ## Thymeleaf
 

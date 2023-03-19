@@ -17,6 +17,17 @@ include('simpleicons-8/L/Laravelnova')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LaravelnovaXs>`
+- `<$LaravelnovaSm>`
+- `<$LaravelnovaMd>`
+- `<$LaravelnovaLg>`
+
+
+
+
 
 ## Laravelnova
 

@@ -17,6 +17,17 @@ include('simpleicons-8/K/Kfc')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KfcXs>`
+- `<$KfcSm>`
+- `<$KfcMd>`
+- `<$KfcLg>`
+
+
+
+
 
 ## Kfc
 

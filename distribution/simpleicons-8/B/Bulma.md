@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bulma')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BulmaXs>`
+- `<$BulmaSm>`
+- `<$BulmaMd>`
+- `<$BulmaLg>`
+
+
+
+
 
 ## Bulma
 

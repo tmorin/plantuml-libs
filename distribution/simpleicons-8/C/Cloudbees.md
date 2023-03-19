@@ -17,6 +17,17 @@ include('simpleicons-8/C/Cloudbees')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudbeesXs>`
+- `<$CloudbeesSm>`
+- `<$CloudbeesMd>`
+- `<$CloudbeesLg>`
+
+
+
+
 
 ## Cloudbees
 

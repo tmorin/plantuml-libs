@@ -17,6 +17,17 @@ include('simpleicons-8/U/Uber')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UberXs>`
+- `<$UberSm>`
+- `<$UberMd>`
+- `<$UberLg>`
+
+
+
+
 
 ## Uber
 

@@ -17,6 +17,17 @@ include('simpleicons-8/T/Textpattern')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TextpatternXs>`
+- `<$TextpatternSm>`
+- `<$TextpatternMd>`
+- `<$TextpatternLg>`
+
+
+
+
 
 ## Textpattern
 

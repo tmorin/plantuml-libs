@@ -17,6 +17,17 @@ include('simpleicons-8/S/Sefaria')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SefariaXs>`
+- `<$SefariaSm>`
+- `<$SefariaMd>`
+- `<$SefariaLg>`
+
+
+
+
 
 ## Sefaria
 

@@ -17,6 +17,17 @@ include('simpleicons-8/M/Microsoftedge')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MicrosoftedgeXs>`
+- `<$MicrosoftedgeSm>`
+- `<$MicrosoftedgeMd>`
+- `<$MicrosoftedgeLg>`
+
+
+
+
 
 ## Microsoftedge
 

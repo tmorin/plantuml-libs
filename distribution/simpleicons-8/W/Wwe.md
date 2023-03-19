@@ -17,6 +17,17 @@ include('simpleicons-8/W/Wwe')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WweXs>`
+- `<$WweSm>`
+- `<$WweMd>`
+- `<$WweLg>`
+
+
+
+
 
 ## Wwe
 

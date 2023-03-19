@@ -17,6 +17,17 @@ include('simpleicons-8/R/Razorpay')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RazorpayXs>`
+- `<$RazorpaySm>`
+- `<$RazorpayMd>`
+- `<$RazorpayLg>`
+
+
+
+
 
 ## Razorpay
 

@@ -17,6 +17,17 @@ include('simpleicons-8/C/Cloudflare')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudflareXs>`
+- `<$CloudflareSm>`
+- `<$CloudflareMd>`
+- `<$CloudflareLg>`
+
+
+
+
 
 ## Cloudflare
 

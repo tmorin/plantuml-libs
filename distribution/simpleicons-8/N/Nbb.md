@@ -17,6 +17,17 @@ include('simpleicons-8/N/Nbb')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NbbXs>`
+- `<$NbbSm>`
+- `<$NbbMd>`
+- `<$NbbLg>`
+
+
+
+
 
 ## Nbb
 

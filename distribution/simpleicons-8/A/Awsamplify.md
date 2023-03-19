@@ -17,6 +17,17 @@ include('simpleicons-8/A/Awsamplify')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsamplifyXs>`
+- `<$AwsamplifySm>`
+- `<$AwsamplifyMd>`
+- `<$AwsamplifyLg>`
+
+
+
+
 
 ## Awsamplify
 

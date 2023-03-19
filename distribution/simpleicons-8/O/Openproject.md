@@ -17,6 +17,17 @@ include('simpleicons-8/O/Openproject')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OpenprojectXs>`
+- `<$OpenprojectSm>`
+- `<$OpenprojectMd>`
+- `<$OpenprojectLg>`
+
+
+
+
 
 ## Openproject
 

@@ -17,6 +17,17 @@ include('simpleicons-8/A/Amazonpay')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonpayXs>`
+- `<$AmazonpaySm>`
+- `<$AmazonpayMd>`
+- `<$AmazonpayLg>`
+
+
+
+
 
 ## Amazonpay
 

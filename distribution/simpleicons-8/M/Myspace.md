@@ -17,6 +17,17 @@ include('simpleicons-8/M/Myspace')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MyspaceXs>`
+- `<$MyspaceSm>`
+- `<$MyspaceMd>`
+- `<$MyspaceLg>`
+
+
+
+
 
 ## Myspace
 

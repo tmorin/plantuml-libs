@@ -17,6 +17,17 @@ include('simpleicons-8/V/Valve')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ValveXs>`
+- `<$ValveSm>`
+- `<$ValveMd>`
+- `<$ValveLg>`
+
+
+
+
 
 ## Valve
 

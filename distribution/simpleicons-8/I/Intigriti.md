@@ -17,6 +17,17 @@ include('simpleicons-8/I/Intigriti')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IntigritiXs>`
+- `<$IntigritiSm>`
+- `<$IntigritiMd>`
+- `<$IntigritiLg>`
+
+
+
+
 
 ## Intigriti
 

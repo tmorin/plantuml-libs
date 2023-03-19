@@ -17,6 +17,17 @@ include('simpleicons-8/U/Usps')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UspsXs>`
+- `<$UspsSm>`
+- `<$UspsMd>`
+- `<$UspsLg>`
+
+
+
+
 
 ## Usps
 

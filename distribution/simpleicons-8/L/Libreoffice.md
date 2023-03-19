@@ -17,6 +17,17 @@ include('simpleicons-8/L/Libreoffice')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LibreofficeXs>`
+- `<$LibreofficeSm>`
+- `<$LibreofficeMd>`
+- `<$LibreofficeLg>`
+
+
+
+
 
 ## Libreoffice
 

@@ -17,6 +17,17 @@ include('simpleicons-8/T/Traefikproxy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TraefikproxyXs>`
+- `<$TraefikproxySm>`
+- `<$TraefikproxyMd>`
+- `<$TraefikproxyLg>`
+
+
+
+
 
 ## Traefikproxy
 

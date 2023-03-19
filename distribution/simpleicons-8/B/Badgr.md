@@ -17,6 +17,17 @@ include('simpleicons-8/B/Badgr')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BadgrXs>`
+- `<$BadgrSm>`
+- `<$BadgrMd>`
+- `<$BadgrLg>`
+
+
+
+
 
 ## Badgr
 

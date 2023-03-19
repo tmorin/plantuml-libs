@@ -17,6 +17,17 @@ include('simpleicons-8/A/Atari')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AtariXs>`
+- `<$AtariSm>`
+- `<$AtariMd>`
+- `<$AtariLg>`
+
+
+
+
 
 ## Atari
 

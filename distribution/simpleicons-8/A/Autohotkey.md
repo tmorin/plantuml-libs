@@ -17,6 +17,17 @@ include('simpleicons-8/A/Autohotkey')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AutohotkeyXs>`
+- `<$AutohotkeySm>`
+- `<$AutohotkeyMd>`
+- `<$AutohotkeyLg>`
+
+
+
+
 
 ## Autohotkey
 

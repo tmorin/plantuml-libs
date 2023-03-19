@@ -17,6 +17,17 @@ include('simpleicons-8/S/Sqlite')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SqliteXs>`
+- `<$SqliteSm>`
+- `<$SqliteMd>`
+- `<$SqliteLg>`
+
+
+
+
 
 ## Sqlite
 

@@ -17,6 +17,17 @@ include('simpleicons-8/F/Freedesktopdotorg')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FreedesktopdotorgXs>`
+- `<$FreedesktopdotorgSm>`
+- `<$FreedesktopdotorgMd>`
+- `<$FreedesktopdotorgLg>`
+
+
+
+
 
 ## Freedesktopdotorg
 

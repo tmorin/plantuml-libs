@@ -17,6 +17,17 @@ include('simpleicons-8/J/Jupyter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JupyterXs>`
+- `<$JupyterSm>`
+- `<$JupyterMd>`
+- `<$JupyterLg>`
+
+
+
+
 
 ## Jupyter
 

@@ -17,6 +17,17 @@ include('simpleicons-8/G/Gitlab')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GitlabXs>`
+- `<$GitlabSm>`
+- `<$GitlabMd>`
+- `<$GitlabLg>`
+
+
+
+
 
 ## Gitlab
 

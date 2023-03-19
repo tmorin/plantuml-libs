@@ -17,6 +17,17 @@ include('simpleicons-8/F/Fluxus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FluxusXs>`
+- `<$FluxusSm>`
+- `<$FluxusMd>`
+- `<$FluxusLg>`
+
+
+
+
 
 ## Fluxus
 

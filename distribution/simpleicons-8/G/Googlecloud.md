@@ -17,6 +17,17 @@ include('simpleicons-8/G/Googlecloud')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GooglecloudXs>`
+- `<$GooglecloudSm>`
+- `<$GooglecloudMd>`
+- `<$GooglecloudLg>`
+
+
+
+
 
 ## Googlecloud
 

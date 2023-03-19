@@ -17,6 +17,17 @@ include('simpleicons-8/S/Signal')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SignalXs>`
+- `<$SignalSm>`
+- `<$SignalMd>`
+- `<$SignalLg>`
+
+
+
+
 
 ## Signal
 

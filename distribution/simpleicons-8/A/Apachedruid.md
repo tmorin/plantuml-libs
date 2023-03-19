@@ -17,6 +17,17 @@ include('simpleicons-8/A/Apachedruid')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ApachedruidXs>`
+- `<$ApachedruidSm>`
+- `<$ApachedruidMd>`
+- `<$ApachedruidLg>`
+
+
+
+
 
 ## Apachedruid
 

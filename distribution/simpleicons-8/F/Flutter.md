@@ -17,6 +17,17 @@ include('simpleicons-8/F/Flutter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FlutterXs>`
+- `<$FlutterSm>`
+- `<$FlutterMd>`
+- `<$FlutterLg>`
+
+
+
+
 
 ## Flutter
 

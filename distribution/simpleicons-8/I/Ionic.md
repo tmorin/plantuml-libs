@@ -17,6 +17,17 @@ include('simpleicons-8/I/Ionic')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IonicXs>`
+- `<$IonicSm>`
+- `<$IonicMd>`
+- `<$IonicLg>`
+
+
+
+
 
 ## Ionic
 

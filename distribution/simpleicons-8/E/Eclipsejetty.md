@@ -17,6 +17,17 @@ include('simpleicons-8/E/Eclipsejetty')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EclipsejettyXs>`
+- `<$EclipsejettySm>`
+- `<$EclipsejettyMd>`
+- `<$EclipsejettyLg>`
+
+
+
+
 
 ## Eclipsejetty
 

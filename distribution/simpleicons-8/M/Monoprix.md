@@ -17,6 +17,17 @@ include('simpleicons-8/M/Monoprix')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MonoprixXs>`
+- `<$MonoprixSm>`
+- `<$MonoprixMd>`
+- `<$MonoprixLg>`
+
+
+
+
 
 ## Monoprix
 

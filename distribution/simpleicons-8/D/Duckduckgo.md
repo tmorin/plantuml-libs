@@ -17,6 +17,17 @@ include('simpleicons-8/D/Duckduckgo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DuckduckgoXs>`
+- `<$DuckduckgoSm>`
+- `<$DuckduckgoMd>`
+- `<$DuckduckgoLg>`
+
+
+
+
 
 ## Duckduckgo
 

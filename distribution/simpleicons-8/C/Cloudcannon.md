@@ -17,6 +17,17 @@ include('simpleicons-8/C/Cloudcannon')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudcannonXs>`
+- `<$CloudcannonSm>`
+- `<$CloudcannonMd>`
+- `<$CloudcannonLg>`
+
+
+
+
 
 ## Cloudcannon
 

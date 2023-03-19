@@ -17,6 +17,17 @@ include('simpleicons-8/S/Safari')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SafariXs>`
+- `<$SafariSm>`
+- `<$SafariMd>`
+- `<$SafariLg>`
+
+
+
+
 
 ## Safari
 

@@ -17,6 +17,17 @@ include('simpleicons-8/S/Strapi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StrapiXs>`
+- `<$StrapiSm>`
+- `<$StrapiMd>`
+- `<$StrapiLg>`
+
+
+
+
 
 ## Strapi
 

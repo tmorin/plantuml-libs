@@ -17,6 +17,17 @@ include('simpleicons-8/W/Webmin')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WebminXs>`
+- `<$WebminSm>`
+- `<$WebminMd>`
+- `<$WebminLg>`
+
+
+
+
 
 ## Webmin
 

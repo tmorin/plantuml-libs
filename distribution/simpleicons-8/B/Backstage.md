@@ -17,6 +17,17 @@ include('simpleicons-8/B/Backstage')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BackstageXs>`
+- `<$BackstageSm>`
+- `<$BackstageMd>`
+- `<$BackstageLg>`
+
+
+
+
 
 ## Backstage
 

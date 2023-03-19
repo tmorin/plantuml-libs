@@ -17,6 +17,17 @@ include('simpleicons-8/A/Avast')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AvastXs>`
+- `<$AvastSm>`
+- `<$AvastMd>`
+- `<$AvastLg>`
+
+
+
+
 
 ## Avast
 

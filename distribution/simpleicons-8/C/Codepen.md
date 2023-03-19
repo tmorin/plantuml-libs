@@ -17,6 +17,17 @@ include('simpleicons-8/C/Codepen')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CodepenXs>`
+- `<$CodepenSm>`
+- `<$CodepenMd>`
+- `<$CodepenLg>`
+
+
+
+
 
 ## Codepen
 

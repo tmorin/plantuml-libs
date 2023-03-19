@@ -17,6 +17,17 @@ include('simpleicons-8/D/Dogecoin')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DogecoinXs>`
+- `<$DogecoinSm>`
+- `<$DogecoinMd>`
+- `<$DogecoinLg>`
+
+
+
+
 
 ## Dogecoin
 

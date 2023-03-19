@@ -17,6 +17,17 @@ include('simpleicons-8/V/Vimeo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VimeoXs>`
+- `<$VimeoSm>`
+- `<$VimeoMd>`
+- `<$VimeoLg>`
+
+
+
+
 
 ## Vimeo
 

@@ -17,6 +17,17 @@ include('simpleicons-8/L/Lodash')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LodashXs>`
+- `<$LodashSm>`
+- `<$LodashMd>`
+- `<$LodashLg>`
+
+
+
+
 
 ## Lodash
 

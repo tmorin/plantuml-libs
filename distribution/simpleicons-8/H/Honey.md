@@ -17,6 +17,17 @@ include('simpleicons-8/H/Honey')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HoneyXs>`
+- `<$HoneySm>`
+- `<$HoneyMd>`
+- `<$HoneyLg>`
+
+
+
+
 
 ## Honey
 

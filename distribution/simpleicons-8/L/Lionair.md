@@ -17,6 +17,17 @@ include('simpleicons-8/L/Lionair')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LionairXs>`
+- `<$LionairSm>`
+- `<$LionairMd>`
+- `<$LionairLg>`
+
+
+
+
 
 ## Lionair
 

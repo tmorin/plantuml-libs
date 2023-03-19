@@ -17,6 +17,17 @@ include('simpleicons-8/O/Overleaf')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OverleafXs>`
+- `<$OverleafSm>`
+- `<$OverleafMd>`
+- `<$OverleafLg>`
+
+
+
+
 
 ## Overleaf
 

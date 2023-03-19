@@ -17,6 +17,17 @@ include('simpleicons-8/K/Keras')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KerasXs>`
+- `<$KerasSm>`
+- `<$KerasMd>`
+- `<$KerasLg>`
+
+
+
+
 
 ## Keras
 

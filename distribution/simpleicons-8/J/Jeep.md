@@ -17,6 +17,17 @@ include('simpleicons-8/J/Jeep')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JeepXs>`
+- `<$JeepSm>`
+- `<$JeepMd>`
+- `<$JeepLg>`
+
+
+
+
 
 ## Jeep
 

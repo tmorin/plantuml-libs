@@ -17,6 +17,17 @@ include('simpleicons-8/P/Prdotco')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PrdotcoXs>`
+- `<$PrdotcoSm>`
+- `<$PrdotcoMd>`
+- `<$PrdotcoLg>`
+
+
+
+
 
 ## Prdotco
 

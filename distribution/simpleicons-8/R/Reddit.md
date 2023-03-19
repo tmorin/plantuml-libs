@@ -17,6 +17,17 @@ include('simpleicons-8/R/Reddit')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RedditXs>`
+- `<$RedditSm>`
+- `<$RedditMd>`
+- `<$RedditLg>`
+
+
+
+
 
 ## Reddit
 

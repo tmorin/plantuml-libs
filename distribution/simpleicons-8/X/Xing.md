@@ -17,6 +17,17 @@ include('simpleicons-8/X/Xing')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$XingXs>`
+- `<$XingSm>`
+- `<$XingMd>`
+- `<$XingLg>`
+
+
+
+
 
 ## Xing
 

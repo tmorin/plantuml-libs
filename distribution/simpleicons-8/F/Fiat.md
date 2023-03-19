@@ -17,6 +17,17 @@ include('simpleicons-8/F/Fiat')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FiatXs>`
+- `<$FiatSm>`
+- `<$FiatMd>`
+- `<$FiatLg>`
+
+
+
+
 
 ## Fiat
 

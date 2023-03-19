@@ -17,6 +17,17 @@ include('simpleicons-8/T/Traefikmesh')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TraefikmeshXs>`
+- `<$TraefikmeshSm>`
+- `<$TraefikmeshMd>`
+- `<$TraefikmeshLg>`
+
+
+
+
 
 ## Traefikmesh
 

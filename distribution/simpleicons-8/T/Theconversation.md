@@ -17,6 +17,17 @@ include('simpleicons-8/T/Theconversation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TheconversationXs>`
+- `<$TheconversationSm>`
+- `<$TheconversationMd>`
+- `<$TheconversationLg>`
+
+
+
+
 
 ## Theconversation
 

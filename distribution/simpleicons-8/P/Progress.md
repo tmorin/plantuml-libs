@@ -17,6 +17,17 @@ include('simpleicons-8/P/Progress')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ProgressXs>`
+- `<$ProgressSm>`
+- `<$ProgressMd>`
+- `<$ProgressLg>`
+
+
+
+
 
 ## Progress
 

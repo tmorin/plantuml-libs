@@ -17,6 +17,17 @@ include('simpleicons-8/J/Jest')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JestXs>`
+- `<$JestSm>`
+- `<$JestMd>`
+- `<$JestLg>`
+
+
+
+
 
 ## Jest
 

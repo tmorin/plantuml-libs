@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tga')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TgaXs>`
+- `<$TgaSm>`
+- `<$TgaMd>`
+- `<$TgaLg>`
+
+
+
+
 
 ## Tga
 

@@ -17,6 +17,17 @@ include('simpleicons-8/D/Directus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DirectusXs>`
+- `<$DirectusSm>`
+- `<$DirectusMd>`
+- `<$DirectusLg>`
+
+
+
+
 
 ## Directus
 

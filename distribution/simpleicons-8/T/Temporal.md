@@ -17,6 +17,17 @@ include('simpleicons-8/T/Temporal')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TemporalXs>`
+- `<$TemporalSm>`
+- `<$TemporalMd>`
+- `<$TemporalLg>`
+
+
+
+
 
 ## Temporal
 

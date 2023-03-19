@@ -17,6 +17,17 @@ include('simpleicons-8/C/Cssmodules')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CssmodulesXs>`
+- `<$CssmodulesSm>`
+- `<$CssmodulesMd>`
+- `<$CssmodulesLg>`
+
+
+
+
 
 ## Cssmodules
 

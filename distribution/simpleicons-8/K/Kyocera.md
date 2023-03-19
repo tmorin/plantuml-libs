@@ -17,6 +17,17 @@ include('simpleicons-8/K/Kyocera')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KyoceraXs>`
+- `<$KyoceraSm>`
+- `<$KyoceraMd>`
+- `<$KyoceraLg>`
+
+
+
+
 
 ## Kyocera
 

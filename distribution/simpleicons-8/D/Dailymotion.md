@@ -17,6 +17,17 @@ include('simpleicons-8/D/Dailymotion')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DailymotionXs>`
+- `<$DailymotionSm>`
+- `<$DailymotionMd>`
+- `<$DailymotionLg>`
+
+
+
+
 
 ## Dailymotion
 

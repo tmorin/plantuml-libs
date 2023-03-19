@@ -17,6 +17,17 @@ include('simpleicons-8/D/Datadotai')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DatadotaiXs>`
+- `<$DatadotaiSm>`
+- `<$DatadotaiMd>`
+- `<$DatadotaiLg>`
+
+
+
+
 
 ## Datadotai
 

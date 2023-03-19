@@ -17,6 +17,17 @@ include('simpleicons-8/E/Esbuild')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EsbuildXs>`
+- `<$EsbuildSm>`
+- `<$EsbuildMd>`
+- `<$EsbuildLg>`
+
+
+
+
 
 ## Esbuild
 

@@ -17,6 +17,17 @@ include('simpleicons-8/A/Airtable')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AirtableXs>`
+- `<$AirtableSm>`
+- `<$AirtableMd>`
+- `<$AirtableLg>`
+
+
+
+
 
 ## Airtable
 

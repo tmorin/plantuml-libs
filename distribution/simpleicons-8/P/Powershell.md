@@ -17,6 +17,17 @@ include('simpleicons-8/P/Powershell')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PowershellXs>`
+- `<$PowershellSm>`
+- `<$PowershellMd>`
+- `<$PowershellLg>`
+
+
+
+
 
 ## Powershell
 

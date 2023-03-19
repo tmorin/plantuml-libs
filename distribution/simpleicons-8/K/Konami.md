@@ -17,6 +17,17 @@ include('simpleicons-8/K/Konami')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KonamiXs>`
+- `<$KonamiSm>`
+- `<$KonamiMd>`
+- `<$KonamiLg>`
+
+
+
+
 
 ## Konami
 

@@ -17,6 +17,17 @@ include('simpleicons-8/K/Kalilinux')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KalilinuxXs>`
+- `<$KalilinuxSm>`
+- `<$KalilinuxMd>`
+- `<$KalilinuxLg>`
+
+
+
+
 
 ## Kalilinux
 

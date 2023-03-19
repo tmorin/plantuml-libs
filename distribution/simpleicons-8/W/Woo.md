@@ -17,6 +17,17 @@ include('simpleicons-8/W/Woo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WooXs>`
+- `<$WooSm>`
+- `<$WooMd>`
+- `<$WooLg>`
+
+
+
+
 
 ## Woo
 

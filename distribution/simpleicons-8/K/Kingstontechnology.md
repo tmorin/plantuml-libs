@@ -17,6 +17,17 @@ include('simpleicons-8/K/Kingstontechnology')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KingstontechnologyXs>`
+- `<$KingstontechnologySm>`
+- `<$KingstontechnologyMd>`
+- `<$KingstontechnologyLg>`
+
+
+
+
 
 ## Kingstontechnology
 

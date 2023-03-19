@@ -17,6 +17,17 @@ include('simpleicons-8/A/Ana')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AnaXs>`
+- `<$AnaSm>`
+- `<$AnaMd>`
+- `<$AnaLg>`
+
+
+
+
 
 ## Ana
 

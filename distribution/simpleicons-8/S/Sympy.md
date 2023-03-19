@@ -17,6 +17,17 @@ include('simpleicons-8/S/Sympy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SympyXs>`
+- `<$SympySm>`
+- `<$SympyMd>`
+- `<$SympyLg>`
+
+
+
+
 
 ## Sympy
 

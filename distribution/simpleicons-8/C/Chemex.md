@@ -17,6 +17,17 @@ include('simpleicons-8/C/Chemex')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChemexXs>`
+- `<$ChemexSm>`
+- `<$ChemexMd>`
+- `<$ChemexLg>`
+
+
+
+
 
 ## Chemex
 

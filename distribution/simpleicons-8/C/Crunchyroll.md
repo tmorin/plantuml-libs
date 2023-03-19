@@ -17,6 +17,17 @@ include('simpleicons-8/C/Crunchyroll')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CrunchyrollXs>`
+- `<$CrunchyrollSm>`
+- `<$CrunchyrollMd>`
+- `<$CrunchyrollLg>`
+
+
+
+
 
 ## Crunchyroll
 

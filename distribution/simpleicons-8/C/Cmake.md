@@ -17,6 +17,17 @@ include('simpleicons-8/C/Cmake')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CmakeXs>`
+- `<$CmakeSm>`
+- `<$CmakeMd>`
+- `<$CmakeLg>`
+
+
+
+
 
 ## Cmake
 

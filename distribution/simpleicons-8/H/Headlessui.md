@@ -17,6 +17,17 @@ include('simpleicons-8/H/Headlessui')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HeadlessuiXs>`
+- `<$HeadlessuiSm>`
+- `<$HeadlessuiMd>`
+- `<$HeadlessuiLg>`
+
+
+
+
 
 ## Headlessui
 

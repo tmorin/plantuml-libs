@@ -17,6 +17,17 @@ include('simpleicons-8/U/Udemy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UdemyXs>`
+- `<$UdemySm>`
+- `<$UdemyMd>`
+- `<$UdemyLg>`
+
+
+
+
 
 ## Udemy
 

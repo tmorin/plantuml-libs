@@ -17,6 +17,17 @@ include('simpleicons-8/M/Microdotblog')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MicrodotblogXs>`
+- `<$MicrodotblogSm>`
+- `<$MicrodotblogMd>`
+- `<$MicrodotblogLg>`
+
+
+
+
 
 ## Microdotblog
 

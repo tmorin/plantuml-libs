@@ -17,6 +17,17 @@ include('simpleicons-8/P/Philipshue')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PhilipshueXs>`
+- `<$PhilipshueSm>`
+- `<$PhilipshueMd>`
+- `<$PhilipshueLg>`
+
+
+
+
 
 ## Philipshue
 

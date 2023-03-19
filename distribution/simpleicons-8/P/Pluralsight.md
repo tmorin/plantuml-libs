@@ -17,6 +17,17 @@ include('simpleicons-8/P/Pluralsight')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PluralsightXs>`
+- `<$PluralsightSm>`
+- `<$PluralsightMd>`
+- `<$PluralsightLg>`
+
+
+
+
 
 ## Pluralsight
 

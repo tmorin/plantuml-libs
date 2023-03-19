@@ -17,6 +17,17 @@ include('simpleicons-8/J/Jameson')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JamesonXs>`
+- `<$JamesonSm>`
+- `<$JamesonMd>`
+- `<$JamesonLg>`
+
+
+
+
 
 ## Jameson
 

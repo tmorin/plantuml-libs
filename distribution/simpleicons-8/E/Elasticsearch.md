@@ -17,6 +17,17 @@ include('simpleicons-8/E/Elasticsearch')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ElasticsearchXs>`
+- `<$ElasticsearchSm>`
+- `<$ElasticsearchMd>`
+- `<$ElasticsearchLg>`
+
+
+
+
 
 ## Elasticsearch
 

@@ -17,6 +17,17 @@ include('simpleicons-8/R/Readme')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ReadmeXs>`
+- `<$ReadmeSm>`
+- `<$ReadmeMd>`
+- `<$ReadmeLg>`
+
+
+
+
 
 ## Readme
 

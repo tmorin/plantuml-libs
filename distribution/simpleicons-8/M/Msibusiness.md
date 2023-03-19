@@ -17,6 +17,17 @@ include('simpleicons-8/M/Msibusiness')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MsibusinessXs>`
+- `<$MsibusinessSm>`
+- `<$MsibusinessMd>`
+- `<$MsibusinessLg>`
+
+
+
+
 
 ## Msibusiness
 

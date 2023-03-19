@@ -17,6 +17,17 @@ include('simpleicons-8/M/Manjaro')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ManjaroXs>`
+- `<$ManjaroSm>`
+- `<$ManjaroMd>`
+- `<$ManjaroLg>`
+
+
+
+
 
 ## Manjaro
 

@@ -17,6 +17,17 @@ include('simpleicons-8/A/Asciidoctor')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AsciidoctorXs>`
+- `<$AsciidoctorSm>`
+- `<$AsciidoctorMd>`
+- `<$AsciidoctorLg>`
+
+
+
+
 
 ## Asciidoctor
 

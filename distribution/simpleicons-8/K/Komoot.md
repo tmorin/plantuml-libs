@@ -17,6 +17,17 @@ include('simpleicons-8/K/Komoot')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KomootXs>`
+- `<$KomootSm>`
+- `<$KomootMd>`
+- `<$KomootLg>`
+
+
+
+
 
 ## Komoot
 

@@ -17,6 +17,17 @@ include('simpleicons-8/M/Mysql')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MysqlXs>`
+- `<$MysqlSm>`
+- `<$MysqlMd>`
+- `<$MysqlLg>`
+
+
+
+
 
 ## Mysql
 

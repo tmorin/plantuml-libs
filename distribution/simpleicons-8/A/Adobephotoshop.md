@@ -17,6 +17,17 @@ include('simpleicons-8/A/Adobephotoshop')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AdobephotoshopXs>`
+- `<$AdobephotoshopSm>`
+- `<$AdobephotoshopMd>`
+- `<$AdobephotoshopLg>`
+
+
+
+
 
 ## Adobephotoshop
 

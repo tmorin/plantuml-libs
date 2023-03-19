@@ -17,6 +17,17 @@ include('simpleicons-8/G/Gimp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GimpXs>`
+- `<$GimpSm>`
+- `<$GimpMd>`
+- `<$GimpLg>`
+
+
+
+
 
 ## Gimp
 

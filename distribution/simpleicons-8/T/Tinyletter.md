@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tinyletter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TinyletterXs>`
+- `<$TinyletterSm>`
+- `<$TinyletterMd>`
+- `<$TinyletterLg>`
+
+
+
+
 
 ## Tinyletter
 

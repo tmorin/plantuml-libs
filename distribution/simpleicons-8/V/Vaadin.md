@@ -17,6 +17,17 @@ include('simpleicons-8/V/Vaadin')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VaadinXs>`
+- `<$VaadinSm>`
+- `<$VaadinMd>`
+- `<$VaadinLg>`
+
+
+
+
 
 ## Vaadin
 

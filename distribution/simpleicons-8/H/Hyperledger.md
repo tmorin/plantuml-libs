@@ -17,6 +17,17 @@ include('simpleicons-8/H/Hyperledger')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HyperledgerXs>`
+- `<$HyperledgerSm>`
+- `<$HyperledgerMd>`
+- `<$HyperledgerLg>`
+
+
+
+
 
 ## Hyperledger
 

@@ -17,6 +17,17 @@ include('simpleicons-8/M/Microsoftoffice')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MicrosoftofficeXs>`
+- `<$MicrosoftofficeSm>`
+- `<$MicrosoftofficeMd>`
+- `<$MicrosoftofficeLg>`
+
+
+
+
 
 ## Microsoftoffice
 

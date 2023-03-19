@@ -17,6 +17,17 @@ include('simpleicons-8/S/Staffbase')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StaffbaseXs>`
+- `<$StaffbaseSm>`
+- `<$StaffbaseMd>`
+- `<$StaffbaseLg>`
+
+
+
+
 
 ## Staffbase
 

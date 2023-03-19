@@ -17,6 +17,17 @@ include('simpleicons-8/R/Rollupdotjs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RollupdotjsXs>`
+- `<$RollupdotjsSm>`
+- `<$RollupdotjsMd>`
+- `<$RollupdotjsLg>`
+
+
+
+
 
 ## Rollupdotjs
 

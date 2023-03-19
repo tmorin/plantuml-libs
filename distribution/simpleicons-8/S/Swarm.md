@@ -17,6 +17,17 @@ include('simpleicons-8/S/Swarm')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SwarmXs>`
+- `<$SwarmSm>`
+- `<$SwarmMd>`
+- `<$SwarmLg>`
+
+
+
+
 
 ## Swarm
 

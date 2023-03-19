@@ -17,6 +17,17 @@ include('simpleicons-8/D/Dataiku')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DataikuXs>`
+- `<$DataikuSm>`
+- `<$DataikuMd>`
+- `<$DataikuLg>`
+
+
+
+
 
 ## Dataiku
 

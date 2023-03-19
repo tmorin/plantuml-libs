@@ -17,6 +17,17 @@ include('simpleicons-8/C/Codeigniter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CodeigniterXs>`
+- `<$CodeigniterSm>`
+- `<$CodeigniterMd>`
+- `<$CodeigniterLg>`
+
+
+
+
 
 ## Codeigniter
 

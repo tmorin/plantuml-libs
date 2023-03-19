@@ -17,6 +17,17 @@ include('simpleicons-8/F/Framer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FramerXs>`
+- `<$FramerSm>`
+- `<$FramerMd>`
+- `<$FramerLg>`
+
+
+
+
 
 ## Framer
 

@@ -17,6 +17,17 @@ include('simpleicons-8/E/Expertsexchange')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ExpertsexchangeXs>`
+- `<$ExpertsexchangeSm>`
+- `<$ExpertsexchangeMd>`
+- `<$ExpertsexchangeLg>`
+
+
+
+
 
 ## Expertsexchange
 

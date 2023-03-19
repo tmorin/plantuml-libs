@@ -17,6 +17,17 @@ include('simpleicons-8/B/Buffer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BufferXs>`
+- `<$BufferSm>`
+- `<$BufferMd>`
+- `<$BufferLg>`
+
+
+
+
 
 ## Buffer
 

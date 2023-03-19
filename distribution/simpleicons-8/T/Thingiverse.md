@@ -17,6 +17,17 @@ include('simpleicons-8/T/Thingiverse')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ThingiverseXs>`
+- `<$ThingiverseSm>`
+- `<$ThingiverseMd>`
+- `<$ThingiverseLg>`
+
+
+
+
 
 ## Thingiverse
 

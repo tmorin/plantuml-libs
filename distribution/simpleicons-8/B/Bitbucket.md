@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bitbucket')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BitbucketXs>`
+- `<$BitbucketSm>`
+- `<$BitbucketMd>`
+- `<$BitbucketLg>`
+
+
+
+
 
 ## Bitbucket
 

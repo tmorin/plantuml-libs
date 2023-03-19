@@ -17,6 +17,17 @@ include('simpleicons-8/E/Espressif')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EspressifXs>`
+- `<$EspressifSm>`
+- `<$EspressifMd>`
+- `<$EspressifLg>`
+
+
+
+
 
 ## Espressif
 

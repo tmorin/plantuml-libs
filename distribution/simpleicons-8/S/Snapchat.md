@@ -17,6 +17,17 @@ include('simpleicons-8/S/Snapchat')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SnapchatXs>`
+- `<$SnapchatSm>`
+- `<$SnapchatMd>`
+- `<$SnapchatLg>`
+
+
+
+
 
 ## Snapchat
 

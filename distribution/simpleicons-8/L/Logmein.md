@@ -17,6 +17,17 @@ include('simpleicons-8/L/Logmein')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LogmeinXs>`
+- `<$LogmeinSm>`
+- `<$LogmeinMd>`
+- `<$LogmeinLg>`
+
+
+
+
 
 ## Logmein
 

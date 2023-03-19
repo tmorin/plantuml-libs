@@ -17,6 +17,17 @@ include('simpleicons-8/C/Clickup')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ClickupXs>`
+- `<$ClickupSm>`
+- `<$ClickupMd>`
+- `<$ClickupLg>`
+
+
+
+
 
 ## Clickup
 

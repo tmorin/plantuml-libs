@@ -17,6 +17,17 @@ include('simpleicons-8/V/V2Ex')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$V2ExXs>`
+- `<$V2ExSm>`
+- `<$V2ExMd>`
+- `<$V2ExLg>`
+
+
+
+
 
 ## V2Ex
 

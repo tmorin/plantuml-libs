@@ -17,6 +17,17 @@ include('simpleicons-8/R/Reason')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ReasonXs>`
+- `<$ReasonSm>`
+- `<$ReasonMd>`
+- `<$ReasonLg>`
+
+
+
+
 
 ## Reason
 

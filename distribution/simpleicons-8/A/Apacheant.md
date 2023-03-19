@@ -17,6 +17,17 @@ include('simpleicons-8/A/Apacheant')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ApacheantXs>`
+- `<$ApacheantSm>`
+- `<$ApacheantMd>`
+- `<$ApacheantLg>`
+
+
+
+
 
 ## Apacheant
 

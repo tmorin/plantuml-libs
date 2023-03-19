@@ -17,6 +17,17 @@ include('simpleicons-8/R/Rhinoceros')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RhinocerosXs>`
+- `<$RhinocerosSm>`
+- `<$RhinocerosMd>`
+- `<$RhinocerosLg>`
+
+
+
+
 
 ## Rhinoceros
 

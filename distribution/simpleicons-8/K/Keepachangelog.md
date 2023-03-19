@@ -17,6 +17,17 @@ include('simpleicons-8/K/Keepachangelog')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KeepachangelogXs>`
+- `<$KeepachangelogSm>`
+- `<$KeepachangelogMd>`
+- `<$KeepachangelogLg>`
+
+
+
+
 
 ## Keepachangelog
 

@@ -17,6 +17,17 @@ include('simpleicons-8/S/Spotify')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SpotifyXs>`
+- `<$SpotifySm>`
+- `<$SpotifyMd>`
+- `<$SpotifyLg>`
+
+
+
+
 
 ## Spotify
 

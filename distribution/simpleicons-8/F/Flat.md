@@ -17,6 +17,17 @@ include('simpleicons-8/F/Flat')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FlatXs>`
+- `<$FlatSm>`
+- `<$FlatMd>`
+- `<$FlatLg>`
+
+
+
+
 
 ## Flat
 

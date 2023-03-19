@@ -17,6 +17,17 @@ include('simpleicons-8/M/Myanimelist')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MyanimelistXs>`
+- `<$MyanimelistSm>`
+- `<$MyanimelistMd>`
+- `<$MyanimelistLg>`
+
+
+
+
 
 ## Myanimelist
 

@@ -17,6 +17,17 @@ include('simpleicons-8/A/Assemblyscript')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AssemblyscriptXs>`
+- `<$AssemblyscriptSm>`
+- `<$AssemblyscriptMd>`
+- `<$AssemblyscriptLg>`
+
+
+
+
 
 ## Assemblyscript
 

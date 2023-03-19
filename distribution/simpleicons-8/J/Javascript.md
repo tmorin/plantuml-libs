@@ -17,6 +17,17 @@ include('simpleicons-8/J/Javascript')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JavascriptXs>`
+- `<$JavascriptSm>`
+- `<$JavascriptMd>`
+- `<$JavascriptLg>`
+
+
+
+
 
 ## Javascript
 

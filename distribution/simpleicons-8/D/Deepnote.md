@@ -17,6 +17,17 @@ include('simpleicons-8/D/Deepnote')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DeepnoteXs>`
+- `<$DeepnoteSm>`
+- `<$DeepnoteMd>`
+- `<$DeepnoteLg>`
+
+
+
+
 
 ## Deepnote
 

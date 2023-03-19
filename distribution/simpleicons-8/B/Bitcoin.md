@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bitcoin')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BitcoinXs>`
+- `<$BitcoinSm>`
+- `<$BitcoinMd>`
+- `<$BitcoinLg>`
+
+
+
+
 
 ## Bitcoin
 

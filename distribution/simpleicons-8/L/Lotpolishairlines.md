@@ -17,6 +17,17 @@ include('simpleicons-8/L/Lotpolishairlines')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LotpolishairlinesXs>`
+- `<$LotpolishairlinesSm>`
+- `<$LotpolishairlinesMd>`
+- `<$LotpolishairlinesLg>`
+
+
+
+
 
 ## Lotpolishairlines
 

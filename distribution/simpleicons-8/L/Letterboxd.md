@@ -17,6 +17,17 @@ include('simpleicons-8/L/Letterboxd')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LetterboxdXs>`
+- `<$LetterboxdSm>`
+- `<$LetterboxdMd>`
+- `<$LetterboxdLg>`
+
+
+
+
 
 ## Letterboxd
 

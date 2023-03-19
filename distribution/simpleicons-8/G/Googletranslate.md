@@ -17,6 +17,17 @@ include('simpleicons-8/G/Googletranslate')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GoogletranslateXs>`
+- `<$GoogletranslateSm>`
+- `<$GoogletranslateMd>`
+- `<$GoogletranslateLg>`
+
+
+
+
 
 ## Googletranslate
 

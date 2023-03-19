@@ -17,6 +17,17 @@ include('simpleicons-8/S/Sellfy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SellfyXs>`
+- `<$SellfySm>`
+- `<$SellfyMd>`
+- `<$SellfyLg>`
+
+
+
+
 
 ## Sellfy
 

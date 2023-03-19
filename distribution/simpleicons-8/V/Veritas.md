@@ -17,6 +17,17 @@ include('simpleicons-8/V/Veritas')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VeritasXs>`
+- `<$VeritasSm>`
+- `<$VeritasMd>`
+- `<$VeritasLg>`
+
+
+
+
 
 ## Veritas
 

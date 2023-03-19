@@ -17,6 +17,17 @@ include('simpleicons-8/C/Coronarenderer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CoronarendererXs>`
+- `<$CoronarendererSm>`
+- `<$CoronarendererMd>`
+- `<$CoronarendererLg>`
+
+
+
+
 
 ## Coronarenderer
 

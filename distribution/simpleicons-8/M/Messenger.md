@@ -17,6 +17,17 @@ include('simpleicons-8/M/Messenger')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MessengerXs>`
+- `<$MessengerSm>`
+- `<$MessengerMd>`
+- `<$MessengerLg>`
+
+
+
+
 
 ## Messenger
 

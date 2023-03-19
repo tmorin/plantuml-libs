@@ -17,6 +17,17 @@ include('simpleicons-8/T/Transportforireland')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TransportforirelandXs>`
+- `<$TransportforirelandSm>`
+- `<$TransportforirelandMd>`
+- `<$TransportforirelandLg>`
+
+
+
+
 
 ## Transportforireland
 

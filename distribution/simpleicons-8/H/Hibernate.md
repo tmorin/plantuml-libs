@@ -17,6 +17,17 @@ include('simpleicons-8/H/Hibernate')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HibernateXs>`
+- `<$HibernateSm>`
+- `<$HibernateMd>`
+- `<$HibernateLg>`
+
+
+
+
 
 ## Hibernate
 

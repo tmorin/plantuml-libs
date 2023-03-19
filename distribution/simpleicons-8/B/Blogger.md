@@ -17,6 +17,17 @@ include('simpleicons-8/B/Blogger')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BloggerXs>`
+- `<$BloggerSm>`
+- `<$BloggerMd>`
+- `<$BloggerLg>`
+
+
+
+
 
 ## Blogger
 

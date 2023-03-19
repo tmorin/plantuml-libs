@@ -17,6 +17,17 @@ include('simpleicons-8/L/Linkerd')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LinkerdXs>`
+- `<$LinkerdSm>`
+- `<$LinkerdMd>`
+- `<$LinkerdLg>`
+
+
+
+
 
 ## Linkerd
 

@@ -17,6 +17,17 @@ include('simpleicons-8/I/Issuu')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IssuuXs>`
+- `<$IssuuSm>`
+- `<$IssuuMd>`
+- `<$IssuuLg>`
+
+
+
+
 
 ## Issuu
 

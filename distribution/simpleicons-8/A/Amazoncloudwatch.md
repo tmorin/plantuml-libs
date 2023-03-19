@@ -17,6 +17,17 @@ include('simpleicons-8/A/Amazoncloudwatch')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazoncloudwatchXs>`
+- `<$AmazoncloudwatchSm>`
+- `<$AmazoncloudwatchMd>`
+- `<$AmazoncloudwatchLg>`
+
+
+
+
 
 ## Amazoncloudwatch
 

@@ -17,6 +17,17 @@ include('simpleicons-8/C/Cakephp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CakephpXs>`
+- `<$CakephpSm>`
+- `<$CakephpMd>`
+- `<$CakephpLg>`
+
+
+
+
 
 ## Cakephp
 

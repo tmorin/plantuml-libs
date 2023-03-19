@@ -17,6 +17,17 @@ include('simpleicons-8/A/Acclaim')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AcclaimXs>`
+- `<$AcclaimSm>`
+- `<$AcclaimMd>`
+- `<$AcclaimLg>`
+
+
+
+
 
 ## Acclaim
 

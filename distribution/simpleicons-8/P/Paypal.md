@@ -17,6 +17,17 @@ include('simpleicons-8/P/Paypal')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PaypalXs>`
+- `<$PaypalSm>`
+- `<$PaypalMd>`
+- `<$PaypalLg>`
+
+
+
+
 
 ## Paypal
 

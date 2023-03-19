@@ -17,6 +17,17 @@ include('simpleicons-8/F/Ferrarinv')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FerrarinvXs>`
+- `<$FerrarinvSm>`
+- `<$FerrarinvMd>`
+- `<$FerrarinvLg>`
+
+
+
+
 
 ## Ferrarinv
 

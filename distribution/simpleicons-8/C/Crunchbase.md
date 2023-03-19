@@ -17,6 +17,17 @@ include('simpleicons-8/C/Crunchbase')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CrunchbaseXs>`
+- `<$CrunchbaseSm>`
+- `<$CrunchbaseMd>`
+- `<$CrunchbaseLg>`
+
+
+
+
 
 ## Crunchbase
 

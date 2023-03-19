@@ -17,6 +17,17 @@ include('simpleicons-8/S/Suzuki')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SuzukiXs>`
+- `<$SuzukiSm>`
+- `<$SuzukiMd>`
+- `<$SuzukiLg>`
+
+
+
+
 
 ## Suzuki
 

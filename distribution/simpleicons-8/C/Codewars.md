@@ -17,6 +17,17 @@ include('simpleicons-8/C/Codewars')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CodewarsXs>`
+- `<$CodewarsSm>`
+- `<$CodewarsMd>`
+- `<$CodewarsLg>`
+
+
+
+
 
 ## Codewars
 

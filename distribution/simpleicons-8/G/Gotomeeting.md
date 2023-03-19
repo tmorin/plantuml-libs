@@ -17,6 +17,17 @@ include('simpleicons-8/G/Gotomeeting')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GotomeetingXs>`
+- `<$GotomeetingSm>`
+- `<$GotomeetingMd>`
+- `<$GotomeetingLg>`
+
+
+
+
 
 ## Gotomeeting
 

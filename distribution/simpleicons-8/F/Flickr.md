@@ -17,6 +17,17 @@ include('simpleicons-8/F/Flickr')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FlickrXs>`
+- `<$FlickrSm>`
+- `<$FlickrMd>`
+- `<$FlickrLg>`
+
+
+
+
 
 ## Flickr
 

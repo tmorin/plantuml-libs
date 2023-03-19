@@ -17,6 +17,17 @@ include('simpleicons-8/P/Purescript')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PurescriptXs>`
+- `<$PurescriptSm>`
+- `<$PurescriptMd>`
+- `<$PurescriptLg>`
+
+
+
+
 
 ## Purescript
 

@@ -17,6 +17,17 @@ include('simpleicons-8/R/Reduxsaga')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ReduxsagaXs>`
+- `<$ReduxsagaSm>`
+- `<$ReduxsagaMd>`
+- `<$ReduxsagaLg>`
+
+
+
+
 
 ## Reduxsaga
 

@@ -17,6 +17,17 @@ include('simpleicons-8/C/Cognizant')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CognizantXs>`
+- `<$CognizantSm>`
+- `<$CognizantMd>`
+- `<$CognizantLg>`
+
+
+
+
 
 ## Cognizant
 

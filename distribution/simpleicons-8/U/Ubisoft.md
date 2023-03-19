@@ -17,6 +17,17 @@ include('simpleicons-8/U/Ubisoft')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UbisoftXs>`
+- `<$UbisoftSm>`
+- `<$UbisoftMd>`
+- `<$UbisoftLg>`
+
+
+
+
 
 ## Ubisoft
 

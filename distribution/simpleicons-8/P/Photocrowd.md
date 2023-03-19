@@ -17,6 +17,17 @@ include('simpleicons-8/P/Photocrowd')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PhotocrowdXs>`
+- `<$PhotocrowdSm>`
+- `<$PhotocrowdMd>`
+- `<$PhotocrowdLg>`
+
+
+
+
 
 ## Photocrowd
 

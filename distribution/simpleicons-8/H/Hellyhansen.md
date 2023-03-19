@@ -17,6 +17,17 @@ include('simpleicons-8/H/Hellyhansen')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HellyhansenXs>`
+- `<$HellyhansenSm>`
+- `<$HellyhansenMd>`
+- `<$HellyhansenLg>`
+
+
+
+
 
 ## Hellyhansen
 

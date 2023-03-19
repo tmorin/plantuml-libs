@@ -17,6 +17,17 @@ include('simpleicons-8/R/Rxdb')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RxdbXs>`
+- `<$RxdbSm>`
+- `<$RxdbMd>`
+- `<$RxdbLg>`
+
+
+
+
 
 ## Rxdb
 

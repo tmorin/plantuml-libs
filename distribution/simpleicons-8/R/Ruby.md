@@ -17,6 +17,17 @@ include('simpleicons-8/R/Ruby')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RubyXs>`
+- `<$RubySm>`
+- `<$RubyMd>`
+- `<$RubyLg>`
+
+
+
+
 
 ## Ruby
 

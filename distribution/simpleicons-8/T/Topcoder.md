@@ -17,6 +17,17 @@ include('simpleicons-8/T/Topcoder')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TopcoderXs>`
+- `<$TopcoderSm>`
+- `<$TopcoderMd>`
+- `<$TopcoderLg>`
+
+
+
+
 
 ## Topcoder
 

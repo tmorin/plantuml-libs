@@ -17,6 +17,17 @@ include('simpleicons-8/T/Teamspeak')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TeamspeakXs>`
+- `<$TeamspeakSm>`
+- `<$TeamspeakMd>`
+- `<$TeamspeakLg>`
+
+
+
+
 
 ## Teamspeak
 

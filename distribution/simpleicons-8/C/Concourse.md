@@ -17,6 +17,17 @@ include('simpleicons-8/C/Concourse')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ConcourseXs>`
+- `<$ConcourseSm>`
+- `<$ConcourseMd>`
+- `<$ConcourseLg>`
+
+
+
+
 
 ## Concourse
 

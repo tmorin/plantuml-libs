@@ -17,6 +17,17 @@ include('simpleicons-8/N/Nim')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NimXs>`
+- `<$NimSm>`
+- `<$NimMd>`
+- `<$NimLg>`
+
+
+
+
 
 ## Nim
 

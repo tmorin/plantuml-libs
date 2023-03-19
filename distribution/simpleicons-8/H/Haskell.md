@@ -17,6 +17,17 @@ include('simpleicons-8/H/Haskell')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HaskellXs>`
+- `<$HaskellSm>`
+- `<$HaskellMd>`
+- `<$HaskellLg>`
+
+
+
+
 
 ## Haskell
 

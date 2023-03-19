@@ -17,6 +17,17 @@ include('simpleicons-8/A/Aurelia')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AureliaXs>`
+- `<$AureliaSm>`
+- `<$AureliaMd>`
+- `<$AureliaLg>`
+
+
+
+
 
 ## Aurelia
 

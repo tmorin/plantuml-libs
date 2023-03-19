@@ -17,6 +17,17 @@ include('simpleicons-8/P/Prezi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PreziXs>`
+- `<$PreziSm>`
+- `<$PreziMd>`
+- `<$PreziLg>`
+
+
+
+
 
 ## Prezi
 

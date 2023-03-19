@@ -17,6 +17,17 @@ include('simpleicons-8/M/Mailchimp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MailchimpXs>`
+- `<$MailchimpSm>`
+- `<$MailchimpMd>`
+- `<$MailchimpLg>`
+
+
+
+
 
 ## Mailchimp
 

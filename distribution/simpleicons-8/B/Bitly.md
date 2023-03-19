@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bitly')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BitlyXs>`
+- `<$BitlySm>`
+- `<$BitlyMd>`
+- `<$BitlyLg>`
+
+
+
+
 
 ## Bitly
 

@@ -17,6 +17,17 @@ include('simpleicons-8/A/Apachepulsar')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ApachepulsarXs>`
+- `<$ApachepulsarSm>`
+- `<$ApachepulsarMd>`
+- `<$ApachepulsarLg>`
+
+
+
+
 
 ## Apachepulsar
 

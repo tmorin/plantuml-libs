@@ -17,6 +17,17 @@ include('simpleicons-8/D/Delicious')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DeliciousXs>`
+- `<$DeliciousSm>`
+- `<$DeliciousMd>`
+- `<$DeliciousLg>`
+
+
+
+
 
 ## Delicious
 

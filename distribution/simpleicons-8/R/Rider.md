@@ -17,6 +17,17 @@ include('simpleicons-8/R/Rider')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RiderXs>`
+- `<$RiderSm>`
+- `<$RiderMd>`
+- `<$RiderLg>`
+
+
+
+
 
 ## Rider
 

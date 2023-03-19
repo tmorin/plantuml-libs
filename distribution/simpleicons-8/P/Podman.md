@@ -17,6 +17,17 @@ include('simpleicons-8/P/Podman')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PodmanXs>`
+- `<$PodmanSm>`
+- `<$PodmanMd>`
+- `<$PodmanLg>`
+
+
+
+
 
 ## Podman
 

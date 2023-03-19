@@ -17,6 +17,17 @@ include('simpleicons-8/C/Comsol')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ComsolXs>`
+- `<$ComsolSm>`
+- `<$ComsolMd>`
+- `<$ComsolLg>`
+
+
+
+
 
 ## Comsol
 

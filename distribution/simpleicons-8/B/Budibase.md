@@ -17,6 +17,17 @@ include('simpleicons-8/B/Budibase')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BudibaseXs>`
+- `<$BudibaseSm>`
+- `<$BudibaseMd>`
+- `<$BudibaseLg>`
+
+
+
+
 
 ## Budibase
 

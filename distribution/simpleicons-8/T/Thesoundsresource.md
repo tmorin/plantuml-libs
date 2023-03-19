@@ -17,6 +17,17 @@ include('simpleicons-8/T/Thesoundsresource')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ThesoundsresourceXs>`
+- `<$ThesoundsresourceSm>`
+- `<$ThesoundsresourceMd>`
+- `<$ThesoundsresourceLg>`
+
+
+
+
 
 ## Thesoundsresource
 

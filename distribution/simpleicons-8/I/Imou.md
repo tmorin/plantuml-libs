@@ -17,6 +17,17 @@ include('simpleicons-8/I/Imou')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ImouXs>`
+- `<$ImouSm>`
+- `<$ImouMd>`
+- `<$ImouLg>`
+
+
+
+
 
 ## Imou
 

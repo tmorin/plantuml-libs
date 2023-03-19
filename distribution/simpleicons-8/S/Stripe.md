@@ -17,6 +17,17 @@ include('simpleicons-8/S/Stripe')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StripeXs>`
+- `<$StripeSm>`
+- `<$StripeMd>`
+- `<$StripeLg>`
+
+
+
+
 
 ## Stripe
 

@@ -17,6 +17,17 @@ include('simpleicons-8/P/Postmates')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PostmatesXs>`
+- `<$PostmatesSm>`
+- `<$PostmatesMd>`
+- `<$PostmatesLg>`
+
+
+
+
 
 ## Postmates
 

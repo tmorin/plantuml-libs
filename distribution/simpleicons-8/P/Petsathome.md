@@ -17,6 +17,17 @@ include('simpleicons-8/P/Petsathome')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PetsathomeXs>`
+- `<$PetsathomeSm>`
+- `<$PetsathomeMd>`
+- `<$PetsathomeLg>`
+
+
+
+
 
 ## Petsathome
 

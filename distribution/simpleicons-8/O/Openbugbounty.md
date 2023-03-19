@@ -17,6 +17,17 @@ include('simpleicons-8/O/Openbugbounty')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OpenbugbountyXs>`
+- `<$OpenbugbountySm>`
+- `<$OpenbugbountyMd>`
+- `<$OpenbugbountyLg>`
+
+
+
+
 
 ## Openbugbounty
 

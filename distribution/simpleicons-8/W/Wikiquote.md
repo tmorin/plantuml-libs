@@ -17,6 +17,17 @@ include('simpleicons-8/W/Wikiquote')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WikiquoteXs>`
+- `<$WikiquoteSm>`
+- `<$WikiquoteMd>`
+- `<$WikiquoteLg>`
+
+
+
+
 
 ## Wikiquote
 

@@ -17,6 +17,17 @@ include('simpleicons-8/S/Slideshare')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SlideshareXs>`
+- `<$SlideshareSm>`
+- `<$SlideshareMd>`
+- `<$SlideshareLg>`
+
+
+
+
 
 ## Slideshare
 

@@ -17,6 +17,17 @@ include('simpleicons-8/S/Skype')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SkypeXs>`
+- `<$SkypeSm>`
+- `<$SkypeMd>`
+- `<$SkypeLg>`
+
+
+
+
 
 ## Skype
 

@@ -17,6 +17,17 @@ include('simpleicons-8/P/Probot')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ProbotXs>`
+- `<$ProbotSm>`
+- `<$ProbotMd>`
+- `<$ProbotLg>`
+
+
+
+
 
 ## Probot
 

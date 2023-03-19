@@ -17,6 +17,17 @@ include('simpleicons-8/S/Stylus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StylusXs>`
+- `<$StylusSm>`
+- `<$StylusMd>`
+- `<$StylusLg>`
+
+
+
+
 
 ## Stylus
 

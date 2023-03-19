@@ -17,6 +17,17 @@ include('simpleicons-8/D/Dribbble')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DribbbleXs>`
+- `<$DribbbleSm>`
+- `<$DribbbleMd>`
+- `<$DribbbleLg>`
+
+
+
+
 
 ## Dribbble
 

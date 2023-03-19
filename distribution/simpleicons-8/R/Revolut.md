@@ -17,6 +17,17 @@ include('simpleicons-8/R/Revolut')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RevolutXs>`
+- `<$RevolutSm>`
+- `<$RevolutMd>`
+- `<$RevolutLg>`
+
+
+
+
 
 ## Revolut
 

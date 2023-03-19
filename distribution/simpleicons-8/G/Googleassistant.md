@@ -17,6 +17,17 @@ include('simpleicons-8/G/Googleassistant')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GoogleassistantXs>`
+- `<$GoogleassistantSm>`
+- `<$GoogleassistantMd>`
+- `<$GoogleassistantLg>`
+
+
+
+
 
 ## Googleassistant
 

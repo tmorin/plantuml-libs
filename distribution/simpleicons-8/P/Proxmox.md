@@ -17,6 +17,17 @@ include('simpleicons-8/P/Proxmox')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ProxmoxXs>`
+- `<$ProxmoxSm>`
+- `<$ProxmoxMd>`
+- `<$ProxmoxLg>`
+
+
+
+
 
 ## Proxmox
 

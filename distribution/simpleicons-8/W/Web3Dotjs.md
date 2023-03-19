@@ -17,6 +17,17 @@ include('simpleicons-8/W/Web3Dotjs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$Web3DotjsXs>`
+- `<$Web3DotjsSm>`
+- `<$Web3DotjsMd>`
+- `<$Web3DotjsLg>`
+
+
+
+
 
 ## Web3Dotjs
 

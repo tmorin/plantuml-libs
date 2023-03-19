@@ -17,6 +17,17 @@ include('simpleicons-8/T/Themodelsresource')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ThemodelsresourceXs>`
+- `<$ThemodelsresourceSm>`
+- `<$ThemodelsresourceMd>`
+- `<$ThemodelsresourceLg>`
+
+
+
+
 
 ## Themodelsresource
 

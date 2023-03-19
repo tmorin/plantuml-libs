@@ -17,6 +17,17 @@ include('simpleicons-8/O/Opera')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OperaXs>`
+- `<$OperaSm>`
+- `<$OperaMd>`
+- `<$OperaLg>`
+
+
+
+
 
 ## Opera
 

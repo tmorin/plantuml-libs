@@ -17,6 +17,17 @@ include('simpleicons-8/E/Ethereum')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EthereumXs>`
+- `<$EthereumSm>`
+- `<$EthereumMd>`
+- `<$EthereumLg>`
+
+
+
+
 
 ## Ethereum
 

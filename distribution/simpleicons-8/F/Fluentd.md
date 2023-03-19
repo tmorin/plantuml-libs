@@ -17,6 +17,17 @@ include('simpleicons-8/F/Fluentd')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FluentdXs>`
+- `<$FluentdSm>`
+- `<$FluentdMd>`
+- `<$FluentdLg>`
+
+
+
+
 
 ## Fluentd
 

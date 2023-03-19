@@ -17,6 +17,17 @@ include('simpleicons-8/L/Lufthansa')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LufthansaXs>`
+- `<$LufthansaSm>`
+- `<$LufthansaMd>`
+- `<$LufthansaLg>`
+
+
+
+
 
 ## Lufthansa
 

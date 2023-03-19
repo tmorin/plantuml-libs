@@ -17,6 +17,17 @@ include('simpleicons-8/L/Loopback')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LoopbackXs>`
+- `<$LoopbackSm>`
+- `<$LoopbackMd>`
+- `<$LoopbackLg>`
+
+
+
+
 
 ## Loopback
 

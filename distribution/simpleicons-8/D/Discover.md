@@ -17,6 +17,17 @@ include('simpleicons-8/D/Discover')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DiscoverXs>`
+- `<$DiscoverSm>`
+- `<$DiscoverMd>`
+- `<$DiscoverLg>`
+
+
+
+
 
 ## Discover
 

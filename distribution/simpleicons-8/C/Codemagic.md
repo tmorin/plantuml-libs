@@ -17,6 +17,17 @@ include('simpleicons-8/C/Codemagic')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CodemagicXs>`
+- `<$CodemagicSm>`
+- `<$CodemagicMd>`
+- `<$CodemagicLg>`
+
+
+
+
 
 ## Codemagic
 

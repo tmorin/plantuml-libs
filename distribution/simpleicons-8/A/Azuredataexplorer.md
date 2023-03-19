@@ -17,6 +17,17 @@ include('simpleicons-8/A/Azuredataexplorer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AzuredataexplorerXs>`
+- `<$AzuredataexplorerSm>`
+- `<$AzuredataexplorerMd>`
+- `<$AzuredataexplorerLg>`
+
+
+
+
 
 ## Azuredataexplorer
 

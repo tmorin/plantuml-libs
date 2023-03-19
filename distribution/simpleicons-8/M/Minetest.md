@@ -17,6 +17,17 @@ include('simpleicons-8/M/Minetest')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MinetestXs>`
+- `<$MinetestSm>`
+- `<$MinetestMd>`
+- `<$MinetestLg>`
+
+
+
+
 
 ## Minetest
 

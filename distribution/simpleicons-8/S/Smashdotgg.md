@@ -17,6 +17,17 @@ include('simpleicons-8/S/Smashdotgg')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SmashdotggXs>`
+- `<$SmashdotggSm>`
+- `<$SmashdotggMd>`
+- `<$SmashdotggLg>`
+
+
+
+
 
 ## Smashdotgg
 

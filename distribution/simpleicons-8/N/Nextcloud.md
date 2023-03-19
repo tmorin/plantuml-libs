@@ -17,6 +17,17 @@ include('simpleicons-8/N/Nextcloud')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NextcloudXs>`
+- `<$NextcloudSm>`
+- `<$NextcloudMd>`
+- `<$NextcloudLg>`
+
+
+
+
 
 ## Nextcloud
 

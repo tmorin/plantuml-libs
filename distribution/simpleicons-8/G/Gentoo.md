@@ -17,6 +17,17 @@ include('simpleicons-8/G/Gentoo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GentooXs>`
+- `<$GentooSm>`
+- `<$GentooMd>`
+- `<$GentooLg>`
+
+
+
+
 
 ## Gentoo
 

@@ -17,6 +17,17 @@ include('simpleicons-8/H/Humblebundle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HumblebundleXs>`
+- `<$HumblebundleSm>`
+- `<$HumblebundleMd>`
+- `<$HumblebundleLg>`
+
+
+
+
 
 ## Humblebundle
 

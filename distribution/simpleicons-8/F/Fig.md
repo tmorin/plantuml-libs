@@ -17,6 +17,17 @@ include('simpleicons-8/F/Fig')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FigXs>`
+- `<$FigSm>`
+- `<$FigMd>`
+- `<$FigLg>`
+
+
+
+
 
 ## Fig
 

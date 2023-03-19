@@ -17,6 +17,17 @@ include('simpleicons-8/R/Retropie')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RetropieXs>`
+- `<$RetropieSm>`
+- `<$RetropieMd>`
+- `<$RetropieLg>`
+
+
+
+
 
 ## Retropie
 

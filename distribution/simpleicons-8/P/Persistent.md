@@ -17,6 +17,17 @@ include('simpleicons-8/P/Persistent')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PersistentXs>`
+- `<$PersistentSm>`
+- `<$PersistentMd>`
+- `<$PersistentLg>`
+
+
+
+
 
 ## Persistent
 

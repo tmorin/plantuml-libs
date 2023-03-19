@@ -17,6 +17,17 @@ include('simpleicons-8/P/Presto')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PrestoXs>`
+- `<$PrestoSm>`
+- `<$PrestoMd>`
+- `<$PrestoLg>`
+
+
+
+
 
 ## Presto
 

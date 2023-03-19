@@ -17,6 +17,17 @@ include('simpleicons-8/S/Swc')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SwcXs>`
+- `<$SwcSm>`
+- `<$SwcMd>`
+- `<$SwcLg>`
+
+
+
+
 
 ## Swc
 

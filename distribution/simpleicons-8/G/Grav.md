@@ -17,6 +17,17 @@ include('simpleicons-8/G/Grav')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GravXs>`
+- `<$GravSm>`
+- `<$GravMd>`
+- `<$GravLg>`
+
+
+
+
 
 ## Grav
 

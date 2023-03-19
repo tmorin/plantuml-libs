@@ -17,6 +17,17 @@ include('simpleicons-8/O/Opentelemetry')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OpentelemetryXs>`
+- `<$OpentelemetrySm>`
+- `<$OpentelemetryMd>`
+- `<$OpentelemetryLg>`
+
+
+
+
 
 ## Opentelemetry
 

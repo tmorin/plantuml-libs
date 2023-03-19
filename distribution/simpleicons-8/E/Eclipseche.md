@@ -17,6 +17,17 @@ include('simpleicons-8/E/Eclipseche')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EclipsecheXs>`
+- `<$EclipsecheSm>`
+- `<$EclipsecheMd>`
+- `<$EclipsecheLg>`
+
+
+
+
 
 ## Eclipseche
 

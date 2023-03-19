@@ -17,6 +17,17 @@ include('simpleicons-8/V/Virgin')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VirginXs>`
+- `<$VirginSm>`
+- `<$VirginMd>`
+- `<$VirginLg>`
+
+
+
+
 
 ## Virgin
 

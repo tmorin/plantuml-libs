@@ -17,6 +17,17 @@ include('simpleicons-8/J/Jetbrains')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JetbrainsXs>`
+- `<$JetbrainsSm>`
+- `<$JetbrainsMd>`
+- `<$JetbrainsLg>`
+
+
+
+
 
 ## Jetbrains
 

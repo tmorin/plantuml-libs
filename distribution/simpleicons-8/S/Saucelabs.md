@@ -17,6 +17,17 @@ include('simpleicons-8/S/Saucelabs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SaucelabsXs>`
+- `<$SaucelabsSm>`
+- `<$SaucelabsMd>`
+- `<$SaucelabsLg>`
+
+
+
+
 
 ## Saucelabs
 

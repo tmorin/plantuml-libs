@@ -17,6 +17,17 @@ include('simpleicons-8/S/Scania')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ScaniaXs>`
+- `<$ScaniaSm>`
+- `<$ScaniaMd>`
+- `<$ScaniaLg>`
+
+
+
+
 
 ## Scania
 

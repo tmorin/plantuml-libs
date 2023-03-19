@@ -17,6 +17,17 @@ include('simpleicons-8/T/Toshiba')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ToshibaXs>`
+- `<$ToshibaSm>`
+- `<$ToshibaMd>`
+- `<$ToshibaLg>`
+
+
+
+
 
 ## Toshiba
 

@@ -17,6 +17,17 @@ include('simpleicons-8/L/Logitech')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LogitechXs>`
+- `<$LogitechSm>`
+- `<$LogitechMd>`
+- `<$LogitechLg>`
+
+
+
+
 
 ## Logitech
 

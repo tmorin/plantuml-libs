@@ -17,6 +17,17 @@ include('simpleicons-8/U/Uptobox')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UptoboxXs>`
+- `<$UptoboxSm>`
+- `<$UptoboxMd>`
+- `<$UptoboxLg>`
+
+
+
+
 
 ## Uptobox
 

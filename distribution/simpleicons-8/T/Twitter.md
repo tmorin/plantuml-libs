@@ -17,6 +17,17 @@ include('simpleicons-8/T/Twitter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TwitterXs>`
+- `<$TwitterSm>`
+- `<$TwitterMd>`
+- `<$TwitterLg>`
+
+
+
+
 
 ## Twitter
 

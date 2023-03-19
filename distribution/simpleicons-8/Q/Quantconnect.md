@@ -17,6 +17,17 @@ include('simpleicons-8/Q/Quantconnect')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$QuantconnectXs>`
+- `<$QuantconnectSm>`
+- `<$QuantconnectMd>`
+- `<$QuantconnectLg>`
+
+
+
+
 
 ## Quantconnect
 

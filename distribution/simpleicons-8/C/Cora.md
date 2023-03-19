@@ -17,6 +17,17 @@ include('simpleicons-8/C/Cora')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CoraXs>`
+- `<$CoraSm>`
+- `<$CoraMd>`
+- `<$CoraLg>`
+
+
+
+
 
 ## Cora
 

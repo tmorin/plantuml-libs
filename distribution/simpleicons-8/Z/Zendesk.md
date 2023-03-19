@@ -17,6 +17,17 @@ include('simpleicons-8/Z/Zendesk')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ZendeskXs>`
+- `<$ZendeskSm>`
+- `<$ZendeskMd>`
+- `<$ZendeskLg>`
+
+
+
+
 
 ## Zendesk
 

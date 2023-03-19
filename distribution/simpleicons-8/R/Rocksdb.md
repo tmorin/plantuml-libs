@@ -17,6 +17,17 @@ include('simpleicons-8/R/Rocksdb')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RocksdbXs>`
+- `<$RocksdbSm>`
+- `<$RocksdbMd>`
+- `<$RocksdbLg>`
+
+
+
+
 
 ## Rocksdb
 

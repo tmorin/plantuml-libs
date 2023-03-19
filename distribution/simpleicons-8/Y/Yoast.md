@@ -17,6 +17,17 @@ include('simpleicons-8/Y/Yoast')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$YoastXs>`
+- `<$YoastSm>`
+- `<$YoastMd>`
+- `<$YoastLg>`
+
+
+
+
 
 ## Yoast
 

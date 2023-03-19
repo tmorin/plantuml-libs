@@ -17,6 +17,17 @@ include('simpleicons-8/D/Dedge')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DedgeXs>`
+- `<$DedgeSm>`
+- `<$DedgeMd>`
+- `<$DedgeLg>`
+
+
+
+
 
 ## Dedge
 

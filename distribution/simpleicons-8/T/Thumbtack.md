@@ -17,6 +17,17 @@ include('simpleicons-8/T/Thumbtack')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ThumbtackXs>`
+- `<$ThumbtackSm>`
+- `<$ThumbtackMd>`
+- `<$ThumbtackLg>`
+
+
+
+
 
 ## Thumbtack
 

@@ -17,6 +17,17 @@ include('simpleicons-8/E/Envato')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EnvatoXs>`
+- `<$EnvatoSm>`
+- `<$EnvatoMd>`
+- `<$EnvatoLg>`
+
+
+
+
 
 ## Envato
 

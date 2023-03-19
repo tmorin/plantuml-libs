@@ -17,6 +17,17 @@ include('simpleicons-8/G/Gerrit')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GerritXs>`
+- `<$GerritSm>`
+- `<$GerritMd>`
+- `<$GerritLg>`
+
+
+
+
 
 ## Gerrit
 

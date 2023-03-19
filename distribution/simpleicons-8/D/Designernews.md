@@ -17,6 +17,17 @@ include('simpleicons-8/D/Designernews')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DesignernewsXs>`
+- `<$DesignernewsSm>`
+- `<$DesignernewsMd>`
+- `<$DesignernewsLg>`
+
+
+
+
 
 ## Designernews
 

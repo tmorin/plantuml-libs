@@ -17,6 +17,17 @@ include('simpleicons-8/D/Dungeonsanddragons')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DungeonsanddragonsXs>`
+- `<$DungeonsanddragonsSm>`
+- `<$DungeonsanddragonsMd>`
+- `<$DungeonsanddragonsLg>`
+
+
+
+
 
 ## Dungeonsanddragons
 

@@ -17,6 +17,17 @@ include('simpleicons-8/T/Trove')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TroveXs>`
+- `<$TroveSm>`
+- `<$TroveMd>`
+- `<$TroveLg>`
+
+
+
+
 
 ## Trove
 

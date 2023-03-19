@@ -17,6 +17,17 @@ include('simpleicons-8/S/Stackblitz')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StackblitzXs>`
+- `<$StackblitzSm>`
+- `<$StackblitzMd>`
+- `<$StackblitzLg>`
+
+
+
+
 
 ## Stackblitz
 

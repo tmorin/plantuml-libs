@@ -17,6 +17,17 @@ include('simpleicons-8/F/Flipboard')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FlipboardXs>`
+- `<$FlipboardSm>`
+- `<$FlipboardMd>`
+- `<$FlipboardLg>`
+
+
+
+
 
 ## Flipboard
 

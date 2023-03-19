@@ -17,6 +17,17 @@ include('simpleicons-8/C/Composer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ComposerXs>`
+- `<$ComposerSm>`
+- `<$ComposerMd>`
+- `<$ComposerLg>`
+
+
+
+
 
 ## Composer
 

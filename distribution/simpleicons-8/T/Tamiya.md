@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tamiya')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TamiyaXs>`
+- `<$TamiyaSm>`
+- `<$TamiyaMd>`
+- `<$TamiyaLg>`
+
+
+
+
 
 ## Tamiya
 

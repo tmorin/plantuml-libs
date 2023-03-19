@@ -17,6 +17,17 @@ include('simpleicons-8/A/Adp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AdpXs>`
+- `<$AdpSm>`
+- `<$AdpMd>`
+- `<$AdpLg>`
+
+
+
+
 
 ## Adp
 

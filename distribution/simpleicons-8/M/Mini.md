@@ -17,6 +17,17 @@ include('simpleicons-8/M/Mini')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MiniXs>`
+- `<$MiniSm>`
+- `<$MiniMd>`
+- `<$MiniLg>`
+
+
+
+
 
 ## Mini
 

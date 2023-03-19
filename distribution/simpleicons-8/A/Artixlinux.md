@@ -17,6 +17,17 @@ include('simpleicons-8/A/Artixlinux')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ArtixlinuxXs>`
+- `<$ArtixlinuxSm>`
+- `<$ArtixlinuxMd>`
+- `<$ArtixlinuxLg>`
+
+
+
+
 
 ## Artixlinux
 

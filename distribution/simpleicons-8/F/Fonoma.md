@@ -17,6 +17,17 @@ include('simpleicons-8/F/Fonoma')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FonomaXs>`
+- `<$FonomaSm>`
+- `<$FonomaMd>`
+- `<$FonomaLg>`
+
+
+
+
 
 ## Fonoma
 

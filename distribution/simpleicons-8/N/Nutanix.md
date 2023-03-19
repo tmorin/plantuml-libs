@@ -17,6 +17,17 @@ include('simpleicons-8/N/Nutanix')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NutanixXs>`
+- `<$NutanixSm>`
+- `<$NutanixMd>`
+- `<$NutanixLg>`
+
+
+
+
 
 ## Nutanix
 

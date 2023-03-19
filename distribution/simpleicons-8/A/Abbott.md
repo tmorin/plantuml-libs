@@ -17,6 +17,17 @@ include('simpleicons-8/A/Abbott')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AbbottXs>`
+- `<$AbbottSm>`
+- `<$AbbottMd>`
+- `<$AbbottLg>`
+
+
+
+
 
 ## Abbott
 

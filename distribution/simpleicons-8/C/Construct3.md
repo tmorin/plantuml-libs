@@ -17,6 +17,17 @@ include('simpleicons-8/C/Construct3')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$Construct3Xs>`
+- `<$Construct3Sm>`
+- `<$Construct3Md>`
+- `<$Construct3Lg>`
+
+
+
+
 
 ## Construct3
 

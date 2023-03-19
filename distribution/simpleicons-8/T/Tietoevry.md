@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tietoevry')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TietoevryXs>`
+- `<$TietoevrySm>`
+- `<$TietoevryMd>`
+- `<$TietoevryLg>`
+
+
+
+
 
 ## Tietoevry
 

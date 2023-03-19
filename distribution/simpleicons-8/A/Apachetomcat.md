@@ -17,6 +17,17 @@ include('simpleicons-8/A/Apachetomcat')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ApachetomcatXs>`
+- `<$ApachetomcatSm>`
+- `<$ApachetomcatMd>`
+- `<$ApachetomcatLg>`
+
+
+
+
 
 ## Apachetomcat
 

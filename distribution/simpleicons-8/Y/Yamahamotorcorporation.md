@@ -17,6 +17,17 @@ include('simpleicons-8/Y/Yamahamotorcorporation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$YamahamotorcorporationXs>`
+- `<$YamahamotorcorporationSm>`
+- `<$YamahamotorcorporationMd>`
+- `<$YamahamotorcorporationLg>`
+
+
+
+
 
 ## Yamahamotorcorporation
 

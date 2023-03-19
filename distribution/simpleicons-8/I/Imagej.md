@@ -17,6 +17,17 @@ include('simpleicons-8/I/Imagej')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ImagejXs>`
+- `<$ImagejSm>`
+- `<$ImagejMd>`
+- `<$ImagejLg>`
+
+
+
+
 
 ## Imagej
 

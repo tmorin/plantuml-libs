@@ -17,6 +17,17 @@ include('simpleicons-8/S/Steamdeck')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SteamdeckXs>`
+- `<$SteamdeckSm>`
+- `<$SteamdeckMd>`
+- `<$SteamdeckLg>`
+
+
+
+
 
 ## Steamdeck
 

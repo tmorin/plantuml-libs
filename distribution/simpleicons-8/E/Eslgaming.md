@@ -17,6 +17,17 @@ include('simpleicons-8/E/Eslgaming')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EslgamingXs>`
+- `<$EslgamingSm>`
+- `<$EslgamingMd>`
+- `<$EslgamingLg>`
+
+
+
+
 
 ## Eslgaming
 

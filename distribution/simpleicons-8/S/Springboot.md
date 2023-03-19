@@ -17,6 +17,17 @@ include('simpleicons-8/S/Springboot')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SpringbootXs>`
+- `<$SpringbootSm>`
+- `<$SpringbootMd>`
+- `<$SpringbootLg>`
+
+
+
+
 
 ## Springboot
 

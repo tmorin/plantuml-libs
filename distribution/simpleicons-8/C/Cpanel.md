@@ -17,6 +17,17 @@ include('simpleicons-8/C/Cpanel')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CpanelXs>`
+- `<$CpanelSm>`
+- `<$CpanelMd>`
+- `<$CpanelLg>`
+
+
+
+
 
 ## Cpanel
 

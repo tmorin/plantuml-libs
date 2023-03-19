@@ -17,6 +17,17 @@ include('simpleicons-8/N/Nationalgrid')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NationalgridXs>`
+- `<$NationalgridSm>`
+- `<$NationalgridMd>`
+- `<$NationalgridLg>`
+
+
+
+
 
 ## Nationalgrid
 

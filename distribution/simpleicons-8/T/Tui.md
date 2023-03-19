@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tui')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TuiXs>`
+- `<$TuiSm>`
+- `<$TuiMd>`
+- `<$TuiLg>`
+
+
+
+
 
 ## Tui
 

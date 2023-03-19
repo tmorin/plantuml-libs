@@ -17,6 +17,17 @@ include('simpleicons-8/H/Helpscout')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HelpscoutXs>`
+- `<$HelpscoutSm>`
+- `<$HelpscoutMd>`
+- `<$HelpscoutLg>`
+
+
+
+
 
 ## Helpscout
 

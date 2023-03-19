@@ -17,6 +17,17 @@ include('simpleicons-8/R/React')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ReactXs>`
+- `<$ReactSm>`
+- `<$ReactMd>`
+- `<$ReactLg>`
+
+
+
+
 
 ## React
 

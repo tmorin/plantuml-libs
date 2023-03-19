@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bilibili')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BilibiliXs>`
+- `<$BilibiliSm>`
+- `<$BilibiliMd>`
+- `<$BilibiliLg>`
+
+
+
+
 
 ## Bilibili
 

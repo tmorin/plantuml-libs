@@ -17,6 +17,17 @@ include('simpleicons-8/R/Revue')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RevueXs>`
+- `<$RevueSm>`
+- `<$RevueMd>`
+- `<$RevueLg>`
+
+
+
+
 
 ## Revue
 

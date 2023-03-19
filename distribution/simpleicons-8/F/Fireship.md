@@ -17,6 +17,17 @@ include('simpleicons-8/F/Fireship')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FireshipXs>`
+- `<$FireshipSm>`
+- `<$FireshipMd>`
+- `<$FireshipLg>`
+
+
+
+
 
 ## Fireship
 

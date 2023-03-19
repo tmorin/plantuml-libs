@@ -17,6 +17,17 @@ include('simpleicons-8/G/Grafana')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GrafanaXs>`
+- `<$GrafanaSm>`
+- `<$GrafanaMd>`
+- `<$GrafanaLg>`
+
+
+
+
 
 ## Grafana
 

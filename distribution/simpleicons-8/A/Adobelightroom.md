@@ -17,6 +17,17 @@ include('simpleicons-8/A/Adobelightroom')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AdobelightroomXs>`
+- `<$AdobelightroomSm>`
+- `<$AdobelightroomMd>`
+- `<$AdobelightroomLg>`
+
+
+
+
 
 ## Adobelightroom
 

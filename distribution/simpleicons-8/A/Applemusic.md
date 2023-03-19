@@ -17,6 +17,17 @@ include('simpleicons-8/A/Applemusic')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ApplemusicXs>`
+- `<$ApplemusicSm>`
+- `<$ApplemusicMd>`
+- `<$ApplemusicLg>`
+
+
+
+
 
 ## Applemusic
 

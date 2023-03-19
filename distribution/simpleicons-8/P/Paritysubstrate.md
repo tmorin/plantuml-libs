@@ -17,6 +17,17 @@ include('simpleicons-8/P/Paritysubstrate')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ParitysubstrateXs>`
+- `<$ParitysubstrateSm>`
+- `<$ParitysubstrateMd>`
+- `<$ParitysubstrateLg>`
+
+
+
+
 
 ## Paritysubstrate
 

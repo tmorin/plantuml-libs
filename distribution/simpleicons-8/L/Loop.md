@@ -17,6 +17,17 @@ include('simpleicons-8/L/Loop')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LoopXs>`
+- `<$LoopSm>`
+- `<$LoopMd>`
+- `<$LoopLg>`
+
+
+
+
 
 ## Loop
 

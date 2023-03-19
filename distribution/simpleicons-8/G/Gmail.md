@@ -17,6 +17,17 @@ include('simpleicons-8/G/Gmail')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GmailXs>`
+- `<$GmailSm>`
+- `<$GmailMd>`
+- `<$GmailLg>`
+
+
+
+
 
 ## Gmail
 

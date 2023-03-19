@@ -17,6 +17,17 @@ include('simpleicons-8/G/Gurobi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GurobiXs>`
+- `<$GurobiSm>`
+- `<$GurobiMd>`
+- `<$GurobiLg>`
+
+
+
+
 
 ## Gurobi
 

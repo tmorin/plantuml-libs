@@ -17,6 +17,17 @@ include('simpleicons-8/L/Leaderprice')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LeaderpriceXs>`
+- `<$LeaderpriceSm>`
+- `<$LeaderpriceMd>`
+- `<$LeaderpriceLg>`
+
+
+
+
 
 ## Leaderprice
 

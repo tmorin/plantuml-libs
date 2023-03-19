@@ -17,6 +17,17 @@ include('simpleicons-8/H/Hellofresh')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HellofreshXs>`
+- `<$HellofreshSm>`
+- `<$HellofreshMd>`
+- `<$HellofreshLg>`
+
+
+
+
 
 ## Hellofresh
 

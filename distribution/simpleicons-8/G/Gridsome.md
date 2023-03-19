@@ -17,6 +17,17 @@ include('simpleicons-8/G/Gridsome')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GridsomeXs>`
+- `<$GridsomeSm>`
+- `<$GridsomeMd>`
+- `<$GridsomeLg>`
+
+
+
+
 
 ## Gridsome
 

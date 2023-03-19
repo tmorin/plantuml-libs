@@ -17,6 +17,17 @@ include('simpleicons-8/S/Snowpack')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SnowpackXs>`
+- `<$SnowpackSm>`
+- `<$SnowpackMd>`
+- `<$SnowpackLg>`
+
+
+
+
 
 ## Snowpack
 

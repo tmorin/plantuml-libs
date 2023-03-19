@@ -17,6 +17,17 @@ include('simpleicons-8/J/Jet')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JetXs>`
+- `<$JetSm>`
+- `<$JetMd>`
+- `<$JetLg>`
+
+
+
+
 
 ## Jet
 

@@ -17,6 +17,17 @@ include('simpleicons-8/B/Betfair')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BetfairXs>`
+- `<$BetfairSm>`
+- `<$BetfairMd>`
+- `<$BetfairLg>`
+
+
+
+
 
 ## Betfair
 

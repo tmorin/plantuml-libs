@@ -17,6 +17,17 @@ include('simpleicons-8/G/Gutenberg')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GutenbergXs>`
+- `<$GutenbergSm>`
+- `<$GutenbergMd>`
+- `<$GutenbergLg>`
+
+
+
+
 
 ## Gutenberg
 

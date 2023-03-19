@@ -17,6 +17,17 @@ include('simpleicons-8/T/Truenas')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TruenasXs>`
+- `<$TruenasSm>`
+- `<$TruenasMd>`
+- `<$TruenasLg>`
+
+
+
+
 
 ## Truenas
 

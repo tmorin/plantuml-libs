@@ -17,6 +17,17 @@ include('simpleicons-8/C/Cdprojekt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CdprojektXs>`
+- `<$CdprojektSm>`
+- `<$CdprojektMd>`
+- `<$CdprojektLg>`
+
+
+
+
 
 ## Cdprojekt
 

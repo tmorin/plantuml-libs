@@ -17,6 +17,17 @@ include('simpleicons-8/S/SpringCreators')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SpringCreatorsXs>`
+- `<$SpringCreatorsSm>`
+- `<$SpringCreatorsMd>`
+- `<$SpringCreatorsLg>`
+
+
+
+
 
 ## SpringCreators
 

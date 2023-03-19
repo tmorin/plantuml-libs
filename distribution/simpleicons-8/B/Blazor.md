@@ -17,6 +17,17 @@ include('simpleicons-8/B/Blazor')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BlazorXs>`
+- `<$BlazorSm>`
+- `<$BlazorMd>`
+- `<$BlazorLg>`
+
+
+
+
 
 ## Blazor
 

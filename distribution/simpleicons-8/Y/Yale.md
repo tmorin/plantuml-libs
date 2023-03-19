@@ -17,6 +17,17 @@ include('simpleicons-8/Y/Yale')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$YaleXs>`
+- `<$YaleSm>`
+- `<$YaleMd>`
+- `<$YaleLg>`
+
+
+
+
 
 ## Yale
 

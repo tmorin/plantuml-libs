@@ -17,6 +17,17 @@ include('simpleicons-8/R/Ram')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RamXs>`
+- `<$RamSm>`
+- `<$RamMd>`
+- `<$RamLg>`
+
+
+
+
 
 ## Ram
 

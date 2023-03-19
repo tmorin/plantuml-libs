@@ -17,6 +17,17 @@ include('simpleicons-8/M/Maxplanckgesellschaft')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MaxplanckgesellschaftXs>`
+- `<$MaxplanckgesellschaftSm>`
+- `<$MaxplanckgesellschaftMd>`
+- `<$MaxplanckgesellschaftLg>`
+
+
+
+
 
 ## Maxplanckgesellschaft
 

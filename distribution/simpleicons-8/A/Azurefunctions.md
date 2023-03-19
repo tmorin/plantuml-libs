@@ -17,6 +17,17 @@ include('simpleicons-8/A/Azurefunctions')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AzurefunctionsXs>`
+- `<$AzurefunctionsSm>`
+- `<$AzurefunctionsMd>`
+- `<$AzurefunctionsLg>`
+
+
+
+
 
 ## Azurefunctions
 

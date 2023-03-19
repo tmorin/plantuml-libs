@@ -17,6 +17,17 @@ include('simpleicons-8/O/Openlayers')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OpenlayersXs>`
+- `<$OpenlayersSm>`
+- `<$OpenlayersMd>`
+- `<$OpenlayersLg>`
+
+
+
+
 
 ## Openlayers
 

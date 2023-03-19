@@ -17,6 +17,17 @@ include('simpleicons-8/S/Substack')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SubstackXs>`
+- `<$SubstackSm>`
+- `<$SubstackMd>`
+- `<$SubstackLg>`
+
+
+
+
 
 ## Substack
 

@@ -17,6 +17,17 @@ include('simpleicons-8/G/Googletagmanager')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GoogletagmanagerXs>`
+- `<$GoogletagmanagerSm>`
+- `<$GoogletagmanagerMd>`
+- `<$GoogletagmanagerLg>`
+
+
+
+
 
 ## Googletagmanager
 

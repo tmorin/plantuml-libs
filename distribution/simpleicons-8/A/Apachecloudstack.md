@@ -17,6 +17,17 @@ include('simpleicons-8/A/Apachecloudstack')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ApachecloudstackXs>`
+- `<$ApachecloudstackSm>`
+- `<$ApachecloudstackMd>`
+- `<$ApachecloudstackLg>`
+
+
+
+
 
 ## Apachecloudstack
 

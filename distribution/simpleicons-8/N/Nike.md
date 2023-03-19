@@ -17,6 +17,17 @@ include('simpleicons-8/N/Nike')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NikeXs>`
+- `<$NikeSm>`
+- `<$NikeMd>`
+- `<$NikeLg>`
+
+
+
+
 
 ## Nike
 

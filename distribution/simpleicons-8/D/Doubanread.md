@@ -17,6 +17,17 @@ include('simpleicons-8/D/Doubanread')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DoubanreadXs>`
+- `<$DoubanreadSm>`
+- `<$DoubanreadMd>`
+- `<$DoubanreadLg>`
+
+
+
+
 
 ## Doubanread
 

@@ -17,6 +17,17 @@ include('simpleicons-8/D/Dlib')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DlibXs>`
+- `<$DlibSm>`
+- `<$DlibMd>`
+- `<$DlibLg>`
+
+
+
+
 
 ## Dlib
 

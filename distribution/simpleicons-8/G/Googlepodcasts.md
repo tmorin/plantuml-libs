@@ -17,6 +17,17 @@ include('simpleicons-8/G/Googlepodcasts')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GooglepodcastsXs>`
+- `<$GooglepodcastsSm>`
+- `<$GooglepodcastsMd>`
+- `<$GooglepodcastsLg>`
+
+
+
+
 
 ## Googlepodcasts
 

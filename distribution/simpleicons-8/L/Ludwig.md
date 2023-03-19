@@ -17,6 +17,17 @@ include('simpleicons-8/L/Ludwig')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LudwigXs>`
+- `<$LudwigSm>`
+- `<$LudwigMd>`
+- `<$LudwigLg>`
+
+
+
+
 
 ## Ludwig
 

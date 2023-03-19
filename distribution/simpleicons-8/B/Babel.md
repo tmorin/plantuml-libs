@@ -17,6 +17,17 @@ include('simpleicons-8/B/Babel')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BabelXs>`
+- `<$BabelSm>`
+- `<$BabelMd>`
+- `<$BabelLg>`
+
+
+
+
 
 ## Babel
 

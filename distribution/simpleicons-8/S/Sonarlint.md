@@ -17,6 +17,17 @@ include('simpleicons-8/S/Sonarlint')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SonarlintXs>`
+- `<$SonarlintSm>`
+- `<$SonarlintMd>`
+- `<$SonarlintLg>`
+
+
+
+
 
 ## Sonarlint
 

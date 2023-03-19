@@ -17,6 +17,17 @@ include('simpleicons-8/P/Publons')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PublonsXs>`
+- `<$PublonsSm>`
+- `<$PublonsMd>`
+- `<$PublonsLg>`
+
+
+
+
 
 ## Publons
 

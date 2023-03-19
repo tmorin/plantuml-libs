@@ -17,6 +17,17 @@ include('simpleicons-8/T/Trino')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TrinoXs>`
+- `<$TrinoSm>`
+- `<$TrinoMd>`
+- `<$TrinoLg>`
+
+
+
+
 
 ## Trino
 

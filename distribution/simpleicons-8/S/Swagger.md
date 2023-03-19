@@ -17,6 +17,17 @@ include('simpleicons-8/S/Swagger')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SwaggerXs>`
+- `<$SwaggerSm>`
+- `<$SwaggerMd>`
+- `<$SwaggerLg>`
+
+
+
+
 
 ## Swagger
 

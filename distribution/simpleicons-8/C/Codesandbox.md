@@ -17,6 +17,17 @@ include('simpleicons-8/C/Codesandbox')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CodesandboxXs>`
+- `<$CodesandboxSm>`
+- `<$CodesandboxMd>`
+- `<$CodesandboxLg>`
+
+
+
+
 
 ## Codesandbox
 

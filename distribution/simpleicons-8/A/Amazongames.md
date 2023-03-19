@@ -17,6 +17,17 @@ include('simpleicons-8/A/Amazongames')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazongamesXs>`
+- `<$AmazongamesSm>`
+- `<$AmazongamesMd>`
+- `<$AmazongamesLg>`
+
+
+
+
 
 ## Amazongames
 

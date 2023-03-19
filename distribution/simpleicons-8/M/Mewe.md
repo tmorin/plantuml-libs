@@ -17,6 +17,17 @@ include('simpleicons-8/M/Mewe')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MeweXs>`
+- `<$MeweSm>`
+- `<$MeweMd>`
+- `<$MeweLg>`
+
+
+
+
 
 ## Mewe
 

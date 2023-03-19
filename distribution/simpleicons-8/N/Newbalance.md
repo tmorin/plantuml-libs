@@ -17,6 +17,17 @@ include('simpleicons-8/N/Newbalance')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NewbalanceXs>`
+- `<$NewbalanceSm>`
+- `<$NewbalanceMd>`
+- `<$NewbalanceLg>`
+
+
+
+
 
 ## Newbalance
 

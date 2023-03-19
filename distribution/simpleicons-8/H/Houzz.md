@@ -17,6 +17,17 @@ include('simpleicons-8/H/Houzz')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HouzzXs>`
+- `<$HouzzSm>`
+- `<$HouzzMd>`
+- `<$HouzzLg>`
+
+
+
+
 
 ## Houzz
 

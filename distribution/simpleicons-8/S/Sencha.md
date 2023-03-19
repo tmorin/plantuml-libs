@@ -17,6 +17,17 @@ include('simpleicons-8/S/Sencha')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SenchaXs>`
+- `<$SenchaSm>`
+- `<$SenchaMd>`
+- `<$SenchaLg>`
+
+
+
+
 
 ## Sencha
 

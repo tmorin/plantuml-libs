@@ -17,6 +17,17 @@ include('simpleicons-8/I/Ieee')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IeeeXs>`
+- `<$IeeeSm>`
+- `<$IeeeMd>`
+- `<$IeeeLg>`
+
+
+
+
 
 ## Ieee
 

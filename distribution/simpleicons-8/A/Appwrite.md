@@ -17,6 +17,17 @@ include('simpleicons-8/A/Appwrite')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AppwriteXs>`
+- `<$AppwriteSm>`
+- `<$AppwriteMd>`
+- `<$AppwriteLg>`
+
+
+
+
 
 ## Appwrite
 

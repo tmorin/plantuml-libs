@@ -17,6 +17,17 @@ include('simpleicons-8/H/Hp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HpXs>`
+- `<$HpSm>`
+- `<$HpMd>`
+- `<$HpLg>`
+
+
+
+
 
 ## Hp
 

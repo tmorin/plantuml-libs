@@ -17,6 +17,17 @@ include('simpleicons-8/F/Freecodecamp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FreecodecampXs>`
+- `<$FreecodecampSm>`
+- `<$FreecodecampMd>`
+- `<$FreecodecampLg>`
+
+
+
+
 
 ## Freecodecamp
 

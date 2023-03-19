@@ -17,6 +17,17 @@ include('simpleicons-8/B/Boeing')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BoeingXs>`
+- `<$BoeingSm>`
+- `<$BoeingMd>`
+- `<$BoeingLg>`
+
+
+
+
 
 ## Boeing
 

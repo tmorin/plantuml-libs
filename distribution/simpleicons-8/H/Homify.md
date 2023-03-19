@@ -17,6 +17,17 @@ include('simpleicons-8/H/Homify')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HomifyXs>`
+- `<$HomifySm>`
+- `<$HomifyMd>`
+- `<$HomifyLg>`
+
+
+
+
 
 ## Homify
 

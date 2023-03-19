@@ -17,6 +17,17 @@ include('simpleicons-8/F/Fandom')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FandomXs>`
+- `<$FandomSm>`
+- `<$FandomMd>`
+- `<$FandomLg>`
+
+
+
+
 
 ## Fandom
 

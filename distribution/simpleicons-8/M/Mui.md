@@ -17,6 +17,17 @@ include('simpleicons-8/M/Mui')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MuiXs>`
+- `<$MuiSm>`
+- `<$MuiMd>`
+- `<$MuiLg>`
+
+
+
+
 
 ## Mui
 

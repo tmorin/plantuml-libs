@@ -17,6 +17,17 @@ include('simpleicons-8/B/Blender')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BlenderXs>`
+- `<$BlenderSm>`
+- `<$BlenderMd>`
+- `<$BlenderLg>`
+
+
+
+
 
 ## Blender
 

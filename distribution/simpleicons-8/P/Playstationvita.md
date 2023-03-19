@@ -17,6 +17,17 @@ include('simpleicons-8/P/Playstationvita')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PlaystationvitaXs>`
+- `<$PlaystationvitaSm>`
+- `<$PlaystationvitaMd>`
+- `<$PlaystationvitaLg>`
+
+
+
+
 
 ## Playstationvita
 

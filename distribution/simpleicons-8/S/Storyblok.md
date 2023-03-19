@@ -17,6 +17,17 @@ include('simpleicons-8/S/Storyblok')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StoryblokXs>`
+- `<$StoryblokSm>`
+- `<$StoryblokMd>`
+- `<$StoryblokLg>`
+
+
+
+
 
 ## Storyblok
 

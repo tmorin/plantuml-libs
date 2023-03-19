@@ -17,6 +17,17 @@ include('simpleicons-8/F/Foodpanda')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FoodpandaXs>`
+- `<$FoodpandaSm>`
+- `<$FoodpandaMd>`
+- `<$FoodpandaLg>`
+
+
+
+
 
 ## Foodpanda
 

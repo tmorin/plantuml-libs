@@ -17,6 +17,17 @@ include('simpleicons-8/U/Uplabs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UplabsXs>`
+- `<$UplabsSm>`
+- `<$UplabsMd>`
+- `<$UplabsLg>`
+
+
+
+
 
 ## Uplabs
 

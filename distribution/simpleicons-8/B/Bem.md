@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bem')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BemXs>`
+- `<$BemSm>`
+- `<$BemMd>`
+- `<$BemLg>`
+
+
+
+
 
 ## Bem
 

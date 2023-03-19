@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tinder')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TinderXs>`
+- `<$TinderSm>`
+- `<$TinderMd>`
+- `<$TinderLg>`
+
+
+
+
 
 ## Tinder
 

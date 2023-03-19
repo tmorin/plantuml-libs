@@ -17,6 +17,17 @@ include('simpleicons-8/A/Amazonecs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonecsXs>`
+- `<$AmazonecsSm>`
+- `<$AmazonecsMd>`
+- `<$AmazonecsLg>`
+
+
+
+
 
 ## Amazonecs
 

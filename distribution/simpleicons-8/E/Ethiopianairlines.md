@@ -17,6 +17,17 @@ include('simpleicons-8/E/Ethiopianairlines')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EthiopianairlinesXs>`
+- `<$EthiopianairlinesSm>`
+- `<$EthiopianairlinesMd>`
+- `<$EthiopianairlinesLg>`
+
+
+
+
 
 ## Ethiopianairlines
 

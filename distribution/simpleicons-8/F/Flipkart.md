@@ -17,6 +17,17 @@ include('simpleicons-8/F/Flipkart')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FlipkartXs>`
+- `<$FlipkartSm>`
+- `<$FlipkartMd>`
+- `<$FlipkartLg>`
+
+
+
+
 
 ## Flipkart
 

@@ -17,6 +17,17 @@ include('simpleicons-8/G/Gnome')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GnomeXs>`
+- `<$GnomeSm>`
+- `<$GnomeMd>`
+- `<$GnomeLg>`
+
+
+
+
 
 ## Gnome
 

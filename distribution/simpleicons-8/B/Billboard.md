@@ -17,6 +17,17 @@ include('simpleicons-8/B/Billboard')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BillboardXs>`
+- `<$BillboardSm>`
+- `<$BillboardMd>`
+- `<$BillboardLg>`
+
+
+
+
 
 ## Billboard
 

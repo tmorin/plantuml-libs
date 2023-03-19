@@ -17,6 +17,17 @@ include('simpleicons-8/T/Turbosquid')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TurbosquidXs>`
+- `<$TurbosquidSm>`
+- `<$TurbosquidMd>`
+- `<$TurbosquidLg>`
+
+
+
+
 
 ## Turbosquid
 

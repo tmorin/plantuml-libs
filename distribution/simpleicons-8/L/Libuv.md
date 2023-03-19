@@ -17,6 +17,17 @@ include('simpleicons-8/L/Libuv')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LibuvXs>`
+- `<$LibuvSm>`
+- `<$LibuvMd>`
+- `<$LibuvLg>`
+
+
+
+
 
 ## Libuv
 

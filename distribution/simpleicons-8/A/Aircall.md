@@ -17,6 +17,17 @@ include('simpleicons-8/A/Aircall')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AircallXs>`
+- `<$AircallSm>`
+- `<$AircallMd>`
+- `<$AircallLg>`
+
+
+
+
 
 ## Aircall
 

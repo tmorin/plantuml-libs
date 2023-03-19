@@ -17,6 +17,17 @@ include('simpleicons-8/N/Netbsd')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NetbsdXs>`
+- `<$NetbsdSm>`
+- `<$NetbsdMd>`
+- `<$NetbsdLg>`
+
+
+
+
 
 ## Netbsd
 

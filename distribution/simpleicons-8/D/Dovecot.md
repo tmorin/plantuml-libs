@@ -17,6 +17,17 @@ include('simpleicons-8/D/Dovecot')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DovecotXs>`
+- `<$DovecotSm>`
+- `<$DovecotMd>`
+- `<$DovecotLg>`
+
+
+
+
 
 ## Dovecot
 

@@ -17,6 +17,17 @@ include('simpleicons-8/M/Manageiq')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ManageiqXs>`
+- `<$ManageiqSm>`
+- `<$ManageiqMd>`
+- `<$ManageiqLg>`
+
+
+
+
 
 ## Manageiq
 

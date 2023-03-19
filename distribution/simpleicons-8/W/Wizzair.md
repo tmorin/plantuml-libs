@@ -17,6 +17,17 @@ include('simpleicons-8/W/Wizzair')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WizzairXs>`
+- `<$WizzairSm>`
+- `<$WizzairMd>`
+- `<$WizzairLg>`
+
+
+
+
 
 ## Wizzair
 

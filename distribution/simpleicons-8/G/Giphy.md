@@ -17,6 +17,17 @@ include('simpleicons-8/G/Giphy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GiphyXs>`
+- `<$GiphySm>`
+- `<$GiphyMd>`
+- `<$GiphyLg>`
+
+
+
+
 
 ## Giphy
 

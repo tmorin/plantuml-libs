@@ -17,6 +17,17 @@ include('simpleicons-8/M/Mediatek')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MediatekXs>`
+- `<$MediatekSm>`
+- `<$MediatekMd>`
+- `<$MediatekLg>`
+
+
+
+
 
 ## Mediatek
 

@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tesla')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TeslaXs>`
+- `<$TeslaSm>`
+- `<$TeslaMd>`
+- `<$TeslaLg>`
+
+
+
+
 
 ## Tesla
 

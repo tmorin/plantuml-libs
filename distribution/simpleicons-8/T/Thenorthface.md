@@ -17,6 +17,17 @@ include('simpleicons-8/T/Thenorthface')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ThenorthfaceXs>`
+- `<$ThenorthfaceSm>`
+- `<$ThenorthfaceMd>`
+- `<$ThenorthfaceLg>`
+
+
+
+
 
 ## Thenorthface
 

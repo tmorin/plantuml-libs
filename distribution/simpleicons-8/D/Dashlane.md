@@ -17,6 +17,17 @@ include('simpleicons-8/D/Dashlane')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DashlaneXs>`
+- `<$DashlaneSm>`
+- `<$DashlaneMd>`
+- `<$DashlaneLg>`
+
+
+
+
 
 ## Dashlane
 

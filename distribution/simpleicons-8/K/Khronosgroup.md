@@ -17,6 +17,17 @@ include('simpleicons-8/K/Khronosgroup')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KhronosgroupXs>`
+- `<$KhronosgroupSm>`
+- `<$KhronosgroupMd>`
+- `<$KhronosgroupLg>`
+
+
+
+
 
 ## Khronosgroup
 

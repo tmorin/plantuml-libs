@@ -17,6 +17,17 @@ include('simpleicons-8/S/Stardock')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StardockXs>`
+- `<$StardockSm>`
+- `<$StardockMd>`
+- `<$StardockLg>`
+
+
+
+
 
 ## Stardock
 

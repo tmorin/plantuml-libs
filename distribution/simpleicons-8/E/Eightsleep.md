@@ -17,6 +17,17 @@ include('simpleicons-8/E/Eightsleep')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EightsleepXs>`
+- `<$EightsleepSm>`
+- `<$EightsleepMd>`
+- `<$EightsleepLg>`
+
+
+
+
 
 ## Eightsleep
 

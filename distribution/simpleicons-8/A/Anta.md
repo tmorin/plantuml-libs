@@ -17,6 +17,17 @@ include('simpleicons-8/A/Anta')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AntaXs>`
+- `<$AntaSm>`
+- `<$AntaMd>`
+- `<$AntaLg>`
+
+
+
+
 
 ## Anta
 

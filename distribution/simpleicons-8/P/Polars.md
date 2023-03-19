@@ -17,6 +17,17 @@ include('simpleicons-8/P/Polars')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PolarsXs>`
+- `<$PolarsSm>`
+- `<$PolarsMd>`
+- `<$PolarsLg>`
+
+
+
+
 
 ## Polars
 

@@ -17,6 +17,17 @@ include('simpleicons-8/J/Joomla')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JoomlaXs>`
+- `<$JoomlaSm>`
+- `<$JoomlaMd>`
+- `<$JoomlaLg>`
+
+
+
+
 
 ## Joomla
 

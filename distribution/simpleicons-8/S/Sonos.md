@@ -17,6 +17,17 @@ include('simpleicons-8/S/Sonos')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SonosXs>`
+- `<$SonosSm>`
+- `<$SonosMd>`
+- `<$SonosLg>`
+
+
+
+
 
 ## Sonos
 

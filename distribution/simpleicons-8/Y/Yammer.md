@@ -17,6 +17,17 @@ include('simpleicons-8/Y/Yammer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$YammerXs>`
+- `<$YammerSm>`
+- `<$YammerMd>`
+- `<$YammerLg>`
+
+
+
+
 
 ## Yammer
 

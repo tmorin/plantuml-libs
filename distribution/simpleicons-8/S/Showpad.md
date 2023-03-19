@@ -17,6 +17,17 @@ include('simpleicons-8/S/Showpad')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShowpadXs>`
+- `<$ShowpadSm>`
+- `<$ShowpadMd>`
+- `<$ShowpadLg>`
+
+
+
+
 
 ## Showpad
 

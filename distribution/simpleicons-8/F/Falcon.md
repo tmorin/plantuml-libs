@@ -17,6 +17,17 @@ include('simpleicons-8/F/Falcon')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FalconXs>`
+- `<$FalconSm>`
+- `<$FalconMd>`
+- `<$FalconLg>`
+
+
+
+
 
 ## Falcon
 

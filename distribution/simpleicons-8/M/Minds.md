@@ -17,6 +17,17 @@ include('simpleicons-8/M/Minds')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MindsXs>`
+- `<$MindsSm>`
+- `<$MindsMd>`
+- `<$MindsLg>`
+
+
+
+
 
 ## Minds
 

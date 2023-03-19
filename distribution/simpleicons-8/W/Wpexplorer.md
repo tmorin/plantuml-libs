@@ -17,6 +17,17 @@ include('simpleicons-8/W/Wpexplorer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WpexplorerXs>`
+- `<$WpexplorerSm>`
+- `<$WpexplorerMd>`
+- `<$WpexplorerLg>`
+
+
+
+
 
 ## Wpexplorer
 

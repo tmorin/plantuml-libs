@@ -17,6 +17,17 @@ include('simpleicons-8/O/Octanerender')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OctanerenderXs>`
+- `<$OctanerenderSm>`
+- `<$OctanerenderMd>`
+- `<$OctanerenderLg>`
+
+
+
+
 
 ## Octanerender
 

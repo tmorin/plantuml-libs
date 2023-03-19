@@ -17,6 +17,17 @@ include('simpleicons-8/T/Thespritersresource')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ThespritersresourceXs>`
+- `<$ThespritersresourceSm>`
+- `<$ThespritersresourceMd>`
+- `<$ThespritersresourceLg>`
+
+
+
+
 
 ## Thespritersresource
 

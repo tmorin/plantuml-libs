@@ -17,6 +17,17 @@ include('simpleicons-8/C/Coffeescript')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CoffeescriptXs>`
+- `<$CoffeescriptSm>`
+- `<$CoffeescriptMd>`
+- `<$CoffeescriptLg>`
+
+
+
+
 
 ## Coffeescript
 

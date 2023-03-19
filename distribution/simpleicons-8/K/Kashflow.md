@@ -17,6 +17,17 @@ include('simpleicons-8/K/Kashflow')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KashflowXs>`
+- `<$KashflowSm>`
+- `<$KashflowMd>`
+- `<$KashflowLg>`
+
+
+
+
 
 ## Kashflow
 

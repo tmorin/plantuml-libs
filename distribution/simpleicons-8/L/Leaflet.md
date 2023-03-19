@@ -17,6 +17,17 @@ include('simpleicons-8/L/Leaflet')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LeafletXs>`
+- `<$LeafletSm>`
+- `<$LeafletMd>`
+- `<$LeafletLg>`
+
+
+
+
 
 ## Leaflet
 

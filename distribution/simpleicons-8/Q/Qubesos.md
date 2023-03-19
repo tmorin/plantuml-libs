@@ -17,6 +17,17 @@ include('simpleicons-8/Q/Qubesos')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$QubesosXs>`
+- `<$QubesosSm>`
+- `<$QubesosMd>`
+- `<$QubesosLg>`
+
+
+
+
 
 ## Qubesos
 

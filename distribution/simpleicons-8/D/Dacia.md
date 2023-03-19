@@ -17,6 +17,17 @@ include('simpleicons-8/D/Dacia')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DaciaXs>`
+- `<$DaciaSm>`
+- `<$DaciaMd>`
+- `<$DaciaLg>`
+
+
+
+
 
 ## Dacia
 

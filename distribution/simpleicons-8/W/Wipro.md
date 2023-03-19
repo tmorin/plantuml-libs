@@ -17,6 +17,17 @@ include('simpleicons-8/W/Wipro')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WiproXs>`
+- `<$WiproSm>`
+- `<$WiproMd>`
+- `<$WiproLg>`
+
+
+
+
 
 ## Wipro
 

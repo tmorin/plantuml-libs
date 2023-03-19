@@ -17,6 +17,17 @@ include('simpleicons-8/J/Jaguar')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JaguarXs>`
+- `<$JaguarSm>`
+- `<$JaguarMd>`
+- `<$JaguarLg>`
+
+
+
+
 
 ## Jaguar
 

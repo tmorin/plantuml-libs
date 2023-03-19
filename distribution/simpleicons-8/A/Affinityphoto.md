@@ -17,6 +17,17 @@ include('simpleicons-8/A/Affinityphoto')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AffinityphotoXs>`
+- `<$AffinityphotoSm>`
+- `<$AffinityphotoMd>`
+- `<$AffinityphotoLg>`
+
+
+
+
 
 ## Affinityphoto
 

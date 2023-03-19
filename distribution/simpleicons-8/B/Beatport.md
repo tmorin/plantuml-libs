@@ -17,6 +17,17 @@ include('simpleicons-8/B/Beatport')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BeatportXs>`
+- `<$BeatportSm>`
+- `<$BeatportMd>`
+- `<$BeatportLg>`
+
+
+
+
 
 ## Beatport
 

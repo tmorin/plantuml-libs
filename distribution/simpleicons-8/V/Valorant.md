@@ -17,6 +17,17 @@ include('simpleicons-8/V/Valorant')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ValorantXs>`
+- `<$ValorantSm>`
+- `<$ValorantMd>`
+- `<$ValorantLg>`
+
+
+
+
 
 ## Valorant
 

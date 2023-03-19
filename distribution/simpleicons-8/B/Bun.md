@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bun')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BunXs>`
+- `<$BunSm>`
+- `<$BunMd>`
+- `<$BunLg>`
+
+
+
+
 
 ## Bun
 

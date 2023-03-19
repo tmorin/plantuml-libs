@@ -17,6 +17,17 @@ include('simpleicons-8/B/Blockchaindotcom')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BlockchaindotcomXs>`
+- `<$BlockchaindotcomSm>`
+- `<$BlockchaindotcomMd>`
+- `<$BlockchaindotcomLg>`
+
+
+
+
 
 ## Blockchaindotcom
 

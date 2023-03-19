@@ -17,6 +17,17 @@ include('simpleicons-8/S/Stackpath')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StackpathXs>`
+- `<$StackpathSm>`
+- `<$StackpathMd>`
+- `<$StackpathLg>`
+
+
+
+
 
 ## Stackpath
 

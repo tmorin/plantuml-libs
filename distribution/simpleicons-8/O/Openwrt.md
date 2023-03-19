@@ -17,6 +17,17 @@ include('simpleicons-8/O/Openwrt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OpenwrtXs>`
+- `<$OpenwrtSm>`
+- `<$OpenwrtMd>`
+- `<$OpenwrtLg>`
+
+
+
+
 
 ## Openwrt
 

@@ -17,6 +17,17 @@ include('simpleicons-8/P/Powervirtualagents')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PowervirtualagentsXs>`
+- `<$PowervirtualagentsSm>`
+- `<$PowervirtualagentsMd>`
+- `<$PowervirtualagentsLg>`
+
+
+
+
 
 ## Powervirtualagents
 

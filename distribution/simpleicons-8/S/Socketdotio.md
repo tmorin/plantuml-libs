@@ -17,6 +17,17 @@ include('simpleicons-8/S/Socketdotio')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SocketdotioXs>`
+- `<$SocketdotioSm>`
+- `<$SocketdotioMd>`
+- `<$SocketdotioLg>`
+
+
+
+
 
 ## Socketdotio
 

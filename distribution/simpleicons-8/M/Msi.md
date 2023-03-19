@@ -17,6 +17,17 @@ include('simpleicons-8/M/Msi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MsiXs>`
+- `<$MsiSm>`
+- `<$MsiMd>`
+- `<$MsiLg>`
+
+
+
+
 
 ## Msi
 

@@ -17,6 +17,17 @@ include('simpleicons-8/G/Githubpages')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GithubpagesXs>`
+- `<$GithubpagesSm>`
+- `<$GithubpagesMd>`
+- `<$GithubpagesLg>`
+
+
+
+
 
 ## Githubpages
 

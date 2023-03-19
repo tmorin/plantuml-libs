@@ -17,6 +17,17 @@ include('simpleicons-8/P/Pioneerdj')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PioneerdjXs>`
+- `<$PioneerdjSm>`
+- `<$PioneerdjMd>`
+- `<$PioneerdjLg>`
+
+
+
+
 
 ## Pioneerdj
 

@@ -17,6 +17,17 @@ include('simpleicons-8/H/Hackclub')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HackclubXs>`
+- `<$HackclubSm>`
+- `<$HackclubMd>`
+- `<$HackclubLg>`
+
+
+
+
 
 ## Hackclub
 

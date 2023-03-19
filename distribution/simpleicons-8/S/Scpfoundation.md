@@ -17,6 +17,17 @@ include('simpleicons-8/S/Scpfoundation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ScpfoundationXs>`
+- `<$ScpfoundationSm>`
+- `<$ScpfoundationMd>`
+- `<$ScpfoundationLg>`
+
+
+
+
 
 ## Scpfoundation
 

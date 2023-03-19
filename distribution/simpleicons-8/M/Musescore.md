@@ -17,6 +17,17 @@ include('simpleicons-8/M/Musescore')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MusescoreXs>`
+- `<$MusescoreSm>`
+- `<$MusescoreMd>`
+- `<$MusescoreLg>`
+
+
+
+
 
 ## Musescore
 

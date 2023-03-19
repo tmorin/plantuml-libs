@@ -17,6 +17,17 @@ include('simpleicons-8/V/Vala')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ValaXs>`
+- `<$ValaSm>`
+- `<$ValaMd>`
+- `<$ValaLg>`
+
+
+
+
 
 ## Vala
 

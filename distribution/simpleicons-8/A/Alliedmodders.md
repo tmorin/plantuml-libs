@@ -17,6 +17,17 @@ include('simpleicons-8/A/Alliedmodders')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AlliedmoddersXs>`
+- `<$AlliedmoddersSm>`
+- `<$AlliedmoddersMd>`
+- `<$AlliedmoddersLg>`
+
+
+
+
 
 ## Alliedmodders
 

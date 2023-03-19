@@ -17,6 +17,17 @@ include('simpleicons-8/G/Greenhouse')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GreenhouseXs>`
+- `<$GreenhouseSm>`
+- `<$GreenhouseMd>`
+- `<$GreenhouseLg>`
+
+
+
+
 
 ## Greenhouse
 

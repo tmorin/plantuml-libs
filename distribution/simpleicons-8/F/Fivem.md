@@ -17,6 +17,17 @@ include('simpleicons-8/F/Fivem')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FivemXs>`
+- `<$FivemSm>`
+- `<$FivemMd>`
+- `<$FivemLg>`
+
+
+
+
 
 ## Fivem
 

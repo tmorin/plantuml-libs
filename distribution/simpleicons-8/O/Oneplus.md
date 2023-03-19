@@ -17,6 +17,17 @@ include('simpleicons-8/O/Oneplus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OneplusXs>`
+- `<$OneplusSm>`
+- `<$OneplusMd>`
+- `<$OneplusLg>`
+
+
+
+
 
 ## Oneplus
 

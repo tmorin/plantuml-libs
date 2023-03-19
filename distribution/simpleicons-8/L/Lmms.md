@@ -17,6 +17,17 @@ include('simpleicons-8/L/Lmms')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LmmsXs>`
+- `<$LmmsSm>`
+- `<$LmmsMd>`
+- `<$LmmsLg>`
+
+
+
+
 
 ## Lmms
 

@@ -17,6 +17,17 @@ include('simpleicons-8/C/Coveralls')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CoverallsXs>`
+- `<$CoverallsSm>`
+- `<$CoverallsMd>`
+- `<$CoverallsLg>`
+
+
+
+
 
 ## Coveralls
 

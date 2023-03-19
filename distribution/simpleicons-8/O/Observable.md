@@ -17,6 +17,17 @@ include('simpleicons-8/O/Observable')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ObservableXs>`
+- `<$ObservableSm>`
+- `<$ObservableMd>`
+- `<$ObservableLg>`
+
+
+
+
 
 ## Observable
 

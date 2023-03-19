@@ -17,6 +17,17 @@ include('simpleicons-8/S/Sabanci')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SabanciXs>`
+- `<$SabanciSm>`
+- `<$SabanciMd>`
+- `<$SabanciLg>`
+
+
+
+
 
 ## Sabanci
 

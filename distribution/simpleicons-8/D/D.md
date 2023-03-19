@@ -17,6 +17,17 @@ include('simpleicons-8/D/D')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DXs>`
+- `<$DSm>`
+- `<$DMd>`
+- `<$DLg>`
+
+
+
+
 
 ## D
 

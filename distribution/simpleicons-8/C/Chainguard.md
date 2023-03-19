@@ -17,6 +17,17 @@ include('simpleicons-8/C/Chainguard')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChainguardXs>`
+- `<$ChainguardSm>`
+- `<$ChainguardMd>`
+- `<$ChainguardLg>`
+
+
+
+
 
 ## Chainguard
 

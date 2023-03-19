@@ -17,6 +17,17 @@ include('simpleicons-8/S/Sparkar')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SparkarXs>`
+- `<$SparkarSm>`
+- `<$SparkarMd>`
+- `<$SparkarLg>`
+
+
+
+
 
 ## Sparkar
 

@@ -17,6 +17,17 @@ include('simpleicons-8/M/Matternet')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MatternetXs>`
+- `<$MatternetSm>`
+- `<$MatternetMd>`
+- `<$MatternetLg>`
+
+
+
+
 
 ## Matternet
 

@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bmcsoftware')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BmcsoftwareXs>`
+- `<$BmcsoftwareSm>`
+- `<$BmcsoftwareMd>`
+- `<$BmcsoftwareLg>`
+
+
+
+
 
 ## Bmcsoftware
 

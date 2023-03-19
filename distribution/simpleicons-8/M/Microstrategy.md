@@ -17,6 +17,17 @@ include('simpleicons-8/M/Microstrategy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MicrostrategyXs>`
+- `<$MicrostrategySm>`
+- `<$MicrostrategyMd>`
+- `<$MicrostrategyLg>`
+
+
+
+
 
 ## Microstrategy
 

@@ -17,6 +17,17 @@ include('simpleicons-8/E/Envoyproxy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EnvoyproxyXs>`
+- `<$EnvoyproxySm>`
+- `<$EnvoyproxyMd>`
+- `<$EnvoyproxyLg>`
+
+
+
+
 
 ## Envoyproxy
 

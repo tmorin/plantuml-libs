@@ -17,6 +17,17 @@ include('simpleicons-8/S/Soundcloud')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SoundcloudXs>`
+- `<$SoundcloudSm>`
+- `<$SoundcloudMd>`
+- `<$SoundcloudLg>`
+
+
+
+
 
 ## Soundcloud
 

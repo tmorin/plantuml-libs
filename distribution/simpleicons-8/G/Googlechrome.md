@@ -17,6 +17,17 @@ include('simpleicons-8/G/Googlechrome')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GooglechromeXs>`
+- `<$GooglechromeSm>`
+- `<$GooglechromeMd>`
+- `<$GooglechromeLg>`
+
+
+
+
 
 ## Googlechrome
 

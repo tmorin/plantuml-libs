@@ -17,6 +17,17 @@ include('simpleicons-8/D/Dragonframe')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DragonframeXs>`
+- `<$DragonframeSm>`
+- `<$DragonframeMd>`
+- `<$DragonframeLg>`
+
+
+
+
 
 ## Dragonframe
 

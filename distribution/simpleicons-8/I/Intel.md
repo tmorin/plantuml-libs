@@ -17,6 +17,17 @@ include('simpleicons-8/I/Intel')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IntelXs>`
+- `<$IntelSm>`
+- `<$IntelMd>`
+- `<$IntelLg>`
+
+
+
+
 
 ## Intel
 

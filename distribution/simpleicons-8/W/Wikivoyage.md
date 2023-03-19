@@ -17,6 +17,17 @@ include('simpleicons-8/W/Wikivoyage')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WikivoyageXs>`
+- `<$WikivoyageSm>`
+- `<$WikivoyageMd>`
+- `<$WikivoyageLg>`
+
+
+
+
 
 ## Wikivoyage
 

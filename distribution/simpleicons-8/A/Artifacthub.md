@@ -17,6 +17,17 @@ include('simpleicons-8/A/Artifacthub')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ArtifacthubXs>`
+- `<$ArtifacthubSm>`
+- `<$ArtifacthubMd>`
+- `<$ArtifacthubLg>`
+
+
+
+
 
 ## Artifacthub
 

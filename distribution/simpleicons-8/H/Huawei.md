@@ -17,6 +17,17 @@ include('simpleicons-8/H/Huawei')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HuaweiXs>`
+- `<$HuaweiSm>`
+- `<$HuaweiMd>`
+- `<$HuaweiLg>`
+
+
+
+
 
 ## Huawei
 

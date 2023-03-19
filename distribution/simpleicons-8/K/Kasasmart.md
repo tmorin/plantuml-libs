@@ -17,6 +17,17 @@ include('simpleicons-8/K/Kasasmart')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KasasmartXs>`
+- `<$KasasmartSm>`
+- `<$KasasmartMd>`
+- `<$KasasmartLg>`
+
+
+
+
 
 ## Kasasmart
 

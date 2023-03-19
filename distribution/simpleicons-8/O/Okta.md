@@ -17,6 +17,17 @@ include('simpleicons-8/O/Okta')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OktaXs>`
+- `<$OktaSm>`
+- `<$OktaMd>`
+- `<$OktaLg>`
+
+
+
+
 
 ## Okta
 

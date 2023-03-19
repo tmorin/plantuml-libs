@@ -17,6 +17,17 @@ include('simpleicons-8/S/Sass')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SassXs>`
+- `<$SassSm>`
+- `<$SassMd>`
+- `<$SassLg>`
+
+
+
+
 
 ## Sass
 

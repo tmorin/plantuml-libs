@@ -17,6 +17,17 @@ include('simpleicons-8/T/Taichilang')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TaichilangXs>`
+- `<$TaichilangSm>`
+- `<$TaichilangMd>`
+- `<$TaichilangLg>`
+
+
+
+
 
 ## Taichilang
 

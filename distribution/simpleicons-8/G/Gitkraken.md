@@ -17,6 +17,17 @@ include('simpleicons-8/G/Gitkraken')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GitkrakenXs>`
+- `<$GitkrakenSm>`
+- `<$GitkrakenMd>`
+- `<$GitkrakenLg>`
+
+
+
+
 
 ## Gitkraken
 

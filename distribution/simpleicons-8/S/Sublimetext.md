@@ -17,6 +17,17 @@ include('simpleicons-8/S/Sublimetext')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SublimetextXs>`
+- `<$SublimetextSm>`
+- `<$SublimetextMd>`
+- `<$SublimetextLg>`
+
+
+
+
 
 ## Sublimetext
 

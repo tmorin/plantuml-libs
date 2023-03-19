@@ -17,6 +17,17 @@ include('simpleicons-8/Y/Yourtraveldottv')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$YourtraveldottvXs>`
+- `<$YourtraveldottvSm>`
+- `<$YourtraveldottvMd>`
+- `<$YourtraveldottvLg>`
+
+
+
+
 
 ## Yourtraveldottv
 

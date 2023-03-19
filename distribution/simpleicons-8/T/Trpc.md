@@ -17,6 +17,17 @@ include('simpleicons-8/T/Trpc')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TrpcXs>`
+- `<$TrpcSm>`
+- `<$TrpcMd>`
+- `<$TrpcLg>`
+
+
+
+
 
 ## Trpc
 

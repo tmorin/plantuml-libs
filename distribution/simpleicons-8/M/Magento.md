@@ -17,6 +17,17 @@ include('simpleicons-8/M/Magento')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MagentoXs>`
+- `<$MagentoSm>`
+- `<$MagentoMd>`
+- `<$MagentoLg>`
+
+
+
+
 
 ## Magento
 

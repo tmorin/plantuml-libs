@@ -17,6 +17,17 @@ include('simpleicons-8/Z/Zalando')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ZalandoXs>`
+- `<$ZalandoSm>`
+- `<$ZalandoMd>`
+- `<$ZalandoLg>`
+
+
+
+
 
 ## Zalando
 

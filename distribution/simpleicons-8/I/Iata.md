@@ -17,6 +17,17 @@ include('simpleicons-8/I/Iata')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IataXs>`
+- `<$IataSm>`
+- `<$IataMd>`
+- `<$IataLg>`
+
+
+
+
 
 ## Iata
 

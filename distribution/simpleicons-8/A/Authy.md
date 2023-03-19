@@ -17,6 +17,17 @@ include('simpleicons-8/A/Authy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AuthyXs>`
+- `<$AuthySm>`
+- `<$AuthyMd>`
+- `<$AuthyLg>`
+
+
+
+
 
 ## Authy
 

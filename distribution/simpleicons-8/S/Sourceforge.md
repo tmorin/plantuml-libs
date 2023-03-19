@@ -17,6 +17,17 @@ include('simpleicons-8/S/Sourceforge')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SourceforgeXs>`
+- `<$SourceforgeSm>`
+- `<$SourceforgeMd>`
+- `<$SourceforgeLg>`
+
+
+
+
 
 ## Sourceforge
 

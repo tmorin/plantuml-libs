@@ -17,6 +17,17 @@ include('simpleicons-8/N/Nextdoor')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NextdoorXs>`
+- `<$NextdoorSm>`
+- `<$NextdoorMd>`
+- `<$NextdoorLg>`
+
+
+
+
 
 ## Nextdoor
 

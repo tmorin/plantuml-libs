@@ -17,6 +17,17 @@ include('simpleicons-8/C/Codeproject')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CodeprojectXs>`
+- `<$CodeprojectSm>`
+- `<$CodeprojectMd>`
+- `<$CodeprojectLg>`
+
+
+
+
 
 ## Codeproject
 

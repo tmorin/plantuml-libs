@@ -17,6 +17,17 @@ include('simpleicons-8/G/Googleclassroom')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GoogleclassroomXs>`
+- `<$GoogleclassroomSm>`
+- `<$GoogleclassroomMd>`
+- `<$GoogleclassroomLg>`
+
+
+
+
 
 ## Googleclassroom
 

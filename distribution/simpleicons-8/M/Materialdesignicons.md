@@ -17,6 +17,17 @@ include('simpleicons-8/M/Materialdesignicons')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MaterialdesigniconsXs>`
+- `<$MaterialdesigniconsSm>`
+- `<$MaterialdesigniconsMd>`
+- `<$MaterialdesigniconsLg>`
+
+
+
+
 
 ## Materialdesignicons
 

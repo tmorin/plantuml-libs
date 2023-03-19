@@ -17,6 +17,17 @@ include('simpleicons-8/B/Burton')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BurtonXs>`
+- `<$BurtonSm>`
+- `<$BurtonMd>`
+- `<$BurtonLg>`
+
+
+
+
 
 ## Burton
 

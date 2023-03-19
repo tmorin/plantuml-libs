@@ -17,6 +17,17 @@ include('simpleicons-8/H/Hetzner')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HetznerXs>`
+- `<$HetznerSm>`
+- `<$HetznerMd>`
+- `<$HetznerLg>`
+
+
+
+
 
 ## Hetzner
 

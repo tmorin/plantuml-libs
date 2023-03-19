@@ -17,6 +17,17 @@ include('simpleicons-8/C/Cocoapods')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CocoapodsXs>`
+- `<$CocoapodsSm>`
+- `<$CocoapodsMd>`
+- `<$CocoapodsLg>`
+
+
+
+
 
 ## Cocoapods
 

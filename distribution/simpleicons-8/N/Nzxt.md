@@ -17,6 +17,17 @@ include('simpleicons-8/N/Nzxt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NzxtXs>`
+- `<$NzxtSm>`
+- `<$NzxtMd>`
+- `<$NzxtLg>`
+
+
+
+
 
 ## Nzxt
 

@@ -17,6 +17,17 @@ include('simpleicons-8/M/Mobx')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MobxXs>`
+- `<$MobxSm>`
+- `<$MobxMd>`
+- `<$MobxLg>`
+
+
+
+
 
 ## Mobx
 

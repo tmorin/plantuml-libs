@@ -17,6 +17,17 @@ include('simpleicons-8/R/Renovatebot')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RenovatebotXs>`
+- `<$RenovatebotSm>`
+- `<$RenovatebotMd>`
+- `<$RenovatebotLg>`
+
+
+
+
 
 ## Renovatebot
 

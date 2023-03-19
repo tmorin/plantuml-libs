@@ -17,6 +17,17 @@ include('simpleicons-8/R/Redbubble')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RedbubbleXs>`
+- `<$RedbubbleSm>`
+- `<$RedbubbleMd>`
+- `<$RedbubbleLg>`
+
+
+
+
 
 ## Redbubble
 

@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tripadvisor')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TripadvisorXs>`
+- `<$TripadvisorSm>`
+- `<$TripadvisorMd>`
+- `<$TripadvisorLg>`
+
+
+
+
 
 ## Tripadvisor
 

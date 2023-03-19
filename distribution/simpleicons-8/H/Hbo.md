@@ -17,6 +17,17 @@ include('simpleicons-8/H/Hbo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HboXs>`
+- `<$HboSm>`
+- `<$HboMd>`
+- `<$HboLg>`
+
+
+
+
 
 ## Hbo
 

@@ -17,6 +17,17 @@ include('simpleicons-8/L/Linux')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LinuxXs>`
+- `<$LinuxSm>`
+- `<$LinuxMd>`
+- `<$LinuxLg>`
+
+
+
+
 
 ## Linux
 

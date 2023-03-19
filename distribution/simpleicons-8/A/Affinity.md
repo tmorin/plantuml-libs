@@ -17,6 +17,17 @@ include('simpleicons-8/A/Affinity')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AffinityXs>`
+- `<$AffinitySm>`
+- `<$AffinityMd>`
+- `<$AffinityLg>`
+
+
+
+
 
 ## Affinity
 

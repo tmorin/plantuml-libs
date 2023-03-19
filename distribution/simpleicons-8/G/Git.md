@@ -17,6 +17,17 @@ include('simpleicons-8/G/Git')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GitXs>`
+- `<$GitSm>`
+- `<$GitMd>`
+- `<$GitLg>`
+
+
+
+
 
 ## Git
 

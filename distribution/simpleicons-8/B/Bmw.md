@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bmw')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BmwXs>`
+- `<$BmwSm>`
+- `<$BmwMd>`
+- `<$BmwLg>`
+
+
+
+
 
 ## Bmw
 

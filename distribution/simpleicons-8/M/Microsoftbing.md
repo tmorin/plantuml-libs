@@ -17,6 +17,17 @@ include('simpleicons-8/M/Microsoftbing')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MicrosoftbingXs>`
+- `<$MicrosoftbingSm>`
+- `<$MicrosoftbingMd>`
+- `<$MicrosoftbingLg>`
+
+
+
+
 
 ## Microsoftbing
 

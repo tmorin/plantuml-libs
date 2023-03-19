@@ -17,6 +17,17 @@ include('simpleicons-8/P/Porsche')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PorscheXs>`
+- `<$PorscheSm>`
+- `<$PorscheMd>`
+- `<$PorscheLg>`
+
+
+
+
 
 ## Porsche
 

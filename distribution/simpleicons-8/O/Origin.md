@@ -17,6 +17,17 @@ include('simpleicons-8/O/Origin')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OriginXs>`
+- `<$OriginSm>`
+- `<$OriginMd>`
+- `<$OriginLg>`
+
+
+
+
 
 ## Origin
 

@@ -17,6 +17,17 @@ include('simpleicons-8/G/Googleads')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GoogleadsXs>`
+- `<$GoogleadsSm>`
+- `<$GoogleadsMd>`
+- `<$GoogleadsLg>`
+
+
+
+
 
 ## Googleads
 

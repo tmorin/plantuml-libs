@@ -17,6 +17,17 @@ include('simpleicons-8/A/Asana')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AsanaXs>`
+- `<$AsanaSm>`
+- `<$AsanaMd>`
+- `<$AsanaLg>`
+
+
+
+
 
 ## Asana
 

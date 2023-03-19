@@ -17,6 +17,17 @@ include('simpleicons-8/W/Wasmcloud')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WasmcloudXs>`
+- `<$WasmcloudSm>`
+- `<$WasmcloudMd>`
+- `<$WasmcloudLg>`
+
+
+
+
 
 ## Wasmcloud
 

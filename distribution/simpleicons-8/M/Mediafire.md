@@ -17,6 +17,17 @@ include('simpleicons-8/M/Mediafire')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MediafireXs>`
+- `<$MediafireSm>`
+- `<$MediafireMd>`
+- `<$MediafireLg>`
+
+
+
+
 
 ## Mediafire
 

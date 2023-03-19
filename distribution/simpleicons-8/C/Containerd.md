@@ -17,6 +17,17 @@ include('simpleicons-8/C/Containerd')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ContainerdXs>`
+- `<$ContainerdSm>`
+- `<$ContainerdMd>`
+- `<$ContainerdLg>`
+
+
+
+
 
 ## Containerd
 

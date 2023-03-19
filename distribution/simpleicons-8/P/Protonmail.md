@@ -17,6 +17,17 @@ include('simpleicons-8/P/Protonmail')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ProtonmailXs>`
+- `<$ProtonmailSm>`
+- `<$ProtonmailMd>`
+- `<$ProtonmailLg>`
+
+
+
+
 
 ## Protonmail
 

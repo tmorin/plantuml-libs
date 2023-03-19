@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bvg')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BvgXs>`
+- `<$BvgSm>`
+- `<$BvgMd>`
+- `<$BvgLg>`
+
+
+
+
 
 ## Bvg
 

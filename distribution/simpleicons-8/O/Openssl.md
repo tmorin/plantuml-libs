@@ -17,6 +17,17 @@ include('simpleicons-8/O/Openssl')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OpensslXs>`
+- `<$OpensslSm>`
+- `<$OpensslMd>`
+- `<$OpensslLg>`
+
+
+
+
 
 ## Openssl
 

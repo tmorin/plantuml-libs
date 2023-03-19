@@ -17,6 +17,17 @@ include('simpleicons-8/C/Canva')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CanvaXs>`
+- `<$CanvaSm>`
+- `<$CanvaMd>`
+- `<$CanvaLg>`
+
+
+
+
 
 ## Canva
 

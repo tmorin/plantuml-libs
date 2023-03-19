@@ -17,6 +17,17 @@ include('simpleicons-8/H/Hungryjacks')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HungryjacksXs>`
+- `<$HungryjacksSm>`
+- `<$HungryjacksMd>`
+- `<$HungryjacksLg>`
+
+
+
+
 
 ## Hungryjacks
 

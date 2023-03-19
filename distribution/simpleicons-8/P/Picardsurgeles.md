@@ -17,6 +17,17 @@ include('simpleicons-8/P/Picardsurgeles')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PicardsurgelesXs>`
+- `<$PicardsurgelesSm>`
+- `<$PicardsurgelesMd>`
+- `<$PicardsurgelesLg>`
+
+
+
+
 
 ## Picardsurgeles
 

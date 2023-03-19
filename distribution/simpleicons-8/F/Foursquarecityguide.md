@@ -17,6 +17,17 @@ include('simpleicons-8/F/Foursquarecityguide')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FoursquarecityguideXs>`
+- `<$FoursquarecityguideSm>`
+- `<$FoursquarecityguideMd>`
+- `<$FoursquarecityguideLg>`
+
+
+
+
 
 ## Foursquarecityguide
 

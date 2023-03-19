@@ -17,6 +17,17 @@ include('simpleicons-8/G/Gogdotcom')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GogdotcomXs>`
+- `<$GogdotcomSm>`
+- `<$GogdotcomMd>`
+- `<$GogdotcomLg>`
+
+
+
+
 
 ## Gogdotcom
 

@@ -17,6 +17,17 @@ include('simpleicons-8/M/Myob')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MyobXs>`
+- `<$MyobSm>`
+- `<$MyobMd>`
+- `<$MyobLg>`
+
+
+
+
 
 ## Myob
 

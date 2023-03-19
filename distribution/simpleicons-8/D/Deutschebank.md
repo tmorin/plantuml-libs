@@ -17,6 +17,17 @@ include('simpleicons-8/D/Deutschebank')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DeutschebankXs>`
+- `<$DeutschebankSm>`
+- `<$DeutschebankMd>`
+- `<$DeutschebankLg>`
+
+
+
+
 
 ## Deutschebank
 

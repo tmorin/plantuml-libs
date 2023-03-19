@@ -17,6 +17,17 @@ include('simpleicons-8/V/Vim')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VimXs>`
+- `<$VimSm>`
+- `<$VimMd>`
+- `<$VimLg>`
+
+
+
+
 
 ## Vim
 

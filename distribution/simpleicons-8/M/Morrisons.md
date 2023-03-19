@@ -17,6 +17,17 @@ include('simpleicons-8/M/Morrisons')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MorrisonsXs>`
+- `<$MorrisonsSm>`
+- `<$MorrisonsMd>`
+- `<$MorrisonsLg>`
+
+
+
+
 
 ## Morrisons
 

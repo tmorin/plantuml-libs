@@ -17,6 +17,17 @@ include('simpleicons-8/S/Ssrn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SsrnXs>`
+- `<$SsrnSm>`
+- `<$SsrnMd>`
+- `<$SsrnLg>`
+
+
+
+
 
 ## Ssrn
 

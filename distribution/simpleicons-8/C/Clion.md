@@ -17,6 +17,17 @@ include('simpleicons-8/C/Clion')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ClionXs>`
+- `<$ClionSm>`
+- `<$ClionMd>`
+- `<$ClionLg>`
+
+
+
+
 
 ## Clion
 

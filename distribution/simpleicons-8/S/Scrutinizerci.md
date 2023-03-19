@@ -17,6 +17,17 @@ include('simpleicons-8/S/Scrutinizerci')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ScrutinizerciXs>`
+- `<$ScrutinizerciSm>`
+- `<$ScrutinizerciMd>`
+- `<$ScrutinizerciLg>`
+
+
+
+
 
 ## Scrutinizerci
 

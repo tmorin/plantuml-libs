@@ -17,6 +17,17 @@ include('simpleicons-8/P/Poly')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PolyXs>`
+- `<$PolySm>`
+- `<$PolyMd>`
+- `<$PolyLg>`
+
+
+
+
 
 ## Poly
 

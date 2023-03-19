@@ -17,6 +17,17 @@ include('simpleicons-8/C/Coil')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CoilXs>`
+- `<$CoilSm>`
+- `<$CoilMd>`
+- `<$CoilLg>`
+
+
+
+
 
 ## Coil
 

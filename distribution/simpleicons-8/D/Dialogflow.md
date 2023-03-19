@@ -17,6 +17,17 @@ include('simpleicons-8/D/Dialogflow')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DialogflowXs>`
+- `<$DialogflowSm>`
+- `<$DialogflowMd>`
+- `<$DialogflowLg>`
+
+
+
+
 
 ## Dialogflow
 

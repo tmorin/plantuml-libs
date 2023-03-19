@@ -17,6 +17,17 @@ include('simpleicons-8/P/Pivotaltracker')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PivotaltrackerXs>`
+- `<$PivotaltrackerSm>`
+- `<$PivotaltrackerMd>`
+- `<$PivotaltrackerLg>`
+
+
+
+
 
 ## Pivotaltracker
 

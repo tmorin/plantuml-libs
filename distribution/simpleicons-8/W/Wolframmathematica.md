@@ -17,6 +17,17 @@ include('simpleicons-8/W/Wolframmathematica')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WolframmathematicaXs>`
+- `<$WolframmathematicaSm>`
+- `<$WolframmathematicaMd>`
+- `<$WolframmathematicaLg>`
+
+
+
+
 
 ## Wolframmathematica
 

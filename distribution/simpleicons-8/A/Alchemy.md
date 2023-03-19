@@ -17,6 +17,17 @@ include('simpleicons-8/A/Alchemy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AlchemyXs>`
+- `<$AlchemySm>`
+- `<$AlchemyMd>`
+- `<$AlchemyLg>`
+
+
+
+
 
 ## Alchemy
 

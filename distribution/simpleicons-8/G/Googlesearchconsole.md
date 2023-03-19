@@ -17,6 +17,17 @@ include('simpleicons-8/G/Googlesearchconsole')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GooglesearchconsoleXs>`
+- `<$GooglesearchconsoleSm>`
+- `<$GooglesearchconsoleMd>`
+- `<$GooglesearchconsoleLg>`
+
+
+
+
 
 ## Googlesearchconsole
 

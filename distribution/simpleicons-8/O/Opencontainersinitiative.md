@@ -17,6 +17,17 @@ include('simpleicons-8/O/Opencontainersinitiative')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OpencontainersinitiativeXs>`
+- `<$OpencontainersinitiativeSm>`
+- `<$OpencontainersinitiativeMd>`
+- `<$OpencontainersinitiativeLg>`
+
+
+
+
 
 ## Opencontainersinitiative
 

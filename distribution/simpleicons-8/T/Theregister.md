@@ -17,6 +17,17 @@ include('simpleicons-8/T/Theregister')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TheregisterXs>`
+- `<$TheregisterSm>`
+- `<$TheregisterMd>`
+- `<$TheregisterLg>`
+
+
+
+
 
 ## Theregister
 

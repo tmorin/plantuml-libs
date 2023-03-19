@@ -17,6 +17,17 @@ include('simpleicons-8/E/Emlakjet')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EmlakjetXs>`
+- `<$EmlakjetSm>`
+- `<$EmlakjetMd>`
+- `<$EmlakjetLg>`
+
+
+
+
 
 ## Emlakjet
 

@@ -17,6 +17,17 @@ include('simpleicons-8/N/Npm')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NpmXs>`
+- `<$NpmSm>`
+- `<$NpmMd>`
+- `<$NpmLg>`
+
+
+
+
 
 ## Npm
 

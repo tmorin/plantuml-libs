@@ -17,6 +17,17 @@ include('simpleicons-8/G/Goldenline')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GoldenlineXs>`
+- `<$GoldenlineSm>`
+- `<$GoldenlineMd>`
+- `<$GoldenlineLg>`
+
+
+
+
 
 ## Goldenline
 

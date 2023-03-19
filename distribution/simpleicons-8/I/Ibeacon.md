@@ -17,6 +17,17 @@ include('simpleicons-8/I/Ibeacon')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IbeaconXs>`
+- `<$IbeaconSm>`
+- `<$IbeaconMd>`
+- `<$IbeaconLg>`
+
+
+
+
 
 ## Ibeacon
 

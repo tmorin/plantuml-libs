@@ -17,6 +17,17 @@ include('simpleicons-8/A/Aseprite')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AsepriteXs>`
+- `<$AsepriteSm>`
+- `<$AsepriteMd>`
+- `<$AsepriteLg>`
+
+
+
+
 
 ## Aseprite
 

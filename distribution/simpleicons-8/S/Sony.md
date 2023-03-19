@@ -17,6 +17,17 @@ include('simpleicons-8/S/Sony')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SonyXs>`
+- `<$SonySm>`
+- `<$SonyMd>`
+- `<$SonyLg>`
+
+
+
+
 
 ## Sony
 

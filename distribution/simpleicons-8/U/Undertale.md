@@ -17,6 +17,17 @@ include('simpleicons-8/U/Undertale')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UndertaleXs>`
+- `<$UndertaleSm>`
+- `<$UndertaleMd>`
+- `<$UndertaleLg>`
+
+
+
+
 
 ## Undertale
 

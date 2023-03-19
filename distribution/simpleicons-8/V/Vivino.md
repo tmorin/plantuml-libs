@@ -17,6 +17,17 @@ include('simpleicons-8/V/Vivino')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VivinoXs>`
+- `<$VivinoSm>`
+- `<$VivinoMd>`
+- `<$VivinoLg>`
+
+
+
+
 
 ## Vivino
 

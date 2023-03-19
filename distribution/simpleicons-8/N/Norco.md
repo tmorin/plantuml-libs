@@ -17,6 +17,17 @@ include('simpleicons-8/N/Norco')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NorcoXs>`
+- `<$NorcoSm>`
+- `<$NorcoMd>`
+- `<$NorcoLg>`
+
+
+
+
 
 ## Norco
 

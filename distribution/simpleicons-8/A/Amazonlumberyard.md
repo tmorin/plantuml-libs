@@ -17,6 +17,17 @@ include('simpleicons-8/A/Amazonlumberyard')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonlumberyardXs>`
+- `<$AmazonlumberyardSm>`
+- `<$AmazonlumberyardMd>`
+- `<$AmazonlumberyardLg>`
+
+
+
+
 
 ## Amazonlumberyard
 

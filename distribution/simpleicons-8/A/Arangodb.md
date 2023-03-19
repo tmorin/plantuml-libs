@@ -17,6 +17,17 @@ include('simpleicons-8/A/Arangodb')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ArangodbXs>`
+- `<$ArangodbSm>`
+- `<$ArangodbMd>`
+- `<$ArangodbLg>`
+
+
+
+
 
 ## Arangodb
 

@@ -17,6 +17,17 @@ include('simpleicons-8/H/Hasura')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HasuraXs>`
+- `<$HasuraSm>`
+- `<$HasuraMd>`
+- `<$HasuraLg>`
+
+
+
+
 
 ## Hasura
 

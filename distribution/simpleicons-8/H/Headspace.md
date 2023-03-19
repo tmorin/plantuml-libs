@@ -17,6 +17,17 @@ include('simpleicons-8/H/Headspace')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HeadspaceXs>`
+- `<$HeadspaceSm>`
+- `<$HeadspaceMd>`
+- `<$HeadspaceLg>`
+
+
+
+
 
 ## Headspace
 

@@ -17,6 +17,17 @@ include('simpleicons-8/J/Jellyfin')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JellyfinXs>`
+- `<$JellyfinSm>`
+- `<$JellyfinMd>`
+- `<$JellyfinLg>`
+
+
+
+
 
 ## Jellyfin
 

@@ -17,6 +17,17 @@ include('simpleicons-8/P/Pnpm')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PnpmXs>`
+- `<$PnpmSm>`
+- `<$PnpmMd>`
+- `<$PnpmLg>`
+
+
+
+
 
 ## Pnpm
 

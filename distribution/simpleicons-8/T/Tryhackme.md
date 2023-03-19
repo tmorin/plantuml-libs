@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tryhackme')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TryhackmeXs>`
+- `<$TryhackmeSm>`
+- `<$TryhackmeMd>`
+- `<$TryhackmeLg>`
+
+
+
+
 
 ## Tryhackme
 

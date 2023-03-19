@@ -17,6 +17,17 @@ include('simpleicons-8/P/Picartodottv')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PicartodottvXs>`
+- `<$PicartodottvSm>`
+- `<$PicartodottvMd>`
+- `<$PicartodottvLg>`
+
+
+
+
 
 ## Picartodottv
 

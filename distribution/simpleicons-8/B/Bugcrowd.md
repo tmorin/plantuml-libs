@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bugcrowd')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BugcrowdXs>`
+- `<$BugcrowdSm>`
+- `<$BugcrowdMd>`
+- `<$BugcrowdLg>`
+
+
+
+
 
 ## Bugcrowd
 

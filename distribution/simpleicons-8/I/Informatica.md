@@ -17,6 +17,17 @@ include('simpleicons-8/I/Informatica')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InformaticaXs>`
+- `<$InformaticaSm>`
+- `<$InformaticaMd>`
+- `<$InformaticaLg>`
+
+
+
+
 
 ## Informatica
 

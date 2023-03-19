@@ -17,6 +17,17 @@ include('simpleicons-8/N/Newjapanprowrestling')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NewjapanprowrestlingXs>`
+- `<$NewjapanprowrestlingSm>`
+- `<$NewjapanprowrestlingMd>`
+- `<$NewjapanprowrestlingLg>`
+
+
+
+
 
 ## Newjapanprowrestling
 

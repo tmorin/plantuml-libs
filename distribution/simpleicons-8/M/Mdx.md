@@ -17,6 +17,17 @@ include('simpleicons-8/M/Mdx')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MdxXs>`
+- `<$MdxSm>`
+- `<$MdxMd>`
+- `<$MdxLg>`
+
+
+
+
 
 ## Mdx
 

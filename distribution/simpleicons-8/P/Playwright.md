@@ -17,6 +17,17 @@ include('simpleicons-8/P/Playwright')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PlaywrightXs>`
+- `<$PlaywrightSm>`
+- `<$PlaywrightMd>`
+- `<$PlaywrightLg>`
+
+
+
+
 
 ## Playwright
 

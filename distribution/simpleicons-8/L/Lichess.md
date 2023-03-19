@@ -17,6 +17,17 @@ include('simpleicons-8/L/Lichess')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LichessXs>`
+- `<$LichessSm>`
+- `<$LichessMd>`
+- `<$LichessLg>`
+
+
+
+
 
 ## Lichess
 

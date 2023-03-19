@@ -17,6 +17,17 @@ include('simpleicons-8/A/Altiumdesigner')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AltiumdesignerXs>`
+- `<$AltiumdesignerSm>`
+- `<$AltiumdesignerMd>`
+- `<$AltiumdesignerLg>`
+
+
+
+
 
 ## Altiumdesigner
 

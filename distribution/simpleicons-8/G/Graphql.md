@@ -17,6 +17,17 @@ include('simpleicons-8/G/Graphql')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GraphqlXs>`
+- `<$GraphqlSm>`
+- `<$GraphqlMd>`
+- `<$GraphqlLg>`
+
+
+
+
 
 ## Graphql
 

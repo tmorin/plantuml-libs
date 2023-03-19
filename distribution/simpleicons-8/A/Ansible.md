@@ -17,6 +17,17 @@ include('simpleicons-8/A/Ansible')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AnsibleXs>`
+- `<$AnsibleSm>`
+- `<$AnsibleMd>`
+- `<$AnsibleLg>`
+
+
+
+
 
 ## Ansible
 

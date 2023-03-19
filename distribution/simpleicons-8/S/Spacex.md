@@ -17,6 +17,17 @@ include('simpleicons-8/S/Spacex')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SpacexXs>`
+- `<$SpacexSm>`
+- `<$SpacexMd>`
+- `<$SpacexLg>`
+
+
+
+
 
 ## Spacex
 

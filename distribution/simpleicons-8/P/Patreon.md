@@ -17,6 +17,17 @@ include('simpleicons-8/P/Patreon')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PatreonXs>`
+- `<$PatreonSm>`
+- `<$PatreonMd>`
+- `<$PatreonLg>`
+
+
+
+
 
 ## Patreon
 

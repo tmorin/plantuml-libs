@@ -17,6 +17,17 @@ include('simpleicons-8/Q/Qi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$QiXs>`
+- `<$QiSm>`
+- `<$QiMd>`
+- `<$QiLg>`
+
+
+
+
 
 ## Qi
 

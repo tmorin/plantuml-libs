@@ -17,6 +17,17 @@ include('simpleicons-8/A/Aliexpress')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AliexpressXs>`
+- `<$AliexpressSm>`
+- `<$AliexpressMd>`
+- `<$AliexpressLg>`
+
+
+
+
 
 ## Aliexpress
 

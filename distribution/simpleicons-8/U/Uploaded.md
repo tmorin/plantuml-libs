@@ -17,6 +17,17 @@ include('simpleicons-8/U/Uploaded')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UploadedXs>`
+- `<$UploadedSm>`
+- `<$UploadedMd>`
+- `<$UploadedLg>`
+
+
+
+
 
 ## Uploaded
 

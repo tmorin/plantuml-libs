@@ -17,6 +17,17 @@ include('simpleicons-8/E/Emberdotjs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EmberdotjsXs>`
+- `<$EmberdotjsSm>`
+- `<$EmberdotjsMd>`
+- `<$EmberdotjsLg>`
+
+
+
+
 
 ## Emberdotjs
 

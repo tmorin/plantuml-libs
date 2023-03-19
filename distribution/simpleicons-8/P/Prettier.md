@@ -17,6 +17,17 @@ include('simpleicons-8/P/Prettier')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PrettierXs>`
+- `<$PrettierSm>`
+- `<$PrettierMd>`
+- `<$PrettierLg>`
+
+
+
+
 
 ## Prettier
 

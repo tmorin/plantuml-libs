@@ -17,6 +17,17 @@ include('simpleicons-8/Z/Zalo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ZaloXs>`
+- `<$ZaloSm>`
+- `<$ZaloMd>`
+- `<$ZaloLg>`
+
+
+
+
 
 ## Zalo
 

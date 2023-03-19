@@ -17,6 +17,17 @@ include('simpleicons-8/P/Plangrid')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PlangridXs>`
+- `<$PlangridSm>`
+- `<$PlangridMd>`
+- `<$PlangridLg>`
+
+
+
+
 
 ## Plangrid
 

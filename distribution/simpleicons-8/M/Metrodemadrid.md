@@ -17,6 +17,17 @@ include('simpleicons-8/M/Metrodemadrid')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MetrodemadridXs>`
+- `<$MetrodemadridSm>`
+- `<$MetrodemadridMd>`
+- `<$MetrodemadridLg>`
+
+
+
+
 
 ## Metrodemadrid
 

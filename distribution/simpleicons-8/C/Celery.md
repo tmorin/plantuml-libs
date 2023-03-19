@@ -17,6 +17,17 @@ include('simpleicons-8/C/Celery')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CeleryXs>`
+- `<$CelerySm>`
+- `<$CeleryMd>`
+- `<$CeleryLg>`
+
+
+
+
 
 ## Celery
 

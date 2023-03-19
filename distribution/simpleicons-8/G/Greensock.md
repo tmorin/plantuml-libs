@@ -17,6 +17,17 @@ include('simpleicons-8/G/Greensock')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GreensockXs>`
+- `<$GreensockSm>`
+- `<$GreensockMd>`
+- `<$GreensockLg>`
+
+
+
+
 
 ## Greensock
 

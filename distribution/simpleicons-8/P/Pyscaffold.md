@@ -17,6 +17,17 @@ include('simpleicons-8/P/Pyscaffold')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PyscaffoldXs>`
+- `<$PyscaffoldSm>`
+- `<$PyscaffoldMd>`
+- `<$PyscaffoldLg>`
+
+
+
+
 
 ## Pyscaffold
 

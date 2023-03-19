@@ -17,6 +17,17 @@ include('simpleicons-8/C/Criticalrole')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CriticalroleXs>`
+- `<$CriticalroleSm>`
+- `<$CriticalroleMd>`
+- `<$CriticalroleLg>`
+
+
+
+
 
 ## Criticalrole
 

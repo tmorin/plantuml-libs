@@ -17,6 +17,17 @@ include('simpleicons-8/D/Draugiemdotlv')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DraugiemdotlvXs>`
+- `<$DraugiemdotlvSm>`
+- `<$DraugiemdotlvMd>`
+- `<$DraugiemdotlvLg>`
+
+
+
+
 
 ## Draugiemdotlv
 

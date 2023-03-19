@@ -17,6 +17,17 @@ include('simpleicons-8/W/Walmart')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WalmartXs>`
+- `<$WalmartSm>`
+- `<$WalmartMd>`
+- `<$WalmartLg>`
+
+
+
+
 
 ## Walmart
 

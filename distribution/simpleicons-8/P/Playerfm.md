@@ -17,6 +17,17 @@ include('simpleicons-8/P/Playerfm')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PlayerfmXs>`
+- `<$PlayerfmSm>`
+- `<$PlayerfmMd>`
+- `<$PlayerfmLg>`
+
+
+
+
 
 ## Playerfm
 

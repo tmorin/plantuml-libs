@@ -17,6 +17,17 @@ include('simpleicons-8/B/Boost')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BoostXs>`
+- `<$BoostSm>`
+- `<$BoostMd>`
+- `<$BoostLg>`
+
+
+
+
 
 ## Boost
 

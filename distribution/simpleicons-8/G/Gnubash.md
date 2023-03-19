@@ -17,6 +17,17 @@ include('simpleicons-8/G/Gnubash')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GnubashXs>`
+- `<$GnubashSm>`
+- `<$GnubashMd>`
+- `<$GnubashLg>`
+
+
+
+
 
 ## Gnubash
 

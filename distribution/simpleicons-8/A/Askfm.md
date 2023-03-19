@@ -17,6 +17,17 @@ include('simpleicons-8/A/Askfm')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AskfmXs>`
+- `<$AskfmSm>`
+- `<$AskfmMd>`
+- `<$AskfmLg>`
+
+
+
+
 
 ## Askfm
 

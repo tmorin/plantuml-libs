@@ -17,6 +17,17 @@ include('simpleicons-8/M/Minecraft')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MinecraftXs>`
+- `<$MinecraftSm>`
+- `<$MinecraftMd>`
+- `<$MinecraftLg>`
+
+
+
+
 
 ## Minecraft
 

@@ -17,6 +17,17 @@ include('simpleicons-8/P/Pandora')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PandoraXs>`
+- `<$PandoraSm>`
+- `<$PandoraMd>`
+- `<$PandoraLg>`
+
+
+
+
 
 ## Pandora
 

@@ -17,6 +17,17 @@ include('simpleicons-8/R/Rss')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RssXs>`
+- `<$RssSm>`
+- `<$RssMd>`
+- `<$RssLg>`
+
+
+
+
 
 ## Rss
 

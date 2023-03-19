@@ -17,6 +17,17 @@ include('simpleicons-8/P/Pointy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PointyXs>`
+- `<$PointySm>`
+- `<$PointyMd>`
+- `<$PointyLg>`
+
+
+
+
 
 ## Pointy
 

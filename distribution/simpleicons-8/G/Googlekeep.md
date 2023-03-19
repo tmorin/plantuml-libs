@@ -17,6 +17,17 @@ include('simpleicons-8/G/Googlekeep')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GooglekeepXs>`
+- `<$GooglekeepSm>`
+- `<$GooglekeepMd>`
+- `<$GooglekeepLg>`
+
+
+
+
 
 ## Googlekeep
 

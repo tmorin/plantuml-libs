@@ -17,6 +17,17 @@ include('simpleicons-8/X/Xero')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$XeroXs>`
+- `<$XeroSm>`
+- `<$XeroMd>`
+- `<$XeroLg>`
+
+
+
+
 
 ## Xero
 

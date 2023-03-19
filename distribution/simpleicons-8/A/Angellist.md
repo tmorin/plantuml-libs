@@ -17,6 +17,17 @@ include('simpleicons-8/A/Angellist')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AngellistXs>`
+- `<$AngellistSm>`
+- `<$AngellistMd>`
+- `<$AngellistLg>`
+
+
+
+
 
 ## Angellist
 

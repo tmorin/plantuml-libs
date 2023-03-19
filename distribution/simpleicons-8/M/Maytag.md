@@ -17,6 +17,17 @@ include('simpleicons-8/M/Maytag')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MaytagXs>`
+- `<$MaytagSm>`
+- `<$MaytagMd>`
+- `<$MaytagLg>`
+
+
+
+
 
 ## Maytag
 

@@ -17,6 +17,17 @@ include('simpleicons-8/I/Iceland')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IcelandXs>`
+- `<$IcelandSm>`
+- `<$IcelandMd>`
+- `<$IcelandLg>`
+
+
+
+
 
 ## Iceland
 

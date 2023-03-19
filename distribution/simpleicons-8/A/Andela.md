@@ -17,6 +17,17 @@ include('simpleicons-8/A/Andela')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AndelaXs>`
+- `<$AndelaSm>`
+- `<$AndelaMd>`
+- `<$AndelaLg>`
+
+
+
+
 
 ## Andela
 

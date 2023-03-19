@@ -17,6 +17,17 @@ include('simpleicons-8/W/Windowsterminal')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WindowsterminalXs>`
+- `<$WindowsterminalSm>`
+- `<$WindowsterminalMd>`
+- `<$WindowsterminalLg>`
+
+
+
+
 
 ## Windowsterminal
 

@@ -17,6 +17,17 @@ include('simpleicons-8/S/Symfony')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SymfonyXs>`
+- `<$SymfonySm>`
+- `<$SymfonyMd>`
+- `<$SymfonyLg>`
+
+
+
+
 
 ## Symfony
 

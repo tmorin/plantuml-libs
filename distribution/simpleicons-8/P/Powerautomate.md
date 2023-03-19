@@ -17,6 +17,17 @@ include('simpleicons-8/P/Powerautomate')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PowerautomateXs>`
+- `<$PowerautomateSm>`
+- `<$PowerautomateMd>`
+- `<$PowerautomateLg>`
+
+
+
+
 
 ## Powerautomate
 

@@ -17,6 +17,17 @@ include('simpleicons-8/I/Icloud')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IcloudXs>`
+- `<$IcloudSm>`
+- `<$IcloudMd>`
+- `<$IcloudLg>`
+
+
+
+
 
 ## Icloud
 

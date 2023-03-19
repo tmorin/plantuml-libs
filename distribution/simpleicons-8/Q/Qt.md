@@ -17,6 +17,17 @@ include('simpleicons-8/Q/Qt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$QtXs>`
+- `<$QtSm>`
+- `<$QtMd>`
+- `<$QtLg>`
+
+
+
+
 
 ## Qt
 

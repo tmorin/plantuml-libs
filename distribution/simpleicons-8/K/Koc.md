@@ -17,6 +17,17 @@ include('simpleicons-8/K/Koc')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KocXs>`
+- `<$KocSm>`
+- `<$KocMd>`
+- `<$KocLg>`
+
+
+
+
 
 ## Koc
 

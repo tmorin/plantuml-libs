@@ -17,6 +17,17 @@ include('simpleicons-8/Q/Quicktime')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$QuicktimeXs>`
+- `<$QuicktimeSm>`
+- `<$QuicktimeMd>`
+- `<$QuicktimeLg>`
+
+
+
+
 
 ## Quicktime
 

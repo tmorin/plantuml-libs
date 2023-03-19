@@ -17,6 +17,17 @@ include('simpleicons-8/M/Mlb')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MlbXs>`
+- `<$MlbSm>`
+- `<$MlbMd>`
+- `<$MlbLg>`
+
+
+
+
 
 ## Mlb
 

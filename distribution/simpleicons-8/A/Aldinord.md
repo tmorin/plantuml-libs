@@ -17,6 +17,17 @@ include('simpleicons-8/A/Aldinord')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AldinordXs>`
+- `<$AldinordSm>`
+- `<$AldinordMd>`
+- `<$AldinordLg>`
+
+
+
+
 
 ## Aldinord
 

@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bamboo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BambooXs>`
+- `<$BambooSm>`
+- `<$BambooMd>`
+- `<$BambooLg>`
+
+
+
+
 
 ## Bamboo
 

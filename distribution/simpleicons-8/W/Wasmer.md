@@ -17,6 +17,17 @@ include('simpleicons-8/W/Wasmer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WasmerXs>`
+- `<$WasmerSm>`
+- `<$WasmerMd>`
+- `<$WasmerLg>`
+
+
+
+
 
 ## Wasmer
 

@@ -17,6 +17,17 @@ include('simpleicons-8/P/Phpmyadmin')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PhpmyadminXs>`
+- `<$PhpmyadminSm>`
+- `<$PhpmyadminMd>`
+- `<$PhpmyadminLg>`
+
+
+
+
 
 ## Phpmyadmin
 

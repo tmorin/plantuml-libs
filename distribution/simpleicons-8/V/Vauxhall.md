@@ -17,6 +17,17 @@ include('simpleicons-8/V/Vauxhall')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VauxhallXs>`
+- `<$VauxhallSm>`
+- `<$VauxhallMd>`
+- `<$VauxhallLg>`
+
+
+
+
 
 ## Vauxhall
 

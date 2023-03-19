@@ -17,6 +17,17 @@ include('simpleicons-8/H/Harbor')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HarborXs>`
+- `<$HarborSm>`
+- `<$HarborMd>`
+- `<$HarborLg>`
+
+
+
+
 
 ## Harbor
 

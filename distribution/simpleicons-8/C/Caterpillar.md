@@ -17,6 +17,17 @@ include('simpleicons-8/C/Caterpillar')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CaterpillarXs>`
+- `<$CaterpillarSm>`
+- `<$CaterpillarMd>`
+- `<$CaterpillarLg>`
+
+
+
+
 
 ## Caterpillar
 

@@ -17,6 +17,17 @@ include('simpleicons-8/T/Toyota')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ToyotaXs>`
+- `<$ToyotaSm>`
+- `<$ToyotaMd>`
+- `<$ToyotaLg>`
+
+
+
+
 
 ## Toyota
 

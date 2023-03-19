@@ -17,6 +17,17 @@ include('simpleicons-8/R/Rakuten')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RakutenXs>`
+- `<$RakutenSm>`
+- `<$RakutenMd>`
+- `<$RakutenLg>`
+
+
+
+
 
 ## Rakuten
 

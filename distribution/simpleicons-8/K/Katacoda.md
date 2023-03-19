@@ -17,6 +17,17 @@ include('simpleicons-8/K/Katacoda')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KatacodaXs>`
+- `<$KatacodaSm>`
+- `<$KatacodaMd>`
+- `<$KatacodaLg>`
+
+
+
+
 
 ## Katacoda
 

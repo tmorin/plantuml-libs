@@ -17,6 +17,17 @@ include('simpleicons-8/Y/Youtubetv')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$YoutubetvXs>`
+- `<$YoutubetvSm>`
+- `<$YoutubetvMd>`
+- `<$YoutubetvLg>`
+
+
+
+
 
 ## Youtubetv
 

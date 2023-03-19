@@ -17,6 +17,17 @@ include('simpleicons-8/A/Audioboom')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AudioboomXs>`
+- `<$AudioboomSm>`
+- `<$AudioboomMd>`
+- `<$AudioboomLg>`
+
+
+
+
 
 ## Audioboom
 

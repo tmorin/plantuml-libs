@@ -17,6 +17,17 @@ include('simpleicons-8/N/Numba')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NumbaXs>`
+- `<$NumbaSm>`
+- `<$NumbaMd>`
+- `<$NumbaLg>`
+
+
+
+
 
 ## Numba
 

@@ -17,6 +17,17 @@ include('simpleicons-8/C/Clickhouse')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ClickhouseXs>`
+- `<$ClickhouseSm>`
+- `<$ClickhouseMd>`
+- `<$ClickhouseLg>`
+
+
+
+
 
 ## Clickhouse
 

@@ -17,6 +17,17 @@ include('simpleicons-8/T/Talenthouse')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TalenthouseXs>`
+- `<$TalenthouseSm>`
+- `<$TalenthouseMd>`
+- `<$TalenthouseLg>`
+
+
+
+
 
 ## Talenthouse
 

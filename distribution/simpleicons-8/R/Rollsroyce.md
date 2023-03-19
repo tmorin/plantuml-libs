@@ -17,6 +17,17 @@ include('simpleicons-8/R/Rollsroyce')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RollsroyceXs>`
+- `<$RollsroyceSm>`
+- `<$RollsroyceMd>`
+- `<$RollsroyceLg>`
+
+
+
+
 
 ## Rollsroyce
 

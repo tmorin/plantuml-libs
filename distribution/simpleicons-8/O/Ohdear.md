@@ -17,6 +17,17 @@ include('simpleicons-8/O/Ohdear')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OhdearXs>`
+- `<$OhdearSm>`
+- `<$OhdearMd>`
+- `<$OhdearLg>`
+
+
+
+
 
 ## Ohdear
 

@@ -17,6 +17,17 @@ include('simpleicons-8/S/Semanticuireact')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SemanticuireactXs>`
+- `<$SemanticuireactSm>`
+- `<$SemanticuireactMd>`
+- `<$SemanticuireactLg>`
+
+
+
+
 
 ## Semanticuireact
 

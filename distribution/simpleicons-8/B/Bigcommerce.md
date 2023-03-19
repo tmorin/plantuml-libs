@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bigcommerce')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BigcommerceXs>`
+- `<$BigcommerceSm>`
+- `<$BigcommerceMd>`
+- `<$BigcommerceLg>`
+
+
+
+
 
 ## Bigcommerce
 

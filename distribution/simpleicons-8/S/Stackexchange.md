@@ -17,6 +17,17 @@ include('simpleicons-8/S/Stackexchange')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StackexchangeXs>`
+- `<$StackexchangeSm>`
+- `<$StackexchangeMd>`
+- `<$StackexchangeLg>`
+
+
+
+
 
 ## Stackexchange
 

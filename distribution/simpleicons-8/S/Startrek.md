@@ -17,6 +17,17 @@ include('simpleicons-8/S/Startrek')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StartrekXs>`
+- `<$StartrekSm>`
+- `<$StartrekMd>`
+- `<$StartrekLg>`
+
+
+
+
 
 ## Startrek
 

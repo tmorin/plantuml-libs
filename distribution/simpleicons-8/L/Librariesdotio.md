@@ -17,6 +17,17 @@ include('simpleicons-8/L/Librariesdotio')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LibrariesdotioXs>`
+- `<$LibrariesdotioSm>`
+- `<$LibrariesdotioMd>`
+- `<$LibrariesdotioLg>`
+
+
+
+
 
 ## Librariesdotio
 

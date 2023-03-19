@@ -17,6 +17,17 @@ include('simpleicons-8/L/Loom')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LoomXs>`
+- `<$LoomSm>`
+- `<$LoomMd>`
+- `<$LoomLg>`
+
+
+
+
 
 ## Loom
 

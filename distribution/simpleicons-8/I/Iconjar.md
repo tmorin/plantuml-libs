@@ -17,6 +17,17 @@ include('simpleicons-8/I/Iconjar')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IconjarXs>`
+- `<$IconjarSm>`
+- `<$IconjarMd>`
+- `<$IconjarLg>`
+
+
+
+
 
 ## Iconjar
 

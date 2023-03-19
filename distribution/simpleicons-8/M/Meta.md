@@ -17,6 +17,17 @@ include('simpleicons-8/M/Meta')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MetaXs>`
+- `<$MetaSm>`
+- `<$MetaMd>`
+- `<$MetaLg>`
+
+
+
+
 
 ## Meta
 

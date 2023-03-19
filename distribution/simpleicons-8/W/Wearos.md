@@ -17,6 +17,17 @@ include('simpleicons-8/W/Wearos')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WearosXs>`
+- `<$WearosSm>`
+- `<$WearosMd>`
+- `<$WearosLg>`
+
+
+
+
 
 ## Wearos
 

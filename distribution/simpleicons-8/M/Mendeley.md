@@ -17,6 +17,17 @@ include('simpleicons-8/M/Mendeley')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MendeleyXs>`
+- `<$MendeleySm>`
+- `<$MendeleyMd>`
+- `<$MendeleyLg>`
+
+
+
+
 
 ## Mendeley
 

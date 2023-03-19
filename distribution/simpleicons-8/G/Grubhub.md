@@ -17,6 +17,17 @@ include('simpleicons-8/G/Grubhub')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GrubhubXs>`
+- `<$GrubhubSm>`
+- `<$GrubhubMd>`
+- `<$GrubhubLg>`
+
+
+
+
 
 ## Grubhub
 

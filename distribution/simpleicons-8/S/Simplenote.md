@@ -17,6 +17,17 @@ include('simpleicons-8/S/Simplenote')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SimplenoteXs>`
+- `<$SimplenoteSm>`
+- `<$SimplenoteMd>`
+- `<$SimplenoteLg>`
+
+
+
+
 
 ## Simplenote
 

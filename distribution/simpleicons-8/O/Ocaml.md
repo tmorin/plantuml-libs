@@ -17,6 +17,17 @@ include('simpleicons-8/O/Ocaml')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OcamlXs>`
+- `<$OcamlSm>`
+- `<$OcamlMd>`
+- `<$OcamlLg>`
+
+
+
+
 
 ## Ocaml
 

@@ -17,6 +17,17 @@ include('simpleicons-8/R/Ryanair')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RyanairXs>`
+- `<$RyanairSm>`
+- `<$RyanairMd>`
+- `<$RyanairLg>`
+
+
+
+
 
 ## Ryanair
 

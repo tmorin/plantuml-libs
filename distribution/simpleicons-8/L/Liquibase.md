@@ -17,6 +17,17 @@ include('simpleicons-8/L/Liquibase')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LiquibaseXs>`
+- `<$LiquibaseSm>`
+- `<$LiquibaseMd>`
+- `<$LiquibaseLg>`
+
+
+
+
 
 ## Liquibase
 

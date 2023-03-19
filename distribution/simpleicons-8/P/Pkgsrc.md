@@ -17,6 +17,17 @@ include('simpleicons-8/P/Pkgsrc')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PkgsrcXs>`
+- `<$PkgsrcSm>`
+- `<$PkgsrcMd>`
+- `<$PkgsrcLg>`
+
+
+
+
 
 ## Pkgsrc
 

@@ -17,6 +17,17 @@ include('simpleicons-8/U/Upstash')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UpstashXs>`
+- `<$UpstashSm>`
+- `<$UpstashMd>`
+- `<$UpstashLg>`
+
+
+
+
 
 ## Upstash
 

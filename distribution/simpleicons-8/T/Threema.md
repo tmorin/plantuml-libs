@@ -17,6 +17,17 @@ include('simpleicons-8/T/Threema')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ThreemaXs>`
+- `<$ThreemaSm>`
+- `<$ThreemaMd>`
+- `<$ThreemaLg>`
+
+
+
+
 
 ## Threema
 

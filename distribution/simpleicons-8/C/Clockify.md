@@ -17,6 +17,17 @@ include('simpleicons-8/C/Clockify')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ClockifyXs>`
+- `<$ClockifySm>`
+- `<$ClockifyMd>`
+- `<$ClockifyLg>`
+
+
+
+
 
 ## Clockify
 

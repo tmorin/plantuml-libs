@@ -17,6 +17,17 @@ include('simpleicons-8/R/Redis')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RedisXs>`
+- `<$RedisSm>`
+- `<$RedisMd>`
+- `<$RedisLg>`
+
+
+
+
 
 ## Redis
 

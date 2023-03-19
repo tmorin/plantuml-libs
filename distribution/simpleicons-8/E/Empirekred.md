@@ -17,6 +17,17 @@ include('simpleicons-8/E/Empirekred')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EmpirekredXs>`
+- `<$EmpirekredSm>`
+- `<$EmpirekredMd>`
+- `<$EmpirekredLg>`
+
+
+
+
 
 ## Empirekred
 

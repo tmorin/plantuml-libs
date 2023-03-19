@@ -17,6 +17,17 @@ include('simpleicons-8/U/Ubereats')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UbereatsXs>`
+- `<$UbereatsSm>`
+- `<$UbereatsMd>`
+- `<$UbereatsLg>`
+
+
+
+
 
 ## Ubereats
 

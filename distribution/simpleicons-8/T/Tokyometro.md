@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tokyometro')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TokyometroXs>`
+- `<$TokyometroSm>`
+- `<$TokyometroMd>`
+- `<$TokyometroLg>`
+
+
+
+
 
 ## Tokyometro
 

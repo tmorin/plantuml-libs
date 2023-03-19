@@ -17,6 +17,17 @@ include('simpleicons-8/B/Byte')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ByteXs>`
+- `<$ByteSm>`
+- `<$ByteMd>`
+- `<$ByteLg>`
+
+
+
+
 
 ## Byte
 

@@ -17,6 +17,17 @@ include('simpleicons-8/L/Litecoin')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LitecoinXs>`
+- `<$LitecoinSm>`
+- `<$LitecoinMd>`
+- `<$LitecoinLg>`
+
+
+
+
 
 ## Litecoin
 

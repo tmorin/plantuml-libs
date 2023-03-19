@@ -17,6 +17,17 @@ include('simpleicons-8/P/Piwigo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PiwigoXs>`
+- `<$PiwigoSm>`
+- `<$PiwigoMd>`
+- `<$PiwigoLg>`
+
+
+
+
 
 ## Piwigo
 

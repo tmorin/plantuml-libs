@@ -17,6 +17,17 @@ include('simpleicons-8/P/Playcanvas')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PlaycanvasXs>`
+- `<$PlaycanvasSm>`
+- `<$PlaycanvasMd>`
+- `<$PlaycanvasLg>`
+
+
+
+
 
 ## Playcanvas
 

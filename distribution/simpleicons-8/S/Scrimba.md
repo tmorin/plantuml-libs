@@ -17,6 +17,17 @@ include('simpleicons-8/S/Scrimba')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ScrimbaXs>`
+- `<$ScrimbaSm>`
+- `<$ScrimbaMd>`
+- `<$ScrimbaLg>`
+
+
+
+
 
 ## Scrimba
 

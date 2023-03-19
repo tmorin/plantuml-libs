@@ -17,6 +17,17 @@ include('simpleicons-8/Z/Zoom')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ZoomXs>`
+- `<$ZoomSm>`
+- `<$ZoomMd>`
+- `<$ZoomLg>`
+
+
+
+
 
 ## Zoom
 

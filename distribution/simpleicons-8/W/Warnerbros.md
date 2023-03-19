@@ -17,6 +17,17 @@ include('simpleicons-8/W/Warnerbros')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WarnerbrosXs>`
+- `<$WarnerbrosSm>`
+- `<$WarnerbrosMd>`
+- `<$WarnerbrosLg>`
+
+
+
+
 
 ## Warnerbros
 

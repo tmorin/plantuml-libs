@@ -17,6 +17,17 @@ include('simpleicons-8/Q/Qzone')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$QzoneXs>`
+- `<$QzoneSm>`
+- `<$QzoneMd>`
+- `<$QzoneLg>`
+
+
+
+
 
 ## Qzone
 

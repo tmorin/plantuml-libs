@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tata')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TataXs>`
+- `<$TataSm>`
+- `<$TataMd>`
+- `<$TataLg>`
+
+
+
+
 
 ## Tata
 

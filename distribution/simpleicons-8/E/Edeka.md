@@ -17,6 +17,17 @@ include('simpleicons-8/E/Edeka')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EdekaXs>`
+- `<$EdekaSm>`
+- `<$EdekaMd>`
+- `<$EdekaLg>`
+
+
+
+
 
 ## Edeka
 

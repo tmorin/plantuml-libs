@@ -17,6 +17,17 @@ include('simpleicons-8/A/Amg')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmgXs>`
+- `<$AmgSm>`
+- `<$AmgMd>`
+- `<$AmgLg>`
+
+
+
+
 
 ## Amg
 

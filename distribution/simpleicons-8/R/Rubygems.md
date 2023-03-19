@@ -17,6 +17,17 @@ include('simpleicons-8/R/Rubygems')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RubygemsXs>`
+- `<$RubygemsSm>`
+- `<$RubygemsMd>`
+- `<$RubygemsLg>`
+
+
+
+
 
 ## Rubygems
 

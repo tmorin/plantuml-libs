@@ -17,6 +17,17 @@ include('simpleicons-8/C/Cultura')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CulturaXs>`
+- `<$CulturaSm>`
+- `<$CulturaMd>`
+- `<$CulturaLg>`
+
+
+
+
 
 ## Cultura
 

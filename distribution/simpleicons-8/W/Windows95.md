@@ -17,6 +17,17 @@ include('simpleicons-8/W/Windows95')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$Windows95Xs>`
+- `<$Windows95Sm>`
+- `<$Windows95Md>`
+- `<$Windows95Lg>`
+
+
+
+
 
 ## Windows95
 

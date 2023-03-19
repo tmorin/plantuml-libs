@@ -17,6 +17,17 @@ include('simpleicons-8/C/Commerzbank')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CommerzbankXs>`
+- `<$CommerzbankSm>`
+- `<$CommerzbankMd>`
+- `<$CommerzbankLg>`
+
+
+
+
 
 ## Commerzbank
 

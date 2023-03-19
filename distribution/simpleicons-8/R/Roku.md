@@ -17,6 +17,17 @@ include('simpleicons-8/R/Roku')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RokuXs>`
+- `<$RokuSm>`
+- `<$RokuMd>`
+- `<$RokuLg>`
+
+
+
+
 
 ## Roku
 

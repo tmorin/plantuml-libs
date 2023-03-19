@@ -17,6 +17,17 @@ include('simpleicons-8/C/Cirrusci')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CirrusciXs>`
+- `<$CirrusciSm>`
+- `<$CirrusciMd>`
+- `<$CirrusciLg>`
+
+
+
+
 
 ## Cirrusci
 

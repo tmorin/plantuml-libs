@@ -17,6 +17,17 @@ include('simpleicons-8/E/Elastic')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ElasticXs>`
+- `<$ElasticSm>`
+- `<$ElasticMd>`
+- `<$ElasticLg>`
+
+
+
+
 
 ## Elastic
 

@@ -17,6 +17,17 @@ include('simpleicons-8/L/Lospec')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LospecXs>`
+- `<$LospecSm>`
+- `<$LospecMd>`
+- `<$LospecLg>`
+
+
+
+
 
 ## Lospec
 

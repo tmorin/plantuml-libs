@@ -17,6 +17,17 @@ include('simpleicons-8/I/Intermarche')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IntermarcheXs>`
+- `<$IntermarcheSm>`
+- `<$IntermarcheMd>`
+- `<$IntermarcheLg>`
+
+
+
+
 
 ## Intermarche
 

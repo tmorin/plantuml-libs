@@ -17,6 +17,17 @@ include('simpleicons-8/A/Apachekafka')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ApachekafkaXs>`
+- `<$ApachekafkaSm>`
+- `<$ApachekafkaMd>`
+- `<$ApachekafkaLg>`
+
+
+
+
 
 ## Apachekafka
 

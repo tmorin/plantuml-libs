@@ -17,6 +17,17 @@ include('simpleicons-8/C/Chatbot')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChatbotXs>`
+- `<$ChatbotSm>`
+- `<$ChatbotMd>`
+- `<$ChatbotLg>`
+
+
+
+
 
 ## Chatbot
 

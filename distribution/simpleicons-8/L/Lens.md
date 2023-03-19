@@ -17,6 +17,17 @@ include('simpleicons-8/L/Lens')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LensXs>`
+- `<$LensSm>`
+- `<$LensMd>`
+- `<$LensLg>`
+
+
+
+
 
 ## Lens
 

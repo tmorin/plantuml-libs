@@ -17,6 +17,17 @@ include('simpleicons-8/P/P5Dotjs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$P5DotjsXs>`
+- `<$P5DotjsSm>`
+- `<$P5DotjsMd>`
+- `<$P5DotjsLg>`
+
+
+
+
 
 ## P5Dotjs
 

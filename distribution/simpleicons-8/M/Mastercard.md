@@ -17,6 +17,17 @@ include('simpleicons-8/M/Mastercard')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MastercardXs>`
+- `<$MastercardSm>`
+- `<$MastercardMd>`
+- `<$MastercardLg>`
+
+
+
+
 
 ## Mastercard
 

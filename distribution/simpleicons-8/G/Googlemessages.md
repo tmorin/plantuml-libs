@@ -17,6 +17,17 @@ include('simpleicons-8/G/Googlemessages')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GooglemessagesXs>`
+- `<$GooglemessagesSm>`
+- `<$GooglemessagesMd>`
+- `<$GooglemessagesLg>`
+
+
+
+
 
 ## Googlemessages
 

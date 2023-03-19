@@ -17,6 +17,17 @@ include('simpleicons-8/B/Buildkite')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BuildkiteXs>`
+- `<$BuildkiteSm>`
+- `<$BuildkiteMd>`
+- `<$BuildkiteLg>`
+
+
+
+
 
 ## Buildkite
 

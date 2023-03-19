@@ -17,6 +17,17 @@ include('simpleicons-8/G/Glassdoor')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GlassdoorXs>`
+- `<$GlassdoorSm>`
+- `<$GlassdoorMd>`
+- `<$GlassdoorLg>`
+
+
+
+
 
 ## Glassdoor
 

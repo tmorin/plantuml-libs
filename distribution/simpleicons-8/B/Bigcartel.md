@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bigcartel')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BigcartelXs>`
+- `<$BigcartelSm>`
+- `<$BigcartelMd>`
+- `<$BigcartelLg>`
+
+
+
+
 
 ## Bigcartel
 

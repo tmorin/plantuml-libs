@@ -17,6 +17,17 @@ include('simpleicons-8/V/Vulkan')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VulkanXs>`
+- `<$VulkanSm>`
+- `<$VulkanMd>`
+- `<$VulkanLg>`
+
+
+
+
 
 ## Vulkan
 

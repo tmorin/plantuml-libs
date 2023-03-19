@@ -17,6 +17,17 @@ include('simpleicons-8/N/Netflix')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NetflixXs>`
+- `<$NetflixSm>`
+- `<$NetflixMd>`
+- `<$NetflixLg>`
+
+
+
+
 
 ## Netflix
 

@@ -17,6 +17,17 @@ include('simpleicons-8/Q/Qgis')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$QgisXs>`
+- `<$QgisSm>`
+- `<$QgisMd>`
+- `<$QgisLg>`
+
+
+
+
 
 ## Qgis
 

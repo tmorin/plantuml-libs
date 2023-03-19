@@ -17,6 +17,17 @@ include('simpleicons-8/R/Reebok')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ReebokXs>`
+- `<$ReebokSm>`
+- `<$ReebokMd>`
+- `<$ReebokLg>`
+
+
+
+
 
 ## Reebok
 

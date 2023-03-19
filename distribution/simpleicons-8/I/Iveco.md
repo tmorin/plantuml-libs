@@ -17,6 +17,17 @@ include('simpleicons-8/I/Iveco')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IvecoXs>`
+- `<$IvecoSm>`
+- `<$IvecoMd>`
+- `<$IvecoLg>`
+
+
+
+
 
 ## Iveco
 

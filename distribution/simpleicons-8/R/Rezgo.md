@@ -17,6 +17,17 @@ include('simpleicons-8/R/Rezgo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RezgoXs>`
+- `<$RezgoSm>`
+- `<$RezgoMd>`
+- `<$RezgoLg>`
+
+
+
+
 
 ## Rezgo
 

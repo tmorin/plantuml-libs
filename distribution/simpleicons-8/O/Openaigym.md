@@ -17,6 +17,17 @@ include('simpleicons-8/O/Openaigym')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OpenaigymXs>`
+- `<$OpenaigymSm>`
+- `<$OpenaigymMd>`
+- `<$OpenaigymLg>`
+
+
+
+
 
 ## Openaigym
 

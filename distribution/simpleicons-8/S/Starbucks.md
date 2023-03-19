@@ -17,6 +17,17 @@ include('simpleicons-8/S/Starbucks')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StarbucksXs>`
+- `<$StarbucksSm>`
+- `<$StarbucksMd>`
+- `<$StarbucksLg>`
+
+
+
+
 
 ## Starbucks
 

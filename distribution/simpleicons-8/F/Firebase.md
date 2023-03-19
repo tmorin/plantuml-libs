@@ -17,6 +17,17 @@ include('simpleicons-8/F/Firebase')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FirebaseXs>`
+- `<$FirebaseSm>`
+- `<$FirebaseMd>`
+- `<$FirebaseLg>`
+
+
+
+
 
 ## Firebase
 

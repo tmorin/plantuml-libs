@@ -17,6 +17,17 @@ include('simpleicons-8/F/Ffmpeg')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FfmpegXs>`
+- `<$FfmpegSm>`
+- `<$FfmpegMd>`
+- `<$FfmpegLg>`
+
+
+
+
 
 ## Ffmpeg
 

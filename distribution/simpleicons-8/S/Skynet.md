@@ -17,6 +17,17 @@ include('simpleicons-8/S/Skynet')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SkynetXs>`
+- `<$SkynetSm>`
+- `<$SkynetMd>`
+- `<$SkynetLg>`
+
+
+
+
 
 ## Skynet
 

@@ -17,6 +17,17 @@ include('simpleicons-8/T/Toggl')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TogglXs>`
+- `<$TogglSm>`
+- `<$TogglMd>`
+- `<$TogglLg>`
+
+
+
+
 
 ## Toggl
 

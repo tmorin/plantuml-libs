@@ -17,6 +17,17 @@ include('simpleicons-8/C/Curl')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CurlXs>`
+- `<$CurlSm>`
+- `<$CurlMd>`
+- `<$CurlLg>`
+
+
+
+
 
 ## Curl
 

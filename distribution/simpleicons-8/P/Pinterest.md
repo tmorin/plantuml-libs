@@ -17,6 +17,17 @@ include('simpleicons-8/P/Pinterest')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PinterestXs>`
+- `<$PinterestSm>`
+- `<$PinterestMd>`
+- `<$PinterestLg>`
+
+
+
+
 
 ## Pinterest
 

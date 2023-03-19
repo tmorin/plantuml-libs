@@ -17,6 +17,17 @@ include('simpleicons-8/V/Verizon')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VerizonXs>`
+- `<$VerizonSm>`
+- `<$VerizonMd>`
+- `<$VerizonLg>`
+
+
+
+
 
 ## Verizon
 

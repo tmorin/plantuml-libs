@@ -17,6 +17,17 @@ include('simpleicons-8/X/Xamarin')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$XamarinXs>`
+- `<$XamarinSm>`
+- `<$XamarinMd>`
+- `<$XamarinLg>`
+
+
+
+
 
 ## Xamarin
 

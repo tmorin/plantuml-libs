@@ -17,6 +17,17 @@ include('simpleicons-8/C/Couchbase')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CouchbaseXs>`
+- `<$CouchbaseSm>`
+- `<$CouchbaseMd>`
+- `<$CouchbaseLg>`
+
+
+
+
 
 ## Couchbase
 

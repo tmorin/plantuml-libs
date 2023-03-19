@@ -17,6 +17,17 @@ include('simpleicons-8/H/Htmlacademy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HtmlacademyXs>`
+- `<$HtmlacademySm>`
+- `<$HtmlacademyMd>`
+- `<$HtmlacademyLg>`
+
+
+
+
 
 ## Htmlacademy
 

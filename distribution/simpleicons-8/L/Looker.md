@@ -17,6 +17,17 @@ include('simpleicons-8/L/Looker')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LookerXs>`
+- `<$LookerSm>`
+- `<$LookerMd>`
+- `<$LookerLg>`
+
+
+
+
 
 ## Looker
 

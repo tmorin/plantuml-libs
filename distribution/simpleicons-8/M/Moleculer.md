@@ -17,6 +17,17 @@ include('simpleicons-8/M/Moleculer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MoleculerXs>`
+- `<$MoleculerSm>`
+- `<$MoleculerMd>`
+- `<$MoleculerLg>`
+
+
+
+
 
 ## Moleculer
 

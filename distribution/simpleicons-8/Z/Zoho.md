@@ -17,6 +17,17 @@ include('simpleicons-8/Z/Zoho')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ZohoXs>`
+- `<$ZohoSm>`
+- `<$ZohoMd>`
+- `<$ZohoLg>`
+
+
+
+
 
 ## Zoho
 

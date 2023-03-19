@@ -17,6 +17,17 @@ include('simpleicons-8/P/Peertube')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PeertubeXs>`
+- `<$PeertubeSm>`
+- `<$PeertubeMd>`
+- `<$PeertubeLg>`
+
+
+
+
 
 ## Peertube
 

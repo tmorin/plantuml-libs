@@ -17,6 +17,17 @@ include('simpleicons-8/S/Sonicwall')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SonicwallXs>`
+- `<$SonicwallSm>`
+- `<$SonicwallMd>`
+- `<$SonicwallLg>`
+
+
+
+
 
 ## Sonicwall
 

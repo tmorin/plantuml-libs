@@ -17,6 +17,17 @@ include('simpleicons-8/P/Puma')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PumaXs>`
+- `<$PumaSm>`
+- `<$PumaMd>`
+- `<$PumaLg>`
+
+
+
+
 
 ## Puma
 

@@ -17,6 +17,17 @@ include('simpleicons-8/_/_1Password')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$_1PasswordXs>`
+- `<$_1PasswordSm>`
+- `<$_1PasswordMd>`
+- `<$_1PasswordLg>`
+
+
+
+
 
 ## _1Password
 

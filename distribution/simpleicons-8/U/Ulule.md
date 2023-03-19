@@ -17,6 +17,17 @@ include('simpleicons-8/U/Ulule')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UluleXs>`
+- `<$UluleSm>`
+- `<$UluleMd>`
+- `<$UluleLg>`
+
+
+
+
 
 ## Ulule
 

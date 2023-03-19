@@ -17,6 +17,17 @@ include('simpleicons-8/E/Emby')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EmbyXs>`
+- `<$EmbySm>`
+- `<$EmbyMd>`
+- `<$EmbyLg>`
+
+
+
+
 
 ## Emby
 

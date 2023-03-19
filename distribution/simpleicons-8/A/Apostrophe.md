@@ -17,6 +17,17 @@ include('simpleicons-8/A/Apostrophe')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ApostropheXs>`
+- `<$ApostropheSm>`
+- `<$ApostropheMd>`
+- `<$ApostropheLg>`
+
+
+
+
 
 ## Apostrophe
 

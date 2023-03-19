@@ -17,6 +17,17 @@ include('simpleicons-8/S/Shikimori')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShikimoriXs>`
+- `<$ShikimoriSm>`
+- `<$ShikimoriMd>`
+- `<$ShikimoriLg>`
+
+
+
+
 
 ## Shikimori
 

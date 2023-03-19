@@ -17,6 +17,17 @@ include('simpleicons-8/W/Wireguard')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WireguardXs>`
+- `<$WireguardSm>`
+- `<$WireguardMd>`
+- `<$WireguardLg>`
+
+
+
+
 
 ## Wireguard
 

@@ -17,6 +17,17 @@ include('simpleicons-8/M/Modrinth')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ModrinthXs>`
+- `<$ModrinthSm>`
+- `<$ModrinthMd>`
+- `<$ModrinthLg>`
+
+
+
+
 
 ## Modrinth
 

@@ -17,6 +17,17 @@ include('simpleicons-8/O/Osu')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OsuXs>`
+- `<$OsuSm>`
+- `<$OsuMd>`
+- `<$OsuLg>`
+
+
+
+
 
 ## Osu
 

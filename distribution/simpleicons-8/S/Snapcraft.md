@@ -17,6 +17,17 @@ include('simpleicons-8/S/Snapcraft')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SnapcraftXs>`
+- `<$SnapcraftSm>`
+- `<$SnapcraftMd>`
+- `<$SnapcraftLg>`
+
+
+
+
 
 ## Snapcraft
 

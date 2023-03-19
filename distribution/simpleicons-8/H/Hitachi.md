@@ -17,6 +17,17 @@ include('simpleicons-8/H/Hitachi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HitachiXs>`
+- `<$HitachiSm>`
+- `<$HitachiMd>`
+- `<$HitachiLg>`
+
+
+
+
 
 ## Hitachi
 

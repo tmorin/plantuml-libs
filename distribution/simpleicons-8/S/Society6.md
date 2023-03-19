@@ -17,6 +17,17 @@ include('simpleicons-8/S/Society6')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$Society6Xs>`
+- `<$Society6Sm>`
+- `<$Society6Md>`
+- `<$Society6Lg>`
+
+
+
+
 
 ## Society6
 

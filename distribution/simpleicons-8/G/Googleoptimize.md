@@ -17,6 +17,17 @@ include('simpleicons-8/G/Googleoptimize')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GoogleoptimizeXs>`
+- `<$GoogleoptimizeSm>`
+- `<$GoogleoptimizeMd>`
+- `<$GoogleoptimizeLg>`
+
+
+
+
 
 ## Googleoptimize
 

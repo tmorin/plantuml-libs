@@ -17,6 +17,17 @@ include('simpleicons-8/P/Pixiv')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PixivXs>`
+- `<$PixivSm>`
+- `<$PixivMd>`
+- `<$PixivLg>`
+
+
+
+
 
 ## Pixiv
 

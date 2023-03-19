@@ -17,6 +17,17 @@ include('simpleicons-8/O/Opensuse')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OpensuseXs>`
+- `<$OpensuseSm>`
+- `<$OpensuseMd>`
+- `<$OpensuseLg>`
+
+
+
+
 
 ## Opensuse
 

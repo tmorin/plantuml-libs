@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bbc')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BbcXs>`
+- `<$BbcSm>`
+- `<$BbcMd>`
+- `<$BbcLg>`
+
+
+
+
 
 ## Bbc
 

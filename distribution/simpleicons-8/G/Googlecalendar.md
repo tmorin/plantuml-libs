@@ -17,6 +17,17 @@ include('simpleicons-8/G/Googlecalendar')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GooglecalendarXs>`
+- `<$GooglecalendarSm>`
+- `<$GooglecalendarMd>`
+- `<$GooglecalendarLg>`
+
+
+
+
 
 ## Googlecalendar
 

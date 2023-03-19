@@ -17,6 +17,17 @@ include('simpleicons-8/H/Harmonyos')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HarmonyosXs>`
+- `<$HarmonyosSm>`
+- `<$HarmonyosMd>`
+- `<$HarmonyosLg>`
+
+
+
+
 
 ## Harmonyos
 

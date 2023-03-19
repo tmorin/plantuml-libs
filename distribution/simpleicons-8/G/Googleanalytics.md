@@ -17,6 +17,17 @@ include('simpleicons-8/G/Googleanalytics')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GoogleanalyticsXs>`
+- `<$GoogleanalyticsSm>`
+- `<$GoogleanalyticsMd>`
+- `<$GoogleanalyticsLg>`
+
+
+
+
 
 ## Googleanalytics
 

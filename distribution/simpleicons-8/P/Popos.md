@@ -17,6 +17,17 @@ include('simpleicons-8/P/Popos')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PoposXs>`
+- `<$PoposSm>`
+- `<$PoposMd>`
+- `<$PoposLg>`
+
+
+
+
 
 ## Popos
 

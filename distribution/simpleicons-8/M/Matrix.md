@@ -17,6 +17,17 @@ include('simpleicons-8/M/Matrix')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MatrixXs>`
+- `<$MatrixSm>`
+- `<$MatrixMd>`
+- `<$MatrixLg>`
+
+
+
+
 
 ## Matrix
 

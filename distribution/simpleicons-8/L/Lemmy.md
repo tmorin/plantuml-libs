@@ -17,6 +17,17 @@ include('simpleicons-8/L/Lemmy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LemmyXs>`
+- `<$LemmySm>`
+- `<$LemmyMd>`
+- `<$LemmyLg>`
+
+
+
+
 
 ## Lemmy
 

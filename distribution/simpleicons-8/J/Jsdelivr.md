@@ -17,6 +17,17 @@ include('simpleicons-8/J/Jsdelivr')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JsdelivrXs>`
+- `<$JsdelivrSm>`
+- `<$JsdelivrMd>`
+- `<$JsdelivrLg>`
+
+
+
+
 
 ## Jsdelivr
 

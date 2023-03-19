@@ -17,6 +17,17 @@ include('simpleicons-8/S/Starlingbank')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StarlingbankXs>`
+- `<$StarlingbankSm>`
+- `<$StarlingbankMd>`
+- `<$StarlingbankLg>`
+
+
+
+
 
 ## Starlingbank
 

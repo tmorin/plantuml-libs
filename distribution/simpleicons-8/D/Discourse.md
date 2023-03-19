@@ -17,6 +17,17 @@ include('simpleicons-8/D/Discourse')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DiscourseXs>`
+- `<$DiscourseSm>`
+- `<$DiscourseMd>`
+- `<$DiscourseLg>`
+
+
+
+
 
 ## Discourse
 

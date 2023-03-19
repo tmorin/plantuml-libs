@@ -17,6 +17,17 @@ include('simpleicons-8/U/Ups')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UpsXs>`
+- `<$UpsSm>`
+- `<$UpsMd>`
+- `<$UpsLg>`
+
+
+
+
 
 ## Ups
 

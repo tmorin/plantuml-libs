@@ -17,6 +17,17 @@ include('simpleicons-8/S/Scikitlearn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ScikitlearnXs>`
+- `<$ScikitlearnSm>`
+- `<$ScikitlearnMd>`
+- `<$ScikitlearnLg>`
+
+
+
+
 
 ## Scikitlearn
 

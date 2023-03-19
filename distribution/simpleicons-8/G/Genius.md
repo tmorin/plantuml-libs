@@ -17,6 +17,17 @@ include('simpleicons-8/G/Genius')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GeniusXs>`
+- `<$GeniusSm>`
+- `<$GeniusMd>`
+- `<$GeniusLg>`
+
+
+
+
 
 ## Genius
 

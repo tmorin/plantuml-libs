@@ -17,6 +17,17 @@ include('simpleicons-8/T/Thealgorithms')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ThealgorithmsXs>`
+- `<$ThealgorithmsSm>`
+- `<$ThealgorithmsMd>`
+- `<$ThealgorithmsLg>`
+
+
+
+
 
 ## Thealgorithms
 

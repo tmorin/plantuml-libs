@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tubi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TubiXs>`
+- `<$TubiSm>`
+- `<$TubiMd>`
+- `<$TubiLg>`
+
+
+
+
 
 ## Tubi
 

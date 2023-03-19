@@ -17,6 +17,17 @@ include('simpleicons-8/L/Laragon')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LaragonXs>`
+- `<$LaragonSm>`
+- `<$LaragonMd>`
+- `<$LaragonLg>`
+
+
+
+
 
 ## Laragon
 

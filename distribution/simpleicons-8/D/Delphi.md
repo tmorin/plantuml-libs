@@ -17,6 +17,17 @@ include('simpleicons-8/D/Delphi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DelphiXs>`
+- `<$DelphiSm>`
+- `<$DelphiMd>`
+- `<$DelphiLg>`
+
+
+
+
 
 ## Delphi
 

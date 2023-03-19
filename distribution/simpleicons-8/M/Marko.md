@@ -17,6 +17,17 @@ include('simpleicons-8/M/Marko')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MarkoXs>`
+- `<$MarkoSm>`
+- `<$MarkoMd>`
+- `<$MarkoLg>`
+
+
+
+
 
 ## Marko
 

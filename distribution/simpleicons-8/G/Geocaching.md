@@ -17,6 +17,17 @@ include('simpleicons-8/G/Geocaching')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GeocachingXs>`
+- `<$GeocachingSm>`
+- `<$GeocachingMd>`
+- `<$GeocachingLg>`
+
+
+
+
 
 ## Geocaching
 

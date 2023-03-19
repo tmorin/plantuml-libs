@@ -17,6 +17,17 @@ include('simpleicons-8/L/Linear')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LinearXs>`
+- `<$LinearSm>`
+- `<$LinearMd>`
+- `<$LinearLg>`
+
+
+
+
 
 ## Linear
 

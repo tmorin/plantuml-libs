@@ -17,6 +17,17 @@ include('simpleicons-8/O/Opencv')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OpencvXs>`
+- `<$OpencvSm>`
+- `<$OpencvMd>`
+- `<$OpencvLg>`
+
+
+
+
 
 ## Opencv
 

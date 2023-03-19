@@ -17,6 +17,17 @@ include('simpleicons-8/A/Aol')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AolXs>`
+- `<$AolSm>`
+- `<$AolMd>`
+- `<$AolLg>`
+
+
+
+
 
 ## Aol
 

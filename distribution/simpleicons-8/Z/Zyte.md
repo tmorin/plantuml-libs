@@ -17,6 +17,17 @@ include('simpleicons-8/Z/Zyte')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ZyteXs>`
+- `<$ZyteSm>`
+- `<$ZyteMd>`
+- `<$ZyteLg>`
+
+
+
+
 
 ## Zyte
 

@@ -17,6 +17,17 @@ include('simpleicons-8/H/Hexo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HexoXs>`
+- `<$HexoSm>`
+- `<$HexoMd>`
+- `<$HexoLg>`
+
+
+
+
 
 ## Hexo
 

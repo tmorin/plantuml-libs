@@ -17,6 +17,17 @@ include('simpleicons-8/S/Saopaulometro')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SaopaulometroXs>`
+- `<$SaopaulometroSm>`
+- `<$SaopaulometroMd>`
+- `<$SaopaulometroLg>`
+
+
+
+
 
 ## Saopaulometro
 

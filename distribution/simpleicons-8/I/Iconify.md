@@ -17,6 +17,17 @@ include('simpleicons-8/I/Iconify')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IconifyXs>`
+- `<$IconifySm>`
+- `<$IconifyMd>`
+- `<$IconifyLg>`
+
+
+
+
 
 ## Iconify
 

@@ -17,6 +17,17 @@ include('simpleicons-8/B/Buzzfeed')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BuzzfeedXs>`
+- `<$BuzzfeedSm>`
+- `<$BuzzfeedMd>`
+- `<$BuzzfeedLg>`
+
+
+
+
 
 ## Buzzfeed
 

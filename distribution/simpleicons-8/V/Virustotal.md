@@ -17,6 +17,17 @@ include('simpleicons-8/V/Virustotal')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VirustotalXs>`
+- `<$VirustotalSm>`
+- `<$VirustotalMd>`
+- `<$VirustotalLg>`
+
+
+
+
 
 ## Virustotal
 

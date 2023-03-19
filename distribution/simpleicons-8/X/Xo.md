@@ -17,6 +17,17 @@ include('simpleicons-8/X/Xo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$XoXs>`
+- `<$XoSm>`
+- `<$XoMd>`
+- `<$XoLg>`
+
+
+
+
 
 ## Xo
 

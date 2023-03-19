@@ -17,6 +17,17 @@ include('simpleicons-8/W/Wikipedia')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WikipediaXs>`
+- `<$WikipediaSm>`
+- `<$WikipediaMd>`
+- `<$WikipediaLg>`
+
+
+
+
 
 ## Wikipedia
 

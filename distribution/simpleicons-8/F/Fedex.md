@@ -17,6 +17,17 @@ include('simpleicons-8/F/Fedex')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FedexXs>`
+- `<$FedexSm>`
+- `<$FedexMd>`
+- `<$FedexLg>`
+
+
+
+
 
 ## Fedex
 

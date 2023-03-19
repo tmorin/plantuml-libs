@@ -17,6 +17,17 @@ include('simpleicons-8/H/Hugo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HugoXs>`
+- `<$HugoSm>`
+- `<$HugoMd>`
+- `<$HugoLg>`
+
+
+
+
 
 ## Hugo
 

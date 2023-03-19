@@ -17,6 +17,17 @@ include('simpleicons-8/P/Pluscodes')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PluscodesXs>`
+- `<$PluscodesSm>`
+- `<$PluscodesMd>`
+- `<$PluscodesLg>`
+
+
+
+
 
 ## Pluscodes
 

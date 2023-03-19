@@ -17,6 +17,17 @@ include('simpleicons-8/F/Ferrari')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FerrariXs>`
+- `<$FerrariSm>`
+- `<$FerrariMd>`
+- `<$FerrariLg>`
+
+
+
+
 
 ## Ferrari
 

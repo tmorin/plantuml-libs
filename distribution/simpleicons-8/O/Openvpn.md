@@ -17,6 +17,17 @@ include('simpleicons-8/O/Openvpn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OpenvpnXs>`
+- `<$OpenvpnSm>`
+- `<$OpenvpnMd>`
+- `<$OpenvpnLg>`
+
+
+
+
 
 ## Openvpn
 

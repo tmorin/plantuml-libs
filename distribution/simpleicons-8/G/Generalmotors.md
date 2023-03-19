@@ -17,6 +17,17 @@ include('simpleicons-8/G/Generalmotors')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GeneralmotorsXs>`
+- `<$GeneralmotorsSm>`
+- `<$GeneralmotorsMd>`
+- `<$GeneralmotorsLg>`
+
+
+
+
 
 ## Generalmotors
 

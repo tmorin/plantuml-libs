@@ -17,6 +17,17 @@ include('simpleicons-8/S/Stackbit')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StackbitXs>`
+- `<$StackbitSm>`
+- `<$StackbitMd>`
+- `<$StackbitLg>`
+
+
+
+
 
 ## Stackbit
 

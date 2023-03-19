@@ -17,6 +17,17 @@ include('simpleicons-8/D/Dunked')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DunkedXs>`
+- `<$DunkedSm>`
+- `<$DunkedMd>`
+- `<$DunkedLg>`
+
+
+
+
 
 ## Dunked
 

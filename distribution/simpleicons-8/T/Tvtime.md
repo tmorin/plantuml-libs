@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tvtime')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TvtimeXs>`
+- `<$TvtimeSm>`
+- `<$TvtimeMd>`
+- `<$TvtimeLg>`
+
+
+
+
 
 ## Tvtime
 

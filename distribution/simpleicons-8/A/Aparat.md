@@ -17,6 +17,17 @@ include('simpleicons-8/A/Aparat')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AparatXs>`
+- `<$AparatSm>`
+- `<$AparatMd>`
+- `<$AparatLg>`
+
+
+
+
 
 ## Aparat
 

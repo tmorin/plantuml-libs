@@ -17,6 +17,17 @@ include('simpleicons-8/T/Teamcity')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TeamcityXs>`
+- `<$TeamcitySm>`
+- `<$TeamcityMd>`
+- `<$TeamcityLg>`
+
+
+
+
 
 ## Teamcity
 

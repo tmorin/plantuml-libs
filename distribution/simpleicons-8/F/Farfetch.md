@@ -17,6 +17,17 @@ include('simpleicons-8/F/Farfetch')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FarfetchXs>`
+- `<$FarfetchSm>`
+- `<$FarfetchMd>`
+- `<$FarfetchLg>`
+
+
+
+
 
 ## Farfetch
 

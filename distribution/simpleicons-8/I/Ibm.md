@@ -17,6 +17,17 @@ include('simpleicons-8/I/Ibm')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IbmXs>`
+- `<$IbmSm>`
+- `<$IbmMd>`
+- `<$IbmLg>`
+
+
+
+
 
 ## Ibm
 

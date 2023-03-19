@@ -17,6 +17,17 @@ include('simpleicons-8/S/Shopware')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShopwareXs>`
+- `<$ShopwareSm>`
+- `<$ShopwareMd>`
+- `<$ShopwareLg>`
+
+
+
+
 
 ## Shopware
 

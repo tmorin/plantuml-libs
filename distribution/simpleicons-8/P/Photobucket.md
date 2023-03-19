@@ -17,6 +17,17 @@ include('simpleicons-8/P/Photobucket')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PhotobucketXs>`
+- `<$PhotobucketSm>`
+- `<$PhotobucketMd>`
+- `<$PhotobucketLg>`
+
+
+
+
 
 ## Photobucket
 

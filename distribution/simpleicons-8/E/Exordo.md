@@ -17,6 +17,17 @@ include('simpleicons-8/E/Exordo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ExordoXs>`
+- `<$ExordoSm>`
+- `<$ExordoMd>`
+- `<$ExordoLg>`
+
+
+
+
 
 ## Exordo
 

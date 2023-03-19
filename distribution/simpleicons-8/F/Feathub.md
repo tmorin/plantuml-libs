@@ -17,6 +17,17 @@ include('simpleicons-8/F/Feathub')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FeathubXs>`
+- `<$FeathubSm>`
+- `<$FeathubMd>`
+- `<$FeathubLg>`
+
+
+
+
 
 ## Feathub
 

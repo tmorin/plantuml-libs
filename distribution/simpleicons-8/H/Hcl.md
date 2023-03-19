@@ -17,6 +17,17 @@ include('simpleicons-8/H/Hcl')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HclXs>`
+- `<$HclSm>`
+- `<$HclMd>`
+- `<$HclLg>`
+
+
+
+
 
 ## Hcl
 

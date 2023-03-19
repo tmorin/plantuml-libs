@@ -17,6 +17,17 @@ include('simpleicons-8/S/Smart')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SmartXs>`
+- `<$SmartSm>`
+- `<$SmartMd>`
+- `<$SmartLg>`
+
+
+
+
 
 ## Smart
 

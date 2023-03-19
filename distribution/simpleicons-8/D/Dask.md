@@ -17,6 +17,17 @@ include('simpleicons-8/D/Dask')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DaskXs>`
+- `<$DaskSm>`
+- `<$DaskMd>`
+- `<$DaskLg>`
+
+
+
+
 
 ## Dask
 

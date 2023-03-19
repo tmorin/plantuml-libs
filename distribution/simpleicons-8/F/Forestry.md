@@ -17,6 +17,17 @@ include('simpleicons-8/F/Forestry')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ForestryXs>`
+- `<$ForestrySm>`
+- `<$ForestryMd>`
+- `<$ForestryLg>`
+
+
+
+
 
 ## Forestry
 

@@ -17,6 +17,17 @@ include('simpleicons-8/C/Codeceptjs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CodeceptjsXs>`
+- `<$CodeceptjsSm>`
+- `<$CodeceptjsMd>`
+- `<$CodeceptjsLg>`
+
+
+
+
 
 ## Codeceptjs
 

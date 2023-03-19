@@ -17,6 +17,17 @@ include('simpleicons-8/H/HandshakeProtocol')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HandshakeProtocolXs>`
+- `<$HandshakeProtocolSm>`
+- `<$HandshakeProtocolMd>`
+- `<$HandshakeProtocolLg>`
+
+
+
+
 
 ## HandshakeProtocol
 

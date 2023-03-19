@@ -17,6 +17,17 @@ include('simpleicons-8/Z/Zigbee')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ZigbeeXs>`
+- `<$ZigbeeSm>`
+- `<$ZigbeeMd>`
+- `<$ZigbeeLg>`
+
+
+
+
 
 ## Zigbee
 

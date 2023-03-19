@@ -17,6 +17,17 @@ include('simpleicons-8/D/Dpd')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DpdXs>`
+- `<$DpdSm>`
+- `<$DpdMd>`
+- `<$DpdLg>`
+
+
+
+
 
 ## Dpd
 

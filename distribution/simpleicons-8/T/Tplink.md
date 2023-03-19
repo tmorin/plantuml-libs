@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tplink')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TplinkXs>`
+- `<$TplinkSm>`
+- `<$TplinkMd>`
+- `<$TplinkLg>`
+
+
+
+
 
 ## Tplink
 

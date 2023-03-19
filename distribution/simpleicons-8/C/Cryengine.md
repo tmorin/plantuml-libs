@@ -17,6 +17,17 @@ include('simpleicons-8/C/Cryengine')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CryengineXs>`
+- `<$CryengineSm>`
+- `<$CryengineMd>`
+- `<$CryengineLg>`
+
+
+
+
 
 ## Cryengine
 

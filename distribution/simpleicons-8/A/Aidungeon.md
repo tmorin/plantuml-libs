@@ -17,6 +17,17 @@ include('simpleicons-8/A/Aidungeon')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AidungeonXs>`
+- `<$AidungeonSm>`
+- `<$AidungeonMd>`
+- `<$AidungeonLg>`
+
+
+
+
 
 ## Aidungeon
 

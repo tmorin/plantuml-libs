@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tacobell')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TacobellXs>`
+- `<$TacobellSm>`
+- `<$TacobellMd>`
+- `<$TacobellLg>`
+
+
+
+
 
 ## Tacobell
 

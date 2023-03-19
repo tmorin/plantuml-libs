@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tidyverse')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TidyverseXs>`
+- `<$TidyverseSm>`
+- `<$TidyverseMd>`
+- `<$TidyverseLg>`
+
+
+
+
 
 ## Tidyverse
 

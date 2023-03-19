@@ -17,6 +17,17 @@ include('simpleicons-8/D/Devrant')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DevrantXs>`
+- `<$DevrantSm>`
+- `<$DevrantMd>`
+- `<$DevrantLg>`
+
+
+
+
 
 ## Devrant
 

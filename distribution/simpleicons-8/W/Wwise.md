@@ -17,6 +17,17 @@ include('simpleicons-8/W/Wwise')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WwiseXs>`
+- `<$WwiseSm>`
+- `<$WwiseMd>`
+- `<$WwiseLg>`
+
+
+
+
 
 ## Wwise
 

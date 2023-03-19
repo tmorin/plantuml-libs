@@ -17,6 +17,17 @@ include('simpleicons-8/E/Eclipsemosquitto')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EclipsemosquittoXs>`
+- `<$EclipsemosquittoSm>`
+- `<$EclipsemosquittoMd>`
+- `<$EclipsemosquittoLg>`
+
+
+
+
 
 ## Eclipsemosquitto
 

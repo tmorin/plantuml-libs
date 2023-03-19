@@ -17,6 +17,17 @@ include('simpleicons-8/E/Elasticcloud')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ElasticcloudXs>`
+- `<$ElasticcloudSm>`
+- `<$ElasticcloudMd>`
+- `<$ElasticcloudLg>`
+
+
+
+
 
 ## Elasticcloud
 

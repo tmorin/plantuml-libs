@@ -17,6 +17,17 @@ include('simpleicons-8/X/Xiaomi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$XiaomiXs>`
+- `<$XiaomiSm>`
+- `<$XiaomiMd>`
+- `<$XiaomiLg>`
+
+
+
+
 
 ## Xiaomi
 

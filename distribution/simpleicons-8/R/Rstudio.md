@@ -17,6 +17,17 @@ include('simpleicons-8/R/Rstudio')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RstudioXs>`
+- `<$RstudioSm>`
+- `<$RstudioMd>`
+- `<$RstudioLg>`
+
+
+
+
 
 ## Rstudio
 

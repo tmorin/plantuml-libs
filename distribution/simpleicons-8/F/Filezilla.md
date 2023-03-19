@@ -17,6 +17,17 @@ include('simpleicons-8/F/Filezilla')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FilezillaXs>`
+- `<$FilezillaSm>`
+- `<$FilezillaMd>`
+- `<$FilezillaLg>`
+
+
+
+
 
 ## Filezilla
 

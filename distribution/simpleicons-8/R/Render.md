@@ -17,6 +17,17 @@ include('simpleicons-8/R/Render')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RenderXs>`
+- `<$RenderSm>`
+- `<$RenderMd>`
+- `<$RenderLg>`
+
+
+
+
 
 ## Render
 

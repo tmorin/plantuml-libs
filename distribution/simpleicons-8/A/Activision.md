@@ -17,6 +17,17 @@ include('simpleicons-8/A/Activision')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ActivisionXs>`
+- `<$ActivisionSm>`
+- `<$ActivisionMd>`
+- `<$ActivisionLg>`
+
+
+
+
 
 ## Activision
 

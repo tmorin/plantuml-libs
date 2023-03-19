@@ -17,6 +17,17 @@ include('simpleicons-8/P/Protocolsdotio')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ProtocolsdotioXs>`
+- `<$ProtocolsdotioSm>`
+- `<$ProtocolsdotioMd>`
+- `<$ProtocolsdotioLg>`
+
+
+
+
 
 ## Protocolsdotio
 

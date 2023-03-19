@@ -17,6 +17,17 @@ include('simpleicons-8/R/Reacthookform')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ReacthookformXs>`
+- `<$ReacthookformSm>`
+- `<$ReacthookformMd>`
+- `<$ReacthookformLg>`
+
+
+
+
 
 ## Reacthookform
 

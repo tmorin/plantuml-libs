@@ -17,6 +17,17 @@ include('simpleicons-8/S/Springsecurity')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SpringsecurityXs>`
+- `<$SpringsecuritySm>`
+- `<$SpringsecurityMd>`
+- `<$SpringsecurityLg>`
+
+
+
+
 
 ## Springsecurity
 

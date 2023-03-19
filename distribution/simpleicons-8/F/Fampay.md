@@ -17,6 +17,17 @@ include('simpleicons-8/F/Fampay')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FampayXs>`
+- `<$FampaySm>`
+- `<$FampayMd>`
+- `<$FampayLg>`
+
+
+
+
 
 ## Fampay
 

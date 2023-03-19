@@ -17,6 +17,17 @@ include('simpleicons-8/E/Expressvpn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ExpressvpnXs>`
+- `<$ExpressvpnSm>`
+- `<$ExpressvpnMd>`
+- `<$ExpressvpnLg>`
+
+
+
+
 
 ## Expressvpn
 

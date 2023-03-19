@@ -17,6 +17,17 @@ include('simpleicons-8/S/Smugmug')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SmugmugXs>`
+- `<$SmugmugSm>`
+- `<$SmugmugMd>`
+- `<$SmugmugLg>`
+
+
+
+
 
 ## Smugmug
 

@@ -17,6 +17,17 @@ include('simpleicons-8/G/Geeksforgeeks')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GeeksforgeeksXs>`
+- `<$GeeksforgeeksSm>`
+- `<$GeeksforgeeksMd>`
+- `<$GeeksforgeeksLg>`
+
+
+
+
 
 ## Geeksforgeeks
 

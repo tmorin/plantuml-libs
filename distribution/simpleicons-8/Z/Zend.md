@@ -17,6 +17,17 @@ include('simpleicons-8/Z/Zend')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ZendXs>`
+- `<$ZendSm>`
+- `<$ZendMd>`
+- `<$ZendLg>`
+
+
+
+
 
 ## Zend
 

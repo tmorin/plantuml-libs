@@ -17,6 +17,17 @@ include('simpleicons-8/K/Kaios')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KaiosXs>`
+- `<$KaiosSm>`
+- `<$KaiosMd>`
+- `<$KaiosLg>`
+
+
+
+
 
 ## Kaios
 

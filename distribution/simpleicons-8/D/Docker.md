@@ -17,6 +17,17 @@ include('simpleicons-8/D/Docker')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DockerXs>`
+- `<$DockerSm>`
+- `<$DockerMd>`
+- `<$DockerLg>`
+
+
+
+
 
 ## Docker
 

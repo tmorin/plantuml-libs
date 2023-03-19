@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tumblr')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TumblrXs>`
+- `<$TumblrSm>`
+- `<$TumblrMd>`
+- `<$TumblrLg>`
+
+
+
+
 
 ## Tumblr
 

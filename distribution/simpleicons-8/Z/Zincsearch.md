@@ -17,6 +17,17 @@ include('simpleicons-8/Z/Zincsearch')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ZincsearchXs>`
+- `<$ZincsearchSm>`
+- `<$ZincsearchMd>`
+- `<$ZincsearchLg>`
+
+
+
+
 
 ## Zincsearch
 

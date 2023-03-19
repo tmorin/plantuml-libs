@@ -17,6 +17,17 @@ include('simpleicons-8/V/Verdaccio')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VerdaccioXs>`
+- `<$VerdaccioSm>`
+- `<$VerdaccioMd>`
+- `<$VerdaccioLg>`
+
+
+
+
 
 ## Verdaccio
 

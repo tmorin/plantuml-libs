@@ -17,6 +17,17 @@ include('simpleicons-8/R/Riseup')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RiseupXs>`
+- `<$RiseupSm>`
+- `<$RiseupMd>`
+- `<$RiseupLg>`
+
+
+
+
 
 ## Riseup
 

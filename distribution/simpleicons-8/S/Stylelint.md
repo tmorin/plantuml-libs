@@ -17,6 +17,17 @@ include('simpleicons-8/S/Stylelint')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StylelintXs>`
+- `<$StylelintSm>`
+- `<$StylelintMd>`
+- `<$StylelintLg>`
+
+
+
+
 
 ## Stylelint
 

@@ -17,6 +17,17 @@ include('simpleicons-8/V/Vagrant')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VagrantXs>`
+- `<$VagrantSm>`
+- `<$VagrantMd>`
+- `<$VagrantLg>`
+
+
+
+
 
 ## Vagrant
 

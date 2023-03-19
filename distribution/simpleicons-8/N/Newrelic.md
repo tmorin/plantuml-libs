@@ -17,6 +17,17 @@ include('simpleicons-8/N/Newrelic')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NewrelicXs>`
+- `<$NewrelicSm>`
+- `<$NewrelicMd>`
+- `<$NewrelicLg>`
+
+
+
+
 
 ## Newrelic
 

@@ -17,6 +17,17 @@ include('simpleicons-8/U/Ubuntu')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UbuntuXs>`
+- `<$UbuntuSm>`
+- `<$UbuntuMd>`
+- `<$UbuntuLg>`
+
+
+
+
 
 ## Ubuntu
 

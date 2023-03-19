@@ -17,6 +17,17 @@ include('simpleicons-8/S/Smashingmagazine')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SmashingmagazineXs>`
+- `<$SmashingmagazineSm>`
+- `<$SmashingmagazineMd>`
+- `<$SmashingmagazineLg>`
+
+
+
+
 
 ## Smashingmagazine
 

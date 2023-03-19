@@ -17,6 +17,17 @@ include('simpleicons-8/A/Auth0')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$Auth0Xs>`
+- `<$Auth0Sm>`
+- `<$Auth0Md>`
+- `<$Auth0Lg>`
+
+
+
+
 
 ## Auth0
 

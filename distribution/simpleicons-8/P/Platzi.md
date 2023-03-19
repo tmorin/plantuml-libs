@@ -17,6 +17,17 @@ include('simpleicons-8/P/Platzi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PlatziXs>`
+- `<$PlatziSm>`
+- `<$PlatziMd>`
+- `<$PlatziLg>`
+
+
+
+
 
 ## Platzi
 

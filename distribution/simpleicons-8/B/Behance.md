@@ -17,6 +17,17 @@ include('simpleicons-8/B/Behance')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BehanceXs>`
+- `<$BehanceSm>`
+- `<$BehanceMd>`
+- `<$BehanceLg>`
+
+
+
+
 
 ## Behance
 

@@ -17,6 +17,17 @@ include('simpleicons-8/S/Seagate')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SeagateXs>`
+- `<$SeagateSm>`
+- `<$SeagateMd>`
+- `<$SeagateLg>`
+
+
+
+
 
 ## Seagate
 

@@ -17,6 +17,17 @@ include('simpleicons-8/O/Ovh')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OvhXs>`
+- `<$OvhSm>`
+- `<$OvhMd>`
+- `<$OvhLg>`
+
+
+
+
 
 ## Ovh
 

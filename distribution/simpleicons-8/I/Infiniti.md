@@ -17,6 +17,17 @@ include('simpleicons-8/I/Infiniti')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InfinitiXs>`
+- `<$InfinitiSm>`
+- `<$InfinitiMd>`
+- `<$InfinitiLg>`
+
+
+
+
 
 ## Infiniti
 

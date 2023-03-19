@@ -17,6 +17,17 @@ include('simpleicons-8/I/Iota')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IotaXs>`
+- `<$IotaSm>`
+- `<$IotaMd>`
+- `<$IotaLg>`
+
+
+
+
 
 ## Iota
 

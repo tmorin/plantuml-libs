@@ -17,6 +17,17 @@ include('simpleicons-8/W/Webtoon')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WebtoonXs>`
+- `<$WebtoonSm>`
+- `<$WebtoonMd>`
+- `<$WebtoonLg>`
+
+
+
+
 
 ## Webtoon
 

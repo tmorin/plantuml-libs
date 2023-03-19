@@ -17,6 +17,17 @@ include('simpleicons-8/K/Kik')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KikXs>`
+- `<$KikSm>`
+- `<$KikMd>`
+- `<$KikLg>`
+
+
+
+
 
 ## Kik
 

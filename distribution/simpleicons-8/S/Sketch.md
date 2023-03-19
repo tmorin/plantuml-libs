@@ -17,6 +17,17 @@ include('simpleicons-8/S/Sketch')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SketchXs>`
+- `<$SketchSm>`
+- `<$SketchMd>`
+- `<$SketchLg>`
+
+
+
+
 
 ## Sketch
 

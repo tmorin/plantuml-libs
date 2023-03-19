@@ -17,6 +17,17 @@ include('simpleicons-8/O/Openfaas')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OpenfaasXs>`
+- `<$OpenfaasSm>`
+- `<$OpenfaasMd>`
+- `<$OpenfaasLg>`
+
+
+
+
 
 ## Openfaas
 

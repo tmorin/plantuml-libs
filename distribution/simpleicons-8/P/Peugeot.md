@@ -17,6 +17,17 @@ include('simpleicons-8/P/Peugeot')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PeugeotXs>`
+- `<$PeugeotSm>`
+- `<$PeugeotMd>`
+- `<$PeugeotLg>`
+
+
+
+
 
 ## Peugeot
 

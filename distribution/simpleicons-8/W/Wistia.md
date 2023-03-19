@@ -17,6 +17,17 @@ include('simpleicons-8/W/Wistia')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WistiaXs>`
+- `<$WistiaSm>`
+- `<$WistiaMd>`
+- `<$WistiaLg>`
+
+
+
+
 
 ## Wistia
 

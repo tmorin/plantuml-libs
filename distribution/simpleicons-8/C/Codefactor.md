@@ -17,6 +17,17 @@ include('simpleicons-8/C/Codefactor')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CodefactorXs>`
+- `<$CodefactorSm>`
+- `<$CodefactorMd>`
+- `<$CodefactorLg>`
+
+
+
+
 
 ## Codefactor
 

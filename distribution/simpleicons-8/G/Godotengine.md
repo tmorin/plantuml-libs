@@ -17,6 +17,17 @@ include('simpleicons-8/G/Godotengine')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GodotengineXs>`
+- `<$GodotengineSm>`
+- `<$GodotengineMd>`
+- `<$GodotengineLg>`
+
+
+
+
 
 ## Godotengine
 

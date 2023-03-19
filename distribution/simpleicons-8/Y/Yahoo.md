@@ -17,6 +17,17 @@ include('simpleicons-8/Y/Yahoo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$YahooXs>`
+- `<$YahooSm>`
+- `<$YahooMd>`
+- `<$YahooLg>`
+
+
+
+
 
 ## Yahoo
 

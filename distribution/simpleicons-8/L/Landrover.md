@@ -17,6 +17,17 @@ include('simpleicons-8/L/Landrover')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LandroverXs>`
+- `<$LandroverSm>`
+- `<$LandroverMd>`
+- `<$LandroverLg>`
+
+
+
+
 
 ## Landrover
 

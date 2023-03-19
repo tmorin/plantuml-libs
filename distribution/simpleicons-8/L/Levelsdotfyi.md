@@ -17,6 +17,17 @@ include('simpleicons-8/L/Levelsdotfyi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LevelsdotfyiXs>`
+- `<$LevelsdotfyiSm>`
+- `<$LevelsdotfyiMd>`
+- `<$LevelsdotfyiLg>`
+
+
+
+
 
 ## Levelsdotfyi
 

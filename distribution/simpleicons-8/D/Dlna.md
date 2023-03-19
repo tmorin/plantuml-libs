@@ -17,6 +17,17 @@ include('simpleicons-8/D/Dlna')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DlnaXs>`
+- `<$DlnaSm>`
+- `<$DlnaMd>`
+- `<$DlnaLg>`
+
+
+
+
 
 ## Dlna
 

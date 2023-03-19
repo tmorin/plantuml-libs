@@ -17,6 +17,17 @@ include('simpleicons-8/L/Line')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LineXs>`
+- `<$LineSm>`
+- `<$LineMd>`
+- `<$LineLg>`
+
+
+
+
 
 ## Line
 

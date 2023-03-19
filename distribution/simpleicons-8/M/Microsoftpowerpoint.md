@@ -17,6 +17,17 @@ include('simpleicons-8/M/Microsoftpowerpoint')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MicrosoftpowerpointXs>`
+- `<$MicrosoftpowerpointSm>`
+- `<$MicrosoftpowerpointMd>`
+- `<$MicrosoftpowerpointLg>`
+
+
+
+
 
 ## Microsoftpowerpoint
 

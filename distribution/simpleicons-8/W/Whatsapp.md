@@ -17,6 +17,17 @@ include('simpleicons-8/W/Whatsapp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WhatsappXs>`
+- `<$WhatsappSm>`
+- `<$WhatsappMd>`
+- `<$WhatsappLg>`
+
+
+
+
 
 ## Whatsapp
 

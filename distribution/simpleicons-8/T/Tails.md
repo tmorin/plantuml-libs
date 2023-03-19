@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tails')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TailsXs>`
+- `<$TailsSm>`
+- `<$TailsMd>`
+- `<$TailsLg>`
+
+
+
+
 
 ## Tails
 

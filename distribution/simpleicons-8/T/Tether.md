@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tether')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TetherXs>`
+- `<$TetherSm>`
+- `<$TetherMd>`
+- `<$TetherLg>`
+
+
+
+
 
 ## Tether
 

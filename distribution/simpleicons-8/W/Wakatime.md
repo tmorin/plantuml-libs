@@ -17,6 +17,17 @@ include('simpleicons-8/W/Wakatime')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WakatimeXs>`
+- `<$WakatimeSm>`
+- `<$WakatimeMd>`
+- `<$WakatimeLg>`
+
+
+
+
 
 ## Wakatime
 

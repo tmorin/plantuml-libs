@@ -17,6 +17,17 @@ include('simpleicons-8/C/Createreactapp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CreatereactappXs>`
+- `<$CreatereactappSm>`
+- `<$CreatereactappMd>`
+- `<$CreatereactappLg>`
+
+
+
+
 
 ## Createreactapp
 

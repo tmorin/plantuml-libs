@@ -17,6 +17,17 @@ include('simpleicons-8/N/Notion')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NotionXs>`
+- `<$NotionSm>`
+- `<$NotionMd>`
+- `<$NotionLg>`
+
+
+
+
 
 ## Notion
 

@@ -17,6 +17,17 @@ include('simpleicons-8/P/Pokemon')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PokemonXs>`
+- `<$PokemonSm>`
+- `<$PokemonMd>`
+- `<$PokemonLg>`
+
+
+
+
 
 ## Pokemon
 

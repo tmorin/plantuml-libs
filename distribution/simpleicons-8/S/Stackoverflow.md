@@ -17,6 +17,17 @@ include('simpleicons-8/S/Stackoverflow')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StackoverflowXs>`
+- `<$StackoverflowSm>`
+- `<$StackoverflowMd>`
+- `<$StackoverflowLg>`
+
+
+
+
 
 ## Stackoverflow
 

@@ -17,6 +17,17 @@ include('simpleicons-8/F/Fortran')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FortranXs>`
+- `<$FortranSm>`
+- `<$FortranMd>`
+- `<$FortranLg>`
+
+
+
+
 
 ## Fortran
 

@@ -17,6 +17,17 @@ include('simpleicons-8/T/Themoviedatabase')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ThemoviedatabaseXs>`
+- `<$ThemoviedatabaseSm>`
+- `<$ThemoviedatabaseMd>`
+- `<$ThemoviedatabaseLg>`
+
+
+
+
 
 ## Themoviedatabase
 

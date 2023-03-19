@@ -17,6 +17,17 @@ include('simpleicons-8/W/Webauthn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WebauthnXs>`
+- `<$WebauthnSm>`
+- `<$WebauthnMd>`
+- `<$WebauthnLg>`
+
+
+
+
 
 ## Webauthn
 

@@ -17,6 +17,17 @@ include('simpleicons-8/K/Koyeb')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KoyebXs>`
+- `<$KoyebSm>`
+- `<$KoyebMd>`
+- `<$KoyebLg>`
+
+
+
+
 
 ## Koyeb
 

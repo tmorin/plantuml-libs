@@ -17,6 +17,17 @@ include('simpleicons-8/D/Ducati')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DucatiXs>`
+- `<$DucatiSm>`
+- `<$DucatiMd>`
+- `<$DucatiLg>`
+
+
+
+
 
 ## Ducati
 

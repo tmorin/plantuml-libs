@@ -17,6 +17,17 @@ include('simpleicons-8/F/Fozzy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FozzyXs>`
+- `<$FozzySm>`
+- `<$FozzyMd>`
+- `<$FozzyLg>`
+
+
+
+
 
 ## Fozzy
 

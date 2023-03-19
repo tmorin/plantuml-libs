@@ -17,6 +17,17 @@ include('simpleicons-8/S/Seat')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SeatXs>`
+- `<$SeatSm>`
+- `<$SeatMd>`
+- `<$SeatLg>`
+
+
+
+
 
 ## Seat
 

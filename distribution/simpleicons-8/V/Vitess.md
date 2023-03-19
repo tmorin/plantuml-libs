@@ -17,6 +17,17 @@ include('simpleicons-8/V/Vitess')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VitessXs>`
+- `<$VitessSm>`
+- `<$VitessMd>`
+- `<$VitessLg>`
+
+
+
+
 
 ## Vitess
 

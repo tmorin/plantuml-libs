@@ -17,6 +17,17 @@ include('simpleicons-8/M/Monogames')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MonogamesXs>`
+- `<$MonogamesSm>`
+- `<$MonogamesMd>`
+- `<$MonogamesLg>`
+
+
+
+
 
 ## Monogames
 

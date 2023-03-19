@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bitdefender')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BitdefenderXs>`
+- `<$BitdefenderSm>`
+- `<$BitdefenderMd>`
+- `<$BitdefenderLg>`
+
+
+
+
 
 ## Bitdefender
 

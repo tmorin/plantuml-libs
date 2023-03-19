@@ -17,6 +17,17 @@ include('simpleicons-8/T/Tutanota')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TutanotaXs>`
+- `<$TutanotaSm>`
+- `<$TutanotaMd>`
+- `<$TutanotaLg>`
+
+
+
+
 
 ## Tutanota
 

@@ -17,6 +17,17 @@ include('simpleicons-8/C/Civicrm')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CivicrmXs>`
+- `<$CivicrmSm>`
+- `<$CivicrmMd>`
+- `<$CivicrmLg>`
+
+
+
+
 
 ## Civicrm
 

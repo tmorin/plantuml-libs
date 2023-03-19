@@ -17,6 +17,17 @@ include('simpleicons-8/E/Eclipsevertdotx')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EclipsevertdotxXs>`
+- `<$EclipsevertdotxSm>`
+- `<$EclipsevertdotxMd>`
+- `<$EclipsevertdotxLg>`
+
+
+
+
 
 ## Eclipsevertdotx
 

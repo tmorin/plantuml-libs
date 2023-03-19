@@ -17,6 +17,17 @@ include('simpleicons-8/B/Boots')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BootsXs>`
+- `<$BootsSm>`
+- `<$BootsMd>`
+- `<$BootsLg>`
+
+
+
+
 
 ## Boots
 

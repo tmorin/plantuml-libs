@@ -17,6 +17,17 @@ include('simpleicons-8/S/Sumologic')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SumologicXs>`
+- `<$SumologicSm>`
+- `<$SumologicMd>`
+- `<$SumologicLg>`
+
+
+
+
 
 ## Sumologic
 

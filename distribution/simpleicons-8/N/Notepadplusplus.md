@@ -17,6 +17,17 @@ include('simpleicons-8/N/Notepadplusplus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NotepadplusplusXs>`
+- `<$NotepadplusplusSm>`
+- `<$NotepadplusplusMd>`
+- `<$NotepadplusplusLg>`
+
+
+
+
 
 ## Notepadplusplus
 

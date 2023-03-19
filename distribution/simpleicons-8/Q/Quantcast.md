@@ -17,6 +17,17 @@ include('simpleicons-8/Q/Quantcast')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$QuantcastXs>`
+- `<$QuantcastSm>`
+- `<$QuantcastMd>`
+- `<$QuantcastLg>`
+
+
+
+
 
 ## Quantcast
 

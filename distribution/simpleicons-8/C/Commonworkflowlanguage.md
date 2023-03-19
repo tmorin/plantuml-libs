@@ -17,6 +17,17 @@ include('simpleicons-8/C/Commonworkflowlanguage')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CommonworkflowlanguageXs>`
+- `<$CommonworkflowlanguageSm>`
+- `<$CommonworkflowlanguageMd>`
+- `<$CommonworkflowlanguageLg>`
+
+
+
+
 
 ## Commonworkflowlanguage
 

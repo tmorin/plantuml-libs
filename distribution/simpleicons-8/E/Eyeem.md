@@ -17,6 +17,17 @@ include('simpleicons-8/E/Eyeem')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EyeemXs>`
+- `<$EyeemSm>`
+- `<$EyeemMd>`
+- `<$EyeemLg>`
+
+
+
+
 
 ## Eyeem
 

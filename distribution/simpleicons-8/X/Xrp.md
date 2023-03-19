@@ -17,6 +17,17 @@ include('simpleicons-8/X/Xrp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$XrpXs>`
+- `<$XrpSm>`
+- `<$XrpMd>`
+- `<$XrpLg>`
+
+
+
+
 
 ## Xrp
 

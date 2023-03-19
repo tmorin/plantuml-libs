@@ -17,6 +17,17 @@ include('simpleicons-8/T/Thinkpad')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ThinkpadXs>`
+- `<$ThinkpadSm>`
+- `<$ThinkpadMd>`
+- `<$ThinkpadLg>`
+
+
+
+
 
 ## Thinkpad
 

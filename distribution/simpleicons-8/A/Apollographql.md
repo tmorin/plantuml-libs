@@ -17,6 +17,17 @@ include('simpleicons-8/A/Apollographql')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ApollographqlXs>`
+- `<$ApollographqlSm>`
+- `<$ApollographqlMd>`
+- `<$ApollographqlLg>`
+
+
+
+
 
 ## Apollographql
 

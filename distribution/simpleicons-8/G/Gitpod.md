@@ -17,6 +17,17 @@ include('simpleicons-8/G/Gitpod')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GitpodXs>`
+- `<$GitpodSm>`
+- `<$GitpodMd>`
+- `<$GitpodLg>`
+
+
+
+
 
 ## Gitpod
 

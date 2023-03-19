@@ -17,6 +17,17 @@ include('simpleicons-8/E/Elsevier')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ElsevierXs>`
+- `<$ElsevierSm>`
+- `<$ElsevierMd>`
+- `<$ElsevierLg>`
+
+
+
+
 
 ## Elsevier
 

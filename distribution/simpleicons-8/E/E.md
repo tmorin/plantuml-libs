@@ -17,6 +17,17 @@ include('simpleicons-8/E/E')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EXs>`
+- `<$ESm>`
+- `<$EMd>`
+- `<$ELg>`
+
+
+
+
 
 ## E
 

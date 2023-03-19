@@ -17,6 +17,17 @@ include('simpleicons-8/L/Livewire')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LivewireXs>`
+- `<$LivewireSm>`
+- `<$LivewireMd>`
+- `<$LivewireLg>`
+
+
+
+
 
 ## Livewire
 

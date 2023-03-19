@@ -17,6 +17,17 @@ include('simpleicons-8/F/Facepunch')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FacepunchXs>`
+- `<$FacepunchSm>`
+- `<$FacepunchMd>`
+- `<$FacepunchLg>`
+
+
+
+
 
 ## Facepunch
 

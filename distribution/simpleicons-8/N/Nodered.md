@@ -17,6 +17,17 @@ include('simpleicons-8/N/Nodered')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NoderedXs>`
+- `<$NoderedSm>`
+- `<$NoderedMd>`
+- `<$NoderedLg>`
+
+
+
+
 
 ## Nodered
 

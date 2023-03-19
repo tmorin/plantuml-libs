@@ -17,6 +17,17 @@ include('simpleicons-8/N/Netlify')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NetlifyXs>`
+- `<$NetlifySm>`
+- `<$NetlifyMd>`
+- `<$NetlifyLg>`
+
+
+
+
 
 ## Netlify
 

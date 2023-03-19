@@ -17,6 +17,17 @@ include('simpleicons-8/R/Rasa')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RasaXs>`
+- `<$RasaSm>`
+- `<$RasaMd>`
+- `<$RasaLg>`
+
+
+
+
 
 ## Rasa
 

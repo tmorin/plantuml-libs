@@ -17,6 +17,17 @@ include('simpleicons-8/D/Dataverse')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DataverseXs>`
+- `<$DataverseSm>`
+- `<$DataverseMd>`
+- `<$DataverseLg>`
+
+
+
+
 
 ## Dataverse
 

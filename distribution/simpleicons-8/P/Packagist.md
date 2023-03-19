@@ -17,6 +17,17 @@ include('simpleicons-8/P/Packagist')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PackagistXs>`
+- `<$PackagistSm>`
+- `<$PackagistMd>`
+- `<$PackagistLg>`
+
+
+
+
 
 ## Packagist
 

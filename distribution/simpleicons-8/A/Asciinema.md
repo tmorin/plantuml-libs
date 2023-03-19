@@ -17,6 +17,17 @@ include('simpleicons-8/A/Asciinema')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AsciinemaXs>`
+- `<$AsciinemaSm>`
+- `<$AsciinemaMd>`
+- `<$AsciinemaLg>`
+
+
+
+
 
 ## Asciinema
 

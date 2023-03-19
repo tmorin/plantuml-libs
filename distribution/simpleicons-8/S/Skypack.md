@@ -17,6 +17,17 @@ include('simpleicons-8/S/Skypack')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SkypackXs>`
+- `<$SkypackSm>`
+- `<$SkypackMd>`
+- `<$SkypackLg>`
+
+
+
+
 
 ## Skypack
 

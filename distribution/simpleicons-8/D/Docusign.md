@@ -17,6 +17,17 @@ include('simpleicons-8/D/Docusign')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DocusignXs>`
+- `<$DocusignSm>`
+- `<$DocusignMd>`
+- `<$DocusignLg>`
+
+
+
+
 
 ## Docusign
 

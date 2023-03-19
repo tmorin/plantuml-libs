@@ -17,6 +17,17 @@ include('simpleicons-8/P/Powerfx')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PowerfxXs>`
+- `<$PowerfxSm>`
+- `<$PowerfxMd>`
+- `<$PowerfxLg>`
+
+
+
+
 
 ## Powerfx
 

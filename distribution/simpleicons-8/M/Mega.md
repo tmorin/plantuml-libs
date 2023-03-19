@@ -17,6 +17,17 @@ include('simpleicons-8/M/Mega')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MegaXs>`
+- `<$MegaSm>`
+- `<$MegaMd>`
+- `<$MegaLg>`
+
+
+
+
 
 ## Mega
 

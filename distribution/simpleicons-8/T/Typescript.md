@@ -17,6 +17,17 @@ include('simpleicons-8/T/Typescript')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TypescriptXs>`
+- `<$TypescriptSm>`
+- `<$TypescriptMd>`
+- `<$TypescriptLg>`
+
+
+
+
 
 ## Typescript
 

@@ -17,6 +17,17 @@ include('simpleicons-8/F/Freebsd')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FreebsdXs>`
+- `<$FreebsdSm>`
+- `<$FreebsdMd>`
+- `<$FreebsdLg>`
+
+
+
+
 
 ## Freebsd
 

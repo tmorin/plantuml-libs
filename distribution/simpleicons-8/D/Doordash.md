@@ -17,6 +17,17 @@ include('simpleicons-8/D/Doordash')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DoordashXs>`
+- `<$DoordashSm>`
+- `<$DoordashMd>`
+- `<$DoordashLg>`
+
+
+
+
 
 ## Doordash
 

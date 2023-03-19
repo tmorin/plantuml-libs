@@ -17,6 +17,17 @@ include('simpleicons-8/J/Jfrogbintray')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JfrogbintrayXs>`
+- `<$JfrogbintraySm>`
+- `<$JfrogbintrayMd>`
+- `<$JfrogbintrayLg>`
+
+
+
+
 
 ## Jfrogbintray
 

@@ -17,6 +17,17 @@ include('simpleicons-8/U/Udacity')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UdacityXs>`
+- `<$UdacitySm>`
+- `<$UdacityMd>`
+- `<$UdacityLg>`
+
+
+
+
 
 ## Udacity
 

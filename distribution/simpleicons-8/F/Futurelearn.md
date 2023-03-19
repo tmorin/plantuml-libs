@@ -17,6 +17,17 @@ include('simpleicons-8/F/Futurelearn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FuturelearnXs>`
+- `<$FuturelearnSm>`
+- `<$FuturelearnMd>`
+- `<$FuturelearnLg>`
+
+
+
+
 
 ## Futurelearn
 

@@ -17,6 +17,17 @@ include('simpleicons-8/Q/Qualys')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$QualysXs>`
+- `<$QualysSm>`
+- `<$QualysMd>`
+- `<$QualysLg>`
+
+
+
+
 
 ## Qualys
 

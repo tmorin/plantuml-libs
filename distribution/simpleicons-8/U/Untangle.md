@@ -17,6 +17,17 @@ include('simpleicons-8/U/Untangle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UntangleXs>`
+- `<$UntangleSm>`
+- `<$UntangleMd>`
+- `<$UntangleLg>`
+
+
+
+
 
 ## Untangle
 

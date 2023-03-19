@@ -17,6 +17,17 @@ include('simpleicons-8/V/Visa')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VisaXs>`
+- `<$VisaSm>`
+- `<$VisaMd>`
+- `<$VisaLg>`
+
+
+
+
 
 ## Visa
 

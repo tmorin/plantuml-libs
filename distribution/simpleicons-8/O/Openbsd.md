@@ -17,6 +17,17 @@ include('simpleicons-8/O/Openbsd')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OpenbsdXs>`
+- `<$OpenbsdSm>`
+- `<$OpenbsdMd>`
+- `<$OpenbsdLg>`
+
+
+
+
 
 ## Openbsd
 

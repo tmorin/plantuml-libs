@@ -17,6 +17,17 @@ include('simpleicons-8/R/Rootssage')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RootssageXs>`
+- `<$RootssageSm>`
+- `<$RootssageMd>`
+- `<$RootssageLg>`
+
+
+
+
 
 ## Rootssage
 

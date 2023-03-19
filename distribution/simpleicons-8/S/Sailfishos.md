@@ -17,6 +17,17 @@ include('simpleicons-8/S/Sailfishos')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SailfishosXs>`
+- `<$SailfishosSm>`
+- `<$SailfishosMd>`
+- `<$SailfishosLg>`
+
+
+
+
 
 ## Sailfishos
 

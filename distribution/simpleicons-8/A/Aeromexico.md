@@ -17,6 +17,17 @@ include('simpleicons-8/A/Aeromexico')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AeromexicoXs>`
+- `<$AeromexicoSm>`
+- `<$AeromexicoMd>`
+- `<$AeromexicoLg>`
+
+
+
+
 
 ## Aeromexico
 

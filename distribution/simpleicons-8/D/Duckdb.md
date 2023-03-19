@@ -17,6 +17,17 @@ include('simpleicons-8/D/Duckdb')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DuckdbXs>`
+- `<$DuckdbSm>`
+- `<$DuckdbMd>`
+- `<$DuckdbLg>`
+
+
+
+
 
 ## Duckdb
 

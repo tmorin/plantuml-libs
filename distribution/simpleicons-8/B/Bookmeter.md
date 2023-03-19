@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bookmeter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BookmeterXs>`
+- `<$BookmeterSm>`
+- `<$BookmeterMd>`
+- `<$BookmeterLg>`
+
+
+
+
 
 ## Bookmeter
 

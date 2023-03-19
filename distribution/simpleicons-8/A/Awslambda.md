@@ -17,6 +17,17 @@ include('simpleicons-8/A/Awslambda')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwslambdaXs>`
+- `<$AwslambdaSm>`
+- `<$AwslambdaMd>`
+- `<$AwslambdaLg>`
+
+
+
+
 
 ## Awslambda
 

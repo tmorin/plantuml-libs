@@ -17,6 +17,17 @@ include('simpleicons-8/O/Opencollective')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OpencollectiveXs>`
+- `<$OpencollectiveSm>`
+- `<$OpencollectiveMd>`
+- `<$OpencollectiveLg>`
+
+
+
+
 
 ## Opencollective
 

@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bookalope')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BookalopeXs>`
+- `<$BookalopeSm>`
+- `<$BookalopeMd>`
+- `<$BookalopeLg>`
+
+
+
+
 
 ## Bookalope
 

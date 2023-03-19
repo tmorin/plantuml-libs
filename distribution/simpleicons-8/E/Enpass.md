@@ -17,6 +17,17 @@ include('simpleicons-8/E/Enpass')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EnpassXs>`
+- `<$EnpassSm>`
+- `<$EnpassMd>`
+- `<$EnpassLg>`
+
+
+
+
 
 ## Enpass
 

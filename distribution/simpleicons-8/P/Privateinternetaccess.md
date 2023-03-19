@@ -17,6 +17,17 @@ include('simpleicons-8/P/Privateinternetaccess')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PrivateinternetaccessXs>`
+- `<$PrivateinternetaccessSm>`
+- `<$PrivateinternetaccessMd>`
+- `<$PrivateinternetaccessLg>`
+
+
+
+
 
 ## Privateinternetaccess
 

@@ -17,6 +17,17 @@ include('simpleicons-8/J/Jenkinsx')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JenkinsxXs>`
+- `<$JenkinsxSm>`
+- `<$JenkinsxMd>`
+- `<$JenkinsxLg>`
+
+
+
+
 
 ## Jenkinsx
 

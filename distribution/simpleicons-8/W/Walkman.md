@@ -17,6 +17,17 @@ include('simpleicons-8/W/Walkman')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WalkmanXs>`
+- `<$WalkmanSm>`
+- `<$WalkmanMd>`
+- `<$WalkmanLg>`
+
+
+
+
 
 ## Walkman
 

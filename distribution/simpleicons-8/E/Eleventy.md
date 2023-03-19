@@ -17,6 +17,17 @@ include('simpleicons-8/E/Eleventy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EleventyXs>`
+- `<$EleventySm>`
+- `<$EleventyMd>`
+- `<$EleventyLg>`
+
+
+
+
 
 ## Eleventy
 

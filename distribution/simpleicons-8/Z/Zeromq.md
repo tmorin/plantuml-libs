@@ -17,6 +17,17 @@ include('simpleicons-8/Z/Zeromq')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ZeromqXs>`
+- `<$ZeromqSm>`
+- `<$ZeromqMd>`
+- `<$ZeromqLg>`
+
+
+
+
 
 ## Zeromq
 

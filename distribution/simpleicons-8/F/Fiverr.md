@@ -17,6 +17,17 @@ include('simpleicons-8/F/Fiverr')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FiverrXs>`
+- `<$FiverrSm>`
+- `<$FiverrMd>`
+- `<$FiverrLg>`
+
+
+
+
 
 ## Fiverr
 

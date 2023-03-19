@@ -17,6 +17,17 @@ include('simpleicons-8/F/Fathom')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FathomXs>`
+- `<$FathomSm>`
+- `<$FathomMd>`
+- `<$FathomLg>`
+
+
+
+
 
 ## Fathom
 

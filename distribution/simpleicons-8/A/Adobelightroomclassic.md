@@ -17,6 +17,17 @@ include('simpleicons-8/A/Adobelightroomclassic')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AdobelightroomclassicXs>`
+- `<$AdobelightroomclassicSm>`
+- `<$AdobelightroomclassicMd>`
+- `<$AdobelightroomclassicLg>`
+
+
+
+
 
 ## Adobelightroomclassic
 

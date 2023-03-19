@@ -17,6 +17,17 @@ include('simpleicons-8/O/Opengl')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OpenglXs>`
+- `<$OpenglSm>`
+- `<$OpenglMd>`
+- `<$OpenglLg>`
+
+
+
+
 
 ## Opengl
 

@@ -17,6 +17,17 @@ include('simpleicons-8/M/Muller')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MullerXs>`
+- `<$MullerSm>`
+- `<$MullerMd>`
+- `<$MullerLg>`
+
+
+
+
 
 ## Muller
 

@@ -17,6 +17,17 @@ include('simpleicons-8/P/Pagespeedinsights')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PagespeedinsightsXs>`
+- `<$PagespeedinsightsSm>`
+- `<$PagespeedinsightsMd>`
+- `<$PagespeedinsightsLg>`
+
+
+
+
 
 ## Pagespeedinsights
 

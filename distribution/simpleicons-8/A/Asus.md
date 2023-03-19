@@ -17,6 +17,17 @@ include('simpleicons-8/A/Asus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AsusXs>`
+- `<$AsusSm>`
+- `<$AsusMd>`
+- `<$AsusLg>`
+
+
+
+
 
 ## Asus
 

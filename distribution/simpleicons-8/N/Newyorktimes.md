@@ -17,6 +17,17 @@ include('simpleicons-8/N/Newyorktimes')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NewyorktimesXs>`
+- `<$NewyorktimesSm>`
+- `<$NewyorktimesMd>`
+- `<$NewyorktimesLg>`
+
+
+
+
 
 ## Newyorktimes
 

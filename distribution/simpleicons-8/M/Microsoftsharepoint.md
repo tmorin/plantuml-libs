@@ -17,6 +17,17 @@ include('simpleicons-8/M/Microsoftsharepoint')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MicrosoftsharepointXs>`
+- `<$MicrosoftsharepointSm>`
+- `<$MicrosoftsharepointMd>`
+- `<$MicrosoftsharepointLg>`
+
+
+
+
 
 ## Microsoftsharepoint
 

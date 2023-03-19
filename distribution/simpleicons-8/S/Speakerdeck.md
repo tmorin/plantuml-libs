@@ -17,6 +17,17 @@ include('simpleicons-8/S/Speakerdeck')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SpeakerdeckXs>`
+- `<$SpeakerdeckSm>`
+- `<$SpeakerdeckMd>`
+- `<$SpeakerdeckLg>`
+
+
+
+
 
 ## Speakerdeck
 

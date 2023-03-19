@@ -17,6 +17,17 @@ include('simpleicons-8/S/Styleshare')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StyleshareXs>`
+- `<$StyleshareSm>`
+- `<$StyleshareMd>`
+- `<$StyleshareLg>`
+
+
+
+
 
 ## Styleshare
 

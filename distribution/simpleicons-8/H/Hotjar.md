@@ -17,6 +17,17 @@ include('simpleicons-8/H/Hotjar')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HotjarXs>`
+- `<$HotjarSm>`
+- `<$HotjarMd>`
+- `<$HotjarLg>`
+
+
+
+
 
 ## Hotjar
 

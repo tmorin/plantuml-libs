@@ -17,6 +17,17 @@ include('simpleicons-8/A/Antena3')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$Antena3Xs>`
+- `<$Antena3Sm>`
+- `<$Antena3Md>`
+- `<$Antena3Lg>`
+
+
+
+
 
 ## Antena3
 

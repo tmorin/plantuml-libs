@@ -17,6 +17,17 @@ include('simpleicons-8/S/Symantec')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SymantecXs>`
+- `<$SymantecSm>`
+- `<$SymantecMd>`
+- `<$SymantecLg>`
+
+
+
+
 
 ## Symantec
 

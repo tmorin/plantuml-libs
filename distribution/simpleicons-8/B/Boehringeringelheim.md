@@ -17,6 +17,17 @@ include('simpleicons-8/B/Boehringeringelheim')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BoehringeringelheimXs>`
+- `<$BoehringeringelheimSm>`
+- `<$BoehringeringelheimMd>`
+- `<$BoehringeringelheimLg>`
+
+
+
+
 
 ## Boehringeringelheim
 

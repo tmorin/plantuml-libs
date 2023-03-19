@@ -17,6 +17,17 @@ include('simpleicons-8/D/Devdotto')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DevdottoXs>`
+- `<$DevdottoSm>`
+- `<$DevdottoMd>`
+- `<$DevdottoLg>`
+
+
+
+
 
 ## Devdotto
 

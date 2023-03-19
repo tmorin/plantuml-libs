@@ -17,6 +17,17 @@ include('simpleicons-8/S/Screencastify')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ScreencastifyXs>`
+- `<$ScreencastifySm>`
+- `<$ScreencastifyMd>`
+- `<$ScreencastifyLg>`
+
+
+
+
 
 ## Screencastify
 

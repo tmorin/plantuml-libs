@@ -17,6 +17,17 @@ include('simpleicons-8/L/Livechat')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LivechatXs>`
+- `<$LivechatSm>`
+- `<$LivechatMd>`
+- `<$LivechatLg>`
+
+
+
+
 
 ## Livechat
 

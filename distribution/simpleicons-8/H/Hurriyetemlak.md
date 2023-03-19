@@ -17,6 +17,17 @@ include('simpleicons-8/H/Hurriyetemlak')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HurriyetemlakXs>`
+- `<$HurriyetemlakSm>`
+- `<$HurriyetemlakMd>`
+- `<$HurriyetemlakLg>`
+
+
+
+
 
 ## Hurriyetemlak
 

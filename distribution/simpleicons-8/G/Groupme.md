@@ -17,6 +17,17 @@ include('simpleicons-8/G/Groupme')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GroupmeXs>`
+- `<$GroupmeSm>`
+- `<$GroupmeMd>`
+- `<$GroupmeLg>`
+
+
+
+
 
 ## Groupme
 

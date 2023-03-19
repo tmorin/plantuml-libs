@@ -17,6 +17,17 @@ include('simpleicons-8/C/Citrix')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CitrixXs>`
+- `<$CitrixSm>`
+- `<$CitrixMd>`
+- `<$CitrixLg>`
+
+
+
+
 
 ## Citrix
 

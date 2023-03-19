@@ -17,6 +17,17 @@ include('simpleicons-8/W/Wacom')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WacomXs>`
+- `<$WacomSm>`
+- `<$WacomMd>`
+- `<$WacomLg>`
+
+
+
+
 
 ## Wacom
 

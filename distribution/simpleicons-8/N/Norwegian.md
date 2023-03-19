@@ -17,6 +17,17 @@ include('simpleicons-8/N/Norwegian')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NorwegianXs>`
+- `<$NorwegianSm>`
+- `<$NorwegianMd>`
+- `<$NorwegianLg>`
+
+
+
+
 
 ## Norwegian
 

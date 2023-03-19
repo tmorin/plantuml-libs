@@ -17,6 +17,17 @@ include('simpleicons-8/L/Laravel')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LaravelXs>`
+- `<$LaravelSm>`
+- `<$LaravelMd>`
+- `<$LaravelLg>`
+
+
+
+
 
 ## Laravel
 

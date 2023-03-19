@@ -17,6 +17,17 @@ include('simpleicons-8/S/Shieldsdotio')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShieldsdotioXs>`
+- `<$ShieldsdotioSm>`
+- `<$ShieldsdotioMd>`
+- `<$ShieldsdotioLg>`
+
+
+
+
 
 ## Shieldsdotio
 

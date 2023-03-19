@@ -17,6 +17,17 @@ include('simpleicons-8/C/Codeship')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CodeshipXs>`
+- `<$CodeshipSm>`
+- `<$CodeshipMd>`
+- `<$CodeshipLg>`
+
+
+
+
 
 ## Codeship
 

@@ -17,6 +17,17 @@ include('simpleicons-8/I/Ikea')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IkeaXs>`
+- `<$IkeaSm>`
+- `<$IkeaMd>`
+- `<$IkeaLg>`
+
+
+
+
 
 ## Ikea
 

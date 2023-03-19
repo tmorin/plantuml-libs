@@ -17,6 +17,17 @@ include('simpleicons-8/M/Marketo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MarketoXs>`
+- `<$MarketoSm>`
+- `<$MarketoMd>`
+- `<$MarketoLg>`
+
+
+
+
 
 ## Marketo
 

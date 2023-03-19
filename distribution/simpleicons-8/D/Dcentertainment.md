@@ -17,6 +17,17 @@ include('simpleicons-8/D/Dcentertainment')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DcentertainmentXs>`
+- `<$DcentertainmentSm>`
+- `<$DcentertainmentMd>`
+- `<$DcentertainmentLg>`
+
+
+
+
 
 ## Dcentertainment
 

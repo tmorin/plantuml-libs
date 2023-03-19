@@ -17,6 +17,17 @@ include('simpleicons-8/H/HiveBlockchain')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HiveBlockchainXs>`
+- `<$HiveBlockchainSm>`
+- `<$HiveBlockchainMd>`
+- `<$HiveBlockchainLg>`
+
+
+
+
 
 ## HiveBlockchain
 

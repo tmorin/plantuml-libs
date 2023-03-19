@@ -17,6 +17,17 @@ include('simpleicons-8/N/Nintendogamecube')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NintendogamecubeXs>`
+- `<$NintendogamecubeSm>`
+- `<$NintendogamecubeMd>`
+- `<$NintendogamecubeLg>`
+
+
+
+
 
 ## Nintendogamecube
 

@@ -17,6 +17,17 @@ include('simpleicons-8/R/Reverbnation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ReverbnationXs>`
+- `<$ReverbnationSm>`
+- `<$ReverbnationMd>`
+- `<$ReverbnationLg>`
+
+
+
+
 
 ## Reverbnation
 

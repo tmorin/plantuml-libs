@@ -17,6 +17,17 @@ include('simpleicons-8/D/Disqus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DisqusXs>`
+- `<$DisqusSm>`
+- `<$DisqusMd>`
+- `<$DisqusLg>`
+
+
+
+
 
 ## Disqus
 

@@ -17,6 +17,17 @@ include('simpleicons-8/G/Googlefonts')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GooglefontsXs>`
+- `<$GooglefontsSm>`
+- `<$GooglefontsMd>`
+- `<$GooglefontsLg>`
+
+
+
+
 
 ## Googlefonts
 

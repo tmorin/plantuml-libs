@@ -17,6 +17,17 @@ include('simpleicons-8/B/Bastyon')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BastyonXs>`
+- `<$BastyonSm>`
+- `<$BastyonMd>`
+- `<$BastyonLg>`
+
+
+
+
 
 ## Bastyon
 

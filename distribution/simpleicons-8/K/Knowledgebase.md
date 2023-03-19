@@ -17,6 +17,17 @@ include('simpleicons-8/K/Knowledgebase')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KnowledgebaseXs>`
+- `<$KnowledgebaseSm>`
+- `<$KnowledgebaseMd>`
+- `<$KnowledgebaseLg>`
+
+
+
+
 
 ## Knowledgebase
 

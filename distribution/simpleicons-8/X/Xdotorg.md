@@ -17,6 +17,17 @@ include('simpleicons-8/X/Xdotorg')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$XdotorgXs>`
+- `<$XdotorgSm>`
+- `<$XdotorgMd>`
+- `<$XdotorgLg>`
+
+
+
+
 
 ## Xdotorg
 

@@ -17,6 +17,17 @@ include('simpleicons-8/Z/Zelle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ZelleXs>`
+- `<$ZelleSm>`
+- `<$ZelleMd>`
+- `<$ZelleLg>`
+
+
+
+
 
 ## Zelle
 

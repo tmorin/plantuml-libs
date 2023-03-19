@@ -17,6 +17,17 @@ include('simpleicons-8/Z/Zerodha')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ZerodhaXs>`
+- `<$ZerodhaSm>`
+- `<$ZerodhaMd>`
+- `<$ZerodhaLg>`
+
+
+
+
 
 ## Zerodha
 

@@ -17,6 +17,17 @@ include('simpleicons-8/M/Mamp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MampXs>`
+- `<$MampSm>`
+- `<$MampMd>`
+- `<$MampLg>`
+
+
+
+
 
 ## Mamp
 

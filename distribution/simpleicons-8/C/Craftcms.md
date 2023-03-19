@@ -17,6 +17,17 @@ include('simpleicons-8/C/Craftcms')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CraftcmsXs>`
+- `<$CraftcmsSm>`
+- `<$CraftcmsMd>`
+- `<$CraftcmsLg>`
+
+
+
+
 
 ## Craftcms
 

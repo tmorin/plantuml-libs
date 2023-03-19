@@ -17,6 +17,17 @@ include('simpleicons-8/J/Jekyll')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JekyllXs>`
+- `<$JekyllSm>`
+- `<$JekyllMd>`
+- `<$JekyllLg>`
+
+
+
+
 
 ## Jekyll
 

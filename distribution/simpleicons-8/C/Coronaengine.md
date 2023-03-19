@@ -17,6 +17,17 @@ include('simpleicons-8/C/Coronaengine')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CoronaengineXs>`
+- `<$CoronaengineSm>`
+- `<$CoronaengineMd>`
+- `<$CoronaengineLg>`
+
+
+
+
 
 ## Coronaengine
 

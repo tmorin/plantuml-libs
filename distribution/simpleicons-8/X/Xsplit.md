@@ -17,6 +17,17 @@ include('simpleicons-8/X/Xsplit')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$XsplitXs>`
+- `<$XsplitSm>`
+- `<$XsplitMd>`
+- `<$XsplitLg>`
+
+
+
+
 
 ## Xsplit
 

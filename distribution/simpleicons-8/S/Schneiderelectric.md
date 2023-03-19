@@ -17,6 +17,17 @@ include('simpleicons-8/S/Schneiderelectric')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SchneiderelectricXs>`
+- `<$SchneiderelectricSm>`
+- `<$SchneiderelectricMd>`
+- `<$SchneiderelectricLg>`
+
+
+
+
 
 ## Schneiderelectric
 

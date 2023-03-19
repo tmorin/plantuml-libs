@@ -17,6 +17,17 @@ include('simpleicons-8/W/Wprocket')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WprocketXs>`
+- `<$WprocketSm>`
+- `<$WprocketMd>`
+- `<$WprocketLg>`
+
+
+
+
 
 ## Wprocket
 

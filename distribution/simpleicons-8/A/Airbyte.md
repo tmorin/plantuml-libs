@@ -17,6 +17,17 @@ include('simpleicons-8/A/Airbyte')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AirbyteXs>`
+- `<$AirbyteSm>`
+- `<$AirbyteMd>`
+- `<$AirbyteLg>`
+
+
+
+
 
 ## Airbyte
 

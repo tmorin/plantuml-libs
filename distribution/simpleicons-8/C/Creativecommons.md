@@ -17,6 +17,17 @@ include('simpleicons-8/C/Creativecommons')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CreativecommonsXs>`
+- `<$CreativecommonsSm>`
+- `<$CreativecommonsMd>`
+- `<$CreativecommonsLg>`
+
+
+
+
 
 ## Creativecommons
 

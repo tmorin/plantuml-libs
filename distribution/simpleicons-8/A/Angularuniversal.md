@@ -17,6 +17,17 @@ include('simpleicons-8/A/Angularuniversal')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AngularuniversalXs>`
+- `<$AngularuniversalSm>`
+- `<$AngularuniversalMd>`
+- `<$AngularuniversalLg>`
+
+
+
+
 
 ## Angularuniversal
 

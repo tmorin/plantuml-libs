@@ -17,6 +17,17 @@ include('simpleicons-8/P/Pocketbase')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PocketbaseXs>`
+- `<$PocketbaseSm>`
+- `<$PocketbaseMd>`
+- `<$PocketbaseLg>`
+
+
+
+
 
 ## Pocketbase
 

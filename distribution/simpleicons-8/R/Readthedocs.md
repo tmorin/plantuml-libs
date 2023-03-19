@@ -17,6 +17,17 @@ include('simpleicons-8/R/Readthedocs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ReadthedocsXs>`
+- `<$ReadthedocsSm>`
+- `<$ReadthedocsMd>`
+- `<$ReadthedocsLg>`
+
+
+
+
 
 ## Readthedocs
 

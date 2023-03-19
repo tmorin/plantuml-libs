@@ -17,6 +17,17 @@ include('simpleicons-8/W/Weightsandbiases')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WeightsandbiasesXs>`
+- `<$WeightsandbiasesSm>`
+- `<$WeightsandbiasesMd>`
+- `<$WeightsandbiasesLg>`
+
+
+
+
 
 ## Weightsandbiases
 

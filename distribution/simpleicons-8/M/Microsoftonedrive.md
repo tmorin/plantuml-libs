@@ -17,6 +17,17 @@ include('simpleicons-8/M/Microsoftonedrive')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MicrosoftonedriveXs>`
+- `<$MicrosoftonedriveSm>`
+- `<$MicrosoftonedriveMd>`
+- `<$MicrosoftonedriveLg>`
+
+
+
+
 
 ## Microsoftonedrive
 

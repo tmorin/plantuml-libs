@@ -17,6 +17,17 @@ include('simpleicons-8/O/Opennebula')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OpennebulaXs>`
+- `<$OpennebulaSm>`
+- `<$OpennebulaMd>`
+- `<$OpennebulaLg>`
+
+
+
+
 
 ## Opennebula
 

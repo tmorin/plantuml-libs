@@ -17,6 +17,17 @@ include('simpleicons-8/F/Freenas')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FreenasXs>`
+- `<$FreenasSm>`
+- `<$FreenasMd>`
+- `<$FreenasLg>`
+
+
+
+
 
 ## Freenas
 

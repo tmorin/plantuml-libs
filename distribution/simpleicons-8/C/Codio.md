@@ -17,6 +17,17 @@ include('simpleicons-8/C/Codio')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CodioXs>`
+- `<$CodioSm>`
+- `<$CodioMd>`
+- `<$CodioLg>`
+
+
+
+
 
 ## Codio
 

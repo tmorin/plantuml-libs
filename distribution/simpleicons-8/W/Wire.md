@@ -17,6 +17,17 @@ include('simpleicons-8/W/Wire')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WireXs>`
+- `<$WireSm>`
+- `<$WireMd>`
+- `<$WireLg>`
+
+
+
+
 
 ## Wire
 

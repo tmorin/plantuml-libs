@@ -17,6 +17,17 @@ include('simpleicons-8/E/Ello')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ElloXs>`
+- `<$ElloSm>`
+- `<$ElloMd>`
+- `<$ElloLg>`
+
+
+
+
 
 ## Ello
 

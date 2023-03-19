@@ -17,6 +17,17 @@ include('simpleicons-8/F/Fugacloud')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FugacloudXs>`
+- `<$FugacloudSm>`
+- `<$FugacloudMd>`
+- `<$FugacloudLg>`
+
+
+
+
 
 ## Fugacloud
 

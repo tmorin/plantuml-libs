@@ -17,6 +17,17 @@ include('simpleicons-8/A/Antdesign')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AntdesignXs>`
+- `<$AntdesignSm>`
+- `<$AntdesignMd>`
+- `<$AntdesignLg>`
+
+
+
+
 
 ## Antdesign
 

@@ -17,6 +17,17 @@ include('simpleicons-8/A/Adonisjs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AdonisjsXs>`
+- `<$AdonisjsSm>`
+- `<$AdonisjsMd>`
+- `<$AdonisjsLg>`
+
+
+
+
 
 ## Adonisjs
 

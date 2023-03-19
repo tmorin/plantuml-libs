@@ -17,6 +17,17 @@ include('simpleicons-8/C/Centos')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CentosXs>`
+- `<$CentosSm>`
+- `<$CentosMd>`
+- `<$CentosLg>`
+
+
+
+
 
 ## Centos
 

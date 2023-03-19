@@ -17,6 +17,17 @@ include('simpleicons-8/P/Pyg')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PygXs>`
+- `<$PygSm>`
+- `<$PygMd>`
+- `<$PygLg>`
+
+
+
+
 
 ## Pyg
 

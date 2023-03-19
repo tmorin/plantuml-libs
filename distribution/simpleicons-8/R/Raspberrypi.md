@@ -17,6 +17,17 @@ include('simpleicons-8/R/Raspberrypi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RaspberrypiXs>`
+- `<$RaspberrypiSm>`
+- `<$RaspberrypiMd>`
+- `<$RaspberrypiLg>`
+
+
+
+
 
 ## Raspberrypi
 

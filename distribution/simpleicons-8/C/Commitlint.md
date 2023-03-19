@@ -17,6 +17,17 @@ include('simpleicons-8/C/Commitlint')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CommitlintXs>`
+- `<$CommitlintSm>`
+- `<$CommitlintMd>`
+- `<$CommitlintLg>`
+
+
+
+
 
 ## Commitlint
 

@@ -17,6 +17,17 @@ include('simpleicons-8/D/Dazn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DaznXs>`
+- `<$DaznSm>`
+- `<$DaznMd>`
+- `<$DaznLg>`
+
+
+
+
 
 ## Dazn
 

@@ -17,6 +17,17 @@ include('simpleicons-8/J/Jamstack')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JamstackXs>`
+- `<$JamstackSm>`
+- `<$JamstackMd>`
+- `<$JamstackLg>`
+
+
+
+
 
 ## Jamstack
 

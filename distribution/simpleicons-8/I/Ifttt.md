@@ -17,6 +17,17 @@ include('simpleicons-8/I/Ifttt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IftttXs>`
+- `<$IftttSm>`
+- `<$IftttMd>`
+- `<$IftttLg>`
+
+
+
+
 
 ## Ifttt
 

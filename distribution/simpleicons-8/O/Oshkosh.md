@@ -17,6 +17,17 @@ include('simpleicons-8/O/Oshkosh')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OshkoshXs>`
+- `<$OshkoshSm>`
+- `<$OshkoshMd>`
+- `<$OshkoshLg>`
+
+
+
+
 
 ## Oshkosh
 

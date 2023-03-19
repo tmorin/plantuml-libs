@@ -17,6 +17,17 @@ include('simpleicons-8/I/Intercom')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IntercomXs>`
+- `<$IntercomSm>`
+- `<$IntercomMd>`
+- `<$IntercomLg>`
+
+
+
+
 
 ## Intercom
 

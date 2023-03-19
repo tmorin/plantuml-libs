@@ -17,6 +17,17 @@ include('simpleicons-8/P/Penny')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PennyXs>`
+- `<$PennySm>`
+- `<$PennyMd>`
+- `<$PennyLg>`
+
+
+
+
 
 ## Penny
 

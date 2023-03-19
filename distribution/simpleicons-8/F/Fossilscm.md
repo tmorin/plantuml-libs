@@ -17,6 +17,17 @@ include('simpleicons-8/F/Fossilscm')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FossilscmXs>`
+- `<$FossilscmSm>`
+- `<$FossilscmMd>`
+- `<$FossilscmLg>`
+
+
+
+
 
 ## Fossilscm
 

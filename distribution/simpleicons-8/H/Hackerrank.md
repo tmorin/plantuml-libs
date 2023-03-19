@@ -17,6 +17,17 @@ include('simpleicons-8/H/Hackerrank')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HackerrankXs>`
+- `<$HackerrankSm>`
+- `<$HackerrankMd>`
+- `<$HackerrankLg>`
+
+
+
+
 
 ## Hackerrank
 

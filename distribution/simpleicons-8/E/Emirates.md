@@ -17,6 +17,17 @@ include('simpleicons-8/E/Emirates')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EmiratesXs>`
+- `<$EmiratesSm>`
+- `<$EmiratesMd>`
+- `<$EmiratesLg>`
+
+
+
+
 
 ## Emirates
 

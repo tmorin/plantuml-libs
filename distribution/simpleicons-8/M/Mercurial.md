@@ -17,6 +17,17 @@ include('simpleicons-8/M/Mercurial')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MercurialXs>`
+- `<$MercurialSm>`
+- `<$MercurialMd>`
+- `<$MercurialLg>`
+
+
+
+
 
 ## Mercurial
 

@@ -17,6 +17,17 @@ include('simpleicons-8/V/Vowpalwabbit')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VowpalwabbitXs>`
+- `<$VowpalwabbitSm>`
+- `<$VowpalwabbitMd>`
+- `<$VowpalwabbitLg>`
+
+
+
+
 
 ## Vowpalwabbit
 

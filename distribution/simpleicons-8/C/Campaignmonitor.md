@@ -17,6 +17,17 @@ include('simpleicons-8/C/Campaignmonitor')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CampaignmonitorXs>`
+- `<$CampaignmonitorSm>`
+- `<$CampaignmonitorMd>`
+- `<$CampaignmonitorLg>`
+
+
+
+
 
 ## Campaignmonitor
 

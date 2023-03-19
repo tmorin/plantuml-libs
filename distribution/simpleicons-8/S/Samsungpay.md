@@ -17,6 +17,17 @@ include('simpleicons-8/S/Samsungpay')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SamsungpayXs>`
+- `<$SamsungpaySm>`
+- `<$SamsungpayMd>`
+- `<$SamsungpayLg>`
+
+
+
+
 
 ## Samsungpay
 
