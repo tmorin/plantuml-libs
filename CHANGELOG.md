@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [11.1.0](https://github.com/tmorin/plantuml-libs/compare/v11.0.0...v11.1.0) (2023-03-19)
+
+
+### Features
+
+* add a new example for deployment diagram ([4421ff8](https://github.com/tmorin/plantuml-libs/commit/4421ff8b4cf95d8eb8664a511615225b2b80622d))
+* add Kubernetes item for C4 Model ([c2a7091](https://github.com/tmorin/plantuml-libs/commit/c2a7091437d2d0838baf1ac079a11b750de8e37c))
+* add the InfrastructureNode as Element and Boundary + add the DeploymentNode as Element ([7134f48](https://github.com/tmorin/plantuml-libs/commit/7134f487bde69a6aa30c0be5e891bd4b1c585c7d))
+* add the Node stereotype ([424cf1c](https://github.com/tmorin/plantuml-libs/commit/424cf1c24f8c9b363947c528cfd0eaa662ad76dd))
+* **aws-q1-2023:** refresh the package ([32f8e36](https://github.com/tmorin/plantuml-libs/commit/32f8e36b5d876ac009c6d551dd32b56fbafb05c2))
+* **azure-11:** refresh the package ([4b1aec1](https://github.com/tmorin/plantuml-libs/commit/4b1aec16b6c4218167da86d83658241c42f1f829))
+* **domainstorytelling:** refresh the package ([7ad4a6e](https://github.com/tmorin/plantuml-libs/commit/7ad4a6e6f6503320ba441333a447cd1e664d7b3b))
+* **eip-1:** refresh the package ([0738bf2](https://github.com/tmorin/plantuml-libs/commit/0738bf299d24ccb0e11e096fcd4e9a04032abab3))
+* **fontawesome-6:** refresh the package ([c50fed2](https://github.com/tmorin/plantuml-libs/commit/c50fed2d8a79f43b9bbc9beee05147ed7397e2af))
+* **gcp:** refresh the package ([ef47dc4](https://github.com/tmorin/plantuml-libs/commit/ef47dc4718c822f4c01e491be94d3b124b4f15be))
+* **homecloud-2:** refresh the package ([a92d903](https://github.com/tmorin/plantuml-libs/commit/a92d903c6a38efb609a215d9a394d533851eb698))
+* **material-4:** refresh the package ([8b06305](https://github.com/tmorin/plantuml-libs/commit/8b063054bd68e38f94e30cf93b949f213b35e4f4))
+* **simpleicons-8:** refresh the package ([d7c83ff](https://github.com/tmorin/plantuml-libs/commit/d7c83ff8f9b6b4776c1ab8bd07fd787df496d1d0))
+
 ## [11.0.0](https://github.com/tmorin/plantuml-libs/compare/v10.1.0...v11.0.0) (2023-02-11)
 
 
