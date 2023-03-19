@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/TentArrowsDown')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TentArrowsDownXs>`
+- `<$TentArrowsDownSm>`
+- `<$TentArrowsDownMd>`
+- `<$TentArrowsDownLg>`
+
+
+
+
 
 ## TentArrowsDown
 

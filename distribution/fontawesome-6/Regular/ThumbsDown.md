@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/ThumbsDown')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ThumbsDownXs>`
+- `<$ThumbsDownSm>`
+- `<$ThumbsDownMd>`
+- `<$ThumbsDownLg>`
+
+
+
+
 
 ## ThumbsDown
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ObjectGroup')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ObjectGroupXs>`
+- `<$ObjectGroupSm>`
+- `<$ObjectGroupMd>`
+- `<$ObjectGroupLg>`
+
+
+
+
 
 ## ObjectGroup
 

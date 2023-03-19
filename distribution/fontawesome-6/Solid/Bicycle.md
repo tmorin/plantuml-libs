@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Bicycle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BicycleXs>`
+- `<$BicycleSm>`
+- `<$BicycleMd>`
+- `<$BicycleLg>`
+
+
+
+
 
 ## Bicycle
 

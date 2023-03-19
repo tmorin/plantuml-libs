@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/EnvelopesBulk')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EnvelopesBulkXs>`
+- `<$EnvelopesBulkSm>`
+- `<$EnvelopesBulkMd>`
+- `<$EnvelopesBulkLg>`
+
+
+
+
 
 ## EnvelopesBulk
 

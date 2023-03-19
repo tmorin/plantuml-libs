@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Replyd')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ReplydXs>`
+- `<$ReplydSm>`
+- `<$ReplydMd>`
+- `<$ReplydLg>`
+
+
+
+
 
 ## Replyd
 

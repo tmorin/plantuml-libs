@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Cpanel')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CpanelXs>`
+- `<$CpanelSm>`
+- `<$CpanelMd>`
+- `<$CpanelLg>`
+
+
+
+
 
 ## Cpanel
 

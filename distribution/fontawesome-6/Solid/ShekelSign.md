@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ShekelSign')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShekelSignXs>`
+- `<$ShekelSignSm>`
+- `<$ShekelSignMd>`
+- `<$ShekelSignLg>`
+
+
+
+
 
 ## ShekelSign
 

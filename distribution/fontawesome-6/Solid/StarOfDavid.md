@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/StarOfDavid')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StarOfDavidXs>`
+- `<$StarOfDavidSm>`
+- `<$StarOfDavidMd>`
+- `<$StarOfDavidLg>`
+
+
+
+
 
 ## StarOfDavid
 

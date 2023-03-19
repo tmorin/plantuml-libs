@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Newspaper')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NewspaperXs>`
+- `<$NewspaperSm>`
+- `<$NewspaperMd>`
+- `<$NewspaperLg>`
+
+
+
+
 
 ## Newspaper
 

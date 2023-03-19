@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Neuter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NeuterXs>`
+- `<$NeuterSm>`
+- `<$NeuterMd>`
+- `<$NeuterLg>`
+
+
+
+
 
 ## Neuter
 

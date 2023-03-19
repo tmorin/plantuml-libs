@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PersonBooth')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PersonBoothXs>`
+- `<$PersonBoothSm>`
+- `<$PersonBoothMd>`
+- `<$PersonBoothLg>`
+
+
+
+
 
 ## PersonBooth
 

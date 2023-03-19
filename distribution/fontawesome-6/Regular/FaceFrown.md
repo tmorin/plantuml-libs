@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/FaceFrown')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FaceFrownXs>`
+- `<$FaceFrownSm>`
+- `<$FaceFrownMd>`
+- `<$FaceFrownLg>`
+
+
+
+
 
 ## FaceFrown
 

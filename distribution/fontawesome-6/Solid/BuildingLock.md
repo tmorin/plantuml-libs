@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BuildingLock')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BuildingLockXs>`
+- `<$BuildingLockSm>`
+- `<$BuildingLockMd>`
+- `<$BuildingLockLg>`
+
+
+
+
 
 ## BuildingLock
 

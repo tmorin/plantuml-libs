@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CheckDouble')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CheckDoubleXs>`
+- `<$CheckDoubleSm>`
+- `<$CheckDoubleMd>`
+- `<$CheckDoubleLg>`
+
+
+
+
 
 ## CheckDouble
 

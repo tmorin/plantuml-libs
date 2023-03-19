@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/UserDoctor')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UserDoctorXs>`
+- `<$UserDoctorSm>`
+- `<$UserDoctorMd>`
+- `<$UserDoctorLg>`
+
+
+
+
 
 ## UserDoctor
 

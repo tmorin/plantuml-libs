@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Scroll')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ScrollXs>`
+- `<$ScrollSm>`
+- `<$ScrollMd>`
+- `<$ScrollLg>`
+
+
+
+
 
 ## Scroll
 

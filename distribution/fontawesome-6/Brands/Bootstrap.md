@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Bootstrap')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BootstrapXs>`
+- `<$BootstrapSm>`
+- `<$BootstrapMd>`
+- `<$BootstrapLg>`
+
+
+
+
 
 ## Bootstrap
 

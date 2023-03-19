@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Forward')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ForwardXs>`
+- `<$ForwardSm>`
+- `<$ForwardMd>`
+- `<$ForwardLg>`
+
+
+
+
 
 ## Forward
 

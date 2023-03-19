@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Freebsd')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FreebsdXs>`
+- `<$FreebsdSm>`
+- `<$FreebsdMd>`
+- `<$FreebsdLg>`
+
+
+
+
 
 ## Freebsd
 

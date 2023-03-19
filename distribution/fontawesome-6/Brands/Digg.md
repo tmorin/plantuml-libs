@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Digg')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DiggXs>`
+- `<$DiggSm>`
+- `<$DiggMd>`
+- `<$DiggLg>`
+
+
+
+
 
 ## Digg
 

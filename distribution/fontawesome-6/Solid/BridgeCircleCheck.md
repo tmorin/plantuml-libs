@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BridgeCircleCheck')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BridgeCircleCheckXs>`
+- `<$BridgeCircleCheckSm>`
+- `<$BridgeCircleCheckMd>`
+- `<$BridgeCircleCheckLg>`
+
+
+
+
 
 ## BridgeCircleCheck
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Copy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CopyXs>`
+- `<$CopySm>`
+- `<$CopyMd>`
+- `<$CopyLg>`
+
+
+
+
 
 ## Copy
 

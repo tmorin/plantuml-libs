@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Om')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OmXs>`
+- `<$OmSm>`
+- `<$OmMd>`
+- `<$OmLg>`
+
+
+
+
 
 ## Om
 

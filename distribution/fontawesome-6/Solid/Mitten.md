@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Mitten')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MittenXs>`
+- `<$MittenSm>`
+- `<$MittenMd>`
+- `<$MittenLg>`
+
+
+
+
 
 ## Mitten
 

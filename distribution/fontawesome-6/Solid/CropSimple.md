@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CropSimple')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CropSimpleXs>`
+- `<$CropSimpleSm>`
+- `<$CropSimpleMd>`
+- `<$CropSimpleLg>`
+
+
+
+
 
 ## CropSimple
 

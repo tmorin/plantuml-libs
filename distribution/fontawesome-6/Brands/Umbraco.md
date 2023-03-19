@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Umbraco')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UmbracoXs>`
+- `<$UmbracoSm>`
+- `<$UmbracoMd>`
+- `<$UmbracoLg>`
+
+
+
+
 
 ## Umbraco
 

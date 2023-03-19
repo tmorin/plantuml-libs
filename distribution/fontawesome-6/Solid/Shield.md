@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Shield')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShieldXs>`
+- `<$ShieldSm>`
+- `<$ShieldMd>`
+- `<$ShieldLg>`
+
+
+
+
 
 ## Shield
 

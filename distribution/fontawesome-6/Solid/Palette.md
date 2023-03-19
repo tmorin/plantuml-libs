@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Palette')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PaletteXs>`
+- `<$PaletteSm>`
+- `<$PaletteMd>`
+- `<$PaletteLg>`
+
+
+
+
 
 ## Palette
 

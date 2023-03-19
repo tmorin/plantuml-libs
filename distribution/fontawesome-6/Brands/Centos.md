@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Centos')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CentosXs>`
+- `<$CentosSm>`
+- `<$CentosMd>`
+- `<$CentosLg>`
+
+
+
+
 
 ## Centos
 

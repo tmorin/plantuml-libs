@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Microscope')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MicroscopeXs>`
+- `<$MicroscopeSm>`
+- `<$MicroscopeMd>`
+- `<$MicroscopeLg>`
+
+
+
+
 
 ## Microscope
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Dev')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DevXs>`
+- `<$DevSm>`
+- `<$DevMd>`
+- `<$DevLg>`
+
+
+
+
 
 ## Dev
 

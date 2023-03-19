@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Dyalog')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DyalogXs>`
+- `<$DyalogSm>`
+- `<$DyalogMd>`
+- `<$DyalogLg>`
+
+
+
+
 
 ## Dyalog
 

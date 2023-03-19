@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/HourglassHalf')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HourglassHalfXs>`
+- `<$HourglassHalfSm>`
+- `<$HourglassHalfMd>`
+- `<$HourglassHalfLg>`
+
+
+
+
 
 ## HourglassHalf
 

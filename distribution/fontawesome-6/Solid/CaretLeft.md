@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CaretLeft')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CaretLeftXs>`
+- `<$CaretLeftSm>`
+- `<$CaretLeftMd>`
+- `<$CaretLeftLg>`
+
+
+
+
 
 ## CaretLeft
 

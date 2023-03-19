@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/CreativeCommonsSa')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CreativeCommonsSaXs>`
+- `<$CreativeCommonsSaSm>`
+- `<$CreativeCommonsSaMd>`
+- `<$CreativeCommonsSaLg>`
+
+
+
+
 
 ## CreativeCommonsSa
 

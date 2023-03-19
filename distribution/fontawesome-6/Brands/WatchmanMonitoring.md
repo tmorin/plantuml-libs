@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/WatchmanMonitoring')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WatchmanMonitoringXs>`
+- `<$WatchmanMonitoringSm>`
+- `<$WatchmanMonitoringMd>`
+- `<$WatchmanMonitoringLg>`
+
+
+
+
 
 ## WatchmanMonitoring
 

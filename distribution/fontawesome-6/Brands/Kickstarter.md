@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Kickstarter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KickstarterXs>`
+- `<$KickstarterSm>`
+- `<$KickstarterMd>`
+- `<$KickstarterLg>`
+
+
+
+
 
 ## Kickstarter
 

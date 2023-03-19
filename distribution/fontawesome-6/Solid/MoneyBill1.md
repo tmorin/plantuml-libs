@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/MoneyBill1')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MoneyBill1Xs>`
+- `<$MoneyBill1Sm>`
+- `<$MoneyBill1Md>`
+- `<$MoneyBill1Lg>`
+
+
+
+
 
 ## MoneyBill1
 

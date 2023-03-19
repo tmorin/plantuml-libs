@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ChartBar')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChartBarXs>`
+- `<$ChartBarSm>`
+- `<$ChartBarMd>`
+- `<$ChartBarLg>`
+
+
+
+
 
 ## ChartBar
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Memory')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MemoryXs>`
+- `<$MemorySm>`
+- `<$MemoryMd>`
+- `<$MemoryLg>`
+
+
+
+
 
 ## Memory
 

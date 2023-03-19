@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PeopleGroup')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PeopleGroupXs>`
+- `<$PeopleGroupSm>`
+- `<$PeopleGroupMd>`
+- `<$PeopleGroupLg>`
+
+
+
+
 
 ## PeopleGroup
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HillRockslide')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HillRockslideXs>`
+- `<$HillRockslideSm>`
+- `<$HillRockslideMd>`
+- `<$HillRockslideLg>`
+
+
+
+
 
 ## HillRockslide
 

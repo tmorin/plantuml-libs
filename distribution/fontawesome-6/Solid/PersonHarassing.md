@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PersonHarassing')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PersonHarassingXs>`
+- `<$PersonHarassingSm>`
+- `<$PersonHarassingMd>`
+- `<$PersonHarassingLg>`
+
+
+
+
 
 ## PersonHarassing
 

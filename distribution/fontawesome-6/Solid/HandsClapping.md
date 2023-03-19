@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HandsClapping')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HandsClappingXs>`
+- `<$HandsClappingSm>`
+- `<$HandsClappingMd>`
+- `<$HandsClappingLg>`
+
+
+
+
 
 ## HandsClapping
 

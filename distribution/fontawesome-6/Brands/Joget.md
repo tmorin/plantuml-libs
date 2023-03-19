@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Joget')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JogetXs>`
+- `<$JogetSm>`
+- `<$JogetMd>`
+- `<$JogetLg>`
+
+
+
+
 
 ## Joget
 

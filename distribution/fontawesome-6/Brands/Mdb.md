@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Mdb')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MdbXs>`
+- `<$MdbSm>`
+- `<$MdbMd>`
+- `<$MdbLg>`
+
+
+
+
 
 ## Mdb
 

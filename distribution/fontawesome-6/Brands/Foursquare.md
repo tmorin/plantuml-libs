@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Foursquare')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FoursquareXs>`
+- `<$FoursquareSm>`
+- `<$FoursquareMd>`
+- `<$FoursquareLg>`
+
+
+
+
 
 ## Foursquare
 

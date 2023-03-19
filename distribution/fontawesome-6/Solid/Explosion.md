@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Explosion')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ExplosionXs>`
+- `<$ExplosionSm>`
+- `<$ExplosionMd>`
+- `<$ExplosionLg>`
+
+
+
+
 
 ## Explosion
 

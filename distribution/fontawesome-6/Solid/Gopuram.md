@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Gopuram')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GopuramXs>`
+- `<$GopuramSm>`
+- `<$GopuramMd>`
+- `<$GopuramLg>`
+
+
+
+
 
 ## Gopuram
 

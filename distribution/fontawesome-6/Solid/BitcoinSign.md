@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BitcoinSign')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BitcoinSignXs>`
+- `<$BitcoinSignSm>`
+- `<$BitcoinSignMd>`
+- `<$BitcoinSignLg>`
+
+
+
+
 
 ## BitcoinSign
 

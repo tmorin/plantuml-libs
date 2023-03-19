@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/SignHanging')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SignHangingXs>`
+- `<$SignHangingSm>`
+- `<$SignHangingMd>`
+- `<$SignHangingLg>`
+
+
+
+
 
 ## SignHanging
 

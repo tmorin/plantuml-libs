@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Tooth')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ToothXs>`
+- `<$ToothSm>`
+- `<$ToothMd>`
+- `<$ToothLg>`
+
+
+
+
 
 ## Tooth
 

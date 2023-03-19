@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/FireFlameCurved')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FireFlameCurvedXs>`
+- `<$FireFlameCurvedSm>`
+- `<$FireFlameCurvedMd>`
+- `<$FireFlameCurvedLg>`
+
+
+
+
 
 ## FireFlameCurved
 

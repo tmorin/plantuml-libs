@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PumpMedical')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PumpMedicalXs>`
+- `<$PumpMedicalSm>`
+- `<$PumpMedicalMd>`
+- `<$PumpMedicalLg>`
+
+
+
+
 
 ## PumpMedical
 

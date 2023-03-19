@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/Message')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MessageXs>`
+- `<$MessageSm>`
+- `<$MessageMd>`
+- `<$MessageLg>`
+
+
+
+
 
 ## Message
 

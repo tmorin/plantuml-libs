@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Music')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MusicXs>`
+- `<$MusicSm>`
+- `<$MusicMd>`
+- `<$MusicLg>`
+
+
+
+
 
 ## Music
 

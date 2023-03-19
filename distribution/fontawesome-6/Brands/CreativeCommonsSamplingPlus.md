@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/CreativeCommonsSamplingPlus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CreativeCommonsSamplingPlusXs>`
+- `<$CreativeCommonsSamplingPlusSm>`
+- `<$CreativeCommonsSamplingPlusMd>`
+- `<$CreativeCommonsSamplingPlusLg>`
+
+
+
+
 
 ## CreativeCommonsSamplingPlus
 

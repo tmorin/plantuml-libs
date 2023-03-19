@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ClipboardUser')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ClipboardUserXs>`
+- `<$ClipboardUserSm>`
+- `<$ClipboardUserMd>`
+- `<$ClipboardUserLg>`
+
+
+
+
 
 ## ClipboardUser
 

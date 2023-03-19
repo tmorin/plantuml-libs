@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Republican')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RepublicanXs>`
+- `<$RepublicanSm>`
+- `<$RepublicanMd>`
+- `<$RepublicanLg>`
+
+
+
+
 
 ## Republican
 

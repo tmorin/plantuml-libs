@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/LariSign')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LariSignXs>`
+- `<$LariSignSm>`
+- `<$LariSignMd>`
+- `<$LariSignLg>`
+
+
+
+
 
 ## LariSign
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/LocationPin')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LocationPinXs>`
+- `<$LocationPinSm>`
+- `<$LocationPinMd>`
+- `<$LocationPinLg>`
+
+
+
+
 
 ## LocationPin
 

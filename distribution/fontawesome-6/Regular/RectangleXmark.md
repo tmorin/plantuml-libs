@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/RectangleXmark')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RectangleXmarkXs>`
+- `<$RectangleXmarkSm>`
+- `<$RectangleXmarkMd>`
+- `<$RectangleXmarkLg>`
+
+
+
+
 
 ## RectangleXmark
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/WheelchairMove')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WheelchairMoveXs>`
+- `<$WheelchairMoveSm>`
+- `<$WheelchairMoveMd>`
+- `<$WheelchairMoveLg>`
+
+
+
+
 
 ## WheelchairMove
 

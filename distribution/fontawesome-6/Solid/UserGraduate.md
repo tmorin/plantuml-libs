@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/UserGraduate')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UserGraduateXs>`
+- `<$UserGraduateSm>`
+- `<$UserGraduateMd>`
+- `<$UserGraduateLg>`
+
+
+
+
 
 ## UserGraduate
 

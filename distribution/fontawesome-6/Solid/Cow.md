@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Cow')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CowXs>`
+- `<$CowSm>`
+- `<$CowMd>`
+- `<$CowLg>`
+
+
+
+
 
 ## Cow
 

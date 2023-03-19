@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Bandage')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BandageXs>`
+- `<$BandageSm>`
+- `<$BandageMd>`
+- `<$BandageLg>`
+
+
+
+
 
 ## Bandage
 

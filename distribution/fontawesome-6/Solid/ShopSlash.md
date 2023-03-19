@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ShopSlash')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShopSlashXs>`
+- `<$ShopSlashSm>`
+- `<$ShopSlashMd>`
+- `<$ShopSlashLg>`
+
+
+
+
 
 ## ShopSlash
 

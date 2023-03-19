@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/IdCardClip')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IdCardClipXs>`
+- `<$IdCardClipSm>`
+- `<$IdCardClipMd>`
+- `<$IdCardClipLg>`
+
+
+
+
 
 ## IdCardClip
 

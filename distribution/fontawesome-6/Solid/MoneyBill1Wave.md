@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/MoneyBill1Wave')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MoneyBill1WaveXs>`
+- `<$MoneyBill1WaveSm>`
+- `<$MoneyBill1WaveMd>`
+- `<$MoneyBill1WaveLg>`
+
+
+
+
 
 ## MoneyBill1Wave
 

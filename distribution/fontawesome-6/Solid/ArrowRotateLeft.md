@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ArrowRotateLeft')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ArrowRotateLeftXs>`
+- `<$ArrowRotateLeftSm>`
+- `<$ArrowRotateLeftMd>`
+- `<$ArrowRotateLeftLg>`
+
+
+
+
 
 ## ArrowRotateLeft
 

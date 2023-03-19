@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/FileMedical')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FileMedicalXs>`
+- `<$FileMedicalSm>`
+- `<$FileMedicalMd>`
+- `<$FileMedicalLg>`
+
+
+
+
 
 ## FileMedical
 

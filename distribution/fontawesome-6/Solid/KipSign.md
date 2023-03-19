@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/KipSign')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KipSignXs>`
+- `<$KipSignSm>`
+- `<$KipSignMd>`
+- `<$KipSignLg>`
+
+
+
+
 
 ## KipSign
 

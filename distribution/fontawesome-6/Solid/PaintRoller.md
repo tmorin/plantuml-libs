@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PaintRoller')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PaintRollerXs>`
+- `<$PaintRollerSm>`
+- `<$PaintRollerMd>`
+- `<$PaintRollerLg>`
+
+
+
+
 
 ## PaintRoller
 

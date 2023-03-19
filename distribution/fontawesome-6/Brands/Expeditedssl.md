@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Expeditedssl')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ExpeditedsslXs>`
+- `<$ExpeditedsslSm>`
+- `<$ExpeditedsslMd>`
+- `<$ExpeditedsslLg>`
+
+
+
+
 
 ## Expeditedssl
 

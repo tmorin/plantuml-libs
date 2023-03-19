@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Superscript')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SuperscriptXs>`
+- `<$SuperscriptSm>`
+- `<$SuperscriptMd>`
+- `<$SuperscriptLg>`
+
+
+
+
 
 ## Superscript
 

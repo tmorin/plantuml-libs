@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/FileInvoiceDollar')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FileInvoiceDollarXs>`
+- `<$FileInvoiceDollarSm>`
+- `<$FileInvoiceDollarMd>`
+- `<$FileInvoiceDollarLg>`
+
+
+
+
 
 ## FileInvoiceDollar
 

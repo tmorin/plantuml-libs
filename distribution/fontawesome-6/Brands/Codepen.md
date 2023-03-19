@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Codepen')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CodepenXs>`
+- `<$CodepenSm>`
+- `<$CodepenMd>`
+- `<$CodepenLg>`
+
+
+
+
 
 ## Codepen
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/CreativeCommonsPd')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CreativeCommonsPdXs>`
+- `<$CreativeCommonsPdSm>`
+- `<$CreativeCommonsPdMd>`
+- `<$CreativeCommonsPdLg>`
+
+
+
+
 
 ## CreativeCommonsPd
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Cloudscale')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudscaleXs>`
+- `<$CloudscaleSm>`
+- `<$CloudscaleMd>`
+- `<$CloudscaleLg>`
+
+
+
+
 
 ## Cloudscale
 

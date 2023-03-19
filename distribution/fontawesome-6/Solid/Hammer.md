@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Hammer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HammerXs>`
+- `<$HammerSm>`
+- `<$HammerMd>`
+- `<$HammerLg>`
+
+
+
+
 
 ## Hammer
 

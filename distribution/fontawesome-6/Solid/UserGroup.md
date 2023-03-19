@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/UserGroup')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UserGroupXs>`
+- `<$UserGroupSm>`
+- `<$UserGroupMd>`
+- `<$UserGroupLg>`
+
+
+
+
 
 ## UserGroup
 

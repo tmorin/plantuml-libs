@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/GetPocket')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GetPocketXs>`
+- `<$GetPocketSm>`
+- `<$GetPocketMd>`
+- `<$GetPocketLg>`
+
+
+
+
 
 ## GetPocket
 

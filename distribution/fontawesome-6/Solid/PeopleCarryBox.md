@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PeopleCarryBox')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PeopleCarryBoxXs>`
+- `<$PeopleCarryBoxSm>`
+- `<$PeopleCarryBoxMd>`
+- `<$PeopleCarryBoxLg>`
+
+
+
+
 
 ## PeopleCarryBox
 

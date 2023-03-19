@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Volcano')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VolcanoXs>`
+- `<$VolcanoSm>`
+- `<$VolcanoMd>`
+- `<$VolcanoLg>`
+
+
+
+
 
 ## Volcano
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Toolbox')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ToolboxXs>`
+- `<$ToolboxSm>`
+- `<$ToolboxMd>`
+- `<$ToolboxLg>`
+
+
+
+
 
 ## Toolbox
 

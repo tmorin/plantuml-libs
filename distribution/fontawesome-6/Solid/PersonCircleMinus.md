@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PersonCircleMinus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PersonCircleMinusXs>`
+- `<$PersonCircleMinusSm>`
+- `<$PersonCircleMinusMd>`
+- `<$PersonCircleMinusLg>`
+
+
+
+
 
 ## PersonCircleMinus
 

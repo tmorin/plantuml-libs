@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/YinYang')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$YinYangXs>`
+- `<$YinYangSm>`
+- `<$YinYangMd>`
+- `<$YinYangLg>`
+
+
+
+
 
 ## YinYang
 

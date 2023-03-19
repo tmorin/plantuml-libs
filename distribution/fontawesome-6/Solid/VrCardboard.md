@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/VrCardboard')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VrCardboardXs>`
+- `<$VrCardboardSm>`
+- `<$VrCardboardMd>`
+- `<$VrCardboardLg>`
+
+
+
+
 
 ## VrCardboard
 

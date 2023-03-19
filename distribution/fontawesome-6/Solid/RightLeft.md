@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/RightLeft')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RightLeftXs>`
+- `<$RightLeftSm>`
+- `<$RightLeftMd>`
+- `<$RightLeftLg>`
+
+
+
+
 
 ## RightLeft
 

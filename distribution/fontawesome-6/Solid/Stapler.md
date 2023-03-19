@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Stapler')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StaplerXs>`
+- `<$StaplerSm>`
+- `<$StaplerMd>`
+- `<$StaplerLg>`
+
+
+
+
 
 ## Stapler
 

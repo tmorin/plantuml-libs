@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ImagePortrait')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ImagePortraitXs>`
+- `<$ImagePortraitSm>`
+- `<$ImagePortraitMd>`
+- `<$ImagePortraitLg>`
+
+
+
+
 
 ## ImagePortrait
 

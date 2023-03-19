@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Viber')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ViberXs>`
+- `<$ViberSm>`
+- `<$ViberMd>`
+- `<$ViberLg>`
+
+
+
+
 
 ## Viber
 

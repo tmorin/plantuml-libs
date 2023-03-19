@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HouseLock')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HouseLockXs>`
+- `<$HouseLockSm>`
+- `<$HouseLockMd>`
+- `<$HouseLockLg>`
+
+
+
+
 
 ## HouseLock
 

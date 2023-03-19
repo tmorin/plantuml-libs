@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/EllipsisVertical')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EllipsisVerticalXs>`
+- `<$EllipsisVerticalSm>`
+- `<$EllipsisVerticalMd>`
+- `<$EllipsisVerticalLg>`
+
+
+
+
 
 ## EllipsisVertical
 

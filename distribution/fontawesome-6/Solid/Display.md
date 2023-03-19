@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Display')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DisplayXs>`
+- `<$DisplaySm>`
+- `<$DisplayMd>`
+- `<$DisplayLg>`
+
+
+
+
 
 ## Display
 

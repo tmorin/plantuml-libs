@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/SquareCheck')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquareCheckXs>`
+- `<$SquareCheckSm>`
+- `<$SquareCheckMd>`
+- `<$SquareCheckLg>`
+
+
+
+
 
 ## SquareCheck
 

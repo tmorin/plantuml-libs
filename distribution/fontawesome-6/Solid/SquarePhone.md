@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/SquarePhone')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquarePhoneXs>`
+- `<$SquarePhoneSm>`
+- `<$SquarePhoneMd>`
+- `<$SquarePhoneLg>`
+
+
+
+
 
 ## SquarePhone
 

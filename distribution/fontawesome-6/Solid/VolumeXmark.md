@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/VolumeXmark')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VolumeXmarkXs>`
+- `<$VolumeXmarkSm>`
+- `<$VolumeXmarkMd>`
+- `<$VolumeXmarkLg>`
+
+
+
+
 
 ## VolumeXmark
 

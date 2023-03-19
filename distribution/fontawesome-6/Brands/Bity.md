@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Bity')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BityXs>`
+- `<$BitySm>`
+- `<$BityMd>`
+- `<$BityLg>`
+
+
+
+
 
 ## Bity
 

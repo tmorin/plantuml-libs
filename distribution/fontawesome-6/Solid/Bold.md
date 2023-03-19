@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Bold')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BoldXs>`
+- `<$BoldSm>`
+- `<$BoldMd>`
+- `<$BoldLg>`
+
+
+
+
 
 ## Bold
 

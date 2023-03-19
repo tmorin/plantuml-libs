@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/FileWaveform')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FileWaveformXs>`
+- `<$FileWaveformSm>`
+- `<$FileWaveformMd>`
+- `<$FileWaveformLg>`
+
+
+
+
 
 ## FileWaveform
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/TableColumns')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TableColumnsXs>`
+- `<$TableColumnsSm>`
+- `<$TableColumnsMd>`
+- `<$TableColumnsLg>`
+
+
+
+
 
 ## TableColumns
 

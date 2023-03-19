@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/TriangleExclamation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TriangleExclamationXs>`
+- `<$TriangleExclamationSm>`
+- `<$TriangleExclamationMd>`
+- `<$TriangleExclamationLg>`
+
+
+
+
 
 ## TriangleExclamation
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Hashtag')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HashtagXs>`
+- `<$HashtagSm>`
+- `<$HashtagMd>`
+- `<$HashtagLg>`
+
+
+
+
 
 ## Hashtag
 

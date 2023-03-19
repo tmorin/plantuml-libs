@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BoxesStacked')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BoxesStackedXs>`
+- `<$BoxesStackedSm>`
+- `<$BoxesStackedMd>`
+- `<$BoxesStackedLg>`
+
+
+
+
 
 ## BoxesStacked
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Pencil')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PencilXs>`
+- `<$PencilSm>`
+- `<$PencilMd>`
+- `<$PencilLg>`
+
+
+
+
 
 ## Pencil
 

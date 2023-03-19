@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/FaceGrimace')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FaceGrimaceXs>`
+- `<$FaceGrimaceSm>`
+- `<$FaceGrimaceMd>`
+- `<$FaceGrimaceLg>`
+
+
+
+
 
 ## FaceGrimace
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/CalendarPlus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CalendarPlusXs>`
+- `<$CalendarPlusSm>`
+- `<$CalendarPlusMd>`
+- `<$CalendarPlusLg>`
+
+
+
+
 
 ## CalendarPlus
 

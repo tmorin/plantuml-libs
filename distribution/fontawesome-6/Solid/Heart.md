@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Heart')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HeartXs>`
+- `<$HeartSm>`
+- `<$HeartMd>`
+- `<$HeartLg>`
+
+
+
+
 
 ## Heart
 

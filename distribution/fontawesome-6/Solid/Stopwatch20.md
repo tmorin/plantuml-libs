@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Stopwatch20')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$Stopwatch20Xs>`
+- `<$Stopwatch20Sm>`
+- `<$Stopwatch20Md>`
+- `<$Stopwatch20Lg>`
+
+
+
+
 
 ## Stopwatch20
 

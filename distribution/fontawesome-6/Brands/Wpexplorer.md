@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Wpexplorer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WpexplorerXs>`
+- `<$WpexplorerSm>`
+- `<$WpexplorerMd>`
+- `<$WpexplorerLg>`
+
+
+
+
 
 ## Wpexplorer
 

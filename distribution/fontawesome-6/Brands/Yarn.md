@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Yarn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$YarnXs>`
+- `<$YarnSm>`
+- `<$YarnMd>`
+- `<$YarnLg>`
+
+
+
+
 
 ## Yarn
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Camera')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CameraXs>`
+- `<$CameraSm>`
+- `<$CameraMd>`
+- `<$CameraLg>`
+
+
+
+
 
 ## Camera
 

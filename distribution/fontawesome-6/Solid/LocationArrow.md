@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/LocationArrow')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LocationArrowXs>`
+- `<$LocationArrowSm>`
+- `<$LocationArrowMd>`
+- `<$LocationArrowLg>`
+
+
+
+
 
 ## LocationArrow
 

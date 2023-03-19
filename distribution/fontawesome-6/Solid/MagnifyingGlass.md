@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/MagnifyingGlass')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MagnifyingGlassXs>`
+- `<$MagnifyingGlassSm>`
+- `<$MagnifyingGlassMd>`
+- `<$MagnifyingGlassLg>`
+
+
+
+
 
 ## MagnifyingGlass
 

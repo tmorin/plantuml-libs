@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Angrycreative')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AngrycreativeXs>`
+- `<$AngrycreativeSm>`
+- `<$AngrycreativeMd>`
+- `<$AngrycreativeLg>`
+
+
+
+
 
 ## Angrycreative
 

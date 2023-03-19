@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Skype')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SkypeXs>`
+- `<$SkypeSm>`
+- `<$SkypeMd>`
+- `<$SkypeLg>`
+
+
+
+
 
 ## Skype
 

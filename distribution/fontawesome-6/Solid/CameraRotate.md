@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CameraRotate')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CameraRotateXs>`
+- `<$CameraRotateSm>`
+- `<$CameraRotateMd>`
+- `<$CameraRotateLg>`
+
+
+
+
 
 ## CameraRotate
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BridgeCircleExclamation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BridgeCircleExclamationXs>`
+- `<$BridgeCircleExclamationSm>`
+- `<$BridgeCircleExclamationMd>`
+- `<$BridgeCircleExclamationLg>`
+
+
+
+
 
 ## BridgeCircleExclamation
 

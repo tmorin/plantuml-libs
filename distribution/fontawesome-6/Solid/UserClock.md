@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/UserClock')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UserClockXs>`
+- `<$UserClockSm>`
+- `<$UserClockMd>`
+- `<$UserClockLg>`
+
+
+
+
 
 ## UserClock
 

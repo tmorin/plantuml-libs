@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Themeco')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ThemecoXs>`
+- `<$ThemecoSm>`
+- `<$ThemecoMd>`
+- `<$ThemecoLg>`
+
+
+
+
 
 ## Themeco
 

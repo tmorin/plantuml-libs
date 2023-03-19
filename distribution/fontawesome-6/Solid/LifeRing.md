@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/LifeRing')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LifeRingXs>`
+- `<$LifeRingSm>`
+- `<$LifeRingMd>`
+- `<$LifeRingLg>`
+
+
+
+
 
 ## LifeRing
 

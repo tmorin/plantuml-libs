@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Key')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KeyXs>`
+- `<$KeySm>`
+- `<$KeyMd>`
+- `<$KeyLg>`
+
+
+
+
 
 ## Key
 

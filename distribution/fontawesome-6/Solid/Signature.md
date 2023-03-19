@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Signature')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SignatureXs>`
+- `<$SignatureSm>`
+- `<$SignatureMd>`
+- `<$SignatureLg>`
+
+
+
+
 
 ## Signature
 

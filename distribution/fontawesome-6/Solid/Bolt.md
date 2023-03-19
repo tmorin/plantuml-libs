@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Bolt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BoltXs>`
+- `<$BoltSm>`
+- `<$BoltMd>`
+- `<$BoltLg>`
+
+
+
+
 
 ## Bolt
 

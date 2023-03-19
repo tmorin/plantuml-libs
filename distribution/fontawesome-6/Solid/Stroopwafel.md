@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Stroopwafel')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StroopwafelXs>`
+- `<$StroopwafelSm>`
+- `<$StroopwafelMd>`
+- `<$StroopwafelLg>`
+
+
+
+
 
 ## Stroopwafel
 

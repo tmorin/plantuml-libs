@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/SquareCaretLeft')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquareCaretLeftXs>`
+- `<$SquareCaretLeftSm>`
+- `<$SquareCaretLeftMd>`
+- `<$SquareCaretLeftLg>`
+
+
+
+
 
 ## SquareCaretLeft
 

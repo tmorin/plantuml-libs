@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Rust')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RustXs>`
+- `<$RustSm>`
+- `<$RustMd>`
+- `<$RustLg>`
+
+
+
+
 
 ## Rust
 

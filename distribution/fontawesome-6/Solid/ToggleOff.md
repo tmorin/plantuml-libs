@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ToggleOff')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ToggleOffXs>`
+- `<$ToggleOffSm>`
+- `<$ToggleOffMd>`
+- `<$ToggleOffLg>`
+
+
+
+
 
 ## ToggleOff
 

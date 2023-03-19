@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Pallet')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PalletXs>`
+- `<$PalletSm>`
+- `<$PalletMd>`
+- `<$PalletLg>`
+
+
+
+
 
 ## Pallet
 

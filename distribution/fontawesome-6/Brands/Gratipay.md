@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Gratipay')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GratipayXs>`
+- `<$GratipaySm>`
+- `<$GratipayMd>`
+- `<$GratipayLg>`
+
+
+
+
 
 ## Gratipay
 

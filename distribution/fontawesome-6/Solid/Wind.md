@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Wind')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WindXs>`
+- `<$WindSm>`
+- `<$WindMd>`
+- `<$WindLg>`
+
+
+
+
 
 ## Wind
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/CircleUp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CircleUpXs>`
+- `<$CircleUpSm>`
+- `<$CircleUpMd>`
+- `<$CircleUpLg>`
+
+
+
+
 
 ## CircleUp
 

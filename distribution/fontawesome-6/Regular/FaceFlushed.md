@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/FaceFlushed')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FaceFlushedXs>`
+- `<$FaceFlushedSm>`
+- `<$FaceFlushedMd>`
+- `<$FaceFlushedLg>`
+
+
+
+
 
 ## FaceFlushed
 

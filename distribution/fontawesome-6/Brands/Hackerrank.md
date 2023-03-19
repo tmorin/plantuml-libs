@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Hackerrank')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HackerrankXs>`
+- `<$HackerrankSm>`
+- `<$HackerrankMd>`
+- `<$HackerrankLg>`
+
+
+
+
 
 ## Hackerrank
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Ribbon')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RibbonXs>`
+- `<$RibbonSm>`
+- `<$RibbonMd>`
+- `<$RibbonLg>`
+
+
+
+
 
 ## Ribbon
 

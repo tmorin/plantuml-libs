@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Sailboat')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SailboatXs>`
+- `<$SailboatSm>`
+- `<$SailboatMd>`
+- `<$SailboatLg>`
+
+
+
+
 
 ## Sailboat
 

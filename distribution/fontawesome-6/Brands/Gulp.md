@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Gulp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GulpXs>`
+- `<$GulpSm>`
+- `<$GulpMd>`
+- `<$GulpLg>`
+
+
+
+
 
 ## Gulp
 

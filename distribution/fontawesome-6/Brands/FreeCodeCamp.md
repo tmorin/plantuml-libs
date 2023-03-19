@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/FreeCodeCamp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FreeCodeCampXs>`
+- `<$FreeCodeCampSm>`
+- `<$FreeCodeCampMd>`
+- `<$FreeCodeCampLg>`
+
+
+
+
 
 ## FreeCodeCamp
 

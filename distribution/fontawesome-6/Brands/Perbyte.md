@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Perbyte')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PerbyteXs>`
+- `<$PerbyteSm>`
+- `<$PerbyteMd>`
+- `<$PerbyteLg>`
+
+
+
+
 
 ## Perbyte
 

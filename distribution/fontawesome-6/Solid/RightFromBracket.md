@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/RightFromBracket')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RightFromBracketXs>`
+- `<$RightFromBracketSm>`
+- `<$RightFromBracketMd>`
+- `<$RightFromBracketLg>`
+
+
+
+
 
 ## RightFromBracket
 

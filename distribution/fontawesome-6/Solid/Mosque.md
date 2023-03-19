@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Mosque')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MosqueXs>`
+- `<$MosqueSm>`
+- `<$MosqueMd>`
+- `<$MosqueLg>`
+
+
+
+
 
 ## Mosque
 

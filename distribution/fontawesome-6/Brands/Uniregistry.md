@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Uniregistry')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UniregistryXs>`
+- `<$UniregistrySm>`
+- `<$UniregistryMd>`
+- `<$UniregistryLg>`
+
+
+
+
 
 ## Uniregistry
 

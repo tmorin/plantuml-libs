@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ManatSign')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ManatSignXs>`
+- `<$ManatSignSm>`
+- `<$ManatSignMd>`
+- `<$ManatSignLg>`
+
+
+
+
 
 ## ManatSign
 

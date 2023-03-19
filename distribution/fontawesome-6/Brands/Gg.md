@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Gg')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GgXs>`
+- `<$GgSm>`
+- `<$GgMd>`
+- `<$GgLg>`
+
+
+
+
 
 ## Gg
 

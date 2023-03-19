@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Bell')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BellXs>`
+- `<$BellSm>`
+- `<$BellMd>`
+- `<$BellLg>`
+
+
+
+
 
 ## Bell
 

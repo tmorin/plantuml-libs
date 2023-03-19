@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/TemperatureThreeQuarters')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TemperatureThreeQuartersXs>`
+- `<$TemperatureThreeQuartersSm>`
+- `<$TemperatureThreeQuartersMd>`
+- `<$TemperatureThreeQuartersLg>`
+
+
+
+
 
 ## TemperatureThreeQuarters
 

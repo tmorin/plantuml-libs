@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Bullhorn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BullhornXs>`
+- `<$BullhornSm>`
+- `<$BullhornMd>`
+- `<$BullhornLg>`
+
+
+
+
 
 ## Bullhorn
 

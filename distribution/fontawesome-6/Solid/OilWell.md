@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/OilWell')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OilWellXs>`
+- `<$OilWellSm>`
+- `<$OilWellMd>`
+- `<$OilWellLg>`
+
+
+
+
 
 ## OilWell
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Hurricane')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HurricaneXs>`
+- `<$HurricaneSm>`
+- `<$HurricaneMd>`
+- `<$HurricaneLg>`
+
+
+
+
 
 ## Hurricane
 

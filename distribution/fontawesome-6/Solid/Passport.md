@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Passport')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PassportXs>`
+- `<$PassportSm>`
+- `<$PassportMd>`
+- `<$PassportLg>`
+
+
+
+
 
 ## Passport
 

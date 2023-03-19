@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/City')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CityXs>`
+- `<$CitySm>`
+- `<$CityMd>`
+- `<$CityLg>`
+
+
+
+
 
 ## City
 

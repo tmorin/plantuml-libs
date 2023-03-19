@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Hamsa')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HamsaXs>`
+- `<$HamsaSm>`
+- `<$HamsaMd>`
+- `<$HamsaLg>`
+
+
+
+
 
 ## Hamsa
 

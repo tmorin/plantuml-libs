@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/BuyNLarge')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BuyNLargeXs>`
+- `<$BuyNLargeSm>`
+- `<$BuyNLargeMd>`
+- `<$BuyNLargeLg>`
+
+
+
+
 
 ## BuyNLarge
 

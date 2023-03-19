@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Phone')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PhoneXs>`
+- `<$PhoneSm>`
+- `<$PhoneMd>`
+- `<$PhoneLg>`
+
+
+
+
 
 ## Phone
 

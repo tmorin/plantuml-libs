@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/CcVisa')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CcVisaXs>`
+- `<$CcVisaSm>`
+- `<$CcVisaMd>`
+- `<$CcVisaLg>`
+
+
+
+
 
 ## CcVisa
 

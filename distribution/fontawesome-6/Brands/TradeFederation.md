@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/TradeFederation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TradeFederationXs>`
+- `<$TradeFederationSm>`
+- `<$TradeFederationMd>`
+- `<$TradeFederationLg>`
+
+
+
+
 
 ## TradeFederation
 

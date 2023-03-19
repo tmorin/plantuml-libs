@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/DiagramNext')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DiagramNextXs>`
+- `<$DiagramNextSm>`
+- `<$DiagramNextMd>`
+- `<$DiagramNextLg>`
+
+
+
+
 
 ## DiagramNext
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Crown')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CrownXs>`
+- `<$CrownSm>`
+- `<$CrownMd>`
+- `<$CrownLg>`
+
+
+
+
 
 ## Crown
 

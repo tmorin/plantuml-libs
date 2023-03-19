@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/LungsVirus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LungsVirusXs>`
+- `<$LungsVirusSm>`
+- `<$LungsVirusMd>`
+- `<$LungsVirusLg>`
+
+
+
+
 
 ## LungsVirus
 

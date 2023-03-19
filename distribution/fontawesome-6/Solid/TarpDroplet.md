@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/TarpDroplet')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TarpDropletXs>`
+- `<$TarpDropletSm>`
+- `<$TarpDropletMd>`
+- `<$TarpDropletLg>`
+
+
+
+
 
 ## TarpDroplet
 

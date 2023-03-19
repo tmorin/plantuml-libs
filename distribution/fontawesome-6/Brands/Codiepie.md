@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Codiepie')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CodiepieXs>`
+- `<$CodiepieSm>`
+- `<$CodiepieMd>`
+- `<$CodiepieLg>`
+
+
+
+
 
 ## Codiepie
 

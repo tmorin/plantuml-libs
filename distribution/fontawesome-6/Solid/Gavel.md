@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Gavel')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GavelXs>`
+- `<$GavelSm>`
+- `<$GavelMd>`
+- `<$GavelLg>`
+
+
+
+
 
 ## Gavel
 

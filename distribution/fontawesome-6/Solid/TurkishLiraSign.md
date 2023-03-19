@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/TurkishLiraSign')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TurkishLiraSignXs>`
+- `<$TurkishLiraSignSm>`
+- `<$TurkishLiraSignMd>`
+- `<$TurkishLiraSignLg>`
+
+
+
+
 
 ## TurkishLiraSign
 

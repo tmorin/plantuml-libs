@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Usb')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UsbXs>`
+- `<$UsbSm>`
+- `<$UsbMd>`
+- `<$UsbLg>`
+
+
+
+
 
 ## Usb
 

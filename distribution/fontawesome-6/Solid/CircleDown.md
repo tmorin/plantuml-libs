@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CircleDown')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CircleDownXs>`
+- `<$CircleDownSm>`
+- `<$CircleDownMd>`
+- `<$CircleDownLg>`
+
+
+
+
 
 ## CircleDown
 

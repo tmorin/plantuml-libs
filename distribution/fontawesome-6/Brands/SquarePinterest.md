@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/SquarePinterest')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquarePinterestXs>`
+- `<$SquarePinterestSm>`
+- `<$SquarePinterestMd>`
+- `<$SquarePinterestLg>`
+
+
+
+
 
 ## SquarePinterest
 

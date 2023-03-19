@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Medapps')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MedappsXs>`
+- `<$MedappsSm>`
+- `<$MedappsMd>`
+- `<$MedappsLg>`
+
+
+
+
 
 ## Medapps
 

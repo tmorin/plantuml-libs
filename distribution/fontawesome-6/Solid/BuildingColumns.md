@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BuildingColumns')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BuildingColumnsXs>`
+- `<$BuildingColumnsSm>`
+- `<$BuildingColumnsMd>`
+- `<$BuildingColumnsLg>`
+
+
+
+
 
 ## BuildingColumns
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PesoSign')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PesoSignXs>`
+- `<$PesoSignSm>`
+- `<$PesoSignMd>`
+- `<$PesoSignLg>`
+
+
+
+
 
 ## PesoSign
 

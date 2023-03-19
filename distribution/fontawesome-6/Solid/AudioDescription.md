@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/AudioDescription')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AudioDescriptionXs>`
+- `<$AudioDescriptionSm>`
+- `<$AudioDescriptionMd>`
+- `<$AudioDescriptionLg>`
+
+
+
+
 
 ## AudioDescription
 

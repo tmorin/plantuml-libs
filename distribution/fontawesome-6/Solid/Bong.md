@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Bong')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BongXs>`
+- `<$BongSm>`
+- `<$BongMd>`
+- `<$BongLg>`
+
+
+
+
 
 ## Bong
 

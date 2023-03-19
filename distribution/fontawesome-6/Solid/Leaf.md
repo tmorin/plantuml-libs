@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Leaf')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LeafXs>`
+- `<$LeafSm>`
+- `<$LeafMd>`
+- `<$LeafLg>`
+
+
+
+
 
 ## Leaf
 

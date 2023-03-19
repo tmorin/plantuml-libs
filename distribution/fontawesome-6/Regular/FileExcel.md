@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/FileExcel')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FileExcelXs>`
+- `<$FileExcelSm>`
+- `<$FileExcelMd>`
+- `<$FileExcelLg>`
+
+
+
+
 
 ## FileExcel
 

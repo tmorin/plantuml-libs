@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ChartSimple')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChartSimpleXs>`
+- `<$ChartSimpleSm>`
+- `<$ChartSimpleMd>`
+- `<$ChartSimpleLg>`
+
+
+
+
 
 ## ChartSimple
 

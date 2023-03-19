@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/School')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SchoolXs>`
+- `<$SchoolSm>`
+- `<$SchoolMd>`
+- `<$SchoolLg>`
+
+
+
+
 
 ## School
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Poo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PooXs>`
+- `<$PooSm>`
+- `<$PooMd>`
+- `<$PooLg>`
+
+
+
+
 
 ## Poo
 

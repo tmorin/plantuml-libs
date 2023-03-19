@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BuildingNgo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BuildingNgoXs>`
+- `<$BuildingNgoSm>`
+- `<$BuildingNgoMd>`
+- `<$BuildingNgoLg>`
+
+
+
+
 
 ## BuildingNgo
 

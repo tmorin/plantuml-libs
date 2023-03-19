@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/EyeSlash')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EyeSlashXs>`
+- `<$EyeSlashSm>`
+- `<$EyeSlashMd>`
+- `<$EyeSlashLg>`
+
+
+
+
 
 ## EyeSlash
 

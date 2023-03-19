@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/MobileRetro')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MobileRetroXs>`
+- `<$MobileRetroSm>`
+- `<$MobileRetroMd>`
+- `<$MobileRetroLg>`
+
+
+
+
 
 ## MobileRetro
 

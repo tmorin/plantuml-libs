@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/TencentWeibo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TencentWeiboXs>`
+- `<$TencentWeiboSm>`
+- `<$TencentWeiboMd>`
+- `<$TencentWeiboLg>`
+
+
+
+
 
 ## TencentWeibo
 

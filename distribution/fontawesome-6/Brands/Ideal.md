@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Ideal')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IdealXs>`
+- `<$IdealSm>`
+- `<$IdealMd>`
+- `<$IdealLg>`
+
+
+
+
 
 ## Ideal
 

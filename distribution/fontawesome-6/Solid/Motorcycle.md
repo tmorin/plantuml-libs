@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Motorcycle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MotorcycleXs>`
+- `<$MotorcycleSm>`
+- `<$MotorcycleMd>`
+- `<$MotorcycleLg>`
+
+
+
+
 
 ## Motorcycle
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/GuaraniSign')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GuaraniSignXs>`
+- `<$GuaraniSignSm>`
+- `<$GuaraniSignMd>`
+- `<$GuaraniSignLg>`
+
+
+
+
 
 ## GuaraniSign
 

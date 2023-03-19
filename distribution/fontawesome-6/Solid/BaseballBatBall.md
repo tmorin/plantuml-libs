@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BaseballBatBall')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BaseballBatBallXs>`
+- `<$BaseballBatBallSm>`
+- `<$BaseballBatBallMd>`
+- `<$BaseballBatBallLg>`
+
+
+
+
 
 ## BaseballBatBall
 

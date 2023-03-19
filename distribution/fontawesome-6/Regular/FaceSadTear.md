@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/FaceSadTear')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FaceSadTearXs>`
+- `<$FaceSadTearSm>`
+- `<$FaceSadTearMd>`
+- `<$FaceSadTearLg>`
+
+
+
+
 
 ## FaceSadTear
 

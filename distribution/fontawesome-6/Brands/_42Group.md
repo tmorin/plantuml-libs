@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/_42Group')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$_42GroupXs>`
+- `<$_42GroupSm>`
+- `<$_42GroupMd>`
+- `<$_42GroupLg>`
+
+
+
+
 
 ## _42Group
 

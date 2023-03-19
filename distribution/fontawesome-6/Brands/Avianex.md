@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Avianex')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AvianexXs>`
+- `<$AvianexSm>`
+- `<$AvianexMd>`
+- `<$AvianexLg>`
+
+
+
+
 
 ## Avianex
 

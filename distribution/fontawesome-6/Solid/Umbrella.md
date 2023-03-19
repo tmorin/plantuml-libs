@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Umbrella')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UmbrellaXs>`
+- `<$UmbrellaSm>`
+- `<$UmbrellaMd>`
+- `<$UmbrellaLg>`
+
+
+
+
 
 ## Umbrella
 

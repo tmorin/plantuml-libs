@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/EarthOceania')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EarthOceaniaXs>`
+- `<$EarthOceaniaSm>`
+- `<$EarthOceaniaMd>`
+- `<$EarthOceaniaLg>`
+
+
+
+
 
 ## EarthOceania
 

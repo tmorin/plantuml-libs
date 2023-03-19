@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Atom')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AtomXs>`
+- `<$AtomSm>`
+- `<$AtomMd>`
+- `<$AtomLg>`
+
+
+
+
 
 ## Atom
 

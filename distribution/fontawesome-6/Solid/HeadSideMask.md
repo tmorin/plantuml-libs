@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HeadSideMask')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HeadSideMaskXs>`
+- `<$HeadSideMaskSm>`
+- `<$HeadSideMaskMd>`
+- `<$HeadSideMaskLg>`
+
+
+
+
 
 ## HeadSideMask
 

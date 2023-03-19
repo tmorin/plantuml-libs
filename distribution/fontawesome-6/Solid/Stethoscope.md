@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Stethoscope')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StethoscopeXs>`
+- `<$StethoscopeSm>`
+- `<$StethoscopeMd>`
+- `<$StethoscopeLg>`
+
+
+
+
 
 ## Stethoscope
 

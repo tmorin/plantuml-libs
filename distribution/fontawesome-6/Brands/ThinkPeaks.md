@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/ThinkPeaks')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ThinkPeaksXs>`
+- `<$ThinkPeaksSm>`
+- `<$ThinkPeaksMd>`
+- `<$ThinkPeaksLg>`
+
+
+
+
 
 ## ThinkPeaks
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BuildingCircleXmark')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BuildingCircleXmarkXs>`
+- `<$BuildingCircleXmarkSm>`
+- `<$BuildingCircleXmarkMd>`
+- `<$BuildingCircleXmarkLg>`
+
+
+
+
 
 ## BuildingCircleXmark
 

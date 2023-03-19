@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Keycdn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KeycdnXs>`
+- `<$KeycdnSm>`
+- `<$KeycdnMd>`
+- `<$KeycdnLg>`
+
+
+
+
 
 ## Keycdn
 

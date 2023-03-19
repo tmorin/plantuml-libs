@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/D')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DXs>`
+- `<$DSm>`
+- `<$DMd>`
+- `<$DLg>`
+
+
+
+
 
 ## D
 

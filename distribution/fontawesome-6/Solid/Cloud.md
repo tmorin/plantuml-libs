@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Cloud')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudXs>`
+- `<$CloudSm>`
+- `<$CloudMd>`
+- `<$CloudLg>`
+
+
+
+
 
 ## Cloud
 

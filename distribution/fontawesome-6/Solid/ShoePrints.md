@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ShoePrints')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShoePrintsXs>`
+- `<$ShoePrintsSm>`
+- `<$ShoePrintsMd>`
+- `<$ShoePrintsLg>`
+
+
+
+
 
 ## ShoePrints
 

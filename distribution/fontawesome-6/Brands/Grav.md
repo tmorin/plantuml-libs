@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Grav')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GravXs>`
+- `<$GravSm>`
+- `<$GravMd>`
+- `<$GravLg>`
+
+
+
+
 
 ## Grav
 

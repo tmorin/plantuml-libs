@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HelmetSafety')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HelmetSafetyXs>`
+- `<$HelmetSafetySm>`
+- `<$HelmetSafetyMd>`
+- `<$HelmetSafetyLg>`
+
+
+
+
 
 ## HelmetSafety
 

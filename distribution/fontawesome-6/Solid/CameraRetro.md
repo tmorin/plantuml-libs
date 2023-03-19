@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CameraRetro')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CameraRetroXs>`
+- `<$CameraRetroSm>`
+- `<$CameraRetroMd>`
+- `<$CameraRetroLg>`
+
+
+
+
 
 ## CameraRetro
 

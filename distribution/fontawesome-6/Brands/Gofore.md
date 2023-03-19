@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Gofore')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GoforeXs>`
+- `<$GoforeSm>`
+- `<$GoforeMd>`
+- `<$GoforeLg>`
+
+
+
+
 
 ## Gofore
 

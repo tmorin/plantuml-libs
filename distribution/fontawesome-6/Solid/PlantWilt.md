@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PlantWilt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PlantWiltXs>`
+- `<$PlantWiltSm>`
+- `<$PlantWiltMd>`
+- `<$PlantWiltLg>`
+
+
+
+
 
 ## PlantWilt
 

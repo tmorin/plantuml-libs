@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Meetup')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MeetupXs>`
+- `<$MeetupSm>`
+- `<$MeetupMd>`
+- `<$MeetupLg>`
+
+
+
+
 
 ## Meetup
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BusinessTime')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BusinessTimeXs>`
+- `<$BusinessTimeSm>`
+- `<$BusinessTimeMd>`
+- `<$BusinessTimeLg>`
+
+
+
+
 
 ## BusinessTime
 

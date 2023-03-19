@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Synagogue')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SynagogueXs>`
+- `<$SynagogueSm>`
+- `<$SynagogueMd>`
+- `<$SynagogueLg>`
+
+
+
+
 
 ## Synagogue
 

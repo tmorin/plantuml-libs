@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ToriiGate')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ToriiGateXs>`
+- `<$ToriiGateSm>`
+- `<$ToriiGateMd>`
+- `<$ToriiGateLg>`
+
+
+
+
 
 ## ToriiGate
 

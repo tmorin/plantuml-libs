@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Mound')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MoundXs>`
+- `<$MoundSm>`
+- `<$MoundMd>`
+- `<$MoundLg>`
+
+
+
+
 
 ## Mound
 

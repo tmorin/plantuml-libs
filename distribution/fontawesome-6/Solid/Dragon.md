@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Dragon')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DragonXs>`
+- `<$DragonSm>`
+- `<$DragonMd>`
+- `<$DragonLg>`
+
+
+
+
 
 ## Dragon
 

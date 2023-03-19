@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/FortAwesomeAlt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FortAwesomeAltXs>`
+- `<$FortAwesomeAltSm>`
+- `<$FortAwesomeAltMd>`
+- `<$FortAwesomeAltLg>`
+
+
+
+
 
 ## FortAwesomeAlt
 

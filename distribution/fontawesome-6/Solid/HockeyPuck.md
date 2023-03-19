@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HockeyPuck')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HockeyPuckXs>`
+- `<$HockeyPuckSm>`
+- `<$HockeyPuckMd>`
+- `<$HockeyPuckLg>`
+
+
+
+
 
 ## HockeyPuck
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ListCheck')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ListCheckXs>`
+- `<$ListCheckSm>`
+- `<$ListCheckMd>`
+- `<$ListCheckLg>`
+
+
+
+
 
 ## ListCheck
 

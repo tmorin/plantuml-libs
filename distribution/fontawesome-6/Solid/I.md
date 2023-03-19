@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/I')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IXs>`
+- `<$ISm>`
+- `<$IMd>`
+- `<$ILg>`
+
+
+
+
 
 ## I
 

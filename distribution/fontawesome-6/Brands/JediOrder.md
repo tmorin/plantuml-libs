@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/JediOrder')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JediOrderXs>`
+- `<$JediOrderSm>`
+- `<$JediOrderMd>`
+- `<$JediOrderLg>`
+
+
+
+
 
 ## JediOrder
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Marker')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MarkerXs>`
+- `<$MarkerSm>`
+- `<$MarkerMd>`
+- `<$MarkerLg>`
+
+
+
+
 
 ## Marker
 

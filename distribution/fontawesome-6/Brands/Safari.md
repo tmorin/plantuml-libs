@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Safari')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SafariXs>`
+- `<$SafariSm>`
+- `<$SafariMd>`
+- `<$SafariLg>`
+
+
+
+
 
 ## Safari
 

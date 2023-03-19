@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/UserShield')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UserShieldXs>`
+- `<$UserShieldSm>`
+- `<$UserShieldMd>`
+- `<$UserShieldLg>`
+
+
+
+
 
 ## UserShield
 

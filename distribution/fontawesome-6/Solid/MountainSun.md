@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/MountainSun')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MountainSunXs>`
+- `<$MountainSunSm>`
+- `<$MountainSunMd>`
+- `<$MountainSunLg>`
+
+
+
+
 
 ## MountainSun
 

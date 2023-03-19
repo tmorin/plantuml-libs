@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HouseChimneyMedical')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HouseChimneyMedicalXs>`
+- `<$HouseChimneyMedicalSm>`
+- `<$HouseChimneyMedicalMd>`
+- `<$HouseChimneyMedicalLg>`
+
+
+
+
 
 ## HouseChimneyMedical
 

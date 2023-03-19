@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PenFancy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PenFancyXs>`
+- `<$PenFancySm>`
+- `<$PenFancyMd>`
+- `<$PenFancyLg>`
+
+
+
+
 
 ## PenFancy
 

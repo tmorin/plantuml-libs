@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Cross')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CrossXs>`
+- `<$CrossSm>`
+- `<$CrossMd>`
+- `<$CrossLg>`
+
+
+
+
 
 ## Cross
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Xbox')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$XboxXs>`
+- `<$XboxSm>`
+- `<$XboxMd>`
+- `<$XboxLg>`
+
+
+
+
 
 ## Xbox
 

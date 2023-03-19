@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/SquareParking')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquareParkingXs>`
+- `<$SquareParkingSm>`
+- `<$SquareParkingMd>`
+- `<$SquareParkingLg>`
+
+
+
+
 
 ## SquareParking
 

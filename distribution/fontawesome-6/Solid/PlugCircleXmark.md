@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PlugCircleXmark')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PlugCircleXmarkXs>`
+- `<$PlugCircleXmarkSm>`
+- `<$PlugCircleXmarkMd>`
+- `<$PlugCircleXmarkLg>`
+
+
+
+
 
 ## PlugCircleXmark
 

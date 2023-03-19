@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Gem')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GemXs>`
+- `<$GemSm>`
+- `<$GemMd>`
+- `<$GemLg>`
+
+
+
+
 
 ## Gem
 

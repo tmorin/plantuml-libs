@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/SheetPlastic')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SheetPlasticXs>`
+- `<$SheetPlasticSm>`
+- `<$SheetPlasticMd>`
+- `<$SheetPlasticLg>`
+
+
+
+
 
 ## SheetPlastic
 

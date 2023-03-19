@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BookJournalWhills')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BookJournalWhillsXs>`
+- `<$BookJournalWhillsSm>`
+- `<$BookJournalWhillsMd>`
+- `<$BookJournalWhillsLg>`
+
+
+
+
 
 ## BookJournalWhills
 

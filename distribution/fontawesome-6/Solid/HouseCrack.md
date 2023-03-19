@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HouseCrack')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HouseCrackXs>`
+- `<$HouseCrackSm>`
+- `<$HouseCrackMd>`
+- `<$HouseCrackLg>`
+
+
+
+
 
 ## HouseCrack
 

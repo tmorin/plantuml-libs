@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Screenpal')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ScreenpalXs>`
+- `<$ScreenpalSm>`
+- `<$ScreenpalMd>`
+- `<$ScreenpalLg>`
+
+
+
+
 
 ## Screenpal
 

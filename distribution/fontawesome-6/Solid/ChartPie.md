@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ChartPie')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChartPieXs>`
+- `<$ChartPieSm>`
+- `<$ChartPieMd>`
+- `<$ChartPieLg>`
+
+
+
+
 
 ## ChartPie
 

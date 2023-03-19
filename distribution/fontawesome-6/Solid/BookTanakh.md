@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BookTanakh')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BookTanakhXs>`
+- `<$BookTanakhSm>`
+- `<$BookTanakhMd>`
+- `<$BookTanakhLg>`
+
+
+
+
 
 ## BookTanakh
 

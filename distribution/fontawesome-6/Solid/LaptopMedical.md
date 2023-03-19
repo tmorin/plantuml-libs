@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/LaptopMedical')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LaptopMedicalXs>`
+- `<$LaptopMedicalSm>`
+- `<$LaptopMedicalMd>`
+- `<$LaptopMedicalLg>`
+
+
+
+
 
 ## LaptopMedical
 

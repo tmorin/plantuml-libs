@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HollyBerry')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HollyBerryXs>`
+- `<$HollyBerrySm>`
+- `<$HollyBerryMd>`
+- `<$HollyBerryLg>`
+
+
+
+
 
 ## HollyBerry
 

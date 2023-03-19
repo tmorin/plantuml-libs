@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/UserTag')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UserTagXs>`
+- `<$UserTagSm>`
+- `<$UserTagMd>`
+- `<$UserTagLg>`
+
+
+
+
 
 ## UserTag
 

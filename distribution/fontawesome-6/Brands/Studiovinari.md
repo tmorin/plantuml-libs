@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Studiovinari')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StudiovinariXs>`
+- `<$StudiovinariSm>`
+- `<$StudiovinariMd>`
+- `<$StudiovinariLg>`
+
+
+
+
 
 ## Studiovinari
 

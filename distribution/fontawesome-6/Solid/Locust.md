@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Locust')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LocustXs>`
+- `<$LocustSm>`
+- `<$LocustMd>`
+- `<$LocustLg>`
+
+
+
+
 
 ## Locust
 

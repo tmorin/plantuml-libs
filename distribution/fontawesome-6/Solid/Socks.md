@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Socks')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SocksXs>`
+- `<$SocksSm>`
+- `<$SocksMd>`
+- `<$SocksLg>`
+
+
+
+
 
 ## Socks
 

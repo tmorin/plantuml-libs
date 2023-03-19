@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/PiedPiper')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PiedPiperXs>`
+- `<$PiedPiperSm>`
+- `<$PiedPiperMd>`
+- `<$PiedPiperLg>`
+
+
+
+
 
 ## PiedPiper
 

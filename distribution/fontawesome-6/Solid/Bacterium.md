@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Bacterium')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BacteriumXs>`
+- `<$BacteriumSm>`
+- `<$BacteriumMd>`
+- `<$BacteriumLg>`
+
+
+
+
 
 ## Bacterium
 

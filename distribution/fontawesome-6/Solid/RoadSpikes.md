@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/RoadSpikes')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RoadSpikesXs>`
+- `<$RoadSpikesSm>`
+- `<$RoadSpikesMd>`
+- `<$RoadSpikesLg>`
+
+
+
+
 
 ## RoadSpikes
 

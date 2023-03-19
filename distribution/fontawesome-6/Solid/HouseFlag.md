@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HouseFlag')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HouseFlagXs>`
+- `<$HouseFlagSm>`
+- `<$HouseFlagMd>`
+- `<$HouseFlagLg>`
+
+
+
+
 
 ## HouseFlag
 

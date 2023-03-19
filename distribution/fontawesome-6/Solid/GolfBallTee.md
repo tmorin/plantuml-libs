@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/GolfBallTee')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GolfBallTeeXs>`
+- `<$GolfBallTeeSm>`
+- `<$GolfBallTeeMd>`
+- `<$GolfBallTeeLg>`
+
+
+
+
 
 ## GolfBallTee
 

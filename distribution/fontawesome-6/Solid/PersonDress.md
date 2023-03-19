@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PersonDress')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PersonDressXs>`
+- `<$PersonDressSm>`
+- `<$PersonDressMd>`
+- `<$PersonDressLg>`
+
+
+
+
 
 ## PersonDress
 

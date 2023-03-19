@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CediSign')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CediSignXs>`
+- `<$CediSignSm>`
+- `<$CediSignMd>`
+- `<$CediSignLg>`
+
+
+
+
 
 ## CediSign
 

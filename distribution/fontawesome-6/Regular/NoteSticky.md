@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/NoteSticky')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NoteStickyXs>`
+- `<$NoteStickySm>`
+- `<$NoteStickyMd>`
+- `<$NoteStickyLg>`
+
+
+
+
 
 ## NoteSticky
 

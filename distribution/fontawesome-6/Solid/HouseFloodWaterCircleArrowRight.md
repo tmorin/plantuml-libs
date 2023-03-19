@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HouseFloodWaterCircleArrowRight')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HouseFloodWaterCircleArrowRightXs>`
+- `<$HouseFloodWaterCircleArrowRightSm>`
+- `<$HouseFloodWaterCircleArrowRightMd>`
+- `<$HouseFloodWaterCircleArrowRightLg>`
+
+
+
+
 
 ## HouseFloodWaterCircleArrowRight
 

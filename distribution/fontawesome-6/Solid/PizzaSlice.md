@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PizzaSlice')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PizzaSliceXs>`
+- `<$PizzaSliceSm>`
+- `<$PizzaSliceMd>`
+- `<$PizzaSliceLg>`
+
+
+
+
 
 ## PizzaSlice
 

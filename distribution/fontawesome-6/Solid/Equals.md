@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Equals')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EqualsXs>`
+- `<$EqualsSm>`
+- `<$EqualsMd>`
+- `<$EqualsLg>`
+
+
+
+
 
 ## Equals
 

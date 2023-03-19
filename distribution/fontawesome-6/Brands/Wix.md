@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Wix')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WixXs>`
+- `<$WixSm>`
+- `<$WixMd>`
+- `<$WixLg>`
+
+
+
+
 
 ## Wix
 

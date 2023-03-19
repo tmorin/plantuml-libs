@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/NfcDirectional')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NfcDirectionalXs>`
+- `<$NfcDirectionalSm>`
+- `<$NfcDirectionalMd>`
+- `<$NfcDirectionalLg>`
+
+
+
+
 
 ## NfcDirectional
 

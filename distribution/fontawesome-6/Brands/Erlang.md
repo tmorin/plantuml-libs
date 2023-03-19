@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Erlang')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ErlangXs>`
+- `<$ErlangSm>`
+- `<$ErlangMd>`
+- `<$ErlangLg>`
+
+
+
+
 
 ## Erlang
 

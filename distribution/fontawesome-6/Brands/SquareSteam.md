@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/SquareSteam')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquareSteamXs>`
+- `<$SquareSteamSm>`
+- `<$SquareSteamMd>`
+- `<$SquareSteamLg>`
+
+
+
+
 
 ## SquareSteam
 

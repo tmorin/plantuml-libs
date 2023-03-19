@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Certificate')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CertificateXs>`
+- `<$CertificateSm>`
+- `<$CertificateMd>`
+- `<$CertificateLg>`
+
+
+
+
 
 ## Certificate
 

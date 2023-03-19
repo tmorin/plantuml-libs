@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Resolving')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ResolvingXs>`
+- `<$ResolvingSm>`
+- `<$ResolvingMd>`
+- `<$ResolvingLg>`
+
+
+
+
 
 ## Resolving
 

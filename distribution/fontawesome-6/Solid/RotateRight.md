@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/RotateRight')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RotateRightXs>`
+- `<$RotateRightSm>`
+- `<$RotateRightMd>`
+- `<$RotateRightLg>`
+
+
+
+
 
 ## RotateRight
 

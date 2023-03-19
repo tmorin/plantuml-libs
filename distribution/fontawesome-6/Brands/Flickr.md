@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Flickr')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FlickrXs>`
+- `<$FlickrSm>`
+- `<$FlickrMd>`
+- `<$FlickrLg>`
+
+
+
+
 
 ## Flickr
 

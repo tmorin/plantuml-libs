@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Swift')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SwiftXs>`
+- `<$SwiftSm>`
+- `<$SwiftMd>`
+- `<$SwiftLg>`
+
+
+
+
 
 ## Swift
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PenClip')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PenClipXs>`
+- `<$PenClipSm>`
+- `<$PenClipMd>`
+- `<$PenClipLg>`
+
+
+
+
 
 ## PenClip
 

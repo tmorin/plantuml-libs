@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Teamspeak')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TeamspeakXs>`
+- `<$TeamspeakSm>`
+- `<$TeamspeakMd>`
+- `<$TeamspeakLg>`
+
+
+
+
 
 ## Teamspeak
 

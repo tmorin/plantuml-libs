@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ChessBoard')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChessBoardXs>`
+- `<$ChessBoardSm>`
+- `<$ChessBoardMd>`
+- `<$ChessBoardLg>`
+
+
+
+
 
 ## ChessBoard
 

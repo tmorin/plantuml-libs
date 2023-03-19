@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/K')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KXs>`
+- `<$KSm>`
+- `<$KMd>`
+- `<$KLg>`
+
+
+
+
 
 ## K
 

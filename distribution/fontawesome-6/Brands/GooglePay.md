@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/GooglePay')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GooglePayXs>`
+- `<$GooglePaySm>`
+- `<$GooglePayMd>`
+- `<$GooglePayLg>`
+
+
+
+
 
 ## GooglePay
 

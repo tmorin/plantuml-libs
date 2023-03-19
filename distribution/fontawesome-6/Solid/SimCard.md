@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/SimCard')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SimCardXs>`
+- `<$SimCardSm>`
+- `<$SimCardMd>`
+- `<$SimCardLg>`
+
+
+
+
 
 ## SimCard
 

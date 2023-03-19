@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/RankingStar')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RankingStarXs>`
+- `<$RankingStarSm>`
+- `<$RankingStarMd>`
+- `<$RankingStarLg>`
+
+
+
+
 
 ## RankingStar
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Infinity')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InfinityXs>`
+- `<$InfinitySm>`
+- `<$InfinityMd>`
+- `<$InfinityLg>`
+
+
+
+
 
 ## Infinity
 

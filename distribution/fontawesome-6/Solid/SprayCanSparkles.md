@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/SprayCanSparkles')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SprayCanSparklesXs>`
+- `<$SprayCanSparklesSm>`
+- `<$SprayCanSparklesMd>`
+- `<$SprayCanSparklesLg>`
+
+
+
+
 
 ## SprayCanSparkles
 

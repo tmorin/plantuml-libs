@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HeartPulse')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HeartPulseXs>`
+- `<$HeartPulseSm>`
+- `<$HeartPulseMd>`
+- `<$HeartPulseLg>`
+
+
+
+
 
 ## HeartPulse
 

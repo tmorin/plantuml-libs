@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Adn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AdnXs>`
+- `<$AdnSm>`
+- `<$AdnMd>`
+- `<$AdnLg>`
+
+
+
+
 
 ## Adn
 

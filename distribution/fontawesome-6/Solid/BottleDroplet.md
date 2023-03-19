@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BottleDroplet')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BottleDropletXs>`
+- `<$BottleDropletSm>`
+- `<$BottleDropletMd>`
+- `<$BottleDropletLg>`
+
+
+
+
 
 ## BottleDroplet
 

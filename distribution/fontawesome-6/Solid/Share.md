@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Share')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShareXs>`
+- `<$ShareSm>`
+- `<$ShareMd>`
+- `<$ShareLg>`
+
+
+
+
 
 ## Share
 

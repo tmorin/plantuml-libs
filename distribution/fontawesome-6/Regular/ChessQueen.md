@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/ChessQueen')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChessQueenXs>`
+- `<$ChessQueenSm>`
+- `<$ChessQueenMd>`
+- `<$ChessQueenLg>`
+
+
+
+
 
 ## ChessQueen
 

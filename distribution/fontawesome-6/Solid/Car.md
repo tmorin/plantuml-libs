@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Car')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CarXs>`
+- `<$CarSm>`
+- `<$CarMd>`
+- `<$CarLg>`
+
+
+
+
 
 ## Car
 

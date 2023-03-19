@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HeartCircleXmark')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HeartCircleXmarkXs>`
+- `<$HeartCircleXmarkSm>`
+- `<$HeartCircleXmarkMd>`
+- `<$HeartCircleXmarkLg>`
+
+
+
+
 
 ## HeartCircleXmark
 

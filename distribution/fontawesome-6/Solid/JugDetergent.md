@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/JugDetergent')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JugDetergentXs>`
+- `<$JugDetergentSm>`
+- `<$JugDetergentMd>`
+- `<$JugDetergentLg>`
+
+
+
+
 
 ## JugDetergent
 

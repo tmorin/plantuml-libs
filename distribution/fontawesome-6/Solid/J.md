@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/J')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JXs>`
+- `<$JSm>`
+- `<$JMd>`
+- `<$JLg>`
+
+
+
+
 
 ## J
 

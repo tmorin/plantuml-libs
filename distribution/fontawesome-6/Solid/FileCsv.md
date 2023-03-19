@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/FileCsv')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FileCsvXs>`
+- `<$FileCsvSm>`
+- `<$FileCsvMd>`
+- `<$FileCsvLg>`
+
+
+
+
 
 ## FileCsv
 

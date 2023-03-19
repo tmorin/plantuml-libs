@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Sistrix')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SistrixXs>`
+- `<$SistrixSm>`
+- `<$SistrixMd>`
+- `<$SistrixLg>`
+
+
+
+
 
 ## Sistrix
 

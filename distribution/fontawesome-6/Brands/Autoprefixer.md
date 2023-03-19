@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Autoprefixer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AutoprefixerXs>`
+- `<$AutoprefixerSm>`
+- `<$AutoprefixerMd>`
+- `<$AutoprefixerLg>`
+
+
+
+
 
 ## Autoprefixer
 

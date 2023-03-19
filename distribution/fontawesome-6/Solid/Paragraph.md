@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Paragraph')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ParagraphXs>`
+- `<$ParagraphSm>`
+- `<$ParagraphMd>`
+- `<$ParagraphLg>`
+
+
+
+
 
 ## Paragraph
 

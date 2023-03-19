@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Adversal')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AdversalXs>`
+- `<$AdversalSm>`
+- `<$AdversalMd>`
+- `<$AdversalLg>`
+
+
+
+
 
 ## Adversal
 

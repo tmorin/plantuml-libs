@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/Calendar')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CalendarXs>`
+- `<$CalendarSm>`
+- `<$CalendarMd>`
+- `<$CalendarLg>`
+
+
+
+
 
 ## Calendar
 

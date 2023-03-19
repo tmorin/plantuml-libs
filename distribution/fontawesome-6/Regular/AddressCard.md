@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/AddressCard')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AddressCardXs>`
+- `<$AddressCardSm>`
+- `<$AddressCardMd>`
+- `<$AddressCardLg>`
+
+
+
+
 
 ## AddressCard
 

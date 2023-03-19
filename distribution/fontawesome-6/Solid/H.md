@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/H')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HXs>`
+- `<$HSm>`
+- `<$HMd>`
+- `<$HLg>`
+
+
+
+
 
 ## H
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/TextHeight')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TextHeightXs>`
+- `<$TextHeightSm>`
+- `<$TextHeightMd>`
+- `<$TextHeightLg>`
+
+
+
+
 
 ## TextHeight
 

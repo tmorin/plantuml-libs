@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BookQuran')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BookQuranXs>`
+- `<$BookQuranSm>`
+- `<$BookQuranMd>`
+- `<$BookQuranLg>`
+
+
+
+
 
 ## BookQuran
 

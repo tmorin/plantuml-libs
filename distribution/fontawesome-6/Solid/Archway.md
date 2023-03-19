@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Archway')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ArchwayXs>`
+- `<$ArchwaySm>`
+- `<$ArchwayMd>`
+- `<$ArchwayLg>`
+
+
+
+
 
 ## Archway
 

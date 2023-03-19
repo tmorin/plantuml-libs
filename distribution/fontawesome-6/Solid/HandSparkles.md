@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HandSparkles')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HandSparklesXs>`
+- `<$HandSparklesSm>`
+- `<$HandSparklesMd>`
+- `<$HandSparklesLg>`
+
+
+
+
 
 ## HandSparkles
 

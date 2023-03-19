@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/DiceThree')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DiceThreeXs>`
+- `<$DiceThreeSm>`
+- `<$DiceThreeMd>`
+- `<$DiceThreeLg>`
+
+
+
+
 
 ## DiceThree
 

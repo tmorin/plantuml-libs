@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/FlaskVial')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FlaskVialXs>`
+- `<$FlaskVialSm>`
+- `<$FlaskVialMd>`
+- `<$FlaskVialLg>`
+
+
+
+
 
 ## FlaskVial
 

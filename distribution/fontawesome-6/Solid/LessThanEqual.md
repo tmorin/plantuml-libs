@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/LessThanEqual')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LessThanEqualXs>`
+- `<$LessThanEqualSm>`
+- `<$LessThanEqualMd>`
+- `<$LessThanEqualLg>`
+
+
+
+
 
 ## LessThanEqual
 

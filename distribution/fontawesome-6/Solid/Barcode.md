@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Barcode')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BarcodeXs>`
+- `<$BarcodeSm>`
+- `<$BarcodeMd>`
+- `<$BarcodeLg>`
+
+
+
+
 
 ## Barcode
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Bilibili')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BilibiliXs>`
+- `<$BilibiliSm>`
+- `<$BilibiliMd>`
+- `<$BilibiliLg>`
+
+
+
+
 
 ## Bilibili
 

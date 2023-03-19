@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/AccessibleIcon')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AccessibleIconXs>`
+- `<$AccessibleIconSm>`
+- `<$AccessibleIconMd>`
+- `<$AccessibleIconLg>`
+
+
+
+
 
 ## AccessibleIcon
 

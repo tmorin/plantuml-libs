@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Anchor')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AnchorXs>`
+- `<$AnchorSm>`
+- `<$AnchorMd>`
+- `<$AnchorLg>`
+
+
+
+
 
 ## Anchor
 

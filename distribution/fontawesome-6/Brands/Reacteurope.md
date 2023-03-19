@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Reacteurope')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ReacteuropeXs>`
+- `<$ReacteuropeSm>`
+- `<$ReacteuropeMd>`
+- `<$ReacteuropeLg>`
+
+
+
+
 
 ## Reacteurope
 

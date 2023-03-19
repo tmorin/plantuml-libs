@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PrescriptionBottle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PrescriptionBottleXs>`
+- `<$PrescriptionBottleSm>`
+- `<$PrescriptionBottleMd>`
+- `<$PrescriptionBottleLg>`
+
+
+
+
 
 ## PrescriptionBottle
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CloudMoon')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudMoonXs>`
+- `<$CloudMoonSm>`
+- `<$CloudMoonMd>`
+- `<$CloudMoonLg>`
+
+
+
+
 
 ## CloudMoon
 

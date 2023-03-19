@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/TableCells')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TableCellsXs>`
+- `<$TableCellsSm>`
+- `<$TableCellsMd>`
+- `<$TableCellsLg>`
+
+
+
+
 
 ## TableCells
 

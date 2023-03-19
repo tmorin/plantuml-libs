@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/FileArrowDown')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FileArrowDownXs>`
+- `<$FileArrowDownSm>`
+- `<$FileArrowDownMd>`
+- `<$FileArrowDownLg>`
+
+
+
+
 
 ## FileArrowDown
 

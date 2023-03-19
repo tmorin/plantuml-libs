@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Section')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SectionXs>`
+- `<$SectionSm>`
+- `<$SectionMd>`
+- `<$SectionLg>`
+
+
+
+
 
 ## Section
 

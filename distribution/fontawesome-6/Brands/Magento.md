@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Magento')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MagentoXs>`
+- `<$MagentoSm>`
+- `<$MagentoMd>`
+- `<$MagentoLg>`
+
+
+
+
 
 ## Magento
 

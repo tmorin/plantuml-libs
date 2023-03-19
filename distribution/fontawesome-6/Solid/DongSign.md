@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/DongSign')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DongSignXs>`
+- `<$DongSignSm>`
+- `<$DongSignMd>`
+- `<$DongSignLg>`
+
+
+
+
 
 ## DongSign
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/EnvelopeOpen')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EnvelopeOpenXs>`
+- `<$EnvelopeOpenSm>`
+- `<$EnvelopeOpenMd>`
+- `<$EnvelopeOpenLg>`
+
+
+
+
 
 ## EnvelopeOpen
 

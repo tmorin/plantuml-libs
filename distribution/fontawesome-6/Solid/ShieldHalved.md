@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ShieldHalved')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShieldHalvedXs>`
+- `<$ShieldHalvedSm>`
+- `<$ShieldHalvedMd>`
+- `<$ShieldHalvedLg>`
+
+
+
+
 
 ## ShieldHalved
 

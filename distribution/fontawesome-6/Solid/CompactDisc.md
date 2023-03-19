@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CompactDisc')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CompactDiscXs>`
+- `<$CompactDiscSm>`
+- `<$CompactDiscMd>`
+- `<$CompactDiscLg>`
+
+
+
+
 
 ## CompactDisc
 

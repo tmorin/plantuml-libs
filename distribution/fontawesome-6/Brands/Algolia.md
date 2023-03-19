@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Algolia')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AlgoliaXs>`
+- `<$AlgoliaSm>`
+- `<$AlgoliaMd>`
+- `<$AlgoliaLg>`
+
+
+
+
 
 ## Algolia
 

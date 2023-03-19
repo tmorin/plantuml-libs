@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Korvue')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KorvueXs>`
+- `<$KorvueSm>`
+- `<$KorvueMd>`
+- `<$KorvueLg>`
+
+
+
+
 
 ## Korvue
 

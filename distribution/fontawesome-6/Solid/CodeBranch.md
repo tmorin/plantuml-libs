@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CodeBranch')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CodeBranchXs>`
+- `<$CodeBranchSm>`
+- `<$CodeBranchMd>`
+- `<$CodeBranchLg>`
+
+
+
+
 
 ## CodeBranch
 

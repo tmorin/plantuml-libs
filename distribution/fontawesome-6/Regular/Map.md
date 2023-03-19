@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/Map')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MapXs>`
+- `<$MapSm>`
+- `<$MapMd>`
+- `<$MapLg>`
+
+
+
+
 
 ## Map
 

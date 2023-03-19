@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CommentsDollar')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CommentsDollarXs>`
+- `<$CommentsDollarSm>`
+- `<$CommentsDollarMd>`
+- `<$CommentsDollarLg>`
+
+
+
+
 
 ## CommentsDollar
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/KiwiBird')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KiwiBirdXs>`
+- `<$KiwiBirdSm>`
+- `<$KiwiBirdMd>`
+- `<$KiwiBirdLg>`
+
+
+
+
 
 ## KiwiBird
 

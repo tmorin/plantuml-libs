@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Ellipsis')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EllipsisXs>`
+- `<$EllipsisSm>`
+- `<$EllipsisMd>`
+- `<$EllipsisLg>`
+
+
+
+
 
 ## Ellipsis
 

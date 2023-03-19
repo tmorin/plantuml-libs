@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Hooli')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HooliXs>`
+- `<$HooliSm>`
+- `<$HooliMd>`
+- `<$HooliLg>`
+
+
+
+
 
 ## Hooli
 

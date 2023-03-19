@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Tags')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TagsXs>`
+- `<$TagsSm>`
+- `<$TagsMd>`
+- `<$TagsLg>`
+
+
+
+
 
 ## Tags
 

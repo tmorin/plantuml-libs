@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/HackerNews')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HackerNewsXs>`
+- `<$HackerNewsSm>`
+- `<$HackerNewsMd>`
+- `<$HackerNewsLg>`
+
+
+
+
 
 ## HackerNews
 

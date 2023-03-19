@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/React')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ReactXs>`
+- `<$ReactSm>`
+- `<$ReactMd>`
+- `<$ReactLg>`
+
+
+
+
 
 ## React
 

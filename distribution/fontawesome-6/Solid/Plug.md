@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Plug')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PlugXs>`
+- `<$PlugSm>`
+- `<$PlugMd>`
+- `<$PlugLg>`
+
+
+
+
 
 ## Plug
 

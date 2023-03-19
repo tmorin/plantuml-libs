@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ArrowUpRightFromSquare')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ArrowUpRightFromSquareXs>`
+- `<$ArrowUpRightFromSquareSm>`
+- `<$ArrowUpRightFromSquareMd>`
+- `<$ArrowUpRightFromSquareLg>`
+
+
+
+
 
 ## ArrowUpRightFromSquare
 

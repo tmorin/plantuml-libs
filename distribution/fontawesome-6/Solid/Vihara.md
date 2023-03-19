@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Vihara')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ViharaXs>`
+- `<$ViharaSm>`
+- `<$ViharaMd>`
+- `<$ViharaLg>`
+
+
+
+
 
 ## Vihara
 

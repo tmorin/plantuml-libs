@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/YandexInternational')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$YandexInternationalXs>`
+- `<$YandexInternationalSm>`
+- `<$YandexInternationalMd>`
+- `<$YandexInternationalLg>`
+
+
+
+
 
 ## YandexInternational
 

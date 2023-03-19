@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Periscope')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PeriscopeXs>`
+- `<$PeriscopeSm>`
+- `<$PeriscopeMd>`
+- `<$PeriscopeLg>`
+
+
+
+
 
 ## Periscope
 

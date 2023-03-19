@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BoxTissue')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BoxTissueXs>`
+- `<$BoxTissueSm>`
+- `<$BoxTissueMd>`
+- `<$BoxTissueLg>`
+
+
+
+
 
 ## BoxTissue
 

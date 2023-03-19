@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Mobile')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MobileXs>`
+- `<$MobileSm>`
+- `<$MobileMd>`
+- `<$MobileLg>`
+
+
+
+
 
 ## Mobile
 

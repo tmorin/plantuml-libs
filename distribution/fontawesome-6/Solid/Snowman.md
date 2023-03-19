@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Snowman')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SnowmanXs>`
+- `<$SnowmanSm>`
+- `<$SnowmanMd>`
+- `<$SnowmanLg>`
+
+
+
+
 
 ## Snowman
 

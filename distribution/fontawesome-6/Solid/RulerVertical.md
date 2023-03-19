@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/RulerVertical')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RulerVerticalXs>`
+- `<$RulerVerticalSm>`
+- `<$RulerVerticalMd>`
+- `<$RulerVerticalLg>`
+
+
+
+
 
 ## RulerVertical
 

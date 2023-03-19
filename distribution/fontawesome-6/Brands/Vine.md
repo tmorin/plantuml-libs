@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Vine')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VineXs>`
+- `<$VineSm>`
+- `<$VineMd>`
+- `<$VineLg>`
+
+
+
+
 
 ## Vine
 

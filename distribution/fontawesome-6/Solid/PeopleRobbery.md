@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PeopleRobbery')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PeopleRobberyXs>`
+- `<$PeopleRobberySm>`
+- `<$PeopleRobberyMd>`
+- `<$PeopleRobberyLg>`
+
+
+
+
 
 ## PeopleRobbery
 

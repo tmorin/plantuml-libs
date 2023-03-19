@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Tv')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TvXs>`
+- `<$TvSm>`
+- `<$TvMd>`
+- `<$TvLg>`
+
+
+
+
 
 ## Tv
 

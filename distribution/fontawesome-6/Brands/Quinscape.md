@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Quinscape')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$QuinscapeXs>`
+- `<$QuinscapeSm>`
+- `<$QuinscapeMd>`
+- `<$QuinscapeLg>`
+
+
+
+
 
 ## Quinscape
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/SortDown')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SortDownXs>`
+- `<$SortDownSm>`
+- `<$SortDownMd>`
+- `<$SortDownLg>`
+
+
+
+
 
 ## SortDown
 

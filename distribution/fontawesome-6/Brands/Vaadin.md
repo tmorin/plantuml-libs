@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Vaadin')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VaadinXs>`
+- `<$VaadinSm>`
+- `<$VaadinMd>`
+- `<$VaadinLg>`
+
+
+
+
 
 ## Vaadin
 

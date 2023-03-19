@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/RubleSign')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RubleSignXs>`
+- `<$RubleSignSm>`
+- `<$RubleSignMd>`
+- `<$RubleSignLg>`
+
+
+
+
 
 ## RubleSign
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Bridge')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BridgeXs>`
+- `<$BridgeSm>`
+- `<$BridgeMd>`
+- `<$BridgeLg>`
+
+
+
+
 
 ## Bridge
 

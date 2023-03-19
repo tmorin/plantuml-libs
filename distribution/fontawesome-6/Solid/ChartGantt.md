@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ChartGantt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChartGanttXs>`
+- `<$ChartGanttSm>`
+- `<$ChartGanttMd>`
+- `<$ChartGanttLg>`
+
+
+
+
 
 ## ChartGantt
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/HandScissors')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HandScissorsXs>`
+- `<$HandScissorsSm>`
+- `<$HandScissorsMd>`
+- `<$HandScissorsLg>`
+
+
+
+
 
 ## HandScissors
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Fedex')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FedexXs>`
+- `<$FedexSm>`
+- `<$FedexMd>`
+- `<$FedexLg>`
+
+
+
+
 
 ## Fedex
 

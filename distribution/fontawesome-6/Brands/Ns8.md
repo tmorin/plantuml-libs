@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Ns8')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$Ns8Xs>`
+- `<$Ns8Sm>`
+- `<$Ns8Md>`
+- `<$Ns8Lg>`
+
+
+
+
 
 ## Ns8
 

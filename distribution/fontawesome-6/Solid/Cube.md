@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Cube')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CubeXs>`
+- `<$CubeSm>`
+- `<$CubeMd>`
+- `<$CubeLg>`
+
+
+
+
 
 ## Cube
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CarTunnel')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CarTunnelXs>`
+- `<$CarTunnelSm>`
+- `<$CarTunnelMd>`
+- `<$CarTunnelLg>`
+
+
+
+
 
 ## CarTunnel
 

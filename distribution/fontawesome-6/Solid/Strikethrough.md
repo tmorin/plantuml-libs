@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Strikethrough')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StrikethroughXs>`
+- `<$StrikethroughSm>`
+- `<$StrikethroughMd>`
+- `<$StrikethroughLg>`
+
+
+
+
 
 ## Strikethrough
 

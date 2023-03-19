@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BatteryThreeQuarters')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BatteryThreeQuartersXs>`
+- `<$BatteryThreeQuartersSm>`
+- `<$BatteryThreeQuartersMd>`
+- `<$BatteryThreeQuartersLg>`
+
+
+
+
 
 ## BatteryThreeQuarters
 

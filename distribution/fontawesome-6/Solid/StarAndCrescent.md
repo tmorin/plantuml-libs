@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/StarAndCrescent')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StarAndCrescentXs>`
+- `<$StarAndCrescentSm>`
+- `<$StarAndCrescentMd>`
+- `<$StarAndCrescentLg>`
+
+
+
+
 
 ## StarAndCrescent
 

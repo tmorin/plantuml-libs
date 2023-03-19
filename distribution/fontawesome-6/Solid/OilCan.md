@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/OilCan')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OilCanXs>`
+- `<$OilCanSm>`
+- `<$OilCanMd>`
+- `<$OilCanLg>`
+
+
+
+
 
 ## OilCan
 

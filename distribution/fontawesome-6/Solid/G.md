@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/G')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GXs>`
+- `<$GSm>`
+- `<$GMd>`
+- `<$GLg>`
+
+
+
+
 
 ## G
 

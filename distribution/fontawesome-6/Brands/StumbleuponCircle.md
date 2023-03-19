@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/StumbleuponCircle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StumbleuponCircleXs>`
+- `<$StumbleuponCircleSm>`
+- `<$StumbleuponCircleMd>`
+- `<$StumbleuponCircleLg>`
+
+
+
+
 
 ## StumbleuponCircle
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ChevronDown')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChevronDownXs>`
+- `<$ChevronDownSm>`
+- `<$ChevronDownMd>`
+- `<$ChevronDownLg>`
+
+
+
+
 
 ## ChevronDown
 

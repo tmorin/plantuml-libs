@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Affiliatetheme')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AffiliatethemeXs>`
+- `<$AffiliatethemeSm>`
+- `<$AffiliatethemeMd>`
+- `<$AffiliatethemeLg>`
+
+
+
+
 
 ## Affiliatetheme
 

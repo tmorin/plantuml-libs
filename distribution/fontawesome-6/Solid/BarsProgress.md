@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BarsProgress')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BarsProgressXs>`
+- `<$BarsProgressSm>`
+- `<$BarsProgressMd>`
+- `<$BarsProgressLg>`
+
+
+
+
 
 ## BarsProgress
 

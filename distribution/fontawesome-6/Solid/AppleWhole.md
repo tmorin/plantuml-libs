@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/AppleWhole')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AppleWholeXs>`
+- `<$AppleWholeSm>`
+- `<$AppleWholeMd>`
+- `<$AppleWholeLg>`
+
+
+
+
 
 ## AppleWhole
 

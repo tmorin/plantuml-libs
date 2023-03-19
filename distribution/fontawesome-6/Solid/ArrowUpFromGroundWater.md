@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ArrowUpFromGroundWater')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ArrowUpFromGroundWaterXs>`
+- `<$ArrowUpFromGroundWaterSm>`
+- `<$ArrowUpFromGroundWaterMd>`
+- `<$ArrowUpFromGroundWaterLg>`
+
+
+
+
 
 ## ArrowUpFromGroundWater
 

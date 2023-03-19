@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/LocationCrosshairs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LocationCrosshairsXs>`
+- `<$LocationCrosshairsSm>`
+- `<$LocationCrosshairsMd>`
+- `<$LocationCrosshairsLg>`
+
+
+
+
 
 ## LocationCrosshairs
 

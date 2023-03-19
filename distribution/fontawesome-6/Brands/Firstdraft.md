@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Firstdraft')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FirstdraftXs>`
+- `<$FirstdraftSm>`
+- `<$FirstdraftMd>`
+- `<$FirstdraftLg>`
+
+
+
+
 
 ## Firstdraft
 

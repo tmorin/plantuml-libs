@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BezierCurve')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BezierCurveXs>`
+- `<$BezierCurveSm>`
+- `<$BezierCurveMd>`
+- `<$BezierCurveLg>`
+
+
+
+
 
 ## BezierCurve
 

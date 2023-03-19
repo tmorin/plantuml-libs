@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Jedi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JediXs>`
+- `<$JediSm>`
+- `<$JediMd>`
+- `<$JediLg>`
+
+
+
+
 
 ## Jedi
 

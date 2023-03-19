@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/TruckArrowRight')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TruckArrowRightXs>`
+- `<$TruckArrowRightSm>`
+- `<$TruckArrowRightMd>`
+- `<$TruckArrowRightLg>`
+
+
+
+
 
 ## TruckArrowRight
 

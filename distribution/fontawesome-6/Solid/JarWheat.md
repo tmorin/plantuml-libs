@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/JarWheat')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JarWheatXs>`
+- `<$JarWheatSm>`
+- `<$JarWheatMd>`
+- `<$JarWheatLg>`
+
+
+
+
 
 ## JarWheat
 

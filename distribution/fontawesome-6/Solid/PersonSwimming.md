@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PersonSwimming')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PersonSwimmingXs>`
+- `<$PersonSwimmingSm>`
+- `<$PersonSwimmingMd>`
+- `<$PersonSwimmingLg>`
+
+
+
+
 
 ## PersonSwimming
 

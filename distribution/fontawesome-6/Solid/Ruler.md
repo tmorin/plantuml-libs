@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Ruler')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RulerXs>`
+- `<$RulerSm>`
+- `<$RulerMd>`
+- `<$RulerLg>`
+
+
+
+
 
 ## Ruler
 

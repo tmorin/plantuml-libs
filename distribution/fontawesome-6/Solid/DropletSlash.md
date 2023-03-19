@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/DropletSlash')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DropletSlashXs>`
+- `<$DropletSlashSm>`
+- `<$DropletSlashMd>`
+- `<$DropletSlashLg>`
+
+
+
+
 
 ## DropletSlash
 

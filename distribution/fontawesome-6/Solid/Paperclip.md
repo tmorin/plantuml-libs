@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Paperclip')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PaperclipXs>`
+- `<$PaperclipSm>`
+- `<$PaperclipMd>`
+- `<$PaperclipLg>`
+
+
+
+
 
 ## Paperclip
 

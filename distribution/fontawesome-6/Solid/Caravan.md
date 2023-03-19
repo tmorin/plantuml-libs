@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Caravan')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CaravanXs>`
+- `<$CaravanSm>`
+- `<$CaravanMd>`
+- `<$CaravanLg>`
+
+
+
+
 
 ## Caravan
 

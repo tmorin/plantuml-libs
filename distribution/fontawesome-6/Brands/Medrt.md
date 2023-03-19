@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Medrt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MedrtXs>`
+- `<$MedrtSm>`
+- `<$MedrtMd>`
+- `<$MedrtLg>`
+
+
+
+
 
 ## Medrt
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CalendarDay')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CalendarDayXs>`
+- `<$CalendarDaySm>`
+- `<$CalendarDayMd>`
+- `<$CalendarDayLg>`
+
+
+
+
 
 ## CalendarDay
 

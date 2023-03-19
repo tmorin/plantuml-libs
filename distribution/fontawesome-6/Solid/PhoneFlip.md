@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PhoneFlip')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PhoneFlipXs>`
+- `<$PhoneFlipSm>`
+- `<$PhoneFlipMd>`
+- `<$PhoneFlipLg>`
+
+
+
+
 
 ## PhoneFlip
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/VolumeHigh')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VolumeHighXs>`
+- `<$VolumeHighSm>`
+- `<$VolumeHighMd>`
+- `<$VolumeHighLg>`
+
+
+
+
 
 ## VolumeHigh
 

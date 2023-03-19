@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/GroupArrowsRotate')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GroupArrowsRotateXs>`
+- `<$GroupArrowsRotateSm>`
+- `<$GroupArrowsRotateMd>`
+- `<$GroupArrowsRotateLg>`
+
+
+
+
 
 ## GroupArrowsRotate
 

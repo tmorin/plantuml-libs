@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/SolarPanel')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SolarPanelXs>`
+- `<$SolarPanelSm>`
+- `<$SolarPanelMd>`
+- `<$SolarPanelLg>`
+
+
+
+
 
 ## SolarPanel
 

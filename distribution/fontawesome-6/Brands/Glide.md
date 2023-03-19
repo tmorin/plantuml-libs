@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Glide')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GlideXs>`
+- `<$GlideSm>`
+- `<$GlideMd>`
+- `<$GlideLg>`
+
+
+
+
 
 ## Glide
 

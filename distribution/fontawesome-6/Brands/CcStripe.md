@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/CcStripe')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CcStripeXs>`
+- `<$CcStripeSm>`
+- `<$CcStripeMd>`
+- `<$CcStripeLg>`
+
+
+
+
 
 ## CcStripe
 

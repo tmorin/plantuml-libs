@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Vuejs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VuejsXs>`
+- `<$VuejsSm>`
+- `<$VuejsMd>`
+- `<$VuejsLg>`
+
+
+
+
 
 ## Vuejs
 

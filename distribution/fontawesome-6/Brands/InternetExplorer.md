@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/InternetExplorer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InternetExplorerXs>`
+- `<$InternetExplorerSm>`
+- `<$InternetExplorerMd>`
+- `<$InternetExplorerLg>`
+
+
+
+
 
 ## InternetExplorer
 

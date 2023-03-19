@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/Folder')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FolderXs>`
+- `<$FolderSm>`
+- `<$FolderMd>`
+- `<$FolderLg>`
+
+
+
+
 
 ## Folder
 

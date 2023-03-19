@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ArrowRightLong')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ArrowRightLongXs>`
+- `<$ArrowRightLongSm>`
+- `<$ArrowRightLongMd>`
+- `<$ArrowRightLongLg>`
+
+
+
+
 
 ## ArrowRightLong
 

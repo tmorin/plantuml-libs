@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/SchoolCircleXmark')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SchoolCircleXmarkXs>`
+- `<$SchoolCircleXmarkSm>`
+- `<$SchoolCircleXmarkMd>`
+- `<$SchoolCircleXmarkLg>`
+
+
+
+
 
 ## SchoolCircleXmark
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/SquareRootVariable')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquareRootVariableXs>`
+- `<$SquareRootVariableSm>`
+- `<$SquareRootVariableMd>`
+- `<$SquareRootVariableLg>`
+
+
+
+
 
 ## SquareRootVariable
 

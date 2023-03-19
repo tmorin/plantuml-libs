@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BridgeWater')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BridgeWaterXs>`
+- `<$BridgeWaterSm>`
+- `<$BridgeWaterMd>`
+- `<$BridgeWaterLg>`
+
+
+
+
 
 ## BridgeWater
 

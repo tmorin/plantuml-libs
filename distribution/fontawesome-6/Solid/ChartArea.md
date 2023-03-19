@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ChartArea')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChartAreaXs>`
+- `<$ChartAreaSm>`
+- `<$ChartAreaMd>`
+- `<$ChartAreaLg>`
+
+
+
+
 
 ## ChartArea
 

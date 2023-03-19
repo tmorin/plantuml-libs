@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Icicles')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IciclesXs>`
+- `<$IciclesSm>`
+- `<$IciclesMd>`
+- `<$IciclesLg>`
+
+
+
+
 
 ## Icicles
 

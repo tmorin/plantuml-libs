@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Calculator')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CalculatorXs>`
+- `<$CalculatorSm>`
+- `<$CalculatorMd>`
+- `<$CalculatorLg>`
+
+
+
+
 
 ## Calculator
 

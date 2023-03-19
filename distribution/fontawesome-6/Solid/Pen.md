@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Pen')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PenXs>`
+- `<$PenSm>`
+- `<$PenMd>`
+- `<$PenLg>`
+
+
+
+
 
 ## Pen
 

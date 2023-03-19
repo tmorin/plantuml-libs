@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/FacebookMessenger')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FacebookMessengerXs>`
+- `<$FacebookMessengerSm>`
+- `<$FacebookMessengerMd>`
+- `<$FacebookMessengerLg>`
+
+
+
+
 
 ## FacebookMessenger
 

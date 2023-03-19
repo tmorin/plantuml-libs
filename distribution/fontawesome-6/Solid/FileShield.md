@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/FileShield')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FileShieldXs>`
+- `<$FileShieldSm>`
+- `<$FileShieldMd>`
+- `<$FileShieldLg>`
+
+
+
+
 
 ## FileShield
 

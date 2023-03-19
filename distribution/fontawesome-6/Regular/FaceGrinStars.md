@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/FaceGrinStars')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FaceGrinStarsXs>`
+- `<$FaceGrinStarsSm>`
+- `<$FaceGrinStarsMd>`
+- `<$FaceGrinStarsLg>`
+
+
+
+
 
 ## FaceGrinStars
 

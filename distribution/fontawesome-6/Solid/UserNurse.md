@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/UserNurse')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UserNurseXs>`
+- `<$UserNurseSm>`
+- `<$UserNurseMd>`
+- `<$UserNurseLg>`
+
+
+
+
 
 ## UserNurse
 

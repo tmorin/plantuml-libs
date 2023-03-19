@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/MartiniGlassEmpty')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MartiniGlassEmptyXs>`
+- `<$MartiniGlassEmptySm>`
+- `<$MartiniGlassEmptyMd>`
+- `<$MartiniGlassEmptyLg>`
+
+
+
+
 
 ## MartiniGlassEmpty
 

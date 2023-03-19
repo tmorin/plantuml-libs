@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/FlagUsa')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FlagUsaXs>`
+- `<$FlagUsaSm>`
+- `<$FlagUsaMd>`
+- `<$FlagUsaLg>`
+
+
+
+
 
 ## FlagUsa
 

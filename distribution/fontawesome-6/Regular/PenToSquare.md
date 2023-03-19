@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/PenToSquare')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PenToSquareXs>`
+- `<$PenToSquareSm>`
+- `<$PenToSquareMd>`
+- `<$PenToSquareLg>`
+
+
+
+
 
 ## PenToSquare
 

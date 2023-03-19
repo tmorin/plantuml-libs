@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Aws')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsXs>`
+- `<$AwsSm>`
+- `<$AwsMd>`
+- `<$AwsLg>`
+
+
+
+
 
 ## Aws
 

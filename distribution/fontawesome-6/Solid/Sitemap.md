@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Sitemap')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SitemapXs>`
+- `<$SitemapSm>`
+- `<$SitemapMd>`
+- `<$SitemapLg>`
+
+
+
+
 
 ## Sitemap
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Wordpress')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WordpressXs>`
+- `<$WordpressSm>`
+- `<$WordpressMd>`
+- `<$WordpressLg>`
+
+
+
+
 
 ## Wordpress
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/RupiahSign')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RupiahSignXs>`
+- `<$RupiahSignSm>`
+- `<$RupiahSignMd>`
+- `<$RupiahSignLg>`
+
+
+
+
 
 ## RupiahSign
 

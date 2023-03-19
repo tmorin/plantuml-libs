@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Blackberry')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BlackberryXs>`
+- `<$BlackberrySm>`
+- `<$BlackberryMd>`
+- `<$BlackberryLg>`
+
+
+
+
 
 ## Blackberry
 

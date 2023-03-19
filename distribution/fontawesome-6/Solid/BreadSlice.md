@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BreadSlice')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BreadSliceXs>`
+- `<$BreadSliceSm>`
+- `<$BreadSliceMd>`
+- `<$BreadSliceLg>`
+
+
+
+
 
 ## BreadSlice
 

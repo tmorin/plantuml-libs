@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Ello')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ElloXs>`
+- `<$ElloSm>`
+- `<$ElloMd>`
+- `<$ElloLg>`
+
+
+
+
 
 ## Ello
 

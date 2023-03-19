@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/TicketSimple')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TicketSimpleXs>`
+- `<$TicketSimpleSm>`
+- `<$TicketSimpleMd>`
+- `<$TicketSimpleLg>`
+
+
+
+
 
 ## TicketSimple
 

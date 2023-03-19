@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CakeCandles')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CakeCandlesXs>`
+- `<$CakeCandlesSm>`
+- `<$CakeCandlesMd>`
+- `<$CakeCandlesLg>`
+
+
+
+
 
 ## CakeCandles
 

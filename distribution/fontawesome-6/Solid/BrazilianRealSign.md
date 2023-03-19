@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BrazilianRealSign')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BrazilianRealSignXs>`
+- `<$BrazilianRealSignSm>`
+- `<$BrazilianRealSignMd>`
+- `<$BrazilianRealSignLg>`
+
+
+
+
 
 ## BrazilianRealSign
 

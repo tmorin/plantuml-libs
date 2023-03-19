@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PersonHiking')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PersonHikingXs>`
+- `<$PersonHikingSm>`
+- `<$PersonHikingMd>`
+- `<$PersonHikingLg>`
+
+
+
+
 
 ## PersonHiking
 

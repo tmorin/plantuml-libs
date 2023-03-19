@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/PhoenixSquadron')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PhoenixSquadronXs>`
+- `<$PhoenixSquadronSm>`
+- `<$PhoenixSquadronMd>`
+- `<$PhoenixSquadronLg>`
+
+
+
+
 
 ## PhoenixSquadron
 

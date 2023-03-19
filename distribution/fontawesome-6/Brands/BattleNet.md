@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/BattleNet')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BattleNetXs>`
+- `<$BattleNetSm>`
+- `<$BattleNetMd>`
+- `<$BattleNetLg>`
+
+
+
+
 
 ## BattleNet
 

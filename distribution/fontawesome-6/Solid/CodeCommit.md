@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CodeCommit')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CodeCommitXs>`
+- `<$CodeCommitSm>`
+- `<$CodeCommitMd>`
+- `<$CodeCommitLg>`
+
+
+
+
 
 ## CodeCommit
 

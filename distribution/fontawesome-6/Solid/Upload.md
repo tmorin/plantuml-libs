@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Upload')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UploadXs>`
+- `<$UploadSm>`
+- `<$UploadMd>`
+- `<$UploadLg>`
+
+
+
+
 
 ## Upload
 

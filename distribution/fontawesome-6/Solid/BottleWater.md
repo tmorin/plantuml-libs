@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BottleWater')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BottleWaterXs>`
+- `<$BottleWaterSm>`
+- `<$BottleWaterMd>`
+- `<$BottleWaterLg>`
+
+
+
+
 
 ## BottleWater
 

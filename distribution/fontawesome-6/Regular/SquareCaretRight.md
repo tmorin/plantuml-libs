@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/SquareCaretRight')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquareCaretRightXs>`
+- `<$SquareCaretRightSm>`
+- `<$SquareCaretRightMd>`
+- `<$SquareCaretRightLg>`
+
+
+
+
 
 ## SquareCaretRight
 

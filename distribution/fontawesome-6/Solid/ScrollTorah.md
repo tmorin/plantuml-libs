@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ScrollTorah')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ScrollTorahXs>`
+- `<$ScrollTorahSm>`
+- `<$ScrollTorahMd>`
+- `<$ScrollTorahLg>`
+
+
+
+
 
 ## ScrollTorah
 

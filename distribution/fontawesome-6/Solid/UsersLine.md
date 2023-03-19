@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/UsersLine')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UsersLineXs>`
+- `<$UsersLineSm>`
+- `<$UsersLineMd>`
+- `<$UsersLineLg>`
+
+
+
+
 
 ## UsersLine
 

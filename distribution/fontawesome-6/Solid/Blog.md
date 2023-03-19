@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Blog')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BlogXs>`
+- `<$BlogSm>`
+- `<$BlogMd>`
+- `<$BlogLg>`
+
+
+
+
 
 ## Blog
 

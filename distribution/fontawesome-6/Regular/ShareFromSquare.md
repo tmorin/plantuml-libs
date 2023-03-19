@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/ShareFromSquare')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShareFromSquareXs>`
+- `<$ShareFromSquareSm>`
+- `<$ShareFromSquareMd>`
+- `<$ShareFromSquareLg>`
+
+
+
+
 
 ## ShareFromSquare
 

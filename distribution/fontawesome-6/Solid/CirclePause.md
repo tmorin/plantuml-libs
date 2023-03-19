@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CirclePause')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CirclePauseXs>`
+- `<$CirclePauseSm>`
+- `<$CirclePauseMd>`
+- `<$CirclePauseLg>`
+
+
+
+
 
 ## CirclePause
 

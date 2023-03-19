@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Water')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WaterXs>`
+- `<$WaterSm>`
+- `<$WaterMd>`
+- `<$WaterLg>`
+
+
+
+
 
 ## Water
 

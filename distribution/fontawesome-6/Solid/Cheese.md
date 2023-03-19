@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Cheese')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CheeseXs>`
+- `<$CheeseSm>`
+- `<$CheeseMd>`
+- `<$CheeseLg>`
+
+
+
+
 
 ## Cheese
 

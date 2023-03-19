@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/CreativeCommonsNcJp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CreativeCommonsNcJpXs>`
+- `<$CreativeCommonsNcJpSm>`
+- `<$CreativeCommonsNcJpMd>`
+- `<$CreativeCommonsNcJpLg>`
+
+
+
+
 
 ## CreativeCommonsNcJp
 

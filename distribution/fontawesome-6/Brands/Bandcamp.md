@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Bandcamp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BandcampXs>`
+- `<$BandcampSm>`
+- `<$BandcampMd>`
+- `<$BandcampLg>`
+
+
+
+
 
 ## Bandcamp
 

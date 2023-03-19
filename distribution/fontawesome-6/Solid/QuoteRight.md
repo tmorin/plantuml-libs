@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/QuoteRight')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$QuoteRightXs>`
+- `<$QuoteRightSm>`
+- `<$QuoteRightMd>`
+- `<$QuoteRightLg>`
+
+
+
+
 
 ## QuoteRight
 

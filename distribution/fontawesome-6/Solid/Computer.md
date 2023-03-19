@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Computer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ComputerXs>`
+- `<$ComputerSm>`
+- `<$ComputerMd>`
+- `<$ComputerLg>`
+
+
+
+
 
 ## Computer
 

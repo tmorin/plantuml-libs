@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/FaceGrin')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FaceGrinXs>`
+- `<$FaceGrinSm>`
+- `<$FaceGrinMd>`
+- `<$FaceGrinLg>`
+
+
+
+
 
 ## FaceGrin
 

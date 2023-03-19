@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Stubber')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StubberXs>`
+- `<$StubberSm>`
+- `<$StubberMd>`
+- `<$StubberLg>`
+
+
+
+
 
 ## Stubber
 

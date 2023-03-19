@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ArrowTurnUp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ArrowTurnUpXs>`
+- `<$ArrowTurnUpSm>`
+- `<$ArrowTurnUpMd>`
+- `<$ArrowTurnUpLg>`
+
+
+
+
 
 ## ArrowTurnUp
 

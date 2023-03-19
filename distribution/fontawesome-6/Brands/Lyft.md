@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Lyft')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LyftXs>`
+- `<$LyftSm>`
+- `<$LyftMd>`
+- `<$LyftLg>`
+
+
+
+
 
 ## Lyft
 

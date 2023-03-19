@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HandHoldingHeart')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HandHoldingHeartXs>`
+- `<$HandHoldingHeartSm>`
+- `<$HandHoldingHeartMd>`
+- `<$HandHoldingHeartLg>`
+
+
+
+
 
 ## HandHoldingHeart
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Magnet')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MagnetXs>`
+- `<$MagnetSm>`
+- `<$MagnetMd>`
+- `<$MagnetLg>`
+
+
+
+
 
 ## Magnet
 

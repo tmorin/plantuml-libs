@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BoxOpen')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BoxOpenXs>`
+- `<$BoxOpenSm>`
+- `<$BoxOpenMd>`
+- `<$BoxOpenLg>`
+
+
+
+
 
 ## BoxOpen
 

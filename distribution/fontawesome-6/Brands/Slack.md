@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Slack')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SlackXs>`
+- `<$SlackSm>`
+- `<$SlackMd>`
+- `<$SlackLg>`
+
+
+
+
 
 ## Slack
 

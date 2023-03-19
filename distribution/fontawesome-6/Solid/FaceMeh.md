@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/FaceMeh')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FaceMehXs>`
+- `<$FaceMehSm>`
+- `<$FaceMehMd>`
+- `<$FaceMehLg>`
+
+
+
+
 
 ## FaceMeh
 

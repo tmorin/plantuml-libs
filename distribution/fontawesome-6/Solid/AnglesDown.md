@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/AnglesDown')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AnglesDownXs>`
+- `<$AnglesDownSm>`
+- `<$AnglesDownMd>`
+- `<$AnglesDownLg>`
+
+
+
+
 
 ## AnglesDown
 

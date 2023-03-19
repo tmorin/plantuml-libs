@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BowlRice')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BowlRiceXs>`
+- `<$BowlRiceSm>`
+- `<$BowlRiceMd>`
+- `<$BowlRiceLg>`
+
+
+
+
 
 ## BowlRice
 

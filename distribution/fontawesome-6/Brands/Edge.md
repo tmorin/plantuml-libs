@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Edge')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EdgeXs>`
+- `<$EdgeSm>`
+- `<$EdgeMd>`
+- `<$EdgeLg>`
+
+
+
+
 
 ## Edge
 

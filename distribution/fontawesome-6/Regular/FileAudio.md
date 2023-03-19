@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/FileAudio')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FileAudioXs>`
+- `<$FileAudioSm>`
+- `<$FileAudioMd>`
+- `<$FileAudioLg>`
+
+
+
+
 
 ## FileAudio
 

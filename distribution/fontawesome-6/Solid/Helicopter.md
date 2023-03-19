@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Helicopter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HelicopterXs>`
+- `<$HelicopterSm>`
+- `<$HelicopterMd>`
+- `<$HelicopterLg>`
+
+
+
+
 
 ## Helicopter
 

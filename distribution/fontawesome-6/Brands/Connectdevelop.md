@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Connectdevelop')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ConnectdevelopXs>`
+- `<$ConnectdevelopSm>`
+- `<$ConnectdevelopMd>`
+- `<$ConnectdevelopLg>`
+
+
+
+
 
 ## Connectdevelop
 

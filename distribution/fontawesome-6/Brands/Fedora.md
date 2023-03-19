@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Fedora')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FedoraXs>`
+- `<$FedoraSm>`
+- `<$FedoraMd>`
+- `<$FedoraLg>`
+
+
+
+
 
 ## Fedora
 

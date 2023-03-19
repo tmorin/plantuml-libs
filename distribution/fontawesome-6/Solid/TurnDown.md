@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/TurnDown')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TurnDownXs>`
+- `<$TurnDownSm>`
+- `<$TurnDownMd>`
+- `<$TurnDownLg>`
+
+
+
+
 
 ## TurnDown
 

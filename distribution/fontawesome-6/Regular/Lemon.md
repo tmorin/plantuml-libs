@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/Lemon')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LemonXs>`
+- `<$LemonSm>`
+- `<$LemonMd>`
+- `<$LemonLg>`
+
+
+
+
 
 ## Lemon
 

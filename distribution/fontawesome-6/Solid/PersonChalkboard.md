@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PersonChalkboard')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PersonChalkboardXs>`
+- `<$PersonChalkboardSm>`
+- `<$PersonChalkboardMd>`
+- `<$PersonChalkboardLg>`
+
+
+
+
 
 ## PersonChalkboard
 

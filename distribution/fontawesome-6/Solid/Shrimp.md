@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Shrimp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShrimpXs>`
+- `<$ShrimpSm>`
+- `<$ShrimpMd>`
+- `<$ShrimpLg>`
+
+
+
+
 
 ## Shrimp
 

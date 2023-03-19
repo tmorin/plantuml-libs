@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Skull')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SkullXs>`
+- `<$SkullSm>`
+- `<$SkullMd>`
+- `<$SkullLg>`
+
+
+
+
 
 ## Skull
 

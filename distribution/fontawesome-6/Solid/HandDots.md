@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HandDots')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HandDotsXs>`
+- `<$HandDotsSm>`
+- `<$HandDotsMd>`
+- `<$HandDotsLg>`
+
+
+
+
 
 ## HandDots
 

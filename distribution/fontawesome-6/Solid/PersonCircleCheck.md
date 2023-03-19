@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PersonCircleCheck')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PersonCircleCheckXs>`
+- `<$PersonCircleCheckSm>`
+- `<$PersonCircleCheckMd>`
+- `<$PersonCircleCheckLg>`
+
+
+
+
 
 ## PersonCircleCheck
 

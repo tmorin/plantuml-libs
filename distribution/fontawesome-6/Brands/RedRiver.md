@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/RedRiver')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RedRiverXs>`
+- `<$RedRiverSm>`
+- `<$RedRiverMd>`
+- `<$RedRiverLg>`
+
+
+
+
 
 ## RedRiver
 

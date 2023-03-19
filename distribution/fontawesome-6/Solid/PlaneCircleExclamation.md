@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PlaneCircleExclamation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PlaneCircleExclamationXs>`
+- `<$PlaneCircleExclamationSm>`
+- `<$PlaneCircleExclamationMd>`
+- `<$PlaneCircleExclamationLg>`
+
+
+
+
 
 ## PlaneCircleExclamation
 

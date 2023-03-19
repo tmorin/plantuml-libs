@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/CreditCard')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CreditCardXs>`
+- `<$CreditCardSm>`
+- `<$CreditCardMd>`
+- `<$CreditCardLg>`
+
+
+
+
 
 ## CreditCard
 

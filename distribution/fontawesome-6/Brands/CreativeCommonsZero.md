@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/CreativeCommonsZero')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CreativeCommonsZeroXs>`
+- `<$CreativeCommonsZeroSm>`
+- `<$CreativeCommonsZeroMd>`
+- `<$CreativeCommonsZeroLg>`
+
+
+
+
 
 ## CreativeCommonsZero
 

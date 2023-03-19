@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Skyatlas')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SkyatlasXs>`
+- `<$SkyatlasSm>`
+- `<$SkyatlasMd>`
+- `<$SkyatlasLg>`
+
+
+
+
 
 ## Skyatlas
 

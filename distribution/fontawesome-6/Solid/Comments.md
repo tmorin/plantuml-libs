@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Comments')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CommentsXs>`
+- `<$CommentsSm>`
+- `<$CommentsMd>`
+- `<$CommentsLg>`
+
+
+
+
 
 ## Comments
 

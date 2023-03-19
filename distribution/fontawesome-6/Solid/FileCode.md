@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/FileCode')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FileCodeXs>`
+- `<$FileCodeSm>`
+- `<$FileCodeMd>`
+- `<$FileCodeLg>`
+
+
+
+
 
 ## FileCode
 

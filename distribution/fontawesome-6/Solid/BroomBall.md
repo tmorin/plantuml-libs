@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BroomBall')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BroomBallXs>`
+- `<$BroomBallSm>`
+- `<$BroomBallMd>`
+- `<$BroomBallLg>`
+
+
+
+
 
 ## BroomBall
 

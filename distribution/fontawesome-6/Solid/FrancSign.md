@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/FrancSign')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FrancSignXs>`
+- `<$FrancSignSm>`
+- `<$FrancSignMd>`
+- `<$FrancSignLg>`
+
+
+
+
 
 ## FrancSign
 

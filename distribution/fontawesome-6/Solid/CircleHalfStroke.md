@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CircleHalfStroke')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CircleHalfStrokeXs>`
+- `<$CircleHalfStrokeSm>`
+- `<$CircleHalfStrokeMd>`
+- `<$CircleHalfStrokeLg>`
+
+
+
+
 
 ## CircleHalfStroke
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CodeMerge')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CodeMergeXs>`
+- `<$CodeMergeSm>`
+- `<$CodeMergeMd>`
+- `<$CodeMergeLg>`
+
+
+
+
 
 ## CodeMerge
 

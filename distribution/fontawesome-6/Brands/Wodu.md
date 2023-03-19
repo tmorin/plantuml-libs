@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Wodu')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WoduXs>`
+- `<$WoduSm>`
+- `<$WoduMd>`
+- `<$WoduLg>`
+
+
+
+
 
 ## Wodu
 

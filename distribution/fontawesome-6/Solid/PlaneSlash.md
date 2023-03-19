@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PlaneSlash')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PlaneSlashXs>`
+- `<$PlaneSlashSm>`
+- `<$PlaneSlashMd>`
+- `<$PlaneSlashLg>`
+
+
+
+
 
 ## PlaneSlash
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Playstation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PlaystationXs>`
+- `<$PlaystationSm>`
+- `<$PlaystationMd>`
+- `<$PlaystationLg>`
+
+
+
+
 
 ## Playstation
 

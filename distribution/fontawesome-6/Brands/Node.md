@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Node')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NodeXs>`
+- `<$NodeSm>`
+- `<$NodeMd>`
+- `<$NodeLg>`
+
+
+
+
 
 ## Node
 

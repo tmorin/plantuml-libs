@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CartFlatbed')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CartFlatbedXs>`
+- `<$CartFlatbedSm>`
+- `<$CartFlatbedMd>`
+- `<$CartFlatbedLg>`
+
+
+
+
 
 ## CartFlatbed
 

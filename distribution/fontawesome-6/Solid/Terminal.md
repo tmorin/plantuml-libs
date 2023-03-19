@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Terminal')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TerminalXs>`
+- `<$TerminalSm>`
+- `<$TerminalMd>`
+- `<$TerminalLg>`
+
+
+
+
 
 ## Terminal
 

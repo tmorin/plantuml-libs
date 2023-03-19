@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CircleArrowRight')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CircleArrowRightXs>`
+- `<$CircleArrowRightSm>`
+- `<$CircleArrowRightMd>`
+- `<$CircleArrowRightLg>`
+
+
+
+
 
 ## CircleArrowRight
 

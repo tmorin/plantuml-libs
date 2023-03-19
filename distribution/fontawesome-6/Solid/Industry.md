@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Industry')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IndustryXs>`
+- `<$IndustrySm>`
+- `<$IndustryMd>`
+- `<$IndustryLg>`
+
+
+
+
 
 ## Industry
 

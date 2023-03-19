@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/MoneyCheck')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MoneyCheckXs>`
+- `<$MoneyCheckSm>`
+- `<$MoneyCheckMd>`
+- `<$MoneyCheckLg>`
+
+
+
+
 
 ## MoneyCheck
 

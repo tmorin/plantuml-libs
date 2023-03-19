@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PlaneCircleCheck')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PlaneCircleCheckXs>`
+- `<$PlaneCircleCheckSm>`
+- `<$PlaneCircleCheckMd>`
+- `<$PlaneCircleCheckLg>`
+
+
+
+
 
 ## PlaneCircleCheck
 

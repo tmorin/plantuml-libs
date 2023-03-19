@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/RectangleAd')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RectangleAdXs>`
+- `<$RectangleAdSm>`
+- `<$RectangleAdMd>`
+- `<$RectangleAdLg>`
+
+
+
+
 
 ## RectangleAd
 

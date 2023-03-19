@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ChessKing')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChessKingXs>`
+- `<$ChessKingSm>`
+- `<$ChessKingMd>`
+- `<$ChessKingLg>`
+
+
+
+
 
 ## ChessKing
 

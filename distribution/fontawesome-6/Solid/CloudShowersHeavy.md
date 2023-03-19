@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CloudShowersHeavy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudShowersHeavyXs>`
+- `<$CloudShowersHeavySm>`
+- `<$CloudShowersHeavyMd>`
+- `<$CloudShowersHeavyLg>`
+
+
+
+
 
 ## CloudShowersHeavy
 

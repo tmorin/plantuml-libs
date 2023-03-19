@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Panorama')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PanoramaXs>`
+- `<$PanoramaSm>`
+- `<$PanoramaMd>`
+- `<$PanoramaLg>`
+
+
+
+
 
 ## Panorama
 

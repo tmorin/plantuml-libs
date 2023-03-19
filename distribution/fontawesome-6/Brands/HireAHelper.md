@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/HireAHelper')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HireAHelperXs>`
+- `<$HireAHelperSm>`
+- `<$HireAHelperMd>`
+- `<$HireAHelperLg>`
+
+
+
+
 
 ## HireAHelper
 

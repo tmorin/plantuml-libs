@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PepperHot')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PepperHotXs>`
+- `<$PepperHotSm>`
+- `<$PepperHotMd>`
+- `<$PepperHotLg>`
+
+
+
+
 
 ## PepperHot
 

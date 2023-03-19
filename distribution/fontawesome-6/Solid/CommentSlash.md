@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CommentSlash')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CommentSlashXs>`
+- `<$CommentSlashSm>`
+- `<$CommentSlashMd>`
+- `<$CommentSlashLg>`
+
+
+
+
 
 ## CommentSlash
 

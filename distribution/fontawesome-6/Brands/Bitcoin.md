@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Bitcoin')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BitcoinXs>`
+- `<$BitcoinSm>`
+- `<$BitcoinMd>`
+- `<$BitcoinLg>`
+
+
+
+
 
 ## Bitcoin
 

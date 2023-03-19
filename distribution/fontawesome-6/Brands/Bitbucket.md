@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Bitbucket')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BitbucketXs>`
+- `<$BitbucketSm>`
+- `<$BitbucketMd>`
+- `<$BitbucketLg>`
+
+
+
+
 
 ## Bitbucket
 

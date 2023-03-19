@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BlenderPhone')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BlenderPhoneXs>`
+- `<$BlenderPhoneSm>`
+- `<$BlenderPhoneMd>`
+- `<$BlenderPhoneLg>`
+
+
+
+
 
 ## BlenderPhone
 

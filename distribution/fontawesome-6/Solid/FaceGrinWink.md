@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/FaceGrinWink')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FaceGrinWinkXs>`
+- `<$FaceGrinWinkSm>`
+- `<$FaceGrinWinkMd>`
+- `<$FaceGrinWinkLg>`
+
+
+
+
 
 ## FaceGrinWink
 

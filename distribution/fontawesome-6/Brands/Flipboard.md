@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Flipboard')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FlipboardXs>`
+- `<$FlipboardSm>`
+- `<$FlipboardMd>`
+- `<$FlipboardLg>`
+
+
+
+
 
 ## Flipboard
 

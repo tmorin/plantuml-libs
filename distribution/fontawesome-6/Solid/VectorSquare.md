@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/VectorSquare')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VectorSquareXs>`
+- `<$VectorSquareSm>`
+- `<$VectorSquareMd>`
+- `<$VectorSquareLg>`
+
+
+
+
 
 ## VectorSquare
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Imdb')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ImdbXs>`
+- `<$ImdbSm>`
+- `<$ImdbMd>`
+- `<$ImdbLg>`
+
+
+
+
 
 ## Imdb
 

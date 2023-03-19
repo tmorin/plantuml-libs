@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Volleyball')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VolleyballXs>`
+- `<$VolleyballSm>`
+- `<$VolleyballMd>`
+- `<$VolleyballLg>`
+
+
+
+
 
 ## Volleyball
 

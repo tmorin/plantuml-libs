@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Waze')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WazeXs>`
+- `<$WazeSm>`
+- `<$WazeMd>`
+- `<$WazeLg>`
+
+
+
+
 
 ## Waze
 

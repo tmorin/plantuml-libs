@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/GalacticRepublic')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GalacticRepublicXs>`
+- `<$GalacticRepublicSm>`
+- `<$GalacticRepublicMd>`
+- `<$GalacticRepublicLg>`
+
+
+
+
 
 ## GalacticRepublic
 

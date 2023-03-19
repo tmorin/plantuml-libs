@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Angular')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AngularXs>`
+- `<$AngularSm>`
+- `<$AngularMd>`
+- `<$AngularLg>`
+
+
+
+
 
 ## Angular
 

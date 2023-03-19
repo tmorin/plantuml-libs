@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ArrowDownUpLock')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ArrowDownUpLockXs>`
+- `<$ArrowDownUpLockSm>`
+- `<$ArrowDownUpLockMd>`
+- `<$ArrowDownUpLockLg>`
+
+
+
+
 
 ## ArrowDownUpLock
 

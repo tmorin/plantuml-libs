@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/RulerHorizontal')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RulerHorizontalXs>`
+- `<$RulerHorizontalSm>`
+- `<$RulerHorizontalMd>`
+- `<$RulerHorizontalLg>`
+
+
+
+
 
 ## RulerHorizontal
 

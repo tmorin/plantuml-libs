@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/UpRightFromSquare')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UpRightFromSquareXs>`
+- `<$UpRightFromSquareSm>`
+- `<$UpRightFromSquareMd>`
+- `<$UpRightFromSquareLg>`
+
+
+
+
 
 ## UpRightFromSquare
 

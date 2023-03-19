@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/SackDollar')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SackDollarXs>`
+- `<$SackDollarSm>`
+- `<$SackDollarMd>`
+- `<$SackDollarLg>`
+
+
+
+
 
 ## SackDollar
 

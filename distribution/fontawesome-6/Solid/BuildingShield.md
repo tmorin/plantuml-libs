@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BuildingShield')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BuildingShieldXs>`
+- `<$BuildingShieldSm>`
+- `<$BuildingShieldMd>`
+- `<$BuildingShieldLg>`
+
+
+
+
 
 ## BuildingShield
 

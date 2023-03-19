@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Itunes')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ItunesXs>`
+- `<$ItunesSm>`
+- `<$ItunesMd>`
+- `<$ItunesLg>`
+
+
+
+
 
 ## Itunes
 

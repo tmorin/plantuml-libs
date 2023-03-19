@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/FileVideo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FileVideoXs>`
+- `<$FileVideoSm>`
+- `<$FileVideoMd>`
+- `<$FileVideoLg>`
+
+
+
+
 
 ## FileVideo
 

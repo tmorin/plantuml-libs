@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ArrowRightFromBracket')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ArrowRightFromBracketXs>`
+- `<$ArrowRightFromBracketSm>`
+- `<$ArrowRightFromBracketMd>`
+- `<$ArrowRightFromBracketLg>`
+
+
+
+
 
 ## ArrowRightFromBracket
 

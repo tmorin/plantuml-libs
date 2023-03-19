@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PiggyBank')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PiggyBankXs>`
+- `<$PiggyBankSm>`
+- `<$PiggyBankMd>`
+- `<$PiggyBankLg>`
+
+
+
+
 
 ## PiggyBank
 

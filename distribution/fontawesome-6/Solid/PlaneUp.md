@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PlaneUp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PlaneUpXs>`
+- `<$PlaneUpSm>`
+- `<$PlaneUpMd>`
+- `<$PlaneUpLg>`
+
+
+
+
 
 ## PlaneUp
 

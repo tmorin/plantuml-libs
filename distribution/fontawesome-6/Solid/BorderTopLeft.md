@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BorderTopLeft')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BorderTopLeftXs>`
+- `<$BorderTopLeftSm>`
+- `<$BorderTopLeftMd>`
+- `<$BorderTopLeftLg>`
+
+
+
+
 
 ## BorderTopLeft
 

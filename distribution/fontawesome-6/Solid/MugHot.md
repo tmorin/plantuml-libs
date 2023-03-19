@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/MugHot')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MugHotXs>`
+- `<$MugHotSm>`
+- `<$MugHotMd>`
+- `<$MugHotLg>`
+
+
+
+
 
 ## MugHot
 

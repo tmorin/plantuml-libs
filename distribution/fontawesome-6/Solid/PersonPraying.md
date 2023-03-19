@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PersonPraying')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PersonPrayingXs>`
+- `<$PersonPrayingSm>`
+- `<$PersonPrayingMd>`
+- `<$PersonPrayingLg>`
+
+
+
+
 
 ## PersonPraying
 

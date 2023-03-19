@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/SquareShareNodes')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquareShareNodesXs>`
+- `<$SquareShareNodesSm>`
+- `<$SquareShareNodesMd>`
+- `<$SquareShareNodesLg>`
+
+
+
+
 
 ## SquareShareNodes
 

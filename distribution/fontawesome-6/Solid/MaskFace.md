@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/MaskFace')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MaskFaceXs>`
+- `<$MaskFaceSm>`
+- `<$MaskFaceMd>`
+- `<$MaskFaceLg>`
+
+
+
+
 
 ## MaskFace
 

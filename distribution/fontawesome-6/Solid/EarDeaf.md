@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/EarDeaf')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EarDeafXs>`
+- `<$EarDeafSm>`
+- `<$EarDeafMd>`
+- `<$EarDeafLg>`
+
+
+
+
 
 ## EarDeaf
 

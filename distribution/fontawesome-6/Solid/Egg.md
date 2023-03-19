@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Egg')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EggXs>`
+- `<$EggSm>`
+- `<$EggMd>`
+- `<$EggLg>`
+
+
+
+
 
 ## Egg
 

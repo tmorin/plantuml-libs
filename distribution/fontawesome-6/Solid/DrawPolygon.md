@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/DrawPolygon')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DrawPolygonXs>`
+- `<$DrawPolygonSm>`
+- `<$DrawPolygonMd>`
+- `<$DrawPolygonLg>`
+
+
+
+
 
 ## DrawPolygon
 

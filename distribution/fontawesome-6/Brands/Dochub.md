@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Dochub')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DochubXs>`
+- `<$DochubSm>`
+- `<$DochubMd>`
+- `<$DochubLg>`
+
+
+
+
 
 ## Dochub
 

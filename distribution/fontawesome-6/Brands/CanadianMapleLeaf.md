@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/CanadianMapleLeaf')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CanadianMapleLeafXs>`
+- `<$CanadianMapleLeafSm>`
+- `<$CanadianMapleLeafMd>`
+- `<$CanadianMapleLeafLg>`
+
+
+
+
 
 ## CanadianMapleLeaf
 

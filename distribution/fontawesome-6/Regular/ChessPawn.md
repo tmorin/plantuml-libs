@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/ChessPawn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChessPawnXs>`
+- `<$ChessPawnSm>`
+- `<$ChessPawnMd>`
+- `<$ChessPawnLg>`
+
+
+
+
 
 ## ChessPawn
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/DiceOne')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DiceOneXs>`
+- `<$DiceOneSm>`
+- `<$DiceOneMd>`
+- `<$DiceOneLg>`
+
+
+
+
 
 ## DiceOne
 

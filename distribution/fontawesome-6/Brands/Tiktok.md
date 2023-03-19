@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Tiktok')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TiktokXs>`
+- `<$TiktokSm>`
+- `<$TiktokMd>`
+- `<$TiktokLg>`
+
+
+
+
 
 ## Tiktok
 

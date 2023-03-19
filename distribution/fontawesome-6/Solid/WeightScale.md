@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/WeightScale')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WeightScaleXs>`
+- `<$WeightScaleSm>`
+- `<$WeightScaleMd>`
+- `<$WeightScaleLg>`
+
+
+
+
 
 ## WeightScale
 

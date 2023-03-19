@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/LiraSign')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LiraSignXs>`
+- `<$LiraSignSm>`
+- `<$LiraSignMd>`
+- `<$LiraSignLg>`
+
+
+
+
 
 ## LiraSign
 

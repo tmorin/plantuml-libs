@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HouseChimneyWindow')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HouseChimneyWindowXs>`
+- `<$HouseChimneyWindowSm>`
+- `<$HouseChimneyWindowMd>`
+- `<$HouseChimneyWindowLg>`
+
+
+
+
 
 ## HouseChimneyWindow
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ShieldHeart')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShieldHeartXs>`
+- `<$ShieldHeartSm>`
+- `<$ShieldHeartMd>`
+- `<$ShieldHeartLg>`
+
+
+
+
 
 ## ShieldHeart
 

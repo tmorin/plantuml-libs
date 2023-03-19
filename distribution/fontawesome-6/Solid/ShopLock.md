@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ShopLock')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShopLockXs>`
+- `<$ShopLockSm>`
+- `<$ShopLockMd>`
+- `<$ShopLockLg>`
+
+
+
+
 
 ## ShopLock
 

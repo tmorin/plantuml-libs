@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HouseLaptop')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HouseLaptopXs>`
+- `<$HouseLaptopSm>`
+- `<$HouseLaptopMd>`
+- `<$HouseLaptopLg>`
+
+
+
+
 
 ## HouseLaptop
 

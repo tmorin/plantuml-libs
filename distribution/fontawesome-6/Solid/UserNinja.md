@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/UserNinja')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UserNinjaXs>`
+- `<$UserNinjaSm>`
+- `<$UserNinjaMd>`
+- `<$UserNinjaLg>`
+
+
+
+
 
 ## UserNinja
 

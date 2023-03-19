@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/WindowMaximize')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WindowMaximizeXs>`
+- `<$WindowMaximizeSm>`
+- `<$WindowMaximizeMd>`
+- `<$WindowMaximizeLg>`
+
+
+
+
 
 ## WindowMaximize
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/UserLock')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UserLockXs>`
+- `<$UserLockSm>`
+- `<$UserLockMd>`
+- `<$UserLockLg>`
+
+
+
+
 
 ## UserLock
 

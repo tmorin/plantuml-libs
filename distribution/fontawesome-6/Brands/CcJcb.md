@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/CcJcb')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CcJcbXs>`
+- `<$CcJcbSm>`
+- `<$CcJcbMd>`
+- `<$CcJcbLg>`
+
+
+
+
 
 ## CcJcb
 

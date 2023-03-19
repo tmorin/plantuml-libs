@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/RightLong')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RightLongXs>`
+- `<$RightLongSm>`
+- `<$RightLongMd>`
+- `<$RightLongLg>`
+
+
+
+
 
 ## RightLong
 

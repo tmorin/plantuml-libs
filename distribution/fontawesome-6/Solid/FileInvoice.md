@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/FileInvoice')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FileInvoiceXs>`
+- `<$FileInvoiceSm>`
+- `<$FileInvoiceMd>`
+- `<$FileInvoiceLg>`
+
+
+
+
 
 ## FileInvoice
 

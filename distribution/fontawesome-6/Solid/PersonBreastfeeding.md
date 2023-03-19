@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PersonBreastfeeding')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PersonBreastfeedingXs>`
+- `<$PersonBreastfeedingSm>`
+- `<$PersonBreastfeedingMd>`
+- `<$PersonBreastfeedingLg>`
+
+
+
+
 
 ## PersonBreastfeeding
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/FaucetDrip')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FaucetDripXs>`
+- `<$FaucetDripSm>`
+- `<$FaucetDripMd>`
+- `<$FaucetDripLg>`
+
+
+
+
 
 ## FaucetDrip
 

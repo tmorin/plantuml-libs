@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Seedling')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SeedlingXs>`
+- `<$SeedlingSm>`
+- `<$SeedlingMd>`
+- `<$SeedlingLg>`
+
+
+
+
 
 ## Seedling
 

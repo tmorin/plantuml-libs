@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CommentSms')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CommentSmsXs>`
+- `<$CommentSmsSm>`
+- `<$CommentSmsMd>`
+- `<$CommentSmsLg>`
+
+
+
+
 
 ## CommentSms
 

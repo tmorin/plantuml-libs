@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Unsplash')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UnsplashXs>`
+- `<$UnsplashSm>`
+- `<$UnsplashMd>`
+- `<$UnsplashLg>`
+
+
+
+
 
 ## Unsplash
 

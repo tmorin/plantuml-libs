@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/GooglePlay')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GooglePlayXs>`
+- `<$GooglePlaySm>`
+- `<$GooglePlayMd>`
+- `<$GooglePlayLg>`
+
+
+
+
 
 ## GooglePlay
 

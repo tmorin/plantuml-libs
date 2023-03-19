@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Opencart')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OpencartXs>`
+- `<$OpencartSm>`
+- `<$OpencartMd>`
+- `<$OpencartLg>`
+
+
+
+
 
 ## Opencart
 

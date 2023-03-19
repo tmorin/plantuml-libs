@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CircleNodes')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CircleNodesXs>`
+- `<$CircleNodesSm>`
+- `<$CircleNodesMd>`
+- `<$CircleNodesLg>`
+
+
+
+
 
 ## CircleNodes
 

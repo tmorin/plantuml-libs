@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Stairs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StairsXs>`
+- `<$StairsSm>`
+- `<$StairsMd>`
+- `<$StairsLg>`
+
+
+
+
 
 ## Stairs
 

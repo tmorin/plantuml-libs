@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/UserTie')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UserTieXs>`
+- `<$UserTieSm>`
+- `<$UserTieMd>`
+- `<$UserTieLg>`
+
+
+
+
 
 ## UserTie
 

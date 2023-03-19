@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HryvniaSign')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HryvniaSignXs>`
+- `<$HryvniaSignSm>`
+- `<$HryvniaSignMd>`
+- `<$HryvniaSignLg>`
+
+
+
+
 
 ## HryvniaSign
 

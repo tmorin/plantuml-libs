@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CircleChevronLeft')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CircleChevronLeftXs>`
+- `<$CircleChevronLeftSm>`
+- `<$CircleChevronLeftMd>`
+- `<$CircleChevronLeftLg>`
+
+
+
+
 
 ## CircleChevronLeft
 

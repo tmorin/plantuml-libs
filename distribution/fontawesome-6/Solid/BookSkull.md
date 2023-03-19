@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BookSkull')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BookSkullXs>`
+- `<$BookSkullSm>`
+- `<$BookSkullMd>`
+- `<$BookSkullLg>`
+
+
+
+
 
 ## BookSkull
 

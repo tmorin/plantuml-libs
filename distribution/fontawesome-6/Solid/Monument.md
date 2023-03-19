@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Monument')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MonumentXs>`
+- `<$MonumentSm>`
+- `<$MonumentMd>`
+- `<$MonumentLg>`
+
+
+
+
 
 ## Monument
 

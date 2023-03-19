@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/EarthAsia')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EarthAsiaXs>`
+- `<$EarthAsiaSm>`
+- `<$EarthAsiaMd>`
+- `<$EarthAsiaLg>`
+
+
+
+
 
 ## EarthAsia
 

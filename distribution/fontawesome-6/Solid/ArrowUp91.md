@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ArrowUp91')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ArrowUp91Xs>`
+- `<$ArrowUp91Sm>`
+- `<$ArrowUp91Md>`
+- `<$ArrowUp91Lg>`
+
+
+
+
 
 ## ArrowUp91
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Vial')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VialXs>`
+- `<$VialSm>`
+- `<$VialMd>`
+- `<$VialLg>`
+
+
+
+
 
 ## Vial
 

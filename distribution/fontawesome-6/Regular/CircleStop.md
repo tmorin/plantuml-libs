@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/CircleStop')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CircleStopXs>`
+- `<$CircleStopSm>`
+- `<$CircleStopMd>`
+- `<$CircleStopLg>`
+
+
+
+
 
 ## CircleStop
 

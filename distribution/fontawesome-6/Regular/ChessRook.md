@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/ChessRook')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChessRookXs>`
+- `<$ChessRookSm>`
+- `<$ChessRookMd>`
+- `<$ChessRookLg>`
+
+
+
+
 
 ## ChessRook
 

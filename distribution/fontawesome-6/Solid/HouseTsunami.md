@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HouseTsunami')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HouseTsunamiXs>`
+- `<$HouseTsunamiSm>`
+- `<$HouseTsunamiMd>`
+- `<$HouseTsunamiLg>`
+
+
+
+
 
 ## HouseTsunami
 

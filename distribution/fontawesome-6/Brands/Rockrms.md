@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Rockrms')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RockrmsXs>`
+- `<$RockrmsSm>`
+- `<$RockrmsMd>`
+- `<$RockrmsLg>`
+
+
+
+
 
 ## Rockrms
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HouseMedicalCircleExclamation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HouseMedicalCircleExclamationXs>`
+- `<$HouseMedicalCircleExclamationSm>`
+- `<$HouseMedicalCircleExclamationMd>`
+- `<$HouseMedicalCircleExclamationLg>`
+
+
+
+
 
 ## HouseMedicalCircleExclamation
 

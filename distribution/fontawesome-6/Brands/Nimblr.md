@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Nimblr')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NimblrXs>`
+- `<$NimblrSm>`
+- `<$NimblrMd>`
+- `<$NimblrLg>`
+
+
+
+
 
 ## Nimblr
 

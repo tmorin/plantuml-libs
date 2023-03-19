@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Mix')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MixXs>`
+- `<$MixSm>`
+- `<$MixMd>`
+- `<$MixLg>`
+
+
+
+
 
 ## Mix
 

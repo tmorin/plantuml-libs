@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Dhl')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DhlXs>`
+- `<$DhlSm>`
+- `<$DhlMd>`
+- `<$DhlLg>`
+
+
+
+
 
 ## Dhl
 

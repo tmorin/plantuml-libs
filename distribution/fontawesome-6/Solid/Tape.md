@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Tape')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TapeXs>`
+- `<$TapeSm>`
+- `<$TapeMd>`
+- `<$TapeLg>`
+
+
+
+
 
 ## Tape
 

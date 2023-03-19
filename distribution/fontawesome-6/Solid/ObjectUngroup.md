@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ObjectUngroup')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ObjectUngroupXs>`
+- `<$ObjectUngroupSm>`
+- `<$ObjectUngroupMd>`
+- `<$ObjectUngroupLg>`
+
+
+
+
 
 ## ObjectUngroup
 

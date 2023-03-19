@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Html5')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$Html5Xs>`
+- `<$Html5Sm>`
+- `<$Html5Md>`
+- `<$Html5Lg>`
+
+
+
+
 
 ## Html5
 

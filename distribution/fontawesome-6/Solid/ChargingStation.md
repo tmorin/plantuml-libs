@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ChargingStation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChargingStationXs>`
+- `<$ChargingStationSm>`
+- `<$ChargingStationMd>`
+- `<$ChargingStationLg>`
+
+
+
+
 
 ## ChargingStation
 

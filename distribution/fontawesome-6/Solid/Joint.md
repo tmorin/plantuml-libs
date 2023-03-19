@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Joint')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JointXs>`
+- `<$JointSm>`
+- `<$JointMd>`
+- `<$JointLg>`
+
+
+
+
 
 ## Joint
 

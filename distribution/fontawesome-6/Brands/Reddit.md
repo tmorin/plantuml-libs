@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Reddit')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RedditXs>`
+- `<$RedditSm>`
+- `<$RedditMd>`
+- `<$RedditLg>`
+
+
+
+
 
 ## Reddit
 

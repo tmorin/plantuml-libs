@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PhotoFilm')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PhotoFilmXs>`
+- `<$PhotoFilmSm>`
+- `<$PhotoFilmMd>`
+- `<$PhotoFilmLg>`
+
+
+
+
 
 ## PhotoFilm
 

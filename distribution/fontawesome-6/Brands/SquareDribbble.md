@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/SquareDribbble')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquareDribbbleXs>`
+- `<$SquareDribbbleSm>`
+- `<$SquareDribbbleMd>`
+- `<$SquareDribbbleLg>`
+
+
+
+
 
 ## SquareDribbble
 

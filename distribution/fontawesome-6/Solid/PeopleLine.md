@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PeopleLine')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PeopleLineXs>`
+- `<$PeopleLineSm>`
+- `<$PeopleLineMd>`
+- `<$PeopleLineLg>`
+
+
+
+
 
 ## PeopleLine
 

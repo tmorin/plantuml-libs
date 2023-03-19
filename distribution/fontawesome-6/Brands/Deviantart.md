@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Deviantart')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DeviantartXs>`
+- `<$DeviantartSm>`
+- `<$DeviantartMd>`
+- `<$DeviantartLg>`
+
+
+
+
 
 ## Deviantart
 

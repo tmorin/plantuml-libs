@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/ItchIo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ItchIoXs>`
+- `<$ItchIoSm>`
+- `<$ItchIoMd>`
+- `<$ItchIoLg>`
+
+
+
+
 
 ## ItchIo
 

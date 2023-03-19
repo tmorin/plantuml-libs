@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Accusoft')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AccusoftXs>`
+- `<$AccusoftSm>`
+- `<$AccusoftMd>`
+- `<$AccusoftLg>`
+
+
+
+
 
 ## Accusoft
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Spa')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SpaXs>`
+- `<$SpaSm>`
+- `<$SpaMd>`
+- `<$SpaLg>`
+
+
+
+
 
 ## Spa
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HouseCircleXmark')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HouseCircleXmarkXs>`
+- `<$HouseCircleXmarkSm>`
+- `<$HouseCircleXmarkMd>`
+- `<$HouseCircleXmarkLg>`
+
+
+
+
 
 ## HouseCircleXmark
 

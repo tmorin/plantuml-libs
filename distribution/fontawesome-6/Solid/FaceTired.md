@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/FaceTired')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FaceTiredXs>`
+- `<$FaceTiredSm>`
+- `<$FaceTiredMd>`
+- `<$FaceTiredLg>`
+
+
+
+
 
 ## FaceTired
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/SquarePollVertical')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquarePollVerticalXs>`
+- `<$SquarePollVerticalSm>`
+- `<$SquarePollVerticalMd>`
+- `<$SquarePollVerticalLg>`
+
+
+
+
 
 ## SquarePollVertical
 

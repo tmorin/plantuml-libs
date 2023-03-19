@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/LandMineOn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LandMineOnXs>`
+- `<$LandMineOnSm>`
+- `<$LandMineOnMd>`
+- `<$LandMineOnLg>`
+
+
+
+
 
 ## LandMineOn
 

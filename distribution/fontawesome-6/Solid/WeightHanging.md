@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/WeightHanging')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WeightHangingXs>`
+- `<$WeightHangingSm>`
+- `<$WeightHangingMd>`
+- `<$WeightHangingLg>`
+
+
+
+
 
 ## WeightHanging
 

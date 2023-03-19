@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PuzzlePiece')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PuzzlePieceXs>`
+- `<$PuzzlePieceSm>`
+- `<$PuzzlePieceMd>`
+- `<$PuzzlePieceLg>`
+
+
+
+
 
 ## PuzzlePiece
 

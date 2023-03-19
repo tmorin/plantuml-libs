@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Deskpro')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DeskproXs>`
+- `<$DeskproSm>`
+- `<$DeskproMd>`
+- `<$DeskproLg>`
+
+
+
+
 
 ## Deskpro
 

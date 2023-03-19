@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Paypal')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PaypalXs>`
+- `<$PaypalSm>`
+- `<$PaypalMd>`
+- `<$PaypalLg>`
+
+
+
+
 
 ## Paypal
 

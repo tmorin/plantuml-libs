@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/RoadCircleXmark')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RoadCircleXmarkXs>`
+- `<$RoadCircleXmarkSm>`
+- `<$RoadCircleXmarkMd>`
+- `<$RoadCircleXmarkLg>`
+
+
+
+
 
 ## RoadCircleXmark
 

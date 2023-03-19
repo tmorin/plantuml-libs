@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HandsAslInterpreting')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HandsAslInterpretingXs>`
+- `<$HandsAslInterpretingSm>`
+- `<$HandsAslInterpretingMd>`
+- `<$HandsAslInterpretingLg>`
+
+
+
+
 
 ## HandsAslInterpreting
 

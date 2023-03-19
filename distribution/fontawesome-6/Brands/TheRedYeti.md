@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/TheRedYeti')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TheRedYetiXs>`
+- `<$TheRedYetiSm>`
+- `<$TheRedYetiMd>`
+- `<$TheRedYetiLg>`
+
+
+
+
 
 ## TheRedYeti
 

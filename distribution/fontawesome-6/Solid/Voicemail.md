@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Voicemail')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VoicemailXs>`
+- `<$VoicemailSm>`
+- `<$VoicemailMd>`
+- `<$VoicemailLg>`
+
+
+
+
 
 ## Voicemail
 

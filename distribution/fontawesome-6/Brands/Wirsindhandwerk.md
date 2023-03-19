@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Wirsindhandwerk')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WirsindhandwerkXs>`
+- `<$WirsindhandwerkSm>`
+- `<$WirsindhandwerkMd>`
+- `<$WirsindhandwerkLg>`
+
+
+
+
 
 ## Wirsindhandwerk
 

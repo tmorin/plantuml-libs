@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Windows')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WindowsXs>`
+- `<$WindowsSm>`
+- `<$WindowsMd>`
+- `<$WindowsLg>`
+
+
+
+
 
 ## Windows
 

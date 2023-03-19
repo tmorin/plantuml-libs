@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Qq')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$QqXs>`
+- `<$QqSm>`
+- `<$QqMd>`
+- `<$QqLg>`
+
+
+
+
 
 ## Qq
 

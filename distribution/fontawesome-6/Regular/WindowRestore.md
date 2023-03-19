@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/WindowRestore')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WindowRestoreXs>`
+- `<$WindowRestoreSm>`
+- `<$WindowRestoreMd>`
+- `<$WindowRestoreLg>`
+
+
+
+
 
 ## WindowRestore
 

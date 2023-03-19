@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/TrashCan')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TrashCanXs>`
+- `<$TrashCanSm>`
+- `<$TrashCanMd>`
+- `<$TrashCanLg>`
+
+
+
+
 
 ## TrashCan
 

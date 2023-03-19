@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ThumbsUp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ThumbsUpXs>`
+- `<$ThumbsUpSm>`
+- `<$ThumbsUpMd>`
+- `<$ThumbsUpLg>`
+
+
+
+
 
 ## ThumbsUp
 

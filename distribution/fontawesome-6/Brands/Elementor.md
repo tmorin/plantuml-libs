@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Elementor')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ElementorXs>`
+- `<$ElementorSm>`
+- `<$ElementorMd>`
+- `<$ElementorLg>`
+
+
+
+
 
 ## Elementor
 

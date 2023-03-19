@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Hashnode')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HashnodeXs>`
+- `<$HashnodeSm>`
+- `<$HashnodeMd>`
+- `<$HashnodeLg>`
+
+
+
+
 
 ## Hashnode
 

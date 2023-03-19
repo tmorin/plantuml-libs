@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/C')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CXs>`
+- `<$CSm>`
+- `<$CMd>`
+- `<$CLg>`
+
+
+
+
 
 ## C
 

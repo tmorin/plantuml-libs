@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Rev')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RevXs>`
+- `<$RevSm>`
+- `<$RevMd>`
+- `<$RevLg>`
+
+
+
+
 
 ## Rev
 

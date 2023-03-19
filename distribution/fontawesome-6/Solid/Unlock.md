@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Unlock')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UnlockXs>`
+- `<$UnlockSm>`
+- `<$UnlockMd>`
+- `<$UnlockLg>`
+
+
+
+
 
 ## Unlock
 

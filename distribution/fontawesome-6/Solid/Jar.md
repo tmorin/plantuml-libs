@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Jar')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JarXs>`
+- `<$JarSm>`
+- `<$JarMd>`
+- `<$JarLg>`
+
+
+
+
 
 ## Jar
 

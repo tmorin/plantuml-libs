@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Fax')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FaxXs>`
+- `<$FaxSm>`
+- `<$FaxMd>`
+- `<$FaxLg>`
+
+
+
+
 
 ## Fax
 

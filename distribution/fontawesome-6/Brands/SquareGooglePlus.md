@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/SquareGooglePlus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquareGooglePlusXs>`
+- `<$SquareGooglePlusSm>`
+- `<$SquareGooglePlusMd>`
+- `<$SquareGooglePlusLg>`
+
+
+
+
 
 ## SquareGooglePlus
 

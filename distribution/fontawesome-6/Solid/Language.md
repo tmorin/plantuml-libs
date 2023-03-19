@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Language')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LanguageXs>`
+- `<$LanguageSm>`
+- `<$LanguageMd>`
+- `<$LanguageLg>`
+
+
+
+
 
 ## Language
 

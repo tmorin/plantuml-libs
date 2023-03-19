@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Fan')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FanXs>`
+- `<$FanSm>`
+- `<$FanMd>`
+- `<$FanLg>`
+
+
+
+
 
 ## Fan
 

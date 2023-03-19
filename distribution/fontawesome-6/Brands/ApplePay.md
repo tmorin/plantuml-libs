@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/ApplePay')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ApplePayXs>`
+- `<$ApplePaySm>`
+- `<$ApplePayMd>`
+- `<$ApplePayLg>`
+
+
+
+
 
 ## ApplePay
 

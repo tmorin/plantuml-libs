@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/FilterCircleDollar')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FilterCircleDollarXs>`
+- `<$FilterCircleDollarSm>`
+- `<$FilterCircleDollarMd>`
+- `<$FilterCircleDollarLg>`
+
+
+
+
 
 ## FilterCircleDollar
 

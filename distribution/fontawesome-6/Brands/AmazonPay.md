@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/AmazonPay')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonPayXs>`
+- `<$AmazonPaySm>`
+- `<$AmazonPayMd>`
+- `<$AmazonPayLg>`
+
+
+
+
 
 ## AmazonPay
 

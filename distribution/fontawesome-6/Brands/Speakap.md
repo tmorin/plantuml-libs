@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Speakap')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SpeakapXs>`
+- `<$SpeakapSm>`
+- `<$SpeakapMd>`
+- `<$SpeakapLg>`
+
+
+
+
 
 ## Speakap
 

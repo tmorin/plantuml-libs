@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Dribbble')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DribbbleXs>`
+- `<$DribbbleSm>`
+- `<$DribbbleMd>`
+- `<$DribbbleLg>`
+
+
+
+
 
 ## Dribbble
 

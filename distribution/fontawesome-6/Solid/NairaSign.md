@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/NairaSign')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NairaSignXs>`
+- `<$NairaSignSm>`
+- `<$NairaSignMd>`
+- `<$NairaSignLg>`
+
+
+
+
 
 ## NairaSign
 

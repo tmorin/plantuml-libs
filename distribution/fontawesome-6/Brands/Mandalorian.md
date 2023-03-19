@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Mandalorian')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MandalorianXs>`
+- `<$MandalorianSm>`
+- `<$MandalorianMd>`
+- `<$MandalorianLg>`
+
+
+
+
 
 ## Mandalorian
 

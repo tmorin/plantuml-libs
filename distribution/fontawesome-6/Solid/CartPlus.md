@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CartPlus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CartPlusXs>`
+- `<$CartPlusSm>`
+- `<$CartPlusMd>`
+- `<$CartPlusLg>`
+
+
+
+
 
 ## CartPlus
 

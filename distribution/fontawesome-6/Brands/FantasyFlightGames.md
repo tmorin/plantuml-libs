@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/FantasyFlightGames')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FantasyFlightGamesXs>`
+- `<$FantasyFlightGamesSm>`
+- `<$FantasyFlightGamesMd>`
+- `<$FantasyFlightGamesLg>`
+
+
+
+
 
 ## FantasyFlightGames
 

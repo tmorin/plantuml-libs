@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HandHoldingDroplet')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HandHoldingDropletXs>`
+- `<$HandHoldingDropletSm>`
+- `<$HandHoldingDropletMd>`
+- `<$HandHoldingDropletLg>`
+
+
+
+
 
 ## HandHoldingDroplet
 

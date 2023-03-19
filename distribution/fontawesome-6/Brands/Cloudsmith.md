@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Cloudsmith')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudsmithXs>`
+- `<$CloudsmithSm>`
+- `<$CloudsmithMd>`
+- `<$CloudsmithLg>`
+
+
+
+
 
 ## Cloudsmith
 

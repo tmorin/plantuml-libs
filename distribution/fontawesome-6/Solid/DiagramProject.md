@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/DiagramProject')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DiagramProjectXs>`
+- `<$DiagramProjectSm>`
+- `<$DiagramProjectMd>`
+- `<$DiagramProjectLg>`
+
+
+
+
 
 ## DiagramProject
 

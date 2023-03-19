@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/TextWidth')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TextWidthXs>`
+- `<$TextWidthSm>`
+- `<$TextWidthMd>`
+- `<$TextWidthLg>`
+
+
+
+
 
 ## TextWidth
 

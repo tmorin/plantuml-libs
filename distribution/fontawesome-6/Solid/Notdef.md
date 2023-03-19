@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Notdef')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NotdefXs>`
+- `<$NotdefSm>`
+- `<$NotdefMd>`
+- `<$NotdefLg>`
+
+
+
+
 
 ## Notdef
 

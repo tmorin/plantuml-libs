@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Instagram')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InstagramXs>`
+- `<$InstagramSm>`
+- `<$InstagramMd>`
+- `<$InstagramLg>`
+
+
+
+
 
 ## Instagram
 

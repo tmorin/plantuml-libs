@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/VideoSlash')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VideoSlashXs>`
+- `<$VideoSlashSm>`
+- `<$VideoSlashMd>`
+- `<$VideoSlashLg>`
+
+
+
+
 
 ## VideoSlash
 

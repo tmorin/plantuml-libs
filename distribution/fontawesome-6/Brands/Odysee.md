@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Odysee')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OdyseeXs>`
+- `<$OdyseeSm>`
+- `<$OdyseeMd>`
+- `<$OdyseeLg>`
+
+
+
+
 
 ## Odysee
 

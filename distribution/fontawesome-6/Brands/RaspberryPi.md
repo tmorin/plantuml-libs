@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/RaspberryPi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RaspberryPiXs>`
+- `<$RaspberryPiSm>`
+- `<$RaspberryPiMd>`
+- `<$RaspberryPiLg>`
+
+
+
+
 
 ## RaspberryPi
 

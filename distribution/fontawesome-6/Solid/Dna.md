@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Dna')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DnaXs>`
+- `<$DnaSm>`
+- `<$DnaMd>`
+- `<$DnaLg>`
+
+
+
+
 
 ## Dna
 

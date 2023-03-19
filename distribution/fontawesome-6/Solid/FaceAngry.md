@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/FaceAngry')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FaceAngryXs>`
+- `<$FaceAngrySm>`
+- `<$FaceAngryMd>`
+- `<$FaceAngryLg>`
+
+
+
+
 
 ## FaceAngry
 

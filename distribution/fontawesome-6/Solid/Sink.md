@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Sink')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SinkXs>`
+- `<$SinkSm>`
+- `<$SinkMd>`
+- `<$SinkLg>`
+
+
+
+
 
 ## Sink
 

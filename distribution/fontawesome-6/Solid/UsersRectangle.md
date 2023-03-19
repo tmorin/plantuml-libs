@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/UsersRectangle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UsersRectangleXs>`
+- `<$UsersRectangleSm>`
+- `<$UsersRectangleMd>`
+- `<$UsersRectangleLg>`
+
+
+
+
 
 ## UsersRectangle
 

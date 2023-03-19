@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ShieldCat')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShieldCatXs>`
+- `<$ShieldCatSm>`
+- `<$ShieldCatMd>`
+- `<$ShieldCatLg>`
+
+
+
+
 
 ## ShieldCat
 

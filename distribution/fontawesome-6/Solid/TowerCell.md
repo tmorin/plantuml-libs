@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/TowerCell')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TowerCellXs>`
+- `<$TowerCellSm>`
+- `<$TowerCellMd>`
+- `<$TowerCellLg>`
+
+
+
+
 
 ## TowerCell
 

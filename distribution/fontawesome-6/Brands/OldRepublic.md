@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/OldRepublic')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OldRepublicXs>`
+- `<$OldRepublicSm>`
+- `<$OldRepublicMd>`
+- `<$OldRepublicLg>`
+
+
+
+
 
 ## OldRepublic
 

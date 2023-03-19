@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Researchgate')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ResearchgateXs>`
+- `<$ResearchgateSm>`
+- `<$ResearchgateMd>`
+- `<$ResearchgateLg>`
+
+
+
+
 
 ## Researchgate
 

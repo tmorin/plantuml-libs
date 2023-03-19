@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/EarthAmericas')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EarthAmericasXs>`
+- `<$EarthAmericasSm>`
+- `<$EarthAmericasMd>`
+- `<$EarthAmericasLg>`
+
+
+
+
 
 ## EarthAmericas
 

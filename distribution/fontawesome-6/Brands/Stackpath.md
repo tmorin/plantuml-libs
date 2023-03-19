@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Stackpath')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StackpathXs>`
+- `<$StackpathSm>`
+- `<$StackpathMd>`
+- `<$StackpathLg>`
+
+
+
+
 
 ## Stackpath
 

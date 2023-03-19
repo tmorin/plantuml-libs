@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CableCar')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CableCarXs>`
+- `<$CableCarSm>`
+- `<$CableCarMd>`
+- `<$CableCarLg>`
+
+
+
+
 
 ## CableCar
 

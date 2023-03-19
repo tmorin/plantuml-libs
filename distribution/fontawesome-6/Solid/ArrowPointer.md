@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ArrowPointer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ArrowPointerXs>`
+- `<$ArrowPointerSm>`
+- `<$ArrowPointerMd>`
+- `<$ArrowPointerLg>`
+
+
+
+
 
 ## ArrowPointer
 

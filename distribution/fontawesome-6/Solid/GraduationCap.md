@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/GraduationCap')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GraduationCapXs>`
+- `<$GraduationCapSm>`
+- `<$GraduationCapMd>`
+- `<$GraduationCapLg>`
+
+
+
+
 
 ## GraduationCap
 

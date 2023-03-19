@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Desktop')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DesktopXs>`
+- `<$DesktopSm>`
+- `<$DesktopMd>`
+- `<$DesktopLg>`
+
+
+
+
 
 ## Desktop
 

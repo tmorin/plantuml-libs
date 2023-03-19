@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Vk')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VkXs>`
+- `<$VkSm>`
+- `<$VkMd>`
+- `<$VkLg>`
+
+
+
+
 
 ## Vk
 

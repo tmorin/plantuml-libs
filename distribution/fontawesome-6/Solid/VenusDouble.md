@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/VenusDouble')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VenusDoubleXs>`
+- `<$VenusDoubleSm>`
+- `<$VenusDoubleMd>`
+- `<$VenusDoubleLg>`
+
+
+
+
 
 ## VenusDouble
 

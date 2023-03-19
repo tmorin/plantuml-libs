@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/WaterLadder')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WaterLadderXs>`
+- `<$WaterLadderSm>`
+- `<$WaterLadderMd>`
+- `<$WaterLadderLg>`
+
+
+
+
 
 ## WaterLadder
 

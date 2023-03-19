@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Servicestack')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServicestackXs>`
+- `<$ServicestackSm>`
+- `<$ServicestackMd>`
+- `<$ServicestackLg>`
+
+
+
+
 
 ## Servicestack
 

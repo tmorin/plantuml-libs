@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/AddressBook')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AddressBookXs>`
+- `<$AddressBookSm>`
+- `<$AddressBookMd>`
+- `<$AddressBookLg>`
+
+
+
+
 
 ## AddressBook
 

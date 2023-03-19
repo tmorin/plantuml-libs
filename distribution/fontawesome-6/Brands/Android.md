@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Android')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AndroidXs>`
+- `<$AndroidSm>`
+- `<$AndroidMd>`
+- `<$AndroidLg>`
+
+
+
+
 
 ## Android
 

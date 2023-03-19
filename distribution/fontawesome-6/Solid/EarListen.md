@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/EarListen')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EarListenXs>`
+- `<$EarListenSm>`
+- `<$EarListenMd>`
+- `<$EarListenLg>`
+
+
+
+
 
 ## EarListen
 

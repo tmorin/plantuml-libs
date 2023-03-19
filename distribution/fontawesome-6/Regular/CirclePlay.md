@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/CirclePlay')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CirclePlayXs>`
+- `<$CirclePlaySm>`
+- `<$CirclePlayMd>`
+- `<$CirclePlayLg>`
+
+
+
+
 
 ## CirclePlay
 

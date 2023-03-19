@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/DoorClosed')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DoorClosedXs>`
+- `<$DoorClosedSm>`
+- `<$DoorClosedMd>`
+- `<$DoorClosedLg>`
+
+
+
+
 
 ## DoorClosed
 

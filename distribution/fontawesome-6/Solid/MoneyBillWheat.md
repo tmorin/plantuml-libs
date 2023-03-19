@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/MoneyBillWheat')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MoneyBillWheatXs>`
+- `<$MoneyBillWheatSm>`
+- `<$MoneyBillWheatMd>`
+- `<$MoneyBillWheatLg>`
+
+
+
+
 
 ## MoneyBillWheat
 

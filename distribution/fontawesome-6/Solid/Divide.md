@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Divide')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DivideXs>`
+- `<$DivideSm>`
+- `<$DivideMd>`
+- `<$DivideLg>`
+
+
+
+
 
 ## Divide
 

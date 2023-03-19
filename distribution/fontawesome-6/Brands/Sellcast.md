@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Sellcast')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SellcastXs>`
+- `<$SellcastSm>`
+- `<$SellcastMd>`
+- `<$SellcastLg>`
+
+
+
+
 
 ## Sellcast
 

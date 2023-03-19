@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Filter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FilterXs>`
+- `<$FilterSm>`
+- `<$FilterMd>`
+- `<$FilterLg>`
+
+
+
+
 
 ## Filter
 

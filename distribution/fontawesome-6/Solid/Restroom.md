@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Restroom')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RestroomXs>`
+- `<$RestroomSm>`
+- `<$RestroomMd>`
+- `<$RestroomLg>`
+
+
+
+
 
 ## Restroom
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ArrowDownUpAcrossLine')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ArrowDownUpAcrossLineXs>`
+- `<$ArrowDownUpAcrossLineSm>`
+- `<$ArrowDownUpAcrossLineMd>`
+- `<$ArrowDownUpAcrossLineLg>`
+
+
+
+
 
 ## ArrowDownUpAcrossLine
 

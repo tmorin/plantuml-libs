@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/SpellCheck')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SpellCheckXs>`
+- `<$SpellCheckSm>`
+- `<$SpellCheckMd>`
+- `<$SpellCheckLg>`
+
+
+
+
 
 ## SpellCheck
 

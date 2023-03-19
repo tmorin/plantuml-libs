@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PersonArrowDownToLine')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PersonArrowDownToLineXs>`
+- `<$PersonArrowDownToLineSm>`
+- `<$PersonArrowDownToLineMd>`
+- `<$PersonArrowDownToLineLg>`
+
+
+
+
 
 ## PersonArrowDownToLine
 

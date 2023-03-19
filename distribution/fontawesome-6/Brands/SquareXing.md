@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/SquareXing')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquareXingXs>`
+- `<$SquareXingSm>`
+- `<$SquareXingMd>`
+- `<$SquareXingLg>`
+
+
+
+
 
 ## SquareXing
 

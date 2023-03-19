@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Cat')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CatXs>`
+- `<$CatSm>`
+- `<$CatMd>`
+- `<$CatLg>`
+
+
+
+
 
 ## Cat
 

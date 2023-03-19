@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Pills')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PillsXs>`
+- `<$PillsSm>`
+- `<$PillsMd>`
+- `<$PillsLg>`
+
+
+
+
 
 ## Pills
 

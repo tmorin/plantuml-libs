@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/StripeS')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StripeSXs>`
+- `<$StripeSSm>`
+- `<$StripeSMd>`
+- `<$StripeSLg>`
+
+
+
+
 
 ## StripeS
 

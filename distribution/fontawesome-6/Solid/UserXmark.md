@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/UserXmark')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UserXmarkXs>`
+- `<$UserXmarkSm>`
+- `<$UserXmarkMd>`
+- `<$UserXmarkLg>`
+
+
+
+
 
 ## UserXmark
 

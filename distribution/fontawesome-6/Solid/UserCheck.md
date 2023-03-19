@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/UserCheck')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UserCheckXs>`
+- `<$UserCheckSm>`
+- `<$UserCheckMd>`
+- `<$UserCheckLg>`
+
+
+
+
 
 ## UserCheck
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/SquareFontAwesomeStroke')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquareFontAwesomeStrokeXs>`
+- `<$SquareFontAwesomeStrokeSm>`
+- `<$SquareFontAwesomeStrokeMd>`
+- `<$SquareFontAwesomeStrokeLg>`
+
+
+
+
 
 ## SquareFontAwesomeStroke
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Eraser')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EraserXs>`
+- `<$EraserSm>`
+- `<$EraserMd>`
+- `<$EraserLg>`
+
+
+
+
 
 ## Eraser
 

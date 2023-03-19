@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/IceCream')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IceCreamXs>`
+- `<$IceCreamSm>`
+- `<$IceCreamMd>`
+- `<$IceCreamLg>`
+
+
+
+
 
 ## IceCream
 

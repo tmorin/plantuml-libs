@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/SquareViadeo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquareViadeoXs>`
+- `<$SquareViadeoSm>`
+- `<$SquareViadeoMd>`
+- `<$SquareViadeoLg>`
+
+
+
+
 
 ## SquareViadeo
 

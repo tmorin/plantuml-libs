@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Python')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PythonXs>`
+- `<$PythonSm>`
+- `<$PythonMd>`
+- `<$PythonLg>`
+
+
+
+
 
 ## Python
 

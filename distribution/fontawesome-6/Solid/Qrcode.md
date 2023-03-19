@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Qrcode')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$QrcodeXs>`
+- `<$QrcodeSm>`
+- `<$QrcodeMd>`
+- `<$QrcodeLg>`
+
+
+
+
 
 ## Qrcode
 

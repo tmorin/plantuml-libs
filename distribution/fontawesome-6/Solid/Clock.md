@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Clock')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ClockXs>`
+- `<$ClockSm>`
+- `<$ClockMd>`
+- `<$ClockLg>`
+
+
+
+
 
 ## Clock
 

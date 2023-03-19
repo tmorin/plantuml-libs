@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Css3Alt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$Css3AltXs>`
+- `<$Css3AltSm>`
+- `<$Css3AltMd>`
+- `<$Css3AltLg>`
+
+
+
+
 
 ## Css3Alt
 

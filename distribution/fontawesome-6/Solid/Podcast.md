@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Podcast')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PodcastXs>`
+- `<$PodcastSm>`
+- `<$PodcastMd>`
+- `<$PodcastLg>`
+
+
+
+
 
 ## Podcast
 

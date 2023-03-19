@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Bars')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BarsXs>`
+- `<$BarsSm>`
+- `<$BarsMd>`
+- `<$BarsLg>`
+
+
+
+
 
 ## Bars
 

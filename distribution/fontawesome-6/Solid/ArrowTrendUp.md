@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ArrowTrendUp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ArrowTrendUpXs>`
+- `<$ArrowTrendUpSm>`
+- `<$ArrowTrendUpMd>`
+- `<$ArrowTrendUpLg>`
+
+
+
+
 
 ## ArrowTrendUp
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Cannabis')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CannabisXs>`
+- `<$CannabisSm>`
+- `<$CannabisMd>`
+- `<$CannabisLg>`
+
+
+
+
 
 ## Cannabis
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/HandPointer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HandPointerXs>`
+- `<$HandPointerSm>`
+- `<$HandPointerMd>`
+- `<$HandPointerLg>`
+
+
+
+
 
 ## HandPointer
 

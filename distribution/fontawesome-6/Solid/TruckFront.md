@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/TruckFront')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TruckFrontXs>`
+- `<$TruckFrontSm>`
+- `<$TruckFrontMd>`
+- `<$TruckFrontLg>`
+
+
+
+
 
 ## TruckFront
 

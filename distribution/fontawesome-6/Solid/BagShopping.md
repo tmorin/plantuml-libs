@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BagShopping')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BagShoppingXs>`
+- `<$BagShoppingSm>`
+- `<$BagShoppingMd>`
+- `<$BagShoppingLg>`
+
+
+
+
 
 ## BagShopping
 

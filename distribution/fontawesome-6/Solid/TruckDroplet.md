@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/TruckDroplet')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TruckDropletXs>`
+- `<$TruckDropletSm>`
+- `<$TruckDropletMd>`
+- `<$TruckDropletLg>`
+
+
+
+
 
 ## TruckDroplet
 

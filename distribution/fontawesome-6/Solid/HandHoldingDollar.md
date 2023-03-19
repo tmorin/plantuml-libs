@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HandHoldingDollar')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HandHoldingDollarXs>`
+- `<$HandHoldingDollarSm>`
+- `<$HandHoldingDollarMd>`
+- `<$HandHoldingDollarLg>`
+
+
+
+
 
 ## HandHoldingDollar
 

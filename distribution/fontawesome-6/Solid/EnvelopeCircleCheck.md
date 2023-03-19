@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/EnvelopeCircleCheck')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EnvelopeCircleCheckXs>`
+- `<$EnvelopeCircleCheckSm>`
+- `<$EnvelopeCircleCheckMd>`
+- `<$EnvelopeCircleCheckLg>`
+
+
+
+
 
 ## EnvelopeCircleCheck
 

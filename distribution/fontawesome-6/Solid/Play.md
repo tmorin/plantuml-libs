@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Play')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PlayXs>`
+- `<$PlaySm>`
+- `<$PlayMd>`
+- `<$PlayLg>`
+
+
+
+
 
 ## Play
 

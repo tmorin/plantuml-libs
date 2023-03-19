@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Wpforms')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WpformsXs>`
+- `<$WpformsSm>`
+- `<$WpformsMd>`
+- `<$WpformsLg>`
+
+
+
+
 
 ## Wpforms
 

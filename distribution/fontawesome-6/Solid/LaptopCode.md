@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/LaptopCode')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LaptopCodeXs>`
+- `<$LaptopCodeSm>`
+- `<$LaptopCodeMd>`
+- `<$LaptopCodeLg>`
+
+
+
+
 
 ## LaptopCode
 

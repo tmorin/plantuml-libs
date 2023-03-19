@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/SpaceAwesome')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SpaceAwesomeXs>`
+- `<$SpaceAwesomeSm>`
+- `<$SpaceAwesomeMd>`
+- `<$SpaceAwesomeLg>`
+
+
+
+
 
 ## SpaceAwesome
 

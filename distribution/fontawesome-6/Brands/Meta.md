@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Meta')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MetaXs>`
+- `<$MetaSm>`
+- `<$MetaMd>`
+- `<$MetaLg>`
+
+
+
+
 
 ## Meta
 

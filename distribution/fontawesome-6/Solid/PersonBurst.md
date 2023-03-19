@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PersonBurst')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PersonBurstXs>`
+- `<$PersonBurstSm>`
+- `<$PersonBurstMd>`
+- `<$PersonBurstLg>`
+
+
+
+
 
 ## PersonBurst
 

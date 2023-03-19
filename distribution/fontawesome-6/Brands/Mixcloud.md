@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Mixcloud')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MixcloudXs>`
+- `<$MixcloudSm>`
+- `<$MixcloudMd>`
+- `<$MixcloudLg>`
+
+
+
+
 
 ## Mixcloud
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/UserSecret')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UserSecretXs>`
+- `<$UserSecretSm>`
+- `<$UserSecretMd>`
+- `<$UserSecretLg>`
+
+
+
+
 
 ## UserSecret
 

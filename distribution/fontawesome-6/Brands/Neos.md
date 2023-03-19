@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Neos')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NeosXs>`
+- `<$NeosSm>`
+- `<$NeosMd>`
+- `<$NeosLg>`
+
+
+
+
 
 ## Neos
 

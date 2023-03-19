@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/NotesMedical')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NotesMedicalXs>`
+- `<$NotesMedicalSm>`
+- `<$NotesMedicalMd>`
+- `<$NotesMedicalLg>`
+
+
+
+
 
 ## NotesMedical
 

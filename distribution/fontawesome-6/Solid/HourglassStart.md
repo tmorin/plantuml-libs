@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HourglassStart')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HourglassStartXs>`
+- `<$HourglassStartSm>`
+- `<$HourglassStartMd>`
+- `<$HourglassStartLg>`
+
+
+
+
 
 ## HourglassStart
 

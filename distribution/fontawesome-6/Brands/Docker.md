@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Docker')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DockerXs>`
+- `<$DockerSm>`
+- `<$DockerMd>`
+- `<$DockerLg>`
+
+
+
+
 
 ## Docker
 

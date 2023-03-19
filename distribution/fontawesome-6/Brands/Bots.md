@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Bots')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BotsXs>`
+- `<$BotsSm>`
+- `<$BotsMd>`
+- `<$BotsLg>`
+
+
+
+
 
 ## Bots
 

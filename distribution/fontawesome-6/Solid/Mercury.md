@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Mercury')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MercuryXs>`
+- `<$MercurySm>`
+- `<$MercuryMd>`
+- `<$MercuryLg>`
+
+
+
+
 
 ## Mercury
 

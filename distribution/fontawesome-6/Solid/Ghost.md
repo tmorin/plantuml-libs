@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Ghost')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GhostXs>`
+- `<$GhostSm>`
+- `<$GhostMd>`
+- `<$GhostLg>`
+
+
+
+
 
 ## Ghost
 

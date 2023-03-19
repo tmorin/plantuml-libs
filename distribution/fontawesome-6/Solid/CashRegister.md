@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CashRegister')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CashRegisterXs>`
+- `<$CashRegisterSm>`
+- `<$CashRegisterMd>`
+- `<$CashRegisterLg>`
+
+
+
+
 
 ## CashRegister
 

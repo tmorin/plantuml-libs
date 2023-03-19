@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Contao')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ContaoXs>`
+- `<$ContaoSm>`
+- `<$ContaoMd>`
+- `<$ContaoLg>`
+
+
+
+
 
 ## Contao
 

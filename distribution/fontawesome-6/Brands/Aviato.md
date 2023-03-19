@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Aviato')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AviatoXs>`
+- `<$AviatoSm>`
+- `<$AviatoMd>`
+- `<$AviatoLg>`
+
+
+
+
 
 ## Aviato
 

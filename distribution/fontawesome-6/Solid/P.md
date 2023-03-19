@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/P')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PXs>`
+- `<$PSm>`
+- `<$PMd>`
+- `<$PLg>`
+
+
+
+
 
 ## P
 

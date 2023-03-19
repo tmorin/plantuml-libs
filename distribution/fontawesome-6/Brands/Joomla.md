@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Joomla')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JoomlaXs>`
+- `<$JoomlaSm>`
+- `<$JoomlaMd>`
+- `<$JoomlaLg>`
+
+
+
+
 
 ## Joomla
 

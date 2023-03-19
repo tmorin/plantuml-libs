@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Goodreads')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GoodreadsXs>`
+- `<$GoodreadsSm>`
+- `<$GoodreadsMd>`
+- `<$GoodreadsLg>`
+
+
+
+
 
 ## Goodreads
 

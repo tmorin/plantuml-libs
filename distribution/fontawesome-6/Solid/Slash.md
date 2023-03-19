@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Slash')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SlashXs>`
+- `<$SlashSm>`
+- `<$SlashMd>`
+- `<$SlashLg>`
+
+
+
+
 
 ## Slash
 

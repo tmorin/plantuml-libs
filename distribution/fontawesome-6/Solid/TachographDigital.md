@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/TachographDigital')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TachographDigitalXs>`
+- `<$TachographDigitalSm>`
+- `<$TachographDigitalMd>`
+- `<$TachographDigitalLg>`
+
+
+
+
 
 ## TachographDigital
 

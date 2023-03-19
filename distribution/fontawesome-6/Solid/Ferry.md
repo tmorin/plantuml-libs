@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Ferry')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FerryXs>`
+- `<$FerrySm>`
+- `<$FerryMd>`
+- `<$FerryLg>`
+
+
+
+
 
 ## Ferry
 

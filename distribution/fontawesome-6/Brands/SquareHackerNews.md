@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/SquareHackerNews')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquareHackerNewsXs>`
+- `<$SquareHackerNewsSm>`
+- `<$SquareHackerNewsMd>`
+- `<$SquareHackerNewsLg>`
+
+
+
+
 
 ## SquareHackerNews
 

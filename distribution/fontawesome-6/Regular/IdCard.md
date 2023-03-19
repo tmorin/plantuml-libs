@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/IdCard')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IdCardXs>`
+- `<$IdCardSm>`
+- `<$IdCardMd>`
+- `<$IdCardLg>`
+
+
+
+
 
 ## IdCard
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/FileCircleMinus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FileCircleMinusXs>`
+- `<$FileCircleMinusSm>`
+- `<$FileCircleMinusMd>`
+- `<$FileCircleMinusLg>`
+
+
+
+
 
 ## FileCircleMinus
 

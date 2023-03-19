@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Minus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MinusXs>`
+- `<$MinusSm>`
+- `<$MinusMd>`
+- `<$MinusLg>`
+
+
+
+
 
 ## Minus
 

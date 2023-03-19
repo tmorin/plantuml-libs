@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Burst')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BurstXs>`
+- `<$BurstSm>`
+- `<$BurstMd>`
+- `<$BurstLg>`
+
+
+
+
 
 ## Burst
 

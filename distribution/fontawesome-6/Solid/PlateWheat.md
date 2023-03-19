@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PlateWheat')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PlateWheatXs>`
+- `<$PlateWheatSm>`
+- `<$PlateWheatMd>`
+- `<$PlateWheatLg>`
+
+
+
+
 
 ## PlateWheat
 

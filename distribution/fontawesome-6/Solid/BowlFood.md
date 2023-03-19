@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BowlFood')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BowlFoodXs>`
+- `<$BowlFoodSm>`
+- `<$BowlFoodMd>`
+- `<$BowlFoodLg>`
+
+
+
+
 
 ## BowlFood
 

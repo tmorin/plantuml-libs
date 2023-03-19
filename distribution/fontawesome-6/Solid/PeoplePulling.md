@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PeoplePulling')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PeoplePullingXs>`
+- `<$PeoplePullingSm>`
+- `<$PeoplePullingMd>`
+- `<$PeoplePullingLg>`
+
+
+
+
 
 ## PeoplePulling
 

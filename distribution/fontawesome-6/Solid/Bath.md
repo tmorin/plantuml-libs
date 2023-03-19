@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Bath')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BathXs>`
+- `<$BathSm>`
+- `<$BathMd>`
+- `<$BathLg>`
+
+
+
+
 
 ## Bath
 

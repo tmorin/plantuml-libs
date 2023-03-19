@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Usps')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UspsXs>`
+- `<$UspsSm>`
+- `<$UspsMd>`
+- `<$UspsLg>`
+
+
+
+
 
 ## Usps
 

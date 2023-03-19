@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HeartCircleCheck')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HeartCircleCheckXs>`
+- `<$HeartCircleCheckSm>`
+- `<$HeartCircleCheckMd>`
+- `<$HeartCircleCheckLg>`
+
+
+
+
 
 ## HeartCircleCheck
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/StaffSnake')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StaffSnakeXs>`
+- `<$StaffSnakeSm>`
+- `<$StaffSnakeMd>`
+- `<$StaffSnakeLg>`
+
+
+
+
 
 ## StaffSnake
 

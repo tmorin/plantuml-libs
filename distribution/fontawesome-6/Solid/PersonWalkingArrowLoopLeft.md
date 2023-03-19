@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PersonWalkingArrowLoopLeft')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PersonWalkingArrowLoopLeftXs>`
+- `<$PersonWalkingArrowLoopLeftSm>`
+- `<$PersonWalkingArrowLoopLeftMd>`
+- `<$PersonWalkingArrowLoopLeftLg>`
+
+
+
+
 
 ## PersonWalkingArrowLoopLeft
 

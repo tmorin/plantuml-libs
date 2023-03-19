@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/StarHalfStroke')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StarHalfStrokeXs>`
+- `<$StarHalfStrokeSm>`
+- `<$StarHalfStrokeMd>`
+- `<$StarHalfStrokeLg>`
+
+
+
+
 
 ## StarHalfStroke
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Repeat')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RepeatXs>`
+- `<$RepeatSm>`
+- `<$RepeatMd>`
+- `<$RepeatLg>`
+
+
+
+
 
 ## Repeat
 

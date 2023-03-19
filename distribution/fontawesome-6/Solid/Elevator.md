@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Elevator')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ElevatorXs>`
+- `<$ElevatorSm>`
+- `<$ElevatorMd>`
+- `<$ElevatorLg>`
+
+
+
+
 
 ## Elevator
 

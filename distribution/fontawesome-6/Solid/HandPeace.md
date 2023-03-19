@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HandPeace')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HandPeaceXs>`
+- `<$HandPeaceSm>`
+- `<$HandPeaceMd>`
+- `<$HandPeaceLg>`
+
+
+
+
 
 ## HandPeace
 

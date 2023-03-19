@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/GoogleWallet')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GoogleWalletXs>`
+- `<$GoogleWalletSm>`
+- `<$GoogleWalletMd>`
+- `<$GoogleWalletLg>`
+
+
+
+
 
 ## GoogleWallet
 

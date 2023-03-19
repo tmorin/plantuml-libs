@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Asterisk')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AsteriskXs>`
+- `<$AsteriskSm>`
+- `<$AsteriskMd>`
+- `<$AsteriskLg>`
+
+
+
+
 
 ## Asterisk
 

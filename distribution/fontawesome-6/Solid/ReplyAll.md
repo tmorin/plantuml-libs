@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ReplyAll')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ReplyAllXs>`
+- `<$ReplyAllSm>`
+- `<$ReplyAllMd>`
+- `<$ReplyAllLg>`
+
+
+
+
 
 ## ReplyAll
 

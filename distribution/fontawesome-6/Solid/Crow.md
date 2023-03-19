@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Crow')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CrowXs>`
+- `<$CrowSm>`
+- `<$CrowMd>`
+- `<$CrowLg>`
+
+
+
+
 
 ## Crow
 

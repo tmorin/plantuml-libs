@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Mountain')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MountainXs>`
+- `<$MountainSm>`
+- `<$MountainMd>`
+- `<$MountainLg>`
+
+
+
+
 
 ## Mountain
 

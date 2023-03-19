@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HouseSignal')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HouseSignalXs>`
+- `<$HouseSignalSm>`
+- `<$HouseSignalMd>`
+- `<$HouseSignalLg>`
+
+
+
+
 
 ## HouseSignal
 

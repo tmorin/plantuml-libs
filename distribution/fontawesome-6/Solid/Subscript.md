@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Subscript')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SubscriptXs>`
+- `<$SubscriptSm>`
+- `<$SubscriptMd>`
+- `<$SubscriptLg>`
+
+
+
+
 
 ## Subscript
 

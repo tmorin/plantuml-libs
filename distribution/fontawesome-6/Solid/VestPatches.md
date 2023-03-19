@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/VestPatches')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VestPatchesXs>`
+- `<$VestPatchesSm>`
+- `<$VestPatchesMd>`
+- `<$VestPatchesLg>`
+
+
+
+
 
 ## VestPatches
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/U')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UXs>`
+- `<$USm>`
+- `<$UMd>`
+- `<$ULg>`
+
+
+
+
 
 ## U
 

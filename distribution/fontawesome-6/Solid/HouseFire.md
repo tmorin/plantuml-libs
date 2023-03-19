@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HouseFire')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HouseFireXs>`
+- `<$HouseFireSm>`
+- `<$HouseFireMd>`
+- `<$HouseFireLg>`
+
+
+
+
 
 ## HouseFire
 

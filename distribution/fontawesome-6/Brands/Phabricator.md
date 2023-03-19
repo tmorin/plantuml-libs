@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Phabricator')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PhabricatorXs>`
+- `<$PhabricatorSm>`
+- `<$PhabricatorMd>`
+- `<$PhabricatorLg>`
+
+
+
+
 
 ## Phabricator
 

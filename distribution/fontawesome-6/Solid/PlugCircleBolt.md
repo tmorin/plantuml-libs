@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PlugCircleBolt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PlugCircleBoltXs>`
+- `<$PlugCircleBoltSm>`
+- `<$PlugCircleBoltMd>`
+- `<$PlugCircleBoltLg>`
+
+
+
+
 
 ## PlugCircleBolt
 

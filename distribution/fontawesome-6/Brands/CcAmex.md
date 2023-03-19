@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/CcAmex')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CcAmexXs>`
+- `<$CcAmexSm>`
+- `<$CcAmexMd>`
+- `<$CcAmexLg>`
+
+
+
+
 
 ## CcAmex
 

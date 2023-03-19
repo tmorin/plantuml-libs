@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Tarp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TarpXs>`
+- `<$TarpSm>`
+- `<$TarpMd>`
+- `<$TarpLg>`
+
+
+
+
 
 ## Tarp
 

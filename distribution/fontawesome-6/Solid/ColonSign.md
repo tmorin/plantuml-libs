@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ColonSign')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ColonSignXs>`
+- `<$ColonSignSm>`
+- `<$ColonSignMd>`
+- `<$ColonSignLg>`
+
+
+
+
 
 ## ColonSign
 

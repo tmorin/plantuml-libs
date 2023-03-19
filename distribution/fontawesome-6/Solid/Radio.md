@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Radio')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RadioXs>`
+- `<$RadioSm>`
+- `<$RadioMd>`
+- `<$RadioLg>`
+
+
+
+
 
 ## Radio
 

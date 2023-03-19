@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/SquareVirus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquareVirusXs>`
+- `<$SquareVirusSm>`
+- `<$SquareVirusMd>`
+- `<$SquareVirusLg>`
+
+
+
+
 
 ## SquareVirus
 

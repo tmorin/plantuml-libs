@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Chalkboard')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChalkboardXs>`
+- `<$ChalkboardSm>`
+- `<$ChalkboardMd>`
+- `<$ChalkboardLg>`
+
+
+
+
 
 ## Chalkboard
 

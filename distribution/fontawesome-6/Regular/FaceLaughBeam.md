@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/FaceLaughBeam')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FaceLaughBeamXs>`
+- `<$FaceLaughBeamSm>`
+- `<$FaceLaughBeamMd>`
+- `<$FaceLaughBeamLg>`
+
+
+
+
 
 ## FaceLaughBeam
 

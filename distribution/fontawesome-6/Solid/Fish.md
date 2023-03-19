@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Fish')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FishXs>`
+- `<$FishSm>`
+- `<$FishMd>`
+- `<$FishLg>`
+
+
+
+
 
 ## Fish
 

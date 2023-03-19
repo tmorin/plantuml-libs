@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Brain')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BrainXs>`
+- `<$BrainSm>`
+- `<$BrainMd>`
+- `<$BrainLg>`
+
+
+
+
 
 ## Brain
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PeopleArrows')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PeopleArrowsXs>`
+- `<$PeopleArrowsSm>`
+- `<$PeopleArrowsMd>`
+- `<$PeopleArrowsLg>`
+
+
+
+
 
 ## PeopleArrows
 

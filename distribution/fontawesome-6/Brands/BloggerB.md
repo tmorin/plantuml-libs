@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/BloggerB')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BloggerBXs>`
+- `<$BloggerBSm>`
+- `<$BloggerBMd>`
+- `<$BloggerBLg>`
+
+
+
+
 
 ## BloggerB
 

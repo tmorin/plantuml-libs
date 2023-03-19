@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/MarsDouble')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MarsDoubleXs>`
+- `<$MarsDoubleSm>`
+- `<$MarsDoubleMd>`
+- `<$MarsDoubleLg>`
+
+
+
+
 
 ## MarsDouble
 

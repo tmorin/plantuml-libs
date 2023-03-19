@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/AnchorLock')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AnchorLockXs>`
+- `<$AnchorLockSm>`
+- `<$AnchorLockMd>`
+- `<$AnchorLockLg>`
+
+
+
+
 
 ## AnchorLock
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/OptinMonster')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OptinMonsterXs>`
+- `<$OptinMonsterSm>`
+- `<$OptinMonsterMd>`
+- `<$OptinMonsterLg>`
+
+
+
+
 
 ## OptinMonster
 

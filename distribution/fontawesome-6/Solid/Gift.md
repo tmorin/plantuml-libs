@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Gift')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GiftXs>`
+- `<$GiftSm>`
+- `<$GiftMd>`
+- `<$GiftLg>`
+
+
+
+
 
 ## Gift
 

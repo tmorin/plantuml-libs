@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/SquareNfi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquareNfiXs>`
+- `<$SquareNfiSm>`
+- `<$SquareNfiMd>`
+- `<$SquareNfiLg>`
+
+
+
+
 
 ## SquareNfi
 

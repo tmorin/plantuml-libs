@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BookOpen')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BookOpenXs>`
+- `<$BookOpenSm>`
+- `<$BookOpenMd>`
+- `<$BookOpenLg>`
+
+
+
+
 
 ## BookOpen
 

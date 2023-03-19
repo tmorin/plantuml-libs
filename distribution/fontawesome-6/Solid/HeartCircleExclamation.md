@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HeartCircleExclamation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HeartCircleExclamationXs>`
+- `<$HeartCircleExclamationSm>`
+- `<$HeartCircleExclamationMd>`
+- `<$HeartCircleExclamationLg>`
+
+
+
+
 
 ## HeartCircleExclamation
 

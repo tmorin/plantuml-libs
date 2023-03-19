@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BorderAll')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BorderAllXs>`
+- `<$BorderAllSm>`
+- `<$BorderAllMd>`
+- `<$BorderAllLg>`
+
+
+
+
 
 ## BorderAll
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Grip')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GripXs>`
+- `<$GripSm>`
+- `<$GripMd>`
+- `<$GripLg>`
+
+
+
+
 
 ## Grip
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CalendarWeek')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CalendarWeekXs>`
+- `<$CalendarWeekSm>`
+- `<$CalendarWeekMd>`
+- `<$CalendarWeekLg>`
+
+
+
+
 
 ## CalendarWeek
 

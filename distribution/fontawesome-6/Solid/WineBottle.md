@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/WineBottle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WineBottleXs>`
+- `<$WineBottleSm>`
+- `<$WineBottleMd>`
+- `<$WineBottleLg>`
+
+
+
+
 
 ## WineBottle
 

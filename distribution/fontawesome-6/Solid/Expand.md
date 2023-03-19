@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Expand')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ExpandXs>`
+- `<$ExpandSm>`
+- `<$ExpandMd>`
+- `<$ExpandLg>`
+
+
+
+
 
 ## Expand
 

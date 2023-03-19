@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CandyCane')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CandyCaneXs>`
+- `<$CandyCaneSm>`
+- `<$CandyCaneMd>`
+- `<$CandyCaneLg>`
+
+
+
+
 
 ## CandyCane
 

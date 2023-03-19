@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/RulerCombined')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RulerCombinedXs>`
+- `<$RulerCombinedSm>`
+- `<$RulerCombinedMd>`
+- `<$RulerCombinedLg>`
+
+
+
+
 
 ## RulerCombined
 

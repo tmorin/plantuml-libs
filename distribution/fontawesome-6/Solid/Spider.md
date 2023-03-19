@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Spider')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SpiderXs>`
+- `<$SpiderSm>`
+- `<$SpiderMd>`
+- `<$SpiderLg>`
+
+
+
+
 
 ## Spider
 

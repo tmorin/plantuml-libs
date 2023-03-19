@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/RoadBarrier')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RoadBarrierXs>`
+- `<$RoadBarrierSm>`
+- `<$RoadBarrierMd>`
+- `<$RoadBarrierLg>`
+
+
+
+
 
 ## RoadBarrier
 

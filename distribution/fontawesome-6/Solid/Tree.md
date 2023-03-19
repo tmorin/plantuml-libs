@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Tree')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TreeXs>`
+- `<$TreeSm>`
+- `<$TreeMd>`
+- `<$TreeLg>`
+
+
+
+
 
 ## Tree
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PersonWalkingDashedLineArrowRight')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PersonWalkingDashedLineArrowRightXs>`
+- `<$PersonWalkingDashedLineArrowRightSm>`
+- `<$PersonWalkingDashedLineArrowRightMd>`
+- `<$PersonWalkingDashedLineArrowRightLg>`
+
+
+
+
 
 ## PersonWalkingDashedLineArrowRight
 

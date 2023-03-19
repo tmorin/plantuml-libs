@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Lock')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LockXs>`
+- `<$LockSm>`
+- `<$LockMd>`
+- `<$LockLg>`
+
+
+
+
 
 ## Lock
 

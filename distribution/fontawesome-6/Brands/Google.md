@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Google')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GoogleXs>`
+- `<$GoogleSm>`
+- `<$GoogleMd>`
+- `<$GoogleLg>`
+
+
+
+
 
 ## Google
 

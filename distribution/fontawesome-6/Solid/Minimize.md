@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Minimize')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MinimizeXs>`
+- `<$MinimizeSm>`
+- `<$MinimizeMd>`
+- `<$MinimizeLg>`
+
+
+
+
 
 ## Minimize
 

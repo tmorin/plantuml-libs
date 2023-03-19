@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/UpDownLeftRight')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UpDownLeftRightXs>`
+- `<$UpDownLeftRightSm>`
+- `<$UpDownLeftRightMd>`
+- `<$UpDownLeftRightLg>`
+
+
+
+
 
 ## UpDownLeftRight
 

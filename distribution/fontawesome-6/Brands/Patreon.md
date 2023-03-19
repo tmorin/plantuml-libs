@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Patreon')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PatreonXs>`
+- `<$PatreonSm>`
+- `<$PatreonMd>`
+- `<$PatreonLg>`
+
+
+
+
 
 ## Patreon
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Chair')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChairXs>`
+- `<$ChairSm>`
+- `<$ChairMd>`
+- `<$ChairLg>`
+
+
+
+
 
 ## Chair
 

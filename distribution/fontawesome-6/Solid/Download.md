@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Download')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DownloadXs>`
+- `<$DownloadSm>`
+- `<$DownloadMd>`
+- `<$DownloadLg>`
+
+
+
+
 
 ## Download
 

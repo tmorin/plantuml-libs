@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CodeCompare')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CodeCompareXs>`
+- `<$CodeCompareSm>`
+- `<$CodeCompareMd>`
+- `<$CodeCompareLg>`
+
+
+
+
 
 ## CodeCompare
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/MosquitoNet')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MosquitoNetXs>`
+- `<$MosquitoNetSm>`
+- `<$MosquitoNetMd>`
+- `<$MosquitoNetLg>`
+
+
+
+
 
 ## MosquitoNet
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/LinesLeaning')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LinesLeaningXs>`
+- `<$LinesLeaningSm>`
+- `<$LinesLeaningMd>`
+- `<$LinesLeaningLg>`
+
+
+
+
 
 ## LinesLeaning
 

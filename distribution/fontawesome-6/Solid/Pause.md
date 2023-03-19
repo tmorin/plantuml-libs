@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Pause')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PauseXs>`
+- `<$PauseSm>`
+- `<$PauseMd>`
+- `<$PauseLg>`
+
+
+
+
 
 ## Pause
 

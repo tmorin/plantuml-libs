@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/DiceFour')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DiceFourXs>`
+- `<$DiceFourSm>`
+- `<$DiceFourMd>`
+- `<$DiceFourLg>`
+
+
+
+
 
 ## DiceFour
 

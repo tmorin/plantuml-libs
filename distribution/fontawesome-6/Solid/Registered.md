@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Registered')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RegisteredXs>`
+- `<$RegisteredSm>`
+- `<$RegisteredMd>`
+- `<$RegisteredLg>`
+
+
+
+
 
 ## Registered
 

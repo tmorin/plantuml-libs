@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HeartCircleBolt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HeartCircleBoltXs>`
+- `<$HeartCircleBoltSm>`
+- `<$HeartCircleBoltMd>`
+- `<$HeartCircleBoltLg>`
+
+
+
+
 
 ## HeartCircleBolt
 

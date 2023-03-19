@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Genderless')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GenderlessXs>`
+- `<$GenderlessSm>`
+- `<$GenderlessMd>`
+- `<$GenderlessLg>`
+
+
+
+
 
 ## Genderless
 

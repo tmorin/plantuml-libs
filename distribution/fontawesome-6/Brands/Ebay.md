@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Ebay')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EbayXs>`
+- `<$EbaySm>`
+- `<$EbayMd>`
+- `<$EbayLg>`
+
+
+
+
 
 ## Ebay
 

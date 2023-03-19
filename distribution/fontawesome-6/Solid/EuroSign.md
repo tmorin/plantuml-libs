@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/EuroSign')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EuroSignXs>`
+- `<$EuroSignSm>`
+- `<$EuroSignMd>`
+- `<$EuroSignLg>`
+
+
+
+
 
 ## EuroSign
 

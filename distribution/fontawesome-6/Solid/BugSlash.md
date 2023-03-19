@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BugSlash')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BugSlashXs>`
+- `<$BugSlashSm>`
+- `<$BugSlashMd>`
+- `<$BugSlashLg>`
+
+
+
+
 
 ## BugSlash
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Cloudversify')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudversifyXs>`
+- `<$CloudversifySm>`
+- `<$CloudversifyMd>`
+- `<$CloudversifyLg>`
+
+
+
+
 
 ## Cloudversify
 

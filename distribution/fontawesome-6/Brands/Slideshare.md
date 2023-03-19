@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Slideshare')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SlideshareXs>`
+- `<$SlideshareSm>`
+- `<$SlideshareMd>`
+- `<$SlideshareLg>`
+
+
+
+
 
 ## Slideshare
 

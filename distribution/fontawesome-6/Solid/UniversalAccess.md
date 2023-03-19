@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/UniversalAccess')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UniversalAccessXs>`
+- `<$UniversalAccessSm>`
+- `<$UniversalAccessMd>`
+- `<$UniversalAccessLg>`
+
+
+
+
 
 ## UniversalAccess
 

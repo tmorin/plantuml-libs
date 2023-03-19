@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Transgender')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TransgenderXs>`
+- `<$TransgenderSm>`
+- `<$TransgenderMd>`
+- `<$TransgenderLg>`
+
+
+
+
 
 ## Transgender
 

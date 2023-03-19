@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Shopify')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShopifyXs>`
+- `<$ShopifySm>`
+- `<$ShopifyMd>`
+- `<$ShopifyLg>`
+
+
+
+
 
 ## Shopify
 

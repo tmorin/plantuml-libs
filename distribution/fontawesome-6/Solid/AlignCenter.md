@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/AlignCenter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AlignCenterXs>`
+- `<$AlignCenterSm>`
+- `<$AlignCenterMd>`
+- `<$AlignCenterLg>`
+
+
+
+
 
 ## AlignCenter
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Deezer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DeezerXs>`
+- `<$DeezerSm>`
+- `<$DeezerMd>`
+- `<$DeezerLg>`
+
+
+
+
 
 ## Deezer
 

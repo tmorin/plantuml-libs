@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BookMedical')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BookMedicalXs>`
+- `<$BookMedicalSm>`
+- `<$BookMedicalMd>`
+- `<$BookMedicalLg>`
+
+
+
+
 
 ## BookMedical
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Telegram')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TelegramXs>`
+- `<$TelegramSm>`
+- `<$TelegramMd>`
+- `<$TelegramLg>`
+
+
+
+
 
 ## Telegram
 

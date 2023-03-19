@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/SpaghettiMonsterFlying')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SpaghettiMonsterFlyingXs>`
+- `<$SpaghettiMonsterFlyingSm>`
+- `<$SpaghettiMonsterFlyingMd>`
+- `<$SpaghettiMonsterFlyingLg>`
+
+
+
+
 
 ## SpaghettiMonsterFlying
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/CcAmazonPay')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CcAmazonPayXs>`
+- `<$CcAmazonPaySm>`
+- `<$CcAmazonPayMd>`
+- `<$CcAmazonPayLg>`
+
+
+
+
 
 ## CcAmazonPay
 

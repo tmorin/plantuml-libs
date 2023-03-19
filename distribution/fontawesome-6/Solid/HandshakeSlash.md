@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HandshakeSlash')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HandshakeSlashXs>`
+- `<$HandshakeSlashSm>`
+- `<$HandshakeSlashMd>`
+- `<$HandshakeSlashLg>`
+
+
+
+
 
 ## HandshakeSlash
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Award')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwardXs>`
+- `<$AwardSm>`
+- `<$AwardMd>`
+- `<$AwardLg>`
+
+
+
+
 
 ## Award
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ChildDress')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChildDressXs>`
+- `<$ChildDressSm>`
+- `<$ChildDressMd>`
+- `<$ChildDressLg>`
+
+
+
+
 
 ## ChildDress
 

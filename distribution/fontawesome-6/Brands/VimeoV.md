@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/VimeoV')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VimeoVXs>`
+- `<$VimeoVSm>`
+- `<$VimeoVMd>`
+- `<$VimeoVLg>`
+
+
+
+
 
 ## VimeoV
 

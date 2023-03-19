@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Heading')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HeadingXs>`
+- `<$HeadingSm>`
+- `<$HeadingMd>`
+- `<$HeadingLg>`
+
+
+
+
 
 ## Heading
 

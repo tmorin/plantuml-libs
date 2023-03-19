@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Behance')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BehanceXs>`
+- `<$BehanceSm>`
+- `<$BehanceMd>`
+- `<$BehanceLg>`
+
+
+
+
 
 ## Behance
 

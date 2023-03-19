@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Drupal')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DrupalXs>`
+- `<$DrupalSm>`
+- `<$DrupalMd>`
+- `<$DrupalLg>`
+
+
+
+
 
 ## Drupal
 

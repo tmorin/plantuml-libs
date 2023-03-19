@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ArrowsSplitUpAndLeft')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ArrowsSplitUpAndLeftXs>`
+- `<$ArrowsSplitUpAndLeftSm>`
+- `<$ArrowsSplitUpAndLeftMd>`
+- `<$ArrowsSplitUpAndLeftLg>`
+
+
+
+
 
 ## ArrowsSplitUpAndLeft
 

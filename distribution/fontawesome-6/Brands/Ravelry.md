@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Ravelry')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RavelryXs>`
+- `<$RavelrySm>`
+- `<$RavelryMd>`
+- `<$RavelryLg>`
+
+
+
+
 
 ## Ravelry
 

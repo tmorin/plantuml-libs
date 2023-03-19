@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BellSlash')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BellSlashXs>`
+- `<$BellSlashSm>`
+- `<$BellSlashMd>`
+- `<$BellSlashLg>`
+
+
+
+
 
 ## BellSlash
 

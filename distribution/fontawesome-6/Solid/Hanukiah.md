@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Hanukiah')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HanukiahXs>`
+- `<$HanukiahSm>`
+- `<$HanukiahMd>`
+- `<$HanukiahLg>`
+
+
+
+
 
 ## Hanukiah
 

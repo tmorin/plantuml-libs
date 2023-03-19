@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HouseMedical')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HouseMedicalXs>`
+- `<$HouseMedicalSm>`
+- `<$HouseMedicalMd>`
+- `<$HouseMedicalLg>`
+
+
+
+
 
 ## HouseMedical
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/SquareWhatsapp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquareWhatsappXs>`
+- `<$SquareWhatsappSm>`
+- `<$SquareWhatsappMd>`
+- `<$SquareWhatsappLg>`
+
+
+
+
 
 ## SquareWhatsapp
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ArrowsDownToPeople')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ArrowsDownToPeopleXs>`
+- `<$ArrowsDownToPeopleSm>`
+- `<$ArrowsDownToPeopleMd>`
+- `<$ArrowsDownToPeopleLg>`
+
+
+
+
 
 ## ArrowsDownToPeople
 

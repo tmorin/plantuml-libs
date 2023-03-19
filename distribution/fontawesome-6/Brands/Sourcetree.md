@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Sourcetree')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SourcetreeXs>`
+- `<$SourcetreeSm>`
+- `<$SourcetreeMd>`
+- `<$SourcetreeLg>`
+
+
+
+
 
 ## Sourcetree
 

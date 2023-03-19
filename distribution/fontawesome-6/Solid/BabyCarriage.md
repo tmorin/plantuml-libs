@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BabyCarriage')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BabyCarriageXs>`
+- `<$BabyCarriageSm>`
+- `<$BabyCarriageMd>`
+- `<$BabyCarriageLg>`
+
+
+
+
 
 ## BabyCarriage
 

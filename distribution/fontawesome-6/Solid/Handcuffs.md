@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Handcuffs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HandcuffsXs>`
+- `<$HandcuffsSm>`
+- `<$HandcuffsMd>`
+- `<$HandcuffsLg>`
+
+
+
+
 
 ## Handcuffs
 

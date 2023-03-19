@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CompassDrafting')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CompassDraftingXs>`
+- `<$CompassDraftingSm>`
+- `<$CompassDraftingMd>`
+- `<$CompassDraftingLg>`
+
+
+
+
 
 ## CompassDrafting
 

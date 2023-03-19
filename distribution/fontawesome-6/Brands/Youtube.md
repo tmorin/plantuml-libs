@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Youtube')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$YoutubeXs>`
+- `<$YoutubeSm>`
+- `<$YoutubeMd>`
+- `<$YoutubeLg>`
+
+
+
+
 
 ## Youtube
 

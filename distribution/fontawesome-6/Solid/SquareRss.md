@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/SquareRss')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquareRssXs>`
+- `<$SquareRssSm>`
+- `<$SquareRssMd>`
+- `<$SquareRssLg>`
+
+
+
+
 
 ## SquareRss
 

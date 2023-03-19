@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/Envelope')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EnvelopeXs>`
+- `<$EnvelopeSm>`
+- `<$EnvelopeMd>`
+- `<$EnvelopeLg>`
+
+
+
+
 
 ## Envelope
 

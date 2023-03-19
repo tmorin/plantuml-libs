@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/SquareTwitter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquareTwitterXs>`
+- `<$SquareTwitterSm>`
+- `<$SquareTwitterMd>`
+- `<$SquareTwitterLg>`
+
+
+
+
 
 ## SquareTwitter
 

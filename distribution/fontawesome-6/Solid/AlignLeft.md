@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/AlignLeft')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AlignLeftXs>`
+- `<$AlignLeftSm>`
+- `<$AlignLeftMd>`
+- `<$AlignLeftLg>`
+
+
+
+
 
 ## AlignLeft
 

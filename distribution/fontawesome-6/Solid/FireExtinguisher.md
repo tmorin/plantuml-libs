@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/FireExtinguisher')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FireExtinguisherXs>`
+- `<$FireExtinguisherSm>`
+- `<$FireExtinguisherMd>`
+- `<$FireExtinguisherLg>`
+
+
+
+
 
 ## FireExtinguisher
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PenRuler')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PenRulerXs>`
+- `<$PenRulerSm>`
+- `<$PenRulerMd>`
+- `<$PenRulerLg>`
+
+
+
+
 
 ## PenRuler
 

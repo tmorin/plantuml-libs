@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ArrowTurnDown')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ArrowTurnDownXs>`
+- `<$ArrowTurnDownSm>`
+- `<$ArrowTurnDownMd>`
+- `<$ArrowTurnDownLg>`
+
+
+
+
 
 ## ArrowTurnDown
 

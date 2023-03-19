@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/FileCircleQuestion')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FileCircleQuestionXs>`
+- `<$FileCircleQuestionSm>`
+- `<$FileCircleQuestionMd>`
+- `<$FileCircleQuestionLg>`
+
+
+
+
 
 ## FileCircleQuestion
 

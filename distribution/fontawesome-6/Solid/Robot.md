@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Robot')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RobotXs>`
+- `<$RobotSm>`
+- `<$RobotMd>`
+- `<$RobotLg>`
+
+
+
+
 
 ## Robot
 

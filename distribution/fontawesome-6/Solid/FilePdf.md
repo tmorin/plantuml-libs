@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/FilePdf')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FilePdfXs>`
+- `<$FilePdfSm>`
+- `<$FilePdfMd>`
+- `<$FilePdfLg>`
+
+
+
+
 
 ## FilePdf
 

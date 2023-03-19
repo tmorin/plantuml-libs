@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Swatchbook')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SwatchbookXs>`
+- `<$SwatchbookSm>`
+- `<$SwatchbookMd>`
+- `<$SwatchbookLg>`
+
+
+
+
 
 ## Swatchbook
 

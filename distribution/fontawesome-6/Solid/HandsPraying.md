@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HandsPraying')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HandsPrayingXs>`
+- `<$HandsPrayingSm>`
+- `<$HandsPrayingMd>`
+- `<$HandsPrayingLg>`
+
+
+
+
 
 ## HandsPraying
 

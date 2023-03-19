@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Pushed')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PushedXs>`
+- `<$PushedSm>`
+- `<$PushedMd>`
+- `<$PushedLg>`
+
+
+
+
 
 ## Pushed
 

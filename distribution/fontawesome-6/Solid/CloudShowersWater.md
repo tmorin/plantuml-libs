@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CloudShowersWater')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudShowersWaterXs>`
+- `<$CloudShowersWaterSm>`
+- `<$CloudShowersWaterMd>`
+- `<$CloudShowersWaterLg>`
+
+
+
+
 
 ## CloudShowersWater
 

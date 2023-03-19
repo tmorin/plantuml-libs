@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/GooglePlusG')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GooglePlusGXs>`
+- `<$GooglePlusGSm>`
+- `<$GooglePlusGMd>`
+- `<$GooglePlusGLg>`
+
+
+
+
 
 ## GooglePlusG
 

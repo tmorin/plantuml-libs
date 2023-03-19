@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Microsoft')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MicrosoftXs>`
+- `<$MicrosoftSm>`
+- `<$MicrosoftMd>`
+- `<$MicrosoftLg>`
+
+
+
+
 
 ## Microsoft
 

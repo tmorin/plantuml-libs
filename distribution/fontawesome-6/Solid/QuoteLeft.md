@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/QuoteLeft')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$QuoteLeftXs>`
+- `<$QuoteLeftSm>`
+- `<$QuoteLeftMd>`
+- `<$QuoteLeftLg>`
+
+
+
+
 
 ## QuoteLeft
 

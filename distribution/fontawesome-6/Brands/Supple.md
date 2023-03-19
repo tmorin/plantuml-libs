@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Supple')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SuppleXs>`
+- `<$SuppleSm>`
+- `<$SuppleMd>`
+- `<$SuppleLg>`
+
+
+
+
 
 ## Supple
 

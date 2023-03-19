@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BasketShopping')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BasketShoppingXs>`
+- `<$BasketShoppingSm>`
+- `<$BasketShoppingMd>`
+- `<$BasketShoppingLg>`
+
+
+
+
 
 ## BasketShopping
 

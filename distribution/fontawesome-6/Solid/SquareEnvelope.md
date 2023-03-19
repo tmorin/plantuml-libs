@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/SquareEnvelope')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquareEnvelopeXs>`
+- `<$SquareEnvelopeSm>`
+- `<$SquareEnvelopeMd>`
+- `<$SquareEnvelopeLg>`
+
+
+
+
 
 ## SquareEnvelope
 

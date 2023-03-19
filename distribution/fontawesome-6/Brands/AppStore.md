@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/AppStore')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AppStoreXs>`
+- `<$AppStoreSm>`
+- `<$AppStoreMd>`
+- `<$AppStoreLg>`
+
+
+
+
 
 ## AppStore
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/CircleDot')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CircleDotXs>`
+- `<$CircleDotSm>`
+- `<$CircleDotMd>`
+- `<$CircleDotLg>`
+
+
+
+
 
 ## CircleDot
 

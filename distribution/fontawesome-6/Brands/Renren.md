@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Renren')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RenrenXs>`
+- `<$RenrenSm>`
+- `<$RenrenMd>`
+- `<$RenrenLg>`
+
+
+
+
 
 ## Renren
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/StackOverflow')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StackOverflowXs>`
+- `<$StackOverflowSm>`
+- `<$StackOverflowMd>`
+- `<$StackOverflowLg>`
+
+
+
+
 
 ## StackOverflow
 

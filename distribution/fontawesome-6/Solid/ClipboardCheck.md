@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ClipboardCheck')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ClipboardCheckXs>`
+- `<$ClipboardCheckSm>`
+- `<$ClipboardCheckMd>`
+- `<$ClipboardCheckLg>`
+
+
+
+
 
 ## ClipboardCheck
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BuildingFlag')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BuildingFlagXs>`
+- `<$BuildingFlagSm>`
+- `<$BuildingFlagMd>`
+- `<$BuildingFlagLg>`
+
+
+
+
 
 ## BuildingFlag
 

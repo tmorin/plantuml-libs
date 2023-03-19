@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Hive')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HiveXs>`
+- `<$HiveSm>`
+- `<$HiveMd>`
+- `<$HiveLg>`
+
+
+
+
 
 ## Hive
 

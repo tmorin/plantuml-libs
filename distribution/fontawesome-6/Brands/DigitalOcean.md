@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/DigitalOcean')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DigitalOceanXs>`
+- `<$DigitalOceanSm>`
+- `<$DigitalOceanMd>`
+- `<$DigitalOceanLg>`
+
+
+
+
 
 ## DigitalOcean
 

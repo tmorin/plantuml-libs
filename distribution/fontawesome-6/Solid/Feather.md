@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Feather')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FeatherXs>`
+- `<$FeatherSm>`
+- `<$FeatherMd>`
+- `<$FeatherLg>`
+
+
+
+
 
 ## Feather
 

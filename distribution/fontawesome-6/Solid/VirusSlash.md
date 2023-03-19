@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/VirusSlash')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VirusSlashXs>`
+- `<$VirusSlashSm>`
+- `<$VirusSlashMd>`
+- `<$VirusSlashLg>`
+
+
+
+
 
 ## VirusSlash
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/FileContract')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FileContractXs>`
+- `<$FileContractSm>`
+- `<$FileContractMd>`
+- `<$FileContractLg>`
+
+
+
+
 
 ## FileContract
 

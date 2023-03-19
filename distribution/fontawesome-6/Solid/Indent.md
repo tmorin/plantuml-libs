@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Indent')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IndentXs>`
+- `<$IndentSm>`
+- `<$IndentMd>`
+- `<$IndentLg>`
+
+
+
+
 
 ## Indent
 

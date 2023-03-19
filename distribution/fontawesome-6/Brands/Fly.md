@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Fly')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FlyXs>`
+- `<$FlySm>`
+- `<$FlyMd>`
+- `<$FlyLg>`
+
+
+
+
 
 ## Fly
 

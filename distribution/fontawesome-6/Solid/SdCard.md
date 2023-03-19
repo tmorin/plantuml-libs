@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/SdCard')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SdCardXs>`
+- `<$SdCardSm>`
+- `<$SdCardMd>`
+- `<$SdCardLg>`
+
+
+
+
 
 ## SdCard
 

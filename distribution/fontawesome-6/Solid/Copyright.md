@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Copyright')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CopyrightXs>`
+- `<$CopyrightSm>`
+- `<$CopyrightMd>`
+- `<$CopyrightLg>`
+
+
+
+
 
 ## Copyright
 

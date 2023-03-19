@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/TemperatureFull')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TemperatureFullXs>`
+- `<$TemperatureFullSm>`
+- `<$TemperatureFullMd>`
+- `<$TemperatureFullLg>`
+
+
+
+
 
 ## TemperatureFull
 

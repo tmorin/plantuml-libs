@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Shapes')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShapesXs>`
+- `<$ShapesSm>`
+- `<$ShapesMd>`
+- `<$ShapesLg>`
+
+
+
+
 
 ## Shapes
 

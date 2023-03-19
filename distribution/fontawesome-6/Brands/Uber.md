@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Uber')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UberXs>`
+- `<$UberSm>`
+- `<$UberMd>`
+- `<$UberLg>`
+
+
+
+
 
 ## Uber
 

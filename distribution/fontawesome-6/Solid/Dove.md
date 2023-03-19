@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Dove')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DoveXs>`
+- `<$DoveSm>`
+- `<$DoveMd>`
+- `<$DoveLg>`
+
+
+
+
 
 ## Dove
 

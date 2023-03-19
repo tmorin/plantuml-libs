@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Chromecast')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChromecastXs>`
+- `<$ChromecastSm>`
+- `<$ChromecastMd>`
+- `<$ChromecastLg>`
+
+
+
+
 
 ## Chromecast
 

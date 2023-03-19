@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HeadSideVirus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HeadSideVirusXs>`
+- `<$HeadSideVirusSm>`
+- `<$HeadSideVirusMd>`
+- `<$HeadSideVirusLg>`
+
+
+
+
 
 ## HeadSideVirus
 

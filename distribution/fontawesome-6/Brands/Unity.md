@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Unity')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UnityXs>`
+- `<$UnitySm>`
+- `<$UnityMd>`
+- `<$UnityLg>`
+
+
+
+
 
 ## Unity
 

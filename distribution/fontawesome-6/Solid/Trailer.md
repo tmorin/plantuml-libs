@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Trailer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TrailerXs>`
+- `<$TrailerSm>`
+- `<$TrailerMd>`
+- `<$TrailerLg>`
+
+
+
+
 
 ## Trailer
 

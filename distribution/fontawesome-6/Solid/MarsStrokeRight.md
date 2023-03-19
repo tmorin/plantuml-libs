@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/MarsStrokeRight')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MarsStrokeRightXs>`
+- `<$MarsStrokeRightSm>`
+- `<$MarsStrokeRightMd>`
+- `<$MarsStrokeRightLg>`
+
+
+
+
 
 ## MarsStrokeRight
 

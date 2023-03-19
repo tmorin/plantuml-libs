@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/SquareBehance')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquareBehanceXs>`
+- `<$SquareBehanceSm>`
+- `<$SquareBehanceMd>`
+- `<$SquareBehanceLg>`
+
+
+
+
 
 ## SquareBehance
 

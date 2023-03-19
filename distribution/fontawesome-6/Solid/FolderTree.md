@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/FolderTree')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FolderTreeXs>`
+- `<$FolderTreeSm>`
+- `<$FolderTreeMd>`
+- `<$FolderTreeLg>`
+
+
+
+
 
 ## FolderTree
 

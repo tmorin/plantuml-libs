@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ArrowRightToCity')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ArrowRightToCityXs>`
+- `<$ArrowRightToCitySm>`
+- `<$ArrowRightToCityMd>`
+- `<$ArrowRightToCityLg>`
+
+
+
+
 
 ## ArrowRightToCity
 

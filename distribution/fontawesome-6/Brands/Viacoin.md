@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Viacoin')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ViacoinXs>`
+- `<$ViacoinSm>`
+- `<$ViacoinMd>`
+- `<$ViacoinLg>`
+
+
+
+
 
 ## Viacoin
 

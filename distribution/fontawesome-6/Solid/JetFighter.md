@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/JetFighter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JetFighterXs>`
+- `<$JetFighterSm>`
+- `<$JetFighterMd>`
+- `<$JetFighterLg>`
+
+
+
+
 
 ## JetFighter
 

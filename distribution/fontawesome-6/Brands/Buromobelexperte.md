@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Buromobelexperte')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BuromobelexperteXs>`
+- `<$BuromobelexperteSm>`
+- `<$BuromobelexperteMd>`
+- `<$BuromobelexperteLg>`
+
+
+
+
 
 ## Buromobelexperte
 

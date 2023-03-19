@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/NfcSymbol')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NfcSymbolXs>`
+- `<$NfcSymbolSm>`
+- `<$NfcSymbolMd>`
+- `<$NfcSymbolLg>`
+
+
+
+
 
 ## NfcSymbol
 

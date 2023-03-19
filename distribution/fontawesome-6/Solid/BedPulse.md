@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BedPulse')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BedPulseXs>`
+- `<$BedPulseSm>`
+- `<$BedPulseMd>`
+- `<$BedPulseLg>`
+
+
+
+
 
 ## BedPulse
 

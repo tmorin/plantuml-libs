@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Trademark')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TrademarkXs>`
+- `<$TrademarkSm>`
+- `<$TrademarkMd>`
+- `<$TrademarkLg>`
+
+
+
+
 
 ## Trademark
 

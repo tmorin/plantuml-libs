@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/YCombinator')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$YCombinatorXs>`
+- `<$YCombinatorSm>`
+- `<$YCombinatorMd>`
+- `<$YCombinatorLg>`
+
+
+
+
 
 ## YCombinator
 

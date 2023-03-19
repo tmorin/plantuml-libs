@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Superpowers')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SuperpowersXs>`
+- `<$SuperpowersSm>`
+- `<$SuperpowersMd>`
+- `<$SuperpowersLg>`
+
+
+
+
 
 ## Superpowers
 

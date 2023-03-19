@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Line')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LineXs>`
+- `<$LineSm>`
+- `<$LineMd>`
+- `<$LineLg>`
+
+
+
+
 
 ## Line
 

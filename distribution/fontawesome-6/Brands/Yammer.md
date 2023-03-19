@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Yammer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$YammerXs>`
+- `<$YammerSm>`
+- `<$YammerMd>`
+- `<$YammerLg>`
+
+
+
+
 
 ## Yammer
 

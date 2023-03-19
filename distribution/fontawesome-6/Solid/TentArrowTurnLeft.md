@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/TentArrowTurnLeft')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TentArrowTurnLeftXs>`
+- `<$TentArrowTurnLeftSm>`
+- `<$TentArrowTurnLeftMd>`
+- `<$TentArrowTurnLeftLg>`
+
+
+
+
 
 ## TentArrowTurnLeft
 

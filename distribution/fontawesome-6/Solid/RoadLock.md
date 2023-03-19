@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/RoadLock')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RoadLockXs>`
+- `<$RoadLockSm>`
+- `<$RoadLockMd>`
+- `<$RoadLockLg>`
+
+
+
+
 
 ## RoadLock
 

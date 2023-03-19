@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Hips')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HipsXs>`
+- `<$HipsSm>`
+- `<$HipsMd>`
+- `<$HipsLg>`
+
+
+
+
 
 ## Hips
 

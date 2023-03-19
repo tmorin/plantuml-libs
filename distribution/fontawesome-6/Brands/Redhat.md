@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Redhat')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RedhatXs>`
+- `<$RedhatSm>`
+- `<$RedhatMd>`
+- `<$RedhatLg>`
+
+
+
+
 
 ## Redhat
 

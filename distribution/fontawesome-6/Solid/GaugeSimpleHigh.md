@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/GaugeSimpleHigh')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GaugeSimpleHighXs>`
+- `<$GaugeSimpleHighSm>`
+- `<$GaugeSimpleHighMd>`
+- `<$GaugeSimpleHighLg>`
+
+
+
+
 
 ## GaugeSimpleHigh
 

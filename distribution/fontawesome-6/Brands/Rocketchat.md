@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Rocketchat')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RocketchatXs>`
+- `<$RocketchatSm>`
+- `<$RocketchatMd>`
+- `<$RocketchatLg>`
+
+
+
+
 
 ## Rocketchat
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/AlignJustify')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AlignJustifyXs>`
+- `<$AlignJustifySm>`
+- `<$AlignJustifyMd>`
+- `<$AlignJustifyLg>`
+
+
+
+
 
 ## AlignJustify
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Buysellads')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BuyselladsXs>`
+- `<$BuyselladsSm>`
+- `<$BuyselladsMd>`
+- `<$BuyselladsLg>`
+
+
+
+
 
 ## Buysellads
 

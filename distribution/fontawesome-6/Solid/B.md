@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/B')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BXs>`
+- `<$BSm>`
+- `<$BMd>`
+- `<$BLg>`
+
+
+
+
 
 ## B
 

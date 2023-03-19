@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Vimeo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VimeoXs>`
+- `<$VimeoSm>`
+- `<$VimeoMd>`
+- `<$VimeoLg>`
+
+
+
+
 
 ## Vimeo
 

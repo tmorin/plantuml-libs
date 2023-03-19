@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Searchengin')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SearchenginXs>`
+- `<$SearchenginSm>`
+- `<$SearchenginMd>`
+- `<$SearchenginLg>`
+
+
+
+
 
 ## Searchengin
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/ChessKnight')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChessKnightXs>`
+- `<$ChessKnightSm>`
+- `<$ChessKnightMd>`
+- `<$ChessKnightLg>`
+
+
+
+
 
 ## ChessKnight
 

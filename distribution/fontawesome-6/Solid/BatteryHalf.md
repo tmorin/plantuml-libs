@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BatteryHalf')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BatteryHalfXs>`
+- `<$BatteryHalfSm>`
+- `<$BatteryHalfMd>`
+- `<$BatteryHalfLg>`
+
+
+
+
 
 ## BatteryHalf
 

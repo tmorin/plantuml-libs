@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/Clone')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloneXs>`
+- `<$CloneSm>`
+- `<$CloneMd>`
+- `<$CloneLg>`
+
+
+
+
 
 ## Clone
 

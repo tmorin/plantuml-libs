@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Airbnb')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AirbnbXs>`
+- `<$AirbnbSm>`
+- `<$AirbnbMd>`
+- `<$AirbnbLg>`
+
+
+
+
 
 ## Airbnb
 

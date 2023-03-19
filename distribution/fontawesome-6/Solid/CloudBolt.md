@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CloudBolt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudBoltXs>`
+- `<$CloudBoltSm>`
+- `<$CloudBoltMd>`
+- `<$CloudBoltLg>`
+
+
+
+
 
 ## CloudBolt
 

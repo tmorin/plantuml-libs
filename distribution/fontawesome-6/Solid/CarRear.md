@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CarRear')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CarRearXs>`
+- `<$CarRearSm>`
+- `<$CarRearMd>`
+- `<$CarRearLg>`
+
+
+
+
 
 ## CarRear
 

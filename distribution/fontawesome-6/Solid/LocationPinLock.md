@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/LocationPinLock')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LocationPinLockXs>`
+- `<$LocationPinLockSm>`
+- `<$LocationPinLockMd>`
+- `<$LocationPinLockLg>`
+
+
+
+
 
 ## LocationPinLock
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Napster')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NapsterXs>`
+- `<$NapsterSm>`
+- `<$NapsterMd>`
+- `<$NapsterLg>`
+
+
+
+
 
 ## Napster
 

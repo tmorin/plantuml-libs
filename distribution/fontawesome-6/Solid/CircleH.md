@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CircleH')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CircleHXs>`
+- `<$CircleHSm>`
+- `<$CircleHMd>`
+- `<$CircleHLg>`
+
+
+
+
 
 ## CircleH
 

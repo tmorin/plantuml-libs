@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Mosquito')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MosquitoXs>`
+- `<$MosquitoSm>`
+- `<$MosquitoMd>`
+- `<$MosquitoLg>`
+
+
+
+
 
 ## Mosquito
 

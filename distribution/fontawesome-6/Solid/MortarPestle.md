@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/MortarPestle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MortarPestleXs>`
+- `<$MortarPestleSm>`
+- `<$MortarPestleMd>`
+- `<$MortarPestleLg>`
+
+
+
+
 
 ## MortarPestle
 

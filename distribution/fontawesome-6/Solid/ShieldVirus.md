@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ShieldVirus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShieldVirusXs>`
+- `<$ShieldVirusSm>`
+- `<$ShieldVirusMd>`
+- `<$ShieldVirusLg>`
+
+
+
+
 
 ## ShieldVirus
 

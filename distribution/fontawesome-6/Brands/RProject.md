@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/RProject')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RProjectXs>`
+- `<$RProjectSm>`
+- `<$RProjectMd>`
+- `<$RProjectLg>`
+
+
+
+
 
 ## RProject
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/AustralSign')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AustralSignXs>`
+- `<$AustralSignSm>`
+- `<$AustralSignMd>`
+- `<$AustralSignLg>`
+
+
+
+
 
 ## AustralSign
 

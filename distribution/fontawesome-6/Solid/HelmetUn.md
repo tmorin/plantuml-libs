@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HelmetUn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HelmetUnXs>`
+- `<$HelmetUnSm>`
+- `<$HelmetUnMd>`
+- `<$HelmetUnLg>`
+
+
+
+
 
 ## HelmetUn
 

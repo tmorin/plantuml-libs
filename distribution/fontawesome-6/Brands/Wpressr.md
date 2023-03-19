@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Wpressr')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WpressrXs>`
+- `<$WpressrSm>`
+- `<$WpressrMd>`
+- `<$WpressrLg>`
+
+
+
+
 
 ## Wpressr
 

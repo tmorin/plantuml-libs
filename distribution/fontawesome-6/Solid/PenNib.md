@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PenNib')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PenNibXs>`
+- `<$PenNibSm>`
+- `<$PenNibMd>`
+- `<$PenNibLg>`
+
+
+
+
 
 ## PenNib
 

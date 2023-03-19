@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/EyeDropper')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EyeDropperXs>`
+- `<$EyeDropperSm>`
+- `<$EyeDropperMd>`
+- `<$EyeDropperLg>`
+
+
+
+
 
 ## EyeDropper
 

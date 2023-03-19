@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Horse')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HorseXs>`
+- `<$HorseSm>`
+- `<$HorseMd>`
+- `<$HorseLg>`
+
+
+
+
 
 ## Horse
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Sith')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SithXs>`
+- `<$SithSm>`
+- `<$SithMd>`
+- `<$SithLg>`
+
+
+
+
 
 ## Sith
 

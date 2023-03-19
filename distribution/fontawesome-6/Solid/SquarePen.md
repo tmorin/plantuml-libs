@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/SquarePen')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquarePenXs>`
+- `<$SquarePenSm>`
+- `<$SquarePenMd>`
+- `<$SquarePenLg>`
+
+
+
+
 
 ## SquarePen
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Bahai')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BahaiXs>`
+- `<$BahaiSm>`
+- `<$BahaiMd>`
+- `<$BahaiLg>`
+
+
+
+
 
 ## Bahai
 

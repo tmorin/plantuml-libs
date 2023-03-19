@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ChildCombatant')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChildCombatantXs>`
+- `<$ChildCombatantSm>`
+- `<$ChildCombatantMd>`
+- `<$ChildCombatantLg>`
+
+
+
+
 
 ## ChildCombatant
 

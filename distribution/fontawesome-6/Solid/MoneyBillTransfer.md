@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/MoneyBillTransfer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MoneyBillTransferXs>`
+- `<$MoneyBillTransferSm>`
+- `<$MoneyBillTransferMd>`
+- `<$MoneyBillTransferLg>`
+
+
+
+
 
 ## MoneyBillTransfer
 

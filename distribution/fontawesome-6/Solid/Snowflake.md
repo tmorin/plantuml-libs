@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Snowflake')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SnowflakeXs>`
+- `<$SnowflakeSm>`
+- `<$SnowflakeMd>`
+- `<$SnowflakeLg>`
+
+
+
+
 
 ## Snowflake
 

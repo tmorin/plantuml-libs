@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/SuitcaseRolling')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SuitcaseRollingXs>`
+- `<$SuitcaseRollingSm>`
+- `<$SuitcaseRollingMd>`
+- `<$SuitcaseRollingLg>`
+
+
+
+
 
 ## SuitcaseRolling
 

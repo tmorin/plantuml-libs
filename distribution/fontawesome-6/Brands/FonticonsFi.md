@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/FonticonsFi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FonticonsFiXs>`
+- `<$FonticonsFiSm>`
+- `<$FonticonsFiMd>`
+- `<$FonticonsFiLg>`
+
+
+
+
 
 ## FonticonsFi
 

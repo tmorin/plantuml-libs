@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Burger')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BurgerXs>`
+- `<$BurgerSm>`
+- `<$BurgerMd>`
+- `<$BurgerLg>`
+
+
+
+
 
 ## Burger
 

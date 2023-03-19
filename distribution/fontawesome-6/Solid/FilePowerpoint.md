@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/FilePowerpoint')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FilePowerpointXs>`
+- `<$FilePowerpointSm>`
+- `<$FilePowerpointMd>`
+- `<$FilePowerpointLg>`
+
+
+
+
 
 ## FilePowerpoint
 

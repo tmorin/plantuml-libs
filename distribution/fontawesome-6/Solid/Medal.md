@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Medal')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MedalXs>`
+- `<$MedalSm>`
+- `<$MedalMd>`
+- `<$MedalLg>`
+
+
+
+
 
 ## Medal
 

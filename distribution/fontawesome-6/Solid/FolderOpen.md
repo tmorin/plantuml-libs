@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/FolderOpen')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FolderOpenXs>`
+- `<$FolderOpenSm>`
+- `<$FolderOpenMd>`
+- `<$FolderOpenLg>`
+
+
+
+
 
 ## FolderOpen
 

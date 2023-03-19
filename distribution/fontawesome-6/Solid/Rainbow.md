@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Rainbow')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RainbowXs>`
+- `<$RainbowSm>`
+- `<$RainbowMd>`
+- `<$RainbowLg>`
+
+
+
+
 
 ## Rainbow
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/StarHalf')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StarHalfXs>`
+- `<$StarHalfSm>`
+- `<$StarHalfMd>`
+- `<$StarHalfLg>`
+
+
+
+
 
 ## StarHalf
 

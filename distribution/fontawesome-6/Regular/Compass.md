@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/Compass')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CompassXs>`
+- `<$CompassSm>`
+- `<$CompassMd>`
+- `<$CompassLg>`
+
+
+
+
 
 ## Compass
 

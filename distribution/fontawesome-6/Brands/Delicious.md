@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Delicious')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DeliciousXs>`
+- `<$DeliciousSm>`
+- `<$DeliciousMd>`
+- `<$DeliciousLg>`
+
+
+
+
 
 ## Delicious
 

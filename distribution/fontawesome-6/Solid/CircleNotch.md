@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CircleNotch')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CircleNotchXs>`
+- `<$CircleNotchSm>`
+- `<$CircleNotchMd>`
+- `<$CircleNotchLg>`
+
+
+
+
 
 ## CircleNotch
 

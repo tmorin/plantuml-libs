@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PlaneLock')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PlaneLockXs>`
+- `<$PlaneLockSm>`
+- `<$PlaneLockMd>`
+- `<$PlaneLockLg>`
+
+
+
+
 
 ## PlaneLock
 

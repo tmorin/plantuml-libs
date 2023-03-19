@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HotTubPerson')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HotTubPersonXs>`
+- `<$HotTubPersonSm>`
+- `<$HotTubPersonMd>`
+- `<$HotTubPersonLg>`
+
+
+
+
 
 ## HotTubPerson
 

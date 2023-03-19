@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Smog')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SmogXs>`
+- `<$SmogSm>`
+- `<$SmogMd>`
+- `<$SmogLg>`
+
+
+
+
 
 ## Smog
 

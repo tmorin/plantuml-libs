@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/R')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RXs>`
+- `<$RSm>`
+- `<$RMd>`
+- `<$RLg>`
+
+
+
+
 
 ## R
 

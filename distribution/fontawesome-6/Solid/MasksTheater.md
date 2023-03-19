@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/MasksTheater')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MasksTheaterXs>`
+- `<$MasksTheaterSm>`
+- `<$MasksTheaterMd>`
+- `<$MasksTheaterLg>`
+
+
+
+
 
 ## MasksTheater
 

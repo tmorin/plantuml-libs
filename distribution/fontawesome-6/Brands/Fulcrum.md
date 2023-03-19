@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Fulcrum')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FulcrumXs>`
+- `<$FulcrumSm>`
+- `<$FulcrumMd>`
+- `<$FulcrumLg>`
+
+
+
+
 
 ## Fulcrum
 

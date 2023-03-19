@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/VialVirus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VialVirusXs>`
+- `<$VialVirusSm>`
+- `<$VialVirusMd>`
+- `<$VialVirusLg>`
+
+
+
+
 
 ## VialVirus
 

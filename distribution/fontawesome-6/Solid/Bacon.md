@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Bacon')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BaconXs>`
+- `<$BaconSm>`
+- `<$BaconMd>`
+- `<$BaconLg>`
+
+
+
+
 
 ## Bacon
 

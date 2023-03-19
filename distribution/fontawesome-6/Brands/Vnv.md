@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Vnv')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VnvXs>`
+- `<$VnvSm>`
+- `<$VnvMd>`
+- `<$VnvLg>`
+
+
+
+
 
 ## Vnv
 

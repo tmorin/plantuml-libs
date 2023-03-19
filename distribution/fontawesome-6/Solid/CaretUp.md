@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CaretUp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CaretUpXs>`
+- `<$CaretUpSm>`
+- `<$CaretUpMd>`
+- `<$CaretUpLg>`
+
+
+
+
 
 ## CaretUp
 

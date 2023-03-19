@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Squarespace')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquarespaceXs>`
+- `<$SquarespaceSm>`
+- `<$SquarespaceMd>`
+- `<$SquarespaceLg>`
+
+
+
+
 
 ## Squarespace
 

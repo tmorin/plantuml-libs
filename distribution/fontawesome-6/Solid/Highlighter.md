@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Highlighter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HighlighterXs>`
+- `<$HighlighterSm>`
+- `<$HighlighterMd>`
+- `<$HighlighterLg>`
+
+
+
+
 
 ## Highlighter
 

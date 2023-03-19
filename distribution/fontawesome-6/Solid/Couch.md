@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Couch')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CouchXs>`
+- `<$CouchSm>`
+- `<$CouchMd>`
+- `<$CouchLg>`
+
+
+
+
 
 ## Couch
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Intercom')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IntercomXs>`
+- `<$IntercomSm>`
+- `<$IntercomMd>`
+- `<$IntercomLg>`
+
+
+
+
 
 ## Intercom
 

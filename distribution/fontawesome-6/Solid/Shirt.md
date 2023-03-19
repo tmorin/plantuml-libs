@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Shirt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShirtXs>`
+- `<$ShirtSm>`
+- `<$ShirtMd>`
+- `<$ShirtLg>`
+
+
+
+
 
 ## Shirt
 

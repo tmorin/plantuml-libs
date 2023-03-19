@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HandshakeAngle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HandshakeAngleXs>`
+- `<$HandshakeAngleSm>`
+- `<$HandshakeAngleMd>`
+- `<$HandshakeAngleLg>`
+
+
+
+
 
 ## HandshakeAngle
 

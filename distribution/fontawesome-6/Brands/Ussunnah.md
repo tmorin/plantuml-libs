@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Ussunnah')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UssunnahXs>`
+- `<$UssunnahSm>`
+- `<$UssunnahMd>`
+- `<$UssunnahLg>`
+
+
+
+
 
 ## Ussunnah
 

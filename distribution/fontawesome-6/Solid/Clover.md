@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Clover')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloverXs>`
+- `<$CloverSm>`
+- `<$CloverMd>`
+- `<$CloverLg>`
+
+
+
+
 
 ## Clover
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Thermometer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ThermometerXs>`
+- `<$ThermometerSm>`
+- `<$ThermometerMd>`
+- `<$ThermometerLg>`
+
+
+
+
 
 ## Thermometer
 

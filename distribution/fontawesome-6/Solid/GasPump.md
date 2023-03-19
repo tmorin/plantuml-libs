@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/GasPump')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GasPumpXs>`
+- `<$GasPumpSm>`
+- `<$GasPumpMd>`
+- `<$GasPumpLg>`
+
+
+
+
 
 ## GasPump
 

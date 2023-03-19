@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HardDrive')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HardDriveXs>`
+- `<$HardDriveSm>`
+- `<$HardDriveMd>`
+- `<$HardDriveLg>`
+
+
+
+
 
 ## HardDrive
 

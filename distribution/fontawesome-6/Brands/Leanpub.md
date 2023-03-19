@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Leanpub')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LeanpubXs>`
+- `<$LeanpubSm>`
+- `<$LeanpubMd>`
+- `<$LeanpubLg>`
+
+
+
+
 
 ## Leanpub
 

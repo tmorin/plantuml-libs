@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/UsersViewfinder')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UsersViewfinderXs>`
+- `<$UsersViewfinderSm>`
+- `<$UsersViewfinderMd>`
+- `<$UsersViewfinderLg>`
+
+
+
+
 
 ## UsersViewfinder
 

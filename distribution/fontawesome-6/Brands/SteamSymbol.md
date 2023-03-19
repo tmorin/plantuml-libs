@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/SteamSymbol')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SteamSymbolXs>`
+- `<$SteamSymbolSm>`
+- `<$SteamSymbolMd>`
+- `<$SteamSymbolLg>`
+
+
+
+
 
 ## SteamSymbol
 

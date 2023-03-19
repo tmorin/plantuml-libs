@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/LandmarkDome')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LandmarkDomeXs>`
+- `<$LandmarkDomeSm>`
+- `<$LandmarkDomeMd>`
+- `<$LandmarkDomeLg>`
+
+
+
+
 
 ## LandmarkDome
 

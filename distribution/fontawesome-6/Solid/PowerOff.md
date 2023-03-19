@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PowerOff')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PowerOffXs>`
+- `<$PowerOffSm>`
+- `<$PowerOffMd>`
+- `<$PowerOffLg>`
+
+
+
+
 
 ## PowerOff
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PersonCane')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PersonCaneXs>`
+- `<$PersonCaneSm>`
+- `<$PersonCaneMd>`
+- `<$PersonCaneLg>`
+
+
+
+
 
 ## PersonCane
 

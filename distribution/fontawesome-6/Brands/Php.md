@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Php')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PhpXs>`
+- `<$PhpSm>`
+- `<$PhpMd>`
+- `<$PhpLg>`
+
+
+
+
 
 ## Php
 

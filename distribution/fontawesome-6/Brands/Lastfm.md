@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Lastfm')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LastfmXs>`
+- `<$LastfmSm>`
+- `<$LastfmMd>`
+- `<$LastfmLg>`
+
+
+
+
 
 ## Lastfm
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/SignsPost')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SignsPostXs>`
+- `<$SignsPostSm>`
+- `<$SignsPostMd>`
+- `<$SignsPostLg>`
+
+
+
+
 
 ## SignsPost
 

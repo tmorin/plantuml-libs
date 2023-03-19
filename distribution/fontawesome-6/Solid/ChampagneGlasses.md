@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ChampagneGlasses')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChampagneGlassesXs>`
+- `<$ChampagneGlassesSm>`
+- `<$ChampagneGlassesMd>`
+- `<$ChampagneGlassesLg>`
+
+
+
+
 
 ## ChampagneGlasses
 

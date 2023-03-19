@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/OctopusDeploy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OctopusDeployXs>`
+- `<$OctopusDeploySm>`
+- `<$OctopusDeployMd>`
+- `<$OctopusDeployLg>`
+
+
+
+
 
 ## OctopusDeploy
 

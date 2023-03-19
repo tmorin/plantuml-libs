@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Gear')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GearXs>`
+- `<$GearSm>`
+- `<$GearMd>`
+- `<$GearLg>`
+
+
+
+
 
 ## Gear
 

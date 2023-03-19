@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CircleDollarToSlot')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CircleDollarToSlotXs>`
+- `<$CircleDollarToSlotSm>`
+- `<$CircleDollarToSlotMd>`
+- `<$CircleDollarToSlotLg>`
+
+
+
+
 
 ## CircleDollarToSlot
 

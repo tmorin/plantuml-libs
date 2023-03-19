@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BahtSign')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BahtSignXs>`
+- `<$BahtSignSm>`
+- `<$BahtSignMd>`
+- `<$BahtSignLg>`
+
+
+
+
 
 ## BahtSign
 

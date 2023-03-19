@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Padlet')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PadletXs>`
+- `<$PadletSm>`
+- `<$PadletMd>`
+- `<$PadletLg>`
+
+
+
+
 
 ## Padlet
 

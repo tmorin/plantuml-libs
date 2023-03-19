@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/VenusMars')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VenusMarsXs>`
+- `<$VenusMarsSm>`
+- `<$VenusMarsMd>`
+- `<$VenusMarsLg>`
+
+
+
+
 
 ## VenusMars
 

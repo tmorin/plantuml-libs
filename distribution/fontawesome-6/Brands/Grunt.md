@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Grunt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GruntXs>`
+- `<$GruntSm>`
+- `<$GruntMd>`
+- `<$GruntLg>`
+
+
+
+
 
 ## Grunt
 

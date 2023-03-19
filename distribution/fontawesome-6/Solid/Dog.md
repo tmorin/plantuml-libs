@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Dog')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DogXs>`
+- `<$DogSm>`
+- `<$DogMd>`
+- `<$DogLg>`
+
+
+
+
 
 ## Dog
 

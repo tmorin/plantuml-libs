@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Diaspora')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DiasporaXs>`
+- `<$DiasporaSm>`
+- `<$DiasporaMd>`
+- `<$DiasporaLg>`
+
+
+
+
 
 ## Diaspora
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/TableTennisPaddleBall')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TableTennisPaddleBallXs>`
+- `<$TableTennisPaddleBallSm>`
+- `<$TableTennisPaddleBallMd>`
+- `<$TableTennisPaddleBallLg>`
+
+
+
+
 
 ## TableTennisPaddleBall
 

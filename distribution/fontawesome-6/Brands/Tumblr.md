@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Tumblr')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TumblrXs>`
+- `<$TumblrSm>`
+- `<$TumblrMd>`
+- `<$TumblrLg>`
+
+
+
+
 
 ## Tumblr
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Sellsy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SellsyXs>`
+- `<$SellsySm>`
+- `<$SellsyMd>`
+- `<$SellsyLg>`
+
+
+
+
 
 ## Sellsy
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HeadSideCoughSlash')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HeadSideCoughSlashXs>`
+- `<$HeadSideCoughSlashSm>`
+- `<$HeadSideCoughSlashMd>`
+- `<$HeadSideCoughSlashLg>`
+
+
+
+
 
 ## HeadSideCoughSlash
 

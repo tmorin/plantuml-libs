@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/House')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HouseXs>`
+- `<$HouseSm>`
+- `<$HouseMd>`
+- `<$HouseLg>`
+
+
+
+
 
 ## House
 

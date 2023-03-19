@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CircleRadiation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CircleRadiationXs>`
+- `<$CircleRadiationSm>`
+- `<$CircleRadiationMd>`
+- `<$CircleRadiationLg>`
+
+
+
+
 
 ## CircleRadiation
 

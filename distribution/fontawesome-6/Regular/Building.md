@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/Building')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BuildingXs>`
+- `<$BuildingSm>`
+- `<$BuildingMd>`
+- `<$BuildingLg>`
+
+
+
+
 
 ## Building
 

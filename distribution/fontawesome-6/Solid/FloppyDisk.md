@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/FloppyDisk')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FloppyDiskXs>`
+- `<$FloppyDiskSm>`
+- `<$FloppyDiskMd>`
+- `<$FloppyDiskLg>`
+
+
+
+
 
 ## FloppyDisk
 

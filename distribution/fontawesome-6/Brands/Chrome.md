@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Chrome')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChromeXs>`
+- `<$ChromeSm>`
+- `<$ChromeMd>`
+- `<$ChromeLg>`
+
+
+
+
 
 ## Chrome
 

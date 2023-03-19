@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Drum')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DrumXs>`
+- `<$DrumSm>`
+- `<$DrumMd>`
+- `<$DrumLg>`
+
+
+
+
 
 ## Drum
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Paw')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PawXs>`
+- `<$PawSm>`
+- `<$PawMd>`
+- `<$PawLg>`
+
+
+
+
 
 ## Paw
 

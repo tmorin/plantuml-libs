@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ToggleOn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ToggleOnXs>`
+- `<$ToggleOnSm>`
+- `<$ToggleOnMd>`
+- `<$ToggleOnLg>`
+
+
+
+
 
 ## ToggleOn
 

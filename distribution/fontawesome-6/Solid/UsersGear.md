@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/UsersGear')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UsersGearXs>`
+- `<$UsersGearSm>`
+- `<$UsersGearMd>`
+- `<$UsersGearLg>`
+
+
+
+
 
 ## UsersGear
 

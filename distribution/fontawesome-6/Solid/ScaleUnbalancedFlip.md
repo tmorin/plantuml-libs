@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ScaleUnbalancedFlip')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ScaleUnbalancedFlipXs>`
+- `<$ScaleUnbalancedFlipSm>`
+- `<$ScaleUnbalancedFlipMd>`
+- `<$ScaleUnbalancedFlipLg>`
+
+
+
+
 
 ## ScaleUnbalancedFlip
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Atlassian')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AtlassianXs>`
+- `<$AtlassianSm>`
+- `<$AtlassianMd>`
+- `<$AtlassianLg>`
+
+
+
+
 
 ## Atlassian
 

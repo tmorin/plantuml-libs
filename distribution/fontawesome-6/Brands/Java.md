@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Java')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JavaXs>`
+- `<$JavaSm>`
+- `<$JavaMd>`
+- `<$JavaLg>`
+
+
+
+
 
 ## Java
 

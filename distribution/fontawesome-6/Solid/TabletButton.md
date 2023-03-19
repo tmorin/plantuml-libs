@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/TabletButton')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TabletButtonXs>`
+- `<$TabletButtonSm>`
+- `<$TabletButtonMd>`
+- `<$TabletButtonLg>`
+
+
+
+
 
 ## TabletButton
 

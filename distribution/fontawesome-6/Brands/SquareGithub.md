@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/SquareGithub')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquareGithubXs>`
+- `<$SquareGithubSm>`
+- `<$SquareGithubMd>`
+- `<$SquareGithubLg>`
+
+
+
+
 
 ## SquareGithub
 

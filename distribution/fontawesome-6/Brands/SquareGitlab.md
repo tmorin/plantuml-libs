@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/SquareGitlab')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquareGitlabXs>`
+- `<$SquareGitlabSm>`
+- `<$SquareGitlabMd>`
+- `<$SquareGitlabLg>`
+
+
+
+
 
 ## SquareGitlab
 

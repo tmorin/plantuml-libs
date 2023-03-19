@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Discourse')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DiscourseXs>`
+- `<$DiscourseSm>`
+- `<$DiscourseMd>`
+- `<$DiscourseLg>`
+
+
+
+
 
 ## Discourse
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ChartLine')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChartLineXs>`
+- `<$ChartLineSm>`
+- `<$ChartLineMd>`
+- `<$ChartLineLg>`
+
+
+
+
 
 ## ChartLine
 

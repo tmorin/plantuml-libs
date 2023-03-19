@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/WheatAwn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WheatAwnXs>`
+- `<$WheatAwnSm>`
+- `<$WheatAwnMd>`
+- `<$WheatAwnLg>`
+
+
+
+
 
 ## WheatAwn
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/MapLocation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MapLocationXs>`
+- `<$MapLocationSm>`
+- `<$MapLocationMd>`
+- `<$MapLocationLg>`
+
+
+
+
 
 ## MapLocation
 

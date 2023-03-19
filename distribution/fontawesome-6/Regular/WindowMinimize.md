@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/WindowMinimize')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WindowMinimizeXs>`
+- `<$WindowMinimizeSm>`
+- `<$WindowMinimizeMd>`
+- `<$WindowMinimizeLg>`
+
+
+
+
 
 ## WindowMinimize
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Houzz')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HouzzXs>`
+- `<$HouzzSm>`
+- `<$HouzzMd>`
+- `<$HouzzLg>`
+
+
+
+
 
 ## Houzz
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Reply')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ReplyXs>`
+- `<$ReplySm>`
+- `<$ReplyMd>`
+- `<$ReplyLg>`
+
+
+
+
 
 ## Reply
 

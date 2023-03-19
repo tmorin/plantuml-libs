@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/FileZipper')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FileZipperXs>`
+- `<$FileZipperSm>`
+- `<$FileZipperMd>`
+- `<$FileZipperLg>`
+
+
+
+
 
 ## FileZipper
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/WaveSquare')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WaveSquareXs>`
+- `<$WaveSquareSm>`
+- `<$WaveSquareMd>`
+- `<$WaveSquareLg>`
+
+
+
+
 
 ## WaveSquare
 

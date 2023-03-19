@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/ChessBishop')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChessBishopXs>`
+- `<$ChessBishopSm>`
+- `<$ChessBishopMd>`
+- `<$ChessBishopLg>`
+
+
+
+
 
 ## ChessBishop
 

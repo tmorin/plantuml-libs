@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ClipboardQuestion')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ClipboardQuestionXs>`
+- `<$ClipboardQuestionSm>`
+- `<$ClipboardQuestionMd>`
+- `<$ClipboardQuestionLg>`
+
+
+
+
 
 ## ClipboardQuestion
 

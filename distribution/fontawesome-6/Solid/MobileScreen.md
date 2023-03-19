@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/MobileScreen')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MobileScreenXs>`
+- `<$MobileScreenSm>`
+- `<$MobileScreenMd>`
+- `<$MobileScreenLg>`
+
+
+
+
 
 ## MobileScreen
 

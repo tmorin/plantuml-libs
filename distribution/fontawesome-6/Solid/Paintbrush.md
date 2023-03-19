@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Paintbrush')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PaintbrushXs>`
+- `<$PaintbrushSm>`
+- `<$PaintbrushMd>`
+- `<$PaintbrushLg>`
+
+
+
+
 
 ## Paintbrush
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/GitAlt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GitAltXs>`
+- `<$GitAltSm>`
+- `<$GitAltMd>`
+- `<$GitAltLg>`
+
+
+
+
 
 ## GitAlt
 

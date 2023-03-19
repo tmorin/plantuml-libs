@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/FileWord')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FileWordXs>`
+- `<$FileWordSm>`
+- `<$FileWordMd>`
+- `<$FileWordLg>`
+
+
+
+
 
 ## FileWord
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BoxesPacking')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BoxesPackingXs>`
+- `<$BoxesPackingSm>`
+- `<$BoxesPackingMd>`
+- `<$BoxesPackingLg>`
+
+
+
+
 
 ## BoxesPacking
 

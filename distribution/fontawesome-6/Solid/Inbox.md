@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Inbox')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InboxXs>`
+- `<$InboxSm>`
+- `<$InboxMd>`
+- `<$InboxLg>`
+
+
+
+
 
 ## Inbox
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Ship')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShipXs>`
+- `<$ShipSm>`
+- `<$ShipMd>`
+- `<$ShipLg>`
+
+
+
+
 
 ## Ship
 

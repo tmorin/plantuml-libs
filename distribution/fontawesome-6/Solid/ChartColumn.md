@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ChartColumn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChartColumnXs>`
+- `<$ChartColumnSm>`
+- `<$ChartColumnMd>`
+- `<$ChartColumnLg>`
+
+
+
+
 
 ## ChartColumn
 

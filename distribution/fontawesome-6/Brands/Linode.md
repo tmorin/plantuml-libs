@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Linode')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LinodeXs>`
+- `<$LinodeSm>`
+- `<$LinodeMd>`
+- `<$LinodeLg>`
+
+
+
+
 
 ## Linode
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PersonDrowning')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PersonDrowningXs>`
+- `<$PersonDrowningSm>`
+- `<$PersonDrowningMd>`
+- `<$PersonDrowningLg>`
+
+
+
+
 
 ## PersonDrowning
 

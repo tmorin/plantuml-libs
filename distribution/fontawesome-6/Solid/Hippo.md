@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Hippo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HippoXs>`
+- `<$HippoSm>`
+- `<$HippoMd>`
+- `<$HippoLg>`
+
+
+
+
 
 ## Hippo
 

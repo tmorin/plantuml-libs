@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Discord')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DiscordXs>`
+- `<$DiscordSm>`
+- `<$DiscordMd>`
+- `<$DiscordLg>`
+
+
+
+
 
 ## Discord
 

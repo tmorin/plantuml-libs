@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Trash')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TrashXs>`
+- `<$TrashSm>`
+- `<$TrashMd>`
+- `<$TrashLg>`
+
+
+
+
 
 ## Trash
 

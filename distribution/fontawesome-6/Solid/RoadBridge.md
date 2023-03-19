@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/RoadBridge')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RoadBridgeXs>`
+- `<$RoadBridgeSm>`
+- `<$RoadBridgeMd>`
+- `<$RoadBridgeLg>`
+
+
+
+
 
 ## RoadBridge
 

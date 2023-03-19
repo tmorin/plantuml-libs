@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/TrainTram')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TrainTramXs>`
+- `<$TrainTramSm>`
+- `<$TrainTramMd>`
+- `<$TrainTramLg>`
+
+
+
+
 
 ## TrainTram
 

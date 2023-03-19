@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/SquareOdnoklassniki')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquareOdnoklassnikiXs>`
+- `<$SquareOdnoklassnikiSm>`
+- `<$SquareOdnoklassnikiMd>`
+- `<$SquareOdnoklassnikiLg>`
+
+
+
+
 
 ## SquareOdnoklassniki
 

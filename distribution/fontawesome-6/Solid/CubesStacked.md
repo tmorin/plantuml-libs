@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CubesStacked')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CubesStackedXs>`
+- `<$CubesStackedSm>`
+- `<$CubesStackedMd>`
+- `<$CubesStackedLg>`
+
+
+
+
 
 ## CubesStacked
 

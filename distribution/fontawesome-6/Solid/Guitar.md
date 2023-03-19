@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Guitar')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GuitarXs>`
+- `<$GuitarSm>`
+- `<$GuitarMd>`
+- `<$GuitarLg>`
+
+
+
+
 
 ## Guitar
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Microchip')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MicrochipXs>`
+- `<$MicrochipSm>`
+- `<$MicrochipMd>`
+- `<$MicrochipLg>`
+
+
+
+
 
 ## Microchip
 

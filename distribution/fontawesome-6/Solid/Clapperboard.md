@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Clapperboard')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ClapperboardXs>`
+- `<$ClapperboardSm>`
+- `<$ClapperboardMd>`
+- `<$ClapperboardLg>`
+
+
+
+
 
 ## Clapperboard
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Braille')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BrailleXs>`
+- `<$BrailleSm>`
+- `<$BrailleMd>`
+- `<$BrailleLg>`
+
+
+
+
 
 ## Braille
 

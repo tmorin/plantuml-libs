@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Bomb')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BombXs>`
+- `<$BombSm>`
+- `<$BombMd>`
+- `<$BombLg>`
+
+
+
+
 
 ## Bomb
 

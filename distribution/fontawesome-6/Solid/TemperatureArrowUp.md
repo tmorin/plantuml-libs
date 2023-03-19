@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/TemperatureArrowUp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TemperatureArrowUpXs>`
+- `<$TemperatureArrowUpSm>`
+- `<$TemperatureArrowUpMd>`
+- `<$TemperatureArrowUpLg>`
+
+
+
+
 
 ## TemperatureArrowUp
 

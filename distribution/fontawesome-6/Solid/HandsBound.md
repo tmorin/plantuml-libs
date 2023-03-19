@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HandsBound')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HandsBoundXs>`
+- `<$HandsBoundSm>`
+- `<$HandsBoundMd>`
+- `<$HandsBoundLg>`
+
+
+
+
 
 ## HandsBound
 

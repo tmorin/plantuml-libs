@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/SquareCaretUp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquareCaretUpXs>`
+- `<$SquareCaretUpSm>`
+- `<$SquareCaretUpMd>`
+- `<$SquareCaretUpLg>`
+
+
+
+
 
 ## SquareCaretUp
 

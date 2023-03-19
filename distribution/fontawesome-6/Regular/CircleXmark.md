@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/CircleXmark')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CircleXmarkXs>`
+- `<$CircleXmarkSm>`
+- `<$CircleXmarkMd>`
+- `<$CircleXmarkLg>`
+
+
+
+
 
 ## CircleXmark
 

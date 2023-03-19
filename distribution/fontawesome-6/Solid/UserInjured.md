@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/UserInjured')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UserInjuredXs>`
+- `<$UserInjuredSm>`
+- `<$UserInjuredMd>`
+- `<$UserInjuredLg>`
+
+
+
+
 
 ## UserInjured
 

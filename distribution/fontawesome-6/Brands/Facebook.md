@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Facebook')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FacebookXs>`
+- `<$FacebookSm>`
+- `<$FacebookMd>`
+- `<$FacebookLg>`
+
+
+
+
 
 ## Facebook
 

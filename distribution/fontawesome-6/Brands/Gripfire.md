@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Gripfire')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GripfireXs>`
+- `<$GripfireSm>`
+- `<$GripfireMd>`
+- `<$GripfireLg>`
+
+
+
+
 
 ## Gripfire
 

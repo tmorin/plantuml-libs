@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/TowerObservation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TowerObservationXs>`
+- `<$TowerObservationSm>`
+- `<$TowerObservationMd>`
+- `<$TowerObservationLg>`
+
+
+
+
 
 ## TowerObservation
 

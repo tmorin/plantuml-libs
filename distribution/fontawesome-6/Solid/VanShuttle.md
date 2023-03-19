@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/VanShuttle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VanShuttleXs>`
+- `<$VanShuttleSm>`
+- `<$VanShuttleMd>`
+- `<$VanShuttleLg>`
+
+
+
+
 
 ## VanShuttle
 

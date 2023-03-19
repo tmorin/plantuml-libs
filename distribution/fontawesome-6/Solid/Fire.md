@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Fire')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FireXs>`
+- `<$FireSm>`
+- `<$FireMd>`
+- `<$FireLg>`
+
+
+
+
 
 ## Fire
 

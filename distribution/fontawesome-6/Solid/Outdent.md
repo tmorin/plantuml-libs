@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Outdent')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OutdentXs>`
+- `<$OutdentSm>`
+- `<$OutdentMd>`
+- `<$OutdentLg>`
+
+
+
+
 
 ## Outdent
 

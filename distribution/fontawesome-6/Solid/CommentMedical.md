@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CommentMedical')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CommentMedicalXs>`
+- `<$CommentMedicalSm>`
+- `<$CommentMedicalMd>`
+- `<$CommentMedicalLg>`
+
+
+
+
 
 ## CommentMedical
 

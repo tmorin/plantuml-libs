@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Pager')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PagerXs>`
+- `<$PagerSm>`
+- `<$PagerMd>`
+- `<$PagerLg>`
+
+
+
+
 
 ## Pager
 

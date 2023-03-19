@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/UserPen')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UserPenXs>`
+- `<$UserPenSm>`
+- `<$UserPenMd>`
+- `<$UserPenLg>`
+
+
+
+
 
 ## UserPen
 

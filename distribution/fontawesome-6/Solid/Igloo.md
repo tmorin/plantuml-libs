@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Igloo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IglooXs>`
+- `<$IglooSm>`
+- `<$IglooMd>`
+- `<$IglooLg>`
+
+
+
+
 
 ## Igloo
 

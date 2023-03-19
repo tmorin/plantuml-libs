@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Ethernet')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EthernetXs>`
+- `<$EthernetSm>`
+- `<$EthernetMd>`
+- `<$EthernetLg>`
+
+
+
+
 
 ## Ethernet
 

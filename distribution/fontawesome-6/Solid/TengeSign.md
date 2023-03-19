@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/TengeSign')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TengeSignXs>`
+- `<$TengeSignSm>`
+- `<$TengeSignMd>`
+- `<$TengeSignLg>`
+
+
+
+
 
 ## TengeSign
 

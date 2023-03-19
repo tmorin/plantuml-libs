@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/SpeakerDeck')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SpeakerDeckXs>`
+- `<$SpeakerDeckSm>`
+- `<$SpeakerDeckMd>`
+- `<$SpeakerDeckLg>`
+
+
+
+
 
 ## SpeakerDeck
 

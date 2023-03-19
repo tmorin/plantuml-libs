@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PersonDigging')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PersonDiggingXs>`
+- `<$PersonDiggingSm>`
+- `<$PersonDiggingMd>`
+- `<$PersonDiggingLg>`
+
+
+
+
 
 ## PersonDigging
 

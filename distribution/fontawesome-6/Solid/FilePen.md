@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/FilePen')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FilePenXs>`
+- `<$FilePenSm>`
+- `<$FilePenMd>`
+- `<$FilePenLg>`
+
+
+
+
 
 ## FilePen
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Vault')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VaultXs>`
+- `<$VaultSm>`
+- `<$VaultMd>`
+- `<$VaultLg>`
+
+
+
+
 
 ## Vault
 

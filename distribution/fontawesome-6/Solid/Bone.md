@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Bone')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BoneXs>`
+- `<$BoneSm>`
+- `<$BoneMd>`
+- `<$BoneLg>`
+
+
+
+
 
 ## Bone
 

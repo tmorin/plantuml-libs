@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HillAvalanche')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HillAvalancheXs>`
+- `<$HillAvalancheSm>`
+- `<$HillAvalancheMd>`
+- `<$HillAvalancheLg>`
+
+
+
+
 
 ## HillAvalanche
 

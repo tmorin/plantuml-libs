@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/FolderClosed')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FolderClosedXs>`
+- `<$FolderClosedSm>`
+- `<$FolderClosedMd>`
+- `<$FolderClosedLg>`
+
+
+
+
 
 ## FolderClosed
 

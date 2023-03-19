@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Trophy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TrophyXs>`
+- `<$TrophySm>`
+- `<$TrophyMd>`
+- `<$TrophyLg>`
+
+
+
+
 
 ## Trophy
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/VialCircleCheck')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VialCircleCheckXs>`
+- `<$VialCircleCheckSm>`
+- `<$VialCircleCheckMd>`
+- `<$VialCircleCheckLg>`
+
+
+
+
 
 ## VialCircleCheck
 

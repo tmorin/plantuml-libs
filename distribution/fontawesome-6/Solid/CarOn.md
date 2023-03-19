@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CarOn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CarOnXs>`
+- `<$CarOnSm>`
+- `<$CarOnMd>`
+- `<$CarOnLg>`
+
+
+
+
 
 ## CarOn
 

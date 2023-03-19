@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CheckToSlot')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CheckToSlotXs>`
+- `<$CheckToSlotSm>`
+- `<$CheckToSlotMd>`
+- `<$CheckToSlotLg>`
+
+
+
+
 
 ## CheckToSlot
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Percent')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PercentXs>`
+- `<$PercentSm>`
+- `<$PercentMd>`
+- `<$PercentLg>`
+
+
+
+
 
 ## Percent
 

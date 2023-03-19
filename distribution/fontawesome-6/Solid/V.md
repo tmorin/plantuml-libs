@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/V')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VXs>`
+- `<$VSm>`
+- `<$VMd>`
+- `<$VLg>`
+
+
+
+
 
 ## V
 

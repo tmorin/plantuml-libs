@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Schlix')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SchlixXs>`
+- `<$SchlixSm>`
+- `<$SchlixMd>`
+- `<$SchlixLg>`
+
+
+
+
 
 ## Schlix
 

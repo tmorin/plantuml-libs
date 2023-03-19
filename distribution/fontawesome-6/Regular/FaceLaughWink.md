@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/FaceLaughWink')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FaceLaughWinkXs>`
+- `<$FaceLaughWinkSm>`
+- `<$FaceLaughWinkMd>`
+- `<$FaceLaughWinkLg>`
+
+
+
+
 
 ## FaceLaughWink
 

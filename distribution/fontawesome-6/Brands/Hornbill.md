@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Hornbill')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HornbillXs>`
+- `<$HornbillSm>`
+- `<$HornbillMd>`
+- `<$HornbillLg>`
+
+
+
+
 
 ## Hornbill
 

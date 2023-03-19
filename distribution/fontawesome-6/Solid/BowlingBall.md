@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BowlingBall')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BowlingBallXs>`
+- `<$BowlingBallSm>`
+- `<$BowlingBallMd>`
+- `<$BowlingBallLg>`
+
+
+
+
 
 ## BowlingBall
 

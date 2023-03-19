@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Empire')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EmpireXs>`
+- `<$EmpireSm>`
+- `<$EmpireMd>`
+- `<$EmpireLg>`
+
+
+
+
 
 ## Empire
 

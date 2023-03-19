@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BanSmoking')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BanSmokingXs>`
+- `<$BanSmokingSm>`
+- `<$BanSmokingMd>`
+- `<$BanSmokingLg>`
+
+
+
+
 
 ## BanSmoking
 

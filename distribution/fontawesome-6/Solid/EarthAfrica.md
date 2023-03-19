@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/EarthAfrica')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EarthAfricaXs>`
+- `<$EarthAfricaSm>`
+- `<$EarthAfricaMd>`
+- `<$EarthAfricaLg>`
+
+
+
+
 
 ## EarthAfrica
 

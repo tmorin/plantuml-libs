@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Ethereum')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EthereumXs>`
+- `<$EthereumSm>`
+- `<$EthereumMd>`
+- `<$EthereumLg>`
+
+
+
+
 
 ## Ethereum
 

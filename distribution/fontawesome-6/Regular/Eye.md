@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/Eye')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EyeXs>`
+- `<$EyeSm>`
+- `<$EyeMd>`
+- `<$EyeLg>`
+
+
+
+
 
 ## Eye
 

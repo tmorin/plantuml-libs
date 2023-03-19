@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/TruckMedical')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TruckMedicalXs>`
+- `<$TruckMedicalSm>`
+- `<$TruckMedicalMd>`
+- `<$TruckMedicalLg>`
+
+
+
+
 
 ## TruckMedical
 

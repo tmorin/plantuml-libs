@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/FolderMinus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FolderMinusXs>`
+- `<$FolderMinusSm>`
+- `<$FolderMinusMd>`
+- `<$FolderMinusLg>`
+
+
+
+
 
 ## FolderMinus
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ArrowDownAZ')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ArrowDownAZXs>`
+- `<$ArrowDownAZSm>`
+- `<$ArrowDownAZMd>`
+- `<$ArrowDownAZLg>`
+
+
+
+
 
 ## ArrowDownAZ
 

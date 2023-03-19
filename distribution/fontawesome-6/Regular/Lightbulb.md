@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/Lightbulb')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LightbulbXs>`
+- `<$LightbulbSm>`
+- `<$LightbulbMd>`
+- `<$LightbulbLg>`
+
+
+
+
 
 ## Lightbulb
 

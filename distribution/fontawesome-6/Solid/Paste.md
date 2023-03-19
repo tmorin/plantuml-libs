@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Paste')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PasteXs>`
+- `<$PasteSm>`
+- `<$PasteMd>`
+- `<$PasteLg>`
+
+
+
+
 
 ## Paste
 

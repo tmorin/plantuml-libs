@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Modx')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ModxXs>`
+- `<$ModxSm>`
+- `<$ModxMd>`
+- `<$ModxLg>`
+
+
+
+
 
 ## Modx
 

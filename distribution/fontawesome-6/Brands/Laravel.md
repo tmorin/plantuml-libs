@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Laravel')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LaravelXs>`
+- `<$LaravelSm>`
+- `<$LaravelMd>`
+- `<$LaravelLg>`
+
+
+
+
 
 ## Laravel
 

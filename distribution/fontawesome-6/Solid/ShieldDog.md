@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ShieldDog')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShieldDogXs>`
+- `<$ShieldDogSm>`
+- `<$ShieldDogMd>`
+- `<$ShieldDogLg>`
+
+
+
+
 
 ## ShieldDog
 

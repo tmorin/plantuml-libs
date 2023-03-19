@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Themeisle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ThemeisleXs>`
+- `<$ThemeisleSm>`
+- `<$ThemeisleMd>`
+- `<$ThemeisleLg>`
+
+
+
+
 
 ## Themeisle
 

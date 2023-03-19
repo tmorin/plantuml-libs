@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Blender')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BlenderXs>`
+- `<$BlenderSm>`
+- `<$BlenderMd>`
+- `<$BlenderLg>`
+
+
+
+
 
 ## Blender
 

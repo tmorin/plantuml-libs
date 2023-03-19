@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/PhoenixFramework')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PhoenixFrameworkXs>`
+- `<$PhoenixFrameworkSm>`
+- `<$PhoenixFrameworkMd>`
+- `<$PhoenixFrameworkLg>`
+
+
+
+
 
 ## PhoenixFramework
 

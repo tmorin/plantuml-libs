@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PlaneCircleXmark')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PlaneCircleXmarkXs>`
+- `<$PlaneCircleXmarkSm>`
+- `<$PlaneCircleXmarkMd>`
+- `<$PlaneCircleXmarkLg>`
+
+
+
+
 
 ## PlaneCircleXmark
 

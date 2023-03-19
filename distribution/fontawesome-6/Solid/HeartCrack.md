@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HeartCrack')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HeartCrackXs>`
+- `<$HeartCrackSm>`
+- `<$HeartCrackMd>`
+- `<$HeartCrackLg>`
+
+
+
+
 
 ## HeartCrack
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/WizardsOfTheCoast')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WizardsOfTheCoastXs>`
+- `<$WizardsOfTheCoastSm>`
+- `<$WizardsOfTheCoastMd>`
+- `<$WizardsOfTheCoastLg>`
+
+
+
+
 
 ## WizardsOfTheCoast
 

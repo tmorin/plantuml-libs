@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BarsStaggered')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BarsStaggeredXs>`
+- `<$BarsStaggeredSm>`
+- `<$BarsStaggeredMd>`
+- `<$BarsStaggeredLg>`
+
+
+
+
 
 ## BarsStaggered
 

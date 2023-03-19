@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CalendarXmark')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CalendarXmarkXs>`
+- `<$CalendarXmarkSm>`
+- `<$CalendarXmarkMd>`
+- `<$CalendarXmarkLg>`
+
+
+
+
 
 ## CalendarXmark
 

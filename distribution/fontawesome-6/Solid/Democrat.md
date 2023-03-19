@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Democrat')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DemocratXs>`
+- `<$DemocratSm>`
+- `<$DemocratMd>`
+- `<$DemocratLg>`
+
+
+
+
 
 ## Democrat
 

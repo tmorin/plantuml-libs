@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Otter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OtterXs>`
+- `<$OtterSm>`
+- `<$OtterMd>`
+- `<$OtterLg>`
+
+
+
+
 
 ## Otter
 

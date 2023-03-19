@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/WikipediaW')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WikipediaWXs>`
+- `<$WikipediaWSm>`
+- `<$WikipediaWMd>`
+- `<$WikipediaWLg>`
+
+
+
+
 
 ## WikipediaW
 

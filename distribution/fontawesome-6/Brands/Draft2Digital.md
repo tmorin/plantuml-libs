@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Draft2Digital')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$Draft2DigitalXs>`
+- `<$Draft2DigitalSm>`
+- `<$Draft2DigitalMd>`
+- `<$Draft2DigitalLg>`
+
+
+
+
 
 ## Draft2Digital
 

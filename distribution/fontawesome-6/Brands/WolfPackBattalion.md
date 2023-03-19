@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/WolfPackBattalion')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WolfPackBattalionXs>`
+- `<$WolfPackBattalionSm>`
+- `<$WolfPackBattalionMd>`
+- `<$WolfPackBattalionLg>`
+
+
+
+
 
 ## WolfPackBattalion
 

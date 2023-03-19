@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Uncharted')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UnchartedXs>`
+- `<$UnchartedSm>`
+- `<$UnchartedMd>`
+- `<$UnchartedLg>`
+
+
+
+
 
 ## Uncharted
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/SquareJs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquareJsXs>`
+- `<$SquareJsSm>`
+- `<$SquareJsMd>`
+- `<$SquareJsLg>`
+
+
+
+
 
 ## SquareJs
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/GalacticSenate')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GalacticSenateXs>`
+- `<$GalacticSenateSm>`
+- `<$GalacticSenateMd>`
+- `<$GalacticSenateLg>`
+
+
+
+
 
 ## GalacticSenate
 

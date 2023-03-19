@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/GithubAlt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GithubAltXs>`
+- `<$GithubAltSm>`
+- `<$GithubAltMd>`
+- `<$GithubAltLg>`
+
+
+
+
 
 ## GithubAlt
 

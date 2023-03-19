@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Npm')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NpmXs>`
+- `<$NpmSm>`
+- `<$NpmMd>`
+- `<$NpmLg>`
+
+
+
+
 
 ## Npm
 

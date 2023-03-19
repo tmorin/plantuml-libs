@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/SterlingSign')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SterlingSignXs>`
+- `<$SterlingSignSm>`
+- `<$SterlingSignMd>`
+- `<$SterlingSignLg>`
+
+
+
+
 
 ## SterlingSign
 

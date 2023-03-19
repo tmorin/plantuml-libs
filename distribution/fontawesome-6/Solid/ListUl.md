@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ListUl')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ListUlXs>`
+- `<$ListUlSm>`
+- `<$ListUlMd>`
+- `<$ListUlLg>`
+
+
+
+
 
 ## ListUl
 

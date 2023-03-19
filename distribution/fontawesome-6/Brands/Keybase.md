@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Keybase')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KeybaseXs>`
+- `<$KeybaseSm>`
+- `<$KeybaseMd>`
+- `<$KeybaseLg>`
+
+
+
+
 
 ## Keybase
 

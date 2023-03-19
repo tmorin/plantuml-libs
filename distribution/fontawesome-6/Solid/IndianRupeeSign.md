@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/IndianRupeeSign')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IndianRupeeSignXs>`
+- `<$IndianRupeeSignSm>`
+- `<$IndianRupeeSignMd>`
+- `<$IndianRupeeSignLg>`
+
+
+
+
 
 ## IndianRupeeSign
 

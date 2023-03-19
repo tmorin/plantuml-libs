@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CarBurst')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CarBurstXs>`
+- `<$CarBurstSm>`
+- `<$CarBurstMd>`
+- `<$CarBurstLg>`
+
+
+
+
 
 ## CarBurst
 

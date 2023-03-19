@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/DownLong')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DownLongXs>`
+- `<$DownLongSm>`
+- `<$DownLongMd>`
+- `<$DownLongLg>`
+
+
+
+
 
 ## DownLong
 

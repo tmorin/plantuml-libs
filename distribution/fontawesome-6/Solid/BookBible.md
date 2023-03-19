@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BookBible')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BookBibleXs>`
+- `<$BookBibleSm>`
+- `<$BookBibleMd>`
+- `<$BookBibleLg>`
+
+
+
+
 
 ## BookBible
 

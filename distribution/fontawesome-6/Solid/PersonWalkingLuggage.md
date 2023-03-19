@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PersonWalkingLuggage')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PersonWalkingLuggageXs>`
+- `<$PersonWalkingLuggageSm>`
+- `<$PersonWalkingLuggageMd>`
+- `<$PersonWalkingLuggageLg>`
+
+
+
+
 
 ## PersonWalkingLuggage
 

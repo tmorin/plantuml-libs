@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Weebly')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WeeblyXs>`
+- `<$WeeblySm>`
+- `<$WeeblyMd>`
+- `<$WeeblyLg>`
+
+
+
+
 
 ## Weebly
 

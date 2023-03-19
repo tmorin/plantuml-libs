@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HeadphonesSimple')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HeadphonesSimpleXs>`
+- `<$HeadphonesSimpleSm>`
+- `<$HeadphonesSimpleMd>`
+- `<$HeadphonesSimpleLg>`
+
+
+
+
 
 ## HeadphonesSimple
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/TruckMonster')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TruckMonsterXs>`
+- `<$TruckMonsterSm>`
+- `<$TruckMonsterMd>`
+- `<$TruckMonsterLg>`
+
+
+
+
 
 ## TruckMonster
 

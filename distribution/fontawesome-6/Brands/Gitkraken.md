@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Gitkraken')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GitkrakenXs>`
+- `<$GitkrakenSm>`
+- `<$GitkrakenMd>`
+- `<$GitkrakenLg>`
+
+
+
+
 
 ## Gitkraken
 

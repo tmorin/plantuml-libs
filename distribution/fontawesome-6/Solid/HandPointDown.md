@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HandPointDown')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HandPointDownXs>`
+- `<$HandPointDownSm>`
+- `<$HandPointDownMd>`
+- `<$HandPointDownLg>`
+
+
+
+
 
 ## HandPointDown
 

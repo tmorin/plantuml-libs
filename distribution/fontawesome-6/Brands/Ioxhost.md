@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Ioxhost')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IoxhostXs>`
+- `<$IoxhostSm>`
+- `<$IoxhostMd>`
+- `<$IoxhostLg>`
+
+
+
+
 
 ## Ioxhost
 

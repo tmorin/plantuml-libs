@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/AngleUp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AngleUpXs>`
+- `<$AngleUpSm>`
+- `<$AngleUpMd>`
+- `<$AngleUpLg>`
+
+
+
+
 
 ## AngleUp
 

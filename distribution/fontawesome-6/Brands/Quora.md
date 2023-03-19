@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Quora')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$QuoraXs>`
+- `<$QuoraSm>`
+- `<$QuoraMd>`
+- `<$QuoraLg>`
+
+
+
+
 
 ## Quora
 

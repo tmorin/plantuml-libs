@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BorderNone')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BorderNoneXs>`
+- `<$BorderNoneSm>`
+- `<$BorderNoneMd>`
+- `<$BorderNoneLg>`
+
+
+
+
 
 ## BorderNone
 

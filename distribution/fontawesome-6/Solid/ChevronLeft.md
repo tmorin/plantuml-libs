@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ChevronLeft')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChevronLeftXs>`
+- `<$ChevronLeftSm>`
+- `<$ChevronLeftMd>`
+- `<$ChevronLeftLg>`
+
+
+
+
 
 ## ChevronLeft
 

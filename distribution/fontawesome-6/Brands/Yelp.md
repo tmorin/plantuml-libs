@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Yelp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$YelpXs>`
+- `<$YelpSm>`
+- `<$YelpMd>`
+- `<$YelpLg>`
+
+
+
+
 
 ## Yelp
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HatCowboySide')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HatCowboySideXs>`
+- `<$HatCowboySideSm>`
+- `<$HatCowboySideMd>`
+- `<$HatCowboySideLg>`
+
+
+
+
 
 ## HatCowboySide
 

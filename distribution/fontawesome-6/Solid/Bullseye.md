@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Bullseye')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BullseyeXs>`
+- `<$BullseyeSm>`
+- `<$BullseyeMd>`
+- `<$BullseyeLg>`
+
+
+
+
 
 ## Bullseye
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/WalkieTalkie')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WalkieTalkieXs>`
+- `<$WalkieTalkieSm>`
+- `<$WalkieTalkieMd>`
+- `<$WalkieTalkieLg>`
+
+
+
+
 
 ## WalkieTalkie
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/DiceD20')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DiceD20Xs>`
+- `<$DiceD20Sm>`
+- `<$DiceD20Md>`
+- `<$DiceD20Lg>`
+
+
+
+
 
 ## DiceD20
 

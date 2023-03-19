@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Glasses')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GlassesXs>`
+- `<$GlassesSm>`
+- `<$GlassesMd>`
+- `<$GlassesLg>`
+
+
+
+
 
 ## Glasses
 

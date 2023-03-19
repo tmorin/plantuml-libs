@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Instalod')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InstalodXs>`
+- `<$InstalodSm>`
+- `<$InstalodMd>`
+- `<$InstalodLg>`
+
+
+
+
 
 ## Instalod
 

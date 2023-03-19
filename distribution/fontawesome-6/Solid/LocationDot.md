@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/LocationDot')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LocationDotXs>`
+- `<$LocationDotSm>`
+- `<$LocationDotMd>`
+- `<$LocationDotLg>`
+
+
+
+
 
 ## LocationDot
 

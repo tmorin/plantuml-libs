@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BoltLightning')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BoltLightningXs>`
+- `<$BoltLightningSm>`
+- `<$BoltLightningMd>`
+- `<$BoltLightningLg>`
+
+
+
+
 
 ## BoltLightning
 

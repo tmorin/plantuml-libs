@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/VolumeLow')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VolumeLowXs>`
+- `<$VolumeLowSm>`
+- `<$VolumeLowMd>`
+- `<$VolumeLowLg>`
+
+
+
+
 
 ## VolumeLow
 

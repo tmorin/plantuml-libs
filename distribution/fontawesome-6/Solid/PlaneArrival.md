@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PlaneArrival')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PlaneArrivalXs>`
+- `<$PlaneArrivalSm>`
+- `<$PlaneArrivalMd>`
+- `<$PlaneArrivalLg>`
+
+
+
+
 
 ## PlaneArrival
 

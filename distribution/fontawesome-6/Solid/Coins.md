@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Coins')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CoinsXs>`
+- `<$CoinsSm>`
+- `<$CoinsMd>`
+- `<$CoinsLg>`
+
+
+
+
 
 ## Coins
 

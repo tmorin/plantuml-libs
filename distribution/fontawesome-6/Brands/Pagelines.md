@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Pagelines')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PagelinesXs>`
+- `<$PagelinesSm>`
+- `<$PagelinesMd>`
+- `<$PagelinesLg>`
+
+
+
+
 
 ## Pagelines
 

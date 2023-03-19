@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/HandLizard')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HandLizardXs>`
+- `<$HandLizardSm>`
+- `<$HandLizardMd>`
+- `<$HandLizardLg>`
+
+
+
+
 
 ## HandLizard
 

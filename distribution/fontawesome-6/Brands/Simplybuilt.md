@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Simplybuilt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SimplybuiltXs>`
+- `<$SimplybuiltSm>`
+- `<$SimplybuiltMd>`
+- `<$SimplybuiltLg>`
+
+
+
+
 
 ## Simplybuilt
 

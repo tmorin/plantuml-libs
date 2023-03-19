@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Q')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$QXs>`
+- `<$QSm>`
+- `<$QMd>`
+- `<$QLg>`
+
+
+
+
 
 ## Q
 

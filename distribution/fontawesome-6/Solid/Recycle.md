@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Recycle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RecycleXs>`
+- `<$RecycleSm>`
+- `<$RecycleMd>`
+- `<$RecycleLg>`
+
+
+
+
 
 ## Recycle
 

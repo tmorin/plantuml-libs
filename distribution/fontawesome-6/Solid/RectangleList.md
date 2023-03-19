@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/RectangleList')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RectangleListXs>`
+- `<$RectangleListSm>`
+- `<$RectangleListMd>`
+- `<$RectangleListLg>`
+
+
+
+
 
 ## RectangleList
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Mizuni')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MizuniXs>`
+- `<$MizuniSm>`
+- `<$MizuniMd>`
+- `<$MizuniLg>`
+
+
+
+
 
 ## Mizuni
 

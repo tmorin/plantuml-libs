@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Gitter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GitterXs>`
+- `<$GitterSm>`
+- `<$GitterMd>`
+- `<$GitterLg>`
+
+
+
+
 
 ## Gitter
 

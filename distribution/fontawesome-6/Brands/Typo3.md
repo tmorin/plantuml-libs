@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Typo3')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$Typo3Xs>`
+- `<$Typo3Sm>`
+- `<$Typo3Md>`
+- `<$Typo3Lg>`
+
+
+
+
 
 ## Typo3
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Splotch')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SplotchXs>`
+- `<$SplotchSm>`
+- `<$SplotchMd>`
+- `<$SplotchLg>`
+
+
+
+
 
 ## Splotch
 

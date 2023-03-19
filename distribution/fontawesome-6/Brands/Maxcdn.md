@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Maxcdn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MaxcdnXs>`
+- `<$MaxcdnSm>`
+- `<$MaxcdnMd>`
+- `<$MaxcdnLg>`
+
+
+
+
 
 ## Maxcdn
 

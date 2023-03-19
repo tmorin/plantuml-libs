@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/GreaterThanEqual')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GreaterThanEqualXs>`
+- `<$GreaterThanEqualSm>`
+- `<$GreaterThanEqualMd>`
+- `<$GreaterThanEqualLg>`
+
+
+
+
 
 ## GreaterThanEqual
 

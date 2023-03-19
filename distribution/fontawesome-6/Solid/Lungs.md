@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Lungs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LungsXs>`
+- `<$LungsSm>`
+- `<$LungsMd>`
+- `<$LungsLg>`
+
+
+
+
 
 ## Lungs
 

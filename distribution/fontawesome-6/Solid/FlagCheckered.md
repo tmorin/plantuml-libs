@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/FlagCheckered')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FlagCheckeredXs>`
+- `<$FlagCheckeredSm>`
+- `<$FlagCheckeredMd>`
+- `<$FlagCheckeredLg>`
+
+
+
+
 
 ## FlagCheckered
 

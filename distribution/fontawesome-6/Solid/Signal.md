@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Signal')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SignalXs>`
+- `<$SignalSm>`
+- `<$SignalMd>`
+- `<$SignalLg>`
+
+
+
+
 
 ## Signal
 

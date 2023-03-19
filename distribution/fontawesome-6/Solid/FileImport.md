@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/FileImport')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FileImportXs>`
+- `<$FileImportSm>`
+- `<$FileImportMd>`
+- `<$FileImportLg>`
+
+
+
+
 
 ## FileImport
 

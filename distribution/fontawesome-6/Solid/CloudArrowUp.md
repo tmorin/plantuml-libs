@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CloudArrowUp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudArrowUpXs>`
+- `<$CloudArrowUpSm>`
+- `<$CloudArrowUpMd>`
+- `<$CloudArrowUpLg>`
+
+
+
+
 
 ## CloudArrowUp
 

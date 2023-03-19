@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/TruckRampBox')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TruckRampBoxXs>`
+- `<$TruckRampBoxSm>`
+- `<$TruckRampBoxMd>`
+- `<$TruckRampBoxLg>`
+
+
+
+
 
 ## TruckRampBox
 

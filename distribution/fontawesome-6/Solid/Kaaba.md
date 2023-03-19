@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Kaaba')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KaabaXs>`
+- `<$KaabaSm>`
+- `<$KaabaMd>`
+- `<$KaabaLg>`
+
+
+
+
 
 ## Kaaba
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/NodeJs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NodeJsXs>`
+- `<$NodeJsSm>`
+- `<$NodeJsMd>`
+- `<$NodeJsLg>`
+
+
+
+
 
 ## NodeJs
 

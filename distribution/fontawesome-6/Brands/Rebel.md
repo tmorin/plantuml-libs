@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Rebel')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RebelXs>`
+- `<$RebelSm>`
+- `<$RebelMd>`
+- `<$RebelLg>`
+
+
+
+
 
 ## Rebel
 

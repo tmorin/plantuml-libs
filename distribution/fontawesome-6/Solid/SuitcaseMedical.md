@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/SuitcaseMedical')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SuitcaseMedicalXs>`
+- `<$SuitcaseMedicalSm>`
+- `<$SuitcaseMedicalMd>`
+- `<$SuitcaseMedicalLg>`
+
+
+
+
 
 ## SuitcaseMedical
 

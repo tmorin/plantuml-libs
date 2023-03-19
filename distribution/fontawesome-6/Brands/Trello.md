@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Trello')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TrelloXs>`
+- `<$TrelloSm>`
+- `<$TrelloMd>`
+- `<$TrelloLg>`
+
+
+
+
 
 ## Trello
 

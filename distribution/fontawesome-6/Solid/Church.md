@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Church')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChurchXs>`
+- `<$ChurchSm>`
+- `<$ChurchMd>`
+- `<$ChurchLg>`
+
+
+
+
 
 ## Church
 

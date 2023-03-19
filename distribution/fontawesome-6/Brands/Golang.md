@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Golang')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GolangXs>`
+- `<$GolangSm>`
+- `<$GolangMd>`
+- `<$GolangLg>`
+
+
+
+
 
 ## Golang
 

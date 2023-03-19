@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/BluetoothB')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BluetoothBXs>`
+- `<$BluetoothBSm>`
+- `<$BluetoothBMd>`
+- `<$BluetoothBLg>`
+
+
+
+
 
 ## BluetoothB
 

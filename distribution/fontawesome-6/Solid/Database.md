@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Database')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DatabaseXs>`
+- `<$DatabaseSm>`
+- `<$DatabaseMd>`
+- `<$DatabaseLg>`
+
+
+
+
 
 ## Database
 

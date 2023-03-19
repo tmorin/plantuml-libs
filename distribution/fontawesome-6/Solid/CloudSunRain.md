@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CloudSunRain')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudSunRainXs>`
+- `<$CloudSunRainSm>`
+- `<$CloudSunRainMd>`
+- `<$CloudSunRainLg>`
+
+
+
+
 
 ## CloudSunRain
 

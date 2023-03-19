@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HouseFloodWater')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HouseFloodWaterXs>`
+- `<$HouseFloodWaterSm>`
+- `<$HouseFloodWaterMd>`
+- `<$HouseFloodWaterLg>`
+
+
+
+
 
 ## HouseFloodWater
 

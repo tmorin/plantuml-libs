@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/FaceMehBlank')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FaceMehBlankXs>`
+- `<$FaceMehBlankSm>`
+- `<$FaceMehBlankMd>`
+- `<$FaceMehBlankLg>`
+
+
+
+
 
 ## FaceMehBlank
 

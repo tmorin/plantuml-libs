@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Bucket')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BucketXs>`
+- `<$BucketSm>`
+- `<$BucketMd>`
+- `<$BucketLg>`
+
+
+
+
 
 ## Bucket
 

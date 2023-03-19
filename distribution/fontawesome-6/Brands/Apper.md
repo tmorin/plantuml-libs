@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Apper')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ApperXs>`
+- `<$ApperSm>`
+- `<$ApperMd>`
+- `<$ApperLg>`
+
+
+
+
 
 ## Apper
 

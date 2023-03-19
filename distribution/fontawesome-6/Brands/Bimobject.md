@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Bimobject')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BimobjectXs>`
+- `<$BimobjectSm>`
+- `<$BimobjectMd>`
+- `<$BimobjectLg>`
+
+
+
+
 
 ## Bimobject
 

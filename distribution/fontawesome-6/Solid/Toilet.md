@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Toilet')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ToiletXs>`
+- `<$ToiletSm>`
+- `<$ToiletMd>`
+- `<$ToiletLg>`
+
+
+
+
 
 ## Toilet
 

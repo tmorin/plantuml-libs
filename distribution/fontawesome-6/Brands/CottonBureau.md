@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/CottonBureau')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CottonBureauXs>`
+- `<$CottonBureauSm>`
+- `<$CottonBureauMd>`
+- `<$CottonBureauLg>`
+
+
+
+
 
 ## CottonBureau
 

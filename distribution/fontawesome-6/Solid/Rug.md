@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Rug')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RugXs>`
+- `<$RugSm>`
+- `<$RugMd>`
+- `<$RugLg>`
+
+
+
+
 
 ## Rug
 

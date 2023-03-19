@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PesetaSign')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PesetaSignXs>`
+- `<$PesetaSignSm>`
+- `<$PesetaSignMd>`
+- `<$PesetaSignLg>`
+
+
+
+
 
 ## PesetaSign
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/CcPaypal')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CcPaypalXs>`
+- `<$CcPaypalSm>`
+- `<$CcPaypalMd>`
+- `<$CcPaypalLg>`
+
+
+
+
 
 ## CcPaypal
 

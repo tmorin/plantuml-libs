@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/SquarePersonConfined')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquarePersonConfinedXs>`
+- `<$SquarePersonConfinedSm>`
+- `<$SquarePersonConfinedMd>`
+- `<$SquarePersonConfinedLg>`
+
+
+
+
 
 ## SquarePersonConfined
 

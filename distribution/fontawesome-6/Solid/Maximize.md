@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Maximize')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MaximizeXs>`
+- `<$MaximizeSm>`
+- `<$MaximizeMd>`
+- `<$MaximizeLg>`
+
+
+
+
 
 ## Maximize
 

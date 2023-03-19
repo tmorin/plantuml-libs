@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Jira')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JiraXs>`
+- `<$JiraSm>`
+- `<$JiraMd>`
+- `<$JiraLg>`
+
+
+
+
 
 ## Jira
 

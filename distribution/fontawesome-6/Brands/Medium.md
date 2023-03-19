@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Medium')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MediumXs>`
+- `<$MediumSm>`
+- `<$MediumMd>`
+- `<$MediumLg>`
+
+
+
+
 
 ## Medium
 

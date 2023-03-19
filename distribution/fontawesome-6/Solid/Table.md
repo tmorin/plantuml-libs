@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Table')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TableXs>`
+- `<$TableSm>`
+- `<$TableMd>`
+- `<$TableLg>`
+
+
+
+
 
 ## Table
 

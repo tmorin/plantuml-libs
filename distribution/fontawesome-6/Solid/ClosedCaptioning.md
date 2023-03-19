@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ClosedCaptioning')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ClosedCaptioningXs>`
+- `<$ClosedCaptioningSm>`
+- `<$ClosedCaptioningMd>`
+- `<$ClosedCaptioningLg>`
+
+
+
+
 
 ## ClosedCaptioning
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Ankh')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AnkhXs>`
+- `<$AnkhSm>`
+- `<$AnkhMd>`
+- `<$AnkhLg>`
+
+
+
+
 
 ## Ankh
 

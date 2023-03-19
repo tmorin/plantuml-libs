@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CarBattery')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CarBatteryXs>`
+- `<$CarBatterySm>`
+- `<$CarBatteryMd>`
+- `<$CarBatteryLg>`
+
+
+
+
 
 ## CarBattery
 

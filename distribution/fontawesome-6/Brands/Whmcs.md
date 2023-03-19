@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Whmcs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WhmcsXs>`
+- `<$WhmcsSm>`
+- `<$WhmcsMd>`
+- `<$WhmcsLg>`
+
+
+
+
 
 ## Whmcs
 

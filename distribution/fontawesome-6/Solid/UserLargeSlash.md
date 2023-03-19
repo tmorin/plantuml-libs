@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/UserLargeSlash')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UserLargeSlashXs>`
+- `<$UserLargeSlashSm>`
+- `<$UserLargeSlashMd>`
+- `<$UserLargeSlashLg>`
+
+
+
+
 
 ## UserLargeSlash
 

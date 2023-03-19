@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Wallet')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WalletXs>`
+- `<$WalletSm>`
+- `<$WalletMd>`
+- `<$WalletLg>`
+
+
+
+
 
 ## Wallet
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Briefcase')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BriefcaseXs>`
+- `<$BriefcaseSm>`
+- `<$BriefcaseMd>`
+- `<$BriefcaseLg>`
+
+
+
+
 
 ## Briefcase
 

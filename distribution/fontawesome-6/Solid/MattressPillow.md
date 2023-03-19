@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/MattressPillow')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MattressPillowXs>`
+- `<$MattressPillowSm>`
+- `<$MattressPillowMd>`
+- `<$MattressPillowLg>`
+
+
+
+
 
 ## MattressPillow
 

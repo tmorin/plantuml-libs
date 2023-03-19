@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/TrashArrowUp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TrashArrowUpXs>`
+- `<$TrashArrowUpSm>`
+- `<$TrashArrowUpMd>`
+- `<$TrashArrowUpLg>`
+
+
+
+
 
 ## TrashArrowUp
 

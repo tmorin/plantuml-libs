@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/DumpsterFire')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DumpsterFireXs>`
+- `<$DumpsterFireSm>`
+- `<$DumpsterFireMd>`
+- `<$DumpsterFireLg>`
+
+
+
+
 
 ## DumpsterFire
 

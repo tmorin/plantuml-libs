@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Snapchat')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SnapchatXs>`
+- `<$SnapchatSm>`
+- `<$SnapchatMd>`
+- `<$SnapchatLg>`
+
+
+
+
 
 ## Snapchat
 

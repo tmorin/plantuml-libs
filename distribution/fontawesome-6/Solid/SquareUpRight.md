@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/SquareUpRight')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquareUpRightXs>`
+- `<$SquareUpRightSm>`
+- `<$SquareUpRightMd>`
+- `<$SquareUpRightLg>`
+
+
+
+
 
 ## SquareUpRight
 

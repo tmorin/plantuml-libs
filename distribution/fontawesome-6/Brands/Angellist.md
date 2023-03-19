@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Angellist')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AngellistXs>`
+- `<$AngellistSm>`
+- `<$AngellistMd>`
+- `<$AngellistLg>`
+
+
+
+
 
 ## Angellist
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BatteryEmpty')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BatteryEmptyXs>`
+- `<$BatteryEmptySm>`
+- `<$BatteryEmptyMd>`
+- `<$BatteryEmptyLg>`
+
+
+
+
 
 ## BatteryEmpty
 

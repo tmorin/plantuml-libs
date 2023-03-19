@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/SquareH')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquareHXs>`
+- `<$SquareHSm>`
+- `<$SquareHMd>`
+- `<$SquareHLg>`
+
+
+
+
 
 ## SquareH
 

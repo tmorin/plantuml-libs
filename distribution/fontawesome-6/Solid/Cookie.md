@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Cookie')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CookieXs>`
+- `<$CookieSm>`
+- `<$CookieMd>`
+- `<$CookieLg>`
+
+
+
+
 
 ## Cookie
 

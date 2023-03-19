@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/CcDinersClub')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CcDinersClubXs>`
+- `<$CcDinersClubSm>`
+- `<$CcDinersClubMd>`
+- `<$CcDinersClubLg>`
+
+
+
+
 
 ## CcDinersClub
 

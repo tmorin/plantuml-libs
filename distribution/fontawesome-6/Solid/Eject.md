@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Eject')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EjectXs>`
+- `<$EjectSm>`
+- `<$EjectMd>`
+- `<$EjectLg>`
+
+
+
+
 
 ## Eject
 

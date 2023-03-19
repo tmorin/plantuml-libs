@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Ring')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RingXs>`
+- `<$RingSm>`
+- `<$RingMd>`
+- `<$RingLg>`
+
+
+
+
 
 ## Ring
 

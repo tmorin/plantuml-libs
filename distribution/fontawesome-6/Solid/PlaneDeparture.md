@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PlaneDeparture')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PlaneDepartureXs>`
+- `<$PlaneDepartureSm>`
+- `<$PlaneDepartureMd>`
+- `<$PlaneDepartureLg>`
+
+
+
+
 
 ## PlaneDeparture
 

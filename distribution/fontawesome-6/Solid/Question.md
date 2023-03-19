@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Question')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$QuestionXs>`
+- `<$QuestionSm>`
+- `<$QuestionMd>`
+- `<$QuestionLg>`
+
+
+
+
 
 ## Question
 

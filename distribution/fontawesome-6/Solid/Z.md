@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Z')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ZXs>`
+- `<$ZSm>`
+- `<$ZMd>`
+- `<$ZLg>`
+
+
+
+
 
 ## Z
 

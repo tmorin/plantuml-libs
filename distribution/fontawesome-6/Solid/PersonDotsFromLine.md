@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PersonDotsFromLine')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PersonDotsFromLineXs>`
+- `<$PersonDotsFromLineSm>`
+- `<$PersonDotsFromLineMd>`
+- `<$PersonDotsFromLineLg>`
+
+
+
+
 
 ## PersonDotsFromLine
 

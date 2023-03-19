@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PaperPlane')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PaperPlaneXs>`
+- `<$PaperPlaneSm>`
+- `<$PaperPlaneMd>`
+- `<$PaperPlaneLg>`
+
+
+
+
 
 ## PaperPlane
 

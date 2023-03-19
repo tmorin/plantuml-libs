@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ArrowUpFromWaterPump')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ArrowUpFromWaterPumpXs>`
+- `<$ArrowUpFromWaterPumpSm>`
+- `<$ArrowUpFromWaterPumpMd>`
+- `<$ArrowUpFromWaterPumpLg>`
+
+
+
+
 
 ## ArrowUpFromWaterPump
 

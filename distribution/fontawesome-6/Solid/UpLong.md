@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/UpLong')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UpLongXs>`
+- `<$UpLongSm>`
+- `<$UpLongMd>`
+- `<$UpLongLg>`
+
+
+
+
 
 ## UpLong
 

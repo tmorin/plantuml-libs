@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Amilia')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmiliaXs>`
+- `<$AmiliaSm>`
+- `<$AmiliaMd>`
+- `<$AmiliaLg>`
+
+
+
+
 
 ## Amilia
 

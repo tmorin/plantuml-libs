@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CircleMinus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CircleMinusXs>`
+- `<$CircleMinusSm>`
+- `<$CircleMinusMd>`
+- `<$CircleMinusLg>`
+
+
+
+
 
 ## CircleMinus
 

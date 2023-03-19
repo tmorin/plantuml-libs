@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/EarthEurope')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EarthEuropeXs>`
+- `<$EarthEuropeSm>`
+- `<$EarthEuropeMd>`
+- `<$EarthEuropeLg>`
+
+
+
+
 
 ## EarthEurope
 

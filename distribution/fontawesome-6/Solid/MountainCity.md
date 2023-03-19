@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/MountainCity')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MountainCityXs>`
+- `<$MountainCitySm>`
+- `<$MountainCityMd>`
+- `<$MountainCityLg>`
+
+
+
+
 
 ## MountainCity
 

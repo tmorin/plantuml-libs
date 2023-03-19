@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/TurnUp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TurnUpXs>`
+- `<$TurnUpSm>`
+- `<$TurnUpMd>`
+- `<$TurnUpLg>`
+
+
+
+
 
 ## TurnUp
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Amazon')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonXs>`
+- `<$AmazonSm>`
+- `<$AmazonMd>`
+- `<$AmazonLg>`
+
+
+
+
 
 ## Amazon
 

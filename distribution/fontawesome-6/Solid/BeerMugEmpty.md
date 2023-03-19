@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BeerMugEmpty')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BeerMugEmptyXs>`
+- `<$BeerMugEmptySm>`
+- `<$BeerMugEmptyMd>`
+- `<$BeerMugEmptyLg>`
+
+
+
+
 
 ## BeerMugEmpty
 

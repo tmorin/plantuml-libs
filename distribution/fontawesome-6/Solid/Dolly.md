@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Dolly')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DollyXs>`
+- `<$DollySm>`
+- `<$DollyMd>`
+- `<$DollyLg>`
+
+
+
+
 
 ## Dolly
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CaretRight')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CaretRightXs>`
+- `<$CaretRightSm>`
+- `<$CaretRightMd>`
+- `<$CaretRightLg>`
+
+
+
+
 
 ## CaretRight
 

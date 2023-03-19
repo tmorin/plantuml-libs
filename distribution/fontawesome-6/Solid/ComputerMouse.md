@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ComputerMouse')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ComputerMouseXs>`
+- `<$ComputerMouseSm>`
+- `<$ComputerMouseMd>`
+- `<$ComputerMouseLg>`
+
+
+
+
 
 ## ComputerMouse
 

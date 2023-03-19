@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BuildingUn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BuildingUnXs>`
+- `<$BuildingUnSm>`
+- `<$BuildingUnMd>`
+- `<$BuildingUnLg>`
+
+
+
+
 
 ## BuildingUn
 

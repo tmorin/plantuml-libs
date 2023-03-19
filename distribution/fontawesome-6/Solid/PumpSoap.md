@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PumpSoap')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PumpSoapXs>`
+- `<$PumpSoapSm>`
+- `<$PumpSoapMd>`
+- `<$PumpSoapLg>`
+
+
+
+
 
 ## PumpSoap
 

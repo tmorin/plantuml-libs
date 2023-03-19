@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/GripLines')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GripLinesXs>`
+- `<$GripLinesSm>`
+- `<$GripLinesMd>`
+- `<$GripLinesLg>`
+
+
+
+
 
 ## GripLines
 

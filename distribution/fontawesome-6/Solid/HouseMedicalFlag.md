@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HouseMedicalFlag')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HouseMedicalFlagXs>`
+- `<$HouseMedicalFlagSm>`
+- `<$HouseMedicalFlagMd>`
+- `<$HouseMedicalFlagLg>`
+
+
+
+
 
 ## HouseMedicalFlag
 

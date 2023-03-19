@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/SchoolFlag')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SchoolFlagXs>`
+- `<$SchoolFlagSm>`
+- `<$SchoolFlagMd>`
+- `<$SchoolFlagLg>`
+
+
+
+
 
 ## SchoolFlag
 

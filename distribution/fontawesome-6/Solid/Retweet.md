@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Retweet')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RetweetXs>`
+- `<$RetweetSm>`
+- `<$RetweetMd>`
+- `<$RetweetLg>`
+
+
+
+
 
 ## Retweet
 

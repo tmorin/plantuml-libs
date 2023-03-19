@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/SquareYoutube')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquareYoutubeXs>`
+- `<$SquareYoutubeSm>`
+- `<$SquareYoutubeMd>`
+- `<$SquareYoutubeLg>`
+
+
+
+
 
 ## SquareYoutube
 

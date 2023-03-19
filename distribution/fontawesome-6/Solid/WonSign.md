@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/WonSign')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WonSignXs>`
+- `<$WonSignSm>`
+- `<$WonSignMd>`
+- `<$WonSignLg>`
+
+
+
+
 
 ## WonSign
 

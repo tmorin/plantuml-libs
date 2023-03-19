@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Soundcloud')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SoundcloudXs>`
+- `<$SoundcloudSm>`
+- `<$SoundcloudMd>`
+- `<$SoundcloudLg>`
+
+
+
+
 
 ## Soundcloud
 

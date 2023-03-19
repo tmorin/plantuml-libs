@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Bookmark')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BookmarkXs>`
+- `<$BookmarkSm>`
+- `<$BookmarkMd>`
+- `<$BookmarkLg>`
+
+
+
+
 
 ## Bookmark
 

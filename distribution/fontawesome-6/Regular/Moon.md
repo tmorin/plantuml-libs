@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/Moon')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MoonXs>`
+- `<$MoonSm>`
+- `<$MoonMd>`
+- `<$MoonLg>`
+
+
+
+
 
 ## Moon
 

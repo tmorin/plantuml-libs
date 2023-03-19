@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ToiletsPortable')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ToiletsPortableXs>`
+- `<$ToiletsPortableSm>`
+- `<$ToiletsPortableMd>`
+- `<$ToiletsPortableLg>`
+
+
+
+
 
 ## ToiletsPortable
 

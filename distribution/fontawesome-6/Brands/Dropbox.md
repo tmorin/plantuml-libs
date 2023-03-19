@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Dropbox')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DropboxXs>`
+- `<$DropboxSm>`
+- `<$DropboxMd>`
+- `<$DropboxLg>`
+
+
+
+
 
 ## Dropbox
 

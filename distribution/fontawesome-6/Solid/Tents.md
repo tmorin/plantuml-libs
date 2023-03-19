@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Tents')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TentsXs>`
+- `<$TentsSm>`
+- `<$TentsMd>`
+- `<$TentsLg>`
+
+
+
+
 
 ## Tents
 

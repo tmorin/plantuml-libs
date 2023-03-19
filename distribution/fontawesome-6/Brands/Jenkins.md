@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Jenkins')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JenkinsXs>`
+- `<$JenkinsSm>`
+- `<$JenkinsMd>`
+- `<$JenkinsLg>`
+
+
+
+
 
 ## Jenkins
 

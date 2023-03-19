@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Shower')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShowerXs>`
+- `<$ShowerSm>`
+- `<$ShowerMd>`
+- `<$ShowerLg>`
+
+
+
+
 
 ## Shower
 

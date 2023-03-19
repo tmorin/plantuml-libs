@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Sass')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SassXs>`
+- `<$SassSm>`
+- `<$SassMd>`
+- `<$SassLg>`
+
+
+
+
 
 ## Sass
 

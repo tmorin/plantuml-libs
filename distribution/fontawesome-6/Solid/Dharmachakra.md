@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Dharmachakra')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DharmachakraXs>`
+- `<$DharmachakraSm>`
+- `<$DharmachakraMd>`
+- `<$DharmachakraLg>`
+
+
+
+
 
 ## Dharmachakra
 

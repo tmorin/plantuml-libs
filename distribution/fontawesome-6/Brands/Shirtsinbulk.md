@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Shirtsinbulk')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShirtsinbulkXs>`
+- `<$ShirtsinbulkSm>`
+- `<$ShirtsinbulkMd>`
+- `<$ShirtsinbulkLg>`
+
+
+
+
 
 ## Shirtsinbulk
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Yoast')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$YoastXs>`
+- `<$YoastSm>`
+- `<$YoastMd>`
+- `<$YoastLg>`
+
+
+
+
 
 ## Yoast
 

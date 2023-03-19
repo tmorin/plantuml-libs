@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ParachuteBox')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ParachuteBoxXs>`
+- `<$ParachuteBoxSm>`
+- `<$ParachuteBoxMd>`
+- `<$ParachuteBoxLg>`
+
+
+
+
 
 ## ParachuteBox
 

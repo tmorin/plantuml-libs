@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/MugSaucer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MugSaucerXs>`
+- `<$MugSaucerSm>`
+- `<$MugSaucerMd>`
+- `<$MugSaucerLg>`
+
+
+
+
 
 ## MugSaucer
 

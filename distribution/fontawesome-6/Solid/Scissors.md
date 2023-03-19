@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Scissors')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ScissorsXs>`
+- `<$ScissorsSm>`
+- `<$ScissorsMd>`
+- `<$ScissorsLg>`
+
+
+
+
 
 ## Scissors
 

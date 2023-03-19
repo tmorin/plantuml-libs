@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Scribd')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ScribdXs>`
+- `<$ScribdSm>`
+- `<$ScribdMd>`
+- `<$ScribdLg>`
+
+
+
+
 
 ## Scribd
 

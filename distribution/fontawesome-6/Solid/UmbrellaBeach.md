@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/UmbrellaBeach')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UmbrellaBeachXs>`
+- `<$UmbrellaBeachSm>`
+- `<$UmbrellaBeachMd>`
+- `<$UmbrellaBeachLg>`
+
+
+
+
 
 ## UmbrellaBeach
 

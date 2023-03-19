@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/SchoolCircleCheck')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SchoolCircleCheckXs>`
+- `<$SchoolCircleCheckSm>`
+- `<$SchoolCircleCheckMd>`
+- `<$SchoolCircleCheckLg>`
+
+
+
+
 
 ## SchoolCircleCheck
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/SkullCrossbones')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SkullCrossbonesXs>`
+- `<$SkullCrossbonesSm>`
+- `<$SkullCrossbonesMd>`
+- `<$SkullCrossbonesLg>`
+
+
+
+
 
 ## SkullCrossbones
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/DoorOpen')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DoorOpenXs>`
+- `<$DoorOpenSm>`
+- `<$DoorOpenMd>`
+- `<$DoorOpenLg>`
+
+
+
+
 
 ## DoorOpen
 

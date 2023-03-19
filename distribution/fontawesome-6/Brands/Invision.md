@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Invision')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InvisionXs>`
+- `<$InvisionSm>`
+- `<$InvisionMd>`
+- `<$InvisionLg>`
+
+
+
+
 
 ## Invision
 

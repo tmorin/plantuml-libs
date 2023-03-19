@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Football')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FootballXs>`
+- `<$FootballSm>`
+- `<$FootballMd>`
+- `<$FootballLg>`
+
+
+
+
 
 ## Football
 

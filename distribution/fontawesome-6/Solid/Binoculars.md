@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Binoculars')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BinocularsXs>`
+- `<$BinocularsSm>`
+- `<$BinocularsMd>`
+- `<$BinocularsLg>`
+
+
+
+
 
 ## Binoculars
 

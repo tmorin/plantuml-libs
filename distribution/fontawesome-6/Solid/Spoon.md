@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Spoon')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SpoonXs>`
+- `<$SpoonSm>`
+- `<$SpoonMd>`
+- `<$SpoonLg>`
+
+
+
+
 
 ## Spoon
 

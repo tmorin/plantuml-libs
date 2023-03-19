@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CloudMeatball')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudMeatballXs>`
+- `<$CloudMeatballSm>`
+- `<$CloudMeatballMd>`
+- `<$CloudMeatballLg>`
+
+
+
+
 
 ## CloudMeatball
 

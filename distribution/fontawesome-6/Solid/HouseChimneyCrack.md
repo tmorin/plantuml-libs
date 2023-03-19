@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HouseChimneyCrack')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HouseChimneyCrackXs>`
+- `<$HouseChimneyCrackSm>`
+- `<$HouseChimneyCrackMd>`
+- `<$HouseChimneyCrackLg>`
+
+
+
+
 
 ## HouseChimneyCrack
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/WandMagic')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WandMagicXs>`
+- `<$WandMagicSm>`
+- `<$WandMagicMd>`
+- `<$WandMagicLg>`
+
+
+
+
 
 ## WandMagic
 

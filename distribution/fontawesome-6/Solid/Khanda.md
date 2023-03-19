@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Khanda')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KhandaXs>`
+- `<$KhandaSm>`
+- `<$KhandaMd>`
+- `<$KhandaLg>`
+
+
+
+
 
 ## Khanda
 

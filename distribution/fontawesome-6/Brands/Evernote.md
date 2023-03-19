@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Evernote')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EvernoteXs>`
+- `<$EvernoteSm>`
+- `<$EvernoteMd>`
+- `<$EvernoteLg>`
+
+
+
+
 
 ## Evernote
 

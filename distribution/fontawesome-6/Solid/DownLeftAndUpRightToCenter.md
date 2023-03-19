@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/DownLeftAndUpRightToCenter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DownLeftAndUpRightToCenterXs>`
+- `<$DownLeftAndUpRightToCenterSm>`
+- `<$DownLeftAndUpRightToCenterMd>`
+- `<$DownLeftAndUpRightToCenterLg>`
+
+
+
+
 
 ## DownLeftAndUpRightToCenter
 

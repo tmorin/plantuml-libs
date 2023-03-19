@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/FillDrip')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FillDripXs>`
+- `<$FillDripSm>`
+- `<$FillDripMd>`
+- `<$FillDripLg>`
+
+
+
+
 
 ## FillDrip
 

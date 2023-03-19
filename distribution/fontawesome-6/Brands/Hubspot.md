@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Hubspot')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HubspotXs>`
+- `<$HubspotSm>`
+- `<$HubspotMd>`
+- `<$HubspotLg>`
+
+
+
+
 
 ## Hubspot
 

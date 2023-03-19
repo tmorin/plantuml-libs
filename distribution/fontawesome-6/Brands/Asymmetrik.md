@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Asymmetrik')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AsymmetrikXs>`
+- `<$AsymmetrikSm>`
+- `<$AsymmetrikMd>`
+- `<$AsymmetrikLg>`
+
+
+
+
 
 ## Asymmetrik
 

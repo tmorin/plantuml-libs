@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/CircleUser')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CircleUserXs>`
+- `<$CircleUserSm>`
+- `<$CircleUserMd>`
+- `<$CircleUserLg>`
+
+
+
+
 
 ## CircleUser
 

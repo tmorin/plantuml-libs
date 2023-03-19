@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/IdBadge')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IdBadgeXs>`
+- `<$IdBadgeSm>`
+- `<$IdBadgeMd>`
+- `<$IdBadgeLg>`
+
+
+
+
 
 ## IdBadge
 

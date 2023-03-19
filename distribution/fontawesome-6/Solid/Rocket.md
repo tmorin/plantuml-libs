@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Rocket')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RocketXs>`
+- `<$RocketSm>`
+- `<$RocketMd>`
+- `<$RocketLg>`
+
+
+
+
 
 ## Rocket
 

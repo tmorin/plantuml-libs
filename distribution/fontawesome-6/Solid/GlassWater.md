@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/GlassWater')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GlassWaterXs>`
+- `<$GlassWaterSm>`
+- `<$GlassWaterMd>`
+- `<$GlassWaterLg>`
+
+
+
+
 
 ## GlassWater
 

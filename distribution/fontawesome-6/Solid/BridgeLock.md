@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BridgeLock')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BridgeLockXs>`
+- `<$BridgeLockSm>`
+- `<$BridgeLockMd>`
+- `<$BridgeLockLg>`
+
+
+
+
 
 ## BridgeLock
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/MicrophoneSlash')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MicrophoneSlashXs>`
+- `<$MicrophoneSlashSm>`
+- `<$MicrophoneSlashMd>`
+- `<$MicrophoneSlashLg>`
+
+
+
+
 
 ## MicrophoneSlash
 

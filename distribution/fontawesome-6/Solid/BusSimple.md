@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BusSimple')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BusSimpleXs>`
+- `<$BusSimpleSm>`
+- `<$BusSimpleMd>`
+- `<$BusSimpleLg>`
+
+
+
+
 
 ## BusSimple
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/NotEqual')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NotEqualXs>`
+- `<$NotEqualSm>`
+- `<$NotEqualMd>`
+- `<$NotEqualLg>`
+
+
+
+
 
 ## NotEqual
 

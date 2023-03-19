@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/ProductHunt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ProductHuntXs>`
+- `<$ProductHuntSm>`
+- `<$ProductHuntMd>`
+- `<$ProductHuntLg>`
+
+
+
+
 
 ## ProductHunt
 

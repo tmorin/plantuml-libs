@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Images')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ImagesXs>`
+- `<$ImagesSm>`
+- `<$ImagesMd>`
+- `<$ImagesLg>`
+
+
+
+
 
 ## Images
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Linkedin')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LinkedinXs>`
+- `<$LinkedinSm>`
+- `<$LinkedinMd>`
+- `<$LinkedinLg>`
+
+
+
+
 
 ## Linkedin
 

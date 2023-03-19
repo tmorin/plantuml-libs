@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/EyeLowVision')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EyeLowVisionXs>`
+- `<$EyeLowVisionSm>`
+- `<$EyeLowVisionMd>`
+- `<$EyeLowVisionLg>`
+
+
+
+
 
 ## EyeLowVision
 

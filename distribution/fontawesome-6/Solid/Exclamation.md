@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Exclamation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ExclamationXs>`
+- `<$ExclamationSm>`
+- `<$ExclamationMd>`
+- `<$ExclamationLg>`
+
+
+
+
 
 ## Exclamation
 

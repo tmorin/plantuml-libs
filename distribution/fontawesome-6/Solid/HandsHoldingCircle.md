@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HandsHoldingCircle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HandsHoldingCircleXs>`
+- `<$HandsHoldingCircleSm>`
+- `<$HandsHoldingCircleMd>`
+- `<$HandsHoldingCircleLg>`
+
+
+
+
 
 ## HandsHoldingCircle
 

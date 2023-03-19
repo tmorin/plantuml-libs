@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Sleigh')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SleighXs>`
+- `<$SleighSm>`
+- `<$SleighMd>`
+- `<$SleighLg>`
+
+
+
+
 
 ## Sleigh
 

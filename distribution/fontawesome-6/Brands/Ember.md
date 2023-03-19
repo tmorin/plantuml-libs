@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Ember')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EmberXs>`
+- `<$EmberSm>`
+- `<$EmberMd>`
+- `<$EmberLg>`
+
+
+
+
 
 ## Ember
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/DAndDBeyond')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DAndDBeyondXs>`
+- `<$DAndDBeyondSm>`
+- `<$DAndDBeyondMd>`
+- `<$DAndDBeyondLg>`
+
+
+
+
 
 ## DAndDBeyond
 

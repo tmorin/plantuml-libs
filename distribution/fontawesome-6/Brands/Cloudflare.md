@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Cloudflare')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudflareXs>`
+- `<$CloudflareSm>`
+- `<$CloudflareMd>`
+- `<$CloudflareLg>`
+
+
+
+
 
 ## Cloudflare
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CodePullRequest')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CodePullRequestXs>`
+- `<$CodePullRequestSm>`
+- `<$CodePullRequestMd>`
+- `<$CodePullRequestLg>`
+
+
+
+
 
 ## CodePullRequest
 

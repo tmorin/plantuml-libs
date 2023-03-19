@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/TeethOpen')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TeethOpenXs>`
+- `<$TeethOpenSm>`
+- `<$TeethOpenMd>`
+- `<$TeethOpenLg>`
+
+
+
+
 
 ## TeethOpen
 

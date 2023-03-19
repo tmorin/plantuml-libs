@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/SquareTumblr')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquareTumblrXs>`
+- `<$SquareTumblrSm>`
+- `<$SquareTumblrMd>`
+- `<$SquareTumblrLg>`
+
+
+
+
 
 ## SquareTumblr
 

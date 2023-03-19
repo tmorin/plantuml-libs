@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/DeleteLeft')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DeleteLeftXs>`
+- `<$DeleteLeftSm>`
+- `<$DeleteLeftMd>`
+- `<$DeleteLeftLg>`
+
+
+
+
 
 ## DeleteLeft
 

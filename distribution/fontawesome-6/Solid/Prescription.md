@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Prescription')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PrescriptionXs>`
+- `<$PrescriptionSm>`
+- `<$PrescriptionMd>`
+- `<$PrescriptionLg>`
+
+
+
+
 
 ## Prescription
 

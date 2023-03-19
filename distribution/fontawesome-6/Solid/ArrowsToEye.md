@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ArrowsToEye')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ArrowsToEyeXs>`
+- `<$ArrowsToEyeSm>`
+- `<$ArrowsToEyeMd>`
+- `<$ArrowsToEyeLg>`
+
+
+
+
 
 ## ArrowsToEye
 

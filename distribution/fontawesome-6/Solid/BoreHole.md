@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BoreHole')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BoreHoleXs>`
+- `<$BoreHoleSm>`
+- `<$BoreHoleMd>`
+- `<$BoreHoleLg>`
+
+
+
+
 
 ## BoreHole
 

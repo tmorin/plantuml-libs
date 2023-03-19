@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Xmark')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$XmarkXs>`
+- `<$XmarkSm>`
+- `<$XmarkMd>`
+- `<$XmarkLg>`
+
+
+
+
 
 ## Xmark
 

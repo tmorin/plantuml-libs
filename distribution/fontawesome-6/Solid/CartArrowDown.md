@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CartArrowDown')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CartArrowDownXs>`
+- `<$CartArrowDownSm>`
+- `<$CartArrowDownMd>`
+- `<$CartArrowDownLg>`
+
+
+
+
 
 ## CartArrowDown
 

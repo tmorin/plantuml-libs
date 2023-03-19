@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ChildReaching')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChildReachingXs>`
+- `<$ChildReachingSm>`
+- `<$ChildReachingMd>`
+- `<$ChildReachingLg>`
+
+
+
+
 
 ## ChildReaching
 

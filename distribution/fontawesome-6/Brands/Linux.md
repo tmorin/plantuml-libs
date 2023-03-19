@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Linux')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LinuxXs>`
+- `<$LinuxSm>`
+- `<$LinuxMd>`
+- `<$LinuxLg>`
+
+
+
+
 
 ## Linux
 

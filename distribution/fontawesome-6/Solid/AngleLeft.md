@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/AngleLeft')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AngleLeftXs>`
+- `<$AngleLeftSm>`
+- `<$AngleLeftMd>`
+- `<$AngleLeftLg>`
+
+
+
+
 
 ## AngleLeft
 

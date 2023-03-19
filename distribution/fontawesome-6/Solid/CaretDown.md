@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CaretDown')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CaretDownXs>`
+- `<$CaretDownSm>`
+- `<$CaretDownMd>`
+- `<$CaretDownLg>`
+
+
+
+
 
 ## CaretDown
 

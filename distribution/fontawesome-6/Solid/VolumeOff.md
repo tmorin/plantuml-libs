@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/VolumeOff')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VolumeOffXs>`
+- `<$VolumeOffSm>`
+- `<$VolumeOffMd>`
+- `<$VolumeOffLg>`
+
+
+
+
 
 ## VolumeOff
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/FontAwesome')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FontAwesomeXs>`
+- `<$FontAwesomeSm>`
+- `<$FontAwesomeMd>`
+- `<$FontAwesomeLg>`
+
+
+
+
 
 ## FontAwesome
 

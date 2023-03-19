@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CartFlatbedSuitcase')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CartFlatbedSuitcaseXs>`
+- `<$CartFlatbedSuitcaseSm>`
+- `<$CartFlatbedSuitcaseMd>`
+- `<$CartFlatbedSuitcaseLg>`
+
+
+
+
 
 ## CartFlatbedSuitcase
 

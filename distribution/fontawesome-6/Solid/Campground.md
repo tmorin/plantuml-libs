@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Campground')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CampgroundXs>`
+- `<$CampgroundSm>`
+- `<$CampgroundMd>`
+- `<$CampgroundLg>`
+
+
+
+
 
 ## Campground
 

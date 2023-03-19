@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Git')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GitXs>`
+- `<$GitSm>`
+- `<$GitMd>`
+- `<$GitLg>`
+
+
+
+
 
 ## Git
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/HandPointRight')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HandPointRightXs>`
+- `<$HandPointRightSm>`
+- `<$HandPointRightMd>`
+- `<$HandPointRightLg>`
+
+
+
+
 
 ## HandPointRight
 

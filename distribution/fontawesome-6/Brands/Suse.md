@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Suse')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SuseXs>`
+- `<$SuseSm>`
+- `<$SuseMd>`
+- `<$SuseLg>`
+
+
+
+
 
 ## Suse
 

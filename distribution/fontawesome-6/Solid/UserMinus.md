@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/UserMinus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UserMinusXs>`
+- `<$UserMinusSm>`
+- `<$UserMinusMd>`
+- `<$UserMinusLg>`
+
+
+
+
 
 ## UserMinus
 

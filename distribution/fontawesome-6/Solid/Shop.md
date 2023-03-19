@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Shop')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShopXs>`
+- `<$ShopSm>`
+- `<$ShopMd>`
+- `<$ShopLg>`
+
+
+
+
 
 ## Shop
 

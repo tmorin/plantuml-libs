@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BangladeshiTakaSign')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BangladeshiTakaSignXs>`
+- `<$BangladeshiTakaSignSm>`
+- `<$BangladeshiTakaSignMd>`
+- `<$BangladeshiTakaSignLg>`
+
+
+
+
 
 ## BangladeshiTakaSign
 

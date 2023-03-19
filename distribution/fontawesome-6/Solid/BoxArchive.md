@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BoxArchive')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BoxArchiveXs>`
+- `<$BoxArchiveSm>`
+- `<$BoxArchiveMd>`
+- `<$BoxArchiveLg>`
+
+
+
+
 
 ## BoxArchive
 

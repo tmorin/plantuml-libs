@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Firefox')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FirefoxXs>`
+- `<$FirefoxSm>`
+- `<$FirefoxMd>`
+- `<$FirefoxLg>`
+
+
+
+
 
 ## Firefox
 

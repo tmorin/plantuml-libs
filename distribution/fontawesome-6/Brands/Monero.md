@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Monero')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MoneroXs>`
+- `<$MoneroSm>`
+- `<$MoneroMd>`
+- `<$MoneroLg>`
+
+
+
+
 
 ## Monero
 

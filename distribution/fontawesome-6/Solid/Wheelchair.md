@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Wheelchair')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WheelchairXs>`
+- `<$WheelchairSm>`
+- `<$WheelchairMd>`
+- `<$WheelchairLg>`
+
+
+
+
 
 ## Wheelchair
 

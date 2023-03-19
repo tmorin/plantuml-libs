@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Hotjar')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HotjarXs>`
+- `<$HotjarSm>`
+- `<$HotjarMd>`
+- `<$HotjarLg>`
+
+
+
+
 
 ## Hotjar
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/FaceRollingEyes')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FaceRollingEyesXs>`
+- `<$FaceRollingEyesSm>`
+- `<$FaceRollingEyesMd>`
+- `<$FaceRollingEyesLg>`
+
+
+
+
 
 ## FaceRollingEyes
 

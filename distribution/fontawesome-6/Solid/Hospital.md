@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Hospital')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HospitalXs>`
+- `<$HospitalSm>`
+- `<$HospitalMd>`
+- `<$HospitalLg>`
+
+
+
+
 
 ## Hospital
 

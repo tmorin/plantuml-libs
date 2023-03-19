@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Guilded')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GuildedXs>`
+- `<$GuildedSm>`
+- `<$GuildedMd>`
+- `<$GuildedLg>`
+
+
+
+
 
 ## Guilded
 

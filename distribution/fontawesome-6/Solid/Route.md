@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Route')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RouteXs>`
+- `<$RouteSm>`
+- `<$RouteMd>`
+- `<$RouteLg>`
+
+
+
+
 
 ## Route
 

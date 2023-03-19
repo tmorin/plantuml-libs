@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Screwdriver')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ScrewdriverXs>`
+- `<$ScrewdriverSm>`
+- `<$ScrewdriverMd>`
+- `<$ScrewdriverLg>`
+
+
+
+
 
 ## Screwdriver
 

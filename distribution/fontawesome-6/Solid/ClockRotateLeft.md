@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ClockRotateLeft')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ClockRotateLeftXs>`
+- `<$ClockRotateLeftSm>`
+- `<$ClockRotateLeftMd>`
+- `<$ClockRotateLeftLg>`
+
+
+
+
 
 ## ClockRotateLeft
 

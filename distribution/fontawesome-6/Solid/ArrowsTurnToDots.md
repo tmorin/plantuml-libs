@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ArrowsTurnToDots')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ArrowsTurnToDotsXs>`
+- `<$ArrowsTurnToDotsSm>`
+- `<$ArrowsTurnToDotsMd>`
+- `<$ArrowsTurnToDotsLg>`
+
+
+
+
 
 ## ArrowsTurnToDots
 

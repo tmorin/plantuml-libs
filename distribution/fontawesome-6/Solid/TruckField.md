@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/TruckField')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TruckFieldXs>`
+- `<$TruckFieldSm>`
+- `<$TruckFieldMd>`
+- `<$TruckFieldLg>`
+
+
+
+
 
 ## TruckField
 

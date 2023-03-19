@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/SchoolLock')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SchoolLockXs>`
+- `<$SchoolLockSm>`
+- `<$SchoolLockMd>`
+- `<$SchoolLockLg>`
+
+
+
+
 
 ## SchoolLock
 

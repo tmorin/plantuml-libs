@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Page4')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$Page4Xs>`
+- `<$Page4Sm>`
+- `<$Page4Md>`
+- `<$Page4Lg>`
+
+
+
+
 
 ## Page4
 

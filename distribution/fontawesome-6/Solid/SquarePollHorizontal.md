@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/SquarePollHorizontal')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquarePollHorizontalXs>`
+- `<$SquarePollHorizontalSm>`
+- `<$SquarePollHorizontalMd>`
+- `<$SquarePollHorizontalLg>`
+
+
+
+
 
 ## SquarePollHorizontal
 

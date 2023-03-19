@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/LitecoinSign')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LitecoinSignXs>`
+- `<$LitecoinSignSm>`
+- `<$LitecoinSignMd>`
+- `<$LitecoinSignLg>`
+
+
+
+
 
 ## LitecoinSign
 

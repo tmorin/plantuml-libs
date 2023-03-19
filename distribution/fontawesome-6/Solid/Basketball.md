@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Basketball')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BasketballXs>`
+- `<$BasketballSm>`
+- `<$BasketballMd>`
+- `<$BasketballLg>`
+
+
+
+
 
 ## Basketball
 

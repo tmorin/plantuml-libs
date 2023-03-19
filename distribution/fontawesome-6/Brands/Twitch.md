@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Twitch')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TwitchXs>`
+- `<$TwitchSm>`
+- `<$TwitchMd>`
+- `<$TwitchLg>`
+
+
+
+
 
 ## Twitch
 

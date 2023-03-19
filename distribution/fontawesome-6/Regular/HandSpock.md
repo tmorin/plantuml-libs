@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/HandSpock')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HandSpockXs>`
+- `<$HandSpockSm>`
+- `<$HandSpockMd>`
+- `<$HandSpockLg>`
+
+
+
+
 
 ## HandSpock
 

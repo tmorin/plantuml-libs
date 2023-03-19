@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Diamond')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DiamondXs>`
+- `<$DiamondSm>`
+- `<$DiamondMd>`
+- `<$DiamondLg>`
+
+
+
+
 
 ## Diamond
 

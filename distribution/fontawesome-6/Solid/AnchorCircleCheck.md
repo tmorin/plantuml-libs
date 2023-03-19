@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/AnchorCircleCheck')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AnchorCircleCheckXs>`
+- `<$AnchorCircleCheckSm>`
+- `<$AnchorCircleCheckMd>`
+- `<$AnchorCircleCheckLg>`
+
+
+
+
 
 ## AnchorCircleCheck
 

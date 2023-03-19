@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Server')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServerXs>`
+- `<$ServerSm>`
+- `<$ServerMd>`
+- `<$ServerLg>`
+
+
+
+
 
 ## Server
 

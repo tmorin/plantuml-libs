@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/FireBurner')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FireBurnerXs>`
+- `<$FireBurnerSm>`
+- `<$FireBurnerMd>`
+- `<$FireBurnerLg>`
+
+
+
+
 
 ## FireBurner
 

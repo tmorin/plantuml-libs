@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ICursor')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ICursorXs>`
+- `<$ICursorSm>`
+- `<$ICursorMd>`
+- `<$ICursorLg>`
+
+
+
+
 
 ## ICursor
 

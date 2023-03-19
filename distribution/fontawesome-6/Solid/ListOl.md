@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ListOl')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ListOlXs>`
+- `<$ListOlSm>`
+- `<$ListOlMd>`
+- `<$ListOlLg>`
+
+
+
+
 
 ## ListOl
 

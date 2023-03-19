@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Centercode')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CentercodeXs>`
+- `<$CentercodeSm>`
+- `<$CentercodeMd>`
+- `<$CentercodeLg>`
+
+
+
+
 
 ## Centercode
 

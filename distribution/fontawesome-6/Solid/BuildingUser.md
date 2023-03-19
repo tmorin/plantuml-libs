@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BuildingUser')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BuildingUserXs>`
+- `<$BuildingUserSm>`
+- `<$BuildingUserMd>`
+- `<$BuildingUserLg>`
+
+
+
+
 
 ## BuildingUser
 

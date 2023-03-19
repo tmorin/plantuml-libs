@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Meteor')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MeteorXs>`
+- `<$MeteorSm>`
+- `<$MeteorMd>`
+- `<$MeteorLg>`
+
+
+
+
 
 ## Meteor
 

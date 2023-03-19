@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/FileCircleExclamation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FileCircleExclamationXs>`
+- `<$FileCircleExclamationSm>`
+- `<$FileCircleExclamationMd>`
+- `<$FileCircleExclamationLg>`
+
+
+
+
 
 ## FileCircleExclamation
 

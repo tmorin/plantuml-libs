@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Microblog')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MicroblogXs>`
+- `<$MicroblogSm>`
+- `<$MicroblogMd>`
+- `<$MicroblogLg>`
+
+
+
+
 
 ## Microblog
 

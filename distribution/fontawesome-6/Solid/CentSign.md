@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CentSign')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CentSignXs>`
+- `<$CentSignSm>`
+- `<$CentSignMd>`
+- `<$CentSignLg>`
+
+
+
+
 
 ## CentSign
 

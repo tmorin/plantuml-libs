@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/UserAstronaut')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UserAstronautXs>`
+- `<$UserAstronautSm>`
+- `<$UserAstronautMd>`
+- `<$UserAstronautLg>`
+
+
+
+
 
 ## UserAstronaut
 

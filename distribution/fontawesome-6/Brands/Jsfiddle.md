@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Jsfiddle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$JsfiddleXs>`
+- `<$JsfiddleSm>`
+- `<$JsfiddleMd>`
+- `<$JsfiddleLg>`
+
+
+
+
 
 ## Jsfiddle
 

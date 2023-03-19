@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Megaport')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MegaportXs>`
+- `<$MegaportSm>`
+- `<$MegaportMd>`
+- `<$MegaportLg>`
+
+
+
+
 
 ## Megaport
 

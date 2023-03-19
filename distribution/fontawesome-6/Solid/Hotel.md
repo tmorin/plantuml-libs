@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Hotel')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HotelXs>`
+- `<$HotelSm>`
+- `<$HotelMd>`
+- `<$HotelLg>`
+
+
+
+
 
 ## Hotel
 

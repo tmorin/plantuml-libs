@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HouseCircleCheck')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HouseCircleCheckXs>`
+- `<$HouseCircleCheckSm>`
+- `<$HouseCircleCheckMd>`
+- `<$HouseCircleCheckLg>`
+
+
+
+
 
 ## HouseCircleCheck
 

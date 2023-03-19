@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Thumbtack')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ThumbtackXs>`
+- `<$ThumbtackSm>`
+- `<$ThumbtackMd>`
+- `<$ThumbtackLg>`
+
+
+
+
 
 ## Thumbtack
 

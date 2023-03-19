@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/GoogleDrive')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GoogleDriveXs>`
+- `<$GoogleDriveSm>`
+- `<$GoogleDriveMd>`
+- `<$GoogleDriveLg>`
+
+
+
+
 
 ## GoogleDrive
 

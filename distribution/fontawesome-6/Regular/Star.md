@@ -17,6 +17,17 @@ include('fontawesome-6/Regular/Star')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StarXs>`
+- `<$StarSm>`
+- `<$StarMd>`
+- `<$StarLg>`
+
+
+
+
 
 ## Star
 

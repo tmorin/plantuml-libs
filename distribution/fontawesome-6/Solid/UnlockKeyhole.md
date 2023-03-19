@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/UnlockKeyhole')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UnlockKeyholeXs>`
+- `<$UnlockKeyholeSm>`
+- `<$UnlockKeyholeMd>`
+- `<$UnlockKeyholeLg>`
+
+
+
+
 
 ## UnlockKeyhole
 

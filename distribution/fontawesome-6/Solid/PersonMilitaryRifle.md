@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PersonMilitaryRifle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PersonMilitaryRifleXs>`
+- `<$PersonMilitaryRifleSm>`
+- `<$PersonMilitaryRifleMd>`
+- `<$PersonMilitaryRifleLg>`
+
+
+
+
 
 ## PersonMilitaryRifle
 

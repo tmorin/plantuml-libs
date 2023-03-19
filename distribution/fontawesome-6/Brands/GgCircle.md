@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/GgCircle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GgCircleXs>`
+- `<$GgCircleSm>`
+- `<$GgCircleMd>`
+- `<$GgCircleLg>`
+
+
+
+
 
 ## GgCircle
 

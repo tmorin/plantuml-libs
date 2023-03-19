@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/SquareLastfm')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquareLastfmXs>`
+- `<$SquareLastfmSm>`
+- `<$SquareLastfmMd>`
+- `<$SquareLastfmLg>`
+
+
+
+
 
 ## SquareLastfm
 

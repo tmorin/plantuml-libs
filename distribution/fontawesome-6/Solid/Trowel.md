@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Trowel')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TrowelXs>`
+- `<$TrowelSm>`
+- `<$TrowelMd>`
+- `<$TrowelLg>`
+
+
+
+
 
 ## Trowel
 

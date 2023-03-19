@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Deploydog')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DeploydogXs>`
+- `<$DeploydogSm>`
+- `<$DeploydogMd>`
+- `<$DeploydogLg>`
+
+
+
+
 
 ## Deploydog
 

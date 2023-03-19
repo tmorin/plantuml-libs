@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/WineGlass')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WineGlassXs>`
+- `<$WineGlassSm>`
+- `<$WineGlassMd>`
+- `<$WineGlassLg>`
+
+
+
+
 
 ## WineGlass
 

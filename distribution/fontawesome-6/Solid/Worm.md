@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Worm')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WormXs>`
+- `<$WormSm>`
+- `<$WormMd>`
+- `<$WormLg>`
+
+
+
+
 
 ## Worm
 

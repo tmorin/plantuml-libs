@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/TreeCity')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TreeCityXs>`
+- `<$TreeCitySm>`
+- `<$TreeCityMd>`
+- `<$TreeCityLg>`
+
+
+
+
 
 ## TreeCity
 

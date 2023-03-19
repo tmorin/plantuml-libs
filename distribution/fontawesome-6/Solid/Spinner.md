@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Spinner')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SpinnerXs>`
+- `<$SpinnerSm>`
+- `<$SpinnerMd>`
+- `<$SpinnerLg>`
+
+
+
+
 
 ## Spinner
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Sun')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SunXs>`
+- `<$SunSm>`
+- `<$SunMd>`
+- `<$SunLg>`
+
+
+
+
 
 ## Sun
 

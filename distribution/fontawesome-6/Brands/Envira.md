@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Envira')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EnviraXs>`
+- `<$EnviraSm>`
+- `<$EnviraMd>`
+- `<$EnviraLg>`
+
+
+
+
 
 ## Envira
 

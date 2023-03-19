@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/MartiniGlassCitrus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MartiniGlassCitrusXs>`
+- `<$MartiniGlassCitrusSm>`
+- `<$MartiniGlassCitrusMd>`
+- `<$MartiniGlassCitrusLg>`
+
+
+
+
 
 ## MartiniGlassCitrus
 

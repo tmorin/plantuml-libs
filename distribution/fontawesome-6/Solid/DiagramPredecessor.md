@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/DiagramPredecessor')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DiagramPredecessorXs>`
+- `<$DiagramPredecessorSm>`
+- `<$DiagramPredecessorMd>`
+- `<$DiagramPredecessorLg>`
+
+
+
+
 
 ## DiagramPredecessor
 

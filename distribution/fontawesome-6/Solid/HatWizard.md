@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/HatWizard')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HatWizardXs>`
+- `<$HatWizardSm>`
+- `<$HatWizardMd>`
+- `<$HatWizardLg>`
+
+
+
+
 
 ## HatWizard
 

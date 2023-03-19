@@ -17,6 +17,17 @@ include('fontawesome-6/Brands/Weixin')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WeixinXs>`
+- `<$WeixinSm>`
+- `<$WeixinMd>`
+- `<$WeixinLg>`
+
+
+
+
 
 ## Weixin
 

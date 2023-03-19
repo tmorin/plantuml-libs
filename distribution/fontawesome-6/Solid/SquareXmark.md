@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/SquareXmark')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquareXmarkXs>`
+- `<$SquareXmarkSm>`
+- `<$SquareXmarkMd>`
+- `<$SquareXmarkLg>`
+
+
+
+
 
 ## SquareXmark
 

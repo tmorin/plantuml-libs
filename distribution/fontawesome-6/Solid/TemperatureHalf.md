@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/TemperatureHalf')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TemperatureHalfXs>`
+- `<$TemperatureHalfSm>`
+- `<$TemperatureHalfMd>`
+- `<$TemperatureHalfLg>`
+
+
+
+
 
 ## TemperatureHalf
 

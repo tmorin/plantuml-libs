@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/StreetView')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StreetViewXs>`
+- `<$StreetViewSm>`
+- `<$StreetViewMd>`
+- `<$StreetViewLg>`
+
+
+
+
 
 ## StreetView
 

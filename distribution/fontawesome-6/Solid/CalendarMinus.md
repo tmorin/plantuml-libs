@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/CalendarMinus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CalendarMinusXs>`
+- `<$CalendarMinusSm>`
+- `<$CalendarMinusMd>`
+- `<$CalendarMinusLg>`
+
+
+
+
 
 ## CalendarMinus
 

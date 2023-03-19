@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/DrumSteelpan')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DrumSteelpanXs>`
+- `<$DrumSteelpanSm>`
+- `<$DrumSteelpanMd>`
+- `<$DrumSteelpanLg>`
+
+
+
+
 
 ## DrumSteelpan
 

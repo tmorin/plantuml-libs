@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/AnchorCircleXmark')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AnchorCircleXmarkXs>`
+- `<$AnchorCircleXmarkSm>`
+- `<$AnchorCircleXmarkMd>`
+- `<$AnchorCircleXmarkLg>`
+
+
+
+
 
 ## AnchorCircleXmark
 

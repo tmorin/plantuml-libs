@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Sliders')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SlidersXs>`
+- `<$SlidersSm>`
+- `<$SlidersMd>`
+- `<$SlidersLg>`
+
+
+
+
 
 ## Sliders
 

@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Soap')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SoapXs>`
+- `<$SoapSm>`
+- `<$SoapMd>`
+- `<$SoapLg>`
+
+
+
+
 
 ## Soap
 

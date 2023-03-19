@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Hotdog')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HotdogXs>`
+- `<$HotdogSm>`
+- `<$HotdogMd>`
+- `<$HotdogLg>`
+
+
+
+
 
 ## Hotdog
 

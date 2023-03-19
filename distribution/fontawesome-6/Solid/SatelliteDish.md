@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/SatelliteDish')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SatelliteDishXs>`
+- `<$SatelliteDishSm>`
+- `<$SatelliteDishMd>`
+- `<$SatelliteDishLg>`
+
+
+
+
 
 ## SatelliteDish
 

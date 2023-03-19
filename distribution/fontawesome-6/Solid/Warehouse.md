@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Warehouse')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WarehouseXs>`
+- `<$WarehouseSm>`
+- `<$WarehouseMd>`
+- `<$WarehouseLg>`
+
+
+
+
 
 ## Warehouse
 

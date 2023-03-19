@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PhoneVolume')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PhoneVolumeXs>`
+- `<$PhoneVolumeSm>`
+- `<$PhoneVolumeMd>`
+- `<$PhoneVolumeLg>`
+
+
+
+
 
 ## PhoneVolume
 

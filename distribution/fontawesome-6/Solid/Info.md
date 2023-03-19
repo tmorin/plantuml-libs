@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/Info')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InfoXs>`
+- `<$InfoSm>`
+- `<$InfoMd>`
+- `<$InfoLg>`
+
+
+
+
 
 ## Info
 

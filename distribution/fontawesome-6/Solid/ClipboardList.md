@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/ClipboardList')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ClipboardListXs>`
+- `<$ClipboardListSm>`
+- `<$ClipboardListMd>`
+- `<$ClipboardListLg>`
+
+
+
+
 
 ## ClipboardList
 

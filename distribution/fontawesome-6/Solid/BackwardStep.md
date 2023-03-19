@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/BackwardStep')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BackwardStepXs>`
+- `<$BackwardStepSm>`
+- `<$BackwardStepMd>`
+- `<$BackwardStepLg>`
+
+
+
+
 
 ## BackwardStep
 

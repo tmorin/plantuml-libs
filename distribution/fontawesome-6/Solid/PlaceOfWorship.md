@@ -17,6 +17,17 @@ include('fontawesome-6/Solid/PlaceOfWorship')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PlaceOfWorshipXs>`
+- `<$PlaceOfWorshipSm>`
+- `<$PlaceOfWorshipMd>`
+- `<$PlaceOfWorshipLg>`
+
+
+
+
 
 ## PlaceOfWorship
 
