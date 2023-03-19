@@ -17,6 +17,17 @@ include('domainstorytelling/Actor/User')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UserXs>`
+- `<$UserSm>`
+- `<$UserMd>`
+- `<$UserLg>`
+
+
+
+
 
 ## User
 

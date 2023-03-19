@@ -17,6 +17,17 @@ include('domainstorytelling/Object/Circle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CircleXs>`
+- `<$CircleSm>`
+- `<$CircleMd>`
+- `<$CircleLg>`
+
+
+
+
 
 ## Circle
 

@@ -17,6 +17,17 @@ include('domainstorytelling/Object/Cubes')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CubesXs>`
+- `<$CubesSm>`
+- `<$CubesMd>`
+- `<$CubesLg>`
+
+
+
+
 
 ## Cubes
 

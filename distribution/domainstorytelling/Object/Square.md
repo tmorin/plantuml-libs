@@ -17,6 +17,17 @@ include('domainstorytelling/Object/Square')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquareXs>`
+- `<$SquareSm>`
+- `<$SquareMd>`
+- `<$SquareLg>`
+
+
+
+
 
 ## Square
 

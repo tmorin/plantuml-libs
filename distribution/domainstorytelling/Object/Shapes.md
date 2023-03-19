@@ -17,6 +17,17 @@ include('domainstorytelling/Object/Shapes')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShapesXs>`
+- `<$ShapesSm>`
+- `<$ShapesMd>`
+- `<$ShapesLg>`
+
+
+
+
 
 ## Shapes
 

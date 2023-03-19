@@ -18,6 +18,9 @@ include('domainstorytelling/Group/SolidGroup')
 
 
 
+
+
+
 ## SolidGroup
 
 ### Load remotely
