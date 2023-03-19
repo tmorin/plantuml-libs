@@ -17,6 +17,17 @@ include('homecloud-2/Container/VolumeLonghorn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VolumeLonghornXs>`
+- `<$VolumeLonghornSm>`
+- `<$VolumeLonghornMd>`
+- `<$VolumeLonghornLg>`
+
+
+
+
 
 ## VolumeLonghorn
 

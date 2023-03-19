@@ -17,6 +17,17 @@ include('homecloud-2/Hardware/Smartphone')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SmartphoneXs>`
+- `<$SmartphoneSm>`
+- `<$SmartphoneMd>`
+- `<$SmartphoneLg>`
+
+
+
+
 
 ## Smartphone
 

@@ -17,6 +17,17 @@ include('homecloud-2/Brand/Debian')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DebianXs>`
+- `<$DebianSm>`
+- `<$DebianMd>`
+- `<$DebianLg>`
+
+
+
+
 
 ## Debian
 

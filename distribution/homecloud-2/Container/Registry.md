@@ -17,6 +17,17 @@ include('homecloud-2/Container/Registry')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RegistryXs>`
+- `<$RegistrySm>`
+- `<$RegistryMd>`
+- `<$RegistryLg>`
+
+
+
+
 
 ## Registry
 

@@ -17,6 +17,17 @@ include('homecloud-2/Brand/Ubuntu')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UbuntuXs>`
+- `<$UbuntuSm>`
+- `<$UbuntuMd>`
+- `<$UbuntuLg>`
+
+
+
+
 
 ## Ubuntu
 

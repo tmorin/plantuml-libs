@@ -17,6 +17,17 @@ include('homecloud-2/Container/Container')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ContainerXs>`
+- `<$ContainerSm>`
+- `<$ContainerMd>`
+- `<$ContainerLg>`
+
+
+
+
 
 ## Container
 

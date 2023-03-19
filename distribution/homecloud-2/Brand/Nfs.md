@@ -17,6 +17,17 @@ include('homecloud-2/Brand/Nfs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NfsXs>`
+- `<$NfsSm>`
+- `<$NfsMd>`
+- `<$NfsLg>`
+
+
+
+
 
 ## Nfs
 

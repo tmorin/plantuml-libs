@@ -17,6 +17,17 @@ include('homecloud-2/Container/VolumeK8S')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VolumeK8SXs>`
+- `<$VolumeK8SSm>`
+- `<$VolumeK8SMd>`
+- `<$VolumeK8SLg>`
+
+
+
+
 
 ## VolumeK8S
 

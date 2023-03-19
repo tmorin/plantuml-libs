@@ -17,6 +17,17 @@ include('homecloud-2/Hardware/SdCard')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SdCardXs>`
+- `<$SdCardSm>`
+- `<$SdCardMd>`
+- `<$SdCardLg>`
+
+
+
+
 
 ## SdCard
 

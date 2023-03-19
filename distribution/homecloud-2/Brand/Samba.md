@@ -17,6 +17,17 @@ include('homecloud-2/Brand/Samba')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SambaXs>`
+- `<$SambaSm>`
+- `<$SambaMd>`
+- `<$SambaLg>`
+
+
+
+
 
 ## Samba
 

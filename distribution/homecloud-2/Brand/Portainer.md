@@ -17,6 +17,17 @@ include('homecloud-2/Brand/Portainer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PortainerXs>`
+- `<$PortainerSm>`
+- `<$PortainerMd>`
+- `<$PortainerLg>`
+
+
+
+
 
 ## Portainer
 

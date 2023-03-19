@@ -17,6 +17,17 @@ include('homecloud-2/Brand/Longhorn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LonghornXs>`
+- `<$LonghornSm>`
+- `<$LonghornMd>`
+- `<$LonghornLg>`
+
+
+
+
 
 ## Longhorn
 

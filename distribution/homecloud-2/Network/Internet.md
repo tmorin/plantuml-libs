@@ -17,6 +17,17 @@ include('homecloud-2/Network/Internet')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InternetXs>`
+- `<$InternetSm>`
+- `<$InternetMd>`
+- `<$InternetLg>`
+
+
+
+
 
 ## Internet
 

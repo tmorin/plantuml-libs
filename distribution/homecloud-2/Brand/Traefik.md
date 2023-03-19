@@ -17,6 +17,17 @@ include('homecloud-2/Brand/Traefik')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TraefikXs>`
+- `<$TraefikSm>`
+- `<$TraefikMd>`
+- `<$TraefikLg>`
+
+
+
+
 
 ## Traefik
 

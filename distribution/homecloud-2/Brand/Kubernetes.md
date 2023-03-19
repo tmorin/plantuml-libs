@@ -17,6 +17,17 @@ include('homecloud-2/Brand/Kubernetes')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KubernetesXs>`
+- `<$KubernetesSm>`
+- `<$KubernetesMd>`
+- `<$KubernetesLg>`
+
+
+
+
 
 ## Kubernetes
 

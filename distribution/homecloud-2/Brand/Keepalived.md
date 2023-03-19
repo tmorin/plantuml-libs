@@ -17,6 +17,17 @@ include('homecloud-2/Brand/Keepalived')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KeepalivedXs>`
+- `<$KeepalivedSm>`
+- `<$KeepalivedMd>`
+- `<$KeepalivedLg>`
+
+
+
+
 
 ## Keepalived
 

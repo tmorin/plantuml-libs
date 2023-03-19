@@ -17,6 +17,17 @@ include('homecloud-2/Network/Router')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RouterXs>`
+- `<$RouterSm>`
+- `<$RouterMd>`
+- `<$RouterLg>`
+
+
+
+
 
 ## Router
 

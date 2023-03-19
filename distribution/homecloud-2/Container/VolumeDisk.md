@@ -17,6 +17,17 @@ include('homecloud-2/Container/VolumeDisk')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VolumeDiskXs>`
+- `<$VolumeDiskSm>`
+- `<$VolumeDiskMd>`
+- `<$VolumeDiskLg>`
+
+
+
+
 
 ## VolumeDisk
 

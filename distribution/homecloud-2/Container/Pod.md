@@ -17,6 +17,17 @@ include('homecloud-2/Container/Pod')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PodXs>`
+- `<$PodSm>`
+- `<$PodMd>`
+- `<$PodLg>`
+
+
+
+
 
 ## Pod
 

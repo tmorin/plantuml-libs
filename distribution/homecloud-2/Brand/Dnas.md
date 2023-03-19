@@ -17,6 +17,17 @@ include('homecloud-2/Brand/Dnas')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DnasXs>`
+- `<$DnasSm>`
+- `<$DnasMd>`
+- `<$DnasLg>`
+
+
+
+
 
 ## Dnas
 

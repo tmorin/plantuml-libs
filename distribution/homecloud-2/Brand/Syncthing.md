@@ -17,6 +17,17 @@ include('homecloud-2/Brand/Syncthing')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SyncthingXs>`
+- `<$SyncthingSm>`
+- `<$SyncthingMd>`
+- `<$SyncthingLg>`
+
+
+
+
 
 ## Syncthing
 

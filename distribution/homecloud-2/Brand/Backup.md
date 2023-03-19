@@ -17,6 +17,17 @@ include('homecloud-2/Brand/Backup')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BackupXs>`
+- `<$BackupSm>`
+- `<$BackupMd>`
+- `<$BackupLg>`
+
+
+
+
 
 ## Backup
 

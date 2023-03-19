@@ -17,6 +17,17 @@ include('homecloud-2/Network/Dns')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DnsXs>`
+- `<$DnsSm>`
+- `<$DnsMd>`
+- `<$DnsLg>`
+
+
+
+
 
 ## Dns
 

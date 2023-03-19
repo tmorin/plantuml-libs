@@ -17,6 +17,17 @@ include('homecloud-2/Network/LocalNetwork')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LocalNetworkXs>`
+- `<$LocalNetworkSm>`
+- `<$LocalNetworkMd>`
+- `<$LocalNetworkLg>`
+
+
+
+
 
 ## LocalNetwork
 

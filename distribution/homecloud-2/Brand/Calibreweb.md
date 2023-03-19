@@ -17,6 +17,17 @@ include('homecloud-2/Brand/Calibreweb')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CalibrewebXs>`
+- `<$CalibrewebSm>`
+- `<$CalibrewebMd>`
+- `<$CalibrewebLg>`
+
+
+
+
 
 ## Calibreweb
 

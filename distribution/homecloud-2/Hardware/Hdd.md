@@ -17,6 +17,17 @@ include('homecloud-2/Hardware/Hdd')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HddXs>`
+- `<$HddSm>`
+- `<$HddMd>`
+- `<$HddLg>`
+
+
+
+
 
 ## Hdd
 

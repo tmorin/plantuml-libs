@@ -17,6 +17,17 @@ include('homecloud-2/Brand/Nextcloud')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NextcloudXs>`
+- `<$NextcloudSm>`
+- `<$NextcloudMd>`
+- `<$NextcloudLg>`
+
+
+
+
 
 ## Nextcloud
 

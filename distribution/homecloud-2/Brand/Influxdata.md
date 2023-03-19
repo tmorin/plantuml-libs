@@ -17,6 +17,17 @@ include('homecloud-2/Brand/Influxdata')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InfluxdataXs>`
+- `<$InfluxdataSm>`
+- `<$InfluxdataMd>`
+- `<$InfluxdataLg>`
+
+
+
+
 
 ## Influxdata
 

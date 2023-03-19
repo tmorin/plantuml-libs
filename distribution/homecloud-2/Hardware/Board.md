@@ -17,6 +17,17 @@ include('homecloud-2/Hardware/Board')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BoardXs>`
+- `<$BoardSm>`
+- `<$BoardMd>`
+- `<$BoardLg>`
+
+
+
+
 
 ## Board
 

@@ -17,6 +17,17 @@ include('homecloud-2/Hardware/Laptop')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LaptopXs>`
+- `<$LaptopSm>`
+- `<$LaptopMd>`
+- `<$LaptopLg>`
+
+
+
+
 
 ## Laptop
 

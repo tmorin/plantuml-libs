@@ -17,6 +17,17 @@ include('homecloud-2/Brand/Ceph')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CephXs>`
+- `<$CephSm>`
+- `<$CephMd>`
+- `<$CephLg>`
+
+
+
+
 
 ## Ceph
 
