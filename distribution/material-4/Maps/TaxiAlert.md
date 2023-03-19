@@ -17,6 +17,17 @@ include('material-4/Maps/TaxiAlert')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TaxiAlertXs>`
+- `<$TaxiAlertSm>`
+- `<$TaxiAlertMd>`
+- `<$TaxiAlertLg>`
+
+
+
+
 
 ## TaxiAlert
 

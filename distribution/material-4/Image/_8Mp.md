@@ -17,6 +17,17 @@ include('material-4/Image/_8Mp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$_8MpXs>`
+- `<$_8MpSm>`
+- `<$_8MpMd>`
+- `<$_8MpLg>`
+
+
+
+
 
 ## _8Mp
 

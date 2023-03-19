@@ -17,6 +17,17 @@ include('material-4/Action/Outlet')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OutletXs>`
+- `<$OutletSm>`
+- `<$OutletMd>`
+- `<$OutletLg>`
+
+
+
+
 
 ## Outlet
 

@@ -17,6 +17,17 @@ include('material-4/Action/HourglassEmpty')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HourglassEmptyXs>`
+- `<$HourglassEmptySm>`
+- `<$HourglassEmptyMd>`
+- `<$HourglassEmptyLg>`
+
+
+
+
 
 ## HourglassEmpty
 

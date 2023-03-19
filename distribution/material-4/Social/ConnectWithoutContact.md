@@ -17,6 +17,17 @@ include('material-4/Social/ConnectWithoutContact')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ConnectWithoutContactXs>`
+- `<$ConnectWithoutContactSm>`
+- `<$ConnectWithoutContactMd>`
+- `<$ConnectWithoutContactLg>`
+
+
+
+
 
 ## ConnectWithoutContact
 

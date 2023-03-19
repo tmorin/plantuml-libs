@@ -17,6 +17,17 @@ include('material-4/Action/Gif')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GifXs>`
+- `<$GifSm>`
+- `<$GifMd>`
+- `<$GifLg>`
+
+
+
+
 
 ## Gif
 

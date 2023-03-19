@@ -17,6 +17,17 @@ include('material-4/Action/BackupTable')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BackupTableXs>`
+- `<$BackupTableSm>`
+- `<$BackupTableMd>`
+- `<$BackupTableLg>`
+
+
+
+
 
 ## BackupTable
 

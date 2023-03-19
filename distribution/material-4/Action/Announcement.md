@@ -17,6 +17,17 @@ include('material-4/Action/Announcement')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AnnouncementXs>`
+- `<$AnnouncementSm>`
+- `<$AnnouncementMd>`
+- `<$AnnouncementLg>`
+
+
+
+
 
 ## Announcement
 

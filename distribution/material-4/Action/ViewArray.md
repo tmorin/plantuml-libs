@@ -17,6 +17,17 @@ include('material-4/Action/ViewArray')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ViewArrayXs>`
+- `<$ViewArraySm>`
+- `<$ViewArrayMd>`
+- `<$ViewArrayLg>`
+
+
+
+
 
 ## ViewArray
 

@@ -17,6 +17,17 @@ include('material-4/Image/ControlPointDuplicate')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ControlPointDuplicateXs>`
+- `<$ControlPointDuplicateSm>`
+- `<$ControlPointDuplicateMd>`
+- `<$ControlPointDuplicateLg>`
+
+
+
+
 
 ## ControlPointDuplicate
 

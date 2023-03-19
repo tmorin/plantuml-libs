@@ -17,6 +17,17 @@ include('material-4/Device/Wallpaper')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WallpaperXs>`
+- `<$WallpaperSm>`
+- `<$WallpaperMd>`
+- `<$WallpaperLg>`
+
+
+
+
 
 ## Wallpaper
 

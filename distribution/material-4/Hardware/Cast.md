@@ -17,6 +17,17 @@ include('material-4/Hardware/Cast')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CastXs>`
+- `<$CastSm>`
+- `<$CastMd>`
+- `<$CastLg>`
+
+
+
+
 
 ## Cast
 

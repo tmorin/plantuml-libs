@@ -17,6 +17,17 @@ include('material-4/Places/House')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HouseXs>`
+- `<$HouseSm>`
+- `<$HouseMd>`
+- `<$HouseLg>`
+
+
+
+
 
 ## House
 

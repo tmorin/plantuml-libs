@@ -17,6 +17,17 @@ include('material-4/Communication/SwapCalls')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SwapCallsXs>`
+- `<$SwapCallsSm>`
+- `<$SwapCallsMd>`
+- `<$SwapCallsLg>`
+
+
+
+
 
 ## SwapCalls
 

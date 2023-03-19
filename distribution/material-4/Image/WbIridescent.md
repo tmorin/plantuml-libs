@@ -17,6 +17,17 @@ include('material-4/Image/WbIridescent')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WbIridescentXs>`
+- `<$WbIridescentSm>`
+- `<$WbIridescentMd>`
+- `<$WbIridescentLg>`
+
+
+
+
 
 ## WbIridescent
 

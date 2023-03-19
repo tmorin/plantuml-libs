@@ -17,6 +17,17 @@ include('material-4/Social/HistoryEdu')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HistoryEduXs>`
+- `<$HistoryEduSm>`
+- `<$HistoryEduMd>`
+- `<$HistoryEduLg>`
+
+
+
+
 
 ## HistoryEdu
 

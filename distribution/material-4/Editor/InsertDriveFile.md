@@ -17,6 +17,17 @@ include('material-4/Editor/InsertDriveFile')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InsertDriveFileXs>`
+- `<$InsertDriveFileSm>`
+- `<$InsertDriveFileMd>`
+- `<$InsertDriveFileLg>`
+
+
+
+
 
 ## InsertDriveFile
 

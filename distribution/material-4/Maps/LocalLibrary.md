@@ -17,6 +17,17 @@ include('material-4/Maps/LocalLibrary')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LocalLibraryXs>`
+- `<$LocalLibrarySm>`
+- `<$LocalLibraryMd>`
+- `<$LocalLibraryLg>`
+
+
+
+
 
 ## LocalLibrary
 

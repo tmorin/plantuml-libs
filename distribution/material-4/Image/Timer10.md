@@ -17,6 +17,17 @@ include('material-4/Image/Timer10')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$Timer10Xs>`
+- `<$Timer10Sm>`
+- `<$Timer10Md>`
+- `<$Timer10Lg>`
+
+
+
+
 
 ## Timer10
 

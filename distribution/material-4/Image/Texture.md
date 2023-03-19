@@ -17,6 +17,17 @@ include('material-4/Image/Texture')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TextureXs>`
+- `<$TextureSm>`
+- `<$TextureMd>`
+- `<$TextureLg>`
+
+
+
+
 
 ## Texture
 

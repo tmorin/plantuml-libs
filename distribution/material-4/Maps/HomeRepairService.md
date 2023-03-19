@@ -17,6 +17,17 @@ include('material-4/Maps/HomeRepairService')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HomeRepairServiceXs>`
+- `<$HomeRepairServiceSm>`
+- `<$HomeRepairServiceMd>`
+- `<$HomeRepairServiceLg>`
+
+
+
+
 
 ## HomeRepairService
 

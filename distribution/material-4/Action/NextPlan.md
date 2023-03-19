@@ -17,6 +17,17 @@ include('material-4/Action/NextPlan')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NextPlanXs>`
+- `<$NextPlanSm>`
+- `<$NextPlanMd>`
+- `<$NextPlanLg>`
+
+
+
+
 
 ## NextPlan
 

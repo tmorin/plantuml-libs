@@ -17,6 +17,17 @@ include('material-4/Social/Fireplace')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FireplaceXs>`
+- `<$FireplaceSm>`
+- `<$FireplaceMd>`
+- `<$FireplaceLg>`
+
+
+
+
 
 ## Fireplace
 

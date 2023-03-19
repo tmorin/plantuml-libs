@@ -17,6 +17,17 @@ include('material-4/Social/EmojiFoodBeverage')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EmojiFoodBeverageXs>`
+- `<$EmojiFoodBeverageSm>`
+- `<$EmojiFoodBeverageMd>`
+- `<$EmojiFoodBeverageLg>`
+
+
+
+
 
 ## EmojiFoodBeverage
 

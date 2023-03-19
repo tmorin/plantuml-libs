@@ -17,6 +17,17 @@ include('material-4/Content/Biotech')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BiotechXs>`
+- `<$BiotechSm>`
+- `<$BiotechMd>`
+- `<$BiotechLg>`
+
+
+
+
 
 ## Biotech
 

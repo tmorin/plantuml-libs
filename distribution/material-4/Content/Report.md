@@ -17,6 +17,17 @@ include('material-4/Content/Report')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ReportXs>`
+- `<$ReportSm>`
+- `<$ReportMd>`
+- `<$ReportLg>`
+
+
+
+
 
 ## Report
 

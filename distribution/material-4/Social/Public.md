@@ -17,6 +17,17 @@ include('material-4/Social/Public')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PublicXs>`
+- `<$PublicSm>`
+- `<$PublicMd>`
+- `<$PublicLg>`
+
+
+
+
 
 ## Public
 

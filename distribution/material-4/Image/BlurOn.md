@@ -17,6 +17,17 @@ include('material-4/Image/BlurOn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BlurOnXs>`
+- `<$BlurOnSm>`
+- `<$BlurOnMd>`
+- `<$BlurOnLg>`
+
+
+
+
 
 ## BlurOn
 

@@ -17,6 +17,17 @@ include('material-4/Image/AutoFixOff')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AutoFixOffXs>`
+- `<$AutoFixOffSm>`
+- `<$AutoFixOffMd>`
+- `<$AutoFixOffLg>`
+
+
+
+
 
 ## AutoFixOff
 

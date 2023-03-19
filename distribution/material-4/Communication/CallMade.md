@@ -17,6 +17,17 @@ include('material-4/Communication/CallMade')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CallMadeXs>`
+- `<$CallMadeSm>`
+- `<$CallMadeMd>`
+- `<$CallMadeLg>`
+
+
+
+
 
 ## CallMade
 

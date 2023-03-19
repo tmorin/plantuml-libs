@@ -17,6 +17,17 @@ include('material-4/Editor/Notes')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NotesXs>`
+- `<$NotesSm>`
+- `<$NotesMd>`
+- `<$NotesLg>`
+
+
+
+
 
 ## Notes
 

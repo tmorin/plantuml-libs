@@ -17,6 +17,17 @@ include('material-4/Communication/PortableWifiOff')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PortableWifiOffXs>`
+- `<$PortableWifiOffSm>`
+- `<$PortableWifiOffMd>`
+- `<$PortableWifiOffLg>`
+
+
+
+
 
 ## PortableWifiOff
 

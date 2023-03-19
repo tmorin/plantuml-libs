@@ -17,6 +17,17 @@ include('material-4/Editor/MonetizationOn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MonetizationOnXs>`
+- `<$MonetizationOnSm>`
+- `<$MonetizationOnMd>`
+- `<$MonetizationOnLg>`
+
+
+
+
 
 ## MonetizationOn
 

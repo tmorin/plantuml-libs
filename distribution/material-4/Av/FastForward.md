@@ -17,6 +17,17 @@ include('material-4/Av/FastForward')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FastForwardXs>`
+- `<$FastForwardSm>`
+- `<$FastForwardMd>`
+- `<$FastForwardLg>`
+
+
+
+
 
 ## FastForward
 

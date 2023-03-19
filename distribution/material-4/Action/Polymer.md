@@ -17,6 +17,17 @@ include('material-4/Action/Polymer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PolymerXs>`
+- `<$PolymerSm>`
+- `<$PolymerMd>`
+- `<$PolymerLg>`
+
+
+
+
 
 ## Polymer
 

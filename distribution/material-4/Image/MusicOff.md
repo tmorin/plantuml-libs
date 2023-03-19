@@ -17,6 +17,17 @@ include('material-4/Image/MusicOff')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MusicOffXs>`
+- `<$MusicOffSm>`
+- `<$MusicOffMd>`
+- `<$MusicOffLg>`
+
+
+
+
 
 ## MusicOff
 

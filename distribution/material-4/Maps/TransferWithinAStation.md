@@ -17,6 +17,17 @@ include('material-4/Maps/TransferWithinAStation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TransferWithinAStationXs>`
+- `<$TransferWithinAStationSm>`
+- `<$TransferWithinAStationMd>`
+- `<$TransferWithinAStationLg>`
+
+
+
+
 
 ## TransferWithinAStation
 

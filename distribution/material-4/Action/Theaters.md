@@ -17,6 +17,17 @@ include('material-4/Action/Theaters')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TheatersXs>`
+- `<$TheatersSm>`
+- `<$TheatersMd>`
+- `<$TheatersLg>`
+
+
+
+
 
 ## Theaters
 

@@ -17,6 +17,17 @@ include('material-4/Maps/TripOrigin')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TripOriginXs>`
+- `<$TripOriginSm>`
+- `<$TripOriginMd>`
+- `<$TripOriginLg>`
+
+
+
+
 
 ## TripOrigin
 

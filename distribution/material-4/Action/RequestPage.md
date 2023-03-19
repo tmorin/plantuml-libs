@@ -17,6 +17,17 @@ include('material-4/Action/RequestPage')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RequestPageXs>`
+- `<$RequestPageSm>`
+- `<$RequestPageMd>`
+- `<$RequestPageLg>`
+
+
+
+
 
 ## RequestPage
 

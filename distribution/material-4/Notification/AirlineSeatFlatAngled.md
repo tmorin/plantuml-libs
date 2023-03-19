@@ -17,6 +17,17 @@ include('material-4/Notification/AirlineSeatFlatAngled')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AirlineSeatFlatAngledXs>`
+- `<$AirlineSeatFlatAngledSm>`
+- `<$AirlineSeatFlatAngledMd>`
+- `<$AirlineSeatFlatAngledLg>`
+
+
+
+
 
 ## AirlineSeatFlatAngled
 

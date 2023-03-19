@@ -17,6 +17,17 @@ include('material-4/Action/SettingsRemote')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SettingsRemoteXs>`
+- `<$SettingsRemoteSm>`
+- `<$SettingsRemoteMd>`
+- `<$SettingsRemoteLg>`
+
+
+
+
 
 ## SettingsRemote
 

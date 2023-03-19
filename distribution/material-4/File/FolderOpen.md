@@ -17,6 +17,17 @@ include('material-4/File/FolderOpen')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FolderOpenXs>`
+- `<$FolderOpenSm>`
+- `<$FolderOpenMd>`
+- `<$FolderOpenLg>`
+
+
+
+
 
 ## FolderOpen
 

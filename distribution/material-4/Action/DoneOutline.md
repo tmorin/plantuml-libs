@@ -17,6 +17,17 @@ include('material-4/Action/DoneOutline')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DoneOutlineXs>`
+- `<$DoneOutlineSm>`
+- `<$DoneOutlineMd>`
+- `<$DoneOutlineLg>`
+
+
+
+
 
 ## DoneOutline
 

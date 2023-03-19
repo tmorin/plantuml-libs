@@ -17,6 +17,17 @@ include('material-4/Editor/FormatClear')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FormatClearXs>`
+- `<$FormatClearSm>`
+- `<$FormatClearMd>`
+- `<$FormatClearLg>`
+
+
+
+
 
 ## FormatClear
 

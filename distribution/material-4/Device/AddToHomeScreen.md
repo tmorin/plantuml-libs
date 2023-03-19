@@ -17,6 +17,17 @@ include('material-4/Device/AddToHomeScreen')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AddToHomeScreenXs>`
+- `<$AddToHomeScreenSm>`
+- `<$AddToHomeScreenMd>`
+- `<$AddToHomeScreenLg>`
+
+
+
+
 
 ## AddToHomeScreen
 

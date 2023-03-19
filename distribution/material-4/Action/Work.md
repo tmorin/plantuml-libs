@@ -17,6 +17,17 @@ include('material-4/Action/Work')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WorkXs>`
+- `<$WorkSm>`
+- `<$WorkMd>`
+- `<$WorkLg>`
+
+
+
+
 
 ## Work
 

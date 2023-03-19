@@ -17,6 +17,17 @@ include('material-4/Av/ReplayCircleFilled')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ReplayCircleFilledXs>`
+- `<$ReplayCircleFilledSm>`
+- `<$ReplayCircleFilledMd>`
+- `<$ReplayCircleFilledLg>`
+
+
+
+
 
 ## ReplayCircleFilled
 

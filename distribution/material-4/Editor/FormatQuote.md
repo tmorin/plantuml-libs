@@ -17,6 +17,17 @@ include('material-4/Editor/FormatQuote')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FormatQuoteXs>`
+- `<$FormatQuoteSm>`
+- `<$FormatQuoteMd>`
+- `<$FormatQuoteLg>`
+
+
+
+
 
 ## FormatQuote
 

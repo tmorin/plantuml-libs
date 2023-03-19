@@ -17,6 +17,17 @@ include('material-4/Av/StopCircle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StopCircleXs>`
+- `<$StopCircleSm>`
+- `<$StopCircleMd>`
+- `<$StopCircleLg>`
+
+
+
+
 
 ## StopCircle
 

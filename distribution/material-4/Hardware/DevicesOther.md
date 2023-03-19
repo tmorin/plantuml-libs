@@ -17,6 +17,17 @@ include('material-4/Hardware/DevicesOther')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DevicesOtherXs>`
+- `<$DevicesOtherSm>`
+- `<$DevicesOtherMd>`
+- `<$DevicesOtherLg>`
+
+
+
+
 
 ## DevicesOther
 

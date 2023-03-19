@@ -17,6 +17,17 @@ include('material-4/Action/AccountBalanceWallet')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AccountBalanceWalletXs>`
+- `<$AccountBalanceWalletSm>`
+- `<$AccountBalanceWalletMd>`
+- `<$AccountBalanceWalletLg>`
+
+
+
+
 
 ## AccountBalanceWallet
 

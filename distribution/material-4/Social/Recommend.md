@@ -17,6 +17,17 @@ include('material-4/Social/Recommend')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RecommendXs>`
+- `<$RecommendSm>`
+- `<$RecommendMd>`
+- `<$RecommendLg>`
+
+
+
+
 
 ## Recommend
 

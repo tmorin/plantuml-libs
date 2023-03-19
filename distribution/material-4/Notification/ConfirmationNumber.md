@@ -17,6 +17,17 @@ include('material-4/Notification/ConfirmationNumber')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ConfirmationNumberXs>`
+- `<$ConfirmationNumberSm>`
+- `<$ConfirmationNumberMd>`
+- `<$ConfirmationNumberLg>`
+
+
+
+
 
 ## ConfirmationNumber
 

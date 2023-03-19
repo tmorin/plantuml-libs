@@ -17,6 +17,17 @@ include('material-4/Action/PendingActions')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PendingActionsXs>`
+- `<$PendingActionsSm>`
+- `<$PendingActionsMd>`
+- `<$PendingActionsLg>`
+
+
+
+
 
 ## PendingActions
 

@@ -17,6 +17,17 @@ include('material-4/Action/EuroSymbol')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EuroSymbolXs>`
+- `<$EuroSymbolSm>`
+- `<$EuroSymbolMd>`
+- `<$EuroSymbolLg>`
+
+
+
+
 
 ## EuroSymbol
 

@@ -17,6 +17,17 @@ include('material-4/Device/BatteryChargingFull')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BatteryChargingFullXs>`
+- `<$BatteryChargingFullSm>`
+- `<$BatteryChargingFullMd>`
+- `<$BatteryChargingFullLg>`
+
+
+
+
 
 ## BatteryChargingFull
 

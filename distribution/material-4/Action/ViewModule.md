@@ -17,6 +17,17 @@ include('material-4/Action/ViewModule')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ViewModuleXs>`
+- `<$ViewModuleSm>`
+- `<$ViewModuleMd>`
+- `<$ViewModuleLg>`
+
+
+
+
 
 ## ViewModule
 

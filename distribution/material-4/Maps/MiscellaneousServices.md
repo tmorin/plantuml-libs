@@ -17,6 +17,17 @@ include('material-4/Maps/MiscellaneousServices')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MiscellaneousServicesXs>`
+- `<$MiscellaneousServicesSm>`
+- `<$MiscellaneousServicesMd>`
+- `<$MiscellaneousServicesLg>`
+
+
+
+
 
 ## MiscellaneousServices
 

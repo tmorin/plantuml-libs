@@ -17,6 +17,17 @@ include('material-4/Places/Microwave')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MicrowaveXs>`
+- `<$MicrowaveSm>`
+- `<$MicrowaveMd>`
+- `<$MicrowaveLg>`
+
+
+
+
 
 ## Microwave
 

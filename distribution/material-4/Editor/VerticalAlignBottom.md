@@ -17,6 +17,17 @@ include('material-4/Editor/VerticalAlignBottom')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VerticalAlignBottomXs>`
+- `<$VerticalAlignBottomSm>`
+- `<$VerticalAlignBottomMd>`
+- `<$VerticalAlignBottomLg>`
+
+
+
+
 
 ## VerticalAlignBottom
 

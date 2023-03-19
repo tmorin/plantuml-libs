@@ -17,6 +17,17 @@ include('material-4/Image/Cases')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CasesXs>`
+- `<$CasesSm>`
+- `<$CasesMd>`
+- `<$CasesLg>`
+
+
+
+
 
 ## Cases
 

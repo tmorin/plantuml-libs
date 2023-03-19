@@ -17,6 +17,17 @@ include('material-4/Action/SavedSearch')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SavedSearchXs>`
+- `<$SavedSearchSm>`
+- `<$SavedSearchMd>`
+- `<$SavedSearchLg>`
+
+
+
+
 
 ## SavedSearch
 

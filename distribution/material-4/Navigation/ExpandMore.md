@@ -17,6 +17,17 @@ include('material-4/Navigation/ExpandMore')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ExpandMoreXs>`
+- `<$ExpandMoreSm>`
+- `<$ExpandMoreMd>`
+- `<$ExpandMoreLg>`
+
+
+
+
 
 ## ExpandMore
 

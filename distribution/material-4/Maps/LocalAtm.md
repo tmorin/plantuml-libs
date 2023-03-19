@@ -17,6 +17,17 @@ include('material-4/Maps/LocalAtm')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LocalAtmXs>`
+- `<$LocalAtmSm>`
+- `<$LocalAtmMd>`
+- `<$LocalAtmLg>`
+
+
+
+
 
 ## LocalAtm
 

@@ -17,6 +17,17 @@ include('material-4/Action/ExitToApp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ExitToAppXs>`
+- `<$ExitToAppSm>`
+- `<$ExitToAppMd>`
+- `<$ExitToAppLg>`
+
+
+
+
 
 ## ExitToApp
 

@@ -17,6 +17,17 @@ include('material-4/Av/Album')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AlbumXs>`
+- `<$AlbumSm>`
+- `<$AlbumMd>`
+- `<$AlbumLg>`
+
+
+
+
 
 ## Album
 

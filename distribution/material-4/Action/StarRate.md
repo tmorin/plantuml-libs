@@ -17,6 +17,17 @@ include('material-4/Action/StarRate')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StarRateXs>`
+- `<$StarRateSm>`
+- `<$StarRateMd>`
+- `<$StarRateLg>`
+
+
+
+
 
 ## StarRate
 

@@ -17,6 +17,17 @@ include('material-4/Communication/MoreTime')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MoreTimeXs>`
+- `<$MoreTimeSm>`
+- `<$MoreTimeMd>`
+- `<$MoreTimeLg>`
+
+
+
+
 
 ## MoreTime
 

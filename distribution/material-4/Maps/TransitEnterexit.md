@@ -17,6 +17,17 @@ include('material-4/Maps/TransitEnterexit')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TransitEnterexitXs>`
+- `<$TransitEnterexitSm>`
+- `<$TransitEnterexitMd>`
+- `<$TransitEnterexitLg>`
+
+
+
+
 
 ## TransitEnterexit
 

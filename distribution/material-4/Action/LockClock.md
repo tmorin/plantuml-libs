@@ -17,6 +17,17 @@ include('material-4/Action/LockClock')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LockClockXs>`
+- `<$LockClockSm>`
+- `<$LockClockMd>`
+- `<$LockClockLg>`
+
+
+
+
 
 ## LockClock
 

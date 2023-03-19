@@ -17,6 +17,17 @@ include('material-4/Hardware/HeadsetOff')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HeadsetOffXs>`
+- `<$HeadsetOffSm>`
+- `<$HeadsetOffMd>`
+- `<$HeadsetOffLg>`
+
+
+
+
 
 ## HeadsetOff
 

@@ -17,6 +17,17 @@ include('material-4/Communication/Message')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MessageXs>`
+- `<$MessageSm>`
+- `<$MessageMd>`
+- `<$MessageLg>`
+
+
+
+
 
 ## Message
 

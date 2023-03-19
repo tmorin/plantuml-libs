@@ -17,6 +17,17 @@ include('material-4/Editor/BorderColor')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BorderColorXs>`
+- `<$BorderColorSm>`
+- `<$BorderColorMd>`
+- `<$BorderColorLg>`
+
+
+
+
 
 ## BorderColor
 

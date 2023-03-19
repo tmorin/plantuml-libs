@@ -17,6 +17,17 @@ include('material-4/Image/WbAuto')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WbAutoXs>`
+- `<$WbAutoSm>`
+- `<$WbAutoMd>`
+- `<$WbAutoLg>`
+
+
+
+
 
 ## WbAuto
 

@@ -17,6 +17,17 @@ include('material-4/Communication/MarkChatUnread')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MarkChatUnreadXs>`
+- `<$MarkChatUnreadSm>`
+- `<$MarkChatUnreadMd>`
+- `<$MarkChatUnreadLg>`
+
+
+
+
 
 ## MarkChatUnread
 

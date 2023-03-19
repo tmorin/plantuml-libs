@@ -17,6 +17,17 @@ include('material-4/Image/Tonality')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TonalityXs>`
+- `<$TonalitySm>`
+- `<$TonalityMd>`
+- `<$TonalityLg>`
+
+
+
+
 
 ## Tonality
 

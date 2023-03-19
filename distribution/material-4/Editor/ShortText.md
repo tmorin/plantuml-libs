@@ -17,6 +17,17 @@ include('material-4/Editor/ShortText')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShortTextXs>`
+- `<$ShortTextSm>`
+- `<$ShortTextMd>`
+- `<$ShortTextLg>`
+
+
+
+
 
 ## ShortText
 

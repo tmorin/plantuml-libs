@@ -17,6 +17,17 @@ include('material-4/Action/CommentBank')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CommentBankXs>`
+- `<$CommentBankSm>`
+- `<$CommentBankMd>`
+- `<$CommentBankLg>`
+
+
+
+
 
 ## CommentBank
 

@@ -17,6 +17,17 @@ include('material-4/Action/_3DRotation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$_3DRotationXs>`
+- `<$_3DRotationSm>`
+- `<$_3DRotationMd>`
+- `<$_3DRotationLg>`
+
+
+
+
 
 ## _3DRotation
 

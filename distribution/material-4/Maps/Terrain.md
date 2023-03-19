@@ -17,6 +17,17 @@ include('material-4/Maps/Terrain')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TerrainXs>`
+- `<$TerrainSm>`
+- `<$TerrainMd>`
+- `<$TerrainLg>`
+
+
+
+
 
 ## Terrain
 

@@ -17,6 +17,17 @@ include('material-4/Social/Poll')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PollXs>`
+- `<$PollSm>`
+- `<$PollMd>`
+- `<$PollLg>`
+
+
+
+
 
 ## Poll
 

@@ -17,6 +17,17 @@ include('material-4/Action/CalendarViewDay')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CalendarViewDayXs>`
+- `<$CalendarViewDaySm>`
+- `<$CalendarViewDayMd>`
+- `<$CalendarViewDayLg>`
+
+
+
+
 
 ## CalendarViewDay
 

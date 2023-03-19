@@ -17,6 +17,17 @@ include('material-4/Action/QueryBuilder')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$QueryBuilderXs>`
+- `<$QueryBuilderSm>`
+- `<$QueryBuilderMd>`
+- `<$QueryBuilderLg>`
+
+
+
+
 
 ## QueryBuilder
 

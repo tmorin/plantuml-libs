@@ -17,6 +17,17 @@ include('material-4/Action/Bookmark')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BookmarkXs>`
+- `<$BookmarkSm>`
+- `<$BookmarkMd>`
+- `<$BookmarkLg>`
+
+
+
+
 
 ## Bookmark
 

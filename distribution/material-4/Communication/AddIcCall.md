@@ -17,6 +17,17 @@ include('material-4/Communication/AddIcCall')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AddIcCallXs>`
+- `<$AddIcCallSm>`
+- `<$AddIcCallMd>`
+- `<$AddIcCallLg>`
+
+
+
+
 
 ## AddIcCall
 

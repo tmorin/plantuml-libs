@@ -17,6 +17,17 @@ include('material-4/Navigation/UnfoldLess')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UnfoldLessXs>`
+- `<$UnfoldLessSm>`
+- `<$UnfoldLessMd>`
+- `<$UnfoldLessLg>`
+
+
+
+
 
 ## UnfoldLess
 

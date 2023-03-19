@@ -17,6 +17,17 @@ include('material-4/Editor/Padding')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PaddingXs>`
+- `<$PaddingSm>`
+- `<$PaddingMd>`
+- `<$PaddingLg>`
+
+
+
+
 
 ## Padding
 

@@ -17,6 +17,17 @@ include('material-4/Notification/DirectionsOff')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DirectionsOffXs>`
+- `<$DirectionsOffSm>`
+- `<$DirectionsOffMd>`
+- `<$DirectionsOffLg>`
+
+
+
+
 
 ## DirectionsOff
 

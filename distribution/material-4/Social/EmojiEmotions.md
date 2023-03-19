@@ -17,6 +17,17 @@ include('material-4/Social/EmojiEmotions')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EmojiEmotionsXs>`
+- `<$EmojiEmotionsSm>`
+- `<$EmojiEmotionsMd>`
+- `<$EmojiEmotionsLg>`
+
+
+
+
 
 ## EmojiEmotions
 

@@ -17,6 +17,17 @@ include('material-4/Social/SingleBed')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SingleBedXs>`
+- `<$SingleBedSm>`
+- `<$SingleBedMd>`
+- `<$SingleBedLg>`
+
+
+
+
 
 ## SingleBed
 

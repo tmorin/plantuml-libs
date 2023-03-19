@@ -17,6 +17,17 @@ include('material-4/Av/PlayDisabled')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PlayDisabledXs>`
+- `<$PlayDisabledSm>`
+- `<$PlayDisabledMd>`
+- `<$PlayDisabledLg>`
+
+
+
+
 
 ## PlayDisabled
 

@@ -17,6 +17,17 @@ include('material-4/Action/FlipToFront')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FlipToFrontXs>`
+- `<$FlipToFrontSm>`
+- `<$FlipToFrontMd>`
+- `<$FlipToFrontLg>`
+
+
+
+
 
 ## FlipToFront
 

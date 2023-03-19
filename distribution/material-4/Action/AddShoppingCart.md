@@ -17,6 +17,17 @@ include('material-4/Action/AddShoppingCart')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AddShoppingCartXs>`
+- `<$AddShoppingCartSm>`
+- `<$AddShoppingCartMd>`
+- `<$AddShoppingCartLg>`
+
+
+
+
 
 ## AddShoppingCart
 

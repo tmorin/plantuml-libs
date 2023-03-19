@@ -17,6 +17,17 @@ include('material-4/Communication/Nat')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NatXs>`
+- `<$NatSm>`
+- `<$NatMd>`
+- `<$NatLg>`
+
+
+
+
 
 ## Nat
 

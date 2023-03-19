@@ -17,6 +17,17 @@ include('material-4/Av/Airplay')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AirplayXs>`
+- `<$AirplaySm>`
+- `<$AirplayMd>`
+- `<$AirplayLg>`
+
+
+
+
 
 ## Airplay
 

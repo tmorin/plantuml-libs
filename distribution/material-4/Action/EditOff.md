@@ -17,6 +17,17 @@ include('material-4/Action/EditOff')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EditOffXs>`
+- `<$EditOffSm>`
+- `<$EditOffMd>`
+- `<$EditOffLg>`
+
+
+
+
 
 ## EditOff
 

@@ -17,6 +17,17 @@ include('material-4/Maps/PersonPin')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PersonPinXs>`
+- `<$PersonPinSm>`
+- `<$PersonPinMd>`
+- `<$PersonPinLg>`
+
+
+
+
 
 ## PersonPin
 

@@ -17,6 +17,17 @@ include('material-4/Maps/Hail')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HailXs>`
+- `<$HailSm>`
+- `<$HailMd>`
+- `<$HailLg>`
+
+
+
+
 
 ## Hail
 

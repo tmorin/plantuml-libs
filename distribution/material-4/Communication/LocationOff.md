@@ -17,6 +17,17 @@ include('material-4/Communication/LocationOff')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LocationOffXs>`
+- `<$LocationOffSm>`
+- `<$LocationOffMd>`
+- `<$LocationOffLg>`
+
+
+
+
 
 ## LocationOff
 

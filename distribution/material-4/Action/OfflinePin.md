@@ -17,6 +17,17 @@ include('material-4/Action/OfflinePin')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OfflinePinXs>`
+- `<$OfflinePinSm>`
+- `<$OfflinePinMd>`
+- `<$OfflinePinLg>`
+
+
+
+
 
 ## OfflinePin
 

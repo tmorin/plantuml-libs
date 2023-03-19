@@ -17,6 +17,17 @@ include('material-4/Content/LowPriority')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LowPriorityXs>`
+- `<$LowPrioritySm>`
+- `<$LowPriorityMd>`
+- `<$LowPriorityLg>`
+
+
+
+
 
 ## LowPriority
 

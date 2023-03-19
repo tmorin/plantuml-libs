@@ -17,6 +17,17 @@ include('material-4/Action/VisibilityOff')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VisibilityOffXs>`
+- `<$VisibilityOffSm>`
+- `<$VisibilityOffMd>`
+- `<$VisibilityOffLg>`
+
+
+
+
 
 ## VisibilityOff
 

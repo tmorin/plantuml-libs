@@ -17,6 +17,17 @@ include('material-4/Device/ScreenLockLandscape')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ScreenLockLandscapeXs>`
+- `<$ScreenLockLandscapeSm>`
+- `<$ScreenLockLandscapeMd>`
+- `<$ScreenLockLandscapeLg>`
+
+
+
+
 
 ## ScreenLockLandscape
 

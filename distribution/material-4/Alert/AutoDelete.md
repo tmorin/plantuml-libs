@@ -17,6 +17,17 @@ include('material-4/Alert/AutoDelete')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AutoDeleteXs>`
+- `<$AutoDeleteSm>`
+- `<$AutoDeleteMd>`
+- `<$AutoDeleteLg>`
+
+
+
+
 
 ## AutoDelete
 

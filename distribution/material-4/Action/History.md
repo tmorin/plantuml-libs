@@ -17,6 +17,17 @@ include('material-4/Action/History')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HistoryXs>`
+- `<$HistorySm>`
+- `<$HistoryMd>`
+- `<$HistoryLg>`
+
+
+
+
 
 ## History
 

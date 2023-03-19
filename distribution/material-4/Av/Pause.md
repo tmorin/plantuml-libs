@@ -17,6 +17,17 @@ include('material-4/Av/Pause')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PauseXs>`
+- `<$PauseSm>`
+- `<$PauseMd>`
+- `<$PauseLg>`
+
+
+
+
 
 ## Pause
 

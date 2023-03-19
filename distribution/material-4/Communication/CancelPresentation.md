@@ -17,6 +17,17 @@ include('material-4/Communication/CancelPresentation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CancelPresentationXs>`
+- `<$CancelPresentationSm>`
+- `<$CancelPresentationMd>`
+- `<$CancelPresentationLg>`
+
+
+
+
 
 ## CancelPresentation
 

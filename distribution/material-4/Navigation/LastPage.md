@@ -17,6 +17,17 @@ include('material-4/Navigation/LastPage')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LastPageXs>`
+- `<$LastPageSm>`
+- `<$LastPageMd>`
+- `<$LastPageLg>`
+
+
+
+
 
 ## LastPage
 

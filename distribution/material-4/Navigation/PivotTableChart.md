@@ -17,6 +17,17 @@ include('material-4/Navigation/PivotTableChart')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PivotTableChartXs>`
+- `<$PivotTableChartSm>`
+- `<$PivotTableChartMd>`
+- `<$PivotTableChartLg>`
+
+
+
+
 
 ## PivotTableChart
 

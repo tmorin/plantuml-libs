@@ -17,6 +17,17 @@ include('material-4/Communication/ClearAll')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ClearAllXs>`
+- `<$ClearAllSm>`
+- `<$ClearAllMd>`
+- `<$ClearAllLg>`
+
+
+
+
 
 ## ClearAll
 

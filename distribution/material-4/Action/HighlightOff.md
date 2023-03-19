@@ -17,6 +17,17 @@ include('material-4/Action/HighlightOff')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HighlightOffXs>`
+- `<$HighlightOffSm>`
+- `<$HighlightOffMd>`
+- `<$HighlightOffLg>`
+
+
+
+
 
 ## HighlightOff
 

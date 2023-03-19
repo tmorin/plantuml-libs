@@ -17,6 +17,17 @@ include('material-4/Av/AddToQueue')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AddToQueueXs>`
+- `<$AddToQueueSm>`
+- `<$AddToQueueMd>`
+- `<$AddToQueueLg>`
+
+
+
+
 
 ## AddToQueue
 

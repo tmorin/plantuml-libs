@@ -17,6 +17,17 @@ include('material-4/Places/FamilyRestroom')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FamilyRestroomXs>`
+- `<$FamilyRestroomSm>`
+- `<$FamilyRestroomMd>`
+- `<$FamilyRestroomLg>`
+
+
+
+
 
 ## FamilyRestroom
 

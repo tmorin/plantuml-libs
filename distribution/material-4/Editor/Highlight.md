@@ -17,6 +17,17 @@ include('material-4/Editor/Highlight')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HighlightXs>`
+- `<$HighlightSm>`
+- `<$HighlightMd>`
+- `<$HighlightLg>`
+
+
+
+
 
 ## Highlight
 

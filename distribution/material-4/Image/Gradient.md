@@ -17,6 +17,17 @@ include('material-4/Image/Gradient')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GradientXs>`
+- `<$GradientSm>`
+- `<$GradientMd>`
+- `<$GradientLg>`
+
+
+
+
 
 ## Gradient
 

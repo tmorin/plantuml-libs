@@ -17,6 +17,17 @@ include('material-4/Editor/FormatShapes')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FormatShapesXs>`
+- `<$FormatShapesSm>`
+- `<$FormatShapesMd>`
+- `<$FormatShapesLg>`
+
+
+
+
 
 ## FormatShapes
 

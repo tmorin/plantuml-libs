@@ -17,6 +17,17 @@ include('material-4/Image/AssistantPhoto')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AssistantPhotoXs>`
+- `<$AssistantPhotoSm>`
+- `<$AssistantPhotoMd>`
+- `<$AssistantPhotoLg>`
+
+
+
+
 
 ## AssistantPhoto
 

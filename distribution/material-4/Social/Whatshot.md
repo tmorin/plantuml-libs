@@ -17,6 +17,17 @@ include('material-4/Social/Whatshot')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WhatshotXs>`
+- `<$WhatshotSm>`
+- `<$WhatshotMd>`
+- `<$WhatshotLg>`
+
+
+
+
 
 ## Whatshot
 

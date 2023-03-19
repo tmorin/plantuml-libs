@@ -17,6 +17,17 @@ include('material-4/Hardware/KeyboardArrowLeft')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KeyboardArrowLeftXs>`
+- `<$KeyboardArrowLeftSm>`
+- `<$KeyboardArrowLeftMd>`
+- `<$KeyboardArrowLeftLg>`
+
+
+
+
 
 ## KeyboardArrowLeft
 

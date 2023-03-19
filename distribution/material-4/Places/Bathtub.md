@@ -17,6 +17,17 @@ include('material-4/Places/Bathtub')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BathtubXs>`
+- `<$BathtubSm>`
+- `<$BathtubMd>`
+- `<$BathtubLg>`
+
+
+
+
 
 ## Bathtub
 

@@ -17,6 +17,17 @@ include('material-4/Communication/ContactMail')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ContactMailXs>`
+- `<$ContactMailSm>`
+- `<$ContactMailMd>`
+- `<$ContactMailLg>`
+
+
+
+
 
 ## ContactMail
 

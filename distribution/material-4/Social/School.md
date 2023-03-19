@@ -17,6 +17,17 @@ include('material-4/Social/School')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SchoolXs>`
+- `<$SchoolSm>`
+- `<$SchoolMd>`
+- `<$SchoolLg>`
+
+
+
+
 
 ## School
 

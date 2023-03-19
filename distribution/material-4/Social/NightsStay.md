@@ -17,6 +17,17 @@ include('material-4/Social/NightsStay')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NightsStayXs>`
+- `<$NightsStaySm>`
+- `<$NightsStayMd>`
+- `<$NightsStayLg>`
+
+
+
+
 
 ## NightsStay
 

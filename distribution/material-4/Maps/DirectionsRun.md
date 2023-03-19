@@ -17,6 +17,17 @@ include('material-4/Maps/DirectionsRun')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DirectionsRunXs>`
+- `<$DirectionsRunSm>`
+- `<$DirectionsRunMd>`
+- `<$DirectionsRunLg>`
+
+
+
+
 
 ## DirectionsRun
 

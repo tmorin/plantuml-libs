@@ -17,6 +17,17 @@ include('material-4/Content/Remove')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RemoveXs>`
+- `<$RemoveSm>`
+- `<$RemoveMd>`
+- `<$RemoveLg>`
+
+
+
+
 
 ## Remove
 

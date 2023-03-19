@@ -17,6 +17,17 @@ include('material-4/Communication/MarkChatRead')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MarkChatReadXs>`
+- `<$MarkChatReadSm>`
+- `<$MarkChatReadMd>`
+- `<$MarkChatReadLg>`
+
+
+
+
 
 ## MarkChatRead
 

@@ -17,6 +17,17 @@ include('material-4/Communication/NoSim')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NoSimXs>`
+- `<$NoSimSm>`
+- `<$NoSimMd>`
+- `<$NoSimLg>`
+
+
+
+
 
 ## NoSim
 

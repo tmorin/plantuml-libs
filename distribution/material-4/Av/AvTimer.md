@@ -17,6 +17,17 @@ include('material-4/Av/AvTimer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AvTimerXs>`
+- `<$AvTimerSm>`
+- `<$AvTimerMd>`
+- `<$AvTimerLg>`
+
+
+
+
 
 ## AvTimer
 

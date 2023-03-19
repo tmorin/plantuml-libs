@@ -17,6 +17,17 @@ include('material-4/Maps/LocalGasStation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LocalGasStationXs>`
+- `<$LocalGasStationSm>`
+- `<$LocalGasStationMd>`
+- `<$LocalGasStationLg>`
+
+
+
+
 
 ## LocalGasStation
 

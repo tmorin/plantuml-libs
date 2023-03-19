@@ -17,6 +17,17 @@ include('material-4/Social/SentimentDissatisfied')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SentimentDissatisfiedXs>`
+- `<$SentimentDissatisfiedSm>`
+- `<$SentimentDissatisfiedMd>`
+- `<$SentimentDissatisfiedLg>`
+
+
+
+
 
 ## SentimentDissatisfied
 

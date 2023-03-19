@@ -17,6 +17,17 @@ include('material-4/File/UploadFile')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UploadFileXs>`
+- `<$UploadFileSm>`
+- `<$UploadFileMd>`
+- `<$UploadFileLg>`
+
+
+
+
 
 ## UploadFile
 

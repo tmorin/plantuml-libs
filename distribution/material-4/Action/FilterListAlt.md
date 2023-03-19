@@ -17,6 +17,17 @@ include('material-4/Action/FilterListAlt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FilterListAltXs>`
+- `<$FilterListAltSm>`
+- `<$FilterListAltMd>`
+- `<$FilterListAltLg>`
+
+
+
+
 
 ## FilterListAlt
 

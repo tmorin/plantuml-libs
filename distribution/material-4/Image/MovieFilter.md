@@ -17,6 +17,17 @@ include('material-4/Image/MovieFilter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MovieFilterXs>`
+- `<$MovieFilterSm>`
+- `<$MovieFilterMd>`
+- `<$MovieFilterLg>`
+
+
+
+
 
 ## MovieFilter
 

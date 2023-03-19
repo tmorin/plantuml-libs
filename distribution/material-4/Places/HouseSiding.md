@@ -17,6 +17,17 @@ include('material-4/Places/HouseSiding')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HouseSidingXs>`
+- `<$HouseSidingSm>`
+- `<$HouseSidingMd>`
+- `<$HouseSidingLg>`
+
+
+
+
 
 ## HouseSiding
 

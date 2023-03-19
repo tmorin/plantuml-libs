@@ -17,6 +17,17 @@ include('material-4/Device/LocationSearching')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LocationSearchingXs>`
+- `<$LocationSearchingSm>`
+- `<$LocationSearchingMd>`
+- `<$LocationSearchingLg>`
+
+
+
+
 
 ## LocationSearching
 

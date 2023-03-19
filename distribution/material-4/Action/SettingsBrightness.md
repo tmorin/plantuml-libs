@@ -17,6 +17,17 @@ include('material-4/Action/SettingsBrightness')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SettingsBrightnessXs>`
+- `<$SettingsBrightnessSm>`
+- `<$SettingsBrightnessMd>`
+- `<$SettingsBrightnessLg>`
+
+
+
+
 
 ## SettingsBrightness
 

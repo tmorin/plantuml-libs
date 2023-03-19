@@ -17,6 +17,17 @@ include('material-4/Image/Edit')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EditXs>`
+- `<$EditSm>`
+- `<$EditMd>`
+- `<$EditLg>`
+
+
+
+
 
 ## Edit
 

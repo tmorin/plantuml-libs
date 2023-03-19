@@ -17,6 +17,17 @@ include('material-4/Content/FontDownload')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FontDownloadXs>`
+- `<$FontDownloadSm>`
+- `<$FontDownloadMd>`
+- `<$FontDownloadLg>`
+
+
+
+
 
 ## FontDownload
 

@@ -17,6 +17,17 @@ include('material-4/Action/RestoreFromTrash')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RestoreFromTrashXs>`
+- `<$RestoreFromTrashSm>`
+- `<$RestoreFromTrashMd>`
+- `<$RestoreFromTrashLg>`
+
+
+
+
 
 ## RestoreFromTrash
 

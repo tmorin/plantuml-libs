@@ -17,6 +17,17 @@ include('material-4/Editor/Publish')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PublishXs>`
+- `<$PublishSm>`
+- `<$PublishMd>`
+- `<$PublishLg>`
+
+
+
+
 
 ## Publish
 

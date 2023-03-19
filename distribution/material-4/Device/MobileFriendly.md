@@ -17,6 +17,17 @@ include('material-4/Device/MobileFriendly')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MobileFriendlyXs>`
+- `<$MobileFriendlySm>`
+- `<$MobileFriendlyMd>`
+- `<$MobileFriendlyLg>`
+
+
+
+
 
 ## MobileFriendly
 

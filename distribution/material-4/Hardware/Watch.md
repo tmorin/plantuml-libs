@@ -17,6 +17,17 @@ include('material-4/Hardware/Watch')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WatchXs>`
+- `<$WatchSm>`
+- `<$WatchMd>`
+- `<$WatchLg>`
+
+
+
+
 
 ## Watch
 

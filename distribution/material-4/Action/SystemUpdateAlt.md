@@ -17,6 +17,17 @@ include('material-4/Action/SystemUpdateAlt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SystemUpdateAltXs>`
+- `<$SystemUpdateAltSm>`
+- `<$SystemUpdateAltMd>`
+- `<$SystemUpdateAltLg>`
+
+
+
+
 
 ## SystemUpdateAlt
 

@@ -17,6 +17,17 @@ include('material-4/Action/AlarmAdd')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AlarmAddXs>`
+- `<$AlarmAddSm>`
+- `<$AlarmAddMd>`
+- `<$AlarmAddLg>`
+
+
+
+
 
 ## AlarmAdd
 

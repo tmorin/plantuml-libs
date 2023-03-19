@@ -17,6 +17,17 @@ include('material-4/Editor/Subscript')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SubscriptXs>`
+- `<$SubscriptSm>`
+- `<$SubscriptMd>`
+- `<$SubscriptLg>`
+
+
+
+
 
 ## Subscript
 

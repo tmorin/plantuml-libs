@@ -17,6 +17,17 @@ include('material-4/Image/GridOn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GridOnXs>`
+- `<$GridOnSm>`
+- `<$GridOnMd>`
+- `<$GridOnLg>`
+
+
+
+
 
 ## GridOn
 

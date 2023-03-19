@@ -17,6 +17,17 @@ include('material-4/Editor/PieChartOutlined')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PieChartOutlinedXs>`
+- `<$PieChartOutlinedSm>`
+- `<$PieChartOutlinedMd>`
+- `<$PieChartOutlinedLg>`
+
+
+
+
 
 ## PieChartOutlined
 

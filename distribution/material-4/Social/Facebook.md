@@ -17,6 +17,17 @@ include('material-4/Social/Facebook')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FacebookXs>`
+- `<$FacebookSm>`
+- `<$FacebookMd>`
+- `<$FacebookLg>`
+
+
+
+
 
 ## Facebook
 

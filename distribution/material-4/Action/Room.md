@@ -17,6 +17,17 @@ include('material-4/Action/Room')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RoomXs>`
+- `<$RoomSm>`
+- `<$RoomMd>`
+- `<$RoomLg>`
+
+
+
+
 
 ## Room
 

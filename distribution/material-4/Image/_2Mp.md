@@ -17,6 +17,17 @@ include('material-4/Image/_2Mp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$_2MpXs>`
+- `<$_2MpSm>`
+- `<$_2MpMd>`
+- `<$_2MpLg>`
+
+
+
+
 
 ## _2Mp
 

@@ -17,6 +17,17 @@ include('material-4/Action/CompareArrows')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CompareArrowsXs>`
+- `<$CompareArrowsSm>`
+- `<$CompareArrowsMd>`
+- `<$CompareArrowsLg>`
+
+
+
+
 
 ## CompareArrows
 

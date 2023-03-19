@@ -17,6 +17,17 @@ include('material-4/Maps/DryCleaning')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DryCleaningXs>`
+- `<$DryCleaningSm>`
+- `<$DryCleaningMd>`
+- `<$DryCleaningLg>`
+
+
+
+
 
 ## DryCleaning
 

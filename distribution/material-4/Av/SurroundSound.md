@@ -17,6 +17,17 @@ include('material-4/Av/SurroundSound')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SurroundSoundXs>`
+- `<$SurroundSoundSm>`
+- `<$SurroundSoundMd>`
+- `<$SurroundSoundLg>`
+
+
+
+
 
 ## SurroundSound
 

@@ -17,6 +17,17 @@ include('material-4/Editor/FormatAlignLeft')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FormatAlignLeftXs>`
+- `<$FormatAlignLeftSm>`
+- `<$FormatAlignLeftMd>`
+- `<$FormatAlignLeftLg>`
+
+
+
+
 
 ## FormatAlignLeft
 

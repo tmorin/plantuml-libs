@@ -17,6 +17,17 @@ include('material-4/Places/ChildFriendly')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChildFriendlyXs>`
+- `<$ChildFriendlySm>`
+- `<$ChildFriendlyMd>`
+- `<$ChildFriendlyLg>`
+
+
+
+
 
 ## ChildFriendly
 

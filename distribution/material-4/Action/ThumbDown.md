@@ -17,6 +17,17 @@ include('material-4/Action/ThumbDown')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ThumbDownXs>`
+- `<$ThumbDownSm>`
+- `<$ThumbDownMd>`
+- `<$ThumbDownLg>`
+
+
+
+
 
 ## ThumbDown
 

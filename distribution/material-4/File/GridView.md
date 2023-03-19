@@ -17,6 +17,17 @@ include('material-4/File/GridView')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GridViewXs>`
+- `<$GridViewSm>`
+- `<$GridViewMd>`
+- `<$GridViewLg>`
+
+
+
+
 
 ## GridView
 

@@ -17,6 +17,17 @@ include('material-4/Action/Delete')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DeleteXs>`
+- `<$DeleteSm>`
+- `<$DeleteMd>`
+- `<$DeleteLg>`
+
+
+
+
 
 ## Delete
 

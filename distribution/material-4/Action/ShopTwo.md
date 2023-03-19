@@ -17,6 +17,17 @@ include('material-4/Action/ShopTwo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShopTwoXs>`
+- `<$ShopTwoSm>`
+- `<$ShopTwoMd>`
+- `<$ShopTwoLg>`
+
+
+
+
 
 ## ShopTwo
 

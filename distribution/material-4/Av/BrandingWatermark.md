@@ -17,6 +17,17 @@ include('material-4/Av/BrandingWatermark')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BrandingWatermarkXs>`
+- `<$BrandingWatermarkSm>`
+- `<$BrandingWatermarkMd>`
+- `<$BrandingWatermarkLg>`
+
+
+
+
 
 ## BrandingWatermark
 

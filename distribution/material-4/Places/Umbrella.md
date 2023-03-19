@@ -17,6 +17,17 @@ include('material-4/Places/Umbrella')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UmbrellaXs>`
+- `<$UmbrellaSm>`
+- `<$UmbrellaMd>`
+- `<$UmbrellaLg>`
+
+
+
+
 
 ## Umbrella
 

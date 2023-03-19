@@ -17,6 +17,17 @@ include('material-4/Action/BuildCircle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BuildCircleXs>`
+- `<$BuildCircleSm>`
+- `<$BuildCircleMd>`
+- `<$BuildCircleLg>`
+
+
+
+
 
 ## BuildCircle
 

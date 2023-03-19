@@ -17,6 +17,17 @@ include('material-4/Action/Compress')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CompressXs>`
+- `<$CompressSm>`
+- `<$CompressMd>`
+- `<$CompressLg>`
+
+
+
+
 
 ## Compress
 

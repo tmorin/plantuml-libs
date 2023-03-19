@@ -17,6 +17,17 @@ include('material-4/Toggle/StarOutline')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StarOutlineXs>`
+- `<$StarOutlineSm>`
+- `<$StarOutlineMd>`
+- `<$StarOutlineLg>`
+
+
+
+
 
 ## StarOutline
 

@@ -17,6 +17,17 @@ include('material-4/Image/PanoramaFishEye')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PanoramaFishEyeXs>`
+- `<$PanoramaFishEyeSm>`
+- `<$PanoramaFishEyeMd>`
+- `<$PanoramaFishEyeLg>`
+
+
+
+
 
 ## PanoramaFishEye
 

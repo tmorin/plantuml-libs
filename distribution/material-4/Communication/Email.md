@@ -17,6 +17,17 @@ include('material-4/Communication/Email')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EmailXs>`
+- `<$EmailSm>`
+- `<$EmailMd>`
+- `<$EmailLg>`
+
+
+
+
 
 ## Email
 

@@ -17,6 +17,17 @@ include('material-4/Action/LineWeight')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LineWeightXs>`
+- `<$LineWeightSm>`
+- `<$LineWeightMd>`
+- `<$LineWeightLg>`
+
+
+
+
 
 ## LineWeight
 

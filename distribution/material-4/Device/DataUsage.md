@@ -17,6 +17,17 @@ include('material-4/Device/DataUsage')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DataUsageXs>`
+- `<$DataUsageSm>`
+- `<$DataUsageMd>`
+- `<$DataUsageLg>`
+
+
+
+
 
 ## DataUsage
 

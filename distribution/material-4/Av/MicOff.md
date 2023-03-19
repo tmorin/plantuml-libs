@@ -17,6 +17,17 @@ include('material-4/Av/MicOff')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MicOffXs>`
+- `<$MicOffSm>`
+- `<$MicOffMd>`
+- `<$MicOffLg>`
+
+
+
+
 
 ## MicOff
 

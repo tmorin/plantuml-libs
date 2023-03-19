@@ -17,6 +17,17 @@ include('material-4/Notification/TimeToLeave')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TimeToLeaveXs>`
+- `<$TimeToLeaveSm>`
+- `<$TimeToLeaveMd>`
+- `<$TimeToLeaveLg>`
+
+
+
+
 
 ## TimeToLeave
 

@@ -17,6 +17,17 @@ include('material-4/Hardware/Gamepad')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GamepadXs>`
+- `<$GamepadSm>`
+- `<$GamepadMd>`
+- `<$GamepadLg>`
+
+
+
+
 
 ## Gamepad
 

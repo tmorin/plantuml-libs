@@ -17,6 +17,17 @@ include('material-4/Communication/StayCurrentPortrait')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StayCurrentPortraitXs>`
+- `<$StayCurrentPortraitSm>`
+- `<$StayCurrentPortraitMd>`
+- `<$StayCurrentPortraitLg>`
+
+
+
+
 
 ## StayCurrentPortrait
 

@@ -17,6 +17,17 @@ include('material-4/Social/SentimentNeutral')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SentimentNeutralXs>`
+- `<$SentimentNeutralSm>`
+- `<$SentimentNeutralMd>`
+- `<$SentimentNeutralLg>`
+
+
+
+
 
 ## SentimentNeutral
 

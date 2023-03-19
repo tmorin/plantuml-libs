@@ -17,6 +17,17 @@ include('material-4/Hardware/Tv')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TvXs>`
+- `<$TvSm>`
+- `<$TvMd>`
+- `<$TvLg>`
+
+
+
+
 
 ## Tv
 

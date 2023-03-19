@@ -17,6 +17,17 @@ include('material-4/Maps/LocalShipping')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LocalShippingXs>`
+- `<$LocalShippingSm>`
+- `<$LocalShippingMd>`
+- `<$LocalShippingLg>`
+
+
+
+
 
 ## LocalShipping
 

@@ -17,6 +17,17 @@ include('material-4/Action/StickyNote2')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StickyNote2Xs>`
+- `<$StickyNote2Sm>`
+- `<$StickyNote2Md>`
+- `<$StickyNote2Lg>`
+
+
+
+
 
 ## StickyNote2
 

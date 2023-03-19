@@ -17,6 +17,17 @@ include('material-4/Maps/TakeoutDining')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TakeoutDiningXs>`
+- `<$TakeoutDiningSm>`
+- `<$TakeoutDiningMd>`
+- `<$TakeoutDiningLg>`
+
+
+
+
 
 ## TakeoutDining
 

@@ -17,6 +17,17 @@ include('material-4/Image/Flare')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FlareXs>`
+- `<$FlareSm>`
+- `<$FlareMd>`
+- `<$FlareLg>`
+
+
+
+
 
 ## Flare
 

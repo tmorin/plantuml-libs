@@ -17,6 +17,17 @@ include('material-4/Image/AutoFixHigh')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AutoFixHighXs>`
+- `<$AutoFixHighSm>`
+- `<$AutoFixHighMd>`
+- `<$AutoFixHighLg>`
+
+
+
+
 
 ## AutoFixHigh
 

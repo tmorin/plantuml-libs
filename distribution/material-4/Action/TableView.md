@@ -17,6 +17,17 @@ include('material-4/Action/TableView')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TableViewXs>`
+- `<$TableViewSm>`
+- `<$TableViewMd>`
+- `<$TableViewLg>`
+
+
+
+
 
 ## TableView
 

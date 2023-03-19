@@ -17,6 +17,17 @@ include('material-4/Places/Tty')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TtyXs>`
+- `<$TtySm>`
+- `<$TtyMd>`
+- `<$TtyLg>`
+
+
+
+
 
 ## Tty
 

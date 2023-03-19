@@ -17,6 +17,17 @@ include('material-4/Action/Upgrade')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UpgradeXs>`
+- `<$UpgradeSm>`
+- `<$UpgradeMd>`
+- `<$UpgradeLg>`
+
+
+
+
 
 ## Upgrade
 

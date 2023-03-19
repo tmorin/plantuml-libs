@@ -17,6 +17,17 @@ include('material-4/Image/Palette')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PaletteXs>`
+- `<$PaletteSm>`
+- `<$PaletteMd>`
+- `<$PaletteLg>`
+
+
+
+
 
 ## Palette
 

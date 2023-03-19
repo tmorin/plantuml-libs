@@ -17,6 +17,17 @@ include('material-4/Content/WhereToVote')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WhereToVoteXs>`
+- `<$WhereToVoteSm>`
+- `<$WhereToVoteMd>`
+- `<$WhereToVoteLg>`
+
+
+
+
 
 ## WhereToVote
 

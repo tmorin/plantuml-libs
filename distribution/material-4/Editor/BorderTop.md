@@ -17,6 +17,17 @@ include('material-4/Editor/BorderTop')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BorderTopXs>`
+- `<$BorderTopSm>`
+- `<$BorderTopMd>`
+- `<$BorderTopLg>`
+
+
+
+
 
 ## BorderTop
 

@@ -17,6 +17,17 @@ include('material-4/Image/PhotoSizeSelectActual')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PhotoSizeSelectActualXs>`
+- `<$PhotoSizeSelectActualSm>`
+- `<$PhotoSizeSelectActualMd>`
+- `<$PhotoSizeSelectActualLg>`
+
+
+
+
 
 ## PhotoSizeSelectActual
 

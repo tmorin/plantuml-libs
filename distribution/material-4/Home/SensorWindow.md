@@ -17,6 +17,17 @@ include('material-4/Home/SensorWindow')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SensorWindowXs>`
+- `<$SensorWindowSm>`
+- `<$SensorWindowMd>`
+- `<$SensorWindowLg>`
+
+
+
+
 
 ## SensorWindow
 

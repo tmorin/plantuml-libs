@@ -17,6 +17,17 @@ include('material-4/Toggle/IndeterminateCheckBox')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IndeterminateCheckBoxXs>`
+- `<$IndeterminateCheckBoxSm>`
+- `<$IndeterminateCheckBoxMd>`
+- `<$IndeterminateCheckBoxLg>`
+
+
+
+
 
 ## IndeterminateCheckBox
 

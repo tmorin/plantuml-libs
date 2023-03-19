@@ -17,6 +17,17 @@ include('material-4/Content/RemoveCircleOutline')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RemoveCircleOutlineXs>`
+- `<$RemoveCircleOutlineSm>`
+- `<$RemoveCircleOutlineMd>`
+- `<$RemoveCircleOutlineLg>`
+
+
+
+
 
 ## RemoveCircleOutline
 

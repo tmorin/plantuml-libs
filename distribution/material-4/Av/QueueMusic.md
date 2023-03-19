@@ -17,6 +17,17 @@ include('material-4/Av/QueueMusic')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$QueueMusicXs>`
+- `<$QueueMusicSm>`
+- `<$QueueMusicMd>`
+- `<$QueueMusicLg>`
+
+
+
+
 
 ## QueueMusic
 

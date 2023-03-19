@@ -17,6 +17,17 @@ include('material-4/Image/FlashAuto')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FlashAutoXs>`
+- `<$FlashAutoSm>`
+- `<$FlashAutoMd>`
+- `<$FlashAutoLg>`
+
+
+
+
 
 ## FlashAuto
 

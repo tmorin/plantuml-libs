@@ -17,6 +17,17 @@ include('material-4/Editor/MoneyOff')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MoneyOffXs>`
+- `<$MoneyOffSm>`
+- `<$MoneyOffMd>`
+- `<$MoneyOffLg>`
+
+
+
+
 
 ## MoneyOff
 

@@ -17,6 +17,17 @@ include('material-4/Device/GraphicEq')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GraphicEqXs>`
+- `<$GraphicEqSm>`
+- `<$GraphicEqMd>`
+- `<$GraphicEqLg>`
+
+
+
+
 
 ## GraphicEq
 

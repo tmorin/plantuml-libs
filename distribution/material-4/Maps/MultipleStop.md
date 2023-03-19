@@ -17,6 +17,17 @@ include('material-4/Maps/MultipleStop')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MultipleStopXs>`
+- `<$MultipleStopSm>`
+- `<$MultipleStopMd>`
+- `<$MultipleStopLg>`
+
+
+
+
 
 ## MultipleStop
 

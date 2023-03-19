@@ -17,6 +17,17 @@ include('material-4/Content/Policy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PolicyXs>`
+- `<$PolicySm>`
+- `<$PolicyMd>`
+- `<$PolicyLg>`
+
+
+
+
 
 ## Policy
 

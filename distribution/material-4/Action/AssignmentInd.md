@@ -17,6 +17,17 @@ include('material-4/Action/AssignmentInd')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AssignmentIndXs>`
+- `<$AssignmentIndSm>`
+- `<$AssignmentIndMd>`
+- `<$AssignmentIndLg>`
+
+
+
+
 
 ## AssignmentInd
 

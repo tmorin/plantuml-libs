@@ -17,6 +17,17 @@ include('material-4/Notification/PhoneCallback')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PhoneCallbackXs>`
+- `<$PhoneCallbackSm>`
+- `<$PhoneCallbackMd>`
+- `<$PhoneCallbackLg>`
+
+
+
+
 
 ## PhoneCallback
 

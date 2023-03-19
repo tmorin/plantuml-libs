@@ -17,6 +17,17 @@ include('material-4/Image/SwitchVideo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SwitchVideoXs>`
+- `<$SwitchVideoSm>`
+- `<$SwitchVideoMd>`
+- `<$SwitchVideoLg>`
+
+
+
+
 
 ## SwitchVideo
 

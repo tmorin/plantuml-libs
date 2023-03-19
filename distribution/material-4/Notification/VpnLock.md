@@ -17,6 +17,17 @@ include('material-4/Notification/VpnLock')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VpnLockXs>`
+- `<$VpnLockSm>`
+- `<$VpnLockMd>`
+- `<$VpnLockLg>`
+
+
+
+
 
 ## VpnLock
 

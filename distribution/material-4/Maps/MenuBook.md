@@ -17,6 +17,17 @@ include('material-4/Maps/MenuBook')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MenuBookXs>`
+- `<$MenuBookSm>`
+- `<$MenuBookMd>`
+- `<$MenuBookLg>`
+
+
+
+
 
 ## MenuBook
 

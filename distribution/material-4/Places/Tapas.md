@@ -17,6 +17,17 @@ include('material-4/Places/Tapas')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TapasXs>`
+- `<$TapasSm>`
+- `<$TapasMd>`
+- `<$TapasLg>`
+
+
+
+
 
 ## Tapas
 

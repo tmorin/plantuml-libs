@@ -17,6 +17,17 @@ include('material-4/Device/AccessTime')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AccessTimeXs>`
+- `<$AccessTimeSm>`
+- `<$AccessTimeMd>`
+- `<$AccessTimeLg>`
+
+
+
+
 
 ## AccessTime
 

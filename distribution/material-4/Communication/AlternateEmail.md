@@ -17,6 +17,17 @@ include('material-4/Communication/AlternateEmail')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AlternateEmailXs>`
+- `<$AlternateEmailSm>`
+- `<$AlternateEmailMd>`
+- `<$AlternateEmailLg>`
+
+
+
+
 
 ## AlternateEmail
 

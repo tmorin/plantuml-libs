@@ -17,6 +17,17 @@ include('material-4/Action/ArrowRightAlt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ArrowRightAltXs>`
+- `<$ArrowRightAltSm>`
+- `<$ArrowRightAltMd>`
+- `<$ArrowRightAltLg>`
+
+
+
+
 
 ## ArrowRightAlt
 

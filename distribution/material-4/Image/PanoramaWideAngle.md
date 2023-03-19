@@ -17,6 +17,17 @@ include('material-4/Image/PanoramaWideAngle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PanoramaWideAngleXs>`
+- `<$PanoramaWideAngleSm>`
+- `<$PanoramaWideAngleMd>`
+- `<$PanoramaWideAngleLg>`
+
+
+
+
 
 ## PanoramaWideAngle
 

@@ -17,6 +17,17 @@ include('material-4/Device/BluetoothDisabled')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BluetoothDisabledXs>`
+- `<$BluetoothDisabledSm>`
+- `<$BluetoothDisabledMd>`
+- `<$BluetoothDisabledLg>`
+
+
+
+
 
 ## BluetoothDisabled
 

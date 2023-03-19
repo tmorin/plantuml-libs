@@ -17,6 +17,17 @@ include('material-4/Social/SportsKabaddi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SportsKabaddiXs>`
+- `<$SportsKabaddiSm>`
+- `<$SportsKabaddiMd>`
+- `<$SportsKabaddiLg>`
+
+
+
+
 
 ## SportsKabaddi
 

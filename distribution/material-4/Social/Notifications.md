@@ -17,6 +17,17 @@ include('material-4/Social/Notifications')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NotificationsXs>`
+- `<$NotificationsSm>`
+- `<$NotificationsMd>`
+- `<$NotificationsLg>`
+
+
+
+
 
 ## Notifications
 

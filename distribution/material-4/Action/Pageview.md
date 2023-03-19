@@ -17,6 +17,17 @@ include('material-4/Action/Pageview')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PageviewXs>`
+- `<$PageviewSm>`
+- `<$PageviewMd>`
+- `<$PageviewLg>`
+
+
+
+
 
 ## Pageview
 

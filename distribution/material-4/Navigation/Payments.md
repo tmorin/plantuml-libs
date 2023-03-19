@@ -17,6 +17,17 @@ include('material-4/Navigation/Payments')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PaymentsXs>`
+- `<$PaymentsSm>`
+- `<$PaymentsMd>`
+- `<$PaymentsLg>`
+
+
+
+
 
 ## Payments
 

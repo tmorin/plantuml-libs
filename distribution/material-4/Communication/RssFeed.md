@@ -17,6 +17,17 @@ include('material-4/Communication/RssFeed')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RssFeedXs>`
+- `<$RssFeedSm>`
+- `<$RssFeedMd>`
+- `<$RssFeedLg>`
+
+
+
+
 
 ## RssFeed
 

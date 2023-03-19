@@ -17,6 +17,17 @@ include('material-4/Image/WbSunny')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WbSunnyXs>`
+- `<$WbSunnySm>`
+- `<$WbSunnyMd>`
+- `<$WbSunnyLg>`
+
+
+
+
 
 ## WbSunny
 

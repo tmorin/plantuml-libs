@@ -17,6 +17,17 @@ include('material-4/Action/PermPhoneMsg')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PermPhoneMsgXs>`
+- `<$PermPhoneMsgSm>`
+- `<$PermPhoneMsgMd>`
+- `<$PermPhoneMsgLg>`
+
+
+
+
 
 ## PermPhoneMsg
 

@@ -17,6 +17,17 @@ include('material-4/Action/NotAccessible')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NotAccessibleXs>`
+- `<$NotAccessibleSm>`
+- `<$NotAccessibleMd>`
+- `<$NotAccessibleLg>`
+
+
+
+
 
 ## NotAccessible
 

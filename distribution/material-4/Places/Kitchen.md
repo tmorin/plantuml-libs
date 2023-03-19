@@ -17,6 +17,17 @@ include('material-4/Places/Kitchen')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KitchenXs>`
+- `<$KitchenSm>`
+- `<$KitchenMd>`
+- `<$KitchenLg>`
+
+
+
+
 
 ## Kitchen
 

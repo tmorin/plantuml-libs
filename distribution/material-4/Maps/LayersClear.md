@@ -17,6 +17,17 @@ include('material-4/Maps/LayersClear')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LayersClearXs>`
+- `<$LayersClearSm>`
+- `<$LayersClearMd>`
+- `<$LayersClearLg>`
+
+
+
+
 
 ## LayersClear
 

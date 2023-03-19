@@ -17,6 +17,17 @@ include('material-4/Social/OutdoorGrill')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OutdoorGrillXs>`
+- `<$OutdoorGrillSm>`
+- `<$OutdoorGrillMd>`
+- `<$OutdoorGrillLg>`
+
+
+
+
 
 ## OutdoorGrill
 

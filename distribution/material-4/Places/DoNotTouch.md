@@ -17,6 +17,17 @@ include('material-4/Places/DoNotTouch')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DoNotTouchXs>`
+- `<$DoNotTouchSm>`
+- `<$DoNotTouchMd>`
+- `<$DoNotTouchLg>`
+
+
+
+
 
 ## DoNotTouch
 

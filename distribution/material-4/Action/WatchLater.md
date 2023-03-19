@@ -17,6 +17,17 @@ include('material-4/Action/WatchLater')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WatchLaterXs>`
+- `<$WatchLaterSm>`
+- `<$WatchLaterMd>`
+- `<$WatchLaterLg>`
+
+
+
+
 
 ## WatchLater
 

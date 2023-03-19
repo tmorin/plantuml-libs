@@ -17,6 +17,17 @@ include('material-4/Action/Android')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AndroidXs>`
+- `<$AndroidSm>`
+- `<$AndroidMd>`
+- `<$AndroidLg>`
+
+
+
+
 
 ## Android
 

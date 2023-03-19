@@ -17,6 +17,17 @@ include('material-4/Action/OpenWith')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OpenWithXs>`
+- `<$OpenWithSm>`
+- `<$OpenWithMd>`
+- `<$OpenWithLg>`
+
+
+
+
 
 ## OpenWith
 

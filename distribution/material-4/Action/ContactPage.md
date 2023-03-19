@@ -17,6 +17,17 @@ include('material-4/Action/ContactPage')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ContactPageXs>`
+- `<$ContactPageSm>`
+- `<$ContactPageMd>`
+- `<$ContactPageLg>`
+
+
+
+
 
 ## ContactPage
 

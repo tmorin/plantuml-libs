@@ -17,6 +17,17 @@ include('material-4/Places/Casino')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CasinoXs>`
+- `<$CasinoSm>`
+- `<$CasinoMd>`
+- `<$CasinoLg>`
+
+
+
+
 
 ## Casino
 

@@ -17,6 +17,17 @@ include('material-4/Action/AppBlocking')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AppBlockingXs>`
+- `<$AppBlockingSm>`
+- `<$AppBlockingMd>`
+- `<$AppBlockingLg>`
+
+
+
+
 
 ## AppBlocking
 

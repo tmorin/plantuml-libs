@@ -17,6 +17,17 @@ include('material-4/Av/PlayCircleOutline')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PlayCircleOutlineXs>`
+- `<$PlayCircleOutlineSm>`
+- `<$PlayCircleOutlineMd>`
+- `<$PlayCircleOutlineLg>`
+
+
+
+
 
 ## PlayCircleOutline
 

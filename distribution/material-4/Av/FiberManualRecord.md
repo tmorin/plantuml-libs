@@ -17,6 +17,17 @@ include('material-4/Av/FiberManualRecord')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FiberManualRecordXs>`
+- `<$FiberManualRecordSm>`
+- `<$FiberManualRecordMd>`
+- `<$FiberManualRecordLg>`
+
+
+
+
 
 ## FiberManualRecord
 

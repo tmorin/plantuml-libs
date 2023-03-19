@@ -17,6 +17,17 @@ include('material-4/Editor/PostAdd')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PostAddXs>`
+- `<$PostAddSm>`
+- `<$PostAddMd>`
+- `<$PostAddLg>`
+
+
+
+
 
 ## PostAdd
 

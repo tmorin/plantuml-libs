@@ -17,6 +17,17 @@ include('material-4/Editor/InsertComment')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InsertCommentXs>`
+- `<$InsertCommentSm>`
+- `<$InsertCommentMd>`
+- `<$InsertCommentLg>`
+
+
+
+
 
 ## InsertComment
 

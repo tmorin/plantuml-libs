@@ -17,6 +17,17 @@ include('material-4/Image/ExposureNeg2')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ExposureNeg2Xs>`
+- `<$ExposureNeg2Sm>`
+- `<$ExposureNeg2Md>`
+- `<$ExposureNeg2Lg>`
+
+
+
+
 
 ## ExposureNeg2
 

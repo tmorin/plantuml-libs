@@ -17,6 +17,17 @@ include('material-4/Navigation/MoreHoriz')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MoreHorizXs>`
+- `<$MoreHorizSm>`
+- `<$MoreHorizMd>`
+- `<$MoreHorizLg>`
+
+
+
+
 
 ## MoreHoriz
 

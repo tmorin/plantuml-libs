@@ -17,6 +17,17 @@ include('material-4/Action/TurnedIn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TurnedInXs>`
+- `<$TurnedInSm>`
+- `<$TurnedInMd>`
+- `<$TurnedInLg>`
+
+
+
+
 
 ## TurnedIn
 

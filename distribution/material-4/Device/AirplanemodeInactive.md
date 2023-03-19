@@ -17,6 +17,17 @@ include('material-4/Device/AirplanemodeInactive')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AirplanemodeInactiveXs>`
+- `<$AirplanemodeInactiveSm>`
+- `<$AirplanemodeInactiveMd>`
+- `<$AirplanemodeInactiveLg>`
+
+
+
+
 
 ## AirplanemodeInactive
 

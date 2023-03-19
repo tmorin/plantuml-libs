@@ -17,6 +17,17 @@ include('material-4/Social/AddModerator')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AddModeratorXs>`
+- `<$AddModeratorSm>`
+- `<$AddModeratorMd>`
+- `<$AddModeratorLg>`
+
+
+
+
 
 ## AddModerator
 

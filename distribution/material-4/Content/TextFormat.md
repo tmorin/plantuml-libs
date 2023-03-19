@@ -17,6 +17,17 @@ include('material-4/Content/TextFormat')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TextFormatXs>`
+- `<$TextFormatSm>`
+- `<$TextFormatMd>`
+- `<$TextFormatLg>`
+
+
+
+
 
 ## TextFormat
 

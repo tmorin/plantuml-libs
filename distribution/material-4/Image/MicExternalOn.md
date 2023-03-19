@@ -17,6 +17,17 @@ include('material-4/Image/MicExternalOn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MicExternalOnXs>`
+- `<$MicExternalOnSm>`
+- `<$MicExternalOnMd>`
+- `<$MicExternalOnLg>`
+
+
+
+
 
 ## MicExternalOn
 

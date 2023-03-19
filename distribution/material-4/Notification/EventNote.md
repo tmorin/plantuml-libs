@@ -17,6 +17,17 @@ include('material-4/Notification/EventNote')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EventNoteXs>`
+- `<$EventNoteSm>`
+- `<$EventNoteMd>`
+- `<$EventNoteLg>`
+
+
+
+
 
 ## EventNote
 

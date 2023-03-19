@@ -17,6 +17,17 @@ include('material-4/Communication/Voicemail')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VoicemailXs>`
+- `<$VoicemailSm>`
+- `<$VoicemailMd>`
+- `<$VoicemailLg>`
+
+
+
+
 
 ## Voicemail
 

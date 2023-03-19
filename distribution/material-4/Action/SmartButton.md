@@ -17,6 +17,17 @@ include('material-4/Action/SmartButton')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SmartButtonXs>`
+- `<$SmartButtonSm>`
+- `<$SmartButtonMd>`
+- `<$SmartButtonLg>`
+
+
+
+
 
 ## SmartButton
 

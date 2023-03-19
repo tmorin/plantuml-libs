@@ -17,6 +17,17 @@ include('material-4/Action/PrivacyTip')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PrivacyTipXs>`
+- `<$PrivacyTipSm>`
+- `<$PrivacyTipMd>`
+- `<$PrivacyTipLg>`
+
+
+
+
 
 ## PrivacyTip
 

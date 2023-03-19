@@ -17,6 +17,17 @@ include('material-4/Image/ImageAspectRatio')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ImageAspectRatioXs>`
+- `<$ImageAspectRatioSm>`
+- `<$ImageAspectRatioMd>`
+- `<$ImageAspectRatioLg>`
+
+
+
+
 
 ## ImageAspectRatio
 

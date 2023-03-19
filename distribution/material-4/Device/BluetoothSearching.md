@@ -17,6 +17,17 @@ include('material-4/Device/BluetoothSearching')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BluetoothSearchingXs>`
+- `<$BluetoothSearchingSm>`
+- `<$BluetoothSearchingMd>`
+- `<$BluetoothSearchingLg>`
+
+
+
+
 
 ## BluetoothSearching
 

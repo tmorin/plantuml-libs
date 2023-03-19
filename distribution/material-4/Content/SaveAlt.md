@@ -17,6 +17,17 @@ include('material-4/Content/SaveAlt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SaveAltXs>`
+- `<$SaveAltSm>`
+- `<$SaveAltMd>`
+- `<$SaveAltLg>`
+
+
+
+
 
 ## SaveAlt
 

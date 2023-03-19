@@ -17,6 +17,17 @@ include('material-4/Communication/QrCode')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$QrCodeXs>`
+- `<$QrCodeSm>`
+- `<$QrCodeMd>`
+- `<$QrCodeLg>`
+
+
+
+
 
 ## QrCode
 

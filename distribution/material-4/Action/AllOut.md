@@ -17,6 +17,17 @@ include('material-4/Action/AllOut')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AllOutXs>`
+- `<$AllOutSm>`
+- `<$AllOutMd>`
+- `<$AllOutLg>`
+
+
+
+
 
 ## AllOut
 

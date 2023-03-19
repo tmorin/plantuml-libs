@@ -17,6 +17,17 @@ include('material-4/Action/AddToDrive')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AddToDriveXs>`
+- `<$AddToDriveSm>`
+- `<$AddToDriveMd>`
+- `<$AddToDriveLg>`
+
+
+
+
 
 ## AddToDrive
 

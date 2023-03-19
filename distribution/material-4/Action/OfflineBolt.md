@@ -17,6 +17,17 @@ include('material-4/Action/OfflineBolt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OfflineBoltXs>`
+- `<$OfflineBoltSm>`
+- `<$OfflineBoltMd>`
+- `<$OfflineBoltLg>`
+
+
+
+
 
 ## OfflineBolt
 

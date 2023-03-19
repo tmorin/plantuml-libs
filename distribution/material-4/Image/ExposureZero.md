@@ -17,6 +17,17 @@ include('material-4/Image/ExposureZero')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ExposureZeroXs>`
+- `<$ExposureZeroSm>`
+- `<$ExposureZeroMd>`
+- `<$ExposureZeroLg>`
+
+
+
+
 
 ## ExposureZero
 

@@ -17,6 +17,17 @@ include('material-4/Maps/RateReview')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RateReviewXs>`
+- `<$RateReviewSm>`
+- `<$RateReviewMd>`
+- `<$RateReviewLg>`
+
+
+
+
 
 ## RateReview
 

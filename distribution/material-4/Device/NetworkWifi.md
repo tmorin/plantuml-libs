@@ -17,6 +17,17 @@ include('material-4/Device/NetworkWifi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NetworkWifiXs>`
+- `<$NetworkWifiSm>`
+- `<$NetworkWifiMd>`
+- `<$NetworkWifiLg>`
+
+
+
+
 
 ## NetworkWifi
 

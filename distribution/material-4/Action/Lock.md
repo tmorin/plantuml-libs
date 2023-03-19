@@ -17,6 +17,17 @@ include('material-4/Action/Lock')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LockXs>`
+- `<$LockSm>`
+- `<$LockMd>`
+- `<$LockLg>`
+
+
+
+
 
 ## Lock
 

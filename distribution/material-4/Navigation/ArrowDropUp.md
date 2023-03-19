@@ -17,6 +17,17 @@ include('material-4/Navigation/ArrowDropUp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ArrowDropUpXs>`
+- `<$ArrowDropUpSm>`
+- `<$ArrowDropUpMd>`
+- `<$ArrowDropUpLg>`
+
+
+
+
 
 ## ArrowDropUp
 

@@ -17,6 +17,17 @@ include('material-4/Action/SettingsInputAntenna')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SettingsInputAntennaXs>`
+- `<$SettingsInputAntennaSm>`
+- `<$SettingsInputAntennaMd>`
+- `<$SettingsInputAntennaLg>`
+
+
+
+
 
 ## SettingsInputAntenna
 

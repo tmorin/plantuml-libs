@@ -17,6 +17,17 @@ include('material-4/Image/CropDin')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CropDinXs>`
+- `<$CropDinSm>`
+- `<$CropDinMd>`
+- `<$CropDinLg>`
+
+
+
+
 
 ## CropDin
 

@@ -17,6 +17,17 @@ include('material-4/Image/CameraAlt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CameraAltXs>`
+- `<$CameraAltSm>`
+- `<$CameraAltMd>`
+- `<$CameraAltLg>`
+
+
+
+
 
 ## CameraAlt
 

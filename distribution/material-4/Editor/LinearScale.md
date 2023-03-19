@@ -17,6 +17,17 @@ include('material-4/Editor/LinearScale')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LinearScaleXs>`
+- `<$LinearScaleSm>`
+- `<$LinearScaleMd>`
+- `<$LinearScaleLg>`
+
+
+
+
 
 ## LinearScale
 

@@ -17,6 +17,17 @@ include('material-4/Content/Insights')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InsightsXs>`
+- `<$InsightsSm>`
+- `<$InsightsMd>`
+- `<$InsightsLg>`
+
+
+
+
 
 ## Insights
 

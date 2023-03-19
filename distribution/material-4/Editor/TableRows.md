@@ -17,6 +17,17 @@ include('material-4/Editor/TableRows')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TableRowsXs>`
+- `<$TableRowsSm>`
+- `<$TableRowsMd>`
+- `<$TableRowsLg>`
+
+
+
+
 
 ## TableRows
 

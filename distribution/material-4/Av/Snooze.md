@@ -17,6 +17,17 @@ include('material-4/Av/Snooze')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SnoozeXs>`
+- `<$SnoozeSm>`
+- `<$SnoozeMd>`
+- `<$SnoozeLg>`
+
+
+
+
 
 ## Snooze
 

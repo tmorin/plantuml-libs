@@ -17,6 +17,17 @@ include('material-4/Action/SendAndArchive')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SendAndArchiveXs>`
+- `<$SendAndArchiveSm>`
+- `<$SendAndArchiveMd>`
+- `<$SendAndArchiveLg>`
+
+
+
+
 
 ## SendAndArchive
 

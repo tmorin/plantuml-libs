@@ -17,6 +17,17 @@ include('material-4/Navigation/Campaign')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CampaignXs>`
+- `<$CampaignSm>`
+- `<$CampaignMd>`
+- `<$CampaignLg>`
+
+
+
+
 
 ## Campaign
 

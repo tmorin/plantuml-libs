@@ -17,6 +17,17 @@ include('material-4/Editor/FormatListBulleted')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FormatListBulletedXs>`
+- `<$FormatListBulletedSm>`
+- `<$FormatListBulletedMd>`
+- `<$FormatListBulletedLg>`
+
+
+
+
 
 ## FormatListBulleted
 

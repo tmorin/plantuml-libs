@@ -17,6 +17,17 @@ include('material-4/Maps/LocalLaundryService')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LocalLaundryServiceXs>`
+- `<$LocalLaundryServiceSm>`
+- `<$LocalLaundryServiceMd>`
+- `<$LocalLaundryServiceLg>`
+
+
+
+
 
 ## LocalLaundryService
 

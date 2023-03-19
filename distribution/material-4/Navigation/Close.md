@@ -17,6 +17,17 @@ include('material-4/Navigation/Close')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloseXs>`
+- `<$CloseSm>`
+- `<$CloseMd>`
+- `<$CloseLg>`
+
+
+
+
 
 ## Close
 

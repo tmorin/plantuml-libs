@@ -17,6 +17,17 @@ include('material-4/Places/FoodBank')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FoodBankXs>`
+- `<$FoodBankSm>`
+- `<$FoodBankMd>`
+- `<$FoodBankLg>`
+
+
+
+
 
 ## FoodBank
 

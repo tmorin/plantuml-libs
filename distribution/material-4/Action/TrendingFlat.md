@@ -17,6 +17,17 @@ include('material-4/Action/TrendingFlat')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TrendingFlatXs>`
+- `<$TrendingFlatSm>`
+- `<$TrendingFlatMd>`
+- `<$TrendingFlatLg>`
+
+
+
+
 
 ## TrendingFlat
 

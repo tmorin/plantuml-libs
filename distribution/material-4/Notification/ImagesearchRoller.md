@@ -17,6 +17,17 @@ include('material-4/Notification/ImagesearchRoller')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ImagesearchRollerXs>`
+- `<$ImagesearchRollerSm>`
+- `<$ImagesearchRollerMd>`
+- `<$ImagesearchRollerLg>`
+
+
+
+
 
 ## ImagesearchRoller
 

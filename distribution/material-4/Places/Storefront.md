@@ -17,6 +17,17 @@ include('material-4/Places/Storefront')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StorefrontXs>`
+- `<$StorefrontSm>`
+- `<$StorefrontMd>`
+- `<$StorefrontLg>`
+
+
+
+
 
 ## Storefront
 

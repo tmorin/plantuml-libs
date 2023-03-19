@@ -17,6 +17,17 @@ include('material-4/Editor/ModeComment')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ModeCommentXs>`
+- `<$ModeCommentSm>`
+- `<$ModeCommentMd>`
+- `<$ModeCommentLg>`
+
+
+
+
 
 ## ModeComment
 

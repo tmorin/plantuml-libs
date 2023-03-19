@@ -17,6 +17,17 @@ include('material-4/Social/PartyMode')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PartyModeXs>`
+- `<$PartyModeSm>`
+- `<$PartyModeMd>`
+- `<$PartyModeLg>`
+
+
+
+
 
 ## PartyMode
 

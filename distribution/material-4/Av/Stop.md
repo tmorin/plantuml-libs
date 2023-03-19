@@ -17,6 +17,17 @@ include('material-4/Av/Stop')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StopXs>`
+- `<$StopSm>`
+- `<$StopMd>`
+- `<$StopLg>`
+
+
+
+
 
 ## Stop
 

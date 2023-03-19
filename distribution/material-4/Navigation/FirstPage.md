@@ -17,6 +17,17 @@ include('material-4/Navigation/FirstPage')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FirstPageXs>`
+- `<$FirstPageSm>`
+- `<$FirstPageMd>`
+- `<$FirstPageLg>`
+
+
+
+
 
 ## FirstPage
 

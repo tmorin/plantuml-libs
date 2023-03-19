@@ -17,6 +17,17 @@ include('material-4/Communication/LiveHelp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LiveHelpXs>`
+- `<$LiveHelpSm>`
+- `<$LiveHelpMd>`
+- `<$LiveHelpLg>`
+
+
+
+
 
 ## LiveHelp
 

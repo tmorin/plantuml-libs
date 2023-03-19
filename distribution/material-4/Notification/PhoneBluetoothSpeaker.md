@@ -17,6 +17,17 @@ include('material-4/Notification/PhoneBluetoothSpeaker')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PhoneBluetoothSpeakerXs>`
+- `<$PhoneBluetoothSpeakerSm>`
+- `<$PhoneBluetoothSpeakerMd>`
+- `<$PhoneBluetoothSpeakerLg>`
+
+
+
+
 
 ## PhoneBluetoothSpeaker
 

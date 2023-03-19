@@ -17,6 +17,17 @@ include('material-4/Av/PlaylistPlay')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PlaylistPlayXs>`
+- `<$PlaylistPlaySm>`
+- `<$PlaylistPlayMd>`
+- `<$PlaylistPlayLg>`
+
+
+
+
 
 ## PlaylistPlay
 

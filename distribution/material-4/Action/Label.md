@@ -17,6 +17,17 @@ include('material-4/Action/Label')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LabelXs>`
+- `<$LabelSm>`
+- `<$LabelMd>`
+- `<$LabelLg>`
+
+
+
+
 
 ## Label
 

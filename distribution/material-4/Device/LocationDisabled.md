@@ -17,6 +17,17 @@ include('material-4/Device/LocationDisabled')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LocationDisabledXs>`
+- `<$LocationDisabledSm>`
+- `<$LocationDisabledMd>`
+- `<$LocationDisabledLg>`
+
+
+
+
 
 ## LocationDisabled
 

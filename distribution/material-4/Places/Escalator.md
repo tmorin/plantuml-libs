@@ -17,6 +17,17 @@ include('material-4/Places/Escalator')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EscalatorXs>`
+- `<$EscalatorSm>`
+- `<$EscalatorMd>`
+- `<$EscalatorLg>`
+
+
+
+
 
 ## Escalator
 

@@ -17,6 +17,17 @@ include('material-4/File/AttachEmail')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AttachEmailXs>`
+- `<$AttachEmailSm>`
+- `<$AttachEmailMd>`
+- `<$AttachEmailLg>`
+
+
+
+
 
 ## AttachEmail
 

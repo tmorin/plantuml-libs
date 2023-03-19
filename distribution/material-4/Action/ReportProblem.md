@@ -17,6 +17,17 @@ include('material-4/Action/ReportProblem')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ReportProblemXs>`
+- `<$ReportProblemSm>`
+- `<$ReportProblemMd>`
+- `<$ReportProblemLg>`
+
+
+
+
 
 ## ReportProblem
 

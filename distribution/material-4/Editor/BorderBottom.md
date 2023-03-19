@@ -17,6 +17,17 @@ include('material-4/Editor/BorderBottom')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BorderBottomXs>`
+- `<$BorderBottomSm>`
+- `<$BorderBottomMd>`
+- `<$BorderBottomLg>`
+
+
+
+
 
 ## BorderBottom
 

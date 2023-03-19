@@ -17,6 +17,17 @@ include('material-4/Hardware/Mouse')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MouseXs>`
+- `<$MouseSm>`
+- `<$MouseMd>`
+- `<$MouseLg>`
+
+
+
+
 
 ## Mouse
 

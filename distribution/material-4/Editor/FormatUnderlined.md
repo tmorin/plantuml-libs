@@ -17,6 +17,17 @@ include('material-4/Editor/FormatUnderlined')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FormatUnderlinedXs>`
+- `<$FormatUnderlinedSm>`
+- `<$FormatUnderlinedMd>`
+- `<$FormatUnderlinedLg>`
+
+
+
+
 
 ## FormatUnderlined
 

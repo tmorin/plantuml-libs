@@ -17,6 +17,17 @@ include('material-4/Action/SettingsPhone')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SettingsPhoneXs>`
+- `<$SettingsPhoneSm>`
+- `<$SettingsPhoneMd>`
+- `<$SettingsPhoneLg>`
+
+
+
+
 
 ## SettingsPhone
 

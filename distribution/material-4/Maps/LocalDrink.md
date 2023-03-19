@@ -17,6 +17,17 @@ include('material-4/Maps/LocalDrink')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LocalDrinkXs>`
+- `<$LocalDrinkSm>`
+- `<$LocalDrinkMd>`
+- `<$LocalDrinkLg>`
+
+
+
+
 
 ## LocalDrink
 

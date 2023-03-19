@@ -17,6 +17,17 @@ include('material-4/Social/Psychology')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PsychologyXs>`
+- `<$PsychologySm>`
+- `<$PsychologyMd>`
+- `<$PsychologyLg>`
+
+
+
+
 
 ## Psychology
 

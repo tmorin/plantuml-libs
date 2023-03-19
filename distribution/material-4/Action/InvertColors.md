@@ -17,6 +17,17 @@ include('material-4/Action/InvertColors')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InvertColorsXs>`
+- `<$InvertColorsSm>`
+- `<$InvertColorsMd>`
+- `<$InvertColorsLg>`
+
+
+
+
 
 ## InvertColors
 

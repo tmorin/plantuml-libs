@@ -17,6 +17,17 @@ include('material-4/Action/Analytics')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AnalyticsXs>`
+- `<$AnalyticsSm>`
+- `<$AnalyticsMd>`
+- `<$AnalyticsLg>`
+
+
+
+
 
 ## Analytics
 

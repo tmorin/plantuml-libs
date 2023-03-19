@@ -17,6 +17,17 @@ include('material-4/Av/LibraryMusic')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LibraryMusicXs>`
+- `<$LibraryMusicSm>`
+- `<$LibraryMusicMd>`
+- `<$LibraryMusicLg>`
+
+
+
+
 
 ## LibraryMusic
 

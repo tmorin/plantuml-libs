@@ -17,6 +17,17 @@ include('material-4/Image/Lens')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LensXs>`
+- `<$LensSm>`
+- `<$LensMd>`
+- `<$LensLg>`
+
+
+
+
 
 ## Lens
 

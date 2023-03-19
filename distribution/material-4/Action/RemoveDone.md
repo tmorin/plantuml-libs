@@ -17,6 +17,17 @@ include('material-4/Action/RemoveDone')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RemoveDoneXs>`
+- `<$RemoveDoneSm>`
+- `<$RemoveDoneMd>`
+- `<$RemoveDoneLg>`
+
+
+
+
 
 ## RemoveDone
 

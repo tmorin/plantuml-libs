@@ -17,6 +17,17 @@ include('material-4/Device/Usb')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UsbXs>`
+- `<$UsbSm>`
+- `<$UsbMd>`
+- `<$UsbLg>`
+
+
+
+
 
 ## Usb
 

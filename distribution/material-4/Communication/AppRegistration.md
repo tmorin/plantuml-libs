@@ -17,6 +17,17 @@ include('material-4/Communication/AppRegistration')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AppRegistrationXs>`
+- `<$AppRegistrationSm>`
+- `<$AppRegistrationMd>`
+- `<$AppRegistrationLg>`
+
+
+
+
 
 ## AppRegistration
 

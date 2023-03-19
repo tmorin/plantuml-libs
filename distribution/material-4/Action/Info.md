@@ -17,6 +17,17 @@ include('material-4/Action/Info')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InfoXs>`
+- `<$InfoSm>`
+- `<$InfoMd>`
+- `<$InfoLg>`
+
+
+
+
 
 ## Info
 

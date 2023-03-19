@@ -17,6 +17,17 @@ include('material-4/Image/PictureAsPdf')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PictureAsPdfXs>`
+- `<$PictureAsPdfSm>`
+- `<$PictureAsPdfMd>`
+- `<$PictureAsPdfLg>`
+
+
+
+
 
 ## PictureAsPdf
 

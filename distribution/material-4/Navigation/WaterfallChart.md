@@ -17,6 +17,17 @@ include('material-4/Navigation/WaterfallChart')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WaterfallChartXs>`
+- `<$WaterfallChartSm>`
+- `<$WaterfallChartMd>`
+- `<$WaterfallChartLg>`
+
+
+
+
 
 ## WaterfallChart
 

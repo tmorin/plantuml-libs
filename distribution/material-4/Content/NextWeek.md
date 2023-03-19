@@ -17,6 +17,17 @@ include('material-4/Content/NextWeek')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NextWeekXs>`
+- `<$NextWeekSm>`
+- `<$NextWeekMd>`
+- `<$NextWeekLg>`
+
+
+
+
 
 ## NextWeek
 

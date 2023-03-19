@@ -17,6 +17,17 @@ include('material-4/Places/Checkroom')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CheckroomXs>`
+- `<$CheckroomSm>`
+- `<$CheckroomMd>`
+- `<$CheckroomLg>`
+
+
+
+
 
 ## Checkroom
 

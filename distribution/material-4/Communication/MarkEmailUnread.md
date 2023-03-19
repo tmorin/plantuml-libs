@@ -17,6 +17,17 @@ include('material-4/Communication/MarkEmailUnread')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MarkEmailUnreadXs>`
+- `<$MarkEmailUnreadSm>`
+- `<$MarkEmailUnreadMd>`
+- `<$MarkEmailUnreadLg>`
+
+
+
+
 
 ## MarkEmailUnread
 

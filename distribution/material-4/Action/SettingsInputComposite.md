@@ -17,6 +17,17 @@ include('material-4/Action/SettingsInputComposite')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SettingsInputCompositeXs>`
+- `<$SettingsInputCompositeSm>`
+- `<$SettingsInputCompositeMd>`
+- `<$SettingsInputCompositeLg>`
+
+
+
+
 
 ## SettingsInputComposite
 

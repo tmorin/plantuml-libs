@@ -17,6 +17,17 @@ include('material-4/Maps/Agriculture')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AgricultureXs>`
+- `<$AgricultureSm>`
+- `<$AgricultureMd>`
+- `<$AgricultureLg>`
+
+
+
+
 
 ## Agriculture
 

@@ -17,6 +17,17 @@ include('material-4/Social/PeopleOutline')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PeopleOutlineXs>`
+- `<$PeopleOutlineSm>`
+- `<$PeopleOutlineMd>`
+- `<$PeopleOutlineLg>`
+
+
+
+
 
 ## PeopleOutline
 

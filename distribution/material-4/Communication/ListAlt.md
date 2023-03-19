@@ -17,6 +17,17 @@ include('material-4/Communication/ListAlt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ListAltXs>`
+- `<$ListAltSm>`
+- `<$ListAltMd>`
+- `<$ListAltLg>`
+
+
+
+
 
 ## ListAlt
 

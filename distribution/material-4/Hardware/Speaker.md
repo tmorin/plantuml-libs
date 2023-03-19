@@ -17,6 +17,17 @@ include('material-4/Hardware/Speaker')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SpeakerXs>`
+- `<$SpeakerSm>`
+- `<$SpeakerMd>`
+- `<$SpeakerLg>`
+
+
+
+
 
 ## Speaker
 

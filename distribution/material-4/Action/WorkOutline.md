@@ -17,6 +17,17 @@ include('material-4/Action/WorkOutline')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WorkOutlineXs>`
+- `<$WorkOutlineSm>`
+- `<$WorkOutlineMd>`
+- `<$WorkOutlineLg>`
+
+
+
+
 
 ## WorkOutline
 

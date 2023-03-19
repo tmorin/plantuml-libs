@@ -17,6 +17,17 @@ include('material-4/Maps/NearMeDisabled')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NearMeDisabledXs>`
+- `<$NearMeDisabledSm>`
+- `<$NearMeDisabledMd>`
+- `<$NearMeDisabledLg>`
+
+
+
+
 
 ## NearMeDisabled
 

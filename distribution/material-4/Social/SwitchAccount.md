@@ -17,6 +17,17 @@ include('material-4/Social/SwitchAccount')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SwitchAccountXs>`
+- `<$SwitchAccountSm>`
+- `<$SwitchAccountMd>`
+- `<$SwitchAccountLg>`
+
+
+
+
 
 ## SwitchAccount
 

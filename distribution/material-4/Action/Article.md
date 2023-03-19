@@ -17,6 +17,17 @@ include('material-4/Action/Article')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ArticleXs>`
+- `<$ArticleSm>`
+- `<$ArticleMd>`
+- `<$ArticleLg>`
+
+
+
+
 
 ## Article
 

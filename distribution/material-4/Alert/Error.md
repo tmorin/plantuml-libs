@@ -17,6 +17,17 @@ include('material-4/Alert/Error')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ErrorXs>`
+- `<$ErrorSm>`
+- `<$ErrorMd>`
+- `<$ErrorLg>`
+
+
+
+
 
 ## Error
 

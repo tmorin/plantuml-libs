@@ -17,6 +17,17 @@ include('material-4/Av/SlowMotionVideo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SlowMotionVideoXs>`
+- `<$SlowMotionVideoSm>`
+- `<$SlowMotionVideoMd>`
+- `<$SlowMotionVideoLg>`
+
+
+
+
 
 ## SlowMotionVideo
 

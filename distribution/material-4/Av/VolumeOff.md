@@ -17,6 +17,17 @@ include('material-4/Av/VolumeOff')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VolumeOffXs>`
+- `<$VolumeOffSm>`
+- `<$VolumeOffMd>`
+- `<$VolumeOffLg>`
+
+
+
+
 
 ## VolumeOff
 

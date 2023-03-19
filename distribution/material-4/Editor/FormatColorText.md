@@ -17,6 +17,17 @@ include('material-4/Editor/FormatColorText')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FormatColorTextXs>`
+- `<$FormatColorTextSm>`
+- `<$FormatColorTextMd>`
+- `<$FormatColorTextLg>`
+
+
+
+
 
 ## FormatColorText
 

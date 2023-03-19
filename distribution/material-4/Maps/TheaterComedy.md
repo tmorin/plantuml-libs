@@ -17,6 +17,17 @@ include('material-4/Maps/TheaterComedy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TheaterComedyXs>`
+- `<$TheaterComedySm>`
+- `<$TheaterComedyMd>`
+- `<$TheaterComedyLg>`
+
+
+
+
 
 ## TheaterComedy
 

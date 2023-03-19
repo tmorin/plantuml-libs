@@ -17,6 +17,17 @@ include('material-4/Notification/WifiOff')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WifiOffXs>`
+- `<$WifiOffSm>`
+- `<$WifiOffMd>`
+- `<$WifiOffLg>`
+
+
+
+
 
 ## WifiOff
 

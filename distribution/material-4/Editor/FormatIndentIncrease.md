@@ -17,6 +17,17 @@ include('material-4/Editor/FormatIndentIncrease')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FormatIndentIncreaseXs>`
+- `<$FormatIndentIncreaseSm>`
+- `<$FormatIndentIncreaseMd>`
+- `<$FormatIndentIncreaseLg>`
+
+
+
+
 
 ## FormatIndentIncrease
 

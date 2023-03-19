@@ -17,6 +17,17 @@ include('material-4/Action/Extension')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ExtensionXs>`
+- `<$ExtensionSm>`
+- `<$ExtensionMd>`
+- `<$ExtensionLg>`
+
+
+
+
 
 ## Extension
 

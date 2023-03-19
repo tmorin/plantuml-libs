@@ -17,6 +17,17 @@ include('material-4/Maps/Satellite')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SatelliteXs>`
+- `<$SatelliteSm>`
+- `<$SatelliteMd>`
+- `<$SatelliteLg>`
+
+
+
+
 
 ## Satellite
 

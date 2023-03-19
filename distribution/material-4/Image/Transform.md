@@ -17,6 +17,17 @@ include('material-4/Image/Transform')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TransformXs>`
+- `<$TransformSm>`
+- `<$TransformMd>`
+- `<$TransformLg>`
+
+
+
+
 
 ## Transform
 

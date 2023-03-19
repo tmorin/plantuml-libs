@@ -17,6 +17,17 @@ include('material-4/Action/LabelImportantOutline')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LabelImportantOutlineXs>`
+- `<$LabelImportantOutlineSm>`
+- `<$LabelImportantOutlineMd>`
+- `<$LabelImportantOutlineLg>`
+
+
+
+
 
 ## LabelImportantOutline
 

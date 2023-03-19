@@ -17,6 +17,17 @@ include('material-4/Device/SettingsSystemDaydream')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SettingsSystemDaydreamXs>`
+- `<$SettingsSystemDaydreamSm>`
+- `<$SettingsSystemDaydreamMd>`
+- `<$SettingsSystemDaydreamLg>`
+
+
+
+
 
 ## SettingsSystemDaydream
 

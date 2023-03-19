@@ -17,6 +17,17 @@ include('material-4/Navigation/East')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EastXs>`
+- `<$EastSm>`
+- `<$EastMd>`
+- `<$EastLg>`
+
+
+
+
 
 ## East
 

@@ -17,6 +17,17 @@ include('material-4/Action/LightbulbOutline')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LightbulbOutlineXs>`
+- `<$LightbulbOutlineSm>`
+- `<$LightbulbOutlineMd>`
+- `<$LightbulbOutlineLg>`
+
+
+
+
 
 ## LightbulbOutline
 

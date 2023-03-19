@@ -17,6 +17,17 @@ include('material-4/Action/RemoveShoppingCart')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RemoveShoppingCartXs>`
+- `<$RemoveShoppingCartSm>`
+- `<$RemoveShoppingCartMd>`
+- `<$RemoveShoppingCartLg>`
+
+
+
+
 
 ## RemoveShoppingCart
 

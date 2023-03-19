@@ -17,6 +17,17 @@ include('material-4/Toggle/CheckBoxOutlineBlank')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CheckBoxOutlineBlankXs>`
+- `<$CheckBoxOutlineBlankSm>`
+- `<$CheckBoxOutlineBlankMd>`
+- `<$CheckBoxOutlineBlankLg>`
+
+
+
+
 
 ## CheckBoxOutlineBlank
 

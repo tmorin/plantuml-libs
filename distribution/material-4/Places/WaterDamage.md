@@ -17,6 +17,17 @@ include('material-4/Places/WaterDamage')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WaterDamageXs>`
+- `<$WaterDamageSm>`
+- `<$WaterDamageMd>`
+- `<$WaterDamageLg>`
+
+
+
+
 
 ## WaterDamage
 

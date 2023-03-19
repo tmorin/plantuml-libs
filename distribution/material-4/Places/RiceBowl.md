@@ -17,6 +17,17 @@ include('material-4/Places/RiceBowl')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RiceBowlXs>`
+- `<$RiceBowlSm>`
+- `<$RiceBowlMd>`
+- `<$RiceBowlLg>`
+
+
+
+
 
 ## RiceBowl
 

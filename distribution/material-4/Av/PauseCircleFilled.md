@@ -17,6 +17,17 @@ include('material-4/Av/PauseCircleFilled')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PauseCircleFilledXs>`
+- `<$PauseCircleFilledSm>`
+- `<$PauseCircleFilledMd>`
+- `<$PauseCircleFilledLg>`
+
+
+
+
 
 ## PauseCircleFilled
 

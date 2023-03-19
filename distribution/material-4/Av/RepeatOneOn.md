@@ -17,6 +17,17 @@ include('material-4/Av/RepeatOneOn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RepeatOneOnXs>`
+- `<$RepeatOneOnSm>`
+- `<$RepeatOneOnMd>`
+- `<$RepeatOneOnLg>`
+
+
+
+
 
 ## RepeatOneOn
 

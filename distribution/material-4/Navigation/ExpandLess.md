@@ -17,6 +17,17 @@ include('material-4/Navigation/ExpandLess')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ExpandLessXs>`
+- `<$ExpandLessSm>`
+- `<$ExpandLessMd>`
+- `<$ExpandLessLg>`
+
+
+
+
 
 ## ExpandLess
 

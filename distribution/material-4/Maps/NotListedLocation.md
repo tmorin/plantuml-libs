@@ -17,6 +17,17 @@ include('material-4/Maps/NotListedLocation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NotListedLocationXs>`
+- `<$NotListedLocationSm>`
+- `<$NotListedLocationMd>`
+- `<$NotListedLocationLg>`
+
+
+
+
 
 ## NotListedLocation
 

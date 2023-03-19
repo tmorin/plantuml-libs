@@ -17,6 +17,17 @@ include('material-4/Image/Crop32')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$Crop32Xs>`
+- `<$Crop32Sm>`
+- `<$Crop32Md>`
+- `<$Crop32Lg>`
+
+
+
+
 
 ## Crop32
 

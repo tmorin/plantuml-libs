@@ -17,6 +17,17 @@ include('material-4/Navigation/FullscreenExit')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FullscreenExitXs>`
+- `<$FullscreenExitSm>`
+- `<$FullscreenExitMd>`
+- `<$FullscreenExitLg>`
+
+
+
+
 
 ## FullscreenExit
 

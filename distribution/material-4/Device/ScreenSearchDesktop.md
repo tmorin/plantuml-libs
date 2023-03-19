@@ -17,6 +17,17 @@ include('material-4/Device/ScreenSearchDesktop')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ScreenSearchDesktopXs>`
+- `<$ScreenSearchDesktopSm>`
+- `<$ScreenSearchDesktopMd>`
+- `<$ScreenSearchDesktopLg>`
+
+
+
+
 
 ## ScreenSearchDesktop
 

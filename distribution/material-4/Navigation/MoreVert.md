@@ -17,6 +17,17 @@ include('material-4/Navigation/MoreVert')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MoreVertXs>`
+- `<$MoreVertSm>`
+- `<$MoreVertMd>`
+- `<$MoreVertLg>`
+
+
+
+
 
 ## MoreVert
 

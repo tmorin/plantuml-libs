@@ -17,6 +17,17 @@ include('material-4/Action/Schedule')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ScheduleXs>`
+- `<$ScheduleSm>`
+- `<$ScheduleMd>`
+- `<$ScheduleLg>`
+
+
+
+
 
 ## Schedule
 

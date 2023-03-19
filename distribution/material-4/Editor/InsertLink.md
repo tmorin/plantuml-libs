@@ -17,6 +17,17 @@ include('material-4/Editor/InsertLink')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InsertLinkXs>`
+- `<$InsertLinkSm>`
+- `<$InsertLinkMd>`
+- `<$InsertLinkLg>`
+
+
+
+
 
 ## InsertLink
 

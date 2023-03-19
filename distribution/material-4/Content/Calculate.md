@@ -17,6 +17,17 @@ include('material-4/Content/Calculate')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CalculateXs>`
+- `<$CalculateSm>`
+- `<$CalculateMd>`
+- `<$CalculateLg>`
+
+
+
+
 
 ## Calculate
 

@@ -17,6 +17,17 @@ include('material-4/Navigation/SwitchLeft')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SwitchLeftXs>`
+- `<$SwitchLeftSm>`
+- `<$SwitchLeftMd>`
+- `<$SwitchLeftLg>`
+
+
+
+
 
 ## SwitchLeft
 

@@ -17,6 +17,17 @@ include('material-4/Image/CameraRear')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CameraRearXs>`
+- `<$CameraRearSm>`
+- `<$CameraRearMd>`
+- `<$CameraRearLg>`
+
+
+
+
 
 ## CameraRear
 

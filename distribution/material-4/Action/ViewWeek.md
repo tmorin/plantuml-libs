@@ -17,6 +17,17 @@ include('material-4/Action/ViewWeek')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ViewWeekXs>`
+- `<$ViewWeekSm>`
+- `<$ViewWeekMd>`
+- `<$ViewWeekLg>`
+
+
+
+
 
 ## ViewWeek
 

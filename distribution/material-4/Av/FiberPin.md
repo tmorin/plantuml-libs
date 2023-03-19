@@ -17,6 +17,17 @@ include('material-4/Av/FiberPin')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FiberPinXs>`
+- `<$FiberPinSm>`
+- `<$FiberPinMd>`
+- `<$FiberPinLg>`
+
+
+
+
 
 ## FiberPin
 

@@ -17,6 +17,17 @@ include('material-4/Action/Maximize')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MaximizeXs>`
+- `<$MaximizeSm>`
+- `<$MaximizeMd>`
+- `<$MaximizeLg>`
+
+
+
+
 
 ## Maximize
 

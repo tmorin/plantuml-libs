@@ -17,6 +17,17 @@ include('material-4/Device/BatteryAlert')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BatteryAlertXs>`
+- `<$BatteryAlertSm>`
+- `<$BatteryAlertMd>`
+- `<$BatteryAlertLg>`
+
+
+
+
 
 ## BatteryAlert
 

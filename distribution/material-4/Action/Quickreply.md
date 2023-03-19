@@ -17,6 +17,17 @@ include('material-4/Action/Quickreply')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$QuickreplyXs>`
+- `<$QuickreplySm>`
+- `<$QuickreplyMd>`
+- `<$QuickreplyLg>`
+
+
+
+
 
 ## Quickreply
 

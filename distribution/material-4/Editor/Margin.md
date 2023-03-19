@@ -17,6 +17,17 @@ include('material-4/Editor/Margin')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MarginXs>`
+- `<$MarginSm>`
+- `<$MarginMd>`
+- `<$MarginLg>`
+
+
+
+
 
 ## Margin
 

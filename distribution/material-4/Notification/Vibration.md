@@ -17,6 +17,17 @@ include('material-4/Notification/Vibration')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VibrationXs>`
+- `<$VibrationSm>`
+- `<$VibrationMd>`
+- `<$VibrationLg>`
+
+
+
+
 
 ## Vibration
 

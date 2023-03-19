@@ -17,6 +17,17 @@ include('material-4/Social/RemoveModerator')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RemoveModeratorXs>`
+- `<$RemoveModeratorSm>`
+- `<$RemoveModeratorMd>`
+- `<$RemoveModeratorLg>`
+
+
+
+
 
 ## RemoveModerator
 

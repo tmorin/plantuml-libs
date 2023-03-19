@@ -17,6 +17,17 @@ include('material-4/Action/Today')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TodayXs>`
+- `<$TodaySm>`
+- `<$TodayMd>`
+- `<$TodayLg>`
+
+
+
+
 
 ## Today
 

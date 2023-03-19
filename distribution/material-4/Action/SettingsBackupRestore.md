@@ -17,6 +17,17 @@ include('material-4/Action/SettingsBackupRestore')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SettingsBackupRestoreXs>`
+- `<$SettingsBackupRestoreSm>`
+- `<$SettingsBackupRestoreMd>`
+- `<$SettingsBackupRestoreLg>`
+
+
+
+
 
 ## SettingsBackupRestore
 

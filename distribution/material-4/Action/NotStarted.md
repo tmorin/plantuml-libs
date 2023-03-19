@@ -17,6 +17,17 @@ include('material-4/Action/NotStarted')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NotStartedXs>`
+- `<$NotStartedSm>`
+- `<$NotStartedMd>`
+- `<$NotStartedLg>`
+
+
+
+
 
 ## NotStarted
 

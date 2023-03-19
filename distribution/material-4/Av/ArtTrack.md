@@ -17,6 +17,17 @@ include('material-4/Av/ArtTrack')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ArtTrackXs>`
+- `<$ArtTrackSm>`
+- `<$ArtTrackMd>`
+- `<$ArtTrackLg>`
+
+
+
+
 
 ## ArtTrack
 

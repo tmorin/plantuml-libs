@@ -17,6 +17,17 @@ include('material-4/Places/ChargingStation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChargingStationXs>`
+- `<$ChargingStationSm>`
+- `<$ChargingStationMd>`
+- `<$ChargingStationLg>`
+
+
+
+
 
 ## ChargingStation
 

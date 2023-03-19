@@ -17,6 +17,17 @@ include('material-4/Action/Plagiarism')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PlagiarismXs>`
+- `<$PlagiarismSm>`
+- `<$PlagiarismMd>`
+- `<$PlagiarismLg>`
+
+
+
+
 
 ## Plagiarism
 

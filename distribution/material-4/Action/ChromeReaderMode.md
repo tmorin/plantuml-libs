@@ -17,6 +17,17 @@ include('material-4/Action/ChromeReaderMode')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChromeReaderModeXs>`
+- `<$ChromeReaderModeSm>`
+- `<$ChromeReaderModeMd>`
+- `<$ChromeReaderModeLg>`
+
+
+
+
 
 ## ChromeReaderMode
 

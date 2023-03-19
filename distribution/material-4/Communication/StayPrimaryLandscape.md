@@ -17,6 +17,17 @@ include('material-4/Communication/StayPrimaryLandscape')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StayPrimaryLandscapeXs>`
+- `<$StayPrimaryLandscapeSm>`
+- `<$StayPrimaryLandscapeMd>`
+- `<$StayPrimaryLandscapeLg>`
+
+
+
+
 
 ## StayPrimaryLandscape
 

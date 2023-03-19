@@ -17,6 +17,17 @@ include('material-4/Action/Outbox')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OutboxXs>`
+- `<$OutboxSm>`
+- `<$OutboxMd>`
+- `<$OutboxLg>`
+
+
+
+
 
 ## Outbox
 

@@ -17,6 +17,17 @@ include('material-4/Action/VerticalSplit')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VerticalSplitXs>`
+- `<$VerticalSplitSm>`
+- `<$VerticalSplitMd>`
+- `<$VerticalSplitLg>`
+
+
+
+
 
 ## VerticalSplit
 

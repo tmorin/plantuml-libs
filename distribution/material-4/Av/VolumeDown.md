@@ -17,6 +17,17 @@ include('material-4/Av/VolumeDown')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VolumeDownXs>`
+- `<$VolumeDownSm>`
+- `<$VolumeDownMd>`
+- `<$VolumeDownLg>`
+
+
+
+
 
 ## VolumeDown
 

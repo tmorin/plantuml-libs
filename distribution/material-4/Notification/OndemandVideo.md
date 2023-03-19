@@ -17,6 +17,17 @@ include('material-4/Notification/OndemandVideo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OndemandVideoXs>`
+- `<$OndemandVideoSm>`
+- `<$OndemandVideoMd>`
+- `<$OndemandVideoLg>`
+
+
+
+
 
 ## OndemandVideo
 

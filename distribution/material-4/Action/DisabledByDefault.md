@@ -17,6 +17,17 @@ include('material-4/Action/DisabledByDefault')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DisabledByDefaultXs>`
+- `<$DisabledByDefaultSm>`
+- `<$DisabledByDefaultMd>`
+- `<$DisabledByDefaultLg>`
+
+
+
+
 
 ## DisabledByDefault
 

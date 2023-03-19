@@ -17,6 +17,17 @@ include('material-4/Notification/PersonalVideo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PersonalVideoXs>`
+- `<$PersonalVideoSm>`
+- `<$PersonalVideoMd>`
+- `<$PersonalVideoLg>`
+
+
+
+
 
 ## PersonalVideo
 

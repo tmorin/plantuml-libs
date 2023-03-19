@@ -17,6 +17,17 @@ include('material-4/Places/RvHookup')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RvHookupXs>`
+- `<$RvHookupSm>`
+- `<$RvHookupMd>`
+- `<$RvHookupLg>`
+
+
+
+
 
 ## RvHookup
 

@@ -17,6 +17,17 @@ include('material-4/Av/Hearing')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HearingXs>`
+- `<$HearingSm>`
+- `<$HearingMd>`
+- `<$HearingLg>`
+
+
+
+
 
 ## Hearing
 

@@ -17,6 +17,17 @@ include('material-4/Action/HelpCenter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HelpCenterXs>`
+- `<$HelpCenterSm>`
+- `<$HelpCenterMd>`
+- `<$HelpCenterLg>`
+
+
+
+
 
 ## HelpCenter
 

@@ -17,6 +17,17 @@ include('material-4/Action/Dangerous')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DangerousXs>`
+- `<$DangerousSm>`
+- `<$DangerousMd>`
+- `<$DangerousLg>`
+
+
+
+
 
 ## Dangerous
 

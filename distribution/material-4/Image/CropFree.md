@@ -17,6 +17,17 @@ include('material-4/Image/CropFree')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CropFreeXs>`
+- `<$CropFreeSm>`
+- `<$CropFreeMd>`
+- `<$CropFreeLg>`
+
+
+
+
 
 ## CropFree
 

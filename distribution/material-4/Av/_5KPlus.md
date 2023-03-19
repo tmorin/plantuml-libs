@@ -17,6 +17,17 @@ include('material-4/Av/_5KPlus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$_5KPlusXs>`
+- `<$_5KPlusSm>`
+- `<$_5KPlusMd>`
+- `<$_5KPlusLg>`
+
+
+
+
 
 ## _5KPlus
 

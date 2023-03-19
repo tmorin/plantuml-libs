@@ -17,6 +17,17 @@ include('material-4/Places/BabyChangingStation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BabyChangingStationXs>`
+- `<$BabyChangingStationSm>`
+- `<$BabyChangingStationMd>`
+- `<$BabyChangingStationLg>`
+
+
+
+
 
 ## BabyChangingStation
 

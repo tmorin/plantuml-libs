@@ -17,6 +17,17 @@ include('material-4/Content/Redo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RedoXs>`
+- `<$RedoSm>`
+- `<$RedoMd>`
+- `<$RedoLg>`
+
+
+
+
 
 ## Redo
 

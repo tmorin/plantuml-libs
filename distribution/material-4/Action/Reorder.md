@@ -17,6 +17,17 @@ include('material-4/Action/Reorder')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ReorderXs>`
+- `<$ReorderSm>`
+- `<$ReorderMd>`
+- `<$ReorderLg>`
+
+
+
+
 
 ## Reorder
 

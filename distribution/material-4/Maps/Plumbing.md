@@ -17,6 +17,17 @@ include('material-4/Maps/Plumbing')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PlumbingXs>`
+- `<$PlumbingSm>`
+- `<$PlumbingMd>`
+- `<$PlumbingLg>`
+
+
+
+
 
 ## Plumbing
 

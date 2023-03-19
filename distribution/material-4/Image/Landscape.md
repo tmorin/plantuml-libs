@@ -17,6 +17,17 @@ include('material-4/Image/Landscape')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LandscapeXs>`
+- `<$LandscapeSm>`
+- `<$LandscapeMd>`
+- `<$LandscapeLg>`
+
+
+
+
 
 ## Landscape
 

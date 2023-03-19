@@ -17,6 +17,17 @@ include('material-4/Notification/EventBusy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EventBusyXs>`
+- `<$EventBusySm>`
+- `<$EventBusyMd>`
+- `<$EventBusyLg>`
+
+
+
+
 
 ## EventBusy
 

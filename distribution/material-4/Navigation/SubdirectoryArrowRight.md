@@ -17,6 +17,17 @@ include('material-4/Navigation/SubdirectoryArrowRight')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SubdirectoryArrowRightXs>`
+- `<$SubdirectoryArrowRightSm>`
+- `<$SubdirectoryArrowRightMd>`
+- `<$SubdirectoryArrowRightLg>`
+
+
+
+
 
 ## SubdirectoryArrowRight
 

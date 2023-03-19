@@ -17,6 +17,17 @@ include('material-4/Maps/Celebration')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CelebrationXs>`
+- `<$CelebrationSm>`
+- `<$CelebrationMd>`
+- `<$CelebrationLg>`
+
+
+
+
 
 ## Celebration
 

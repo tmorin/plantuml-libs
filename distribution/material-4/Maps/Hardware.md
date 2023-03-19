@@ -17,6 +17,17 @@ include('material-4/Maps/Hardware')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HardwareXs>`
+- `<$HardwareSm>`
+- `<$HardwareMd>`
+- `<$HardwareLg>`
+
+
+
+
 
 ## Hardware
 

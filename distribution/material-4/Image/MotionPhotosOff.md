@@ -17,6 +17,17 @@ include('material-4/Image/MotionPhotosOff')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MotionPhotosOffXs>`
+- `<$MotionPhotosOffSm>`
+- `<$MotionPhotosOffMd>`
+- `<$MotionPhotosOffLg>`
+
+
+
+
 
 ## MotionPhotosOff
 

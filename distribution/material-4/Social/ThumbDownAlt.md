@@ -17,6 +17,17 @@ include('material-4/Social/ThumbDownAlt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ThumbDownAltXs>`
+- `<$ThumbDownAltSm>`
+- `<$ThumbDownAltMd>`
+- `<$ThumbDownAltLg>`
+
+
+
+
 
 ## ThumbDownAlt
 

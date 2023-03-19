@@ -17,6 +17,17 @@ include('material-4/Notification/Wifi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WifiXs>`
+- `<$WifiSm>`
+- `<$WifiMd>`
+- `<$WifiLg>`
+
+
+
+
 
 ## Wifi
 

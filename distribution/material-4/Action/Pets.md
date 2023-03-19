@@ -17,6 +17,17 @@ include('material-4/Action/Pets')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PetsXs>`
+- `<$PetsSm>`
+- `<$PetsMd>`
+- `<$PetsLg>`
+
+
+
+
 
 ## Pets
 

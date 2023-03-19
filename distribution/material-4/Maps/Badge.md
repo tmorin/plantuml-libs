@@ -17,6 +17,17 @@ include('material-4/Maps/Badge')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BadgeXs>`
+- `<$BadgeSm>`
+- `<$BadgeMd>`
+- `<$BadgeLg>`
+
+
+
+
 
 ## Badge
 

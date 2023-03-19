@@ -17,6 +17,17 @@ include('material-4/Image/Brightness6')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$Brightness6Xs>`
+- `<$Brightness6Sm>`
+- `<$Brightness6Md>`
+- `<$Brightness6Lg>`
+
+
+
+
 
 ## Brightness6
 

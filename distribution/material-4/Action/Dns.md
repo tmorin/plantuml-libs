@@ -17,6 +17,17 @@ include('material-4/Action/Dns')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DnsXs>`
+- `<$DnsSm>`
+- `<$DnsMd>`
+- `<$DnsLg>`
+
+
+
+
 
 ## Dns
 

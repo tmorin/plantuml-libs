@@ -17,6 +17,17 @@ include('material-4/Action/PermContactCalendar')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PermContactCalendarXs>`
+- `<$PermContactCalendarSm>`
+- `<$PermContactCalendarMd>`
+- `<$PermContactCalendarLg>`
+
+
+
+
 
 ## PermContactCalendar
 

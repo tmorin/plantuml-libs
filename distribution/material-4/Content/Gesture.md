@@ -17,6 +17,17 @@ include('material-4/Content/Gesture')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GestureXs>`
+- `<$GestureSm>`
+- `<$GestureMd>`
+- `<$GestureLg>`
+
+
+
+
 
 ## Gesture
 

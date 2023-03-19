@@ -17,6 +17,17 @@ include('material-4/Content/Link')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LinkXs>`
+- `<$LinkSm>`
+- `<$LinkMd>`
+- `<$LinkLg>`
+
+
+
+
 
 ## Link
 

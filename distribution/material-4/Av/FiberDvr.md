@@ -17,6 +17,17 @@ include('material-4/Av/FiberDvr')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FiberDvrXs>`
+- `<$FiberDvrSm>`
+- `<$FiberDvrMd>`
+- `<$FiberDvrLg>`
+
+
+
+
 
 ## FiberDvr
 

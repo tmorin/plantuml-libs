@@ -17,6 +17,17 @@ include('material-4/Action/Logout')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LogoutXs>`
+- `<$LogoutSm>`
+- `<$LogoutMd>`
+- `<$LogoutLg>`
+
+
+
+
 
 ## Logout
 

@@ -17,6 +17,17 @@ include('material-4/Alert/Warning')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WarningXs>`
+- `<$WarningSm>`
+- `<$WarningMd>`
+- `<$WarningLg>`
+
+
+
+
 
 ## Warning
 

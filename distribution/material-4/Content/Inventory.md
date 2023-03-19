@@ -17,6 +17,17 @@ include('material-4/Content/Inventory')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InventoryXs>`
+- `<$InventorySm>`
+- `<$InventoryMd>`
+- `<$InventoryLg>`
+
+
+
+
 
 ## Inventory
 

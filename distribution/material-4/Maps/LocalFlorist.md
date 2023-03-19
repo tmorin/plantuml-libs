@@ -17,6 +17,17 @@ include('material-4/Maps/LocalFlorist')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LocalFloristXs>`
+- `<$LocalFloristSm>`
+- `<$LocalFloristMd>`
+- `<$LocalFloristLg>`
+
+
+
+
 
 ## LocalFlorist
 

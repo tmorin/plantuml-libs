@@ -17,6 +17,17 @@ include('material-4/Action/LineStyle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LineStyleXs>`
+- `<$LineStyleSm>`
+- `<$LineStyleMd>`
+- `<$LineStyleLg>`
+
+
+
+
 
 ## LineStyle
 

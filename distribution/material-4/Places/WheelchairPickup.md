@@ -17,6 +17,17 @@ include('material-4/Places/WheelchairPickup')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WheelchairPickupXs>`
+- `<$WheelchairPickupSm>`
+- `<$WheelchairPickupMd>`
+- `<$WheelchairPickupLg>`
+
+
+
+
 
 ## WheelchairPickup
 

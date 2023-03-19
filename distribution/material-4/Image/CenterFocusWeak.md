@@ -17,6 +17,17 @@ include('material-4/Image/CenterFocusWeak')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CenterFocusWeakXs>`
+- `<$CenterFocusWeakSm>`
+- `<$CenterFocusWeakMd>`
+- `<$CenterFocusWeakLg>`
+
+
+
+
 
 ## CenterFocusWeak
 

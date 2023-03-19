@@ -17,6 +17,17 @@ include('material-4/Hardware/KeyboardTab')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KeyboardTabXs>`
+- `<$KeyboardTabSm>`
+- `<$KeyboardTabMd>`
+- `<$KeyboardTabLg>`
+
+
+
+
 
 ## KeyboardTab
 

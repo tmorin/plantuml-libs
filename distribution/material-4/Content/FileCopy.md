@@ -17,6 +17,17 @@ include('material-4/Content/FileCopy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FileCopyXs>`
+- `<$FileCopySm>`
+- `<$FileCopyMd>`
+- `<$FileCopyLg>`
+
+
+
+
 
 ## FileCopy
 

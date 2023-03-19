@@ -17,6 +17,17 @@ include('material-4/Av/Radio')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RadioXs>`
+- `<$RadioSm>`
+- `<$RadioMd>`
+- `<$RadioLg>`
+
+
+
+
 
 ## Radio
 

@@ -17,6 +17,17 @@ include('material-4/Action/FlightTakeoff')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FlightTakeoffXs>`
+- `<$FlightTakeoffSm>`
+- `<$FlightTakeoffMd>`
+- `<$FlightTakeoffLg>`
+
+
+
+
 
 ## FlightTakeoff
 

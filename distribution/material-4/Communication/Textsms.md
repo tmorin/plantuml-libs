@@ -17,6 +17,17 @@ include('material-4/Communication/Textsms')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TextsmsXs>`
+- `<$TextsmsSm>`
+- `<$TextsmsMd>`
+- `<$TextsmsLg>`
+
+
+
+
 
 ## Textsms
 

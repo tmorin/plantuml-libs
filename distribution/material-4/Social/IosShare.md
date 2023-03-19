@@ -17,6 +17,17 @@ include('material-4/Social/IosShare')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IosShareXs>`
+- `<$IosShareSm>`
+- `<$IosShareMd>`
+- `<$IosShareLg>`
+
+
+
+
 
 ## IosShare
 

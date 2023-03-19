@@ -17,6 +17,17 @@ include('material-4/Device/WifiTethering')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WifiTetheringXs>`
+- `<$WifiTetheringSm>`
+- `<$WifiTetheringMd>`
+- `<$WifiTetheringLg>`
+
+
+
+
 
 ## WifiTethering
 

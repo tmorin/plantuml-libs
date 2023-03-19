@@ -17,6 +17,17 @@ include('material-4/Editor/InsertEmoticon')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InsertEmoticonXs>`
+- `<$InsertEmoticonSm>`
+- `<$InsertEmoticonMd>`
+- `<$InsertEmoticonLg>`
+
+
+
+
 
 ## InsertEmoticon
 

@@ -17,6 +17,17 @@ include('material-4/Content/SquareFoot')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SquareFootXs>`
+- `<$SquareFootSm>`
+- `<$SquareFootMd>`
+- `<$SquareFootLg>`
+
+
+
+
 
 ## SquareFoot
 

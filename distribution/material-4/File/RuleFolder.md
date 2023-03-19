@@ -17,6 +17,17 @@ include('material-4/File/RuleFolder')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RuleFolderXs>`
+- `<$RuleFolderSm>`
+- `<$RuleFolderMd>`
+- `<$RuleFolderLg>`
+
+
+
+
 
 ## RuleFolder
 

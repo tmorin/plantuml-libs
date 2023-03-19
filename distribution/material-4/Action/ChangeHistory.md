@@ -17,6 +17,17 @@ include('material-4/Action/ChangeHistory')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChangeHistoryXs>`
+- `<$ChangeHistorySm>`
+- `<$ChangeHistoryMd>`
+- `<$ChangeHistoryLg>`
+
+
+
+
 
 ## ChangeHistory
 

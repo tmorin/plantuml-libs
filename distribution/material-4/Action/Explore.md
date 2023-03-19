@@ -17,6 +17,17 @@ include('material-4/Action/Explore')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ExploreXs>`
+- `<$ExploreSm>`
+- `<$ExploreMd>`
+- `<$ExploreLg>`
+
+
+
+
 
 ## Explore
 

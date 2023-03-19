@@ -17,6 +17,17 @@ include('material-4/Image/PhotoCamera')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PhotoCameraXs>`
+- `<$PhotoCameraSm>`
+- `<$PhotoCameraMd>`
+- `<$PhotoCameraLg>`
+
+
+
+
 
 ## PhotoCamera
 

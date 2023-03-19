@@ -17,6 +17,17 @@ include('material-4/Action/SyncAlt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SyncAltXs>`
+- `<$SyncAltSm>`
+- `<$SyncAltMd>`
+- `<$SyncAltLg>`
+
+
+
+
 
 ## SyncAlt
 

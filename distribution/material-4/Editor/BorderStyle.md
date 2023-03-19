@@ -17,6 +17,17 @@ include('material-4/Editor/BorderStyle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BorderStyleXs>`
+- `<$BorderStyleSm>`
+- `<$BorderStyleMd>`
+- `<$BorderStyleLg>`
+
+
+
+
 
 ## BorderStyle
 

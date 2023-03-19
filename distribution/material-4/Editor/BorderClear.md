@@ -17,6 +17,17 @@ include('material-4/Editor/BorderClear')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BorderClearXs>`
+- `<$BorderClearSm>`
+- `<$BorderClearMd>`
+- `<$BorderClearLg>`
+
+
+
+
 
 ## BorderClear
 

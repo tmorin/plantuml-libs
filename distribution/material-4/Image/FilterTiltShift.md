@@ -17,6 +17,17 @@ include('material-4/Image/FilterTiltShift')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FilterTiltShiftXs>`
+- `<$FilterTiltShiftSm>`
+- `<$FilterTiltShiftMd>`
+- `<$FilterTiltShiftLg>`
+
+
+
+
 
 ## FilterTiltShift
 

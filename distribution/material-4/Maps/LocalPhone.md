@@ -17,6 +17,17 @@ include('material-4/Maps/LocalPhone')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LocalPhoneXs>`
+- `<$LocalPhoneSm>`
+- `<$LocalPhoneMd>`
+- `<$LocalPhoneLg>`
+
+
+
+
 
 ## LocalPhone
 

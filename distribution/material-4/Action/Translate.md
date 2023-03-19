@@ -17,6 +17,17 @@ include('material-4/Action/Translate')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TranslateXs>`
+- `<$TranslateSm>`
+- `<$TranslateMd>`
+- `<$TranslateLg>`
+
+
+
+
 
 ## Translate
 

@@ -17,6 +17,17 @@ include('material-4/Communication/Duo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DuoXs>`
+- `<$DuoSm>`
+- `<$DuoMd>`
+- `<$DuoLg>`
+
+
+
+
 
 ## Duo
 

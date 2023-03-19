@@ -17,6 +17,17 @@ include('material-4/Maps/DirectionsCar')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DirectionsCarXs>`
+- `<$DirectionsCarSm>`
+- `<$DirectionsCarMd>`
+- `<$DirectionsCarLg>`
+
+
+
+
 
 ## DirectionsCar
 

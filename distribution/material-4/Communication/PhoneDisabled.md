@@ -17,6 +17,17 @@ include('material-4/Communication/PhoneDisabled')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PhoneDisabledXs>`
+- `<$PhoneDisabledSm>`
+- `<$PhoneDisabledMd>`
+- `<$PhoneDisabledLg>`
+
+
+
+
 
 ## PhoneDisabled
 

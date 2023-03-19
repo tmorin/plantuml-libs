@@ -17,6 +17,17 @@ include('material-4/Hardware/SimCard')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SimCardXs>`
+- `<$SimCardSm>`
+- `<$SimCardMd>`
+- `<$SimCardLg>`
+
+
+
+
 
 ## SimCard
 

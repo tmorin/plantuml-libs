@@ -17,6 +17,17 @@ include('material-4/Navigation/Check')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CheckXs>`
+- `<$CheckSm>`
+- `<$CheckMd>`
+- `<$CheckLg>`
+
+
+
+
 
 ## Check
 

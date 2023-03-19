@@ -17,6 +17,17 @@ include('material-4/File/DriveFolderUpload')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DriveFolderUploadXs>`
+- `<$DriveFolderUploadSm>`
+- `<$DriveFolderUploadMd>`
+- `<$DriveFolderUploadLg>`
+
+
+
+
 
 ## DriveFolderUpload
 

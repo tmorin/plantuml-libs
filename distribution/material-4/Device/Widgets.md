@@ -17,6 +17,17 @@ include('material-4/Device/Widgets')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WidgetsXs>`
+- `<$WidgetsSm>`
+- `<$WidgetsMd>`
+- `<$WidgetsLg>`
+
+
+
+
 
 ## Widgets
 

@@ -17,6 +17,17 @@ include('material-4/Device/SignalCellular0Bar')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SignalCellular0BarXs>`
+- `<$SignalCellular0BarSm>`
+- `<$SignalCellular0BarMd>`
+- `<$SignalCellular0BarLg>`
+
+
+
+
 
 ## SignalCellular0Bar
 

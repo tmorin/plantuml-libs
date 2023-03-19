@@ -17,6 +17,17 @@ include('material-4/Hardware/HeadsetMic')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HeadsetMicXs>`
+- `<$HeadsetMicSm>`
+- `<$HeadsetMicMd>`
+- `<$HeadsetMicLg>`
+
+
+
+
 
 ## HeadsetMic
 

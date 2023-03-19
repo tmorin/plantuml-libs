@@ -17,6 +17,17 @@ include('material-4/Image/Iso')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IsoXs>`
+- `<$IsoSm>`
+- `<$IsoMd>`
+- `<$IsoLg>`
+
+
+
+
 
 ## Iso
 

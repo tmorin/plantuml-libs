@@ -17,6 +17,17 @@ include('material-4/Action/Update')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UpdateXs>`
+- `<$UpdateSm>`
+- `<$UpdateMd>`
+- `<$UpdateLg>`
+
+
+
+
 
 ## Update
 

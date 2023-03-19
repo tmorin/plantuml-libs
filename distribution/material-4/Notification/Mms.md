@@ -17,6 +17,17 @@ include('material-4/Notification/Mms')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MmsXs>`
+- `<$MmsSm>`
+- `<$MmsMd>`
+- `<$MmsLg>`
+
+
+
+
 
 ## Mms
 

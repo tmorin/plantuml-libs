@@ -17,6 +17,17 @@ include('material-4/Image/HdrOn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HdrOnXs>`
+- `<$HdrOnSm>`
+- `<$HdrOnMd>`
+- `<$HdrOnLg>`
+
+
+
+
 
 ## HdrOn
 

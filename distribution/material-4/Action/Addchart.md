@@ -17,6 +17,17 @@ include('material-4/Action/Addchart')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AddchartXs>`
+- `<$AddchartSm>`
+- `<$AddchartMd>`
+- `<$AddchartLg>`
+
+
+
+
 
 ## Addchart
 

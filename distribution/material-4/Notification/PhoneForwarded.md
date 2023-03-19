@@ -17,6 +17,17 @@ include('material-4/Notification/PhoneForwarded')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PhoneForwardedXs>`
+- `<$PhoneForwardedSm>`
+- `<$PhoneForwardedMd>`
+- `<$PhoneForwardedLg>`
+
+
+
+
 
 ## PhoneForwarded
 

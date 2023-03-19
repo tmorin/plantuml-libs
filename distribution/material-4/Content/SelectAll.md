@@ -17,6 +17,17 @@ include('material-4/Content/SelectAll')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SelectAllXs>`
+- `<$SelectAllSm>`
+- `<$SelectAllMd>`
+- `<$SelectAllLg>`
+
+
+
+
 
 ## SelectAll
 

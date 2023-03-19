@@ -17,6 +17,17 @@ include('material-4/Image/Straighten')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StraightenXs>`
+- `<$StraightenSm>`
+- `<$StraightenMd>`
+- `<$StraightenLg>`
+
+
+
+
 
 ## Straighten
 

@@ -17,6 +17,17 @@ include('material-4/Image/MusicNote')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MusicNoteXs>`
+- `<$MusicNoteSm>`
+- `<$MusicNoteMd>`
+- `<$MusicNoteLg>`
+
+
+
+
 
 ## MusicNote
 

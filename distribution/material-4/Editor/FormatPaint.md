@@ -17,6 +17,17 @@ include('material-4/Editor/FormatPaint')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FormatPaintXs>`
+- `<$FormatPaintSm>`
+- `<$FormatPaintMd>`
+- `<$FormatPaintLg>`
+
+
+
+
 
 ## FormatPaint
 

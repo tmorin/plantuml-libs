@@ -17,6 +17,17 @@ include('material-4/Action/ZoomOut')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ZoomOutXs>`
+- `<$ZoomOutSm>`
+- `<$ZoomOutMd>`
+- `<$ZoomOutLg>`
+
+
+
+
 
 ## ZoomOut
 

@@ -17,6 +17,17 @@ include('material-4/Notification/AddCall')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AddCallXs>`
+- `<$AddCallSm>`
+- `<$AddCallMd>`
+- `<$AddCallLg>`
+
+
+
+
 
 ## AddCall
 

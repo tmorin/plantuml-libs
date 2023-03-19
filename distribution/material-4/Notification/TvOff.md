@@ -17,6 +17,17 @@ include('material-4/Notification/TvOff')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TvOffXs>`
+- `<$TvOffSm>`
+- `<$TvOffMd>`
+- `<$TvOffLg>`
+
+
+
+
 
 ## TvOff
 

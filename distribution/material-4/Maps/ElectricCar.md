@@ -17,6 +17,17 @@ include('material-4/Maps/ElectricCar')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ElectricCarXs>`
+- `<$ElectricCarSm>`
+- `<$ElectricCarMd>`
+- `<$ElectricCarLg>`
+
+
+
+
 
 ## ElectricCar
 

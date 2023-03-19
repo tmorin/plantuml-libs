@@ -17,6 +17,17 @@ include('material-4/Editor/InsertInvitation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InsertInvitationXs>`
+- `<$InsertInvitationSm>`
+- `<$InsertInvitationMd>`
+- `<$InsertInvitationLg>`
+
+
+
+
 
 ## InsertInvitation
 

@@ -17,6 +17,17 @@ include('material-4/File/CloudDone')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudDoneXs>`
+- `<$CloudDoneSm>`
+- `<$CloudDoneMd>`
+- `<$CloudDoneLg>`
+
+
+
+
 
 ## CloudDone
 

@@ -17,6 +17,17 @@ include('material-4/Image/PanoramaVertical')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PanoramaVerticalXs>`
+- `<$PanoramaVerticalSm>`
+- `<$PanoramaVerticalMd>`
+- `<$PanoramaVerticalLg>`
+
+
+
+
 
 ## PanoramaVertical
 

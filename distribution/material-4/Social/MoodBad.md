@@ -17,6 +17,17 @@ include('material-4/Social/MoodBad')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MoodBadXs>`
+- `<$MoodBadSm>`
+- `<$MoodBadMd>`
+- `<$MoodBadLg>`
+
+
+
+
 
 ## MoodBad
 

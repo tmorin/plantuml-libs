@@ -17,6 +17,17 @@ include('material-4/Navigation/LegendToggle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LegendToggleXs>`
+- `<$LegendToggleSm>`
+- `<$LegendToggleMd>`
+- `<$LegendToggleLg>`
+
+
+
+
 
 ## LegendToggle
 

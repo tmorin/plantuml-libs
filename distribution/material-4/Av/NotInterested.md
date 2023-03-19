@@ -17,6 +17,17 @@ include('material-4/Av/NotInterested')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NotInterestedXs>`
+- `<$NotInterestedSm>`
+- `<$NotInterestedMd>`
+- `<$NotInterestedLg>`
+
+
+
+
 
 ## NotInterested
 

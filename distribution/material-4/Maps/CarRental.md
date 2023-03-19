@@ -17,6 +17,17 @@ include('material-4/Maps/CarRental')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CarRentalXs>`
+- `<$CarRentalSm>`
+- `<$CarRentalMd>`
+- `<$CarRentalLg>`
+
+
+
+
 
 ## CarRental
 

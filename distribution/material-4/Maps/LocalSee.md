@@ -17,6 +17,17 @@ include('material-4/Maps/LocalSee')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LocalSeeXs>`
+- `<$LocalSeeSm>`
+- `<$LocalSeeMd>`
+- `<$LocalSeeLg>`
+
+
+
+
 
 ## LocalSee
 

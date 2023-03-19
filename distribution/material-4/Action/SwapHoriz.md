@@ -17,6 +17,17 @@ include('material-4/Action/SwapHoriz')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SwapHorizXs>`
+- `<$SwapHorizSm>`
+- `<$SwapHorizMd>`
+- `<$SwapHorizLg>`
+
+
+
+
 
 ## SwapHoriz
 

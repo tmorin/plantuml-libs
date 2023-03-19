@@ -17,6 +17,17 @@ include('material-4/Toggle/StarHalf')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StarHalfXs>`
+- `<$StarHalfSm>`
+- `<$StarHalfMd>`
+- `<$StarHalfLg>`
+
+
+
+
 
 ## StarHalf
 

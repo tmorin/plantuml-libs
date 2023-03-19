@@ -17,6 +17,17 @@ include('material-4/Av/Explicit')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ExplicitXs>`
+- `<$ExplicitSm>`
+- `<$ExplicitMd>`
+- `<$ExplicitLg>`
+
+
+
+
 
 ## Explicit
 

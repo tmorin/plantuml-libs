@@ -17,6 +17,17 @@ include('material-4/Communication/Call')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CallXs>`
+- `<$CallSm>`
+- `<$CallMd>`
+- `<$CallLg>`
+
+
+
+
 
 ## Call
 

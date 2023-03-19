@@ -17,6 +17,17 @@ include('material-4/Places/NoStroller')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NoStrollerXs>`
+- `<$NoStrollerSm>`
+- `<$NoStrollerMd>`
+- `<$NoStrollerLg>`
+
+
+
+
 
 ## NoStroller
 

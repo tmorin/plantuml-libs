@@ -17,6 +17,17 @@ include('material-4/Notification/Power')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PowerXs>`
+- `<$PowerSm>`
+- `<$PowerMd>`
+- `<$PowerLg>`
+
+
+
+
 
 ## Power
 

@@ -17,6 +17,17 @@ include('material-4/Action/Visibility')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VisibilityXs>`
+- `<$VisibilitySm>`
+- `<$VisibilityMd>`
+- `<$VisibilityLg>`
+
+
+
+
 
 ## Visibility
 

@@ -17,6 +17,17 @@ include('material-4/Action/RecordVoiceOver')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RecordVoiceOverXs>`
+- `<$RecordVoiceOverSm>`
+- `<$RecordVoiceOverMd>`
+- `<$RecordVoiceOverLg>`
+
+
+
+
 
 ## RecordVoiceOver
 

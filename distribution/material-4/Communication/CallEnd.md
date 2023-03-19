@@ -17,6 +17,17 @@ include('material-4/Communication/CallEnd')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CallEndXs>`
+- `<$CallEndSm>`
+- `<$CallEndMd>`
+- `<$CallEndLg>`
+
+
+
+
 
 ## CallEnd
 

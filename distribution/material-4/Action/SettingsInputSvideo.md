@@ -17,6 +17,17 @@ include('material-4/Action/SettingsInputSvideo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SettingsInputSvideoXs>`
+- `<$SettingsInputSvideoSm>`
+- `<$SettingsInputSvideoMd>`
+- `<$SettingsInputSvideoLg>`
+
+
+
+
 
 ## SettingsInputSvideo
 

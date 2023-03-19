@@ -17,6 +17,17 @@ include('material-4/Hardware/CastForEducation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CastForEducationXs>`
+- `<$CastForEducationSm>`
+- `<$CastForEducationMd>`
+- `<$CastForEducationLg>`
+
+
+
+
 
 ## CastForEducation
 

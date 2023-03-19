@@ -17,6 +17,17 @@ include('material-4/Communication/StopScreenShare')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StopScreenShareXs>`
+- `<$StopScreenShareSm>`
+- `<$StopScreenShareMd>`
+- `<$StopScreenShareLg>`
+
+
+
+
 
 ## StopScreenShare
 

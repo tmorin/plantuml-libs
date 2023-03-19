@@ -17,6 +17,17 @@ include('material-4/Communication/VpnKey')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VpnKeyXs>`
+- `<$VpnKeySm>`
+- `<$VpnKeyMd>`
+- `<$VpnKeyLg>`
+
+
+
+
 
 ## VpnKey
 

@@ -17,6 +17,17 @@ include('material-4/Maps/DesignServices')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DesignServicesXs>`
+- `<$DesignServicesSm>`
+- `<$DesignServicesMd>`
+- `<$DesignServicesLg>`
+
+
+
+
 
 ## DesignServices
 

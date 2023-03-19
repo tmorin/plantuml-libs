@@ -17,6 +17,17 @@ include('material-4/Content/Weekend')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WeekendXs>`
+- `<$WeekendSm>`
+- `<$WeekendMd>`
+- `<$WeekendLg>`
+
+
+
+
 
 ## Weekend
 

@@ -17,6 +17,17 @@ include('material-4/Notification/DiscFull')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DiscFullXs>`
+- `<$DiscFullSm>`
+- `<$DiscFullMd>`
+- `<$DiscFullLg>`
+
+
+
+
 
 ## DiscFull
 

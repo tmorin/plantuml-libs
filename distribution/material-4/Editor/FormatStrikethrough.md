@@ -17,6 +17,17 @@ include('material-4/Editor/FormatStrikethrough')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FormatStrikethroughXs>`
+- `<$FormatStrikethroughSm>`
+- `<$FormatStrikethroughMd>`
+- `<$FormatStrikethroughLg>`
+
+
+
+
 
 ## FormatStrikethrough
 

@@ -17,6 +17,17 @@ include('material-4/Action/Unpublished')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UnpublishedXs>`
+- `<$UnpublishedSm>`
+- `<$UnpublishedMd>`
+- `<$UnpublishedLg>`
+
+
+
+
 
 ## Unpublished
 

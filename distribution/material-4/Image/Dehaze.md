@@ -17,6 +17,17 @@ include('material-4/Image/Dehaze')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DehazeXs>`
+- `<$DehazeSm>`
+- `<$DehazeMd>`
+- `<$DehazeLg>`
+
+
+
+
 
 ## Dehaze
 

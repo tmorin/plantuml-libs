@@ -17,6 +17,17 @@ include('material-4/Toggle/StarBorder')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StarBorderXs>`
+- `<$StarBorderSm>`
+- `<$StarBorderMd>`
+- `<$StarBorderLg>`
+
+
+
+
 
 ## StarBorder
 

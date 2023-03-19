@@ -17,6 +17,17 @@ include('material-4/Image/CollectionsBookmark')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CollectionsBookmarkXs>`
+- `<$CollectionsBookmarkSm>`
+- `<$CollectionsBookmarkMd>`
+- `<$CollectionsBookmarkLg>`
+
+
+
+
 
 ## CollectionsBookmark
 

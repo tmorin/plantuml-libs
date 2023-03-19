@@ -17,6 +17,17 @@ include('material-4/Action/SpeakerNotes')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SpeakerNotesXs>`
+- `<$SpeakerNotesSm>`
+- `<$SpeakerNotesMd>`
+- `<$SpeakerNotesLg>`
+
+
+
+
 
 ## SpeakerNotes
 

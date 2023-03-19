@@ -17,6 +17,17 @@ include('material-4/Device/BrightnessHigh')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BrightnessHighXs>`
+- `<$BrightnessHighSm>`
+- `<$BrightnessHighMd>`
+- `<$BrightnessHighLg>`
+
+
+
+
 
 ## BrightnessHigh
 

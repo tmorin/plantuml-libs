@@ -17,6 +17,17 @@ include('material-4/Notification/VoiceChat')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VoiceChatXs>`
+- `<$VoiceChatSm>`
+- `<$VoiceChatMd>`
+- `<$VoiceChatLg>`
+
+
+
+
 
 ## VoiceChat
 

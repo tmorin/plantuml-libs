@@ -17,6 +17,17 @@ include('material-4/Social/PlusOne')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PlusOneXs>`
+- `<$PlusOneSm>`
+- `<$PlusOneMd>`
+- `<$PlusOneLg>`
+
+
+
+
 
 ## PlusOne
 

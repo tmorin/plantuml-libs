@@ -17,6 +17,17 @@ include('material-4/Places/Spa')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SpaXs>`
+- `<$SpaSm>`
+- `<$SpaMd>`
+- `<$SpaLg>`
+
+
+
+
 
 ## Spa
 

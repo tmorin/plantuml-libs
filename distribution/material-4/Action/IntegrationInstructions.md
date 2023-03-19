@@ -17,6 +17,17 @@ include('material-4/Action/IntegrationInstructions')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IntegrationInstructionsXs>`
+- `<$IntegrationInstructionsSm>`
+- `<$IntegrationInstructionsMd>`
+- `<$IntegrationInstructionsLg>`
+
+
+
+
 
 ## IntegrationInstructions
 

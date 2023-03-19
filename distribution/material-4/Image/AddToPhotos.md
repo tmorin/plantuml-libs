@@ -17,6 +17,17 @@ include('material-4/Image/AddToPhotos')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AddToPhotosXs>`
+- `<$AddToPhotosSm>`
+- `<$AddToPhotosMd>`
+- `<$AddToPhotosLg>`
+
+
+
+
 
 ## AddToPhotos
 

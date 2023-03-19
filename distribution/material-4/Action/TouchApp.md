@@ -17,6 +17,17 @@ include('material-4/Action/TouchApp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TouchAppXs>`
+- `<$TouchAppSm>`
+- `<$TouchAppMd>`
+- `<$TouchAppLg>`
+
+
+
+
 
 ## TouchApp
 

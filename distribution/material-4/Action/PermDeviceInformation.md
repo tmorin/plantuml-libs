@@ -17,6 +17,17 @@ include('material-4/Action/PermDeviceInformation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PermDeviceInformationXs>`
+- `<$PermDeviceInformationSm>`
+- `<$PermDeviceInformationMd>`
+- `<$PermDeviceInformationLg>`
+
+
+
+
 
 ## PermDeviceInformation
 

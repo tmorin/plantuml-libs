@@ -17,6 +17,17 @@ include('material-4/Device/SignalCellularAlt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SignalCellularAltXs>`
+- `<$SignalCellularAltSm>`
+- `<$SignalCellularAltMd>`
+- `<$SignalCellularAltLg>`
+
+
+
+
 
 ## SignalCellularAlt
 

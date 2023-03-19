@@ -17,6 +17,17 @@ include('material-4/Image/LinkedCamera')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LinkedCameraXs>`
+- `<$LinkedCameraSm>`
+- `<$LinkedCameraMd>`
+- `<$LinkedCameraLg>`
+
+
+
+
 
 ## LinkedCamera
 

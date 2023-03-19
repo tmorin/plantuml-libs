@@ -17,6 +17,17 @@ include('material-4/Notification/SyncProblem')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SyncProblemXs>`
+- `<$SyncProblemSm>`
+- `<$SyncProblemMd>`
+- `<$SyncProblemLg>`
+
+
+
+
 
 ## SyncProblem
 

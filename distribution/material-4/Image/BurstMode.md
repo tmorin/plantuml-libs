@@ -17,6 +17,17 @@ include('material-4/Image/BurstMode')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BurstModeXs>`
+- `<$BurstModeSm>`
+- `<$BurstModeMd>`
+- `<$BurstModeLg>`
+
+
+
+
 
 ## BurstMode
 

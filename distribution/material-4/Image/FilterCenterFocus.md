@@ -17,6 +17,17 @@ include('material-4/Image/FilterCenterFocus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FilterCenterFocusXs>`
+- `<$FilterCenterFocusSm>`
+- `<$FilterCenterFocusMd>`
+- `<$FilterCenterFocusLg>`
+
+
+
+
 
 ## FilterCenterFocus
 

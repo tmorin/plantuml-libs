@@ -17,6 +17,17 @@ include('material-4/Communication/ImportExport')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ImportExportXs>`
+- `<$ImportExportSm>`
+- `<$ImportExportMd>`
+- `<$ImportExportLg>`
+
+
+
+
 
 ## ImportExport
 

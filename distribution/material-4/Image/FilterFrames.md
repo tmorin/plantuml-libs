@@ -17,6 +17,17 @@ include('material-4/Image/FilterFrames')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FilterFramesXs>`
+- `<$FilterFramesSm>`
+- `<$FilterFramesMd>`
+- `<$FilterFramesLg>`
+
+
+
+
 
 ## FilterFrames
 

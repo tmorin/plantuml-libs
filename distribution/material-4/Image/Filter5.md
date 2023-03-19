@@ -17,6 +17,17 @@ include('material-4/Image/Filter5')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$Filter5Xs>`
+- `<$Filter5Sm>`
+- `<$Filter5Md>`
+- `<$Filter5Lg>`
+
+
+
+
 
 ## Filter5
 

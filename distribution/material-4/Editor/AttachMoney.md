@@ -17,6 +17,17 @@ include('material-4/Editor/AttachMoney')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AttachMoneyXs>`
+- `<$AttachMoneySm>`
+- `<$AttachMoneyMd>`
+- `<$AttachMoneyLg>`
+
+
+
+
 
 ## AttachMoney
 

@@ -17,6 +17,17 @@ include('material-4/Action/FindInPage')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FindInPageXs>`
+- `<$FindInPageSm>`
+- `<$FindInPageMd>`
+- `<$FindInPageLg>`
+
+
+
+
 
 ## FindInPage
 

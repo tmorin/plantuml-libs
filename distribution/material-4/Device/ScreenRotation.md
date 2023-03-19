@@ -17,6 +17,17 @@ include('material-4/Device/ScreenRotation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ScreenRotationXs>`
+- `<$ScreenRotationSm>`
+- `<$ScreenRotationMd>`
+- `<$ScreenRotationLg>`
+
+
+
+
 
 ## ScreenRotation
 

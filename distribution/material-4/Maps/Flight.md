@@ -17,6 +17,17 @@ include('material-4/Maps/Flight')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FlightXs>`
+- `<$FlightSm>`
+- `<$FlightMd>`
+- `<$FlightLg>`
+
+
+
+
 
 ## Flight
 

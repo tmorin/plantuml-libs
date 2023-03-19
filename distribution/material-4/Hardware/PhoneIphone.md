@@ -17,6 +17,17 @@ include('material-4/Hardware/PhoneIphone')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PhoneIphoneXs>`
+- `<$PhoneIphoneSm>`
+- `<$PhoneIphoneMd>`
+- `<$PhoneIphoneLg>`
+
+
+
+
 
 ## PhoneIphone
 

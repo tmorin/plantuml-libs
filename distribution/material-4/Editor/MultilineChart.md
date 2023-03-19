@@ -17,6 +17,17 @@ include('material-4/Editor/MultilineChart')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MultilineChartXs>`
+- `<$MultilineChartSm>`
+- `<$MultilineChartMd>`
+- `<$MultilineChartLg>`
+
+
+
+
 
 ## MultilineChart
 

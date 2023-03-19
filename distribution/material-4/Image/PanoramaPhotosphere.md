@@ -17,6 +17,17 @@ include('material-4/Image/PanoramaPhotosphere')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PanoramaPhotosphereXs>`
+- `<$PanoramaPhotosphereSm>`
+- `<$PanoramaPhotosphereMd>`
+- `<$PanoramaPhotosphereLg>`
+
+
+
+
 
 ## PanoramaPhotosphere
 

@@ -17,6 +17,17 @@ include('material-4/Action/Contactless')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ContactlessXs>`
+- `<$ContactlessSm>`
+- `<$ContactlessMd>`
+- `<$ContactlessLg>`
+
+
+
+
 
 ## Contactless
 

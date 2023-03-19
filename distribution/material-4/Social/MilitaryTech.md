@@ -17,6 +17,17 @@ include('material-4/Social/MilitaryTech')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MilitaryTechXs>`
+- `<$MilitaryTechSm>`
+- `<$MilitaryTechMd>`
+- `<$MilitaryTechLg>`
+
+
+
+
 
 ## MilitaryTech
 

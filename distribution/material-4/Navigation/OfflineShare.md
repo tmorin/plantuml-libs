@@ -17,6 +17,17 @@ include('material-4/Navigation/OfflineShare')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OfflineShareXs>`
+- `<$OfflineShareSm>`
+- `<$OfflineShareMd>`
+- `<$OfflineShareLg>`
+
+
+
+
 
 ## OfflineShare
 

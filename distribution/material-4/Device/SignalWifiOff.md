@@ -17,6 +17,17 @@ include('material-4/Device/SignalWifiOff')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SignalWifiOffXs>`
+- `<$SignalWifiOffSm>`
+- `<$SignalWifiOffMd>`
+- `<$SignalWifiOffLg>`
+
+
+
+
 
 ## SignalWifiOff
 

@@ -17,6 +17,17 @@ include('material-4/Av/VideoLibrary')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VideoLibraryXs>`
+- `<$VideoLibrarySm>`
+- `<$VideoLibraryMd>`
+- `<$VideoLibraryLg>`
+
+
+
+
 
 ## VideoLibrary
 

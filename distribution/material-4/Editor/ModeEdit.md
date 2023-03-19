@@ -17,6 +17,17 @@ include('material-4/Editor/ModeEdit')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ModeEditXs>`
+- `<$ModeEditSm>`
+- `<$ModeEditMd>`
+- `<$ModeEditLg>`
+
+
+
+
 
 ## ModeEdit
 

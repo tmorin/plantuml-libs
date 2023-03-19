@@ -17,6 +17,17 @@ include('material-4/Image/FlipCameraIos')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FlipCameraIosXs>`
+- `<$FlipCameraIosSm>`
+- `<$FlipCameraIosMd>`
+- `<$FlipCameraIosLg>`
+
+
+
+
 
 ## FlipCameraIos
 

@@ -17,6 +17,17 @@ include('material-4/Action/Home')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HomeXs>`
+- `<$HomeSm>`
+- `<$HomeMd>`
+- `<$HomeLg>`
+
+
+
+
 
 ## Home
 

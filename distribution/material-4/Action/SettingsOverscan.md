@@ -17,6 +17,17 @@ include('material-4/Action/SettingsOverscan')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SettingsOverscanXs>`
+- `<$SettingsOverscanSm>`
+- `<$SettingsOverscanMd>`
+- `<$SettingsOverscanLg>`
+
+
+
+
 
 ## SettingsOverscan
 

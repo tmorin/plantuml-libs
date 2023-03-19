@@ -17,6 +17,17 @@ include('material-4/Communication/ForwardToInbox')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ForwardToInboxXs>`
+- `<$ForwardToInboxSm>`
+- `<$ForwardToInboxMd>`
+- `<$ForwardToInboxLg>`
+
+
+
+
 
 ## ForwardToInbox
 

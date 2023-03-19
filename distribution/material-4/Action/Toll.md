@@ -17,6 +17,17 @@ include('material-4/Action/Toll')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TollXs>`
+- `<$TollSm>`
+- `<$TollMd>`
+- `<$TollLg>`
+
+
+
+
 
 ## Toll
 

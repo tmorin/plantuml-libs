@@ -17,6 +17,17 @@ include('material-4/Image/Assistant')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AssistantXs>`
+- `<$AssistantSm>`
+- `<$AssistantMd>`
+- `<$AssistantLg>`
+
+
+
+
 
 ## Assistant
 

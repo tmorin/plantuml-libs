@@ -17,6 +17,17 @@ include('material-4/Editor/BorderOuter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BorderOuterXs>`
+- `<$BorderOuterSm>`
+- `<$BorderOuterMd>`
+- `<$BorderOuterLg>`
+
+
+
+
 
 ## BorderOuter
 

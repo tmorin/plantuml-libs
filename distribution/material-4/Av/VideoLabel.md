@@ -17,6 +17,17 @@ include('material-4/Av/VideoLabel')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VideoLabelXs>`
+- `<$VideoLabelSm>`
+- `<$VideoLabelMd>`
+- `<$VideoLabelLg>`
+
+
+
+
 
 ## VideoLabel
 

@@ -17,6 +17,17 @@ include('material-4/Maps/Tram')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TramXs>`
+- `<$TramSm>`
+- `<$TramMd>`
+- `<$TramLg>`
+
+
+
+
 
 ## Tram
 

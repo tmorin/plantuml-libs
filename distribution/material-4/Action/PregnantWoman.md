@@ -17,6 +17,17 @@ include('material-4/Action/PregnantWoman')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PregnantWomanXs>`
+- `<$PregnantWomanSm>`
+- `<$PregnantWomanMd>`
+- `<$PregnantWomanLg>`
+
+
+
+
 
 ## PregnantWoman
 

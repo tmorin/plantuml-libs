@@ -17,6 +17,17 @@ include('material-4/Editor/WrapText')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WrapTextXs>`
+- `<$WrapTextSm>`
+- `<$WrapTextMd>`
+- `<$WrapTextLg>`
+
+
+
+
 
 ## WrapText
 

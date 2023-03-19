@@ -17,6 +17,17 @@ include('material-4/Hardware/DeviceUnknown')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DeviceUnknownXs>`
+- `<$DeviceUnknownSm>`
+- `<$DeviceUnknownMd>`
+- `<$DeviceUnknownLg>`
+
+
+
+
 
 ## DeviceUnknown
 

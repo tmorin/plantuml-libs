@@ -17,6 +17,17 @@ include('material-4/Av/WebAsset')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WebAssetXs>`
+- `<$WebAssetSm>`
+- `<$WebAssetMd>`
+- `<$WebAssetLg>`
+
+
+
+
 
 ## WebAsset
 

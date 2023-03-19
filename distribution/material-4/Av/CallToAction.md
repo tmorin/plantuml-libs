@@ -17,6 +17,17 @@ include('material-4/Av/CallToAction')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CallToActionXs>`
+- `<$CallToActionSm>`
+- `<$CallToActionMd>`
+- `<$CallToActionLg>`
+
+
+
+
 
 ## CallToAction
 

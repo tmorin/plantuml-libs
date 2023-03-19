@@ -17,6 +17,17 @@ include('material-4/Notification/PriorityHigh')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PriorityHighXs>`
+- `<$PriorityHighSm>`
+- `<$PriorityHighMd>`
+- `<$PriorityHighLg>`
+
+
+
+
 
 ## PriorityHigh
 

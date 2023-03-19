@@ -17,6 +17,17 @@ include('material-4/Image/WbIncandescent')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WbIncandescentXs>`
+- `<$WbIncandescentSm>`
+- `<$WbIncandescentMd>`
+- `<$WbIncandescentLg>`
+
+
+
+
 
 ## WbIncandescent
 

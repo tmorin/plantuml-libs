@@ -17,6 +17,17 @@ include('material-4/Maps/BikeScooter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BikeScooterXs>`
+- `<$BikeScooterSm>`
+- `<$BikeScooterMd>`
+- `<$BikeScooterLg>`
+
+
+
+
 
 ## BikeScooter
 

@@ -17,6 +17,17 @@ include('material-4/Editor/TextFields')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TextFieldsXs>`
+- `<$TextFieldsSm>`
+- `<$TextFieldsMd>`
+- `<$TextFieldsLg>`
+
+
+
+
 
 ## TextFields
 

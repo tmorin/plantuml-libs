@@ -17,6 +17,17 @@ include('material-4/Notification/SyncDisabled')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SyncDisabledXs>`
+- `<$SyncDisabledSm>`
+- `<$SyncDisabledMd>`
+- `<$SyncDisabledLg>`
+
+
+
+
 
 ## SyncDisabled
 

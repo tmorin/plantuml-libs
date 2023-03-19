@@ -17,6 +17,17 @@ include('material-4/Action/ThumbDownOffAlt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ThumbDownOffAltXs>`
+- `<$ThumbDownOffAltSm>`
+- `<$ThumbDownOffAltMd>`
+- `<$ThumbDownOffAltLg>`
+
+
+
+
 
 ## ThumbDownOffAlt
 

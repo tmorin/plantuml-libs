@@ -17,6 +17,17 @@ include('material-4/Communication/PersonSearch')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PersonSearchXs>`
+- `<$PersonSearchSm>`
+- `<$PersonSearchMd>`
+- `<$PersonSearchLg>`
+
+
+
+
 
 ## PersonSearch
 

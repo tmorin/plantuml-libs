@@ -17,6 +17,17 @@ include('material-4/File/WorkspacesFilled')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WorkspacesFilledXs>`
+- `<$WorkspacesFilledSm>`
+- `<$WorkspacesFilledMd>`
+- `<$WorkspacesFilledLg>`
+
+
+
+
 
 ## WorkspacesFilled
 

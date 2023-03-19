@@ -17,6 +17,17 @@ include('material-4/Places/Bento')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BentoXs>`
+- `<$BentoSm>`
+- `<$BentoMd>`
+- `<$BentoLg>`
+
+
+
+
 
 ## Bento
 

@@ -17,6 +17,17 @@ include('material-4/Places/Pool')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PoolXs>`
+- `<$PoolSm>`
+- `<$PoolMd>`
+- `<$PoolLg>`
+
+
+
+
 
 ## Pool
 

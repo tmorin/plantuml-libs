@@ -17,6 +17,17 @@ include('material-4/Action/Grading')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GradingXs>`
+- `<$GradingSm>`
+- `<$GradingMd>`
+- `<$GradingLg>`
+
+
+
+
 
 ## Grading
 

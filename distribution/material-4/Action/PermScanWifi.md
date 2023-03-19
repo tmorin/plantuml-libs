@@ -17,6 +17,17 @@ include('material-4/Action/PermScanWifi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PermScanWifiXs>`
+- `<$PermScanWifiSm>`
+- `<$PermScanWifiMd>`
+- `<$PermScanWifiLg>`
+
+
+
+
 
 ## PermScanWifi
 

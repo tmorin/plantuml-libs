@@ -17,6 +17,17 @@ include('material-4/Content/Stream')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StreamXs>`
+- `<$StreamSm>`
+- `<$StreamMd>`
+- `<$StreamLg>`
+
+
+
+
 
 ## Stream
 

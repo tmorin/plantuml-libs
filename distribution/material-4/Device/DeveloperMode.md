@@ -17,6 +17,17 @@ include('material-4/Device/DeveloperMode')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DeveloperModeXs>`
+- `<$DeveloperModeSm>`
+- `<$DeveloperModeMd>`
+- `<$DeveloperModeLg>`
+
+
+
+
 
 ## DeveloperMode
 

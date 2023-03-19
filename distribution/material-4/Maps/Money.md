@@ -17,6 +17,17 @@ include('material-4/Maps/Money')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MoneyXs>`
+- `<$MoneySm>`
+- `<$MoneyMd>`
+- `<$MoneyLg>`
+
+
+
+
 
 ## Money
 

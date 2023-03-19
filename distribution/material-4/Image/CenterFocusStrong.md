@@ -17,6 +17,17 @@ include('material-4/Image/CenterFocusStrong')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CenterFocusStrongXs>`
+- `<$CenterFocusStrongSm>`
+- `<$CenterFocusStrongMd>`
+- `<$CenterFocusStrongLg>`
+
+
+
+
 
 ## CenterFocusStrong
 

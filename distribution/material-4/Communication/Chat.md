@@ -17,6 +17,17 @@ include('material-4/Communication/Chat')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChatXs>`
+- `<$ChatSm>`
+- `<$ChatMd>`
+- `<$ChatLg>`
+
+
+
+
 
 ## Chat
 

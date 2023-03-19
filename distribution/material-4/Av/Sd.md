@@ -17,6 +17,17 @@ include('material-4/Av/Sd')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SdXs>`
+- `<$SdSm>`
+- `<$SdMd>`
+- `<$SdLg>`
+
+
+
+
 
 ## Sd
 

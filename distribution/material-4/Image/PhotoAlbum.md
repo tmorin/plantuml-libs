@@ -17,6 +17,17 @@ include('material-4/Image/PhotoAlbum')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PhotoAlbumXs>`
+- `<$PhotoAlbumSm>`
+- `<$PhotoAlbumMd>`
+- `<$PhotoAlbumLg>`
+
+
+
+
 
 ## PhotoAlbum
 

@@ -17,6 +17,17 @@ include('material-4/Action/OpenInFull')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OpenInFullXs>`
+- `<$OpenInFullSm>`
+- `<$OpenInFullMd>`
+- `<$OpenInFullLg>`
+
+
+
+
 
 ## OpenInFull
 

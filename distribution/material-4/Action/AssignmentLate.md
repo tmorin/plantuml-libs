@@ -17,6 +17,17 @@ include('material-4/Action/AssignmentLate')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AssignmentLateXs>`
+- `<$AssignmentLateSm>`
+- `<$AssignmentLateMd>`
+- `<$AssignmentLateLg>`
+
+
+
+
 
 ## AssignmentLate
 

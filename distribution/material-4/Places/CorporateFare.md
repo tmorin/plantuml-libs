@@ -17,6 +17,17 @@ include('material-4/Places/CorporateFare')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CorporateFareXs>`
+- `<$CorporateFareSm>`
+- `<$CorporateFareMd>`
+- `<$CorporateFareLg>`
+
+
+
+
 
 ## CorporateFare
 

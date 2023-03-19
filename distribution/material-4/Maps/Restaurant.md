@@ -17,6 +17,17 @@ include('material-4/Maps/Restaurant')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RestaurantXs>`
+- `<$RestaurantSm>`
+- `<$RestaurantMd>`
+- `<$RestaurantLg>`
+
+
+
+
 
 ## Restaurant
 

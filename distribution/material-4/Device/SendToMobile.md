@@ -17,6 +17,17 @@ include('material-4/Device/SendToMobile')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SendToMobileXs>`
+- `<$SendToMobileSm>`
+- `<$SendToMobileMd>`
+- `<$SendToMobileLg>`
+
+
+
+
 
 ## SendToMobile
 

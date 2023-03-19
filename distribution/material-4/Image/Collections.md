@@ -17,6 +17,17 @@ include('material-4/Image/Collections')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CollectionsXs>`
+- `<$CollectionsSm>`
+- `<$CollectionsMd>`
+- `<$CollectionsLg>`
+
+
+
+
 
 ## Collections
 

@@ -17,6 +17,17 @@ include('material-4/Action/BatchPrediction')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BatchPredictionXs>`
+- `<$BatchPredictionSm>`
+- `<$BatchPredictionMd>`
+- `<$BatchPredictionLg>`
+
+
+
+
 
 ## BatchPrediction
 

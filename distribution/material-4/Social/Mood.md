@@ -17,6 +17,17 @@ include('material-4/Social/Mood')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MoodXs>`
+- `<$MoodSm>`
+- `<$MoodMd>`
+- `<$MoodLg>`
+
+
+
+
 
 ## Mood
 

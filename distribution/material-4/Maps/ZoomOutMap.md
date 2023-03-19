@@ -17,6 +17,17 @@ include('material-4/Maps/ZoomOutMap')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ZoomOutMapXs>`
+- `<$ZoomOutMapSm>`
+- `<$ZoomOutMapMd>`
+- `<$ZoomOutMapLg>`
+
+
+
+
 
 ## ZoomOutMap
 

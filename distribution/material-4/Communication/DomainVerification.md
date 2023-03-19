@@ -17,6 +17,17 @@ include('material-4/Communication/DomainVerification')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DomainVerificationXs>`
+- `<$DomainVerificationSm>`
+- `<$DomainVerificationMd>`
+- `<$DomainVerificationLg>`
+
+
+
+
 
 ## DomainVerification
 

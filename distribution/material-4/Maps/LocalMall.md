@@ -17,6 +17,17 @@ include('material-4/Maps/LocalMall')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LocalMallXs>`
+- `<$LocalMallSm>`
+- `<$LocalMallMd>`
+- `<$LocalMallLg>`
+
+
+
+
 
 ## LocalMall
 

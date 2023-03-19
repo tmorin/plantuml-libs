@@ -17,6 +17,17 @@ include('material-4/Editor/BorderVertical')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BorderVerticalXs>`
+- `<$BorderVerticalSm>`
+- `<$BorderVerticalMd>`
+- `<$BorderVerticalLg>`
+
+
+
+
 
 ## BorderVertical
 

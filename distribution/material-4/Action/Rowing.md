@@ -17,6 +17,17 @@ include('material-4/Action/Rowing')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RowingXs>`
+- `<$RowingSm>`
+- `<$RowingMd>`
+- `<$RowingLg>`
+
+
+
+
 
 ## Rowing
 

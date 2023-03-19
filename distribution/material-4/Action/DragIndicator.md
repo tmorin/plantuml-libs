@@ -17,6 +17,17 @@ include('material-4/Action/DragIndicator')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DragIndicatorXs>`
+- `<$DragIndicatorSm>`
+- `<$DragIndicatorMd>`
+- `<$DragIndicatorLg>`
+
+
+
+
 
 ## DragIndicator
 

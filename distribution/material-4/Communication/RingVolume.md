@@ -17,6 +17,17 @@ include('material-4/Communication/RingVolume')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RingVolumeXs>`
+- `<$RingVolumeSm>`
+- `<$RingVolumeMd>`
+- `<$RingVolumeLg>`
+
+
+
+
 
 ## RingVolume
 

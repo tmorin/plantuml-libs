@@ -17,6 +17,17 @@ include('material-4/Hardware/CastConnected')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CastConnectedXs>`
+- `<$CastConnectedSm>`
+- `<$CastConnectedMd>`
+- `<$CastConnectedLg>`
+
+
+
+
 
 ## CastConnected
 

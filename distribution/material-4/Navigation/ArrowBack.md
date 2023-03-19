@@ -17,6 +17,17 @@ include('material-4/Navigation/ArrowBack')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ArrowBackXs>`
+- `<$ArrowBackSm>`
+- `<$ArrowBackMd>`
+- `<$ArrowBackLg>`
+
+
+
+
 
 ## ArrowBack
 

@@ -17,6 +17,17 @@ include('material-4/Av/PauseCircleOutline')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PauseCircleOutlineXs>`
+- `<$PauseCircleOutlineSm>`
+- `<$PauseCircleOutlineMd>`
+- `<$PauseCircleOutlineLg>`
+
+
+
+
 
 ## PauseCircleOutline
 

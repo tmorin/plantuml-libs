@@ -17,6 +17,17 @@ include('material-4/Content/Archive')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ArchiveXs>`
+- `<$ArchiveSm>`
+- `<$ArchiveMd>`
+- `<$ArchiveLg>`
+
+
+
+
 
 ## Archive
 

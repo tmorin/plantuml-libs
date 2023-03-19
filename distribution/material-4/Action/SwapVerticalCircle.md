@@ -17,6 +17,17 @@ include('material-4/Action/SwapVerticalCircle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SwapVerticalCircleXs>`
+- `<$SwapVerticalCircleSm>`
+- `<$SwapVerticalCircleMd>`
+- `<$SwapVerticalCircleLg>`
+
+
+
+
 
 ## SwapVerticalCircle
 

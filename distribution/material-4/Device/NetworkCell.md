@@ -17,6 +17,17 @@ include('material-4/Device/NetworkCell')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NetworkCellXs>`
+- `<$NetworkCellSm>`
+- `<$NetworkCellMd>`
+- `<$NetworkCellLg>`
+
+
+
+
 
 ## NetworkCell
 

@@ -17,6 +17,17 @@ include('material-4/Hardware/Monitor')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MonitorXs>`
+- `<$MonitorSm>`
+- `<$MonitorMd>`
+- `<$MonitorLg>`
+
+
+
+
 
 ## Monitor
 

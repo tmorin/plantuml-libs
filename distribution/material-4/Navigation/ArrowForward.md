@@ -17,6 +17,17 @@ include('material-4/Navigation/ArrowForward')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ArrowForwardXs>`
+- `<$ArrowForwardSm>`
+- `<$ArrowForwardMd>`
+- `<$ArrowForwardLg>`
+
+
+
+
 
 ## ArrowForward
 

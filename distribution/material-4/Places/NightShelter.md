@@ -17,6 +17,17 @@ include('material-4/Places/NightShelter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NightShelterXs>`
+- `<$NightShelterSm>`
+- `<$NightShelterMd>`
+- `<$NightShelterLg>`
+
+
+
+
 
 ## NightShelter
 

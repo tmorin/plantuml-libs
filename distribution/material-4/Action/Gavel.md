@@ -17,6 +17,17 @@ include('material-4/Action/Gavel')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GavelXs>`
+- `<$GavelSm>`
+- `<$GavelMd>`
+- `<$GavelLg>`
+
+
+
+
 
 ## Gavel
 

@@ -17,6 +17,17 @@ include('material-4/Social/FollowTheSigns')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FollowTheSignsXs>`
+- `<$FollowTheSignsSm>`
+- `<$FollowTheSignsMd>`
+- `<$FollowTheSignsLg>`
+
+
+
+
 
 ## FollowTheSigns
 

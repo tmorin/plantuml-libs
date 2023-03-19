@@ -17,6 +17,17 @@ include('material-4/Image/CropPortrait')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CropPortraitXs>`
+- `<$CropPortraitSm>`
+- `<$CropPortraitMd>`
+- `<$CropPortraitLg>`
+
+
+
+
 
 ## CropPortrait
 

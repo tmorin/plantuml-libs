@@ -17,6 +17,17 @@ include('material-4/Editor/Height')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HeightXs>`
+- `<$HeightSm>`
+- `<$HeightMd>`
+- `<$HeightLg>`
+
+
+
+
 
 ## Height
 

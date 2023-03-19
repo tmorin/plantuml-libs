@@ -17,6 +17,17 @@ include('material-4/Notification/PhoneInTalk')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PhoneInTalkXs>`
+- `<$PhoneInTalkSm>`
+- `<$PhoneInTalkMd>`
+- `<$PhoneInTalkLg>`
+
+
+
+
 
 ## PhoneInTalk
 

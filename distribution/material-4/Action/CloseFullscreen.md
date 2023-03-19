@@ -17,6 +17,17 @@ include('material-4/Action/CloseFullscreen')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloseFullscreenXs>`
+- `<$CloseFullscreenSm>`
+- `<$CloseFullscreenMd>`
+- `<$CloseFullscreenLg>`
+
+
+
+
 
 ## CloseFullscreen
 

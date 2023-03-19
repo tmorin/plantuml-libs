@@ -17,6 +17,17 @@ include('material-4/Action/DeleteOutline')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DeleteOutlineXs>`
+- `<$DeleteOutlineSm>`
+- `<$DeleteOutlineMd>`
+- `<$DeleteOutlineLg>`
+
+
+
+
 
 ## DeleteOutline
 

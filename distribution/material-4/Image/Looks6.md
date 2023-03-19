@@ -17,6 +17,17 @@ include('material-4/Image/Looks6')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$Looks6Xs>`
+- `<$Looks6Sm>`
+- `<$Looks6Md>`
+- `<$Looks6Lg>`
+
+
+
+
 
 ## Looks6
 

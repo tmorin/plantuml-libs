@@ -17,6 +17,17 @@ include('material-4/Social/Science')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ScienceXs>`
+- `<$ScienceSm>`
+- `<$ScienceMd>`
+- `<$ScienceLg>`
+
+
+
+
 
 ## Science
 

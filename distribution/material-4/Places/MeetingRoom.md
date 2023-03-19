@@ -17,6 +17,17 @@ include('material-4/Places/MeetingRoom')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MeetingRoomXs>`
+- `<$MeetingRoomSm>`
+- `<$MeetingRoomMd>`
+- `<$MeetingRoomLg>`
+
+
+
+
 
 ## MeetingRoom
 

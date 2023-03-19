@@ -17,6 +17,17 @@ include('material-4/Hardware/VideogameAsset')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VideogameAssetXs>`
+- `<$VideogameAssetSm>`
+- `<$VideogameAssetMd>`
+- `<$VideogameAssetLg>`
+
+
+
+
 
 ## VideogameAsset
 

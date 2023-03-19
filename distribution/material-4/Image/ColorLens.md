@@ -17,6 +17,17 @@ include('material-4/Image/ColorLens')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ColorLensXs>`
+- `<$ColorLensSm>`
+- `<$ColorLensMd>`
+- `<$ColorLensLg>`
+
+
+
+
 
 ## ColorLens
 

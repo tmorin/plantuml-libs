@@ -17,6 +17,17 @@ include('material-4/Image/Compare')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CompareXs>`
+- `<$CompareSm>`
+- `<$CompareMd>`
+- `<$CompareLg>`
+
+
+
+
 
 ## Compare
 

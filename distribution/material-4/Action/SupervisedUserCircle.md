@@ -17,6 +17,17 @@ include('material-4/Action/SupervisedUserCircle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SupervisedUserCircleXs>`
+- `<$SupervisedUserCircleSm>`
+- `<$SupervisedUserCircleMd>`
+- `<$SupervisedUserCircleLg>`
+
+
+
+
 
 ## SupervisedUserCircle
 

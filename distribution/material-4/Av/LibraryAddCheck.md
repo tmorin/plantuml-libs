@@ -17,6 +17,17 @@ include('material-4/Av/LibraryAddCheck')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LibraryAddCheckXs>`
+- `<$LibraryAddCheckSm>`
+- `<$LibraryAddCheckMd>`
+- `<$LibraryAddCheckLg>`
+
+
+
+
 
 ## LibraryAddCheck
 

@@ -17,6 +17,17 @@ include('material-4/Action/CancelScheduleSend')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CancelScheduleSendXs>`
+- `<$CancelScheduleSendSm>`
+- `<$CancelScheduleSendMd>`
+- `<$CancelScheduleSendLg>`
+
+
+
+
 
 ## CancelScheduleSend
 

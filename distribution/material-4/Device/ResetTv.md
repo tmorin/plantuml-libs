@@ -17,6 +17,17 @@ include('material-4/Device/ResetTv')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ResetTvXs>`
+- `<$ResetTvSm>`
+- `<$ResetTvMd>`
+- `<$ResetTvLg>`
+
+
+
+
 
 ## ResetTv
 

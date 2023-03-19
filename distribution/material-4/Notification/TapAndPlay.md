@@ -17,6 +17,17 @@ include('material-4/Notification/TapAndPlay')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TapAndPlayXs>`
+- `<$TapAndPlaySm>`
+- `<$TapAndPlayMd>`
+- `<$TapAndPlayLg>`
+
+
+
+
 
 ## TapAndPlay
 

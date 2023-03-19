@@ -17,6 +17,17 @@ include('material-4/Action/Stars')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StarsXs>`
+- `<$StarsSm>`
+- `<$StarsMd>`
+- `<$StarsLg>`
+
+
+
+
 
 ## Stars
 

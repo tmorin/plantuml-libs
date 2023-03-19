@@ -17,6 +17,17 @@ include('material-4/Maps/CleaningServices')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CleaningServicesXs>`
+- `<$CleaningServicesSm>`
+- `<$CleaningServicesMd>`
+- `<$CleaningServicesLg>`
+
+
+
+
 
 ## CleaningServices
 

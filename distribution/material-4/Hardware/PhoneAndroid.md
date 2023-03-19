@@ -17,6 +17,17 @@ include('material-4/Hardware/PhoneAndroid')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PhoneAndroidXs>`
+- `<$PhoneAndroidSm>`
+- `<$PhoneAndroidMd>`
+- `<$PhoneAndroidLg>`
+
+
+
+
 
 ## PhoneAndroid
 

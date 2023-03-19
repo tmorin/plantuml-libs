@@ -17,6 +17,17 @@ include('material-4/Maps/NoMeals')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NoMealsXs>`
+- `<$NoMealsSm>`
+- `<$NoMealsMd>`
+- `<$NoMealsLg>`
+
+
+
+
 
 ## NoMeals
 

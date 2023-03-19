@@ -17,6 +17,17 @@ include('material-4/Image/Flip')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FlipXs>`
+- `<$FlipSm>`
+- `<$FlipMd>`
+- `<$FlipLg>`
+
+
+
+
 
 ## Flip
 

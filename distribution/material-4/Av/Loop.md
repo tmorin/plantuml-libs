@@ -17,6 +17,17 @@ include('material-4/Av/Loop')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LoopXs>`
+- `<$LoopSm>`
+- `<$LoopMd>`
+- `<$LoopLg>`
+
+
+
+
 
 ## Loop
 

@@ -17,6 +17,17 @@ include('material-4/Maps/Park')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ParkXs>`
+- `<$ParkSm>`
+- `<$ParkMd>`
+- `<$ParkLg>`
+
+
+
+
 
 ## Park
 

@@ -17,6 +17,17 @@ include('material-4/Device/AccessAlarms')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AccessAlarmsXs>`
+- `<$AccessAlarmsSm>`
+- `<$AccessAlarmsMd>`
+- `<$AccessAlarmsLg>`
+
+
+
+
 
 ## AccessAlarms
 

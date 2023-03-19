@@ -17,6 +17,17 @@ include('material-4/Places/Stairs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StairsXs>`
+- `<$StairsSm>`
+- `<$StairsMd>`
+- `<$StairsLg>`
+
+
+
+
 
 ## Stairs
 

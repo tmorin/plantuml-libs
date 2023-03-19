@@ -17,6 +17,17 @@ include('material-4/Editor/InsertChartOutlined')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InsertChartOutlinedXs>`
+- `<$InsertChartOutlinedSm>`
+- `<$InsertChartOutlinedMd>`
+- `<$InsertChartOutlinedLg>`
+
+
+
+
 
 ## InsertChartOutlined
 

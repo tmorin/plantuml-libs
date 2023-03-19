@@ -17,6 +17,17 @@ include('material-4/Hardware/Scanner')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ScannerXs>`
+- `<$ScannerSm>`
+- `<$ScannerMd>`
+- `<$ScannerLg>`
+
+
+
+
 
 ## Scanner
 

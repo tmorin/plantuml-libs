@@ -17,6 +17,17 @@ include('material-4/File/Folder')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FolderXs>`
+- `<$FolderSm>`
+- `<$FolderMd>`
+- `<$FolderLg>`
+
+
+
+
 
 ## Folder
 

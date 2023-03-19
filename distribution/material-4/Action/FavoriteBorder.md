@@ -17,6 +17,17 @@ include('material-4/Action/FavoriteBorder')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FavoriteBorderXs>`
+- `<$FavoriteBorderSm>`
+- `<$FavoriteBorderMd>`
+- `<$FavoriteBorderLg>`
+
+
+
+
 
 ## FavoriteBorder
 

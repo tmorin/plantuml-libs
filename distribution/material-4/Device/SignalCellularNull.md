@@ -17,6 +17,17 @@ include('material-4/Device/SignalCellularNull')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SignalCellularNullXs>`
+- `<$SignalCellularNullSm>`
+- `<$SignalCellularNullMd>`
+- `<$SignalCellularNullLg>`
+
+
+
+
 
 ## SignalCellularNull
 

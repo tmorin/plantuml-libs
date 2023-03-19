@@ -17,6 +17,17 @@ include('material-4/Av/Games')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GamesXs>`
+- `<$GamesSm>`
+- `<$GamesMd>`
+- `<$GamesLg>`
+
+
+
+
 
 ## Games
 

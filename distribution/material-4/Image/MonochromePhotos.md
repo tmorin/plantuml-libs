@@ -17,6 +17,17 @@ include('material-4/Image/MonochromePhotos')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MonochromePhotosXs>`
+- `<$MonochromePhotosSm>`
+- `<$MonochromePhotosMd>`
+- `<$MonochromePhotosLg>`
+
+
+
+
 
 ## MonochromePhotos
 

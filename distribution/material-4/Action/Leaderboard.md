@@ -17,6 +17,17 @@ include('material-4/Action/Leaderboard')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LeaderboardXs>`
+- `<$LeaderboardSm>`
+- `<$LeaderboardMd>`
+- `<$LeaderboardLg>`
+
+
+
+
 
 ## Leaderboard
 

@@ -17,6 +17,17 @@ include('material-4/Av/VolumeMute')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VolumeMuteXs>`
+- `<$VolumeMuteSm>`
+- `<$VolumeMuteMd>`
+- `<$VolumeMuteLg>`
+
+
+
+
 
 ## VolumeMute
 

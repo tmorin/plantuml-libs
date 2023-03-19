@@ -17,6 +17,17 @@ include('material-4/Hardware/BrowserNotSupported')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BrowserNotSupportedXs>`
+- `<$BrowserNotSupportedSm>`
+- `<$BrowserNotSupportedMd>`
+- `<$BrowserNotSupportedLg>`
+
+
+
+
 
 ## BrowserNotSupported
 

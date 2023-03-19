@@ -17,6 +17,17 @@ include('material-4/Social/ReduceCapacity')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ReduceCapacityXs>`
+- `<$ReduceCapacitySm>`
+- `<$ReduceCapacityMd>`
+- `<$ReduceCapacityLg>`
+
+
+
+
 
 ## ReduceCapacity
 

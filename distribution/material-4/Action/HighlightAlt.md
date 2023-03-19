@@ -17,6 +17,17 @@ include('material-4/Action/HighlightAlt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HighlightAltXs>`
+- `<$HighlightAltSm>`
+- `<$HighlightAltMd>`
+- `<$HighlightAltLg>`
+
+
+
+
 
 ## HighlightAlt
 

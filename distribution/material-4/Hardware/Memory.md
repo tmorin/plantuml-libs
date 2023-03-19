@@ -17,6 +17,17 @@ include('material-4/Hardware/Memory')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MemoryXs>`
+- `<$MemorySm>`
+- `<$MemoryMd>`
+- `<$MemoryLg>`
+
+
+
+
 
 ## Memory
 

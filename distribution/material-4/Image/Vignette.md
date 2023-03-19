@@ -17,6 +17,17 @@ include('material-4/Image/Vignette')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VignetteXs>`
+- `<$VignetteSm>`
+- `<$VignetteMd>`
+- `<$VignetteLg>`
+
+
+
+
 
 ## Vignette
 

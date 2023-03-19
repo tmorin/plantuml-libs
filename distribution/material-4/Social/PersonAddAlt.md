@@ -17,6 +17,17 @@ include('material-4/Social/PersonAddAlt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PersonAddAltXs>`
+- `<$PersonAddAltSm>`
+- `<$PersonAddAltMd>`
+- `<$PersonAddAltLg>`
+
+
+
+
 
 ## PersonAddAlt
 

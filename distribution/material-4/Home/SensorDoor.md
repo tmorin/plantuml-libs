@@ -17,6 +17,17 @@ include('material-4/Home/SensorDoor')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SensorDoorXs>`
+- `<$SensorDoorSm>`
+- `<$SensorDoorMd>`
+- `<$SensorDoorLg>`
+
+
+
+
 
 ## SensorDoor
 

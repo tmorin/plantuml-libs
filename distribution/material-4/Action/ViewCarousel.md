@@ -17,6 +17,17 @@ include('material-4/Action/ViewCarousel')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ViewCarouselXs>`
+- `<$ViewCarouselSm>`
+- `<$ViewCarouselMd>`
+- `<$ViewCarouselLg>`
+
+
+
+
 
 ## ViewCarousel
 

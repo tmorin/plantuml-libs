@@ -17,6 +17,17 @@ include('material-4/Hardware/Headset')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HeadsetXs>`
+- `<$HeadsetSm>`
+- `<$HeadsetMd>`
+- `<$HeadsetLg>`
+
+
+
+
 
 ## Headset
 

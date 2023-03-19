@@ -17,6 +17,17 @@ include('material-4/Action/FlightLand')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FlightLandXs>`
+- `<$FlightLandSm>`
+- `<$FlightLandMd>`
+- `<$FlightLandLg>`
+
+
+
+
 
 ## FlightLand
 

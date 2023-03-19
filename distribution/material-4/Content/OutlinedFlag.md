@@ -17,6 +17,17 @@ include('material-4/Content/OutlinedFlag')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OutlinedFlagXs>`
+- `<$OutlinedFlagSm>`
+- `<$OutlinedFlagMd>`
+- `<$OutlinedFlagLg>`
+
+
+
+
 
 ## OutlinedFlag
 

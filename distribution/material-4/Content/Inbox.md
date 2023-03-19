@@ -17,6 +17,17 @@ include('material-4/Content/Inbox')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InboxXs>`
+- `<$InboxSm>`
+- `<$InboxMd>`
+- `<$InboxLg>`
+
+
+
+
 
 ## Inbox
 

@@ -17,6 +17,17 @@ include('material-4/Maps/Hotel')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HotelXs>`
+- `<$HotelSm>`
+- `<$HotelMd>`
+- `<$HotelLg>`
+
+
+
+
 
 ## Hotel
 

@@ -17,6 +17,17 @@ include('material-4/Content/ContentCopy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ContentCopyXs>`
+- `<$ContentCopySm>`
+- `<$ContentCopyMd>`
+- `<$ContentCopyLg>`
+
+
+
+
 
 ## ContentCopy
 

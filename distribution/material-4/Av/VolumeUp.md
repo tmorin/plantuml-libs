@@ -17,6 +17,17 @@ include('material-4/Av/VolumeUp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VolumeUpXs>`
+- `<$VolumeUpSm>`
+- `<$VolumeUpMd>`
+- `<$VolumeUpLg>`
+
+
+
+
 
 ## VolumeUp
 

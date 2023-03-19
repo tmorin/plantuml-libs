@@ -17,6 +17,17 @@ include('material-4/Action/ScheduleSend')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ScheduleSendXs>`
+- `<$ScheduleSendSm>`
+- `<$ScheduleSendMd>`
+- `<$ScheduleSendLg>`
+
+
+
+
 
 ## ScheduleSend
 

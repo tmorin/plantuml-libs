@@ -17,6 +17,17 @@ include('material-4/Action/FlipToBack')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FlipToBackXs>`
+- `<$FlipToBackSm>`
+- `<$FlipToBackMd>`
+- `<$FlipToBackLg>`
+
+
+
+
 
 ## FlipToBack
 

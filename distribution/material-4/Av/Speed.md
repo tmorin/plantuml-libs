@@ -17,6 +17,17 @@ include('material-4/Av/Speed')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SpeedXs>`
+- `<$SpeedSm>`
+- `<$SpeedMd>`
+- `<$SpeedLg>`
+
+
+
+
 
 ## Speed
 

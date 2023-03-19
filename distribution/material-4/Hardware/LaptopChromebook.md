@@ -17,6 +17,17 @@ include('material-4/Hardware/LaptopChromebook')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LaptopChromebookXs>`
+- `<$LaptopChromebookSm>`
+- `<$LaptopChromebookMd>`
+- `<$LaptopChromebookLg>`
+
+
+
+
 
 ## LaptopChromebook
 

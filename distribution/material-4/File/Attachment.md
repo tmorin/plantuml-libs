@@ -17,6 +17,17 @@ include('material-4/File/Attachment')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AttachmentXs>`
+- `<$AttachmentSm>`
+- `<$AttachmentMd>`
+- `<$AttachmentLg>`
+
+
+
+
 
 ## Attachment
 

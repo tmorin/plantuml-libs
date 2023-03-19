@@ -17,6 +17,17 @@ include('material-4/Action/Code')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CodeXs>`
+- `<$CodeSm>`
+- `<$CodeMd>`
+- `<$CodeLg>`
+
+
+
+
 
 ## Code
 

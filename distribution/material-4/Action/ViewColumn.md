@@ -17,6 +17,17 @@ include('material-4/Action/ViewColumn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ViewColumnXs>`
+- `<$ViewColumnSm>`
+- `<$ViewColumnMd>`
+- `<$ViewColumnLg>`
+
+
+
+
 
 ## ViewColumn
 

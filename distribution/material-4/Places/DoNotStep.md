@@ -17,6 +17,17 @@ include('material-4/Places/DoNotStep')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DoNotStepXs>`
+- `<$DoNotStepSm>`
+- `<$DoNotStepMd>`
+- `<$DoNotStepLg>`
+
+
+
+
 
 ## DoNotStep
 

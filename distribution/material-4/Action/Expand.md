@@ -17,6 +17,17 @@ include('material-4/Action/Expand')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ExpandXs>`
+- `<$ExpandSm>`
+- `<$ExpandMd>`
+- `<$ExpandLg>`
+
+
+
+
 
 ## Expand
 

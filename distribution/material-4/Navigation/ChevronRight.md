@@ -17,6 +17,17 @@ include('material-4/Navigation/ChevronRight')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChevronRightXs>`
+- `<$ChevronRightSm>`
+- `<$ChevronRightMd>`
+- `<$ChevronRightLg>`
+
+
+
+
 
 ## ChevronRight
 

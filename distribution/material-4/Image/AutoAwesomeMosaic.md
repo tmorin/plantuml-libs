@@ -17,6 +17,17 @@ include('material-4/Image/AutoAwesomeMosaic')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AutoAwesomeMosaicXs>`
+- `<$AutoAwesomeMosaicSm>`
+- `<$AutoAwesomeMosaicMd>`
+- `<$AutoAwesomeMosaicLg>`
+
+
+
+
 
 ## AutoAwesomeMosaic
 

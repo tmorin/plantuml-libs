@@ -17,6 +17,17 @@ include('material-4/Communication/CallMissedOutgoing')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CallMissedOutgoingXs>`
+- `<$CallMissedOutgoingSm>`
+- `<$CallMissedOutgoingMd>`
+- `<$CallMissedOutgoingLg>`
+
+
+
+
 
 ## CallMissedOutgoing
 

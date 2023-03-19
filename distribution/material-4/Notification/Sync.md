@@ -17,6 +17,17 @@ include('material-4/Notification/Sync')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SyncXs>`
+- `<$SyncSm>`
+- `<$SyncMd>`
+- `<$SyncLg>`
+
+
+
+
 
 ## Sync
 

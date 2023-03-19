@@ -17,6 +17,17 @@ include('material-4/Editor/SpaceBar')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SpaceBarXs>`
+- `<$SpaceBarSm>`
+- `<$SpaceBarMd>`
+- `<$SpaceBarLg>`
+
+
+
+
 
 ## SpaceBar
 

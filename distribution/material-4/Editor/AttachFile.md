@@ -17,6 +17,17 @@ include('material-4/Editor/AttachFile')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AttachFileXs>`
+- `<$AttachFileSm>`
+- `<$AttachFileMd>`
+- `<$AttachFileLg>`
+
+
+
+
 
 ## AttachFile
 

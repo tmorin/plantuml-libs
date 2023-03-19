@@ -17,6 +17,17 @@ include('material-4/Image/WbTwighlight')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WbTwighlightXs>`
+- `<$WbTwighlightSm>`
+- `<$WbTwighlightMd>`
+- `<$WbTwighlightLg>`
+
+
+
+
 
 ## WbTwighlight
 

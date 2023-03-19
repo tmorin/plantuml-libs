@@ -17,6 +17,17 @@ include('material-4/Action/Flaky')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FlakyXs>`
+- `<$FlakySm>`
+- `<$FlakyMd>`
+- `<$FlakyLg>`
+
+
+
+
 
 ## Flaky
 

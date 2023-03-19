@@ -17,6 +17,17 @@ include('material-4/Content/ReportOff')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ReportOffXs>`
+- `<$ReportOffSm>`
+- `<$ReportOffMd>`
+- `<$ReportOffLg>`
+
+
+
+
 
 ## ReportOff
 

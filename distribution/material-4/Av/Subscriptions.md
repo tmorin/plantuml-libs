@@ -17,6 +17,17 @@ include('material-4/Av/Subscriptions')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SubscriptionsXs>`
+- `<$SubscriptionsSm>`
+- `<$SubscriptionsMd>`
+- `<$SubscriptionsLg>`
+
+
+
+
 
 ## Subscriptions
 

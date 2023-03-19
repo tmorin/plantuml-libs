@@ -17,6 +17,17 @@ include('material-4/Notification/NetworkLocked')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NetworkLockedXs>`
+- `<$NetworkLockedSm>`
+- `<$NetworkLockedMd>`
+- `<$NetworkLockedLg>`
+
+
+
+
 
 ## NetworkLocked
 

@@ -17,6 +17,17 @@ include('material-4/Image/BlurLinear')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BlurLinearXs>`
+- `<$BlurLinearSm>`
+- `<$BlurLinearMd>`
+- `<$BlurLinearLg>`
+
+
+
+
 
 ## BlurLinear
 

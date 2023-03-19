@@ -17,6 +17,17 @@ include('material-4/Hardware/TabletAndroid')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TabletAndroidXs>`
+- `<$TabletAndroidSm>`
+- `<$TabletAndroidMd>`
+- `<$TabletAndroidLg>`
+
+
+
+
 
 ## TabletAndroid
 

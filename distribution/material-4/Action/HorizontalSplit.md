@@ -17,6 +17,17 @@ include('material-4/Action/HorizontalSplit')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HorizontalSplitXs>`
+- `<$HorizontalSplitSm>`
+- `<$HorizontalSplitMd>`
+- `<$HorizontalSplitLg>`
+
+
+
+
 
 ## HorizontalSplit
 

@@ -17,6 +17,17 @@ include('material-4/Action/CameraEnhance')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CameraEnhanceXs>`
+- `<$CameraEnhanceSm>`
+- `<$CameraEnhanceMd>`
+- `<$CameraEnhanceLg>`
+
+
+
+
 
 ## CameraEnhance
 

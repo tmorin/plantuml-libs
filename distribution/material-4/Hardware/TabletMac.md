@@ -17,6 +17,17 @@ include('material-4/Hardware/TabletMac')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TabletMacXs>`
+- `<$TabletMacSm>`
+- `<$TabletMacMd>`
+- `<$TabletMacLg>`
+
+
+
+
 
 ## TabletMac
 

@@ -17,6 +17,17 @@ include('material-4/Av/Forward10')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$Forward10Xs>`
+- `<$Forward10Sm>`
+- `<$Forward10Md>`
+- `<$Forward10Lg>`
+
+
+
+
 
 ## Forward10
 

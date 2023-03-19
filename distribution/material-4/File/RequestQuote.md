@@ -17,6 +17,17 @@ include('material-4/File/RequestQuote')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RequestQuoteXs>`
+- `<$RequestQuoteSm>`
+- `<$RequestQuoteMd>`
+- `<$RequestQuoteLg>`
+
+
+
+
 
 ## RequestQuote
 

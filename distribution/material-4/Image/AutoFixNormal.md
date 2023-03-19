@@ -17,6 +17,17 @@ include('material-4/Image/AutoFixNormal')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AutoFixNormalXs>`
+- `<$AutoFixNormalSm>`
+- `<$AutoFixNormalMd>`
+- `<$AutoFixNormalLg>`
+
+
+
+
 
 ## AutoFixNormal
 

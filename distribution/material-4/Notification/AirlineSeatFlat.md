@@ -17,6 +17,17 @@ include('material-4/Notification/AirlineSeatFlat')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AirlineSeatFlatXs>`
+- `<$AirlineSeatFlatSm>`
+- `<$AirlineSeatFlatMd>`
+- `<$AirlineSeatFlatLg>`
+
+
+
+
 
 ## AirlineSeatFlat
 

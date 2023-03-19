@@ -17,6 +17,17 @@ include('material-4/Av/Videocam')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VideocamXs>`
+- `<$VideocamSm>`
+- `<$VideocamMd>`
+- `<$VideocamLg>`
+
+
+
+
 
 ## Videocam
 

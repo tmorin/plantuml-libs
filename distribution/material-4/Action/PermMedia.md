@@ -17,6 +17,17 @@ include('material-4/Action/PermMedia')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PermMediaXs>`
+- `<$PermMediaSm>`
+- `<$PermMediaMd>`
+- `<$PermMediaLg>`
+
+
+
+
 
 ## PermMedia
 

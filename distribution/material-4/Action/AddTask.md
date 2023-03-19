@@ -17,6 +17,17 @@ include('material-4/Action/AddTask')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AddTaskXs>`
+- `<$AddTaskSm>`
+- `<$AddTaskMd>`
+- `<$AddTaskLg>`
+
+
+
+
 
 ## AddTask
 

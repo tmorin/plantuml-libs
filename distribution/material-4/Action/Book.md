@@ -17,6 +17,17 @@ include('material-4/Action/Book')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BookXs>`
+- `<$BookSm>`
+- `<$BookMd>`
+- `<$BookLg>`
+
+
+
+
 
 ## Book
 

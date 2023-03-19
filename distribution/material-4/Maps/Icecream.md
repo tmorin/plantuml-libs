@@ -17,6 +17,17 @@ include('material-4/Maps/Icecream')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IcecreamXs>`
+- `<$IcecreamSm>`
+- `<$IcecreamMd>`
+- `<$IcecreamLg>`
+
+
+
+
 
 ## Icecream
 

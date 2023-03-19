@@ -17,6 +17,17 @@ include('material-4/Action/SettingsCell')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SettingsCellXs>`
+- `<$SettingsCellSm>`
+- `<$SettingsCellMd>`
+- `<$SettingsCellLg>`
+
+
+
+
 
 ## SettingsCell
 

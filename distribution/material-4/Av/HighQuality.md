@@ -17,6 +17,17 @@ include('material-4/Av/HighQuality')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HighQualityXs>`
+- `<$HighQualitySm>`
+- `<$HighQualityMd>`
+- `<$HighQualityLg>`
+
+
+
+
 
 ## HighQuality
 

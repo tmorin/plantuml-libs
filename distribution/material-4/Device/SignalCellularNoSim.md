@@ -17,6 +17,17 @@ include('material-4/Device/SignalCellularNoSim')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SignalCellularNoSimXs>`
+- `<$SignalCellularNoSimSm>`
+- `<$SignalCellularNoSimMd>`
+- `<$SignalCellularNoSimLg>`
+
+
+
+
 
 ## SignalCellularNoSim
 

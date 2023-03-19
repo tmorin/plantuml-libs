@@ -17,6 +17,17 @@ include('material-4/Av/SkipPrevious')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SkipPreviousXs>`
+- `<$SkipPreviousSm>`
+- `<$SkipPreviousMd>`
+- `<$SkipPreviousLg>`
+
+
+
+
 
 ## SkipPrevious
 

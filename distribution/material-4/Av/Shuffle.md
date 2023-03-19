@@ -17,6 +17,17 @@ include('material-4/Av/Shuffle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShuffleXs>`
+- `<$ShuffleSm>`
+- `<$ShuffleMd>`
+- `<$ShuffleLg>`
+
+
+
+
 
 ## Shuffle
 

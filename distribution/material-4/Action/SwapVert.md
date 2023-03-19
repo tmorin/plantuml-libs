@@ -17,6 +17,17 @@ include('material-4/Action/SwapVert')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SwapVertXs>`
+- `<$SwapVertSm>`
+- `<$SwapVertMd>`
+- `<$SwapVertLg>`
+
+
+
+
 
 ## SwapVert
 

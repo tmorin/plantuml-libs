@@ -17,6 +17,17 @@ include('material-4/Social/EmojiTransportation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EmojiTransportationXs>`
+- `<$EmojiTransportationSm>`
+- `<$EmojiTransportationMd>`
+- `<$EmojiTransportationLg>`
+
+
+
+
 
 ## EmojiTransportation
 

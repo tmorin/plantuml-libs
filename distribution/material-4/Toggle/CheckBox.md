@@ -17,6 +17,17 @@ include('material-4/Toggle/CheckBox')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CheckBoxXs>`
+- `<$CheckBoxSm>`
+- `<$CheckBoxMd>`
+- `<$CheckBoxLg>`
+
+
+
+
 
 ## CheckBox
 

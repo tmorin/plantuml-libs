@@ -17,6 +17,17 @@ include('material-4/Av/SortByAlpha')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SortByAlphaXs>`
+- `<$SortByAlphaSm>`
+- `<$SortByAlphaMd>`
+- `<$SortByAlphaLg>`
+
+
+
+
 
 ## SortByAlpha
 

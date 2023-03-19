@@ -17,6 +17,17 @@ include('material-4/Image/FlipCameraAndroid')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FlipCameraAndroidXs>`
+- `<$FlipCameraAndroidSm>`
+- `<$FlipCameraAndroidMd>`
+- `<$FlipCameraAndroidLg>`
+
+
+
+
 
 ## FlipCameraAndroid
 

@@ -17,6 +17,17 @@ include('material-4/Action/Opacity')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OpacityXs>`
+- `<$OpacitySm>`
+- `<$OpacityMd>`
+- `<$OpacityLg>`
+
+
+
+
 
 ## Opacity
 

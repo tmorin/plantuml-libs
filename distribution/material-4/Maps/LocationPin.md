@@ -17,6 +17,17 @@ include('material-4/Maps/LocationPin')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LocationPinXs>`
+- `<$LocationPinSm>`
+- `<$LocationPinMd>`
+- `<$LocationPinLg>`
+
+
+
+
 
 ## LocationPin
 

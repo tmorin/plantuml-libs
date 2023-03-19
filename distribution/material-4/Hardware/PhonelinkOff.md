@@ -17,6 +17,17 @@ include('material-4/Hardware/PhonelinkOff')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PhonelinkOffXs>`
+- `<$PhonelinkOffSm>`
+- `<$PhonelinkOffMd>`
+- `<$PhonelinkOffLg>`
+
+
+
+
 
 ## PhonelinkOff
 

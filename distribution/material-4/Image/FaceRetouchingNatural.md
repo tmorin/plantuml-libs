@@ -17,6 +17,17 @@ include('material-4/Image/FaceRetouchingNatural')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FaceRetouchingNaturalXs>`
+- `<$FaceRetouchingNaturalSm>`
+- `<$FaceRetouchingNaturalMd>`
+- `<$FaceRetouchingNaturalLg>`
+
+
+
+
 
 ## FaceRetouchingNatural
 

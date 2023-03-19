@@ -17,6 +17,17 @@ include('material-4/Action/TrendingUp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TrendingUpXs>`
+- `<$TrendingUpSm>`
+- `<$TrendingUpMd>`
+- `<$TrendingUpLg>`
+
+
+
+
 
 ## TrendingUp
 

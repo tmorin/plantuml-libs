@@ -17,6 +17,17 @@ include('material-4/Maps/TwoWheeler')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TwoWheelerXs>`
+- `<$TwoWheelerSm>`
+- `<$TwoWheelerMd>`
+- `<$TwoWheelerLg>`
+
+
+
+
 
 ## TwoWheeler
 

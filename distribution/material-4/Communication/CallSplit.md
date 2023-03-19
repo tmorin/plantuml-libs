@@ -17,6 +17,17 @@ include('material-4/Communication/CallSplit')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CallSplitXs>`
+- `<$CallSplitSm>`
+- `<$CallSplitMd>`
+- `<$CallSplitLg>`
+
+
+
+
 
 ## CallSplit
 

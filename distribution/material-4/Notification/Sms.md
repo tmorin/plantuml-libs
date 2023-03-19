@@ -17,6 +17,17 @@ include('material-4/Notification/Sms')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SmsXs>`
+- `<$SmsSm>`
+- `<$SmsMd>`
+- `<$SmsLg>`
+
+
+
+
 
 ## Sms
 

@@ -17,6 +17,17 @@ include('material-4/Hardware/DesktopWindows')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DesktopWindowsXs>`
+- `<$DesktopWindowsSm>`
+- `<$DesktopWindowsMd>`
+- `<$DesktopWindowsLg>`
+
+
+
+
 
 ## DesktopWindows
 

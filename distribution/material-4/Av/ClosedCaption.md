@@ -17,6 +17,17 @@ include('material-4/Av/ClosedCaption')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ClosedCaptionXs>`
+- `<$ClosedCaptionSm>`
+- `<$ClosedCaptionMd>`
+- `<$ClosedCaptionLg>`
+
+
+
+
 
 ## ClosedCaption
 

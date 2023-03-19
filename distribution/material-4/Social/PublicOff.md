@@ -17,6 +17,17 @@ include('material-4/Social/PublicOff')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PublicOffXs>`
+- `<$PublicOffSm>`
+- `<$PublicOffMd>`
+- `<$PublicOffLg>`
+
+
+
+
 
 ## PublicOff
 

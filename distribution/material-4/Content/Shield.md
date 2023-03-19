@@ -17,6 +17,17 @@ include('material-4/Content/Shield')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShieldXs>`
+- `<$ShieldSm>`
+- `<$ShieldMd>`
+- `<$ShieldLg>`
+
+
+
+
 
 ## Shield
 

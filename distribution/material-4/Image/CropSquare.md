@@ -17,6 +17,17 @@ include('material-4/Image/CropSquare')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CropSquareXs>`
+- `<$CropSquareSm>`
+- `<$CropSquareMd>`
+- `<$CropSquareLg>`
+
+
+
+
 
 ## CropSquare
 

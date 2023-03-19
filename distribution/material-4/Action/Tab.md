@@ -17,6 +17,17 @@ include('material-4/Action/Tab')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TabXs>`
+- `<$TabSm>`
+- `<$TabMd>`
+- `<$TabLg>`
+
+
+
+
 
 ## Tab
 

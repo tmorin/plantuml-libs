@@ -17,6 +17,17 @@ include('material-4/Notification/SmsFailed')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SmsFailedXs>`
+- `<$SmsFailedSm>`
+- `<$SmsFailedMd>`
+- `<$SmsFailedLg>`
+
+
+
+
 
 ## SmsFailed
 

@@ -17,6 +17,17 @@ include('material-4/Image/CropOriginal')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CropOriginalXs>`
+- `<$CropOriginalSm>`
+- `<$CropOriginalMd>`
+- `<$CropOriginalLg>`
+
+
+
+
 
 ## CropOriginal
 

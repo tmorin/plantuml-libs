@@ -17,6 +17,17 @@ include('material-4/Maps/AddBusiness')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AddBusinessXs>`
+- `<$AddBusinessSm>`
+- `<$AddBusinessMd>`
+- `<$AddBusinessLg>`
+
+
+
+
 
 ## AddBusiness
 

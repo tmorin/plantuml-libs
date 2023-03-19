@@ -17,6 +17,17 @@ include('material-4/Maps/EvStation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EvStationXs>`
+- `<$EvStationSm>`
+- `<$EvStationMd>`
+- `<$EvStationLg>`
+
+
+
+
 
 ## EvStation
 

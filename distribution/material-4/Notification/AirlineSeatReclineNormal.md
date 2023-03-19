@@ -17,6 +17,17 @@ include('material-4/Notification/AirlineSeatReclineNormal')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AirlineSeatReclineNormalXs>`
+- `<$AirlineSeatReclineNormalSm>`
+- `<$AirlineSeatReclineNormalMd>`
+- `<$AirlineSeatReclineNormalLg>`
+
+
+
+
 
 ## AirlineSeatReclineNormal
 

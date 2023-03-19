@@ -17,6 +17,17 @@ include('material-4/Image/Tune')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TuneXs>`
+- `<$TuneSm>`
+- `<$TuneMd>`
+- `<$TuneLg>`
+
+
+
+
 
 ## Tune
 

@@ -17,6 +17,17 @@ include('material-4/Alert/NotificationImportant')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NotificationImportantXs>`
+- `<$NotificationImportantSm>`
+- `<$NotificationImportantMd>`
+- `<$NotificationImportantLg>`
+
+
+
+
 
 ## NotificationImportant
 

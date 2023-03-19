@@ -17,6 +17,17 @@ include('material-4/Device/MobileOff')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MobileOffXs>`
+- `<$MobileOffSm>`
+- `<$MobileOffMd>`
+- `<$MobileOffLg>`
+
+
+
+
 
 ## MobileOff
 

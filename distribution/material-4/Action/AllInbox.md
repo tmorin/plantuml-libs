@@ -17,6 +17,17 @@ include('material-4/Action/AllInbox')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AllInboxXs>`
+- `<$AllInboxSm>`
+- `<$AllInboxMd>`
+- `<$AllInboxLg>`
+
+
+
+
 
 ## AllInbox
 

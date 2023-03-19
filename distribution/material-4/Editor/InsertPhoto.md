@@ -17,6 +17,17 @@ include('material-4/Editor/InsertPhoto')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InsertPhotoXs>`
+- `<$InsertPhotoSm>`
+- `<$InsertPhotoMd>`
+- `<$InsertPhotoLg>`
+
+
+
+
 
 ## InsertPhoto
 

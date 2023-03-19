@@ -17,6 +17,17 @@ include('material-4/Maps/StoreMallDirectory')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StoreMallDirectoryXs>`
+- `<$StoreMallDirectorySm>`
+- `<$StoreMallDirectoryMd>`
+- `<$StoreMallDirectoryLg>`
+
+
+
+
 
 ## StoreMallDirectory
 

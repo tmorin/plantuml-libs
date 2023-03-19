@@ -17,6 +17,17 @@ include('material-4/Editor/StackedLineChart')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StackedLineChartXs>`
+- `<$StackedLineChartSm>`
+- `<$StackedLineChartMd>`
+- `<$StackedLineChartLg>`
+
+
+
+
 
 ## StackedLineChart
 

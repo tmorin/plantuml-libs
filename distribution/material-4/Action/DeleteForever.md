@@ -17,6 +17,17 @@ include('material-4/Action/DeleteForever')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DeleteForeverXs>`
+- `<$DeleteForeverSm>`
+- `<$DeleteForeverMd>`
+- `<$DeleteForeverLg>`
+
+
+
+
 
 ## DeleteForever
 

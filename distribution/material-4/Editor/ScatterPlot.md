@@ -17,6 +17,17 @@ include('material-4/Editor/ScatterPlot')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ScatterPlotXs>`
+- `<$ScatterPlotSm>`
+- `<$ScatterPlotMd>`
+- `<$ScatterPlotLg>`
+
+
+
+
 
 ## ScatterPlot
 

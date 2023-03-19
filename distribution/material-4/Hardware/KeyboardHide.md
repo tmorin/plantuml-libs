@@ -17,6 +17,17 @@ include('material-4/Hardware/KeyboardHide')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KeyboardHideXs>`
+- `<$KeyboardHideSm>`
+- `<$KeyboardHideMd>`
+- `<$KeyboardHideLg>`
+
+
+
+
 
 ## KeyboardHide
 

@@ -17,6 +17,17 @@ include('material-4/Action/Feedback')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FeedbackXs>`
+- `<$FeedbackSm>`
+- `<$FeedbackMd>`
+- `<$FeedbackLg>`
+
+
+
+
 
 ## Feedback
 

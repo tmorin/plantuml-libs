@@ -17,6 +17,17 @@ include('material-4/Maps/LocalPostOffice')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LocalPostOfficeXs>`
+- `<$LocalPostOfficeSm>`
+- `<$LocalPostOfficeMd>`
+- `<$LocalPostOfficeLg>`
+
+
+
+
 
 ## LocalPostOffice
 

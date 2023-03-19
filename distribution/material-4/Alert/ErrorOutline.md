@@ -17,6 +17,17 @@ include('material-4/Alert/ErrorOutline')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ErrorOutlineXs>`
+- `<$ErrorOutlineSm>`
+- `<$ErrorOutlineMd>`
+- `<$ErrorOutlineLg>`
+
+
+
+
 
 ## ErrorOutline
 

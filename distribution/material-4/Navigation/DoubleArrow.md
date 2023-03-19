@@ -17,6 +17,17 @@ include('material-4/Navigation/DoubleArrow')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DoubleArrowXs>`
+- `<$DoubleArrowSm>`
+- `<$DoubleArrowMd>`
+- `<$DoubleArrowLg>`
+
+
+
+
 
 ## DoubleArrow
 

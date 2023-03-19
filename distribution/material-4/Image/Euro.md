@@ -17,6 +17,17 @@ include('material-4/Image/Euro')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EuroXs>`
+- `<$EuroSm>`
+- `<$EuroMd>`
+- `<$EuroLg>`
+
+
+
+
 
 ## Euro
 

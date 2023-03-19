@@ -17,6 +17,17 @@ include('material-4/Social/EmojiEvents')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EmojiEventsXs>`
+- `<$EmojiEventsSm>`
+- `<$EmojiEventsMd>`
+- `<$EmojiEventsLg>`
+
+
+
+
 
 ## EmojiEvents
 

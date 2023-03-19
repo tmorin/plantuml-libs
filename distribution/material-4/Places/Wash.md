@@ -17,6 +17,17 @@ include('material-4/Places/Wash')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WashXs>`
+- `<$WashSm>`
+- `<$WashMd>`
+- `<$WashLg>`
+
+
+
+
 
 ## Wash
 

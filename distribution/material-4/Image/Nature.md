@@ -17,6 +17,17 @@ include('material-4/Image/Nature')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NatureXs>`
+- `<$NatureSm>`
+- `<$NatureMd>`
+- `<$NatureLg>`
+
+
+
+
 
 ## Nature
 

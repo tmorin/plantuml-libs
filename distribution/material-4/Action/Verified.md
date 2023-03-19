@@ -17,6 +17,17 @@ include('material-4/Action/Verified')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VerifiedXs>`
+- `<$VerifiedSm>`
+- `<$VerifiedMd>`
+- `<$VerifiedLg>`
+
+
+
+
 
 ## Verified
 

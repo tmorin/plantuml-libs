@@ -17,6 +17,17 @@ include('material-4/Communication/PhonelinkErase')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PhonelinkEraseXs>`
+- `<$PhonelinkEraseSm>`
+- `<$PhonelinkEraseMd>`
+- `<$PhonelinkEraseLg>`
+
+
+
+
 
 ## PhonelinkErase
 

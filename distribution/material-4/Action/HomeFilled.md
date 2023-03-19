@@ -17,6 +17,17 @@ include('material-4/Action/HomeFilled')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HomeFilledXs>`
+- `<$HomeFilledSm>`
+- `<$HomeFilledMd>`
+- `<$HomeFilledLg>`
+
+
+
+
 
 ## HomeFilled
 

@@ -17,6 +17,17 @@ include('material-4/Notification/DriveEta')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DriveEtaXs>`
+- `<$DriveEtaSm>`
+- `<$DriveEtaMd>`
+- `<$DriveEtaLg>`
+
+
+
+
 
 ## DriveEta
 

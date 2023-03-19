@@ -17,6 +17,17 @@ include('material-4/Notification/SupportAgent')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SupportAgentXs>`
+- `<$SupportAgentSm>`
+- `<$SupportAgentMd>`
+- `<$SupportAgentLg>`
+
+
+
+
 
 ## SupportAgent
 

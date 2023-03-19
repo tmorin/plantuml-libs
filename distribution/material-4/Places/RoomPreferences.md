@@ -17,6 +17,17 @@ include('material-4/Places/RoomPreferences')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RoomPreferencesXs>`
+- `<$RoomPreferencesSm>`
+- `<$RoomPreferencesMd>`
+- `<$RoomPreferencesLg>`
+
+
+
+
 
 ## RoomPreferences
 

@@ -17,6 +17,17 @@ include('material-4/Maps/LocalOffer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LocalOfferXs>`
+- `<$LocalOfferSm>`
+- `<$LocalOfferMd>`
+- `<$LocalOfferLg>`
+
+
+
+
 
 ## LocalOffer
 

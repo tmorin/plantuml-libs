@@ -17,6 +17,17 @@ include('material-4/Action/SettingsInputHdmi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SettingsInputHdmiXs>`
+- `<$SettingsInputHdmiSm>`
+- `<$SettingsInputHdmiMd>`
+- `<$SettingsInputHdmiLg>`
+
+
+
+
 
 ## SettingsInputHdmi
 

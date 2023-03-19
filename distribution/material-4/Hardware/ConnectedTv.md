@@ -17,6 +17,17 @@ include('material-4/Hardware/ConnectedTv')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ConnectedTvXs>`
+- `<$ConnectedTvSm>`
+- `<$ConnectedTvMd>`
+- `<$ConnectedTvLg>`
+
+
+
+
 
 ## ConnectedTv
 

@@ -17,6 +17,17 @@ include('material-4/Editor/TableChart')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TableChartXs>`
+- `<$TableChartSm>`
+- `<$TableChartMd>`
+- `<$TableChartLg>`
+
+
+
+
 
 ## TableChart
 

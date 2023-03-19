@@ -17,6 +17,17 @@ include('material-4/Device/BrightnessAuto')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BrightnessAutoXs>`
+- `<$BrightnessAutoSm>`
+- `<$BrightnessAutoMd>`
+- `<$BrightnessAutoLg>`
+
+
+
+
 
 ## BrightnessAuto
 

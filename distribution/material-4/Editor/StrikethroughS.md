@@ -17,6 +17,17 @@ include('material-4/Editor/StrikethroughS')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StrikethroughSXs>`
+- `<$StrikethroughSSm>`
+- `<$StrikethroughSMd>`
+- `<$StrikethroughSLg>`
+
+
+
+
 
 ## StrikethroughS
 

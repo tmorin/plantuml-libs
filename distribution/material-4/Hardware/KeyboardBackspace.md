@@ -17,6 +17,17 @@ include('material-4/Hardware/KeyboardBackspace')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KeyboardBackspaceXs>`
+- `<$KeyboardBackspaceSm>`
+- `<$KeyboardBackspaceMd>`
+- `<$KeyboardBackspaceLg>`
+
+
+
+
 
 ## KeyboardBackspace
 

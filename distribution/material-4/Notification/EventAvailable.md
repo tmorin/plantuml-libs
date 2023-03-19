@@ -17,6 +17,17 @@ include('material-4/Notification/EventAvailable')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EventAvailableXs>`
+- `<$EventAvailableSm>`
+- `<$EventAvailableMd>`
+- `<$EventAvailableLg>`
+
+
+
+
 
 ## EventAvailable
 

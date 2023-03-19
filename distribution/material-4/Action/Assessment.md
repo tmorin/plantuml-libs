@@ -17,6 +17,17 @@ include('material-4/Action/Assessment')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AssessmentXs>`
+- `<$AssessmentSm>`
+- `<$AssessmentMd>`
+- `<$AssessmentLg>`
+
+
+
+
 
 ## Assessment
 

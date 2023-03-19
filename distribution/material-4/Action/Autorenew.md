@@ -17,6 +17,17 @@ include('material-4/Action/Autorenew')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AutorenewXs>`
+- `<$AutorenewSm>`
+- `<$AutorenewMd>`
+- `<$AutorenewLg>`
+
+
+
+
 
 ## Autorenew
 

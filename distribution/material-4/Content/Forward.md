@@ -17,6 +17,17 @@ include('material-4/Content/Forward')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ForwardXs>`
+- `<$ForwardSm>`
+- `<$ForwardMd>`
+- `<$ForwardLg>`
+
+
+
+
 
 ## Forward
 

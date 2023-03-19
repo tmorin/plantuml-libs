@@ -17,6 +17,17 @@ include('material-4/Editor/FormatColorReset')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FormatColorResetXs>`
+- `<$FormatColorResetSm>`
+- `<$FormatColorResetMd>`
+- `<$FormatColorResetLg>`
+
+
+
+
 
 ## FormatColorReset
 

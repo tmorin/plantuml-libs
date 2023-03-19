@@ -17,6 +17,17 @@ include('material-4/Content/StackedBarChart')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StackedBarChartXs>`
+- `<$StackedBarChartSm>`
+- `<$StackedBarChartMd>`
+- `<$StackedBarChartLg>`
+
+
+
+
 
 ## StackedBarChart
 

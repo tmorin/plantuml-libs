@@ -17,6 +17,17 @@ include('material-4/Maps/Beenhere')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BeenhereXs>`
+- `<$BeenhereSm>`
+- `<$BeenhereMd>`
+- `<$BeenhereLg>`
+
+
+
+
 
 ## Beenhere
 

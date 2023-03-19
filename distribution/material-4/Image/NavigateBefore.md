@@ -17,6 +17,17 @@ include('material-4/Image/NavigateBefore')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NavigateBeforeXs>`
+- `<$NavigateBeforeSm>`
+- `<$NavigateBeforeMd>`
+- `<$NavigateBeforeLg>`
+
+
+
+
 
 ## NavigateBefore
 

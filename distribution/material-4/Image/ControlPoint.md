@@ -17,6 +17,17 @@ include('material-4/Image/ControlPoint')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ControlPointXs>`
+- `<$ControlPointSm>`
+- `<$ControlPointMd>`
+- `<$ControlPointLg>`
+
+
+
+
 
 ## ControlPoint
 

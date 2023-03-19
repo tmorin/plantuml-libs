@@ -17,6 +17,17 @@ include('material-4/Image/PhotoSizeSelectLarge')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PhotoSizeSelectLargeXs>`
+- `<$PhotoSizeSelectLargeSm>`
+- `<$PhotoSizeSelectLargeMd>`
+- `<$PhotoSizeSelectLargeLg>`
+
+
+
+
 
 ## PhotoSizeSelectLarge
 

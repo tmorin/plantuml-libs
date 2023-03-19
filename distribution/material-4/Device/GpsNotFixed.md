@@ -17,6 +17,17 @@ include('material-4/Device/GpsNotFixed')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GpsNotFixedXs>`
+- `<$GpsNotFixedSm>`
+- `<$GpsNotFixedMd>`
+- `<$GpsNotFixedLg>`
+
+
+
+
 
 ## GpsNotFixed
 

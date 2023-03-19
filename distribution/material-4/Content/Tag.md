@@ -17,6 +17,17 @@ include('material-4/Content/Tag')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TagXs>`
+- `<$TagSm>`
+- `<$TagMd>`
+- `<$TagLg>`
+
+
+
+
 
 ## Tag
 

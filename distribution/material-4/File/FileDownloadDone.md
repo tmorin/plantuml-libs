@@ -17,6 +17,17 @@ include('material-4/File/FileDownloadDone')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FileDownloadDoneXs>`
+- `<$FileDownloadDoneSm>`
+- `<$FileDownloadDoneMd>`
+- `<$FileDownloadDoneLg>`
+
+
+
+
 
 ## FileDownloadDone
 

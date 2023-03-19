@@ -17,6 +17,17 @@ include('material-4/Content/AmpStories')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmpStoriesXs>`
+- `<$AmpStoriesSm>`
+- `<$AmpStoriesMd>`
+- `<$AmpStoriesLg>`
+
+
+
+
 
 ## AmpStories
 

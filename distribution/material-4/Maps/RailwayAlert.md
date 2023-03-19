@@ -17,6 +17,17 @@ include('material-4/Maps/RailwayAlert')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RailwayAlertXs>`
+- `<$RailwayAlertSm>`
+- `<$RailwayAlertMd>`
+- `<$RailwayAlertLg>`
+
+
+
+
 
 ## RailwayAlert
 

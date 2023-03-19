@@ -17,6 +17,17 @@ include('material-4/Action/AssignmentReturn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AssignmentReturnXs>`
+- `<$AssignmentReturnSm>`
+- `<$AssignmentReturnMd>`
+- `<$AssignmentReturnLg>`
+
+
+
+
 
 ## AssignmentReturn
 

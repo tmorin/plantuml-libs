@@ -17,6 +17,17 @@ include('material-4/Action/FactCheck')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FactCheckXs>`
+- `<$FactCheckSm>`
+- `<$FactCheckMd>`
+- `<$FactCheckLg>`
+
+
+
+
 
 ## FactCheck
 

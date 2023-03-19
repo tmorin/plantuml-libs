@@ -17,6 +17,17 @@ include('material-4/Action/Https')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HttpsXs>`
+- `<$HttpsSm>`
+- `<$HttpsMd>`
+- `<$HttpsLg>`
+
+
+
+
 
 ## Https
 

@@ -17,6 +17,17 @@ include('material-4/Communication/MailOutline')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MailOutlineXs>`
+- `<$MailOutlineSm>`
+- `<$MailOutlineMd>`
+- `<$MailOutlineLg>`
+
+
+
+
 
 ## MailOutline
 

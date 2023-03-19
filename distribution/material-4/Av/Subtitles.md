@@ -17,6 +17,17 @@ include('material-4/Av/Subtitles')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SubtitlesXs>`
+- `<$SubtitlesSm>`
+- `<$SubtitlesMd>`
+- `<$SubtitlesLg>`
+
+
+
+
 
 ## Subtitles
 

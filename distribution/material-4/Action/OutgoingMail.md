@@ -17,6 +17,17 @@ include('material-4/Action/OutgoingMail')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OutgoingMailXs>`
+- `<$OutgoingMailSm>`
+- `<$OutgoingMailMd>`
+- `<$OutgoingMailLg>`
+
+
+
+
 
 ## OutgoingMail
 

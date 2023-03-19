@@ -17,6 +17,17 @@ include('material-4/Content/Reply')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ReplyXs>`
+- `<$ReplySm>`
+- `<$ReplyMd>`
+- `<$ReplyLg>`
+
+
+
+
 
 ## Reply
 

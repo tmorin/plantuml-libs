@@ -17,6 +17,17 @@ include('material-4/Places/Carpenter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CarpenterXs>`
+- `<$CarpenterSm>`
+- `<$CarpenterMd>`
+- `<$CarpenterLg>`
+
+
+
+
 
 ## Carpenter
 

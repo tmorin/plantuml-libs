@@ -17,6 +17,17 @@ include('material-4/Notification/DoNotDisturbOn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DoNotDisturbOnXs>`
+- `<$DoNotDisturbOnSm>`
+- `<$DoNotDisturbOnMd>`
+- `<$DoNotDisturbOnLg>`
+
+
+
+
 
 ## DoNotDisturbOn
 

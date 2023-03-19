@@ -17,6 +17,17 @@ include('material-4/Communication/PhonelinkRing')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PhonelinkRingXs>`
+- `<$PhonelinkRingSm>`
+- `<$PhonelinkRingMd>`
+- `<$PhonelinkRingLg>`
+
+
+
+
 
 ## PhonelinkRing
 

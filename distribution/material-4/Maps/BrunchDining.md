@@ -17,6 +17,17 @@ include('material-4/Maps/BrunchDining')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BrunchDiningXs>`
+- `<$BrunchDiningSm>`
+- `<$BrunchDiningMd>`
+- `<$BrunchDiningLg>`
+
+
+
+
 
 ## BrunchDining
 

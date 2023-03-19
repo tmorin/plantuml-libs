@@ -17,6 +17,17 @@ include('material-4/Content/Flag')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FlagXs>`
+- `<$FlagSm>`
+- `<$FlagMd>`
+- `<$FlagLg>`
+
+
+
+
 
 ## Flag
 

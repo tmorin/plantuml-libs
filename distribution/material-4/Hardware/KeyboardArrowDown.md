@@ -17,6 +17,17 @@ include('material-4/Hardware/KeyboardArrowDown')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KeyboardArrowDownXs>`
+- `<$KeyboardArrowDownSm>`
+- `<$KeyboardArrowDownMd>`
+- `<$KeyboardArrowDownLg>`
+
+
+
+
 
 ## KeyboardArrowDown
 

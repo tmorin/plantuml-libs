@@ -17,6 +17,17 @@ include('material-4/File/Topic')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TopicXs>`
+- `<$TopicSm>`
+- `<$TopicMd>`
+- `<$TopicLg>`
+
+
+
+
 
 ## Topic
 

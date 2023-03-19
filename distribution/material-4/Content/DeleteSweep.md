@@ -17,6 +17,17 @@ include('material-4/Content/DeleteSweep')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DeleteSweepXs>`
+- `<$DeleteSweepSm>`
+- `<$DeleteSweepMd>`
+- `<$DeleteSweepLg>`
+
+
+
+
 
 ## DeleteSweep
 

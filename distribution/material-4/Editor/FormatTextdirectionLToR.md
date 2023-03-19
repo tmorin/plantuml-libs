@@ -17,6 +17,17 @@ include('material-4/Editor/FormatTextdirectionLToR')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FormatTextdirectionLToRXs>`
+- `<$FormatTextdirectionLToRSm>`
+- `<$FormatTextdirectionLToRMd>`
+- `<$FormatTextdirectionLToRLg>`
+
+
+
+
 
 ## FormatTextdirectionLToR
 

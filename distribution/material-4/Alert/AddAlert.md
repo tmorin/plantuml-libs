@@ -17,6 +17,17 @@ include('material-4/Alert/AddAlert')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AddAlertXs>`
+- `<$AddAlertSm>`
+- `<$AddAlertMd>`
+- `<$AddAlertLg>`
+
+
+
+
 
 ## AddAlert
 

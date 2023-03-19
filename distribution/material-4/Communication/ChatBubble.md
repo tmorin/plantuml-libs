@@ -17,6 +17,17 @@ include('material-4/Communication/ChatBubble')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChatBubbleXs>`
+- `<$ChatBubbleSm>`
+- `<$ChatBubbleMd>`
+- `<$ChatBubbleLg>`
+
+
+
+
 
 ## ChatBubble
 

@@ -17,6 +17,17 @@ include('material-4/Action/NoteAdd')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NoteAddXs>`
+- `<$NoteAddSm>`
+- `<$NoteAddMd>`
+- `<$NoteAddLg>`
+
+
+
+
 
 ## NoteAdd
 

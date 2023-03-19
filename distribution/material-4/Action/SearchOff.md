@@ -17,6 +17,17 @@ include('material-4/Action/SearchOff')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SearchOffXs>`
+- `<$SearchOffSm>`
+- `<$SearchOffMd>`
+- `<$SearchOffLg>`
+
+
+
+
 
 ## SearchOff
 

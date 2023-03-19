@@ -17,6 +17,17 @@ include('material-4/Maps/RamenDining')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RamenDiningXs>`
+- `<$RamenDiningSm>`
+- `<$RamenDiningMd>`
+- `<$RamenDiningLg>`
+
+
+
+
 
 ## RamenDining
 

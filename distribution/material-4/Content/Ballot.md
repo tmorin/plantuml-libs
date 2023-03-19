@@ -17,6 +17,17 @@ include('material-4/Content/Ballot')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BallotXs>`
+- `<$BallotSm>`
+- `<$BallotMd>`
+- `<$BallotLg>`
+
+
+
+
 
 ## Ballot
 

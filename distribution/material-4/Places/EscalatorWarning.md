@@ -17,6 +17,17 @@ include('material-4/Places/EscalatorWarning')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EscalatorWarningXs>`
+- `<$EscalatorWarningSm>`
+- `<$EscalatorWarningMd>`
+- `<$EscalatorWarningLg>`
+
+
+
+
 
 ## EscalatorWarning
 

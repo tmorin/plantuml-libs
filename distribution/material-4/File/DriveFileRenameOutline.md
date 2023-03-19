@@ -17,6 +17,17 @@ include('material-4/File/DriveFileRenameOutline')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DriveFileRenameOutlineXs>`
+- `<$DriveFileRenameOutlineSm>`
+- `<$DriveFileRenameOutlineMd>`
+- `<$DriveFileRenameOutlineLg>`
+
+
+
+
 
 ## DriveFileRenameOutline
 

@@ -17,6 +17,17 @@ include('material-4/Social/Pages')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PagesXs>`
+- `<$PagesSm>`
+- `<$PagesMd>`
+- `<$PagesLg>`
+
+
+
+
 
 ## Pages
 

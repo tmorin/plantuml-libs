@@ -17,6 +17,17 @@ include('material-4/Content/FilterList')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FilterListXs>`
+- `<$FilterListSm>`
+- `<$FilterListMd>`
+- `<$FilterListLg>`
+
+
+
+
 
 ## FilterList
 

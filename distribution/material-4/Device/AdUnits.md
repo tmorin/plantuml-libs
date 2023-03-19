@@ -17,6 +17,17 @@ include('material-4/Device/AdUnits')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AdUnitsXs>`
+- `<$AdUnitsSm>`
+- `<$AdUnitsMd>`
+- `<$AdUnitsLg>`
+
+
+
+
 
 ## AdUnits
 

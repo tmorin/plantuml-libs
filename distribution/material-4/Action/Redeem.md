@@ -17,6 +17,17 @@ include('material-4/Action/Redeem')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RedeemXs>`
+- `<$RedeemSm>`
+- `<$RedeemMd>`
+- `<$RedeemLg>`
+
+
+
+
 
 ## Redeem
 

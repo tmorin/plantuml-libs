@@ -17,6 +17,17 @@ include('material-4/Device/BatteryStd')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BatteryStdXs>`
+- `<$BatteryStdSm>`
+- `<$BatteryStdMd>`
+- `<$BatteryStdLg>`
+
+
+
+
 
 ## BatteryStd
 

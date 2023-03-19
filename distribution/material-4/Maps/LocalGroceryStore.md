@@ -17,6 +17,17 @@ include('material-4/Maps/LocalGroceryStore')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LocalGroceryStoreXs>`
+- `<$LocalGroceryStoreSm>`
+- `<$LocalGroceryStoreMd>`
+- `<$LocalGroceryStoreLg>`
+
+
+
+
 
 ## LocalGroceryStore
 

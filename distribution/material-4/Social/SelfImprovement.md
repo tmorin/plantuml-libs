@@ -17,6 +17,17 @@ include('material-4/Social/SelfImprovement')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SelfImprovementXs>`
+- `<$SelfImprovementSm>`
+- `<$SelfImprovementMd>`
+- `<$SelfImprovementLg>`
+
+
+
+
 
 ## SelfImprovement
 

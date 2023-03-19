@@ -17,6 +17,17 @@ include('material-4/Notification/AirlineSeatLegroomReduced')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AirlineSeatLegroomReducedXs>`
+- `<$AirlineSeatLegroomReducedSm>`
+- `<$AirlineSeatLegroomReducedMd>`
+- `<$AirlineSeatLegroomReducedLg>`
+
+
+
+
 
 ## AirlineSeatLegroomReduced
 

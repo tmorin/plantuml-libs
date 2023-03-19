@@ -17,6 +17,17 @@ include('material-4/Action/FilePresent')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FilePresentXs>`
+- `<$FilePresentSm>`
+- `<$FilePresentMd>`
+- `<$FilePresentLg>`
+
+
+
+
 
 ## FilePresent
 

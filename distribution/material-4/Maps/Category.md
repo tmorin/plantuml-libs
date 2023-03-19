@@ -17,6 +17,17 @@ include('material-4/Maps/Category')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CategoryXs>`
+- `<$CategorySm>`
+- `<$CategoryMd>`
+- `<$CategoryLg>`
+
+
+
+
 
 ## Category
 

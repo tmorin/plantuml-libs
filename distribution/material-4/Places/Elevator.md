@@ -17,6 +17,17 @@ include('material-4/Places/Elevator')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ElevatorXs>`
+- `<$ElevatorSm>`
+- `<$ElevatorMd>`
+- `<$ElevatorLg>`
+
+
+
+
 
 ## Elevator
 

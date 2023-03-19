@@ -17,6 +17,17 @@ include('material-4/Places/Roofing')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RoofingXs>`
+- `<$RoofingSm>`
+- `<$RoofingMd>`
+- `<$RoofingLg>`
+
+
+
+
 
 ## Roofing
 

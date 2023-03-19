@@ -17,6 +17,17 @@ include('material-4/Communication/SentimentSatisfiedAlt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SentimentSatisfiedAltXs>`
+- `<$SentimentSatisfiedAltSm>`
+- `<$SentimentSatisfiedAltMd>`
+- `<$SentimentSatisfiedAltLg>`
+
+
+
+
 
 ## SentimentSatisfiedAlt
 

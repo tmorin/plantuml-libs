@@ -17,6 +17,17 @@ include('material-4/Notification/BluetoothAudio')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BluetoothAudioXs>`
+- `<$BluetoothAudioSm>`
+- `<$BluetoothAudioMd>`
+- `<$BluetoothAudioLg>`
+
+
+
+
 
 ## BluetoothAudio
 

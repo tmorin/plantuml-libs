@@ -17,6 +17,17 @@ include('material-4/Maps/ElectricalServices')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ElectricalServicesXs>`
+- `<$ElectricalServicesSm>`
+- `<$ElectricalServicesMd>`
+- `<$ElectricalServicesLg>`
+
+
+
+
 
 ## ElectricalServices
 

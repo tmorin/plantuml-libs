@@ -17,6 +17,17 @@ include('material-4/Image/MovieCreation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MovieCreationXs>`
+- `<$MovieCreationSm>`
+- `<$MovieCreationMd>`
+- `<$MovieCreationLg>`
+
+
+
+
 
 ## MovieCreation
 

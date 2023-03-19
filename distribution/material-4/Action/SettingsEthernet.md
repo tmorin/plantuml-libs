@@ -17,6 +17,17 @@ include('material-4/Action/SettingsEthernet')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SettingsEthernetXs>`
+- `<$SettingsEthernetSm>`
+- `<$SettingsEthernetMd>`
+- `<$SettingsEthernetLg>`
+
+
+
+
 
 ## SettingsEthernet
 

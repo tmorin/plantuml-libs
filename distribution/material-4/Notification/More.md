@@ -17,6 +17,17 @@ include('material-4/Notification/More')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MoreXs>`
+- `<$MoreSm>`
+- `<$MoreMd>`
+- `<$MoreLg>`
+
+
+
+
 
 ## More
 

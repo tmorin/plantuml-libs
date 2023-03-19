@@ -17,6 +17,17 @@ include('material-4/Maps/CompassCalibration')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CompassCalibrationXs>`
+- `<$CompassCalibrationSm>`
+- `<$CompassCalibrationMd>`
+- `<$CompassCalibrationLg>`
+
+
+
+
 
 ## CompassCalibration
 

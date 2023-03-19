@@ -17,6 +17,17 @@ include('material-4/Maps/Nightlife')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NightlifeXs>`
+- `<$NightlifeSm>`
+- `<$NightlifeMd>`
+- `<$NightlifeLg>`
+
+
+
+
 
 ## Nightlife
 

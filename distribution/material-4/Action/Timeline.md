@@ -17,6 +17,17 @@ include('material-4/Action/Timeline')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TimelineXs>`
+- `<$TimelineSm>`
+- `<$TimelineMd>`
+- `<$TimelineLg>`
+
+
+
+
 
 ## Timeline
 

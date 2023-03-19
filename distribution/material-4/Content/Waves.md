@@ -17,6 +17,17 @@ include('material-4/Content/Waves')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WavesXs>`
+- `<$WavesSm>`
+- `<$WavesMd>`
+- `<$WavesLg>`
+
+
+
+
 
 ## Waves
 

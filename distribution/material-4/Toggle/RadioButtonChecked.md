@@ -17,6 +17,17 @@ include('material-4/Toggle/RadioButtonChecked')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RadioButtonCheckedXs>`
+- `<$RadioButtonCheckedSm>`
+- `<$RadioButtonCheckedMd>`
+- `<$RadioButtonCheckedLg>`
+
+
+
+
 
 ## RadioButtonChecked
 

@@ -17,6 +17,17 @@ include('material-4/Action/ViewSidebar')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ViewSidebarXs>`
+- `<$ViewSidebarSm>`
+- `<$ViewSidebarMd>`
+- `<$ViewSidebarLg>`
+
+
+
+
 
 ## ViewSidebar
 

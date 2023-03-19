@@ -17,6 +17,17 @@ include('material-4/Maps/Museum')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MuseumXs>`
+- `<$MuseumSm>`
+- `<$MuseumMd>`
+- `<$MuseumLg>`
+
+
+
+
 
 ## Museum
 

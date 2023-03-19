@@ -17,6 +17,17 @@ include('material-4/Image/PhotoFilter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PhotoFilterXs>`
+- `<$PhotoFilterSm>`
+- `<$PhotoFilterMd>`
+- `<$PhotoFilterLg>`
+
+
+
+
 
 ## PhotoFilter
 

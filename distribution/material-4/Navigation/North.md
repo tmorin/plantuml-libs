@@ -17,6 +17,17 @@ include('material-4/Navigation/North')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NorthXs>`
+- `<$NorthSm>`
+- `<$NorthMd>`
+- `<$NorthLg>`
+
+
+
+
 
 ## North
 

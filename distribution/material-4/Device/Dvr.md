@@ -17,6 +17,17 @@ include('material-4/Device/Dvr')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DvrXs>`
+- `<$DvrSm>`
+- `<$DvrMd>`
+- `<$DvrLg>`
+
+
+
+
 
 ## Dvr
 

@@ -17,6 +17,17 @@ include('material-4/Communication/QrCodeScanner')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$QrCodeScannerXs>`
+- `<$QrCodeScannerSm>`
+- `<$QrCodeScannerMd>`
+- `<$QrCodeScannerLg>`
+
+
+
+
 
 ## QrCodeScanner
 

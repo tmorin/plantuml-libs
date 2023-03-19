@@ -17,6 +17,17 @@ include('material-4/File/FolderShared')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FolderSharedXs>`
+- `<$FolderSharedSm>`
+- `<$FolderSharedMd>`
+- `<$FolderSharedLg>`
+
+
+
+
 
 ## FolderShared
 

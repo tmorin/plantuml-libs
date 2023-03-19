@@ -17,6 +17,17 @@ include('material-4/Maps/Moped')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MopedXs>`
+- `<$MopedSm>`
+- `<$MopedMd>`
+- `<$MopedLg>`
+
+
+
+
 
 ## Moped
 

@@ -17,6 +17,17 @@ include('material-4/Hardware/KeyboardReturn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KeyboardReturnXs>`
+- `<$KeyboardReturnSm>`
+- `<$KeyboardReturnMd>`
+- `<$KeyboardReturnLg>`
+
+
+
+
 
 ## KeyboardReturn
 

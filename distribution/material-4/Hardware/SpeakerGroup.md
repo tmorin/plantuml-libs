@@ -17,6 +17,17 @@ include('material-4/Hardware/SpeakerGroup')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SpeakerGroupXs>`
+- `<$SpeakerGroupSm>`
+- `<$SpeakerGroupMd>`
+- `<$SpeakerGroupLg>`
+
+
+
+
 
 ## SpeakerGroup
 

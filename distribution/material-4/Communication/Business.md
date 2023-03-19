@@ -17,6 +17,17 @@ include('material-4/Communication/Business')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BusinessXs>`
+- `<$BusinessSm>`
+- `<$BusinessMd>`
+- `<$BusinessLg>`
+
+
+
+
 
 ## Business
 

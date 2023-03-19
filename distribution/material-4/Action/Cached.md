@@ -17,6 +17,17 @@ include('material-4/Action/Cached')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CachedXs>`
+- `<$CachedSm>`
+- `<$CachedMd>`
+- `<$CachedLg>`
+
+
+
+
 
 ## Cached
 

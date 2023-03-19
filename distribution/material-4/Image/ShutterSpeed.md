@@ -17,6 +17,17 @@ include('material-4/Image/ShutterSpeed')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShutterSpeedXs>`
+- `<$ShutterSpeedSm>`
+- `<$ShutterSpeedMd>`
+- `<$ShutterSpeedLg>`
+
+
+
+
 
 ## ShutterSpeed
 

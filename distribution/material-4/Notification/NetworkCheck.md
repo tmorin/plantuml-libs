@@ -17,6 +17,17 @@ include('material-4/Notification/NetworkCheck')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NetworkCheckXs>`
+- `<$NetworkCheckSm>`
+- `<$NetworkCheckMd>`
+- `<$NetworkCheckLg>`
+
+
+
+
 
 ## NetworkCheck
 

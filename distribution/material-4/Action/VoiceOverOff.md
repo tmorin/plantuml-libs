@@ -17,6 +17,17 @@ include('material-4/Action/VoiceOverOff')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VoiceOverOffXs>`
+- `<$VoiceOverOffSm>`
+- `<$VoiceOverOffMd>`
+- `<$VoiceOverOffLg>`
+
+
+
+
 
 ## VoiceOverOff
 

@@ -17,6 +17,17 @@ include('material-4/Action/GroupWork')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GroupWorkXs>`
+- `<$GroupWorkSm>`
+- `<$GroupWorkMd>`
+- `<$GroupWorkLg>`
+
+
+
+
 
 ## GroupWork
 

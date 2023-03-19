@@ -17,6 +17,17 @@ include('material-4/Editor/FormatItalic')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FormatItalicXs>`
+- `<$FormatItalicSm>`
+- `<$FormatItalicMd>`
+- `<$FormatItalicLg>`
+
+
+
+
 
 ## FormatItalic
 

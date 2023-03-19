@@ -17,6 +17,17 @@ include('material-4/Hardware/KeyboardCapslock')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KeyboardCapslockXs>`
+- `<$KeyboardCapslockSm>`
+- `<$KeyboardCapslockMd>`
+- `<$KeyboardCapslockLg>`
+
+
+
+
 
 ## KeyboardCapslock
 

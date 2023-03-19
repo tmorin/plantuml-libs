@@ -17,6 +17,17 @@ include('material-4/Social/EmojiSymbols')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EmojiSymbolsXs>`
+- `<$EmojiSymbolsSm>`
+- `<$EmojiSymbolsMd>`
+- `<$EmojiSymbolsLg>`
+
+
+
+
 
 ## EmojiSymbols
 

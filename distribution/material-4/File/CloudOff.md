@@ -17,6 +17,17 @@ include('material-4/File/CloudOff')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudOffXs>`
+- `<$CloudOffSm>`
+- `<$CloudOffMd>`
+- `<$CloudOffLg>`
+
+
+
+
 
 ## CloudOff
 

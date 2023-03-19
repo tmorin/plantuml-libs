@@ -17,6 +17,17 @@ include('material-4/Av/Replay10')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$Replay10Xs>`
+- `<$Replay10Sm>`
+- `<$Replay10Md>`
+- `<$Replay10Lg>`
+
+
+
+
 
 ## Replay10
 

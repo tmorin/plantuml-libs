@@ -17,6 +17,17 @@ include('material-4/File/WorkspacesOutline')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WorkspacesOutlineXs>`
+- `<$WorkspacesOutlineSm>`
+- `<$WorkspacesOutlineMd>`
+- `<$WorkspacesOutlineLg>`
+
+
+
+
 
 ## WorkspacesOutline
 

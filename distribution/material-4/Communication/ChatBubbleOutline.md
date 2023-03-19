@@ -17,6 +17,17 @@ include('material-4/Communication/ChatBubbleOutline')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChatBubbleOutlineXs>`
+- `<$ChatBubbleOutlineSm>`
+- `<$ChatBubbleOutlineMd>`
+- `<$ChatBubbleOutlineLg>`
+
+
+
+
 
 ## ChatBubbleOutline
 

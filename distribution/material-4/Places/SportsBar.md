@@ -17,6 +17,17 @@ include('material-4/Places/SportsBar')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SportsBarXs>`
+- `<$SportsBarSm>`
+- `<$SportsBarMd>`
+- `<$SportsBarLg>`
+
+
+
+
 
 ## SportsBar
 

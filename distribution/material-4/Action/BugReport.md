@@ -17,6 +17,17 @@ include('material-4/Action/BugReport')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BugReportXs>`
+- `<$BugReportSm>`
+- `<$BugReportMd>`
+- `<$BugReportLg>`
+
+
+
+
 
 ## BugReport
 

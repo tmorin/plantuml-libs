@@ -17,6 +17,17 @@ include('material-4/Action/BookmarkBorder')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BookmarkBorderXs>`
+- `<$BookmarkBorderSm>`
+- `<$BookmarkBorderMd>`
+- `<$BookmarkBorderLg>`
+
+
+
+
 
 ## BookmarkBorder
 

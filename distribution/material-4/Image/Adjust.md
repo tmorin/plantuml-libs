@@ -17,6 +17,17 @@ include('material-4/Image/Adjust')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AdjustXs>`
+- `<$AdjustSm>`
+- `<$AdjustMd>`
+- `<$AdjustLg>`
+
+
+
+
 
 ## Adjust
 

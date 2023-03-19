@@ -17,6 +17,17 @@ include('material-4/Maps/LocalPolice')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LocalPoliceXs>`
+- `<$LocalPoliceSm>`
+- `<$LocalPoliceMd>`
+- `<$LocalPoliceLg>`
+
+
+
+
 
 ## LocalPolice
 

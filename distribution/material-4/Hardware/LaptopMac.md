@@ -17,6 +17,17 @@ include('material-4/Hardware/LaptopMac')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LaptopMacXs>`
+- `<$LaptopMacSm>`
+- `<$LaptopMacMd>`
+- `<$LaptopMacLg>`
+
+
+
+
 
 ## LaptopMac
 

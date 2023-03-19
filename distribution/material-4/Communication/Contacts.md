@@ -17,6 +17,17 @@ include('material-4/Communication/Contacts')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ContactsXs>`
+- `<$ContactsSm>`
+- `<$ContactsMd>`
+- `<$ContactsLg>`
+
+
+
+
 
 ## Contacts
 

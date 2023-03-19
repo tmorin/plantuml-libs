@@ -17,6 +17,17 @@ include('material-4/Av/Mic')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MicXs>`
+- `<$MicSm>`
+- `<$MicMd>`
+- `<$MicLg>`
+
+
+
+
 
 ## Mic
 

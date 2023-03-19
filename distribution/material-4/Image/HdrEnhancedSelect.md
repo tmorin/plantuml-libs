@@ -17,6 +17,17 @@ include('material-4/Image/HdrEnhancedSelect')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HdrEnhancedSelectXs>`
+- `<$HdrEnhancedSelectSm>`
+- `<$HdrEnhancedSelectMd>`
+- `<$HdrEnhancedSelectLg>`
+
+
+
+
 
 ## HdrEnhancedSelect
 

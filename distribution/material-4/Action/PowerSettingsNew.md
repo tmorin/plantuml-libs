@@ -17,6 +17,17 @@ include('material-4/Action/PowerSettingsNew')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PowerSettingsNewXs>`
+- `<$PowerSettingsNewSm>`
+- `<$PowerSettingsNewMd>`
+- `<$PowerSettingsNewLg>`
+
+
+
+
 
 ## PowerSettingsNew
 

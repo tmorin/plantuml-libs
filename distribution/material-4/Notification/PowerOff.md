@@ -17,6 +17,17 @@ include('material-4/Notification/PowerOff')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PowerOffXs>`
+- `<$PowerOffSm>`
+- `<$PowerOffMd>`
+- `<$PowerOffLg>`
+
+
+
+
 
 ## PowerOff
 

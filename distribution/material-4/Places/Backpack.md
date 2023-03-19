@@ -17,6 +17,17 @@ include('material-4/Places/Backpack')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BackpackXs>`
+- `<$BackpackSm>`
+- `<$BackpackMd>`
+- `<$BackpackLg>`
+
+
+
+
 
 ## Backpack
 

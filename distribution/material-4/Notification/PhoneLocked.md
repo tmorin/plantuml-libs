@@ -17,6 +17,17 @@ include('material-4/Notification/PhoneLocked')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PhoneLockedXs>`
+- `<$PhoneLockedSm>`
+- `<$PhoneLockedMd>`
+- `<$PhoneLockedLg>`
+
+
+
+
 
 ## PhoneLocked
 

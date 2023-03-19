@@ -17,6 +17,17 @@ include('material-4/Maps/Hvac')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HvacXs>`
+- `<$HvacSm>`
+- `<$HvacMd>`
+- `<$HvacLg>`
+
+
+
+
 
 ## Hvac
 

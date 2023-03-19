@@ -17,6 +17,17 @@ include('material-4/Communication/CallReceived')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CallReceivedXs>`
+- `<$CallReceivedSm>`
+- `<$CallReceivedMd>`
+- `<$CallReceivedLg>`
+
+
+
+
 
 ## CallReceived
 

@@ -17,6 +17,17 @@ include('material-4/Communication/Unsubscribe')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UnsubscribeXs>`
+- `<$UnsubscribeSm>`
+- `<$UnsubscribeMd>`
+- `<$UnsubscribeLg>`
+
+
+
+
 
 ## Unsubscribe
 

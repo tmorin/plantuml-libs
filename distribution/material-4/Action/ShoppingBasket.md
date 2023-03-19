@@ -17,6 +17,17 @@ include('material-4/Action/ShoppingBasket')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShoppingBasketXs>`
+- `<$ShoppingBasketSm>`
+- `<$ShoppingBasketMd>`
+- `<$ShoppingBasketLg>`
+
+
+
+
 
 ## ShoppingBasket
 

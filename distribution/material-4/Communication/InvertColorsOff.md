@@ -17,6 +17,17 @@ include('material-4/Communication/InvertColorsOff')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InvertColorsOffXs>`
+- `<$InvertColorsOffSm>`
+- `<$InvertColorsOffMd>`
+- `<$InvertColorsOffLg>`
+
+
+
+
 
 ## InvertColorsOff
 

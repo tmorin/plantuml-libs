@@ -17,6 +17,17 @@ include('material-4/Action/ViewAgenda')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ViewAgendaXs>`
+- `<$ViewAgendaSm>`
+- `<$ViewAgendaMd>`
+- `<$ViewAgendaLg>`
+
+
+
+
 
 ## ViewAgenda
 

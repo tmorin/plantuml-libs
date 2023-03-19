@@ -17,6 +17,17 @@ include('material-4/Editor/FormatSize')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FormatSizeXs>`
+- `<$FormatSizeSm>`
+- `<$FormatSizeMd>`
+- `<$FormatSizeLg>`
+
+
+
+
 
 ## FormatSize
 

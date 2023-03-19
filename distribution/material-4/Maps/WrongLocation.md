@@ -17,6 +17,17 @@ include('material-4/Maps/WrongLocation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WrongLocationXs>`
+- `<$WrongLocationSm>`
+- `<$WrongLocationMd>`
+- `<$WrongLocationLg>`
+
+
+
+
 
 ## WrongLocation
 

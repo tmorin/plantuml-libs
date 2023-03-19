@@ -17,6 +17,17 @@ include('material-4/Image/GridOff')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GridOffXs>`
+- `<$GridOffSm>`
+- `<$GridOffMd>`
+- `<$GridOffLg>`
+
+
+
+
 
 ## GridOff
 

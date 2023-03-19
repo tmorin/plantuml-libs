@@ -17,6 +17,17 @@ include('material-4/Action/Dashboard')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DashboardXs>`
+- `<$DashboardSm>`
+- `<$DashboardMd>`
+- `<$DashboardLg>`
+
+
+
+
 
 ## Dashboard
 

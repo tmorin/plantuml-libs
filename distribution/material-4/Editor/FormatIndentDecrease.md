@@ -17,6 +17,17 @@ include('material-4/Editor/FormatIndentDecrease')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FormatIndentDecreaseXs>`
+- `<$FormatIndentDecreaseSm>`
+- `<$FormatIndentDecreaseMd>`
+- `<$FormatIndentDecreaseLg>`
+
+
+
+
 
 ## FormatIndentDecrease
 

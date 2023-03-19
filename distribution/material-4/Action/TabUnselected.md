@@ -17,6 +17,17 @@ include('material-4/Action/TabUnselected')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TabUnselectedXs>`
+- `<$TabUnselectedSm>`
+- `<$TabUnselectedMd>`
+- `<$TabUnselectedLg>`
+
+
+
+
 
 ## TabUnselected
 

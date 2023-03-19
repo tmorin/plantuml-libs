@@ -17,6 +17,17 @@ include('material-4/Image/PhotoCameraFront')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PhotoCameraFrontXs>`
+- `<$PhotoCameraFrontSm>`
+- `<$PhotoCameraFrontMd>`
+- `<$PhotoCameraFrontLg>`
+
+
+
+
 
 ## PhotoCameraFront
 

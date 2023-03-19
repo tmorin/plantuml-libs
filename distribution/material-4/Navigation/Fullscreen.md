@@ -17,6 +17,17 @@ include('material-4/Navigation/Fullscreen')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FullscreenXs>`
+- `<$FullscreenSm>`
+- `<$FullscreenMd>`
+- `<$FullscreenLg>`
+
+
+
+
 
 ## Fullscreen
 

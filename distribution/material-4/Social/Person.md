@@ -17,6 +17,17 @@ include('material-4/Social/Person')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PersonXs>`
+- `<$PersonSm>`
+- `<$PersonMd>`
+- `<$PersonLg>`
+
+
+
+
 
 ## Person
 

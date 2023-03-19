@@ -17,6 +17,17 @@ include('material-4/Action/OpenInNew')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OpenInNewXs>`
+- `<$OpenInNewSm>`
+- `<$OpenInNewMd>`
+- `<$OpenInNewLg>`
+
+
+
+
 
 ## OpenInNew
 

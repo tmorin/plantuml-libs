@@ -17,6 +17,17 @@ include('material-4/File/DriveFileMoveOutline')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DriveFileMoveOutlineXs>`
+- `<$DriveFileMoveOutlineSm>`
+- `<$DriveFileMoveOutlineMd>`
+- `<$DriveFileMoveOutlineLg>`
+
+
+
+
 
 ## DriveFileMoveOutline
 

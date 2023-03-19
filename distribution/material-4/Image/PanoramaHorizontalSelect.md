@@ -17,6 +17,17 @@ include('material-4/Image/PanoramaHorizontalSelect')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PanoramaHorizontalSelectXs>`
+- `<$PanoramaHorizontalSelectSm>`
+- `<$PanoramaHorizontalSelectMd>`
+- `<$PanoramaHorizontalSelectLg>`
+
+
+
+
 
 ## PanoramaHorizontalSelect
 

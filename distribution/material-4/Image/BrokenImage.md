@@ -17,6 +17,17 @@ include('material-4/Image/BrokenImage')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BrokenImageXs>`
+- `<$BrokenImageSm>`
+- `<$BrokenImageMd>`
+- `<$BrokenImageLg>`
+
+
+
+
 
 ## BrokenImage
 

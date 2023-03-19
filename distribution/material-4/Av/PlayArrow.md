@@ -17,6 +17,17 @@ include('material-4/Av/PlayArrow')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PlayArrowXs>`
+- `<$PlayArrowSm>`
+- `<$PlayArrowMd>`
+- `<$PlayArrowLg>`
+
+
+
+
 
 ## PlayArrow
 

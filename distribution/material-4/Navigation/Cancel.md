@@ -17,6 +17,17 @@ include('material-4/Navigation/Cancel')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CancelXs>`
+- `<$CancelSm>`
+- `<$CancelMd>`
+- `<$CancelLg>`
+
+
+
+
 
 ## Cancel
 

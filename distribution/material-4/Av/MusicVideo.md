@@ -17,6 +17,17 @@ include('material-4/Av/MusicVideo')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MusicVideoXs>`
+- `<$MusicVideoSm>`
+- `<$MusicVideoMd>`
+- `<$MusicVideoLg>`
+
+
+
+
 
 ## MusicVideo
 

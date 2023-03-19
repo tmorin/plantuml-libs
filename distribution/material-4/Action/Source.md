@@ -17,6 +17,17 @@ include('material-4/Action/Source')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SourceXs>`
+- `<$SourceSm>`
+- `<$SourceMd>`
+- `<$SourceLg>`
+
+
+
+
 
 ## Source
 

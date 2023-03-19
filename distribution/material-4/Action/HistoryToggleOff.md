@@ -17,6 +17,17 @@ include('material-4/Action/HistoryToggleOff')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HistoryToggleOffXs>`
+- `<$HistoryToggleOffSm>`
+- `<$HistoryToggleOffMd>`
+- `<$HistoryToggleOffLg>`
+
+
+
+
 
 ## HistoryToggleOff
 

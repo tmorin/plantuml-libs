@@ -17,6 +17,17 @@ include('material-4/Action/LabelOff')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LabelOffXs>`
+- `<$LabelOffSm>`
+- `<$LabelOffMd>`
+- `<$LabelOffLg>`
+
+
+
+
 
 ## LabelOff
 

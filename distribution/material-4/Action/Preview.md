@@ -17,6 +17,17 @@ include('material-4/Action/Preview')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PreviewXs>`
+- `<$PreviewSm>`
+- `<$PreviewMd>`
+- `<$PreviewLg>`
+
+
+
+
 
 ## Preview
 

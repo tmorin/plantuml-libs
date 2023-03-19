@@ -17,6 +17,17 @@ include('material-4/Image/DirtyLens')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DirtyLensXs>`
+- `<$DirtyLensSm>`
+- `<$DirtyLensMd>`
+- `<$DirtyLensLg>`
+
+
+
+
 
 ## DirtyLens
 

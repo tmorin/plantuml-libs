@@ -17,6 +17,17 @@ include('material-4/Action/AccessibleForward')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AccessibleForwardXs>`
+- `<$AccessibleForwardSm>`
+- `<$AccessibleForwardMd>`
+- `<$AccessibleForwardLg>`
+
+
+
+
 
 ## AccessibleForward
 

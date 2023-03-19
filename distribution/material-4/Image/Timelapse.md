@@ -17,6 +17,17 @@ include('material-4/Image/Timelapse')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TimelapseXs>`
+- `<$TimelapseSm>`
+- `<$TimelapseMd>`
+- `<$TimelapseLg>`
+
+
+
+
 
 ## Timelapse
 

@@ -17,6 +17,17 @@ include('material-4/Image/BlurCircular')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BlurCircularXs>`
+- `<$BlurCircularSm>`
+- `<$BlurCircularMd>`
+- `<$BlurCircularLg>`
+
+
+
+
 
 ## BlurCircular
 

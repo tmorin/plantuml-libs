@@ -17,6 +17,17 @@ include('material-4/Navigation/ArrowDropDownCircle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ArrowDropDownCircleXs>`
+- `<$ArrowDropDownCircleSm>`
+- `<$ArrowDropDownCircleMd>`
+- `<$ArrowDropDownCircleLg>`
+
+
+
+
 
 ## ArrowDropDownCircle
 

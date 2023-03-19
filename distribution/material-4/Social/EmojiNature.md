@@ -17,6 +17,17 @@ include('material-4/Social/EmojiNature')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EmojiNatureXs>`
+- `<$EmojiNatureSm>`
+- `<$EmojiNatureMd>`
+- `<$EmojiNatureLg>`
+
+
+
+
 
 ## EmojiNature
 

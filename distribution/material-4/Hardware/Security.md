@@ -17,6 +17,17 @@ include('material-4/Hardware/Security')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SecurityXs>`
+- `<$SecuritySm>`
+- `<$SecurityMd>`
+- `<$SecurityLg>`
+
+
+
+
 
 ## Security
 

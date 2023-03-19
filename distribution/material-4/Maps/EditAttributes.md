@@ -17,6 +17,17 @@ include('material-4/Maps/EditAttributes')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EditAttributesXs>`
+- `<$EditAttributesSm>`
+- `<$EditAttributesMd>`
+- `<$EditAttributesLg>`
+
+
+
+
 
 ## EditAttributes
 

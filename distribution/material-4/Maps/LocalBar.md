@@ -17,6 +17,17 @@ include('material-4/Maps/LocalBar')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LocalBarXs>`
+- `<$LocalBarSm>`
+- `<$LocalBarMd>`
+- `<$LocalBarLg>`
+
+
+
+
 
 ## LocalBar
 

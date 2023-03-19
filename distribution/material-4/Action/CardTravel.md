@@ -17,6 +17,17 @@ include('material-4/Action/CardTravel')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CardTravelXs>`
+- `<$CardTravelSm>`
+- `<$CardTravelMd>`
+- `<$CardTravelLg>`
+
+
+
+
 
 ## CardTravel
 

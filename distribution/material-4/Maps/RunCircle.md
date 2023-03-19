@@ -17,6 +17,17 @@ include('material-4/Maps/RunCircle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RunCircleXs>`
+- `<$RunCircleSm>`
+- `<$RunCircleMd>`
+- `<$RunCircleLg>`
+
+
+
+
 
 ## RunCircle
 

@@ -17,6 +17,17 @@ include('material-4/Device/ScreenLockRotation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ScreenLockRotationXs>`
+- `<$ScreenLockRotationSm>`
+- `<$ScreenLockRotationMd>`
+- `<$ScreenLockRotationLg>`
+
+
+
+
 
 ## ScreenLockRotation
 

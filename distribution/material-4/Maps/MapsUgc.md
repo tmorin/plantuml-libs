@@ -17,6 +17,17 @@ include('material-4/Maps/MapsUgc')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MapsUgcXs>`
+- `<$MapsUgcSm>`
+- `<$MapsUgcMd>`
+- `<$MapsUgcLg>`
+
+
+
+
 
 ## MapsUgc
 

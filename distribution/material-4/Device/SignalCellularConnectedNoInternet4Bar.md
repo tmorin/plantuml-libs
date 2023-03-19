@@ -17,6 +17,17 @@ include('material-4/Device/SignalCellularConnectedNoInternet4Bar')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SignalCellularConnectedNoInternet4BarXs>`
+- `<$SignalCellularConnectedNoInternet4BarSm>`
+- `<$SignalCellularConnectedNoInternet4BarMd>`
+- `<$SignalCellularConnectedNoInternet4BarLg>`
+
+
+
+
 
 ## SignalCellularConnectedNoInternet4Bar
 

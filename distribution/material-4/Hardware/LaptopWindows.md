@@ -17,6 +17,17 @@ include('material-4/Hardware/LaptopWindows')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LaptopWindowsXs>`
+- `<$LaptopWindowsSm>`
+- `<$LaptopWindowsMd>`
+- `<$LaptopWindowsLg>`
+
+
+
+
 
 ## LaptopWindows
 

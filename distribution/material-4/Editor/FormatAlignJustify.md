@@ -17,6 +17,17 @@ include('material-4/Editor/FormatAlignJustify')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FormatAlignJustifyXs>`
+- `<$FormatAlignJustifySm>`
+- `<$FormatAlignJustifyMd>`
+- `<$FormatAlignJustifyLg>`
+
+
+
+
 
 ## FormatAlignJustify
 

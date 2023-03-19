@@ -17,6 +17,17 @@ include('material-4/File/SnippetFolder')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SnippetFolderXs>`
+- `<$SnippetFolderSm>`
+- `<$SnippetFolderMd>`
+- `<$SnippetFolderLg>`
+
+
+
+
 
 ## SnippetFolder
 

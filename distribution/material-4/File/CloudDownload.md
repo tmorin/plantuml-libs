@@ -17,6 +17,17 @@ include('material-4/File/CloudDownload')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudDownloadXs>`
+- `<$CloudDownloadSm>`
+- `<$CloudDownloadMd>`
+- `<$CloudDownloadLg>`
+
+
+
+
 
 ## CloudDownload
 

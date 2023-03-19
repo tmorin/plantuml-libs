@@ -17,6 +17,17 @@ include('material-4/Notification/Wc')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WcXs>`
+- `<$WcSm>`
+- `<$WcMd>`
+- `<$WcLg>`
+
+
+
+
 
 ## Wc
 

@@ -17,6 +17,17 @@ include('material-4/Action/CircleNotifications')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CircleNotificationsXs>`
+- `<$CircleNotificationsSm>`
+- `<$CircleNotificationsMd>`
+- `<$CircleNotificationsLg>`
+
+
+
+
 
 ## CircleNotifications
 

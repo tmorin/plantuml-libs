@@ -17,6 +17,17 @@ include('material-4/Places/Dry')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DryXs>`
+- `<$DrySm>`
+- `<$DryMd>`
+- `<$DryLg>`
+
+
+
+
 
 ## Dry
 

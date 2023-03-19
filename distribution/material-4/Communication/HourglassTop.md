@@ -17,6 +17,17 @@ include('material-4/Communication/HourglassTop')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HourglassTopXs>`
+- `<$HourglassTopSm>`
+- `<$HourglassTopMd>`
+- `<$HourglassTopLg>`
+
+
+
+
 
 ## HourglassTop
 

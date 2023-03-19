@@ -17,6 +17,17 @@ include('material-4/Action/PermCameraMic')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PermCameraMicXs>`
+- `<$PermCameraMicSm>`
+- `<$PermCameraMicMd>`
+- `<$PermCameraMicLg>`
+
+
+
+
 
 ## PermCameraMic
 

@@ -17,6 +17,17 @@ include('material-4/Editor/BorderInner')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BorderInnerXs>`
+- `<$BorderInnerSm>`
+- `<$BorderInnerMd>`
+- `<$BorderInnerLg>`
+
+
+
+
 
 ## BorderInner
 

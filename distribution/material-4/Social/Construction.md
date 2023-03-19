@@ -17,6 +17,17 @@ include('material-4/Social/Construction')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ConstructionXs>`
+- `<$ConstructionSm>`
+- `<$ConstructionMd>`
+- `<$ConstructionLg>`
+
+
+
+
 
 ## Construction
 

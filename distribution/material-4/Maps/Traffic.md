@@ -17,6 +17,17 @@ include('material-4/Maps/Traffic')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TrafficXs>`
+- `<$TrafficSm>`
+- `<$TrafficMd>`
+- `<$TrafficLg>`
+
+
+
+
 
 ## Traffic
 

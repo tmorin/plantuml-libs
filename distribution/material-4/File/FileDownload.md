@@ -17,6 +17,17 @@ include('material-4/File/FileDownload')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FileDownloadXs>`
+- `<$FileDownloadSm>`
+- `<$FileDownloadMd>`
+- `<$FileDownloadLg>`
+
+
+
+
 
 ## FileDownload
 

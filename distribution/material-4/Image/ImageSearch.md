@@ -17,6 +17,17 @@ include('material-4/Image/ImageSearch')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ImageSearchXs>`
+- `<$ImageSearchSm>`
+- `<$ImageSearchMd>`
+- `<$ImageSearchLg>`
+
+
+
+
 
 ## ImageSearch
 

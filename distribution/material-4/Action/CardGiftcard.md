@@ -17,6 +17,17 @@ include('material-4/Action/CardGiftcard')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CardGiftcardXs>`
+- `<$CardGiftcardSm>`
+- `<$CardGiftcardMd>`
+- `<$CardGiftcardLg>`
+
+
+
+
 
 ## CardGiftcard
 

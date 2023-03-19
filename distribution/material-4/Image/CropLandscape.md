@@ -17,6 +17,17 @@ include('material-4/Image/CropLandscape')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CropLandscapeXs>`
+- `<$CropLandscapeSm>`
+- `<$CropLandscapeMd>`
+- `<$CropLandscapeLg>`
+
+
+
+
 
 ## CropLandscape
 

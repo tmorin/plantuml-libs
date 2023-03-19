@@ -17,6 +17,17 @@ include('material-4/Communication/Rtt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RttXs>`
+- `<$RttSm>`
+- `<$RttMd>`
+- `<$RttLg>`
+
+
+
+
 
 ## Rtt
 

@@ -17,6 +17,17 @@ include('material-4/Navigation/ArrowRight')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ArrowRightXs>`
+- `<$ArrowRightSm>`
+- `<$ArrowRightMd>`
+- `<$ArrowRightLg>`
+
+
+
+
 
 ## ArrowRight
 

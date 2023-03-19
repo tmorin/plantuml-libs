@@ -17,6 +17,17 @@ include('material-4/Action/LockOutline')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LockOutlineXs>`
+- `<$LockOutlineSm>`
+- `<$LockOutlineMd>`
+- `<$LockOutlineLg>`
+
+
+
+
 
 ## LockOutline
 

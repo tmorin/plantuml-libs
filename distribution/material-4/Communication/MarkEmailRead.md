@@ -17,6 +17,17 @@ include('material-4/Communication/MarkEmailRead')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MarkEmailReadXs>`
+- `<$MarkEmailReadSm>`
+- `<$MarkEmailReadMd>`
+- `<$MarkEmailReadLg>`
+
+
+
+
 
 ## MarkEmailRead
 

@@ -17,6 +17,17 @@ include('material-4/Communication/CallMerge')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CallMergeXs>`
+- `<$CallMergeSm>`
+- `<$CallMergeMd>`
+- `<$CallMergeLg>`
+
+
+
+
 
 ## CallMerge
 

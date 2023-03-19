@@ -17,6 +17,17 @@ include('material-4/Places/GolfCourse')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GolfCourseXs>`
+- `<$GolfCourseSm>`
+- `<$GolfCourseMd>`
+- `<$GolfCourseLg>`
+
+
+
+
 
 ## GolfCourse
 

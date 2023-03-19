@@ -17,6 +17,17 @@ include('material-4/Content/Create')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CreateXs>`
+- `<$CreateSm>`
+- `<$CreateMd>`
+- `<$CreateLg>`
+
+
+
+
 
 ## Create
 

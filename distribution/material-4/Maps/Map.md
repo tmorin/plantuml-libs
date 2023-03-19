@@ -17,6 +17,17 @@ include('material-4/Maps/Map')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MapXs>`
+- `<$MapSm>`
+- `<$MapMd>`
+- `<$MapLg>`
+
+
+
+
 
 ## Map
 

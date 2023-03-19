@@ -17,6 +17,17 @@ include('material-4/Image/CameraRoll')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CameraRollXs>`
+- `<$CameraRollSm>`
+- `<$CameraRollMd>`
+- `<$CameraRollLg>`
+
+
+
+
 
 ## CameraRoll
 

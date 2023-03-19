@@ -17,6 +17,17 @@ include('material-4/Navigation/SouthWest')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SouthWestXs>`
+- `<$SouthWestSm>`
+- `<$SouthWestMd>`
+- `<$SouthWestLg>`
+
+
+
+
 
 ## SouthWest
 

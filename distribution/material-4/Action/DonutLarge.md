@@ -17,6 +17,17 @@ include('material-4/Action/DonutLarge')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DonutLargeXs>`
+- `<$DonutLargeSm>`
+- `<$DonutLargeMd>`
+- `<$DonutLargeLg>`
+
+
+
+
 
 ## DonutLarge
 

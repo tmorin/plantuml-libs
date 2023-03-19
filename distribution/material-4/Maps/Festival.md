@@ -17,6 +17,17 @@ include('material-4/Maps/Festival')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FestivalXs>`
+- `<$FestivalSm>`
+- `<$FestivalMd>`
+- `<$FestivalLg>`
+
+
+
+
 
 ## Festival
 

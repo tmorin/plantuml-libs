@@ -17,6 +17,17 @@ include('material-4/Hardware/DeviceHub')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DeviceHubXs>`
+- `<$DeviceHubSm>`
+- `<$DeviceHubMd>`
+- `<$DeviceHubLg>`
+
+
+
+
 
 ## DeviceHub
 

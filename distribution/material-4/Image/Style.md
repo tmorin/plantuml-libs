@@ -17,6 +17,17 @@ include('material-4/Image/Style')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StyleXs>`
+- `<$StyleSm>`
+- `<$StyleMd>`
+- `<$StyleLg>`
+
+
+
+
 
 ## Style
 

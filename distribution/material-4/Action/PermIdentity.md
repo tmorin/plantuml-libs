@@ -17,6 +17,17 @@ include('material-4/Action/PermIdentity')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PermIdentityXs>`
+- `<$PermIdentitySm>`
+- `<$PermIdentityMd>`
+- `<$PermIdentityLg>`
+
+
+
+
 
 ## PermIdentity
 

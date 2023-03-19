@@ -17,6 +17,17 @@ include('material-4/Places/ChildCare')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChildCareXs>`
+- `<$ChildCareSm>`
+- `<$ChildCareMd>`
+- `<$ChildCareLg>`
+
+
+
+
 
 ## ChildCare
 

@@ -17,6 +17,17 @@ include('material-4/Content/Drafts')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DraftsXs>`
+- `<$DraftsSm>`
+- `<$DraftsMd>`
+- `<$DraftsLg>`
+
+
+
+
 
 ## Drafts
 

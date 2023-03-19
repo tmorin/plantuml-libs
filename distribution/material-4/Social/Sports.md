@@ -17,6 +17,17 @@ include('material-4/Social/Sports')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SportsXs>`
+- `<$SportsSm>`
+- `<$SportsMd>`
+- `<$SportsLg>`
+
+
+
+
 
 ## Sports
 

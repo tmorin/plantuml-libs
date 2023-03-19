@@ -17,6 +17,17 @@ include('material-4/Action/CalendarToday')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CalendarTodayXs>`
+- `<$CalendarTodaySm>`
+- `<$CalendarTodayMd>`
+- `<$CalendarTodayLg>`
+
+
+
+
 
 ## CalendarToday
 

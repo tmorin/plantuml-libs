@@ -17,6 +17,17 @@ include('material-4/Action/Loyalty')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LoyaltyXs>`
+- `<$LoyaltySm>`
+- `<$LoyaltyMd>`
+- `<$LoyaltyLg>`
+
+
+
+
 
 ## Loyalty
 

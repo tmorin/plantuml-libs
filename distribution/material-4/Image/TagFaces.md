@@ -17,6 +17,17 @@ include('material-4/Image/TagFaces')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TagFacesXs>`
+- `<$TagFacesSm>`
+- `<$TagFacesMd>`
+- `<$TagFacesLg>`
+
+
+
+
 
 ## TagFaces
 

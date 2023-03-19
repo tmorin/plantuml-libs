@@ -17,6 +17,17 @@ include('material-4/Action/WifiProtectedSetup')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WifiProtectedSetupXs>`
+- `<$WifiProtectedSetupSm>`
+- `<$WifiProtectedSetupMd>`
+- `<$WifiProtectedSetupLg>`
+
+
+
+
 
 ## WifiProtectedSetup
 

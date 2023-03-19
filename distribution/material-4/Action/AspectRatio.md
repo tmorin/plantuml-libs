@@ -17,6 +17,17 @@ include('material-4/Action/AspectRatio')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AspectRatioXs>`
+- `<$AspectRatioSm>`
+- `<$AspectRatioMd>`
+- `<$AspectRatioLg>`
+
+
+
+
 
 ## AspectRatio
 

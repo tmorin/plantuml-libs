@@ -17,6 +17,17 @@ include('material-4/Maps/AddRoad')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AddRoadXs>`
+- `<$AddRoadSm>`
+- `<$AddRoadMd>`
+- `<$AddRoadLg>`
+
+
+
+
 
 ## AddRoad
 

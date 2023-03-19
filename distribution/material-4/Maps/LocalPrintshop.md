@@ -17,6 +17,17 @@ include('material-4/Maps/LocalPrintshop')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LocalPrintshopXs>`
+- `<$LocalPrintshopSm>`
+- `<$LocalPrintshopMd>`
+- `<$LocalPrintshopLg>`
+
+
+
+
 
 ## LocalPrintshop
 

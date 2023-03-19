@@ -17,6 +17,17 @@ include('material-4/Action/SubtitlesOff')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SubtitlesOffXs>`
+- `<$SubtitlesOffSm>`
+- `<$SubtitlesOffMd>`
+- `<$SubtitlesOffLg>`
+
+
+
+
 
 ## SubtitlesOff
 

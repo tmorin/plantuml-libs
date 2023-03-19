@@ -17,6 +17,17 @@ include('material-4/Places/Grass')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GrassXs>`
+- `<$GrassSm>`
+- `<$GrassMd>`
+- `<$GrassLg>`
+
+
+
+
 
 ## Grass
 

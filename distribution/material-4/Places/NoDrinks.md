@@ -17,6 +17,17 @@ include('material-4/Places/NoDrinks')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NoDrinksXs>`
+- `<$NoDrinksSm>`
+- `<$NoDrinksMd>`
+- `<$NoDrinksLg>`
+
+
+
+
 
 ## NoDrinks
 

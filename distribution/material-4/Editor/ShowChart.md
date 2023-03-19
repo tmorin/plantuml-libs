@@ -17,6 +17,17 @@ include('material-4/Editor/ShowChart')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShowChartXs>`
+- `<$ShowChartSm>`
+- `<$ShowChartMd>`
+- `<$ShowChartLg>`
+
+
+
+
 
 ## ShowChart
 

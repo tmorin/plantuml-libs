@@ -17,6 +17,17 @@ include('material-4/Action/HelpOutline')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HelpOutlineXs>`
+- `<$HelpOutlineSm>`
+- `<$HelpOutlineMd>`
+- `<$HelpOutlineLg>`
+
+
+
+
 
 ## HelpOutline
 

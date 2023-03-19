@@ -17,6 +17,17 @@ include('material-4/Action/Login')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LoginXs>`
+- `<$LoginSm>`
+- `<$LoginMd>`
+- `<$LoginLg>`
+
+
+
+
 
 ## Login
 

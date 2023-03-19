@@ -17,6 +17,17 @@ include('material-4/Places/FreeBreakfast')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FreeBreakfastXs>`
+- `<$FreeBreakfastSm>`
+- `<$FreeBreakfastMd>`
+- `<$FreeBreakfastLg>`
+
+
+
+
 
 ## FreeBreakfast
 

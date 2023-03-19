@@ -17,6 +17,17 @@ include('material-4/Action/Eco')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EcoXs>`
+- `<$EcoSm>`
+- `<$EcoMd>`
+- `<$EcoLg>`
+
+
+
+
 
 ## Eco
 

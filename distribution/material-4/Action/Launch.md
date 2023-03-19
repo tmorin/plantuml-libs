@@ -17,6 +17,17 @@ include('material-4/Action/Launch')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LaunchXs>`
+- `<$LaunchSm>`
+- `<$LaunchMd>`
+- `<$LaunchLg>`
+
+
+
+
 
 ## Launch
 

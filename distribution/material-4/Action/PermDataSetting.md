@@ -17,6 +17,17 @@ include('material-4/Action/PermDataSetting')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PermDataSettingXs>`
+- `<$PermDataSettingSm>`
+- `<$PermDataSettingMd>`
+- `<$PermDataSettingLg>`
+
+
+
+
 
 ## PermDataSetting
 

@@ -17,6 +17,17 @@ include('material-4/Action/Toc')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TocXs>`
+- `<$TocSm>`
+- `<$TocMd>`
+- `<$TocLg>`
+
+
+
+
 
 ## Toc
 

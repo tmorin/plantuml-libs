@@ -17,6 +17,17 @@ include('material-4/Places/Countertops')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CountertopsXs>`
+- `<$CountertopsSm>`
+- `<$CountertopsMd>`
+- `<$CountertopsLg>`
+
+
+
+
 
 ## Countertops
 

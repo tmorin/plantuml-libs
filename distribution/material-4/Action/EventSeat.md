@@ -17,6 +17,17 @@ include('material-4/Action/EventSeat')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EventSeatXs>`
+- `<$EventSeatSm>`
+- `<$EventSeatMd>`
+- `<$EventSeatLg>`
+
+
+
+
 
 ## EventSeat
 

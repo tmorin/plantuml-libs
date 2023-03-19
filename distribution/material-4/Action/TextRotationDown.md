@@ -17,6 +17,17 @@ include('material-4/Action/TextRotationDown')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TextRotationDownXs>`
+- `<$TextRotationDownSm>`
+- `<$TextRotationDownMd>`
+- `<$TextRotationDownLg>`
+
+
+
+
 
 ## TextRotationDown
 

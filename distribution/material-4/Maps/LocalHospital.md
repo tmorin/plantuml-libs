@@ -17,6 +17,17 @@ include('material-4/Maps/LocalHospital')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LocalHospitalXs>`
+- `<$LocalHospitalSm>`
+- `<$LocalHospitalMd>`
+- `<$LocalHospitalLg>`
+
+
+
+
 
 ## LocalHospital
 

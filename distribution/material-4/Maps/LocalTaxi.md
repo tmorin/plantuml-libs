@@ -17,6 +17,17 @@ include('material-4/Maps/LocalTaxi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LocalTaxiXs>`
+- `<$LocalTaxiSm>`
+- `<$LocalTaxiMd>`
+- `<$LocalTaxiLg>`
+
+
+
+
 
 ## LocalTaxi
 

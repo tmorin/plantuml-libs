@@ -17,6 +17,17 @@ include('material-4/Maps/PestControlRodent')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PestControlRodentXs>`
+- `<$PestControlRodentSm>`
+- `<$PestControlRodentMd>`
+- `<$PestControlRodentLg>`
+
+
+
+
 
 ## PestControlRodent
 

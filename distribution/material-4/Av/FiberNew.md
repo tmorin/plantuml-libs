@@ -17,6 +17,17 @@ include('material-4/Av/FiberNew')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FiberNewXs>`
+- `<$FiberNewSm>`
+- `<$FiberNewMd>`
+- `<$FiberNewLg>`
+
+
+
+
 
 ## FiberNew
 

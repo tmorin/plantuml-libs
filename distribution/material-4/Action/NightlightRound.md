@@ -17,6 +17,17 @@ include('material-4/Action/NightlightRound')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NightlightRoundXs>`
+- `<$NightlightRoundSm>`
+- `<$NightlightRoundMd>`
+- `<$NightlightRoundLg>`
+
+
+
+
 
 ## NightlightRound
 

@@ -17,6 +17,17 @@ include('material-4/Image/ReceiptLong')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ReceiptLongXs>`
+- `<$ReceiptLongSm>`
+- `<$ReceiptLongMd>`
+- `<$ReceiptLongLg>`
+
+
+
+
 
 ## ReceiptLong
 

@@ -17,6 +17,17 @@ include('material-4/Social/LocationCity')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LocationCityXs>`
+- `<$LocationCitySm>`
+- `<$LocationCityMd>`
+- `<$LocationCityLg>`
+
+
+
+
 
 ## LocationCity
 

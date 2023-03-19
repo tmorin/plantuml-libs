@@ -17,6 +17,17 @@ include('material-4/Action/InfoOutline')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InfoOutlineXs>`
+- `<$InfoOutlineSm>`
+- `<$InfoOutlineMd>`
+- `<$InfoOutlineLg>`
+
+
+
+
 
 ## InfoOutline
 

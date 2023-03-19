@@ -17,6 +17,17 @@ include('material-4/Action/ViewHeadline')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ViewHeadlineXs>`
+- `<$ViewHeadlineSm>`
+- `<$ViewHeadlineMd>`
+- `<$ViewHeadlineLg>`
+
+
+
+
 
 ## ViewHeadline
 

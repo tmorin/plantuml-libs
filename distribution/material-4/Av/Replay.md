@@ -17,6 +17,17 @@ include('material-4/Av/Replay')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ReplayXs>`
+- `<$ReplaySm>`
+- `<$ReplayMd>`
+- `<$ReplayLg>`
+
+
+
+
 
 ## Replay
 

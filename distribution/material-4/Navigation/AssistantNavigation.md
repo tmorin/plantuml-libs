@@ -17,6 +17,17 @@ include('material-4/Navigation/AssistantNavigation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AssistantNavigationXs>`
+- `<$AssistantNavigationSm>`
+- `<$AssistantNavigationMd>`
+- `<$AssistantNavigationLg>`
+
+
+
+
 
 ## AssistantNavigation
 

@@ -17,6 +17,17 @@ include('material-4/Action/Receipt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ReceiptXs>`
+- `<$ReceiptSm>`
+- `<$ReceiptMd>`
+- `<$ReceiptLg>`
+
+
+
+
 
 ## Receipt
 

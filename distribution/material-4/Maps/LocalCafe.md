@@ -17,6 +17,17 @@ include('material-4/Maps/LocalCafe')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LocalCafeXs>`
+- `<$LocalCafeSm>`
+- `<$LocalCafeMd>`
+- `<$LocalCafeLg>`
+
+
+
+
 
 ## LocalCafe
 

@@ -17,6 +17,17 @@ include('material-4/Image/PanoramaHorizontal')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PanoramaHorizontalXs>`
+- `<$PanoramaHorizontalSm>`
+- `<$PanoramaHorizontalMd>`
+- `<$PanoramaHorizontalLg>`
+
+
+
+
 
 ## PanoramaHorizontal
 

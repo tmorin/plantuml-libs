@@ -17,6 +17,17 @@ include('material-4/Social/CleanHands')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CleanHandsXs>`
+- `<$CleanHandsSm>`
+- `<$CleanHandsMd>`
+- `<$CleanHandsLg>`
+
+
+
+
 
 ## CleanHands
 

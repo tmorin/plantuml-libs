@@ -17,6 +17,17 @@ include('material-4/Content/ContentPaste')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ContentPasteXs>`
+- `<$ContentPasteSm>`
+- `<$ContentPasteMd>`
+- `<$ContentPasteLg>`
+
+
+
+
 
 ## ContentPaste
 

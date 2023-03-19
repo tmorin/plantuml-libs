@@ -17,6 +17,17 @@ include('material-4/Av/FiberSmartRecord')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FiberSmartRecordXs>`
+- `<$FiberSmartRecordSm>`
+- `<$FiberSmartRecordMd>`
+- `<$FiberSmartRecordLg>`
+
+
+
+
 
 ## FiberSmartRecord
 

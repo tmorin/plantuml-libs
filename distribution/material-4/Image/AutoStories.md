@@ -17,6 +17,17 @@ include('material-4/Image/AutoStories')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AutoStoriesXs>`
+- `<$AutoStoriesSm>`
+- `<$AutoStoriesMd>`
+- `<$AutoStoriesLg>`
+
+
+
+
 
 ## AutoStories
 

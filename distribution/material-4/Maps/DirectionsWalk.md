@@ -17,6 +17,17 @@ include('material-4/Maps/DirectionsWalk')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DirectionsWalkXs>`
+- `<$DirectionsWalkSm>`
+- `<$DirectionsWalkMd>`
+- `<$DirectionsWalkLg>`
+
+
+
+
 
 ## DirectionsWalk
 

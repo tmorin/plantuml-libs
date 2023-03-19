@@ -17,6 +17,17 @@ include('material-4/Toggle/ToggleOn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ToggleOnXs>`
+- `<$ToggleOnSm>`
+- `<$ToggleOnMd>`
+- `<$ToggleOnLg>`
+
+
+
+
 
 ## ToggleOn
 

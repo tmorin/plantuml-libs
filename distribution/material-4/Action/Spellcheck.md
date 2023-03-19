@@ -17,6 +17,17 @@ include('material-4/Action/Spellcheck')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SpellcheckXs>`
+- `<$SpellcheckSm>`
+- `<$SpellcheckMd>`
+- `<$SpellcheckLg>`
+
+
+
+
 
 ## Spellcheck
 

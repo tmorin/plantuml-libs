@@ -17,6 +17,17 @@ include('material-4/Action/CardMembership')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CardMembershipXs>`
+- `<$CardMembershipSm>`
+- `<$CardMembershipMd>`
+- `<$CardMembershipLg>`
+
+
+
+
 
 ## CardMembership
 

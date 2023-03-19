@@ -17,6 +17,17 @@ include('material-4/Editor/FormatColorFill')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FormatColorFillXs>`
+- `<$FormatColorFillSm>`
+- `<$FormatColorFillMd>`
+- `<$FormatColorFillLg>`
+
+
+
+
 
 ## FormatColorFill
 

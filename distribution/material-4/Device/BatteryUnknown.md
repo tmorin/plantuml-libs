@@ -17,6 +17,17 @@ include('material-4/Device/BatteryUnknown')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BatteryUnknownXs>`
+- `<$BatteryUnknownSm>`
+- `<$BatteryUnknownMd>`
+- `<$BatteryUnknownLg>`
+
+
+
+
 
 ## BatteryUnknown
 

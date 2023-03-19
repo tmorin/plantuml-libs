@@ -17,6 +17,17 @@ include('material-4/Hardware/Toys')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ToysXs>`
+- `<$ToysSm>`
+- `<$ToysMd>`
+- `<$ToysLg>`
+
+
+
+
 
 ## Toys
 

@@ -17,6 +17,17 @@ include('material-4/Social/Coronavirus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CoronavirusXs>`
+- `<$CoronavirusSm>`
+- `<$CoronavirusMd>`
+- `<$CoronavirusLg>`
+
+
+
+
 
 ## Coronavirus
 

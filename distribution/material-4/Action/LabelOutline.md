@@ -17,6 +17,17 @@ include('material-4/Action/LabelOutline')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LabelOutlineXs>`
+- `<$LabelOutlineSm>`
+- `<$LabelOutlineMd>`
+- `<$LabelOutlineLg>`
+
+
+
+
 
 ## LabelOutline
 

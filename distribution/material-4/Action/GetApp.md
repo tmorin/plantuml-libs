@@ -17,6 +17,17 @@ include('material-4/Action/GetApp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GetAppXs>`
+- `<$GetAppSm>`
+- `<$GetAppMd>`
+- `<$GetAppLg>`
+
+
+
+
 
 ## GetApp
 

@@ -17,6 +17,17 @@ include('material-4/Places/AllInclusive')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AllInclusiveXs>`
+- `<$AllInclusiveSm>`
+- `<$AllInclusiveMd>`
+- `<$AllInclusiveLg>`
+
+
+
+
 
 ## AllInclusive
 

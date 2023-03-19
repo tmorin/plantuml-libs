@@ -17,6 +17,17 @@ include('material-4/Action/TextRotationNone')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TextRotationNoneXs>`
+- `<$TextRotationNoneSm>`
+- `<$TextRotationNoneMd>`
+- `<$TextRotationNoneLg>`
+
+
+
+
 
 ## TextRotationNone
 

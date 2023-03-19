@@ -17,6 +17,17 @@ include('material-4/Hardware/PointOfSale')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PointOfSaleXs>`
+- `<$PointOfSaleSm>`
+- `<$PointOfSaleMd>`
+- `<$PointOfSaleLg>`
+
+
+
+
 
 ## PointOfSale
 

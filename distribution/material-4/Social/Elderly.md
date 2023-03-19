@@ -17,6 +17,17 @@ include('material-4/Social/Elderly')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ElderlyXs>`
+- `<$ElderlySm>`
+- `<$ElderlyMd>`
+- `<$ElderlyLg>`
+
+
+
+
 
 ## Elderly
 

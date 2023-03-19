@@ -17,6 +17,17 @@ include('material-4/Places/BusinessCenter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BusinessCenterXs>`
+- `<$BusinessCenterSm>`
+- `<$BusinessCenterMd>`
+- `<$BusinessCenterLg>`
+
+
+
+
 
 ## BusinessCenter
 

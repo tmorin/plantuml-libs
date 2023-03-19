@@ -17,6 +17,17 @@ include('material-4/Communication/CellWifi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CellWifiXs>`
+- `<$CellWifiSm>`
+- `<$CellWifiMd>`
+- `<$CellWifiLg>`
+
+
+
+
 
 ## CellWifi
 

@@ -17,6 +17,17 @@ include('material-4/Av/FeaturedPlayList')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FeaturedPlayListXs>`
+- `<$FeaturedPlayListSm>`
+- `<$FeaturedPlayListMd>`
+- `<$FeaturedPlayListLg>`
+
+
+
+
 
 ## FeaturedPlayList
 

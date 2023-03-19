@@ -17,6 +17,17 @@ include('material-4/Navigation/Refresh')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RefreshXs>`
+- `<$RefreshSm>`
+- `<$RefreshMd>`
+- `<$RefreshLg>`
+
+
+
+
 
 ## Refresh
 

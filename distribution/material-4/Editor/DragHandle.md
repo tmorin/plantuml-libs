@@ -17,6 +17,17 @@ include('material-4/Editor/DragHandle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DragHandleXs>`
+- `<$DragHandleSm>`
+- `<$DragHandleMd>`
+- `<$DragHandleLg>`
+
+
+
+
 
 ## DragHandle
 

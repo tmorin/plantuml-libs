@@ -17,6 +17,17 @@ include('material-4/Communication/PrintDisabled')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PrintDisabledXs>`
+- `<$PrintDisabledSm>`
+- `<$PrintDisabledMd>`
+- `<$PrintDisabledLg>`
+
+
+
+
 
 ## PrintDisabled
 

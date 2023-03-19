@@ -17,6 +17,17 @@ include('material-4/Action/AlarmOff')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AlarmOffXs>`
+- `<$AlarmOffSm>`
+- `<$AlarmOffMd>`
+- `<$AlarmOffLg>`
+
+
+
+
 
 ## AlarmOff
 

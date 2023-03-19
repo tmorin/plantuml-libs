@@ -17,6 +17,17 @@ include('material-4/Places/NoFlash')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NoFlashXs>`
+- `<$NoFlashSm>`
+- `<$NoFlashMd>`
+- `<$NoFlashLg>`
+
+
+
+
 
 ## NoFlash
 

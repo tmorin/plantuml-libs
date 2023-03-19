@@ -17,6 +17,17 @@ include('material-4/Action/AccessibilityNew')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AccessibilityNewXs>`
+- `<$AccessibilityNewSm>`
+- `<$AccessibilityNewMd>`
+- `<$AccessibilityNewLg>`
+
+
+
+
 
 ## AccessibilityNew
 

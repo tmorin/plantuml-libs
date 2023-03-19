@@ -17,6 +17,17 @@ include('material-4/Social/NoLuggage')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NoLuggageXs>`
+- `<$NoLuggageSm>`
+- `<$NoLuggageMd>`
+- `<$NoLuggageLg>`
+
+
+
+
 
 ## NoLuggage
 

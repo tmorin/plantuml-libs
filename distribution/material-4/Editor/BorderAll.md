@@ -17,6 +17,17 @@ include('material-4/Editor/BorderAll')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BorderAllXs>`
+- `<$BorderAllSm>`
+- `<$BorderAllMd>`
+- `<$BorderAllLg>`
+
+
+
+
 
 ## BorderAll
 

@@ -17,6 +17,17 @@ include('material-4/Action/Outbond')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OutbondXs>`
+- `<$OutbondSm>`
+- `<$OutbondMd>`
+- `<$OutbondLg>`
+
+
+
+
 
 ## Outbond
 

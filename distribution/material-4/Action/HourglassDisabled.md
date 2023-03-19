@@ -17,6 +17,17 @@ include('material-4/Action/HourglassDisabled')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HourglassDisabledXs>`
+- `<$HourglassDisabledSm>`
+- `<$HourglassDisabledMd>`
+- `<$HourglassDisabledLg>`
+
+
+
+
 
 ## HourglassDisabled
 

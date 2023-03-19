@@ -17,6 +17,17 @@ include('material-4/Social/Domain')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DomainXs>`
+- `<$DomainSm>`
+- `<$DomainMd>`
+- `<$DomainLg>`
+
+
+
+
 
 ## Domain
 

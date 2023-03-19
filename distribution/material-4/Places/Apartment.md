@@ -17,6 +17,17 @@ include('material-4/Places/Apartment')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ApartmentXs>`
+- `<$ApartmentSm>`
+- `<$ApartmentMd>`
+- `<$ApartmentLg>`
+
+
+
+
 
 ## Apartment
 

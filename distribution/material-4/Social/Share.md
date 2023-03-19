@@ -17,6 +17,17 @@ include('material-4/Social/Share')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShareXs>`
+- `<$ShareSm>`
+- `<$ShareMd>`
+- `<$ShareLg>`
+
+
+
+
 
 ## Share
 

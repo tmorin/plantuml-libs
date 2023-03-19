@@ -17,6 +17,17 @@ include('material-4/Notification/FolderSpecial')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FolderSpecialXs>`
+- `<$FolderSpecialSm>`
+- `<$FolderSpecialMd>`
+- `<$FolderSpecialLg>`
+
+
+
+
 
 ## FolderSpecial
 

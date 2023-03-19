@@ -17,6 +17,17 @@ include('material-4/Notification/PhonePaused')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PhonePausedXs>`
+- `<$PhonePausedSm>`
+- `<$PhonePausedMd>`
+- `<$PhonePausedLg>`
+
+
+
+
 
 ## PhonePaused
 

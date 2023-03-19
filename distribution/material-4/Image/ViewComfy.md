@@ -17,6 +17,17 @@ include('material-4/Image/ViewComfy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ViewComfyXs>`
+- `<$ViewComfySm>`
+- `<$ViewComfyMd>`
+- `<$ViewComfyLg>`
+
+
+
+
 
 ## ViewComfy
 

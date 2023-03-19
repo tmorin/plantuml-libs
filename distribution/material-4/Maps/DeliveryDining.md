@@ -17,6 +17,17 @@ include('material-4/Maps/DeliveryDining')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DeliveryDiningXs>`
+- `<$DeliveryDiningSm>`
+- `<$DeliveryDiningMd>`
+- `<$DeliveryDiningLg>`
+
+
+
+
 
 ## DeliveryDining
 

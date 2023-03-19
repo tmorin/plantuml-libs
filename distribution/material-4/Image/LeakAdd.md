@@ -17,6 +17,17 @@ include('material-4/Image/LeakAdd')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LeakAddXs>`
+- `<$LeakAddSm>`
+- `<$LeakAddMd>`
+- `<$LeakAddLg>`
+
+
+
+
 
 ## LeakAdd
 

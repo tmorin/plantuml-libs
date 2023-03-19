@@ -17,6 +17,17 @@ include('material-4/Action/ViewInAr')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ViewInArXs>`
+- `<$ViewInArSm>`
+- `<$ViewInArMd>`
+- `<$ViewInArLg>`
+
+
+
+
 
 ## ViewInAr
 

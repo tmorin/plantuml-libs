@@ -17,6 +17,17 @@ include('material-4/Image/Bedtime')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BedtimeXs>`
+- `<$BedtimeSm>`
+- `<$BedtimeMd>`
+- `<$BedtimeLg>`
+
+
+
+
 
 ## Bedtime
 

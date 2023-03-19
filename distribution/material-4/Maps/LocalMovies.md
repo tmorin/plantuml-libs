@@ -17,6 +17,17 @@ include('material-4/Maps/LocalMovies')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LocalMoviesXs>`
+- `<$LocalMoviesSm>`
+- `<$LocalMoviesMd>`
+- `<$LocalMoviesLg>`
+
+
+
+
 
 ## LocalMovies
 

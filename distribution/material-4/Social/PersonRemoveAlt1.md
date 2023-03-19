@@ -17,6 +17,17 @@ include('material-4/Social/PersonRemoveAlt1')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PersonRemoveAlt1Xs>`
+- `<$PersonRemoveAlt1Sm>`
+- `<$PersonRemoveAlt1Md>`
+- `<$PersonRemoveAlt1Lg>`
+
+
+
+
 
 ## PersonRemoveAlt1
 

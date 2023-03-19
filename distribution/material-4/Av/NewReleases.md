@@ -17,6 +17,17 @@ include('material-4/Av/NewReleases')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NewReleasesXs>`
+- `<$NewReleasesSm>`
+- `<$NewReleasesMd>`
+- `<$NewReleasesLg>`
+
+
+
+
 
 ## NewReleases
 

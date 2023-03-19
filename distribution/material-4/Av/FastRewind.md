@@ -17,6 +17,17 @@ include('material-4/Av/FastRewind')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FastRewindXs>`
+- `<$FastRewindSm>`
+- `<$FastRewindMd>`
+- `<$FastRewindLg>`
+
+
+
+
 
 ## FastRewind
 

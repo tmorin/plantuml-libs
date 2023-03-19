@@ -17,6 +17,17 @@ include('material-4/Av/MicNone')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MicNoneXs>`
+- `<$MicNoneSm>`
+- `<$MicNoneMd>`
+- `<$MicNoneLg>`
+
+
+
+
 
 ## MicNone
 

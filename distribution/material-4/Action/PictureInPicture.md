@@ -17,6 +17,17 @@ include('material-4/Action/PictureInPicture')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PictureInPictureXs>`
+- `<$PictureInPictureSm>`
+- `<$PictureInPictureMd>`
+- `<$PictureInPictureLg>`
+
+
+
+
 
 ## PictureInPicture
 

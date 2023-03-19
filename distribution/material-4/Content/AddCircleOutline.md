@@ -17,6 +17,17 @@ include('material-4/Content/AddCircleOutline')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AddCircleOutlineXs>`
+- `<$AddCircleOutlineSm>`
+- `<$AddCircleOutlineMd>`
+- `<$AddCircleOutlineLg>`
+
+
+
+
 
 ## AddCircleOutline
 

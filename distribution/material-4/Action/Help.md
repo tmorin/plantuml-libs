@@ -17,6 +17,17 @@ include('material-4/Action/Help')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HelpXs>`
+- `<$HelpSm>`
+- `<$HelpMd>`
+- `<$HelpLg>`
+
+
+
+
 
 ## Help
 

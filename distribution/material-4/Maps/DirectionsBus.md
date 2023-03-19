@@ -17,6 +17,17 @@ include('material-4/Maps/DirectionsBus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DirectionsBusXs>`
+- `<$DirectionsBusSm>`
+- `<$DirectionsBusMd>`
+- `<$DirectionsBusLg>`
+
+
+
+
 
 ## DirectionsBus
 

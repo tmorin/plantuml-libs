@@ -17,6 +17,17 @@ include('material-4/Image/Slideshow')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SlideshowXs>`
+- `<$SlideshowSm>`
+- `<$SlideshowMd>`
+- `<$SlideshowLg>`
+
+
+
+
 
 ## Slideshow
 

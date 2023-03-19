@@ -17,6 +17,17 @@ include('material-4/Image/FilterNone')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FilterNoneXs>`
+- `<$FilterNoneSm>`
+- `<$FilterNoneMd>`
+- `<$FilterNoneLg>`
+
+
+
+
 
 ## FilterNone
 

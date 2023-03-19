@@ -17,6 +17,17 @@ include('material-4/Action/Minimize')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MinimizeXs>`
+- `<$MinimizeSm>`
+- `<$MinimizeMd>`
+- `<$MinimizeLg>`
+
+
+
+
 
 ## Minimize
 

@@ -17,6 +17,17 @@ include('material-4/Action/AccountBalance')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AccountBalanceXs>`
+- `<$AccountBalanceSm>`
+- `<$AccountBalanceMd>`
+- `<$AccountBalanceLg>`
+
+
+
+
 
 ## AccountBalance
 

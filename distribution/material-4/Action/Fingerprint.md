@@ -17,6 +17,17 @@ include('material-4/Action/Fingerprint')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FingerprintXs>`
+- `<$FingerprintSm>`
+- `<$FingerprintMd>`
+- `<$FingerprintLg>`
+
+
+
+
 
 ## Fingerprint
 

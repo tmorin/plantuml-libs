@@ -17,6 +17,17 @@ include('material-4/Maps/PinDrop')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PinDropXs>`
+- `<$PinDropSm>`
+- `<$PinDropMd>`
+- `<$PinDropLg>`
+
+
+
+
 
 ## PinDrop
 

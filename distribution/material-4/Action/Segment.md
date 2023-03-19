@@ -17,6 +17,17 @@ include('material-4/Action/Segment')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SegmentXs>`
+- `<$SegmentSm>`
+- `<$SegmentMd>`
+- `<$SegmentLg>`
+
+
+
+
 
 ## Segment
 

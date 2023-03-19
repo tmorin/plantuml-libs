@@ -17,6 +17,17 @@ include('material-4/Action/AccountCircle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AccountCircleXs>`
+- `<$AccountCircleSm>`
+- `<$AccountCircleMd>`
+- `<$AccountCircleLg>`
+
+
+
+
 
 ## AccountCircle
 

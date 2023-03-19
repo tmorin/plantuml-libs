@@ -17,6 +17,17 @@ include('material-4/Device/Bluetooth')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BluetoothXs>`
+- `<$BluetoothSm>`
+- `<$BluetoothMd>`
+- `<$BluetoothLg>`
+
+
+
+
 
 ## Bluetooth
 

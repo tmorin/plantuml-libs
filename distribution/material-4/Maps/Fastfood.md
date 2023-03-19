@@ -17,6 +17,17 @@ include('material-4/Maps/Fastfood')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FastfoodXs>`
+- `<$FastfoodSm>`
+- `<$FastfoodMd>`
+- `<$FastfoodLg>`
+
+
+
+
 
 ## Fastfood
 

@@ -17,6 +17,17 @@ include('material-4/Content/ContentCut')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ContentCutXs>`
+- `<$ContentCutSm>`
+- `<$ContentCutMd>`
+- `<$ContentCutLg>`
+
+
+
+
 
 ## ContentCut
 

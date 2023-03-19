@@ -17,6 +17,17 @@ include('material-4/Device/SignalWifi4BarLock')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SignalWifi4BarLockXs>`
+- `<$SignalWifi4BarLockSm>`
+- `<$SignalWifi4BarLockMd>`
+- `<$SignalWifi4BarLockLg>`
+
+
+
+
 
 ## SignalWifi4BarLock
 

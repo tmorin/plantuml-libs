@@ -17,6 +17,17 @@ include('material-4/Communication/ReadMore')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ReadMoreXs>`
+- `<$ReadMoreSm>`
+- `<$ReadMoreMd>`
+- `<$ReadMoreLg>`
+
+
+
+
 
 ## ReadMore
 

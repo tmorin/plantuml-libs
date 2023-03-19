@@ -17,6 +17,17 @@ include('material-4/Maps/LocalPharmacy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LocalPharmacyXs>`
+- `<$LocalPharmacySm>`
+- `<$LocalPharmacyMd>`
+- `<$LocalPharmacyLg>`
+
+
+
+
 
 ## LocalPharmacy
 

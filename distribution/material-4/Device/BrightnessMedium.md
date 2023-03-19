@@ -17,6 +17,17 @@ include('material-4/Device/BrightnessMedium')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BrightnessMediumXs>`
+- `<$BrightnessMediumSm>`
+- `<$BrightnessMediumMd>`
+- `<$BrightnessMediumLg>`
+
+
+
+
 
 ## BrightnessMedium
 

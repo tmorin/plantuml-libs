@@ -17,6 +17,17 @@ include('material-4/Av/MissedVideoCall')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MissedVideoCallXs>`
+- `<$MissedVideoCallSm>`
+- `<$MissedVideoCallMd>`
+- `<$MissedVideoCallLg>`
+
+
+
+
 
 ## MissedVideoCall
 

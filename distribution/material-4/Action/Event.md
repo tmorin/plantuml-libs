@@ -17,6 +17,17 @@ include('material-4/Action/Event')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EventXs>`
+- `<$EventSm>`
+- `<$EventMd>`
+- `<$EventLg>`
+
+
+
+
 
 ## Event
 

@@ -17,6 +17,17 @@ include('material-4/Editor/BubbleChart')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BubbleChartXs>`
+- `<$BubbleChartSm>`
+- `<$BubbleChartMd>`
+- `<$BubbleChartLg>`
+
+
+
+
 
 ## BubbleChart
 

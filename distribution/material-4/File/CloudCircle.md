@@ -17,6 +17,17 @@ include('material-4/File/CloudCircle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudCircleXs>`
+- `<$CloudCircleSm>`
+- `<$CloudCircleMd>`
+- `<$CloudCircleLg>`
+
+
+
+
 
 ## CloudCircle
 

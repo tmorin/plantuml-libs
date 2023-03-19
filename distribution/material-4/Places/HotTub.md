@@ -17,6 +17,17 @@ include('material-4/Places/HotTub')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HotTubXs>`
+- `<$HotTubSm>`
+- `<$HotTubMd>`
+- `<$HotTubLg>`
+
+
+
+
 
 ## HotTub
 

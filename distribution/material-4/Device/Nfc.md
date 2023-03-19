@@ -17,6 +17,17 @@ include('material-4/Device/Nfc')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NfcXs>`
+- `<$NfcSm>`
+- `<$NfcMd>`
+- `<$NfcLg>`
+
+
+
+
 
 ## Nfc
 

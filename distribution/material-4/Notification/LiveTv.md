@@ -17,6 +17,17 @@ include('material-4/Notification/LiveTv')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LiveTvXs>`
+- `<$LiveTvSm>`
+- `<$LiveTvMd>`
+- `<$LiveTvLg>`
+
+
+
+
 
 ## LiveTv
 

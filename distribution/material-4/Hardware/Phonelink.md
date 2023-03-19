@@ -17,6 +17,17 @@ include('material-4/Hardware/Phonelink')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PhonelinkXs>`
+- `<$PhonelinkSm>`
+- `<$PhonelinkMd>`
+- `<$PhonelinkLg>`
+
+
+
+
 
 ## Phonelink
 

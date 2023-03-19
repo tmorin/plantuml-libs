@@ -17,6 +17,17 @@ include('material-4/Image/TimerOff')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TimerOffXs>`
+- `<$TimerOffSm>`
+- `<$TimerOffMd>`
+- `<$TimerOffLg>`
+
+
+
+
 
 ## TimerOff
 

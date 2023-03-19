@@ -17,6 +17,17 @@ include('material-4/Maps/Layers')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LayersXs>`
+- `<$LayersSm>`
+- `<$LayersMd>`
+- `<$LayersLg>`
+
+
+
+
 
 ## Layers
 

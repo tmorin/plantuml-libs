@@ -17,6 +17,17 @@ include('material-4/Communication/WifiCalling')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WifiCallingXs>`
+- `<$WifiCallingSm>`
+- `<$WifiCallingMd>`
+- `<$WifiCallingLg>`
+
+
+
+
 
 ## WifiCalling
 

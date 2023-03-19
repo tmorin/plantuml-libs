@@ -17,6 +17,17 @@ include('material-4/Editor/VerticalAlignCenter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VerticalAlignCenterXs>`
+- `<$VerticalAlignCenterSm>`
+- `<$VerticalAlignCenterMd>`
+- `<$VerticalAlignCenterLg>`
+
+
+
+
 
 ## VerticalAlignCenter
 

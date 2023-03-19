@@ -17,6 +17,17 @@ include('material-4/Editor/Title')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TitleXs>`
+- `<$TitleSm>`
+- `<$TitleMd>`
+- `<$TitleLg>`
+
+
+
+
 
 ## Title
 

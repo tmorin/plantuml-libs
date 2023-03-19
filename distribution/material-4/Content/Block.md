@@ -17,6 +17,17 @@ include('material-4/Content/Block')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BlockXs>`
+- `<$BlockSm>`
+- `<$BlockMd>`
+- `<$BlockLg>`
+
+
+
+
 
 ## Block
 

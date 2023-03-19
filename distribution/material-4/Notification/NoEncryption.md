@@ -17,6 +17,17 @@ include('material-4/Notification/NoEncryption')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NoEncryptionXs>`
+- `<$NoEncryptionSm>`
+- `<$NoEncryptionMd>`
+- `<$NoEncryptionLg>`
+
+
+
+
 
 ## NoEncryption
 

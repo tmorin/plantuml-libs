@@ -17,6 +17,17 @@ include('material-4/Navigation/ArrowDownward')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ArrowDownwardXs>`
+- `<$ArrowDownwardSm>`
+- `<$ArrowDownwardMd>`
+- `<$ArrowDownwardLg>`
+
+
+
+
 
 ## ArrowDownward
 

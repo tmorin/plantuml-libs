@@ -17,6 +17,17 @@ include('material-4/Communication/PhonelinkLock')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PhonelinkLockXs>`
+- `<$PhonelinkLockSm>`
+- `<$PhonelinkLockMd>`
+- `<$PhonelinkLockLg>`
+
+
+
+
 
 ## PhonelinkLock
 

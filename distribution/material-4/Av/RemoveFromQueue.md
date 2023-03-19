@@ -17,6 +17,17 @@ include('material-4/Av/RemoveFromQueue')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RemoveFromQueueXs>`
+- `<$RemoveFromQueueSm>`
+- `<$RemoveFromQueueMd>`
+- `<$RemoveFromQueueLg>`
+
+
+
+
 
 ## RemoveFromQueue
 

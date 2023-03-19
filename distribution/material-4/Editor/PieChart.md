@@ -17,6 +17,17 @@ include('material-4/Editor/PieChart')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PieChartXs>`
+- `<$PieChartSm>`
+- `<$PieChartMd>`
+- `<$PieChartLg>`
+
+
+
+
 
 ## PieChart
 

@@ -17,6 +17,17 @@ include('material-4/Action/TextRotationAngleup')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TextRotationAngleupXs>`
+- `<$TextRotationAngleupSm>`
+- `<$TextRotationAngleupMd>`
+- `<$TextRotationAngleupLg>`
+
+
+
+
 
 ## TextRotationAngleup
 

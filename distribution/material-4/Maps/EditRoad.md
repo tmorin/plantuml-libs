@@ -17,6 +17,17 @@ include('material-4/Maps/EditRoad')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EditRoadXs>`
+- `<$EditRoadSm>`
+- `<$EditRoadMd>`
+- `<$EditRoadLg>`
+
+
+
+
 
 ## EditRoad
 

@@ -17,6 +17,17 @@ include('material-4/Places/FitnessCenter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FitnessCenterXs>`
+- `<$FitnessCenterSm>`
+- `<$FitnessCenterMd>`
+- `<$FitnessCenterLg>`
+
+
+
+
 
 ## FitnessCenter
 

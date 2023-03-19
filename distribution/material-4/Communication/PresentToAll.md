@@ -17,6 +17,17 @@ include('material-4/Communication/PresentToAll')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PresentToAllXs>`
+- `<$PresentToAllSm>`
+- `<$PresentToAllMd>`
+- `<$PresentToAllLg>`
+
+
+
+
 
 ## PresentToAll
 

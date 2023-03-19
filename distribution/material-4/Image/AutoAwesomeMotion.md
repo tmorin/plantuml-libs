@@ -17,6 +17,17 @@ include('material-4/Image/AutoAwesomeMotion')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AutoAwesomeMotionXs>`
+- `<$AutoAwesomeMotionSm>`
+- `<$AutoAwesomeMotionMd>`
+- `<$AutoAwesomeMotionLg>`
+
+
+
+
 
 ## AutoAwesomeMotion
 

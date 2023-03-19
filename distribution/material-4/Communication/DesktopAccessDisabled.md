@@ -17,6 +17,17 @@ include('material-4/Communication/DesktopAccessDisabled')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DesktopAccessDisabledXs>`
+- `<$DesktopAccessDisabledSm>`
+- `<$DesktopAccessDisabledMd>`
+- `<$DesktopAccessDisabledLg>`
+
+
+
+
 
 ## DesktopAccessDisabled
 

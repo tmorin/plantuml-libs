@@ -17,6 +17,17 @@ include('material-4/Content/HowToReg')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HowToRegXs>`
+- `<$HowToRegSm>`
+- `<$HowToRegMd>`
+- `<$HowToRegLg>`
+
+
+
+
 
 ## HowToReg
 

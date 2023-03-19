@@ -17,6 +17,17 @@ include('material-4/File/Approval')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ApprovalXs>`
+- `<$ApprovalSm>`
+- `<$ApprovalMd>`
+- `<$ApprovalLg>`
+
+
+
+
 
 ## Approval
 

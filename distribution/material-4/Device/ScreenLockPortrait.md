@@ -17,6 +17,17 @@ include('material-4/Device/ScreenLockPortrait')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ScreenLockPortraitXs>`
+- `<$ScreenLockPortraitSm>`
+- `<$ScreenLockPortraitMd>`
+- `<$ScreenLockPortraitLg>`
+
+
+
+
 
 ## ScreenLockPortrait
 

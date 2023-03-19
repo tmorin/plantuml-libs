@@ -17,6 +17,17 @@ include('material-4/Image/RemoveRedEye')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RemoveRedEyeXs>`
+- `<$RemoveRedEyeSm>`
+- `<$RemoveRedEyeMd>`
+- `<$RemoveRedEyeLg>`
+
+
+
+
 
 ## RemoveRedEye
 

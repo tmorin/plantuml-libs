@@ -17,6 +17,17 @@ include('material-4/Action/Done')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DoneXs>`
+- `<$DoneSm>`
+- `<$DoneMd>`
+- `<$DoneLg>`
+
+
+
+
 
 ## Done
 

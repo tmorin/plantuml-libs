@@ -17,6 +17,17 @@ include('material-4/Image/Grain')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GrainXs>`
+- `<$GrainSm>`
+- `<$GrainMd>`
+- `<$GrainLg>`
+
+
+
+
 
 ## Grain
 

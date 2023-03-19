@@ -17,6 +17,17 @@ include('material-4/Maps/VolunteerActivism')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VolunteerActivismXs>`
+- `<$VolunteerActivismSm>`
+- `<$VolunteerActivismMd>`
+- `<$VolunteerActivismLg>`
+
+
+
+
 
 ## VolunteerActivism
 

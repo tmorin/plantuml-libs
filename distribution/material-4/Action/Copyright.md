@@ -17,6 +17,17 @@ include('material-4/Action/Copyright')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CopyrightXs>`
+- `<$CopyrightSm>`
+- `<$CopyrightMd>`
+- `<$CopyrightLg>`
+
+
+
+
 
 ## Copyright
 

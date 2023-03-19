@@ -17,6 +17,17 @@ include('material-4/Image/HdrWeak')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HdrWeakXs>`
+- `<$HdrWeakSm>`
+- `<$HdrWeakMd>`
+- `<$HdrWeakLg>`
+
+
+
+
 
 ## HdrWeak
 

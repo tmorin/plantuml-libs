@@ -17,6 +17,17 @@ include('material-4/Action/LockOpen')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LockOpenXs>`
+- `<$LockOpenSm>`
+- `<$LockOpenMd>`
+- `<$LockOpenLg>`
+
+
+
+
 
 ## LockOpen
 

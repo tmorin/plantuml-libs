@@ -17,6 +17,17 @@ include('material-4/File/CloudQueue')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudQueueXs>`
+- `<$CloudQueueSm>`
+- `<$CloudQueueMd>`
+- `<$CloudQueueLg>`
+
+
+
+
 
 ## CloudQueue
 

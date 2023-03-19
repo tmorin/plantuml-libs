@@ -17,6 +17,17 @@ include('material-4/Action/Print')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PrintXs>`
+- `<$PrintSm>`
+- `<$PrintMd>`
+- `<$PrintLg>`
+
+
+
+
 
 ## Print
 

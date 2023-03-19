@@ -17,6 +17,17 @@ include('material-4/Maps/NoTransfer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NoTransferXs>`
+- `<$NoTransferSm>`
+- `<$NoTransferMd>`
+- `<$NoTransferLg>`
+
+
+
+
 
 ## NoTransfer
 

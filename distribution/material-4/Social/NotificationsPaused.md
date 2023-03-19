@@ -17,6 +17,17 @@ include('material-4/Social/NotificationsPaused')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NotificationsPausedXs>`
+- `<$NotificationsPausedSm>`
+- `<$NotificationsPausedMd>`
+- `<$NotificationsPausedLg>`
+
+
+
+
 
 ## NotificationsPaused
 

@@ -17,6 +17,17 @@ include('material-4/Image/NavigateNext')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NavigateNextXs>`
+- `<$NavigateNextSm>`
+- `<$NavigateNextMd>`
+- `<$NavigateNextLg>`
+
+
+
+
 
 ## NavigateNext
 

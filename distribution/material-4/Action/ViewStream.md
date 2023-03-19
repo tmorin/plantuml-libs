@@ -17,6 +17,17 @@ include('material-4/Action/ViewStream')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ViewStreamXs>`
+- `<$ViewStreamSm>`
+- `<$ViewStreamMd>`
+- `<$ViewStreamLg>`
+
+
+
+
 
 ## ViewStream
 

@@ -17,6 +17,17 @@ include('material-4/Av/Equalizer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EqualizerXs>`
+- `<$EqualizerSm>`
+- `<$EqualizerMd>`
+- `<$EqualizerLg>`
+
+
+
+
 
 ## Equalizer
 

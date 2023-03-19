@@ -17,6 +17,17 @@ include('material-4/Maps/LocalPizza')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LocalPizzaXs>`
+- `<$LocalPizzaSm>`
+- `<$LocalPizzaMd>`
+- `<$LocalPizzaLg>`
+
+
+
+
 
 ## LocalPizza
 

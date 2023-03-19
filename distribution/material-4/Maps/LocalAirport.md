@@ -17,6 +17,17 @@ include('material-4/Maps/LocalAirport')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LocalAirportXs>`
+- `<$LocalAirportSm>`
+- `<$LocalAirportMd>`
+- `<$LocalAirportLg>`
+
+
+
+
 
 ## LocalAirport
 

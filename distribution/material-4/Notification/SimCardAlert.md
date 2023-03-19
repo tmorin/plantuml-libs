@@ -17,6 +17,17 @@ include('material-4/Notification/SimCardAlert')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SimCardAlertXs>`
+- `<$SimCardAlertSm>`
+- `<$SimCardAlertMd>`
+- `<$SimCardAlertLg>`
+
+
+
+
 
 ## SimCardAlert
 

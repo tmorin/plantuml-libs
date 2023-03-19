@@ -17,6 +17,17 @@ include('material-4/Editor/InsertChart')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InsertChartXs>`
+- `<$InsertChartSm>`
+- `<$InsertChartMd>`
+- `<$InsertChartLg>`
+
+
+
+
 
 ## InsertChart
 

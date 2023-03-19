@@ -17,6 +17,17 @@ include('material-4/Editor/BarChart')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BarChartXs>`
+- `<$BarChartSm>`
+- `<$BarChartMd>`
+- `<$BarChartLg>`
+
+
+
+
 
 ## BarChart
 

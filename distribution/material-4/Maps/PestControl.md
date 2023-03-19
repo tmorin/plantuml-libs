@@ -17,6 +17,17 @@ include('material-4/Maps/PestControl')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PestControlXs>`
+- `<$PestControlSm>`
+- `<$PestControlMd>`
+- `<$PestControlLg>`
+
+
+
+
 
 ## PestControl
 

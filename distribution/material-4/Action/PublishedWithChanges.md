@@ -17,6 +17,17 @@ include('material-4/Action/PublishedWithChanges')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PublishedWithChangesXs>`
+- `<$PublishedWithChangesSm>`
+- `<$PublishedWithChangesMd>`
+- `<$PublishedWithChangesLg>`
+
+
+
+
 
 ## PublishedWithChanges
 

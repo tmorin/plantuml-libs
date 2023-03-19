@@ -17,6 +17,17 @@ include('material-4/File/CreateNewFolder')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CreateNewFolderXs>`
+- `<$CreateNewFolderSm>`
+- `<$CreateNewFolderMd>`
+- `<$CreateNewFolderLg>`
+
+
+
+
 
 ## CreateNewFolder
 

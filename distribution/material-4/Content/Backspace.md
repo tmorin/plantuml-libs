@@ -17,6 +17,17 @@ include('material-4/Content/Backspace')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BackspaceXs>`
+- `<$BackspaceSm>`
+- `<$BackspaceMd>`
+- `<$BackspaceLg>`
+
+
+
+
 
 ## Backspace
 

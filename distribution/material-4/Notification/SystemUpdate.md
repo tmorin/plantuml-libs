@@ -17,6 +17,17 @@ include('material-4/Notification/SystemUpdate')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SystemUpdateXs>`
+- `<$SystemUpdateSm>`
+- `<$SystemUpdateMd>`
+- `<$SystemUpdateLg>`
+
+
+
+
 
 ## SystemUpdate
 

@@ -17,6 +17,17 @@ include('material-4/Hardware/DeveloperBoard')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DeveloperBoardXs>`
+- `<$DeveloperBoardSm>`
+- `<$DeveloperBoardMd>`
+- `<$DeveloperBoardLg>`
+
+
+
+
 
 ## DeveloperBoard
 

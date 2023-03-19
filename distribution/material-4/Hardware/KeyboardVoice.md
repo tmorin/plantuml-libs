@@ -17,6 +17,17 @@ include('material-4/Hardware/KeyboardVoice')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KeyboardVoiceXs>`
+- `<$KeyboardVoiceSm>`
+- `<$KeyboardVoiceMd>`
+- `<$KeyboardVoiceLg>`
+
+
+
+
 
 ## KeyboardVoice
 

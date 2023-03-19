@@ -17,6 +17,17 @@ include('material-4/Communication/StayCurrentLandscape')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StayCurrentLandscapeXs>`
+- `<$StayCurrentLandscapeSm>`
+- `<$StayCurrentLandscapeMd>`
+- `<$StayCurrentLandscapeLg>`
+
+
+
+
 
 ## StayCurrentLandscape
 

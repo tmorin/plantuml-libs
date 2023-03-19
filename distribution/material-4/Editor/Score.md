@@ -17,6 +17,17 @@ include('material-4/Editor/Score')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ScoreXs>`
+- `<$ScoreSm>`
+- `<$ScoreMd>`
+- `<$ScoreLg>`
+
+
+
+
 
 ## Score
 

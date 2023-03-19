@@ -17,6 +17,17 @@ include('material-4/Image/Audiotrack')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AudiotrackXs>`
+- `<$AudiotrackSm>`
+- `<$AudiotrackMd>`
+- `<$AudiotrackLg>`
+
+
+
+
 
 ## Audiotrack
 

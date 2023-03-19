@@ -17,6 +17,17 @@ include('material-4/Action/Settings')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SettingsXs>`
+- `<$SettingsSm>`
+- `<$SettingsMd>`
+- `<$SettingsLg>`
+
+
+
+
 
 ## Settings
 

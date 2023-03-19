@@ -17,6 +17,17 @@ include('material-4/Action/Eject')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EjectXs>`
+- `<$EjectSm>`
+- `<$EjectMd>`
+- `<$EjectLg>`
+
+
+
+
 
 ## Eject
 

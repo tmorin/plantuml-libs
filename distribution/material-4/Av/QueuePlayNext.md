@@ -17,6 +17,17 @@ include('material-4/Av/QueuePlayNext')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$QueuePlayNextXs>`
+- `<$QueuePlayNextSm>`
+- `<$QueuePlayNextMd>`
+- `<$QueuePlayNextLg>`
+
+
+
+
 
 ## QueuePlayNext
 

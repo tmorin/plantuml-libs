@@ -17,6 +17,17 @@ include('material-4/Action/RoundedCorner')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RoundedCornerXs>`
+- `<$RoundedCornerSm>`
+- `<$RoundedCornerMd>`
+- `<$RoundedCornerLg>`
+
+
+
+
 
 ## RoundedCorner
 

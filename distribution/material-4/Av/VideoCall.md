@@ -17,6 +17,17 @@ include('material-4/Av/VideoCall')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VideoCallXs>`
+- `<$VideoCallSm>`
+- `<$VideoCallMd>`
+- `<$VideoCallLg>`
+
+
+
+
 
 ## VideoCall
 

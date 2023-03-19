@@ -17,6 +17,17 @@ include('material-4/Device/GpsOff')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GpsOffXs>`
+- `<$GpsOffSm>`
+- `<$GpsOffMd>`
+- `<$GpsOffLg>`
+
+
+
+
 
 ## GpsOff
 

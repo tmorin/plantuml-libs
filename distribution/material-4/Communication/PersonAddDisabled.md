@@ -17,6 +17,17 @@ include('material-4/Communication/PersonAddDisabled')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PersonAddDisabledXs>`
+- `<$PersonAddDisabledSm>`
+- `<$PersonAddDisabledMd>`
+- `<$PersonAddDisabledLg>`
+
+
+
+
 
 ## PersonAddDisabled
 

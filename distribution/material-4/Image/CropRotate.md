@@ -17,6 +17,17 @@ include('material-4/Image/CropRotate')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CropRotateXs>`
+- `<$CropRotateSm>`
+- `<$CropRotateMd>`
+- `<$CropRotateLg>`
+
+
+
+
 
 ## CropRotate
 

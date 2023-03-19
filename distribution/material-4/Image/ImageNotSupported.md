@@ -17,6 +17,17 @@ include('material-4/Image/ImageNotSupported')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ImageNotSupportedXs>`
+- `<$ImageNotSupportedSm>`
+- `<$ImageNotSupportedMd>`
+- `<$ImageNotSupportedLg>`
+
+
+
+
 
 ## ImageNotSupported
 

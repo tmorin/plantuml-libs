@@ -17,6 +17,17 @@ include('material-4/Image/HdrOff')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HdrOffXs>`
+- `<$HdrOffSm>`
+- `<$HdrOffMd>`
+- `<$HdrOffLg>`
+
+
+
+
 
 ## HdrOff
 

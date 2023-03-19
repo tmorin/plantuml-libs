@@ -17,6 +17,17 @@ include('material-4/Notification/EnhancedEncryption')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EnhancedEncryptionXs>`
+- `<$EnhancedEncryptionSm>`
+- `<$EnhancedEncryptionMd>`
+- `<$EnhancedEncryptionLg>`
+
+
+
+
 
 ## EnhancedEncryption
 

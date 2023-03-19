@@ -17,6 +17,17 @@ include('material-4/Image/FlashOff')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FlashOffXs>`
+- `<$FlashOffSm>`
+- `<$FlashOffMd>`
+- `<$FlashOffLg>`
+
+
+
+
 
 ## FlashOff
 

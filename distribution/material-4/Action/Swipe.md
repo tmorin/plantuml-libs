@@ -17,6 +17,17 @@ include('material-4/Action/Swipe')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SwipeXs>`
+- `<$SwipeSm>`
+- `<$SwipeMd>`
+- `<$SwipeLg>`
+
+
+
+
 
 ## Swipe
 

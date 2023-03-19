@@ -17,6 +17,17 @@ include('material-4/Image/FilterBAndW')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FilterBAndWXs>`
+- `<$FilterBAndWSm>`
+- `<$FilterBAndWMd>`
+- `<$FilterBAndWLg>`
+
+
+
+
 
 ## FilterBAndW
 

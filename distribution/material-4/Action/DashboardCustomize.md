@@ -17,6 +17,17 @@ include('material-4/Action/DashboardCustomize')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DashboardCustomizeXs>`
+- `<$DashboardCustomizeSm>`
+- `<$DashboardCustomizeMd>`
+- `<$DashboardCustomizeLg>`
+
+
+
+
 
 ## DashboardCustomize
 

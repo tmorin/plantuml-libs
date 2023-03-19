@@ -17,6 +17,17 @@ include('material-4/Maps/Streetview')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StreetviewXs>`
+- `<$StreetviewSm>`
+- `<$StreetviewMd>`
+- `<$StreetviewLg>`
+
+
+
+
 
 ## Streetview
 

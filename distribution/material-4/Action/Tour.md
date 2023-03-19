@@ -17,6 +17,17 @@ include('material-4/Action/Tour')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TourXs>`
+- `<$TourSm>`
+- `<$TourMd>`
+- `<$TourLg>`
+
+
+
+
 
 ## Tour
 

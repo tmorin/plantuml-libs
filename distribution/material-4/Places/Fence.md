@@ -17,6 +17,17 @@ include('material-4/Places/Fence')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FenceXs>`
+- `<$FenceSm>`
+- `<$FenceMd>`
+- `<$FenceLg>`
+
+
+
+
 
 ## Fence
 

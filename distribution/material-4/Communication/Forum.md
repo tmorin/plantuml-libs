@@ -17,6 +17,17 @@ include('material-4/Communication/Forum')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ForumXs>`
+- `<$ForumSm>`
+- `<$ForumMd>`
+- `<$ForumLg>`
+
+
+
+
 
 ## Forum
 

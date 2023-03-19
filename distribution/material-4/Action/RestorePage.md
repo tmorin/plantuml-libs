@@ -17,6 +17,17 @@ include('material-4/Action/RestorePage')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RestorePageXs>`
+- `<$RestorePageSm>`
+- `<$RestorePageMd>`
+- `<$RestorePageLg>`
+
+
+
+
 
 ## RestorePage
 

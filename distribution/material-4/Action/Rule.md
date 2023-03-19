@@ -17,6 +17,17 @@ include('material-4/Action/Rule')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RuleXs>`
+- `<$RuleSm>`
+- `<$RuleMd>`
+- `<$RuleLg>`
+
+
+
+
 
 ## Rule
 

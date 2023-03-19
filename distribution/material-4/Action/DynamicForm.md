@@ -17,6 +17,17 @@ include('material-4/Action/DynamicForm')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DynamicFormXs>`
+- `<$DynamicFormSm>`
+- `<$DynamicFormMd>`
+- `<$DynamicFormLg>`
+
+
+
+
 
 ## DynamicForm
 

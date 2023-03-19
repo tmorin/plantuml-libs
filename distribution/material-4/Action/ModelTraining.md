@@ -17,6 +17,17 @@ include('material-4/Action/ModelTraining')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ModelTrainingXs>`
+- `<$ModelTrainingSm>`
+- `<$ModelTrainingMd>`
+- `<$ModelTrainingLg>`
+
+
+
+
 
 ## ModelTraining
 

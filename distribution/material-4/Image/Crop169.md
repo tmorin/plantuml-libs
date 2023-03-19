@@ -17,6 +17,17 @@ include('material-4/Image/Crop169')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$Crop169Xs>`
+- `<$Crop169Sm>`
+- `<$Crop169Md>`
+- `<$Crop169Lg>`
+
+
+
+
 
 ## Crop169
 

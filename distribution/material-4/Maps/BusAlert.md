@@ -17,6 +17,17 @@ include('material-4/Maps/BusAlert')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BusAlertXs>`
+- `<$BusAlertSm>`
+- `<$BusAlertMd>`
+- `<$BusAlertLg>`
+
+
+
+
 
 ## BusAlert
 

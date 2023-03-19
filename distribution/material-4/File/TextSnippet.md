@@ -17,6 +17,17 @@ include('material-4/File/TextSnippet')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TextSnippetXs>`
+- `<$TextSnippetSm>`
+- `<$TextSnippetMd>`
+- `<$TextSnippetLg>`
+
+
+
+
 
 ## TextSnippet
 

@@ -17,6 +17,17 @@ include('material-4/Action/BookOnline')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BookOnlineXs>`
+- `<$BookOnlineSm>`
+- `<$BookOnlineMd>`
+- `<$BookOnlineLg>`
+
+
+
+
 
 ## BookOnline
 

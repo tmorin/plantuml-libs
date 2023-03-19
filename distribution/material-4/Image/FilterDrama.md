@@ -17,6 +17,17 @@ include('material-4/Image/FilterDrama')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FilterDramaXs>`
+- `<$FilterDramaSm>`
+- `<$FilterDramaMd>`
+- `<$FilterDramaLg>`
+
+
+
+
 
 ## FilterDrama
 

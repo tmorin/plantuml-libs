@@ -17,6 +17,17 @@ include('material-4/Action/Input')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$InputXs>`
+- `<$InputSm>`
+- `<$InputMd>`
+- `<$InputLg>`
+
+
+
+
 
 ## Input
 

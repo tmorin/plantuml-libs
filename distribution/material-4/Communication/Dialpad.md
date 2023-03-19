@@ -17,6 +17,17 @@ include('material-4/Communication/Dialpad')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DialpadXs>`
+- `<$DialpadSm>`
+- `<$DialpadMd>`
+- `<$DialpadLg>`
+
+
+
+
 
 ## Dialpad
 

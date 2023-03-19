@@ -17,6 +17,17 @@ include('material-4/Editor/FormatLineSpacing')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FormatLineSpacingXs>`
+- `<$FormatLineSpacingSm>`
+- `<$FormatLineSpacingMd>`
+- `<$FormatLineSpacingLg>`
+
+
+
+
 
 ## FormatLineSpacing
 

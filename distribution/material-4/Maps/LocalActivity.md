@@ -17,6 +17,17 @@ include('material-4/Maps/LocalActivity')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LocalActivityXs>`
+- `<$LocalActivitySm>`
+- `<$LocalActivityMd>`
+- `<$LocalActivityLg>`
+
+
+
+
 
 ## LocalActivity
 

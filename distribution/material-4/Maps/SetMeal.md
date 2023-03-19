@@ -17,6 +17,17 @@ include('material-4/Maps/SetMeal')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SetMealXs>`
+- `<$SetMealSm>`
+- `<$SetMealMd>`
+- `<$SetMealLg>`
+
+
+
+
 
 ## SetMeal
 

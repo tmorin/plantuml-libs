@@ -17,6 +17,17 @@ include('material-4/Action/ViewDay')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ViewDayXs>`
+- `<$ViewDaySm>`
+- `<$ViewDayMd>`
+- `<$ViewDayLg>`
+
+
+
+
 
 ## ViewDay
 

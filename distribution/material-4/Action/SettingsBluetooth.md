@@ -17,6 +17,17 @@ include('material-4/Action/SettingsBluetooth')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SettingsBluetoothXs>`
+- `<$SettingsBluetoothSm>`
+- `<$SettingsBluetoothMd>`
+- `<$SettingsBluetoothLg>`
+
+
+
+
 
 ## SettingsBluetooth
 

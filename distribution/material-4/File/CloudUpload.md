@@ -17,6 +17,17 @@ include('material-4/File/CloudUpload')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudUploadXs>`
+- `<$CloudUploadSm>`
+- `<$CloudUploadMd>`
+- `<$CloudUploadLg>`
+
+
+
+
 
 ## CloudUpload
 

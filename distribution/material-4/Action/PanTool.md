@@ -17,6 +17,17 @@ include('material-4/Action/PanTool')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PanToolXs>`
+- `<$PanToolSm>`
+- `<$PanToolMd>`
+- `<$PanToolLg>`
+
+
+
+
 
 ## PanTool
 

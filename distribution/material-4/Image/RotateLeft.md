@@ -17,6 +17,17 @@ include('material-4/Image/RotateLeft')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RotateLeftXs>`
+- `<$RotateLeftSm>`
+- `<$RotateLeftMd>`
+- `<$RotateLeftLg>`
+
+
+
+
 
 ## RotateLeft
 

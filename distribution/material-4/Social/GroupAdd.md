@@ -17,6 +17,17 @@ include('material-4/Social/GroupAdd')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GroupAddXs>`
+- `<$GroupAddSm>`
+- `<$GroupAddMd>`
+- `<$GroupAddLg>`
+
+
+
+
 
 ## GroupAdd
 

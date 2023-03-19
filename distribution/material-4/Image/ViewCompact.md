@@ -17,6 +17,17 @@ include('material-4/Image/ViewCompact')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ViewCompactXs>`
+- `<$ViewCompactSm>`
+- `<$ViewCompactMd>`
+- `<$ViewCompactLg>`
+
+
+
+
 
 ## ViewCompact
 

@@ -17,6 +17,17 @@ include('material-4/Maps/WineBar')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WineBarXs>`
+- `<$WineBarSm>`
+- `<$WineBarMd>`
+- `<$WineBarLg>`
+
+
+
+
 
 ## WineBar
 

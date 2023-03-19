@@ -17,6 +17,17 @@ include('material-4/Image/ExposurePlus1')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ExposurePlus1Xs>`
+- `<$ExposurePlus1Sm>`
+- `<$ExposurePlus1Md>`
+- `<$ExposurePlus1Lg>`
+
+
+
+
 
 ## ExposurePlus1
 

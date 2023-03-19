@@ -17,6 +17,17 @@ include('material-4/Av/VideoSettings')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VideoSettingsXs>`
+- `<$VideoSettingsSm>`
+- `<$VideoSettingsMd>`
+- `<$VideoSettingsLg>`
+
+
+
+
 
 ## VideoSettings
 

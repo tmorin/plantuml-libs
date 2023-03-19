@@ -17,6 +17,17 @@ include('material-4/Device/Storage')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StorageXs>`
+- `<$StorageSm>`
+- `<$StorageMd>`
+- `<$StorageLg>`
+
+
+
+
 
 ## Storage
 

@@ -17,6 +17,17 @@ include('material-4/Action/ArrowCircleUp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ArrowCircleUpXs>`
+- `<$ArrowCircleUpSm>`
+- `<$ArrowCircleUpMd>`
+- `<$ArrowCircleUpLg>`
+
+
+
+
 
 ## ArrowCircleUp
 

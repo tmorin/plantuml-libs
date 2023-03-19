@@ -17,6 +17,17 @@ include('material-4/Image/PhotoCameraBack')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PhotoCameraBackXs>`
+- `<$PhotoCameraBackSm>`
+- `<$PhotoCameraBackMd>`
+- `<$PhotoCameraBackLg>`
+
+
+
+
 
 ## PhotoCameraBack
 

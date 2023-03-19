@@ -17,6 +17,17 @@ include('material-4/Editor/MergeType')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MergeTypeXs>`
+- `<$MergeTypeSm>`
+- `<$MergeTypeMd>`
+- `<$MergeTypeLg>`
+
+
+
+
 
 ## MergeType
 

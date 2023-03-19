@@ -17,6 +17,17 @@ include('material-4/Navigation/AppSettingsAlt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AppSettingsAltXs>`
+- `<$AppSettingsAltSm>`
+- `<$AppSettingsAltMd>`
+- `<$AppSettingsAltLg>`
+
+
+
+
 
 ## AppSettingsAlt
 

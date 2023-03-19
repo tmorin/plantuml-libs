@@ -17,6 +17,17 @@ include('material-4/Communication/DialerSip')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DialerSipXs>`
+- `<$DialerSipSm>`
+- `<$DialerSipMd>`
+- `<$DialerSipLg>`
+
+
+
+
 
 ## DialerSip
 

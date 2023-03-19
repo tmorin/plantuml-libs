@@ -17,6 +17,17 @@ include('material-4/Action/SupervisorAccount')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SupervisorAccountXs>`
+- `<$SupervisorAccountSm>`
+- `<$SupervisorAccountMd>`
+- `<$SupervisorAccountLg>`
+
+
+
+
 
 ## SupervisorAccount
 

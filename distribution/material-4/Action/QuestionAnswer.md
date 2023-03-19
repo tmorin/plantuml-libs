@@ -17,6 +17,17 @@ include('material-4/Action/QuestionAnswer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$QuestionAnswerXs>`
+- `<$QuestionAnswerSm>`
+- `<$QuestionAnswerMd>`
+- `<$QuestionAnswerLg>`
+
+
+
+
 
 ## QuestionAnswer
 

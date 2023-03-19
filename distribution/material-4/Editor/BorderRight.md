@@ -17,6 +17,17 @@ include('material-4/Editor/BorderRight')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BorderRightXs>`
+- `<$BorderRightSm>`
+- `<$BorderRightMd>`
+- `<$BorderRightLg>`
+
+
+
+
 
 ## BorderRight
 

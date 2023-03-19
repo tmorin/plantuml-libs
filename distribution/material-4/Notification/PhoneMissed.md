@@ -17,6 +17,17 @@ include('material-4/Notification/PhoneMissed')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PhoneMissedXs>`
+- `<$PhoneMissedSm>`
+- `<$PhoneMissedMd>`
+- `<$PhoneMissedLg>`
+
+
+
+
 
 ## PhoneMissed
 

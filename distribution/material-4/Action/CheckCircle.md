@@ -17,6 +17,17 @@ include('material-4/Action/CheckCircle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CheckCircleXs>`
+- `<$CheckCircleSm>`
+- `<$CheckCircleMd>`
+- `<$CheckCircleLg>`
+
+
+
+
 
 ## CheckCircle
 

@@ -17,6 +17,17 @@ include('material-4/Maps/MyLocation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MyLocationXs>`
+- `<$MyLocationSm>`
+- `<$MyLocationMd>`
+- `<$MyLocationLg>`
+
+
+
+
 
 ## MyLocation
 

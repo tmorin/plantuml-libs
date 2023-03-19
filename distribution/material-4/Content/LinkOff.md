@@ -17,6 +17,17 @@ include('material-4/Content/LinkOff')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LinkOffXs>`
+- `<$LinkOffSm>`
+- `<$LinkOffMd>`
+- `<$LinkOffLg>`
+
+
+
+
 
 ## LinkOff
 

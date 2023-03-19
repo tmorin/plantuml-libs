@@ -17,6 +17,17 @@ include('material-4/Maps/LocalFireDepartment')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LocalFireDepartmentXs>`
+- `<$LocalFireDepartmentSm>`
+- `<$LocalFireDepartmentMd>`
+- `<$LocalFireDepartmentLg>`
+
+
+
+
 
 ## LocalFireDepartment
 

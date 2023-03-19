@@ -17,6 +17,17 @@ include('material-4/Action/ViewQuilt')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ViewQuiltXs>`
+- `<$ViewQuiltSm>`
+- `<$ViewQuiltMd>`
+- `<$ViewQuiltLg>`
+
+
+
+
 
 ## ViewQuilt
 

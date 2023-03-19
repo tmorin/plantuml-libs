@@ -17,6 +17,17 @@ include('material-4/Image/FlashOn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FlashOnXs>`
+- `<$FlashOnSm>`
+- `<$FlashOnMd>`
+- `<$FlashOnLg>`
+
+
+
+
 
 ## FlashOn
 

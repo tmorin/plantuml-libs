@@ -17,6 +17,17 @@ include('material-4/Communication/ScreenShare')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ScreenShareXs>`
+- `<$ScreenShareSm>`
+- `<$ScreenShareMd>`
+- `<$ScreenShareLg>`
+
+
+
+
 
 ## ScreenShare
 

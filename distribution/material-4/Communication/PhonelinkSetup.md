@@ -17,6 +17,17 @@ include('material-4/Communication/PhonelinkSetup')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PhonelinkSetupXs>`
+- `<$PhonelinkSetupSm>`
+- `<$PhonelinkSetupMd>`
+- `<$PhonelinkSetupLg>`
+
+
+
+
 
 ## PhonelinkSetup
 

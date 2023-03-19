@@ -17,6 +17,17 @@ include('material-4/Action/CheckCircleOutline')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CheckCircleOutlineXs>`
+- `<$CheckCircleOutlineSm>`
+- `<$CheckCircleOutlineMd>`
+- `<$CheckCircleOutlineLg>`
+
+
+
+
 
 ## CheckCircleOutline
 

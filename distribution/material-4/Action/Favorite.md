@@ -17,6 +17,17 @@ include('material-4/Action/Favorite')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FavoriteXs>`
+- `<$FavoriteSm>`
+- `<$FavoriteMd>`
+- `<$FavoriteLg>`
+
+
+
+
 
 ## Favorite
 

@@ -17,6 +17,17 @@ include('material-4/Places/Foundation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FoundationXs>`
+- `<$FoundationSm>`
+- `<$FoundationMd>`
+- `<$FoundationLg>`
+
+
+
+
 
 ## Foundation
 

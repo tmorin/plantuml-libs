@@ -17,6 +17,17 @@ include('material-4/Maps/LocalParking')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LocalParkingXs>`
+- `<$LocalParkingSm>`
+- `<$LocalParkingMd>`
+- `<$LocalParkingLg>`
+
+
+
+
 
 ## LocalParking
 

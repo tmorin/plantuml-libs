@@ -17,6 +17,17 @@ include('material-4/Content/Clear')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ClearXs>`
+- `<$ClearSm>`
+- `<$ClearMd>`
+- `<$ClearLg>`
+
+
+
+
 
 ## Clear
 

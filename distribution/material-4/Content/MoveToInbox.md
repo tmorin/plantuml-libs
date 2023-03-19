@@ -17,6 +17,17 @@ include('material-4/Content/MoveToInbox')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MoveToInboxXs>`
+- `<$MoveToInboxSm>`
+- `<$MoveToInboxMd>`
+- `<$MoveToInboxLg>`
+
+
+
+
 
 ## MoveToInbox
 

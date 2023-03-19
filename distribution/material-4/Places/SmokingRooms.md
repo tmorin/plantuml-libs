@@ -17,6 +17,17 @@ include('material-4/Places/SmokingRooms')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SmokingRoomsXs>`
+- `<$SmokingRoomsSm>`
+- `<$SmokingRoomsMd>`
+- `<$SmokingRoomsLg>`
+
+
+
+
 
 ## SmokingRooms
 

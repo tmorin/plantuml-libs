@@ -17,6 +17,17 @@ include('material-4/Action/AdminPanelSettings')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AdminPanelSettingsXs>`
+- `<$AdminPanelSettingsSm>`
+- `<$AdminPanelSettingsMd>`
+- `<$AdminPanelSettingsLg>`
+
+
+
+
 
 ## AdminPanelSettings
 

@@ -17,6 +17,17 @@ include('material-4/Action/Lightbulb')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LightbulbXs>`
+- `<$LightbulbSm>`
+- `<$LightbulbMd>`
+- `<$LightbulbLg>`
+
+
+
+
 
 ## Lightbulb
 

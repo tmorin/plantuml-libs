@@ -17,6 +17,17 @@ include('material-4/Editor/HorizontalRule')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HorizontalRuleXs>`
+- `<$HorizontalRuleSm>`
+- `<$HorizontalRuleMd>`
+- `<$HorizontalRuleLg>`
+
+
+
+
 
 ## HorizontalRule
 

@@ -17,6 +17,17 @@ include('material-4/Maps/Attractions')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AttractionsXs>`
+- `<$AttractionsSm>`
+- `<$AttractionsMd>`
+- `<$AttractionsLg>`
+
+
+
+
 
 ## Attractions
 

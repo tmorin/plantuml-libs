@@ -17,6 +17,17 @@ include('material-4/Communication/Comment')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CommentXs>`
+- `<$CommentSm>`
+- `<$CommentMd>`
+- `<$CommentLg>`
+
+
+
+
 
 ## Comment
 

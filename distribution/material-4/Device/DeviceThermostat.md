@@ -17,6 +17,17 @@ include('material-4/Device/DeviceThermostat')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DeviceThermostatXs>`
+- `<$DeviceThermostatSm>`
+- `<$DeviceThermostatMd>`
+- `<$DeviceThermostatLg>`
+
+
+
+
 
 ## DeviceThermostat
 

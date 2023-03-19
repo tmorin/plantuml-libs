@@ -17,6 +17,17 @@ include('material-4/Content/DynamicFeed')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DynamicFeedXs>`
+- `<$DynamicFeedSm>`
+- `<$DynamicFeedMd>`
+- `<$DynamicFeedLg>`
+
+
+
+
 
 ## DynamicFeed
 

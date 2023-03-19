@@ -17,6 +17,17 @@ include('material-4/Navigation/Menu')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MenuXs>`
+- `<$MenuSm>`
+- `<$MenuMd>`
+- `<$MenuLg>`
+
+
+
+
 
 ## Menu
 

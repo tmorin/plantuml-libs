@@ -17,6 +17,17 @@ include('material-4/Navigation/HomeWork')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HomeWorkXs>`
+- `<$HomeWorkSm>`
+- `<$HomeWorkMd>`
+- `<$HomeWorkLg>`
+
+
+
+
 
 ## HomeWork
 

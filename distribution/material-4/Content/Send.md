@@ -17,6 +17,17 @@ include('material-4/Content/Send')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SendXs>`
+- `<$SendSm>`
+- `<$SendMd>`
+- `<$SendLg>`
+
+
+
+
 
 ## Send
 

@@ -17,6 +17,17 @@ include('material-4/Image/Brush')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BrushXs>`
+- `<$BrushSm>`
+- `<$BrushMd>`
+- `<$BrushLg>`
+
+
+
+
 
 ## Brush
 

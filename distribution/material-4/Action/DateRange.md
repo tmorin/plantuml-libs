@@ -17,6 +17,17 @@ include('material-4/Action/DateRange')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DateRangeXs>`
+- `<$DateRangeSm>`
+- `<$DateRangeMd>`
+- `<$DateRangeLg>`
+
+
+
+
 
 ## DateRange
 

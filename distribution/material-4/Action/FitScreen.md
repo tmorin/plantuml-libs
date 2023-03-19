@@ -17,6 +17,17 @@ include('material-4/Action/FitScreen')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FitScreenXs>`
+- `<$FitScreenSm>`
+- `<$FitScreenMd>`
+- `<$FitScreenLg>`
+
+
+
+
 
 ## FitScreen
 

@@ -17,6 +17,17 @@ include('material-4/Action/TextRotateVertical')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TextRotateVerticalXs>`
+- `<$TextRotateVerticalSm>`
+- `<$TextRotateVerticalMd>`
+- `<$TextRotateVerticalLg>`
+
+
+
+
 
 ## TextRotateVertical
 

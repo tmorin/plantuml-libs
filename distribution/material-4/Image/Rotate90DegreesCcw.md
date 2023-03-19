@@ -17,6 +17,17 @@ include('material-4/Image/Rotate90DegreesCcw')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$Rotate90DegreesCcwXs>`
+- `<$Rotate90DegreesCcwSm>`
+- `<$Rotate90DegreesCcwMd>`
+- `<$Rotate90DegreesCcwLg>`
+
+
+
+
 
 ## Rotate90DegreesCcw
 

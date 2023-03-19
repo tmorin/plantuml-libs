@@ -17,6 +17,17 @@ include('material-4/Navigation/Apps')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AppsXs>`
+- `<$AppsSm>`
+- `<$AppsMd>`
+- `<$AppsLg>`
+
+
+
+
 
 ## Apps
 

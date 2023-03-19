@@ -17,6 +17,17 @@ include('material-4/Editor/BorderHorizontal')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BorderHorizontalXs>`
+- `<$BorderHorizontalSm>`
+- `<$BorderHorizontalMd>`
+- `<$BorderHorizontalLg>`
+
+
+
+
 
 ## BorderHorizontal
 

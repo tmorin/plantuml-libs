@@ -17,6 +17,17 @@ include('material-4/Social/KingBed')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KingBedXs>`
+- `<$KingBedSm>`
+- `<$KingBedMd>`
+- `<$KingBedLg>`
+
+
+
+
 
 ## KingBed
 

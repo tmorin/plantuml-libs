@@ -17,6 +17,17 @@ include('material-4/Maps/MedicalServices')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MedicalServicesXs>`
+- `<$MedicalServicesSm>`
+- `<$MedicalServicesMd>`
+- `<$MedicalServicesLg>`
+
+
+
+
 
 ## MedicalServices
 

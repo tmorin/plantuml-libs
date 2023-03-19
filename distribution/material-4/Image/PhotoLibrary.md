@@ -17,6 +17,17 @@ include('material-4/Image/PhotoLibrary')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PhotoLibraryXs>`
+- `<$PhotoLibrarySm>`
+- `<$PhotoLibraryMd>`
+- `<$PhotoLibraryLg>`
+
+
+
+
 
 ## PhotoLibrary
 

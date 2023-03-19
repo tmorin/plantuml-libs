@@ -17,6 +17,17 @@ include('material-4/Av/ShuffleOn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ShuffleOnXs>`
+- `<$ShuffleOnSm>`
+- `<$ShuffleOnMd>`
+- `<$ShuffleOnLg>`
+
+
+
+
 
 ## ShuffleOn
 

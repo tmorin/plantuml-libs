@@ -17,6 +17,17 @@ include('material-4/Editor/FormatBold')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FormatBoldXs>`
+- `<$FormatBoldSm>`
+- `<$FormatBoldMd>`
+- `<$FormatBoldLg>`
+
+
+
+
 
 ## FormatBold
 

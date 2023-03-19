@@ -17,6 +17,17 @@ include('material-4/Places/RoomService')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RoomServiceXs>`
+- `<$RoomServiceSm>`
+- `<$RoomServiceMd>`
+- `<$RoomServiceLg>`
+
+
+
+
 
 ## RoomService
 

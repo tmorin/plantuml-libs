@@ -17,6 +17,17 @@ include('material-4/Social/_6FtApart')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$_6FtApartXs>`
+- `<$_6FtApartSm>`
+- `<$_6FtApartMd>`
+- `<$_6FtApartLg>`
+
+
+
+
 
 ## _6FtApart
 

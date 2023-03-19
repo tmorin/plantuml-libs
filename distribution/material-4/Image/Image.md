@@ -17,6 +17,17 @@ include('material-4/Image/Image')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ImageXs>`
+- `<$ImageSm>`
+- `<$ImageMd>`
+- `<$ImageLg>`
+
+
+
+
 
 ## Image
 

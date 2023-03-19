@@ -17,6 +17,17 @@ include('material-4/Action/FindReplace')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FindReplaceXs>`
+- `<$FindReplaceSm>`
+- `<$FindReplaceMd>`
+- `<$FindReplaceLg>`
+
+
+
+
 
 ## FindReplace
 

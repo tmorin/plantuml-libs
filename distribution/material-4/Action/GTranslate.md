@@ -17,6 +17,17 @@ include('material-4/Action/GTranslate')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GTranslateXs>`
+- `<$GTranslateSm>`
+- `<$GTranslateMd>`
+- `<$GTranslateLg>`
+
+
+
+
 
 ## GTranslate
 

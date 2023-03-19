@@ -17,6 +17,17 @@ include('material-4/Action/SettingsVoice')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SettingsVoiceXs>`
+- `<$SettingsVoiceSm>`
+- `<$SettingsVoiceMd>`
+- `<$SettingsVoiceLg>`
+
+
+
+
 
 ## SettingsVoice
 

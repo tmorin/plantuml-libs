@@ -17,6 +17,17 @@ include('material-4/Image/BlurOff')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BlurOffXs>`
+- `<$BlurOffSm>`
+- `<$BlurOffMd>`
+- `<$BlurOffLg>`
+
+
+
+
 
 ## BlurOff
 

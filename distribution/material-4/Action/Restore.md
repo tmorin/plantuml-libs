@@ -17,6 +17,17 @@ include('material-4/Action/Restore')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RestoreXs>`
+- `<$RestoreSm>`
+- `<$RestoreMd>`
+- `<$RestoreLg>`
+
+
+
+
 
 ## Restore
 

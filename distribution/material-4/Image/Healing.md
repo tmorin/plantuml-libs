@@ -17,6 +17,17 @@ include('material-4/Image/Healing')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HealingXs>`
+- `<$HealingSm>`
+- `<$HealingMd>`
+- `<$HealingLg>`
+
+
+
+
 
 ## Healing
 
