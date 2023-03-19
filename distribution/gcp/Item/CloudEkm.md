@@ -17,6 +17,17 @@ include('gcp/Item/CloudEkm')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudEkmXs>`
+- `<$CloudEkmSm>`
+- `<$CloudEkmMd>`
+- `<$CloudEkmLg>`
+
+
+
+
 
 ## CloudEkm
 

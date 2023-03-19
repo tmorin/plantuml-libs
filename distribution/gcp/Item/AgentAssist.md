@@ -17,6 +17,17 @@ include('gcp/Item/AgentAssist')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AgentAssistXs>`
+- `<$AgentAssistSm>`
+- `<$AgentAssistMd>`
+- `<$AgentAssistLg>`
+
+
+
+
 
 ## AgentAssist
 

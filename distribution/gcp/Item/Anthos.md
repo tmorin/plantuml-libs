@@ -17,6 +17,17 @@ include('gcp/Item/Anthos')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AnthosXs>`
+- `<$AnthosSm>`
+- `<$AnthosMd>`
+- `<$AnthosLg>`
+
+
+
+
 
 ## Anthos
 

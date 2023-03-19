@@ -17,6 +17,17 @@ include('gcp/Item/DatabaseMigrationService')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DatabaseMigrationServiceXs>`
+- `<$DatabaseMigrationServiceSm>`
+- `<$DatabaseMigrationServiceMd>`
+- `<$DatabaseMigrationServiceLg>`
+
+
+
+
 
 ## DatabaseMigrationService
 

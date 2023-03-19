@@ -17,6 +17,17 @@ include('gcp/Item/CloudCode')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudCodeXs>`
+- `<$CloudCodeSm>`
+- `<$CloudCodeMd>`
+- `<$CloudCodeLg>`
+
+
+
+
 
 ## CloudCode
 

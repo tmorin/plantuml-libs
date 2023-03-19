@@ -17,6 +17,17 @@ include('gcp/Item/PartnerInterconnect')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PartnerInterconnectXs>`
+- `<$PartnerInterconnectSm>`
+- `<$PartnerInterconnectMd>`
+- `<$PartnerInterconnectLg>`
+
+
+
+
 
 ## PartnerInterconnect
 

@@ -17,6 +17,17 @@ include('gcp/Item/GoogleKubernetesEngine')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GoogleKubernetesEngineXs>`
+- `<$GoogleKubernetesEngineSm>`
+- `<$GoogleKubernetesEngineMd>`
+- `<$GoogleKubernetesEngineLg>`
+
+
+
+
 
 ## GoogleKubernetesEngine
 

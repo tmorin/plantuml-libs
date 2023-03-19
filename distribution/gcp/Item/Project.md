@@ -17,6 +17,17 @@ include('gcp/Item/Project')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ProjectXs>`
+- `<$ProjectSm>`
+- `<$ProjectMd>`
+- `<$ProjectLg>`
+
+
+
+
 
 ## Project
 

@@ -17,6 +17,17 @@ include('gcp/Item/ManagedServiceForMicrosoftActiveDirectory')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ManagedServiceForMicrosoftActiveDirectoryXs>`
+- `<$ManagedServiceForMicrosoftActiveDirectorySm>`
+- `<$ManagedServiceForMicrosoftActiveDirectoryMd>`
+- `<$ManagedServiceForMicrosoftActiveDirectoryLg>`
+
+
+
+
 
 ## ManagedServiceForMicrosoftActiveDirectory
 

@@ -17,6 +17,17 @@ include('gcp/Item/CloudMonitoring')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudMonitoringXs>`
+- `<$CloudMonitoringSm>`
+- `<$CloudMonitoringMd>`
+- `<$CloudMonitoringLg>`
+
+
+
+
 
 ## CloudMonitoring
 

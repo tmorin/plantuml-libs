@@ -17,6 +17,17 @@ include('gcp/Item/CertificateManager')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CertificateManagerXs>`
+- `<$CertificateManagerSm>`
+- `<$CertificateManagerMd>`
+- `<$CertificateManagerLg>`
+
+
+
+
 
 ## CertificateManager
 

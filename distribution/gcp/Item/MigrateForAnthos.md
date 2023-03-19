@@ -17,6 +17,17 @@ include('gcp/Item/MigrateForAnthos')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MigrateForAnthosXs>`
+- `<$MigrateForAnthosSm>`
+- `<$MigrateForAnthosMd>`
+- `<$MigrateForAnthosLg>`
+
+
+
+
 
 ## MigrateForAnthos
 

@@ -17,6 +17,17 @@ include('gcp/Item/DialogflowInsights')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DialogflowInsightsXs>`
+- `<$DialogflowInsightsSm>`
+- `<$DialogflowInsightsMd>`
+- `<$DialogflowInsightsLg>`
+
+
+
+
 
 ## DialogflowInsights
 

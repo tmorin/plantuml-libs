@@ -17,6 +17,17 @@ include('gcp/Item/Billing')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BillingXs>`
+- `<$BillingSm>`
+- `<$BillingMd>`
+- `<$BillingLg>`
+
+
+
+
 
 ## Billing
 

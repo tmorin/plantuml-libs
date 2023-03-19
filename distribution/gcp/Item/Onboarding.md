@@ -17,6 +17,17 @@ include('gcp/Item/Onboarding')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OnboardingXs>`
+- `<$OnboardingSm>`
+- `<$OnboardingMd>`
+- `<$OnboardingLg>`
+
+
+
+
 
 ## Onboarding
 

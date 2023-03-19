@@ -17,6 +17,17 @@ include('gcp/Item/Datastream')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DatastreamXs>`
+- `<$DatastreamSm>`
+- `<$DatastreamMd>`
+- `<$DatastreamLg>`
+
+
+
+
 
 ## Datastream
 

@@ -17,6 +17,17 @@ include('gcp/Item/AdvancedAgentModeling')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AdvancedAgentModelingXs>`
+- `<$AdvancedAgentModelingSm>`
+- `<$AdvancedAgentModelingMd>`
+- `<$AdvancedAgentModelingLg>`
+
+
+
+
 
 ## AdvancedAgentModeling
 

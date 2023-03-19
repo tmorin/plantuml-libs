@@ -17,6 +17,17 @@ include('gcp/Item/NetworkTiers')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NetworkTiersXs>`
+- `<$NetworkTiersSm>`
+- `<$NetworkTiersMd>`
+- `<$NetworkTiersLg>`
+
+
+
+
 
 ## NetworkTiers
 

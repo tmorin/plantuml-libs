@@ -17,6 +17,17 @@ include('gcp/Item/CloudIds')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudIdsXs>`
+- `<$CloudIdsSm>`
+- `<$CloudIdsMd>`
+- `<$CloudIdsLg>`
+
+
+
+
 
 ## CloudIds
 

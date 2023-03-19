@@ -17,6 +17,17 @@ include('gcp/Item/CloudInterconnect')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudInterconnectXs>`
+- `<$CloudInterconnectSm>`
+- `<$CloudInterconnectMd>`
+- `<$CloudInterconnectLg>`
+
+
+
+
 
 ## CloudInterconnect
 

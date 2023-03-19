@@ -17,6 +17,17 @@ include('gcp/Item/Datapol')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DatapolXs>`
+- `<$DatapolSm>`
+- `<$DatapolMd>`
+- `<$DatapolLg>`
+
+
+
+
 
 ## Datapol
 

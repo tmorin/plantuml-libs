@@ -17,6 +17,17 @@ include('gcp/Item/CloudFunctions')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudFunctionsXs>`
+- `<$CloudFunctionsSm>`
+- `<$CloudFunctionsMd>`
+- `<$CloudFunctionsLg>`
+
+
+
+
 
 ## CloudFunctions
 

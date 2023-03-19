@@ -17,6 +17,17 @@ include('gcp/Item/CloudOptimizationAi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudOptimizationAiXs>`
+- `<$CloudOptimizationAiSm>`
+- `<$CloudOptimizationAiMd>`
+- `<$CloudOptimizationAiLg>`
+
+
+
+
 
 ## CloudOptimizationAi
 

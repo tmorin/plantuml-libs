@@ -17,6 +17,17 @@ include('gcp/Item/NetworkIntelligenceCenter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NetworkIntelligenceCenterXs>`
+- `<$NetworkIntelligenceCenterSm>`
+- `<$NetworkIntelligenceCenterMd>`
+- `<$NetworkIntelligenceCenterLg>`
+
+
+
+
 
 ## NetworkIntelligenceCenter
 

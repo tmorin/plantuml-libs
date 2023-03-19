@@ -17,6 +17,17 @@ include('gcp/Item/CloudHealthcareApi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudHealthcareApiXs>`
+- `<$CloudHealthcareApiSm>`
+- `<$CloudHealthcareApiMd>`
+- `<$CloudHealthcareApiLg>`
+
+
+
+
 
 ## CloudHealthcareApi
 

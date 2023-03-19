@@ -17,6 +17,17 @@ include('gcp/Item/RecommendationsAi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RecommendationsAiXs>`
+- `<$RecommendationsAiSm>`
+- `<$RecommendationsAiMd>`
+- `<$RecommendationsAiLg>`
+
+
+
+
 
 ## RecommendationsAi
 

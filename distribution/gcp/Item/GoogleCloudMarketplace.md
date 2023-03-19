@@ -17,6 +17,17 @@ include('gcp/Item/GoogleCloudMarketplace')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GoogleCloudMarketplaceXs>`
+- `<$GoogleCloudMarketplaceSm>`
+- `<$GoogleCloudMarketplaceMd>`
+- `<$GoogleCloudMarketplaceLg>`
+
+
+
+
 
 ## GoogleCloudMarketplace
 

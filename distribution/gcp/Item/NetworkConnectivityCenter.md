@@ -17,6 +17,17 @@ include('gcp/Item/NetworkConnectivityCenter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NetworkConnectivityCenterXs>`
+- `<$NetworkConnectivityCenterSm>`
+- `<$NetworkConnectivityCenterMd>`
+- `<$NetworkConnectivityCenterLg>`
+
+
+
+
 
 ## NetworkConnectivityCenter
 

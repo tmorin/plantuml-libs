@@ -17,6 +17,17 @@ include('gcp/Item/CloudEndpoints')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudEndpointsXs>`
+- `<$CloudEndpointsSm>`
+- `<$CloudEndpointsMd>`
+- `<$CloudEndpointsLg>`
+
+
+
+
 
 ## CloudEndpoints
 

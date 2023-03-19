@@ -17,6 +17,17 @@ include('gcp/Item/CloudTpu')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudTpuXs>`
+- `<$CloudTpuSm>`
+- `<$CloudTpuMd>`
+- `<$CloudTpuLg>`
+
+
+
+
 
 ## CloudTpu
 

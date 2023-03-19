@@ -17,6 +17,17 @@ include('gcp/Item/GkeOnPrem')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GkeOnPremXs>`
+- `<$GkeOnPremSm>`
+- `<$GkeOnPremMd>`
+- `<$GkeOnPremLg>`
+
+
+
+
 
 ## GkeOnPrem
 

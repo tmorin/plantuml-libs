@@ -17,6 +17,17 @@ include('gcp/Item/CloudVisionApi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudVisionApiXs>`
+- `<$CloudVisionApiSm>`
+- `<$CloudVisionApiMd>`
+- `<$CloudVisionApiLg>`
+
+
+
+
 
 ## CloudVisionApi
 

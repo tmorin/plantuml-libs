@@ -17,6 +17,17 @@ include('gcp/Item/SecurityKeyEnforcement')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SecurityKeyEnforcementXs>`
+- `<$SecurityKeyEnforcementSm>`
+- `<$SecurityKeyEnforcementMd>`
+- `<$SecurityKeyEnforcementLg>`
+
+
+
+
 
 ## SecurityKeyEnforcement
 

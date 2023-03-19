@@ -17,6 +17,17 @@ include('gcp/Item/CloudDeploy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudDeployXs>`
+- `<$CloudDeploySm>`
+- `<$CloudDeployMd>`
+- `<$CloudDeployLg>`
+
+
+
+
 
 ## CloudDeploy
 

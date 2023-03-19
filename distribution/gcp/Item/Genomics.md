@@ -17,6 +17,17 @@ include('gcp/Item/Genomics')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GenomicsXs>`
+- `<$GenomicsSm>`
+- `<$GenomicsMd>`
+- `<$GenomicsLg>`
+
+
+
+
 
 ## Genomics
 

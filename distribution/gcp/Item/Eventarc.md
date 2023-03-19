@@ -17,6 +17,17 @@ include('gcp/Item/Eventarc')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EventarcXs>`
+- `<$EventarcSm>`
+- `<$EventarcMd>`
+- `<$EventarcLg>`
+
+
+
+
 
 ## Eventarc
 

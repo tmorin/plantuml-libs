@@ -17,6 +17,17 @@ include('gcp/Item/DeveloperPortal')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DeveloperPortalXs>`
+- `<$DeveloperPortalSm>`
+- `<$DeveloperPortalMd>`
+- `<$DeveloperPortalLg>`
+
+
+
+
 
 ## DeveloperPortal
 

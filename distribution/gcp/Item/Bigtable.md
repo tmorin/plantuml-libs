@@ -17,6 +17,17 @@ include('gcp/Item/Bigtable')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BigtableXs>`
+- `<$BigtableSm>`
+- `<$BigtableMd>`
+- `<$BigtableLg>`
+
+
+
+
 
 ## Bigtable
 

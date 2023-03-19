@@ -17,6 +17,17 @@ include('gcp/Item/VirtualPrivateCloud')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VirtualPrivateCloudXs>`
+- `<$VirtualPrivateCloudSm>`
+- `<$VirtualPrivateCloudMd>`
+- `<$VirtualPrivateCloudLg>`
+
+
+
+
 
 ## VirtualPrivateCloud
 

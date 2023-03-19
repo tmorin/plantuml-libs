@@ -17,6 +17,17 @@ include('gcp/Item/NetworkSecurity')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NetworkSecurityXs>`
+- `<$NetworkSecuritySm>`
+- `<$NetworkSecurityMd>`
+- `<$NetworkSecurityLg>`
+
+
+
+
 
 ## NetworkSecurity
 

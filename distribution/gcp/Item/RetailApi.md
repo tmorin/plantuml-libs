@@ -17,6 +17,17 @@ include('gcp/Item/RetailApi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RetailApiXs>`
+- `<$RetailApiSm>`
+- `<$RetailApiMd>`
+- `<$RetailApiLg>`
+
+
+
+
 
 ## RetailApi
 

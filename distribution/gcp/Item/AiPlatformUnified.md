@@ -17,6 +17,17 @@ include('gcp/Item/AiPlatformUnified')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AiPlatformUnifiedXs>`
+- `<$AiPlatformUnifiedSm>`
+- `<$AiPlatformUnifiedMd>`
+- `<$AiPlatformUnifiedLg>`
+
+
+
+
 
 ## AiPlatformUnified
 

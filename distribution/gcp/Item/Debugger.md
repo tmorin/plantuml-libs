@@ -17,6 +17,17 @@ include('gcp/Item/Debugger')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DebuggerXs>`
+- `<$DebuggerSm>`
+- `<$DebuggerMd>`
+- `<$DebuggerLg>`
+
+
+
+
 
 ## Debugger
 

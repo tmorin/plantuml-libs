@@ -17,6 +17,17 @@ include('gcp/Item/Dataprep')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DataprepXs>`
+- `<$DataprepSm>`
+- `<$DataprepMd>`
+- `<$DataprepLg>`
+
+
+
+
 
 ## Dataprep
 

@@ -17,6 +17,17 @@ include('gcp/Item/CloudJobsApi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudJobsApiXs>`
+- `<$CloudJobsApiSm>`
+- `<$CloudJobsApiMd>`
+- `<$CloudJobsApiLg>`
+
+
+
+
 
 ## CloudJobsApi
 

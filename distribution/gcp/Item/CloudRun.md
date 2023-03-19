@@ -17,6 +17,17 @@ include('gcp/Item/CloudRun')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudRunXs>`
+- `<$CloudRunSm>`
+- `<$CloudRunMd>`
+- `<$CloudRunLg>`
+
+
+
+
 
 ## CloudRun
 

@@ -17,6 +17,17 @@ include('gcp/Item/Trace')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TraceXs>`
+- `<$TraceSm>`
+- `<$TraceMd>`
+- `<$TraceLg>`
+
+
+
+
 
 ## Trace
 

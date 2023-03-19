@@ -17,6 +17,17 @@ include('gcp/Item/CloudStorage')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudStorageXs>`
+- `<$CloudStorageSm>`
+- `<$CloudStorageMd>`
+- `<$CloudStorageLg>`
+
+
+
+
 
 ## CloudStorage
 

@@ -17,6 +17,17 @@ include('gcp/Item/PerformanceDashboard')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PerformanceDashboardXs>`
+- `<$PerformanceDashboardSm>`
+- `<$PerformanceDashboardMd>`
+- `<$PerformanceDashboardLg>`
+
+
+
+
 
 ## PerformanceDashboard
 

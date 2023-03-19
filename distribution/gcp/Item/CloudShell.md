@@ -17,6 +17,17 @@ include('gcp/Item/CloudShell')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudShellXs>`
+- `<$CloudShellSm>`
+- `<$CloudShellMd>`
+- `<$CloudShellLg>`
+
+
+
+
 
 ## CloudShell
 

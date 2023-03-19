@@ -17,6 +17,17 @@ include('gcp/Item/CloudGeneric')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudGenericXs>`
+- `<$CloudGenericSm>`
+- `<$CloudGenericMd>`
+- `<$CloudGenericLg>`
+
+
+
+
 
 ## CloudGeneric
 

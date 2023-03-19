@@ -17,6 +17,17 @@ include('gcp/Item/Kuberun')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KuberunXs>`
+- `<$KuberunSm>`
+- `<$KuberunMd>`
+- `<$KuberunLg>`
+
+
+
+
 
 ## Kuberun
 

@@ -17,6 +17,17 @@ include('gcp/Item/ApigeeApiPlatform')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ApigeeApiPlatformXs>`
+- `<$ApigeeApiPlatformSm>`
+- `<$ApigeeApiPlatformMd>`
+- `<$ApigeeApiPlatformLg>`
+
+
+
+
 
 ## ApigeeApiPlatform
 

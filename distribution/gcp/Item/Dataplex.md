@@ -17,6 +17,17 @@ include('gcp/Item/Dataplex')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DataplexXs>`
+- `<$DataplexSm>`
+- `<$DataplexMd>`
+- `<$DataplexLg>`
+
+
+
+
 
 ## Dataplex
 

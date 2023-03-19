@@ -17,6 +17,17 @@ include('gcp/Item/ComputeEngine')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ComputeEngineXs>`
+- `<$ComputeEngineSm>`
+- `<$ComputeEngineMd>`
+- `<$ComputeEngineLg>`
+
+
+
+
 
 ## ComputeEngine
 

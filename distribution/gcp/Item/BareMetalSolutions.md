@@ -17,6 +17,17 @@ include('gcp/Item/BareMetalSolutions')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BareMetalSolutionsXs>`
+- `<$BareMetalSolutionsSm>`
+- `<$BareMetalSolutionsMd>`
+- `<$BareMetalSolutionsLg>`
+
+
+
+
 
 ## BareMetalSolutions
 

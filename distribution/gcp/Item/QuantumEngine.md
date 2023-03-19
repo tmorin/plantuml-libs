@@ -17,6 +17,17 @@ include('gcp/Item/QuantumEngine')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$QuantumEngineXs>`
+- `<$QuantumEngineSm>`
+- `<$QuantumEngineMd>`
+- `<$QuantumEngineLg>`
+
+
+
+
 
 ## QuantumEngine
 

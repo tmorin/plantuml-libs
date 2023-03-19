@@ -17,6 +17,17 @@ include('gcp/Item/OsPatchManagement')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OsPatchManagementXs>`
+- `<$OsPatchManagementSm>`
+- `<$OsPatchManagementMd>`
+- `<$OsPatchManagementLg>`
+
+
+
+
 
 ## OsPatchManagement
 

@@ -17,6 +17,17 @@ include('gcp/Item/OsConfigurationManagement')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OsConfigurationManagementXs>`
+- `<$OsConfigurationManagementSm>`
+- `<$OsConfigurationManagementMd>`
+- `<$OsConfigurationManagementLg>`
+
+
+
+
 
 ## OsConfigurationManagement
 

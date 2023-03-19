@@ -17,6 +17,17 @@ include('gcp/Item/DataCatalog')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DataCatalogXs>`
+- `<$DataCatalogSm>`
+- `<$DataCatalogMd>`
+- `<$DataCatalogLg>`
+
+
+
+
 
 ## DataCatalog
 

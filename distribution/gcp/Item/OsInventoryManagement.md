@@ -17,6 +17,17 @@ include('gcp/Item/OsInventoryManagement')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$OsInventoryManagementXs>`
+- `<$OsInventoryManagementSm>`
+- `<$OsInventoryManagementMd>`
+- `<$OsInventoryManagementLg>`
+
+
+
+
 
 ## OsInventoryManagement
 

@@ -17,6 +17,17 @@ include('gcp/Item/DataQna')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DataQnaXs>`
+- `<$DataQnaSm>`
+- `<$DataQnaMd>`
+- `<$DataQnaLg>`
+
+
+
+
 
 ## DataQna
 

@@ -17,6 +17,17 @@ include('gcp/Item/Vertexai')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VertexaiXs>`
+- `<$VertexaiSm>`
+- `<$VertexaiMd>`
+- `<$VertexaiLg>`
+
+
+
+
 
 ## Vertexai
 

@@ -17,6 +17,17 @@ include('gcp/Item/CloudArmor')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudArmorXs>`
+- `<$CloudArmorSm>`
+- `<$CloudArmorMd>`
+- `<$CloudArmorLg>`
+
+
+
+
 
 ## CloudArmor
 

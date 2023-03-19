@@ -17,6 +17,17 @@ include('gcp/Item/Pubsub')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PubsubXs>`
+- `<$PubsubSm>`
+- `<$PubsubMd>`
+- `<$PubsubLg>`
+
+
+
+
 
 ## Pubsub
 

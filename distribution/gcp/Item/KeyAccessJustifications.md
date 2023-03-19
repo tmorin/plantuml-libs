@@ -17,6 +17,17 @@ include('gcp/Item/KeyAccessJustifications')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KeyAccessJustificationsXs>`
+- `<$KeyAccessJustificationsSm>`
+- `<$KeyAccessJustificationsMd>`
+- `<$KeyAccessJustificationsLg>`
+
+
+
+
 
 ## KeyAccessJustifications
 

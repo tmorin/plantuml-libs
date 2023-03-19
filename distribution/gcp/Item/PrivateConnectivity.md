@@ -17,6 +17,17 @@ include('gcp/Item/PrivateConnectivity')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PrivateConnectivityXs>`
+- `<$PrivateConnectivitySm>`
+- `<$PrivateConnectivityMd>`
+- `<$PrivateConnectivityLg>`
+
+
+
+
 
 ## PrivateConnectivity
 

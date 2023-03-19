@@ -17,6 +17,17 @@ include('gcp/Item/ConnectivityTest')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ConnectivityTestXs>`
+- `<$ConnectivityTestSm>`
+- `<$ConnectivityTestMd>`
+- `<$ConnectivityTestLg>`
+
+
+
+
 
 ## ConnectivityTest
 

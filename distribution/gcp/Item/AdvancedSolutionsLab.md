@@ -17,6 +17,17 @@ include('gcp/Item/AdvancedSolutionsLab')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AdvancedSolutionsLabXs>`
+- `<$AdvancedSolutionsLabSm>`
+- `<$AdvancedSolutionsLabMd>`
+- `<$AdvancedSolutionsLabLg>`
+
+
+
+
 
 ## AdvancedSolutionsLab
 

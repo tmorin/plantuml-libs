@@ -17,6 +17,17 @@ include('gcp/Item/CloudComposer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudComposerXs>`
+- `<$CloudComposerSm>`
+- `<$CloudComposerMd>`
+- `<$CloudComposerLg>`
+
+
+
+
 
 ## CloudComposer
 

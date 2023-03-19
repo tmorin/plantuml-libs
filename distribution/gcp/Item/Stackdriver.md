@@ -17,6 +17,17 @@ include('gcp/Item/Stackdriver')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StackdriverXs>`
+- `<$StackdriverSm>`
+- `<$StackdriverMd>`
+- `<$StackdriverLg>`
+
+
+
+
 
 ## Stackdriver
 

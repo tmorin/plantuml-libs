@@ -17,6 +17,17 @@ include('gcp/Item/VisualInspection')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VisualInspectionXs>`
+- `<$VisualInspectionSm>`
+- `<$VisualInspectionMd>`
+- `<$VisualInspectionLg>`
+
+
+
+
 
 ## VisualInspection
 

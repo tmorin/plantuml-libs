@@ -17,6 +17,17 @@ include('gcp/Item/IotEdge')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IotEdgeXs>`
+- `<$IotEdgeSm>`
+- `<$IotEdgeMd>`
+- `<$IotEdgeLg>`
+
+
+
+
 
 ## IotEdge
 

@@ -17,6 +17,17 @@ include('gcp/Item/PolicyAnalyzer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PolicyAnalyzerXs>`
+- `<$PolicyAnalyzerSm>`
+- `<$PolicyAnalyzerMd>`
+- `<$PolicyAnalyzerLg>`
+
+
+
+
 
 ## PolicyAnalyzer
 

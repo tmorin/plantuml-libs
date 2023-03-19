@@ -17,6 +17,17 @@ include('gcp/Item/Launcher')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LauncherXs>`
+- `<$LauncherSm>`
+- `<$LauncherMd>`
+- `<$LauncherLg>`
+
+
+
+
 
 ## Launcher
 

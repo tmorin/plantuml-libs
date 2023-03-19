@@ -17,6 +17,17 @@ include('gcp/Item/CloudAuditLogs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudAuditLogsXs>`
+- `<$CloudAuditLogsSm>`
+- `<$CloudAuditLogsMd>`
+- `<$CloudAuditLogsLg>`
+
+
+
+
 
 ## CloudAuditLogs
 

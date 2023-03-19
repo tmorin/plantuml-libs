@@ -17,6 +17,17 @@ include('gcp/Item/CloudSecurityScanner')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudSecurityScannerXs>`
+- `<$CloudSecurityScannerSm>`
+- `<$CloudSecurityScannerMd>`
+- `<$CloudSecurityScannerLg>`
+
+
+
+
 
 ## CloudSecurityScanner
 

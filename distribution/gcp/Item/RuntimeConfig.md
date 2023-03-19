@@ -17,6 +17,17 @@ include('gcp/Item/RuntimeConfig')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RuntimeConfigXs>`
+- `<$RuntimeConfigSm>`
+- `<$RuntimeConfigMd>`
+- `<$RuntimeConfigLg>`
+
+
+
+
 
 ## RuntimeConfig
 

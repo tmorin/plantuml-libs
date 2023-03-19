@@ -17,6 +17,17 @@ include('gcp/Item/IdentityAwareProxy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IdentityAwareProxyXs>`
+- `<$IdentityAwareProxySm>`
+- `<$IdentityAwareProxyMd>`
+- `<$IdentityAwareProxyLg>`
+
+
+
+
 
 ## IdentityAwareProxy
 

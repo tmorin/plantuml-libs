@@ -17,6 +17,17 @@ include('gcp/Item/MyCloud')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MyCloudXs>`
+- `<$MyCloudSm>`
+- `<$MyCloudMd>`
+- `<$MyCloudLg>`
+
+
+
+
 
 ## MyCloud
 

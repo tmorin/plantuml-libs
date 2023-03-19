@@ -17,6 +17,17 @@ include('gcp/Item/CloudFirewallRules')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudFirewallRulesXs>`
+- `<$CloudFirewallRulesSm>`
+- `<$CloudFirewallRulesMd>`
+- `<$CloudFirewallRulesLg>`
+
+
+
+
 
 ## CloudFirewallRules
 

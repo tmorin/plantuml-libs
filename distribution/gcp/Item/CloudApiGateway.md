@@ -17,6 +17,17 @@ include('gcp/Item/CloudApiGateway')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudApiGatewayXs>`
+- `<$CloudApiGatewaySm>`
+- `<$CloudApiGatewayMd>`
+- `<$CloudApiGatewayLg>`
+
+
+
+
 
 ## CloudApiGateway
 

@@ -17,6 +17,17 @@ include('gcp/Item/Permissions')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PermissionsXs>`
+- `<$PermissionsSm>`
+- `<$PermissionsMd>`
+- `<$PermissionsLg>`
+
+
+
+
 
 ## Permissions
 

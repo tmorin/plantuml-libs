@@ -17,6 +17,17 @@ include('gcp/Item/NetworkTopology')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$NetworkTopologyXs>`
+- `<$NetworkTopologySm>`
+- `<$NetworkTopologyMd>`
+- `<$NetworkTopologyLg>`
+
+
+
+
 
 ## NetworkTopology
 

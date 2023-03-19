@@ -17,6 +17,17 @@ include('gcp/Item/TensorflowEnterprise')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TensorflowEnterpriseXs>`
+- `<$TensorflowEnterpriseSm>`
+- `<$TensorflowEnterpriseMd>`
+- `<$TensorflowEnterpriseLg>`
+
+
+
+
 
 ## TensorflowEnterprise
 

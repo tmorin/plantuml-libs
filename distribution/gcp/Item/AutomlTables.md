@@ -17,6 +17,17 @@ include('gcp/Item/AutomlTables')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AutomlTablesXs>`
+- `<$AutomlTablesSm>`
+- `<$AutomlTablesMd>`
+- `<$AutomlTablesLg>`
+
+
+
+
 
 ## AutomlTables
 

@@ -17,6 +17,17 @@ include('gcp/Item/WebRisk')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WebRiskXs>`
+- `<$WebRiskSm>`
+- `<$WebRiskMd>`
+- `<$WebRiskLg>`
+
+
+
+
 
 ## WebRisk
 

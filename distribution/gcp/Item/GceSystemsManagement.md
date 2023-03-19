@@ -17,6 +17,17 @@ include('gcp/Item/GceSystemsManagement')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GceSystemsManagementXs>`
+- `<$GceSystemsManagementSm>`
+- `<$GceSystemsManagementMd>`
+- `<$GceSystemsManagementLg>`
+
+
+
+
 
 ## GceSystemsManagement
 

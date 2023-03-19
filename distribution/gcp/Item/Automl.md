@@ -17,6 +17,17 @@ include('gcp/Item/Automl')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AutomlXs>`
+- `<$AutomlSm>`
+- `<$AutomlMd>`
+- `<$AutomlLg>`
+
+
+
+
 
 ## Automl
 

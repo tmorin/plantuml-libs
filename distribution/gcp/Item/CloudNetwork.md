@@ -17,6 +17,17 @@ include('gcp/Item/CloudNetwork')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudNetworkXs>`
+- `<$CloudNetworkSm>`
+- `<$CloudNetworkMd>`
+- `<$CloudNetworkLg>`
+
+
+
+
 
 ## CloudNetwork
 

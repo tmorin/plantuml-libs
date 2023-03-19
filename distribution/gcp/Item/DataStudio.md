@@ -17,6 +17,17 @@ include('gcp/Item/DataStudio')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DataStudioXs>`
+- `<$DataStudioSm>`
+- `<$DataStudioMd>`
+- `<$DataStudioLg>`
+
+
+
+
 
 ## DataStudio
 

@@ -17,6 +17,17 @@ include('gcp/Item/CloudHealthcareMarketplace')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudHealthcareMarketplaceXs>`
+- `<$CloudHealthcareMarketplaceSm>`
+- `<$CloudHealthcareMarketplaceMd>`
+- `<$CloudHealthcareMarketplaceLg>`
+
+
+
+
 
 ## CloudHealthcareMarketplace
 

@@ -17,6 +17,17 @@ include('gcp/Item/AnalyticsHub')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AnalyticsHubXs>`
+- `<$AnalyticsHubSm>`
+- `<$AnalyticsHubMd>`
+- `<$AnalyticsHubLg>`
+
+
+
+
 
 ## AnalyticsHub
 

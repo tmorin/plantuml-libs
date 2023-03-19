@@ -17,6 +17,17 @@ include('gcp/Item/CloudScheduler')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudSchedulerXs>`
+- `<$CloudSchedulerSm>`
+- `<$CloudSchedulerMd>`
+- `<$CloudSchedulerLg>`
+
+
+
+
 
 ## CloudScheduler
 

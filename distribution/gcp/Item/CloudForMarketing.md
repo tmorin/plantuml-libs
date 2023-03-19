@@ -17,6 +17,17 @@ include('gcp/Item/CloudForMarketing')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudForMarketingXs>`
+- `<$CloudForMarketingSm>`
+- `<$CloudForMarketingMd>`
+- `<$CloudForMarketingLg>`
+
+
+
+
 
 ## CloudForMarketing
 

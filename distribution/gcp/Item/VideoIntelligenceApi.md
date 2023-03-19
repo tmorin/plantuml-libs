@@ -17,6 +17,17 @@ include('gcp/Item/VideoIntelligenceApi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VideoIntelligenceApiXs>`
+- `<$VideoIntelligenceApiSm>`
+- `<$VideoIntelligenceApiMd>`
+- `<$VideoIntelligenceApiLg>`
+
+
+
+
 
 ## VideoIntelligenceApi
 

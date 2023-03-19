@@ -17,6 +17,17 @@ include('gcp/Item/CloudRunForAnthos')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudRunForAnthosXs>`
+- `<$CloudRunForAnthosSm>`
+- `<$CloudRunForAnthosMd>`
+- `<$CloudRunForAnthosLg>`
+
+
+
+
 
 ## CloudRunForAnthos
 

@@ -17,6 +17,17 @@ include('gcp/Item/DialogflowCx')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DialogflowCxXs>`
+- `<$DialogflowCxSm>`
+- `<$DialogflowCxMd>`
+- `<$DialogflowCxLg>`
+
+
+
+
 
 ## DialogflowCx
 

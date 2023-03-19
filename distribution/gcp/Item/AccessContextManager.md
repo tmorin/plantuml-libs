@@ -17,6 +17,17 @@ include('gcp/Item/AccessContextManager')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AccessContextManagerXs>`
+- `<$AccessContextManagerSm>`
+- `<$AccessContextManagerMd>`
+- `<$AccessContextManagerLg>`
+
+
+
+
 
 ## AccessContextManager
 

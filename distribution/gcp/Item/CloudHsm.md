@@ -17,6 +17,17 @@ include('gcp/Item/CloudHsm')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudHsmXs>`
+- `<$CloudHsmSm>`
+- `<$CloudHsmMd>`
+- `<$CloudHsmLg>`
+
+
+
+
 
 ## CloudHsm
 

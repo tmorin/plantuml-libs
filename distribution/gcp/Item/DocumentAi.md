@@ -17,6 +17,17 @@ include('gcp/Item/DocumentAi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DocumentAiXs>`
+- `<$DocumentAiSm>`
+- `<$DocumentAiMd>`
+- `<$DocumentAiLg>`
+
+
+
+
 
 ## DocumentAi
 

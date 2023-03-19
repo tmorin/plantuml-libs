@@ -17,6 +17,17 @@ include('gcp/Item/CloudApis')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudApisXs>`
+- `<$CloudApisSm>`
+- `<$CloudApisMd>`
+- `<$CloudApisLg>`
+
+
+
+
 
 ## CloudApis
 

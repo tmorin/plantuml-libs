@@ -17,6 +17,17 @@ include('gcp/Item/CloudTranslationApi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudTranslationApiXs>`
+- `<$CloudTranslationApiSm>`
+- `<$CloudTranslationApiMd>`
+- `<$CloudTranslationApiLg>`
+
+
+
+
 
 ## CloudTranslationApi
 

@@ -17,6 +17,17 @@ include('gcp/Item/StreamSuite')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StreamSuiteXs>`
+- `<$StreamSuiteSm>`
+- `<$StreamSuiteMd>`
+- `<$StreamSuiteLg>`
+
+
+
+
 
 ## StreamSuite
 

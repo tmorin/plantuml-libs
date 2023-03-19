@@ -17,6 +17,17 @@ include('gcp/Item/AssetInventory')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AssetInventoryXs>`
+- `<$AssetInventorySm>`
+- `<$AssetInventoryMd>`
+- `<$AssetInventoryLg>`
+
+
+
+
 
 ## AssetInventory
 

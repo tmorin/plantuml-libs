@@ -17,6 +17,17 @@ include('gcp/Item/Transfer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TransferXs>`
+- `<$TransferSm>`
+- `<$TransferMd>`
+- `<$TransferLg>`
+
+
+
+
 
 ## Transfer
 

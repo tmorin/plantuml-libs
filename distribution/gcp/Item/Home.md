@@ -17,6 +17,17 @@ include('gcp/Item/Home')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HomeXs>`
+- `<$HomeSm>`
+- `<$HomeMd>`
+- `<$HomeLg>`
+
+
+
+
 
 ## Home
 

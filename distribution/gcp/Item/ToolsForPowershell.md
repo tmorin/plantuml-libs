@@ -17,6 +17,17 @@ include('gcp/Item/ToolsForPowershell')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ToolsForPowershellXs>`
+- `<$ToolsForPowershellSm>`
+- `<$ToolsForPowershellMd>`
+- `<$ToolsForPowershellLg>`
+
+
+
+
 
 ## ToolsForPowershell
 

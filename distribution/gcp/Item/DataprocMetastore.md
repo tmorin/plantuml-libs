@@ -17,6 +17,17 @@ include('gcp/Item/DataprocMetastore')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DataprocMetastoreXs>`
+- `<$DataprocMetastoreSm>`
+- `<$DataprocMetastoreMd>`
+- `<$DataprocMetastoreLg>`
+
+
+
+
 
 ## DataprocMetastore
 

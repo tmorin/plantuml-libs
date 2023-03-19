@@ -17,6 +17,17 @@ include('gcp/Item/Beyondcorp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BeyondcorpXs>`
+- `<$BeyondcorpSm>`
+- `<$BeyondcorpMd>`
+- `<$BeyondcorpLg>`
+
+
+
+
 
 ## Beyondcorp
 

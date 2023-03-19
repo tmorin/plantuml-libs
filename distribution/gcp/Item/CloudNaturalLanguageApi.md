@@ -17,6 +17,17 @@ include('gcp/Item/CloudNaturalLanguageApi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudNaturalLanguageApiXs>`
+- `<$CloudNaturalLanguageApiSm>`
+- `<$CloudNaturalLanguageApiMd>`
+- `<$CloudNaturalLanguageApiLg>`
+
+
+
+
 
 ## CloudNaturalLanguageApi
 

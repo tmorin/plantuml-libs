@@ -17,6 +17,17 @@ include('gcp/Item/Looker')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LookerXs>`
+- `<$LookerSm>`
+- `<$LookerMd>`
+- `<$LookerLg>`
+
+
+
+
 
 ## Looker
 

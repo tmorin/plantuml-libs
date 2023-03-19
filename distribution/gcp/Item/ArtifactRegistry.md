@@ -17,6 +17,17 @@ include('gcp/Item/ArtifactRegistry')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ArtifactRegistryXs>`
+- `<$ArtifactRegistrySm>`
+- `<$ArtifactRegistryMd>`
+- `<$ArtifactRegistryLg>`
+
+
+
+
 
 ## ArtifactRegistry
 

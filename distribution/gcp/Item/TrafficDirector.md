@@ -17,6 +17,17 @@ include('gcp/Item/TrafficDirector')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TrafficDirectorXs>`
+- `<$TrafficDirectorSm>`
+- `<$TrafficDirectorMd>`
+- `<$TrafficDirectorLg>`
+
+
+
+
 
 ## TrafficDirector
 

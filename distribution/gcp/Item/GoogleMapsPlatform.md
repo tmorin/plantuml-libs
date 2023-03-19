@@ -17,6 +17,17 @@ include('gcp/Item/GoogleMapsPlatform')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GoogleMapsPlatformXs>`
+- `<$GoogleMapsPlatformSm>`
+- `<$GoogleMapsPlatformMd>`
+- `<$GoogleMapsPlatformLg>`
+
+
+
+
 
 ## GoogleMapsPlatform
 

@@ -17,6 +17,17 @@ include('gcp/Item/MigrateForComputeEngine')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MigrateForComputeEngineXs>`
+- `<$MigrateForComputeEngineSm>`
+- `<$MigrateForComputeEngineMd>`
+- `<$MigrateForComputeEngineLg>`
+
+
+
+
 
 ## MigrateForComputeEngine
 

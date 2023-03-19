@@ -17,6 +17,17 @@ include('gcp/Item/MediaTranslationApi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MediaTranslationApiXs>`
+- `<$MediaTranslationApiSm>`
+- `<$MediaTranslationApiMd>`
+- `<$MediaTranslationApiLg>`
+
+
+
+
 
 ## MediaTranslationApi
 

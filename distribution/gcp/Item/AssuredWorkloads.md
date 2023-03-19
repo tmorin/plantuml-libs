@@ -17,6 +17,17 @@ include('gcp/Item/AssuredWorkloads')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AssuredWorkloadsXs>`
+- `<$AssuredWorkloadsSm>`
+- `<$AssuredWorkloadsMd>`
+- `<$AssuredWorkloadsLg>`
+
+
+
+
 
 ## AssuredWorkloads
 

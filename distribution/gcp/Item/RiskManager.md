@@ -17,6 +17,17 @@ include('gcp/Item/RiskManager')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RiskManagerXs>`
+- `<$RiskManagerSm>`
+- `<$RiskManagerMd>`
+- `<$RiskManagerLg>`
+
+
+
+
 
 ## RiskManager
 

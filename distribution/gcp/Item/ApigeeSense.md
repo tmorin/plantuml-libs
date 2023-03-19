@@ -17,6 +17,17 @@ include('gcp/Item/ApigeeSense')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ApigeeSenseXs>`
+- `<$ApigeeSenseSm>`
+- `<$ApigeeSenseMd>`
+- `<$ApigeeSenseLg>`
+
+
+
+
 
 ## ApigeeSense
 

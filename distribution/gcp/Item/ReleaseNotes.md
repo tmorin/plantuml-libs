@@ -17,6 +17,17 @@ include('gcp/Item/ReleaseNotes')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ReleaseNotesXs>`
+- `<$ReleaseNotesSm>`
+- `<$ReleaseNotesMd>`
+- `<$ReleaseNotesLg>`
+
+
+
+
 
 ## ReleaseNotes
 

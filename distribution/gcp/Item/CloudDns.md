@@ -17,6 +17,17 @@ include('gcp/Item/CloudDns')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudDnsXs>`
+- `<$CloudDnsSm>`
+- `<$CloudDnsMd>`
+- `<$CloudDnsLg>`
+
+
+
+
 
 ## CloudDns
 

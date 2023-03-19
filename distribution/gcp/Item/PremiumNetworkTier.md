@@ -17,6 +17,17 @@ include('gcp/Item/PremiumNetworkTier')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PremiumNetworkTierXs>`
+- `<$PremiumNetworkTierSm>`
+- `<$PremiumNetworkTierMd>`
+- `<$PremiumNetworkTierLg>`
+
+
+
+
 
 ## PremiumNetworkTier
 

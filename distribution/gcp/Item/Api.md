@@ -17,6 +17,17 @@ include('gcp/Item/Api')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ApiXs>`
+- `<$ApiSm>`
+- `<$ApiMd>`
+- `<$ApiLg>`
+
+
+
+
 
 ## Api
 

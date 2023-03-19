@@ -17,6 +17,17 @@ include('gcp/Item/WebSecurityScanner')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WebSecurityScannerXs>`
+- `<$WebSecurityScannerSm>`
+- `<$WebSecurityScannerMd>`
+- `<$WebSecurityScannerLg>`
+
+
+
+
 
 ## WebSecurityScanner
 

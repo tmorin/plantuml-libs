@@ -17,6 +17,17 @@ include('gcp/Item/CloudBuild')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudBuildXs>`
+- `<$CloudBuildSm>`
+- `<$CloudBuildMd>`
+- `<$CloudBuildLg>`
+
+
+
+
 
 ## CloudBuild
 

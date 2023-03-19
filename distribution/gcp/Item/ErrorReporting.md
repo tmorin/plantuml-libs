@@ -17,6 +17,17 @@ include('gcp/Item/ErrorReporting')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ErrorReportingXs>`
+- `<$ErrorReportingSm>`
+- `<$ErrorReportingMd>`
+- `<$ErrorReportingLg>`
+
+
+
+
 
 ## ErrorReporting
 

@@ -17,6 +17,17 @@ include('gcp/Item/IotCore')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IotCoreXs>`
+- `<$IotCoreSm>`
+- `<$IotCoreMd>`
+- `<$IotCoreLg>`
+
+
+
+
 
 ## IotCore
 

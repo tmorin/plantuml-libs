@@ -17,6 +17,17 @@ include('gcp/Item/DataLayers')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DataLayersXs>`
+- `<$DataLayersSm>`
+- `<$DataLayersMd>`
+- `<$DataLayersLg>`
+
+
+
+
 
 ## DataLayers
 

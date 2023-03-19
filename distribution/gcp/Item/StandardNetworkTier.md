@@ -17,6 +17,17 @@ include('gcp/Item/StandardNetworkTier')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$StandardNetworkTierXs>`
+- `<$StandardNetworkTierSm>`
+- `<$StandardNetworkTierMd>`
+- `<$StandardNetworkTierLg>`
+
+
+
+
 
 ## StandardNetworkTier
 

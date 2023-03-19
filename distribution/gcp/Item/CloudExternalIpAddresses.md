@@ -17,6 +17,17 @@ include('gcp/Item/CloudExternalIpAddresses')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudExternalIpAddressesXs>`
+- `<$CloudExternalIpAddressesSm>`
+- `<$CloudExternalIpAddressesMd>`
+- `<$CloudExternalIpAddressesLg>`
+
+
+
+
 
 ## CloudExternalIpAddresses
 

@@ -17,6 +17,17 @@ include('gcp/Item/CloudCdn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudCdnXs>`
+- `<$CloudCdnSm>`
+- `<$CloudCdnMd>`
+- `<$CloudCdnLg>`
+
+
+
+
 
 ## CloudCdn
 

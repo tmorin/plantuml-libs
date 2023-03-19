@@ -17,6 +17,17 @@ include('gcp/Item/Quotas')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$QuotasXs>`
+- `<$QuotasSm>`
+- `<$QuotasMd>`
+- `<$QuotasLg>`
+
+
+
+
 
 ## Quotas
 

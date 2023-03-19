@@ -17,6 +17,17 @@ include('gcp/Item/CloudAssetInventory')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudAssetInventoryXs>`
+- `<$CloudAssetInventorySm>`
+- `<$CloudAssetInventoryMd>`
+- `<$CloudAssetInventoryLg>`
+
+
+
+
 
 ## CloudAssetInventory
 

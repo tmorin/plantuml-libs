@@ -17,6 +17,17 @@ include('gcp/Item/AutomlVision')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AutomlVisionXs>`
+- `<$AutomlVisionSm>`
+- `<$AutomlVisionMd>`
+- `<$AutomlVisionLg>`
+
+
+
+
 
 ## AutomlVision
 

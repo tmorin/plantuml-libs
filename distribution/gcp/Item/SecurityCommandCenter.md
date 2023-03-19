@@ -17,6 +17,17 @@ include('gcp/Item/SecurityCommandCenter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SecurityCommandCenterXs>`
+- `<$SecurityCommandCenterSm>`
+- `<$SecurityCommandCenterMd>`
+- `<$SecurityCommandCenterLg>`
+
+
+
+
 
 ## SecurityCommandCenter
 

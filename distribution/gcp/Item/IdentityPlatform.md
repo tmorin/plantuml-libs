@@ -17,6 +17,17 @@ include('gcp/Item/IdentityPlatform')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IdentityPlatformXs>`
+- `<$IdentityPlatformSm>`
+- `<$IdentityPlatformMd>`
+- `<$IdentityPlatformLg>`
+
+
+
+
 
 ## IdentityPlatform
 

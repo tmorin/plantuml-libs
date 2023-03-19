@@ -17,6 +17,17 @@ include('gcp/Item/AiHub')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AiHubXs>`
+- `<$AiHubSm>`
+- `<$AiHubMd>`
+- `<$AiHubLg>`
+
+
+
+
 
 ## AiHub
 

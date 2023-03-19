@@ -17,6 +17,17 @@ include('gcp/Item/ApiAnalytics')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ApiAnalyticsXs>`
+- `<$ApiAnalyticsSm>`
+- `<$ApiAnalyticsMd>`
+- `<$ApiAnalyticsLg>`
+
+
+
+
 
 ## ApiAnalytics
 

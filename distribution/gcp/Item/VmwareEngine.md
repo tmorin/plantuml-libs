@@ -17,6 +17,17 @@ include('gcp/Item/VmwareEngine')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$VmwareEngineXs>`
+- `<$VmwareEngineSm>`
+- `<$VmwareEngineMd>`
+- `<$VmwareEngineLg>`
+
+
+
+
 
 ## VmwareEngine
 

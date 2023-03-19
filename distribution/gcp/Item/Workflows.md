@@ -17,6 +17,17 @@ include('gcp/Item/Workflows')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WorkflowsXs>`
+- `<$WorkflowsSm>`
+- `<$WorkflowsMd>`
+- `<$WorkflowsLg>`
+
+
+
+
 
 ## Workflows
 

@@ -17,6 +17,17 @@ include('gcp/Item/FreeTrial')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FreeTrialXs>`
+- `<$FreeTrialSm>`
+- `<$FreeTrialMd>`
+- `<$FreeTrialLg>`
+
+
+
+
 
 ## FreeTrial
 

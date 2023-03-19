@@ -17,6 +17,17 @@ include('gcp/Item/IdentityAndAccessManagement')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$IdentityAndAccessManagementXs>`
+- `<$IdentityAndAccessManagementSm>`
+- `<$IdentityAndAccessManagementMd>`
+- `<$IdentityAndAccessManagementLg>`
+
+
+
+
 
 ## IdentityAndAccessManagement
 

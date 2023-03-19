@@ -17,6 +17,17 @@ include('gcp/Item/Connectors')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ConnectorsXs>`
+- `<$ConnectorsSm>`
+- `<$ConnectorsMd>`
+- `<$ConnectorsLg>`
+
+
+
+
 
 ## Connectors
 

@@ -17,6 +17,17 @@ include('gcp/Item/CloudLogging')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudLoggingXs>`
+- `<$CloudLoggingSm>`
+- `<$CloudLoggingMd>`
+- `<$CloudLoggingLg>`
+
+
+
+
 
 ## CloudLogging
 

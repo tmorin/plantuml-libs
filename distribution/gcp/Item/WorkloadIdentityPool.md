@@ -17,6 +17,17 @@ include('gcp/Item/WorkloadIdentityPool')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$WorkloadIdentityPoolXs>`
+- `<$WorkloadIdentityPoolSm>`
+- `<$WorkloadIdentityPoolMd>`
+- `<$WorkloadIdentityPoolLg>`
+
+
+
+
 
 ## WorkloadIdentityPool
 

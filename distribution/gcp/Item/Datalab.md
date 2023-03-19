@@ -17,6 +17,17 @@ include('gcp/Item/Datalab')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DatalabXs>`
+- `<$DatalabSm>`
+- `<$DatalabMd>`
+- `<$DatalabLg>`
+
+
+
+
 
 ## Datalab
 

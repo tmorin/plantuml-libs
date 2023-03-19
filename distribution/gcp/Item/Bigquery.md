@@ -17,6 +17,17 @@ include('gcp/Item/Bigquery')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BigqueryXs>`
+- `<$BigquerySm>`
+- `<$BigqueryMd>`
+- `<$BigqueryLg>`
+
+
+
+
 
 ## Bigquery
 

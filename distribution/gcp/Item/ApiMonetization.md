@@ -17,6 +17,17 @@ include('gcp/Item/ApiMonetization')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ApiMonetizationXs>`
+- `<$ApiMonetizationSm>`
+- `<$ApiMonetizationMd>`
+- `<$ApiMonetizationLg>`
+
+
+
+
 
 ## ApiMonetization
 

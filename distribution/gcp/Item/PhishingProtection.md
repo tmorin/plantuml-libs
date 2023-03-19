@@ -17,6 +17,17 @@ include('gcp/Item/PhishingProtection')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PhishingProtectionXs>`
+- `<$PhishingProtectionSm>`
+- `<$PhishingProtectionMd>`
+- `<$PhishingProtectionLg>`
+
+
+
+
 
 ## PhishingProtection
 

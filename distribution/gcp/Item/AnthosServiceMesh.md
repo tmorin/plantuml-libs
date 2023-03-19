@@ -17,6 +17,17 @@ include('gcp/Item/AnthosServiceMesh')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AnthosServiceMeshXs>`
+- `<$AnthosServiceMeshSm>`
+- `<$AnthosServiceMeshMd>`
+- `<$AnthosServiceMeshLg>`
+
+
+
+
 
 ## AnthosServiceMesh
 

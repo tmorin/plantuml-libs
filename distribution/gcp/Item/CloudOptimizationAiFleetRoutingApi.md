@@ -17,6 +17,17 @@ include('gcp/Item/CloudOptimizationAiFleetRoutingApi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudOptimizationAiFleetRoutingApiXs>`
+- `<$CloudOptimizationAiFleetRoutingApiSm>`
+- `<$CloudOptimizationAiFleetRoutingApiMd>`
+- `<$CloudOptimizationAiFleetRoutingApiLg>`
+
+
+
+
 
 ## CloudOptimizationAiFleetRoutingApi
 

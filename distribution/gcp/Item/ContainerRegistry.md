@@ -17,6 +17,17 @@ include('gcp/Item/ContainerRegistry')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ContainerRegistryXs>`
+- `<$ContainerRegistrySm>`
+- `<$ContainerRegistryMd>`
+- `<$ContainerRegistryLg>`
+
+
+
+
 
 ## ContainerRegistry
 

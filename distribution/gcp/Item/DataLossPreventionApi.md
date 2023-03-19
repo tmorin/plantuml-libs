@@ -17,6 +17,17 @@ include('gcp/Item/DataLossPreventionApi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DataLossPreventionApiXs>`
+- `<$DataLossPreventionApiSm>`
+- `<$DataLossPreventionApiMd>`
+- `<$DataLossPreventionApiLg>`
+
+
+
+
 
 ## DataLossPreventionApi
 

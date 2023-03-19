@@ -17,6 +17,17 @@ include('gcp/Item/CloudGpu')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudGpuXs>`
+- `<$CloudGpuSm>`
+- `<$CloudGpuMd>`
+- `<$CloudGpuLg>`
+
+
+
+
 
 ## CloudGpu
 

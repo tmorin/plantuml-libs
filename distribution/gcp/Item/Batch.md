@@ -17,6 +17,17 @@ include('gcp/Item/Batch')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BatchXs>`
+- `<$BatchSm>`
+- `<$BatchMd>`
+- `<$BatchLg>`
+
+
+
+
 
 ## Batch
 

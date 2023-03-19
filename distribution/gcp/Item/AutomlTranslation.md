@@ -17,6 +17,17 @@ include('gcp/Item/AutomlTranslation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AutomlTranslationXs>`
+- `<$AutomlTranslationSm>`
+- `<$AutomlTranslationMd>`
+- `<$AutomlTranslationLg>`
+
+
+
+
 
 ## AutomlTranslation
 

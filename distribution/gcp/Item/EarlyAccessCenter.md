@@ -17,6 +17,17 @@ include('gcp/Item/EarlyAccessCenter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$EarlyAccessCenterXs>`
+- `<$EarlyAccessCenterSm>`
+- `<$EarlyAccessCenterMd>`
+- `<$EarlyAccessCenterLg>`
+
+
+
+
 
 ## EarlyAccessCenter
 

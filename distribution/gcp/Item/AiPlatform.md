@@ -17,6 +17,17 @@ include('gcp/Item/AiPlatform')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AiPlatformXs>`
+- `<$AiPlatformSm>`
+- `<$AiPlatformMd>`
+- `<$AiPlatformLg>`
+
+
+
+
 
 ## AiPlatform
 

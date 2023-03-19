@@ -17,6 +17,17 @@ include('gcp/Item/CloudRoutes')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudRoutesXs>`
+- `<$CloudRoutesSm>`
+- `<$CloudRoutesMd>`
+- `<$CloudRoutesLg>`
+
+
+
+
 
 ## CloudRoutes
 

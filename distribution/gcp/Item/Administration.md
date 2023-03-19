@@ -17,6 +17,17 @@ include('gcp/Item/Administration')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AdministrationXs>`
+- `<$AdministrationSm>`
+- `<$AdministrationMd>`
+- `<$AdministrationLg>`
+
+
+
+
 
 ## Administration
 

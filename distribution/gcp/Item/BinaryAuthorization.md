@@ -17,6 +17,17 @@ include('gcp/Item/BinaryAuthorization')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$BinaryAuthorizationXs>`
+- `<$BinaryAuthorizationSm>`
+- `<$BinaryAuthorizationMd>`
+- `<$BinaryAuthorizationLg>`
+
+
+
+
 
 ## BinaryAuthorization
 

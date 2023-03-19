@@ -17,6 +17,17 @@ include('gcp/Item/KeyManagementService')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$KeyManagementServiceXs>`
+- `<$KeyManagementServiceSm>`
+- `<$KeyManagementServiceMd>`
+- `<$KeyManagementServiceLg>`
+
+
+
+
 
 ## KeyManagementService
 

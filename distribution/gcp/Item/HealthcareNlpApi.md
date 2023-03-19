@@ -17,6 +17,17 @@ include('gcp/Item/HealthcareNlpApi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$HealthcareNlpApiXs>`
+- `<$HealthcareNlpApiSm>`
+- `<$HealthcareNlpApiMd>`
+- `<$HealthcareNlpApiLg>`
+
+
+
+
 
 ## HealthcareNlpApi
 

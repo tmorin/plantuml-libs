@@ -17,6 +17,17 @@ include('gcp/Item/AnthosConfigManagement')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AnthosConfigManagementXs>`
+- `<$AnthosConfigManagementSm>`
+- `<$AnthosConfigManagementMd>`
+- `<$AnthosConfigManagementLg>`
+
+
+
+
 
 ## AnthosConfigManagement
 

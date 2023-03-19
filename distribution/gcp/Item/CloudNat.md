@@ -17,6 +17,17 @@ include('gcp/Item/CloudNat')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudNatXs>`
+- `<$CloudNatSm>`
+- `<$CloudNatMd>`
+- `<$CloudNatLg>`
+
+
+
+
 
 ## CloudNat
 

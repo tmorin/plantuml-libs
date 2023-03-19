@@ -17,6 +17,17 @@ include('gcp/Item/SecurityHealthAdvisor')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SecurityHealthAdvisorXs>`
+- `<$SecurityHealthAdvisorSm>`
+- `<$SecurityHealthAdvisorMd>`
+- `<$SecurityHealthAdvisorLg>`
+
+
+
+
 
 ## SecurityHealthAdvisor
 

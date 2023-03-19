@@ -17,6 +17,17 @@ include('gcp/Item/PersistentDisk')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PersistentDiskXs>`
+- `<$PersistentDiskSm>`
+- `<$PersistentDiskMd>`
+- `<$PersistentDiskLg>`
+
+
+
+
 
 ## PersistentDisk
 

@@ -17,6 +17,17 @@ include('gcp/Item/ContactCenterAi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ContactCenterAiXs>`
+- `<$ContactCenterAiSm>`
+- `<$ContactCenterAiMd>`
+- `<$ContactCenterAiLg>`
+
+
+
+
 
 ## ContactCenterAi
 

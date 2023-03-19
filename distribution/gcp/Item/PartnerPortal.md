@@ -17,6 +17,17 @@ include('gcp/Item/PartnerPortal')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PartnerPortalXs>`
+- `<$PartnerPortalSm>`
+- `<$PartnerPortalMd>`
+- `<$PartnerPortalLg>`
+
+
+
+
 
 ## PartnerPortal
 

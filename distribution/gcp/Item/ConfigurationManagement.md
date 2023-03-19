@@ -17,6 +17,17 @@ include('gcp/Item/ConfigurationManagement')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ConfigurationManagementXs>`
+- `<$ConfigurationManagementSm>`
+- `<$ConfigurationManagementMd>`
+- `<$ConfigurationManagementLg>`
+
+
+
+
 
 ## ConfigurationManagement
 

@@ -17,6 +17,17 @@ include('gcp/Item/Catalog')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CatalogXs>`
+- `<$CatalogSm>`
+- `<$CatalogMd>`
+- `<$CatalogLg>`
+
+
+
+
 
 ## Catalog
 

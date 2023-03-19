@@ -17,6 +17,17 @@ include('gcp/Item/CloudDataFusion')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudDataFusionXs>`
+- `<$CloudDataFusionSm>`
+- `<$CloudDataFusionMd>`
+- `<$CloudDataFusionLg>`
+
+
+
+
 
 ## CloudDataFusion
 

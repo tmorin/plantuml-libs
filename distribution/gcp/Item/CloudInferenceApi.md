@@ -17,6 +17,17 @@ include('gcp/Item/CloudInferenceApi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudInferenceApiXs>`
+- `<$CloudInferenceApiSm>`
+- `<$CloudInferenceApiMd>`
+- `<$CloudInferenceApiLg>`
+
+
+
+
 
 ## CloudInferenceApi
 

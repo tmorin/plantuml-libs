@@ -17,6 +17,17 @@ include('gcp/Item/RealWorldInsights')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$RealWorldInsightsXs>`
+- `<$RealWorldInsightsSm>`
+- `<$RealWorldInsightsMd>`
+- `<$RealWorldInsightsLg>`
+
+
+
+
 
 ## RealWorldInsights
 

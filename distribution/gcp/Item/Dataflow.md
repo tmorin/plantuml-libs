@@ -17,6 +17,17 @@ include('gcp/Item/Dataflow')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DataflowXs>`
+- `<$DataflowSm>`
+- `<$DataflowMd>`
+- `<$DataflowLg>`
+
+
+
+
 
 ## Dataflow
 

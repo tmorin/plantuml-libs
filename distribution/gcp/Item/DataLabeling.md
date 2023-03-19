@@ -17,6 +17,17 @@ include('gcp/Item/DataLabeling')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DataLabelingXs>`
+- `<$DataLabelingSm>`
+- `<$DataLabelingMd>`
+- `<$DataLabelingLg>`
+
+
+
+
 
 ## DataLabeling
 

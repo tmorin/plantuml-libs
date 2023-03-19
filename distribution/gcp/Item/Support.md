@@ -17,6 +17,17 @@ include('gcp/Item/Support')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SupportXs>`
+- `<$SupportSm>`
+- `<$SupportMd>`
+- `<$SupportLg>`
+
+
+
+
 
 ## Support
 

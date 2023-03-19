@@ -17,6 +17,17 @@ include('gcp/Item/PrivateServiceConnect')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$PrivateServiceConnectXs>`
+- `<$PrivateServiceConnectSm>`
+- `<$PrivateServiceConnectMd>`
+- `<$PrivateServiceConnectLg>`
+
+
+
+
 
 ## PrivateServiceConnect
 

@@ -17,6 +17,17 @@ include('gcp/Item/CloudDeploymentManager')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudDeploymentManagerXs>`
+- `<$CloudDeploymentManagerSm>`
+- `<$CloudDeploymentManagerMd>`
+- `<$CloudDeploymentManagerLg>`
+
+
+
+
 
 ## CloudDeploymentManager
 

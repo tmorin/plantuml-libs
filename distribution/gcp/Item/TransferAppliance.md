@@ -17,6 +17,17 @@ include('gcp/Item/TransferAppliance')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$TransferApplianceXs>`
+- `<$TransferApplianceSm>`
+- `<$TransferApplianceMd>`
+- `<$TransferApplianceLg>`
+
+
+
+
 
 ## TransferAppliance
 

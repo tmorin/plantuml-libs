@@ -17,6 +17,17 @@ include('gcp/Item/ProducerPortal')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ProducerPortalXs>`
+- `<$ProducerPortalSm>`
+- `<$ProducerPortalMd>`
+- `<$ProducerPortalLg>`
+
+
+
+
 
 ## ProducerPortal
 

@@ -17,6 +17,17 @@ include('gcp/Item/CloudTestLab')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudTestLabXs>`
+- `<$CloudTestLabSm>`
+- `<$CloudTestLabMd>`
+- `<$CloudTestLabLg>`
+
+
+
+
 
 ## CloudTestLab
 

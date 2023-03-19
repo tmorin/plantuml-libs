@@ -17,6 +17,17 @@ include('gcp/Item/AutomlVideoIntelligence')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AutomlVideoIntelligenceXs>`
+- `<$AutomlVideoIntelligenceSm>`
+- `<$AutomlVideoIntelligenceMd>`
+- `<$AutomlVideoIntelligenceLg>`
+
+
+
+
 
 ## AutomlVideoIntelligence
 

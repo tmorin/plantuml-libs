@@ -17,6 +17,17 @@ include('gcp/Item/ContainerOptimizedOs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ContainerOptimizedOsXs>`
+- `<$ContainerOptimizedOsSm>`
+- `<$ContainerOptimizedOsMd>`
+- `<$ContainerOptimizedOsLg>`
+
+
+
+
 
 ## ContainerOptimizedOs
 

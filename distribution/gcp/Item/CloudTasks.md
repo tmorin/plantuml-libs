@@ -17,6 +17,17 @@ include('gcp/Item/CloudTasks')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudTasksXs>`
+- `<$CloudTasksSm>`
+- `<$CloudTasksMd>`
+- `<$CloudTasksLg>`
+
+
+
+
 
 ## CloudTasks
 

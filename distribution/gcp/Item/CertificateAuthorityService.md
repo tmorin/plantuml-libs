@@ -17,6 +17,17 @@ include('gcp/Item/CertificateAuthorityService')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CertificateAuthorityServiceXs>`
+- `<$CertificateAuthorityServiceSm>`
+- `<$CertificateAuthorityServiceMd>`
+- `<$CertificateAuthorityServiceLg>`
+
+
+
+
 
 ## CertificateAuthorityService
 

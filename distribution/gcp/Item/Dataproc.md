@@ -17,6 +17,17 @@ include('gcp/Item/Dataproc')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DataprocXs>`
+- `<$DataprocSm>`
+- `<$DataprocMd>`
+- `<$DataprocLg>`
+
+
+
+
 
 ## Dataproc
 

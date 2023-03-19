@@ -17,6 +17,17 @@ include('gcp/Item/CloudLoadBalancing')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudLoadBalancingXs>`
+- `<$CloudLoadBalancingSm>`
+- `<$CloudLoadBalancingMd>`
+- `<$CloudLoadBalancingLg>`
+
+
+
+
 
 ## CloudLoadBalancing
 

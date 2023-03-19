@@ -17,6 +17,17 @@ include('gcp/Item/SpeechToText')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SpeechToTextXs>`
+- `<$SpeechToTextSm>`
+- `<$SpeechToTextMd>`
+- `<$SpeechToTextLg>`
+
+
+
+
 
 ## SpeechToText
 

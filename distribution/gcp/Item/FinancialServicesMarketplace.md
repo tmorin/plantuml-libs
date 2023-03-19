@@ -17,6 +17,17 @@ include('gcp/Item/FinancialServicesMarketplace')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FinancialServicesMarketplaceXs>`
+- `<$FinancialServicesMarketplaceSm>`
+- `<$FinancialServicesMarketplaceMd>`
+- `<$FinancialServicesMarketplaceLg>`
+
+
+
+
 
 ## FinancialServicesMarketplace
 

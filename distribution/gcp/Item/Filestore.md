@@ -17,6 +17,17 @@ include('gcp/Item/Filestore')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FilestoreXs>`
+- `<$FilestoreSm>`
+- `<$FilestoreMd>`
+- `<$FilestoreLg>`
+
+
+
+
 
 ## Filestore
 

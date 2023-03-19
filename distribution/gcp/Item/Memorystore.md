@@ -17,6 +17,17 @@ include('gcp/Item/Memorystore')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$MemorystoreXs>`
+- `<$MemorystoreSm>`
+- `<$MemorystoreMd>`
+- `<$MemorystoreLg>`
+
+
+
+
 
 ## Memorystore
 

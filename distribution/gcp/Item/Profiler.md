@@ -17,6 +17,17 @@ include('gcp/Item/Profiler')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ProfilerXs>`
+- `<$ProfilerSm>`
+- `<$ProfilerMd>`
+- `<$ProfilerLg>`
+
+
+
+
 
 ## Profiler
 

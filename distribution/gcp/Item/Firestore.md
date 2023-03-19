@@ -17,6 +17,17 @@ include('gcp/Item/Firestore')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FirestoreXs>`
+- `<$FirestoreSm>`
+- `<$FirestoreMd>`
+- `<$FirestoreLg>`
+
+
+
+
 
 ## Firestore
 

@@ -17,6 +17,17 @@ include('gcp/Item/LocalSsd')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$LocalSsdXs>`
+- `<$LocalSsdSm>`
+- `<$LocalSsdMd>`
+- `<$LocalSsdLg>`
+
+
+
+
 
 ## LocalSsd
 

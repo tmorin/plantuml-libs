@@ -17,6 +17,17 @@ include('gcp/Item/CloudMediaEdge')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudMediaEdgeXs>`
+- `<$CloudMediaEdgeSm>`
+- `<$CloudMediaEdgeMd>`
+- `<$CloudMediaEdgeLg>`
+
+
+
+
 
 ## CloudMediaEdge
 

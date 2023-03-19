@@ -17,6 +17,17 @@ include('gcp/Item/CloudOps')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudOpsXs>`
+- `<$CloudOpsSm>`
+- `<$CloudOpsMd>`
+- `<$CloudOpsLg>`
+
+
+
+
 
 ## CloudOps
 

@@ -17,6 +17,17 @@ include('gcp/Item/Datashare')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DatashareXs>`
+- `<$DatashareSm>`
+- `<$DatashareMd>`
+- `<$DatashareLg>`
+
+
+
+
 
 ## Datashare
 

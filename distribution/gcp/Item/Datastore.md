@@ -17,6 +17,17 @@ include('gcp/Item/Datastore')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DatastoreXs>`
+- `<$DatastoreSm>`
+- `<$DatastoreMd>`
+- `<$DatastoreLg>`
+
+
+
+
 
 ## Datastore
 

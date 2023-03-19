@@ -17,6 +17,17 @@ include('gcp/Item/SecretManager')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$SecretManagerXs>`
+- `<$SecretManagerSm>`
+- `<$SecretManagerMd>`
+- `<$SecretManagerLg>`
+
+
+
+
 
 ## SecretManager
 

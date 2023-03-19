@@ -17,6 +17,17 @@ include('gcp/Item/GameServers')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GameServersXs>`
+- `<$GameServersSm>`
+- `<$GameServersMd>`
+- `<$GameServersLg>`
+
+
+
+
 
 ## GameServers
 

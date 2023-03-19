@@ -17,6 +17,17 @@ include('gcp/Item/AutomlNaturalLanguage')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$AutomlNaturalLanguageXs>`
+- `<$AutomlNaturalLanguageSm>`
+- `<$AutomlNaturalLanguageMd>`
+- `<$AutomlNaturalLanguageLg>`
+
+
+
+
 
 ## AutomlNaturalLanguage
 

@@ -17,6 +17,17 @@ include('gcp/Item/CloudSql')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudSqlXs>`
+- `<$CloudSqlSm>`
+- `<$CloudSqlMd>`
+- `<$CloudSqlLg>`
+
+
+
+
 
 ## CloudSql
 

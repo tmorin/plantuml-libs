@@ -17,6 +17,17 @@ include('gcp/Item/CloudSpanner')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudSpannerXs>`
+- `<$CloudSpannerSm>`
+- `<$CloudSpannerMd>`
+- `<$CloudSpannerLg>`
+
+
+
+
 
 ## CloudSpanner
 

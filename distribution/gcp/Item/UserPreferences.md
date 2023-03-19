@@ -17,6 +17,17 @@ include('gcp/Item/UserPreferences')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$UserPreferencesXs>`
+- `<$UserPreferencesSm>`
+- `<$UserPreferencesMd>`
+- `<$UserPreferencesLg>`
+
+
+
+
 
 ## UserPreferences
 

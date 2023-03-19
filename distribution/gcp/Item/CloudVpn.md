@@ -17,6 +17,17 @@ include('gcp/Item/CloudVpn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$CloudVpnXs>`
+- `<$CloudVpnSm>`
+- `<$CloudVpnMd>`
+- `<$CloudVpnLg>`
+
+
+
+
 
 ## CloudVpn
 

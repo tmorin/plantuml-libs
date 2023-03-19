@@ -17,6 +17,17 @@ include('gcp/Item/FleetEngine')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$FleetEngineXs>`
+- `<$FleetEngineSm>`
+- `<$FleetEngineMd>`
+- `<$FleetEngineLg>`
+
+
+
+
 
 ## FleetEngine
 

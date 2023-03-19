@@ -17,6 +17,17 @@ include('gcp/Item/DataTransfer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$DataTransferXs>`
+- `<$DataTransferSm>`
+- `<$DataTransferMd>`
+- `<$DataTransferLg>`
+
+
+
+
 
 ## DataTransfer
 
