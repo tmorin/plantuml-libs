@@ -1,0 +1,5 @@
+' definition of the Item c4model/Boundary/InfrastructureNodeBoundary
+
+!procedure InfrastructureNodeBoundary($id, $name, $tech="")
+  C4Boundary('Infrastructure Node', 'Boundary', $id, $name, $tech)
+!endprocedure

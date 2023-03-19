@@ -1,0 +1,5 @@
+' definition of the Item c4k8s/Element/ResourceClaimTemplate
+
+!procedure ResourceClaimTemplate($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/ResourceClaimTemplate', $id, $name, $desc, $tech)
+!endprocedure

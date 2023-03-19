@@ -1,0 +1,5 @@
+' definition of the Item c4k8s/Boundary/ResourceClaimTemplateBoundary
+
+!procedure ResourceClaimTemplateBoundary($id, $name, $tech="")
+  C4Boundary('K8s/ResourceClaimTemplate', 'Boundary', $id, $name, $tech)
+!endprocedure

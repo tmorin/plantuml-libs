@@ -1,0 +1,5 @@
+' definition of the Item c4model/Element/InfrastructureNode
+
+!procedure InfrastructureNode($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'Infrastructure Node', $id, $name, $desc, $tech)
+!endprocedure

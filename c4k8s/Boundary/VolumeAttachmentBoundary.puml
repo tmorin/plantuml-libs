@@ -1,0 +1,5 @@
+' definition of the Item c4k8s/Boundary/VolumeAttachmentBoundary
+
+!procedure VolumeAttachmentBoundary($id, $name, $tech="")
+  C4Boundary('K8s/VolumeAttachment', 'Boundary', $id, $name, $tech)
+!endprocedure

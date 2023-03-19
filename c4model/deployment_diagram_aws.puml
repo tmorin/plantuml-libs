@@ -1,0 +1,41 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION=".."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('c4model/bootstrap')
+
+include('c4model/Boundary/DeploymentNodeBoundary')
+include('c4model/Element/InfrastructureNode')
+include('c4model/Element/Container')
+include('c4model/Element/Database')
+
+Title("Spring PetClinic", "Deployment Diagram")
+left to right direction
+
+DeploymentNodeBoundary("aws", "Amazon Web Services") {
+  DeploymentNodeBoundary("region", "US-East-1") {
+    InfrastructureNode("rout53", "Route 53", "Highly available and scalable cloud DNS service.")
+    InfrastructureNode("ld", "Elastic Load Balancer", "Automatically distributes incoming application traffic.")
+    DeploymentNodeBoundary("webapp_ec2_auto", "Autoscaling group") {
+      DeploymentNodeBoundary("webapp_ec2", "Amazon EC2") {
+        Container("app", "Web Application", "Allows employee to view and manage information regarding the veterinarians, the clients and their pets.", "Java and Spring Boot")
+      }
+    }
+    DeploymentNodeBoundary("rds", "Amazon RDS") {
+      DeploymentNodeBoundary("mysql", "MySQL") {
+        Database("database", "Database", "Stores information regarding the veterinarians, the clients and their pets.", "Relational database schema")
+      }
+    }
+  }
+}
+
+rout53 ..> ld : Relationship("Forwards\nrequest to", "HTTPS")
+ld ..> app : Relationship("Forwards\nrequest to", "HTTPS")
+app ..> database : Relationship("Reads from and \nwrites to", "MySQL Protocol/SSL")
+
+@enduml

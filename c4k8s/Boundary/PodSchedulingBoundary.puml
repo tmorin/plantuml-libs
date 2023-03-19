@@ -1,0 +1,5 @@
+' definition of the Item c4k8s/Boundary/PodSchedulingBoundary
+
+!procedure PodSchedulingBoundary($id, $name, $tech="")
+  C4Boundary('K8s/PodScheduling', 'Boundary', $id, $name, $tech)
+!endprocedure

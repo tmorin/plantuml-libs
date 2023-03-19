@@ -1,0 +1,5 @@
+' definition of the Item c4k8s/Boundary/ListMetaBoundary
+
+!procedure ListMetaBoundary($id, $name, $tech="")
+  C4Boundary('K8s/ListMeta', 'Boundary', $id, $name, $tech)
+!endprocedure

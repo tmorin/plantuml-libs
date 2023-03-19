@@ -1,0 +1,5 @@
+' definition of the Item c4k8s/Element/EndpointSlice
+
+!procedure EndpointSlice($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/EndpointSlice', $id, $name, $desc, $tech)
+!endprocedure

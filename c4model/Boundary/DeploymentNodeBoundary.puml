@@ -1,5 +1,5 @@
 ' definition of the Item c4model/Boundary/DeploymentNodeBoundary
 
 !procedure DeploymentNodeBoundary($id, $name, $tech="")
-  C4Boundary('Deployment Node', $id, $name, $tech)
+  C4Boundary('Deployment Node', 'Boundary', $id, $name, $tech)
 !endprocedure

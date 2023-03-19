@@ -1,0 +1,785 @@
+
+
+
+
+
+' definition of the Item c4k8s/Element/Pod
+
+!procedure Pod($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/Pod', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/PodTemplate
+
+!procedure PodTemplate($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/PodTemplate', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/ReplicationController
+
+!procedure ReplicationController($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/ReplicationController', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/ReplicaSet
+
+!procedure ReplicaSet($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/ReplicaSet', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/Deployment
+
+!procedure Deployment($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/Deployment', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/StatefulSet
+
+!procedure StatefulSet($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/StatefulSet', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/ControllerRevision
+
+!procedure ControllerRevision($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/ControllerRevision', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/DaemonSet
+
+!procedure DaemonSet($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/DaemonSet', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/Job
+
+!procedure Job($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/Job', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/CronJob
+
+!procedure CronJob($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/CronJob', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/HorizontalPodAutoscaler
+
+!procedure HorizontalPodAutoscaler($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/HorizontalPodAutoscaler', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/PriorityClass
+
+!procedure PriorityClass($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/PriorityClass', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/PodScheduling
+
+!procedure PodScheduling($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/PodScheduling', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/ResourceClaim
+
+!procedure ResourceClaim($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/ResourceClaim', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/ResourceClaimTemplate
+
+!procedure ResourceClaimTemplate($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/ResourceClaimTemplate', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/ResourceClass
+
+!procedure ResourceClass($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/ResourceClass', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/Service
+
+!procedure Service($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/Service', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/Endpoints
+
+!procedure Endpoints($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/Endpoints', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/EndpointSlice
+
+!procedure EndpointSlice($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/EndpointSlice', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/Ingress
+
+!procedure Ingress($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/Ingress', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/IngressClass
+
+!procedure IngressClass($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/IngressClass', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/ConfigMap
+
+!procedure ConfigMap($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/ConfigMap', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/Secret
+
+!procedure Secret($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/Secret', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/Volume
+
+!procedure Volume($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/Volume', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/PersistentVolumeClaim
+
+!procedure PersistentVolumeClaim($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/PersistentVolumeClaim', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/PersistentVolume
+
+!procedure PersistentVolume($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/PersistentVolume', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/StorageClass
+
+!procedure StorageClass($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/StorageClass', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/VolumeAttachment
+
+!procedure VolumeAttachment($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/VolumeAttachment', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/CSIDriver
+
+!procedure CSIDriver($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/CSIDriver', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/CSINode
+
+!procedure CSINode($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/CSINode', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/CSIStorageCapacity
+
+!procedure CSIStorageCapacity($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/CSIStorageCapacity', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/ServiceAccount
+
+!procedure ServiceAccount($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/ServiceAccount', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/TokenRequest
+
+!procedure TokenRequest($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/TokenRequest', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/TokenReview
+
+!procedure TokenReview($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/TokenReview', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/CertificateSigningRequest
+
+!procedure CertificateSigningRequest($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/CertificateSigningRequest', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/LocalSubjectAccessReview
+
+!procedure LocalSubjectAccessReview($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/LocalSubjectAccessReview', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/SelfSubjectAccessReview
+
+!procedure SelfSubjectAccessReview($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/SelfSubjectAccessReview', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/SelfSubjectRulesReview
+
+!procedure SelfSubjectRulesReview($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/SelfSubjectRulesReview', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/SubjectAccessReview
+
+!procedure SubjectAccessReview($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/SubjectAccessReview', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/SelfSubjectReview
+
+!procedure SelfSubjectReview($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/SelfSubjectReview', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/ClusterRole
+
+!procedure ClusterRole($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/ClusterRole', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/ClusterRoleBinding
+
+!procedure ClusterRoleBinding($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/ClusterRoleBinding', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/Role
+
+!procedure Role($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/Role', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/RoleBinding
+
+!procedure RoleBinding($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/RoleBinding', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/LimitRange
+
+!procedure LimitRange($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/LimitRange', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/ResourceQuota
+
+!procedure ResourceQuota($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/ResourceQuota', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/NetworkPolicy
+
+!procedure NetworkPolicy($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/NetworkPolicy', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/PodDisruptionBudget
+
+!procedure PodDisruptionBudget($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/PodDisruptionBudget', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/CustomResourceDefinition
+
+!procedure CustomResourceDefinition($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/CustomResourceDefinition', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/MutatingWebhookConfiguration
+
+!procedure MutatingWebhookConfiguration($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/MutatingWebhookConfiguration', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/ValidatingWebhookConfiguration
+
+!procedure ValidatingWebhookConfiguration($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/ValidatingWebhookConfiguration', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/ValidatingAdmissionPolicy
+
+!procedure ValidatingAdmissionPolicy($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/ValidatingAdmissionPolicy', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/Node
+
+!procedure Node($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/Node', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/Namespace
+
+!procedure Namespace($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/Namespace', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/Event
+
+!procedure Event($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/Event', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/APIService
+
+!procedure APIService($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/APIService', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/Lease
+
+!procedure Lease($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/Lease', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/RuntimeClass
+
+!procedure RuntimeClass($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/RuntimeClass', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/FlowSchema
+
+!procedure FlowSchema($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/FlowSchema', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/PriorityLevelConfiguration
+
+!procedure PriorityLevelConfiguration($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/PriorityLevelConfiguration', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/Binding
+
+!procedure Binding($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/Binding', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/ComponentStatus
+
+!procedure ComponentStatus($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/ComponentStatus', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/ClusterCIDR
+
+!procedure ClusterCIDR($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/ClusterCIDR', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/DeleteOptions
+
+!procedure DeleteOptions($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/DeleteOptions', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/LabelSelector
+
+!procedure LabelSelector($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/LabelSelector', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/ListMeta
+
+!procedure ListMeta($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/ListMeta', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/LocalObjectReference
+
+!procedure LocalObjectReference($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/LocalObjectReference', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/NodeSelectorRequirement
+
+!procedure NodeSelectorRequirement($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/NodeSelectorRequirement', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/ObjectFieldSelector
+
+!procedure ObjectFieldSelector($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/ObjectFieldSelector', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/ObjectMeta
+
+!procedure ObjectMeta($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/ObjectMeta', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/ObjectReference
+
+!procedure ObjectReference($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/ObjectReference', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/Patch
+
+!procedure Patch($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/Patch', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/Quantity
+
+!procedure Quantity($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/Quantity', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/ResourceFieldSelector
+
+!procedure ResourceFieldSelector($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/ResourceFieldSelector', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/Status
+
+!procedure Status($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/Status', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/TypedLocalObjectReference
+
+!procedure TypedLocalObjectReference($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/TypedLocalObjectReference', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/ValidatingAdmissionPolicyBindingList
+
+!procedure ValidatingAdmissionPolicyBindingList($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/ValidatingAdmissionPolicyBindingList', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Element/Cluster
+
+!procedure Cluster($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'Node', 'K8s/Cluster', $id, $name, $desc, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/PodBoundary
+
+!procedure PodBoundary($id, $name, $tech="")
+  C4Boundary('K8s/Pod', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/PodTemplateBoundary
+
+!procedure PodTemplateBoundary($id, $name, $tech="")
+  C4Boundary('K8s/PodTemplate', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/ReplicationControllerBoundary
+
+!procedure ReplicationControllerBoundary($id, $name, $tech="")
+  C4Boundary('K8s/ReplicationController', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/ReplicaSetBoundary
+
+!procedure ReplicaSetBoundary($id, $name, $tech="")
+  C4Boundary('K8s/ReplicaSet', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/DeploymentBoundary
+
+!procedure DeploymentBoundary($id, $name, $tech="")
+  C4Boundary('K8s/Deployment', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/StatefulSetBoundary
+
+!procedure StatefulSetBoundary($id, $name, $tech="")
+  C4Boundary('K8s/StatefulSet', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/ControllerRevisionBoundary
+
+!procedure ControllerRevisionBoundary($id, $name, $tech="")
+  C4Boundary('K8s/ControllerRevision', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/DaemonSetBoundary
+
+!procedure DaemonSetBoundary($id, $name, $tech="")
+  C4Boundary('K8s/DaemonSet', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/JobBoundary
+
+!procedure JobBoundary($id, $name, $tech="")
+  C4Boundary('K8s/Job', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/CronJobBoundary
+
+!procedure CronJobBoundary($id, $name, $tech="")
+  C4Boundary('K8s/CronJob', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/HorizontalPodAutoscalerBoundary
+
+!procedure HorizontalPodAutoscalerBoundary($id, $name, $tech="")
+  C4Boundary('K8s/HorizontalPodAutoscaler', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/PriorityClassBoundary
+
+!procedure PriorityClassBoundary($id, $name, $tech="")
+  C4Boundary('K8s/PriorityClass', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/PodSchedulingBoundary
+
+!procedure PodSchedulingBoundary($id, $name, $tech="")
+  C4Boundary('K8s/PodScheduling', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/ResourceClaimBoundary
+
+!procedure ResourceClaimBoundary($id, $name, $tech="")
+  C4Boundary('K8s/ResourceClaim', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/ResourceClaimTemplateBoundary
+
+!procedure ResourceClaimTemplateBoundary($id, $name, $tech="")
+  C4Boundary('K8s/ResourceClaimTemplate', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/ResourceClassBoundary
+
+!procedure ResourceClassBoundary($id, $name, $tech="")
+  C4Boundary('K8s/ResourceClass', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/ServiceBoundary
+
+!procedure ServiceBoundary($id, $name, $tech="")
+  C4Boundary('K8s/Service', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/EndpointsBoundary
+
+!procedure EndpointsBoundary($id, $name, $tech="")
+  C4Boundary('K8s/Endpoints', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/EndpointSliceBoundary
+
+!procedure EndpointSliceBoundary($id, $name, $tech="")
+  C4Boundary('K8s/EndpointSlice', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/IngressBoundary
+
+!procedure IngressBoundary($id, $name, $tech="")
+  C4Boundary('K8s/Ingress', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/IngressClassBoundary
+
+!procedure IngressClassBoundary($id, $name, $tech="")
+  C4Boundary('K8s/IngressClass', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/ConfigMapBoundary
+
+!procedure ConfigMapBoundary($id, $name, $tech="")
+  C4Boundary('K8s/ConfigMap', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/SecretBoundary
+
+!procedure SecretBoundary($id, $name, $tech="")
+  C4Boundary('K8s/Secret', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/VolumeBoundary
+
+!procedure VolumeBoundary($id, $name, $tech="")
+  C4Boundary('K8s/Volume', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/PersistentVolumeClaimBoundary
+
+!procedure PersistentVolumeClaimBoundary($id, $name, $tech="")
+  C4Boundary('K8s/PersistentVolumeClaim', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/PersistentVolumeBoundary
+
+!procedure PersistentVolumeBoundary($id, $name, $tech="")
+  C4Boundary('K8s/PersistentVolume', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/StorageClassBoundary
+
+!procedure StorageClassBoundary($id, $name, $tech="")
+  C4Boundary('K8s/StorageClass', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/VolumeAttachmentBoundary
+
+!procedure VolumeAttachmentBoundary($id, $name, $tech="")
+  C4Boundary('K8s/VolumeAttachment', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/CSIDriverBoundary
+
+!procedure CSIDriverBoundary($id, $name, $tech="")
+  C4Boundary('K8s/CSIDriver', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/CSINodeBoundary
+
+!procedure CSINodeBoundary($id, $name, $tech="")
+  C4Boundary('K8s/CSINode', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/CSIStorageCapacityBoundary
+
+!procedure CSIStorageCapacityBoundary($id, $name, $tech="")
+  C4Boundary('K8s/CSIStorageCapacity', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/ServiceAccountBoundary
+
+!procedure ServiceAccountBoundary($id, $name, $tech="")
+  C4Boundary('K8s/ServiceAccount', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/TokenRequestBoundary
+
+!procedure TokenRequestBoundary($id, $name, $tech="")
+  C4Boundary('K8s/TokenRequest', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/TokenReviewBoundary
+
+!procedure TokenReviewBoundary($id, $name, $tech="")
+  C4Boundary('K8s/TokenReview', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/CertificateSigningRequestBoundary
+
+!procedure CertificateSigningRequestBoundary($id, $name, $tech="")
+  C4Boundary('K8s/CertificateSigningRequest', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/LocalSubjectAccessReviewBoundary
+
+!procedure LocalSubjectAccessReviewBoundary($id, $name, $tech="")
+  C4Boundary('K8s/LocalSubjectAccessReview', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/SelfSubjectAccessReviewBoundary
+
+!procedure SelfSubjectAccessReviewBoundary($id, $name, $tech="")
+  C4Boundary('K8s/SelfSubjectAccessReview', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/SelfSubjectRulesReviewBoundary
+
+!procedure SelfSubjectRulesReviewBoundary($id, $name, $tech="")
+  C4Boundary('K8s/SelfSubjectRulesReview', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/SubjectAccessReviewBoundary
+
+!procedure SubjectAccessReviewBoundary($id, $name, $tech="")
+  C4Boundary('K8s/SubjectAccessReview', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/SelfSubjectReviewBoundary
+
+!procedure SelfSubjectReviewBoundary($id, $name, $tech="")
+  C4Boundary('K8s/SelfSubjectReview', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/ClusterRoleBoundary
+
+!procedure ClusterRoleBoundary($id, $name, $tech="")
+  C4Boundary('K8s/ClusterRole', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/ClusterRoleBindingBoundary
+
+!procedure ClusterRoleBindingBoundary($id, $name, $tech="")
+  C4Boundary('K8s/ClusterRoleBinding', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/RoleBoundary
+
+!procedure RoleBoundary($id, $name, $tech="")
+  C4Boundary('K8s/Role', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/RoleBindingBoundary
+
+!procedure RoleBindingBoundary($id, $name, $tech="")
+  C4Boundary('K8s/RoleBinding', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/LimitRangeBoundary
+
+!procedure LimitRangeBoundary($id, $name, $tech="")
+  C4Boundary('K8s/LimitRange', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/ResourceQuotaBoundary
+
+!procedure ResourceQuotaBoundary($id, $name, $tech="")
+  C4Boundary('K8s/ResourceQuota', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/NetworkPolicyBoundary
+
+!procedure NetworkPolicyBoundary($id, $name, $tech="")
+  C4Boundary('K8s/NetworkPolicy', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/PodDisruptionBudgetBoundary
+
+!procedure PodDisruptionBudgetBoundary($id, $name, $tech="")
+  C4Boundary('K8s/PodDisruptionBudget', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/CustomResourceDefinitionBoundary
+
+!procedure CustomResourceDefinitionBoundary($id, $name, $tech="")
+  C4Boundary('K8s/CustomResourceDefinition', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/MutatingWebhookConfigurationBoundary
+
+!procedure MutatingWebhookConfigurationBoundary($id, $name, $tech="")
+  C4Boundary('K8s/MutatingWebhookConfiguration', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/ValidatingWebhookConfigurationBoundary
+
+!procedure ValidatingWebhookConfigurationBoundary($id, $name, $tech="")
+  C4Boundary('K8s/ValidatingWebhookConfiguration', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/ValidatingAdmissionPolicyBoundary
+
+!procedure ValidatingAdmissionPolicyBoundary($id, $name, $tech="")
+  C4Boundary('K8s/ValidatingAdmissionPolicy', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/NodeBoundary
+
+!procedure NodeBoundary($id, $name, $tech="")
+  C4Boundary('K8s/Node', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/NamespaceBoundary
+
+!procedure NamespaceBoundary($id, $name, $tech="")
+  C4Boundary('K8s/Namespace', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/EventBoundary
+
+!procedure EventBoundary($id, $name, $tech="")
+  C4Boundary('K8s/Event', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/APIServiceBoundary
+
+!procedure APIServiceBoundary($id, $name, $tech="")
+  C4Boundary('K8s/APIService', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/LeaseBoundary
+
+!procedure LeaseBoundary($id, $name, $tech="")
+  C4Boundary('K8s/Lease', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/RuntimeClassBoundary
+
+!procedure RuntimeClassBoundary($id, $name, $tech="")
+  C4Boundary('K8s/RuntimeClass', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/FlowSchemaBoundary
+
+!procedure FlowSchemaBoundary($id, $name, $tech="")
+  C4Boundary('K8s/FlowSchema', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/PriorityLevelConfigurationBoundary
+
+!procedure PriorityLevelConfigurationBoundary($id, $name, $tech="")
+  C4Boundary('K8s/PriorityLevelConfiguration', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/BindingBoundary
+
+!procedure BindingBoundary($id, $name, $tech="")
+  C4Boundary('K8s/Binding', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/ComponentStatusBoundary
+
+!procedure ComponentStatusBoundary($id, $name, $tech="")
+  C4Boundary('K8s/ComponentStatus', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/ClusterCIDRBoundary
+
+!procedure ClusterCIDRBoundary($id, $name, $tech="")
+  C4Boundary('K8s/ClusterCIDR', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/DeleteOptionsBoundary
+
+!procedure DeleteOptionsBoundary($id, $name, $tech="")
+  C4Boundary('K8s/DeleteOptions', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/LabelSelectorBoundary
+
+!procedure LabelSelectorBoundary($id, $name, $tech="")
+  C4Boundary('K8s/LabelSelector', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/ListMetaBoundary
+
+!procedure ListMetaBoundary($id, $name, $tech="")
+  C4Boundary('K8s/ListMeta', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/LocalObjectReferenceBoundary
+
+!procedure LocalObjectReferenceBoundary($id, $name, $tech="")
+  C4Boundary('K8s/LocalObjectReference', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/NodeSelectorRequirementBoundary
+
+!procedure NodeSelectorRequirementBoundary($id, $name, $tech="")
+  C4Boundary('K8s/NodeSelectorRequirement', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/ObjectFieldSelectorBoundary
+
+!procedure ObjectFieldSelectorBoundary($id, $name, $tech="")
+  C4Boundary('K8s/ObjectFieldSelector', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/ObjectMetaBoundary
+
+!procedure ObjectMetaBoundary($id, $name, $tech="")
+  C4Boundary('K8s/ObjectMeta', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/ObjectReferenceBoundary
+
+!procedure ObjectReferenceBoundary($id, $name, $tech="")
+  C4Boundary('K8s/ObjectReference', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/PatchBoundary
+
+!procedure PatchBoundary($id, $name, $tech="")
+  C4Boundary('K8s/Patch', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/QuantityBoundary
+
+!procedure QuantityBoundary($id, $name, $tech="")
+  C4Boundary('K8s/Quantity', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/ResourceFieldSelectorBoundary
+
+!procedure ResourceFieldSelectorBoundary($id, $name, $tech="")
+  C4Boundary('K8s/ResourceFieldSelector', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/StatusBoundary
+
+!procedure StatusBoundary($id, $name, $tech="")
+  C4Boundary('K8s/Status', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/TypedLocalObjectReferenceBoundary
+
+!procedure TypedLocalObjectReferenceBoundary($id, $name, $tech="")
+  C4Boundary('K8s/TypedLocalObjectReference', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/ValidatingAdmissionPolicyBindingListBoundary
+
+!procedure ValidatingAdmissionPolicyBindingListBoundary($id, $name, $tech="")
+  C4Boundary('K8s/ValidatingAdmissionPolicyBindingList', 'Boundary', $id, $name, $tech)
+!endprocedure
+' definition of the Item c4k8s/Boundary/ClusterBoundary
+
+!procedure ClusterBoundary($id, $name, $tech="")
+  C4Boundary('K8s/Cluster', 'Boundary', $id, $name, $tech)
+!endprocedure
