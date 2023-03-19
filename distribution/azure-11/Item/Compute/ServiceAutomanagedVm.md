@@ -17,6 +17,17 @@ include('azure-11/Item/Compute/ServiceAutomanagedVm')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAutomanagedVmXs>`
+- `<$ServiceAutomanagedVmSm>`
+- `<$ServiceAutomanagedVmMd>`
+- `<$ServiceAutomanagedVmLg>`
+
+
+
+
 
 ## ServiceAutomanagedVm
 

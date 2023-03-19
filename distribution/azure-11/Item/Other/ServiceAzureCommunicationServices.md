@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceAzureCommunicationServices')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureCommunicationServicesXs>`
+- `<$ServiceAzureCommunicationServicesSm>`
+- `<$ServiceAzureCommunicationServicesMd>`
+- `<$ServiceAzureCommunicationServicesLg>`
+
+
+
+
 
 ## ServiceAzureCommunicationServices
 

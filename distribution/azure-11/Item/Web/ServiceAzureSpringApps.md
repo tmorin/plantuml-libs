@@ -17,6 +17,17 @@ include('azure-11/Item/Web/ServiceAzureSpringApps')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureSpringAppsXs>`
+- `<$ServiceAzureSpringAppsSm>`
+- `<$ServiceAzureSpringAppsMd>`
+- `<$ServiceAzureSpringAppsLg>`
+
+
+
+
 
 ## ServiceAzureSpringApps
 

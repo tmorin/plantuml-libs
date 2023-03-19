@@ -17,6 +17,17 @@ include('azure-11/Item/Intune/ServiceMindaro')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceMindaroXs>`
+- `<$ServiceMindaroSm>`
+- `<$ServiceMindaroMd>`
+- `<$ServiceMindaroLg>`
+
+
+
+
 
 ## ServiceMindaro
 

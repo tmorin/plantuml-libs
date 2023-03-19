@@ -17,6 +17,17 @@ include('azure-11/Item/Integration/ServiceAzureServiceBus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureServiceBusXs>`
+- `<$ServiceAzureServiceBusSm>`
+- `<$ServiceAzureServiceBusMd>`
+- `<$ServiceAzureServiceBusLg>`
+
+
+
+
 
 ## ServiceAzureServiceBus
 

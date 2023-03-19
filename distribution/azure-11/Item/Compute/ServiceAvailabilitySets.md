@@ -17,6 +17,17 @@ include('azure-11/Item/Compute/ServiceAvailabilitySets')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAvailabilitySetsXs>`
+- `<$ServiceAvailabilitySetsSm>`
+- `<$ServiceAvailabilitySetsMd>`
+- `<$ServiceAvailabilitySetsLg>`
+
+
+
+
 
 ## ServiceAvailabilitySets
 

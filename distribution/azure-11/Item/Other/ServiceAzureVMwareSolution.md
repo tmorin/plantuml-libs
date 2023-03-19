@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceAzureVMwareSolution')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureVMwareSolutionXs>`
+- `<$ServiceAzureVMwareSolutionSm>`
+- `<$ServiceAzureVMwareSolutionMd>`
+- `<$ServiceAzureVMwareSolutionLg>`
+
+
+
+
 
 ## ServiceAzureVMwareSolution
 

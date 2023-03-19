@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceDownload')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceDownloadXs>`
+- `<$ServiceDownloadSm>`
+- `<$ServiceDownloadMd>`
+- `<$ServiceDownloadLg>`
+
+
+
+
 
 ## ServiceDownload
 

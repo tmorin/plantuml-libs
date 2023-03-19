@@ -17,6 +17,17 @@ include('azure-11/Item/Security/ServiceIdentitySecureScore')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceIdentitySecureScoreXs>`
+- `<$ServiceIdentitySecureScoreSm>`
+- `<$ServiceIdentitySecureScoreMd>`
+- `<$ServiceIdentitySecureScoreLg>`
+
+
+
+
 
 ## ServiceIdentitySecureScore
 

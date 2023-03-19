@@ -17,6 +17,17 @@ include('azure-11/Item/Integration/ServiceDataFactories')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceDataFactoriesXs>`
+- `<$ServiceDataFactoriesSm>`
+- `<$ServiceDataFactoriesMd>`
+- `<$ServiceDataFactoriesLg>`
+
+
+
+
 
 ## ServiceDataFactories
 

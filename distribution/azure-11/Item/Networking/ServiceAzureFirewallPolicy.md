@@ -17,6 +17,17 @@ include('azure-11/Item/Networking/ServiceAzureFirewallPolicy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureFirewallPolicyXs>`
+- `<$ServiceAzureFirewallPolicySm>`
+- `<$ServiceAzureFirewallPolicyMd>`
+- `<$ServiceAzureFirewallPolicyLg>`
+
+
+
+
 
 ## ServiceAzureFirewallPolicy
 

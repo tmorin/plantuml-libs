@@ -17,6 +17,17 @@ include('azure-11/Item/Security/ServiceExtendedSecurityUpdates')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceExtendedSecurityUpdatesXs>`
+- `<$ServiceExtendedSecurityUpdatesSm>`
+- `<$ServiceExtendedSecurityUpdatesMd>`
+- `<$ServiceExtendedSecurityUpdatesLg>`
+
+
+
+
 
 ## ServiceExtendedSecurityUpdates
 

@@ -17,6 +17,17 @@ include('azure-11/Item/Devops/ServiceAzureDevOps')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureDevOpsXs>`
+- `<$ServiceAzureDevOpsSm>`
+- `<$ServiceAzureDevOpsMd>`
+- `<$ServiceAzureDevOpsLg>`
+
+
+
+
 
 ## ServiceAzureDevOps
 

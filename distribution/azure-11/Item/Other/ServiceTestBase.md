@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceTestBase')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceTestBaseXs>`
+- `<$ServiceTestBaseSm>`
+- `<$ServiceTestBaseMd>`
+- `<$ServiceTestBaseLg>`
+
+
+
+
 
 ## ServiceTestBase
 

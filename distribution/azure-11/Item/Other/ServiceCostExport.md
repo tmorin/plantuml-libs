@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceCostExport')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceCostExportXs>`
+- `<$ServiceCostExportSm>`
+- `<$ServiceCostExportMd>`
+- `<$ServiceCostExportLg>`
+
+
+
+
 
 ## ServiceCostExport
 

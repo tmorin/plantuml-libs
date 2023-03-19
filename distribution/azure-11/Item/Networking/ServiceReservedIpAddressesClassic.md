@@ -17,6 +17,17 @@ include('azure-11/Item/Networking/ServiceReservedIpAddressesClassic')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceReservedIpAddressesClassicXs>`
+- `<$ServiceReservedIpAddressesClassicSm>`
+- `<$ServiceReservedIpAddressesClassicMd>`
+- `<$ServiceReservedIpAddressesClassicLg>`
+
+
+
+
 
 ## ServiceReservedIpAddressesClassic
 

@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceCloudServicesExtendedSupport')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceCloudServicesExtendedSupportXs>`
+- `<$ServiceCloudServicesExtendedSupportSm>`
+- `<$ServiceCloudServicesExtendedSupportMd>`
+- `<$ServiceCloudServicesExtendedSupportLg>`
+
+
+
+
 
 ## ServiceCloudServicesExtendedSupport
 

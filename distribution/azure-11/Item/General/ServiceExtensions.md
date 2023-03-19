@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceExtensions')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceExtensionsXs>`
+- `<$ServiceExtensionsSm>`
+- `<$ServiceExtensionsMd>`
+- `<$ServiceExtensionsLg>`
+
+
+
+
 
 ## ServiceExtensions
 

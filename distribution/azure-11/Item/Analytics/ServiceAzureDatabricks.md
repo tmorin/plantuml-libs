@@ -17,6 +17,17 @@ include('azure-11/Item/Analytics/ServiceAzureDatabricks')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureDatabricksXs>`
+- `<$ServiceAzureDatabricksSm>`
+- `<$ServiceAzureDatabricksMd>`
+- `<$ServiceAzureDatabricksLg>`
+
+
+
+
 
 ## ServiceAzureDatabricks
 

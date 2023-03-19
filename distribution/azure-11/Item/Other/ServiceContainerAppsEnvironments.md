@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceContainerAppsEnvironments')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceContainerAppsEnvironmentsXs>`
+- `<$ServiceContainerAppsEnvironmentsSm>`
+- `<$ServiceContainerAppsEnvironmentsMd>`
+- `<$ServiceContainerAppsEnvironmentsLg>`
+
+
+
+
 
 ## ServiceContainerAppsEnvironments
 

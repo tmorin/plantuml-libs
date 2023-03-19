@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceServerFarm')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceServerFarmXs>`
+- `<$ServiceServerFarmSm>`
+- `<$ServiceServerFarmMd>`
+- `<$ServiceServerFarmLg>`
+
+
+
+
 
 ## ServiceServerFarm
 

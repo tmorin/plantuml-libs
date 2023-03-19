@@ -17,6 +17,17 @@ include('azure-11/Item/Compute/ServiceVmScaleSets')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceVmScaleSetsXs>`
+- `<$ServiceVmScaleSetsSm>`
+- `<$ServiceVmScaleSetsMd>`
+- `<$ServiceVmScaleSetsLg>`
+
+
+
+
 
 ## ServiceVmScaleSets
 

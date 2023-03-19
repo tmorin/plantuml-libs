@@ -17,6 +17,17 @@ include('azure-11/Item/AzureStack/ServiceUserSubscriptions')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceUserSubscriptionsXs>`
+- `<$ServiceUserSubscriptionsSm>`
+- `<$ServiceUserSubscriptionsMd>`
+- `<$ServiceUserSubscriptionsLg>`
+
+
+
+
 
 ## ServiceUserSubscriptions
 

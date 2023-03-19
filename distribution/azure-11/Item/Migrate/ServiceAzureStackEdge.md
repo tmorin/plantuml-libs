@@ -17,6 +17,17 @@ include('azure-11/Item/Migrate/ServiceAzureStackEdge')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureStackEdgeXs>`
+- `<$ServiceAzureStackEdgeSm>`
+- `<$ServiceAzureStackEdgeMd>`
+- `<$ServiceAzureStackEdgeLg>`
+
+
+
+
 
 ## ServiceAzureStackEdge
 

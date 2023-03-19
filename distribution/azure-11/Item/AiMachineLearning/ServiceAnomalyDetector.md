@@ -17,6 +17,17 @@ include('azure-11/Item/AiMachineLearning/ServiceAnomalyDetector')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAnomalyDetectorXs>`
+- `<$ServiceAnomalyDetectorSm>`
+- `<$ServiceAnomalyDetectorMd>`
+- `<$ServiceAnomalyDetectorLg>`
+
+
+
+
 
 ## ServiceAnomalyDetector
 

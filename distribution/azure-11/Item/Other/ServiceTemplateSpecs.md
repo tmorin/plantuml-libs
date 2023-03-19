@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceTemplateSpecs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceTemplateSpecsXs>`
+- `<$ServiceTemplateSpecsSm>`
+- `<$ServiceTemplateSpecsMd>`
+- `<$ServiceTemplateSpecsLg>`
+
+
+
+
 
 ## ServiceTemplateSpecs
 

@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceGuide')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceGuideXs>`
+- `<$ServiceGuideSm>`
+- `<$ServiceGuideMd>`
+- `<$ServiceGuideLg>`
+
+
+
+
 
 ## ServiceGuide
 

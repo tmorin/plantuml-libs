@@ -17,6 +17,17 @@ include('azure-11/Item/Security/ServiceUserSettings')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceUserSettingsXs>`
+- `<$ServiceUserSettingsSm>`
+- `<$ServiceUserSettingsMd>`
+- `<$ServiceUserSettingsLg>`
+
+
+
+
 
 ## ServiceUserSettings
 

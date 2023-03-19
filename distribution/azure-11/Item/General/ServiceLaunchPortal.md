@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceLaunchPortal')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceLaunchPortalXs>`
+- `<$ServiceLaunchPortalSm>`
+- `<$ServiceLaunchPortalMd>`
+- `<$ServiceLaunchPortalLg>`
+
+
+
+
 
 ## ServiceLaunchPortal
 

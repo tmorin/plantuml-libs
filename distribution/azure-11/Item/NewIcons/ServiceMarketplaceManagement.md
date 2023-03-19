@@ -17,6 +17,17 @@ include('azure-11/Item/NewIcons/ServiceMarketplaceManagement')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceMarketplaceManagementXs>`
+- `<$ServiceMarketplaceManagementSm>`
+- `<$ServiceMarketplaceManagementMd>`
+- `<$ServiceMarketplaceManagementLg>`
+
+
+
+
 
 ## ServiceMarketplaceManagement
 

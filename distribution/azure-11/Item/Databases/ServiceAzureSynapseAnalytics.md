@@ -17,6 +17,17 @@ include('azure-11/Item/Databases/ServiceAzureSynapseAnalytics')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureSynapseAnalyticsXs>`
+- `<$ServiceAzureSynapseAnalyticsSm>`
+- `<$ServiceAzureSynapseAnalyticsMd>`
+- `<$ServiceAzureSynapseAnalyticsLg>`
+
+
+
+
 
 ## ServiceAzureSynapseAnalytics
 

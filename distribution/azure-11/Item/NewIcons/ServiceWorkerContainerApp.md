@@ -17,6 +17,17 @@ include('azure-11/Item/NewIcons/ServiceWorkerContainerApp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceWorkerContainerAppXs>`
+- `<$ServiceWorkerContainerAppSm>`
+- `<$ServiceWorkerContainerAppMd>`
+- `<$ServiceWorkerContainerAppLg>`
+
+
+
+
 
 ## ServiceWorkerContainerApp
 

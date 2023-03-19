@@ -17,6 +17,17 @@ include('azure-11/Item/Compute/ServiceCloudServicesClassic')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceCloudServicesClassicXs>`
+- `<$ServiceCloudServicesClassicSm>`
+- `<$ServiceCloudServicesClassicMd>`
+- `<$ServiceCloudServicesClassicLg>`
+
+
+
+
 
 ## ServiceCloudServicesClassic
 

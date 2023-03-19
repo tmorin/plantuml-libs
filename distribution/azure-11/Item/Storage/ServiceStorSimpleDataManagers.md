@@ -17,6 +17,17 @@ include('azure-11/Item/Storage/ServiceStorSimpleDataManagers')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceStorSimpleDataManagersXs>`
+- `<$ServiceStorSimpleDataManagersSm>`
+- `<$ServiceStorSimpleDataManagersMd>`
+- `<$ServiceStorSimpleDataManagersLg>`
+
+
+
+
 
 ## ServiceStorSimpleDataManagers
 

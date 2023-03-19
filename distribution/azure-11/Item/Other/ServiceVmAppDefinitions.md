@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceVmAppDefinitions')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceVmAppDefinitionsXs>`
+- `<$ServiceVmAppDefinitionsSm>`
+- `<$ServiceVmAppDefinitionsMd>`
+- `<$ServiceVmAppDefinitionsLg>`
+
+
+
+
 
 ## ServiceVmAppDefinitions
 

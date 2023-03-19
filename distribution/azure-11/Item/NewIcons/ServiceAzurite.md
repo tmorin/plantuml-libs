@@ -17,6 +17,17 @@ include('azure-11/Item/NewIcons/ServiceAzurite')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzuriteXs>`
+- `<$ServiceAzuriteSm>`
+- `<$ServiceAzuriteMd>`
+- `<$ServiceAzuriteLg>`
+
+
+
+
 
 ## ServiceAzurite
 

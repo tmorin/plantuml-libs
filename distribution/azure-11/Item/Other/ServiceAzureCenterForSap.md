@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceAzureCenterForSap')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureCenterForSapXs>`
+- `<$ServiceAzureCenterForSapSm>`
+- `<$ServiceAzureCenterForSapMd>`
+- `<$ServiceAzureCenterForSapLg>`
+
+
+
+
 
 ## ServiceAzureCenterForSap
 

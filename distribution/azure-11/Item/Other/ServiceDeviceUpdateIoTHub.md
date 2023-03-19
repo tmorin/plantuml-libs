@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceDeviceUpdateIoTHub')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceDeviceUpdateIoTHubXs>`
+- `<$ServiceDeviceUpdateIoTHubSm>`
+- `<$ServiceDeviceUpdateIoTHubMd>`
+- `<$ServiceDeviceUpdateIoTHubLg>`
+
+
+
+
 
 ## ServiceDeviceUpdateIoTHub
 

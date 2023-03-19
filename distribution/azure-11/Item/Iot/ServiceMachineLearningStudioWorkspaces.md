@@ -17,6 +17,17 @@ include('azure-11/Item/Iot/ServiceMachineLearningStudioWorkspaces')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceMachineLearningStudioWorkspacesXs>`
+- `<$ServiceMachineLearningStudioWorkspacesSm>`
+- `<$ServiceMachineLearningStudioWorkspacesMd>`
+- `<$ServiceMachineLearningStudioWorkspacesLg>`
+
+
+
+
 
 ## ServiceMachineLearningStudioWorkspaces
 

@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceAzureBackupCenter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureBackupCenterXs>`
+- `<$ServiceAzureBackupCenterSm>`
+- `<$ServiceAzureBackupCenterMd>`
+- `<$ServiceAzureBackupCenterLg>`
+
+
+
+
 
 ## ServiceAzureBackupCenter
 

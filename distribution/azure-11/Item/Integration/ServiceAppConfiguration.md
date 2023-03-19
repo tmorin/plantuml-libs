@@ -17,6 +17,17 @@ include('azure-11/Item/Integration/ServiceAppConfiguration')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAppConfigurationXs>`
+- `<$ServiceAppConfigurationSm>`
+- `<$ServiceAppConfigurationMd>`
+- `<$ServiceAppConfigurationLg>`
+
+
+
+
 
 ## ServiceAppConfiguration
 

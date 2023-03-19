@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceCommit')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceCommitXs>`
+- `<$ServiceCommitSm>`
+- `<$ServiceCommitMd>`
+- `<$ServiceCommitLg>`
+
+
+
+
 
 ## ServiceCommit
 

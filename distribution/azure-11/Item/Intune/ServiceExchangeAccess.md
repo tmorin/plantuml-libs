@@ -17,6 +17,17 @@ include('azure-11/Item/Intune/ServiceExchangeAccess')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceExchangeAccessXs>`
+- `<$ServiceExchangeAccessSm>`
+- `<$ServiceExchangeAccessMd>`
+- `<$ServiceExchangeAccessLg>`
+
+
+
+
 
 ## ServiceExchangeAccess
 

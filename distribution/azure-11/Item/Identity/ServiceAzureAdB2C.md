@@ -17,6 +17,17 @@ include('azure-11/Item/Identity/ServiceAzureAdB2C')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureAdB2CXs>`
+- `<$ServiceAzureAdB2CSm>`
+- `<$ServiceAzureAdB2CMd>`
+- `<$ServiceAzureAdB2CLg>`
+
+
+
+
 
 ## ServiceAzureAdB2C
 

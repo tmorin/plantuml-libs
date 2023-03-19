@@ -17,6 +17,17 @@ include('azure-11/Item/Intune/ServiceDeviceSecurityGoogle')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceDeviceSecurityGoogleXs>`
+- `<$ServiceDeviceSecurityGoogleSm>`
+- `<$ServiceDeviceSecurityGoogleMd>`
+- `<$ServiceDeviceSecurityGoogleLg>`
+
+
+
+
 
 ## ServiceDeviceSecurityGoogle
 

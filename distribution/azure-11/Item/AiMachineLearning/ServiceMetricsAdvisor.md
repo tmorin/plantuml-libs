@@ -17,6 +17,17 @@ include('azure-11/Item/AiMachineLearning/ServiceMetricsAdvisor')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceMetricsAdvisorXs>`
+- `<$ServiceMetricsAdvisorSm>`
+- `<$ServiceMetricsAdvisorMd>`
+- `<$ServiceMetricsAdvisorLg>`
+
+
+
+
 
 ## ServiceMetricsAdvisor
 

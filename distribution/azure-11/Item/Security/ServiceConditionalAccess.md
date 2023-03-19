@@ -17,6 +17,17 @@ include('azure-11/Item/Security/ServiceConditionalAccess')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceConditionalAccessXs>`
+- `<$ServiceConditionalAccessSm>`
+- `<$ServiceConditionalAccessMd>`
+- `<$ServiceConditionalAccessLg>`
+
+
+
+
 
 ## ServiceConditionalAccess
 

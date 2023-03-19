@@ -17,6 +17,17 @@ include('azure-11/Item/Networking/ServiceTrafficManagerProfiles')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceTrafficManagerProfilesXs>`
+- `<$ServiceTrafficManagerProfilesSm>`
+- `<$ServiceTrafficManagerProfilesMd>`
+- `<$ServiceTrafficManagerProfilesLg>`
+
+
+
+
 
 ## ServiceTrafficManagerProfiles
 

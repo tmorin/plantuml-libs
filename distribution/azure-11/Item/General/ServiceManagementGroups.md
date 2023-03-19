@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceManagementGroups')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceManagementGroupsXs>`
+- `<$ServiceManagementGroupsSm>`
+- `<$ServiceManagementGroupsMd>`
+- `<$ServiceManagementGroupsLg>`
+
+
+
+
 
 ## ServiceManagementGroups
 

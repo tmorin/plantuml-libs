@@ -17,6 +17,17 @@ include('azure-11/Item/Integration/ServiceAzureDataCatalog')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureDataCatalogXs>`
+- `<$ServiceAzureDataCatalogSm>`
+- `<$ServiceAzureDataCatalogMd>`
+- `<$ServiceAzureDataCatalogLg>`
+
+
+
+
 
 ## ServiceAzureDataCatalog
 

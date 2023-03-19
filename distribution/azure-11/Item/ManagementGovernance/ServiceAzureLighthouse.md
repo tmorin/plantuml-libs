@@ -17,6 +17,17 @@ include('azure-11/Item/ManagementGovernance/ServiceAzureLighthouse')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureLighthouseXs>`
+- `<$ServiceAzureLighthouseSm>`
+- `<$ServiceAzureLighthouseMd>`
+- `<$ServiceAzureLighthouseLg>`
+
+
+
+
 
 ## ServiceAzureLighthouse
 

@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceTfsVcRepository')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceTfsVcRepositoryXs>`
+- `<$ServiceTfsVcRepositorySm>`
+- `<$ServiceTfsVcRepositoryMd>`
+- `<$ServiceTfsVcRepositoryLg>`
+
+
+
+
 
 ## ServiceTfsVcRepository
 

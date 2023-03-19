@@ -17,6 +17,17 @@ include('azure-11/Item/AiMachineLearning/ServiceMachineLearning')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceMachineLearningXs>`
+- `<$ServiceMachineLearningSm>`
+- `<$ServiceMachineLearningMd>`
+- `<$ServiceMachineLearningLg>`
+
+
+
+
 
 ## ServiceMachineLearning
 

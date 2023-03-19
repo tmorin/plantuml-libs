@@ -17,6 +17,17 @@ include('azure-11/Item/NewIcons/ServiceStorageTasks')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceStorageTasksXs>`
+- `<$ServiceStorageTasksSm>`
+- `<$ServiceStorageTasksMd>`
+- `<$ServiceStorageTasksLg>`
+
+
+
+
 
 ## ServiceStorageTasks
 

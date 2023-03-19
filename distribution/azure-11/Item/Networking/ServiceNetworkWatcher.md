@@ -17,6 +17,17 @@ include('azure-11/Item/Networking/ServiceNetworkWatcher')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceNetworkWatcherXs>`
+- `<$ServiceNetworkWatcherSm>`
+- `<$ServiceNetworkWatcherMd>`
+- `<$ServiceNetworkWatcherLg>`
+
+
+
+
 
 ## ServiceNetworkWatcher
 

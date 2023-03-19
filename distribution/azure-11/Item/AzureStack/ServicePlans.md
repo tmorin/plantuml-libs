@@ -17,6 +17,17 @@ include('azure-11/Item/AzureStack/ServicePlans')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServicePlansXs>`
+- `<$ServicePlansSm>`
+- `<$ServicePlansMd>`
+- `<$ServicePlansLg>`
+
+
+
+
 
 ## ServicePlans
 

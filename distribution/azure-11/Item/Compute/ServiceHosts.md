@@ -17,6 +17,17 @@ include('azure-11/Item/Compute/ServiceHosts')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceHostsXs>`
+- `<$ServiceHostsSm>`
+- `<$ServiceHostsMd>`
+- `<$ServiceHostsLg>`
+
+
+
+
 
 ## ServiceHosts
 

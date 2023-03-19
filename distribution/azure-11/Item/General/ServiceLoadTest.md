@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceLoadTest')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceLoadTestXs>`
+- `<$ServiceLoadTestSm>`
+- `<$ServiceLoadTestMd>`
+- `<$ServiceLoadTestLg>`
+
+
+
+
 
 ## ServiceLoadTest
 

@@ -17,6 +17,17 @@ include('azure-11/Item/Security/ServiceMicrosoftDefenderForIoT')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceMicrosoftDefenderForIoTXs>`
+- `<$ServiceMicrosoftDefenderForIoTSm>`
+- `<$ServiceMicrosoftDefenderForIoTMd>`
+- `<$ServiceMicrosoftDefenderForIoTLg>`
+
+
+
+
 
 ## ServiceMicrosoftDefenderForIoT
 

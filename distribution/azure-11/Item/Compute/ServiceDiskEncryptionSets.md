@@ -17,6 +17,17 @@ include('azure-11/Item/Compute/ServiceDiskEncryptionSets')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceDiskEncryptionSetsXs>`
+- `<$ServiceDiskEncryptionSetsSm>`
+- `<$ServiceDiskEncryptionSetsMd>`
+- `<$ServiceDiskEncryptionSetsLg>`
+
+
+
+
 
 ## ServiceDiskEncryptionSets
 

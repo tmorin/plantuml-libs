@@ -17,6 +17,17 @@ include('azure-11/Item/Web/ServiceSignalR')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceSignalRXs>`
+- `<$ServiceSignalRSm>`
+- `<$ServiceSignalRMd>`
+- `<$ServiceSignalRLg>`
+
+
+
+
 
 ## ServiceSignalR
 

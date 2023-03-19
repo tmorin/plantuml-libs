@@ -17,6 +17,17 @@ include('azure-11/Item/Integration/ServiceAzureSqlServerStretchDatabases')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureSqlServerStretchDatabasesXs>`
+- `<$ServiceAzureSqlServerStretchDatabasesSm>`
+- `<$ServiceAzureSqlServerStretchDatabasesMd>`
+- `<$ServiceAzureSqlServerStretchDatabasesLg>`
+
+
+
+
 
 ## ServiceAzureSqlServerStretchDatabases
 

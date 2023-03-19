@@ -17,6 +17,17 @@ include('azure-11/Item/ManagementGovernance/ServiceAdvisor')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAdvisorXs>`
+- `<$ServiceAdvisorSm>`
+- `<$ServiceAdvisorMd>`
+- `<$ServiceAdvisorLg>`
+
+
+
+
 
 ## ServiceAdvisor
 

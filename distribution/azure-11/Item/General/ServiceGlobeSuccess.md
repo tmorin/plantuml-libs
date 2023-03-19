@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceGlobeSuccess')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceGlobeSuccessXs>`
+- `<$ServiceGlobeSuccessSm>`
+- `<$ServiceGlobeSuccessMd>`
+- `<$ServiceGlobeSuccessLg>`
+
+
+
+
 
 ## ServiceGlobeSuccess
 

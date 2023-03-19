@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceGlobeError')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceGlobeErrorXs>`
+- `<$ServiceGlobeErrorSm>`
+- `<$ServiceGlobeErrorMd>`
+- `<$ServiceGlobeErrorLg>`
+
+
+
+
 
 ## ServiceGlobeError
 

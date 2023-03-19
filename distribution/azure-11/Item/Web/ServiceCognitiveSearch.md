@@ -17,6 +17,17 @@ include('azure-11/Item/Web/ServiceCognitiveSearch')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceCognitiveSearchXs>`
+- `<$ServiceCognitiveSearchSm>`
+- `<$ServiceCognitiveSearchMd>`
+- `<$ServiceCognitiveSearchLg>`
+
+
+
+
 
 ## ServiceCognitiveSearch
 

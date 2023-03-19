@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceConfidentialLedgers')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceConfidentialLedgersXs>`
+- `<$ServiceConfidentialLedgersSm>`
+- `<$ServiceConfidentialLedgersMd>`
+- `<$ServiceConfidentialLedgersLg>`
+
+
+
+
 
 ## ServiceConfidentialLedgers
 

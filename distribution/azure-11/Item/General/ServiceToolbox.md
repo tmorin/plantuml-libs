@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceToolbox')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceToolboxXs>`
+- `<$ServiceToolboxSm>`
+- `<$ServiceToolboxMd>`
+- `<$ServiceToolboxLg>`
+
+
+
+
 
 ## ServiceToolbox
 

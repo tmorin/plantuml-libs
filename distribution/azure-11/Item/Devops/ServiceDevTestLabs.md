@@ -17,6 +17,17 @@ include('azure-11/Item/Devops/ServiceDevTestLabs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceDevTestLabsXs>`
+- `<$ServiceDevTestLabsSm>`
+- `<$ServiceDevTestLabsMd>`
+- `<$ServiceDevTestLabsLg>`
+
+
+
+
 
 ## ServiceDevTestLabs
 

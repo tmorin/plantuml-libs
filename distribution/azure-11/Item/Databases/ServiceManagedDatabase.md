@@ -17,6 +17,17 @@ include('azure-11/Item/Databases/ServiceManagedDatabase')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceManagedDatabaseXs>`
+- `<$ServiceManagedDatabaseSm>`
+- `<$ServiceManagedDatabaseMd>`
+- `<$ServiceManagedDatabaseLg>`
+
+
+
+
 
 ## ServiceManagedDatabase
 

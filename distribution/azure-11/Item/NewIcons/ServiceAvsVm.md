@@ -17,6 +17,17 @@ include('azure-11/Item/NewIcons/ServiceAvsVm')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAvsVmXs>`
+- `<$ServiceAvsVmSm>`
+- `<$ServiceAvsVmMd>`
+- `<$ServiceAvsVmLg>`
+
+
+
+
 
 ## ServiceAvsVm
 

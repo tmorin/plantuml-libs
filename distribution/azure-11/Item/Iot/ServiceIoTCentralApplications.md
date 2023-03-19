@@ -17,6 +17,17 @@ include('azure-11/Item/Iot/ServiceIoTCentralApplications')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceIoTCentralApplicationsXs>`
+- `<$ServiceIoTCentralApplicationsSm>`
+- `<$ServiceIoTCentralApplicationsMd>`
+- `<$ServiceIoTCentralApplicationsLg>`
+
+
+
+
 
 ## ServiceIoTCentralApplications
 

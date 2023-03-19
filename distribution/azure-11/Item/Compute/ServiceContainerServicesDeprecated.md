@@ -17,6 +17,17 @@ include('azure-11/Item/Compute/ServiceContainerServicesDeprecated')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceContainerServicesDeprecatedXs>`
+- `<$ServiceContainerServicesDeprecatedSm>`
+- `<$ServiceContainerServicesDeprecatedMd>`
+- `<$ServiceContainerServicesDeprecatedLg>`
+
+
+
+
 
 ## ServiceContainerServicesDeprecated
 

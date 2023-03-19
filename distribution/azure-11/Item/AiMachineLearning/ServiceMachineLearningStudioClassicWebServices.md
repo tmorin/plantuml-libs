@@ -17,6 +17,17 @@ include('azure-11/Item/AiMachineLearning/ServiceMachineLearningStudioClassicWebS
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceMachineLearningStudioClassicWebServicesXs>`
+- `<$ServiceMachineLearningStudioClassicWebServicesSm>`
+- `<$ServiceMachineLearningStudioClassicWebServicesMd>`
+- `<$ServiceMachineLearningStudioClassicWebServicesLg>`
+
+
+
+
 
 ## ServiceMachineLearningStudioClassicWebServices
 

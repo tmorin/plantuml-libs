@@ -17,6 +17,17 @@ include('azure-11/Item/Integration/ServiceEventGridSubscriptions')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceEventGridSubscriptionsXs>`
+- `<$ServiceEventGridSubscriptionsSm>`
+- `<$ServiceEventGridSubscriptionsMd>`
+- `<$ServiceEventGridSubscriptionsLg>`
+
+
+
+
 
 ## ServiceEventGridSubscriptions
 

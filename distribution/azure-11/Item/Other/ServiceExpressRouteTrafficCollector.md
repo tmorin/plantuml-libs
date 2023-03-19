@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceExpressRouteTrafficCollector')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceExpressRouteTrafficCollectorXs>`
+- `<$ServiceExpressRouteTrafficCollectorSm>`
+- `<$ServiceExpressRouteTrafficCollectorMd>`
+- `<$ServiceExpressRouteTrafficCollectorLg>`
+
+
+
+
 
 ## ServiceExpressRouteTrafficCollector
 

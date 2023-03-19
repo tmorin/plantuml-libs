@@ -17,6 +17,17 @@ include('azure-11/Item/Storage/ServiceAzureNetAppFiles')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureNetAppFilesXs>`
+- `<$ServiceAzureNetAppFilesSm>`
+- `<$ServiceAzureNetAppFilesMd>`
+- `<$ServiceAzureNetAppFilesLg>`
+
+
+
+
 
 ## ServiceAzureNetAppFiles
 

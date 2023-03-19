@@ -17,6 +17,17 @@ include('azure-11/Item/AiMachineLearning/ServiceGenomics')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceGenomicsXs>`
+- `<$ServiceGenomicsSm>`
+- `<$ServiceGenomicsMd>`
+- `<$ServiceGenomicsLg>`
+
+
+
+
 
 ## ServiceGenomics
 

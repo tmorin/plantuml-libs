@@ -17,6 +17,17 @@ include('azure-11/Item/Analytics/ServiceAnalysisServices')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAnalysisServicesXs>`
+- `<$ServiceAnalysisServicesSm>`
+- `<$ServiceAnalysisServicesMd>`
+- `<$ServiceAnalysisServicesLg>`
+
+
+
+
 
 ## ServiceAnalysisServices
 

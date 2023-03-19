@@ -17,6 +17,17 @@ include('azure-11/Item/NewIcons/ServiceReservedCapacity')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceReservedCapacityXs>`
+- `<$ServiceReservedCapacitySm>`
+- `<$ServiceReservedCapacityMd>`
+- `<$ServiceReservedCapacityLg>`
+
+
+
+
 
 ## ServiceReservedCapacity
 

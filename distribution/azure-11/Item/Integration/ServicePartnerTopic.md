@@ -17,6 +17,17 @@ include('azure-11/Item/Integration/ServicePartnerTopic')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServicePartnerTopicXs>`
+- `<$ServicePartnerTopicSm>`
+- `<$ServicePartnerTopicMd>`
+- `<$ServicePartnerTopicLg>`
+
+
+
+
 
 ## ServicePartnerTopic
 

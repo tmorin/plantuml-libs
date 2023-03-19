@@ -17,6 +17,17 @@ include('azure-11/Item/AzureEcosystem/ServiceCollaborativeService')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceCollaborativeServiceXs>`
+- `<$ServiceCollaborativeServiceSm>`
+- `<$ServiceCollaborativeServiceMd>`
+- `<$ServiceCollaborativeServiceLg>`
+
+
+
+
 
 ## ServiceCollaborativeService
 

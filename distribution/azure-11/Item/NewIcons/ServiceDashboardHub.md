@@ -17,6 +17,17 @@ include('azure-11/Item/NewIcons/ServiceDashboardHub')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceDashboardHubXs>`
+- `<$ServiceDashboardHubSm>`
+- `<$ServiceDashboardHubMd>`
+- `<$ServiceDashboardHubLg>`
+
+
+
+
 
 ## ServiceDashboardHub
 

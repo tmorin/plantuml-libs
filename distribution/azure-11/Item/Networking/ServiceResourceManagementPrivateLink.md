@@ -17,6 +17,17 @@ include('azure-11/Item/Networking/ServiceResourceManagementPrivateLink')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceResourceManagementPrivateLinkXs>`
+- `<$ServiceResourceManagementPrivateLinkSm>`
+- `<$ServiceResourceManagementPrivateLinkMd>`
+- `<$ServiceResourceManagementPrivateLinkLg>`
+
+
+
+
 
 ## ServiceResourceManagementPrivateLink
 

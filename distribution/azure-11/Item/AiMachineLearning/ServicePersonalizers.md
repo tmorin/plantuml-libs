@@ -17,6 +17,17 @@ include('azure-11/Item/AiMachineLearning/ServicePersonalizers')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServicePersonalizersXs>`
+- `<$ServicePersonalizersSm>`
+- `<$ServicePersonalizersMd>`
+- `<$ServicePersonalizersLg>`
+
+
+
+
 
 ## ServicePersonalizers
 

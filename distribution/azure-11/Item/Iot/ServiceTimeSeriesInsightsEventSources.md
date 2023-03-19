@@ -17,6 +17,17 @@ include('azure-11/Item/Iot/ServiceTimeSeriesInsightsEventSources')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceTimeSeriesInsightsEventSourcesXs>`
+- `<$ServiceTimeSeriesInsightsEventSourcesSm>`
+- `<$ServiceTimeSeriesInsightsEventSourcesMd>`
+- `<$ServiceTimeSeriesInsightsEventSourcesLg>`
+
+
+
+
 
 ## ServiceTimeSeriesInsightsEventSources
 

@@ -17,6 +17,17 @@ include('azure-11/Item/Databases/ServiceSqlServerRegistries')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceSqlServerRegistriesXs>`
+- `<$ServiceSqlServerRegistriesSm>`
+- `<$ServiceSqlServerRegistriesMd>`
+- `<$ServiceSqlServerRegistriesLg>`
+
+
+
+
 
 ## ServiceSqlServerRegistries
 

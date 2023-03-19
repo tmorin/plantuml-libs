@@ -17,6 +17,17 @@ include('azure-11/Item/Networking/ServiceFirewalls')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceFirewallsXs>`
+- `<$ServiceFirewallsSm>`
+- `<$ServiceFirewallsMd>`
+- `<$ServiceFirewallsLg>`
+
+
+
+
 
 ## ServiceFirewalls
 

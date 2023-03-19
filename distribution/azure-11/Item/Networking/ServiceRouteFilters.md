@@ -17,6 +17,17 @@ include('azure-11/Item/Networking/ServiceRouteFilters')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceRouteFiltersXs>`
+- `<$ServiceRouteFiltersSm>`
+- `<$ServiceRouteFiltersMd>`
+- `<$ServiceRouteFiltersLg>`
+
+
+
+
 
 ## ServiceRouteFilters
 

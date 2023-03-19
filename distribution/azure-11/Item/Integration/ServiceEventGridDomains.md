@@ -17,6 +17,17 @@ include('azure-11/Item/Integration/ServiceEventGridDomains')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceEventGridDomainsXs>`
+- `<$ServiceEventGridDomainsSm>`
+- `<$ServiceEventGridDomainsMd>`
+- `<$ServiceEventGridDomainsLg>`
+
+
+
+
 
 ## ServiceEventGridDomains
 

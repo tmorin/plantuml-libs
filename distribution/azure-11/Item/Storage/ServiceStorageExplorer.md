@@ -17,6 +17,17 @@ include('azure-11/Item/Storage/ServiceStorageExplorer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceStorageExplorerXs>`
+- `<$ServiceStorageExplorerSm>`
+- `<$ServiceStorageExplorerMd>`
+- `<$ServiceStorageExplorerLg>`
+
+
+
+
 
 ## ServiceStorageExplorer
 

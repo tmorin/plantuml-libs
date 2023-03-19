@@ -17,6 +17,17 @@ include('azure-11/Item/Intune/ServiceDeviceEnrollment')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceDeviceEnrollmentXs>`
+- `<$ServiceDeviceEnrollmentSm>`
+- `<$ServiceDeviceEnrollmentMd>`
+- `<$ServiceDeviceEnrollmentLg>`
+
+
+
+
 
 ## ServiceDeviceEnrollment
 

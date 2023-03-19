@@ -17,6 +17,17 @@ include('azure-11/Item/Identity/ServiceAzureActiveDirectory')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureActiveDirectoryXs>`
+- `<$ServiceAzureActiveDirectorySm>`
+- `<$ServiceAzureActiveDirectoryMd>`
+- `<$ServiceAzureActiveDirectoryLg>`
+
+
+
+
 
 ## ServiceAzureActiveDirectory
 

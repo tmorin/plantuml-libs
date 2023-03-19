@@ -17,6 +17,17 @@ include('azure-11/Item/Security/ServiceMicrosoftDefenderEasm')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceMicrosoftDefenderEasmXs>`
+- `<$ServiceMicrosoftDefenderEasmSm>`
+- `<$ServiceMicrosoftDefenderEasmMd>`
+- `<$ServiceMicrosoftDefenderEasmLg>`
+
+
+
+
 
 ## ServiceMicrosoftDefenderEasm
 

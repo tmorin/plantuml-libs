@@ -17,6 +17,17 @@ include('azure-11/Item/Networking/ServiceExpressRouteCircuits')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceExpressRouteCircuitsXs>`
+- `<$ServiceExpressRouteCircuitsSm>`
+- `<$ServiceExpressRouteCircuitsMd>`
+- `<$ServiceExpressRouteCircuitsLg>`
+
+
+
+
 
 ## ServiceExpressRouteCircuits
 

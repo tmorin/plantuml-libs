@@ -17,6 +17,17 @@ include('azure-11/Item/Networking/ServiceVirtualRouter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceVirtualRouterXs>`
+- `<$ServiceVirtualRouterSm>`
+- `<$ServiceVirtualRouterMd>`
+- `<$ServiceVirtualRouterLg>`
+
+
+
+
 
 ## ServiceVirtualRouter
 

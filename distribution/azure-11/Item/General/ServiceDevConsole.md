@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceDevConsole')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceDevConsoleXs>`
+- `<$ServiceDevConsoleSm>`
+- `<$ServiceDevConsoleMd>`
+- `<$ServiceDevConsoleLg>`
+
+
+
+
 
 ## ServiceDevConsole
 

@@ -17,6 +17,17 @@ include('azure-11/Item/Integration/ServiceSystemTopic')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceSystemTopicXs>`
+- `<$ServiceSystemTopicSm>`
+- `<$ServiceSystemTopicMd>`
+- `<$ServiceSystemTopicLg>`
+
+
+
+
 
 ## ServiceSystemTopic
 

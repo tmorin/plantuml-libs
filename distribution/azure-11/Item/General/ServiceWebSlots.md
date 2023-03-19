@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceWebSlots')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceWebSlotsXs>`
+- `<$ServiceWebSlotsSm>`
+- `<$ServiceWebSlotsMd>`
+- `<$ServiceWebSlotsLg>`
+
+
+
+
 
 ## ServiceWebSlots
 

@@ -17,6 +17,17 @@ include('azure-11/Item/Security/ServiceAzureAdAuthenticationMethods')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureAdAuthenticationMethodsXs>`
+- `<$ServiceAzureAdAuthenticationMethodsSm>`
+- `<$ServiceAzureAdAuthenticationMethodsMd>`
+- `<$ServiceAzureAdAuthenticationMethodsLg>`
+
+
+
+
 
 ## ServiceAzureAdAuthenticationMethods
 

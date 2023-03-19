@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceStorageQueue')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceStorageQueueXs>`
+- `<$ServiceStorageQueueSm>`
+- `<$ServiceStorageQueueMd>`
+- `<$ServiceStorageQueueLg>`
+
+
+
+
 
 ## ServiceStorageQueue
 

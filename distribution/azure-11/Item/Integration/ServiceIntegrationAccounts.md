@@ -17,6 +17,17 @@ include('azure-11/Item/Integration/ServiceIntegrationAccounts')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceIntegrationAccountsXs>`
+- `<$ServiceIntegrationAccountsSm>`
+- `<$ServiceIntegrationAccountsMd>`
+- `<$ServiceIntegrationAccountsLg>`
+
+
+
+
 
 ## ServiceIntegrationAccounts
 

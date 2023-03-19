@@ -17,6 +17,17 @@ include('azure-11/Item/AiMachineLearning/ServiceBotServices')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceBotServicesXs>`
+- `<$ServiceBotServicesSm>`
+- `<$ServiceBotServicesMd>`
+- `<$ServiceBotServicesLg>`
+
+
+
+
 
 ## ServiceBotServices
 

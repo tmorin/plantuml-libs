@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceVideoAnalyzers')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceVideoAnalyzersXs>`
+- `<$ServiceVideoAnalyzersSm>`
+- `<$ServiceVideoAnalyzersMd>`
+- `<$ServiceVideoAnalyzersLg>`
+
+
+
+
 
 ## ServiceVideoAnalyzers
 

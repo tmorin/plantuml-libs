@@ -17,6 +17,17 @@ include('azure-11/Item/Compute/ServiceApplicationGroup')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceApplicationGroupXs>`
+- `<$ServiceApplicationGroupSm>`
+- `<$ServiceApplicationGroupMd>`
+- `<$ServiceApplicationGroupLg>`
+
+
+
+
 
 ## ServiceApplicationGroup
 

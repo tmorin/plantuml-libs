@@ -17,6 +17,17 @@ include('azure-11/Item/Identity/ServiceAdministrativeUnits')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAdministrativeUnitsXs>`
+- `<$ServiceAdministrativeUnitsSm>`
+- `<$ServiceAdministrativeUnitsMd>`
+- `<$ServiceAdministrativeUnitsLg>`
+
+
+
+
 
 ## ServiceAdministrativeUnits
 

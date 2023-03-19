@@ -17,6 +17,17 @@ include('azure-11/Item/Compute/ServiceMaintenanceConfiguration')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceMaintenanceConfigurationXs>`
+- `<$ServiceMaintenanceConfigurationSm>`
+- `<$ServiceMaintenanceConfigurationMd>`
+- `<$ServiceMaintenanceConfigurationLg>`
+
+
+
+
 
 ## ServiceMaintenanceConfiguration
 

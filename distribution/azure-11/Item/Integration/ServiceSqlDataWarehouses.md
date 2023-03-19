@@ -17,6 +17,17 @@ include('azure-11/Item/Integration/ServiceSqlDataWarehouses')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceSqlDataWarehousesXs>`
+- `<$ServiceSqlDataWarehousesSm>`
+- `<$ServiceSqlDataWarehousesMd>`
+- `<$ServiceSqlDataWarehousesLg>`
+
+
+
+
 
 ## ServiceSqlDataWarehouses
 

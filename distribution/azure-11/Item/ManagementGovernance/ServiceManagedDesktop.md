@@ -17,6 +17,17 @@ include('azure-11/Item/ManagementGovernance/ServiceManagedDesktop')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceManagedDesktopXs>`
+- `<$ServiceManagedDesktopSm>`
+- `<$ServiceManagedDesktopMd>`
+- `<$ServiceManagedDesktopLg>`
+
+
+
+
 
 ## ServiceManagedDesktop
 

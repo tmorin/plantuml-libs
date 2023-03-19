@@ -17,6 +17,17 @@ include('azure-11/Item/Storage/ServiceAzureDataboxGateway')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureDataboxGatewayXs>`
+- `<$ServiceAzureDataboxGatewaySm>`
+- `<$ServiceAzureDataboxGatewayMd>`
+- `<$ServiceAzureDataboxGatewayLg>`
+
+
+
+
 
 ## ServiceAzureDataboxGateway
 

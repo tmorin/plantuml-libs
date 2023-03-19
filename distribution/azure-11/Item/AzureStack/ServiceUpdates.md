@@ -17,6 +17,17 @@ include('azure-11/Item/AzureStack/ServiceUpdates')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceUpdatesXs>`
+- `<$ServiceUpdatesSm>`
+- `<$ServiceUpdatesMd>`
+- `<$ServiceUpdatesLg>`
+
+
+
+
 
 ## ServiceUpdates
 

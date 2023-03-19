@@ -17,6 +17,17 @@ include('azure-11/Item/ManagementGovernance/ServiceCompliance')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceComplianceXs>`
+- `<$ServiceComplianceSm>`
+- `<$ServiceComplianceMd>`
+- `<$ServiceComplianceLg>`
+
+
+
+
 
 ## ServiceCompliance
 

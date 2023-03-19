@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceHelpAndSupport')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceHelpAndSupportXs>`
+- `<$ServiceHelpAndSupportSm>`
+- `<$ServiceHelpAndSupportMd>`
+- `<$ServiceHelpAndSupportLg>`
+
+
+
+
 
 ## ServiceHelpAndSupport
 

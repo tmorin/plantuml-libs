@@ -17,6 +17,17 @@ include('azure-11/Item/Analytics/ServiceLogAnalyticsWorkspaces')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceLogAnalyticsWorkspacesXs>`
+- `<$ServiceLogAnalyticsWorkspacesSm>`
+- `<$ServiceLogAnalyticsWorkspacesMd>`
+- `<$ServiceLogAnalyticsWorkspacesLg>`
+
+
+
+
 
 ## ServiceLogAnalyticsWorkspaces
 

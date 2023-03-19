@@ -17,6 +17,17 @@ include('azure-11/Item/Web/ServiceStaticApps')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceStaticAppsXs>`
+- `<$ServiceStaticAppsSm>`
+- `<$ServiceStaticAppsMd>`
+- `<$ServiceStaticAppsLg>`
+
+
+
+
 
 ## ServiceStaticApps
 

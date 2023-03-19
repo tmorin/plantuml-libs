@@ -17,6 +17,17 @@ include('azure-11/Item/Monitor/ServiceAutoScale')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAutoScaleXs>`
+- `<$ServiceAutoScaleSm>`
+- `<$ServiceAutoScaleMd>`
+- `<$ServiceAutoScaleLg>`
+
+
+
+
 
 ## ServiceAutoScale
 

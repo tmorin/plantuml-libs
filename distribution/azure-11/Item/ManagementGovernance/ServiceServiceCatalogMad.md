@@ -17,6 +17,17 @@ include('azure-11/Item/ManagementGovernance/ServiceServiceCatalogMad')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceServiceCatalogMadXs>`
+- `<$ServiceServiceCatalogMadSm>`
+- `<$ServiceServiceCatalogMadMd>`
+- `<$ServiceServiceCatalogMadLg>`
+
+
+
+
 
 ## ServiceServiceCatalogMad
 

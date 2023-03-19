@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceScheduler')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceSchedulerXs>`
+- `<$ServiceSchedulerSm>`
+- `<$ServiceSchedulerMd>`
+- `<$ServiceSchedulerLg>`
+
+
+
+
 
 ## ServiceScheduler
 

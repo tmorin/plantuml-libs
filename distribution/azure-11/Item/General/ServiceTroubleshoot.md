@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceTroubleshoot')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceTroubleshootXs>`
+- `<$ServiceTroubleshootSm>`
+- `<$ServiceTroubleshootMd>`
+- `<$ServiceTroubleshootLg>`
+
+
+
+
 
 ## ServiceTroubleshoot
 

@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceWorkflow')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceWorkflowXs>`
+- `<$ServiceWorkflowSm>`
+- `<$ServiceWorkflowMd>`
+- `<$ServiceWorkflowLg>`
+
+
+
+
 
 ## ServiceWorkflow
 

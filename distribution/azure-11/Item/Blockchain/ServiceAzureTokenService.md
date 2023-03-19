@@ -17,6 +17,17 @@ include('azure-11/Item/Blockchain/ServiceAzureTokenService')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureTokenServiceXs>`
+- `<$ServiceAzureTokenServiceSm>`
+- `<$ServiceAzureTokenServiceMd>`
+- `<$ServiceAzureTokenServiceLg>`
+
+
+
+
 
 ## ServiceAzureTokenService
 

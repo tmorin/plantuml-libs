@@ -17,6 +17,17 @@ include('azure-11/Item/Security/ServiceSecurityCenter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceSecurityCenterXs>`
+- `<$ServiceSecurityCenterSm>`
+- `<$ServiceSecurityCenterMd>`
+- `<$ServiceSecurityCenterLg>`
+
+
+
+
 
 ## ServiceSecurityCenter
 

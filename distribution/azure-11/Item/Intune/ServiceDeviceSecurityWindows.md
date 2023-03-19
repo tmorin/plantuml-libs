@@ -17,6 +17,17 @@ include('azure-11/Item/Intune/ServiceDeviceSecurityWindows')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceDeviceSecurityWindowsXs>`
+- `<$ServiceDeviceSecurityWindowsSm>`
+- `<$ServiceDeviceSecurityWindowsMd>`
+- `<$ServiceDeviceSecurityWindowsLg>`
+
+
+
+
 
 ## ServiceDeviceSecurityWindows
 

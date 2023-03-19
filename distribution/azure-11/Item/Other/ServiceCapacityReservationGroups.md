@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceCapacityReservationGroups')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceCapacityReservationGroupsXs>`
+- `<$ServiceCapacityReservationGroupsSm>`
+- `<$ServiceCapacityReservationGroupsMd>`
+- `<$ServiceCapacityReservationGroupsLg>`
+
+
+
+
 
 ## ServiceCapacityReservationGroups
 

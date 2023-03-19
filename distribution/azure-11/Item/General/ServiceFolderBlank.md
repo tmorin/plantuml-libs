@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceFolderBlank')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceFolderBlankXs>`
+- `<$ServiceFolderBlankSm>`
+- `<$ServiceFolderBlankMd>`
+- `<$ServiceFolderBlankLg>`
+
+
+
+
 
 ## ServiceFolderBlank
 

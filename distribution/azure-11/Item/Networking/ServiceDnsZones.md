@@ -17,6 +17,17 @@ include('azure-11/Item/Networking/ServiceDnsZones')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceDnsZonesXs>`
+- `<$ServiceDnsZonesSm>`
+- `<$ServiceDnsZonesMd>`
+- `<$ServiceDnsZonesLg>`
+
+
+
+
 
 ## ServiceDnsZones
 

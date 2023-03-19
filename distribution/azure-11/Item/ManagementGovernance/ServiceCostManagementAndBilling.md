@@ -17,6 +17,17 @@ include('azure-11/Item/ManagementGovernance/ServiceCostManagementAndBilling')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceCostManagementAndBillingXs>`
+- `<$ServiceCostManagementAndBillingSm>`
+- `<$ServiceCostManagementAndBillingMd>`
+- `<$ServiceCostManagementAndBillingLg>`
+
+
+
+
 
 ## ServiceCostManagementAndBilling
 

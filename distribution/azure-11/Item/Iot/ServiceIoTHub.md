@@ -17,6 +17,17 @@ include('azure-11/Item/Iot/ServiceIoTHub')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceIoTHubXs>`
+- `<$ServiceIoTHubSm>`
+- `<$ServiceIoTHubMd>`
+- `<$ServiceIoTHubLg>`
+
+
+
+
 
 ## ServiceIoTHub
 

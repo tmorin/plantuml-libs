@@ -17,6 +17,17 @@ include('azure-11/Item/Networking/ServiceVirtualNetworksClassic')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceVirtualNetworksClassicXs>`
+- `<$ServiceVirtualNetworksClassicSm>`
+- `<$ServiceVirtualNetworksClassicMd>`
+- `<$ServiceVirtualNetworksClassicLg>`
+
+
+
+
 
 ## ServiceVirtualNetworksClassic
 

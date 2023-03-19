@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceLearn')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceLearnXs>`
+- `<$ServiceLearnSm>`
+- `<$ServiceLearnMd>`
+- `<$ServiceLearnLg>`
+
+
+
+
 
 ## ServiceLearn
 

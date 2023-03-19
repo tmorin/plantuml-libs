@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceResourceGuard')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceResourceGuardXs>`
+- `<$ServiceResourceGuardSm>`
+- `<$ServiceResourceGuardMd>`
+- `<$ServiceResourceGuardLg>`
+
+
+
+
 
 ## ServiceResourceGuard
 

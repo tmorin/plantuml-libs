@@ -17,6 +17,17 @@ include('azure-11/Item/Monitor/ServiceMetrics')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceMetricsXs>`
+- `<$ServiceMetricsSm>`
+- `<$ServiceMetricsMd>`
+- `<$ServiceMetricsLg>`
+
+
+
+
 
 ## ServiceMetrics
 

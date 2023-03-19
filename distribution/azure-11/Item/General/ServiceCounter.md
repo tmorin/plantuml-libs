@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceCounter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceCounterXs>`
+- `<$ServiceCounterSm>`
+- `<$ServiceCounterMd>`
+- `<$ServiceCounterLg>`
+
+
+
+
 
 ## ServiceCounter
 

@@ -17,6 +17,17 @@ include('azure-11/Item/Security/ServiceApplicationSecurityGroups')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceApplicationSecurityGroupsXs>`
+- `<$ServiceApplicationSecurityGroupsSm>`
+- `<$ServiceApplicationSecurityGroupsMd>`
+- `<$ServiceApplicationSecurityGroupsLg>`
+
+
+
+
 
 ## ServiceApplicationSecurityGroups
 

@@ -17,6 +17,17 @@ include('azure-11/Item/NewIcons/ServiceWindowsNotificationServices')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceWindowsNotificationServicesXs>`
+- `<$ServiceWindowsNotificationServicesSm>`
+- `<$ServiceWindowsNotificationServicesMd>`
+- `<$ServiceWindowsNotificationServicesLg>`
+
+
+
+
 
 ## ServiceWindowsNotificationServices
 

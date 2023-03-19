@@ -17,6 +17,17 @@ include('azure-11/Item/AppServices/ServiceCdnProfiles')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceCdnProfilesXs>`
+- `<$ServiceCdnProfilesSm>`
+- `<$ServiceCdnProfilesMd>`
+- `<$ServiceCdnProfilesLg>`
+
+
+
+
 
 ## ServiceCdnProfiles
 

@@ -17,6 +17,17 @@ include('azure-11/Item/Networking/ServiceNetworkInterfaces')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceNetworkInterfacesXs>`
+- `<$ServiceNetworkInterfacesSm>`
+- `<$ServiceNetworkInterfacesMd>`
+- `<$ServiceNetworkInterfacesLg>`
+
+
+
+
 
 ## ServiceNetworkInterfaces
 

@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceWebTest')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceWebTestXs>`
+- `<$ServiceWebTestSm>`
+- `<$ServiceWebTestMd>`
+- `<$ServiceWebTestLg>`
+
+
+
+
 
 ## ServiceWebTest
 

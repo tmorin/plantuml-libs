@@ -17,6 +17,17 @@ include('azure-11/Item/Security/ServiceAzureAdRiskySignins')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureAdRiskySigninsXs>`
+- `<$ServiceAzureAdRiskySigninsSm>`
+- `<$ServiceAzureAdRiskySigninsMd>`
+- `<$ServiceAzureAdRiskySigninsLg>`
+
+
+
+
 
 ## ServiceAzureAdRiskySignins
 

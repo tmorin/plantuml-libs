@@ -17,6 +17,17 @@ include('azure-11/Item/Databases/ServiceSsisLiftAndShiftIr')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceSsisLiftAndShiftIrXs>`
+- `<$ServiceSsisLiftAndShiftIrSm>`
+- `<$ServiceSsisLiftAndShiftIrMd>`
+- `<$ServiceSsisLiftAndShiftIrLg>`
+
+
+
+
 
 ## ServiceSsisLiftAndShiftIr
 

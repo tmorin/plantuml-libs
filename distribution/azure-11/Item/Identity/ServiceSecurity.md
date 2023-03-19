@@ -17,6 +17,17 @@ include('azure-11/Item/Identity/ServiceSecurity')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceSecurityXs>`
+- `<$ServiceSecuritySm>`
+- `<$ServiceSecurityMd>`
+- `<$ServiceSecurityLg>`
+
+
+
+
 
 ## ServiceSecurity
 

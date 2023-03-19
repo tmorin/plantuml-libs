@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceRegionManagement')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceRegionManagementXs>`
+- `<$ServiceRegionManagementSm>`
+- `<$ServiceRegionManagementMd>`
+- `<$ServiceRegionManagementLg>`
+
+
+
+
 
 ## ServiceRegionManagement
 

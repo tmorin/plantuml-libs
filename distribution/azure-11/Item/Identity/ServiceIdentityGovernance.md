@@ -17,6 +17,17 @@ include('azure-11/Item/Identity/ServiceIdentityGovernance')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceIdentityGovernanceXs>`
+- `<$ServiceIdentityGovernanceSm>`
+- `<$ServiceIdentityGovernanceMd>`
+- `<$ServiceIdentityGovernanceLg>`
+
+
+
+
 
 ## ServiceIdentityGovernance
 

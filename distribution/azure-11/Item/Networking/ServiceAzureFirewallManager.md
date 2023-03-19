@@ -17,6 +17,17 @@ include('azure-11/Item/Networking/ServiceAzureFirewallManager')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureFirewallManagerXs>`
+- `<$ServiceAzureFirewallManagerSm>`
+- `<$ServiceAzureFirewallManagerMd>`
+- `<$ServiceAzureFirewallManagerLg>`
+
+
+
+
 
 ## ServiceAzureFirewallManager
 

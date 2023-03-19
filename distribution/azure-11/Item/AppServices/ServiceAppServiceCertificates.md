@@ -17,6 +17,17 @@ include('azure-11/Item/AppServices/ServiceAppServiceCertificates')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAppServiceCertificatesXs>`
+- `<$ServiceAppServiceCertificatesSm>`
+- `<$ServiceAppServiceCertificatesMd>`
+- `<$ServiceAppServiceCertificatesLg>`
+
+
+
+
 
 ## ServiceAppServiceCertificates
 

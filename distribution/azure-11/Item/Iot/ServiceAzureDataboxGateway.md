@@ -17,6 +17,17 @@ include('azure-11/Item/Iot/ServiceAzureDataboxGateway')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureDataboxGatewayXs>`
+- `<$ServiceAzureDataboxGatewaySm>`
+- `<$ServiceAzureDataboxGatewayMd>`
+- `<$ServiceAzureDataboxGatewayLg>`
+
+
+
+
 
 ## ServiceAzureDataboxGateway
 

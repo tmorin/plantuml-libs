@@ -17,6 +17,17 @@ include('azure-11/Item/ManagementGovernance/ServiceMyCustomers')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceMyCustomersXs>`
+- `<$ServiceMyCustomersSm>`
+- `<$ServiceMyCustomersMd>`
+- `<$ServiceMyCustomersLg>`
+
+
+
+
 
 ## ServiceMyCustomers
 

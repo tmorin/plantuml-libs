@@ -17,6 +17,17 @@ include('azure-11/Item/Iot/ServiceIoTEdge')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceIoTEdgeXs>`
+- `<$ServiceIoTEdgeSm>`
+- `<$ServiceIoTEdgeMd>`
+- `<$ServiceIoTEdgeLg>`
+
+
+
+
 
 ## ServiceIoTEdge
 

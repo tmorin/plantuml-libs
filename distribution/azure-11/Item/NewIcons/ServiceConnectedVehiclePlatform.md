@@ -17,6 +17,17 @@ include('azure-11/Item/NewIcons/ServiceConnectedVehiclePlatform')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceConnectedVehiclePlatformXs>`
+- `<$ServiceConnectedVehiclePlatformSm>`
+- `<$ServiceConnectedVehiclePlatformMd>`
+- `<$ServiceConnectedVehiclePlatformLg>`
+
+
+
+
 
 ## ServiceConnectedVehiclePlatform
 

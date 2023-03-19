@@ -17,6 +17,17 @@ include('azure-11/Item/Integration/ServiceLogicAppsCustomConnector')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceLogicAppsCustomConnectorXs>`
+- `<$ServiceLogicAppsCustomConnectorSm>`
+- `<$ServiceLogicAppsCustomConnectorMd>`
+- `<$ServiceLogicAppsCustomConnectorLg>`
+
+
+
+
 
 ## ServiceLogicAppsCustomConnector
 

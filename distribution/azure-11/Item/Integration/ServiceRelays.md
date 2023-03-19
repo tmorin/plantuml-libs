@@ -17,6 +17,17 @@ include('azure-11/Item/Integration/ServiceRelays')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceRelaysXs>`
+- `<$ServiceRelaysSm>`
+- `<$ServiceRelaysMd>`
+- `<$ServiceRelaysLg>`
+
+
+
+
 
 ## ServiceRelays
 

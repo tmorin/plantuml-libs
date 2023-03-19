@@ -17,6 +17,17 @@ include('azure-11/Item/Identity/ServiceCustomAzureAdRoles')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceCustomAzureAdRolesXs>`
+- `<$ServiceCustomAzureAdRolesSm>`
+- `<$ServiceCustomAzureAdRolesMd>`
+- `<$ServiceCustomAzureAdRolesLg>`
+
+
+
+
 
 ## ServiceCustomAzureAdRoles
 

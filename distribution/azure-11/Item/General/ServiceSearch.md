@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceSearch')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceSearchXs>`
+- `<$ServiceSearchSm>`
+- `<$ServiceSearchMd>`
+- `<$ServiceSearchLg>`
+
+
+
+
 
 ## ServiceSearch
 

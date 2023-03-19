@@ -17,6 +17,17 @@ include('azure-11/Item/Networking/ServiceConnections')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceConnectionsXs>`
+- `<$ServiceConnectionsSm>`
+- `<$ServiceConnectionsMd>`
+- `<$ServiceConnectionsLg>`
+
+
+
+
 
 ## ServiceConnections
 

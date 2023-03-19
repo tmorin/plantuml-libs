@@ -17,6 +17,17 @@ include('azure-11/Item/NewIcons/ServiceAquila')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAquilaXs>`
+- `<$ServiceAquilaSm>`
+- `<$ServiceAquilaMd>`
+- `<$ServiceAquilaLg>`
+
+
+
+
 
 ## ServiceAquila
 

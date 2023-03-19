@@ -17,6 +17,17 @@ include('azure-11/Item/Identity/ServiceUsers')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceUsersXs>`
+- `<$ServiceUsersSm>`
+- `<$ServiceUsersMd>`
+- `<$ServiceUsersLg>`
+
+
+
+
 
 ## ServiceUsers
 

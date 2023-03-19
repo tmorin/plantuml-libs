@@ -17,6 +17,17 @@ include('azure-11/Item/Identity/ServiceManagedIdentities')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceManagedIdentitiesXs>`
+- `<$ServiceManagedIdentitiesSm>`
+- `<$ServiceManagedIdentitiesMd>`
+- `<$ServiceManagedIdentitiesLg>`
+
+
+
+
 
 ## ServiceManagedIdentities
 

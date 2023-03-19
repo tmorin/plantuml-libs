@@ -17,6 +17,17 @@ include('azure-11/Item/NewIcons/ServiceExchangeOnPremisesAccess')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceExchangeOnPremisesAccessXs>`
+- `<$ServiceExchangeOnPremisesAccessSm>`
+- `<$ServiceExchangeOnPremisesAccessMd>`
+- `<$ServiceExchangeOnPremisesAccessLg>`
+
+
+
+
 
 ## ServiceExchangeOnPremisesAccess
 

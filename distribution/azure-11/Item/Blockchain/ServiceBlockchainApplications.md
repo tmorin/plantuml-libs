@@ -17,6 +17,17 @@ include('azure-11/Item/Blockchain/ServiceBlockchainApplications')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceBlockchainApplicationsXs>`
+- `<$ServiceBlockchainApplicationsSm>`
+- `<$ServiceBlockchainApplicationsMd>`
+- `<$ServiceBlockchainApplicationsLg>`
+
+
+
+
 
 ## ServiceBlockchainApplications
 

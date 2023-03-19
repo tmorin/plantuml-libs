@@ -17,6 +17,17 @@ include('azure-11/Item/Menu/ServiceKeys')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceKeysXs>`
+- `<$ServiceKeysSm>`
+- `<$ServiceKeysMd>`
+- `<$ServiceKeysLg>`
+
+
+
+
 
 ## ServiceKeys
 

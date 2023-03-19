@@ -17,6 +17,17 @@ include('azure-11/Item/Networking/ServiceFrontDoorAndCdnProfiles')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceFrontDoorAndCdnProfilesXs>`
+- `<$ServiceFrontDoorAndCdnProfilesSm>`
+- `<$ServiceFrontDoorAndCdnProfilesMd>`
+- `<$ServiceFrontDoorAndCdnProfilesLg>`
+
+
+
+
 
 ## ServiceFrontDoorAndCdnProfiles
 

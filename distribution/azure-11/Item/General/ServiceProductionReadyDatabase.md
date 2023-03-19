@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceProductionReadyDatabase')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceProductionReadyDatabaseXs>`
+- `<$ServiceProductionReadyDatabaseSm>`
+- `<$ServiceProductionReadyDatabaseMd>`
+- `<$ServiceProductionReadyDatabaseLg>`
+
+
+
+
 
 ## ServiceProductionReadyDatabase
 

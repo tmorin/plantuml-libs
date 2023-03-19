@@ -17,6 +17,17 @@ include('azure-11/Item/Networking/ServiceApplicationGateways')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceApplicationGatewaysXs>`
+- `<$ServiceApplicationGatewaysSm>`
+- `<$ServiceApplicationGatewaysMd>`
+- `<$ServiceApplicationGatewaysLg>`
+
+
+
+
 
 ## ServiceApplicationGateways
 

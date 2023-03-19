@@ -17,6 +17,17 @@ include('azure-11/Item/AiMachineLearning/ServiceGenomicsAccounts')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceGenomicsAccountsXs>`
+- `<$ServiceGenomicsAccountsSm>`
+- `<$ServiceGenomicsAccountsMd>`
+- `<$ServiceGenomicsAccountsLg>`
+
+
+
+
 
 ## ServiceGenomicsAccounts
 

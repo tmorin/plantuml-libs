@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServicePowershell')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServicePowershellXs>`
+- `<$ServicePowershellSm>`
+- `<$ServicePowershellMd>`
+- `<$ServicePowershellLg>`
+
+
+
+
 
 ## ServicePowershell
 

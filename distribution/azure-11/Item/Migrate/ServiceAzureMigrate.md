@@ -17,6 +17,17 @@ include('azure-11/Item/Migrate/ServiceAzureMigrate')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureMigrateXs>`
+- `<$ServiceAzureMigrateSm>`
+- `<$ServiceAzureMigrateMd>`
+- `<$ServiceAzureMigrateLg>`
+
+
+
+
 
 ## ServiceAzureMigrate
 

@@ -17,6 +17,17 @@ include('azure-11/Item/AppServices/ServiceAppServiceEnvironments')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAppServiceEnvironmentsXs>`
+- `<$ServiceAppServiceEnvironmentsSm>`
+- `<$ServiceAppServiceEnvironmentsMd>`
+- `<$ServiceAppServiceEnvironmentsLg>`
+
+
+
+
 
 ## ServiceAppServiceEnvironments
 

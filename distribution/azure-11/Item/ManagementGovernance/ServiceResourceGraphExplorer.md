@@ -17,6 +17,17 @@ include('azure-11/Item/ManagementGovernance/ServiceResourceGraphExplorer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceResourceGraphExplorerXs>`
+- `<$ServiceResourceGraphExplorerSm>`
+- `<$ServiceResourceGraphExplorerMd>`
+- `<$ServiceResourceGraphExplorerLg>`
+
+
+
+
 
 ## ServiceResourceGraphExplorer
 

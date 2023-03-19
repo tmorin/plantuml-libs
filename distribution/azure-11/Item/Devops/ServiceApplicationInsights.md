@@ -17,6 +17,17 @@ include('azure-11/Item/Devops/ServiceApplicationInsights')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceApplicationInsightsXs>`
+- `<$ServiceApplicationInsightsSm>`
+- `<$ServiceApplicationInsightsMd>`
+- `<$ServiceApplicationInsightsLg>`
+
+
+
+
 
 ## ServiceApplicationInsights
 

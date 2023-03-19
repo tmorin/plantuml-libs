@@ -17,6 +17,17 @@ include('azure-11/Item/AzureStack/ServiceCapacity')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceCapacityXs>`
+- `<$ServiceCapacitySm>`
+- `<$ServiceCapacityMd>`
+- `<$ServiceCapacityLg>`
+
+
+
+
 
 ## ServiceCapacity
 

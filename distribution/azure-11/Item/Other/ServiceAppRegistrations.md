@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceAppRegistrations')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAppRegistrationsXs>`
+- `<$ServiceAppRegistrationsSm>`
+- `<$ServiceAppRegistrationsMd>`
+- `<$ServiceAppRegistrationsLg>`
+
+
+
+
 
 ## ServiceAppRegistrations
 

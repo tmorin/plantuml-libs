@@ -17,6 +17,17 @@ include('azure-11/Item/NewIcons/ServiceSonicDash')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceSonicDashXs>`
+- `<$ServiceSonicDashSm>`
+- `<$ServiceSonicDashMd>`
+- `<$ServiceSonicDashLg>`
+
+
+
+
 
 ## ServiceSonicDash
 

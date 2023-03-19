@@ -17,6 +17,17 @@ include('azure-11/Item/Devops/ServiceLabAccounts')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceLabAccountsXs>`
+- `<$ServiceLabAccountsSm>`
+- `<$ServiceLabAccountsMd>`
+- `<$ServiceLabAccountsLg>`
+
+
+
+
 
 ## ServiceLabAccounts
 

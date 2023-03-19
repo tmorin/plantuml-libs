@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceResourceGroups')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceResourceGroupsXs>`
+- `<$ServiceResourceGroupsSm>`
+- `<$ServiceResourceGroupsMd>`
+- `<$ServiceResourceGroupsLg>`
+
+
+
+
 
 ## ServiceResourceGroups
 

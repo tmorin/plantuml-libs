@@ -17,6 +17,17 @@ include('azure-11/Item/Security/ServiceMultifactorAuthentication')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceMultifactorAuthenticationXs>`
+- `<$ServiceMultifactorAuthenticationSm>`
+- `<$ServiceMultifactorAuthenticationMd>`
+- `<$ServiceMultifactorAuthenticationLg>`
+
+
+
+
 
 ## ServiceMultifactorAuthentication
 

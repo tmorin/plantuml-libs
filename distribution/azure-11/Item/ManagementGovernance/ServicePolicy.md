@@ -17,6 +17,17 @@ include('azure-11/Item/ManagementGovernance/ServicePolicy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServicePolicyXs>`
+- `<$ServicePolicySm>`
+- `<$ServicePolicyMd>`
+- `<$ServicePolicyLg>`
+
+
+
+
 
 ## ServicePolicy
 

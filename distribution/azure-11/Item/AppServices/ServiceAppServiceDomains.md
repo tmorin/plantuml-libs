@@ -17,6 +17,17 @@ include('azure-11/Item/AppServices/ServiceAppServiceDomains')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAppServiceDomainsXs>`
+- `<$ServiceAppServiceDomainsSm>`
+- `<$ServiceAppServiceDomainsMd>`
+- `<$ServiceAppServiceDomainsLg>`
+
+
+
+
 
 ## ServiceAppServiceDomains
 

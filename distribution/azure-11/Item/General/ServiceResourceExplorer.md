@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceResourceExplorer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceResourceExplorerXs>`
+- `<$ServiceResourceExplorerSm>`
+- `<$ServiceResourceExplorerMd>`
+- `<$ServiceResourceExplorerLg>`
+
+
+
+
 
 ## ServiceResourceExplorer
 

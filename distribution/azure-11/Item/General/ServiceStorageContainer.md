@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceStorageContainer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceStorageContainerXs>`
+- `<$ServiceStorageContainerSm>`
+- `<$ServiceStorageContainerMd>`
+- `<$ServiceStorageContainerLg>`
+
+
+
+
 
 ## ServiceStorageContainer
 

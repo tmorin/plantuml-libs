@@ -17,6 +17,17 @@ include('azure-11/Item/ManagementGovernance/ServiceAzureArc')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureArcXs>`
+- `<$ServiceAzureArcSm>`
+- `<$ServiceAzureArcMd>`
+- `<$ServiceAzureArcLg>`
+
+
+
+
 
 ## ServiceAzureArc
 

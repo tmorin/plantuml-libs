@@ -17,6 +17,17 @@ include('azure-11/Item/ManagementGovernance/ServiceUserPrivacy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceUserPrivacyXs>`
+- `<$ServiceUserPrivacySm>`
+- `<$ServiceUserPrivacyMd>`
+- `<$ServiceUserPrivacyLg>`
+
+
+
+
 
 ## ServiceUserPrivacy
 

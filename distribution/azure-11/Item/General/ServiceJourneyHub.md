@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceJourneyHub')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceJourneyHubXs>`
+- `<$ServiceJourneyHubSm>`
+- `<$ServiceJourneyHubMd>`
+- `<$ServiceJourneyHubLg>`
+
+
+
+
 
 ## ServiceJourneyHub
 

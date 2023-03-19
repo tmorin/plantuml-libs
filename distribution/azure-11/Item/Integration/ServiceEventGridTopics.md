@@ -17,6 +17,17 @@ include('azure-11/Item/Integration/ServiceEventGridTopics')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceEventGridTopicsXs>`
+- `<$ServiceEventGridTopicsSm>`
+- `<$ServiceEventGridTopicsMd>`
+- `<$ServiceEventGridTopicsLg>`
+
+
+
+
 
 ## ServiceEventGridTopics
 

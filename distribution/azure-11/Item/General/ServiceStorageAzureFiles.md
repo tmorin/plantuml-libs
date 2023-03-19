@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceStorageAzureFiles')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceStorageAzureFilesXs>`
+- `<$ServiceStorageAzureFilesSm>`
+- `<$ServiceStorageAzureFilesMd>`
+- `<$ServiceStorageAzureFilesLg>`
+
+
+
+
 
 ## ServiceStorageAzureFiles
 

@@ -17,6 +17,17 @@ include('azure-11/Item/ManagementGovernance/ServiceSolutions')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceSolutionsXs>`
+- `<$ServiceSolutionsSm>`
+- `<$ServiceSolutionsMd>`
+- `<$ServiceSolutionsLg>`
+
+
+
+
 
 ## ServiceSolutions
 

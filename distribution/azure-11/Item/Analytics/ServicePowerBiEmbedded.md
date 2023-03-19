@@ -17,6 +17,17 @@ include('azure-11/Item/Analytics/ServicePowerBiEmbedded')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServicePowerBiEmbeddedXs>`
+- `<$ServicePowerBiEmbeddedSm>`
+- `<$ServicePowerBiEmbeddedMd>`
+- `<$ServicePowerBiEmbeddedLg>`
+
+
+
+
 
 ## ServicePowerBiEmbedded
 

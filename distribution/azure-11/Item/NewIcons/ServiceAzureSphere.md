@@ -17,6 +17,17 @@ include('azure-11/Item/NewIcons/ServiceAzureSphere')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureSphereXs>`
+- `<$ServiceAzureSphereSm>`
+- `<$ServiceAzureSphereMd>`
+- `<$ServiceAzureSphereLg>`
+
+
+
+
 
 ## ServiceAzureSphere
 

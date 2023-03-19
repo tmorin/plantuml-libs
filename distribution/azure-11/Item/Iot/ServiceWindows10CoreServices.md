@@ -17,6 +17,17 @@ include('azure-11/Item/Iot/ServiceWindows10CoreServices')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceWindows10CoreServicesXs>`
+- `<$ServiceWindows10CoreServicesSm>`
+- `<$ServiceWindows10CoreServicesMd>`
+- `<$ServiceWindows10CoreServicesLg>`
+
+
+
+
 
 ## ServiceWindows10CoreServices
 

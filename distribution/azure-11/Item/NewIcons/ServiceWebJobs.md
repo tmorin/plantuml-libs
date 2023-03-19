@@ -17,6 +17,17 @@ include('azure-11/Item/NewIcons/ServiceWebJobs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceWebJobsXs>`
+- `<$ServiceWebJobsSm>`
+- `<$ServiceWebJobsMd>`
+- `<$ServiceWebJobsLg>`
+
+
+
+
 
 ## ServiceWebJobs
 

@@ -17,6 +17,17 @@ include('azure-11/Group/GroupNetwork')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$GroupNetworkXs>`
+- `<$GroupNetworkSm>`
+- `<$GroupNetworkMd>`
+- `<$GroupNetworkLg>`
+
+
+
+
 
 ## GroupNetwork
 

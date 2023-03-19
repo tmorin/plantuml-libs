@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceInputOutput')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceInputOutputXs>`
+- `<$ServiceInputOutputSm>`
+- `<$ServiceInputOutputMd>`
+- `<$ServiceInputOutputLg>`
+
+
+
+
 
 ## ServiceInputOutput
 

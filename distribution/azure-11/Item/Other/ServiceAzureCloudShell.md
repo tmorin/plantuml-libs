@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceAzureCloudShell')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureCloudShellXs>`
+- `<$ServiceAzureCloudShellSm>`
+- `<$ServiceAzureCloudShellMd>`
+- `<$ServiceAzureCloudShellLg>`
+
+
+
+
 
 ## ServiceAzureCloudShell
 

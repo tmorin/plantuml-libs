@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServicePeerings')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServicePeeringsXs>`
+- `<$ServicePeeringsSm>`
+- `<$ServicePeeringsMd>`
+- `<$ServicePeeringsLg>`
+
+
+
+
 
 ## ServicePeerings
 

@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceBranch')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceBranchXs>`
+- `<$ServiceBranchSm>`
+- `<$ServiceBranchMd>`
+- `<$ServiceBranchLg>`
+
+
+
+
 
 ## ServiceBranch
 

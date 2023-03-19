@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceVmImageVersion')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceVmImageVersionXs>`
+- `<$ServiceVmImageVersionSm>`
+- `<$ServiceVmImageVersionMd>`
+- `<$ServiceVmImageVersionLg>`
+
+
+
+
 
 ## ServiceVmImageVersion
 

@@ -17,6 +17,17 @@ include('azure-11/Item/NewIcons/ServiceIntuneTrends')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceIntuneTrendsXs>`
+- `<$ServiceIntuneTrendsSm>`
+- `<$ServiceIntuneTrendsMd>`
+- `<$ServiceIntuneTrendsLg>`
+
+
+
+
 
 ## ServiceIntuneTrends
 

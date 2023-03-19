@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceWac')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceWacXs>`
+- `<$ServiceWacSm>`
+- `<$ServiceWacMd>`
+- `<$ServiceWacLg>`
+
+
+
+
 
 ## ServiceWac
 

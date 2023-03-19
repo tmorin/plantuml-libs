@@ -17,6 +17,17 @@ include('azure-11/Item/Networking/ServicePublicIpAddresses')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServicePublicIpAddressesXs>`
+- `<$ServicePublicIpAddressesSm>`
+- `<$ServicePublicIpAddressesMd>`
+- `<$ServicePublicIpAddressesLg>`
+
+
+
+
 
 ## ServicePublicIpAddresses
 

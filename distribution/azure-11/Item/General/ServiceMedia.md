@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceMedia')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceMediaXs>`
+- `<$ServiceMediaSm>`
+- `<$ServiceMediaMd>`
+- `<$ServiceMediaLg>`
+
+
+
+
 
 ## ServiceMedia
 

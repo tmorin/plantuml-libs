@@ -17,6 +17,17 @@ include('azure-11/Item/Storage/ServiceAzureHcpCache')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureHcpCacheXs>`
+- `<$ServiceAzureHcpCacheSm>`
+- `<$ServiceAzureHcpCacheMd>`
+- `<$ServiceAzureHcpCacheLg>`
+
+
+
+
 
 ## ServiceAzureHcpCache
 

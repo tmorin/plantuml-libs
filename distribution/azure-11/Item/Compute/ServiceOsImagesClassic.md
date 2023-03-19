@@ -17,6 +17,17 @@ include('azure-11/Item/Compute/ServiceOsImagesClassic')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceOsImagesClassicXs>`
+- `<$ServiceOsImagesClassicSm>`
+- `<$ServiceOsImagesClassicMd>`
+- `<$ServiceOsImagesClassicLg>`
+
+
+
+
 
 ## ServiceOsImagesClassic
 

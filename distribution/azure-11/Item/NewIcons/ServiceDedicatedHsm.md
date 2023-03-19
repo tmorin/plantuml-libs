@@ -17,6 +17,17 @@ include('azure-11/Item/NewIcons/ServiceDedicatedHsm')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceDedicatedHsmXs>`
+- `<$ServiceDedicatedHsmSm>`
+- `<$ServiceDedicatedHsmMd>`
+- `<$ServiceDedicatedHsmLg>`
+
+
+
+
 
 ## ServiceDedicatedHsm
 

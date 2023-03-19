@@ -17,6 +17,17 @@ include('azure-11/Item/Storage/ServiceDataShares')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceDataSharesXs>`
+- `<$ServiceDataSharesSm>`
+- `<$ServiceDataSharesMd>`
+- `<$ServiceDataSharesLg>`
+
+
+
+
 
 ## ServiceDataShares
 

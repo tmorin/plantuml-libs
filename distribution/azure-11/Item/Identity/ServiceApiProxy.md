@@ -17,6 +17,17 @@ include('azure-11/Item/Identity/ServiceApiProxy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceApiProxyXs>`
+- `<$ServiceApiProxySm>`
+- `<$ServiceApiProxyMd>`
+- `<$ServiceApiProxyLg>`
+
+
+
+
 
 ## ServiceApiProxy
 

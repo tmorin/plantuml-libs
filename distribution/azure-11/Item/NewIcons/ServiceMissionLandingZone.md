@@ -17,6 +17,17 @@ include('azure-11/Item/NewIcons/ServiceMissionLandingZone')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceMissionLandingZoneXs>`
+- `<$ServiceMissionLandingZoneSm>`
+- `<$ServiceMissionLandingZoneMd>`
+- `<$ServiceMissionLandingZoneLg>`
+
+
+
+
 
 ## ServiceMissionLandingZone
 

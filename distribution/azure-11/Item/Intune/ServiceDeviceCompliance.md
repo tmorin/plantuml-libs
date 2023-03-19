@@ -17,6 +17,17 @@ include('azure-11/Item/Intune/ServiceDeviceCompliance')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceDeviceComplianceXs>`
+- `<$ServiceDeviceComplianceSm>`
+- `<$ServiceDeviceComplianceMd>`
+- `<$ServiceDeviceComplianceLg>`
+
+
+
+
 
 ## ServiceDeviceCompliance
 

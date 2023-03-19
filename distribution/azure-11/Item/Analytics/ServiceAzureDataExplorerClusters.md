@@ -17,6 +17,17 @@ include('azure-11/Item/Analytics/ServiceAzureDataExplorerClusters')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureDataExplorerClustersXs>`
+- `<$ServiceAzureDataExplorerClustersSm>`
+- `<$ServiceAzureDataExplorerClustersMd>`
+- `<$ServiceAzureDataExplorerClustersLg>`
+
+
+
+
 
 ## ServiceAzureDataExplorerClusters
 

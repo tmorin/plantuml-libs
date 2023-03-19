@@ -17,6 +17,17 @@ include('azure-11/Item/Intune/ServiceIntuneForEducation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceIntuneForEducationXs>`
+- `<$ServiceIntuneForEducationSm>`
+- `<$ServiceIntuneForEducationMd>`
+- `<$ServiceIntuneForEducationLg>`
+
+
+
+
 
 ## ServiceIntuneForEducation
 

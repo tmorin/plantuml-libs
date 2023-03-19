@@ -17,6 +17,17 @@ include('azure-11/Item/Identity/ServiceGroups')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceGroupsXs>`
+- `<$ServiceGroupsSm>`
+- `<$ServiceGroupsMd>`
+- `<$ServiceGroupsLg>`
+
+
+
+
 
 ## ServiceGroups
 

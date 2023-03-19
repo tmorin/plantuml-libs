@@ -17,6 +17,17 @@ include('azure-11/Item/Databases/ServiceAzureDatabasePostgreSqlServer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureDatabasePostgreSqlServerXs>`
+- `<$ServiceAzureDatabasePostgreSqlServerSm>`
+- `<$ServiceAzureDatabasePostgreSqlServerMd>`
+- `<$ServiceAzureDatabasePostgreSqlServerLg>`
+
+
+
+
 
 ## ServiceAzureDatabasePostgreSqlServer
 

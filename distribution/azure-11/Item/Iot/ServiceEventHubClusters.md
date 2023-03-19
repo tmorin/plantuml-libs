@@ -17,6 +17,17 @@ include('azure-11/Item/Iot/ServiceEventHubClusters')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceEventHubClustersXs>`
+- `<$ServiceEventHubClustersSm>`
+- `<$ServiceEventHubClustersMd>`
+- `<$ServiceEventHubClustersLg>`
+
+
+
+
 
 ## ServiceEventHubClusters
 

@@ -17,6 +17,17 @@ include('azure-11/Item/NewIcons/ServiceFiji')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceFijiXs>`
+- `<$ServiceFijiSm>`
+- `<$ServiceFijiMd>`
+- `<$ServiceFijiLg>`
+
+
+
+
 
 ## ServiceFiji
 

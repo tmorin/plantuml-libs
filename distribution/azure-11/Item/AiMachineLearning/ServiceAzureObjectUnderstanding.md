@@ -17,6 +17,17 @@ include('azure-11/Item/AiMachineLearning/ServiceAzureObjectUnderstanding')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureObjectUnderstandingXs>`
+- `<$ServiceAzureObjectUnderstandingSm>`
+- `<$ServiceAzureObjectUnderstandingMd>`
+- `<$ServiceAzureObjectUnderstandingLg>`
+
+
+
+
 
 ## ServiceAzureObjectUnderstanding
 

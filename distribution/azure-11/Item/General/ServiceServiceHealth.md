@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceServiceHealth')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceServiceHealthXs>`
+- `<$ServiceServiceHealthSm>`
+- `<$ServiceServiceHealthMd>`
+- `<$ServiceServiceHealthLg>`
+
+
+
+
 
 ## ServiceServiceHealth
 

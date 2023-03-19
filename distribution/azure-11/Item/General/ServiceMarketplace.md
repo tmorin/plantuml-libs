@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceMarketplace')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceMarketplaceXs>`
+- `<$ServiceMarketplaceSm>`
+- `<$ServiceMarketplaceMd>`
+- `<$ServiceMarketplaceLg>`
+
+
+
+
 
 ## ServiceMarketplace
 

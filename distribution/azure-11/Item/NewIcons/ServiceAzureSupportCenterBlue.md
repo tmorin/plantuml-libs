@@ -17,6 +17,17 @@ include('azure-11/Item/NewIcons/ServiceAzureSupportCenterBlue')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureSupportCenterBlueXs>`
+- `<$ServiceAzureSupportCenterBlueSm>`
+- `<$ServiceAzureSupportCenterBlueMd>`
+- `<$ServiceAzureSupportCenterBlueLg>`
+
+
+
+
 
 ## ServiceAzureSupportCenterBlue
 

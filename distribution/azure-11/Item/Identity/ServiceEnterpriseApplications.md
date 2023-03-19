@@ -17,6 +17,17 @@ include('azure-11/Item/Identity/ServiceEnterpriseApplications')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceEnterpriseApplicationsXs>`
+- `<$ServiceEnterpriseApplicationsSm>`
+- `<$ServiceEnterpriseApplicationsMd>`
+- `<$ServiceEnterpriseApplicationsLg>`
+
+
+
+
 
 ## ServiceEnterpriseApplications
 

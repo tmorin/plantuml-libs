@@ -17,6 +17,17 @@ include('azure-11/Item/Integration/ServiceSendGridAccounts')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceSendGridAccountsXs>`
+- `<$ServiceSendGridAccountsSm>`
+- `<$ServiceSendGridAccountsMd>`
+- `<$ServiceSendGridAccountsLg>`
+
+
+
+
 
 ## ServiceSendGridAccounts
 

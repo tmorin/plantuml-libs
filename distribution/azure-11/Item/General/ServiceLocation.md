@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceLocation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceLocationXs>`
+- `<$ServiceLocationSm>`
+- `<$ServiceLocationMd>`
+- `<$ServiceLocationLg>`
+
+
+
+
 
 ## ServiceLocation
 

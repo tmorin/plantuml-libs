@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceBlobBlock')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceBlobBlockXs>`
+- `<$ServiceBlobBlockSm>`
+- `<$ServiceBlobBlockMd>`
+- `<$ServiceBlobBlockLg>`
+
+
+
+
 
 ## ServiceBlobBlock
 

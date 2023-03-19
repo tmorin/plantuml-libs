@@ -17,6 +17,17 @@ include('azure-11/Item/Networking/ServiceOnPremisesDataGateways')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceOnPremisesDataGatewaysXs>`
+- `<$ServiceOnPremisesDataGatewaysSm>`
+- `<$ServiceOnPremisesDataGatewaysMd>`
+- `<$ServiceOnPremisesDataGatewaysLg>`
+
+
+
+
 
 ## ServiceOnPremisesDataGateways
 

@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceAzureDeploymentEnvironments')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureDeploymentEnvironmentsXs>`
+- `<$ServiceAzureDeploymentEnvironmentsSm>`
+- `<$ServiceAzureDeploymentEnvironmentsMd>`
+- `<$ServiceAzureDeploymentEnvironmentsLg>`
+
+
+
+
 
 ## ServiceAzureDeploymentEnvironments
 

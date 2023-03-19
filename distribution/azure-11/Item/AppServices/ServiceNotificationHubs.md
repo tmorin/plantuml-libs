@@ -17,6 +17,17 @@ include('azure-11/Item/AppServices/ServiceNotificationHubs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceNotificationHubsXs>`
+- `<$ServiceNotificationHubsSm>`
+- `<$ServiceNotificationHubsMd>`
+- `<$ServiceNotificationHubsLg>`
+
+
+
+
 
 ## ServiceNotificationHubs
 

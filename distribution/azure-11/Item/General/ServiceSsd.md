@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceSsd')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceSsdXs>`
+- `<$ServiceSsdSm>`
+- `<$ServiceSsdMd>`
+- `<$ServiceSsdLg>`
+
+
+
+
 
 ## ServiceSsd
 

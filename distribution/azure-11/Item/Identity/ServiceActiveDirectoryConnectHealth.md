@@ -17,6 +17,17 @@ include('azure-11/Item/Identity/ServiceActiveDirectoryConnectHealth')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceActiveDirectoryConnectHealthXs>`
+- `<$ServiceActiveDirectoryConnectHealthSm>`
+- `<$ServiceActiveDirectoryConnectHealthMd>`
+- `<$ServiceActiveDirectoryConnectHealthLg>`
+
+
+
+
 
 ## ServiceActiveDirectoryConnectHealth
 

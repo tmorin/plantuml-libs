@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceNetworkManagers')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceNetworkManagersXs>`
+- `<$ServiceNetworkManagersSm>`
+- `<$ServiceNetworkManagersMd>`
+- `<$ServiceNetworkManagersLg>`
+
+
+
+
 
 ## ServiceNetworkManagers
 

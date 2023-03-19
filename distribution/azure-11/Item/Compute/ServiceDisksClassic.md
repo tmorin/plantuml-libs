@@ -17,6 +17,17 @@ include('azure-11/Item/Compute/ServiceDisksClassic')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceDisksClassicXs>`
+- `<$ServiceDisksClassicSm>`
+- `<$ServiceDisksClassicMd>`
+- `<$ServiceDisksClassicLg>`
+
+
+
+
 
 ## ServiceDisksClassic
 

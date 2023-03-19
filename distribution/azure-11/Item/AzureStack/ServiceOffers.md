@@ -17,6 +17,17 @@ include('azure-11/Item/AzureStack/ServiceOffers')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceOffersXs>`
+- `<$ServiceOffersSm>`
+- `<$ServiceOffersMd>`
+- `<$ServiceOffersLg>`
+
+
+
+
 
 ## ServiceOffers
 

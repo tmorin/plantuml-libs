@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceExpressRouteDirect')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceExpressRouteDirectXs>`
+- `<$ServiceExpressRouteDirectSm>`
+- `<$ServiceExpressRouteDirectMd>`
+- `<$ServiceExpressRouteDirectLg>`
+
+
+
+
 
 ## ServiceExpressRouteDirect
 

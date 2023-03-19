@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceBacklog')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceBacklogXs>`
+- `<$ServiceBacklogSm>`
+- `<$ServiceBacklogMd>`
+- `<$ServiceBacklogLg>`
+
+
+
+
 
 ## ServiceBacklog
 

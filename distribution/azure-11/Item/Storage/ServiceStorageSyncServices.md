@@ -17,6 +17,17 @@ include('azure-11/Item/Storage/ServiceStorageSyncServices')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceStorageSyncServicesXs>`
+- `<$ServiceStorageSyncServicesSm>`
+- `<$ServiceStorageSyncServicesMd>`
+- `<$ServiceStorageSyncServicesLg>`
+
+
+
+
 
 ## ServiceStorageSyncServices
 

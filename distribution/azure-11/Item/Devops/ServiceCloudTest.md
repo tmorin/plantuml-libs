@@ -17,6 +17,17 @@ include('azure-11/Item/Devops/ServiceCloudTest')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceCloudTestXs>`
+- `<$ServiceCloudTestSm>`
+- `<$ServiceCloudTestMd>`
+- `<$ServiceCloudTestLg>`
+
+
+
+
 
 ## ServiceCloudTest
 

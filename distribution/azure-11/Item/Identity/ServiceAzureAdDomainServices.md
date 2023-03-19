@@ -17,6 +17,17 @@ include('azure-11/Item/Identity/ServiceAzureAdDomainServices')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureAdDomainServicesXs>`
+- `<$ServiceAzureAdDomainServicesSm>`
+- `<$ServiceAzureAdDomainServicesMd>`
+- `<$ServiceAzureAdDomainServicesLg>`
+
+
+
+
 
 ## ServiceAzureAdDomainServices
 

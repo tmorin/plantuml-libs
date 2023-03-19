@@ -17,6 +17,17 @@ include('azure-11/Item/MixedReality/ServiceRemoteRendering')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceRemoteRenderingXs>`
+- `<$ServiceRemoteRenderingSm>`
+- `<$ServiceRemoteRenderingMd>`
+- `<$ServiceRemoteRenderingLg>`
+
+
+
+
 
 ## ServiceRemoteRendering
 

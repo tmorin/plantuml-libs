@@ -17,6 +17,17 @@ include('azure-11/Item/Compute/ServiceMeshApplications')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceMeshApplicationsXs>`
+- `<$ServiceMeshApplicationsSm>`
+- `<$ServiceMeshApplicationsMd>`
+- `<$ServiceMeshApplicationsLg>`
+
+
+
+
 
 ## ServiceMeshApplications
 

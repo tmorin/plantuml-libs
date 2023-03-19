@@ -17,6 +17,17 @@ include('azure-11/Item/Compute/ServiceVmImagesClassic')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceVmImagesClassicXs>`
+- `<$ServiceVmImagesClassicSm>`
+- `<$ServiceVmImagesClassicMd>`
+- `<$ServiceVmImagesClassicLg>`
+
+
+
+
 
 ## ServiceVmImagesClassic
 

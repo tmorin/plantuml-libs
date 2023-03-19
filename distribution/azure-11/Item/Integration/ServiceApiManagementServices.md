@@ -17,6 +17,17 @@ include('azure-11/Item/Integration/ServiceApiManagementServices')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceApiManagementServicesXs>`
+- `<$ServiceApiManagementServicesSm>`
+- `<$ServiceApiManagementServicesMd>`
+- `<$ServiceApiManagementServicesLg>`
+
+
+
+
 
 ## ServiceApiManagementServices
 

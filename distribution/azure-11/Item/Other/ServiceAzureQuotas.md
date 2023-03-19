@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceAzureQuotas')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureQuotasXs>`
+- `<$ServiceAzureQuotasSm>`
+- `<$ServiceAzureQuotasMd>`
+- `<$ServiceAzureQuotasLg>`
+
+
+
+
 
 ## ServiceAzureQuotas
 

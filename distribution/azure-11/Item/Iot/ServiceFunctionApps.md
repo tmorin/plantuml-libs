@@ -17,6 +17,17 @@ include('azure-11/Item/Iot/ServiceFunctionApps')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceFunctionAppsXs>`
+- `<$ServiceFunctionAppsSm>`
+- `<$ServiceFunctionAppsMd>`
+- `<$ServiceFunctionAppsLg>`
+
+
+
+
 
 ## ServiceFunctionApps
 

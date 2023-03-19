@@ -17,6 +17,17 @@ include('azure-11/Item/Identity/ServiceVerifiableCredentials')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceVerifiableCredentialsXs>`
+- `<$ServiceVerifiableCredentialsSm>`
+- `<$ServiceVerifiableCredentialsMd>`
+- `<$ServiceVerifiableCredentialsLg>`
+
+
+
+
 
 ## ServiceVerifiableCredentials
 

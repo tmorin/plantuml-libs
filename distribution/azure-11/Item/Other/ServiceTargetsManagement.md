@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceTargetsManagement')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceTargetsManagementXs>`
+- `<$ServiceTargetsManagementSm>`
+- `<$ServiceTargetsManagementMd>`
+- `<$ServiceTargetsManagementLg>`
+
+
+
+
 
 ## ServiceTargetsManagement
 

@@ -17,6 +17,17 @@ include('azure-11/Item/Analytics/ServiceDataLakeStoreGen1')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceDataLakeStoreGen1Xs>`
+- `<$ServiceDataLakeStoreGen1Sm>`
+- `<$ServiceDataLakeStoreGen1Md>`
+- `<$ServiceDataLakeStoreGen1Lg>`
+
+
+
+
 
 ## ServiceDataLakeStoreGen1
 

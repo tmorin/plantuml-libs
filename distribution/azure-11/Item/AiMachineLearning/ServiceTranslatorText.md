@@ -17,6 +17,17 @@ include('azure-11/Item/AiMachineLearning/ServiceTranslatorText')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceTranslatorTextXs>`
+- `<$ServiceTranslatorTextSm>`
+- `<$ServiceTranslatorTextMd>`
+- `<$ServiceTranslatorTextLg>`
+
+
+
+
 
 ## ServiceTranslatorText
 

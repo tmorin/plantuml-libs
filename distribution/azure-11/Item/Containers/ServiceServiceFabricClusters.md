@@ -17,6 +17,17 @@ include('azure-11/Item/Containers/ServiceServiceFabricClusters')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceServiceFabricClustersXs>`
+- `<$ServiceServiceFabricClustersSm>`
+- `<$ServiceServiceFabricClustersMd>`
+- `<$ServiceServiceFabricClustersLg>`
+
+
+
+
 
 ## ServiceServiceFabricClusters
 

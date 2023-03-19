@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceAppComplianceAutomation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAppComplianceAutomationXs>`
+- `<$ServiceAppComplianceAutomationSm>`
+- `<$ServiceAppComplianceAutomationMd>`
+- `<$ServiceAppComplianceAutomationLg>`
+
+
+
+
 
 ## ServiceAppComplianceAutomation
 

@@ -17,6 +17,17 @@ include('azure-11/Item/AzureStack/ServiceMultiTenancy')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceMultiTenancyXs>`
+- `<$ServiceMultiTenancySm>`
+- `<$ServiceMultiTenancyMd>`
+- `<$ServiceMultiTenancyLg>`
+
+
+
+
 
 ## ServiceMultiTenancy
 

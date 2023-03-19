@@ -17,6 +17,17 @@ include('azure-11/Item/Security/ServiceAzureInformationProtection')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureInformationProtectionXs>`
+- `<$ServiceAzureInformationProtectionSm>`
+- `<$ServiceAzureInformationProtectionMd>`
+- `<$ServiceAzureInformationProtectionLg>`
+
+
+
+
 
 ## ServiceAzureInformationProtection
 

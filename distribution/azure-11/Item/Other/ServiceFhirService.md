@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceFhirService')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceFhirServiceXs>`
+- `<$ServiceFhirServiceSm>`
+- `<$ServiceFhirServiceMd>`
+- `<$ServiceFhirServiceLg>`
+
+
+
+
 
 ## ServiceFhirService
 

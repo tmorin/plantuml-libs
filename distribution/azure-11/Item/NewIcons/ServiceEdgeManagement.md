@@ -17,6 +17,17 @@ include('azure-11/Item/NewIcons/ServiceEdgeManagement')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceEdgeManagementXs>`
+- `<$ServiceEdgeManagementSm>`
+- `<$ServiceEdgeManagementMd>`
+- `<$ServiceEdgeManagementLg>`
+
+
+
+
 
 ## ServiceEdgeManagement
 

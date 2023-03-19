@@ -17,6 +17,17 @@ include('azure-11/Item/Blockchain/ServiceConsortium')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceConsortiumXs>`
+- `<$ServiceConsortiumSm>`
+- `<$ServiceConsortiumMd>`
+- `<$ServiceConsortiumLg>`
+
+
+
+
 
 ## ServiceConsortium
 

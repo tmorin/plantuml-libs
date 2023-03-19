@@ -17,6 +17,17 @@ include('azure-11/Item/Intune/ServiceClientApps')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceClientAppsXs>`
+- `<$ServiceClientAppsSm>`
+- `<$ServiceClientAppsMd>`
+- `<$ServiceClientAppsLg>`
+
+
+
+
 
 ## ServiceClientApps
 

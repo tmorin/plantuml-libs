@@ -17,6 +17,17 @@ include('azure-11/Item/Blockchain/ServiceOutboundConnection')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceOutboundConnectionXs>`
+- `<$ServiceOutboundConnectionSm>`
+- `<$ServiceOutboundConnectionMd>`
+- `<$ServiceOutboundConnectionLg>`
+
+
+
+
 
 ## ServiceOutboundConnection
 

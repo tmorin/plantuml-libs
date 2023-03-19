@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceAzureChaosStudio')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureChaosStudioXs>`
+- `<$ServiceAzureChaosStudioSm>`
+- `<$ServiceAzureChaosStudioMd>`
+- `<$ServiceAzureChaosStudioLg>`
+
+
+
+
 
 ## ServiceAzureChaosStudio
 

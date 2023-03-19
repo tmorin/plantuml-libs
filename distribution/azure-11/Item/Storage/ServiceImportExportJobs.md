@@ -17,6 +17,17 @@ include('azure-11/Item/Storage/ServiceImportExportJobs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceImportExportJobsXs>`
+- `<$ServiceImportExportJobsSm>`
+- `<$ServiceImportExportJobsMd>`
+- `<$ServiceImportExportJobsLg>`
+
+
+
+
 
 ## ServiceImportExportJobs
 

@@ -17,6 +17,17 @@ include('azure-11/Item/Networking/ServiceWebApplicationFirewallPoliciesWaf')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceWebApplicationFirewallPoliciesWafXs>`
+- `<$ServiceWebApplicationFirewallPoliciesWafSm>`
+- `<$ServiceWebApplicationFirewallPoliciesWafMd>`
+- `<$ServiceWebApplicationFirewallPoliciesWafLg>`
+
+
+
+
 
 ## ServiceWebApplicationFirewallPoliciesWaf
 

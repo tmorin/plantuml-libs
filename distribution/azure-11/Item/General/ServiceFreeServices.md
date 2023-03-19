@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceFreeServices')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceFreeServicesXs>`
+- `<$ServiceFreeServicesSm>`
+- `<$ServiceFreeServicesMd>`
+- `<$ServiceFreeServicesLg>`
+
+
+
+
 
 ## ServiceFreeServices
 

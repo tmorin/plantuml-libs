@@ -17,6 +17,17 @@ include('azure-11/Item/ManagementGovernance/ServiceMonitor')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceMonitorXs>`
+- `<$ServiceMonitorSm>`
+- `<$ServiceMonitorMd>`
+- `<$ServiceMonitorLg>`
+
+
+
+
 
 ## ServiceMonitor
 

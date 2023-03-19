@@ -17,6 +17,17 @@ include('azure-11/Item/Intune/ServiceDeviceConfiguration')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceDeviceConfigurationXs>`
+- `<$ServiceDeviceConfigurationSm>`
+- `<$ServiceDeviceConfigurationMd>`
+- `<$ServiceDeviceConfigurationLg>`
+
+
+
+
 
 ## ServiceDeviceConfiguration
 

@@ -17,6 +17,17 @@ include('azure-11/Item/Identity/ServiceAzureAdPrivilegeIdentityManagement')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureAdPrivilegeIdentityManagementXs>`
+- `<$ServiceAzureAdPrivilegeIdentityManagementSm>`
+- `<$ServiceAzureAdPrivilegeIdentityManagementMd>`
+- `<$ServiceAzureAdPrivilegeIdentityManagementLg>`
+
+
+
+
 
 ## ServiceAzureAdPrivilegeIdentityManagement
 

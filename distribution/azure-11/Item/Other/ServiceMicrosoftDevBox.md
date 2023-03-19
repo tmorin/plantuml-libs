@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceMicrosoftDevBox')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceMicrosoftDevBoxXs>`
+- `<$ServiceMicrosoftDevBoxSm>`
+- `<$ServiceMicrosoftDevBoxMd>`
+- `<$ServiceMicrosoftDevBoxLg>`
+
+
+
+
 
 ## ServiceMicrosoftDevBox
 

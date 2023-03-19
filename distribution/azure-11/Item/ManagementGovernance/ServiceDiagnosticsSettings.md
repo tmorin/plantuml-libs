@@ -17,6 +17,17 @@ include('azure-11/Item/ManagementGovernance/ServiceDiagnosticsSettings')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceDiagnosticsSettingsXs>`
+- `<$ServiceDiagnosticsSettingsSm>`
+- `<$ServiceDiagnosticsSettingsMd>`
+- `<$ServiceDiagnosticsSettingsLg>`
+
+
+
+
 
 ## ServiceDiagnosticsSettings
 

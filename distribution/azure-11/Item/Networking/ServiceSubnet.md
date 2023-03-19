@@ -17,6 +17,17 @@ include('azure-11/Item/Networking/ServiceSubnet')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceSubnetXs>`
+- `<$ServiceSubnetSm>`
+- `<$ServiceSubnetMd>`
+- `<$ServiceSubnetLg>`
+
+
+
+
 
 ## ServiceSubnet
 

@@ -17,6 +17,17 @@ include('azure-11/Item/AiMachineLearning/ServiceCognitiveServices')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceCognitiveServicesXs>`
+- `<$ServiceCognitiveServicesSm>`
+- `<$ServiceCognitiveServicesMd>`
+- `<$ServiceCognitiveServicesLg>`
+
+
+
+
 
 ## ServiceCognitiveServices
 

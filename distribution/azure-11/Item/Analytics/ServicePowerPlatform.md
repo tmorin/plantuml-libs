@@ -17,6 +17,17 @@ include('azure-11/Item/Analytics/ServicePowerPlatform')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServicePowerPlatformXs>`
+- `<$ServicePowerPlatformSm>`
+- `<$ServicePowerPlatformMd>`
+- `<$ServicePowerPlatformLg>`
+
+
+
+
 
 ## ServicePowerPlatform
 

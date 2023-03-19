@@ -17,6 +17,17 @@ include('azure-11/Item/AiMachineLearning/ServiceFormRecognizers')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceFormRecognizersXs>`
+- `<$ServiceFormRecognizersSm>`
+- `<$ServiceFormRecognizersMd>`
+- `<$ServiceFormRecognizersLg>`
+
+
+
+
 
 ## ServiceFormRecognizers
 

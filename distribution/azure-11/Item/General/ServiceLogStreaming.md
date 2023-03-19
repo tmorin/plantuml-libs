@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceLogStreaming')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceLogStreamingXs>`
+- `<$ServiceLogStreamingSm>`
+- `<$ServiceLogStreamingMd>`
+- `<$ServiceLogStreamingLg>`
+
+
+
+
 
 ## ServiceLogStreaming
 

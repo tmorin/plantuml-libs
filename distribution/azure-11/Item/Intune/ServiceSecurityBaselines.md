@@ -17,6 +17,17 @@ include('azure-11/Item/Intune/ServiceSecurityBaselines')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceSecurityBaselinesXs>`
+- `<$ServiceSecurityBaselinesSm>`
+- `<$ServiceSecurityBaselinesMd>`
+- `<$ServiceSecurityBaselinesLg>`
+
+
+
+
 
 ## ServiceSecurityBaselines
 

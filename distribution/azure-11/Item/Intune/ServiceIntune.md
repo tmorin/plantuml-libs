@@ -17,6 +17,17 @@ include('azure-11/Item/Intune/ServiceIntune')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceIntuneXs>`
+- `<$ServiceIntuneSm>`
+- `<$ServiceIntuneMd>`
+- `<$ServiceIntuneLg>`
+
+
+
+
 
 ## ServiceIntune
 

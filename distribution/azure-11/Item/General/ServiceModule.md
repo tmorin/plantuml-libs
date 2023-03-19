@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceModule')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceModuleXs>`
+- `<$ServiceModuleSm>`
+- `<$ServiceModuleMd>`
+- `<$ServiceModuleLg>`
+
+
+
+
 
 ## ServiceModule
 

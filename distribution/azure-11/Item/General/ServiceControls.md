@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceControls')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceControlsXs>`
+- `<$ServiceControlsSm>`
+- `<$ServiceControlsMd>`
+- `<$ServiceControlsLg>`
+
+
+
+
 
 ## ServiceControls
 

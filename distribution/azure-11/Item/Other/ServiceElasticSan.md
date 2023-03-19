@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceElasticSan')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceElasticSanXs>`
+- `<$ServiceElasticSanSm>`
+- `<$ServiceElasticSanMd>`
+- `<$ServiceElasticSanLg>`
+
+
+
+
 
 ## ServiceElasticSan
 

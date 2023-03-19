@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceOpenSupplyChainPlatform')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceOpenSupplyChainPlatformXs>`
+- `<$ServiceOpenSupplyChainPlatformSm>`
+- `<$ServiceOpenSupplyChainPlatformMd>`
+- `<$ServiceOpenSupplyChainPlatformLg>`
+
+
+
+
 
 ## ServiceOpenSupplyChainPlatform
 

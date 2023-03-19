@@ -17,6 +17,17 @@ include('azure-11/Item/Identity/ServiceTenantProperties')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceTenantPropertiesXs>`
+- `<$ServiceTenantPropertiesSm>`
+- `<$ServiceTenantPropertiesMd>`
+- `<$ServiceTenantPropertiesLg>`
+
+
+
+
 
 ## ServiceTenantProperties
 

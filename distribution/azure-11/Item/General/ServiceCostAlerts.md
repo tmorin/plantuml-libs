@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceCostAlerts')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceCostAlertsXs>`
+- `<$ServiceCostAlertsSm>`
+- `<$ServiceCostAlertsMd>`
+- `<$ServiceCostAlertsLg>`
+
+
+
+
 
 ## ServiceCostAlerts
 

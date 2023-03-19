@@ -17,6 +17,17 @@ include('azure-11/Item/Compute/ServiceImages')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceImagesXs>`
+- `<$ServiceImagesSm>`
+- `<$ServiceImagesMd>`
+- `<$ServiceImagesLg>`
+
+
+
+
 
 ## ServiceImages
 

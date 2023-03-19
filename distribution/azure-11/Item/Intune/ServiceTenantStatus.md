@@ -17,6 +17,17 @@ include('azure-11/Item/Intune/ServiceTenantStatus')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceTenantStatusXs>`
+- `<$ServiceTenantStatusSm>`
+- `<$ServiceTenantStatusMd>`
+- `<$ServiceTenantStatusLg>`
+
+
+
+
 
 ## ServiceTenantStatus
 

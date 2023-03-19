@@ -17,6 +17,17 @@ include('azure-11/Item/Compute/ServiceBatchAccounts')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceBatchAccountsXs>`
+- `<$ServiceBatchAccountsSm>`
+- `<$ServiceBatchAccountsMd>`
+- `<$ServiceBatchAccountsLg>`
+
+
+
+
 
 ## ServiceBatchAccounts
 

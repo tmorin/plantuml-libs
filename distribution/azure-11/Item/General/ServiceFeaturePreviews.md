@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceFeaturePreviews')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceFeaturePreviewsXs>`
+- `<$ServiceFeaturePreviewsSm>`
+- `<$ServiceFeaturePreviewsMd>`
+- `<$ServiceFeaturePreviewsLg>`
+
+
+
+
 
 ## ServiceFeaturePreviews
 

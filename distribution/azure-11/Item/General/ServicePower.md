@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServicePower')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServicePowerXs>`
+- `<$ServicePowerSm>`
+- `<$ServicePowerMd>`
+- `<$ServicePowerLg>`
+
+
+
+
 
 ## ServicePower
 

@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceResourceMover')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceResourceMoverXs>`
+- `<$ServiceResourceMoverSm>`
+- `<$ServiceResourceMoverMd>`
+- `<$ServiceResourceMoverLg>`
+
+
+
+
 
 ## ServiceResourceMover
 

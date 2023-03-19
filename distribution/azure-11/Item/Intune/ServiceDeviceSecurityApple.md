@@ -17,6 +17,17 @@ include('azure-11/Item/Intune/ServiceDeviceSecurityApple')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceDeviceSecurityAppleXs>`
+- `<$ServiceDeviceSecurityAppleSm>`
+- `<$ServiceDeviceSecurityAppleMd>`
+- `<$ServiceDeviceSecurityAppleLg>`
+
+
+
+
 
 ## ServiceDeviceSecurityApple
 

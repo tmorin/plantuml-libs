@@ -17,6 +17,17 @@ include('azure-11/Item/Compute/ServiceFunctionApps')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceFunctionAppsXs>`
+- `<$ServiceFunctionAppsSm>`
+- `<$ServiceFunctionAppsMd>`
+- `<$ServiceFunctionAppsLg>`
+
+
+
+
 
 ## ServiceFunctionApps
 

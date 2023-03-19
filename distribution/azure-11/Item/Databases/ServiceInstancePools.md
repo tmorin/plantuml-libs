@@ -17,6 +17,17 @@ include('azure-11/Item/Databases/ServiceInstancePools')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceInstancePoolsXs>`
+- `<$ServiceInstancePoolsSm>`
+- `<$ServiceInstancePoolsMd>`
+- `<$ServiceInstancePoolsLg>`
+
+
+
+
 
 ## ServiceInstancePools
 

@@ -17,6 +17,17 @@ include('azure-11/Item/Networking/ServiceDDoSProtectionPlans')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceDDoSProtectionPlansXs>`
+- `<$ServiceDDoSProtectionPlansSm>`
+- `<$ServiceDDoSProtectionPlansMd>`
+- `<$ServiceDDoSProtectionPlansLg>`
+
+
+
+
 
 ## ServiceDDoSProtectionPlans
 

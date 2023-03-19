@@ -17,6 +17,17 @@ include('azure-11/Item/ManagementGovernance/ServiceOperationLogClassic')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceOperationLogClassicXs>`
+- `<$ServiceOperationLogClassicSm>`
+- `<$ServiceOperationLogClassicMd>`
+- `<$ServiceOperationLogClassicLg>`
+
+
+
+
 
 ## ServiceOperationLogClassic
 

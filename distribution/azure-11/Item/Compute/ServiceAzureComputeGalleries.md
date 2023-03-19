@@ -17,6 +17,17 @@ include('azure-11/Item/Compute/ServiceAzureComputeGalleries')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureComputeGalleriesXs>`
+- `<$ServiceAzureComputeGalleriesSm>`
+- `<$ServiceAzureComputeGalleriesMd>`
+- `<$ServiceAzureComputeGalleriesLg>`
+
+
+
+
 
 ## ServiceAzureComputeGalleries
 

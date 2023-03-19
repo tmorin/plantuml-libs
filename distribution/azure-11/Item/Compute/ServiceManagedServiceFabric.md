@@ -17,6 +17,17 @@ include('azure-11/Item/Compute/ServiceManagedServiceFabric')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceManagedServiceFabricXs>`
+- `<$ServiceManagedServiceFabricSm>`
+- `<$ServiceManagedServiceFabricMd>`
+- `<$ServiceManagedServiceFabricLg>`
+
+
+
+
 
 ## ServiceManagedServiceFabric
 

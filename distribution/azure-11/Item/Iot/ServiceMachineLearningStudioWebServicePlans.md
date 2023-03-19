@@ -17,6 +17,17 @@ include('azure-11/Item/Iot/ServiceMachineLearningStudioWebServicePlans')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceMachineLearningStudioWebServicePlansXs>`
+- `<$ServiceMachineLearningStudioWebServicePlansSm>`
+- `<$ServiceMachineLearningStudioWebServicePlansMd>`
+- `<$ServiceMachineLearningStudioWebServicePlansLg>`
+
+
+
+
 
 ## ServiceMachineLearningStudioWebServicePlans
 

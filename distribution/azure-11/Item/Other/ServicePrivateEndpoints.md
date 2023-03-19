@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServicePrivateEndpoints')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServicePrivateEndpointsXs>`
+- `<$ServicePrivateEndpointsSm>`
+- `<$ServicePrivateEndpointsMd>`
+- `<$ServicePrivateEndpointsLg>`
+
+
+
+
 
 ## ServicePrivateEndpoints
 

@@ -17,6 +17,17 @@ include('azure-11/Item/Containers/ServiceKubernetesServices')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceKubernetesServicesXs>`
+- `<$ServiceKubernetesServicesSm>`
+- `<$ServiceKubernetesServicesMd>`
+- `<$ServiceKubernetesServicesLg>`
+
+
+
+
 
 ## ServiceKubernetesServices
 

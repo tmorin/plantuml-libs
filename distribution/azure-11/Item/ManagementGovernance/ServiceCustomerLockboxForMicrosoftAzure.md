@@ -17,6 +17,17 @@ include('azure-11/Item/ManagementGovernance/ServiceCustomerLockboxForMicrosoftAz
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceCustomerLockboxForMicrosoftAzureXs>`
+- `<$ServiceCustomerLockboxForMicrosoftAzureSm>`
+- `<$ServiceCustomerLockboxForMicrosoftAzureMd>`
+- `<$ServiceCustomerLockboxForMicrosoftAzureLg>`
+
+
+
+
 
 ## ServiceCustomerLockboxForMicrosoftAzure
 

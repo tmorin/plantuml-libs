@@ -17,6 +17,17 @@ include('azure-11/Item/Iot/ServiceTimeSeriesDataSets')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceTimeSeriesDataSetsXs>`
+- `<$ServiceTimeSeriesDataSetsSm>`
+- `<$ServiceTimeSeriesDataSetsMd>`
+- `<$ServiceTimeSeriesDataSetsLg>`
+
+
+
+
 
 ## ServiceTimeSeriesDataSets
 

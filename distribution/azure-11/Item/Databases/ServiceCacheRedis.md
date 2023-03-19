@@ -17,6 +17,17 @@ include('azure-11/Item/Databases/ServiceCacheRedis')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceCacheRedisXs>`
+- `<$ServiceCacheRedisSm>`
+- `<$ServiceCacheRedisMd>`
+- `<$ServiceCacheRedisLg>`
+
+
+
+
 
 ## ServiceCacheRedis
 

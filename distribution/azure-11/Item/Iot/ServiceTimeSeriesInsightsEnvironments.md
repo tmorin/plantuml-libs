@@ -17,6 +17,17 @@ include('azure-11/Item/Iot/ServiceTimeSeriesInsightsEnvironments')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceTimeSeriesInsightsEnvironmentsXs>`
+- `<$ServiceTimeSeriesInsightsEnvironmentsSm>`
+- `<$ServiceTimeSeriesInsightsEnvironmentsMd>`
+- `<$ServiceTimeSeriesInsightsEnvironmentsLg>`
+
+
+
+
 
 ## ServiceTimeSeriesInsightsEnvironments
 

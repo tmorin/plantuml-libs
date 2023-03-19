@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceKubernetesFleetManager')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceKubernetesFleetManagerXs>`
+- `<$ServiceKubernetesFleetManagerSm>`
+- `<$ServiceKubernetesFleetManagerMd>`
+- `<$ServiceKubernetesFleetManagerLg>`
+
+
+
+
 
 ## ServiceKubernetesFleetManager
 

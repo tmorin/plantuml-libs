@@ -17,6 +17,17 @@ include('azure-11/Item/AiMachineLearning/ServiceBonsai')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceBonsaiXs>`
+- `<$ServiceBonsaiSm>`
+- `<$ServiceBonsaiMd>`
+- `<$ServiceBonsaiLg>`
+
+
+
+
 
 ## ServiceBonsai
 

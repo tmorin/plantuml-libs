@@ -17,6 +17,17 @@ include('azure-11/Item/Blockchain/ServiceAbsMember')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAbsMemberXs>`
+- `<$ServiceAbsMemberSm>`
+- `<$ServiceAbsMemberMd>`
+- `<$ServiceAbsMemberLg>`
+
+
+
+
 
 ## ServiceAbsMember
 

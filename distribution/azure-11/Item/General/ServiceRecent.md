@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceRecent')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceRecentXs>`
+- `<$ServiceRecentSm>`
+- `<$ServiceRecentMd>`
+- `<$ServiceRecentLg>`
+
+
+
+
 
 ## ServiceRecent
 

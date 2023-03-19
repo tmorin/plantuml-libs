@@ -17,6 +17,17 @@ include('azure-11/Item/NewIcons/ServiceAzureAttestation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureAttestationXs>`
+- `<$ServiceAzureAttestationSm>`
+- `<$ServiceAzureAttestationMd>`
+- `<$ServiceAzureAttestationLg>`
+
+
+
+
 
 ## ServiceAzureAttestation
 

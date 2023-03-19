@@ -17,6 +17,17 @@ include('azure-11/Item/NewIcons/ServiceWebAppDatabase')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceWebAppDatabaseXs>`
+- `<$ServiceWebAppDatabaseSm>`
+- `<$ServiceWebAppDatabaseMd>`
+- `<$ServiceWebAppDatabaseLg>`
+
+
+
+
 
 ## ServiceWebAppDatabase
 

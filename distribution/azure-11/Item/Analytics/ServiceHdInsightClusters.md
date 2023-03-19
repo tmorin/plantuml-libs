@@ -17,6 +17,17 @@ include('azure-11/Item/Analytics/ServiceHdInsightClusters')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceHdInsightClustersXs>`
+- `<$ServiceHdInsightClustersSm>`
+- `<$ServiceHdInsightClustersMd>`
+- `<$ServiceHdInsightClustersLg>`
+
+
+
+
 
 ## ServiceHdInsightClusters
 

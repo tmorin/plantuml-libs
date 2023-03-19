@@ -17,6 +17,17 @@ include('azure-11/Item/Iot/ServiceAzureStack')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureStackXs>`
+- `<$ServiceAzureStackSm>`
+- `<$ServiceAzureStackMd>`
+- `<$ServiceAzureStackLg>`
+
+
+
+
 
 ## ServiceAzureStack
 

@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceHeart')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceHeartXs>`
+- `<$ServiceHeartSm>`
+- `<$ServiceHeartMd>`
+- `<$ServiceHeartLg>`
+
+
+
+
 
 ## ServiceHeart
 

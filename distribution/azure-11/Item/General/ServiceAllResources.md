@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceAllResources')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAllResourcesXs>`
+- `<$ServiceAllResourcesSm>`
+- `<$ServiceAllResourcesMd>`
+- `<$ServiceAllResourcesLg>`
+
+
+
+
 
 ## ServiceAllResources
 

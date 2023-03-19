@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceInformation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceInformationXs>`
+- `<$ServiceInformationSm>`
+- `<$ServiceInformationMd>`
+- `<$ServiceInformationLg>`
+
+
+
+
 
 ## ServiceInformation
 

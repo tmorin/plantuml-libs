@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceError')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceErrorXs>`
+- `<$ServiceErrorSm>`
+- `<$ServiceErrorMd>`
+- `<$ServiceErrorLg>`
+
+
+
+
 
 ## ServiceError
 

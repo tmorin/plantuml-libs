@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceBackupVault')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceBackupVaultXs>`
+- `<$ServiceBackupVaultSm>`
+- `<$ServiceBackupVaultMd>`
+- `<$ServiceBackupVaultLg>`
+
+
+
+
 
 ## ServiceBackupVault
 

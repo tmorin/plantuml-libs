@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceGear')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceGearXs>`
+- `<$ServiceGearSm>`
+- `<$ServiceGearMd>`
+- `<$ServiceGearLg>`
+
+
+
+
 
 ## ServiceGear
 

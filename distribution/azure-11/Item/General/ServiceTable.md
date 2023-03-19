@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceTable')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceTableXs>`
+- `<$ServiceTableSm>`
+- `<$ServiceTableMd>`
+- `<$ServiceTableLg>`
+
+
+
+
 
 ## ServiceTable
 

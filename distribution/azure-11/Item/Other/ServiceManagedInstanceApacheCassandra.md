@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceManagedInstanceApacheCassandra')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceManagedInstanceApacheCassandraXs>`
+- `<$ServiceManagedInstanceApacheCassandraSm>`
+- `<$ServiceManagedInstanceApacheCassandraMd>`
+- `<$ServiceManagedInstanceApacheCassandraLg>`
+
+
+
+
 
 ## ServiceManagedInstanceApacheCassandra
 

@@ -17,6 +17,17 @@ include('azure-11/Item/Databases/ServiceElasticJobAgents')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceElasticJobAgentsXs>`
+- `<$ServiceElasticJobAgentsSm>`
+- `<$ServiceElasticJobAgentsMd>`
+- `<$ServiceElasticJobAgentsLg>`
+
+
+
+
 
 ## ServiceElasticJobAgents
 

@@ -17,6 +17,17 @@ include('azure-11/Item/ManagementGovernance/ServiceActivityLog')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceActivityLogXs>`
+- `<$ServiceActivityLogSm>`
+- `<$ServiceActivityLogMd>`
+- `<$ServiceActivityLogLg>`
+
+
+
+
 
 ## ServiceActivityLog
 

@@ -17,6 +17,17 @@ include('azure-11/Item/Storage/ServiceStorageAccountsClassic')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceStorageAccountsClassicXs>`
+- `<$ServiceStorageAccountsClassicSm>`
+- `<$ServiceStorageAccountsClassicMd>`
+- `<$ServiceStorageAccountsClassicLg>`
+
+
+
+
 
 ## ServiceStorageAccountsClassic
 

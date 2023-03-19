@@ -17,6 +17,17 @@ include('azure-11/Item/Networking/ServiceProximityPlacementGroups')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceProximityPlacementGroupsXs>`
+- `<$ServiceProximityPlacementGroupsSm>`
+- `<$ServiceProximityPlacementGroupsMd>`
+- `<$ServiceProximityPlacementGroupsLg>`
+
+
+
+
 
 ## ServiceProximityPlacementGroups
 

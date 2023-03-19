@@ -17,6 +17,17 @@ include('azure-11/Item/Databases/ServiceAzureDatabaseMigrationServices')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureDatabaseMigrationServicesXs>`
+- `<$ServiceAzureDatabaseMigrationServicesSm>`
+- `<$ServiceAzureDatabaseMigrationServicesMd>`
+- `<$ServiceAzureDatabaseMigrationServicesLg>`
+
+
+
+
 
 ## ServiceAzureDatabaseMigrationServices
 

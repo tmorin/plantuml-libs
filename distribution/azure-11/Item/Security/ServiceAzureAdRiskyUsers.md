@@ -17,6 +17,17 @@ include('azure-11/Item/Security/ServiceAzureAdRiskyUsers')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureAdRiskyUsersXs>`
+- `<$ServiceAzureAdRiskyUsersSm>`
+- `<$ServiceAzureAdRiskyUsersMd>`
+- `<$ServiceAzureAdRiskyUsersLg>`
+
+
+
+
 
 ## ServiceAzureAdRiskyUsers
 

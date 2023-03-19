@@ -17,6 +17,17 @@ include('azure-11/Item/Iot/ServiceAzureMapsAccounts')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureMapsAccountsXs>`
+- `<$ServiceAzureMapsAccountsSm>`
+- `<$ServiceAzureMapsAccountsMd>`
+- `<$ServiceAzureMapsAccountsLg>`
+
+
+
+
 
 ## ServiceAzureMapsAccounts
 

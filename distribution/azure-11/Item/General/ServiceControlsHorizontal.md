@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceControlsHorizontal')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceControlsHorizontalXs>`
+- `<$ServiceControlsHorizontalSm>`
+- `<$ServiceControlsHorizontalMd>`
+- `<$ServiceControlsHorizontalLg>`
+
+
+
+
 
 ## ServiceControlsHorizontal
 

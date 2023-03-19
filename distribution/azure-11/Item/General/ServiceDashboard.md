@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceDashboard')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceDashboardXs>`
+- `<$ServiceDashboardSm>`
+- `<$ServiceDashboardMd>`
+- `<$ServiceDashboardLg>`
+
+
+
+
 
 ## ServiceDashboard
 

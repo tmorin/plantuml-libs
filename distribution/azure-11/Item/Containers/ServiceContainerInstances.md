@@ -17,6 +17,17 @@ include('azure-11/Item/Containers/ServiceContainerInstances')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceContainerInstancesXs>`
+- `<$ServiceContainerInstancesSm>`
+- `<$ServiceContainerInstancesMd>`
+- `<$ServiceContainerInstancesLg>`
+
+
+
+
 
 ## ServiceContainerInstances
 

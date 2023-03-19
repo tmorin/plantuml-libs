@@ -17,6 +17,17 @@ include('azure-11/Item/AzureStack/ServiceInfrastructureBackup')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceInfrastructureBackupXs>`
+- `<$ServiceInfrastructureBackupSm>`
+- `<$ServiceInfrastructureBackupMd>`
+- `<$ServiceInfrastructureBackupLg>`
+
+
+
+
 
 ## ServiceInfrastructureBackup
 

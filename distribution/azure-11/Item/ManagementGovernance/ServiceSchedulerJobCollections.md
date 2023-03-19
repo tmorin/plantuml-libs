@@ -17,6 +17,17 @@ include('azure-11/Item/ManagementGovernance/ServiceSchedulerJobCollections')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceSchedulerJobCollectionsXs>`
+- `<$ServiceSchedulerJobCollectionsSm>`
+- `<$ServiceSchedulerJobCollectionsMd>`
+- `<$ServiceSchedulerJobCollectionsLg>`
+
+
+
+
 
 ## ServiceSchedulerJobCollections
 

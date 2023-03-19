@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceVirtualInstanceForSap')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceVirtualInstanceForSapXs>`
+- `<$ServiceVirtualInstanceForSapSm>`
+- `<$ServiceVirtualInstanceForSapMd>`
+- `<$ServiceVirtualInstanceForSapLg>`
+
+
+
+
 
 ## ServiceVirtualInstanceForSap
 

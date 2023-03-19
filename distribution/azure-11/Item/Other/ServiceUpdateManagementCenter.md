@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceUpdateManagementCenter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceUpdateManagementCenterXs>`
+- `<$ServiceUpdateManagementCenterSm>`
+- `<$ServiceUpdateManagementCenterMd>`
+- `<$ServiceUpdateManagementCenterLg>`
+
+
+
+
 
 ## ServiceUpdateManagementCenter
 

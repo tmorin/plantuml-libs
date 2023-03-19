@@ -17,6 +17,17 @@ include('azure-11/Item/Integration/ServicePartnerNamespace')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServicePartnerNamespaceXs>`
+- `<$ServicePartnerNamespaceSm>`
+- `<$ServicePartnerNamespaceMd>`
+- `<$ServicePartnerNamespaceLg>`
+
+
+
+
 
 ## ServicePartnerNamespace
 

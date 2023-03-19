@@ -17,6 +17,17 @@ include('azure-11/Item/Networking/ServiceDnsPrivateResolver')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceDnsPrivateResolverXs>`
+- `<$ServiceDnsPrivateResolverSm>`
+- `<$ServiceDnsPrivateResolverMd>`
+- `<$ServiceDnsPrivateResolverLg>`
+
+
+
+
 
 ## ServiceDnsPrivateResolver
 

@@ -17,6 +17,17 @@ include('azure-11/Item/Security/ServiceAzureAdIdentityProtection')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureAdIdentityProtectionXs>`
+- `<$ServiceAzureAdIdentityProtectionSm>`
+- `<$ServiceAzureAdIdentityProtectionMd>`
+- `<$ServiceAzureAdIdentityProtectionLg>`
+
+
+
+
 
 ## ServiceAzureAdIdentityProtection
 

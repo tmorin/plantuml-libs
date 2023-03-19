@@ -17,6 +17,17 @@ include('azure-11/Item/AzureEcosystem/ServiceAzureHybridCenter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureHybridCenterXs>`
+- `<$ServiceAzureHybridCenterSm>`
+- `<$ServiceAzureHybridCenterMd>`
+- `<$ServiceAzureHybridCenterLg>`
+
+
+
+
 
 ## ServiceAzureHybridCenter
 

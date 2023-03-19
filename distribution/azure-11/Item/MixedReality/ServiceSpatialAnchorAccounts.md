@@ -17,6 +17,17 @@ include('azure-11/Item/MixedReality/ServiceSpatialAnchorAccounts')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceSpatialAnchorAccountsXs>`
+- `<$ServiceSpatialAnchorAccountsSm>`
+- `<$ServiceSpatialAnchorAccountsMd>`
+- `<$ServiceSpatialAnchorAccountsLg>`
+
+
+
+
 
 ## ServiceSpatialAnchorAccounts
 

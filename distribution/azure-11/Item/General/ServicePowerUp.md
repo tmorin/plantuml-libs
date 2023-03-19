@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServicePowerUp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServicePowerUpXs>`
+- `<$ServicePowerUpSm>`
+- `<$ServicePowerUpMd>`
+- `<$ServicePowerUpLg>`
+
+
+
+
 
 ## ServicePowerUp
 

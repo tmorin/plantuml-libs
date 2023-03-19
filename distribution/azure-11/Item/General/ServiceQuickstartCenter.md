@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceQuickstartCenter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceQuickstartCenterXs>`
+- `<$ServiceQuickstartCenterSm>`
+- `<$ServiceQuickstartCenterMd>`
+- `<$ServiceQuickstartCenterLg>`
+
+
+
+
 
 ## ServiceQuickstartCenter
 

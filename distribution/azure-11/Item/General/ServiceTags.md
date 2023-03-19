@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceTags')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceTagsXs>`
+- `<$ServiceTagsSm>`
+- `<$ServiceTagsMd>`
+- `<$ServiceTagsLg>`
+
+
+
+
 
 ## ServiceTags
 

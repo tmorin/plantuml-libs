@@ -17,6 +17,17 @@ include('azure-11/Item/Databases/ServiceSqlElasticPools')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceSqlElasticPoolsXs>`
+- `<$ServiceSqlElasticPoolsSm>`
+- `<$ServiceSqlElasticPoolsMd>`
+- `<$ServiceSqlElasticPoolsLg>`
+
+
+
+
 
 ## ServiceSqlElasticPools
 

@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceResourceLinked')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceResourceLinkedXs>`
+- `<$ServiceResourceLinkedSm>`
+- `<$ServiceResourceLinkedMd>`
+- `<$ServiceResourceLinkedLg>`
+
+
+
+
 
 ## ServiceResourceLinked
 

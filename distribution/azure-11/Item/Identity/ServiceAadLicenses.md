@@ -17,6 +17,17 @@ include('azure-11/Item/Identity/ServiceAadLicenses')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAadLicensesXs>`
+- `<$ServiceAadLicensesSm>`
+- `<$ServiceAadLicensesMd>`
+- `<$ServiceAadLicensesLg>`
+
+
+
+
 
 ## ServiceAadLicenses
 

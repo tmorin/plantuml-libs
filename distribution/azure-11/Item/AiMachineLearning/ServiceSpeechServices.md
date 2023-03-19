@@ -17,6 +17,17 @@ include('azure-11/Item/AiMachineLearning/ServiceSpeechServices')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceSpeechServicesXs>`
+- `<$ServiceSpeechServicesSm>`
+- `<$ServiceSpeechServicesMd>`
+- `<$ServiceSpeechServicesLg>`
+
+
+
+
 
 ## ServiceSpeechServices
 

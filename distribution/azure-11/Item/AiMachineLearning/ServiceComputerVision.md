@@ -17,6 +17,17 @@ include('azure-11/Item/AiMachineLearning/ServiceComputerVision')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceComputerVisionXs>`
+- `<$ServiceComputerVisionSm>`
+- `<$ServiceComputerVisionMd>`
+- `<$ServiceComputerVisionLg>`
+
+
+
+
 
 ## ServiceComputerVision
 

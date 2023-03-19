@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceFiles')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceFilesXs>`
+- `<$ServiceFilesSm>`
+- `<$ServiceFilesMd>`
+- `<$ServiceFilesLg>`
+
+
+
+
 
 ## ServiceFiles
 

@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceManagementPortal')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceManagementPortalXs>`
+- `<$ServiceManagementPortalSm>`
+- `<$ServiceManagementPortalMd>`
+- `<$ServiceManagementPortalLg>`
+
+
+
+
 
 ## ServiceManagementPortal
 

@@ -17,6 +17,17 @@ include('azure-11/Item/Intune/ServiceEBooks')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceEBooksXs>`
+- `<$ServiceEBooksSm>`
+- `<$ServiceEBooksMd>`
+- `<$ServiceEBooksLg>`
+
+
+
+
 
 ## ServiceEBooks
 

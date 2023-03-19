@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceAzureMonitorDashboard')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureMonitorDashboardXs>`
+- `<$ServiceAzureMonitorDashboardSm>`
+- `<$ServiceAzureMonitorDashboardMd>`
+- `<$ServiceAzureMonitorDashboardLg>`
+
+
+
+
 
 ## ServiceAzureMonitorDashboard
 

@@ -17,6 +17,17 @@ include('azure-11/Item/AiMachineLearning/ServiceImmersiveReaders')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceImmersiveReadersXs>`
+- `<$ServiceImmersiveReadersSm>`
+- `<$ServiceImmersiveReadersMd>`
+- `<$ServiceImmersiveReadersLg>`
+
+
+
+
 
 ## ServiceImmersiveReaders
 

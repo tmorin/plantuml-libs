@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceAzureEdgeHardwareCenter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureEdgeHardwareCenterXs>`
+- `<$ServiceAzureEdgeHardwareCenterSm>`
+- `<$ServiceAzureEdgeHardwareCenterMd>`
+- `<$ServiceAzureEdgeHardwareCenterLg>`
+
+
+
+
 
 ## ServiceAzureEdgeHardwareCenter
 

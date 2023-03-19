@@ -17,6 +17,17 @@ include('azure-11/Item/AiMachineLearning/ServiceAzureExperimentationStudio')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureExperimentationStudioXs>`
+- `<$ServiceAzureExperimentationStudioSm>`
+- `<$ServiceAzureExperimentationStudioMd>`
+- `<$ServiceAzureExperimentationStudioLg>`
+
+
+
+
 
 ## ServiceAzureExperimentationStudio
 

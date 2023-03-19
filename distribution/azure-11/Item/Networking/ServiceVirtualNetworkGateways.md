@@ -17,6 +17,17 @@ include('azure-11/Item/Networking/ServiceVirtualNetworkGateways')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceVirtualNetworkGatewaysXs>`
+- `<$ServiceVirtualNetworkGatewaysSm>`
+- `<$ServiceVirtualNetworkGatewaysMd>`
+- `<$ServiceVirtualNetworkGatewaysLg>`
+
+
+
+
 
 ## ServiceVirtualNetworkGateways
 

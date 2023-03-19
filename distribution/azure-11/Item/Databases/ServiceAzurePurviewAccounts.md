@@ -17,6 +17,17 @@ include('azure-11/Item/Databases/ServiceAzurePurviewAccounts')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzurePurviewAccountsXs>`
+- `<$ServiceAzurePurviewAccountsSm>`
+- `<$ServiceAzurePurviewAccountsMd>`
+- `<$ServiceAzurePurviewAccountsLg>`
+
+
+
+
 
 ## ServiceAzurePurviewAccounts
 

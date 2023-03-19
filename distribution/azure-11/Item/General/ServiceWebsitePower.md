@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceWebsitePower')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceWebsitePowerXs>`
+- `<$ServiceWebsitePowerSm>`
+- `<$ServiceWebsitePowerMd>`
+- `<$ServiceWebsitePowerLg>`
+
+
+
+
 
 ## ServiceWebsitePower
 

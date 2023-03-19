@@ -17,6 +17,17 @@ include('azure-11/Item/Analytics/ServiceEndpointAnalytics')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceEndpointAnalyticsXs>`
+- `<$ServiceEndpointAnalyticsSm>`
+- `<$ServiceEndpointAnalyticsMd>`
+- `<$ServiceEndpointAnalyticsLg>`
+
+
+
+
 
 ## ServiceEndpointAnalytics
 

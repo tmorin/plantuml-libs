@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceAzureNetworkFunctionManager')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureNetworkFunctionManagerXs>`
+- `<$ServiceAzureNetworkFunctionManagerSm>`
+- `<$ServiceAzureNetworkFunctionManagerMd>`
+- `<$ServiceAzureNetworkFunctionManagerLg>`
+
+
+
+
 
 ## ServiceAzureNetworkFunctionManager
 

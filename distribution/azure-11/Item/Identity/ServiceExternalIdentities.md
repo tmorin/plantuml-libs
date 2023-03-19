@@ -17,6 +17,17 @@ include('azure-11/Item/Identity/ServiceExternalIdentities')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceExternalIdentitiesXs>`
+- `<$ServiceExternalIdentitiesSm>`
+- `<$ServiceExternalIdentitiesMd>`
+- `<$ServiceExternalIdentitiesLg>`
+
+
+
+
 
 ## ServiceExternalIdentities
 

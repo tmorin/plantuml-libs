@@ -17,6 +17,17 @@ include('azure-11/Item/Networking/ServiceIpGroups')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceIpGroupsXs>`
+- `<$ServiceIpGroupsSm>`
+- `<$ServiceIpGroupsMd>`
+- `<$ServiceIpGroupsLg>`
+
+
+
+
 
 ## ServiceIpGroups
 

@@ -17,6 +17,17 @@ include('azure-11/Item/Databases/ServiceSqlServer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceSqlServerXs>`
+- `<$ServiceSqlServerSm>`
+- `<$ServiceSqlServerMd>`
+- `<$ServiceSqlServerLg>`
+
+
+
+
 
 ## ServiceSqlServer
 

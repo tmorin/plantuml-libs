@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceDatabaseInstanceForSap')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceDatabaseInstanceForSapXs>`
+- `<$ServiceDatabaseInstanceForSapSm>`
+- `<$ServiceDatabaseInstanceForSapMd>`
+- `<$ServiceDatabaseInstanceForSapLg>`
+
+
+
+
 
 ## ServiceDatabaseInstanceForSap
 

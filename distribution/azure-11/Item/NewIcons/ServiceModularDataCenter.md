@@ -17,6 +17,17 @@ include('azure-11/Item/NewIcons/ServiceModularDataCenter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceModularDataCenterXs>`
+- `<$ServiceModularDataCenterSm>`
+- `<$ServiceModularDataCenterMd>`
+- `<$ServiceModularDataCenterLg>`
+
+
+
+
 
 ## ServiceModularDataCenter
 

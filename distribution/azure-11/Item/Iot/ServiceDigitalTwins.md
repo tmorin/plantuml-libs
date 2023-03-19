@@ -17,6 +17,17 @@ include('azure-11/Item/Iot/ServiceDigitalTwins')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceDigitalTwinsXs>`
+- `<$ServiceDigitalTwinsSm>`
+- `<$ServiceDigitalTwinsMd>`
+- `<$ServiceDigitalTwinsLg>`
+
+
+
+
 
 ## ServiceDigitalTwins
 

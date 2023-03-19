@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceBuilds')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceBuildsXs>`
+- `<$ServiceBuildsSm>`
+- `<$ServiceBuildsMd>`
+- `<$ServiceBuildsLg>`
+
+
+
+
 
 ## ServiceBuilds
 

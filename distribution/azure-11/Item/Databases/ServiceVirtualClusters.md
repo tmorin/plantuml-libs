@@ -17,6 +17,17 @@ include('azure-11/Item/Databases/ServiceVirtualClusters')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceVirtualClustersXs>`
+- `<$ServiceVirtualClustersSm>`
+- `<$ServiceVirtualClustersMd>`
+- `<$ServiceVirtualClustersLg>`
+
+
+
+
 
 ## ServiceVirtualClusters
 

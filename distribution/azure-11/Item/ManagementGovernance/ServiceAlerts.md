@@ -17,6 +17,17 @@ include('azure-11/Item/ManagementGovernance/ServiceAlerts')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAlertsXs>`
+- `<$ServiceAlertsSm>`
+- `<$ServiceAlertsMd>`
+- `<$ServiceAlertsLg>`
+
+
+
+
 
 ## ServiceAlerts
 

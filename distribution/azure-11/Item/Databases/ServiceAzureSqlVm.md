@@ -17,6 +17,17 @@ include('azure-11/Item/Databases/ServiceAzureSqlVm')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureSqlVmXs>`
+- `<$ServiceAzureSqlVmSm>`
+- `<$ServiceAzureSqlVmMd>`
+- `<$ServiceAzureSqlVmLg>`
+
+
+
+
 
 ## ServiceAzureSqlVm
 

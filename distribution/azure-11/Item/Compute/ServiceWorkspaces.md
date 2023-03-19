@@ -17,6 +17,17 @@ include('azure-11/Item/Compute/ServiceWorkspaces')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceWorkspacesXs>`
+- `<$ServiceWorkspacesSm>`
+- `<$ServiceWorkspacesMd>`
+- `<$ServiceWorkspacesLg>`
+
+
+
+
 
 ## ServiceWorkspaces
 

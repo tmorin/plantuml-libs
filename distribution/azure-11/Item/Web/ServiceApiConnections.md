@@ -17,6 +17,17 @@ include('azure-11/Item/Web/ServiceApiConnections')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceApiConnectionsXs>`
+- `<$ServiceApiConnectionsSm>`
+- `<$ServiceApiConnectionsMd>`
+- `<$ServiceApiConnectionsLg>`
+
+
+
+
 
 ## ServiceApiConnections
 

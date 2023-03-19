@@ -17,6 +17,17 @@ include('azure-11/Item/AiMachineLearning/ServiceContentModerators')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceContentModeratorsXs>`
+- `<$ServiceContentModeratorsSm>`
+- `<$ServiceContentModeratorsMd>`
+- `<$ServiceContentModeratorsLg>`
+
+
+
+
 
 ## ServiceContentModerators
 

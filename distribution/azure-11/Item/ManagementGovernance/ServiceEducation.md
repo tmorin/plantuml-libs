@@ -17,6 +17,17 @@ include('azure-11/Item/ManagementGovernance/ServiceEducation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceEducationXs>`
+- `<$ServiceEducationSm>`
+- `<$ServiceEducationMd>`
+- `<$ServiceEducationLg>`
+
+
+
+
 
 ## ServiceEducation
 

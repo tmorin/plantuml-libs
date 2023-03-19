@@ -17,6 +17,17 @@ include('azure-11/Item/Databases/ServiceAzureDatabaseMySqlServer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureDatabaseMySqlServerXs>`
+- `<$ServiceAzureDatabaseMySqlServerSm>`
+- `<$ServiceAzureDatabaseMySqlServerMd>`
+- `<$ServiceAzureDatabaseMySqlServerLg>`
+
+
+
+
 
 ## ServiceAzureDatabaseMySqlServer
 

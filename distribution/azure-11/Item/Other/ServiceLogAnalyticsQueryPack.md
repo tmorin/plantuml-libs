@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceLogAnalyticsQueryPack')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceLogAnalyticsQueryPackXs>`
+- `<$ServiceLogAnalyticsQueryPackSm>`
+- `<$ServiceLogAnalyticsQueryPackMd>`
+- `<$ServiceLogAnalyticsQueryPackLg>`
+
+
+
+
 
 ## ServiceLogAnalyticsQueryPack
 

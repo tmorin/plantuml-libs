@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceFtp')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceFtpXs>`
+- `<$ServiceFtpSm>`
+- `<$ServiceFtpMd>`
+- `<$ServiceFtpLg>`
+
+
+
+
 
 ## ServiceFtp
 

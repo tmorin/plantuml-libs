@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceInternetAnalyzerProfiles')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceInternetAnalyzerProfilesXs>`
+- `<$ServiceInternetAnalyzerProfilesSm>`
+- `<$ServiceInternetAnalyzerProfilesMd>`
+- `<$ServiceInternetAnalyzerProfilesLg>`
+
+
+
+
 
 ## ServiceInternetAnalyzerProfiles
 

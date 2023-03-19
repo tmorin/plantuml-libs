@@ -17,6 +17,17 @@ include('azure-11/Item/Networking/ServiceLoadBalancerHub')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceLoadBalancerHubXs>`
+- `<$ServiceLoadBalancerHubSm>`
+- `<$ServiceLoadBalancerHubMd>`
+- `<$ServiceLoadBalancerHubLg>`
+
+
+
+
 
 ## ServiceLoadBalancerHub
 

@@ -17,6 +17,17 @@ include('azure-11/Item/NewIcons/ServiceComplianceCenter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceComplianceCenterXs>`
+- `<$ServiceComplianceCenterSm>`
+- `<$ServiceComplianceCenterMd>`
+- `<$ServiceComplianceCenterLg>`
+
+
+
+
 
 ## ServiceComplianceCenter
 

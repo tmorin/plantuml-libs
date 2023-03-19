@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceAzureOrbital')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureOrbitalXs>`
+- `<$ServiceAzureOrbitalSm>`
+- `<$ServiceAzureOrbitalMd>`
+- `<$ServiceAzureOrbitalLg>`
+
+
+
+
 
 ## ServiceAzureOrbital
 

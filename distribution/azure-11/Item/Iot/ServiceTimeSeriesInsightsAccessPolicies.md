@@ -17,6 +17,17 @@ include('azure-11/Item/Iot/ServiceTimeSeriesInsightsAccessPolicies')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceTimeSeriesInsightsAccessPoliciesXs>`
+- `<$ServiceTimeSeriesInsightsAccessPoliciesSm>`
+- `<$ServiceTimeSeriesInsightsAccessPoliciesMd>`
+- `<$ServiceTimeSeriesInsightsAccessPoliciesLg>`
+
+
+
+
 
 ## ServiceTimeSeriesInsightsAccessPolicies
 

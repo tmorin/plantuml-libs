@@ -17,6 +17,17 @@ include('azure-11/Item/Storage/ServiceDataLakeStorageGen1')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceDataLakeStorageGen1Xs>`
+- `<$ServiceDataLakeStorageGen1Sm>`
+- `<$ServiceDataLakeStorageGen1Md>`
+- `<$ServiceDataLakeStorageGen1Lg>`
+
+
+
+
 
 ## ServiceDataLakeStorageGen1
 

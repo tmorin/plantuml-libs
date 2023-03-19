@@ -17,6 +17,17 @@ include('azure-11/Item/Security/ServiceKeyVaults')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceKeyVaultsXs>`
+- `<$ServiceKeyVaultsSm>`
+- `<$ServiceKeyVaultsMd>`
+- `<$ServiceKeyVaultsLg>`
+
+
+
+
 
 ## ServiceKeyVaults
 

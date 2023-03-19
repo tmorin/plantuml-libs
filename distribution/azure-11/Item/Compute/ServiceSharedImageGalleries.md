@@ -17,6 +17,17 @@ include('azure-11/Item/Compute/ServiceSharedImageGalleries')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceSharedImageGalleriesXs>`
+- `<$ServiceSharedImageGalleriesSm>`
+- `<$ServiceSharedImageGalleriesMd>`
+- `<$ServiceSharedImageGalleriesLg>`
+
+
+
+
 
 ## ServiceSharedImageGalleries
 

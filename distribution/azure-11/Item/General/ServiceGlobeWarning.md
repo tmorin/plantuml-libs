@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceGlobeWarning')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceGlobeWarningXs>`
+- `<$ServiceGlobeWarningSm>`
+- `<$ServiceGlobeWarningMd>`
+- `<$ServiceGlobeWarningLg>`
+
+
+
+
 
 ## ServiceGlobeWarning
 

@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceSubscriptions')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceSubscriptionsXs>`
+- `<$ServiceSubscriptionsSm>`
+- `<$ServiceSubscriptionsMd>`
+- `<$ServiceSubscriptionsLg>`
+
+
+
+
 
 ## ServiceSubscriptions
 

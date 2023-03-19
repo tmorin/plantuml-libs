@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceVirtualVisitsBuilder')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceVirtualVisitsBuilderXs>`
+- `<$ServiceVirtualVisitsBuilderSm>`
+- `<$ServiceVirtualVisitsBuilderMd>`
+- `<$ServiceVirtualVisitsBuilderLg>`
+
+
+
+
 
 ## ServiceVirtualVisitsBuilder
 

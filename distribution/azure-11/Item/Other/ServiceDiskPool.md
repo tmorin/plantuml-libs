@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceDiskPool')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceDiskPoolXs>`
+- `<$ServiceDiskPoolSm>`
+- `<$ServiceDiskPoolMd>`
+- `<$ServiceDiskPoolLg>`
+
+
+
+
 
 ## ServiceDiskPool
 

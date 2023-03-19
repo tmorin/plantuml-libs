@@ -17,6 +17,17 @@ include('azure-11/Item/AiMachingLearning/ServiceLanguage')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceLanguageXs>`
+- `<$ServiceLanguageSm>`
+- `<$ServiceLanguageMd>`
+- `<$ServiceLanguageLg>`
+
+
+
+
 
 ## ServiceLanguage
 

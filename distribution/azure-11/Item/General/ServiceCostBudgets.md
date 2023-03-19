@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceCostBudgets')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceCostBudgetsXs>`
+- `<$ServiceCostBudgetsSm>`
+- `<$ServiceCostBudgetsMd>`
+- `<$ServiceCostBudgetsLg>`
+
+
+
+
 
 ## ServiceCostBudgets
 

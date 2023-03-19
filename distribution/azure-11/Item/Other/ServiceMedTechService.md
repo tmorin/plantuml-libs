@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceMedTechService')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceMedTechServiceXs>`
+- `<$ServiceMedTechServiceSm>`
+- `<$ServiceMedTechServiceMd>`
+- `<$ServiceMedTechServiceLg>`
+
+
+
+
 
 ## ServiceMedTechService
 

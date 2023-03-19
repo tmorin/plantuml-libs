@@ -17,6 +17,17 @@ include('azure-11/Item/Integration/ServicePartnerRegistration')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServicePartnerRegistrationXs>`
+- `<$ServicePartnerRegistrationSm>`
+- `<$ServicePartnerRegistrationMd>`
+- `<$ServicePartnerRegistrationLg>`
+
+
+
+
 
 ## ServicePartnerRegistration
 

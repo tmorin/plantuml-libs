@@ -17,6 +17,17 @@ include('azure-11/Item/NewIcons/ServiceCeres')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceCeresXs>`
+- `<$ServiceCeresSm>`
+- `<$ServiceCeresMd>`
+- `<$ServiceCeresLg>`
+
+
+
+
 
 ## ServiceCeres
 

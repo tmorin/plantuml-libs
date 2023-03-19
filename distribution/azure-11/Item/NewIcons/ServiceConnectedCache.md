@@ -17,6 +17,17 @@ include('azure-11/Item/NewIcons/ServiceConnectedCache')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceConnectedCacheXs>`
+- `<$ServiceConnectedCacheSm>`
+- `<$ServiceConnectedCacheMd>`
+- `<$ServiceConnectedCacheLg>`
+
+
+
+
 
 ## ServiceConnectedCache
 

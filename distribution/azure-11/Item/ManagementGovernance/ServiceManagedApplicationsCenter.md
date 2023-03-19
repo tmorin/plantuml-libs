@@ -17,6 +17,17 @@ include('azure-11/Item/ManagementGovernance/ServiceManagedApplicationsCenter')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceManagedApplicationsCenterXs>`
+- `<$ServiceManagedApplicationsCenterSm>`
+- `<$ServiceManagedApplicationsCenterMd>`
+- `<$ServiceManagedApplicationsCenterLg>`
+
+
+
+
 
 ## ServiceManagedApplicationsCenter
 

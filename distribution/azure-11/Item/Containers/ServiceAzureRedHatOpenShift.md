@@ -17,6 +17,17 @@ include('azure-11/Item/Containers/ServiceAzureRedHatOpenShift')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureRedHatOpenShiftXs>`
+- `<$ServiceAzureRedHatOpenShiftSm>`
+- `<$ServiceAzureRedHatOpenShiftMd>`
+- `<$ServiceAzureRedHatOpenShiftLg>`
+
+
+
+
 
 ## ServiceAzureRedHatOpenShift
 

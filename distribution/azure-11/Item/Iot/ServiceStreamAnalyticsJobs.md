@@ -17,6 +17,17 @@ include('azure-11/Item/Iot/ServiceStreamAnalyticsJobs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceStreamAnalyticsJobsXs>`
+- `<$ServiceStreamAnalyticsJobsSm>`
+- `<$ServiceStreamAnalyticsJobsMd>`
+- `<$ServiceStreamAnalyticsJobsLg>`
+
+
+
+
 
 ## ServiceStreamAnalyticsJobs
 

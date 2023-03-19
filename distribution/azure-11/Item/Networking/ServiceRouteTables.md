@@ -17,6 +17,17 @@ include('azure-11/Item/Networking/ServiceRouteTables')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceRouteTablesXs>`
+- `<$ServiceRouteTablesSm>`
+- `<$ServiceRouteTablesMd>`
+- `<$ServiceRouteTablesLg>`
+
+
+
+
 
 ## ServiceRouteTables
 

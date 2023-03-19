@@ -17,6 +17,17 @@ include('azure-11/Item/Iot/ServiceDeviceProvisioningServices')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceDeviceProvisioningServicesXs>`
+- `<$ServiceDeviceProvisioningServicesSm>`
+- `<$ServiceDeviceProvisioningServicesMd>`
+- `<$ServiceDeviceProvisioningServicesLg>`
+
+
+
+
 
 ## ServiceDeviceProvisioningServices
 

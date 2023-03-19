@@ -17,6 +17,17 @@ include('azure-11/Item/Networking/ServiceVirtualWanHub')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceVirtualWanHubXs>`
+- `<$ServiceVirtualWanHubSm>`
+- `<$ServiceVirtualWanHubMd>`
+- `<$ServiceVirtualWanHubLg>`
+
+
+
+
 
 ## ServiceVirtualWanHub
 

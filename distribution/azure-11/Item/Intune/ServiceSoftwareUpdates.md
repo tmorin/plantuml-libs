@@ -17,6 +17,17 @@ include('azure-11/Item/Intune/ServiceSoftwareUpdates')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceSoftwareUpdatesXs>`
+- `<$ServiceSoftwareUpdatesSm>`
+- `<$ServiceSoftwareUpdatesMd>`
+- `<$ServiceSoftwareUpdatesLg>`
+
+
+
+
 
 ## ServiceSoftwareUpdates
 

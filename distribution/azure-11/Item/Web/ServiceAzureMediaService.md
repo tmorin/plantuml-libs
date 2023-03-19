@@ -17,6 +17,17 @@ include('azure-11/Item/Web/ServiceAzureMediaService')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureMediaServiceXs>`
+- `<$ServiceAzureMediaServiceSm>`
+- `<$ServiceAzureMediaServiceMd>`
+- `<$ServiceAzureMediaServiceLg>`
+
+
+
+
 
 ## ServiceAzureMediaService
 

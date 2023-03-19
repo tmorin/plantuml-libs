@@ -17,6 +17,17 @@ include('azure-11/Item/Security/ServiceDetonation')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceDetonationXs>`
+- `<$ServiceDetonationSm>`
+- `<$ServiceDetonationMd>`
+- `<$ServiceDetonationLg>`
+
+
+
+
 
 ## ServiceDetonation
 

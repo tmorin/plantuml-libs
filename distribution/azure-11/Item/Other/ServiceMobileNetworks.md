@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceMobileNetworks')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceMobileNetworksXs>`
+- `<$ServiceMobileNetworksSm>`
+- `<$ServiceMobileNetworksMd>`
+- `<$ServiceMobileNetworksLg>`
+
+
+
+
 
 ## ServiceMobileNetworks
 

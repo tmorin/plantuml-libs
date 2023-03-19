@@ -17,6 +17,17 @@ include('azure-11/Item/Intune/ServiceIntuneAppProtection')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceIntuneAppProtectionXs>`
+- `<$ServiceIntuneAppProtectionSm>`
+- `<$ServiceIntuneAppProtectionMd>`
+- `<$ServiceIntuneAppProtectionLg>`
+
+
+
+
 
 ## ServiceIntuneAppProtection
 

@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceAzureVideoIndexer')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureVideoIndexerXs>`
+- `<$ServiceAzureVideoIndexerSm>`
+- `<$ServiceAzureVideoIndexerMd>`
+- `<$ServiceAzureVideoIndexerLg>`
+
+
+
+
 
 ## ServiceAzureVideoIndexer
 

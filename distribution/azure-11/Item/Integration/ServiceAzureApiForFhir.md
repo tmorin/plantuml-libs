@@ -17,6 +17,17 @@ include('azure-11/Item/Integration/ServiceAzureApiForFhir')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureApiForFhirXs>`
+- `<$ServiceAzureApiForFhirSm>`
+- `<$ServiceAzureApiForFhirMd>`
+- `<$ServiceAzureApiForFhirLg>`
+
+
+
+
 
 ## ServiceAzureApiForFhir
 

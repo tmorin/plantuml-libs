@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceCode')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceCodeXs>`
+- `<$ServiceCodeSm>`
+- `<$ServiceCodeMd>`
+- `<$ServiceCodeLg>`
+
+
+
+
 
 ## ServiceCode
 

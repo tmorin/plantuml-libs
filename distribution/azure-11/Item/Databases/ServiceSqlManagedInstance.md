@@ -17,6 +17,17 @@ include('azure-11/Item/Databases/ServiceSqlManagedInstance')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceSqlManagedInstanceXs>`
+- `<$ServiceSqlManagedInstanceSm>`
+- `<$ServiceSqlManagedInstanceMd>`
+- `<$ServiceSqlManagedInstanceLg>`
+
+
+
+
 
 ## ServiceSqlManagedInstance
 

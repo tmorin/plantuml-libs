@@ -17,6 +17,17 @@ include('azure-11/Item/AiMachineLearning/ServiceFaceApIs')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceFaceApIsXs>`
+- `<$ServiceFaceApIsSm>`
+- `<$ServiceFaceApIsMd>`
+- `<$ServiceFaceApIsLg>`
+
+
+
+
 
 ## ServiceFaceApIs
 

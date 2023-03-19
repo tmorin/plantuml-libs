@@ -17,6 +17,17 @@ include('azure-11/Item/Networking/ServiceLocalNetworkGateways')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceLocalNetworkGatewaysXs>`
+- `<$ServiceLocalNetworkGatewaysSm>`
+- `<$ServiceLocalNetworkGatewaysMd>`
+- `<$ServiceLocalNetworkGatewaysLg>`
+
+
+
+
 
 ## ServiceLocalNetworkGateways
 

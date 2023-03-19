@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceRtos')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceRtosXs>`
+- `<$ServiceRtosSm>`
+- `<$ServiceRtosMd>`
+- `<$ServiceRtosLg>`
+
+
+
+
 
 ## ServiceRtos
 

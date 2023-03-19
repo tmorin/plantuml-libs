@@ -17,6 +17,17 @@ include('azure-11/Item/Iot/ServiceAzureCosmosDb')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureCosmosDbXs>`
+- `<$ServiceAzureCosmosDbSm>`
+- `<$ServiceAzureCosmosDbMd>`
+- `<$ServiceAzureCosmosDbLg>`
+
+
+
+
 
 ## ServiceAzureCosmosDb
 

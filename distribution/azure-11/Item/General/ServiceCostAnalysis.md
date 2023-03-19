@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceCostAnalysis')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceCostAnalysisXs>`
+- `<$ServiceCostAnalysisSm>`
+- `<$ServiceCostAnalysisMd>`
+- `<$ServiceCostAnalysisLg>`
+
+
+
+
 
 ## ServiceCostAnalysis
 

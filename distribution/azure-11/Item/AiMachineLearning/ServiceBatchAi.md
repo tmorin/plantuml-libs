@@ -17,6 +17,17 @@ include('azure-11/Item/AiMachineLearning/ServiceBatchAi')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceBatchAiXs>`
+- `<$ServiceBatchAiSm>`
+- `<$ServiceBatchAiMd>`
+- `<$ServiceBatchAiLg>`
+
+
+
+
 
 ## ServiceBatchAi
 

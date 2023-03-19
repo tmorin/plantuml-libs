@@ -17,6 +17,17 @@ include('azure-11/Item/Analytics/ServiceAzureWorkbooks')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureWorkbooksXs>`
+- `<$ServiceAzureWorkbooksSm>`
+- `<$ServiceAzureWorkbooksMd>`
+- `<$ServiceAzureWorkbooksLg>`
+
+
+
+
 
 ## ServiceAzureWorkbooks
 

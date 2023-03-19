@@ -17,6 +17,17 @@ include('azure-11/Item/Storage/ServiceDataBox')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceDataBoxXs>`
+- `<$ServiceDataBoxSm>`
+- `<$ServiceDataBoxMd>`
+- `<$ServiceDataBoxLg>`
+
+
+
+
 
 ## ServiceDataBox
 

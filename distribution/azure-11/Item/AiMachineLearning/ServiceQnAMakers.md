@@ -17,6 +17,17 @@ include('azure-11/Item/AiMachineLearning/ServiceQnAMakers')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceQnAMakersXs>`
+- `<$ServiceQnAMakersSm>`
+- `<$ServiceQnAMakersMd>`
+- `<$ServiceQnAMakersLg>`
+
+
+
+
 
 ## ServiceQnAMakers
 

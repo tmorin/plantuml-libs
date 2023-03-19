@@ -17,6 +17,17 @@ include('azure-11/Item/ManagementGovernance/ServiceBlueprints')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceBlueprintsXs>`
+- `<$ServiceBlueprintsSm>`
+- `<$ServiceBlueprintsMd>`
+- `<$ServiceBlueprintsLg>`
+
+
+
+
 
 ## ServiceBlueprints
 

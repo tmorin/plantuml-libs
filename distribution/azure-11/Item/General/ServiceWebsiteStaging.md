@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceWebsiteStaging')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceWebsiteStagingXs>`
+- `<$ServiceWebsiteStagingSm>`
+- `<$ServiceWebsiteStagingMd>`
+- `<$ServiceWebsiteStagingLg>`
+
+
+
+
 
 ## ServiceWebsiteStaging
 

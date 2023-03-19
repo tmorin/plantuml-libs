@@ -17,6 +17,17 @@ include('azure-11/Item/AzureEcosystem/ServiceApplens')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceApplensXs>`
+- `<$ServiceApplensSm>`
+- `<$ServiceApplensMd>`
+- `<$ServiceApplensLg>`
+
+
+
+
 
 ## ServiceApplens
 

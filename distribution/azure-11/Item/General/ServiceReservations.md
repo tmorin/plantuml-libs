@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceReservations')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceReservationsXs>`
+- `<$ServiceReservationsSm>`
+- `<$ServiceReservationsMd>`
+- `<$ServiceReservationsLg>`
+
+
+
+
 
 ## ServiceReservations
 

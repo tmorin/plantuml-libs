@@ -17,6 +17,17 @@ include('azure-11/Item/Web/ServiceAppServicePlans')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAppServicePlansXs>`
+- `<$ServiceAppServicePlansSm>`
+- `<$ServiceAppServicePlansMd>`
+- `<$ServiceAppServicePlansLg>`
+
+
+
+
 
 ## ServiceAppServicePlans
 

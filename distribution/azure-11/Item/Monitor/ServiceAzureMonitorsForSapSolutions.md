@@ -17,6 +17,17 @@ include('azure-11/Item/Monitor/ServiceAzureMonitorsForSapSolutions')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureMonitorsForSapSolutionsXs>`
+- `<$ServiceAzureMonitorsForSapSolutionsSm>`
+- `<$ServiceAzureMonitorsForSapSolutionsMd>`
+- `<$ServiceAzureMonitorsForSapSolutionsLg>`
+
+
+
+
 
 ## ServiceAzureMonitorsForSapSolutions
 

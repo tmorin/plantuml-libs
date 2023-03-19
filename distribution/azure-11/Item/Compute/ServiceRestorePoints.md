@@ -17,6 +17,17 @@ include('azure-11/Item/Compute/ServiceRestorePoints')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceRestorePointsXs>`
+- `<$ServiceRestorePointsSm>`
+- `<$ServiceRestorePointsMd>`
+- `<$ServiceRestorePointsLg>`
+
+
+
+
 
 ## ServiceRestorePoints
 

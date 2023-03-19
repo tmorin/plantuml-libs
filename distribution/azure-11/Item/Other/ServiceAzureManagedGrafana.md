@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceAzureManagedGrafana')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureManagedGrafanaXs>`
+- `<$ServiceAzureManagedGrafanaSm>`
+- `<$ServiceAzureManagedGrafanaMd>`
+- `<$ServiceAzureManagedGrafanaLg>`
+
+
+
+
 
 ## ServiceAzureManagedGrafana
 

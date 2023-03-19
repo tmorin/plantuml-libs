@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceScvmmManagementServers')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceScvmmManagementServersXs>`
+- `<$ServiceScvmmManagementServersSm>`
+- `<$ServiceScvmmManagementServersMd>`
+- `<$ServiceScvmmManagementServersLg>`
+
+
+
+
 
 ## ServiceScvmmManagementServers
 

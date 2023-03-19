@@ -17,6 +17,17 @@ include('azure-11/Item/Networking/ServiceSpotVmss')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceSpotVmssXs>`
+- `<$ServiceSpotVmssSm>`
+- `<$ServiceSpotVmssMd>`
+- `<$ServiceSpotVmssLg>`
+
+
+
+
 
 ## ServiceSpotVmss
 

@@ -17,6 +17,17 @@ include('azure-11/Item/Integration/ServiceIntegrationServiceEnvironments')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceIntegrationServiceEnvironmentsXs>`
+- `<$ServiceIntegrationServiceEnvironmentsSm>`
+- `<$ServiceIntegrationServiceEnvironmentsMd>`
+- `<$ServiceIntegrationServiceEnvironmentsLg>`
+
+
+
+
 
 ## ServiceIntegrationServiceEnvironments
 

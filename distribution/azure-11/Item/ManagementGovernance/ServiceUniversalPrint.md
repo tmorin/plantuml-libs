@@ -17,6 +17,17 @@ include('azure-11/Item/ManagementGovernance/ServiceUniversalPrint')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceUniversalPrintXs>`
+- `<$ServiceUniversalPrintSm>`
+- `<$ServiceUniversalPrintMd>`
+- `<$ServiceUniversalPrintLg>`
+
+
+
+
 
 ## ServiceUniversalPrint
 

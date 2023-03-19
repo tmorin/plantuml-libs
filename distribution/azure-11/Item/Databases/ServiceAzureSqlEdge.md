@@ -17,6 +17,17 @@ include('azure-11/Item/Databases/ServiceAzureSqlEdge')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureSqlEdgeXs>`
+- `<$ServiceAzureSqlEdgeSm>`
+- `<$ServiceAzureSqlEdgeMd>`
+- `<$ServiceAzureSqlEdgeLg>`
+
+
+
+
 
 ## ServiceAzureSqlEdge
 

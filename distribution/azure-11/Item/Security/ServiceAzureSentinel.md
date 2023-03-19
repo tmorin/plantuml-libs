@@ -17,6 +17,17 @@ include('azure-11/Item/Security/ServiceAzureSentinel')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureSentinelXs>`
+- `<$ServiceAzureSentinelSm>`
+- `<$ServiceAzureSentinelMd>`
+- `<$ServiceAzureSentinelLg>`
+
+
+
+
 
 ## ServiceAzureSentinel
 

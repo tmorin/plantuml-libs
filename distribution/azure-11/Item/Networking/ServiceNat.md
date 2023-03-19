@@ -17,6 +17,17 @@ include('azure-11/Item/Networking/ServiceNat')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceNatXs>`
+- `<$ServiceNatSm>`
+- `<$ServiceNatMd>`
+- `<$ServiceNatLg>`
+
+
+
+
 
 ## ServiceNat
 

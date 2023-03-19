@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceCentralServiceInstanceForSap')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceCentralServiceInstanceForSapXs>`
+- `<$ServiceCentralServiceInstanceForSapSm>`
+- `<$ServiceCentralServiceInstanceForSapMd>`
+- `<$ServiceCentralServiceInstanceForSapLg>`
+
+
+
+
 
 ## ServiceCentralServiceInstanceForSap
 

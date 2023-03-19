@@ -17,6 +17,17 @@ include('azure-11/Item/Compute/ServiceDisksSnapshots')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceDisksSnapshotsXs>`
+- `<$ServiceDisksSnapshotsSm>`
+- `<$ServiceDisksSnapshotsMd>`
+- `<$ServiceDisksSnapshotsLg>`
+
+
+
+
 
 ## ServiceDisksSnapshots
 

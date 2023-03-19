@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceCubes')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceCubesXs>`
+- `<$ServiceCubesSm>`
+- `<$ServiceCubesMd>`
+- `<$ServiceCubesLg>`
+
+
+
+
 
 ## ServiceCubes
 

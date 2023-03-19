@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceFolderWebsite')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceFolderWebsiteXs>`
+- `<$ServiceFolderWebsiteSm>`
+- `<$ServiceFolderWebsiteMd>`
+- `<$ServiceFolderWebsiteLg>`
+
+
+
+
 
 ## ServiceFolderWebsite
 

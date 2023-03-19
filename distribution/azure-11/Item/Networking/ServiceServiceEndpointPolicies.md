@@ -17,6 +17,17 @@ include('azure-11/Item/Networking/ServiceServiceEndpointPolicies')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceServiceEndpointPoliciesXs>`
+- `<$ServiceServiceEndpointPoliciesSm>`
+- `<$ServiceServiceEndpointPoliciesMd>`
+- `<$ServiceServiceEndpointPoliciesLg>`
+
+
+
+
 
 ## ServiceServiceEndpointPolicies
 

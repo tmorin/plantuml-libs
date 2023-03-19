@@ -17,6 +17,17 @@ include('azure-11/Item/Iot/ServiceLogicApps')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceLogicAppsXs>`
+- `<$ServiceLogicAppsSm>`
+- `<$ServiceLogicAppsMd>`
+- `<$ServiceLogicAppsLg>`
+
+
+
+
 
 ## ServiceLogicApps
 

@@ -17,6 +17,17 @@ include('azure-11/Item/ManagementGovernance/ServiceAutomationAccounts')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAutomationAccountsXs>`
+- `<$ServiceAutomationAccountsSm>`
+- `<$ServiceAutomationAccountsMd>`
+- `<$ServiceAutomationAccountsLg>`
+
+
+
+
 
 ## ServiceAutomationAccounts
 

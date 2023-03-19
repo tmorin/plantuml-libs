@@ -17,6 +17,17 @@ include('azure-11/Item/Integration/ServiceSoftwareAsAService')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceSoftwareAsAServiceXs>`
+- `<$ServiceSoftwareAsAServiceSm>`
+- `<$ServiceSoftwareAsAServiceMd>`
+- `<$ServiceSoftwareAsAServiceLg>`
+
+
+
+
 
 ## ServiceSoftwareAsAService
 

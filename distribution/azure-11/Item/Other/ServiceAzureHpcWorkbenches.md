@@ -17,6 +17,17 @@ include('azure-11/Item/Other/ServiceAzureHpcWorkbenches')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceAzureHpcWorkbenchesXs>`
+- `<$ServiceAzureHpcWorkbenchesSm>`
+- `<$ServiceAzureHpcWorkbenchesMd>`
+- `<$ServiceAzureHpcWorkbenchesLg>`
+
+
+
+
 
 ## ServiceAzureHpcWorkbenches
 

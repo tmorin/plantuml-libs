@@ -17,6 +17,17 @@ include('azure-11/Item/General/ServiceVersions')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceVersionsXs>`
+- `<$ServiceVersionsSm>`
+- `<$ServiceVersionsMd>`
+- `<$ServiceVersionsLg>`
+
+
+
+
 
 ## ServiceVersions
 

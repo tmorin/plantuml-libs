@@ -17,6 +17,17 @@ include('azure-11/Item/Devops/ServiceChangeAnalysis')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceChangeAnalysisXs>`
+- `<$ServiceChangeAnalysisSm>`
+- `<$ServiceChangeAnalysisMd>`
+- `<$ServiceChangeAnalysisLg>`
+
+
+
+
 
 ## ServiceChangeAnalysis
 

@@ -17,6 +17,17 @@ include('azure-11/Item/ManagementGovernance/ServiceRecoveryServicesVaults')
 
 
 
+## Sprites
+The item provides the following sriptes:
+
+- `<$ServiceRecoveryServicesVaultsXs>`
+- `<$ServiceRecoveryServicesVaultsSm>`
+- `<$ServiceRecoveryServicesVaultsMd>`
+- `<$ServiceRecoveryServicesVaultsLg>`
+
+
+
+
 
 ## ServiceRecoveryServicesVaults
 
