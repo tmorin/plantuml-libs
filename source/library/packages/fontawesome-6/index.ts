@@ -1,6 +1,5 @@
 import P from "path"
 import glob from "glob"
-import { promisify } from "util"
 import {
   PackageContext,
   PackageFactory,
@@ -37,7 +36,7 @@ export class Fontawesome6Factory implements PackageFactory {
     cwd: string,
     globPattern: string
   ): Promise<ItemsByModules> {
-    const discoveredSvg = await promisify(glob)(globPattern, {
+    const discoveredSvg = await glob(globPattern, {
       cwd,
       nodir: true,
     })

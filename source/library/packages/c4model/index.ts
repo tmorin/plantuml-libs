@@ -1,7 +1,4 @@
-import {
-  PackageContext,
-  PackageFactory,
-} from "../../../generator/workdir/factories"
+import { PackageFactory } from "../../../generator/workdir/factories"
 import { Item, Package } from "../../../generator/workdir/manifest"
 import { parse } from "csv-parse/sync"
 import F from "fs"
@@ -74,7 +71,7 @@ export class C4modelFactory implements PackageFactory {
     return "c4model"
   }
 
-  async create(context: PackageContext): Promise<Package> {
+  async create(): Promise<Package> {
     return {
       urn: this.getUrn(),
       modules: [

@@ -1,5 +1,4 @@
 import P from "path"
-import { promisify } from "util"
 import glob from "glob"
 import Fe from "fs-extra"
 import {
@@ -65,7 +64,7 @@ export class DomainstorytellingFactory implements PackageFactory {
     cwd: string,
     globPattern: string
   ): Promise<ItemsByModules> {
-    const discoveredSvg = await promisify(glob)(globPattern, {
+    const discoveredSvg = await glob(globPattern, {
       cwd,
       nodir: true,
     })
@@ -137,7 +136,6 @@ export class DomainstorytellingFactory implements PackageFactory {
     const iconsDst = P.join(context.pkgTmpDirPath, "icons")
 
     await Fe.copy(P.join(__dirname, "icons"), iconsDst, {
-      recursive: true,
       overwrite: true,
     })
     const itemsByModules = await this.discover(context, iconsDst, "**/*.svg")

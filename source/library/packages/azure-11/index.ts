@@ -1,5 +1,4 @@
 import P from "path"
-import { promisify } from "util"
 import glob from "glob"
 import {
   PackageContext,
@@ -44,7 +43,7 @@ export class AzureV11Factory implements PackageFactory {
     cwd: string,
     globPattern: string
   ): Promise<Array<Item>> {
-    const discoveredSvg = await promisify(glob)(globPattern, {
+    const discoveredSvg = await glob(globPattern, {
       cwd,
       nodir: true,
     })

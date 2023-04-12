@@ -53,6 +53,12 @@ const argv = yargs
   .help().argv as YamlGeneratorArgs
 
 async function execute() {
+  // eslint-disable-next-line @typescript-eslint/no-var-requires
+  const version = require(P.join(
+    __dirname,
+    "../../../",
+    "package.json"
+  )).version
   const config: Config = {
     inputDirectories: argv.i,
     skipPatterns: argv.s,
@@ -63,7 +69,7 @@ async function execute() {
     library: {
       name: "tmorin/plantuml-libs",
       github: "https://github.com/tmorin/plantuml-libs",
-      version: require(P.join(__dirname, "../../../", "package.json")).version,
+      version,
     },
   }
   console.info("execute - config", config)

@@ -19,12 +19,16 @@ export interface LibraryFactory {
 export interface PackageContext extends FactoryContext {
   pkgTmpDirPath: string
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   debug(message?: any, ...optionalParams: any[]): void
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   info(message?: any, ...optionalParams: any[]): void
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   warn(message?: any, ...optionalParams: any[]): void
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   error(message?: any, ...optionalParams: any[]): void
 
   time(label?: string): void
@@ -54,18 +58,22 @@ export class DefaultPackageContext implements PackageContext {
     }
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   debug(message?: any, ...optionalParams: any[]): void {
     this.delegateToConsole.apply(this, ["debug", message, ...optionalParams])
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   info(message?: any, ...optionalParams: any[]): void {
     this.delegateToConsole.apply(this, ["info", message, ...optionalParams])
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   warn(message?: any, ...optionalParams: any[]): void {
     this.delegateToConsole.apply(this, ["warn", message, ...optionalParams])
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   error(message?: any, ...optionalParams: any[]): void {
     this.delegateToConsole.apply(this, ["error", message, ...optionalParams])
   }
@@ -80,7 +88,9 @@ export class DefaultPackageContext implements PackageContext {
 
   private delegateToConsole(
     level: string,
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     message?: any,
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     ...optionalParams: any[]
   ) {
     if (typeof message === "string") {

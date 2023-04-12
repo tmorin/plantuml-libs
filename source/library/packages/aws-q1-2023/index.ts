@@ -3,7 +3,6 @@ import glob from "glob"
 import Fe from "fs-extra"
 import { parse } from "csv-parse/sync"
 import F from "fs"
-import { promisify } from "util"
 import {
   PackageContext,
   PackageFactory,
@@ -58,7 +57,7 @@ export class AwsQ12023Factory implements PackageFactory {
     cwd: string,
     globPattern: string
   ): Promise<Array<Item>> {
-    const discoveredSvg = await promisify(glob)(globPattern, {
+    const discoveredSvg = await glob(globPattern, {
       cwd,
       nodir: true,
     })
@@ -142,23 +141,23 @@ export class AwsQ12023Factory implements PackageFactory {
     await Fe.copy(
       P.join(iconsZipDst, `Architecture-Service-Icons_${FOLDER_DATE}`),
       P.join(iconsDst, "architecture"),
-      { overwrite: false, recursive: true }
+      { overwrite: false }
     )
     await Fe.mkdir(P.join(iconsDst, "category"), { recursive: true })
     await Fe.copy(
       P.join(iconsZipDst, `Category-Icons_${FOLDER_DATE}`),
       P.join(iconsDst, "category"),
-      { overwrite: false, recursive: true }
+      { overwrite: false }
     )
     await Fe.mkdir(P.join(iconsDst, "resource"), { recursive: true })
     await Fe.copy(
       P.join(iconsZipDst, `Resource-Icons_${FOLDER_DATE}`),
       P.join(iconsDst, "resource"),
-      { overwrite: false, recursive: true }
+      { overwrite: false }
     )
 
     await Fe.copy(P.join(__dirname, "icons"), iconsDst, {
-      recursive: true,
+
       overwrite: true,
     })
 

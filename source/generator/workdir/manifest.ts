@@ -97,6 +97,7 @@ export interface IconShape extends Shape {
   type: "Icon"
   stereotype_name?: string
   properties?: {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     [key: string]: any
   }
 }
@@ -105,6 +106,7 @@ export interface IconCardShape extends Shape {
   type: "IconCard"
   stereotype_name?: string
   properties?: {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     [key: string]: any
   }
 }
@@ -113,6 +115,7 @@ export interface IconGroupShape extends Shape {
   type: "IconGroup"
   stereotype_name?: string
   properties?: {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     [key: string]: any
   }
 }
@@ -121,6 +124,7 @@ export interface GroupShape extends Shape {
   type: "Group"
   stereotype_name?: string
   properties?: {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     [key: string]: any
   }
 }
@@ -128,6 +132,7 @@ export interface GroupShape extends Shape {
 export interface CustomShape extends Shape {
   type: "Custom"
   properties?: {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     [key: string]: any
   }
 }

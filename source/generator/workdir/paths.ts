@@ -39,7 +39,6 @@ export async function copyTemplates(workDirPath: string) {
   const tplDirPath = getTplDirPath(workDirPath)
   await Fe.ensureDir(tplDirPath)
   await Fe.copy(TPL_SRC_PATH, tplDirPath, {
-    recursive: true,
     overwrite: true,
   })
 }

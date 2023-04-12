@@ -1,7 +1,4 @@
-import {
-  PackageContext,
-  PackageFactory,
-} from "../../../generator/workdir/factories"
+import { PackageFactory } from "../../../generator/workdir/factories"
 import { Package } from "../../../generator/workdir/manifest"
 import { toSnakeCase } from "../../../generator/workdir/naming"
 
@@ -10,7 +7,7 @@ export class C4nordFactory implements PackageFactory {
     return "c4nord"
   }
 
-  async create(context: PackageContext): Promise<Package> {
+  async create(): Promise<Package> {
     return {
       urn: this.getUrn(),
       modules: [],

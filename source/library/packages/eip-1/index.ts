@@ -10,7 +10,6 @@ import { toCamelCase, toSnakeCase } from "../../../generator/workdir/naming"
 import { unifyItems } from "../../../generator/workdir/discovery"
 import { getAbsoluteImagePath } from "../../../generator/workdir/paths"
 import Fe from "fs-extra"
-import { promisify } from "util"
 
 const iconsVersion = "1.2"
 const iconsUrl = `https://github.com/codeclou/enterprise-integration-pattern-shapes-for-gliffy/archive/refs/tags/${iconsVersion}.zip`
@@ -25,7 +24,7 @@ export class Eip1Factory implements PackageFactory {
     cwd: string,
     globPattern: string
   ): Promise<Array<Item>> {
-    const discoveredSvg = await promisify(glob)(globPattern, {
+    const discoveredSvg = await glob(globPattern, {
       cwd,
       nodir: true,
     })
@@ -60,7 +59,7 @@ export class Eip1Factory implements PackageFactory {
               all.push(`${last}-${current}`)
             }
             return all
-          }, <Array<String>>[])
+          }, <Array<string>>[])
         const imageDstPath = [
           [this.getUrn()],
           ...parts.slice(0, -1).map(toCamelCase),
@@ -68,8 +67,8 @@ export class Eip1Factory implements PackageFactory {
             .slice(-1)
             .map((e) => e.replace(P.extname(imageName), ".png"))
             .map((value) => {
-              let basename = P.basename(value, P.extname(value))
-              let camelName = toCamelCase(basename)
+              const basename = P.basename(value, P.extname(value))
+              const camelName = toCamelCase(basename)
               return `${camelName}${P.extname(value)}`
             }),
         ].join(P.sep)
@@ -116,7 +115,6 @@ export class Eip1Factory implements PackageFactory {
     const additionalIconsDst = P.join(context.pkgTmpDirPath, "additional_icons")
 
     await Fe.copy(P.join(__dirname, "icons"), additionalIconsDst, {
-      recursive: true,
       overwrite: true,
     })
     const additionalItems = await this.discover(

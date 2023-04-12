@@ -76,5 +76,4 @@ const create: LibraryFactory = async (context): Promise<Library> => {
     tera_discovery_pattern: "source/templates/**/*",
   }
 }
-
 export default create

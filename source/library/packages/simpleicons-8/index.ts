@@ -8,7 +8,6 @@ import { fetchArchive } from "../../../generator/workdir/archive"
 import glob from "glob"
 import { getAbsoluteImagePath } from "../../../generator/workdir/paths"
 import { toCamelCase } from "../../../generator/workdir/naming"
-import { promisify } from "util"
 import { unifyItems } from "../../../generator/workdir/discovery"
 
 const ICONS_VERSION = "8.4.0"
@@ -26,7 +25,7 @@ export class Simpleicons8Factory implements PackageFactory {
     cwd: string,
     globPattern: string
   ): Promise<ItemsByModules> {
-    const discoveredSvg = await promisify(glob)(globPattern, {
+    const discoveredSvg = await glob(globPattern, {
       cwd,
       nodir: true,
     })

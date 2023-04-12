@@ -8,7 +8,6 @@ import Fe from "fs-extra"
 import glob from "glob"
 import { getAbsoluteImagePath } from "../../../generator/workdir/paths"
 import { toCamelCase, toSnakeCase } from "../../../generator/workdir/naming"
-import { promisify } from "util"
 import { unifyItems } from "../../../generator/workdir/discovery"
 
 type ItemsByModules = { [key: string]: Array<Item> }
@@ -33,7 +32,7 @@ export class Homecloud2Factory implements PackageFactory {
     cwd: string,
     globPattern: string
   ): Promise<ItemsByModules> {
-    const discoveredSvg = await promisify(glob)(globPattern, {
+    const discoveredSvg = await glob(globPattern, {
       cwd,
       nodir: true,
     })
@@ -89,7 +88,6 @@ export class Homecloud2Factory implements PackageFactory {
     const iconsDst = P.join(context.pkgTmpDirPath, "icons")
 
     await Fe.copy(P.join(__dirname, "icons"), iconsDst, {
-      recursive: true,
       overwrite: true,
     })
     const itemsByModules = await this.discover(context, iconsDst, "**/*.svg")

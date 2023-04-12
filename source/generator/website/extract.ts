@@ -1,7 +1,6 @@
 import { Stage } from "./stage"
 import P from "path"
 import { InputResource } from "./resource"
-import U from "util"
 import { glob } from "glob"
 import { Sitemap } from "./sitemap"
 import { Config } from "./config"
@@ -20,7 +19,7 @@ export class ExtractStage implements Stage<void, ExtractStageOutput> {
 
   async scanDirectory(inputDirectory: string): Promise<Array<InputResource>> {
     return (
-      await U.promisify(glob)("**/*", {
+      await glob("**/*", {
         nodir: true,
         cwd: inputDirectory,
         ignore: this.config.skipPatterns,
