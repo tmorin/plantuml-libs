@@ -101,9 +101,11 @@ async function cleanLatestRun() {
 async function cleanDirectory(directory, ...patterns) {
   console.info("clean directory (%s) with (%s)", directory, patterns)
   for (const pattern of patterns) {
-    const files = glob.sync(pattern, {
-      cwd: directory,
-    })
+    const files = glob
+      .sync(pattern, {
+        cwd: directory,
+      })
+      .sort()
     for (const file of files) {
       const filePath = P.join(directory, file)
       console.info("delete (%s)", filePath)
@@ -114,9 +116,11 @@ async function cleanDirectory(directory, ...patterns) {
 
 async function parseDirectory(directory, latestRun) {
   console.info("parse directory (%s)", directory)
-  const sources = glob.sync(`**/*.{puml,plantuml}`, {
-    cwd: directory,
-  })
+  const sources = glob
+    .sync(`**/*.{puml,plantuml}`, {
+      cwd: directory,
+    })
+    .sort()
   for (const source of sources) {
     const file = P.join(directory, source)
     const stat = F.statSync(file)

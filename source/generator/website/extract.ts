@@ -24,10 +24,12 @@ export class ExtractStage implements Stage<void, ExtractStageOutput> {
         cwd: inputDirectory,
         ignore: this.config.skipPatterns,
       })
-    ).map((relInputPath) => ({
-      relInputPath,
-      absInputPath: P.join(inputDirectory, relInputPath),
-    }))
+    )
+      .sort()
+      .map((relInputPath) => ({
+        relInputPath,
+        absInputPath: P.join(inputDirectory, relInputPath),
+      }))
   }
 
   async execute(): Promise<ExtractStageOutput> {

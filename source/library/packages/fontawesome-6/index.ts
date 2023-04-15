@@ -36,10 +36,12 @@ export class Fontawesome6Factory implements PackageFactory {
     cwd: string,
     globPattern: string
   ): Promise<ItemsByModules> {
-    const discoveredSvg = await glob(globPattern, {
-      cwd,
-      nodir: true,
-    })
+    const discoveredSvg = (
+      await glob(globPattern, {
+        cwd,
+        nodir: true,
+      })
+    ).sort()
     context.info(
       "discovered %s pictures file from %s",
       discoveredSvg.length,

@@ -1,11 +1,17 @@
-import P from "path";
-import glob from "glob";
-import { PackageContext, PackageFactory } from "../../../generator/workdir/factories";
-import { Item, Package } from "../../../generator/workdir/manifest";
-import { fetchArchive } from "../../../generator/workdir/archive";
-import { getAbsoluteImagePath } from "../../../generator/workdir/paths";
-import { toCamelCase, toSnakeCase } from "../../../generator/workdir/naming";
-import { csvToCustomGroups, unifyItems } from "../../../generator/workdir/discovery";
+import P from "path"
+import glob from "glob"
+import {
+  PackageContext,
+  PackageFactory,
+} from "../../../generator/workdir/factories"
+import { Item, Package } from "../../../generator/workdir/manifest"
+import { fetchArchive } from "../../../generator/workdir/archive"
+import { getAbsoluteImagePath } from "../../../generator/workdir/paths"
+import { toCamelCase, toSnakeCase } from "../../../generator/workdir/naming"
+import {
+  csvToCustomGroups,
+  unifyItems,
+} from "../../../generator/workdir/discovery"
 
 // https://cloud.google.com/icons/
 const ICONS_URL = "https://cloud.google.com/icons/files/google-cloud-icons.zip"
@@ -38,10 +44,12 @@ export class GcpFactory implements PackageFactory {
     cwd: string,
     globPattern: string
   ): Promise<Array<Item>> {
-    const discoveredSvg = await glob(globPattern, {
-      cwd,
-      nodir: true,
-    })
+    const discoveredSvg = (
+      await glob(globPattern, {
+        cwd,
+        nodir: true,
+      })
+    ).sort()
     context.info(
       "discovered %s pictures file from %s",
       discoveredSvg.length,
