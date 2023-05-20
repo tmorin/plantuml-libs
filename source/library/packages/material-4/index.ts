@@ -5,7 +5,7 @@ import {
 import { Item, Package } from "../../../generator/workdir/manifest"
 import P from "path"
 import { fetchArchive } from "../../../generator/workdir/archive"
-import glob from "glob"
+import { glob } from "glob"
 import { getAbsoluteImagePath } from "../../../generator/workdir/paths"
 import { toCamelCase } from "../../../generator/workdir/naming"
 import { unifyItems } from "../../../generator/workdir/discovery"

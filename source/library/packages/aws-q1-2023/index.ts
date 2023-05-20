@@ -1,5 +1,5 @@
 import P from "path"
-import glob from "glob"
+import { glob } from "glob"
 import Fe from "fs-extra"
 import { parse } from "csv-parse/sync"
 import F from "fs"

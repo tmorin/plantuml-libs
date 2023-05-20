@@ -5,7 +5,7 @@ import {
 import { Item, Package } from "../../../generator/workdir/manifest"
 import P from "path"
 import Fe from "fs-extra"
-import glob from "glob"
+import { glob } from "glob"
 import { getAbsoluteImagePath } from "../../../generator/workdir/paths"
 import { toCamelCase, toSnakeCase } from "../../../generator/workdir/naming"
 import { unifyItems } from "../../../generator/workdir/discovery"

@@ -4,7 +4,7 @@ import {
 } from "../../../generator/workdir/factories"
 import { Item, Package } from "../../../generator/workdir/manifest"
 import P from "path"
-import glob from "glob"
+import { glob } from "glob"
 import { fetchArchive } from "../../../generator/workdir/archive"
 import { toCamelCase, toSnakeCase } from "../../../generator/workdir/naming"
 import { unifyItems } from "../../../generator/workdir/discovery"
@@ -127,16 +127,15 @@ export class Eip1Factory implements PackageFactory {
 
     const elementItems = unifyItems([...additionalItems, ...originalItems])
 
-    const itemsByModules = elementItems
-      .sort((a, b) => a.urn.localeCompare(b.urn))
-      .reduce((urns, item) => {
-        const urn = item.urn.split(P.sep).slice(0, 2).join("/")
-        if (!urns[urn]) {
-          urns[urn] = []
-        }
-        urns[urn].push(item)
-        return urns
-      }, {})
+    elementItems.sort((a, b) => a.urn.localeCompare(b.urn))
+    const itemsByModules = elementItems.reduce((urns, item) => {
+      const urn = item.urn.split(P.sep).slice(0, 2).join("/")
+      if (!urns[urn]) {
+        urns[urn] = []
+      }
+      urns[urn].push(item)
+      return urns
+    }, {})
 
     return {
       urn: this.getUrn(),
