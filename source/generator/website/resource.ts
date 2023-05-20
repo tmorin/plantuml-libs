@@ -158,7 +158,10 @@ export class MdtoHtmlResource extends TransformedResource {
         P.basename(this.absOutputPath, ".html")
       ).replace(/\/index$/g, ""),
       content: marked
-        .parse(contentAsMd, {})
+        .parse(contentAsMd, {
+          mangle: false,
+          headerIds: false,
+        })
         .replace(/README\.md/g, "")
         .replace(/\.md/g, ".html"),
       summary: SideSummaryAsHtml.create(
