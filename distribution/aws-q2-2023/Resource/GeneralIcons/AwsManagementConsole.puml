@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2023/Resource/GeneralIcons/AwsManagementConsole
+
+sprite $AwsManagementConsoleXs [10x10/16z] Oq00NXXWO61c1OimCJ006N0M4oiJAuJ5pC30ZYuBrCQB8WO7
+
+sprite $AwsManagementConsoleSm [12x12/16z] JSR50SC0400Wwit9_kF6ZHVkukBnUDYa60xb4V12hYzg_oFesC_7zSTnAbwaLpnswMO2
+
+sprite $AwsManagementConsoleMd [16x16/16z] XOs30GGn50Kdrhl-oxsrDSct-49sZsWPaxSgAdj4exAnn5QXxM8v8ASrRe9OwnOJVuPztFzTB4FRpsEb_Vxz_GEP4nq
+
+sprite $AwsManagementConsoleLg [20x20/16z] ZSu54iGW40NHnc7gp_sFkoxnfF5N1bUJBqk848ZyYqzBYRAmiSWI8XQcnObLRmkBNfvhQbqyqvXQyYSrcnhO42mCSMx1Ao9xdXXaIMtvPofyhG_hqqRYOdS
+
+!procedure AwsManagementConsole($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Resource/GeneralIcons/AwsManagementConsole', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsManagementConsoleCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsManagementConsoleLg>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+
+!procedure AwsManagementConsoleGroup($id, $name='Aws Management Console', $tech='')
+  IconGroupElement($id, 'GeneralIconsFamily', '<$AwsManagementConsoleLg>', $name, $tech)
+!endprocedure

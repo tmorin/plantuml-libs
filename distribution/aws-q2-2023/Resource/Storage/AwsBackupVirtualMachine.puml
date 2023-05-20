@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2023/Resource/Storage/AwsBackupVirtualMachine
+
+sprite $AwsBackupVirtualMachineXs [10x10/16z] HKg50G101DJsd_WJ9wy8bVZoGF2ZLePMHZxtB5vs9F__aeSKvzm
+
+sprite $AwsBackupVirtualMachineSm [12x12/16z] LOg50G01209jzj_uaMziJliAVYqE7Xp3lTbsa5qQajHRGGPQveklAqsA_5F9csqBitb17
+
+sprite $AwsBackupVirtualMachineMd [16x16/16z] NSp50GH130Cm3SNzLtouh5VGdf9YKud4eQqeXRI99VxIoaKOYyssoxz9nYL-oziqL3z2vmGAndIOSwMvo95IRQ6g8IABGoB9fQqt
+
+sprite $AwsBackupVirtualMachineLg [20x20/16z] {
+ROs73SGm4CEaQzf_ul_4tK28GX_Ty8KUxf7ePUDlGuzHR2d9jrXhVQz0Ob8KRYX6t36oITn9FXSnVDxnDj4WRB9DfSpzIixhfjlOFsRYegJMBnpQj-3LF0GI
+yaI3NNgRI6ne8iYxaVW3
+}
+
+!procedure AwsBackupVirtualMachine($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Resource/Storage/AwsBackupVirtualMachine', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsBackupVirtualMachineCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsBackupVirtualMachineLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AwsBackupVirtualMachineGroup($id, $name='Aws Backup Virtual Machine', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AwsBackupVirtualMachineLg>', $name, $tech)
+!endprocedure

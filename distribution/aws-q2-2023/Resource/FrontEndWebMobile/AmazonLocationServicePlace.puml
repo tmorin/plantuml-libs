@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2023/Resource/FrontEndWebMobile/AmazonLocationServicePlace
+
+sprite $AmazonLocationServicePlaceXs [10x10/16z] 1S490G0m20GWzgdNl_0000GDuL5WYmTAD08sz54R0C034FW
+
+sprite $AmazonLocationServicePlaceSm [12x12/16z] NKi30W0W4Djo_tzmnba3J5JFcFUPrYnd58x1SUSrnvvg8A3CiUAxcAvrstdFVNtYHrsp0m
+
+sprite $AmazonLocationServicePlaceMd [16x16/16z] RK-50SH0329Ezn_ufNQkSG3RTP2irqixlvBB3NdYrrU0XH00Jr-0umfV8tJownVgwmFZF9HTdpu9eO8v44JrBWWPVCjPqUG_-Iy
+
+sprite $AmazonLocationServicePlaceLg [20x20/16z] {
+TO-54S0m30FDiF_2lO1TLlYb4FmBBSBrXjBc47wYg0atpD7Ht2csJHvHHfVo0NpujDUApRIEbSLilcNaTg3MvXhOvvtZiAZVXuNqj3rva1ofKqgTFcNzmrC9
+-cAk-6ASy1AUxDIvzG
+}
+
+!procedure AmazonLocationServicePlace($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Resource/FrontEndWebMobile/AmazonLocationServicePlace', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonLocationServicePlaceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonLocationServicePlaceLg>', 'FrontEndWebMobile', $funcName, $content)
+!endprocedure
+
+!procedure AmazonLocationServicePlaceGroup($id, $name='Amazon Location Service Place', $tech='')
+  IconGroupElement($id, 'FrontEndWebMobileFamily', '<$AmazonLocationServicePlaceLg>', $name, $tech)
+!endprocedure

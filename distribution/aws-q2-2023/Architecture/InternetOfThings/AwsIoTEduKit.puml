@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2023/Architecture/InternetOfThings/AwsIoTEduKit
+
+sprite $AwsIoTEduKitXs [10x10/16z] RSY50GD1200mECl-4xVl7XoVCeO0qGmvcDl-rDCgf0fIwbRLpHy
+
+sprite $AwsIoTEduKitSm [12x12/16z] TSo53G0120F052hxJ_pkSX6S_5C4hIdBw1ZEn50QMNXTt117Ac3lcmHrUNjYdaO
+
+sprite $AwsIoTEduKitMd [16x16/16z] bSYt0SG03CF0bqGI-q_yoRcphmDupcLQfQsdenhmklGT78bDvXl3ebDyfJbCYREkEYAURx-QJOMYYqER2nVtV
+
+sprite $AwsIoTEduKitLg [20x20/16z] hSn50WH134BH4E7V_yJZRRMTVhi8y2S3J9aJAMpJKMoSEPDPG6jRH_IlGM6-X4ezgHORZNz_mIPSPM1apYPLh2QJYqX68ehTKB9A10Sr23HSQ9gLghd14m
+
+!procedure AwsIoTEduKit($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Architecture/InternetOfThings/AwsIoTEduKit', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTEduKitCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTEduKitLg>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTEduKitGroup($id, $name='Aws Io T Edu Kit', $tech='')
+  IconGroupElement($id, 'InternetOfThingsFamily', '<$AwsIoTEduKitLg>', $name, $tech)
+!endprocedure

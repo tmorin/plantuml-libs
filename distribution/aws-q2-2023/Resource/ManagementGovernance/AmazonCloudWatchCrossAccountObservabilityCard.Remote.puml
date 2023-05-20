@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2023/bootstrap')
+
+' loads the Item which embeds the element AmazonCloudWatchCrossAccountObservabilityCard
+include('aws-q2-2023/Resource/ManagementGovernance/AmazonCloudWatchCrossAccountObservability')
+
+' renders the element
+AmazonCloudWatchCrossAccountObservabilityCard('AmazonCloudWatchCrossAccountObservabilityCard', 'Amazon Cloud Watch Cross Account Observability Card', 'an optional description')
+@enduml

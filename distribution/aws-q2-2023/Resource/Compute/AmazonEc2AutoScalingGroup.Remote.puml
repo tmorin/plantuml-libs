@@ -1,0 +1,20 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2023/bootstrap')
+
+' loads the Item which embeds the element AmazonEc2AutoScalingGroup
+include('aws-q2-2023/Resource/Compute/AmazonEc2AutoScaling')
+
+' renders the element
+AmazonEc2AutoScalingGroup('AmazonEc2AutoScalingGroup', 'Amazon Ec2 Auto Scaling Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

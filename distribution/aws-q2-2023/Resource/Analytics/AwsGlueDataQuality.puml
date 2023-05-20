@@ -1,0 +1,27 @@
+' definition of the Item aws-q2-2023/Resource/Analytics/AwsGlueDataQuality
+
+sprite $AwsGlueDataQualityXs [10x10/16z] HKg30G012Cor_yAFp1DSnRTaYVPauGGYCF_lIQGLXfaC9KMM2J8ec27_GNy1
+
+sprite $AwsGlueDataQualitySm [12x12/16z] JOo50KGn348ZlxpiF_5TlN41xBLFuK6EEKRrMON0xgLGRxquGVNUL1sI4qDMMUkOCF4_hRjLVXbSVHbTZw4FFm
+
+sprite $AwsGlueDataQualityMd [16x16/16z] {
+PKu70i1014D8_F_3tVEklOKicxxibhhzAlkw8_-rwxmL4YbvNVMbmlpKJYGO1n_RmLs-USx5mcvWo0lFD0IiUFdbDgTv77CIHkq1-EW7KM3exw-zg7hZzZ45
+fIVS2W
+}
+
+sprite $AwsGlueDataQualityLg [20x20/16z] {
+RP3LeG1120EH9Kd_3J-1S_cQcyNj-mjG8l8qhXm8ONSydtN0GNawAn6Wc7MuivS_dSg3k3c593hdHz4AFTVATZrOJVYQtfho6gpJ-P91RhR6TLaYfXCdZb9L
+gCoLMfTPkB9MA92divulOIWp-FsMLdy2Gdeaf9uGd21tRnYsNm
+}
+
+!procedure AwsGlueDataQuality($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Resource/Analytics/AwsGlueDataQuality', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsGlueDataQualityCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsGlueDataQualityLg>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AwsGlueDataQualityGroup($id, $name='Aws Glue Data Quality', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AwsGlueDataQualityLg>', $name, $tech)
+!endprocedure

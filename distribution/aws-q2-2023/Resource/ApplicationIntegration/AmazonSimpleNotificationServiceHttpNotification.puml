@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2023/Resource/ApplicationIntegration/AmazonSimpleNotificationServiceHttpNotification
+
+sprite $AmazonSimpleNotificationServiceHttpNotificationXs [10x10/16z] Oq00PWOam082h50EEmCZ0mSCC10Dc9WOGGGJ
+
+sprite $AmazonSimpleNotificationServiceHttpNotificationSm [12x12/16z] RSp50S0m30J1jSNz5npcU8IluwcQSsganmxFnaf86gTaJ5-_91BdlhfUENht3
+
+sprite $AmazonSimpleNotificationServiceHttpNotificationMd [16x16/16z] POq50W0W20E7lVy_s6vk1Wr-X9JRPpkVBt71KUySu8rjsTYAcky4pMUw8NxSutcanq-mZsyXZyR68whw7puA1G
+
+sprite $AmazonSimpleNotificationServiceHttpNotificationLg [20x20/16z] {
+RSY5ZK0n50CmvvNt7_WOgsz1mADvbiji7FyTBFc3XQF_6iLP9wABMesK1g8ZgqWv89f8HvMvRz6rOMZD-6ent6Aw99uSOzlcjBzQUNBqPHd3-chboN19J2ab
+KP-j8lSNhm
+}
+
+!procedure AmazonSimpleNotificationServiceHttpNotification($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Resource/ApplicationIntegration/AmazonSimpleNotificationServiceHttpNotification', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonSimpleNotificationServiceHttpNotificationCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonSimpleNotificationServiceHttpNotificationLg>', 'ApplicationIntegration', $funcName, $content)
+!endprocedure
+
+!procedure AmazonSimpleNotificationServiceHttpNotificationGroup($id, $name='Amazon Simple Notification Service Http Notification', $tech='')
+  IconGroupElement($id, 'ApplicationIntegrationFamily', '<$AmazonSimpleNotificationServiceHttpNotificationLg>', $name, $tech)
+!endprocedure

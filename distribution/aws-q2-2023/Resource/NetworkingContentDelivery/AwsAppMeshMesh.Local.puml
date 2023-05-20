@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2023/bootstrap')
+
+' loads the Item which embeds the element AwsAppMeshMesh
+include('aws-q2-2023/Resource/NetworkingContentDelivery/AwsAppMeshMesh')
+
+' renders the element
+AwsAppMeshMesh('AwsAppMeshMesh', 'Aws App Mesh Mesh', 'an optional tech label', 'an optional description')
+@enduml

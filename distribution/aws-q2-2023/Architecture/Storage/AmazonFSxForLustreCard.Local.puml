@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2023/bootstrap')
+
+' loads the Item which embeds the element AmazonFSxForLustreCard
+include('aws-q2-2023/Architecture/Storage/AmazonFSxForLustre')
+
+' renders the element
+AmazonFSxForLustreCard('AmazonFSxForLustreCard', 'Amazon F Sx For Lustre Card', 'an optional description')
+@enduml

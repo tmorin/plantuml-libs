@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2023/bootstrap')
+
+' loads the Item which embeds the element AwsApplicationDiscoveryServiceMigrationEvaluatorCollectorCard
+include('aws-q2-2023/Resource/MigrationTransfer/AwsApplicationDiscoveryServiceMigrationEvaluatorCollector')
+
+' renders the element
+AwsApplicationDiscoveryServiceMigrationEvaluatorCollectorCard('AwsApplicationDiscoveryServiceMigrationEvaluatorCollectorCard', 'Aws Application Discovery Service Migration Evaluator Collector Card', 'an optional description')
+@enduml

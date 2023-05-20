@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2023/Architecture/BusinessApplications/AmazonWorkMail
+
+sprite $AmazonWorkMailXs [10x10/16z] uyGA6C0a8up9p0eLPUQ4i3XPE64iJdGMAnWm8va6
+
+sprite $AmazonWorkMailSm [12x12/16z] XSQr0G0X002nL-3s7nXtJHMMhZluxPyRv_FdTYMSspRTjfp3_qXICm
+
+sprite $AmazonWorkMailMd [16x16/16z] dSUr0S0m00D1oS7VV-20kGhukkFTNgLhorR5RoRQvv2EKod7iUs8cVwn_Hc_Go5UdG
+
+sprite $AmazonWorkMailLg [20x20/16z] jSh50G113CF0nIJgl-1ZPjHpRDubSLfhqKrsRwtX1qgvDrn7aT7mxOkfuPhNtF2IM1g9jV6hvKcnDMmQroi1
+
+!procedure AmazonWorkMail($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Architecture/BusinessApplications/AmazonWorkMail', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonWorkMailCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonWorkMailLg>', 'BusinessApplications', $funcName, $content)
+!endprocedure
+
+!procedure AmazonWorkMailGroup($id, $name='Amazon Work Mail', $tech='')
+  IconGroupElement($id, 'BusinessApplicationsFamily', '<$AmazonWorkMailLg>', $name, $tech)
+!endprocedure

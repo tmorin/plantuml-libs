@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2023/Architecture/MachineLearning/TorchServe
+
+sprite $TorchServeXs [10x10/16z] uy09s20KEmS70qAG1KGmeN8HW05ACQAA0m
+
+sprite $TorchServeSm [12x12/16z] uo0Mi04XdCa1up23ILOaTOmOR2OWHj7019DdPyEm1W
+
+sprite $TorchServeMd [16x16/16z] dKg34G1139mu_JVynbdXojSACmhmqnEgVfIYvown_WKXux60yHUFWgp-bIAm3zKE
+
+sprite $TorchServeLg [20x20/16z] hP253S0m30JD_lqNBjChukO4PiGC6YC657lA0EkaGWUGGbb-AVxwz5QYdyfw9mqAeEnZDIZlSPB6AmXUB8_voXyGKGdyPmK
+
+!procedure TorchServe($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Architecture/MachineLearning/TorchServe', $name, $tech, $desc)
+!endprocedure
+
+!procedure TorchServeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$TorchServeLg>', 'MachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure TorchServeGroup($id, $name='Torch Serve', $tech='')
+  IconGroupElement($id, 'MachineLearningFamily', '<$TorchServeLg>', $name, $tech)
+!endprocedure

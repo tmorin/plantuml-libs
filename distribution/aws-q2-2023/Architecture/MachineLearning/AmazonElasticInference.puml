@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2023/Architecture/MachineLearning/AmazonElasticInference
+
+sprite $AmazonElasticInferenceXs [10x10/16z] ROQ50S0W40C3RxV_mdKlqMEiGhPJs85Tz8w0TRh52gw2OjNz7RouDGC
+
+sprite $AmazonElasticInferenceSm [12x12/16z] VS6t0G81400WBxF_nFQ61q_Y0f2DEL32na8e5mpYNjH48-yI1gheMR21ji3wyWO
+
+sprite $AmazonElasticInferenceMd [16x16/16z] dSVPbGCW34DHP41w_JSya_ZuEzlrAdwHKfqDemIGdSdR1BnCEueGGJId24jGdM-MmPOcamIujMZgYXcxLzYJNGSkXHXr0HFU-WS
+
+sprite $AmazonElasticInferenceLg [20x20/16z] {
+hSX5OGKm502mzc7y6nv-4B3b6F-WwCNR7kV8z1Qv1dENXsmvdCxX8RX3NSMFZZsNY62F7rdRcotqwWLfpzM4lA-RTHhkoVNZH3cnO3saCAlkzP8OjGGFSwyM
+zhXU8ihgilxc4m
+}
+
+!procedure AmazonElasticInference($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Architecture/MachineLearning/AmazonElasticInference', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonElasticInferenceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonElasticInferenceLg>', 'MachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure AmazonElasticInferenceGroup($id, $name='Amazon Elastic Inference', $tech='')
+  IconGroupElement($id, 'MachineLearningFamily', '<$AmazonElasticInferenceLg>', $name, $tech)
+!endprocedure

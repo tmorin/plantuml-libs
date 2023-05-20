@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2023/Resource/ManagementGovernance/AmazonCloudWatchDataProtection
+
+sprite $AmazonCloudWatchDataProtectionXs [10x10/16z] NOW50G0n30FpC3h_ViVSXdKTL47PGv-ahuQNz_rVZNkAM65p0lcvzJGl0G
+
+sprite $AmazonCloudWatchDataProtectionSm [12x12/16z] PSQ50G0X3C30u87zztttFsWR_g9NLcu3Q112s5is3hNBpUk6g-dSNK522CImwZpC
+
+sprite $AmazonCloudWatchDataProtectionMd [16x16/16z] ZSc54S0m3CLG1VtT_GSkC-KTwaGhZz4Ps6X81iwcczv3Qt3xMZbdXxQwju0wjmsc3k7ykJPJQr2B5eMB7W
+
+sprite $AmazonCloudWatchDataProtectionLg [20x20/16z] bSe55a8X00NHeU7jVy5AO_ilFGUkivB2Kqg0gnj5LGPH5RRPl7bjhhPOFRN1MjdA1ykKxRJZPYnXeKJrDaH0H7Es38IIQQtehhUwFVyZFhTgjDXGufGiVxe1
+
+!procedure AmazonCloudWatchDataProtection($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Resource/ManagementGovernance/AmazonCloudWatchDataProtection', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonCloudWatchDataProtectionCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonCloudWatchDataProtectionLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AmazonCloudWatchDataProtectionGroup($id, $name='Amazon Cloud Watch Data Protection', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AmazonCloudWatchDataProtectionLg>', $name, $tech)
+!endprocedure

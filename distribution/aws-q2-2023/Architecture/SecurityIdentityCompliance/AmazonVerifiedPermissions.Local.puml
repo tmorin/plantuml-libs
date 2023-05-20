@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2023/bootstrap')
+
+' loads the Item which embeds the element AmazonVerifiedPermissions
+include('aws-q2-2023/Architecture/SecurityIdentityCompliance/AmazonVerifiedPermissions')
+
+' renders the element
+AmazonVerifiedPermissions('AmazonVerifiedPermissions', 'Amazon Verified Permissions', 'an optional tech label', 'an optional description')
+@enduml

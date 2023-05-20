@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2023/bootstrap')
+
+' loads the Item which embeds the element AwsTransferFamilyAwsFtpCard
+include('aws-q2-2023/Resource/MigrationTransfer/AwsTransferFamilyAwsFtp')
+
+' renders the element
+AwsTransferFamilyAwsFtpCard('AwsTransferFamilyAwsFtpCard', 'Aws Transfer Family Aws Ftp Card', 'an optional description')
+@enduml

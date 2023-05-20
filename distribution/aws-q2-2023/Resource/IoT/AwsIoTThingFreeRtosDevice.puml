@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2023/Resource/IoT/AwsIoTThingFreeRtosDevice
+
+sprite $AwsIoTThingFreeRtosDeviceXs [10x10/16z] ROp50S10409dbVuhZdiEVy4JsPAExH2Ge8MUz3R2rqOoNCD5REZ7tmm
+
+sprite $AwsIoTThingFreeRtosDeviceSm [12x12/16z] POs50S104CBo5lQVkEuzL-0dySoxD42ePSz8nrBskWr24AB3M4nGOhO8GfBpbp76NZSrqJVl3
+
+sprite $AwsIoTThingFreeRtosDeviceMd [16x16/16z] RS-x0SDG3CF0utCexRzn_ftHNGctZPN-bRpi3E3AgvDN0mas5_htxEc3OYQ6vUWKsOrrpQDuONBP6TDTnEPbLUI4VNbfeXDq5sqHQ54m_RVtFzJVJm
+
+sprite $AwsIoTThingFreeRtosDeviceLg [20x20/16z] {
+VP07SWH120DR34Z_Vx43kyw-QqrKTILuI6EoUTB9pcU6nIm5mD6tpbgb2kWEG4m2rBHkprJ0jpSEXDtdKFRbHMv2-ynwIJ09aGPNSdcAjkkXT7lWxGAV7YYT
+2Npt23c2xnx3IDmUpFc6kT2PSaNlqTEPwZC0hm
+}
+
+!procedure AwsIoTThingFreeRtosDevice($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Resource/IoT/AwsIoTThingFreeRtosDevice', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTThingFreeRtosDeviceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTThingFreeRtosDeviceLg>', 'IoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTThingFreeRtosDeviceGroup($id, $name='Aws Io T Thing Free Rtos Device', $tech='')
+  IconGroupElement($id, 'IoTFamily', '<$AwsIoTThingFreeRtosDeviceLg>', $name, $tech)
+!endprocedure

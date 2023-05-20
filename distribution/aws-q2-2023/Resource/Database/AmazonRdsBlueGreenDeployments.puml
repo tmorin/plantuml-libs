@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2023/Resource/Database/AmazonRdsBlueGreenDeployments
+
+sprite $AmazonRdsBlueGreenDeploymentsXs [10x10/16z] RKc50G112CAM_GV-xZ-3n6WOmGMomSNii8pii7H8q5UxrIgFbbczGk6Q6G
+
+sprite $AmazonRdsBlueGreenDeploymentsSm [12x12/16z] TSI50SC024JHZyF-0zSRpydZDb7-ru3-EzqVgn7Whur2eaMZe5OmD5e2u6XZm5yyZRV2Day
+
+sprite $AmazonRdsBlueGreenDeploymentsMd [16x16/16z] bKy50iGm2CC9___mfUU-hHQh8OSRqEWh5k5Ytd4GbhFGhURklw6pNpN6I7XJzorNciGggWbPBPaPDRjI1llpVNr7QG1r-T_aPZKd
+
+sprite $AmazonRdsBlueGreenDeploymentsLg [20x20/16z] {
+fT050iKW30FG86sQ-r_uezzzcRtXW8D9ATr9OTMa9LS0CLkKl5MRL1fCNNaBoTnIwYfJkyUj2gwIPvb9JO2tHwoN7YGZG2HUobhw_8eyobpSssWWNipxk8y4
+I6vKO8lhDDfhwuUS
+}
+
+!procedure AmazonRdsBlueGreenDeployments($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Resource/Database/AmazonRdsBlueGreenDeployments', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonRdsBlueGreenDeploymentsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonRdsBlueGreenDeploymentsLg>', 'Database', $funcName, $content)
+!endprocedure
+
+!procedure AmazonRdsBlueGreenDeploymentsGroup($id, $name='Amazon Rds Blue Green Deployments', $tech='')
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonRdsBlueGreenDeploymentsLg>', $name, $tech)
+!endprocedure

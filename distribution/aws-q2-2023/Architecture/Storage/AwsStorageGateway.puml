@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2023/Architecture/Storage/AwsStorageGateway
+
+sprite $AwsStorageGatewayXs [10x10/16z] OySE6DYPa7bGYe4Pp6G5qMmCO25M88iTAmi1
+
+sprite $AwsStorageGatewaySm [12x12/16z] VSQ53S0m44Kn7Vst_yHbRXABp41QNWNSznkhs1jH9Wfm116iPtq639-Wv6q6
+
+sprite $AwsStorageGatewayMd [16x16/16z] dOl50S0m30CZWsx_YSlmB5pG0luGrUAc01JDWIxv6jthjIkDx2Rw20OXiECghZEEvE2OUJkF0IXumGm
+
+sprite $AwsStorageGatewayLg [20x20/16z] fP055e0m34DNIRZ_ZPbBdo61sN_rwxzWne1I1ke7ycfZffkjJFk9r6POwPQU5rEMBSjy5T1o3cq6MK3EMst86T4j4Ot9oZpP93-PLtREWND_eHi
+
+!procedure AwsStorageGateway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Architecture/Storage/AwsStorageGateway', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsStorageGatewayCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsStorageGatewayLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AwsStorageGatewayGroup($id, $name='Aws Storage Gateway', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AwsStorageGatewayLg>', $name, $tech)
+!endprocedure

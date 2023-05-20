@@ -1,0 +1,37 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION=".."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2023/bootstrap')
+
+include("aws-q2-2023/Group/GroupAwsCloud")
+include("aws-q2-2023/Group/GroupAvailabilityZone")
+include("aws-q2-2023/Group/GroupVpc")
+include("aws-q2-2023/Group/GroupPublicSubnet")
+include("aws-q2-2023/Resource/Compute/AmazonEc2Instance")
+include("aws-q2-2023/Resource/NetworkingContentDelivery/AmazonVpcInternetGateway")
+
+GroupAwsCloud('aws') {
+    GroupAvailabilityZone('az') {
+        GroupVpc('vpc', 'VPC', '10.0.0.0/16') {
+            AmazonVpcInternetGateway('gateway', 'Internet gateway')
+            GroupPublicSubnet('pubnet', 'Public subnet', '10.0.0.0/19') {
+                AmazonEc2Instance('instance1', 'Chef Automate')
+                AmazonEc2Instance('instance2', 'Chef workstation (local Chef repo)')
+                AmazonEc2Instance('instance3', 'Chef node')
+            }
+        }
+    }
+}
+
+gateway -[hidden]-> instance1
+instance1 -down-> instance2
+instance2 -> instance3
+instance3 -up-> instance1
+
+@enduml

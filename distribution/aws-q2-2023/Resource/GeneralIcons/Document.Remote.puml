@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2023/bootstrap')
+
+' loads the Item which embeds the element Document
+include('aws-q2-2023/Resource/GeneralIcons/Document')
+
+' renders the element
+Document('Document', 'Document', 'an optional tech label', 'an optional description')
+@enduml

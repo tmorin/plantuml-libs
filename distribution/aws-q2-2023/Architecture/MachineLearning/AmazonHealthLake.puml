@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2023/Architecture/MachineLearning/AmazonHealthLake
+
+sprite $AmazonHealthLakeXs [10x10/16z] uy0Es1auMDZH1Hc040fOW1Y3pG9XiW81iZm7
+
+sprite $AmazonHealthLakeSm [12x12/16z] TOkr0G0W40DVG_PV69UAgwByawugNgPsgWbzQpAsxgx4LdtPvTa_F3Fx7LC3e4KEZUXWoaS3
+
+sprite $AmazonHealthLakeMd [16x16/16z] dKg50S0W3Akt_p-Cpdq4YSO0aDHCdMJo74Q4XPkRs7RUO-tD38c32qU3boSJJ_i6cRstAS2k1nNOzY2pHwhmQV-C3
+
+sprite $AmazonHealthLakeLg [20x20/16z] fSg50GCW30H0OlplFt5ngDiXKVuDi0805m4JIGUCKycIgaRBcbUPuknbCWKjjQm9BQ12hJY0XQ-iiLUP--vbASY0ucRFqLvdo0LTwS91eaDfBUW8VkC2
+
+!procedure AmazonHealthLake($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Architecture/MachineLearning/AmazonHealthLake', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonHealthLakeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonHealthLakeLg>', 'MachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure AmazonHealthLakeGroup($id, $name='Amazon Health Lake', $tech='')
+  IconGroupElement($id, 'MachineLearningFamily', '<$AmazonHealthLakeLg>', $name, $tech)
+!endprocedure

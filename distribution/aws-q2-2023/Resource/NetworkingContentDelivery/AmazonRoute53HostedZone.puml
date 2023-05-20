@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2023/Resource/NetworkingContentDelivery/AmazonRoute53HostedZone
+
+sprite $AmazonRoute53HostedZoneXs [10x10/16z] Oq02723432OXW9c1dG4DCC9aKJIY605M1X5Y1bC
+
+sprite $AmazonRoute53HostedZoneSm [12x12/16z] DSkv0G0m20GWygdxJvpgw07YBOR6uh2tPiGXXiWXCSeMhG0kTB7wfWtu
+
+sprite $AmazonRoute53HostedZoneMd [16x16/16z] POk50G0n20Dnil_2BtMvAX6wYNvP6LNIFHa6mJ_x6YrxakKCcDUvPJ5d-JD24vGzqLxlyEMpBsu9Pt2P3DgDT8RGIhTU
+
+sprite $AmazonRoute53HostedZoneLg [20x20/16z] {
+ZO-50G0X30FhoVuBlxlYSDN8ouZfzF7G1ILhE4aVE3aXgs4X1m24U8wCSXevkjUP6OO3PyRfp7FidQbDI4z-UAexYZYxJJwGDfOFJFXGLq3RkWCtZSKO0U8K
+ucJ9n-W1
+}
+
+!procedure AmazonRoute53HostedZone($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Resource/NetworkingContentDelivery/AmazonRoute53HostedZone', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonRoute53HostedZoneCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonRoute53HostedZoneLg>', 'NetworkingContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AmazonRoute53HostedZoneGroup($id, $name='Amazon Route53 Hosted Zone', $tech='')
+  IconGroupElement($id, 'NetworkingContentDeliveryFamily', '<$AmazonRoute53HostedZoneLg>', $name, $tech)
+!endprocedure

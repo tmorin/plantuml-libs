@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2023/Architecture/CustomerEnablement/AwsSupport
+
+sprite $AwsSupportXs [10x10/16z] uyG161aXD0CdAokGG0CCC14M81iYpSJ9oGnLoCQ2gWC
+
+sprite $AwsSupportSm [12x12/16z] VSR50KKX000WMzb_u9-lYnEUb6PI6wM3I2jaI2hBXR0yqLE0t15BgI0PgJUBOUyD
+
+sprite $AwsSupportMd [16x16/16z] dOx50SG020HncFuBFetyOhYpFA88dJrB1zhMYa6QGiKldOQ20D_o_CcUbmZiUJLCIlxpmdvbdrpU5Q1Dw0Q7cUnALl9cR3YdDm
+
+sprite $AwsSupportLg [20x20/16z] {
+hOjN0iCW34C5oCRl_WVko4v-syUq1lyWUE966_TCAw3wcKqLX09AkMa3y6Hw-PzQtywfRUUX8ObdjoYJVPwQ2q36Oi71yilM7IfOK0U8qV2cBP59eSmK9oc3
+bVp86m
+}
+
+!procedure AwsSupport($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Architecture/CustomerEnablement/AwsSupport', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsSupportCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsSupportLg>', 'CustomerEnablement', $funcName, $content)
+!endprocedure
+
+!procedure AwsSupportGroup($id, $name='Aws Support', $tech='')
+  IconGroupElement($id, 'CustomerEnablementFamily', '<$AwsSupportLg>', $name, $tech)
+!endprocedure

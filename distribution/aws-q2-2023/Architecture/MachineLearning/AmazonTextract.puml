@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2023/Architecture/MachineLearning/AmazonTextract
+
+sprite $AmazonTextractXs [10x10/16z] uy0561aP8Gm68682CzY0J5OWWvs1WPM32SG2YZ1oi01PG2OJ2qWM19Y10Dae
+
+sprite $AmazonTextractSm [12x12/16z] ZSQr0S0m400nFz_-2mSCLL2L-CiYqkOB9Bmln5JLppPQcFIxWXlzb8lHl_JVsm4
+
+sprite $AmazonTextractMd [16x16/16z] dOf50iG048Cce_p_m-lINchS4k0QNGyMEvypVlEb77rhgI7CFt56bFp1srgPbKAVRQ4UkRuR2PU7VpVA5F3R3Ams_MJOvmu
+
+sprite $AmazonTextractLg [20x20/16z] jSh70GG1249H5L7wRtXodjk6VtoWV-LBVIKcfuGhcgPWYfEQFHk2nz5OjJnF0z499-kmDgC5KnwxfMEoSlXfAhTbKUPXuWHEI3fDPM6fqzOelGnhgIyR0G
+
+!procedure AmazonTextract($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Architecture/MachineLearning/AmazonTextract', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonTextractCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonTextractLg>', 'MachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure AmazonTextractGroup($id, $name='Amazon Textract', $tech='')
+  IconGroupElement($id, 'MachineLearningFamily', '<$AmazonTextractLg>', $name, $tech)
+!endprocedure

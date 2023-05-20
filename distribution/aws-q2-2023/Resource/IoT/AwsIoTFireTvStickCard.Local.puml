@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2023/bootstrap')
+
+' loads the Item which embeds the element AwsIoTFireTvStickCard
+include('aws-q2-2023/Resource/IoT/AwsIoTFireTvStick')
+
+' renders the element
+AwsIoTFireTvStickCard('AwsIoTFireTvStickCard', 'Aws Io T Fire Tv Stick Card', 'an optional description')
+@enduml

@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2023/Architecture/EndUserComputing/AmazonWorkLink
+
+sprite $AmazonWorkLinkXs [10x10/16z] uy096E0iPZYBXPKPnk9W1QbXPc5X1B90W0s88IncLbQWEWG
+
+sprite $AmazonWorkLinkSm [12x12/16z] uy0961X10C86Kwn8R0vKDWiw6qImWzWmW9ND0WBiABO2
+
+sprite $AmazonWorkLinkMd [16x16/16z] bSU50S0W34JHtaNtNxZk1dmaUTcU-LnizcNSdIT3H2Z0PXa7nrlbYEIORXwJ-J-CkpdNPR41
+
+sprite $AmazonWorkLinkLg [20x20/16z] fOlL0O0m34JZkVqNng5jVh1NpGd-4NhIjEjB3xNI3Lj1PZRDi5tkcbK3_AL6fBR2JMkCMiP3JNr74qqymNDc
+
+!procedure AmazonWorkLink($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Architecture/EndUserComputing/AmazonWorkLink', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonWorkLinkCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonWorkLinkLg>', 'EndUserComputing', $funcName, $content)
+!endprocedure
+
+!procedure AmazonWorkLinkGroup($id, $name='Amazon Work Link', $tech='')
+  IconGroupElement($id, 'EndUserComputingFamily', '<$AmazonWorkLinkLg>', $name, $tech)
+!endprocedure

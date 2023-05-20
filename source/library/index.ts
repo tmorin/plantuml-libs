@@ -1,4 +1,5 @@
 import { AwsQ12023Factory } from "./packages/aws-q1-2023"
+import { AwsQ22023Factory } from "./packages/aws-q2-2023"
 import { AzureV11Factory } from "./packages/azure-11"
 import { C4modelFactory } from "./packages/c4model"
 import { C4nordFactory } from "./packages/c4nord"
@@ -19,6 +20,7 @@ import { Simpleicons8Factory } from "./packages/simpleicons-8"
 
 const PACKAGE_FACTORIES = [
   new AwsQ12023Factory(),
+  new AwsQ22023Factory(),
   new AzureV11Factory(),
   new C4modelFactory(),
   new C4nordFactory(),
@@ -32,7 +34,6 @@ const PACKAGE_FACTORIES = [
   new Material4Factory(),
   new Simpleicons8Factory(),
 ]
-
 export const PACKAGES = PACKAGE_FACTORIES.map((d) => d.getUrn())
 
 async function emptyModule(urn): Promise<Package> {

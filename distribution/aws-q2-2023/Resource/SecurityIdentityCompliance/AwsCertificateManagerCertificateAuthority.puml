@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2023/Resource/SecurityIdentityCompliance/AwsCertificateManagerCertificateAuthority
+
+sprite $AwsCertificateManagerCertificateAuthorityXs [10x10/16z] Oq00JXX0OW41AuXaWYY1iLZWOfmix30M0oig2sO49m
+
+sprite $AwsCertificateManagerCertificateAuthoritySm [12x12/16z] PSl50S1024JHlpZz5nptl0iwFEKDuLICJ-_KsJU4dtqrmVy79UvitNixzhQ3OJC
+
+sprite $AwsCertificateManagerCertificateAuthorityMd [16x16/16z] XSc53G1H08DGlhVx3tpkIlG5_b8urd0vrX375cSL7nmouDqL4BiBDWb0Y6NgO9eA1oSuErn-mOkTru0iBlK
+
+sprite $AwsCertificateManagerCertificateAuthorityLg [20x20/16z] ZSg53SLG3CLGX_fozn_uCvOjFZ9dqo93p78x-xsj9CriIg3jOVus81Y_vWunqAzHsM9cZKF5dw6H6loROSRC15Ppy_Q5JMXk1l2srhS2MiPALm
+
+!procedure AwsCertificateManagerCertificateAuthority($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Resource/SecurityIdentityCompliance/AwsCertificateManagerCertificateAuthority', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsCertificateManagerCertificateAuthorityCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCertificateManagerCertificateAuthorityLg>', 'SecurityIdentityCompliance', $funcName, $content)
+!endprocedure
+
+!procedure AwsCertificateManagerCertificateAuthorityGroup($id, $name='Aws Certificate Manager Certificate Authority', $tech='')
+  IconGroupElement($id, 'SecurityIdentityComplianceFamily', '<$AwsCertificateManagerCertificateAuthorityLg>', $name, $tech)
+!endprocedure

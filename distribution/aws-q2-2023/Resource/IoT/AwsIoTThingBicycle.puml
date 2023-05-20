@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2023/Resource/IoT/AwsIoTThingBicycle
+
+sprite $AwsIoTThingBicycleXs [10x10/16z] Oq01pEpix0ne02h00cInWsYW03iR8v0Deg5AG92L0II6pJm
+
+sprite $AwsIoTThingBicycleSm [12x12/16z] LOtN0KCn308lHC3-4x-cBv-jtZWPgDUrbiA89GF2aEyZv5c_Sl-_b1IBH8nZK2WXsxy4Q1OVTsy
+
+sprite $AwsIoTThingBicycleMd [16x16/16z] RO-54GC13CCKiBt_n6NkAqUwC0Si9lGyrPjBI3ltx8k-PJzyvvuFr2Fl0EeEqDOZN-IHJr3YgeIEOQabiN43BGg2mTtD28zXLztJV_Sm_KA7_p0OKmrm1W
+
+sprite $AwsIoTThingBicycleLg [20x20/16z] {
+TL250O0m3Ald_u-fuB0KZS56AoYn4dfEs8UB1sIuHuzNbpsviCC7t7tCpTLRj8EFh2FnoJ8XZYmGvGgmfNNKz8cIcI9Pmk7B39DbXvAVlgmrdjvxNpzUVP-r
+BJZny0X7Zw_tRmVt53O
+}
+
+!procedure AwsIoTThingBicycle($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Resource/IoT/AwsIoTThingBicycle', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTThingBicycleCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTThingBicycleLg>', 'IoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTThingBicycleGroup($id, $name='Aws Io T Thing Bicycle', $tech='')
+  IconGroupElement($id, 'IoTFamily', '<$AwsIoTThingBicycleLg>', $name, $tech)
+!endprocedure

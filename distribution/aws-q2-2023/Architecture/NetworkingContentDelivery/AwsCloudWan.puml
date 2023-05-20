@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2023/Architecture/NetworkingContentDelivery/AwsCloudWan
+
+sprite $AwsCloudWanXs [10x10/16z] uo04c1WOMHd0B0O61aQ86931mC02OW6bMA1YGCWAOKA44
+
+sprite $AwsCloudWanSm [12x12/16z] VOl50S0W54E_9_ilNFS2xnJb4BsK1Pc7J5raRJhW9cxxLbL5ZvMBo_5EQYcuKtQ8e_eo0m
+
+sprite $AwsCloudWanMd [16x16/16z] dSd50G9144JHhjQVVyBOsjo0VQSIxb4tbsgHFcSTjrObk_PePDDRbQgWCULsemz3Myyebuyx6wykB0WsasDonAc51uiKlta2
+
+sprite $AwsCloudWanLg [20x20/16z] {
+hSsr0KDH34DHcU_-2uVpiNsdCueLEhX9Z9Cn0X-7pJYIgH0RmwhnTfADIY-sTUWC8I1HYOy0cSnCfktONAYoSi9Yooq9AiNmvqGcvftDHY05MHmaXKrpfWmM
+U08
+}
+
+!procedure AwsCloudWan($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Architecture/NetworkingContentDelivery/AwsCloudWan', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsCloudWanCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCloudWanLg>', 'NetworkingContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AwsCloudWanGroup($id, $name='Aws Cloud Wan', $tech='')
+  IconGroupElement($id, 'NetworkingContentDeliveryFamily', '<$AwsCloudWanLg>', $name, $tech)
+!endprocedure

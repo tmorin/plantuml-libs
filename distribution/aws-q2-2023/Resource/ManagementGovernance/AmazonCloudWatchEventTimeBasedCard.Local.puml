@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2023/bootstrap')
+
+' loads the Item which embeds the element AmazonCloudWatchEventTimeBasedCard
+include('aws-q2-2023/Resource/ManagementGovernance/AmazonCloudWatchEventTimeBased')
+
+' renders the element
+AmazonCloudWatchEventTimeBasedCard('AmazonCloudWatchEventTimeBasedCard', 'Amazon Cloud Watch Event Time Based Card', 'an optional description')
+@enduml

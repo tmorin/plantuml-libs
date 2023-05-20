@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2023/Resource/Analytics/AmazonAthenaDataSourceConnectors
+
+sprite $AmazonAthenaDataSourceConnectorsXs [10x10/16z] NKk50S0m20lE_mzlTSE9u8bOLwx3wfbPAnpzXdNUDQXv198sxGOR5vN-0G
+
+sprite $AmazonAthenaDataSourceConnectorsSm [12x12/16z] PS470O10400W_dR_n0OG_EK03EDdlNW6hVH9IFBmu3stxe7cT2m0vK3R4GdOnWS
+
+sprite $AmazonAthenaDataSourceConnectorsMd [16x16/16z] TKz50a1H4E45xd_XtnrcDINmX-JUopmR0l7PDgmuMuOqrwxFtoMfMlg2p0EWJuMrMSMe-TpsUXFKqmsamn8NE_PojLAkIWN2YWw94rSvBPFtFElf2
+
+sprite $AmazonAthenaDataSourceConnectorsLg [20x20/16z] {
+VKy54i0m20ihWVp_nJkOQxr81FyZn4TCgMjWCX1vhQbzxOq-xGMEEW5MJs9mmXgKr80QO5giy9P5FBgu2xFZAnIjBvUaW7LIq5cDkLB6FCjBhrvwRC5HMn89
+tofzy-44xHGK1J1oYrLHfXwcmuJxiAra1W
+}
+
+!procedure AmazonAthenaDataSourceConnectors($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Resource/Analytics/AmazonAthenaDataSourceConnectors', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonAthenaDataSourceConnectorsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonAthenaDataSourceConnectorsLg>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AmazonAthenaDataSourceConnectorsGroup($id, $name='Amazon Athena Data Source Connectors', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AmazonAthenaDataSourceConnectorsLg>', $name, $tech)
+!endprocedure

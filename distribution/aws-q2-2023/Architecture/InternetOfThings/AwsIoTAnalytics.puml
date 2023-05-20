@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2023/Architecture/InternetOfThings/AwsIoTAnalytics
+
+sprite $AwsIoTAnalyticsXs [10x10/16z] TS770O1040IWkRJqtx4liu8_Iq0a3PeOWSMmWfun3KXpIDni
+
+sprite $AwsIoTAnalyticsSm [12x12/16z] VSh50GC120J0eDD_nJ7-Xwvvh68FxOiu66h5m39gyxBNYpObxEKpQ9SloaDz
+
+sprite $AwsIoTAnalyticsMd [16x16/16z] dOfL0aD130BB1fZxdxZsxBCoAmd2VymgdaiA4Rgf64qbRRA6m2msdbCmBFNGONZEOTDYg2estKm5PiEHjjx6S0DoI2WPbwzu
+
+sprite $AwsIoTAnalyticsLg [20x20/16z] {
+hSwr5K0X40NHjphzT_nTIPb3TB5bIZsIbOFqalB42BPrfaOgfTbp3pgXn9lGIe7ULhqHbduEKHjlr8LkgzeetUsQqj5AgSya7f7R2VGOflF2sxP3RSNJzfWK
+J6W1
+}
+
+!procedure AwsIoTAnalytics($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Architecture/InternetOfThings/AwsIoTAnalytics', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTAnalyticsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTAnalyticsLg>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTAnalyticsGroup($id, $name='Aws Io T Analytics', $tech='')
+  IconGroupElement($id, 'InternetOfThingsFamily', '<$AwsIoTAnalyticsLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2023/bootstrap')
+
+' loads the Item which embeds the element AmazonOpenSearchServiceDataNodeGroup
+include('aws-q2-2023/Resource/Analytics/AmazonOpenSearchServiceDataNode')
+
+' renders the element
+AmazonOpenSearchServiceDataNodeGroup('AmazonOpenSearchServiceDataNodeGroup', 'Amazon Open Search Service Data Node Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

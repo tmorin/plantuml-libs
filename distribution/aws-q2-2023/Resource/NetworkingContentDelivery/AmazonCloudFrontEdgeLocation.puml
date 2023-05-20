@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2023/Resource/NetworkingContentDelivery/AmazonCloudFrontEdgeLocation
+
+sprite $AmazonCloudFrontEdgeLocationXs [10x10/16z] Oy04J8HOR1n0ceC98SQCLHqJ5B
+
+sprite $AmazonCloudFrontEdgeLocationSm [12x12/16z] RKp50G0X3Ait-ozyYaDUSHeXN974pTsuHqJbB-6FC_1muE7HV12_XFdqqtWsu0O
+
+sprite $AmazonCloudFrontEdgeLocationMd [16x16/16z] Oq077EmeW84THPP8FYC88FXWDZiIdm6PpyB10MPoS302UHni27b63gXwa4iuqEqZauy2M04
+
+sprite $AmazonCloudFrontEdgeLocationLg [20x20/16z] jOz50a11140rzx_mxvnSUPCQQ14L2045bAKBtz6VpezxehC8l_kdG-U67py9QyJohTC3pfgD2WG1As05
+
+!procedure AmazonCloudFrontEdgeLocation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Resource/NetworkingContentDelivery/AmazonCloudFrontEdgeLocation', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonCloudFrontEdgeLocationCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonCloudFrontEdgeLocationLg>', 'NetworkingContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AmazonCloudFrontEdgeLocationGroup($id, $name='Amazon Cloud Front Edge Location', $tech='')
+  IconGroupElement($id, 'NetworkingContentDeliveryFamily', '<$AmazonCloudFrontEdgeLocationLg>', $name, $tech)
+!endprocedure

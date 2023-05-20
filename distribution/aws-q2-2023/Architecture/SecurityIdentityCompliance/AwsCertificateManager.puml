@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2023/Architecture/SecurityIdentityCompliance/AwsCertificateManager
+
+sprite $AwsCertificateManagerXs [10x10/16z] uyGAEC205Sw7i5Y08gnGUQWOGfOH2C4i1X3WP40o3G
+
+sprite $AwsCertificateManagerSm [12x12/16z] TSQ50S0W34JHsjd-0zST-93afTaq7cbrpoEi7iuvtQTxRDz6T1a4S7flj_VYV5e
+
+sprite $AwsCertificateManagerMd [16x16/16z] bSc53G0X341Hg7V_WN6Dd7pqfVu_m5be9fd5PbqNB1jSZkOgvnmj-kdeX-kgBOk9o35lBMEFdT5Vom
+
+sprite $AwsCertificateManagerLg [20x20/16z] fSl50GG130B0UA3_WizrNUQ9y1pqhsVc-95uPlN3Nnb_v6_MCimG0ir1fcJRu8k2SP25fWopfzzCZNg7KRRo3NaZJS1JhW
+
+!procedure AwsCertificateManager($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Architecture/SecurityIdentityCompliance/AwsCertificateManager', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsCertificateManagerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCertificateManagerLg>', 'SecurityIdentityCompliance', $funcName, $content)
+!endprocedure
+
+!procedure AwsCertificateManagerGroup($id, $name='Aws Certificate Manager', $tech='')
+  IconGroupElement($id, 'SecurityIdentityComplianceFamily', '<$AwsCertificateManagerLg>', $name, $tech)
+!endprocedure

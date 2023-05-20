@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2023/Resource/Storage/AmazonSimpleStorageServiceS3Standard
+
+sprite $AmazonSimpleStorageServiceS3StandardXs [10x10/16z] PKg30G0m3Alp_yMpLqPq5Egn88f3CY2cYQPvFGoB7VgHberWjY9b
+
+sprite $AmazonSimpleStorageServiceS3StandardSm [12x12/16z] LKmr0G1043g5_edVbGcN3m5NDQ1HRiyRftMcFS3sCQ8MlcMXGk-VD_v8oKltaSs00Db81G
+
+sprite $AmazonSimpleStorageServiceS3StandardMd [16x16/16z] RKu50e1022Da-_-BrUkacyc5WWJ8A1crrPM_mJ8fuW4hYI5g9EgkoULoBbWF8-T02z6_AfZ-IITIUzvNdv5xFRgIRW4RFlOzaF0SVW
+
+sprite $AmazonSimpleStorageServiceS3StandardLg [20x20/16z] {
+TOw5WGD1200NdVuh_ay8dDyACkXwE-AHaE4o16nC9qldkOIlEBD5vH4gqpUp66K3f4qhphLnOBJs0nFZwwfEScEGtuOcZNffIj_Mc-8pomV6aUL9zKRTJqgT
+UoTfiaGTx5XJfvr_
+}
+
+!procedure AmazonSimpleStorageServiceS3Standard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Resource/Storage/AmazonSimpleStorageServiceS3Standard', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceS3StandardCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonSimpleStorageServiceS3StandardLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceS3StandardGroup($id, $name='Amazon Simple Storage Service S3 Standard', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonSimpleStorageServiceS3StandardLg>', $name, $tech)
+!endprocedure
