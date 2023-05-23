@@ -40,8 +40,7 @@ const argv = yargs
     default: [
       "**/*.{Local,Remote}.puml",
       /*
-      "aws-q1-2023/!**",
-      "aws-q3-2022/!**",
+      "aws-q2-2023/!**",
       "azure-11/!**",
       "gcp/!**",
       "fontawesome-6/!**",
