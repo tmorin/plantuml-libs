@@ -1,6 +1,6 @@
 # S
 
-The module contains 237 items.
+The module contains 240 items.
 
 
 
@@ -52,6 +52,7 @@ The module contains 237 items.
 | ![illustration of simpleicons-8/S/Semaphoreci](../../simpleicons-8/S/Semaphoreci.png) | [simpleicons-8/S/Semaphoreci](../../simpleicons-8/S/Semaphoreci.md) |
 | ![illustration of simpleicons-8/S/Semver](../../simpleicons-8/S/Semver.png) | [simpleicons-8/S/Semver](../../simpleicons-8/S/Semver.md) |
 | ![illustration of simpleicons-8/S/Sencha](../../simpleicons-8/S/Sencha.png) | [simpleicons-8/S/Sencha](../../simpleicons-8/S/Sencha.md) |
+| ![illustration of simpleicons-8/S/Sendinblue](../../simpleicons-8/S/Sendinblue.png) | [simpleicons-8/S/Sendinblue](../../simpleicons-8/S/Sendinblue.md) |
 | ![illustration of simpleicons-8/S/Sennheiser](../../simpleicons-8/S/Sennheiser.png) | [simpleicons-8/S/Sennheiser](../../simpleicons-8/S/Sennheiser.md) |
 | ![illustration of simpleicons-8/S/Sensu](../../simpleicons-8/S/Sensu.png) | [simpleicons-8/S/Sensu](../../simpleicons-8/S/Sensu.md) |
 | ![illustration of simpleicons-8/S/Sentry](../../simpleicons-8/S/Sentry.png) | [simpleicons-8/S/Sentry](../../simpleicons-8/S/Sentry.md) |
@@ -174,6 +175,7 @@ The module contains 237 items.
 | ![illustration of simpleicons-8/S/Stackblitz](../../simpleicons-8/S/Stackblitz.png) | [simpleicons-8/S/Stackblitz](../../simpleicons-8/S/Stackblitz.md) |
 | ![illustration of simpleicons-8/S/Stackedit](../../simpleicons-8/S/Stackedit.png) | [simpleicons-8/S/Stackedit](../../simpleicons-8/S/Stackedit.md) |
 | ![illustration of simpleicons-8/S/Stackexchange](../../simpleicons-8/S/Stackexchange.png) | [simpleicons-8/S/Stackexchange](../../simpleicons-8/S/Stackexchange.md) |
+| ![illustration of simpleicons-8/S/Stackhawk](../../simpleicons-8/S/Stackhawk.png) | [simpleicons-8/S/Stackhawk](../../simpleicons-8/S/Stackhawk.md) |
 | ![illustration of simpleicons-8/S/Stackoverflow](../../simpleicons-8/S/Stackoverflow.png) | [simpleicons-8/S/Stackoverflow](../../simpleicons-8/S/Stackoverflow.md) |
 | ![illustration of simpleicons-8/S/Stackpath](../../simpleicons-8/S/Stackpath.png) | [simpleicons-8/S/Stackpath](../../simpleicons-8/S/Stackpath.md) |
 | ![illustration of simpleicons-8/S/Stackshare](../../simpleicons-8/S/Stackshare.png) | [simpleicons-8/S/Stackshare](../../simpleicons-8/S/Stackshare.md) |
@@ -238,6 +240,7 @@ The module contains 237 items.
 | ![illustration of simpleicons-8/S/Swiggy](../../simpleicons-8/S/Swiggy.png) | [simpleicons-8/S/Swiggy](../../simpleicons-8/S/Swiggy.md) |
 | ![illustration of simpleicons-8/S/Swiper](../../simpleicons-8/S/Swiper.png) | [simpleicons-8/S/Swiper](../../simpleicons-8/S/Swiper.md) |
 | ![illustration of simpleicons-8/S/Symantec](../../simpleicons-8/S/Symantec.png) | [simpleicons-8/S/Symantec](../../simpleicons-8/S/Symantec.md) |
+| ![illustration of simpleicons-8/S/Symbolab](../../simpleicons-8/S/Symbolab.png) | [simpleicons-8/S/Symbolab](../../simpleicons-8/S/Symbolab.md) |
 | ![illustration of simpleicons-8/S/Symfony](../../simpleicons-8/S/Symfony.png) | [simpleicons-8/S/Symfony](../../simpleicons-8/S/Symfony.md) |
 | ![illustration of simpleicons-8/S/Symphony](../../simpleicons-8/S/Symphony.png) | [simpleicons-8/S/Symphony](../../simpleicons-8/S/Symphony.md) |
 | ![illustration of simpleicons-8/S/Sympy](../../simpleicons-8/S/Sympy.png) | [simpleicons-8/S/Sympy](../../simpleicons-8/S/Sympy.md) |

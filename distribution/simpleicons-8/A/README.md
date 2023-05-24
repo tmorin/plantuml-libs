@@ -1,6 +1,6 @@
 # A
 
-The module contains 229 items.
+The module contains 232 items.
 
 
 
@@ -49,6 +49,7 @@ The module contains 229 items.
 | ![illustration of simpleicons-8/A/Aeromexico](../../simpleicons-8/A/Aeromexico.png) | [simpleicons-8/A/Aeromexico](../../simpleicons-8/A/Aeromexico.md) |
 | ![illustration of simpleicons-8/A/Aerospike](../../simpleicons-8/A/Aerospike.png) | [simpleicons-8/A/Aerospike](../../simpleicons-8/A/Aerospike.md) |
 | ![illustration of simpleicons-8/A/Aew](../../simpleicons-8/A/Aew.png) | [simpleicons-8/A/Aew](../../simpleicons-8/A/Aew.md) |
+| ![illustration of simpleicons-8/A/Affine](../../simpleicons-8/A/Affine.png) | [simpleicons-8/A/Affine](../../simpleicons-8/A/Affine.md) |
 | ![illustration of simpleicons-8/A/Affinity](../../simpleicons-8/A/Affinity.png) | [simpleicons-8/A/Affinity](../../simpleicons-8/A/Affinity.md) |
 | ![illustration of simpleicons-8/A/Affinitydesigner](../../simpleicons-8/A/Affinitydesigner.png) | [simpleicons-8/A/Affinitydesigner](../../simpleicons-8/A/Affinitydesigner.md) |
 | ![illustration of simpleicons-8/A/Affinityphoto](../../simpleicons-8/A/Affinityphoto.png) | [simpleicons-8/A/Affinityphoto](../../simpleicons-8/A/Affinityphoto.md) |
@@ -71,6 +72,7 @@ The module contains 229 items.
 | ![illustration of simpleicons-8/A/Airplayvideo](../../simpleicons-8/A/Airplayvideo.png) | [simpleicons-8/A/Airplayvideo](../../simpleicons-8/A/Airplayvideo.md) |
 | ![illustration of simpleicons-8/A/Airtable](../../simpleicons-8/A/Airtable.png) | [simpleicons-8/A/Airtable](../../simpleicons-8/A/Airtable.md) |
 | ![illustration of simpleicons-8/A/Ajv](../../simpleicons-8/A/Ajv.png) | [simpleicons-8/A/Ajv](../../simpleicons-8/A/Ajv.md) |
+| ![illustration of simpleicons-8/A/Akamai](../../simpleicons-8/A/Akamai.png) | [simpleicons-8/A/Akamai](../../simpleicons-8/A/Akamai.md) |
 | ![illustration of simpleicons-8/A/Alacritty](../../simpleicons-8/A/Alacritty.png) | [simpleicons-8/A/Alacritty](../../simpleicons-8/A/Alacritty.md) |
 | ![illustration of simpleicons-8/A/Albertheijn](../../simpleicons-8/A/Albertheijn.png) | [simpleicons-8/A/Albertheijn](../../simpleicons-8/A/Albertheijn.md) |
 | ![illustration of simpleicons-8/A/Alchemy](../../simpleicons-8/A/Alchemy.png) | [simpleicons-8/A/Alchemy](../../simpleicons-8/A/Alchemy.md) |
@@ -179,6 +181,7 @@ The module contains 229 items.
 | ![illustration of simpleicons-8/A/Aqua](../../simpleicons-8/A/Aqua.png) | [simpleicons-8/A/Aqua](../../simpleicons-8/A/Aqua.md) |
 | ![illustration of simpleicons-8/A/Aral](../../simpleicons-8/A/Aral.png) | [simpleicons-8/A/Aral](../../simpleicons-8/A/Aral.md) |
 | ![illustration of simpleicons-8/A/Arangodb](../../simpleicons-8/A/Arangodb.png) | [simpleicons-8/A/Arangodb](../../simpleicons-8/A/Arangodb.md) |
+| ![illustration of simpleicons-8/A/Arcgis](../../simpleicons-8/A/Arcgis.png) | [simpleicons-8/A/Arcgis](../../simpleicons-8/A/Arcgis.md) |
 | ![illustration of simpleicons-8/A/Archicad](../../simpleicons-8/A/Archicad.png) | [simpleicons-8/A/Archicad](../../simpleicons-8/A/Archicad.md) |
 | ![illustration of simpleicons-8/A/Archiveofourown](../../simpleicons-8/A/Archiveofourown.png) | [simpleicons-8/A/Archiveofourown](../../simpleicons-8/A/Archiveofourown.md) |
 | ![illustration of simpleicons-8/A/Archlinux](../../simpleicons-8/A/Archlinux.png) | [simpleicons-8/A/Archlinux](../../simpleicons-8/A/Archlinux.md) |

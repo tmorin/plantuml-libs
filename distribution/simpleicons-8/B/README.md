@@ -1,6 +1,6 @@
 # B
 
-The module contains 105 items.
+The module contains 106 items.
 
 
 
@@ -36,6 +36,7 @@ The module contains 105 items.
 | ![illustration of simpleicons-8/B/Beijingsubway](../../simpleicons-8/B/Beijingsubway.png) | [simpleicons-8/B/Beijingsubway](../../simpleicons-8/B/Beijingsubway.md) |
 | ![illustration of simpleicons-8/B/Bem](../../simpleicons-8/B/Bem.png) | [simpleicons-8/B/Bem](../../simpleicons-8/B/Bem.md) |
 | ![illustration of simpleicons-8/B/Bentley](../../simpleicons-8/B/Bentley.png) | [simpleicons-8/B/Bentley](../../simpleicons-8/B/Bentley.md) |
+| ![illustration of simpleicons-8/B/Bento](../../simpleicons-8/B/Bento.png) | [simpleicons-8/B/Bento](../../simpleicons-8/B/Bento.md) |
 | ![illustration of simpleicons-8/B/Betfair](../../simpleicons-8/B/Betfair.png) | [simpleicons-8/B/Betfair](../../simpleicons-8/B/Betfair.md) |
 | ![illustration of simpleicons-8/B/Bigbasket](../../simpleicons-8/B/Bigbasket.png) | [simpleicons-8/B/Bigbasket](../../simpleicons-8/B/Bigbasket.md) |
 | ![illustration of simpleicons-8/B/Bigbluebutton](../../simpleicons-8/B/Bigbluebutton.png) | [simpleicons-8/B/Bigbluebutton](../../simpleicons-8/B/Bigbluebutton.md) |

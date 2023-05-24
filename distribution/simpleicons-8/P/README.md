@@ -1,6 +1,6 @@
 # P
 
-The module contains 172 items.
+The module contains 175 items.
 
 
 
@@ -9,6 +9,7 @@ The module contains 172 items.
 | ![illustration of simpleicons-8/P/P5Dotjs](../../simpleicons-8/P/P5Dotjs.png) | [simpleicons-8/P/P5Dotjs](../../simpleicons-8/P/P5Dotjs.md) |
 | ![illustration of simpleicons-8/P/Packagist](../../simpleicons-8/P/Packagist.png) | [simpleicons-8/P/Packagist](../../simpleicons-8/P/Packagist.md) |
 | ![illustration of simpleicons-8/P/Packer](../../simpleicons-8/P/Packer.png) | [simpleicons-8/P/Packer](../../simpleicons-8/P/Packer.md) |
+| ![illustration of simpleicons-8/P/Paddlepaddle](../../simpleicons-8/P/Paddlepaddle.png) | [simpleicons-8/P/Paddlepaddle](../../simpleicons-8/P/Paddlepaddle.md) |
 | ![illustration of simpleicons-8/P/Paddypower](../../simpleicons-8/P/Paddypower.png) | [simpleicons-8/P/Paddypower](../../simpleicons-8/P/Paddypower.md) |
 | ![illustration of simpleicons-8/P/Pagekit](../../simpleicons-8/P/Pagekit.png) | [simpleicons-8/P/Pagekit](../../simpleicons-8/P/Pagekit.md) |
 | ![illustration of simpleicons-8/P/Pagerduty](../../simpleicons-8/P/Pagerduty.png) | [simpleicons-8/P/Pagerduty](../../simpleicons-8/P/Pagerduty.md) |
@@ -101,6 +102,7 @@ The module contains 172 items.
 | ![illustration of simpleicons-8/P/Pocketcasts](../../simpleicons-8/P/Pocketcasts.png) | [simpleicons-8/P/Pocketcasts](../../simpleicons-8/P/Pocketcasts.md) |
 | ![illustration of simpleicons-8/P/Podcastaddict](../../simpleicons-8/P/Podcastaddict.png) | [simpleicons-8/P/Podcastaddict](../../simpleicons-8/P/Podcastaddict.md) |
 | ![illustration of simpleicons-8/P/Podman](../../simpleicons-8/P/Podman.png) | [simpleicons-8/P/Podman](../../simpleicons-8/P/Podman.md) |
+| ![illustration of simpleicons-8/P/Poe](../../simpleicons-8/P/Poe.png) | [simpleicons-8/P/Poe](../../simpleicons-8/P/Poe.md) |
 | ![illustration of simpleicons-8/P/Poetry](../../simpleicons-8/P/Poetry.png) | [simpleicons-8/P/Poetry](../../simpleicons-8/P/Poetry.md) |
 | ![illustration of simpleicons-8/P/Pointy](../../simpleicons-8/P/Pointy.png) | [simpleicons-8/P/Pointy](../../simpleicons-8/P/Pointy.md) |
 | ![illustration of simpleicons-8/P/Pokemon](../../simpleicons-8/P/Pokemon.png) | [simpleicons-8/P/Pokemon](../../simpleicons-8/P/Pokemon.md) |
@@ -135,6 +137,7 @@ The module contains 172 items.
 | ![illustration of simpleicons-8/P/Prezi](../../simpleicons-8/P/Prezi.png) | [simpleicons-8/P/Prezi](../../simpleicons-8/P/Prezi.md) |
 | ![illustration of simpleicons-8/P/Prime](../../simpleicons-8/P/Prime.png) | [simpleicons-8/P/Prime](../../simpleicons-8/P/Prime.md) |
 | ![illustration of simpleicons-8/P/Primevideo](../../simpleicons-8/P/Primevideo.png) | [simpleicons-8/P/Primevideo](../../simpleicons-8/P/Primevideo.md) |
+| ![illustration of simpleicons-8/P/Printables](../../simpleicons-8/P/Printables.png) | [simpleicons-8/P/Printables](../../simpleicons-8/P/Printables.md) |
 | ![illustration of simpleicons-8/P/Prisma](../../simpleicons-8/P/Prisma.png) | [simpleicons-8/P/Prisma](../../simpleicons-8/P/Prisma.md) |
 | ![illustration of simpleicons-8/P/Prismic](../../simpleicons-8/P/Prismic.png) | [simpleicons-8/P/Prismic](../../simpleicons-8/P/Prismic.md) |
 | ![illustration of simpleicons-8/P/Privateinternetaccess](../../simpleicons-8/P/Privateinternetaccess.png) | [simpleicons-8/P/Privateinternetaccess](../../simpleicons-8/P/Privateinternetaccess.md) |

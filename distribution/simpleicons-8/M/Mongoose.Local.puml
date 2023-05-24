@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-8/bootstrap')
+
+' loads the Item which embeds the element Mongoose
+include('simpleicons-8/M/Mongoose')
+
+' renders the element
+Mongoose('Mongoose', 'Mongoose', 'an optional tech label', 'an optional description')
+@enduml

@@ -1,6 +1,6 @@
 # E
 
-The module contains 74 items.
+The module contains 75 items.
 
 
 
@@ -63,6 +63,7 @@ The module contains 74 items.
 | ![illustration of simpleicons-8/E/Eslint](../../simpleicons-8/E/Eslint.png) | [simpleicons-8/E/Eslint](../../simpleicons-8/E/Eslint.md) |
 | ![illustration of simpleicons-8/E/Esphome](../../simpleicons-8/E/Esphome.png) | [simpleicons-8/E/Esphome](../../simpleicons-8/E/Esphome.md) |
 | ![illustration of simpleicons-8/E/Espressif](../../simpleicons-8/E/Espressif.png) | [simpleicons-8/E/Espressif](../../simpleicons-8/E/Espressif.md) |
+| ![illustration of simpleicons-8/E/Esri](../../simpleicons-8/E/Esri.png) | [simpleicons-8/E/Esri](../../simpleicons-8/E/Esri.md) |
 | ![illustration of simpleicons-8/E/Etcd](../../simpleicons-8/E/Etcd.png) | [simpleicons-8/E/Etcd](../../simpleicons-8/E/Etcd.md) |
 | ![illustration of simpleicons-8/E/Ethereum](../../simpleicons-8/E/Ethereum.png) | [simpleicons-8/E/Ethereum](../../simpleicons-8/E/Ethereum.md) |
 | ![illustration of simpleicons-8/E/Ethiopianairlines](../../simpleicons-8/E/Ethiopianairlines.png) | [simpleicons-8/E/Ethiopianairlines](../../simpleicons-8/E/Ethiopianairlines.md) |

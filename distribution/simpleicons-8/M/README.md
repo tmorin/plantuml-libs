@@ -1,6 +1,6 @@
 # M
 
-The module contains 140 items.
+The module contains 143 items.
 
 
 
@@ -58,6 +58,7 @@ The module contains 140 items.
 | ![illustration of simpleicons-8/M/Meetup](../../simpleicons-8/M/Meetup.png) | [simpleicons-8/M/Meetup](../../simpleicons-8/M/Meetup.md) |
 | ![illustration of simpleicons-8/M/Mega](../../simpleicons-8/M/Mega.png) | [simpleicons-8/M/Mega](../../simpleicons-8/M/Mega.md) |
 | ![illustration of simpleicons-8/M/Mendeley](../../simpleicons-8/M/Mendeley.png) | [simpleicons-8/M/Mendeley](../../simpleicons-8/M/Mendeley.md) |
+| ![illustration of simpleicons-8/M/Mercadopago](../../simpleicons-8/M/Mercadopago.png) | [simpleicons-8/M/Mercadopago](../../simpleicons-8/M/Mercadopago.md) |
 | ![illustration of simpleicons-8/M/Mercedes](../../simpleicons-8/M/Mercedes.png) | [simpleicons-8/M/Mercedes](../../simpleicons-8/M/Mercedes.md) |
 | ![illustration of simpleicons-8/M/Merck](../../simpleicons-8/M/Merck.png) | [simpleicons-8/M/Merck](../../simpleicons-8/M/Merck.md) |
 | ![illustration of simpleicons-8/M/Mercurial](../../simpleicons-8/M/Mercurial.png) | [simpleicons-8/M/Mercurial](../../simpleicons-8/M/Mercurial.md) |
@@ -110,6 +111,7 @@ The module contains 140 items.
 | ![illustration of simpleicons-8/M/Mobx](../../simpleicons-8/M/Mobx.png) | [simpleicons-8/M/Mobx](../../simpleicons-8/M/Mobx.md) |
 | ![illustration of simpleicons-8/M/Mobxstatetree](../../simpleicons-8/M/Mobxstatetree.png) | [simpleicons-8/M/Mobxstatetree](../../simpleicons-8/M/Mobxstatetree.md) |
 | ![illustration of simpleicons-8/M/Mocha](../../simpleicons-8/M/Mocha.png) | [simpleicons-8/M/Mocha](../../simpleicons-8/M/Mocha.md) |
+| ![illustration of simpleicons-8/M/Modin](../../simpleicons-8/M/Modin.png) | [simpleicons-8/M/Modin](../../simpleicons-8/M/Modin.md) |
 | ![illustration of simpleicons-8/M/Modrinth](../../simpleicons-8/M/Modrinth.png) | [simpleicons-8/M/Modrinth](../../simpleicons-8/M/Modrinth.md) |
 | ![illustration of simpleicons-8/M/Modx](../../simpleicons-8/M/Modx.png) | [simpleicons-8/M/Modx](../../simpleicons-8/M/Modx.md) |
 | ![illustration of simpleicons-8/M/Mojangstudios](../../simpleicons-8/M/Mojangstudios.png) | [simpleicons-8/M/Mojangstudios](../../simpleicons-8/M/Mojangstudios.md) |
@@ -118,6 +120,7 @@ The module contains 140 items.
 | ![illustration of simpleicons-8/M/Monero](../../simpleicons-8/M/Monero.png) | [simpleicons-8/M/Monero](../../simpleicons-8/M/Monero.md) |
 | ![illustration of simpleicons-8/M/Moneygram](../../simpleicons-8/M/Moneygram.png) | [simpleicons-8/M/Moneygram](../../simpleicons-8/M/Moneygram.md) |
 | ![illustration of simpleicons-8/M/Mongodb](../../simpleicons-8/M/Mongodb.png) | [simpleicons-8/M/Mongodb](../../simpleicons-8/M/Mongodb.md) |
+| ![illustration of simpleicons-8/M/Mongoose](../../simpleicons-8/M/Mongoose.png) | [simpleicons-8/M/Mongoose](../../simpleicons-8/M/Mongoose.md) |
 | ![illustration of simpleicons-8/M/Monica](../../simpleicons-8/M/Monica.png) | [simpleicons-8/M/Monica](../../simpleicons-8/M/Monica.md) |
 | ![illustration of simpleicons-8/M/Monkeytie](../../simpleicons-8/M/Monkeytie.png) | [simpleicons-8/M/Monkeytie](../../simpleicons-8/M/Monkeytie.md) |
 | ![illustration of simpleicons-8/M/Monogames](../../simpleicons-8/M/Monogames.png) | [simpleicons-8/M/Monogames](../../simpleicons-8/M/Monogames.md) |

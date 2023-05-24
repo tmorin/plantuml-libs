@@ -1,6 +1,6 @@
 # Y
 
-The module contains 17 items.
+The module contains 18 items.
 
 
 
@@ -10,6 +10,7 @@ The module contains 17 items.
 | ![illustration of simpleicons-8/Y/Yale](../../simpleicons-8/Y/Yale.png) | [simpleicons-8/Y/Yale](../../simpleicons-8/Y/Yale.md) |
 | ![illustration of simpleicons-8/Y/Yamahacorporation](../../simpleicons-8/Y/Yamahacorporation.png) | [simpleicons-8/Y/Yamahacorporation](../../simpleicons-8/Y/Yamahacorporation.md) |
 | ![illustration of simpleicons-8/Y/Yamahamotorcorporation](../../simpleicons-8/Y/Yamahamotorcorporation.png) | [simpleicons-8/Y/Yamahamotorcorporation](../../simpleicons-8/Y/Yamahamotorcorporation.md) |
+| ![illustration of simpleicons-8/Y/Yaml](../../simpleicons-8/Y/Yaml.png) | [simpleicons-8/Y/Yaml](../../simpleicons-8/Y/Yaml.md) |
 | ![illustration of simpleicons-8/Y/Yammer](../../simpleicons-8/Y/Yammer.png) | [simpleicons-8/Y/Yammer](../../simpleicons-8/Y/Yammer.md) |
 | ![illustration of simpleicons-8/Y/Yarn](../../simpleicons-8/Y/Yarn.png) | [simpleicons-8/Y/Yarn](../../simpleicons-8/Y/Yarn.md) |
 | ![illustration of simpleicons-8/Y/Ycombinator](../../simpleicons-8/Y/Ycombinator.png) | [simpleicons-8/Y/Ycombinator](../../simpleicons-8/Y/Ycombinator.md) |

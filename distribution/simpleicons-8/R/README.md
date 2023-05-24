@@ -1,6 +1,6 @@
 # R
 
-The module contains 106 items.
+The module contains 109 items.
 
 
 
@@ -43,6 +43,7 @@ The module contains 106 items.
 | ![illustration of simpleicons-8/R/Redhatopenshift](../../simpleicons-8/R/Redhatopenshift.png) | [simpleicons-8/R/Redhatopenshift](../../simpleicons-8/R/Redhatopenshift.md) |
 | ![illustration of simpleicons-8/R/Redis](../../simpleicons-8/R/Redis.png) | [simpleicons-8/R/Redis](../../simpleicons-8/R/Redis.md) |
 | ![illustration of simpleicons-8/R/Redmine](../../simpleicons-8/R/Redmine.png) | [simpleicons-8/R/Redmine](../../simpleicons-8/R/Redmine.md) |
+| ![illustration of simpleicons-8/R/Redox](../../simpleicons-8/R/Redox.png) | [simpleicons-8/R/Redox](../../simpleicons-8/R/Redox.md) |
 | ![illustration of simpleicons-8/R/Redux](../../simpleicons-8/R/Redux.png) | [simpleicons-8/R/Redux](../../simpleicons-8/R/Redux.md) |
 | ![illustration of simpleicons-8/R/Reduxsaga](../../simpleicons-8/R/Reduxsaga.png) | [simpleicons-8/R/Reduxsaga](../../simpleicons-8/R/Reduxsaga.md) |
 | ![illustration of simpleicons-8/R/Redwoodjs](../../simpleicons-8/R/Redwoodjs.png) | [simpleicons-8/R/Redwoodjs](../../simpleicons-8/R/Redwoodjs.md) |
@@ -80,6 +81,7 @@ The module contains 106 items.
 | ![illustration of simpleicons-8/R/Riseup](../../simpleicons-8/R/Riseup.png) | [simpleicons-8/R/Riseup](../../simpleicons-8/R/Riseup.md) |
 | ![illustration of simpleicons-8/R/Roamresearch](../../simpleicons-8/R/Roamresearch.png) | [simpleicons-8/R/Roamresearch](../../simpleicons-8/R/Roamresearch.md) |
 | ![illustration of simpleicons-8/R/Roblox](../../simpleicons-8/R/Roblox.png) | [simpleicons-8/R/Roblox](../../simpleicons-8/R/Roblox.md) |
+| ![illustration of simpleicons-8/R/Robloxstudio](../../simpleicons-8/R/Robloxstudio.png) | [simpleicons-8/R/Robloxstudio](../../simpleicons-8/R/Robloxstudio.md) |
 | ![illustration of simpleicons-8/R/Robotframework](../../simpleicons-8/R/Robotframework.png) | [simpleicons-8/R/Robotframework](../../simpleicons-8/R/Robotframework.md) |
 | ![illustration of simpleicons-8/R/Rocketdotchat](../../simpleicons-8/R/Rocketdotchat.png) | [simpleicons-8/R/Rocketdotchat](../../simpleicons-8/R/Rocketdotchat.md) |
 | ![illustration of simpleicons-8/R/Rocksdb](../../simpleicons-8/R/Rocksdb.png) | [simpleicons-8/R/Rocksdb](../../simpleicons-8/R/Rocksdb.md) |
@@ -107,6 +109,7 @@ The module contains 106 items.
 | ![illustration of simpleicons-8/R/Rubygems](../../simpleicons-8/R/Rubygems.png) | [simpleicons-8/R/Rubygems](../../simpleicons-8/R/Rubygems.md) |
 | ![illustration of simpleicons-8/R/Rubyonrails](../../simpleicons-8/R/Rubyonrails.png) | [simpleicons-8/R/Rubyonrails](../../simpleicons-8/R/Rubyonrails.md) |
 | ![illustration of simpleicons-8/R/Rubysinatra](../../simpleicons-8/R/Rubysinatra.png) | [simpleicons-8/R/Rubysinatra](../../simpleicons-8/R/Rubysinatra.md) |
+| ![illustration of simpleicons-8/R/Ruff](../../simpleicons-8/R/Ruff.png) | [simpleicons-8/R/Ruff](../../simpleicons-8/R/Ruff.md) |
 | ![illustration of simpleicons-8/R/Runkeeper](../../simpleicons-8/R/Runkeeper.png) | [simpleicons-8/R/Runkeeper](../../simpleicons-8/R/Runkeeper.md) |
 | ![illustration of simpleicons-8/R/Runkit](../../simpleicons-8/R/Runkit.png) | [simpleicons-8/R/Runkit](../../simpleicons-8/R/Runkit.md) |
 | ![illustration of simpleicons-8/R/Rust](../../simpleicons-8/R/Rust.png) | [simpleicons-8/R/Rust](../../simpleicons-8/R/Rust.md) |

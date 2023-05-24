@@ -1,6 +1,6 @@
 # O
 
-The module contains 71 items.
+The module contains 72 items.
 
 
 
@@ -67,6 +67,7 @@ The module contains 71 items.
 | ![illustration of simpleicons-8/O/Org](../../simpleicons-8/O/Org.png) | [simpleicons-8/O/Org](../../simpleicons-8/O/Org.md) |
 | ![illustration of simpleicons-8/O/Origin](../../simpleicons-8/O/Origin.png) | [simpleicons-8/O/Origin](../../simpleicons-8/O/Origin.md) |
 | ![illustration of simpleicons-8/O/Osano](../../simpleicons-8/O/Osano.png) | [simpleicons-8/O/Osano](../../simpleicons-8/O/Osano.md) |
+| ![illustration of simpleicons-8/O/Osgeo](../../simpleicons-8/O/Osgeo.png) | [simpleicons-8/O/Osgeo](../../simpleicons-8/O/Osgeo.md) |
 | ![illustration of simpleicons-8/O/Oshkosh](../../simpleicons-8/O/Oshkosh.png) | [simpleicons-8/O/Oshkosh](../../simpleicons-8/O/Oshkosh.md) |
 | ![illustration of simpleicons-8/O/Osmc](../../simpleicons-8/O/Osmc.png) | [simpleicons-8/O/Osmc](../../simpleicons-8/O/Osmc.md) |
 | ![illustration of simpleicons-8/O/Osu](../../simpleicons-8/O/Osu.png) | [simpleicons-8/O/Osu](../../simpleicons-8/O/Osu.md) |

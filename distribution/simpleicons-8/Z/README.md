@@ -1,6 +1,6 @@
 # Z
 
-The module contains 34 items.
+The module contains 35 items.
 
 
 
@@ -28,6 +28,7 @@ The module contains 34 items.
 | ![illustration of simpleicons-8/Z/Zhihu](../../simpleicons-8/Z/Zhihu.png) | [simpleicons-8/Z/Zhihu](../../simpleicons-8/Z/Zhihu.md) |
 | ![illustration of simpleicons-8/Z/Zig](../../simpleicons-8/Z/Zig.png) | [simpleicons-8/Z/Zig](../../simpleicons-8/Z/Zig.md) |
 | ![illustration of simpleicons-8/Z/Zigbee](../../simpleicons-8/Z/Zigbee.png) | [simpleicons-8/Z/Zigbee](../../simpleicons-8/Z/Zigbee.md) |
+| ![illustration of simpleicons-8/Z/Zilch](../../simpleicons-8/Z/Zilch.png) | [simpleicons-8/Z/Zilch](../../simpleicons-8/Z/Zilch.md) |
 | ![illustration of simpleicons-8/Z/Zillow](../../simpleicons-8/Z/Zillow.png) | [simpleicons-8/Z/Zillow](../../simpleicons-8/Z/Zillow.md) |
 | ![illustration of simpleicons-8/Z/Zincsearch](../../simpleicons-8/Z/Zincsearch.png) | [simpleicons-8/Z/Zincsearch](../../simpleicons-8/Z/Zincsearch.md) |
 | ![illustration of simpleicons-8/Z/Zingat](../../simpleicons-8/Z/Zingat.png) | [simpleicons-8/Z/Zingat](../../simpleicons-8/Z/Zingat.md) |

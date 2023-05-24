@@ -1,6 +1,6 @@
 # N
 
-The module contains 69 items.
+The module contains 71 items.
 
 
 
@@ -55,11 +55,13 @@ The module contains 69 items.
 | ![illustration of simpleicons-8/N/Nokia](../../simpleicons-8/N/Nokia.png) | [simpleicons-8/N/Nokia](../../simpleicons-8/N/Nokia.md) |
 | ![illustration of simpleicons-8/N/Norco](../../simpleicons-8/N/Norco.png) | [simpleicons-8/N/Norco](../../simpleicons-8/N/Norco.md) |
 | ![illustration of simpleicons-8/N/Nordvpn](../../simpleicons-8/N/Nordvpn.png) | [simpleicons-8/N/Nordvpn](../../simpleicons-8/N/Nordvpn.md) |
+| ![illustration of simpleicons-8/N/Normalizedotcss](../../simpleicons-8/N/Normalizedotcss.png) | [simpleicons-8/N/Normalizedotcss](../../simpleicons-8/N/Normalizedotcss.md) |
 | ![illustration of simpleicons-8/N/Norwegian](../../simpleicons-8/N/Norwegian.png) | [simpleicons-8/N/Norwegian](../../simpleicons-8/N/Norwegian.md) |
 | ![illustration of simpleicons-8/N/Notepadplusplus](../../simpleicons-8/N/Notepadplusplus.png) | [simpleicons-8/N/Notepadplusplus](../../simpleicons-8/N/Notepadplusplus.md) |
 | ![illustration of simpleicons-8/N/Notion](../../simpleicons-8/N/Notion.png) | [simpleicons-8/N/Notion](../../simpleicons-8/N/Notion.md) |
 | ![illustration of simpleicons-8/N/Notist](../../simpleicons-8/N/Notist.png) | [simpleicons-8/N/Notist](../../simpleicons-8/N/Notist.md) |
 | ![illustration of simpleicons-8/N/Nounproject](../../simpleicons-8/N/Nounproject.png) | [simpleicons-8/N/Nounproject](../../simpleicons-8/N/Nounproject.md) |
+| ![illustration of simpleicons-8/N/Novu](../../simpleicons-8/N/Novu.png) | [simpleicons-8/N/Novu](../../simpleicons-8/N/Novu.md) |
 | ![illustration of simpleicons-8/N/Now](../../simpleicons-8/N/Now.png) | [simpleicons-8/N/Now](../../simpleicons-8/N/Now.md) |
 | ![illustration of simpleicons-8/N/Npm](../../simpleicons-8/N/Npm.png) | [simpleicons-8/N/Npm](../../simpleicons-8/N/Npm.md) |
 | ![illustration of simpleicons-8/N/Nrwl](../../simpleicons-8/N/Nrwl.png) | [simpleicons-8/N/Nrwl](../../simpleicons-8/N/Nrwl.md) |

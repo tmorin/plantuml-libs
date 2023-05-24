@@ -1,6 +1,6 @@
 # C
 
-The module contains 168 items.
+The module contains 172 items.
 
 
 
@@ -17,6 +17,7 @@ The module contains 168 items.
 | ![illustration of simpleicons-8/C/Canonical](../../simpleicons-8/C/Canonical.png) | [simpleicons-8/C/Canonical](../../simpleicons-8/C/Canonical.md) |
 | ![illustration of simpleicons-8/C/Canva](../../simpleicons-8/C/Canva.png) | [simpleicons-8/C/Canva](../../simpleicons-8/C/Canva.md) |
 | ![illustration of simpleicons-8/C/Capacitor](../../simpleicons-8/C/Capacitor.png) | [simpleicons-8/C/Capacitor](../../simpleicons-8/C/Capacitor.md) |
+| ![illustration of simpleicons-8/C/Cardano](../../simpleicons-8/C/Cardano.png) | [simpleicons-8/C/Cardano](../../simpleicons-8/C/Cardano.md) |
 | ![illustration of simpleicons-8/C/Carrefour](../../simpleicons-8/C/Carrefour.png) | [simpleicons-8/C/Carrefour](../../simpleicons-8/C/Carrefour.md) |
 | ![illustration of simpleicons-8/C/Carthrottle](../../simpleicons-8/C/Carthrottle.png) | [simpleicons-8/C/Carthrottle](../../simpleicons-8/C/Carthrottle.md) |
 | ![illustration of simpleicons-8/C/Carto](../../simpleicons-8/C/Carto.png) | [simpleicons-8/C/Carto](../../simpleicons-8/C/Carto.md) |
@@ -54,6 +55,7 @@ The module contains 168 items.
 | ![illustration of simpleicons-8/C/Cinema4D](../../simpleicons-8/C/Cinema4D.png) | [simpleicons-8/C/Cinema4D](../../simpleicons-8/C/Cinema4D.md) |
 | ![illustration of simpleicons-8/C/Circle](../../simpleicons-8/C/Circle.png) | [simpleicons-8/C/Circle](../../simpleicons-8/C/Circle.md) |
 | ![illustration of simpleicons-8/C/Circleci](../../simpleicons-8/C/Circleci.png) | [simpleicons-8/C/Circleci](../../simpleicons-8/C/Circleci.md) |
+| ![illustration of simpleicons-8/C/Circuitverse](../../simpleicons-8/C/Circuitverse.png) | [simpleicons-8/C/Circuitverse](../../simpleicons-8/C/Circuitverse.md) |
 | ![illustration of simpleicons-8/C/Cirrusci](../../simpleicons-8/C/Cirrusci.png) | [simpleicons-8/C/Cirrusci](../../simpleicons-8/C/Cirrusci.md) |
 | ![illustration of simpleicons-8/C/Cisco](../../simpleicons-8/C/Cisco.png) | [simpleicons-8/C/Cisco](../../simpleicons-8/C/Cisco.md) |
 | ![illustration of simpleicons-8/C/Citrix](../../simpleicons-8/C/Citrix.png) | [simpleicons-8/C/Citrix](../../simpleicons-8/C/Citrix.md) |
@@ -82,6 +84,7 @@ The module contains 168 items.
 | ![illustration of simpleicons-8/C/Cmake](../../simpleicons-8/C/Cmake.png) | [simpleicons-8/C/Cmake](../../simpleicons-8/C/Cmake.md) |
 | ![illustration of simpleicons-8/C/Cncf](../../simpleicons-8/C/Cncf.png) | [simpleicons-8/C/Cncf](../../simpleicons-8/C/Cncf.md) |
 | ![illustration of simpleicons-8/C/Cnn](../../simpleicons-8/C/Cnn.png) | [simpleicons-8/C/Cnn](../../simpleicons-8/C/Cnn.md) |
+| ![illustration of simpleicons-8/C/Cocacola](../../simpleicons-8/C/Cocacola.png) | [simpleicons-8/C/Cocacola](../../simpleicons-8/C/Cocacola.md) |
 | ![illustration of simpleicons-8/C/Cockpit](../../simpleicons-8/C/Cockpit.png) | [simpleicons-8/C/Cockpit](../../simpleicons-8/C/Cockpit.md) |
 | ![illustration of simpleicons-8/C/Cockroachlabs](../../simpleicons-8/C/Cockroachlabs.png) | [simpleicons-8/C/Cockroachlabs](../../simpleicons-8/C/Cockroachlabs.md) |
 | ![illustration of simpleicons-8/C/Cocoapods](../../simpleicons-8/C/Cocoapods.png) | [simpleicons-8/C/Cocoapods](../../simpleicons-8/C/Cocoapods.md) |
@@ -131,6 +134,7 @@ The module contains 168 items.
 | ![illustration of simpleicons-8/C/Consul](../../simpleicons-8/C/Consul.png) | [simpleicons-8/C/Consul](../../simpleicons-8/C/Consul.md) |
 | ![illustration of simpleicons-8/C/Contactlesspayment](../../simpleicons-8/C/Contactlesspayment.png) | [simpleicons-8/C/Contactlesspayment](../../simpleicons-8/C/Contactlesspayment.md) |
 | ![illustration of simpleicons-8/C/Containerd](../../simpleicons-8/C/Containerd.png) | [simpleicons-8/C/Containerd](../../simpleicons-8/C/Containerd.md) |
+| ![illustration of simpleicons-8/C/Contao](../../simpleicons-8/C/Contao.png) | [simpleicons-8/C/Contao](../../simpleicons-8/C/Contao.md) |
 | ![illustration of simpleicons-8/C/Contentful](../../simpleicons-8/C/Contentful.png) | [simpleicons-8/C/Contentful](../../simpleicons-8/C/Contentful.md) |
 | ![illustration of simpleicons-8/C/Conventionalcommits](../../simpleicons-8/C/Conventionalcommits.png) | [simpleicons-8/C/Conventionalcommits](../../simpleicons-8/C/Conventionalcommits.md) |
 | ![illustration of simpleicons-8/C/Convertio](../../simpleicons-8/C/Convertio.png) | [simpleicons-8/C/Convertio](../../simpleicons-8/C/Convertio.md) |

@@ -1,6 +1,6 @@
 # F
 
-The module contains 101 items.
+The module contains 102 items.
 
 
 
@@ -76,6 +76,7 @@ The module contains 101 items.
 | ![illustration of simpleicons-8/F/Fonoma](../../simpleicons-8/F/Fonoma.png) | [simpleicons-8/F/Fonoma](../../simpleicons-8/F/Fonoma.md) |
 | ![illustration of simpleicons-8/F/Fontawesome](../../simpleicons-8/F/Fontawesome.png) | [simpleicons-8/F/Fontawesome](../../simpleicons-8/F/Fontawesome.md) |
 | ![illustration of simpleicons-8/F/Fontbase](../../simpleicons-8/F/Fontbase.png) | [simpleicons-8/F/Fontbase](../../simpleicons-8/F/Fontbase.md) |
+| ![illustration of simpleicons-8/F/Fontforge](../../simpleicons-8/F/Fontforge.png) | [simpleicons-8/F/Fontforge](../../simpleicons-8/F/Fontforge.md) |
 | ![illustration of simpleicons-8/F/Foodpanda](../../simpleicons-8/F/Foodpanda.png) | [simpleicons-8/F/Foodpanda](../../simpleicons-8/F/Foodpanda.md) |
 | ![illustration of simpleicons-8/F/Ford](../../simpleicons-8/F/Ford.png) | [simpleicons-8/F/Ford](../../simpleicons-8/F/Ford.md) |
 | ![illustration of simpleicons-8/F/Forestry](../../simpleicons-8/F/Forestry.png) | [simpleicons-8/F/Forestry](../../simpleicons-8/F/Forestry.md) |
