@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2023/Architecture/Analytics/AmazonOpenSearchService
+
+sprite $AmazonOpenSearchServiceXs [10x10/16z] TOg35G013CNgPl-5pqOUFlcZcXKlH81mH7DsxOh6wWptrQsl-PULN1a1
+
+sprite $AmazonOpenSearchServiceSm [12x12/16z] VKg30S0m42nE-ozSkqcUfxHhlA7YOKU8LxRPCCPiU7l6ZQyC1tbaDhpwth1W1FdK3
+
+sprite $AmazonOpenSearchServiceMd [16x16/16z] dSc53S004830zsV_XUiQgn2zmC_Az6uiB7TbJ3PyWMetNUms2kbsJdk2wMbLK3jTxP7dNzd6uMg8xCLYfTCKtZG2
+
+sprite $AmazonOpenSearchServiceLg [20x20/16z] {
+hSx50GGn30H1yNJ-2Hypmzh2Uebbtim3Kj-Pw8WuWwTlpR03I3WDpCccEfqnS_fa8gckb7Db7k2gIrC7q7vfX4CgBqqv6HE6dyqfCtESAnCGNHVtjKzrSthI
+DhVntLi3
+}
+
+!procedure AmazonOpenSearchService($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Architecture/Analytics/AmazonOpenSearchService', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonOpenSearchServiceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonOpenSearchServiceLg>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AmazonOpenSearchServiceGroup($id, $name='Amazon Open Search Service', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AmazonOpenSearchServiceLg>', $name, $tech)
+!endprocedure

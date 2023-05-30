@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2023/Architecture/SecurityIdentityCompliance/AmazonMacie
+
+sprite $AmazonMacieXs [10x10/16z] uoGUi00n0uZ1niB0nWIaGLn6LavEHW8Q0G
+
+sprite $AmazonMacieSm [12x12/16z] uwGCi3812GuEC9kTdOsDWOq5n6HcPMC42ZAoaMmW
+
+sprite $AmazonMacieMd [16x16/16z] lSG70O1030J1z6Jz2wOx07wki89m6EDX96bw_6KwWYeXkAXE2qwMSphUK62Kp-q
+
+sprite $AmazonMacieLg [20x20/16z] pSst0OG03C10Prlx3_nFXWtW6fNYStBFSEk8hIfS50SpcxMxwa2gnepW8DPUYZ4wSWm4GZKBC7tSccBlU_u
+
+!procedure AmazonMacie($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Architecture/SecurityIdentityCompliance/AmazonMacie', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonMacieCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonMacieLg>', 'SecurityIdentityCompliance', $funcName, $content)
+!endprocedure
+
+!procedure AmazonMacieGroup($id, $name='Amazon Macie', $tech='')
+  IconGroupElement($id, 'SecurityIdentityComplianceFamily', '<$AmazonMacieLg>', $name, $tech)
+!endprocedure

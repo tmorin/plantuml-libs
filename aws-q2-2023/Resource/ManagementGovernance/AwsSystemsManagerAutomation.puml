@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2023/Resource/ManagementGovernance/AwsSystemsManagerAutomation
+
+sprite $AwsSystemsManagerAutomationXs [10x10/16z] LKk50S0m26jn-FzVP3wSoFf5B3ZsFgQV6FjSqRd2Pru1dNw83nF7Fbu_nYaB6Ae
+
+sprite $AwsSystemsManagerAutomationSm [12x12/16z] NKo30S1043jZ_u7Rjyv80gy5HX-KlTJaEjU29UlBYmEoPraxC94IS2iKLyOwM46aa5QaTvq1gIK9p6ESCjhq0m
+
+sprite $AwsSystemsManagerAutomationMd [16x16/16z] PSr70G9G30MmzCy-_0lcneo1mB-H181e-bI0Di4H22YO2oPPzbN1286nRyqIB5WFjFZKqaO2ePlZNjXbGXrMRihdx_rdfZ0pDx1CcWMWkXju0W
+
+sprite $AwsSystemsManagerAutomationLg [20x20/16z] {
+TS-rWG0m54CnvGUT_VSzPdYbAfl_IvB2HvrB5HqWUvs1bUm1fF5H1lGDD21WeUwPoGSvr04H6xc32-xEa5i20-X1lTb7RrQqcmD2cwLgcMbWDr8GHmRsOdGG
+cFUc_Ve121YHZoqNRxX3In_1HxTgrg-bzK6F
+}
+
+!procedure AwsSystemsManagerAutomation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Resource/ManagementGovernance/AwsSystemsManagerAutomation', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsSystemsManagerAutomationCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsSystemsManagerAutomationLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsSystemsManagerAutomationGroup($id, $name='Aws Systems Manager Automation', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsSystemsManagerAutomationLg>', $name, $tech)
+!endprocedure

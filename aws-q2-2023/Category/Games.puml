@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2023/Category/Games
+
+sprite $GamesXs [10x10/16z] OqS03XX0OJ40IKOGYv4Hn0EpM1cO69Z0B8GwF2m
+
+sprite $GamesSm [12x12/16z] VSor0G0n20NG1FYo_yBdaehNu6Zb3vey5JaKTp-c1Lxvh8Y1lFlquUxdMMSqF_6f7G
+
+sprite $GamesMd [16x16/16z] ZOl50GG138JYeV-6JzUTtmYznNE9TBBaKVQmY32lVowSHidyvyHef6FCcc9c6ZxkE62CFWbGOyORWD5VSfzbpHi
+
+sprite $GamesLg [20x20/16z] hSYt0SC044BHYy3-2zlAkPC-5OzFcLypkgwzDvXhYEQR4P831IfMStcHIgLXDmoW7bQRUOT5X5NaPb9hA2HiDjsXsgsHd2oHgrtwtkoM_m4
+
+!procedure Games($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Category/Games', $name, $tech, $desc)
+!endprocedure
+
+!procedure GamesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$GamesLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure GamesGroup($id, $name='Games', $tech='')
+  IconGroupElement($id, 'Games', '<$GamesLg>', $name, $tech)
+!endprocedure

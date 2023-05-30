@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2023/Resource/IoT/AwsIoTThingStacklight
+
+sprite $AwsIoTThingStacklightXs [10x10/16z] JSo53G1H381GAYdxJtmkdzYBmLgFobT1an9aCuH4v21ea5wQLyWfwcgMtmu
+
+sprite $AwsIoTThingStacklightSm [12x12/16z] POs50S1020FVkEo_SP7wuvgqJSILIwRNU6jupXewLdMaglsjIr6euOaQre_SAJUpgYSWmPVt
+
+sprite $AwsIoTThingStacklightMd [16x16/16z] RSy72WH144BHRozQzx_nOaqWZHqVaehFX45-9DKdDtzw4hO5uW5yEuBeh5CesJu6PBTdg6RQpso_jpZjwweWivPmQeRQ1lJ-J1C_cUzvmA__
+
+sprite $AwsIoTThingStacklightLg [20x20/16z] {
+VP070WGX2CGo2Cp_Ntm5ztg9NME3doID9_sPKxVlgHYQ9vOUSwvg0H50fY4mI0kYKeSdPxRMuLKRQNk8w1xlc0kXxTbcDvOWxEsnD7jpv8VNSz336mmylEUv
+PwykQ7ipN4yq6wsA3kkQz3UckgShPm
+}
+
+!procedure AwsIoTThingStacklight($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Resource/IoT/AwsIoTThingStacklight', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTThingStacklightCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTThingStacklightLg>', 'IoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTThingStacklightGroup($id, $name='Aws Io T Thing Stacklight', $tech='')
+  IconGroupElement($id, 'IoTFamily', '<$AwsIoTThingStacklightLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2023/Architecture/Compute/AwsSimSpaceWeaver
+
+sprite $AwsSimSpaceWeaverXs [10x10/16z] OyS16DbPe2mMDYH1c1YKnG02Z8nWLGnCZ6mC81OhAoi3AmEIMG
+
+sprite $AwsSimSpaceWeaverSm [12x12/16z] VOkr0S0040BVuFQVE6vLhaBvm_781CsZWrVdhPMPCzvbE3QPnoEpY-BGJaov0Fh2V5a1
+
+sprite $AwsSimSpaceWeaverMd [16x16/16z] dKl50GCm28JJ_IUkswkMO6VzwsM55-Wpc2TM0VaLT_kASy9ynftPKNE5qysKLEOgJoJF2djDRsYVWA-O6xGfaMiUE1NsjFhn7G4
+
+sprite $AwsSimSpaceWeaverLg [20x20/16z] {
+hSg55GGn4CDGUqZzLtpC3Fl3Uc49atV9YOeh6Y3CfIoDk6bWFcWUJ0LdJPGjpB0txYYY0-VnQogrvutPDum3YfgkGokF565xMlk6N2GW8cgVghgpDxHTxCqb
+FhS6
+}
+
+!procedure AwsSimSpaceWeaver($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Architecture/Compute/AwsSimSpaceWeaver', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsSimSpaceWeaverCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsSimSpaceWeaverLg>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AwsSimSpaceWeaverGroup($id, $name='Aws Sim Space Weaver', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AwsSimSpaceWeaverLg>', $name, $tech)
+!endprocedure

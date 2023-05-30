@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2023/Resource/IoT/AwsIoTGreengrassComponentNucleus
+
+sprite $AwsIoTGreengrassComponentNucleusXs [10x10/16z] LOj50G0n40DdsR_YWtBp2NF1a2aLQkK1JX4zKWIZ5AMecH7zuJAp7iCB
+
+sprite $AwsIoTGreengrassComponentNucleusSm [12x12/16z] NS6n0S1020GWNlNSV-Fq0N_p0AfVB6Wi1stPSSmZClPvSHm29Asm51nwUIoGyGxW1Nm
+
+sprite $AwsIoTGreengrassComponentNucleusMd [16x16/16z] RS7B0SDG30CWb3nR-s_SM__WlssyfDK5i97135WOz884DLWeXwroiusUOunfr3Xbi5RAg5KfIaVQ9N0VUbqes44m0CTiB01tDRna0Gy
+
+sprite $AwsIoTGreengrassComponentNucleusLg [20x20/16z] {
+VP250KGn24D9aUo_yPNSTyDvzTgN97557dQ1bIYKyu1K3rN44QNAMXOkiRCdrEK4imT9NsO4j9ePdSKoPgoO7ToNbeOn8vhfl043DP0vnqRys-P67Q7CzIw8
+NXOTKonqNQPlz-zLgTGXVVsIWUMlABJWlZ4hxImrocw2hVe1
+}
+
+!procedure AwsIoTGreengrassComponentNucleus($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Resource/IoT/AwsIoTGreengrassComponentNucleus', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTGreengrassComponentNucleusCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTGreengrassComponentNucleusLg>', 'IoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTGreengrassComponentNucleusGroup($id, $name='Aws Io T Greengrass Component Nucleus', $tech='')
+  IconGroupElement($id, 'IoTFamily', '<$AwsIoTGreengrassComponentNucleusLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2023/Resource/Storage/AmazonElasticBlockStoreSnapshot
+
+sprite $AmazonElasticBlockStoreSnapshotXs [10x10/16z] JKk30G0W4AnU-s_SspgS7QXz_I8BluHGq0yRSrdu9TSiO2zlmYOyKV83
+
+sprite $AmazonElasticBlockStoreSnapshotSm [12x12/16z] LOg50G10209Ds7_YxpnRa1_jvDnjCFTKTzLfYTvzz43_9UM2lJZM_lxj-QGy460NAm
+
+sprite $AmazonElasticBlockStoreSnapshotMd [16x16/16z] TSor0G1120J0nVkl-ELS9y71IVWdUgb9uCB08Wpj-mIGrNr74ILucAfzeS-79FsH4DI7NARkWeJGux0WAAo792Xj1nfrByzV
+
+sprite $AmazonElasticBlockStoreSnapshotLg [20x20/16z] {
+VSw53KC124LH7dRtdxXUFjKJ8xZzLDpuJgNTj6pqM7rZvKmUuMQiMQZCXfmK4wcVmV53JXblw8RIvFRcbnpeElpMLwJG-u0tFCBGnpgJ7rj6_VzW91tk2R9D
+qYJE
+}
+
+!procedure AmazonElasticBlockStoreSnapshot($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Resource/Storage/AmazonElasticBlockStoreSnapshot', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonElasticBlockStoreSnapshotCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonElasticBlockStoreSnapshotLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonElasticBlockStoreSnapshotGroup($id, $name='Amazon Elastic Block Store Snapshot', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonElasticBlockStoreSnapshotLg>', $name, $tech)
+!endprocedure

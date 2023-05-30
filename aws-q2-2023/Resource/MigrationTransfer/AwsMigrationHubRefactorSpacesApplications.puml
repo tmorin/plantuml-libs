@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2023/Resource/MigrationTransfer/AwsMigrationHubRefactorSpacesApplications
+
+sprite $AwsMigrationHubRefactorSpacesApplicationsXs [10x10/16z] PKg30G113AkR_HT-d556T1Utsv4sDDm0m84FsOV4qDniEQZyY5lf2m
+
+sprite $AwsMigrationHubRefactorSpacesApplicationsSm [12x12/16z] JOg50G0W3CE2jlzVZ4kGhS9F30SHe4hgO-rhxDrl3-pT8TfoI6EdLCV-ZyveZ7_iWm9dhynT5pS
+
+sprite $AwsMigrationHubRefactorSpacesApplicationsMd [16x16/16z] NSU50K0X30FHeBdz9_w2SqZxT8VtaBNN7E9xl5dPEXmlexeRsmmJK89tyZl8wKLzvs-JB79uv-ytzpVC-_9cOMju3t5K7W
+
+sprite $AwsMigrationHubRefactorSpacesApplicationsLg [20x20/16z] {
+RSs54KKn20NHnSBjl-4lpoKxnfm8p6ezCyGZyyrwAUy61lMmRdzPHBsiHxuC_6gMQAaiDijXGlQJPLgi8HM88KXRB1CXvBvCYn659uM8kkojVVd5F07T3OsG
+FmmC3hD7uPW_umi
+}
+
+!procedure AwsMigrationHubRefactorSpacesApplications($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Resource/MigrationTransfer/AwsMigrationHubRefactorSpacesApplications', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsMigrationHubRefactorSpacesApplicationsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsMigrationHubRefactorSpacesApplicationsLg>', 'MigrationTransfer', $funcName, $content)
+!endprocedure
+
+!procedure AwsMigrationHubRefactorSpacesApplicationsGroup($id, $name='Aws Migration Hub Refactor Spaces Applications', $tech='')
+  IconGroupElement($id, 'MigrationTransferFamily', '<$AwsMigrationHubRefactorSpacesApplicationsLg>', $name, $tech)
+!endprocedure

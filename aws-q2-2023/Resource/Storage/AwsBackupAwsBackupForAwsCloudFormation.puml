@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2023/Resource/Storage/AwsBackupAwsBackupForAwsCloudFormation
+
+sprite $AwsBackupAwsBackupForAwsCloudFormationXs [10x10/16z] RSU50S0m30Cm5VF_nMDU5RInsj2thtHaM-XRRveaYB0KsxvL3pC
+
+sprite $AwsBackupAwsBackupForAwsCloudFormationSm [12x12/16z] VSYv0OC040Cm9U3p_XjJygDIllJ_I-1lG16aXrJg1s1KfFuK9Su2wDJP1W
+
+sprite $AwsBackupAwsBackupForAwsCloudFormationMd [16x16/16z] ZOpN4S0m349Htt_Y5C7vDy4LU2VyL7JPCTR-taFN65MrvPhPSXYoPDUoAkcFUbDVB03aY_NhgX_ld6I34KxvcIYbcrNXMpS
+
+sprite $AwsBackupAwsBackupForAwsCloudFormationLg [20x20/16z] {
+hSx5OGL020N0MU7HVyLH8iV8dtK53x2IgcHXt1IGUDVwcXkdGBZtt3Iu6nfOCsaaHXfYxex6dWT6OIs1enq4Pz5J-pYDXhrZbHNVqpXzhPatOnjPZDczxRjL
+IIs_yGm
+}
+
+!procedure AwsBackupAwsBackupForAwsCloudFormation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Resource/Storage/AwsBackupAwsBackupForAwsCloudFormation', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsBackupAwsBackupForAwsCloudFormationCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsBackupAwsBackupForAwsCloudFormationLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AwsBackupAwsBackupForAwsCloudFormationGroup($id, $name='Aws Backup Aws Backup For Aws Cloud Formation', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AwsBackupAwsBackupForAwsCloudFormationLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,27 @@
+' definition of the Item aws-q2-2023/Resource/ManagementGovernance/AwsSystemsManagerMaintenanceWindows
+
+sprite $AwsSystemsManagerMaintenanceWindowsXs [10x10/16z] Oq01N0nCO9eHJ7A220wW88Z51PNcWYW4KenGnUmCp22A2SZW1Ea24r1bJ20f
+
+sprite $AwsSystemsManagerMaintenanceWindowsSm [12x12/16z] NSUt0SGm5CKmAF-d_VUzuD9a1U-g5R36GGOCBJiKJkDQ7eRBxj5ixbNF0NE7M8Y3mQv9GQNRfm2fWYy
+
+sprite $AwsSystemsManagerMaintenanceWindowsMd [16x16/16z] {
+RO_70GCm30B15Rp_m0bAB-vtUY3ZxsYsNsG8qC9T2RtkkyYnjJo0FYDwr05tbPgm4GR9pZZTEDxX5Ju7AjvHzm1LTV2EZzpDNFsLpsi3IHubkXbmsicOw1Kw
+y1Xy_ky2
+}
+
+sprite $AwsSystemsManagerMaintenanceWindowsLg [20x20/16z] {
+VSX9be0W40MmM23mw_xtxTddhhECV-HByHeqLGn_ijUviP8zWLnUcJ0sHlOw1m8MPz7aASTOQ3GRwLlyNKtf4kpd7AuIBEZkzLnnFBRhBbNhlNt9W12WZZ50
+q8Lzo0rZmpndNn0m8y28viaThemPNbrr3_2gB_vy0W
+}
+
+!procedure AwsSystemsManagerMaintenanceWindows($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Resource/ManagementGovernance/AwsSystemsManagerMaintenanceWindows', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsSystemsManagerMaintenanceWindowsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsSystemsManagerMaintenanceWindowsLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsSystemsManagerMaintenanceWindowsGroup($id, $name='Aws Systems Manager Maintenance Windows', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsSystemsManagerMaintenanceWindowsLg>', $name, $tech)
+!endprocedure

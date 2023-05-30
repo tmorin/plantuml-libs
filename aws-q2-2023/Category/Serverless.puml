@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2023/Category/Serverless
+
+sprite $ServerlessXs [10x10/16z] OqS03XX0PR4oe8a18GC76vZ5mW5am6LniG
+
+sprite $ServerlessSm [12x12/16z] OqS67730Ye_DpiRE0cE36CmGDXi78mSJ44BLCm8LWjaipAmWZCTCLZXW0G
+
+sprite $ServerlessMd [16x16/16z] ZOx50G0W24Lfs7zXkqy-a_x-mde2hd7oQIkp7hQLuxZjzWsQjeL3G74qksPxJ_4UBnjhK6Qzj8k_zPmst6G
+
+sprite $ServerlessLg [20x20/16z] hSq53W0W241H6kv_OcVdshz-2lWhm3DmZBClfW1-66NMtInol9XI-UH2mzmYW8CixsYMlw99lk7UJFA4c6OR-qYDB9JDgDdPVuChJ
+
+!procedure Serverless($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Category/Serverless', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServerlessCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServerlessLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure ServerlessGroup($id, $name='Serverless', $tech='')
+  IconGroupElement($id, 'Serverless', '<$ServerlessLg>', $name, $tech)
+!endprocedure

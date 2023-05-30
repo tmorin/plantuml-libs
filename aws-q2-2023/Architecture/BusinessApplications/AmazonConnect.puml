@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2023/Architecture/BusinessApplications/AmazonConnect
+
+sprite $AmazonConnectXs [10x10/16z] TOgr0G1H2CLmoFu3d_wMD4zPi3ac83y_E5O0ROYJtskA-Kf4MBW1
+
+sprite $AmazonConnectSm [12x12/16z] ZSQr0O003031UFBx3unJ8bSTFnbvDncqxWTb3k088f30ZA95SuefRiAh5G
+
+sprite $AmazonConnectMd [16x16/16z] dOgr0G0n3CHYjlOV-1dRg3eGKrJ-gZQHdxS15xsx4SPcz6L33KXhlxeumyzdGr1ZwDCH4IWHuwQnvaCBawm
+
+sprite $AmazonConnectLg [20x20/16z] jSkr0SC04CNGdsFjFt38xDwlbdZ6c0rNaP1-hG8WKtFAbhBGaGaym5HYzGBaWvojxCO42WTobjMN8fTdOJapb3DZnMgw1PxTd0bn9-Sn7m
+
+!procedure AmazonConnect($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Architecture/BusinessApplications/AmazonConnect', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonConnectCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonConnectLg>', 'BusinessApplications', $funcName, $content)
+!endprocedure
+
+!procedure AmazonConnectGroup($id, $name='Amazon Connect', $tech='')
+  IconGroupElement($id, 'BusinessApplicationsFamily', '<$AmazonConnectLg>', $name, $tech)
+!endprocedure

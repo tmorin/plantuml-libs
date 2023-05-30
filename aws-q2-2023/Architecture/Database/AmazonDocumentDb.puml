@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2023/Architecture/Database/AmazonDocumentDb
+
+sprite $AmazonDocumentDbXs [10x10/16z] uyGA682O5SpYOEFaO4I8Cx23A5O6a0ge6WQ4B4m7EokAQG
+
+sprite $AmazonDocumentDbSm [12x12/16z] TKc30G1133kqmVu3luqYzFz4dtQJLrH62cT2j5NtOgxPchTSD5etXLcdbuAQIH7fvum
+
+sprite $AmazonDocumentDbMd [16x16/16z] ZKt70G0X2ED8E7N_WUtzPLwG6fxWlL-FGtcCuzTEZny42Qp_wf3XXtQTdzIyxNv7jbzS-u6XUxFfN_iPxIhxol241
+
+sprite $AmazonDocumentDbLg [20x20/16z] {
+fO_50SKW44I1MUs_u0ItqvT9iBVk_yeOMRAZOEraNbxJ8IrceL13n69bgLgvBJRoPcbdIJfp1-dmunHYOLbwnQfXC1wCd0SpW4KoCy4Tk_AjERIetziS6aVU
+vU9VwmK
+}
+
+!procedure AmazonDocumentDb($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Architecture/Database/AmazonDocumentDb', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonDocumentDbCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonDocumentDbLg>', 'Database', $funcName, $content)
+!endprocedure
+
+!procedure AmazonDocumentDbGroup($id, $name='Amazon Document Db', $tech='')
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonDocumentDbLg>', $name, $tech)
+!endprocedure

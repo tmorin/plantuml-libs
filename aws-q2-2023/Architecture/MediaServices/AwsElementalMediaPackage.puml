@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2023/Architecture/MediaServices/AwsElementalMediaPackage
+
+sprite $AwsElementalMediaPackageXs [10x10/16z] OyS1M1cWD1iJEpipYCN81gB0B0PsDY24iHZ1WWn06ge7GYC
+
+sprite $AwsElementalMediaPackageSm [12x12/16z] VSR50S0W542nxs__YUjU8ASmvDUq9FqeYYFiF8hOQrx8yIAn_GfLA9iCDIx1rmm
+
+sprite $AwsElementalMediaPackageMd [16x16/16z] dST10a4134F1jcdoxdzY0EpmPpSSe_BdbABzc0UM8lLucj2UVHoI0bulAefU7soOvriQkjNSQK4mvgdJEtnmXP-S0G
+
+sprite $AwsElementalMediaPackageLg [20x20/16z] hSgt5KCn5CDGyWLY_utTEEYxrYrnm1NXtqhcORmhkd8yeGP3VrzxA1ZY-ZP23wAPNsCdbU9iMXJZd0rgmnuj2ahJ_hOgfY4EuYCA64OSkd2yF4dD1Iy
+
+!procedure AwsElementalMediaPackage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Architecture/MediaServices/AwsElementalMediaPackage', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsElementalMediaPackageCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsElementalMediaPackageLg>', 'MediaServices', $funcName, $content)
+!endprocedure
+
+!procedure AwsElementalMediaPackageGroup($id, $name='Aws Elemental Media Package', $tech='')
+  IconGroupElement($id, 'MediaServicesFamily', '<$AwsElementalMediaPackageLg>', $name, $tech)
+!endprocedure

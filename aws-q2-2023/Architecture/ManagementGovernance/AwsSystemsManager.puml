@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2023/Architecture/ManagementGovernance/AwsSystemsManager
+
+sprite $AwsSystemsManagerXs [10x10/16z] uy8E6BcO4Hns1X392iJCN0mmGKuMi20p1nCBAqmPJ18iWW
+
+sprite $AwsSystemsManagerSm [12x12/16z] VKs50SC02CCX_F_lLlSMrwG_nCNNCWQtfUCfvXXaS90Yvp6wA-SR8XImV2YybaKZKRfJP9_b3m
+
+sprite $AwsSystemsManagerMd [16x16/16z] ZKj50iH035gYaF__Twr-QcTYs3nxkY3FXWvOlnlH6xObaPjx5PJ_G_MRG5VQZl5jDl--Q0eYWp7RQnfiRCV9brdfmCqfF_0m8Ctz-m
+
+sprite $AwsSystemsManagerLg [20x20/16z] {
+fSv50iKW40FGGiQI-z-txgilhmgCwNzfJZsrb12wYvAMJRl5TYsO6gwmffrXZqpVlWNJ4MdRpj098BR09MmB87CB41jdlSo03EtS7IphPhgF3eZ99KSNv30p
+tI5JD9JkBBofz4BgAnC
+}
+
+!procedure AwsSystemsManager($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Architecture/ManagementGovernance/AwsSystemsManager', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsSystemsManagerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsSystemsManagerLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsSystemsManagerGroup($id, $name='Aws Systems Manager', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsSystemsManagerLg>', $name, $tech)
+!endprocedure

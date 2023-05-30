@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2023/Architecture/MigrationTransfer/AwsMainframeModernization
+
+sprite $AwsMainframeModernizationXs [10x10/16z] uy09s20K8n0p84GPO0GZH925XGqc0nA1YB4oe9W4
+
+sprite $AwsMainframeModernizationSm [12x12/16z] VOk50OC030JZkVqNRd67YylpXIah1RrCSx6bDRFfYaxPQ017HAXT4Cmu82n491V-
+
+sprite $AwsMainframeModernizationMd [16x16/16z] ZKs30K1H43hN_Wj_c-_COflWt1fAZ-qKOcsZffJBqtQ9dDAm5JFpTHDB5jgyLne0tIba-lQTK3DpEdxPso395ka1
+
+sprite $AwsMainframeModernizationLg [20x20/16z] hO_50O0m34KRp_uJKzSBzg0M__u3Z6I-4k8YFKpH2BCLXg-2t4efraWvgpYbK8bGz7ADwrw1NX7489j8S1hIEABi4oHbW6Lg2G0G5dLLmAgEM4HYt895_24N
+
+!procedure AwsMainframeModernization($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Architecture/MigrationTransfer/AwsMainframeModernization', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsMainframeModernizationCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsMainframeModernizationLg>', 'MigrationTransfer', $funcName, $content)
+!endprocedure
+
+!procedure AwsMainframeModernizationGroup($id, $name='Aws Mainframe Modernization', $tech='')
+  IconGroupElement($id, 'MigrationTransferFamily', '<$AwsMainframeModernizationLg>', $name, $tech)
+!endprocedure

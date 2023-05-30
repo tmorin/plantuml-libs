@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2023/Resource/IoT/AwsIoTDeviceGateway
+
+sprite $AwsIoTDeviceGatewayXs [10x10/16z] Oy0EsDaPcDan1B6fP652KmJH2rBC31K2
+
+sprite $AwsIoTDeviceGatewaySm [12x12/16z] LKo50S0m3286_ryygNk3ubwvNwdDzG61VMuAYsHKuoXMr9mDM7D8RRxziuVm7FsD2ept1G
+
+sprite $AwsIoTDeviceGatewayMd [16x16/16z] XOw50G0W20JV_FqdjZiFWmRyqROeH4H9AkWenYGJDMwYbew811jCjeog76mDacCyo1WFqSa6X5RTNliZaMrjqFO31KAungcnuG4
+
+sprite $AwsIoTDeviceGatewayLg [20x20/16z] bO-75GGW2CMYyid-4r_l_MBFKm7-eU64ftLuTNsIejYuXi73BRZUo-4izmxgvEmzthbIuD6j90-EmNouruch7-zHJh_6FV71HUxg7GwWwtgl4mwigvCtR04
+
+!procedure AwsIoTDeviceGateway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Resource/IoT/AwsIoTDeviceGateway', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTDeviceGatewayCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTDeviceGatewayLg>', 'IoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTDeviceGatewayGroup($id, $name='Aws Io T Device Gateway', $tech='')
+  IconGroupElement($id, 'IoTFamily', '<$AwsIoTDeviceGatewayLg>', $name, $tech)
+!endprocedure

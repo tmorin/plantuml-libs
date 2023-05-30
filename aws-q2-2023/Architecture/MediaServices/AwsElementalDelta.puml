@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2023/Architecture/MediaServices/AwsElementalDelta
+
+sprite $AwsElementalDeltaXs [10x10/16z] OySA6200n6G2yLX0331WX2g0gmDY9fWO332ZcWO
+
+sprite $AwsElementalDeltaSm [12x12/16z] VOor0G0W40EHoFuJesdXtjLFn8jMNjF3pdT3qia3Co-90ee1f6nva9qV4m
+
+sprite $AwsElementalDeltaMd [16x16/16z] bSd50S1040EnWxMd_uh3pD5N_5TMzCGiqrCnu58YNxvNB9BPCeY99Hb2Ob5hOIUn9xvf0G
+
+sprite $AwsElementalDeltaLg [20x20/16z] hSh50GGn30J14NR-4Hykqyjb439UQAl_FJPoxidvakJviESRrZnh9GUHb5ZfQuhEoeiM1wNWH9m58xm1
+
+!procedure AwsElementalDelta($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Architecture/MediaServices/AwsElementalDelta', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsElementalDeltaCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsElementalDeltaLg>', 'MediaServices', $funcName, $content)
+!endprocedure
+
+!procedure AwsElementalDeltaGroup($id, $name='Aws Elemental Delta', $tech='')
+  IconGroupElement($id, 'MediaServicesFamily', '<$AwsElementalDeltaLg>', $name, $tech)
+!endprocedure

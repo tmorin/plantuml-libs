@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-8/C/Cardano
+
+sprite $CardanoXs [10x10/16z] RSN50S0m0CF0AtEz_xI5v1k3f9s80HDn0IAu1faaGBhi23qLCLk0wXS
+
+sprite $CardanoSm [12x12/16z] DSYt0S0m00CWqjtr_xUPF080OF9m0HKB3cW0wyYLpRDuJqnL-29mYJZ0BU84s0qSG6DnyGC
+
+sprite $CardanoMd [16x16/16z] TSkr0SD000GmcVru-s-RCgnUV2kOMFqHAWquGGKts8p8QGL4igQj5M2S63SC8K6YdC2wRgw5bxzdN0FSE8eA1LY85nCKWCMt2NW
+
+sprite $CardanoLg [20x20/16z] {
+VS7NGKCn50KmNHlZakIT_RVbXzuaVsce-ABpKmSQ7zBqyEY02TG1dc20J7b01wHECXAvUrCgH-9TSGLE5es77fA19CG4vYwg7nzY9fKusvk7bRJ4Na0QD0hS
+cdSZlahdcMlwLs32yiNqvWK
+}
+
+!procedure Cardano($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-8/C/Cardano', $name, $tech, $desc)
+!endprocedure

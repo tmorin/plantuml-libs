@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2023/Architecture/Analytics/AmazonFinSpace
+
+sprite $AmazonFinSpaceXs [10x10/16z] uy01M64CHYOETWOmYuc3WmN2OiR2OW01i4vMLZ16
+
+sprite $AmazonFinSpaceSm [12x12/16z] VOk50O103CIWclqNnlKjTJc6J4-dgCVPojOOyzvkESbGJlQUge-TKvo2Y6nvmpRs57nP0G
+
+sprite $AmazonFinSpaceMd [16x16/16z] dOh50G1120F9i9B-6pwtrzciGCJ_eDIBQZYjC-mPfkqLh9IxvDpgRTRGlB5flzH80H6iCka0ESqrdjd-HqO
+
+sprite $AmazonFinSpaceLg [20x20/16z] jSw54GD1241H3ltzLvmvMnk9ltK5Vg6SLIZ2JBCC6w_6XYfIrQxMbYaefZfSLNMEjIIDtNlyRK-w8PNGtJxZaB5Bui2fTlkmutKF
+
+!procedure AmazonFinSpace($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Architecture/Analytics/AmazonFinSpace', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonFinSpaceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonFinSpaceLg>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AmazonFinSpaceGroup($id, $name='Amazon Fin Space', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AmazonFinSpaceLg>', $name, $tech)
+!endprocedure

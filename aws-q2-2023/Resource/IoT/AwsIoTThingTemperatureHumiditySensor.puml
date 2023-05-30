@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2023/Resource/IoT/AwsIoTThingTemperatureHumiditySensor
+
+sprite $AwsIoTThingTemperatureHumiditySensorXs [10x10/16z] JOor0G11409dbVuhVZt38pYHBMbkY3Tba9uqcC0RZQLtIRbMluluqCVV3G
+
+sprite $AwsIoTThingTemperatureHumiditySensorSm [12x12/16z] POs50S0W4CJGPF-9iNgnrvEm7RdoSVAenwZ48mTWf7ZKYZCVD6Qj0MQgnt22apCVEiIZpe32rxS3
+
+sprite $AwsIoTThingTemperatureHumiditySensorMd [16x16/16z] RKz15aGX298cuFut7kNbxhFW1L1fVKBb0bS1eu-U_A4HYWCq6RUPqRZkkfwMe5EMoAB6IMvHoMs4qxURetDA-xJcrHaD5DNwFarkNqn_82xykK-Ag_y
+
+sprite $AwsIoTThingTemperatureHumiditySensorLg [20x20/16z] {
+VP17WaKX3CFa4Epxd_WLcFgRl5Eq2czfJDO-EDdvsMJXVMbkXhwTm5gtAg0xZ20HkgdPMbtKgjlLxgQ3cHe9GDcxKxDSihli-q-NhEx7jIZnqwKo-g5pQWJ-
+TvtoGwVOxEvcZZ-OZSOiLtHF7t-gdzsS
+}
+
+!procedure AwsIoTThingTemperatureHumiditySensor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Resource/IoT/AwsIoTThingTemperatureHumiditySensor', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTThingTemperatureHumiditySensorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTThingTemperatureHumiditySensorLg>', 'IoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTThingTemperatureHumiditySensorGroup($id, $name='Aws Io T Thing Temperature Humidity Sensor', $tech='')
+  IconGroupElement($id, 'IoTFamily', '<$AwsIoTThingTemperatureHumiditySensorLg>', $name, $tech)
+!endprocedure

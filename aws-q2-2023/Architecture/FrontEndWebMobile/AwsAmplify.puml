@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2023/Architecture/FrontEndWebMobile/AwsAmplify
+
+sprite $AwsAmplifyXs [10x10/16z] uoGC61YW36OMA8C9ACWCPREoGnG1CJip6rO3
+
+sprite $AwsAmplifySm [12x12/16z] ZSQt0O1040CmBjhUVs0oL8HN9Gtpk3i5xiDOPpFavwF4KE-dkSDYwpfFRwVUB
+
+sprite $AwsAmplifyMd [16x16/16z] hSkr0G0130B0U63_WT-jVBig0lo9AQz4q9VL2Lm3ZIc0OrKJWaUWe4tHtWCUf7RJjfKPNZIhlJq9rRBaOoC
+
+sprite $AwsAmplifyLg [20x20/16z] lSZ5WGG030B018ZGVy5tw_PTcUVubmRmAuRZfG8zsgTQhj9ykaDaFHzekU8nLpqmk7c_T7ggXzQrkgNkSD2uNlX0hcbEdwjm8e10-lF-0G
+
+!procedure AwsAmplify($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Architecture/FrontEndWebMobile/AwsAmplify', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsAmplifyCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsAmplifyLg>', 'FrontEndWebMobile', $funcName, $content)
+!endprocedure
+
+!procedure AwsAmplifyGroup($id, $name='Aws Amplify', $tech='')
+  IconGroupElement($id, 'FrontEndWebMobileFamily', '<$AwsAmplifyLg>', $name, $tech)
+!endprocedure

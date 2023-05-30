@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2023/Architecture/DeveloperTools/AwsCodePipeline
+
+sprite $AwsCodePipelineXs [10x10/16z] uyGAc3X0W07EPqN8m1YCK9g13ShYW8cn0W43ica
+
+sprite $AwsCodePipelineSm [12x12/16z] TSb50G0n40J1PBdz2pvcgDS0lqeNDkVEoW6vPAr59fTZoK7pFLFq8v_2PzoD
+
+sprite $AwsCodePipelineMd [16x16/16z] bOkr0S0m0CF2Zlu_E4nZAqyc_kFymgNXTHiQ-VLp7xt6mKnlDtfdf7jhYldwA3psUb92F9uCZvzOFb01
+
+sprite $AwsCodePipelineLg [20x20/16z] fSd50GGn3C10np6f_uAFSHdcAN5IvHTFgVMHycoT7rxppSpImXxqsOmVofE9leZ6SDBuKAfZwVzDG0ZxQpqYQVdNA0NuRzIm-OlmKH_iSGK
+
+!procedure AwsCodePipeline($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Architecture/DeveloperTools/AwsCodePipeline', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsCodePipelineCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCodePipelineLg>', 'DeveloperTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsCodePipelineGroup($id, $name='Aws Code Pipeline', $tech='')
+  IconGroupElement($id, 'DeveloperToolsFamily', '<$AwsCodePipelineLg>', $name, $tech)
+!endprocedure

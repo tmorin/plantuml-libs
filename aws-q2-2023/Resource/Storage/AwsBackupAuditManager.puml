@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2023/Resource/Storage/AwsBackupAuditManager
+
+sprite $AwsBackupAuditManagerXs [10x10/16z] TS490O10400XxjlftzW4WXzl1_koBTX16qfmiqp84rY3e72M3m
+
+sprite $AwsBackupAuditManagerSm [12x12/16z] NKo50S0m38hp_yU3URr1RL_btupfU_BYCnV7WRnpQ1X4QR3cW1IIqxqidXhUTasaaXFkJdU7YkzgjHm
+
+sprite $AwsBackupAuditManagerMd [16x16/16z] RSt5eKLH20F0WNiW_LVyNPuDkelNDkLMh1lRCnU0sl-jPWvdckqXHWPXhKt9mdpz6bk9DU189pqhRhFN1OuQH0EQCnS1QWSamDWlLO0jS0xU0G
+
+sprite $AwsBackupAuditManagerLg [20x20/16z] {
+VSQvWGD020GmmIvC_nNVaznhMv6yCYb_NV77sOhVThIqRvK2Cu1s5zMeACpPwtQwRf1UuhGi2D6bibJXgY43WKW85mn9JIfYWRh25bO0CGsM1OGTAkq2T5Cp
+5m6eB201Y3ltq-e3I0UuPmhWEmNl
+}
+
+!procedure AwsBackupAuditManager($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Resource/Storage/AwsBackupAuditManager', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsBackupAuditManagerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsBackupAuditManagerLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AwsBackupAuditManagerGroup($id, $name='Aws Backup Audit Manager', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AwsBackupAuditManagerLg>', $name, $tech)
+!endprocedure

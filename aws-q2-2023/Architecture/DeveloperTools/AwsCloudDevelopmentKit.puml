@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2023/Architecture/DeveloperTools/AwsCloudDevelopmentKit
+
+sprite $AwsCloudDevelopmentKitXs [10x10/16z] RSZ10KG0303197Sm_HSC09ZzhM-f7Bg0lz89q6RuGIojhoBPvzK8
+
+sprite $AwsCloudDevelopmentKitSm [12x12/16z] VKk30G1H2CtOV-0pldCFkGX5_SwZvVdmcduEEWkEvuRZDDX9C18QqkqL8lJRQn6Wptte3sCJEm
+
+sprite $AwsCloudDevelopmentKitMd [16x16/16z] dKt50SGm38lPsd_X2oU_Qsj62Lz4pEbgBMiWZTLp2mbTrr6TMXWNNeyD9MeQxxMekdlr86EYdFSmWPN8ildg8QVvwjseBaEm92kuCfx83m
+
+sprite $AwsCloudDevelopmentKitLg [20x20/16z] {
+fSorWGC034DHcVtt7_WW34tWTGQ9xqtcSiy6lBbL0n2LN3a7WpXh0pQ1Z4i_u846pfy9hEUuWDphhZ44dCEsfA-tXdPEIekhQIsNNNc6MRbntR6D8svs7TkZ
+rOeRKkDodYpl-GK
+}
+
+!procedure AwsCloudDevelopmentKit($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Architecture/DeveloperTools/AwsCloudDevelopmentKit', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsCloudDevelopmentKitCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCloudDevelopmentKitLg>', 'DeveloperTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsCloudDevelopmentKitGroup($id, $name='Aws Cloud Development Kit', $tech='')
+  IconGroupElement($id, 'DeveloperToolsFamily', '<$AwsCloudDevelopmentKitLg>', $name, $tech)
+!endprocedure

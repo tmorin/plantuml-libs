@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2023/Resource/Containers/AmazonElasticKubernetesServiceEksOnOutposts
+
+sprite $AmazonElasticKubernetesServiceEksOnOutpostsXs [10x10/16z] JKo50G0m2BBz_-AbtGh0D3V4sq-ri_tR3Jg3t2qc1N6-qqVPFOiWK1pE589qS1i
+
+sprite $AmazonElasticKubernetesServiceEksOnOutpostsSm [12x12/16z] NKs50G0m2CBa_u_NdIg5Rn4vAzFHrvMrQu_ux226QBNKebQp9hZdNPczhXD6H7QzMxfJW4wiTSnWOMQW
+
+sprite $AmazonElasticKubernetesServiceEksOnOutpostsMd [16x16/16z] RSg54GCn34N1DUYh_uh3d3DgPvx3rVf3jKBLGpC4Cbvl12F8jSSkwkuX5kF3r_VJMuzyU5naxhlZdhBcrMgR6TScPA9MiwjW178rtFkqxM6KtTtX3
+
+sprite $AmazonElasticKubernetesServiceEksOnOutpostsLg [20x20/16z] {
+TS_5eG0m20Mml49X_uc_k-I8ut-dgtstFPsDJtsPfWSW6qp3Nd0RRfs1B2ngOHOdMBeKpVgCHHlCzzY4_8ZTwCwgxxrBtswVCNl03ejxAPbdAkR0TdM2amuz
+K5sJrcUApo-Juvm0iWUJo4UCkpDrigdu9i_m2
+}
+
+!procedure AmazonElasticKubernetesServiceEksOnOutposts($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Resource/Containers/AmazonElasticKubernetesServiceEksOnOutposts', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonElasticKubernetesServiceEksOnOutpostsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonElasticKubernetesServiceEksOnOutpostsLg>', 'Containers', $funcName, $content)
+!endprocedure
+
+!procedure AmazonElasticKubernetesServiceEksOnOutpostsGroup($id, $name='Amazon Elastic Kubernetes Service Eks On Outposts', $tech='')
+  IconGroupElement($id, 'ContainersFamily', '<$AmazonElasticKubernetesServiceEksOnOutpostsLg>', $name, $tech)
+!endprocedure

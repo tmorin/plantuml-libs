@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2023/Resource/Database/AmazonDynamoDbStandardAccessTableClass
+
+sprite $AmazonDynamoDbStandardAccessTableClassXs [10x10/16z] JOW50G0W30GFX_w1yUaxxchQqauQY6Pgpp_TxKHbFzgqSxUhaNjtNm
+
+sprite $AmazonDynamoDbStandardAccessTableClassSm [12x12/16z] LSZ70S0m24FHxuAGzryukgGzElnPSonledcr9mpf_t_sOwVhGDIp6MSPYT0Y-n0nPvheRcCU1Lm
+
+sprite $AmazonDynamoDbStandardAccessTableClassMd [16x16/16z] ROi75aGn20A55F7-5rvJj_r9O_357c0eYRvLsA5XkHrykUQ0tlss06RQlW6-lEtOu_GzdnJVOwbcpUN5DOCRVVydfoEMKvP4pmImLRSln6_lbhm
+
+sprite $AmazonDynamoDbStandardAccessTableClassLg [20x20/16z] {
+TOy54WH120Cp0Y7_V_0gpEbs6TKu7kaU1xIsZ6jaH6NGY1TAfp_Emrix0milDu7X39zPbsvXlqu7wShEWHPr8DVMoFDgyXYOxDU8A2TQNkie1n0sRaTndKBS
+hgcdwW9oNY7l-UvPG0OT8duGVcausG4
+}
+
+!procedure AmazonDynamoDbStandardAccessTableClass($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2023/Resource/Database/AmazonDynamoDbStandardAccessTableClass', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonDynamoDbStandardAccessTableClassCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonDynamoDbStandardAccessTableClassLg>', 'Database', $funcName, $content)
+!endprocedure
+
+!procedure AmazonDynamoDbStandardAccessTableClassGroup($id, $name='Amazon Dynamo Db Standard Access Table Class', $tech='')
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonDynamoDbStandardAccessTableClassLg>', $name, $tech)
+!endprocedure
