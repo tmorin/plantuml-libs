@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [12.0.0](https://github.com/tmorin/plantuml-libs/compare/v11.1.0...v12.0.0) (2023-05-30)
+
+
+### ⚠ BREAKING CHANGES
+
+* **aws-q1-2023:** the package is `aws-q1-2023` is removed from the distribution
+
+### Features
+
+* **aws-q1-2023:** remove the package ([d18ec5f](https://github.com/tmorin/plantuml-libs/commit/d18ec5f5360752d89df59feb0f4b9d445be90830))
+* **aws-q2-2023:** add the package ([3f7c33f](https://github.com/tmorin/plantuml-libs/commit/3f7c33f37f9160752b4178cc20b9a137453e28f6))
+* **simpleicons-8:** upgrade to 8.15.0 ([1ce0872](https://github.com/tmorin/plantuml-libs/commit/1ce0872e1700a30c06a8633c755f2fbb6ee87cd7))
+
+
+### Bug Fixes
+
+* force the sorting of the paths discovered with `glob` ([e93c644](https://github.com/tmorin/plantuml-libs/commit/e93c644fd1cdc9a65c333004423d81beec2c7a44))
+
 ## [11.1.0](https://github.com/tmorin/plantuml-libs/compare/v11.0.0...v11.1.0) (2023-03-19)
 
 
