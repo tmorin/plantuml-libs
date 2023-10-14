@@ -1,0 +1,27 @@
+' definition of the Item azure-17/Item/Iot/ServiceMachineLearningStudioWebServicePlans
+
+sprite $ServiceMachineLearningStudioWebServicePlansXs [10x10/16z] JSa54i0W30J02pCdJV__thgm4CTiEK9rfA1Rmc6iHoetG3AfyonI1vztugQt6zTm2W_dk0C
+
+sprite $ServiceMachineLearningStudioWebServicePlansSm [12x12/16z] NSQrOGD0400mFHva_tbZhAnAVjGX0fJgUnMEqSzFWym_HA_YF6NOEyXpxbjX6NmjnzTb3c1301dv0Wy
+
+sprite $ServiceMachineLearningStudioWebServicePlansMd [16x16/16z] {
+RSk50O0m40J1UnVwhnTtM2IP27whSgywn0bI9eIjf4HrgpjS5XTS5okZ5fiFJW1qCEQPL6sKEImt2YWoCuu4Y1P7p0xVQimfAUufz442syssV7Gozl-URpiK
+k_DeumG
+}
+
+sprite $ServiceMachineLearningStudioWebServicePlansLg [20x20/16z] {
+TSm5Ti0W44NHFoxP_txReDKRvS4P_8-YCwiCLnK6Rzef3LhDhg3caxBxixaJUhP6eKPZ9iqtEUjJU0SnTQ3diNuUWfXMfvFJ6FUIp0Iv2pc0eBT17LC0A7-R
+Rp7so4IC3Wm26BuZ_TtU0QRVaidO85pivtF4FcutfIt9k_abc3u
+}
+
+!procedure ServiceMachineLearningStudioWebServicePlans($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/Iot/ServiceMachineLearningStudioWebServicePlans', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceMachineLearningStudioWebServicePlansCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceMachineLearningStudioWebServicePlansLg>', 'Iot', $funcName, $content)
+!endprocedure
+
+!procedure ServiceMachineLearningStudioWebServicePlansGroup($id, $name='Service Machine Learning Studio Web Service Plans', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceMachineLearningStudioWebServicePlansLg>', $name, $tech)
+!endprocedure

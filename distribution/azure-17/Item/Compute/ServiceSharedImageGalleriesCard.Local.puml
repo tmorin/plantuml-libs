@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-17/bootstrap')
+
+' loads the Item which embeds the element ServiceSharedImageGalleriesCard
+include('azure-17/Item/Compute/ServiceSharedImageGalleries')
+
+' renders the element
+ServiceSharedImageGalleriesCard('ServiceSharedImageGalleriesCard', 'Service Shared Image Galleries Card', 'an optional description')
+@enduml

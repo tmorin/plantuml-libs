@@ -1,0 +1,21 @@
+' definition of the Item azure-17/Item/Networking/ServiceVirtualNetworks
+
+sprite $ServiceVirtualNetworksXs [10x10/16z] ROQr0G0m20GJVF-5yPBNUxSWgmLM8xPGg9XiJzE8hqJPn89J0G
+
+sprite $ServiceVirtualNetworksSm [12x12/16z] ZSZ50SH030F0MLR_3Hyclv0jzknIi1QaivKjahMcHCmfshvtzjABRocRdDqR
+
+sprite $ServiceVirtualNetworksMd [16x16/16z] hOgr0S103CJqQEs_S9ZAaF687yeut_OlG2_1XPO67QQhuI9r4xrJf5IEoXEUX9CcDk52ePJbJVHvZG
+
+sprite $ServiceVirtualNetworksLg [20x20/16z] jOhL3G1158JOfzD_m-V-VxD2Gk2NsS6-bRJJrLy59PrgS2xLtDLTxbKAeWTMjfOjNttGIh8BMdWu8u3ZHGmsUIzYmosFwfPtTSYT8mO_R0O
+
+!procedure ServiceVirtualNetworks($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/Networking/ServiceVirtualNetworks', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceVirtualNetworksCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceVirtualNetworksLg>', 'Networking', $funcName, $content)
+!endprocedure
+
+!procedure ServiceVirtualNetworksGroup($id, $name='Service Virtual Networks', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceVirtualNetworksLg>', $name, $tech)
+!endprocedure

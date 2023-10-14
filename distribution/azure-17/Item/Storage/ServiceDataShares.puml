@@ -1,0 +1,24 @@
+' definition of the Item azure-17/Item/Storage/ServiceDataShares
+
+sprite $ServiceDataSharesXs [10x10/16z] JSZ50O0m44JHluhrNoyGpxkCi1EXCWzt8PN7HU-7T9xxzpTwIqR3PilSFX2g3m
+
+sprite $ServiceDataSharesSm [12x12/16z] TSQ50S0m2031nolxprjt-GGu_XAV4qX7B2jqkYXzDzT3dZROdN4QlnWxBHWJfWeikJG2
+
+sprite $ServiceDataSharesMd [16x16/16z] XSV7OSKm44F11t0NbAN-w_NFESrj-4ds6DQrTIAWNPGgCsqtWh2jIvAvRWrTtl_ay8BxD_V_o-ERF1q_FNcuH6uNc83cVii0a7cs0m
+
+sprite $ServiceDataSharesLg [20x20/16z] {
+bSY50KD120JH0PQzB_tN6tVFdFBufzXr3wL3TMJbYRftL-xHPE58UGplo101pRekYeZKigw0KUtjsCaoUB0mF5hpQFQpWLzOrRFXLsO_MYJeqMflZBCD0BKv
+5i6NjW
+}
+
+!procedure ServiceDataShares($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/Storage/ServiceDataShares', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceDataSharesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDataSharesLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDataSharesGroup($id, $name='Service Data Shares', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDataSharesLg>', $name, $tech)
+!endprocedure

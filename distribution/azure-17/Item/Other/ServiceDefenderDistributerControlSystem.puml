@@ -1,0 +1,24 @@
+' definition of the Item azure-17/Item/Other/ServiceDefenderDistributerControlSystem
+
+sprite $ServiceDefenderDistributerControlSystemXs [10x10/16z] LSRN0S1G24BHIngw_y8H_vu53iTytysEZPUEGbkx3rKbQP9duWuOPY5izI9C_W
+
+sprite $ServiceDefenderDistributerControlSystemSm [12x12/16z] NSU50S0m20J0J_3z5ovIH-_nBrMwQR1zKI2sXsR89UILPTcQmRFMMlL0TNSJeE8kLeXq92R4HO271m
+
+sprite $ServiceDefenderDistributerControlSystemMd [16x16/16z] RSY50SCm44FHOzX_uIh6aWBs-_H_4Vh9Zn0P-EGoZImH5Z5AJ2UTBJcD7G4TPfWv4g6UAJFhk97E88iqGr1ChY1u5X6wkRXxQePOF65npJPV
+
+sprite $ServiceDefenderDistributerControlSystemLg [20x20/16z] {
+VOm54W0X3CGeBPlh_nzyxeQJoQJy3Qa-aUGt10uN4wYbWbyiHGauJ02qNBvPYe024LeWqCp1e5g3c5ieHcYuXUPcDm_CnydoBhx2MYlBS-p5ychUTbHMqy8E
+j9YXJd6WqSp4EoUp72CoPThGOUQE3lD0Xtda1m
+}
+
+!procedure ServiceDefenderDistributerControlSystem($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/Other/ServiceDefenderDistributerControlSystem', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceDefenderDistributerControlSystemCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDefenderDistributerControlSystemLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDefenderDistributerControlSystemGroup($id, $name='Service Defender Distributer Control System', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDefenderDistributerControlSystemLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item azure-17/Item/Other/ServiceDefenderRtu
+
+sprite $ServiceDefenderRtuXs [10x10/16z] JKk50G0X4E93nVqNrkiE0YqUZuPWBTn-v99Z20QG1EMIOyebnqkkPjuUE
+
+sprite $ServiceDefenderRtuSm [12x12/16z] LSOr0G0140InELx_XfynLVZfke73BIe28WAC6QTcwdWICyF-nYI1CE3iyRF7Ry9vJzrW1G
+
+sprite $ServiceDefenderRtuMd [16x16/16z] PSg72S0m50FH-yLb_uaZH4bY7qKy47VrAI7vT3geBWNfTmIvre9OdhG14_j3Es6hq22h9RPeOqwFFSG5KvCp-5Hm-TlawW4
+
+sprite $ServiceDefenderRtuLg [20x20/16z] {
+TSz70e0W34JH2PtxNzXCL3f_fO-EIp97IeibjOYvS3JdazUuYsTguf0rpizCQFQTVlBSwpMUJehuR2PlLdXMOT2VO2OVsVJF05UOqM_o4QV_PkJ-wRa8zjTk
+5jLaDzGbd7i
+}
+
+!procedure ServiceDefenderRtu($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/Other/ServiceDefenderRtu', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceDefenderRtuCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDefenderRtuLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDefenderRtuGroup($id, $name='Service Defender Rtu', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDefenderRtuLg>', $name, $tech)
+!endprocedure

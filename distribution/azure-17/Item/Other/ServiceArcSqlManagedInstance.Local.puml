@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-17/bootstrap')
+
+' loads the Item which embeds the element ServiceArcSqlManagedInstance
+include('azure-17/Item/Other/ServiceArcSqlManagedInstance')
+
+' renders the element
+ServiceArcSqlManagedInstance('ServiceArcSqlManagedInstance', 'Service Arc Sql Managed Instance', 'an optional tech label', 'an optional description')
+@enduml

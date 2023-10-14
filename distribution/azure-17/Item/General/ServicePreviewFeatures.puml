@@ -1,0 +1,21 @@
+' definition of the Item azure-17/Item/General/ServicePreviewFeatures
+
+sprite $ServicePreviewFeaturesXs [10x10/16z] Os850WOGO8MosA4iTWuE3ZOWWus1WOc3WGq46E00eGDCucS1
+
+sprite $ServicePreviewFeaturesSm [12x12/16z] bSQr0G0n302nCtl_XPyXAQDA6WS73E82r7_l9iycLBUyfo7o13YJk12drUy
+
+sprite $ServicePreviewFeaturesMd [16x16/16z] jOs54K0n24E1o7N_XR-xdFTLiQIq43EOZbPgZls8cwynsqJwY7CA7RxsAxROc6Cj9Wln1zVv3DseNl48
+
+sprite $ServicePreviewFeaturesLg [20x20/16z] pSub0WDH4C3G3C_zBrnS-A3g6lbKD8xuP00nMx1RrsRLRPDPzQVCWn8WtYHCXdR3OfIzxUWmvuVKZa3iQFoBet-o9m
+
+!procedure ServicePreviewFeatures($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/General/ServicePreviewFeatures', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServicePreviewFeaturesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServicePreviewFeaturesLg>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServicePreviewFeaturesGroup($id, $name='Service Preview Features', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServicePreviewFeaturesLg>', $name, $tech)
+!endprocedure

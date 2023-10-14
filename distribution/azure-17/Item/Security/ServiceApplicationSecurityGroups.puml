@@ -1,0 +1,24 @@
+' definition of the Item azure-17/Item/Security/ServiceApplicationSecurityGroups
+
+sprite $ServiceApplicationSecurityGroupsXs [10x10/16z] JSY50S0m2031Z-3xprkN70uh4v493BsT6wTpCrJ0e1lSYPcLsRLvLNe3y8DoqUkp0m
+
+sprite $ServiceApplicationSecurityGroupsSm [12x12/16z] NSY10G0G3C2m0k3_Vms0WXXVmJblQVbPQ8w3pS6ZB2pxgBS9Snwbr2wn5fR6LeWjm_vOPYOgf0e
+
+sprite $ServiceApplicationSecurityGroupsMd [16x16/16z] ROw50S0m3CCoSkZ_VrTc5UKY7H60KURtoum8uobhZJTvJRWuugdGYdFmz-NWt1oganDJzO_hVIBvCm7pq1N_miJTYWPOCWzDmKiD1BrfuAvdVm
+
+sprite $ServiceApplicationSecurityGroupsLg [20x20/16z] {
+TSzN0iCW38DXiomHxd_VnjIDklAzyRFjNY40_qZ02EmvhW3y1M2qvX-GZIhPu3hyQZXRxRr50zJSnx4RrORFgLPtim9JCm8rDG8MiAr5X9P_3MjD1dj2fDD1
+ifXYQdPXSZE1LedhB2dQzm
+}
+
+!procedure ServiceApplicationSecurityGroups($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/Security/ServiceApplicationSecurityGroups', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceApplicationSecurityGroupsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceApplicationSecurityGroupsLg>', 'Security', $funcName, $content)
+!endprocedure
+
+!procedure ServiceApplicationSecurityGroupsGroup($id, $name='Service Application Security Groups', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceApplicationSecurityGroupsLg>', $name, $tech)
+!endprocedure

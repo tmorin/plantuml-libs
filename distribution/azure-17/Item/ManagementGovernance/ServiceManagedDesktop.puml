@@ -1,0 +1,21 @@
+' definition of the Item azure-17/Item/ManagementGovernance/ServiceManagedDesktop
+
+sprite $ServiceManagedDesktopXs [10x10/16z] FOo50G0W408H4_RVrzRxJdpAp-e9xMNjMDx9goR2XsGJ9wkmmtqaAGC3
+
+sprite $ServiceManagedDesktopSm [12x12/16z] LOg54G0n2C1Ib_ttVIqMF0UENfJQHHOO_4nqdz8QCmfWOSob_7hlWI0EYZpS
+
+sprite $ServiceManagedDesktopMd [16x16/16z] NSZ50G0m40918gVz5npNUR7WmpyyyjLCjULacoHtrbO0WMegTYEIZ0JTTyM6M-tma2oTcOs1mTrnYLzRnRj81rG5
+
+sprite $ServiceManagedDesktopLg [20x20/16z] RSY72G0X40J0LIz-__r-Tf738Gysr3OwgdBjFL-lXV9OXlT6APui1O_tL5ayYB9u20Sl1whONdYLw9_8pFvf-1qtW7YjNDu2Ay-FWePCU5m
+
+!procedure ServiceManagedDesktop($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/ManagementGovernance/ServiceManagedDesktop', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceManagedDesktopCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceManagedDesktopLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure ServiceManagedDesktopGroup($id, $name='Service Managed Desktop', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceManagedDesktopLg>', $name, $tech)
+!endprocedure

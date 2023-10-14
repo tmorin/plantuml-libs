@@ -1,0 +1,24 @@
+' definition of the Item azure-17/Item/Other/ServiceAzureSupportCenterBlue
+
+sprite $ServiceAzureSupportCenterBlueXs [10x10/16z] JOg50S1030BlBS3-2zSbYd7KWkjNLJk0he8fsxHU54wE0Agk8_4_tciS5uwp3W0h1DW
+
+sprite $ServiceAzureSupportCenterBlueSm [12x12/16z] LOl50G1120Dd3KZ_1Q_aNZUu1BEStKL4SzVouxLbPXL4NxVjmGfY2YbcH91fl_opbNJdCkD6GfD4tJ1Bg047
+
+sprite $ServiceAzureSupportCenterBlueMd [16x16/16z] JSS70WH114JHaWhtl_3gDUbruECI-0gIzfJbsf9y42DhCQeSeCcsXY84f7frTu562ZBHWcgL73gTY8mpjzVJjQxvjkGsw-8rCAe7PBx4dvq-xv7JXkC7
+
+sprite $ServiceAzureSupportCenterBlueLg [20x20/16z] {
+VSi7ZWGm349HajXWt__2cxxJdofV0aTnl7AIxRLCvPQcYplfYQEpkCmZD991Ey6ALx0t4dKt4iRTCbfstYDdav3Mu5aADSn6LAcXbzisw7UBHQYA2V3Ocd1Q
+ZUis89ukn5GYCmFP2PVtEHgUg3V3yWS
+}
+
+!procedure ServiceAzureSupportCenterBlue($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/Other/ServiceAzureSupportCenterBlue', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureSupportCenterBlueCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureSupportCenterBlueLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureSupportCenterBlueGroup($id, $name='Service Azure Support Center Blue', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureSupportCenterBlueLg>', $name, $tech)
+!endprocedure

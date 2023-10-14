@@ -1,0 +1,27 @@
+' definition of the Item azure-17/Item/Other/ServiceCustomIpPrefix
+
+sprite $ServiceCustomIpPrefixXs [10x10/16z] JSQ53G1130EmHELs_tcVuInop0sOVgpp1oO21Z8mUJ51LQcM7a1I8Ag2W_BPGGyx
+
+sprite $ServiceCustomIpPrefixSm [12x12/16z] BSg50G0X243HBqVA_lkUzGmo-adede-mqYVeoiVez4TN7XWuOMSdSX5bLgLg3LdmAgrG5LMMeOYi2Pjyht_8MES7
+
+sprite $ServiceCustomIpPrefixMd [16x16/16z] {
+RSm70e0W30F094I1zl__TM_F0PqrBmr0tiGQnyrVt2vrYSUR9QwLhjJorYs6Ah2yzPYlwq_UOtjE54e5KEzjSEsabWUOrmuUYscPnig2Zlg2vgs-43SucQ8n
+0G
+}
+
+sprite $ServiceCustomIpPrefixLg [20x20/16z] {
+bOrNWeKm30DjIS5ukVzzL_JozoQkGqajB-OmouVT_Rt9NzpyeZOtlJdTE5Adgwg86iwChBfSEc4lk-kEoMa6UBb9SYKJoOXUkjjAeobi9snNLDqWc4w_cIjY
+XYX1hh6p3aZi4GTIVjup94KxrtXmtlk20FpMFm
+}
+
+!procedure ServiceCustomIpPrefix($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/Other/ServiceCustomIpPrefix', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceCustomIpPrefixCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceCustomIpPrefixLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceCustomIpPrefixGroup($id, $name='Service Custom Ip Prefix', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceCustomIpPrefixLg>', $name, $tech)
+!endprocedure

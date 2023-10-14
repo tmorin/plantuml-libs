@@ -1,0 +1,27 @@
+' definition of the Item azure-17/Item/Other/ServiceWebJobs
+
+sprite $ServiceWebJobsXs [10x10/16z] 9Km50W0m4E72xFyFNbu7SApmRUPqleDDURuNH_YE92N09o8rkXj8cMYSg2gV2tN5gYNXtl1i0m
+
+sprite $ServiceWebJobsSm [12x12/16z] BKg50S0024A9wVy7hqqAJmb_zMft-iKx8VsI8pVCp7vPH-A3kye9JG7RdHon3TnH5MuWWvQA3mPutzqx5ADVfVe-82LyTG4
+
+sprite $ServiceWebJobsMd [16x16/16z] {
+JOu50aHH209LnBZ_XHUtv-V0Atk2j3yMA-fj4bP3l9mxuv6zswURB7Kri_jqFT4LL72hpeLL1Stiwzqzv9q4pn5QhBeev8EPX0Sr6PTarUX3LrbwKapmsSiT
+YlhEIrQ6GGveSA5e8e6qVm9_yW
+}
+
+sprite $ServiceWebJobsLg [20x20/16z] {
+LOy70WGX20D1aeZ___0Hhy_sMMeyII3-KHsZhnbHFATP5I_MH7IDA50lXnugbxhdRnY2rCGiRSkqEvXRQdC2BQyBew6GsK-Nncu7elgwzN59WcNNjLRjKQAn
+4z0RnLNt-tMVa4P6W37GTsnmQqNoEi7Eg1V92Kx9xgPvBmaKuR2umSsG2ODrho5TzEakyO-Z_dW
+}
+
+!procedure ServiceWebJobs($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/Other/ServiceWebJobs', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceWebJobsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceWebJobsLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceWebJobsGroup($id, $name='Service Web Jobs', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceWebJobsLg>', $name, $tech)
+!endprocedure

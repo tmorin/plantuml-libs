@@ -1,0 +1,21 @@
+' definition of the Item azure-17/Item/Other/ServiceAvsVm
+
+sprite $ServiceAvsVmXs [10x10/16z] LSY50G0n20J1FQp_Zb_Y6HoMlAqRb9raNwyFyZhXxbd-uVFTdVhZ1G
+
+sprite $ServiceAvsVmSm [12x12/16z] Oq02h1Y01S52acTYP622inaOmMms402osV00i2NixAn85iBPp200f04
+
+sprite $ServiceAvsVmMd [16x16/16z] ZSl50G1130908DP_nUUkEwy8uCAZYVEq4e0TlyEkuqvAfpmvxpdnOSyJpsSMQsqUCAig773u7tSVQF_Q38CU
+
+sprite $ServiceAvsVmLg [20x20/16z] bSn70W0X34BHZsdtF_7qgYlVCW5WP3wAMQBl61lzhs8Z-zyaMkjlQBY1fEkM5v0iEsuv2pljmtRXKXiwkQ4J6-TBTkAbTcEt0W
+
+!procedure ServiceAvsVm($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/Other/ServiceAvsVm', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAvsVmCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAvsVmLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAvsVmGroup($id, $name='Service Avs Vm', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAvsVmLg>', $name, $tech)
+!endprocedure

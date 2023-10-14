@@ -1,0 +1,21 @@
+' definition of the Item azure-17/Item/Integration/ServiceStorSimpleDeviceManagers
+
+sprite $ServiceStorSimpleDeviceManagersXs [10x10/16z] LSQ50S0020F1ns7_WUjwIC9FPYgxskrvChHlrJVcnbxRVOITH71nXnK
+
+sprite $ServiceStorSimpleDeviceManagersSm [12x12/16z] NSk30G0n50FGLC7-0v_PLtvXqaZsyrkrQ_kNEcrVFT1ja_9EVY4lCEbT-tUVBYTSoXYuLNkxLm
+
+sprite $ServiceStorSimpleDeviceManagersMd [16x16/16z] VSw55S0m20HG_8xz5-whUtvSGJv5LUMvhDM-JApM3SLXFzpDN_36YYHKDRa2xxIxgQhLAvaxTyU-5guJ0FDofZivwPplW9ASnma
+
+sprite $ServiceStorSimpleDeviceManagersLg [20x20/16z] VSk50S0m20J0ns7_XHkfsqKn_11pLrpun3Z4Xewks66oY7ikBkIPQXIS3nhP11hDJUJJd4LZkK4zWTgLrDYMOc3hJ6soYZ3G0HTa3MuUROqskE46tG8
+
+!procedure ServiceStorSimpleDeviceManagers($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/Integration/ServiceStorSimpleDeviceManagers', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceStorSimpleDeviceManagersCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceStorSimpleDeviceManagersLg>', 'Integration', $funcName, $content)
+!endprocedure
+
+!procedure ServiceStorSimpleDeviceManagersGroup($id, $name='Service Stor Simple Device Managers', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceStorSimpleDeviceManagersLg>', $name, $tech)
+!endprocedure

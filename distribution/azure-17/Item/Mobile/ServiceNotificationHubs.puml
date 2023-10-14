@@ -1,0 +1,21 @@
+' definition of the Item azure-17/Item/Mobile/ServiceNotificationHubs
+
+sprite $ServiceNotificationHubsXs [10x10/16z] JSh50G0W40InGPR-EyPFyWwX6fh1TBf1_gIk2nckGRO
+
+sprite $ServiceNotificationHubsSm [12x12/16z] TSQr0S0m402nUzn_ut3CLYLshC8_LwWShmWjYD3uyAS-dx_KwPq
+
+sprite $ServiceNotificationHubsMd [16x16/16z] ZSd50S0024FH57xOV-Ew-pj5z2MFBfrL2D01gDaBn96SiIUREFmstiYhOwzo3osoz4S7
+
+sprite $ServiceNotificationHubsLg [20x20/16z] bSYr0GD10CH0-HRwxzYG-9acaxXhRBpGrkxp7ByKQzfvI7X3PEzbh97Vr0BvJMV6PENwjSsFcBXbOvH7FW
+
+!procedure ServiceNotificationHubs($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/Mobile/ServiceNotificationHubs', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceNotificationHubsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceNotificationHubsLg>', 'Mobile', $funcName, $content)
+!endprocedure
+
+!procedure ServiceNotificationHubsGroup($id, $name='Service Notification Hubs', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceNotificationHubsLg>', $name, $tech)
+!endprocedure

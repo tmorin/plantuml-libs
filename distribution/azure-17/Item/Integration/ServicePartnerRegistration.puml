@@ -1,0 +1,24 @@
+' definition of the Item azure-17/Item/Integration/ServicePartnerRegistration
+
+sprite $ServicePartnerRegistrationXs [10x10/16z] LOo30G01200lr_u3ltcPFEGDMRNf1Y_LVMticV11dPa1XBYo-FrS0G
+
+sprite $ServicePartnerRegistrationSm [12x12/16z] LSc50G0n20F0e27x3_okr-Buw6xROgk59eqao7zVLOOBPxpwjFS9x3VFpAq6PXia-TwIS_QGt_l48VRKbnK
+
+sprite $ServicePartnerRegistrationMd [16x16/16z] XSU5WGD020NHZtFzDtmJz-IjmEX9mnfgq3DZ0mr-zxFPNRU-EdL99tLjlskMFziI4aPg8g9PuCTszxqqqoQ4KwTa4jAxsunxKXAih_u1
+
+sprite $ServicePartnerRegistrationLg [20x20/16z] {
+ZSu70a0m38NXxAZx7zYBlVdj3stf9W_4iPrXSJQ69UBfdDL_koqh8TwN7HAAVREvx9Qy68Rcaq7wo4R7MhcGrMqbe-NKpdfIhi5qPzhKvl5cKzo6JwHTsMbz
+ypNspMRx1W
+}
+
+!procedure ServicePartnerRegistration($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/Integration/ServicePartnerRegistration', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServicePartnerRegistrationCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServicePartnerRegistrationLg>', 'Integration', $funcName, $content)
+!endprocedure
+
+!procedure ServicePartnerRegistrationGroup($id, $name='Service Partner Registration', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServicePartnerRegistrationLg>', $name, $tech)
+!endprocedure

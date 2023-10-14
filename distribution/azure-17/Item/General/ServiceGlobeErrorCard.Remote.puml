@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-17/bootstrap')
+
+' loads the Item which embeds the element ServiceGlobeErrorCard
+include('azure-17/Item/General/ServiceGlobeError')
+
+' renders the element
+ServiceGlobeErrorCard('ServiceGlobeErrorCard', 'Service Globe Error Card', 'an optional description')
+@enduml

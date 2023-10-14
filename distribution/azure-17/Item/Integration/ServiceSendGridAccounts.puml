@@ -1,0 +1,21 @@
+' definition of the Item azure-17/Item/Integration/ServiceSendGridAccounts
+
+sprite $ServiceSendGridAccountsXs [10x10/16z] RKU30S1043jp_tbhz-F02rMbghzbPj3TIordNUv-h8XOr-Bbm8B1cW4
+
+sprite $ServiceSendGridAccountsSm [12x12/16z] ZSU50K0X24NHfzBil-_lpcDmmKcB2ExTjVH0HA8JPARrCtf3-xxDREp-UR-ZzwSx
+
+sprite $ServiceSendGridAccountsMd [16x16/16z] fSY53G0X0C305vpzzuM666uNRPyc5rc9ZLQesaF18RN6e0tAjdWSUEx1RGS
+
+sprite $ServiceSendGridAccountsLg [20x20/16z] hSY54S1G3CFGpvJzz-tPAJEzGyaSAmrI1F_Ve_rNPrKgH2EKzJKO7rs_GlNaDT8A3YmU23X3lxzSg8BLrG4
+
+!procedure ServiceSendGridAccounts($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/Integration/ServiceSendGridAccounts', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceSendGridAccountsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceSendGridAccountsLg>', 'Integration', $funcName, $content)
+!endprocedure
+
+!procedure ServiceSendGridAccountsGroup($id, $name='Service Send Grid Accounts', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceSendGridAccountsLg>', $name, $tech)
+!endprocedure

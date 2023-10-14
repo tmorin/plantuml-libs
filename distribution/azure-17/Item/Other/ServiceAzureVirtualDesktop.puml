@@ -1,0 +1,27 @@
+' definition of the Item azure-17/Item/Other/ServiceAzureVirtualDesktop
+
+sprite $ServiceAzureVirtualDesktopXs [10x10/16z] JOY74G0X3CFyJHJll-_RLn4aqKadR2ygqoMAmqLq-x9eJ56UfrOj82BbKxIW09EK7m
+
+sprite $ServiceAzureVirtualDesktopSm [12x12/16z] LSQ94KCX30FH_O1bcEs_tqpkvFcG-3VIkyDT7Uzwm7ZMOKEykqVHUibKmxu_gNkqol6wzoZRkuBsU1TWzBlULP82RW
+
+sprite $ServiceAzureVirtualDesktopMd [16x16/16z] {
+RO-54O0m54DJ_PBzz-LoEFIXaHfMZ2dgeUeC2fk7v45EwLFwO0nWn24Ls1xR8LNG1vK551FIH675GoS6QpcqP3qcRQX6ed5dQlsa7T8wPCGfnt4Sa-EplmxO
+83O
+}
+
+sprite $ServiceAzureVirtualDesktopLg [20x20/16z] {
+TP175aGX20GnqAZS_xx3fmshgPMl9Cj_EW9jyb3OSlS975jWlbbGEWn_e6UYNT5co1eELvNlFH4TRrZbTpYiBqBTJmQQW27gAZMTzNIKaEB1ICVw5h8oJcT-
+PamEYYeDLEkk8coSKSHK90F7ZkB8WOPygfxZJPfbLBmMOCF0IrrQx_t4_
+}
+
+!procedure ServiceAzureVirtualDesktop($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/Other/ServiceAzureVirtualDesktop', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureVirtualDesktopCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureVirtualDesktopLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureVirtualDesktopGroup($id, $name='Service Azure Virtual Desktop', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureVirtualDesktopLg>', $name, $tech)
+!endprocedure

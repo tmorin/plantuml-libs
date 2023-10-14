@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-17/bootstrap')
+
+' loads the Item which embeds the element ServiceTimeSeriesDataSetsCard
+include('azure-17/Item/Iot/ServiceTimeSeriesDataSets')
+
+' renders the element
+ServiceTimeSeriesDataSetsCard('ServiceTimeSeriesDataSetsCard', 'Service Time Series Data Sets Card', 'an optional description')
+@enduml

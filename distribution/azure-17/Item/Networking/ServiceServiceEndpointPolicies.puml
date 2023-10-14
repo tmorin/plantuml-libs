@@ -1,0 +1,24 @@
+' definition of the Item azure-17/Item/Networking/ServiceServiceEndpointPolicies
+
+sprite $ServiceServiceEndpointPoliciesXs [10x10/16z] Oq02R630nGLZSR0pCB030IEG1h5OWH34uk1Wu-3WG6E10SmGJava5W
+
+sprite $ServiceServiceEndpointPoliciesSm [12x12/16z] VKs30S1036oC_VUjzOnvjnIYbrZcMyTLywuAvmqZ8DjPcnWSVjJk3eVFwqC2NgeewhtS
+
+sprite $ServiceServiceEndpointPoliciesMd [16x16/16z] PSc50G0W2011CAZzzxNRDq_XZrPc210MnKmkgvR_I8H48H0LG3L6hWyy7GFxmClCiOrfARMjcwH4Z-FZyBYasamZ_Gqr76QDbHa
+
+sprite $ServiceServiceEndpointPoliciesLg [20x20/16z] {
+dSi53W0X44FH8jCEtF_0ctKtFluIS5tW9g_Usvvg3HzCxi9e_SgHPC2O1FNb82q6XemCItarPSaecbRhSQJ5l8_olYPBFDZIsKefeoNEQJ5Rp1VBEmEEdpbA
+1m
+}
+
+!procedure ServiceServiceEndpointPolicies($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/Networking/ServiceServiceEndpointPolicies', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceServiceEndpointPoliciesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceServiceEndpointPoliciesLg>', 'Networking', $funcName, $content)
+!endprocedure
+
+!procedure ServiceServiceEndpointPoliciesGroup($id, $name='Service Service Endpoint Policies', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceServiceEndpointPoliciesLg>', $name, $tech)
+!endprocedure

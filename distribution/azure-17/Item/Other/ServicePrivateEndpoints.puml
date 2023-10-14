@@ -1,0 +1,21 @@
+' definition of the Item azure-17/Item/Other/ServicePrivateEndpoints
+
+sprite $ServicePrivateEndpointsXs [10x10/16z] Oq01JAnm9XkSnGAbEO0i3WW3o0AIO1uhH0QebnsYbWMXYGM20G
+
+sprite $ServicePrivateEndpointsSm [12x12/16z] ROk54G112CGMf_-AdxTpnZR9WFLKkMrn6W8EExbssZFZzZSy4uORufuU3q3aXlkVyS0t2_YR5m
+
+sprite $ServicePrivateEndpointsMd [16x16/16z] XSs50S1020H17FflE7B4tMVpGi-7cPtixYThy6K2_LhNxmguQc4IZ03222iZl8CbDiv4rYAsEN20ywmE6n5s8WXUu0W
+
+sprite $ServicePrivateEndpointsLg [20x20/16z] dSo50GGn20J0nUc_uRSDxtONpo3uDjpjcJGYdatU63JbJKFiicoQjDoeQ6WYYKOSeWqEHSJWa6Sc5g9OerN5XpVW2rD81bmHLo8-4_6P05qtwGW
+
+!procedure ServicePrivateEndpoints($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/Other/ServicePrivateEndpoints', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServicePrivateEndpointsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServicePrivateEndpointsLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServicePrivateEndpointsGroup($id, $name='Service Private Endpoints', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServicePrivateEndpointsLg>', $name, $tech)
+!endprocedure

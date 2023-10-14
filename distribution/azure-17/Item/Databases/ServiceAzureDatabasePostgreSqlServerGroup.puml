@@ -1,0 +1,27 @@
+' definition of the Item azure-17/Item/Databases/ServiceAzureDatabasePostgreSqlServerGroup
+
+sprite $ServiceAzureDatabasePostgreSqlServerGroupXs [10x10/16z] HOl50K0X3CK2rBl_lDybfwVmC-HaN2epnwcwJlfK6B5kvHYt0hdRA32pwp76Oa6ULs7i
+
+sprite $ServiceAzureDatabasePostgreSqlServerGroupSm [12x12/16z] LSmr0G014CJ0FIR_UfynrLJ1Fz8jeODYaM7CcyUPYAHgz_JHOGC3E2rGc9wEutLwa41UxWQQuAULt7mpghTI72i
+
+sprite $ServiceAzureDatabasePostgreSqlServerGroupMd [16x16/16z] {
+POq50a0n249Xk53lVzxV_T_I0k0FMIGLdg4TY7jScYyCexOucxXYddkSSN36KY-Tuum50vPpnqFFkA5kDcSSQ03whSSs06lHwkK7k9DgPrmGLatrZ7s4aHKR
+8rPQQy0C
+}
+
+sprite $ServiceAzureDatabasePostgreSqlServerGroupLg [20x20/16z] {
+TSu53WCn30NH-J74sRt_VIitPHYHzOByJHgTz1JpUtULt3qwTzl6bBnMbv86tN6cwzg8TTxjF1wzsphcUh6210fxse3h63pDO2RagmL241vFMzlSNz-53A1U
+hSOXmBCoykL_FKqDqfucj2nmQwjjKwlm74ctshfo2B5Jp5appSA12m
+}
+
+!procedure ServiceAzureDatabasePostgreSqlServerGroup($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/Databases/ServiceAzureDatabasePostgreSqlServerGroup', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureDatabasePostgreSqlServerGroupCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureDatabasePostgreSqlServerGroupLg>', 'Databases', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureDatabasePostgreSqlServerGroupGroup($id, $name='Service Azure Database Postgre Sql Server Group', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureDatabasePostgreSqlServerGroupLg>', $name, $tech)
+!endprocedure

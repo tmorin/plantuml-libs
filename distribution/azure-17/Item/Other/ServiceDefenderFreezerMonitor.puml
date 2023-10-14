@@ -1,0 +1,21 @@
+' definition of the Item azure-17/Item/Other/ServiceDefenderFreezerMonitor
+
+sprite $ServiceDefenderFreezerMonitorXs [10x10/16z] Os1WO0811Z03nWGHJEnm5aAC6S72a6K64GWnX7a
+
+sprite $ServiceDefenderFreezerMonitorSm [12x12/16z] Os1WO8801Y1WP88221ienux4PaPYSo3OAEfPMJ3LC40iGR0nz2Bi1G
+
+sprite $ServiceDefenderFreezerMonitorMd [16x16/16z] LSc55S002CJG8zJsNxXkmVyZINWY4U5rOIVqRDFOazsB3VOu3VRSh-_rEEcoqP_4fWePRcy
+
+sprite $ServiceDefenderFreezerMonitorLg [20x20/16z] XSn10a0024JHtnJS_yAmWGR-ybMnfpEWquvkSJ52oheP84sJcr9kSfld_zl4RuLKMTrogAi5WdRBRj6j4hebRjW_1KItlLS3LW
+
+!procedure ServiceDefenderFreezerMonitor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/Other/ServiceDefenderFreezerMonitor', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceDefenderFreezerMonitorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDefenderFreezerMonitorLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDefenderFreezerMonitorGroup($id, $name='Service Defender Freezer Monitor', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDefenderFreezerMonitorLg>', $name, $tech)
+!endprocedure

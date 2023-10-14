@@ -1,0 +1,21 @@
+' definition of the Item azure-17/Item/Networking/ServiceRouteFilters
+
+sprite $ServiceRouteFiltersXs [10x10/16z] PSQ50G0X3CNGd61__u5nVz0sS3EsI9LMAQNpvHAVIy19IjSbucb5ohzW5G4
+
+sprite $ServiceRouteFiltersSm [12x12/16z] ZSd50G0X3031nQN_Ve78yuI1E1TgpRaUjCJ9Q3-BL3rDI4r0cqThKUS9GPS7Cz4TDV1c0m
+
+sprite $ServiceRouteFiltersMd [16x16/16z] bSUt0SKm58LGb2xost_VduDRdmgugC-lpbEovipJGf_VuFDLvqzrsYS7n0Px-390wqcDhjvrmcxQmASSiyFfEGhsJqYux0u
+
+sprite $ServiceRouteFiltersLg [20x20/16z] hOx50S0m30CD2kw_RvY_xGNDefynzc3uoW_0yZdNVVtklX1V7mVFtLATjRvaiP8RKEtbHGHHRrziF7dC6cMOdTQFwV9n24N5xHlw_0bnKyiueEza
+
+!procedure ServiceRouteFilters($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/Networking/ServiceRouteFilters', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceRouteFiltersCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceRouteFiltersLg>', 'Networking', $funcName, $content)
+!endprocedure
+
+!procedure ServiceRouteFiltersGroup($id, $name='Service Route Filters', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceRouteFiltersLg>', $name, $tech)
+!endprocedure

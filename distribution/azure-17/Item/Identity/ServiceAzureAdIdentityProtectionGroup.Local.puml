@@ -1,0 +1,21 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-17/bootstrap')
+
+' loads the Item which embeds the element ServiceAzureAdIdentityProtectionGroup
+include('azure-17/Item/Identity/ServiceAzureAdIdentityProtection')
+
+' renders the element
+ServiceAzureAdIdentityProtectionGroup('ServiceAzureAdIdentityProtectionGroup', 'Service Azure Ad Identity Protection Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

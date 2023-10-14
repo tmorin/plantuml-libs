@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-17/bootstrap')
+
+' loads the Item which embeds the element ServiceApplicationGroup
+include('azure-17/Item/Compute/ServiceApplicationGroup')
+
+' renders the element
+ServiceApplicationGroup('ServiceApplicationGroup', 'Service Application Group', 'an optional tech label', 'an optional description')
+@enduml

@@ -1,0 +1,21 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-17/bootstrap')
+
+' loads the Item which embeds the element ServiceAzureFilesharesGroup
+include('azure-17/Item/Storage/ServiceAzureFileshares')
+
+' renders the element
+ServiceAzureFilesharesGroup('ServiceAzureFilesharesGroup', 'Service Azure Fileshares Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

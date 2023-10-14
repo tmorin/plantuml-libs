@@ -1,0 +1,24 @@
+' definition of the Item azure-17/Item/Other/ServiceDefenderIndustrialPackagingSystem
+
+sprite $ServiceDefenderIndustrialPackagingSystemXs [10x10/16z] LSRH0G0n10DG0Eo_xrsRVdcG48KTGKUggYNQXLQmMyDgdS-KUthxUClzc1y
+
+sprite $ServiceDefenderIndustrialPackagingSystemSm [12x12/16z] DSY55KCn34DHXmJTV-3g1sx0xxWAc05K02Dk4q5MSBkjRRUktTvsMvkJRJtLVp2HJx2vi9Q-pvMLkJ_z0G
+
+sprite $ServiceDefenderIndustrialPackagingSystemMd [16x16/16z] TSV50GDG3CMm5Epa_VttBJFefghI_ONM1UukxlVslh_lVh_dvlFpvxcvVN9N5vk7yyYhsgPDxALhp2IYED30Sa4BaO1JUJKv0W
+
+sprite $ServiceDefenderIndustrialPackagingSystemLg [20x20/16z] {
+ZSY50SCm34HH9R4FjF_0lJAt-KQzgfh0E0UWqjcsKu_6c_5k7EVk1ZxqotHlh-bY_6I-zydymzwZ-PHwMMN03QYP8x2jddE2kPpJERPFXbowsMhdoLyvQCHT
+z6lh0G
+}
+
+!procedure ServiceDefenderIndustrialPackagingSystem($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/Other/ServiceDefenderIndustrialPackagingSystem', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceDefenderIndustrialPackagingSystemCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDefenderIndustrialPackagingSystemLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDefenderIndustrialPackagingSystemGroup($id, $name='Service Defender Industrial Packaging System', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDefenderIndustrialPackagingSystemLg>', $name, $tech)
+!endprocedure
