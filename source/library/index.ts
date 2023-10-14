@@ -1,5 +1,6 @@
 import { AwsQ22023Factory } from "./packages/aws-q2-2023"
 import { AzureV11Factory } from "./packages/azure-11"
+import { AzureV17Factory } from "./packages/azure-17"
 import { C4modelFactory } from "./packages/c4model"
 import { C4nordFactory } from "./packages/c4nord"
 import { C4K8sFactory } from "./packages/c4k8s"
@@ -20,6 +21,7 @@ import { Simpleicons8Factory } from "./packages/simpleicons-8"
 const PACKAGE_FACTORIES = [
   new AwsQ22023Factory(),
   new AzureV11Factory(),
+  new AzureV17Factory(),
   new C4modelFactory(),
   new C4nordFactory(),
   new C4K8sFactory(),
@@ -32,16 +34,15 @@ const PACKAGE_FACTORIES = [
   new Material4Factory(),
   new Simpleicons8Factory(),
 ]
+
 export const PACKAGES = PACKAGE_FACTORIES.map((d) => d.getUrn())
 
-async function emptyModule(urn): Promise<Package> {
-  return new Promise((r) =>
-    r({
-      urn,
-      modules: [],
-      examples: [],
-    })
-  )
+async function emptyModule(urn: string): Promise<Package> {
+  return Promise.resolve({
+    urn,
+    modules: [],
+    examples: [],
+  })
 }
 
 const create: LibraryFactory = async (context): Promise<Library> => {
@@ -51,7 +52,7 @@ const create: LibraryFactory = async (context): Promise<Library> => {
       if (context.packages.indexOf(packageFactory.getUrn()) >= 0) {
         const packageContext = new DefaultPackageContext(
           context,
-          packageFactory.getUrn()
+          packageFactory.getUrn(),
         )
         packageContext.info("process the package", packageFactory.getUrn())
         const timerLabel = `package processed`
@@ -64,7 +65,7 @@ const create: LibraryFactory = async (context): Promise<Library> => {
         })
       }
       return emptyModule(packageFactory.getUrn())
-    })
+    }),
   )
   console.timeEnd("library generated")
   return {
