@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [13.0.0](https://github.com/tmorin/plantuml-libs/compare/v12.0.0...v13.0.0) (2023-10-14)
+
+
+### ⚠ BREAKING CHANGES
+
+* **azure-11:** the package is `azure-11` is removed from the distribution
+
+### Features
+
+* **azure-11:** remove the package ([7e46af0](https://github.com/tmorin/plantuml-libs/commit/7e46af049bc7b2c647fc1c31e704a7b73ad07199))
+* **azure-17:** add the package ([878ae05](https://github.com/tmorin/plantuml-libs/commit/878ae05fa987289d0a7c68042504c5909cf4f232))
+* **azure-17:** refresh the package ([34a6b79](https://github.com/tmorin/plantuml-libs/commit/34a6b79fbdf593b9977dc74771acc6ddbb562b7b))
+* **gcp:** refresh the package ([19ddfec](https://github.com/tmorin/plantuml-libs/commit/19ddfecdf56b4cadb967a68373619a825f67be0a))
+
 ## [12.0.0](https://github.com/tmorin/plantuml-libs/compare/v11.1.0...v12.0.0) (2023-05-30)
 
 
