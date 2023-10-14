@@ -2,10 +2,9 @@
 
 ## Packages
 
-The library provides 14 packages.
+The library provides 13 packages.
 
 - [aws-q2-2023](aws-q2-2023/README.md)
-- [azure-11](azure-11/README.md)
 - [azure-17](azure-17/README.md)
 - [c4model](c4model/README.md)
 - [c4nord](c4nord/README.md)
