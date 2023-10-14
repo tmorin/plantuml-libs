@@ -1,0 +1,24 @@
+' definition of the Item azure-17/Item/Monitor/ServiceAzureMonitorsForSapSolutions
+
+sprite $ServiceAzureMonitorsForSapSolutionsXs [10x10/16z] LSQ50S0020F1ns7_WUjwIC9VSAhTK_RM5ydzEnBjCuERuinuAYIW3itN2W
+
+sprite $ServiceAzureMonitorsForSapSolutionsSm [12x12/16z] VSV50S0020J1nQ7_WkFsog37Zwogv11LTwWBq0_DupXuTyvCYxkgDDjlWGfgR45Il5JPoOMF5G
+
+sprite $ServiceAzureMonitorsForSapSolutionsMd [16x16/16z] ZSr70W9H20FG99zw_mlBO7Vbsr63lvo8i7SPkPwbvrrifNpPORt5rFL5KMk_snIvfHC6WLxiKQHDBQXmrSOWCEFPGdNBWwoGT73H1cDmw_E67pS
+
+sprite $ServiceAzureMonitorsForSapSolutionsLg [20x20/16z] {
+bSi53eG044FHTfpxNtWR76BBmtyAllACLybQuQOFjzNPZgNrpUk_5I4rBwfpwgfUupdB8C38kQYOawfwNrO9HZZDz5omfZ6wXT6qzC4w35GPnChXGEoDc4ap
+KnFB06GQehOAkt7ywGS
+}
+
+!procedure ServiceAzureMonitorsForSapSolutions($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/Monitor/ServiceAzureMonitorsForSapSolutions', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureMonitorsForSapSolutionsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureMonitorsForSapSolutionsLg>', 'Monitor', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureMonitorsForSapSolutionsGroup($id, $name='Service Azure Monitors For Sap Solutions', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureMonitorsForSapSolutionsLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item azure-17/Item/Analytics/ServiceDataFactories
+
+sprite $ServiceDataFactoriesXs [10x10/16z] Oq005Y20iBY003kBcu4DmkBcPkC6ixY109N5mCx0mCc090O
+
+sprite $ServiceDataFactoriesSm [12x12/16z] TKe30G0139pPF-_R64zmBHOHth0IecouQwf_F4rlk2UmuLxgYTUmBLZAj3LlcH4
+
+sprite $ServiceDataFactoriesMd [16x16/16z] ZSs50G0X20NG2_hll-zrslrKOFYtSIQYUNnCviQFOKIaU1nRwp6jqnypLk8s0ojlhyJAstihUQsovbgtZzVPZby
+
+sprite $ServiceDataFactoriesLg [20x20/16z] fSu50i0W0090Mu7_ltVT7MpMcUOmrddldLrHwBF4P7sCqTkuCB6F_ffjAxSosrO9IxDIGrfQGsfeQIsfeQNrUM_6vFOPpT3moagX24Z0sNcb3K1YJAm1
+
+!procedure ServiceDataFactories($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/Analytics/ServiceDataFactories', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceDataFactoriesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDataFactoriesLg>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDataFactoriesGroup($id, $name='Service Data Factories', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDataFactoriesLg>', $name, $tech)
+!endprocedure

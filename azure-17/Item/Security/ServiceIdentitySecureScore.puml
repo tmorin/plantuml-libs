@@ -1,0 +1,21 @@
+' definition of the Item azure-17/Item/Security/ServiceIdentitySecureScore
+
+sprite $ServiceIdentitySecureScoreXs [10x10/16z] NSOr0G11402nMVQl-F4uLLYPkJkGROL_Km1_9yNh6KrmBhCgnWfk
+
+sprite $ServiceIdentitySecureScoreSm [12x12/16z] LSP50G0n402nMVQl-A3SlCBDpDnTWN1lpnG2sX417oyW-iK0sfN1OXKD5jlFhAfURnTu0G
+
+sprite $ServiceIdentitySecureScoreMd [16x16/16z] VST50GH1402nQlQlUF1mARzmmGOVRC_zzKm5DUHraG82NeVvv7N3713_l9ZIzoE3JTVvqd7XHwJpo-BfcLa3Bt9ul2v01m
+
+sprite $ServiceIdentitySecureScoreLg [20x20/16z] ZSt50K0X30JHGRBRVyNVNPdZWoIyLSRgr6PviOr2YiriZovWCqY-M84GK6Et36PCkoKKZDLwC2Uczhkss5gCOsaoBjK8RgQxbMWm3Nae7inibIUhGnfB3FK
+
+!procedure ServiceIdentitySecureScore($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/Security/ServiceIdentitySecureScore', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceIdentitySecureScoreCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceIdentitySecureScoreLg>', 'Security', $funcName, $content)
+!endprocedure
+
+!procedure ServiceIdentitySecureScoreGroup($id, $name='Service Identity Secure Score', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceIdentitySecureScoreLg>', $name, $tech)
+!endprocedure

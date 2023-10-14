@@ -1,0 +1,21 @@
+' definition of the Item azure-17/Item/General/ServiceControlsHorizontal
+
+sprite $ServiceControlsHorizontalXs [10x10/16z] Oy02E820ZOsTdPq3KuuHA0i1ZEp4wWK
+
+sprite $ServiceControlsHorizontalSm [12x12/16z] TSn50G1120107FeNFbdN-U30HNpOp3_1gahwCJCOKSDHkJXS-F1ppCUT5m
+
+sprite $ServiceControlsHorizontalMd [16x16/16z] XSw30G0n343H-7V_XS_cgvd83ykHrWHe8tISJokVpyUkHl8ZET2Y7Q2WVg2HyeDBFjVyvbigRte
+
+sprite $ServiceControlsHorizontalLg [20x20/16z] lSz50i1030B0K87y_yCLBdMNkUt6unh4YDB0ZYnj_bVMXjfeSHCyTqAWVnP_5QT0wOzxAndeJrcSr08
+
+!procedure ServiceControlsHorizontal($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/General/ServiceControlsHorizontal', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceControlsHorizontalCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceControlsHorizontalLg>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceControlsHorizontalGroup($id, $name='Service Controls Horizontal', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceControlsHorizontalLg>', $name, $tech)
+!endprocedure

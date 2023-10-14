@@ -1,0 +1,21 @@
+' definition of the Item azure-17/Item/Iot/ServiceEventGridSubscriptions
+
+sprite $ServiceEventGridSubscriptionsXs [10x10/16z] Oq00DXXWO8E9G4WMX1fE2CNCo01bG6bM68tGYp0F
+
+sprite $ServiceEventGridSubscriptionsSm [12x12/16z] JSl50G1124FHFmxz5xoAlHEIKEt47kwPCJOj9k3ZLBMHrZ6zpAorictJJXGt
+
+sprite $ServiceEventGridSubscriptionsMd [16x16/16z] XSu73i0W30D0rt8YyVy7TxTiSbgGZOZNu4Hc_VzX9Y4pdCJyTKafvI-sN4uQAQ50pFJtY9bxTt_Z
+
+sprite $ServiceEventGridSubscriptionsLg [20x20/16z] ZT254KCn30DGoTJh_WD_fd3UOS28ML5gt271yEyTxxjRX1cHS82QN-tu_tslH4ZgVlTUAMX9e8Uxcmc-T3yAKcAxDn0fj_PiwTtahWmLAm
+
+!procedure ServiceEventGridSubscriptions($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/Iot/ServiceEventGridSubscriptions', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceEventGridSubscriptionsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceEventGridSubscriptionsLg>', 'Iot', $funcName, $content)
+!endprocedure
+
+!procedure ServiceEventGridSubscriptionsGroup($id, $name='Service Event Grid Subscriptions', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceEventGridSubscriptionsLg>', $name, $tech)
+!endprocedure

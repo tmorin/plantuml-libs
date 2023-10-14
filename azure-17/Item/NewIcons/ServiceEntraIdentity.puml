@@ -1,0 +1,24 @@
+' definition of the Item azure-17/Item/NewIcons/ServiceEntraIdentity
+
+sprite $ServiceEntraIdentityXs [10x10/16z] LKg50G112BfGmTX_tUyqgVOhvOqCk81Pvk7fbDYXRaWrCrL4nQogsWQ56vXRaBahHutZhm
+
+sprite $ServiceEntraIdentitySm [12x12/16z] NOs50S0m20IZ-Fxp5gbV1EVRdqMtEn3nyW5GzN9XQGLxxxbt1Ecw3nxi5RXlPYrTK7V5Dww5vlGMY6TljMvf3W
+
+sprite $ServiceEntraIdentityMd [16x16/16z] ROy50i0W30EnjDZ_txlCy9l0fQWv4-AaNbK7jTGn414j9GygA0ow-Y0CdaL1l0UK0LuDjoCnOFkKdxOIX1UHL6-CUnJwM7dEIjvY-8wNIw7buO1qDz_eQoy
+
+sprite $ServiceEntraIdentityLg [20x20/16z] {
+VT050iCm34DHRRP2zltFkyXZwY-_Sd3KcVYCVOpFgxfwjzRQ9pPPHCnNKh7hRsG-XBmHTsRkI-WYAZSZMNW2dChA60fs8vamCuAkjDRdP0MlobPM4-3DHbup
+A0bl5mtSeZwt22_DClyOhCZ0GHS
+}
+
+!procedure ServiceEntraIdentity($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/NewIcons/ServiceEntraIdentity', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceEntraIdentityCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceEntraIdentityLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceEntraIdentityGroup($id, $name='Service Entra Identity', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceEntraIdentityLg>', $name, $tech)
+!endprocedure

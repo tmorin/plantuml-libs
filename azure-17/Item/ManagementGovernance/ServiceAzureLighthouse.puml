@@ -1,0 +1,24 @@
+' definition of the Item azure-17/Item/ManagementGovernance/ServiceAzureLighthouse
+
+sprite $ServiceAzureLighthouseXs [10x10/16z] FSQ70S0W2031HEdx3opz5RWlEh7Ycbb9OhLenIrc10XSlo2Xk5v88vTc0F
+
+sprite $ServiceAzureLighthouseSm [12x12/16z] HOk34G0m40JVwh_V63iwmeBWmbLr98M8v36A1d4rVstcOYTsLn5SEeOINICSoYAMNcfWGrikGiPwo_dk
+
+sprite $ServiceAzureLighthouseMd [16x16/16z] NSt50G0W241HK4hstzVkVti6m2p07Rdx4NhFO9NMbssHt-6rtjOMyo8t4H5E3n7hO9GkCnlcAJFkNfeFc2tD1Aktb8a1ucBV0GK
+
+sprite $ServiceAzureLighthouseLg [20x20/16z] {
+ZSw50OCm443HoFd--rREweMFFo39wDPu3yraliWoJvu8J3tJ9vIdovCHhI-67yPymjX3W0TXoAtPLW98HLj2W4JAAB-HMnWqdLYYi1kWYpVJMBlu-LcKOebF
+md3lsGGXx0e
+}
+
+!procedure ServiceAzureLighthouse($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/ManagementGovernance/ServiceAzureLighthouse', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureLighthouseCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureLighthouseLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureLighthouseGroup($id, $name='Service Azure Lighthouse', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureLighthouseLg>', $name, $tech)
+!endprocedure

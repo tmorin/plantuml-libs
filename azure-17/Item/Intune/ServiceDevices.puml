@@ -1,0 +1,21 @@
+' definition of the Item azure-17/Item/Intune/ServiceDevices
+
+sprite $ServiceDevicesXs [10x10/16z] LSR50G0W2010k_RVLwNXNfVKgUoSp7ZZeytl511N5u0bj3vPMmy
+
+sprite $ServiceDevicesSm [12x12/16z] RSO10W0H24JHNQYQ-zyN0F2e_hTGIJpbxV0FlOaSqMWQpHbCSRLMfRzAicUpI0G
+
+sprite $ServiceDevicesMd [16x16/16z] bSU34S00402mj_RVjxQRO-30QX1P0oZSYlkBcQZPveFJQI8--7lFIOo56SVWzXBXsmCDMW
+
+sprite $ServiceDevicesLg [20x20/16z] dSc55K0X241H6Wxxx_kxKxts4nwWNWcayPacfE0P_pOoCv5XkxJ1V_D52gsukkb3SzsiZMEtDZXO_ngRojekUW
+
+!procedure ServiceDevices($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/Intune/ServiceDevices', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceDevicesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDevicesLg>', 'Intune', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDevicesGroup($id, $name='Service Devices', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDevicesLg>', $name, $tech)
+!endprocedure

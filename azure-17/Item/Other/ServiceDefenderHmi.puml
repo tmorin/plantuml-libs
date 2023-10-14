@@ -1,0 +1,21 @@
+' definition of the Item azure-17/Item/Other/ServiceDefenderHmi
+
+sprite $ServiceDefenderHmiXs [10x10/16z] JSQ50G0W44BHRolxxslNkm0-VW6b50UX_aEdV5kvBUXWXpij8wu6
+
+sprite $ServiceDefenderHmiSm [12x12/16z] TOo50O0m4CI2m-s_BtLlywwiKEP5j-LowAZojyg_AhzLI7yU3l5XlRq2colmwQJ2
+
+sprite $ServiceDefenderHmiMd [16x16/16z] XSh50G1124FHFmxflzzrrtT14dxfm43kjb56LWTbvWgNkrvk_xcRpf8sJfRORyXD2B1KJDFYsDulJK2kky1L3m
+
+sprite $ServiceDefenderHmiLg [20x20/16z] ZS-r0SLG5CDGFRxs_lj-Xd1oIdNYkZfJWEm5WJmU-ayuOVUNzj7TDvhQkZascYwsy5hpZFoGPYcHkyryAnKSA03Z7Cy6oONkYG0PaESQLzq1
+
+!procedure ServiceDefenderHmi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/Other/ServiceDefenderHmi', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceDefenderHmiCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDefenderHmiLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDefenderHmiGroup($id, $name='Service Defender Hmi', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDefenderHmiLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,27 @@
+' definition of the Item azure-17/Item/Databases/ServiceSqlServerRegistries
+
+sprite $ServiceSqlServerRegistriesXs [10x10/16z] HSd50S0W00F0IF7zzotElI9uA9k2Uqgbn9uYMasvgfyzTLBFgXI5Bh9h-tKzgQw47XAw7m
+
+sprite $ServiceSqlServerRegistriesSm [12x12/16z] LSh70K0110DGHBV_lB_NTo89_V1EHB2TkjiE1nb3mQ3Tz4v5zRcFfZgAMSzDH3CFhdr6F_VcTzD9NSzZ1G
+
+sprite $ServiceSqlServerRegistriesMd [16x16/16z] {
+TOm70WKW2485ctJ_-txgx_MQAX1_8Ga_O3dG_qhNMPifwRgqZ0va9i7O89QaENsTW5tVY5fhkXvLlQhj-kYftcP2T_z47GAquh00LzFxLijOeVMipTywRkMC
+drm
+}
+
+sprite $ServiceSqlServerRegistriesLg [20x20/16z] {
+ZSo50KCn24NHuF3OVz-IkhVtQqva_HqHoyJpdP789j5BHtCP8usQqkLaWoL48dhPE_7g1X2U01xir9XCpyRJjcA1iK5gssal1uB0GNKx3opcSAEgMAVQGKdx
+gQwBfIM25MP-jSPE4kWdcxvRt0oqBka9Odth
+}
+
+!procedure ServiceSqlServerRegistries($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/Databases/ServiceSqlServerRegistries', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceSqlServerRegistriesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceSqlServerRegistriesLg>', 'Databases', $funcName, $content)
+!endprocedure
+
+!procedure ServiceSqlServerRegistriesGroup($id, $name='Service Sql Server Registries', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceSqlServerRegistriesLg>', $name, $tech)
+!endprocedure

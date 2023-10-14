@@ -1,0 +1,24 @@
+' definition of the Item azure-17/Item/Other/ServiceTargetsManagement
+
+sprite $ServiceTargetsManagementXs [10x10/16z] LOo30G01200lr_u3ltcPx3WNRsOf71H87PrT0yGRCoKSH52QdKbcECd_lnK
+
+sprite $ServiceTargetsManagementSm [12x12/16z] TOs30K0n34HV6-y_yBSHyuv5T8dlsexAmqEtKlO0GPSvqjG24ILLWLnmSdi5gcteLKlvnpi2
+
+sprite $ServiceTargetsManagementMd [16x16/16z] ZOz10W0H30E3TAF___02S3F09ATYG0pUFDfLIfyKjgAGD5qxhiHSofI0yYAGdwgpkB7SBIT7Nt6Y8WsFRYYjOnAya75YZ_Fy
+
+sprite $ServiceTargetsManagementLg [20x20/16z] {
+hL1L0e9G4DoE-r_O3TilWQ6cU0LF2Fo0ZdjiflXPCZTpjtTh5Rg_l2TtVOxL5d4DfyM6iyTyk5JK1r54ejBYGkLfwQvERtcn1GRs86qzFOZSBoV34vasxuGt
+U3RuPyENdDyD
+}
+
+!procedure ServiceTargetsManagement($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/Other/ServiceTargetsManagement', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceTargetsManagementCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceTargetsManagementLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceTargetsManagementGroup($id, $name='Service Targets Management', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceTargetsManagementLg>', $name, $tech)
+!endprocedure

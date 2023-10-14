@@ -1,0 +1,24 @@
+' definition of the Item azure-17/Item/Devops/ServiceApiConnections
+
+sprite $ServiceApiConnectionsXs [10x10/16z] RSI30G0W04JHdx7_mDcz0p-s81EIpFKfcsaikR6S2XcTcuVFM18
+
+sprite $ServiceApiConnectionsSm [12x12/16z] TOhN0KCn20FFTDX_t-JrFnyTYItgxif5o5fB0y0NtyXBkp0AJ1WWy3vHm2wpm6kdyh1NiE4F
+
+sprite $ServiceApiConnectionsMd [16x16/16z] bOx50SCm3035jF--9VEdISuW1dYCsW_gfXb-uUvWxtvgYcjpZoBtreEfYCG4ujS48AifbfrM_dcYdiemx2NMD0wt3nvuRAbmoHi
+
+sprite $ServiceApiConnectionsLg [20x20/16z] {
+fSrL0iGW30JGGKRe_U-xXcp_-t19WeVA3svqOADw-MddihZYRDlSoF-iraphTTUqTIZugY9mVVTT5T4i3l2gQyiHaXOpWXy1RIp4vBqIMzjtTC5YdLsiBoSu
+c4buv0q
+}
+
+!procedure ServiceApiConnections($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/Devops/ServiceApiConnections', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceApiConnectionsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceApiConnectionsLg>', 'Devops', $funcName, $content)
+!endprocedure
+
+!procedure ServiceApiConnectionsGroup($id, $name='Service Api Connections', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceApiConnectionsLg>', $name, $tech)
+!endprocedure

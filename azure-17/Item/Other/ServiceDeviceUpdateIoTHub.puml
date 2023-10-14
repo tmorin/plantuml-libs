@@ -1,0 +1,27 @@
+' definition of the Item azure-17/Item/Other/ServiceDeviceUpdateIoTHub
+
+sprite $ServiceDeviceUpdateIoTHubXs [10x10/16z] BSQ50G102090lWps7_YjCm1bOv0BvLvNLi6D3Z1Ynn5ywwxpNhPmto6s50GQvQ9H4Ju
+
+sprite $ServiceDeviceUpdateIoTHubSm [12x12/16z] FSY55S1020FGeA_9_WFt_EFWQ5nItDMWJrWoqZCvVvaZrouVSrOq5EvfLXKS_xhWNmzbXK7PCIuifF1GNFC7
+
+sprite $ServiceDeviceUpdateIoTHubMd [16x16/16z] {
+JSa95iH0209HL2Gjzp_mJFRyNkk9Xm8Vjl4bsu5RifoRyqgoc4NwpWJ_QWsGBkxpNHhO5dSHLy_gZBsxkmneUiVzskVXaXIje300l4cx9B4BKqn9U-xIQwOB
+hx7njUnx_0C
+}
+
+sprite $ServiceDeviceUpdateIoTHubLg [20x20/16z] {
+NSo7WSGm24HHme3Cz5_m0Rwq-evw2l8lU-IgoBgDdLwcPF7y0mTmIW_vIu0xtE1W_XBwDNbnuD7PQ8fDvaZbq2YsMMXZmxhhSLuBKr-BBhbxOskERjO9NzA8
+CUTQUNQMwHhP6zkC6VdcQVBs4874uD96Fg1dGlvrI9RSDPwBaXNosnS
+}
+
+!procedure ServiceDeviceUpdateIoTHub($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/Other/ServiceDeviceUpdateIoTHub', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceDeviceUpdateIoTHubCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDeviceUpdateIoTHubLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDeviceUpdateIoTHubGroup($id, $name='Service Device Update Io T Hub', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDeviceUpdateIoTHubLg>', $name, $tech)
+!endprocedure

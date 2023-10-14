@@ -1,0 +1,24 @@
+' definition of the Item azure-17/Item/MixedReality/ServiceSpatialAnchorAccounts
+
+sprite $ServiceSpatialAnchorAccountsXs [10x10/16z] NSor0S0m30J0Cx_t7pXSHOsU_M_E-G4Mh2K9x2qfIaDPcyG3Anrw1zy2N-04
+
+sprite $ServiceSpatialAnchorAccountsSm [12x12/16z] RKn50iH020iZ4Fx_uDqMEtMKA3wMgahF1h4Ov9rtpcOWUTxnk2qbOqpCq7FUG6hOAsJPvUkUMUxn_G4
+
+sprite $ServiceSpatialAnchorAccountsMd [16x16/16z] TKs30G1132jIxJ_mcuUQ2St5tV5jGn7ozc6RnzNmMOVVjq6Ucrphetfx20YSLTXVvMHHgzfX7qojmFbwzJWkJVMa1C1NjOLh-l3pspqWZt3T92i
+
+sprite $ServiceSpatialAnchorAccountsLg [20x20/16z] {
+XOs50SGm30DZr7l_XLz9cLK-N-NscSYC4ygH0p8aEUIWWJU1hu3JE7a0fT_8Ql5T6WxCgygQToIpvSe-S-6aQ-DZ6Q6glmSGQwkHyTzzgmbWIgygDqzrxd5V
+jZEwp5rurt7Vufcvs4i4G3kpRViMnrRs1m
+}
+
+!procedure ServiceSpatialAnchorAccounts($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/MixedReality/ServiceSpatialAnchorAccounts', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceSpatialAnchorAccountsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceSpatialAnchorAccountsLg>', 'MixedReality', $funcName, $content)
+!endprocedure
+
+!procedure ServiceSpatialAnchorAccountsGroup($id, $name='Service Spatial Anchor Accounts', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceSpatialAnchorAccountsLg>', $name, $tech)
+!endprocedure

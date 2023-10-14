@@ -1,0 +1,24 @@
+' definition of the Item azure-17/Item/ManagementGovernance/ServiceCompliance
+
+sprite $ServiceComplianceXs [10x10/16z] HOc30G1054BFt7_URwDw9QloUQbODbLFr5diMFM-JRq-JCtlb9aeAmG
+
+sprite $ServiceComplianceSm [12x12/16z] PSZ50S104CD07ItsNs-OezVO_8kdu-bxwD8kQmvZOscjdsRSFv60d2wNAySlHyOC
+
+sprite $ServiceComplianceMd [16x16/16z] PSa10W0H24HHknDKzpyl0F21XtboLFFJxV1oMmu7wG--_tDksWLyENG7WFvy5eUyF82mcRDfiv70vQ1XLHdcn_N2ctlTMp09
+
+sprite $ServiceComplianceLg [20x20/16z] {
+TSv50WGW241Hb8RxdtTwRFzAdmd7YlpIqWr_0uroi8Q3DQpT6ZQJQ5ZfTqVXp-lTpCG_IzsG4J5c4tprcLepUflF1a6ej1X692p6cQFnvyD_ysxAi5dhQg1p
+04y
+}
+
+!procedure ServiceCompliance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/ManagementGovernance/ServiceCompliance', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceComplianceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceComplianceLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure ServiceComplianceGroup($id, $name='Service Compliance', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceComplianceLg>', $name, $tech)
+!endprocedure

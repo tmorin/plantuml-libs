@@ -1,0 +1,24 @@
+' definition of the Item azure-17/Item/Other/ServiceDatabaseInstanceForSap
+
+sprite $ServiceDatabaseInstanceForSapXs [10x10/16z] TSR90G0X20J16K-E_FFT_ktBKg3ryu85xmWFeRlmhWLGUqiCTOx7iN10V
+
+sprite $ServiceDatabaseInstanceForSapSm [12x12/16z] XSQr0S1030D0WwG7xpzlcBfSTVRb0I2ki_T6Frv2GFDyrTpyVMnyiv-m89d7msElUPNW8TX1cxqh
+
+sprite $ServiceDatabaseInstanceForSapMd [16x16/16z] bSV50GCn40ImnJ7rNwynd4FzH7-OHOJvLLk47vSGKuh6jbuoJDIHq-DTxcu_xj_Uvjs5IBsZnvb5PWdzm3YS7W2e0O_Duz46
+
+sprite $ServiceDatabaseInstanceForSapLg [20x20/16z] {
+nT1L0eGW541HNbBxNo-TC_hjjO-DUGbQ5_08OHanYwemqp814EkyAzjrOOnMcP14GrXM2xKFZCzes_f9w2OYfiJITwO105Q3OgwQgXP2KIrK8-kBKRciqaf7
+y3VIKp8
+}
+
+!procedure ServiceDatabaseInstanceForSap($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/Other/ServiceDatabaseInstanceForSap', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceDatabaseInstanceForSapCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDatabaseInstanceForSapLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDatabaseInstanceForSapGroup($id, $name='Service Database Instance For Sap', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDatabaseInstanceForSapLg>', $name, $tech)
+!endprocedure

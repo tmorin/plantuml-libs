@@ -1,0 +1,27 @@
+' definition of the Item azure-17/Item/Other/ServiceAzureCenterForSap
+
+sprite $ServiceAzureCenterForSapXs [10x10/16z] JSY53SHG50CmzpFiF-z1H7renRl6S6z0uGQjZ1-Z4HKbSutIXZQIjIxIm83sBxu
+
+sprite $ServiceAzureCenterForSapSm [12x12/16z] LKh50G0n2CDFil--1V8g6fExhCe07LYv2lhPhBMAbbkBd0lYYiKfsWapwk5SY6uwAlthiB3GQqlKgSHK_mC
+
+sprite $ServiceAzureCenterForSapMd [16x16/16z] {
+ROs50GDH24CVUiB-yrRur8jhmZ-9pDIAwJH30A-QLbYoz-3UYge2Hq44uAO9K4BshsVtnqbdF1N0Ykpl2TgzgUOAKQJszmhdXWfs_-vGpGKZvyxxm6HbTnTH
+d_bCfhi2
+}
+
+sprite $ServiceAzureCenterForSapLg [20x20/16z] {
+TOu55iCm5CFq8Hxu_kSjZTTM8J-5FgV4a1GM7xHGN6nVNeUavC7LzzSfWDXy-_PHkH30S4FeSI2p1N0tF1BTUbme1_fpMAZOA0KFTqK9aVcUyGqrMPdLrEB6
+uvp8xg6ckoMmg5oTDZSaP21NgG6nEB1PO_BXObRw8pyLLVSZvIjirr_mJLPLyc06
+}
+
+!procedure ServiceAzureCenterForSap($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/Other/ServiceAzureCenterForSap', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureCenterForSapCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureCenterForSapLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureCenterForSapGroup($id, $name='Service Azure Center For Sap', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureCenterForSapLg>', $name, $tech)
+!endprocedure

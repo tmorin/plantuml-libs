@@ -1,0 +1,21 @@
+' definition of the Item azure-17/Item/Analytics/ServiceEventHubClusters
+
+sprite $ServiceEventHubClustersXs [10x10/16z] LSk30G0m30313_VVkEQL4PSq7Cha7PqfE919-cvEjBqpUsVuL
+
+sprite $ServiceEventHubClustersSm [12x12/16z] TSo35G0m30JGu8hz5wwD_n27VZYJLbYQBDkizz7REGSdkLFwsZw9vD8JNT-W2MWH0G
+
+sprite $ServiceEventHubClustersMd [16x16/16z] XSm53i0W50FGzbjs_mjF2ac9xk5ymPzP0bjhfzwI2V6RlK18dfNrFGSRl_xVkoZbGEbOMm9m5LLJc2BimgbyI8Oan1u
+
+sprite $ServiceEventHubClustersLg [20x20/16z] ZSW7RWGm20310MEI_tyupIBjwgYjrhDYO7GTEndjg7bpBnGrvYsnu-XvBPO4DGUKbKD_85fb7CKH5W5oLYChjX45OejycTVT1VdgdtLnwYAe6fxq3W
+
+!procedure ServiceEventHubClusters($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/Analytics/ServiceEventHubClusters', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceEventHubClustersCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceEventHubClustersLg>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure ServiceEventHubClustersGroup($id, $name='Service Event Hub Clusters', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceEventHubClustersLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item azure-17/Item/Intune/ServiceDeviceConfiguration
+
+sprite $ServiceDeviceConfigurationXs [10x10/16z] RSY53S103C30eDFz5oxJWqKdonU-nodTErM7QYPk6UnSp8mGE7M_inqR
+
+sprite $ServiceDeviceConfigurationSm [12x12/16z] ZSP10W0X141H0FS_yLG5o_c51pExNUFksl_RocAhQr83MGvQcG6drLRB4RXc2Ju
+
+sprite $ServiceDeviceConfigurationMd [16x16/16z] dSq50a8X44LHcRYu_mqR4xQ_7dd8qsSK406qF2fjEMPPinEsD96d1RnyJymLRjQxDMtXMgZxvyYSu8mqyzRbVrS
+
+sprite $ServiceDeviceConfigurationLg [20x20/16z] lSt50O0m343HUDb_OXh3uSZ3FnLuP9E8-6Dlt0uDstSRsCOVJUtIr2PLEJQoS6fYXbXjeP13_B4tZgzvPm3q5YmWU9Da9Pg3k7kWsDUftumPt0e
+
+!procedure ServiceDeviceConfiguration($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/Intune/ServiceDeviceConfiguration', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceDeviceConfigurationCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDeviceConfigurationLg>', 'Intune', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDeviceConfigurationGroup($id, $name='Service Device Configuration', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDeviceConfigurationLg>', $name, $tech)
+!endprocedure

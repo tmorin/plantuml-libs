@@ -1,0 +1,24 @@
+' definition of the Item azure-17/Item/Other/ServiceVmAppVersions
+
+sprite $ServiceVmAppVersionsXs [10x10/16z] RSQt5S0m34GnXgVxfFVVLx4rAeH-W8pYKaIpLP5fjVNbrczZi-qBQUYi0noxUbi
+
+sprite $ServiceVmAppVersionsSm [12x12/16z] TSl50KCn30DGiwLs_td3r_-29giFtLr5zcChSm0miy1o_jsAZLTAylqzCqssVrV9sjjFkjRQNx3WKCXLUtm2
+
+sprite $ServiceVmAppVersionsMd [16x16/16z] XSfL0iH020DGYYHXz_xdhTjyzOq2SGmANxZA2AbvSm8yQwqSxZhSDVNmgaeT-kRctNUDsaHUgQrOZ-tydm1yFKUTFoEJGTfcwWwfD4bRkMLBY73ARhsn1G
+
+sprite $ServiceVmAppVersionsLg [20x20/16z] {
+VSw50OH034JH-4pelrzyz_mU_eDPVV3w5FyRITGX2uSIKO0u9QwM-_oZcHcQT-C1jJSAJpMQky_6gwdjPkidK17qIxF8pD3aKygB3Dqy_b7sRSPbiThvEPXD
+02YE_PsYst3GqRnt18Ea4_AaB_A2Uw781W
+}
+
+!procedure ServiceVmAppVersions($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/Other/ServiceVmAppVersions', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceVmAppVersionsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceVmAppVersionsLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceVmAppVersionsGroup($id, $name='Service Vm App Versions', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceVmAppVersionsLg>', $name, $tech)
+!endprocedure

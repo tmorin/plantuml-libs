@@ -1,0 +1,24 @@
+' definition of the Item azure-17/Item/Other/ServiceDefenderIndustrialScaleSystem
+
+sprite $ServiceDefenderIndustrialScaleSystemXs [10x10/16z] PSQt0S0m40EnqoTo_uMTNGaL82guHTcgkbjLwmdHtU_8FwpEVLFMXVdH_qu
+
+sprite $ServiceDefenderIndustrialScaleSystemSm [12x12/16z] NSQ70KCn20FH2vOKzb_uztusy82XOcbJ8etDspdjE69FjZcgXz5D_B6M5Wv7_om9vmgwwxTKtJC
+
+sprite $ServiceDefenderIndustrialScaleSystemMd [16x16/16z] XSor0S0m3031jp3xBnmmkyerOW55JPbCxQEz9UOfnIwpCNShi6eimyEDMVj7EHh6ebvV70li_AyE9wyAK7rhpVYaGXp03_1U1P-QFW
+
+sprite $ServiceDefenderIndustrialScaleSystemLg [20x20/16z] {
+fSYv5GH120DH0G8w_uXNlNCVtdohNa4y60uSZAimh3p88Qr9hBGm3TAm2ZP9ioAn8xkoMklWpEdoi3vSn5oE2wRWoZJZ_lBBgoH6_usU9wYNqINI0THT7ky0
+vClp8TYe-mS
+}
+
+!procedure ServiceDefenderIndustrialScaleSystem($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/Other/ServiceDefenderIndustrialScaleSystem', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceDefenderIndustrialScaleSystemCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDefenderIndustrialScaleSystemLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDefenderIndustrialScaleSystemGroup($id, $name='Service Defender Industrial Scale System', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDefenderIndustrialScaleSystemLg>', $name, $tech)
+!endprocedure

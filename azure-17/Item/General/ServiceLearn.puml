@@ -1,0 +1,21 @@
+' definition of the Item azure-17/Item/General/ServiceLearn
+
+sprite $ServiceLearnXs [10x10/16z] TSP10W0G20311S3_tulgMdCQI4Tie9jW0wZ3bfDjAc-8rX4F
+
+sprite $ServiceLearnSm [12x12/16z] TSQ35G11442nlnprN-_Po5E0M07qLQxdo_CYhVKk-nFdIR9UL_NddLbhbTdwjcO4
+
+sprite $ServiceLearnMd [16x16/16z] ZSU53S0m402n2pof-yzRPhRGz9g5Cl0q8yRheloxBPPdh51ORuXY-rjAstrnVlsuslYagcd4H4JO4vH51m
+
+sprite $ServiceLearnLg [20x20/16z] fT2r0G1130D17Hdxh_UP6LQE9ZIQWiyPke9YZj6LQ2xHVyj7nWND9OgPPoDmCyfbOOnkMuiXR6niDfdB5rPkZCPVoIACbIQCpKOxGrXQ3G
+
+!procedure ServiceLearn($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/General/ServiceLearn', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceLearnCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceLearnLg>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceLearnGroup($id, $name='Service Learn', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceLearnLg>', $name, $tech)
+!endprocedure

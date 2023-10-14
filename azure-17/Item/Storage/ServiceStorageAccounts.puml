@@ -1,0 +1,21 @@
+' definition of the Item azure-17/Item/Storage/ServiceStorageAccounts
+
+sprite $ServiceStorageAccountsXs [10x10/16z] Oy06s600YSK4aGBIJ330m0oLP6PWveG0PWOMLWXWGHW7
+
+sprite $ServiceStorageAccountsSm [12x12/16z] TS770O0m40IniNsn_uB9i2ya_eGGmX0chyaKLhmMonvhOVqoJ41s
+
+sprite $ServiceStorageAccountsMd [16x16/16z] XSS53e0m54J1zsKtuVuNXXZUTgB3YX-4dpwl9oAu7CdxCyadgdof-hwVRssNRlg9XHq
+
+sprite $ServiceStorageAccountsLg [20x20/16z] fSY52S1G30N094-W-mzSG-hw3xzeuGCrNHv5LMnaNTpHUDxWUC3kC1suXlcw3GD1xexJKMkSxW3nqW
+
+!procedure ServiceStorageAccounts($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/Storage/ServiceStorageAccounts', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceStorageAccountsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceStorageAccountsLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure ServiceStorageAccountsGroup($id, $name='Service Storage Accounts', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceStorageAccountsLg>', $name, $tech)
+!endprocedure

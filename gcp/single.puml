@@ -358,27 +358,6 @@ UG
 !procedure AiHubGroup($id, $name='Ai Hub', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$AiHubLg>', $name, $tech)
 !endprocedure
-' definition of the Item gcp/Item/AiPlatformUnified
-
-sprite $AiPlatformUnifiedXs [10x10/16z] LKl50G1G1DNilx0y-S5B-CTk4N13R3H0R06rfBG-Mi0YRXIl-z662W
-
-sprite $AiPlatformUnifiedSm [12x12/16z] PKg30G0m3Alp_yMpLqRqbIoaXTY476L6GYDufOCmC5FuW2e58sZK0Xz-AmC
-
-sprite $AiPlatformUnifiedMd [16x16/16z] bKu54W1128B3OVt_Xw-xrsx1J_8-eOXOAurwjNOL2QPZwGyLUtT3X54ALjAGR_SuvaxkxY7ZWgSwlr87
-
-sprite $AiPlatformUnifiedLg [20x20/16z] hSl50GD044BHFp1Bjl-6u-xsZWWV2rS4fiPbO94Owf2vm6aOCGSsX4xEl-LE0jO-Cm97C5fNtyo64nLX5kYqscSzmvxiRJPdNNyNvag0VsRYcHK
-
-!procedure AiPlatformUnified($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'gcp/Item/AiPlatformUnified', $name, $tech, $desc)
-!endprocedure
-
-!procedure AiPlatformUnifiedCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AiPlatformUnifiedLg>', '', $funcName, $content)
-!endprocedure
-
-!procedure AiPlatformUnifiedGroup($id, $name='Ai Platform Unified', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$AiPlatformUnifiedLg>', $name, $tech)
-!endprocedure
 ' definition of the Item gcp/Item/AiPlatform
 
 sprite $AiPlatformXs [10x10/16z] Oy0EMDaOs3WWJ3O63WZD1cHnS40O340c2v04YJ61P5b0B8X2A0i1
@@ -403,6 +382,27 @@ dJmi9ArU5z_m0W
 !procedure AiPlatformGroup($id, $name='Ai Platform', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$AiPlatformLg>', $name, $tech)
 !endprocedure
+' definition of the Item gcp/Item/AiPlatformUnified
+
+sprite $AiPlatformUnifiedXs [10x10/16z] LKl50G1G1DNilx0y-S5B-CTk4N13R3H0R06rfBG-Mi0YRXIl-z662W
+
+sprite $AiPlatformUnifiedSm [12x12/16z] PKg30G0m3Alp_yMpLqRqbIoaXTY476L6GYDufOCmC5FuW2e58sZK0Xz-AmC
+
+sprite $AiPlatformUnifiedMd [16x16/16z] bKu54W1128B3OVt_Xw-xrsx1J_8-eOXOAurwjNOL2QPZwGyLUtT3X54ALjAGR_SuvaxkxY7ZWgSwlr87
+
+sprite $AiPlatformUnifiedLg [20x20/16z] hSl50GD044BHFp1Bjl-6u-xsZWWV2rS4fiPbO94Owf2vm6aOCGSsX4xEl-LE0jO-Cm97C5fNtyo64nLX5kYqscSzmvxiRJPdNNyNvag0VsRYcHK
+
+!procedure AiPlatformUnified($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/AiPlatformUnified', $name, $tech, $desc)
+!endprocedure
+
+!procedure AiPlatformUnifiedCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AiPlatformUnifiedLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure AiPlatformUnifiedGroup($id, $name='Ai Platform Unified', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$AiPlatformUnifiedLg>', $name, $tech)
+!endprocedure
 ' definition of the Item gcp/Item/AnalyticsHub
 
 sprite $AnalyticsHubXs [10x10/16z] Oy03E82O6OJOW2n61ZPsHY0D5kBWO49I1HPa18jZDGS
@@ -423,6 +423,30 @@ sprite $AnalyticsHubLg [20x20/16z] jOk90K8n24D30YNxJwnyiHFewqaE_1ddVZHmViTUwHcba
 
 !procedure AnalyticsHubGroup($id, $name='Analytics Hub', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$AnalyticsHubLg>', $name, $tech)
+!endprocedure
+' definition of the Item gcp/Item/Anthos
+
+sprite $AnthosXs [10x10/16z] POZ70G0n38FSpVuBNw-9FWBalvWfRdGnkn9OdA22-KOe95i4TYMikRO2
+
+sprite $AnthosSm [12x12/16z] POZ50S1G5C9u2jr_uBh_N231GBn-lkyjxizFy9B098OVMGvstXTah5ybGY81gh11TLPVr08
+
+sprite $AnthosMd [16x16/16z] ZOt70S0m20E54K7iFt1wiVtA_K0DF-5qilMdSJJGGF_Enh61i3gV5-vMAhoLj6f86U-J-mcaBeF5gSRnEEweq7ajvyDJkgP3cO2KUbWaJ6m
+
+sprite $AnthosLg [20x20/16z] {
+bSq53WGn34DHDt43zx_mUfX4-mVRFYduE-AJStmPFv0E6XwPaFF3rjVLIapumGpP1lB1gakRrvZ1iQXeko1PFG187cECYu93SkvmLQMcv0OzUsQLOsfN_r2L
+8WQbNKKWgZ9ub5gPYJsI0Rxz
+}
+
+!procedure Anthos($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Anthos', $name, $tech, $desc)
+!endprocedure
+
+!procedure AnthosCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AnthosLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure AnthosGroup($id, $name='Anthos', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$AnthosLg>', $name, $tech)
 !endprocedure
 ' definition of the Item gcp/Item/AnthosConfigManagement
 
@@ -469,29 +493,26 @@ sprite $AnthosServiceMeshLg [20x20/16z] fSt55GHH20NH-d9ubN_2eoti-o8hXEV6qJezMXC7
 !procedure AnthosServiceMeshGroup($id, $name='Anthos Service Mesh', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$AnthosServiceMeshLg>', $name, $tech)
 !endprocedure
-' definition of the Item gcp/Item/Anthos
+' definition of the Item gcp/Item/Api
 
-sprite $AnthosXs [10x10/16z] POZ70G0n38FSpVuBNw-9FWBalvWfRdGnkn9OdA22-KOe95i4TYMikRO2
+sprite $ApiXs [10x10/16z] Oy0FsDc1Y9qHH34o0ma6PcQW03CxK8296IB6W621r641
 
-sprite $AnthosSm [12x12/16z] POZ50S1G5C9u2jr_uBh_N231GBn-lkyjxizFy9B098OVMGvstXTah5ybGY81gh11TLPVr08
+sprite $ApiSm [12x12/16z] ZOc50G0n20Cl5M3_XTzTYqHfcLmrVARMYcUVlaJ1bvtEVVf9JyjHJvsc1KcyJ0y
 
-sprite $AnthosMd [16x16/16z] ZOt70S0m20E54K7iFt1wiVtA_K0DF-5qilMdSJJGGF_Enh61i3gV5-vMAhoLj6f86U-J-mcaBeF5gSRnEEweq7ajvyDJkgP3cO2KUbWaJ6m
+sprite $ApiMd [16x16/16z] fOS55WDH4CBobTVxNxXCTLqp0k4shQLurSyWG_Fhxwg4w4uHDt87UYXSQX_FAHppziIQov3uh9_X94y
 
-sprite $AnthosLg [20x20/16z] {
-bSq53WGn34DHDt43zx_mUfX4-mVRFYduE-AJStmPFv0E6XwPaFF3rjVLIapumGpP1lB1gakRrvZ1iQXeko1PFG187cECYu93SkvmLQMcv0OzUsQLOsfN_r2L
-8WQbNKKWgZ9ub5gPYJsI0Rxz
-}
+sprite $ApiLg [20x20/16z] lOvN0a8X40C7I5oz_uMLRlrItr2tXqEGdG1RzQuG5SQJ-jD-XJ2A1Bw8Pr-9Kdsvld7AhhxSVUUulVKEbazkUHBJj_lnmIU7zU2R-bA2lfkpme-v0W
 
-!procedure Anthos($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'gcp/Item/Anthos', $name, $tech, $desc)
+!procedure Api($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Api', $name, $tech, $desc)
 !endprocedure
 
-!procedure AnthosCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AnthosLg>', '', $funcName, $content)
+!procedure ApiCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ApiLg>', '', $funcName, $content)
 !endprocedure
 
-!procedure AnthosGroup($id, $name='Anthos', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$AnthosLg>', $name, $tech)
+!procedure ApiGroup($id, $name='Api', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ApiLg>', $name, $tech)
 !endprocedure
 ' definition of the Item gcp/Item/ApiAnalytics
 
@@ -534,27 +555,6 @@ sprite $ApiMonetizationLg [20x20/16z] dOw50GCn30FF6Es_S9dx78ujuk08_ojP1Fz5LciHJd
 
 !procedure ApiMonetizationGroup($id, $name='Api Monetization', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$ApiMonetizationLg>', $name, $tech)
-!endprocedure
-' definition of the Item gcp/Item/Api
-
-sprite $ApiXs [10x10/16z] Oy0FsDc1Y9qHH34o0ma6PcQW03CxK8296IB6W621r641
-
-sprite $ApiSm [12x12/16z] ZOc50G0n20Cl5M3_XTzTYqHfcLmrVARMYcUVlaJ1bvtEVVf9JyjHJvsc1KcyJ0y
-
-sprite $ApiMd [16x16/16z] fOS55WDH4CBobTVxNxXCTLqp0k4shQLurSyWG_Fhxwg4w4uHDt87UYXSQX_FAHppziIQov3uh9_X94y
-
-sprite $ApiLg [20x20/16z] lOvN0a8X40C7I5oz_uMLRlrItr2tXqEGdG1RzQuG5SQJ-jD-XJ2A1Bw8Pr-9Kdsvld7AhhxSVUUulVKEbazkUHBJj_lnmIU7zU2R-bA2lfkpme-v0W
-
-!procedure Api($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'gcp/Item/Api', $name, $tech, $desc)
-!endprocedure
-
-!procedure ApiCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ApiLg>', '', $funcName, $content)
-!endprocedure
-
-!procedure ApiGroup($id, $name='Api', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ApiLg>', $name, $tech)
 !endprocedure
 ' definition of the Item gcp/Item/ApigeeApiPlatform
 
@@ -691,6 +691,27 @@ sprite $AssuredWorkloadsLg [20x20/16z] fT234S1004JHnQd_XcCRVp9wEUDbr8xa53TaEwMq7
 !procedure AssuredWorkloadsGroup($id, $name='Assured Workloads', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$AssuredWorkloadsLg>', $name, $tech)
 !endprocedure
+' definition of the Item gcp/Item/Automl
+
+sprite $AutomlXs [10x10/16z] Oy0EE3ZOMLaX30u6LgWGY6I2CvWOWKm82qIoiZ826H0M4uY5
+
+sprite $AutomlSm [12x12/16z] TOgr0G1148GuNVfl-Ds5Q0J-oKfhQrPxMNDNThGkPbxjFRF59MTgsoAa9IOMsbouCm8
+
+sprite $AutomlMd [16x16/16z] ZSgt4G1020D1uUc_uVScvIAM4IgvErG_CrDXTZsO_Xs3ySc3zpnhFxpU95uFIzdU1EBm6b0Z-WIPOPAECKp3ADG1
+
+sprite $AutomlLg [20x20/16z] fOi53aCn5CEIrsRlt__4AwDWO55aEVYR9u4WBSgpSsYHuScy8CNrUNvLZWsR6PkYbULRPjQpHUKmIwqE6RypC01a7YNhICfcLPG8wy-bwrc7CH9Cu1lU
+
+!procedure Automl($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Automl', $name, $tech, $desc)
+!endprocedure
+
+!procedure AutomlCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AutomlLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure AutomlGroup($id, $name='Automl', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$AutomlLg>', $name, $tech)
+!endprocedure
 ' definition of the Item gcp/Item/AutomlNaturalLanguage
 
 sprite $AutomlNaturalLanguageXs [10x10/16z] Oy0EE800oe8BCR72XK0iC0V4uc07ivYPcJdWcXcH3GC
@@ -795,27 +816,6 @@ sprite $AutomlVisionLg [20x20/16z] fSw30K0n30JGQtZxB_njuzLCy9TnW1b71QCWjNHMrx2Hu
 
 !procedure AutomlVisionGroup($id, $name='Automl Vision', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$AutomlVisionLg>', $name, $tech)
-!endprocedure
-' definition of the Item gcp/Item/Automl
-
-sprite $AutomlXs [10x10/16z] Oy0EE3ZOMLaX30u6LgWGY6I2CvWOWKm82qIoiZ826H0M4uY5
-
-sprite $AutomlSm [12x12/16z] TOgr0G1148GuNVfl-Ds5Q0J-oKfhQrPxMNDNThGkPbxjFRF59MTgsoAa9IOMsbouCm8
-
-sprite $AutomlMd [16x16/16z] ZSgt4G1020D1uUc_uVScvIAM4IgvErG_CrDXTZsO_Xs3ySc3zpnhFxpU95uFIzdU1EBm6b0Z-WIPOPAECKp3ADG1
-
-sprite $AutomlLg [20x20/16z] fOi53aCn5CEIrsRlt__4AwDWO55aEVYR9u4WBSgpSsYHuScy8CNrUNvLZWsR6PkYbULRPjQpHUKmIwqE6RypC01a7YNhICfcLPG8wy-bwrc7CH9Cu1lU
-
-!procedure Automl($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'gcp/Item/Automl', $name, $tech, $desc)
-!endprocedure
-
-!procedure AutomlCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AutomlLg>', '', $funcName, $content)
-!endprocedure
-
-!procedure AutomlGroup($id, $name='Automl', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$AutomlLg>', $name, $tech)
 !endprocedure
 ' definition of the Item gcp/Item/BareMetalSolutions
 
@@ -1837,27 +1837,6 @@ LVJDOAmgVSiyy-Z6eDDBTy3daYndr5914R8xtlkpSUUbsY3lfD_prusRv_iyDm
 !procedure CloudOpsGroup($id, $name='Cloud Ops', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$CloudOpsLg>', $name, $tech)
 !endprocedure
-' definition of the Item gcp/Item/CloudOptimizationAiFleetRoutingApi
-
-sprite $CloudOptimizationAiFleetRoutingApiXs [10x10/16z] Oy0969c013i70mC4CJ0pCB21M60A90LYmMNXwi0gKG4
-
-sprite $CloudOptimizationAiFleetRoutingApiSm [12x12/16z] VSJ70OH00CF0sUp-6xu0l4Ys9Ezhm4BKYP91q07zC3Ie22OQWf2W31FAaUk-
-
-sprite $CloudOptimizationAiFleetRoutingApiMd [16x16/16z] ZKw30G1134lg_HT-crUxGJE9db87R0eiHrig4ZP5vQF5Qc8FQzjMSil7VMAy7djks2ZNrIm_dQgQMkxK-H8Nf3Ven1lr
-
-sprite $CloudOptimizationAiFleetRoutingApiLg [20x20/16z] dOxL0SDG30FFhFqNBeRprTv3i_W7v-wwEyVmOVb_Fsftw_cwfFhusE-I4h2ZZmW0wyLt7xhugW_gvkXpjw-v-vOPgRxv9B5RTVAXSelbRoma15VSZDzv0W
-
-!procedure CloudOptimizationAiFleetRoutingApi($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudOptimizationAiFleetRoutingApi', $name, $tech, $desc)
-!endprocedure
-
-!procedure CloudOptimizationAiFleetRoutingApiCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$CloudOptimizationAiFleetRoutingApiLg>', '', $funcName, $content)
-!endprocedure
-
-!procedure CloudOptimizationAiFleetRoutingApiGroup($id, $name='Cloud Optimization Ai Fleet Routing Api', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$CloudOptimizationAiFleetRoutingApiLg>', $name, $tech)
-!endprocedure
 ' definition of the Item gcp/Item/CloudOptimizationAi
 
 sprite $CloudOptimizationAiXs [10x10/16z] LKk54G102CBYt7_XxxGby8SyjusfiSz84Z8U8cEAcE0I1vTFy4S5
@@ -1881,6 +1860,27 @@ JG
 
 !procedure CloudOptimizationAiGroup($id, $name='Cloud Optimization Ai', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$CloudOptimizationAiLg>', $name, $tech)
+!endprocedure
+' definition of the Item gcp/Item/CloudOptimizationAiFleetRoutingApi
+
+sprite $CloudOptimizationAiFleetRoutingApiXs [10x10/16z] Oy0969c013i70mC4CJ0pCB21M60A90LYmMNXwi0gKG4
+
+sprite $CloudOptimizationAiFleetRoutingApiSm [12x12/16z] VSJ70OH00CF0sUp-6xu0l4Ys9Ezhm4BKYP91q07zC3Ie22OQWf2W31FAaUk-
+
+sprite $CloudOptimizationAiFleetRoutingApiMd [16x16/16z] ZKw30G1134lg_HT-crUxGJE9db87R0eiHrig4ZP5vQF5Qc8FQzjMSil7VMAy7djks2ZNrIm_dQgQMkxK-H8Nf3Ven1lr
+
+sprite $CloudOptimizationAiFleetRoutingApiLg [20x20/16z] dOxL0SDG30FFhFqNBeRprTv3i_W7v-wwEyVmOVb_Fsftw_cwfFhusE-I4h2ZZmW0wyLt7xhugW_gvkXpjw-v-vOPgRxv9B5RTVAXSelbRoma15VSZDzv0W
+
+!procedure CloudOptimizationAiFleetRoutingApi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudOptimizationAiFleetRoutingApi', $name, $tech, $desc)
+!endprocedure
+
+!procedure CloudOptimizationAiFleetRoutingApiCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudOptimizationAiFleetRoutingApiLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CloudOptimizationAiFleetRoutingApiGroup($id, $name='Cloud Optimization Ai Fleet Routing Api', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudOptimizationAiFleetRoutingApiLg>', $name, $tech)
 !endprocedure
 ' definition of the Item gcp/Item/CloudRouter
 
@@ -1927,27 +1927,6 @@ ERFcnHwyEVY7Fm
 !procedure CloudRoutesGroup($id, $name='Cloud Routes', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$CloudRoutesLg>', $name, $tech)
 !endprocedure
-' definition of the Item gcp/Item/CloudRunForAnthos
-
-sprite $CloudRunForAnthosXs [10x10/16z] Oy05E32P7EnG1YCx0mTOa9aPACZ121HX0hAPsK62JCpeHW4
-
-sprite $CloudRunForAnthosSm [12x12/16z] VOj50G1130DJhd_3nx0yho2MMA73VraKaeX7PiBbKYA25CzBCvsNb4ipxEGg23qx
-
-sprite $CloudRunForAnthosMd [16x16/16z] dKsr0S00388e_pzSrwd2XkCdv3VAreqtF2_K0xW613NgeEa2rHipTy0EmKZto5A8CtSpBESbRPpEN62Bu8xN604
-
-sprite $CloudRunForAnthosLg [20x20/16z] hSg53GGn50DHVrgx_uQNAOdeu8b7WxzmZ4JqaXnEmTIbgG1clwsb7Hb5Paru64b0-OmUZlqWhp4se4H8TZOumWr8KTgJXJlM6AkrvUkBEktDVNtGSyCt5W
-
-!procedure CloudRunForAnthos($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'gcp/Item/CloudRunForAnthos', $name, $tech, $desc)
-!endprocedure
-
-!procedure CloudRunForAnthosCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$CloudRunForAnthosLg>', '', $funcName, $content)
-!endprocedure
-
-!procedure CloudRunForAnthosGroup($id, $name='Cloud Run For Anthos', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$CloudRunForAnthosLg>', $name, $tech)
-!endprocedure
 ' definition of the Item gcp/Item/CloudRun
 
 sprite $CloudRunXs [10x10/16z] Oy0Ac1cO6A4i9WPcPfWWCvJ9mS0114064vW55c9cu621IQAP1W
@@ -1968,6 +1947,27 @@ sprite $CloudRunLg [20x20/16z] fOq53W0n20IH2lz_yIsSjILoCWasoGRwXoYQBb8XH3avD9cTe
 
 !procedure CloudRunGroup($id, $name='Cloud Run', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$CloudRunLg>', $name, $tech)
+!endprocedure
+' definition of the Item gcp/Item/CloudRunForAnthos
+
+sprite $CloudRunForAnthosXs [10x10/16z] Oy05E32P7EnG1YCx0mTOa9aPACZ121HX0hAPsK62JCpeHW4
+
+sprite $CloudRunForAnthosSm [12x12/16z] VOj50G1130DJhd_3nx0yho2MMA73VraKaeX7PiBbKYA25CzBCvsNb4ipxEGg23qx
+
+sprite $CloudRunForAnthosMd [16x16/16z] dKsr0S00388e_pzSrwd2XkCdv3VAreqtF2_K0xW613NgeEa2rHipTy0EmKZto5A8CtSpBESbRPpEN62Bu8xN604
+
+sprite $CloudRunForAnthosLg [20x20/16z] hSg53GGn50DHVrgx_uQNAOdeu8b7WxzmZ4JqaXnEmTIbgG1clwsb7Hb5Paru64b0-OmUZlqWhp4se4H8TZOumWr8KTgJXJlM6AkrvUkBEktDVNtGSyCt5W
+
+!procedure CloudRunForAnthos($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudRunForAnthos', $name, $tech, $desc)
+!endprocedure
+
+!procedure CloudRunForAnthosCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudRunForAnthosLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CloudRunForAnthosGroup($id, $name='Cloud Run For Anthos', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudRunForAnthosLg>', $name, $tech)
 !endprocedure
 ' definition of the Item gcp/Item/CloudScheduler
 
@@ -2677,27 +2677,6 @@ sprite $DataprepLg [20x20/16z] bOw50S10308Xll_2TVVUQnpy9Vs3JpjVpyRbtShgsFYCSVGDP
 !procedure DataprepGroup($id, $name='Dataprep', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$DataprepLg>', $name, $tech)
 !endprocedure
-' definition of the Item gcp/Item/DataprocMetastore
-
-sprite $DataprocMetastoreXs [10x10/16z] Oy01M3XO80mE480pGHGx4BC2CHjS3A4EoaOr2m
-
-sprite $DataprocMetastoreSm [12x12/16z] VSc50S0W4C30uDb_uReB1-zqUNHLhKTx316L3AGvbVaSc0GrB1skM2GriMiyZG
-
-sprite $DataprocMetastoreMd [16x16/16z] dSor0GGm30J1DL__3PinUfX4BFuJ5JcS6iUKD2Ice2QiiGD9uFiFqVIXwRdt64c6w1ZI-ovgY2nfZHSdnrSA
-
-sprite $DataprocMetastoreLg [20x20/16z] hO_50GKn44A9GlyDVubdzhBsRgC0NY714YN5hUEeFtGOK1sEdXyzlmgKpfG9vI0h_n_NJNBpKaPbLbu68D8gqoeObQY2YPBDLaKI3ZXSvGi
-
-!procedure DataprocMetastore($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'gcp/Item/DataprocMetastore', $name, $tech, $desc)
-!endprocedure
-
-!procedure DataprocMetastoreCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$DataprocMetastoreLg>', '', $funcName, $content)
-!endprocedure
-
-!procedure DataprocMetastoreGroup($id, $name='Dataproc Metastore', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$DataprocMetastoreLg>', $name, $tech)
-!endprocedure
 ' definition of the Item gcp/Item/Dataproc
 
 sprite $DataprocXs [10x10/16z] Oq05Z306Cn2YirY13BWyYCq88fbPG0IG3UGmWMKW108
@@ -2718,6 +2697,27 @@ sprite $DataprocLg [20x20/16z] fSxL0K0n34BHmats7_cvk_15JotbRQIT06oiXIssI_FWNDBHr
 
 !procedure DataprocGroup($id, $name='Dataproc', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$DataprocLg>', $name, $tech)
+!endprocedure
+' definition of the Item gcp/Item/DataprocMetastore
+
+sprite $DataprocMetastoreXs [10x10/16z] Oy01M3XO80mE480pGHGx4BC2CHjS3A4EoaOr2m
+
+sprite $DataprocMetastoreSm [12x12/16z] VSc50S0W4C30uDb_uReB1-zqUNHLhKTx316L3AGvbVaSc0GrB1skM2GriMiyZG
+
+sprite $DataprocMetastoreMd [16x16/16z] dSor0GGm30J1DL__3PinUfX4BFuJ5JcS6iUKD2Ice2QiiGD9uFiFqVIXwRdt64c6w1ZI-ovgY2nfZHSdnrSA
+
+sprite $DataprocMetastoreLg [20x20/16z] hO_50GKn44A9GlyDVubdzhBsRgC0NY714YN5hUEeFtGOK1sEdXyzlmgKpfG9vI0h_n_NJNBpKaPbLbu68D8gqoeObQY2YPBDLaKI3ZXSvGi
+
+!procedure DataprocMetastore($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/DataprocMetastore', $name, $tech, $desc)
+!endprocedure
+
+!procedure DataprocMetastoreCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DataprocMetastoreLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure DataprocMetastoreGroup($id, $name='Dataproc Metastore', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DataprocMetastoreLg>', $name, $tech)
 !endprocedure
 ' definition of the Item gcp/Item/Datashare
 
@@ -2830,6 +2830,27 @@ sprite $DeveloperPortalLg [20x20/16z] jOnL0iDW28FHmFrFl0NcqhT-xMz4v2mY_MDIZQpEDr
 !procedure DeveloperPortalGroup($id, $name='Developer Portal', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$DeveloperPortalLg>', $name, $tech)
 !endprocedure
+' definition of the Item gcp/Item/Dialogflow
+
+sprite $DialogflowXs [10x10/16z] Oq05R30Q1E0iPX23Wus1cO630yG20JGM0mkGPeHeXWWW
+
+sprite $DialogflowSm [12x12/16z] PSUt0G0n3CD0V33D_HTsb2fT1L3yf2RftgEBvJl78JUW-_PHcdRovR8xoHGJ
+
+sprite $DialogflowMd [16x16/16z] ZOfL0W1H48AS3SRxNtYxy_6de282EAw9TfaDAx4zn-LsUCQLpDlZexINlV2ssNQbcJpOBGaTDpg2tkW1
+
+sprite $DialogflowLg [20x20/16z] bSx13G0G40LHWDz_nG8cSDevoGFhhAKIFkcTcZjiXIXoy1EV-zaflYoJ-ggVaOH9kP_HOMIqZXKfZj8YZnn_dp7PcP8prm
+
+!procedure Dialogflow($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Dialogflow', $name, $tech, $desc)
+!endprocedure
+
+!procedure DialogflowCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DialogflowLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure DialogflowGroup($id, $name='Dialogflow', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DialogflowLg>', $name, $tech)
+!endprocedure
 ' definition of the Item gcp/Item/DialogflowCx
 
 sprite $DialogflowCxXs [10x10/16z] Oq05p32QcOsP6SBWuk9YPWApc3cPeImsDZOK5eW90Z3Dg8O2
@@ -2871,27 +2892,6 @@ sprite $DialogflowInsightsLg [20x20/16z] bS-53S10241HlBB_ldKXv_puomb0D6PC1FaiEVI
 
 !procedure DialogflowInsightsGroup($id, $name='Dialogflow Insights', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$DialogflowInsightsLg>', $name, $tech)
-!endprocedure
-' definition of the Item gcp/Item/Dialogflow
-
-sprite $DialogflowXs [10x10/16z] Oq05R30Q1E0iPX23Wus1cO630yG20JGM0mkGPeHeXWWW
-
-sprite $DialogflowSm [12x12/16z] PSUt0G0n3CD0V33D_HTsb2fT1L3yf2RftgEBvJl78JUW-_PHcdRovR8xoHGJ
-
-sprite $DialogflowMd [16x16/16z] ZOfL0W1H48AS3SRxNtYxy_6de282EAw9TfaDAx4zn-LsUCQLpDlZexINlV2ssNQbcJpOBGaTDpg2tkW1
-
-sprite $DialogflowLg [20x20/16z] bSx13G0G40LHWDz_nG8cSDevoGFhhAKIFkcTcZjiXIXoy1EV-zaflYoJ-ggVaOH9kP_HOMIqZXKfZj8YZnn_dp7PcP8prm
-
-!procedure Dialogflow($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'gcp/Item/Dialogflow', $name, $tech, $desc)
-!endprocedure
-
-!procedure DialogflowCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$DialogflowLg>', '', $funcName, $content)
-!endprocedure
-
-!procedure DialogflowGroup($id, $name='Dialogflow', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$DialogflowLg>', $name, $tech)
 !endprocedure
 ' definition of the Item gcp/Item/DocumentAi
 
@@ -3295,6 +3295,27 @@ sprite $HomeLg [20x20/16z] lT0n6a1G30JXm6Iz-nyOO05AK-Nxksnyrju9RWWtX2mOJTA6ffJHX
 !procedure HomeGroup($id, $name='Home', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$HomeLg>', $name, $tech)
 !endprocedure
+' definition of the Item gcp/Item/IdentityAwareProxy
+
+sprite $IdentityAwareProxyXs [10x10/16z] Oo08M3WO6DX033O8nS3CmC70oi3419P4g0F9ic8r0G
+
+sprite $IdentityAwareProxySm [12x12/16z] dSd50G0X3031ZQV_Xa_v8mDn3aZG11ydd_Ss3hm7uvNcaWmTYRFa1W
+
+sprite $IdentityAwareProxyMd [16x16/16z] jSUv0S8m400msVVkFp5L5W2YJbwHEqFcq-CQG31kau2ZtABS05PtknvH67a1Ja-IuMSV
+
+sprite $IdentityAwareProxyLg [20x20/16z] nSw54G913030FOdqtp3EpLS0EngFFzlTYKX7RKOF4RvosKcVgKspai24DMXsiAUvVBHya2vsW78LEKRK-ULavnduWJi
+
+!procedure IdentityAwareProxy($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/IdentityAwareProxy', $name, $tech, $desc)
+!endprocedure
+
+!procedure IdentityAwareProxyCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$IdentityAwareProxyLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure IdentityAwareProxyGroup($id, $name='Identity Aware Proxy', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$IdentityAwareProxyLg>', $name, $tech)
+!endprocedure
 ' definition of the Item gcp/Item/IdentityAndAccessManagement
 
 sprite $IdentityAndAccessManagementXs [10x10/16z] LOk50G0X30Fpmf7z5yPTsgZkuxu2sFuB0gd0Xjw521FLJbI5g_rHGJ_DoW
@@ -3336,27 +3357,6 @@ sprite $IdentityPlatformLg [20x20/16z] bS_L0KCn34DHcVIq_yBb1eltymIDVqlv8aPA1yP80
 
 !procedure IdentityPlatformGroup($id, $name='Identity Platform', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$IdentityPlatformLg>', $name, $tech)
-!endprocedure
-' definition of the Item gcp/Item/IdentityAwareProxy
-
-sprite $IdentityAwareProxyXs [10x10/16z] Oo08M3WO6DX033O8nS3CmC70oi3419P4g0F9ic8r0G
-
-sprite $IdentityAwareProxySm [12x12/16z] dSd50G0X3031ZQV_Xa_v8mDn3aZG11ydd_Ss3hm7uvNcaWmTYRFa1W
-
-sprite $IdentityAwareProxyMd [16x16/16z] jSUv0S8m400msVVkFp5L5W2YJbwHEqFcq-CQG31kau2ZtABS05PtknvH67a1Ja-IuMSV
-
-sprite $IdentityAwareProxyLg [20x20/16z] nSw54G913030FOdqtp3EpLS0EngFFzlTYKX7RKOF4RvosKcVgKspai24DMXsiAUvVBHya2vsW78LEKRK-ULavnduWJi
-
-!procedure IdentityAwareProxy($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'gcp/Item/IdentityAwareProxy', $name, $tech, $desc)
-!endprocedure
-
-!procedure IdentityAwareProxyCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$IdentityAwareProxyLg>', '', $funcName, $content)
-!endprocedure
-
-!procedure IdentityAwareProxyGroup($id, $name='Identity Aware Proxy', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$IdentityAwareProxyLg>', $name, $tech)
 !endprocedure
 ' definition of the Item gcp/Item/IotCore
 
@@ -4381,6 +4381,27 @@ sprite $SecretManagerLg [20x20/16z] lSh55G0n30DHizH_myiCLq_ulqXBLHN78zS7C_smIDHi
 !procedure SecretManagerGroup($id, $name='Secret Manager', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$SecretManagerLg>', $name, $tech)
 !endprocedure
+' definition of the Item gcp/Item/Security
+
+sprite $SecurityXs [10x10/16z] Oq01hEpi49gLWPqTp6PYG6E1PLc192US1HS3OJ39p0upZmr80W
+
+sprite $SecuritySm [12x12/16z] VOs30G0W54GlNlildArNtyAE8Pjdm4Xsep3nyoE8kE6Bb5V59nBPDvmEeA8fama
+
+sprite $SecurityMd [16x16/16z] bSo55S0W40JHHUUb_uA1Ytl2eXyvtISITqef0NcJn1XZR3euTZfPP1biSfiPvzNfPBp6p1xBBHLs75-mSNoog08
+
+sprite $SecurityLg [20x20/16z] hT254SD04CNGlqUQz5zmI67ma6L-vijMZSfxOqvWlCiCbsPiNYJ1bkOjO5hRsSoFEFmmt8uNAyhjYq7iQTDRHQqWzxhMaQoThNWbRtT8tglSEm4
+
+!procedure Security($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/Security', $name, $tech, $desc)
+!endprocedure
+
+!procedure SecurityCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$SecurityLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure SecurityGroup($id, $name='Security', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$SecurityLg>', $name, $tech)
+!endprocedure
 ' definition of the Item gcp/Item/SecurityCommandCenter
 
 sprite $SecurityCommandCenterXs [10x10/16z] LSg30G1130J0EIRzD_nckFAhC41cxdiWsecO8i6S5UHGZiYHEG0xwZwr0W
@@ -4446,27 +4467,6 @@ sprite $SecurityKeyEnforcementLg [20x20/16z] bOw50GCm3CCKSlt_msFcgHWsVo7RHIklhkK
 
 !procedure SecurityKeyEnforcementGroup($id, $name='Security Key Enforcement', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$SecurityKeyEnforcementLg>', $name, $tech)
-!endprocedure
-' definition of the Item gcp/Item/Security
-
-sprite $SecurityXs [10x10/16z] Oq01hEpi49gLWPqTp6PYG6E1PLc192US1HS3OJ39p0upZmr80W
-
-sprite $SecuritySm [12x12/16z] VOs30G0W54GlNlildArNtyAE8Pjdm4Xsep3nyoE8kE6Bb5V59nBPDvmEeA8fama
-
-sprite $SecurityMd [16x16/16z] bSo55S0W40JHHUUb_uA1Ytl2eXyvtISITqef0NcJn1XZR3euTZfPP1biSfiPvzNfPBp6p1xBBHLs75-mSNoog08
-
-sprite $SecurityLg [20x20/16z] hT254SD04CNGlqUQz5zmI67ma6L-vijMZSfxOqvWlCiCbsPiNYJ1bkOjO5hRsSoFEFmmt8uNAyhjYq7iQTDRHQqWzxhMaQoThNWbRtT8tglSEm4
-
-!procedure Security($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'gcp/Item/Security', $name, $tech, $desc)
-!endprocedure
-
-!procedure SecurityCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$SecurityLg>', '', $funcName, $content)
-!endprocedure
-
-!procedure SecurityGroup($id, $name='Security', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$SecurityLg>', $name, $tech)
 !endprocedure
 ' definition of the Item gcp/Item/ServiceDiscovery
 
@@ -4702,27 +4702,6 @@ sprite $TrafficDirectorLg [20x20/16z] bSg53S1G30DHXzpilt2PBVedVZeCHYLZYeKQG4F4Un
 !procedure TrafficDirectorGroup($id, $name='Traffic Director', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$TrafficDirectorLg>', $name, $tech)
 !endprocedure
-' definition of the Item gcp/Item/TransferAppliance
-
-sprite $TransferApplianceXs [10x10/16z] Oo08s3c0W8s1WHacmCpCp08IOsLWO6Db0G4ca307L1qc
-
-sprite $TransferApplianceSm [12x12/16z] Oo0PC38nC7200Aem4pCpGfoP1LaA8KuO
-
-sprite $TransferApplianceMd [16x16/16z] Ow09O6FWW00mXus1XHKA8D8eV6PcPeHwh8Qn0H6gF1iBZ4yf
-
-sprite $TransferApplianceLg [20x20/16z] nSsr0S1030J1VN7_3PiPKdiouV6pz5e40tKt8auzL5zkDmxe26krS5Pjnq0Z7Dl8iWCkU-wgDi4NUW
-
-!procedure TransferAppliance($id, $name="", $tech="", $desc="")
-  IconElement($id, 'IconElement', 'gcp/Item/TransferAppliance', $name, $tech, $desc)
-!endprocedure
-
-!procedure TransferApplianceCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$TransferApplianceLg>', '', $funcName, $content)
-!endprocedure
-
-!procedure TransferApplianceGroup($id, $name='Transfer Appliance', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$TransferApplianceLg>', $name, $tech)
-!endprocedure
 ' definition of the Item gcp/Item/Transfer
 
 sprite $TransferXs [10x10/16z] Oy0AM820WmF4ue00g3W7ka8EDXW30g1Yg
@@ -4743,6 +4722,27 @@ sprite $TransferLg [20x20/16z] hSp50G0n30D11RtzDtpC39cVGL8X94tY070Qi91tk_apMmz8s
 
 !procedure TransferGroup($id, $name='Transfer', $tech='')
   IconGroupElement($id, 'IconGroupElement', '<$TransferLg>', $name, $tech)
+!endprocedure
+' definition of the Item gcp/Item/TransferAppliance
+
+sprite $TransferApplianceXs [10x10/16z] Oo08s3c0W8s1WHacmCpCp08IOsLWO6Db0G4ca307L1qc
+
+sprite $TransferApplianceSm [12x12/16z] Oo0PC38nC7200Aem4pCpGfoP1LaA8KuO
+
+sprite $TransferApplianceMd [16x16/16z] Ow09O6FWW00mXus1XHKA8D8eV6PcPeHwh8Qn0H6gF1iBZ4yf
+
+sprite $TransferApplianceLg [20x20/16z] nSsr0S1030J1VN7_3PiPKdiouV6pz5e40tKt8auzL5zkDmxe26krS5Pjnq0Z7Dl8iWCkU-wgDi4NUW
+
+!procedure TransferAppliance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'gcp/Item/TransferAppliance', $name, $tech, $desc)
+!endprocedure
+
+!procedure TransferApplianceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$TransferApplianceLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure TransferApplianceGroup($id, $name='Transfer Appliance', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$TransferApplianceLg>', $name, $tech)
 !endprocedure
 ' definition of the Item gcp/Item/UserPreferences
 

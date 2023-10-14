@@ -1,0 +1,24 @@
+' definition of the Item azure-17/Item/Storage/ServiceStorageSyncServices
+
+sprite $ServiceStorageSyncServicesXs [10x10/16z] LSQ50G0X241HfNF_SQ_pA_36Bn4veNi7v9B1dDrcfjk0xKrtHyHjZsrKQTSMCs_xrGe
+
+sprite $ServiceStorageSyncServicesSm [12x12/16z] NSe54a0X409G38HrnliVztVwZ4tCCikTQdUcJNT1eUxst4xq6CcMl2bstaADJTbi0NlUjlqzXoDwttCSJ19_Am
+
+sprite $ServiceStorageSyncServicesMd [16x16/16z] ZOc50GGX3C1A_Mp_TP_AkrsmfC0fD1YtjE8wK6kwncER8nJaBZ3S7Mt8SUmyrSm3d8z4ksQJx_igOR04n4GaOQ1nooBCOGg0CLZNR85Y_ejWHxHEej-u
+
+sprite $ServiceStorageSyncServicesLg [20x20/16z] {
+bSk5WGGn20LGd3-I_jizXjowloX6Fuh3JKPZCZhZF54wYJoZALFYDiU04ly3d2i7GBXiOmp1WHJ5qYMtRUi0dcZHBO9socdMhAFnqaBR30ZzfEOv1wBvvffc
+DjjAB6LTL-zSqWdxweMkSJIwuOrU-WC
+}
+
+!procedure ServiceStorageSyncServices($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/Storage/ServiceStorageSyncServices', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceStorageSyncServicesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceStorageSyncServicesLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure ServiceStorageSyncServicesGroup($id, $name='Service Storage Sync Services', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceStorageSyncServicesLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item azure-17/Item/AppServices/ServiceAppServicePlans
+
+sprite $ServiceAppServicePlansXs [10x10/16z] Oq005X00irYvUNbP8InUJ1OR181Px2301cP100CREmS40CKumO03
+
+sprite $ServiceAppServicePlansSm [12x12/16z] RSZ50S0m40D1mp7qNswOutcjL9vWKxT6o4ofuv-FvWNYDkYqDs-sviFQSleqwQxC
+
+sprite $ServiceAppServicePlansMd [16x16/16z] NSg53KCn303HeAdz-uyR9lk4JpfdIxjj-d-jV2pGZTlspyBpt_vXD-Jj6G3C0vwESRQCkxHzwaQwOJFGat7e1k9LT1K
+
+sprite $ServiceAppServicePlansLg [20x20/16z] VSk54O0m44JHYvnW_PSBn3r__CqkpBAblH4UZuihGxgyuVwBUFlPZLXCB7aKtEweplRcgurZAXld_31ImTvytbYQxCJGVrlJtlYe4W3q-Jkx3C07
+
+!procedure ServiceAppServicePlans($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/AppServices/ServiceAppServicePlans', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAppServicePlansCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAppServicePlansLg>', 'AppServices', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAppServicePlansGroup($id, $name='Service App Service Plans', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAppServicePlansLg>', $name, $tech)
+!endprocedure

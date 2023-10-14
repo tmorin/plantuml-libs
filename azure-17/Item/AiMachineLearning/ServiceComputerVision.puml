@@ -1,0 +1,27 @@
+' definition of the Item azure-17/Item/AiMachineLearning/ServiceComputerVision
+
+sprite $ServiceComputerVisionXs [10x10/16z] BKk30G0m3CjK_l_lQWVhNcJSUsAIvdrmDCBoLYAcF5K8xYamZkqa03EvvrMwK6fuwpJaDV41
+
+sprite $ServiceComputerVisionSm [12x12/16z] HSg54GH034BHlnPWqt-_D-Tl909ZRtXQUo_-5jHz0YQAgohFWwYwNH4iLzDTkd1StTLMO3mhd_-pdrkbnM9OLVMiBE3QEJptd_4
+
+sprite $ServiceComputerVisionMd [16x16/16z] {
+JSS75WGW309HB0z2lFzz5xUF9VbZxurtA_iQ-6yjfDs9NxkTkaSyWOYft4185-aMPIErgLhd5Ejf5tlYd4DvldnnNUjQx9DY8xN8IxqzB5Bt5O45i89G3cDi
+AxJmDZ2bZHGdl9jhxGS
+}
+
+sprite $ServiceComputerVisionLg [20x20/16z] {
+RT17OiLG24FH1pY0bFtlDy8rlzmH77VRfjPTp1hXxe-PjYrEI21FFyp0FTXjGPpnPynjkQXIbJ1qYbmqC2mKYEUi_bKjP8m1chbCg6FeCNObkLp6hEPb-pbl
+ra856SPAbeUbhDQ4gYpEbJBQReNAe_FI-JPqrIwY-nyqSWzSjorh0cpDfxqb-_Bl_m
+}
+
+!procedure ServiceComputerVision($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/AiMachineLearning/ServiceComputerVision', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceComputerVisionCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceComputerVisionLg>', 'AiMachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure ServiceComputerVisionGroup($id, $name='Service Computer Vision', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceComputerVisionLg>', $name, $tech)
+!endprocedure

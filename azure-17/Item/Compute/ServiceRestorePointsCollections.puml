@@ -1,0 +1,27 @@
+' definition of the Item azure-17/Item/Compute/ServiceRestorePointsCollections
+
+sprite $ServiceRestorePointsCollectionsXs [10x10/16z] JSY50S1020D093oI_VUjo-78dm7b-zIL1-uh4fuWhSfLKSMz08zz4uaET93xKhqdiV-iUoWxbSi6
+
+sprite $ServiceRestorePointsCollectionsSm [12x12/16z] TOp70S0014M_Jko_RxYbFhtY5_KOgXsmiGXW2mut8fVe5iaKOitiribLnJO7PwHfokQMH5M4enDGhc7JOTvWzCu9
+
+sprite $ServiceRestorePointsCollectionsMd [16x16/16z] {
+ZOh50KD124G7Xq___MRr5dihC88_47NtU3gsujXaDm7C3Wm5S7K3DhjAeqJHeo4PBaJ3u7owbJDJX4N7hADLzMhIZ0WpzLnzc4LKULPnTHT6KQIgH6p6W2dN
+Oic1caHbFibOi38-yW8
+}
+
+sprite $ServiceRestorePointsCollectionsLg [20x20/16z] {
+bSx7OGGm24HH13C4g_z-3VRclF_u542-QUa2WGmx2Sp_gxtpdypZrDvxZ4OHYvY7h3-411Y1rUo8DWeHSEhgs5QDYkpCcWpPjS7-pTJ0AmDWPrD4UZY9cUJv
+DvXIZCh6BETG2X34Q0Lns4-ebLbJvX3QbAPrgCcQ1lcFF_FN8IFbjYNl-mK
+}
+
+!procedure ServiceRestorePointsCollections($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/Compute/ServiceRestorePointsCollections', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceRestorePointsCollectionsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceRestorePointsCollectionsLg>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure ServiceRestorePointsCollectionsGroup($id, $name='Service Restore Points Collections', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceRestorePointsCollectionsLg>', $name, $tech)
+!endprocedure

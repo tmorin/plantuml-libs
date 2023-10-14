@@ -1,0 +1,24 @@
+' definition of the Item azure-17/Item/Other/ServiceDefenderMeter
+
+sprite $ServiceDefenderMeterXs [10x10/16z] LSQ34G0140ImixR_Uj_CA6GNjSuJBBbonXYUmnl1Df6HpR4uXqrX4xkA7yzxAm
+
+sprite $ServiceDefenderMeterSm [12x12/16z] TSQ50SG020F01uBlF-_NlJqa-GasZAwDeuZ4qvXewiqimaMkvMmyaR6FaJovzhPHJCzruX5Js0VOOG
+
+sprite $ServiceDefenderMeterMd [16x16/16z] ZSUt0O0m30H0zEYLs7zUSh1TSTrDqDO4MalLfC7hh5mozJuMkCoWbf0qr8nRx7ViBLpi-2wiFsfu-7FpGqJuWNRPRp-LlR9ChBS1
+
+sprite $ServiceDefenderMeterLg [20x20/16z] {
+bSXL0e1G20LHYGjFsFzwxMxFtqn5UY3Tmf4gQj_BxZdrH5MPUlChwHg8rELfYZ89EI7w1xW4QCAIbEWU1tC8ZmgFhsF1a_wPSozmVbQV7mSsBqUbb1nXqJt3
+o6Rz-yrzdsQuU9MTe0K
+}
+
+!procedure ServiceDefenderMeter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/Other/ServiceDefenderMeter', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceDefenderMeterCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDefenderMeterLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDefenderMeterGroup($id, $name='Service Defender Meter', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDefenderMeterLg>', $name, $tech)
+!endprocedure

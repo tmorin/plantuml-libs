@@ -1,0 +1,21 @@
+' definition of the Item azure-17/Item/Analytics/ServicePowerBiEmbedded
+
+sprite $ServicePowerBiEmbeddedXs [10x10/16z] Oq03hAoiQ2ncPcOsDXGM4nCJWiN2WiHYXx7OOInM80i
+
+sprite $ServicePowerBiEmbeddedSm [12x12/16z] RSR50S1G20KmxC7-4xVVFQVG3O2zRl1wLbM_pYBIBudPVen7F8_y7m
+
+sprite $ServicePowerBiEmbeddedMd [16x16/16z] bSV50K0n20KmxC7-4t_NUdCBrM0tSGFSx-ZE1o-RhVQzcFKVyNkqZz-1yoi
+
+sprite $ServicePowerBiEmbeddedLg [20x20/16z] hT2r0K0X34LHvCd-4tzt5sx7QKWIhcDNEGD8QNwdt0RjZOt5oV83Ywdjs82TuOtPlQNPl3SzCyusppVSgWO
+
+!procedure ServicePowerBiEmbedded($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-17/Item/Analytics/ServicePowerBiEmbedded', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServicePowerBiEmbeddedCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServicePowerBiEmbeddedLg>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure ServicePowerBiEmbeddedGroup($id, $name='Service Power Bi Embedded', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServicePowerBiEmbeddedLg>', $name, $tech)
+!endprocedure
