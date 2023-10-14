@@ -15,7 +15,7 @@ export interface InputResource {
 export abstract class TransformedResource {
   protected constructor(
     readonly absOutputPath: string,
-    readonly relOutputPath: string
+    readonly relOutputPath: string,
   ) {}
 
   abstract load(): Promise<void>
@@ -36,7 +36,7 @@ export class BufferedResource extends TransformedResource {
   public static create(
     config: Config,
     relOutputPath: string,
-    content: Buffer
+    content: Buffer,
   ): BufferedResource {
     return new BufferedResource({
       absOutputPath: P.join(config.outputDirectory, relOutputPath),
@@ -64,13 +64,13 @@ export class BinaryCopyResource extends TransformedResource {
 
   public static create(
     config: Config,
-    inputResource: InputResource
+    inputResource: InputResource,
   ): BinaryCopyResource {
     const parsedInputPath = P.parse(inputResource.relInputPath)
     const outputFilename = `${parsedInputPath.name}${parsedInputPath.ext}`
     const relOutputPath = P.join(
       P.dirname(inputResource.relInputPath),
-      outputFilename
+      outputFilename,
     )
     const absOutputPath = P.join(config.outputDirectory, relOutputPath)
     return new BinaryCopyResource({
@@ -113,7 +113,7 @@ export class MdtoHtmlResource extends TransformedResource {
   public static create(
     config: Config,
     sitemap: Sitemap,
-    inputResource: InputResource
+    inputResource: InputResource,
   ): MdtoHtmlResource {
     const parsedInputPath = P.parse(inputResource.relInputPath)
     const outputFilename =
@@ -122,7 +122,7 @@ export class MdtoHtmlResource extends TransformedResource {
         : `${parsedInputPath.name}.html`
     const relOutputPath = P.join(
       P.dirname(inputResource.relInputPath),
-      outputFilename
+      outputFilename,
     )
     const absOutputPath = P.join(config.outputDirectory, relOutputPath)
     return new MdtoHtmlResource({
@@ -137,7 +137,7 @@ export class MdtoHtmlResource extends TransformedResource {
   async load(): Promise<void> {
     const contentAsMd = await Fe.readFile(
       this.inputResource.absInputPath,
-      "utf8"
+      "utf8",
     )
     await F.mkdir(P.dirname(this.absOutputPath), {
       recursive: true,
@@ -147,25 +147,22 @@ export class MdtoHtmlResource extends TransformedResource {
       gTagId: this.config.tracking.gTagId,
       relHrefToRoot: P.relative(
         P.dirname(this.absOutputPath),
-        this.config.outputDirectory
+        this.config.outputDirectory,
       ),
       relHrefToItemsJson: P.relative(
         P.dirname(this.absOutputPath),
-        P.join(this.config.outputDirectory, "items.json")
+        P.join(this.config.outputDirectory, "items.json"),
       ),
       title: P.join(
         P.dirname(this.inputResource.relInputPath),
-        P.basename(this.absOutputPath, ".html")
+        P.basename(this.absOutputPath, ".html"),
       ).replace(/\/index$/g, ""),
       content: marked
-        .parse(contentAsMd, {
-          mangle: false,
-          headerIds: false,
-        })
+        .parse(contentAsMd, {})
         .replace(/README\.md/g, "")
         .replace(/\.md/g, ".html"),
       summary: SideSummaryAsHtml.create(
-        this.sitemap.contextualize(this.relOutputPath)
+        this.sitemap.contextualize(this.relOutputPath),
       ).render(),
     })
     await Fe.writeFile(this.absOutputPath, contenteAsHtml)
