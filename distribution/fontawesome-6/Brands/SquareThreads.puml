@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/SquareThreads
+
+sprite $SquareThreadsXs [8x10/16z] Ou01VZXWOE02Kq0COl1nyND2n3d1YhWOMVdP8V8yO74e3m8
+
+sprite $SquareThreadsSm [10x12/16z] JOo50G0X30FJTu5a_sbnkxfYeXMwbk3dSUNarc_QIqjCLZEyU5j6Aqt7KcOEstFYfFciSaS
+
+sprite $SquareThreadsMd [14x16/16z] PSk30GGn54NH6pkl_seNOvpmYxim3uEWb-RicSMFMMXh49BK9RQICk5tZIsIgkzQ6IMAO-oTJ77E2U8UDNFUFndhZD5Xz7teYfil
+
+sprite $SquareThreadsLg [17x20/16z] {
+ROz50e0m4CJIBLQT_xyMTyWngyCNVyT0JqhMBotWT5BnkPQ1S0Y6tTUZGTL1LEytqS_JtQ8FR9v8PkH341Je1aYxQ7fPd7q-Xg9REd2Y73Fp3X-auwnwzdTr
+q67UCDs8NJZQzOBopVra0W
+}
+
+!procedure SquareThreads($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/SquareThreads', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Brands/Upwork
+
+sprite $UpworkXs [8x10/16z] Ou01VXo0WHyeoSaBf45g6Fbv6PZOeQeHUX1i
+
+sprite $UpworkSm [10x12/16z] VS750OC000ImQt7D_jFYyYF9owU1TlQRAKaYbBEaDOwaRFiq0UBsXz4jmtngLW
+
+sprite $UpworkMd [14x16/16z] bSU50S0m4090uXxsdxRktdi5UwOk2Wp_gyC6AM02W38bYsudR1E72KGjtHQI7I1GQmd56H8t92zWdtPQ
+
+sprite $UpworkLg [17x20/16z] hSX50eGm4031JWQ7IV__jUikD-fOV8jN5NoNctieamwbc8MogJ9eG2CCNW9KnaSaLQLN0oM4PhAg0YXdrOjbKMavRpwj-6u9_nZzGFgcvzCH
+
+!procedure Upwork($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Upwork', $name, $tech, $desc)
+!endprocedure

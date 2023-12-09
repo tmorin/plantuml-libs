@@ -1,6 +1,6 @@
 # Brands
 
-The module contains 467 items.
+The module contains 484 items.
 
 - [A](#family-a)
 - [B](#family-b)
@@ -84,6 +84,8 @@ The module contains 467 items.
 | ![illustration of fontawesome-6/Brands/BluetoothB](../../fontawesome-6/Brands/BluetoothB.png) | [fontawesome-6/Brands/BluetoothB](../../fontawesome-6/Brands/BluetoothB.md) |
 | ![illustration of fontawesome-6/Brands/Bootstrap](../../fontawesome-6/Brands/Bootstrap.png) | [fontawesome-6/Brands/Bootstrap](../../fontawesome-6/Brands/Bootstrap.md) |
 | ![illustration of fontawesome-6/Brands/Bots](../../fontawesome-6/Brands/Bots.png) | [fontawesome-6/Brands/Bots](../../fontawesome-6/Brands/Bots.md) |
+| ![illustration of fontawesome-6/Brands/Brave](../../fontawesome-6/Brands/Brave.png) | [fontawesome-6/Brands/Brave](../../fontawesome-6/Brands/Brave.md) |
+| ![illustration of fontawesome-6/Brands/BraveReverse](../../fontawesome-6/Brands/BraveReverse.png) | [fontawesome-6/Brands/BraveReverse](../../fontawesome-6/Brands/BraveReverse.md) |
 | ![illustration of fontawesome-6/Brands/Btc](../../fontawesome-6/Brands/Btc.png) | [fontawesome-6/Brands/Btc](../../fontawesome-6/Brands/Btc.md) |
 | ![illustration of fontawesome-6/Brands/Buffer](../../fontawesome-6/Brands/Buffer.png) | [fontawesome-6/Brands/Buffer](../../fontawesome-6/Brands/Buffer.md) |
 | ![illustration of fontawesome-6/Brands/Buromobelexperte](../../fontawesome-6/Brands/Buromobelexperte.png) | [fontawesome-6/Brands/Buromobelexperte](../../fontawesome-6/Brands/Buromobelexperte.md) |
@@ -148,6 +150,7 @@ The module contains 467 items.
 | ![illustration of fontawesome-6/Brands/DAndDBeyond](../../fontawesome-6/Brands/DAndDBeyond.png) | [fontawesome-6/Brands/DAndDBeyond](../../fontawesome-6/Brands/DAndDBeyond.md) |
 | ![illustration of fontawesome-6/Brands/Dailymotion](../../fontawesome-6/Brands/Dailymotion.png) | [fontawesome-6/Brands/Dailymotion](../../fontawesome-6/Brands/Dailymotion.md) |
 | ![illustration of fontawesome-6/Brands/Dashcube](../../fontawesome-6/Brands/Dashcube.png) | [fontawesome-6/Brands/Dashcube](../../fontawesome-6/Brands/Dashcube.md) |
+| ![illustration of fontawesome-6/Brands/Debian](../../fontawesome-6/Brands/Debian.png) | [fontawesome-6/Brands/Debian](../../fontawesome-6/Brands/Debian.md) |
 | ![illustration of fontawesome-6/Brands/Deezer](../../fontawesome-6/Brands/Deezer.png) | [fontawesome-6/Brands/Deezer](../../fontawesome-6/Brands/Deezer.md) |
 | ![illustration of fontawesome-6/Brands/Delicious](../../fontawesome-6/Brands/Delicious.png) | [fontawesome-6/Brands/Delicious](../../fontawesome-6/Brands/Delicious.md) |
 | ![illustration of fontawesome-6/Brands/Deploydog](../../fontawesome-6/Brands/Deploydog.png) | [fontawesome-6/Brands/Deploydog](../../fontawesome-6/Brands/Deploydog.md) |
@@ -245,6 +248,7 @@ The module contains 467 items.
 | ![illustration of fontawesome-6/Brands/GooglePlay](../../fontawesome-6/Brands/GooglePlay.png) | [fontawesome-6/Brands/GooglePlay](../../fontawesome-6/Brands/GooglePlay.md) |
 | ![illustration of fontawesome-6/Brands/GooglePlus](../../fontawesome-6/Brands/GooglePlus.png) | [fontawesome-6/Brands/GooglePlus](../../fontawesome-6/Brands/GooglePlus.md) |
 | ![illustration of fontawesome-6/Brands/GooglePlusG](../../fontawesome-6/Brands/GooglePlusG.png) | [fontawesome-6/Brands/GooglePlusG](../../fontawesome-6/Brands/GooglePlusG.md) |
+| ![illustration of fontawesome-6/Brands/GoogleScholar](../../fontawesome-6/Brands/GoogleScholar.png) | [fontawesome-6/Brands/GoogleScholar](../../fontawesome-6/Brands/GoogleScholar.md) |
 | ![illustration of fontawesome-6/Brands/GoogleWallet](../../fontawesome-6/Brands/GoogleWallet.png) | [fontawesome-6/Brands/GoogleWallet](../../fontawesome-6/Brands/GoogleWallet.md) |
 | ![illustration of fontawesome-6/Brands/Gratipay](../../fontawesome-6/Brands/Gratipay.png) | [fontawesome-6/Brands/Gratipay](../../fontawesome-6/Brands/Gratipay.md) |
 | ![illustration of fontawesome-6/Brands/Grav](../../fontawesome-6/Brands/Grav.png) | [fontawesome-6/Brands/Grav](../../fontawesome-6/Brands/Grav.md) |
@@ -318,6 +322,7 @@ The module contains 467 items.
 | ![illustration of fontawesome-6/Brands/Lastfm](../../fontawesome-6/Brands/Lastfm.png) | [fontawesome-6/Brands/Lastfm](../../fontawesome-6/Brands/Lastfm.md) |
 | ![illustration of fontawesome-6/Brands/Leanpub](../../fontawesome-6/Brands/Leanpub.png) | [fontawesome-6/Brands/Leanpub](../../fontawesome-6/Brands/Leanpub.md) |
 | ![illustration of fontawesome-6/Brands/Less](../../fontawesome-6/Brands/Less.png) | [fontawesome-6/Brands/Less](../../fontawesome-6/Brands/Less.md) |
+| ![illustration of fontawesome-6/Brands/Letterboxd](../../fontawesome-6/Brands/Letterboxd.png) | [fontawesome-6/Brands/Letterboxd](../../fontawesome-6/Brands/Letterboxd.md) |
 | ![illustration of fontawesome-6/Brands/Line](../../fontawesome-6/Brands/Line.png) | [fontawesome-6/Brands/Line](../../fontawesome-6/Brands/Line.md) |
 | ![illustration of fontawesome-6/Brands/Linkedin](../../fontawesome-6/Brands/Linkedin.png) | [fontawesome-6/Brands/Linkedin](../../fontawesome-6/Brands/Linkedin.md) |
 | ![illustration of fontawesome-6/Brands/LinkedinIn](../../fontawesome-6/Brands/LinkedinIn.png) | [fontawesome-6/Brands/LinkedinIn](../../fontawesome-6/Brands/LinkedinIn.md) |
@@ -345,6 +350,7 @@ The module contains 467 items.
 | ![illustration of fontawesome-6/Brands/Meta](../../fontawesome-6/Brands/Meta.png) | [fontawesome-6/Brands/Meta](../../fontawesome-6/Brands/Meta.md) |
 | ![illustration of fontawesome-6/Brands/Microblog](../../fontawesome-6/Brands/Microblog.png) | [fontawesome-6/Brands/Microblog](../../fontawesome-6/Brands/Microblog.md) |
 | ![illustration of fontawesome-6/Brands/Microsoft](../../fontawesome-6/Brands/Microsoft.png) | [fontawesome-6/Brands/Microsoft](../../fontawesome-6/Brands/Microsoft.md) |
+| ![illustration of fontawesome-6/Brands/Mintbit](../../fontawesome-6/Brands/Mintbit.png) | [fontawesome-6/Brands/Mintbit](../../fontawesome-6/Brands/Mintbit.md) |
 | ![illustration of fontawesome-6/Brands/Mix](../../fontawesome-6/Brands/Mix.png) | [fontawesome-6/Brands/Mix](../../fontawesome-6/Brands/Mix.md) |
 | ![illustration of fontawesome-6/Brands/Mixcloud](../../fontawesome-6/Brands/Mixcloud.png) | [fontawesome-6/Brands/Mixcloud](../../fontawesome-6/Brands/Mixcloud.md) |
 | ![illustration of fontawesome-6/Brands/Mixer](../../fontawesome-6/Brands/Mixer.png) | [fontawesome-6/Brands/Mixer](../../fontawesome-6/Brands/Mixer.md) |
@@ -377,6 +383,7 @@ The module contains 467 items.
 | ![illustration of fontawesome-6/Brands/OldRepublic](../../fontawesome-6/Brands/OldRepublic.png) | [fontawesome-6/Brands/OldRepublic](../../fontawesome-6/Brands/OldRepublic.md) |
 | ![illustration of fontawesome-6/Brands/Opencart](../../fontawesome-6/Brands/Opencart.png) | [fontawesome-6/Brands/Opencart](../../fontawesome-6/Brands/Opencart.md) |
 | ![illustration of fontawesome-6/Brands/Openid](../../fontawesome-6/Brands/Openid.png) | [fontawesome-6/Brands/Openid](../../fontawesome-6/Brands/Openid.md) |
+| ![illustration of fontawesome-6/Brands/Opensuse](../../fontawesome-6/Brands/Opensuse.png) | [fontawesome-6/Brands/Opensuse](../../fontawesome-6/Brands/Opensuse.md) |
 | ![illustration of fontawesome-6/Brands/Opera](../../fontawesome-6/Brands/Opera.png) | [fontawesome-6/Brands/Opera](../../fontawesome-6/Brands/Opera.md) |
 | ![illustration of fontawesome-6/Brands/OptinMonster](../../fontawesome-6/Brands/OptinMonster.png) | [fontawesome-6/Brands/OptinMonster](../../fontawesome-6/Brands/OptinMonster.md) |
 | ![illustration of fontawesome-6/Brands/Orcid](../../fontawesome-6/Brands/Orcid.png) | [fontawesome-6/Brands/Orcid](../../fontawesome-6/Brands/Orcid.md) |
@@ -405,6 +412,7 @@ The module contains 467 items.
 | ![illustration of fontawesome-6/Brands/Pinterest](../../fontawesome-6/Brands/Pinterest.png) | [fontawesome-6/Brands/Pinterest](../../fontawesome-6/Brands/Pinterest.md) |
 | ![illustration of fontawesome-6/Brands/PinterestP](../../fontawesome-6/Brands/PinterestP.png) | [fontawesome-6/Brands/PinterestP](../../fontawesome-6/Brands/PinterestP.md) |
 | ![illustration of fontawesome-6/Brands/Pix](../../fontawesome-6/Brands/Pix.png) | [fontawesome-6/Brands/Pix](../../fontawesome-6/Brands/Pix.md) |
+| ![illustration of fontawesome-6/Brands/Pixiv](../../fontawesome-6/Brands/Pixiv.png) | [fontawesome-6/Brands/Pixiv](../../fontawesome-6/Brands/Pixiv.md) |
 | ![illustration of fontawesome-6/Brands/Playstation](../../fontawesome-6/Brands/Playstation.png) | [fontawesome-6/Brands/Playstation](../../fontawesome-6/Brands/Playstation.md) |
 | ![illustration of fontawesome-6/Brands/ProductHunt](../../fontawesome-6/Brands/ProductHunt.png) | [fontawesome-6/Brands/ProductHunt](../../fontawesome-6/Brands/ProductHunt.md) |
 | ![illustration of fontawesome-6/Brands/Pushed](../../fontawesome-6/Brands/Pushed.png) | [fontawesome-6/Brands/Pushed](../../fontawesome-6/Brands/Pushed.md) |
@@ -457,8 +465,10 @@ The module contains 467 items.
 | ![illustration of fontawesome-6/Brands/Sellsy](../../fontawesome-6/Brands/Sellsy.png) | [fontawesome-6/Brands/Sellsy](../../fontawesome-6/Brands/Sellsy.md) |
 | ![illustration of fontawesome-6/Brands/Servicestack](../../fontawesome-6/Brands/Servicestack.png) | [fontawesome-6/Brands/Servicestack](../../fontawesome-6/Brands/Servicestack.md) |
 | ![illustration of fontawesome-6/Brands/Shirtsinbulk](../../fontawesome-6/Brands/Shirtsinbulk.png) | [fontawesome-6/Brands/Shirtsinbulk](../../fontawesome-6/Brands/Shirtsinbulk.md) |
+| ![illustration of fontawesome-6/Brands/Shoelace](../../fontawesome-6/Brands/Shoelace.png) | [fontawesome-6/Brands/Shoelace](../../fontawesome-6/Brands/Shoelace.md) |
 | ![illustration of fontawesome-6/Brands/Shopify](../../fontawesome-6/Brands/Shopify.png) | [fontawesome-6/Brands/Shopify](../../fontawesome-6/Brands/Shopify.md) |
 | ![illustration of fontawesome-6/Brands/Shopware](../../fontawesome-6/Brands/Shopware.png) | [fontawesome-6/Brands/Shopware](../../fontawesome-6/Brands/Shopware.md) |
+| ![illustration of fontawesome-6/Brands/SignalMessenger](../../fontawesome-6/Brands/SignalMessenger.png) | [fontawesome-6/Brands/SignalMessenger](../../fontawesome-6/Brands/SignalMessenger.md) |
 | ![illustration of fontawesome-6/Brands/Simplybuilt](../../fontawesome-6/Brands/Simplybuilt.png) | [fontawesome-6/Brands/Simplybuilt](../../fontawesome-6/Brands/Simplybuilt.md) |
 | ![illustration of fontawesome-6/Brands/Sistrix](../../fontawesome-6/Brands/Sistrix.png) | [fontawesome-6/Brands/Sistrix](../../fontawesome-6/Brands/Sistrix.md) |
 | ![illustration of fontawesome-6/Brands/Sith](../../fontawesome-6/Brands/Sith.png) | [fontawesome-6/Brands/Sith](../../fontawesome-6/Brands/Sith.md) |
@@ -488,17 +498,20 @@ The module contains 467 items.
 | ![illustration of fontawesome-6/Brands/SquareInstagram](../../fontawesome-6/Brands/SquareInstagram.png) | [fontawesome-6/Brands/SquareInstagram](../../fontawesome-6/Brands/SquareInstagram.md) |
 | ![illustration of fontawesome-6/Brands/SquareJs](../../fontawesome-6/Brands/SquareJs.png) | [fontawesome-6/Brands/SquareJs](../../fontawesome-6/Brands/SquareJs.md) |
 | ![illustration of fontawesome-6/Brands/SquareLastfm](../../fontawesome-6/Brands/SquareLastfm.png) | [fontawesome-6/Brands/SquareLastfm](../../fontawesome-6/Brands/SquareLastfm.md) |
+| ![illustration of fontawesome-6/Brands/SquareLetterboxd](../../fontawesome-6/Brands/SquareLetterboxd.png) | [fontawesome-6/Brands/SquareLetterboxd](../../fontawesome-6/Brands/SquareLetterboxd.md) |
 | ![illustration of fontawesome-6/Brands/SquareOdnoklassniki](../../fontawesome-6/Brands/SquareOdnoklassniki.png) | [fontawesome-6/Brands/SquareOdnoklassniki](../../fontawesome-6/Brands/SquareOdnoklassniki.md) |
 | ![illustration of fontawesome-6/Brands/SquarePiedPiper](../../fontawesome-6/Brands/SquarePiedPiper.png) | [fontawesome-6/Brands/SquarePiedPiper](../../fontawesome-6/Brands/SquarePiedPiper.md) |
 | ![illustration of fontawesome-6/Brands/SquarePinterest](../../fontawesome-6/Brands/SquarePinterest.png) | [fontawesome-6/Brands/SquarePinterest](../../fontawesome-6/Brands/SquarePinterest.md) |
 | ![illustration of fontawesome-6/Brands/SquareReddit](../../fontawesome-6/Brands/SquareReddit.png) | [fontawesome-6/Brands/SquareReddit](../../fontawesome-6/Brands/SquareReddit.md) |
 | ![illustration of fontawesome-6/Brands/SquareSnapchat](../../fontawesome-6/Brands/SquareSnapchat.png) | [fontawesome-6/Brands/SquareSnapchat](../../fontawesome-6/Brands/SquareSnapchat.md) |
 | ![illustration of fontawesome-6/Brands/SquareSteam](../../fontawesome-6/Brands/SquareSteam.png) | [fontawesome-6/Brands/SquareSteam](../../fontawesome-6/Brands/SquareSteam.md) |
+| ![illustration of fontawesome-6/Brands/SquareThreads](../../fontawesome-6/Brands/SquareThreads.png) | [fontawesome-6/Brands/SquareThreads](../../fontawesome-6/Brands/SquareThreads.md) |
 | ![illustration of fontawesome-6/Brands/SquareTumblr](../../fontawesome-6/Brands/SquareTumblr.png) | [fontawesome-6/Brands/SquareTumblr](../../fontawesome-6/Brands/SquareTumblr.md) |
 | ![illustration of fontawesome-6/Brands/SquareTwitter](../../fontawesome-6/Brands/SquareTwitter.png) | [fontawesome-6/Brands/SquareTwitter](../../fontawesome-6/Brands/SquareTwitter.md) |
 | ![illustration of fontawesome-6/Brands/SquareViadeo](../../fontawesome-6/Brands/SquareViadeo.png) | [fontawesome-6/Brands/SquareViadeo](../../fontawesome-6/Brands/SquareViadeo.md) |
 | ![illustration of fontawesome-6/Brands/SquareVimeo](../../fontawesome-6/Brands/SquareVimeo.png) | [fontawesome-6/Brands/SquareVimeo](../../fontawesome-6/Brands/SquareVimeo.md) |
 | ![illustration of fontawesome-6/Brands/SquareWhatsapp](../../fontawesome-6/Brands/SquareWhatsapp.png) | [fontawesome-6/Brands/SquareWhatsapp](../../fontawesome-6/Brands/SquareWhatsapp.md) |
+| ![illustration of fontawesome-6/Brands/SquareXTwitter](../../fontawesome-6/Brands/SquareXTwitter.png) | [fontawesome-6/Brands/SquareXTwitter](../../fontawesome-6/Brands/SquareXTwitter.md) |
 | ![illustration of fontawesome-6/Brands/SquareXing](../../fontawesome-6/Brands/SquareXing.png) | [fontawesome-6/Brands/SquareXing](../../fontawesome-6/Brands/SquareXing.md) |
 | ![illustration of fontawesome-6/Brands/SquareYoutube](../../fontawesome-6/Brands/SquareYoutube.png) | [fontawesome-6/Brands/SquareYoutube](../../fontawesome-6/Brands/SquareYoutube.md) |
 | ![illustration of fontawesome-6/Brands/Squarespace](../../fontawesome-6/Brands/Squarespace.png) | [fontawesome-6/Brands/Squarespace](../../fontawesome-6/Brands/Squarespace.md) |
@@ -533,6 +546,7 @@ The module contains 467 items.
 | ![illustration of fontawesome-6/Brands/Themeco](../../fontawesome-6/Brands/Themeco.png) | [fontawesome-6/Brands/Themeco](../../fontawesome-6/Brands/Themeco.md) |
 | ![illustration of fontawesome-6/Brands/Themeisle](../../fontawesome-6/Brands/Themeisle.png) | [fontawesome-6/Brands/Themeisle](../../fontawesome-6/Brands/Themeisle.md) |
 | ![illustration of fontawesome-6/Brands/ThinkPeaks](../../fontawesome-6/Brands/ThinkPeaks.png) | [fontawesome-6/Brands/ThinkPeaks](../../fontawesome-6/Brands/ThinkPeaks.md) |
+| ![illustration of fontawesome-6/Brands/Threads](../../fontawesome-6/Brands/Threads.png) | [fontawesome-6/Brands/Threads](../../fontawesome-6/Brands/Threads.md) |
 | ![illustration of fontawesome-6/Brands/Tiktok](../../fontawesome-6/Brands/Tiktok.png) | [fontawesome-6/Brands/Tiktok](../../fontawesome-6/Brands/Tiktok.md) |
 | ![illustration of fontawesome-6/Brands/TradeFederation](../../fontawesome-6/Brands/TradeFederation.png) | [fontawesome-6/Brands/TradeFederation](../../fontawesome-6/Brands/TradeFederation.md) |
 | ![illustration of fontawesome-6/Brands/Trello](../../fontawesome-6/Brands/Trello.png) | [fontawesome-6/Brands/Trello](../../fontawesome-6/Brands/Trello.md) |
@@ -555,6 +569,7 @@ The module contains 467 items.
 | ![illustration of fontawesome-6/Brands/Unsplash](../../fontawesome-6/Brands/Unsplash.png) | [fontawesome-6/Brands/Unsplash](../../fontawesome-6/Brands/Unsplash.md) |
 | ![illustration of fontawesome-6/Brands/Untappd](../../fontawesome-6/Brands/Untappd.png) | [fontawesome-6/Brands/Untappd](../../fontawesome-6/Brands/Untappd.md) |
 | ![illustration of fontawesome-6/Brands/Ups](../../fontawesome-6/Brands/Ups.png) | [fontawesome-6/Brands/Ups](../../fontawesome-6/Brands/Ups.md) |
+| ![illustration of fontawesome-6/Brands/Upwork](../../fontawesome-6/Brands/Upwork.png) | [fontawesome-6/Brands/Upwork](../../fontawesome-6/Brands/Upwork.md) |
 | ![illustration of fontawesome-6/Brands/Usb](../../fontawesome-6/Brands/Usb.png) | [fontawesome-6/Brands/Usb](../../fontawesome-6/Brands/Usb.md) |
 | ![illustration of fontawesome-6/Brands/Usps](../../fontawesome-6/Brands/Usps.png) | [fontawesome-6/Brands/Usps](../../fontawesome-6/Brands/Usps.md) |
 | ![illustration of fontawesome-6/Brands/Ussunnah](../../fontawesome-6/Brands/Ussunnah.png) | [fontawesome-6/Brands/Ussunnah](../../fontawesome-6/Brands/Ussunnah.md) |
@@ -580,6 +595,7 @@ The module contains 467 items.
 |:---:|---|
 | ![illustration of fontawesome-6/Brands/WatchmanMonitoring](../../fontawesome-6/Brands/WatchmanMonitoring.png) | [fontawesome-6/Brands/WatchmanMonitoring](../../fontawesome-6/Brands/WatchmanMonitoring.md) |
 | ![illustration of fontawesome-6/Brands/Waze](../../fontawesome-6/Brands/Waze.png) | [fontawesome-6/Brands/Waze](../../fontawesome-6/Brands/Waze.md) |
+| ![illustration of fontawesome-6/Brands/Webflow](../../fontawesome-6/Brands/Webflow.png) | [fontawesome-6/Brands/Webflow](../../fontawesome-6/Brands/Webflow.md) |
 | ![illustration of fontawesome-6/Brands/Weebly](../../fontawesome-6/Brands/Weebly.png) | [fontawesome-6/Brands/Weebly](../../fontawesome-6/Brands/Weebly.md) |
 | ![illustration of fontawesome-6/Brands/Weibo](../../fontawesome-6/Brands/Weibo.png) | [fontawesome-6/Brands/Weibo](../../fontawesome-6/Brands/Weibo.md) |
 | ![illustration of fontawesome-6/Brands/Weixin](../../fontawesome-6/Brands/Weixin.png) | [fontawesome-6/Brands/Weixin](../../fontawesome-6/Brands/Weixin.md) |
@@ -603,6 +619,7 @@ The module contains 467 items.
 ## X
 | |Name|
 |:---:|---|
+| ![illustration of fontawesome-6/Brands/XTwitter](../../fontawesome-6/Brands/XTwitter.png) | [fontawesome-6/Brands/XTwitter](../../fontawesome-6/Brands/XTwitter.md) |
 | ![illustration of fontawesome-6/Brands/Xbox](../../fontawesome-6/Brands/Xbox.png) | [fontawesome-6/Brands/Xbox](../../fontawesome-6/Brands/Xbox.md) |
 | ![illustration of fontawesome-6/Brands/Xing](../../fontawesome-6/Brands/Xing.png) | [fontawesome-6/Brands/Xing](../../fontawesome-6/Brands/Xing.md) |
 

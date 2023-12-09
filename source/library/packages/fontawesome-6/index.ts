@@ -10,7 +10,7 @@ import { getAbsoluteImagePath } from "../../../generator/workdir/paths"
 import { toCamelCase } from "../../../generator/workdir/naming"
 import { unifyItems } from "../../../generator/workdir/discovery"
 
-const ICONS_VERSION = "6.3.0"
+const ICONS_VERSION = "6.5.1"
 const ICONS_URL = `https://github.com/FortAwesome/Font-Awesome/releases/download/${ICONS_VERSION}/fontawesome-free-${ICONS_VERSION}-web.zip`
 
 type ItemsByModules = { [key: string]: Array<Item> }

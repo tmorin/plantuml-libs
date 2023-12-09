@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-6/bootstrap')
+
+' loads the Item which embeds the element SquareXTwitter
+include('fontawesome-6/Brands/SquareXTwitter')
+
+' renders the element
+SquareXTwitter('SquareXTwitter', 'Square X Twitter', 'an optional tech label', 'an optional description')
+@enduml
