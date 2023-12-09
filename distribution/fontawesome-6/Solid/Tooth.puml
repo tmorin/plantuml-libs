@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome-6/Solid/Tooth
 
-sprite $ToothXs [7x10/16z] Ou02Vdu67dv-8081BWZ5W4nnCu0b6HcO-86gWJgGAG
+sprite $ToothXs [8x10/16z] Ou01Ldv-1Y02OZ20qrnWYX4gmG2YEQ0q0uHcOk3b0T9035G5
 
-sprite $ToothSm [9x12/16z] NSQ50OC000F1g-9a_sbnZxv3TKBYaqboqMi7s_Vg5N017b2I1WK-Z
+sprite $ToothSm [10x12/16z] JSQ50S800CJ0mvtiForIVusDwkZLWwhdhGwQzFQUwC14JFGUwLqNFBefsCSjq5HUUF05
 
-sprite $ToothMd [12x16/16z] VSl50O0034FHZplPVrjItD-XNYxg8NDi8if66iVE8PIwgNJWAEDh0_pKPOJ6zIX1AYMkwwXni4JTNgFKOH0N4m
+sprite $ToothMd [14x16/16z] PSU52S100CNGrFt-_jlsN1yG2BtpMu3B5rc6o_Q1Kzxk0fyAs9kZZ06kV3ZZEIRTuNBXV18iqenpkiF5cVHKXoR0YDuF
 
-sprite $ToothLg [15x20/16z] VOw54SKm3CLK3EVjFstmCrG7EhFvOjrkMe1J3GVgtAJ8tfMYhl3l8MzH8ho62yjh2Bn4xZrS0J_o-TOxtZaWtqAcdPHVmaqAjp1ExIECEcUuCdSDEV551G
+sprite $ToothLg [17x20/16z] {
+ROw53S0m40ElpFN-qnR2T08d1kbfqGzOwQpgOuTVhj-GuMJwPOD16J2MHbyQPFyDcFD2NZdvkQ8nyhCN2tlHVaUZaxH2DB2lIpepOvGMB9SkwtTOLgtM04jd
+eyCQ9Iy
+}
 
 !procedure Tooth($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome-6/Solid/Tooth', $name, $tech, $desc)

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Brands/Pixiv
+
+sprite $PixivXs [8x10/16z] Ou01VdG04c7Xv-TaXx8nQMG0qmy
+
+sprite $PixivSm [10x12/16z] Oq00Vgo0Xv6PWGV402jWuWKpSH0CV60M8ymiA0NI3XNWveC0TW
+
+sprite $PixivMd [14x16/16z] VOm50W1120B1w-J_hxsExTbK0VWqwyU2HcLMOqMkTr7XQc4v7onNfUvw5jtLqtogsQjeJpLUkNfdlNMhlYeD_CfZ1m
+
+sprite $PixivLg [17x20/16z] ZSh50S1G309GlclA_jFMtTyb0hWoUnhWaLJ-8beP0oMSQOoZe724C3tefYbUm0dYE9hjOQUvFVpnaS33Gn3MXzBUAoHkZQCAlWWyWV30uQm3
+
+!procedure Pixiv($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Pixiv', $name, $tech, $desc)
+!endprocedure

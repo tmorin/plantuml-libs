@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Brands/Letterboxd
+
+sprite $LetterboxdXs [12x10/16z] Oo06yFFpGp4V6vGDedd1R0Jcu8S01WPEe2Ok1WP6Tfn60W
+
+sprite $LetterboxdSm [15x12/16z] bSkr0G0n243HVown_QUDQyahS91vLGp_1xiwmKLx2YQ5FmLIEFgCDLok8Vufuik1ZPr8
+
+sprite $LetterboxdMd [20x16/16z] hOf55aGX3C3oSQZT_xJZFbjIpolREPOaO4e1Yan0ueAbkCAj7_SHyk72xeD_vr_kk8_vwR3RN_bm6R9QXKDi0Sk4xPm1
+
+sprite $LetterboxdLg [25x20/16z] nSw54OKX009WxDRzftt1yUS2Sl5XYyq9hRc_gLNxDyl5mCf09kVPP9SbgdZDcFdQYI2R9iPxeMh2owYhx7c5dAyRCZ0vrlSQF2tu9sVY2eMl2Plp1G
+
+!procedure Letterboxd($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Letterboxd', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Webflow
+
+sprite $WebflowXs [12x10/16z] TSYr0S0m0CH0XJdQVzg0iV8r3pIeTwTS1hUAEbi1dT6AmQuIE_-CdNZJyna_m0i
+
+sprite $WebflowSm [15x12/16z] Oy0B-840J38mWfXWBfpWXBEOOIm4u81eX-jYu46LXBBOGGHC9G-OOeTmkHWOEC2Ic
+
+sprite $WebflowMd [20x16/16z] ZOo30KGn50JdZAZ_QhzYPuDvN1ObJmbB45TgJcd42R2P_Ms2pR0raIGgdNO0Kqe157M0Lpucqndbt9AQkjknfFR6ab3xGZA6aMzBEzRL3W
+
+sprite $WebflowLg [25x20/16z] {
+hOjL0WCn20LdtJVtFssD9aXTvWTum-D_907wCXrGff1zVcJ8mOFPnkOeOoUBG0FjcJuAhiIyvaopnNoFpqik135dWHTJtcilQbPPDgpeTQrLpESz5tQ4camh
+y8eZ
+}
+
+!procedure Webflow($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Webflow', $name, $tech, $desc)
+!endprocedure

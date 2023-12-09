@@ -1,12 +1,15 @@
 ' definition of the Item fontawesome-6/Solid/CameraRotate
 
-sprite $CameraRotateXs [10x10/16z] Oq06_4302AKHW0jAip1m8QIWB6G1FWO-A9iDH21C0G
+sprite $CameraRotateXs [12x10/16z] NSUn0K0000F1L01k_sc1LBwwpwyPdxIZNk7raYMfKTElZwWPgLik
 
-sprite $CameraRotateSm [12x12/16z] NStL0S0W30JGIxtOxJyjxky7ujWmClad9nCHFDp48ctzlZ4oKwNaxVkoEU2eKF-gtU00vPed
+sprite $CameraRotateSm [15x12/16z] PSc54S0m3C10XTdUVzeoLy4_mp-hIoUCqRLXp2fzT332C1SjCk3acdqm9LqxkLwK1y6VqqU0aRC1Cm
 
-sprite $CameraRotateMd [16x16/16z] RSV50SKm50CmXybvtd_QZ-LMD-69csR6_VgP-CeazKSEb_KekQfTnm_Nmqds-mx0r3CFT6cKmwaAlxq1-7Tbr1zqXeit
+sprite $CameraRotateMd [20x16/16z] TSZ50S9G5031ZTlZR__L0d6Vu_0k_wIKWXETiAeZGYSHGpQLPm3XfCnQ9zbw0vDqF3BrV1F0yqsE1tGwjESZhE5q7K3fUeEJ53e1o3pZqGy
 
-sprite $CameraRotateLg [20x20/16z] VOu50W8X50K7fFF-fxLrwI5_F_R8smj1G_qY5hx2cr17XAa7ybHWU958bqk13a3h-qnkVAsuFFZc2N7mIL3F9w0w7xueA8rFALXCzUO_qzOPqkHIB7W
+sprite $CameraRotateLg [25x20/16z] {
+XOu30aKX00Jt8Ul-f_t8RjBM91ov7iyeNC2WGxf8ixb7n_KHqGgbKpALi3uJXbxyWg1-sWeA-klP828OH4CZV1Y5_vFvZHScuZOI68No-NMjy1Z6kpT6f1VN
+AB3X2m
+}
 
 !procedure CameraRotate($id, $name="", $tech="", $desc="")
   IconElement($id, 'IconElement', 'fontawesome-6/Solid/CameraRotate', $name, $tech, $desc)

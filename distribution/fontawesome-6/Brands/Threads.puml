@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Threads
+
+sprite $ThreadsXs [8x10/16z] FSd50OC004MnrBrl_sbn-7AA8_Kf0Z-fvCdoizLVFlwB_th9-uBlYL_rD08
+
+sprite $ThreadsSm [10x12/16z] JSN50S0m0CF0AtEy_xI1NmsIVp820J6slhEfYBbCMIo2RGqAUTuC-L32sF3fcvdu9hBZ2fGa3mq
+
+sprite $ThreadsMd [14x16/16z] PS47OKGn040X_bwvFFzkAw3WdxUg6wW3Lq4_m8mZFED2Yrvg5EFJoeek2CQS3GZrlHLY2xrDsgonj2mnVupg9fPWmHb62zWwO3JlyvdTWAzwuGy
+
+sprite $ThreadsLg [17x20/16z] {
+RSx5eImX54316cjZcfD_j5zPlbh1TJzwtLNVf-NVxrjb_JVWQCBiONasU7HW7-E54LThIXCTviJuiFK1tPO27NZSLO5sr7sEwerEpc0sMpEke5E3RsY-Zw9u
+XwtgGQi73zP0MvTb1aRp2U_MhVQM9ylp7EDuWjy
+}
+
+!procedure Threads($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Threads', $name, $tech, $desc)
+!endprocedure
