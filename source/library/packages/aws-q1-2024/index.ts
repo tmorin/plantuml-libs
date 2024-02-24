@@ -16,17 +16,17 @@ import {
   unifyItems,
 } from "../../../generator/workdir/discovery"
 
-const FOLDER_DATE = "04282023"
-const ICONS_URL = `https://d1.awsstatic.com/webteam/architecture-icons/q2-2023/Asset-Package_${FOLDER_DATE}.ca9655a386a46bda0b6238cca2651e8f27fcb5c9.zip`
+const FOLDER_DATE = "01312024"
+const ICONS_URL = `https://d1.awsstatic.com/webteam/architecture-icons/q1-2024/Asset-Package_02062024.c893ec2a2df5a0b881da3ad9a3213e5f6c8664d4.zip`
 
 type FamiliesCsvRow = {
   name: string
   color: string
 }
 
-export class AwsQ22023Factory implements PackageFactory {
+export class AwsQ12024Factory implements PackageFactory {
   getUrn(): string {
-    return "aws-q2-2023"
+    return "aws-q1-2024"
   }
 
   private getItemUrn(imageSrcPath: string) {
@@ -35,6 +35,7 @@ export class AwsQ22023Factory implements PackageFactory {
       .map((part) =>
         part
           .replace(/^48$/g, "")
+          .replace(/_32\.svg$/g, "")
           .replace(/^Arch_48$/g, "")
           .replace(/^Arch-Category_48$/g, "")
           .replace(/^Res_48_Light$/g, "")
@@ -45,7 +46,7 @@ export class AwsQ22023Factory implements PackageFactory {
           .replace(/^Arch-/g, "")
           .replace(/^Arch_/g, "")
           .replace(/^Category_/g, "")
-          .replace(/^Res_/g, "")
+          .replace(/^Res_/g, ""),
       )
       .map(toCamelCase)
       .filter((part) => !!part)
@@ -55,7 +56,7 @@ export class AwsQ22023Factory implements PackageFactory {
   private async discover(
     context: PackageContext,
     cwd: string,
-    globPattern: string
+    globPattern: string,
   ): Promise<Array<Item>> {
     const discoveredSvg = (
       await glob(globPattern, {
@@ -66,7 +67,7 @@ export class AwsQ22023Factory implements PackageFactory {
     context.info(
       "discovered %s pictures file from %s",
       discoveredSvg.length,
-      cwd
+      cwd,
     )
 
     const discoveredItems: Array<Item> = discoveredSvg.map(
@@ -74,11 +75,11 @@ export class AwsQ22023Factory implements PackageFactory {
         const absoluteImagePath = getAbsoluteImagePath(
           context,
           cwd,
-          relativeImagePathToGlob
+          relativeImagePathToGlob,
         )
         const imageSrcPath = P.relative(
           context.absoluteDstYamlDirPath,
-          absoluteImagePath
+          absoluteImagePath,
         )
         const itemUrn = this.getItemUrn(relativeImagePathToGlob)
         const itemFamily = itemUrn.split(P.sep).slice(-2, -1).join()
@@ -109,7 +110,7 @@ export class AwsQ22023Factory implements PackageFactory {
             },
           ],
         }
-      }
+      },
     )
     context.info("discovered %s items from %s", discoveredItems.length, cwd)
 
@@ -121,12 +122,12 @@ export class AwsQ22023Factory implements PackageFactory {
       F.readFileSync(P.join(__dirname, "families.csv"), { encoding: "utf-8" }),
       {
         columns: true,
-      }
+      },
     )
     await render(
       P.join(__dirname, "templates", "bootstrap.tera"),
       P.join(context.tplDirPath, this.getUrn(), "bootstrap.tera"),
-      { families }
+      { families },
     )
   }
 
@@ -143,19 +144,27 @@ export class AwsQ22023Factory implements PackageFactory {
     await Fe.copy(
       P.join(iconsZipDst, `Architecture-Service-Icons_${FOLDER_DATE}`),
       P.join(iconsDst, "architecture"),
-      { overwrite: false }
+      { overwrite: false },
+    )
+    await Fe.mkdir(P.join(iconsDst, "resource/Res_Group-Icons"), {
+      recursive: true,
+    })
+    await Fe.copy(
+      P.join(iconsZipDst, `Architecture-Group-Icons_${FOLDER_DATE}`),
+      P.join(iconsDst, "resource/Res_Group-Icons"),
+      { overwrite: false },
     )
     await Fe.mkdir(P.join(iconsDst, "category"), { recursive: true })
     await Fe.copy(
       P.join(iconsZipDst, `Category-Icons_${FOLDER_DATE}`),
       P.join(iconsDst, "category"),
-      { overwrite: false }
+      { overwrite: false },
     )
     await Fe.mkdir(P.join(iconsDst, "resource"), { recursive: true })
     await Fe.copy(
       P.join(iconsZipDst, `Resource-Icons_${FOLDER_DATE}`),
       P.join(iconsDst, "resource"),
-      { overwrite: false }
+      { overwrite: false },
     )
 
     await Fe.copy(P.join(__dirname, "icons"), iconsDst, {
@@ -165,14 +174,14 @@ export class AwsQ22023Factory implements PackageFactory {
     const architectureItems = await this.discover(
       context,
       iconsDst,
-      "architecture/**/+(Arch_48|48)/**/*.svg"
+      "architecture/**/+(Arch_48|48)/**/*.svg",
     )
     context.info("found (%s) icons for architecture", architectureItems.length)
 
     const categoryItems = await this.discover(
       context,
       iconsDst,
-      "category/**/Arch-Category_48/**/*.svg"
+      "category/**/Arch-Category_48/**/*.svg",
     )
     categoryItems.forEach((item) => {
       delete item.family
@@ -187,14 +196,25 @@ export class AwsQ22023Factory implements PackageFactory {
     const resourcesItems = await this.discover(
       context,
       iconsDst,
-      "resource/**/*+(_48|_48_Light).svg"
+      "resource/**/*+(_48|_48_Light|_32).svg",
     )
     context.info("found (%s) icons for resource", resourcesItems.length)
 
-    const group_items: Array<Item> = await csvToCustomGroups(
+    const groupItemsFromCsv: Array<Item> = await csvToCustomGroups(
       this,
-      P.join(__dirname, "groups.csv")
+      P.join(__dirname, "groups.csv"),
     )
+    const groupItemsFromPackage = await this.discover(
+      context,
+      iconsDst,
+      "group/**/*_32.svg",
+    )
+    groupItemsFromPackage.forEach((item) => {
+      delete item.family
+      item.urn = item.urn.replace(/32$/, "")
+    })
+    const groupItems = [...groupItemsFromCsv, ...groupItemsFromPackage]
+    context.info("found (%s) icons for group", groupItems.length)
 
     return {
       urn: this.getUrn(),
@@ -215,7 +235,7 @@ export class AwsQ22023Factory implements PackageFactory {
         },
         {
           urn: `${this.getUrn()}/Group`,
-          items: unifyItems(group_items),
+          items: unifyItems(groupItems),
         },
         {
           urn: `${this.getUrn()}/Resource`,
@@ -226,7 +246,7 @@ export class AwsQ22023Factory implements PackageFactory {
         (name) => ({
           name,
           template: `${this.getUrn()}/examples/${toSnakeCase(name)}.tera`,
-        })
+        }),
       ),
     }
   }

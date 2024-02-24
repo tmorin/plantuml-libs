@@ -40,7 +40,7 @@ const argv = yargs
     default: [
       "**/*.{Local,Remote}.puml",
       /*
-      "aws-q2-2023/!**",
+      "aws-q1-2024/!**",
       "azure-11/!**",
       "gcp/!**",
       "fontawesome-6/!**",
@@ -53,11 +53,9 @@ const argv = yargs
 
 async function execute() {
   // eslint-disable-next-line @typescript-eslint/no-var-requires
-  const version = require(P.join(
-    __dirname,
-    "../../../",
-    "package.json"
-  )).version
+  const version = require(
+    P.join(__dirname, "../../../", "package.json"),
+  ).version
   const config: Config = {
     inputDirectories: argv.i,
     skipPatterns: argv.s,
@@ -77,13 +75,13 @@ async function execute() {
   const extractOutput = await ExtractStage.create(config).execute()
   console.info(
     "execute - %s resources discovered",
-    extractOutput.inputResources.length
+    extractOutput.inputResources.length,
   )
 
   console.info("execute - transform state")
   const transformOutput = await TransformStage.create(
     config,
-    extractOutput
+    extractOutput,
   ).execute()
 
   console.info("execute - load state")
