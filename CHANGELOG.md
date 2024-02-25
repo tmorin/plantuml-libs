@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [14.0.0](https://github.com/tmorin/plantuml-libs/compare/v13.0.0...v14.0.0) (2024-02-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* **aws-q1-2024:** the package is `aws-q2-2023` is removed from the distribution
+
+### Features
+
+* **aws-q1-2024:** add the package in replacement of `aws-q2-2023` ([99464a6](https://github.com/tmorin/plantuml-libs/commit/99464a64caac991bc489270db1d266d85f41c892))
+* **aws-q1-2024:** refresh the package ([67b4bf8](https://github.com/tmorin/plantuml-libs/commit/67b4bf8b57330bcd456cc2d4a1023fd9e223191b))
+* **fontawesome-6:** upgrade to 6.5.1 ([6b1b818](https://github.com/tmorin/plantuml-libs/commit/6b1b818b3de80a9603f837ec9e9e838c74bedaa2))
+
 ## [13.0.0](https://github.com/tmorin/plantuml-libs/compare/v12.0.0...v13.0.0) (2023-10-14)
 
 
