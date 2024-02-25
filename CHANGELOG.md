@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [14.0.2](https://github.com/tmorin/plantuml-libs/compare/v14.0.1...v14.0.2) (2024-02-25)
+
+
+### Bug Fixes
+
+* **website:** fix eslint remarks ([c896d18](https://github.com/tmorin/plantuml-libs/commit/c896d18b71e6e7a10c705b6850066b8bb2f35492))
+
 ### [14.0.1](https://github.com/tmorin/plantuml-libs/compare/v14.0.0...v14.0.1) (2024-02-25)
 
 
