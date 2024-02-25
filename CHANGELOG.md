@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [14.0.1](https://github.com/tmorin/plantuml-libs/compare/v14.0.0...v14.0.1) (2024-02-25)
+
+
+### Bug Fixes
+
+* **website:** fix ignore some Typescript checks ([dc1b5f2](https://github.com/tmorin/plantuml-libs/commit/dc1b5f246cc39fff40b7d37e3ad48f6ed7e8c711))
+
 ## [14.0.0](https://github.com/tmorin/plantuml-libs/compare/v13.0.0...v14.0.0) (2024-02-25)
 
 
