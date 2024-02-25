@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2024/Category/Robotics
+
+sprite $RoboticsXs [10x10/16z] OqS0JXW0inXXB7PM68k1ZHd2Oe2hOm6IZ20M8mj43x8fC
+
+sprite $RoboticsSm [12x12/16z] POo30S10301Zx3zmySR5z9KSs9MRwEpRw8U7zFmthZdwj_sPUMbzERV-X-BntmRo0W
+
+sprite $RoboticsMd [16x16/16z] PSe75eGW34LHIF_xN_2CIYTFAVS4lnFRAsxO6mwBtMnYkiz1nnn2jZdUZPRvc_6mE368o9kTd1oaN9gDlRtdvgZgRrIRzxBBsHy
+
+sprite $RoboticsLg [20x20/16z] XT350O0m4031S-c_O5oZ-uA1gBS2B0F7B1kRe1OMec9K_EUfKOzDAmsseVotyvM-1lUahpaPHmebnMCad9haWNGRiXp3OdlwsjbhZkndY9Cxc1jKuGe
+
+!procedure Robotics($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Category/Robotics', $name, $tech, $desc)
+!endprocedure
+
+!procedure RoboticsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$RoboticsLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure RoboticsGroup($id, $name='Robotics', $tech='')
+  IconGroupElement($id, 'Robotics', '<$RoboticsLg>', $name, $tech)
+!endprocedure

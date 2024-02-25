@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2024/Resource/IoT/AwsIoTThingCar
+
+sprite $AwsIoTThingCarXs [10x10/16z] RSn70S0m4C0m9pVC7t7dfoC285vIPIr1a4G2O8ZPQeJ8pTMt0m
+
+sprite $AwsIoTThingCarSm [12x12/16z] LSst5KC120F0UnZ4_XCxKVqh2PAdPWUOEakNawPu9IqeGWbR2oPhEZ8Z6RSLGJd1vioZzmC
+
+sprite $AwsIoTThingCarMd [16x16/16z] RS-50O0m34JHprra_ubnXrVtXXz1qSZ7iABdb1dULazQLpaflAyFissz-ZYKgFBeRcEWcnQhT1U4OptJfGJcIf6IofQ4avEipt-mJlaR3wRcD8ZP1
+
+sprite $AwsIoTThingCarLg [20x20/16z] {
+TP074eGm30CbD_t_npT9VFGiNRCM4EnmqA6v7GGOzwnksCfm9KTNtBEARu-ScOqk3OF7hD3dOvPPAxCvAnNaHnibJY-gOdQAqLuCTG2N_psq9-7ekt9uzs_U
+P9QLLQcvvMxz3ZYtmGy
+}
+
+!procedure AwsIoTThingCar($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Resource/IoT/AwsIoTThingCar', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTThingCarCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTThingCarLg>', 'IoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTThingCarGroup($id, $name='Aws Io T Thing Car', $tech='')
+  IconGroupElement($id, 'IoTFamily', '<$AwsIoTThingCarLg>', $name, $tech)
+!endprocedure

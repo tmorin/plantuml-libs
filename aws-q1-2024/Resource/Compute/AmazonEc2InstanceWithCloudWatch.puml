@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2024/Resource/Compute/AmazonEc2InstanceWithCloudWatch
+
+sprite $AmazonEc2InstanceWithCloudWatchXs [10x10/16z] HKg50G0X40B-bVqdjiLB2g_-ynr5OOgd5Qp_RorJCBTBCpbGi7RL3W
+
+sprite $AmazonEc2InstanceWithCloudWatchSm [12x12/16z] LOo50G0X24K_lV_4Ad7XenD_WXu4X0Slf_xad9lUUVH6vbfRaLKTIwhFOuG-EQf__HT_m0O
+
+sprite $AmazonEc2InstanceWithCloudWatchMd [16x16/16z] PSU90GD1249HPa7el-EekPC_Xpxy5N_Kn6U4lrpho_AdsI_rij0Tv65oh0k-sqEhfzPfKcXnZIJdz23MMpdqsvEeJq-_vhnw1zm
+
+sprite $AmazonEc2InstanceWithCloudWatchLg [20x20/16z] {
+RSY5TKGn30NH4Rx-EyunPJ-DKPVFedMj1YNt10ttmWRVysEgwhljwsPXSwZAdpKx-J7PcAtRoTYMYo8pqROULX6WVvCFys5js_3Cj8AGiMndaant6tNePPGD
+A-vDKFYrQW2x1Vm1
+}
+
+!procedure AmazonEc2InstanceWithCloudWatch($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Resource/Compute/AmazonEc2InstanceWithCloudWatch', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonEc2InstanceWithCloudWatchCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonEc2InstanceWithCloudWatchLg>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AmazonEc2InstanceWithCloudWatchGroup($id, $name='Amazon Ec2 Instance With Cloud Watch', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2InstanceWithCloudWatchLg>', $name, $tech)
+!endprocedure

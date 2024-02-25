@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2024/Resource/MediaServices/AwsElementalMediaConnectMediaConnectGateway
+
+sprite $AwsElementalMediaConnectMediaConnectGatewayXs [10x10/16z] JOc70G0X30B9lyh-6sjw3t0OjMXNZwfFXKe65hZaKoIL7w3mx-9KHhs_u08
+
+sprite $AwsElementalMediaConnectMediaConnectGatewaySm [12x12/16z] LOs35G0m34H_lF_6VRN30zznwR6yHyaUi-OcAPHT8y5kLYLP0zHZbuchvquU1vnulD9xdFieQ
+
+sprite $AwsElementalMediaConnectMediaConnectGatewayMd [16x16/16z] VKw30G012Boy_yOVtihky2JpyH7Z7TQU2EDj0bUivE18inFbffvo0QVrwRMB85Z7dd5Ril3q7bHzG_QjuypAi5yWXXrfTXHwDFa7_t58QsC1
+
+sprite $AwsElementalMediaConnectMediaConnectGatewayLg [20x20/16z] {
+TP250SD04CDqwFqdBhhSEAHJdZd8R9fs3D78wih6jEkQm7cwj71H2eRtICc8zso_VPmc122lH7jpDGCYjR24r4ImGX8PJDzM6hk0RgNdW7WRpuCcq5_hQvM-
+rXVGi6z6Bie0CHwR8SjI_yxg1JSw0m
+}
+
+!procedure AwsElementalMediaConnectMediaConnectGateway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Resource/MediaServices/AwsElementalMediaConnectMediaConnectGateway', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsElementalMediaConnectMediaConnectGatewayCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsElementalMediaConnectMediaConnectGatewayLg>', 'MediaServices', $funcName, $content)
+!endprocedure
+
+!procedure AwsElementalMediaConnectMediaConnectGatewayGroup($id, $name='Aws Elemental Media Connect Media Connect Gateway', $tech='')
+  IconGroupElement($id, 'MediaServicesFamily', '<$AwsElementalMediaConnectMediaConnectGatewayLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2024/Resource/QuantumTechnologies/AmazonBraketChip
+
+sprite $AmazonBraketChipXs [10x10/16z] NOc55O1034F38-NlFp7dMedg6keP49PamIjQqv7eoZ6opxDzNAUQDWa
+
+sprite $AmazonBraketChipSm [12x12/16z] PSYt0GD040CWFaYt_yJEdIdnxwov1srs78ii1aNII1HB4HiAWHdn-xrOQr5g0w4I95W1y0G
+
+sprite $AmazonBraketChipMd [16x16/16z] TKu50WD023eB___ZCLY7tNB-qW8xYYOEpiPXrkeC1W5uhg6s6cfdSgAlq_10-4mudsNatFU1kkLEwwqFSc1cuFsLDO6374bd_hyiPu2zr609z913w3pze0i
+
+sprite $AmazonBraketChipLg [20x20/16z] {
+XT07aa0X309GeWJkV-EDOztEhxwn1lz5sKZC43akezxmj8HWs021QAZG5PQKSlLIW7kCSoBBHh_UoYR9TYA0K9acplKgmnOvujf6JRhz8WFGftuayxNxvSnQ
+jql4oUmN7RqzbgDViUXrYRFVgGk4NBs9xucly04
+}
+
+!procedure AmazonBraketChip($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Resource/QuantumTechnologies/AmazonBraketChip', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonBraketChipCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonBraketChipLg>', 'QuantumTechnologies', $funcName, $content)
+!endprocedure
+
+!procedure AmazonBraketChipGroup($id, $name='Amazon Braket Chip', $tech='')
+  IconGroupElement($id, 'QuantumTechnologiesFamily', '<$AmazonBraketChipLg>', $name, $tech)
+!endprocedure

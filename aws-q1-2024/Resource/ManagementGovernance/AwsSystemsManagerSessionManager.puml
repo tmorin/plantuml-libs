@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2024/Resource/ManagementGovernance/AwsSystemsManagerSessionManager
+
+sprite $AwsSystemsManagerSessionManagerXs [10x10/16z] LKk30G0n38or_xwFkd4ES4SX0FPBHFG_sAAgleC-q8W_ndvSjgbD-U9RzaV7IQdj5m
+
+sprite $AwsSystemsManagerSessionManagerSm [12x12/16z] POp50O0030ClM6N_VR7G5rTNVlGYARyyRigv3i3z22Q_NOIow0wcAu91B3bVLZsulpWtHrKukm
+
+sprite $AwsSystemsManagerSessionManagerMd [16x16/16z] TO-50K0X24JFvjn_tnzsFfC6N8ZCD3caPv0JJLP-j5iA1hisW6ZLx98YWY8zufV9eAi9X2pc3tjHPP457n8s-QiCCjsvl292VXSQurXu0G
+
+sprite $AwsSystemsManagerSessionManagerLg [20x20/16z] {
+VSxL0K0X20NGImhil-_h3i-NqkYAt10EfUk7-1eJckajjh9BZFZPA-68MkonK53YLiUsJ2m7isoneAK2nHCWgxGvpXcJd5-NYtenQxHfM-zCT8L5qawnIzzP
+9xRWC6NSyGod4G
+}
+
+!procedure AwsSystemsManagerSessionManager($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Resource/ManagementGovernance/AwsSystemsManagerSessionManager', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsSystemsManagerSessionManagerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsSystemsManagerSessionManagerLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsSystemsManagerSessionManagerGroup($id, $name='Aws Systems Manager Session Manager', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsSystemsManagerSessionManagerLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2024/Resource/ManagementGovernance/AwsSystemsManagerChangeCalendar
+
+sprite $AwsSystemsManagerChangeCalendarXs [10x10/16z] LOk30G1H34FpKRtzzpspRg1VG1tRNYZTYowXoaoAYsPlEwzswfpztH_Dq-oCRQu
+
+sprite $AwsSystemsManagerChangeCalendarSm [12x12/16z] NOo50O10201fqFtt9Mp_w8GL3RuontPCHmf4X0ZJwN3W1dOqscrwX9iztXpfogDD0GSw6YB7vni-V04
+
+sprite $AwsSystemsManagerChangeCalendarMd [16x16/16z] ZSs5TK0n2030W_U3TFzzw-uN5y1_z6HScvwjHzalnwZAhD3G8gllp-E24VDedKbIU3JY1jxESAtGut4CEoTKKqFZY7p-No_rd-JnQ0FKyIotpoo-kWC
+
+sprite $AwsSystemsManagerChangeCalendarLg [20x20/16z] {
+bSvLWa0n24FH6zhm6lQ_tt7tENyu_8_dJdYZKW3quPaldirpruMigzmbmeEWSpfzqaCPO2_KBwDA2mQKysX81cYG5sPjvlMs_E7i578JV1ZG1i_nspuBhbh8
+csQPWRpyruy6Rm0KzAm2pyadExmubu2AUQipMNpl5W
+}
+
+!procedure AwsSystemsManagerChangeCalendar($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Resource/ManagementGovernance/AwsSystemsManagerChangeCalendar', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsSystemsManagerChangeCalendarCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsSystemsManagerChangeCalendarLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsSystemsManagerChangeCalendarGroup($id, $name='Aws Systems Manager Change Calendar', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsSystemsManagerChangeCalendarLg>', $name, $tech)
+!endprocedure

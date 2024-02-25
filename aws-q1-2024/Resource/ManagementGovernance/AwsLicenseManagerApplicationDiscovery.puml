@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2024/Resource/ManagementGovernance/AwsLicenseManagerApplicationDiscovery
+
+sprite $AwsLicenseManagerApplicationDiscoveryXs [10x10/16z] JOh50S0m08IeD-o_RzpudB8XFDK4zQEYy5dTqIuy0U1kJz1-l4KwkpK1
+
+sprite $AwsLicenseManagerApplicationDiscoverySm [12x12/16z] NKo50G112CBM_GV-lBO3m6fPmbp__3VwghoB8T-PmGeelfacjq0hxLscKkLF_krOQYxbDm
+
+sprite $AwsLicenseManagerApplicationDiscoveryMd [16x16/16z] NOg55GHH2CHcSAx_Vc-5zNnD7lYIRTxTXOE6SNkBumpro58S4yxV_YZocAzA0qnxV5yh5fSFTTp1ySGHdBlwE2SazGZ8NfSBZd2m1Vi6VaBWYIOM
+
+sprite $AwsLicenseManagerApplicationDiscoveryLg [20x20/16z] {
+TKy74iCW31CRwV__xV01Tfj4cMYTZJkasP47EP9p0v3zD1sk5UJrosDbaM40N5J6MDcEKhnFufSSg_dh5oRDcIAtonVdrSwbvZFKwjfSf0UufrNHsPYsIcME
+JjkaGjRq1wuduj5PqyLPX0ioy0O
+}
+
+!procedure AwsLicenseManagerApplicationDiscovery($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Resource/ManagementGovernance/AwsLicenseManagerApplicationDiscovery', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsLicenseManagerApplicationDiscoveryCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsLicenseManagerApplicationDiscoveryLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsLicenseManagerApplicationDiscoveryGroup($id, $name='Aws License Manager Application Discovery', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsLicenseManagerApplicationDiscoveryLg>', $name, $tech)
+!endprocedure

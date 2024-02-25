@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2024/Resource/Database/AmazonDynamoDbItems
+
+sprite $AmazonDynamoDbItemsXs [10x10/16z] LKc30G104AhU-m_yrYd2Zf31hLmYIXyDs9c_BVBVie_6dxPyRGC
+
+sprite $AmazonDynamoDbItemsSm [12x12/16z] JOh70G0W3081-_uBYzrx93JyYCOdi88pG0MkPXfwiEx9LT-cZNqUQ1mt0urpDoNZwMBT1fgt0m
+
+sprite $AmazonDynamoDbItemsMd [16x16/16z] VSw54S0W40J0o_lttt0cYhEutO1UnYKf7WXSZ81me5xBGSsQzJe_7l-OVWdosovFmSsQxZnw_6FQ9SXkJPvrUTN__ChZwxnp0W
+
+sprite $AmazonDynamoDbItemsLg [20x20/16z] TOt50GHH2CKU3lqNl3BwDHUSO4NM1Jy92YV936G2rFUCAAUUIFGz0SpEsuN3R-X9Ug_gx5NngGVas4F4riitU18KdIJhcN3_ZzrrT3XGaxTgwrtm1G
+
+!procedure AmazonDynamoDbItems($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Resource/Database/AmazonDynamoDbItems', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonDynamoDbItemsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonDynamoDbItemsLg>', 'Database', $funcName, $content)
+!endprocedure
+
+!procedure AmazonDynamoDbItemsGroup($id, $name='Amazon Dynamo Db Items', $tech='')
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonDynamoDbItemsLg>', $name, $tech)
+!endprocedure

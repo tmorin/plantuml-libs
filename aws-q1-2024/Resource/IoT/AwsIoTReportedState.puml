@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2024/Resource/IoT/AwsIoTReportedState
+
+sprite $AwsIoTReportedStateXs [10x10/16z] Oq005YZD3YBOM80K8qGObGKac31PB4mixEXYZ1303W
+
+sprite $AwsIoTReportedStateSm [12x12/16z] RKc30S1030mE-qzSknySupdESpfoyIGNrD7-TG9rwbvWg1CA7HfM7ngsRE-vpeaP
+
+sprite $AwsIoTReportedStateMd [16x16/16z] bSY50G0n3CD05MBll_4pOw-eS65jt2Tx5T5JBzFptFtvsHxikq0qjTstZssLfIDdAVVe2RCp3AjNodG
+
+sprite $AwsIoTReportedStateLg [20x20/16z] hOu50i0W30CRLld_ZqSwTpty22AxDB70gLIM16i28gIWTt1LxQUZumt_k32oSdp_jKCwp1tKgzDOv3og2xVJ-rpvlM8adQBk5ipHJ6E9I0i
+
+!procedure AwsIoTReportedState($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Resource/IoT/AwsIoTReportedState', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTReportedStateCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTReportedStateLg>', 'IoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTReportedStateGroup($id, $name='Aws Io T Reported State', $tech='')
+  IconGroupElement($id, 'IoTFamily', '<$AwsIoTReportedStateLg>', $name, $tech)
+!endprocedure

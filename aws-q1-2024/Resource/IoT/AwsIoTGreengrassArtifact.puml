@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2024/Resource/IoT/AwsIoTGreengrassArtifact
+
+sprite $AwsIoTGreengrassArtifactXs [10x10/16z] Oq01ZEoC40Ox6AC19WZ5oi02b6C7qkW0JI-C1W
+
+sprite $AwsIoTGreengrassArtifactSm [12x12/16z] Oy00x0WMdCVA2AOOMO44c0cdMK0OeeQ17GoHrJ2WgMTaXMXYX58m0OIz
+
+sprite $AwsIoTGreengrassArtifactMd [16x16/16z] NOo50S0m3828_t_nj4ur1esJOiKDTpgI0AIqrlOY1P1CiXs1N6gXEDg41GdLTZCfsE8W5j_XnrjnVb81NHf5KeMLNhm1
+
+sprite $AwsIoTGreengrassArtifactLg [20x20/16z] {
+VL250O102AHl_uqzMx_f1ba-T1QbJV-c2fAehmLtVbw2uqrIsC5JlYz_jdYrGtQc5ANROsTRDiquD0gWanaunBSrCrp5hEc4lcyVqPyYtyZFol1kIqu54bXx
+GCPqxpLj
+}
+
+!procedure AwsIoTGreengrassArtifact($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Resource/IoT/AwsIoTGreengrassArtifact', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTGreengrassArtifactCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTGreengrassArtifactLg>', 'IoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTGreengrassArtifactGroup($id, $name='Aws Io T Greengrass Artifact', $tech='')
+  IconGroupElement($id, 'IoTFamily', '<$AwsIoTGreengrassArtifactLg>', $name, $tech)
+!endprocedure

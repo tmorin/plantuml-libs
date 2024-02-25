@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2024/Resource/Containers/AmazonElasticContainerServiceEcsServiceConnect
+
+sprite $AmazonElasticContainerServiceEcsServiceConnectXs [10x10/16z] HSc50G0W2031j_VVM9fJclOKgArGQsdYINhQpUeuqUs-lYbfQyU5emPy
+
+sprite $AmazonElasticContainerServiceEcsServiceConnectSm [12x12/16z] POg74G0W20C3HyZ-6tlszaf_d6G3FxHAlv2g6LLaPE-zzcqlz-wOCLGTL6Zjo0oIaDOUrTyK
+
+sprite $AmazonElasticContainerServiceEcsServiceConnectMd [16x16/16z] XOq50WGn30AfaFp_nzUvTQSwnFIbA9DYvikxPdXcj-bdrQYmnntZbOl5Euc_u9uJ9mRvXVoIYK5-4JAmxmygJN_RStzyRVF9Y4dMZNu
+
+sprite $AmazonElasticContainerServiceEcsServiceConnectLg [20x20/16z] {
+ZOy55iGW34JZS_yRx-3hxQy0dxo8t0M7xNxiOe28xJHqOhwTy-bxfIiCbrez0PsPwN2e5MUOSJ9XZbhv0ZaT97FcarAGzZD_onSfd_cYxz_gmeqkg-TBGgSH
+scyj_CnHmyd4zavoe_AB1m
+}
+
+!procedure AmazonElasticContainerServiceEcsServiceConnect($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Resource/Containers/AmazonElasticContainerServiceEcsServiceConnect', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonElasticContainerServiceEcsServiceConnectCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonElasticContainerServiceEcsServiceConnectLg>', 'Containers', $funcName, $content)
+!endprocedure
+
+!procedure AmazonElasticContainerServiceEcsServiceConnectGroup($id, $name='Amazon Elastic Container Service Ecs Service Connect', $tech='')
+  IconGroupElement($id, 'ContainersFamily', '<$AmazonElasticContainerServiceEcsServiceConnectLg>', $name, $tech)
+!endprocedure

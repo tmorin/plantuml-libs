@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2024/Resource/Storage/AwsBackupAwsBackupSupportForAmazonS3
+
+sprite $AwsBackupAwsBackupSupportForAmazonS3Xs [10x10/16z] Oq02x404PR2pCh11E2mG4OGYC1igmyO2uc2eG33PMDbP6
+
+sprite $AwsBackupAwsBackupSupportForAmazonS3Sm [12x12/16z] LOo30G0130ElIlQV-CshoHz5ceV1D21qpmdagInfAExbk3QVDuYRr2IGlCpXw_2-MhOBLW
+
+sprite $AwsBackupAwsBackupSupportForAmazonS3Md [16x16/16z] PSc5RG104C0m7-y_SVb5jI8C_zsNz6H3743JDunT70iAnN4J8FhuJLNb--jPalOiJWZ0mMou0GDqD530AF0S800z0NqyMGa-0G
+
+sprite $AwsBackupAwsBackupSupportForAmazonS3Lg [20x20/16z] {
+TOq73iKm34A9FuRxt_ZBKkdkIxmNlYXPl6PSOynp4uO5De97t0LeeJrXJP2HhKUtLUr9pn1bQuGhVJYOW9Zy2IL_i2RW3xKGDhzLX3FFhLsMt5btt7BSKwvU
+Sg5tf-BzY41RtRA9T_u
+}
+
+!procedure AwsBackupAwsBackupSupportForAmazonS3($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Resource/Storage/AwsBackupAwsBackupSupportForAmazonS3', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsBackupAwsBackupSupportForAmazonS3Card($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsBackupAwsBackupSupportForAmazonS3Lg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AwsBackupAwsBackupSupportForAmazonS3Group($id, $name='Aws Backup Aws Backup Support For Amazon S3', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AwsBackupAwsBackupSupportForAmazonS3Lg>', $name, $tech)
+!endprocedure

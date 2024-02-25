@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2024/Resource/MachineLearning/AmazonRekognitionVideo
+
+sprite $AmazonRekognitionVideoXs [10x10/16z] LOc50S102CJo0cJ_XUkAdFAR3fvAMhLTfCfmbx67dVOec6eBeIYGNPouTvop0W
+
+sprite $AmazonRekognitionVideoSm [12x12/16z] NS770GDG20KWVb7V_XFdaWx-pTe1g6Ivs0PwuRH529e-KOCcuWxLgYe4Er0BMzQqjJbYJWSIBmy
+
+sprite $AmazonRekognitionVideoMd [16x16/16z] RSU53GC15CDGVqpsNxZClIUmpA7sHV73F8qorOYxUsFnDHJonMOa88mOM7oDMKJUu-UxMOnWq3MmB0Ma9wyG2s3oLaNCRTbegGazTmD2pUslGnKF3ZwS0G
+
+sprite $AmazonRekognitionVideoLg [20x20/16z] {
+TOo7RG0n4CCeNzF-4oVdJo_yOe4W3F-JRK_mZND_hcyokdFjfoaVa0SDYw3ZFQRk7DJuGWP-d57jEiBChjooZcFTx6-_NgVs4IKTK3xE_TdHt-_hNQPIlkWK
+PicQmqN3oQi6PdQrmKy5CQgP5l9x5TREznnl1ULNMbmgq_n4uWSl
+}
+
+!procedure AmazonRekognitionVideo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Resource/MachineLearning/AmazonRekognitionVideo', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonRekognitionVideoCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonRekognitionVideoLg>', 'MachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure AmazonRekognitionVideoGroup($id, $name='Amazon Rekognition Video', $tech='')
+  IconGroupElement($id, 'MachineLearningFamily', '<$AmazonRekognitionVideoLg>', $name, $tech)
+!endprocedure

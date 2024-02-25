@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2024/Architecture/AppIntegration/AwsAppSync
+
+sprite $AwsAppSyncXs [10x10/16z] TS410G0G40Im0x3-WINuJQ6d0HSU1jFPY8FWYNW00Tu403u
+
+sprite $AwsAppSyncSm [12x12/16z] VOlL0S1G20EV0xV_lfNakprSmX-L1MPWt7PeeGzeoagTWzchho2rjtHYWhFuvWO
+
+sprite $AwsAppSyncMd [16x16/16z] dScrOKD140N0uzkT_lirVGejQQ87FXAZZNXg2-HJauKoG6vMXhKInxKYiS74K1mFEqMfjSdZ7yLC4Rf307kxZ13jgSHEB_a6
+
+sprite $AwsAppSyncLg [20x20/16z] {
+jSx50KGn20HG4dIc_tw_UwwxxuR3_q0NaGO-cEsLPwfuk5fXMskGtlF8ARQSarbnv8IB3js67xbCwbNVMjZTl4SG_NgEAg19CN2aL7Zg7CZpwmoml8DFS0l-
+m0m
+}
+
+!procedure AwsAppSync($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Architecture/AppIntegration/AwsAppSync', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsAppSyncCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsAppSyncLg>', 'AppIntegration', $funcName, $content)
+!endprocedure
+
+!procedure AwsAppSyncGroup($id, $name='Aws App Sync', $tech='')
+  IconGroupElement($id, 'AppIntegrationFamily', '<$AwsAppSyncLg>', $name, $tech)
+!endprocedure

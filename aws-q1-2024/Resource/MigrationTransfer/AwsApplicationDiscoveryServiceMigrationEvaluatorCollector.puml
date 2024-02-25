@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2024/Resource/MigrationTransfer/AwsApplicationDiscoveryServiceMigrationEvaluatorCollector
+
+sprite $AwsApplicationDiscoveryServiceMigrationEvaluatorCollectorXs [10x10/16z] NKk50S0m2CF9_mzlTSE9q14Gq1CCBcCy6HdzAWlI-2oNTWpmuHSDIXgH-GC
+
+sprite $AwsApplicationDiscoveryServiceMigrationEvaluatorCollectorSm [12x12/16z] LOo55G01248_FeFz5xvEEm3-PZzZGrvRwlZ5NgC6UNAVXzPEwPUSUcTTSvAwfMZ9cCV-YrS
+
+sprite $AwsApplicationDiscoveryServiceMigrationEvaluatorCollectorMd [16x16/16z] ROp50SH054BVo0VwRtWrdd32UK3vg0YCkIb-r3shNeYoIgL3gQyQCMihgYDA4xDT51D8MxK0yAOx1boh9iG-34Xh5TGumeYBuQln1W
+
+sprite $AwsApplicationDiscoveryServiceMigrationEvaluatorCollectorLg [20x20/16z] {
+NSp7eSDG44BHoqJwR_X7svBUsKq0tauI9tUiULY0d8vpnxBmDiq_UVZNmXP0Y1T3pf8kbUjg6t8PB_DQkcem5fZbKYC0AtWBcVzTywRQroxXpHZOem_Rz9fB
+hQGrDN29JgQfvT15YyFsYfF4Dm
+}
+
+!procedure AwsApplicationDiscoveryServiceMigrationEvaluatorCollector($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Resource/MigrationTransfer/AwsApplicationDiscoveryServiceMigrationEvaluatorCollector', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsApplicationDiscoveryServiceMigrationEvaluatorCollectorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsApplicationDiscoveryServiceMigrationEvaluatorCollectorLg>', 'MigrationTransfer', $funcName, $content)
+!endprocedure
+
+!procedure AwsApplicationDiscoveryServiceMigrationEvaluatorCollectorGroup($id, $name='Aws Application Discovery Service Migration Evaluator Collector', $tech='')
+  IconGroupElement($id, 'MigrationTransferFamily', '<$AwsApplicationDiscoveryServiceMigrationEvaluatorCollectorLg>', $name, $tech)
+!endprocedure

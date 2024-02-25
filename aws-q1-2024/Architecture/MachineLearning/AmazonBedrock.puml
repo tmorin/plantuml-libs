@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2024/Architecture/MachineLearning/AmazonBedrock
+
+sprite $AmazonBedrockXs [10x10/16z] RSQr0S10300nis__XSESLoN6d3XhoaO4vMWe-9finTYfdk5j1W
+
+sprite $AmazonBedrockSm [12x12/16z] VOl50S1048J2sT9_mt4tNgF-4Emo8RBg0EiiiHEDHRTTfnR1ziz9YctMfGGqLweF1W
+
+sprite $AmazonBedrockMd [16x16/16z] dSsr0S104CJ0tqFrtx0PGiDaYiGVwMfkbY3aLnSjYaCfZU5-TIIegbm093uGq0L0a32aws54ghgSdJS8SGeNQkSMnaip
+
+sprite $AmazonBedrockLg [20x20/16z] hSYtOSL030KmFXvFmluBE_l7LYZX0kjzMeydROYzdg-5k0kHcVljKaKyM7iCrL_IVqVD29phTWSgoVQlQZiJTFktz5Ofn-CXShYRNYEwFLefb_W4
+
+!procedure AmazonBedrock($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Architecture/MachineLearning/AmazonBedrock', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonBedrockCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonBedrockLg>', 'MachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure AmazonBedrockGroup($id, $name='Amazon Bedrock', $tech='')
+  IconGroupElement($id, 'MachineLearningFamily', '<$AmazonBedrockLg>', $name, $tech)
+!endprocedure

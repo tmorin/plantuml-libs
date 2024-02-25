@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/XTwitter
+
+sprite $XTwitterXs [10x10/16z] HKl50S103AB-Akm_xKdq947HHv8j-tA0appqmGtHWC540QtmNz7dAU0vj_uypmG
+
+sprite $XTwitterSm [12x12/16z] JKo50S0m36AhA_zVMxUu07ZD62DwbwOLIhRwSnmoMkTu8bcRwJ2DO0BkSgHubfzV2YhtSKZmoxAFGuAPUAq2
+
+sprite $XTwitterMd [16x16/16z] XOp50S0W5CKUxcJ_QUjsQz1lqHy6G0VdMr3Z3ArsvXHJcZYTK4KUn5VX73GzPDJHXy6kU84XogSSy1QZaqfLH0KT9Bgq2-UXS9mcHjmL1XufZ-9X1G
+
+sprite $XTwitterLg [20x20/16z] {
+ZS_50SDG3C1GXTdQVzembVik7qtygt2Hi1aKeDDUOT_38eHjNoixWy862itOfGPXacZ5gR4Wr1OkIgB10wMqvK5YJsVwS9TgZJxSgIQFbpgWv5ufGm5bC7iS
+V9abX4Lx3PvY05JNbA7Q0KLnjLKiU6S2
+}
+
+!procedure XTwitter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/XTwitter', $name, $tech, $desc)
+!endprocedure

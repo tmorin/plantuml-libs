@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2024/Category/ContactCenter
+
+sprite $ContactCenterXs [10x10/16z] OqS0JXW0inYXB1O6JbO8Ymqa2cOn03aC47NC36mWMGW7B0O321O
+
+sprite $ContactCenterSm [12x12/16z] NOo30S10301Zx3zm-zR5z9DSs9jRkCtSIzIU2sPnqVA0J8LvIyXpNslPSxI2y_FV5l83
+
+sprite $ContactCenterMd [16x16/16z] PSx50G0n30D1i-J-2px6P7yJDCQYlWcglzr6yMidQA_DsOLuhDpFoEtOTnhaPGgwKv_z3KLNFAQXo_ispndijjOUuAU_pPP_Am
+
+sprite $ContactCenterLg [20x20/16z] {
+XP250KKX30CJAcdt7_YxFEVmmwiZm2qGUykr6_IDiooLQUcyeBRmfUDurfd-Tv6V5VmxxtWvgdwkmDTMO7blMRMFeQLh0v2hzxtlgB5mgNw3lsE-aMmIWxd3
+3ju1
+}
+
+!procedure ContactCenter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Category/ContactCenter', $name, $tech, $desc)
+!endprocedure
+
+!procedure ContactCenterCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ContactCenterLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure ContactCenterGroup($id, $name='Contact Center', $tech='')
+  IconGroupElement($id, 'ContactCenter', '<$ContactCenterLg>', $name, $tech)
+!endprocedure

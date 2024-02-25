@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Brands/Mintbit
+
+sprite $MintbitXs [10x10/16z] Om03VY10iA0KDmC_bC_2ZyvYW2f3Q601Il5nWrXWlI2Q0Ge
+
+sprite $MintbitSm [12x12/16z] Ou00VX10PYCOZ2Xik3ICuE5WO-Fdvm2pEK047rWr0r0G6njX4HyOG5N00G
+
+sprite $MintbitMd [16x16/16z] TSg52K0n54FHO7NPVzelzJwvM0u4CrTRgdsjAGtNLW54Tza-50DkIBBzYeVxXxcKxb7NuOw4C-eN
+
+sprite $MintbitLg [20x20/16z] bO-50S0m20G_hi3-qzRTUr4SiA9auf-EUpgf06dMZVON7K-A2jZ-_Q-RUp70lQxMgfJTw-PstdJMZe5SYfvrcpbmhKifEREWv-cnvrhN0W
+
+!procedure Mintbit($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Mintbit', $name, $tech, $desc)
+!endprocedure

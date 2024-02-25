@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2024/Resource/NetworkingContentDelivery/AmazonVpcEndpoints
+
+sprite $AmazonVpcEndpointsXs [10x10/16z] JSQ70S0W20NHe__z9qwFdWAFFRs3CHCdxrybcgTREZlbG4ATHamAC4wM377MxISv
+
+sprite $AmazonVpcEndpointsSm [12x12/16z] NSUv5GD15CCmQETI_nNx_TI8I7-wicji79QH9-byxHixRCkqZqh7zBFbCAfcUWdBuOjY4cNilWO_
+
+sprite $AmazonVpcEndpointsMd [16x16/16z] {
+RKw73GGn30Bt_IT-OkjKdokXIi4_s7HFuyDm3w-JBwY9PSA0Oo1IIgPH_qwziOMHQpkJ1cy3ozCwV1Qdw_LfEtmwjizvaPZfT4KiMIMo4x2mtFdTBz8a7Oje
+23R41sR5iHy
+}
+
+sprite $AmazonVpcEndpointsLg [20x20/16z] {
+TOu50WCm30AXZV3_5s-XSw6QY-A_LhKwYQT2ss_fWNf_VPjpgHqiEd63NG2nvn7WAq0fbVFdbQyzhCVBr8afcFarApZY5BknJGYwYOSjEevCJsOMH0uBLqWE
+S-zvp-qatKup99tUn033CTFMQ6jiDtQMnR6iR3nKght2aQyY7-02
+}
+
+!procedure AmazonVpcEndpoints($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Resource/NetworkingContentDelivery/AmazonVpcEndpoints', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonVpcEndpointsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonVpcEndpointsLg>', 'NetworkingContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AmazonVpcEndpointsGroup($id, $name='Amazon Vpc Endpoints', $tech='')
+  IconGroupElement($id, 'NetworkingContentDeliveryFamily', '<$AmazonVpcEndpointsLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2024/Resource/Storage/AmazonSimpleStorageServiceS3Replication
+
+sprite $AmazonSimpleStorageServiceS3ReplicationXs [10x10/16z] HKg50S0m20iG-V_Y-LeqXbsJgScD14NNND2lHwZ-t1FnGjSpNlDvqV8drHcS
+
+sprite $AmazonSimpleStorageServiceS3ReplicationSm [12x12/16z] LSt1TGCm20KmsGR-_XltSMaIBI0_EZE9zN2hBjGTLZ7IX_D2FDQX3SBbY9K9cXNSmseVptex5ty
+
+sprite $AmazonSimpleStorageServiceS3ReplicationMd [16x16/16z] RK-50GD124EJ_JVkGLFznrti1hA13Za5LnIhU3YQ15dhfyC4WSr__EES8hS2oSv9-eO4FKNFUix2d8LJjP7siV2PLwXPK9_spRjS5QQyALNSzPTz9kd31m
+
+sprite $AmazonSimpleStorageServiceS3ReplicationLg [20x20/16z] {
+TP250K11249HGVQV-7V7kpvR_18pE2bRbP7LDbPKL_NrRCq2szAoBth1wejg1q2W2oSa40MgBSx8hGGWH5prvitRYLMYxQynu-NmjXahweHvwgtGNf8922UA
+jI2-oXCYiLFhN_eqlhZsnwtiYaZQzTFg4G
+}
+
+!procedure AmazonSimpleStorageServiceS3Replication($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Resource/Storage/AmazonSimpleStorageServiceS3Replication', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceS3ReplicationCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonSimpleStorageServiceS3ReplicationLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceS3ReplicationGroup($id, $name='Amazon Simple Storage Service S3 Replication', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonSimpleStorageServiceS3ReplicationLg>', $name, $tech)
+!endprocedure

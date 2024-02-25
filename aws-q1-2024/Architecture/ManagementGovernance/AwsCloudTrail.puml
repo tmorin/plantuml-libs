@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2024/Architecture/ManagementGovernance/AwsCloudTrail
+
+sprite $AwsCloudTrailXs [10x10/16z] uo88c9cW31OkBaPsX3WBdCKAn9mix0mC3DXD
+
+sprite $AwsCloudTrailSm [12x12/16z] uo83iBEpSSBPN5pCB10cCnB9miuAea041pi79pixEoidKMO3
+
+sprite $AwsCloudTrailMd [16x16/16z] jKlJ5K0n33qnzj_tiVekubpaaM226D_dmUW8FHtE_ItRlcMGnOt_H3B45u7yZEZu0FXYot43
+
+sprite $AwsCloudTrailLg [20x20/16z] nSor0O0030J0kFp---9E3zV4Wvyf2HwaqO-c5O1cohDLX5c2-dnsPhObuN3VcuqNNtiTKHKHEUU4XJKPfzBCy94H
+
+!procedure AwsCloudTrail($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Architecture/ManagementGovernance/AwsCloudTrail', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsCloudTrailCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCloudTrailLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsCloudTrailGroup($id, $name='Aws Cloud Trail', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsCloudTrailLg>', $name, $tech)
+!endprocedure

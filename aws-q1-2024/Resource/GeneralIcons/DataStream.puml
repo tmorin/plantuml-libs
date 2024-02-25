@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2024/Resource/GeneralIcons/DataStream
+
+sprite $DataStreamXs [10x10/16z] Oq057AmWafsTdOEN5qaOoE6200Oc1ZJ0nii5ri46qiu09k1QkS4a
+
+sprite $DataStreamSm [12x12/16z] PSYr0G0X00J1VSNxBnTt9ZdXO7-wMg-4bRfCxvhQgokJbwOpgFnR3N_zDOwkrW
+
+sprite $DataStreamMd [16x16/16z] TS-50KGX30FGV1mQzX_t59U7EyL5ffl63rWwFu6FZEDFYqrCIP0w0fpMotWY1JLcHfIKz_2ZaCeuaW0arIyJoDFdOrHpD6tu1W
+
+sprite $DataStreamLg [20x20/16z] {
+VS_L0SKW44JHYmyRflzodxla_C4wkyOI7x9edNSrW-ubLxAdkKataFXjsiwy2yY5UBFEVv-rOwZmoteQVEkR7NoO4Ebn1_ssYTBzZhOKG78yQoMgFxjFolOz
+ClYIUJe2
+}
+
+!procedure DataStream($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Resource/GeneralIcons/DataStream', $name, $tech, $desc)
+!endprocedure
+
+!procedure DataStreamCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DataStreamLg>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+
+!procedure DataStreamGroup($id, $name='Data Stream', $tech='')
+  IconGroupElement($id, 'GeneralIconsFamily', '<$DataStreamLg>', $name, $tech)
+!endprocedure

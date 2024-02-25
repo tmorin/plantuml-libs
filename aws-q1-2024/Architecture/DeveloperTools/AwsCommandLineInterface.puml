@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2024/Architecture/DeveloperTools/AwsCommandLineInterface
+
+sprite $AwsCommandLineInterfaceXs [10x10/16z] uyGAEC205SXYW02G81E808g1c50MM06K1PC5A-TWG38D
+
+sprite $AwsCommandLineInterfaceSm [12x12/16z] TSQ55S0m203H6dBxBzmNzvy0nz6RAV1Os230xKde1oD8ZRSMH2mtmT8UX4Fl1m
+
+sprite $AwsCommandLineInterfaceMd [16x16/16z] uoGPS30nmm03cC_Epi41aMB2BW_NoWJbCwBnWG9u-OmWIzWHV0Z0mUU4sCq1OX3s3G
+
+sprite $AwsCommandLineInterfaceLg [20x20/16z] fSy53i1G20FGhz3U_y1pQTBezk8u_0UfpbY7c3XZp3bukMD5tNLYFh56ZsNt6BDv3DLZzTXUDLPzXx2O_p58t7zyjW8
+
+!procedure AwsCommandLineInterface($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Architecture/DeveloperTools/AwsCommandLineInterface', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsCommandLineInterfaceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCommandLineInterfaceLg>', 'DeveloperTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsCommandLineInterfaceGroup($id, $name='Aws Command Line Interface', $tech='')
+  IconGroupElement($id, 'DeveloperToolsFamily', '<$AwsCommandLineInterfaceLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2024/Resource/IoT/AwsIoTAnalyticsDataStore
+
+sprite $AwsIoTAnalyticsDataStoreXs [10x10/16z] NKg30G0m3Alp_yKpwuYUOca7j0yVH0a941C1M-ib2zqWUoCL
+
+sprite $AwsIoTAnalyticsDataStoreSm [12x12/16z] LKo50G0X4Bg4_IV-LAyRa6b8LMU_v5UD6K2icpuP3SC59QdxZeLPt-YYdOib0J2VVWC
+
+sprite $AwsIoTAnalyticsDataStoreMd [16x16/16z] ZKs30K1H43fL-q_yRRupovv48gLSkenrF2VuqdFfGwY2gfRU5jdw18_zSX3QzXe4zlflxaS-iDoJH1FVzbUmxP94J5KF
+
+sprite $AwsIoTAnalyticsDataStoreLg [20x20/16z] bOx50GG13093ZFuhFcNTvnK5x11Karq-cr2DCqtGHcgSnVGnphoxCgixztvdixGCpSuy26NfoUFRV6Yt2m-2lPgDLN2SWSAVwy6sByrom8iQ2NmmyGO
+
+!procedure AwsIoTAnalyticsDataStore($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Resource/IoT/AwsIoTAnalyticsDataStore', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTAnalyticsDataStoreCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTAnalyticsDataStoreLg>', 'IoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTAnalyticsDataStoreGroup($id, $name='Aws Io T Analytics Data Store', $tech='')
+  IconGroupElement($id, 'IoTFamily', '<$AwsIoTAnalyticsDataStoreLg>', $name, $tech)
+!endprocedure

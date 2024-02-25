@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2024/Resource/GroupIcons/SpotFleet
+
+sprite $SpotFleetXs [10x10/16z] OySA6DYPM1bXJ2XWOcU2ibdXWen82c1CJ
+
+sprite $SpotFleetSm [12x12/16z] VS414S1020EmEw2DVyTJi4-yv02cAD2nQo7iSN3s462f0OK1x6MiNny
+
+sprite $SpotFleetMd [16x16/16z] bShL5K8n44NHnPKv_LSCFCrtTcIKVGEMF9IB2Z3cLa6IPsuOG8ZJ5QHdBdB-Qpz81NEQYGGVmiMSnALKhOFPzmC
+
+sprite $SpotFleetLg [20x20/16z] hS77WKGX30Kmyy1M_nLld7p-aYiChuhaT1RX9WFCmisKJo6cVuYR85NHjdzpc2BJUlnhkWZQJUZi7HmtYpOKuMPqDsAuMMwAcv3TVJAsL-CItm
+
+!procedure SpotFleet($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Resource/GroupIcons/SpotFleet', $name, $tech, $desc)
+!endprocedure
+
+!procedure SpotFleetCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$SpotFleetLg>', 'GroupIcons', $funcName, $content)
+!endprocedure
+
+!procedure SpotFleetGroup($id, $name='Spot Fleet', $tech='')
+  IconGroupElement($id, 'GroupIconsFamily', '<$SpotFleetLg>', $name, $tech)
+!endprocedure

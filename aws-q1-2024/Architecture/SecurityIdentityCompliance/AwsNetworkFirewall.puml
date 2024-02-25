@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2024/Architecture/SecurityIdentityCompliance/AwsNetworkFirewall
+
+sprite $AwsNetworkFirewallXs [10x10/16z] uyGE63YP41mE1X39oiaCbW0H78mS40Ki875EY3G71mU4pSpEoe1i6
+
+sprite $AwsNetworkFirewallSm [12x12/16z] VKU50S0W3Akt-V_WkG-81mCu-pKNs_5uozpcqR5j1Sk-GPktkQV3joFGz2mSSCSRCm
+
+sprite $AwsNetworkFirewallMd [16x16/16z] dSVL0KD120NHHI_JVy6Hfv-HimB3FxpQkDK0AyJ1UHdoJ673IshhHZRDYsrTnCBiwkm4vKmDcmRynPoDPllXQ7m8oIGEqt9VVE49
+
+sprite $AwsNetworkFirewallLg [20x20/16z] {
+fSoreK1124JH5MQPst_1pptwSX8S_cz4cBUIq0PFIe2cpgsniYcSHaDcrS_D5CHHdPkn_X-vD-MpLwgfylKQgWimQejemI7sJ30uhTcGLALkTbutR5TRvX22
+hioIoSMzPqY53zlyoWm
+}
+
+!procedure AwsNetworkFirewall($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Architecture/SecurityIdentityCompliance/AwsNetworkFirewall', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsNetworkFirewallCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsNetworkFirewallLg>', 'SecurityIdentityCompliance', $funcName, $content)
+!endprocedure
+
+!procedure AwsNetworkFirewallGroup($id, $name='Aws Network Firewall', $tech='')
+  IconGroupElement($id, 'SecurityIdentityComplianceFamily', '<$AwsNetworkFirewallLg>', $name, $tech)
+!endprocedure

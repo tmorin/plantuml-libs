@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2024/Resource/IoT/AwsIoTFireTv
+
+sprite $AwsIoTFireTvXs [10x10/16z] Oy06s640Bi84Ox21MM0f9eGigWu8XG
+
+sprite $AwsIoTFireTvSm [12x12/16z] Oo0DiA6ocI0iHYQmE2ixEpiZkXfc9XXWXmYnuxK
+
+sprite $AwsIoTFireTvMd [16x16/16z] bOl50K0n24EnmFuJVzTwtobAi-27alzQRtdHmpFk4bSliU7j_-tZ1-uYVZC3G4Ei
+
+sprite $AwsIoTFireTvLg [20x20/16z] hS_50G0X30J0ZVTVyRahDZ-8exMu8GGkEETFi1DVyrm98rArlTPZ9Dapxd_-SCScdiz6lHu
+
+!procedure AwsIoTFireTv($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Resource/IoT/AwsIoTFireTv', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTFireTvCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTFireTvLg>', 'IoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTFireTvGroup($id, $name='Aws Io T Fire Tv', $tech='')
+  IconGroupElement($id, 'IoTFamily', '<$AwsIoTFireTvLg>', $name, $tech)
+!endprocedure

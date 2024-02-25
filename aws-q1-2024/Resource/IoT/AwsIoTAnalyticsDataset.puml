@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2024/Resource/IoT/AwsIoTAnalyticsDataset
+
+sprite $AwsIoTAnalyticsDatasetXs [10x10/16z] Oq07x8n0Wf452DX1N2PsDdPsThWiJXOZAn20MK3bC1sCOC
+
+sprite $AwsIoTAnalyticsDatasetSm [12x12/16z] RSe50S0m30J03_jNl9Nv2a5iUFd94W4YvoZkN4LL7ttE-eu-TwGgESABm0y
+
+sprite $AwsIoTAnalyticsDatasetMd [16x16/16z] XSc53G114810pfR-Atvt9Kg6Mx7cyXiavv-K4jIphvz4VNSjF-wdnzIhkpO_5ERMTmjw
+
+sprite $AwsIoTAnalyticsDatasetLg [20x20/16z] dOs34GH000EJO_yLFyxMZeDPZB45CTD53J9aT82_J2gVKJcWVXbK_usPe3N66HQxFeiEg1zRXmcyEBI3Uhsp1IxhY9bY9cOi0Ru
+
+!procedure AwsIoTAnalyticsDataset($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Resource/IoT/AwsIoTAnalyticsDataset', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTAnalyticsDatasetCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTAnalyticsDatasetLg>', 'IoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTAnalyticsDatasetGroup($id, $name='Aws Io T Analytics Dataset', $tech='')
+  IconGroupElement($id, 'IoTFamily', '<$AwsIoTAnalyticsDatasetLg>', $name, $tech)
+!endprocedure

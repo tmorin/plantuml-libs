@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2024/Architecture/CloudFinancialManagement/AwsCostAndUsageReport
+
+sprite $AwsCostAndUsageReportXs [10x10/16z] RSYr0S0m40Gmusl_YSCSgpamb9mgMGueSebcazbQso1VN_8r0m
+
+sprite $AwsCostAndUsageReportSm [12x12/16z] OoSAC38oiJCmCR72-UpipAnWSKOGPcH1YBEpWCKPW82T0KKSOGuJ2qwR
+
+sprite $AwsCostAndUsageReportMd [16x16/16z] bOv70iD0308N537_Vt4IztAovwGAy9xgQ_-HpR2rpWD6qBqCvAKdcdihHidMmxfdwKjnSknLc1pxtEvRBeR_Z2LFUCuF
+
+sprite $AwsCostAndUsageReportLg [20x20/16z] hO_50K0X34ERMlQV-2lE5OTN3S-F5DsO4GfIL5MYmtSzcB0ipBCoXKonCDLK_nr3xVFB8AEmaX8bJ_7JbsLXDP-hloFVNUhkiKHkRD2XYghNU6pS
+
+!procedure AwsCostAndUsageReport($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Architecture/CloudFinancialManagement/AwsCostAndUsageReport', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsCostAndUsageReportCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCostAndUsageReportLg>', 'CloudFinancialManagement', $funcName, $content)
+!endprocedure
+
+!procedure AwsCostAndUsageReportGroup($id, $name='Aws Cost And Usage Report', $tech='')
+  IconGroupElement($id, 'CloudFinancialManagementFamily', '<$AwsCostAndUsageReportLg>', $name, $tech)
+!endprocedure

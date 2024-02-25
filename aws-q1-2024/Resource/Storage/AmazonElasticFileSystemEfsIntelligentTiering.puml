@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2024/Resource/Storage/AmazonElasticFileSystemEfsIntelligentTiering
+
+sprite $AmazonElasticFileSystemEfsIntelligentTieringXs [10x10/16z] JOk50S0m40A1j_qdRkF9lGjugMQ3e7DkoW1LdQkm4SSouBC3lEziqlMSw0S
+
+sprite $AmazonElasticFileSystemEfsIntelligentTieringSm [12x12/16z] NSR50SH030GmBNZSVyN7a4GlkQZUFdhiwMkH_KxlNYYOIIFBJm8oFv-bYage3ILHNpjqFleE
+
+sprite $AmazonElasticFileSystemEfsIntelligentTieringMd [16x16/16z] RSUrWG0140EnMRBxh_ZXc9I9JzPjHXENfrnvT331u6MQT9TZQFd_u26pW64vOGVBQpaaBFTsdMyrmaYnN0mHWPZbFSs_6FxlEHbpirmN_Gi
+
+sprite $AmazonElasticFileSystemEfsIntelligentTieringLg [20x20/16z] {
+TSk53G015CBGVcN_YSzTYByK_kVvb91etKrcvjPNAfbIayLfGf1uxAaBTIH2ZgGr0k5fQnIsMKj81k2xJTeEgvLj1hQR7PPwcwmWSxUk8jKYt7EpehQ_KxjL
+ic6nMjoMizbZ4m1zHpTuboC
+}
+
+!procedure AmazonElasticFileSystemEfsIntelligentTiering($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Resource/Storage/AmazonElasticFileSystemEfsIntelligentTiering', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonElasticFileSystemEfsIntelligentTieringCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonElasticFileSystemEfsIntelligentTieringLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonElasticFileSystemEfsIntelligentTieringGroup($id, $name='Amazon Elastic File System Efs Intelligent Tiering', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonElasticFileSystemEfsIntelligentTieringLg>', $name, $tech)
+!endprocedure

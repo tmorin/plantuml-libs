@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2024/Resource/GeneralIcons/Internet
+
+sprite $InternetXs [10x10/16z] Oy01sA4qDro42OXPG0nU1buU1Ywu51T8YWSi0KQO
+
+sprite $InternetSm [12x12/16z] ZOgr0S1030Fl6IplFswu35qZv1yZHxzi0j04uEhQQQS0SYHUBp3cuUi0WIir4JHvOWK
+
+sprite $InternetMd [16x16/16z] dKn70e0m30hfRl7_tnMt7cts06pAyDbQXI_FMlOlRr0_6tXmgnZgRY6gfIHixmTCAXJ2AavQqowhGdVNCAmVkv55P0X2ef8faNJxQoi
+
+sprite $InternetLg [20x20/16z] {
+jKr50WCW34kBb_3_xmxhxBpXHF6VaOf-8QsffF61zhGlVc3t9XdlCxXf0dPUicHSzW9e3miQynXzWIQhhnzr54Ez69hSjiLSJ0FCiTXCLquL25sNneB2EfIa
+6SYMvi6Aduy7
+}
+
+!procedure Internet($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Resource/GeneralIcons/Internet', $name, $tech, $desc)
+!endprocedure
+
+!procedure InternetCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$InternetLg>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+
+!procedure InternetGroup($id, $name='Internet', $tech='')
+  IconGroupElement($id, 'GeneralIconsFamily', '<$InternetLg>', $name, $tech)
+!endprocedure

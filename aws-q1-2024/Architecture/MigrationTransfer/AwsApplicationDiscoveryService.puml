@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2024/Architecture/MigrationTransfer/AwsApplicationDiscoveryService
+
+sprite $AwsApplicationDiscoveryServiceXs [10x10/16z] ROg54S0m30ELs3h__WkNkVa38MC4jPjkirEMjjAedQLImNbWitOZnSqC
+
+sprite $AwsApplicationDiscoveryServiceSm [12x12/16z] VOgr0G1H34A3HFPV-5owJuEzMKZW6osYdvNb25mPx0xpteK0yF1qz9ERXEOkcYDmycBicZl-sW4
+
+sprite $AwsApplicationDiscoveryServiceMd [16x16/16z] dSYr0GC03CH0_vkq_y9XgaBgJlpHgYRpoMfPw6xrsjRkpUsK0l9XdRrtEpj2nTmygwL7tAjc4NwOoduP2GYChWwV0bHyx0W
+
+sprite $AwsApplicationDiscoveryServiceLg [20x20/16z] {
+fSsreSK034DHcU_-2py89zM7qnd5_tLcFJeQGCEfSjpT9fg3nkl3CNQ5qJt2abtWKzL2FMmI_qYXOZSLI6vTmK5eO0pZ94fALC79eplSgMloOeAAMy-WagDd
+zM50XjZD1x_s1W
+}
+
+!procedure AwsApplicationDiscoveryService($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Architecture/MigrationTransfer/AwsApplicationDiscoveryService', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsApplicationDiscoveryServiceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsApplicationDiscoveryServiceLg>', 'MigrationTransfer', $funcName, $content)
+!endprocedure
+
+!procedure AwsApplicationDiscoveryServiceGroup($id, $name='Aws Application Discovery Service', $tech='')
+  IconGroupElement($id, 'MigrationTransferFamily', '<$AwsApplicationDiscoveryServiceLg>', $name, $tech)
+!endprocedure

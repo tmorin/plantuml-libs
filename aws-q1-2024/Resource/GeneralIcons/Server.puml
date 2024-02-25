@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2024/Resource/GeneralIcons/Server
+
+sprite $ServerXs [10x10/16z] Oo08c9YOe2mE3Wu6aW0Z400r0m
+
+sprite $ServerSm [12x12/16z] Oq05N8mWm0PXim810vJD0GGmSHuWOCB21fFaiNcuGO2TWG4
+
+sprite $ServerMd [16x16/16z] Oy02UBWXW1tAvs9Y1G46DXWVGY7up1mWWCJd107SwfdOG01TdcvyRXu8O0Ao0G
+
+sprite $ServerLg [20x20/16z] Oy05UE206Ix61MUn8SIWAZc0OlZLSO01AueO4nWmeeWnWm4J5hriA6AC483Dti4gnWW5J0Wn9cOO07C1
+
+!procedure Server($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Resource/GeneralIcons/Server', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServerLg>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServerGroup($id, $name='Server', $tech='')
+  IconGroupElement($id, 'GeneralIconsFamily', '<$ServerLg>', $name, $tech)
+!endprocedure

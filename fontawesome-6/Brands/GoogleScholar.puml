@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/GoogleScholar
+
+sprite $GoogleScholarXs [10x10/16z] LOh50O1G08MmM_QVrlp9vIKlAm4rcS_E_j3fHFCV1jNLyiUI7BMRu0O
+
+sprite $GoogleScholarSm [12x12/16z] PSg30S0m503HgztRVzeQmGi-kOnyL6w5liNWhOJLm-9Xl7QxfRuYSk-l7BnC_BbPlbvfpJTOW1q
+
+sprite $GoogleScholarMd [16x16/16z] TSpL0O0m303HmvtRVrhSQTzFF1nQNdJabhdYrBhBs8oU6Y3nOQHmbS2HqMbDhnQCsukYnys0xuSLEqziadSDiRfbbxg3LuFL3
+
+sprite $GoogleScholarLg [20x20/16z] {
+LSx50SGm34JH7qPx-gzsKPHtCGW99oOCqitJfY-gItyBGS6RJYeQNxkUWDkAfccnwppfQmE6QCmWQUBKrymbNG1zGUP46t-tt8IhgvX52NCeOMObdCADk-G6
+Win6STJjtW
+}
+
+!procedure GoogleScholar($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/GoogleScholar', $name, $tech, $desc)
+!endprocedure

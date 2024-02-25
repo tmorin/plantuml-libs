@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2024/Architecture/InternetOfThings/AwsIoTGreengrass
+
+sprite $AwsIoTGreengrassXs [10x10/16z] OyS965ZWJ3Qe210pGPaW1CFCG985f0QgWuc16SKa
+
+sprite $AwsIoTGreengrassSm [12x12/16z] XOh50S0030BZx3zn3JxrYmVmGt6uRwMzjXtZ84uFiMqVVM53UysMSDbPOd1b1G
+
+sprite $AwsIoTGreengrassMd [16x16/16z] dSl50G0n24JH10P-_nMlncuhxu8ElrKVdO2apai2mcZQALWN2M8e13sGzwBVAoA3qj-zqXeQ2q3E91Elx
+
+sprite $AwsIoTGreengrassLg [20x20/16z] hSsdOKLH30L1dHiq_NTiz3Bq7xHi_KhxgBKuP0yOYaC4fAT3hz70T5CGXfjWK-wAKDn5Ku0QG8LvN4LsEjC0MDL7BGvpWh7TZQgQ_kyF
+
+!procedure AwsIoTGreengrass($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Architecture/InternetOfThings/AwsIoTGreengrass', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTGreengrassCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTGreengrassLg>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTGreengrassGroup($id, $name='Aws Io T Greengrass', $tech='')
+  IconGroupElement($id, 'InternetOfThingsFamily', '<$AwsIoTGreengrassLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2024/Resource/GroupIcons/Region
+
+sprite $RegionXs [10x10/16z] uy0Ec55u3EZI3430GJG
+
+sprite $RegionSm [12x12/16z] uy03693OZCmW0663A2OEJ3O32332n440Bvk5cGtJJW
+
+sprite $RegionMd [16x16/16z] uo07CB2ZybcO8G3E1vDC72Xye2nEUGOmO8JpeJIPV5Oc5gAz0W
+
+sprite $RegionLg [20x20/16z] lSYr0S1034MnG_ljlt2OVnDMAHwh1P4JAkK9AsCGaClenSDfXias3V73kPbnNGi
+
+!procedure Region($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Resource/GroupIcons/Region', $name, $tech, $desc)
+!endprocedure
+
+!procedure RegionCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$RegionLg>', 'GroupIcons', $funcName, $content)
+!endprocedure
+
+!procedure RegionGroup($id, $name='Region', $tech='')
+  IconGroupElement($id, 'GroupIconsFamily', '<$RegionLg>', $name, $tech)
+!endprocedure
