@@ -159,7 +159,7 @@ export class MdtoHtmlResource extends TransformedResource {
       ).replace(/\/index$/g, ""),
       content: marked
         .parse(contentAsMd)
-        // @ts-ignore
+        // @ts-expect-error - marked types are wrong
         .replace(/README\.md/g, "")
         .replace(/\.md/g, ".html"),
       summary: SideSummaryAsHtml.create(

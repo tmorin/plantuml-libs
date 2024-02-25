@@ -45,7 +45,7 @@ export class SideSummaryAsHtml implements Summary {
 - [<%= m.readme.label %>](<%= m.readme.href %>)<% } %>
 <% } %>`,
     )({ sitemap: this.sitemap })
-    // @ts-ignore
+    // @ts-expect-error - marked types are wrong
     return marked.parse(summaryAsMd, {})
   }
 }
