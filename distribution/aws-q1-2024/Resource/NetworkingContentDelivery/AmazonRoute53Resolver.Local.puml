@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2024/bootstrap')
+
+' loads the Item which embeds the element AmazonRoute53Resolver
+include('aws-q1-2024/Resource/NetworkingContentDelivery/AmazonRoute53Resolver')
+
+' renders the element
+AmazonRoute53Resolver('AmazonRoute53Resolver', 'Amazon Route53 Resolver', 'an optional tech label', 'an optional description')
+@enduml

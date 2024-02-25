@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2024/Architecture/SecurityIdentityCompliance/AmazonSecurityLake
+
+sprite $AmazonSecurityLakeXs [10x10/16z] uyGAE9WvcA4iJau691OCC381-K011XHjx31P1aPa2G
+
+sprite $AmazonSecurityLakeSm [12x12/16z] VOf70e0m20IbC_z_i5sJKuREBWlKUH5tY_VIWctQBLvFdjK89-NDJwghgELtWhzhqMSoSm
+
+sprite $AmazonSecurityLakeMd [16x16/16z] dSwr0KDH243HXtFt7pWUkgy7x-26q91Yk9jAhBchC9RitzrpPmB2GlXGWQOe6e3sQ1p1ve6sCjur4iCPbjgQog4d
+
+sprite $AmazonSecurityLakeLg [20x20/16z] fOx50S0m30FDblOVkCpFvW9cu3XP7mV4iRodoolCmjAVFZI3bFpjUnEivK-b9HNSwBRbh_OkxpoSSYztOr5qQRNMJ-DUxiTJhEzyKHLH5t286G
+
+!procedure AmazonSecurityLake($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Architecture/SecurityIdentityCompliance/AmazonSecurityLake', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonSecurityLakeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonSecurityLakeLg>', 'SecurityIdentityCompliance', $funcName, $content)
+!endprocedure
+
+!procedure AmazonSecurityLakeGroup($id, $name='Amazon Security Lake', $tech='')
+  IconGroupElement($id, 'SecurityIdentityComplianceFamily', '<$AmazonSecurityLakeLg>', $name, $tech)
+!endprocedure

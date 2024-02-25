@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2024/Architecture/Database/AmazonElastiCache
+
+sprite $AmazonElastiCacheXs [10x10/16z] ROk50S1020DJ0NBx3rpt_k4IccXdxI9BJbP6v02yUgrT4784AxtoKeyycG4
+
+sprite $AmazonElastiCacheSm [12x12/16z] TSQ70G0X24DHY2N9_WjVx-TNu7aOzpGxQeS0jTc9UHFiiu4gosoBMMTkpgY9TCoUgzI2pRudlvi
+
+sprite $AmazonElastiCacheMd [16x16/16z] bSa53iGm50FHV4ZikV-15qlYTYnwCi_Biv-hizFVnVw7ZBJcbrRI4M6KXu7XtK8skPaIQMkuWoq1oLbaHLoyWAlLDRdL6m
+
+sprite $AmazonElastiCacheLg [20x20/16z] {
+hSZL0KCn34DHnoHf_u4VyszxWpxwVs7Fk5bsEdtTjLoxoRpG0LYmUgUWWqI3JGHtaokIWe6esoo1zehBY4L9gN3PWCRwxK8UXYfv3NFMagx6Uc67ozpC-cFh
+nRVHbbA_DmC
+}
+
+!procedure AmazonElastiCache($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Architecture/Database/AmazonElastiCache', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonElastiCacheCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonElastiCacheLg>', 'Database', $funcName, $content)
+!endprocedure
+
+!procedure AmazonElastiCacheGroup($id, $name='Amazon Elasti Cache', $tech='')
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonElastiCacheLg>', $name, $tech)
+!endprocedure

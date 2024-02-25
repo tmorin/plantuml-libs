@@ -1,0 +1,21 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2024/bootstrap')
+
+' loads the Item which embeds the element AwsDirectoryServiceAdConnectorGroup
+include('aws-q1-2024/Resource/SecurityIdentityCompliance/AwsDirectoryServiceAdConnector')
+
+' renders the element
+AwsDirectoryServiceAdConnectorGroup('AwsDirectoryServiceAdConnectorGroup', 'Aws Directory Service Ad Connector Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

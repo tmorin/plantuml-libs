@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2024/Architecture/MachineLearning/AmazonDevOpsGuru
+
+sprite $AmazonDevOpsGuruXs [10x10/16z] uy0EcDbX30vs1WYB7I7BmCJ0mSYAuAChG9C2
+
+sprite $AmazonDevOpsGuruSm [12x12/16z] TS750GCm30ImNC3M_WkNFoK9_oLULjhP1M9tJ4WtdLL89SCu6ohO0LlM4b1pIRpKzkaA
+
+sprite $AmazonDevOpsGuruMd [16x16/16z] dS77WGCm200m0pPe_uMlf3vJ9DyOsM7Sr2ucJhkOhQE2uAAwaT95QeHz5kZEcUMiao0cD5Iu28bGBkQmimakElAe2ayhmrj-0G
+
+sprite $AmazonDevOpsGuruLg [20x20/16z] {
+hSu53WH124JH1Xhgt__2gup6LkR52CuL8kAKG8KXDb5Mm7IlBGKQ8m27PaG2BeAc8hjcwwWSm4aKUkUeuSw0OPcTCuBUFeqsE-EiAJcohEdRBnq9sFee3nFJ
+t3Y8DCualdK7
+}
+
+!procedure AmazonDevOpsGuru($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Architecture/MachineLearning/AmazonDevOpsGuru', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonDevOpsGuruCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonDevOpsGuruLg>', 'MachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure AmazonDevOpsGuruGroup($id, $name='Amazon Dev Ops Guru', $tech='')
+  IconGroupElement($id, 'MachineLearningFamily', '<$AmazonDevOpsGuruLg>', $name, $tech)
+!endprocedure

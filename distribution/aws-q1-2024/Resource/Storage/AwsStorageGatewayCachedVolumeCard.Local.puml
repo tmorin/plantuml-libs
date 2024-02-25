@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2024/bootstrap')
+
+' loads the Item which embeds the element AwsStorageGatewayCachedVolumeCard
+include('aws-q1-2024/Resource/Storage/AwsStorageGatewayCachedVolume')
+
+' renders the element
+AwsStorageGatewayCachedVolumeCard('AwsStorageGatewayCachedVolumeCard', 'Aws Storage Gateway Cached Volume Card', 'an optional description')
+@enduml

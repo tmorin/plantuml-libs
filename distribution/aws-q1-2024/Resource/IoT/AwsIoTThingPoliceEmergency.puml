@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2024/Resource/IoT/AwsIoTThingPoliceEmergency
+
+sprite $AwsIoTThingPoliceEmergencyXs [10x10/16z] Oq01BEpix0peW1qY1QRPGJIOnGYcMK1Y414s5XOW6vjv
+
+sprite $AwsIoTThingPoliceEmergencySm [12x12/16z] LSt50G0120F1nPB-ApxNUU7mr-0-mycJePEJ6XAFD8WzJi1xxAJEs7J6RpxfUvvzweYjq_p-hW
+
+sprite $AwsIoTThingPoliceEmergencyMd [16x16/16z] RO-r0KHH3CCKzFuJ7_X3zTI4mHne5f7rXDjgzKoNGrxILLwYo_MSK0W2MC6uAcBNTJbErwKd7a9o7REkvpmf4PdKu3qQYAgdwDV2NhxqKG-5umJu0W
+
+sprite $AwsIoTThingPoliceEmergencyLg [20x20/16z] {
+TP250G0X30DJpVuJl-HTE9nwCI9W2MgSvEUl7pZqXpkrhCZdNwT9Juj0x7fclGgxeajIssq9ORpP5aJjYxpqLXLIUfg2bvxb-NVfCHIYuzJJaya4BZqH43Me
+5_3gwYvgrA1_mfQvZvKP
+}
+
+!procedure AwsIoTThingPoliceEmergency($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Resource/IoT/AwsIoTThingPoliceEmergency', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTThingPoliceEmergencyCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTThingPoliceEmergencyLg>', 'IoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTThingPoliceEmergencyGroup($id, $name='Aws Io T Thing Police Emergency', $tech='')
+  IconGroupElement($id, 'IoTFamily', '<$AwsIoTThingPoliceEmergencyLg>', $name, $tech)
+!endprocedure

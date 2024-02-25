@@ -1,0 +1,20 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2024/bootstrap')
+
+' loads the Item which embeds the element AmazonGameSparksGroup
+include('aws-q1-2024/Architecture/Games/AmazonGameSparks')
+
+' renders the element
+AmazonGameSparksGroup('AmazonGameSparksGroup', 'Amazon Game Sparks Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2024/bootstrap')
+
+' loads the Item which embeds the element AwsAppMeshVirtualRouterCard
+include('aws-q1-2024/Resource/NetworkingContentDelivery/AwsAppMeshVirtualRouter')
+
+' renders the element
+AwsAppMeshVirtualRouterCard('AwsAppMeshVirtualRouterCard', 'Aws App Mesh Virtual Router Card', 'an optional description')
+@enduml

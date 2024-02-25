@@ -4,7 +4,7 @@
 
 The library provides 13 packages.
 
-- [aws-q2-2023](aws-q2-2023/README.md)
+- [aws-q1-2024](aws-q1-2024/README.md)
 - [azure-17](azure-17/README.md)
 - [c4model](c4model/README.md)
 - [c4nord](c4nord/README.md)

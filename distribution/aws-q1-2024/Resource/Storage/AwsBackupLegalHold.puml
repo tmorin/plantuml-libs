@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2024/Resource/Storage/AwsBackupLegalHold
+
+sprite $AwsBackupLegalHoldXs [10x10/16z] TKY53G0m22l5_lzumUA3EZxdp39QgNGa4KXMlisYD9iv1H9TIqfLy
+
+sprite $AwsBackupLegalHoldSm [12x12/16z] NS4v0S1040GWRh_nxpXzmDyy078BU8E37BMyd8sWR5XmWjC8e6aF50XuyzxBW8CD7m
+
+sprite $AwsBackupLegalHoldMd [16x16/16z] RSs5WKGX34NHamzvwR_YtN6_43U_oHIUZF0aH_S2K7bgrRsVNOpMMNeJaIbxi6vN3WXQWostUC1enMA1JPPU3i3D6g3IO0PekL05I86zyGy
+
+sprite $AwsBackupLegalHoldLg [20x20/16z] {
+VSc7ZGH020J1WcKX_uZV8hszAxbHZsVkXD_A-ELq_6vzfKbVOWBSko5LVvq2ztI9gEa9J3RZf9n47qQ6c4P4IOsvC62K20fSPbjg84epQbymE_FINyrqJLDM
+9ckicBPfliwwzQxbiItthdF3-Xe1hm
+}
+
+!procedure AwsBackupLegalHold($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Resource/Storage/AwsBackupLegalHold', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsBackupLegalHoldCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsBackupLegalHoldLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AwsBackupLegalHoldGroup($id, $name='Aws Backup Legal Hold', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AwsBackupLegalHoldLg>', $name, $tech)
+!endprocedure

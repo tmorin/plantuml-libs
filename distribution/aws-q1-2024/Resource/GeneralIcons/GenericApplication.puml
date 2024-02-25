@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2024/Resource/GeneralIcons/GenericApplication
+
+sprite $GenericApplicationXs [10x10/16z] Oq01JBW99YOc5Z21fWCd2w4O
+
+sprite $GenericApplicationSm [12x12/16z] Oq06p8oCZDnGaX789qHo0m4FXCGq1qXp0J589IgRYuk7YmjP7682X0q
+
+sprite $GenericApplicationMd [16x16/16z] Oq07lDmWm0EdkS6YrADvm803HkEq7mYuW1YgZp2VYukBXukBav1wP7ivWHW
+
+sprite $GenericApplicationLg [20x20/16z] Oy06k7aWW0c9nGEHOcAcDui935YGM41X2610i0Zu0mGumIJ2P13W8bECaukBYmU8cOZL2tSzGWpTzM1N0W
+
+!procedure GenericApplication($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Resource/GeneralIcons/GenericApplication', $name, $tech, $desc)
+!endprocedure
+
+!procedure GenericApplicationCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$GenericApplicationLg>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+
+!procedure GenericApplicationGroup($id, $name='Generic Application', $tech='')
+  IconGroupElement($id, 'GeneralIconsFamily', '<$GenericApplicationLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2024/bootstrap')
+
+' loads the Item which embeds the element AmazonRoute53Route53ApplicationRecoveryControllerCard
+include('aws-q1-2024/Resource/NetworkingContentDelivery/AmazonRoute53Route53ApplicationRecoveryController')
+
+' renders the element
+AmazonRoute53Route53ApplicationRecoveryControllerCard('AmazonRoute53Route53ApplicationRecoveryControllerCard', 'Amazon Route53 Route53 Application Recovery Controller Card', 'an optional description')
+@enduml

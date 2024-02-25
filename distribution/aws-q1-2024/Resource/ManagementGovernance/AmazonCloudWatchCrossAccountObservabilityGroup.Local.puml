@@ -1,0 +1,21 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2024/bootstrap')
+
+' loads the Item which embeds the element AmazonCloudWatchCrossAccountObservabilityGroup
+include('aws-q1-2024/Resource/ManagementGovernance/AmazonCloudWatchCrossAccountObservability')
+
+' renders the element
+AmazonCloudWatchCrossAccountObservabilityGroup('AmazonCloudWatchCrossAccountObservabilityGroup', 'Amazon Cloud Watch Cross Account Observability Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

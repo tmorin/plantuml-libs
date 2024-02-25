@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2024/Resource/Storage/AwsStorageGatewayNoncachedVolume
+
+sprite $AwsStorageGatewayNoncachedVolumeXs [10x10/16z] Ow01O6Td1zECZ40s8nC3
+
+sprite $AwsStorageGatewayNoncachedVolumeSm [12x12/16z] Oq01J8mGm0vaCqB5QCTc0be8OREn0Kb640a
+
+sprite $AwsStorageGatewayNoncachedVolumeMd [16x16/16z] Oy00R0Z03kOZf5Y72f-D5GYG-CmW6ifdOMTdPmBIG0heFm
+
+sprite $AwsStorageGatewayNoncachedVolumeLg [20x20/16z] Oy0Es5408rYC5KK5ijYe61iudD34G0naCKP6HZ2N7SXWWeWnWW0o0m
+
+!procedure AwsStorageGatewayNoncachedVolume($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Resource/Storage/AwsStorageGatewayNoncachedVolume', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsStorageGatewayNoncachedVolumeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsStorageGatewayNoncachedVolumeLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AwsStorageGatewayNoncachedVolumeGroup($id, $name='Aws Storage Gateway Noncached Volume', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AwsStorageGatewayNoncachedVolumeLg>', $name, $tech)
+!endprocedure

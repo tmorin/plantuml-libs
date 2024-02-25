@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2024/Category/MediaServices
+
+sprite $MediaServicesXs [10x10/16z] OoS0686O6S82qimCK346805XmSHOMLaPSPW1
+
+sprite $MediaServicesSm [12x12/16z] RSp50K0X30FGQhB_n5znU9TwUPPBxg-X3-QVcn9MSmfhNq5ezlroYyV-Fnk_0G
+
+sprite $MediaServicesMd [16x16/16z] TSwr0G0120J1GxV_YjzT9iFXAUfA55UVSIoEk5Z46NVDiNAF0mDbdJ62EkDCiBE-YB0jxiMndpN-_UyUwsu4
+
+sprite $MediaServicesLg [20x20/16z] bS_50GGn30D0GnJrN_71OXZcQJPRH4j2PMah5lqKafZovCsOMH9J_yU288c11WAQnoWayvWxwPR6pZKU1VLUl36SDFqjdbh_RiUaeby
+
+!procedure MediaServices($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Category/MediaServices', $name, $tech, $desc)
+!endprocedure
+
+!procedure MediaServicesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$MediaServicesLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure MediaServicesGroup($id, $name='Media Services', $tech='')
+  IconGroupElement($id, 'MediaServices', '<$MediaServicesLg>', $name, $tech)
+!endprocedure

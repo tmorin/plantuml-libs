@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2024/Resource/IoT/AwsIoTSailboat
+
+sprite $AwsIoTSailboatXs [10x10/16z] Oq02x706EmCJEv844v82E1F1OK4sX94T8iREmCOEDGm
+
+sprite $AwsIoTSailboatSm [12x12/16z] LKu30W0m29og__zu6MCwhBxmLipXXjcDO6zkMyJtSIVY1JvXUEwDjIC76mS03d4HfO4F
+
+sprite $AwsIoTSailboatMd [16x16/16z] NSY50GGW34Mn89_kF_6vDkYhRbNvLRG-v4IpepdVPrMGDjw_RR7VFOh7VhN9VdsxJ6zxKnRZXaqU_V1gPtfBN04
+
+sprite $AwsIoTSailboatLg [20x20/16z] {
+TSY5WGGn34KnsO7VVyN7i4CA-hcrCow9S1GMLLvqLgZUcQuwvMgt7mjhZwzOBurA8OV6HezZ4-I_TPhkGoDOp0BZxvwq9tDvCLQnIbxI5C9YxayikipTyQVI
+GPLNnJi
+}
+
+!procedure AwsIoTSailboat($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Resource/IoT/AwsIoTSailboat', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTSailboatCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTSailboatLg>', 'IoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTSailboatGroup($id, $name='Aws Io T Sailboat', $tech='')
+  IconGroupElement($id, 'IoTFamily', '<$AwsIoTSailboatLg>', $name, $tech)
+!endprocedure

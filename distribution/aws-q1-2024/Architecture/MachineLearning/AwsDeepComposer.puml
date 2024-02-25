@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2024/Architecture/MachineLearning/AwsDeepComposer
+
+sprite $AwsDeepComposerXs [10x10/16z] uy03ME0iLZ39pi48PZ60C0ChcYmB0uJ5mWe234Zc
+
+sprite $AwsDeepComposerSm [12x12/16z] TSY53S0m0C2mSlt_msE6YApuhSIrZeY4OhMqEoPvTQ2heQm_WTtziCxgNjRS6W4
+
+sprite $AwsDeepComposerMd [16x16/16z] bOs50S0W3C2WclyVdhilK3V-ep5JXpW0P5HBZ1vYgKlirI612fDEiXHR-csipx4pijJrU2zOuoepnYij
+
+sprite $AwsDeepComposerLg [20x20/16z] fOk30KLH34FhPF-5FvxDSzc0B_49sKcS43FDm1-9YLQq3QqCCmqeYjP4ioXKwscd2N_axnM9ITUppN6gaPjQBBG821SQ0KwrZ1mHTc24D_W2
+
+!procedure AwsDeepComposer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Architecture/MachineLearning/AwsDeepComposer', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsDeepComposerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsDeepComposerLg>', 'MachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure AwsDeepComposerGroup($id, $name='Aws Deep Composer', $tech='')
+  IconGroupElement($id, 'MachineLearningFamily', '<$AwsDeepComposerLg>', $name, $tech)
+!endprocedure

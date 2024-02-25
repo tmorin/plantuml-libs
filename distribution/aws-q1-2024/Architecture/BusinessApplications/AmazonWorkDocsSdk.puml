@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2024/Architecture/BusinessApplications/AmazonWorkDocsSdk
+
+sprite $AmazonWorkDocsSdkXs [10x10/16z] uyG56E0i9dOuYnFCP8G0Y1WR9oShXCK1OR620JEIKG
+
+sprite $AmazonWorkDocsSdkSm [12x12/16z] uyG961WP6HcWR2OGPaHYSp8YiI4S1ZOETaOWO4M8S-9Ziq81Eugj
+
+sprite $AmazonWorkDocsSdkMd [16x16/16z] XSc30K0X543HP-m_y3VZZQToNknzhBu5httVYEFlvFXxV_Wv-JIQeECU_F-JNdjXAKolaUuWfwq
+
+sprite $AmazonWorkDocsSdkLg [20x20/16z] fSg54S0m30D0C-m_S9cvYOB-KzR5U8XkZSS7v6naShPqELkQd6rjhhOs6GqL1SV4QDkwximkZ2uiNdkw2O-MiKr-Jmi
+
+!procedure AmazonWorkDocsSdk($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Architecture/BusinessApplications/AmazonWorkDocsSdk', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonWorkDocsSdkCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonWorkDocsSdkLg>', 'BusinessApplications', $funcName, $content)
+!endprocedure
+
+!procedure AmazonWorkDocsSdkGroup($id, $name='Amazon Work Docs Sdk', $tech='')
+  IconGroupElement($id, 'BusinessApplicationsFamily', '<$AmazonWorkDocsSdkLg>', $name, $tech)
+!endprocedure

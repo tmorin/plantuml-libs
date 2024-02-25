@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2024/Architecture/DeveloperTools/AwsCloudShell
+
+sprite $AwsCloudShellXs [10x10/16z] uyGEs1cW34Piign810E2oy41OO40Cv9o
+
+sprite $AwsCloudShellSm [12x12/16z] uyGDE9Wuu6nMJdOcA1DCGpcCd4nWm0PHX48o8R4P4MmEJZOs3YWR3DXHB0K
+
+sprite $AwsCloudShellMd [16x16/16z] dKo30G0n38on_y1lisvpp8QbJ772cKWxd4NSiCsVhnYTbWLhulPpd77A6OjTSs4M6zxwVrSF
+
+sprite $AwsCloudShellLg [20x20/16z] fOw30K0n34GRN_OV-Dl6A-FBtuJlN1meMvyrfp2MBehkAPkihLDp3yZCV40mbH_-m4VHSk3ZsFcQD02xpirOB7mJWbdZH3wd1W
+
+!procedure AwsCloudShell($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Architecture/DeveloperTools/AwsCloudShell', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsCloudShellCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCloudShellLg>', 'DeveloperTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsCloudShellGroup($id, $name='Aws Cloud Shell', $tech='')
+  IconGroupElement($id, 'DeveloperToolsFamily', '<$AwsCloudShellLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2024/Resource/NetworkingContentDelivery/AmazonRoute53ResolverQueryLogging
+
+sprite $AmazonRoute53ResolverQueryLoggingXs [10x10/16z] JKk50S0W34iz_p-yuL1l14-OkaeGu0A86BVDRrq4MzZucPa6E-moxsdPvmy
+
+sprite $AmazonRoute53ResolverQueryLoggingSm [12x12/16z] LSG50GH030Em77NpR_WPK_2dZb7qP7cPD9MasJ1k8hn4Q5PtXs4n4De4GWcvCw7YTJ0QN04
+
+sprite $AmazonRoute53ResolverQueryLoggingMd [16x16/16z] PSc50KGX30JH2IIxwR_Xa-_oS8QtthUS04Ls5-wE0kRaPCY0rW84z7eiUwx7Kai4xnu1wXyBlEIpCp4W_vG0FtekXnR94h62l-bYO-7aIgo-
+
+sprite $AmazonRoute53ResolverQueryLoggingLg [20x20/16z] {
+TSp5WKLH20MmS8Lt-czuvBjcW-EBXZgWbfEU6LP6oauArg9sdR8Yg7YMov_qoJ4Hx29EQdA0JUR-DnzwRtiFj-FQ2xBpRqs4NPvkvRgx-j-ScENWwPzHjlTR
+AVgYs1kE35SxavFHMUZiyc2cuqsv-WK
+}
+
+!procedure AmazonRoute53ResolverQueryLogging($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Resource/NetworkingContentDelivery/AmazonRoute53ResolverQueryLogging', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonRoute53ResolverQueryLoggingCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonRoute53ResolverQueryLoggingLg>', 'NetworkingContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AmazonRoute53ResolverQueryLoggingGroup($id, $name='Amazon Route53 Resolver Query Logging', $tech='')
+  IconGroupElement($id, 'NetworkingContentDeliveryFamily', '<$AmazonRoute53ResolverQueryLoggingLg>', $name, $tech)
+!endprocedure

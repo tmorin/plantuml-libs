@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2024/Resource/ApplicationIntegration/AmazonSimpleNotificationServiceTopic
+
+sprite $AmazonSimpleNotificationServiceTopicXs [10x10/16z] Oq003XY0Yp0oi401AmC39nSRc4388einip2126O6B
+
+sprite $AmazonSimpleNotificationServiceTopicSm [12x12/16z] Oy056E4i3XGs1m8miC0H9v8Qi0WpEvZa138G206OW1R043EojG
+
+sprite $AmazonSimpleNotificationServiceTopicMd [16x16/16z] PSkt0G0m20F1TqRxB-mMqAaXqdMAJ8XCthzCZ1BOPDl-5zcoV_5In2IRT55oQJu
+
+sprite $AmazonSimpleNotificationServiceTopicLg [20x20/16z] ZSq50WKX24NHonDp__lzdJFMiGDWLof7HkL0Ej_PuCuFeh0JgAHA8sNQQoUCaswDddu-i_y9AWeu4lxS1I7EZBD2I2JSIQ-Ts7G5
+
+!procedure AmazonSimpleNotificationServiceTopic($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Resource/ApplicationIntegration/AmazonSimpleNotificationServiceTopic', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonSimpleNotificationServiceTopicCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonSimpleNotificationServiceTopicLg>', 'ApplicationIntegration', $funcName, $content)
+!endprocedure
+
+!procedure AmazonSimpleNotificationServiceTopicGroup($id, $name='Amazon Simple Notification Service Topic', $tech='')
+  IconGroupElement($id, 'ApplicationIntegrationFamily', '<$AmazonSimpleNotificationServiceTopicLg>', $name, $tech)
+!endprocedure

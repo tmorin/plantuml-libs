@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2024/Resource/NetworkingContentDelivery/AwsCloudMapResource
+
+sprite $AwsCloudMapResourceXs [10x10/16z] JS710G0G00IWWBlz9_PLVbE0e1S6Ym9SbrR55am2LA7HKvy7
+
+sprite $AwsCloudMapResourceSm [12x12/16z] LKg30G102BpS_Wk_6K_uouHoGUedTU2bSK_q4zJ0v22LH7JCI6Gqx0qWOcJG68GWwCNICpnmk4dYL0or0W
+
+sprite $AwsCloudMapResourceMd [16x16/16z] RK-54GCn33FB-q_S64fFGU65dhv4-iyr6lkoYyBVz7xIAwn1BkL1CE2ubFVE248CRiNLG6KPQyIvcDEOcKQtJRkb4dAk9cMkVU-QoXbW_NdHzFy0Atu1
+
+sprite $AwsCloudMapResourceLg [20x20/16z] {
+TSm5WGHH30MmV9Zs-JTyi8mH45_jJWqUPQABknvWRtVjBAau6uEhEO4Ci40Mv9esM4qvYuFQ5C76p67DDSoXYI1KDtkOXymWeoS4JQDdeEEi4ErHGwQHkBXy
+R7CvYrva7qcxgZqJn_8YofjZkFW5
+}
+
+!procedure AwsCloudMapResource($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Resource/NetworkingContentDelivery/AwsCloudMapResource', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsCloudMapResourceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCloudMapResourceLg>', 'NetworkingContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AwsCloudMapResourceGroup($id, $name='Aws Cloud Map Resource', $tech='')
+  IconGroupElement($id, 'NetworkingContentDeliveryFamily', '<$AwsCloudMapResourceLg>', $name, $tech)
+!endprocedure

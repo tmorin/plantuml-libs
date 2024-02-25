@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2024/Category/Satellite
+
+sprite $SatelliteXs [10x10/16z] OqS0JXZ0OB72MGnW5YkSnSZ605F7nWbYOZC5
+
+sprite $SatelliteSm [12x12/16z] ROo30S1034MBVEq_SEtUYwadkM0h7uSZ7mV9UrwhxNrd0Vk-uiAHPrXCHnxL_pylQWO
+
+sprite $SatelliteMd [16x16/16z] VOw50S0W30JZil_2zU8S6d_l4Qi1jwpPsA9KxFC9bz_cqyFadqtdEUDVVlZJw-jdSVfOwBC9KF9q__D2pqFrV9NezIniQ3a
+
+sprite $SatelliteLg [20x20/16z] fP250S0m20IHFBB_m7LtkJQ6Wnz1l8MSSyitcK1kP2u5Yf1Oo4gtAyaie-n0phB0c7BEgzR5L62MWTE4F3rdMG3HrJBB1k-WJH-1uZzcCCje1zS
+
+!procedure Satellite($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Category/Satellite', $name, $tech, $desc)
+!endprocedure
+
+!procedure SatelliteCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$SatelliteLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure SatelliteGroup($id, $name='Satellite', $tech='')
+  IconGroupElement($id, 'Satellite', '<$SatelliteLg>', $name, $tech)
+!endprocedure

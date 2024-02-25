@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2024/Architecture/MediaServices/AmazonNimbleStudio
+
+sprite $AmazonNimbleStudioXs [10x10/16z] OySEMDbOM20CTWOW104s40VCPc5Y1L8WUGOMPf0OL0-KPcTaG3KC
+
+sprite $AmazonNimbleStudioSm [12x12/16z] VKt50G0n38h2_XFNypbfN84NWOgTqeOgSardY9rKd3xoN0XLPQxMJQJNhOxT_5_FO-kYMGmlpWu
+
+sprite $AmazonNimbleStudioMd [16x16/16z] dOt50SK0349ZyFQV-6ljLeahy4IKavLUsp99CLgsfg1D__k41iCowBJ9_-OVaubZ7nE7lSTf1DR2zzKM1Sj1Wo9o7U2kuPAy0G
+
+sprite $AmazonNimbleStudioLg [20x20/16z] {
+hOtL0KD1409PdVuhZX9v_pUdQy01fghtcj5MHuiVsMpJGmvc6iJh14RGwzZ9sI9WrlKdLKNYoERLPCzUSjDeLUzSVZrwAsRUVvCCM_4UDKN1f9R6k6TJYk17
+IE80Tm
+}
+
+!procedure AmazonNimbleStudio($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Architecture/MediaServices/AmazonNimbleStudio', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonNimbleStudioCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonNimbleStudioLg>', 'MediaServices', $funcName, $content)
+!endprocedure
+
+!procedure AmazonNimbleStudioGroup($id, $name='Amazon Nimble Studio', $tech='')
+  IconGroupElement($id, 'MediaServicesFamily', '<$AmazonNimbleStudioLg>', $name, $tech)
+!endprocedure

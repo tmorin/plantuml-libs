@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2024/bootstrap')
+
+' loads the Item which embeds the element AwsMainframeModernizationCompilerCard
+include('aws-q1-2024/Resource/MigrationTransfer/AwsMainframeModernizationCompiler')
+
+' renders the element
+AwsMainframeModernizationCompilerCard('AwsMainframeModernizationCompilerCard', 'Aws Mainframe Modernization Compiler Card', 'an optional description')
+@enduml

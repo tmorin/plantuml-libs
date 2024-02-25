@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2024/Architecture/Analytics/AmazonEmr
+
+sprite $AmazonEmrXs [10x10/16z] XS770O0W00ImisV_XUqAl4ZqBJ8XLic2TV3QHAQunMVIE
+
+sprite $AmazonEmrSm [12x12/16z] VSkr0GD030Iml57xJvmg36gCvw-pxZRlpN7QOkce3SWvk03ZE3M0thYdEUxQkoi
+
+sprite $AmazonEmrMd [16x16/16z] dSh50GH034BHG6R2xx_XTJsjl1l2VxBrbYVlkKvPiw_1wO2BTOd2sB5ocwVMXYnkcL2MNFU3D2IYkUikOXuspHirNpa2
+
+sprite $AmazonEmrLg [20x20/16z] hS77WGD140Cnictbd_0PUSrx0IvHpIbeJhd5oHsWI1xIZWLF8-u4J1CggRahUd63auUTSH10y686xDfIB7SR841A10yzKqpZCHzI0fPFmN3g51Vu1G
+
+!procedure AmazonEmr($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Architecture/Analytics/AmazonEmr', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonEmrCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonEmrLg>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AmazonEmrGroup($id, $name='Amazon Emr', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AmazonEmrLg>', $name, $tech)
+!endprocedure

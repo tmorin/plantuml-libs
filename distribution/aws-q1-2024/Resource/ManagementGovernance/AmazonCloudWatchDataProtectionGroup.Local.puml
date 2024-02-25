@@ -1,0 +1,21 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2024/bootstrap')
+
+' loads the Item which embeds the element AmazonCloudWatchDataProtectionGroup
+include('aws-q1-2024/Resource/ManagementGovernance/AmazonCloudWatchDataProtection')
+
+' renders the element
+AmazonCloudWatchDataProtectionGroup('AmazonCloudWatchDataProtectionGroup', 'Amazon Cloud Watch Data Protection Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

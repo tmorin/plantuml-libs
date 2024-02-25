@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2024/Architecture/Storage/AwsSnowcone
+
+sprite $AwsSnowconeXs [10x10/16z] OoS861WOs10yPh0GAoCZ6mkO1SH05WomO3K1
+
+sprite $AwsSnowconeSm [12x12/16z] ZSV70O0m241HwVjFJ3-goKlXOvUmJ0gewYmmYAi55EI1QSsVjg5qapHI-n8
+
+sprite $AwsSnowconeMd [16x16/16z] hScr0S0m50DHd_nX_ud3XZ9qtPFoZz0UZVB3INjxXxqDXTDUA0IYMIaoP-yDdyLbjQ7MVDmA
+
+sprite $AwsSnowconeLg [20x20/16z] lSZ50GGn34FHI8gj_YlU7GgT1rxGtvyfl4p9vL1JBK6aTX2g3_94xL4qg7crADYsW9oRlJNdsWvhqu5pSzDQC3hHp_i3
+
+!procedure AwsSnowcone($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Architecture/Storage/AwsSnowcone', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsSnowconeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsSnowconeLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AwsSnowconeGroup($id, $name='Aws Snowcone', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AwsSnowconeLg>', $name, $tech)
+!endprocedure

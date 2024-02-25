@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2024/Resource/NetworkingContentDelivery/AwsAppMeshVirtualGateway
+
+sprite $AwsAppMeshVirtualGatewayXs [10x10/16z] LSc30G1130J0EIRzD_nciFIPJ5qF6AWAkL-_LRWK_kr8sUrAgffgpuXc1G
+
+sprite $AwsAppMeshVirtualGatewaySm [12x12/16z] LKg50S0m3Af2_hzum3oAjN-L3tofNSBM-cM1R1sdH0ZlBKodavdQuD6JNoMyjZ4udGbCfdeUsc202aeU
+
+sprite $AwsAppMeshVirtualGatewayMd [16x16/16z] {
+POo50GD030Bl9OJz5wxmzSO5W7-JqZpJkX2x1nfUOA0mJK5wp80wktpsiOCRexFl9rv01_JO7_rp9nhENa-zkQ8tMqTlZYTlcQUU1mXf8PWDqpEAQ9bZbHhc
+5G
+}
+
+sprite $AwsAppMeshVirtualGatewayLg [20x20/16z] {
+VSs5OKCn54FHguVQV-72Xs8IcO-9PmbpH7rBkWmKgBod91XMHWapO826nH200lzyKzDvsFN8yQQOmqnV5fxbiB5Fsm5Euw2LnHyRp5yB2rYVbfuN_x8xSTYq
+FPHL_dvFe1rSV1iO74O9H42lC21Gacu0skQ8riaT_HhV0G
+}
+
+!procedure AwsAppMeshVirtualGateway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Resource/NetworkingContentDelivery/AwsAppMeshVirtualGateway', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsAppMeshVirtualGatewayCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsAppMeshVirtualGatewayLg>', 'NetworkingContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AwsAppMeshVirtualGatewayGroup($id, $name='Aws App Mesh Virtual Gateway', $tech='')
+  IconGroupElement($id, 'NetworkingContentDeliveryFamily', '<$AwsAppMeshVirtualGatewayLg>', $name, $tech)
+!endprocedure

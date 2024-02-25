@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2024/Architecture/ManagementGovernance/AwsLaunchWizard
+
+sprite $AwsLaunchWizardXs [10x10/16z] uy8AE3cvM9YOMI0S5Y00qSn09aoCWuk92SfWW8b00GE6QG
+
+sprite $AwsLaunchWizardSm [12x12/16z] VKk30S1032nF--zR6n_da69KDHjCMsAwgR4JEXJfUU2zmeRhEHcyei1wRAVWUWQyeiWjHW
+
+sprite $AwsLaunchWizardMd [16x16/16z] ZKp50O103BiAJPhzzyNj1wUDwkVgVLsZ54Y3xHX4AvKkU_m02PnWMg-LnJXnjaRoxH-atFs21dPABwYE6teTnVs2BD1ujEFowNij
+
+sprite $AwsLaunchWizardLg [20x20/16z] hOpL0SH020MpEDD_l-VAp-aaQppXBvZPQPte8xGXADTPLjQONPHhzZu1Ad1thgW0o_8fczHQDljM6OZ8VL8hZ83fgaqPBiZfEjFFheeWLboqpRWYZC3b-ZPx
+
+!procedure AwsLaunchWizard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Architecture/ManagementGovernance/AwsLaunchWizard', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsLaunchWizardCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsLaunchWizardLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsLaunchWizardGroup($id, $name='Aws Launch Wizard', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsLaunchWizardLg>', $name, $tech)
+!endprocedure

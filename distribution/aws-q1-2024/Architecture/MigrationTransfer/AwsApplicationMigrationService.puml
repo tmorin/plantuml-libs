@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2024/Architecture/MigrationTransfer/AwsApplicationMigrationService
+
+sprite $AwsApplicationMigrationServiceXs [10x10/16z] uo0463YOKNWGmCG4PJ82CGiGip80sOpOZG
+
+sprite $AwsApplicationMigrationServiceSm [12x12/16z] ZSUt4S80402myqVjlp0PEi3gvAIEzLBOrzB7WOYsQ0xT2YdqJ88rVhe2
+
+sprite $AwsApplicationMigrationServiceMd [16x16/16z] hKt50G0n36gS_HUks_Sahe0_98JZRWrmFpsrm4Qhbv7MYVOrfxdeqmIfcJjQ02o2ccY-S_CgYm_lfG
+
+sprite $AwsApplicationMigrationServiceLg [20x20/16z] lOx55S0m34DhMthA_XCtJFVs1yrA_m4FNQudd-3XydR3Rr_Fxm2hRVz4JtQtcMarmPCi_wZPJUOvbdteJLJyAkdzpZ1tALcPfL5bVySB
+
+!procedure AwsApplicationMigrationService($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Architecture/MigrationTransfer/AwsApplicationMigrationService', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsApplicationMigrationServiceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsApplicationMigrationServiceLg>', 'MigrationTransfer', $funcName, $content)
+!endprocedure
+
+!procedure AwsApplicationMigrationServiceGroup($id, $name='Aws Application Migration Service', $tech='')
+  IconGroupElement($id, 'MigrationTransferFamily', '<$AwsApplicationMigrationServiceLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2024/Architecture/Database/AmazonRdsOnVMware
+
+sprite $AmazonRdsOnVMwareXs [10x10/16z] RKc30G0n38on_y3FkWsEUHnu0NyTNZE4v5VH2rPII97Cjm1FhU4Jzxa1
+
+sprite $AmazonRdsOnVMwareSm [12x12/16z] TOo54G0n20Gd0KxwB_ZTPN7rBuZP1nRVPz_2Cs84jQJTIQPppfUGhkqw4z9-omRKzdD-jIrP4xun0W
+
+sprite $AmazonRdsOnVMwareMd [16x16/16z] bOpL0KKn348JgC3-0p-fVLuvSVLxWYDqp6XY11LwKm6Tej5PQoZtqAOKDZn8k_szwbbeKcf_w9Qb3Y163VoTibQCclpN7kx0WM_v0W
+
+sprite $AmazonRdsOnVMwareLg [20x20/16z] {
+fOwt4GH120JHqFa7_6fhgVUl7JGpFAHxaxcPt6pKTseSl9q_fXe6ba1hseXjZe2gY87NRe5wk0B6eGtqp2htsD2Cy7kw7aM2-73zrI_JIYRdz3m1XAxjZJih
+-UijSXWUyGO
+}
+
+!procedure AmazonRdsOnVMware($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Architecture/Database/AmazonRdsOnVMware', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonRdsOnVMwareCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonRdsOnVMwareLg>', 'Database', $funcName, $content)
+!endprocedure
+
+!procedure AmazonRdsOnVMwareGroup($id, $name='Amazon Rds On V Mware', $tech='')
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonRdsOnVMwareLg>', $name, $tech)
+!endprocedure

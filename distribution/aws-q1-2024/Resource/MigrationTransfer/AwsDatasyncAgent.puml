@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2024/Resource/MigrationTransfer/AwsDatasyncAgent
+
+sprite $AwsDatasyncAgentXs [10x10/16z] Oq00PYZD0HTXX8immiHPWImsHY00Yt5002DS1pABWn42E
+
+sprite $AwsDatasyncAgentSm [12x12/16z] POo50S0m2C22y__3Sss3ArzQRWBXfkvSZjmoZUm--d4TRdaZ6-rxlyXjQxCjnuO_Snvrmme
+
+sprite $AwsDatasyncAgentMd [16x16/16z] VSt50GG120J1nYV_XCzblNZXR9dcJo2McbdbMkJsoUq9CzMtRxpOl7FbAXVsekIPPsxlJJcFUFZVM_-_oBLCBQ3cpxa3
+
+sprite $AwsDatasyncAgentLg [20x20/16z] dOw50GGX30GtllrN_EYxtGq-G1Ay9VX0ILE6HpZw8oglJlIdS-fsrK1hRKxVx-uUHqpdHPqWShxBjaw2ZkbuNzfoNRCDOIUcG_5TVUTSFJiN25NkSOx7Zm0N
+
+!procedure AwsDatasyncAgent($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Resource/MigrationTransfer/AwsDatasyncAgent', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsDatasyncAgentCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsDatasyncAgentLg>', 'MigrationTransfer', $funcName, $content)
+!endprocedure
+
+!procedure AwsDatasyncAgentGroup($id, $name='Aws Datasync Agent', $tech='')
+  IconGroupElement($id, 'MigrationTransferFamily', '<$AwsDatasyncAgentLg>', $name, $tech)
+!endprocedure

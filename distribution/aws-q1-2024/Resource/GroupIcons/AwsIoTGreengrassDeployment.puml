@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2024/Resource/GroupIcons/AwsIoTGreengrassDeployment
+
+sprite $AwsIoTGreengrassDeploymentXs [10x10/16z] OySEsDWPa3ammCG88XaXR1W9L8eGXJ0PK0m3
+
+sprite $AwsIoTGreengrassDeploymentSm [12x12/16z] OyS7c95OJ5WLW4JPCFM0HHdPcLYmcCMCBCg2RY8
+
+sprite $AwsIoTGreengrassDeploymentMd [16x16/16z] ZKw55GDH27kVsFuJj-Tkk9Dy8--p5cvIn7MUNKhDOywfFNKqvT7e64mLJcLXcgWIj0L1xZuaXhPfGZXVw0y
+
+sprite $AwsIoTGreengrassDeploymentLg [20x20/16z] hG_50O10Y6R_YMqbNkeTtU4JWBb733QoMcHErChqgawLS1jHoxTDXZ4jOaytHWS_xNA7N3tj8Jgc8kGBZUEgUoR6DN4tAsf_1kFs0FEFi08
+
+!procedure AwsIoTGreengrassDeployment($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Resource/GroupIcons/AwsIoTGreengrassDeployment', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTGreengrassDeploymentCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTGreengrassDeploymentLg>', 'GroupIcons', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTGreengrassDeploymentGroup($id, $name='Aws Io T Greengrass Deployment', $tech='')
+  IconGroupElement($id, 'GroupIconsFamily', '<$AwsIoTGreengrassDeploymentLg>', $name, $tech)
+!endprocedure

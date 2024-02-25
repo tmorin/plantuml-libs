@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2024/bootstrap')
+
+' loads the Item which embeds the element AwsCloudControlApiCard
+include('aws-q1-2024/Architecture/DeveloperTools/AwsCloudControlApi')
+
+' renders the element
+AwsCloudControlApiCard('AwsCloudControlApiCard', 'Aws Cloud Control Api Card', 'an optional description')
+@enduml

@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2024/Resource/GeneralIcons/Shield
+
+sprite $ShieldXs [10x10/16z] LSc34S0000F0hvdznwtvfy1FqTergKKVna35tgR2UQDhtQgz9sW7-pMaZCEK_Li1
+
+sprite $ShieldSm [12x12/16z] NSQr0KHH300Wdako_xgdtQV2Kqd-cMcqRA2SvQvIOKzO5HYNrQ2YPXoS13jn2WnW7rfBuEZ-HV_l3G
+
+sprite $ShieldMd [16x16/16z] {
+TOg53GD03CJy7Dn_tIegaqK7vW_9Azk8pXMnK4RIBMm0JZlHERuQ2jZAcofO_OiU9NBGwWrekUi_G7BLGvtIDieLcnJJhhMtk8et8ThrHuPM9RWo1CdrgD1Y
+DND-SG4
+}
+
+sprite $ShieldLg [20x20/16z] {
+VSn5OWKm24NH2_64j__braYz_MU2moDsVhVKDz_uMU0nZTIag73KOKe2c8RriuqQouq5i4t1LNRsbidtlfz6zgO9E67Psm3DSsc6m-BaVlDxg7x8tvl9rK_-
+8n1NwVUcrjf8GZ-psNsHwYGSM9E0QmsM94V6Xt4Cw65yTIGr_lSC
+}
+
+!procedure Shield($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Resource/GeneralIcons/Shield', $name, $tech, $desc)
+!endprocedure
+
+!procedure ShieldCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ShieldLg>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+
+!procedure ShieldGroup($id, $name='Shield', $tech='')
+  IconGroupElement($id, 'GeneralIconsFamily', '<$ShieldLg>', $name, $tech)
+!endprocedure

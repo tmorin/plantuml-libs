@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2024/Architecture/Compute/VMwareCloudOnAws
+
+sprite $VMwareCloudOnAwsXs [10x10/16z] OoS46DZPO4mcHZO6A9EHWHt4P6LdO6A72J93Q4m
+
+sprite $VMwareCloudOnAwsSm [12x12/16z] ZSP10a0030D1RPFi_ryCkCASXfzKwhjMjUxNf21d6Me9lZw5V9pUuU5ctcm
+
+sprite $VMwareCloudOnAwsMd [16x16/16z] hOX50e0m40ERRUJ_ByRj2dHM9nc12qI_bQGAbrSi26TWh1xu27hYW2tP0wsDf6btU8TYTcpBvJoGyeaP
+
+sprite $VMwareCloudOnAwsLg [20x20/16z] lSor0GC13CLGowJz9mvpdtlj1uzJq8cVGjsqFrlIJM-FFY4vk1C-qLB3fiDuqohAHceytnH5AxPNrHab8dLsduzDtaYoVgeDVqtx9sS
+
+!procedure VMwareCloudOnAws($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Architecture/Compute/VMwareCloudOnAws', $name, $tech, $desc)
+!endprocedure
+
+!procedure VMwareCloudOnAwsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$VMwareCloudOnAwsLg>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure VMwareCloudOnAwsGroup($id, $name='V Mware Cloud On Aws', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$VMwareCloudOnAwsLg>', $name, $tech)
+!endprocedure

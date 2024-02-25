@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2024/Architecture/MachineLearning/AmazonCodeWhisperer
+
+sprite $AmazonCodeWhispererXs [10x10/16z] uy03M86O6GoO808CB40n40t4RAnG8KP6LeXY5fW-1YPc57C
+
+sprite $AmazonCodeWhispererSm [12x12/16z] TOhH0G0G4481sdzXgBxWmLqLlaHJzuvEht2dqCwJlEzcq5xHKr87zedxfk5Y0W
+
+sprite $AmazonCodeWhispererMd [16x16/16z] bOs30KKn300Rt_uBVpmRryRYFP4ZmfzaHC_gAcOnrlDl1NAAMpyzne7JVAfBG9KHAVETMjwrGl1YeYI5Htm1
+
+sprite $AmazonCodeWhispererLg [20x20/16z] fS-r0GGn34HHyVp-6pu6UrE_K2pEJAvuIHQjRqnpZQr2_zvkKbilXeoADTO2XrnZnalDFzRWs3I-nOoI_sDgEGmmhjwkhyj7a-38sPY59UVk
+
+!procedure AmazonCodeWhisperer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Architecture/MachineLearning/AmazonCodeWhisperer', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonCodeWhispererCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonCodeWhispererLg>', 'MachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure AmazonCodeWhispererGroup($id, $name='Amazon Code Whisperer', $tech='')
+  IconGroupElement($id, 'MachineLearningFamily', '<$AmazonCodeWhispererLg>', $name, $tech)
+!endprocedure

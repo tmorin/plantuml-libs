@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2024/Architecture/Games/AmazonGameSparks
+
+sprite $AmazonGameSparksXs [10x10/16z] TOZ50G102CDmkl_2v_8YQ8CAFjVWoFk2ns2OYoijFn1EyYs78tmw
+
+sprite $AmazonGameSparksSm [12x12/16z] VKt50G102B9b_uMlwtLs0huIfqg8x9fw65ropy5Zx84hoXwSQqAX53PhzXPMdOlYaGe
+
+sprite $AmazonGameSparksMd [16x16/16z] dS75OGC054Cn--FRV-4s39UGn8-I1qE5k3CCR7Esqq166G0D29ZYh3Tu8ZIo9ZahLgBJN8KTihZQXYQuSW5Etle7
+
+sprite $AmazonGameSparksLg [20x20/16z] hSYt0SD040InFxlJVyMYjw6847n2l5do56x1LJPKWvh329ZqCB5nAfcaUR8eIt1ZKiMkodaPYOLD8jYLGjC7aPoyopjQfikbkJIihaS9ZEjL32Os-CyF
+
+!procedure AmazonGameSparks($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Architecture/Games/AmazonGameSparks', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonGameSparksCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonGameSparksLg>', 'Games', $funcName, $content)
+!endprocedure
+
+!procedure AmazonGameSparksGroup($id, $name='Amazon Game Sparks', $tech='')
+  IconGroupElement($id, 'GamesFamily', '<$AmazonGameSparksLg>', $name, $tech)
+!endprocedure

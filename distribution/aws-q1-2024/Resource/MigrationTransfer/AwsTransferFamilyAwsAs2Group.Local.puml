@@ -1,0 +1,21 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2024/bootstrap')
+
+' loads the Item which embeds the element AwsTransferFamilyAwsAs2Group
+include('aws-q1-2024/Resource/MigrationTransfer/AwsTransferFamilyAwsAs2')
+
+' renders the element
+AwsTransferFamilyAwsAs2Group('AwsTransferFamilyAwsAs2Group', 'Aws Transfer Family Aws As2 Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

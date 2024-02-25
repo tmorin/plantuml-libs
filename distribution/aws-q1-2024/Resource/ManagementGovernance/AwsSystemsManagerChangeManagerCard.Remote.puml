@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2024/bootstrap')
+
+' loads the Item which embeds the element AwsSystemsManagerChangeManagerCard
+include('aws-q1-2024/Resource/ManagementGovernance/AwsSystemsManagerChangeManager')
+
+' renders the element
+AwsSystemsManagerChangeManagerCard('AwsSystemsManagerChangeManagerCard', 'Aws Systems Manager Change Manager Card', 'an optional description')
+@enduml

@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2024/Architecture/MediaServices/AwsElementalConductor
+
+sprite $AwsElementalConductorXs [10x10/16z] OySA6200n6G2yLX0331WX2g0gmDY9fWO332ZcWO
+
+sprite $AwsElementalConductorSm [12x12/16z] VOor0G0W40EHoFuJesdXtjLFn8jMNjF3pdT3qia3Co-90ee1f6nva9qV4m
+
+sprite $AwsElementalConductorMd [16x16/16z] bSd50S1040EnWxMd_uh3pD5N_5TMzCGiqrCnu58YNxvNB9BPCeY99Hb2Ob5hOIUn9xvf0G
+
+sprite $AwsElementalConductorLg [20x20/16z] hSh50GGn30J14NR-4Hykqyjb439UQAl_FJPoxidvakJviESRrZnh9GUHb5ZfQuhEoeiM1wNWH9m58xm1
+
+!procedure AwsElementalConductor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Architecture/MediaServices/AwsElementalConductor', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsElementalConductorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsElementalConductorLg>', 'MediaServices', $funcName, $content)
+!endprocedure
+
+!procedure AwsElementalConductorGroup($id, $name='Aws Elemental Conductor', $tech='')
+  IconGroupElement($id, 'MediaServicesFamily', '<$AwsElementalConductorLg>', $name, $tech)
+!endprocedure

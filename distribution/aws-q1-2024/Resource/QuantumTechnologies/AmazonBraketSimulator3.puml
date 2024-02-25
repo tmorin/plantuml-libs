@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2024/Resource/QuantumTechnologies/AmazonBraketSimulator3
+
+sprite $AmazonBraketSimulator3Xs [10x10/16z] Oq05xAn872OOWmNCOeUAiKDbsHc0Yfc1N2Qm9cQe3cOmO44o3m
+
+sprite $AmazonBraketSimulator3Sm [12x12/16z] LStN5SKm5CCm9BQkzf_uzOh3V_gNGmaqBoI0Xfnm6CJ628t1eILmCWXZ20c2Xkaysd_VAm
+
+sprite $AmazonBraketSimulator3Md [16x16/16z] RS_95GHH24BHQvs6dt_4FRkhjt8Mt11rL03zvmMkMOfqB4amEtS5xGYeDFZdrmZE6GCbfnYAillA3BlFmq7i_mdxlrdElP-88u8N
+
+sprite $AmazonBraketSimulator3Lg [20x20/16z] {
+VP250GCW30Jle_jFNCFgE1SFlqOIq2Ja7vRLrRMEmSOrXmd8x1TMgOVUfb4FlOW-verb3Bsb6CFVOBAfXXdGtODFlUvXErde9HVvC3svZB-IuMyn3_gZ3ikN
+ElnfnCXFAgMiLQRIlvuAxGEu0W
+}
+
+!procedure AmazonBraketSimulator3($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Resource/QuantumTechnologies/AmazonBraketSimulator3', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonBraketSimulator3Card($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonBraketSimulator3Lg>', 'QuantumTechnologies', $funcName, $content)
+!endprocedure
+
+!procedure AmazonBraketSimulator3Group($id, $name='Amazon Braket Simulator3', $tech='')
+  IconGroupElement($id, 'QuantumTechnologiesFamily', '<$AmazonBraketSimulator3Lg>', $name, $tech)
+!endprocedure

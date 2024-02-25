@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2024/Category/Compute
+
+sprite $ComputeXs [10x10/16z] OyS1c9YHE8nW4I1c1hEOOImGpSm8OJ420GDsim
+
+sprite $ComputeSm [12x12/16z] RSo53G0n3C10nQ7z9tuijnQTo7dELuF0R_ADvYYMmMH4zvlM3-ZwzvRU
+
+sprite $ComputeMd [16x16/16z] PSc74OL04CDGpdks-g_u1vQC9huHpyhN5iorTi2-MFRGzEQ8DTVspP3wRnPGJjjZizhHtKncLSNPxAxOJ14fRBxszdBl2m
+
+sprite $ComputeLg [20x20/16z] XT253K0X54DHdZJTV-AlkDxumU6i87s1mhwTGMcWrGONY45G36cPP8EJ_aP1CXKwduoYrTfaJ6QJUR1igDVQaxHhO_KP-VdTsnJKun-SBGp93G
+
+!procedure Compute($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Category/Compute', $name, $tech, $desc)
+!endprocedure
+
+!procedure ComputeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ComputeLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure ComputeGroup($id, $name='Compute', $tech='')
+  IconGroupElement($id, 'Compute', '<$ComputeLg>', $name, $tech)
+!endprocedure

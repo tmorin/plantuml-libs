@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2024/Resource/NetworkingContentDelivery/AmazonVpcPeeringConnection
+
+sprite $AmazonVpcPeeringConnectionXs [10x10/16z] JKg50S0W3Aid_p-yuL2DoLjSAofedrT17pQakI997I-Z2pjd_IbN1gbioWy
+
+sprite $AmazonVpcPeeringConnectionSm [12x12/16z] NKo50G0W349TyF_3Tgy3m6TCGTWd0MATqlwCMt-6LXGfrhzQnH21RAz8UeMjbHq_IWFNQBDZYpcwgJih00K
+
+sprite $AmazonVpcPeeringConnectionMd [16x16/16z] RK-50G913Aid-q_CvOj3tSN-GH0WdYxzi5dEkb28M4kPb-pJws_-F0pSUyEW23QEKm2ILy_OCPI5-NGtBTDQfIzGNRxcNybPN-7qHn3oixQhHuiT_dfmq6lT
+
+sprite $AmazonVpcPeeringConnectionLg [20x20/16z] {
+TSw50GGm24FH7oXDzb_utENL5VYljkCHJolDsGxSk2_hkatFBC0h1aW1hDjHkF1Z_XnbgBxDkGbiC9190H8Zp5xG3HCWLI8aONFcII9Xoc2T6OKMmyMSBCu2
+sd1XkCXtVgiU5qJqShq3oCdBRTg22h3CWpEbJefNEk7c2
+}
+
+!procedure AmazonVpcPeeringConnection($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2024/Resource/NetworkingContentDelivery/AmazonVpcPeeringConnection', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonVpcPeeringConnectionCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonVpcPeeringConnectionLg>', 'NetworkingContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AmazonVpcPeeringConnectionGroup($id, $name='Amazon Vpc Peering Connection', $tech='')
+  IconGroupElement($id, 'NetworkingContentDeliveryFamily', '<$AmazonVpcPeeringConnectionLg>', $name, $tech)
+!endprocedure
