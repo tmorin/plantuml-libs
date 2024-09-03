@@ -64,7 +64,7 @@ jobs:
         with:
           persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
           fetch-depth: 0 # otherwise, you will fail to push refs to dest repo
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4.1.7
         with:
           name: workdir
       - name: "Provide the .tmp directory"
@@ -87,7 +87,7 @@ jobs:
     needs: [ generate-package ]
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4.1.7
       - name: "Refresh the distribution directory"
         run: |
           set -ex

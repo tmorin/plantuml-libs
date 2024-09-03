@@ -61,7 +61,7 @@ jobs:
         with:
           persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
           fetch-depth: 0 # otherwise, you will fail to push refs to dest repo
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4.1.7
         with:
           name: workdir
       - name: "Provide the .tmp directory"
@@ -84,7 +84,7 @@ jobs:
       - uses: actions/checkout@v3
       - name: "Delete distribution"
         run: rm -Rf distribution
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4.1.7
         with:
           name: distribution
       - name: "Provide the distribution directory"
