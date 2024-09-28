@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-19/bootstrap')
+
+' loads the Item which embeds the element ServiceCodeCard
+include('azure-19/Item/General/ServiceCode')
+
+' renders the element
+ServiceCodeCard('ServiceCodeCard', 'Service Code Card', 'an optional description')
+@enduml

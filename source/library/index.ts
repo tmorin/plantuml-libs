@@ -1,5 +1,5 @@
 import { AwsQ22024Factory } from "./packages/aws-q2-2024"
-import { AzureV17Factory } from "./packages/azure-17"
+import { AzureV17Factory } from "./packages/azure-19"
 import { C4modelFactory } from "./packages/c4model"
 import { C4nordFactory } from "./packages/c4nord"
 import { C4K8sFactory } from "./packages/c4k8s"

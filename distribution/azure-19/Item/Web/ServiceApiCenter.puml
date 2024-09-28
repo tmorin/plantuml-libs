@@ -1,0 +1,24 @@
+' definition of the Item azure-19/Item/Web/ServiceApiCenter
+
+sprite $ServiceApiCenterXs [10x10/16z] ROYv5G1H28Jmjl-AztqrN98PWE1muOVC12cWghJUeRiXthKN7Wtu2xn7FtjFW0y
+
+sprite $ServiceApiCenterSm [12x12/16z] TOo30G01200lj__2R-Co8RdWFpaHxEG4K0NKX2mPzCJUTszbem7PDZWE5sNv95NEnWW
+
+sprite $ServiceApiCenterMd [16x16/16z] NOw54S0m30CLCEs_SC_Gq0VD0XhXWZ1lcnjk60-3w8exteGaMed3Oym9MROChmfR7Oe0PGEpSwPww1HKpa0qVzhZ9Ldni8NGetPgXsDgEFW
+
+sprite $ServiceApiCenterLg [20x20/16z] {
+PSw7aK8n34NHg_Zy-ozu5n39-4pIA0DP_4gpF79-veXqJWqdhofs_P009Z6v0I3FIMguRc3B0IviSkj102Kv3xgkgzWeN6XBnGBmxVCrOyfWz6qxawlIQ-xL
+TuycQ6ZDH6jMvgSFCzwlBNR_
+}
+
+!procedure ServiceApiCenter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/Web/ServiceApiCenter', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceApiCenterCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceApiCenterLg>', 'Web', $funcName, $content)
+!endprocedure
+
+!procedure ServiceApiCenterGroup($id, $name='Service Api Center', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceApiCenterLg>', $name, $tech)
+!endprocedure

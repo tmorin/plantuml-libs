@@ -1,0 +1,27 @@
+' definition of the Item azure-19/Item/Networking/ServiceApplicationGatewayContainers
+
+sprite $ServiceApplicationGatewayContainersXs [10x10/16z] JOc50G0X30CFfyd-yxuBbIZBXCHnn-XIkiIbncNRL_GBxQRQPC6GYrj0xtQrUmPAwQN03W
+
+sprite $ServiceApplicationGatewayContainersSm [12x12/16z] LKc30K1H4EhXLFlF-yr3n7_8sfwxJBAZo7R4v06dz3rdj5rt-xH-agJ9vYu5e5aQyX00AsrQOPjsYRQzuvXsyWe
+
+sprite $ServiceApplicationGatewayContainersMd [16x16/16z] {
+PKm50W0X29in5FZ_Vs_NPR84_YiYVApF3gT6eEejfopSzs-74Vl7tQVeIU-_eMauUrL4zlx8rMuO1yxCw0MrhrC319jdJskQ0FcwPmeOemYJWYlEGGgRAHWK
+dYQifP4q1N2jUiuB
+}
+
+sprite $ServiceApplicationGatewayContainersLg [20x20/16z] {
+TP075iCW34Cf7c1y__lMKkhmLfLXvSVhCVxfG87NQiIlCOJXqOTPdNxJu9LHWUHGXhHEHBoCOxnHDpcT5aDj_loEBZ2x7JlFN5ws6NnMFmtwibaoEQ5ubySo
+AzCbCkI9EQ1OMl-t8D_2WRHC9l9AompCtG-OahbF9ZB3p350fKzBHDnDXE1gwck_
+}
+
+!procedure ServiceApplicationGatewayContainers($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/Networking/ServiceApplicationGatewayContainers', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceApplicationGatewayContainersCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceApplicationGatewayContainersLg>', 'Networking', $funcName, $content)
+!endprocedure
+
+!procedure ServiceApplicationGatewayContainersGroup($id, $name='Service Application Gateway Containers', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceApplicationGatewayContainersLg>', $name, $tech)
+!endprocedure

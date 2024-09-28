@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-19/bootstrap')
+
+' loads the Item which embeds the element ServiceActiveDirectoryConnectHealth
+include('azure-19/Item/Identity/ServiceActiveDirectoryConnectHealth')
+
+' renders the element
+ServiceActiveDirectoryConnectHealth('ServiceActiveDirectoryConnectHealth', 'Service Active Directory Connect Health', 'an optional tech label', 'an optional description')
+@enduml

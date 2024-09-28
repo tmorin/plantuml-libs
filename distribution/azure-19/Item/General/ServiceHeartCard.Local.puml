@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-19/bootstrap')
+
+' loads the Item which embeds the element ServiceHeartCard
+include('azure-19/Item/General/ServiceHeart')
+
+' renders the element
+ServiceHeartCard('ServiceHeartCard', 'Service Heart Card', 'an optional description')
+@enduml

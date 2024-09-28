@@ -1,0 +1,27 @@
+' definition of the Item azure-19/Item/Other/ServicePeeringService
+
+sprite $ServicePeeringServiceXs [10x10/16z] 9OQ70S0W3CDKm4an_z_Bz1IW_d7bemkjFInsbwEBi2MVPGnd2pTlohQjX65T0ueuOIlt_om
+
+sprite $ServicePeeringServiceSm [12x12/16z] FSQ95GGX20JHddrSNUQVxyxfLw1q6XzwS7ipajFkpaefW7RPBkNPbNK9hLLK6CpPxN7akQJL3D4OIJ_o3B1Emzc5RcMN3_q1
+
+sprite $ServicePeeringServiceMd [16x16/16z] {
+FSq7WaGn209Gzu-2aFlVTpLJNdfHOq7z5p_ozRsnAQ_dyyfCNv_dtZDHg3c-FBga9ZGNy00eqp3kkyWamV6ASmvifUdf39z3oywKiJNcdICJB78hxd-pR5en
+7hjjxbonqEY-KxorOKfwugDK46Rp3m
+}
+
+sprite $ServicePeeringServiceLg [20x20/16z] {
+JOw70GCn20Dn0X9Izj_NBUs--gXnA8aZ_caVb3_bB_YfpfGFxqpQcGbVlfN8f4KKK5izl92ov49BMvOFLOBXRYC2LorfuzprhktkOcDzs3tYjO1DfNPDxiHU
+ZhjQcRUOiHD1vhepoI8HCKvUdjLjsXsBtQzibSuNyLwyPSFdUSQXWDyTbz4x4JRTZ_X86e9hgnzFei2CnGG
+}
+
+!procedure ServicePeeringService($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/Other/ServicePeeringService', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServicePeeringServiceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServicePeeringServiceLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServicePeeringServiceGroup($id, $name='Service Peering Service', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServicePeeringServiceLg>', $name, $tech)
+!endprocedure

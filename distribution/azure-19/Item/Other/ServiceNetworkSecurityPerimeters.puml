@@ -1,0 +1,24 @@
+' definition of the Item azure-19/Item/Other/ServiceNetworkSecurityPerimeters
+
+sprite $ServiceNetworkSecurityPerimetersXs [10x10/16z] LOk50G0X3CG2zUu_yBkGkXmhUfV6Tjv5xuq9EmxYxAZClwht93jWErUtzuYgR
+
+sprite $ServiceNetworkSecurityPerimetersSm [12x12/16z] POk50S0m409VZjZ--zQz5ta1x0T-D6sWXNCdjzgNNhPHnz9Ah7tayfMjnRaykTtX5cSl87B5jdIU_Qeca3C
+
+sprite $ServiceNetworkSecurityPerimetersMd [16x16/16z] JOw50S1020E3rVOVk1pLUyMZ1nDyPdx_xJWy6zUGss4r96OafLNIkezT0kpZis7ijqwMmRCiZsd1ZmjeovUkzhSFKxZwkFDQPTF_GJZWiozrRMU-jkG9SG8
+
+sprite $ServiceNetworkSecurityPerimetersLg [20x20/16z] {
+VSy50WCn20J00Cj5_l_WelLsJpDHnl_W2xsOh7EGqIB6EXXQwKdadsZElLuMkjoEMG-8j06g42gJoutLWYQ0i-jg0aWIeS-LI0muuzaepP7VZQnfA9Ku7ppy
+R5qgFPiDW6hCHPj7iykIrd5ol04
+}
+
+!procedure ServiceNetworkSecurityPerimeters($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/Other/ServiceNetworkSecurityPerimeters', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceNetworkSecurityPerimetersCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceNetworkSecurityPerimetersLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceNetworkSecurityPerimetersGroup($id, $name='Service Network Security Perimeters', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceNetworkSecurityPerimetersLg>', $name, $tech)
+!endprocedure

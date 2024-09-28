@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-19/bootstrap')
+
+' loads the Item which embeds the element ServiceEntraIdentityCustomRolesCard
+include('azure-19/Item/Identity/ServiceEntraIdentityCustomRoles')
+
+' renders the element
+ServiceEntraIdentityCustomRolesCard('ServiceEntraIdentityCustomRolesCard', 'Service Entra Identity Custom Roles Card', 'an optional description')
+@enduml

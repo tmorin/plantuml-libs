@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-19/bootstrap')
+
+' loads the Item which embeds the element ServiceSendGridAccountsCard
+include('azure-19/Item/Integration/ServiceSendGridAccounts')
+
+' renders the element
+ServiceSendGridAccountsCard('ServiceSendGridAccountsCard', 'Service Send Grid Accounts Card', 'an optional description')
+@enduml

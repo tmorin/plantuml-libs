@@ -1,0 +1,27 @@
+' definition of the Item azure-19/Item/NewIcons/ServiceAksAutomatic
+
+sprite $ServiceAksAutomaticXs [10x10/16z] BOl50G0m4C9IvzX_tpelBBJMU1e3Z-jEusCA4FduKa5o279Du-yxRrdNXTfn4BBxCPzO
+
+sprite $ServiceAksAutomaticSm [12x12/16z] NKo50G112CB6st_VxxoM1C8DrxAA6dBEjJydiDZVFcZrRIAr6R1j9cdDtUo-MygtyR1mS7kd6LkX7WTtJ_xc5G
+
+sprite $ServiceAksAutomaticMd [16x16/16z] {
+JSu50i0m30B0f4RX_myUcRDLhXwnvfZnom8e_PWPGV4sN9p7_N8Ij-SfhGOYxM4tQcCxvV6tCppILPj6qHrnDvSb4cMwlnswStkQkEtpNB9Ate-GzlGaulPv
+7ttVDpzu-W
+}
+
+sprite $ServiceAksAutomaticLg [20x20/16z] {
+VOw50GD120JXyEs_u91tdzSRbCZSr0QTYKW0SbR1942_LtpvJs1FCvgmtKaiFrnrSL8rHkTEHKELcihAHFMBE-71AQiiBbOtLIjJv3HRjnKBmPn8OmTyK3FL
+MFufzE-dasfbgskc5ipRBwsf0Y2TDdBV-TFrCGQ0j3xy
+}
+
+!procedure ServiceAksAutomatic($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/NewIcons/ServiceAksAutomatic', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAksAutomaticCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAksAutomaticLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAksAutomaticGroup($id, $name='Service Aks Automatic', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAksAutomaticLg>', $name, $tech)
+!endprocedure

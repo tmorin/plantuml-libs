@@ -1,0 +1,27 @@
+' definition of the Item azure-19/Item/Other/ServiceConfidentialLedgers
+
+sprite $ServiceConfidentialLedgersXs [10x10/16z] BOk55S0m50A97ErZ_ttZzrtGfkbIWTlPvBlTdzV9YJPTco81HHsmIMI8uzszT4KJ
+
+sprite $ServiceConfidentialLedgersSm [12x12/16z] HKx70S0W428gLzX_uDYbFy54nK4XURRrhRCjzRRkXhsPtVRrOCUgPZsS61MM9kKgKmzY5gffFA2f_
+
+sprite $ServiceConfidentialLedgersMd [16x16/16z] {
+JOrL5W0n30Af4Bl_WVUHjL8TyZ5uig1yH7Byo8vzR4PQnSzfMIUNrSbqySQNj4fxOO9J7TeufFgiVNKnsP6QKS3InylSsXNcaZoikOS-mrGd07qqs5ReBAk9
+2m
+}
+
+sprite $ServiceConfidentialLedgersLg [20x20/16z] {
+PP074i0W20Ini13-_-0CafwpBvP3kJJagw6g_KMwbfwCGcPF1gf4l9WRMtoOEV5bNWnvI4dsjiZGO7k0AL9BbzOklrGAJDMPDvKoFciwgP6ummv98vAjgKMa
+sqJXcGhbagorxsBsPpBW-X0MMvPnaL8Zyzi1
+}
+
+!procedure ServiceConfidentialLedgers($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/Other/ServiceConfidentialLedgers', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceConfidentialLedgersCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceConfidentialLedgersLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceConfidentialLedgersGroup($id, $name='Service Confidential Ledgers', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceConfidentialLedgersLg>', $name, $tech)
+!endprocedure

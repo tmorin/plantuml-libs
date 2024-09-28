@@ -1,0 +1,24 @@
+' definition of the Item azure-19/Item/HybridMulticloud/ServiceAzureOperator5GCore
+
+sprite $ServiceAzureOperator5GCoreXs [10x10/16z] RSR50S1030CmX-Fz1ovpJozXpDtF78q8IMJ28xJAf4GZkXtPZSn00YGMGS7J3
+
+sprite $ServiceAzureOperator5GCoreSm [12x12/16z] VOY54S0030A9m_u3r-Mi_GX_u0SBkpLtBdszggAxUXgv-Snapo2scanm0zt9sLmIu95RcZk-M04
+
+sprite $ServiceAzureOperator5GCoreMd [16x16/16z] dSt50GD120LG1hwm_JSSPkEdo3lXn3yAG3pXzDPz5f83ApEbd9oZP1ko8y3DGsdppAkxAQX7I9fyGV2PGsAlHPF7sFygZct_Y1kwuYiN
+
+sprite $ServiceAzureOperator5GCoreLg [20x20/16z] {
+jSe74W8n34DHkSd9_I-CHOVfiFlI_mIdIF7l9F6T10-HJsO6oP8qii21KPBLuhFu-EOjqJQxeIHLI7IiGLVJbHbON88YcPEWbbi0ZceO4njA3S0YR6qf7uQ7
+ccJutmK
+}
+
+!procedure ServiceAzureOperator5GCore($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/HybridMulticloud/ServiceAzureOperator5GCore', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureOperator5GCoreCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureOperator5GCoreLg>', 'HybridMulticloud', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureOperator5GCoreGroup($id, $name='Service Azure Operator5 G Core', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureOperator5GCoreLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-19/bootstrap')
+
+' loads the Item which embeds the element ServiceCognitiveServicesDecisionsCard
+include('azure-19/Item/AiMachineLearning/ServiceCognitiveServicesDecisions')
+
+' renders the element
+ServiceCognitiveServicesDecisionsCard('ServiceCognitiveServicesDecisionsCard', 'Service Cognitive Services Decisions Card', 'an optional description')
+@enduml

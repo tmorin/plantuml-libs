@@ -1,0 +1,27 @@
+' definition of the Item azure-19/Item/AiMachineLearning/ServiceLanguageUnderstanding
+
+sprite $ServiceLanguageUnderstandingXs [10x10/16z] FSW50W0W3090J63_Vx3jhOUfkM29Fh7FXONiP04vavLg4gGrB57xAly7UwQR0zq7W19p1Z
+
+sprite $ServiceLanguageUnderstandingSm [12x12/16z] 9SQ13SG02090_bi5t7_WOhm408ik77VG2FCO65RdWLHIl6zAbGY9R_Ga9RK26xjbEpk9dlilCFP1Q5O17m
+
+sprite $ServiceLanguageUnderstandingMd [16x16/16z] {
+LOU73GD04CBu3hV_m85FjmIoSHdKmGV7tfkQkDHvGRvofN84QElfl1facoSqhmR_MZHhvK_pIJuS1gIZUp7qDFJNXPBsac7FOzfQhDiA0FLbmh1ULSxGwgBu
+0m
+}
+
+sprite $ServiceLanguageUnderstandingLg [20x20/16z] {
+NSi90W8n24FHLAGakV-1RL5dUxD_6FoanC15MAmgYkEVhFbJdcXYdTJHAyMxbXax1X2gIbGRkMu6N6TxxNKcT6rPYv9BWktLNnANzs2BE1kARQ8RTVatibke
+vzTcMDA4MgGMWi_cWU4zgMvWtu6f6sERlgQ15lQ_28UKDtwNFW
+}
+
+!procedure ServiceLanguageUnderstanding($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/AiMachineLearning/ServiceLanguageUnderstanding', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceLanguageUnderstandingCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceLanguageUnderstandingLg>', 'AiMachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure ServiceLanguageUnderstandingGroup($id, $name='Service Language Understanding', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceLanguageUnderstandingLg>', $name, $tech)
+!endprocedure

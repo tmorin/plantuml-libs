@@ -1,0 +1,24 @@
+' definition of the Item azure-19/Item/Other/ServiceScvmmManagementServers
+
+sprite $ServiceScvmmManagementServersXs [10x10/16z] HSZ50G0m20J1ZLl_zSQ1-PoG7Y25-9jzzJajIojFXhwTCuQndLPo56In
+
+sprite $ServiceScvmmManagementServersSm [12x12/16z] JSSr0G114C30PVIlz_5egWHOV_3GCVIs76q_V3eiFhBRtbOVdgwigZ7DtHKlrQn7PeQBcWngm3R13G
+
+sprite $ServiceScvmmManagementServersMd [16x16/16z] PSt50S0m30D0cHJQVzysLBoNsK1Sq6bSTEGcAdhblpvuaPvQllZ8AIvsvNUV37JffhrVkt8LF6jcoWkKhIihzuWwb5FEuGn_8dWQjGYEbygB0mS
+
+sprite $ServiceScvmmManagementServersLg [20x20/16z] {
+NStN0K0X24DHWH3R_lE-QZ-VLu4GV1LUHzFMn1muchQmjcPjNCdVqWgj6LECHnEcmSzPFluMDtyilzoYVerVMq-Z2XDPqw3czPTJ4-4eJNwbH82E4urxTPB1
+U0eF0GV84su
+}
+
+!procedure ServiceScvmmManagementServers($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/Other/ServiceScvmmManagementServers', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceScvmmManagementServersCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceScvmmManagementServersLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceScvmmManagementServersGroup($id, $name='Service Scvmm Management Servers', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceScvmmManagementServersLg>', $name, $tech)
+!endprocedure

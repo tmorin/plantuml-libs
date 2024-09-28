@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-19/bootstrap')
+
+' loads the Item which embeds the element ServicePublicIpAddressesClassicCard
+include('azure-19/Item/Networking/ServicePublicIpAddressesClassic')
+
+' renders the element
+ServicePublicIpAddressesClassicCard('ServicePublicIpAddressesClassicCard', 'Service Public Ip Addresses Classic Card', 'an optional description')
+@enduml

@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-19/bootstrap')
+
+' loads the Item which embeds the element ServiceRouteTables
+include('azure-19/Item/Networking/ServiceRouteTables')
+
+' renders the element
+ServiceRouteTables('ServiceRouteTables', 'Service Route Tables', 'an optional tech label', 'an optional description')
+@enduml

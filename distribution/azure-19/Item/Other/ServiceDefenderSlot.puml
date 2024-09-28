@@ -1,0 +1,24 @@
+' definition of the Item azure-19/Item/Other/ServiceDefenderSlot
+
+sprite $ServiceDefenderSlotXs [10x10/16z] LSQt0GCn50KW5F_J_WkxyIKgx24Ps3OArUkQmhW74JGamRvNEETyjl03
+
+sprite $ServiceDefenderSlotSm [12x12/16z] XOhL5KCn34DlKFBf_lis_FkC8de7_CE5JXiO3O2aYTjejFKw-k92Fa466jWRfz6uYbks7uw8J_m7
+
+sprite $ServiceDefenderSlotMd [16x16/16z] NSt50SC030J1CGY2_NSRZcb_qf7CuAflj7laB5d969CHJAYC8a6ZGdqLvkLU-Tu1wd0tEhGVmtAlU_t2wl_TCmYSNbZvtTD1N_FVU-r_0W
+
+sprite $ServiceDefenderSlotLg [20x20/16z] {
+POu54iD03CHqj7Rp__yMFA5j53mPaJIWvyWn8DdO98QWQ7M3H1SCW82ixm-SK9_ndoTwx7rctUw6kmuWYCiv4ULiHdvTsiwxs_ijKBaVkvCvgzsTptZzmDdT
+Cy_xxSvtYQTh7m
+}
+
+!procedure ServiceDefenderSlot($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/Other/ServiceDefenderSlot', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceDefenderSlotCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDefenderSlotLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDefenderSlotGroup($id, $name='Service Defender Slot', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDefenderSlotLg>', $name, $tech)
+!endprocedure

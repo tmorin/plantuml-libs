@@ -1,0 +1,21 @@
+' definition of the Item azure-19/Item/ManagementGovernance/ServiceDiagnosticsSettings
+
+sprite $ServiceDiagnosticsSettingsXs [10x10/16z] NSQ70G0m1011dVqNJgy-mS6DSDJ4ElfbBR6ciMp8dTrzg9KL8u8A
+
+sprite $ServiceDiagnosticsSettingsSm [12x12/16z] NSQ70G0m1011dVqNJgy-mS6NhelTgsnRJIiPuF9OmyvctXfUPSVgjKC5
+
+sprite $ServiceDiagnosticsSettingsMd [16x16/16z] dSgr0O1040NHETkX_uPn9-9UzeMlniabNhfoB58izZmdWjJEp7mzTmiIrTcMPqaVsHzvkAHuPc42
+
+sprite $ServiceDiagnosticsSettingsLg [20x20/16z] hSk52G113031UD9_nV_dYj_Y0mltL6NA4v7Y56Worha7PZcnt69WAZ8RvcbOce30oj0i0HZPPFudxAN9Kgyivcv6denzpdxv
+
+!procedure ServiceDiagnosticsSettings($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/ManagementGovernance/ServiceDiagnosticsSettings', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceDiagnosticsSettingsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDiagnosticsSettingsLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDiagnosticsSettingsGroup($id, $name='Service Diagnostics Settings', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDiagnosticsSettingsLg>', $name, $tech)
+!endprocedure

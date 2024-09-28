@@ -1,0 +1,27 @@
+' definition of the Item azure-19/Item/HybridMulticloud/ServiceAzureOperatorInsights
+
+sprite $ServiceAzureOperatorInsightsXs [10x10/16z] 7OS10W0G38G2uFyFrebjnK4AuS9ER_LopFLjQJHgXG7VjQpu5DC_YStMqaunmWC
+
+sprite $ServiceAzureOperatorInsightsSm [12x12/16z] HSQ53G0X402m8k5a_trVOZHMnvLhK1f7ZMwrKJA-DonVIXuengI1QJ8FsFz-z-CmSEPO_y_FcFCGEB_v0W
+
+sprite $ServiceAzureOperatorInsightsMd [16x16/16z] {
+BSg74G0X20318p_sN_3Bu1dN4PJjs-FWSpXPxxdn3sdEi3GrpZbNFMufgVKt3hTYVPYQHbKeUcrW6BJoKXdZgMi74ys9PoGtGFPpUeQE0-0IMsVSCWnv1iWj
+87Iz_04
+}
+
+sprite $ServiceAzureOperatorInsightsLg [20x20/16z] {
+HS_1ZSL020JH0g37a7_0koDi_NTg5IUW-LYoJcEyXZNOpgTHSyL35prJT7nNCMZ-KSssBeQpRTvs3eFzfzvvsN2QV0uCiOq9m760hcq-G60EsVnut0nM2bxX
+a52wtfgtHsdvxtVROX901K19YSGsSKcUH7qjBed4tfQgIuhALAY0OrpwS1lRLi4V
+}
+
+!procedure ServiceAzureOperatorInsights($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/HybridMulticloud/ServiceAzureOperatorInsights', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureOperatorInsightsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureOperatorInsightsLg>', 'HybridMulticloud', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureOperatorInsightsGroup($id, $name='Service Azure Operator Insights', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureOperatorInsightsLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,27 @@
+' definition of the Item azure-19/Item/Other/ServiceUpdateManagementCenter
+
+sprite $ServiceUpdateManagementCenterXs [10x10/16z] BSY50G0X3C30u92o_xglNBsy9iSK4cITHGLqHMz2gpKYckNvx4TJi7yRuEYxA9JuyQhVk04
+
+sprite $ServiceUpdateManagementCenterSm [12x12/16z] FSR70KCX34J19QEt_lstQu73d4RNrbzGTK402-vNxNqJ-TXE8sfszN2QRA2_KXvrnlaS56d7V1uR9NlNrcsVqspaq1KkIcy
+
+sprite $ServiceUpdateManagementCenterMd [16x16/16z] {
+LOo74GCn3CFaReBPVzwytgbm1NN7E8mTVy0tK8aAHFGx8zbB-VJB2r1hxqCG2KYsvpWTHLrEnYAYmUpzaUp9uUZn8XZ7nn0p--QwVUdLVmSIA7NOzDhQiftE
+vKvajmoouynAlC5NcZm1
+}
+
+sprite $ServiceUpdateManagementCenterLg [20x20/16z] {
+NSy50iCW343H017uwUv_tHMPllglWRn4B_8F-d_gm3oUXmUzEBTHRU0pLQQkpLdESw2rgce0JQOo7nkPwMeWYsCZbx2ncw6gkLdCbmC8DQx5d6FeBgzcQtUI
+cyMU3vZlbkQuJ8qm7ak0B0RXdfStUBMyUMsj6NECwzNy9LEaIicRplCYRpgV-9VPvNW2
+}
+
+!procedure ServiceUpdateManagementCenter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/Other/ServiceUpdateManagementCenter', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceUpdateManagementCenterCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceUpdateManagementCenterLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceUpdateManagementCenterGroup($id, $name='Service Update Management Center', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceUpdateManagementCenterLg>', $name, $tech)
+!endprocedure

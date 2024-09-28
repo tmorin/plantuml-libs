@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-19/bootstrap')
+
+' loads the Item which embeds the element ServiceDefenderFreezerMonitorCard
+include('azure-19/Item/Other/ServiceDefenderFreezerMonitor')
+
+' renders the element
+ServiceDefenderFreezerMonitorCard('ServiceDefenderFreezerMonitorCard', 'Service Defender Freezer Monitor Card', 'an optional description')
+@enduml

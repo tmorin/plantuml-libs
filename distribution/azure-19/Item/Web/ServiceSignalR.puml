@@ -1,0 +1,24 @@
+' definition of the Item azure-19/Item/Web/ServiceSignalR
+
+sprite $ServiceSignalRXs [10x10/16z] JOl70S0m30AHk_TVE8VIp8jsEhMjD0jXCOs8nKK4rcwECHutfNHx3KKYs2eRsrrXBW
+
+sprite $ServiceSignalRSm [12x12/16z] LOtN0G0n2499KN7_XG_9rxrK6-3FxS5VlIIxpsHPvM3I1R4cK3eZ0ij_1PaRVFywv-KLNFSJ3W0gRIkdO5eilHy
+
+sprite $ServiceSignalRMd [16x16/16z] RO-54GCm3CJigt7_XHjz6NGKAMp_c8MuMo3YgGFtWFahp76dUmv-LyZTrlBkgagjbQFLRqw8Tx_OeNRJai2HNZhVbf1cCHnFe9IkGnKq5HyVJ8sk
+
+sprite $ServiceSignalRLg [20x20/16z] {
+TS-70SCW34JHGztxBnpf83tvxiyDyBULr-GlH7ZJnQkguW6CC57pGMOF562Hm9G8P1k9PUFYgslN9cqE_Y0p9WNQuisSbg-MydZk6al5f6s2E0-keTLqFQOH
+8rx7OgEs7UhgYNrcU22l6XKdtQXOU6bvLXfsDm
+}
+
+!procedure ServiceSignalR($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/Web/ServiceSignalR', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceSignalRCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceSignalRLg>', 'Web', $funcName, $content)
+!endprocedure
+
+!procedure ServiceSignalRGroup($id, $name='Service Signal R', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceSignalRLg>', $name, $tech)
+!endprocedure

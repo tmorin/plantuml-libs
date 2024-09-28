@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-19/bootstrap')
+
+' loads the Item which embeds the element ServiceSearch
+include('azure-19/Item/General/ServiceSearch')
+
+' renders the element
+ServiceSearch('ServiceSearch', 'Service Search', 'an optional tech label', 'an optional description')
+@enduml

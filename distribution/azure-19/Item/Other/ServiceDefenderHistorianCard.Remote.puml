@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-19/bootstrap')
+
+' loads the Item which embeds the element ServiceDefenderHistorianCard
+include('azure-19/Item/Other/ServiceDefenderHistorian')
+
+' renders the element
+ServiceDefenderHistorianCard('ServiceDefenderHistorianCard', 'Service Defender Historian Card', 'an optional description')
+@enduml

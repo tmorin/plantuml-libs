@@ -1,0 +1,24 @@
+' definition of the Item azure-19/Item/Networking/ServiceIpAddressManager
+
+sprite $ServiceIpAddressManagerXs [10x10/16z] Ou03BXX0Oh7209351O8S81OxAnj822hBnCxEpWO678mC7533E84GpWG
+
+sprite $ServiceIpAddressManagerSm [12x12/16z] NSt50GCn34JHRn1D__qco_GkjfY7qWNTiDldBvayTUR3p1bdpupmyDr82Dfc9kHrSy6fmny
+
+sprite $ServiceIpAddressManagerMd [16x16/16z] XSk50KD1309GJe0c--zR--xlD8OTvHgG3p4tJkENgI13GwnCHeePOrqa_Nk0zNmfL5d5iEIY2IX0H1d1lzYObP02AzMksFi
+
+sprite $ServiceIpAddressManagerLg [20x20/16z] {
+ZOs55KGn3CFal0Rtt_UOyQiOilc0_0M3UIMtv_oLzJqNxxcQTfyvddhCnKmSSdsRpUDyd3xmwY5RAJtbB4_eoJ8IF8axgX9GXMxWPSTSy4YqKSqJdTslEV3c
+Cti
+}
+
+!procedure ServiceIpAddressManager($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/Networking/ServiceIpAddressManager', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceIpAddressManagerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceIpAddressManagerLg>', 'Networking', $funcName, $content)
+!endprocedure
+
+!procedure ServiceIpAddressManagerGroup($id, $name='Service Ip Address Manager', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceIpAddressManagerLg>', $name, $tech)
+!endprocedure

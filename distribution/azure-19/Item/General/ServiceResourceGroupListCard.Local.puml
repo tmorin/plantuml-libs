@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-19/bootstrap')
+
+' loads the Item which embeds the element ServiceResourceGroupListCard
+include('azure-19/Item/General/ServiceResourceGroupList')
+
+' renders the element
+ServiceResourceGroupListCard('ServiceResourceGroupListCard', 'Service Resource Group List Card', 'an optional description')
+@enduml

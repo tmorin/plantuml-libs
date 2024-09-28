@@ -1,0 +1,21 @@
+' definition of the Item azure-19/Item/Other/ServiceDefenderWebGuidingSystem
+
+sprite $ServiceDefenderWebGuidingSystemXs [10x10/16z] Oo0QiC9eTXvMTdPsLbPs1WuM3cOE3WuU3lmw0G
+
+sprite $ServiceDefenderWebGuidingSystemSm [12x12/16z] bSIt0S0W34JHhopjFx0D7IMy2xoJsJWeHAVKjbvdDAgxgK6Ht42uy0C
+
+sprite $ServiceDefenderWebGuidingSystemMd [16x16/16z] jSI70O104091-BHS_mMRxK27e3_ueXUwrNczMG-hUm9Ud9PNM9MOcPEkbLjI9v6fZ-q
+
+sprite $ServiceDefenderWebGuidingSystemLg [20x20/16z] pSY50O0m34JHgzulPFzrSHa1NZpw6xkVHjQbwU6ZrvvdFT9-DzkHca_jt9Y8H2qSP8O5rFp-0gnELcQSa3hwoWe
+
+!procedure ServiceDefenderWebGuidingSystem($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/Other/ServiceDefenderWebGuidingSystem', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceDefenderWebGuidingSystemCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDefenderWebGuidingSystemLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDefenderWebGuidingSystemGroup($id, $name='Service Defender Web Guiding System', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDefenderWebGuidingSystemLg>', $name, $tech)
+!endprocedure

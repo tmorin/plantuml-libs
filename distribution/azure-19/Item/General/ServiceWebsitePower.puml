@@ -1,0 +1,24 @@
+' definition of the Item azure-19/Item/General/ServiceWebsitePower
+
+sprite $ServiceWebsitePowerXs [10x10/16z] LSc74S0W3C100QxxBvpJzJouynCKVjC55QulKKmifr3XlIvBu3UaSr5n2wyV
+
+sprite $ServiceWebsitePowerSm [12x12/16z] JSg50GGX30J0YG3fl-5tkUYQQpMLLh90rkj28oYbrH3sAtnw1BIsXSKcncYa81KD4HyLR2WhQnET5NS
+
+sprite $ServiceWebsitePowerMd [16x16/16z] NSZ7OKC120FG1mZolV_0wIU3klUhLAUnDtC4P0DE_Vj_rwWW_EyrgWcYYUTsImnogYRFYpbi6NKr118-rlEe3alajGzH708MqH0g40Dc6yJ1d83cxWALf7q1
+
+sprite $ServiceWebsitePowerLg [20x20/16z] {
+RS41WHn130Cm9V5ux_aJBe5A_kjooO3qfSk1oMf12I1l0N50LnPu0Wfx8085DjWnG_c-ls_iKaHvl-RtnutYSfoyzf47Wd6Die5kQ7FVR-b1xTc_dmib1BUc
+tz7XA6H1mNfW3nrm7Z3P0au1BmlCs69R9eS9v6K0UxVy0m
+}
+
+!procedure ServiceWebsitePower($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/General/ServiceWebsitePower', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceWebsitePowerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceWebsitePowerLg>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceWebsitePowerGroup($id, $name='Service Website Power', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceWebsitePowerLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,27 @@
+' definition of the Item azure-19/Item/Other/ServiceAksIstio
+
+sprite $ServiceAksIstioXs [10x10/16z] 9SQ53G0m30F1Bpgb_TUjh9peUY-OD0P9XQm0nkWXSZC2QtCAR6_TImvlSx3BTknz
+
+sprite $ServiceAksIstioSm [12x12/16z] DSU50SGm30D0cHtQVzo7gZ6Ut1sigeYNq0h4vVy614t-GcOtAPbP9Gn_3tBEhhtNOvtLUvCBYeLVc3-oZinBoFa2
+
+sprite $ServiceAksIstioMd [16x16/16z] {
+HOo55KGn20Hnk4Z_xHxykCxisuW8mndkhYhmHh8eNZHt1bIyM6S9oPCBjyYMHfnQWfb7y1LMJFTVBNungISsFe9RInpZvD4Q4esnyry7pX9mYLPuUbEmzSGd
+PkljCSxv1m
+}
+
+sprite $ServiceAksIstioLg [20x20/16z] {
+LSu70eGW34HHEgJT_xexMLloxKy51ghbQwCv9oYq_jQJRLZjm4Z5Vnp0G9xZgDFX8ySvssZdV5GgRAsTR3uMiIrlKmdrFsMhs-bm84OWLLq93p7i8u7X0gEN
+f1QtLSuV-Q8d0bQcI40ZuqoE9Y9vfMRs0m
+}
+
+!procedure ServiceAksIstio($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/Other/ServiceAksIstio', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAksIstioCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAksIstioLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAksIstioGroup($id, $name='Service Aks Istio', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAksIstioLg>', $name, $tech)
+!endprocedure

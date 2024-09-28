@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-19/bootstrap')
+
+' loads the Item which embeds the element ServiceAzureHybridCenterCard
+include('azure-19/Item/AzureEcosystem/ServiceAzureHybridCenter')
+
+' renders the element
+ServiceAzureHybridCenterCard('ServiceAzureHybridCenterCard', 'Service Azure Hybrid Center Card', 'an optional description')
+@enduml

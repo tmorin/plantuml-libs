@@ -1,0 +1,24 @@
+' definition of the Item azure-19/Item/Analytics/ServiceAnalysisServices
+
+sprite $ServiceAnalysisServicesXs [10x10/16z] RSb50S1000EmZWh-1O_f8D-WX-I4av0Pumws5veZht1cOo6PSodeZXrA6m
+
+sprite $ServiceAnalysisServicesSm [12x12/16z] TSO50e1G309GVZ2Ozp-mtVeMW3ynsRjgqTujPKVd1985fC0fuEauD4z9aqbDW2WXRDJFdXEyZ
+
+sprite $ServiceAnalysisServicesMd [16x16/16z] bOq54W0X3CIAf_z_CAwZTy5fCoj_YPtpJabCNVVRAVNYEm8eHCmHXwtQcolqD-eYD8_g6QNJ0eb9dm1v0xsxtzFxI04
+
+sprite $ServiceAnalysisServicesLg [20x20/16z] {
+fSr5WaH1309GIW9axd_WwP9lkvQtZ01-4Kl33PV7J0eKgJzd7INdh2u5jcLd4k0IO-Qq0_mpMUgO3SJaJ40Y1f-prkqnAoNB2vYU10Hfaiwh5wEfEeKRQXph
+CPFKgvupRxWfTS77_W4
+}
+
+!procedure ServiceAnalysisServices($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/Analytics/ServiceAnalysisServices', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAnalysisServicesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAnalysisServicesLg>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAnalysisServicesGroup($id, $name='Service Analysis Services', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAnalysisServicesLg>', $name, $tech)
+!endprocedure

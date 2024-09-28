@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-19/bootstrap')
+
+' loads the Item which embeds the element ServiceDefenderRtu
+include('azure-19/Item/Other/ServiceDefenderRtu')
+
+' renders the element
+ServiceDefenderRtu('ServiceDefenderRtu', 'Service Defender Rtu', 'an optional tech label', 'an optional description')
+@enduml

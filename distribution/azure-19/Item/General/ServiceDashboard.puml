@@ -1,0 +1,21 @@
+' definition of the Item azure-19/Item/General/ServiceDashboard
+
+sprite $ServiceDashboardXs [10x10/16z] Oy02M5410ojOX0L4WZ0Ja08XPhWyCniJ2B0niB6mmm72F
+
+sprite $ServiceDashboardSm [12x12/16z] TOk30G0130DJNFRV-6rSZUW7NeXUjm6rzrbYwyNSSvM6SEUCbzvCpANTFj654G
+
+sprite $ServiceDashboardMd [16x16/16z] bOhL0KC130990dJ_YVlS_RwGmqTq0QYSpkgw-ZvzeQM7KDbtPlTcP_IzDwYHH47sL9rHi9q3Kv_-Fj2_7NYW0G
+
+sprite $ServiceDashboardLg [20x20/16z] fSZL0O1G5CFGNcdPVsBS7Lx-Sb1Gv37UbN0Is29YidcDN5i2Yqt4D70q2vBUxMBeZCQfoJR1EfDYAYMOa99yAXRZbAIaKgfEWXt3one
+
+!procedure ServiceDashboard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/General/ServiceDashboard', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceDashboardCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDashboardLg>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDashboardGroup($id, $name='Service Dashboard', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDashboardLg>', $name, $tech)
+!endprocedure

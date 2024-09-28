@@ -1,0 +1,24 @@
+' definition of the Item azure-19/Item/Other/ServiceDefenderEngineeringStation
+
+sprite $ServiceDefenderEngineeringStationXs [10x10/16z] JSQ50S0030B1ZzFz1wxRHO1FFtvjXh4vGWhvVa8FbWUx4hSgBd603G
+
+sprite $ServiceDefenderEngineeringStationSm [12x12/16z] LSQ50S0m3CJ0RqZg_WENyHBRojTuNTsE1YR6Df0jdwqCcrtTMl2G-VNhtQ3crbgxi-wskm8
+
+sprite $ServiceDefenderEngineeringStationMd [16x16/16z] TSS50e0m30J1I-sM_pyOT-XKajLRU-fsxErPBcvj_cRQqh4D2yY6UJgpJaZOMsvD3LWJ3IiFkxLlb5P0McbZMpTHQxrdNeH-J
+
+sprite $ServiceDefenderEngineeringStationLg [20x20/16z] {
+TT050WGX34FH5cW3zx_m9gmZR_oFOoTruvQxdrQN5bpyqo3XG5PM49kIrWesuso-x7NAogLmfu8hDeaw3qlsLvFMjSCaDbvYlB6jr7Rs4dhE8W1iZPRaJSu3
+QpSF
+}
+
+!procedure ServiceDefenderEngineeringStation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/Other/ServiceDefenderEngineeringStation', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceDefenderEngineeringStationCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDefenderEngineeringStationLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDefenderEngineeringStationGroup($id, $name='Service Defender Engineering Station', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDefenderEngineeringStationLg>', $name, $tech)
+!endprocedure

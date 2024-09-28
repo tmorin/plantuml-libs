@@ -1,0 +1,24 @@
+' definition of the Item azure-19/Item/AiMachineLearning/ServiceContentSafety
+
+sprite $ServiceContentSafetyXs [10x10/16z] DSU75G0W20DHAst_WIN9yonyhWrbZPdrbyuXN-jhTrJSBg2C23CZq-oqkchQa6UF1m
+
+sprite $ServiceContentSafetySm [12x12/16z] BOo50S1030AZIFVVjtulKLZ4p-19stgh31c0F4-5ggt2kyjkT9DlFWzVhdtGFhb92jz-s2PGNt6Ohz6t5W0w41zvlmi
+
+sprite $ServiceContentSafetyMd [16x16/16z] TSf15aGH30NHW7hnzx_W5c3K1Ln70tknbOhj27MXRhlFHQJECZddDXRRYdkjLThU_R6yhRpPh3Do1vQzZuBiXx20l6tXLZ8aInRfWpR_OxiykVtw0G
+
+sprite $ServiceContentSafetyLg [20x20/16z] {
+PT254O0m44JHs5dwBvZT-0mVVtX4jQOtHUbNdPPxH9Tj3I3kYZoaqBWYh4o9mmggM9eUCzgupEoO8ENoM5szr-skXSlAN8ufCdTJRSjoE2AnXHRCAKtQGgSD
+ghpmeca2NKlIEouauTxDML9JTiPlESUSLl95bhDy
+}
+
+!procedure ServiceContentSafety($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/AiMachineLearning/ServiceContentSafety', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceContentSafetyCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceContentSafetyLg>', 'AiMachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure ServiceContentSafetyGroup($id, $name='Service Content Safety', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceContentSafetyLg>', $name, $tech)
+!endprocedure

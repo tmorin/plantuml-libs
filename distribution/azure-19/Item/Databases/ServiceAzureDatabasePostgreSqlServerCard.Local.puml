@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-19/bootstrap')
+
+' loads the Item which embeds the element ServiceAzureDatabasePostgreSqlServerCard
+include('azure-19/Item/Databases/ServiceAzureDatabasePostgreSqlServer')
+
+' renders the element
+ServiceAzureDatabasePostgreSqlServerCard('ServiceAzureDatabasePostgreSqlServerCard', 'Service Azure Database Postgre Sql Server Card', 'an optional description')
+@enduml

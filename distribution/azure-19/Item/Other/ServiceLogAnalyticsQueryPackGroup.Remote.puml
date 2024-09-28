@@ -1,0 +1,20 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-19/bootstrap')
+
+' loads the Item which embeds the element ServiceLogAnalyticsQueryPackGroup
+include('azure-19/Item/Other/ServiceLogAnalyticsQueryPack')
+
+' renders the element
+ServiceLogAnalyticsQueryPackGroup('ServiceLogAnalyticsQueryPackGroup', 'Service Log Analytics Query Pack Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

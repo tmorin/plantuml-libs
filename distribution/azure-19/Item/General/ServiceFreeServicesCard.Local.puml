@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-19/bootstrap')
+
+' loads the Item which embeds the element ServiceFreeServicesCard
+include('azure-19/Item/General/ServiceFreeServices')
+
+' renders the element
+ServiceFreeServicesCard('ServiceFreeServicesCard', 'Service Free Services Card', 'an optional description')
+@enduml

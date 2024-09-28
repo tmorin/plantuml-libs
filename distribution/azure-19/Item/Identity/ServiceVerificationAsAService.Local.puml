@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-19/bootstrap')
+
+' loads the Item which embeds the element ServiceVerificationAsAService
+include('azure-19/Item/Identity/ServiceVerificationAsAService')
+
+' renders the element
+ServiceVerificationAsAService('ServiceVerificationAsAService', 'Service Verification As A Service', 'an optional tech label', 'an optional description')
+@enduml

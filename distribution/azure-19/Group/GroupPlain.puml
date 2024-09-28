@@ -1,0 +1,17 @@
+' definition of the Item azure-19/Group/GroupPlain
+
+!procedure GroupPlain($id, $name='Plain', $tech='')
+  GroupElement($id, 'GroupPlain', $name, $tech)
+!endprocedure
+
+skinparam Rectangle<<GroupPlain>> {
+  StereotypeFontColor $FONT_COLOR
+  BorderThickness 1
+  BorderColor $AZURE_GROUP_BD_LIGHT
+  BorderStyle solid
+  FontStyle none
+  FontColor $FONT_COLOR
+  FontSize $FONT_SIZE_MD
+  BackgroundColor $AZURE_GROUP_BG_LIGHT
+  shadowing false
+}

@@ -1,0 +1,27 @@
+' definition of the Item azure-19/Item/Databases/ServiceAzureSqlEdge
+
+sprite $ServiceAzureSqlEdgeXs [10x10/16z] NSZ50S0m243H7y7ttxUnKnyEFpthJ5bglaLeQxcIhjfNXO9bQn9cq2gptEbGrfHbFLO27m
+
+sprite $ServiceAzureSqlEdgeSm [12x12/16z] RShN5G8m243H5pgu_xxAuTURGkKFDuwv-p2NBXpmGszw8Y72HJnY0Z9bxsJIKf_vgJ80KndMWnujbfRjpgPV
+
+sprite $ServiceAzureSqlEdgeMd [16x16/16z] {
+TSV70K8X50J0XPUN_llr4ymwjy5VugxFTIao-fdOn6Z4OfjZNUt0khrmGFs93V2BjAwpuUipsftf3aF4I7SELeI3w3cAh56P0II02ksTc9hFgvaK5cRM88l4
+G_5Yc6u
+}
+
+sprite $ServiceAzureSqlEdgeLg [20x20/16z] {
+XSn5WiL020JGmg7w_lSTyZshUKaRXd-8PGZkbEJ13u-8kc8KlCJJ7FZSGei0ST7u06HkHSimSG-j95RUi0NGNA6Ybcic0v2zYNk4QsHpNm2gYbic4ZtSHo13
+gmulk_V600BIfzcSmrwuOkiOI_qO7hInJfQ9f-290iWrBtZUCNjDNw_OY_I69l3q1m
+}
+
+!procedure ServiceAzureSqlEdge($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/Databases/ServiceAzureSqlEdge', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureSqlEdgeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureSqlEdgeLg>', 'Databases', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureSqlEdgeGroup($id, $name='Service Azure Sql Edge', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureSqlEdgeLg>', $name, $tech)
+!endprocedure

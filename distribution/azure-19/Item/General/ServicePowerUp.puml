@@ -1,0 +1,24 @@
+' definition of the Item azure-19/Item/General/ServicePowerUp
+
+sprite $ServicePowerUpXs [10x10/16z] LOc74G1120BNXFPVyS_dkpK2R2JYx7Cvd9mgSLAeX9sQxZvpEJDsvkTyc7CYN2Ja0G
+
+sprite $ServicePowerUpSm [12x12/16z] JSgt0SHG20Km0U-7_HU-uCggvIrCMyq2FT0G56C4bFtalRU2E3zbiN7l5QKLnn2e4ZImOQoUJQMdlW
+
+sprite $ServicePowerUpMd [16x16/16z] NSX18W0m402nR3jT_lzXS9HZ_3VDwU3jlKkW5rW3Lc0TJ0XMp0KXXxoy8nUjzXSjtkZZ5msApn-P4u-_U6HOnE4X1sA2N73V0LcuEu73xWPJ7Ty
+
+sprite $ServicePowerUpLg [20x20/16z] {
+ROz1OWHG14EHI7l_4_TBCrtL0XwW_XKGPDkbbfg773Md9BjFC-NS-NYfAqqnS5Fdja7g66J8KrtTHe7p6_2qf9Mwq6OWghuiU-ipyuzbPEcClaySzMdVSAZp
+X3inhzkeNv0xyeAifxRoWgjE45RDSPNPnzlqtsDEZtIbS8CNB3l5WplX1m
+}
+
+!procedure ServicePowerUp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/General/ServicePowerUp', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServicePowerUpCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServicePowerUpLg>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServicePowerUpGroup($id, $name='Service Power Up', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServicePowerUpLg>', $name, $tech)
+!endprocedure

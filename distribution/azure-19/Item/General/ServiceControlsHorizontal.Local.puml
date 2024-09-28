@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-19/bootstrap')
+
+' loads the Item which embeds the element ServiceControlsHorizontal
+include('azure-19/Item/General/ServiceControlsHorizontal')
+
+' renders the element
+ServiceControlsHorizontal('ServiceControlsHorizontal', 'Service Controls Horizontal', 'an optional tech label', 'an optional description')
+@enduml

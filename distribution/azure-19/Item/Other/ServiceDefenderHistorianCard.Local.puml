@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-19/bootstrap')
+
+' loads the Item which embeds the element ServiceDefenderHistorianCard
+include('azure-19/Item/Other/ServiceDefenderHistorian')
+
+' renders the element
+ServiceDefenderHistorianCard('ServiceDefenderHistorianCard', 'Service Defender Historian Card', 'an optional description')
+@enduml

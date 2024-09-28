@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-19/bootstrap')
+
+' loads the Item which embeds the element ServiceStorageAccountsCard
+include('azure-19/Item/Storage/ServiceStorageAccounts')
+
+' renders the element
+ServiceStorageAccountsCard('ServiceStorageAccountsCard', 'Service Storage Accounts Card', 'an optional description')
+@enduml

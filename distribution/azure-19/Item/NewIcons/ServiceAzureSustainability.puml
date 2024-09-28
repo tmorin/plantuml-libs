@@ -1,0 +1,24 @@
+' definition of the Item azure-19/Item/NewIcons/ServiceAzureSustainability
+
+sprite $ServiceAzureSustainabilityXs [10x10/16z] FSQt0S0W402ni-7Z_lkIGPKOFcMpQUQ_ywk-MKn86YkE2PCNaJtq1Ibq
+
+sprite $ServiceAzureSustainabilitySm [12x12/16z] HSR50S0W542nXttRVzyM9wSm54biEknECbfroM2FsAC-vMmXp6A6D_28aDGwfYpIMc8guon2AV03
+
+sprite $ServiceAzureSustainabilityMd [16x16/16z] NSV70S0m24MnHmmVulttJQ_MJPnSZPTorxX4dknwtjYPdZkW-ZBgByVFbyIhpyvLUPLw3tIUSc83j5sQQwjncLpxUUX_nNRndjCA
+
+sprite $ServiceAzureSustainabilityLg [20x20/16z] {
+XSrL0a0X24JHaHpT_tvVTzxFem2MYeVXL8afFrAkxPPRsxpatavxNaRYjPtstFYNgwXdrgrXaRErr7AWPAsjLGTN0vb0kZiGCuLIuMC5MomQas5F96w66EnE
+TpCCfZZPTgy7
+}
+
+!procedure ServiceAzureSustainability($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/NewIcons/ServiceAzureSustainability', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureSustainabilityCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureSustainabilityLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureSustainabilityGroup($id, $name='Service Azure Sustainability', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureSustainabilityLg>', $name, $tech)
+!endprocedure

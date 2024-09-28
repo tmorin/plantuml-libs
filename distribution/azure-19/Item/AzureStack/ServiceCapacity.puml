@@ -1,0 +1,24 @@
+' definition of the Item azure-19/Item/AzureStack/ServiceCapacity
+
+sprite $ServiceCapacityXs [10x10/16z] BOY55K0n30BvqZZxZrk_2FV0iy2YkNlxZv4ybcIrOvbwR27o0R99zMqU7krs9eAROWC
+
+sprite $ServiceCapacitySm [12x12/16z] PSp50S0m40D1uqgX_iiDi-Trg10FOLDtvQZBjAf7VMZdRDutm1h5HWozkwFk97LdZQmQpXe9Zje6bmK
+
+sprite $ServiceCapacityMd [16x16/16z] ZSf50iGm509GsYRmn-v_tBYlvkqGu6fGkQvbJ_ibNz-p-Cj6Rixzxtz3Jzufin8foIwCo1HVlcM-NvQy0NOoyTcoCHKjY8N3M3CY0W
+
+sprite $ServiceCapacityLg [20x20/16z] {
+PSu93eGm28LXN5xPPkv_NGDH8Edl_gbjYOwAlgwxAmCq0uR9_S_QRhZkLWqppyz-G5cFDumzusdTRYkwqjORny4i7DRaRYnwb8daTwB3bffP78X_AnPXlYbj
+O8nAXE-vJaURy7kTwvE8GVG
+}
+
+!procedure ServiceCapacity($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/AzureStack/ServiceCapacity', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceCapacityCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceCapacityLg>', 'AzureStack', $funcName, $content)
+!endprocedure
+
+!procedure ServiceCapacityGroup($id, $name='Service Capacity', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceCapacityLg>', $name, $tech)
+!endprocedure

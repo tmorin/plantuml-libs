@@ -1,0 +1,21 @@
+' definition of the Item azure-19/Item/General/ServiceStorageQueue
+
+sprite $ServiceStorageQueueXs [10x10/16z] Oy06k620WHK665WP61WPMPYOe2nML1ORcCNCpCR01WC8um
+
+sprite $ServiceStorageQueueSm [12x12/16z] TSQ34G0140ImFQF_Vjz6Hi6VFjrkghQ10JHXbltykWCyNKJy_XCkHW
+
+sprite $ServiceStorageQueueMd [16x16/16z] fSUr0O1050Mmzrts7nWwN2zTyAGs4hrrk6t1580HaJ7pq4LaljlgxiTluS44
+
+sprite $ServiceStorageQueueLg [20x20/16z] fSc30G0n4031dD5_lsyR6q_AdtANFJRPnOqH8Z8rIRjpPwM9e8dRtzdupEIjgIwiIVJCO6-xZepAmse
+
+!procedure ServiceStorageQueue($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/General/ServiceStorageQueue', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceStorageQueueCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceStorageQueueLg>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceStorageQueueGroup($id, $name='Service Storage Queue', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceStorageQueueLg>', $name, $tech)
+!endprocedure

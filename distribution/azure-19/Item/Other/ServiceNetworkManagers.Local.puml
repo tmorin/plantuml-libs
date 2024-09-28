@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-19/bootstrap')
+
+' loads the Item which embeds the element ServiceNetworkManagers
+include('azure-19/Item/Other/ServiceNetworkManagers')
+
+' renders the element
+ServiceNetworkManagers('ServiceNetworkManagers', 'Service Network Managers', 'an optional tech label', 'an optional description')
+@enduml

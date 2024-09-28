@@ -1,0 +1,21 @@
+' definition of the Item azure-19/Item/Identity/ServiceSecurity
+
+sprite $ServiceSecurityXs [10x10/16z] Oq01R6niC9eDmcQ701mi3WXWW34Xfd1oSi8C13C
+
+sprite $ServiceSecuritySm [12x12/16z] Oq07R6oi40Oh6mIm0DdiC40acuq30i068RCPE440PXU82GSGQm4
+
+sprite $ServiceSecurityMd [16x16/16z] dSgr0K0X30JGYoVx3_nTWOhNdM1CbBx9TrT3_jepnsiceytvElSdCdw7mAKEYSSJty8mj08
+
+sprite $ServiceSecurityLg [20x20/16z] fSg33K1H5C3GFbtiF_2tZHCtvL9W8qbhUMGPb3ZSif9ewSgVbX-sGAlO4hsZfkkq7GiJ7oWBwpIm9XKsidEb1W
+
+!procedure ServiceSecurity($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/Identity/ServiceSecurity', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceSecurityCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceSecurityLg>', 'Identity', $funcName, $content)
+!endprocedure
+
+!procedure ServiceSecurityGroup($id, $name='Service Security', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceSecurityLg>', $name, $tech)
+!endprocedure

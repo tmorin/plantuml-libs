@@ -1,0 +1,21 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-19/bootstrap')
+
+' loads the Item which embeds the element ServiceCloudServicesExtendedSupportGroup
+include('azure-19/Item/Other/ServiceCloudServicesExtendedSupport')
+
+' renders the element
+ServiceCloudServicesExtendedSupportGroup('ServiceCloudServicesExtendedSupportGroup', 'Service Cloud Services Extended Support Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

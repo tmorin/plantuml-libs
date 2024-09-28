@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-19/bootstrap')
+
+' loads the Item which embeds the element ServiceConnections
+include('azure-19/Item/Networking/ServiceConnections')
+
+' renders the element
+ServiceConnections('ServiceConnections', 'Service Connections', 'an optional tech label', 'an optional description')
+@enduml

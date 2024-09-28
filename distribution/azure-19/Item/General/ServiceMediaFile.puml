@@ -1,0 +1,21 @@
+' definition of the Item azure-19/Item/General/ServiceMediaFile
+
+sprite $ServiceMediaFileXs [10x10/16z] Oq00HX31XM21c4mCR20M5vZ51b771A4Wia20oM96LGS
+
+sprite $ServiceMediaFileSm [12x12/16z] PSV50S0W5C3G0D_ttxVkVQU4ltfsFVgOOU2BlHiBvN3siCNHhI_0k1pTsjbsI6O
+
+sprite $ServiceMediaFileMd [16x16/16z] TSc53G0n0810whB_lYzrlIY1ZTM9QqtYujfnQXzZ56cWh03dFxMj0V5H_IT_UvAnHT9Qg0JGgPLDIWUwr4YjjO3R7oXU
+
+sprite $ServiceMediaFileLg [20x20/16z] bSg53K0X54FHul3st_ShxjnOSr9qOzfdM3BXXo7MiO2vHUIvaGWcD9uqHUJoCIq1flIJIQRXIyPHMvwTcDH_ulYdaEUyIN_ApJStc3BW1W
+
+!procedure ServiceMediaFile($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/General/ServiceMediaFile', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceMediaFileCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceMediaFileLg>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceMediaFileGroup($id, $name='Service Media File', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceMediaFileLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,17 @@
+' definition of the Item azure-19/Group/GroupDotted
+
+!procedure GroupDotted($id, $name='Dotted', $tech='')
+  GroupElement($id, 'GroupDotted', $name, $tech)
+!endprocedure
+
+skinparam Rectangle<<GroupDotted>> {
+  StereotypeFontColor $FONT_COLOR
+  BorderThickness 1
+  BorderColor $AZURE_GROUP_BD_DARK
+  BorderStyle dotted
+  FontStyle none
+  FontColor $FONT_COLOR
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}

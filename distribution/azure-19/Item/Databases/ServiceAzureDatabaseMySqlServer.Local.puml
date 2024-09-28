@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-19/bootstrap')
+
+' loads the Item which embeds the element ServiceAzureDatabaseMySqlServer
+include('azure-19/Item/Databases/ServiceAzureDatabaseMySqlServer')
+
+' renders the element
+ServiceAzureDatabaseMySqlServer('ServiceAzureDatabaseMySqlServer', 'Service Azure Database My Sql Server', 'an optional tech label', 'an optional description')
+@enduml

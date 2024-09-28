@@ -1,0 +1,21 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-19/bootstrap')
+
+' loads the Item which embeds the element ServiceOnPremisesDataGatewaysGroup
+include('azure-19/Item/Networking/ServiceOnPremisesDataGateways')
+
+' renders the element
+ServiceOnPremisesDataGatewaysGroup('ServiceOnPremisesDataGatewaysGroup', 'Service On Premises Data Gateways Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

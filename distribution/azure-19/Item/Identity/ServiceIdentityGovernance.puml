@@ -1,0 +1,27 @@
+' definition of the Item azure-19/Item/Identity/ServiceIdentityGovernance
+
+sprite $ServiceIdentityGovernanceXs [10x10/16z] HSZ50S1G2C3GVCFs7xYvzU7mMs7ROmyUQGy6gWgfU-D7jVmzjg_enb-qCf90ziEAwJi47m
+
+sprite $ServiceIdentityGovernanceSm [12x12/16z] LOg74G1120Bt4ehz5_p3v5-pm0-zfTDp1OT3o5mILOK40tGx7QLFV8wxUlK5qs1VE-x5dW3Y7H6kG8YmBd2mFUp51m
+
+sprite $ServiceIdentityGovernanceMd [16x16/16z] {
+PKj70WGn22AQiVt_mIjn-t2Xumu5AZDB8RGcDhcPKbtG6Ocs1jmCwkuSjBVDB29qNWL-CfCiXiFBowOzVeUjY8_ljqHug-H_vQ27olF7SsngED2zMwbWFCb8
+vh6QPPaf1bvL5uW7
+}
+
+sprite $ServiceIdentityGovernanceLg [20x20/16z] {
+TSu7YaKn28NXtv9ZhljVy2H4UBJvQ6BdV_gwUmV39E4S_hKa3WMvU9Iu03cnO5NySbiIr94WoO3ci7qnzABz7LmDB-2c_EMSdeUMLd99azixhNPnhCcT_NNF
+E52BxRDDSwMDIB3kmVosPD-eL1MWJ36K8Gx1BmSPWDmLF0gN0IP5zwUiDgG0XglaF7y
+}
+
+!procedure ServiceIdentityGovernance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/Identity/ServiceIdentityGovernance', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceIdentityGovernanceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceIdentityGovernanceLg>', 'Identity', $funcName, $content)
+!endprocedure
+
+!procedure ServiceIdentityGovernanceGroup($id, $name='Service Identity Governance', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceIdentityGovernanceLg>', $name, $tech)
+!endprocedure

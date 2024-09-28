@@ -1,0 +1,24 @@
+' definition of the Item azure-19/Item/Iot/ServiceIoTCentralApplications
+
+sprite $ServiceIoTCentralApplicationsXs [10x10/16z] BKY70S10417lx3zoNDNHP-p95yr8EGH8jfUKv5u-IPw4HocfC_NGNeMJjlOV
+
+sprite $ServiceIoTCentralApplicationsSm [12x12/16z] DSQB0S0W20FH0vFilt7hznHuxC9BSMghOY1vgnU4frOWP3IPvPcaF8-MjWVqT6-xOC2-s50Mx6mp-m4
+
+sprite $ServiceIoTCentralApplicationsMd [16x16/16z] JOs50S0m3CCAjly_UL56rL1kO3nad3Z9-cmdazTjCzbF4ObYmgucaEfd0INbHc7Z7KYb2TweoEbxIVwzgYbf5ylndi_ZMU_DO_pzJ0vkP5NP7Z-c1Yu
+
+sprite $ServiceIoTCentralApplicationsLg [20x20/16z] {
+NOw50G0n20EHXFqthj2ytciFjPkoFwog_1WiO_kvSPsoYbBBnDsXhQjFX2jXkKxts7G3oiN5vGZ3CLdj5g01kKtTpjomgRUppWFuSHaHMBoTo_arLoi3_KFs
+M7hNzuidnKdr2Ftf7oVczW1kmhvqeyC4
+}
+
+!procedure ServiceIoTCentralApplications($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/Iot/ServiceIoTCentralApplications', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceIoTCentralApplicationsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceIoTCentralApplicationsLg>', 'Iot', $funcName, $content)
+!endprocedure
+
+!procedure ServiceIoTCentralApplicationsGroup($id, $name='Service Io T Central Applications', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceIoTCentralApplicationsLg>', $name, $tech)
+!endprocedure

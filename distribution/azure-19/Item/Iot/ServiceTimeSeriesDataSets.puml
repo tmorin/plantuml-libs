@@ -1,0 +1,24 @@
+' definition of the Item azure-19/Item/Iot/ServiceTimeSeriesDataSets
+
+sprite $ServiceTimeSeriesDataSetsXs [10x10/16z] Oq02Z2mWm0XcSN9oCe9Ot5mWm8t6OkDYPeAn69bWifnewZZ1B6O6
+
+sprite $ServiceTimeSeriesDataSetsSm [12x12/16z] VOl50OC040JFjVzw4znXNgjm1cM0SPAi7gv4WsuZHEJ8KNTDt3GM5VAI8sxQlAJSlhwGatI0Fm
+
+sprite $ServiceTimeSeriesDataSetsMd [16x16/16z] TOm50WKW348bZE7zp_kxuvdRWFO3W9A8U-aRmhNcg1FBuANUGpZZjQ_rpeq_TQdYqxxNI5eGtEj2CPwFsbxe2CPBNl5l_l-wsfLrgKOxSGG
+
+sprite $ServiceTimeSeriesDataSetsLg [20x20/16z] {
+bP350GH140AtMcVO_ECzTxzwjWBBMy3smBNYSUPSXOZ8FH5-gZN4c7iAi4DDQmK7BCTwhgswy7Uj2AM5sgyrf7AbjztEjPLwkQr9b2kuhHcbnDHcy_ulytzz
+uwvs2cRUrFoQQdQFhbDwMm
+}
+
+!procedure ServiceTimeSeriesDataSets($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/Iot/ServiceTimeSeriesDataSets', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceTimeSeriesDataSetsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceTimeSeriesDataSetsLg>', 'Iot', $funcName, $content)
+!endprocedure
+
+!procedure ServiceTimeSeriesDataSetsGroup($id, $name='Service Time Series Data Sets', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceTimeSeriesDataSetsLg>', $name, $tech)
+!endprocedure

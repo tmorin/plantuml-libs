@@ -1,0 +1,21 @@
+' definition of the Item azure-19/Item/Other/ServiceWindowsNotificationServices
+
+sprite $ServiceWindowsNotificationServicesXs [10x10/16z] DSU53S103CLGA_sX_GVkyHFPW6a3T62cRrz4h09bfexQGaazzCEIoIK13
+
+sprite $ServiceWindowsNotificationServicesSm [12x12/16z] PSsr0G0W30J0ns7_XV7eDH37aX_tZo6azQzBlju_BJct9J_zQYk9pZ0OklXliLLyxoGc
+
+sprite $ServiceWindowsNotificationServicesMd [16x16/16z] XSd50G0n30D1cUt-2pvcIEQt4cQY1yoqsyVgi-CzcXQY6ZCzl3eFymVaoJE1kdbtFdeLuRWoiqkHJ1YB4G
+
+sprite $ServiceWindowsNotificationServicesLg [20x20/16z] ZSg54S0m3CNG7xBT_GSkXJdlM2Vyj2qO_6nbsSmdDFrvK_7JpmPb2rzO-MSBvqqAz2q6a18xbj1ANxjQeqQ03Bw0c1aDHqHes1Sgslmql0S
+
+!procedure ServiceWindowsNotificationServices($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/Other/ServiceWindowsNotificationServices', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceWindowsNotificationServicesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceWindowsNotificationServicesLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceWindowsNotificationServicesGroup($id, $name='Service Windows Notification Services', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceWindowsNotificationServicesLg>', $name, $tech)
+!endprocedure

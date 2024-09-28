@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-19/bootstrap')
+
+' loads the Item which embeds the element ServiceDeviceProvisioningServicesCard
+include('azure-19/Item/Iot/ServiceDeviceProvisioningServices')
+
+' renders the element
+ServiceDeviceProvisioningServicesCard('ServiceDeviceProvisioningServicesCard', 'Service Device Provisioning Services Card', 'an optional description')
+@enduml

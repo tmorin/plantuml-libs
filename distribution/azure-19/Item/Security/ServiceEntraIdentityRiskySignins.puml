@@ -1,0 +1,27 @@
+' definition of the Item azure-19/Item/Security/ServiceEntraIdentityRiskySignins
+
+sprite $ServiceEntraIdentityRiskySigninsXs [10x10/16z] JOkt0S1020FFYRJ_lW-eiXfbVgY5IwISqWbI2WAc3u6jbHaVlAiVq-r-xBMr8-qpQm
+
+sprite $ServiceEntraIdentityRiskySigninsSm [12x12/16z] LOs50G0X3CI2r6x_VTyrK3V-Q2Uut2n9G5C3A2K7QI1n1OuBygGrZIlViBfSS0Ec0kZU_3hLtQSt82Hpt_uA
+
+sprite $ServiceEntraIdentityRiskySigninsMd [16x16/16z] {
+ROy50iGW40DNkY7m___YS3ejCi7b3waCqZOj1vlUEpGrzbQNwvrtT-0AuYF8Ou8lI1KRpejezqDNSGw_2iXq7Plq4XP3pqqHYkaTfYSGZXdaaGZmA63dWO55
+0m
+}
+
+sprite $ServiceEntraIdentityRiskySigninsLg [20x20/16z] {
+TSy73iGm24HHC30ckV-1DupSjdqrwxdBlrhU5GuYi3v4xwDBs1eQbVQSfMDBVyna5fr7NMFXmCnna6vqOkVTc6LXu-OyWYXDPvd1Lroo8W5onq4kOe2xy54k
+8vY2W_trA7DQbKrD0JTWV9X9r6aOQ4Mz0OWo4wReRZ6o5m
+}
+
+!procedure ServiceEntraIdentityRiskySignins($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/Security/ServiceEntraIdentityRiskySignins', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceEntraIdentityRiskySigninsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceEntraIdentityRiskySigninsLg>', 'Security', $funcName, $content)
+!endprocedure
+
+!procedure ServiceEntraIdentityRiskySigninsGroup($id, $name='Service Entra Identity Risky Signins', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceEntraIdentityRiskySigninsLg>', $name, $tech)
+!endprocedure
