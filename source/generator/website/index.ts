@@ -52,7 +52,7 @@ const argv = yargs
   .help().argv as YamlGeneratorArgs
 
 async function execute() {
-  // eslint-disable-next-line @typescript-eslint/no-var-requires
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
   const version = require(
     P.join(__dirname, "../../../", "package.json"),
   ).version
