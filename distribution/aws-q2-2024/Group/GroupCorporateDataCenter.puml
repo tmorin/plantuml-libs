@@ -1,0 +1,25 @@
+' definition of the Item aws-q2-2024/Group/GroupCorporateDataCenter
+
+sprite $CorporateDataCenterXs [10x10/16z] OoSUC80G1A2o204
+
+sprite $CorporateDataCenterSm [12x12/16z] OyS7c9aPaNZOs6mixEmiJ50sAn0pGzaW0iPcWxCHQi3o881c9G
+
+sprite $CorporateDataCenterMd [16x16/16z] OoSAi041Cf-HdPs5V3xKA2O4dmr4Cb5DdWKCW7p2
+
+sprite $CorporateDataCenterLg [20x20/16z] hOg54G112CGMxx_YTzSpd4oYGOW8Nv0lVM9Z5daEZ0muMzFo4-EHmk-U_NioCZgnVMTxOKj4LlG
+
+!procedure GroupCorporateDataCenter($id, $name='Corporate data center', $tech='')
+  IconGroupElement($id, 'GroupCorporateDataCenter', '<$CorporateDataCenterLg>', $name, $tech)
+!endprocedure
+
+skinparam Rectangle<<GroupCorporateDataCenter>> {
+  StereotypeFontColor $AWS_COLOR_GREY
+  BorderThickness 1
+  BorderColor $AWS_COLOR_GREY
+  BorderStyle solid
+  FontStyle none
+  FontColor $AWS_COLOR_GREY
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}

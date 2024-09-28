@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2024/bootstrap')
+
+' loads the Item which embeds the element AmazonOpenSearchServiceIndex
+include('aws-q2-2024/Resource/Analytics/AmazonOpenSearchServiceIndex')
+
+' renders the element
+AmazonOpenSearchServiceIndex('AmazonOpenSearchServiceIndex', 'Amazon Open Search Service Index', 'an optional tech label', 'an optional description')
+@enduml

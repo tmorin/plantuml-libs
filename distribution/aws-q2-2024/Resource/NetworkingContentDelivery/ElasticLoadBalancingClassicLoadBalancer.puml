@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2024/Resource/NetworkingContentDelivery/ElasticLoadBalancingClassicLoadBalancer
+
+sprite $ElasticLoadBalancingClassicLoadBalancerXs [10x10/16z] JOY50S1020CFp_uBr-KXpdfwY5NceAU56ExPAC3z8FPjGe0Txw0wJm1Jfe0T
+
+sprite $ElasticLoadBalancingClassicLoadBalancerSm [12x12/16z] NShLGGLG30Mmt0hj_Wi3poL_HtpPFBKkAlgVT17merYXjnqjnN-tVQmZ9jbZb5V_-WSPvsgWN8ohdjd07m
+
+sprite $ElasticLoadBalancingClassicLoadBalancerMd [16x16/16z] RSQxeSKm20KmWMCE-o_ylYclAlcaDzdmsW9dW7H-BO7L8CkbIrEtgikmj92ejtrAnYb6wDd55B7qKtATuWfjcIY5e-dRb61qlKv1l9u7k0ELujMJ2tm3
+
+sprite $ElasticLoadBalancingClassicLoadBalancerLg [20x20/16z] {
+TSu7OW0X24JHFo0CzpznijNKjrMbyRzeZqjiQv933m-NBk2yjnIr3ZPC0AmaEDKo661uzd96o11vxhbN6ma6ccFFe2aVUoLyxAahnzN7NeWvzi9nVGLwughq
+nAMed_K6r7VVUFlk-GJ7tWe07xKlANoFJprYkAJ5PPcNfq8vatobJzm-
+}
+
+!procedure ElasticLoadBalancingClassicLoadBalancer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/NetworkingContentDelivery/ElasticLoadBalancingClassicLoadBalancer', $name, $tech, $desc)
+!endprocedure
+
+!procedure ElasticLoadBalancingClassicLoadBalancerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ElasticLoadBalancingClassicLoadBalancerLg>', 'NetworkingContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure ElasticLoadBalancingClassicLoadBalancerGroup($id, $name='Elastic Load Balancing Classic Load Balancer', $tech='')
+  IconGroupElement($id, 'NetworkingContentDeliveryFamily', '<$ElasticLoadBalancingClassicLoadBalancerLg>', $name, $tech)
+!endprocedure

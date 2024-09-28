@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2024/Architecture/Containers/AmazonEksCloud
+
+sprite $AmazonEksCloudXs [10x10/16z] OyS1c5WXD0Cx0pEG00in0PbG5bG8I34XwuB8GvGX
+
+sprite $AmazonEksCloudSm [12x12/16z] VOk50O0m30I9_Uq_CUxGNboU7kRik8ogRKae2jzwp7Nr34UlDCAO2R7MGsqpR8WF4m
+
+sprite $AmazonEksCloudMd [16x16/16z] dSwr0S1034DHa_ptdpYCLK27pvNua_OEdGpHyspdl1sKgqM09iLkeSQlTlpcDh3JKGMaLWSOS_meq3v7Pq7nBYC
+
+sprite $AmazonEksCloudLg [20x20/16z] hOpN0S1G208LDBV_nEazlxbNLO0VyD2y27K7TsJKO7Em2gAztdlFK88X2tJrX0ZyxeblBr4C7-_SyTKZZlZSUrNGkLS1ryU7wS2YSiLSH9e_c
+
+!procedure AmazonEksCloud($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Architecture/Containers/AmazonEksCloud', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonEksCloudCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonEksCloudLg>', 'Containers', $funcName, $content)
+!endprocedure
+
+!procedure AmazonEksCloudGroup($id, $name='Amazon Eks Cloud', $tech='')
+  IconGroupElement($id, 'ContainersFamily', '<$AmazonEksCloudLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2024/bootstrap')
+
+' loads the Item which embeds the element AmazonEc2AutoScalingCard
+include('aws-q2-2024/Resource/Compute/AmazonEc2AutoScaling')
+
+' renders the element
+AmazonEc2AutoScalingCard('AmazonEc2AutoScalingCard', 'Amazon Ec2 Auto Scaling Card', 'an optional description')
+@enduml

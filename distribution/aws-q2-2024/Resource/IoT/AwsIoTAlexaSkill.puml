@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2024/Resource/IoT/AwsIoTAlexaSkill
+
+sprite $AwsIoTAlexaSkillXs [10x10/16z] HKY50G112EBEOF-9Fsnfx6avGoZ0pNJv9yOUoJwNIDuRUE0U2P3OUFFu0W
+
+sprite $AwsIoTAlexaSkillSm [12x12/16z] JKo30G104EhO_XE_SLQ5QfHh1ddNF4LYp-4ZOSX7Yp-7xDac9zVCKUtf97EseazO7YCw
+
+sprite $AwsIoTAlexaSkillMd [16x16/16z] POw5WGGm3CCKilUV-A5mg6BOV64zCPXN2grtfjQhPJk0oMiRTJdwsBbh1czRxDhfRPkDOjl3BBjdsrJbgh_sH8WgSsnAjlJKyqJl-Yl-avy4lm
+
+sprite $AwsIoTAlexaSkillLg [20x20/16z] {
+ROy54W0W20GfZ_-_s6xTOMff-g9-WABigl4I5yhTiMUK2j8Th4tU78Wy8-JJYMQR2K9XE1-BG7YSY2qNccFbjuwtUT3-WgzRse4c9iELOzd8ODZ-O3VKeuTh
+I1dP7UYYtEKgEw4DEyWY0G
+}
+
+!procedure AwsIoTAlexaSkill($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/IoT/AwsIoTAlexaSkill', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTAlexaSkillCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTAlexaSkillLg>', 'IoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTAlexaSkillGroup($id, $name='Aws Io T Alexa Skill', $tech='')
+  IconGroupElement($id, 'IoTFamily', '<$AwsIoTAlexaSkillLg>', $name, $tech)
+!endprocedure

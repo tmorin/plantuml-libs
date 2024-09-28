@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2024/Resource/Storage/AmazonSimpleStorageServiceS3BatchOperations
+
+sprite $AmazonSimpleStorageServiceS3BatchOperationsXs [10x10/16z] Oq07B0W2NO8HI489TWPc9Y2B6SHbOOAAWG1G3AQN4GnO6HW
+
+sprite $AmazonSimpleStorageServiceS3BatchOperationsSm [12x12/16z] JSor0G102CNGuFjlV2wl2B-2dyh6aBDoCy-inmGb90JHssNrdNrBqLjpTw_A5UzdRdqt
+
+sprite $AmazonSimpleStorageServiceS3BatchOperationsMd [16x16/16z] ROw50G0W2C3i_N-ntJ1p1c1-I0jiytIkfjlqUlZk-tRIdTuxLAUlxIPsRq0wth-q4P_tmOJpFWwwEtEedfQhzNDeMW
+
+sprite $AmazonSimpleStorageServiceS3BatchOperationsLg [20x20/16z] ROy53i0m24NxqVkVU8Q4XBrfNukTFymduNmU4BIJvLHqdvCTkwXyS2jG-O0w15G-uFc0dmFXOjVzTOHqbETOombhEUbpUbQD3tZJ-IQPRyscQruCD1mceMu
+
+!procedure AmazonSimpleStorageServiceS3BatchOperations($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/Storage/AmazonSimpleStorageServiceS3BatchOperations', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceS3BatchOperationsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonSimpleStorageServiceS3BatchOperationsLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceS3BatchOperationsGroup($id, $name='Amazon Simple Storage Service S3 Batch Operations', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonSimpleStorageServiceS3BatchOperationsLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2024/Architecture/ArtificialIntelligence/AmazonComprehend
+
+sprite $AmazonComprehendXs [10x10/16z] TS630G01302nkhV_mcyZuK-nIYHPk4Xmw68b91jbOXDFBaO
+
+sprite $AmazonComprehendSm [12x12/16z] TKY30G1H2Csr_yA7RzPpN0yGeMQC8AbP91nADZUhEIkrh0bbD-qxOhGpY-bU
+
+sprite $AmazonComprehendMd [16x16/16z] bOp50KC12CMAP_-5-zqz9tZ6To8pVwi_0VLSVbKtq-KF8g8sUTZ_UEZuYuWA3ZBjAH1PiivRHAt_L1cF0THvfW4
+
+sprite $AmazonComprehendLg [20x20/16z] fSw53KLH20FGOeNz5tukLo9VJepWzH_QZbtEQYUSS-7UvIAY04IRoymzy3O7mwRFyR3b-EPkIEMTKrMgbkml3NtONsf-sMCb7EC-4Hrlm21NIBriIrYJh6-i
+
+!procedure AmazonComprehend($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Architecture/ArtificialIntelligence/AmazonComprehend', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonComprehendCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonComprehendLg>', 'ArtificialIntelligence', $funcName, $content)
+!endprocedure
+
+!procedure AmazonComprehendGroup($id, $name='Amazon Comprehend', $tech='')
+  IconGroupElement($id, 'ArtificialIntelligenceFamily', '<$AmazonComprehendLg>', $name, $tech)
+!endprocedure

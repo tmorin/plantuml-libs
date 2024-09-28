@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2024/Resource/GroupIcons/VirtualPrivateCloudVpc
+
+sprite $VirtualPrivateCloudVpcXs [10x10/16z] uy0EsDYP4Hn6PZ098XWOe68Gcfc92KaJ2mSRb8KYp04
+
+sprite $VirtualPrivateCloudVpcSm [12x12/16z] VSY50S0W34HH92VxJzpKdOyzua4AxfpHjb_t70u2NVd4x1frdb5IMhFdPiTkLlX8lZS1
+
+sprite $VirtualPrivateCloudVpcMd [16x16/16z] dOk54S0m3CGkHks_S2buL5BG3_mXH6KT4x3CFkjrPnUYpgHKeTubK9yZeLfigJkQTSOFbhaIQEWoYnHt5ao3PtO
+
+sprite $VirtualPrivateCloudVpcLg [20x20/16z] hSb5WW8m40NHjFsk-rzu1eV83bwymYyq2taJEIVTT_4MzyE8gQqtuy47O_vpjUGzDGrXYAk2nzdqen7cxZ6rXsFBR4fCGXvbpDpS-T8_
+
+!procedure VirtualPrivateCloudVpc($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/GroupIcons/VirtualPrivateCloudVpc', $name, $tech, $desc)
+!endprocedure
+
+!procedure VirtualPrivateCloudVpcCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$VirtualPrivateCloudVpcLg>', 'GroupIcons', $funcName, $content)
+!endprocedure
+
+!procedure VirtualPrivateCloudVpcGroup($id, $name='Virtual Private Cloud Vpc', $tech='')
+  IconGroupElement($id, 'GroupIconsFamily', '<$VirtualPrivateCloudVpcLg>', $name, $tech)
+!endprocedure

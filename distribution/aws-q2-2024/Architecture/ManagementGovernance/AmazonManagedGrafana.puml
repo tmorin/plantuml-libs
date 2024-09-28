@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2024/Architecture/ManagementGovernance/AmazonManagedGrafana
+
+sprite $AmazonManagedGrafanaXs [10x10/16z] RSR50GGX402mmI7zztikQtd5jQmrNmaK8g9WhX9JH_GIyPe6hyd9pXq
+
+sprite $AmazonManagedGrafanaSm [12x12/16z] VSQr0SHG502WxyB--vxaTJ4glCXrBA4Z2vLMWOqq--geTawRZgddrECAY6lCKZVOqyKN
+
+sprite $AmazonManagedGrafanaMd [16x16/16z] ZKt50S102ADuil--TN-T0p6EBFnw3rDzsjZmVdhzQb3h8q3veR5j9WHuzSsMjJrxfMvzNptI2RtwA-zWFd-xMbs9anKuj1O
+
+sprite $AmazonManagedGrafanaLg [20x20/16z] {
+fSZ7WS9040NHFwPTvP_lBY0ltU2DxU9dqpoBY-gGreqJAm069-tyBCgM8g1OZ08Gajho1m660F2bHL8r47aqI_pJT3HKpqPdSMvXpyP887squUnQLmkkYY_y
+0m
+}
+
+!procedure AmazonManagedGrafana($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Architecture/ManagementGovernance/AmazonManagedGrafana', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonManagedGrafanaCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonManagedGrafanaLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AmazonManagedGrafanaGroup($id, $name='Amazon Managed Grafana', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AmazonManagedGrafanaLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2024/Resource/IoT/AwsIoTLambdaFunction
+
+sprite $AwsIoTLambdaFunctionXs [10x10/16z] JSc50S0m2031n_UVk8qRUl2-MebKxoDoG0xj4e17HscfhLJ_IlQhqYkhPaWr-G4
+
+sprite $AwsIoTLambdaFunctionSm [12x12/16z] NSB94SD030CmoDQI_LUS-nKC_EarMt1BoWqCM8eArkLN3MaTOerbgOgZZc4J98450RRfu0a
+
+sprite $AwsIoTLambdaFunctionMd [16x16/16z] RKs74O0m4FeMs7zZXSzvpKetyNSL2UAJB4DV1y5CcZdr4oa-xrOyEsvXCIdVBMj9Zuy1COpsm7dh12UZBuHK9ntQB8sfIGCZ13ht7_VgNXmxoRGoFvXb3m
+
+sprite $AwsIoTLambdaFunctionLg [20x20/16z] {
+TSu74WCX20301HN-_-CCSvEUx5MLvhyyrRNni7ePfzrLdW6r61KQRNJ2IXgsqVTNTTy3eyXbn9QFm6FiU0GUokZEBHCoz1Ls7e4H2ffQQILMsCn_R4qV6jUd
+sN5VQBb4tQVO2JLWpxUCrJpS_xC3LwI7wfEnkjERY7km6m
+}
+
+!procedure AwsIoTLambdaFunction($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/IoT/AwsIoTLambdaFunction', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTLambdaFunctionCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTLambdaFunctionLg>', 'IoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTLambdaFunctionGroup($id, $name='Aws Io T Lambda Function', $tech='')
+  IconGroupElement($id, 'IoTFamily', '<$AwsIoTLambdaFunctionLg>', $name, $tech)
+!endprocedure

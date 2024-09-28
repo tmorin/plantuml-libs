@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2024/bootstrap')
+
+' loads the Item which embeds the element AmazonPinpointJourneyCard
+include('aws-q2-2024/Resource/BusinessApplications/AmazonPinpointJourney')
+
+' renders the element
+AmazonPinpointJourneyCard('AmazonPinpointJourneyCard', 'Amazon Pinpoint Journey Card', 'an optional description')
+@enduml

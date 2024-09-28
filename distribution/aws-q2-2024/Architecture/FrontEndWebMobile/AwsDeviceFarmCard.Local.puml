@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2024/bootstrap')
+
+' loads the Item which embeds the element AwsDeviceFarmCard
+include('aws-q2-2024/Architecture/FrontEndWebMobile/AwsDeviceFarm')
+
+' renders the element
+AwsDeviceFarmCard('AwsDeviceFarmCard', 'Aws Device Farm Card', 'an optional description')
+@enduml

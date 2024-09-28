@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2024/Resource/SecurityIdentityCompliance/AwsWafRule
+
+sprite $AwsWafRuleXs [10x10/16z] Oy04Z52QcPKHBeR9OcF49yiEP3520HC
+
+sprite $AwsWafRuleSm [12x12/16z] PSot0G0X3C10VG3a_HUc8NEDirczJoVFQCxyGyeGSuUnexZrl_lda-VEzo0EKG4
+
+sprite $AwsWafRuleMd [16x16/16z] VOo35K0n34NBOF-1lz7m7ZuM3PEWa4XNtLgNkbzvNT5xgK5e8fsVcd4b-mEeKkEhHL-o0m
+
+sprite $AwsWafRuleLg [20x20/16z] ZSy53a0X201GGedx7_ZdYjfyIwMXOvuHE2HO_YJ_CSikUPkxsl_FigEvbl-M69OyfdckP0TplRbDlUPjMDyV9aH01Tm
+
+!procedure AwsWafRule($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/SecurityIdentityCompliance/AwsWafRule', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsWafRuleCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsWafRuleLg>', 'SecurityIdentityCompliance', $funcName, $content)
+!endprocedure
+
+!procedure AwsWafRuleGroup($id, $name='Aws Waf Rule', $tech='')
+  IconGroupElement($id, 'SecurityIdentityComplianceFamily', '<$AwsWafRuleLg>', $name, $tech)
+!endprocedure

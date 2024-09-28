@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2024/Resource/GroupIcons/AwsCloud
+
+sprite $AwsCloudXs [10x10/16z] uoK467Yv4HnkHZ09bK06F0mWWDq8
+
+sprite $AwsCloudSm [12x12/16z] uoKISB9omPb0pCK3ORC0CPm90Tn0p0PbiuAK0-LXEWW3
+
+sprite $AwsCloudMd [16x16/16z] uwK6u65buKBcSW0nEuBF0Y8uEPWHV33WXkfXHLN8ZT381ZODeWoXaPED0m9OU2XtEW
+
+sprite $AwsCloudLg [20x20/16z] lOnL0e0X28Fjzlx7_LEbtlbCODlK8uVOMCiyfsVIIh-sn06zy3zzsjEgSVzQtAtEahTpCvhipR_NAcgvhJS7FvMu0G
+
+!procedure AwsCloud($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/GroupIcons/AwsCloud', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsCloudCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCloudLg>', 'GroupIcons', $funcName, $content)
+!endprocedure
+
+!procedure AwsCloudGroup($id, $name='Aws Cloud', $tech='')
+  IconGroupElement($id, 'GroupIconsFamily', '<$AwsCloudLg>', $name, $tech)
+!endprocedure

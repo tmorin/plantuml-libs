@@ -1,0 +1,168 @@
+# ElasticLoadBalancing
+
+
+```text
+aws-q2-2024/Architecture/NetworkingContentDelivery/ElasticLoadBalancing
+```
+
+```text
+include('aws-q2-2024/Architecture/NetworkingContentDelivery/ElasticLoadBalancing')
+```
+
+
+
+| Illustration | ElasticLoadBalancing | ElasticLoadBalancingCard | ElasticLoadBalancingGroup |
+| :---: | :---: | :---: | :---: |
+| ![illustration for Illustration](../../../aws-q2-2024/Architecture/NetworkingContentDelivery/ElasticLoadBalancing.png) | ![illustration for ElasticLoadBalancing](../../../aws-q2-2024/Architecture/NetworkingContentDelivery/ElasticLoadBalancing.Local.png) | ![illustration for ElasticLoadBalancingCard](../../../aws-q2-2024/Architecture/NetworkingContentDelivery/ElasticLoadBalancingCard.Local.png) | ![illustration for ElasticLoadBalancingGroup](../../../aws-q2-2024/Architecture/NetworkingContentDelivery/ElasticLoadBalancingGroup.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$ElasticLoadBalancingXs>`
+- `<$ElasticLoadBalancingSm>`
+- `<$ElasticLoadBalancingMd>`
+- `<$ElasticLoadBalancingLg>`
+
+
+
+
+
+## ElasticLoadBalancing
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2024/bootstrap')
+
+' loads the Item which embeds the element ElasticLoadBalancing
+include('aws-q2-2024/Architecture/NetworkingContentDelivery/ElasticLoadBalancing')
+
+' renders the element
+ElasticLoadBalancing('ElasticLoadBalancing', 'Elastic Load Balancing', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2024/bootstrap')
+
+' loads the Item which embeds the element ElasticLoadBalancing
+include('aws-q2-2024/Architecture/NetworkingContentDelivery/ElasticLoadBalancing')
+
+' renders the element
+ElasticLoadBalancing('ElasticLoadBalancing', 'Elastic Load Balancing', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+## ElasticLoadBalancingCard
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2024/bootstrap')
+
+' loads the Item which embeds the element ElasticLoadBalancingCard
+include('aws-q2-2024/Architecture/NetworkingContentDelivery/ElasticLoadBalancing')
+
+' renders the element
+ElasticLoadBalancingCard('ElasticLoadBalancingCard', 'Elastic Load Balancing Card', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2024/bootstrap')
+
+' loads the Item which embeds the element ElasticLoadBalancingCard
+include('aws-q2-2024/Architecture/NetworkingContentDelivery/ElasticLoadBalancing')
+
+' renders the element
+ElasticLoadBalancingCard('ElasticLoadBalancingCard', 'Elastic Load Balancing Card', 'an optional description')
+@enduml
+```
+
+## ElasticLoadBalancingGroup
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2024/bootstrap')
+
+' loads the Item which embeds the element ElasticLoadBalancingGroup
+include('aws-q2-2024/Architecture/NetworkingContentDelivery/ElasticLoadBalancing')
+
+' renders the element
+ElasticLoadBalancingGroup('ElasticLoadBalancingGroup', 'Elastic Load Balancing Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2024/bootstrap')
+
+' loads the Item which embeds the element ElasticLoadBalancingGroup
+include('aws-q2-2024/Architecture/NetworkingContentDelivery/ElasticLoadBalancing')
+
+' renders the element
+ElasticLoadBalancingGroup('ElasticLoadBalancingGroup', 'Elastic Load Balancing Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml
+```
+

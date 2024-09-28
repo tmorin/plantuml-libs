@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2024/Resource/ManagementGovernance/AwsLicenseManagerLicenseBlending
+
+sprite $AwsLicenseManagerLicenseBlendingXs [10x10/16z] JKg30G1134kD_VTzdie8H_NOSVUH_16_yw702wiVMA_m8V-oZNxgGH5WVi4D
+
+sprite $AwsLicenseManagerLicenseBlendingSm [12x12/16z] LKs50G0W25CQ_l_NJZgtz4jkugF2D6GqUPIgUTJhq5TjowMVp85ZMu6ETr7rbiseRTZIWtTf8SHiK5K
+
+sprite $AwsLicenseManagerLicenseBlendingMd [16x16/16z] PO-50KGn34Af1lOV-8Ho-byrdk3AbebKk_osA8J8q8zSnVQM0xzaaHJVieCt6l9D4D4NfjtCWlegvqaFXAQUSc_jX7Hkc2FliL06HcAiXy9kd_dk
+
+sprite $AwsLicenseManagerLicenseBlendingLg [20x20/16z] {
+TSxL0SKm243H2sc2xBzlZIVLyuV32u-TSv3iBA7u-EOwGGd-EVAQCxEGOwuq_9BhOnN7d0OhzShfyICQAwd8AAeGXjMIqWMDdYrPJV7T4GIk0qXVXGCIFMlZ
+67o5uuTTkwRP65ae9fDnOMc9Rf8l0QcSK1O
+}
+
+!procedure AwsLicenseManagerLicenseBlending($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/ManagementGovernance/AwsLicenseManagerLicenseBlending', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsLicenseManagerLicenseBlendingCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsLicenseManagerLicenseBlendingLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsLicenseManagerLicenseBlendingGroup($id, $name='Aws License Manager License Blending', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsLicenseManagerLicenseBlendingLg>', $name, $tech)
+!endprocedure

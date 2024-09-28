@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2024/Resource/Storage/AmazonSimpleStorageServiceS3ObjectLock
+
+sprite $AmazonSimpleStorageServiceS3ObjectLockXs [10x10/16z] JKg30G0m3Alp_yTZZOX68Gyk5KvqsSQRnOOAtzzl6bkzeG2PkUmW8cxm5fXZ0G
+
+sprite $AmazonSimpleStorageServiceS3ObjectLockSm [12x12/16z] LOg50G0120BFWlqd_iwp1NwCCg8D84uIgBH6ddv_brucXHC86um26DI-FBfInnwWY00WkuIuqGOh
+
+sprite $AmazonSimpleStorageServiceS3ObjectLockMd [16x16/16z] PSm7LWGn30JHQgDHtV_6l8RD-vsjmBUiTlBFy2zI5_MypUXUgpFKKi-RdVOk9Pl0UDR_BYeOzWVWKF8Gpi4maJhaGBUbbgJVIPOQNGcoF0LOdYn-0G
+
+sprite $AmazonSimpleStorageServiceS3ObjectLockLg [20x20/16z] {
+TOy73aCn24CX0R_xtxX5JgHE_-sf7_-mMg2kZ0jOOHJxKF62RHczb93cia1gYTxr8zj-p5fTYTEHaUneU2clm7fHQe_q1jeUdKBkmvRB0VD8m9nSkJHlEyz6
+gF16TQ_XLaNcoEGJI-SlGQqWvZJtCjQVtCs-8eru
+}
+
+!procedure AmazonSimpleStorageServiceS3ObjectLock($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/Storage/AmazonSimpleStorageServiceS3ObjectLock', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceS3ObjectLockCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonSimpleStorageServiceS3ObjectLockLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceS3ObjectLockGroup($id, $name='Amazon Simple Storage Service S3 Object Lock', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonSimpleStorageServiceS3ObjectLockLg>', $name, $tech)
+!endprocedure

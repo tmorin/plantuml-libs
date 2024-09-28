@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2024/bootstrap')
+
+' loads the Item which embeds the element AmazonBraketManagedSimulator
+include('aws-q2-2024/Resource/QuantumTechnologies/AmazonBraketManagedSimulator')
+
+' renders the element
+AmazonBraketManagedSimulator('AmazonBraketManagedSimulator', 'Amazon Braket Managed Simulator', 'an optional tech label', 'an optional description')
+@enduml

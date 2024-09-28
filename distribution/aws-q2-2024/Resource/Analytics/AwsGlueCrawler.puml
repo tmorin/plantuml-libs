@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2024/Resource/Analytics/AwsGlueCrawler
+
+sprite $AwsGlueCrawlerXs [10x10/16z] PSY50S0m2031nzb_uRecXyDCC0lRERmR1aqBT3SN-rnznFKsJY7E2W
+
+sprite $AwsGlueCrawlerSm [12x12/16z] JSYr0GG140EnMRJxR_ZnIA5uIiL1o7imiIm_8Yphv_nbMC8Vi0wETxKWFjW4cRz8n9zCg3dOy0O
+
+sprite $AwsGlueCrawlerMd [16x16/16z] TSs50GH020F1HPF-6tvtcNC1-6HPJqR4wokMrdjtVT-NT_7dVSdavMmw0U4pej8iZtUVJ72h1s8luyRdVOW78IAu2vjLSLSC3CFJvVK8
+
+sprite $AwsGlueCrawlerLg [20x20/16z] {
+RSo5eSL020NH0POm_JVyvMdihCk5E-DP8CD19CR4GINML7NNnyfdjkAOvVPVHDUpKcJ5CMkpIRpl4c3LwWAGyL_IY3JiigBYuIv43A2VLjO6GdVmeI0eEmF2
+iBULMCsEozUyrnEpE0i0VW4
+}
+
+!procedure AwsGlueCrawler($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/Analytics/AwsGlueCrawler', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsGlueCrawlerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsGlueCrawlerLg>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AwsGlueCrawlerGroup($id, $name='Aws Glue Crawler', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AwsGlueCrawlerLg>', $name, $tech)
+!endprocedure

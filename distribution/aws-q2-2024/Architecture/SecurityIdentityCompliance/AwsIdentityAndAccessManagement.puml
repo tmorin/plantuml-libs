@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2024/Architecture/SecurityIdentityCompliance/AwsIdentityAndAccessManagement
+
+sprite $AwsIdentityAndAccessManagementXs [10x10/16z] uoGAiAAmE1WPETdPmIoG22jObWFCngeR
+
+sprite $AwsIdentityAndAccessManagementSm [12x12/16z] ZSgr0S0024HH7Fx-0yVBs6kGEtwnI-qx6W1v_1bcvjXLbURSMmUHg-FErVTBysG5
+
+sprite $AwsIdentityAndAccessManagementMd [16x16/16z] fOo54K0n24El6hB_mFK2vrzU5KZ2_qHZrI0g5wTEmk3hyGI6W7pgC20WSkenc3LuwsLnUGDN9uElwG
+
+sprite $AwsIdentityAndAccessManagementLg [20x20/16z] lOt50S8040JXXBtfls3YdbzadgkyGzgQGVDDe4PD5gQTPe2TQcv6JbfzEv1GpPemZje79rkOjLGeTn_LiT5-leRxQG
+
+!procedure AwsIdentityAndAccessManagement($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Architecture/SecurityIdentityCompliance/AwsIdentityAndAccessManagement', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIdentityAndAccessManagementCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIdentityAndAccessManagementLg>', 'SecurityIdentityCompliance', $funcName, $content)
+!endprocedure
+
+!procedure AwsIdentityAndAccessManagementGroup($id, $name='Aws Identity And Access Management', $tech='')
+  IconGroupElement($id, 'SecurityIdentityComplianceFamily', '<$AwsIdentityAndAccessManagementLg>', $name, $tech)
+!endprocedure

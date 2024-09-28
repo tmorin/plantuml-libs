@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2024/Resource/IoT/AwsIoTGreengrassConnector
+
+sprite $AwsIoTGreengrassConnectorXs [10x10/16z] Oo0Qi36mCp03CGGnGsYe67u
+
+sprite $AwsIoTGreengrassConnectorSm [12x12/16z] bOO50S0m40FlCVuLRoK1RV1uLrPGvHC5PGqnSBJe0O8-x0oP6-xSwGS
+
+sprite $AwsIoTGreengrassConnectorMd [16x16/16z] jKo50S0m38Be_n-FIZvOFIXUB78zWz9XUdMuu0Bi4aRfTX_lmhO0GZXyuOK0Bu_LuWl-lJu
+
+sprite $AwsIoTGreengrassConnectorLg [20x20/16z] pOg15S0G5CGEvFQV680HsW0_B_ePoM0f6BDL69_Xqdfr7iDqCOx1rkl672InkZ9T3fhuTT7Q51WnaFGX3G
+
+!procedure AwsIoTGreengrassConnector($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/IoT/AwsIoTGreengrassConnector', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTGreengrassConnectorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTGreengrassConnectorLg>', 'IoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTGreengrassConnectorGroup($id, $name='Aws Io T Greengrass Connector', $tech='')
+  IconGroupElement($id, 'IoTFamily', '<$AwsIoTGreengrassConnectorLg>', $name, $tech)
+!endprocedure

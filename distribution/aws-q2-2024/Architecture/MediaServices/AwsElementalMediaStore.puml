@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2024/Architecture/MediaServices/AwsElementalMediaStore
+
+sprite $AwsElementalMediaStoreXs [10x10/16z] TKk53G0m2CFx_yVBt74g-0J1oXQ04P4HWrl-St1cycfN7cmqp5ia
+
+sprite $AwsElementalMediaStoreSm [12x12/16z] VSR50S0W542nxs__YUjU8ASmKi994jTjwOw0RiUB1mLZKsW56rK4d5se9wVWQmO
+
+sprite $AwsElementalMediaStoreMd [16x16/16z] dSf90WD1249HqO9__nDdwccPfDzA0Mw9LdDHWJLiPX5NGDbQTz2quks7NY0m9o5w-pqUb6hs7nfnxQT1aiMXeoXSNE4dJm
+
+sprite $AwsElementalMediaStoreLg [20x20/16z] hS-t0SKm30DH0g9m-q_yexDRN_aKoHDbtAW6rITn3KXfLmjHyfUpdjCKI3EsLwCB9ctO3Jo0NcrDN_DgKsrGR6KrmG2TpheZgD1aDM90xbv7MLMfmRagyq1l
+
+!procedure AwsElementalMediaStore($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Architecture/MediaServices/AwsElementalMediaStore', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsElementalMediaStoreCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsElementalMediaStoreLg>', 'MediaServices', $funcName, $content)
+!endprocedure
+
+!procedure AwsElementalMediaStoreGroup($id, $name='Aws Elemental Media Store', $tech='')
+  IconGroupElement($id, 'MediaServicesFamily', '<$AwsElementalMediaStoreLg>', $name, $tech)
+!endprocedure

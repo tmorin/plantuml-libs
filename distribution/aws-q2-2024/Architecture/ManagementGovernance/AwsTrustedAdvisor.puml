@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2024/Architecture/ManagementGovernance/AwsTrustedAdvisor
+
+sprite $AwsTrustedAdvisorXs [10x10/16z] uy81M3ZOO2n61WmM6oCdXC70oSRE0M802GOW0G7ig6O1
+
+sprite $AwsTrustedAdvisorSm [12x12/16z] uy87E5dXJ2OM1bPcA9kPav4D2vkPbP6HcOCLefEPbOcD4MeA5nSZc8HnyG4
+
+sprite $AwsTrustedAdvisorMd [16x16/16z] dKv50e1029I6-Vz_xRxeBjqCkgXKhAxKGmQDMswWoj-v89N8OKT1tLEJZsUKOg4klBrCdJtD_WOXweqG_sW2
+
+sprite $AwsTrustedAdvisorLg [20x20/16z] hSZ5WGD034DHioNrt-z264w1F-YdhyGdgO3DFVMavSQTJSbb-OPH7N9v2XTBvQmNItqn51ABOEWIpOdXEdWc1xHbJJdsPB33nTFlMdBqrEeR_G8
+
+!procedure AwsTrustedAdvisor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Architecture/ManagementGovernance/AwsTrustedAdvisor', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsTrustedAdvisorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsTrustedAdvisorLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsTrustedAdvisorGroup($id, $name='Aws Trusted Advisor', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsTrustedAdvisorLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2024/Architecture/ArtificialIntelligence/AmazonTranslate
+
+sprite $AmazonTranslateXs [10x10/16z] ROd50S1G5CBWAVilNFV-N91e28IhYT5RCp6tk-KKVVq0UlYcazYRafckcna
+
+sprite $AmazonTranslateSm [12x12/16z] TSR50G9100GmPZNzDup3ULvnQIPLlgUDqRylklOzKISOQlJ0RAqb0Tn4_pw2h_PYum4
+
+sprite $AmazonTranslateMd [16x16/16z] bOl70GH12CF631Zrt_3buxb1FmTndx0pSKo6IcCp6OHgyauaxSbQ2E9NjE6JPHY_ep6_GxVeufTPWJeykK30P9GhNfXJdW
+
+sprite $AmazonTranslateLg [20x20/16z] {
+fOs54KHH20C9klqtV2xC7plPfrZ2dyI5XEjvOTTpJVWXvqqfsJaGQRDp3ZsJh9mtg2gD9uvI26R4Wsa814XnyA3XbRjIgeXyvM02X3ihPohKvhbo90XWvwn6
+TMNb6EO6Nt06
+}
+
+!procedure AmazonTranslate($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Architecture/ArtificialIntelligence/AmazonTranslate', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonTranslateCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonTranslateLg>', 'ArtificialIntelligence', $funcName, $content)
+!endprocedure
+
+!procedure AmazonTranslateGroup($id, $name='Amazon Translate', $tech='')
+  IconGroupElement($id, 'ArtificialIntelligenceFamily', '<$AmazonTranslateLg>', $name, $tech)
+!endprocedure

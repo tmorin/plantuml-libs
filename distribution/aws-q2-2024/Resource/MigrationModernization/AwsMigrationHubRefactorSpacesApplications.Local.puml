@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2024/bootstrap')
+
+' loads the Item which embeds the element AwsMigrationHubRefactorSpacesApplications
+include('aws-q2-2024/Resource/MigrationModernization/AwsMigrationHubRefactorSpacesApplications')
+
+' renders the element
+AwsMigrationHubRefactorSpacesApplications('AwsMigrationHubRefactorSpacesApplications', 'Aws Migration Hub Refactor Spaces Applications', 'an optional tech label', 'an optional description')
+@enduml

@@ -1,0 +1,168 @@
+# AmazonAuroraMariaDbInstance
+
+
+```text
+aws-q2-2024/Resource/Database/AmazonAuroraMariaDbInstance
+```
+
+```text
+include('aws-q2-2024/Resource/Database/AmazonAuroraMariaDbInstance')
+```
+
+
+
+| Illustration | AmazonAuroraMariaDbInstance | AmazonAuroraMariaDbInstanceCard | AmazonAuroraMariaDbInstanceGroup |
+| :---: | :---: | :---: | :---: |
+| ![illustration for Illustration](../../../aws-q2-2024/Resource/Database/AmazonAuroraMariaDbInstance.png) | ![illustration for AmazonAuroraMariaDbInstance](../../../aws-q2-2024/Resource/Database/AmazonAuroraMariaDbInstance.Local.png) | ![illustration for AmazonAuroraMariaDbInstanceCard](../../../aws-q2-2024/Resource/Database/AmazonAuroraMariaDbInstanceCard.Local.png) | ![illustration for AmazonAuroraMariaDbInstanceGroup](../../../aws-q2-2024/Resource/Database/AmazonAuroraMariaDbInstanceGroup.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonAuroraMariaDbInstanceXs>`
+- `<$AmazonAuroraMariaDbInstanceSm>`
+- `<$AmazonAuroraMariaDbInstanceMd>`
+- `<$AmazonAuroraMariaDbInstanceLg>`
+
+
+
+
+
+## AmazonAuroraMariaDbInstance
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2024/bootstrap')
+
+' loads the Item which embeds the element AmazonAuroraMariaDbInstance
+include('aws-q2-2024/Resource/Database/AmazonAuroraMariaDbInstance')
+
+' renders the element
+AmazonAuroraMariaDbInstance('AmazonAuroraMariaDbInstance', 'Amazon Aurora Maria Db Instance', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2024/bootstrap')
+
+' loads the Item which embeds the element AmazonAuroraMariaDbInstance
+include('aws-q2-2024/Resource/Database/AmazonAuroraMariaDbInstance')
+
+' renders the element
+AmazonAuroraMariaDbInstance('AmazonAuroraMariaDbInstance', 'Amazon Aurora Maria Db Instance', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+## AmazonAuroraMariaDbInstanceCard
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2024/bootstrap')
+
+' loads the Item which embeds the element AmazonAuroraMariaDbInstanceCard
+include('aws-q2-2024/Resource/Database/AmazonAuroraMariaDbInstance')
+
+' renders the element
+AmazonAuroraMariaDbInstanceCard('AmazonAuroraMariaDbInstanceCard', 'Amazon Aurora Maria Db Instance Card', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2024/bootstrap')
+
+' loads the Item which embeds the element AmazonAuroraMariaDbInstanceCard
+include('aws-q2-2024/Resource/Database/AmazonAuroraMariaDbInstance')
+
+' renders the element
+AmazonAuroraMariaDbInstanceCard('AmazonAuroraMariaDbInstanceCard', 'Amazon Aurora Maria Db Instance Card', 'an optional description')
+@enduml
+```
+
+## AmazonAuroraMariaDbInstanceGroup
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2024/bootstrap')
+
+' loads the Item which embeds the element AmazonAuroraMariaDbInstanceGroup
+include('aws-q2-2024/Resource/Database/AmazonAuroraMariaDbInstance')
+
+' renders the element
+AmazonAuroraMariaDbInstanceGroup('AmazonAuroraMariaDbInstanceGroup', 'Amazon Aurora Maria Db Instance Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2024/bootstrap')
+
+' loads the Item which embeds the element AmazonAuroraMariaDbInstanceGroup
+include('aws-q2-2024/Resource/Database/AmazonAuroraMariaDbInstance')
+
+' renders the element
+AmazonAuroraMariaDbInstanceGroup('AmazonAuroraMariaDbInstanceGroup', 'Amazon Aurora Maria Db Instance Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml
+```
+

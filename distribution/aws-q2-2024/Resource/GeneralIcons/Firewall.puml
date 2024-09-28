@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2024/Resource/GeneralIcons/Firewall
+
+sprite $FirewallXs [10x10/16z] LSk30S0030J0g_dxZrippiCdXkTgvJn2slEg9O7v-FeU6gRJkgyeIQdmYnK
+
+sprite $FirewallSm [12x12/16z] TScr0SH0000WadFRVznt5rhyjPbkTaq3jD7qsmJ4bS4aMcgjx4pGAMGXf12cFQXQwwrD6BPj6zuS0G
+
+sprite $FirewallMd [16x16/16z] XSU5WGD130Gm7IxP_PVx4ER8EBxBngrbacurDMxIrisQitrVBJ8l6LtMUesQLFyWKA0pOs1OIubIMjqCX86E81X6Qot-Pg1CjPamt1X_FFi5
+
+sprite $FirewallLg [20x20/16z] {
+bSZLOGL12030OS_MwB_SvBdztU0ueQr-HSPI_TYBbZu5ZHm-vDJ9VV_ynQoat3v-rY3bo8yVeic-UOW9WuorNcneUFHH8g9ZmbPWG7-K7h9VNDieIiCW8L4M
+MgM6R1VNrXUi6UKW5WnlUuXUQvrE-0S
+}
+
+!procedure Firewall($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/GeneralIcons/Firewall', $name, $tech, $desc)
+!endprocedure
+
+!procedure FirewallCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$FirewallLg>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+
+!procedure FirewallGroup($id, $name='Firewall', $tech='')
+  IconGroupElement($id, 'GeneralIconsFamily', '<$FirewallLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,168 @@
+# AmazonLex
+
+
+```text
+aws-q2-2024/Architecture/ArtificialIntelligence/AmazonLex
+```
+
+```text
+include('aws-q2-2024/Architecture/ArtificialIntelligence/AmazonLex')
+```
+
+
+
+| Illustration | AmazonLex | AmazonLexCard | AmazonLexGroup |
+| :---: | :---: | :---: | :---: |
+| ![illustration for Illustration](../../../aws-q2-2024/Architecture/ArtificialIntelligence/AmazonLex.png) | ![illustration for AmazonLex](../../../aws-q2-2024/Architecture/ArtificialIntelligence/AmazonLex.Local.png) | ![illustration for AmazonLexCard](../../../aws-q2-2024/Architecture/ArtificialIntelligence/AmazonLexCard.Local.png) | ![illustration for AmazonLexGroup](../../../aws-q2-2024/Architecture/ArtificialIntelligence/AmazonLexGroup.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$AmazonLexXs>`
+- `<$AmazonLexSm>`
+- `<$AmazonLexMd>`
+- `<$AmazonLexLg>`
+
+
+
+
+
+## AmazonLex
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2024/bootstrap')
+
+' loads the Item which embeds the element AmazonLex
+include('aws-q2-2024/Architecture/ArtificialIntelligence/AmazonLex')
+
+' renders the element
+AmazonLex('AmazonLex', 'Amazon Lex', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2024/bootstrap')
+
+' loads the Item which embeds the element AmazonLex
+include('aws-q2-2024/Architecture/ArtificialIntelligence/AmazonLex')
+
+' renders the element
+AmazonLex('AmazonLex', 'Amazon Lex', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+## AmazonLexCard
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2024/bootstrap')
+
+' loads the Item which embeds the element AmazonLexCard
+include('aws-q2-2024/Architecture/ArtificialIntelligence/AmazonLex')
+
+' renders the element
+AmazonLexCard('AmazonLexCard', 'Amazon Lex Card', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2024/bootstrap')
+
+' loads the Item which embeds the element AmazonLexCard
+include('aws-q2-2024/Architecture/ArtificialIntelligence/AmazonLex')
+
+' renders the element
+AmazonLexCard('AmazonLexCard', 'Amazon Lex Card', 'an optional description')
+@enduml
+```
+
+## AmazonLexGroup
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2024/bootstrap')
+
+' loads the Item which embeds the element AmazonLexGroup
+include('aws-q2-2024/Architecture/ArtificialIntelligence/AmazonLex')
+
+' renders the element
+AmazonLexGroup('AmazonLexGroup', 'Amazon Lex Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2024/bootstrap')
+
+' loads the Item which embeds the element AmazonLexGroup
+include('aws-q2-2024/Architecture/ArtificialIntelligence/AmazonLex')
+
+' renders the element
+AmazonLexGroup('AmazonLexGroup', 'Amazon Lex Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml
+```
+

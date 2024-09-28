@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2024/Architecture/ManagementGovernance/AwsTelcoNetworkBuilder
+
+sprite $AwsTelcoNetworkBuilderXs [10x10/16z] uy8A63dPERcOG2mEJXOG2HRbvE9YG5V9mChA1LB11cJ2fTbGrG
+
+sprite $AwsTelcoNetworkBuilderSm [12x12/16z] TSM54GH030B0EG_RVx_l8s-R0FvAg_Gs0YSxZq55UYztPJGITmldqJgLn44p4yr6kgwTxcN5Xoi
+
+sprite $AwsTelcoNetworkBuilderMd [16x16/16z] ZSl5OKGn34NHYFLk__rcoDx_OnJnWCvrH3SHqpvyhNe4CCrv9DNUcVYSPPtBR87T4nOqyNc_35pE7qe03Ony79oF_CITcXElhnbku-8QDnvv0G
+
+sprite $AwsTelcoNetworkBuilderLg [20x20/16z] {
+fKxL0SL03EeHEzX_txf_FI7kqP-WXwHoJvwf9geQ9SBtN1Sp--ONZcIZdBk_psBHYN2S-sAxi-ZXThZb5bNftkchZhEh5cbffSHjtw1WT1ttVH5peY3jZrPA
+K0qckoudF07Dug1ki6nwWwI-n0G
+}
+
+!procedure AwsTelcoNetworkBuilder($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Architecture/ManagementGovernance/AwsTelcoNetworkBuilder', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsTelcoNetworkBuilderCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsTelcoNetworkBuilderLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsTelcoNetworkBuilderGroup($id, $name='Aws Telco Network Builder', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsTelcoNetworkBuilderLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2024/Architecture/Storage/AmazonFSxForNetAppOntap
+
+sprite $AmazonFSxForNetAppOntapXs [10x10/16z] OoSUCBApiq2PhEniJCWIKC20NIC
+
+sprite $AmazonFSxForNetAppOntapSm [12x12/16z] OwS8C0CnAnESpSZEpW1cix8piG6PR6mmXKmChCIP2
+
+sprite $AmazonFSxForNetAppOntapMd [16x16/16z] jS770S0m30CnMn9v-q-SNhyf0F-JKjm4zE3Ak7TsyWJId9gipeL2l3S2
+
+sprite $AmazonFSxForNetAppOntapLg [20x20/16z] pSgt0S9G54FHbwIx_yQKFzI0VJe5tiKpp71eI33CriaQo3v_86X7RPsHcq1f3ermSfW9AxXaY9lvYGy
+
+!procedure AmazonFSxForNetAppOntap($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Architecture/Storage/AmazonFSxForNetAppOntap', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonFSxForNetAppOntapCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonFSxForNetAppOntapLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonFSxForNetAppOntapGroup($id, $name='Amazon F Sx For Net App Ontap', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonFSxForNetAppOntapLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2024/bootstrap')
+
+' loads the Item which embeds the element AmazonFileCacheGroup
+include('aws-q2-2024/Architecture/Storage/AmazonFileCache')
+
+' renders the element
+AmazonFileCacheGroup('AmazonFileCacheGroup', 'Amazon File Cache Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

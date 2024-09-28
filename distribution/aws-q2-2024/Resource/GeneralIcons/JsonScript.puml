@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2024/Resource/GeneralIcons/JsonScript
+
+sprite $JsonScriptXs [10x10/16z] Oq02h43CYya2iJ5OJ30M6uo5gOwT2GHu6G
+
+sprite $JsonScriptSm [12x12/16z] POh50G0W00B1ZltdjTjx4OUBm49apoX48NRsiUSEPxOpwsDt2AVZZum_-zW1CW
+
+sprite $JsonScriptMd [16x16/16z] XOo30G0n34LVhMJ_SSzccK_kIzgufAoupfylPsniEU5QMjhnFZtXXgEnum3eZeD3a1qJCITiFlh_iQpBGmy
+
+sprite $JsonScriptLg [20x20/16z] fOs34G1H30Nts_sNUxQneqoUE4RaaVadpN2KVF2JUV-3lFk5aFBgD_pV_v8auEJYDvnIBNyoWeEyyKcxyH4T4CNPxl-VapF33xL00ZK
+
+!procedure JsonScript($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/GeneralIcons/JsonScript', $name, $tech, $desc)
+!endprocedure
+
+!procedure JsonScriptCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$JsonScriptLg>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+
+!procedure JsonScriptGroup($id, $name='Json Script', $tech='')
+  IconGroupElement($id, 'GeneralIconsFamily', '<$JsonScriptLg>', $name, $tech)
+!endprocedure

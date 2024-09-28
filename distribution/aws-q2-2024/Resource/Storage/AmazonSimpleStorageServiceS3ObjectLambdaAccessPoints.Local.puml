@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2024/bootstrap')
+
+' loads the Item which embeds the element AmazonSimpleStorageServiceS3ObjectLambdaAccessPoints
+include('aws-q2-2024/Resource/Storage/AmazonSimpleStorageServiceS3ObjectLambdaAccessPoints')
+
+' renders the element
+AmazonSimpleStorageServiceS3ObjectLambdaAccessPoints('AmazonSimpleStorageServiceS3ObjectLambdaAccessPoints', 'Amazon Simple Storage Service S3 Object Lambda Access Points', 'an optional tech label', 'an optional description')
+@enduml

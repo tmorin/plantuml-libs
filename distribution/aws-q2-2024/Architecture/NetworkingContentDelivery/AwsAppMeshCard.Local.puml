@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2024/bootstrap')
+
+' loads the Item which embeds the element AwsAppMeshCard
+include('aws-q2-2024/Architecture/NetworkingContentDelivery/AwsAppMesh')
+
+' renders the element
+AwsAppMeshCard('AwsAppMeshCard', 'Aws App Mesh Card', 'an optional description')
+@enduml

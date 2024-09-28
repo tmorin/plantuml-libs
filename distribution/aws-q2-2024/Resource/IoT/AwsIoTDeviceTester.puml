@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2024/Resource/IoT/AwsIoTDeviceTester
+
+sprite $AwsIoTDeviceTesterXs [10x10/16z] NSO50G1130F1BVjN_7WyXOHDKKTJbVT1Wl39AW4CKYW2826iMckayHi
+
+sprite $AwsIoTDeviceTesterSm [12x12/16z] NSQ70KCn20FHeqdxJvpytfuD75_2NA8vYJXY0Tk2H823LMdDhJFCX08sKt2qwQqr1mtMoNy
+
+sprite $AwsIoTDeviceTesterMd [16x16/16z] TS-50S0W30J0UFQV67Vv2XmElEFfMMc6lDZIXv_ncf9aaafiOxFxF2EGQgtEexC9gnaq6sj__n01X_jvgll-TPpXJB8Vzs9V0n4
+
+sprite $AwsIoTDeviceTesterLg [20x20/16z] {
+VSg54KCX50NHVTv_nvbB_0kBdu5DFlJHPgZv9uigEnXw7ytjZroPR5r4vQPaEbhMO21RZrh6uBQioQyDonABZyNddxtC0WQoTBmCi3IJysiraGUZXk5WwcFJ
+XyPeEvG6Tem7
+}
+
+!procedure AwsIoTDeviceTester($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/IoT/AwsIoTDeviceTester', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTDeviceTesterCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTDeviceTesterLg>', 'IoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTDeviceTesterGroup($id, $name='Aws Io T Device Tester', $tech='')
+  IconGroupElement($id, 'IoTFamily', '<$AwsIoTDeviceTesterLg>', $name, $tech)
+!endprocedure

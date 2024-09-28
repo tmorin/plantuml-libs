@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2024/Architecture/DeveloperTools/AwsFaultInjectionService
+
+sprite $AwsFaultInjectionServiceXs [10x10/16z] uyGE63cPOKmMJdO620q2O2OxEv00As1bOcLbvOImO1eu6D0C0m
+
+sprite $AwsFaultInjectionServiceSm [12x12/16z] VSh50S1020117BR_WkEls9oW_4XBBhMT20wA0yt6A8YpKBhFrOsdYeXnI6Npp7juM04
+
+sprite $AwsFaultInjectionServiceMd [16x16/16z] dSo5SGKm50Em2phQV-3sCxEE7jelsfZ5sLoYj3Yewi0uNeS5FM0OXTOfe4iYEVMfLZRgEWKkbsevzG_te_ZKFm
+
+sprite $AwsFaultInjectionServiceLg [20x20/16z] hSsr0G8034JHUExlFp3kbF2wwF6xhHBlV22RLxEio4xn4AW25kDk7A80AX__kH1mtonG6Om1j_Y6tHK2k1-RQkCsl_UOLgZFn4FB-DGMtprzzvJ6Vnm1
+
+!procedure AwsFaultInjectionService($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Architecture/DeveloperTools/AwsFaultInjectionService', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsFaultInjectionServiceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsFaultInjectionServiceLg>', 'DeveloperTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsFaultInjectionServiceGroup($id, $name='Aws Fault Injection Service', $tech='')
+  IconGroupElement($id, 'DeveloperToolsFamily', '<$AwsFaultInjectionServiceLg>', $name, $tech)
+!endprocedure

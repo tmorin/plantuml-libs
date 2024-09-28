@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2024/Resource/Storage/AmazonSimpleStorageServiceS3StorageLens
+
+sprite $AmazonSimpleStorageServiceS3StorageLensXs [10x10/16z] JOk54G0W3CI2Pl-DERofonDmfk9iDWafsjCUa4cRBMQ3pfdOgS-KcQHKXG4
+
+sprite $AmazonSimpleStorageServiceS3StorageLensSm [12x12/16z] LKk30G0m3Alp_yVpQWNKGg3C4fWd2comjJYyW0jQ0DPU2-k2Jeo9z6XaqP4Uen9OGzyNiNG3
+
+sprite $AmazonSimpleStorageServiceS3StorageLensMd [16x16/16z] RKs54S0m47fd_usRb-EiL8FA3mAeUe_E2KQX6NqFWIOHIrbLzVazQZwSh-TO6QxGZTMqhO1etk29gyohHsuyX2NcLqOwu-G3TILn0poRe5mQ7m
+
+sprite $AmazonSimpleStorageServiceS3StorageLensLg [20x20/16z] {
+TP055iKW4CIwDhd_YRzWZtgBPZCFZhV7iWIgjBbIv1m6j1uxrQYjdJtrHoXDZuLON1H0srFpddn3rIkJBIDbnL-cQXd_uQ_1r1d2nM2fONCa6yxQ8qO2vrXy
+Fn_3KTb6PycXoPcVRkE4ZIJpX8dDCfk2Bm
+}
+
+!procedure AmazonSimpleStorageServiceS3StorageLens($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/Storage/AmazonSimpleStorageServiceS3StorageLens', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceS3StorageLensCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonSimpleStorageServiceS3StorageLensLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceS3StorageLensGroup($id, $name='Amazon Simple Storage Service S3 Storage Lens', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonSimpleStorageServiceS3StorageLensLg>', $name, $tech)
+!endprocedure

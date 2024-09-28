@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2024/Architecture/Analytics/AwsDataExchange
+
+sprite $AwsDataExchangeXs [10x10/16z] uy096354s3aOe3901WkOnGfamSIOW02hIG
+
+sprite $AwsDataExchangeSm [12x12/16z] uo0Ai8801oixbCl4mGo44C08vB70r35mSB31X1bWWa1f5XOMX45uRG8
+
+sprite $AwsDataExchangeMd [16x16/16z] dSsr0S002011dDz_uRYsN8N3L1MNF80tZoq5lIRDEa08_kmpAz3rv8MelhSKfAkUdAOEt_ypAm
+
+sprite $AwsDataExchangeLg [20x20/16z] jSwr0GC134DHe_JtNpZCgUzrPdESpkN9UmTEyozvs9b5K6BuO47udRDkCEJtaW167pb1JALuvtOW-9Iu8BUglfzItJrpUyDHpW
+
+!procedure AwsDataExchange($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Architecture/Analytics/AwsDataExchange', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsDataExchangeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsDataExchangeLg>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AwsDataExchangeGroup($id, $name='Aws Data Exchange', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AwsDataExchangeLg>', $name, $tech)
+!endprocedure

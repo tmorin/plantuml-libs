@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2024/Resource/IoT/AwsIoTGreengrassComponentMachineLearning
+
+sprite $AwsIoTGreengrassComponentMachineLearningXs [10x10/16z] LOp50G0n48H8LkY_udFbDygFO70nmTDJ2XAn-eow6oSJxNCnZr0W1-Bx0Yi
+
+sprite $AwsIoTGreengrassComponentMachineLearningSm [12x12/16z] NSh50KCn50CmXUpz9-wdMnLuwDyUVEOQSJmMnzGlZwW-kuSyOHWfOGWqKHD7T2t5EXxVBziedn6F2m
+
+sprite $AwsIoTGreengrassComponentMachineLearningMd [16x16/16z] RS67OSH030Cmo3wH-q-StlE0nzBnRLgDJncps0N1Mdh1Z3qY8r0QpHnkqgbDk6OxQYiY9cBgReIQefJKnS1zPDD3GHQmFXoR4LzETVWs0Jm3
+
+sprite $AwsIoTGreengrassComponentMachineLearningLg [20x20/16z] {
+VSY7OHWm20J0Gm9-_uaJzsuV7N-Pb2zk-_BSgQszyIvm8Adtrxq6MKyMkJUoxXGOCcrrOw5B1TdfPV6uX6HLJptzeqxOfr1nIcNDLDdkaweiJf4JszK8M6RA
+vWG3-Wp9P15FAkFLN4zkds9IvFBgPbfsVBPdVLDU_GS
+}
+
+!procedure AwsIoTGreengrassComponentMachineLearning($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/IoT/AwsIoTGreengrassComponentMachineLearning', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTGreengrassComponentMachineLearningCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTGreengrassComponentMachineLearningLg>', 'IoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTGreengrassComponentMachineLearningGroup($id, $name='Aws Io T Greengrass Component Machine Learning', $tech='')
+  IconGroupElement($id, 'IoTFamily', '<$AwsIoTGreengrassComponentMachineLearningLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2024/Resource/ManagementGovernance/AwsOpsWorksDeployments
+
+sprite $AwsOpsWorksDeploymentsXs [10x10/16z] Oq05NFXOp4oC214kY10GSw2pk1WuEP3L0G
+
+sprite $AwsOpsWorksDeploymentsSm [12x12/16z] bSQt0G0X400Wp7hx3_pzPwbm4NjV5a151n9u_KY58ZMOK3e7
+
+sprite $AwsOpsWorksDeploymentsMd [16x16/16z] Oy01kAZBP-PYHEPoCZ8mSo1neIGKC48fylYCh8mCGBEPW1GxH803R1KpX48eP0OH
+
+sprite $AwsOpsWorksDeploymentsLg [20x20/16z] nL350S0m22p1R_zzwswlIe8xLBSlJspunSPPG5jJM4lSJlBAAfzu2d_BXiw6rfETBKSZSoznH2UCHWoSSN9Owca3
+
+!procedure AwsOpsWorksDeployments($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/ManagementGovernance/AwsOpsWorksDeployments', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsOpsWorksDeploymentsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsOpsWorksDeploymentsLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsOpsWorksDeploymentsGroup($id, $name='Aws Ops Works Deployments', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsOpsWorksDeploymentsLg>', $name, $tech)
+!endprocedure

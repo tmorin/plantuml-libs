@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2024/bootstrap')
+
+' loads the Item which embeds the element AwsCodeArtifactCard
+include('aws-q2-2024/Architecture/DeveloperTools/AwsCodeArtifact')
+
+' renders the element
+AwsCodeArtifactCard('AwsCodeArtifactCard', 'Aws Code Artifact Card', 'an optional description')
+@enduml

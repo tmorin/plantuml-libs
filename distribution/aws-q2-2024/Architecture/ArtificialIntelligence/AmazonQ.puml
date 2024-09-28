@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2024/Architecture/ArtificialIntelligence/AmazonQ
+
+sprite $AmazonQXs [10x10/16z] uy01c64CDY1cv80H75XOB70c0rmO1G
+
+sprite $AmazonQSm [12x12/16z] uy0B6E4i9WuETXO8amqgW02iK9eTp8O3PWWRees10y9X0o4OOCEm4G
+
+sprite $AmazonQMd [16x16/16z] dKo54G0X3Bjgil_2xwuuDCgs9UO7v2DGh53c3ph_kV9nm7B6SjKjzOH7ojP-p7Kh9eHCvM7bxFbVFG
+
+sprite $AmazonQLg [20x20/16z] hS-r5G0W301Hujb_OTnfkOhtSV-HoKE47avHC7SNt0Xq36JGDirpsJ8vZC4UG-V711Wlgo5FGvkV2UiJCCXyXPm5xoy78FzG0W
+
+!procedure AmazonQ($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Architecture/ArtificialIntelligence/AmazonQ', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonQCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonQLg>', 'ArtificialIntelligence', $funcName, $content)
+!endprocedure
+
+!procedure AmazonQGroup($id, $name='Amazon Q', $tech='')
+  IconGroupElement($id, 'ArtificialIntelligenceFamily', '<$AmazonQLg>', $name, $tech)
+!endprocedure

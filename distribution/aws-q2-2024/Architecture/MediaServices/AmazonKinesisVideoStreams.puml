@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2024/Architecture/MediaServices/AmazonKinesisVideoStreams
+
+sprite $AmazonKinesisVideoStreamsXs [10x10/16z] OoS86E0q8oCB6uJDnC30o0YYmR8i435sPWO8YvsPXOKHoGG
+
+sprite $AmazonKinesisVideoStreamsSm [12x12/16z] VKg50S0m38e1_ryyzxMDOXgKtp3hnYGymGs7wEQ-kmmpsp0MEJ8JgrnRIbi6iUPslDnQIg-Q0G
+
+sprite $AmazonKinesisVideoStreamsMd [16x16/16z] dKsr0SD043lM_XC_OvFOLYV65_XD5NPnY-13OHWxmbLb21A5cegi1XCHCpVYLUOA6_DS3wCk3K4heSazegcJmqPVy1SP
+
+sprite $AmazonKinesisVideoStreamsLg [20x20/16z] fSZ50SC054EnJ_RRV-8oSnCTnNhYMR-OV774SCic1tTcLJT7OPoHFJONazMIhHqkLB6NcJv5jc6EE2h840TZZbnOC7rpXKhGYkk9H21nFMZKivVSyW5_s08
+
+!procedure AmazonKinesisVideoStreams($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Architecture/MediaServices/AmazonKinesisVideoStreams', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonKinesisVideoStreamsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonKinesisVideoStreamsLg>', 'MediaServices', $funcName, $content)
+!endprocedure
+
+!procedure AmazonKinesisVideoStreamsGroup($id, $name='Amazon Kinesis Video Streams', $tech='')
+  IconGroupElement($id, 'MediaServicesFamily', '<$AmazonKinesisVideoStreamsLg>', $name, $tech)
+!endprocedure

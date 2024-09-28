@@ -1,0 +1,168 @@
+# AwsConsoleMobileApplication
+
+
+```text
+aws-q2-2024/Architecture/ManagementGovernance/AwsConsoleMobileApplication
+```
+
+```text
+include('aws-q2-2024/Architecture/ManagementGovernance/AwsConsoleMobileApplication')
+```
+
+
+
+| Illustration | AwsConsoleMobileApplication | AwsConsoleMobileApplicationCard | AwsConsoleMobileApplicationGroup |
+| :---: | :---: | :---: | :---: |
+| ![illustration for Illustration](../../../aws-q2-2024/Architecture/ManagementGovernance/AwsConsoleMobileApplication.png) | ![illustration for AwsConsoleMobileApplication](../../../aws-q2-2024/Architecture/ManagementGovernance/AwsConsoleMobileApplication.Local.png) | ![illustration for AwsConsoleMobileApplicationCard](../../../aws-q2-2024/Architecture/ManagementGovernance/AwsConsoleMobileApplicationCard.Local.png) | ![illustration for AwsConsoleMobileApplicationGroup](../../../aws-q2-2024/Architecture/ManagementGovernance/AwsConsoleMobileApplicationGroup.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsConsoleMobileApplicationXs>`
+- `<$AwsConsoleMobileApplicationSm>`
+- `<$AwsConsoleMobileApplicationMd>`
+- `<$AwsConsoleMobileApplicationLg>`
+
+
+
+
+
+## AwsConsoleMobileApplication
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2024/bootstrap')
+
+' loads the Item which embeds the element AwsConsoleMobileApplication
+include('aws-q2-2024/Architecture/ManagementGovernance/AwsConsoleMobileApplication')
+
+' renders the element
+AwsConsoleMobileApplication('AwsConsoleMobileApplication', 'Aws Console Mobile Application', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2024/bootstrap')
+
+' loads the Item which embeds the element AwsConsoleMobileApplication
+include('aws-q2-2024/Architecture/ManagementGovernance/AwsConsoleMobileApplication')
+
+' renders the element
+AwsConsoleMobileApplication('AwsConsoleMobileApplication', 'Aws Console Mobile Application', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+## AwsConsoleMobileApplicationCard
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2024/bootstrap')
+
+' loads the Item which embeds the element AwsConsoleMobileApplicationCard
+include('aws-q2-2024/Architecture/ManagementGovernance/AwsConsoleMobileApplication')
+
+' renders the element
+AwsConsoleMobileApplicationCard('AwsConsoleMobileApplicationCard', 'Aws Console Mobile Application Card', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2024/bootstrap')
+
+' loads the Item which embeds the element AwsConsoleMobileApplicationCard
+include('aws-q2-2024/Architecture/ManagementGovernance/AwsConsoleMobileApplication')
+
+' renders the element
+AwsConsoleMobileApplicationCard('AwsConsoleMobileApplicationCard', 'Aws Console Mobile Application Card', 'an optional description')
+@enduml
+```
+
+## AwsConsoleMobileApplicationGroup
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2024/bootstrap')
+
+' loads the Item which embeds the element AwsConsoleMobileApplicationGroup
+include('aws-q2-2024/Architecture/ManagementGovernance/AwsConsoleMobileApplication')
+
+' renders the element
+AwsConsoleMobileApplicationGroup('AwsConsoleMobileApplicationGroup', 'Aws Console Mobile Application Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2024/bootstrap')
+
+' loads the Item which embeds the element AwsConsoleMobileApplicationGroup
+include('aws-q2-2024/Architecture/ManagementGovernance/AwsConsoleMobileApplication')
+
+' renders the element
+AwsConsoleMobileApplicationGroup('AwsConsoleMobileApplicationGroup', 'Aws Console Mobile Application Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml
+```
+

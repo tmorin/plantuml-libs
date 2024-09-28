@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2024/Resource/IoT/AwsIoTCoreDeviceAdvisor
+
+sprite $AwsIoTCoreDeviceAdvisorXs [10x10/16z] JOk50S0W30Glll_4BGuNb-T5YTbKZ-oThFaGwu0dkcIAKPtvwCwYf2z-
+
+sprite $AwsIoTCoreDeviceAdvisorSm [12x12/16z] LSe50G1130F1BIN-5J_Z71JvwmhpuMAdiqgW0-I1Fklp4zFdaYUGY1qM8qwUTwU3G_Em3B02
+
+sprite $AwsIoTCoreDeviceAdvisorMd [16x16/16z] RK-50S0W3Akc_r-yuHweExqG25_CeiUCDczO3pT8uR2i6kVCv47nDH9krGZjlSBH6risauKACkGGBukKE7j5ZSEs-gR2wRXWTxJvz0C
+
+sprite $AwsIoTCoreDeviceAdvisorLg [20x20/16z] {
+XL255K0X29GBs7_ZtnsUT3_R9vZbk8OAex3FeLnAe7FPfYitCt2amQFrwE7UYPASipLAt-zoR36iysCqnrvd7kCqELQCHHl6meeMuz0J88mohZ76s4jUUban
+ZTLvn-ahLAhMXmhnB8o8pHm
+}
+
+!procedure AwsIoTCoreDeviceAdvisor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/IoT/AwsIoTCoreDeviceAdvisor', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTCoreDeviceAdvisorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTCoreDeviceAdvisorLg>', 'IoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTCoreDeviceAdvisorGroup($id, $name='Aws Io T Core Device Advisor', $tech='')
+  IconGroupElement($id, 'IoTFamily', '<$AwsIoTCoreDeviceAdvisorLg>', $name, $tech)
+!endprocedure

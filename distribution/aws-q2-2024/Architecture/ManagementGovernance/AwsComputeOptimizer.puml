@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2024/Architecture/ManagementGovernance/AwsComputeOptimizer
+
+sprite $AwsComputeOptimizerXs [10x10/16z] ROk50S0m4089LMx_VUlUl3z2FPgqoNxA-ox2Im4fEDkbo8GztA7TJDiEt343
+
+sprite $AwsComputeOptimizerSm [12x12/16z] VKs54S103Bee3Vll-tvMYolmHs2CKufGKwzL6w4ppd4PnzGnQuoROgqwgOgoVJyRoge3c2Xv2FYG3W
+
+sprite $AwsComputeOptimizerMd [16x16/16z] ZKw54OLG3Bkccko_xnUSCtXQY-ZLuZtDjB6pQ2bXuBFbpYB-zJLTXW5kENkWm2yZbhpQMvUyENJOFY-2zhzsyFykKgmwx11s2ee8iRkfn_K5
+
+sprite $AwsComputeOptimizerLg [20x20/16z] {
+fSX7GaLH24H1QBYXp_xtQtvffluQ5g_RmsmUgfqzZU6GUu3SgSsXM840yYWB1ng6ujlC7GaYGE9BzvgcX2SSvvM9XHS-3kz5QoLeyML5cjWomvD38IF2fTi1
+wW4xZXirsX90cqDMulwmk9Y_UmS
+}
+
+!procedure AwsComputeOptimizer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Architecture/ManagementGovernance/AwsComputeOptimizer', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsComputeOptimizerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsComputeOptimizerLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsComputeOptimizerGroup($id, $name='Aws Compute Optimizer', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsComputeOptimizerLg>', $name, $tech)
+!endprocedure

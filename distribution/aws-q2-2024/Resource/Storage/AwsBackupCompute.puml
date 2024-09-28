@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2024/Resource/Storage/AwsBackupCompute
+
+sprite $AwsBackupComputeXs [10x10/16z] TSR70SDG508m_Sh-4oSsTxy2yZ6PWRciPPRZtiZhS5THXNheN9mg-dy
+
+sprite $AwsBackupComputeSm [12x12/16z] NKs50G0m2686_d_nkkq4_6BfrAIkqgi7Mc2Trw3LFS0wwWNOzsDYSzub8TfjhwD76tEwk_2mjb
+
+sprite $AwsBackupComputeMd [16x16/16z] RSc7TKKn20KmyGvSzfyu-RtBflijMrwjUD4zgTShAivgkZ737kTacEmM4TcomOvpptsESHRoB8pQ9ADS7TYmdDrhjQkPEkbQLztmd5_z0m
+
+sprite $AwsBackupComputeLg [20x20/16z] {
+VSh5OHWm50KmsH_U_XEtOKvqbhzCZgzQV77svEkAUuDtUy4suAfG2ZSEfhOHgOFS9UewlGzoY7kSXBEmXGo413Rb5hYNWJq44EylW22J7PeNJUGSmejuSPeN
+sGQPUD57zj5ONYG7RCOl_WC
+}
+
+!procedure AwsBackupCompute($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/Storage/AwsBackupCompute', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsBackupComputeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsBackupComputeLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AwsBackupComputeGroup($id, $name='Aws Backup Compute', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AwsBackupComputeLg>', $name, $tech)
+!endprocedure

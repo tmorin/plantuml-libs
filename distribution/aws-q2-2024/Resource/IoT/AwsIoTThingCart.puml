@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2024/Resource/IoT/AwsIoTThingCart
+
+sprite $AwsIoTThingCartXs [10x10/16z] RSmv0GD104KXYfzv_XsdtGi1k5dbBi0SP08_YREHKEdh-mC
+
+sprite $AwsIoTThingCartSm [12x12/16z] LOt50G013C9IeUm_yRdcKmNuqs2ThVB4q7djfY6P7OQzrxa7dxqOemJRMw_Zn_JzJq4VlUT4lzmL
+
+sprite $AwsIoTThingCartMd [16x16/16z] ROy54i0m408vvVylZf3fZPNgpXB3Jn8DmkF3JfwhAkFPYSkYXZFaonJv9a1PC-zwNbpov5MN6ywM1_F4vVsMFN31tH6NZMJSBRhwxp7r4Jwft_CW3ZTCxGq
+
+sprite $AwsIoTThingCartLg [20x20/16z] {
+TP055WGX34CJQDBxttWNVsCVfrvyKS6Ax6CJO5p_VA6CluiVDLzXYDWufbvUzSZsvmbXTjlZCd5i6VjFxKXZEQJQcpCNRVz73rP4L5pqacqhLt_v1tdqLk2s
+wQDUeCYobNtektyJzj7u0G
+}
+
+!procedure AwsIoTThingCart($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/IoT/AwsIoTThingCart', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTThingCartCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTThingCartLg>', 'IoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTThingCartGroup($id, $name='Aws Io T Thing Cart', $tech='')
+  IconGroupElement($id, 'IoTFamily', '<$AwsIoTThingCartLg>', $name, $tech)
+!endprocedure

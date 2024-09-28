@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2024/Architecture/Database/AmazonKeyspaces
+
+sprite $AmazonKeyspacesXs [10x10/16z] 1S490O0m002XqxtqBpm0000s0Xq-48mVZG1nWB21lW201m
+
+sprite $AmazonKeyspacesSm [12x12/16z] TKc30G1H2BrS-mzy-bPuZFCe05YIYR8s1FJGchjTISFF9TUY7J58VksrICvZdWS
+
+sprite $AmazonKeyspacesMd [16x16/16z] bKg30KHH37jril_0Xs-ZZFY-e9xbWf5h_sJYQX6cil5PcWjkOew1QsliQ_9ZmRK0OkbNCNICU95S-8Ihzk9zVG4
+
+sprite $AmazonKeyspacesLg [20x20/16z] hSxL0SKm20NGYyF-0pzj_BEDvqIWRXTNKSj5w3SP9clhjCaGtqbejWepyvyFQqN0pUmFgk7Uh0H0jUtqrlAqYCMKHAGuAu-StMlOzMfvR001KW-KDm
+
+!procedure AmazonKeyspaces($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Architecture/Database/AmazonKeyspaces', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonKeyspacesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonKeyspacesLg>', 'Database', $funcName, $content)
+!endprocedure
+
+!procedure AmazonKeyspacesGroup($id, $name='Amazon Keyspaces', $tech='')
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonKeyspacesLg>', $name, $tech)
+!endprocedure

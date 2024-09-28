@@ -1,0 +1,21 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2024/bootstrap')
+
+' loads the Item which embeds the element AmazonElasticContainerServiceCopiIoTCliGroup
+include('aws-q2-2024/Resource/Containers/AmazonElasticContainerServiceCopiIoTCli')
+
+' renders the element
+AmazonElasticContainerServiceCopiIoTCliGroup('AmazonElasticContainerServiceCopiIoTCliGroup', 'Amazon Elastic Container Service Copi Io T Cli Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

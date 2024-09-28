@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2024/Architecture/Compute/AwsServerlessApplicationRepository
+
+sprite $AwsServerlessApplicationRepositoryXs [10x10/16z] OoS8c1WGR0P640aK0D8W9WiB2nC32rYG4GWOi9i
+
+sprite $AwsServerlessApplicationRepositorySm [12x12/16z] dKV50G0W4EAI_IUsVHiq_80pzXHITRwWzJiE4800tdPc2sFm2XK
+
+sprite $AwsServerlessApplicationRepositoryMd [16x16/16z] jSYr0S105CFG-s1h_ud3q0VKFV57sHtSDOWHEXsWsFRMG5wDjBbTqSPsRCvz6dOxjTHIcjVD
+
+sprite $AwsServerlessApplicationRepositoryLg [20x20/16z] nSg70GCn24DH0OA__yIfL-m5akT2vR-K4fj9I8BXbf_Ngk0IWDqGpK5GvAVkOxD0u-JZ26Lxx1pPFlOcZb20E2WE4Z_o1
+
+!procedure AwsServerlessApplicationRepository($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Architecture/Compute/AwsServerlessApplicationRepository', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsServerlessApplicationRepositoryCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsServerlessApplicationRepositoryLg>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AwsServerlessApplicationRepositoryGroup($id, $name='Aws Serverless Application Repository', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AwsServerlessApplicationRepositoryLg>', $name, $tech)
+!endprocedure

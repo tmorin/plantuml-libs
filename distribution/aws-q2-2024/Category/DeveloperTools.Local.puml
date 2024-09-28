@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2024/bootstrap')
+
+' loads the Item which embeds the element DeveloperTools
+include('aws-q2-2024/Category/DeveloperTools')
+
+' renders the element
+DeveloperTools('DeveloperTools', 'Developer Tools', 'an optional tech label', 'an optional description')
+@enduml

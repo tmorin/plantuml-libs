@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2024/Resource/IoT/AwsIoTPolicy
+
+sprite $AwsIoTPolicyXs [10x10/16z] Oq00DX1Wm0yOaTZCGCpEmCxCpiOCP00H8piBAq8P0W
+
+sprite $AwsIoTPolicySm [12x12/16z] ZOc50G113C9Itt_YTzTB5Q09Cnwf0iZSVfbwoKeei81I8WfN4GbHS6PIDJdI0m
+
+sprite $AwsIoTPolicyMd [16x16/16z] XOs50S0m40AXuM7_ZUjk5tq3_17Fj2KsA0neYzFECUiSW-SuMeJZCQOovmUol40O3W_7M1nYita0xjnXY8Eogn2A0mKj9WlX43OSa72d1m
+
+sprite $AwsIoTPolicyLg [20x20/16z] ZOp50KK13CAW0ljF_FMvvzO2mLD28u4HOqIBd-3T3yxptdCVjpwwc8wnjx1qBdm6EGx7YfLXAPCmSlZRo2hv--j19y9LrOJ9ufUEhD4pOOwl1UMMy9mt
+
+!procedure AwsIoTPolicy($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/IoT/AwsIoTPolicy', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTPolicyCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTPolicyLg>', 'IoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTPolicyGroup($id, $name='Aws Io T Policy', $tech='')
+  IconGroupElement($id, 'IoTFamily', '<$AwsIoTPolicyLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2024/Architecture/CustomerEnablement/AwsProfessionalServices
+
+sprite $AwsProfessionalServicesXs [10x10/16z] RS490G0W30IWyvV-XLTWeFSzm2L0-C3T0rWu0NW0iW2W
+
+sprite $AwsProfessionalServicesSm [12x12/16z] VKn50W0W378z_lzWEswk0y37WlZE2T0vzvHpDq3FN8mYvxHkViVCoG9PDx8d6njqhG4
+
+sprite $AwsProfessionalServicesMd [16x16/16z] dOf50iHG24C_7kv_u9bwiwezdAI_K3O5tRxLBcDg83sdOh-XONnh2DsoTDTTNIxnsZoscpQ3nuoZj8bH67tF7m
+
+sprite $AwsProfessionalServicesLg [20x20/16z] fOu30aHH24LptVqlUF1jdeSClAVCOkaI81apwFzbpDAYYnpxEYjgCIFI33E2p9anJPHi9ITwj8jxKWrfpM-QG50NxaAMuphcBLbHWZbEfOINV04
+
+!procedure AwsProfessionalServices($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Architecture/CustomerEnablement/AwsProfessionalServices', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsProfessionalServicesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsProfessionalServicesLg>', 'CustomerEnablement', $funcName, $content)
+!endprocedure
+
+!procedure AwsProfessionalServicesGroup($id, $name='Aws Professional Services', $tech='')
+  IconGroupElement($id, 'CustomerEnablementFamily', '<$AwsProfessionalServicesLg>', $name, $tech)
+!endprocedure

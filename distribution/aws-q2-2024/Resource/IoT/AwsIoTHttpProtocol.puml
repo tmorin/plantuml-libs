@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2024/Resource/IoT/AwsIoTHttpProtocol
+
+sprite $AwsIoTHttpProtocolXs [10x10/16z] Oq00HYZDZX0XZeLX1YiB8piZ0piZ1301
+
+sprite $AwsIoTHttpProtocolSm [12x12/16z] Oq06x8mmm8eaoaOfcv4L3DZ1R31YOWCpO6fOsTWOsS207G
+
+sprite $AwsIoTHttpProtocolMd [16x16/16z] lOg50S1030Bl8x3_n7KVe1SFy6LODmRpf15FzFFDVlT7xu0SnFDUiX3--6a9NSm
+
+sprite $AwsIoTHttpProtocolLg [20x20/16z] rS-54S0m3C10AM3lFt6PsmNwbwEO-TJp9eGkTpc_1_tTtonVHxl_VTHs6dOAqQv_tUcRdF_Yp9l_0iLqqZqK0HyO0G
+
+!procedure AwsIoTHttpProtocol($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/IoT/AwsIoTHttpProtocol', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTHttpProtocolCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTHttpProtocolLg>', 'IoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTHttpProtocolGroup($id, $name='Aws Io T Http Protocol', $tech='')
+  IconGroupElement($id, 'IoTFamily', '<$AwsIoTHttpProtocolLg>', $name, $tech)
+!endprocedure

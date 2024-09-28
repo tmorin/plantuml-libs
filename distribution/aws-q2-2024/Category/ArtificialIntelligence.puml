@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2024/Category/ArtificialIntelligence
+
+sprite $ArtificialIntelligenceXs [10x10/16z] OqS03XW0iPXWB3PMA8kTWHd41s961YQmF3iGCS3KCI3qehC
+
+sprite $ArtificialIntelligenceSm [12x12/16z] NOpL0S1G20FB0vBRV-6wtmyIyHjkzDy7MCUkIiW-ze2W3ayQS_p34qaU7WJ3XyT5-j-lcre
+
+sprite $ArtificialIntelligenceMd [16x16/16z] PSs50O0m44FHgoNPVsA2LJ_weCAzqkQ2JNF3cDoQLRf1EO2VA-6Rc5y352GgNZT5w1xGNhDcuvxoMb2MA-MpF63QpsNF69uw7MiN
+
+sprite $ArtificialIntelligenceLg [20x20/16z] {
+bSg54GDG40BHat-m_JSSTyyo-WQ_AlAnSFBOHoleUtEnqDIDIJq6xWoN3_S-cpEwJHikbir-1DJ5Y2uVOCvMaciWRtwC2P7Scf0Ch3KN8vA3mTMOLLJDrQxz
+QV5KRW4
+}
+
+!procedure ArtificialIntelligence($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Category/ArtificialIntelligence', $name, $tech, $desc)
+!endprocedure
+
+!procedure ArtificialIntelligenceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ArtificialIntelligenceLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure ArtificialIntelligenceGroup($id, $name='Artificial Intelligence', $tech='')
+  IconGroupElement($id, 'ArtificialIntelligence', '<$ArtificialIntelligenceLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2024/Resource/Database/AmazonAuroraMariaDbInstance
+
+sprite $AmazonAuroraMariaDbInstanceXs [10x10/16z] HKg55G1H24Ain_u3N_mqATpY-WBStP3qducfzfrnFw4-o1QYRoGbv5z5bru
+
+sprite $AmazonAuroraMariaDbInstanceSm [12x12/16z] PSY54S0m3CLG9J5yxpzmcQkZT-9PjREWCQ3Z3D72qxfwpyMSNGvf74wW7jRfolhzow4rf686
+
+sprite $AmazonAuroraMariaDbInstanceMd [16x16/16z] NOs54KHH20CNp--_u7DXtev2Z1FJuWAnAJGKO91M3EgfSBp0NtSIQLXIl6uM-vPwPF-xN-F_ssjwtm6mxvxnTIUdhabn_QSX2cfU15u1Tm
+
+sprite $AmazonAuroraMariaDbInstanceLg [20x20/16z] {
+RSs70G0X20D024R8_WD_xs_iPxDXUkcPyeNmEIEpiZk-rl25AnW8UBEaWvinYIv3C07kvaQjbfGiT_laQsZniPvmf-osSvfu6KlAXlyvVzl-tjksVtrmbsyh
+BLcilkS0SyKHD2MxjXq_iyvNc04
+}
+
+!procedure AmazonAuroraMariaDbInstance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/Database/AmazonAuroraMariaDbInstance', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonAuroraMariaDbInstanceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonAuroraMariaDbInstanceLg>', 'Database', $funcName, $content)
+!endprocedure
+
+!procedure AmazonAuroraMariaDbInstanceGroup($id, $name='Amazon Aurora Maria Db Instance', $tech='')
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonAuroraMariaDbInstanceLg>', $name, $tech)
+!endprocedure

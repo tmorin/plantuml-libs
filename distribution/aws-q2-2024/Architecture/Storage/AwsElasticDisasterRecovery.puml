@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2024/Architecture/Storage/AwsElasticDisasterRecovery
+
+sprite $AwsElasticDisasterRecoveryXs [10x10/16z] OyS1697OB0YI2Ih4oi3E2c6mCB0pGCLmcGK
+
+sprite $AwsElasticDisasterRecoverySm [12x12/16z] ZS490OC0402W--dVU0ccWez60IIYmIvEmc2RHbAAWnrp1o0z-G4
+
+sprite $AwsElasticDisasterRecoveryMd [16x16/16z] dOw30KDH303Zst_Yzjk-XnXy8fCbrjq91H0D1foEM8PLb0g00Y19qCaMH0SRpIpJ8ArEDq3vnXy
+
+sprite $AwsElasticDisasterRecoveryLg [20x20/16z] jOx50KCX40LPdVuhZk5mpHzq_V4C8NQwIeB6vj9wkrw-30eTjn7icHQrfuhJCwLEhfMHYqymI_1M-qjJ_-NrAIOYe4OUoZES4nSkWh_m1W
+
+!procedure AwsElasticDisasterRecovery($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Architecture/Storage/AwsElasticDisasterRecovery', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsElasticDisasterRecoveryCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsElasticDisasterRecoveryLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AwsElasticDisasterRecoveryGroup($id, $name='Aws Elastic Disaster Recovery', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AwsElasticDisasterRecoveryLg>', $name, $tech)
+!endprocedure
