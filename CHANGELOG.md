@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [15.0.0](https://github.com/tmorin/plantuml-libs/compare/v14.0.2...v15.0.0) (2024-09-29)
+
+
+### ⚠ BREAKING CHANGES
+
+* **azure-19:** the package is `azure-17` is removed from the distribution
+* **aws-q2-2024:** the package is `aws-q1-2024` is removed from the distribution
+
+### Features
+
+* **aws-q2-2024:** add the package in replacement of `aws-q1-2024` ([04e5523](https://github.com/tmorin/plantuml-libs/commit/04e5523c36431c340d02a93756dcc028a39b5b5f))
+* **azure-19:** add the package in replacement of `azure-17` ([401b383](https://github.com/tmorin/plantuml-libs/commit/401b383e76bea94c0c66fa62cffa362da9f52528))
+
 ### [14.0.2](https://github.com/tmorin/plantuml-libs/compare/v14.0.1...v14.0.2) (2024-02-25)
 
 
