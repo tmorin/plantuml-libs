@@ -1,0 +1,24 @@
+' definition of the Item azure-19/Item/Databases/ServiceOracleDatabase
+
+sprite $ServiceOracleDatabaseXs [10x10/16z] NKY50G112C92zr_uyrff08vsxYt6Uz_oED-G8AEIp7hhacZ6O_DNOcut
+
+sprite $ServiceOracleDatabaseSm [12x12/16z] DOi54a11249XxViV-8VClWcb0D1nyG-8-76v8Om0CxDltJAdApEB-6Zz6yzEMVl_ljlwpEs4_8p8CltQlW
+
+sprite $ServiceOracleDatabaseMd [16x16/16z] NOk94S0m2CCCk0xxJrnp_QkykYWmmSGB3ZzbNBgTvA4yp4TbEAenyQuXirhpcgK6edpqaiJ0mb3sesiCSfK6I0n7RyZ3Vpsu3jVLRnacrU-UMOV7yty7
+
+sprite $ServiceOracleDatabaseLg [20x20/16z] {
+VSw53GG120J0NRp_YZ_SSouJ8pWQJN5XJN2aji2EFcJF-Gx3V7IW9FTS1gT9CX3DEpMOa2LNbHajise6rfm9VN9uw0D1-oEuzuMfgCNUj-yJVkxpBUVRFiEu
+_-8kaX_x_93p7m
+}
+
+!procedure ServiceOracleDatabase($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/Databases/ServiceOracleDatabase', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceOracleDatabaseCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceOracleDatabaseLg>', 'Databases', $funcName, $content)
+!endprocedure
+
+!procedure ServiceOracleDatabaseGroup($id, $name='Service Oracle Database', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceOracleDatabaseLg>', $name, $tech)
+!endprocedure

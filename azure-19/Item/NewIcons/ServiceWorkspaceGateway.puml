@@ -1,0 +1,24 @@
+' definition of the Item azure-19/Item/NewIcons/ServiceWorkspaceGateway
+
+sprite $ServiceWorkspaceGatewayXs [10x10/16z] NKg30S1038on_y3jM-49hbB5HvXtwZ8a25EW2jAnI1xX73xC96k_9tu
+
+sprite $ServiceWorkspaceGatewaySm [12x12/16z] NKk30S1038on_y3jMt4Ey8RglBWEwcUxfV6bnyFRX1DsLnr4WXGxXfb9X2zdhWiap17E-04
+
+sprite $ServiceWorkspaceGatewayMd [16x16/16z] RKs30GH03Akn_y2Fisecy1RSEXL4eTcMoFr6U1lpE2i7ie3grfORdNMuYHQKbScaRS6jK9B7Jpn_zuhpb1ctPtDJMy0Jdl85
+
+sprite $ServiceWorkspaceGatewayLg [20x20/16z] {
+bO-55ODG303Zil_2_VvIXyEZ1zn3ErWZE3-LQzNpiq6oytYIyjQWK91HW09FIFj-5XX5pr8QRjn2MafmIJgTK88RZgNjEL7YrZj5qAFZojZkptAGuqVaEHQ4
+zkGMYStuMPSIVl
+}
+
+!procedure ServiceWorkspaceGateway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/NewIcons/ServiceWorkspaceGateway', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceWorkspaceGatewayCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceWorkspaceGatewayLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceWorkspaceGatewayGroup($id, $name='Service Workspace Gateway', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceWorkspaceGatewayLg>', $name, $tech)
+!endprocedure

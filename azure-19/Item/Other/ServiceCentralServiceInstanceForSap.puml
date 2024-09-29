@@ -1,0 +1,21 @@
+' definition of the Item azure-19/Item/Other/ServiceCentralServiceInstanceForSap
+
+sprite $ServiceCentralServiceInstanceForSapXs [10x10/16z] Oy0BkBYuMDYue82HaGD8WiIOM40C1cvk3cvkDcu648kRauiRboa
+
+sprite $ServiceCentralServiceInstanceForSapSm [12x12/16z] ZSZN0O0W40FGq27PVryZNtPvrmyB6ayQnw2vbHB2NE5tJfa6I4EPNGFxhkwLi50dVDa
+
+sprite $ServiceCentralServiceInstanceForSapMd [16x16/16z] fSZ70KGX549Hp0BzrslUpMx-DPw7ZpNzLbglkd5JTUrBx54E8Ok7rp5dzMK0jiYOAPauTfUjPk7PwfsF2FM5_ve
+
+sprite $ServiceCentralServiceInstanceForSapLg [20x20/16z] lSb50W8m34JHf1APkVzzgUzOmg-_oXzoVCcQM-2M6FKSP_Wb6Tjug2eY3qthQ4MBmmzTQ-sOR3FOi40S4f88qiO48TUOWVanwDhLHwBsab_r0G
+
+!procedure ServiceCentralServiceInstanceForSap($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/Other/ServiceCentralServiceInstanceForSap', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceCentralServiceInstanceForSapCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceCentralServiceInstanceForSapLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceCentralServiceInstanceForSapGroup($id, $name='Service Central Service Instance For Sap', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceCentralServiceInstanceForSapLg>', $name, $tech)
+!endprocedure

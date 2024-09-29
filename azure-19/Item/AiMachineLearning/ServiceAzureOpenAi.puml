@@ -1,0 +1,24 @@
+' definition of the Item azure-19/Item/AiMachineLearning/ServiceAzureOpenAi
+
+sprite $ServiceAzureOpenAiXs [10x10/16z] 9Ok50S1030BV8Tr_u7Al2TfE-Pu9K8vTx7E0pcxz1FN60UbSA4i7ED50qgi2N3DmEk3x0G
+
+sprite $ServiceAzureOpenAiSm [12x12/16z] BKq54W112E8sCFx_u6DmMwLmAj-QCkA4FfMXXL3ZaX_e9aXWwe3NSSthveROv1g8RePUja6eVFRBIGL7kEmV
+
+sprite $ServiceAzureOpenAiMd [16x16/16z] FSy93iGm24FHtpOnOUv_u174mbgVim8dpqIGpQXqbTRgOXXuHrDwKDi4v29YlrJAnIlONjQUmgS_dBWMm5lRSpP4iTm5PlftsqpDBCqVdjJCFm
+
+sprite $ServiceAzureOpenAiLg [20x20/16z] {
+JT050i0W30F030do_mSFIKipvN00Zj5ZCZ2Csihv8HS9cccWOZXCI50c8lcXFZJ2nurE1Jjc_E39ilNEZjMDzQ6CP77yw0jv0wuboseORMXrNDH4suu66dOa
+rl6O42vZPk7wokO4TJYIHUa7
+}
+
+!procedure ServiceAzureOpenAi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/AiMachineLearning/ServiceAzureOpenAi', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureOpenAiCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureOpenAiLg>', 'AiMachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureOpenAiGroup($id, $name='Service Azure Open Ai', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureOpenAiLg>', $name, $tech)
+!endprocedure

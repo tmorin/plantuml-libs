@@ -1,0 +1,27 @@
+' definition of the Item azure-19/Item/Web/ServiceAppSpace
+
+sprite $ServiceAppSpaceXs [10x10/16z] DOY50G0W3CE2jln_CBvCAWIT0hNtlBKZDhedgMwvsaGIVW3PTQl155iSnksvtAel
+
+sprite $ServiceAppSpaceSm [12x12/16z] HOg70GD0208FymZPV-3qSdQ1F_lgMh_s5H4eF0cp_bYqiIC2XyGdmU7YFX7FQCzZ7w1Cqr9U1n9ZdbmjrQ_hY_SE
+
+sprite $ServiceAppSpaceMd [16x16/16z] {
+LSc9WGCn24FHZmSaRVyDBxcJPtFpI_muGWAa6Ucm9Ce5QyITeU_NIwnkRCi6NO3PiNiJU20aiJQ1NMJoK8sFwBrkn3L0u3dN7402PpM1bGQgmCETKq15F5N-
+LW4IFwH_
+}
+
+sprite $ServiceAppSpaceLg [20x20/16z] {
+ROm7aWGW3CC4fF7_3r-SQzj4jJ9ZteZux0x2GcmwdmxMRyPI33rwJwkDqF30a0iymcWqrkDO3bE3IBQonKWTkHpdVSEQIL4YTKN7zBwyX5ZLKPKp7vzoJb-x
+avaSLZGPu5NkKvQEg0MdX6eOxBPaBTtN4PB9i6_nHzuAZtiF4168ASoDa7j1xWi
+}
+
+!procedure ServiceAppSpace($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/Web/ServiceAppSpace', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAppSpaceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAppSpaceLg>', 'Web', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAppSpaceGroup($id, $name='Service App Space', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAppSpaceLg>', $name, $tech)
+!endprocedure

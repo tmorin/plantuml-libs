@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2024/Resource/IoT/AwsIoTThingVibrationSensor
+
+sprite $AwsIoTThingVibrationSensorXs [10x10/16z] JOor0G113CCSrFuJFnwf2HXqaWtiCvwFthiyrQ84tj_7sfrdupdvDd_DpwRuwAFl1W
+
+sprite $AwsIoTThingVibrationSensorSm [12x12/16z] POs50S104CBo5lQVkEuzL-0dySoxD60VxTd2e1OyvtQ4c4efZ0It-MWRbkm8Vd2QckYRTmO
+
+sprite $AwsIoTThingVibrationSensorMd [16x16/16z] RSyxeeLG30B0GGtP_uhVzvxEgHAeyAfMnaTIwohWpb5826xcynUiGHjNkQyr7IHFDLc3tQnjh9bTn5Dy-bnXRfkQn3GQF8-PGHm3EiU-xs6S_ni
+
+sprite $AwsIoTThingVibrationSensorLg [20x20/16z] {
+VP253GGm54BX2-o_yONqtA1ANXK_DH0S_yie-UuzcV2avZshMrOPpHZm8FAYTdYuJJC37suL3XiicNIu6MfCtpWxGy5iiRRimo5ndxN4uM3gjj-Dey3SyOKh
+8rSr7jn3uQBj9zq0zfRAZFdtJtbtT04
+}
+
+!procedure AwsIoTThingVibrationSensor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/IoT/AwsIoTThingVibrationSensor', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTThingVibrationSensorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTThingVibrationSensorLg>', 'IoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTThingVibrationSensorGroup($id, $name='Aws Io T Thing Vibration Sensor', $tech='')
+  IconGroupElement($id, 'IoTFamily', '<$AwsIoTThingVibrationSensorLg>', $name, $tech)
+!endprocedure

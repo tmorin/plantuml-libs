@@ -1,0 +1,24 @@
+' definition of the Item azure-19/Item/Other/ServiceDefenderIndustrialRobot
+
+sprite $ServiceDefenderIndustrialRobotXs [9x10/16z] Oq067EmGcek30q9pSO5fTdPsa2241LFB0PI3gk86qwn0IKQG31Wm
+
+sprite $ServiceDefenderIndustrialRobotSm [10x12/16z] LOgr0G110C8uHVRVzrrJ8S6FGPwXM5TAD6UsG0V2EAG211iyue6aSKKdLygTk3EtK7I05G
+
+sprite $ServiceDefenderIndustrialRobotMd [14x16/16z] RSpL0GC120DGd5ow_xxbg4l-7XBva-X-0_f59m2_mqWYcJoX69dCfOxcXNEsczKs-AfEwhE_C8ad4mVPJmR9YppphjYYyeNXdYtEuvwGAm
+
+sprite $ServiceDefenderIndustrialRobotLg [18x20/16z] {
+TSx70O0m34DHfyeM-yzBH_H_um5HxBUAVeVk0AxGmcTg5o3TlPkeaYj5OH6GtPPpOe4CO8Rj2OjWRfictIHQlb2wag_L9mNzJji5BgqoNAK_fVNjLXg4AffI
+czIcgja4
+}
+
+!procedure ServiceDefenderIndustrialRobot($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/Other/ServiceDefenderIndustrialRobot', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceDefenderIndustrialRobotCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDefenderIndustrialRobotLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDefenderIndustrialRobotGroup($id, $name='Service Defender Industrial Robot', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDefenderIndustrialRobotLg>', $name, $tech)
+!endprocedure

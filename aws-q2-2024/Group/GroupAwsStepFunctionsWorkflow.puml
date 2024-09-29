@@ -1,0 +1,25 @@
+' definition of the Item aws-q2-2024/Group/GroupAwsStepFunctionsWorkflow
+
+sprite $AwsStepFunctionsXs [10x10/16z] uo84sDWOsTWX30OW0M9nC7DmGPWC30n00ggI0Qw75TK8
+
+sprite $AwsStepFunctionsSm [12x12/16z] VSM50S0m30F19Z7-_lkMcSwMn9yix4BPw4YOr4md8XAsGO6Ywf0iQkrgPUMS67S3
+
+sprite $AwsStepFunctionsMd [16x16/16z] ZScr0G0X40H0VAN_Wb-nZ85p7z8-Hd2RK-KwfHJky4lnvbkVAr3asDSc6z_h6nQa9lEc_rwXMt878DxXARXvrQ9yv08
+
+sprite $AwsStepFunctionsLg [20x20/16z] hSy50WGW20H0L7B__-1Rhhl7Ri4_X1QkBQPhqmmNd0PBOAyoPsGrmPuw2PeVvnPnRhPHXxChatCWtyrfaW2cRJyd3KrmCdH7hcAJzs8RZEr6uLCR
+
+!procedure GroupAwsStepFunctionsWorkflow($id, $name='Aws step functions workflow', $tech='')
+  IconGroupElement($id, 'GroupAwsStepFunctionsWorkflow', '<$AwsStepFunctionsLg>', $name, $tech)
+!endprocedure
+
+skinparam Rectangle<<GroupAwsStepFunctionsWorkflow>> {
+  StereotypeFontColor $AWS_COLOR_VIOLET
+  BorderThickness 1
+  BorderColor $AWS_COLOR_VIOLET
+  BorderStyle solid
+  FontStyle none
+  FontColor $AWS_COLOR_VIOLET
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}

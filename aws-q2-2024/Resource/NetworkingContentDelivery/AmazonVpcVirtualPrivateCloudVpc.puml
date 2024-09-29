@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2024/Resource/NetworkingContentDelivery/AmazonVpcVirtualPrivateCloudVpc
+
+sprite $AmazonVpcVirtualPrivateCloudVpcXs [10x10/16z] JOh50G114C8oJlyDdylomS8gkPu0z9NzwlM4oWV0MyPL6WoUvCzTqfCaTW
+
+sprite $AmazonVpcVirtualPrivateCloudVpcSm [12x12/16z] NOi50G1120G7ft_XTpc7LPRJrIzK86zuBq60ro_5Rs2q8c-_YhendYSIaHU_UlU3MfDVBjW1
+
+sprite $AmazonVpcVirtualPrivateCloudVpcMd [16x16/16z] RSa75WCn20FHmLP0zxzmgjBtkyw38zLTl3bND7TpKZxSAPDgYDwWbQZnPkEa2x0OOcQCQM9GOMZtrRkZxZqGCXA2CBQQDw-QnQyB
+
+sprite $AmazonVpcVirtualPrivateCloudVpcLg [20x20/16z] {
+TSw54S102031mnxwRpWU9hhZnmly4n7kl4Aj1XSMh3GlhTYDKSLEej_ekIYqC1OPD36imBLBbE-_PwSKH96KItEjaULBT-ismCcbKV5kIApasbhiJUNIKWrV
+9zT6HHR5LI6zMwi5tsO
+}
+
+!procedure AmazonVpcVirtualPrivateCloudVpc($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/NetworkingContentDelivery/AmazonVpcVirtualPrivateCloudVpc', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonVpcVirtualPrivateCloudVpcCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonVpcVirtualPrivateCloudVpcLg>', 'NetworkingContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AmazonVpcVirtualPrivateCloudVpcGroup($id, $name='Amazon Vpc Virtual Private Cloud Vpc', $tech='')
+  IconGroupElement($id, 'NetworkingContentDeliveryFamily', '<$AmazonVpcVirtualPrivateCloudVpcLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2024/Resource/EndUserComputing/AmazonWorkSpacesFamilyAmazonWorkSpacesSecureBrowser
+
+sprite $AmazonWorkSpacesFamilyAmazonWorkSpacesSecureBrowserXs [10x10/16z] HOo30G0m3C0ox_-7Xp8rIOhHs8xspUXipRQOz2Glrg5ft2mK-N01
+
+sprite $AmazonWorkSpacesFamilyAmazonWorkSpacesSecureBrowserSm [12x12/16z] LOZ70G0n38D8iQtz5xwI7ZuIS18BaNEUbGJNJmAyVRNOlYeWRz-9Olm_uo3-0iJu3Skop6345m
+
+sprite $AmazonWorkSpacesFamilyAmazonWorkSpacesSecureBrowserMd [16x16/16z] RSg53G0n5CFGbFAp_y87PRBmISOURSx3Kepe2UASO9Zh9hvSCnCKkeFgMwrgLXCM_t_udv7zNzs9n9SresRXCnDwJXAklG
+
+sprite $AmazonWorkSpacesFamilyAmazonWorkSpacesSecureBrowserLg [20x20/16z] {
+VSk53G0X0C30ujr_uNSNYby2NuLNu9DIn3GTN0gJlPgCH-5YWQLsMhQqXva1syLgtRuR3zFLYlMmIcaGZLmDjCB3aFKsMTMh9GtCDJOBbIFpOgrnAHajygYQ
+w3G2
+}
+
+!procedure AmazonWorkSpacesFamilyAmazonWorkSpacesSecureBrowser($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/EndUserComputing/AmazonWorkSpacesFamilyAmazonWorkSpacesSecureBrowser', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonWorkSpacesFamilyAmazonWorkSpacesSecureBrowserCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonWorkSpacesFamilyAmazonWorkSpacesSecureBrowserLg>', 'EndUserComputing', $funcName, $content)
+!endprocedure
+
+!procedure AmazonWorkSpacesFamilyAmazonWorkSpacesSecureBrowserGroup($id, $name='Amazon Work Spaces Family Amazon Work Spaces Secure Browser', $tech='')
+  IconGroupElement($id, 'EndUserComputingFamily', '<$AmazonWorkSpacesFamilyAmazonWorkSpacesSecureBrowserLg>', $name, $tech)
+!endprocedure

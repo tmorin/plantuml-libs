@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2024/Resource/IoT/AwsIoTCoreDeviceLocation
+
+sprite $AwsIoTCoreDeviceLocationXs [10x10/16z] TSYr0G0148H0JhV_YjzT9WD-g8j5u_i2ZDLrxfs4eB2GD2-RjMa4
+
+sprite $AwsIoTCoreDeviceLocationSm [12x12/16z] RSp50S1024JHZqx_5SSz-ouu39Wu1CwkuShDccRdQUZUkULPPXT2jVsphLE2ybAnKvyq0m
+
+sprite $AwsIoTCoreDeviceLocationMd [16x16/16z] TSc50SCm50FH-oJjFt6vuJopZtikjg8or-OXilwf0R5MOg3v4qRCvYq7oLyaO5Q2PaknlgKWHIW4qFoQnm226Qb3O1Xty56VgPr-0W
+
+sprite $AwsIoTCoreDeviceLocationLg [20x20/16z] {
+XStLeGCm34FHQv2q_yGFojppavZvHePduT7cBfauWdsSQSELWGOzh7QPwllS4gQucaOf0ayt5hZg0SAzFAHi2wjr-1ni1vY56i91A7DGbWMWWl8uoGOC42NQ
+0Y20GLrNxgf0FU4N
+}
+
+!procedure AwsIoTCoreDeviceLocation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/IoT/AwsIoTCoreDeviceLocation', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTCoreDeviceLocationCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTCoreDeviceLocationLg>', 'IoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTCoreDeviceLocationGroup($id, $name='Aws Io T Core Device Location', $tech='')
+  IconGroupElement($id, 'IoTFamily', '<$AwsIoTCoreDeviceLocationLg>', $name, $tech)
+!endprocedure

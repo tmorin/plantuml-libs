@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2024/Resource/NetworkingContentDelivery/AmazonVpcVpnConnection
+
+sprite $AmazonVpcVpnConnectionXs [10x10/16z] LOg50G1020AntN_XxpnRm8SZvsAz4P0B1eOaqHVg-7XrrfPdyvxNLm4
+
+sprite $AmazonVpcVpnConnectionSm [12x12/16z] PSYr0S10400Wtc__XUCUIdoD5Em2OqyPLIUNj0ia1GFOEzlbujRTWh-nOmO
+
+sprite $AmazonVpcVpnConnectionMd [16x16/16z] RSw50SD020NGZxF_mcsISxV76RWMoiZP1Y06or8AbA759PvpUSnQuZ3KD-liLKQrC1M_FT_rS28MKs8nTjDc3EkStHy
+
+sprite $AmazonVpcVpnConnectionLg [20x20/16z] XOw50G0X4CFIOhV_mk-kmKCHFb2DofaoYj39pPaunUP41h7kPYOaQfhK1GDk74ZppTukLs8Ds94yael5J6Z3TNNJHMsAd5mbRgwfNTtQ_xjwSolrut_oZe0U
+
+!procedure AmazonVpcVpnConnection($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/NetworkingContentDelivery/AmazonVpcVpnConnection', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonVpcVpnConnectionCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonVpcVpnConnectionLg>', 'NetworkingContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AmazonVpcVpnConnectionGroup($id, $name='Amazon Vpc Vpn Connection', $tech='')
+  IconGroupElement($id, 'NetworkingContentDeliveryFamily', '<$AmazonVpcVpnConnectionLg>', $name, $tech)
+!endprocedure

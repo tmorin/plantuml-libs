@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2024/Resource/IoT/AwsIoTThingWindfarm
+
+sprite $AwsIoTThingWindfarmXs [10x10/16z] Oq01BEpix0mOW1qi1SHi81h4XM0moOZAmcOU
+
+sprite $AwsIoTThingWindfarmSm [12x12/16z] LSsv0SC03CD0wEN-4oUsMGdLTU3Me3OddI0Ijm6V1Okj-gpF3IlwTT1iWmtBjTRD-Vu1
+
+sprite $AwsIoTThingWindfarmMd [16x16/16z] RO-54GD020JtiEk_uXZpyNt5WJyKWmaTSShbwgvSwnC16XQ3GZpjiVRnqunceAZk7hDs6yuZ-yGBhpsQbJ7AG4yP93tzdrVgIRtFa_ettnK
+
+sprite $AwsIoTThingWindfarmLg [20x20/16z] {
+VP255K0X54B15-m_yU-qmEHS4oCvwD3XIPO_bJDx-BWg-MJqdU2F4ngkE2xE_CfIP-SyrgOsXJ_dI1SdNHq_Pr2iEH9wk3U3MWujTvtxV--RbSXDeSCn-rDk
+vVAk5G
+}
+
+!procedure AwsIoTThingWindfarm($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/IoT/AwsIoTThingWindfarm', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTThingWindfarmCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTThingWindfarmLg>', 'IoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTThingWindfarmGroup($id, $name='Aws Io T Thing Windfarm', $tech='')
+  IconGroupElement($id, 'IoTFamily', '<$AwsIoTThingWindfarmLg>', $name, $tech)
+!endprocedure

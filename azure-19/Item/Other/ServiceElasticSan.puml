@@ -1,0 +1,24 @@
+' definition of the Item azure-19/Item/Other/ServiceElasticSan
+
+sprite $ServiceElasticSanXs [10x10/16z] DSQ50G0W30F1nst_UO7QLHB8EIDw5asQ8Me6rkwDMXEKlQaVZDKCX_zivLBIrjq3
+
+sprite $ServiceElasticSanSm [12x12/16z] HOs30G0m30I_YFUVjyOLSHv8EMSiIjvCdm_umShJTjFqpSsar5hdhBjETmPae0qGEamcgiFeIA_1OUUZjFDROTC1
+
+sprite $ServiceElasticSanMd [16x16/16z] HOw50S0W30G_Wk-_RsE5gy0B0e2OcL3m9NNl8iBsTIvTb4OhgIdbvgdNy7a32wNUncHrt16Nq2GAorN2W8Nj8JXRV5JxHJ1Ns8cRY4XK5DwiA_ijzRzLV-03
+
+sprite $ServiceElasticSanLg [20x20/16z] {
+LSq50eGm30NH2QH-__jkkk4Z3nygW1sRaHI4L5-fg8LIl9GQrDwuU9M2g0JjqLv1nfnzRyBfmTJ2mDD1E7VgkF2FhMCg6TiOb3TWpSDBy2BEMfJjTVUU3IdX
+UXYMfreDLfyxeIPnjl9DFm
+}
+
+!procedure ServiceElasticSan($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/Other/ServiceElasticSan', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceElasticSanCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceElasticSanLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceElasticSanGroup($id, $name='Service Elastic San', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceElasticSanLg>', $name, $tech)
+!endprocedure

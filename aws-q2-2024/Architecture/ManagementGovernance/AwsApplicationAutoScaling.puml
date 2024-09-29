@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2024/Architecture/ManagementGovernance/AwsApplicationAutoScaling
+
+sprite $AwsApplicationAutoScalingXs [10x10/16z] uy856E4i9XY3WOiL8i00P34mOQf3A4G1
+
+sprite $AwsApplicationAutoScalingSm [12x12/16z] VOg50S1020DRdEo_RrtV3YV1aEbTZVBPC-vTu9Z1-qgKswvaXmE8evye7eWI3uwI5G
+
+sprite $AwsApplicationAutoScalingMd [16x16/16z] ZKh50SD033FJ_lksuKI_CufciHff40ebWG47bghoCfxexVIPQH7VE0t9bR4fpWthmMuDIv2geD0qQ_K7
+
+sprite $AwsApplicationAutoScalingLg [20x20/16z] hOr50WCn30CTGsBf__yjiovjT-Sev1wWLBCX8k2BWejIcTclGfDsVNdAqJGY5-E-MUv68wrWxdZEsrW-sS5NSZI5fkAYOBgAPQ00_ieH
+
+!procedure AwsApplicationAutoScaling($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Architecture/ManagementGovernance/AwsApplicationAutoScaling', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsApplicationAutoScalingCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsApplicationAutoScalingLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsApplicationAutoScalingGroup($id, $name='Aws Application Auto Scaling', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsApplicationAutoScalingLg>', $name, $tech)
+!endprocedure

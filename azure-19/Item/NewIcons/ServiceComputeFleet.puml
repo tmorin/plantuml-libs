@@ -1,0 +1,27 @@
+' definition of the Item azure-19/Item/NewIcons/ServiceComputeFleet
+
+sprite $ServiceComputeFleetXs [10x10/16z] NOc53S1030CleBuLxpzlMVG18zlunK3sKe7jaRfB3w_kHduuvrTHyQkY0TwMTuuWami
+
+sprite $ServiceComputeFleetSm [12x12/16z] PSUt0G0X40D1SGZEgFz-7vVzHhFu9-BKuDA89QANL1633Ncqo9QgF2AHod0okz6soMw3nBCwWSXONeTTp2Kpt0ZOcWy
+
+sprite $ServiceComputeFleetMd [16x16/16z] {
+RSrLWWCm20HGP2B0_U-xyMJRpjz3wMSOn7ufHExnA5j4b9f9IPZKczngBGcjRpvLCz0ycaq563uIusaRereKnm2oGW4-Th7UnpQgjcwRBtKQIZFpiueiCur7
+8iBqXFl07m
+}
+
+sprite $ServiceComputeFleetLg [20x20/16z] {
+VOw50GCX40GNFUk_tx3atUQLESKN6QcLaqa0F0ndr2CSNVQahZ5mKKMf8CMTndJGwdGnZTD87MJetnXDgwH0jp8caKItbHMd0vqjPIrJxevPagjUN6f54hz7
+fxrpwgcsW4bqtlOz2bOsb_FcH30RvG5sEXkbAQzaZlW1
+}
+
+!procedure ServiceComputeFleet($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/NewIcons/ServiceComputeFleet', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceComputeFleetCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceComputeFleetLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceComputeFleetGroup($id, $name='Service Compute Fleet', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceComputeFleetLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item azure-19/Item/Identity/ServiceVerificationAsAService
+
+sprite $ServiceVerificationAsAServiceXs [10x10/16z] DSOt0G0m30CmPyVy0NTNbpGF07NvcTcVUrK4kiqi5jbp3vVepYMMvX46qXS6m6Dl0W
+
+sprite $ServiceVerificationAsAServiceSm [12x12/16z] NSR50KC1508mdiF-0xVVBQTu7m3CQNzxNA-udnR3gWfomYEMPgsFp48kttLbBU-LkWfIhIHW-UxxFm
+
+sprite $ServiceVerificationAsAServiceMd [16x16/16z] TSd70O1044BHTO09_HTiphhlzi7yX3QBYv_jUhJCz6Y0ztPWdINEdM5cYDJIoanYiTxOcwJJvbIUHDFQNAKMo3evERIgrAegscpUOpKVM-ywFG4
+
+sprite $ServiceVerificationAsAServiceLg [20x20/16z] {
+bSW94WGX24DHD4JX_XUU5FJi--zMKs-kswpIsDUyJEEDOUBH261zDsttUgaEczCc8aI5eG0CW57YWsNTFkXihZQ7YsGtaIOgswlRx22ZTokBt29l8s1c6elT
+badQlBlQJV_Q2G
+}
+
+!procedure ServiceVerificationAsAService($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/Identity/ServiceVerificationAsAService', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceVerificationAsAServiceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceVerificationAsAServiceLg>', 'Identity', $funcName, $content)
+!endprocedure
+
+!procedure ServiceVerificationAsAServiceGroup($id, $name='Service Verification As A Service', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceVerificationAsAServiceLg>', $name, $tech)
+!endprocedure

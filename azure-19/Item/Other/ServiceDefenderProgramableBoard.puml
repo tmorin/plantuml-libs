@@ -1,0 +1,24 @@
+' definition of the Item azure-19/Item/Other/ServiceDefenderProgramableBoard
+
+sprite $ServiceDefenderProgramableBoardXs [10x10/16z] 9OY74S103CBqpP3z5uwBSD41R1v3P4P2KhPR9GLayKYH_Kp6vCghX713yXMqqVy7
+
+sprite $ServiceDefenderProgramableBoardSm [12x12/16z] HSQ50S004CB0r23TV-2wt0jmM8wPkUMQozBJzDS6qX-qKwUa2zLPiLNGIHiNug5UO7OzoMNDCJpz6jW1
+
+sprite $ServiceDefenderProgramableBoardMd [16x16/16z] NSe75eGW40JHradb_I-yD6uk9NpUoALKElMk_TVvvtYpntNVd5TTKirlqh7syBJb5diERxC0P8CWV9S4EGpLLhHVuuG2kez8FaNi-UkEr6wUDdUN_mdzcEq7
+
+sprite $ServiceDefenderProgramableBoardLg [20x20/16z] {
+VOk70G0X20DH8UZ-2t_olPyDZcWpjPc5zWc45V2vE3nSIGGo8lsKGYv4RYda3YJhN5nfs4rD0O3Hq2WomZGkDAM0ojamgRAKxCI3b-dCBPEWH0yzL8LcThrb
+PSjAJk4PkWtczEiYnEXZWswJEr9xilWePTW9pYl5Zvi
+}
+
+!procedure ServiceDefenderProgramableBoard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/Other/ServiceDefenderProgramableBoard', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceDefenderProgramableBoardCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDefenderProgramableBoardLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDefenderProgramableBoardGroup($id, $name='Service Defender Programable Board', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDefenderProgramableBoardLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2024/Category/CloudFinancialManagement
+
+sprite $CloudFinancialManagementXs [10x10/16z] OyS161bXB0Ps5eGm6uHYPMLbWmcnm5Xip6pOpG8
+
+sprite $CloudFinancialManagementSm [12x12/16z] RSot0G0n3CD09OhxJ_pHsKPr5NWEgoEfnM59iT-kJr5i0Bmuw39Og_6s_j7o6m
+
+sprite $CloudFinancialManagementMd [16x16/16z] PSst0K0n309H9xZz9_uvsD9HlGfYNNC5CVTOqkmsG9FLmRyxRgtXp-EApzVdv6jjih4z6PYjkyTpsMLj1m
+
+sprite $CloudFinancialManagementLg [20x20/16z] bSZ50GGn40EmGRl_YezXmucUOezeJQYipKuVeZnGI6HnzCSnhkTc4X5gTZb-u7g19olEyqcBIoAPMTnBM766jFf0W5vSViJt2aSd3Rq3
+
+!procedure CloudFinancialManagement($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Category/CloudFinancialManagement', $name, $tech, $desc)
+!endprocedure
+
+!procedure CloudFinancialManagementCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudFinancialManagementLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CloudFinancialManagementGroup($id, $name='Cloud Financial Management', $tech='')
+  IconGroupElement($id, 'CloudFinancialManagement', '<$CloudFinancialManagementLg>', $name, $tech)
+!endprocedure

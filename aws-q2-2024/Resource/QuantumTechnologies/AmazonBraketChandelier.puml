@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2024/Resource/QuantumTechnologies/AmazonBraketChandelier
+
+sprite $AmazonBraketChandelierXs [10x10/16z] Oq02x0oCG985p6Q42m81CmDS38t52WHC3EY06QuEh1
+
+sprite $AmazonBraketChandelierSm [12x12/16z] Oq03h6mC38p8R2Y7XGL24rJFG09WOyDW0m
+
+sprite $AmazonBraketChandelierMd [16x16/16z] POw55G0n24Dnzf_uj9QNNyKZJ3wd97FPeOzTpvR1iA4cux0-0kEv3AXdcwcFE3sa6VccGtwXtQFY1W
+
+sprite $AmazonBraketChandelierLg [20x20/16z] dS_L0KCn3CLGtU3-4nVpgZATJxDvOKA046Z6HiAa6Mlr4ck5ZNMe9tGgQ2u69UVz5Qk4HW7rPGMjt09ocln2jJxqfcO-n9enWmdB7W
+
+!procedure AmazonBraketChandelier($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/QuantumTechnologies/AmazonBraketChandelier', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonBraketChandelierCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonBraketChandelierLg>', 'QuantumTechnologies', $funcName, $content)
+!endprocedure
+
+!procedure AmazonBraketChandelierGroup($id, $name='Amazon Braket Chandelier', $tech='')
+  IconGroupElement($id, 'QuantumTechnologiesFamily', '<$AmazonBraketChandelierLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,27 @@
+' definition of the Item azure-19/Item/Identity/ServiceEntraConnect
+
+sprite $ServiceEntraConnectXs [10x10/16z] LOh50GCn0CCSCAJPVzuUaru6uOEjCyY_iWL9VSur5BAHMrn3ewJ9lY835LXJaYr1gvGUR6ICmGK
+
+sprite $ServiceEntraConnectSm [12x12/16z] NSUt5GG120DHOIJWSVstkpww7ytWNpNnKLNvcvHczycGcFkCaGho6P9njQGVCvEf2aZmlDJ51O3SDkzkN6n_RiR1osS69m
+
+sprite $ServiceEntraConnectMd [16x16/16z] {
+ROw50SCm40EVeUx-yqPXFEF9IDzavKs1dHeHMIsxEhp769igr6tiWJXGyprOLD6jmQhmM6vnM_7CC0IqcaMg9bFI6bWbc1surQWaBR3-03UNY1DyvVUlhkoc
+4-bP9m
+}
+
+sprite $ServiceEntraConnectLg [20x20/16z] {
+VSu54aCn24NH7-n1wFxNMw2kTumvqUDVSFkWwWqD7JyJp0o-ztgGMXLPFGvsAlc4DCIY3rpQCQiExhOhjI5tPZoep3eaLAf1DQ08oB9H4GEehXBoW-Ig00J0
+GUYLoNogh_dbDs8xtMkuUcTPrUmkL7OjyXG2MX91LvfhOj8hN5k6bZC
+}
+
+!procedure ServiceEntraConnect($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/Identity/ServiceEntraConnect', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceEntraConnectCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceEntraConnectLg>', 'Identity', $funcName, $content)
+!endprocedure
+
+!procedure ServiceEntraConnectGroup($id, $name='Service Entra Connect', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceEntraConnectLg>', $name, $tech)
+!endprocedure

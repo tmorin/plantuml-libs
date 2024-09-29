@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2024/Architecture/Analytics/AmazonKinesis
+
+sprite $AmazonKinesisXs [10x10/16z] uo086E0q8oChbCtCmC382AIPE80aAmjOZ0cd2G
+
+sprite $AmazonKinesisSm [12x12/16z] VSR50SC030D0MmPf_uNRC2VtEdtmlPdxoVPiJeS8SozDO6RJMtGKDIcXj22qAztz0G
+
+sprite $AmazonKinesisMd [16x16/16z] dOp50S1G34AZmFuBr_LKUVaI0_q1zxAckDAazrcwsY6YChT6S2exCmu7DpDtNzrZlcTTSawDgTpsKzcwm2bkj5up0W
+
+sprite $AmazonKinesisLg [20x20/16z] hSpN0G8m34F1s9QYj__2zCudt037xpRVXa-Y-IHOvbL2cQYhPyJL0chLE3ovMjx9Fk5XppghAgvsASIQxcgk6ges45lSfCbSIXu6Dnz2yqtyoH4
+
+!procedure AmazonKinesis($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Architecture/Analytics/AmazonKinesis', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonKinesisCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonKinesisLg>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AmazonKinesisGroup($id, $name='Amazon Kinesis', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AmazonKinesisLg>', $name, $tech)
+!endprocedure

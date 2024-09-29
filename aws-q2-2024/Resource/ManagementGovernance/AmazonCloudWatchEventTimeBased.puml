@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2024/Resource/ManagementGovernance/AmazonCloudWatchEventTimeBased
+
+sprite $AmazonCloudWatchEventTimeBasedXs [10x10/16z] Oq07x8nSK1OR6qoCWu4Jok9YOsBW0l6099Z5nS26YmK7
+
+sprite $AmazonCloudWatchEventTimeBasedSm [12x12/16z] VSR50SCm542nPt_UV-0sp8bEue69RU-DN6-DOfLxMnNeSfXlrFUx4BrQx-2xFm
+
+sprite $AmazonCloudWatchEventTimeBasedMd [16x16/16z] dOc54SG03CCKFky_y3DZMmLrvZif5NSipDplFhYXkoS6pHsvYGSC7AYgIvub8C7E3bUF6Jqvr5RlRkouihj0p-m1
+
+sprite $AmazonCloudWatchEventTimeBasedLg [20x20/16z] jOe54WGX4CJIB6Fy_x_djbvsWR5KSqhBCkPOe3QOKSXnpLnuEDWy9x7CzOIfcADCOy48hmRaZNWxQRgx0TJRGVkwKLMsT23_dylCUdH_zCOcja9N
+
+!procedure AmazonCloudWatchEventTimeBased($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/ManagementGovernance/AmazonCloudWatchEventTimeBased', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonCloudWatchEventTimeBasedCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonCloudWatchEventTimeBasedLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AmazonCloudWatchEventTimeBasedGroup($id, $name='Amazon Cloud Watch Event Time Based', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AmazonCloudWatchEventTimeBasedLg>', $name, $tech)
+!endprocedure

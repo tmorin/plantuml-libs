@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2024/Resource/GeneralIcons/DataTable
+
+sprite $DataTableXs [10x10/16z] Oy06MA603Oa50RmCJ2Wi9Y3WPM81yI40geCNg0CE
+
+sprite $DataTableSm [12x12/16z] TSf70e1024FH7rq1kVzrxTsPjw4azEGDaUoAIg-_olJwrsAKwkm8rjsry_aVuDt96myp
+
+sprite $DataTableMd [16x16/16z] Oo0Ly71n0H4Cy31mCp1m8SdYb8TGO3uFDnY0AFBaEJcvE3avUO0OKnvXFm_OVW8
+
+sprite $DataTableLg [20x20/16z] fP250S0W30GVXyZ-wzRTo-74WngCtGD82873YkWWhIvXXNNdUgq7RbUnBTgkbMr2YuwstLL6-ikrtiPV6lNQQvx-_4sC3HTwOnqbj6XVnrbVtj8
+
+!procedure DataTable($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/GeneralIcons/DataTable', $name, $tech, $desc)
+!endprocedure
+
+!procedure DataTableCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DataTableLg>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+
+!procedure DataTableGroup($id, $name='Data Table', $tech='')
+  IconGroupElement($id, 'GeneralIconsFamily', '<$DataTableLg>', $name, $tech)
+!endprocedure

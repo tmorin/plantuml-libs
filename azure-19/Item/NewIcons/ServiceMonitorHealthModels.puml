@@ -1,0 +1,27 @@
+' definition of the Item azure-19/Item/NewIcons/ServiceMonitorHealthModels
+
+sprite $ServiceMonitorHealthModelsXs [10x10/16z] BOe50G0m3CFoOVqRFWzBa0OHGFqYpZs7xewc0Jh83IyMyim3PDBENQZ1Anbm5lBK0W
+
+sprite $ServiceMonitorHealthModelsSm [12x12/16z] FSc50S0m2031nzb_ujBO9JXu0FedSiYV7Cs7h1-L4KILrAoOdbbE-kyWD7IqCBehkpNuzGzd-TTgQlm4nUubKkTz
+
+sprite $ServiceMonitorHealthModelsMd [16x16/16z] {
+HSc53S0m34JHRxxz9sv8walCG9Ln2blsKbGl2VJXjq3qLISdFHSpjPmvQfnimB0rmp2GCmuhnPttvL0GccbpbfJ4h9HbR2M5bchdI2sTE8-lETpNvn49mS_J
+8osJfxgwe_i3
+}
+
+sprite $ServiceMonitorHealthModelsLg [20x20/16z] {
+HSw50KCn24NHYxp0_XENykt45G2N74OgOPq_GUmatwt1FSQtzu5yv_dkdRebqsd0hfLLHbImiWPC2sfNm3v3ubuSG5Ma6LxQpxbrm-cEbecbMHezCjDPCIjv
+3z_qtisbB1wsEyV0-VGmTuzfV9kx29ZX4uxb3CPBaarBYLTKKIMlymC
+}
+
+!procedure ServiceMonitorHealthModels($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/NewIcons/ServiceMonitorHealthModels', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceMonitorHealthModelsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceMonitorHealthModelsLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceMonitorHealthModelsGroup($id, $name='Service Monitor Health Models', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceMonitorHealthModelsLg>', $name, $tech)
+!endprocedure

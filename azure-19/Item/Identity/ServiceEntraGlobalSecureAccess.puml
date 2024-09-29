@@ -1,0 +1,27 @@
+' definition of the Item azure-19/Item/Identity/ServiceEntraGlobalSecureAccess
+
+sprite $ServiceEntraGlobalSecureAccessXs [10x10/16z] FSR50K0X50EmVYbFkl-yEEGKT4vYa6IazVoYbMvj-iUyqntdeeE6EVUaPIO0IYO13G
+
+sprite $ServiceEntraGlobalSecureAccessSm [12x12/16z] BSW16e0W24FXLOq5k_zzG-LNvNrWIGOEsoAva-PghcHHqGINcvRacq5zYzytIULgnTxd0c_JyPgg5e0rZLPsNm4_
+
+sprite $ServiceEntraGlobalSecureAccessMd [16x16/16z] {
+HSu53WGn30F0L0hQ_t_lWjlR6s4u9ex8PJyW2NSF4wAO5OzKECxAIZ43F1XPEx6CNSFkcHBdWHB0VIQofeNpnFsFvwjlYn6D_6BZ0OMme3iZ2wBl0tFYiCTm
+-CGAPN6pnmq
+}
+
+sprite $ServiceEntraGlobalSecureAccessLg [20x20/16z] {
+PT274OGm34HHmIXl__sUd7t38t-oQV8K4RemIZApF2kXKPF6LbAjsLIwaPYHecOwj6Sf2-ngupA5L7CRX73O0cQEVbtubFWsvBS5JbkaDVzlX5ebQidSBR7D
+zDA3O4QqUtDe8mVdHBML6aC8VBMNEa5nGqERefiN_G
+}
+
+!procedure ServiceEntraGlobalSecureAccess($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/Identity/ServiceEntraGlobalSecureAccess', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceEntraGlobalSecureAccessCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceEntraGlobalSecureAccessLg>', 'Identity', $funcName, $content)
+!endprocedure
+
+!procedure ServiceEntraGlobalSecureAccessGroup($id, $name='Service Entra Global Secure Access', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceEntraGlobalSecureAccessLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2024/Resource/Database/AmazonRdsOptimizedWrites
+
+sprite $AmazonRdsOptimizedWritesXs [10x10/16z] HKo50G0m2BAL_mzUXnq0VSD8yJd5Ng-bXTyHu_pD8WXbLq3gtkUGmLeJtW4
+
+sprite $AmazonRdsOptimizedWritesSm [12x12/16z] JKo50G112BA5_GV-lB83aDEYJHtspN_LVsPbGQM-opJEkGKnvsoT61Nbd1bR3SQbZ_xVU8plT0C
+
+sprite $AmazonRdsOptimizedWritesMd [16x16/16z] PSo50G0n30906eFiF_2xFzMh1Bz4Qyt9FbRtjmVtLQNAf9oepJX236kx3NN05v_L2mlk-m31rMCBXBIz7ckzi88UzPb4F8riF5pWMDVCtRbmZrFAOJjc
+
+sprite $AmazonRdsOptimizedWritesLg [20x20/16z] {
+RSi53aLH20FHGIxG_I_ukpoRM7EISbtKF2hdbobvvLfV6pXDrNUvVXOpjLRDP4FPo_ZLP9RMpWm5j6qDQzS8XEbH0nJWlViozCj5hdSHGJ4l8wke0Z6ai_iE
+GkpCDSxipS9AiBTa4e2sdwqEthKgpAB65FmoSpU3x-CE
+}
+
+!procedure AmazonRdsOptimizedWrites($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/Database/AmazonRdsOptimizedWrites', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonRdsOptimizedWritesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonRdsOptimizedWritesLg>', 'Database', $funcName, $content)
+!endprocedure
+
+!procedure AmazonRdsOptimizedWritesGroup($id, $name='Amazon Rds Optimized Writes', $tech='')
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonRdsOptimizedWritesLg>', $name, $tech)
+!endprocedure

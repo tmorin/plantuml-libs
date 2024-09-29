@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2024/Architecture/DeveloperTools/AwsToolsAndSdKs
+
+sprite $AwsToolsAndSdKsXs [10x10/16z] TSYr0S1030Gm-uFQV-0mWve3FqA20df4NmiLWhIrACj7gvSMJReP0G
+
+sprite $AwsToolsAndSdKsSm [12x12/16z] VKi54e0033hN_F_11d9XhaVWByf7rpW0uza1B7lnHWpsNpV1yywnbBNfbCfWJKBVFJO
+
+sprite $AwsToolsAndSdKsMd [16x16/16z] ZOl50GD130DZhK7JVy6Xm-VDeWKyPBZJ8dnEbZTjO_Ll0hILr5FBONcV8He5dFCGw3OtukuxGXpp2F3sRbGYD5oiL_E83m
+
+sprite $AwsToolsAndSdKsLg [20x20/16z] hSYt5GCn3C1GPXBxB-pgajGu_GeF_4DgyzGof78pbW1uS33d87E4DcCU4Ex7Oom0QRWUwZ6M-NW62jkpzRLW9JmUk1JGnqCB64033gsD4SP3gWgRubCl
+
+!procedure AwsToolsAndSdKs($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Architecture/DeveloperTools/AwsToolsAndSdKs', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsToolsAndSdKsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsToolsAndSdKsLg>', 'DeveloperTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsToolsAndSdKsGroup($id, $name='Aws Tools And Sd Ks', $tech='')
+  IconGroupElement($id, 'DeveloperToolsFamily', '<$AwsToolsAndSdKsLg>', $name, $tech)
+!endprocedure

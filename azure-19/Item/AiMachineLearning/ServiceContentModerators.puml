@@ -1,0 +1,24 @@
+' definition of the Item azure-19/Item/AiMachineLearning/ServiceContentModerators
+
+sprite $ServiceContentModeratorsXs [10x10/16z] HSQ70O1024DHsW-o_y1slKT9xAUbYdF1cuV5HeZKrNIvsaXzBiJyxDHjhwew_m4
+
+sprite $ServiceContentModeratorsSm [12x12/16z] JOk50G0n20EHXAVxB_pKUxX47XWF97l035_L7W3yzEv8Wcb255cI7hrlLNlqj_OWdKpA9kBqvkvQzGS
+
+sprite $ServiceContentModeratorsMd [16x16/16z] PSY5OGKW34LH8a_OV-4Y_NxHa_5Lz6VyQG-nhmH0STzOARkNjStZ6j1sQhcM0x8h8KR1sSSafNKj9potlJqJM9wIflULLJM_6pVRupsIxom0xxoDrHy
+
+sprite $ServiceContentModeratorsLg [20x20/16z] {
+ZSp75SGm201H1MB_3U_0vkn_a63avt6GVQIudhlG17ev5TFSjVH9us7vIzlZshRrUMqHgakDSmilGWlQKbgVjDdDIf_txtgvDbsqp5xEPoXMFlEIdumBvy_Z
+XUErATPpMbAUqhxgxGG
+}
+
+!procedure ServiceContentModerators($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/AiMachineLearning/ServiceContentModerators', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceContentModeratorsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceContentModeratorsLg>', 'AiMachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure ServiceContentModeratorsGroup($id, $name='Service Content Moderators', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceContentModeratorsLg>', $name, $tech)
+!endprocedure

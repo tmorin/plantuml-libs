@@ -1,0 +1,21 @@
+' definition of the Item azure-19/Item/General/ServiceModule
+
+sprite $ServiceModuleXs [10x10/16z] JSV50K0X3C3GGBtxx_jTUAU4dx_mQs6jq4FC6Kz1a2zotf9wgkZN3W
+
+sprite $ServiceModuleSm [12x12/16z] NSQ70KCX203HKphxxvlytfu2nvFVS30O4pwjkdorvH2wcH17szRfgp3L9ESfgQkBybFHb_e3
+
+sprite $ServiceModuleMd [16x16/16z] RSV50GCn402niRtSVx_9CUiddkocFTwn0Sq00_JxVRzDl-cuoig1ZuTjZzQQJx-PhlqqFQ_FmVDrCsZZYZy
+
+sprite $ServiceModuleLg [20x20/16z] bSs30K0X403GozX_tsptFZl22g8Z0Cf7FeQT-6BkHK8CdFYYxeK_OiiTWcOYx113pFT-n9WS-HZhy1337UPZQeWf0BwAQTNJFZQ25Gi
+
+!procedure ServiceModule($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/General/ServiceModule', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceModuleCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceModuleLg>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceModuleGroup($id, $name='Service Module', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceModuleLg>', $name, $tech)
+!endprocedure

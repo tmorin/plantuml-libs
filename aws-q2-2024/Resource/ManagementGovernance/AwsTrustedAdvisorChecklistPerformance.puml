@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2024/Resource/ManagementGovernance/AwsTrustedAdvisorChecklistPerformance
+
+sprite $AwsTrustedAdvisorChecklistPerformanceXs [10x10/16z] NKk30S1040lAxBzltTVv0WoHUsXdaXv3X-rvdXNBDMNeYY0xNuE9xxfmdm
+
+sprite $AwsTrustedAdvisorChecklistPerformanceSm [12x12/16z] JSR70SCW00GmqJds7pXEjrvoLylJybHKJ9wl_hV-Zp76vpevJ-gK76GhS1HjgqydrdLF9vc_xqiU
+
+sprite $AwsTrustedAdvisorChecklistPerformanceMd [16x16/16z] NSV50G0X4C300Elzztkkv9LXBk_wPN3sRcUWxlwOnjvhxETm-XZZyJMl4I3ho4atXce1H2JP1E2mxORJBJ2IVbOwcYF9LGccNtTwfptsFB8L
+
+sprite $AwsTrustedAdvisorChecklistPerformanceLg [20x20/16z] {
+RSp50S10449HO7twBpZ4RV_nZM1M7tSu6hYAXvNoDVc6uNYPONOB_Qscdyt-NTMdPRWHHuIj2UJnZPMoHGDgJRifacn7kpNHfZtQHcZ0nilOWOPXkmeaCNsC
+LQmVqrvw67M41G
+}
+
+!procedure AwsTrustedAdvisorChecklistPerformance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/ManagementGovernance/AwsTrustedAdvisorChecklistPerformance', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsTrustedAdvisorChecklistPerformanceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsTrustedAdvisorChecklistPerformanceLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsTrustedAdvisorChecklistPerformanceGroup($id, $name='Aws Trusted Advisor Checklist Performance', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsTrustedAdvisorChecklistPerformanceLg>', $name, $tech)
+!endprocedure

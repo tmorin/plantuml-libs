@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2024/Architecture/ArtificialIntelligence/AwsHealthImaging
+
+sprite $AwsHealthImagingXs [10x10/16z] uy0Ec3ZO4Hms1X392cOpm4MPONmM29yHo00pMO601Tam
+
+sprite $AwsHealthImagingSm [12x12/16z] VKg53G0m2CiC-FzXNA93Q_IfjtT1r5qdS8WtO2Q7G69mrlhQq7XVp-3JGeTJ0W
+
+sprite $AwsHealthImagingMd [16x16/16z] ZSg53G0n30F0SBp_nAzo8_gwU7BmbYmoIyshR7yLNvwVc9Gr6ZvhzmQ7T8-7WU3bw4uiUmFHTcl8ZPPRo9PLMhJD_-O3
+
+sprite $AwsHealthImagingLg [20x20/16z] fSl54G0W40D0o6d_3UF-nM4dyV-X17ceWk4YuvPbwBPHKm-RudxPQBROg8qakm1GvtAvZg1ZdKg-JRIR7nRQoNnQh0ans6dbuW9yc5Q3SrmcVMYXpv41
+
+!procedure AwsHealthImaging($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Architecture/ArtificialIntelligence/AwsHealthImaging', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsHealthImagingCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsHealthImagingLg>', 'ArtificialIntelligence', $funcName, $content)
+!endprocedure
+
+!procedure AwsHealthImagingGroup($id, $name='Aws Health Imaging', $tech='')
+  IconGroupElement($id, 'ArtificialIntelligenceFamily', '<$AwsHealthImagingLg>', $name, $tech)
+!endprocedure

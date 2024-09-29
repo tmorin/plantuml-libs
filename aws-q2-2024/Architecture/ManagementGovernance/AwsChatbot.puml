@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2024/Architecture/ManagementGovernance/AwsChatbot
+
+sprite $AwsChatbotXs [10x10/16z] uo8Ui76oeGknCp1miN0m4D08
+
+sprite $AwsChatbotSm [12x12/16z] TKi34W1H29sC-z_timQBt4F-1o2Yr4sgndslxZi2elLN2-Sqy-q_dDdMuM6LTdYxynKJ
+
+sprite $AwsChatbotMd [16x16/16z] ZSq52W0n34JHpgIQ-z-thjZkHnz4z4UfTynGmx64c1vhxJBWYSif-7vYsQsvTPwc3Y5mJ220rTvn3levJvqMCLABrqkT-Ae
+
+sprite $AwsChatbotLg [20x20/16z] fSt50GHH20FGZuVqt--wo-YxeU5UuHTlFRjEtdj0TiNidW84tlyXhJthhPTMadO6dhr_4jvOGSyBRjIyVQiQ76HxGSUFlPhuntEccBpbdYcTdvhDbOu
+
+!procedure AwsChatbot($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Architecture/ManagementGovernance/AwsChatbot', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsChatbotCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsChatbotLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsChatbotGroup($id, $name='Aws Chatbot', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsChatbotLg>', $name, $tech)
+!endprocedure

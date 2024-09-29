@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2024/Architecture/NetworkingContentDelivery/AmazonCloudFront
+
+sprite $AmazonCloudFrontXs [10x10/16z] uy016DWPO4n6g0W74n23HDaOsDavE5X1OgmWQGPqlQoe8W
+
+sprite $AmazonCloudFrontSm [12x12/16z] TSI54KCn30MmdyIW_HSk-7fGqWFyLwSONTP9esIqXB9e2iUkLWBpaGeoo1t6XUsbedsu0m
+
+sprite $AmazonCloudFrontMd [16x16/16z] dOlL0GD024C99xpz5wxavBU24-6lw97gzwi6qiZp9uoGjyLGaoeO_eNaXROy8ef-3F9M7RxZNRdzP7fEBpiyWXj3gS4tyGG
+
+sprite $AmazonCloudFrontLg [20x20/16z] {
+hSt5WIH030D0DxXL-ITyjp3yMggdGV8NSkBPgfckxIuZCkO-vMR0s2WNAvoTD6b0aOcw7sPrdOqq2yXH8nKc7IxhqDEwtQdBTXHrwsrGwTCkoW5jkAa5lGTt
+krQlQY_Yk_u3
+}
+
+!procedure AmazonCloudFront($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Architecture/NetworkingContentDelivery/AmazonCloudFront', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonCloudFrontCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonCloudFrontLg>', 'NetworkingContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AmazonCloudFrontGroup($id, $name='Amazon Cloud Front', $tech='')
+  IconGroupElement($id, 'NetworkingContentDeliveryFamily', '<$AmazonCloudFrontLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item azure-19/Item/ManagementGovernance/ServiceMyCustomers
+
+sprite $ServiceMyCustomersXs [10x10/16z] JOg53G1H5CAU0Gdxxtiklp6aiJ9u0e0dyY3iCqcw4x8nrUU996qVwKGsTNDeTN647G
+
+sprite $ServiceMyCustomersSm [12x12/16z] ROk35S1044JNwh_WECV_D8G9mb_goIlPJi1BJYsthYeuyPDNip8gXjGzGJHBEejpVB-pYdm3Z1m
+
+sprite $ServiceMyCustomersMd [16x16/16z] ZOq70WCW20ED9I3y_y4rTE-UavMCFp2Ik8K7YbjC5pQoLiVUCAlA53C4QkFTeD37t76790n4cWKx9B0zOaq9j3Pqfsd2HSSXnHd2unqInxgY-8KZ
+
+sprite $ServiceMyCustomersLg [20x20/16z] {
+bSu55iGW30JGU9Qv_trRcBVk_LKW9eT4fZrj9JrjaJ_i5QKuC9HRMcU2QGWLTHgMyrwJodcFkEdp2y2uevaQhka12sSzoxcd6fc5i06SEynDje41wFDmQloW
+sQN8YxW5QwgcvmN9KgS7GaPdyj4E
+}
+
+!procedure ServiceMyCustomers($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/ManagementGovernance/ServiceMyCustomers', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceMyCustomersCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceMyCustomersLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure ServiceMyCustomersGroup($id, $name='Service My Customers', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceMyCustomersLg>', $name, $tech)
+!endprocedure

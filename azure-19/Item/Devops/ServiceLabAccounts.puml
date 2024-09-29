@@ -1,0 +1,21 @@
+' definition of the Item azure-19/Item/Devops/ServiceLabAccounts
+
+sprite $ServiceLabAccountsXs [10x10/16z] PSV50S1G381GVZpx3rptlXFmb9d_ej2Zt32W0FDZK5NeZGuEfXoMc04
+
+sprite $ServiceLabAccountsSm [12x12/16z] PSR50S0m40IniOys_HSSPkiblYmpkLGL5-DzORPNqCoR0zO1Zt070TWAfjYPSUl3JmOB
+
+sprite $ServiceLabAccountsMd [16x16/16z] XSc55OH0303HYG7RVyCNEJV-whpmnTPus1F_klV3qTkSeNksck3tSKqzTwUIt2F21Mndvic0nR1KURDdll3J5bueS04
+
+sprite $ServiceLabAccountsLg [20x20/16z] dOw70KCX20KHdWRtNpXIaj_hsKy5w8WMBEN7e9VEnexJCKGcfpOA2VDVDdjN0H0XfMWiC58g-mBK0H25v7FvlqEdH1pRzLeIvbIjJmnNQ0rsdUmutZXxjiyN
+
+!procedure ServiceLabAccounts($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/Devops/ServiceLabAccounts', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceLabAccountsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceLabAccountsLg>', 'Devops', $funcName, $content)
+!endprocedure
+
+!procedure ServiceLabAccountsGroup($id, $name='Service Lab Accounts', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceLabAccountsLg>', $name, $tech)
+!endprocedure

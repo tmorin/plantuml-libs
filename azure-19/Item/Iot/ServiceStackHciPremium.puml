@@ -1,0 +1,24 @@
+' definition of the Item azure-19/Item/Iot/ServiceStackHciPremium
+
+sprite $ServiceStackHciPremiumXs [10x10/16z] HSj50G1130J1NWhu5tmOgES0JSF00ymJa6XXplctkjRYPm7EgU_cTmC
+
+sprite $ServiceStackHciPremiumSm [12x12/16z] JSh50O0m542nznsw_xveBUUmineIFuOYsf2W4qZrOwZc-RCoCxKVRjKvcTf_4g6jGvXk
+
+sprite $ServiceStackHciPremiumMd [16x16/16z] VSwr0GCn40NHlxno__sQZiGlcsmmy0OG5GIG5KlWLT62GLGa05F9YoIKsRsSa2u_vMRVCgv-qiph7tFdl6Z2pBZ-KL9iV
+
+sprite $ServiceStackHciPremiumLg [20x20/16z] {
+RSz15eGH30JXqjAHV-v_uB7puDi1zS9Jky3OkGsedLl1jpCV_7QZ_q0-13XFaB5rWq5pMhKC5vQKshhkaaAh-zLCJz7tQJttajMOILnPlPQWQ9cvTMFksTOn
+hnnMRP08BfS_
+}
+
+!procedure ServiceStackHciPremium($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/Iot/ServiceStackHciPremium', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceStackHciPremiumCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceStackHciPremiumLg>', 'Iot', $funcName, $content)
+!endprocedure
+
+!procedure ServiceStackHciPremiumGroup($id, $name='Service Stack Hci Premium', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceStackHciPremiumLg>', $name, $tech)
+!endprocedure

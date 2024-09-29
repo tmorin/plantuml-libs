@@ -1,0 +1,27 @@
+' definition of the Item azure-19/Item/ManagementGovernance/ServiceResourcesProvider
+
+sprite $ServiceResourcesProviderXs [10x10/16z] BOc74G0W3099ETl-0_jofWAlLuFzFvgVPJsnKe-3jDgeXHeZkgtwH0vK0fMfhJVwDuV_1G
+
+sprite $ServiceResourcesProviderSm [12x12/16z] HKo30K1H4EgC_VVzU3oZmZ37DYU8Zabb7n1_T_kg3QX6VpN6NQk-cj_ixgJAOrPjOhSzWrrGI0AkTlqJZGfmOaml
+
+sprite $ServiceResourcesProviderMd [16x16/16z] {
+JKu50e0W4DibyVy7w-Wfi28m8OaNQOWuQj1X4ZQgv5eOAbdcS0EW1u-ipcCLTMXl_TKMhTdH-KFSNPTspoxg4KVtNriEtG3ndb0BK5l1WJJEu-P1OjjyOrOS
+UBCcWtq
+}
+
+sprite $ServiceResourcesProviderLg [20x20/16z] {
+RSy55e1020HGSbZs_lSrUDYEDNoRZYZe5OQH-uE0EX5sYe5VJKBhW9eYhku0waxUqBZl0cQrczcONyksqSPGIwYs-MROmxP5JZD798kQ-MKMSx88q2R_HXPP
+dx_tlQLIv_evGbxYATr6K4NIMsh0jiznGjyKoTrN
+}
+
+!procedure ServiceResourcesProvider($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/ManagementGovernance/ServiceResourcesProvider', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceResourcesProviderCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceResourcesProviderLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure ServiceResourcesProviderGroup($id, $name='Service Resources Provider', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceResourcesProviderLg>', $name, $tech)
+!endprocedure

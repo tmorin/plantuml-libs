@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2024/Resource/Storage/AmazonSimpleStorageServiceGeneralPurposeBucket
+
+sprite $AmazonSimpleStorageServiceGeneralPurposeBucketXs [10x10/16z] PKg30G0m34lz_yMpLqOuAkfH1_oGDC8Q6WiqIc6-Gp-I6dGY2o03
+
+sprite $AmazonSimpleStorageServiceGeneralPurposeBucketSm [12x12/16z] LOp50G0m30Ahn_uJroNXXGU7GeunmQ1wtk1AayKPSEn9yZJrovD5ukMdOFwhuVpA20IQJWS
+
+sprite $AmazonSimpleStorageServiceGeneralPurposeBucketMd [16x16/16z] RKw50GG1239X_ua_pxYmM-I1aWJ8_6VKgYi_1dioH3nX_yIGLfFk-dNV-5Vp2VEN0nMYlohuyPJvj_EQZyczZsxIIy32nzvB5DOt
+
+sprite $AmazonSimpleStorageServiceGeneralPurposeBucketLg [20x20/16z] {
+TOw54KCn34DhVFjFNF15_HoEwFHw6fRLq9Kc14BFfEVkeuNV8KokqNMvARThCEODKA4eZjxQOQmxTvW7-RjSOlN0gd-1eVAhD7DVwibynFgAwPBfehDObErb
+Uj1XPbxWUyzlIFy1
+}
+
+!procedure AmazonSimpleStorageServiceGeneralPurposeBucket($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/Storage/AmazonSimpleStorageServiceGeneralPurposeBucket', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceGeneralPurposeBucketCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonSimpleStorageServiceGeneralPurposeBucketLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceGeneralPurposeBucketGroup($id, $name='Amazon Simple Storage Service General Purpose Bucket', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonSimpleStorageServiceGeneralPurposeBucketLg>', $name, $tech)
+!endprocedure

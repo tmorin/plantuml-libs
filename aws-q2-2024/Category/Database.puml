@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2024/Category/Database
+
+sprite $DatabaseXs [10x10/16z] OqS0JXW0iLWPsI4i1Y35WSvYOc3Xm2KB0mWM
+
+sprite $DatabaseSm [12x12/16z] NKo30S1043jZ_u7Rjyv8ugVbCdjdBabZ5b7cCKVTvun0SwwvCE4BmsfYhxujany
+
+sprite $DatabaseMd [16x16/16z] TSc54K0n3CFGb69x_u4_Gr67xuI-x7K6LzrZmb4vdd3_RATB-fm5KB-ZpgfVp08hTpz6HudhxyczH7x-6srjEm
+
+sprite $DatabaseLg [20x20/16z] XP250SCm3C3CyF_1MxaDAwomlGTW3JXcpTGf8NlXHFSw-EiWpiNnTSR495wuF8Z2-U6aS4408B7SQuUZSgymiott1ecPiYnZi7RGW7y
+
+!procedure Database($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Category/Database', $name, $tech, $desc)
+!endprocedure
+
+!procedure DatabaseCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DatabaseLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure DatabaseGroup($id, $name='Database', $tech='')
+  IconGroupElement($id, 'Database', '<$DatabaseLg>', $name, $tech)
+!endprocedure

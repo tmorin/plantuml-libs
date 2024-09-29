@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2024/Resource/Storage/AmazonElasticFileSystemEfsStandardInfrequentAccess
+
+sprite $AmazonElasticFileSystemEfsStandardInfrequentAccessXs [10x10/16z] RKd50G0W4Be2zf_OrfSNfFr7HiLWZ2yhlIAMd5tuLEvI-EaubCwCxCeE
+
+sprite $AmazonElasticFileSystemEfsStandardInfrequentAccessSm [12x12/16z] TOg50G1H24BX0lUV-7V7imNC_8OR1iR1wldHaUNnnAPK4bLtu6EQbN57ybGy
+
+sprite $AmazonElasticFileSystemEfsStandardInfrequentAccessMd [16x16/16z] RSw50S0W40F0l6R_YQiuf4KEnocSgLYIW4LOitzRMFUcQ5bNYfTrKGomE7-hw6y-9i4at8lrto9IBFAPB6xvFGPSdayikG4
+
+sprite $AmazonElasticFileSystemEfsStandardInfrequentAccessLg [20x20/16z] TSs50GKn20FGa0BPV-Al1voc_cfuZ6xe3ktXRaeY9h6vjcKuViK1kAkksLoYpV4njLcMqShatCo-5XAO561jYG1-Kwejwpwoh4DTRVuuvMkN_2pF9t6JDm
+
+!procedure AmazonElasticFileSystemEfsStandardInfrequentAccess($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/Storage/AmazonElasticFileSystemEfsStandardInfrequentAccess', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonElasticFileSystemEfsStandardInfrequentAccessCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonElasticFileSystemEfsStandardInfrequentAccessLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonElasticFileSystemEfsStandardInfrequentAccessGroup($id, $name='Amazon Elastic File System Efs Standard Infrequent Access', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonElasticFileSystemEfsStandardInfrequentAccessLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2024/Architecture/Database/AmazonRds
+
+sprite $AmazonRdsXs [10x10/16z] uyGA6C0a8uJ3pia1eHWOcDWWGYmCR11P3WuMg69sa3Osc2us1YJJ
+
+sprite $AmazonRdsSm [12x12/16z] TKm50W0X3783LFx_uEkETG3-jH9B2zdEN6PgQJqPNgVAYcRCSvfPQBU5nIZPuTKojYbvQceLK_FLHW
+
+sprite $AmazonRdsMd [16x16/16z] XSxL0GKn24HH8CBS_Wj-ifFzpeahS2TX7XLzbZi0r7NMipXwr8JNL8aTuxnBQ4IXvMDO6LNWztiHMokKl1OeXKdGMpJjD2QMVXyUw0gklW
+
+sprite $AmazonRdsLg [20x20/16z] {
+fOy5RW012C1mwFyVFEN8ehF66Xp-HxcpvACk7ANp6SCk53bmJ0DV0rXsbtTVe1MLDonBdb20VaZ21Wkm4D7AJGBQQ0qJIIHBZar6aJ9mf4MuNeIWUbMe_QE2
+1ysDQRBKJPoRCwS_uHK
+}
+
+!procedure AmazonRds($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Architecture/Database/AmazonRds', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonRdsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonRdsLg>', 'Database', $funcName, $content)
+!endprocedure
+
+!procedure AmazonRdsGroup($id, $name='Amazon Rds', $tech='')
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonRdsLg>', $name, $tech)
+!endprocedure

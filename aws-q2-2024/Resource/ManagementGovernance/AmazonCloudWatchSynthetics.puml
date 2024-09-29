@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2024/Resource/ManagementGovernance/AmazonCloudWatchSynthetics
+
+sprite $AmazonCloudWatchSyntheticsXs [10x10/16z] TS490ODG040Xr7--_e6NOE2V01yk313fAfVvkV4uYdmUu8FTRV03
+
+sprite $AmazonCloudWatchSyntheticsSm [12x12/16z] NSY50OG0243HJyV--rw7-cYuKkLl-HgLI5xY_VYsfuIHxc7NgX2aoSoYQGPAAHb-12ZXoPqdcsa1xW
+
+sprite $AmazonCloudWatchSyntheticsMd [16x16/16z] ROk30G0124MpzX_uwgoCz-7VF9zx4ZyFzQ0TaV8aTYtwjMu7dKhOPMDziY0AsgiO2eVkWWF5Q7DJLE2sMu2x6wi6DpVKPJEhNklUWW2GmouGQHyM
+
+sprite $AmazonCloudWatchSyntheticsLg [20x20/16z] {
+VO_LeKKn20G7YR3zz_lq7fVvoqe0tkXb5sqmBzeilsYfu42hPkPZsYRL4gcsIfizFcuc6_h40FXahGEXpfJLH982rL_A0vjZwRXJq2m4XSG0SygmlqpDlvob
+muIKv7Gaw07dqpk05JlYyvh3Feflnp4abLJ94zy
+}
+
+!procedure AmazonCloudWatchSynthetics($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/ManagementGovernance/AmazonCloudWatchSynthetics', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonCloudWatchSyntheticsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonCloudWatchSyntheticsLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AmazonCloudWatchSyntheticsGroup($id, $name='Amazon Cloud Watch Synthetics', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AmazonCloudWatchSyntheticsLg>', $name, $tech)
+!endprocedure

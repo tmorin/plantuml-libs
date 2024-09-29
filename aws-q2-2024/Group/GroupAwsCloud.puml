@@ -1,0 +1,25 @@
+' definition of the Item aws-q2-2024/Group/GroupAwsCloud
+
+sprite $AwsCloudXs [10x10/16z] uoK467Yv4HnkHZ09bK06F0mWWDq8
+
+sprite $AwsCloudSm [12x12/16z] uoKISB9omPb0pCK3ORC0CPm90Tn0p0PbiuAK0-LXEWW3
+
+sprite $AwsCloudMd [16x16/16z] uwK6u65buKBcSW0nEuBF0Y8uEPWHV33WXkfXHLN8ZT381ZODeWoXaPED0m9OU2XtEW
+
+sprite $AwsCloudLg [20x20/16z] lOnL0e0X28Fjzlx7_LEbtlbCODlK8uVOMCiyfsVIIh-sn06zy3zzsjEgSVzQtAtEahTpCvhipR_NAcgvhJS7FvMu0G
+
+!procedure GroupAwsCloud($id, $name='Aws cloud', $tech='')
+  IconGroupElement($id, 'GroupAwsCloud', '<$AwsCloudLg>', $name, $tech)
+!endprocedure
+
+skinparam Rectangle<<GroupAwsCloud>> {
+  StereotypeFontColor $AWS_COLOR_DARK_BLUE
+  BorderThickness 1
+  BorderColor $AWS_COLOR_DARK_BLUE
+  BorderStyle solid
+  FontStyle none
+  FontColor $AWS_COLOR_DARK_BLUE
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}

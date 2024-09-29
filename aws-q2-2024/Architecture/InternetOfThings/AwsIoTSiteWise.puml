@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2024/Architecture/InternetOfThings/AwsIoTSiteWise
+
+sprite $AwsIoTSiteWiseXs [10x10/16z] OoS86DXPu2m6CCtCmCx8pWGM0GcmC41bMN6O
+
+sprite $AwsIoTSiteWiseSm [12x12/16z] ZSYr0G0X542nxs__YK-13aaPJeKLNQ4qAULZKS80n0N3ClcO9OEpSWC
+
+sprite $AwsIoTSiteWiseMd [16x16/16z] hSUr0SC044MnV_ZsdpWnKsTG9xvXdiSEwSlhq2fJsRPE66O-Nn8jIehfhK8aRgpQNPm4p_m1
+
+sprite $AwsIoTSiteWiseLg [20x20/16z] lKx50G0n3282x3_nkV-ltYQO1mv5vhU6fToVMgpxGuNTU5R8Se4EwIoLi3Dr-w0WQwbrH1zC2ErS9lhMv4hbmfDU-Ngf-ZDK_clC
+
+!procedure AwsIoTSiteWise($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Architecture/InternetOfThings/AwsIoTSiteWise', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTSiteWiseCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTSiteWiseLg>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTSiteWiseGroup($id, $name='Aws Io T Site Wise', $tech='')
+  IconGroupElement($id, 'InternetOfThingsFamily', '<$AwsIoTSiteWiseLg>', $name, $tech)
+!endprocedure

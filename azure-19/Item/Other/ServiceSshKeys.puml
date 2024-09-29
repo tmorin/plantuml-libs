@@ -1,0 +1,24 @@
+' definition of the Item azure-19/Item/Other/ServiceSshKeys
+
+sprite $ServiceSshKeysXs [10x10/16z] LSP50G1140EmBap1l-1Zp2lu8NddR9UcIjksR2XrcsJPHXBERB1tNyUkS2CsAm
+
+sprite $ServiceSshKeysSm [12x12/16z] NSU55S10309GoYE4xZzmNUz7mQXiNBoxthQwVNpxkmK2IRHBcljlkxQBUIFLVk1jMTbs0o1L8d5YJNWGknK
+
+sprite $ServiceSshKeysMd [16x16/16z] ROq50WCW30EH2Fl_XvTsBeTUYep_pBtUJSL-kcxCHzKcCgdLBdK5BqMwNCa9O4t8v5LEI89FIBq3HDilJRJNamTg9TZU_w-rI6QUum69ySxI-CyL
+
+sprite $ServiceSshKeysLg [20x20/16z] {
+bSe53WC124HH77h_2nUhwxxOv6VW6BB2zqbiwDFhyOdcxYBgxhOdBrawtgTg7JNRf6NUroWYdamqab8t4qigqI0sbjXs6XLtEk0k5Ts50FiqsKPGa9AfKaAu
+uohmpAezC_Zc3
+}
+
+!procedure ServiceSshKeys($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/Other/ServiceSshKeys', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceSshKeysCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceSshKeysLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceSshKeysGroup($id, $name='Service Ssh Keys', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceSshKeysLg>', $name, $tech)
+!endprocedure

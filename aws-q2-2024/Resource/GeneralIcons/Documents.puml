@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2024/Resource/GeneralIcons/Documents
+
+sprite $DocumentsXs [10x10/16z] Oq05l8nm5WCZDb5ML1OlBuOOBmX0n3YPW82D0G
+
+sprite $DocumentsSm [12x12/16z] POgr0G0W30HpDFZ-u-9Ez4skSa1auB8HjR1nhcCge3bTGTo5U-RMVqolhk5RESa
+
+sprite $DocumentsMd [16x16/16z] dSf50e10509GmFvn_-FQxSfvEm9VuRFacOLP3dfc3BhdtYpEJ1A0LThpnc25MTAFl-sE3F9yRE80J
+
+sprite $DocumentsLg [20x20/16z] dOg55S102CNuLyNs7xTEtNDANkWSiP542pe-RZWwMih5qLGkhXOHtxXe4GxQCJh3iIjIkAedtxZWoS7TxQpxvtnXT5iM1qv1ENVPGZUr
+
+!procedure Documents($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/GeneralIcons/Documents', $name, $tech, $desc)
+!endprocedure
+
+!procedure DocumentsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DocumentsLg>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+
+!procedure DocumentsGroup($id, $name='Documents', $tech='')
+  IconGroupElement($id, 'GeneralIconsFamily', '<$DocumentsLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item azure-19/Item/General/ServicePowershell
+
+sprite $ServicePowershellXs [10x10/16z] Oy06k600YSKA0moip70MAoEK1MGmCJA2M6mmW30E
+
+sprite $ServicePowershellSm [12x12/16z] Oy05k100XSsA00oip4XiLaOaDbo60SH4i84yPcOmcmq1aAq5
+
+sprite $ServicePowershellMd [16x16/16z] XSZ50S0W5C3GUe7zzyNjUsulXrK0-MmGyGyxNbZsYVoSq7b0NmzmuPCRBjsvvWzs62K
+
+sprite $ServicePowershellLg [20x20/16z] Ow04S6403eh4M3402munPaOCCOGWGWmiY2d6WYd6WguNAiJ420JCg6vXOGO25gWO6mPWnIB6GcoG0W
+
+!procedure ServicePowershell($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/General/ServicePowershell', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServicePowershellCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServicePowershellLg>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServicePowershellGroup($id, $name='Service Powershell', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServicePowershellLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2024/Architecture/MediaServices/AwsDeadlineCloud
+
+sprite $AwsDeadlineCloudXs [10x10/16z] OyS1cDdP80mMHdPM1X23aGb8eBCOW3IO1IHPm2omCAfP
+
+sprite $AwsDeadlineCloudSm [12x12/16z] VOl50S0W5CM-P_-9wruWfwSCaKifLh7Bz2BAE30o3bdufH4EhLWgUfmVJmY-p
+
+sprite $AwsDeadlineCloudMd [16x16/16z] dKw34S0030mU-qzSyrJ4pliVPUEIeLrERPdInKcOQqxNMiQMpnpjQnxEMwv0d7ak0znoDvGg5qyu4jeNOiYlQ0G
+
+sprite $AwsDeadlineCloudLg [20x20/16z] hS_50S0W30NGo9Vz9wvxhpWyD1wHr3_gSkWbJB6CUb1YAtJW8gEEtGyx3yNR4lcpClxMcNfQs6l5ROLbbxEBpZkka0FhlazeKjBl5DaUa6O
+
+!procedure AwsDeadlineCloud($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Architecture/MediaServices/AwsDeadlineCloud', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsDeadlineCloudCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsDeadlineCloudLg>', 'MediaServices', $funcName, $content)
+!endprocedure
+
+!procedure AwsDeadlineCloudGroup($id, $name='Aws Deadline Cloud', $tech='')
+  IconGroupElement($id, 'MediaServicesFamily', '<$AwsDeadlineCloudLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,25 @@
+' definition of the Item aws-q2-2024/Group/GroupPublicSubnet
+
+sprite $PublicSubnetXs [10x10/16z] OyS1sDYPs8a1h4Ie0G
+
+sprite $PublicSubnetSm [12x12/16z] OyS7c9ZPu4maOMOa9YCp441KiQAGZCWYB6YoKDFXUX4
+
+sprite $PublicSubnetMd [16x16/16z] OoSIiA7mc808LH95W0K_duaP0bYXV2mqCpgV3SudJ3EpG02GJn
+
+sprite $PublicSubnetLg [20x20/16z] hOk53G0n30EbnB3_nC_Cq2l6u08mWXi9iXLhBRlifZhTRpLmOjBEVWbkDJRgBXUnxygJzkutuJVK
+
+!procedure GroupPublicSubnet($id, $name='Public subnet', $tech='')
+  IconGroupElement($id, 'GroupPublicSubnet', '<$PublicSubnetLg>', $name, $tech)
+!endprocedure
+
+skinparam Rectangle<<GroupPublicSubnet>> {
+  StereotypeFontColor $AWS_COLOR_GREEN
+  BorderThickness 0
+  BorderColor transparent
+  BorderStyle solid
+  FontStyle none
+  FontColor $AWS_COLOR_GREEN
+  FontSize $FONT_SIZE_MD
+  BackgroundColor $AWS_COLOR_LIGHT_BLUE_BG
+  shadowing false
+}

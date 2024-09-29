@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2024/Resource/Analytics/AmazonOpenSearchServiceOpenSearchDashboards
+
+sprite $AmazonOpenSearchServiceOpenSearchDashboardsXs [10x10/16z] Oy06cA601Oa50On029G7OWu82qH2MHoih6oCI3hW
+
+sprite $AmazonOpenSearchServiceOpenSearchDashboardsSm [12x12/16z] TSor0G013810ujb_uNUNgwZWJvuGOLFKeH5sXP05XCmTSqlrt3brWyqzGMRNJt8n0W
+
+sprite $AmazonOpenSearchServiceOpenSearchDashboardsMd [16x16/16z] bOt50S0m3CIK6FTVkCnS_UmZ_fA-9GW3MzM3dWHRndlq-toxZrhPtfaQurtwsoXixmIaZFu2PUIq7xpG0W
+
+sprite $AmazonOpenSearchServiceOpenSearchDashboardsLg [20x20/16z] fS_50GH130F1rg3oJ_XWcR6UPlEAbi1n8GLCYXH62jjrMlZ7c12WBXP5msEiT35PYrXrfdInsiQKC9x7391diUpyKugQc12WpjuVQ8chlW
+
+!procedure AmazonOpenSearchServiceOpenSearchDashboards($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/Analytics/AmazonOpenSearchServiceOpenSearchDashboards', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonOpenSearchServiceOpenSearchDashboardsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonOpenSearchServiceOpenSearchDashboardsLg>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AmazonOpenSearchServiceOpenSearchDashboardsGroup($id, $name='Amazon Open Search Service Open Search Dashboards', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AmazonOpenSearchServiceOpenSearchDashboardsLg>', $name, $tech)
+!endprocedure

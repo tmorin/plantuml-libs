@@ -1,0 +1,24 @@
+' definition of the Item azure-19/Item/Identity/ServiceMultiFactorAuthentication
+
+sprite $ServiceMultiFactorAuthenticationXs [10x10/16z] NSU54G0m2C10d2lxxrltd7qapInm5h_Cs89QKgzAQqtkgj8404gwL2CYw5bL0G
+
+sprite $ServiceMultiFactorAuthenticationSm [12x12/16z] XSUt4S1G3CDGPOVz1xP8tltMhmBgEVpretvwShsnCiSNkXSx4vcrRMPjjQ-ktYpqwXNBvBxM1m
+
+sprite $ServiceMultiFactorAuthenticationMd [16x16/16z] dSf15aGH44DHI0gr_mLt1s3wt-pc1EqfUBohtmqpqipJ36CU1dcR2jEJaKckxaw8p7BufoilGmUEVr1KI2hq4Y0EZr2hbLf_
+
+sprite $ServiceMultiFactorAuthenticationLg [20x20/16z] {
+hSi54i0W30LHIFu6kVzzwzwETol06wBsB5B7xgcdhdpFVpEB2FVfTpNMLLssvxgRcBeRQxOP-otSsQoMKbWdsIpR538yxyDASv1j9l9f0kDXYJLR8gtfQNln
+ORLMc7uZ
+}
+
+!procedure ServiceMultiFactorAuthentication($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/Identity/ServiceMultiFactorAuthentication', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceMultiFactorAuthenticationCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceMultiFactorAuthenticationLg>', 'Identity', $funcName, $content)
+!endprocedure
+
+!procedure ServiceMultiFactorAuthenticationGroup($id, $name='Service Multi Factor Authentication', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceMultiFactorAuthenticationLg>', $name, $tech)
+!endprocedure

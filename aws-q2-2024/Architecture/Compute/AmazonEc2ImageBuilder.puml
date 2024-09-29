@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2024/Architecture/Compute/AmazonEc2ImageBuilder
+
+sprite $AmazonEc2ImageBuilderXs [10x10/16z] OySA61WO65aWJ6PsHfWe6oChXC424eFACp90PPaPMTZ0D12WcWO
+
+sprite $AmazonEc2ImageBuilderSm [12x12/16z] TSY54G0W3CLGQZ_xJunpZhNlmlVKFDAnWLkpuncdR3kGaQRbCjRDPKCp-kGknlFihVYV0G
+
+sprite $AmazonEc2ImageBuilderMd [16x16/16z] bSUr0G90402mFyt-4-FIGhhuNzvLVZvqnlJvF0Zawu7e-hmTOTLvVe9WnFCbX1BfTI88pylUqD-pCShhTpj-SWK
+
+sprite $AmazonEc2ImageBuilderLg [20x20/16z] hSp70GHH2CDG_C5M_nLl3XGmEZu2rzVrIZNBW7GBTIth1e6fduq17OD-9WZ2lMmuHd0Ud8zv1WGDyxMcNtlYQFq3fKBpjGYGWVCpg7xuL7ePHEaVCVs92xe3
+
+!procedure AmazonEc2ImageBuilder($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Architecture/Compute/AmazonEc2ImageBuilder', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonEc2ImageBuilderCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonEc2ImageBuilderLg>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AmazonEc2ImageBuilderGroup($id, $name='Amazon Ec2 Image Builder', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2ImageBuilderLg>', $name, $tech)
+!endprocedure

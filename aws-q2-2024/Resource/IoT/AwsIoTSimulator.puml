@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2024/Resource/IoT/AwsIoTSimulator
+
+sprite $AwsIoTSimulatorXs [10x10/16z] JS693ODG30Km9_hHst_YbXjiNz50IrAmT68nh1G3LUKqCqv9E4qvTJV-
+
+sprite $AwsIoTSimulatorSm [12x12/16z] NKg30G0m35kL_7_nx39ANq6mOLsPM5IdKYKLhxy9xUB4HQJzly2McnWN9dbqeE42
+
+sprite $AwsIoTSimulatorMd [16x16/16z] RSU70S0m20F1DmAq_yRfFUS2pv-oVKy0Sqfgbf6m60CLc6QH0NBA408QSDi6Udy2ZfPWB41YaGTsqJDp2fLKjnu6tLhHVM-GRprwmM82
+
+sprite $AwsIoTSimulatorLg [20x20/16z] {
+TSw54O1030NHZVVVCPFWzaPl-S3nBogD6ob0wzQA9k3irCXg8iacX2H0X1H6EQH6xy1dgGeadYa2M1-3RkvLquZzGOgOUZUr_IOojbFpF3c76CPLM01vRsLL
+zMXHxrrFvTxwpkwFdQgQtfki60i
+}
+
+!procedure AwsIoTSimulator($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/IoT/AwsIoTSimulator', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTSimulatorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTSimulatorLg>', 'IoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTSimulatorGroup($id, $name='Aws Io T Simulator', $tech='')
+  IconGroupElement($id, 'IoTFamily', '<$AwsIoTSimulatorLg>', $name, $tech)
+!endprocedure

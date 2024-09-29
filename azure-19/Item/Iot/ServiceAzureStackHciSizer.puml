@@ -1,0 +1,24 @@
+' definition of the Item azure-19/Item/Iot/ServiceAzureStackHciSizer
+
+sprite $ServiceAzureStackHciSizerXs [10x10/16z] BSQ10S0m14JH0Axs7xZW9VZYxlAQ5sXN5AHSbIgiAI9GrrU2TSlgr21JMDJu5H6JyWC
+
+sprite $ServiceAzureStackHciSizerSm [12x12/16z] HSq74e0m24HH2R0ktl_0IXj_siiq55zNXopQTnRFRv9fKbMfFEMkBIAKScJa6cQgfkNZMGyKdVBZrki5
+
+sprite $ServiceAzureStackHciSizerMd [16x16/16z] NSk50SCW443Hdil-0_U2mu_0GqXRlvdsSjfwcQ_ZihlRzAovrbMrdHYUJGi0CC5mxBOL416MIRW08iCeFIsJgYArcEjMkrIGCbN3BDo_Fm
+
+sprite $ServiceAzureStackHciSizerLg [20x20/16z] {
+VSk50OH034JH8pEHs_xxXNMSZxy4M0k_FUi57YnnclSY9TnjHv-OasbxrYnFbr8G4JvjxztsVx5yxlrxJX7QmKB06dOJrRQXkXkrPyWMAIU002mJoTR2gMu4
+5EKE3bj8AikjF3O
+}
+
+!procedure ServiceAzureStackHciSizer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/Iot/ServiceAzureStackHciSizer', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureStackHciSizerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureStackHciSizerLg>', 'Iot', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureStackHciSizerGroup($id, $name='Service Azure Stack Hci Sizer', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureStackHciSizerLg>', $name, $tech)
+!endprocedure

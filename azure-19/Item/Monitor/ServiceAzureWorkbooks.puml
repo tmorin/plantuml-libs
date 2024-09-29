@@ -1,0 +1,21 @@
+' definition of the Item azure-19/Item/Monitor/ServiceAzureWorkbooks
+
+sprite $ServiceAzureWorkbooksXs [10x10/16z] NOQ50S0W0CCshE7_Wt6lvhD3B601uq03eWg12a05YQRv85vb
+
+sprite $ServiceAzureWorkbooksSm [12x12/16z] RSc54K0X0CFGhpJiFp3kaBDtxVMsr0bL7yKaAZ4bLLf5noaI4YDIdUcjv9m7
+
+sprite $ServiceAzureWorkbooksMd [16x16/16z] NSV50S0m3C30ifNz1ox5h9TksVOKHoKqqgY-K8fI4scKuFZ8lfyVv2UW_Fxl-gdMgYWQgDorg_a1
+
+sprite $ServiceAzureWorkbooksLg [20x20/16z] ZSm50i0W34FHUNxlV-1vEfVW3sXHrSUqL5U26-A6k26jfmQIR00c-PKZ6qvejIQ54G2_4aGiX5z9ovWjArkSFn9OtkbVwXiR
+
+!procedure ServiceAzureWorkbooks($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/Monitor/ServiceAzureWorkbooks', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureWorkbooksCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureWorkbooksLg>', 'Monitor', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureWorkbooksGroup($id, $name='Service Azure Workbooks', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureWorkbooksLg>', $name, $tech)
+!endprocedure

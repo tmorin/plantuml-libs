@@ -1,0 +1,24 @@
+' definition of the Item azure-19/Item/HybridMulticloud/ServiceAzureOperatorNexus
+
+sprite $ServiceAzureOperatorNexusXs [10x10/16z] DOo74S0W4CCSElil7Edl4EMh7LbYqh_5gImxjCosl5ubO-I02IazcNFItVGdt6iBst7l3m
+
+sprite $ServiceAzureOperatorNexusSm [12x12/16z] HOl50G1G24AnTV-1VyVZeWGcwejrkotj6pB4-_Ru7UYGh3jcPzsaYfoCMmVOQnCpOoYfoMZRGAgSaUj65PpD5rKT
+
+sprite $ServiceAzureOperatorNexusMd [16x16/16z] TOg50SGm30DbLlPV-8DFRIzW2x38mvCUrnH7rx_ExBT_HxkNHtZzzO-sRotkZkAaItMVniwxd0JSG3XKB3g6oc1tewOEjzPQmOgnGDUY13GdqZLeaX_PNW
+
+sprite $ServiceAzureOperatorNexusLg [20x20/16z] {
+VSm50WCX44FHP0WJkF-5krYz_Qiy1ATyTAXyDJA36f-70SdvUPW1B_F3CftpUR97__OUyvE139UeZbX6NK5jDoWqWpNNJTCEwxm6ePv0Q5h5Q6516rKOjhcn
+z2kZZKcSxSCK6SNKiw6Z8Mgkf6diF9927zq
+}
+
+!procedure ServiceAzureOperatorNexus($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/HybridMulticloud/ServiceAzureOperatorNexus', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureOperatorNexusCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureOperatorNexusLg>', 'HybridMulticloud', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureOperatorNexusGroup($id, $name='Service Azure Operator Nexus', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureOperatorNexusLg>', $name, $tech)
+!endprocedure

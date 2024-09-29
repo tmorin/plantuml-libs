@@ -1,0 +1,21 @@
+' definition of the Item azure-19/Item/Other/ServiceArcDataServices
+
+sprite $ServiceArcDataServicesXs [10x10/16z] XSQt4S0m30D0uCpC_UUrOg-l7WknKPQr3fAjQpKzPe2SkK14ib94ODSt
+
+sprite $ServiceArcDataServicesSm [12x12/16z] dSR10K1G44F1nBuiwBzUW0R-d4OtMv-9cv-N4vpd-tRR1qw-KuBjiOAQJrhkdqu
+
+sprite $ServiceArcDataServicesMd [16x16/16z] jSV70S0m3090Y11k-y-RNhn0xdUuaCIBEWMl1bLghNvUQl2WSN_qopzVslia84sNzglVclPRExiu9QNXNMgNQNi1w5S06m
+
+sprite $ServiceArcDataServicesLg [20x20/16z] pSY54G1H20FH027V-g_tt2kuDxQpE9aPdio3gt2x5q_NatcMMclX4iSRexgjOepxzSE_dh0AFbzX0EJdCTQdVht61SHLQSjfUoUav4DA1FGHM4LUWmPW1W
+
+!procedure ServiceArcDataServices($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/Other/ServiceArcDataServices', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceArcDataServicesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceArcDataServicesLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceArcDataServicesGroup($id, $name='Service Arc Data Services', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceArcDataServicesLg>', $name, $tech)
+!endprocedure

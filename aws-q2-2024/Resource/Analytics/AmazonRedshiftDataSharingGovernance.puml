@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2024/Resource/Analytics/AmazonRedshiftDataSharingGovernance
+
+sprite $AmazonRedshiftDataSharingGovernanceXs [10x10/16z] LOg50G0X54BXGj_-2zlvaz9LN0UMxXLmwJeLZKH5l-ZQB8iGqFlY3
+
+sprite $AmazonRedshiftDataSharingGovernanceSm [12x12/16z] NOl50G0n0CAW5lPV-5pB2ujcCOeBX_NL7DumuFJxqdLvLH3tFRidFUDbDrq-8mHsRnNvwaVgzjynhG
+
+sprite $AmazonRedshiftDataSharingGovernanceMd [16x16/16z] RKs50G112CA4_HV-xhzMAOnNIAHaHwlZztpsNiQzPvBTD3_xxQt2sJjZKvrzcvWy-YD5Mr_2iWktqR7ktj50ee-UpP2A0K0_lX52szOPLrqjEu3k1303
+
+sprite $AmazonRedshiftDataSharingGovernanceLg [20x20/16z] {
+VOu7WWCW2C3Y0FB_3zyiTZVkg02V695gnU1Wy4_QAZYiqSv-jJoEA2kpg7aSvzquxg8BRfm8thkAqdvtEko_TnCSo93cnqc9XJVkWNOH346mtSwisZhrqz-w
+zAO6OQNvqs6j5ThrZl6t_W3m3G
+}
+
+!procedure AmazonRedshiftDataSharingGovernance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/Analytics/AmazonRedshiftDataSharingGovernance', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonRedshiftDataSharingGovernanceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonRedshiftDataSharingGovernanceLg>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AmazonRedshiftDataSharingGovernanceGroup($id, $name='Amazon Redshift Data Sharing Governance', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AmazonRedshiftDataSharingGovernanceLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item azure-19/Item/General/ServiceTroubleshoot
+
+sprite $ServiceTroubleshootXs [10x10/16z] JKk50S0m2AiR__-xoAm2qVG_NRFXPy8DfNIWHNdWR09ZWtFcd0Od0HgWiL0B0C1y0G
+
+sprite $ServiceTroubleshootSm [12x12/16z] LOc50G0W20JFhltdjOjJu0E9S_DeTOrDNMpj0UKx41YOOIA7sIno3Y4ScPbcIPQnfJ28KNV38j4
+
+sprite $ServiceTroubleshootMd [16x16/16z] POe55aGX3CG2rFV-v_tQzK7Qp0lyH-Thwz4p_9xhDYo1CK4lGUsMvK01QLdip5gDCFIi6j_EV6EM7yLuOuMw-tXXJQmBweW2NSn6y8W0v67SkPa1dGKx
+
+sprite $ServiceTroubleshootLg [20x20/16z] {
+TSk73GGW34DHKzBtt_S28bn_wbys_cbuGTW64OfDVCHcUi_LrEv_4hMT61jHfuGaTPoyKIP18JuCBnfsmuVlEDK-8xcxoVAIKiDgjPo-0AsMDwLMorOfTKsq
+TX6EOwo8H85hgZRyyW
+}
+
+!procedure ServiceTroubleshoot($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/General/ServiceTroubleshoot', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceTroubleshootCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceTroubleshootLg>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceTroubleshootGroup($id, $name='Service Troubleshoot', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceTroubleshootLg>', $name, $tech)
+!endprocedure

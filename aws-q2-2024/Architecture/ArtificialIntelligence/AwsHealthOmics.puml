@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2024/Architecture/ArtificialIntelligence/AwsHealthOmics
+
+sprite $AwsHealthOmicsXs [10x10/16z] uy0A61aPCSGOW10Ti7EmGLbC730Tc
+
+sprite $AwsHealthOmicsSm [12x12/16z] TOgr0G0n4CEI8sl_XPyPr1ZvfODsNtFSKK14592eINhz4NbuuxIPRVV95oC
+
+sprite $AwsHealthOmicsMd [16x16/16z] bS510a0m54F1vbUQT_yB0s393FzDjXkFWfYtRbvI2B9Xqv6QLXqs0sWyb6IGSAj0RTYaA5vaMpm683vQ
+
+sprite $AwsHealthOmicsLg [20x20/16z] fStN5S0W241HfFdsdpWdYVtNQoy0TwBDAoylOoE0LdQ9S3Ahxwol6Nj-T51LqPVpCrxAgefPUk9cosMWoI7ADt_ul9-o7Byi8ZoOZhgt7W
+
+!procedure AwsHealthOmics($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Architecture/ArtificialIntelligence/AwsHealthOmics', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsHealthOmicsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsHealthOmicsLg>', 'ArtificialIntelligence', $funcName, $content)
+!endprocedure
+
+!procedure AwsHealthOmicsGroup($id, $name='Aws Health Omics', $tech='')
+  IconGroupElement($id, 'ArtificialIntelligenceFamily', '<$AwsHealthOmicsLg>', $name, $tech)
+!endprocedure

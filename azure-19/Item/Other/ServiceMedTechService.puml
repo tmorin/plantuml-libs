@@ -1,0 +1,24 @@
+' definition of the Item azure-19/Item/Other/ServiceMedTechService
+
+sprite $ServiceMedTechServiceXs [10x10/16z] LSdL0G01209GhfJOVz_hUZyAuAUgdkTugpVJD06zAKa4Dvsb0ssO3L0sCtZxDl86XtrS0G
+
+sprite $ServiceMedTechServiceSm [12x12/16z] NSV50SC04CJ0JUn3zL-lcUSbwSjzk7EnrT-lZfMna7BbT1Dx1sQaQXNGIs-Jv6YfJRb3xMsv2ErieHa
+
+sprite $ServiceMedTechServiceMd [16x16/16z] RSc55K0X34FHOBNiF-zt1IxwJZ6NyhUgx9xCSdgclzPJjisRJNGZ1NOIKlPpjp9QSnhyfAJj1-bi8-aH1i3EhbQSZekBPvBwT1oUHkK6WnK
+
+sprite $ServiceMedTechServiceLg [20x20/16z] {
+bSg53S103CNGv23qzv-tpDmdjap_5EdjaapsrsINzarqaWUfIsbDCUYQpiHyO4msKq1gDK2FJG7RjQY2lcKVcM5YH7MEW8NaKZDrn2EYRymb0AU5YqH19szQ
+J7Xjd7qmfGa6TAa5
+}
+
+!procedure ServiceMedTechService($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-19/Item/Other/ServiceMedTechService', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceMedTechServiceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceMedTechServiceLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceMedTechServiceGroup($id, $name='Service Med Tech Service', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceMedTechServiceLg>', $name, $tech)
+!endprocedure

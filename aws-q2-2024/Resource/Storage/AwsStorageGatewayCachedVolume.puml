@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2024/Resource/Storage/AwsStorageGatewayCachedVolume
+
+sprite $AwsStorageGatewayCachedVolumeXs [10x10/16z] Oy00Z62IYO69XH4kHXgBdPqTp69Y0hAPc1a
+
+sprite $AwsStorageGatewayCachedVolumeSm [12x12/16z] Oq01J8mGm0vaCp83CP06inbPc1XWR22c3fi9Q264pSO699b09
+
+sprite $AwsStorageGatewayCachedVolumeMd [16x16/16z] nO_50G0n3CFiuFuJ7vOxG1NKqzY8JdwEXlzEk3rjpKc3QVF6CGztjy7rcUhw16F92Tm
+
+sprite $AwsStorageGatewayCachedVolumeLg [20x20/16z] rSg53S0m44DHKtlxJrpcPe5yaVLajAjNt6p08vuM2hB1aFVF2YBc_X4U5mDrsrtlLbiVmzBJ9EqcoRjnxJbc
+
+!procedure AwsStorageGatewayCachedVolume($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/Storage/AwsStorageGatewayCachedVolume', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsStorageGatewayCachedVolumeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsStorageGatewayCachedVolumeLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AwsStorageGatewayCachedVolumeGroup($id, $name='Aws Storage Gateway Cached Volume', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AwsStorageGatewayCachedVolumeLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,25 @@
+' definition of the Item aws-q2-2024/Group/GroupVpc
+
+sprite $VirtualPrivateCloudVpcXs [10x10/16z] uy0EsDYP4Hn6PZ098XWOe68Gcfc92KaJ2mSRb8KYp04
+
+sprite $VirtualPrivateCloudVpcSm [12x12/16z] VSY50S0W34HH92VxJzpKdOyzua4AxfpHjb_t70u2NVd4x1frdb5IMhFdPiTkLlX8lZS1
+
+sprite $VirtualPrivateCloudVpcMd [16x16/16z] dOk54S0m3CGkHks_S2buL5BG3_mXH6KT4x3CFkjrPnUYpgHKeTubK9yZeLfigJkQTSOFbhaIQEWoYnHt5ao3PtO
+
+sprite $VirtualPrivateCloudVpcLg [20x20/16z] hSb5WW8m40NHjFsk-rzu1eV83bwymYyq2taJEIVTT_4MzyE8gQqtuy47O_vpjUGzDGrXYAk2nzdqen7cxZ6rXsFBR4fCGXvbpDpS-T8_
+
+!procedure GroupVpc($id, $name='Vpc', $tech='')
+  IconGroupElement($id, 'GroupVpc', '<$VirtualPrivateCloudVpcLg>', $name, $tech)
+!endprocedure
+
+skinparam Rectangle<<GroupVpc>> {
+  StereotypeFontColor $AWS_COLOR_GREEN
+  BorderThickness 1
+  BorderColor $AWS_COLOR_GREEN
+  BorderStyle solid
+  FontStyle none
+  FontColor $AWS_COLOR_GREEN
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}

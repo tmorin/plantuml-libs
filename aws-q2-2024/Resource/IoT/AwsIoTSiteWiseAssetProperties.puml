@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2024/Resource/IoT/AwsIoTSiteWiseAssetProperties
+
+sprite $AwsIoTSiteWiseAssetPropertiesXs [10x10/16z] POkr0G0m20HnzfyuU9N3vU47Czol8xikyUuy0VBTORiGk8ZqRhMuK
+
+sprite $AwsIoTSiteWiseAssetPropertiesSm [12x12/16z] JOo30G0m40DJNVQVkDQzgPyO3eooQ4BFYYW3PYET_iHvvXw8ujDdcmXnrq5MkV_l7XSt
+
+sprite $AwsIoTSiteWiseAssetPropertiesMd [16x16/16z] POt50G1120EpMFgl-5oG-K4C7KQ626JkcqotcGFX5xSkgfByCu_RSz_12y2ToKyclrd97vV_zxhkTJBySvy5tm4
+
+sprite $AwsIoTSiteWiseAssetPropertiesLg [20x20/16z] {
+ROt5WGHG5CB8C_glU7NiIuweRentaBN1K-FGS7dLEbeA-fzwv2eqx7irkUqzQEUkLQXVcl_04j6UfJlus1FhnxINtwgCb4pzyQU1AD7YbtUtlNPN_ZGs0d6W
+Rm
+}
+
+!procedure AwsIoTSiteWiseAssetProperties($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/IoT/AwsIoTSiteWiseAssetProperties', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTSiteWiseAssetPropertiesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTSiteWiseAssetPropertiesLg>', 'IoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTSiteWiseAssetPropertiesGroup($id, $name='Aws Io T Site Wise Asset Properties', $tech='')
+  IconGroupElement($id, 'IoTFamily', '<$AwsIoTSiteWiseAssetPropertiesLg>', $name, $tech)
+!endprocedure

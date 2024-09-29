@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2024/Resource/Analytics/AwsGlueAwsGlueForRay
+
+sprite $AwsGlueAwsGlueForRayXs [10x10/16z] HS4v0S0m000XclVyA-uOuEcQ2m9mZP45HkocAGSipze4X1rCr0y
+
+sprite $AwsGlueAwsGlueForRaySm [12x12/16z] NS590GD140GWQhOl_uhp3_WpyO0ly86uvS4uskH6B25zq1aD3rZmlT6xW0Gxu1fZOGwsVW
+
+sprite $AwsGlueAwsGlueForRayMd [16x16/16z] ROm50WHH248nyVudNdQw-FbGmPV8kT2m4JEnu_Q6RytQBPCRDeZ2ObWlDckuneh6CNfIQ4s3I3iR-SZFBJ-2Vyh19WV1vJv4M-wg5OqDIRGQ3PvyzaFzFm
+
+sprite $AwsGlueAwsGlueForRayLg [20x20/16z] {
+TSt5WG0W30J0mPBjl-9xmVbyaCZwrqhYc-WXQszFHi4-jRmlLrp5wMuKO3Ldca9l9Z9eeyr9pLuz13qxPNCwrf3Gj1fEXYwiJQOg0h0FvXxezrUkk5QgEUaq
+UBqdj_6PFK3l6W2T5vZRjZGevctiLM1atZvZl1iV
+}
+
+!procedure AwsGlueAwsGlueForRay($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/Analytics/AwsGlueAwsGlueForRay', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsGlueAwsGlueForRayCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsGlueAwsGlueForRayLg>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AwsGlueAwsGlueForRayGroup($id, $name='Aws Glue Aws Glue For Ray', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AwsGlueAwsGlueForRayLg>', $name, $tech)
+!endprocedure

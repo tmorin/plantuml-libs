@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2024/Resource/NetworkingContentDelivery/AwsTransitGatewayAttachment
+
+sprite $AwsTransitGatewayAttachmentXs [10x10/16z] JKk50G1120AJ_HV-lB8bS8P6W_FLO1eeuXcMpmn921w-gRDf-MOdzI0t
+
+sprite $AwsTransitGatewayAttachmentSm [12x12/16z] NSR50OH050MmZFxNVyFh0kGK5nbj1anWy3U9hsMCm8Xe9Gzbbwb0YVZg3431_9ULIiST
+
+sprite $AwsTransitGatewayAttachmentMd [16x16/16z] HS67ZGCm30GmkfxsN_XBOa2arcOb5PuQO5qWF87I3dDebqAR8W8YhXXI_uQ8abeWjHsX3Imjk7ZMW7ZM1iw5aS4pRmxm2m
+
+sprite $AwsTransitGatewayAttachmentLg [20x20/16z] {
+TSl7eICm20N00IH1_mtl_kHipuNuV9QdftUuMLFWZ8kkbxR3pIIiSgzXF8WcowFXS2RuSIRjq7RfW9zEXj6i-SMA22sxne-Vhi96k0Y6E1uDneELq2vkKusR
+IryTbs1pqRCpQYRTYo_-_0S
+}
+
+!procedure AwsTransitGatewayAttachment($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/NetworkingContentDelivery/AwsTransitGatewayAttachment', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsTransitGatewayAttachmentCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsTransitGatewayAttachmentLg>', 'NetworkingContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AwsTransitGatewayAttachmentGroup($id, $name='Aws Transit Gateway Attachment', $tech='')
+  IconGroupElement($id, 'NetworkingContentDeliveryFamily', '<$AwsTransitGatewayAttachmentLg>', $name, $tech)
+!endprocedure

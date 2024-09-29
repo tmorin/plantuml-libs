@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2024/Resource/Storage/AmazonFileCacheS3LinkedDatasets
+
+sprite $AmazonFileCacheS3LinkedDatasetsXs [10x10/16z] NKg50S0m32BA_nTlTOjYE8hp4hsoT2yf3TYRxP8Jf4yMswU94VW1
+
+sprite $AmazonFileCacheS3LinkedDatasetsSm [12x12/16z] PSct0GC140B1FGFqtx4IlPy8myDagchJO0v5RxIrIlCLe6z5uF82RCBiULqM66uwjbFm0m
+
+sprite $AmazonFileCacheS3LinkedDatasetsMd [16x16/16z] RK-30O105AsUzfyur_7RM2QW97R2syls9-1JiAgyV2aYLz9XtjW7URckpvzfPlcAuAG4mhqjWgv2VJDndfBBUNqjBRYChYoyPQl_JwW8jtK
+
+sprite $AmazonFileCacheS3LinkedDatasetsLg [20x20/16z] {
+TO-5TGH1243ntt_7oHZlrd0N-GADBA0oJgHeKsBPN7kiHYmkiPmngp4fDCRKj55Ijtqwnkeb5ftu1z_pVgHY8ezHWP_JYbABVLjgiMeHzov61T7eeQDsC496
+F-XzMHkIDps0gxxQKAvgNd1zNVLC_GC
+}
+
+!procedure AmazonFileCacheS3LinkedDatasets($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q2-2024/Resource/Storage/AmazonFileCacheS3LinkedDatasets', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonFileCacheS3LinkedDatasetsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonFileCacheS3LinkedDatasetsLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonFileCacheS3LinkedDatasetsGroup($id, $name='Amazon File Cache S3 Linked Datasets', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonFileCacheS3LinkedDatasetsLg>', $name, $tech)
+!endprocedure
