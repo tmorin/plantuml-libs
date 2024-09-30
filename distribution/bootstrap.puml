@@ -16,7 +16,7 @@
 !endif
 
 !if (%not(%variable_exists("$IMAGE_BASE_PATH"))) && (%variable_exists("$LIB_BASE_LOCATION"))
-    !global $IMAGE_BASE_PATH=$LIB_BASE_LOCATION + "/"
+    !global $IMAGE_BASE_PATH=$LIB_BASE_LOCATION
 !endif
 
 ' constants
