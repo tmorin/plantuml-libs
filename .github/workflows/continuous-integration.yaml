@@ -35,7 +35,7 @@ jobs:
         run: zip -r ../.cache/tmorin-plantuml-libs.zip *
         working-directory: distribution
       - name: "Upload tmorin-plantuml-libs.zip"
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: artifacts
           path: |
@@ -50,7 +50,10 @@ jobs:
       - name: "Checkout repository"
         uses: actions/checkout@v3
       - name: "Download all artifacts"
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
+        with:
+          pattern: artifacts
+          merge-multiple: true
       - name: "Create the release"
         uses: ncipollo/release-action@v1
         with:
@@ -89,7 +92,7 @@ jobs:
         run: zip -r ../tmorin-plantuml-public.zip *
         working-directory: public
       - name: "Upload tmorin-plantuml-public.zip"
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: artifacts
           path: |

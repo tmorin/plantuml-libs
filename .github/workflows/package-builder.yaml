@@ -41,7 +41,7 @@ jobs:
           tar cf tmp.tar .tmp
         working-directory: .workdir
       - name: "Upload the workdir"
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: workdir
           path: |
@@ -61,9 +61,10 @@ jobs:
         with:
           persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
           fetch-depth: 0 # otherwise, you will fail to push refs to dest repo
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with:
-          name: workdir
+          pattern: workdir
+          merge-multiple: true
       - name: "Provide the .tmp directory"
         run: tar xf tmp.tar
       - name: "Generate the distribution"
@@ -71,7 +72,7 @@ jobs:
       - name: "Tar distribution directory"
         run: tar cf distribution.tar distribution
       - name: "Upload the distribution"
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: distribution
           path: distribution.tar
@@ -84,9 +85,10 @@ jobs:
       - uses: actions/checkout@v3
       - name: "Delete distribution"
         run: rm -Rf distribution
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with:
-          name: distribution
+          pattern: distribution
+          merge-multiple: true
       - name: "Provide the distribution directory"
         run: |
           tar xf distribution.tar
