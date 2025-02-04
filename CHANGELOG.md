@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [15.0.1](https://github.com/tmorin/plantuml-libs/compare/v15.0.0...v15.0.1) (2025-02-04)
+
+
+### Bug Fixes
+
+* icons are not loaded when using remote loader ([61670c8](https://github.com/tmorin/plantuml-libs/commit/61670c85ca5884750c500045e63ac188014824f8))
+
 ## [15.0.0](https://github.com/tmorin/plantuml-libs/compare/v14.0.2...v15.0.0) (2024-09-29)
 
 
