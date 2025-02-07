@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [15.0.3](https://github.com/tmorin/plantuml-libs/compare/v15.0.2...v15.0.3) (2025-02-07)
+
 ### [15.0.2](https://github.com/tmorin/plantuml-libs/compare/v15.0.1...v15.0.2) (2025-02-06)
 
 
