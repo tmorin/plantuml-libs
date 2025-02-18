@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-14/bootstrap')
+
+' loads the Item which embeds the element Zenodo
+include('simpleicons-14/Z/Zenodo')
+
+' renders the element
+Zenodo('Zenodo', 'Zenodo', 'an optional tech label', 'an optional description')
+@enduml

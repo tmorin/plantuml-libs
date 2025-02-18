@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/Z/Zwave
+
+sprite $ZwaveXs [10x10/16z] JOg30S105CLIkzb_skBy-KIezOXVnyY5EsYY9913oA3kstY3W2Sds6JZmgRUBm
+
+sprite $ZwaveSm [12x12/16z] BOk53GHH50BPxpxzTtjvuOXX8wkzl_dWBTj3jWah0JweKLsJ5Lt9uKLL1lZwYvejBTuKKLSP3w-vx4LE2Um_0Fq
+
+sprite $ZwaveMd [16x16/16z] HOw50G0X3CJoxit-qxvJWjQFGhyT9Argf1awKD4UccbE4uQQ7yAXJRRgRxEMAyDhRX7Fuu12vmkzD3QWN_8kax2v0Rj6i0I4FebQ5SAofDs_-LFQ-D5JYC-y
+
+sprite $ZwaveLg [20x20/16z] {
+LOk5WKCn3CKKE4XhM_jFMuPy1Vs0B_q_p-pqK3regZdPc5g30__wTtVgsvtQ7ePVxI6fmOT7yQ3GBRYtDiB1UgHQgDa1VHw6Jqvqasb0q_o_aSxbf0H2kQFc
+kweLPoWr0ku7rKvNvOsQi5Pkslk_vvfvkb7wmuVbas9Zg8_K5G
+}
+
+!procedure Zwave($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/Z/Zwave', $name, $tech, $desc)
+!endprocedure

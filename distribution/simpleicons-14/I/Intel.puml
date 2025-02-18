@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/I/Intel
+
+sprite $IntelXs [10x10/16z] Oy0Bs60CBZZ1pyVEmC_5mCV02cPnCF03nV2R0W
+
+sprite $IntelSm [12x12/16z] bOO70S0W40EFlOb_jS0xQ3EFdvBDiWbaV4EPzdYpa7WspcWZvmE3n7JBxUJveWi
+
+sprite $IntelMd [16x16/16z] hKS50S104E9T3_gddKk03GS_OwQZulc878uXN6LPLHCIgB9zPeMjDZhe_3W_IVV-sLYtWdSUs1JWmZ4-OWK
+
+sprite $IntelLg [20x20/16z] nSg53G0n049Hpklil-tLTO3-67a1ctgV2Ju5cZILowO9tsBEVFGTYdwJfXX0vN_XogUPyM3fqvq9GlfnepEGuMYzFTZK3m
+
+!procedure Intel($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/I/Intel', $name, $tech, $desc)
+!endprocedure

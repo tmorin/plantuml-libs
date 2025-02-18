@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/Z/Zazzle
+
+sprite $ZazzleXs [10x10/16z] Om02Jdus1X3W1mDE80CAM84ig0mdaCNF1fE1A663CC280wgEWHEkX84LoW
+
+sprite $ZazzleSm [12x12/16z] LOe50e0W40H92xZz_s-ziHq5jW8qBU549n-9EPDIYuRh55fs9pLfYTwqtz93QI0f0X8CJJN7vXVzYT4E5EaE
+
+sprite $ZazzleMd [16x16/16z] {
+LO-54O0030FRulhxRyk5e7zIbyH9jx5at6oOmI4F-p-4rSqQhIbRUK0RHdvtbdTmYDgPDDZoqaUizXQuUcTDaRvQ2nMpIZ1zrk_HmwXVitPFRhnqQbk_eSYF
+cWC
+}
+
+sprite $ZazzleLg [20x20/16z] {
+PT25iSKW50N0GznW-w_sA_CiEufSJRStrv8NiwwMT7ZOxrSSzolcdcj8ac7RCY61FG_O0YM5SqnomWv3HfP7xWOgGrAyIxBehaTJ1rC12_-f6f83Wf8_mv1S
+gAbiUO0X1HlgEWmBIBBVE-Xv7uR7IX_oi07r_zCt
+}
+
+!procedure Zazzle($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/Z/Zazzle', $name, $tech, $desc)
+!endprocedure

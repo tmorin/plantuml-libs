@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/H/HandshakeProtocol
+
+sprite $HandshakeProtocolXs [10x10/16z] Om02VaO6263YvuUo-86GWHaepiqFb6K7yVX102p3nmG283OdN9G5YBdWklcWB4Oc40C
+
+sprite $HandshakeProtocolSm [12x12/16z] BS65OSG0000XufxRVzhg0sZWuwtHH_BHMvmzZ1aGzEU-ovhnrnfj_JlPXpZkFTH8KxD_Jqy-LWtu1W
+
+sprite $HandshakeProtocolMd [16x16/16z] {
+PSu54WGW241Hk-NV_xOx2jjlaiPT6-y-UEZb8nOSlCF8tiHtZ9N7kcioVQpRvdk_PTb789osYUa5T3gemZvXc0jrohKsV3e4tHPqokjBXHfEB9Fqzz8xdaBu
+YAT3tF4
+}
+
+sprite $HandshakeProtocolLg [20x20/16z] {
+NT3LOG11203HWJrVcVwhZUVi_UBmApHuwVPfvo4rb0TjYtAtAhe0b1ByqAqfmB4g05NH05RH2g0zVg1BAGaqJuWceASbTG0wo7-B0fEoDKy7eCSkdW0Yq094
+9he33Fiq-2_m_582Yw8JTxeEvQvgQd0Nvh3nj9SpxHC
+}
+
+!procedure HandshakeProtocol($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/H/HandshakeProtocol', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/C/Checkmarx
+
+sprite $CheckmarxXs [10x10/16z] HSY54S0m3C10bRdQVzjSq6ysR4-sWDtfIvPtObCmuyvzRu_Us65sqJrJx18
+
+sprite $CheckmarxSm [12x12/16z] HSQr0GGm4C0mF-F5-qyR1bK2lh_c2xZ5HLCqgSO_WzNlj5wvg8mtzAC6tFglNa73O50yU9uM
+
+sprite $CheckmarxMd [16x16/16z] LOq50aGX50BvdJhtFws96sE-0adp_NJkIGL-SVXb0zQbK_yHPWsYPyoDuy3YwZKqjL130RtYIT-LACVzEQKP7C-l3GAi6fHW0buJ0V779hr_OGO
+
+sprite $CheckmarxLg [20x20/16z] {
+PSZ50O100C2muaxtd_O4bpn3qepJQQp8Uj_QVsc9VxqwSpDPLRZDxhZLtZTqPAF9k9_Q0vhXUHQrsSnnewUMyrZS5To7sGHqjkSLQaFY3hAMh5GN5Mw3Mfbq
+xMaomP-UudSaatfh808
+}
+
+!procedure Checkmarx($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Checkmarx', $name, $tech, $desc)
+!endprocedure

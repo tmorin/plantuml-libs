@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/M/Mobxstatetree
+
+sprite $MobxstatetreeXs [10x10/16z] Oq03752Q4oR03yPmm0N2S3a8oSyF50BHGCJB3mGG2HuW2KO
+
+sprite $MobxstatetreeSm [12x12/16z] NKo50G112EAwLFQVzZlF3W2pXJgUUS3Vessf5-BwlTNjXHTIS5icvJgpRI3PPoCqmGTkvhpkbrEIEMh72W
+
+sprite $MobxstatetreeMd [16x16/16z] RO-50KGX34E3Ezb_sfCl-4FhBSvOLenKM3MArscOorPmqNvAT--BtBsxOOoJ_mWsCOGAc3SBMLoghpamGQHYClq_a1II1YYH5muvNa6e92CCSRcD0v8A-08
+
+sprite $MobxstatetreeLg [20x20/16z] {
+VO-50OGm5CK2rEtjF-q9xa6g-S8RGPKp8WMEg1k_Wna16YlhoiQJEOqdysYB1PVWR52xoKp7EiyLzBrFHxFeJuTRsxHIxA0BQCqaGPJaYoOtIGDH5b3LJA9J
+d0GqKZjo6uMksJ5P6EMn5eaTNQmrkmxu0W
+}
+
+!procedure Mobxstatetree($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/M/Mobxstatetree', $name, $tech, $desc)
+!endprocedure

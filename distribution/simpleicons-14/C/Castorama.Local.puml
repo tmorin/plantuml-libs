@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-14/bootstrap')
+
+' loads the Item which embeds the element Castorama
+include('simpleicons-14/C/Castorama')
+
+' renders the element
+Castorama('Castorama', 'Castorama', 'an optional tech label', 'an optional description')
+@enduml

@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-14/bootstrap')
+
+' loads the Item which embeds the element Snyk
+include('simpleicons-14/S/Snyk')
+
+' renders the element
+Snyk('Snyk', 'Snyk', 'an optional tech label', 'an optional description')
+@enduml

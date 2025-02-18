@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/G/Googlephotos
+
+sprite $GooglephotosXs [10x10/16z] Om01VXOW0M418H2mi45e4CaFPd70PNdv8G0ipWeIWSe31HY1F4OW2zKq
+
+sprite $GooglephotosSm [12x12/16z] 7Ok50SHG38KugGlxJrk1hqbuX7DFY4H_Jk3hwcWbEp3rPoCdvJ0YAva1EC0niOXVBMaxwlRU
+
+sprite $GooglephotosMd [16x16/16z] LSUt0SCm40GmA0UIV_jlwyP9w02GvY5BzSTfAs12451rZ_oU6VBvSeCjd2S687h1o1FiHO2281C8fePaGMQVwqbD80W0xlQyEnN02m
+
+sprite $GooglephotosLg [20x20/16z] {
+PSu50eKW40RXVsroxd_Q5x3ss9yAw8WowP4HAlOqQU5jIbdU51OtqILGOYOD5ulz0XT3lMPhqQyjkQr8rXTJW_KcXaX_ABpJlu7DrtAPP_QnJhEglnMdqEQE
+pIhjWexr6DhujQbb-EbQNTvc1BTh1Kxx0W
+}
+
+!procedure Googlephotos($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/G/Googlephotos', $name, $tech, $desc)
+!endprocedure

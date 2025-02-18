@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/B/Boost
+
+sprite $BoostXs [10x10/16z] Oy0E-FdvUM0i808IO1BCuaS124aWWT2DR1W
+
+sprite $BoostSm [12x12/16z] TSU50G0X3C10t6dsd_RT9KYlwhz6ryS2cUcjn32tKCfgZhem5sOgFTC4Dt5A5v2LQwOtTMi4
+
+sprite $BoostMd [16x16/16z] XSo50SGW343HuCxVVzgJklVXHEIToUhm0VIm-Mpq152C_05A68tFrVICIvmTNSRJo7GqDkpIJKI1au7EG1-Z2r_7ZpTV
+
+sprite $BoostLg [20x20/16z] fOq53WKX30MxYsllVrhSYNoP69atfF0lY8OyjynOiZgTIbMzV6VMuxHsXLPZ9ocF1qEfjoj_LmXoVg3zSLS072l2UUsg0h1ZVxfAF4JxVAwhYQZrnQiiV444
+
+!procedure Boost($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/B/Boost', $name, $tech, $desc)
+!endprocedure

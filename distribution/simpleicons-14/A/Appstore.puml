@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/A/Appstore
+
+sprite $AppstoreXs [10x10/16z] Oq01_5pyK1OVFroCdmd60a880yZYXh0Wc9iV1XWu-A4ISCKy
+
+sprite $AppstoreSm [12x12/16z] NSZ50O100CJ0u4xwhnRdR3uhb6oCtTZNM74tkQrvEQ9VzTtilZQLUgnlk5SCyXY5QUKb9m
+
+sprite $AppstoreMd [16x16/16z] RSt50SG030D1XJdJVxN74DgVBSebgwWsDxIRkqAsK6_FUcyFCV_FWR2Jqrk_v_JoKZuF7-OQbjMN3gHik_952ieYc-B5a9IMtKwc_6ZQt04
+
+sprite $AppstoreLg [20x20/16z] {
+TO-50OGm5CM2GotxJtkAI-hz-dYcoYqfS63Ie2S_rSAHedAYqi09bPe3ZKwJLxVim8vUMwAUtQWq7Zgk__titV9y9e3WHfuVqHtCHrMFNJt3e5C5Z5hj6vYF
+Wvu1E7UQWAfYJmrl
+}
+
+!procedure Appstore($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/A/Appstore', $name, $tech, $desc)
+!endprocedure

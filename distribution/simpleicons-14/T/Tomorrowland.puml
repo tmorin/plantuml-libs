@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/T/Tomorrowland
+
+sprite $TomorrowlandXs [10x10/16z] 5SQ50OG040F1lE9C_zroyKsrJAiD-_nxvbeYmQRRUYjzq8hmSqH-Rq96Ijk_-7UPUm
+
+sprite $TomorrowlandSm [12x12/16z] DSU50GCm3CH0XJdQVzfop_XyDFZJoyU-h7Ku6wOhOqG3gXZLpVq6DN4-HrqDGOj29g6YHk1-_pvvXneOUVFHrG0y0G
+
+sprite $TomorrowlandMd [16x16/16z] {
+LSk5RSL0403HiOzn-kysMYdqt-4ItneVTF7hMjEJbfamPsKNdydq-MwTNGugJDNdseiHimnf7mEW0R_ZzXgIuOK2Korng43YVDSh1xZypZE1jwetudu9RIoX
+MoCCZmrO4NuRwalu0W
+}
+
+sprite $TomorrowlandLg [20x20/16z] {
+PSg5OGKX403H0SxGwR_QBtlnF6ILBoV_B2i_jMeOBN6xiAMhZPxAwaGtss3IPZupMG7KJi_JKajIAoJVKbMvV8DYg9jf6M8ldDaFm3Gil6L8PHYAOHTI9Q-x
+K3j8l1IzQ7trV8l1Oj-1_Sgg4z-GjnaR5_6FGZ2hS6fj1nz6snDmxclZow5hwkANIrVczWG
+}
+
+!procedure Tomorrowland($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/T/Tomorrowland', $name, $tech, $desc)
+!endprocedure

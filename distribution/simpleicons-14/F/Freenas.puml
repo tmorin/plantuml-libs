@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/F/Freenas
+
+sprite $FreenasXs [10x10/16z] FSQ50S0m2031gtlPVzfAx1BWDTC1Iqn4fjIDDTM5Q59oXrIJm1w_NhAc-m8
+
+sprite $FreenasSm [12x12/16z] Oy0261cP6HZu-VaO-840o0VJg6nc49CBmkO5QU570YnGnNmW0gOHXDd173wWRhWMTBi1
+
+sprite $FreenasMd [16x16/16z] XOu50e0W40Jjrld_QuqB6nZoUhCKC1nF2-IjsD0XQFnaUDXTBcPvXbknvzC-h88ttHazdpDRMiodtRu5b8SvPGzJfYpd-0yR
+
+sprite $FreenasLg [20x20/16z] {
+ZS-50GD13CH07Vl9st-r0OSvKu74dvelcRFXoYq1Bgb1MNL4uc3MFSAaEuMmwSex15rj1i5qin6wwoQdH6gRtbXkAGK5X_kqvb85_192LCmSP9sr27iEzCj8
+dkUx6aA1xES87bGRcM_s
+}
+
+!procedure Freenas($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/F/Freenas', $name, $tech, $desc)
+!endprocedure

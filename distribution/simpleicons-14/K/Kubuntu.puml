@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/K/Kubuntu
+
+sprite $KubuntuXs [10x10/16z] 9S650OD0002ng-3msN_QQbArcVhYWQqCjygKGcnc4ELlSiAHD74-QAEpL1EeDm
+
+sprite $KubuntuSm [12x12/16z] BS65OSG0002XYtlOVzhgGxykU_zue0ezecoPZkA9u1W6bti4RUoTFdO6KA8NmxdBlQfYAqJUgWTizGq
+
+sprite $KubuntuMd [16x16/16z] {
+HSd5WSD004Mn5pIErN-r2q6TFlHm7RPJRyFJlGTCuJ2U5LssOg-Xk2pdmYcsRg0nk77aOTHik3LvkXzGgw-DwUofXHFoCDSchjsU5KTtbpjL9rJZyHsAMzN-
+ty6zXvE7KVKB
+}
+
+sprite $KubuntuLg [20x20/16z] {
+DO-74S0m20CLzwxzjys9Wqyn7HdEV3pLBAVIkHySUJdHc1uITg2J2v3zI7v0CeTLivxCNMUI4otA6zdE0SjS2ij-v2JPFWO-Fm63mM6a5fr8lAbrJbAXt0Cw
+s-R1B2zyI5_XbGnux21Rl_IWIQveldJwzYF7B5VopAtMQSWC4CH5ReBu0G
+}
+
+!procedure Kubuntu($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/K/Kubuntu', $name, $tech, $desc)
+!endprocedure

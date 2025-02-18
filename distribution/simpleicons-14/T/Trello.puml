@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/T/Trello
+
+sprite $TrelloXs [10x10/16z] O-270Xv-9C30m034R70MCnOMEvG50GWMfe4
+
+sprite $TrelloSm [12x12/16z] O-3bXm4EC1C1kBdv-Nc118Z9mC3Apy30G18R2D3P_2miVFmOW0E93G
+
+sprite $TrelloMd [16x16/16z] fOU50S104CAWxkm_RTtjBISGv3h3N4Poab8p_cvs0kYKZhyEy7BypSatpDuaIIvRUFC1
+
+sprite $TrelloLg [20x20/16z] Os3cHmCyG27A00C8yFFpWYWsL35k4CLCCp64lUmeOZ10kHWd2miB5nbXmeCjd325k04
+
+!procedure Trello($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/T/Trello', $name, $tech, $desc)
+!endprocedure

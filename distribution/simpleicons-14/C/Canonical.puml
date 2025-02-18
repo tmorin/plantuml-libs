@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/C/Canonical
+
+sprite $CanonicalXs [10x10/16z] 5S474S10080mkdVnx_QF1E1o9veB5FrnGmnUQbQJtztVOBFA9UlFAh0P6
+
+sprite $CanonicalSm [12x12/16z] JSY53S100810wbxsdxRoJkm2VuShCMEHqD5hODnU97hF7c8CjIjUcuzzv7QASl_iNK1duFG6k5J_-m8
+
+sprite $CanonicalMd [16x16/16z] {
+JSu55W0X24NH3zCgllslTeepSUq4tQQWcXv1Md89LBSn87BPDBPUSgQWYLiLc42GDeU9El8G1DvuM03MUPn7bR7ypuqG3sMjf66cQmPjkNJ8x5tcfXbcdHeG
+BSZboRXrdGu
+}
+
+sprite $CanonicalLg [20x20/16z] {
+NT2rWSL044J1reffA_ze3x-mp3TZTJxcQXjoq_lOcoEvcOzqt7iidpIaWvfK-gHdo0uOWuJzI1Z259hE9IipSTCLwgjjmQlLiBtQt32GwfAHq8V3dchFJaQ7
+T9Gqr0p7Lq6I6KctrJdfa5yBrf8qOqLvJOhaC05xoQzl
+}
+
+!procedure Canonical($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Canonical', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/V/Volkswagen
+
+sprite $VolkswagenXs [10x10/16z] 5SU30SG004FHTwZnzv-sY0DB8oYS2x6BGIHQ_eXJOYUZx_Vy2vlookBptWb3Y1i
+
+sprite $VolkswagenSm [12x12/16z] DSU5OG9000F0Usk1b-m_BKuyOEO2I7xX2EqgXFA-jXJYC3E57gJ5hgodkWjnRaCCDxD6TXKXnOxsJqoKTc2VPkIV1m
+
+sprite $VolkswagenMd [16x16/16z] {
+5SZ5WS0m34JH5qviIzD_jGkd3y1LcHk0ojWSdGV8dGlvgY6RAmYZg1lPz49lqdWYa5mp6rADcTJ-nhz1TCZElR3QdASx94NehSb-HjGYmfNSCiFHdlyRjlmB
+wdLz27r3DN3a1hQaPwVX5m
+}
+
+sprite $VolkswagenLg [20x20/16z] {
+FSo5jQjG503HJP27tkc_sg-ip77rSepk3L_MklRvU7ecBzK56Xr0joCuy-byMrvtefKrEF9cIzG4xGgk3dN3qnBewhZVl0QCD0u5n_d1rA5sdpuuxm_kw3vf
+e1wqqpRuz35Qef3UnuV6rCh-U2u-ZVYfqCVKv_kiZJCSCGLN_0JEPZkOdNs0jJVRovUZVpmVy1i
+}
+
+!procedure Volkswagen($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/V/Volkswagen', $name, $tech, $desc)
+!endprocedure

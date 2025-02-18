@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/F/First
+
+sprite $FirstXs [10x10/16z] RS6t0GGX000WpfpTVzkllXEyJ51nPUON6T6Nk1_1tv7afbTVlVTQNdu
+
+sprite $FirstSm [12x12/16z] ZS450SD0402m_1-KM_zkPs2K-CS2Gqmyo8vPatkSrAZPmxhCYumijEfajKwsbNdRx1DZchkFNW
+
+sprite $FirstMd [16x16/16z] bSMreSH040JHDxqhcXFa7-q7yqmrL7cTyfqEgX2e8G53SDZLSvwojV3OLqLrpLOUCoER8HDkYrN-jR7Pr2LpnibXARFkSztEfpGzGKAtz_a5
+
+sprite $FirstLg [20x20/16z] {
+jS67GGGX002mq8uE-qzhrmdynB-RZpyLS6K8WIG2brmIJ462S3KvpdkQk9U8EAIX1fabNO6Ub3JbAAuXMu8jncWP8CiULvvsa0x5KvJYM2UgcLEqgdGcTWVc
+43krAa6ztuI5yGGGOiGPNk0T
+}
+
+!procedure First($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/F/First', $name, $tech, $desc)
+!endprocedure

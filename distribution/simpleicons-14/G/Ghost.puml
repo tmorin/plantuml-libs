@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/G/Ghost
+
+sprite $GhostXs [10x10/16z] FSg50S0W4C30rBtPVreS3dabkTp9zEJt0ZyoDwJo6fa_rRf_LEB8wkAJ_yqC8W
+
+sprite $GhostSm [12x12/16z] JOs50S0m48Ie-x7_j7KZUJSE9dikD4FqTDix0qvFUK5kQYTvqCzF__dozvypXTspDEOmY-gHtG
+
+sprite $GhostMd [16x16/16z] JSx50SKW403HYJlJVxLVWkqxmJglvV4Qg1wpBN_ru6VM9tyXqniUUwCEACsWYpVTxUD2e19vIUGWmIBUuMzYDQuZ77JfcfUcUPXkypVNgIP-lW
+
+sprite $GhostLg [20x20/16z] {
+NP3L0KKX5CDw7S_-qpv5JxveAAgABwHR4nULl3K5u3Rj1V1DjUcjGAXAdGpNRozD01AusVqoR39tyA0LA5WNWMBSII8OTtEJZGFP_JQoCfkfxTeeImiapJUC
+r13W-0qSm6w-jBL60_A_z0O
+}
+
+!procedure Ghost($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/G/Ghost', $name, $tech, $desc)
+!endprocedure

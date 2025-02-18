@@ -1,0 +1,74 @@
+# Solidity
+
+
+```text
+simpleicons-14/S/Solidity
+```
+
+```text
+include('simpleicons-14/S/Solidity')
+```
+
+
+
+| Illustration | Solidity |
+| :---: | :---: |
+| ![illustration for Illustration](../../simpleicons-14/S/Solidity.png) | ![illustration for Solidity](../../simpleicons-14/S/Solidity.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$SolidityXs>`
+- `<$SoliditySm>`
+- `<$SolidityMd>`
+- `<$SolidityLg>`
+
+
+
+
+
+## Solidity
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-14/bootstrap')
+
+' loads the Item which embeds the element Solidity
+include('simpleicons-14/S/Solidity')
+
+' renders the element
+Solidity('Solidity', 'Solidity', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-14/bootstrap')
+
+' loads the Item which embeds the element Solidity
+include('simpleicons-14/S/Solidity')
+
+' renders the element
+Solidity('Solidity', 'Solidity', 'an optional tech label', 'an optional description')
+@enduml
+```
+

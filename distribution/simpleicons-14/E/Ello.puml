@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/E/Ello
+
+sprite $ElloXs [10x10/16z] PSh50S0W5C3GrBtPVrgS4m_vIdAvarbSFT4DkylHRl4evJwxqXU1hIKH
+
+sprite $ElloSm [12x12/16z] RSQr0OG000Im--Pnil-qk4EgPDOeixAwb4jrbsjyAubP24M5NqzG9vbQ9ApwJ3gp8Xa1
+
+sprite $ElloMd [16x16/16z] VS-50S0W40F0r3La_sdHhylXpYFhgAN2XYg6CjJERSFDkctULD1LfolgtoAnLe5qOMcJiR4-mJHCNOT--rUZ2DSFzOZMop2gJj44
+
+sprite $ElloLg [20x20/16z] {
+ZT255O0m00FHmvtiloqlkBU_xiAg6TMNd1HQ3GahdJJFBgbzTac5zxe3FTJegT7Jg3YzhtISZRDohrd7taoJTNCwIGF3SSsESfv18iknJWRSRuYrEaltBzsn
+gpKRKcm2
+}
+
+!procedure Ello($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/E/Ello', $name, $tech, $desc)
+!endprocedure

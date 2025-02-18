@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/M/Momenteo
+
+sprite $MomenteoXs [10x10/16z] XSV50O0000B0irlsdzRwMZH-a0dfwM04bUlFgs8Irain4G_O0G
+
+sprite $MomenteoSm [12x12/16z] bSO50G0X00J1UHUiVrga0PokPQNzGZuEpitBmpzIPBUYz8Z6_cIsWVPYGWq
+
+sprite $MomenteoMd [16x16/16z] hOK50S0m0CCovjM_sZC8-0i9_sUEV3a054-tG7CC0xO30jzslnDczm2PoJPaEoKxGSmgIP3ZP0QWEuO3HkPZLW
+
+sprite $MomenteoLg [20x20/16z] {
+nKs55G0X5C9ksNzQMqUuCwdtmO-BJ0_v3L84zKBPWse2LsPWefWFaekgyUg9riij-3AH6pU7Q25e5bJ3j1LWbQ10Ih0S2AW11QmMG1dpkTghgvZfNIVJGL-i
+3W
+}
+
+!procedure Momenteo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/M/Momenteo', $name, $tech, $desc)
+!endprocedure

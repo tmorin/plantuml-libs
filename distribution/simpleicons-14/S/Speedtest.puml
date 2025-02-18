@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/S/Speedtest
+
+sprite $SpeedtestXs [10x10/16z] JOd50O0m40Jn3v3flzh8kQrkTHv011XmY6zi27yRt-LTMoNhTsd5cPB4PW
+
+sprite $SpeedtestSm [12x12/16z] NOk50O1058MmM_QVrlQAt_4eg7NdeTAbMnN0zbcjWjtJTkpYqsw2wwFI9st0xhCOv4T2t_ZS7sm8r9m
+
+sprite $SpeedtestMd [16x16/16z] RSs55O0m40JHnPtflrlU4PU5oB-O-fdNCM73PN24TvAqmk4uo-MsmidaQGM9n-CoCEBvsdKtjpV_iH7mFDper_TRbf79d3_0anbqLUyhzw4w7m
+
+sprite $SpeedtestLg [20x20/16z] {
+VO-50GGX3C1oxcJ_QL_Wt8BMMrx9E58R2QpaKPvKHnAjkhgdNwCb2sDIQiv6K1ZjMEWgq0BT-OnGE5PEYsfALNLS2wZBQvQcM5HeMAhgwj_P4YcoLPSf1p95
+C_OCThI6injepOOsSIBszDpo1G
+}
+
+!procedure Speedtest($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/S/Speedtest', $name, $tech, $desc)
+!endprocedure

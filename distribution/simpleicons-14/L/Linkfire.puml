@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/L/Linkfire
+
+sprite $LinkfireXs [10x10/16z] Oq06_130m0HbW4KWukmW1YihFpytFn0py383-SmW7aG9N0EKoGGsZv6N5KG1
+
+sprite $LinkfireSm [12x12/16z] NSZ50OH00CNG0EEM_gjTLzxb2oTrFS7oPNlMvqOrzZQrDot06izxCyunbNplLhM0DjXKeFYqSnDVzTyL
+
+sprite $LinkfireMd [16x16/16z] XOw55KKX5CE2E-m_xPEUxnhqUlcFMNSwv0UpGD1dpgbteCS0w6CLRKTKDlsuh366YwsaoHYgz5JPopbtPWAd7LFYCavlIgch-ZBcWdsMwxYGJYlpaHq
+
+sprite $LinkfireLg [20x20/16z] {
+bOy50WCn20Gthf3__xQXKDURqyn604U8wm40_j7mU-Kk_ypsbq2M2jssqwpBDtbrHTw4JJ8tSDx4vLeRM9qjTQE3Y8AvgMuv04xEgq1G9pdPgReuGh02DlMb
+LurlU2ZygcxB9-vnZKR2Dqu
+}
+
+!procedure Linkfire($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/L/Linkfire', $name, $tech, $desc)
+!endprocedure

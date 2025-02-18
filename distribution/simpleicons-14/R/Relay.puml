@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/R/Relay
+
+sprite $RelayXs [10x10/16z] Oy06E64CVWXWPO0Bm8KXV6OmoGt4B12bs8m3
+
+sprite $RelaySm [12x12/16z] Oo02SF1pC880YCt6pmOMuqQIPuRI_430pe0XpS3B0GBy_0WHRdvSTW4
+
+sprite $RelayMd [16x16/16z] bSr50S1G5C2mZddrhtQC__PY84Hb_BIQNTXDsfwwcLrVSnduavi7RdroT3cdJE_anbUk1Aq
+
+sprite $RelayLg [20x20/16z] hS750GCn00InDREd_sh3EVnQqcgXw2h3D7_wuYJepK3H1jsX0_DHq8wlhbrkkcbE6zlquJ0RG1-U8rrDXXPx0W
+
+!procedure Relay($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/R/Relay', $name, $tech, $desc)
+!endprocedure

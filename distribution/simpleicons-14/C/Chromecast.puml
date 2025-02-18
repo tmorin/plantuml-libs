@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/C/Chromecast
+
+sprite $ChromecastXs [10x10/16z] HOZ70G0n08BmUdV_QIyzuQF0m9rMZg-_epyUJ-LvnohjD2wDLqRIkUzi2tia
+
+sprite $ChromecastSm [12x12/16z] JSP50S100C2mZe_hN-sOyWf_uRLOyqDd7erFQ_KxGPy7MBoVbUprZYJt5P6Woiy6
+
+sprite $ChromecastMd [16x16/16z] XOh50O0008ImM_QVrkxaTG4_95uvtLvx69uxPrJJqv-e5r_thYsqxd-iOBds09J2tISKX794JKP9KBNbGWy
+
+sprite $ChromecastLg [20x20/16z] {
+ZOy50aGX24J7HAov_satV_SpQS1Jk4CRZy26TAZhVQy3zheKzhelkerrbQJTvHCoh6FbDupPv3DVvIfMlqgbp3e3E19WNy_MQ7x1veVofsH1-Ju38W98XFy-
+Vt346m
+}
+
+!procedure Chromecast($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Chromecast', $name, $tech, $desc)
+!endprocedure

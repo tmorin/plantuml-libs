@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/G/Githubactions
+
+sprite $GithubactionsXs [10x10/16z] NSF50O0m00J1mPthlreqhwmG2WqWhBkQKyBxd279EZ8A-eM9aGx7UwUmuWO
+
+sprite $GithubactionsSm [12x12/16z] BSh50GH1202mhDi0_LTxIjuXRjfE0C9IsksuQK7I1jUoYQaOLNTbpJk6cI7j3C24e_-SYBhkF6TW9gJp3G
+
+sprite $GithubactionsMd [16x16/16z] {
+LOg50S1020FlXUf3zf-sheUJG8q9NWJuUrPc9SHDu4pfDKoqSI9uSC2C5taOSmEOPW3T6KV79OgGSbK26emzuzQxhHzt9_LWaXtt7u6N4k3L0aZRX4gfUmV8
+1GhPxfkezV1NhG
+}
+
+sprite $GithubactionsLg [20x20/16z] {
+LS_5eGKX3030WLKiwR_Qxx9lRX17p-xLleeQkwTb5S93ByOOwkLVqfszp6TUDMQtF_E4ZlIqHorxRbwrkCZ8YIiZ2seoASVDHA3UcN5iAJDhdsT3FKbJ2VlH
+3lFdxqmIkMlZvqzf3LnzmyzTrmcs6mYsg5jWtRKtMBT4MTzP4nmhr25BL3J0GkrURy_M5zfikRy3
+}
+
+!procedure Githubactions($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/G/Githubactions', $name, $tech, $desc)
+!endprocedure

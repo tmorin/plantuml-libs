@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/P/Pypi
+
+sprite $PypiXs [10x10/16z] NSY53S1030Imak0ftd_QCWUjwtw54wsSb7VrD7NF83FjKdN3hbgwirmQjhC
+
+sprite $PypiSm [12x12/16z] ROg73O0m40DDh_xRVrlyKjGvIEAc7s28fJ1MCsqKs2tbpelM4Q6IpshzOh8G3y7B78EZUBC8fo1QoVDpQh18pGS
+
+sprite $PypiMd [16x16/16z] TSvL0W8m30JH2awoS__RigIuJBzUlVtlj7d1Za3veD83efTw4p7jL5ibGGWe1N32N1wui5FKwUNpMXy-RMRjZtbz0MShQlMsFyM-xCQ-xH6iprHxShQN2jzT
+
+sprite $PypiLg [20x20/16z] {
+XSu70iCm20D0o4v0wF-_hN7f7b6cpmFaDECxA3Fw91j9M71wCj908n-gpM95Co3AXhI3vWooLcqCEE0i6rK84a5sywSkkg7njT4o7BKta_lWjHTJjyTUhjc4
+wCCES4ZB4xl1QPIop3Q9ibbC-a3fPlT1VNoGfzGfVt81
+}
+
+!procedure Pypi($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/P/Pypi', $name, $tech, $desc)
+!endprocedure

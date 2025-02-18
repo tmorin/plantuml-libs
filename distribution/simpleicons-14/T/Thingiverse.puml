@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/T/Thingiverse
+
+sprite $ThingiverseXs [10x10/16z] DOQ50S0m48IeUzb_slXpIk7seE9JwogXiQqyMC6RWYMpyTZZxRL7hgrsDQipkv01
+
+sprite $ThingiverseSm [12x12/16z] HOfL0eH05CEoYqFVzFwdHKRpLGaVyW4P2tx9EKB6O7uP_e6GF_xPXL_sv96tuzTpa7es_jLyhk09lXZPixRm2Wy
+
+sprite $ThingiverseMd [16x16/16z] {
+LOg55S1G20ElRe7ilsqVzTuNY70mfjLoayvvsko90uk3nd78yItgUCq5kC4WdxGC7XCMoGwf2ZbJf5iAU_fhRN_T-gznyz5RCFdLJUsHG7l8ioGF5DiX3_yW
+Qjy1
+}
+
+sprite $ThingiverseLg [20x20/16z] {
+PT05biD03C1GXT7M_K-xspQSqIE_7nXWgvhJ6BWrgh6cHdMGBjlGw7HGnL6_eNAhiuNHYkeCPi45LezgSApaPU4iM-UIjHblGzVI8alhVLilDYzp9NnQPKtb
+-B1COBAxcS8FP_QgjDwcLkCxzfhFYrRNxQL_
+}
+
+!procedure Thingiverse($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/T/Thingiverse', $name, $tech, $desc)
+!endprocedure

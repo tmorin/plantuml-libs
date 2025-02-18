@@ -1,0 +1,120 @@
+# R
+
+The module contains 109 items.
+
+
+
+| |Name|
+|:---:|---|
+| ![illustration of simpleicons-14/R/R](../../simpleicons-14/R/R.png) | [simpleicons-14/R/R](../../simpleicons-14/R/R.md) |
+| ![illustration of simpleicons-14/R/R3](../../simpleicons-14/R/R3.png) | [simpleicons-14/R/R3](../../simpleicons-14/R/R3.md) |
+| ![illustration of simpleicons-14/R/Rabbitmq](../../simpleicons-14/R/Rabbitmq.png) | [simpleicons-14/R/Rabbitmq](../../simpleicons-14/R/Rabbitmq.md) |
+| ![illustration of simpleicons-14/R/Racket](../../simpleicons-14/R/Racket.png) | [simpleicons-14/R/Racket](../../simpleicons-14/R/Racket.md) |
+| ![illustration of simpleicons-14/R/Radar](../../simpleicons-14/R/Radar.png) | [simpleicons-14/R/Radar](../../simpleicons-14/R/Radar.md) |
+| ![illustration of simpleicons-14/R/Radiopublic](../../simpleicons-14/R/Radiopublic.png) | [simpleicons-14/R/Radiopublic](../../simpleicons-14/R/Radiopublic.md) |
+| ![illustration of simpleicons-14/R/Railway](../../simpleicons-14/R/Railway.png) | [simpleicons-14/R/Railway](../../simpleicons-14/R/Railway.md) |
+| ![illustration of simpleicons-14/R/Rainmeter](../../simpleicons-14/R/Rainmeter.png) | [simpleicons-14/R/Rainmeter](../../simpleicons-14/R/Rainmeter.md) |
+| ![illustration of simpleicons-14/R/Rakuten](../../simpleicons-14/R/Rakuten.png) | [simpleicons-14/R/Rakuten](../../simpleicons-14/R/Rakuten.md) |
+| ![illustration of simpleicons-14/R/Ram](../../simpleicons-14/R/Ram.png) | [simpleicons-14/R/Ram](../../simpleicons-14/R/Ram.md) |
+| ![illustration of simpleicons-14/R/Rancher](../../simpleicons-14/R/Rancher.png) | [simpleicons-14/R/Rancher](../../simpleicons-14/R/Rancher.md) |
+| ![illustration of simpleicons-14/R/Rarible](../../simpleicons-14/R/Rarible.png) | [simpleicons-14/R/Rarible](../../simpleicons-14/R/Rarible.md) |
+| ![illustration of simpleicons-14/R/Rasa](../../simpleicons-14/R/Rasa.png) | [simpleicons-14/R/Rasa](../../simpleicons-14/R/Rasa.md) |
+| ![illustration of simpleicons-14/R/Raspberrypi](../../simpleicons-14/R/Raspberrypi.png) | [simpleicons-14/R/Raspberrypi](../../simpleicons-14/R/Raspberrypi.md) |
+| ![illustration of simpleicons-14/R/Ravelry](../../simpleicons-14/R/Ravelry.png) | [simpleicons-14/R/Ravelry](../../simpleicons-14/R/Ravelry.md) |
+| ![illustration of simpleicons-14/R/Ray](../../simpleicons-14/R/Ray.png) | [simpleicons-14/R/Ray](../../simpleicons-14/R/Ray.md) |
+| ![illustration of simpleicons-14/R/Razer](../../simpleicons-14/R/Razer.png) | [simpleicons-14/R/Razer](../../simpleicons-14/R/Razer.md) |
+| ![illustration of simpleicons-14/R/Razorpay](../../simpleicons-14/R/Razorpay.png) | [simpleicons-14/R/Razorpay](../../simpleicons-14/R/Razorpay.md) |
+| ![illustration of simpleicons-14/R/React](../../simpleicons-14/R/React.png) | [simpleicons-14/R/React](../../simpleicons-14/R/React.md) |
+| ![illustration of simpleicons-14/R/Reacthookform](../../simpleicons-14/R/Reacthookform.png) | [simpleicons-14/R/Reacthookform](../../simpleicons-14/R/Reacthookform.md) |
+| ![illustration of simpleicons-14/R/Reactivex](../../simpleicons-14/R/Reactivex.png) | [simpleicons-14/R/Reactivex](../../simpleicons-14/R/Reactivex.md) |
+| ![illustration of simpleicons-14/R/Reactos](../../simpleicons-14/R/Reactos.png) | [simpleicons-14/R/Reactos](../../simpleicons-14/R/Reactos.md) |
+| ![illustration of simpleicons-14/R/Reactquery](../../simpleicons-14/R/Reactquery.png) | [simpleicons-14/R/Reactquery](../../simpleicons-14/R/Reactquery.md) |
+| ![illustration of simpleicons-14/R/Reactrouter](../../simpleicons-14/R/Reactrouter.png) | [simpleicons-14/R/Reactrouter](../../simpleicons-14/R/Reactrouter.md) |
+| ![illustration of simpleicons-14/R/Reacttable](../../simpleicons-14/R/Reacttable.png) | [simpleicons-14/R/Reacttable](../../simpleicons-14/R/Reacttable.md) |
+| ![illustration of simpleicons-14/R/Readme](../../simpleicons-14/R/Readme.png) | [simpleicons-14/R/Readme](../../simpleicons-14/R/Readme.md) |
+| ![illustration of simpleicons-14/R/Readthedocs](../../simpleicons-14/R/Readthedocs.png) | [simpleicons-14/R/Readthedocs](../../simpleicons-14/R/Readthedocs.md) |
+| ![illustration of simpleicons-14/R/Realm](../../simpleicons-14/R/Realm.png) | [simpleicons-14/R/Realm](../../simpleicons-14/R/Realm.md) |
+| ![illustration of simpleicons-14/R/Reason](../../simpleicons-14/R/Reason.png) | [simpleicons-14/R/Reason](../../simpleicons-14/R/Reason.md) |
+| ![illustration of simpleicons-14/R/Reasonstudios](../../simpleicons-14/R/Reasonstudios.png) | [simpleicons-14/R/Reasonstudios](../../simpleicons-14/R/Reasonstudios.md) |
+| ![illustration of simpleicons-14/R/Red](../../simpleicons-14/R/Red.png) | [simpleicons-14/R/Red](../../simpleicons-14/R/Red.md) |
+| ![illustration of simpleicons-14/R/Redbubble](../../simpleicons-14/R/Redbubble.png) | [simpleicons-14/R/Redbubble](../../simpleicons-14/R/Redbubble.md) |
+| ![illustration of simpleicons-14/R/Reddit](../../simpleicons-14/R/Reddit.png) | [simpleicons-14/R/Reddit](../../simpleicons-14/R/Reddit.md) |
+| ![illustration of simpleicons-14/R/Redhat](../../simpleicons-14/R/Redhat.png) | [simpleicons-14/R/Redhat](../../simpleicons-14/R/Redhat.md) |
+| ![illustration of simpleicons-14/R/Redhatopenshift](../../simpleicons-14/R/Redhatopenshift.png) | [simpleicons-14/R/Redhatopenshift](../../simpleicons-14/R/Redhatopenshift.md) |
+| ![illustration of simpleicons-14/R/Redis](../../simpleicons-14/R/Redis.png) | [simpleicons-14/R/Redis](../../simpleicons-14/R/Redis.md) |
+| ![illustration of simpleicons-14/R/Redmine](../../simpleicons-14/R/Redmine.png) | [simpleicons-14/R/Redmine](../../simpleicons-14/R/Redmine.md) |
+| ![illustration of simpleicons-14/R/Redox](../../simpleicons-14/R/Redox.png) | [simpleicons-14/R/Redox](../../simpleicons-14/R/Redox.md) |
+| ![illustration of simpleicons-14/R/Redux](../../simpleicons-14/R/Redux.png) | [simpleicons-14/R/Redux](../../simpleicons-14/R/Redux.md) |
+| ![illustration of simpleicons-14/R/Reduxsaga](../../simpleicons-14/R/Reduxsaga.png) | [simpleicons-14/R/Reduxsaga](../../simpleicons-14/R/Reduxsaga.md) |
+| ![illustration of simpleicons-14/R/Redwoodjs](../../simpleicons-14/R/Redwoodjs.png) | [simpleicons-14/R/Redwoodjs](../../simpleicons-14/R/Redwoodjs.md) |
+| ![illustration of simpleicons-14/R/Reebok](../../simpleicons-14/R/Reebok.png) | [simpleicons-14/R/Reebok](../../simpleicons-14/R/Reebok.md) |
+| ![illustration of simpleicons-14/R/Relay](../../simpleicons-14/R/Relay.png) | [simpleicons-14/R/Relay](../../simpleicons-14/R/Relay.md) |
+| ![illustration of simpleicons-14/R/Relianceindustrieslimited](../../simpleicons-14/R/Relianceindustrieslimited.png) | [simpleicons-14/R/Relianceindustrieslimited](../../simpleicons-14/R/Relianceindustrieslimited.md) |
+| ![illustration of simpleicons-14/R/Remix](../../simpleicons-14/R/Remix.png) | [simpleicons-14/R/Remix](../../simpleicons-14/R/Remix.md) |
+| ![illustration of simpleicons-14/R/Renault](../../simpleicons-14/R/Renault.png) | [simpleicons-14/R/Renault](../../simpleicons-14/R/Renault.md) |
+| ![illustration of simpleicons-14/R/Render](../../simpleicons-14/R/Render.png) | [simpleicons-14/R/Render](../../simpleicons-14/R/Render.md) |
+| ![illustration of simpleicons-14/R/Renovatebot](../../simpleicons-14/R/Renovatebot.png) | [simpleicons-14/R/Renovatebot](../../simpleicons-14/R/Renovatebot.md) |
+| ![illustration of simpleicons-14/R/Renpy](../../simpleicons-14/R/Renpy.png) | [simpleicons-14/R/Renpy](../../simpleicons-14/R/Renpy.md) |
+| ![illustration of simpleicons-14/R/Renren](../../simpleicons-14/R/Renren.png) | [simpleicons-14/R/Renren](../../simpleicons-14/R/Renren.md) |
+| ![illustration of simpleicons-14/R/Replit](../../simpleicons-14/R/Replit.png) | [simpleicons-14/R/Replit](../../simpleicons-14/R/Replit.md) |
+| ![illustration of simpleicons-14/R/Republicofgamers](../../simpleicons-14/R/Republicofgamers.png) | [simpleicons-14/R/Republicofgamers](../../simpleicons-14/R/Republicofgamers.md) |
+| ![illustration of simpleicons-14/R/Rescript](../../simpleicons-14/R/Rescript.png) | [simpleicons-14/R/Rescript](../../simpleicons-14/R/Rescript.md) |
+| ![illustration of simpleicons-14/R/Rescuetime](../../simpleicons-14/R/Rescuetime.png) | [simpleicons-14/R/Rescuetime](../../simpleicons-14/R/Rescuetime.md) |
+| ![illustration of simpleicons-14/R/Researchgate](../../simpleicons-14/R/Researchgate.png) | [simpleicons-14/R/Researchgate](../../simpleicons-14/R/Researchgate.md) |
+| ![illustration of simpleicons-14/R/Resharper](../../simpleicons-14/R/Resharper.png) | [simpleicons-14/R/Resharper](../../simpleicons-14/R/Resharper.md) |
+| ![illustration of simpleicons-14/R/Resurrectionremixos](../../simpleicons-14/R/Resurrectionremixos.png) | [simpleicons-14/R/Resurrectionremixos](../../simpleicons-14/R/Resurrectionremixos.md) |
+| ![illustration of simpleicons-14/R/Retroarch](../../simpleicons-14/R/Retroarch.png) | [simpleicons-14/R/Retroarch](../../simpleicons-14/R/Retroarch.md) |
+| ![illustration of simpleicons-14/R/Retropie](../../simpleicons-14/R/Retropie.png) | [simpleicons-14/R/Retropie](../../simpleicons-14/R/Retropie.md) |
+| ![illustration of simpleicons-14/R/Revealdotjs](../../simpleicons-14/R/Revealdotjs.png) | [simpleicons-14/R/Revealdotjs](../../simpleicons-14/R/Revealdotjs.md) |
+| ![illustration of simpleicons-14/R/Reverbnation](../../simpleicons-14/R/Reverbnation.png) | [simpleicons-14/R/Reverbnation](../../simpleicons-14/R/Reverbnation.md) |
+| ![illustration of simpleicons-14/R/Revoltdotchat](../../simpleicons-14/R/Revoltdotchat.png) | [simpleicons-14/R/Revoltdotchat](../../simpleicons-14/R/Revoltdotchat.md) |
+| ![illustration of simpleicons-14/R/Revolut](../../simpleicons-14/R/Revolut.png) | [simpleicons-14/R/Revolut](../../simpleicons-14/R/Revolut.md) |
+| ![illustration of simpleicons-14/R/Revue](../../simpleicons-14/R/Revue.png) | [simpleicons-14/R/Revue](../../simpleicons-14/R/Revue.md) |
+| ![illustration of simpleicons-14/R/Rewe](../../simpleicons-14/R/Rewe.png) | [simpleicons-14/R/Rewe](../../simpleicons-14/R/Rewe.md) |
+| ![illustration of simpleicons-14/R/Rezgo](../../simpleicons-14/R/Rezgo.png) | [simpleicons-14/R/Rezgo](../../simpleicons-14/R/Rezgo.md) |
+| ![illustration of simpleicons-14/R/Rhinoceros](../../simpleicons-14/R/Rhinoceros.png) | [simpleicons-14/R/Rhinoceros](../../simpleicons-14/R/Rhinoceros.md) |
+| ![illustration of simpleicons-14/R/Rider](../../simpleicons-14/R/Rider.png) | [simpleicons-14/R/Rider](../../simpleicons-14/R/Rider.md) |
+| ![illustration of simpleicons-14/R/Rimacautomobili](../../simpleicons-14/R/Rimacautomobili.png) | [simpleicons-14/R/Rimacautomobili](../../simpleicons-14/R/Rimacautomobili.md) |
+| ![illustration of simpleicons-14/R/Ring](../../simpleicons-14/R/Ring.png) | [simpleicons-14/R/Ring](../../simpleicons-14/R/Ring.md) |
+| ![illustration of simpleicons-14/R/Riotgames](../../simpleicons-14/R/Riotgames.png) | [simpleicons-14/R/Riotgames](../../simpleicons-14/R/Riotgames.md) |
+| ![illustration of simpleicons-14/R/Ripple](../../simpleicons-14/R/Ripple.png) | [simpleicons-14/R/Ripple](../../simpleicons-14/R/Ripple.md) |
+| ![illustration of simpleicons-14/R/Riseup](../../simpleicons-14/R/Riseup.png) | [simpleicons-14/R/Riseup](../../simpleicons-14/R/Riseup.md) |
+| ![illustration of simpleicons-14/R/Roamresearch](../../simpleicons-14/R/Roamresearch.png) | [simpleicons-14/R/Roamresearch](../../simpleicons-14/R/Roamresearch.md) |
+| ![illustration of simpleicons-14/R/Roblox](../../simpleicons-14/R/Roblox.png) | [simpleicons-14/R/Roblox](../../simpleicons-14/R/Roblox.md) |
+| ![illustration of simpleicons-14/R/Robloxstudio](../../simpleicons-14/R/Robloxstudio.png) | [simpleicons-14/R/Robloxstudio](../../simpleicons-14/R/Robloxstudio.md) |
+| ![illustration of simpleicons-14/R/Robotframework](../../simpleicons-14/R/Robotframework.png) | [simpleicons-14/R/Robotframework](../../simpleicons-14/R/Robotframework.md) |
+| ![illustration of simpleicons-14/R/Rocketdotchat](../../simpleicons-14/R/Rocketdotchat.png) | [simpleicons-14/R/Rocketdotchat](../../simpleicons-14/R/Rocketdotchat.md) |
+| ![illustration of simpleicons-14/R/Rocksdb](../../simpleicons-14/R/Rocksdb.png) | [simpleicons-14/R/Rocksdb](../../simpleicons-14/R/Rocksdb.md) |
+| ![illustration of simpleicons-14/R/Rockylinux](../../simpleicons-14/R/Rockylinux.png) | [simpleicons-14/R/Rockylinux](../../simpleicons-14/R/Rockylinux.md) |
+| ![illustration of simpleicons-14/R/Roku](../../simpleicons-14/R/Roku.png) | [simpleicons-14/R/Roku](../../simpleicons-14/R/Roku.md) |
+| ![illustration of simpleicons-14/R/Rollsroyce](../../simpleicons-14/R/Rollsroyce.png) | [simpleicons-14/R/Rollsroyce](../../simpleicons-14/R/Rollsroyce.md) |
+| ![illustration of simpleicons-14/R/Rollupdotjs](../../simpleicons-14/R/Rollupdotjs.png) | [simpleicons-14/R/Rollupdotjs](../../simpleicons-14/R/Rollupdotjs.md) |
+| ![illustration of simpleicons-14/R/Rome](../../simpleicons-14/R/Rome.png) | [simpleicons-14/R/Rome](../../simpleicons-14/R/Rome.md) |
+| ![illustration of simpleicons-14/R/Roots](../../simpleicons-14/R/Roots.png) | [simpleicons-14/R/Roots](../../simpleicons-14/R/Roots.md) |
+| ![illustration of simpleicons-14/R/Rootsbedrock](../../simpleicons-14/R/Rootsbedrock.png) | [simpleicons-14/R/Rootsbedrock](../../simpleicons-14/R/Rootsbedrock.md) |
+| ![illustration of simpleicons-14/R/Rootssage](../../simpleicons-14/R/Rootssage.png) | [simpleicons-14/R/Rootssage](../../simpleicons-14/R/Rootssage.md) |
+| ![illustration of simpleicons-14/R/Ros](../../simpleicons-14/R/Ros.png) | [simpleicons-14/R/Ros](../../simpleicons-14/R/Ros.md) |
+| ![illustration of simpleicons-14/R/Rossmann](../../simpleicons-14/R/Rossmann.png) | [simpleicons-14/R/Rossmann](../../simpleicons-14/R/Rossmann.md) |
+| ![illustration of simpleicons-14/R/Rotaryinternational](../../simpleicons-14/R/Rotaryinternational.png) | [simpleicons-14/R/Rotaryinternational](../../simpleicons-14/R/Rotaryinternational.md) |
+| ![illustration of simpleicons-14/R/Rottentomatoes](../../simpleicons-14/R/Rottentomatoes.png) | [simpleicons-14/R/Rottentomatoes](../../simpleicons-14/R/Rottentomatoes.md) |
+| ![illustration of simpleicons-14/R/Roundcube](../../simpleicons-14/R/Roundcube.png) | [simpleicons-14/R/Roundcube](../../simpleicons-14/R/Roundcube.md) |
+| ![illustration of simpleicons-14/R/Rsocket](../../simpleicons-14/R/Rsocket.png) | [simpleicons-14/R/Rsocket](../../simpleicons-14/R/Rsocket.md) |
+| ![illustration of simpleicons-14/R/Rss](../../simpleicons-14/R/Rss.png) | [simpleicons-14/R/Rss](../../simpleicons-14/R/Rss.md) |
+| ![illustration of simpleicons-14/R/Rstudio](../../simpleicons-14/R/Rstudio.png) | [simpleicons-14/R/Rstudio](../../simpleicons-14/R/Rstudio.md) |
+| ![illustration of simpleicons-14/R/Rte](../../simpleicons-14/R/Rte.png) | [simpleicons-14/R/Rte](../../simpleicons-14/R/Rte.md) |
+| ![illustration of simpleicons-14/R/Rtl](../../simpleicons-14/R/Rtl.png) | [simpleicons-14/R/Rtl](../../simpleicons-14/R/Rtl.md) |
+| ![illustration of simpleicons-14/R/Rtlzwei](../../simpleicons-14/R/Rtlzwei.png) | [simpleicons-14/R/Rtlzwei](../../simpleicons-14/R/Rtlzwei.md) |
+| ![illustration of simpleicons-14/R/Rubocop](../../simpleicons-14/R/Rubocop.png) | [simpleicons-14/R/Rubocop](../../simpleicons-14/R/Rubocop.md) |
+| ![illustration of simpleicons-14/R/Ruby](../../simpleicons-14/R/Ruby.png) | [simpleicons-14/R/Ruby](../../simpleicons-14/R/Ruby.md) |
+| ![illustration of simpleicons-14/R/Rubygems](../../simpleicons-14/R/Rubygems.png) | [simpleicons-14/R/Rubygems](../../simpleicons-14/R/Rubygems.md) |
+| ![illustration of simpleicons-14/R/Rubyonrails](../../simpleicons-14/R/Rubyonrails.png) | [simpleicons-14/R/Rubyonrails](../../simpleicons-14/R/Rubyonrails.md) |
+| ![illustration of simpleicons-14/R/Rubysinatra](../../simpleicons-14/R/Rubysinatra.png) | [simpleicons-14/R/Rubysinatra](../../simpleicons-14/R/Rubysinatra.md) |
+| ![illustration of simpleicons-14/R/Ruff](../../simpleicons-14/R/Ruff.png) | [simpleicons-14/R/Ruff](../../simpleicons-14/R/Ruff.md) |
+| ![illustration of simpleicons-14/R/Runkeeper](../../simpleicons-14/R/Runkeeper.png) | [simpleicons-14/R/Runkeeper](../../simpleicons-14/R/Runkeeper.md) |
+| ![illustration of simpleicons-14/R/Runkit](../../simpleicons-14/R/Runkit.png) | [simpleicons-14/R/Runkit](../../simpleicons-14/R/Runkit.md) |
+| ![illustration of simpleicons-14/R/Rust](../../simpleicons-14/R/Rust.png) | [simpleicons-14/R/Rust](../../simpleicons-14/R/Rust.md) |
+| ![illustration of simpleicons-14/R/Rxdb](../../simpleicons-14/R/Rxdb.png) | [simpleicons-14/R/Rxdb](../../simpleicons-14/R/Rxdb.md) |
+| ![illustration of simpleicons-14/R/Ryanair](../../simpleicons-14/R/Ryanair.png) | [simpleicons-14/R/Ryanair](../../simpleicons-14/R/Ryanair.md) |
+
+
+

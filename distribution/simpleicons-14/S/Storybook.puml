@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/S/Storybook
+
+sprite $StorybookXs [10x10/16z] 7S650OG0000XFcrl_sajyFZQw26sUb7CxGPJ36Mk-DQRujLFX7RyGcsMGZsS
+
+sprite $StorybookSm [12x12/16z] LKg30O004Bpisd_RtiO9MjE63nW_gMSW30Bl-T0LF4DimRJoulYZ-nZUzffv0nzqPyLM7Vy
+
+sprite $StorybookMd [16x16/16z] LOu55W0X44BPjhd_QMrvxZUdmU9yJgIxVhYuGUvsfEnquWoKdT08iezg0CTkqnoFx0Z0aB8PKDbiybBzlFLBv0dSigSiVG8h_l6hlwFezlsp2m
+
+sprite $StorybookLg [20x20/16z] {
+VOs54GGX00E3E_JVxHFqFNUGdSLm8xG5IY7Qsau03e1yNFnq35qP98Z7fGNCnjYxzdO0mdA-Tm14Yu1Qpgq3aRsSEK_au_GWIRJRoJQIoMavqTjm3yylnxRS
+RbvTnOnvSatXu85M94HgrvtyTo6N-k8U
+}
+
+!procedure Storybook($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/S/Storybook', $name, $tech, $desc)
+!endprocedure

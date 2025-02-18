@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/I/Iobroker
+
+sprite $IobrokerXs [10x10/16z] FSR50S0W0C30rBtPVreSxdLapcIAfqS9CZaZUUnkRVYCJMFfPR_ixeW2YveJ0G
+
+sprite $IobrokerSm [12x12/16z] HSQ50GD14CD0_J6h_sh3i60Fpodo6MsYRwRG6VeaL24uCRtDzbblu_Jlz7CG-yVACV1qDuFkYw0ROFcS0dS
+
+sprite $IobrokerMd [16x16/16z] NSy53eHG0CJGujzx_zEkuD3eoyI6jRuuTnmLamQTDwenpBDQTtPeOD8CMM4rlO9sXudQsJYDHiF3sVdcvc9vxEZRu-bgPjH-TrIWQAAReQuBP8zMGgSURxu
+
+sprite $IobrokerLg [20x20/16z] {
+NSw5eSCm50D0ESot_xGV-ifAJ6VC8wUjorj6mhauseDu67FHXJMjfHrOQfNhrfn9GvSCHMNfSDkPbsLY2klBgXrf7xQnaG_hsR-jO_csaKRtOGVX-33sxBGt
+ksY9sbssSjNBJRKdg2iNsFf-Eg2bdkcLFBCKdFMiNm
+}
+
+!procedure Iobroker($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/I/Iobroker', $name, $tech, $desc)
+!endprocedure

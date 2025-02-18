@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/P/Pointy
+
+sprite $PointyXs [10x10/16z] Os1WuE5ZW01-480mG9WHmW92DdwO61j26PG5rmetX04AU64C
+
+sprite $PointySm [12x12/16z] FOg55G0n34AvkhF_jlT8vLSI181R7GUAPMldbDPgWvvnddrbEjAfZkzrXBDzQWqmwbb58ZCEdWMF-hOV
+
+sprite $PointyMd [16x16/16z] NSV50GGn4C0mBuRZ_giznj5F0EkOXIyVnhVEeTPdLpq0zVcce9io0CRpgovwGjC5q9aoG59RKZSUTfycF8KIIYYXX1AAVxi2
+
+sprite $PointyLg [20x20/16z] {
+ROu70iGW20GNJ4zm_l_QwtrlxAC2kf97xxC-QTpPzOONNsgEB20_N3pMFUug0Mca6jHKhmpI1e9ZWktbrEA0fJYMTl-xw_eROjADuChHWVfNdZkvapkvaxjm
+9vdBNrV8sEtL6G
+}
+
+!procedure Pointy($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/P/Pointy', $name, $tech, $desc)
+!endprocedure

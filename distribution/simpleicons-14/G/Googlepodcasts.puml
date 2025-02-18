@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/G/Googlepodcasts
+
+sprite $GooglepodcastsXs [10x10/16z] Om01FWOOu8VId30sCp-GXh0WD3i_Y8Q9CY7BmdLpe9e7
+
+sprite $GooglepodcastsSm [12x12/16z] POq30i0m4C0oU_d_QsSKQS-2avMFGdwMrx6XHn-_a5Mebzi7L2mE_xHKmErtR_yxMmABF9ZTtG4
+
+sprite $GooglepodcastsMd [16x16/16z] XK-50S0m3AhEK_w_TbPtZmFCBUD-xu9dFgM-j5Tu7s1iiv_t3NZbhr_3XU2_wmGW6CZN4vHjShx-FUpbF3V6--J3ON6QwN760m
+
+sprite $GooglepodcastsLg [20x20/16z] {
+dT350OH040NH3-DQ-KUxtkXjwmGFHcNvgLkGxqQvsS2Vt-qNWj4AqfAb16OElclacnMjZ0-qWtrAUSB1YfC0aCmIQ852t_USxOTNSJtOjmLkzbbZueucU_IW
+Oql-__xcVdzF
+}
+
+!procedure Googlepodcasts($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/G/Googlepodcasts', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/P/Powershell
+
+sprite $PowershellXs [10x10/16z] Oy0A-A40n6A0iD08HYYB0QgCYG58il8pSCEr8W
+
+sprite $PowershellSm [12x12/16z] TOc50G0X54AvJcN_QUsEznF052RiZpl_nEV_qstXTautkmIEQAoWbFPVAHPoMSo2PEH4YGO
+
+sprite $PowershellMd [16x16/16z] XSg50GGX4C30dE6G_gjzTnrabVzQVm1e7rv1qec7-lfVwyTWWfV-zcalFwzDB9vKq0xDRTkYpiowJEeqJOj2zn5_xG4
+
+sprite $PowershellLg [20x20/16z] {
+fOq50iGW3C0oD-J_hyNRSrqcL0FdMFqTW4l7S5TB_uNEAwxMV7TLt4NNCKgj1vLCrpe95md4OpL4D0jC6XsF3jhjlR-jzNdQa9YIj_QBt7I9sVjDT5VqiBbR
+3DyJ0G
+}
+
+!procedure Powershell($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/P/Powershell', $name, $tech, $desc)
+!endprocedure

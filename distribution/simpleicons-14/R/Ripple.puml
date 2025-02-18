@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/R/Ripple
+
+sprite $RippleXs [10x10/16z] Ou007aueWny8a5dyV10MZ603Si40hWJ2PaRenM01
+
+sprite $RippleSm [12x12/16z] Ou025du66E070ZOaDZyAcn4im0iaOI8G1VmG05V9mm34Z40E7pyt8JCXW0t41
+
+sprite $RippleMd [16x16/16z] NO-50S0m20I_tkZlFsrSkIWEc2W-M616Y7o5J24Ru24zobFCRtURJqQHnumhx7ayzLJuzggiqFO1O9WvH7qlPDUaxY_c-n41
+
+sprite $RippleLg [20x20/16z] {
+LSx50SD034JHCTjBl_zgGvF4qhii29KqBcKNRvE26Sk5Dkisi5Et6l9s67gPC9VWQVnk9-QyjiVET6WoWZDlHPsxk-Pfl6toAj3lDfVUbbrl1wQWOujk8_tP
+XKqAC5cehj8J
+}
+
+!procedure Ripple($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/R/Ripple', $name, $tech, $desc)
+!endprocedure

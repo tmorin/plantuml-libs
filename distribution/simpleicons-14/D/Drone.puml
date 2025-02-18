@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/D/Drone
+
+sprite $DroneXs [10x10/16z] Oq06RFpy_606FmI0630ccCiC9Fdu-Jdu-Rd0V5wG02ylM0UOW6k66SW2904
+
+sprite $DroneSm [12x12/16z] NOo35G0m34IZf-hsdxRsZqaVak17nXYq9h0B76IEMqWjNTPeSIPgYI8mYg1hmkFZGhil
+
+sprite $DroneMd [16x16/16z] RSw30GGn40NG7plJVxMn3c-zG_p71Iv34yD0XzkVcmSIlHZsKzCm7r1X5UOHxNyHHgGRJGGcJyH5ZyGLxUzCWkzisJSHuPOucXIsCGd_L
+
+sprite $DroneLg [20x20/16z] {
+bP054WGn20HPYyFy_xKd4wWwbrvDCr7vYmGo7WtfhZfkkLMtSWMUf66Y8zmkDyDiNYsX55KE4EExCDua0cJnHg2gcqod5-ZOoe0ntUbM3XNLnJi3iBGrH2pa
+qybKLrbkIGRTvJrd
+}
+
+!procedure Drone($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/D/Drone', $name, $tech, $desc)
+!endprocedure

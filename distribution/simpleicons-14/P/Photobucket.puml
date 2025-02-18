@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/P/Photobucket
+
+sprite $PhotobucketXs [10x10/16z] ROR50S0W0CHIzsR_QN5-d8Q1JlNaDWb1-P4N2ijKw4Ia83zFeJLbktpSjuHT4G
+
+sprite $PhotobucketSm [12x12/16z] TOh50SCm00FFpDR-qvORpds4tA5EqLG2XdE2OgnS4Ta0gJldXG2eQF6OZV_qBlrEVioX0ZGD0J0rEF04
+
+sprite $PhotobucketMd [16x16/16z] ZOwr0GL02CNUkKBsd_QxTfSgE3eZj_IKn1xTcMMoU-_DHYeKQKHDKW9fTqdHqEfo9FGWk7Z4-ndVetiSvYiUmVxgUlNp6tjKirVeIMwOu_SeSDVdj-2GTC0L
+
+sprite $PhotobucketLg [20x20/16z] {
+fSf5ai104CH03RIvH_z_xO8XV5t8MocA_oZ73lHKZyffyR80cvVCrXPtO6qmRAsT1my0DHW3TA7AfTgALziFRhEud6rq7hBjQCVojh8Svo-3LsvdM-LbErkn
+ykY2OuLT7dOmpHpQpnAUYzOZOjMngrD4xvLRNTUbyZkV
+}
+
+!procedure Photobucket($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/P/Photobucket', $name, $tech, $desc)
+!endprocedure

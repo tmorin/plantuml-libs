@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/S/Scribd
+
+sprite $ScribdXs [10x10/16z] 9Sc50S0m30D1bRdQVzeO_XApqdUhkPnqX4xdpPUu2hEx1otfx-xGvBLdV04
+
+sprite $ScribdSm [12x12/16z] LOo50O0m3C1mX_p_BPDgwZeKPgv1eF9fUZqWUNMQBqDSNzFjgDMBxb_LSJPFzTDOjbRuRkXVToer_m4
+
+sprite $ScribdMd [16x16/16z] TOs50SKm24GVy3Mw_xIrM1NNEpPnsJ4a5pcrRU2NIj4bIbjBIRJ-3MXybpujWy0PFiaZ7sWw3GghmI2AXGRjFQ9rxqHSjhfn3VvVUgpqHiwH6G
+
+sprite $ScribdLg [20x20/16z] {
+PSy54iGW44JHZkBy-vysXcxjY-1qZGgJibyrYnI7EZghAZ7Csrgxw7C2PbfxMS2_dGESYgqbpbhaRAS8cgnKJXF3gsJzrRUe277JAuya7ktQh36tbtodfHoX
+rhQ0zdh6qGdgUVyxb_HQ8jGRlcqt
+}
+
+!procedure Scribd($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/S/Scribd', $name, $tech, $desc)
+!endprocedure

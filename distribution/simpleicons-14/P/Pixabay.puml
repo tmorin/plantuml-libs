@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/P/Pixabay
+
+sprite $PixabayXs [10x10/16z] TSB50S0m0810wbxsdxOIVUM0beD4BW57-6aQLVwur0CyTunOg5u
+
+sprite $PixabaySm [12x12/16z] ZS750O0m0C30u4xsdnRjitP7hLCR0c5qPzBf1IYueO2lHeHkKEMD-9eLJr9k
+
+sprite $PixabayMd [16x16/16z] dSUr0SCm0031Ducbtt_QC3O1NtViqwVtguMdRK3M3PZN2QwcOVEX0sWWAbmVksTqkLokz_h9wwTvkRo5wyrP-wGmFqmmyTKH
+
+sprite $PixabayLg [20x20/16z] {
+jO-r0OHG50INxpxzLtk2GtWouPCL_GkgxWHWkDjPbZhqywnDUc4w8yvFbvV2bMd-w3G9yD8smy8OO5MSc6SECQC6AlDiz6sMG7MU8J4pTu2fcRBFwAa0KvxT
+xbcYlkC9
+}
+
+!procedure Pixabay($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/P/Pixabay', $name, $tech, $desc)
+!endprocedure

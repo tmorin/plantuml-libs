@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/B/Brandfolder
+
+sprite $BrandfolderXs [10x10/16z] Ou03VYG04M42iLZukVXXB0OuYnzPZ0ikni089D3CusK
+
+sprite $BrandfolderSm [12x12/16z] Oq02_2W0MHHCSi7Ph0py23OZWWq4o6guOMnsHY2Nbml4vk7ZOuEOoW8583R2JW
+
+sprite $BrandfolderMd [16x16/16z] TO_50SH04CDq68xwhpPCI_eDsYR2aBUEDrlzug8zwauTWvgNVL3ZyAp_Wz6zJRW_6DQDe1vrFoWWMrqltXfMrhgSvvNMCm
+
+sprite $BrandfolderLg [20x20/16z] {
+TP050i0W24MHjVNlVzlPxTii6cW1PdOoRdcYZ5guo4vuhb764XXbH1PYairs6hZd7Aju4cQI2RUTBllNsRdj1OuktarEA98l6skjuZghrVnCYrhCr3YP7f1E
+zWC
+}
+
+!procedure Brandfolder($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/B/Brandfolder', $name, $tech, $desc)
+!endprocedure

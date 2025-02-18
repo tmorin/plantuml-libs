@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/P/Pluralsight
+
+sprite $PluralsightXs [10x10/16z] HOk30S0m50MlZRt_j37k6u-EAuf1OM1F0-fkbGDVHZ_2Hzb1dTrJHomNEVG96W
+
+sprite $PluralsightSm [12x12/16z] DOm55W0W24E7tTx_jZ9uVeFSGEPjS2u_iV-tZdS5PEiBtHVgr1nNugAGET9aqfWVR9E8vgqpMphx5FeQ7dVbWdOV
+
+sprite $PluralsightMd [16x16/16z] {
+DOu54WH1309xV2t3_rzxGcswB0fWUkWk916UQM84UPLjye1d9vXL2AWzddUYNg0kWHefNKkScxw18TpJ1O9suru5sy_IeKfSDm0RGI4sc61se6GUZqZMy73b
+iLieYj7Mzk4N
+}
+
+sprite $PluralsightLg [20x20/16z] {
+JSW5bWKX30NHIbgHyFQ_sndi_BveYYKrrOkFI-KmyoV2M5JOz38qvoSd03bVzOAh0DZDfh5nJ6AvNaflYaejJ4f7RzcLC2MwQ3QQrKid_K3MRfmwno5NdorQ
+mluFKAvdj13qqudMcwxwwc0AWivqirJ7nDUStyANw5A5pUKCfowc46olekIYSBe_
+}
+
+!procedure Pluralsight($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/P/Pluralsight', $name, $tech, $desc)
+!endprocedure

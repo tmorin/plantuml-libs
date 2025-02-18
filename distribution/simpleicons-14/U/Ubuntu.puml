@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/U/Ubuntu
+
+sprite $UbuntuXs [10x10/16z] Oq06_FpyVFpyG0Q80B4GCimm7ZytdCN00PC58Z0DPe4ncC_4pm5Y0G
+
+sprite $UbuntuSm [12x12/16z] NOg30S1054DVxMR_QS_-Z1XAaji_mfd3StYpS74_ARdeIa5lFJwOCFzFmLm9tWw7Z8iouyddLdjmPtsdToq
+
+sprite $UbuntuMd [16x16/16z] RS_50GCX50N0jwum_LSRz-pSu7kED4X1RdRKUBuBJV9wTxNcQcPBaZPlLT2_tXHulNVRrtiIvAN85nAwHtAJsqJQnyxzRLB7tgJ2wnpjYl8wS7iEEWC
+
+sprite $UbuntuLg [20x20/16z] {
+TSw54SC040CmXpdQVzjUEQZZH-TUEL5dnQy4dYN6TwN1qfG1IvuAv6apDrcJNp5jJWfTUkPiZDOAfjsS5MI3oRaMg0wrz6EsAfvNTsEhAGbztcRFR4MIYNTs
+c3Fd2UlpqYx238TQIlGvHQtw58jdhZm
+}
+
+!procedure Ubuntu($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/U/Ubuntu', $name, $tech, $desc)
+!endprocedure

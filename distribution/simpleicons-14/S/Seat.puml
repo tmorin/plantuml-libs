@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/S/Seat
+
+sprite $SeatXs [10x10/16z] Oq00VXZWXhDu-VcPOT9SO14k1h0A89-N7qWmGzJnWJ0F3qWUhfSHpW8
+
+sprite $SeatSm [12x12/16z] POo50O0m3C22i-h_r-9EwigJl1aVkJtoM9qshBIB-jxjzYEWpmI6o1MbOgU-_lp_Kyw9CWC
+
+sprite $SeatMd [16x16/16z] ROw30G0W44KpBkq_RNQzUFxeGRlGyLPp54xWikrb-vf4jtOpK-1iUY3vPdPFpmylgI9R22iVEWfDYEog09GKXE2C_CtNbyqlktLZd3D6oZS1
+
+sprite $SeatLg [20x20/16z] {
+TKy30aCn3ArYxFwddV6HrGqUMZdwc8j5L4MOvnozjSjvG16p8kP5B9x7RDkHdsGQz5zuwQPFnqEAuNYed18d_lNimKTYu4zDwjn0JjcqoCwu-Al-tPRXxl7V
+XnOnAcBz7Dgm_gJT
+}
+
+!procedure Seat($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/S/Seat', $name, $tech, $desc)
+!endprocedure

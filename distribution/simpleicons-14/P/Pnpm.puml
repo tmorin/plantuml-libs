@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/P/Pnpm
+
+sprite $PnpmXs [10x10/16z] u-Vdv-A70amM5nSN6nSOC001H0mR2xyf
+
+sprite $PnpmSm [12x12/16z] umS2LY1c169Ys0n0mCJAoie0ma004yV5PWG21YWcndm
+
+sprite $PnpmMd [16x16/16z] umS1HZ390o8evJE200EOX331025FFf-F6om80emWWfiJH5BgNW
+
+sprite $PnpmLg [20x20/16z] umS3BZumnGpXqKEC2mpOEC4K4uJ7006yV230n0S6K34KlJGIOmO3A3LGuG8
+
+!procedure Pnpm($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/P/Pnpm', $name, $tech, $desc)
+!endprocedure

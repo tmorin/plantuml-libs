@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-14/bootstrap')
+
+' loads the Item which embeds the element Openaccess
+include('simpleicons-14/O/Openaccess')
+
+' renders the element
+Openaccess('Openaccess', 'Openaccess', 'an optional tech label', 'an optional description')
+@enduml

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/C/Curseforge
+
+sprite $CurseforgeXs [10x10/16z] Oy0BU7Xv-I60WHjC0X48y3Cn01aG9XyFX06Mnme
+
+sprite $CurseforgeSm [12x12/16z] Oo0ECF530JE4uW1Y9WO6NX2R0OWW02Z4nWDbym356Q5ii2eeu0O2DjmM0G
+
+sprite $CurseforgeMd [16x16/16z] hSVL5S0W44JHmPtflziS_3TsaTs77qWUWPCQYJnRjW-D3AMjkULKaqHbtgsf04fibMJ1mKRijAcnUEu2
+
+sprite $CurseforgeLg [20x20/16z] lSc50SCm30313tD-_sbB9YtGd2tcARr6v_MLMZEi9hykWCCCKaxwuVAqxrIQthw7nPF0-tUPYFI-FObcVuXCEe8ZcVc3Dm
+
+!procedure Curseforge($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Curseforge', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/S/Steelseries
+
+sprite $SteelseriesXs [10x10/16z] 1S450S10000Xvhxht_O1U06EG9OAL1NMeEobqbj9efGv57D1LGO
+
+sprite $SteelseriesSm [12x12/16z] FSU5OSC000F13vjl_saBCOZL3btusDjOeyU-xoFiR-BLXtj5VOhUerje1WroUwgdTsXHKRUzUZ8_5wgwW_e5
+
+sprite $SteelseriesMd [16x16/16z] {
+JOy54e104CEA--R_lwLJDCWrUww7QlLdX2TE-RqEcpGKh0ejRSV5fX1TDk28SyzrPNoMdYdfS1gifGMZnZ5p1IurWXQpgiW18CiaiJw7p56QX9BPuR2EF6Sk
+RfhdIh5oEW4
+}
+
+sprite $SteelseriesLg [20x20/16z] {
+PKy54e104DhhFlx_MsV3ngOSw4QVz4K4qfShGBq-DiAF0oPH0EDAJtXQCEpR-e1HxChMQMIyLKuKUoOnBwB4UiXPRDlA07HSxy41OfytnvTZZcfhtwpz8nCf
+vOtB-dHEzNhDYFpYxo4EZAMZtMUmKOOgX7OT
+}
+
+!procedure Steelseries($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/S/Steelseries', $name, $tech, $desc)
+!endprocedure

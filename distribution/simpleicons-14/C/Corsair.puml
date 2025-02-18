@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/C/Corsair
+
+sprite $CorsairXs [10x10/16z] Oq03_3062mUKoG-289gHXu4VnE3W0D9001RZ1mCmYntCuWKIp40fHeHH
+
+sprite $CorsairSm [12x12/16z] PSV50SDG081Gadmtzf-sxkN4up-tnnnN70zuRDFhJ3Qnq85zEj4584ElNT_k4xhihxzgzYLL1u_arHa
+
+sprite $CorsairMd [16x16/16z] TSY30KLH3C3GF5mZ-q_xRPow_5CstjbuM05V7gDlQTCTO062E4XoPko1HILmDjsTJ7K5iBEeGtK3XYxUhL1rzm6Q5isFMvsNx6tSRerS3Oe6NZJU704
+
+sprite $CorsairLg [20x20/16z] {
+VOu50WGX30E3E_d_Rs-pFRTPpG1jyPzOlaZkBuvyZkCuYleg7KiOwEIyPZkd6ulcqiBoPMEI7iERv70wetBDJZLqdQCBvArUPOKSJyTr7qifyMHVdLCODFh3
+JTvukFBal0ghpd7FCK-dB1rWk6LZD8Td6XVUS0aVN
+}
+
+!procedure Corsair($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Corsair', $name, $tech, $desc)
+!endprocedure

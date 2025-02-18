@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/C/Contao
+
+sprite $ContaoXs [10x10/16z] Ou037du8pSyFOd3pWPaW0WG8iNXW-i04Bn2piF0pGWq4
+
+sprite $ContaoSm [12x12/16z] JOo30G0n54DpHl7sdxQsVgXbNVG9kFlyaUa7j5lAJ5jvjijyzlbQJBxEN_b6tGNg2pdNniT5
+
+sprite $ContaoMd [16x16/16z] NKp50G0W4B9RsNzQk_bmHv4VCUvJnEY1owiVGh-qx5J_nOxAWFbB7FIXxwVNhtl_87q_sX-65RWRFxiCCGknSPe3XD9EY42x9WB8Xm8
+
+sprite $ContaoLg [20x20/16z] {
+TT254OHG54FHFC4b_LUx4bp-7SiS7BpbuJYoYB2Hn3agmmDdg64R_SzghLb7lHrrgSjuLB1uiVR5HjbqHLdxObv-SE_Bkuw77HFg-bu6DGrG-JVj8pBlVwiZ
+yT8N
+}
+
+!procedure Contao($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Contao', $name, $tech, $desc)
+!endprocedure

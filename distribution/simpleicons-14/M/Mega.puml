@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/M/Mega
+
+sprite $MegaXs [10x10/16z] DSgr0SC00CH09URgzf_MR3MFdMpcBe3jCqonOcQZGO7tFPEVo4VRPsfwpG4
+
+sprite $MegaSm [12x12/16z] HSZ50SC05CDGjM7K_jl6FwZJiwaMHwwy-fZuw1RJ1eowA1d45GlmYyUoM4P_gzfCvRS17kwaxNaF
+
+sprite $MegaMd [16x16/16z] LOy50WGX30E3E_p_jnVIinrqq1OYhJCSFgnZ5DFpPJ-KJ3lymu6TZpPlx18R4DLNzlSuxWBa0YxGfdp8Jy0yScTEpC7MXxol6r4-_-0PK0QP3oNkBviN
+
+sprite $MegaLg [20x20/16z] {
+PS-54SKm30JH3QDy_LVx8QVm3dcUcMmgMdikTSgY8jEbwKtI_2QfWqxFl6mOvVfLqeXdsbonJKuUqqWYhTZ-Ax5bKFmPssfJGAsqFarHQJVIjcn1w5bDzJ9W
+UXFCZvrRtMEL6mtXHLy
+}
+
+!procedure Mega($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/M/Mega', $name, $tech, $desc)
+!endprocedure

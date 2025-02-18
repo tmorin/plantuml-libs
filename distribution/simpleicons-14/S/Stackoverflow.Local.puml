@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-14/bootstrap')
+
+' loads the Item which embeds the element Stackoverflow
+include('simpleicons-14/S/Stackoverflow')
+
+' renders the element
+Stackoverflow('Stackoverflow', 'Stackoverflow', 'an optional tech label', 'an optional description')
+@enduml

@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/T/Teamviewer
+
+sprite $TeamviewerXs [10x10/16z] JSg30O1G50NGartxJvi-7wzSTT7yVm91YP0DdUCImzFLm42LYp1cpl6x3m
+
+sprite $TeamviewerSm [12x12/16z] NSe54W0n24FHl-wR-z-sKo-yCKY2d7EzopKJ7V5So6959PsiYaUyLnNVhnj-u06xrz5FwUbdz2iA
+
+sprite $TeamviewerMd [16x16/16z] PS-55O0m54FHXplPVrjEWFgjUpygt4t71cmDImII4NKUZYJNlxm1nxy1RYtpF1ywGBe79RWmgWCEmJU64V3SB6abaQNXBbcVXf_BCrCJbpq
+
+sprite $TeamviewerLg [20x20/16z] {
+VT250SCm44DHXVd-_jisQfZyp0pYOU1RhraMbvxDnAhHuJ7B0jD5VfsMoxPf0pAAzHYfWnWD8bVZlf6pndt_fLDkKBa1cMQJiwhTpWXTOReOU4oiM3swBByi
+t4HRzwcF_W4
+}
+
+!procedure Teamviewer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/T/Teamviewer', $name, $tech, $desc)
+!endprocedure

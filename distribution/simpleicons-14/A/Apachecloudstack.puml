@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/A/Apachecloudstack
+
+sprite $ApachecloudstackXs [10x10/16z] RS750S0m00GWwjxRVzky8w0LO3fCWCjlntqaWPyJm1i4s0qL
+
+sprite $ApachecloudstackSm [12x12/16z] RS470S0W000Wvl_sRxi2WeS8S6m5aBw504AlGymOWdi1DA1Qn0O3iB005JvFFm
+
+sprite $ApachecloudstackMd [16x16/16z] ZSZ50SDG500W8jyYh_jFMtVdY7_4YeZgAWr1SJ7gDZeaHpMtKfQiSvHdEQrZIuuAkj0xoL0rHsCf6TtgGNQASmTcM5nDe7CsEbcIBtO
+
+sprite $ApachecloudstackLg [20x20/16z] {
+bSh5OK0X502mFBxXx3zjtRqvn_ySO2oliehkoju8LoUoDuOO8GGR3v9KDciMJa-AeoZxwSoHm5RJTQvxfoUnmTLKBoR8X2Sbzu2eboSD1_IriWUd9nNDW-N9
+zJgwjv87uLNbmP5y8Vp1BG
+}
+
+!procedure Apachecloudstack($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/A/Apachecloudstack', $name, $tech, $desc)
+!endprocedure

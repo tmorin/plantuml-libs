@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/C/Codeship
+
+sprite $CodeshipXs [10x10/16z] 5S450SG0000Xvhxhd_O5u6W5nTP1TMzlBKezwYXsOtz4hHsJLsSs3CW1Z5XUn1S
+
+sprite $CodeshipSm [12x12/16z] DSQ55GC134CnbJb__stxZXImBJuzRUfuEb1Pr4_LvpIpH9tvycxn99PI4KqUS7SZEJo8nMdWDoUN7lm1
+
+sprite $CodeshipMd [16x16/16z] {
+9SaB2i0m389Xj_NTfjx_jkCd7n2LIAZX_GW8-r6rMqxRC-CoZJX178bKilrm_5s7pqEjd244bSFWl0RltFJDoVrG7rTXI_5Ave5FUAxQ51BFQ0AodiZrEZzw
+x3ElB_q7
+}
+
+sprite $CodeshipLg [20x20/16z] {
+LT055e1024LHR9Xw-z-jS32l2NnJBZPektniCFR5e4zt2oVk0EnjeQLOnPMdHJiE6uGjxkNaCcL1o4dFIhD7Npoa9Ck0KzzcmdXkXxYLcpuzGkCEyiHsmEhY
+zOW-fO0mILBVziXswOUaUyOi4_ApHss_vfnLOPARCj-_TDmdo4FpYtg6JW
+}
+
+!procedure Codeship($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Codeship', $name, $tech, $desc)
+!endprocedure

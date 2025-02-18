@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/T/Taxbuzz
+
+sprite $TaxbuzzXs [10x10/16z] JSR50G0X00InmPtjlzfp8Q-mQijcHQ2iK1BTJUD1K6G02O8OmBa9tlKW92vwGmwm0m
+
+sprite $TaxbuzzSm [12x12/16z] PS653GCn00GmFqS1tVxJbhcsFytJR2jqJAkzbjJ1ohAp7vDODrjCNIQeeOa1gQQbCOrUaoh1L8jCoUIk9rugpW
+
+sprite $TaxbuzzMd [16x16/16z] {
+RS77eTim00KmiDYIsDx-s-QKtm5_MclweZoyVMflir03jVRozD5MHh_PhrAUx5AO9SQhGiwuM5imcfrwds9TfSEimLJZ590ifiCrOKIzdK1Rvwmi9GcKPpGv
+Tx9zw4akNoJ5Lmly0m
+}
+
+sprite $TaxbuzzLg [20x20/16z] {
+TS65WG0n24N1HsmtGFZzLtlkCWF_Kqs-YyvYyirnOF3CU1CR2eUj133hmowwzpno10p5xTBKzWjMHgS7BqwjTeSRMPHP3W09m3VY6332AEs83b7DWcUcMnSG
+4mKnU35LspiM24xmGW9yKW9wvTMifM8v9XN0e7l6b619IfxPzjrmzPIqu9Ff6Tz92dwuDVd5UF48
+}
+
+!procedure Taxbuzz($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/T/Taxbuzz', $name, $tech, $desc)
+!endprocedure

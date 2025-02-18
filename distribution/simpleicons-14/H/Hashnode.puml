@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/H/Hashnode
+
+sprite $HashnodeXs [10x10/16z] Om02Hdu62E070ZO80ye4aX0c8v20Ii1POCm0bc55IB126L0ca08
+
+sprite $HashnodeSm [12x12/16z] HKo54S1032ALimhxR_iF5_S0aDqCf77RDoFvpkZ5BLnlbVbQv5VNadUyghhoX9SSjUJe9SS5
+
+sprite $HashnodeMd [16x16/16z] LOm55a0X3CE-kzp_j5yW8u-WszescUsU6kdldxgqqTq1Kx6yel7VAJntDetQBkkfpDlyGy3uu8NJ7AO_bg0OdBu
+
+sprite $HashnodeLg [20x20/16z] {
+JOu73aK12CBqxStzJ_i78UbhfeqA5VhILY5S-ZEzbSA2kgKmisNOP8jDjjYyPFQgVcJ6Zde_pbgPJGguCKSoRNTcGURvgywxcYIpZIT_PWKKKYWa2eb2ecXx
+PVW2
+}
+
+!procedure Hashnode($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/H/Hashnode', $name, $tech, $desc)
+!endprocedure

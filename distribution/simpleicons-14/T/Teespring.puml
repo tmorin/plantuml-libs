@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/T/Teespring
+
+sprite $TeespringXs [10x10/16z] Oo04-7aO-FaXJ1u61YOW2H9auES2KhmW6Q0q6rYQ4vSH
+
+sprite $TeespringSm [12x12/16z] bSP70G0X0C2mtfvG_sgP1Y2lC2-yudTIYGI4lz-IawW2wakng0pA
+
+sprite $TeespringMd [16x16/16z] jKh50S1020ldmf7zfwthlqLZ-A4YAIZaoRaE8VRcwq3x-it3gkYccrIEDKNdkRXUkr8GMBKBzd8w6Zwf6G
+
+sprite $TeespringLg [20x20/16z] nSZ50GDH58LGnks_I__LnhM1vEo0V-gq0IelhhqJLLrsdeIs8_H-FbUoF5uBu2qMsHiWISSU5w3YmEWEfLfSUJNpKDOHDxujsyWFdG4
+
+!procedure Teespring($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/T/Teespring', $name, $tech, $desc)
+!endprocedure

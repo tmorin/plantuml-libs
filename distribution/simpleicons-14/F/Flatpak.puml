@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/F/Flatpak
+
+sprite $FlatpakXs [10x10/16z] Om01FWO8uETdv0UnkVdv-K4a8mC_481bW12C-44i48s31QBWkZWWD
+
+sprite $FlatpakSm [12x12/16z] VSQt0S0m3C0mflVm_sjJR6ar9b3S9BsyoauLRXVGSl12xl9H4H0qZZP_EyHdwBMSObDxu0K
+
+sprite $FlatpakMd [16x16/16z] ZSp50S0m3C10bRdQVzfIy5dzBh5DQ3ofQdtBF5-CkdvQq-Uc0noMuTC6ZpbxStaCn-THescaqMBGlpvhpupQ5N-tFQDtlaRTNpQaDiCMt
+
+sprite $FlatpakLg [20x20/16z] {
+hSZ50SCm40NHRn33z5zjZ6iwPuJxPEK-wvq3w8Fk9e1XKvEXiILv86ghS6J_GNAOxLNOhl0qmQZAe8XPmKngkoLuc8Qk6Pws1N-nJFpOe06OdjPjk2rhRmJI
+OLMo8aTwLO2WemK
+}
+
+!procedure Flatpak($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/F/Flatpak', $name, $tech, $desc)
+!endprocedure

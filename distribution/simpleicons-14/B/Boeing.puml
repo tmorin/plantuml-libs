@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/B/Boeing
+
+sprite $BoeingXs [10x10/16z] Oy0A-7cuO4nc1duG1USpy33mCR11bO4m1uZ5pSd8Zsu8Eum1
+
+sprite $BoeingSm [12x12/16z] TS470GGX000Wt5lxj_q2V-1R228mq05e1ZXSWEqH02dX1V1GprwrP5iA0A_vvmS
+
+sprite $BoeingMd [16x16/16z] ZOe53iGm30GdpCd_NtkqaeNNTWBs0Wy967MlqasvxxgcwVcLS109c0xmqXjo1QXMLxKW95SrkJJEQVwtp0Xf1E-i7Zn2MedfmnLl
+
+sprite $BoeingLg [20x20/16z] {
+bSY53KCn34NH6-Qy_RUjB9Nv7xCvBl2YSgTeJVN6dUs1s1St4o0i45S92B8MEUi0mWpE12XW5cSJ-WQohMSX8Cns2SwaWcbIvImAp93PesRF6chEDN57GF3m
+_CiyalRpYr3unma
+}
+
+!procedure Boeing($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/B/Boeing', $name, $tech, $desc)
+!endprocedure

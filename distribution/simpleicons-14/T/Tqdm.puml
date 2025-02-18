@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/T/Tqdm
+
+sprite $TqdmXs [10x10/16z] 7Skr0GH140F1EeO5vH_jmmYjXYS7I3PNBZ8iZQmYN95hns78D8tWFO-5tP2oktwYM2dsy0K
+
+sprite $TqdmSm [12x12/16z] LSo5ZGCm04FHTr2Cah__j6KKcGr6Uq3D_Ife2sOtEgf_QyZOO_teCELdaTREL0SzV7V_sUz7sXcv_NpzKsnQd04
+
+sprite $TqdmMd [16x16/16z] {
+NKu50eH049fTE_d_Ru-unYIrZF72KM-S2EPGOF7pmXdAMsjggNH0BqBLX5POIUMkKBRpRihaoG3ZpSRE6yyRrIznX3_z--d_zMTalvDkddb-VzAhR6jFJ1on
+iBx_tpYHtCJx0m
+}
+
+sprite $TqdmLg [20x20/16z] {
+PP055iH024Efsmp__hVTl6oz6SKXiMD9oX0t3EoepQ42ijCx0LCOIJsiBSpsigfPDhj06z5RbI2iLlhuSZxKW5AIyYAC3hL3JlHwt91ETM3HlUdqu2JIaxgp
+wdVgLeflfRAkiT_8u9-Yptm1dxht_kQZlsEEHjAgZBjFnW7F--9bXF6mdVDoSjr3Rrinppy
+}
+
+!procedure Tqdm($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/T/Tqdm', $name, $tech, $desc)
+!endprocedure

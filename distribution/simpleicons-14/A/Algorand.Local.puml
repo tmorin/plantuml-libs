@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-14/bootstrap')
+
+' loads the Item which embeds the element Algorand
+include('simpleicons-14/A/Algorand')
+
+' renders the element
+Algorand('Algorand', 'Algorand', 'an optional tech label', 'an optional description')
+@enduml

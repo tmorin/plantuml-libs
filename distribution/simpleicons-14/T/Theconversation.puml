@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/T/Theconversation
+
+sprite $TheconversationXs [10x10/16z] JS650O0m0C2muax_lnQP9pHcVu2whgkkID1xIUGXaJZmksGp0htLWyOB
+
+sprite $TheconversationSm [12x12/16z] RSR50O0m0C30u4xsdnRNjlSw_XftsLvlUpcKMiYbKxavV8xZNParpx8irnAy531tfAm
+
+sprite $TheconversationMd [16x16/16z] VSYt0SD008LGbBFOVrkVqltEhmCYkh4OlZhzp5Ugvt5HZolbrUk4LsPi7eJ5H9nkxeIYoUxgZ5ONiDWlwWaOArVlzDCyprF3vUIl7m
+
+sprite $TheconversationLg [20x20/16z] {
+ZSh5OSLG0C0mX-61zvys3ErddSLxnOPRwoMno_xLi70rzAkWsaFGpALM2rJ-A3MsMlDNrAJyKxdYdrA3ya-lfOxyfQ9Mt98ErFwPHLA1mVzOrFwLMQbDTXVO
+53Oywld93
+}
+
+!procedure Theconversation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/T/Theconversation', $name, $tech, $desc)
+!endprocedure

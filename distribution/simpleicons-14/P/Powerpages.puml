@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/P/Powerpages
+
+sprite $PowerpagesXs [10x10/16z] Om01VY26CFWXJ1v-46022a010pUCmG0Hv0PBC_Bpiu1uS8MiO6aWGZOF
+
+sprite $PowerpagesSm [12x12/16z] DSst0S103CD0EcTX_stzIbU15HLGcw770yEgWV9fecrQAAS6cWQ3lSQe8zAa5wBNkZ931Kp33m
+
+sprite $PowerpagesMd [16x16/16z] JSo73G0X34DHN-_y_RSzWeB5Kqkr4XeTm2Jx26Ts4-dhj-PRzmMin3bsigcwivrxOXIKoudNKOWk-rf-izjCt0YlchU5mwgqHlIk0HGrFm
+
+sprite $PowerpagesLg [20x20/16z] {
+LSu53eKX30JX_LsGkVzfdn0sb2-ET2hRaTaBh9hGl1fskYhBOFvVYGx_2rxfPlP8Iams_HqCvNGPIscKCyqPHcgv07PCBNtK9s6fpxlYqYvdBxeebDMkrBZC
+dJaLN0v62oHrNm
+}
+
+!procedure Powerpages($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/P/Powerpages', $name, $tech, $desc)
+!endprocedure
