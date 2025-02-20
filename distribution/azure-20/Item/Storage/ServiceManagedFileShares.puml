@@ -1,0 +1,21 @@
+' definition of the Item azure-20/Item/Storage/ServiceManagedFileShares
+
+sprite $ServiceManagedFileSharesXs [10x10/16z] Oy04p3065uXW1G88anK2W2ms261YvOIo65WPE200Ytci
+
+sprite $ServiceManagedFileSharesSm [12x12/16z] RSP50S1040ImMGR_VilSooiOChuls33OedgjBLGapg_M-u7CwZnC4GSiwe0BoNsn6G
+
+sprite $ServiceManagedFileSharesMd [16x16/16z] RSU53SHG30Mmzo6u_xu7fO1geL7CsaNrZCeGvY9HT_pH0O1U3w_d0A9SNaGB4a04QC2V1HGR5L7_5m
+
+sprite $ServiceManagedFileSharesLg [20x20/16z] VSor0SKm40JH4Sm9-k_tWnApNtQmordcIhcmS1OtFJCVxgdKQ7tCnkAogiffjuJNdI-xs9Dg8SL1LaTSTz0Eg6ReUurbx7NE1bVLmfdAMR5-0G
+
+!procedure ServiceManagedFileShares($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/Storage/ServiceManagedFileShares', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceManagedFileSharesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceManagedFileSharesLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure ServiceManagedFileSharesGroup($id, $name='Service Managed File Shares', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceManagedFileSharesLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-20/bootstrap')
+
+' loads the Item which embeds the element ServiceWacInstallerCard
+include('azure-20/Item/Other/ServiceWacInstaller')
+
+' renders the element
+ServiceWacInstallerCard('ServiceWacInstallerCard', 'Service Wac Installer Card', 'an optional description')
+@enduml

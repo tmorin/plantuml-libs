@@ -1,0 +1,21 @@
+' definition of the Item azure-20/Item/Identity/ServiceEntraVerifiedId
+
+sprite $ServiceEntraVerifiedIdXs [10x10/16z] Ou03Rgo0XOMR7GY0B2OMc11GZ9MLWGMP3m4CG64eO6E3iJWu
+
+sprite $ServiceEntraVerifiedIdSm [12x12/16z] TSg30K0n30JGuYxSVzvlunLXkSXVXWnCEEL47b0btJqvhm19-XmslVSZ9y6oW_GZfvvzBJe2
+
+sprite $ServiceEntraVerifiedIdMd [16x16/16z] bSdL0S0W30HGv1Bazj-tkFtrGTmyCdyJv18DAo2GgShhVW0SSW2WOcqkSw59H3mACXUi7631pJkBQvR27A1gJlBC6i8r-n8V
+
+sprite $ServiceEntraVerifiedIdLg [20x20/16z] fSo54GHH309G9WEHe_z-pzrtttS9U27dcTVPa6tpPBVTAPBsrD7bN_g10lIz8eCwvatiNC9TaXhS2Vickha3FiHWr-xlXWGbtu5s0lUOcVZXJbM51zNPU6KB
+
+!procedure ServiceEntraVerifiedId($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/Identity/ServiceEntraVerifiedId', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceEntraVerifiedIdCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceEntraVerifiedIdLg>', 'Identity', $funcName, $content)
+!endprocedure
+
+!procedure ServiceEntraVerifiedIdGroup($id, $name='Service Entra Verified Id', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceEntraVerifiedIdLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-20/bootstrap')
+
+' loads the Item which embeds the element ServiceMachineLearningStudioWebServicePlansCard
+include('azure-20/Item/Iot/ServiceMachineLearningStudioWebServicePlans')
+
+' renders the element
+ServiceMachineLearningStudioWebServicePlansCard('ServiceMachineLearningStudioWebServicePlansCard', 'Service Machine Learning Studio Web Service Plans Card', 'an optional description')
+@enduml

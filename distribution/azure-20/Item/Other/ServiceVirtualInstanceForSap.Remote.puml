@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-20/bootstrap')
+
+' loads the Item which embeds the element ServiceVirtualInstanceForSap
+include('azure-20/Item/Other/ServiceVirtualInstanceForSap')
+
+' renders the element
+ServiceVirtualInstanceForSap('ServiceVirtualInstanceForSap', 'Service Virtual Instance For Sap', 'an optional tech label', 'an optional description')
+@enduml

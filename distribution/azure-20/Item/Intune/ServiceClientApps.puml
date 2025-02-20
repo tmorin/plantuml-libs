@@ -1,0 +1,21 @@
+' definition of the Item azure-20/Item/Intune/ServiceClientApps
+
+sprite $ServiceClientAppsXs [10x10/16z] Oq00DXXWO8S1h2mE6C3AueG110i
+
+sprite $ServiceClientAppsSm [12x12/16z] JOW93W0X309txTt_FzYelKWcm7mpp7nOqRL5vB1EpuI7qwfwWEZQ073uJvlP0Q9hk_i1tNK3
+
+sprite $ServiceClientAppsMd [16x16/16z] ROp55S1G40BvijP_mu6upM4UgtXZxZwST0dmHzqHP3ZLbRxr8EtI__sfZYGZ9ALt_VsNPEOrBpAJ6ahlUcnrNNNJbtxymm8
+
+sprite $ServiceClientAppsLg [20x20/16z] ZSl50O1G30FG16V_XI71-TPtg1TPWxnYluyceIEEc9_DGaSuncUWl6FyTro4Zd0CptBolwlG4OxvsHIxoza
+
+!procedure ServiceClientApps($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/Intune/ServiceClientApps', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceClientAppsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceClientAppsLg>', 'Intune', $funcName, $content)
+!endprocedure
+
+!procedure ServiceClientAppsGroup($id, $name='Service Client Apps', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceClientAppsLg>', $name, $tech)
+!endprocedure

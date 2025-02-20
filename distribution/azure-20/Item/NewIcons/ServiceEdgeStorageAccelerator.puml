@@ -1,0 +1,24 @@
+' definition of the Item azure-20/Item/NewIcons/ServiceEdgeStorageAccelerator
+
+sprite $ServiceEdgeStorageAcceleratorXs [10x10/16z] BSg50G0X243HJrsu_y1Ipo19eWm7wuPFjLG5hKOZdVFdmrnLixCzF5yAZzYzTW4
+
+sprite $ServiceEdgeStorageAcceleratorSm [12x12/16z] LOs50G0W20JV17x_VUqyfGiTxx5m0GZ3MpOkzH5Y9_W-a8SlSCqdYTmaZ54VewRk33-GmpEQLzeuHbLHvVGd5G
+
+sprite $ServiceEdgeStorageAcceleratorMd [16x16/16z] LOo53O1G34JhSliFJ1FWoukUqei87PYoc6vvLTZaj7Nt3fTLpUQ6X6bm-tarEds8njl7O1G0tZ-B43EjphcoJOBU-y5C6fzE02u5rAldtkRVib-DnQlzb_K
+
+sprite $ServiceEdgeStorageAcceleratorLg [20x20/16z] {
+NSw7RS1030D05NxTV-3mOPKavqvGWYMecVnbS7VuxyZHZw3vxbu9QXKoKlaFlSBSx1NKezqyVckYpUYjU_TUjC-zWiZei7z934A-MLD0DmVu2TW79C0ICl-0
+xCrAxJliwEtCzmlD-3WhUmF083vspx9npdqwQnB6Zk0i_G4
+}
+
+!procedure ServiceEdgeStorageAccelerator($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/NewIcons/ServiceEdgeStorageAccelerator', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceEdgeStorageAcceleratorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceEdgeStorageAcceleratorLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceEdgeStorageAcceleratorGroup($id, $name='Service Edge Storage Accelerator', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceEdgeStorageAcceleratorLg>', $name, $tech)
+!endprocedure

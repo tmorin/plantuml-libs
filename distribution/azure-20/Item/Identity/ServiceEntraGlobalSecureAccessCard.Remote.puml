@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-20/bootstrap')
+
+' loads the Item which embeds the element ServiceEntraGlobalSecureAccessCard
+include('azure-20/Item/Identity/ServiceEntraGlobalSecureAccess')
+
+' renders the element
+ServiceEntraGlobalSecureAccessCard('ServiceEntraGlobalSecureAccessCard', 'Service Entra Global Secure Access Card', 'an optional description')
+@enduml

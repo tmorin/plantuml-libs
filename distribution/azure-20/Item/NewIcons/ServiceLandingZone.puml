@@ -1,0 +1,24 @@
+' definition of the Item azure-20/Item/NewIcons/ServiceLandingZone
+
+sprite $ServiceLandingZoneXs [10x10/16z] JSQ50G0n2C30uEm_yKirBN3SQMRgh_fQz-sew6v3tlqAmru2vZZ2cx_o3nB1-ta
+
+sprite $ServiceLandingZoneSm [12x12/16z] NOk55KDH34A9P_-9Uw3VxvC8W0_LtGLXGumj6wBs7lQ6FG9UTn-gQCz4ki80-yI_LM_ggqeFFm
+
+sprite $ServiceLandingZoneMd [16x16/16z] PSW70e0m24FHrAJZ_YSMYDlN-K7u6-cJzq3JT9UzCpHWlW0hYUJ8pwpk81Y_WBeOtHY_WHZCQY8Q8VuIf1QtgJhA-EaUyf9pSuU87G
+
+sprite $ServiceLandingZoneLg [20x20/16z] {
+VSg54S0m4CH0FJlz5nncsg0rnu_8pE1CSw4SSdDAjOb76J6hAmMYRXpg0ThCcDJyxsl351EP_uESFZetMmOAoyniQlEGKUjyRJR-DrRcRhWx8cnyRSPEj-Ri
+V8AVXn8Z9oQNcIqV0GO
+}
+
+!procedure ServiceLandingZone($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/NewIcons/ServiceLandingZone', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceLandingZoneCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceLandingZoneLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceLandingZoneGroup($id, $name='Service Landing Zone', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceLandingZoneLg>', $name, $tech)
+!endprocedure

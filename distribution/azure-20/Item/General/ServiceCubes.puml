@@ -1,0 +1,24 @@
+' definition of the Item azure-20/Item/General/ServiceCubes
+
+sprite $ServiceCubesXs [10x10/16z] NOc74G0m20ADVxB_nkdT2hmz1GmHW8OAwLEGL4yJuErqvkrSoaBMJm4
+
+sprite $ServiceCubesSm [12x12/16z] NOp70S0m30A9Jh3_nkdDvaNN3E1c2mTkxYPvkFDmVHmWWheeTStTE7NDRMVdpiEVAuoaJca3
+
+sprite $ServiceCubesMd [16x16/16z] VS-55S0W40FGisJ_aSkbRhH0tiUnxoypRkhFTth9F0nKWbSFJPoodxiRcD7PqhTb69GCPT4093cCAbA6h7YxEpgy0peUwybwm08
+
+sprite $ServiceCubesLg [20x20/16z] {
+dSx75GH1309H2Hho3tcddTQxuLJlduXF8_D1GF91kNUbr1JxrdIe_6XTpXYo3KFYvXjILkoFoRbCrCUsojYba7et6xFaRj8XtVhiPIhpM-DAHbkM4RsjwEl6
+7brZ3QCk
+}
+
+!procedure ServiceCubes($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/General/ServiceCubes', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceCubesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceCubesLg>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceCubesGroup($id, $name='Service Cubes', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceCubesLg>', $name, $tech)
+!endprocedure

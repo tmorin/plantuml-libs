@@ -1,0 +1,24 @@
+' definition of the Item azure-20/Item/HybridMulticloud/ServiceAzureProgrammableConnectivity
+
+sprite $ServiceAzureProgrammableConnectivityXs [10x10/16z] HSP50G1140Insk7sB_WOyWhuS9FSwupZBPqRK72PGBgdh0k7Vn6-8iubURXssG4
+
+sprite $ServiceAzureProgrammableConnectivitySm [12x12/16z] JSVN0OL0509HRe2L_Wj-GTqmNsS03E7jChlYCTN3lZa0NvMtXR3xCUY6_JZjqDFzf_lfDladNpDOZoMIqXS
+
+sprite $ServiceAzureProgrammableConnectivityMd [16x16/16z] JSg54G0m20D07BB_mdL9zRaG4MSnlI2gGYyT44jWavKrjVfmEVi1ZAMk6QETfv-MYTid0voqYau0cCL97qYb_-vHE_cidzt5sSHzsLozx-UkCRkEamO
+
+sprite $ServiceAzureProgrammableConnectivityLg [20x20/16z] {
+RSw53GGn34HHSppzDtop6AzqF_n44UQhGpu5lD7B1na0PrNR4aXpC7l8awjNqDPZIxdnxM9uh2z3S7yiIpN1ec9_fH4XIjtcV9MecickYIar8je2ldRtp-BC
+ptqOHNrQPYfdQ6HkuumaJqlZ84qxbMshqGy
+}
+
+!procedure ServiceAzureProgrammableConnectivity($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/HybridMulticloud/ServiceAzureProgrammableConnectivity', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureProgrammableConnectivityCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureProgrammableConnectivityLg>', 'HybridMulticloud', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureProgrammableConnectivityGroup($id, $name='Service Azure Programmable Connectivity', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureProgrammableConnectivityLg>', $name, $tech)
+!endprocedure

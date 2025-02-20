@@ -1,0 +1,24 @@
+' definition of the Item azure-20/Item/Other/ServiceEdgeManagement
+
+sprite $ServiceEdgeManagementXs [10x10/16z] LKk50G112CAM_GV-_WjR0bjavdjKNVKVkA_kHiSrxglbQWD8rjMumZtTNuTSZliabQ3Z1
+
+sprite $ServiceEdgeManagementSm [12x12/16z] NSZ70SD030F1PO1Wzr-mBhuqpEHBZxXisIonf-ytsZmk-4t46g1rnFx0V_9g096fJ3P1mpxQUESYMaWm
+
+sprite $ServiceEdgeManagementMd [16x16/16z] ROg50GH120FnyFqt_E7SPet9HhvHrwlMS2e01VOWQDF1rWN0XZdFU7UptLeS66YJwME6zPymtlqtOBbTo38kQSX1o4ckhhOga3pEitetU897tlm1
+
+sprite $ServiceEdgeManagementLg [20x20/16z] {
+bO_L0SGm3CLYzks_y4Lb-AgAaGFFunkIS5EQ-P9L5RpgC861qr7F-VR1TrVK6TlyCrmt3EiH3OShaQ7IO9l3OdRdlvNQlWFovcnlhBghs236ZayYUOy3gi9O
+TLTa5lfpcbaXg7OdeNT709q7as1pB_u
+}
+
+!procedure ServiceEdgeManagement($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/Other/ServiceEdgeManagement', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceEdgeManagementCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceEdgeManagementLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceEdgeManagementGroup($id, $name='Service Edge Management', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceEdgeManagementLg>', $name, $tech)
+!endprocedure

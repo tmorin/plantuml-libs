@@ -1,0 +1,21 @@
+' definition of the Item azure-20/Item/Other/ServiceDefenderMarquee
+
+sprite $ServiceDefenderMarqueeXs [10x10/16z] Oy0BkBcv8038OE3auk9Wu6BaPe2AiKDOR21PX3fE8E004GXJ
+
+sprite $ServiceDefenderMarqueeSm [12x12/16z] ZSkr0SD000Gmsy-w_VTD4sRrsluGi1OaBXAzGDkiB4U7WrJxmSvAkb5s-qxkx_R12G
+
+sprite $ServiceDefenderMarqueeMd [16x16/16z] fOq30WGn4C1g9Fz_xzc-tRHZXPN8WJad1rIkk6EqTl1RwuSuKec7J22fcKGzn8ceD083sg53WTJ79Cq9LG-PtfaxGH_lrN9F-C8M
+
+sprite $ServiceDefenderMarqueeLg [20x20/16z] lSw50GCm2031k3pxxzi0TVUBAuG_4BRcWX752Rcnn_fXDfQnPX3NNfsKLLnWvhKNXBIAI_IkUwq58Z1JhT34xqMxrnjBbgKAXPWIDQLiUq_dDtV6RaBum0O
+
+!procedure ServiceDefenderMarquee($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/Other/ServiceDefenderMarquee', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceDefenderMarqueeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDefenderMarqueeLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDefenderMarqueeGroup($id, $name='Service Defender Marquee', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDefenderMarqueeLg>', $name, $tech)
+!endprocedure

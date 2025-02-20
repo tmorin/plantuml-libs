@@ -1,0 +1,27 @@
+' definition of the Item azure-20/Item/Other/ServiceAzureNetworkFunctionManager
+
+sprite $ServiceAzureNetworkFunctionManagerXs [10x10/16z] LOk30S0030IlUko_SAqu3tunYZUcSzdUJ-5v6umeOKyT5sCYPhh7hbyExpubziaA
+
+sprite $ServiceAzureNetworkFunctionManagerSm [12x12/16z] NSZ50S102031nQ7_XdFsok3m5ycZJX9i1iZECwMg8FOx2jX5qatlfgIlmTu5PMPo5O0YXm4PR9cxaOfb21y
+
+sprite $ServiceAzureNetworkFunctionManagerMd [16x16/16z] {
+RSU5OGKW30N02n1X_u7htd_Hvx7CxLkSgam06IpE1We2iM4Zk_jm88dkbqOYzDlVXsIf6KRCE8HvONdPUoFwtZjUzqga-s4a8eXN8Y0pWSY4gWomga28glm8
+pm
+}
+
+sprite $ServiceAzureNetworkFunctionManagerLg [20x20/16z] {
+VP055iH024E3fUpzBxm3TKqxzX-EBqNu5Id9gn58DzgEDWlZ6KblFA2fL9RjhbgyMQmMR2ido3RKPfgP2W6p3AFPG05FmPG9S6Mf4eXnJWVMsVgoi5z9UtSr
+02u55oK29HL0PetJhbEoY6Psc199Noxha0B78Mei9gK_
+}
+
+!procedure ServiceAzureNetworkFunctionManager($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/Other/ServiceAzureNetworkFunctionManager', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureNetworkFunctionManagerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureNetworkFunctionManagerLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureNetworkFunctionManagerGroup($id, $name='Service Azure Network Function Manager', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureNetworkFunctionManagerLg>', $name, $tech)
+!endprocedure

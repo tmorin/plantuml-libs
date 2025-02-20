@@ -1,0 +1,27 @@
+' definition of the Item azure-20/Item/Other/ServiceArcPostgreSql
+
+sprite $ServiceArcPostgreSqlXs [10x10/16z] BOU50GCn30FFNqCJxJzlM2mMpE2qBtnxoSq-dTLxnLqKxItmkvIqEbT27evxIlzq9nz-4m
+
+sprite $ServiceArcPostgreSqlSm [12x12/16z] DSk50S0m30F1bwcq_xmDNz348B4efXa-yapNE_xljyp_Yv7t-jyuLUi_xlpsNmz-Lq6CMUxmS2A_mPL1nPQ5wg01
+
+sprite $ServiceArcPostgreSqlMd [16x16/16z] {
+HSZN0GHH249HK71UwB_VdUYUBowuaKHZw1RTFiOu7E-n7Jn5xRS_tPdASlU10iZk2GlExWq5qlyEJM3jbJZ5le3Rf07fwPYKhBF7latG4agIwpZAzZbG9-ja
+doi0LalW1m
+}
+
+sprite $ServiceArcPostgreSqlLg [20x20/16z] {
+NSx9bKLH249HLEGsvfzl_TUxwipO8t1dlz0o3nw5ssTyUj7TEEQSGsvwh8fsvBFgiwTkMtiCPRS5162qPWC-0hwwRJWIoMnMfnbtju04pEfMGmDODHmwACRp
+hARHCW3oCIjIAGP8hhfB69E4-4idpzIn4bAoTJ2WVmME8lL40_07
+}
+
+!procedure ServiceArcPostgreSql($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/Other/ServiceArcPostgreSql', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceArcPostgreSqlCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceArcPostgreSqlLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceArcPostgreSqlGroup($id, $name='Service Arc Postgre Sql', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceArcPostgreSqlLg>', $name, $tech)
+!endprocedure

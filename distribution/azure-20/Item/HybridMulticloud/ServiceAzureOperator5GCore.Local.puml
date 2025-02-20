@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-20/bootstrap')
+
+' loads the Item which embeds the element ServiceAzureOperator5GCore
+include('azure-20/Item/HybridMulticloud/ServiceAzureOperator5GCore')
+
+' renders the element
+ServiceAzureOperator5GCore('ServiceAzureOperator5GCore', 'Service Azure Operator5 G Core', 'an optional tech label', 'an optional description')
+@enduml

@@ -1,0 +1,27 @@
+' definition of the Item azure-20/Item/General/ServiceRegionManagement
+
+sprite $ServiceRegionManagementXs [10x10/16z] JOZN0K1128CmLzNzvtsz73y9i28fqNKY8XkOBjvqFSuJCY2lr81g6TU1rfgu66DKO0S
+
+sprite $ServiceRegionManagementSm [12x12/16z] LKtL0K011EGq-y_xEdsvflynW2Oxtspj8Tb-01NbQljlo01Szx-wEu7zd-r56--Ut400PzPcjlViD2PIlTVytOs80wq
+
+sprite $ServiceRegionManagementMd [16x16/16z] {
+ROi50WCm308feKR-_zyjdSjLW-0V9CS4z1mNcGd5VGnxsub-3rEUYrlHRdPmbxgRpcmlEqYUWkYY19Jlh8dTR45SEVCzNZ3Jhb6iKO6LsHia7ABpt847LA_i
+2yt0YpOB72u
+}
+
+sprite $ServiceRegionManagementLg [20x20/16z] {
+TS-54KKn24JHPOb2__K-8_BrZcLE7FyJiYW0Bk6Jko1pavdIBfIyYDtkt95r6PlLcjLJB1HIIHhl38zTr2mLwxVfD5fqOrZLi6As31v4jSRvc1v8gdA-1Uxh
+jFbcWRbxlsdzBIV8fIPWLenI32LbOYNvAMINApwgJ-dD949q0W
+}
+
+!procedure ServiceRegionManagement($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/General/ServiceRegionManagement', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceRegionManagementCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceRegionManagementLg>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceRegionManagementGroup($id, $name='Service Region Management', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceRegionManagementLg>', $name, $tech)
+!endprocedure

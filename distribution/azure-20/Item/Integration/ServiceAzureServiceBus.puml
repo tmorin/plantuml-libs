@@ -1,0 +1,21 @@
+' definition of the Item azure-20/Item/Integration/ServiceAzureServiceBus
+
+sprite $ServiceAzureServiceBusXs [10x10/16z] Oq00DXXWO8C8G6Wc5YYF1GGWugmi79nGFToS81Oh0myGS09fk5w4UG
+
+sprite $ServiceAzureServiceBusSm [12x12/16z] JSk30G0m30J0hxd_kcLqPGGhA-J0pXz7EEV_46F45ywNWvXZp8t_UJJ-jpbdq-d_omhARG
+
+sprite $ServiceAzureServiceBusMd [16x16/16z] XSw35G1130JGMSNzjtis_sCS_A4pKCQkRN5PuqckjM9NwcWRh3FUOg8XL3t497gCsTqFiSN8fk3sJyqxejl_5pq
+
+sprite $ServiceAzureServiceBusLg [20x20/16z] ZT350S0m30J1m4d1_jirC-zppDvMuxgEvUjsfcXdDDS1OCixeJiIEU2B1hP2JsfCYkudDzNpbFP-fTs_wlD6fEntQIECtnPjyQ-mDP8
+
+!procedure ServiceAzureServiceBus($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/Integration/ServiceAzureServiceBus', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureServiceBusCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureServiceBusLg>', 'Integration', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureServiceBusGroup($id, $name='Service Azure Service Bus', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureServiceBusLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-20/bootstrap')
+
+' loads the Item which embeds the element ServiceBatchAiGroup
+include('azure-20/Item/AiMachineLearning/ServiceBatchAi')
+
+' renders the element
+ServiceBatchAiGroup('ServiceBatchAiGroup', 'Service Batch Ai Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

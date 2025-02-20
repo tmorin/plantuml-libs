@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-20/bootstrap')
+
+' loads the Item which embeds the element ServiceCeresCard
+include('azure-20/Item/Other/ServiceCeres')
+
+' renders the element
+ServiceCeresCard('ServiceCeresCard', 'Service Ceres Card', 'an optional description')
+@enduml

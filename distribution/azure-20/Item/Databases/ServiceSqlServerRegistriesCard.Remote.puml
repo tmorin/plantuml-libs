@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-20/bootstrap')
+
+' loads the Item which embeds the element ServiceSqlServerRegistriesCard
+include('azure-20/Item/Databases/ServiceSqlServerRegistries')
+
+' renders the element
+ServiceSqlServerRegistriesCard('ServiceSqlServerRegistriesCard', 'Service Sql Server Registries Card', 'an optional description')
+@enduml

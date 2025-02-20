@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-20/bootstrap')
+
+' loads the Item which embeds the element ServiceWindows10CoreServicesCard
+include('azure-20/Item/Iot/ServiceWindows10CoreServices')
+
+' renders the element
+ServiceWindows10CoreServicesCard('ServiceWindows10CoreServicesCard', 'Service Windows10 Core Services Card', 'an optional description')
+@enduml

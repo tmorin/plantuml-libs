@@ -1,0 +1,21 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-20/bootstrap')
+
+' loads the Item which embeds the element ServiceManagedDevOpsPoolsGroup
+include('azure-20/Item/Devops/ServiceManagedDevOpsPools')
+
+' renders the element
+ServiceManagedDevOpsPoolsGroup('ServiceManagedDevOpsPoolsGroup', 'Service Managed Dev Ops Pools Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

@@ -1,0 +1,21 @@
+' definition of the Item azure-20/Item/Intune/ServiceEBooks
+
+sprite $ServiceEBooksXs [10x10/16z] POZ50G0m48D8NVQVj_wwyaa0WvEWhUFNwpGV_7iXXAz9UW-mBotgPW8
+
+sprite $ServiceEBooksSm [12x12/16z] RSY50S0W3031kEu_RztBOqVW7-B-YX0JhhzQPvjxyT9b8hmiSdjfQBwjIsocsl1e1W
+
+sprite $ServiceEBooksMd [16x16/16z] bOg35S1G54DVKEy_Rst_Un36JqZqz2O798N6N9HH8tepvwhfCqW-v-kVjWzxJz8kx3DF-qJHJCI93W
+
+sprite $ServiceEBooksLg [20x20/16z] bSs53G0W3011NFUV5tVdermR2lv32BhAmmMmiuHAfKasBRt5SJ7b3HD2y62XmOXlkNV-RtrtRSZtSWEZPCSz4M9OXfGpob8oHy0Y2m
+
+!procedure ServiceEBooks($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/Intune/ServiceEBooks', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceEBooksCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceEBooksLg>', 'Intune', $funcName, $content)
+!endprocedure
+
+!procedure ServiceEBooksGroup($id, $name='Service E Books', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceEBooksLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item azure-20/Item/Databases/ServiceSqlManagedInstance
+
+sprite $ServiceSqlManagedInstanceXs [10x10/16z] HSQ70S0W2011Wafd_tLZznKuUDNH54Tccsfv5H54KwrnhujuHDGb859Hf0iH0BykLbNk_mS
+
+sprite $ServiceSqlManagedInstanceSm [12x12/16z] JOh50SLG0CAU4VZI_SUjMqv8ofknSsIDQPfqveqpyzu10wU3DzRCaOuSuouhMdDaEqgsF3xKp_2dmEUaB
+
+sprite $ServiceSqlManagedInstanceMd [16x16/16z] NSe75eGm24NHq3yni__j3Xoxpte9uviUyM73jjRQx7B6hxfzT7dEz_b4stjmxtjtE_RQDJzqk4XKTwzf6y6mm703f8qWFOnoWYY9tEkJPMGNqcykU-JP67y
+
+sprite $ServiceSqlManagedInstanceLg [20x20/16z] {
+RSi55eGm34NHU7v6zhzSe3hwe7PFI_-odVuns-OPZsVBtyr-RVTkuzhztShgz-sZXxZQreiHlrdah5kqSiVTklWOaS7BoCtPAQHvimJ8882fE02-35Sgab3h
+5iFa8cA2C0-BgaHLcHQ0AcwMDKhqcKXR5YjdeXC
+}
+
+!procedure ServiceSqlManagedInstance($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/Databases/ServiceSqlManagedInstance', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceSqlManagedInstanceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceSqlManagedInstanceLg>', 'Databases', $funcName, $content)
+!endprocedure
+
+!procedure ServiceSqlManagedInstanceGroup($id, $name='Service Sql Managed Instance', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceSqlManagedInstanceLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item azure-20/Item/General/ServiceServerFarm
+
+sprite $ServiceServerFarmXs [10x10/16z] RSY35S0m50NGu1lxZrkxkGSFvGQhjZQ2pDmQhaOVmDw05riZTcOeH2IhxLCrrp83
+
+sprite $ServiceServerFarmSm [12x12/16z] JSo53S1020LGqiD9zn_tN7Wnz4E6owo9_cxN7X5owevsZUbcGYoxHkbmrImQ8XymC-fKW3jL3rEOp7gkGGC
+
+sprite $ServiceServerFarmMd [16x16/16z] NSe53W8130NH4jhzKhZ_STTzeY-PU9T7XqjBTVgN_wN31VSSwl3HuVq_RIpiqtjP-RsS2M38qmCW0hax0RI0-iGmLyKjvEmbqZR9s2srMsBiIUws51C
+
+sprite $ServiceServerFarmLg [20x20/16z] {
+RSq5aiKm283X2ixc_jTTel1c-jU_Hgwl8Bi_x4bpQJqhHWnjb8PevZt6jAoOM-jfCQArtk-ulvxWin5F00XljH2A4EuqG9v1iVXqZnk-su26hO4q0ZbTpp8g
+TcrJLJEtUEGUyU61mtOi4WDjpFq7
+}
+
+!procedure ServiceServerFarm($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/General/ServiceServerFarm', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceServerFarmCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceServerFarmLg>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceServerFarmGroup($id, $name='Service Server Farm', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceServerFarmLg>', $name, $tech)
+!endprocedure

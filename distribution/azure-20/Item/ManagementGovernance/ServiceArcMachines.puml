@@ -1,0 +1,24 @@
+' definition of the Item azure-20/Item/ManagementGovernance/ServiceArcMachines
+
+sprite $ServiceArcMachinesXs [10x10/16z] DSQ52G0m30J0ByIp_xubTjW1a8AYcQepCvjP9jcie7YflDu3Y7f4e0DPz04
+
+sprite $ServiceArcMachinesSm [12x12/16z] LSZ50S0W50FGKBwM_UV5zLqY088qwAAwkwAZFoMnsUtzsTVVpEuDEkuzj9UqTw9OEt53H12QMF39WW8
+
+sprite $ServiceArcMachinesMd [16x16/16z] LSl70KGX409GN2Uvzj_lnwplD050oGPCsGTC4hNMqBFxlxdsqfozCEyQfryehdqu-G6JFdiIdxj80aIkNJA4T122oSrWPZfcvPY1dsq2V
+
+sprite $ServiceArcMachinesLg [20x20/16z] {
+XSw5aSKm301H-Rp2wx_VFs5ETlWP91bgjYHh_SxyVyZJDsEqeWxcCUG7YnoAlSNmDgdOMmqOUR2b3ykbpVHgpLQZZTB1DuC_4JWPVJHqYI5HpgcOwG7Ca6Qd
+65TXWt6N7m
+}
+
+!procedure ServiceArcMachines($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/ManagementGovernance/ServiceArcMachines', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceArcMachinesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceArcMachinesLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure ServiceArcMachinesGroup($id, $name='Service Arc Machines', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceArcMachinesLg>', $name, $tech)
+!endprocedure

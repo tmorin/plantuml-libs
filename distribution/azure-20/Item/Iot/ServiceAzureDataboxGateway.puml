@@ -1,0 +1,21 @@
+' definition of the Item azure-20/Item/Iot/ServiceAzureDataboxGateway
+
+sprite $ServiceAzureDataboxGatewayXs [10x10/16z] TSQt0G0W30InUpBx3qp6dLK9Hod5SfgMMglGNcvBElOuwmky2JC1
+
+sprite $ServiceAzureDataboxGatewaySm [12x12/16z] VSQv5O0m34J1tQTl0Vqt3BuTCT7eJsQkLgfCkIf9LFKX0wBS5SI7TeVjuAb4DIxLPwPrUW4
+
+sprite $ServiceAzureDataboxGatewayMd [16x16/16z] dSYt0SCm30NH3oBlFx0jCLTAhxl39tQYBQkHQlkGarSjjo6WCmgBHcKYEB548rp9Q4WfjRC1IzDI0TgQSESF
+
+sprite $ServiceAzureDataboxGatewayLg [20x20/16z] hSYr0GD154D1QVSTzL-mIVymCaqu-WCpO9sCSQbh3kCrEy0uHOgeTAfCfSi9mp2N3aqlCAzO7QxXE9p0n59cPOxN95tEUl5E7xW3
+
+!procedure ServiceAzureDataboxGateway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/Iot/ServiceAzureDataboxGateway', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureDataboxGatewayCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureDataboxGatewayLg>', 'Iot', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureDataboxGatewayGroup($id, $name='Service Azure Databox Gateway', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureDataboxGatewayLg>', $name, $tech)
+!endprocedure

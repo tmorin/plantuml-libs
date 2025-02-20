@@ -1,0 +1,24 @@
+' definition of the Item azure-20/Item/ManagementGovernance/ServiceCostManagementAndBilling
+
+sprite $ServiceCostManagementAndBillingXs [10x10/16z] JOkt0GD13CDuojf_OGkk7XMZljYuEwAx_K2KbEucnEf2r4j2L5z6s_p-vuP1QGwJVW
+
+sprite $ServiceCostManagementAndBillingSm [12x12/16z] NOs54KCn3CNCiF_2bIyz-WhfXInVojsVJRV_GqEyW0dWYglCYjr15sV9mNdZSyxA0TYv4rGgtQvGmqoYC62iFm
+
+sprite $ServiceCostManagementAndBillingMd [16x16/16z] ROvP5i0W20C5udR_2pS4db-ThXCL6FzOH3o9SrOGBzr47YwLGu7n96qoTYLZI4K6Hb_ydrOUxJVtF2VoFi-zxdpagpTesRe_U62ZHhPTdCDKmKaZASBJJByV
+
+sprite $ServiceCostManagementAndBillingLg [20x20/16z] {
+VSw73SCm40D0Ij_tNpYWJQSdH9CEt_0lsso_GhSRSvTLtKLxe1KZCrKTYMSa95yU96xQ99m95QQgPe0bKza42_Dibgq3uyMmSW5uwQqPqJvtEEiWurldCIyt
+5uTvbGZekj9zc53KZYlPoiPJTcJwqkS6
+}
+
+!procedure ServiceCostManagementAndBilling($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/ManagementGovernance/ServiceCostManagementAndBilling', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceCostManagementAndBillingCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceCostManagementAndBillingLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure ServiceCostManagementAndBillingGroup($id, $name='Service Cost Management And Billing', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceCostManagementAndBillingLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-20/bootstrap')
+
+' loads the Item which embeds the element ServiceEntraDomainServicesGroup
+include('azure-20/Item/Identity/ServiceEntraDomainServices')
+
+' renders the element
+ServiceEntraDomainServicesGroup('ServiceEntraDomainServicesGroup', 'Service Entra Domain Services Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

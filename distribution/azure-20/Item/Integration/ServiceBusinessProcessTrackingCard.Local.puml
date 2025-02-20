@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-20/bootstrap')
+
+' loads the Item which embeds the element ServiceBusinessProcessTrackingCard
+include('azure-20/Item/Integration/ServiceBusinessProcessTracking')
+
+' renders the element
+ServiceBusinessProcessTrackingCard('ServiceBusinessProcessTrackingCard', 'Service Business Process Tracking Card', 'an optional description')
+@enduml

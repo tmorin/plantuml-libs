@@ -1,0 +1,21 @@
+' definition of the Item azure-20/Item/Other/ServiceBareMetalInfrastructure
+
+sprite $ServiceBareMetalInfrastructureXs [10x10/16z] HSY53K0X54FH-nNestzUlE54AXo_aVulJSZGz-qMHholcz5bYKNpQ
+
+sprite $ServiceBareMetalInfrastructureSm [12x12/16z] HSi50G0W30J0nwr_Nc1-w0n2z811IyWhiDjV0dly9N02JlrBu0ImBa_AEV-v-X-GAVK7
+
+sprite $ServiceBareMetalInfrastructureMd [16x16/16z] NSV70GD020Cm7nsp_xpfZUWd_8iDOIUEVvykAPvlo0rai_W1Xj7ovnjckRryhEODmvpWppUy17uTaeqdlodU-8tWILJnS0K
+
+sprite $ServiceBareMetalInfrastructureLg [20x20/16z] VSY50GGX34JHGIA4_kl5JXTxQ3vsGfmvC1FtyqCG0Vh-wIsoKFnh35aGRA6j4VLzRmaswotF6Er8PlvhrbgCRKzjicq9N-mmKMlmGODrIXq-B3SEHnK
+
+!procedure ServiceBareMetalInfrastructure($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/Other/ServiceBareMetalInfrastructure', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceBareMetalInfrastructureCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceBareMetalInfrastructureLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceBareMetalInfrastructureGroup($id, $name='Service Bare Metal Infrastructure', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceBareMetalInfrastructureLg>', $name, $tech)
+!endprocedure

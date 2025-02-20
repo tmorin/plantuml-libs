@@ -1,0 +1,21 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-20/bootstrap')
+
+' loads the Item which embeds the element ServiceAzureDataboxGatewayGroup
+include('azure-20/Item/Storage/ServiceAzureDataboxGateway')
+
+' renders the element
+ServiceAzureDataboxGatewayGroup('ServiceAzureDataboxGatewayGroup', 'Service Azure Databox Gateway Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

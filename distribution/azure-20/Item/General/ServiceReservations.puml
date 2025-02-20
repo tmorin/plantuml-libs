@@ -1,0 +1,27 @@
+' definition of the Item azure-20/Item/General/ServiceReservations
+
+sprite $ServiceReservationsXs [10x10/16z] JKo50G0W3BAL_nzstGsqOdkD3l14vN7bu8bxJbsc0nuKQFzbB2S0Z_K-
+
+sprite $ServiceReservationsSm [12x12/16z] LKk50G1H1ENh_HS-TQMzW7ySPe_eCnJ0Sc4kPW0lh6jkzAJdBfHJhdaVZC77aBb1cXgSkq1h5SOY5Ral
+
+sprite $ServiceReservationsMd [16x16/16z] {
+ROy50eH024KdWNV_0nl4fZf5_MXFtreRw14OJ4-2nvjrPw-jdg1dt9jT9pkc_CJNExQTyIoinhp7kUj39jM_hUgbwKxOR4XBOIF0wHadTsTK6AJT3NH5gcy2
+g3zF
+}
+
+sprite $ServiceReservationsLg [20x20/16z] {
+TSoveI0X30JHno06TVu9hwNzTvbzbB_PTPFUXkUawh5EaacJnjguUITxK0sLWjnTasqdg60o9AI_PXNYQoQFoJgJbNWNT6yyhnm1dBv0jYo0jq6M3XCMJbXP
+zgH56ebbc5l2S4UV5B0p4JT9TvB0i6-d2_0F
+}
+
+!procedure ServiceReservations($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/General/ServiceReservations', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceReservationsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceReservationsLg>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceReservationsGroup($id, $name='Service Reservations', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceReservationsLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-20/bootstrap')
+
+' loads the Item which embeds the element ServiceEntraGlobalSecureAccessCard
+include('azure-20/Item/Identity/ServiceEntraGlobalSecureAccess')
+
+' renders the element
+ServiceEntraGlobalSecureAccessCard('ServiceEntraGlobalSecureAccessCard', 'Service Entra Global Secure Access Card', 'an optional description')
+@enduml

@@ -1,0 +1,27 @@
+' definition of the Item azure-20/Item/Integration/ServiceIntegrationServiceEnvironments
+
+sprite $ServiceIntegrationServiceEnvironmentsXs [10x10/16z] 5SY70O0m20J0It_SVryry1tQ0axerVumjKO8M-EkzhxZuhbdwZQsAC7r5b1GcIa-
+
+sprite $ServiceIntegrationServiceEnvironmentsSm [12x12/16z] 9Ok74GCn408NIHTm_mLxcD_B0S8jyU7jEnxI7aBxQvyAkjZyKu1lf-_yRLtq2x0QpY4IZ9c193Cj0T8AF8JjvFAkBVW3
+
+sprite $ServiceIntegrationServiceEnvironmentsMd [16x16/16z] {
+FOk74GGn309NFYlm_HVymmMl0oC1FEoyEAGqCr8ye-RnIlMCl8GIqkDQaHQ175vWeGVXUQt4glsszOhhyNlmV7dU9oB_tG5a5rkethcwcIGK4PY8bFTQFAHU
+6M_sY9UHIO0_
+}
+
+sprite $ServiceIntegrationServiceEnvironmentsLg [20x20/16z] {
+LP053WGn30EdbDZx__yU5TGRWQLmpABqqRWfycImIIi0gkooGt4rr1dgGFa080DbLaKfxGGb009cONF1yHz3MSoCVLWnTxDubWuF0-NP0DrzngxQCAuGCVPG
+aB4WCu2l9dWmN91cJ4h2WCNwwwlL2HIBGxMNgZ49cuLjZHwoaqF9s-Ot
+}
+
+!procedure ServiceIntegrationServiceEnvironments($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/Integration/ServiceIntegrationServiceEnvironments', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceIntegrationServiceEnvironmentsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceIntegrationServiceEnvironmentsLg>', 'Integration', $funcName, $content)
+!endprocedure
+
+!procedure ServiceIntegrationServiceEnvironmentsGroup($id, $name='Service Integration Service Environments', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceIntegrationServiceEnvironmentsLg>', $name, $tech)
+!endprocedure

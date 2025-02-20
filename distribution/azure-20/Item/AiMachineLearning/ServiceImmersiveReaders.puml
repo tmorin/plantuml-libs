@@ -1,0 +1,24 @@
+' definition of the Item azure-20/Item/AiMachineLearning/ServiceImmersiveReaders
+
+sprite $ServiceImmersiveReadersXs [10x10/16z] LOO50G0n3CIobUlVxpCUXezKcNCC_ARsxMw2Fyb5gEf9Xk2xUgF1AJDR0G
+
+sprite $ServiceImmersiveReadersSm [12x12/16z] NOh50SCm00E5RlUVE0x3lGI75x8XaS38sjVy6--yEcTsydNyFxEJSFNNN3WZdCo821jhMVjEMou
+
+sprite $ServiceImmersiveReadersMd [16x16/16z] dOv50WDH3489WLJkV-2EVzlrhQ80Lc8392FsHbtF5whsykw_Ux_JzvBurpxrxVH3KkxzaOEovTHp3oSaLyKEaZwEiaw-rnuFtf3GI9lu0G
+
+sprite $ServiceImmersiveReadersLg [20x20/16z] {
+dP054WCn30Cb6Gh_Vt2Js6M-7VIE6H_HW6G5z05uTP4tQTCTZyZil5lt9a-3HpVPM7kRPzPvDgWpv2xTvS4NlNCvZr0CUPiN1fWGcU92nj1q6gw9O-SnS4Dq
+Fpp8mUEltGcS
+}
+
+!procedure ServiceImmersiveReaders($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/AiMachineLearning/ServiceImmersiveReaders', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceImmersiveReadersCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceImmersiveReadersLg>', 'AiMachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure ServiceImmersiveReadersGroup($id, $name='Service Immersive Readers', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceImmersiveReadersLg>', $name, $tech)
+!endprocedure

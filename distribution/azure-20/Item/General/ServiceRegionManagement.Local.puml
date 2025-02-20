@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-20/bootstrap')
+
+' loads the Item which embeds the element ServiceRegionManagement
+include('azure-20/Item/General/ServiceRegionManagement')
+
+' renders the element
+ServiceRegionManagement('ServiceRegionManagement', 'Service Region Management', 'an optional tech label', 'an optional description')
+@enduml

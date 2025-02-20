@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-20/bootstrap')
+
+' loads the Item which embeds the element ServiceEdgeManagementCard
+include('azure-20/Item/Other/ServiceEdgeManagement')
+
+' renders the element
+ServiceEdgeManagementCard('ServiceEdgeManagementCard', 'Service Edge Management Card', 'an optional description')
+@enduml

@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-20/bootstrap')
+
+' loads the Item which embeds the element ServiceAzureCommunicationsGatewayCard
+include('azure-20/Item/Networking/ServiceAzureCommunicationsGateway')
+
+' renders the element
+ServiceAzureCommunicationsGatewayCard('ServiceAzureCommunicationsGatewayCard', 'Service Azure Communications Gateway Card', 'an optional description')
+@enduml

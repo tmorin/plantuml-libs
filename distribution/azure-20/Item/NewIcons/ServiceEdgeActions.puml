@@ -1,0 +1,24 @@
+' definition of the Item azure-20/Item/NewIcons/ServiceEdgeActions
+
+sprite $ServiceEdgeActionsXs [10x10/16z] LSQ30G1030F06liF_6QH7Fn36wQsqDH9xcxkJH6nSia3KhCfLKboA0NEL
+
+sprite $ServiceEdgeActionsSm [12x12/16z] VSR70S0m24DHcYJOV-3qTigtWMT_HUac2V8aj5dQbDgY3lVMUVHnsv2pUO1nG8S7PULWH91Tzca5
+
+sprite $ServiceEdgeActionsMd [16x16/16z] ZSp50SGm50DHsIkDy_jlUCDqoWIVIT_gpfs_c5mC2N2m0ujPrSOIosjX7xUQD2trvSprv-wbsOpTCBkcKAihIJMIiTgr3CYc3fSjDLrPx_u
+
+sprite $ServiceEdgeActionsLg [20x20/16z] {
+bSe54aGX38DX-eZG-rzui-xsZuJvwFYtskQJ0SIzJ96Kxevqj1iixKs9rolR0QUZR3ucNwnyds9U-ux_wr3soVnWjdEOfR97q-6zcbGVhPjfbKdwOYrYRW2x
+BnO4Hg76g3fOPOtnQpi
+}
+
+!procedure ServiceEdgeActions($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/NewIcons/ServiceEdgeActions', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceEdgeActionsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceEdgeActionsLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceEdgeActionsGroup($id, $name='Service Edge Actions', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceEdgeActionsLg>', $name, $tech)
+!endprocedure

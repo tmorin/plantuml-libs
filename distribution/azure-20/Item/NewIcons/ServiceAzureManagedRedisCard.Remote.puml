@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-20/bootstrap')
+
+' loads the Item which embeds the element ServiceAzureManagedRedisCard
+include('azure-20/Item/NewIcons/ServiceAzureManagedRedis')
+
+' renders the element
+ServiceAzureManagedRedisCard('ServiceAzureManagedRedisCard', 'Service Azure Managed Redis Card', 'an optional description')
+@enduml

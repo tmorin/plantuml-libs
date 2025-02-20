@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-20/bootstrap')
+
+' loads the Item which embeds the element ServiceContentModeratorsCard
+include('azure-20/Item/AiMachineLearning/ServiceContentModerators')
+
+' renders the element
+ServiceContentModeratorsCard('ServiceContentModeratorsCard', 'Service Content Moderators Card', 'an optional description')
+@enduml

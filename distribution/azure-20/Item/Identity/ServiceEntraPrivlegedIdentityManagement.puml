@@ -1,0 +1,27 @@
+' definition of the Item azure-20/Item/Identity/ServiceEntraPrivlegedIdentityManagement
+
+sprite $ServiceEntraPrivlegedIdentityManagementXs [10x10/16z] 7Ko54G102BBbJ_PVzyiEGAvvcJohR_67xbjC-lQUM-CTOjw8JC-SWIEYYYG4Y2G7a5nhyURJlUqD1m
+
+sprite $ServiceEntraPrivlegedIdentityManagementSm [12x12/16z] FOY74GH12CEOMSoJ-g_txKlQW8G9ZsCtSVDgtl7xW9px6GKLxdr50ZZ0JAUdauZTJKi5RP9ULRFBtysAD5yQIPMsVm
+
+sprite $ServiceEntraPrivlegedIdentityManagementMd [16x16/16z] {
+JOa70WCW20Ef4eZ5_x-tZAvpa0lIB9ZA5zYmHpkx9VWfFmNy7v4UPYUYqnerZIai7s0RU1SaW9sE6q4QLHLvuVVUGo4rWKLgi9ocwhUtTDadYSXb1H5XpMVR
+sP9unz7cCSRABm
+}
+
+sprite $ServiceEntraPrivlegedIdentityManagementLg [20x20/16z] {
+JSe14i0G34JHXKqMxd_UWhP-YyoRu9HeZBYATk97TfLlSlSFVzAU8X3zI_i1zZitMwjhpdZ9s3vyAMKVMFna95CYDL0Jf4bv6il40H8_K-zzO9BopBBPa6MG
+nALbKPKSBirLjhCa1Q3CQfksHW5WMRNUze2PbRk0LRe8NzoWlVG
+}
+
+!procedure ServiceEntraPrivlegedIdentityManagement($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/Identity/ServiceEntraPrivlegedIdentityManagement', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceEntraPrivlegedIdentityManagementCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceEntraPrivlegedIdentityManagementLg>', 'Identity', $funcName, $content)
+!endprocedure
+
+!procedure ServiceEntraPrivlegedIdentityManagementGroup($id, $name='Service Entra Privleged Identity Management', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceEntraPrivlegedIdentityManagementLg>', $name, $tech)
+!endprocedure

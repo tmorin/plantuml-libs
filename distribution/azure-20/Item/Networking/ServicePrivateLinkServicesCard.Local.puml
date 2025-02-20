@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-20/bootstrap')
+
+' loads the Item which embeds the element ServicePrivateLinkServicesCard
+include('azure-20/Item/Networking/ServicePrivateLinkServices')
+
+' renders the element
+ServicePrivateLinkServicesCard('ServicePrivateLinkServicesCard', 'Service Private Link Services Card', 'an optional description')
+@enduml

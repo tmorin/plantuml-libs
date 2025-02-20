@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-20/bootstrap')
+
+' loads the Item which embeds the element ServiceEventGridTopicsCard
+include('azure-20/Item/Integration/ServiceEventGridTopics')
+
+' renders the element
+ServiceEventGridTopicsCard('ServiceEventGridTopicsCard', 'Service Event Grid Topics Card', 'an optional description')
+@enduml

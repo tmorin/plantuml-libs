@@ -1,0 +1,27 @@
+' definition of the Item azure-20/Item/Other/ServiceOpenSupplyChainPlatform
+
+sprite $ServiceOpenSupplyChainPlatformXs [10x10/16z] 5SQ70S0m3091el9OsNzVbrC1NKdeWSweako0A8USK23VHtmVh9LqHDoMzx_MeqckyAWdC96Iyd-a0m
+
+sprite $ServiceOpenSupplyChainPlatformSm [12x12/16z] 7Sk90KH110DG4eBVVy6RsJUdAvuImqm6A6mwgu6PzwNptJcAIGcWvEoKYCmITXk2KTm2v0Cv7ohfFuwBEumXhoA-Iv9mslPxdFq1
+
+sprite $ServiceOpenSupplyChainPlatformMd [16x16/16z] {
+FSe74aGn209GWehuxt_WJPdPbsB5nLBYhxGL5RYwjS2jzKgo99BL1QWPEagh6cXHKaHAEhjUTtajIY6t8IN9KrVOPYfub8eMoHqFATC8KdUXTl1WN7eoEKQE
+gDwIgmU0frVKHZgm-VkSKUC9NEkx1jiF
+}
+
+sprite $ServiceOpenSupplyChainPlatformLg [20x20/16z] {
+LOu7WW0X20CX0IB-_y4dN9-j3jM-O5R2_e1Q8lD7rID9mgFYIqamP-0XhPHao9TA831nmrEi9RESqgI1AsBVLWfxFjy_u8vj8CMf-SKudm8xHoTYqxuJ_Jo8
+SSkNKyAzwfzZx2zNpJ3ljWFC5W5m5u-MgG_hYuIhsyswYT82EBlDBBi375i0s3RKlOSEmCMuRWll3sq_PAyvRiC7
+}
+
+!procedure ServiceOpenSupplyChainPlatform($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/Other/ServiceOpenSupplyChainPlatform', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceOpenSupplyChainPlatformCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceOpenSupplyChainPlatformLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceOpenSupplyChainPlatformGroup($id, $name='Service Open Supply Chain Platform', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceOpenSupplyChainPlatformLg>', $name, $tech)
+!endprocedure

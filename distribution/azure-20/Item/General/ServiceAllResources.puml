@@ -1,0 +1,21 @@
+' definition of the Item azure-20/Item/General/ServiceAllResources
+
+sprite $ServiceAllResourcesXs [10x10/16z] Oq00DZPMDZ0Wm69dPsK70nmiDYYBWuED0mm
+
+sprite $ServiceAllResourcesSm [12x12/16z] LKW50W0X3BfGuFyVjeDjzEC7e3C1sJ92zlETP6SYOxRRU-ukgJDBddC5
+
+sprite $ServiceAllResourcesMd [16x16/16z] bSv56e10509WCD3xdrW-DjRalvXyXQzT4cIK0PgyR_POi5iMveJ3iZ2dxdsrnzADFoqBSqAEZ_lwdky2
+
+sprite $ServiceAllResourcesLg [20x20/16z] hSl50S1G20FGf1BOV-6wwxTtmC4ZZauHhGOjDS8KYy-UFF_QeAMDCCMisIDDTzNfRfefOEO3LJx25CypBZDmC4SkTGy
+
+!procedure ServiceAllResources($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/General/ServiceAllResources', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAllResourcesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAllResourcesLg>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAllResourcesGroup($id, $name='Service All Resources', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAllResourcesLg>', $name, $tech)
+!endprocedure

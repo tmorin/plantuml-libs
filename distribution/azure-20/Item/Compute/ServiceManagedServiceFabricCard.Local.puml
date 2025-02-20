@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-20/bootstrap')
+
+' loads the Item which embeds the element ServiceManagedServiceFabricCard
+include('azure-20/Item/Compute/ServiceManagedServiceFabric')
+
+' renders the element
+ServiceManagedServiceFabricCard('ServiceManagedServiceFabricCard', 'Service Managed Service Fabric Card', 'an optional description')
+@enduml

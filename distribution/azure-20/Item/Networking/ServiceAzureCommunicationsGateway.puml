@@ -1,0 +1,24 @@
+' definition of the Item azure-20/Item/Networking/ServiceAzureCommunicationsGateway
+
+sprite $ServiceAzureCommunicationsGatewayXs [10x10/16z] BOkt0K1H20BlgL2u_xu_SesIU35XDo-paw_50T2X3WT9bca9N7YeJCXOszbw0Mu
+
+sprite $ServiceAzureCommunicationsGatewaySm [12x12/16z] FOh50G0W58NuPUs_hwsSNi0cyQaj_Ipj9q6mboKK1zv2416ab3JP30YgYfxV8JdnpFBYfF599my
+
+sprite $ServiceAzureCommunicationsGatewayMd [16x16/16z] LSY50S1020J1FUob_txZEZXSYfynYm-BQNoufekR70J1nN5BxeS5xfcUY5quIMw25BcXg4twlXD2Q6yuEqTHPKLmohs4Z4kAJXWlJV4HVNQ-Qd9Q0G
+
+sprite $ServiceAzureCommunicationsGatewayLg [20x20/16z] {
+NSY7aGK12CDGWR7dZlxx_JdjleaI7u6p_pKdUnDEl9nel9hYgmOeAF4n81duJeEnvMPuagcckwkX1YHPn9E4DBRaEs8_thC15r9BGeM6Xz0XyOJgva75LD81
+mui11WXV5lD7cGDx9OugsyLHTfSpR_5o1G
+}
+
+!procedure ServiceAzureCommunicationsGateway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/Networking/ServiceAzureCommunicationsGateway', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureCommunicationsGatewayCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureCommunicationsGatewayLg>', 'Networking', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureCommunicationsGatewayGroup($id, $name='Service Azure Communications Gateway', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureCommunicationsGatewayLg>', $name, $tech)
+!endprocedure

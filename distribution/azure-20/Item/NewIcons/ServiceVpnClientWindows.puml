@@ -1,0 +1,24 @@
+' definition of the Item azure-20/Item/NewIcons/ServiceVpnClientWindows
+
+sprite $ServiceVpnClientWindowsXs [10x10/16z] HOY50G0X30Fl5KBsdnUNDawzL_GBgkSNgWMIxPQ4H_gaaVvNZlzlObre4vnKZH6OIm4
+
+sprite $ServiceVpnClientWindowsSm [12x12/16z] POpL0G0X34EB4xB_laVb_7srCL4QYZW3cwKV5059nCtV7ObCJa7lUgS-gXG0j8mDhUjEO1FegG-vx3HqRtC
+
+sprite $ServiceVpnClientWindowsMd [16x16/16z] NSvLWWL124FHG2cT_Uzti7bslt9Q2zMnXNUMtToxCEqXQS1D0fFHlmtFZ_dXcRRqEI9Gtr1LzxIzPT6zzcRz_1Zh-RRH7IstVBXFIDPv1DdsMUoq7lw8F3N-
+
+sprite $ServiceVpnClientWindowsLg [20x20/16z] {
+RSq5aWKm28FXr2WXzx_lLjZdtnZpLq3gJiERmSCBKfbC8NKibPV1gUFH9e1uQoTItqtlpN-qCKXA9LiXDekLph0QQ6RzB72iaQSjnc2NffQvcdEJux4YByQZ
+vVUhwT5maQ40YfQ1H6d5J4Ykg-15ox_UKHtf3m
+}
+
+!procedure ServiceVpnClientWindows($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/NewIcons/ServiceVpnClientWindows', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceVpnClientWindowsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceVpnClientWindowsLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceVpnClientWindowsGroup($id, $name='Service Vpn Client Windows', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceVpnClientWindowsLg>', $name, $tech)
+!endprocedure

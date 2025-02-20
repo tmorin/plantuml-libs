@@ -1,0 +1,24 @@
+' definition of the Item azure-20/Item/Other/ServiceAppComplianceAutomation
+
+sprite $ServiceAppComplianceAutomationXs [10x10/16z] RSR70O1030D1vnNz5qo6rus3P6i-Ct4tIBYJp2JCeMQwO2GDTNxJgRcQRu-stm4
+
+sprite $ServiceAppComplianceAutomationSm [12x12/16z] VOV70KCn24Ef4jb_uRZRf_z0JRu0eAVkOGITPAlDmzEJ8TexW62Zge9WjfIcZ8ZHVvqSBkBDnvQNFm
+
+sprite $ServiceAppComplianceAutomationMd [16x16/16z] ZSXN0W8X34NHCBms-z-m16n_UgWtzQVhEuRQUFVEpq2sfvTN4PZ0QJT8HByrTguUw86KnE0r36HX6cpjJFKbjjEwDvx7LVF-KFto
+
+sprite $ServiceAppComplianceAutomationLg [20x20/16z] {
+hT07ZaKX34FHG68Rzh_XYQXwQlFReLzrx0U2P3nAuLJjubPkaaHNeaqX2Ge7ASqa9P-aUf8YI0QKtCfDXeWHsHAprS8yD9vj24eAp8Ul5Y1sitcW0HHNgttA
+t2StA_q9ymSSHxNN_G4
+}
+
+!procedure ServiceAppComplianceAutomation($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/Other/ServiceAppComplianceAutomation', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAppComplianceAutomationCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAppComplianceAutomationLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAppComplianceAutomationGroup($id, $name='Service App Compliance Automation', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAppComplianceAutomationLg>', $name, $tech)
+!endprocedure

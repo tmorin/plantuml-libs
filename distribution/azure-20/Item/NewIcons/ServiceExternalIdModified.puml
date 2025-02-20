@@ -1,0 +1,27 @@
+' definition of the Item azure-20/Item/NewIcons/ServiceExternalIdModified
+
+sprite $ServiceExternalIdModifiedXs [10x10/16z] BSc53S1030H1ioDj-c_tUKG7idtoTBzO1NP31QoGcPu99-oalyHIBlltG2kH3VD-iTpC9W
+
+sprite $ServiceExternalIdModifiedSm [12x12/16z] FOq73i0m30Azm57e_zzRjHcduGdOXm-xTFTfoPvrMWuflXP0OagxJK2F3BidxR7weFUd-8OsOCe-fEoXMaF1GV44PsMz
+
+sprite $ServiceExternalIdModifiedMd [16x16/16z] {
+JOw70GGX2C2KgiRzvtt-Ugon0EqaH_iIcVbHpI8UbOYOe9VsKX-0d1w5sW8EzKBLdUBHSjzxS-ZbCtekkuXO0_3M3lKqwrT4gLlwaVCgSe5cJkG-q6NQdOIt
+HdMfwV8iH5Nj1m
+}
+
+sprite $ServiceExternalIdModifiedLg [20x20/16z] {
+NT250OGm44JHh2ytz5_lPN3u-CCppgh7jwgkBx5-KSwgsn_aDCpq8YDvFr6IcI_4muAPHO0zY7RWJRHSPp_IRO4KMJLyQsuoUwqVe3hyBCLa70yyj2KYP58E
+Pku9y3EZiOoZ1c1L1MZ33XGiQgQ5u0FFB48Y3UXu3fULcghwPJqhLTxn1m
+}
+
+!procedure ServiceExternalIdModified($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/NewIcons/ServiceExternalIdModified', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceExternalIdModifiedCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceExternalIdModifiedLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceExternalIdModifiedGroup($id, $name='Service External Id Modified', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceExternalIdModifiedLg>', $name, $tech)
+!endprocedure

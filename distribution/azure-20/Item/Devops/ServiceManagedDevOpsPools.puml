@@ -1,0 +1,24 @@
+' definition of the Item azure-20/Item/Devops/ServiceManagedDevOpsPools
+
+sprite $ServiceManagedDevOpsPoolsXs [10x10/16z] Oq00LbOenGQYk1YO6K0iBZ00ihXGMCniC1Od5qmTK3zOBni38nC3Ay8y
+
+sprite $ServiceManagedDevOpsPoolsSm [12x12/16z] NSV50KCn3C1G9MRlls_xcNHwufaPMyFCDwO2xWBIIsDpxwtkhqLkXzVgckiegu7sELSRHyCGk_W7
+
+sprite $ServiceManagedDevOpsPoolsMd [16x16/16z] POrL0e00349Xokh-zxNRzyK2m0_fL9IMISJ98BdlgWi6mFUvLvAspza7litdz9dhFJlLyPXZKElbBsARZQktXRj_RAVPEU-GW3abuMJJusCcPW
+
+sprite $ServiceManagedDevOpsPoolsLg [20x20/16z] {
+VT250SKW40FGdEHQil--NwXhgZmStCP8REa5ycHarIAc_l4VrKoIC0Q0rGRrqBWOjMKswMB3curriJ6yBkPvCRL13OlLWhQjsTJ-HCTcC4XbxhvOJs--69cd
+qoI2v4O-btBVa0Py0G
+}
+
+!procedure ServiceManagedDevOpsPools($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/Devops/ServiceManagedDevOpsPools', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceManagedDevOpsPoolsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceManagedDevOpsPoolsLg>', 'Devops', $funcName, $content)
+!endprocedure
+
+!procedure ServiceManagedDevOpsPoolsGroup($id, $name='Service Managed Dev Ops Pools', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceManagedDevOpsPoolsLg>', $name, $tech)
+!endprocedure

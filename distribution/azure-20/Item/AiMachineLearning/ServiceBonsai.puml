@@ -1,0 +1,27 @@
+' definition of the Item azure-20/Item/AiMachineLearning/ServiceBonsai
+
+sprite $ServiceBonsaiXs [10x10/16z] JSY52G1144FHFn9M-w_tmcBta0X_fUBHa5ekWn4ZvHhACJeGW-2qAxOFemTs2xBVTo_FDTSF
+
+sprite $ServiceBonsaiSm [12x12/16z] LSZ50SD044FHFo352_st6oQ_Yu0pXysRLCZzQa9M07OBupQaKPRR9Iw6Me88W6CbaPK0VK276e2vcxVQUult-m3S
+
+sprite $ServiceBonsaiMd [16x16/16z] {
+RSU5iSD044J1jp1p9Utbd-v7izs5pKVEuguiAGmNhJQHQe1GbuLanzyRMT6PrG4as4wgjNB1SY41Aqi5jGAOSKAOFveDI5e5G0rvD4sPF-S082NysVk0E-sz
+1owY_oGNFNzEW6y
+}
+
+sprite $ServiceBonsaiLg [20x20/16z] {
+TS650GDG24F11oHG-VklMtUvux-mapSkJF6cr3YaYU0g78FRARcuiAl6AhVTqPnDCwEOSTeo9w5MkQBpLBO1HPZKn4WAm21bWyX2KSxYP0O2rdw4YEGgHgiv
+KRaKNAtTRXym8qzpjH-W5TbESRDMSPOITrfhnuVTEWbUv6v_mTD-tGLtaNUS7G4
+}
+
+!procedure ServiceBonsai($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/AiMachineLearning/ServiceBonsai', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceBonsaiCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceBonsaiLg>', 'AiMachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure ServiceBonsaiGroup($id, $name='Service Bonsai', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceBonsaiLg>', $name, $tech)
+!endprocedure

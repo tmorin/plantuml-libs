@@ -1,0 +1,27 @@
+' definition of the Item azure-20/Item/Devops/ServiceCloudTest
+
+sprite $ServiceCloudTestXs [10x10/16z] 9Sb15W0X209GAbKSxd_VYTVVA00hFDMNdpP_vDuxI7-zDo_KK9gP0-18LJ253YouKc-p3_W1
+
+sprite $ServiceCloudTestSm [12x12/16z] BSlL0S1030BGs0bb_trxaVSL0KcsJSP9FUwQDSSxBCTZPl4M4G1lnhDpSJ9dUR392rJPQGnf-7JHQWn-whmv6akcVW
+
+sprite $ServiceCloudTestMd [16x16/16z] {
+JOi50WGX30EfjvV___V2-gn0R9ru-dgHsiYZw-HIMHTwXlqGUzkTkcd2IV3mKvArT6RSp7es7F0V01vDmwdpbgIeRJqO81z31og1l7MWg0lsj7lq1unUyOrJ
+_G4
+}
+
+sprite $ServiceCloudTestLg [20x20/16z] {
+NSy70i0G44HHiWrp__l6wlpqbqQOYKgu4_CkLHjj-kmrjXrtedIcpVpaQt7JIj6FiicncRd9if1hYLL5Sg-QkXa0xKIXexb98mqz9jH8LVcO1xB1tzeH2dye
+50_Ai1W5e4MHaRGQmnOI0BUo7oJ3gWnaEsAN7m
+}
+
+!procedure ServiceCloudTest($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/Devops/ServiceCloudTest', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceCloudTestCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceCloudTestLg>', 'Devops', $funcName, $content)
+!endprocedure
+
+!procedure ServiceCloudTestGroup($id, $name='Service Cloud Test', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceCloudTestLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item azure-20/Item/Other/ServiceIcMTroubleshooting
+
+sprite $ServiceIcMTroubleshootingXs [10x10/16z] Oy0Ec4482fWOOImW0uF50WHG5YCpXCN8mi88OJ63PG4
+
+sprite $ServiceIcMTroubleshootingSm [12x12/16z] VKkr0S0m31Fr_vCRXYbc2_0EhYreFMfn1CHzPz-feNMJor51SwZaa1wmlwYX1G
+
+sprite $ServiceIcMTroubleshootingMd [16x16/16z] dOl50SG020IPPQx_aY_kUGLdfJu4Z2ESVYfZRX7cl1YeSxpzSlv5gmz4mUD7I3pHJN034WdPzDXEvVR_kikP7G
+
+sprite $ServiceIcMTroubleshootingLg [20x20/16z] jSk53SKm00DHd-tkF_9dA4VK2pyfkYA7rput5Cd82_FJO6uORBJ84cXilAnh2wdbkT5tSrC3f9gL0g6PKqsWvKj0AJ3xssbgmPrPqbTpQnBf0tS
+
+!procedure ServiceIcMTroubleshooting($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/Other/ServiceIcMTroubleshooting', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceIcMTroubleshootingCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceIcMTroubleshootingLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceIcMTroubleshootingGroup($id, $name='Service Ic M Troubleshooting', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceIcMTroubleshootingLg>', $name, $tech)
+!endprocedure

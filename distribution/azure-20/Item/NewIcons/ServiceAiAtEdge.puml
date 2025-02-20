@@ -1,0 +1,24 @@
+' definition of the Item azure-20/Item/NewIcons/ServiceAiAtEdge
+
+sprite $ServiceAiAtEdgeXs [10x10/16z] BSP50G0m302nMxd-1O_p2hfnU1vlZB-Ig6ASRTZcXPHl6hrvHBoPPzYP1y8L70i
+
+sprite $ServiceAiAtEdgeSm [12x12/16z] FSW14W0H30J10SZ_FtpPt9Q6J8KXb7aAiWvvtBUukMJFERndohzVCdV8sidDSYi5zEsDlVm
+
+sprite $ServiceAiAtEdgeMd [16x16/16z] POe50a0X24C7Z1dtl-_lr6V00XO7kF1oSUcSDGhuwdhnQbJJhYFiqApRvy4WkUkiUyoJemyfcJjKE-2WArCRZvRdRj3ro9r0zetYakF5_X9Ku685
+
+sprite $ServiceAiAtEdgeLg [20x20/16z] {
+NSi73WGn349HOcFYlV-1fwNl5sfF0l2MOLRgIDEYpdQJlpkjuDrkETjDbl9cnRevqf1PuNpRls3l-vOCUnQC9z8Vu_Sj3tqvuzUR5jIoq9Slqq3wDBpNMaL2
+Yrh4C8GKW1bMb8I_5gqEkW4
+}
+
+!procedure ServiceAiAtEdge($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/NewIcons/ServiceAiAtEdge', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAiAtEdgeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAiAtEdgeLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAiAtEdgeGroup($id, $name='Service Ai At Edge', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAiAtEdgeLg>', $name, $tech)
+!endprocedure

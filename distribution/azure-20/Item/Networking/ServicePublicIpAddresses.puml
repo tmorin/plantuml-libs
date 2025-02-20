@@ -1,0 +1,21 @@
+' definition of the Item azure-20/Item/Networking/ServicePublicIpAddresses
+
+sprite $ServicePublicIpAddressesXs [10x10/16z] Oy06EE0q1mmmiC800n2180eB8Si60mZZ
+
+sprite $ServicePublicIpAddressesSm [12x12/16z] TSg30G113031ZTD_mszZ3Y5_EZVLj6-oYTCZ5vz-qIL7dEbxxfp84vn6
+
+sprite $ServicePublicIpAddressesMd [16x16/16z] XOs50G0X30EJ-luBlxl0GTtGesxa5EE0LLDi9rCST-1tlcBIRRAGDJR02IgmnYxgpidOQ_uTl-vt604
+
+sprite $ServicePublicIpAddressesLg [20x20/16z] fOs50G0X30DJx_uJlxi2XzOIj90NlCy9ziIOSzqpzLrdxO8MvQY_6Me2NdA2_WzGVx3seU-XFizzliyr-Ve5kyafVj81
+
+!procedure ServicePublicIpAddresses($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/Networking/ServicePublicIpAddresses', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServicePublicIpAddressesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServicePublicIpAddressesLg>', 'Networking', $funcName, $content)
+!endprocedure
+
+!procedure ServicePublicIpAddressesGroup($id, $name='Service Public Ip Addresses', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServicePublicIpAddressesLg>', $name, $tech)
+!endprocedure

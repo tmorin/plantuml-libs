@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-20/bootstrap')
+
+' loads the Item which embeds the element ServiceEntraIdentityRolesAndAdministratorsCard
+include('azure-20/Item/Intune/ServiceEntraIdentityRolesAndAdministrators')
+
+' renders the element
+ServiceEntraIdentityRolesAndAdministratorsCard('ServiceEntraIdentityRolesAndAdministratorsCard', 'Service Entra Identity Roles And Administrators Card', 'an optional description')
+@enduml

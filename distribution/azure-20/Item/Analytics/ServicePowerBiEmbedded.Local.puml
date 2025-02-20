@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-20/bootstrap')
+
+' loads the Item which embeds the element ServicePowerBiEmbedded
+include('azure-20/Item/Analytics/ServicePowerBiEmbedded')
+
+' renders the element
+ServicePowerBiEmbedded('ServicePowerBiEmbedded', 'Service Power Bi Embedded', 'an optional tech label', 'an optional description')
+@enduml

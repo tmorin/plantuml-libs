@@ -1,0 +1,27 @@
+' definition of the Item azure-20/Item/Other/ServiceKubernetesFleetManager
+
+sprite $ServiceKubernetesFleetManagerXs [10x10/16z] DOa50W0X20JtGcB-_r-RKM134pFJeS4wnb86IxdxKfcAoJwhzNaCcLWjbrBlLEyl_S_S0m
+
+sprite $ServiceKubernetesFleetManagerSm [12x12/16z] BKg50G0m2685wF__haqAkpf9_1eZMGw8yCLXuy23EIw-mOCb3OUBHDWlR-lbnyjNOsHcRMpSRyDxaQa3lHUzjxzr0G
+
+sprite $ServiceKubernetesFleetManagerMd [16x16/16z] {
+JOo70O0W30G_f6V_WNtify2buYGsU97nyRvSoHrlGr6lMBBIVZ4Yx_ZQTySn0TzS_OlS_JGWg-gAXVRkws-VESGI2ZF6sYCzcvGf2ShQqVs2nrY_7ouHyJMo
+T21hGOselVS1
+}
+
+sprite $ServiceKubernetesFleetManagerLg [20x20/16z] {
+XOw50GDH24E3o_u3bwFkxsjmdF55y4X6TBG-sypRRZRFuMfRGN0VTRCTzozRBC-s2rTR3OWyq3m4_Pyb_ixYWDniHimCYkuop5-SC69yLsYEU0-y-lR3Uc-c
+d2lWvL4yFwykZ6W0h0euL8M8L-W7JW
+}
+
+!procedure ServiceKubernetesFleetManager($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/Other/ServiceKubernetesFleetManager', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceKubernetesFleetManagerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceKubernetesFleetManagerLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceKubernetesFleetManagerGroup($id, $name='Service Kubernetes Fleet Manager', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceKubernetesFleetManagerLg>', $name, $tech)
+!endprocedure

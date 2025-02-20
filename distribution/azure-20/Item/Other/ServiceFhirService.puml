@@ -1,0 +1,21 @@
+' definition of the Item azure-20/Item/Other/ServiceFhirService
+
+sprite $ServiceFhirServiceXs [10x10/16z] LSU73G0120904bHW_u6_rxE2hoRPs75Fm3maeQTREpRtp_PC3tmepBQpKtvM
+
+sprite $ServiceFhirServiceSm [12x12/16z] RSW50e0020D0Sfl_Vx3TUZJsqWjRkUqA_qYY5roXEjT34WC5Q0FFN9x3WhtCXz9b0W
+
+sprite $ServiceFhirServiceMd [16x16/16z] VSZ70S0m2CLG7AmFtd_WzDxUJR8tpAgjYityhQl-nSGXW5YfE5mQ_3JKIQ0vSoANXESEh2WdRPP1j8jix-nc
+
+sprite $ServiceFhirServiceLg [20x20/16z] bSg55S0W40JHizqZ_HSST-VZyv17kjWb-0IxvZ9vRi5_SXG0ayEseW0WUhjcPe41j-Q0EmPR2v3XvFIl398sl4afcum065PcSwGevqSpAmckZoqsjUH61m
+
+!procedure ServiceFhirService($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/Other/ServiceFhirService', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceFhirServiceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceFhirServiceLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceFhirServiceGroup($id, $name='Service Fhir Service', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceFhirServiceLg>', $name, $tech)
+!endprocedure

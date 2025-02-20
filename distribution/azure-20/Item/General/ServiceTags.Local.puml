@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-20/bootstrap')
+
+' loads the Item which embeds the element ServiceTags
+include('azure-20/Item/General/ServiceTags')
+
+' renders the element
+ServiceTags('ServiceTags', 'Service Tags', 'an optional tech label', 'an optional description')
+@enduml

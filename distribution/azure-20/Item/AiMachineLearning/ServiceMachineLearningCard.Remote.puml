@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-20/bootstrap')
+
+' loads the Item which embeds the element ServiceMachineLearningCard
+include('azure-20/Item/AiMachineLearning/ServiceMachineLearning')
+
+' renders the element
+ServiceMachineLearningCard('ServiceMachineLearningCard', 'Service Machine Learning Card', 'an optional description')
+@enduml

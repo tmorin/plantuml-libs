@@ -1,0 +1,21 @@
+' definition of the Item azure-20/Item/Networking/ServicePublicIpPrefixes
+
+sprite $ServicePublicIpPrefixesXs [10x10/16z] HSW50G0m20J0dwz_OLmE1sLkfTitkXqXpw-R0-wzvrou-iBwEFr5OG
+
+sprite $ServicePublicIpPrefixesSm [12x12/16z] TSc54S1020J0OuBrNt7mqTyNvF3Wb1n9H3Hilr7s4n75bpr2VhAc1t-8FWcByFOf-_C3
+
+sprite $ServicePublicIpPrefixesMd [16x16/16z] XSf50W1H209Gz1VtF_68q_rs17wG8t7DewOrjz35zanFbKiUAJvBLaLH6oAp8n5crWvKFcOut5nPQbkyP2yBN4m
+
+sprite $ServicePublicIpPrefixesLg [20x20/16z] ZSY54G0X30J0097hl-AVoBknuqkJEc-s0th1bjZi9qx3-I2SWFjPtTdf02jG5wTKC9oVxiZ9sU5uo60Ufsiar1lLRS_Yzjkztxy5
+
+!procedure ServicePublicIpPrefixes($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/Networking/ServicePublicIpPrefixes', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServicePublicIpPrefixesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServicePublicIpPrefixesLg>', 'Networking', $funcName, $content)
+!endprocedure
+
+!procedure ServicePublicIpPrefixesGroup($id, $name='Service Public Ip Prefixes', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServicePublicIpPrefixesLg>', $name, $tech)
+!endprocedure

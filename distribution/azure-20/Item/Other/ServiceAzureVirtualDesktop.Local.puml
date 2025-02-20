@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-20/bootstrap')
+
+' loads the Item which embeds the element ServiceAzureVirtualDesktop
+include('azure-20/Item/Other/ServiceAzureVirtualDesktop')
+
+' renders the element
+ServiceAzureVirtualDesktop('ServiceAzureVirtualDesktop', 'Service Azure Virtual Desktop', 'an optional tech label', 'an optional description')
+@enduml

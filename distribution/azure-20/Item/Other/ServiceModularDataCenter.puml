@@ -1,0 +1,27 @@
+' definition of the Item azure-20/Item/Other/ServiceModularDataCenter
+
+sprite $ServiceModularDataCenterXs [10x10/16z] 5Sj15W0G30FHWQ3j_U-h-VEo37OCq-qmlGuBWoMTx3X0scQCwSTPQ6ZsacCQf-2Cithr0G
+
+sprite $ServiceModularDataCenterSm [12x12/16z] HOh50SC030CjC3JTVzumd3wYE42TdBxwvFITTUZoStBwgJuK0SNlzlRUBoVyFbDXmJ3X9RZxB17vZo2febYxBwFHOlS6
+
+sprite $ServiceModularDataCenterMd [16x16/16z] {
+LSc95SGm20DHiI21lVtt6vmxu_C_S4ITdSwhqqKc9RvSotLwLFNkw-DnsEbJ6ihIilgqv_A4DTjNyDOvhvuJY2VD0EWMDASPnmGHRTVk-GU2dJhxQHaAapnk
+fo8pbC44DW
+}
+
+sprite $ServiceModularDataCenterLg [20x20/16z] {
+VSy55iCm30DGasGllVzzvwGmdWfwxxSXEGEUmMNvoCE09DZri0AgRTPVkrNrNRCUTkLXWnp9d2KT9u1NirZ_POxAwceZPTaZmgVvYZLhZjEEdUTeOrE4-VMW
+XhV1rU1c25MWvuD8j8KpE8tR9i8hW2gN7Vy5Wr1ZBbE6Ek7sR9dazL3a3W
+}
+
+!procedure ServiceModularDataCenter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/Other/ServiceModularDataCenter', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceModularDataCenterCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceModularDataCenterLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceModularDataCenterGroup($id, $name='Service Modular Data Center', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceModularDataCenterLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item azure-20/Item/Other/ServiceAzureEdgeHardwareCenter
+
+sprite $ServiceAzureEdgeHardwareCenterXs [10x10/16z] LSQ10G0G3CJ03y3-0mD0Q7i-Z2J5MHTzXqzfTWHIxXa4KyOuTwLH4nK
+
+sprite $ServiceAzureEdgeHardwareCenterSm [12x12/16z] NSY53G0n581GgF_z1pxN4dkXjhC4zAkyso9Wdlxu_77rCGfnb0Izd3INsocNmj7bgysi
+
+sprite $ServiceAzureEdgeHardwareCenterMd [16x16/16z] NSk50O0W443HwzX_OANh6_08jHNKxB6RkMdDkmKTeJQywzPxFzoYtu_k7U1fB1NdgAdyfecgIBPB8fTPIjwRXbatmOwO0Nu
+
+sprite $ServiceAzureEdgeHardwareCenterLg [20x20/16z] TSg53SLG5CFG98_t7_X3BvGjFdBhXngs-YcpSIoigmnnguymQX1RQQVUlpce6JRTZZsPI9wjqkXWC2AveYcPiAvCuhzIZxPLwytAco7ZoI8pufoA07m1
+
+!procedure ServiceAzureEdgeHardwareCenter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/Other/ServiceAzureEdgeHardwareCenter', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureEdgeHardwareCenterCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureEdgeHardwareCenterLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureEdgeHardwareCenterGroup($id, $name='Service Azure Edge Hardware Center', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureEdgeHardwareCenterLg>', $name, $tech)
+!endprocedure
