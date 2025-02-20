@@ -1,4 +1,4 @@
-import { AwsQ22024Factory } from "./packages/aws-q2-2024"
+import { AwsQ12025Factory } from "./packages/aws-q1-2025"
 import { AzureV20Factory } from "./packages/azure-20"
 import { C4modelFactory } from "./packages/c4model"
 import { C4nordFactory } from "./packages/c4nord"
@@ -18,7 +18,7 @@ import { Material4Factory } from "./packages/material-4"
 import { Simpleicons14Factory } from "./packages/simpleicons-14"
 
 const PACKAGE_FACTORIES = [
-  new AwsQ22024Factory(),
+  new AwsQ12025Factory(),
   new AzureV20Factory(),
   new C4modelFactory(),
   new C4nordFactory(),

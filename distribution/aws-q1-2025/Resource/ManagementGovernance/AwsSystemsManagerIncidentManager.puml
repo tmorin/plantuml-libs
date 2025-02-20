@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2025/Resource/ManagementGovernance/AwsSystemsManagerIncidentManager
+
+sprite $AwsSystemsManagerIncidentManagerXs [10x10/16z] 1S450G0m300WRhF-WGy0u4YWC0dBMWmmI6pIubKL000CDk3m0G
+
+sprite $AwsSystemsManagerIncidentManagerSm [12x12/16z] POo50S0m3CCA8V__y3Gc5O9sUnFMTQIzWNpBnICRXEIhTjL9JB4mjsLjkzuFWor-SYNebqFYkm
+
+sprite $AwsSystemsManagerIncidentManagerMd [16x16/16z] PSUt0G9030GmVRIF_VSbbQ1E-9Va0g0W009qNw3WR2ReXG5o24GTtUOGJBXwQ469ni6QGA0m-qEW0Vm-zRK17kEh01Zp001tuGK
+
+sprite $AwsSystemsManagerIncidentManagerLg [20x20/16z] {
+ZSy5aWGW34JHZtQQ-nzuYmexRWztmbizhC8TDq2wcyejRN3T6wHbcLGhsvYxts-Ebb9oxm2AENMdgD82b7ifgs0CskqcAWmZxUlZF3CfWgogEE9Q3yUcSyla
+ngzpLZ9NwoxKD2A9EwEP9tdi3m
+}
+
+!procedure AwsSystemsManagerIncidentManager($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Resource/ManagementGovernance/AwsSystemsManagerIncidentManager', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsSystemsManagerIncidentManagerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsSystemsManagerIncidentManagerLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsSystemsManagerIncidentManagerGroup($id, $name='Aws Systems Manager Incident Manager', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsSystemsManagerIncidentManagerLg>', $name, $tech)
+!endprocedure

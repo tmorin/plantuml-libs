@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2025/Architecture/InternetOfThings/AwsIoTDeviceDefender
+
+sprite $AwsIoTDeviceDefenderXs [10x10/16z] OyS16DcOi0Z2A0P61ZGnTXOWYndAPa3L1W
+
+sprite $AwsIoTDeviceDefenderSm [12x12/16z] VSR50S0W542nxs__YUjU8ASm96UyCD9P9GO41-KaeXB1Ab2bYfMlnzYuQWIdu6i6
+
+sprite $AwsIoTDeviceDefenderMd [16x16/16z] dKwr0G112CEp_yJdGlU2Ey4lSX6BawctGYlgxWACLh2R6-FcR4sdcsqZPQBJ9u4mDtVtUtxtPnwSu32pPu0KU4KL
+
+sprite $AwsIoTDeviceDefenderLg [20x20/16z] hSlN5KH1209G1OJ-AzwyB_uE4xr7ioIwGPSBFWZ7qKiyt6m-e_svZmRZPkcShFjhQcoKL4sZUkypu4ntoCw6oSSIRwRDk1dqCo9Rt7hPJ_PKTHRa2G
+
+!procedure AwsIoTDeviceDefender($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Architecture/InternetOfThings/AwsIoTDeviceDefender', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTDeviceDefenderCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTDeviceDefenderLg>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTDeviceDefenderGroup($id, $name='Aws Io T Device Defender', $tech='')
+  IconGroupElement($id, 'InternetOfThingsFamily', '<$AwsIoTDeviceDefenderLg>', $name, $tech)
+!endprocedure

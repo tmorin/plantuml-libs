@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2025/Resource/GeneralIcons/Logs
+
+sprite $LogsXs [10x10/16z] Oq02h43CYya2iI4iTZO8YvU1Xu6N5rMMdOsTdHtC0WCGYvq917WP
+
+sprite $LogsSm [12x12/16z] PSR50O1G04EnFfoM_TV5_USKVPXLEAvLgkhvcEC7zZTA_NnIpX_A8-0ujaVl7tEG5W
+
+sprite $LogsMd [16x16/16z] TOo50K1124AvjFSVztV7krG1l76RSTbhnKALUvsot6eLewFU9yUThtKd1Foi3NCLHmqlc9lwavSIqiHVdNG2gdz-twd02
+
+sprite $LogsLg [20x20/16z] {
+XSs55O0W04NHJ_V-wtgacsTV2UmZljIC2gI2tnZrgm5-CMESxwtutHYWg1nCsV-BUDBP_-O14Phze0YCHc-_llSbIack_fg1b3eJV_-zC_httwifsie6raK1
+V
+}
+
+!procedure Logs($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Resource/GeneralIcons/Logs', $name, $tech, $desc)
+!endprocedure
+
+!procedure LogsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$LogsLg>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+
+!procedure LogsGroup($id, $name='Logs', $tech='')
+  IconGroupElement($id, 'GeneralIconsFamily', '<$LogsLg>', $name, $tech)
+!endprocedure

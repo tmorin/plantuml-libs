@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2025/Architecture/ManagementGovernance/AwsUserNotifications
+
+sprite $AwsUserNotificationsXs [10x10/16z] uo886BWu6A1CHYus4CKEbsC64o11JY20AMD5Cm4
+
+sprite $AwsUserNotificationsSm [12x12/16z] uo8MS79nCK9Pp2oSJ9mCO3OJ5nSha0033Wmj39n0aXMi3gAPdPsHYPqTdpK
+
+sprite $AwsUserNotificationsMd [16x16/16z] hSh7WG9030F0pLvF__tUaU57d9SjoKziQAvcwQ96Js0anQxfyYDPpd93k8hhg3t-NLqDz3nQT21YH8tmO7lLFm
+
+sprite $AwsUserNotificationsLg [20x20/16z] lSrL0WGW24LH4tnt__kTiFydZXq0_oC1c7E9GT1YQ32r91LJpRcAAVP9cB5L01bYyv4bSodgIxhlvoQX78rEOTv9DJfTrHIWCCZTinMVfJQlVCSJ
+
+!procedure AwsUserNotifications($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Architecture/ManagementGovernance/AwsUserNotifications', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsUserNotificationsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsUserNotificationsLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsUserNotificationsGroup($id, $name='Aws User Notifications', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsUserNotificationsLg>', $name, $tech)
+!endprocedure

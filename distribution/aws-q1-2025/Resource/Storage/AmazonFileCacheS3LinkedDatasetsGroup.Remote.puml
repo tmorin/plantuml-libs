@@ -1,0 +1,20 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2025/bootstrap')
+
+' loads the Item which embeds the element AmazonFileCacheS3LinkedDatasetsGroup
+include('aws-q1-2025/Resource/Storage/AmazonFileCacheS3LinkedDatasets')
+
+' renders the element
+AmazonFileCacheS3LinkedDatasetsGroup('AmazonFileCacheS3LinkedDatasetsGroup', 'Amazon File Cache S3 Linked Datasets Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

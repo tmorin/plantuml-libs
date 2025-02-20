@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2025/Architecture/ArtificialIntelligence/AmazonTranscribe
+
+sprite $AmazonTranscribeXs [10x10/16z] uy0DcE0iPZ2JWPMH2S9WO63au605IK1P4Cp1pWwIvM16CmW
+
+sprite $AmazonTranscribeSm [12x12/16z] VOkr0GG120GVMEk_uJ-FJYQ1jNnIzRjUayDBG32sPnomVBXIRTdsTVFwj-razh6aL0wO9nO
+
+sprite $AmazonTranscribeMd [16x16/16z] dKt50OH03Dp8IFyDt-7mG_BAkBzTa1owOC09djWs6Hj292MvJz7M7cyNj72vobazGWVEgivLFuD2PzQgiwtmTLlom_i3
+
+sprite $AmazonTranscribeLg [20x20/16z] {
+hOzL0WD124CXsMno_mlNPUIpVQCuv1_mpZdhaCJGh9DawrZzGi9VbGC4i3wwej011Y-C_Y-lbCkTEtefczM5vgWZTbsb7oUs3sVCWRlkK-Eaunw7FSeH1yql
+N04
+}
+
+!procedure AmazonTranscribe($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Architecture/ArtificialIntelligence/AmazonTranscribe', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonTranscribeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonTranscribeLg>', 'ArtificialIntelligence', $funcName, $content)
+!endprocedure
+
+!procedure AmazonTranscribeGroup($id, $name='Amazon Transcribe', $tech='')
+  IconGroupElement($id, 'ArtificialIntelligenceFamily', '<$AmazonTranscribeLg>', $name, $tech)
+!endprocedure

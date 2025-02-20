@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2025/Resource/IoT/AwsIoTServo
+
+sprite $AwsIoTServoXs [10x10/16z] Oy06c260bGN2PMTdO8JBCOBvG80cni06OR730C8u
+
+sprite $AwsIoTServoSm [12x12/16z] TSR50K0n2C3GuFjF_ALw8Ytmw8eRi_f-BciMlnqC-AtZ3w-M8xR58PQRNW
+
+sprite $AwsIoTServoMd [16x16/16z] bOi54eH030GxElz_yIcGsXAaLpF2KrG_-lkgczvre9cPLl-LuJ-70Cqi4k77J414p5onzCjSFhCCq37dGd316m
+
+sprite $AwsIoTServoLg [20x20/16z] fSZN0O0m30FH2qBM_XFJEv-vL3zwQhyWEekMdB4HpcAWt9v6lFBR63NSTdTQR1ZojltoqsHGLJtjxhQAexSbeDBB2bPysgz6HpC
+
+!procedure AwsIoTServo($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Resource/IoT/AwsIoTServo', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTServoCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTServoLg>', 'IoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTServoGroup($id, $name='Aws Io T Servo', $tech='')
+  IconGroupElement($id, 'IoTFamily', '<$AwsIoTServoLg>', $name, $tech)
+!endprocedure

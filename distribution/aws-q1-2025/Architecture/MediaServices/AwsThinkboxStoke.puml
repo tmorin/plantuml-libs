@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2025/Architecture/MediaServices/AwsThinkboxStoke
+
+sprite $AwsThinkboxStokeXs [10x10/16z] TSR50S1030D1nRJzLtpWJtWC4d-YQ7aWiQnlf7KJ5TqCqtgBEMOqexYQ
+
+sprite $AwsThinkboxStokeSm [12x12/16z] VSQt0SC030D1WW6__yIsOgDqrV4fEBLeRxCCfjRFn59fEnQgsGynMx4jNCr6GHG7S_C7
+
+sprite $AwsThinkboxStokeMd [16x16/16z] dOp70S9040DNsZ3zLqosxtw0vwV8DLgxcauYvyW20LMVZbn3u7A_zQY3XpeqoM3KX-wN9TxQ3ot6XsxBHTZYGyOGqHzrVFx47G
+
+sprite $AwsThinkboxStokeLg [20x20/16z] {
+hOlL0GDG20D30jp-4zUzd-qz9S9Vw6-fUfPNDXayCqz9imK8rKCg2fgPRT-rADYBfXuQ7a8HyjI4e7TxdbfXvlg-TkqLUj4KGdcpvYuwWJWs3rg2g9PNRBJy
+pX4
+}
+
+!procedure AwsThinkboxStoke($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Architecture/MediaServices/AwsThinkboxStoke', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsThinkboxStokeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsThinkboxStokeLg>', 'MediaServices', $funcName, $content)
+!endprocedure
+
+!procedure AwsThinkboxStokeGroup($id, $name='Aws Thinkbox Stoke', $tech='')
+  IconGroupElement($id, 'MediaServicesFamily', '<$AwsThinkboxStokeLg>', $name, $tech)
+!endprocedure

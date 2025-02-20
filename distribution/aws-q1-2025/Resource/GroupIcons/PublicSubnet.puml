@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2025/Resource/GroupIcons/PublicSubnet
+
+sprite $PublicSubnetXs [10x10/16z] OyS1sDYPs8a1h4Ie0G
+
+sprite $PublicSubnetSm [12x12/16z] OyS7c9ZPu4maOMOa9YCp441KiQAGZCWYB6YoKDFXUX4
+
+sprite $PublicSubnetMd [16x16/16z] OoSIiA7mc808LH95W0K_duaP0bYXV2mqCpgV3SudJ3EpG02GJn
+
+sprite $PublicSubnetLg [20x20/16z] hOk53G0n30EbnB3_nC_Cq2l6u08mWXi9iXLhBRlifZhTRpLmOjBEVWbkDJRgBXUnxygJzkutuJVK
+
+!procedure PublicSubnet($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Resource/GroupIcons/PublicSubnet', $name, $tech, $desc)
+!endprocedure
+
+!procedure PublicSubnetCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$PublicSubnetLg>', 'GroupIcons', $funcName, $content)
+!endprocedure
+
+!procedure PublicSubnetGroup($id, $name='Public Subnet', $tech='')
+  IconGroupElement($id, 'GroupIconsFamily', '<$PublicSubnetLg>', $name, $tech)
+!endprocedure

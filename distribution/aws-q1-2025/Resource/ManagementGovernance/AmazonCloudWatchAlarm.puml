@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2025/Resource/ManagementGovernance/AmazonCloudWatchAlarm
+
+sprite $AmazonCloudWatchAlarmXs [10x10/16z] Oq07d0mSS3ONb6RdWejmCG55ES5oO1ON0oik5Xm
+
+sprite $AmazonCloudWatchAlarmSm [12x12/16z] VSQ54O0m542nTtpVVs3SeSrP-27YvmFgU8BmGmP0zxFVgFv52IaHWRXC
+
+sprite $AmazonCloudWatchAlarmMd [16x16/16z] dOs30G0n40HpHl_zlktFXAVTSWz5q3QMOQ_0S5PysDl4FWopw1vL7UFiKjt3Wye-9jNOnPrrPJpuGN-ngdGkExm5
+
+sprite $AmazonCloudWatchAlarmLg [20x20/16z] jSk54S0m0090ui3-0zVTpahyZ-0pWIfd4f1vjF7fRqjb_7zCiy-4sFVEPfczWvBQOdqrJYTqQvPKpWQ47usanhst_jhRNSebeGC
+
+!procedure AmazonCloudWatchAlarm($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Resource/ManagementGovernance/AmazonCloudWatchAlarm', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonCloudWatchAlarmCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonCloudWatchAlarmLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AmazonCloudWatchAlarmGroup($id, $name='Amazon Cloud Watch Alarm', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AmazonCloudWatchAlarmLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2025/Resource/GroupIcons/AutoScalingGroup
+
+sprite $AutoScalingGroupXs [10x10/16z] OyS56F2n682Ga3e4
+
+sprite $AutoScalingGroupSm [12x12/16z] OySB68XWix2pmPXCxCm4rRCniEAp4G
+
+sprite $AutoScalingGroupMd [16x16/16z] OoSIiA5oMHbOKGKOs4dXCq4mmdGse978V1BDOsTYO48LO2RINm
+
+sprite $AutoScalingGroupLg [20x20/16z] OwSAOC8KOcHWn1HaO2TJZ1KineeGO0C2a2f640DD9mEQNh3xM2Xt2yAx34pOrL4E
+
+!procedure AutoScalingGroup($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Resource/GroupIcons/AutoScalingGroup', $name, $tech, $desc)
+!endprocedure
+
+!procedure AutoScalingGroupCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AutoScalingGroupLg>', 'GroupIcons', $funcName, $content)
+!endprocedure
+
+!procedure AutoScalingGroupGroup($id, $name='Auto Scaling Group', $tech='')
+  IconGroupElement($id, 'GroupIconsFamily', '<$AutoScalingGroupLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,20 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2025/bootstrap')
+
+' loads the Item which embeds the element AmazonSimpleQueueServiceQueueGroup
+include('aws-q1-2025/Resource/ApplicationIntegration/AmazonSimpleQueueServiceQueue')
+
+' renders the element
+AmazonSimpleQueueServiceQueueGroup('AmazonSimpleQueueServiceQueueGroup', 'Amazon Simple Queue Service Queue Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

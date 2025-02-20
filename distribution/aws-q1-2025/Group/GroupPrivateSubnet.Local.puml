@@ -1,0 +1,20 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2025/bootstrap')
+
+' loads the Item which embeds the element GroupPrivateSubnet
+include('aws-q1-2025/Group/GroupPrivateSubnet')
+
+GroupPrivateSubnet('GroupPrivateSubnet', 'Group Private Subnet', 'an optional tech label') {
+  note as note
+  the content of the boundary
+  end note
+}
+@enduml

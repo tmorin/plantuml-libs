@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2025/Resource/GroupIcons/Ec2InstanceContents
+
+sprite $Ec2InstanceContentsXs [10x10/16z] OwS3
+
+sprite $Ec2InstanceContentsSm [12x12/16z] OySDs82OaHd2P6450HOmXvKmoGXXCuACO8QmcS0ao1n69cGxq
+
+sprite $Ec2InstanceContentsMd [16x16/16z] ZKw54S1023iWil_4TTV7dRY9j9Wr2nlEDGLdmZ917xrYpGDh_TDZpUlvNgxv6e115dF7XyNyKmy
+
+sprite $Ec2InstanceContentsLg [20x20/16z] OwSKiC4WNZ4sDXPM66212xEomrbmTGYnGQKE8SiAWzZyIp4
+
+!procedure Ec2InstanceContents($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Resource/GroupIcons/Ec2InstanceContents', $name, $tech, $desc)
+!endprocedure
+
+!procedure Ec2InstanceContentsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$Ec2InstanceContentsLg>', 'GroupIcons', $funcName, $content)
+!endprocedure
+
+!procedure Ec2InstanceContentsGroup($id, $name='Ec2 Instance Contents', $tech='')
+  IconGroupElement($id, 'GroupIconsFamily', '<$Ec2InstanceContentsLg>', $name, $tech)
+!endprocedure

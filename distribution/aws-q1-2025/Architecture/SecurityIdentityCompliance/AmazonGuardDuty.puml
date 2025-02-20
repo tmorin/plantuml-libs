@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2025/Architecture/SecurityIdentityCompliance/AmazonGuardDuty
+
+sprite $AmazonGuardDutyXs [10x10/16z] RSc50G0G441HpTz_ODqyhlap0K9jG505jAJJ2YoLqErQVsSv9
+
+sprite $AmazonGuardDutySm [12x12/16z] VOg54G8140Cdfsp_1GFl_Xc9BM-IbkJMLFQO3RLX8z0X2xp6USmaGBNfCp4aved6tERO64SgEUi7
+
+sprite $AmazonGuardDutyMd [16x16/16z] ZOor0GKm4483bvEt_y3VjGiLpY7cNxZrjI8tjBDVQK8uGQzyKtkLy5CQUYnJww7xhLy53LLU8lGUgDr5VFyp-llVyYqCySMoEC8L
+
+sprite $AmazonGuardDutyLg [20x20/16z] {
+hSgrWGDH54FH_rYt_u8NxQ78T381dn2Hd2Hg38bDZ3KetMTx3L1BW7DdH4ot3S6D6e-mHMs_QF30YqAf_mwsZlhlqeKddZHbub-IhEK1neqSh2SA_DY1uF1Z
+F5oKkN6IPLn9uadV
+}
+
+!procedure AmazonGuardDuty($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Architecture/SecurityIdentityCompliance/AmazonGuardDuty', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonGuardDutyCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonGuardDutyLg>', 'SecurityIdentityCompliance', $funcName, $content)
+!endprocedure
+
+!procedure AmazonGuardDutyGroup($id, $name='Amazon Guard Duty', $tech='')
+  IconGroupElement($id, 'SecurityIdentityComplianceFamily', '<$AmazonGuardDutyLg>', $name, $tech)
+!endprocedure

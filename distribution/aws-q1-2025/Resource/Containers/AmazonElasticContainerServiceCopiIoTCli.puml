@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2025/Resource/Containers/AmazonElasticContainerServiceCopiIoTCli
+
+sprite $AmazonElasticContainerServiceCopiIoTCliXs [10x10/16z] PSV50S1G08DGKil-4_UxStemyctZlkg-XMWduEtAj3WJNoi
+
+sprite $AmazonElasticContainerServiceCopiIoTCliSm [12x12/16z] LOg50G10209jzv_uE_1iWP28cGaVl6BNnXHktpDX7tEOriuosfR7vWCg11uT
+
+sprite $AmazonElasticContainerServiceCopiIoTCliMd [16x16/16z] TOw50G0X30DJ2_jF_8hBeVNWXEUN0eW8QFnjeBp6qGR2YrsZR1xYjrAs8zlWP8EZxPOr-MU7eE0v8ru6VSXMOazWuWO
+
+sprite $AmazonElasticContainerServiceCopiIoTCliLg [20x20/16z] ZSY54SC034MnP_pxJrpo1KlHiRYgfK0Fc9eX5cPqlH-eZfS09fiR8GFiTSOYUpa5YrgEolUZwltmUhygXdovTXRPS-98KpMMEp5xFpUypu1tTm
+
+!procedure AmazonElasticContainerServiceCopiIoTCli($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Resource/Containers/AmazonElasticContainerServiceCopiIoTCli', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonElasticContainerServiceCopiIoTCliCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonElasticContainerServiceCopiIoTCliLg>', 'Containers', $funcName, $content)
+!endprocedure
+
+!procedure AmazonElasticContainerServiceCopiIoTCliGroup($id, $name='Amazon Elastic Container Service Copi Io T Cli', $tech='')
+  IconGroupElement($id, 'ContainersFamily', '<$AmazonElasticContainerServiceCopiIoTCliLg>', $name, $tech)
+!endprocedure

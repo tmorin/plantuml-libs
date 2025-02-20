@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2025/Category/Analytics
+
+sprite $AnalyticsXs [10x10/16z] OqS03XZ0OB70M8pi41O38v22Ya5PZ220gXS6
+
+sprite $AnalyticsSm [12x12/16z] OqS67730Yivc0m48cnaioWvdCy7PB8nmSNQ46ZQmsKmOPYBOh7300W
+
+sprite $AnalyticsMd [16x16/16z] XSc53G0n5CFGpyd-2nypj1O-6SyyhmcIrxvTIzZjwxixXRZQukAaagS1yZGijlQVQxRwMjzoRmG
+
+sprite $AnalyticsLg [20x20/16z] fSYr0G11008mE8Fz5tvtbvJH4N0BehTUNXbelkX1sfwofCsPSNF5KMLzA9Izkk36vhozEEDu1aTnk8sVXntM
+
+!procedure Analytics($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Category/Analytics', $name, $tech, $desc)
+!endprocedure
+
+!procedure AnalyticsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AnalyticsLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure AnalyticsGroup($id, $name='Analytics', $tech='')
+  IconGroupElement($id, 'Analytics', '<$AnalyticsLg>', $name, $tech)
+!endprocedure

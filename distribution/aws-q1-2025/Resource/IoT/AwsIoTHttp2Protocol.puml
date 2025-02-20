@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2025/Resource/IoT/AwsIoTHttp2Protocol
+
+sprite $AwsIoTHttp2ProtocolXs [10x10/16z] Oq00HYZDZX0XZeLc1XiGCm5Px0oCOC04
+
+sprite $AwsIoTHttp2ProtocolSm [12x12/16z] fScr0G103090YEu_yRlrVqq2u9NS75Ty_k5Jjj_GK1ZW_A4MQ5jCMG4
+
+sprite $AwsIoTHttp2ProtocolMd [16x16/16z] lOi50G0n30ClHV-Adt42Lcw0CTJrHaF_sAH-Vqt-sVyS-C2Jz335-Sk3SCNEzyvBUo7RtQfFh
+
+sprite $AwsIoTHttp2ProtocolLg [20x20/16z] rOk50SGm3CGaX_QV-A4SMA0A-e0bfNLKVvBqj6ttwFiqsBJMuQRbHJTdoMGY1t5gjMvQYT-jr4TEzfnDYWz2GEpW2m
+
+!procedure AwsIoTHttp2Protocol($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Resource/IoT/AwsIoTHttp2Protocol', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTHttp2ProtocolCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTHttp2ProtocolLg>', 'IoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTHttp2ProtocolGroup($id, $name='Aws Io T Http2 Protocol', $tech='')
+  IconGroupElement($id, 'IoTFamily', '<$AwsIoTHttp2ProtocolLg>', $name, $tech)
+!endprocedure

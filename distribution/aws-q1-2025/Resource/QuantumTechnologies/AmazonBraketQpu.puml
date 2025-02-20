@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2025/Resource/QuantumTechnologies/AmazonBraketQpu
+
+sprite $AmazonBraketQpuXs [10x10/16z] NS550S004C2m7jQ_ul5h2JyAD8yjNj5yvEMoYq2B8aM9GZTZAQ-44m
+
+sprite $AmazonBraketQpuSm [12x12/16z] LSQ70GCn24KnkNpOV-BqN94DF7S9vQFpKHXPdpP8uYFujEBNNNOlbM2dDKbKKNp6hlv4Ocyn_VJY2G
+
+sprite $AmazonBraketQpuMd [16x16/16z] RSz70W9G30BH0HEu_udjNUVNjmn_MW5e7uuaSBWcwvu5I3hijS6wUhbtCKyRuENXtjLjcFPXGne8yiKqXYxiQdRO2Xe0tqwdi02nICh6ViqJoaS1E04
+
+sprite $AmazonBraketQpuLg [20x20/16z] {
+TOu7ia0X20CN2UJ-9_v5dNazLfRAbuecmVZAT67LdcjU2I0P3hKI8fgihQ1YkIYs0atIFXXqrpLENfcP1plYDxCRrEw35TXkCGBRawLmKiOxBc8D07Oouo8J
+iYRJZWCGs7AXc9LQHYKxRVQCjMB7u9XG--zHFBJIVW4
+}
+
+!procedure AmazonBraketQpu($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Resource/QuantumTechnologies/AmazonBraketQpu', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonBraketQpuCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonBraketQpuLg>', 'QuantumTechnologies', $funcName, $content)
+!endprocedure
+
+!procedure AmazonBraketQpuGroup($id, $name='Amazon Braket Qpu', $tech='')
+  IconGroupElement($id, 'QuantumTechnologiesFamily', '<$AmazonBraketQpuLg>', $name, $tech)
+!endprocedure

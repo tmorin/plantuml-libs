@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2025/Resource/NetworkingContentDelivery/AmazonVpcCustomerGateway
+
+sprite $AmazonVpcCustomerGatewayXs [10x10/16z] JKk30G1134lwt7_Ygwq0EtvGMqENRg_ehpvvm3-2wT5kdTYIDE9x-2jo
+
+sprite $AmazonVpcCustomerGatewaySm [12x12/16z] DS673S0m400XtFIt_yHH2m00TDODN4uSW709WkSSn9RLRrm84WIRmmu3bnZWDMry
+
+sprite $AmazonVpcCustomerGatewayMd [16x16/16z] RO-50O0020GF49xz5xPRwGx-m5jgdMxRp12rkPfvIozCSya4jvjVXt4eHxSkKQXluAAll0U9xlqsSznypLoRxqlAhljYTeUjDmiSarqFbdAp9W
+
+sprite $AmazonVpcCustomerGatewayLg [20x20/16z] {
+TOw5eKCn30DFTX9f_uK_jdry0JFmJ2t7KsoCD0XMUEC6Lkgj0XQGZW7-8enNAA-CZxv96Qg1Ksn1s7p556OrcyzL8ieH2LFUyXHQJAupjCw-wtwZFfj3n6Pr
+W7B2barRK066-U3CKYV57ltmrhy1
+}
+
+!procedure AmazonVpcCustomerGateway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Resource/NetworkingContentDelivery/AmazonVpcCustomerGateway', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonVpcCustomerGatewayCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonVpcCustomerGatewayLg>', 'NetworkingContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AmazonVpcCustomerGatewayGroup($id, $name='Amazon Vpc Customer Gateway', $tech='')
+  IconGroupElement($id, 'NetworkingContentDeliveryFamily', '<$AmazonVpcCustomerGatewayLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2025/Architecture/Database/AmazonMemoryDb
+
+sprite $AmazonMemoryDbXs [10x10/16z] RSQ53S0m402nP_Ns7xXC0OlCbC32oQCaUDmpn0qWm_bJ83LJqlXi
+
+sprite $AmazonMemoryDbSm [12x12/16z] TOor0S10201nsN_WDw1B3jVyXn6vKxmEAYSNSVZgeuDOzr75HLu_zJvxEPwSADFpee_AXmq
+
+sprite $AmazonMemoryDbMd [16x16/16z] ZOs50G0n20DnoFu3lxlsgbY29keOc4I6sXRxSYzKo4XiSKvFRh5Suan98LFU-akAc1RNuX0TlobhFQVG5sK30vFXqk34CuHVUW
+
+sprite $AmazonMemoryDbLg [20x20/16z] {
+fO-30KH130Np7uB-2pxRcFMialcNigIwD1sr7owS-dZwxCXGfWEwSDkBtTENxZ1UETIzcm9c2R9mULTgaNa-vr5o_seSNHLr21kNTu-dbaCUjKi5sAuFRep5
+fXssqNEWpypdh04
+}
+
+!procedure AmazonMemoryDb($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Architecture/Database/AmazonMemoryDb', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonMemoryDbCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonMemoryDbLg>', 'Database', $funcName, $content)
+!endprocedure
+
+!procedure AmazonMemoryDbGroup($id, $name='Amazon Memory Db', $tech='')
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonMemoryDbLg>', $name, $tech)
+!endprocedure

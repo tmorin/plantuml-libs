@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2025/Resource/NetworkingContentDelivery/AmazonVpcCarrierGateway
+
+sprite $AmazonVpcCarrierGatewayXs [10x10/16z] JOi50G1120G7ft_XrpES5SxeqSYtlvAdc_e-KGXe5I3aUt1eFgSvker0XRJ23G
+
+sprite $AmazonVpcCarrierGatewaySm [12x12/16z] NKq50WGX4C99_l_YmxbjMnAVGL_1UOMsNduGmHwCwC4BkRdMj12mz6x1Iq109FR1I-ymZ85Y-oYeuoafcnBW1m
+
+sprite $AmazonVpcCarrierGatewayMd [16x16/16z] RS410GDH20KW_9u--oTUWO5_tYKN05SKlK0m1u53km-6LuAZdkLu6YiyCKQkMh5YhHDLnFay5UjZX44hfz0QnoDOw0kw8AX3Vy0iL0h0smpm0m
+
+sprite $AmazonVpcCarrierGatewayLg [20x20/16z] {
+TSx7WI0m24FH1xP1_JUySS9f_eMCv6TwDllADpS7J03iGUrNYYtO3AJX7bYf1mlX5O9GIny67eGmdqdfv_7A4dNi7L5Nbn1TTSMgfpxsZ4bRtKvzV1Yudnir
+18AURqyGn-KsB4pbWGKdC2a8u6pXu2u0czTraiOtzGU0tm
+}
+
+!procedure AmazonVpcCarrierGateway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Resource/NetworkingContentDelivery/AmazonVpcCarrierGateway', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonVpcCarrierGatewayCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonVpcCarrierGatewayLg>', 'NetworkingContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AmazonVpcCarrierGatewayGroup($id, $name='Amazon Vpc Carrier Gateway', $tech='')
+  IconGroupElement($id, 'NetworkingContentDeliveryFamily', '<$AmazonVpcCarrierGatewayLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2025/Category/BusinessApplications
+
+sprite $BusinessApplicationsXs [10x10/16z] OqS0JXW0ivXXB0OW1BCueB9G2fN5p0W2S35EP1O
+
+sprite $BusinessApplicationsSm [12x12/16z] OqS6d730XibcHB0vE5cXR7O6a0o4pSm4akB0pmRRmuncFXiSi
+
+sprite $BusinessApplicationsMd [16x16/16z] ZSc50G0X40D1E4twB_ZTbKK7yfh5iPB1OvlpxAWdIwLXDrI7jytkq75VhPWCj1aICKnrN_zpJXTlFRcSwm4
+
+sprite $BusinessApplicationsLg [20x20/16z] hSY53GG14CF0HClz5_nup6GB9vO2fo5OqtPCvcQCgO45ZCrSoX53IwcFbGnCMxFiJEfl6e-OWErihIJQfBL9nmsp-0O
+
+!procedure BusinessApplications($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Category/BusinessApplications', $name, $tech, $desc)
+!endprocedure
+
+!procedure BusinessApplicationsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$BusinessApplicationsLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure BusinessApplicationsGroup($id, $name='Business Applications', $tech='')
+  IconGroupElement($id, 'BusinessApplications', '<$BusinessApplicationsLg>', $name, $tech)
+!endprocedure

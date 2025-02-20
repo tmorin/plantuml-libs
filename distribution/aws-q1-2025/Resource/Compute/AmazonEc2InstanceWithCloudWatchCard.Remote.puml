@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2025/bootstrap')
+
+' loads the Item which embeds the element AmazonEc2InstanceWithCloudWatchCard
+include('aws-q1-2025/Resource/Compute/AmazonEc2InstanceWithCloudWatch')
+
+' renders the element
+AmazonEc2InstanceWithCloudWatchCard('AmazonEc2InstanceWithCloudWatchCard', 'Amazon Ec2 Instance With Cloud Watch Card', 'an optional description')
+@enduml

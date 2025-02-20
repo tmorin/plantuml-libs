@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2025/Architecture/Storage/AmazonEfs
+
+sprite $AmazonEfsXs [10x10/16z] OySA6C0a8uJ30XD4i1aO620CLh0uH3KZ8uI6AaO
+
+sprite $AmazonEfsSm [12x12/16z] TOo54S102C0UpVuRzx3p1bT-UK8XKKxm17SAfQecAyOKOVaU0ND0fLECbRS9pZsxJyS7
+
+sprite $AmazonEfsMd [16x16/16z] bKn50iGm428oyFyNnydUjYtHmVGT26rKh8T9B1nlJHOu6FsG5tUPpEtAPmw201JMws8J7JYpxXm3XOwxE6q7icVe4Hq
+
+sprite $AmazonEfsLg [20x20/16z] fS-53GCm34JHC_xz9owV8YuzGT34VwRAs_Ks1TRnkYEWQu7f0XESexy25G67060RB9OPW0bia4fICrZJ02W6gsbtUlZVWYsAEs4vXONdZSRQNtVXR3zt1G
+
+!procedure AmazonEfs($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Architecture/Storage/AmazonEfs', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonEfsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonEfsLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonEfsGroup($id, $name='Amazon Efs', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonEfsLg>', $name, $tech)
+!endprocedure

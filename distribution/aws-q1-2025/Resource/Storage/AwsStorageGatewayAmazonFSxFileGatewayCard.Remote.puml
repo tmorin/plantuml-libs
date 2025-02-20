@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2025/bootstrap')
+
+' loads the Item which embeds the element AwsStorageGatewayAmazonFSxFileGatewayCard
+include('aws-q1-2025/Resource/Storage/AwsStorageGatewayAmazonFSxFileGateway')
+
+' renders the element
+AwsStorageGatewayAmazonFSxFileGatewayCard('AwsStorageGatewayAmazonFSxFileGatewayCard', 'Aws Storage Gateway Amazon F Sx File Gateway Card', 'an optional description')
+@enduml

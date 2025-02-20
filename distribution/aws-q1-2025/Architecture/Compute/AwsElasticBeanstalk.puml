@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2025/Architecture/Compute/AwsElasticBeanstalk
+
+sprite $AwsElasticBeanstalkXs [10x10/16z] OoS46DdPMM5i5dO64CK6PB23cQmiJ6oCp72LE
+
+sprite $AwsElasticBeanstalkSm [12x12/16z] OoSICB8omfWiGCm0vJ6pCm6vZ10cCnk81XEiZCniR40Xc0vcOkq1
+
+sprite $AwsElasticBeanstalkMd [16x16/16z] hOj70SDG5CFUiiKVSPkT0FWwURA27kN7oa2adXeoe2vRHml8btU-3IHbeyQw_awH6l6YO0b_
+
+sprite $AwsElasticBeanstalkLg [20x20/16z] lSiv0a9H20D0U9ymzx-nZNklqq4IVvEJwVLk6phZvK9ciyTJOMQfvxEX2nxDNNhoci2HxUZo-gMcJZRjAY_JxLfVqkLR_CmD
+
+!procedure AwsElasticBeanstalk($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Architecture/Compute/AwsElasticBeanstalk', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsElasticBeanstalkCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsElasticBeanstalkLg>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AwsElasticBeanstalkGroup($id, $name='Aws Elastic Beanstalk', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AwsElasticBeanstalkLg>', $name, $tech)
+!endprocedure

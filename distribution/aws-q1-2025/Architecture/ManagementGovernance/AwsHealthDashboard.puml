@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2025/Architecture/ManagementGovernance/AwsHealthDashboard
+
+sprite $AwsHealthDashboardXs [10x10/16z] uy8E61Y02Co08XXc14ip8gdaueGmsBYO468e
+
+sprite $AwsHealthDashboardSm [12x12/16z] VS470S1030IWtydXNt0T5FpeI0E75myAy_8Guj0GZGQcOGDS1I090040y04
+
+sprite $AwsHealthDashboardMd [16x16/16z] dST70eH020117KQ4-lz_DyVJXZfr-qD7b8hesqugaomGiC0A1WXkjHVJ6de3sfXwgDjMjaLdbPjGjiPDfzfvofxUJDyv0W
+
+sprite $AwsHealthDashboardLg [20x20/16z] jSx50G903031k6p__UBE5-PS4_vXHAHl_Sq4aEL05LVorOC2a5D0Bgzd8Ozpg8PAB9PsRfPL9KY6gzc8O7o8a-LEGS2N5nstv5vLCSO7N-EBB3zm1
+
+!procedure AwsHealthDashboard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Architecture/ManagementGovernance/AwsHealthDashboard', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsHealthDashboardCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsHealthDashboardLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsHealthDashboardGroup($id, $name='Aws Health Dashboard', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsHealthDashboardLg>', $name, $tech)
+!endprocedure

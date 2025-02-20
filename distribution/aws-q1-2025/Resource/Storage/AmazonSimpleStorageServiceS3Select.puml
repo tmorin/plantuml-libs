@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2025/Resource/Storage/AmazonSimpleStorageServiceS3Select
+
+sprite $AmazonSimpleStorageServiceS3SelectXs [10x10/16z] HSE30GH10C30kLNwh_YDm9y6va4WFkpNUoTK4X9LXiNrgivJ7yeT
+
+sprite $AmazonSimpleStorageServiceS3SelectSm [12x12/16z] LOo54GC13CCKSlRVkES-wo1WuCDsH6gyvldoqRqQAGBG-JFhJSNwDxjiPkEi139MWdGoeCuAORBy32xy_W4
+
+sprite $AmazonSimpleStorageServiceS3SelectMd [16x16/16z] PSs5WKL124FHctcGz5_nMlRx6HU0JviuoTMJ3vG54A2k0OWsNZkZj_SQ21l19G1nP51sMq5982RJj8swCvOrEfBEWM0CX0xJmZgSRZP9XX2g5bCr6VW6
+
+sprite $AmazonSimpleStorageServiceS3SelectLg [20x20/16z] {
+TO-54GCn30I5j_rN_2I7ynxI7DjkdhT0AdyY4EjAD8S-73KOBqimM5iAgIKwOlXyz_QAo0kV8buSRTqdoW8vgfc69dim1pGQQkc-Tmu679WppytghEa3CPw-
+S5Ff-RFo6UFkA_EP2w2hd0Lzzl6B-IysmJi
+}
+
+!procedure AmazonSimpleStorageServiceS3Select($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Resource/Storage/AmazonSimpleStorageServiceS3Select', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceS3SelectCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonSimpleStorageServiceS3SelectLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceS3SelectGroup($id, $name='Amazon Simple Storage Service S3 Select', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonSimpleStorageServiceS3SelectLg>', $name, $tech)
+!endprocedure

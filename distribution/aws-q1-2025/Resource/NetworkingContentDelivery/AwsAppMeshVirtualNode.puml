@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2025/Resource/NetworkingContentDelivery/AwsAppMeshVirtualNode
+
+sprite $AwsAppMeshVirtualNodeXs [10x10/16z] Oq05J43C2652M1mWn0naWJbG2bMMaH6aWnN8uk10rii81Km
+
+sprite $AwsAppMeshVirtualNodeSm [12x12/16z] NKg30G102Cor_yHlv4xm5-4f1-nSfxemH1_ls69YZux3EcOy6Q_vw9Y-l969-isGhhpVYWO
+
+sprite $AwsAppMeshVirtualNodeMd [16x16/16z] VKw50SC0328A_p-yrRsDUy2Ln2C9dAgXfGlU_TgNnjnKKmC86tE2KsxqcEPbGAfgtU_BlLxlDQTyksUdUo3d_d2NhEelV0WikKvKVm
+
+sprite $AwsAppMeshVirtualNodeLg [20x20/16z] {
+RSy70iKW20FG049o_ml_uVY3DXtgS-CkL8z1sF5Tcd-CWnTBw6fo0AgODcPhTeQ1qmewHj6doRQjSjeQncAXsPX57vS0VFpQ_5jPJQFfMCJtBBcibCAqe1jJ
+INcxMzjtXeglMOixp7lm1
+}
+
+!procedure AwsAppMeshVirtualNode($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Resource/NetworkingContentDelivery/AwsAppMeshVirtualNode', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsAppMeshVirtualNodeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsAppMeshVirtualNodeLg>', 'NetworkingContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AwsAppMeshVirtualNodeGroup($id, $name='Aws App Mesh Virtual Node', $tech='')
+  IconGroupElement($id, 'NetworkingContentDeliveryFamily', '<$AwsAppMeshVirtualNodeLg>', $name, $tech)
+!endprocedure

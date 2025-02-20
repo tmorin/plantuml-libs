@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2025/Architecture/ManagementGovernance/AwsServiceManagementConnector
+
+sprite $AwsServiceManagementConnectorXs [10x10/16z] uy8Es3YPE24CBYucY1075oS35nSGSO58LY04oa9vg8213LK4
+
+sprite $AwsServiceManagementConnectorSm [12x12/16z] VS790S9030GmsCiUzLymRo29v4764636q0q9WuB1kmw5GNcnCGaqqc21Bgm0QhSV7m
+
+sprite $AwsServiceManagementConnectorMd [16x16/16z] ZS490GD120ImiXzC_0kkXKjy503eTPSTW3qixW0zM3W12ocuu979Ga6Q5uC53lEhmW8B9QH1Bg00So0LWDnQgttn1m
+
+sprite $AwsServiceManagementConnectorLg [20x20/16z] {
+fSf5WWH120H0ogWc_l_VrV6-hCG5oUJ_zapFifMkmjr8TAeVBZAXGtCHe4CDO1-eY7xFJOXBDklfLmkhm89elIK6S2HqbpuGXMqZjulkl1sjGFPoDsBcYErP
+bTzw1m
+}
+
+!procedure AwsServiceManagementConnector($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Architecture/ManagementGovernance/AwsServiceManagementConnector', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsServiceManagementConnectorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsServiceManagementConnectorLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsServiceManagementConnectorGroup($id, $name='Aws Service Management Connector', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsServiceManagementConnectorLg>', $name, $tech)
+!endprocedure

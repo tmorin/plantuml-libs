@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2025/Architecture/Analytics/AmazonQuickSight
+
+sprite $AmazonQuickSightXs [10x10/16z] uy0A61b00Cm2yvbWBAWO2oEG0U8YTC1PhCmWW6mQ
+
+sprite $AmazonQuickSightSm [12x12/16z] uy0Ds200IGJEPW4YLhWW4vJ9pi78n05cWqWc3WYRaH7AHW1Mt9O2
+
+sprite $AmazonQuickSightMd [16x16/16z] bSc55KDH2C1GdEo_S9twjpoz1uvNDjsTpy6NKv-sWef-MeIkP2meoSE5WZXZLz3cQNNWwUV3yrCJsvq1
+
+sprite $AmazonQuickSightLg [20x20/16z] jSYt0S9044N1_MjV_nMJo5y6QCBX1RBJSHnwrak_Nce0j-iv2TPShjn0rEKo4SRrl1c9yyOC47cvH81xNmurk_DOh-B4Zpu
+
+!procedure AmazonQuickSight($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Architecture/Analytics/AmazonQuickSight', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonQuickSightCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonQuickSightLg>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AmazonQuickSightGroup($id, $name='Amazon Quick Sight', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AmazonQuickSightLg>', $name, $tech)
+!endprocedure

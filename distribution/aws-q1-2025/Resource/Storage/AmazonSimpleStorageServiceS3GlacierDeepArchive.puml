@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2025/Resource/Storage/AmazonSimpleStorageServiceS3GlacierDeepArchive
+
+sprite $AmazonSimpleStorageServiceS3GlacierDeepArchiveXs [10x10/16z] 7S670OD0000Xljx-4oSg042mBnT0TXq8WGEZSm429WlquNHf-0C
+
+sprite $AmazonSimpleStorageServiceS3GlacierDeepArchiveSm [12x12/16z] LKk50G0m23BX_ulN7KhATmAkQa23F5h3j8w6WQqtu7tp3GiLkl4CF5IoFNCXPp_9148QqjIXLm
+
+sprite $AmazonSimpleStorageServiceS3GlacierDeepArchiveMd [16x16/16z] ROx50GHH34A9GVyLhtmVUPTu02-KH4g5XcpsJG28WmIYwDQcoVIv6V7ljRxtuKghrUHCkLID0Y0iTAjhQCxF-x-yuAev8qKJfJw3LJfCT3GSpIaB-08
+
+sprite $AmazonSimpleStorageServiceS3GlacierDeepArchiveLg [20x20/16z] {
+TP255SHG20GFs-c_utiGzmGTzillwx4iWIfjgq1iOQBnkexGHbSTXaDkcwvgQamCKB59SPsjKutLvvaBEdLVuVKni9AwRoUrH8n_REyyV01Qh5lRi0DFN6tZ
+k0IZ26Biw5bpXMCXd04BVg8rmCv7zSF-0G
+}
+
+!procedure AmazonSimpleStorageServiceS3GlacierDeepArchive($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Resource/Storage/AmazonSimpleStorageServiceS3GlacierDeepArchive', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceS3GlacierDeepArchiveCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonSimpleStorageServiceS3GlacierDeepArchiveLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceS3GlacierDeepArchiveGroup($id, $name='Amazon Simple Storage Service S3 Glacier Deep Archive', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonSimpleStorageServiceS3GlacierDeepArchiveLg>', $name, $tech)
+!endprocedure

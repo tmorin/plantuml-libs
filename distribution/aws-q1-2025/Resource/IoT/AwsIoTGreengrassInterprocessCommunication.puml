@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2025/Resource/IoT/AwsIoTGreengrassInterprocessCommunication
+
+sprite $AwsIoTGreengrassInterprocessCommunicationXs [10x10/16z] HOc50S0m40AFD_QVkDxa1MLFyOx1x-l11WJDD641ZhyLWX84J3a4PCctijxn2G
+
+sprite $AwsIoTGreengrassInterprocessCommunicationSm [12x12/16z] JOk50G0n308loluRlrIl4W6uaIqIGou-cW_xkgzl0c4LRrz20HeUGMDV7u9SMGFXzDVBla3Qv_l8Xdx_1Gy
+
+sprite $AwsIoTGreengrassInterprocessCommunicationMd [16x16/16z] POw55S0m448vtt_ZmgidHFyvDas_6kBFcMX4JGsgKi5alGrT9pUyeibr-_KXzfnSwC3hvqslUzZ9aV9PHeJOAnLDoYkUSMh3VV8eaSwSaqz5AEm_lxkYNZaE
+
+sprite $AwsIoTGreengrassInterprocessCommunicationLg [20x20/16z] {
+RSs5bKGX40J06cGw_uXFUElx6o_CPMRUqfZBUqAmP_N3HXqUYKWIrB5mw_JDPYIoNwt9xNJlsiTgDzqR8t5CpT9Eoir81Y8FcmMpAtDljtzJg8Mn75khDlOU
+tQCTCmhQwXXrZ1IoYXKtCzSwqnZ_rXxfRgmYerwp0lKUVW4
+}
+
+!procedure AwsIoTGreengrassInterprocessCommunication($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Resource/IoT/AwsIoTGreengrassInterprocessCommunication', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTGreengrassInterprocessCommunicationCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTGreengrassInterprocessCommunicationLg>', 'IoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTGreengrassInterprocessCommunicationGroup($id, $name='Aws Io T Greengrass Interprocess Communication', $tech='')
+  IconGroupElement($id, 'IoTFamily', '<$AwsIoTGreengrassInterprocessCommunicationLg>', $name, $tech)
+!endprocedure

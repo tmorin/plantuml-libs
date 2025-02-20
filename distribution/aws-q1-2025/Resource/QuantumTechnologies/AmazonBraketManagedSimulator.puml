@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2025/Resource/QuantumTechnologies/AmazonBraketManagedSimulator
+
+sprite $AmazonBraketManagedSimulatorXs [10x10/16z] LKo30G104EhO_XE_UKQ5tnYufgCQEAOnz8azp9M8yLAT9DU1is7-w5K
+
+sprite $AmazonBraketManagedSimulatorSm [12x12/16z] LOs50S1030Al1ljlNFZgUnACUHqBpjlInxsWbrwtGJb2j2wkOaxHSh5fSUzHfzXuV9RRHzOu-vHx0W
+
+sprite $AmazonBraketManagedSimulatorMd [16x16/16z] RS_5WGLG34BHyuJGVyNZFl-kuW4FY54ZWFd81zZhaq5cuGQIO3cjAS7CKXQH2TQjKHMqAnPXfODbD75_xlknJ-g6VFstllzFFkbZFn4LmJC
+
+sprite $AmazonBraketManagedSimulatorLg [20x20/16z] {
+VP25eGKm20ClAIJxJ_nTdb-zE3nZ6IWB--9lqpI_6r-42onWjm3i6i1P_UZrX7H-z6OAbG2jySwFtX7feJzw43P4h1nie2qB1Hr6RWK4XxCAinUvLCYmliXb
+jcOsOF_LOJBhspeGbtMS2qO0ID7ALQpeLK-5_ZRW7G
+}
+
+!procedure AmazonBraketManagedSimulator($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Resource/QuantumTechnologies/AmazonBraketManagedSimulator', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonBraketManagedSimulatorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonBraketManagedSimulatorLg>', 'QuantumTechnologies', $funcName, $content)
+!endprocedure
+
+!procedure AmazonBraketManagedSimulatorGroup($id, $name='Amazon Braket Managed Simulator', $tech='')
+  IconGroupElement($id, 'QuantumTechnologiesFamily', '<$AmazonBraketManagedSimulatorLg>', $name, $tech)
+!endprocedure

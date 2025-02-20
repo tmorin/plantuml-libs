@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2025/Resource/BusinessApplications/AmazonSimpleEmailServiceEmail
+
+sprite $AmazonSimpleEmailServiceEmailXs [10x10/16z] JSU50G102090XI_s7_YxpiG--Jmfb_D276H5DXGVgu_twWJP_C88urlengC1
+
+sprite $AmazonSimpleEmailServiceEmailSm [12x12/16z] TSpL0S0m30FHKzZxBroL-G9-N-Ql9fqkDMkD7eEbwjbN3Xz1i3nxWRcw-XkBazPzTcSh1PSc
+
+sprite $AmazonSimpleEmailServiceEmailMd [16x16/16z] XOg50SHG24E3X_q7FgbxtnU8u9KiRgK9Ssjq81eoWtPpNqB270i4_qD69JKve-knDah_Tz5Itk2Ym_27CkeIZAJ-DR6WIJGtD77W2m
+
+sprite $AmazonSimpleEmailServiceEmailLg [20x20/16z] {
+ZSx50KHH2CNG04-u_HSy-jtFCglmdFV2HWyyMR7MUjkqYgY9pQ2HRY96HKwKi0AZI7D8QKurCSU1YFa1SmIG5G0PSoCwc63PYkIvRgr1WxIvvJYZCZOPezR-
+JR1vbjoMgXoFBOwy0G
+}
+
+!procedure AmazonSimpleEmailServiceEmail($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Resource/BusinessApplications/AmazonSimpleEmailServiceEmail', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonSimpleEmailServiceEmailCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonSimpleEmailServiceEmailLg>', 'BusinessApplications', $funcName, $content)
+!endprocedure
+
+!procedure AmazonSimpleEmailServiceEmailGroup($id, $name='Amazon Simple Email Service Email', $tech='')
+  IconGroupElement($id, 'BusinessApplicationsFamily', '<$AmazonSimpleEmailServiceEmailLg>', $name, $tech)
+!endprocedure

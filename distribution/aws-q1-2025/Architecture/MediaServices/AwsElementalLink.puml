@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2025/Architecture/MediaServices/AwsElementalLink
+
+sprite $AwsElementalLinkXs [10x10/16z] OoS065b1W0d40lF1B6OGO0BpsLXXAfcGDA6Q0G
+
+sprite $AwsElementalLinkSm [12x12/16z] VSk50S0W3031-Ey_STqB71fZfEJwxTYOGNAB_V7TRzPCKJCEmYtvcW4
+
+sprite $AwsElementalLinkMd [16x16/16z] dSo53S0m44FHaFFtdxXaXKHjyqI7Pa_C1PhQk5MLzFHoZrU5rbjeVMu4JMR9BmI7j16HcGAhn3Sd
+
+sprite $AwsElementalLinkLg [20x20/16z] hSYt0GCn300nCTx-4zkV5TWA9TWXZK8H1ZdW8T7fU-W1SALVLowidtNAA5Xb2s6W8jB0vJ1zOgoy9OMmmny
+
+!procedure AwsElementalLink($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Architecture/MediaServices/AwsElementalLink', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsElementalLinkCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsElementalLinkLg>', 'MediaServices', $funcName, $content)
+!endprocedure
+
+!procedure AwsElementalLinkGroup($id, $name='Aws Elemental Link', $tech='')
+  IconGroupElement($id, 'MediaServicesFamily', '<$AwsElementalLinkLg>', $name, $tech)
+!endprocedure

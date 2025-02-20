@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2025/Architecture/Compute/AwsAppRunner
+
+sprite $AwsAppRunnerXs [10x10/16z] OyS3624KApiJEvG5erc124sC6SPYm307
+
+sprite $AwsAppRunnerSm [12x12/16z] XKY54S102Bidjl_4TLU8v-yQ9wro4LEkH55bovcpfKY-xSIM6wfSnMbc7gu7
+
+sprite $AwsAppRunnerMd [16x16/16z] fKg30K1H47g7Ql-9lsqSatvKblwRkz6TOJrt2P0YjEBoWHiGQ6haRB2QvKdUkUQC5Sz8TxfxzhoOdbSD
+
+sprite $AwsAppRunnerLg [20x20/16z] hOo50KKn30BRIu7z9_xk-kogIO1iHzLxJzsNNmUQeLJZskDuv0ZbohMNyBFNBdbmxrcIezDz1Tj8jd_dbVpMK-MbLoe11XZNNXjvmyuYzW
+
+!procedure AwsAppRunner($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Architecture/Compute/AwsAppRunner', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsAppRunnerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsAppRunnerLg>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AwsAppRunnerGroup($id, $name='Aws App Runner', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AwsAppRunnerLg>', $name, $tech)
+!endprocedure

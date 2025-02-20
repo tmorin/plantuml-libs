@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2025/bootstrap')
+
+' loads the Item which embeds the element AmazonSageMakerAi
+include('aws-q1-2025/Architecture/ArtificialIntelligence/AmazonSageMakerAi')
+
+' renders the element
+AmazonSageMakerAi('AmazonSageMakerAi', 'Amazon Sage Maker Ai', 'an optional tech label', 'an optional description')
+@enduml

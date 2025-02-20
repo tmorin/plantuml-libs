@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2025/Resource/Analytics/AmazonDataZoneBusinessDataCatalog
+
+sprite $AmazonDataZoneBusinessDataCatalogXs [10x10/16z] Oq003YZD3cAnWW0xiXXO2OG5H8nmCNOE5eGwL1OZ6B03
+
+sprite $AmazonDataZoneBusinessDataCatalogSm [12x12/16z] NSQ70S0W24JHixl_n8bq-0eyn4uxZVkDhNn6zDimN_DvMppU4qlFQx-grpqSFW
+
+sprite $AmazonDataZoneBusinessDataCatalogMd [16x16/16z] ROu50W0W20EPkVz_s6uvavvyH31EM6n8aD3nSTYJQMDmnDjrs3RSThpgspSicnHQnyjsTjZV_5yVEce-mOra
+
+sprite $AmazonDataZoneBusinessDataCatalogLg [20x20/16z] VSe52WH03C30jDJ-_-7pMsU33-5O5JNcRuDWAF_chRj9gzixuTriKRlLQcOMRgQZ5OX0C9gIYTLWJk59YNN31JF4wTOQB5htBrjV4r9w-ZPLT4nu0W
+
+!procedure AmazonDataZoneBusinessDataCatalog($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Resource/Analytics/AmazonDataZoneBusinessDataCatalog', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonDataZoneBusinessDataCatalogCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonDataZoneBusinessDataCatalogLg>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AmazonDataZoneBusinessDataCatalogGroup($id, $name='Amazon Data Zone Business Data Catalog', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AmazonDataZoneBusinessDataCatalogLg>', $name, $tech)
+!endprocedure

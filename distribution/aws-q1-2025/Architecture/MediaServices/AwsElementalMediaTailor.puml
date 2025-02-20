@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2025/Architecture/MediaServices/AwsElementalMediaTailor
+
+sprite $AwsElementalMediaTailorXs [10x10/16z] OyS56A0qCnEKpSZApiW2auHACxAnixF0X1ZXUXXHZG8
+
+sprite $AwsElementalMediaTailorSm [12x12/16z] VSZ50S0W542nxs__YUjU8CSmL9nSyMGJI3d6nZ0as0d2mOZpZLHGDf5gnQducW4
+
+sprite $AwsElementalMediaTailorMd [16x16/16z] dOkr0SD040GF_dRwhzWMFMI2YHRvHeLMXt3rHAxTKz5Rl3oJrhs1A2ywPbXsKpWuM5l-p3zHO93T8ySLh2JF-0C
+
+sprite $AwsElementalMediaTailorLg [20x20/16z] jOt55SKm30HtHTD_nPz1B-TaR35n5LR2PZgWs5adhnogNme8XGPMhWMczCyr6I_h7lwK0cab0ZTZYEh_lX50UTreA9S7WYyjm2-xoCJZve0vWpi
+
+!procedure AwsElementalMediaTailor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Architecture/MediaServices/AwsElementalMediaTailor', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsElementalMediaTailorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsElementalMediaTailorLg>', 'MediaServices', $funcName, $content)
+!endprocedure
+
+!procedure AwsElementalMediaTailorGroup($id, $name='Aws Elemental Media Tailor', $tech='')
+  IconGroupElement($id, 'MediaServicesFamily', '<$AwsElementalMediaTailorLg>', $name, $tech)
+!endprocedure

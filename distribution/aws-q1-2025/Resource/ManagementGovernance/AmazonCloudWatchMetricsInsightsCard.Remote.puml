@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2025/bootstrap')
+
+' loads the Item which embeds the element AmazonCloudWatchMetricsInsightsCard
+include('aws-q1-2025/Resource/ManagementGovernance/AmazonCloudWatchMetricsInsights')
+
+' renders the element
+AmazonCloudWatchMetricsInsightsCard('AmazonCloudWatchMetricsInsightsCard', 'Amazon Cloud Watch Metrics Insights Card', 'an optional description')
+@enduml

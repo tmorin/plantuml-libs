@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2025/bootstrap')
+
+' loads the Item which embeds the element AwsIoTEcho
+include('aws-q1-2025/Resource/IoT/AwsIoTEcho')
+
+' renders the element
+AwsIoTEcho('AwsIoTEcho', 'Aws Io T Echo', 'an optional tech label', 'an optional description')
+@enduml

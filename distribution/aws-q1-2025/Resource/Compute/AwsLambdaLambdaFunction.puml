@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2025/Resource/Compute/AwsLambdaLambdaFunction
+
+sprite $AwsLambdaLambdaFunctionXs [10x10/16z] JKk50G0m28Bb_nSlx5O2DROrkFzU_ri2B44_EDynvWVvkb4qsEsFzviKwffS3xa
+
+sprite $AwsLambdaLambdaFunctionSm [12x12/16z] NSF70SD030F1EL82-g_O-UKD_kYSBLX9MU20fOZWCdw9GretiOvbgOhxyx09ai2205VImHC
+
+sprite $AwsLambdaLambdaFunctionMd [16x16/16z] RKu54W11289LyVy_lh4cZmsmnH-OKWg7V4qMQ0X9PgkEzWLB-p1fxKDWc09PuctDYMWIl3ojr6r4dWAYE67PpGrUddV5OP9NgVGuFHRFXprc1-BmGXlx
+
+sprite $AwsLambdaLambdaFunctionLg [20x20/16z] {
+TKw55SHG24EJ_JU-HyhlEHKqOlyZ6aIzJfAftBn7YEfkNI5tv3Pxxbx0sBwkeUqUv7PAaQgyvjsRLb7EmzW70KPPY3zywRtlG_TR1ndNOReSP8p07DP5rgPE
+1ziOPGV7HKe84rAQhCfIIQ7R7RhPrnhiy0J3tiBTJ_a
+}
+
+!procedure AwsLambdaLambdaFunction($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Resource/Compute/AwsLambdaLambdaFunction', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsLambdaLambdaFunctionCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsLambdaLambdaFunctionLg>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AwsLambdaLambdaFunctionGroup($id, $name='Aws Lambda Lambda Function', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AwsLambdaLambdaFunctionLg>', $name, $tech)
+!endprocedure

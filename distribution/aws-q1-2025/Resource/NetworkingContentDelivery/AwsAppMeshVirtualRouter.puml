@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2025/Resource/NetworkingContentDelivery/AwsAppMeshVirtualRouter
+
+sprite $AwsAppMeshVirtualRouterXs [10x10/16z] JOg30G1H34DVdVqNFkEN4MlfMUocho86wlW-56-zeQjjN4eSz0vCcHns
+
+sprite $AwsAppMeshVirtualRouterSm [12x12/16z] NSk50OHG30FGzxNPV-5p0UgDk4H6cm4JOG3wm2JliRPbs2y7qMmJbFd2cIBQQvNEeDu3q-zafT9n1m
+
+sprite $AwsAppMeshVirtualRouterMd [16x16/16z] {
+RKo53KGn5A86x3_n1TfSx5SVYgyrBLb_wD5lyKBbdlackDmAnW7cm6DbiCC-_MnWGkqRvewDmNMTr-tYVBTGAIyMaUu5Ui4G6wuxC5BqEpdFVYMr35NjcjH1
+rmy
+}
+
+sprite $AwsAppMeshVirtualRouterLg [20x20/16z] {
+TOu5WiGm30F7TcBf_ny-q37i50Hjul2ONbct2E5ueci-q01rFsoqyaO0xYmS4cQZIY14BKhG0xwagxlHXLjErrOIWaoHbCbqOM3pY50LbyvDcE9-dsz7Qr4b
+GsTkV5dkwnSvm-dFav_5V2OcmJuH2AE2S1G9ykqQk_bElV3Xdm4
+}
+
+!procedure AwsAppMeshVirtualRouter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Resource/NetworkingContentDelivery/AwsAppMeshVirtualRouter', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsAppMeshVirtualRouterCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsAppMeshVirtualRouterLg>', 'NetworkingContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AwsAppMeshVirtualRouterGroup($id, $name='Aws App Mesh Virtual Router', $tech='')
+  IconGroupElement($id, 'NetworkingContentDeliveryFamily', '<$AwsAppMeshVirtualRouterLg>', $name, $tech)
+!endprocedure

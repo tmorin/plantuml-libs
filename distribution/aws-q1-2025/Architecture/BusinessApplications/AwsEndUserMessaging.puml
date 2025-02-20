@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2025/Architecture/BusinessApplications/AwsEndUserMessaging
+
+sprite $AwsEndUserMessagingXs [10x10/16z] uyGAs3c008dF0gKPELaX30OM80iapiG2P85561Wu6PYncWO
+
+sprite $AwsEndUserMessagingSm [12x12/16z] VSV50O003C30Uflz1yRb1NbT-AnzhmxRr5RKOOS0yZBsMkIqEZ8pXx7kfllmyVoq0W
+
+sprite $AwsEndUserMessagingMd [16x16/16z] bSUr0S10302nD_ls7pYCNQ9E_2UsY-FLkV7i_SP1xwU_tjJxOxpk8ETjkIxEezjQrRX5yD9yCWC
+
+sprite $AwsEndUserMessagingLg [20x20/16z] hSYt0G9H340nP_ljFp2PIxy4bU97_JLRHSz7RkTClMLMVy_On7pEWL7b8O_deDVBX-L4udAJKBLTnECi7dmxS3RRfJm5AkASc0vNnX_S0G
+
+!procedure AwsEndUserMessaging($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Architecture/BusinessApplications/AwsEndUserMessaging', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsEndUserMessagingCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsEndUserMessagingLg>', 'BusinessApplications', $funcName, $content)
+!endprocedure
+
+!procedure AwsEndUserMessagingGroup($id, $name='Aws End User Messaging', $tech='')
+  IconGroupElement($id, 'BusinessApplicationsFamily', '<$AwsEndUserMessagingLg>', $name, $tech)
+!endprocedure

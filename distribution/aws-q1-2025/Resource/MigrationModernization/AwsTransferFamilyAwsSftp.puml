@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2025/Resource/MigrationModernization/AwsTransferFamilyAwsSftp
+
+sprite $AwsTransferFamilyAwsSftpXs [10x10/16z] NSY54S0m4CH0XTL_mp7ZuywnbpQaEU2Eyy6XHdcc3D4dwqAAECaIDEevA0e
+
+sprite $AwsTransferFamilyAwsSftpSm [12x12/16z] ROa50aHH20BdXUBzJxpixpA1uQjqoi6qbn92P2miFKjUBklmaS0_BHUDj-qQMIwwqzgUvsnYMbTP8pm_
+
+sprite $AwsTransferFamilyAwsSftpMd [16x16/16z] VSg5aKC134F1_M1R_JTy5-Ra3Uv8VfHdZZoJq7C8UutKPY1p-v-CkhdMGqSlQnWhaf9iSxMWtKoqHoitBvPJLxTWjglroQVTZ5ROhUCV
+
+sprite $AwsTransferFamilyAwsSftpLg [20x20/16z] {
+XSg5jKKn24N1ERdmeF-6lxlk-Apul_bEc_r6sE_4addi87qhqyq9R1LI1YycqTwjzYaZrRldqMx0at7wtNP7TZVlvdewnhkzu7gt5nnVpS6x9VBSkotDsdgt
+6dCzsZnPUaA__EDg9950X70F
+}
+
+!procedure AwsTransferFamilyAwsSftp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Resource/MigrationModernization/AwsTransferFamilyAwsSftp', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsTransferFamilyAwsSftpCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsTransferFamilyAwsSftpLg>', 'MigrationModernization', $funcName, $content)
+!endprocedure
+
+!procedure AwsTransferFamilyAwsSftpGroup($id, $name='Aws Transfer Family Aws Sftp', $tech='')
+  IconGroupElement($id, 'MigrationModernizationFamily', '<$AwsTransferFamilyAwsSftpLg>', $name, $tech)
+!endprocedure

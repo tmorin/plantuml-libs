@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2025/bootstrap')
+
+' loads the Item which embeds the element AmazonFSxForOpenZfs
+include('aws-q1-2025/Architecture/Storage/AmazonFSxForOpenZfs')
+
+' renders the element
+AmazonFSxForOpenZfs('AmazonFSxForOpenZfs', 'Amazon F Sx For Open Zfs', 'an optional tech label', 'an optional description')
+@enduml

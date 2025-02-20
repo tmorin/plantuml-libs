@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2025/Architecture/Compute/AmazonEc2
+
+sprite $AmazonEc2Xs [10x10/16z] OyS3M20K8pE4XI0OGA8C42u2C353TB6mCA2Q0m
+
+sprite $AmazonEc2Sm [12x12/16z] OySB68601OaFOJC00Ik43IOPaKW6HWIR2M86EnFS44Q8A4Gd263O2
+
+sprite $AmazonEc2Md [16x16/16z] dST50GC1402nvV6lk3rcpYzyb2rbRNovDkOBZRIJvt1LMH_6PoDiEcMgndmm9jeIdla3
+
+sprite $AmazonEc2Lg [20x20/16z] hSo53SD044JHvUc_uiG-1e7fYqRl05yKcXlDaR8Oxst6S6QTJ3J5rgqkRYiyj9XNKu3o8cP2DIdt3AZM_nljV4Kaupq8N4I1qH8FgQK8Ov72xVu
+
+!procedure AmazonEc2($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Architecture/Compute/AmazonEc2', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonEc2Card($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonEc2Lg>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AmazonEc2Group($id, $name='Amazon Ec2', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2Lg>', $name, $tech)
+!endprocedure

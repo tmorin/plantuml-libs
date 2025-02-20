@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2025/Category/FrontEndWebMobile
+
+sprite $FrontEndWebMobileXs [10x10/16z] OqS0JXXWv-HWP6Ha1xCOWIG3dCL918iJWmK
+
+sprite $FrontEndWebMobileSm [12x12/16z] VKm54e104BA0sVy_MBtkewTG3SjWloKXRhacytQvtTTbrs-t0PY8xfyPpmS
+
+sprite $FrontEndWebMobileMd [16x16/16z] dSc54S0W50JHw6sk_u9ZE8poq9rFxr1jGQxzhLzkcPUlt3Wh3PpTdCcsz9ypjC-NoLqRUsaz
+
+sprite $FrontEndWebMobileLg [20x20/16z] jOg55K0X3CI0od7x3_pTNOCsBzWYn2K1aKjsNOujcBX8rEGmSLtW6oxLBBlgu3zd5PJgqi6nwp1sj1eg7DQv1JTSM15B
+
+!procedure FrontEndWebMobile($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Category/FrontEndWebMobile', $name, $tech, $desc)
+!endprocedure
+
+!procedure FrontEndWebMobileCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$FrontEndWebMobileLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure FrontEndWebMobileGroup($id, $name='Front End Web Mobile', $tech='')
+  IconGroupElement($id, 'FrontEndWebMobile', '<$FrontEndWebMobileLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2025/Architecture/SecurityIdentityCompliance/AwsPaymentCryptography
+
+sprite $AwsPaymentCryptographyXs [10x10/16z] uyG9M64CDeGG0okSpSY2gfo3WmF2O6850MGf
+
+sprite $AwsPaymentCryptographySm [12x12/16z] VOo54OC0300ldjz_u1Pt-BZoYGWhbk4i52WJgjg5mDh9ZZ6tTNVRpEbVaeC68p5HdFW3
+
+sprite $AwsPaymentCryptographyMd [16x16/16z] dKp50GD120mmMFy5vsJzSxRAQ7vR3kCPav4lEB3W84vk6ZFZi4YKhfwXWd-rowLyn0LRTl-2hMujcDkIl5yR
+
+sprite $AwsPaymentCryptographyLg [20x20/16z] {
+hSvL0eKm44FHscII_IyOhtuzuU87QAjNik8hnKEnc24UlbfGMYovLB2WfI0ptQ7WY18IKMxBQaKsY_5nBv6FvJQZIuzPMosQaU9zwWOGX1EonpnPAwZ6bhvf
+1m
+}
+
+!procedure AwsPaymentCryptography($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Architecture/SecurityIdentityCompliance/AwsPaymentCryptography', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsPaymentCryptographyCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsPaymentCryptographyLg>', 'SecurityIdentityCompliance', $funcName, $content)
+!endprocedure
+
+!procedure AwsPaymentCryptographyGroup($id, $name='Aws Payment Cryptography', $tech='')
+  IconGroupElement($id, 'SecurityIdentityComplianceFamily', '<$AwsPaymentCryptographyLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2025/Architecture/NetworkingContentDelivery/AmazonApplicationRecoveryController
+
+sprite $AmazonApplicationRecoveryControllerXs [10x10/16z] uy01697Op62IXOEL2KY00GE83w9137PM3X39nCu4LS_6Z6eM
+
+sprite $AmazonApplicationRecoveryControllerSm [12x12/16z] ZSZ50S10202mdW3PV-7wjn8SFqtJhQDDKAcrwwEnG60wnd0P1xVcrGO
+
+sprite $AmazonApplicationRecoveryControllerMd [16x16/16z] dKv50eGm4DkE9V__y0BrzeBaD1BZ9qGiQo8DOzLyIphU6Own1eI4vJtoJJjH2Vm022Nlo3-XZG0HSQbxvSXM47o40m
+
+sprite $AmazonApplicationRecoveryControllerLg [20x20/16z] jOvL0W0X24IHeUv_uhNhUtqcFV46IxXToI943vVK6w0zhJqUoodPfyp8l-4qonVtxEv4_LDxPKu0Y06mZzP1eyBSbY2o3BBA3NTsfrowM7CF393uWGy
+
+!procedure AmazonApplicationRecoveryController($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Architecture/NetworkingContentDelivery/AmazonApplicationRecoveryController', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonApplicationRecoveryControllerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonApplicationRecoveryControllerLg>', 'NetworkingContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AmazonApplicationRecoveryControllerGroup($id, $name='Amazon Application Recovery Controller', $tech='')
+  IconGroupElement($id, 'NetworkingContentDeliveryFamily', '<$AmazonApplicationRecoveryControllerLg>', $name, $tech)
+!endprocedure

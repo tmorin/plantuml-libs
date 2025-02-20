@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2025/bootstrap')
+
+' loads the Item which embeds the element AmazonRoute53ResolverDnsFirewall
+include('aws-q1-2025/Resource/NetworkingContentDelivery/AmazonRoute53ResolverDnsFirewall')
+
+' renders the element
+AmazonRoute53ResolverDnsFirewall('AmazonRoute53ResolverDnsFirewall', 'Amazon Route53 Resolver Dns Firewall', 'an optional tech label', 'an optional description')
+@enduml

@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2025/Architecture/EndUserComputing/AmazonWorkSpacesFamily
+
+sprite $AmazonWorkSpacesFamilyXs [10x10/16z] TOcr0G0W0CEmolyFupBHgKdyMxGnZxXVw5_ZnT2hudBz3RVwU00YaFtM
+
+sprite $AmazonWorkSpacesFamilySm [12x12/16z] TKo30G1H5Ff8-ozyDfvHvTTANOtJNAVKb5XcCssVkuEsplQyznM_p1icjHxuKuS0vdIkDW8
+
+sprite $AmazonWorkSpacesFamilyMd [16x16/16z] bKs50G1125B1s7_Xx-w_LAdwlpmYKgDRElInF3RtOQcRNeQFKvy5U6bQSUWrqJqT6xFVr2zwikirL_youUH_pbSpO_-OrEjg0G
+
+sprite $AmazonWorkSpacesFamilyLg [20x20/16z] {
+fOy50W8m201XTVp_nOwmMsz9W_t7wWvZn9kwUZJkoQLktUcG9TSwTFcdN-f4qvUZZgspFcWJN7268baNkfRExAIBwfMFq7KkUvcAxdFJSvVrRexfeCkVZWKu
+5--d7
+}
+
+!procedure AmazonWorkSpacesFamily($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Architecture/EndUserComputing/AmazonWorkSpacesFamily', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonWorkSpacesFamilyCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonWorkSpacesFamilyLg>', 'EndUserComputing', $funcName, $content)
+!endprocedure
+
+!procedure AmazonWorkSpacesFamilyGroup($id, $name='Amazon Work Spaces Family', $tech='')
+  IconGroupElement($id, 'EndUserComputingFamily', '<$AmazonWorkSpacesFamilyLg>', $name, $tech)
+!endprocedure

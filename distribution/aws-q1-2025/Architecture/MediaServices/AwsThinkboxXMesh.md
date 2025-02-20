@@ -1,0 +1,168 @@
+# AwsThinkboxXMesh
+
+
+```text
+aws-q1-2025/Architecture/MediaServices/AwsThinkboxXMesh
+```
+
+```text
+include('aws-q1-2025/Architecture/MediaServices/AwsThinkboxXMesh')
+```
+
+
+
+| Illustration | AwsThinkboxXMesh | AwsThinkboxXMeshCard | AwsThinkboxXMeshGroup |
+| :---: | :---: | :---: | :---: |
+| ![illustration for Illustration](../../../aws-q1-2025/Architecture/MediaServices/AwsThinkboxXMesh.png) | ![illustration for AwsThinkboxXMesh](../../../aws-q1-2025/Architecture/MediaServices/AwsThinkboxXMesh.Local.png) | ![illustration for AwsThinkboxXMeshCard](../../../aws-q1-2025/Architecture/MediaServices/AwsThinkboxXMeshCard.Local.png) | ![illustration for AwsThinkboxXMeshGroup](../../../aws-q1-2025/Architecture/MediaServices/AwsThinkboxXMeshGroup.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$AwsThinkboxXMeshXs>`
+- `<$AwsThinkboxXMeshSm>`
+- `<$AwsThinkboxXMeshMd>`
+- `<$AwsThinkboxXMeshLg>`
+
+
+
+
+
+## AwsThinkboxXMesh
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2025/bootstrap')
+
+' loads the Item which embeds the element AwsThinkboxXMesh
+include('aws-q1-2025/Architecture/MediaServices/AwsThinkboxXMesh')
+
+' renders the element
+AwsThinkboxXMesh('AwsThinkboxXMesh', 'Aws Thinkbox X Mesh', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2025/bootstrap')
+
+' loads the Item which embeds the element AwsThinkboxXMesh
+include('aws-q1-2025/Architecture/MediaServices/AwsThinkboxXMesh')
+
+' renders the element
+AwsThinkboxXMesh('AwsThinkboxXMesh', 'Aws Thinkbox X Mesh', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+## AwsThinkboxXMeshCard
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2025/bootstrap')
+
+' loads the Item which embeds the element AwsThinkboxXMeshCard
+include('aws-q1-2025/Architecture/MediaServices/AwsThinkboxXMesh')
+
+' renders the element
+AwsThinkboxXMeshCard('AwsThinkboxXMeshCard', 'Aws Thinkbox X Mesh Card', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2025/bootstrap')
+
+' loads the Item which embeds the element AwsThinkboxXMeshCard
+include('aws-q1-2025/Architecture/MediaServices/AwsThinkboxXMesh')
+
+' renders the element
+AwsThinkboxXMeshCard('AwsThinkboxXMeshCard', 'Aws Thinkbox X Mesh Card', 'an optional description')
+@enduml
+```
+
+## AwsThinkboxXMeshGroup
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2025/bootstrap')
+
+' loads the Item which embeds the element AwsThinkboxXMeshGroup
+include('aws-q1-2025/Architecture/MediaServices/AwsThinkboxXMesh')
+
+' renders the element
+AwsThinkboxXMeshGroup('AwsThinkboxXMeshGroup', 'Aws Thinkbox X Mesh Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2025/bootstrap')
+
+' loads the Item which embeds the element AwsThinkboxXMeshGroup
+include('aws-q1-2025/Architecture/MediaServices/AwsThinkboxXMesh')
+
+' renders the element
+AwsThinkboxXMeshGroup('AwsThinkboxXMeshGroup', 'Aws Thinkbox X Mesh Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml
+```
+

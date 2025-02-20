@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2025/Architecture/BusinessApplications/AwsAppFabric
+
+sprite $AwsAppFabricXs [10x10/16z] uoG2CB536MoCd2n0YeEJ6GWP868CK0OZM0GcXW8
+
+sprite $AwsAppFabricSm [12x12/16z] VSn70S0W00GmDXV_Xllk8WBYQ0BGM80kiK4JOQ8HXQ2YC25RPNwcozC5
+
+sprite $AwsAppFabricMd [16x16/16z] dSV50GD13CNGmM-h_uAJPMQTzFYMR4VJYj79FZDG8Ir86Psx4L0wMsivn5OjM19FojPnxeJt_G4
+
+sprite $AwsAppFabricLg [20x20/16z] hOs53G0X40IHq_uBnXsY_ujFPeF-4hwHVI196_5feLCskmMOLRDQGFNOhEHCHhdZLSNFBcIUa4kdQrKiJ4osP7xHhOnQZ3M-MKVSWQRrCH4
+
+!procedure AwsAppFabric($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Architecture/BusinessApplications/AwsAppFabric', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsAppFabricCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsAppFabricLg>', 'BusinessApplications', $funcName, $content)
+!endprocedure
+
+!procedure AwsAppFabricGroup($id, $name='Aws App Fabric', $tech='')
+  IconGroupElement($id, 'BusinessApplicationsFamily', '<$AwsAppFabricLg>', $name, $tech)
+!endprocedure

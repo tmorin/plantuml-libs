@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2025/bootstrap')
+
+' loads the Item which embeds the element AmazonSecurityLake
+include('aws-q1-2025/Architecture/SecurityIdentityCompliance/AmazonSecurityLake')
+
+' renders the element
+AmazonSecurityLake('AmazonSecurityLake', 'Amazon Security Lake', 'an optional tech label', 'an optional description')
+@enduml
