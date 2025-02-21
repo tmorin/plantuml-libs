@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/Z/Zendesk
+
+sprite $ZendeskXs [10x10/16z] Oy026Fc1W05Cy08nY0KM1uf16Dn05fW14u2eOGCH2Brm
+
+sprite $ZendeskSm [12x12/16z] Oy01EFb1W051Ce99e0mx5v00CI409Ci8PGBPd40QAiyBON83sI2IZu615M8Q1ea4
+
+sprite $ZendeskMd [16x16/16z] XOs54O0030E3Ezr_MgHDSFcJlshmmsW1w3nKiKvfW6sWC-kHUDr1-FsubruVGt0eMyzBLHOUqAXC6DZoeqLTqNRn3pC
+
+sprite $ZendeskLg [20x20/16z] {
+fSe53aGX00FH-Mv0xt_QjMBHjOarB-MFWkGcohg6igXMZoTKWlWSEyLmum3ijXbgikqT1LlewDBBKaUpR7J9Ha-scU48ruZ9nke5n6A3tCcXOa5oiwgfn8VT
+0G
+}
+
+!procedure Zendesk($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/Z/Zendesk', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item azure-20/Item/Other/ServiceVideoAnalyzers
+
+sprite $ServiceVideoAnalyzersXs [10x10/16z] TSL90i0W349HwFH3xt_VZkhEbm2Q0AnNlRvT3pyb9y5lLnRWcIWFwYdv_EqQRW
+
+sprite $ServiceVideoAnalyzersSm [12x12/16z] VSX10W0H34FHj22P-nzu0Amyy1KlfPIJbRLoChEgISRYLZl1LBcrfmdPS_rBTK1D-1hbTWF68UBs0m
+
+sprite $ServiceVideoAnalyzersMd [16x16/16z] dSbL0eCn20DWKeFq_WTUaTdBvFygIEGITNWVdmkrfCy9otyVJ-bj0SqNIy00O7WrEv_EYKQEyxZ8wTLv9YmzYwmTsAEOoDXFKxwv0G
+
+sprite $ServiceVideoAnalyzersLg [20x20/16z] {
+hSk5OSGm30LGCMJ_WIjZZ_a5_2s07s0rvVEI3tXMkYfQB3uhsYywYgDKmJWCiTTub2gG2Y9ohmfW3eubUXJF4c62QFMdVgsFoDF5AqQlINscOpqdoCKfLesE
+AJb7O00ypYaqYBGXlEuF
+}
+
+!procedure ServiceVideoAnalyzers($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/Other/ServiceVideoAnalyzers', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceVideoAnalyzersCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceVideoAnalyzersLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceVideoAnalyzersGroup($id, $name='Service Video Analyzers', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceVideoAnalyzersLg>', $name, $tech)
+!endprocedure

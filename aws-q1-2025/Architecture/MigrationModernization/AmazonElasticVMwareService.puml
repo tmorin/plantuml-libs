@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2025/Architecture/MigrationModernization/AmazonElasticVMwareService
+
+sprite $AmazonElasticVMwareServiceXs [10x10/16z] uy0Ec3dOO4m64082Hg0Gb0bcCOCOh60160i7
+
+sprite $AmazonElasticVMwareServiceSm [12x12/16z] VOd50SC03CJCrluBjs5Ez3aG7vJwLW69kMja53rMOsOSEajo4e6WEjkXPp7ZxQmKT_u
+
+sprite $AmazonElasticVMwareServiceMd [16x16/16z] dOl50SLG3CE2ZlPV-4FnMD3367X3bMBEKIF841lHbeZQqut_BxPEWIC9V9aR4a3R78IxWLgmAPWaE6OPvqYb9y79p7_VuGi
+
+sprite $AmazonElasticVMwareServiceLg [20x20/16z] fSYtOKGX500mu2Njlx2px-Y_IdbkCXktIFguTK77lM4jXiMVsQPdhtR2dyqq0Gj8JCyv9uZx6kzpzFv2cEtFgc4HmilFrTwuBnRbCb4dABUjXFRO9m
+
+!procedure AmazonElasticVMwareService($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Architecture/MigrationModernization/AmazonElasticVMwareService', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonElasticVMwareServiceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonElasticVMwareServiceLg>', 'MigrationModernization', $funcName, $content)
+!endprocedure
+
+!procedure AmazonElasticVMwareServiceGroup($id, $name='Amazon Elastic V Mware Service', $tech='')
+  IconGroupElement($id, 'MigrationModernizationFamily', '<$AmazonElasticVMwareServiceLg>', $name, $tech)
+!endprocedure

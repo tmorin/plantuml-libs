@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2025/Architecture/Compute/AwsOutpostsRack
+
+sprite $AwsOutpostsRackXs [10x10/16z] OyS1c5ZXJ1OM2CqA56I3Y-9ZiJ2Wc0K
+
+sprite $AwsOutpostsRackSm [12x12/16z] OyS7s9YHsEoCJ50c8piB2oECpSR8p8HGmqwO3T8B0onih6XM0W
+
+sprite $AwsOutpostsRackMd [16x16/16z] dOd70O0048EkXlqtzcFlcbS0_iqZDmZodb6PxbwhR40itKpImanzOObTl-UgMZCk5oys
+
+sprite $AwsOutpostsRackLg [20x20/16z] hOw50KGn34ARK63_YK-_kxrg73-1v2a9bcaMR9SOfvdrmoYD3acKUqXd9aS-u-Vv-4Ravyny09VohlhY8naJ7ojAU88i-HHl
+
+!procedure AwsOutpostsRack($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Architecture/Compute/AwsOutpostsRack', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsOutpostsRackCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsOutpostsRackLg>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AwsOutpostsRackGroup($id, $name='Aws Outposts Rack', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AwsOutpostsRackLg>', $name, $tech)
+!endprocedure

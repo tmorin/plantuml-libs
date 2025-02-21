@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2025/Architecture/Compute/Bottlerocket
+
+sprite $BottlerocketXs [10x10/16z] OyS5s60CPWO6TZWRGZ6mCp2pW5bCGCG0LyyAOi1e1
+
+sprite $BottlerocketSm [12x12/16z] VOh50S0W5CM-P_-9wruWbwSC4IuKksnMvE6JgBClbRfEQ5qVGVMiFGkkm9SP
+
+sprite $BottlerocketMd [16x16/16z] dOc54SH030C5TrR_5Jy4FHXOuuxoZk5qQeRTGH7DlSr6QI0jbmIIXqyPrTn8WfP7OPGJJwS3LMxn1G
+
+sprite $BottlerocketLg [20x20/16z] hO-52GHG34ChaVqdFhTIvEm1Nwg9_u5wns87KsxEK7MSq8ZXV0WZrjTZ4CwgpX5gTsGJOuKpJaUynkfowZKMA1bHhp7PT9wFLmHkmxbZ5kKFEG8
+
+!procedure Bottlerocket($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Architecture/Compute/Bottlerocket', $name, $tech, $desc)
+!endprocedure
+
+!procedure BottlerocketCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$BottlerocketLg>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure BottlerocketGroup($id, $name='Bottlerocket', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$BottlerocketLg>', $name, $tech)
+!endprocedure

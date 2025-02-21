@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/M/Modrinth
+
+sprite $ModrinthXs [10x10/16z] 7SR50OK0040XVjg-_QUrE07J3bGlJHJe9shqQaf1fLZrxx58qSkQgJTt-5RY1
+
+sprite $ModrinthSm [12x12/16z] 7SN7OS80000nkNVV_jCcW3u2rmjGpGfgn58KZe4U3PR2rHK5AZfOlgLwYrHZnPi2bZRgnjFhLnat_W4
+
+sprite $ModrinthMd [16x16/16z] {
+HOq74iGm309HUj____OGrpQnWR6Amdm_-dC3Yyed0BVjPadaKpl0vUB4slSybS3c8JB3t4rNAbDmixGef6x-vhtpnThbQ8ToBZvy2yb-k4Rfj5r17-ROEvNc
+WkMZwUaO2hhoQFy2
+}
+
+sprite $ModrinthLg [20x20/16z] {
+LP05eiDG2C02Ksgv_sc_36Pfd-70KCV15nVLE-nxCFWWGAqM7Ug5VnPr6QiDXbPVHXIrZN0sc2o45XtBLyn3IrkqqjpqS6GCgNxASdl8Tkq-Yb23rAjUR3he
+egWwyWNGdVrrhm0sJKBbnQLVfIRDfhwcSLGcv5jzzbqdB-wg9sYZNm
+}
+
+!procedure Modrinth($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/M/Modrinth', $name, $tech, $desc)
+!endprocedure

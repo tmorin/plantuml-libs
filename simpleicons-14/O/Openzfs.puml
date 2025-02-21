@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/O/Openzfs
+
+sprite $OpenzfsXs [10x10/16z] O-1700PM4Ca1uN1nya4P320rG8nCyCDL8acoG3MoSNBn8mC
+
+sprite $OpenzfsSm [12x12/16z] LOh50S0m30ETCkhsdxOGzds4XaU2Mz46i9M3oBf94vcP-B0ZtQAdeg4rbcoTPJLSWHeQBm
+
+sprite $OpenzfsMd [16x16/16z] {
+PO-50GCm20GXRl3xJrjxwXV5GV35mJyP2e7wMFPIk7gtZQ1uza6Hr3qEHM61lGue9xwEaF552jdY5VfrM_N-EuDgxP1tEHSSGPCGMxKqJOyhWqT7sKW6nV-0
+Lm
+}
+
+sprite $OpenzfsLg [20x20/16z] {
+RSw5iSKm50DH1Oswst-r7ryuPy2yOvcxPDw9nIH65chcNrlTxToJMsTJCL5T7DTiYjahPxc6qFQicbyn8pwqpIms6hXRrTWydbAEIEOZwtwjgJ7e7e4oSnAQ
+c1IdEhKNLagldNJwOrNzwsdbNUBf6m
+}
+
+!procedure Openzfs($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/O/Openzfs', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/P/Pagerduty
+
+sprite $PagerdutyXs [10x10/16z] Os3Wv-VdOsK00Num0BCOmLmSB8GwLbPMPWOa0D6BpW8
+
+sprite $PagerdutySm [12x12/16z] Os3W1m8-3WOmu8S0JWWRXGHJR70s8uoD82602yJc0m9UJWOK0553Y0q
+
+sprite $PagerdutyMd [16x16/16z] fOsr0S0m4CJEOTR-quQDJS1wL7MIE5X6MR0OwtLLLIDWtTuXyX4YxnE7AVJP1c0Pelp5w1sGuHi
+
+sprite $PagerdutyLg [20x20/16z] jSwr0O100C30u0xxJuk_Dwyfhmem7M_xsl7rccnnx4bPnLDzssmPrOssaM23O_LoK-F-pJXMyzTqJsr3UEgbb5q
+
+!procedure Pagerduty($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/P/Pagerduty', $name, $tech, $desc)
+!endprocedure

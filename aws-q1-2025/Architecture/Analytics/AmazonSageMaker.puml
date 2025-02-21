@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2025/Architecture/Analytics/AmazonSageMaker
+
+sprite $AmazonSageMakerXs [10x10/16z] uy01680G39Wv6C5C4C48udA0kH0M4rYC7Q4E35WvM53C0W
+
+sprite $AmazonSageMakerSm [12x12/16z] uy0Fs64CLWu63YQuC2C76vXc0xCXW0r9DJixM9mLIJsCnShCpeJ7GW
+
+sprite $AmazonSageMakerMd [16x16/16z] dSp50KC120DGFDb_uVQxUquyZ9_YODPCOmcXaujiOAEChQU5bf1kCbc9bTlzqJHqzZp-trHb7f6J2JxD7m
+
+sprite $AmazonSageMakerLg [20x20/16z] jSu50e0W30NGzVxzJonsjzAy4SC_nIZhFgMoyrfrOlMQwzZaflKMmqsWCuHEJSJhQMxGbGLXQYB3UvHRkHoQQRAMdfWMhoDuNoe
+
+!procedure AmazonSageMaker($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Architecture/Analytics/AmazonSageMaker', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonSageMakerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonSageMakerLg>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AmazonSageMakerGroup($id, $name='Amazon Sage Maker', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AmazonSageMakerLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/S/Sendinblue
+
+sprite $SendinblueXs [10x10/16z] BSN50G0W08LGxFRllwq9XyVEYTVMjkqCXHcPbi4640xXDQKjOxErsl7cw-G54hjHa845
+
+sprite $SendinblueSm [12x12/16z] 5SUrWG11000Xpdsd_sfVo017Cq2J8r3e7OD4M5x3PzejampoD1ybLCZNFv41cLOP2-lWkdUUkldQGT_sNxy
+
+sprite $SendinblueMd [16x16/16z] {
+HSM75GD120FHkR1vOVhlri_vWoJUbes_uIpfmLjHW30E0DCBckse3jWR0NdoG9wz9ayr4UuapwREGmJ2xNiJ0oZg0l96lOvGCk0IkICQddXm-EmdONJMeWYm
+4_gu1Bfx6u1wy7HQW9NyQ9eyFG
+}
+
+sprite $SendinblueLg [20x20/16z] {
+LOw5jM0X4CM2F06MIV_Txc6-1yd5uPEsdVmbtCk_imP0TV79K8zV3mqWl1pfE_iAtSgN3rE83MV73aXifx84EtMkKN3aNBgheSl1ta0t_FgFbM41s6gcAXY-
+KBQ-oxpdmlfwm97_m9d_A0KoMC6N9KcnW2DT71mYoBbqqwV_Km33D6LgF00h_SdE2xJmYqirFgV-0m
+}
+
+!procedure Sendinblue($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/S/Sendinblue', $name, $tech, $desc)
+!endprocedure

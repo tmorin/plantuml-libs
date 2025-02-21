@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2025/Resource/GeneralIcons/Recover
+
+sprite $RecoverXs [10x10/16z] FSQt0SC0400XRELm-w-hxgbWt6Lv_z06STe0Do3Bx9tzZS06Adm
+
+sprite $RecoverSm [12x12/16z] LOo35K1H3CNoMEw_xZTpK5pmmrs8h1oO0-Inubp7v2MVJObdZyz_Kk-rVWBsfAlT3N4qhm
+
+sprite $RecoverMd [16x16/16z] TO-55O0m34GlWeNkFoylrEtN6priU6yacE_WfmIA7yOMBpVxVZ8CaUUF169il3CQp7qQn5qQo6CRDFeaedD0vVQO6X5D_3JF66P2MXMrV
+
+sprite $RecoverLg [20x20/16z] {
+VSg5aSD04031rbewtlp3VNwptSLJuwq8_1dv9JYLbPUyhHP06_vIElwQFO7bqkmDMd1f1YHSR9rjW8iaTe_jvB6LnsPvR0aN-uve3njZTp43oFsI3d_QsC2U
+uQBdjzrBdm
+}
+
+!procedure Recover($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Resource/GeneralIcons/Recover', $name, $tech, $desc)
+!endprocedure
+
+!procedure RecoverCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$RecoverLg>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+
+!procedure RecoverGroup($id, $name='Recover', $tech='')
+  IconGroupElement($id, 'GeneralIconsFamily', '<$RecoverLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/F/Freecodecamp
+
+sprite $FreecodecampXs [10x10/16z] Oy06k51u_43Cmmqa-80i80aMuWMIh42LB0nWGKwuMYZWG38
+
+sprite $FreecodecampSm [12x12/16z] TSc54O0m4031mvthlric-cDiyiwlAwgflYaT9ACfdtVAkhRh9Vi4R803FZ2aGIZb8XbW6L99IWqV
+
+sprite $FreecodecampMd [16x16/16z] bS47OSD050KmUVlMV_pPba6JI7wsDW3zefsWmA90pmNox20fK0L6xW9lmPQemDDXXkJ0qB0MoOu8ZWCT-x0jd83WsW5q7_q1
+
+sprite $FreecodecampLg [20x20/16z] {
+fKz70i0W379lvV-lxI9MxzAgX6nr1hCR-hjB5uF0Sop8_P0il3hHa8KaqsSEC5cD96FJmAxs8N-LGGqe2hrIgrR2LiNXopSZtDB0MVnx6uxgcghVM8m87zNF
+iTnCf5ObPY5rTOGR
+}
+
+!procedure Freecodecamp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/F/Freecodecamp', $name, $tech, $desc)
+!endprocedure

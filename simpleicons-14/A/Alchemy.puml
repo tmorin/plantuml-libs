@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/A/Alchemy
+
+sprite $AlchemyXs [10x10/16z] Oq05_3061nAB7oR7pyy6OO6O40Ot40EPB202BWS6V70M
+
+sprite $AlchemySm [12x12/16z] PSk50O0020H0xFRsdzPkQJxY5-wpVDnuuBBZT1CCGRkUANdWO-o87YJ1682ygcBfBMO
+
+sprite $AlchemyMd [16x16/16z] TOs35GH104Ep6EFtN-qPEyfZh0MEZj9oA5Tge0tG25KdOBzqfpO1O1CGtzI_UFu5W2gfb1AUjBHV6n341v_dyENH0OVW7sXn1m
+
+sprite $AlchemyLg [20x20/16z] {
+bOw54O0m4C1mgsJ_QUlUCmArtDlobutPmJEg1vZ3GCrniBPcNKEWRXtQzNLSLPrmBXf7to3kNrOokhS9N76869wbAjVL4Ix7q70f6JiPKIfJMTC43nMbfp3_
+dB4
+}
+
+!procedure Alchemy($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/A/Alchemy', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/S/Stackhawk
+
+sprite $StackhawkXs [10x10/16z] 1S670S0W00CWkjoQ_xyjtB00nNGXptxPzx43Sh7MdLdlIKjsSaqwmKGJwvkao2r0Nlm
+
+sprite $StackhawkSm [12x12/16z] BOQ50S0m3CDKniJ_NpkiKP5N-zkNUvZvVHHgfuMqS8g71kIWmkhYbMnZNTuUMFjXNB8dysL80ZvE86WFZp22QJ1I0ZP5i3ZIjpS
+
+sprite $StackhawkMd [16x16/16z] {
+HOU5WGLG3CBoN2hiF-t9rrGWbIV-oiK_Px07G26WNIv6511h6PTPUzcb9GoVfHTWKcB0T3EUvDYmIsv1qdKEi8afBQLonh_tbfBY__ZtKO3q0NmzL7XvPy0K
+rDg0OkNGfMmS0c3DCa9bS1jFl4xTiVdYEi_o2m
+}
+
+sprite $StackhawkLg [20x20/16z] {
+LOe7aWKW2CMYOCFoxd_R7VVtMCXaoBnOl1WyYCfi3pK2e2xcT9G0Dil9AvLE9f8jE4PIihHn9qYRF0yaKqgfSgcas5UtgV1YgoR8h7g2AoH5-BngwopbeJpL
+bFkpnP66GjeHt4RhHzBUkdzwxFK6eBQuZ4SRtAPuji_UaGFsR1iwhDiMfKrWUnvOIFAK1Zq0JDI6rBBZuaa9c5efRUF30YLl_DBsuCaV
+}
+
+!procedure Stackhawk($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/S/Stackhawk', $name, $tech, $desc)
+!endprocedure

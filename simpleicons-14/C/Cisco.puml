@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/C/Cisco
+
+sprite $CiscoXs [10x10/16z] ZS6n0K003031Jr81l_-qK05mnny10gd1NgciiQHQChWn0m
+
+sprite $CiscoSm [12x12/16z] ZS450GD1000W_jolVziLc87_N531nQCDrtEvGPkGmGERATTdqB0C6nfTI4_ooGi
+
+sprite $CiscoMd [16x16/16z] hSV50GD140Cm7VEw_sh3UOL17lG7SJQ0KOpeZIgJd39RZLgvvlnNq3cht5DQKzVAiGes9cCL8gX7TJKoEioFxG4
+
+sprite $CiscoLg [20x20/16z] lSq53W8n54NHCreBlFsl5YSACUIstys_2C1KNkGge8aw8owv4CzSdhbMMUGYckgIQrQmUJ9vovA8n9Je2GIHRk1etv2o26rfVPRvCC5MhEf6kHwUVPqp
+
+!procedure Cisco($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Cisco', $name, $tech, $desc)
+!endprocedure

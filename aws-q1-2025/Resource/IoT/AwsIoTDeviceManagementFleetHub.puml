@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2025/Resource/IoT/AwsIoTDeviceManagementFleetHub
+
+sprite $AwsIoTDeviceManagementFleetHubXs [10x10/16z] POQ53S104CEI9--_SO-43LZMFzQPN4KE0SU9Zn5Bux5qheLsL12FhdY4XKC-
+
+sprite $AwsIoTDeviceManagementFleetHubSm [12x12/16z] NSZ50GC144BHFmRzLvoisxiWF6MSn4tVFnjl_y5xBniVFR6o6v72dVJsYzQOambcQo6F3Fm1
+
+sprite $AwsIoTDeviceManagementFleetHubMd [16x16/16z] NSY70SCm3CH0M2OV-q-SkBTJ1VaoJvA6uYJo94vF4e0oORLtEAwZPwQ2d3rhK8yU0LFetj8ExA9mBO8p1PP0WzqsX5LWJBZTvw3NR0wLGOVL7m
+
+sprite $AwsIoTDeviceManagementFleetHubLg [20x20/16z] {
+PP250SH020HdiUs_uhVu_IHdE03_Z5U4MP0mcVGYguKMraAUySgUMxml5Z1nbvaVliiQUeJwakLMgUrJbXRg7F0SCZDOqQZKcqp9J1LJ1lzaJaWntmMM1IXW
+N3qMc0rlgu9BrW4nqS3SvXfXbzhB8974ZpS
+}
+
+!procedure AwsIoTDeviceManagementFleetHub($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Resource/IoT/AwsIoTDeviceManagementFleetHub', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTDeviceManagementFleetHubCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTDeviceManagementFleetHubLg>', 'IoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTDeviceManagementFleetHubGroup($id, $name='Aws Io T Device Management Fleet Hub', $tech='')
+  IconGroupElement($id, 'IoTFamily', '<$AwsIoTDeviceManagementFleetHubLg>', $name, $tech)
+!endprocedure

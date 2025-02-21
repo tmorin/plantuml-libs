@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/H/Hellofresh
+
+sprite $HellofreshXs [10x10/16z] JOQ50S0W0CEAE_d_shbGZLOr3vW3k5L5o-I6GHJZotG1KMC5X9ZIWEFXe0CbRcNfvkDs
+
+sprite $HellofreshSm [12x12/16z] NOs50SD030EJH_FjlsqPpIWTVw8XiEyboLtqMZ8fDOThwLCME-jQgwoS5OzvBWMPSQkZpqIEG80-ilR8yuvt3t4buer-bN6jx5PS
+
+sprite $HellofreshMd [16x16/16z] {
+RSS5WWCW30NHZrl2tF-qAx3QzY79wAN6Xl5TrJF7EcbdFxyZJGYmP-eBaDWhK5kHMmVnsQ6qhRN7wMf1JCfCd7ON1bX9jsqiEPhXDXGRNZp4H320RCrB7cjl
+EK3VN9BuGyVawlgMfWrTxm
+}
+
+sprite $HellofreshLg [20x20/16z] {
+VSi5KaL134JH7lqZIUx-Tqizm-6Kj-WVPKVOIFgmgOtJaoPUYyVCLtHf58259E3b48F9Tk28zXwEZxadAnrP1jiZSkjpzHbdjc4grRgdnIxUZWpsicuZl5jb
+ScKixx42M3JTsVImahsoPXQi8miNglv2944g73ILtS9w5YYk36MNTm39EIGcjoQ9huOEsVYGzVZuVPPA-PYy0G
+}
+
+!procedure Hellofresh($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/H/Hellofresh', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2025/Architecture/Storage/AmazonFileCache
+
+sprite $AmazonFileCacheXs [10x10/16z] OyS16840mME1KCnm5Xi3bCK0bMK0CHWP8BAih2Xc0G
+
+sprite $AmazonFileCacheSm [12x12/16z] TSQ50G0n2C10FFjF_AwLjC0nJLGUQnnfxKxORzosZ_snmkKeKwE2ipIUYhOL
+
+sprite $AmazonFileCacheMd [16x16/16z] bSYr0S105CFG-o1x_ud3s2Ngdlo_Xc9hDtqKxCP7SNlKotA_7FBBjU5sMfSZSfqYXy-4_0f_QmO
+
+sprite $AmazonFileCacheLg [20x20/16z] fSzL0a0H50JGcsF_AzRjqxp0qU4lhgf-cPQFUwRP3DkmRQPXD_N7eF9O5hsD0ReCXY0uZLhjC6KLyMaWedvK9ZfkwF1mnRfz9W4
+
+!procedure AmazonFileCache($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Architecture/Storage/AmazonFileCache', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonFileCacheCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonFileCacheLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonFileCacheGroup($id, $name='Amazon File Cache', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonFileCacheLg>', $name, $tech)
+!endprocedure

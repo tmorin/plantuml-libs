@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/B/Bunq
+
+sprite $BunqXs [10x10/16z] Oy0B-14iVWOU49yLoE3d1GdmCR1pCJ2mCJ2mCt3WDmK
+
+sprite $BunqSm [12x12/16z] bOQr0G0n30FlCIpjlsrSfhNmICedLzzyB2EPwmec5gcY4SmIIMq
+
+sprite $BunqMd [16x16/16z] hOUr0S0m40FFpDR-qmRAV1kBnM78Vf_U2f1vBS_sZir6B9P0xls9xJnEkpLKv_jH5by4ypq_SGC
+
+sprite $BunqLg [20x20/16z] nSYr0SGm04MnPsR__QSzxC9Leb8yHERYJGdROP8b2DAKnyx_JOmG304o0oODP2PaDLCpChdy3dcZPAi3QeG02NAkh6sTumPl
+
+!procedure Bunq($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/B/Bunq', $name, $tech, $desc)
+!endprocedure

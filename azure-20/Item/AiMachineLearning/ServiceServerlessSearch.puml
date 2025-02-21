@@ -1,0 +1,24 @@
+' definition of the Item azure-20/Item/AiMachineLearning/ServiceServerlessSearch
+
+sprite $ServiceServerlessSearchXs [10x10/16z] DSY50GC124FHZoLq_u5x_d2u_8BRNfv5mpuVkcSPs_JLsuwqAP1AKgTW9D5yCdaL7
+
+sprite $ServiceServerlessSearchSm [12x12/16z] LSY50S0m24JHNxWW-mzSjpmS3jxYrWTEMONj1QegavPZhvsaVOx87PBsSHJx8zoD21yHWHCG9vdna9oNvdK3
+
+sprite $ServiceServerlessSearchMd [16x16/16z] NOg50GCm20GFYUs_SFbGlmYyq8mpQLg9j-ExoPPMgxcNYr0IAVQLmaRcgC8YbkXylJ7Sx6xN1FqUOHCjDkkVb5x4VEAPp0H6Qv8VilWnx5Vo9mtn
+
+sprite $ServiceServerlessSearchLg [20x20/16z] {
+POo50SGm4CDyP7_tN_Y3HHMZw8AD3XaU_8xExw4sbs9RAPFjlOprWAX2xb1pg3ApxTgScrasekQH6apdLCDAa-vg1Gk3DQZsAkLIFkk8W4RkInMQAY59Ld20
+J7SMkboKPO14ftXcU6FPiBVrTBofh_B0XwN-
+}
+
+!procedure ServiceServerlessSearch($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/AiMachineLearning/ServiceServerlessSearch', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceServerlessSearchCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceServerlessSearchLg>', 'AiMachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure ServiceServerlessSearchGroup($id, $name='Service Serverless Search', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceServerlessSearchLg>', $name, $tech)
+!endprocedure

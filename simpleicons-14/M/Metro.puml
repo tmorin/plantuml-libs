@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/M/Metro
+
+sprite $MetroXs [10x10/16z] LOi53e0008ImM_x_MyTQM5uG0g6R0eyByZeY1idj1EQDugzzr1cf58KETla
+
+sprite $MetroSm [12x12/16z] DOZ50KKn08DuMY_xJ_kbmYK1_fooqQxZTUlm1Egftjfmg7AAT5uF-lZwK7NzmVXrtF3_7cZZzeNB3YFzAVgFV04
+
+sprite $MetroMd [16x16/16z] {
+TS-53GD14CLG7z-Y--ys-a5HtgB5myljoizkV6fHDwfseki53KO-kTsRUkPQS73xic9BmrGBO4zxi0hTJoli-klurvDLOu2LKnSkS-yAhDhXPD49SMjX-1in
+uKqy
+}
+
+sprite $MetroLg [20x20/16z] {
+TSs50SCm4C10XStQVzj-cI-i6BYhxhpB6bQUTdKSXdkPHfGPI6gvfAvkK8myr7XiXhmQ-ZmCq9tn8LET6KxNJK87YikbxT3K9HwFvfYOycNjPzC6w7kBwdVp
+N-kNLatGlLf1Op_jSOzgXbK7uRhhwltrub0Fe5wct3Ml5fwkwoMkJW
+}
+
+!procedure Metro($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/M/Metro', $name, $tech, $desc)
+!endprocedure

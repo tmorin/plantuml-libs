@@ -1,0 +1,27 @@
+' definition of the Item azure-20/Item/Identity/ServiceEntraDomainServices
+
+sprite $ServiceEntraDomainServicesXs [10x10/16z] LOh50G0n0CAeXEh-yvvBUG69bb2VvbBkOezn54Yv7vMzmVwICzbcJEqrL-Xf5-jWRrrxuawIDW
+
+sprite $ServiceEntraDomainServicesSm [12x12/16z] NSpL0S0m24LH8WyYx3zlaJfVvqQW__Hniuh8PMRP-oBtdG6W0Hv1CrkW-zZ1KgKWCzPQjh5tsJ37ecKqpuYYr3hH0G
+
+sprite $ServiceEntraDomainServicesMd [16x16/16z] {
+RS-70iGW20DGL-04_lzxBoetstI-TAZbFkFnmwwgNwpaTo4YwcvV5FWfadq8Y_rJCBq3oWA7Wpu5hqpVXaK4nea8xH6bRKALDY_CydGisvcUERcTon2FIS_w
+ML5Udm
+}
+
+sprite $ServiceEntraDomainServicesLg [20x20/16z] {
+VSe56iGm24HXMYGotF-yooJhzjhO_o7_Els3lFN-FjNOgqN4EmODm7YX2bLx8RLEz2jvfMesYKPoPggrBpn4p9akyo2ARgAncGcuCUuHKORC5BjLL5OuHFng
+lI-RAepY4xujPEKTAA9LX-m6q5_cs8c4bAbyxm8
+}
+
+!procedure ServiceEntraDomainServices($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/Identity/ServiceEntraDomainServices', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceEntraDomainServicesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceEntraDomainServicesLg>', 'Identity', $funcName, $content)
+!endprocedure
+
+!procedure ServiceEntraDomainServicesGroup($id, $name='Service Entra Domain Services', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceEntraDomainServicesLg>', $name, $tech)
+!endprocedure

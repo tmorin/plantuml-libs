@@ -1,0 +1,24 @@
+' definition of the Item azure-20/Item/Compute/ServiceMaintenanceConfiguration
+
+sprite $ServiceMaintenanceConfigurationXs [10x10/16z] JOc30G0m30Il2lOVk5Rmv1i3V8emjBzKA64guOGYWYWWCnEYx39iCT8mi04
+
+sprite $ServiceMaintenanceConfigurationSm [12x12/16z] BSor0KHH3C0m1Vw3_GS-Z2jL1W3oPAmDEcaEB3IIC5uyGbzY2U1OdypX8wAGF-9s3M48Xcy
+
+sprite $ServiceMaintenanceConfigurationMd [16x16/16z] ROs55KCn30ClYN7_XLi_bViLF9EuK5TcsvCiOSCfuGvW3eNk9vyDu2yc3jW2w4bPA3rSWCSXC43JOyJJPl0iS4qOL2ODPJVIRZykVEgEXlJT_Co_y0O
+
+sprite $ServiceMaintenanceConfigurationLg [20x20/16z] {
+TSo73SKm203HenhlF_0l5ahFfRyWU2jgrXpAdbK0CEO-D01g_MoIGjgmdYpPZTvP71-PW4Lls8bm4M2KRURk07Wboz8yILXbWUK_Oz85-eC8WKW6A_cHive6
+e6jPG6CkorzinKotfZs96u7VYSWKhlbEV04
+}
+
+!procedure ServiceMaintenanceConfiguration($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/Compute/ServiceMaintenanceConfiguration', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceMaintenanceConfigurationCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceMaintenanceConfigurationLg>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure ServiceMaintenanceConfigurationGroup($id, $name='Service Maintenance Configuration', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceMaintenanceConfigurationLg>', $name, $tech)
+!endprocedure

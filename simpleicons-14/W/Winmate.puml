@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/W/Winmate
+
+sprite $WinmateXs [10x10/16z] O-270WOW2yO4iS4OayN50sHnWrX0o0Uam2mG1UGnGLWWZ61nyWC
+
+sprite $WinmateSm [12x12/16z] HSQ50O1040Emu4xttnRdJzh8DxFYB9ec6QvOQuoPI9eELNBP1fUtYE5nTpcan-l5o5nTLhjYFDrnsNuw39UJ0m
+
+sprite $WinmateMd [16x16/16z] {
+NSm54WCn30J1CGPr-__VHhKA7qovJUZhEU37qhy7G4Z0aQG1dEsic03THhgmQ1vDjwVljUBI5dNLBk_oLLGZtM3OBL3QHttDsJw0ZO1k2s1KxGQ4Ed1Bem3q
+x7e
+}
+
+sprite $WinmateLg [20x20/16z] {
+RT05aiL020N0ZWlPlFlVTck-smZIb6BF-vduijGF2qjLNSPLHyj70Qs1PXrWVJ4wqFymDwkMfyvqimvBiZiwsyrwTCaWdHqgwI2XsOWnyMedFArl5iXin5RM
+XvsSw5ULpfO1fO-6Sh4TBOER1PoP7jRVB3bWQwRoX-svXkuV
+}
+
+!procedure Winmate($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/W/Winmate', $name, $tech, $desc)
+!endprocedure

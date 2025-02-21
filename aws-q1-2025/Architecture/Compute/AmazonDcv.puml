@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2025/Architecture/Compute/AmazonDcv
+
+sprite $AmazonDcvXs [10x10/16z] OyS1cDXP80nck103We29ip0o8AjWWj4CA6O1
+
+sprite $AmazonDcvSm [12x12/16z] OyS7c1ZPO4n6TdOe6yfWHbB7nWPdCa1Lip0Y5321zI0uZ70PLbPqAm4
+
+sprite $AmazonDcvMd [16x16/16z] dKt50S1038f1zf-uBhmg5rVe8OagbnPSWWosKgIEitEE0uMwln1zKLZTQEwulkH1MB3iAFlcyVCgCm
+
+sprite $AmazonDcvLg [20x20/16z] hOx50G1130AZq7_5v-woyue2B03SiHc5aHRhcNMBN8wSUsGir1QpVQMZksAx5UUqR6TmZOLff8h4sXyO6pa8QEk4MDZFQQERhm5VKWC
+
+!procedure AmazonDcv($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Architecture/Compute/AmazonDcv', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonDcvCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonDcvLg>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AmazonDcvGroup($id, $name='Amazon Dcv', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonDcvLg>', $name, $tech)
+!endprocedure

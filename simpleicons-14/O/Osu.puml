@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/O/Osu
+
+sprite $OsuXs [10x10/16z] FSM50ODG00FHXyEtx3zjlKJkuCeE0lD5VBFvfrmEsxBKY2ldkQVPCMFw2k9oPoi8Jm
+
+sprite $OsuSm [12x12/16z] DS770S0m30GWqflbst_Rl0JWomq8R8412D5AMxoVBNBMin1nrZrVt9HorO9Dcw9T132XNioB7m
+
+sprite $OsuMd [16x16/16z] {
+LSd50SH040F1NkPH_j4Uc5ql0PkqD1odPG78ocp48QzNXJ1XyT0SnisZ5ExgEhP0PVJaXLoZ2XP2LOX27c2MXtAJtA2xp9CGJqREhmehS1hRDzlvPZPELdEN
+0Nm1
+}
+
+sprite $OsuLg [20x20/16z] {
+NSq5WeKm34NHcp1LchxzhtQ-uGTjb4sR6fcBf2ZktXJ6Hi76rRRGjIVw5hgQ2L9m9n0FlH9ScK2jG0b8iPJ5rcziEZvDoEZ9P88XfpP4LUtPn80n75CIPUrf
+5jc4o0rmSFjz3OHu2iAvasFYvaz02owsMNrUgxPHINqBIHogD4Pes_S2
+}
+
+!procedure Osu($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/O/Osu', $name, $tech, $desc)
+!endprocedure

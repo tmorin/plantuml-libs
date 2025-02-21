@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2025/Resource/ManagementGovernance/AwsCloudFormationStack
+
+sprite $AwsCloudFormationStackXs [10x10/16z] Oy04J4WiBXY0op11M71P9h0i8oCN8oCx5oCpK1oebfqBMIy
+
+sprite $AwsCloudFormationStackSm [12x12/16z] LOg70G0G3C1iyl_1Dcr3Tvmc-0VE_sqpVLZSlFVXEgglPH9MmW5XHfond6N4w_yUyDSP
+
+sprite $AwsCloudFormationStackMd [16x16/16z] XSg50G0n20F0X1fX_ttVNQ-2uaed3k7el-OPr4QoDbdtcs7oNzjiYwgrSlmync_QPnjNO_oUQXxhYnu
+
+sprite $AwsCloudFormationStackLg [20x20/16z] fSt55SH030JHdjg3dZh_VDVCRF_3W51xSWEbLlWOyngA0T4hOs_2qFijvXxk8Lg5XhfJMMgEvWnSdxz-dgCv0zSd3s9kn6mrsb41
+
+!procedure AwsCloudFormationStack($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Resource/ManagementGovernance/AwsCloudFormationStack', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsCloudFormationStackCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCloudFormationStackLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsCloudFormationStackGroup($id, $name='Aws Cloud Formation Stack', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsCloudFormationStackLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item azure-20/Item/General/ServiceStorageAzureFiles
+
+sprite $ServiceStorageAzureFilesXs [10x10/16z] Oy06k620WHK6G2mMPYOcC0ki28N5nWPYW2Ws640O1m
+
+sprite $ServiceStorageAzureFilesSm [12x12/16z] Oy05k100XSsA040s6niR8n20sKmGZMXiDZO86yX0PIC0ihK
+
+sprite $ServiceStorageAzureFilesMd [16x16/16z] XST50S1040ImAItvzriwvlo25Iq8hDJyAdsdOoVA_i77V_ypE1754z7w9Imy
+
+sprite $ServiceStorageAzureFilesLg [20x20/16z] fSZ50G0X4CNG3uptt--wk-IMXp_5Bdril8jwawQD2HUIajicwnPTa_N_tgHfjdPVs2u2xwpWOJK
+
+!procedure ServiceStorageAzureFiles($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/General/ServiceStorageAzureFiles', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceStorageAzureFilesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceStorageAzureFilesLg>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceStorageAzureFilesGroup($id, $name='Service Storage Azure Files', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceStorageAzureFilesLg>', $name, $tech)
+!endprocedure

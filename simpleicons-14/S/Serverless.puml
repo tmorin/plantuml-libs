@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/S/Serverless
+
+sprite $ServerlessXs [10x10/16z] Ou03NY20aFn0mC009k60YOa9I800L19COGAm99ei
+
+sprite $ServerlessSm [12x12/16z] TSR50S0m5CDGbRdQVzf2y9JtmQR1NuhZ0zCHixgkwuGhK7jMWwxhe8kWqfx536ghNW
+
+sprite $ServerlessMd [16x16/16z] ZSw53S0m0CH0bxc__xHb39yWR8K87Pw9pFMmww0QJYcz4Lfzv9_wl07c6n7svoPezEbjzMdszbO
+
+sprite $ServerlessLg [20x20/16z] Oo0Iy481aCa1O_D301TGZ1yDC26BSKC0K8YL6mQ8jPS9380CHYOuWDlAXzDM100ASI9pAG0Whn1lAmUg094
+
+!procedure Serverless($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/S/Serverless', $name, $tech, $desc)
+!endprocedure

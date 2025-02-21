@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/C/Chainguard
+
+sprite $ChainguardXs [10x10/16z] LOo30S104C1Ikzb_slAPCwdGauz5zSkCsHVRvXlskWADVj0R-Nw8yl656m
+
+sprite $ChainguardSm [12x12/16z] NSor0GCn0CNGRsPh_scJOrBrAkbR9vqSWdbm0FZDCA2pssRoBBk9u5dfsJFgt4ciJSZh4asyNRqLjVO7
+
+sprite $ChainguardMd [16x16/16z] ROw50S0W30Hn9xV_j7KlXyPVZJ7XQMbH8BSTQ-3Xw8qDTzYSxAO3Ry3ueo1Hg52b7DqXDcYHJtrTZSmJNtYpf-V7m01D0TivaKlSXna
+
+sprite $ChainguardLg [20x20/16z] {
+VSt5WSKm54DHcTct_se7FeIJitieFJAd1XscjW8IXsQnl6an1Xz-wR5OhYiqsm6NsQmv1C8si_O23aHhzfiAqqyWLCuPz7V3TBQo53cPdZD9TJa3C4j2c806
+KDyXEKW6a6n9sYWOFVW5
+}
+
+!procedure Chainguard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Chainguard', $name, $tech, $desc)
+!endprocedure

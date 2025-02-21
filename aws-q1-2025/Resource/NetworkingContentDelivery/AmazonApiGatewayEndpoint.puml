@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2025/Resource/NetworkingContentDelivery/AmazonApiGatewayEndpoint
+
+sprite $AmazonApiGatewayEndpointXs [10x10/16z] JKk50G0W2BFb_uVfCc0v-fdyVm0GEBSYWQ08fY9GL9gsu5cKFmDPSqu61
+
+sprite $AmazonApiGatewayEndpointSm [12x12/16z] NKg50G011DJiF_7ZlkKLVSkuIm6Xo4Bk9pw4eRQMn7mbWBCQ_tJTBuroNlGfoikdXdXJ_Gy
+
+sprite $AmazonApiGatewayEndpointMd [16x16/16z] TOw55GGn44A9GlyLtnkxTQ8V8eCtYIOLikp2nd2Pk2snoVkOS8uJD0X6WpvOucT-PG5C9lg2nyRSw3FBRR1XQHYcGZDaSlm1
+
+sprite $AmazonApiGatewayEndpointLg [20x20/16z] {
+ZOe55iKm3CD2ByxzBpo8cyym3UhgIRw28l6WTCPDmcJ8k5TrZaANhBHwbO4bL1n2rozqZN5QelRYvA-BgY_TLUTvEiTvMIwJjPzdjikWaYvn3lWebeHgbTeO
+5L4ZlEq
+}
+
+!procedure AmazonApiGatewayEndpoint($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Resource/NetworkingContentDelivery/AmazonApiGatewayEndpoint', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonApiGatewayEndpointCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonApiGatewayEndpointLg>', 'NetworkingContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AmazonApiGatewayEndpointGroup($id, $name='Amazon Api Gateway Endpoint', $tech='')
+  IconGroupElement($id, 'NetworkingContentDeliveryFamily', '<$AmazonApiGatewayEndpointLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item azure-20/Item/NewIcons/ServiceBreeze
+
+sprite $ServiceBreezeXs [10x10/16z] JSW55e0m30JHmJTs_-FYq4ub_uM-PLdNxS4f4yoNJB9BrpJ3J9P-XgpESUbQn9aWdk2Xmm4
+
+sprite $ServiceBreezeSm [12x12/16z] LOo50S0m20IfuEm_Rn_g5xjWz6TX5f7HdTlLTaJ7rSqGRZVWJhopEIJWZgnNW2I4O0FYsJ6WH2r3ptyLTCBm7W
+
+sprite $ServiceBreezeMd [16x16/16z] RSl70GCX34JHSG2KJF_bUYJ2QV_jAU2fR-liUzXQUUZURgj8CLraP7bJNzkY11FewA8fcxzf2bq8jonGTs4dK6wtXkzQUcK0WZXrCByfAhlRa_2r8Vi3
+
+sprite $ServiceBreezeLg [20x20/16z] {
+TSm5WiKW34NHXyUw_-rEKZ9ylrKEWj_rCRts8iFDMmEPInhHobN75YVsOyJajITB8WvAunkyWkKMmbkyWHZm_HAx8blOG6ocicFiKzJaD172bpnLqPZbBDBO
+3o19_oEtQGaPegNF5RoZ56Jr49ugOwrPiVi3
+}
+
+!procedure ServiceBreeze($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/NewIcons/ServiceBreeze', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceBreezeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceBreezeLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceBreezeGroup($id, $name='Service Breeze', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceBreezeLg>', $name, $tech)
+!endprocedure

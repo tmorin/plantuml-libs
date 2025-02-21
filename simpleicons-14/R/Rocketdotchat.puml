@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/R/Rocketdotchat
+
+sprite $RocketdotchatXs [10x10/16z] Ou039dv-FYYJ7mAOG2oe00C_J8uPYC6G3oO6OaCPZ20P8E21Q88
+
+sprite $RocketdotchatSm [12x12/16z] LSZ50SH00810adMb_shFTNx0ZrFbpQVvYdPm3WKxJrlapR0O8XxyVURcoKRQh5w71h1hgecxFdYx0W
+
+sprite $RocketdotchatMd [16x16/16z] TSA35KLH0C2mFboZ-q_xRUI4JqDtUFACfrNl2cTgtnQMVUeAcvqxNR7pf8j0kT_SX2PLiWk8y1H5UNA2WPkaW1jXb5odLg1BSwfz1zXK8tyT0G
+
+sprite $RocketdotchatLg [20x20/16z] {
+XSk55G8m303Hgo2rtFxRyd27NutnIMwjy2nx53nf7iLOQurDuimdcQDGOviJAHzd9e3AJLLXs7aKxb6UQRP2YS8ke2z0Yvpdmu8c2B411TBnP41HdcnT5ECv
+TPc_YsCA55ACjczJNG39OEF5X2Czgf2uKUtyTG
+}
+
+!procedure Rocketdotchat($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/R/Rocketdotchat', $name, $tech, $desc)
+!endprocedure

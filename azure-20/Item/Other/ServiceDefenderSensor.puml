@@ -1,0 +1,24 @@
+' definition of the Item azure-20/Item/Other/ServiceDefenderSensor
+
+sprite $ServiceDefenderSensorXs [10x10/16z] RSQt0G0n24DH6Z9__t4lsfqVGP8ZyyUJlbapyUbocaom99gF2CJV7hPokm4
+
+sprite $ServiceDefenderSensorSm [12x12/16z] TSQ50G0n3090wesm_xZlBXS1_8krrhYqqbOLy7uoeScAsccaY9AkqvXoWId5jmw4jGbMdGbt8m
+
+sprite $ServiceDefenderSensorMd [16x16/16z] ZSc53KGn3C3Gv7F0-uzxM1Js2ItBakCOGg_xQo_hRYuLyMTo9Zcs1G-u_GLu6f7mAU3uj6UaEyK3cMb18V80GtzeALAbk06J1My
+
+sprite $ServiceDefenderSensorLg [20x20/16z] {
+fSgreSC034LHcSHt_t4_18nDu7GFv6kpgYw3xAWzB8zYj3tzFzk5IdVwMG5zQegCXeo7eacigOB-Rm1NakpestaLa4uPEqC17TN5IaGSmDUEb7z3ibfafToC
+SZ2O3VAMNm
+}
+
+!procedure ServiceDefenderSensor($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/Other/ServiceDefenderSensor', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceDefenderSensorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDefenderSensorLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDefenderSensorGroup($id, $name='Service Defender Sensor', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDefenderSensorLg>', $name, $tech)
+!endprocedure

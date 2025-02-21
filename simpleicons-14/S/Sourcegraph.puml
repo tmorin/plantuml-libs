@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/S/Sourcegraph
+
+sprite $SourcegraphXs [10x10/16z] BSZ50S103C0mbxdUVzgZH4_HV2I5JPfPKL1ibXxTGtDgHsC0Emv1KReTBW-e
+
+sprite $SourcegraphSm [12x12/16z] FOk50S1020D3tRF_jhqt3fS8jbE9JTf7_n0iGdfj_DHYjWGd7ZhZlNADeJBQG5rROkiVKUV1MliV
+
+sprite $SourcegraphMd [16x16/16z] NSt50SC030Im2tEq_xGbb_KoEmzdcs_upxja8sL7PfKtIOT1vTWQ9Sd4M-wyjIazofboUgjtllCL9z8TZcJ06QHiID2bK2VtV6D8aYi
+
+sprite $SourcegraphLg [20x20/16z] {
+RP350O1G5CEAovViForQd5oUgtP2qfiCw0NsDRTG0WQf1e9C2R2dnzKkN4p1IcchLiPKaZeUDEvqSWveN8OhJS-DzjVRwzkKrLLWndpwM4bxLGU5dqAprcV9
+k2_0_NcZG-NfR3Tr03gzE6jd
+}
+
+!procedure Sourcegraph($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/S/Sourcegraph', $name, $tech, $desc)
+!endprocedure

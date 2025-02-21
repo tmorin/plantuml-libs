@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/Y/Yammer
+
+sprite $YammerXs [10x10/16z] Oq03_FnG1f3c0FA0W8C1J8D97X39o08I0x5uWRBy_Em8TSmmlOn8vW4
+
+sprite $YammerSm [12x12/16z] JOs50S0W40E3-sV_RPiw1--6XuuF3lUvroycg6HIo43F2WmAw95AnojGNlZRDp8YoPzNtXlXnVBRCVCWla0k3W
+
+sprite $YammerMd [16x16/16z] {
+LOg50GCn4CCSvdZ_RNjEsmSzIZ4keiEJIBuLUTsQTAYdx0ETuh36JL7D7KLqH6NDrWiKqFKP41et3Eqltw1OxkUKLyHbK_uvUzODVw0txGKN2hnLOLMymeRn
+0G
+}
+
+sprite $YammerLg [20x20/16z] {
+PSe5ii0W4C3Gr861pVrF-wKkhyKoortZ8unlmkML0YRVKu09M6AZ7Uo3dXB_BFuZhAnjgXffRKZdglR0Uc4Yj4ri_DSngebxQziHkNktjAWkuAfV6z1dRxP6
+9qEYtoHxW28tMxJZ7Mk3Lynsl2pE_Fi5
+}
+
+!procedure Yammer($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/Y/Yammer', $name, $tech, $desc)
+!endprocedure

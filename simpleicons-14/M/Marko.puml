@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/M/Marko
+
+sprite $MarkoXs [10x10/16z] VOF50G0X082uJcN_QOstGJ1dKseWwk7l9nLNyGIY2bAN7Xa
+
+sprite $MarkoSm [12x12/16z] ZSh15KH000N1tWNmttJ-qGAEeCx59mhwCz2gZLeB1YtOwoIxub-KZN_bvnyuGm9DICMT1G
+
+sprite $MarkoMd [16x16/16z] fOd50GCn40DrPfx-kqrC_y22K7_F0qK21DCpPG5IdKMYEquBEezNO3YeT9s1VMRRJguq6RZrmvI3jAq1ErLhR_2jsYc-dHS
+
+sprite $MarkoLg [20x20/16z] {
+lSk7TOGm40N0JquwflzkpUgP2Xm696tC__WW2VQLEOy9jZJ8JHve3ApSptCc1md8mbZjzCQkmhx9vwhajJ6UX3ilMZWoigQygxwZRc9Vc2hcIa7VBblhxzBQ
+U5Ruwxu
+}
+
+!procedure Marko($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/M/Marko', $name, $tech, $desc)
+!endprocedure

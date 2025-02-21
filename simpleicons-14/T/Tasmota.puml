@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/T/Tasmota
+
+sprite $TasmotaXs [10x10/16z] JOp50G0W54AnlRtzfxNZTm6QLdKCpaWKzGnQ8z41OwpZTVn4a9tERrhO8Xq
+
+sprite $TasmotaSm [12x12/16z] NSh50OG000F1ESL9_zNYlf-eXT91d-AmhVmtsx24rRwNi1mc-YcKdH1r8wn-SNIxV_HD9_AsK8WNHW
+
+sprite $TasmotaMd [16x16/16z] LSo50G0X40F1l2ji_zNYxXFWLDgjgS4rqh9oZfHAK5c2nX8K_i2T0m8X7244rntvINbRIV-Kl9GwZybMyMrdB-My5GkJp5qitc1-jRO5B-da0G
+
+sprite $TasmotaLg [20x20/16z] {
+VOq53e0m4C1k4ZBl_tzBxd0jp9ekavqa3mRJNG6aUnMbNKk8DgThfQpbKSbQ7fNF9RczrCfXZBNKAZ9ymYMmCkb5tIT4FDKEpexhr90LTYU4pVN3JJzTtbrb
+LSUxZhQxo50NGGu2wjAGA-bePW
+}
+
+!procedure Tasmota($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/T/Tasmota', $name, $tech, $desc)
+!endprocedure

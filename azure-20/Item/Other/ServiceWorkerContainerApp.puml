@@ -1,0 +1,27 @@
+' definition of the Item azure-20/Item/Other/ServiceWorkerContainerApp
+
+sprite $ServiceWorkerContainerAppXs [10x10/16z] BOS50G0W0CE63UdV5x-VWy2h2EYT3jWtM_ToH3rBnxRDlsglTs7lRHS9IcR3Oyq6M
+
+sprite $ServiceWorkerContainerAppSm [12x12/16z] HSpH0S0G40JH0RkI_ljD00RkVHsZmAea84g06Ab0Lkjz3KZkxi-wRb-LhsrF4vxQx9Y9a0ZLQtTIOf6i90tz
+
+sprite $ServiceWorkerContainerAppMd [16x16/16z] {
+PKy5biL024F3CFS_y2BxFTNOQqh_O7e3Z4bSW55DLrL0cfOevlrcBGiQzzwAOMk1kEf0EbKdXl-7Vha63iuRFr77Wzk3M_FexsNcoR9g1ufxZVUCMRXxqRjU
+mx7_eQ25mqbDblm1
+}
+
+sprite $ServiceWorkerContainerAppLg [20x20/16z] {
+POk70OGm4CDypIdx3_pEqq7fGk34y2HP4MiZQo_esA30mklgZqwxwJ4JkhX3CFbdpZaCY5X9aKrp6bOT3fA7Yxrk7oSsrpKVJdnTQxsrZnkQfqjOi6ykmulT
+4m1hY3vKb9uP4EiMIWt22jl1n8uJcoDf-5E5opahhq_Y_wzTxny
+}
+
+!procedure ServiceWorkerContainerApp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/Other/ServiceWorkerContainerApp', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceWorkerContainerAppCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceWorkerContainerAppLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceWorkerContainerAppGroup($id, $name='Service Worker Container App', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceWorkerContainerAppLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item azure-20/Item/Other/ServiceCostExport
+
+sprite $ServiceCostExportXs [10x10/16z] JOa50G1120G7X_w1t-MGLRw9JF9ugAhpvQiqg6xYclxKtyxC-SghM6S7
+
+sprite $ServiceCostExportSm [12x12/16z] TSg30G0n343HtyRx3tmsNX7o8o9y_cwvSZ8ZCmDRNNDwR_kEJEOFWwhA-MDIaps_6W4
+
+sprite $ServiceCostExportMd [16x16/16z] ZSY50SH024JHMS7wR_W6pkB9M_tWXgQwfTg8pNlV4sl2GUk4bhg8mCamvMlRzkx2n5AcHuJNRM0Y5fqY8QgVU04
+
+sprite $ServiceCostExportLg [20x20/16z] bSw50O0W40NGJyF-0olT-KpW2fU4j0GW7GJI0wdtb6Ft_1TaiaSv1bI8sHu7bBOKY2YWnprUzeh9tjX3p6SnZWRnNxk7OO_0xtbfpoapQmTlVW
+
+!procedure ServiceCostExport($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/Other/ServiceCostExport', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceCostExportCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceCostExportLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceCostExportGroup($id, $name='Service Cost Export', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceCostExportLg>', $name, $tech)
+!endprocedure

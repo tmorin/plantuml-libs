@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/J/Jamboard
+
+sprite $JamboardXs [10x10/16z] Om01Rdv-VWQ2B3v-A8kT7yRYHx0W0AoC7wOLoW8
+
+sprite $JamboardSm [12x12/16z] ZSYr5G0X0C3G4zoo_xIujAJwBq_F0qDN5ZQ4C0ZxSomvTe2jDV-CdjPWUdfh5m
+
+sprite $JamboardMd [16x16/16z] Ou02RduWu8RnAEUpSm416vJ339H2akVWH-4pygFoUT7u_EXyEE02y_dWV6OmdmdEXxiD0fZWZWDp6K5C
+
+sprite $JamboardLg [20x20/16z] Ou03Rdum0B86M8oHcmzTZ0_8GHFZvSSGO-V75ECdJemHmk7W1WCKCNuqlGZ02tCTYZ8CXI3Zq4t4301M20S
+
+!procedure Jamboard($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/J/Jamboard', $name, $tech, $desc)
+!endprocedure

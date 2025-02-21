@@ -1,0 +1,21 @@
+' definition of the Item azure-20/Item/Identity/ServiceApiProxy
+
+sprite $ServiceApiProxyXs [10x10/16z] Oo04M1aPM5WXJ3Ps1Y2BbPMLWOE30qW3XPWOWGoG74WHAmuZ
+
+sprite $ServiceApiProxySm [12x12/16z] ZOkr0G0n3CGKpluBczi7cU7uILyiaZ4WXsxbdCsoiy6z5w_W_In5oqKnpLvG
+
+sprite $ServiceApiProxyMd [16x16/16z] hOt50O1G34DVlVilZDiL-7LD628HX5-TX00MrnOY1VUj4OAiAWWyDg6wMzXAs-PBlsRHxSMGTQmFElH1Y3hE9va1
+
+sprite $ServiceApiProxyLg [20x20/16z] lSY93G8n4CLGp-HxG_yLextJ03nPb_cV6BHPQ07HTG45PN4JjZadA41hHMhkm6elr6S7xZ2qiA-D5XpiR6fV66x3OXTvHPieh3BsVkCB
+
+!procedure ServiceApiProxy($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/Identity/ServiceApiProxy', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceApiProxyCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceApiProxyLg>', 'Identity', $funcName, $content)
+!endprocedure
+
+!procedure ServiceApiProxyGroup($id, $name='Service Api Proxy', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceApiProxyLg>', $name, $tech)
+!endprocedure

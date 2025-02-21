@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2025/Architecture/NetworkingContentDelivery/AmazonApiGateway
+
+sprite $AmazonApiGatewayXs [10x10/16z] uy0E6C0O3DZPMJbOOU9G5WCZ0q8CcGNJouni6
+
+sprite $AmazonApiGatewaySm [12x12/16z] VKc30S0m42nE-ozSkqaUnpIcNnwRWh2HjnJn8d1evjBikplFdTlSDR7bWxTMopllcG4
+
+sprite $AmazonApiGatewayMd [16x16/16z] dSl50K813C1Gwjb_OU2xQswlmejA2X3jgKbZnRrrDhkg3sZlVZzpgSyjICh9VQuSxKzly_vUWovhtEkY7m
+
+sprite $AmazonApiGatewayLg [20x20/16z] fKm30aHH41hN_I-y-3PxdCJtYERE2PEYpUk2ZYajQkSBQpd_7KMYCdyqHeuWiUJ-M73nsqkVK24B3admGXySwSS-MFJS_zj3MawSR_45
+
+!procedure AmazonApiGateway($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Architecture/NetworkingContentDelivery/AmazonApiGateway', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonApiGatewayCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonApiGatewayLg>', 'NetworkingContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AmazonApiGatewayGroup($id, $name='Amazon Api Gateway', $tech='')
+  IconGroupElement($id, 'NetworkingContentDeliveryFamily', '<$AmazonApiGatewayLg>', $name, $tech)
+!endprocedure

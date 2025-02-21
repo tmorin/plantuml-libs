@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2025/Architecture/ArtificialIntelligence/AwsHealthLake
+
+sprite $AwsHealthLakeXs [10x10/16z] uy0Es1auMDZH1Hc040fOW1Y3pG9XiW81iZm7
+
+sprite $AwsHealthLakeSm [12x12/16z] TOkr0G0W40DVG_PV69UAgwByawugNgPsgWbzQpAsxgx4LdtPvTa_F3Fx7LC3e4KEZUXWoaS3
+
+sprite $AwsHealthLakeMd [16x16/16z] dKg50S0W3Akt_p-Cpdq4YSO0aDHCdMJo74Q4XPkRs7RUO-tD38c32qU3boSJJ_i6cRstAS2k1nNOzY2pHwhmQV-C3
+
+sprite $AwsHealthLakeLg [20x20/16z] fSg50GCW30H0OlplFt5ngDiXKVuDi0805m4JIGUCKycIgaRBcbUPuknbCWKjjQm9BQ12hJY0XQ-iiLUP--vbASY0ucRFqLvdo0LTwS91eaDfBUW8VkC2
+
+!procedure AwsHealthLake($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Architecture/ArtificialIntelligence/AwsHealthLake', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsHealthLakeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsHealthLakeLg>', 'ArtificialIntelligence', $funcName, $content)
+!endprocedure
+
+!procedure AwsHealthLakeGroup($id, $name='Aws Health Lake', $tech='')
+  IconGroupElement($id, 'ArtificialIntelligenceFamily', '<$AwsHealthLakeLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/C/Codepen
+
+sprite $CodepenXs [10x10/16z] 9Kg50S0m36A-AlzV6o6E8QhnHHPLhK2U9qxxnHiXxK_hE8d-yotjNme3kYtEAFgG0Wu
+
+sprite $CodepenSm [12x12/16z] DSY75SD020Mmdrv1-q-RsEQTw6JtySmmrjfpJ3-XmlCiKdnKNFFjG7NUJhdmL2UoKkGx4vUyyKWOdKqntpy
+
+sprite $CodepenMd [16x16/16z] {
+JO-50SL02CLITxB_j5-WblD37ybmk3LS71OJYJVnFFlSzzDvlgAQD3EATAg3heIY2-gX7SFCXbUXBa0t-kxGxMyFeNVvsvjA9rP2gboGLkDlKqcZtjr7xYC_
+TfDy9irBpHS
+}
+
+sprite $CodepenLg [20x20/16z] {
+JOy73WGX3CHClMqX___jQI8YuIqC9ZGsz_9lSZ1yOoML7zofJfv3tHb6hhKAyFC0Tj5bPEUAfh3SqD282XMNy8_YfOKK6XTzbT8fSe9LgEuBdYRtoJ6zCdaC
+v6Pk_X5RclfnTeRsNQLeUSDS55ukRXULajVCvA31u4qb7Z-f1EDGaEpJMqNy0G
+}
+
+!procedure Codepen($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Codepen', $name, $tech, $desc)
+!endprocedure

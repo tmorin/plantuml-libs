@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/K/Klook
+
+sprite $KlookXs [10x10/16z] FOl50S103CDKvdh_QOy2-YGcaE5FAi2U7t5umSmPNJ_MMpd8YOpFbWeg
+
+sprite $KlookSm [12x12/16z] HOh50S103CDKvdh_QO-Jw6E4Nvq75DHs0NOrs869Qi_gHVCR-onWVBWq_Bp3lZngKD5Ws3vDlLAG0G
+
+sprite $KlookMd [16x16/16z] LSs30SLG00F0-wYH_QUjUSyCPIxZXxoqn-dG3xaCDj_p5Itwy-s7C8GkAyIu3lzhNUU3PiyWcjpPX2f-Lrw1GawLrPZBrnbsR7uqnoHlsZnzPm
+
+sprite $KlookLg [20x20/16z] {
+PSx50SH03C10BOH1_LTxwF3yp0PcppgWzoxXmng3GqwaSjuoGj0mmGgG1Z00hf0TeOkTW5Brc5u0hQxdZO3sJW0bSXcK8PO4K6ZjIHewh40tue4m-4XcpsO0
+F8idGxSdHmtuC9BMH-eD
+}
+
+!procedure Klook($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/K/Klook', $name, $tech, $desc)
+!endprocedure

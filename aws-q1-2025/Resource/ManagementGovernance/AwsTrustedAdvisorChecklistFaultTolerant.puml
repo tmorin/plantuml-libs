@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2025/Resource/ManagementGovernance/AwsTrustedAdvisorChecklistFaultTolerant
+
+sprite $AwsTrustedAdvisorChecklistFaultTolerantXs [10x10/16z] Oq03N222YPEHYuiBLOm1cnWx0niRcC4418oSC7ac1WweCXQWE1S
+
+sprite $AwsTrustedAdvisorChecklistFaultTolerantSm [12x12/16z] JSZ50S1000B1XLFIVxzncm_2dtKO78I1VdNpTSRNGslj-UlxkvF4ivx_eN9qdwgON89uPEwM3G
+
+sprite $AwsTrustedAdvisorChecklistFaultTolerantMd [16x16/16z] NOg54KL138I89_qN_FNP7MFBiEpCYHuEzHkdJnDLTJd2qY4NxqBDxEww_ttnIYmYyFcx-7cSu_z3D7z53xwvkKWmA4uQ7E9Kdp_v1W
+
+sprite $AwsTrustedAdvisorChecklistFaultTolerantLg [20x20/16z] {
+RSo53K0X40JHEPphlz-lE4py9RkSIhbNBKDD1_D-DVDiH9-a6tBQOdOBThFJ7yS_jriqo1DgjPf624z29gv_qLGp9I6Z_wUOMk9HRnao7ZuUql_Sn4x1cJ-b
+Dlno0m
+}
+
+!procedure AwsTrustedAdvisorChecklistFaultTolerant($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Resource/ManagementGovernance/AwsTrustedAdvisorChecklistFaultTolerant', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsTrustedAdvisorChecklistFaultTolerantCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsTrustedAdvisorChecklistFaultTolerantLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsTrustedAdvisorChecklistFaultTolerantGroup($id, $name='Aws Trusted Advisor Checklist Fault Tolerant', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsTrustedAdvisorChecklistFaultTolerantLg>', $name, $tech)
+!endprocedure

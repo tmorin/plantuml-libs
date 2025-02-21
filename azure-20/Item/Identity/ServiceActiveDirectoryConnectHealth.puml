@@ -1,0 +1,27 @@
+' definition of the Item azure-20/Item/Identity/ServiceActiveDirectoryConnectHealth
+
+sprite $ServiceActiveDirectoryConnectHealthXs [10x10/16z] LSQ53G0n40In3So1alxRVKQBh1_YdhbVCSRO0wtdNhOH6K7lzCYDjlRq82NbcDaIRSgK5wq
+
+sprite $ServiceActiveDirectoryConnectHealthSm [12x12/16z] NST70WHH209HVa1XzFxNdPowQ_KAvwWlPsP-795L7yQkrv1Sv7rUN9HAuduaEsqyI7c01kRUsICZZNkNwhQDLmq8k04
+
+sprite $ServiceActiveDirectoryConnectHealthMd [16x16/16z] {
+RS-50KGX30DGh1BA_lDUScxv-egt__7yu8o8DmxolU3kKLLlTAFtYtCv2n2DcTDC8-B6HMTcyR6x0q3oiNMBD6FsDgwqn5YzcsQKSRftJtXJTjKv6Xw4OlJ0
+zhSZtByN
+}
+
+sprite $ServiceActiveDirectoryConnectHealthLg [20x20/16z] {
+VSxNWGKX34DHCGvOGF_rhhNvnVi1-4p4komVA6RL7LrJtLfctcFAzjwyfOpTpHjoBs5-KtHcxXIwA9IRzRg40_1GrbPLtBsu_P1b2RM4Awt5BhJ0lvCD3eGx
+j7n6pb5N31AT9DPn4CdY1VNvP-UGfbVYkvATOZD-6_iiOAw1vtq
+}
+
+!procedure ServiceActiveDirectoryConnectHealth($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/Identity/ServiceActiveDirectoryConnectHealth', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceActiveDirectoryConnectHealthCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceActiveDirectoryConnectHealthLg>', 'Identity', $funcName, $content)
+!endprocedure
+
+!procedure ServiceActiveDirectoryConnectHealthGroup($id, $name='Service Active Directory Connect Health', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceActiveDirectoryConnectHealthLg>', $name, $tech)
+!endprocedure

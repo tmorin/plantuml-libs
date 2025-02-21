@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2025/Architecture/ArtificialIntelligence/PyTorchOnAws
+
+sprite $PyTorchOnAwsXs [10x10/16z] uy09s20KEmS70qAG1KGmeN8HW05ACQAA0m
+
+sprite $PyTorchOnAwsSm [12x12/16z] uo0Mi04XdCa1up23ILOaTOmOR2OWHj7019DdPyEm1W
+
+sprite $PyTorchOnAwsMd [16x16/16z] dKg34G1139mu_JVynbdXojSACmhmqnEgVfIYvown_WKXux60yHUFWgp-bIAm3zKE
+
+sprite $PyTorchOnAwsLg [20x20/16z] hP253S0m30JD_lqNBjChukO4PiGC6YC657lA0EkaGWUGGbb-AVxwz5QYdyfw9mqAeEnZDIZlSPB6AmXUB8_voXyGKGdyPmK
+
+!procedure PyTorchOnAws($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Architecture/ArtificialIntelligence/PyTorchOnAws', $name, $tech, $desc)
+!endprocedure
+
+!procedure PyTorchOnAwsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$PyTorchOnAwsLg>', 'ArtificialIntelligence', $funcName, $content)
+!endprocedure
+
+!procedure PyTorchOnAwsGroup($id, $name='Py Torch On Aws', $tech='')
+  IconGroupElement($id, 'ArtificialIntelligenceFamily', '<$PyTorchOnAwsLg>', $name, $tech)
+!endprocedure

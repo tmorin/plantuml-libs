@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/T/Telegram
+
+sprite $TelegramXs [10x10/16z] BOg54O0030E3E-o_BR6l_nNa-5Q8pnnSoj9jeEMu-pC29oZMZrYnskc9FPOkFm
+
+sprite $TelegramSm [12x12/16z] FOa50W0X20Jtpkx__rR9KM03n3WLmX5S4YA5fJhI7T9cqgo-3jALN0DhwJ8IQwV0pSPZMNe1
+
+sprite $TelegramMd [16x16/16z] NO-54G1120FXtTD_jIVe_EqOJaB2-k9cSbuecwO8FasJHuSJplOcuJfiolZTaYikdIsxMyhIwiExlDxbO4fvq8ZxH7ftWo7jL9yEddygZq9J1G
+
+sprite $TelegramLg [20x20/16z] {
+JT273S0m20J0Ztl__RUDa33cKjq1g7wu2fnCjJyeEjswd65TJhQz783E-EJTNjyETwEkFSkTToWgWDA1n4iMuKWGdMB9tFnbvXTNeSBhWnrhVHkRLy6dstyq
+vr3OMG_4e1Uif0QcMShY1m
+}
+
+!procedure Telegram($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/T/Telegram', $name, $tech, $desc)
+!endprocedure

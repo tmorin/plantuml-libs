@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/P/Playerfm
+
+sprite $PlayerfmXs [10x10/16z] 5SI55OG044InVugJ_hlbRKQg5jy6Oor4llEvtraLhRTvNFmLUei6RTHhhfzH3m
+
+sprite $PlayerfmSm [12x12/16z] BOY50G0n38HubmhxJridHexExyF4oTB72-qQGGAcyIUtlLdm9cjyEDKTExk-_iILzERD1zEbem-eAMRDD98wqWe
+
+sprite $PlayerfmMd [16x16/16z] {
+JS-reSLG081GSjtPVzelJqDtIdWKbuDFosVboITwrlrcH3FB1LiN81os5ohGhPsD9WsWXgi6bajXg6Br4MmV1NKgD5KXwQKPZjfWAofm9I3eeQh0am9RdU6A
+Mott7P-4wwa3y0i
+}
+
+sprite $PlayerfmLg [20x20/16z] {
+NP35OG1158LO7wV_QcClpkMxGdYc_UGNbuQnGV0N9Qvb632qVcTjeDuKFU5A1dXo3Qec3U3MnTvO5kBQLRP9uz0IdwhiXOLExN3wmUamD2Y6kQiE7R0Po4hg
+zzut6HQLhZv9cqoLRnvrJwlVBe6gse644s_-Pl_tKfLlIXmpIQy
+}
+
+!procedure Playerfm($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/P/Playerfm', $name, $tech, $desc)
+!endprocedure

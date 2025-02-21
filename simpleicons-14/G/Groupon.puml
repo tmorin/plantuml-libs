@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/G/Groupon
+
+sprite $GrouponXs [10x10/16z] 9Sc50O0m40D0tE7sdvPANg93dTCwj07E2DIOByN5a447Dg8ax7X3x2wY
+
+sprite $GrouponSm [12x12/16z] LOo30G0n5CLoPllsdxPcladaqqr6cPu6Shgo1MyeKvPb-QMDVhZKcrjwQrxtrvBhtspmp_GVR3u43m
+
+sprite $GrouponMd [16x16/16z] JS-50G0X30F0u0xxJ_kIOeSx1RasYiBIXWYWiVKrN1hG_pO3YXt5POrVhBKM_mqBZivbhf4SGXbJaNVtMFqLO9npWTs_gkTVY6ooaHFomXPtE7T0vehc1G
+
+sprite $GrouponLg [20x20/16z] {
+PS-54S0W30NGuCxVVzjUy5nV5OlGf597TVJmM9gY1O-qfeIyfWH75C6wuJmOrhQ-ieCb3KP2vgb0GkSvzKlrcwlyid9kjDNa765j7EeihAtYMG4BgqxqP3Ac
+jVXQPRyC3K7kMXA6febz
+}
+
+!procedure Groupon($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/G/Groupon', $name, $tech, $desc)
+!endprocedure

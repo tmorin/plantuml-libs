@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2025/Architecture/SecurityIdentityCompliance/AwsSigner
+
+sprite $AwsSignerXs [10x10/16z] uyGAs1WPE3aPWGmWmSW84MDW0M88an78O645iTY1Od1D42OhAokOHW
+
+sprite $AwsSignerSm [12x12/16z] VSg50S0W30118Fhx3rntuP0e7PM9Sx2rQqgvjfLL5AQp3fedYgqvYR3B9kkAJNWP0G
+
+sprite $AwsSignerMd [16x16/16z] dSbN4a9120NHOI9d_misKlwghubTrmNMY8MJfKX4nOFG74LaOmh5IavjSDhKPEpoJaY6yXXXxSpoHUGn-11zzOhr1stvZJi
+
+sprite $AwsSignerLg [20x20/16z] {
+fSp5WGLH200mO7YI_WjU_IF7bHGG_pRRj-rbHgueI5u26llmCfETAncyzEfPTj0keJa8j-grZzAnQIyhWrYEdiDB8M4LBxLAYM0-mrao5Kyr9y5JrSpcPOrF
+4TjjV_Dhxm
+}
+
+!procedure AwsSigner($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Architecture/SecurityIdentityCompliance/AwsSigner', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsSignerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsSignerLg>', 'SecurityIdentityCompliance', $funcName, $content)
+!endprocedure
+
+!procedure AwsSignerGroup($id, $name='Aws Signer', $tech='')
+  IconGroupElement($id, 'SecurityIdentityComplianceFamily', '<$AwsSignerLg>', $name, $tech)
+!endprocedure

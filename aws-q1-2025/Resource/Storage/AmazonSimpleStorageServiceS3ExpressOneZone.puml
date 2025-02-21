@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2025/Resource/Storage/AmazonSimpleStorageServiceS3ExpressOneZone
+
+sprite $AmazonSimpleStorageServiceS3ExpressOneZoneXs [10x10/16z] HOc30G0m30Gltd_Y6i6JFvOJKq1EC26gVAfWJQq3ZwjMPRjCpkWC2w6ah0C
+
+sprite $AmazonSimpleStorageServiceS3ExpressOneZoneSm [12x12/16z] LKo50S0m388O_t-yrJs2uJbLHhhy7trXQZ3H8BLvuG6ejGPmuLG3RKhESF8IPA8Qb_alK7QqaANI1m
+
+sprite $AmazonSimpleStorageServiceS3ExpressOneZoneMd [16x16/16z] POw55KKn34AZiF_4LRu-gX7kYJqL904oJvJzBXJMHVieTups4tZnNVSyvXqVksvk-esPgfiBHXWWgF2acjvIB4QueDthUEUczsQwhrZ3m3KisaeChBFL4m
+
+sprite $AmazonSimpleStorageServiceS3ExpressOneZoneLg [20x20/16z] {
+TKs50S0m38AqmFyNprtOQi7mXv8TMzm7BTxlT9QhsitI2u1vcpNDkfuzXwKikhvs974dqBYGDwykEt8SvuCoRxCLFK9odytYsBVPhUE5nkFgs5c7yv80LLE7
+xkOK86t5vGamGLLMsW09X7Huv7EUSGL6
+}
+
+!procedure AmazonSimpleStorageServiceS3ExpressOneZone($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Resource/Storage/AmazonSimpleStorageServiceS3ExpressOneZone', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceS3ExpressOneZoneCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonSimpleStorageServiceS3ExpressOneZoneLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceS3ExpressOneZoneGroup($id, $name='Amazon Simple Storage Service S3 Express One Zone', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonSimpleStorageServiceS3ExpressOneZoneLg>', $name, $tech)
+!endprocedure

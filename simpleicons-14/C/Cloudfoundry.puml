@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/C/Cloudfoundry
+
+sprite $CloudfoundryXs [10x10/16z] 9SY54S103C2mbBdQVzgd-4ZdQEqYymOTzycgIs3Vcyw7MUHCfRCPQmTi-fxGKG4
+
+sprite $CloudfoundrySm [12x12/16z] JSp50S1030D1XLdRVxMX8y_BA7qsHcLuWrpsMdKwru18zH1gcM5BTO_oEAyQkbnuxv27T3vtcvnpFhwa1m
+
+sprite $CloudfoundryMd [16x16/16z] {
+JSZ50SGm4CNGRsQh_seNCg5tasGcJOyDGBbo4ILDWgKZQjEriQu8O3Yik_M-sgC9-8eC2BAOCfuK44YN9JJrXjwwo4wNZHBo14le3fQWNcENL679r9W1xxoa
+Bm
+}
+
+sprite $CloudfoundryLg [20x20/16z] {
+XSy5YWH140J0R6L7u_-lFH-QnIxmyigVUJdoPW1NbicPTAmODId9iVfthq0FJupi88UsOZUeqron3UHK_s8lHw26F6XXosdFev9TAbdAdI7dddTDalzYTVTI
+pBv2jvvTpNgZ83225ToIadAvyiGiUPIIYf9Vdm
+}
+
+!procedure Cloudfoundry($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Cloudfoundry', $name, $tech, $desc)
+!endprocedure

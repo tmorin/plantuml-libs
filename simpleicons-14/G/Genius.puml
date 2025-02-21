@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/G/Genius
+
+sprite $GeniusXs [10x10/16z] LKY30G0n4CkZHlQVjkPTZ7raOIZ1q9Nq5jQf4YnVxqupS0KF9V2IVHgU0G
+
+sprite $GeniusSm [12x12/16z] LKo50G0X4EBxJVRVLh6z3W2haIeHk77KMSMJlsQhukhvLitUx2JS9jBEOvQURwDbquwKrQDh_mG
+
+sprite $GeniusMd [16x16/16z] NOzL0e0m3CKw72Qv_stfN59x-QoiR11FtZ5KF-AMg_cZsrUzyd44Wjv0Ti_15SFzIGI4KnhHZUlwgeymUm0tAzrsb5s3zVVnUB9639amF7bV9gSV
+
+sprite $GeniusLg [20x20/16z] {
+RSw54O0m4031mptNVxN83mux4ddbLz_tSUv7jbrLDZfjnn1NPREVXNJg43MQnsck9ZQZ4fpK0cXKsVCxZLlQHv0hoaEhZFAG5EH1XITLdbgrvw5M_MOvijjt
+TD-oIHMGzne8XPSETfM6WQSiWzq2
+}
+
+!procedure Genius($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/G/Genius', $name, $tech, $desc)
+!endprocedure

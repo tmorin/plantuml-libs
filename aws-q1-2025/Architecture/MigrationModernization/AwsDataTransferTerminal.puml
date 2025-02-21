@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2025/Architecture/MigrationModernization/AwsDataTransferTerminal
+
+sprite $AwsDataTransferTerminalXs [10x10/16z] uy0E63cOOKnsHWu680KIO00Yc3m74uXcOM7XO86gGsXXG3KC
+
+sprite $AwsDataTransferTerminalSm [12x12/16z] TSc50S0m2011dDz_uRhB9JZyImqs1RYpK6kW0GoiT3th4htqg8XGnif8JiqXUHe1
+
+sprite $AwsDataTransferTerminalMd [16x16/16z] dSUr0SGm540nVtxxBtmOKnLG9vumJrcQ48X6ls8Uq6zPIW9M00H8KWxItv3inxq-F56w0eI5KyKYK3QDQzu
+
+sprite $AwsDataTransferTerminalLg [20x20/16z] hSx7TSL020309KXC_mqxspoT_MTp1FztTu-dkAdhUUjpItNkNMac0cUlXNCQedoReiKvzcP_jeCQskwveXJfsncV9QIhDkDFV3Rh83tDPOgd5DP6Ue5t
+
+!procedure AwsDataTransferTerminal($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Architecture/MigrationModernization/AwsDataTransferTerminal', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsDataTransferTerminalCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsDataTransferTerminalLg>', 'MigrationModernization', $funcName, $content)
+!endprocedure
+
+!procedure AwsDataTransferTerminalGroup($id, $name='Aws Data Transfer Terminal', $tech='')
+  IconGroupElement($id, 'MigrationModernizationFamily', '<$AwsDataTransferTerminalLg>', $name, $tech)
+!endprocedure

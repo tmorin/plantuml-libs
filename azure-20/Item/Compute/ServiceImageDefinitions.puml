@@ -1,0 +1,24 @@
+' definition of the Item azure-20/Item/Compute/ServiceImageDefinitions
+
+sprite $ServiceImageDefinitionsXs [10x10/16z] HSY75O0m30DHIUdUVs1SW5oA_pDklNADCUWlHA-d9FRK5AK-GzCrvwRBCmy9ty6L0Gy
+
+sprite $ServiceImageDefinitionsSm [12x12/16z] JSS14W0H34FH9jB0_G-ymCn-w6lyqwrCvqpp7HU0SryM0UYPHSSMGShRndHQOzafjp6RdetHsy1shROGqwUC-
+
+sprite $ServiceImageDefinitionsMd [16x16/16z] RSk55KCn34FHc67_WIkLwNsyzidvpb_PFmTJv_jX4n75rszMOVgoOcB-Cd9_E1DhJZ8V5bhXeT5jNJqBiyYSPKCp_lSCzsocNkTH9uf3ltBm0W
+
+sprite $ServiceImageDefinitionsLg [20x20/16z] {
+bT1L0aGX243H1oAr_mKFDTttyzWUhwAxrb-sAmJQsTKMH9XAPuE9RWonvzrRwAAhCPSXHSmt1b1wDQxTeZJ5DiQopMaERRnhafXdc3Rvn1SJZqmjw6BcLli5
+NOqpWcFisdxnVvXq0W
+}
+
+!procedure ServiceImageDefinitions($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/Compute/ServiceImageDefinitions', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceImageDefinitionsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceImageDefinitionsLg>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure ServiceImageDefinitionsGroup($id, $name='Service Image Definitions', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceImageDefinitionsLg>', $name, $tech)
+!endprocedure

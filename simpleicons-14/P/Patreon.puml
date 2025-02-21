@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/P/Patreon
+
+sprite $PatreonXs [10x10/16z] Ou03Vdu61Xv-802pG0me1vF53Q7XwdX0B90es1GeGB
+
+sprite $PatreonSm [12x12/16z] Oq02_Foi30mS_4300sQp0LaW3eZD3mN4ifaX34uG6y9X0vi91JZP
+
+sprite $PatreonMd [16x16/16z] dSwr0G0X5C3GSmMo_xIuTn3qTN_f0jnpu7gIVq8gU2VrU5EQikgyaZgybploJ_Ejod5Vl4lZDW
+
+sprite $PatreonLg [20x20/16z] hSv50i0W44FHrBsv_schmLdENy53KOdaYRVkvDiOsKvrUbl8W396ZRyTGS8DnhObyyfVEjaOQ8Siu09ltvqQU_FPsmq
+
+!procedure Patreon($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/P/Patreon', $name, $tech, $desc)
+!endprocedure

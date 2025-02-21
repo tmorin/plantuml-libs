@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2025/Resource/IoT/AwsIoTThingCamera
+
+sprite $AwsIoTThingCameraXs [10x10/16z] ROp50K0n34A9llqd_j9JBIw05Wj0g-4Qf-miu-kYPV-DVm8VK_2RkEcz
+
+sprite $AwsIoTThingCameraSm [12x12/16z] LOsr0S1030ClCks_SGpLNsKGyE9GSMFeA73Doo3xhwpgAPAUlwWKCvSWUueiecTvghSUMD_fEMQkFEBf_G4
+
+sprite $AwsIoTThingCameraMd [16x16/16z] {
+ROy75WD1249HGUv_upYc9ylK_-ou4D4mifxOz2o9jOYNSgqO5NcOTUnK2b2ilOqOi0FAriQdQ3TqxFRZOYZTnxxCkjjJ63Nh-6UYDAOgpTLP-TSFAb_IvJoe
+uKQizmq
+}
+
+sprite $AwsIoTThingCameraLg [20x20/16z] {
+TP07ZWGm30B1mV3_7v_IRljO5GrEmIy6E90rkEWZymkrCppJSvTs9edBqFOKrm1oFTB3jadA3ipLDOKsAq3VhW7QyZ1wTPEPYNFVp18Uhwg1vCL3b5I_UBFe
+niCRUN2zzxVzoAhTTcTD__o_2zTC_W
+}
+
+!procedure AwsIoTThingCamera($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Resource/IoT/AwsIoTThingCamera', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTThingCameraCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTThingCameraLg>', 'IoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTThingCameraGroup($id, $name='Aws Io T Thing Camera', $tech='')
+  IconGroupElement($id, 'IoTFamily', '<$AwsIoTThingCameraLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/P/Prevention
+
+sprite $PreventionXs [10x10/16z] Oo0ISC5P_CnyN5pyl406iNe1
+
+sprite $PreventionSm [12x12/16z] Ow00y7D3Q6P689kNaPMLZv-1XvUPZPs1WOEDaPc1ZOcDYLGp0G
+
+sprite $PreventionMd [16x16/16z] lSV50O10402nERUL_gl5AG7o2p_poYl6ysQhg6PdHANZQ1qfIQElFWfVsm4
+
+sprite $PreventionLg [20x20/16z] pSB75SCm04CnwgjNxZzjOf-zWF2Wousf3siGGE4z0O5NvEIH1cwxQsiQInYTaa9SdSaokjmV
+
+!procedure Prevention($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/P/Prevention', $name, $tech, $desc)
+!endprocedure

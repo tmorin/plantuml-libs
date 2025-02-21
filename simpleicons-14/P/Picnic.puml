@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/P/Picnic
+
+sprite $PicnicXs [10x10/16z] uySA61ZuWP0Tn0Ao6I1YO2OhL04_7vZYOuRBCa5PdFmydFnioAO1
+
+sprite $PicnicSm [12x12/16z] TOh50S0m30ElZBBtdxODlnAZoCUbEAO8rmdZP4hucXx8aNKw_1IOvwBybKdi9J-ZbhyH9T-l7m
+
+sprite $PicnicMd [16x16/16z] bSUr0SCm0031Ducbtt_QeA4BN7V-RrqsNHpBCbvd0f5fsbzaK70788FMz-UXEaFqX2Vec0Ng_eGqt15WKA-N6H48htVjTctTx-u
+
+sprite $PicnicLg [20x20/16z] {
+hOsrOGH10CHqIrvM_zK-O-oVS4Z-NWieLlI0lwTt7EI848vnzoPTY6oY-lH295wzzFLtM14WFxthoQuQeEfR5NNhYolHPGV2at559WINBuyhUbFrvJMkdk3x
+hrTYn08lkstRN4rtgVvJPm
+}
+
+!procedure Picnic($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/P/Picnic', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,27 @@
+' definition of the Item azure-20/Item/Other/ServiceDefenderCmLocalManager
+
+sprite $ServiceDefenderCmLocalManagerXs [10x10/16z] BSR70O0m40In0PmkRF_jugINM0RN63n0iQbFO4QcN5G3qYLt1uq9vY9IcdDwJtMUY538nJHhqWy
+
+sprite $ServiceDefenderCmLocalManagerSm [12x12/16z] FOpN0S1024991pptNpUUAUzBQPYin0_v7yLrNMVTafOS8ZLlODYP2Me5SDKfstMcMU3mKPde36W0gZC0syh1tWapqfsPHCTz0m
+
+sprite $ServiceDefenderCmLocalManagerMd [16x16/16z] {
+LSs50OH040F0OBUQ_jlzFCwWjug3EJxSLrmCMDnz7jj-Z9tRRbPE9vlOwP9xmGHqwMeMC8L1LIgWRB6dCPiLbKw1aBvR8dFMkQDOpT3lNc1d_tvsOBLeibVz
+fVYpFwgoYlT-6F0FT55mK0sI3Fm
+}
+
+sprite $ServiceDefenderCmLocalManagerLg [20x20/16z] {
+NS_50GGX343HFqQy_tOti3xl1d5u4TsusLK7DzfW-pvb6zgaNUlxj1TvkG1hUb8HfbEy4e6qz0glSc2iBoB3lIQup4wMhFKNQetf4j5PgRjFJ5NwPE9jesKq
+zwm0t8NMFvOr0SShSLH6jGIkhZv0H3JxHqx05wdyth75Krd4kiE04OFrZlwPU8bMPQyPtqyOMGeF
+}
+
+!procedure ServiceDefenderCmLocalManager($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/Other/ServiceDefenderCmLocalManager', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceDefenderCmLocalManagerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDefenderCmLocalManagerLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDefenderCmLocalManagerGroup($id, $name='Service Defender Cm Local Manager', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDefenderCmLocalManagerLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item azure-20/Item/AzureEcosystem/ServiceCollaborativeService
+
+sprite $ServiceCollaborativeServiceXs [10x10/16z] BSQ53O10402myfo5_VV56wj7-YrP2mwwcmZCZEZU4SJCCqeyUMrGXQo8UdXrSm4
+
+sprite $ServiceCollaborativeServiceSm [12x12/16z] HSg30G0m3031BwBz1wvnHSWYN5AHabXyF3Ex2-Bkir4P8WATZQF-N1cpeuopv3qPaghEJ5IB3SBXRj01
+
+sprite $ServiceCollaborativeServiceMd [16x16/16z] LStN0KCn24FHwo9Xxxzm8A-VBpeScdZRQwpDBGRW29_3cnH9555MWMv3sMdI8bq5trCdCRzvgpLnC-PDTzubm6XGcXCOv8GZsLnc95xohO0V
+
+sprite $ServiceCollaborativeServiceLg [20x20/16z] {
+NSx50GCm30J15PsX_u8DuSnFB5wyd5y-XyOqlaq7QaZEInURjQtWoidHBhYUw_l5bahupRLDS8sj8DiHSAK-_OAN3B8VmOUWxnsTBraeM_13Y7z2nbD8Sa2u
+u38TK0KbvOPUEE90xIZZMpluvVjvPri
+}
+
+!procedure ServiceCollaborativeService($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/AzureEcosystem/ServiceCollaborativeService', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceCollaborativeServiceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceCollaborativeServiceLg>', 'AzureEcosystem', $funcName, $content)
+!endprocedure
+
+!procedure ServiceCollaborativeServiceGroup($id, $name='Service Collaborative Service', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceCollaborativeServiceLg>', $name, $tech)
+!endprocedure

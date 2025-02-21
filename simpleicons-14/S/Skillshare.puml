@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/S/Skillshare
+
+sprite $SkillshareXs [10x10/16z] XOR50G0W00AnM_QVrlfQvE6hj3POId9XBKCeGAmiPAdA9Iv2DJYe0m
+
+sprite $SkillshareSm [12x12/16z] ZSA53S10302nUyOa-qzR5fSiyrVXr276J0IyEcDk0SpHXmofaDIX9aXJc6wePR04ZelZoGe
+
+sprite $SkillshareMd [16x16/16z] hSVL0G8m30JGgyUp_xRq2tTuqSDV33mYIs8kGe8hi554u2pdCFY2EpbXiqOWQElCnIh849HKnqpaI53DG0xrdQCAes0xxKyT
+
+sprite $SkillshareLg [20x20/16z] {
+lOlL0G9034FJ75x9_jjoWlE9lBe4V-I4T_oXRv8Lkh7Go-Ie7LI4A41hnwsQtCTk70o3AYIItNh9mteaY7vkC3EE4ISl2jaKYbHLypqGCabRWT6LYZZ1K-jF
+_QyXQfolsBLydpC
+}
+
+!procedure Skillshare($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/S/Skillshare', $name, $tech, $desc)
+!endprocedure

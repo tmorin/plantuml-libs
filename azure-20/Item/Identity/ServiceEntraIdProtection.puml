@@ -1,0 +1,24 @@
+' definition of the Item azure-20/Item/Identity/ServiceEntraIdProtection
+
+sprite $ServiceEntraIdProtectionXs [10x10/16z] LSR70S0m3090KWHa_uNZRkjUX-IDaIjYj4JgUNfBoi9wepGe2LTfIHd0mdPPEV3X1m
+
+sprite $ServiceEntraIdProtectionSm [12x12/16z] NOl70O0m30FJpahsNnYP3lTIBNy6jsnmcMef7Hg6jGv99smEsO4rDGuTIKap29dZ435DCSCzQradtO7A1W
+
+sprite $ServiceEntraIdProtectionMd [16x16/16z] RSi54iH024JHfWQz_uMNPkF9Btq8lbEJAvUPNIZ6xeo8tIsbuw2jEV23RGvi9ssLgShdSJeJOstFO80QEmsXt7C2CsTaO98cfAfmIu4V
+
+sprite $ServiceEntraIdProtectionLg [20x20/16z] {
+VSz50WL1309HMY3f-nzu9CntgUNR5VurPdkdIVADElcEZUw3ukXXfymoFHC72_bCWyPvqZGTPXmFAkFA5QtpQDgK8IboihA5muNpiBXwF4WF0uP9IeTApYIu
+NePrXdlK00vCVDG0x
+}
+
+!procedure ServiceEntraIdProtection($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/Identity/ServiceEntraIdProtection', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceEntraIdProtectionCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceEntraIdProtectionLg>', 'Identity', $funcName, $content)
+!endprocedure
+
+!procedure ServiceEntraIdProtectionGroup($id, $name='Service Entra Id Protection', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceEntraIdProtectionLg>', $name, $tech)
+!endprocedure

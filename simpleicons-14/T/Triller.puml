@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/T/Triller
+
+sprite $TrillerXs [10x10/16z] Oq01F32Q7mH0B7umamV8W09a5WS_Fmi_FnkGnGSHOWVfu0PBGW4740C
+
+sprite $TrillerSm [12x12/16z] NOo50S0m40AfUs__QUD-aLVGo5wob-VM6TAV5txmEGy1Dxb29FJVYy2rIKjgu_8zjQEsyPduVAx2x3yB
+
+sprite $TrillerMd [16x16/16z] ROq50eH0203Xkc3-_zfJ2NkCtI7bdCl6NgnDmS6KSdW368YEQbCsOtUjT1FbFwOKm2lyI_6E_AHHurKFV39jxPRVjUhVrIA1azL8aMkyLMN5
+
+sprite $TrillerLg [20x20/16z] {
+POy50iKW34EBUtF_qtvPEdzJ7W5QsKdonhtDV9e8ZVuUd433dm4nCZ0tLG3OOQ0Zq_zLjvNsZXPRE16wZ3EcTDoismGTHvnHkigjyIU3Rk4uPS2SSX_RiyZ6
+4Qi0pju632T6KgbBjL4P_4MLaoPtlW
+}
+
+!procedure Triller($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/T/Triller', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2025/Architecture/InternetOfThings/AwsIoTButton
+
+sprite $AwsIoTButtonXs [10x10/16z] OySA61X011E80FEPm1W6s832p6mW6MQu648TCpE8O4Ko3G
+
+sprite $AwsIoTButtonSm [12x12/16z] OySDsC04XCIdX9s95KGo0p430pihGYqB2x9U29iG
+
+sprite $AwsIoTButtonMd [16x16/16z] bOs50S0W30JZl__4TSKvY1lcKR73YiHfSUE7jYUEqx1SNE5fYAv-EQ80N8jry8KYlLUCm-EC77rM
+
+sprite $AwsIoTButtonLg [20x20/16z] jSx50GD120LG9dpfl-BOklkxuVW14U4_HRoQd3jhEJDhw6fqeqns89ezKfLHMenHNycspudfFWarMWT_pinwIIPzpGS
+
+!procedure AwsIoTButton($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Architecture/InternetOfThings/AwsIoTButton', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTButtonCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTButtonLg>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTButtonGroup($id, $name='Aws Io T Button', $tech='')
+  IconGroupElement($id, 'InternetOfThingsFamily', '<$AwsIoTButtonLg>', $name, $tech)
+!endprocedure

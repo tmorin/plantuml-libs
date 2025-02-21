@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2025/Architecture/DeveloperTools/AmazonCodeCatalyst
+
+sprite $AmazonCodeCatalystXs [10x10/16z] RKY50S0m2CCX_pyyNnNYs5-K-1k0iYkT0HvqHRda6hqKX7l3bPuZlbAx0m
+
+sprite $AmazonCodeCatalystSm [12x12/16z] VOl50GHH24FnaFuBdg-NrOTB-8TMyTiwJQEnjwnGIArUBLOfh5vaV-PA0H8TlGN6eXaNA2YT5sJpZG4
+
+sprite $AmazonCodeCatalystMd [16x16/16z] dOn50iHG24D_qEJ-1nw3_RHzkEe9XKGOjJZBO8pUAOsTIjiQHL05HlxgH7EJN-WpKJunJ2M9AfjxPdc1o7d8g908GKEx2iqfz_EnrXNU
+
+sprite $AmazonCodeCatalystLg [20x20/16z] {
+hSrLGa1H24LHEEIU_u1Ddl6jwtO0_8FEhFrzOuieurlqfboDXjEz3h2UoR5r5AdMgExR9W8eUYvbuWItZrinvLFjDeKGjtS-RFLs0EQOFNNndL2IwkK81OmD
+uZ6-j0yb-1OMBXl-x1K
+}
+
+!procedure AmazonCodeCatalyst($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Architecture/DeveloperTools/AmazonCodeCatalyst', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonCodeCatalystCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonCodeCatalystLg>', 'DeveloperTools', $funcName, $content)
+!endprocedure
+
+!procedure AmazonCodeCatalystGroup($id, $name='Amazon Code Catalyst', $tech='')
+  IconGroupElement($id, 'DeveloperToolsFamily', '<$AmazonCodeCatalystLg>', $name, $tech)
+!endprocedure

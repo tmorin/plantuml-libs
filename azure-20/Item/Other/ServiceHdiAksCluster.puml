@@ -1,0 +1,27 @@
+' definition of the Item azure-20/Item/Other/ServiceHdiAksCluster
+
+sprite $ServiceHdiAksClusterXs [10x10/16z] FSZN0GCn0CBGTyq6xxzlUku7985o_y2v4GRsEbHeZgahCCSaP3fDWSOXrEgmOFi4Jm
+
+sprite $ServiceHdiAksClusterSm [12x12/16z] FSQ70G9130Cm_RN4xByl7L9i0S5Vyu0zAUeYUkyIsf4W4USMLLU_ZJh5s-t9gg_dydPp9M4iX7yQvQq7
+
+sprite $ServiceHdiAksClusterMd [16x16/16z] {
+JSwtOSKm40N1WI7kdlhlL-uxRZRPUZJYNgQgj-e2lS5kT6Daq7HKZV759aO2dR14qiwoaldqc5MbS_qRLQS67YwgZhCUtbsW-c5dw2vdiko399a8z79L5NNW
+-Md5kvtnr0y
+}
+
+sprite $ServiceHdiAksClusterLg [20x20/16z] {
+NOi5WWGW30C7QvF-_y5tmFgWZV1acX-w1vbVak_eu4a8Q0sORcncdLUQnpSm0cJ8dBY0We1kBze0Eq57gwrjP3-qPOkH6OHTLsls8F_fo7crpSoCJ82drZav
+c2zDskCSHEgffSGXfC-k9SFWQBW3uGt04a0QMfKheDVWek3G7BnenvRuOZdSkFm1
+}
+
+!procedure ServiceHdiAksCluster($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/Other/ServiceHdiAksCluster', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceHdiAksClusterCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceHdiAksClusterLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceHdiAksClusterGroup($id, $name='Service Hdi Aks Cluster', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceHdiAksClusterLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2025/Category/NetworkingContentDelivery
+
+sprite $NetworkingContentDeliveryXs [10x10/16z] OqS03XW0ivZXB0uMC0l6H5N7o0YLPM1dOs96bOK1
+
+sprite $NetworkingContentDeliverySm [12x12/16z] POp50G0m20Dns7_XklUGt2j-4WlztCiCftBMdQD2pMbvIzJT0-xBxU_NXMG
+
+sprite $NetworkingContentDeliveryMd [16x16/16z] PSwr0GD03C10ixN_mk4yghjEVUQv9fsi_LsrsK1NDxGFPm2q_Xryiv_jC9KgdiNVBYYMmw5jf0r3x3-ZsxBt1
+
+sprite $NetworkingContentDeliveryLg [20x20/16z] bT150e0W443HIORxNzYMph_pILihm38mz6LZ8oxDwQM5tTyccfhm_oTOs4Sac8GzEHW5es2UYG20Y2tOioGwoSu2QezoQcBab3JOssMjDzWsgC8J
+
+!procedure NetworkingContentDelivery($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Category/NetworkingContentDelivery', $name, $tech, $desc)
+!endprocedure
+
+!procedure NetworkingContentDeliveryCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$NetworkingContentDeliveryLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure NetworkingContentDeliveryGroup($id, $name='Networking Content Delivery', $tech='')
+  IconGroupElement($id, 'NetworkingContentDelivery', '<$NetworkingContentDeliveryLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2025/Architecture/ArtificialIntelligence/AwsAppStudio
+
+sprite $AwsAppStudioXs [10x10/16z] uy01c3ZOOKm63XOGnGZcG5aCC1OBZCa0nZ0s2W
+
+sprite $AwsAppStudioSm [12x12/16z] VKo50G112B9r_uK_hyiE88w6xUJyZnva6l8lzAHgVa2PwLbDyuX5okJPYrcCTWC
+
+sprite $AwsAppStudioMd [16x16/16z] dOt50GKm24Dnil_2TRjzULKimN-msHEf0v1OKIfWd03FUEPRx2Uc5jED4q685Q_F6yCCd2s-TZQVHIyg7fBn7HK
+
+sprite $AwsAppStudioLg [20x20/16z] hSYr0GGn300mso7jl_0p9Fsfb2kiZbCriUn6mSnj0olGoqUYXhOOsqtGZnkvZCpZQB6Sry5vsH7ZVpLOsHlArmfWX4qlPawdZE42Tm
+
+!procedure AwsAppStudio($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Architecture/ArtificialIntelligence/AwsAppStudio', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsAppStudioCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsAppStudioLg>', 'ArtificialIntelligence', $funcName, $content)
+!endprocedure
+
+!procedure AwsAppStudioGroup($id, $name='Aws App Studio', $tech='')
+  IconGroupElement($id, 'ArtificialIntelligenceFamily', '<$AwsAppStudioLg>', $name, $tech)
+!endprocedure

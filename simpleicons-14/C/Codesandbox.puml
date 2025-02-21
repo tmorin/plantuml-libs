@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/C/Codesandbox
+
+sprite $CodesandboxXs [10x10/16z] uqS0PaO8uETdP800YbW8
+
+sprite $CodesandboxSm [12x12/16z] uqS1l300P3B00CtPo
+
+sprite $CodesandboxMd [16x16/16z] uoS86900un3aCo819WpV0G
+
+sprite $CodesandboxLg [20x20/16z] uoSQC3EY0f0O8mCgm24sAaOq
+
+!procedure Codesandbox($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Codesandbox', $name, $tech, $desc)
+!endprocedure

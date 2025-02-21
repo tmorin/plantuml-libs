@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/A/Amazonrds
+
+sprite $AmazonrdsXs [10x10/16z] BOg54S0m4CDSvch_QGEwF9fUOdqmK9x6abcGlH_QKGbPjeQkVqV6FjqO_ELv9LeT22i
+
+sprite $AmazonrdsSm [12x12/16z] DSg50GCn30J1DVEf_sgJ9ur1kCrucPbmKyZJvpyfvgSJPbGhQx_po2iNY4nrRY9MOC7s7PUsTW2CoUjW4wS_
+
+sprite $AmazonrdsMd [16x16/16z] {
+JSvN0eGW30RXeQb0ykV-jzsr-r679ooYSLD4Y8yq0dsJ1ivjS5BFkSohYcNB-oaCSDWhmGgjPY2lx1peRM-QQUwlD0GviUkG36RFnIID3Q_iKcOtFlzosSfE
+_-3c49y44Ty4_G
+}
+
+sprite $AmazonrdsLg [20x20/16z] {
+NSi5TaGX44JHH_Md4xJslzh8A6SksZPjSrZ-i_YGsnXETOHXSSX6m2DP1C3WQOwGzBs-U51gm8qPjtTLLDlQUyzg60qCI71Z8DebGBu0IZF0h0AaqjQUYG46
+2r0SishWYhnJ9ReDSm1SAL4a5KmlS5CsDs4EETTUNTnCoC6RGIORfqNurdLoUaTmKAH_0G
+}
+
+!procedure Amazonrds($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/A/Amazonrds', $name, $tech, $desc)
+!endprocedure

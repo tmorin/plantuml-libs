@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2025/Architecture/Storage/AmazonFSxForOpenZfs
+
+sprite $AmazonFSxForOpenZfsXs [10x10/16z] OoSUCBCpm9XiJ0XXHg0mVW
+
+sprite $AmazonFSxForOpenZfsSm [12x12/16z] OoSPCB8mio3OJEoCK3OJaCk4efADXGska9cHEDC1
+
+sprite $AmazonFSxForOpenZfsMd [16x16/16z] hSgd0S0m44FHQzBVV-EGT6e_fi9-tQfV0nek8mhpeUB7_Vr8o3nipBe3
+
+sprite $AmazonFSxForOpenZfsLg [20x20/16z] nSet0S104CJ0Yn9_nkwS2Fnq6pmBlnfIqFNfjD6exqzAsizFeVI1Ck1ssFuaHk3RPDiUT04
+
+!procedure AmazonFSxForOpenZfs($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Architecture/Storage/AmazonFSxForOpenZfs', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonFSxForOpenZfsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonFSxForOpenZfsLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonFSxForOpenZfsGroup($id, $name='Amazon F Sx For Open Zfs', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonFSxForOpenZfsLg>', $name, $tech)
+!endprocedure

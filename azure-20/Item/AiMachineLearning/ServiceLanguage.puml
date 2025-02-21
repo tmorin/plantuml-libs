@@ -1,0 +1,21 @@
+' definition of the Item azure-20/Item/AiMachineLearning/ServiceLanguage
+
+sprite $ServiceLanguageXs [10x10/16z] DSZ10G0010B0eFr71hXFbH6BMvwFQMRNLEVp1xPj3wAEGRm4
+
+sprite $ServiceLanguageSm [12x12/16z] BOo50G113C8giF_8BwGvgSAwZZKfT7qe9BryoBlR9kzMzmppsx5acroRvOyf1onoWGwy
+
+sprite $ServiceLanguageMd [16x16/16z] TOw50S0m20IBNFVVk1eFN1H_WwD3iJh5raBnYXTIMqGCWhWNlbw3BILUAgasZZ_iDY-FNQYJddDk-dFx1W
+
+sprite $ServiceLanguageLg [20x20/16z] XT150e0W04JH2SRxtzXk1TxoqpWHxZB3X_wQiIaNujlGRfwzcjUMt9gaQ-tjlAAP7qtNF2wUBQTRiyD5bCrjtcyZ3YGr5DnbpVt_Y_Wif2S
+
+!procedure ServiceLanguage($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/AiMachineLearning/ServiceLanguage', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceLanguageCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceLanguageLg>', 'AiMachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure ServiceLanguageGroup($id, $name='Service Language', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceLanguageLg>', $name, $tech)
+!endprocedure

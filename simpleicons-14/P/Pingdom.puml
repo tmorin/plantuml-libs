@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/P/Pingdom
+
+sprite $PingdomXs [10x10/16z] Oy0EUFZv6JY0c1yAW48G6Wguu6mWpSu0Py9OA8O1
+
+sprite $PingdomSm [12x12/16z] VS650O0m0C2muax_lnPtMK98QG-vKBaXTjCpKstPPDHgnQBJ33ObRSQcDUTGy302
+
+sprite $PingdomMd [16x16/16z] bSf50i0m4090uXx-_zfgzDREQHV0FmatNSa2eGi5WCmXRXyTBf5DGXFkJs4IRLNHYBOVulq5B4GX5fd4XlZa1
+
+sprite $PingdomLg [20x20/16z] {
+dO_L0K8n34Llv6bj_ssXRbzmgl44_yFz9yyJNpAQ5JPyyP0xlb6XOIBwXaqbTjBSA3JDYOv4nKC0iOWmCWfwiw-YaHMEC59gNgFkzWGo5ZCIFIVYV1OhtQlZ
+y2CV
+}
+
+!procedure Pingdom($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/P/Pingdom', $name, $tech, $desc)
+!endprocedure

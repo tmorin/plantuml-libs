@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/H/Hey
+
+sprite $HeyXs [10x10/16z] 9SA55O1000KWxFRlFwrUF00lO1mSm3mBp0I9wuvLt8XkBxb4PeoR5H2OD-07
+
+sprite $HeySm [12x12/16z] 9SO50GD100F1UJwEVxN5u08BO3CCm9hBdycrU40Y_7UBlGbXR94_9oQkK-JeS5QRIu5o3GHim2g0Dm
+
+sprite $HeyMd [16x16/16z] {
+LSk50SGm3C10EMM8jV-q3-LUqCGXUJ4U2ITaBPng3PyJuYDsb54eGwu2LWE3xQmWLgO4sSvKGf0nWHKpcHS6icleMcmD18oH2ajfXIsUa6qIW6oxM81-OHEL
+tRporbcdaTqN
+}
+
+sprite $HeyLg [20x20/16z] {
+PSYtOG0X00GmmIUUTFjlwyfPfNmwjt_IjfzsLPRv-Y4fro1-M6VEGHvyYjKMDi0PKHB4J88riwiLz0nI66qcvAO5y-2OTXXXVvueQKf8aEeTw_Q6MIIL56a9
+QR36GnZFaKkPgBEzQYXn1gZhUOqR-z9E8FiI49yI9ZXI_NFcyK-PsNlvz04
+}
+
+!procedure Hey($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/H/Hey', $name, $tech, $desc)
+!endprocedure

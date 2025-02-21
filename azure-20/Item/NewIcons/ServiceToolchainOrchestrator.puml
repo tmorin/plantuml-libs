@@ -1,0 +1,27 @@
+' definition of the Item azure-20/Item/NewIcons/ServiceToolchainOrchestrator
+
+sprite $ServiceToolchainOrchestratorXs [10x10/16z] JOc50S0m20GFX_qNRkf1NjadhKa01O7al3enWAhJ6Ype4trXsg25dfNFsTuJ9-Jz1m
+
+sprite $ServiceToolchainOrchestratorSm [12x12/16z] NSJ5WGCm40GmsOlfl-03FwC1Nxht5hZ7MSAJzps5fKb7pohUc0Mn8te-HwyzqM4-Sf61kHVXkPww9ng_
+
+sprite $ServiceToolchainOrchestratorMd [16x16/16z] {
+ROx50GCn3C0Ki_TVk1TyLG4py9UHLVei5puRisFE1ByQCTFPACYK6JjWwm_FECaoXMPMJ7D55rLNomOibaEpD7lWeLG7beKRlegx5HTmp9cqO6yhdlQ6o0kC
+y8-b_W
+}
+
+sprite $ServiceToolchainOrchestratorLg [20x20/16z] {
+VK-70GGX21D2tN_X5_EzvKwbawn_oCeNNyAGrIlY7Z8xTRLl5uPSMNnkLW9Zthlydf6KOpEeEh-dt6luvk0-IsXuPAKl0kjcLDKJ_rDfUGr6nhPxh02gTr0Z
+IuQ_nF13Jp1oCbF5_cxd2kYoe32qaYFl6rnVtbSJGTFYkKNDmx682m
+}
+
+!procedure ServiceToolchainOrchestrator($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/NewIcons/ServiceToolchainOrchestrator', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceToolchainOrchestratorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceToolchainOrchestratorLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceToolchainOrchestratorGroup($id, $name='Service Toolchain Orchestrator', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceToolchainOrchestratorLg>', $name, $tech)
+!endprocedure

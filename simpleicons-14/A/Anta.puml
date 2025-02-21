@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/A/Anta
+
+sprite $AntaXs [10x10/16z] Oy0F-2600yv3aW5YBbuEJX0JeWuaYiqG
+
+sprite $AntaSm [12x12/16z] ZSUt0O0m3031TyxI_jEIeGDytJ733jrqoyR48zOLJlju7Cb6H494jbGtZ8fdIw8a0eOFAm
+
+sprite $AntaMd [16x16/16z] fSp50OC044JHZyFQzDzjWdEClDFgy3ShhN9krgxDjLqjheN3ibtmqAwJaTNZnW2H4JB16l8UZnAcOXiWLTZOrDeZdt2V6dDyxNk-zG8
+
+sprite $AntaLg [20x20/16z] {
+lSZ5OGD030NHMKRfzrzjOgQhuIrg-8csTUOhSwPddREGfauMXCYTwMZoREg85xSu9ZikoGJh4ZMcBFOs1FHJ7FdueY3d71sfQmaDYQEfq58TexKmDvkJngVz
+0m
+}
+
+!procedure Anta($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/A/Anta', $name, $tech, $desc)
+!endprocedure

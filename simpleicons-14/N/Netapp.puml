@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/N/Netapp
+
+sprite $NetappXs [10x10/16z] Ou03VeA0bvSFoc9WO2V8uWK21WPM80a
+
+sprite $NetappSm [12x12/16z] Oq02l4Y0drZ0mC28n6OWXuti1W
+
+sprite $NetappMd [16x16/16z] Oo00-6a2EA4cqv-FxZy
+
+sprite $NetappLg [20x20/16z] Oo0Iy0ymu0K2FZGnaBlOXuWOBnI0n5ZXR4m
+
+!procedure Netapp($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/N/Netapp', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,27 @@
+' definition of the Item azure-20/Item/Networking/ServiceNetworkWatcher
+
+sprite $ServiceNetworkWatcherXs [10x10/16z] LSR50K81500WlhxSVs0xEU5FJys2wUvxBQaXuZtETUJY54hSGzG16m4im1K
+
+sprite $ServiceNetworkWatcherSm [12x12/16z] NS750G9G500WNltOVs6zcE3Vt9m3j0cxm42ua1rFkT3PO6XKHTSXLoVEHY7EtP0b4eZhxNfx
+
+sprite $ServiceNetworkWatcherMd [16x16/16z] {
+ROw5TG0m20KFX_qNxelLBuf__aUdUuP7MPDaoOrsPAHNt8mX8P1rBVBO67Fig8XSB5iDJ4-yMVUwDCNT1HHJST6asEcYxc1bsIni3RBkfoPElqSE-cLHmmz-
+cHy
+}
+
+sprite $ServiceNetworkWatcherLg [20x20/16z] {
+VShROM0X30FHCPPbwB_WtUG2UIVdSoJ-4hrUc0zwpZIpLd3POGpDv5gpjpdNJK53GHIEqy1FszDkBakMr6K_AVM2-tkQ0XXvsWWWUMHwX2eNW0WgX9pHqTgj
+nX2aWrRpjCG0rRMMU8onft85bn8Y1n_CbPBYS-BnTyBmrNy
+}
+
+!procedure ServiceNetworkWatcher($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/Networking/ServiceNetworkWatcher', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceNetworkWatcherCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceNetworkWatcherLg>', 'Networking', $funcName, $content)
+!endprocedure
+
+!procedure ServiceNetworkWatcherGroup($id, $name='Service Network Watcher', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceNetworkWatcherLg>', $name, $tech)
+!endprocedure

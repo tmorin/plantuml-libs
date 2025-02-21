@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/C/Clockify
+
+sprite $ClockifyXs [10x10/16z] Om01Fbu6CE070H03IdB26K3C1s8nWtYiG8oi38XvmImkVh0W4vY9C0y
+
+sprite $ClockifySm [12x12/16z] HSa50G0W40F0uSxwfyNbu1sJh5LXCPp2R3sf0Gb6WCJ40jJVxhLrUy6JVba2zIxx8DuWoAfrGLWhBa07
+
+sprite $ClockifyMd [16x16/16z] FOs73GH138JcSbpJVxV_5jAXWDaOsOkxBOLOKuyrEjzkO6ttvE680oocUKBaSPMX8l2gtIwgjLoH3IASYiU-E9N-5e2Q_vvpaQQG9P6vouz_
+
+sprite $ClockifyLg [20x20/16z] {
+NOy54i0W30HnX_l_Rqkc2RPLDeT42McW1tLW1tx6KXs25WKY66toL6Ya6fbTp_DjxYc9PwOpnKwKvwfT1p1pm6S5uflFWAUlFjUGTSlmuinHL_9t72z9kH-T
+5s05cyZCCc1YdcG4qLkdVER5BHYI2_-hxcZm0G
+}
+
+!procedure Clockify($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/C/Clockify', $name, $tech, $desc)
+!endprocedure

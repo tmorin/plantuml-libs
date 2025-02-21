@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2025/Resource/MigrationModernization/AwsApplicationDiscoveryServiceAwsAgentlessCollector
+
+sprite $AwsApplicationDiscoveryServiceAwsAgentlessCollectorXs [10x10/16z] POYt0G0n4CBW4ko_y4TNDWsIS8uxSP56yzC0ZfUeX_9lTfleRaGEX3Nf1W
+
+sprite $AwsApplicationDiscoveryServiceAwsAgentlessCollectorSm [12x12/16z] JSY70GD120D1wGAe_ugz_amSq3U6xI4JBNUt92QkAip4mEabOQX4THff-RKlBxuxUDWkEyhM7I7V8py
+
+sprite $AwsApplicationDiscoveryServiceAwsAgentlessCollectorMd [16x16/16z] NSdN0S0W30FHezZI_XCd-aXzr0F-h73EG8IkNpH2a2DTtLqDVKf3L4_WwbMvFrsz4Rwws837rKteQYPArzKOItZaCaxPo_HOy13DXz3_uG
+
+sprite $AwsApplicationDiscoveryServiceAwsAgentlessCollectorLg [20x20/16z] {
+RSs50O0m44FHd6V_YQdY7tzKy5ToLk1AGCo8m4WKHFMwPN_9Rh_ZieU4HN-9OJiLz2upkZZzRbP85j9lHb3wlMxcAMYnmJOLObgS9bxBxBvUVzPhFP1458T9
+3rxjNfoRMVGSq31am0klmX7onehw64Hm
+}
+
+!procedure AwsApplicationDiscoveryServiceAwsAgentlessCollector($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Resource/MigrationModernization/AwsApplicationDiscoveryServiceAwsAgentlessCollector', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsApplicationDiscoveryServiceAwsAgentlessCollectorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsApplicationDiscoveryServiceAwsAgentlessCollectorLg>', 'MigrationModernization', $funcName, $content)
+!endprocedure
+
+!procedure AwsApplicationDiscoveryServiceAwsAgentlessCollectorGroup($id, $name='Aws Application Discovery Service Aws Agentless Collector', $tech='')
+  IconGroupElement($id, 'MigrationModernizationFamily', '<$AwsApplicationDiscoveryServiceAwsAgentlessCollectorLg>', $name, $tech)
+!endprocedure

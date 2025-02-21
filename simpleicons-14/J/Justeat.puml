@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/J/Justeat
+
+sprite $JusteatXs [10x10/16z] DOZ50G0W30E3_93RVrgqQUEwDnN7lUCP9vp2eNjud5Vrw5HnwWE4DW
+
+sprite $JusteatSm [12x12/16z] LSQr0SH00C0m9yVe_QTzHbNYOVCMrDC3eFjGWURJWlEveQ0XPKMTUXx1Z0gt8oZWmVVrvwB-Vt85
+
+sprite $JusteatMd [16x16/16z] LSwr0K0n30DHXJct_xIVyIg_ojBLrBS6s46xEBaw2J_pz_ZOImaAmy4K806EeUka7v-6kItrpTEITfzRh8yEtQuOoRykPAczZc04tLysfocN1NPtFBm2
+
+sprite $JusteatLg [20x20/16z] {
+PSw5hIX130F07FDD_zL-i9I7NlAEADLPtlgP6slnVfBaHij4fstq9SDlCiNucgV92wx2LdLWCffGHT-JmSwHd-U6qUYWOddRdlItgkqz7UbFJEOyJUdt5xkC
+wLUCFNVC6SDSkDAFjgE7O8sztFMqJR4RTRODLNy1
+}
+
+!procedure Justeat($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/J/Justeat', $name, $tech, $desc)
+!endprocedure

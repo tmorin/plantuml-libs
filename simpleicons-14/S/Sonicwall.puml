@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/S/Sonicwall
+
+sprite $SonicwallXs [10x10/16z] Oo0PCBCpSR8mCF8pSHEh0m
+
+sprite $SonicwallSm [12x12/16z] fS610G0G4CImNW7ilwyXFg6WCuBEbVH6CmlVtPk23m
+
+sprite $SonicwallMd [16x16/16z] lSQt0G0W30InUt9c_ssXymPM9PnLb5lyaLG7n19Aw8XpxnXAc8231m
+
+sprite $SonicwallLg [20x20/16z] rS770OD0402nyUPWeFzkULF2IHmeAQAG1B_QIrXK4f4MW_ktpuYjyg6Su0K
+
+!procedure Sonicwall($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/S/Sonicwall', $name, $tech, $desc)
+!endprocedure

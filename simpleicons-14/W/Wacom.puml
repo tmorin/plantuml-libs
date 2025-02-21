@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/W/Wacom
+
+sprite $WacomXs [10x10/16z] Oo0IiBAmi36miZ8mC_7pSJDpCJ0mCX0D
+
+sprite $WacomSm [12x12/16z] fS810G0G0CJ00G3wj_KHu3O-J8_jfUaQLg2H8TZKm2fdmJekRG
+
+sprite $WacomMd [16x16/16z] lST50S0m542nLsu_-bSx4B7b5dwMiA4rdBs4ybxhW8FKJkjgMmJJ9UKz7xi1
+
+sprite $WacomLg [20x20/16z] pOW50G0120CFsDwbVzhN4i2SvcVq_00sBh8oEJbOOPuU0YBYtzQQbc-B99vGUtd9HIgd-RRkTmC
+
+!procedure Wacom($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/W/Wacom', $name, $tech, $desc)
+!endprocedure

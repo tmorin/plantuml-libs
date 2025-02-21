@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2025/Resource/Storage/AmazonSimpleStorageServiceBucket
+
+sprite $AmazonSimpleStorageServiceBucketXs [10x10/16z] PKg30G0m34lz_yMpLqOuAkfH1_oGDC8Q6WiqIc6-Gp-I6dGY2o03
+
+sprite $AmazonSimpleStorageServiceBucketSm [12x12/16z] LOp50G0m30Ahn_uJroNXXGU7GeunmQ1wtk1AayKPSEn9yZJrovD5ukMdOFwhuVpA20IQJWS
+
+sprite $AmazonSimpleStorageServiceBucketMd [16x16/16z] RKw50GG1239X_ua_pxYmM-I1aWJ8_6VKgYi_1dioH3nX_yIGLfFk-dNV-5Vp2VEN0nMYlohuyPJvj_EQZyczZsxIIy32nzvB5DOt
+
+sprite $AmazonSimpleStorageServiceBucketLg [20x20/16z] {
+TOw54KCn34DhVFjFNF15_HoEwFHw6fRLq9Kc14BFfEVkeuNV8KokqNMvARThCEODKA4eZjxQOQmxTvW7-RjSOlN0gd-1eVAhD7DVwibynFgAwPBfehDObErb
+Uj1XPbxWUyzlIFy1
+}
+
+!procedure AmazonSimpleStorageServiceBucket($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Resource/Storage/AmazonSimpleStorageServiceBucket', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceBucketCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonSimpleStorageServiceBucketLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceBucketGroup($id, $name='Amazon Simple Storage Service Bucket', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonSimpleStorageServiceBucketLg>', $name, $tech)
+!endprocedure

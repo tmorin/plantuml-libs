@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2025/Architecture/Analytics/AwsEntityResolution
+
+sprite $AwsEntityResolutionXs [10x10/16z] uy0E61Y0c0d6OG6JxAnGFZCx1mSxN2aR0ojS3nIme1e6
+
+sprite $AwsEntityResolutionSm [12x12/16z] TSc50S0W3031nd__XUiE7CHXJ6fBx4eoXRmlnSPCmOMDAe1pK9YAE8T2b8lJjhS5
+
+sprite $AwsEntityResolutionMd [16x16/16z] dSd50O0m343HUFx-2-Ds0_hQE2Ci02ADNLHMfQ0SsbExwfnmTwvhT6wPWnehuM90jvSz5eAXN0jBfRaembDhyiaC
+
+sprite $AwsEntityResolutionLg [20x20/16z] fSYr0KGn34J1bUJlVVqtV0o6v632uMyk0q1rdeG043bUlyZnA88IhHWuPH1FadL0SF1KK02EuAbNcdiokAUi6Zg1tX67XpH1ome6ePIP9OrLDh4ntpe3
+
+!procedure AwsEntityResolution($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Architecture/Analytics/AwsEntityResolution', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsEntityResolutionCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsEntityResolutionLg>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AwsEntityResolutionGroup($id, $name='Aws Entity Resolution', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AwsEntityResolutionLg>', $name, $tech)
+!endprocedure

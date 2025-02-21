@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/U/Uber
+
+sprite $UberXs [10x10/16z] Oo0Iy3EmSG0fHYYBcO-1dv-HWP-3WP-9WPSVlru
+
+sprite $UberSm [12x12/16z] bSO50S0W04JHD_VHForQ04w_GRtiZwR0-N-pyx8M3XPCvv4RF2RsCcRTIW
+
+sprite $UberMd [16x16/16z] hOh50S0m549VtM7_QUkMdBzZ15UvRr5-tFlsIyvbKTlCUlog56XcXlBarSuFPYrxVbbex6eckZO
+
+sprite $UberLg [20x20/16z] pOXL5a8124GluJk0CVjVhTtwhp3D7vqCbghukXc0FM-Q5gWsZJRNhI5wvo34oRjg1OoMY42O25K9PBx3jmXyAZAZny2ceFdL7G
+
+!procedure Uber($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/U/Uber', $name, $tech, $desc)
+!endprocedure

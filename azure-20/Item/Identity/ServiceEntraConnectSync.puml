@@ -1,0 +1,27 @@
+' definition of the Item azure-20/Item/Identity/ServiceEntraConnectSync
+
+sprite $ServiceEntraConnectSyncXs [10x10/16z] DSW50i0m20F0j432XFz_TwiT3WPlM7COIqpdGxA5isfij1X42U5L8QCmNnBxsf2Pu73zFW
+
+sprite $ServiceEntraConnectSyncSm [12x12/16z] DSZ50SCm30LGCRJ9_kl65hpB1xXG28PSKxMSnbMwgrnsgDe_trVyOjFBtToX_kbqRtC-R_TG3juVCI20x8hCv0y
+
+sprite $ServiceEntraConnectSyncMd [16x16/16z] {
+HSa16iGG34JXWMG6tF-wcq-sxGyya6fl-BGUlfTYgMPMUznyAzjxyWlD-vXpZkX4upZdTAP6IoIT96XpnR_n4c1p1wC3fJ3w8ZqctXPRLsjwsWd95Er9gh31
+jp62y0C
+}
+
+sprite $ServiceEntraConnectSyncLg [20x20/16z] {
+LSY50SGW44JHOHthlzr3Byb7z-76mWcVPFUbqulqTf7qrIRzb1R9pNO9oHwxg2PkhVVUXjrSm-eqDJ-nwsrCjXokbcjhhUYWsJ3MBBcFXZdJ805KOsR384g9
+VDZ9LuQtHJ3REezvW2F2usKMICJGSC1kcdEESV0oI1u5y0C
+}
+
+!procedure ServiceEntraConnectSync($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/Identity/ServiceEntraConnectSync', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceEntraConnectSyncCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceEntraConnectSyncLg>', 'Identity', $funcName, $content)
+!endprocedure
+
+!procedure ServiceEntraConnectSyncGroup($id, $name='Service Entra Connect Sync', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceEntraConnectSyncLg>', $name, $tech)
+!endprocedure

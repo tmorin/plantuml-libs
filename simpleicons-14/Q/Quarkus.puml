@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/Q/Quarkus
+
+sprite $QuarkusXs [10x10/16z] DOc30S105CLIkzb_slFN8uTzfiEpZvwmyqDJIuMglDIkYlnx-rxI5GkXh3zPX_8P
+
+sprite $QuarkusSm [12x12/16z] DSR50KKX0C2mFiNf_jD-GN8AfzklVL4x70pZZxVxf-wtMbkFQVoe9YFZb982-pTb7sHSu7OSXu3w1G
+
+sprite $QuarkusMd [16x16/16z] LOk50S0W30HJm-7stxQu79eNaSZ2Y70IkMJX0SdeV5m-Rvz9BscRBIIpvay1JlLPOKeUwFvbm0Ahx_AiPCtu1xRvooUiEPEVVVPZDlWt0qwUyWW34S3z
+
+sprite $QuarkusLg [20x20/16z] {
+NSm50e0W4031evlz_s_5zboJ8KGIgc549lzYWfA_ZPsBw7RB-y-8wpMjDgg7dpcOMLjYptmiG1aaAeyrzYBBSFSwmweicz_pocupoDVehKIoDfoKdwsN4qdA
+H0pxMrl7t3OOzs-zVmnl8jStlXR47hG1
+}
+
+!procedure Quarkus($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/Q/Quarkus', $name, $tech, $desc)
+!endprocedure

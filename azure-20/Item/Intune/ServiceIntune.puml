@@ -1,0 +1,24 @@
+' definition of the Item azure-20/Item/Intune/ServiceIntune
+
+sprite $ServiceIntuneXs [10x10/16z] Oq00LWXWOq05Z4nm5WkSoG1cSO815nTOX8kB6KX2HDaHwjZOs
+
+sprite $ServiceIntuneSm [12x12/16z] PSY50S0W30311-Bxxrlt7fhdoIxFkDtD5F2zjAQgMs0CuoTZayck2XeRkIAoOdE76G
+
+sprite $ServiceIntuneMd [16x16/16z] TOg30G0n34KRO_zzpoXVaNoK7gevD5SPhxIAlFfS20484GNXrm87UkcY-Ynod8T76pm8oAdnnDtHoE1jP-QrlZeYAcrnykeNlIWTEm
+
+sprite $ServiceIntuneLg [20x20/16z] {
+ZS-50SCm3011eMd_WIiiquSlPCE_3NreY9d2OsxZe_4O-cm3aVmglpNpBYAEIii6eZ11r8O-Y0VBRhOUB4UyxpgMMqP-nM3hpRJCQrls9ZxOoC_DjhkOoNim
+whczwG8
+}
+
+!procedure ServiceIntune($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/Intune/ServiceIntune', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceIntuneCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceIntuneLg>', 'Intune', $funcName, $content)
+!endprocedure
+
+!procedure ServiceIntuneGroup($id, $name='Service Intune', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceIntuneLg>', $name, $tech)
+!endprocedure

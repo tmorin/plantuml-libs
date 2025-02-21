@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2025/Architecture/NetworkingContentDelivery/AwsPrivate5G
+
+sprite $AwsPrivate5GXs [10x10/16z] TSQr0G0n3C101Mnh_uMVeSfLvzBqmZ6kTPitZfM7PeWNeg2fWn6G_dO
+
+sprite $AwsPrivate5GSm [12x12/16z] VKk30S103AmE-ozSln7du4dmxYqyEX0kUOKKDEkTNppNagpuYDsIFk_7mlzB7A3Bk
+
+sprite $AwsPrivate5GMd [16x16/16z] dSct0S8034HHvVlxBqn69TX-rGMk204fLaU9bTasoam-9d6S9Se6RJTmAla8_47aj-8XYT6hvvGDH2ls7n2oLrU5URX7yzyT
+
+sprite $AwsPrivate5GLg [20x20/16z] {
+fSh50KGn24NHHuBS_Xl-BYn7JWJbRyuXwUoOJEZAF9964fFXUtnbXchIZG03qLHDqpvevETUyJ3AJ6Pul2qg0C7aL7FlMRdE-SwPqj7R0uSPK96Ke8pJbCQC
+S9cKTCMtLW
+}
+
+!procedure AwsPrivate5G($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Architecture/NetworkingContentDelivery/AwsPrivate5G', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsPrivate5GCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsPrivate5GLg>', 'NetworkingContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AwsPrivate5GGroup($id, $name='Aws Private5 G', $tech='')
+  IconGroupElement($id, 'NetworkingContentDeliveryFamily', '<$AwsPrivate5GLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/P/Pocketcasts
+
+sprite $PocketcastsXs [10x10/16z] 9Se50SC040J1AJUu_jK67uzWwEkiQZY6uayV2Qk6gEMjXh-k-iRIMRA-RtG72vzki0C
+
+sprite $PocketcastsSm [12x12/16z] DOs55SKW4C1Imo7xJ_kbzmYS6t-wXK1TwkkkoFYwrUw54wa7vqyTTX4DlUYdGH4nGAxAzkK8DuCUg75cxkmN
+
+sprite $PocketcastsMd [16x16/16z] {
+HOk55SKm3CJaLuQBzf_sGr517t0mnAsuYIVJEMhhW4bpZWDGmEuESQ0pcmrYyNix0SeZQyVn2TrAZ11KLsHKgGqVDa7YJJdHYlMUKR3Z6XkZExmsn03dE0Bi
+cl4TeUuky0K
+}
+
+sprite $PocketcastsLg [20x20/16z] {
+JO-53G0n3CJyN4fl_ss_f2eMnc4MiQgyE1ujx62XJef5ZRXLO71Ooor5umqN4AG7dg5C9TVUc2GOZRC3rHbtRqs5V8FktXUx4wXXtAEmjhQt42IvR6njP3cA
+2bVbbkDT7UOSqa4Ki9LXCgYwsUxaa0BSrRL2N7yxDLxK0xjpyCWrRe86Dej-
+}
+
+!procedure Pocketcasts($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/P/Pocketcasts', $name, $tech, $desc)
+!endprocedure

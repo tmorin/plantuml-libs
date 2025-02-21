@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/P/Personio
+
+sprite $PersonioXs [10x10/16z] LSA54SC000GWAd7v_QUDAuVTDp-GdXufFiYxv8lGnwxjdU8q-dgQ0G
+
+sprite $PersonioSm [12x12/16z] NSQ50OG040EmlE9q_sbnpqbhLuT5cu90qsFfhxnqblhfb_m5FIJ_9PPgy-zwfpZLT9xUEoC
+
+sprite $PersonioMd [16x16/16z] RSp50GCn30NHMMRz_hjDP1sCi_XCvAPRTvR9ZkLMO9RMj2HicldufmdOVExRdVvwBSt0eiNv4Vw45-zTkWblSJwvKnRCDRxEsWPyI_RZfqmCip9-
+
+sprite $PersonioLg [20x20/16z] {
+bS-r5GD14C1G7UES-k_MRycmcN-aLFmOJsFYonmQv-L2S-XDSbyKgwu3cJF9f0k398yabmSGDu0FYP8uVNMG3CBXIN9BjecEP6vaeHVL9Scjq1z8v-GEwBb0
+pu7U981yEnvWb3-5l-05
+}
+
+!procedure Personio($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/P/Personio', $name, $tech, $desc)
+!endprocedure

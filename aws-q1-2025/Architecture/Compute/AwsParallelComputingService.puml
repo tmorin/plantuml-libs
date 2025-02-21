@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2025/Architecture/Compute/AwsParallelComputingService
+
+sprite $AwsParallelComputingServiceXs [10x10/16z] RSQt0G0n30IWSv3OV-AFhQbmDZ6WKYAemPn09GrpYBzcjkNa1W
+
+sprite $AwsParallelComputingServiceSm [12x12/16z] ZSR70S0m2CLGklRVED-SqsG3ZryDfJLzd2BIe3mRj-8K8FNQesiwbkPcbfHSrVfHF7O1
+
+sprite $AwsParallelComputingServiceMd [16x16/16z] dOk50GC1309ZSFjFN6E2_iK57Y2bEEFW1Hevysm3WWLWxGEAovqT3QM3y1sAHOIccrgMZ2hg4trHg0wN19txpISwztzv0m
+
+sprite $AwsParallelComputingServiceLg [20x20/16z] {
+jSY5WG8034FHf9A__yGdFO41uDNBErHnriilmJrdsUPaIrb0N9tA3e2VVYlVMYhnfrDJSTpmfvXjHMJvOwB11SElaXkhaHJEfFTBJmpcD69gjMDeJZm2ZvaU
+ytgV
+}
+
+!procedure AwsParallelComputingService($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Architecture/Compute/AwsParallelComputingService', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsParallelComputingServiceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsParallelComputingServiceLg>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AwsParallelComputingServiceGroup($id, $name='Aws Parallel Computing Service', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AwsParallelComputingServiceLg>', $name, $tech)
+!endprocedure

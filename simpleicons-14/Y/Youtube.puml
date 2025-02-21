@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-14/Y/Youtube
+
+sprite $YoutubeXs [10x10/16z] Oy06-6603SxY1M867XWFeWR4XQXbXgj3w4KO1m
+
+sprite $YoutubeSm [12x12/16z] Oy05sFbXW9617m4uaTXy8881IPO1mk45itd0GXpyIDB8R0PM3YvkRcukTYOKQm4
+
+sprite $YoutubeMd [16x16/16z] Oo0LyF0Z0rO6VbJ0WSQ7AETZWV7v82G30oTK0CPdO46LXyfmG_XyS0lHp6T0vpFo8l6u2Ne7
+
+sprite $YoutubeLg [20x20/16z] fSwr0GD130J0FURR_gkrdqd9msHYuHFjKYvrKagE1a3ZbGObJwbm5hXRrm6LLu3C0liFVSybBkgQSzmaIeOIA5HOsJPHIa-KKdZW3m
+
+!procedure Youtube($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/Y/Youtube', $name, $tech, $desc)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/A/Apachetomcat
+
+sprite $ApachetomcatXs [10x10/16z] TS470S0W000W_5_xjrs2WJzzi3bF3om75LaHX4G65F0Obbc11O0F
+
+sprite $ApachetomcatSm [12x12/16z] VS750OLG302mF6jnzf_skzn8NAgLwct9KbgdEilGbQ9YetUGbAsF5RiP6OZfsCOWq5XsMYrAyJNnTmS
+
+sprite $ApachetomcatMd [16x16/16z] dSN5WGD030F0sJM5qt-rn_0xoDYIFAZls2UVJcld2j3hVZPYsP2WLK-MTvUnpSa1PMohLUt4FW970Ww7zvK3MUPEDjgxk6_CjfqFlkKEltW6
+
+sprite $ApachetomcatLg [20x20/16z] {
+hS77GSH0400mpTYRRt7_tV8ZPqvo7oU8xbdV0wwRPrFB7HaBx7rjkcYm8CcQyf0SDZQmQdDAJcmOEsF6MRkIABGuH9m7nJZX72IKO00J2Q9CeCVQUxG44wGK
+LqCRM73UuE62QAaoe-BP2iCxcNxe4G
+}
+
+!procedure Apachetomcat($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/A/Apachetomcat', $name, $tech, $desc)
+!endprocedure

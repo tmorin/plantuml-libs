@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/A/Archiveofourown
+
+sprite $ArchiveofourownXs [10x10/16z] RS6n0KG0002n_0F0xR-jJYNn9TnpO08BbEK2il-GpcuRuMTa0uRHwm4
+
+sprite $ArchiveofourownSm [12x12/16z] TSor0G0n30J1DRFLVxNF32ECZXzkFIqnctU5ZW9CPY9btfOkcCP6S6L_HJAprgSR1PbsEUCFYgiH
+
+sprite $ArchiveofourownMd [16x16/16z] bSQreKCn50KmFQPhd_sd_Gof0ghaHSCnW3NL0GM5pWRxQeKumJer9rB0QChLzdH_bXYtw-Uef3BlWTAowwtHiUwP8PiQaSMVoQtrs3po3W
+
+sprite $ArchiveofourownLg [20x20/16z] {
+fS_50SGm34JHRsPD_zKkXEzvPhPumJswmPyziJFbSVQ9axDs1XJ-BC7aJxXzYjW7FG0e9dQ59gT_PotOUUYMjTIDfw7j3dSE0P8aqvZQPmL3cb8my0qWaRKy
+E2dGZ3-JtI550SWyp-W5hl4mGekyyGK
+}
+
+!procedure Archiveofourown($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/A/Archiveofourown', $name, $tech, $desc)
+!endprocedure

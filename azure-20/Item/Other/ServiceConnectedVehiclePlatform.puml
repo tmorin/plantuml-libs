@@ -1,0 +1,24 @@
+' definition of the Item azure-20/Item/Other/ServiceConnectedVehiclePlatform
+
+sprite $ServiceConnectedVehiclePlatformXs [10x10/16z] RKd50G0W2AJXzX_OrfV49VqdCvz8dg8gnljGsBELaTcitLp7ZPw3LJMKtdG
+
+sprite $ServiceConnectedVehiclePlatformSm [12x12/16z] VSV50S0m30D0nUpz1suONZsZyCETpzkKyKa4QVZu8mBKLvEDj5b_24JG5LKjROqafWsRZe2EyQe
+
+sprite $ServiceConnectedVehiclePlatformMd [16x16/16z] dOhL0G9134JZ6VelU5t-WBktaepG2oGRTCbER1L06e0T0k3noz3eS60tFeCnPjut69arFGsu6JT3fy5kxYBkRNRj5keTZMbGpAO6_QG2
+
+sprite $ServiceConnectedVehiclePlatformLg [20x20/16z] {
+fSi54WCn34FH62Idzpzmo2uEbFxo6stxEm7yXH0xUIIDx85A7eTznVC8BUBLThZFDl8yqovLlgGnALJ0dbP3Ts-oRvK5V2MoqGgn331r00QaEOdCw3XJKLBi
+vAo_7vFsUHC
+}
+
+!procedure ServiceConnectedVehiclePlatform($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/Other/ServiceConnectedVehiclePlatform', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceConnectedVehiclePlatformCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceConnectedVehiclePlatformLg>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceConnectedVehiclePlatformGroup($id, $name='Service Connected Vehicle Platform', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceConnectedVehiclePlatformLg>', $name, $tech)
+!endprocedure

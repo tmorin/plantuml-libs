@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2025/Resource/IoT/AwsIoTThingTravel
+
+sprite $AwsIoTThingTravelXs [10x10/16z] Oq01BEpix0oeW0qgnCB00A5151k4PcS2ibcPGIoG01EOnZGF
+
+sprite $AwsIoTThingTravelSm [12x12/16z] NOt70G1120973FHVyILVU_Cn0fmKkBPjBOOIo7YclaOsCO3080QylNjCoGHZldzeGlp-yInzvDu
+
+sprite $AwsIoTThingTravelMd [16x16/16z] {
+RS_5OGK020FGX-y_STtx8NgC1zVMoVgiszVNCrtGV5wY5-RKR7JHDkSkImVsk88LkpGiG-0ELjg9EzfDnvmJo67wHAp8L8ExDqOLZMwIWChulFwvfmgWtdec
+F0C
+}
+
+sprite $AwsIoTThingTravelLg [20x20/16z] {
+TT35WGG124JHHpSK-KUylkFpwuIBTvogxOykz9ClTnmWRXcS7P0b4-b2T7QpbZ6eYWpLOKdzrsOBowKM5Ya6ku6SnlROBSGcNHkpbxnZjqLDdIvvZ65Tyr0z
+7DdRF5jep9jxEIQJpFvetlyFr9_W4m
+}
+
+!procedure AwsIoTThingTravel($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Resource/IoT/AwsIoTThingTravel', $name, $tech, $desc)
+!endprocedure
+
+!procedure AwsIoTThingTravelCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTThingTravelLg>', 'IoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTThingTravelGroup($id, $name='Aws Io T Thing Travel', $tech='')
+  IconGroupElement($id, 'IoTFamily', '<$AwsIoTThingTravelLg>', $name, $tech)
+!endprocedure

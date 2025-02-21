@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/H/Hackclub
+
+sprite $HackclubXs [10x10/16z] FSU50S103090wbxsd_RZdWF0yV5TzJDhLpsH3l8EVIQ4LJIzhRMb-sxSJ3kZ8
+
+sprite $HackclubSm [12x12/16z] NOkr0G0W4CH2XSF-q-BwgKu1NCpHqCcRASCoA-YuHyUXmTyJgkUFDez6w4M2Aoi
+
+sprite $HackclubMd [16x16/16z] RSw50O0m40J1nUsb_sgHA7OGcJXNPZ7NRI1ayfh46hXgwUTa2suOFML-MP9X3RReAnwIx12MQbgVlRqylCoVHTGbS8NN-y6ALZW
+
+sprite $HackclubLg [20x20/16z] {
+RSx50G0X34JHmPtqN-qg3l_ua0HV9gHCEJg9agEXB5wY9TrlzTX_BG2ncV_DZqRcOA5RqrIDzQrojI_glSQ90Skzq2ss6TtSmUJ1i5j2_dvLAf5HwZC3GMi0
+z4PllaCo06u
+}
+
+!procedure Hackclub($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/H/Hackclub', $name, $tech, $desc)
+!endprocedure

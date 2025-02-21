@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/M/Mapbox
+
+sprite $MapboxXs [10x10/16z] BOb50e000CAmM_x_MoLsWWq_1rS8cYC38xbefHmQ95utZ3ghbYkyRgM3md_f-
+
+sprite $MapboxSm [12x12/16z] HOm54e0m4CGMT_B_tp81scRaP2LoiEQ3ZxRYqLvNlhNpEDm7c7rYHt_uNw6FB12-VGTthWjPMl-jNByF
+
+sprite $MapboxMd [16x16/16z] {
+LO-50GGX3C2AE-o_RVqbfm5g89JpLW3dFAMflW_texSKFhNjSEQDG3z1jYSP1IVwBUoazMdeuGVWyXQ_cKvRqVONFH68R0dTTVlnAuaDxQXomdEVOjqx5OZz
+hvhNfq4
+}
+
+sprite $MapboxLg [20x20/16z] {
+LOy73i0m20ETlSF_Vrk1QebSzp6iucTSsHME8ZydK8bZK7ccKns8LryATrstc6qgDBRPXAbgIxXfi2s9I01qfQtT09PbseEPG1JERhqbA8kkwYs2M0iUT-od
+xP5SatO4VTnpX6ZKa1SeqnlkBayNwM8SQy87
+}
+
+!procedure Mapbox($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/M/Mapbox', $name, $tech, $desc)
+!endprocedure

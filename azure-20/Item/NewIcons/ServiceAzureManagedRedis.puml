@@ -1,0 +1,27 @@
+' definition of the Item azure-20/Item/NewIcons/ServiceAzureManagedRedis
+
+sprite $ServiceAzureManagedRedisXs [10x10/16z] JOQ50S0m382enF-_Tow522nqEUndyABa2UCmuLgZhX864cTnL5NbMOqVmJZO0G
+
+sprite $ServiceAzureManagedRedisSm [12x12/16z] NOlL0S10348vY-w_RsDVVISH03y8BqxG_zHbXLw0e-Tzet-nTprWwRqx09qzD7hhlRb7kFPMIBHWefSG4ewJtGS
+
+sprite $ServiceAzureManagedRedisMd [16x16/16z] {
+ROy54WGX30GdXlx_lvT9jYYxNcqWXdy4Rv7F1WdYfNYebf-F3KkTvNlJ6K5dAgbz-ZtgE6YVwJS0-CxpKViJhZl3kA_fFYymqrtAYzEEzUglpcz2UWvYFZtl
+27yJiOgK_G
+}
+
+sprite $ServiceAzureManagedRedisLg [20x20/16z] {
+TT055eKW54NH-vgO_tXL-kUnzy82VrC1hAyh5jDdOtxMIQuzwQdqKORJl5yKPPUxcN-OCCIwAG0UHltUMXW4WyvxeO_Lb45bMqIpWbPkPWg8FKOWpubAWGF3
+3BdVCosYZOjQtN9fvklUtaFdth9BmoZmMZTOYfMx4sQcGFJr9FGwppS
+}
+
+!procedure ServiceAzureManagedRedis($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-20/Item/NewIcons/ServiceAzureManagedRedis', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceAzureManagedRedisCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureManagedRedisLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureManagedRedisGroup($id, $name='Service Azure Managed Redis', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureManagedRedisLg>', $name, $tech)
+!endprocedure

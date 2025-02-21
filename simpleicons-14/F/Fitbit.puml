@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/F/Fitbit
+
+sprite $FitbitXs [10x10/16z] NSZ50OK000KWVjg-_QUrcoEWjFd6xgM1Eatws7sbpyxkHRUyXpem0W
+
+sprite $FitbitSm [12x12/16z] PSl55S10481GuZxqNstSzp-ki6kvXP2ICBDdCzA81Pk2h24O3B5oBPHJJT6VBtPiWauiEMNSpcq1
+
+sprite $FitbitMd [16x16/16z] TSUr0SD040315Jx_zb-jwHAJ9Xj2odnGFhJEZuMmM56q4YmV_rHXxYXwDfroQ7og02UKGd4vbR3jx9smE52q4-Q6Cjsvf1U_0m
+
+sprite $FitbitLg [20x20/16z] {
+XT23WKD1003H-MjF_zMUZUIj3TxDnazT0pyavPUBtz85S_AkwCj-IyTxtr2cXgEBTm7e5TRcbvYWUQMJo1wANbF7K8_YQsglJQK1guA7fEafdNyllpkNlipZ
+pLQEHdNpxhpEovguP_JVNVx-qwYyUmG
+}
+
+!procedure Fitbit($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/F/Fitbit', $name, $tech, $desc)
+!endprocedure

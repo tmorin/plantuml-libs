@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-14/F/Fireship
+
+sprite $FireshipXs [10x10/16z] LSQr0OG0002nUtyq-szBXQLADrx77E68pwC-G6Ey8H4YpmAbdcPj
+
+sprite $FireshipSm [12x12/16z] NSR50K81042XPxViFwtjBqwqPEoLuV3h3GwVxe2s5Q3pKEt52aGKBduFh4graMDF
+
+sprite $FireshipMd [16x16/16z] LS-30SG040J0ZPtflzetShQI9oofuAm-hkw0lQRfVku8r3HJTSbSN8baAluGxDl7xyX7Omp2aMnmF3cdDKaF-Fqoql5Sc6rCCcbQGt87
+
+sprite $FireshipLg [20x20/16z] {
+POy54e0m3C2AE_d_RxaQrg3BLXEdaKf7LznAbL0bobUT5DdYJ2z7KXKCsUZAWyYXQk3ZM3FoSISHsJzEUpULpQpIwojt3Ha8jsJNnsbHia5huxqRXr7UqbQG
+Gm-x9ZBcrSRPM-7KF1S
+}
+
+!procedure Fireship($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/F/Fireship', $name, $tech, $desc)
+!endprocedure

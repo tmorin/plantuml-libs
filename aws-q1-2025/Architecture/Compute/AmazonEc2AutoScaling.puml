@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2025/Architecture/Compute/AmazonEc2AutoScaling
+
+sprite $AmazonEc2AutoScalingXs [10x10/16z] OyS56E0i9hWG0mEKPeMpMTaO4EeGUb4
+
+sprite $AmazonEc2AutoScalingSm [12x12/16z] VSR50S1G34EntoJsst_YCfDEubUnop2xlShC805Q4sIs0h0X4GihsNHXTk9k
+
+sprite $AmazonEc2AutoScalingMd [16x16/16z] dSor0SG034DH6V_-4n-6N0LUPHJFj1ZAWs6scLbi344dpeyK0b8IFuv-2SRA9ELCP71t1kEQDm
+
+sprite $AmazonEc2AutoScalingLg [20x20/16z] jOw35G0134DJPl-9ppR_SnlnBnIvF4MgSOMkBXwPkJYXPdeKUf14Ufzf0DfRJBH2QMynBK9T0USCYBjVs1UciZew-0Kb
+
+!procedure AmazonEc2AutoScaling($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q1-2025/Architecture/Compute/AmazonEc2AutoScaling', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonEc2AutoScalingCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonEc2AutoScalingLg>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AmazonEc2AutoScalingGroup($id, $name='Amazon Ec2 Auto Scaling', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2AutoScalingLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,33 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION=".."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-20/bootstrap')
+
+include('azure-20/Item/Compute/ServiceVirtualMachine')
+include('azure-20/Item/AiMachineLearning/ServiceCognitiveServices')
+include('azure-20/Item/Compute/ServiceVmScaleSets')
+include('azure-20/Item/Containers/ServiceContainerRegistries')
+include('azure-20/Item/General/ServiceBlobBlock')
+
+ServiceVirtualMachine('dsvm', 'Microsoft Data Science Virtual Machine (DSVM)')
+ServiceCognitiveServices('mls', 'Azure Machine Learning service')
+ServiceVmScaleSets('mlc', 'Azure Machine Learning compute')
+ServiceContainerRegistries('cr', 'Azure Container Registry')
+ServiceBlobBlock('sb', 'Azure Storage Blobs')
+
+dsvm -> mls : Relationship("Training and test data and script")
+dsvm <- mls : Relationship("Training results")
+mls --> cr : Relationship("Docker container")
+mls <-up-> sb
+mls -> mlc : Relationship("Script execution commands")
+mls <- mlc : Relationship("Status")
+mlc <-up-> sb
+cr -up-> mlc
+
+@enduml

@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-14/P/Processwire
+
+sprite $ProcesswireXs [10x10/16z] 9SR50SC0000XwetU_jD6UG537r2dFmNwY9ffJkcbDL6IZ17ov1VYZaxi
+
+sprite $ProcesswireSm [12x12/16z] 9Og74SH02CJqqTdglrkFXhq3DX4ELmOEehE_oj1NtlMoUiRcLRHWvvQty8j_XjjmnRsWTXpu-1-UUn5KSny
+
+sprite $ProcesswireMd [16x16/16z] {
+FOo54GH12C1oBYlflziVOEwp6epa63R-J8kpL6tRSamTfPraoP-sb4ejQ4tmWatlU4ss-YpH23XXE8NL5cxuzVaJ-IaUuQ_L8plXQxk1rm7f19jItici1ucE
+FlqqPWVP-mC
+}
+
+sprite $ProcesswireLg [20x20/16z] {
+JSm7ie0W303HjM05z_wd_IKOnhM_PAGtdO-ryEdmhKv9VZe6jNdidozjP6g1A-x0b0Xw0ujgxNYiEWKbLgqQGrUQBZc6ARxG9zuVXLa1SdwcnLVhxsdhPKoE
+Zsd-j0BTc2U0NUTXlSLy7ROFOj9ZOZvKPzuSmQW5rBxq2m
+}
+
+!procedure Processwire($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'simpleicons-14/P/Processwire', $name, $tech, $desc)
+!endprocedure
