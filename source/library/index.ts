@@ -12,7 +12,6 @@ import { Eip1Factory } from "./packages/eip-1"
 import { EventstormingFactory } from "./packages/eventstorming"
 import { Fontawesome6Factory } from "./packages/fontawesome-6"
 import { GcpFactory } from "./packages/gcp"
-import { Homecloud2Factory } from "./packages/homecloud-2"
 import { Library, Package } from "../generator/workdir/manifest"
 import { Material4Factory } from "./packages/material-4"
 import { Simpleicons14Factory } from "./packages/simpleicons-14"
@@ -28,7 +27,6 @@ const PACKAGE_FACTORIES = [
   new EventstormingFactory(),
   new Fontawesome6Factory(),
   new GcpFactory(),
-  new Homecloud2Factory(),
   new Material4Factory(),
   new Simpleicons14Factory(),
 ]

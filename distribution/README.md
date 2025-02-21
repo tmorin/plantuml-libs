@@ -2,7 +2,7 @@
 
 ## Packages
 
-The library provides 13 packages.
+The library provides 12 packages.
 
 - [aws-q1-2025](aws-q1-2025/README.md)
 - [azure-20](azure-20/README.md)
@@ -14,7 +14,6 @@ The library provides 13 packages.
 - [eventstorming](eventstorming/README.md)
 - [fontawesome-6](fontawesome-6/README.md)
 - [gcp](gcp/README.md)
-- [homecloud-2](homecloud-2/README.md)
 - [material-4](material-4/README.md)
 - [simpleicons-14](simpleicons-14/README.md)
 

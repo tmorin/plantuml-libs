@@ -52,7 +52,6 @@ The available packages:
 - [Event Storming](distribution/eventstorming/README.md)
 - [Fontawesome (v6)](distribution/fontawesome-6/README.md)
 - [Gougle Compute Platform](distribution/gcp/README.md)
-- [Homecloud](distribution/homecloud-2/README.md)
 - [Material (v4)](distribution/material-4/README.md)
 - [simpleicons (v14)](distribution/simpleicons-14/README.md)
 
