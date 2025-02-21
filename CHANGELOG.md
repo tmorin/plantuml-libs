@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [16.0.0](https://github.com/tmorin/plantuml-libs/compare/v15.0.3...v16.0.0) (2025-02-21)
+
+
+### ⚠ BREAKING CHANGES
+
+* **aws-q1-2025:** the package `aws-q2-2024` has been removed from the distribution
+* **azure-20:** the package `azure-19` has been removed from the distribution
+* **simpleicons-14:** the package is `simpleicons-8` is removed from the distribution
+
+### Features
+
+* **aws-q1-2025:** add the package in replacement of `aws-q2-2024` ([d5db9cd](https://github.com/tmorin/plantuml-libs/commit/d5db9cdf433c4b36594461f998cac821aa6c3667))
+* **azure-20:** add the package in replacement of `azure-19` ([f24a4ae](https://github.com/tmorin/plantuml-libs/commit/f24a4aea937b7a8d1a2ac6399d0db867e5026661))
+* **c4model:** refresh the package ([ddacf4c](https://github.com/tmorin/plantuml-libs/commit/ddacf4c4960cfb9bd89c22c89fac869f6611794a))
+* **c4nord:** refresh the package ([b26baf9](https://github.com/tmorin/plantuml-libs/commit/b26baf9c25a4d5706da9942b71b4443cdfff60de))
+* **gcp:** refresh the package ([555cb6a](https://github.com/tmorin/plantuml-libs/commit/555cb6ac54d6a1b7176c757989a0a6e2beb778c4))
+* **simpleicons-14:** add the package in replacement of `simpleicons-8` ([0538e4d](https://github.com/tmorin/plantuml-libs/commit/0538e4d27605faddd552a8472a1b9bf8b1d4412c))
+
 ### [15.0.3](https://github.com/tmorin/plantuml-libs/compare/v15.0.2...v15.0.3) (2025-02-07)
 
 ### [15.0.2](https://github.com/tmorin/plantuml-libs/compare/v15.0.1...v15.0.2) (2025-02-06)
