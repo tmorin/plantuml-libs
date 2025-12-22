@@ -33,17 +33,20 @@ git checkout -b feat/upgrade-aws-<new-version>
 ### 4. Rename the sources in `source/library/packages`
 - Rename the existing AWS package folder to the new versioned folder (e.g., rename `aws-<old>` to `aws-<new>`).
 - Update all references in the renamed folder from the old version to the new version (folder names, file names, and inside files).
+- **Important**: If there are nested folders with the old version name (e.g., `aws-<new>/aws-<old>`), flatten the structure by moving contents up and removing empty directories.
 
-### 5. Rename the sources in `source/library/templates`
-- If there are AWS-specific templates in `source/templates/aws-<version>`, rename them for the new version.
-- Update references inside the renamed templates to match the new version.
+### 5. Rename and update templates in `source/library/templates`
+- Copy the AWS-specific templates folder from the old version: `source/templates/aws-<old>` → `source/templates/aws-<new>`.
+- Update all references inside the renamed templates from `aws-<old>` to `aws-<new>`.
+- **Critical**: Example templates are located here (e.g., `source/templates/aws-<version>/examples/`). Ensure they are copied and updated correctly, as missing examples will cause the pipeline to fail with template rendering errors.
 
 ### 6. Replace all references to the old AWS version
 - Perform a global search and replace: change all occurrences of `aws-<old-version>` to `aws-<new-version>` in the following locations:
   - All files and subfolders under `./doc`
-  - All files and subfolders under `./source`
+  - All files and subfolders under `./source` (including the library index)
   - All files and subfolders under `./test`
   - The file `./README.md`
+- **Note**: Do not forget to update the class name in the factory (e.g., `AwsQ12024Factory` → `AwsQ32025Factory`) and the corresponding import in `source/library/index.ts`.
 
 ### 7. Ensure `FOLDER_DATE` and `ICONS_URL` are accurate
 - In the new package's `index.ts`, update any constants or metadata for the release date and the official AWS icons URL.
@@ -67,7 +70,14 @@ git push --set-upstream origin feat/upgrade-aws-<new-version>
 ```
 
 ### 11. Trigger the Package Builder pipeline
-- Trigger the Package Builder pipeline on the working branch.
+- Use the GitHub CLI to trigger the workflow on your branch:
+```bash
+gh workflow run package-builder.yaml -f pkgName=aws-<new-version> -f pkgVersion=<new-version> --ref <your-branch>
+```
+- The pipeline will:
+  1. Generate the work directory
+  2. Render all PlantUML diagrams and examples
+  3. Push generated distribution files back to the branch
 
 ### 12. Review the pipeline output and logs
 - Ensure the pipeline completes without errors.
@@ -93,7 +103,25 @@ If the pull fails due to conflicts, perform a rebase and resolve any conflicts.
 ---
 
 ## Troubleshooting
-- If the Package Builder pipeline creates a commit, you may need to use `git push --force` to update your branch.
+
+### Pipeline fails with "unable to render" error
+- **Cause**: Missing or incorrectly referenced example templates.
+- **Solution**: Ensure `source/templates/aws-<new-version>/examples/` folder exists with all required `.tera` files, and that all references inside these files have been updated to use the new version string.
+
+### Nested folder structure after renaming
+- **Cause**: Package folder structure has nested folders with the old version name.
+- **Solution**: Flatten the structure by moving all files from the nested folder to the parent and removing the empty nested directory.
+
+### TypeScript compilation errors
+- **Cause**: Factory class name or imports not updated correctly.
+- **Solution**: 
+  - Verify the factory class name matches the pattern (e.g., `AwsQ32025Factory`)
+  - Update `source/library/index.ts` with the correct import and factory instantiation
+
+### Pipeline creates a commit
+- If the Package Builder pipeline creates a commit, you may need to use `git pull` to sync or `git push --force` if you want to override.
+
+### General issues
 - For more details on the build process, see [doc/howto.build-package.md](./howto.build-package.md) and [doc/explanation.package.md](./explanation.package.md).
 - If `.workdir/library.yaml` or `.workdir/.cache` do not match expectations, review your changes to sources and templates.
 
