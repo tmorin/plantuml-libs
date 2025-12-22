@@ -119,6 +119,22 @@ If the pull fails due to conflicts, perform a rebase and resolve any conflicts.
 
 ---
 
+## Lessons Learned
+
+### Expected Pipeline Failures
+- **Pipeline fails with "nothing to commit, working tree clean"** - This is **normal and expected** behavior when Google has not released new icons since the last upgrade.
+- The Package Builder pipeline will fail at the commit step if there are no changes to the distribution files.
+- This indicates the GCP package is already up-to-date with the latest available icons from Google Cloud.
+- Simply triggering the upgrade process and observing this failure confirms that no new icons need to be integrated.
+
+### Key Insights
+- The GCP package does not use versioning (unlike AWS packages). It always fetches the latest icons from Google's official source.
+- The upgrade workflow is designed to be idempotent - running it multiple times produces the same result.
+- If the pipeline fails due to "nothing to commit", the package is successfully up-to-date; no further action is required.
+- The workdir generation (`npm run generate:workdir -- -p gcp`) is the most important step as it validates the icon discovery and factory logic.
+
+---
+
 ## Troubleshooting
 
 ### Pipeline fails with "unable to render" error
