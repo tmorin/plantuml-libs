@@ -16,6 +16,8 @@ import {
   unifyItems,
 } from "../../../generator/workdir/discovery"
 
+// https://aws.amazon.com/architecture/icons/
+
 const FOLDER_DATE = "02072025"
 const ICONS_URL = `https://d1.awsstatic.com/webteam/architecture-icons/q1-2025/Asset-Package_02072025.dee42cd0a6eaacc3da1ad9519579357fb546f803.zip`
 
