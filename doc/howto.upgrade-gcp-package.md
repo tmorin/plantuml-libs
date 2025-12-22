@@ -121,7 +121,12 @@ If the pull fails due to conflicts, perform a rebase and resolve any conflicts.
 
 ## Lessons Learned
 
-### Expected Pipeline Failures
+### Workflow Design and Idempotency
+- The package upgrade workflow is designed to be **idempotent** - running it multiple times produces the same result.
+- The process is structured to be **small and reviewable**: each step builds on the previous one with clear validation points.
+- **Key validation point**: Workdir generation (`npm run generate:workdir`) is the most critical step as it validates icon discovery, factory logic, and template rendering before the pipeline executes.
+
+### GCP-Specific: Handling No-Change Scenarios
 - **Pipeline fails with "nothing to commit, working tree clean"** - This is **normal and expected** behavior when Google has not released new icons since the last upgrade.
 - The Package Builder pipeline will fail at the commit step if there are no changes to the distribution files.
 - This indicates the GCP package is already up-to-date with the latest available icons from Google Cloud.
@@ -129,9 +134,12 @@ If the pull fails due to conflicts, perform a rebase and resolve any conflicts.
 
 ### Key Insights
 - The GCP package does not use versioning (unlike AWS packages). It always fetches the latest icons from Google's official source.
-- The upgrade workflow is designed to be idempotent - running it multiple times produces the same result.
 - If the pipeline fails due to "nothing to commit", the package is successfully up-to-date; no further action is required.
-- The workdir generation (`npm run generate:workdir -- -p gcp`) is the most important step as it validates the icon discovery and factory logic.
+- The upgrade workflow is designed to safely handle both scenarios: new icons available and no changes since last upgrade.
+
+### Cross-Package Lessons
+- For comparison on versioned package upgrades (like AWS), see [howto.upgrade-aws-package.md](./howto.upgrade-aws-package.md).
+- Both AWS and GCP guides share common troubleshooting patterns for template errors, factory class updates, and pipeline lifecycle management.
 
 ---
 

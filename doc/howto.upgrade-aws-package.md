@@ -102,6 +102,29 @@ If the pull fails due to conflicts, perform a rebase and resolve any conflicts.
 
 ---
 
+## Lessons Learned
+
+### Workflow Design and Idempotency
+- The package upgrade workflow is designed to be **idempotent** - running it multiple times produces the same result.
+- The process is structured to be **small and reviewable**: each step builds on the previous one with clear validation points.
+- **Key validation point**: Workdir generation (`npm run generate:workdir`) is the most critical step as it validates icon discovery, factory logic, and template rendering before the pipeline executes.
+
+### Common Troubleshooting Patterns
+- **Template-related failures are the most common** pipeline issues (missing files, broken references, or incorrect version strings).
+- **Factory class updates** are critical when upgrading to new versions - the class name, imports, and exports must all be synchronized.
+- **Search and replace operations** across the codebase are error-prone; use your editor's refactoring tools when possible.
+
+### Pipeline Lifecycle
+- The pipeline may create commits for generated distribution files. This is expected behavior when there are changes.
+- Pipeline failures can be legitimate (errors to fix) or expected (e.g., no changes available).
+- Always review pipeline logs carefully to distinguish between actionable errors and expected outcomes.
+
+### Cross-Package Lessons
+- For comparison on handling packages without versioning (like GCP), see [howto.upgrade-gcp-package.md](./howto.upgrade-gcp-package.md).
+- That guide documents handling cases where pipeline fails due to "nothing to commit" - a scenario indicating the package is already up-to-date.
+
+---
+
 ## Troubleshooting
 
 ### Pipeline fails with "unable to render" error
