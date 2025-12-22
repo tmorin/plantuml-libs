@@ -1,0 +1,24 @@
+' definition of the Item aws-q3-2025/Architecture/Games/AmazonGameLiftStreams
+
+sprite $AmazonGameLiftStreamsXs [10x10/16z] uy0Ec3cOO4nM5Wu64Cq09bauuE9W7ZC3J8o9aPs15I8350CYE
+
+sprite $AmazonGameLiftStreamsSm [12x12/16z] VOp50S0m30FDqluBbxb9xcCGS41gFWxYs8g6E9z6Fzvw6Kc0cgKeRaYvr17PEeyTMzkB6G
+
+sprite $AmazonGameLiftStreamsMd [16x16/16z] dOkr0GD14CHs5jL_myQ7YmolR41S8RErvev1TSH2aSAtEDq9OZOdg2W3jaUpiMK1rYRhs8IUCQD2vrDoanrv2We_iX9Gy9Kx
+
+sprite $AmazonGameLiftStreamsLg [20x20/16z] {
+fSYrWGCm400m7_cq_yBFc3OgvNbRxK4DUHzE4TQliHFT73_ktMZ5ML-E0uLf7mQPMI1zA7-C3tSWAjvKyQ53rvvMgltAEtdhRkoVwyZT4_Ftp1B-tjI1E9xp
+2W
+}
+
+!procedure AmazonGameLiftStreams($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2025/Architecture/Games/AmazonGameLiftStreams', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonGameLiftStreamsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonGameLiftStreamsLg>', 'Games', $funcName, $content)
+!endprocedure
+
+!procedure AmazonGameLiftStreamsGroup($id, $name='Amazon Game Lift Streams', $tech='')
+  IconGroupElement($id, 'GamesFamily', '<$AmazonGameLiftStreamsLg>', $name, $tech)
+!endprocedure

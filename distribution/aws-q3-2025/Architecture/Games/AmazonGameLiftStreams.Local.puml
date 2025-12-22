@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q3-2025/bootstrap')
+
+' loads the Item which embeds the element AmazonGameLiftStreams
+include('aws-q3-2025/Architecture/Games/AmazonGameLiftStreams')
+
+' renders the element
+AmazonGameLiftStreams('AmazonGameLiftStreams', 'Amazon Game Lift Streams', 'an optional tech label', 'an optional description')
+@enduml

@@ -1,0 +1,21 @@
+' definition of the Item aws-q3-2025/Architecture/ArtificialIntelligence/AmazonNova
+
+sprite $AmazonNovaXs [10x10/16z] uy05691ePXYJ6K8Zap25p2XwK
+
+sprite $AmazonNovaSm [12x12/16z] VOo30G0n300Rt_uBlurUJBe86m5rxQQTUTMQhS6JXQInONhvX7EIF1a1
+
+sprite $AmazonNovaMd [16x16/16z] dSYt4SH02030Sy3sN_57DuGlQV7uQ6Z1ASerRSkc7tQVPu9HzEm_2JEuTZ5TjGrXQdL0cvxv0G
+
+sprite $AmazonNovaLg [20x20/16z] hSwr0GCn44JHnPdVVyDcTdelafOvnF97yLzI5eYtW25Hyo61_WxH0No6L8-Vg_tO4EPfubtuhFVlTS4djOJ9hn0K_Lj9Z_dbu0Xd
+
+!procedure AmazonNova($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2025/Architecture/ArtificialIntelligence/AmazonNova', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonNovaCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonNovaLg>', 'ArtificialIntelligence', $funcName, $content)
+!endprocedure
+
+!procedure AmazonNovaGroup($id, $name='Amazon Nova', $tech='')
+  IconGroupElement($id, 'ArtificialIntelligenceFamily', '<$AmazonNovaLg>', $name, $tech)
+!endprocedure
