@@ -1,12 +1,12 @@
 {% extends "package_example.tera" %}
 
 {% block content %}
-include("aws-q1-2025/Group/GroupAwsCloud")
-include("aws-q1-2025/Group/GroupAvailabilityZone")
-include("aws-q1-2025/Group/GroupVpc")
-include("aws-q1-2025/Group/GroupPublicSubnet")
-include("aws-q1-2025/Resource/Compute/AmazonEc2Instance")
-include("aws-q1-2025/Resource/NetworkingContentDelivery/AmazonVpcInternetGateway")
+include("aws-q3-2025/Group/GroupAwsCloud")
+include("aws-q3-2025/Group/GroupAvailabilityZone")
+include("aws-q3-2025/Group/GroupVpc")
+include("aws-q3-2025/Group/GroupPublicSubnet")
+include("aws-q3-2025/Resource/Compute/AmazonEc2Instance")
+include("aws-q3-2025/Resource/NetworkingContentDelivery/AmazonVpcInternetGateway")
 
 GroupAwsCloud('aws') {
     GroupAvailabilityZone('az') {
