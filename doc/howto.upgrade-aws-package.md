@@ -36,7 +36,7 @@ git checkout -b feat/upgrade-aws-<new-version>
 - **Important**: If there are nested folders with the old version name (e.g., `aws-<new>/aws-<old>`), flatten the structure by moving contents up and removing empty directories.
 
 ### 5. Rename and update templates in `source/library/templates`
-- Copy the AWS-specific templates folder from the old version: `source/templates/aws-<old>` → `source/templates/aws-<new>`.
+- Rename the AWS-specific templates folder from the old version: `source/templates/aws-<old>` → `source/templates/aws-<new>`.
 - Update all references inside the renamed templates from `aws-<old>` to `aws-<new>`.
 - **Critical**: Example templates are located here (e.g., `source/templates/aws-<version>/examples/`). Ensure they are copied and updated correctly, as missing examples will cause the pipeline to fail with template rendering errors.
 

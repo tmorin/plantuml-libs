@@ -34,7 +34,7 @@ git checkout -b feat/upgrade-azure-<new-version>
 
 ### 4. Create a new Azure package version folder
 - If upgrading to a new version, create a new folder: `source/library/packages/azure-{NEW_VERSION}` (e.g., `azure-21`).
-- Copy the contents from the previous version folder (e.g., `azure-20`) as a starting point.
+- Rename the contents from the previous version folder (e.g., `azure-20`) as a starting point.
 - Update the `ICONS_VERSION` constant in the new folder's `index.ts` to match the new version number.
 - Update the factory class name from `AzureV{OLD_VERSION}Factory` to `AzureV{NEW_VERSION}Factory` (e.g., `AzureV20Factory` → `AzureV21Factory`).
 
@@ -47,7 +47,7 @@ git checkout -b feat/upgrade-azure-<new-version>
   ```
 
 ### 6. Update templates in `source/templates/azure-{NEW_VERSION}` (if needed)
-- Copy the templates folder from the old version: `source/templates/azure-{OLD_VERSION}` → `source/templates/azure-{NEW_VERSION}`.
+- Rename the templates folder from the old version: `source/templates/azure-{OLD_VERSION}` → `source/templates/azure-{NEW_VERSION}`.
 - Review `source/templates/azure-{NEW_VERSION}/bootstrap.tera` to ensure it's compatible with the current Azure icons.
 - Check `source/templates/azure-{NEW_VERSION}/examples/` for any example templates that reference outdated icons or concepts.
 - If the icon paths or category structure has changed significantly, update the example templates accordingly.
