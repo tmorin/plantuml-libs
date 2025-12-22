@@ -89,6 +89,7 @@ gh workflow run package-builder.yaml -f pkgName=azure-<new-version> -f pkgVersio
   1. Generate the work directory
   2. Render all PlantUML diagrams and examples
   3. Push generated distribution files back to the branch
+- The processing can take several minutes, a looping status check is recommended.
 
 ### 12. Review the pipeline output and logs
 - Ensure the pipeline completes without errors.
