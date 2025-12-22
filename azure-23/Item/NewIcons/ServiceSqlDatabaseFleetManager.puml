@@ -1,0 +1,24 @@
+' definition of the Item azure-23/Item/NewIcons/ServiceSqlDatabaseFleetManager
+
+sprite $ServiceSqlDatabaseFleetManagerXs [10x10/16z] JOYt0S1048EuMCZxp-lyWKO27eAFh2f6AMD7sOQr6uU48JqlB2o_9-bvy3nWlGi
+
+sprite $ServiceSqlDatabaseFleetManagerSm [12x12/16z] JSZ50S104CD0BHqu_TSR9ht6vYnuggp8sncKtNS3sZaYml08trdka-xUTqjkHfSkzr5vUv4q3lCtd3xrUGC
+
+sprite $ServiceSqlDatabaseFleetManagerMd [16x16/16z] NSU50S0m3CH06JuDx3zlcHMmZxFWbU727uUKqcCNy5WbWLBieBcz1bQcAUqO3enMMnlxw6DpxnDcHk-NBLKKVhls3FLuUUjqUrdi7JQk_jPkjXO
+
+sprite $ServiceSqlDatabaseFleetManagerLg [20x20/16z] {
+bSi55aCX34JHcHYs__qsfExj_GAy772XUAAEU-RbFhiJwlPySGykFA8c4SHRL4iAq3P1chG8POFJ8qIPRQsvTUGwvboN1f24pfi6CNCp-arJfIZPxRRbbzQd
+bkjj6pWvDwH_6terHJa
+}
+
+!procedure ServiceSqlDatabaseFleetManager($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-23/Item/NewIcons/ServiceSqlDatabaseFleetManager', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceSqlDatabaseFleetManagerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceSqlDatabaseFleetManagerLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceSqlDatabaseFleetManagerGroup($id, $name='Service Sql Database Fleet Manager', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceSqlDatabaseFleetManagerLg>', $name, $tech)
+!endprocedure

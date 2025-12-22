@@ -1,0 +1,24 @@
+' definition of the Item azure-23/Item/NewIcons/ServiceHybridConnectivityHub
+
+sprite $ServiceHybridConnectivityHubXs [10x10/16z] FSQ14G0n14JH0EY_uMDtvdw2z-fwMtV_aXOAKRglPpMzdMPiJ4HMMybsKhOIGny
+
+sprite $ServiceHybridConnectivityHubSm [12x12/16z] HSO15W0X101H0Dp_m5lXxHG--0jk4N7DRLJ6jP-_PZSEbzyHT9nnQcUo2GiY7B_mzAnCtJ7G55N0qmS
+
+sprite $ServiceHybridConnectivityHubMd [16x16/16z] JSe55W0X24LH6hxxt-y4JFZCwv7oYQQikyirlc2PjZdOa_LtnJqtUy_NIF4KAm3SdlztqaPDOo0rIgtugWs_PhCz2NTZLtbZB83ahwrRQotw7-G4
+
+sprite $ServiceHybridConnectivityHubLg [20x20/16z] {
+TSW73iGm20H0YWEx-Vz_qz5XIpVg8oEBb46WrE6-VFHp3PX6iftf1bqE0MHWkjBFBM2M89dp1IwqzuZIZkjnv_20UyBKnk-Ir-dZkvVhgrtgSfjRyvxOvF-f
+Tx9VHApN2G
+}
+
+!procedure ServiceHybridConnectivityHub($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-23/Item/NewIcons/ServiceHybridConnectivityHub', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceHybridConnectivityHubCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceHybridConnectivityHubLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceHybridConnectivityHubGroup($id, $name='Service Hybrid Connectivity Hub', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceHybridConnectivityHubLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item azure-23/Item/NewIcons/ServiceScheduledActions
+
+sprite $ServiceScheduledActionsXs [10x10/16z] NOg50G0n20ElXku_xxlsS18-oCQnnC6qMU_ztDhHAvoQCZXjGISt2k0Sz26i
+
+sprite $ServiceScheduledActionsSm [12x12/16z] LOn70i1G14JzXd7_0oTQobinZNvC9kOyJVd69EuaxuErLjqm07LF-81gvwUhAs_rM_fcluT3pg52vD05
+
+sprite $ServiceScheduledActionsMd [16x16/16z] TSc33GG05C3GVcF_VS_62vloJSH3v5vLUL75nMvVxDxxJdwtQtDY_txeSE8wBSy_WoBvQENKc3y-113tRl3NHZWfvyuCCdWbfpm2
+
+sprite $ServiceScheduledActionsLg [20x20/16z] {
+dSi53W9030NHMQbo__FYqCNbnPf9Foz9vuwULCWCFSdCIoj_j3w3WxuqyPW7McqHjHsdkw7f_TJKGWw6CEZMbYq21asgXN9i-BWsJo0xp5b_3dC0DjbSjCvH
+T8es01DMCyIqKlK6Em
+}
+
+!procedure ServiceScheduledActions($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-23/Item/NewIcons/ServiceScheduledActions', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceScheduledActionsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceScheduledActionsLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceScheduledActionsGroup($id, $name='Service Scheduled Actions', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceScheduledActionsLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item azure-23/Item/NewIcons/ServiceStageMaps
+
+sprite $ServiceStageMapsXs [10x10/16z] NSd70G112090pDf_mHStpqS1_1YDcVsFHWJz7wg-XHKlV-2NYPCqnDhT
+
+sprite $ServiceStageMapsSm [12x12/16z] PSh50G0m20D07FPVkEwz5oI1YVQbgkD4AyOj717rO0GP-xB4SZTjEepbXwPoumIiMmO
+
+sprite $ServiceStageMapsMd [16x16/16z] PSZ50G0W3C30Uc7_WN7dVWbiI73IuaYoQYMhLwi5Gi57bq5Ge8XmxK4htctLJl1GmC7ZaJ-a3KlpQUGcTii
+
+sprite $ServiceStageMapsLg [20x20/16z] XSs53S1030D0FuJs7xXC0Qad3jXmUaVGvYPCwU16WmyDhpdbu6OGtGZS36fcRrq_Pg6kkndnOGoy-BIDNbqES4Gt21fr_6lTmsO43PK-2voj
+
+!procedure ServiceStageMaps($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-23/Item/NewIcons/ServiceStageMaps', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceStageMapsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceStageMapsLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceStageMapsGroup($id, $name='Service Stage Maps', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceStageMapsLg>', $name, $tech)
+!endprocedure

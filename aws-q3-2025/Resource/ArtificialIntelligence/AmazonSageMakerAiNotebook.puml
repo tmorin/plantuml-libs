@@ -1,0 +1,21 @@
+' definition of the Item aws-q3-2025/Resource/ArtificialIntelligence/AmazonSageMakerAiNotebook
+
+sprite $AmazonSageMakerAiNotebookXs [10x10/16z] Oq02p50AbSK1142AXOs12GY0B7OEg2mc2wmEhfU54GoO0G
+
+sprite $AmazonSageMakerAiNotebookSm [12x12/16z] Oq01x8nG06Hpi36o0m4BM9mPIGq3CXkXXWD9WeE5WPaPgteKDGXn66
+
+sprite $AmazonSageMakerAiNotebookMd [16x16/16z] TOs50G0X548nOV-5B-nyvY_0ZjWGFZYKlcDfO1CcnPvkgYD-kOHDCHMtEXC-nHBd-XTA6lmi2bU_mirlZZc05m
+
+sprite $AmazonSageMakerAiNotebookLg [20x20/16z] bS-53SHG30DGExp_mWUDoln47u8unbhHuKqn6c-UwR1e2fx5gOTktw0AH3KRtsoNQn46IkEY1qVzbbM9sHpdcSdnxJnkz2fkd6zskWTeNB2k92l05m
+
+!procedure AmazonSageMakerAiNotebook($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'aws-q3-2025/Resource/ArtificialIntelligence/AmazonSageMakerAiNotebook', $name, $tech, $desc)
+!endprocedure
+
+!procedure AmazonSageMakerAiNotebookCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonSageMakerAiNotebookLg>', 'ArtificialIntelligence', $funcName, $content)
+!endprocedure
+
+!procedure AmazonSageMakerAiNotebookGroup($id, $name='Amazon Sage Maker Ai Notebook', $tech='')
+  IconGroupElement($id, 'ArtificialIntelligenceFamily', '<$AmazonSageMakerAiNotebookLg>', $name, $tech)
+!endprocedure
