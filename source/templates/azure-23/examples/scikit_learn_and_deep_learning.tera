@@ -1,11 +1,11 @@
 {% extends "package_example.tera" %}
 
 {% block content %}
-include('azure-20/Item/Compute/ServiceVirtualMachine')
-include('azure-20/Item/AiMachineLearning/ServiceCognitiveServices')
-include('azure-20/Item/Compute/ServiceVmScaleSets')
-include('azure-20/Item/Containers/ServiceContainerRegistries')
-include('azure-20/Item/General/ServiceBlobBlock')
+include('azure-23/Item/Compute/ServiceVirtualMachine')
+include('azure-23/Item/AiMachineLearning/ServiceCognitiveServices')
+include('azure-23/Item/Compute/ServiceVmScaleSets')
+include('azure-23/Item/Containers/ServiceContainerRegistries')
+include('azure-23/Item/General/ServiceBlobBlock')
 
 ServiceVirtualMachine('dsvm', 'Microsoft Data Science Virtual Machine (DSVM)')
 ServiceCognitiveServices('mls', 'Azure Machine Learning service')
