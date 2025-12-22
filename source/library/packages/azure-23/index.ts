@@ -30,6 +30,7 @@ export class AzureV23Factory implements PackageFactory {
           .replace(/^\d*/g, "")
           .replace(/^\d*/g, "")
           .replace(/icon-/g, "")
+          .replace(/\s*\([^)]*\)/g, "")
           .replace(/\.svg$/g, ""),
       )
       .map(toCamelCase)
