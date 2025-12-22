@@ -1,0 +1,21 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-23/bootstrap')
+
+' loads the Item which embeds the element ServiceStorageHubsGroup
+include('azure-23/Item/NewIcons/ServiceStorageHubs')
+
+' renders the element
+ServiceStorageHubsGroup('ServiceStorageHubsGroup', 'Service Storage Hubs Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

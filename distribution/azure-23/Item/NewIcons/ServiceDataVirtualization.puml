@@ -1,0 +1,24 @@
+' definition of the Item azure-23/Item/NewIcons/ServiceDataVirtualization
+
+sprite $ServiceDataVirtualizationXs [10x10/16z] HSor0G0n400WedVPV-1twQYW0KG4q3BJAAsore0EmhWK7gYc08DXpacBwRzavWu
+
+sprite $ServiceDataVirtualizationSm [12x12/16z] DSm70GCW40ImCFuF_0lkRWI4pLzt0-maawg5Smx569WAqmQYcD0K6q8B40kr6ZKeAmbMB_Av0VVU9m
+
+sprite $ServiceDataVirtualizationMd [16x16/16z] JSt50SGm300mrPHc_u6FeNgPJQIhUU0driF00UfyM6Hd5JppL8tZNTZPWeF2ov3rooj4zkzp3_LCoykYnYcyH8l1u6KWGiyCh8DePZt0h6ci9txE9nTxxxW3
+
+sprite $ServiceDataVirtualizationLg [20x20/16z] {
+NT150aCX303HYPVx7xYIz1kpV3Y06LkUtpQhZdj-cKLucxqw848mLu2c-X60E01hhGebw5pu9wc0ExXof6MpsW_9H8Vii4eOyeEyXb8vY5A812tbg804q114
+sZ9WLciU7o8bWCVn8OrMDSDs_oGn0P3ZG-ur9HkkLNm
+}
+
+!procedure ServiceDataVirtualization($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-23/Item/NewIcons/ServiceDataVirtualization', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceDataVirtualizationCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDataVirtualizationLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDataVirtualizationGroup($id, $name='Service Data Virtualization', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDataVirtualizationLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,27 @@
+' definition of the Item azure-23/Item/NewIcons/ServiceOperationCenter
+
+sprite $ServiceOperationCenterXs [10x10/16z] LS7H0G5H40ImW7qpst-_kCzBtBG1NMzvi6Dc9CDSaC_vcou9UZYHra9v56W_-04
+
+sprite $ServiceOperationCenterSm [12x12/16z] NSa74W8m24JHdmOizp-mo-WqNqBddrHyfGvP2slntgEAqvimvtAwEI3cbeDkV3j0zeMpVTeImUovskXYKqhyf3Rs0G
+
+sprite $ServiceOperationCenterMd [16x16/16z] {
+RS_50KHH24FH-mH8wB_VSPz_jcWuPXTlPPSqk1lT2PJkBMep8u8fJUXUxBo8MqiQPjx1L6YmwmvM8nLrXxjXIzpixWclItQn00LBiZsG0IIGW-ddeFFMFpxZ
+l0FTMxWx0m
+}
+
+sprite $ServiceOperationCenterLg [20x20/16z] {
+VSm7aWKW20JHngymm_qFlB8vFqEbhk4V8H--AbyAFgos5oabRznTh1r8h-dkTd2kpPcKYH9E3fXqdJQGhm8ctS3EDrpQAbZr1bOt9HtgLRxEFpHf31vk1qEJ
+3hkBeM19ciY6pLKIyzdUqCruJ1HoGTh12rbSOITlPcgHLl2PhyCtAtdp1
+}
+
+!procedure ServiceOperationCenter($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-23/Item/NewIcons/ServiceOperationCenter', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceOperationCenterCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceOperationCenterLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceOperationCenterGroup($id, $name='Service Operation Center', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceOperationCenterLg>', $name, $tech)
+!endprocedure

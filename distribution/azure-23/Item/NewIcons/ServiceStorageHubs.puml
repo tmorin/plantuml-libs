@@ -1,0 +1,24 @@
+' definition of the Item azure-23/Item/NewIcons/ServiceStorageHubs
+
+sprite $ServiceStorageHubsXs [10x10/16z] Os3YX0069aOeOE5av800HbmiTcOs20kibGaYoyA6eew11MeU9m
+
+sprite $ServiceStorageHubsSm [12x12/16z] JSg50G0n30B0EB3_mE_IgqJDzA0P_IKvUCkKCulPu8HytlwHyr5dxltjj6wnxFIPznpttA7dtBnC6RVI3W
+
+sprite $ServiceStorageHubsMd [16x16/16z] VSl70SGW34HHPStqN_2kSxOV5q3w8iMTYx1ius2LxczLqWox-UtGzgoUttgPQt3rqYlygq-kRDxlyVJU9m93Fh_zqBVIeKSKdiGV
+
+sprite $ServiceStorageHubsLg [20x20/16z] {
+VOrL0aG1209juVu7tWwV6_Efm8WO3xI8DBice1br4PUiseobAbbQcFZjrd1efqVsuxPpThiP-2RrSPlySoZywgZ_3fqEk-_55qSZuEZ8wk78oxMonYstew7g
+Wwj367g44EC2SWO
+}
+
+!procedure ServiceStorageHubs($id, $name="", $tech="", $desc="")
+  IconElement($id, 'IconElement', 'azure-23/Item/NewIcons/ServiceStorageHubs', $name, $tech, $desc)
+!endprocedure
+
+!procedure ServiceStorageHubsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceStorageHubsLg>', 'NewIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServiceStorageHubsGroup($id, $name='Service Storage Hubs', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceStorageHubsLg>', $name, $tech)
+!endprocedure
