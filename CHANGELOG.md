@@ -2,6 +2,49 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [17.0.0](https://github.com/tmorin/plantuml-libs/compare/v16.0.0...v17.0.0) (2025-12-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* **azure:** azure-20 is replaced by azure-23
+
+This upgrade introduces Microsoft Azure Icons v23 with 705 icons and 7 custom groups.
+The old azure-20 package is no longer available and should be replaced with azure-23 in all diagrams.
+* **aws:** aws-q1-2025 is replaced by aws-q3-2025
+
+### Features
+
+* add script to fetch the latest AWS Icon Package and update package dependencies ([e6d5ca9](https://github.com/tmorin/plantuml-libs/commit/e6d5ca9a96d1b1f7ee52d44836d967c1df89252b))
+* add upgrade prompt for AWS package maintenance agent ([8acd8cc](https://github.com/tmorin/plantuml-libs/commit/8acd8cc2bb81afe3e15243686781278c3ea8166f))
+* **aws-q3-2025:** upgrade to q3-2025 ([cb684d6](https://github.com/tmorin/plantuml-libs/commit/cb684d63b00e05363d25e26b58a450e85e21f98f))
+* **aws:** add AWS package upgrading skill documentation ([418527b](https://github.com/tmorin/plantuml-libs/commit/418527bc564797678ac8d803edb4f3e2f1f4ce42))
+* **aws:** upgrade to aws-q3-2025 icons ([ff0fa4f](https://github.com/tmorin/plantuml-libs/commit/ff0fa4f28b4844d419cd5447e27ea3812cc6df2e))
+* **azure-23:** upgrade to 23 ([6538510](https://github.com/tmorin/plantuml-libs/commit/653851068e10af354d2d852d79072e2305b9f283))
+* **azure:** add script to fetch latest Azure icon package ([c12248c](https://github.com/tmorin/plantuml-libs/commit/c12248ce519b60e96f2ea810a8bcc13315d6b7fb))
+* **azure:** add upgrade guide and prompt for Azure package ([0612c31](https://github.com/tmorin/plantuml-libs/commit/0612c31a5d6e6dfd0ba710727c10d6fcf70dc28a))
+* **azure:** upgrade to v23 icons ([933d3e5](https://github.com/tmorin/plantuml-libs/commit/933d3e5d09681e82fd48bd7c03227b00f6f79cf0))
+* **docs:** add documentation for GitHub Copilot agents in plantuml-libs ([326853a](https://github.com/tmorin/plantuml-libs/commit/326853a8c786e7ad9aaa4a454fd4d702ebfba1fd))
+* **docs:** add explanation of package build process and key concepts ([d15c411](https://github.com/tmorin/plantuml-libs/commit/d15c411efefb97642b8d3b9183d5ab5bcd7f4a09))
+* **docs:** add guide for upgrading the AWS package ([36e3b28](https://github.com/tmorin/plantuml-libs/commit/36e3b288607917136d5f097bb594872349bd3013))
+* **docs:** add guidelines for upgrading npm dependencies and Copilot instructions ([c5c50cd](https://github.com/tmorin/plantuml-libs/commit/c5c50cd7a36fa81bfc2b7aab232312f2d68147a8))
+* **docs:** add how-to guide for building a package using c4nord as an example ([809bec4](https://github.com/tmorin/plantuml-libs/commit/809bec4049902c527d1a642c826a1c5f9c43641a))
+* **docs:** add note on processing time for AWS, Azure, and GCP package upgrades ([eff55f1](https://github.com/tmorin/plantuml-libs/commit/eff55f1b8830be44952585dcdacb406d0e55c5f9))
+* **docs:** enhance GitHub Copilot instructions for plantuml-libs ([e09eb20](https://github.com/tmorin/plantuml-libs/commit/e09eb20254f7b1b19d70abf6d08e8ace5152bc2c))
+* **gcp:** add upgrade guide and prompt for GCP package ([5f0b362](https://github.com/tmorin/plantuml-libs/commit/5f0b362e8df8a48066c5ba551d39e1e49bfa82aa))
+* **skills:** consolidate AWS, Azure, and GCP package upgrading skills into a single SKILL.md file ([3537408](https://github.com/tmorin/plantuml-libs/commit/3537408b6a36bbc2ead3b03fa93d3e0ca69d2c6f))
+* update CI configuration to use Node.js 20 for caching ([0158e78](https://github.com/tmorin/plantuml-libs/commit/0158e78d364d65eac63703323b86f6ef73ec012e))
+
+
+### Bug Fixes
+
+* **azure-23:** handle parentheses in icon filenames ([4f64239](https://github.com/tmorin/plantuml-libs/commit/4f6423993e4fc26c94e642dba6a0f284274d8212))
+* **azure-23:** update Azure package reference from v20 to v23 in README ([d92b7a2](https://github.com/tmorin/plantuml-libs/commit/d92b7a2819c913508b6c26e7a0a292fe84d56b91))
+* **azure-23:** update template and group references from azure-20 to azure-23 ([3d162a6](https://github.com/tmorin/plantuml-libs/commit/3d162a6c228f8626428cf2d7f56dfeb4a03e6013))
+* **docs:** clarify instructions for renaming AWS and Azure package templates ([59da5b5](https://github.com/tmorin/plantuml-libs/commit/59da5b5f9ea5f1e5aa64f5f6eda1bc0df2d149b1))
+* update [@typescript-eslint](https://github.com/typescript-eslint) packages to version 8.50.1 ([f36e2bc](https://github.com/tmorin/plantuml-libs/commit/f36e2bc31911430f9df0f39360e3daa5f1b3cce2))
+* update node-fetch and @types/node-fetch dependencies ([7f139d7](https://github.com/tmorin/plantuml-libs/commit/7f139d781311ba36808cda2fd25b8b4bb09f969e))
+
 ## [16.0.0](https://github.com/tmorin/plantuml-libs/compare/v15.0.3...v16.0.0) (2025-02-21)
 
 
