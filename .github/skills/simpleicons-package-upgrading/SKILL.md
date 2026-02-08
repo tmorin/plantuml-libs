@@ -1,14 +1,7 @@
 ---
+name: simpleicons-package-upgrading
 title: Simple Icons Package Upgrading
 description: Upgrade Simple Icons package to the latest version following established procedures
-keywords:
-  - simpleicons
-  - simple-icons
-  - package upgrade
-  - icons
-  - maintenance
-level: intermediate
-estimated_time: 45
 ---
 
 # Simple Icons Package Upgrading Skill
