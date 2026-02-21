@@ -10,7 +10,7 @@ Checklist
 - [ ] Inspect `distribution/c4nord` and verify outputs
 
 Prerequisites
-- Node.js and npm (used for the generator scripts and `ts-node`).
+- Node.js 22+ and npm (used for the generator scripts and `ts-node`).
 - Podman (preferred by the repository scripts) or Docker.
 - Network access to pull the container image `docker.io/thibaultmorin/plantuml-generator:1`.
 
