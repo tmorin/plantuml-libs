@@ -31,7 +31,9 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '22.7.4'
+          node-version: '20.x'
+          registry-url: 'https://registry.npmjs.org'
+          scope: '@tmorin'
 
       - name: Install system dependencies
         run: |
