@@ -1,0 +1,74 @@
+# RecentActors
+
+
+```text
+material/Av/RecentActors
+```
+
+```text
+include('material/Av/RecentActors')
+```
+
+
+
+| Illustration | RecentActors |
+| :---: | :---: |
+| ![illustration for Illustration](../../material/Av/RecentActors.png) | ![illustration for RecentActors](../../material/Av/RecentActors.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$RecentActorsXs>`
+- `<$RecentActorsSm>`
+- `<$RecentActorsMd>`
+- `<$RecentActorsLg>`
+
+
+
+
+
+## RecentActors
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element RecentActors
+include('material/Av/RecentActors')
+
+' renders the element
+RecentActors('RecentActors', 'Recent Actors', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element RecentActors
+include('material/Av/RecentActors')
+
+' renders the element
+RecentActors('RecentActors', 'Recent Actors', 'an optional tech label', 'an optional description')
+@enduml
+```
+

@@ -1,0 +1,74 @@
+# TabUnselected
+
+
+```text
+material/Action/TabUnselected
+```
+
+```text
+include('material/Action/TabUnselected')
+```
+
+
+
+| Illustration | TabUnselected |
+| :---: | :---: |
+| ![illustration for Illustration](../../material/Action/TabUnselected.png) | ![illustration for TabUnselected](../../material/Action/TabUnselected.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$TabUnselectedXs>`
+- `<$TabUnselectedSm>`
+- `<$TabUnselectedMd>`
+- `<$TabUnselectedLg>`
+
+
+
+
+
+## TabUnselected
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element TabUnselected
+include('material/Action/TabUnselected')
+
+' renders the element
+TabUnselected('TabUnselected', 'Tab Unselected', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element TabUnselected
+include('material/Action/TabUnselected')
+
+' renders the element
+TabUnselected('TabUnselected', 'Tab Unselected', 'an optional tech label', 'an optional description')
+@enduml
+```
+

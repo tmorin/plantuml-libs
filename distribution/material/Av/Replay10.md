@@ -1,0 +1,74 @@
+# Replay10
+
+
+```text
+material/Av/Replay10
+```
+
+```text
+include('material/Av/Replay10')
+```
+
+
+
+| Illustration | Replay10 |
+| :---: | :---: |
+| ![illustration for Illustration](../../material/Av/Replay10.png) | ![illustration for Replay10](../../material/Av/Replay10.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$Replay10Xs>`
+- `<$Replay10Sm>`
+- `<$Replay10Md>`
+- `<$Replay10Lg>`
+
+
+
+
+
+## Replay10
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element Replay10
+include('material/Av/Replay10')
+
+' renders the element
+Replay10('Replay10', 'Replay10', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element Replay10
+include('material/Av/Replay10')
+
+' renders the element
+Replay10('Replay10', 'Replay10', 'an optional tech label', 'an optional description')
+@enduml
+```
+

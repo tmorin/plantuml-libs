@@ -1,0 +1,74 @@
+# RamenDining
+
+
+```text
+material/Maps/RamenDining
+```
+
+```text
+include('material/Maps/RamenDining')
+```
+
+
+
+| Illustration | RamenDining |
+| :---: | :---: |
+| ![illustration for Illustration](../../material/Maps/RamenDining.png) | ![illustration for RamenDining](../../material/Maps/RamenDining.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$RamenDiningXs>`
+- `<$RamenDiningSm>`
+- `<$RamenDiningMd>`
+- `<$RamenDiningLg>`
+
+
+
+
+
+## RamenDining
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element RamenDining
+include('material/Maps/RamenDining')
+
+' renders the element
+RamenDining('RamenDining', 'Ramen Dining', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element RamenDining
+include('material/Maps/RamenDining')
+
+' renders the element
+RamenDining('RamenDining', 'Ramen Dining', 'an optional tech label', 'an optional description')
+@enduml
+```
+

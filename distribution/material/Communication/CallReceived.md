@@ -1,0 +1,74 @@
+# CallReceived
+
+
+```text
+material/Communication/CallReceived
+```
+
+```text
+include('material/Communication/CallReceived')
+```
+
+
+
+| Illustration | CallReceived |
+| :---: | :---: |
+| ![illustration for Illustration](../../material/Communication/CallReceived.png) | ![illustration for CallReceived](../../material/Communication/CallReceived.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$CallReceivedXs>`
+- `<$CallReceivedSm>`
+- `<$CallReceivedMd>`
+- `<$CallReceivedLg>`
+
+
+
+
+
+## CallReceived
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element CallReceived
+include('material/Communication/CallReceived')
+
+' renders the element
+CallReceived('CallReceived', 'Call Received', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element CallReceived
+include('material/Communication/CallReceived')
+
+' renders the element
+CallReceived('CallReceived', 'Call Received', 'an optional tech label', 'an optional description')
+@enduml
+```
+

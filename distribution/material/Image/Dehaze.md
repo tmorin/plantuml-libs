@@ -1,0 +1,74 @@
+# Dehaze
+
+
+```text
+material/Image/Dehaze
+```
+
+```text
+include('material/Image/Dehaze')
+```
+
+
+
+| Illustration | Dehaze |
+| :---: | :---: |
+| ![illustration for Illustration](../../material/Image/Dehaze.png) | ![illustration for Dehaze](../../material/Image/Dehaze.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$DehazeXs>`
+- `<$DehazeSm>`
+- `<$DehazeMd>`
+- `<$DehazeLg>`
+
+
+
+
+
+## Dehaze
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element Dehaze
+include('material/Image/Dehaze')
+
+' renders the element
+Dehaze('Dehaze', 'Dehaze', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element Dehaze
+include('material/Image/Dehaze')
+
+' renders the element
+Dehaze('Dehaze', 'Dehaze', 'an optional tech label', 'an optional description')
+@enduml
+```
+

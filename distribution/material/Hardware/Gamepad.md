@@ -1,0 +1,74 @@
+# Gamepad
+
+
+```text
+material/Hardware/Gamepad
+```
+
+```text
+include('material/Hardware/Gamepad')
+```
+
+
+
+| Illustration | Gamepad |
+| :---: | :---: |
+| ![illustration for Illustration](../../material/Hardware/Gamepad.png) | ![illustration for Gamepad](../../material/Hardware/Gamepad.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$GamepadXs>`
+- `<$GamepadSm>`
+- `<$GamepadMd>`
+- `<$GamepadLg>`
+
+
+
+
+
+## Gamepad
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element Gamepad
+include('material/Hardware/Gamepad')
+
+' renders the element
+Gamepad('Gamepad', 'Gamepad', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element Gamepad
+include('material/Hardware/Gamepad')
+
+' renders the element
+Gamepad('Gamepad', 'Gamepad', 'an optional tech label', 'an optional description')
+@enduml
+```
+

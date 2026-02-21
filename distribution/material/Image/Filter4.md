@@ -1,0 +1,74 @@
+# Filter4
+
+
+```text
+material/Image/Filter4
+```
+
+```text
+include('material/Image/Filter4')
+```
+
+
+
+| Illustration | Filter4 |
+| :---: | :---: |
+| ![illustration for Illustration](../../material/Image/Filter4.png) | ![illustration for Filter4](../../material/Image/Filter4.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$Filter4Xs>`
+- `<$Filter4Sm>`
+- `<$Filter4Md>`
+- `<$Filter4Lg>`
+
+
+
+
+
+## Filter4
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element Filter4
+include('material/Image/Filter4')
+
+' renders the element
+Filter4('Filter4', 'Filter4', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element Filter4
+include('material/Image/Filter4')
+
+' renders the element
+Filter4('Filter4', 'Filter4', 'an optional tech label', 'an optional description')
+@enduml
+```
+

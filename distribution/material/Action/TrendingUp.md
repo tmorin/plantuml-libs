@@ -1,0 +1,74 @@
+# TrendingUp
+
+
+```text
+material/Action/TrendingUp
+```
+
+```text
+include('material/Action/TrendingUp')
+```
+
+
+
+| Illustration | TrendingUp |
+| :---: | :---: |
+| ![illustration for Illustration](../../material/Action/TrendingUp.png) | ![illustration for TrendingUp](../../material/Action/TrendingUp.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$TrendingUpXs>`
+- `<$TrendingUpSm>`
+- `<$TrendingUpMd>`
+- `<$TrendingUpLg>`
+
+
+
+
+
+## TrendingUp
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element TrendingUp
+include('material/Action/TrendingUp')
+
+' renders the element
+TrendingUp('TrendingUp', 'Trending Up', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element TrendingUp
+include('material/Action/TrendingUp')
+
+' renders the element
+TrendingUp('TrendingUp', 'Trending Up', 'an optional tech label', 'an optional description')
+@enduml
+```
+

@@ -1,0 +1,74 @@
+# Chat
+
+
+```text
+material/Communication/Chat
+```
+
+```text
+include('material/Communication/Chat')
+```
+
+
+
+| Illustration | Chat |
+| :---: | :---: |
+| ![illustration for Illustration](../../material/Communication/Chat.png) | ![illustration for Chat](../../material/Communication/Chat.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$ChatXs>`
+- `<$ChatSm>`
+- `<$ChatMd>`
+- `<$ChatLg>`
+
+
+
+
+
+## Chat
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element Chat
+include('material/Communication/Chat')
+
+' renders the element
+Chat('Chat', 'Chat', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element Chat
+include('material/Communication/Chat')
+
+' renders the element
+Chat('Chat', 'Chat', 'an optional tech label', 'an optional description')
+@enduml
+```
+

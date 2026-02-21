@@ -1,0 +1,74 @@
+# PanoramaWideAngleSelect
+
+
+```text
+material/Image/PanoramaWideAngleSelect
+```
+
+```text
+include('material/Image/PanoramaWideAngleSelect')
+```
+
+
+
+| Illustration | PanoramaWideAngleSelect |
+| :---: | :---: |
+| ![illustration for Illustration](../../material/Image/PanoramaWideAngleSelect.png) | ![illustration for PanoramaWideAngleSelect](../../material/Image/PanoramaWideAngleSelect.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$PanoramaWideAngleSelectXs>`
+- `<$PanoramaWideAngleSelectSm>`
+- `<$PanoramaWideAngleSelectMd>`
+- `<$PanoramaWideAngleSelectLg>`
+
+
+
+
+
+## PanoramaWideAngleSelect
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element PanoramaWideAngleSelect
+include('material/Image/PanoramaWideAngleSelect')
+
+' renders the element
+PanoramaWideAngleSelect('PanoramaWideAngleSelect', 'Panorama Wide Angle Select', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element PanoramaWideAngleSelect
+include('material/Image/PanoramaWideAngleSelect')
+
+' renders the element
+PanoramaWideAngleSelect('PanoramaWideAngleSelect', 'Panorama Wide Angle Select', 'an optional tech label', 'an optional description')
+@enduml
+```
+

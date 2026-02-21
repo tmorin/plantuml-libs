@@ -1,0 +1,74 @@
+# Email
+
+
+```text
+material/Communication/Email
+```
+
+```text
+include('material/Communication/Email')
+```
+
+
+
+| Illustration | Email |
+| :---: | :---: |
+| ![illustration for Illustration](../../material/Communication/Email.png) | ![illustration for Email](../../material/Communication/Email.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$EmailXs>`
+- `<$EmailSm>`
+- `<$EmailMd>`
+- `<$EmailLg>`
+
+
+
+
+
+## Email
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element Email
+include('material/Communication/Email')
+
+' renders the element
+Email('Email', 'Email', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element Email
+include('material/Communication/Email')
+
+' renders the element
+Email('Email', 'Email', 'an optional tech label', 'an optional description')
+@enduml
+```
+

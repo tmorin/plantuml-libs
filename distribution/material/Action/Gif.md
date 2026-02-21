@@ -1,0 +1,74 @@
+# Gif
+
+
+```text
+material/Action/Gif
+```
+
+```text
+include('material/Action/Gif')
+```
+
+
+
+| Illustration | Gif |
+| :---: | :---: |
+| ![illustration for Illustration](../../material/Action/Gif.png) | ![illustration for Gif](../../material/Action/Gif.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$GifXs>`
+- `<$GifSm>`
+- `<$GifMd>`
+- `<$GifLg>`
+
+
+
+
+
+## Gif
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element Gif
+include('material/Action/Gif')
+
+' renders the element
+Gif('Gif', 'Gif', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element Gif
+include('material/Action/Gif')
+
+' renders the element
+Gif('Gif', 'Gif', 'an optional tech label', 'an optional description')
+@enduml
+```
+

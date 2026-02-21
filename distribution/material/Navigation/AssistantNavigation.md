@@ -1,0 +1,74 @@
+# AssistantNavigation
+
+
+```text
+material/Navigation/AssistantNavigation
+```
+
+```text
+include('material/Navigation/AssistantNavigation')
+```
+
+
+
+| Illustration | AssistantNavigation |
+| :---: | :---: |
+| ![illustration for Illustration](../../material/Navigation/AssistantNavigation.png) | ![illustration for AssistantNavigation](../../material/Navigation/AssistantNavigation.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$AssistantNavigationXs>`
+- `<$AssistantNavigationSm>`
+- `<$AssistantNavigationMd>`
+- `<$AssistantNavigationLg>`
+
+
+
+
+
+## AssistantNavigation
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element AssistantNavigation
+include('material/Navigation/AssistantNavigation')
+
+' renders the element
+AssistantNavigation('AssistantNavigation', 'Assistant Navigation', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element AssistantNavigation
+include('material/Navigation/AssistantNavigation')
+
+' renders the element
+AssistantNavigation('AssistantNavigation', 'Assistant Navigation', 'an optional tech label', 'an optional description')
+@enduml
+```
+

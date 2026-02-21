@@ -13,8 +13,8 @@ import { EventstormingFactory } from "./packages/eventstorming"
 import { Fontawesome6Factory } from "./packages/fontawesome-6"
 import { GcpFactory } from "./packages/gcp"
 import { Library, Package } from "../generator/workdir/manifest"
-import { Material4Factory } from "./packages/material-4"
-import { Simpleicons14Factory } from "./packages/simpleicons"
+import { MaterialFactory } from "./packages/material"
+import { SimpleiconsFactory } from "./packages/simpleicons"
 
 const PACKAGE_FACTORIES = [
   new AwsQ32025Factory(),
@@ -27,8 +27,8 @@ const PACKAGE_FACTORIES = [
   new EventstormingFactory(),
   new Fontawesome6Factory(),
   new GcpFactory(),
-  new Material4Factory(),
-  new Simpleicons14Factory(),
+  new MaterialFactory(),
+  new SimpleiconsFactory(),
 ]
 
 export const PACKAGES = PACKAGE_FACTORIES.map((d) => d.getUrn())

@@ -1,0 +1,74 @@
+# LocalCarWash
+
+
+```text
+material/Maps/LocalCarWash
+```
+
+```text
+include('material/Maps/LocalCarWash')
+```
+
+
+
+| Illustration | LocalCarWash |
+| :---: | :---: |
+| ![illustration for Illustration](../../material/Maps/LocalCarWash.png) | ![illustration for LocalCarWash](../../material/Maps/LocalCarWash.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$LocalCarWashXs>`
+- `<$LocalCarWashSm>`
+- `<$LocalCarWashMd>`
+- `<$LocalCarWashLg>`
+
+
+
+
+
+## LocalCarWash
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element LocalCarWash
+include('material/Maps/LocalCarWash')
+
+' renders the element
+LocalCarWash('LocalCarWash', 'Local Car Wash', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element LocalCarWash
+include('material/Maps/LocalCarWash')
+
+' renders the element
+LocalCarWash('LocalCarWash', 'Local Car Wash', 'an optional tech label', 'an optional description')
+@enduml
+```
+

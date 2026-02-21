@@ -1,0 +1,74 @@
+# PhotoSizeSelectSmall
+
+
+```text
+material/Image/PhotoSizeSelectSmall
+```
+
+```text
+include('material/Image/PhotoSizeSelectSmall')
+```
+
+
+
+| Illustration | PhotoSizeSelectSmall |
+| :---: | :---: |
+| ![illustration for Illustration](../../material/Image/PhotoSizeSelectSmall.png) | ![illustration for PhotoSizeSelectSmall](../../material/Image/PhotoSizeSelectSmall.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$PhotoSizeSelectSmallXs>`
+- `<$PhotoSizeSelectSmallSm>`
+- `<$PhotoSizeSelectSmallMd>`
+- `<$PhotoSizeSelectSmallLg>`
+
+
+
+
+
+## PhotoSizeSelectSmall
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element PhotoSizeSelectSmall
+include('material/Image/PhotoSizeSelectSmall')
+
+' renders the element
+PhotoSizeSelectSmall('PhotoSizeSelectSmall', 'Photo Size Select Small', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element PhotoSizeSelectSmall
+include('material/Image/PhotoSizeSelectSmall')
+
+' renders the element
+PhotoSizeSelectSmall('PhotoSizeSelectSmall', 'Photo Size Select Small', 'an optional tech label', 'an optional description')
+@enduml
+```
+

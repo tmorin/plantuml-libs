@@ -1,0 +1,74 @@
+# FollowTheSigns
+
+
+```text
+material/Social/FollowTheSigns
+```
+
+```text
+include('material/Social/FollowTheSigns')
+```
+
+
+
+| Illustration | FollowTheSigns |
+| :---: | :---: |
+| ![illustration for Illustration](../../material/Social/FollowTheSigns.png) | ![illustration for FollowTheSigns](../../material/Social/FollowTheSigns.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$FollowTheSignsXs>`
+- `<$FollowTheSignsSm>`
+- `<$FollowTheSignsMd>`
+- `<$FollowTheSignsLg>`
+
+
+
+
+
+## FollowTheSigns
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element FollowTheSigns
+include('material/Social/FollowTheSigns')
+
+' renders the element
+FollowTheSigns('FollowTheSigns', 'Follow The Signs', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element FollowTheSigns
+include('material/Social/FollowTheSigns')
+
+' renders the element
+FollowTheSigns('FollowTheSigns', 'Follow The Signs', 'an optional tech label', 'an optional description')
+@enduml
+```
+

@@ -167,7 +167,7 @@ The old azure-20 package is no longer available and should be replaced with azur
 * **fontawesome-6:** refresh the package ([c50fed2](https://github.com/tmorin/plantuml-libs/commit/c50fed2d8a79f43b9bbc9beee05147ed7397e2af))
 * **gcp:** refresh the package ([ef47dc4](https://github.com/tmorin/plantuml-libs/commit/ef47dc4718c822f4c01e491be94d3b124b4f15be))
 * **homecloud-2:** refresh the package ([a92d903](https://github.com/tmorin/plantuml-libs/commit/a92d903c6a38efb609a215d9a394d533851eb698))
-* **material-4:** refresh the package ([8b06305](https://github.com/tmorin/plantuml-libs/commit/8b063054bd68e38f94e30cf93b949f213b35e4f4))
+* **material:** refresh the package ([8b06305](https://github.com/tmorin/plantuml-libs/commit/8b063054bd68e38f94e30cf93b949f213b35e4f4))
 * **simpleicons-8:** refresh the package ([d7c83ff](https://github.com/tmorin/plantuml-libs/commit/d7c83ff8f9b6b4776c1ab8bd07fd787df496d1d0))
 
 ## [11.0.0](https://github.com/tmorin/plantuml-libs/compare/v10.1.0...v11.0.0) (2023-02-11)
@@ -300,7 +300,7 @@ The old azure-20 package is no longer available and should be replaced with azur
 * **fontawesome-6:** add support for descriptions in items ([0c69ae6](https://github.com/tmorin/plantuml-libs/commit/0c69ae631f94b3de2ae4f5b10675552295775d39))
 * **gcp:** add support for descriptions in items ([0785ab7](https://github.com/tmorin/plantuml-libs/commit/0785ab7e120e387005d591e6b572f5f284b90b86))
 * **homecloud-2:** add support for descriptions in items ([9c4518a](https://github.com/tmorin/plantuml-libs/commit/9c4518a170c8f542ad6f0e5aa1639263829c910f))
-* **material-4:** add support for descriptions in items ([5f94f7b](https://github.com/tmorin/plantuml-libs/commit/5f94f7b637476a144018f78b5d17d2f0452f06df))
+* **material:** add support for descriptions in items ([5f94f7b](https://github.com/tmorin/plantuml-libs/commit/5f94f7b637476a144018f78b5d17d2f0452f06df))
 * **simpleicons-7:** add support for descriptions in items ([ffecdcf](https://github.com/tmorin/plantuml-libs/commit/ffecdcfc623746a92cc3d882c6f929b8e6bbc8d3))
 
 ## [9.0.0](https://github.com/tmorin/plantuml-libs/compare/v8.0.0...v9.0.0) (2022-07-16)
@@ -375,7 +375,7 @@ The old azure-20 package is no longer available and should be replaced with azur
 * **fontawesome-5:** refresh the package ([9b7dea3](https://github.com/tmorin/plantuml-libs/commit/9b7dea3cbafbdebe4f0179cf169e0e137cdd89b0))
 * **gcp:** refresh the package ([76dc3db](https://github.com/tmorin/plantuml-libs/commit/76dc3dba8f9372c4b8d343a83163d7d73c27ca45))
 * **homecloud-2:** refresh the package ([ab2b810](https://github.com/tmorin/plantuml-libs/commit/ab2b810e71c5f84e64706a8309e1f06d17bc00c8))
-* **material-4:** refresh the package ([fbdf325](https://github.com/tmorin/plantuml-libs/commit/fbdf3251c134b564c020375f1ef04cb6fd798ff8))
+* **material:** refresh the package ([fbdf325](https://github.com/tmorin/plantuml-libs/commit/fbdf3251c134b564c020375f1ef04cb6fd798ff8))
 * **simpleicons-5:** refresh the package ([508ef79](https://github.com/tmorin/plantuml-libs/commit/508ef794388058442cf4caf6d8ee02c8e9bf956a))
 
 
@@ -479,7 +479,7 @@ The old azure-20 package is no longer available and should be replaced with azur
 * **gcp:** refresh the package ([bfc35f8](https://github.com/tmorin/plantuml-libs/commit/bfc35f89020d493a161eb18a0c56ef440f1a6e70))
 * **homecloud-1:** refresh the package ([84f7679](https://github.com/tmorin/plantuml-libs/commit/84f76794485239be44bc0a1f0b8c3fef7d76c3ba))
 * increase the size of some texts and sprites ([aaba1d8](https://github.com/tmorin/plantuml-libs/commit/aaba1d810da904a5792b49ae0965f18d7c8ac83e))
-* **material-4:** refresh the package ([26db0e9](https://github.com/tmorin/plantuml-libs/commit/26db0e9264737cf938823609fdde3dc36f8c232b))
+* **material:** refresh the package ([26db0e9](https://github.com/tmorin/plantuml-libs/commit/26db0e9264737cf938823609fdde3dc36f8c232b))
 * **simpleicons-5:** refresh the package ([7edf5ce](https://github.com/tmorin/plantuml-libs/commit/7edf5ceb37ee4c8ceac2a5fdb3ec55d75b50dcbc))
 
 ## [4.4.0](https://github.com/tmorin/plantuml-libs/compare/v4.3.1...v4.4.0) (2021-09-16)
@@ -501,7 +501,7 @@ The old azure-20 package is no longer available and should be replaced with azur
 * **fontawesome-5:** refresh the package ([9ccfefe](https://github.com/tmorin/plantuml-libs/commit/9ccfefecf4fa7fb9f295d9e70441733d3c3ef384))
 * **gcp:** refresh the package ([c9868ca](https://github.com/tmorin/plantuml-libs/commit/c9868ca463535e68389887cf22eef67dacdb3044))
 * **homecloud-1:** refresh the package ([2453e86](https://github.com/tmorin/plantuml-libs/commit/2453e86a9cfa30a3c3ed7edf78dcaa3ea5232b6c))
-* **material-4:** refresh the package ([665ca35](https://github.com/tmorin/plantuml-libs/commit/665ca3536e7c907169eb86c2dd635a17012daa84))
+* **material:** refresh the package ([665ca35](https://github.com/tmorin/plantuml-libs/commit/665ca3536e7c907169eb86c2dd635a17012daa84))
 * **simpleicons-5:** refresh the package ([e49877a](https://github.com/tmorin/plantuml-libs/commit/e49877a6e68e3a6600b817cbd5ff6ce361814a1d))
 
 ## [4.3.0](https://github.com/tmorin/plantuml-libs/compare/v4.2.0...v4.3.0) (2021-08-31)
@@ -535,7 +535,7 @@ The old azure-20 package is no longer available and should be replaced with azur
 * `eip` has been renamed to `eip-1`
 * `fontawesome-5.15` has been renamed to `fontawesome-5`
 * `homecloud` has been renamed to `homecloud-1`
-* `material-4.0` has been renamed to `material-4`
+* `material.0` has been renamed to `material`
 
 ### Features
 
@@ -555,7 +555,7 @@ The old azure-20 package is no longer available and should be replaced with azur
 * **eventstorming:** refresh the package ([d4be4bd](https://github.com/tmorin/plantuml-libs/commit/d4be4bd9fc252d26ef3edff0da92829d0de37c6f))
 * **gcp:** refresh the package ([c03ff61](https://github.com/tmorin/plantuml-libs/commit/c03ff6185d3f18e95531fe4bdd27d011fe14e179))
 * **gcp:** refresh the package ([f6ea128](https://github.com/tmorin/plantuml-libs/commit/f6ea1282df224f4c1b863f80d0ea82a301abbf0f))
-* **material-4:** refresh the package ([adaa063](https://github.com/tmorin/plantuml-libs/commit/adaa063dd3d491145e8f07281168e13d9a66b52f))
+* **material:** refresh the package ([adaa063](https://github.com/tmorin/plantuml-libs/commit/adaa063dd3d491145e8f07281168e13d9a66b52f))
 * **simpleicons-5:** refresh the package ([5f1e69f](https://github.com/tmorin/plantuml-libs/commit/5f1e69f3c12389a40c8870bb2fefc36267c0b8a1))
 
 ## [3.1.0](https://github.com/tmorin/plantuml-libs/compare/v3.0.0...v3.1.0) (2021-04-30)
@@ -590,7 +590,7 @@ The old azure-20 package is no longer available and should be replaced with azur
 * **fontawesome-5.15:** refresh the package ([4e2d090](https://github.com/tmorin/plantuml-libs/commit/4e2d090a1bdb8c7083b08122460a389600e5c1b8))
 * **gcp:** refresh the package ([bb8bb96](https://github.com/tmorin/plantuml-libs/commit/bb8bb96a2a5b2f262e731eefb7403ebdf66fa2d9))
 * **homecloud:** refresh the package ([9abd5b0](https://github.com/tmorin/plantuml-libs/commit/9abd5b00b726435d2ab13531f8203a8aa0eba58c))
-* **material-4.0:** refresh the package ([2669554](https://github.com/tmorin/plantuml-libs/commit/266955474177b7e29eef4add3d4bdc4c2291e051))
+* **material.0:** refresh the package ([2669554](https://github.com/tmorin/plantuml-libs/commit/266955474177b7e29eef4add3d4bdc4c2291e051))
 * **simpleicons-4:** refresh the package ([6c921d7](https://github.com/tmorin/plantuml-libs/commit/6c921d7616b8645f73e7405032205e5e7630a010))
 
 ## [2.13.0](https://github.com/tmorin/plantuml-libs/compare/v2.12.0...v2.13.0) (2021-04-27)

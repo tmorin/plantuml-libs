@@ -1,0 +1,74 @@
+# Dvr
+
+
+```text
+material/Device/Dvr
+```
+
+```text
+include('material/Device/Dvr')
+```
+
+
+
+| Illustration | Dvr |
+| :---: | :---: |
+| ![illustration for Illustration](../../material/Device/Dvr.png) | ![illustration for Dvr](../../material/Device/Dvr.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$DvrXs>`
+- `<$DvrSm>`
+- `<$DvrMd>`
+- `<$DvrLg>`
+
+
+
+
+
+## Dvr
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element Dvr
+include('material/Device/Dvr')
+
+' renders the element
+Dvr('Dvr', 'Dvr', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element Dvr
+include('material/Device/Dvr')
+
+' renders the element
+Dvr('Dvr', 'Dvr', 'an optional tech label', 'an optional description')
+@enduml
+```
+

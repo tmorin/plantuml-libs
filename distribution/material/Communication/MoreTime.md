@@ -1,0 +1,74 @@
+# MoreTime
+
+
+```text
+material/Communication/MoreTime
+```
+
+```text
+include('material/Communication/MoreTime')
+```
+
+
+
+| Illustration | MoreTime |
+| :---: | :---: |
+| ![illustration for Illustration](../../material/Communication/MoreTime.png) | ![illustration for MoreTime](../../material/Communication/MoreTime.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$MoreTimeXs>`
+- `<$MoreTimeSm>`
+- `<$MoreTimeMd>`
+- `<$MoreTimeLg>`
+
+
+
+
+
+## MoreTime
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element MoreTime
+include('material/Communication/MoreTime')
+
+' renders the element
+MoreTime('MoreTime', 'More Time', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element MoreTime
+include('material/Communication/MoreTime')
+
+' renders the element
+MoreTime('MoreTime', 'More Time', 'an optional tech label', 'an optional description')
+@enduml
+```
+

@@ -1,0 +1,74 @@
+# AllInbox
+
+
+```text
+material/Action/AllInbox
+```
+
+```text
+include('material/Action/AllInbox')
+```
+
+
+
+| Illustration | AllInbox |
+| :---: | :---: |
+| ![illustration for Illustration](../../material/Action/AllInbox.png) | ![illustration for AllInbox](../../material/Action/AllInbox.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$AllInboxXs>`
+- `<$AllInboxSm>`
+- `<$AllInboxMd>`
+- `<$AllInboxLg>`
+
+
+
+
+
+## AllInbox
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element AllInbox
+include('material/Action/AllInbox')
+
+' renders the element
+AllInbox('AllInbox', 'All Inbox', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element AllInbox
+include('material/Action/AllInbox')
+
+' renders the element
+AllInbox('AllInbox', 'All Inbox', 'an optional tech label', 'an optional description')
+@enduml
+```
+

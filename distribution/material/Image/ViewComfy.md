@@ -1,0 +1,74 @@
+# ViewComfy
+
+
+```text
+material/Image/ViewComfy
+```
+
+```text
+include('material/Image/ViewComfy')
+```
+
+
+
+| Illustration | ViewComfy |
+| :---: | :---: |
+| ![illustration for Illustration](../../material/Image/ViewComfy.png) | ![illustration for ViewComfy](../../material/Image/ViewComfy.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$ViewComfyXs>`
+- `<$ViewComfySm>`
+- `<$ViewComfyMd>`
+- `<$ViewComfyLg>`
+
+
+
+
+
+## ViewComfy
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element ViewComfy
+include('material/Image/ViewComfy')
+
+' renders the element
+ViewComfy('ViewComfy', 'View Comfy', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element ViewComfy
+include('material/Image/ViewComfy')
+
+' renders the element
+ViewComfy('ViewComfy', 'View Comfy', 'an optional tech label', 'an optional description')
+@enduml
+```
+

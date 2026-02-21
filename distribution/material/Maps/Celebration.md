@@ -1,0 +1,74 @@
+# Celebration
+
+
+```text
+material/Maps/Celebration
+```
+
+```text
+include('material/Maps/Celebration')
+```
+
+
+
+| Illustration | Celebration |
+| :---: | :---: |
+| ![illustration for Illustration](../../material/Maps/Celebration.png) | ![illustration for Celebration](../../material/Maps/Celebration.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$CelebrationXs>`
+- `<$CelebrationSm>`
+- `<$CelebrationMd>`
+- `<$CelebrationLg>`
+
+
+
+
+
+## Celebration
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element Celebration
+include('material/Maps/Celebration')
+
+' renders the element
+Celebration('Celebration', 'Celebration', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element Celebration
+include('material/Maps/Celebration')
+
+' renders the element
+Celebration('Celebration', 'Celebration', 'an optional tech label', 'an optional description')
+@enduml
+```
+

@@ -1,0 +1,74 @@
+# HighlightOff
+
+
+```text
+material/Action/HighlightOff
+```
+
+```text
+include('material/Action/HighlightOff')
+```
+
+
+
+| Illustration | HighlightOff |
+| :---: | :---: |
+| ![illustration for Illustration](../../material/Action/HighlightOff.png) | ![illustration for HighlightOff](../../material/Action/HighlightOff.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$HighlightOffXs>`
+- `<$HighlightOffSm>`
+- `<$HighlightOffMd>`
+- `<$HighlightOffLg>`
+
+
+
+
+
+## HighlightOff
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element HighlightOff
+include('material/Action/HighlightOff')
+
+' renders the element
+HighlightOff('HighlightOff', 'Highlight Off', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element HighlightOff
+include('material/Action/HighlightOff')
+
+' renders the element
+HighlightOff('HighlightOff', 'Highlight Off', 'an optional tech label', 'an optional description')
+@enduml
+```
+

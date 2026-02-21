@@ -1,0 +1,74 @@
+# StarBorder
+
+
+```text
+material/Toggle/StarBorder
+```
+
+```text
+include('material/Toggle/StarBorder')
+```
+
+
+
+| Illustration | StarBorder |
+| :---: | :---: |
+| ![illustration for Illustration](../../material/Toggle/StarBorder.png) | ![illustration for StarBorder](../../material/Toggle/StarBorder.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$StarBorderXs>`
+- `<$StarBorderSm>`
+- `<$StarBorderMd>`
+- `<$StarBorderLg>`
+
+
+
+
+
+## StarBorder
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element StarBorder
+include('material/Toggle/StarBorder')
+
+' renders the element
+StarBorder('StarBorder', 'Star Border', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element StarBorder
+include('material/Toggle/StarBorder')
+
+' renders the element
+StarBorder('StarBorder', 'Star Border', 'an optional tech label', 'an optional description')
+@enduml
+```
+

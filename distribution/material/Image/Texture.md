@@ -1,0 +1,74 @@
+# Texture
+
+
+```text
+material/Image/Texture
+```
+
+```text
+include('material/Image/Texture')
+```
+
+
+
+| Illustration | Texture |
+| :---: | :---: |
+| ![illustration for Illustration](../../material/Image/Texture.png) | ![illustration for Texture](../../material/Image/Texture.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$TextureXs>`
+- `<$TextureSm>`
+- `<$TextureMd>`
+- `<$TextureLg>`
+
+
+
+
+
+## Texture
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element Texture
+include('material/Image/Texture')
+
+' renders the element
+Texture('Texture', 'Texture', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element Texture
+include('material/Image/Texture')
+
+' renders the element
+Texture('Texture', 'Texture', 'an optional tech label', 'an optional description')
+@enduml
+```
+

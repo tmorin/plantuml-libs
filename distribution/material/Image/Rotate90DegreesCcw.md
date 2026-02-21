@@ -1,0 +1,74 @@
+# Rotate90DegreesCcw
+
+
+```text
+material/Image/Rotate90DegreesCcw
+```
+
+```text
+include('material/Image/Rotate90DegreesCcw')
+```
+
+
+
+| Illustration | Rotate90DegreesCcw |
+| :---: | :---: |
+| ![illustration for Illustration](../../material/Image/Rotate90DegreesCcw.png) | ![illustration for Rotate90DegreesCcw](../../material/Image/Rotate90DegreesCcw.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$Rotate90DegreesCcwXs>`
+- `<$Rotate90DegreesCcwSm>`
+- `<$Rotate90DegreesCcwMd>`
+- `<$Rotate90DegreesCcwLg>`
+
+
+
+
+
+## Rotate90DegreesCcw
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element Rotate90DegreesCcw
+include('material/Image/Rotate90DegreesCcw')
+
+' renders the element
+Rotate90DegreesCcw('Rotate90DegreesCcw', 'Rotate90 Degrees Ccw', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element Rotate90DegreesCcw
+include('material/Image/Rotate90DegreesCcw')
+
+' renders the element
+Rotate90DegreesCcw('Rotate90DegreesCcw', 'Rotate90 Degrees Ccw', 'an optional tech label', 'an optional description')
+@enduml
+```
+

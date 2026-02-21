@@ -1,0 +1,74 @@
+# ImageNotSupported
+
+
+```text
+material/Image/ImageNotSupported
+```
+
+```text
+include('material/Image/ImageNotSupported')
+```
+
+
+
+| Illustration | ImageNotSupported |
+| :---: | :---: |
+| ![illustration for Illustration](../../material/Image/ImageNotSupported.png) | ![illustration for ImageNotSupported](../../material/Image/ImageNotSupported.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$ImageNotSupportedXs>`
+- `<$ImageNotSupportedSm>`
+- `<$ImageNotSupportedMd>`
+- `<$ImageNotSupportedLg>`
+
+
+
+
+
+## ImageNotSupported
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element ImageNotSupported
+include('material/Image/ImageNotSupported')
+
+' renders the element
+ImageNotSupported('ImageNotSupported', 'Image Not Supported', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element ImageNotSupported
+include('material/Image/ImageNotSupported')
+
+' renders the element
+ImageNotSupported('ImageNotSupported', 'Image Not Supported', 'an optional tech label', 'an optional description')
+@enduml
+```
+

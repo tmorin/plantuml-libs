@@ -1,0 +1,74 @@
+# Filter9Plus
+
+
+```text
+material/Image/Filter9Plus
+```
+
+```text
+include('material/Image/Filter9Plus')
+```
+
+
+
+| Illustration | Filter9Plus |
+| :---: | :---: |
+| ![illustration for Illustration](../../material/Image/Filter9Plus.png) | ![illustration for Filter9Plus](../../material/Image/Filter9Plus.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$Filter9PlusXs>`
+- `<$Filter9PlusSm>`
+- `<$Filter9PlusMd>`
+- `<$Filter9PlusLg>`
+
+
+
+
+
+## Filter9Plus
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element Filter9Plus
+include('material/Image/Filter9Plus')
+
+' renders the element
+Filter9Plus('Filter9Plus', 'Filter9 Plus', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material/bootstrap')
+
+' loads the Item which embeds the element Filter9Plus
+include('material/Image/Filter9Plus')
+
+' renders the element
+Filter9Plus('Filter9Plus', 'Filter9 Plus', 'an optional tech label', 'an optional description')
+@enduml
+```
+
