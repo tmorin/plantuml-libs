@@ -1,0 +1,125 @@
+# MessageEndpoint
+
+
+```text
+eip/MessagingSystems/MessageEndpoint
+```
+
+```text
+include('eip/MessagingSystems/MessageEndpoint')
+```
+
+
+
+| Illustration | MessageEndpoint | MessageEndpointGroup |
+| :---: | :---: | :---: |
+| ![illustration for Illustration](../../eip/MessagingSystems/MessageEndpoint.png) | ![illustration for MessageEndpoint](../../eip/MessagingSystems/MessageEndpoint.Local.png) | ![illustration for MessageEndpointGroup](../../eip/MessagingSystems/MessageEndpointGroup.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$MessageEndpointXs>`
+- `<$MessageEndpointSm>`
+- `<$MessageEndpointMd>`
+- `<$MessageEndpointLg>`
+
+
+
+
+
+## MessageEndpoint
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('eip/bootstrap')
+
+' loads the Item which embeds the element MessageEndpoint
+include('eip/MessagingSystems/MessageEndpoint')
+
+' renders the element
+MessageEndpoint('MessageEndpoint', 'Message Endpoint', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('eip/bootstrap')
+
+' loads the Item which embeds the element MessageEndpoint
+include('eip/MessagingSystems/MessageEndpoint')
+
+' renders the element
+MessageEndpoint('MessageEndpoint', 'Message Endpoint', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+## MessageEndpointGroup
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('eip/bootstrap')
+
+' loads the Item which embeds the element MessageEndpointGroup
+include('eip/MessagingSystems/MessageEndpoint')
+
+' renders the element
+MessageEndpointGroup('MessageEndpointGroup', 'Message Endpoint Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('eip/bootstrap')
+
+' loads the Item which embeds the element MessageEndpointGroup
+include('eip/MessagingSystems/MessageEndpoint')
+
+' renders the element
+MessageEndpointGroup('MessageEndpointGroup', 'Message Endpoint Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml
+```
+

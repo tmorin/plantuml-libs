@@ -48,7 +48,7 @@ The available packages:
 - [C4 Model + Nord Theme](distribution/c4nord/README.md)
 - [Kubernetes items for C4 Model](distribution/c4k8s/README.md)
 - [Domain Storytelling](distribution/domainstorytelling/README.md)
-- [Enterprise Integration Pattern](distribution/eip-1/README.md)
+- [Enterprise Integration Pattern](distribution/eip/README.md)
 - [Event Storming](distribution/eventstorming/README.md)
 - [Fontawesome (v6)](distribution/fontawesome/README.md)
 - [Gougle Compute Platform](distribution/gcp/README.md)

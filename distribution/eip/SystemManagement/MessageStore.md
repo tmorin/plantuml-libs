@@ -1,0 +1,125 @@
+# MessageStore
+
+
+```text
+eip/SystemManagement/MessageStore
+```
+
+```text
+include('eip/SystemManagement/MessageStore')
+```
+
+
+
+| Illustration | MessageStore | MessageStoreGroup |
+| :---: | :---: | :---: |
+| ![illustration for Illustration](../../eip/SystemManagement/MessageStore.png) | ![illustration for MessageStore](../../eip/SystemManagement/MessageStore.Local.png) | ![illustration for MessageStoreGroup](../../eip/SystemManagement/MessageStoreGroup.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$MessageStoreXs>`
+- `<$MessageStoreSm>`
+- `<$MessageStoreMd>`
+- `<$MessageStoreLg>`
+
+
+
+
+
+## MessageStore
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('eip/bootstrap')
+
+' loads the Item which embeds the element MessageStore
+include('eip/SystemManagement/MessageStore')
+
+' renders the element
+MessageStore('MessageStore', 'Message Store', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('eip/bootstrap')
+
+' loads the Item which embeds the element MessageStore
+include('eip/SystemManagement/MessageStore')
+
+' renders the element
+MessageStore('MessageStore', 'Message Store', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+## MessageStoreGroup
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('eip/bootstrap')
+
+' loads the Item which embeds the element MessageStoreGroup
+include('eip/SystemManagement/MessageStore')
+
+' renders the element
+MessageStoreGroup('MessageStoreGroup', 'Message Store Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('eip/bootstrap')
+
+' loads the Item which embeds the element MessageStoreGroup
+include('eip/SystemManagement/MessageStore')
+
+' renders the element
+MessageStoreGroup('MessageStoreGroup', 'Message Store Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml
+```
+

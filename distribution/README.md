@@ -10,7 +10,7 @@ The library provides 12 packages.
 - [c4nord](c4nord/README.md)
 - [c4k8s](c4k8s/README.md)
 - [domainstorytelling](domainstorytelling/README.md)
-- [eip-1](eip-1/README.md)
+- [eip](eip/README.md)
 - [eventstorming](eventstorming/README.md)
 - [fontawesome](fontawesome/README.md)
 - [gcp](gcp/README.md)

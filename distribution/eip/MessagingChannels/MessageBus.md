@@ -1,0 +1,125 @@
+# MessageBus
+
+
+```text
+eip/MessagingChannels/MessageBus
+```
+
+```text
+include('eip/MessagingChannels/MessageBus')
+```
+
+
+
+| Illustration | MessageBus | MessageBusGroup |
+| :---: | :---: | :---: |
+| ![illustration for Illustration](../../eip/MessagingChannels/MessageBus.png) | ![illustration for MessageBus](../../eip/MessagingChannels/MessageBus.Local.png) | ![illustration for MessageBusGroup](../../eip/MessagingChannels/MessageBusGroup.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$MessageBusXs>`
+- `<$MessageBusSm>`
+- `<$MessageBusMd>`
+- `<$MessageBusLg>`
+
+
+
+
+
+## MessageBus
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('eip/bootstrap')
+
+' loads the Item which embeds the element MessageBus
+include('eip/MessagingChannels/MessageBus')
+
+' renders the element
+MessageBus('MessageBus', 'Message Bus', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('eip/bootstrap')
+
+' loads the Item which embeds the element MessageBus
+include('eip/MessagingChannels/MessageBus')
+
+' renders the element
+MessageBus('MessageBus', 'Message Bus', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+## MessageBusGroup
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('eip/bootstrap')
+
+' loads the Item which embeds the element MessageBusGroup
+include('eip/MessagingChannels/MessageBus')
+
+' renders the element
+MessageBusGroup('MessageBusGroup', 'Message Bus Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('eip/bootstrap')
+
+' loads the Item which embeds the element MessageBusGroup
+include('eip/MessagingChannels/MessageBus')
+
+' renders the element
+MessageBusGroup('MessageBusGroup', 'Message Bus Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml
+```
+
