@@ -211,7 +211,10 @@ describe("gdiag", () => {
 - **Current Version**: 17.0.0
 - **Tool**: standard-version for automated releases
 - **Conventions**: 
-  - Use semantic commit messages (feat:, fix:, refactor:, etc.)
+  - Use [Conventional Commits](https://www.conventionalcommits.org/) format: `<type>(<scope>): <description>`
+  - Common types: `feat:` (new feature), `fix:` (bug fix), `refactor:` (code restructuring), `chore:` (maintenance), `docs:` (documentation), `test:` (test changes)
+  - Optionally include scope in parentheses for clarity: `feat(aws): add new icon support`
+  - Always include Co-authored-by trailer: `Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>`
   - Pre-release versions use `--prerelease alpha` flag
 
 ### NPM Package Details
