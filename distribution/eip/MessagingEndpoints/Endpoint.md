@@ -1,0 +1,125 @@
+# Endpoint
+
+
+```text
+eip/MessagingEndpoints/Endpoint
+```
+
+```text
+include('eip/MessagingEndpoints/Endpoint')
+```
+
+
+
+| Illustration | Endpoint | EndpointGroup |
+| :---: | :---: | :---: |
+| ![illustration for Illustration](../../eip/MessagingEndpoints/Endpoint.png) | ![illustration for Endpoint](../../eip/MessagingEndpoints/Endpoint.Local.png) | ![illustration for EndpointGroup](../../eip/MessagingEndpoints/EndpointGroup.Local.png) |
+
+
+
+## Sprites
+The item provides the following sriptes:
+
+- `<$EndpointXs>`
+- `<$EndpointSm>`
+- `<$EndpointMd>`
+- `<$EndpointLg>`
+
+
+
+
+
+## Endpoint
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('eip/bootstrap')
+
+' loads the Item which embeds the element Endpoint
+include('eip/MessagingEndpoints/Endpoint')
+
+' renders the element
+Endpoint('Endpoint', 'Endpoint', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('eip/bootstrap')
+
+' loads the Item which embeds the element Endpoint
+include('eip/MessagingEndpoints/Endpoint')
+
+' renders the element
+Endpoint('Endpoint', 'Endpoint', 'an optional tech label', 'an optional description')
+@enduml
+```
+
+## EndpointGroup
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('eip/bootstrap')
+
+' loads the Item which embeds the element EndpointGroup
+include('eip/MessagingEndpoints/Endpoint')
+
+' renders the element
+EndpointGroup('EndpointGroup', 'Endpoint Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('eip/bootstrap')
+
+' loads the Item which embeds the element EndpointGroup
+include('eip/MessagingEndpoints/Endpoint')
+
+' renders the element
+EndpointGroup('EndpointGroup', 'Endpoint Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml
+```
+

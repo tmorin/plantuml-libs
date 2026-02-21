@@ -8,7 +8,7 @@ import {
   LibraryFactory,
 } from "../generator/workdir/factories"
 import { DomainstorytellingFactory } from "./packages/domainstorytelling"
-import { Eip1Factory } from "./packages/eip-1"
+import { EipFactory } from "./packages/eip"
 import { EventstormingFactory } from "./packages/eventstorming"
 import { FontawesomeFactory } from "./packages/fontawesome"
 import { GcpFactory } from "./packages/gcp"
@@ -23,7 +23,7 @@ const PACKAGE_FACTORIES = [
   new C4nordFactory(),
   new C4K8sFactory(),
   new DomainstorytellingFactory(),
-  new Eip1Factory(),
+  new EipFactory(),
   new EventstormingFactory(),
   new FontawesomeFactory(),
   new GcpFactory(),
